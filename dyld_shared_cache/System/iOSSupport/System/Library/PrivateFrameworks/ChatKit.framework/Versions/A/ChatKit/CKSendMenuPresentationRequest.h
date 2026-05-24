@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuViewController, UIViewController;
 @protocol CKSceneOverlayPresentationContext;
 
 @interface CKSendMenuPresentationRequest
 {
     id <CKSceneOverlayPresentationContext> _presentationContext;
-    CKSendMenuViewController *_sendMenuViewController;
-    UIViewController *_appCardContentViewController;
-    unsigned long long _resolvedAppCardPresentationStyle;
-    CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
-+ (id);
++ (id)t;
++ (id)e;
+- (void)ic_fontWithRoundedDesign;
+- (void)ributeName:(unsigned long long)arg1;
+- (void)allowsUnmanagedToManagedMove;
+- (id)_webViewHeaderHeight: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_endAngle;
+- (id)webView;
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)t;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -35,11 +30,7 @@
 - (void)ìè°ð¤;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *appCardContentViewController; // @synthesize appCardContentViewController=_appCardContentViewController;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) id <CKSceneOverlayPresentationContext> presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(nonatomic) unsigned long long resolvedAppCardPresentationStyle; // @synthesize resolvedAppCardPresentationStyle=_resolvedAppCardPresentationStyle;
-@property(retain, nonatomic) CKSendMenuViewController *sendMenuViewController; // @synthesize sendMenuViewController=_sendMenuViewController;
 
 @end
 

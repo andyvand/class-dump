@@ -5,6 +5,6 @@
 //
 
 @protocol FCCacheInvalidating
-- (void)ction;
+- (void)FormatVersioningModeSelection;
 @end
 

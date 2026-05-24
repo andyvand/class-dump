@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITraitCollection;
+
 @protocol _UIScrollerImpDelegate
+- (void)ConnectionToServer;
+- (void)RegenerativeConnection;
+- (void)TrampolineXPCListenerDelegate;
+
+@optional
+- (UITraitCollection *);
+- (void)N;
 @end
 

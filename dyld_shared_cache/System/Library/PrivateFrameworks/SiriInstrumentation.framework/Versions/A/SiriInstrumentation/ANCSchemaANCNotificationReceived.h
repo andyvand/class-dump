@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ANCSchemaANCAppNotificationMetadata, ANCSchemaANCAudioDevice, ANCSchemaANCBackgroundContent, NSData, SISchemaUUID;
-
 @interface ANCSchemaANCNotificationReceived : SISchemaInstrumentationMessage
 {
     int _announcementCategory;
-    int _targetPlatform;
-    ANCSchemaANCAudioDevice *_connectedAudioDevice;
-    _Bool _isTimeSensitiveAnnouncement;
-    int _appCategory;
-    SISchemaUUID *_linkId;
-    ANCSchemaANCBackgroundContent *_backgroundContent;
-    ANCSchemaANCAppNotificationMetadata *_notificationMetadata;
-    int _bobbleEnabled;
-    int _bobbleSupported;
-    struct {
-        unsigned int announcementCategory:1;
-        unsigned int targetPlatform:1;
-        unsigned int isTimeSensitiveAnnouncement:1;
-        unsigned int appCategory:1;
-        unsigned int bobbleEnabled:1;
-        unsigned int bobbleSupported:1;
-    } _has;
-    _Bool _hasConnectedAudioDevice;
-    _Bool _hasLinkId;
-    _Bool _hasBackgroundContent;
-    _Bool _hasNotificationMetadata;
 }
 
 - (void);
@@ -52,10 +29,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,47 +54,27 @@
 - (int);
 - (_Bool);
 - (int);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (int);
 - (void);
+- (id)soryBrowser stopSearchingForUnconfiguredAccessories];
 - (id);
-- (id);
-- (void);
+- (void)+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)utInSec: /* Error: Ran out of types for this method. */;
+- (id)setTimeDeltaToTextInputInSec: /* Error: Ran out of types for this method. */;
 - (id)ä;
-- (id)_VOC;
+- (id)USOBACKINGAPPBUNDLETYPE_SIRI_NL_VOC;
 - (void)Â¥ÿÇ;
 
 // Remaining properties
 @property(nonatomic) int announcementCategory; // @synthesize announcementCategory=_announcementCategory;
-@property(nonatomic) int appCategory; // @synthesize appCategory=_appCategory;
-@property(retain, nonatomic) ANCSchemaANCBackgroundContent *backgroundContent; // @synthesize backgroundContent=_backgroundContent;
-@property(nonatomic) int bobbleEnabled; // @synthesize bobbleEnabled=_bobbleEnabled;
-@property(nonatomic) int bobbleSupported; // @synthesize bobbleSupported=_bobbleSupported;
-@property(retain, nonatomic) ANCSchemaANCAudioDevice *connectedAudioDevice; // @synthesize connectedAudioDevice=_connectedAudioDevice;
-@property(nonatomic) _Bool hasAnnouncementCategory;
-@property(nonatomic) _Bool hasAppCategory;
-@property(nonatomic) _Bool hasBackgroundContent; // @synthesize hasBackgroundContent=_hasBackgroundContent;
-@property(nonatomic) _Bool hasBobbleEnabled;
-@property(nonatomic) _Bool hasBobbleSupported;
-@property(nonatomic) _Bool hasConnectedAudioDevice; // @synthesize hasConnectedAudioDevice=_hasConnectedAudioDevice;
-@property(nonatomic) _Bool hasIsTimeSensitiveAnnouncement;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasNotificationMetadata; // @synthesize hasNotificationMetadata=_hasNotificationMetadata;
-@property(nonatomic) _Bool hasTargetPlatform;
-@property(nonatomic) _Bool isTimeSensitiveAnnouncement; // @synthesize isTimeSensitiveAnnouncement=_isTimeSensitiveAnnouncement;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) ANCSchemaANCAppNotificationMetadata *notificationMetadata; // @synthesize notificationMetadata=_notificationMetadata;
-@property(nonatomic) int targetPlatform; // @synthesize targetPlatform=_targetPlatform;
 
 @end
 

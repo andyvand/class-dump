@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFClientInfo, NSString;
+@class AFClientInfo;
 
 @interface _AFClientInfoMutation
 {
     AFClientInfo *_base;
-    int _processIdentifier;
-    NSString *_processName;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasProcessIdentifier:1;
-        unsigned int hasProcessName:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -23,17 +16,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)erride;
-- (void)RequestTimeout;
+- (id)siriResponseShouldAlwaysPrintWithoutOverride;
+- (void)_invokeRequestTimeout;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

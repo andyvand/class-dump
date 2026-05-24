@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTAccountPublicID, NSData, NSString, TransparencyApplication;
+@class NSString, TransparencyApplication;
 
 @interface KTAccountKey
 {
     NSString *_applicationIdentifier;
-    TransparencyApplication *_application;
-    NSData *__accountPublicKeyInfo;
 }
 
 + (id);
@@ -18,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)$;
+- (id)%;
 - (id);
 - (id);
 - (id);
@@ -30,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *_accountPublicKeyInfo; // @synthesize _accountPublicKeyInfo=__accountPublicKeyInfo;
-@property(readonly) KTAccountPublicID *accountPublicID;
-@property(readonly) NSData *accountPublicKey;
-@property(readonly) NSData *accountPublicKeyInfo;
 @property(retain) TransparencyApplication *application; // @synthesize application=_application;
-@property(readonly) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 
 @end
 

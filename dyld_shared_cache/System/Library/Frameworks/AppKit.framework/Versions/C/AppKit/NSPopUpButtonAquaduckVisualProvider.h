@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButtonCell, NSColor, NSImage;
+@class NSButtonCell;
 
 __attribute__((visibility("hidden")))
 @interface NSPopUpButtonAquaduckVisualProvider
 {
     void buttonCell;
-    id button;
-    id _hostingViewIfExists;
-    id bezelConfiguration;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setIgnoreHostOnlyFlag:(id)arg1;
 + (_Bool)Ôì/Ð!ÄEùá3ð1Â0@ù
 × ;
 - (unsigned long long);
@@ -27,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect)">32;
+- (void)r,s;
 - (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (struct CGPoint);
+- (id)ublic}@ will wait on AppSSO for creds;
+- (id)ling PAT headers %@ error %@;
+- (int)tifier %lu;
+- (struct CGPoint)uration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (void);
 - (long long);
 - (struct CGRect);
@@ -43,46 +40,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (int);
+- (void)Library/PrivateFrameworks/DuetActivityScheduler.framework/Versions/A/DuetActivityScheduler;
+- (_Bool)get_dst;
+- (struct CGRect)work.NSURLSession.{%@}{%@}{%c}{%d}{%p};
+- (void)decodeHandshake;
+- (struct CGRect)cate unknown;
+- (void)privacyProxyFailClosedForUnreachableNonMainHosts;
+- (void)quest;
+- (void)ary"8@?0;
+- (void)NSURLSessionDelegateImplementsDidReceiveResponseKey;
+- (void)NSURLSessionDelegateImplementsWillSendRequestForEstablishedConnectionKey;
+- (void)_NSURLErrorPrivacyProxyFailureKey;
+- (void)NSURLSessionProxyErrorDomain;
+- (void)kConditionalConnectionIsDiscretionary;
+- (void)kConditionalConnectionRequirementPowerPluggedIn;
+- (struct CGSize)_nscfBridgeURLCacheSetMemoryCapacity:(struct CGRect)arg1;
+- (id)tBody stream error:%d /* Error: Ran out of types for this method. */;
+- (int)unsupported version;
 - (struct NSEdgeInsets);
+- (id)6zd;
+- (struct CGSize)6y6;
+- (void)6w7;
 - (id);
-- (struct CGSize);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (CDStruct_507282ca)ay;
+- (void)ng",C,D;
+- (CDStruct_c3b9c2ee)play;
 - (void);
 - (void)BøE;
 
 // Remaining properties
-@property(nonatomic, readonly) int blendModeForImageContent;
 @property(nonatomic) __weak NSButtonCell *buttonCell; // @synthesize buttonCell;
-@property(nonatomic, readonly) _Bool hasBezelTint;
-@property(nonatomic, readonly) _Bool hasDestructiveAppearance;
-@property(nonatomic, readonly) _Bool hasInactiveAppearance;
-@property(nonatomic, readonly) _Bool hasRolloverAppearance;
-@property(nonatomic, readonly) _Bool hasSubviews;
-@property(nonatomic, readonly) NSImage *indicatorImage;
-@property(nonatomic, readonly) long long interiorBackgroundStyle;
-@property(nonatomic, readonly) NSColor *preferredTemplateImageFillColor;
 
 @end
 

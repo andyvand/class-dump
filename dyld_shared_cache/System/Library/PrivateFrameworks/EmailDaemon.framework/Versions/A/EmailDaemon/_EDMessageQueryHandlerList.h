@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFOrderedDictionary, NSArray, NSMutableArray, NSMutableDictionary;
-
 @interface _EDMessageQueryHandlerList
 {
     CDUnknownBlockType _entryComparator;
-    NSArray *_sortDescriptors;
-    EFOrderedDictionary *_sectionPredicates;
-    NSMutableArray *_entryList;
-    NSMutableDictionary *_entriesByObjectID;
 }
 
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)4@;
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id)common_ListPosition_TwentyFifth;
 - (id);
 - (void)hLink;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allMessageGlobalIDs;
-@property(readonly, nonatomic) NSArray *allMessageObjectIDs;
-@property(readonly, nonatomic) NSMutableDictionary *entriesByObjectID; // @synthesize entriesByObjectID=_entriesByObjectID;
 @property(readonly, nonatomic) CDUnknownBlockType entryComparator; // @synthesize entryComparator=_entryComparator;
-@property(readonly, nonatomic) NSMutableArray *entryList; // @synthesize entryList=_entryList;
-@property(readonly, nonatomic) _Bool hasItemsInList;
-@property(readonly, copy, nonatomic) EFOrderedDictionary *sectionPredicates; // @synthesize sectionPredicates=_sectionPredicates;
-@property(readonly, copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

@@ -6,13 +6,10 @@
 
 #import <Reveal/RVMenuItem.h>
 
-@class RVPopoverPresenter;
-
 __attribute__((visibility("hidden")))
 @interface RVTranslateMenuItem : RVMenuItem
 {
     long long _type;
-    RVPopoverPresenter *_popoverPresenter;
 }
 
 + (id);

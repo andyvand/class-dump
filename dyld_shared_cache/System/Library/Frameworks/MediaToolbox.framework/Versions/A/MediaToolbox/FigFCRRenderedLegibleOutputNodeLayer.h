@@ -24,7 +24,7 @@
 - (void);
 - (void)!pEù1-Ð1Â0@ù
 × ;
-- (id)ionStringAttributeItalic;
+- (id)QuickTimeClosedCaptionStringAttributeItalic;
 
 @end
 

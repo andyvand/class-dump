@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PXDiagnosticsNotificationCenter
 {
     long long _nextReplyID;
-    NSMutableDictionary *_pendingReplyHandles;
 }
 
 - (void);

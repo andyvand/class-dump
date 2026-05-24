@@ -6,13 +6,9 @@
 
 #import <IMCore/IMMessagePartChatItem.h>
 
-@class NSAttributedString;
-
 @interface IMTextMessagePartChatItem : IMMessagePartChatItem
 {
     _Bool _isShowingEditHistory;
-    _Bool _showTranslationAlternateText;
-    NSAttributedString *_subject;
 }
 
 @end

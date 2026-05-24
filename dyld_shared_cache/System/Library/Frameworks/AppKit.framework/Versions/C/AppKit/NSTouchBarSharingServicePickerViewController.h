@@ -6,28 +6,25 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSSharingServicePicker, NSStackView;
 @protocol NSSharingServicePickerTouchBarItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarSharingServicePickerViewController : NSViewController
 {
     id <NSSharingServicePickerTouchBarItemDelegate> _delegate;
-    NSSharingServicePicker *_picker;
-    NSStackView *_stackView;
 }
 
-- (void);
+- (void)ust root check (trustobject unset);
 - (_Bool);
 - (void);
-- (void);
+- (void)connection:didReceiveDataArray: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)rRange: /* Error: Ran out of types for this method. */;
-- (void)olLogCellStatistics;
+- (void)header;
+- (void)getLineStart:end:contentsEnd:forRange: /* Error: Ran out of types for this method. */;
+- (void)NSControlLogCellStatistics;
 
 // Remaining properties
 @property __weak id <NSSharingServicePickerTouchBarItemDelegate> delegate; // @synthesize delegate=_delegate;

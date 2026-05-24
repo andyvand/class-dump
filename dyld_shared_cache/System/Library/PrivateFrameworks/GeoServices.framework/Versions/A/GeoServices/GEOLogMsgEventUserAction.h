@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLogMsgEventUserActionModuleInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventUserAction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_actionRichProviderId;
-    GEOLogMsgEventUserActionModuleInfo *_moduleInfo;
-    NSString *_userActionEventKey;
-    NSString *_userActionEventValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _buttonType;
-    int _userActionEventAction;
-    int _userActionEventTarget;
-    struct {
-        unsigned int has_buttonType:1;
-        unsigned int has_userActionEventAction:1;
-        unsigned int has_userActionEventTarget:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionRichProviderId:1;
-        unsigned int read_moduleInfo:1;
-        unsigned int read_userActionEventKey:1;
-        unsigned int read_userActionEventValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ubactionType:(id)arg1;
++ (_Bool)setHasSubactionType:(id)arg1;
 - (void);
 - (id);
 - (void);
@@ -46,39 +24,39 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_builtInSeconPassProgressProvider;
+- (id)gerCandidate;
+- (id)ose update;
+- (id)deUpdateMonitor:(int)arg1 didReceiveLanguageCodeChanged:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)8^@52@?60Q68;
+- (void)R;
+- (int);
+- (id)#;
+- (int);
+- (void)m;
+- (int);
 - (_Bool);
 - (void);
-- (int);
 - (id);
-- (int);
-- (void);
-- (int);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)@;
 - (_Bool)ÔÁ'!LEù±·*°1Â0@ù
 × ;
 - (_Bool)@ù
 × ;
-- (id)uldCreateAlightExitGroup;
-- (_Bool)ing: /* Error: Ran out of types for this method. */;
-- (id)FamiliarRoute;
+- (id)shouldCreateAlightExitGroup;
+- (_Bool)feedbackRequestTypeAsString: /* Error: Ran out of types for this method. */;
+- (id)isFamiliarRoute;
 - (void)|E;
 - (id)È];
 - (void)\;
 - (id)sting directions of type `%@`%@ | %@;
-- (int)er_large_text;
+- (int)banner_large_text;
 - (id);
 - (void)BAýôÛ×I@;
 - (id)iM9 é2;
@@ -86,21 +64,7 @@
 - (int)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionRichProviderId;
-@property(nonatomic) int buttonType;
-@property(readonly, nonatomic) _Bool hasActionRichProviderId;
-@property(nonatomic) _Bool hasButtonType;
-@property(readonly, nonatomic) _Bool hasModuleInfo;
-@property(nonatomic) _Bool hasUserActionEventAction;
 @property(readonly, nonatomic) _Bool hasUserActionEventKey;
-@property(nonatomic) _Bool hasUserActionEventTarget;
-@property(readonly, nonatomic) _Bool hasUserActionEventValue;
-@property(retain, nonatomic) GEOLogMsgEventUserActionModuleInfo *moduleInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int userActionEventAction;
-@property(retain, nonatomic) NSString *userActionEventKey;
-@property(nonatomic) int userActionEventTarget;
-@property(retain, nonatomic) NSString *userActionEventValue;
 
 @end
 

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSString *_textForOverride;
 }
 
-- (void);
+- (void)ICCompatibilityAlertHelper;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)headerViewDelegates;
 - (void);
 
 // Remaining properties

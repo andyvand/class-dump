@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMDeviceSetupSession, NSError, NSObject, NSString;
-@protocol HMDeviceSetupOperationTransport, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMDeviceSetupOperationBase
 {
     struct os_unfair_lock_s _lock;
-    _Bool _executing;
-    _Bool _finished;
-    NSError *_error;
-    HMAccessory *_accessory;
-    id <HMDeviceSetupOperationTransport> _sessionTransport;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMDeviceSetupSession *_setupSession;
 }
 
-+ (_Bool)lesMessageKey;
-+ (id)onIdentifierPayloadKey;
++ (_Bool)HMNetworkRouterFirewallRuleManagerRemoveLocalRulesMessageKey;
++ (id)HMMediaDestinationIdentifierPayloadKey;
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)_lock_result;
+- (id)is set. Asset:%@ /* Error: Ran out of types for this method. */;
+- (id)h;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)	8	M		0	#	;
+- (void)en_TN;
+- (void);
+- (void);
+- (id)setReCoalesce: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)È	;
@@ -49,20 +42,7 @@
 - (_Bool)}¤¨Ò;
 
 // Remaining properties
-@property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak id <HMDeviceSetupOperationTransport> sessionTransport; // @synthesize sessionTransport=_sessionTransport;
-@property(readonly, nonatomic) HMDeviceSetupSession *setupSession; // @synthesize setupSession=_setupSession;
-@property(readonly) Class superclass;
 
 @end
 

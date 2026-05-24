@@ -9,7 +9,6 @@
 @interface TIUserDictionaryTransaction
 {
     TIUserDictionaryEntryValue *_valueToDelete;
-    TIUserDictionaryEntryValue *_valueToInsert;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rebuildInProgressPendingWorkItem;
 - (void);
 - (void)
 ;
 
 // Remaining properties
 @property(retain, nonatomic) TIUserDictionaryEntryValue *valueToDelete; // @synthesize valueToDelete=_valueToDelete;
-@property(retain, nonatomic) TIUserDictionaryEntryValue *valueToInsert; // @synthesize valueToInsert=_valueToInsert;
 
 @end
 

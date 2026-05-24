@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
-
 @interface PKExpressTransactionState
 {
     unsigned char _uuid[16];
-    NSMutableSet *_TCIs;
-    _Bool _express;
-    _Bool _processing;
-    _Bool _associated;
-    NSString *_applicationIdentifier;
-    NSString *_keyIdentifier;
-    NSString *_passUniqueIdentifier;
-    NSString *_terminalReaderIdentifier;
-    unsigned long long _receivedEvents;
-    long long _standaloneTransactionType;
-    long long _type;
 }
 
 + (id);
@@ -32,13 +19,13 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)q.;
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)J;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,30 +36,17 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)lessThan200mIntervalHistograms;
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id)PasscodeFrom:toPasscode:completion: /* Error: Ran out of types for this method. */;
+- (long long)iju8h;
+- (id)changePasscodeFrom:toPasscode:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)N,V_authorization;
-- (void)nt;
+- (void)dynamicContent;
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *TCIs;
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, nonatomic, getter=isAssociated) _Bool associated; // @synthesize associated=_associated;
-@property(readonly, nonatomic, getter=isExpress) _Bool express; // @synthesize express=_express;
-@property(readonly, nonatomic, getter=isIgnorable) _Bool ignorable;
-@property(readonly, copy, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(readonly, nonatomic, getter=isProcessing) _Bool processing; // @synthesize processing=_processing;
-@property(readonly, nonatomic) unsigned long long receivedEvents; // @synthesize receivedEvents=_receivedEvents;
-@property(readonly, nonatomic) long long standaloneTransactionType; // @synthesize standaloneTransactionType=_standaloneTransactionType;
-@property(readonly, nonatomic) long long status;
-@property(readonly, copy, nonatomic) NSString *terminalReaderIdentifier; // @synthesize terminalReaderIdentifier=_terminalReaderIdentifier;
-@property(readonly, nonatomic) _Bool transacted;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

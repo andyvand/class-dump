@@ -8,19 +8,16 @@ __attribute__((visibility("hidden")))
 @interface VCServerBag
 {
     struct _opaque_pthread_cond_t isLoadedCondition;
-    struct _opaque_pthread_mutex_t isLoadedMutex;
-    _Bool isLoaded;
-    id observer;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)+;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (id)LSetAck;
++ (void);
++ (id)DLSetAck;
 - (void);
 - (id);
 

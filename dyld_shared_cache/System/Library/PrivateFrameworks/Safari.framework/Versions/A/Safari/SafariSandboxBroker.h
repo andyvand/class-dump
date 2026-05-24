@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, WBSSecureDefaults;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class WBSSecureDefaults;
 
 @interface SafariSandboxBroker
 {
     WBSSecureDefaults *_secureDefaults;
-    NSObject<OS_dispatch_group> *_archiveGroup;
-    struct os_unfair_lock_s _cachedDownloadLocationURLLock;
-    NSObject<OS_dispatch_queue> *_downloadWorkQueue;
-    NSURL *_downloadMetadataFileURL;
-    NSMutableDictionary *_identifiersToDownloadEntries;
-    NSURL *_cachedDownloadLocationURL;
 }
 
 + (id);
@@ -31,12 +24,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -79,17 +72,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysPromptForDownloadFolder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool downloadLocationIsForced;
-@property(retain, nonatomic) NSURL *downloadLocationURL; // @synthesize downloadLocationURL=_cachedDownloadLocationURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *homepageURL;
-@property(readonly) Class superclass;
 
 @end
 

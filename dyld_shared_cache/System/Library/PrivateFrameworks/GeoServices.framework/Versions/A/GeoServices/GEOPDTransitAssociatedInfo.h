@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTransitAssociatedInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _alewifeId;
-    struct {
-        unsigned int has_alewifeId:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)requestDomainInfoWithCompletion:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)read_destinationName"b1"read_destination"b1"read_nextDestinationName"b1"read_origin"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id)onParameters;
+- (id)_searchZeroKeywordWithSearchResultsSuggestionParameters;
 - (id)<r;
 - (void);
 

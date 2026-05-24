@@ -7,15 +7,6 @@
 @interface TextToSpeech.CoreSynthesizer.UtteranceRunner
 {
     id executor;
-    id owner;
-    id rootUtterance;
-    id speechTree;
-    id silent;
-    id state;
-    id suspendedState;
-    id eventContinuation;
-    id receivedFirstBuffer;
-    id playedFirstBuffer;
 }
 
 @end

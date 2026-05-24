@@ -9,13 +9,6 @@
 @interface PKDSPContext
 {
     NSString *_secureElementID;
-    NSString *_serverEndpointIdentifier;
-    NSString *_cardholderName;
-    NSString *_phoneNumber;
-    NSString *_peerPaymentRecipientAddress;
-    unsigned long long _eventFrequency;
-    NSString *_primaryAppleAccountFirstName;
-    NSString *_primaryAppleAccountLastName;
 }
 
 + (_Bool)X"°!\Eùî%°1Â0@ù
@@ -28,31 +21,24 @@
 - (id);
 - (id);
 - (id);
+- (id)@9_;
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)hasScoRetransmission1DenyCount;
+- (id)splitModeDuration;
 - (void);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardholderName; // @synthesize cardholderName=_cardholderName;
-@property(nonatomic) unsigned long long eventFrequency; // @synthesize eventFrequency=_eventFrequency;
-@property(copy, nonatomic) NSString *peerPaymentRecipientAddress; // @synthesize peerPaymentRecipientAddress=_peerPaymentRecipientAddress;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 @property(copy, nonatomic) NSString *primaryAppleAccountFirstName; // @synthesize primaryAppleAccountFirstName=_primaryAppleAccountFirstName;
-@property(copy, nonatomic) NSString *primaryAppleAccountLastName; // @synthesize primaryAppleAccountLastName=_primaryAppleAccountLastName;
-@property(copy, nonatomic) NSString *secureElementID; // @synthesize secureElementID=_secureElementID;
-@property(copy, nonatomic) NSString *serverEndpointIdentifier; // @synthesize serverEndpointIdentifier=_serverEndpointIdentifier;
 
 @end
 

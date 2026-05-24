@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialPRFAssertionInputValues, NSDictionary;
+@class ASAuthorizationPublicKeyCredentialPRFAssertionInputValues;
 
 @interface ASAuthorizationPublicKeyCredentialPRFAssertionInput
 {
     ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues;
-    void perCredentialInputValues;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues; // @synthesize inputValues;
-@property(nonatomic, readonly) NSDictionary *perCredentialInputValues;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol WFWorkflowRunnerClientDelegate
+
+@optional
+- (void);
+- (void));
 @end
 

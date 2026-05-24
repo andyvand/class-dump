@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor, UIImageView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UIParallaxDimmingView : UIView
 {
     UIImageView *leftEdgeFade;
-    double _backgroundDimmingAmount;
-    UIColor *_dimmingColor;
-    UIView *_addingSubview;
 }
 
 - (double);
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)sing a deprecated class:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)!hGù±\Ð1Â0@ù
 × ;
 - (id)× ;
 - (void);
-- (void)ionWithBuilder:recursive: /* Error: Ran out of types for this method. */;
-- (id)ionToPreview;
+- (void)_updateDescriptionWithBuilder:recursive: /* Error: Ran out of types for this method. */;
+- (id)_handleDidTransitionToPreview;
 - (void)øð;
 - (id)t0ÄT;
 - (void)Ì;
@@ -36,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *addingSubview; // @synthesize addingSubview=_addingSubview;
 @property(nonatomic) double backgroundDimmingAmount; // @synthesize backgroundDimmingAmount=_backgroundDimmingAmount;
-@property(retain, nonatomic) UIColor *dimmingColor; // @synthesize dimmingColor=_dimmingColor;
-@property(readonly, nonatomic) double presentationDimmingAmount;
 
 @end
 

@@ -4,16 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFTimePeriodBulletinConditionDatabaseID;
-@protocol MKFBulletinTimeSpecification, MKFHome;
+@class NSUUID, Protocol;
+@protocol MKFBulletinTimeSpecification, MKFHome, MKFSunriseSunsetTimeSpecification, MKFTimeOfDayTimeSpecification;
 
 @protocol MKFTimePeriodBulletinCondition
+- (void);
+- (id <MKFTimeOfDayTimeSpecification>);
+- (id <MKFTimeOfDayTimeSpecification>)ipMessagesCapabilityFetchingQueue";
+- (id <MKFSunriseSunsetTimeSpecification>)ingQueue"16@"NSDictionary"24;
+- (id <MKFTimeOfDayTimeSpecification>)FeedbackUserInfo";
+- (id <MKFSunriseSunsetTimeSpecification>)SData"@"NSError">24@?<v@?B>32;
+- (id <MKFTimeOfDayTimeSpecification>)_subscribeToSharedTripUpdatesWithIdentifier:(NSUUID *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MKFSunriseSunsetTimeSpecification>)_storedMapRegion;
+- (id <MKFBulletinTimeSpecification>)_stopSharingWithContactValue:(Protocol *)arg1 reason:(NSUUID *)arg2 queue:completion: /* Error: Ran out of types for this method. */;
+- (id <MKFTimeOfDayTimeSpecification>)_initWithOwningContainer:(NSUUID *)arg1;
+- (id <MKFSunriseSunsetTimeSpecification>)_initPendingStateIfNeededWithTransportType:(NSUUID *)arg1 isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
+- (id <MKFBulletinTimeSpecification>)_indexesOfReplacedObjects;
+- (void)both statues yet;
+- (void)ck off, will retry in %#.1lfs;
 - (id <MKFHome>);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFTimePeriodBulletinConditionDatabaseID *databaseID;
 @property(retain, nonatomic) id <MKFBulletinTimeSpecification> endElement;
-@property(readonly) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFBulletinTimeSpecification> startElement;
 @end
 

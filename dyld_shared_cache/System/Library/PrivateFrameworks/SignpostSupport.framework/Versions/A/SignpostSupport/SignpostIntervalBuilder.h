@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, SignpostCAInstrumentationProcessor;
+@class NSMutableDictionary;
 
 @interface SignpostIntervalBuilder
 {
     _Bool _buildSkyLightAnimationCompositeIntervalTimelines;
-    _Bool _skyLightCompositeIntervalIsInFlight;
-    _Bool _isProcessingSplitAnimations;
-    double _maximumAnimationIntervalProcessingDuration;
-    NSMutableDictionary *_systemwideDictionary;
-    NSMutableDictionary *_processwideDictionary;
-    NSMutableDictionary *_threadwideDictionary;
-    NSMapTable *_outstandingAnimationState;
-    NSMutableDictionary *_pidToProcessNameDictionary;
-    unsigned long long _totalSkyLightCompositeIntervalCount;
-    unsigned long long _previousMCT;
-    SignpostCAInstrumentationProcessor *_caInstrumentationProcessor;
 }
 
 + (id);
@@ -30,8 +19,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)A;
+- (void)deletePeripheralIdentifierForAccessoryIdentifier:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -45,7 +34,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -54,15 +43,61 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
+- (void);
 - (void);
+- (_Bool)spatch_queue>";
+- (id)E;
+- (_Bool)essibilitySupport-1
+;
+- (id);
 - (void);
-- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (double);
+- (double)num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+io        count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+pmi       count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+macf      count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+vm_fault  count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+page grab count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+unknown   count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes);
 - (id);
 - (id);
 - (void);
@@ -76,19 +111,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool buildSkyLightAnimationCompositeIntervalTimelines; // @synthesize buildSkyLightAnimationCompositeIntervalTimelines=_buildSkyLightAnimationCompositeIntervalTimelines;
-@property(readonly, nonatomic) SignpostCAInstrumentationProcessor *caInstrumentationProcessor; // @synthesize caInstrumentationProcessor=_caInstrumentationProcessor;
-@property(readonly, nonatomic) _Bool hasOutstandingAnimations;
-@property(nonatomic) _Bool isProcessingSplitAnimations; // @synthesize isProcessingSplitAnimations=_isProcessingSplitAnimations;
-@property(nonatomic) double maximumAnimationIntervalProcessingDuration; // @synthesize maximumAnimationIntervalProcessingDuration=_maximumAnimationIntervalProcessingDuration;
-@property(retain, nonatomic) NSMapTable *outstandingAnimationState; // @synthesize outstandingAnimationState=_outstandingAnimationState;
-@property(readonly, nonatomic) NSMutableDictionary *pidToProcessNameDictionary; // @synthesize pidToProcessNameDictionary=_pidToProcessNameDictionary;
-@property(nonatomic) unsigned long long previousMCT; // @synthesize previousMCT=_previousMCT;
-@property(readonly, nonatomic) NSMutableDictionary *processwideDictionary; // @synthesize processwideDictionary=_processwideDictionary;
-@property(nonatomic) _Bool skyLightCompositeIntervalIsInFlight; // @synthesize skyLightCompositeIntervalIsInFlight=_skyLightCompositeIntervalIsInFlight;
 @property(readonly, nonatomic) NSMutableDictionary *systemwideDictionary; // @synthesize systemwideDictionary=_systemwideDictionary;
-@property(readonly, nonatomic) NSMutableDictionary *threadwideDictionary; // @synthesize threadwideDictionary=_threadwideDictionary;
-@property(nonatomic) unsigned long long totalSkyLightCompositeIntervalCount; // @synthesize totalSkyLightCompositeIntervalCount=_totalSkyLightCompositeIntervalCount;
 
 @end
 

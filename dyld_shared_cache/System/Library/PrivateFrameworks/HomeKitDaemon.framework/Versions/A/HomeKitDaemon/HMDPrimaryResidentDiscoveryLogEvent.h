@@ -4,66 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentDiscoveryLogEvent
 {
     _Bool _residentChannelActive;
-    _Bool _residentChannelActiveNoPrimaryResolved;
-    _Bool _accountMessageSent;
-    _Bool _accountMessageNoPrimaryResolved;
-    NSError *_residentChannelActiveResolvePrimaryError;
-    NSError *_accountMessageError;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�
+;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)edTripCapabilityType_Unknown. Already waiting for response.;
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ngCounter;
+- (void)HMDLogEventPeakConcurrentIPAccessoryUpdateStagingCounter;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain, nonatomic) NSError *accountMessageError; // @synthesize accountMessageError=_accountMessageError;
-@property(nonatomic) _Bool accountMessageNoPrimaryResolved; // @synthesize accountMessageNoPrimaryResolved=_accountMessageNoPrimaryResolved;
-@property(nonatomic) _Bool accountMessageSent; // @synthesize accountMessageSent=_accountMessageSent;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(nonatomic) _Bool residentChannelActive; // @synthesize residentChannelActive=_residentChannelActive;
-@property(nonatomic) _Bool residentChannelActiveNoPrimaryResolved; // @synthesize residentChannelActiveNoPrimaryResolved=_residentChannelActiveNoPrimaryResolved;
-@property(retain, nonatomic) NSError *residentChannelActiveResolvePrimaryError; // @synthesize residentChannelActiveResolvePrimaryError=_residentChannelActiveResolvePrimaryError;
-@property(readonly) Class superclass;
 
 @end
 

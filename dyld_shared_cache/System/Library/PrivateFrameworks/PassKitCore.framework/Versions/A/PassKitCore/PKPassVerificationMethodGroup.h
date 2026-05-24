@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPassVerificationMethod;
+@class NSString;
 
 @interface PKPassVerificationMethodGroup
 {
     NSString *_identifier;
-    NSArray *_methods;
 }
 
-+ (id);
++ (id);
 + (_Bool)X"!Bùqî%ð1Â0@ù
 × ;
 - (_Bool);
@@ -29,25 +28,16 @@
 - (id);
 - (id);
 - (id);
+- (id)l;
+- (unsigned long long)	;
+- (void)commanderHalted;
 - (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id)InfoSectionTitle;
-- (void)ymentRequest;
+- (id)cardholderInfoSectionTitle;
+- (void)PKIDSGeneralMessageIDPaymentRequest;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCardReadOnly;
-@property(readonly, nonatomic) _Bool isSMSOTP;
-@property(readonly, nonatomic) NSArray *methods; // @synthesize methods=_methods;
-@property(readonly, nonatomic) _Bool needsServerRequest;
-@property(readonly, nonatomic) PKPassVerificationMethod *onlyMethod;
-@property(readonly, nonatomic) _Bool requiresUserInteraction;
-@property(readonly, nonatomic) _Bool supportedOnCurrentDevice;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) _Bool usesExternalView;
 
 @end
 

@@ -9,14 +9,13 @@
 @interface OSSystemExtensionManager
 {
     struct os_unfair_lock_s lock;
-    NSMutableArray *_requests;
 }
 
 + (id);
+- (void)SocketPairResourceTransferSender:(id)arg1 created with path %@  metadata %@ sequenceNumber %lu streamID %u expectsPeerResponse %@ wantsAppAck %@ compressed %@ peerResponseIdentifier %@ messageUUID %@ expiryDate %@;
+- (void)type %d does not support cancelReason;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)@ saved configuration '%@':%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

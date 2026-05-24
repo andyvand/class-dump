@@ -13,7 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasVersion; // @dynamic hasVersion;
 @property(nonatomic) int version; // @dynamic version;
 
 @end

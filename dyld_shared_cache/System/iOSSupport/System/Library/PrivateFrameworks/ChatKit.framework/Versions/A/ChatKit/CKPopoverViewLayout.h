@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPopoverViewLayoutConfiguration;
-
 @interface CKPopoverViewLayout
 {
     _Bool _mutating;
-    unsigned long long _state;
-    CKPopoverViewLayoutConfiguration *_configuration;
-    struct CGSize _containerSize;
-    struct CGSize _preferredContentSize;
-    struct CGPoint _anchorCenter;
-    struct CGSize _anchorSize;
 }
 
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
+- (void)authenticateDevicePasswordWithPrompt:(_Bool)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)rdAttempts;
+- (struct CGRect)ICMediaTime;
+- (id)v;
 - (_Bool);
-- (struct CGRect);
-- (struct CGPoint);
+- (struct CGRect)ine index from `ic_indexOfObjectAtIndexPath:in:itemsPerSection:` arrangedObjects.count should match the total number of items in each section in itemsPerSection. /* Error: Ran out of types for this method. */;
+- (struct CGPoint)than arrangedObjects.count.;
 - (void);
 - (void);
 - (void);
@@ -40,14 +32,7 @@
 - (void)È¸;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint anchorCenter; // @synthesize anchorCenter=_anchorCenter;
-@property(readonly, nonatomic) struct CGRect anchorFrameInContainer;
-@property(nonatomic) struct CGSize anchorSize; // @synthesize anchorSize=_anchorSize;
-@property(retain, nonatomic) CKPopoverViewLayoutConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
 @property(nonatomic, getter=isMutating, setter=setMutating:) _Bool mutating; // @synthesize mutating=_mutating;
-@property(nonatomic) struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

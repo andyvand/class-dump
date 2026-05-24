@@ -7,13 +7,11 @@
 @interface _EFMutableIndexMapTuple
 {
     unsigned long long _index;
-    long long _key;
-    id _object;
 }
 
 - (id);
 - (long long);
-- (void);
+- (void)iew";
 - (unsigned long long);
 - (void);
 - (void);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) long long key; // @synthesize key=_key;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

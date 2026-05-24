@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface EMMessageHeaders
 {
@@ -12,19 +12,18 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)5	;
 - (void);
 - (void);
 - (void)=°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *headerKeys;
 @property(copy, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
 
 @end

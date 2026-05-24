@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface SGTAccessiblitySuggestionMenuProxy
 {
     id parent;
-    NSView *menu;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);

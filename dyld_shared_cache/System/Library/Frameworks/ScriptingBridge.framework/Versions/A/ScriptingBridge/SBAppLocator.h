@@ -7,8 +7,6 @@
 @interface SBAppLocator
 {
     struct AEDesc _address;
-    BOOL _isCurrentProcess;
-    unsigned int _launchFlags;
 }
 
 - (id);
@@ -21,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)"2e;
 - (id);
 - (void);
 - (void);

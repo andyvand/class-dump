@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSViewLayerFilter)
-- (_Bool);
+- (_Bool):yy /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool NS_isSourceOver;

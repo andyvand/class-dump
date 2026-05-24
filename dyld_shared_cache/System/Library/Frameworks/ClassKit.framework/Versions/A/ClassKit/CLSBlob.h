@@ -6,22 +6,19 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSData, NSString;
-
 @interface CLSBlob : CLSObject
 {
     int _type;
-    NSData *_data;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)_cdpUIProvider;
+- (void)nComputeProgramGetProcedureNameFromThread(const struct ident_command *, const struct compute_thread_command *, const void *, const void *):(id)arg1:(anonymous class)::operator()(const void *const, size_t) const /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1 ;
 - (int);
 - (_Bool);
 - (id);
@@ -31,15 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

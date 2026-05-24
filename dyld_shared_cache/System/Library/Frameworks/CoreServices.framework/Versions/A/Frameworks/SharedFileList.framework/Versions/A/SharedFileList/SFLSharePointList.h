@@ -4,69 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSObject, NSString, SPMSharePointManager;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface SFLSharePointList
 {
     id _internalObservers;
-    id _internalSharePointManager;
-    id _items;
-    unsigned long long _seed;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct os_unfair_lock_s _internalObserverLock;
-    NSObject<OS_dispatch_group> *_internalInitializeGroup;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)tionBatchSize;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)q;
 - (void);
 - (id);
+- (void)ing",C,V_downloadToken;
+- (void);
 - (id);
+- (id)kCVPixelFormatType_OneComponent10;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
-- (unsigned long long)String;
+- (unsigned long long)lowercaseString;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allItems; // @dynamic allItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) SPMSharePointManager *internalSharePointManager; // @synthesize internalSharePointManager=_internalSharePointManager;
 @property(readonly) NSHashTable *observers; // @synthesize observers=_internalObservers;
-@property(copy) NSDictionary *properties; // @dynamic properties;
-@property(readonly) unsigned long long seed;
-@property(readonly, copy) NSArray *snapshotItems;
-@property(readonly) Class superclass;
 
 @end
 

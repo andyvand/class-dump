@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGBusinessItemQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
@@ -23,8 +18,8 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)omy:params: /* Error: Ran out of types for this method. */;
-- (void)ntextMinimumCropScore;
+- (id)_requiredCriteriaForIdentifiers:inferenceType:graph:sceneTaxonomy:params: /* Error: Ran out of types for this method. */;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextMinimumCropScore;
 
 @end
 

@@ -7,7 +7,8 @@
 @protocol UIKeyboardCandidateListDelegate
 
 @optional
-- (void)sion;
+- (void)ndicates we %s for filePath %s but we didn't find attachment in attachment store!;
+- (void)_lookupSession;
 - (void)D¬;
 - (void)àþÿ;
 - (void)_UISharedTextureWrapper;

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)nly;
+- (void)shouldReturnLastKnownStatusOnly;
 
 // Remaining properties
 @property(retain, nonatomic) ICSAPSession *sapSession; // @synthesize sapSession=_sapSession;

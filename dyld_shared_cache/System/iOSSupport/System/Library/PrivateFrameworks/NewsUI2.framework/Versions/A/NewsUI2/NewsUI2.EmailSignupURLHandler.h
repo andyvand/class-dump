@@ -7,11 +7,6 @@
 @interface NewsUI2.EmailSignupURLHandler
 {
     id patterns;
-    id navigator;
-    id newsletterManager;
-    id emailSignupModelFactory;
-    id fineGrainedNewslettersHandler;
-    id featureAvailability;
 }
 
 @end

@@ -7,7 +7,8 @@
 @class NSArray;
 
 @protocol MLComputeDeviceRegistryProtocol
-+ (id)iteUpdatableParamsToURL:error: /* Error: Ran out of types for this method. */;
++ (id)writeUpdatableParamsToURL:error: /* Error: Ran out of types for this method. */;
+- (NSArray *)copyKernel;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *registeredComputeDevices;

@@ -5,5 +5,8 @@
 //
 
 @protocol NSPasteboardReading
+
+@optional
++ (unsigned long long)h;
 @end
 

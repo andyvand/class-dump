@@ -7,8 +7,6 @@
 @interface SwiftUI._PreviewHost
 {
     id objectWillChange;
-    id environment;
-    id focusedValues;
 }
 
 @end

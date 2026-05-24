@@ -10,6 +10,10 @@
 
 @optional
 - (void);
+- (struct CGSize);
+- (NSArray *)у;
+- (void);
+- (struct CGSize)ivateBrowsing;
 - (NSArray *);
 - (void)BùÑ­ Ð1Â0@ù
 × ;
@@ -18,12 +22,13 @@
 - (void)1Â0@ù
 × ;
 - (void)Layout>";
-- (void)ommandBySelector:(NSNotification *)arg1;
-- (unsigned long long)aluesAffectingShowsFullScreenToggleButton;
-- (void)Recording;
-- (void)ionHasBeenSet;
-- (void)FirstResponderIfNeeded;
-- (void)ect:(NSNotification *)arg1;
+- (void)textView:(NSNotification *)arg1 doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (unsigned long long)keyPathsForValuesAffectingShowsFullScreenToggleButton;
+- (void)automaticallyNotifiesObserversOfRecording;
+- (void)_sessionHasBeenSet;
+- (void)_restorePreviousFirstResponderIfNeeded;
+- (struct CGRect)_avIntrinsicSize;
+- (void)containsObject:(NSNotification *)arg1;
 - (void)xëxì\ò`ò;
 - (_Bool);
 - (void)ictureSupported:(NSNotification *)arg1 %s

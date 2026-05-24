@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncDataUpdatedNotificationReceived : SISchemaInstrumentationMessage
 {
     unsigned long long _syncDataUpdateNotificationLatencyInMs;
-    struct {
-        unsigned int syncDataUpdateNotificationLatencyInMs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableAppResponse_macOS.m:35 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)tRecordRef, CFStringRef, CFStringRef, CFDictionaryRef, CFDictionaryRef, CFDictionaryRef);
 - (id);
-- (id);
-- (id)eBirthday;
+- (id);
+- (id)assistantDeviceBirthday;
 - (id)appUsageCount1Hr;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSyncDataUpdateNotificationLatencyInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long syncDataUpdateNotificationLatencyInMs; // @synthesize syncDataUpdateNotificationLatencyInMs=_syncDataUpdateNotificationLatencyInMs;
 
 @end

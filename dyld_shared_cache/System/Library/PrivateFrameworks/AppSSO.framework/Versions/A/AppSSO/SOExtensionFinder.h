@@ -11,14 +11,13 @@ __attribute__((visibility("hidden")))
 @interface SOExtensionFinder
 {
     NSObject<OS_dispatch_queue> *_extensionFinderQueue;
-    id _matchingContext;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)AM;
 - (void);
 - (id);
+- (void);
+- (id)long=%ld (%@);
 - (void);
 - (void);
 

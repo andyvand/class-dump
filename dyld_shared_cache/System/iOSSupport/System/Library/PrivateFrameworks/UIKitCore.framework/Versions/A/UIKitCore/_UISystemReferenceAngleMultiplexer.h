@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISystemReferenceAngleMultiplexer
 {
@@ -13,18 +11,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (unsigned long long);
-- (double);
-- (id);
+- (unsigned long long)existingSMSChatForID:(unsigned int)arg1 withChatStyle: /* Error: Ran out of types for this method. */;
+- (double)erval:(unsigned int)arg1 participants: /* Error: Ran out of types for this method. */;
+- (id)Reloading [retry, failed request];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

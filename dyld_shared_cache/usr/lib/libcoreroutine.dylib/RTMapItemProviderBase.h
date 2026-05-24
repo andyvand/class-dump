@@ -9,16 +9,15 @@
 @interface RTMapItemProviderBase
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTMapItemProviderBaseParameters *_baseParameters;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setRecordTypeForReading:(id)arg1;
+- (id)setQueryMissingKeys:(id)arg1;
+- (id)setObservers:(id)arg1;
+- (id)setNumberIdentityMissing:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTMapItemProviderBaseParameters *baseParameters; // @synthesize baseParameters=_baseParameters;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 
 @end
 

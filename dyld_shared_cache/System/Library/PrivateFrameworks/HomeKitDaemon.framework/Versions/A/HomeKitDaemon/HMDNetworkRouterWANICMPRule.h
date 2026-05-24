@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterICMPTypeList, HMDNetworkRouterIPAddress, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterWANICMPRule
 {
     NSString *_hostDNSName;
-    HMDNetworkRouterIPAddress *_hostIPStart;
-    HMDNetworkRouterIPAddress *_hostIPEnd;
-    HMDNetworkRouterICMPTypeList *_icmpTypes;
 }
 
-+ (id);
++ (id)momentOfSceneWithSearchConfidenceAssets;
 - (void);
 - (void);
+- (id)}@] block | already blocked:(id)arg1 %@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)I;
+- (id)I;
 - (void);
 - (void);
 - (void);
@@ -30,22 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id)led;
-- (void)Invitation;
+- (_Bool)P;
+- (id)isNonBulletinNotificationEnabled;
+- (void)homeIncomingInvitation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *hostDNSName; // @synthesize hostDNSName=_hostDNSName;
-@property(retain, nonatomic) HMDNetworkRouterIPAddress *hostIPEnd; // @synthesize hostIPEnd=_hostIPEnd;
-@property(retain, nonatomic) HMDNetworkRouterIPAddress *hostIPStart; // @synthesize hostIPStart=_hostIPStart;
-@property(retain, nonatomic) HMDNetworkRouterICMPTypeList *icmpTypes; // @synthesize icmpTypes=_icmpTypes;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, SISchemaVoiceSettings, TTSSchemaTTSVoiceContext;
+@class SISchemaVoiceSettings;
 
 @interface TTSSchemaTTSVoiceFallbackOccurred : SISchemaInstrumentationMessage
 {
     SISchemaVoiceSettings *_voiceSettings;
-    TTSSchemaTTSVoiceContext *_context;
-    SISchemaUUID *_contextId;
-    _Bool _hasVoiceSettings;
-    _Bool _hasContext;
-    _Bool _hasContextId;
 }
 
 - (void);
@@ -26,32 +21,26 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_cropRect;
+- (void);
+- (id)undMechanisms];
+- (_Bool)_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.is_read == 0  AND m.is_from_me == 0  AND m.item_type == 1  ORDER BY m.date DESC;;
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)ext;
-- (id)core;
+- (id)deleteRgRequestContext;
+- (id)_lrnnScore;
 - (_Bool),&,N,V_rtsMotionData;
-- (void)lmGeneratedAnswer;
+- (void)isLlmGeneratedAnswer;
 - (void)9SSG;
-- (id)maLINKActionPresentationStyle;
+- (id)LINKSchemaLINKActionPresentationStyle;
 
 // Remaining properties
-@property(retain, nonatomic) TTSSchemaTTSVoiceContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContext; // @synthesize hasContext=_hasContext;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasVoiceSettings; // @synthesize hasVoiceSettings=_hasVoiceSettings;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaVoiceSettings *voiceSettings; // @synthesize voiceSettings=_voiceSettings;
 
 @end

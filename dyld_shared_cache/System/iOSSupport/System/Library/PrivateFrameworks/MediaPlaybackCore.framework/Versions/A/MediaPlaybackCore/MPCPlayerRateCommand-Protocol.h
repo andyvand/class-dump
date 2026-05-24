@@ -8,7 +8,6 @@
 - (float)[MF shortcut on resolution] - Stopping playback;
 
 // Remaining properties
-@property(readonly, nonatomic) float maximumValue;
 @property(readonly, nonatomic) float minimumValue;
 @end
 

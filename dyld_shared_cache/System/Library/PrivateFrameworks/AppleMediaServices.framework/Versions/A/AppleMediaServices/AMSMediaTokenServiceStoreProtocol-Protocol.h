@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class AMSBinaryPromise, AMSMediaToken, AMSPromise;
 
 @protocol AMSMediaTokenServiceStoreProtocol
+- (AMSPromise *)ObjectiveCValue;
+- (AMSBinaryPromise *)AFCompanionDeviceInfo:(AMSMediaToken *)arg1:peerToPeerHandoffCapability /* Error: Ran out of types for this method. */;
 - (_Bool)¯'ÂgsÑ6çjåo³;SÜë¡m ¿ðÛ+	ïÊXYyó%S§Óà3*§¹g{
 Á2tc6ÇUË´-ÙÈ@~´¹JíMèü^º+îV"z¯©{.þÈ¢$câöuÕQbá6ÝW»ÆÅÄÅpvP<D/mò·¶Üæ8H\NºïJÐËV}åxI¼Þ)ÿRó%¢5[ÏÆ
 ·|`C&4± ë¤èôº[x`nq,1ØÂ¸ÈììZ(vçO';TÛÞ¹¾UÅWs'ÃýG~¬ñÍ1å`³e´Ö;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *keychainAccessGroup;
 @property(readonly, nonatomic) _Bool patBasedToken;
 @end
 

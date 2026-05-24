@@ -8,16 +8,16 @@
 {
 }
 
++ (void)__DATA;
++ (void);
++ (void)J	;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)isMemberOfClass:(id)arg1;
++ (void)ng",&,V_password;
++ (void)ewController;
 
 @end
 

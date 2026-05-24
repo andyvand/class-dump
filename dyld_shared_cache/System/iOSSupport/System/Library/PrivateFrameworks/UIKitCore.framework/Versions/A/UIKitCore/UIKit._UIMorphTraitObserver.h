@@ -7,9 +7,6 @@
 @interface UIKit._UIMorphTraitObserver
 {
     id traitObservationRegistration;
-    id morphTraits;
-    id observedView;
-    id viewToUpdate;
 }
 
 @end

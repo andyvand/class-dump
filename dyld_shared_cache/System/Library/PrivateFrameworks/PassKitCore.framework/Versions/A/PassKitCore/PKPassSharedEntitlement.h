@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PKPassShareTimeConfiguration;
+@class NSString;
 
 @interface PKPassSharedEntitlement
 {
     NSString *_entitlementIdentifier;
-    PKPassShareTimeConfiguration *_timeConfiguration;
-    unsigned long long _recipientShareability;
-    unsigned long long _recipientManageability;
-    unsigned long long _recipientVisibility;
-    NSNumber *_recipientCapabilityRole;
-    long long _creationVersion;
 }
 
 + (_Bool)0@ù
@@ -23,14 +17,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)*;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -46,24 +40,16 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)sockNecpClientuuidCount;
+- (_Bool)setHasIsAssociatedAtStudyEnd:(id)arg1;
+- (void)maxRTTSmallPktSize;
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)edAmountDataEventsForAccountIdentifier:(id)arg1 withStartDate:endDate:completion: /* Error: Ran out of types for this method. */;
-- (void)TED_LOCALLY_DESCRIPTION;
+- (id)billPaymentSelectedSuggestedAmountDataEventsForAccountIdentifier:(id)arg1 withStartDate:endDate:completion: /* Error: Ran out of types for this method. */;
+- (void)SHARE_REDEMPTION_ERROR_INVITATION_ORIGINATED_LOCALLY_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long carKeyEntitlementValue;
-@property(nonatomic) long long creationVersion; // @synthesize creationVersion=_creationVersion;
 @property(retain, nonatomic) NSString *entitlementIdentifier; // @synthesize entitlementIdentifier=_entitlementIdentifier;
-@property(nonatomic) _Bool intraAccountSharingEnabled;
-@property(retain, nonatomic) NSNumber *recipientCapabilityRole; // @synthesize recipientCapabilityRole=_recipientCapabilityRole;
-@property(nonatomic) unsigned long long recipientManageability; // @synthesize recipientManageability=_recipientManageability;
-@property(nonatomic) unsigned long long recipientShareability; // @synthesize recipientShareability=_recipientShareability;
-@property(nonatomic) unsigned long long recipientVisibility; // @synthesize recipientVisibility=_recipientVisibility;
-@property(retain, nonatomic) PKPassShareTimeConfiguration *timeConfiguration; // @synthesize timeConfiguration=_timeConfiguration;
 
 @end
 

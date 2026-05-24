@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGuidesHomeResultFilterTypeConcept, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuidesHomeResultFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDGuidesHomeResultFilterTypeConcept *_filterConcept;
-    NSMutableArray *_subFilters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _filterType;
-    struct {
-        unsigned int has_filterType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_filterConcept:1;
-        unsigned int read_subFilters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)N;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ult";
-- (id)entBodys;
+- (id)_educationalScreenPaymentBodys;
 - (id)X;
 - (void);
 

@@ -8,13 +8,15 @@
 @protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
 
 @protocol UITextRangeAdjustmentInteractionDelegate
+- (struct CGRect)containerView:(UITextRangeAdjustmentInteraction *)arg1 layoutFrameForArrangedSubview:withProposedFrame: /* Error: Ran out of types for this method. */;
+- (_Bool)RadioStationEvent;
 - (UIView<_UITextSelectionWidgetAnimating> *)Ôá!¨EùÑ\ð1Â0@ù
 × ;
 - (struct CGRect);
 - (id <UICoordinateSpace>)0@ù
 × ;
-- (void)tManager:(UITextRangeAdjustmentInteraction *)arg1 willChangeFromTextSelections:(struct CGPoint)arg2 toTextSelections:(struct CGPoint)arg3;
-- (_Bool)en:(UITextRangeAdjustmentInteraction *)arg1;
+- (void)textLayoutManager:(UITextRangeAdjustmentInteraction *)arg1 willChangeFromTextSelections:(struct CGPoint)arg2 toTextSelections:(struct CGPoint)arg3;
+- (_Bool)startDownload:(UITextRangeAdjustmentInteraction *)arg1 then: /* Error: Ran out of types for this method. */;
 - (void)7<;
 - (void)é43v;
 @end

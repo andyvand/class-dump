@@ -7,10 +7,11 @@
 @interface _AuthenticationServices_SwiftUI.AuthorizationOperation.PresentationContextProvider__priv_BCDE3EDBB9065C8EBFE58D5929093A33
 {
     id presentationAnchor;
+    id;
 }
 
 - (id);
-- (id);
+- (id)cachedImage;
 - (void);
 
 @end

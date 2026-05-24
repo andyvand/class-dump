@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2SearchResultsIncludedPureSuggestion
 {
     int _app;
-    NSString *_key;
-    CDStruct_2bda6786 _has;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)e;
+- (_Bool)on;
+- (id)dar.eventView.invitationDelete;
+- (void)d];
+- (int)d URL or Attachments;
 - (int);
-- (int);
 - (id);
-- (void);
+- (void)N`;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mPageSize;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)alyzeBody;
+- (void)shouldAnalyzeBody;
 - (void)©«;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

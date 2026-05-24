@@ -13,17 +13,17 @@
 
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
+- (_Bool)T;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)#;
 - (id);
-- (void);
+- (void)8S56@?60;
 - (void);
 
 @end

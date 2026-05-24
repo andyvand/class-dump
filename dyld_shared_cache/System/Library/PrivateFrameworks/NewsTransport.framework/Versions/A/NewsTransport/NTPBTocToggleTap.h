@@ -11,22 +11,21 @@
     NSData *_tocExposureId;
 }
 
+- (id)initWithMomentShare:underlyingAsset: /* Error: Ran out of types for this method. */;
+- (void)initWithExtendedTraitCollection:(id)arg1 options:padding:variant: /* Error: Ran out of types for this method. */;
+- (_Bool)dominantHeroPreferencesBeforeTransition;
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)isLoadingAssetSemaphore;
+- (_Bool)"SMCustomizeTreeNode_Client"16;
+- (_Bool)iguration due to failure to decode bundleOutputConfiguration from configuration %{public}@;
+- (id);
 - (id);
-- (id);
-- (void)serSegmentationSegmentSetIdsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)userSegmentationSegmentSetIdsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTocExposureId;
-@property(retain, nonatomic) NSData *tocExposureId; // @synthesize tocExposureId=_tocExposureId;
 
 @end
 

@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBDateTime;
+@class NSString;
 
 @protocol _INPBNote
-+ (Class)resetCache;
-- (NSString *)ultUnits: /* Error: Ran out of types for this method. */;
++ (Class)_resetCache;
+- (void);
+- (_Bool);
+- (void);
+- (NSString *)setValuesDefaultUnits: /* Error: Ran out of types for this method. */;
 - (void)tenceOfWatchAppForCompanionBundleID:(NSString *)arg1 handlingIntents:completion:] /* Error: Ran out of types for this method. */;
 - (void)teFrameworks/VoiceShortcuts.framework/VoiceShortcuts;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier;
-@property(copy, nonatomic) NSArray *contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(retain, nonatomic) _INPBDateTime *createdDateTime;
-@property(retain, nonatomic) _INPBDataString *groupName;
-@property(readonly, nonatomic) _Bool hasAccountIdentifier;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime;
-@property(retain, nonatomic) _INPBDataString *title;
 @end
 

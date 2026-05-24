@@ -5,5 +5,7 @@
 //
 
 @protocol CUIKOccurrenceCacheDataSourceProtocol
+- (_Bool);
+- (void);
 @end
 

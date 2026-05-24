@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (Class);
-- (id);
++ (_Bool)URL",R,C,N,V_telemetryURL;
++ (Class)E9?;
+- (id)ingModelVersion:(id)arg1 ];
 - (id);
 - (id);
 

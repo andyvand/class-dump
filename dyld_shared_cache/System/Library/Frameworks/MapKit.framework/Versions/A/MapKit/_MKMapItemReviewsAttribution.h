@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id)EQConfigTreble;
+- (void)setLatitude: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addReviewURLs;

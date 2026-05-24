@@ -6,22 +6,13 @@
 
 #import <Foundation/NSObservationBuffer.h>
 
-@class NSMutableArray, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSConcreteObservationBuffer : NSObservationBuffer
 {
     NSObject<OS_dispatch_queue> *_inputQueue;
-    NSOperationQueue *_outputQueue;
-    long long _policy;
-    int _state;
-    struct _opaque_pthread_mutex_t _lock;
-    NSMutableArray *_dequeue;
-    unsigned long long _maxCount;
-    CDUnknownBlockType _bufferFullHandler;
-    _Bool _memoryPressureSensitive;
-    _Bool _automaticallyEmitsObjects;
 }
 
 - (void);

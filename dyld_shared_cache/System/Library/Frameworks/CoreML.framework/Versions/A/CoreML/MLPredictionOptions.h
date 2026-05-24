@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLInferenceFrameDataSerialization, MLPredictionSyncPoint, NSArray, NSDictionary, NSString;
-
 @interface MLPredictionOptions
 {
     _Bool _usesCPUOnly;
-    _Bool _enablePixelBufferDirectBinding;
-    unsigned int _aneQoS;
-    NSDictionary *_outputBackings;
-    unsigned long long _parentSignpostID;
-    unsigned long long _classifyTopK;
-    NSDictionary *_automaticOutputBackingMode;
-    MLInferenceFrameDataSerialization *_inferenceFrameDataSerialization;
-    unsigned long long _maxComputationBatchSize;
-    NSString *_e5rtStreamReuseExpectation;
-    NSDictionary *_inputDirectBindingExpectations;
-    NSDictionary *_outputDirectBindingExpectations;
-    NSArray *_waitSyncPoints;
-    MLPredictionSyncPoint *_completionSyncPoint;
-    NSString *_aneExecutionPriority;
 }
 
-+ (id);
++ (id)`;
 + (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu;
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)rd_party/boringssl/src/ssl/tls_record.cc;
 - (unsigned long long);
 - (id);
 - (void);
@@ -46,14 +30,14 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)J;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)�_;
+- (id)#@9c `;
 - (void);
 - (void);
 - (void);
@@ -69,23 +53,7 @@
 - (void)8toPlanar8 has failed with error:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) NSString *aneExecutionPriority; // @synthesize aneExecutionPriority=_aneExecutionPriority;
-@property(nonatomic) unsigned int aneQoS; // @synthesize aneQoS=_aneQoS;
-@property(copy, nonatomic) NSDictionary *automaticOutputBackingMode; // @synthesize automaticOutputBackingMode=_automaticOutputBackingMode;
-@property unsigned long long classifyTopK; // @synthesize classifyTopK=_classifyTopK;
-@property(retain, nonatomic) MLPredictionSyncPoint *completionSyncPoint; // @synthesize completionSyncPoint=_completionSyncPoint;
-@property(retain, nonatomic) NSString *e5rtStreamReuseExpectation; // @synthesize e5rtStreamReuseExpectation=_e5rtStreamReuseExpectation;
-@property(nonatomic) _Bool enablePixelBufferDirectBinding; // @synthesize enablePixelBufferDirectBinding=_enablePixelBufferDirectBinding;
-@property(readonly, nonatomic) _Bool hasDirectBindingExpectations;
-@property(copy, nonatomic) MLInferenceFrameDataSerialization *inferenceFrameDataSerialization; // @synthesize inferenceFrameDataSerialization=_inferenceFrameDataSerialization;
-@property(copy, nonatomic) NSDictionary *inputDirectBindingExpectations; // @synthesize inputDirectBindingExpectations=_inputDirectBindingExpectations;
-@property unsigned long long maxComputationBatchSize; // @synthesize maxComputationBatchSize=_maxComputationBatchSize;
-@property(copy, nonatomic) NSDictionary *outputBackings; // @synthesize outputBackings=_outputBackings;
-@property(copy, nonatomic) NSDictionary *outputDirectBindingExpectations; // @synthesize outputDirectBindingExpectations=_outputDirectBindingExpectations;
 @property(nonatomic) unsigned long long parentSignpostID; // @synthesize parentSignpostID=_parentSignpostID;
-@property(readonly, nonatomic) _Bool predictionUsesCPU;
-@property(nonatomic) _Bool usesCPUOnly; // @synthesize usesCPUOnly=_usesCPUOnly;
-@property(copy, nonatomic) NSArray *waitSyncPoints; // @synthesize waitSyncPoints=_waitSyncPoints;
 
 @end
 

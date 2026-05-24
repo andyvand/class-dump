@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _ANEInMemoryModel;
+@class _ANEInMemoryModel;
 
 @interface _MLCANEModel
 {
     unsigned int _qos;
-    _ANEInMemoryModel *_anefModel;
-    NSDictionary *_options;
-    NSDictionary *_plist;
 }
 
 + (id);
@@ -21,13 +18,10 @@
 - (id);
 - (unsigned int);
 - (void);
-- (id);
+- (id)oraryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSMatrix/LinearAlgebra/MPSMatrixRandom.mm;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) _ANEInMemoryModel *anefModel; // @synthesize anefModel=_anefModel;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSDictionary *plist; // @synthesize plist=_plist;
-@property(readonly, nonatomic) unsigned int qos; // @synthesize qos=_qos;
 
 @end
 

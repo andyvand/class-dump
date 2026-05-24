@@ -11,19 +11,18 @@
 @interface PXFeedTestSectionInfo : PXFeedSectionInfo
 {
     PHPhotoLibrary *_photoLibrary;
-    long long _countOfItems;
 }
 
 - (long long);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)preparedForExport;
 - (long long)-Op;
 - (_Bool)@;
 - (void);
 - (id)Ôs<;
-- (long long);
+- (long long): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long countOfItems; // @synthesize countOfItems=_countOfItems;

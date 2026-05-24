@@ -7,6 +7,8 @@
 @protocol CSBundleAudioDelegate;
 
 @protocol CSBundleAudioProviding
+- (_Bool);
+- (_Bool)R2;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSBundleAudioDelegate> delegate;

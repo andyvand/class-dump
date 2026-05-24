@@ -6,33 +6,11 @@
 
 #import <UIKitCore/_UIBarAppearanceData.h>
 
-@class NSDictionary, NSString, UIImage, UIImageSymbolConfiguration;
-@protocol _UIBarButtonItemDataFallback;
+@class NSDictionary;
 
 @interface _UIBarButtonItemData : _UIBarAppearanceData
 {
     NSDictionary *_titleTextAttributes[4];
-    UIImage *_backgroundImage[4];
-    struct UIOffset _titlePositionAdjustment[4];
-    struct UIOffset _backgroundImagePositionAdjustment[4];
-    UIImageSymbolConfiguration *_imageSymbolConfiguration;
-    UIImageSymbolConfiguration *_compactImageSymbolConfiguration;
-    UIImage *_backIndicatorImage;
-    UIImage *_backIndicatorTransitionMaskImage;
-    UIImageSymbolConfiguration *_backIndicatorSymbolConfiguration;
-    UIImageSymbolConfiguration *_compactBackIndicatorSymbolConfiguration;
-    id <_UIBarButtonItemDataFallback> _fallback;
-    struct {
-        unsigned int hasUserFont:1;
-        unsigned int hasUserColor:1;
-        unsigned int hasUserTitlePosition:1;
-        unsigned int hasUserBackgroundImage:1;
-        unsigned int hasUserBackgroundImagePosition:1;
-    } _stateFlags[4];
-    struct {
-        unsigned int isBackButtonData:1;
-    } _dataFlags;
-    long long _style;
 }
 
 + (id);
@@ -41,17 +19,17 @@
 - (struct UIOffset);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
 - (struct UIOffset);
+- (void)Perhaps the item should be unregistered.;
 - (void);
-- (void);
-- (struct UIOffset);
+- (struct UIOffset)ertyPlaylistType;
 - (void);
 - (id);
 - (id);
@@ -71,14 +49,14 @@
 × ;
 - (id)0@ù
 × ;
-- (id)ithMetrics: /* Error: Ran out of types for this method. */;
-- (id)omizationAreaBoundsForSession: /* Error: Ran out of types for this method. */;
-- (void)Path:(id)arg1 dropSession:(id)arg2 withDefaultProposal: /* Error: Ran out of types for this method. */;
-- (void)lexibleSpaceCount;
-- (void)ersContentOnly;
+- (id)subTest:ForTest:withMetrics: /* Error: Ran out of types for this method. */;
+- (id)barCustomizer:customizationAreaBoundsForSession: /* Error: Ran out of types for this method. */;
+- (void)_updatedDropProposalForIndexPath:(id)arg1 dropSession:(id)arg2 withDefaultProposal: /* Error: Ran out of types for this method. */;
+- (void)_rightFlexibleSpaceCount;
+- (void)_backgroundCoversContentOnly;
 - (struct UIOffset)T@"NSMutableSet",R,N,V_editingCollapsedGroupIdentifiers;
 - (id)$ß½;
-- (long long)ewWillBeginDraggingNotification;
+- (long long)_UIScrollViewWillBeginDraggingNotification;
 - (_Bool)arent. Returning path up to loop point. Initial object:(id)arg1 %@, object causing loop:%@, looping is object is parent for %@ /* Error: Ran out of types for this method. */;
 - (void)layoutMetrics of type %@ is not a subclass of _UIFontLayoutMetrics.;
 - (void)%@;
@@ -91,26 +69,7 @@
 - (id)p;ºÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *backIndicatorImage;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *backIndicatorSymbolConfiguration;
-@property(readonly, nonatomic) UIImage *backIndicatorTransitionMaskImage;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *backIndicatorTransitionMaskSymbolConfiguration;
-@property(readonly, nonatomic) UIImage *compactBackIndicatorImage;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *compactBackIndicatorSymbolConfiguration;
-@property(readonly, nonatomic) UIImage *compactBackIndicatorTransitionMaskImage;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *compactBackIndicatorTransitionMaskSymbolConfiguration;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *compactImageSymbolConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <_UIBarButtonItemDataFallback> fallback;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *imageSymbolConfiguration;
-@property(readonly, nonatomic) _Bool isBackButtonData;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMMessageEncoding
+- (id);
 @end
 

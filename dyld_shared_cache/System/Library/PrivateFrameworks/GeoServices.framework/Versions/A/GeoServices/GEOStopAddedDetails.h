@@ -9,40 +9,34 @@
 @interface GEOStopAddedDetails
 {
     PBUnknownFields *_unknownFields;
-    int _stopAddedAction;
-    struct {
-        unsigned int has_stopAddedAction:1;
-    } _flags;
 }
 
-+ (_Bool)ss:(id)arg1;
++ (_Bool)setMatchedUsingAddress:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)openDirectory;
 - (int);
 - (int);
-- (void);
+- (void)TU;
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)audioPlaybackService:(id)arg1 willStartRequest: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)seFailures"b1"read_originBlurred"b1"read_rideAppId"b1"read_rideAppVersion"b1"read_rideBookingSessionId"b1"read_rideType"b1"wrote_anyField"b1};
-- (id)pUiShownWeatherShown;
-- (id)tUnitHighlightMain;
-- (id);
+- (id)hasMapUiShownWeatherShown;
+- (id)GEOPDPlaceSummaryLayoutUnitHighlightMain;
+- (id)shouldShowRatingCount;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasStopAddedAction;
-@property(nonatomic) int stopAddedAction;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

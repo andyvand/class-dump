@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NFPromise;
 
 @protocol FCNewsletterManager
-- (_Bool)OfService: /* Error: Ran out of types for this method. */;
-- (_Bool)Configuration:contentHostDirectoryFileURL:feldsparIDProvider:appShortVersionString:buildNumberString:networkBehaviorMonitor: /* Error: Ran out of types for this method. */;
+- (long long);
+- (_Bool);
+- (_Bool);
+- (void)ration.provider;
+- (NFPromise *);
+- (_Bool);
+- (void)Hgg;
+- (_Bool)valuePromiseWithCachePolicy:qualityOfService: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithContextConfiguration:contentHostDirectoryFileURL:feldsparIDProvider:appShortVersionString:buildNumberString:networkBehaviorMonitor: /* Error: Ran out of types for this method. */;
 - (void)usterSizeAutoFavorite;
 - (void)ue;
 - (void)ÿÿN½ÿ$R;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeNewsletter;
-@property(readonly, nonatomic) NSArray *cachedNewsletters;
-@property(readonly, nonatomic) NSString *cachedVector;
-@property(readonly, nonatomic) _Bool canSubscribe;
-@property(readonly, nonatomic) _Bool canUnsubscribe;
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) _Bool includeBundleSubscribedVector;
-@property(readonly, nonatomic) long long includeOptions;
-@property(readonly, nonatomic) _Bool includeSportsVector;
-@property(readonly, nonatomic) _Bool includeUserVector;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) long long subscription;
 @end
 

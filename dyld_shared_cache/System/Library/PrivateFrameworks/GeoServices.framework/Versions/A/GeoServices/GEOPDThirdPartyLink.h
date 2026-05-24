@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDThirdPartyLink
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_adamId;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_adamId:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)moduleWithSettings:(id)arg1;
+- (id)hearstRouteStatus;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)rging>"16;
-- (id)eModifierForStep:previousStep: /* Error: Ran out of types for this method. */;
+- (id)_scoreModifierForStep:previousStep: /* Error: Ran out of types for this method. */;
 - (id)tä@ææçèÀèìèLë,íäî;
 - (void)Ü(²
 J@;

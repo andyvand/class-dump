@@ -6,57 +6,35 @@
 
 #import <PhotosGraph/PGConfiguration.h>
 
-@class NSArray, NSDictionary, PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGMemoryConfiguration : PGConfiguration
 {
     _Bool _intersectRelevantAssetsForFeatures;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    unsigned long long _memoryCategory;
-    NSDictionary *_memoryCategorySubcategoryByOverTimeType;
-    NSArray *_memoryFeatureSpecifications;
-    unsigned long long _minimumSceneAnalysisVersion;
-    PGMemoryMomentRequirements *_memoryMomentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
 }
 
++ (id)5;
++ (id);
++ (unsigned long long);
++ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ApplicationManager"16@"AXFUIElement"24;
+- (id)nt=dd}16@32;
+- (id)4^{__CGEvent=}32^{__CGEventTapProxy=}40;
+- (id)oxy=}36;
+- (unsigned long long)16^{__CGEvent=}24I32^{__CGEventTapProxy=}36;
+- (_Bool)newlineCharacterSet;
 - (id);
 - (id);
 - (void)ternal/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestPersonBiologicalSexProcessor.m;
 
 // Remaining properties
-@property(readonly, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *featuredSeasonConfiguration; // @synthesize featuredSeasonConfiguration=_featuredSeasonConfiguration;
-@property(readonly, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *featuredYearConfiguration; // @synthesize featuredYearConfiguration=_featuredYearConfiguration;
-@property(readonly, nonatomic) _Bool intersectRelevantAssetsForFeatures; // @synthesize intersectRelevantAssetsForFeatures=_intersectRelevantAssetsForFeatures;
 @property(readonly, nonatomic) unsigned long long memoryCategory; // @synthesize memoryCategory=_memoryCategory;
-@property(readonly, nonatomic) NSDictionary *memoryCategorySubcategoryByOverTimeType; // @synthesize memoryCategorySubcategoryByOverTimeType=_memoryCategorySubcategoryByOverTimeType;
-@property(readonly, nonatomic) NSArray *memoryFeatureSpecifications; // @synthesize memoryFeatureSpecifications=_memoryFeatureSpecifications;
-@property(readonly, nonatomic) PGMemoryMomentRequirements *memoryMomentRequirements; // @synthesize memoryMomentRequirements=_memoryMomentRequirements;
-@property(readonly, nonatomic) unsigned long long minimumSceneAnalysisVersion; // @synthesize minimumSceneAnalysisVersion=_minimumSceneAnalysisVersion;
-@property(readonly, nonatomic) PGOverTheYearsMemoryConfiguration *overTheYearsConfiguration; // @synthesize overTheYearsConfiguration=_overTheYearsConfiguration;
-@property(readonly, nonatomic) _Bool requireFaceProcessingMeetsThresholdOverTime; // @synthesize requireFaceProcessingMeetsThresholdOverTime=_requireFaceProcessingMeetsThresholdOverTime;
-@property(readonly, nonatomic) _Bool requireSceneProcessingMeetsThresholdOverTime; // @synthesize requireSceneProcessingMeetsThresholdOverTime=_requireSceneProcessingMeetsThresholdOverTime;
 
 @end
 

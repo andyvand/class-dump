@@ -9,33 +9,6 @@
 @interface AppStoreKit.UpdatesPresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id onUpdatesDataChanged;
-    id onPerformAction;
-    id onShowWhatsNew;
-    id onUpdateAllChanged;
-    id onBadgeCountChanged;
-    id updatesDataSource;
-    id lastUpdatesLockups;
-    id automaticUpdates;
-    id appStateController;
-    id appleSilicon;
-    id hasLoaded;
-    id canUpdateBadgeCounts;
-    id isUpdateAllEnabled;
-    id pendingUpdates;
-    id recentUpdates;
-    id haveDoneInitialUpdatesFetch;
-    id sections;
-    id expandedUpdates;
-    id appStateControllerReady;
-    id organizationQueue;
-    id transitionQueue;
-    id currentTransitionContext;
-    id numberFormatter;
-    id lastServerRefreshTime;
-    id includeUpdateAllInPendingUpdates;
-    id externalPendingUpdatesSectionIndex;
-    id externalRecentlyUpdatedSectionIndex;
 }
 
 @end

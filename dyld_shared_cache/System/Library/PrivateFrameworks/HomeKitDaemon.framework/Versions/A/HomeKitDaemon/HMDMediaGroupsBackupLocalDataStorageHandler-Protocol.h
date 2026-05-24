@@ -7,7 +7,7 @@
 @class NSData;
 
 @protocol HMDMediaGroupsBackupLocalDataStorageHandler
-- (void)ers:(NSData *)arg1;
+- (void)resetLastSeenForAccessoryServersWithIdentifiers:(NSData *)arg1;
 - (void)ic}@Accessory returned incorrect data for readSelectedAreasValues, cannot submit roomCount in RVCUsageLogEvent. readSelectedAreasValues=%@;
 @end
 

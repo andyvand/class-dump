@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKOperation, NTPBCKQueryRetrieveResponse, NTPBCKRecordRetrieveResponse, NTPBCKResponseOperationResult;
+@class NTPBCKQueryRetrieveResponse;
 
 @interface NTPBCKResponseOperation
 {
     NTPBCKQueryRetrieveResponse *_queryRetrieveResponse;
-    NTPBCKRecordRetrieveResponse *_recordRetrieveResponse;
-    NTPBCKOperation *_response;
-    NTPBCKResponseOperationResult *_result;
 }
 
 - (void);
 - (id);
 - (_Bool);
+- (void)createSAPersonFromCNContactWithExternalIdentifier:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id)omise %@ on %@ :%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,21 +27,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (id);
 - (void);
-- (void)tification;
+- (void)hasStartedFromNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasQueryRetrieveResponse;
-@property(readonly, nonatomic) _Bool hasRecordRetrieveResponse;
 @property(readonly, nonatomic) _Bool hasResponse;
-@property(readonly, nonatomic) _Bool hasResult;
-@property(retain, nonatomic) NTPBCKQueryRetrieveResponse *queryRetrieveResponse; // @synthesize queryRetrieveResponse=_queryRetrieveResponse;
-@property(retain, nonatomic) NTPBCKRecordRetrieveResponse *recordRetrieveResponse; // @synthesize recordRetrieveResponse=_recordRetrieveResponse;
-@property(retain, nonatomic) NTPBCKOperation *response; // @synthesize response=_response;
-@property(retain, nonatomic) NTPBCKResponseOperationResult *result; // @synthesize result=_result;
 
 @end
 

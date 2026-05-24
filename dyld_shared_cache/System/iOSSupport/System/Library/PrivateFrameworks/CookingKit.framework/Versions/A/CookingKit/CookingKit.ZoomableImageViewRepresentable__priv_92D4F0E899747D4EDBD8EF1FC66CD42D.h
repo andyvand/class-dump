@@ -8,12 +8,11 @@
 {
     id zoomableImageDelegate;
     id imageView;
-    id image;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (id);

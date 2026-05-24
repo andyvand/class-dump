@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)im;
 
 @end
 

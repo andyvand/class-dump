@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)animationWithKeyPath:(id)arg1;
 
 @end
 

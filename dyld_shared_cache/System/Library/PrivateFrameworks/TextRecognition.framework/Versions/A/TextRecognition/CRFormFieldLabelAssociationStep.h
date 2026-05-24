@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRFormParser, NSString;
+@class CRFormParser;
 
 @interface CRFormFieldLabelAssociationStep
 {
@@ -13,16 +13,10 @@
 
 - (id);
 - (id);
-- (void)riptionOfPath:tokenProcessingBlock: /* Error: Ran out of types for this method. */;
+- (void)transcriptionOfPath:tokenProcessingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

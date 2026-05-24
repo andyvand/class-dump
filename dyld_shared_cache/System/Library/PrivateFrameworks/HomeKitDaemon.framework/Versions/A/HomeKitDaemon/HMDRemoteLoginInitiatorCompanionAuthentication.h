@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)~5C;
-- (id);
+- (id),&,N,V_lastPostedETADate;
 - (void);
 - (void);
 - (void);

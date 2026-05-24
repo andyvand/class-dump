@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSObject;
-@protocol BMLibraryNode, OS_dispatch_queue;
+@protocol BMLibraryNode;
 
 @interface BMComputeSubscriptionSubstreamManager
 {
     id <BMLibraryNode> _library;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _domain;
-    NSDate *_dateOverride;
-    NSDictionary *_subscriptions;
-    _Bool _initialCheckinsComplete;
-    NSMutableDictionary *_checkins;
 }
 
 - (void);

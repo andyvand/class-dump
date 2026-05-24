@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WiFiMACAddress;
+@class NSString;
 
 @interface AWDLTrafficRegistrationConfiguration
 {
     NSString *_derivedLocalization;
-    _Bool _legacyUpgradeRequired;
-    _Bool _activeFlagOverride;
-    unsigned short _preferredChannel;
-    unsigned short _secondaryPreferredChannel;
-    NSString *_uniqueIdentifier;
-    WiFiMACAddress *_peerAddress;
-    long long _options;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool activeFlagOverride; // @synthesize activeFlagOverride=_activeFlagOverride;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) _Bool legacyUpgradeRequired; // @synthesize legacyUpgradeRequired=_legacyUpgradeRequired;
 @property(readonly, nonatomic) NSString *localization;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(copy, nonatomic) WiFiMACAddress *peerAddress; // @synthesize peerAddress=_peerAddress;
-@property(nonatomic) unsigned short preferredChannel; // @synthesize preferredChannel=_preferredChannel;
-@property(nonatomic) unsigned short secondaryPreferredChannel; // @synthesize secondaryPreferredChannel=_secondaryPreferredChannel;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

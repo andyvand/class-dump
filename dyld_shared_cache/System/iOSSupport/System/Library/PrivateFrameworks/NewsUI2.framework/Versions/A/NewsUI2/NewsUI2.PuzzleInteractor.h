@@ -7,24 +7,6 @@
 @interface NewsUI2.PuzzleInteractor
 {
     id delegate;
-    id dataManager;
-    id menuConfigMessageHandler;
-    id accessoryConfigMessageHandler;
-    id showSettingsMessageHandler;
-    id showAlertMessageHandler;
-    id updateSettingsMessageHandler;
-    id menuDismissMessageHandler;
-    id hapticFeedbackMessageHandler;
-    id submitScoreMessageHandler;
-    id showFullScreenModalMessageHandler;
-    id openLeaderboardMessageHandler;
-    id paywallFactory;
-    id puzzleModel;
-    id puzzle;
-    id scriptsManager;
-    id gameCenterService;
-    id commandCenter;
-    id tracker;
 }
 
 @end

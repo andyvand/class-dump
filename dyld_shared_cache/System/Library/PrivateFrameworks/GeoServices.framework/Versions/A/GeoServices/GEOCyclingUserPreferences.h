@@ -9,33 +9,29 @@
 @interface GEOCyclingUserPreferences
 {
     PBUnknownFields *_unknownFields;
-    _Bool _avoidBusyRoads;
-    _Bool _avoidHills;
-    _Bool _avoidStairs;
-    CDStruct_31c7cb5d _flags;
 }
 
-+ (_Bool)PredictedDepartureTimeDelta:(id)arg1;
++ (_Bool)setHasPredictedDepartureTimeDelta:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setContinuousVoiceTrigger:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@	;
 - (void)nsitEdgePiece}"__end_"^^{TransitEdgePiece}""{?="__cap_"^^{TransitEdgePiece}}}"__start_"Q""{?="__size_"Q}};
-- (id)rivalParametersEndOfRouteDistanceThreshold:(struct _NSZone *)arg1;
-- (void)ntLookup;
+- (id)setHasArrivalParametersEndOfRouteDistanceThreshold:(struct _NSZone *)arg1;
+- (void)maxParametersCountForSpatialEventLookup;
 - (_Bool)nce:lengthScaleFactor:fallbackStartCoordinate:fallbackEndCoordinate: /* Error: Ran out of types for this method. */;
-- (_Bool)fos;
-- (id)dMetadataTile;
+- (_Bool)clearLaneChangeInfos;
+- (id)GEOPDGroundMetadataTile;
 - (_Bool)ð;
-- (id)NOWN;
-- (void)OW;
+- (id)EngagementReportingChannel_UNKNOWN;
+- (void)TRADING_HOURS_OPEN_NOW;
 - (id)¨	;
 - (void)88;
 - (_Bool);
@@ -46,13 +42,7 @@
 - (_Bool)^<;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidBusyRoads;
-@property(nonatomic) _Bool avoidHills;
-@property(nonatomic) _Bool avoidStairs;
-@property(nonatomic) _Bool hasAvoidBusyRoads;
-@property(nonatomic) _Bool hasAvoidHills;
 @property(nonatomic) _Bool hasAvoidStairs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

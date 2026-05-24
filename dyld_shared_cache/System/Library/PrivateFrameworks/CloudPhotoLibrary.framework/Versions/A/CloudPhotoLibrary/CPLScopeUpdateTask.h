@@ -13,9 +13,9 @@
     NSMutableSet *_possibleStagedScopes;
 }
 
-- (void);
+- (void)familyNameEquivalencyFeature;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)!ðFùÑ°1Â0@ù

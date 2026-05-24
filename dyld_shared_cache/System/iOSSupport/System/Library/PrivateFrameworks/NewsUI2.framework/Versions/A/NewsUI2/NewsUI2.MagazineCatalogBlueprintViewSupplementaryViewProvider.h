@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineCatalogBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id sectionHeaderRenderer;
-    id transition;
 }
 
 @end

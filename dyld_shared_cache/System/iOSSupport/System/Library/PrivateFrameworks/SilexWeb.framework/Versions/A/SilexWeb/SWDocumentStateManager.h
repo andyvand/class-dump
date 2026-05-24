@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachine, NSMutableArray, NSString, WKUserContentController;
+@class WKUserContentController;
 
 @interface SWDocumentStateManager
 {
     WKUserContentController *_userContentController;
-    NSMutableArray *_onReadyBlocks;
-    NSMutableArray *_onLoadBlocks;
-    NSMutableArray *_onUnloadBlocks;
-    NFStateMachine *_stateMachine;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -25,24 +21,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (void);
 - (id)rrors:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *onLoadBlocks; // @synthesize onLoadBlocks=_onLoadBlocks;
-@property(readonly, nonatomic) NSMutableArray *onReadyBlocks; // @synthesize onReadyBlocks=_onReadyBlocks;
-@property(readonly, nonatomic) NSMutableArray *onUnloadBlocks; // @synthesize onUnloadBlocks=_onUnloadBlocks;
-@property(readonly, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WKUserContentController *userContentController; // @synthesize userContentController=_userContentController;
 
 @end

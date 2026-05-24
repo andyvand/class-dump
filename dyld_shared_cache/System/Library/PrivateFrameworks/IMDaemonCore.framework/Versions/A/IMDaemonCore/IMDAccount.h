@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDService, IMDServiceSession, NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IMDAccount
 {
     NSMutableDictionary *_accountDefaults;
-    _Bool _managed;
-    _Bool _loading;
-    _Bool _shouldPublishNowPlaying;
-    int _serviceDisconnectReason;
-    NSArray *_replicationSessions;
-    NSString *_accountID;
-    NSString *_loginID;
-    IMDService *_service;
-    IMDServiceSession *_session;
-    unsigned long long _loginStatus;
-    NSString *_serviceLoginStatusMessage;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)'(;
+- (_Bool)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (int);
 - (void);
@@ -40,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (_Bool);
@@ -52,22 +41,22 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (void);
+- (void)EmptySpeech;
 - (void);
 - (_Bool);
-- (long long);
-- (id);
+- (long long)ickerMemojiEditor;
+- (id)checkNullableTopicEntityEqualityForSource:target: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)v;
 - (void);
-- (void)Fields:(id)arg1;
+- (void)_populateCKRecordWithIMMessageActionItemFields:(id)arg1;
 - (void);
 - (int)ough Blastdoor;
 - (_Bool)existsAtLocalPath:%@ /* Error: Ran out of types for this method. */;
@@ -78,31 +67,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *accountDefaults; // @synthesize accountDefaults=_accountDefaults;
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) long long accountType;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy, nonatomic) NSArray *aliases;
-@property(readonly, nonatomic) _Bool canMakeDowngradeRoutingChecks;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isRegistered;
-@property(readonly, nonatomic) _Bool isSMSRelayCapable;
 @property(nonatomic, getter=isLoading) _Bool loading; // @synthesize loading=_loading;
-@property(copy, nonatomic) NSString *loginID; // @synthesize loginID=_loginID;
-@property(nonatomic) unsigned long long loginStatus; // @synthesize loginStatus=_loginStatus;
-@property(nonatomic, getter=isManaged) _Bool managed; // @synthesize managed=_managed;
-@property(readonly, nonatomic) long long profileValidationStatus;
-@property(readonly, retain, nonatomic) NSDictionary *registrationAlertInfo;
-@property(readonly, nonatomic) int registrationError;
-@property(readonly, nonatomic) long long registrationStatus;
-@property(readonly, nonatomic) NSArray *replicationSessions; // @synthesize replicationSessions=_replicationSessions;
-@property(retain, nonatomic) IMDService *service; // @synthesize service=_service;
-@property(nonatomic) int serviceDisconnectReason; // @synthesize serviceDisconnectReason=_serviceDisconnectReason;
-@property(copy, nonatomic) NSString *serviceLoginStatusMessage; // @synthesize serviceLoginStatusMessage=_serviceLoginStatusMessage;
-@property(retain, nonatomic) IMDServiceSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) _Bool shouldPublishNowPlaying; // @synthesize shouldPublishNowPlaying=_shouldPublishNowPlaying;
-@property(nonatomic) _Bool wasDisabledAutomatically;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASBloomFilter;
+@class _PASBloomFilter;
 
 @interface PPSmallBloomFilter
 {
     _PASBloomFilter *_bloomFilter;
-    struct _opaque_pthread_mutex_t _lock;
-    NSString *_inputName;
-    NSString *_outputName;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)q`;
+- (id)hB;
 - (id);
 - (void);
 

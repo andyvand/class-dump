@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSArray, NSString, UIPressesEvent;
+@class UIPressesEvent;
 
 @interface UIHBLongClickGestureRecognizer : UIGestureRecognizer
 {
     UIPressesEvent *_registeredEventForTerminalEvents;
-    unsigned long long _lastSeenClickCount;
-    unsigned long long _numberOfClicksRequired;
 }
 
 - (void);
@@ -22,7 +20,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id)sFailureCount;
+- (id)previousFailureCount;
 - (void);
 - (void)4=êÿN;
 - (void)ü¾âÿ;
@@ -32,15 +30,7 @@
 - (void)8Cn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedPressTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long numberOfClicksRequired; // @synthesize numberOfClicksRequired=_numberOfClicksRequired;
-@property(readonly) Class superclass;
 
 @end
 

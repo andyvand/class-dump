@@ -9,10 +9,9 @@
 @interface BUTemporaryDirectory
 {
     NSString *_path;
-    _Bool _leak;
 }
 
-- (void);
+- (void)ka;
 - (id);
 - (id);
 - (id);
@@ -21,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ing completion;
 - (void);
 
 @end

@@ -8,23 +8,23 @@
 {
 }
 
-- (id);
+- (id);
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
 - (oneway void);
 - (oneway void);
 - (id);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (_Bool);
 - (oneway void);
 - (oneway void);
 - (int);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (oneway void);
@@ -32,23 +32,23 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)#;
 - (int);
 - (void);
 - (int);
 - (int);
 - (oneway void);
 - (oneway void);
-- (int);
-- (id);
+- (int)E;
+- (id)!;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -56,7 +56,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (id);
 - (id);
@@ -64,7 +64,7 @@
 - (oneway void);
 - (int);
 - (oneway void);
-- (oneway void);
+- (oneway void)V_mainPhone;
 
 @end
 

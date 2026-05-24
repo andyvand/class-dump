@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface HMDWidgetMonitoredCharacteristic
 {
     _Bool _reachabilityMonitored;
-    HMDCharacteristic *_characteristic;
 }
 
 - (_Bool);
-- (id);
+- (id)initWithLineItem:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMDCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly) _Bool reachabilityMonitored; // @synthesize reachabilityMonitored=_reachabilityMonitored;
 
 @end
 

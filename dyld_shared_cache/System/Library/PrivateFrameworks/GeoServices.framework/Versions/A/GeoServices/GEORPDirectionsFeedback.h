@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPDirectionsCorrections, GEORPDirectionsFeedbackContext, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPDirectionsFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPDirectionsFeedbackContext *_directionsContext;
-    GEORPDirectionsCorrections *_directionsCorrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _correctionType;
-    struct {
-        unsigned int has_correctionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_directionsContext:1;
-        unsigned int read_directionsCorrections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setIsProminentResult:(id)arg1;
+- (void)abEntityName;
+- (void)dObject",&,D,N;
+- (void)oIdentifierSet;
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)5B;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)R";
 - (id);
 - (id);
 - (id);
@@ -44,9 +30,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)setEngineMajorVersion: /* Error: Ran out of types for this method. */;
+- (void)ctivity state to continue;
+- (void)]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -54,19 +40,13 @@
 - (id);
 - (void);
 - (id)1"has_numItems"b1"has_enableFallbackImagesForItems"b1"read_unknownFields"b1"read_authorName"b1"read_authorPhoto"b1"read_collectionClassDisplayNames"b1"read_collectionClassSpokenNames"b1"read_collectionDescriptionBytes"b1"read_collectionDescriptionHtmls"b1"read_collectionDescriptions"b1"read_collectionId"b1"read_collectionItemDescriptionHtmls"b1"read_collectionItemDescriptions"b1"read_displayTitles"b1"read_itemIds"b1"read_itemPhotos"b1"read_localizedCategorys"b1"read_longSpokenTitles"b1"read_longTitles"b1"read_mediaLinks"b1"read_photos"b1"read_placeCollectionItems"b1"read_publisherId"b1"read_publisher"b1"read_spokenTitles"b1"read_url"b1"wrote_anyField"b1};
-- (id): /* Error: Ran out of types for this method. */;
+- (id)addMaterial: /* Error: Ran out of types for this method. */;
 - (id)´G;
-- (id)refrontFaceGeometry;
+- (id)storefrontFaceGeometry;
 - (void)ÁR]ÀË¬L@;
 
 // Remaining properties
-@property(nonatomic) int correctionType;
-@property(retain, nonatomic) GEORPDirectionsFeedbackContext *directionsContext;
-@property(retain, nonatomic) GEORPDirectionsCorrections *directionsCorrections;
-@property(nonatomic) _Bool hasCorrectionType;
 @property(readonly, nonatomic) _Bool hasDirectionsContext;
-@property(readonly, nonatomic) _Bool hasDirectionsCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-
 @interface _UIFeedbackGeneratorConfiguration
 {
     _Bool _settingsEnabled;
-    _Bool _setup;
-    _Bool _enabled;
-    NSSet *_usedFeedbacks;
-    CDUnknownBlockType _preparationBlock;
-    Class _clientClass;
-    NSString *_usage;
-    long long _requiredSupportLevel;
-    long long _requiredPeripheralSupportLevel;
-    long long _activationStyle;
-    long long _outputMode;
-    NSString *__stats_key;
 }
 
 + (id);
@@ -35,30 +22,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (id);
+- (void)writeDataPayloadToDisk:(long long)arg1 fileName: /* Error: Ran out of types for this method. */;
+- (long long)postNotificationForRecipientHandle: /* Error: Ran out of types for this method. */;
+- (id)_checkMMSEnablementForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)to %@;
+- (_Bool)@;
 - (void);
-- (_Bool);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)a
+@�H;
 - (id);
 - (Class);
 - (_Bool);
 - (id)earchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView";
-- (_Bool)rokeLocation;
-- (id)sGlass: /* Error: Ran out of types for this method. */;
+- (_Bool)strokeLocation;
+- (id)commonButtonConfigWithTitle:isGlass: /* Error: Ran out of types for this method. */;
 - (id)uttonHighContrastAppearance:(struct _NSZone *)arg1;
 - (_Bool)@"_NSDiffableDataSourceSectionSnapshotState",R,N;
 - (long long)23Ì;
@@ -68,21 +56,7 @@
 - (_Bool)èb;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *_stats_key; // @synthesize _stats_key=__stats_key;
-@property(nonatomic) long long activationStyle; // @synthesize activationStyle=_activationStyle;
-@property(copy, nonatomic) Class clientClass; // @synthesize clientClass=_clientClass;
-@property(readonly, nonatomic) _Bool defaultEnabled;
-@property(readonly, nonatomic) NSString *descriptionKey;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSArray *feedbackKeyPaths;
-@property(nonatomic) long long outputMode; // @synthesize outputMode=_outputMode;
 @property(copy, nonatomic) CDUnknownBlockType preparationBlock; // @synthesize preparationBlock=_preparationBlock;
-@property(nonatomic) long long requiredPeripheralSupportLevel; // @synthesize requiredPeripheralSupportLevel=_requiredPeripheralSupportLevel;
-@property(nonatomic) long long requiredSupportLevel; // @synthesize requiredSupportLevel=_requiredSupportLevel;
-@property(nonatomic) _Bool settingsEnabled; // @synthesize settingsEnabled=_settingsEnabled;
-@property(nonatomic, getter=isSetup) _Bool setup; // @synthesize setup=_setup;
-@property(copy, nonatomic) NSString *usage; // @synthesize usage=_usage;
-@property(readonly, nonatomic) NSSet *usedFeedbacks; // @synthesize usedFeedbacks=_usedFeedbacks;
 
 @end
 

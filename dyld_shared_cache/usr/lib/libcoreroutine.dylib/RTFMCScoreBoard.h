@@ -9,20 +9,11 @@
 @interface RTFMCScoreBoard
 {
     _Bool _engaged;
-    _Bool _assisted;
-    int _locationType;
-    int _parkingEvents;
-    int _engagedParkingEvents;
-    int _assistedParkingEvents;
-    int _engagements;
-    int _assistances;
-    int _suppressedEvents;
-    NSDate *_creationDate;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,37 +21,28 @@
 - (int);
 - (void);
 - (id);
+- (int)Primary record is terminal, re-enroll is required;
+- (int)record has %@ attempts remaining;
+- (void)wood;
 - (int);
-- (int);
+- (_Bool)GMA journal_mode=WAL;;
+- (int)TEGER, digest TEXT);;
 - (void);
-- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)er:(int)arg1;
+- (void)fetchLookbackWindowStartDateWithLocation:(int)arg1 handler: /* Error: Ran out of types for this method. */;
 - (int)ords:%{sensitive}lf, %{sensitive}lf /* Error: Ran out of types for this method. */;
 - (void)rigger in notification, returning.;
 
 // Remaining properties
-@property(nonatomic) int assistances; // @synthesize assistances=_assistances;
-@property(nonatomic) _Bool assisted; // @synthesize assisted=_assisted;
-@property(nonatomic) int assistedParkingEvents; // @synthesize assistedParkingEvents=_assistedParkingEvents;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) _Bool engaged; // @synthesize engaged=_engaged;
-@property(nonatomic) int engagedParkingEvents; // @synthesize engagedParkingEvents=_engagedParkingEvents;
-@property(nonatomic) int engagements; // @synthesize engagements=_engagements;
-@property(nonatomic) int locationType; // @synthesize locationType=_locationType;
-@property(nonatomic) int parkingEvents; // @synthesize parkingEvents=_parkingEvents;
-@property(nonatomic) int suppressedEvents; // @synthesize suppressedEvents=_suppressedEvents;
 
 @end
 

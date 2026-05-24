@@ -9,63 +9,47 @@
 @interface IMChatItem
 {
     NSString *_commSafetyTransferGUID;
-    long long _fileTransferReloadStatus;
-    IMItem *_item;
 }
 
-- (id);
-- (long long);
+- (id)%@(%p) Session change to video paused[%d];
+- (long long)ed[%d];
+- (_Bool)[%s] %s:%d Resolution(%f x %f)  not supported. Defaulting to 2048x1536 /* Error: Ran out of types for this method. */;
+- (_Bool)oReceiver [%s] %s:(id *)arg1 %d AudioReceiver[%p] Detected timestamp rollover;
+- (_Bool)centageReportingThreshold=%d;
+- (_Bool)centage=%d >= AudioErasurePercentageReportingThreshold=%d;
+- (_Bool)s:%d AudioReceiver[%p] AudioErasurePercentage=%d >= AudioErasurePercentageReportingThreshold=%d /* Error: Ran out of types for this method. */;
+- (_Bool)l;
+- (id)reportingAgent is null;
+- (_Bool)VCAudioReceiver [%s] %s:%d @=@ Health:VCAudioReceiver ParticipantID=%s erasure percentage=%.2f%% PLR percentage=%.2f%% current percentage:%.2f%% (rec:%u exp:%u, loss:%u) receiver(rtp=%u, bb=%u, unk=%u, dup=%u, drop=%u) jb(enc=%u, drop=%u) /* Error: Ran out of types for this method. */;
+- (_Bool)ffer corrupted. Packet too short (%d < %d), payload=%d;
+- (id)[%s] %s:%d %@(%p) could not create transfer session /* Error: Ran out of types for this method. */;
+- (_Bool)already been registered for interface %s;
+- (_Bool)ate:context %08X has already been registered for interface %s /* Error: Ran out of types for this method. */;
+- (_Bool)olverRegisterForPrefixUpdate:failed on creating listeners array /* Error: Ran out of types for this method. */;
+- (id)d;
+- (id)ceived callback for serverSpectrumInterrupted;
+- (void)(%zux%zu);
+- (id)[%s] %s:%d Could not allocate memory for creating VCMediaStreamRateControlConfig object /* Error: Ran out of types for this method. */;
+- (id)echAnalyzer speechAnalyzer:(id)arg1 didProduceTranscriberResult:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
+- (long long))2;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)ø6úÿ7úÿ@7úÿd7úÿ 7úÿÄ7úÿè7úÿ8úÿH8úÿl8úÿ¸8úÿ9úÿP9úÿ:úÿ<:úÿ`:úÿl:úÿ¨:úÿÌ:úÿ;úÿ¬;úÿÐ;úÿ<úÿ0<úÿT<úÿx<úÿ´<úÿØ<úÿü<úÿ =úÿ\=úÿ=úÿÌ=úÿ>úÿ|>úÿÀ>úÿä>úÿ?úÿH?úÿl?úÿ?úÿÌ?úÿð?úÿ<@úÿAúÿ¤AúÿÈAúÿìAúÿ0BúÿTBúÿxBúÿ´BúÿØBúÿ8CúÿlCúÿ¨CúÿÌCúÿðCúÿ<DúÿDúÿ$EúÿXEúÿ|Eúÿ EúÿÄEúÿ /* Error: Ran out of types for this method. */;
 - (_Bool)to accept transfer %@ which is already in progress. Returning early.;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *balloonBundleID;
-@property(readonly, nonatomic) _Bool canDelete;
-@property(readonly, nonatomic) _Bool canEditMessageText;
-@property(readonly, nonatomic) _Bool canReply;
-@property(readonly, nonatomic) _Bool canRetract;
-@property(readonly, nonatomic) NSString *commSafetyTransferGUID; // @synthesize commSafetyTransferGUID=_commSafetyTransferGUID;
-@property(readonly, nonatomic) long long fileTransferReloadStatus; // @synthesize fileTransferReloadStatus=_fileTransferReloadStatus;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
 @property(retain, nonatomic) IMItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemGUID;
-@property(readonly, nonatomic) _Bool supportsCommunicationSafety;
-@property(readonly, nonatomic) long long syndicationBehavior;
-@property(readonly, nonatomic) long long syndicationType;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier;
-@property(readonly, nonatomic) _Bool wasDetonated;
 
 @end
 

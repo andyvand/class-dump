@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKPostSliceDescription, EKSeriesDetails;
+@class EKEvent;
 
 @interface EKUndoSliceOutcome
 {
     EKEvent *_masterToDelete;
-    EKSeriesDetails *_mainSeriesDetails;
-    EKSeriesDetails *_createdSeriesDetails;
-    EKPostSliceDescription *_originalPostSliceDescription;
 }
 
-- (void)éªqÚð10@ù
-?×é;
 - (void);
 - (void);
-- (id)Ä;
-- (id)Þíý`
-@ù¿CÑý{E©ôOD©öWC©ø_B©úgA©üoÆ¨ÿ_Öh¹v&E©(ihø¨;
-- (id)â;
-- (id)Râªñªìò1	?×;
-- (id)Bú;
-- (id)ª	¶û;
+- (void);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) EKSeriesDetails *createdSeriesDetails; // @synthesize createdSeriesDetails=_createdSeriesDetails;
-@property(copy) EKSeriesDetails *mainSeriesDetails; // @synthesize mainSeriesDetails=_mainSeriesDetails;
 @property(copy) EKEvent *masterToDelete; // @synthesize masterToDelete=_masterToDelete;
-@property(readonly) EKPostSliceDescription *originalPostSliceDescription; // @synthesize originalPostSliceDescription=_originalPostSliceDescription;
 
 @end
 

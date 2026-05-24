@@ -7,18 +7,11 @@
 @interface TSKShuffleMapping
 {
     unsigned short mStartIndex;
-    unsigned short mEndIndex;
-    unsigned short *mMapping;
-    _Bool mIsVertical;
-    _Bool mIsMoveOperation;
-    unsigned short mFirstMovedIndex;
-    unsigned short mDestinationIndexForMove;
-    unsigned short mNumberOfIndicesMoved;
 }
 
 - (unsigned short);
-- (void);
-- (unsigned short);
+- (void)entItemID ;
+- (unsigned short);
 - (unsigned short);
 - (void);
 - (id);
@@ -32,13 +25,10 @@
 - (_Bool);
 - (id);
 - (unsigned short *);
-- (unsigned short);
+- (unsigned short);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short endIndex; // @synthesize endIndex=mEndIndex;
-@property(readonly, nonatomic) unsigned short *mapping; // @synthesize mapping=mMapping;
-@property(readonly, nonatomic) unsigned short mappingSize; // @dynamic mappingSize;
 @property(readonly, nonatomic) unsigned short startIndex; // @synthesize startIndex=mStartIndex;
 
 @end

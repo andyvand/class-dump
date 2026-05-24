@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PEGASUSSchemaPEGASUSMultiTurnListSelectionUnderstandingTier1, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSUtteranceUnderstandingReportedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_topU2Intents;
-    NSArray *_topKGSAIntents;
-    PEGASUSSchemaPEGASUSMultiTurnListSelectionUnderstandingTier1 *_multiTurnListSelectionUnderstanding;
-    _Bool _hasLinkId;
-    _Bool _hasMultiTurnListSelectionUnderstanding;
 }
 
 - (unsigned long long);
@@ -23,45 +18,39 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@9;
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void)=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_AOSAccountRetrieveFamilyImage returned no result.;
+- (void)alrus expansion cohort.;
+- (id)KECHAINRECOVERY_RESET_COMPLETED_MESSAGE;
+- (_Bool)DetailsWebTabView webViewWithAltDSID:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)hive iChat file metadata. Error:(id)arg1 %@;
 - (id);
 - (id);
-- (id)trics;
+- (id)_hasEuclidServiceMetrics;
 - (id)T@"SUGSchemaSUGRequestStarted",&,N,V_startedOrChanged;
 - (void)rievalContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasMultiTurnListSelectionUnderstanding; // @synthesize hasMultiTurnListSelectionUnderstanding=_hasMultiTurnListSelectionUnderstanding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSMultiTurnListSelectionUnderstandingTier1 *multiTurnListSelectionUnderstanding; // @synthesize multiTurnListSelectionUnderstanding=_multiTurnListSelectionUnderstanding;
-@property(copy, nonatomic) NSArray *topKGSAIntents; // @synthesize topKGSAIntents=_topKGSAIntents;
-@property(copy, nonatomic) NSArray *topU2Intents; // @synthesize topU2Intents=_topU2Intents;
 
 @end
 

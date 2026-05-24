@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, RKRankLearner, RKResponseCollection;
+@class NSObject, RKResponseCollection;
 @protocol OS_dispatch_queue;
 
 @interface RKMessageResponseManager
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    RKResponseCollection *_collection;
-    NSArray *_preferredLanguages;
-    RKRankLearner *_rankLearner;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -28,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -39,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -55,8 +52,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)leEEEvEEE;
 - (id);
 - (void);
 - (id);
@@ -64,8 +61,6 @@
 
 // Remaining properties
 @property(retain) RKResponseCollection *collection; // @synthesize collection=_collection;
-@property(retain, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain) RKRankLearner *rankLearner; // @synthesize rankLearner=_rankLearner;
 
 @end
 

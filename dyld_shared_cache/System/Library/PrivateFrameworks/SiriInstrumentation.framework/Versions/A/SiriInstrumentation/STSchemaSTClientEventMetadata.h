@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface STSchemaSTClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_searchToolId;
-    _Bool _hasSearchToolId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setHasUsedIntroPricingOffer: /* Error: Ran out of types for this method. */;
+- (_Bool)ABLinkTextField;
+- (_Bool)message(madrid_flags);;
 - (id);
 - (id);
-- (id)quest;
-- (id)gnals;
-- (void)_UNKNOWN;
+- (id)deleteIsThirdPartyRequest;
+- (id)_hasPlayOnThirdPartyAppSignals;
+- (void)ORCHSIRINLMODE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSearchToolId; // @synthesize hasSearchToolId=_hasSearchToolId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *searchToolId; // @synthesize searchToolId=_searchToolId;
 
 @end

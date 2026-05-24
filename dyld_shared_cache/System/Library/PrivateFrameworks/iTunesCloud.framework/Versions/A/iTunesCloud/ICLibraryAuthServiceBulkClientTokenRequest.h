@@ -6,19 +6,17 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICLibraryAuthServiceBulkClientTokenResponse, ICStoreRequestContext, NSSet;
+@class ICStoreRequestContext;
 
 @interface ICLibraryAuthServiceBulkClientTokenRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    ICLibraryAuthServiceBulkClientTokenResponse *_response;
-    NSSet *_accountDSIDs;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)ckend;
+- (void)ICUserIdentityStoreBackend;
 
 @end
 

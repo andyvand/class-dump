@@ -7,7 +7,7 @@
 @class UIScene;
 
 @interface UnknownClass (UIKitAdditions)
-- (id);
+- (id)Bailing receive notice. Could not unarchive event with expected type '%@' error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScene *targetScene;

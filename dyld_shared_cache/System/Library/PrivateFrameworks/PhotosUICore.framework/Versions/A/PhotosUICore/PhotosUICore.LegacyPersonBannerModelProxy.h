@@ -9,8 +9,6 @@
 @interface PhotosUICore.LegacyPersonBannerModelProxy
 {
     id model;
-    _Bool canPushViewController;
-    id canPresentPopovers;
 }
 
 - (id);
@@ -20,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -29,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canPushViewController; // @synthesize canPushViewController;
 @property(nonatomic, readonly) NSViewController *presentingViewController;
 
 @end

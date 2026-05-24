@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _UIObscurableTextContentStorage
 {
     _UICascadingTextStorage *_cascadingTextStorage;
-    NSAttributedString *_obscuredAttributedString;
-    _Bool _obscured;
-    struct _NSRange _unobscuredRange;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id)Ð!Dù]ð1Â0@ù
 × ;
 - (void)b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
@@ -30,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)]_;
 
 // Remaining properties
-@property(nonatomic, getter=isObscured) _Bool obscured; // @synthesize obscured=_obscured;
 @property(readonly, nonatomic) NSAttributedString *obscuredAttributedString;
-@property(nonatomic) struct _NSRange unobscuredRange; // @synthesize unobscuredRange=_unobscuredRange;
 
 @end
 

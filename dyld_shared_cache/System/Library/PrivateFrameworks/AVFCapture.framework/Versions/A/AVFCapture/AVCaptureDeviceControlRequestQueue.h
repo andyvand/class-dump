@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceControlRequestQueue
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_mutableArray;
 }
 
-- (void);
+- (void)_accountStoreClients;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 

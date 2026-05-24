@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRAppEntityPathProtobuf;
+@class NSString;
 
 @interface MRAppEntityPath
 {
     NSString *_bundleIdentifier;
-    NSString *_typeIdentifier;
-    NSString *_instanceIdentifier;
 }
 
 + (_Bool);
@@ -20,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -29,13 +27,10 @@
 - (id);
 - (void);
 - (void)d;
-- (id)eviceRouteKey;
+- (id)kMRMediaRemoteRouteIsLocalDeviceRouteKey;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
-@property(readonly, nonatomic) _MRAppEntityPathProtobuf *protobuf;
-@property(copy, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

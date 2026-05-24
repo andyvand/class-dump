@@ -13,12 +13,12 @@
     NSUUID *_taskUUID;
 }
 
-+ (_Bool);
++ (_Bool)_transitionToActivityID;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)F;
 - (id);
 - (void);
 

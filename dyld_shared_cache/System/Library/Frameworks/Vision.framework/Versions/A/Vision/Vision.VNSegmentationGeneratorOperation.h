@@ -9,9 +9,6 @@
 @interface Vision.VNSegmentationGeneratorOperation : Vision.VNDetectorPerformingOperation
 {
     id outputPixelFormats;
-    id originatingSpecifier;
-    id keepRawOutputMasks;
-    id classIDCodes;
 }
 
 @end

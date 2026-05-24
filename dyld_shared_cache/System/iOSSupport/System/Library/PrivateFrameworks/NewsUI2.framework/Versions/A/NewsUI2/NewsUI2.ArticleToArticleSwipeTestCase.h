@@ -9,21 +9,17 @@
 @interface NewsUI2.ArticleToArticleSwipeTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
 }
 
 - (id);
-- (double);
+- (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

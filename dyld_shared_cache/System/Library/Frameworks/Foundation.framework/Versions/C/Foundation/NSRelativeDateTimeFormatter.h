@@ -6,24 +6,13 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSCalendar, NSLocale;
-
 @interface NSRelativeDateTimeFormatter : NSFormatter
 {
     struct __CFRelativeDateTimeFormatter *_formatter;
-    NSLocale *_locale;
-    NSCalendar *_calendar;
-    long long _dateTimeStyle;
-    long long _unitsStyle;
-    long long _formattingContext;
 }
 
 
 // Remaining properties
-@property(copy) NSCalendar *calendar; // @synthesize calendar=_calendar;
 @property long long dateTimeStyle; // @synthesize dateTimeStyle=_dateTimeStyle;
-@property long long formattingContext; // @synthesize formattingContext=_formattingContext;
-@property(copy) NSLocale *locale; // @synthesize locale=_locale;
-@property long long unitsStyle; // @synthesize unitsStyle=_unitsStyle;
 @end
 

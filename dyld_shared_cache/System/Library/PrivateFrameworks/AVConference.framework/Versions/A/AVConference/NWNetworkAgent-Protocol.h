@@ -4,49 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData, NSDictionary, NSString, NSUUID;
 
 @protocol NWNetworkAgent
++ (NSString *)T*!;
+- (NSUUID *);
 - (NSData *)forceMuteAtStart;
 
+@optional
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)am:(NSDictionary *)arg1 ambAdaptationParam:hlgOOTFCombined: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
 @property(copy, nonatomic) NSString *agentDescription;
-@property(copy, nonatomic) NSUUID *agentUUID;
-@property(nonatomic, getter=isKernelActivated) _Bool kernelActivated;
-@property(nonatomic, getter=isNetworkProvider) _Bool networkProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNetworkProvider
-
-@property(nonatomic, getter=isNexusProvider) _Bool nexusProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNexusProvider
-
-@property(nonatomic) _Bool requiresAssert;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isSpecificUseOnly) _Bool specificUseOnly;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSpecificUseOnly
-
-@property(nonatomic) _Bool supportsBrowseRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsListenRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsResolveRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool updateClientsImmediately;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isUserActivated) _Bool userActivated;
-@property(nonatomic, getter=isVoluntary) _Bool voluntary;
 @end
 

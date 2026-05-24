@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface TSDMatchingAlgorithm
 {
     long long *mCostMatrix;
-    char *mMaskMatrix;
-    _Bool *mIsStarInColumn;
-    _Bool *mIsStarInRow;
-    _Bool *mIsColCovered;
-    _Bool *mIsRowCovered;
-    id *mObjectMapping;
-    long long mMatrixDimension;
-    long long mZ0Row;
-    long long mZ0Col;
-    NSMutableArray *mResults;
 }
 
 + (id);
@@ -28,11 +16,11 @@
 - (int);
 - (int);
 - (int);
-- (int);
-- (void);
-- (id);
-- (void);
-- (int);
+- (int);
+- (void);
+- (id)';
+- (void);
+- (int);
 
 @end
 

@@ -9,7 +9,6 @@
 @interface SCNConstantScaleConstraint : SCNConstraint
 {
     float _scale;
-    _Bool _screenSpace;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) float scale;
-@property(nonatomic) _Bool screenSpace;
 
 @end
 

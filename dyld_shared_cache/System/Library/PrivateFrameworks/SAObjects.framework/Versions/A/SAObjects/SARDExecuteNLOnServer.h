@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSDictionary, NSString, SASRecognition;
+@class NSArray;
 
 @interface SARDExecuteNLOnServer : SABaseCommand
 {
@@ -14,45 +14,28 @@
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)context:(id)arg1;
-- (id)y:context: /* Error: Ran out of types for this method. */;
+- (void)phoneWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)aceNavigationEtaWithDictionary:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *aceDelegatedUserDialogActList;
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *directAction;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *preITNRecognitionSausageMap;
-@property(retain, nonatomic) SASRecognition *recognitionSausage;
-@property(copy, nonatomic) NSDictionary *recognitionSausageMap;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSDictionary *requestExecutionParameters;
-@property(copy, nonatomic) NSString *requestType;
-@property(copy, nonatomic) NSString *resultCandidateId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

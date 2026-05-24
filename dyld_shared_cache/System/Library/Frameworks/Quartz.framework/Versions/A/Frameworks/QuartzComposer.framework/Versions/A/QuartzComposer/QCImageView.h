@@ -10,8 +10,8 @@
 
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)hf;
+- (_Bool)�H;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardCollectionView, CNContactListCellViewController, NSArray, NSTextField;
+@class CNContactListCellViewController, NSTextField;
 
 @interface CNContactListCellView
 {
     CNContactListCellViewController *_controller;
-    ABCardCollectionView *_collectionView;
-    NSTextField *_nameView;
-    NSArray *_customConstraints;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (_Bool);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) ABCardCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain) CNContactListCellViewController *controller; // @synthesize controller=_controller;
-@property(retain) NSArray *customConstraints; // @synthesize customConstraints=_customConstraints;
 @property(retain) NSTextField *nameView; // @synthesize nameView=_nameView;
 
 @end

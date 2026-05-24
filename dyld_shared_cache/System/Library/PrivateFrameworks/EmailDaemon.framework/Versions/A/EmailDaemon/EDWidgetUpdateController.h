@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetConfigurationReader, NSArray, NSDate, NSSet, NSString;
+@class NSArray;
 
 @interface EDWidgetUpdateController
 {
     NSArray *_timelineControllers;
-    CHSWidgetConfigurationReader *_reader;
-    NSSet *_identifiers;
-    NSDate *_lastUpdate;
-    long long _numberOfUpdates;
 }
 
 + (id);
-- (long long);
+- (long long)_jsonStringForModelEvaluationForSuggestions;
+- (void)A;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_TtC12SiriOntology36UsoTaskBuilder_hide_common_MediaItem;
 - (void);
 - (void);
 - (id);
@@ -29,9 +25,9 @@
 - (id);
 - (void);
 - (void);
+- (void)8;
 - (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void)u!XDù1´°1Â0@ù
@@ -43,17 +39,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) NSDate *lastUpdate; // @synthesize lastUpdate=_lastUpdate;
-@property(nonatomic) long long numberOfUpdates; // @synthesize numberOfUpdates=_numberOfUpdates;
-@property(retain, nonatomic) CHSWidgetConfigurationReader *reader; // @synthesize reader=_reader;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *timelineControllers; // @synthesize timelineControllers=_timelineControllers;
 
 @end

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBPhotosKnowledgeGraphEnrichmentEntity
 {
     double _score;
-    unsigned int _category;
-    NSString *_language;
-    NSString *_name;
-    struct {
-        unsigned int score:1;
-        unsigned int category:1;
-    } _has;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)nt"16;
+- (void)updateNegotiatedSettingsOnetoOne:(_Bool)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)`;
+- (id)A";
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (id);
@@ -44,14 +35,7 @@
 - (void)¬­®¯ÿÿ±²³´µ¶·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×;
 
 // Remaining properties
-@property(nonatomic) unsigned int category; // @synthesize category=_category;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasLanguage;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasScore;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

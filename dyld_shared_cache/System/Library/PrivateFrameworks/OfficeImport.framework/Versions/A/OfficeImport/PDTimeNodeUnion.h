@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDAnimateColorBehavior, PDAnimateEffectBehavior, PDAnimateMotionBehavior, PDAnimateRotateBehavior, PDAnimateScaleBehavior, PDAnimateTimeBehavior, PDAudioNode, PDCmdBehavior, PDParallelTimeNode, PDSequentialTimeNode, PDSetBehavior, PDVideoNode;
+@class PDAnimateTimeBehavior;
 
 __attribute__((visibility("hidden")))
 @interface PDTimeNodeUnion
 {
     PDAnimateTimeBehavior *mTimeBehavior;
-    PDAnimateEffectBehavior *mEffectBehavior;
-    PDAnimateMotionBehavior *mMotionBehavior;
-    PDAnimateRotateBehavior *mRotateBehavior;
-    PDAnimateScaleBehavior *mScaleBehavior;
-    PDAnimateColorBehavior *mColorBehavior;
-    PDAudioNode *mAudio;
-    PDVideoNode *mVideo;
-    PDParallelTimeNode *mParallelTimeNodeGroup;
-    PDSequentialTimeNode *mSequentialTimeNodeGroup;
-    PDSetBehavior *mSetBehavior;
-    PDCmdBehavior *mCmdBehavior;
 }
 
 - (id);
@@ -28,28 +17,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Hyhxd;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)/;
+- (id);
+- (id);;
+- (id);
+- (id);
+- (void)setAssociatedPoints:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void)mza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUFlushingManager.mm;
 
 @end

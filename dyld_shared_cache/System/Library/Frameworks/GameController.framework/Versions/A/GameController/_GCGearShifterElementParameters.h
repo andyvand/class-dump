@@ -6,21 +6,16 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCGearShifterElementParameters : _GCDevicePhysicalInputElementParameters
 {
     _Bool _patternShifter;
-    NSSet *_sources;
-    unsigned long long _eventShifterValueField;
-    struct _NSRange _positionRange;
 }
 
 + (Class);
 - (id);
 - (_Bool);
-- (id);
+- (id)signOutFlowController:(struct _NSZone *)arg1 showAlertWithTitle:message:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

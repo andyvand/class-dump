@@ -7,7 +7,6 @@
 @interface UIMutableIndexPath
 {
     unsigned long long *_mutableIndexes;
-    _Bool _locked;
 }
 
 + (void);

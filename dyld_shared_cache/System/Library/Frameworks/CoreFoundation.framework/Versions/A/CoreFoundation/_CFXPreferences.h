@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface _CFXPreferences
 {
     struct __CFDictionary *_sources;
-    struct __CFDictionary *_namedVolatileSources;
-    struct __CFDictionary *_searchLists;
-    NSObject<OS_xpc_object> *_daemonConnection;
-    NSObject<OS_xpc_object> *_agentConnection;
-    struct __CFDictionary *_agentConnectionsByUsername;
-    NSObject<OS_xpc_object> *_directConnection;
-    unsigned int _launchdUID;
-    unsigned int _euid;
-    unsigned int _nonLaunchPersonaUID;
-    _Atomic char _userHomeDirectoryState;
-    struct os_unfair_lock_s _sourcesLock;
-    struct os_unfair_lock_s _searchListsLock;
-    struct os_unfair_lock_s _namedVolatileSourcesLock;
-    struct __CFSet *_groupContainersForCurrentUser;
 }
 
 + (id);
 - (_Bool);
-- (void *);
-- (void);
+- (void *)) ;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ault for %{public}@ %{private}@ error=%{public}@;
 - (void)"NSString"16@"NSString"24@"NSString"32@"NSString"40@"NSDate"48@"NSString"56@"NSString"64@"NSString"72@?<v@?@"_TtC19EnergyKitFoundation12EKEnergySite"@"NSError">80;
 - (void);
 

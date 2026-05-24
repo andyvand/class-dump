@@ -23,16 +23,16 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)XRGB8u;
 - (_Bool);
-- (unsigned long long)Info: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_allowAutoscrollForDraggingInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

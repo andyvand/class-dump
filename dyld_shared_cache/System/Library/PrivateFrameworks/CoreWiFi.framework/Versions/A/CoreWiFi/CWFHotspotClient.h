@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface CWFHotspotClient
 {
     NSString *_displayName;
-    NSString *_MACAddress;
-    NSString *_productColor;
-    NSString *_productMarketingName;
-    NSString *_productType;
-    NSString *_peerIdentifier;
-    NSNumber *_dataUsageLastBytes;
-    NSNumber *_dataUsageTotalBytes;
-    NSDate *_dataUsageLastUpdated;
 }
 
 + (_Bool);
@@ -26,35 +18,27 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)dateReachability: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)DIRECTION_PAD_Y_AXIS;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)accessoryDidUpdateReachability: /* Error: Ran out of types for this method. */;
 - (id)M¨W;
 - (void)wifi] %{public}s (%{public}s:(id)arg1 %u) APPLE80211_M_NDD_REPORT data not valid %{public}@;
 - (id)¥åÿö\;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(copy, nonatomic) NSNumber *dataUsageLastBytes; // @synthesize dataUsageLastBytes=_dataUsageLastBytes;
-@property(copy, nonatomic) NSDate *dataUsageLastUpdated; // @synthesize dataUsageLastUpdated=_dataUsageLastUpdated;
-@property(copy, nonatomic) NSNumber *dataUsageTotalBytes; // @synthesize dataUsageTotalBytes=_dataUsageTotalBytes;
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
-@property(copy, nonatomic) NSString *productColor; // @synthesize productColor=_productColor;
-@property(copy, nonatomic) NSString *productMarketingName; // @synthesize productMarketingName=_productMarketingName;
-@property(copy, nonatomic) NSString *productType; // @synthesize productType=_productType;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedMessageRecordBatchResult
 {
     id pendingAssociations;
-    id missingMessageGUIDs;
-    id messageRecords;
-    id chatRecords;
-    id handleRecords;
-    id attachmentRecords;
-    id messageIDToAssociations;
-    id exportedMessageIDs;
 }
 
 + (_Bool);
@@ -25,17 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_Account",&,V_account;
+- (id);
 - (void);
 - (void)OT NULL ORDER BY created_date ASC LIMIT ? OFFSET ?;;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *attachmentRecords;
-@property(nonatomic, readonly) NSDictionary *chatRecords;
-@property(nonatomic, readonly) NSArray *exportedMessageIDs;
-@property(nonatomic, readonly) NSDictionary *handleRecords;
-@property(nonatomic, readonly) NSDictionary *messageIDToAssociations;
 @property(nonatomic, readonly) NSDictionary *messageRecords;
 
 @end

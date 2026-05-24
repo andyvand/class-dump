@@ -11,8 +11,8 @@
 
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)__got;
+- (void);
 - (id);
 - (void)Ø;
 

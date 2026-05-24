@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileLoader, NSString;
+@class NSString;
 
 @interface GEOExternalTileLoader
 {
     NSString *_clientId;
-    struct GEOOnce_s _tileLoaderOpen;
-    GEOTileLoader *_tileLoader;
 }
 
+- (void)_cn_times:(id)arg1;
+- (void)_cn_timeIntervalValue;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
-- (id);
+- (id)_block_invoke;
 - (void)hCÿ48NÍ4;
 
 @end

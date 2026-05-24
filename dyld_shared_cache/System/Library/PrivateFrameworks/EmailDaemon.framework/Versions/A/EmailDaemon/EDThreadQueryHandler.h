@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceHookRegistry, EDRemindMeNotificationController, EDThreadMigratorManager, EDThreadPersistence, EDVIPManager, EFLocked, EMObjectID, EMQuery, EMThreadScope, NSString;
-@protocol EDResumable, EDSearchProvider, EDThreadQueryHandlerDelegate, EMMessageListItemQueryResultsObserver;
+@protocol EMMessageListItemQueryResultsObserver;
 
 @interface EDThreadQueryHandler
 {
     _Atomic char _state;
-    struct atomic_flag _isRunning;
-    EDThreadMigratorManager *_threadMigratorManager;
-    EMThreadScope *_threadScope;
-    EMQuery *_query;
-    id <EMMessageListItemQueryResultsObserver> _resultsObserver;
-    EMObjectID *_observationIdentifier;
-    EDMessagePersistence *_messagePersistence;
-    EDThreadPersistence *_threadPersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EDVIPManager *_vipManager;
-    id <EDSearchProvider> _searchProvider;
-    EDRemindMeNotificationController *_remindMeNotificationController;
-    EFLocked *_underlyingHandler;
-    id <EDThreadQueryHandlerDelegate> _delegate;
-    id <EDResumable> _observerResumer;
 }
 
 + (id)t°!øBù³°1Â0@ù
@@ -45,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,42 +47,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)UsoEntityBuilder_common_KnowledgeQuestionAttribute;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)customerServiceProfileChanged:visible: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool)ve: /* Error: Ran out of types for this method. */;
+- (_Bool)messageGlobalDataTableSchemaAndAssociationsToResolve: /* Error: Ran out of types for this method. */;
 - (void)dentified_started_at_index index;
 - (id);
 - (void)ð;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <EDThreadQueryHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) EMObjectID *observationIdentifier; // @synthesize observationIdentifier=_observationIdentifier;
-@property(readonly, nonatomic) id <EDResumable> observerResumer; // @synthesize observerResumer=_observerResumer;
-@property(readonly, copy, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) EDRemindMeNotificationController *remindMeNotificationController; // @synthesize remindMeNotificationController=_remindMeNotificationController;
 @property(readonly, nonatomic) id <EMMessageListItemQueryResultsObserver> resultsObserver; // @synthesize resultsObserver=_resultsObserver;
-@property(readonly, nonatomic) id <EDSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EDThreadPersistence *threadPersistence; // @synthesize threadPersistence=_threadPersistence;
-@property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
-@property(readonly, nonatomic) EFLocked *underlyingHandler; // @synthesize underlyingHandler=_underlyingHandler;
-@property(readonly, nonatomic) EDVIPManager *vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

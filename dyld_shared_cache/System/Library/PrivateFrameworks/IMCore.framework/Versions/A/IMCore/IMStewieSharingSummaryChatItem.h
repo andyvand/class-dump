@@ -11,14 +11,13 @@
 @interface IMStewieSharingSummaryChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    IMChat *_chat;
 }
 
-- (id);
+- (id)actionID='%@';
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (void)¨oèqdHrer;
 
 // Remaining properties

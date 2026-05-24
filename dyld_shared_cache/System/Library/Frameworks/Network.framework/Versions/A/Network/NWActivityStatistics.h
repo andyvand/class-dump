@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, NSUUID;
-
 @interface NWActivityStatistics
 {
     unsigned char _metricType;
-    NSUUID *_externallyVisibleActivityUUID;
-    NSUUID *_externallyVisibleParentUUID;
-    NSUUID *_activityUUID;
-    NSUUID *_parentUUID;
-    NSDictionary *_layer2Report;
-    NSDictionary *_deviceReport;
-    NSMutableDictionary *_dictionaryReport;
-    struct nw_activity_report_s _report;
 }
 
 + (id);
@@ -26,14 +16,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)qL;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -49,20 +39,7 @@
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(retain, nonatomic) NSString *bundleID;
-@property(retain, nonatomic) NSDictionary *deviceReport; // @synthesize deviceReport=_deviceReport;
-@property(retain, nonatomic) NSMutableDictionary *dictionaryReport; // @synthesize dictionaryReport=_dictionaryReport;
-@property(readonly, nonatomic) unsigned int domain;
-@property(retain, nonatomic) NSUUID *externallyVisibleActivityUUID; // @synthesize externallyVisibleActivityUUID=_externallyVisibleActivityUUID;
-@property(retain, nonatomic) NSUUID *externallyVisibleParentUUID; // @synthesize externallyVisibleParentUUID=_externallyVisibleParentUUID;
-@property(readonly, nonatomic) unsigned long long investigation_identifier;
-@property(readonly, nonatomic) unsigned int label;
-@property(retain, nonatomic) NSDictionary *layer2Report; // @synthesize layer2Report=_layer2Report;
-@property(nonatomic) unsigned char metricType; // @synthesize metricType=_metricType;
-@property(retain, nonatomic) NSUUID *parentUUID; // @synthesize parentUUID=_parentUUID;
 @property(nonatomic) struct nw_activity_report_s report; // @synthesize report=_report;
-@property(readonly, nonatomic) _Bool retry;
 
 @end
 

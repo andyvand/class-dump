@@ -12,7 +12,7 @@
 + (double);
 + (struct CGPoint);
 + (double);
-+ (long long);
++ (long long);
 + (long long);
 + (long long);
 + (struct CGColorSpace *);

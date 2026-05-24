@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)VersionedFileIdentifier";
++ (id)6@0:(unsigned long long)arg1 8;
+- (id)h";
 - (id);
 
 @end

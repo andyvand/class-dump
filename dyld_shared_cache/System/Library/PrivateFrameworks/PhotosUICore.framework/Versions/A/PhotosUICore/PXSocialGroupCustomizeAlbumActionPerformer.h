@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PXSocialGroupCustomizeAlbumActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     id photoLibrary;
-    id initialPeople;
-    id creationCompletionBlock;
-    id addPeoplePerformer;
 }
 
 + (id);

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuBarPresentationInstance;
-
 __attribute__((visibility("hidden")))
 @interface NSHIPresentationInstance
 {
     unsigned long long _spaceID;
-    struct OpaqueHIPresentationInstanceRef *_ref;
-    NSMenuBarPresentationInstance *_presentationInstance;
 }
 
 - (void);
-- (void);
-- (id);
-- (struct OpaqueHIPresentationInstanceRef *);
-- (id);
+- (void)e domain - failed to puny-code label;
+- (id)_size_"Q}}}"_requestHostToConnectionKey"{map<std:(unsigned long long)arg1:(_Bool)arg2 string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (struct OpaqueHIPresentationInstanceRef *)URLSession:aggregateAssetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
+- (id)URLSession:_taskIsWaitingForConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)/Library/PrivateFrameworks/WritingToolsUI.framework/WritingToolsUI;

@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)onsidering staged updates only (%@);
 - (id);
 - (void)¤;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName;
 @property(readonly, nonatomic) NSString *participantUserID; // @synthesize participantUserID=_participantUserID;
 
 @end

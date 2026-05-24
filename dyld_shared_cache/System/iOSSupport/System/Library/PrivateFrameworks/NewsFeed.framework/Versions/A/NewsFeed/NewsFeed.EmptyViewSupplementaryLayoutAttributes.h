@@ -7,7 +7,6 @@
 @interface NewsFeed.EmptyViewSupplementaryLayoutAttributes
 {
     id frame;
-    id kind;
 }
 
 @end

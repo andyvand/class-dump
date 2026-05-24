@@ -9,12 +9,11 @@
 @interface ISRootMigrator : ISMigrator
 {
     _Bool _isErase;
-    _Bool _isRestoreFromBackup;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isErase; // @synthesize isErase=_isErase;
-@property(nonatomic) _Bool isRestoreFromBackup; // @synthesize isRestoreFromBackup=_isRestoreFromBackup;
 
 @end
 

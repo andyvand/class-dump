@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (void);
++ (void)sertion counter to keychain. { 'label':(id)arg1 "%@", 'counterValue':"%d", 'error':"%@" } /* Error: Ran out of types for this method. */;
 
 @end
 

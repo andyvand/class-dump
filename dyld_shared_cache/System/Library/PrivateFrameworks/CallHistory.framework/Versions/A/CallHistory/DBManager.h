@@ -15,12 +15,12 @@
 
 + (long long);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (long long);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)estAssetsInLibraryWithManagedObjectContext(NSManagedObjectContext *__strong _Nonnull, PLPhotoLibraryPathManager *__strong _Nonnull, NSString *__strong _Nonnull, BOOL, NSError *__autoreleasing * _Nullable);
 + (_Bool);
 + (id);
 + (void);
@@ -37,8 +37,8 @@
 + (_Bool);
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)serverSupportsLibraryShareSettingsUserViewedParticipantTrashNotificationDateSyncing;
+- (id)PLPhotoAnalysisTestServiceProtocol;
 - (id);
 - (_Bool);
 - (id);

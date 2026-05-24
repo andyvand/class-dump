@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface SGMIFeature
 {
     long long _featureName;
-    long long _featureType;
-    NSNumber *_numberValue;
-    NSArray *_numberArrayValue;
-    NSString *_stringValue;
-    NSArray *_stringArrayValue;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
++ (id);
++ (id)__TEXT;
++ (long long)w"16@24@"NSTableColumn"32q40;
++ (id)isLastRow;
++ (id),V_bottomButtonsConstraints;
+- (id);
+- (id)|$;
+- (id);
+- (id);
+- (id);
+- (id)s;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (long long);
+- (_Bool)Connection";
+- (id)isSuppressAutoHyphensOverridden;
+- (long long);
 - (long long);
 - (double);
 - (float);
@@ -44,17 +37,7 @@
 - (long long)escription:%{sensitive}@, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool boolValue;
-@property(readonly, nonatomic) double doubleValue;
 @property(readonly, nonatomic) long long featureName; // @synthesize featureName=_featureName;
-@property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
-@property(readonly, nonatomic) float floatValue;
-@property(readonly, nonatomic) int intValue;
-@property(readonly, nonatomic) long long integerValue;
-@property(readonly, nonatomic) NSArray *numberArrayValue; // @synthesize numberArrayValue=_numberArrayValue;
-@property(readonly, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, nonatomic) NSArray *stringArrayValue; // @synthesize stringArrayValue=_stringArrayValue;
-@property(readonly, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

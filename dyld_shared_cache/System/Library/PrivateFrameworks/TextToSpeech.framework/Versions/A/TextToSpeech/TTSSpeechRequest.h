@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisProviderVoice, NSArray, NSDictionary, NSObject, NSString, TTSSpeechVoice;
-@protocol OS_voucher;
+@class NSString;
 
 @interface TTSSpeechRequest
 {
     _Bool _maintainsInput;
-    _Bool _audioSessionIDIsValid;
-    _Bool _synthesizeSilently;
-    _Bool _ignoreSubstitutions;
-    _Bool _sentSpeechDone;
-    unsigned int _audioDeviceId;
-    unsigned int _audioSessionID;
-    unsigned int _audioQueueFlags;
-    NSString *_text;
-    NSString *_jobIdentifier;
-    TTSSpeechVoice *_voice;
-    unsigned long long _speechStringType;
-    AVSpeechSynthesisProviderVoice *_synthesisProviderVoice;
-    NSString *_languageCode;
-    long long _gender;
-    double _rate;
-    double _pitch;
-    double _volume;
-    double _latency;
-    double _dispatchTime;
-    double _handledTime;
-    NSArray *_channels;
-    void *_clientContext;
-    CDUnknownBlockType _audioBufferCallback;
-    CDUnknownBlockType _latencyCallback;
-    NSObject<OS_voucher> *_voucher;
-    NSDictionary *_voiceSettings;
 }
 
 + (_Bool);
@@ -69,8 +42,8 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)CaptureServer [%s] %s:%d camera=%5s, queueToUse=[%@] /* Error: Ran out of types for this method. */;
+- (id)ector updateSelectedConnectionsForGroupType:(id)arg1 connectionRemoved:connectionArray:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -81,51 +54,25 @@
 - (void);
 - (void);
 - (void);
+- (double)addLegacyThermalMetricsToReportDictionary: /* Error: Ran out of types for this method. */;
+- (void)OFFCHANNEL;
+- (id);
 - (double);
-- (void);
-- (id);
 - (double);
-- (double);
-- (void);
-- (void);
+- (void)initWithStore:(id)arg1 collectionDescription:image:imageUrl:positionIndex:title: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void *);
-- (void);
+- (void)Ā;
 - (long long);
 - (void);
 - (void);
 - (double)ers[%u].mDataByteSize=%u; kAudio_ParamError;
 - (unsigned int)22222222222222£;
-- (void);
+- (void)e;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType audioBufferCallback; // @synthesize audioBufferCallback=_audioBufferCallback;
-@property(nonatomic) unsigned int audioDeviceId; // @synthesize audioDeviceId=_audioDeviceId;
-@property(nonatomic) unsigned int audioQueueFlags; // @synthesize audioQueueFlags=_audioQueueFlags;
-@property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(nonatomic) _Bool audioSessionIDIsValid; // @synthesize audioSessionIDIsValid=_audioSessionIDIsValid;
-@property(retain, nonatomic) NSArray *channels; // @synthesize channels=_channels;
-@property(nonatomic) void *clientContext; // @synthesize clientContext=_clientContext;
-@property(nonatomic) double dispatchTime; // @synthesize dispatchTime=_dispatchTime;
-@property(nonatomic) long long gender; // @synthesize gender=_gender;
-@property(nonatomic) double handledTime; // @synthesize handledTime=_handledTime;
-@property(nonatomic) _Bool ignoreSubstitutions; // @synthesize ignoreSubstitutions=_ignoreSubstitutions;
-@property(retain, nonatomic) NSString *jobIdentifier; // @synthesize jobIdentifier=_jobIdentifier;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(nonatomic) double latency; // @synthesize latency=_latency;
-@property(copy, nonatomic) CDUnknownBlockType latencyCallback; // @synthesize latencyCallback=_latencyCallback;
-@property(nonatomic) _Bool maintainsInput; // @synthesize maintainsInput=_maintainsInput;
-@property(nonatomic) double pitch; // @synthesize pitch=_pitch;
-@property(nonatomic) double rate; // @synthesize rate=_rate;
-@property(nonatomic) _Bool sentSpeechDone; // @synthesize sentSpeechDone=_sentSpeechDone;
-@property(nonatomic) unsigned long long speechStringType; // @synthesize speechStringType=_speechStringType;
-@property(copy, nonatomic) AVSpeechSynthesisProviderVoice *synthesisProviderVoice; // @synthesize synthesisProviderVoice=_synthesisProviderVoice;
-@property(nonatomic) _Bool synthesizeSilently; // @synthesize synthesizeSilently=_synthesizeSilently;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) TTSSpeechVoice *voice; // @synthesize voice=_voice;
-@property(retain, nonatomic) NSDictionary *voiceSettings; // @synthesize voiceSettings=_voiceSettings;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
-@property(retain, nonatomic) NSObject<OS_voucher> *voucher; // @synthesize voucher=_voucher;
 
 @end
 

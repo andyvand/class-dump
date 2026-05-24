@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNLanguageAlignedAVFuserModelInput
 {
     MLMultiArray *_vision_embedding;
-    MLMultiArray *_audio_embedding;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)T
@@ -23,8 +22,6 @@
 - (id)ÿ!2HUÒÿ!2DUÒÿq!2@UÒÿ;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *audio_embedding; // @synthesize audio_embedding=_audio_embedding;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *vision_embedding; // @synthesize vision_embedding=_vision_embedding;
 
 @end

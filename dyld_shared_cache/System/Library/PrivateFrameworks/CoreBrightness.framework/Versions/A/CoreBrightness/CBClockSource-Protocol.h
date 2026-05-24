@@ -5,6 +5,10 @@
 //
 
 @protocol CBClockSource
+- (void)I;
+- (void);
+- (void)rker found while attempting to read a packet from the code-stream!
+;
 - (void)rameter provided to BespokeModeManager;
 
 // Remaining properties

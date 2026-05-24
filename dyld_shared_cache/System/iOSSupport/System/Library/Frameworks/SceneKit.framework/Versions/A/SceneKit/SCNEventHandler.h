@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNView;
+@class SCNView;
 
 @interface SCNEventHandler
 {
     SCNView *_view;
-    _Bool _enableFreeCamera;
-    _Bool _autoSwitchToFreeCamera;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -31,12 +29,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ntroller"16@"NSURL"24B32@"NSError"36;
 
 // Remaining properties
-@property _Bool autoSwitchToFreeCamera;
-@property _Bool enableFreeCamera;
-@property(readonly) SCNNode *freeCamera;
 @property(readonly) SCNView *view;
 
 @end

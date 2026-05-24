@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINavigationBar, UISwipeGestureRecognizer;
-@protocol _UINavigationBarGestureHandlerDelegate;
+@class UINavigationBar, UISwipeGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarGestureHandler
 {
     UISwipeGestureRecognizer *_popSwipeGestureRecognizer;
-    UINavigationBar *_navigationBar;
-    id <_UINavigationBarGestureHandlerDelegate> _delegate;
-    long long _idiom;
 }
 
-- (void);
+- (void)receipt sender:(id)arg1 played receipts must be sent by self (%@) for messages not from self. However, receipt was sent from (%@). Ignoring played receipt.;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (long long)TapAction;
-- (id)at;
-- (void)reHostingKeyboardTrackingElement;
+- (long long)UIHandleStatusBarTapAction;
+- (id)UIAbbreviatedWeekdayMonthDayFormat;
+- (void)UICoreHostingKeyboardTrackingElement;
 - (id)¢;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UINavigationBarGestureHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long idiom; // @synthesize idiom=_idiom;
 @property(readonly, nonatomic) __weak UINavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,36 +6,28 @@
 
 #import <MPSRayIntersector/MPSAccelerationStructure.h>
 
-@class NSArray;
-@protocol MTLArgumentEncoder, MTLBuffer;
-
 @interface MPSPolygonAccelerationStructure : MPSAccelerationStructure
 {
     unsigned int _indexType;
-    unsigned long long _polygonType;
-    void *_bvh;
-    NSArray *_polygonBuffers;
-    id <MTLArgumentEncoder> _resourceEncoder;
-    void *_resourceBufferRange;
-    unsigned long long _vertexStride;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)k;
 - (void);
 - (int);
 - (void);
 - (void *);
-- (unsigned long long);
+- (unsigned long long)@91Q
+;
 - (id);
 - (void *);
 - (void *);
 - (int);
 - (id);
 - (unsigned long long);
-- (void *);
+- (void *);
 - (unsigned long long);
 - (void *);
 - (id);
@@ -63,12 +55,12 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);};
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
@@ -81,17 +73,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset;
-@property(nonatomic) unsigned int indexType;
-@property(retain, nonatomic) id <MTLBuffer> maskBuffer;
-@property(nonatomic) unsigned long long maskBufferOffset;
-@property(retain, nonatomic) NSArray *polygonBuffers; // @synthesize polygonBuffers=_polygonBuffers;
-@property(nonatomic) unsigned long long polygonCount;
 @property(nonatomic) unsigned long long polygonType;
-@property(retain, nonatomic) id <MTLBuffer> vertexBuffer;
-@property(nonatomic) unsigned long long vertexBufferOffset;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

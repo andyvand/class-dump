@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewTrackedValue
 {
     double _trackedValue;
-    NSArray *_values;
-    long long _valuesCount;
-    long long _currentIndex;
-    _Bool _isAccumulating;
 }
 
 - (double);
 - (void);
-- (void);
-- (_Bool);
+- (void)n the manifest;
+- (_Bool);
 - (id);
 - (double);
 - (void)ching-only KE '%@' for displayed KE '%@';
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isAccumulating; // @synthesize isAccumulating=_isAccumulating;
 @property(nonatomic) double trackedValue; // @synthesize trackedValue=_trackedValue;
 
 @end

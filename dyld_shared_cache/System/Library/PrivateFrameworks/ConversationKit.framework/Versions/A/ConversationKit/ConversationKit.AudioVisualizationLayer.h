@@ -7,15 +7,11 @@
 @interface ConversationKit.AudioVisualizationLayer
 {
     id isAnimating;
-    id scale;
-    id scaleBuffer;
-    id rings;
-    id color;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (void);

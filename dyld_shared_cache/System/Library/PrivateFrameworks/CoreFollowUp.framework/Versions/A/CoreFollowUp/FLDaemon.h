@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection, NSXPCListenerEndpoint;
 
 @interface FLDaemon
 {
     NSXPCConnection *_conn;
-    NSLock *_connLock;
-    NSXPCListenerEndpoint *_daemonXPCEndpoint;
 }
 
 + (id);
@@ -23,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)cn;
 - (void);
 
 // Remaining properties

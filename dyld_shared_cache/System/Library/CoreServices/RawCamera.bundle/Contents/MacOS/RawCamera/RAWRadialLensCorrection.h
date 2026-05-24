@@ -6,17 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 @interface RAWRadialLensCorrection : RAWFilter
 {
     CIImage *inputImage;
-    CIVector *inputScales;
-    id inputColorSpace;
-    NSNumber *inputDraftMode;
-    NSNumber *inputLDCExecuteFlags;
-    NSNumber *inputVersion;
-    CIImage *mapImg;
 }
 
 + (id);

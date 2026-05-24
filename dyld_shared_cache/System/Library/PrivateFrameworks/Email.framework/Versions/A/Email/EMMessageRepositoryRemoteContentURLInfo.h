@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL;
+@class NSURL;
 
 @interface EMMessageRepositoryRemoteContentURLInfo
 {
     NSURL *_url;
-    unsigned long long _requestCount;
-    NSDate *_lastSeen;
-    NSDate *_lastRequested;
 }
 
 + (_Bool);
-- (id);
+- (id)Observer;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)setIncludeLanguage: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastRequested; // @synthesize lastRequested=_lastRequested;
-@property(readonly, nonatomic) NSDate *lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(readonly, nonatomic) unsigned long long requestCount; // @synthesize requestCount=_requestCount;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

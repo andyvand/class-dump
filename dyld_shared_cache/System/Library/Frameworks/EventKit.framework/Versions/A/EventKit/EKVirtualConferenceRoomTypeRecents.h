@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (void)gin resolving endpoint.;
++ (id)on] %@ received interrupted/invalid connection;
++ (void)eue_t, void (^__strong)(NSError *__strong));
++ (id)v@?@"MRPlaybackSessionMigrateRequest"@"NSError">24;
++ (id)emRef, CFStringRef);
 + (void):%{public}@ /* Error: Ran out of types for this method. */;
 
 @end

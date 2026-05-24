@@ -9,20 +9,6 @@
 @interface NewsUI2.FloatingTabBarController
 {
     id sidebarDelegate;
-    id _isSidebarVisible;
-    id _isSidebarEditing;
-    id navigationControllers;
-    id commandContainer;
-    id presentationContextCache;
-    id stagedModalContextCache;
-    id restoreStateCache;
-    id searchElementIdentifier;
-    id previousSelectedElementIdentifier;
-    id $__lazy_storage_$_intrinsicTabBar;
-    id sidebarImpressionManager;
-    id searchContentView;
-    id accessoryViewCoordinator;
-    id featureAvailability;
 }
 
 - (void);
@@ -32,24 +18,24 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)5;
 - (void);
 - (void);
 - (void);
 - (void)fms;
 - (void)­](^;
-- (void)haseTransactionTrackerProvider;
+- (void)PurchaseTransactionTrackerProvider;
 - (id);
 - (void);
 - (void);

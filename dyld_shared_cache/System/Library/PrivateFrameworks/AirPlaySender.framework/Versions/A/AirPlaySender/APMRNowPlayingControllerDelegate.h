@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRNowPlayingController, NSString;
-
 __attribute__((visibility("hidden")))
 @interface APMRNowPlayingControllerDelegate
 {
     struct OpaqueAPMetadataSource *_metadataSource;
-    MRNowPlayingController *_nowPlayingController;
 }
 
 - (void);
@@ -29,17 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSTextField;
-
 @interface RemindersUICore.TTRMReminderCellAttachmentCollectionImageItem
 {
     id clippedState;
-    id delegate;
-    void selectionOverlay;
-    void clippedCountLabel;
 }
 
 - (void);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *clippedCountLabel; // @synthesize clippedCountLabel;
-@property(nonatomic) long long highlightState;
 @property(nonatomic) _Bool selected;
-@property(nonatomic) __weak NSBox *selectionOverlay; // @synthesize selectionOverlay;
 
 @end
 

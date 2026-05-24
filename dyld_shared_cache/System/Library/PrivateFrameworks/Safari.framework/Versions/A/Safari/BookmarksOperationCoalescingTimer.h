@@ -5,31 +5,26 @@
 //
 
 @class NSObject, NSOperation;
-@protocol BookmarksOperationCoalescingTimerDelegate, CoalesceableBookmarksOperation, OS_dispatch_queue, OS_dispatch_source;
+@protocol CoalesceableBookmarksOperation, OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksOperationCoalescingTimer
 {
     NSObject<OS_dispatch_source> *_coalescingDispatchSource;
-    NSOperation<CoalesceableBookmarksOperation> *_currentOperation;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <BookmarksOperationCoalescingTimerDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (id);
+- (void)setDynamicTypes: /* Error: Ran out of types for this method. */;
+- (id)ame %ld;
 - (void);
-- (id);
-- (void);
-- (id)uttonLayoutMode;
-- (id)uppressingHTTPFamilySchemeAndWWWSubdomain;
+- (id)tabButtonLayoutMode;
+- (id)safari_urlStringSuppressingHTTPFamilySchemeAndWWWSubdomain;
 - (void)$\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperation<CoalesceableBookmarksOperation> *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property __weak id <BookmarksOperationCoalescingTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

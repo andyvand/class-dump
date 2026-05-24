@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIImageView, UILabel, UIVisualEffectView;
-
 @interface CKMessageEntryWaveformView
 {
     double _duration;
-    NSMutableArray *_powerLevels;
-    UIImageView *_waveformImageView;
-    unsigned long long _maxPowerLevelsCount;
-    UIVisualEffectView *_blurView;
-    UIImageView *_balloonImageView;
-    UILabel *_timeLabel;
-    double _minTimeLabelWidth;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)playbackStoppedNotification: /* Error: Ran out of types for this method. */;
+- (void)newSnapshotFromIndexWithLegacyManagedObjectContext:modernManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)attachmentInsertionController:(id)arg1 willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
+- (void)URLProtocol:(double)arg1 didReceiveResponse:cacheStoragePolicy: /* Error: Ran out of types for this method. */;
+- (void),R,N,V_type;
+- (void)setUseConstraintBasedRendering:(id)arg1;
 - (double);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void)(;
+- (id)your password.;
+- (void)andler:(double)arg1 ];
 - (id);
 - (void);
 - (void);
@@ -39,20 +30,13 @@
 - (void);
 - (id);
 - (id);
-- (void)eTypeSearch: /* Error: Ran out of types for this method. */;
+- (void)queryStringForMessageTypeSearch: /* Error: Ran out of types for this method. */;
 - (id)ingCollaboration:we have a URL (which should only happen for 3rd party file providers) but we were unable to begin accessing the URL, which prevents us from starting collaboration. /* Error: Ran out of types for this method. */;
 - (void);
 - (void)À	;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *balloonImageView; // @synthesize balloonImageView=_balloonImageView;
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic) unsigned long long maxPowerLevelsCount; // @synthesize maxPowerLevelsCount=_maxPowerLevelsCount;
-@property(nonatomic) double minTimeLabelWidth; // @synthesize minTimeLabelWidth=_minTimeLabelWidth;
-@property(retain, nonatomic) NSMutableArray *powerLevels; // @synthesize powerLevels=_powerLevels;
-@property(retain, nonatomic) UILabel *timeLabel; // @synthesize timeLabel=_timeLabel;
-@property(retain, nonatomic) UIImageView *waveformImageView; // @synthesize waveformImageView=_waveformImageView;
 
 @end
 

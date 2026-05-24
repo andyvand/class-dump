@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFetchRequest, CNObservable, NSString;
-@protocol CNDataMapper;
+@class CNContactFetchRequest;
 
 __attribute__((visibility("hidden")))
 @interface CNContactFetchRequestExecutorPredicateEvaluator
 {
     CNContactFetchRequest *_fetchRequest;
-    id <CNDataMapper> _dataMapper;
-    CNObservable *_observable;
 }
 
 - (void);
 - (void);
+- (void)ALID NOTIFICATION;
 - (void);
+- (void);
+- (void)o;
 - (void);
+- (id)ct;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)_clearProximityServiceManufacturerID;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

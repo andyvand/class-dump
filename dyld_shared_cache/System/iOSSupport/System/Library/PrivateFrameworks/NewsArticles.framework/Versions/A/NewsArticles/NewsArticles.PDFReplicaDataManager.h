@@ -7,7 +7,6 @@
 @interface NewsArticles.PDFReplicaDataManager
 {
     id assetFetchService;
-    id fetchCancelHandler;
 }
 
 @end

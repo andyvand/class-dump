@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDetachedFullscreenController, NSLayoutConstraint, NSView;
+@class AVDetachedFullscreenController, NSView;
 
 __attribute__((visibility("hidden")))
 @interface AVDetachedFullscreenContentContainerView
 {
     NSView *_contentView;
-    NSLayoutConstraint *_contentViewXConstraint;
-    NSLayoutConstraint *_contentViewYConstraint;
-    NSLayoutConstraint *_contentViewWidthConstraint;
-    NSLayoutConstraint *_contentViewHeightConstraint;
-    AVDetachedFullscreenController *_fullscreenController;
 }
 
 - (id);
@@ -26,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
+- (void)$;
 - (void);
-- (void);
-- (id)ssibilitySlider;
+- (id)NSAccessibilitySlider;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
 @property(readonly, nonatomic) __weak AVDetachedFullscreenController *fullscreenController; // @synthesize fullscreenController=_fullscreenController;
 
 @end

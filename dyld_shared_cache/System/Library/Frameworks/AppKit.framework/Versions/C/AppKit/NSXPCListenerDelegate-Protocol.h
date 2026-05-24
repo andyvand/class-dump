@@ -9,6 +9,6 @@
 @protocol NSXPCListenerDelegate
 
 @optional
-- (_Bool)tOfFocusItem:(NSXPCListener *)arg1;
+- (_Bool)_keyboardNavigateDoSelectOfFocusItem:(NSXPCListener *)arg1;
 @end
 

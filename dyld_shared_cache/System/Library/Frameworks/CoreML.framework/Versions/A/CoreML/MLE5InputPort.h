@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLE5InputPortBinder, MLPixelBufferPool, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MLE5InputPort
 {
     NSString *_name;
-    struct e5rt_io_port *_portHandle;
-    MLE5InputPortBinder *_binder;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct e5rt_io_port *);
+- (struct e5rt_io_port *)';
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)"width"d"height"d};
 - (void);
-- (void);
-- (id);
+- (id)is already done gathering.;
 - (id);
 - (id);
 - (void)ed save updated model to %@;
 
 // Remaining properties
-@property(retain) MLE5InputPortBinder *binder; // @synthesize binder=_binder;
-@property(readonly, nonatomic) _Bool boundFeatureDirectly;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) MLPixelBufferPool *pixelBufferPool;
 @property(readonly) struct e5rt_io_port *portHandle; // @synthesize portHandle=_portHandle;
-@property(readonly) Class superclass;
 
 @end
 

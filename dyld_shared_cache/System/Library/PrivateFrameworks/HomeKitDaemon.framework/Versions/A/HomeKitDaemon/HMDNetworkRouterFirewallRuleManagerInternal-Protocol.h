@@ -7,6 +7,8 @@
 @class NSArray;
 
 @protocol HMDNetworkRouterFirewallRuleManagerInternal
+- (void)R,C,N;
+- (NSArray *)aredTrip:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *activeClients;

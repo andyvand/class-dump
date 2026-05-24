@@ -5,6 +5,16 @@
 //
 
 @protocol CPXFocusManagerDataSource
+- (int)ectory.aLAJrA/Sources/Persistence/NSCKRecordZoneMetadata.m;
+- (void)e for index with predicate (2);
+- (short)for keypath;
+- (short)ailed because there is another instance of this persistent store actively syncing with CloudKit in this process.;
+- (unsigned int)kit.zone.reset;
+- (_Bool)t;
+- (_Bool)data.cloudkit.export;
+- (_Bool)@;;
+- (struct CPSProcessRec *)OLD.%@ IS NOT NULL);
+- (short)needsRecoveryFromZoneDelete;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CPSProcessRec *frontmostProcess;

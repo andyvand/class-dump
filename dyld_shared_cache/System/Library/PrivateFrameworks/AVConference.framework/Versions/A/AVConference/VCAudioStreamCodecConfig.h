@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamCodecConfig
 {
     long long _codecType;
-    _Bool _dtxEnabled;
-    int _preferredMode;
-    NSMutableArray *_supportedModes;
-    NSMutableArray *_supportedBandwidths;
-    _Bool _octetAligned;
-    _Bool _dtmf;
-    unsigned int _networkPayload;
-    unsigned short _evsChannelAwareOffset;
-    _Bool _evsHeaderFullOnly;
-    unsigned long long _pTime;
-    _Bool _isOpusInBandFecEnabled;
-    _Bool _isACC24FixedBitrateModeEnabled;
-    int _evsCMRMode;
-    unsigned long long _maxPtime;
 }
 
 - (id);
@@ -35,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -46,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,7 +41,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)N藔
+;
 - (void);
 - (void);
 - (unsigned long long);
@@ -67,21 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long codecType; // @synthesize codecType=_codecType;
-@property(nonatomic, getter=isDTMF) _Bool dtmf; // @synthesize dtmf=_dtmf;
-@property(nonatomic, getter=isDTXEnabled) _Bool dtxEnabled; // @synthesize dtxEnabled=_dtxEnabled;
-@property(nonatomic) int evsCMRMode; // @synthesize evsCMRMode=_evsCMRMode;
-@property(nonatomic) unsigned short evsChannelAwareOffset; // @synthesize evsChannelAwareOffset=_evsChannelAwareOffset;
-@property(nonatomic) _Bool evsHeaderFullOnly; // @synthesize evsHeaderFullOnly=_evsHeaderFullOnly;
-@property(nonatomic) _Bool isACC24FixedBitrateModeEnabled; // @synthesize isACC24FixedBitrateModeEnabled=_isACC24FixedBitrateModeEnabled;
-@property(readonly, nonatomic) _Bool isComfortNoise;
-@property(nonatomic) _Bool isOpusInBandFecEnabled; // @synthesize isOpusInBandFecEnabled=_isOpusInBandFecEnabled;
-@property(nonatomic) unsigned long long maxPtime; // @synthesize maxPtime=_maxPtime;
-@property(nonatomic) unsigned int networkPayload; // @synthesize networkPayload=_networkPayload;
-@property(nonatomic, getter=isOctetAligned) _Bool octetAligned; // @synthesize octetAligned=_octetAligned;
-@property(nonatomic) unsigned long long pTime; // @synthesize pTime=_pTime;
-@property(nonatomic) int preferredMode; // @synthesize preferredMode=_preferredMode;
-@property(retain, nonatomic) NSArray *supportedBandwidths; // @synthesize supportedBandwidths=_supportedBandwidths;
-@property(retain, nonatomic) NSArray *supportedModes; // @synthesize supportedModes=_supportedModes;
 
 @end
 

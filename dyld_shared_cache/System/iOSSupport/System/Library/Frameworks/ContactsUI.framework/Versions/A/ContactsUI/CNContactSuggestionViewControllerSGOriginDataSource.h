@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSURL, SGOrigin;
+@class SGOrigin;
 
 __attribute__((visibility("hidden")))
 @interface CNContactSuggestionViewControllerSGOriginDataSource
@@ -12,37 +12,23 @@ __attribute__((visibility("hidden")))
     SGOrigin *_origin;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)B;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)ew;
+- (void)_accessDeniedView;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appName;
-@property(readonly, nonatomic) NSString *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSAttributedString *formattedSnippet;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SGOrigin *origin; // @synthesize origin=_origin;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) NSString *with;
 
 @end
 

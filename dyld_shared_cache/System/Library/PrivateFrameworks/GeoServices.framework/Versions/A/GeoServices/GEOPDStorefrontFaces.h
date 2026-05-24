@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDStorefrontFaces
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_faces;
 }
 
 - (id);
-- (void);
+- (void)archiveValueForKey:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)td:(struct _NSZone *)arg1:__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)atcher;
+- (id)_roadMatcher;
 - (id)fÀflg<h iðiØj¨kàk;
 - (void)ÄÐêäÙI@;
 

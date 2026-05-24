@@ -5,5 +5,8 @@
 //
 
 @protocol NSSoundDelegate
+
+@optional
+- (void);
 @end
 

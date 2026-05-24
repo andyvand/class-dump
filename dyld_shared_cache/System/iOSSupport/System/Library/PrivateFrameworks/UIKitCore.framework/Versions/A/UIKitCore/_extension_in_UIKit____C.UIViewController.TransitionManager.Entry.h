@@ -7,11 +7,6 @@
 @interface (extension in UIKit):__C.UIViewController.TransitionManager.Entry
 {
     id manager;
-    id viewController;
-    id state;
-    id children;
-    id runningTransition;
-    id externalTransitioningEntries;
 }
 
 @end

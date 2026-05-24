@@ -11,10 +11,10 @@
     _Bool _requireFaceProcessingMeetsThresholdOverTime;
 }
 
++ (id)itable;
 + (id);
-+ (id);
-- (void);
-- (_Bool);
+- (void)applicationControllerWindowDidMiniaturize:(_Bool)arg1 windowElement: /* Error: Ran out of types for this method. */;
+- (_Bool)_selectedRangeWithinLineContent;
 - (id);
 
 @end

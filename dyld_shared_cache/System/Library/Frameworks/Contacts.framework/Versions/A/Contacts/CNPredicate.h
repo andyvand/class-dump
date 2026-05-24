@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString;
+@class NSPredicate;
 
 @interface CNPredicate
 {
     NSPredicate *_cn_predicate;
-    _Bool _augmentMainStoreResults;
-    NSArray *_mainStoreContactIdentifiers;
 }
 
-+ (id);
++ (id)3;
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (id)iDestinationUpdate"24;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)DisableAccessNetworkInfoForAckAndCancel;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)_relinquishAudioRoute;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool augmentMainStoreResults; // @synthesize augmentMainStoreResults=_augmentMainStoreResults;
-@property(readonly, nonatomic) _Bool cn_hasHighSpecificity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *mainStoreContactIdentifiers; // @synthesize mainStoreContactIdentifiers=_mainStoreContactIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

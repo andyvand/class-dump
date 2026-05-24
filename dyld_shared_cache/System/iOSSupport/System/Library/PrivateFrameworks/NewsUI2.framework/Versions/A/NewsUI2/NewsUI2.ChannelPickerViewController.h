@@ -7,27 +7,16 @@
 @interface NewsUI2.ChannelPickerViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id searchModule;
-    id searchController;
-    id searchResultsProcessor;
-    id pickerType;
-    id useAlternateTitle;
-    id searchBar;
-    id selectionProvider;
-    id postPurchaseOnboardingTransitionDelegate;
-    id $__lazy_storage_$_closeBarButtonItem;
-    id didAppearOnce;
 }
 
-- (void);
+- (void)ailed to duplicate dictionary
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B9;
 - (void);
 - (void);
 - (void);

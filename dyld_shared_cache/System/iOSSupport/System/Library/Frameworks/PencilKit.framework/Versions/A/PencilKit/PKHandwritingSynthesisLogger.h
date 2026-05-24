@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface PKHandwritingSynthesisLogger
 {
@@ -17,11 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)Ìð;
 
 // Remaining properties
-@property(readonly) NSArray *entries;
 @property(retain) NSMutableArray *entryLog; // @synthesize entryLog=_entryLog;
 
 @end

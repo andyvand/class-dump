@@ -9,8 +9,6 @@
 @interface SiriInference.ProcessUnstitchedIntents : SiriInference.XPCActivityOperation
 {
     id stitchingSucceeded;
-    id stitchingSkipped;
-    id stitchingFailed;
 }
 
 - (id);

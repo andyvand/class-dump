@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-- (id);
-- (void)ent_embedding;
++ (id)isHiddenFromSpringboard;
+- (id)#;
+- (void)_document_embedding;
 
 @end
 

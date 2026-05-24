@@ -4,64 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEODataSetURLOverride
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_addressCorrectionInitURL;
-    NSString *_addressCorrectionUpdateURL;
-    NSString *_announcementsURL;
-    NSString *_batchReverseGeocoderURL;
-    NSString *_businessPortalBaseURL;
-    NSString *_directionsURL;
-    NSString *_dispatcherURL;
-    NSString *_etaURL;
-    NSString *_logMessageUsageURL;
-    NSString *_problemCategoriesURL;
-    NSString *_problemOptInURL;
-    NSString *_problemStatusURL;
-    NSString *_problemSubmissionURL;
-    NSString *_simpleETAURL;
-    NSString *_spatialLookupURL;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _dataSet;
-    struct {
-        unsigned int has_dataSet:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_addressCorrectionInitURL:1;
-        unsigned int read_addressCorrectionUpdateURL:1;
-        unsigned int read_announcementsURL:1;
-        unsigned int read_batchReverseGeocoderURL:1;
-        unsigned int read_businessPortalBaseURL:1;
-        unsigned int read_directionsURL:1;
-        unsigned int read_dispatcherURL:1;
-        unsigned int read_etaURL:1;
-        unsigned int read_logMessageUsageURL:1;
-        unsigned int read_problemCategoriesURL:1;
-        unsigned int read_problemOptInURL:1;
-        unsigned int read_problemStatusURL:1;
-        unsigned int read_problemSubmissionURL:1;
-        unsigned int read_simpleETAURL:1;
-        unsigned int read_spatialLookupURL:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)U;
+- (void)setEndpointDelayInNsV2:(id)arg1;
+- (id)ecognitionAssetDownloadMonitor _startMonitoringWithQueue:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)umExists:(struct _NSZone *)arg1;
-- (id)okupRequestTicket;
-- (id)_RULES_ALGORITHM;
+- (id));
+- (id)setHasCategoryAlbumExists:(struct _NSZone *)arg1;
+- (id)_GEOTerritoryLookupRequestTicket;
+- (id)MSG_MODEL_NAME_RULES_ALGORITHM;
 - (void)¤Êÿü5b5;
 
 @end

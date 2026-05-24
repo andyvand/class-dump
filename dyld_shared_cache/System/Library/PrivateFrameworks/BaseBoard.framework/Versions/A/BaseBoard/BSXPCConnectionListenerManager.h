@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BSXPCConnectionListenerManager
 {
     NSObject<OS_dispatch_queue> *_listeningQueue;
-    NSMutableDictionary *_services;
-    NSLock *_servicesLock;
-    NSObject<OS_dispatch_queue> *_defaultHandlerQueue;
 }
 
-+ (void);
++ (void);
 + (void);
 + (id);
 - (void);

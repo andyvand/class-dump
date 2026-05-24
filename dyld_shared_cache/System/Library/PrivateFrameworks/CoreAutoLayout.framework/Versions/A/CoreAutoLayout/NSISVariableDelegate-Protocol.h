@@ -5,5 +5,6 @@
 //
 
 @protocol NSISVariableDelegate
+- (_Bool)maxPredicatedNestingDepth;
 @end
 

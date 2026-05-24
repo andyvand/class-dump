@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface DADownloadContext
 {
     NSString *_attachmentUUID;
-    NSString *_accountID;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -22,16 +17,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)skipCurrentIteration:forChannel: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
 @property(readonly, nonatomic) NSString *attachmentUUID; // @synthesize attachmentUUID=_attachmentUUID;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

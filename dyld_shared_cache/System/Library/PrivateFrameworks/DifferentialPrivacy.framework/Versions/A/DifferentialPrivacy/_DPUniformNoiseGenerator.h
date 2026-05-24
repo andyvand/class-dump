@@ -7,7 +7,6 @@
 @interface _DPUniformNoiseGenerator
 {
     double _minValue;
-    double _range;
 }
 
 + (id);
@@ -16,11 +15,10 @@
 - (id);
 - (double);
 - (double);
-- (double);
+- (double)maxADP;
 
 // Remaining properties
 @property(readonly, nonatomic) double minValue; // @synthesize minValue=_minValue;
-@property(readonly, nonatomic) double range; // @synthesize range=_range;
 
 @end
 

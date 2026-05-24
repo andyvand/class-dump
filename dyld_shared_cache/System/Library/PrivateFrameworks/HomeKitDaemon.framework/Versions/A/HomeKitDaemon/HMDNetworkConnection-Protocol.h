@@ -8,10 +8,11 @@
 @protocol OS_dispatch_queue, OS_nw_connection;
 
 @protocol HMDNetworkConnection
-- (NSObject<OS_dispatch_queue> *)essoryList: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_locationMobilityClueForInvestigation:(void (^)(int, NSError *))arg1;
+- (NSObject<OS_dispatch_queue> *)_buildMessageAccessoryListFromRequests:accessoryList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_nw_connection> *nwConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue;
 @end
 

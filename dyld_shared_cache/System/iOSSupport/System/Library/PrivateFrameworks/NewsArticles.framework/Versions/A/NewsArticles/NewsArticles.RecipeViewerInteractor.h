@@ -7,12 +7,6 @@
 @interface NewsArticles.RecipeViewerInteractor
 {
     id delegate;
-    id dataManager;
-    id blueprintProvider;
-    id pageBlueprintFactory;
-    id pageBlueprintManager;
-    id recipeUserDataManager;
-    id coordinator;
 }
 
 @end

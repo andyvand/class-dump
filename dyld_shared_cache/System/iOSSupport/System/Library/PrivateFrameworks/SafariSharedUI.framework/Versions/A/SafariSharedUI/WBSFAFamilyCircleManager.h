@@ -9,11 +9,11 @@
     id ageCategory;
 }
 
-+ (id)Title:url:backgroundColor:shouldRemoveGrammaticalArticles: /* Error: Ran out of types for this method. */;
++ (id)generateFavoritesIconForTitle:url:backgroundColor:shouldRemoveGrammaticalArticles: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)n of all delivered notifications, as we had nothing unread.;
 - (_Bool);
-- (void)rmMetadata:controlMetadata: /* Error: Ran out of types for this method. */;
+- (void)initWithFrameHandle:formMetadata:controlMetadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isChild;

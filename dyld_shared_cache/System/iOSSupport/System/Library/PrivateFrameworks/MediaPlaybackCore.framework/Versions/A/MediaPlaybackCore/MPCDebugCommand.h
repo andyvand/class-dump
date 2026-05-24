@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface MPCDebugCommand
 {
     NSArray *_supportedSubsystems;
-    NSDictionary *_subsystemRevisions;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)=======================================;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *subsystemRevisions; // @synthesize subsystemRevisions=_subsystemRevisions;
 @property(copy, nonatomic) NSArray *supportedSubsystems; // @synthesize supportedSubsystems=_supportedSubsystems;
 
 @end

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSSet;
 @protocol RBSInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface RBSStateCaptureSetSegment
 {
     id <RBSInvalidatable> _invalidatable;
-    NSMutableSet *_items;
 }
 
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);

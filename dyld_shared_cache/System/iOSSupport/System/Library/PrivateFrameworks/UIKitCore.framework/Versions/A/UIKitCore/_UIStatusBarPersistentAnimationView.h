@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)(S´T´U;
-- (void)Item;
+- (void)previouslyFocusedItem;
 - (void)U0ê?«>W[±¿ê?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
 - (id)Äÿ¨%¿;
 

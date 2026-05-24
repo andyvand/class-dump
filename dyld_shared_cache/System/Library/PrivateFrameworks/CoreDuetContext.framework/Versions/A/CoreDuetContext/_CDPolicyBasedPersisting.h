@@ -9,14 +9,13 @@
 @interface _CDPolicyBasedPersisting
 {
     id <_CDContextPersisting> _persistenceSurvivingReboot;
-    id <_CDContextPersisting> _persistenceSurvivingRelaunch;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)channel is not supported, skipping (%{public}@);
 - (id);
 - (void);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <_CDContextPersisting> persistenceSurvivingReboot; // @synthesize persistenceSurvivingReboot=_persistenceSurvivingReboot;
-@property(readonly, nonatomic) id <_CDContextPersisting> persistenceSurvivingRelaunch; // @synthesize persistenceSurvivingRelaunch=_persistenceSurvivingRelaunch;
 
 @end
 

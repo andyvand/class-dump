@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _PFWeakReference
 {
     id _object;
-    long long _objectAddress;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id)0@ù

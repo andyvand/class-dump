@@ -7,17 +7,10 @@
 @interface CKDPStorageExpiration
 {
     unsigned long long _duration;
-    double _expirationTime;
-    int _operationType;
-    struct {
-        unsigned int duration:1;
-        unsigned int expirationTime:1;
-        unsigned int operationType:1;
-    } _has;
 }
 
 - (id);
-- (int);
+- (int)initWithEventOrCode:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -27,9 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)lld ticks)
+;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -41,12 +35,7 @@
 - (_Bool)ÿpüÿüÿ¸üÿôüÿüÿ<üÿ`üÿüÿÀüÿäüÿüÿDüÿhüÿüÿ°üÿìüÿüÿ4üÿXüÿüÿ¸üÿÜüÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) double expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasExpirationTime;
 @property(nonatomic) _Bool hasOperationType;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
 
 @end
 

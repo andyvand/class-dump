@@ -6,21 +6,17 @@
 
 #import <CommonUtilities/CUTUnsafePromise.h>
 
-@class CUTResult, NSMutableArray;
-
 @interface _CUTUnsafePromise : CUTUnsafePromise
 {
     _Bool _done;
-    CUTResult *_result;
-    NSMutableArray *_resultBlocks;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool done; // @synthesize done=_done;
-@property(retain, nonatomic) CUTResult *result; // @synthesize result=_result;
-@property(retain, nonatomic) NSMutableArray *resultBlocks; // @synthesize resultBlocks=_resultBlocks;
 
 @end
 

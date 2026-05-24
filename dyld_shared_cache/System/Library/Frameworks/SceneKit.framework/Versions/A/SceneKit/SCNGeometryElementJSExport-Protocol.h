@@ -7,6 +7,8 @@
 @class NSData;
 
 @protocol SCNGeometryElementJSExport
+- (void);
+- (float);
 - (float)lQQ;
 - (void)oat magnitude = sqrt( x*x + y*y );
     
@@ -30,15 +32,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerIndex;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long indicesChannelCount;
-@property(readonly, nonatomic, getter=hasInterleavedIndicesChannels) _Bool interleavedIndicesChannels;
-@property(nonatomic) float maximumPointScreenSpaceRadius;
-@property(nonatomic) float minimumPointScreenSpaceRadius;
-@property(nonatomic) float pointSize;
-@property(readonly, nonatomic) long long primitiveCount;
-@property(nonatomic) struct _NSRange primitiveRange;
-@property(readonly, nonatomic) long long primitiveType;
 @end
 

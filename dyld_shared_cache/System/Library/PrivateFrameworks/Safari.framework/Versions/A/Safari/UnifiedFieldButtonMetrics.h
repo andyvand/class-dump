@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldButtonMetrics
 {
     NSMutableDictionary *_images;
-    double _yOffset;
-    NSImage *_baseImage;
-    NSColor *_baseColor;
-    NSColor *_hoverColor;
-    NSColor *_activeColor;
-    NSColor *_activeHoverColor;
-    NSString *_accessibilityIdentifier;
-    struct CGSize _size;
 }
 
 + (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -37,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)¤;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(readonly, nonatomic) NSColor *activeColor; // @synthesize activeColor=_activeColor;
-@property(readonly, nonatomic) NSColor *activeHoverColor; // @synthesize activeHoverColor=_activeHoverColor;
-@property(readonly, nonatomic) NSColor *baseColor; // @synthesize baseColor=_baseColor;
-@property(readonly, nonatomic) NSImage *baseImage; // @synthesize baseImage=_baseImage;
-@property(readonly, nonatomic) NSColor *hoverColor; // @synthesize hoverColor=_hoverColor;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) double yOffset; // @synthesize yOffset=_yOffset;
 
 @end
 

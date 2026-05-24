@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)_timeRemainingColor;
 + (id);
 - (_Bool);
 - (id);

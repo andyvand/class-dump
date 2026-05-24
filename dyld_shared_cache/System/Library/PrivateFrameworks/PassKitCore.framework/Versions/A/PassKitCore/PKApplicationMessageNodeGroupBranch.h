@@ -6,19 +6,17 @@
 
 #import <PassKitCore/PKApplicationMessageNode.h>
 
-@class NSArray, NSMutableArray, PKApplicationMessageGroupDescriptor;
+@class NSMutableArray, PKApplicationMessageGroupDescriptor;
 
 @interface PKApplicationMessageNodeGroupBranch : PKApplicationMessageNode
 {
     NSMutableArray *_children;
-    PKApplicationMessageGroupDescriptor *_group;
 }
 
-- (id)n: /* Error: Ran out of types for this method. */;
+- (id)SEPParingInformationWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)204003;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children; // @dynamic children;
 @property(readonly, nonatomic) PKApplicationMessageGroupDescriptor *group; // @synthesize group=_group;
 
 @end

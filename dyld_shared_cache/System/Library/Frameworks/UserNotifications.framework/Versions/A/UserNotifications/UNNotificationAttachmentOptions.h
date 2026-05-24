@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface UNNotificationAttachmentOptions
 {
     unsigned long long _displayLocation;
-    NSDictionary *_thumbnailGeneratorUserInfo;
 }
 
 + (_Bool);
@@ -18,7 +15,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -29,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long displayLocation; // @synthesize displayLocation=_displayLocation;
-@property(readonly, copy, nonatomic) NSDictionary *thumbnailGeneratorUserInfo; // @synthesize thumbnailGeneratorUserInfo=_thumbnailGeneratorUserInfo;
 
 @end
 

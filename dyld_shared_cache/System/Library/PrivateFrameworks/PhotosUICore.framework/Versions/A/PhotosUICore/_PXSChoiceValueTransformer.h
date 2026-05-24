@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id)ed if button system is used.;
-- (void)n;
+- (void)GenerativeStoryInlineActionButton;
 
 @end
 

@@ -7,9 +7,10 @@
 @class NSString, NSUUID;
 
 @protocol UAPasteboardItemProviding
+- (void);
+- (NSString *)3;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *type;
 @property(copy, nonatomic) NSUUID *uuid;
 @end
 

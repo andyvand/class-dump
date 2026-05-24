@@ -7,6 +7,7 @@
 @class NSRunLoop;
 
 @protocol CoreDAVTaskManager
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSRunLoop *workRunLoop;

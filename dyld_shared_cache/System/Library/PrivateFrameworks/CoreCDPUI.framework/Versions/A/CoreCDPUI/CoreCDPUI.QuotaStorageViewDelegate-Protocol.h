@@ -5,5 +5,7 @@
 //
 
 @protocol CoreCDPUI.QuotaStorageViewDelegate
+- (void);
+- (void);
 @end
 

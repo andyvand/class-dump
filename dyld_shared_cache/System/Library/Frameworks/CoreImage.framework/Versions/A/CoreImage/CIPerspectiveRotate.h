@@ -6,43 +6,32 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveRotate : CIFilter
 {
     struct float3x3 K;
-    struct float3x3 invK;
-    CIImage *inputImage;
-    NSNumber *inputFocalLength;
-    NSNumber *inputPitch;
-    NSNumber *inputYaw;
-    NSNumber *inputRoll;
 }
 
 + (id);
+- (void)fN&@"'GN';
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (CDStruct_c27faaab);
-- (id);
+- (id)Z;
 - (void);
 - (id);
 - (id)¦¦¦¦¥¥¥¥yrusvmmmmlllltttt}}}}duu{{{{fokulqmwdxtZnf|bqj{vzvf}{zxszAaTsbnfyZoj{`spwppppY]T^5H7SGXM]uuuu}}}}dddd<LBLDDADNNLNiiii|vvvvmmmmMb^iUigpxxxx^lirKa[klllljpppwwww~~~~{|~~ovv}||||pppp[[U[NNBNXXOXuuuuªªªª¹¹¹¹¹¹¹¹¥¥¥¥t|wSi_v~~~~vssosQhaq}}}}¥ ¡mqmtiiiisssst¦¦¦¦®®®®¨©©~~}~Pd\okhbkdielK^Wh<TJ]SRFSTPBUO_Vf||||dyxwwww\e_gfc\fyyyymmmmbbZbgkfl{§§§§`uqildqmmimhoitcrk|Uf[rosnuvvvvllgrwutw~~~~Nb_h=RI]bbabWaZg@ZPkmokuttttAYOdfe^ixyx{wwwwhrosooookkkkU_UiI^Tkooko\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputFocalLength; // @synthesize inputFocalLength;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputPitch; // @synthesize inputPitch;
-@property(copy, nonatomic) NSNumber *inputRoll; // @synthesize inputRoll;
-@property(copy, nonatomic) NSNumber *inputYaw; // @synthesize inputYaw;
-@property(readonly, nonatomic) CDStruct_c27faaab outputTransform;
 
 @end
 

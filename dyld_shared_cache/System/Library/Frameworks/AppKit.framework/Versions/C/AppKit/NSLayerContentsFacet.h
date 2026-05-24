@@ -10,31 +10,23 @@ __attribute__((visibility("hidden")))
 @interface NSLayerContentsFacet
 {
     id _contents;
-    struct CGRect _contentsCenter;
-    double _contentsScale;
-    struct CGRect _drawingRect;
-    NSImage *_image;
 }
 
 - (void);
+- (void)initWithDownloadTask:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (struct CGRect)initWithAVAssetDownloadURL:destinationURL:assetTitle:assetArtworkData:options:taskIdentifier:uniqueIdentifier:bundleID:sessionID:downloadConfig: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_establishTime;
 - (void);
-- (struct CGRect);
-- (struct CGRect);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
+- (void)er %{public}@ with %d keys:(double)arg1 %s;
+- (id);
+- (void)public.mpeg;
+- (double)xtClass.;
 - (id)²Nýÿ$]ÿÿ;
 - (double)me = %@, alpha = %f>;
 
 // Remaining properties
-@property(retain) id contents; // @synthesize contents=_contents;
-@property struct CGRect contentsCenter; // @synthesize contentsCenter=_contentsCenter;
-@property double contentsScale; // @synthesize contentsScale=_contentsScale;
-@property struct CGRect drawingRect; // @synthesize drawingRect=_drawingRect;
 @property(retain) NSImage *image; // @synthesize image=_image;
 
 @end

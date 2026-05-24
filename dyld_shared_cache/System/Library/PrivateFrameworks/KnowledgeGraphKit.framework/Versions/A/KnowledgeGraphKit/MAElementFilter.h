@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, NSArray, NSDictionary, NSSet, NSString;
+@class NSArray, NSSet;
 
 @interface MAElementFilter
 {
     NSSet *_labels;
-    KGElementIdentifierSet *_domains;
-    NSDictionary *_properties;
 }
 
 + (_Bool);
@@ -30,28 +28,23 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)";
+- (void)(;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)eratedResolutions;
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) KGElementIdentifierSet *domains; // @synthesize domains=_domains;
-@property(readonly, nonatomic) NSArray *kgOptionalLabels;
 @property(readonly, nonatomic) NSArray *kgRequiredLabels;
-@property(readonly, copy, nonatomic) NSSet *labels; // @synthesize labels=_labels;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSString *visualString;
 
 @end
 

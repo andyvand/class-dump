@@ -8,26 +8,20 @@ __attribute__((visibility("hidden")))
 @interface TITypologyTimer
 {
     _Bool _foundFirstInput;
-    double _elapsedTime;
-    double _mostRecentTimestamp;
-    double _maxTimeIntervalBetweenInputs;
 }
 
-- (_Bool);
+- (_Bool)updateWithCPLShareParticipant:inShare: /* Error: Ran out of types for this method. */;
+- (void)noteParticipantAcceptanceStatusChanged:(double)arg1 fromOldAcceptanceStatus:mstreamdInfo: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (double);
-- (double)ness;
+- (double)authoritativeness;
 - (void)q;
 
 // Remaining properties
 @property(nonatomic) double elapsedTime; // @synthesize elapsedTime=_elapsedTime;
-@property(nonatomic) _Bool foundFirstInput; // @synthesize foundFirstInput=_foundFirstInput;
-@property(nonatomic) double maxTimeIntervalBetweenInputs; // @synthesize maxTimeIntervalBetweenInputs=_maxTimeIntervalBetweenInputs;
-@property(nonatomic) double mostRecentTimestamp; // @synthesize mostRecentTimestamp=_mostRecentTimestamp;
 
 @end
 

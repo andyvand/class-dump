@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DUSchemaDUEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_assetIdentifier;
-    _Bool _hasAssetIdentifier;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)essage(%d)/replyHandler(%d) is nil!;
+- (id):(id)arg1 0x%X;
 - (void);
-- (unsigned long long);
+- (unsigned long long)@/;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nNs"b1};
-- (id)PreprocessorExecutionStarted;
+- (id)PFAPreprocessorExecutionStarted;
 - (id)×HØ;
 - (void)b%;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(nonatomic) _Bool hasAssetIdentifier; // @synthesize hasAssetIdentifier=_hasAssetIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

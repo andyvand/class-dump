@@ -5,5 +5,6 @@
 //
 
 @protocol CMOdometerDelegate
+- (void)A;
 @end
 

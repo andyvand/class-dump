@@ -6,14 +6,12 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class HMIVideoAnalyzerConfiguration, HMIVideoAnalyzerDynamicConfiguration, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMIVideoAnalyzerProcessingNode : HMIVideoProcessingNode
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMIVideoAnalyzerConfiguration *_configuration;
-    HMIVideoAnalyzerDynamicConfiguration *_dynamicConfiguration;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) HMIVideoAnalyzerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain) HMIVideoAnalyzerDynamicConfiguration *dynamicConfiguration; // @synthesize dynamicConfiguration=_dynamicConfiguration;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

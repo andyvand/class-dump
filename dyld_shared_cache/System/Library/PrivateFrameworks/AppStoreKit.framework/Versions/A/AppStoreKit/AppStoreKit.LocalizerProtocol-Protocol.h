@@ -7,6 +7,12 @@
 @class NSString;
 
 @protocol AppStoreKit.LocalizerProtocol
+- (NSString *);
+- (NSString *)o;
+- (NSString *);
+- (NSString *)o;
+- (NSString *)wo;
+- (NSString *)o;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

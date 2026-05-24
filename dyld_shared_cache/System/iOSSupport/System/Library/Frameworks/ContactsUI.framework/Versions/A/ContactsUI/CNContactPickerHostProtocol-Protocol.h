@@ -5,5 +5,12 @@
 //
 
 @protocol CNContactPickerHostProtocol
+- (void);
+- (void);
+- (void);
+- (void));
+
+@optional
+- (void);
 @end
 

@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BFProsodicState, NSMutableArray, NSString;
+@class NSString;
 
 @interface BFPlaintalkParser
 {
     long long _firstNonCommandCharacterIndex;
-    long long _lastNonCommandCharacterIndex;
-    NSString *_plaintalkString;
-    long long _currentIndex;
-    unsigned long long _contextSkipperState;
-    unsigned long long _contextSkipStart;
-    NSMutableArray *_product;
-    BFProsodicState *_initialProsodicState;
-    BFProsodicState *_currentProsodicState;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -31,33 +23,25 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id))A;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange)��;
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (void);
+- (long long)#;
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long contextSkipStart; // @synthesize contextSkipStart=_contextSkipStart;
-@property(nonatomic) unsigned long long contextSkipperState; // @synthesize contextSkipperState=_contextSkipperState;
-@property(nonatomic) long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(retain, nonatomic) BFProsodicState *currentProsodicState; // @synthesize currentProsodicState=_currentProsodicState;
-@property(nonatomic) long long firstNonCommandCharacterIndex; // @synthesize firstNonCommandCharacterIndex=_firstNonCommandCharacterIndex;
-@property(retain, nonatomic) BFProsodicState *initialProsodicState; // @synthesize initialProsodicState=_initialProsodicState;
-@property(nonatomic) long long lastNonCommandCharacterIndex; // @synthesize lastNonCommandCharacterIndex=_lastNonCommandCharacterIndex;
 @property(retain, nonatomic) NSString *plaintalkString; // @synthesize plaintalkString=_plaintalkString;
-@property(retain, nonatomic) NSMutableArray *product; // @synthesize product=_product;
 
 @end
 

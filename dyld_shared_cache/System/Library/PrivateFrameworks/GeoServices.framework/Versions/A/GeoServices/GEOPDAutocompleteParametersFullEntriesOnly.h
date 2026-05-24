@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersFullEntriesOnly
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _highlightDiff;
-    CDStruct_f55cf389 _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasWifiChannelWidth:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -40,31 +31,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ttendingServiceDelegate>",?,W,N,V_delegate;
+- (void)yPeer]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)u;
 - (id);
 - (void);
 - (id)d"b1};
-- (id)ntsURL;
+- (id)_announcementsURL;
 - (id)\³Ô»E<\³P¾E\³Ð¾E¤\³xÀEÈ\³°ÂE ]³;
 - (id)X IF NOT EXISTS tiles_tileset_idx ON tiles (tileset);;
-- (void)13AddrObjGoogle8protobuf2io20ZeroCopyOutputStreamE;
+- (void)N13AddrObjGoogle8protobuf2io20ZeroCopyOutputStreamE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

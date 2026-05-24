@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _NSLexiconMorphunDictionary
 {
     NSLocale *_appropriateLocale;
-    struct MANAConfigurableAnalyzer *_analyzer;
-    struct MTokenizer *_tokenizer;
-    const struct MDDictionaryMetaData *_dictionary;
-    NSString *_languageCode;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h";
 - (id);
-- (id);
+- (id)patch();
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;

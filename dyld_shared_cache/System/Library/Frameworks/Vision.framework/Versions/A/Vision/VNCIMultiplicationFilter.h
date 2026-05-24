@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNCIMultiplicationFilter : VNCIFilter
 {
     NSNumber *_inputFactor1;
-    NSNumber *_inputFactor2;
-    NSNumber *_inputFactor3;
-    NSNumber *_inputFactor4;
 }
 
 - (void);
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *inputFactor1; // @synthesize inputFactor1=_inputFactor1;
-@property(copy, nonatomic) NSNumber *inputFactor2; // @synthesize inputFactor2=_inputFactor2;
-@property(copy, nonatomic) NSNumber *inputFactor3; // @synthesize inputFactor3=_inputFactor3;
-@property(copy, nonatomic) NSNumber *inputFactor4; // @synthesize inputFactor4=_inputFactor4;
 
 @end
 

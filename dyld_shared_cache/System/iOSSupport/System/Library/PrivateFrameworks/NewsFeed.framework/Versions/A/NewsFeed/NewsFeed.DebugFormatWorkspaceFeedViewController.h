@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceFeedViewController
 {
     id editor;
-    id tableView;
-    id sections;
-    id feed;
 }
 
 - (id);

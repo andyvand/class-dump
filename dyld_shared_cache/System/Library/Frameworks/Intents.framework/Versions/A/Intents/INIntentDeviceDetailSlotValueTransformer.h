@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)teForTransferMoney:withCompletion: /* Error: Ran out of types for this method. */;
++ (long long)resolveTransactionScheduledDateForTransferMoney:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)on:(id)arg1;
+- (id)StringAsAction:(id)arg1;
 
 @end
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     ISAnimatedImageTimer *__forwardingTarget;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)_completionBlock;
+- (id)_accessibilitySetSelectedTextRange: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityRawRangeForUITextRange:(id)arg1;
 - (void);
 
 // Remaining properties

@@ -9,7 +9,6 @@
 @interface MSVARC4RandomSource
 {
     struct MSVArc4State *_state;
-    NSData *_seed;
 }
 
 + (id);
@@ -18,7 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)F
+;
 - (id);
 - (id);
 - (id);

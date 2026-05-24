@@ -12,7 +12,7 @@
 }
 
 - (double);
-- (id);
+- (id)[8;
 - (double);
 - (void);
 - (void);

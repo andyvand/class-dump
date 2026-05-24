@@ -6,24 +6,12 @@
 
 #import <UIKitCore/_UILayoutArrangement.h>
 
-@class NSMapTable, NSSet, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIOrderedLayoutArrangement : _UILayoutArrangement
 {
     NSMapTable *_spacingOrCenteringGuides;
-    NSMapTable *_edgeToEdgeConstraintsForVisibleItems;
-    NSMapTable *_edgeToEdgeConstraintsForHiddenItems;
-    NSMapTable *_relatedDimensionConstraints;
-    NSMapTable *_hidingDimensionConstraints;
-    NSMapTable *_multilineTextWidthDisambiguationConstraints;
-    NSMapTable *_customSpacings;
-    double _proportionalFillDenominator;
-    _Bool _itemOrderingChanged;
-    _Bool _itemFittingSizeChanged;
-    _Bool _baselineRelativeArrangement;
-    double _spacing;
-    long long _distribution;
 }
 
 + (Class)´k;
@@ -32,23 +20,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double);
+- (id)ype:(id)arg1 isRequired:(unsigned long long)arg2 defaultValue: /* Error: Ran out of types for this method. */;
+- (void)edule: /* Error: Ran out of types for this method. */;
+- (double)ementalMatchDomains: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (long long);
+- (long long)h_geom_synth_shearRatio;
 - (double);
 - (id);
-- (double);
-- (void);
-- (void);
-- (long long);
+- (double)performSelector:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)locate iCloudRequestHeaders;
+- (void)t.;
+- (long long)hunks auth(inQ):%0.4lf sec. /* Error: Ran out of types for this method. */;
 - (id);
+- (void)qiIq}{?=qiIq}}16;
+- (long long)_disableAutoPlay;
 - (void);
-- (long long);
-- (void);
-- (void);
+- (void)MPCloudControllerIsCloudEnabledDidChangeNotification;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -69,15 +57,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)nListener"16@"BSServiceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
 - (id)iewFeedbackLoopDebugger";
-- (id)extSpellingIndicatorColor;
-- (_Bool);
-- (void)Began: /* Error: Ran out of types for this method. */;
-- (double)y:(unsigned long long)arg1;
-- (long long)ertAtRange:animations:completion: /* Error: Ran out of types for this method. */;
-- (void)estinationNavigationItem:(id)arg1 sourceNavigationItem: /* Error: Ran out of types for this method. */;
-- (id)onConfiguration;
-- (_Bool)dSessionIfNecessary;
-- (void)ctiveSelection;
+- (id)textSpellingIndicatorColor;
+- (_Bool)setPressBeginTime: /* Error: Ran out of types for this method. */;
+- (void)setInputModeListTouchBegan: /* Error: Ran out of types for this method. */;
+- (double)setGestureKey:(unsigned long long)arg1;
+- (long long)insertAtRange:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)initWithDestinationNavigationItem:(id)arg1 sourceNavigationItem: /* Error: Ran out of types for this method. */;
+- (id)headerViewDefaultButtonConfiguration;
+- (_Bool)_createActiveFindSessionIfNecessary;
+- (void)_allowsEffectiveSelection;
 - (void)aceStyle;
 - (_Bool)@?,C,N,V_didTimeOut;
 - (id)Ôí;
@@ -89,17 +77,17 @@ __attribute__((visibility("hidden")))
 - (void)iew controller's view is in a window without the view controller being properly added to the hierarchy. viewController=%@; window=%@;
 - (_Bool)not properly establish the bidirectional parent-child relationship; use the -addChildViewController:and -removeFromParentViewController APIs to manage view controller containment. Make a symbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
 - (void)îÿd{þÿ;
-- (void)yph;
-- (void)onState;
+- (void)adaptiveImageGlyph;
+- (void)interactionState;
 - (long long)for class %@, since class does not conform to _UIVisualStyleStylable.;
-- (unsigned long long)ecomeHiddenNotification;
+- (unsigned long long)UIWindowDidBecomeHiddenNotification;
 - (void)ication" to the list of your supported UIBackgroundModes in your Info.plist.;
 - (id)@;
 - (void)Evaluation;
 - (void)createRegionFromRect:(id)arg1 targetView:(unsigned long long)arg2 identifier:selected:to create regions /* Error: Ran out of types for this method. */;
 - (void)ct with the visible bounds %@. Please file a bug against UICollectionView.;
 - (void)lectionPreferredSizes.m;
-- (void)ustomized_isEnabled;
+- (void)UILabelConfiguration_hasCustomized_isEnabled;
 - (_Bool);
 - (id);
 - (void);
@@ -109,25 +97,7 @@ __attribute__((visibility("hidden")))
 - (void)q;
 
 // Remaining properties
-@property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged; // @synthesize _itemFittingSizeChanged;
-@property(nonatomic, setter=_setItemOrderingChanged:) _Bool _itemOrderingChanged; // @synthesize _itemOrderingChanged;
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems;
-@property(nonatomic) long long axis;
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement; // @synthesize baselineRelativeArrangement=_baselineRelativeArrangement;
-@property(readonly, nonatomic) NSMapTable *customSpacings; // @synthesize customSpacings=_customSpacings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long distribution; // @synthesize distribution=_distribution;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints;
-@property(nonatomic) _Bool layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling;
 @property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface IDSLinkSelectorPrimarySecondary
 {
     id linkSelector;
-    id _primaryLinkID;
-    id _duplicationLinkID;
-    id primaryLink;
-    id secondaryLink;
 }
 
 - (BOOL);
@@ -19,7 +15,6 @@
 - (void)Cancelled, not calling out!;
 
 // Remaining properties
-@property(nonatomic, readonly) BOOL duplicationLinkID;
 @property(nonatomic, readonly) BOOL primaryLinkID;
 
 @end

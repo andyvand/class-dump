@@ -8,7 +8,6 @@
 - (double)ock_opaque"I};
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfRetries;
 @property(readonly, nonatomic) double timeoutInterval;
 @end
 

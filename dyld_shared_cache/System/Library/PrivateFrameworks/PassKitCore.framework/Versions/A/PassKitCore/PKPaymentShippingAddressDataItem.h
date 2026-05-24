@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class CNContact, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface PKPaymentShippingAddressDataItem : PKPaymentDataItem
 {
@@ -31,10 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	k *;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool)request:(id *)arg1 Need to request PrimaryAccountNumber;
@@ -42,9 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *formattedAddressString;
-@property(readonly, nonatomic) _Bool isShippingEditable;
-@property(readonly, nonatomic) CNContact *shippingAddress;
-@property(readonly, nonatomic) NSString *shippingType;
 
 @end
 

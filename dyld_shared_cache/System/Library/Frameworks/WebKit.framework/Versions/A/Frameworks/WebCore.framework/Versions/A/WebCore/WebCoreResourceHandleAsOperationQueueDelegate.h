@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreResourceHandleAsOperationQueueDelegate
 {
     struct Lock m_lock;
-    struct WeakPtr<WebCore::ResourceHandle, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> m_handle;
-    struct BinarySemaphore m_semaphore;
-    struct RefPtr<WebCore::SynchronousLoaderMessageQueue, WTF::RawPtrTraits<WebCore::SynchronousLoaderMessageQueue>, WTF::DefaultRefDerefTraits<WebCore::SynchronousLoaderMessageQueue>> m_messageQueue;
-    struct RetainPtr<NSURLRequest> m_requestResult;
-    struct RetainPtr<NSCachedURLResponse> m_cachedResponseResult;
-    struct optional<WTF::HashSet<WTF::RefPtr<WTF::SchedulePair>, WTF::SchedulePairHash>> m_scheduledPairs;
-    _Bool m_boolResult;
 }
 
-- (id);
+- (id)q;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -88,13 +79,7 @@ hhc
 mâ xøo /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)previewView:(NSURLSession *)arg1 draggingSourceOperationMaskForLocal: /* Error: Ran out of types for this method. */;
+- (void)`;
 @end
 

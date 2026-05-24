@@ -10,7 +10,7 @@
     id disabledCustomizationBehavior;
 }
 
-- (id);
+- (id)6;
 - (id);
 - (void)llGesture;
 

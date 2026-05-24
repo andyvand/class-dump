@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface REMUserActivity
 {
     struct os_unfair_lock_s _ivarLock;
-    long long _type;
-    NSData *_storage;
-    long long _flags;
-    id _l_decodedStorage;
 }
 
 + (void);
@@ -35,25 +29,21 @@
 - (id);
 - (struct os_unfair_lock_s);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)TokenType;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;
 @property(readonly, nonatomic) struct os_unfair_lock_s ivarLock; // @synthesize ivarLock=_ivarLock;
-@property(retain, nonatomic) id l_decodedStorage; // @synthesize l_decodedStorage=_l_decodedStorage;
-@property(readonly, nonatomic) NSData *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

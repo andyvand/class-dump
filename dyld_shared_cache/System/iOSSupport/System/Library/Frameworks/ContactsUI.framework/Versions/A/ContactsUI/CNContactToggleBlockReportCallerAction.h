@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSNumber *_isBlockedCachedValue;
 }
 
-- (void);
+- (void)";
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ctionsUpdatedHandler;
+- (void)_actionsUpdatedHandler;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *isBlockedCachedValue; // @synthesize isBlockedCachedValue=_isBlockedCachedValue;

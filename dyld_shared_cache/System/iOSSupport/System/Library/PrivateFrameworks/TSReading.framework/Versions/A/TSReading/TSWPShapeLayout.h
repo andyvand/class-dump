@@ -6,46 +6,42 @@
 
 #import <TSReading/TSDShapeLayout.h>
 
-@class TSDWrapPolygon, TSWPLayout, TSWPPadding;
-@protocol TSWPShapeLayoutDelegate;
+@class TSWPLayout;
 
 @interface TSWPShapeLayout : TSDShapeLayout
 {
     TSWPLayout *_containedLayout;
-    TSDWrapPolygon *_cachedInteriorWrapPolygon;
-    id <TSWPShapeLayoutDelegate> _delegate;
-    _Bool _observingStorage;
 }
 
-- (void);
-- (void);
+- (void)MPCRemoteCommandEventOptionVideoActiveKey;
+- (void)MPCRemoteCommandEventOptionSkipImmediatelyKey;
+- (_Bool)ault device capability;
+- (void)MPTRACE_PLAYBACK_STREAM_UNLIKELYTOKEEPUP;
+- (_Bool)tainer-indeterminate-duration;
+- (id)PCPlayActivityFeedEventConsumer.m;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int)AssetReaderImplementation;
+- (void)l};
 - (struct CGAffineTransform);
 - (id);
 - (_Bool);
 - (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)ĺ;
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)-;
 - (void);
 - (id);
-- (double);
-- (void);
+- (double);
+- (void);;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)8D;
+- (_Bool)D;
 - (Class);
 - (void);
 - (double);
@@ -59,7 +55,7 @@
 - (_Bool);
 - (struct CGRect);
 - (unsigned int);
-- (_Bool);
+- (_Bool)6;
 - (_Bool);
 - (struct CGSize);
 - (unsigned int);
@@ -81,19 +77,7 @@
 - (id)able model!  Aborting expandCellRangeToCoverMergedCells:.  This is a bug in the calling code. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) _Bool autosizes;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
 @property(readonly, nonatomic) TSWPLayout *containedLayout; // @synthesize containedLayout=_containedLayout;
-@property id <TSWPShapeLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface SSReconnectProgressIndicator
 {
     int iterator;
-    NSTimer *animationTimer;
-    struct CGPoint origin;
-    struct CGPoint center;
-    float scale;
-    struct CGRect dirtyRect;
-    struct CGRect pillRect;
-    struct CGAffineTransform rotation12;
-    struct CGColor *colors[12];
 }
 
 - (void);
@@ -29,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)runWithGraphUpdate:(struct CGRect)arg1 progressBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)MessagesFallbackBackdropFastPassActivityTaskSource;
 
 @end
 

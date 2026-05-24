@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKPaymentTokenContext
 {
     NSString *_merchantIdentifier;
-    NSString *_externalIdentifier;
-    NSString *_merchantName;
-    NSString *_merchantDomain;
-    NSDecimalNumber *_amount;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 × ;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -34,20 +30,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)1"eventsWithMaybeLocation"b1"visitLMPLocation"b1"visitLocation"b1"visitMaybeLocation"b1};
+- (void)ay",&,N,V_visits;
 - (id);
 - (id);
 - (id);
 - (id)%@. Ignoring.;
-- (void)fulSuperEasyProvisioningIfPossibleKey;
+- (void)PKForceSuccessfulSuperEasyProvisioningIfPossibleKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(copy, nonatomic) NSString *merchantDomain; // @synthesize merchantDomain=_merchantDomain;
 @property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
 
 @end
 

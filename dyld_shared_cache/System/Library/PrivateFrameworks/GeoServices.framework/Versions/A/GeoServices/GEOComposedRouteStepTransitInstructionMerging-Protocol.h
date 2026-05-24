@@ -5,5 +5,7 @@
 //
 
 @protocol GEOComposedRouteStepTransitInstructionMerging
+- (void)sharedDefaults;
+- (_Bool)setWithSet: /* Error: Ran out of types for this method. */;
 @end
 

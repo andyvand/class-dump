@@ -6,17 +6,16 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NUIContainerBoxView, TLKLabel;
+@class TLKLabel;
 
 @interface SearchUITitleCardSectionView : SearchUICardSectionView
 {
     TLKLabel *_label;
-    NUIContainerBoxView *_containerView;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)alphanumericCharacterSet;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 - (id)GRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerBoxView *containerView; // @synthesize containerView=_containerView;
 @property(retain, nonatomic) TLKLabel *label; // @synthesize label=_label;
 
 @end

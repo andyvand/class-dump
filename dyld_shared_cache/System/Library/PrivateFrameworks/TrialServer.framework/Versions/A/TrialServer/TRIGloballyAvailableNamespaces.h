@@ -11,7 +11,7 @@
     TRIKVStore *_kvStore;
 }
 
-- (id);
+- (id)loadMetadataForAsset:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)a×ð!Gù1!°1Â0@ù

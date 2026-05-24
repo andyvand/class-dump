@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (void)istener:didUpdatePositionFromSign: /* Error: Ran out of types for this method. */;
+- (id)/;
+- (void)navigationListener:didUpdatePositionFromSign: /* Error: Ran out of types for this method. */;
 - (id)rences_in_source) VALUES (:(id)arg1 name, :lcName, :category, :dynamicCategory, :language, :algorithm, :initialScore, :decayRate,     :osBuild, :assetVersion, :sourceRowId, 0, :shouldSync, :sentimentScore, :occurrencesInSource) /* Error: Ran out of types for this method. */;
 - (id)òÿsäß;
 

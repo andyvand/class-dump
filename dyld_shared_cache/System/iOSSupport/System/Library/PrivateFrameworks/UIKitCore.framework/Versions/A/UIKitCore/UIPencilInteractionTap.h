@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPencilHoverPose;
+@class UIPencilHoverPose;
 
 @interface UIPencilInteractionTap
 {
@@ -13,13 +13,13 @@
 }
 
 + (id);
+- (id), but it is backed by a group server. We must fork 🍴;
+- (id);
+- (id)viewDidChangeBackingProperties;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (double);
+- (double);
 - (id)A°!(@ù`°1Â0@ù
 × ;
 - (id)Recognizer"16@"UITextRefinementInteraction"24;
@@ -28,14 +28,6 @@
 - (void)d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIPencilHoverPose *hoverPose; // @synthesize hoverPose=_hoverPose;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

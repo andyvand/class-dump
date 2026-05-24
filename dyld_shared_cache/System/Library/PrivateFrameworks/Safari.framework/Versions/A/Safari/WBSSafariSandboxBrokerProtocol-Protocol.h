@@ -5,5 +5,7 @@
 //
 
 @protocol WBSSafariSandboxBrokerProtocol
+- (void);
+- (void);
 @end
 

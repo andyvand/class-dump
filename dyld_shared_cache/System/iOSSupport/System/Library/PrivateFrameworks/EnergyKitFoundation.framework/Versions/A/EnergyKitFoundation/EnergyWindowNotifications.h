@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface EnergyWindowNotifications
 {
@@ -13,15 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *body; // @dynamic body;
-@property(nonatomic) _Bool dispatched; // @dynamic dispatched;
 @property(nonatomic, copy) NSString *gridID; // @dynamic gridID;
-@property(nonatomic, copy) NSString *homeID; // @dynamic homeID;
-@property(nonatomic, copy) NSDate *lastCleanWindowEnd; // @dynamic lastCleanWindowEnd;
-@property(nonatomic, copy) NSDate *lastCleanWindowStart; // @dynamic lastCleanWindowStart;
-@property(nonatomic) _Bool lastWindowWasClean; // @dynamic lastWindowWasClean;
-@property(nonatomic) _Bool recurring; // @dynamic recurring;
-@property(nonatomic, copy) NSString *title; // @dynamic title;
 @property(nonatomic, copy) NSString *url; // @dynamic url;
 
 @end

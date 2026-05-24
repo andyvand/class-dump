@@ -11,7 +11,6 @@
 @interface QCOpenGLPort_Image : QCImagePort
 {
     QCImagePort_Cache *_texturePort;
-    void *_unused6[4];
 }
 
 - (void);

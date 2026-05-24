@@ -5,5 +5,15 @@
 //
 
 @protocol OSASyncProxyServices
+- (void)apsession_ensureKeepAliveStarted;
+- (void)] Completed (%.3f);
+- (void)}] Received incomingData=%1.64@;
+- (void)tr}] Receiver signaled completion;
+- (void)ng outgoingData%?{end}=%1.64@;
+- (void)WDKeyExchange> [%{ptr}] Sending outgoingData%?{end}=%1.64@;
+- (void)ted by endpoint.
+;
+- (void)apsession_ensureStartedInternalStage2StartTransaction;
+- (void);
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHPersistentChangeEnumerationContext, PHPersistentChangeFetchOptions, PHPhotoLibrary;
+@class NSArray;
 
 @interface PHPersistentChangeFetchResult
 {
     NSArray *_transactions;
-    PHPhotoLibrary *_library;
-    PHPersistentChangeFetchOptions *_options;
-    PHPersistentChangeEnumerationContext *_enumerationContext;
-    unsigned long long _changeCount;
 }
 
 + (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void)cted,V_rejected;
-- (unsigned long long)ypeSurveyAlbumClassification;
+- (unsigned long long)PHQuestionTypeSurveyAlbumClassification;
 
 @end
 

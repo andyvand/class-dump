@@ -6,14 +6,12 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INDeleteEventIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_initWithAdditionsPresentOnURLDirectly:(long long)arg1 error: /* Error: Ran out of types for this method. */;
++ (int)QLURLHandler;
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)Controller",R,W,N,V_controller;
+- (id);
+- (void)e_ro.59c082c8-d474-11eb-b64d-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)dableCurrencyAmountAttributeMetadataINIntentResponseParameterMetadataCurrencyCode;
+- (long long)__INCodableCurrencyAmountAttributeMetadataINIntentResponseParameterMetadataCurrencyCode;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

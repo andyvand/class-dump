@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray;
-
 @interface GEOWorldImageLayer
 {
     struct CGSize imageSize;
-    double rotation;
-    NSArray *slices;
-    CALayer *reentrantSlice;
 }
 
-+ (id);
-+ (struct CGImage *);
++ (id)proceed with the authentication because account modifications are not allowed.;
++ (struct CGImage *)}@;
 + (struct CGContext *);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
+- (void)blic}@;
+- (struct CGPoint)find an existing account. Unable to proceed with the authentication because account modifications are not allowed.;
+- (void)c}@:(struct CGImage *)arg1 [%{public}@] Provisioning failed. Error = %{public}@;
+- (void)into it. account = %{public}@;
 - (void);
 - (void);
 - (double);
 - (void);
-- (struct CGRect);
+- (struct CGRect)_receivedUnhandledCommand;
 - (id);
-- (struct CGSize);
+- (struct CGSize)incremental;
 
 // Remaining properties
 @property(readonly) struct CGSize imageSize; // @synthesize imageSize;
-@property double rotation;
-@property struct CGRect zoomFrame;
 
 @end
 

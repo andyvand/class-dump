@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EspressoProfilingLayerSupportInfo
 {
     _Bool _supported;
-    _Bool _exists;
-    _Bool _has_perf_warning;
-    _Bool _internal_layer;
-    NSArray *_error_public;
-    NSArray *_error_private;
-    NSString *_type;
 }
 
 - (void);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)iCloudAccount.RenewCredentialsDSID;
 - (void);
 - (_Bool);
 - (void)H;
@@ -34,13 +28,7 @@
 - (void)code_tvEEE;
 
 // Remaining properties
-@property(retain) NSArray *error_private; // @synthesize error_private=_error_private;
 @property(retain) NSArray *error_public; // @synthesize error_public=_error_public;
-@property _Bool exists; // @synthesize exists=_exists;
-@property _Bool has_perf_warning; // @synthesize has_perf_warning=_has_perf_warning;
-@property _Bool internal_layer; // @synthesize internal_layer=_internal_layer;
-@property _Bool supported; // @synthesize supported=_supported;
-@property(retain) NSString *type; // @synthesize type=_type;
 
 @end
 

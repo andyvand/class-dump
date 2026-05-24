@@ -12,17 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _MPCMediaRemoteNullController : MPCMediaRemoteController
 {
     MPCFuture *_playbackQueueFuture;
-    MPCFuture *_contentItemForIdentifierFuture;
-    MPCFuture *_contentItemArtworkForIdentifierFuture;
-    MPCFuture *_contentItemRemoteArtworkForIdentifierFuture;
-    MPCFuture *_contentItemAnimatedArtworkPreviewFrameForIdentifierFuture;
-    MPCFuture *_contentItemAnimatedArtworkForIdentifierFuture;
-    MPCFuture *_participantsFuture;
 }
 
 + (_Bool);
 - (long long);
-- (long long);
+- (long long)E;
 - (long long);
 - (id);
 - (id);
@@ -32,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)PCAssistantPause;
+- (id)MPCAssistantPause;
 - (void)ent = .clearUpNext];
 
 @end

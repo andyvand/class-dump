@@ -9,22 +9,20 @@
 @interface TSUDurationFormatter
 {
     NSString *mFormat;
-    int mCompactStyleStartUnit;
 }
 
 - (void);
 - (void);
 - (int);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)'0);
 - (id);
 - (id)× ;
 - (void)ûÿXà;
 
 // Remaining properties
-@property(nonatomic) int compactStyleStartUnit; // @synthesize compactStyleStartUnit=mCompactStyleStartUnit;
 @property(copy, nonatomic) NSString *format; // @synthesize format=mFormat;
 
 @end

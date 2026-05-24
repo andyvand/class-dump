@@ -9,9 +9,9 @@
     id _underlying;
 }
 
-- (id);
+- (id)	;
 - (void);
-- (id);
+- (id)UsoTaskBuilder_update_common_JournalEntry;
 - (void)Connection.m;
 
 @end

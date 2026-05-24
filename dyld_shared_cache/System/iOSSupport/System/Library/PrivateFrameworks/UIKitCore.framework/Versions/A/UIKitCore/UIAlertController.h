@@ -6,71 +6,11 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSAttributedString, NSIndexSet, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSPointerArray, NSSet, NSString, UIAlertAction, UIAlertControllerStackManager, UIAlertControllerVisualStyle, UIGestureRecognizer, UIImage, UIPopoverController, UIPreviewInteractionController, UITapGestureRecognizer, UIView, UIWindow, _UIAlertControllerShimPresenter, _UIAlertControllerTextFieldViewController, _UIAnimationCoordinator;
-@protocol UIAlertControllerCoordinatedActionPerforming, UIAlertControllerSystemProvidedPresentationDelegate, UIAlertControllerVisualStyleProviding, UINSAlert;
+@class NSString;
 
 @interface UIAlertController : UIViewController
 {
     NSString *_message;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedMessage;
-    NSAttributedString *_attributedDetailMessage;
-    NSSet *_linkedAlertControllers;
-    UIAlertAction *_cancelAction;
-    NSMutableDictionary *_actionToKeyCommandsDictionary;
-    NSMapTable *_keyCommandToActionMapTable;
-    long long _resolvedStyle;
-    long long _preferredStyle;
-    long long _severity;
-    UIViewController *_contentViewController;
-    _UIAlertControllerTextFieldViewController *_textFieldViewController;
-    UITapGestureRecognizer *_backButtonDismissGestureRecognizer;
-    id _ownedTransitioningDelegate;
-    _Bool _isInRecomputePreferredContentSize;
-    long long _batchActionChangesInProgressCount;
-    _UIAlertControllerShimPresenter *_presenter;
-    NSPointerArray *_actionsWithInvokedHandlers;
-    UIAlertControllerStackManager *_alertControllerStackManager;
-    UIImage *_image;
-    _Bool _actionInvokedOnDismiss;
-    NSMapTable *_buttonTouchBarItemsToActions;
-    UIWindow *_targetWindow;
-    _Bool _shouldBridgeWithTextFields;
-    id <UINSAlert> _bridgedAlert;
-    id _deferredBridgingObserver;
-    _Bool _visible;
-    _Bool _runningFakeModalSession;
-    id _fakeModalSessionObserver;
-    _Bool dismissedFromShim;
-    _Bool _hidden;
-    _Bool _springLoaded;
-    _Bool __shouldFlipFrameForShimDismissal;
-    _Bool __shouldAllowNilParameters;
-    _Bool __forceAlertStyle;
-    _Bool _hasPreservedInputViews;
-    _Bool __wantsUnclippedContentViewControllerContainer;
-    _Bool __wantsUnclippedHeaderContentViewControllerContainer;
-    _Bool __shouldAlignToKeyboard;
-    _Bool __shouldInvokeCancelActionOnDimmingViewTap;
-    NSMutableArray *_actions;
-    UIViewController *_headerContentViewController;
-    UIViewController *_separatedHeaderContentViewController;
-    NSObject<UIAlertControllerVisualStyleProviding> *_styleProvider;
-    UIAlertAction *_preferredAction;
-    _UIAnimationCoordinator *_temporaryAnimationCoordinator;
-    UIPreviewInteractionController *_previewInteractionController;
-    UIAlertControllerVisualStyle *__visualStyle;
-    NSIndexSet *_indexesOfActionSectionSeparators;
-    NSMutableArray *__actionDelimiterIndices;
-    UIPopoverController *__compatibilityPopoverController;
-    UIView *__systemProvidedPresentationView;
-    id <UIAlertControllerSystemProvidedPresentationDelegate> __systemProvidedPresentationDelegate;
-    UIGestureRecognizer *_systemProvidedGestureRecognizer;
-    id <UIAlertControllerCoordinatedActionPerforming> _coordinatedActionPerformingDelegate;
-    UIView *__presentationSourceRepresentationView;
-    long long _titleMaximumLineCount;
-    long long _titleLineBreakMode;
-    UIImage *_accessoryImage;
 }
 
 @end

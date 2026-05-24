@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSession, NSObject;
-@protocol OS_dispatch_queue;
+@class AVCaptureSession;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureInputInternal
 {
     AVCaptureSession *session;
-    NSObject<OS_dispatch_queue> *figCaptureSessionSyncQueue;
-    struct OpaqueFigCaptureSession *figCaptureSession;
 }
 
-- (void);
+- (void)addItemWithServiceName:username:accessGroup:passwordData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

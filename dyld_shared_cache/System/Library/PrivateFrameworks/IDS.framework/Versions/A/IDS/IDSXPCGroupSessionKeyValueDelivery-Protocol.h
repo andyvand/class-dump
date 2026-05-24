@@ -5,5 +5,7 @@
 //
 
 @protocol IDSXPCGroupSessionKeyValueDelivery
+- (void);
+- (void);
 @end
 

@@ -6,13 +6,12 @@
 
 #import <Catalyst/CATOperation.h>
 
-@protocol CATDictionaryCodable, CATSharingDeviceSession;
+@protocol CATSharingDeviceSession;
 
 __attribute__((visibility("hidden")))
 @interface CATSendDeviceSessionMessageOperation : CATOperation
 {
     id <CATSharingDeviceSession> mDeviceSession;
-    id <CATDictionaryCodable> mMessage;
 }
 
 - (void);

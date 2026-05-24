@@ -7,12 +7,11 @@
 @interface TelephonyUtilities.DefaultDarwinNotificationCenterToken__priv_B942A2D0BE491829F70B084E9ABEA966
 {
     id notificationName;
-    id callback;
 }
 
-- (void);
+- (void)h;
 - (id);
-- (void)d;
+- (void)isFailureExpected;
 
 @end
 

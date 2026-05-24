@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface SGStructuredAddress
 {
     NSString *_administrativeArea;
-    NSString *_administrativeAreaCode;
-    NSString *_country;
-    NSString *_countryCode;
-    NSMutableArray *_dependentLocalitys;
-    NSString *_locality;
-    NSString *_postCode;
-    NSString *_subAdministrativeArea;
-    NSString *_subThroughfare;
-    NSString *_thoroughfare;
 }
 
 + (Class);
@@ -27,39 +18,39 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)setPresentationSceneBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)requestByEncodingRequestAndReturnSigningErrors:parameters: /* Error: Ran out of types for this method. */;
+- (_Bool)purchaseTaskClass;
+- (unsigned long long)initWithURLTaskInfo: /* Error: Ran out of types for this method. */;
+- (id)initWithURLString: /* Error: Ran out of types for this method. */;
+- (id)initWithURLSessionTaskTransactionMetrics:(unsigned long long)arg1;
+- (void)handleEngagementRequest:completion: /* Error: Ran out of types for this method. */;
+- (void)cachedResponseDataForEvent:(id)arg1;
+- (_Bool)_setValueData:valueType:forKey:error: /* Error: Ran out of types for this method. */;
+- (void){public}@] JS sign is missing a storefront;
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)1~1;
+- (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool)AMBDcopyDesiredPipelineState2;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)T@"NSArray",R,N,V_inputBufferInfoIndex;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ber",&,N,V_relativeOffset;
 - (void);
 - (void);
 - (void);
@@ -67,25 +58,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(retain, nonatomic) NSString *administrativeAreaCode; // @synthesize administrativeAreaCode=_administrativeAreaCode;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSMutableArray *dependentLocalitys; // @synthesize dependentLocalitys=_dependentLocalitys;
-@property(readonly, nonatomic) _Bool hasAdministrativeArea;
-@property(readonly, nonatomic) _Bool hasAdministrativeAreaCode;
 @property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasLocality;
-@property(readonly, nonatomic) _Bool hasPostCode;
-@property(readonly, nonatomic) _Bool hasSubAdministrativeArea;
-@property(readonly, nonatomic) _Bool hasSubThroughfare;
-@property(readonly, nonatomic) _Bool hasThoroughfare;
-@property(retain, nonatomic) NSString *locality; // @synthesize locality=_locality;
-@property(retain, nonatomic) NSString *postCode; // @synthesize postCode=_postCode;
-@property(retain, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(retain, nonatomic) NSString *subThroughfare; // @synthesize subThroughfare=_subThroughfare;
-@property(retain, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end
 

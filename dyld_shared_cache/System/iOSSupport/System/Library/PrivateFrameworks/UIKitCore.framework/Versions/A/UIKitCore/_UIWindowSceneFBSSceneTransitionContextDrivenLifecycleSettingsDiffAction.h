@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 @interface _UIWindowSceneFBSSceneTransitionContextDrivenLifecycleSettingsDiffAction
 {
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsApplicationLifecycleEventDiffInspector;
 }
 
-- (void);
+- (void)gurationsItem"8;
 - (id)@ù
 × ;
-- (void)applicationDidEnterBackground;
+- (void)_applicationDidEnterBackground;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *sceneSettingsApplicationLifecycleEventDiffInspector; // @synthesize sceneSettingsApplicationLifecycleEventDiffInspector=_sceneSettingsApplicationLifecycleEventDiffInspector;
-@property(readonly) Class superclass;
 
 @end
 

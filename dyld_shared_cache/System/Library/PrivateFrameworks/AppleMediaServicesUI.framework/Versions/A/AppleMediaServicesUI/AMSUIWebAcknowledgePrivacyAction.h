@@ -6,16 +6,15 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAcknowledgePrivacyAction : AMSUIWebAction
 {
     ACAccount *_account;
-    NSString *_privacyIdentifier;
 }
 
-- (void);
+- (void)e];
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *privacyIdentifier; // @synthesize privacyIdentifier=_privacyIdentifier;
 
 @end
 

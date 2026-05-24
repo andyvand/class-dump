@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary;
-
 @interface KTOptIOValidatorResult
 {
     _Bool _usedIntendedState;
-    unsigned long long _state;
-    NSDictionary *_uriNeedsOptInChange;
-    NSArray *_uris;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
@@ -20,24 +14,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)%@.;
 - (id);
 - (void);
-- (unsigned long long);
+- (id)_cachedMetadata;
+- (id);
+- (id)duckduckgo;
 - (void);
-- (void);
+- (unsigned long long)/lib/libobjc.A.dylib;
+- (void)dd}}56@0:(id)arg1 8@"NSWindow"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (void)debugDescription;
 - (void);
 
 // Remaining properties
 @property unsigned long long state; // @synthesize state=_state;
-@property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain) NSDictionary *uriNeedsOptInChange; // @synthesize uriNeedsOptInChange=_uriNeedsOptInChange;
-@property(retain) NSArray *uris; // @synthesize uris=_uris;
-@property _Bool usedIntendedState; // @synthesize usedIntendedState=_usedIntendedState;
 
 @end
 

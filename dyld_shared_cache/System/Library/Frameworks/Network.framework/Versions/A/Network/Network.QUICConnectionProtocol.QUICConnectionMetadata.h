@@ -7,36 +7,6 @@
 @interface Network.QUICConnectionProtocol.QUICConnectionMetadata
 {
     id _applicationError;
-    id applicationErrorReason;
-    id securityMetadata;
-    id originalMetadata;
-    id streamOptions;
-    id streamMetadata;
-    id setMaxDataHandler;
-    id setMaxStreamDataBidirectionalLocalHandler;
-    id setMaxStreamDataBidirectionalRemoteHandler;
-    id setMaxStreamDataUnidirectionalHandler;
-    id setLocalMaxStreamsBidirectionalHandler;
-    id setLocalMaxStreamsUnidirectionalHandler;
-    id getLocalMaxStreamsBidirectionalHandler;
-    id getLocalMaxStreamsUnidirectionalHandler;
-    id setRemoteMaxStreamsBidirectionalHandler;
-    id setRemoteMaxStreamsUnidirectionalHandler;
-    id getRemoteMaxStreamsBidirectionalHandler;
-    id getRemoteMaxStreamsUnidirectionalHandler;
-    id closeWithErrorHandler;
-    id getPeerIdleTimeoutHandler;
-    id setKeepaliveHandler;
-    id getKeepaliveHandler;
-    id injectPacketHandler;
-    id setApplicationResultHandler;
-    id getApplicationResultHandler;
-    id setLinkFlowControlledHandler;
-    id getResetStreamAtSupportedHandler;
-    id isEarlyDataAccepted;
-    id cDefinition;
-    id systemLock;
-    id closeLock;
 }
 
 @end

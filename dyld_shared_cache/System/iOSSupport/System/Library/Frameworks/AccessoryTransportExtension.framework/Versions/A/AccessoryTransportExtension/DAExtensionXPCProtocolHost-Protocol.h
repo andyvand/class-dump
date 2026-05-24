@@ -5,5 +5,6 @@
 //
 
 @protocol DAExtensionXPCProtocolHost
+- (void);
 @end
 

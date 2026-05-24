@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)d;
+- (_Bool)h;
+- (unsigned long long)a;
+- (id)xt:readStageNumOfFails200(12288):cfg 1 elements; (1*8) cfg bytes != (%d) buffer bytes /* Error: Ran out of types for this method. */;
+- (id)MSASModel:didFinishSubscribingToAlbum:error: /* Error: Ran out of types for this method. */;
+- (struct _NSZone *)EFPropertyKey_isAuthenticated;
+
+@optional
+- (NSString *)ID, albumGUID, assetCollectionGUID, isThumbnail, batchCreationDate, photoCreationDate) values (?, ?, ?, ?, ?, ?, ?, ?);;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

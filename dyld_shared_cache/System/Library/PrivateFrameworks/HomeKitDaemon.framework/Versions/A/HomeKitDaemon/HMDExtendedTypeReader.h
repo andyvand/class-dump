@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDExtendedTypeReader : HMDTokenBasedStructuredReader
 {
     HMDStructuredReader *_reader;
-    struct _HMDStructuredDataToken _buffer[4];
-    unsigned long long _bufferHead;
-    unsigned long long _bufferCount;
 }
 
 - (struct _HMDStructuredDataToken);

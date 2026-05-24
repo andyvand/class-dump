@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSString;
+@class NSAppearance;
 
 __attribute__((visibility("hidden")))
 @interface _NSAppearanceCustomizationProxy
@@ -12,23 +12,15 @@ __attribute__((visibility("hidden")))
     NSAppearance *_appearance;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)erialize something thats nil;
+- (id)st"8;
+- (id);
+- (void)!;
 - (void);
-- (void);
-- (id)ansientWindow:(id)arg1 level: /* Error: Ran out of types for this method. */;
+- (id)seamlessOpenerTransientWindow:(id)arg1 level: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSAppearance *effectiveAppearance;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSProgressIndicator, NSString, NSTextField, NSTextView, NSView, PXFooterAnimatedIconView, PXFooterViewModel;
-@protocol PXPhotosGlobalFooterViewDelegate, PXPhotosGlobalFooterViewLayoutDelegate;
+@class PXFooterViewModel;
 
 @interface PXPhotosGlobalFooterView
 {
     _Bool _hasAnimatedIconView;
-    PXFooterAnimatedIconView *_animatedIconView;
-    NSTextField *_titleLabel;
-    NSTextField *_extendedTitleLabel;
-    NSTextField *_internalMessageSubtitleLabel;
-    NSView *_filterView;
-    NSView *_topAccessoryView;
-    NSTextView *_subtitle1TextView;
-    NSTextView *_subtitle2TextView;
-    NSTextField *_subtitle2Label;
-    NSProgressIndicator *_progressView;
-    NSAlert *_presentedAlert;
-    NSView *_processingView;
-    struct {
-        _Bool photosGlobalFooterViewDidChangeHeight;
-    } _delegateRespondsTo;
-    _Bool _isPerformingChanges;
-    double _currentHeight;
-    PXFooterViewModel *_viewModel;
-    id <PXPhotosGlobalFooterViewDelegate> _delegate;
-    id <PXPhotosGlobalFooterViewLayoutDelegate> _layoutDelegate;
 }
 
 + (id);
@@ -38,14 +17,14 @@
 + (id);
 + (id);
 + (void);
-+ (id)aintTop;
++ (id)_assetContainerConstraintTop;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
@@ -56,32 +35,22 @@
 - (void);
 - (id);
 - (_Bool);
-- (struct CGSize);
-- (void);
-- (id);
+- (struct CGSize)nager assigning DOM; componentCount=%lu, task-identifier=%{public}@;
+- (void)IssueTableOfContentsArticleCoordinatorType;
+- (id);
 - (struct CGSize);
 - (_Bool);
 - (id);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)erSourceIfNeededWithMediaProvider: /* Error: Ran out of types for this method. */;
-- (void)nadeSharedAlbumInvitationAlertButtonTitleCancel;
+- (void)_setupPixelBufferSourceIfNeededWithMediaProvider: /* Error: Ran out of types for this method. */;
+- (void)LemonadeSharedAlbumInvitationAlertButtonTitleCancel;
 - (void);
 - (void);
 - (id)F<;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentHeight; // @synthesize currentHeight=_currentHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXPhotosGlobalFooterViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPhotosGlobalFooterViewLayoutDelegate> layoutDelegate; // @synthesize layoutDelegate=_layoutDelegate;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) PXFooterViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

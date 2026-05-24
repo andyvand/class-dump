@@ -6,42 +6,30 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKPaymentApplication, PKPaymentPass, PKSecureElementApplet;
-
 @interface PKPaymentAugmentBaseRequest : PKPaymentWebServiceRequest
 {
     long long _type;
-    PKPaymentPass *_pass;
-    PKPaymentApplication *_paymentApplication;
-    PKSecureElementApplet *_applet;
-    NSString *_merchantCountryCode;
-    NSString *_currencyCode;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)(;
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)H;
+- (void);
+- (id);
 - (long long);
 - (void);
-- (id)entifierAutomaticallyBecomeDefault: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)willPassWithUniqueIdentifierAutomaticallyBecomeDefault: /* Error: Ran out of types for this method. */;
+- (void)userConfirmation;
 
 // Remaining properties
-@property(retain, nonatomic) PKSecureElementApplet *applet; // @synthesize applet=_applet;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy, nonatomic) NSString *merchantCountryCode; // @synthesize merchantCountryCode=_merchantCountryCode;
-@property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) PKPaymentApplication *paymentApplication; // @synthesize paymentApplication=_paymentApplication;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

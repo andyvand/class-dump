@@ -6,30 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIWindowScene;
-
 __attribute__((visibility("hidden")))
 @interface _UIRemoteKeyboardPlaceholderView : UIView
 {
     UIView *_mirroredView;
-    struct CGSize _fixedSize;
-    CDUnknownBlockType _sizeBlock;
-    UIWindowScene *_sceneForHeight;
-    _Bool _isLocalMinimumHeight;
-    UIView *_fallbackView;
-    UIView *_associatedView;
 }
 
 + (id);
 + (id);
-+ (id)tifier:(id)arg1;
++ (id)createPresenterWithIdentifier:(id)arg1;
 - (id);
 - (struct CGSize);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
@@ -46,33 +38,22 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (_Bool)^@48;
-- (void)Bias;
-- (void)ent: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)event: /* Error: Ran out of types for this method. */;
-- (_Bool)torShouldCoordinate;
-- (_Bool)illMenus;
+- (void)_sceneActivationBias;
+- (void)_metricsWithInvalidatedSynthesizedContent: /* Error: Ran out of types for this method. */;
+- (void)_hasCustomized_highlightedTextColor;
+- (void)_effectiveCalendar;
+- (void)_callResponder:phase:components:event: /* Error: Ran out of types for this method. */;
+- (_Bool)_animatorShouldCoordinate;
+- (_Bool)UIKBAutoFillMenus;
 - (void)[;
 - (void)lÜÝÞßßìàÔáÔâtåèÔè°éTê,ë;¤îò;
-- (void)ntrollerUsesDeviceOverlayPreferences;
-- (struct CGRect)mporaryConstants;
+- (void)UISplitViewControllerUsesDeviceOverlayPreferences;
+- (struct CGRect)_UIListMetricsTemporaryConstants;
 - (void)e23Æmþm23Æmþ}23$Æmþ}23<Æmþ}23dÆmþ23Æmþ=23ÆmþE23Æmþ23¤Æmþm23°Æmþý23¼Æmþý23ìûqþE23ÔÆmþ}23ÜÆmþM23ìÆmþ;
-- (void)iguration;
+- (void)Configuration;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *associatedView; // @synthesize associatedView=_associatedView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *fallbackView; // @synthesize fallbackView=_fallbackView;
-@property(nonatomic) struct CGSize fixedSize;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLocalMinimumHeightPlaceholder;
-@property(readonly) UIView *placeheldView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PKDrawing, PKTextInputDrawingGestureRecognizer, PKTextInputInteraction, PKTiledCanvasView, UITextField;
-
 @interface PKDrawingReplayController
 {
     _Bool _isAnimating;
-    _Bool _setupComplete;
-    _Bool _cancelled;
-    double _speedRatio;
-    PKTiledCanvasView *_canvasView;
-    PKDrawing *_drawing;
-    UITextField *_textField;
-    CDUnknownBlockType _completionHandler;
-    PKTextInputInteraction *_textInputInteraction;
-    PKTextInputDrawingGestureRecognizer *_drawingGestureRecognizer;
-    unsigned long long _currentPointIndex;
-    NSMutableArray *_pointArray;
-    struct CGPoint _startingTextFieldOrigin;
-    struct CGPoint _originOffset;
-    struct CGPoint _currentOffset;
-    struct CGAffineTransform _transform;
 }
 
 + (_Bool);
@@ -64,7 +47,7 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)P;
 - (struct CGPoint);
 - (struct CGAffineTransform);
 - (_Bool);
@@ -82,23 +65,7 @@
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) PKTiledCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) struct CGPoint currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(nonatomic) unsigned long long currentPointIndex; // @synthesize currentPointIndex=_currentPointIndex;
-@property(nonatomic) _Bool disablePencilInput;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) __weak PKTextInputDrawingGestureRecognizer *drawingGestureRecognizer; // @synthesize drawingGestureRecognizer=_drawingGestureRecognizer;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(nonatomic) struct CGPoint originOffset; // @synthesize originOffset=_originOffset;
-@property(retain, nonatomic) NSMutableArray *pointArray; // @synthesize pointArray=_pointArray;
 @property(nonatomic) _Bool setupComplete; // @synthesize setupComplete=_setupComplete;
-@property(nonatomic) double speedRatio; // @synthesize speedRatio=_speedRatio;
-@property(nonatomic) struct CGPoint startingTextFieldOrigin; // @synthesize startingTextFieldOrigin=_startingTextFieldOrigin;
-@property(nonatomic) __weak UITextField *textField; // @synthesize textField=_textField;
-@property(nonatomic) __weak PKTextInputInteraction *textInputInteraction; // @synthesize textInputInteraction=_textInputInteraction;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

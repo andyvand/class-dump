@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface MSASSharingRelationship
 {
     _Bool _isMine;
-    int _state;
-    NSString *_GUID;
-    NSString *_albumGUID;
-    NSString *_email;
-    NSArray *_emails;
-    NSArray *_phones;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_fullName;
-    NSString *_personID;
-    NSDate *_subscriptionDate;
 }
 
-+ (id);
++ (id)sory with emac %@, error %@;
 + (_Bool);
-- (_Bool);
+- (_Bool)%@:(id)arg1 %@;
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (id);
@@ -39,14 +28,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Ȣ;
 - (void);
-- (id);
+- (id)سكم;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void),V_connectionToServer;
 - (int);
 - (void);
 - (_Bool);
@@ -54,7 +43,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)dictionaryWithCapacity: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -62,17 +51,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
-@property(retain, nonatomic) NSArray *emails; // @synthesize emails=_emails;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(nonatomic) _Bool isMine; // @synthesize isMine=_isMine;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) NSArray *phones; // @synthesize phones=_phones;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(retain, nonatomic) NSDate *subscriptionDate; // @synthesize subscriptionDate=_subscriptionDate;
 
 @end
 

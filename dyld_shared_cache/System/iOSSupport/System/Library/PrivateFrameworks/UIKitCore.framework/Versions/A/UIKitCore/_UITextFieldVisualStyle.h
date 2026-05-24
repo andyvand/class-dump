@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
     id <_UITextFieldVisualStyleSubject> _styleSubject;
 }
 
-+ (id)ateTemplateProperties;
++ (id)_updateTemplateProperties;
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)initWithModelKind:block: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id)ay;
+- (id)_activationDelay;
 - (id)ing search bar to new placement. Fixing, but delegate searchBarPlacement callbacks have been skipped. navigationBar = %@;
-- (void)_UITabBarContentLayoutManagerCSgXw;
+- (void)So29_UITabBarContentLayoutManagerCSgXw;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextFieldVisualStyleSubject> styleSubject; // @synthesize styleSubject=_styleSubject;

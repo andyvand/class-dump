@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (int);
++ (int)A;
 + (void);
 + (id);
 + (void);
-+ (void *);
++ (void *))M;
 + (void);
 
 @end

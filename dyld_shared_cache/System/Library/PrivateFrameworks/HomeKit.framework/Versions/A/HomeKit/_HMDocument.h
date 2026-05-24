@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _HMDocument
 {
     NSString *_stringValue;
-    NSAttributedString *_attributedString;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)complicatedness;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)OARFramework;
+- (id);
+- (void)_daemonRunningWithROARFramework;
 - (id);
 - (id)il queue;
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
 @property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end

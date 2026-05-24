@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RBAttributeCondition
 {
     _Bool _value;
-    NSString *_name;
 }
 
-- (id);
+- (id)lueDict;
 - (void);
 
 @end

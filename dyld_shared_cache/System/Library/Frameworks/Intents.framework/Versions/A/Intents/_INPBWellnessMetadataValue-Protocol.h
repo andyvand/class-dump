@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDouble, _INPBInteger, _INPBString;
+@class _INPBDouble;
 
 @protocol _INPBWellnessMetadataValue
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOrdinalValue;
-@property(readonly, nonatomic) _Bool hasPbDoubleValue;
-@property(readonly, nonatomic) _Bool hasPbStringValue;
-@property(retain, nonatomic) _INPBInteger *ordinalValue;
 @property(retain, nonatomic) _INPBDouble *pbDoubleValue;
-@property(retain, nonatomic) _INPBString *pbStringValue;
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
-
 @interface Safari.CompletionListActionData
 {
     long long type;
-    void title;
-    void subtitle;
-    void faviconURLString;
-    id systemSymbol;
-    NSImage *secondaryImage;
-    void highlightedRanges;
-    unsigned long long lineBreakMode;
-    void accessibilityIdentifier;
-    void deleteAction;
-    void deleteActionTitle;
-    id isChecked;
 }
 
 - (void);
@@ -34,22 +21,13 @@
 - (id);
 - (id);
 - (long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)toggleTelephoneNumberDetection: /* Error: Ran out of types for this method. */;
 - (id)1)]-(dividerMargin)-[openPageWithSimulatorPopUpButton]-(>=sideMargin)-|;
 - (id)ose %lu Tabs;
 - (unsigned long long);
 - (void)Ì;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) CDUnknownBlockType deleteAction;
-@property(nonatomic, copy) NSString *deleteActionTitle;
-@property(nonatomic, readonly) NSString *faviconURLString;
-@property(nonatomic, copy) NSArray *highlightedRanges;
-@property(nonatomic, readonly) unsigned long long lineBreakMode; // @synthesize lineBreakMode;
-@property(nonatomic, retain) NSImage *secondaryImage; // @synthesize secondaryImage;
-@property(nonatomic, readonly) NSString *subtitle;
-@property(nonatomic, readonly) NSString *title;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

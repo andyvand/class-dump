@@ -7,18 +7,6 @@
 @interface Network.QUICStreamInstance
 {
     id streamID;
-    id logIDString;
-    id streamMetaData;
-    id flowControl;
-    id finalSize;
-    id bytesDequeued;
-    id sendBuffer;
-    id reassemblyQueue;
-    id sendApplicationError;
-    id sendUsableDatagramFrameSize;
-    id sendState;
-    id receiveState;
-    id flags;
 }
 
 @end

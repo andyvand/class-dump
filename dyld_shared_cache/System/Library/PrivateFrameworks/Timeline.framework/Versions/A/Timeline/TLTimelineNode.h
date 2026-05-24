@@ -7,25 +7,23 @@
 @interface TLTimelineNode
 {
     TLTimelineNode *_leftNode;
-    TLTimelineNode *_rightNode;
 }
 
-+ (_Bool);
++ (_Bool)$;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)renderer:didApplyAnimationsAtTime: /* Error: Ran out of types for this method. */;
+- (id)_createSkinnerWithBones:boneWeights:boneIndices:baseGeometry: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLTimelineNode *leftNode; // @synthesize leftNode=_leftNode;
 @property(retain, nonatomic) TLTimelineNode *rightNode; // @synthesize rightNode=_rightNode;
 
 @end

@@ -9,8 +9,6 @@
 @interface QCVirtualPort : QCPort
 {
     id _value;
-    unsigned long long _lastFlagUpdateFrameID;
-    void *_unused3[3];
 }
 
 + (Class);

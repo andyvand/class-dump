@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAirport, NSString;
+@class INAirport;
 
 @interface INAirportGate
 {
     INAirport *_airport;
-    NSString *_terminal;
-    NSString *_gate;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)setFileProviderFileIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (unsigned long long)TEFILHProtocol;
+- (_Bool)",&,V_accessoryScanTimer;
+- (void)vent:(id)arg1 withData:interface:] /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)Records;
-- (void)OR_BELL;
+- (id);
+- (id);
+- (id)_callRecords;
+- (void)DOOR_BELL;
 - (id);
 
 // Remaining properties
 @property(readonly, copy) INAirport *airport; // @synthesize airport=_airport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *gate; // @synthesize gate=_gate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *terminal; // @synthesize terminal=_terminal;
 
 @end
 

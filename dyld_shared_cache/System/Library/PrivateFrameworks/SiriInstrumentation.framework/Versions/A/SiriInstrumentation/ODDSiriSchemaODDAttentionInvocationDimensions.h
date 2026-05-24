@@ -6,30 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaISOLocale;
+@class NSString;
 
 @interface ODDSiriSchemaODDAttentionInvocationDimensions : SISchemaInstrumentationMessage
 {
     NSString *_systemBuild;
-    int _dataSharingOptInStatus;
-    SISchemaISOLocale *_siriInputLocale;
-    NSString *_voiceTriggerAssetVersion;
-    NSString *_mitigationAssetVersion;
-    int _invocationSource;
-    int _triggerPhrase;
-    unsigned int _ageOfProfileInMonths;
-    float _enrollmentPitchEstimation;
-    struct {
-        unsigned int dataSharingOptInStatus:1;
-        unsigned int invocationSource:1;
-        unsigned int triggerPhrase:1;
-        unsigned int ageOfProfileInMonths:1;
-        unsigned int enrollmentPitchEstimation:1;
-    } _has;
-    _Bool _hasSystemBuild;
-    _Bool _hasSiriInputLocale;
-    _Bool _hasVoiceTriggerAssetVersion;
-    _Bool _hasMitigationAssetVersion;
 }
 
 - (id);
@@ -45,14 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@";
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -87,29 +68,11 @@
 - (id)
 × ;
 - (id)ncTokenTransferLatencyInMs;
-- (id)gnalValue;
+- (id)_hasSignalValue;
 - (void)cutionTier1.claims.propId;
 
 // Remaining properties
-@property(nonatomic) unsigned int ageOfProfileInMonths; // @synthesize ageOfProfileInMonths=_ageOfProfileInMonths;
-@property(nonatomic) int dataSharingOptInStatus; // @synthesize dataSharingOptInStatus=_dataSharingOptInStatus;
-@property(nonatomic) float enrollmentPitchEstimation; // @synthesize enrollmentPitchEstimation=_enrollmentPitchEstimation;
-@property(nonatomic) _Bool hasAgeOfProfileInMonths;
-@property(nonatomic) _Bool hasDataSharingOptInStatus;
-@property(nonatomic) _Bool hasEnrollmentPitchEstimation;
-@property(nonatomic) _Bool hasInvocationSource;
-@property(nonatomic) _Bool hasMitigationAssetVersion; // @synthesize hasMitigationAssetVersion=_hasMitigationAssetVersion;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool hasTriggerPhrase;
-@property(nonatomic) _Bool hasVoiceTriggerAssetVersion; // @synthesize hasVoiceTriggerAssetVersion=_hasVoiceTriggerAssetVersion;
-@property(nonatomic) int invocationSource; // @synthesize invocationSource=_invocationSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mitigationAssetVersion; // @synthesize mitigationAssetVersion=_mitigationAssetVersion;
-@property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
 @property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(nonatomic) int triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
-@property(copy, nonatomic) NSString *voiceTriggerAssetVersion; // @synthesize voiceTriggerAssetVersion=_voiceTriggerAssetVersion;
 
 @end
 

@@ -6,21 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray;
-@protocol FCContentContext;
-
 @interface FCFeaturedArticlesOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    NSArray *_networkEvents;
-    id <FCContentContext> _context;
-    NSArray *_resultFeedItems;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id)tring",R,N,V_text;
 - (void)EstimationConfig init];
 - (void)putConfiguration due to failure to decode channelIDsOutputName from configuration %{public}@;
@@ -29,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(readonly, nonatomic) NSArray *networkEvents;
 
 @end
 

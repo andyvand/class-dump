@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter;
-
 @interface ASAuthorizationAppleIDButton
 {
     long long _type;
-    long long _style;
-    CAFilter *_highlightFilter;
-    double _cornerRadius;
 }
 
 + (id);
@@ -31,7 +26,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);

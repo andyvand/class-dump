@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, RTLocation;
+@class RTLocation;
 
 @interface RTConnectionsLocation
 {
     RTLocation *_location;
-    NSString *_name;
-    NSString *_originatingBundleID;
-    NSString *_fullFormattedAddress;
-    NSURL *_mapItemURL;
-    NSDate *_createdAt;
 }
 
 - (id);
 - (id);
+- (id)initWithFormat:(id)arg1 arguments:(id)arg2;
+- (id)n:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)received remote SKE data, ignore.;
+- (id)z!;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)ationEnforcer;
+- (id)_expirationEnforcer;
 - (void)d], Passthrough;
 - (id)v¢ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(readonly, nonatomic) NSString *fullFormattedAddress; // @synthesize fullFormattedAddress=_fullFormattedAddress;
 @property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSURL *mapItemURL; // @synthesize mapItemURL=_mapItemURL;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *originatingBundleID; // @synthesize originatingBundleID=_originatingBundleID;
 
 @end
 

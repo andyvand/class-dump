@@ -5,5 +5,11 @@
 //
 
 @protocol MTL4ComputeCommandEncoder
+- (void)g;
+- (void);
+- (void)[;
+- (void)aitsIcEEEERbEEEiEUlcS4_SB_E_;
+- (void);
+- (void);
 @end
 

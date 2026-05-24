@@ -7,8 +7,6 @@
 @interface TSUBacktrace
 {
     void **_callstack;
-    int _frames;
-    int _initAdjustment;
 }
 
 + (id);

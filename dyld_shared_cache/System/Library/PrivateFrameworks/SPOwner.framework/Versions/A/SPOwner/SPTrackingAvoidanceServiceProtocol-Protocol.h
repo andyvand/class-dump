@@ -5,5 +5,7 @@
 //
 
 @protocol SPTrackingAvoidanceServiceProtocol
+- (void)`�yo;
+- (void);
 @end
 

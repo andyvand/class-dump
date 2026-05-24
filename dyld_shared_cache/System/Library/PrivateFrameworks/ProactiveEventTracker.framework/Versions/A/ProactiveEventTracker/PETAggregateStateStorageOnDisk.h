@@ -11,18 +11,13 @@
 @interface PETAggregateStateStorageOnDisk : PETAggregateStateStorage
 {
     NSString *_path;
-    int _fd;
-    void *_bytes;
-    unsigned long long _mappedLen;
-    _Atomic _Bool _dead;
-    struct _opaque_pthread_mutex_t _localLock;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);

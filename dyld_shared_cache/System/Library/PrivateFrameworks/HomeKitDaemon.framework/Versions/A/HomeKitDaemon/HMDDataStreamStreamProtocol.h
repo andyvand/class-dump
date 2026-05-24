@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-@protocol HMDDataStreamProtocolDelegate;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamStreamProtocol
 {
     NSMapTable *_sockets;
-    id <HMDDataStreamProtocolDelegate> _dataStream;
 }
 
 + (id);
 + (id)²B;
+- (void)v@?@"<MSPContainerEditAddition>">16@?<v@?@"<MSPContainerEditRemoval>">24@?<v@?@"<MSPContainerEditReplacement>">32@?<v@?@"<MSPContainerEditContentUpdate>">40@?<v@?@"<MSPContainerEditReplacedEntirely>">48;
 - (void);
+- (id)o;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)[;
 - (void);
 - (void);
 - (void);
@@ -37,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)eration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly) __weak id <HMDDataStreamProtocolDelegate> dataStream; // @synthesize dataStream=_dataStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMapTable *sockets; // @synthesize sockets=_sockets;
-@property(readonly) Class superclass;
 
 @end
 

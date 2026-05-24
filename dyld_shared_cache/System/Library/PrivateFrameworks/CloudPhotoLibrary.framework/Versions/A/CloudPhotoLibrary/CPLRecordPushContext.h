@@ -9,24 +9,22 @@
 @interface CPLRecordPushContext
 {
     NSString *_uploadIdentifier;
-    long long _flags;
-    unsigned long long _priority;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)Rp;
++ (id)@;
++ (_Bool);
 + (id);
 + (void);
 + (long long);
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id));
 - (id);
-- (id)R;
 - (void);
 - (id);
 - (long long);
@@ -35,8 +33,6 @@
 - (unsigned long long)cked because of %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 @property(readonly, nonatomic) NSString *uploadIdentifier; // @synthesize uploadIdentifier=_uploadIdentifier;
 
 @end

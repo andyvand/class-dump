@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSUUID;
+@class NSUUID;
 
 @interface NSWritingToolsProofreadingSuggestion
 {
     NSUUID *_uuid;
-    NSAttributedString *_replacementString;
-    long long _lengthDelta;
-    long long _state;
-    struct _NSRange _originalRange;
 }
 
 - (id);
 - (struct _NSRange);
 - (long long);
-- (id);
+- (id)workspace (%d);
 - (void);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) long long lengthDelta; // @synthesize lengthDelta=_lengthDelta;
-@property(readonly) struct _NSRange originalRange; // @synthesize originalRange=_originalRange;
-@property(readonly, copy) NSAttributedString *replacementString; // @synthesize replacementString=_replacementString;
-@property long long state; // @synthesize state=_state;
 @property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

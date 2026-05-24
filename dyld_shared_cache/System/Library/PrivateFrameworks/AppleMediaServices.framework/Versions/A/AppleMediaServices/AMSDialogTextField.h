@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSDialogTextField
 {
     _Bool _secure;
-    long long _keyboardType;
-    NSString *_placeholder;
-    long long _tag;
-    NSString *_text;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ost:%@, withTrumpReason:%@ /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)installReceiptString:(id)arg1 inBundleAtPath: /* Error: Ran out of types for this method. */;
 - (void)ò{½\­yu~Åa7â5åó$EQ+Ä¢Igª©"Ï_Yõ:ÿ#!¦Zb	0÷þM¹³ßëPl)ç?ù¾|ÖáÜ]mô«TKo²×3X.Á%1>Ý}¨·¶Ìê¥éÃ
 k ;¯ðUÐ /* Error: Ran out of types for this method. */;
 - (long long)\ïaLx\BÞÌëPµb¨Ñ_r£#Fb|ª;)µPM4ºFÆ£OÝÏèS¶a«Ò\q  Ea©8f±{¡pð±¯yYKl×2å/VØõ$¤Áåû-~lKðÂqÿÒæÂÜ
@@ -38,10 +32,6 @@ HZ}Æ#ô>GÉä5µÐôê<¶¤8Ý
 
 // Remaining properties
 @property long long keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(copy) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property _Bool secure; // @synthesize secure=_secure;
-@property long long tag; // @synthesize tag=_tag;
-@property(copy) NSString *text; // @synthesize text=_text;
 
 @end
 

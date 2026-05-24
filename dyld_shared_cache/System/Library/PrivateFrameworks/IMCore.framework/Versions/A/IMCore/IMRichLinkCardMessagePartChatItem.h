@@ -11,18 +11,16 @@
 @interface IMRichLinkCardMessagePartChatItem : IMAttachmentMessagePartChatItem
 {
     IMRichCards *_richCards;
-    long long _selectedIndex;
 }
 
-- (id);
-- (id);
+- (id)ream=%@, didStartStream=%d, error=%@;
+- (id)d IDR/sec, %s;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) IMRichCards *richCards; // @synthesize richCards=_richCards;
-@property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
 
 @end
 

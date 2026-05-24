@@ -5,5 +5,6 @@
 //
 
 @protocol _MXExtensionVendorViewControlling
+- (void)f, powerlevel3Duration=%f, linkType=%d, overallBytes=%f, overallDuration=%f TotalEnergy=%f, taskID=%@;
 @end
 

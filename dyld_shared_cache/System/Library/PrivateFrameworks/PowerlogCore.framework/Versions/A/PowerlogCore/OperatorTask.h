@@ -10,7 +10,6 @@
 @interface OperatorTask
 {
     NSObject<OS_dispatch_queue> *_operatorQueue;
-    CDUnknownBlockType _operatorBlock;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
 @property(retain) NSObject<OS_dispatch_queue> *operatorQueue; // @synthesize operatorQueue=_operatorQueue;
 
 @end

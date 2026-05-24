@@ -7,7 +7,6 @@
 @interface NewsFeed.IssueCoverViewButton
 {
     id onTap;
-    id coverView;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (_Bool)u;
 
 // Remaining properties
-@property(nonatomic) struct CGRect frame;
 @property(nonatomic) _Bool highlighted;
 
 @end

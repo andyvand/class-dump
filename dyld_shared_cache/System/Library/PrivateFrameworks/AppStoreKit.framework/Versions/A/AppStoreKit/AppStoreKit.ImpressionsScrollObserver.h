@@ -7,9 +7,6 @@
 @interface AppStoreKit.ImpressionsScrollObserver
 {
     id impressionsCalculator;
-    id collectionView;
-    id orthogonalSectionImpressionScrollObservers;
-    id scrollObserverTokens;
 }
 
 @end

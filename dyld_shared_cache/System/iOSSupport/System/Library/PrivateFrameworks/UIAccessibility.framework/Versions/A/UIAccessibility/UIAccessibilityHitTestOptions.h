@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UIAccessibilityHitTestOptions
 {
     _Bool _shouldHitTestUserTestingChildren;
-    CDUnknownBlockType _leafNodePredicate;
-    CDUnknownBlockType _fallbackPredicate;
-    CDUnknownBlockType _isEligibleElement;
-    NSArray *_outOfBoundsHitTestElements;
 }
 
 + (id);
@@ -30,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fallbackPredicate; // @synthesize fallbackPredicate=_fallbackPredicate;
-@property(copy, nonatomic) CDUnknownBlockType isEligibleElement; // @synthesize isEligibleElement=_isEligibleElement;
 @property(copy, nonatomic) CDUnknownBlockType leafNodePredicate; // @synthesize leafNodePredicate=_leafNodePredicate;
-@property(retain, nonatomic) NSArray *outOfBoundsHitTestElements; // @synthesize outOfBoundsHitTestElements=_outOfBoundsHitTestElements;
-@property(nonatomic) _Bool shouldHitTestUserTestingChildren; // @synthesize shouldHitTestUserTestingChildren=_shouldHitTestUserTestingChildren;
 
 @end
 

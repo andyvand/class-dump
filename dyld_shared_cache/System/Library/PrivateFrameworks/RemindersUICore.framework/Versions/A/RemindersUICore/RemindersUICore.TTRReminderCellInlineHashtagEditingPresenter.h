@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRReminderCellInlineHashtagEditingPresenter
 {
     id interactor;
-    id processor;
-    id initialHashtagIdentifiers;
-    id newlyCreatedHashtags;
-    id hashtagLabelsCancellable;
-    id fetchedHashtagLabels;
 }
 
 @end

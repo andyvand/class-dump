@@ -11,7 +11,6 @@
 @interface PKModifyStrokesCommand : PKUndoCommand
 {
     _Bool _hide;
-    NSArray *_strokes;
 }
 
 + (id);
@@ -22,12 +21,11 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)unshare Sign in with Apple Account with error %@.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hide; // @synthesize hide=_hide;
 @property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end

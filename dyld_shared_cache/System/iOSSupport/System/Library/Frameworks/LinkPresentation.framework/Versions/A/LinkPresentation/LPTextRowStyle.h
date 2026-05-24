@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface LPTextRowStyle
 {
     LPTextViewStyle *_leading;
-    LPTextViewStyle *_trailing;
-    long long _balancingMode;
 }
 
-- (void);
-- (id);
+- (void)topAnchor;
+- (id)textStyleCommandsWithAction:(long long)arg1 configureImages:(double)arg2 configureAttributedTitles:selectedText: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void)tailInsetsForBubbleSize:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) long long balancingMode; // @synthesize balancingMode=_balancingMode;
 @property(readonly, nonatomic) LPTextViewStyle *leading; // @synthesize leading=_leading;
-@property(readonly, nonatomic) LPTextViewStyle *trailing; // @synthesize trailing=_trailing;
 
 @end
 

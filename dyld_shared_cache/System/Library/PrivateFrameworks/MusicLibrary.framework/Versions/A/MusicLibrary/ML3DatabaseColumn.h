@@ -9,25 +9,19 @@
 @interface ML3DatabaseColumn
 {
     NSString *_name;
-    unsigned long long _datatype;
-    unsigned long long _columnConstraints;
-    id _defaultValue;
 }
 
-+ (id);
++ (id)B,N,V_filterZeroDistanceDataset;
+- (id)es;
+- (unsigned long long)localizedStandardRangeOfString: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ring",C,V_pl_importantFetchName;
+- (id)_insertWorkItemsForAssetObjectIDs:inManagedObjectContext:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)bindInt:forParameterAtPosition: /* Error: Ran out of types for this method. */;
 - (void)_subscribed = 0 OR container.is_editable = 1));
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columnConstraints; // @synthesize columnConstraints=_columnConstraints;
-@property(readonly, nonatomic) unsigned long long datatype; // @synthesize datatype=_datatype;
-@property(readonly, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

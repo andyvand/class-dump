@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GVGraph, NSMutableArray;
+@class GVGraph;
 
 @interface GVLayout
 {
     unsigned long long *savedOrder;
-    unsigned long long currentCrossings;
-    int direction;
-    GVGraph *graphOrig;
-    NSMutableArray *graphParts;
-    GVGraph *graphPart;
-    NSMutableArray *ranks;
-    struct CGSize separation;
 }
 
 + (struct CGSize);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,19 +54,14 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
+- (void)T	was=%{bool}d needsSave=%{bool}d dirty=%{bool}d sendToServer=%{bool}d;
+- (void)�F2;
+- (id)ictly positive!;
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int direction; // @synthesize direction;
 @property(retain, nonatomic) GVGraph *graphOrig; // @synthesize graphOrig;
-@property(retain, nonatomic) GVGraph *graphPart; // @synthesize graphPart;
-@property(retain, nonatomic) NSMutableArray *graphParts; // @synthesize graphParts;
-@property(retain, nonatomic) NSMutableArray *ranks; // @synthesize ranks;
-@property(nonatomic) struct CGSize separation; // @synthesize separation;
 
 @end
 

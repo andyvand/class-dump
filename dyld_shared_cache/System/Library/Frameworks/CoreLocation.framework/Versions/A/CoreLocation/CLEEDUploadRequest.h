@@ -6,21 +6,15 @@
 
 #import <CoreLocation/CLEEDRequest.h>
 
-@class NSData, NSMutableSet, NSString;
+@class NSMutableSet, NSString;
 
 @interface CLEEDUploadRequest : CLEEDRequest
 {
     NSMutableSet *_mediaList;
-    NSString *_baseURL;
-    NSString *_relativePath;
-    NSString *_token;
-    NSData *_sessionID;
-    NSData *_combinedSecret;
-    long long _numDuplicateMediaSelections;
 }
 
 + (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (long long);
 - (id);
@@ -30,29 +24,23 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)8X
+;
+- (id);
+- (id)D;
 - (id);
 - (void);
+- (void))@9)yS(	JI;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)newSerializedObjectDataWithFlags:options:error: /* Error: Ran out of types for this method. */;
+- (id)er identifier.;
 - (void)*CLGetOdometryBatchedLocations();
 - (id)har *, Boolean);
 - (void)"0;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) NSData *combinedSecret; // @synthesize combinedSecret=_combinedSecret;
-@property(retain, nonatomic) NSMutableSet *mediaList; // @synthesize mediaList=_mediaList;
-@property(nonatomic) long long numDuplicateMediaSelections; // @synthesize numDuplicateMediaSelections=_numDuplicateMediaSelections;
-@property(retain, nonatomic) NSString *relativePath; // @synthesize relativePath=_relativePath;
-@property(readonly, retain, nonatomic) NSData *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(retain, nonatomic) NSString *uploadURL;
 
 @end
 

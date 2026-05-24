@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioOptionsURLHandler
 {
     id patterns;
-    id audioPlaybackOptionsPresenter;
-    id sceneProvider;
 }
 
 @end

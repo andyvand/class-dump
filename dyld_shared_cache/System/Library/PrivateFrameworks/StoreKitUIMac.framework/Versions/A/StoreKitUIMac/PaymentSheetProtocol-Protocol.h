@@ -5,5 +5,6 @@
 //
 
 @protocol PaymentSheetProtocol
+- (void)y;
 @end
 

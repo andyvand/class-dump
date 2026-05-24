@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureStreamsMapper, NSArray, NSDictionary, NSMutableArray, NSString;
-
 @interface BWFigCaptureDevice
 {
     struct OpaqueFigCaptureDevice *_device;
-    long long _uniqueID;
-    NSString *_deviceID;
-    NSDictionary *_supportedProperties;
-    NSDictionary *_streamsByPortType;
-    NSArray *_streams;
-    BWFigCaptureStreamsMapper *_streamsMapper;
-    NSArray *_synchronizedStreamsGroups;
-    NSArray *_figCaptureSynchronizedStreamsGroups;
-    NSMutableArray *_activeProcessingSessions;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _lock;
-    unsigned int _ktraceCodePrefix;
-    NSString *_loggingPrefix;
 }
 
 + (void):didBecomeLiveForInput:] /* Error: Ran out of types for this method. */;
@@ -30,13 +15,13 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)+;
 - (id);
 - (int);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id)";
@@ -48,28 +33,16 @@
 ÿèëÿëëÿëìÿ^Ûdÿ_Ûdÿ`ÛdÿaÛcÿcÛcÿfÜbÿhÜaÿlÜaÿoÜ_ÿtÝ^ÿxÝ]ÿ}Ý[ÿÞYÿÞWÿßTÿàRÿàOÿáLÿ¦âGÿ¬ãDÿ³ä?ÿ¹å;ÿÀæ6ÿÈç1ÿÎè-ÿÕé)ÿÛê%ÿáë"ÿåë!ÿéì!ÿëì"ÿìí%ÿ;
 - (id)ÚÚÿÚÛÿ2ÛÛÿGÛÛÿYÜÜÿgÜÜÿtÜÜÿÜÝÿÝÝÿÝÝÿ£ÝÝÿ­ÞÞÿ·ÞÞÿÂÞÞÿÌßßÿÖßßÿßßßÿçÞÞÿïÝÝÿøÝÝÿÿÝÝÿÿÝÝÿ;
 - (id);
-- (void)CaptureSourcesAndCreateDevices_block_invoke;
+- (void)captureSession_activateCameraCaptureSourcesAndCreateDevices_block_invoke;
 - (id)mingNode error:(struct __CFString *)arg1 &error];
 - (int)block_invoke;
 - (id)ScaleRecoveryMinScalingFactor;
 - (id)aFunnelNode.inputs[metadataFunnelNodeInputIndex++] pipelineStage:(struct __CFString *)arg1 pipelineStage];
 - (id)Invalid tag -- aborting;
-- (id)on;
-- (int)wLightBandingMitigationEnabled;
+- (id)_registration;
+- (int)temporalFilterLowLightBandingMitigationEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool invalidated;
-@property(readonly) NSArray *streams; // @synthesize streams=_streams;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *supportedProperties; // @synthesize supportedProperties=_supportedProperties;
-@property(readonly) NSArray *synchronizedStreamsGroups; // @synthesize synchronizedStreamsGroups=_synchronizedStreamsGroups;
 @property(readonly) long long uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

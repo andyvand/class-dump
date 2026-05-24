@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol EQKitLayoutSchemataRow
+- (NSArray *)[sharedListeningToken is unknown type:%@] /* Error: Ran out of types for this method. */;
 @end
 

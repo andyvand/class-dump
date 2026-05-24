@@ -6,14 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSParallelRandomMTGP32;
-
 @interface MPSCNNDropout : MPSCNNKernel
 {
     float _keepProbability;
-    unsigned long long _seed;
-    CDStruct_da2e99ad _maskStrideInPixels;
-    MPSParallelRandomMTGP32 *_parallelGenerator;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -22,11 +17,11 @@
 - (CDStruct_14f26992);
 - (id);
 - (id);
-- (float);
+- (float)Sk	K{;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)j ;
 - (id);
 - (id);
 - (id);
@@ -38,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float keepProbability; // @synthesize keepProbability=_keepProbability;
-@property(readonly, nonatomic) CDStruct_14f26992 maskStrideInPixels; // @synthesize maskStrideInPixels=_maskStrideInPixels;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

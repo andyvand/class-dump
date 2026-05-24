@@ -6,36 +6,31 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString, SAUIImageResource;
+@class SAUIImageResource;
 
 @interface SAUITemplateButton : SAUITemplateBaseItem
 {
 }
 
 + (id);
-+ (id)EATER;
++ (id)HOME_THEATER;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)P;
+- (id);
+- (id);
+- (void)#;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIImageResource *backgroundImage;
-@property(copy, nonatomic) NSString *backgroundImageStyle;
-@property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSNumber *generateForegroundAppSearchButtonLabel;
-@property(copy, nonatomic) NSDictionary *highlightedTitles;
-@property(copy, nonatomic) NSDictionary *titles;
 
 @end
 

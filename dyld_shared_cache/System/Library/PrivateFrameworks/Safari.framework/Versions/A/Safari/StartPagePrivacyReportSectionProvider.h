@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, PrivacyReportStartPageViewItem, StartPagePrivacyReportRedesignViewItem, WBSPrivacyReportData;
-@protocol StartPageCollectionSectionProviderDelegate;
+@class PrivacyReportStartPageViewItem;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivacyReportSectionProvider
 {
     PrivacyReportStartPageViewItem *_privacyReportViewTemplateItem;
-    long long _numberOfTrackers;
-    _Bool _needsReload;
-    WBSPrivacyReportData *_privacyReportData;
-    NSString *_profileIdentifier;
-    StartPagePrivacyReportRedesignViewItem *_privacyReportRedesignViewTemplateItem;
-    _Bool _usesPrivateBrowsing;
-    _Bool _usesCompactAppearance;
-    NSString *_identifier;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
 }
 
 - (_Bool);
@@ -41,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long).;
 - (id);
 - (void);
 - (id);
@@ -58,28 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setCachedNumberOfTrackers:) long long _cachedNumberOfTrackers;
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.SavedFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
 }
 
 @end

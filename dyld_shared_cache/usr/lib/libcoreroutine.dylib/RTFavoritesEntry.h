@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTContact;
+@class RTContact;
 
 @interface RTFavoritesEntry
 {
     RTContact *_contact;
-    NSString *_value;
 }
 
-- (id);
-- (id);
+- (id)_metadata;
+- (id)candidatePairToken %@, linkID:%@, baseRequestTimeStampInMS:%u, requestTimeStampAndRTTs count:%lu, requestTimeStampAndRTTs:%@ ... /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)imum prediction window %fs;
 
 // Remaining properties
 @property(readonly, nonatomic) RTContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

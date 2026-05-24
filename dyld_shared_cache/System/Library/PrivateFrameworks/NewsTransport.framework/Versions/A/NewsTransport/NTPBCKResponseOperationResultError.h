@@ -4,63 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBCKResponseOperationResultErrorClient, NTPBCKResponseOperationResultErrorExtension, NTPBCKResponseOperationResultErrorServer;
+@class NTPBCKResponseOperationResultErrorClient;
 
 @interface NTPBCKResponseOperationResultError
 {
     NTPBCKResponseOperationResultErrorClient *_clientError;
-    NSString *_errorDescription;
-    NSString *_errorKey;
-    NTPBCKResponseOperationResultErrorExtension *_extensionError;
-    int _retryAfterSeconds;
-    NTPBCKResponseOperationResultErrorServer *_serverError;
-    struct {
-        unsigned int retryAfterSeconds:1;
-    } _has;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (int);
-- (void);
-- (id);
+- (void)setPlaceholderAttributes:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)eAppWithIdentity:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
+- (void)0;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)setUnencryptedFields: /* Error: Ran out of types for this method. */;
+- (_Bool)x;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void)csScoreCoefficient;
-- (_Bool)zationData;
-- (void)onentType;
-- (id)nChannels: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)hasUserOnboardingResume;
+- (void)hasSubscribedTopicsScoreCoefficient;
+- (_Bool)hasRapidUpdatePersonalizationData;
+- (void)hasAnfComponentType;
+- (id)addRecommendedNotificationChannels: /* Error: Ran out of types for this method. */;
 - (id)stemReloadJitterMax;
-- (void)CHASE_TYPE;
+- (void)UNKNOWN_PURCHASE_TYPE;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBCKResponseOperationResultErrorClient *clientError; // @synthesize clientError=_clientError;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(retain, nonatomic) NSString *errorKey; // @synthesize errorKey=_errorKey;
-@property(retain, nonatomic) NTPBCKResponseOperationResultErrorExtension *extensionError; // @synthesize extensionError=_extensionError;
 @property(readonly, nonatomic) _Bool hasClientError;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
-@property(readonly, nonatomic) _Bool hasErrorKey;
-@property(readonly, nonatomic) _Bool hasExtensionError;
-@property(nonatomic) _Bool hasRetryAfterSeconds;
-@property(readonly, nonatomic) _Bool hasServerError;
-@property(nonatomic) int retryAfterSeconds; // @synthesize retryAfterSeconds=_retryAfterSeconds;
-@property(retain, nonatomic) NTPBCKResponseOperationResultErrorServer *serverError; // @synthesize serverError=_serverError;
 
 @end
 

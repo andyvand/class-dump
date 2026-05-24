@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXSectionedObjectReference;
-
 @interface PXFeedHitTestResult
 {
     CDUnknownBlockType _primaryAction;
-    CDUnknownBlockType _touchAction;
-    CDUnknownBlockType _hoverAction;
-    CDUnknownBlockType _presentMenuAction;
-    PXSectionedObjectReference *_objectReference;
-    struct PXSimpleIndexPath _dataSourceIndexPath;
 }
 
 - (id);
@@ -33,12 +26,7 @@
 - (void)AppleMusicPrivacyTipModifier;
 
 // Remaining properties
-@property(nonatomic) struct PXSimpleIndexPath dataSourceIndexPath; // @synthesize dataSourceIndexPath=_dataSourceIndexPath;
-@property(readonly, nonatomic) CDUnknownBlockType hoverAction; // @synthesize hoverAction=_hoverAction;
-@property(readonly, nonatomic) PXSectionedObjectReference *objectReference; // @synthesize objectReference=_objectReference;
-@property(readonly, nonatomic) CDUnknownBlockType presentMenuAction; // @synthesize presentMenuAction=_presentMenuAction;
 @property(readonly, nonatomic) CDUnknownBlockType primaryAction; // @synthesize primaryAction=_primaryAction;
-@property(readonly, nonatomic) CDUnknownBlockType touchAction; // @synthesize touchAction=_touchAction;
 
 @end
 

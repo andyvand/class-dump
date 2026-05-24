@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSXPCConnection, UARPController;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSXPCConnection;
 
 @interface UARPControllerXPC
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    NSError *_lastProviderError;
-    CDUnknownBlockType _providerErrorReply;
-    NSObject<OS_os_log> *_xpcLog;
-    UARPController *_controller;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)=%u/qos=%u/i=%u>;
 - (void);
 - (void);
 - (id);
@@ -29,31 +23,30 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)_createPurchasePromiseForTask:(id)arg1 purchase:(id)arg2;
+- (_Bool)",C,N,V_keychainAccessGroup;
+- (_Bool)lastRestrictedRegionSyncTimestamp;
+- (id);
+- (_Bool)`;
+- (_Bool);
+- (id);
+- (id)	(K;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool)*8M;
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)s/AppleMediaServices.framework/Versions/A/AppleMediaServices;
 
 // Remaining properties
-@property(readonly) _Bool useAssetAvailabilityNotifications;
 @property(readonly) NSXPCConnection *xpcConnection;
 
 @end

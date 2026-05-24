@@ -11,7 +11,7 @@
 }
 
 + (unsigned long long);
-- (unsigned short);
+- (unsigned short)set_didRegisterWindowDidMiniaturizeNotification: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);

@@ -10,7 +10,7 @@
 
 @optional
 - (UIPointerStyle *)GPoint=dd}{CGSize=dd}}40@0:(UIPointerInteraction *)arg1 8r^v16Q24Q32;
-- (void)etState;
+- (void)PKTextInputTargetState;
 - (void)ð;
 @end
 

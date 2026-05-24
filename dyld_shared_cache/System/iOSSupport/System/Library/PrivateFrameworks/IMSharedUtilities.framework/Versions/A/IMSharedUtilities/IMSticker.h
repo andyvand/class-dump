@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAdaptiveImageGlyph, NSArray, NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface IMSticker
 {
     NSURL *_fileURL;
-    NSString *_stickerGUID;
-    NSString *_stickerPackGUID;
-    NSString *_accessibilityLabel;
-    NSString *_adaptiveImageGlyphContentIdentifier;
-    NSString *_adaptiveImageGlyphContentDescription;
-    NSString *_moodCategory;
-    NSString *_stickerName;
-    NSString *_textToSpeechName;
-    NSArray *_representations;
-    NSString *_externalURI;
-    NSURL *_animatedImageCacheURLFromExtension;
-    NSData *_recipe;
-    NSString *_ballonBundleID;
-    NSDictionary *_attributionInfo;
-    NSString *_accessibilityName;
-    NSString *_searchText;
-    NSString *_sanitizedPrompt;
-    NSString *_uniqueID;
-    NSAdaptiveImageGlyph *_cachedAdaptiveImageGlyphForSkippingPreviewGenerationOnly;
-    long long _stickerEffectType;
-    NSData *_metadata;
-    unsigned long long _initialFrameIndex;
 }
 
 @end

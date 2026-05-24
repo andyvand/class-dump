@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBVoiceCommandDeviceInformation
 {
     struct {
         unsigned int deviceIdiom:1;
         unsigned int isHomePodInUltimateMode:1;
     } _has;
-    _Bool _isHomePodInUltimateMode;
-    int _deviceIdiom;
 }
 
 + (_Bool);
@@ -29,25 +25,15 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)D5;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int deviceIdiom; // @synthesize deviceIdiom=_deviceIdiom;
-@property(nonatomic) _Bool hasDeviceIdiom;
-@property(nonatomic) _Bool hasIsHomePodInUltimateMode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHomePodInUltimateMode; // @synthesize isHomePodInUltimateMode=_isHomePodInUltimateMode;
-@property(readonly) Class superclass;
 
 @end
 

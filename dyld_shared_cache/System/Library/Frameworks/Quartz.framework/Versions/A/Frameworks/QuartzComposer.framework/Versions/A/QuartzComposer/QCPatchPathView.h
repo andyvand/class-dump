@@ -11,7 +11,7 @@
     void *_unused2[4];
 }
 
-+ (_Bool);
++ (_Bool)ork/Versions/A/RemoteXPC;
 + (void)0YRy9B_ZwVkS7juaIavArBNMOk/Library/Caches/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Utils/C3DUtils.c;
 - (void);
 - (void);

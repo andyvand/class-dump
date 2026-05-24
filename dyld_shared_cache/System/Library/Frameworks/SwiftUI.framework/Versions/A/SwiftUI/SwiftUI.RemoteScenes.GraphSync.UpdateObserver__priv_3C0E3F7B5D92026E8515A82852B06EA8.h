@@ -7,8 +7,6 @@
 @interface SwiftUI.RemoteScenes.GraphSync.UpdateObserver__priv_3C0E3F7B5D92026E8515A82852B06EA8
 {
     id remoteEnvironment;
-    id remotePreferences;
-    id seed;
 }
 
 @end

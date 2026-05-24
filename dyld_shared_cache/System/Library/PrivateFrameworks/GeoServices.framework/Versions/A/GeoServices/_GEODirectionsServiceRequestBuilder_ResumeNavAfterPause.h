@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)ivateFrameworks/ContactsAccounts.framework/Versions/A/ContactsAccounts;
 - (int);
 
 @end

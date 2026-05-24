@@ -7,6 +7,7 @@
 @interface hvf.CustomLoaderTrampoline
 {
     id closure;
+    id;
 }
 
 @end

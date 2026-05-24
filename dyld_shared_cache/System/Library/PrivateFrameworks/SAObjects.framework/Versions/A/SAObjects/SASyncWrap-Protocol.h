@@ -7,6 +7,8 @@
 @class NSNumber;
 
 @protocol SASyncWrap
+- (NSNumber *)s
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *generation;

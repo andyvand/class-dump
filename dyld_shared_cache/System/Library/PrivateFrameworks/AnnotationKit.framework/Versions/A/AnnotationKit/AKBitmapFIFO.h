@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 @interface AKBitmapFIFO
 {
     char *_bitmapDataPtr;
-    struct CGContext *_bitmapContext;
-    struct CGImage *_bitmapImage;
-    struct CGPath *_cachedPath;
-    NSView *_view;
-    _Bool _isInLiveDraw;
-    _Bool _bitmapSizeHasBeenUpdatedOnceForLiveDraw;
-    double _bitmapSizeMultiplier;
-    double _shadowRadiusInView;
-    struct CGSize _bitmapSize;
-    id _lastPoint;
-    struct CGRect _unionDirtyRect;
-    struct CGAffineTransform _viewToBitmapTransform;
 }
 
 - (struct CGAffineTransform);
@@ -37,7 +23,7 @@
 - (struct CGPath *);
 - (_Bool);
 - (struct CGImage *);
-- (double);
+- (double);
 - (_Bool);
 - (struct CGSize);
 - (struct CGRect);
@@ -56,22 +42,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_shouldUpdateMarkupWithStyle:onPage:forIndexSet: /* Error: Ran out of types for this method. */;
+- (void)o;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property struct CGSize bitmapSize; // @synthesize bitmapSize=_bitmapSize;
-@property _Bool bitmapSizeHasBeenUpdatedOnceForLiveDraw; // @synthesize bitmapSizeHasBeenUpdatedOnceForLiveDraw=_bitmapSizeHasBeenUpdatedOnceForLiveDraw;
-@property double bitmapSizeMultiplier; // @synthesize bitmapSizeMultiplier=_bitmapSizeMultiplier;
-@property(nonatomic) _Bool isInLiveDraw; // @synthesize isInLiveDraw=_isInLiveDraw;
-@property id lastPoint; // @synthesize lastPoint=_lastPoint;
-@property double shadowRadiusInView; // @synthesize shadowRadiusInView=_shadowRadiusInView;
-@property struct CGRect unionDirtyRect; // @synthesize unionDirtyRect=_unionDirtyRect;
-@property(retain, nonatomic) NSView *view; // @synthesize view=_view;
-@property struct CGAffineTransform viewToBitmapTransform; // @synthesize viewToBitmapTransform=_viewToBitmapTransform;
 
 @end
 

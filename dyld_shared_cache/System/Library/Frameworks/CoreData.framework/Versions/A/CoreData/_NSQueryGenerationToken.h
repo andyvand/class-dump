@@ -6,33 +6,24 @@
 
 #import <CoreData/NSQueryGenerationToken.h>
 
-@class NSString, _PFWeakReference;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSQueryGenerationToken : NSQueryGenerationToken
 {
     NSString *_storeIdentifier;
-    _PFWeakReference *_store;
-    id _generationIdentifier;
-    struct _queryGenerationFlags {
-        unsigned int _isCompound:1;
-        unsigned int _isSingleton:1;
-        unsigned int _freeValueOnDealloc:1;
-        unsigned int _isUnmoored:1;
-        unsigned int _reservedFlags:12;
-    } _flags;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (oneway void);
+- (oneway void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 
 @end

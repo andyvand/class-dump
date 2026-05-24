@@ -5,5 +5,7 @@
 //
 
 @protocol SXScrollReporting
+- (void);
+- (void);
 @end
 

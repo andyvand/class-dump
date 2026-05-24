@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)reflectGroupMutation:toPushToken:callerID:didOccurLocally: /* Error: Ran out of types for this method. */;
 
 @end
 

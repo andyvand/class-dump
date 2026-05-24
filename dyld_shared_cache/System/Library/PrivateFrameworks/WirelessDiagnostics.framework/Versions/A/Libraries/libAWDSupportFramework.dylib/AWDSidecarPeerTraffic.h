@@ -4,35 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDSidecarPeerTraffic
 {
     unsigned long long _txErrorCount;
-    unsigned long long _txExpiredCount;
-    unsigned long long _txSuccessCount;
-    NSMutableArray *_rxDataRates;
-    NSMutableArray *_rxFWDelays;
-    NSMutableArray *_rxIPCDelays;
-    NSMutableArray *_rxRSSIs;
-    NSMutableArray *_rxTotalDelays;
-    NSMutableArray *_txCCAs;
-    NSMutableArray *_txDataRates;
-    NSMutableArray *_txFWDelays;
-    NSMutableArray *_txHWDelays;
-    NSMutableArray *_txIPCDelays;
-    NSMutableArray *_txPacketBurstIntervals;
-    NSMutableArray *_txPacketBurstSizes;
-    NSMutableArray *_txRetries;
-    NSMutableArray *_txTotalDelays;
-    struct {
-        unsigned int txErrorCount:1;
-        unsigned int txExpiredCount:1;
-        unsigned int txSuccessCount:1;
-    } _has;
 }
 
 + (Class);
++ (Class)%;
 + (Class);
 + (Class);
 + (Class);
@@ -41,8 +19,7 @@
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
++ (Class)T;
 + (Class);
 + (Class);
 + (Class);
@@ -53,27 +30,27 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)	;
+- (id)NH ;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)n@an@;
+- (id)	_;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -82,7 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,7 +71,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)H;
 - (unsigned long long);
 - (id);
 - (id);
@@ -125,8 +102,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -140,40 +117,21 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTxErrorCount;
-@property(nonatomic) _Bool hasTxExpiredCount;
 @property(nonatomic) _Bool hasTxSuccessCount;
-@property(retain, nonatomic) NSMutableArray *rxDataRates; // @synthesize rxDataRates=_rxDataRates;
-@property(retain, nonatomic) NSMutableArray *rxFWDelays; // @synthesize rxFWDelays=_rxFWDelays;
-@property(retain, nonatomic) NSMutableArray *rxIPCDelays; // @synthesize rxIPCDelays=_rxIPCDelays;
-@property(retain, nonatomic) NSMutableArray *rxRSSIs; // @synthesize rxRSSIs=_rxRSSIs;
-@property(retain, nonatomic) NSMutableArray *rxTotalDelays; // @synthesize rxTotalDelays=_rxTotalDelays;
-@property(retain, nonatomic) NSMutableArray *txCCAs; // @synthesize txCCAs=_txCCAs;
-@property(retain, nonatomic) NSMutableArray *txDataRates; // @synthesize txDataRates=_txDataRates;
-@property(nonatomic) unsigned long long txErrorCount; // @synthesize txErrorCount=_txErrorCount;
-@property(nonatomic) unsigned long long txExpiredCount; // @synthesize txExpiredCount=_txExpiredCount;
-@property(retain, nonatomic) NSMutableArray *txFWDelays; // @synthesize txFWDelays=_txFWDelays;
-@property(retain, nonatomic) NSMutableArray *txHWDelays; // @synthesize txHWDelays=_txHWDelays;
-@property(retain, nonatomic) NSMutableArray *txIPCDelays; // @synthesize txIPCDelays=_txIPCDelays;
-@property(retain, nonatomic) NSMutableArray *txPacketBurstIntervals; // @synthesize txPacketBurstIntervals=_txPacketBurstIntervals;
-@property(retain, nonatomic) NSMutableArray *txPacketBurstSizes; // @synthesize txPacketBurstSizes=_txPacketBurstSizes;
-@property(retain, nonatomic) NSMutableArray *txRetries; // @synthesize txRetries=_txRetries;
-@property(nonatomic) unsigned long long txSuccessCount; // @synthesize txSuccessCount=_txSuccessCount;
-@property(retain, nonatomic) NSMutableArray *txTotalDelays; // @synthesize txTotalDelays=_txTotalDelays;
 
 @end
 

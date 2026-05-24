@@ -6,22 +6,11 @@
 
 #import <TSUtility/SFUDataRepresentation.h>
 
-@class SFUCryptoKey;
 @protocol SFUZipArchiveDataRepresentation;
 
 @interface SFUZipEntry : SFUDataRepresentation
 {
     SFUDataRepresentation<SFUZipArchiveDataRepresentation> *mArchiveDataRepresentation;
-    int mCompressionMethod;
-    unsigned long long mCompressedSize;
-    unsigned long long mUncompressedSize;
-    unsigned long long mOffset;
-    unsigned int mCrc;
-    unsigned long long mDataOffset;
-    _Bool mHasDataOffset;
-    unsigned long long mEncodedLength;
-    _Bool mHasEncodedLength;
-    SFUCryptoKey *mCryptoKey;
 }
 
 - (void);
@@ -29,18 +18,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)}32;
+- (_Bool)allowWhitespaceInFormulas;
 - (id);
 - (long long);
 - (id);

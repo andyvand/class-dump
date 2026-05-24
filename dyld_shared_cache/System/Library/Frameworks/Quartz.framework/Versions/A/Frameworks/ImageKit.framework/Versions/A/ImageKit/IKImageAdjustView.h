@@ -6,20 +6,11 @@
 
 #import <ImageKit/IKImageEditView.h>
 
-@class IKAdjustSlider, IKFilterChain, IKImageAdjust, NSButton;
+@class IKImageAdjust;
 
 @interface IKImageAdjustView : IKImageEditView
 {
     IKImageAdjust *_imageAdjust;
-    IKFilterChain *_filterChain;
-    IKAdjustSlider *_exposureSlider;
-    IKAdjustSlider *_contrastSlider;
-    IKAdjustSlider *_saturationSlider;
-    IKAdjustSlider *_temperatureSlider;
-    IKAdjustSlider *_tintSlider;
-    IKAdjustSlider *_sepiaSlider;
-    IKAdjustSlider *_sharpnessSlider;
-    NSButton *_resetAll;
 }
 
 + (id);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)cleanupDeviceWithErrorCode:(_Bool)arg1 completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)ew]-(0@250)-|;

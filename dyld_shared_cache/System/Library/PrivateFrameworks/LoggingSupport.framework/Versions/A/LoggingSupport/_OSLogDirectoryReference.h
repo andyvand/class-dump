@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _OSLogDirectoryReference
 {
     int _fd;
-    long long _etk;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (int);
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int fileDescriptor;

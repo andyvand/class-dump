@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDiscoveryItem;
+@class NSString;
 
 @interface PKDiscoveryShelf
 {
     NSString *_itemIdentifier;
-    PKDiscoveryItem *_item;
-    long long _type;
 }
 
 + (id);
@@ -23,13 +21,12 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)hasUpgradeSuccessAndPrimaryCount;
+- (void)?k;
 - (void);
 - (void)aymentRequest:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak PKDiscoveryItem *item; // @synthesize item=_item;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

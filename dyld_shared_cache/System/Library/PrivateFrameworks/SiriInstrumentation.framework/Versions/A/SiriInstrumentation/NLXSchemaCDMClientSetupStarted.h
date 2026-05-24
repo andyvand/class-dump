@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMClientSetupStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _serviceGraphName;
-    _Bool _performWarmupOperations;
-    int _memoryPressure;
-    struct {
-        unsigned int exists:1;
-        unsigned int serviceGraphName:1;
-        unsigned int performWarmupOperations:1;
-        unsigned int memoryPressure:1;
-    } _has;
 }
 
 - (void);
@@ -35,16 +24,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
-- (void);
+- (void)CoreUpdate delegate method %s called;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)B7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs7/pk7_smime.c;
+- (unsigned long long)!;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)!¸@ùñÞ1Â0@ù
 × ;
 - (id)esourceDownloadContext;
@@ -55,14 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasMemoryPressure;
-@property(nonatomic) _Bool hasPerformWarmupOperations;
-@property(nonatomic) _Bool hasServiceGraphName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int memoryPressure; // @synthesize memoryPressure=_memoryPressure;
-@property(nonatomic) _Bool performWarmupOperations; // @synthesize performWarmupOperations=_performWarmupOperations;
-@property(nonatomic) int serviceGraphName; // @synthesize serviceGraphName=_serviceGraphName;
 
 @end
 

@@ -12,9 +12,9 @@
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (void);
-+ (void);
++ (id)4;
++ (void);
++ (void)3;
 + (void);
 
 @end

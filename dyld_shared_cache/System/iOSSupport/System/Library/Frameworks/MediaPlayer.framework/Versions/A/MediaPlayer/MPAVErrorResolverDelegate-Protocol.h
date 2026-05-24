@@ -5,5 +5,8 @@
 //
 
 @protocol MPAVErrorResolverDelegate
+
+@optional
+- (void);
 @end
 

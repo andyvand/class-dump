@@ -5,30 +5,20 @@
 //
 
 @class NSString;
-@protocol IAMEventProtocol;
 
 @interface IAMReceivedEventTriggerContext
 {
     NSString *_bundleIdentifier;
-    id <IAMEventProtocol> _event;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <IAMEventProtocol> event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

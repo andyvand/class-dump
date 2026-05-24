@@ -7,14 +7,13 @@
 @interface WidgetKit.ModifyControlStateRequest
 {
     id control;
-    id state;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)UncertaintyY:(id)arg1 deltaPositionUncertaintyZ:deviceLocation:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

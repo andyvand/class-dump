@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NURegion, NURenderNode;
-@protocol NUBufferImage, NUMutableBufferImage, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PIInpaintCacheNode
 {
     NSObject<OS_dispatch_queue> *_inpaintQueue;
-    id <NUMutableBufferImage> _inputImage;
-    id <NUBufferImage> _outputImage;
-    NURegion *_inputRegion;
-    NURegion *_outputRegion;
-    NSArray *_operations;
-    NSString *_cacheKey;
-    long long _sourceOrientation;
-    _Bool _sourceIsHDR;
 }
 
 + (id);
@@ -35,18 +27,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id));
 - (id);
-- (id);
-- (CDStruct_996ac03c);
-- (CDStruct_996ac03c);
-- (CDStruct_996ac03c);
-- (void);
+- (CDStruct_0973877e)(;
+- (CDStruct_0973877e);
+- (CDStruct_0973877e);
+- (void)';
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -56,7 +48,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ientationAsMetadata: /* Error: Ran out of types for this method. */;
+- (void)setApplyOrientationAsMetadata: /* Error: Ran out of types for this method. */;
 - (long long)chroma, s.a);
 }
 kernel vec4 rgb_color_wash_variable(__sample s, __color c) {
@@ -164,9 +156,7 @@ return vec4(cw, s.a);
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NURenderNode *inpaintInputNode;
 @property(readonly, nonatomic) long long padding;
-@property(readonly, nonatomic) _Bool shouldCacheIntermediates;
 
 @end
 

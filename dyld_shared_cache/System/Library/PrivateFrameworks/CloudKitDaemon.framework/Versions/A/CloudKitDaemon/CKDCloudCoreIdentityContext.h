@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAccount, NSString, NSUUID;
-@protocol CKDPCSIdentityChangeWatcher;
+@class NSUUID;
 
 @interface CKDCloudCoreIdentityContext
 {
     NSUUID *_token;
-    CKDAccount *_account;
-    NSString *_service;
-    id <CKDPCSIdentityChangeWatcher> _delegate;
 }
 
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (void);
@@ -27,9 +23,6 @@
 - (void)¦;
 
 // Remaining properties
-@property(retain, nonatomic) CKDAccount *account; // @synthesize account=_account;
-@property(nonatomic) __weak id <CKDPCSIdentityChangeWatcher> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *service; // @synthesize service=_service;
 @property(retain, nonatomic) NSUUID *token; // @synthesize token=_token;
 
 @end

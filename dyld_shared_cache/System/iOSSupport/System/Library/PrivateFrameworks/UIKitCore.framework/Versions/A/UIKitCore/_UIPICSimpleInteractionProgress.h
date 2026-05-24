@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (_Bool)initWithSectionedIdentifierList:randomSource:startingItemEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 - (void)! @ù±c°1Â0@ù
 × ;
 

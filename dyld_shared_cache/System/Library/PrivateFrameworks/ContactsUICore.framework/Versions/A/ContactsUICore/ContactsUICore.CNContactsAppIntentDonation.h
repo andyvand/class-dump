@@ -7,11 +7,10 @@
 @interface ContactsUICore.CNContactsAppIntentDonation
 {
     id identifier;
-    id contactIdentifier;
 }
 
 - (id);
-- (void)Context: /* Error: Ran out of types for this method. */;
+- (void)saveContactInStore:group:container:request:authorizationContext: /* Error: Ran out of types for this method. */;
 
 @end
 

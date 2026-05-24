@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol PMLTransformerProtocol;
 
 @interface SGConversationFlatteningTransformer
@@ -13,23 +13,17 @@
 }
 
 + (id);
-- (id);
-- (id);
+- (id)dataWithBytesNoCopy:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)_lp_simplifiedURLStringForFuzzyMatching;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void)¸;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

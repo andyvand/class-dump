@@ -7,13 +7,6 @@
 @interface CoreCDPUI.ADPUpsellViewModel
 {
     id _isWalrusEnabled;
-    id _walrusUnavailableInCurrentRegionMessage;
-    id _alertState;
-    id context;
-    id urlBag;
-    id reachabilityProvider;
-    id _delegate;
-    id _$observationRegistrar;
 }
 
 - (void);

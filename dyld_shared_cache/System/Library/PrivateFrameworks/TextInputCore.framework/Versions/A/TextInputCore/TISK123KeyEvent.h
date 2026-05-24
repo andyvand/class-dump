@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)isEmergencyRTTSupported;
+- (id)ce %@:(id)arg1 %@;
 - (id);
 
 @end

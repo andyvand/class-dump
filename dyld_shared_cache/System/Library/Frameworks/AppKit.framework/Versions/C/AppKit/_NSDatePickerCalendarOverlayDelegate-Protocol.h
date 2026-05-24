@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _NSDatePickerCalendarOverlay;
+
 @protocol _NSDatePickerCalendarOverlayDelegate
+- (void)a;
+- (void)setNetworkUploadSize:(_NSDatePickerCalendarOverlay *)arg1;
 @end
 

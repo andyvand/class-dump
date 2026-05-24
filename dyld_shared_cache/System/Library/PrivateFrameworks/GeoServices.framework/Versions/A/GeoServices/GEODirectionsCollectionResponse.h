@@ -9,19 +9,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)setHasPrefixMatchPosition:(id)arg1;
 - (void);
 - (id);
 - (id);
+- (void)setIsPhraseSpotterBypassed:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)setHasDiscreteFeatureValuesAvailable:(struct _NSZone *)arg1;
 - (id)!;
-- (id)ion_ReportIncidentAction;
+- (id)MapLaunchAction_ReportIncidentAction;
 - (id)`à;
 
 @end

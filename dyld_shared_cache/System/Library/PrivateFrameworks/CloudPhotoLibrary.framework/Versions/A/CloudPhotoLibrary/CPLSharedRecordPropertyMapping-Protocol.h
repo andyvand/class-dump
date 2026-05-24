@@ -5,5 +5,7 @@
 //
 
 @protocol CPLSharedRecordPropertyMapping
+- (_Bool)commute25MinWarningEntityRelevanceUserFocusModeAndCoarseTimeOfDayFeatures;
+- (_Bool)commute25MinWarningEntityRelevanceTimeOfDayFeatures;
 @end
 

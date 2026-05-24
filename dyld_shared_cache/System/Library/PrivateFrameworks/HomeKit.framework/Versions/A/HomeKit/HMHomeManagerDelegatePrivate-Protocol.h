@@ -4,6 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager, NSArray, NSSet, NSString;
+
 @protocol HMHomeManagerDelegatePrivate
+
+@optional
+- (void)_updateIsReady:(HMHomeManager *)arg1 isWaitingOnImport:statusMessage: /* Error: Ran out of types for this method. */;
+- (void)_updateIsOTARestoreFinished:(HMHomeManager *)arg1 statusMessage: /* Error: Ran out of types for this method. */;
+- (void)_updateInferredTimeZoneOffsetWithChangedValues:(HMHomeManager *)arg1;
+- (void)_updateIncrementalMomentGeneration;
+- (void)setsDirectory:(HMHomeManager *)arg1 destinationAlbum: /* Error: Ran out of types for this method. */;
+- (void)_updateImportedSavedAssetTypeForFileSystemImportedAsset:(HMHomeManager *)arg1 type:importAssetKind:isCPLAssetsDirectory:destinationAlbum: /* Error: Ran out of types for this method. */;
+- (void)_updateImageDataForNotification:(HMHomeManager *)arg1;
+- (void)_updateHighlightProperties:(HMHomeManager *)arg1 fromHighlightCluster:(NSArray *)arg2;
+- (void)_updateHighlightItemsOrdering;
+- (void)_updateGroupMembershipFromEdges:(HMHomeManager *)arg1 mergeTarget:(long long)arg2 error:(NSString *)arg3;
+- (void)_updateExternalWaiterStatus;
+- (void)_updateEdgeLabelsIfNeededForEdge:(HMHomeManager *)arg1 expectedLabel:(_Bool)arg2;
+- (void)_updateDuplicateProcessingStatusIfNeededWithStatus:(HMHomeManager *)arg1 shouldSave:(_Bool)arg2 managedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)ap:(HMHomeManager *)arg1;
+- (void)_updateDuplicateAssetOIDResults:(HMHomeManager *)arg1 forHash:(NSSet *)arg2 relatedProcessedHashOIDMap:oidHashMap: /* Error: Ran out of types for this method. */;
+- (void)_updateDuplicateAssetOIDResults:(HMHomeManager *)arg1 forAssetOID:(_Bool)arg2 relatedProcessedHashOIDMap:oidHashMap: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)initWithCandidate:(HMHomeManager *)arg1 forInput:rawInput:sourceMask: /* Error: Ran out of types for this method. */;
+- (void)recent call with remote participant handles %@ since it has a nil unique ID;
 @end
 

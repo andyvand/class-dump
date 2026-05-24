@@ -4,56 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEAOVPN, NEAppPush, NEContentFilter, NEDNSProxy, NEDNSSettingsBundle, NEHotspot, NEPathController, NEProfileIngestionPayloadInfo, NERelayConfiguration, NEURLFilterConfiguration, NEVPN, NEVPNApp, NSArray, NSString, NSUUID;
+@class NSString;
 
 @interface NEConfiguration
 {
     _Bool _resolvedProviderMachOUUIDs;
-    long long _grade;
-    NSUUID *_identifier;
-    NSString *_application;
-    NSString *_name;
-    NSString *_applicationName;
-    NSString *_applicationIdentifier;
-    NSString *_externalIdentifier;
-    NEProfileIngestionPayloadInfo *_payloadInfo;
-    NEVPN *_VPN;
-    NEAOVPN *_alwaysOnVPN;
-    NEVPNApp *_appVPN;
-    NEContentFilter *_contentFilter;
-    NEPathController *_pathController;
-    NEDNSProxy *_dnsProxy;
-    NEDNSSettingsBundle *_dnsSettings;
-    NEAppPush *_appPush;
-    NERelayConfiguration *_relay;
-    NEURLFilterConfiguration *_urlFilter;
-    NEHotspot *_hotspot;
-    NSArray *_providerMachOUUIDs;
-    long long _appPermissionType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setIsVirtualRelayLink: /* Error: Ran out of types for this method. */;
 + (id);
-- (id);
+- (id)serBTLEManager={__CFRuntimeBase=QAQ}@}32;
+- (void)llPacketExpiryDropThresholdMs;
+- (id);K;
 - (void);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id)BluetoothHCIHostBufferSize:inHostSynchronousDataPacketLength:inHostTotalNumACLDataPackets:inHostTotalNumSynchronousDataPackets: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)waitingForOpenResponse;
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -61,16 +40,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)j;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)setTotalPacketsSentOnLink:(id)arg1;
+- (_Bool);
+- (void)aceName %@ will discard existing pair:(id)arg1 %@ in %u seconds.;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -85,22 +64,22 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)`";
+- (_Bool);
+- (_Bool);
+- (id)ه;
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)_broadcastNewSessionToDaemon;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ccountInfo %@;
 - (id);
 - (id);
 - (void);
@@ -108,37 +87,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)tForLocalAuthenticationWithReason:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)t:(id)arg1 verdict:context: /* Error: Ran out of types for this method. */;
+- (void)promptForLocalAuthenticationWithReason:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)createNewFlowReply:(id)arg1 controlSocket:verdict:context: /* Error: Ran out of types for this method. */;
 - (void)º;
 - (_Bool)pe, valid type is "provider";
 - (long long)©èÿT(/ø;
 - (void)()äÿý:(id)arg1 /)Õ;
 
 // Remaining properties
-@property(copy) NEVPN *VPN; // @synthesize VPN=_VPN;
-@property(copy) NEAOVPN *alwaysOnVPN; // @synthesize alwaysOnVPN=_alwaysOnVPN;
-@property(copy) NEAppPush *appPush; // @synthesize appPush=_appPush;
-@property(copy) NEVPNApp *appVPN; // @synthesize appVPN=_appVPN;
-@property(copy) NSString *application; // @synthesize application=_application;
-@property(copy) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(copy) NEContentFilter *contentFilter; // @synthesize contentFilter=_contentFilter;
-@property(copy) NEDNSProxy *dnsProxy; // @synthesize dnsProxy=_dnsProxy;
-@property(copy) NEDNSSettingsBundle *dnsSettings; // @synthesize dnsSettings=_dnsSettings;
-@property(copy) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(readonly) long long grade; // @synthesize grade=_grade;
-@property(copy) NEHotspot *hotspot; // @synthesize hotspot=_hotspot;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isEnabled;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NEPathController *pathController; // @synthesize pathController=_pathController;
-@property(copy) NEProfileIngestionPayloadInfo *payloadInfo; // @synthesize payloadInfo=_payloadInfo;
 @property(readonly) NSString *pluginType;
-@property(copy) NERelayConfiguration *relay; // @synthesize relay=_relay;
-@property(readonly, getter=isTransparentProxy) _Bool transparentProxy;
-@property(copy) NEURLFilterConfiguration *urlFilter; // @synthesize urlFilter=_urlFilter;
-@property(readonly, nonatomic) _Bool usesPolicyBasedRouting;
 
 @end
 

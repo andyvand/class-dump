@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SSPerformEntityQueryCommand
 {
     _Bool _fromSuggestion;
-    NSArray *_searchBarButtonItems;
-    NSArray *_folderScopeURLs;
 }
 
 + (_Bool);
@@ -18,17 +14,15 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)webViewWebContentProcessDidTerminate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)text: /* Error: Ran out of types for this method. */;
+- (void)getQueryRankingConfigurationWithRanker:spotlightQuery:queryContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *folderScopeURLs; // @synthesize folderScopeURLs=_folderScopeURLs;
 @property(nonatomic) _Bool fromSuggestion; // @synthesize fromSuggestion=_fromSuggestion;
-@property(retain, nonatomic) NSArray *searchBarButtonItems; // @synthesize searchBarButtonItems=_searchBarButtonItems;
 
 @end
 

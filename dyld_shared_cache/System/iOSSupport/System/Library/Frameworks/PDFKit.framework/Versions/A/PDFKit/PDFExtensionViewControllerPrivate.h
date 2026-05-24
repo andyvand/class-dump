@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PDFSelection, PDFView;
 @protocol PDFHostProtocol;
 
 __attribute__((visibility("hidden")))
 @interface PDFExtensionViewControllerPrivate
 {
     id <PDFHostProtocol> hostProxy;
-    PDFView *pdfView;
-    struct CGSize documentViewSize;
-    NSString *searchString;
-    PDFSelection *searchSelection;
-    NSMutableArray *searchResults;
-    _Bool didCancelActiveSearch;
-    long long currentGestureState;
-    _Bool hasSelection;
-    struct CGPoint topLeftSelectionPoint;
-    struct CGPoint bottomRightSelectionPoint;
 }
 
-- (void);
+- (void);
 
 @end
 

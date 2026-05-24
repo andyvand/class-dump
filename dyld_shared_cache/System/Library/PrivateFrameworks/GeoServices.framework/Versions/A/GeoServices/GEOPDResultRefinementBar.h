@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementBar
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_resultRefinements;
 }
 
 - (id);
-- (void);
+- (void)s7;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)inateIndex"b1"has_legID"b1"has_maneuverStartCoordinateIndex"b1"has_startCoordinateIndex"b1"has_stepID"b1"has_time"b1"read_cyclingStep"b1"read_driveStep"b1"read_ferryStep"b1"read_genericStep"b1"read_guidanceEvents"b1"read_instructionWithAlternatives"b1"read_listInstruction"b1"read_roadDescriptions"b1"read_roadName"b1"read_stopWaypoint"b1"read_updateID"b1"read_walkStep"b1"wrote_anyField"b1};
-- (id)s;
+- (id)_nearbyBSSs;
 - (id)ðÆÀÇ¬ÈÉlÊ@Ë,Ì;
 - (void)jMó;
 

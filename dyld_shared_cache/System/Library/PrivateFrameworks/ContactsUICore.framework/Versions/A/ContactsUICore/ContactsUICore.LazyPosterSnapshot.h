@@ -7,9 +7,6 @@
 @interface ContactsUICore.LazyPosterSnapshot
 {
     id _snapshotGenerator;
-    id _snapshotTask;
-    id __snapshot;
-    id _$observationRegistrar;
 }
 
 @end

@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (ParsecExtras)
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)ViewSnapshot>>:(id)arg1:(_Bool)arg2 NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<WTF::WeakRef<WebKit::ViewSnapshot>>>, Traits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
++ (id)s, WTF:(id)arg1:ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<WTF::WeakRef<WebKit::ViewSnapshot>>>, Traits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)source recovery failed:(unsigned long long)arg1 Version is too old to recover the original JSON source from disk.;
+- (id)covery failed:Version is invalid. /* Error: Ran out of types for this method. */;
+- (id)F::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
+- (id)t>::get() const [T = WebKit::ViewSnapshot, WeakPtrImpl = WTF::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
+- (id)uldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)::WeakRef<WebKit::ViewSnapshot>>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::WeakRef<WebKit::ViewSnapshot>>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<WTF::WeakRef<WebKit::ViewSnapshot>>>, Traits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::WeakRef<WebKit::ViewSnapshot>>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

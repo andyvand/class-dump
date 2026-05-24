@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSNumber, NSString, NSUUID;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkProtectionGroup
 {
     struct os_unfair_lock_s _lock;
-    long long _targetProtectionMode;
-    NSString *_manufacturer;
-    NSNumber *_category;
-    NSUUID *_uuid;
-    HMDHome *_home;
 }
 
 + (_Bool)PÛ9Ð³W;
@@ -22,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (long long)streetNodes;
+- (void)shiftedCoordinateForOriginalCoordinate:(long long)arg1;
+- (void)/AppleMediaServices.framework/Versions/A/AppleMediaServices;
 - (id);
 - (id);
 - (unsigned long long);
@@ -39,23 +34,12 @@ __attribute__((visibility("hidden")))
 - (void)ials isn't on accessory %@;
 - (void)%@ message dispatcher:(id)arg1 %@;
 - (id)amera recording configuration;
-- (void)twareUpdateEventProtoSoftwareB10DescriptorCSgSg;
+- (void)So034HMSoftwareUpdateEventProtoSoftwareB10DescriptorCSgSg;
 - (void)ó£À$=;
 - (id)ÿA6	;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetProtectionMode; // @synthesize targetProtectionMode=_targetProtectionMode;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

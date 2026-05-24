@@ -10,24 +10,23 @@ __attribute__((visibility("hidden")))
 @interface MPCModelMediaClipAVItem
 {
     MPModelGenericObject *_modelGenericObject;
-    MPModelMediaClip *_mediaClip;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)initWithAccountType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)2d;
 - (void);
 - (_Bool);
 - (_Bool);

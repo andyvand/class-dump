@@ -7,9 +7,6 @@
 @interface NewsUI2.BrowseChannelsURLHandler
 {
     id patterns;
-    id navigator;
-    id featureAvailability;
-    id appConfigurationManager;
 }
 
 @end

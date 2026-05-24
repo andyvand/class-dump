@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SPLostModeInfo;
-
 @interface SPAccessoryDiscoveryPairingStatusResult
 {
     long long _pairingStatus;
-    SPLostModeInfo *_lostModeInfo;
 }
 
 + (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)IMMetricsCollectorEventSMSFilterSyncStateChangedTypeKey;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SPLostModeInfo *lostModeInfo; // @synthesize lostModeInfo=_lostModeInfo;
 @property(readonly, nonatomic) long long pairingStatus; // @synthesize pairingStatus=_pairingStatus;
 
 @end

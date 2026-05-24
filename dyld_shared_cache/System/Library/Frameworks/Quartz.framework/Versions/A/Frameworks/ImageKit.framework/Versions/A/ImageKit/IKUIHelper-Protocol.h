@@ -5,5 +5,8 @@
 //
 
 @protocol IKUIHelper
+
+@optional
+- (unsigned long long);
 @end
 

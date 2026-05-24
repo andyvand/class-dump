@@ -6,54 +6,39 @@
 
 #import <SilexWeb/SWConfiguration.h>
 
-@class NSDictionary, NSLocale, NSString, NSURL, SWFeedConfiguration, SWKeyboardConfiguration, SWLayoutGuide;
-@protocol SWLocation;
+@class NSString;
 
 @interface SWMutableConfiguration : SWConfiguration
 {
     _Bool is24HourTime;
-    _Bool supportsLiveActivities;
-    _Bool isTransitioning;
-    NSString *storeFront;
-    NSLocale *locale;
-    NSString *contentEnvironment;
-    NSString *contentSizeCategory;
-    SWLayoutGuide *layoutGuide;
-    NSDictionary *dataSources;
-    id <SWLocation> location;
-    NSURL *sourceURL;
-    NSURL *activePictureInPictureURL;
-    SWFeedConfiguration *feedConfiguration;
-    SWKeyboardConfiguration *keyboardConfiguration;
-    long long networkStatus;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id)4@0:8@"TSWPShapeLayout"16 /* Error: Ran out of types for this method. */;
+- (void)ognizer;
+- (_Bool);
 - (id);
 - (void);
+- (void);
+- (id)L;
 - (id);
-- (id);
+- (void);
+- (id)R6;
+- (id)Tracking: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -61,21 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL;
-@property(copy, nonatomic) NSString *contentEnvironment; // @synthesize contentEnvironment;
-@property(copy, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory;
-@property(copy, nonatomic) NSDictionary *dataSources; // @synthesize dataSources;
-@property(copy, nonatomic) SWFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration;
-@property(nonatomic) _Bool is24HourTime; // @synthesize is24HourTime;
-@property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning;
-@property(copy, nonatomic) SWKeyboardConfiguration *keyboardConfiguration; // @synthesize keyboardConfiguration;
-@property(copy, nonatomic) SWLayoutGuide *layoutGuide; // @synthesize layoutGuide;
-@property(copy, nonatomic) NSLocale *locale; // @synthesize locale;
-@property(copy, nonatomic) id <SWLocation> location; // @synthesize location;
-@property(nonatomic) long long networkStatus; // @synthesize networkStatus;
-@property(copy, nonatomic) NSURL *sourceURL; // @synthesize sourceURL;
 @property(copy, nonatomic) NSString *storeFront; // @synthesize storeFront;
-@property(nonatomic) _Bool supportsLiveActivities; // @synthesize supportsLiveActivities;
 
 @end
 

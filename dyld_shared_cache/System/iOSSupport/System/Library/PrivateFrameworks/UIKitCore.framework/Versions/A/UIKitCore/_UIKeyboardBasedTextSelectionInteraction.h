@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)Ð!ÀCùÑ]1Â0@ù
 × ;
 - (void)erDelegate_Private>";
-- (void)Node:(id)arg1;
-- (void)oftwareKeyboardAndAssistantView;
-- (id)mSpace:toSpace: /* Error: Ran out of types for this method. */;
-- (_Bool)tation;
+- (void)oppositeNode:(id)arg1;
+- (void)_shouldSuppressSoftwareKeyboardAndAssistantView;
+- (id)_shapeByConvertingFromSpace:toSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)_affectsScreenOrientation;
 - (void)in hiding overlay scrollers...;
 - (_Bool)ate:%@ is nil /* Error: Ran out of types for this method. */;
 - (void)mbol content transition added to UIImageView.;

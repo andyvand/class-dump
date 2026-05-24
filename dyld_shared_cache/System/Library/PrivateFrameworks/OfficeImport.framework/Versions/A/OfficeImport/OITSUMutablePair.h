@@ -11,12 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)numberWithInteger:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id first; // @dynamic first;
-@property(retain, nonatomic) id second; // @dynamic second;
 
 @end
 

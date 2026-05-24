@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)SError">24@?<v@?B>32;
+- (id)";
+- (id)public}@] Will notify delegate, no more handles in-flight;
+- (id)Fetched %{private}@:(id)arg1 %{public}@@;
 - (id);
 - (void);
 - (void);

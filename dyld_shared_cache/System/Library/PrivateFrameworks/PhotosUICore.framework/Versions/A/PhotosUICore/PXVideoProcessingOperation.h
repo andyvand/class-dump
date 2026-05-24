@@ -5,29 +5,24 @@
 //
 
 @class PXVideoProcessingOperationSpec;
-@protocol PXVideoProcessingOperationResult;
 
 @interface PXVideoProcessingOperation
 {
     PXVideoProcessingOperationSpec *_spec;
-    id <PXVideoProcessingOperationResult> _result;
-    CDUnknownBlockType _progressHandler;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (void);
-- (id)LY_DELETED_DAYS_REMAINING_BANNER_LONG;
+- (id)RECENTLY_DELETED_DAYS_REMAINING_BANNER_LONG;
 - (void)PXRadarClassification;
 - (CDUnknownBlockType)-9¹ü;
 - (void)þà,;;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly, nonatomic) id <PXVideoProcessingOperationResult> result; // @synthesize result=_result;
 @property(readonly, nonatomic) PXVideoProcessingOperationSpec *spec; // @synthesize spec=_spec;
 
 @end

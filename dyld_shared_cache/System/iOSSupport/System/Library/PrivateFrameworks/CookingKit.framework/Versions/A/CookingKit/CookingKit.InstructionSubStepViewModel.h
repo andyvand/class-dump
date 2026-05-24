@@ -8,16 +8,6 @@
 {
     id _attributedStringSegments;
     id _image;
-    id _recipe;
-    id _stepIndex;
-    id _ingredientsText;
-    id _timers;
-    id _countdownTimers;
-    id _popOver;
-    id _startingTimers;
-    id _viewPlacement;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

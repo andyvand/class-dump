@@ -6,22 +6,18 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSArray, SignpostFrameLifetimeInterval;
+@class SignpostFrameLifetimeInterval;
 
 @interface SignpostUpdateSequenceInterval : SignpostAnimationSubInterval
 {
     _Bool _isLong;
-    _Bool _implicit;
-    int _pid;
-    NSArray *_commits;
-    SignpostFrameLifetimeInterval *_frameLifetime;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)*%;
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *commits; // @synthesize commits=_commits;
 @property(nonatomic) __weak SignpostFrameLifetimeInterval *frameLifetime; // @synthesize frameLifetime=_frameLifetime;
-@property(readonly, nonatomic, getter=isImplicit) _Bool implicit; // @synthesize implicit=_implicit;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;
 
 @end
 

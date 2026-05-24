@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSTextHighlightShapeProvider;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextHighlightCluster
 {
     NSMapTable *_bottomBordersOfRuns;
-    NSMapTable *_topBordersOfRuns;
-    NSTextHighlightShapeProvider *_shapeProvider;
-    NSMutableArray *_runs;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

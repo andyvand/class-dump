@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol HAP2Accessory;
 
 __attribute__((visibility("hidden")))
 @interface HAP2CharacteristicTuple
 {
     id <HAP2Accessory> _accessory;
-    NSMutableArray *_values;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ces;
+- (void)services;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HAP2Accessory> accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

@@ -6,31 +6,22 @@
 
 #import <SpotlightServices/FeatureConfig.h>
 
-@class NSString;
-
 @interface DenseFeatureConfig : FeatureConfig
 {
     _Bool _normalization;
-    _Bool _transform;
-    float _defaultValue;
-    float _normalizationMin;
-    float _normalizationMax;
-    NSString *_normalizationType;
-    NSString *_transformType;
-    NSString *_originalFeatureName;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (float);
-- (float);
-- (id);
-- (void);
-- (_Bool);
+- (void)thenticationChallenge"24;
+- (void)@"AVAssetResourceLoadingRequest"24;
+- (void)B32@0:(float)arg1 8@"AVAssetResourceLoader"16@"AVAssetResourceLoadingRequest"24;
+- (void)6;
+- (id)setCanAddLineForButton: /* Error: Ran out of types for this method. */;
+- (id)setBackgroundOutset: /* Error: Ran out of types for this method. */;
+- (float)setBackgroundInset: /* Error: Ran out of types for this method. */;
+- (float)setBackgroundImageProperties: /* Error: Ran out of types for this method. */;
+- (id)initWithHost:(id)arg1 buttonProperties:(id)arg2 style: /* Error: Ran out of types for this method. */;
+- (void)because no share model was found;
+- (_Bool)?;
 - (id);
 - (void);
 - (_Bool);
@@ -38,18 +29,11 @@
 - (void);
 - (float)òÐ!¬Dù<Ð1Â0@ù
 × ;
-- (void)mLLMQU;
+- (void)_personSenderTokensFromLLMQU;
 - (void);
 
 // Remaining properties
 @property float defaultValue; // @synthesize defaultValue=_defaultValue;
-@property _Bool normalization; // @synthesize normalization=_normalization;
-@property float normalizationMax; // @synthesize normalizationMax=_normalizationMax;
-@property float normalizationMin; // @synthesize normalizationMin=_normalizationMin;
-@property(retain, nonatomic) NSString *normalizationType; // @synthesize normalizationType=_normalizationType;
-@property(retain, nonatomic) NSString *originalFeatureName; // @synthesize originalFeatureName=_originalFeatureName;
-@property _Bool transform; // @synthesize transform=_transform;
-@property(retain, nonatomic) NSString *transformType; // @synthesize transformType=_transformType;
 
 @end
 

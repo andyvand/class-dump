@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ML3DatabaseTable
 {
     NSString *_name;
-    NSArray *_columns;
-    NSArray *_foreignKeyConstraints;
 }
 
+- (id)setLibraryRole: /* Error: Ran out of types for this method. */;
+- (id)registerFilesystemDeletionInfo:(_Bool)arg1;
+- (id)postNotificationForReadyToViewMomentShareWithUUID:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)ges;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithDict:(struct _NSZone *)arg1 characteristic:triggerValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)= ? AND position BETWEEN ? AND ?);
 - (id)EX IF EXISTS AlbumArtistGrouping;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) NSArray *foreignKeyConstraints; // @synthesize foreignKeyConstraints=_foreignKeyConstraints;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

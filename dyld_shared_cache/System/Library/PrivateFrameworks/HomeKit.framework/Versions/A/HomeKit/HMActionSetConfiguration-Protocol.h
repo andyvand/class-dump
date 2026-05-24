@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @protocol HMActionSetConfiguration
+- (void)α;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionSetType;
-@property(readonly, copy, nonatomic) NSSet *actions;
 @property(readonly, copy, nonatomic) NSString *name;
 @end
 

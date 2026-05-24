@@ -9,27 +9,15 @@
 @interface TeaUI.DownloadButton : TeaUI.TouchInsetsButton
 {
     id handler;
-    id delegate;
-    id dataProvider;
-    id imageTintColor;
-    id progressTintColor;
-    id trackTintColor;
-    id downloadingImage;
-    id notDownloadingImage;
-    id progressBackgroundLayer;
-    id progressLayer;
-    id buttonState;
-    id downloadProgressDisposable;
-    id downloadStateDisposable;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)thumbnailWidgetHQMetadata;
+- (void);
+- (void)featuredAudioArticleListID;
+- (id)setTagPersonalizationCoeffIPhone:(struct CGRect)arg1;
 - (void)>þÿõÿÿ;
 
 @end

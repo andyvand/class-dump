@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementSortElement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayNameInBar;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayNameInBar:1;
-        unsigned int read_displayName:1;
-        unsigned int read_metadata:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)accessoryModelTypeToString: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)teRange>>="__begin_"^{GEOPolylineCoordinateRange}"__end_"^{GEOPolylineCoordinateRange}""{?="__cap_"^{GEOPolylineCoordinateRange}}};
-- (id)lineArea;
+- (id)_offlineArea;
 - (id)\npÄrs°tXu;
 - (void);
 

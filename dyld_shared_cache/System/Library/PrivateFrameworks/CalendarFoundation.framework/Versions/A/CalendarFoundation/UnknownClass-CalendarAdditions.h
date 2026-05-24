@@ -10,7 +10,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (id);
@@ -23,7 +23,7 @@
 + (id);
 + (id);
 - (long long);
-- (id);
+- (id)q8;
 - (id);
 - (long long);
 - (id);
@@ -86,7 +86,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -106,7 +106,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (id);
@@ -134,11 +134,11 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)K;
 - (long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)`Ͱr;
+- (_Bool)!;
 - (id);
 - (id);
 - (_Bool);

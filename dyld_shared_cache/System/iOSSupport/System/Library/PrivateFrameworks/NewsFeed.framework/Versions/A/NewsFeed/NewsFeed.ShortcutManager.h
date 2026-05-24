@@ -7,11 +7,6 @@
 @interface NewsFeed.ShortcutManager
 {
     id shortcutList;
-    id subscriptionList;
-    id userInfo;
-    id sceneProvider;
-    id configurationManager;
-    id tagController;
 }
 
 @end

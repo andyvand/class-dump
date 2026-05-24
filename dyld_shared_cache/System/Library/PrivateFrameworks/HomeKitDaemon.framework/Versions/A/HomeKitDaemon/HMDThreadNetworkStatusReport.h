@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkStatusReport
 {
     unsigned long long _numAdvertisedBRs;
-    unsigned long long _numAppleBRs;
-    unsigned long long _numThirdPartyBRs;
-    unsigned long long _numThreadNetworks;
-    unsigned long long _maxSimuIPPrefixesDetected;
-    unsigned long long _txTotal;
-    unsigned long long _txSuccess;
-    unsigned long long _txDelayAvg;
-    unsigned long long _rxTotal;
-    unsigned long long _rxSuccess;
-    unsigned long long _reportDuration;
 }
 
 - (unsigned long long);
@@ -25,26 +15,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long)SafariWidgetExtension;
+- (unsigned long long)ystem/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
+- (unsigned long long)ersions/A/ScreenTimeCore;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)region;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maxSimuIPPrefixesDetected; // @synthesize maxSimuIPPrefixesDetected=_maxSimuIPPrefixesDetected;
 @property(readonly, nonatomic) unsigned long long numAdvertisedBRs; // @synthesize numAdvertisedBRs=_numAdvertisedBRs;
-@property(readonly, nonatomic) unsigned long long numAppleBRs; // @synthesize numAppleBRs=_numAppleBRs;
-@property(readonly, nonatomic) unsigned long long numThirdPartyBRs; // @synthesize numThirdPartyBRs=_numThirdPartyBRs;
-@property(readonly, nonatomic) unsigned long long numThreadNetworks; // @synthesize numThreadNetworks=_numThreadNetworks;
-@property(readonly, nonatomic) unsigned long long reportDuration; // @synthesize reportDuration=_reportDuration;
-@property(readonly, nonatomic) unsigned long long rxSuccess; // @synthesize rxSuccess=_rxSuccess;
-@property(readonly, nonatomic) unsigned long long rxTotal; // @synthesize rxTotal=_rxTotal;
-@property(readonly, nonatomic) unsigned long long txDelayAvg; // @synthesize txDelayAvg=_txDelayAvg;
-@property(readonly, nonatomic) unsigned long long txSuccess; // @synthesize txSuccess=_txSuccess;
-@property(readonly, nonatomic) unsigned long long txTotal; // @synthesize txTotal=_txTotal;
 
 @end
 

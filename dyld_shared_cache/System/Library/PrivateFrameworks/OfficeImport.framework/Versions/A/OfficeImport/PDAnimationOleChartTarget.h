@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDAnimationOleChartTarget : PDAnimationShapeTarget
 {
     int mLevel;
-    int mChartSubElementType;
 }
 
 - (void);

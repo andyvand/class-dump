@@ -9,16 +9,14 @@
 @interface SMLocationEvent
 {
     CLLocation *_location;
-    double _distance;
 }
 
 - (id);
-- (double);
-- (id)ersectionOverUnionUsingBoundingBoxBetweenLocations:locationsCount:otherLocations:otherLocationsCount:error: /* Error: Ran out of types for this method. */;
+- (double)+ԡ;
+- (id)computeIntersectionOverUnionUsingBoundingBoxBetweenLocations:locationsCount:otherLocations:otherLocationsCount:error: /* Error: Ran out of types for this method. */;
 - (void)ssed,%d,numTSPFailed,%d;
 
 // Remaining properties
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
 @property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSString, REMObjectID;
+@class NSString;
 
 @interface REMListsDataViewInvocation_userActivityFetchByExternalIdentifier : REMStoreInvocation
 {
     NSString *_externalIdentifier;
-    REMObjectID *_accountObjectID;
 }
 
 + (_Bool);
@@ -21,13 +20,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (void)ë!ô@ùñr Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
 @property(readonly, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
 
 @end

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (MediaAdditions)
 - (_Bool);
-- (_Bool);
+- (_Bool)ascii40;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isQueryResultSetInvalidated;

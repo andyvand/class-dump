@@ -6,15 +6,11 @@
 
 #import <CoreSuggestions/SGMailIntelligenceWarning.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface SGMailIntelligenceFollowUpWarning : SGMailIntelligenceWarning
 {
     NSDate *_startDate;
-    NSString *_startDateCore;
-    NSDate *_endDate;
-    NSString *_endDateCore;
-    NSNumber *_type;
 }
 
 + (_Bool);
@@ -29,20 +25,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)Oq;
+- (id)s);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)@;
+- (id)CADDatabaseGetColorWithProviderIdentifier:(id)arg1 externalID:reply: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSString *endDateCore; // @synthesize endDateCore=_endDateCore;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSString *startDateCore; // @synthesize startDateCore=_startDateCore;
-@property(retain, nonatomic) NSNumber *type; // @synthesize type=_type;
 
 @end
 

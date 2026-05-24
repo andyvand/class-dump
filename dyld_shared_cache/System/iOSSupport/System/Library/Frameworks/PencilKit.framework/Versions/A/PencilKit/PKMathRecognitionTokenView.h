@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, PKMathRecognitionItem, PKMathRecognitionToken;
+@class CAShapeLayer, PKMathRecognitionToken;
 
 @interface PKMathRecognitionTokenView
 {
     CAShapeLayer *_shapeLayer;
-    PKMathRecognitionToken *_token;
-    PKMathRecognitionItem *_item;
-    double _timestamp;
-    struct CGRect _strokeBounds;
 }
 
 + (id);
@@ -25,9 +21,6 @@
 - (void)¸¯x°X±;
 
 // Remaining properties
-@property(readonly, nonatomic) PKMathRecognitionItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) struct CGRect strokeBounds; // @synthesize strokeBounds=_strokeBounds;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) PKMathRecognitionToken *token; // @synthesize token=_token;
 
 @end

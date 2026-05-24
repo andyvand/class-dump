@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFSceneGeography, PGCurationCache, PGCurationCriteriaFactory, PHPhotoLibrary;
+@class NSObject, PGCurationCache;
 @protocol OS_os_log;
 
 @interface PGCurationManager
 {
     PGCurationCache *_cache;
-    NSObject<OS_os_log> *_curationLoggingConnection;
-    PHPhotoLibrary *_photoLibrary;
-    PGCurationCriteriaFactory *_curationCriteriaFactory;
-    PFSceneGeography *_sceneGeography;
 }
 
-+ (id);
++ (id)etMenuExtrasBounds:(unsigned long long)arg1 ,V__menuExtrasBounds;
 + (id);
 + (id);
 + (id);
@@ -26,23 +22,23 @@
 + (id);
 + (id);
 + (id);
++ (id)c;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)a;
++ (id);
 + (double);
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)T;
++ (id);
+- (id);
+- (id)(;
+- (id)on]E4$_14FvvEEE;
 - (id);
 - (id);
 - (id);
@@ -58,7 +54,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)cellation;
 - (id);
 - (id);
 - (double);
@@ -66,12 +62,12 @@
 - (id);
 - (id);
 - (id);
+- (id)kJkJk;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)dataWithBytes:(id)arg1 length:(unsigned long long)arg2;
+- (id)܅;
 - (_Bool);
-- (id);
+- (id)%s;
 - (id);
 - (id);
 - (id);
@@ -81,17 +77,14 @@
 - (id)!ÄAùñn°1Â0@ù
 × ;
 - (id);
-- (id)essBlock:(id)arg1;
+- (id)runPetIngestWithGraphUpdate:(id)arg1 progressBlock:(id)arg2;
 - (id):(id)arg1;
-- (double)ayInHistorySubcategoryNone;
+- (double)MemoryCategoryHolidayInHistorySubcategoryNone;
 - (void)Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerLastWeek.m;
 - (id)èÿå½ö$èÿÅ½ö$èÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PGCurationCriteriaFactory *curationCriteriaFactory; // @synthesize curationCriteriaFactory=_curationCriteriaFactory;
 @property(readonly, nonatomic) NSObject<OS_os_log> *curationLoggingConnection; // @synthesize curationLoggingConnection=_curationLoggingConnection;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PFSceneGeography *sceneGeography; // @synthesize sceneGeography=_sceneGeography;
 
 @end
 

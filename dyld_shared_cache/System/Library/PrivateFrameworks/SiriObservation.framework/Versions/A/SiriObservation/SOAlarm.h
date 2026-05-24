@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface SOAlarm
 {
     _Bool _isEnabled;
-    _Bool _isFiring;
-    NSUUID *_alarmID;
-    NSURL *_alarmURL;
-    NSString *_title;
-    unsigned long long _hour;
-    unsigned long long _minute;
-    unsigned long long _repeatSchedule;
 }
 
 + (id);
@@ -32,24 +25,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)BB;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)k;
+- (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *alarmID; // @synthesize alarmID=_alarmID;
-@property(readonly, copy, nonatomic) NSURL *alarmURL; // @synthesize alarmURL=_alarmURL;
-@property(readonly, nonatomic) unsigned long long hour; // @synthesize hour=_hour;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isFiring; // @synthesize isFiring=_isFiring;
-@property(readonly, nonatomic) unsigned long long minute; // @synthesize minute=_minute;
-@property(readonly, nonatomic) unsigned long long repeatSchedule; // @synthesize repeatSchedule=_repeatSchedule;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

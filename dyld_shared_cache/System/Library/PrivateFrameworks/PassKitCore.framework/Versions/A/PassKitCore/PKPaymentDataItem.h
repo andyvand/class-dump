@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentAuthorizationDataModel;
+@class PKPaymentAuthorizationDataModel;
 
 @interface PKPaymentDataItem
 {
     long long _type;
-    long long _status;
-    PKPaymentAuthorizationDataModel *_model;
 }
 
 + (_Bool);
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)tion identity update;
 - (long long);
 - (_Bool);
 - (id);
@@ -29,23 +27,10 @@
 - (void);
 - (id);
 - (_Bool)eturning shouldContinue YES.;
-- (void)E_LIMIT_ERROR_DESCRIPTION;
+- (void)PEER_PAYMENT_WOULD_EXCEED_CUMULATIVE_LIMIT_ERROR_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, nonatomic) long long context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *errors;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak PKPaymentAuthorizationDataModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSArray *paymentContactFormatErrors;
-@property(readonly, nonatomic, getter=isRejected) _Bool rejected;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

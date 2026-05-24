@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ed to create a CF request from an HTTP message.;
 - (void);
 
 // Remaining properties

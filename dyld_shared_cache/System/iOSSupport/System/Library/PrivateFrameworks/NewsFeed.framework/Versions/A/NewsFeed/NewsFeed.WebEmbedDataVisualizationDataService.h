@@ -7,12 +7,6 @@
 @interface NewsFeed.WebEmbedDataVisualizationDataService
 {
     id networkProxy;
-    id sportsTokenManager;
-    id genericTokenManager;
-    id defaultMaxAge;
-    id networkQueue;
-    id lastFailedResponses;
-    id lock;
 }
 
 @end

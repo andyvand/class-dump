@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, NSDictionary, NSURL, PA2DBuffer, PAImageRequest;
+@class PAImageRequest;
 
 @protocol PAImageResponseInternal
+- (void);
+- (unsigned long long);
+- (PAImageRequest *));
 - (id)!= nil;
 
 // Remaining properties
-@property(readonly) PA2DBuffer *buffer;
-@property(readonly) id cacheKey;
-@property(readonly) NSDictionary *cgImageProperties;
-@property(readonly) IPAColorProfile *colorProfile;
-@property(readonly) int format;
-@property(readonly) PAImageRequest *imageRequest;
-@property(retain, nonatomic) NSURL *imageURL;
-@property(readonly) unsigned long long requestedSubsampleFactor;
-@property(readonly) _Bool scaled;
 @property(readonly) struct PFIntSize_st size;
 @end
 

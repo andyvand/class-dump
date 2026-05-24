@@ -6,14 +6,19 @@
 
 @protocol NSScrollViewDelegate
 
+@optional
+- (void)T@"NSArray",C,D,N;
+- (double)R,N;
+- (void)csCollector",&,N,V_coreAnalytics;
+- (void);
+- (_Bool)textField:textView:candidates:forSelectedRange: /* Error: Ran out of types for this method. */;
+- (void)categories;
+- (void)cascadedItemIDsForItemID:(_Bool)arg1 isSelecting: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
 @property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
 
 @end
 

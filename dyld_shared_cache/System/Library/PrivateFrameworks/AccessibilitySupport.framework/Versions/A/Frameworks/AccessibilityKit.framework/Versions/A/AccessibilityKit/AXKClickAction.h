@@ -9,12 +9,10 @@
 @interface AXKClickAction : AXKBaseAction
 {
     unsigned long long _count;
-    long long _button;
-    unsigned long long _modifiers;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)55;
 - (void);
 - (unsigned long long);
 - (void);
@@ -23,9 +21,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long button; // @synthesize button=_button;
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) unsigned long long modifiers; // @synthesize modifiers=_modifiers;
 
 @end
 

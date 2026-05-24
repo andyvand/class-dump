@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASWebAuthenticationSessionRequest, BrowserDocument, NSArray, NSHTTPURLResponse, NSURL;
+@class ASWebAuthenticationSessionRequest, BrowserDocument;
 
 __attribute__((visibility("hidden")))
 @interface AuthenticationSession
 {
     BrowserDocument *_document;
-    NSArray *_customAnchorCertificates;
-    NSHTTPURLResponse *_errorURLResponse;
-    ASWebAuthenticationSessionRequest *_request;
-    NSURL *_downloadedFileURL;
 }
 
 - (_Bool);
@@ -24,17 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)?;
 - (id);
-- (id);
+- (void)retrieveLocalFileURLForFileTransferWithGUID:options: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)_rawKeyFromDecryptedPrivateKey:(id)arg1;
 - (id)Changed Attributes:(id)arg1 %@;
 - (void);
 - (void)ì -;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *downloadedFileURL; // @synthesize downloadedFileURL=_downloadedFileURL;
 @property(readonly, nonatomic) ASWebAuthenticationSessionRequest *request; // @synthesize request=_request;
 
 @end

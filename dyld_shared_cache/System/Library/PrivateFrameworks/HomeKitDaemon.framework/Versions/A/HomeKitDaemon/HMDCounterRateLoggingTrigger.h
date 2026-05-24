@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMDEWSLogging;
-
 __attribute__((visibility("hidden")))
 @interface HMDCounterRateLoggingTrigger
 {
     _Bool _uploadImmediately;
-    long long _windowSize;
-    long long _windowThreshold;
-    NSString *_counterName;
-    CDUnknownBlockType _timeSourceBlock;
-    id <HMDEWSLogging> _ewsLogger;
-    long long _intervalSize;
-    unsigned long long *_intervalCounts;
-    unsigned long long _windowCount;
-    unsigned long long _maxWindowCount;
-    unsigned long long _lastUpdatedInterval;
 }
 
 - (unsigned long long);
@@ -28,18 +15,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (unsigned long long *);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void)0@ù
 × ;
 - (id)tError:(long long)arg1 shouldLog:(long long)arg2;
-- (void)nitWithData:(unsigned long long)arg1 backingStore:messageDispatcher:notificationCenter:logEventSubmitter:dailyScheduler:targetDevice:dataSource:delegate: /* Error: Ran out of types for this method. */;
+- (void)initWithData:(unsigned long long)arg1 backingStore:messageDispatcher:notificationCenter:logEventSubmitter:dailyScheduler:targetDevice:dataSource:delegate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)y creation succeeded; will use session encryption %@;
 - (unsigned long long)nts:%@ /* Error: Ran out of types for this method. */;
@@ -48,24 +35,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *counterName; // @synthesize counterName=_counterName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDEWSLogging> ewsLogger; // @synthesize ewsLogger=_ewsLogger;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long *intervalCounts; // @synthesize intervalCounts=_intervalCounts;
-@property(readonly, nonatomic) long long intervalSize; // @synthesize intervalSize=_intervalSize;
-@property(nonatomic) unsigned long long lastUpdatedInterval; // @synthesize lastUpdatedInterval=_lastUpdatedInterval;
-@property(nonatomic) unsigned long long maxWindowCount; // @synthesize maxWindowCount=_maxWindowCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType timeSourceBlock; // @synthesize timeSourceBlock=_timeSourceBlock;
-@property(readonly, nonatomic) _Bool uploadImmediately; // @synthesize uploadImmediately=_uploadImmediately;
-@property(nonatomic) unsigned long long windowCount; // @synthesize windowCount=_windowCount;
 @property(readonly, nonatomic) long long windowSize; // @synthesize windowSize=_windowSize;
-@property(readonly, nonatomic) long long windowThreshold; // @synthesize windowThreshold=_windowThreshold;
 
 @end
 

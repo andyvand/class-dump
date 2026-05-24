@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CBSliderMappingNonLUT
 {
     unsigned long long _type;
-    float _minNits;
-    float _maxNits;
-    float _midNits;
-    float _midSlider;
-    float _A;
-    float _B;
-    float _C;
-    float _IMax;
 }
 
 - (float);
 - (float);
 - (float);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

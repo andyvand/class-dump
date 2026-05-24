@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactDataSourceLIFOScheduler, CNContactMatchSummarizer, CNContactStoreDataSource, CNContactStoreFilter, CNManagedConfiguration, NSArray, NSMapTable, NSMutableArray, NSMutableAttributedString, NSMutableDictionary, NSObject, NSPointerArray;
-@protocol OS_dispatch_semaphore;
+@class CNContactStoreDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CNContactStoreSnapshot
 {
     unsigned long long _contactsCount;
-    NSMapTable *_contactsCache;
-    NSObject<OS_dispatch_semaphore> *_cacheAccessSemaphore;
-    struct _NSRange _currentlyLoadingBackgroundRange;
-    NSArray *_sections;
-    NSArray *_indexSections;
-    CNContactMatchSummarizer *_summarizer;
-    NSMutableAttributedString *_emptyExcerptInstanceMarker;
-    unsigned long long _lastRequestedIndex;
-    CNContactStoreDataSource *_dataSource;
-    CNContactStoreFilter *_filter;
-    CNManagedConfiguration *_managedConfiguration;
-    NSMutableDictionary *_contactMatchInfos;
-    CNContactDataSourceLIFOScheduler *_summarizationQueue;
-    NSPointerArray *_summarizationFutures;
-    NSMapTable *_identifiersToIndexPath;
-    NSMutableArray *_batchContactIdentifiers;
 }
 
+- (void)i~;
+- (id)@9;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)coreMaterialOverrideRecipeBundle;
+- (id)dataTaskWithRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
@@ -47,27 +30,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)updateDoneValue;
 - (id);
-- (id);
-- (id);
-- (void)n:(id)arg1;
-- (void)teContact:(struct _NSRange)arg1 withMissingKeysFromRequiredKeys: /* Error: Ran out of types for this method. */;
+- (id)<%p:%{public}@> Got %lu Vanished responses, but exists is already 0 /* Error: Ran out of types for this method. */;
+- (void)setDuration:(id)arg1;
+- (void)_updateContact:(struct _NSRange)arg1 withMissingKeysFromRequiredKeys: /* Error: Ran out of types for this method. */;
 - (void)ion;
-- (id)ACT_DETAIL_BUTTON_EMAIL;
+- (id)SUGGESTION_IGNORE_CONTACT_DETAIL_BUTTON_EMAIL;
 - (void)ÿG;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *batchContactIdentifiers; // @synthesize batchContactIdentifiers=_batchContactIdentifiers;
-@property(readonly, nonatomic) NSMutableDictionary *contactMatchInfos; // @synthesize contactMatchInfos=_contactMatchInfos;
-@property(readonly, nonatomic) NSArray *contacts;
 @property(nonatomic) __weak CNContactStoreDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) CNContactStoreFilter *filter; // @synthesize filter=_filter;
-@property(readonly, nonatomic) NSMapTable *identifiersToIndexPath; // @synthesize identifiersToIndexPath=_identifiersToIndexPath;
-@property(readonly, nonatomic) NSArray *indexSections;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) NSPointerArray *summarizationFutures; // @synthesize summarizationFutures=_summarizationFutures;
-@property(readonly, nonatomic) CNContactDataSourceLIFOScheduler *summarizationQueue; // @synthesize summarizationQueue=_summarizationQueue;
 
 @end
 

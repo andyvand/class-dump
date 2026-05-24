@@ -7,7 +7,6 @@
 @interface PhotosGraph.CompletionCounter
 {
     id completionHandler;
-    id completionState;
 }
 
 @end

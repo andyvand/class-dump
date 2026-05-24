@@ -4,75 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface PLClientLogger
 {
     _Bool _clientDebug;
-    _Bool _talkToPowerlogHelper;
-    _Bool _batchedTimerInFlight;
-    _Bool _forceBatching;
-    _Bool _batchDropMessages;
-    int _batchMessagesSentCount;
-    int _batchedDropMessageCount;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_batchFlushQueue;
-    NSString *_processName;
-    NSMutableDictionary *_permissionCache;
-    NSMutableDictionary *_pendingTaskCache;
-    NSMutableArray *_batchedTaskCache;
-    NSMutableDictionary *_dynamicCache;
-    NSMutableDictionary *_eventFilterSaved;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    NSObject<OS_dispatch_queue> *_xpcConnectionHelperQueue;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_xpc_object> *_xpcConnectionHelper;
-    NSSet *_batchingClientAllowlist;
-    NSSet *_curatedBatchingList;
-    NSSet *_batchingKeysAllowlist;
-    NSObject<OS_dispatch_queue> *_adaptivePermissionWorkQueue;
 }
 
-+ (_Bool);
++ (_Bool)h;
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (int);
 - (void);
+- (void)_otherModes;
+- (id)ntainerURL;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)provisionalInputs;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)4;
+- (id)kCTDataConnectionServiceTypeDataTest;
+- (id) ;
 - (void);
 - (id);
 - (id);
+- (id)NSt3__120__shared_ptr_pointerIPN3ims24CallEventDelegateWrapperENS_10shared_ptrINS1_17CallEventDelegateEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEEE;
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)8h;
 - (int);
 - (id);
 - (id);
-- (int);
+- (int)?;
 - (void);
 - (_Bool);
 - (void);
@@ -85,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_sandboxHandle;
 - (void);
 - (id);
 - (void);
@@ -97,43 +72,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (short);
 - (id);
-- (void);
+- (void);
 - (int);
-- (_Bool);
-- (short);
+- (_Bool)rtition:options:espDisk:espMountPoint:] /* Error: Ran out of types for this method. */;
+- (short)ally IS a slice;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qL2;
 - (id);
 - (void);
 - (id)@ notification;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *adaptivePermissionWorkQueue; // @synthesize adaptivePermissionWorkQueue=_adaptivePermissionWorkQueue;
-@property _Bool batchDropMessages; // @synthesize batchDropMessages=_batchDropMessages;
-@property(retain) NSObject<OS_dispatch_queue> *batchFlushQueue; // @synthesize batchFlushQueue=_batchFlushQueue;
-@property int batchMessagesSentCount; // @synthesize batchMessagesSentCount=_batchMessagesSentCount;
-@property int batchedDropMessageCount; // @synthesize batchedDropMessageCount=_batchedDropMessageCount;
-@property(retain) NSMutableArray *batchedTaskCache; // @synthesize batchedTaskCache=_batchedTaskCache;
-@property _Bool batchedTimerInFlight; // @synthesize batchedTimerInFlight=_batchedTimerInFlight;
-@property(readonly) NSSet *batchingClientAllowlist; // @synthesize batchingClientAllowlist=_batchingClientAllowlist;
-@property(readonly) NSSet *batchingKeysAllowlist; // @synthesize batchingKeysAllowlist=_batchingKeysAllowlist;
 @property _Bool clientDebug; // @synthesize clientDebug=_clientDebug;
-@property(readonly) NSSet *curatedBatchingList; // @synthesize curatedBatchingList=_curatedBatchingList;
-@property(retain) NSMutableDictionary *dynamicCache; // @synthesize dynamicCache=_dynamicCache;
-@property(retain) NSMutableDictionary *eventFilterSaved; // @synthesize eventFilterSaved=_eventFilterSaved;
-@property _Bool forceBatching; // @synthesize forceBatching=_forceBatching;
-@property(retain) NSMutableDictionary *pendingTaskCache; // @synthesize pendingTaskCache=_pendingTaskCache;
-@property(retain) NSMutableDictionary *permissionCache; // @synthesize permissionCache=_permissionCache;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property _Bool talkToPowerlogHelper; // @synthesize talkToPowerlogHelper=_talkToPowerlogHelper;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnectionHelper; // @synthesize xpcConnectionHelper=_xpcConnectionHelper;
-@property(retain) NSObject<OS_dispatch_queue> *xpcConnectionHelperQueue; // @synthesize xpcConnectionHelperQueue=_xpcConnectionHelperQueue;
-@property(retain) NSObject<OS_dispatch_queue> *xpcConnectionQueue; // @synthesize xpcConnectionQueue=_xpcConnectionQueue;
 
 @end
 

@@ -11,17 +11,16 @@
     id image;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)ion <%{public}@> %{public}@ issued sandbox extension for file %@, succeeded = %{bool}d;
+- (_Bool);
 - (id);
 - (void);
-- (id)tartLiveResizeForAllDrawers;
+- (id)_startLiveResizeForAllDrawers;
 - (_Bool);
 - (void)q;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool acceptsFirstResponder;
-@property(nonatomic, readonly) _Bool mouseDownCanMoveWindow;
 
 @end
 

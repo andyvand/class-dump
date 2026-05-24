@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMApplicationLoginItemsDeclaration_LoginItem : CEMPayloadBase
 {
     NSString *_payloadPath;
-    NSNumber *_payloadHide;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadHide; // @synthesize payloadHide=_payloadHide;
 @property(copy, nonatomic) NSString *payloadPath; // @synthesize payloadPath=_payloadPath;
 
 @end

@@ -7,22 +7,20 @@
 @interface MCQuotaUsage
 {
     CDStruct_d3e19d9e _current;
-    CDStruct_d3e19d9e _maximum;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (CDStruct_d3e19d9e);
-- (CDStruct_d3e19d9e)Progressmanager;
+- (CDStruct_d3e19d9e)KVOContextProgressmanager;
 
 // Remaining properties
 @property(nonatomic) CDStruct_d3e19d9e current; // @synthesize current=_current;
-@property(nonatomic) CDStruct_d3e19d9e maximum; // @synthesize maximum=_maximum;
 
 @end
 

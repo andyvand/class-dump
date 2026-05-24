@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSSet;
-
 @interface _BSCompoundAssertionState
 {
     _Bool _active;
-    NSOrderedSet *_context;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void){>;
 
 // Remaining properties
 @property(readonly, getter=isActive) _Bool active;
-@property(readonly) NSSet *context;
-@property(readonly) NSOrderedSet *orderedContext;
 
 @end
 

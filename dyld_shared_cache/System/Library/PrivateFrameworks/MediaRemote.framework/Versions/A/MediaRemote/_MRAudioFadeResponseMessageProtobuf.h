@@ -7,27 +7,23 @@
 @interface _MRAudioFadeResponseMessageProtobuf
 {
     long long _fadeDuration;
-    struct {
-        unsigned int fadeDuration:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)-cash;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)volumeForVolumeUUID:(id)arg1 volume: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)__const;
+- (id)ion];
 
 // Remaining properties
-@property(nonatomic) long long fadeDuration; // @synthesize fadeDuration=_fadeDuration;
 @property(nonatomic) _Bool hasFadeDuration;
 
 @end

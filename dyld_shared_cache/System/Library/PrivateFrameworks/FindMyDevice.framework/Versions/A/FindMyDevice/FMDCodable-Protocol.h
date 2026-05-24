@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol FMDCodable
+- (id)eTransform=dddddd}24;
+- (_Bool)16r^{_PKStrokePoint=d{CGPoint=dd}ddddddddd}24;
+
+@optional
++ (NSString *)int={_PKPoint=ff}ffSSSSSSfS}16d52;
 @end
 

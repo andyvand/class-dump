@@ -9,12 +9,11 @@
 @interface PKTextInputDebugTargetsView
 {
     double _dashLinePhase;
-    NSArray *_visualizationElements;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)PRTimeFontIdentifierSFCondensed;
 - (id);
 - (void)Path",C,N,V_shadowPath;
 

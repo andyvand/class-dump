@@ -7,28 +7,24 @@
 @interface FCPersonalizationLowFlowEstimationConfig
 {
     double _exponent;
-    double _padding;
-    double _prior;
 }
 
 + (_Bool);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)elegates;
 - (double)it was published at %{public}@, which is prior to the earliest allowed date of %{public}@;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) double exponent; // @synthesize exponent=_exponent;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(nonatomic) double prior; // @synthesize prior=_prior;
 
 @end
 

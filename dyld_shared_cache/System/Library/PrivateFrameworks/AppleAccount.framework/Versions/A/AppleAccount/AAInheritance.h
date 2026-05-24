@@ -9,19 +9,17 @@
 @interface AAInheritance
 {
     NSArray *_beneficiaries;
-    NSArray *_benefactors;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool);
+- (id)verride;
+- (id)nfig:IsT2System debug override /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void)eWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)_billedEnergy;
+- (void)isRegisteredToiMessageWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *benefactors; // @synthesize benefactors=_benefactors;
 @property(readonly, nonatomic) NSArray *beneficiaries; // @synthesize beneficiaries=_beneficiaries;
 
 @end

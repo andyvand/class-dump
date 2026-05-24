@@ -6,61 +6,37 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, NSString, _UIPortalView;
-@protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
-
 __attribute__((visibility("hidden")))
 @interface _UITextLightLoupeView : UIView
 {
     UIView *_sourceView;
-    UIView *_maskView;
-    UIView *_backgroundView;
-    UIView *_glowView;
-    UIView *_portalContainerView;
-    struct CGPoint _modelPosition;
-    CADisplayLink *_displayLink;
-    _UIPortalView *_portalView;
-    _Bool _visible;
-    double _dismissalProgress;
 }
 
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint).;
 - (double);
 - (id);
 - (struct CGPoint);
+- (id)"16;
+- (double)ityModeEnabled: /* Error: Ran out of types for this method. */;
+- (void)respondToNotificationWithIdentifier:sessionIdentifier:actionIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)lient updateAuthorizationCredentials (account:(struct CGRect)arg1 %@);
+- (void)an;
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (id)iner;
-- (void)ring;
+- (id)_UIAppearanceContainer;
+- (void)badgeString;
 - (void)redPlacementCG;
 - (void)So6UIMenuCG;
 - (void);
 - (_Bool)\;
 
 // Remaining properties
-@property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget;
-@property(readonly, nonatomic) id <UICoordinateSpace> containerCoordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double dismissalProgress; // @synthesize dismissalProgress=_dismissalProgress;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint modelPosition; // @synthesize modelPosition=_modelPosition;
 @property(readonly, nonatomic) struct CGSize preferredSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

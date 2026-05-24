@@ -9,7 +9,6 @@
 @interface NSSpanMatch
 {
     NSString *_value;
-    long long _distance;
 }
 
 - (id);
@@ -18,12 +17,11 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id)enumerateHierarchyUsingBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long distance; // @synthesize distance=_distance;
 @property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

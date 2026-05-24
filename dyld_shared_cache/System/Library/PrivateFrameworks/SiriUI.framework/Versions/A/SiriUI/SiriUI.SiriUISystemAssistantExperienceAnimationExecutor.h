@@ -7,10 +7,9 @@
 @interface SiriUI.SiriUISystemAssistantExperienceAnimationExecutor
 {
     id pendingAnimations;
-    id animationCompleted;
 }
 
-- (void);
+- (void)balloonMaskAlignmentRectInsetsWithTailShape:(id)arg1;
 - (id);
 - (void);
 - (void)±°1Â0@ù

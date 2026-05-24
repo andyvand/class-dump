@@ -7,15 +7,6 @@
 @interface AppleMediaServicesUI.WebModel
 {
     id _bag;
-    id _account;
-    id _clientInfo;
-    id _appearance;
-    id _clientOptions;
-    id _loadUsingWebKit;
-    id _metricsOverlay;
-    id _resolveResult;
-    id handlers;
-    id controller;
 }
 
 @end

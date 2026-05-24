@@ -9,9 +9,6 @@
 @interface STMSummaryDetails
 {
     _Bool _isDestructiveAction;
-    _Bool _actionNeedsSheetClosing;
-    NSString *_summaryMessage;
-    NSString *_actionTitle;
 }
 
 + (_Bool);
@@ -28,9 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool actionNeedsSheetClosing; // @synthesize actionNeedsSheetClosing=_actionNeedsSheetClosing;
-@property(copy, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(nonatomic) _Bool isDestructiveAction; // @synthesize isDestructiveAction=_isDestructiveAction;
 @property(copy, nonatomic) NSString *summaryMessage; // @synthesize summaryMessage=_summaryMessage;
 
 @end

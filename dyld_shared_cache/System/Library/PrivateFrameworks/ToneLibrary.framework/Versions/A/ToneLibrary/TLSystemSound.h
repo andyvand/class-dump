@@ -9,10 +9,6 @@
 @interface TLSystemSound
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _soundID;
-    _Bool _shouldDisposeOfSoundID;
-    _Bool _requiresLongFormPlayback;
-    NSURL *_soundFileURL;
 }
 
 - (id);
@@ -25,15 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned int);
+- (_Bool);
+- (unsigned int)trySize=%lld memoryCapacity=%lu;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool requiresLongFormPlayback; // @synthesize requiresLongFormPlayback=_requiresLongFormPlayback;
 @property(readonly, nonatomic) NSURL *soundFileURL; // @synthesize soundFileURL=_soundFileURL;
-@property(readonly, nonatomic) unsigned int soundID;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _ICLLMoveQueueItemCommand
 {
     NSString *_itemId;
-    int _position;
-    NSString *_queueContext;
-    int _revision;
-    CDStruct_bf543796 _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)_silentSMSNumber;

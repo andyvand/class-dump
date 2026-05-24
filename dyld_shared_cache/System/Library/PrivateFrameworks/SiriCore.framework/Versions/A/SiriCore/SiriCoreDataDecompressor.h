@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)time_isGregorian;
+- (id)metrics_countOfResponseBodyBytesAfterDecoding;
 
 @end
 

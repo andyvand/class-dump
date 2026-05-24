@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface LPLinkSnapshotGenerator
 {
     NSXPCConnection *_connectionToService;
-    NSMutableDictionary *_pendingCompletionHandlers;
-    unsigned int _nextRequestID;
-    _Bool _active;
 }
 
 - (void);

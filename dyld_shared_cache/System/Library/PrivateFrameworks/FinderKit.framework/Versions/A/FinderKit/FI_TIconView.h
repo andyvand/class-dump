@@ -6,59 +6,12 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TBasicImageView, FI_TButton, FI_TDesktopInlineProgressView, FI_TIconSelectionView, FI_TTextField, FI_TTitleBubbleView, FI_TTrackingImageView, NSAccessibilityCustomAction, NSColor, NSFont, NSImage, NSObject, NSSet, NSString;
-@protocol TDraggingDestinationDelegate><TSpringLoadingDestinationDelegate;
+@class FI_TTrackingImageView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TIconView : FI_TUpdateLayerView
 {
     FI_TTrackingImageView *_iconView;
-    FI_TIconSelectionView *_iconSelectionView;
-    FI_TBasicImageView *_badgeImageView;
-    FI_TBasicImageView *_vendorBadgeImageView;
-    FI_TDesktopInlineProgressView *_inlineProgressView;
-    FI_TButton *_copyResumeButton;
-    FI_TTitleBubbleView *_titleBubbleView;
-    FI_TTextField *_subtitleField;
-    struct TProgressStateAggregator _progressStateAggregator;
-    struct CGSize _iconSize;
-    struct TString _titleStr;
-    NSFont *_titleFont;
-    NSColor *_titleFontColor;
-    NSSet *_subtitleStringSet;
-    NSFont *_subtitleFont;
-    NSColor *_subtitleFontColor;
-    double _gridSpacing;
-    vector_daac2569 _tagColorIndexes;
-    NSColor *_superViewsBackgroundColor;
-    NSImage *_placeholderTagImage;
-    NSImage *_imageAttachment;
-    struct TTitleViewBadgeConfigurator _badgeConfigurator;
-    TNSWeakPtr_db0eab6c _iconSelectionViewAnimationDelayToken;
-    _Bool _inlineProgressNeedsBaselineRefresh;
-    _Bool _isTitleOnBottom;
-    _Bool _isDropTarget;
-    _Bool _isDragItem;
-    _Bool _isTitleEnabled;
-    _Bool _isSubtitleEnabled;
-    _Bool _isEditing;
-    _Bool _isSpringBlinkingOff;
-    _Bool _useActiveAppearance;
-    _Bool _isOverlappingTitle;
-    _Bool _isSelectionBordered;
-    struct TNSWeakPtr<NSObject<TDraggingDestinationDelegate, TSpringLoadingDestinationDelegate>> _weakDelegate;
-    struct TKeyValueBinder _titleBubbleViewHiddenBinder;
-    struct TKeyValueBinder _titleBubbleViewSelectedBinder;
-    struct TKeyValueBinder _subtitleFieldHiddenBinder;
-    struct TKeyValueBinder _iconSelectionViewIconSizeBinder;
-    NSAccessibilityCustomAction *_axOpenAction;
-    _Bool _titleDimmed;
-    _Bool _isTornDown;
-    _Bool _selected;
-    NSString *_iCloudSubtitleToolTip;
-    NSString *_accessibilityAnnotations;
-    NSImage *_badgeImage;
-    NSImage *_vendorBadgeImage;
 }
 
 + (id);
@@ -67,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,11 +48,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -116,7 +69,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -124,6 +77,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -134,14 +88,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -149,7 +102,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)xb;
 - (id);
 - (struct CGRect);
 - (id);
@@ -167,19 +120,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)Indicator;
 - (void);
-- (id);
+- (id)$;
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)elementFilterStrategy;
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -188,15 +141,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)setCategorizationTextEncapsulation: /* Error: Ran out of types for this method. */;
+- (void)setAllowsRunningApplicationSubstitution:(id)arg1;
+- (id)searchPredicateForMailboxes:(struct CGPoint)arg1;
+- (id)seamlessOpener:transitionImageForPreviewItem:contentRect:windowLevel: /* Error: Ran out of types for this method. */;
+- (id)scrollToTopConstrainingScroll: /* Error: Ran out of types for this method. */;
+- (id)registerForDraggedTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)rectValue;
+- (void)moveItemID:before:snapshot:section: /* Error: Ran out of types for this method. */;
+- (id)adjustScrollForPinning;
 - (void);
 - (_Bool);
 - (double);
@@ -210,7 +163,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
@@ -223,7 +176,7 @@ __attribute__((visibility("hidden")))
 - (id)ÑõÐ1Â0@ù
 × ;
 - (id)td::__hash_node<std::__hash_value_type<TFENode, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TFENode, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<TFENode, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"fItems"{vector<TFENode, std::allocator<TFENode>>="__begin_"^{TFENode}"__end_"^{TFENode}""{?="__cap_"^{TFENode}}}} /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)kAirDropEventPostprocess;
 - (_Bool)L<;
 - (void)è@;
 - (_Bool);
@@ -234,45 +187,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿpc;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityAnnotations; // @synthesize accessibilityAnnotations=_accessibilityAnnotations;
-@property(copy, nonatomic) NSImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<TDraggingDestinationDelegate><TSpringLoadingDestinationDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragItem) _Bool dragItem; // @synthesize dragItem=_isDragItem;
-@property(nonatomic, getter=isDropTarget) _Bool dropTarget; // @synthesize dropTarget=_isDropTarget;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_isEditing;
-@property(nonatomic) double gridSpacing;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *iCloudSubtitleToolTip; // @synthesize iCloudSubtitleToolTip=_iCloudSubtitleToolTip;
-@property(nonatomic, getter=isIconDimmed) _Bool iconDimmed;
-@property(nonatomic, getter=isIconHidden) _Bool iconHidden;
-@property(copy, nonatomic) NSImage *iconImage;
 @property(readonly) _Bool iconSelectionViewShouldShow;
-@property(nonatomic) struct CGSize iconSize;
-@property(readonly, nonatomic) FI_TTrackingImageView *iconView;
-@property(nonatomic, getter=isOverlappingTitle) _Bool overlappingTitle;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic, getter=isSelectionBordered) _Bool selectionBordered; // @synthesize selectionBordered=_isSelectionBordered;
-@property(nonatomic, getter=isSpringBlinkingOff) _Bool springBlinkingOff; // @synthesize springBlinkingOff=_isSpringBlinkingOff;
-@property(nonatomic, getter=isSubtitleEnabled) _Bool subtitleEnabled;
-@property(copy, nonatomic) NSFont *subtitleFont;
-@property(copy, nonatomic) NSColor *subtitleFontColor;
-@property(copy, nonatomic) NSSet *subtitleStringSet;
-@property(readonly) Class superclass;
-@property(nonatomic) const void *tagColorIndexes;
-@property(nonatomic, getter=isTitleDimmed) _Bool titleDimmed; // @synthesize titleDimmed=_titleDimmed;
-@property(nonatomic, getter=isTitleEnabled) _Bool titleEnabled;
-@property(copy, nonatomic) NSFont *titleFont;
-@property(copy, nonatomic) NSColor *titleFontColor;
-@property(nonatomic, getter=isTitleOnBottom) _Bool titleOnBottom;
-@property(copy, nonatomic) NSString *titleStr;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
-@property(nonatomic) _Bool useActiveAppearance; // @synthesize useActiveAppearance=_useActiveAppearance;
-@property(copy, nonatomic) NSImage *vendorBadgeImage; // @synthesize vendorBadgeImage=_vendorBadgeImage;
 
 @end
 

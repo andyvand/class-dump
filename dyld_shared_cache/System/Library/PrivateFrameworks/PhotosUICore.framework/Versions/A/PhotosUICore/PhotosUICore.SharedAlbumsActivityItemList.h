@@ -7,9 +7,6 @@
 @interface PhotosUICore.SharedAlbumsActivityItemList
 {
     id activityFeedItems;
-    id itemIdentifiers;
-    id loadingStatus;
-    id version;
 }
 
 @end

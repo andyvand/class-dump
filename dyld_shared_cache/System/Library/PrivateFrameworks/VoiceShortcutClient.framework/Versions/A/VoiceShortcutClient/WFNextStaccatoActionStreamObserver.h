@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNMetadataProvider, LNTranscriptObservingProvider, NSMutableSet, NSUUID, WFConfiguredSystemIntentAction;
+@class LNTranscriptObservingProvider;
 @protocol WFNextStaccatoActionStreamObserverDelegate;
 
 @interface WFNextStaccatoActionStreamObserver
 {
     id <WFNextStaccatoActionStreamObserverDelegate> _delegate;
-    WFConfiguredSystemIntentAction *_baseAction;
-    LNTranscriptObservingProvider *_observingProvider;
-    NSUUID *_connectionUUID;
-    LNMetadataProvider *_metadataProvider;
-    NSMutableSet *_trackingActivityIDs;
 }
 
 - (id);
+- (void)&{;
+- (void);
+- (void)|;
+- (void);
+- (void)B3|;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (id)�u;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void)!UÐ!,EùÑ^Ð1Â0@ù
 × ;
@@ -40,13 +35,7 @@
 - (id)ÿYðÆ8lêÿIðÆ0¼êÿ;
 
 // Remaining properties
-@property(retain, nonatomic) WFConfiguredSystemIntentAction *baseAction; // @synthesize baseAction=_baseAction;
-@property(copy, nonatomic) NSUUID *connectionUUID; // @synthesize connectionUUID=_connectionUUID;
-@property(nonatomic) __weak id <WFNextStaccatoActionStreamObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) LNMetadataProvider *metadataProvider; // @synthesize metadataProvider=_metadataProvider;
-@property(readonly, nonatomic, getter=isObserving) _Bool observing;
 @property(retain, nonatomic) LNTranscriptObservingProvider *observingProvider; // @synthesize observingProvider=_observingProvider;
-@property(retain, nonatomic) NSMutableSet *trackingActivityIDs; // @synthesize trackingActivityIDs=_trackingActivityIDs;
 
 @end
 

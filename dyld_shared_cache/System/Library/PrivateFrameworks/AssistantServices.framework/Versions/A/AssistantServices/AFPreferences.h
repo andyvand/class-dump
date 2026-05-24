@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, AFPreferencesNotificationCenter, NSLock, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AFPreferences
 {
     struct atomic_flag _registeredForInternalPrefs;
-    struct atomic_flag _registeredForLanguageCode;
-    struct atomic_flag _registeredForOutputVoice;
-    struct atomic_flag _registeredForNanoPrefs;
-    struct atomic_flag _registeredForAssistantEnablement;
-    struct atomic_flag _registeredForDictationEnablement;
-    NSObject<OS_dispatch_queue> *_navTokenQueue;
-    _Bool _navTokenIsValid;
-    int _navToken;
-    long long _tlsSessionTicketFlushRequestPending;
-    AFInstanceContext *_instanceContext;
-    AFPreferencesNotificationCenter *_trampoline;
-    NSLock *_trampolineObserverListLock;
-    NSMutableArray *_trampolineObservers;
 }
 
-+ (id);
-+ (id);
++ (id)W ;
++ (id);
 
 @end
 

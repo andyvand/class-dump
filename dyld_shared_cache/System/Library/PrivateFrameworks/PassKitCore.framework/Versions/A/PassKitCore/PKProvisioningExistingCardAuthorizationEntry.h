@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKSecureElementCertificateSet;
+@class NSString;
 
 @interface PKProvisioningExistingCardAuthorizationEntry
 {
     NSString *_dpanIdentifier;
-    NSString *_type;
-    NSData *_authorizationData;
-    PKSecureElementCertificateSet *_signatureCertificateSet;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id)`ӫ;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_endedReason;
 - (void);
 - (id)R,N,V_appletDataRequiresEncryption;
-- (void)ioningCancelled;
+- (void)provisioningCancelled;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
 @property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(retain, nonatomic) PKSecureElementCertificateSet *signatureCertificateSet; // @synthesize signatureCertificateSet=_signatureCertificateSet;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

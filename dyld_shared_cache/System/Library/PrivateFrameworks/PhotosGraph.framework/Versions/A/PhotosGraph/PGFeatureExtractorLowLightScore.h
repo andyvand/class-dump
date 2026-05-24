@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)uiredCriteriaFactory;
+- (long long)@;
+- (id)requestedPermissions;
+- (id)PGMeaningfulEventRequiredCriteriaFactory;
 
 @end
 

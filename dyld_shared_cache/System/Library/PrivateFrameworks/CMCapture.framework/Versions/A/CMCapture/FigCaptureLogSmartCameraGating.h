@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureLogSmartCameraGating
 {
     int _gateIdentifier;
-    struct os_unfair_lock_s _lock;
-    NSDate *_openingTimestamp;
-    NSSet *_currentPresentations;
-    int _numFrames;
-    int _numTrackedRegions;
-    int _numBoxesPresented;
-    int _numEmptyFrames;
-    int _numClosingFrames;
 }
 
-+ (void)nary;
-- (void);
++ (void)AttributesDictionary;
+- (void)ceOverridden;
 - (void);
 - (void);
 - (void);

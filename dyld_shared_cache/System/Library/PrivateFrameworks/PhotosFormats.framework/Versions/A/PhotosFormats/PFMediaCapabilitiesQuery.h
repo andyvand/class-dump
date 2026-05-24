@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)8;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)completion for operation %{public}@ with server change token %@, client change token date %@, record changes status %ld;
 - (id);
 - (void);
 

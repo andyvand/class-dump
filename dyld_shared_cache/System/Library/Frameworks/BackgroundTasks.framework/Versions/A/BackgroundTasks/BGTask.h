@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BGTaskRequest, NSObject, NSString, _DASActivity;
-@protocol OS_dispatch_queue;
+@class _DASActivity;
 
 @interface BGTask
 {
     struct os_unfair_recursive_lock_s __lock;
-    _Bool __completed;
-    CDUnknownBlockType _expirationHandler;
-    NSString *_identifier;
-    _DASActivity *__activity;
-    NSObject<OS_dispatch_queue> *__handlerQueue;
-    CDUnknownBlockType __completionHandler;
 }
 
 - (CDUnknownBlockType);
@@ -27,12 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)has completed reminders and is hiding completed reminders. UI with limited space (e.g. widget in iOS Locked Screen) will display this short-format instead of 'All Reminders Completed';
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setPasswordAndVerifyDoNotMatchLabel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
@@ -40,12 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setActivity:) _DASActivity *_activity; // @synthesize _activity=__activity;
-@property(nonatomic, setter=_setCompleted:) _Bool _completed; // @synthesize _completed=__completed;
-@property(copy, nonatomic, setter=_setCompletionHandler:) CDUnknownBlockType _completionHandler; // @synthesize _completionHandler=__completionHandler;
-@property(retain, nonatomic, setter=_setHandlerQueue:) NSObject<OS_dispatch_queue> *_handlerQueue; // @synthesize _handlerQueue=__handlerQueue;
-@property(copy) CDUnknownBlockType expirationHandler; // @synthesize expirationHandler=_expirationHandler;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) BGTaskRequest *taskRequest;
 
 @end
 

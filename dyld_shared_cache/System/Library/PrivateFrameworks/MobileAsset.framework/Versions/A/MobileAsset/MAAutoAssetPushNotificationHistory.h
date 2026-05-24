@@ -12,14 +12,14 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *notificationHistory; // @synthesize notificationHistory=_notificationHistory;

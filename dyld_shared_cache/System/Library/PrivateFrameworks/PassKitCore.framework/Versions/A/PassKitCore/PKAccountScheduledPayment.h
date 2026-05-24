@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAccountPaymentFundingSource, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKAccountScheduledPayment
 {
     PKCurrencyAmount *_currencyAmount;
-    PKAccountPaymentFundingSource *_fundingSource;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) PKAccountPaymentFundingSource *fundingSource; // @synthesize fundingSource=_fundingSource;
 
 @end
 

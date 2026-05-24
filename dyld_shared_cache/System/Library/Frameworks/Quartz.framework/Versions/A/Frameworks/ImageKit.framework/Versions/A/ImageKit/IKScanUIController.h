@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICScannerFunctionalUnit, IKScannerDeviceViewHandler, NSMutableArray, NSString;
+@class IKScannerDeviceViewHandler;
 
 @interface IKScanUIController
 {
     IKScannerDeviceViewHandler *_scannerDeviceViewHandler;
-    ICScannerFunctionalUnit *_functionalUnit;
-    unsigned long long _functionalUnitType;
-    long long _detectSeparateItemsMode;
-    NSMutableArray *_scanResults;
-    NSMutableArray *_statusTextArray;
-    NSString *_statusText;
-    _Bool _scanUIEnabled;
-    _Bool _scanButtonEnabled;
-    unsigned long long _overviewScanResolution;
-    _Bool _createSingleDocumentReChecked;
-    long long _imageCorrectionType;
-    _Bool _overviewScanWasCanceled;
 }
 
 + (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,21 +30,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -68,11 +56,11 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)stringByAppendingString: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void)w;
+- (void)IKImageEditView;
 - (void);	
 	vec4 D = texture2DRect(Framebuffer, DstCoord);	
 	if(color.a == 0.0 || source.a == 0.0){
@@ -102,17 +90,7 @@
 ;
 
 // Remaining properties
-@property _Bool createSingleDocumentReChecked; // @synthesize createSingleDocumentReChecked=_createSingleDocumentReChecked;
-@property long long detectSeparateItemsMode; // @synthesize detectSeparateItemsMode=_detectSeparateItemsMode;
-@property(nonatomic) ICScannerFunctionalUnit *functionalUnit; // @synthesize functionalUnit=_functionalUnit;
-@property unsigned long long functionalUnitType; // @synthesize functionalUnitType=_functionalUnitType;
-@property(readonly) _Bool hasFunctionalUnit;
-@property long long imageCorrectionType; // @synthesize imageCorrectionType=_imageCorrectionType;
-@property _Bool overviewScanWasCanceled; // @synthesize overviewScanWasCanceled=_overviewScanWasCanceled;
-@property _Bool scanButtonEnabled; // @synthesize scanButtonEnabled=_scanButtonEnabled;
-@property _Bool scanUIEnabled; // @synthesize scanUIEnabled=_scanUIEnabled;
 @property IKScannerDeviceViewHandler *scannerDeviceViewHandler; // @synthesize scannerDeviceViewHandler=_scannerDeviceViewHandler;
-@property(retain) NSString *statusText; // @synthesize statusText=_statusText;
 
 @end
 

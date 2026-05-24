@@ -11,11 +11,11 @@
     _Bool _isExpanded;
 }
 
-- (id);
-- (struct CGSize);
-- (struct CGRect);
-- (void);
-- (void);
+- (id);
+- (struct CGSize)backgroundAVAssetDownloadTask:didReceiveDownloadToken: /* Error: Ran out of types for this method. */;
+- (struct CGRect)backgroundAVAssetDownloadTask:(id)arg1 didLoadTimeRange:(struct CGRect)arg2 totalTimeRangesLoaded:(struct CGPoint)arg3 timeRangeExpectedToLoad:(unsigned long long)arg4 forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (void)ts;
+- (void)ForExtraction;
 
 @end
 

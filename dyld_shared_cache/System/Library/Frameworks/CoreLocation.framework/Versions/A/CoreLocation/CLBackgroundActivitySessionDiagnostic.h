@@ -13,18 +13,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)`.;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ficationExtension;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool authorizationDenied;
-@property(readonly, nonatomic) _Bool authorizationDeniedGlobally;
-@property(readonly, nonatomic) _Bool authorizationRequestInProgress;
-@property(readonly, nonatomic) _Bool authorizationRestricted;
-@property(readonly, nonatomic) _Bool insufficientlyInUse;
-@property(readonly, nonatomic) _Bool serviceSessionRequired;
 
 @end
 

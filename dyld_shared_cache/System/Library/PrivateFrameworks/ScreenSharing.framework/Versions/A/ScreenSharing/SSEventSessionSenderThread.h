@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SSEventSession;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface SSEventSessionSenderThread
 {
     _Bool _suspended;
-    NSObject<OS_dispatch_semaphore> *_suspendSemaphore;
-    struct __CFRunLoop *_runLoop;
-    SSEventSession *_session;
 }
 
 - (id);
@@ -24,19 +21,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct __CFRunLoop *);
+- (void)reverseGeoFetchOptionsForPhotoLibrary: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void)LegacyVNC;
+- (_Bool)H;
+- (void)userHasAlreadyAgreedToProceedWithUnencryptedLegacyVNC;
 - (void)r does not support Mission Control;
 
 // Remaining properties
-@property struct __CFRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property __weak SSEventSession *session; // @synthesize session=_session;
 @property NSObject<OS_dispatch_semaphore> *suspendSemaphore; // @synthesize suspendSemaphore=_suspendSemaphore;
-@property _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

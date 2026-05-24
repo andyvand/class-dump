@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?	;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *autoIdentifier; // @synthesize autoIdentifier=_autoIdentifier;

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)ool but found ;
+- (id)ected to decode Bool but found ;
+- (id)t found ;
+- (id)instead.;
+- (id)d Double but found null value instead.;
+- (Class)ted to decode Float but found ;
+- (_Bool)skipping evaluation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

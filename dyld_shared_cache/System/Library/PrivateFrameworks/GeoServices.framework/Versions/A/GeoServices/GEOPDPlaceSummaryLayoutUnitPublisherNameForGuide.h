@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)ories:(id)arg1;
++ (_Bool)setIncludeBusinessCategories:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)dioAtStartInMs:(id)arg1 %{public}lu,  _hepAudioOriginInMs:%{public}f, _twoShotSilenceThresholdInMs:%{public}f, voiceTriggerInfo:%{public}@, /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (id)rchProviderID"b1"has_numberOfResults"b1"has_positionInResults"b1"has_sequenceNumber"b1};
-- (id);
+- (id)_localizedDescription;
 - (id)äHIJ@KüK;
-- (id)ded_category_filter;
+- (id)included_category_filter;
 
 @end
 

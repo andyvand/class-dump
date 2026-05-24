@@ -5,7 +5,7 @@
 //
 
 @protocol INPlayAudioMessageIntentResponseExport
-- (long long)asIsExcludeFilter;
+- (long long)hasIsExcludeFilter;
 
 // Remaining properties
 @property(readonly) long long code;

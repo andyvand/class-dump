@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MEDecodedMessageBanner, MUIRemoteImageCollector, NSArray, NSData, NSDictionary, NSError, NSMutableDictionary, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface MUIWebDocument
 {
     NSString *_html;
-    NSMutableDictionary *_jsDocumentContext;
-    NSMutableDictionary *_urlsWhichFailedToLoadThroughProxy;
-    _Bool _isEncrypted;
-    _Bool _hasEncryptedDescendantPart;
-    _Bool _isSigned;
-    _Bool _extensionRequestedContentBlocking;
-    _Bool _hasBlockedMessageContent;
-    _Bool _hasUntrustedRemoteURLAttachments;
-    _Bool _directlyLoadURLsWhichFailedToLoadThroughProxy;
-    _Bool _disallowUsersToLoadRemoteContent;
-    NSArray *_attachments;
-    long long _imageScale;
-    Class _webAttachmentClass;
-    NSArray *_signers;
-    NSArray *_signerNames;
-    NSString *_decoderID;
-    NSData *_decodedMessageContext;
-    MEDecodedMessageBanner *_decodedMessageBanner;
-    NSString *_localizedRemoteContentBlockingReason;
-    CDUnknownBlockType _URLClickObserver;
-    NSString *_hideMyEmailRecipientAddress;
-    CDUnknownBlockType _URLRequestObserver;
-    NSURL *_baseURL;
-    NSDictionary *_dataDetectorsContext;
-    NSError *_smimeError;
-    long long _messageContentTypeToBlock;
-    MUIRemoteImageCollector *_remoteImageCollector;
-    unsigned long long _originalEncoding;
 }
 
 + (_Bool);
@@ -46,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -66,7 +38,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -80,23 +52,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)y(*;
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -104,43 +76,14 @@
 - (void);
 - (id);
 - (long long);
-- (void)ectlyLoadURLsWhichFailedToLoadThroughProxy: /* Error: Ran out of types for this method. */;
-- (void)rrayByAddingObject:(id)arg1;
-- (id)gate;
+- (void)setDirectlyLoadURLsWhichFailedToLoadThroughProxy: /* Error: Ran out of types for this method. */;
+- (void)arrayByAddingObject:(id)arg1;
+- (id)MUIHighlightedMessagesControllerDelegate;
 - (id)elled.;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType URLClickObserver; // @synthesize URLClickObserver=_URLClickObserver;
-@property(copy, nonatomic) CDUnknownBlockType URLRequestObserver; // @synthesize URLRequestObserver=_URLRequestObserver;
-@property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSDictionary *dataDetectorsContext; // @synthesize dataDetectorsContext=_dataDetectorsContext;
-@property(copy, nonatomic) MEDecodedMessageBanner *decodedMessageBanner; // @synthesize decodedMessageBanner=_decodedMessageBanner;
-@property(copy, nonatomic) NSData *decodedMessageContext; // @synthesize decodedMessageContext=_decodedMessageContext;
-@property(copy, nonatomic) NSString *decoderID; // @synthesize decoderID=_decoderID;
-@property(nonatomic) _Bool directlyLoadURLsWhichFailedToLoadThroughProxy; // @synthesize directlyLoadURLsWhichFailedToLoadThroughProxy=_directlyLoadURLsWhichFailedToLoadThroughProxy;
-@property(nonatomic) _Bool disallowUsersToLoadRemoteContent; // @synthesize disallowUsersToLoadRemoteContent=_disallowUsersToLoadRemoteContent;
-@property(nonatomic) _Bool extensionRequestedContentBlocking; // @synthesize extensionRequestedContentBlocking=_extensionRequestedContentBlocking;
-@property(nonatomic) _Bool hasBlockedMessageContent; // @synthesize hasBlockedMessageContent=_hasBlockedMessageContent;
-@property(nonatomic) _Bool hasEncryptedDescendantPart; // @synthesize hasEncryptedDescendantPart=_hasEncryptedDescendantPart;
-@property(nonatomic) _Bool hasUntrustedRemoteURLAttachments; // @synthesize hasUntrustedRemoteURLAttachments=_hasUntrustedRemoteURLAttachments;
-@property(copy, nonatomic) NSString *hideMyEmailRecipientAddress; // @synthesize hideMyEmailRecipientAddress=_hideMyEmailRecipientAddress;
-@property(copy, nonatomic) NSString *html; // @synthesize html=_html;
-@property(nonatomic) long long imageScale; // @synthesize imageScale=_imageScale;
-@property(nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(nonatomic) _Bool isSigned; // @synthesize isSigned=_isSigned;
-@property(readonly, copy, nonatomic) NSDictionary *jsDocumentContext;
-@property(copy, nonatomic) NSString *localizedRemoteContentBlockingReason; // @synthesize localizedRemoteContentBlockingReason=_localizedRemoteContentBlockingReason;
-@property(nonatomic) long long messageContentTypeToBlock; // @synthesize messageContentTypeToBlock=_messageContentTypeToBlock;
-@property(nonatomic) unsigned long long originalEncoding; // @synthesize originalEncoding=_originalEncoding;
-@property(retain, nonatomic) MUIRemoteImageCollector *remoteImageCollector; // @synthesize remoteImageCollector=_remoteImageCollector;
-@property(copy, nonatomic) NSArray *signerNames; // @synthesize signerNames=_signerNames;
-@property(copy, nonatomic) NSArray *signers; // @synthesize signers=_signers;
-@property(retain, nonatomic) NSError *smimeError; // @synthesize smimeError=_smimeError;
-@property(readonly, nonatomic) long long urlsProxyFailureReason;
-@property(readonly, copy, nonatomic) NSArray *urlsWhichFailedToLoadThroughProxy;
-@property(nonatomic) Class webAttachmentClass; // @synthesize webAttachmentClass=_webAttachmentClass;
 
 @end
 

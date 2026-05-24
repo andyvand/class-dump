@@ -11,16 +11,14 @@
 @interface MPChangePlaybackPositionCommandEvent : MPRemoteCommandEvent
 {
     double _positionTime;
-    NSNumber *_referenceTime;
 }
 
 - (double);
 - (id);
 - (id);
-- (void)odelPropertyPodcastChapterTitle__MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastChapterTitle__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) double positionTime; // @synthesize positionTime=_positionTime;
 @property(readonly, nonatomic) NSNumber *referenceTime; // @synthesize referenceTime=_referenceTime;
 
 @end

@@ -5,5 +5,17 @@
 //
 
 @protocol UIImagePickerCameraViewController
+- (void)B48;
+- (void)unreadCountFullReplacementWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)timingComingBackFromStorage;
+- (_Bool)startFinalizingTransfer:updateByteCounts: /* Error: Ran out of types for this method. */;
+- (void)scheduleMessageGUIDsUpToLimit:(_Bool)arg1 flag:lane:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)loadPersonalNicknameIfNeeded;
+- (void)loadPersistentStoresWithCompletionHandler:(long long)arg1;
+- (void):(long long)arg1 chatID:queryID: /* Error: Ran out of types for this method. */;
+- (void)berOfMessagesAfter:(long long)arg1 threadIdentifier:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (long long)ye ;
+- (long long)sSl;
 @end
 

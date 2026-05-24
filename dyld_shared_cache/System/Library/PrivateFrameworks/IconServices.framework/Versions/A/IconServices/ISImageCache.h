@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ISImageCache
 {
     struct os_unfair_lock_s _lock;
-    NSData *_latestValidationToken;
-    NSMutableDictionary *_imageBagsByDescriptor;
 }
 
 - (id);
@@ -27,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *imageBagsByDescriptor; // @synthesize imageBagsByDescriptor=_imageBagsByDescriptor;
-@property(readonly) NSData *latestValidationToken; // @synthesize latestValidationToken=_latestValidationToken;
 @property struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end

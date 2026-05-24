@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CHPrefixQueryItem
 {
     NSSet *_strokeIdentifiers;
-    NSString *_queryResult;
-    struct CGPath *_estimatedBaseline;
 }
 
 - (id);
 - (_Bool);
 - (struct CGPath *);
-- (id);
-- (void);
+- (id)organizationIdentifier;
+- (void)in the embedding search index:%@
+ /* Error: Ran out of types for this method. */;
 - (void)Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPath *estimatedBaseline; // @synthesize estimatedBaseline=_estimatedBaseline;
-@property(readonly, nonatomic) NSString *queryResult; // @synthesize queryResult=_queryResult;
 @property(readonly, copy, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end

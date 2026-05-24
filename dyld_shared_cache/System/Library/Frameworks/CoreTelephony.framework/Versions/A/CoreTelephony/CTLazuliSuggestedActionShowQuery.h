@@ -11,15 +11,15 @@
     NSString *_query;
 }
 
-+ (_Bool);
++ (_Bool)downloadDuration;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)biometryCurrentSetRequirementWithFallback:(id)arg1;
 - (id);
 - (void)&°!Cùª)1Â0@ù
 × ;

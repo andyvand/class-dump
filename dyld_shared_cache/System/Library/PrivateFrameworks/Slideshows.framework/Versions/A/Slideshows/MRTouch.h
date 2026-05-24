@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MRTouch
 {
     NSMutableArray *_gestureRecognizers;
-    int _phase;
-    double _timestamp;
-    unsigned long long _tapCount;
-    struct CGPoint _location;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)_droppedEntriesByReason;
 - (void);
 - (int);
 - (void);
@@ -33,11 +29,7 @@
 - (void)¿·;
 
 // Remaining properties
-@property(readonly) NSArray *gestureRecognizers;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(nonatomic) unsigned long long tapCount; // @synthesize tapCount=_tapCount;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

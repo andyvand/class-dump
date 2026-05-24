@@ -11,17 +11,15 @@
 @interface _BlastDoorLPSongMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_name;
-    NSString *_artist;
-    NSString *_album;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)24;
 - (void);
 - (_Bool);
 - (void);
@@ -30,16 +28,7 @@
 - (void)BurnedGoal;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

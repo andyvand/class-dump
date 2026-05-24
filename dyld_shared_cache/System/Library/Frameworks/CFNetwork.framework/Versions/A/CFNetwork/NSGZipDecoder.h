@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSGZipDecoder
 {
     struct {
@@ -15,12 +13,6 @@
         unsigned long long src_size;
         void *state;
     } _stream;
-    unsigned long long _modificationTime;
-    NSString *_filename;
-    _Bool _streamInitialized;
-    _Bool _decodedHeader;
-    _Bool _finishedInflating;
-    _Bool _pad;
 }
 
 - (_Bool);
@@ -28,18 +20,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ints list;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

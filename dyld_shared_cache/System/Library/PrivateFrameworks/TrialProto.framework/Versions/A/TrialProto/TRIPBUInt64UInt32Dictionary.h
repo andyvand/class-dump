@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt64UInt32Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -17,9 +16,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (_Bool);

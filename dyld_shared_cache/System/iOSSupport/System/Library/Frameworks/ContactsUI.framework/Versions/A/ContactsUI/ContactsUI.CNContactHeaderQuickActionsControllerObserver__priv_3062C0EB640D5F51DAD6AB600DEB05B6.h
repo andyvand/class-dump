@@ -7,8 +7,6 @@
 @interface ContactsUI.CNContactHeaderQuickActionsControllerObserver__priv_3062C0EB640D5F51DAD6AB600DEB05B6
 {
     id quickActionsController;
-    id container;
-    id actionTypes;
 }
 
 - (void);

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSString;
-
 @interface EMSecurityInformation
 {
     _Bool _isEncrypted;
-    _Bool _hasEncryptedDescendantPart;
-    NSArray *_signers;
-    NSError *_smimeError;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)Home;
 - (_Bool);
 - (id);
 - (id);
@@ -28,23 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool hasEncryptedDescendantPart; // @synthesize hasEncryptedDescendantPart=_hasEncryptedDescendantPart;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(readonly, nonatomic) _Bool isSigned;
-@property(readonly, nonatomic) NSArray *signers; // @synthesize signers=_signers;
-@property(readonly, nonatomic) NSError *smimeError; // @synthesize smimeError=_smimeError;
-@property(readonly) Class superclass;
 
 @end
 

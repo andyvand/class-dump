@@ -5,10 +5,10 @@
 //
 
 @protocol MTLDrawable
+- (double)on-;
 - (void)s require MTLSamplerMipFilterNotMipmapped.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long drawableID;
 @property(readonly, nonatomic) double presentedTime;
 @end
 

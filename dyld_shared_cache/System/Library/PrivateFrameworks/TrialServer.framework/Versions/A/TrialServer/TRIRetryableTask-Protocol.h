@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) int retryCount;
-@property _Bool wasDeferred;
 @end
 

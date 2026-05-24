@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFSnippetCalculator, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString;
+@class MFSnippetCalculator, NSMutableSet;
 
 @interface MFSnippetManager
 {
     NSMutableSet *_messagesNeedingBodies;
-    id _pendingSnippetsLock;
-    NSMutableDictionary *_pendingSnippetDictionariesByStore;
-    _Bool _queuedUpdate;
-    MFSnippetCalculator *_snippetCalculator;
-    NSOperationQueue *_snippetCommitQueue;
 }
 
 + (id)#yñ¨;
@@ -33,15 +28,7 @@
 - (void)L¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MFSnippetCalculator *snippetCalculator; // @synthesize snippetCalculator=_snippetCalculator;
-@property(readonly, nonatomic) NSOperationQueue *snippetCommitQueue; // @synthesize snippetCommitQueue=_snippetCommitQueue;
-@property(readonly) Class superclass;
 
 @end
 

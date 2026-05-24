@@ -15,42 +15,24 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ht.CSLocaleObserver;
+- (void)card_membership;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property long long alertSetting; // @dynamic alertSetting;
-@property long long alertStyle; // @dynamic alertStyle;
-@property long long announcementSetting; // @dynamic announcementSetting;
 @property long long authorizationStatus; // @dynamic authorizationStatus;
-@property long long badgeSetting; // @dynamic badgeSetting;
-@property long long carPlaySetting; // @dynamic carPlaySetting;
-@property long long criticalAlertSetting; // @dynamic criticalAlertSetting;
-@property long long directMessagesSetting; // @dynamic directMessagesSetting;
-@property long long groupingSetting; // @dynamic groupingSetting;
-@property long long lockScreenSetting; // @dynamic lockScreenSetting;
-@property long long notificationCenterSetting; // @dynamic notificationCenterSetting;
-@property long long prioritizationSetting; // @dynamic prioritizationSetting;
-@property _Bool providesAppNotificationSettings; // @dynamic providesAppNotificationSettings;
-@property long long remoteNotificationsSetting; // @dynamic remoteNotificationsSetting;
-@property long long scheduledDeliverySetting; // @dynamic scheduledDeliverySetting;
-@property long long showPreviewsSetting; // @dynamic showPreviewsSetting;
-@property long long soundSetting; // @dynamic soundSetting;
-@property long long summarizationSetting; // @dynamic summarizationSetting;
-@property long long timeSensitiveSetting; // @dynamic timeSensitiveSetting;
 
 @end
 

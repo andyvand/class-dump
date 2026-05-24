@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, NSURLCache, NSURLSession;
+@class NSOperationQueue, NSURLCache;
 
 @interface ResourceLoader
 {
     NSOperationQueue *_queue;
-    NSURLSession *_session;
-    NSURLCache *_urlCache;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)performFetchRecordVersionsOperation:withBlock: /* Error: Ran out of types for this method. */;
+- (id)decryption of per-participant PCS for share %@ using our %{public}@ identity;
 - (void);
 - (void);
 - (void);
@@ -29,15 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURLCache *urlCache; // @synthesize urlCache=_urlCache;
 
 @end

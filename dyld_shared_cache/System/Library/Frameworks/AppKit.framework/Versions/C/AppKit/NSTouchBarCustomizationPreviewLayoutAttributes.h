@@ -10,29 +10,23 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewLayoutAttributes : NSCollectionViewLayoutAttributes
 {
     long long _itemState;
-    _Bool _editable;
-    _Bool _isSpace;
-    _Bool _showsAppState;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)b/wvA;
+- (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)t=%@ <%@>};
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)tion:(struct _NSZone *)arg1;
+- (id)anchorAttributeForOrientation:(struct _NSZone *)arg1;
 - (_Bool);
 
 // Remaining properties
-@property(getter=isEditable) _Bool editable; // @synthesize editable=_editable;
-@property(getter=isSpace) _Bool isSpace; // @synthesize isSpace=_isSpace;
 @property long long itemState; // @synthesize itemState=_itemState;
-@property _Bool showsAppState; // @synthesize showsAppState=_showsAppState;
 
 @end
 

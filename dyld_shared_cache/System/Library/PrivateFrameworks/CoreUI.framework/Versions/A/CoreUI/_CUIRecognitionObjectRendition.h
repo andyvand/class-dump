@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _CUIRecognitionObjectRendition : _CUIRawDataRendition
 {
     int _objectVersion;
-    CDStruct_95fa7c00 _transformation;
 }
 
 - (void);
 - (int);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id)Light Bezel Text;
-- (id)itionObject;
+- (id)kCUIRenditionTypeRecognitionObject;
 
 @end
 

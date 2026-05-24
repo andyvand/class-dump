@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMDIDSSessionDelegate;
+@class NSObject;
+@protocol HMDIDSSessionDelegate, OS_dispatch_queue;
 
 @protocol HMDIDSSession
-- (void)nHandler:(id <HMDIDSSessionDelegate>)arg1;
+- (void);
+- (void)_writeSettingValue:(id <HMDIDSSessionDelegate>)arg1 toAccessory:(NSObject<OS_dispatch_queue> *)arg2 forKeyPath:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *destination;
 @property(readonly) int socket;
 @end
 

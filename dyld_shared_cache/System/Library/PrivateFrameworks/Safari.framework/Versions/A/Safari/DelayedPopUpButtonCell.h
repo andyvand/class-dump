@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DelayedPopUpButtonCell
 {
     NSTimer *_menuTimer;
-    _Bool _didPopUpMenu;
-    _Bool _displayMenuImmediately;
-    _Bool _pressed;
 }
 
 + (double);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -35,7 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool displayMenuImmediately; // @synthesize displayMenuImmediately=_displayMenuImmediately;
-@property(nonatomic, getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
 
 @end
 

@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol DATransactionMonitorDelegate;
-
 @interface DATransactionMonitor
 {
     int _transactionCount;
-    NSMutableArray *_transactions;
-    id <DATransactionMonitorDelegate> _transactionMonitorDelegate;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)S!;
 - (void);
 - (int);
 - (void);
 
 // Remaining properties
 @property(nonatomic) int transactionCount; // @synthesize transactionCount=_transactionCount;
-@property(nonatomic) __weak id <DATransactionMonitorDelegate> transactionMonitorDelegate; // @synthesize transactionMonitorDelegate=_transactionMonitorDelegate;
-@property(retain, nonatomic) NSMutableArray *transactions; // @synthesize transactions=_transactions;
 
 @end
 

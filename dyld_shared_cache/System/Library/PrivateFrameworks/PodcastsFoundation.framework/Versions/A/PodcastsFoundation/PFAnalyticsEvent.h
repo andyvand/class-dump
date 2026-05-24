@@ -9,13 +9,12 @@
 @interface PFAnalyticsEvent
 {
     NSString *name;
-    void payloadGenerator;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,9 +29,7 @@
 - (void)Uy_)Uy_SaySSSgG"VG\Uy_5Uy_.&USo17OS_dispatch_queueCGADGGG;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *name; // @synthesize name;
-@property(nonatomic, copy) CDUnknownBlockType payloadGenerator;
 
 @end
 

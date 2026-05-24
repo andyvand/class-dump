@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface UIPDFHighlightLayer
 {
     struct CGPath *_clipPath;
-    struct CGPath *_borderPath;
-    struct CGPoint offset;
 }
 
+- (void)};
 - (void);
-- (void);
+- (struct CGPath *)GUID:%@ /* Error: Ran out of types for this method. */;
 - (struct CGPath *);
-- (struct CGPath *);
-- (void);
+- (void)_payloadAllowAccountModification;
 - (void)on:(struct CGPoint)arg1 ]_block_invoke;
 - (struct CGPoint)ØÀÿ×«;
 
 // Remaining properties
-@property(nonatomic) struct CGPath *borderPath; // @dynamic borderPath;
 @property(nonatomic) struct CGPath *clipPath; // @dynamic clipPath;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset;
 
 @end
 

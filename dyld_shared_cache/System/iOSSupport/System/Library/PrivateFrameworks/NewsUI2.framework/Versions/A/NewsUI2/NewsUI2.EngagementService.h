@@ -7,7 +7,6 @@
 @interface NewsUI2.EngagementService
 {
     id dataController;
-    id featureSettings;
 }
 
 @end

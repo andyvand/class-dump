@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void),(!(;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id)fier;

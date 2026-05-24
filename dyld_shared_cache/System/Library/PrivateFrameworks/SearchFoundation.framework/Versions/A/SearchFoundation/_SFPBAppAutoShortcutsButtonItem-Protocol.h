@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAppAutoShortcutsItem;
+@class _SFPBAppAutoShortcutsItem;
 
 @protocol _SFPBAppAutoShortcutsButtonItem
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBAppAutoShortcutsItem *appAutoShortcutsItem;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

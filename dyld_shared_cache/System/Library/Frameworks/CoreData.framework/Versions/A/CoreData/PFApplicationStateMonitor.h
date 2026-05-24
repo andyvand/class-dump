@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFCloudKitThrottledNotificationObserver;
-@protocol PFApplicationStateMonitorDelegate;
+@class PFCloudKitThrottledNotificationObserver;
 
 __attribute__((visibility("hidden")))
 @interface PFApplicationStateMonitor
 {
     PFCloudKitThrottledNotificationObserver *_appActivateLifecycleObserver;
-    PFCloudKitThrottledNotificationObserver *_appDeactivateLifecycleObserver;
-    _Atomic int _transitionCounter;
-    long long _backgroundTimeout;
-    unsigned long long _applicationState;
-    NSObject<PFApplicationStateMonitorDelegate> *_delegate;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)y	;
 - (void)Ð$ð%è;
 
 @end

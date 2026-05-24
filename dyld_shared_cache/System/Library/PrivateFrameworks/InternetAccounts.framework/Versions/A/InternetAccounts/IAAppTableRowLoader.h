@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAppTableRow, NSArray;
+@class IAAppTableRow;
 
 @interface IAAppTableRowLoader
 {
     IAAppTableRow *_rowView;
-    NSArray *_topLevelObjects;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly) IAAppTableRow *rowView; // @synthesize rowView=_rowView;
-@property(retain) NSArray *topLevelObjects; // @synthesize topLevelObjects=_topLevelObjects;
 
 @end
 

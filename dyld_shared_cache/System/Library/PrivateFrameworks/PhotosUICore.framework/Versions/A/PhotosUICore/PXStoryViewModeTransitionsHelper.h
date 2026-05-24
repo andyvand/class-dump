@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryModel, PXStoryViewModeTransition, PXUpdater;
-@protocol PXStoryViewModeTransitionsHelperDelegate;
+@class PXStoryModel;
 
 @interface PXStoryViewModeTransitionsHelper
 {
     PXStoryModel *_model;
-    id <PXStoryViewModeTransitionsHelperDelegate> _delegate;
-    long long _presentedViewMode;
-    PXStoryViewModeTransition *_currentViewModeTransition;
-    PXStoryViewModeTransition *_pendingViewModeTransition;
-    PXUpdater *_updater;
 }
 
 - (void);
@@ -32,32 +26,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).;
+- (void)isUserInteractingWithMap;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)rOffsetAnimator: /* Error: Ran out of types for this method. */;
+- (void)or * color; 
+		} 
+		;
+- (id)setCenterOffsetAnimator: /* Error: Ran out of types for this method. */;
 - (id)Tq,N,V_maxSearchSuggestions;
 - (void)ayAssets.count;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) PXStoryViewModeTransition *currentViewModeTransition; // @synthesize currentViewModeTransition=_currentViewModeTransition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXStoryViewModeTransitionsHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) PXStoryViewModeTransition *pendingViewModeTransition; // @synthesize pendingViewModeTransition=_pendingViewModeTransition;
 @property(nonatomic) long long presentedViewMode; // @synthesize presentedViewMode=_presentedViewMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end
 

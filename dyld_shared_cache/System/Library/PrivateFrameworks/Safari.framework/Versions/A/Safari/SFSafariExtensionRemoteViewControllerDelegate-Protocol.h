@@ -5,5 +5,8 @@
 //
 
 @protocol SFSafariExtensionRemoteViewControllerDelegate
+
+@optional
+- (void);
 @end
 

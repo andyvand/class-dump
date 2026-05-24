@@ -11,18 +11,16 @@
 @interface PKPeerPaymentStatementRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_emailAddress;
-    NSString *_accountIdentifier;
 }
 
-- (id);
-- (id);
+- (id)_;
+- (id)_;
 - (void);
 - (id)¬6ø7;
 - (void)'%@'; ;
 - (void)@'; ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 
 @end

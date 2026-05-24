@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNSoundActionsResult
 {
     id impl;
@@ -16,22 +14,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)P;
 - (void);
 - (CDStruct_3c1748cc);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *name;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

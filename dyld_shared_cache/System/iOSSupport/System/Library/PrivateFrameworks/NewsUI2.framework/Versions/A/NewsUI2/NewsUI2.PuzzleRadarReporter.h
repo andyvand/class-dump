@@ -7,11 +7,6 @@
 @interface NewsUI2.PuzzleRadarReporter
 {
     id commandCenter;
-    id puzzleRadarScript;
-    id puzzleComponentsStyler;
-    id puzzleHistoryService;
-    id puzzleStatsService;
-    id configurationManager;
 }
 
 - (void);

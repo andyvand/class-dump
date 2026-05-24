@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLASRSchemaDODMLASRAudioFileResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_asrId;
-    NSArray *_decodingResults;
-    SISchemaUUID *_linkId;
-    _Bool _hasAsrId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -42,17 +38,12 @@
 - (_Bool);
 - (id);
 - (id)ssages6Hr"b1"appContactFreqForMessages1Day"b1"appContactFreqForMessages7Day"b1"appContactFreqForMessages28Day"b1"appContactFreqForMessagesInf"b1"appContactFreqForMessages"b1"appContactFreqForMessagesUsingSiri"b1"appContactFreqForMessagesHaptic"b1};
-- (id)rySpanDataTier1;
+- (id)NLXSchemaCDMSiriVocabularySpanDataTier1;
 - (id)H;
 - (void)ZÅ%;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *asrId; // @synthesize asrId=_asrId;
-@property(copy, nonatomic) NSArray *decodingResults; // @synthesize decodingResults=_decodingResults;
-@property(nonatomic) _Bool hasAsrId; // @synthesize hasAsrId=_hasAsrId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end
 

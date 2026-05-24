@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CALNAlarmEngineMonitor, CALNURLHandler, EKEventStoreProvider;
+@protocol EKEventStoreProvider;
 
 @interface CALNTriggeredURLHandler
 {
     id <EKEventStoreProvider> _storeProvider;
-    id <CALNAlarmEngineMonitor> _alarmEngineMonitor;
-    id <CALNURLHandler> _fileOpener;
 }
 
 - (id);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)addHandler:(id)arg1 forAppExtension: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CALNAlarmEngineMonitor> alarmEngineMonitor; // @synthesize alarmEngineMonitor=_alarmEngineMonitor;
-@property(readonly, nonatomic) id <CALNURLHandler> fileOpener; // @synthesize fileOpener=_fileOpener;
 @property(readonly, nonatomic) id <EKEventStoreProvider> storeProvider; // @synthesize storeProvider=_storeProvider;
 
 @end

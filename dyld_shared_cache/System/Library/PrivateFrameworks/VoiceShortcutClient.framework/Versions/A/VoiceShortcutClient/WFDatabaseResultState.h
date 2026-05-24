@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface WFDatabaseResultState
 {
     unsigned long long _objectType;
-    NSSet *_state;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void)ñ^1Â0@ù
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long objectType; // @synthesize objectType=_objectType;
-@property(readonly, nonatomic) NSSet *state; // @synthesize state=_state;
 
 @end
 

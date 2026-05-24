@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, RPThread;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface RPAppAudioHAL
 {
     struct AudioStreamBasicDescription _audioBasicDescription;
-    NSObject<OS_dispatch_queue> *_audioDispatchQueue;
-    unsigned int *_currentOutputDevice;
-    CDUnknownBlockType _appAudioOutputHandler;
-    NSDate *_lastAudioDate;
-    RPThread *_rpThread;
-    NSObject<OS_dispatch_semaphore> *_audioProcessSemaphore;
-    struct opaqueCMSimpleQueue *_audioQueue;
-    CDStruct_1b6d18a9 _currentTime;
-    struct {
-        unsigned int _field1;
-        struct opaqueCMSimpleQueue *_field2;
-    } *_packetPool;
-    struct AudioBufferList *_appendedAudioBufferList;
-    float _audioSampleRate;
-    float _audioOutputBlockPeriodSeconds;
-    long long _audioOutputBlockPeriodNanoSeconds;
-    CDUnknownBlockType _defaultDeviceChangedListener;
 }
 
 - (_Bool);
@@ -36,7 +16,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)scn_draw_fullscreen_triangle_VR_uv_vertex;
 - (void);
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)setShowWrapperResponseViewCommand:(CDUnknownBlockType)arg1;
 
 @end
 

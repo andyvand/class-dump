@@ -9,7 +9,6 @@
 @interface NSConcreteGlyphGenerator : NSGlyphGenerator
 {
     char *bidiTypes;
-    char *bidiLevels;
 }
 
 + (id);

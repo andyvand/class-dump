@@ -12,22 +12,16 @@ __attribute__((visibility("hidden")))
 @interface UIInterfaceActionViewState : UIInterfaceActionVisualStyleViewState
 {
     _Bool _isHighlighted;
-    _Bool _isPressed;
-    _Bool _isFocused;
-    _Bool _isPreferred;
-    UIInterfaceAction *_action;
-    id _actionViewStateContext;
-    unsigned long long _visualCornerPosition;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Failed to download nickname with error:%@ /* Error: Ran out of types for this method. */;
++ (id)update from:%@ /* Error: Ran out of types for this method. */;
++ (id)e only nickname update from:(id)arg1 %@;
++ (id)ut it was not from one of our own devices From:(id)arg1 %@, ID:(id)arg2 %@;
++ (id)me update from:(id)arg1 %@;
 + (id);
 - (unsigned long long);
-- (id);
+- (id)number, using %@ instead;
 - (id);
 - (_Bool);
 - (void);
@@ -37,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool)indexesOfObjectsPassingTest:(id)arg1;
-- (id)roviderIOS;
+- (id)_UIUCBGroupBarButtonVisualProviderIOS;
 - (id)P~½@ißÜ_½ô?;
 - (_Bool)è>g;
 - (void)Èáþ;
@@ -45,12 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) id actionViewStateContext; // @synthesize actionViewStateContext=_actionViewStateContext;
-@property(readonly, nonatomic) _Bool isFocused; // @synthesize isFocused=_isFocused;
-@property(readonly, nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(readonly, nonatomic) _Bool isPreferred; // @synthesize isPreferred=_isPreferred;
-@property(readonly, nonatomic) _Bool isPressed; // @synthesize isPressed=_isPressed;
-@property(readonly, nonatomic) unsigned long long visualCornerPosition; // @synthesize visualCornerPosition=_visualCornerPosition;
 
 @end
 

@@ -6,25 +6,19 @@
 
 #import <PhotosFormats/PFStoryConcreteRecipeAsset.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PFStoryConcreteRecipeSongAsset : PFStoryConcreteRecipeAsset
 {
     long long _category;
-    long long _subcategory;
-    NSString *_songID;
-    NSString *_catalog;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_colorGradeCategory;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)f;
+- (id)_TtCVO10Accelerate9BNNSGraph7Builder20ErrorMessagesWrapper;
 - (id);
 - (long long);
 - (id);
@@ -33,20 +27,10 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)controlStyle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *catalog; // @synthesize catalog=_catalog;
-@property(readonly, nonatomic) long long category; // @synthesize category=_category;
 @property(retain, nonatomic) NSString *colorGradeCategory; // @synthesize colorGradeCategory=_colorGradeCategory;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long kind;
-@property(readonly, nonatomic) NSString *songID; // @synthesize songID=_songID;
-@property(readonly, nonatomic) long long subcategory; // @synthesize subcategory=_subcategory;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

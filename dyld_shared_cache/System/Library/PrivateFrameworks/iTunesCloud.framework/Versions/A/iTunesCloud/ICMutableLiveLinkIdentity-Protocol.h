@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol ICMutableLiveLinkIdentity
+- (NSString *)ortsMainPassCustomPostProcess"b1};
+- (void)x;
 - (NSURL *)for item persistent ID %lld...;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *externalIdentifier;
-@property(copy, nonatomic) NSURL *imageURL;
-@property(copy, nonatomic) NSPersonNameComponents *nameComponents;
 @end
 

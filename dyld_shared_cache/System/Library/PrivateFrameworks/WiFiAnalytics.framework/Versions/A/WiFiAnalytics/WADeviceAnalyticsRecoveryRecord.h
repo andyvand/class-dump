@@ -6,8 +6,6 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class NSString;
-
 @interface WADeviceAnalyticsRecoveryRecord : WADeviceAnalyticsDatedRecord
 {
 }
@@ -17,8 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) int apple80211Return; // @dynamic apple80211Return;
-@property(copy, nonatomic) NSString *recoveryReason; // @dynamic recoveryReason;
-@property(copy, nonatomic) NSString *recoveryType; // @dynamic recoveryType;
 
 @end
 

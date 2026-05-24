@@ -9,19 +9,17 @@
 @interface NUErrorMessage
 {
     NSString *_title;
-    NSString *_subtitle;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

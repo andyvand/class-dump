@@ -11,7 +11,7 @@
     NSMutableArray *_materials;
 }
 
-+ (Class);
++ (Class);
 - (id);
 - (void);
 - (id);
@@ -23,8 +23,8 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)@0:(id)arg1 8C16^{BluetoothDeviceAddress=[6C]}20@"AAP"28;
+- (void)PingResp;
 - (id);
 - (id);
 - (void)ength mismatch (%u != %zd).;

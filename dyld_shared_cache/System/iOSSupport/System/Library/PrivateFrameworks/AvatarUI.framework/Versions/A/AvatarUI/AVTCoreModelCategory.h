@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCoreModelPairing, NSArray, NSDictionary;
+@class NSArray;
 
 @interface AVTCoreModelCategory
 {
     NSArray *_presets;
-    NSDictionary *_tags;
-    NSArray *_pickers;
-    long long _presetCategory;
-    AVTCoreModelPairing *_pairing;
 }
 
 - (id);
@@ -22,14 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (id)onfiguration: /* Error: Ran out of types for this method. */;
+- (id)setCameraConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AVTCoreModelPairing *pairing; // @synthesize pairing=_pairing;
-@property(readonly, copy, nonatomic) NSArray *pickers; // @synthesize pickers=_pickers;
-@property(readonly, nonatomic) long long presetCategory; // @synthesize presetCategory=_presetCategory;
 @property(readonly, copy, nonatomic) NSArray *presets; // @synthesize presets=_presets;
-@property(readonly, copy, nonatomic) NSDictionary *tags; // @synthesize tags=_tags;
 
 @end
 

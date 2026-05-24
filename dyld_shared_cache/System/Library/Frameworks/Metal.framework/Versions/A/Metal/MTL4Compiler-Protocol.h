@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTL4PipelineDataSetSerializer, MTLDevice, MTLDynamicLibrary;
+@protocol MTL4CompilerTask, MTLDevice, MTLDynamicLibrary, MTLLibrary;
 
 @protocol MTL4Compiler
-- (id <MTLDynamicLibrary>);
+- (id <MTL4CompilerTask>);
+- (id <MTLLibrary>)afii10065;
+- (id <MTLDevice>)AO;
 - (id <MTLDynamicLibrary>)rLayoutDescriptor.;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
-@property(readonly) id <MTL4PipelineDataSetSerializer> pipelineDataSetSerializer;
 @end
 

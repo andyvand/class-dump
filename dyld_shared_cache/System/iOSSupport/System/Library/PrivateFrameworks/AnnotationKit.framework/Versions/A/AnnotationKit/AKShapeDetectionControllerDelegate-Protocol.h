@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol AKShapeDetectionControllerDelegate
+- (_Bool)AppStoreMacApp;
+- (UIView *)enabled;
+
+@optional
+- (void)le"8;
+- (struct CGRect)dy a client.;
 @end
 

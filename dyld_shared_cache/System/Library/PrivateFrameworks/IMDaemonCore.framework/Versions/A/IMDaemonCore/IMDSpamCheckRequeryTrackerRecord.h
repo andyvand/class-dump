@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface IMDSpamCheckRequeryTrackerRecord
 {
     NSDate *_expirationDate;
-    NSString *_messageGUID;
-    NSString *_chatGUID;
 }
 
-- (id);
+- (id)R+;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void)¼ì$¼&;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
 @property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
 
 @end
 

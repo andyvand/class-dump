@@ -6,33 +6,25 @@
 
 #import <NetworkExtension/NEExtensionProviderContext.h>
 
-@class NEIPC, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NEIPC;
 
 @interface NEExtensionTunnelProviderContext : NEExtensionProviderContext
 {
     NEIPC *_ipc;
-    NSObject<OS_dispatch_source> *_ipcIdleTimer;
 }
 
 + (id);
-+ (id);
++ (id)NSXPCListenerEndpoint";
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)Domain: /* Error: Ran out of types for this method. */;
+- (void)setAdvisoryAgentDomain: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

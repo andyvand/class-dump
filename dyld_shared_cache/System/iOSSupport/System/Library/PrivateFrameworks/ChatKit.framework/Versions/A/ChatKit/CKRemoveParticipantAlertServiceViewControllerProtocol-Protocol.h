@@ -5,5 +5,6 @@
 //
 
 @protocol CKRemoveParticipantAlertServiceViewControllerProtocol
+- (void)isDisplayingParticipantMatch;
 @end
 

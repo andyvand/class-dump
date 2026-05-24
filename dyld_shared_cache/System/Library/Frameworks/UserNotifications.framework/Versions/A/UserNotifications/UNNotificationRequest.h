@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UNNotificationContent, UNNotificationTrigger;
+@class UNNotificationContent;
 
 @interface UNNotificationRequest
 {
     UNNotificationContent *_content;
-    UNNotificationTrigger *_trigger;
-    unsigned long long _destinations;
-    NSString *_identifier;
 }
 
 + (id);
@@ -20,17 +17,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) UNNotificationContent *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property unsigned long long destinations; // @synthesize destinations=_destinations;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) UNNotificationTrigger *trigger; // @synthesize trigger=_trigger;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICIAMApplicationMessage;
-
 @interface ICIAMApplicationMessageSyncCommand
 {
     long long _commandSerialNumber;
-    ICIAMApplicationMessage *_applicationMessage;
-    int _commandType;
-    struct {
-        unsigned int commandSerialNumber:1;
-        unsigned int commandType:1;
-    } _has;
 }
 
 - (void);
@@ -25,7 +17,7 @@
 - (id);
 - (long long);
 - (int);
-- (void);
+- (void)R;
 - (_Bool);
 - (id);
 - (id);
@@ -42,11 +34,6 @@
 - (void)L²d²Ì²ä²L³´;
 
 // Remaining properties
-@property(retain, nonatomic) ICIAMApplicationMessage *applicationMessage; // @synthesize applicationMessage=_applicationMessage;
-@property(nonatomic) long long commandSerialNumber; // @synthesize commandSerialNumber=_commandSerialNumber;
-@property(nonatomic) int commandType; // @synthesize commandType=_commandType;
-@property(readonly, nonatomic) _Bool hasApplicationMessage;
-@property(nonatomic) _Bool hasCommandSerialNumber;
 @property(nonatomic) _Bool hasCommandType;
 
 @end

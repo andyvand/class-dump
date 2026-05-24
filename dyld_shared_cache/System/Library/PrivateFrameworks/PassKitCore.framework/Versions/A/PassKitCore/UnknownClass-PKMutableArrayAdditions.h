@@ -7,6 +7,6 @@
 @interface UnknownClass (PKMutableArrayAdditions)
 - (void);
 - (void);
-- (void)String:(id)arg1;
+- (void)stringByReplacingCharactersInRange:(id)arg1 withString: /* Error: Ran out of types for this method. */;
 @end
 

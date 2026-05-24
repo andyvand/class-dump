@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMUnitTestBundleLoader, IMUnitTestFrameworkLoader, IMUnitTestLogger, NSArray;
 @protocol IMUnitTestRunnerDelegate;
 
 @interface IMUnitTestRunner
 {
     id <IMUnitTestRunnerDelegate> _delegate;
-    IMUnitTestBundleLoader *_bundleLoader;
-    IMUnitTestLogger *_logger;
-    IMUnitTestFrameworkLoader *_frameworkLoader;
-    NSArray *_failedTests;
 }
 
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -26,19 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void)$	ØÿÜ];
 - (id)íá÷4´äãÿ;
 
 // Remaining properties
-@property(readonly) IMUnitTestBundleLoader *bundleLoader; // @synthesize bundleLoader=_bundleLoader;
 @property __weak id <IMUnitTestRunnerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSArray *failedTests; // @synthesize failedTests=_failedTests;
-@property(readonly) IMUnitTestFrameworkLoader *frameworkLoader; // @synthesize frameworkLoader=_frameworkLoader;
-@property(readonly) IMUnitTestLogger *logger; // @synthesize logger=_logger;
 
 @end
 

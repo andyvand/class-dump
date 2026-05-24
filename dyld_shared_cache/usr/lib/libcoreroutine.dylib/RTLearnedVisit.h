@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, RTLearnedLocation;
+@class NSUUID;
 
 @interface RTLearnedVisit
 {
     NSUUID *_identifier;
-    RTLearnedLocation *_location;
-    NSDate *_entryDate;
-    NSDate *_exitDate;
-    NSDate *_creationDate;
-    NSDate *_expirationDate;
-    double _placeConfidence;
-    unsigned long long _placeSource;
 }
 
 + (id);
@@ -24,41 +17,27 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)";
+- (id)s ON !! ***********;
+- (id)4p	;
 - (double);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)I}S);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)on: /* Error: Ran out of types for this method. */;
+- (id)_locationAvailabilityFromCLLocation: /* Error: Ran out of types for this method. */;
 - (void)Bucket is nil, heartbeatBucketToRequesters should be empty. (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(readonly, nonatomic) NSDate *exitDate; // @synthesize exitDate=_exitDate;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) RTLearnedLocation *location; // @synthesize location=_location;
-@property(nonatomic) double placeConfidence; // @synthesize placeConfidence=_placeConfidence;
-@property(nonatomic) unsigned long long placeSource; // @synthesize placeSource=_placeSource;
-@property(readonly) Class superclass;
 
 @end
 

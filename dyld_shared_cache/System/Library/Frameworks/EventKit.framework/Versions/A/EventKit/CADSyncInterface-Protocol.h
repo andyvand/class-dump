@@ -5,5 +5,7 @@
 //
 
 @protocol CADSyncInterface
+- (void)ingSession(MRExternalDevicePairingSession)] System pairing success.;
+- (void)ntext] Output devices became nil during processing;
 @end
 

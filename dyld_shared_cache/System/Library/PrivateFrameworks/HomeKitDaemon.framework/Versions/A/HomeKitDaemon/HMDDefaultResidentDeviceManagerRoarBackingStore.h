@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHome, HMDResidentSelectionInfo, NSMapTable, NSObject, NSString;
-@protocol OS_os_log;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDDefaultResidentDeviceManagerRoarBackingStore
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasAnyResident;
-    NSObject<OS_os_log> *_logger;
-    _Bool _allowedToWriteResidentSelectionInfo;
-    HMDHome *_home;
-    HMDAppleAccountManager *_appleAccountManager;
-    NSString *_logIdentifier;
-    NSMapTable *_residentDeviceByObjectID;
-    HMDResidentSelectionInfo *_residentSelectionInfoToWrite;
-    CDUnknownBlockType _residentSelectionInfoWriteCompletion;
 }
 
 + (id)`Uÿ4÷ÊB;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)_startSharingTripWithContacts:(CDUnknownBlockType)arg1 capabilityType:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (void)_startSharingTripWithContacts:(id)arg1 capabilityType:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (void)MSPContainerEdit;
+- (void)vate}@;
+- (id)error:(id)arg1 %@;
+- (CDUnknownBlockType)ate;
+- (id){public}@] _sendResumingToNextDestinationUpdate;
+- (id)blic}@] will send state %@;
+- (_Bool)Did fetch capabilities for %lu handles:(id)arg1 %{private}@;
+- (id)%{private}@;
+- (id)oller:(id)arg1 didUpdateETAForSharedTrip:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -65,23 +55,7 @@ __attribute__((visibility("hidden")))
 - (void));
 
 // Remaining properties
-@property _Bool allowedToWriteResidentSelectionInfo; // @synthesize allowedToWriteResidentSelectionInfo=_allowedToWriteResidentSelectionInfo;
-@property(readonly) __weak HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property(readonly) NSString *cloudChangeUpdateNotificationName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAnyResident;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) NSMapTable *residentDeviceByObjectID; // @synthesize residentDeviceByObjectID=_residentDeviceByObjectID;
-@property(readonly) HMDResidentSelectionInfo *residentSelectionInfo;
-@property(retain) HMDResidentSelectionInfo *residentSelectionInfoToWrite; // @synthesize residentSelectionInfoToWrite=_residentSelectionInfoToWrite;
-@property(copy) CDUnknownBlockType residentSelectionInfoWriteCompletion; // @synthesize residentSelectionInfoWriteCompletion=_residentSelectionInfoWriteCompletion;
-@property(readonly) Class superclass;
 
 @end
 

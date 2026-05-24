@@ -10,17 +10,10 @@ __attribute__((visibility("hidden")))
 @interface AOSUICodeEntryContext
 {
     NSString *_promptTitle;
-    NSString *_promptMessage;
-    NSString *_invalidCodeMessage;
-    NSString *_invalidCodeTitle;
-    NSString *_escapeTitle;
-    CDUnknownBlockType _escapeAction;
-    CDUnknownBlockType _codeEnteredAction;
-    CDUnknownBlockType _cancelEntryAction;
 }
 
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -39,13 +32,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelEntryAction; // @synthesize cancelEntryAction=_cancelEntryAction;
-@property(copy, nonatomic) CDUnknownBlockType codeEnteredAction; // @synthesize codeEnteredAction=_codeEnteredAction;
-@property(copy, nonatomic) CDUnknownBlockType escapeAction; // @synthesize escapeAction=_escapeAction;
-@property(copy, nonatomic) NSString *escapeTitle; // @synthesize escapeTitle=_escapeTitle;
-@property(copy, nonatomic) NSString *invalidCodeMessage; // @synthesize invalidCodeMessage=_invalidCodeMessage;
-@property(copy, nonatomic) NSString *invalidCodeTitle; // @synthesize invalidCodeTitle=_invalidCodeTitle;
-@property(copy, nonatomic) NSString *promptMessage; // @synthesize promptMessage=_promptMessage;
 @property(copy, nonatomic) NSString *promptTitle; // @synthesize promptTitle=_promptTitle;
 
 @end

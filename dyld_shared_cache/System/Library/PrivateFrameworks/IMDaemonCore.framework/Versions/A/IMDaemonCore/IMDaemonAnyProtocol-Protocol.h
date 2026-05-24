@@ -5,5 +5,12 @@
 //
 
 @protocol IMDaemonAnyProtocol
+- (void);
+- (void);
+- (void)T;
+- (void)(;
+- (void);
+- (void)B;
+- (void)procedural;
 @end
 

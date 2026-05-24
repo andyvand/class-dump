@@ -11,16 +11,11 @@
 @interface SCNDistanceConstraint : SCNConstraint
 {
     SCNNode *_target;
-    float _minimumDistance;
-    float _maximumDistance;
-    _Bool _keepTargetDirection;
-    struct SCNVector3 _targetDirection;
-    float _maximumDirectionAngle;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)confirmPasswordFieldLabels;
 - (void);
 - (void);
 - (_Bool);
@@ -29,7 +24,7 @@
 - (struct SCNVector3);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -40,8 +35,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double maximumDistance;
-@property(nonatomic) double minimumDistance;
 @property(retain, nonatomic) SCNNode *target;
 
 @end

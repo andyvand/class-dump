@@ -7,6 +7,7 @@
 @class GEORouteMatch;
 
 @protocol VKRouteMatchedAnnotationPresentation
+- (void)initWithContentsOfURL:(GEORouteMatch *)arg1 shouldUseAVPlayer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) GEORouteMatch *routeMatch;

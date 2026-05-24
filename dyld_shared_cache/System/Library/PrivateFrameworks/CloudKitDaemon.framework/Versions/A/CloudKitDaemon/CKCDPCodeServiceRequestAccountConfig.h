@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKCDPCodeServiceRequestAccountConfig
 {
     unsigned long long _accountFlags;
-    long long _lastWebActivityUTCMills;
-    long long _photosWebAccessTimestamp;
-    NSString *_countryCode;
-    _Bool _corporateSharingEnabled;
-    struct {
-        unsigned int accountFlags:1;
-        unsigned int lastWebActivityUTCMills:1;
-        unsigned int photosWebAccessTimestamp:1;
-        unsigned int corporateSharingEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -30,38 +18,29 @@
 - (long long);
 - (long long);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)AAQBAAEFAJ0AAQEAAQURnwABAQABBUO5AQMBAAEDLroBAwEAAQMvvQEBAQABA1C+AQEBAAEDUcABAQEAAQNTwQECAQABA1XDAQIBAAEDVMUBBAEAAQNnxgEFAQABA2jPAQEBAAEDh9ABAQEAAQOI2QEBAQABA9HdAQEBAAED5eQBAQEAAQQT7wEBAQABBM3yAQEBAAEE0PgBAQEAAQUC;
+- (void);
+- (unsigned long long));
+- (unsigned long long);
+- (_Bool)�;
+- (_Bool)Data:stableInfoSig:dynamicInfoData:dynamicInfoSig: /* Error: Ran out of types for this method. */;
+- (_Bool)uniqueColumns;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)onBlock:(id)arg1;
-- (void)ERROR_OR_RECORDS_RETURNED;
+- (void)TESTING_NO_RECORD_ERROR_OR_RECORDS_RETURNED;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accountFlags; // @synthesize accountFlags=_accountFlags;
-@property(nonatomic) _Bool corporateSharingEnabled; // @synthesize corporateSharingEnabled=_corporateSharingEnabled;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) _Bool hasAccountFlags;
 @property(nonatomic) _Bool hasCorporateSharingEnabled;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(nonatomic) _Bool hasLastWebActivityUTCMills;
-@property(nonatomic) _Bool hasPhotosWebAccessTimestamp;
-@property(nonatomic) long long lastWebActivityUTCMills; // @synthesize lastWebActivityUTCMills=_lastWebActivityUTCMills;
-@property(nonatomic) long long photosWebAccessTimestamp; // @synthesize photosWebAccessTimestamp=_photosWebAccessTimestamp;
 
 @end
 

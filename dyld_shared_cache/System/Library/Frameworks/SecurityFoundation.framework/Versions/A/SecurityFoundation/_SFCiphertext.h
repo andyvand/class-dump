@@ -13,11 +13,11 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)_kMDItemContentCreationDateMonth;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)%;
 - (void);
 
 // Remaining properties

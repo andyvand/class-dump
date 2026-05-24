@@ -7,7 +7,6 @@
 @interface CRConfidenceThresholds
 {
     float _mediumConfidenceThreshold;
-    float _highConfidenceThreshold;
 }
 
 + (id);
@@ -16,7 +15,6 @@
 - (float);
 
 // Remaining properties
-@property(readonly) float highConfidenceThreshold; // @synthesize highConfidenceThreshold=_highConfidenceThreshold;
 @property(readonly) float mediumConfidenceThreshold; // @synthesize mediumConfidenceThreshold=_mediumConfidenceThreshold;
 
 @end

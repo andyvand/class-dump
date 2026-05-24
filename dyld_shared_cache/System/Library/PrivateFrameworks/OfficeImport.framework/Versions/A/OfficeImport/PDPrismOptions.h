@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDPrismOptions : PDSideDirectionOptions
 {
     _Bool mIsContent;
-    _Bool mIsInverted;
 }
 
 - (void);

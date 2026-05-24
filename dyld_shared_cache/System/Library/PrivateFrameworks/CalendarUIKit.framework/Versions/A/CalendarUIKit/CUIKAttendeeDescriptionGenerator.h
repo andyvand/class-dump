@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)ôOE©öWD©ø_C©ÿÃÿ_Öäªö;
 + (id);
-+ (id);
++ (id)isStuckInExitForSharedLibrary;
++ (id)iCloudLibraryClientIsNotAuthenticated;
 + (id);
 
 @end

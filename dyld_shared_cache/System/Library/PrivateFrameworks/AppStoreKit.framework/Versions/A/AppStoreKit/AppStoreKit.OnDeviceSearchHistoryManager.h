@@ -7,15 +7,11 @@
 @interface AppStoreKit.OnDeviceSearchHistoryManager
 {
     id bag;
-    id defaults;
-    id searchHistoryDefaultsKey;
-    id maxAllowed;
-    id onChange;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)äÒ	Qo_GÐÑÑ	ySSSgGG_AJQo_;

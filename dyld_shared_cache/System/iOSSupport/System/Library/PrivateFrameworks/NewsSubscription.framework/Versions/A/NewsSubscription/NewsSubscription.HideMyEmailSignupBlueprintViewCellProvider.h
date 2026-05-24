@@ -7,8 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupBlueprintViewCellProvider
 {
     id choiceViewRenderer;
-    id alternateViewRenderer;
-    id delegate;
 }
 
 @end

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VCEmulatedNetworkDoubleQueue : VCEmulatedNetwork
 {
     VCEmulatedNetworkQueue *_networkQueueA;
-    VCEmulatedNetworkQueue *_networkQueueB;
 }
 
 - (void);

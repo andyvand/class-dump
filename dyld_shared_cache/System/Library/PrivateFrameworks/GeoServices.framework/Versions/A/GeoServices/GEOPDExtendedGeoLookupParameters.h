@@ -4,50 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOInterpolationParameters, GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExtendedGeoLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _intersectingFeatureGeoIds;
-    NSString *_dataSourceId;
-    GEOInterpolationParameters *_interpolationParameter;
-    GEOAddress *_preserveFields;
-    unsigned long long _primaryFeatureGeoId;
-    GEOLatLng *_primaryFeatureLocation;
-    unsigned long long _streetSubPostalGeoId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _dataSourceIdRequired;
-    _Bool _isLatlngRequest;
-    struct {
-        unsigned int has_primaryFeatureGeoId:1;
-        unsigned int has_streetSubPostalGeoId:1;
-        unsigned int has_dataSourceIdRequired:1;
-        unsigned int has_isLatlngRequest:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_intersectingFeatureGeoIds:1;
-        unsigned int read_dataSourceId:1;
-        unsigned int read_interpolationParameter:1;
-        unsigned int read_preserveFields:1;
-        unsigned int read_primaryFeatureLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Name;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tedAddressType"b1"read_unknownFields"b1"read_encryptedFeatureIds"b1"read_location"b1"wrote_anyField"b1};
-- (id)ource;
+- (id)_desiredResource;
 - (id)÷;
 - (void)®Gázdh@;
 

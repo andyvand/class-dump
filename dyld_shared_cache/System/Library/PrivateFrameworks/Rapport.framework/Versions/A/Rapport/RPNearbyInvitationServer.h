@@ -4,61 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RPNearbyInvitationServer
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableDictionary *_sessions;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_serviceType;
-    CDUnknownBlockType _sessionStartHandler;
-    CDUnknownBlockType _sessionEndedHandler;
 }
 
-+ (_Bool);
++ (_Bool)"M;
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void)g;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)valueForKey:(id)arg1;
+- (id)1995-2014 SRI International.  All rights
+reserved.
+
+Portions of this software are
+Copyright (c) 2002-2005 Jeff Bilmes
+Copyright (c) 2009-2013 Tanel Alumae
+Copyright (c) 2012-2013 Microsoft Corp.
+
+SRILM also includes open-source software as listed in the
+ACKNOWLEDGEMENTS file in the SRILM root directory.
+
+If this software was obtained under a commercial license agreement with
+SRI then the provisions therein govern the use of the software and the
+above notice does not apply.
+;
+- (void)t exist, path: /* Error: Ran out of types for this method. */;
+- (id)SHU;
+- (id)NSt3__111__end_stateIcEE;
+- (id)h;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)!M;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)5;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType sessionEndedHandler; // @synthesize sessionEndedHandler=_sessionEndedHandler;
-@property(copy, nonatomic) CDUnknownBlockType sessionStartHandler; // @synthesize sessionStartHandler=_sessionStartHandler;
 
 @end
 

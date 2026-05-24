@@ -7,9 +7,6 @@
 @interface IMDPersistence.SQLDatabaseSchema
 {
     id schema;
-    id entitySchemas;
-    id entitySchemasByEntityName;
-    id entitySchemasByType;
 }
 
 @end

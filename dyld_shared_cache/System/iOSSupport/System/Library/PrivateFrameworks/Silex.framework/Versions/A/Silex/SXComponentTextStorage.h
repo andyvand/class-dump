@@ -10,7 +10,7 @@
 {
 }
 
-- (Class);
+- (Class)4;
 
 @end
 

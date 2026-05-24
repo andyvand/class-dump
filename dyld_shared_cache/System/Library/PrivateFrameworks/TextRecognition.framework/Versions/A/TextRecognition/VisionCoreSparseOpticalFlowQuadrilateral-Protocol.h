@@ -5,6 +5,8 @@
 //
 
 @protocol VisionCoreSparseOpticalFlowQuadrilateral
+- (void);
+- (int);
 
 // Remaining properties
 @property(nonatomic) int homographyGroupID;

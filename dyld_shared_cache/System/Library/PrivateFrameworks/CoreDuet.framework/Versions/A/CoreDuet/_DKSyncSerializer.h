@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperation, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface _DKSyncSerializer
 {
     NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_underlyingQueue;
-    NSOperation *_previousOperation;
 }
 
 + (void);
@@ -19,7 +16,7 @@
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void)2d-;
 + (id);
 + (void);
 + (void);

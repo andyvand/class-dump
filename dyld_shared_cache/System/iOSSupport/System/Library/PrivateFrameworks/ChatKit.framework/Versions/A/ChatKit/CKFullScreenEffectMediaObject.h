@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSURL *_audioFileURL;
 }
 
-- (id);
+- (id)c;
 - (void)H¨;
 - (id)`(.;
 

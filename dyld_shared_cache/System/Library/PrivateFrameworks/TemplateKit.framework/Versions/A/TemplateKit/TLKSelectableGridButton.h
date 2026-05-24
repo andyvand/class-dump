@@ -6,15 +6,12 @@
 
 #import <TemplateKit/TLKSButton.h>
 
-@class TLKLabel, TLKStackView;
+@class TLKLabel;
 
 __attribute__((visibility("hidden")))
 @interface TLKSelectableGridButton : TLKSButton
 {
     _Bool _customHighlight;
-    TLKLabel *_topLabel;
-    TLKLabel *_bottomLabel;
-    TLKStackView *_stackView;
 }
 
 + (id);
@@ -25,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)led to decode FDR2 Format;
+- (void)rmissionsStr is NULL;
+- (void)ed to copy options dictionary;
 - (id);
 - (void);
 - (struct CGSize);
@@ -38,9 +35,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKLabel *bottomLabel; // @synthesize bottomLabel=_bottomLabel;
-@property(nonatomic) _Bool customHighlight;
-@property(retain, nonatomic) TLKStackView *stackView; // @synthesize stackView=_stackView;
 @property(retain, nonatomic) TLKLabel *topLabel; // @synthesize topLabel=_topLabel;
 
 @end

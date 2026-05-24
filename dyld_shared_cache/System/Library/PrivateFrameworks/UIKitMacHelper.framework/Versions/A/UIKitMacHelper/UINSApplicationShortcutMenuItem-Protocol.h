@@ -5,6 +5,7 @@
 //
 
 @protocol UINSApplicationShortcutMenuItem
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id applicationShortcutItem;

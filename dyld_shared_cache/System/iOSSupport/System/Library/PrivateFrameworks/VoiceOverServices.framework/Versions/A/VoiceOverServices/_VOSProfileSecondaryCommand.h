@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VOSCommand, _VOSProfileCommand;
+@class VOSCommand;
 
 @interface _VOSProfileSecondaryCommand
 {
     VOSCommand *_command;
-    unsigned long long _context;
-    unsigned long long _pressCount;
-    _VOSProfileCommand *_primaryProfileCommand;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-- (id);
++ (id)setDetectorSceneClassIds:(id)arg1;
++ (id)o advance cursor. No value for attribute:(id)arg1 %@. remaining:(unsigned long long)arg2 [%@ %@];
+- (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) VOSCommand *command; // @synthesize command=_command;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(nonatomic) unsigned long long pressCount; // @synthesize pressCount=_pressCount;
-@property(nonatomic) __weak _VOSProfileCommand *primaryProfileCommand; // @synthesize primaryProfileCommand=_primaryProfileCommand;
 
 @end
 

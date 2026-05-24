@@ -4,6 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKChatItem, CKInvisibleInkEffectController, CKMediaObject, CKQLPreviewController, NSArray;
+@protocol QLPreviewControllerConforming;
+
 @protocol CKQLPreviewControllerDelegate
+- (void)initWithURL:(id <QLPreviewControllerConforming>)arg1 resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (CKInvisibleInkEffectController *)_setAllowsTapToLoad:(CKQLPreviewController *)arg1;
+
+@optional
+- (void)setNeedsParagraphCleanup:(long long)arg1;
+- (void)sectionType;
+- (void)reallyZoomFontInAttributes:(CKMediaObject *)arg1 zoomDirection:(CKQLPreviewController *)arg2;
+- (_Bool)nonPasswordProtectedOnly;
+- (_Bool)nonCallNotesInSource;
+- (_Bool)nextLocationAfterRowLocation:(CKQLPreviewController *)arg1;
+- (_Bool)newlyCreatedViewForManualRenderingInTextContainer:(CKQLPreviewController *)arg1;
+- (void)newThrowawayConverter;
+- (NSArray *)newOperationQueueWithName:(CKQLPreviewController *)arg1;
+- (CKChatItem *)T;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TRITimeProviding
+- (unsigned long long)setProcessedAdditionalSampleBytes: /* Error: Ran out of types for this method. */;
 @end
 

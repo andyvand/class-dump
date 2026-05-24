@@ -6,33 +6,28 @@
 
 #import <MediaPlayer/MPAsyncOperation.h>
 
-@class NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface MPStoreLyricsRequestOperation : MPAsyncOperation
 {
     NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    long long _songAdamID;
-    CDUnknownBlockType _responseHandler;
 }
 
 + (_Bool);
 + (id);
 - (long long);
-- (void);
+- (void)h0;
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)opertyMediaTypeOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_adjustedPropertyMediaTypeOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(nonatomic) long long songAdamID; // @synthesize songAdamID=_songAdamID;
 
 @end

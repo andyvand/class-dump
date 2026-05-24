@@ -13,11 +13,11 @@
     MAFeatureExtractor *_photoLibraryFeatureExtractor;
 }
 
-- (id);
+- (id),R,C,N;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)removeIconsWithURLStringsNotFoundIn:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)PGOngoingTripMemoryGenerator;
 - (void)24;
 

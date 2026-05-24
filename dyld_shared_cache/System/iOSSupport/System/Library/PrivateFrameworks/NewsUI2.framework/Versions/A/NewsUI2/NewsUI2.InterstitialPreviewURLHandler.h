@@ -7,7 +7,6 @@
 @interface NewsUI2.InterstitialPreviewURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

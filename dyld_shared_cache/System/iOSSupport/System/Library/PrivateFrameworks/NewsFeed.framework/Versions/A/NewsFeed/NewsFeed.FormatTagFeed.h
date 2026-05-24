@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatTagFeed
 {
     id identifier;
-    id fetchWindow;
-    id fetchCount;
-    id _fetchRequirements;
-    id _fetchFilterOptions;
 }
 
 @end

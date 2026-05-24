@@ -10,35 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NWStatsTargetSelector
 {
     _Bool _hasExplicitTCP;
-    _Bool _explicitTCPValue;
-    _Bool _hasExplicitUDP;
-    _Bool _explicitUDPValue;
-    _Bool _hasExplicitUDPSubFlows;
-    _Bool _explicitUDPSubFlowsValue;
-    _Bool _hasExplicitChannels;
-    _Bool _explicitChannelsValue;
-    _Bool _hasExplicitSockets;
-    _Bool _explicitSocketsValue;
-    _Bool _hasExplicitQUIC;
-    _Bool _explicitQUICValue;
-    _Bool _hasExplicitUserlandConnections;
-    _Bool _explicitUserlandConnectionsValue;
-    _Bool _connHasNetAccess;
-    NSDictionary *_suppliedParams;
-    unsigned long long _filter;
-    unsigned long long _connFilter;
-    unsigned long long _events;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)isEqualToArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -46,9 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property unsigned long long connFilter; // @synthesize connFilter=_connFilter;
-@property unsigned long long events; // @synthesize events=_events;
-@property unsigned long long filter; // @synthesize filter=_filter;
 @property(retain) NSDictionary *suppliedParams; // @synthesize suppliedParams=_suppliedParams;
 
 @end

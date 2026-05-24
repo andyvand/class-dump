@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionConnection, LSApplicationRecord, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue, VGOEMAppSOCStreaming;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface VGOEMApplication
 {
     NSObject<OS_dispatch_queue> *_queue;
-    INCExtensionConnection *_chargeStreamingConnection;
-    _Bool _enabled;
-    LSApplicationRecord *_applicationRecord;
-    id <VGOEMAppSOCStreaming> _chargeStreamingDelegate;
-    NSString *_identifier;
-    NSArray *_allowedFormulaIDs;
 }
 
 - (void);
@@ -38,26 +32,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)ReminderStackMoreFormat;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allowedFormulaIDs; // @synthesize allowedFormulaIDs=_allowedFormulaIDs;
-@property(readonly, nonatomic) LSApplicationRecord *applicationRecord; // @synthesize applicationRecord=_applicationRecord;
-@property(nonatomic) __weak id <VGOEMAppSOCStreaming> chargeStreamingDelegate; // @synthesize chargeStreamingDelegate=_chargeStreamingDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

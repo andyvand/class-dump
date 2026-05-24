@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface EKUIRecurrenceRuleBuilder
 {
     int _days;
-    int _ordinalValue;
-    long long _frequency;
-    long long _interval;
-    unsigned long long _count;
-    NSArray *_dayNumbers;
-    NSArray *_monthNumbers;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (int);
-- (void);
-- (id);
-- (int);
+- (void);
+- (void)&s;
+- (id)X%s;
+- (id);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (void);
+- (int);
+- (void);
+- (id);
+- (int);
+- (id);
+- (long long);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void)awBackground;
+- (unsigned long long)H;
+- (void)wantsDrawBackground;
 - (long long)cell;
 
 // Remaining properties
-@property unsigned long long count; // @synthesize count=_count;
-@property(retain) NSArray *dayNumbers; // @synthesize dayNumbers=_dayNumbers;
-@property int days; // @synthesize days=_days;
 @property long long frequency; // @synthesize frequency=_frequency;
-@property long long interval; // @synthesize interval=_interval;
-@property(retain) NSArray *monthNumbers; // @synthesize monthNumbers=_monthNumbers;
-@property int ordinalValue; // @synthesize ordinalValue=_ordinalValue;
 
 @end
 

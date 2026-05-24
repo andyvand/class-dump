@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, PFParallaxDataLayer, PFParallaxImageLayer, PFParallaxSpatialPhotoLayer, PFParallaxSpatialPhotoOcclusionLayer, PFParallaxVideoLayer, PFPosterOrientedLayout;
+@class NSDictionary;
 
 @interface PFParallaxLayerStack
 {
     _Bool _depthEnabled;
-    _Bool _settlingEffectEnabled;
-    _Bool _spatialPhotoEnabled;
-    _Bool _userAdjustedVisibleFrame;
-    _Bool _parallaxDisabled;
-    _Bool _mayContainBakedHeadroom;
-    NSArray *_layers;
-    PFPosterOrientedLayout *_layout;
-    double _clockAreaLuminance;
-    NSDictionary *_layerMap;
 }
 
+- (_Bool)k/Versions/A/Security;
 - (_Bool);
+- (id)__AUTH;
+- (id);
+- (_Bool)__AUTH;
+- (id);
+- (id)__objc_dictobj;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)__objc_protorefs__DATA_CONST;
+- (void)__objc_imageinfo__DATA_CONST;
 - (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (void);
 - (id);
 - (id);
@@ -63,48 +54,19 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)x;
+- (_Bool)O;
+- (id)[;
+- (id);
 - (_Bool);
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PFParallaxImageLayer *backgroundBackfillLayer;
-@property(readonly, nonatomic) PFParallaxImageLayer *backgroundLayer;
-@property(readonly, nonatomic) double clockAreaLuminance; // @synthesize clockAreaLuminance=_clockAreaLuminance;
-@property(readonly, nonatomic) _Bool depthEnabled; // @synthesize depthEnabled=_depthEnabled;
-@property(readonly, nonatomic) PFParallaxImageLayer *foregroundBackfillLayer;
-@property(readonly, nonatomic) PFParallaxImageLayer *foregroundLayer;
-@property(readonly, nonatomic) _Bool hasAnySpatialLayer;
-@property(readonly, nonatomic) _Bool hasBackfillLayers;
-@property(readonly, nonatomic) _Bool hasDebugLayers;
-@property(readonly, nonatomic) _Bool hasInactiveLayers;
-@property(readonly, nonatomic) _Bool hasMainLayers;
-@property(readonly, nonatomic) PFParallaxImageLayer *inactiveBackgroundLayer;
-@property(readonly, nonatomic) PFParallaxImageLayer *inactiveForegroundLayer;
-@property(readonly, nonatomic) PFParallaxDataLayer *inactiveSpatialPhotoDataLayer;
 @property(retain, nonatomic) NSDictionary *layerMap; // @synthesize layerMap=_layerMap;
-@property(readonly, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(readonly, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) _Bool mayContainBakedHeadroom; // @synthesize mayContainBakedHeadroom=_mayContainBakedHeadroom;
-@property(readonly, nonatomic) _Bool parallaxDisabled; // @synthesize parallaxDisabled=_parallaxDisabled;
-@property(readonly, nonatomic) _Bool settlingEffectEnabled; // @synthesize settlingEffectEnabled=_settlingEffectEnabled;
-@property(readonly, nonatomic) PFParallaxVideoLayer *settlingEffectLayer;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) _Bool spatialPhotoBackfillIncludesHeadroom;
-@property(readonly, nonatomic) PFParallaxSpatialPhotoLayer *spatialPhotoBackgroundBackfillLayer;
-@property(readonly, nonatomic) PFParallaxSpatialPhotoLayer *spatialPhotoBackgroundLayer;
-@property(readonly, nonatomic) _Bool spatialPhotoEnabled; // @synthesize spatialPhotoEnabled=_spatialPhotoEnabled;
-@property(readonly, nonatomic) PFParallaxSpatialPhotoOcclusionLayer *spatialPhotoForegroundBackfillLayer;
-@property(readonly, nonatomic) PFParallaxSpatialPhotoOcclusionLayer *spatialPhotoForegroundLayer;
-@property(readonly, nonatomic) _Bool spatialPhotoIncludesHeadroom;
-@property(nonatomic) _Bool userAdjustedVisibleFrame; // @synthesize userAdjustedVisibleFrame=_userAdjustedVisibleFrame;
 
 @end
 

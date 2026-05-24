@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFUFileInputStream
 {
     int mFd;
-    _Bool mIsCachingDisabled;
-    long long mStartOffset;
-    long long mCurrentOffset;
-    long long mEndOffset;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (void);
 - (void);
@@ -25,17 +19,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

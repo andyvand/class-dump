@@ -6,17 +6,12 @@
 
 #import <UIKitCore/_UIPageControlVisualProvider.h>
 
-@class NSMutableArray, UIImage, UIVisualEffectView;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UILegacyPageControlVisualProvider : _UIPageControlVisualProvider
 {
     UIImage *_currentPageImage;
-    UIImage *_pageImage;
-    NSMutableArray *_currentPageImages;
-    NSMutableArray *_pageImages;
-    UIVisualEffectView *_backgroundVisualEffectView;
-    NSMutableArray *_indicators;
 }
 
 - (id);
@@ -27,21 +22,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id)s;
 - (struct CGSize);
 - (double)× ;
 - (struct CGRect);
 - (void)Ô ;
-- (void);
-- (id)ustomItems:(long long)arg1 inMenu:afterStandardItem: /* Error: Ran out of types for this method. */;
-- (id)etion:(long long)arg1;
-- (void)ion;
-- (id)hot;
+- (void)supportsMultipleWindows;
+- (id)recordCustomItems:(long long)arg1 inMenu:afterStandardItem: /* Error: Ran out of types for this method. */;
+- (id)_asynchronouslyHandleScrollEvent:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_activeFindSession;
+- (id)__dataSourceSnapshot;
 - (void)chController;
-- (void);
+- (void)beginWithTransparencyAllowed;
 - (void)Bring All to Front;
 - (void): /* Error: Ran out of types for this method. */;
-- (id)TVMenuLight;
+- (id)UIBlurEffectStyleATVMenuLight;
 - (void)ªÿÿ;
 - (id);
 - (double)þÿ¡þÿ;

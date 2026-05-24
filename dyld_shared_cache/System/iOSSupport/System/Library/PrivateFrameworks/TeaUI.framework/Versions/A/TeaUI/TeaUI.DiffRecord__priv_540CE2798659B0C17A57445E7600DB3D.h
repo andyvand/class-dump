@@ -7,7 +7,6 @@
 @interface TeaUI.DiffRecord__priv_540CE2798659B0C17A57445E7600DB3D
 {
     id entry;
-    id index;
 }
 
 @end

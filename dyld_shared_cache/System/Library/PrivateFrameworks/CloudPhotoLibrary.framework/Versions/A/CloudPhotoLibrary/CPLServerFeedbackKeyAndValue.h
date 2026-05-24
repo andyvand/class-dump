@@ -9,7 +9,6 @@
 @interface CPLServerFeedbackKeyAndValue
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
@@ -18,10 +17,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)Ñ;
-- (_Bool):rõ@ù 
- /* Error: Ran out of types for this method. */;
-- (_Bool)ð#©ô[©õã;
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -32,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

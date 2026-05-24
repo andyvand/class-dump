@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (void)K	0	;
 - (void);
 - (void);
-- (void);
-- (void)tedKeys: /* Error: Ran out of types for this method. */;
+- (void)setRequestedKeys: /* Error: Ran out of types for this method. */;
 - (void)ô¦;
 - (void)(²éÿ×X;
 

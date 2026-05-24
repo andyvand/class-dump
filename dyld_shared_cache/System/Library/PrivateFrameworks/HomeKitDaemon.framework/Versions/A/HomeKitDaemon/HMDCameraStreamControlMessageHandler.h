@@ -4,66 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraMetricsMilestone, HMDCameraResidentMessageHandler, HMDCameraStreamManagerSession, HMDCameraStreamSnapshotHandler, HMDCameraSupportedConfigurationCache, HMDDynamicActivityAttributionPublisher, HMDHAPAccessory, HMDService, HMFMessageDispatcher, HMFNetMonitor, NSDictionary, NSObject, NSString, NSUUID;
-@protocol HMDCameraStreamControlMessageHandlerDataSource, OS_dispatch_queue;
+@class HMDCameraResidentMessageHandler, HMDCameraStreamManagerSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamControlMessageHandler
 {
     HMDCameraStreamManagerSession *_streamSession;
-    HMDService *_streamManagementService;
-    HMDCameraMetricsMilestone *_negotiationMilestone;
-    HMDCameraResidentMessageHandler *_residentMessageHandler;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_profileUniqueIdentifier;
-    HMDCameraSupportedConfigurationCache *_supportedConfigCache;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    HMFNetMonitor *_networkMonitor;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDDynamicActivityAttributionPublisher *_dynamicActivityAttributionPublisher;
-    id <HMDCameraStreamControlMessageHandlerDataSource> _dataSource;
 }
 
++ (_Bool)URLSession:(id)arg1 dataTask:didReceiveData: /* Error: Ran out of types for this method. */;
++ (_Bool)signData:(id)arg1 error: /* Error: Ran out of types for this method. */;
++ (_Bool)requestWithURL:(id)arg1;
++ (_Bool)@"OspreyConnectionPool",R,V_connectionPool;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)NSDate",C,N,V_deviceAttestionExpireOn;
++ (_Bool)setDeviceAuthenticationVersion:(id)arg1;
 + (_Bool);
 + (id)¿B;
-- (void);
+- (void)fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:(id)arg1;
+- (id)currentThread;
+- (id)arrivalNotificationSubtitle;
+- (id)areKeysAvailable: /* Error: Ran out of types for this method. */;
+- (id)affectedEntities;
+- (void)addSufficientVisitsNotification:(id)arg1 message: /* Error: Ran out of types for this method. */;
+- (void)addSendingObserver:(id)arg1;
+- (void)addProviderNames:(id)arg1;
+- (void)addObserverForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)addObserver:(id)arg1 selector:(id)arg2 name:(id)arg3 object:suspensionBehavior: /* Error: Ran out of types for this method. */;
+- (void)addNextStopsMuids:(id)arg1;
+- (void),N,V_iconDataCarPlay;
+- (void)ce] Supports monitoring system block list:(id)arg1 %s;
+- (void)rver] Accepting new connection:(id)arg1 %@, can share:(CDUnknownBlockType)arg2 %d, can receive:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id)Q;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)';
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -73,8 +56,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id)void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -95,31 +81,7 @@ __attribute__((visibility("hidden")))
 - (void)¨ Âÿ`àB;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly) id <HMDCameraStreamControlMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDynamicActivityAttributionPublisher *dynamicActivityAttributionPublisher; // @synthesize dynamicActivityAttributionPublisher=_dynamicActivityAttributionPublisher;
-@property(readonly) _Bool hasStreamSession;
-@property(readonly) _Bool hasStreamSessionShowingOnCurrentDevice;
-@property(readonly) unsigned long long hash;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(retain) HMDCameraMetricsMilestone *negotiationMilestone; // @synthesize negotiationMilestone=_negotiationMilestone;
-@property(readonly) HMFNetMonitor *networkMonitor; // @synthesize networkMonitor=_networkMonitor;
-@property(readonly) NSUUID *profileUniqueIdentifier; // @synthesize profileUniqueIdentifier=_profileUniqueIdentifier;
 @property(readonly) HMDCameraResidentMessageHandler *residentMessageHandler; // @synthesize residentMessageHandler=_residentMessageHandler;
-@property(readonly, copy) NSUUID *sessionUUID;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMDService *streamManagementService; // @synthesize streamManagementService=_streamManagementService;
-@property(retain) HMDCameraStreamManagerSession *streamSession; // @synthesize streamSession=_streamSession;
-@property(readonly) HMDCameraStreamSnapshotHandler *streamSnapshotHandler; // @synthesize streamSnapshotHandler=_streamSnapshotHandler;
-@property(readonly) Class superclass;
-@property(readonly) HMDCameraSupportedConfigurationCache *supportedConfigCache; // @synthesize supportedConfigCache=_supportedConfigCache;
-@property(readonly) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

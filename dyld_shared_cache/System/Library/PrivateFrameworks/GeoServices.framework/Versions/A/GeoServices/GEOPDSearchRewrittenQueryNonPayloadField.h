@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchRewrittenQueryNonPayloadField
 {
     PBDataReader *_reader;
-    NSString *_rewrittenQuery;
-    NSString *_triggerFeatureSummary;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _pipelineType;
-    int _rewrittenQueryType;
-    _Bool _hasCamelCase;
-    _Bool _hasDirectionsIntent;
-    _Bool _hasEmojiRewrite;
-    _Bool _hasNumericSplit;
-    _Bool _hasSynonymCounterpart;
-    struct {
-        unsigned int has_pipelineType:1;
-        unsigned int has_rewrittenQueryType:1;
-        unsigned int has_hasCamelCase:1;
-        unsigned int has_hasDirectionsIntent:1;
-        unsigned int has_hasEmojiRewrite:1;
-        unsigned int has_hasNumericSplit:1;
-        unsigned int has_hasSynonymCounterpart:1;
-        unsigned int read_rewrittenQuery:1;
-        unsigned int read_triggerFeatureSummary:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)didEndpointWithFeatures:audioTimestampMs:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)icIncidents"b1"has_includeZilchPoints"b1"has_includeCellularCoverage"b1"has_includeCrossLanguagePhonetics"b1"has_includeLaneWidths"b1"has_includeRouteSegmentInfo"b1"has_includeRoutingPathLeg"b1"has_useMetricThreshold"b1"read_unknownFields"b1"read_additionalTransportTypes"b1"read_initialPromptTypes"b1"read_uiContexts"b1"read_automobileOptions"b1"read_cyclingOptions"b1"read_destinationInfo"b1"read_phoneticLocaleIdentifier"b1"read_transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)ngCategorys;
+- (id)_ratingCategorys;
 - (id)´ø "	p$&'H(*;
 - (void)fÜÔ@óI@;
 

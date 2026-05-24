@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSessionDataSourceDescription, NSArray, NSString;
+@class NSString;
 
 @interface AVAudioSessionPortDescription
 {
@@ -12,15 +12,15 @@
 }
 
 + (id);
-- (id);
+- (id)unsupportedDeviceSeparationState;
 - (void);
-- (id);
-- (id);
+- (id)dentifier, %@, added, distance, %@, min threshold, %.3f, max threshold, %.3f;
+- (id)vents of type %@ between dates %@ -> %@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,25 +31,17 @@
 - (id);
 - (_Bool);
 - (long long);
+- (_Bool)D;
+- (unsigned long long);
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)sult = GetNodeInfo( sourceNode, nodeInfo ) == 0 ;
 - (id)lient::IOController>="__ptr_"^{IOController}"__cntrl_"^{__shared_weak_count}}} /* Error: Ran out of types for this method. */;
 - (id)reating default aggregate device failed with error:%d /* Error: Ran out of types for this method. */;
 - (id)è;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UID;
-@property(readonly, nonatomic) NSArray *channels;
-@property(readonly, nonatomic) NSArray *dataSources;
-@property(readonly) _Bool hasHardwareVoiceCallProcessing;
-@property(readonly, nonatomic) NSString *portName;
 @property(readonly, nonatomic) NSString *portType;
-@property(readonly, nonatomic) AVAudioSessionDataSourceDescription *preferredDataSource;
-@property(readonly, nonatomic) AVAudioSessionDataSourceDescription *selectedDataSource;
-@property(readonly, getter=isSpatialAudioEnabled) _Bool spatialAudioEnabled;
 
 @end
 

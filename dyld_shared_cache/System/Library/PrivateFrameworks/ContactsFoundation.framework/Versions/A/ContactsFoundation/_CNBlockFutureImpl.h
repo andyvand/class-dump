@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFutureResult, CNSuspendableSchedulerDecorator, NSConditionLock, NSString;
+@class NSConditionLock;
 
 @interface _CNBlockFutureImpl
 {
     NSConditionLock *_stateLock;
-    CNFutureResult *_futureResult;
-    CNSuspendableSchedulerDecorator *_blockScheduler;
-    _Bool _queueSuspended;
-    _Bool _workBlockScheduled;
 }
 
 + (id);
@@ -26,39 +22,30 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)isDiskSuitableForDecryption:options:suitable:details: /* Error: Ran out of types for this method. */;
+- (void)volume on a GPTPartition makes no sense; ExitNoErr;
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)setAosState:(id)arg1;
 - (id);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)initWithCoder:(_Bool)arg1;
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ProfilingSchedulerDecorator;
+- (void)CNTimeProfilingSchedulerDecorator;
 
 // Remaining properties
-@property(readonly, nonatomic) CNSuspendableSchedulerDecorator *blockScheduler; // @synthesize blockScheduler=_blockScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSConditionLock *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool workBlockScheduled; // @synthesize workBlockScheduled=_workBlockScheduled;
 
 @end
 

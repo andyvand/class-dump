@@ -5,13 +5,14 @@
 //
 
 @protocol MTLResourceSPI
-- (_Bool)lobalConstantsBase: /* Error: Ran out of types for this method. */;
+- (void);
+- (int);
+- (_Bool)�7;
+- (_Bool);
+- (_Bool)setFragmentGlobalConstantsBase: /* Error: Ran out of types for this method. */;
 - (unsigned long long)u, but the texture at attachment %lu has only %lu slices;
 
 // Remaining properties
-@property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long protectionOptions;
 @property int responsibleProcess;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 @end
 

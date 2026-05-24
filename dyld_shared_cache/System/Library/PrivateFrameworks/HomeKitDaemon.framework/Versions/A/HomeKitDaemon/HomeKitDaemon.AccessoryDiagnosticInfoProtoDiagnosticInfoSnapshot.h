@@ -4,57 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryInfoProtoPublicPairingIdentity, HMAccessoryInfoProtoWifiNetworkInfoEvent, HMDAppleMediaAccessory, HMDHome, HMFSystemInfo, HMRemoteEventRouterProtoServerDiagnosticInfo, HMSoftwareUpdateEventProtoSoftwareUpdateDescriptor, HMSoftwareUpdateEventProtoSoftwareUpdateProgress, NSArray, NSDictionary, NSString, NSUUID;
-
 @interface HomeKitDaemon.AccessoryDiagnosticInfoProtoDiagnosticInfoSnapshot
 {
     id dataSource;
-    id $__lazy_storage_$_octagonState;
-    id $__lazy_storage_$_isFirstCloudImportComplete;
-    id $__lazy_storage_$_isSignedIntoiCloud;
-    id $__lazy_storage_$_networkInfo;
-    id $__lazy_storage_$_numHomes;
-    id $__lazy_storage_$_mediaRouteIdString;
-    id $__lazy_storage_$_systemInfo;
-    id $__lazy_storage_$_systemInfoSerialNumber;
-    id $__lazy_storage_$_systemInfoModelIdentifier;
-    id $__lazy_storage_$_systemInfoSoftwareVersion;
-    id $__lazy_storage_$_systemInfoRegionInfo;
-    id $__lazy_storage_$_networkInfoProto;
-    id $__lazy_storage_$_networkVisibleDevices;
-    id $__lazy_storage_$_nearbyVisibleDevices;
-    id $__lazy_storage_$_currentAppleMediaAccessory;
-    id $__lazy_storage_$_currentAccessoryManufacturer;
-    id $__lazy_storage_$_currentAccessoryUUID;
-    id $__lazy_storage_$_currentAccessoryPublicPairingIdentity;
-    id $__lazy_storage_$_currentHome;
-    id $__lazy_storage_$_currentHomeNumberOfAppleMediaAccessories;
-    id $__lazy_storage_$_currentHomeNumberOfResidents;
-    id $__lazy_storage_$_eventRouterServerInfo;
-    id $__lazy_storage_$_softwareUpdateDescriptor;
-    id $__lazy_storage_$_softwareUpdateProgress;
-    id $__lazy_storage_$_sfProblemFlags;
-    id $__lazy_storage_$_currentDeviceIDSIdentifier;
-    id $__lazy_storage_$_isCurrentDevicePrimaryResident;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void).b;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
@@ -72,23 +43,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)mobilityNodesForMomentNodes: /* Error: Ran out of types for this method. */;
+- (id)minimumSquareCropScore;
+- (unsigned long long)mergedTextFeatureFromTextFeatures: /* Error: Ran out of types for this method. */;
+- (void)maximumNumberOfItemsForDuration:(id)arg1 withTotalNumberOfItems:spanningNumberOfDays: /* Error: Ran out of types for this method. */;
+- (void)maximumNumberOfFacesPerAssetForSingleFocusedPersonFacedAssets;
+- (void)matchingInfosWithHighlightNodes:(unsigned long long)arg1;
+- (void)localizedTitleStringFromPublicEventFeature:(int)arg1;
+- (void)localizedSceneNames;
+- (void)liveUpdateEnrichmentProcessors;
+- (void)isAlwaysShowingHolidayCalendarEvents;
+- (int)initWithMomentNodes:sceneFeatureLabel:titleGenerationContext:timeTitleOptions: /* Error: Ran out of types for this method. */;
+- (id)initWithImmutableGraph: /* Error: Ran out of types for this method. */;
+- (id)enumerateSceneEdgesAndNodesUsingBlock: /* Error: Ran out of types for this method. */;
+- (void)assetUUIDToPhotosChallengeGroundTruthSuggestsSharing;
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)recordForAttributeType:queryValue:possibleTypes: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -100,35 +71,7 @@
 - (_Bool)ÿO@ËE;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *currentAccessoryManufacturer;
-@property(nonatomic, retain) HMAccessoryInfoProtoPublicPairingIdentity *currentAccessoryPublicPairingIdentity;
-@property(nonatomic, copy) NSUUID *currentAccessoryUUID;
-@property(nonatomic, retain) HMDAppleMediaAccessory *currentAppleMediaAccessory;
-@property(nonatomic, copy) NSUUID *currentDeviceIDSIdentifier;
-@property(nonatomic, retain) HMDHome *currentHome;
-@property(nonatomic) unsigned long long currentHomeNumberOfAppleMediaAccessories;
-@property(nonatomic) unsigned long long currentHomeNumberOfResidents;
-@property(nonatomic, retain) HMRemoteEventRouterProtoServerDiagnosticInfo *eventRouterServerInfo;
-@property(nonatomic) _Bool isCurrentDevicePrimaryResident;
-@property(nonatomic) _Bool isFirstCloudImportComplete;
-@property(nonatomic) _Bool isSignedIntoiCloud;
-@property(nonatomic, copy) NSString *mediaRouteIdString;
-@property(nonatomic, copy) NSArray *nearbyVisibleDevices;
-@property(nonatomic, retain) HMAccessoryInfoProtoWifiNetworkInfoEvent *networkInfo;
-@property(nonatomic, copy) NSDictionary *networkInfoProto;
-@property(nonatomic, readonly) NSArray *networkInfoProtoNetworkInfo;
-@property(nonatomic, readonly) NSArray *networkInfoProtoNetworkServiceInfo;
-@property(nonatomic, copy) NSArray *networkVisibleDevices;
-@property(nonatomic) unsigned long long numHomes;
 @property(nonatomic) int octagonState;
-@property(nonatomic) unsigned long long sfProblemFlags;
-@property(nonatomic, retain) HMSoftwareUpdateEventProtoSoftwareUpdateDescriptor *softwareUpdateDescriptor;
-@property(nonatomic, retain) HMSoftwareUpdateEventProtoSoftwareUpdateProgress *softwareUpdateProgress;
-@property(nonatomic, retain) HMFSystemInfo *systemInfo;
-@property(nonatomic, copy) NSString *systemInfoModelIdentifier;
-@property(nonatomic, copy) NSString *systemInfoRegionInfo;
-@property(nonatomic, copy) NSString *systemInfoSerialNumber;
-@property(nonatomic, copy) NSString *systemInfoSoftwareVersion;
 
 @end
 

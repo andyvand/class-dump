@@ -7,13 +7,10 @@
 @interface TeaUI.FloatingTabBarAccessoryCoordinator
 {
     id tabBarController;
-    id lazyAccessoryViewProvider;
-    id presentationMode;
-    id $__lazy_storage_$_accessoryView;
 }
 
 - (void);
-- (id);
+- (id)k"24@?<v@?@"NSInputStream">32;
 - (void)üüÿüüÿÀüüÿèüüÿ ýüÿ8ýüÿ¨ýüÿÐýüÿøýüÿPþüÿxþüÿÿüÿhÿüÿÿüÿÿüÿ°ÿüÿÈÿüÿl;
 - (void);
 

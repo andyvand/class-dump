@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCInvocationQueue, MFLibraryStore, NSString;
+@class MFLibraryStore;
 
 @interface MFLibraryStoreMessageConsumer
 {
     _Bool _shouldCancel;
-    long long _collectorID;
-    MFLibraryStore *_libraryStore;
-    MCInvocationQueue *_callbackQueue;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q(;
 - (long long);
 - (void);
 - (void);
@@ -27,21 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (id)ritable;
+- (id)isWritable;
 - (void)(;
 
 // Remaining properties
-@property(readonly, nonatomic) MCInvocationQueue *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property long long collectorID; // @synthesize collectorID=_collectorID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak MFLibraryStore *libraryStore; // @synthesize libraryStore=_libraryStore;
-@property _Bool shouldCancel; // @synthesize shouldCancel=_shouldCancel;
-@property(readonly) Class superclass;
 
 @end
 

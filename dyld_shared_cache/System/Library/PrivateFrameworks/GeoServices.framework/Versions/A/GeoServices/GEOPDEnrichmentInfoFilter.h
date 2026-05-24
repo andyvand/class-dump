@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"read_certificates"b1"read_cleanedDescriptionHashes"b1"read_salt"b1"read_signature"b1"wrote_anyField"b1};
-- (id)rentMapRegion;
+- (id)_currentMapRegion;
 - (id)È8TÐ;
 - (void)éíñõøüÿ0F\q´Êà÷$;RiÁÇÌÑÖÛàå£©°¶¼;
 

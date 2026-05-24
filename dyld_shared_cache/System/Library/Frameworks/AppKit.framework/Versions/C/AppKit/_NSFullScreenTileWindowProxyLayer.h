@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileWindowProxyLayer
 {
     unsigned int _wid;
-    NSWindow *_window;
 }
 
-- (id);
+- (id)n@;
 - (id);
 - (void);
 - (id);

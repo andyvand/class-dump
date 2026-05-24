@@ -9,8 +9,6 @@
 @interface CNContactIconAppearance
 {
     NSColor *_foregroundColor;
-    NSColor *_backgroundColor;
-    NSColor *_borderColor;
 }
 
 + (id);
@@ -23,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) NSColor *borderColor; // @synthesize borderColor=_borderColor;
 @property(retain) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
 
 @end

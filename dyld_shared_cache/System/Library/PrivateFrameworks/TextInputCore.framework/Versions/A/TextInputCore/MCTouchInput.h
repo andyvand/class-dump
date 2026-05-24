@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MCTouchInput : MCKeyboardInput
 {
     double _radius;
-    double _timestamp;
-    struct CGPoint _touchPoint;
 }
 
-- (struct CGPoint);
+- (struct CGPoint)%{sensitive}@;
+- (id)ttyIMSSupported;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
 - (id);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) struct CGPoint touchPoint; // @synthesize touchPoint=_touchPoint;
 
 @end

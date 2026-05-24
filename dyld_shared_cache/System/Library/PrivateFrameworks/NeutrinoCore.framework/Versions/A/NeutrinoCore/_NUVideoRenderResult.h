@@ -6,46 +6,29 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class AVAsset, AVAudioMix, AVComposition, AVVideoComposition, NSString, NUImageGeometry;
-@protocol NURenderStatistics;
+@class AVAsset;
 
 @interface _NUVideoRenderResult : _NURenderResult
 {
     AVAsset *_video;
-    AVVideoComposition *_videoComposition;
-    AVAudioMix *_audioMix;
-    NUImageGeometry *_geometry;
 }
 
 - (id);
+- (void)state;
+- (id);
+- (id)128), FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
+- (void)creationTimestamp);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)erver failed to discover accessories of a removed accessory server with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) AVAudioMix *audioMix; // @synthesize audioMix=_audioMix;
-@property(readonly) AVComposition *avAsset;
-@property(readonly) AVVideoComposition *avVideoComposition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NUImageGeometry *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 @property(retain) AVAsset *video; // @synthesize video=_video;
-@property(retain) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
 
 @end
 

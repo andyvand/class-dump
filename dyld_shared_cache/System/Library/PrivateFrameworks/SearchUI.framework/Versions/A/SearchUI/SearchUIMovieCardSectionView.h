@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NUIContainerStackView, SFMediaInfoCardSection;
+@class SFMediaInfoCardSection;
 
 @interface SearchUIMovieCardSectionView : SearchUICardSectionView
 {
@@ -17,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerStackView *contentView; // @dynamic contentView;
 @property(retain, nonatomic) SFMediaInfoCardSection *section; // @dynamic section;
 
 @end

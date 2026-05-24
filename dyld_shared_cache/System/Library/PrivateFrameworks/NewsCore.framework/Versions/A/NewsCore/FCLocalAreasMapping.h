@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface FCLocalAreasMapping
 {
     NSData *_data;
-    NSDictionary *_regionMap;
-    NSArray *_areas;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
+- (id)5˿;
 - (id);
 - (id);
 - (id);
@@ -27,28 +26,17 @@
 - (id);
 - (id);
 - (id);
+- (void)tting user curation for visit identifier:(id)arg1 %@, entryDate %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)T�;
+- (id)createXPCConnectionIfNecessary];
 - (id);
 - (id);
-- (unsigned long long)WithSearchOperationRankingFeedBack: /* Error: Ran out of types for this method. */;
-- (void)aidBundleMeteredCount;
+- (unsigned long long)initWithSearchOperationRankingFeedBack: /* Error: Ran out of types for this method. */;
+- (void)monthlyPaidBundleMeteredCount;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *areas; // @synthesize areas=_areas;
-@property(readonly, nonatomic) unsigned long long count;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *regionMap; // @synthesize regionMap=_regionMap;
-@property(readonly) Class superclass;
 
 @end
 

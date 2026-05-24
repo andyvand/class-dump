@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFWorkflowRunnerClient;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UAWorkflowRunningState
 {
     NSString *_identifier;
-    CDUnknownBlockType _completionHandler;
-    WFWorkflowRunnerClient *_client;
 }
 
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)odeLock;
 - (void);
 - (id);
-- (void);
+- (void)ReceivedPacketsCount;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WFWorkflowRunnerClient *client; // @synthesize client=_client;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

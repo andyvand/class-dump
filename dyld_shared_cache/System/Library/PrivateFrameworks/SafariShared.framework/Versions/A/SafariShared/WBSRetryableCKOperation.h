@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperation, CKOperationConfiguration, CKOperationGroup, NSMutableArray, NSMutableSet, NSObject, NSOperationQueue, NSString, WBSCloudKitOperationRetryManager;
-@protocol OS_dispatch_queue, OS_os_log;
-
 @interface WBSRetryableCKOperation
 {
     id _owner;
-    NSObject<OS_dispatch_queue> *_handlingQueue;
-    NSOperationQueue *_operationQueue;
-    struct os_unfair_lock_s _internalLock;
-    NSMutableSet *_explicitlySetProperties;
-    WBSCloudKitOperationRetryManager *_retryManager;
-    long long _status;
-    NSMutableArray *_childOperationIDs;
-    CKOperationConfiguration *_configuration;
-    CKOperationGroup *_group;
-    NSObject<OS_os_log> *_log;
-    CDUnknownBlockType _didReceiveNonRetryableError;
-    CDUnknownBlockType _didExceedRetryTimeout;
-    NSString *_operationID;
-    CKOperation *_currentOperation;
-    CDUnknownBlockType _ownerDidDeallocateBlock;
-    CDUnknownBlockType _longLivedOperationWasPersistedBlock;
 }
 
 + (id);
@@ -42,9 +23,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (CDUnknownBlockType);
+- (unsigned long long)`;
+- (void)for nonnull TRIFullMAAssetId.type;
+- (CDUnknownBlockType)match this type.;
 - (void);
 - (void);
 - (void);
@@ -63,8 +44,8 @@
 - (id);
 - (id);
 - (long long)_valuesForStandardForm:inDomain:autoFillDataType:matches:preferredLabel:multiRoundAutoFillManager:wantAllMatches:contact:existingMatches:shouldUseExistingMatchesToFillFocusedField:allowingIdentifiedAddressBookLabelToOverridePreferredIdentifier: /* Error: Ran out of types for this method. */;
-- (double)main:isAllowListedForFeedback: /* Error: Ran out of types for this method. */;
-- (void)ailNotification;
+- (double)_setDomain:isAllowListedForFeedback: /* Error: Ran out of types for this method. */;
+- (void)WBSReaderFontDownloadDidFailNotification;
 - (void);
 - (void) Ä;
 - (void)ä;
@@ -72,29 +53,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CKOperationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) CKOperation *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didExceedRetryTimeout; // @synthesize didExceedRetryTimeout=_didExceedRetryTimeout;
-@property(copy, nonatomic) CDUnknownBlockType didReceiveNonRetryableError; // @synthesize didReceiveNonRetryableError=_didReceiveNonRetryableError;
-@property(readonly, getter=isExecuting) _Bool executing;
-@property(readonly, getter=isFinished) _Bool finished;
-@property(retain, nonatomic) CKOperationGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *handlingQueue; // @synthesize handlingQueue=_handlingQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(copy, nonatomic) CDUnknownBlockType longLivedOperationWasPersistedBlock; // @synthesize longLivedOperationWasPersistedBlock=_longLivedOperationWasPersistedBlock;
-@property(readonly, nonatomic) unsigned long long numberOfRetries;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(readonly, nonatomic) __weak id owner; // @synthesize owner=_owner;
-@property(copy, nonatomic) CDUnknownBlockType ownerDidDeallocateBlock; // @synthesize ownerDidDeallocateBlock=_ownerDidDeallocateBlock;
 @property(nonatomic, getter=_status, setter=_setStatus:) long long status;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout;
 
 @end
 

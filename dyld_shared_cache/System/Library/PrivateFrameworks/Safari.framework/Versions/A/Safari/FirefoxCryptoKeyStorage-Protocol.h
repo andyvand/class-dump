@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol FirefoxCryptoKeyStorage
+- (_Bool)`*;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOpen;
-@property(readonly, copy, nonatomic) NSData *globalSaltData;
-@property(readonly, nonatomic) _Bool isKeyStorageUsingFirefox75AndAbove;
-@property(readonly, copy, nonatomic) NSData *passwordCheckEntrySalt;
-@property(readonly, copy, nonatomic) NSData *passwordCheckIV;
-@property(readonly, copy, nonatomic) NSData *passwordCheckPayload;
-@property(readonly, nonatomic) _Bool storesRawPrivateKey;
 @end
 

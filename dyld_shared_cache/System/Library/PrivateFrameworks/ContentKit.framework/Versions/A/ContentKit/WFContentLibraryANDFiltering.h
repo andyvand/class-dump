@@ -9,10 +9,10 @@
 }
 
 + (void);
++ (void);
 + (void);
 + (void);
-+ (void);
-+ (Class);
++ (Class);
 
 @end
 

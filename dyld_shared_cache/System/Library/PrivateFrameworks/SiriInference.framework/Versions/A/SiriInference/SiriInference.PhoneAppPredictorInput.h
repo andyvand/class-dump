@@ -9,7 +9,6 @@
 @interface SiriInference.PhoneAppPredictorInput
 {
     id X;
-    id domain_type;
 }
 
 - (id);

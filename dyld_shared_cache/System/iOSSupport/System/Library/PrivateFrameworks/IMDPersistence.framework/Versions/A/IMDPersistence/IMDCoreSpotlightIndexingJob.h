@@ -6,21 +6,9 @@
 
 #import <IMDPersistence/IMDCoreSpotlightBaseIndexingJob.h>
 
-@class CSDonationProgress, IMSpotlightClientState, NSArray, NSData;
-
 @interface IMDCoreSpotlightIndexingJob : IMDCoreSpotlightBaseIndexingJob
 {
     _Bool _suppressClientStateManagerPrewarm;
-    NSArray *_searchableItems;
-    NSArray *_rejectedItems;
-    NSArray *_deletedItemIdentifiers;
-    IMSpotlightClientState *_updatedClientState;
-    unsigned long long _deferredIndexingDepth;
-    NSArray *_immediateSearchableItems;
-    NSArray *_deferredSearchableItems;
-    CSDonationProgress *_donationProgress;
-    NSData *_previousClientStateData;
-    NSData *_updatedClientStateData;
 }
 
 + (void);
@@ -41,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (void);
 - (void);
@@ -81,16 +69,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long deferredIndexingDepth; // @synthesize deferredIndexingDepth=_deferredIndexingDepth;
-@property(retain, nonatomic) NSArray *deferredSearchableItems; // @synthesize deferredSearchableItems=_deferredSearchableItems;
-@property(retain, nonatomic) NSArray *deletedItemIdentifiers; // @synthesize deletedItemIdentifiers=_deletedItemIdentifiers;
-@property(retain, nonatomic) CSDonationProgress *donationProgress; // @synthesize donationProgress=_donationProgress;
-@property(retain, nonatomic) NSArray *immediateSearchableItems; // @synthesize immediateSearchableItems=_immediateSearchableItems;
-@property(retain, nonatomic) NSData *previousClientStateData; // @synthesize previousClientStateData=_previousClientStateData;
-@property(retain, nonatomic) NSArray *rejectedItems; // @synthesize rejectedItems=_rejectedItems;
-@property(retain, nonatomic) NSArray *searchableItems; // @synthesize searchableItems=_searchableItems;
-@property(nonatomic) _Bool suppressClientStateManagerPrewarm; // @synthesize suppressClientStateManagerPrewarm=_suppressClientStateManagerPrewarm;
-@property(retain, nonatomic) IMSpotlightClientState *updatedClientState; // @synthesize updatedClientState=_updatedClientState;
-@property(retain, nonatomic) NSData *updatedClientStateData; // @synthesize updatedClientStateData=_updatedClientStateData;
 
 @end
 

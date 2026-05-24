@@ -9,8 +9,6 @@
 @interface MTLResidencySetDescriptor
 {
     NSString *_label;
-    unsigned long long _initialCapacity;
-    _Bool _evictsImmediately;
 }
 
 - (void);
@@ -19,17 +17,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long)
 × ;
-- (void)tes:(id)arg1 bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
+- (void)replaceRegion:(id)arg1 mipmapLevel:slice:withBytes:bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long initialCapacity; // @synthesize initialCapacity=_initialCapacity;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

@@ -8,9 +8,6 @@
 {
     id $defaultActor;
     id delegate;
-    id connection;
-    id delegateInterface;
-    id requestRunning;
 }
 
 @end

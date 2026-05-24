@@ -7,8 +7,6 @@
 @interface FCSportsPrivacyConfiguration
 {
     _Bool _isHeadlineExposureTrackingDisabled;
-    double _syncEventSamplingRate;
-    double _headlineExposureNoiseRate;
 }
 
 - (double);
@@ -18,9 +16,7 @@
 - (id)is already in flight;
 
 // Remaining properties
-@property(readonly, nonatomic) double headlineExposureNoiseRate; // @synthesize headlineExposureNoiseRate=_headlineExposureNoiseRate;
 @property(readonly, nonatomic) _Bool isHeadlineExposureTrackingDisabled; // @synthesize isHeadlineExposureTrackingDisabled=_isHeadlineExposureTrackingDisabled;
-@property(readonly, nonatomic) double syncEventSamplingRate; // @synthesize syncEventSamplingRate=_syncEventSamplingRate;
 
 @end
 

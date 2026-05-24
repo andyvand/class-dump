@@ -9,12 +9,6 @@
 @interface DGiPhotoBoostEffect
 {
     CIFilter *_saturationFilter;
-    CIFilter *_temperatureFilter;
-    CIFilter *_blackAndWhitePointFilter;
-    float _level;
-    float _saturation;
-    float _temperature;
-    float _blackPoint;
 }
 
 - (void);

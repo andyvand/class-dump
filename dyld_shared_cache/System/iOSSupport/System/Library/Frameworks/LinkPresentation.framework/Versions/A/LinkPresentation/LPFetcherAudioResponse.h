@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     LPAudio *_audio;
 }
 
-+ (id);
-- (id);
++ (id)showKeyTransparencyReportToApplePopoverWithWindow:(id)arg1;
+- (id)store;
 - (id);
 - (void);
 

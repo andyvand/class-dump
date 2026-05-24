@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, SFLBookmark, SPMSharePoint;
+@class SPMSharePoint;
 
 __attribute__((visibility("hidden")))
 @interface SFLSharePointItem
@@ -16,35 +16,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)omputeUnit;
+- (void);
+- (id)?ka';
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (void)ute entities;
+- (void)	;
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long)llItems;
+- (unsigned long long)_removeAllItems;
 
 // Remaining properties
-@property(copy) SFLBookmark *bookmark; // @dynamic bookmark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSUUID *identifier;
 @property(retain) SPMSharePoint *internalSharePoint; // @synthesize internalSharePoint=_internalSharePoint;
-@property(copy) NSString *listIdentifier;
-@property(copy) NSString *name;
-@property(copy) NSDictionary *properties;
-@property unsigned long long seed;
-@property(readonly) Class superclass;
 
 @end
 

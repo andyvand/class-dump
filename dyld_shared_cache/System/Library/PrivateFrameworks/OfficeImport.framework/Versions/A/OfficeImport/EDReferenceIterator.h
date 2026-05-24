@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDReference, EDRowBlock, EDRowBlocks, EDWorkbook, EDWorksheet;
+@class EDWorkbook;
 
 __attribute__((visibility("hidden")))
 @interface EDReferenceIterator
 {
     EDWorkbook *mWorkbook;
-    EDWorksheet *mCurrentSheet;
-    EDCollection *mReferences;
-    EDReference *mReference;
-    EDRowBlocks *mRowBlocks;
-    EDRowBlock *mRowBlock;
-    unsigned long long mRowBlockIndex;
-    struct EDRowInfo *mRowInfo;
-    unsigned int mRowInfoIndex;
-    unsigned int mCellIndex;
-    unsigned int mNextArrayIndex;
-    int mCurrentCellIndex;
-    unsigned int mPreviousColumnNumber;
 }
 
 + (id);
@@ -34,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (_Bool);
-- (void);
-- (void);
+- (void)";
+- (void)utableArray",&,N,V_peekTokens;
 - (void);
 
 @end

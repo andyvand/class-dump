@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaABExperimentClientFeatureTriggered : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    NSString *_experimentId;
-    _Bool _hasTurnId;
-    _Bool _hasExperimentId;
 }
 
 - (void);
@@ -22,27 +19,23 @@
 - (void);
 - (id);
 - (void);
+- (void)applicationBundleIDs;
+- (_Bool)AOSUIOBBaseViewController;
+- (id)f;
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)܂;
+- (_Bool)FIRST_UNTITLED_GROUP;
+- (_Bool)_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
 - (id);
-- (void)eSource:(id)arg1;
-- (id)ices;
+- (void)setUserPresenceSource:(id)arg1;
+- (id)connectedBtDevices;
 - (id)N,V_picked;
 - (void)action.LRClientEvent.LRRedactionSummaryReported;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

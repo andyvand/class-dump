@@ -5,5 +5,6 @@
 //
 
 @protocol CKDiscoverUserIdentitiesOperationCallbacks
+- (void);
 @end
 

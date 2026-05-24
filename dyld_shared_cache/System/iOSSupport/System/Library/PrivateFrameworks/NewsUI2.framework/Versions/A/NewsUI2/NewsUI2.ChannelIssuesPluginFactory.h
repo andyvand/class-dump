@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelIssuesPluginFactory
 {
     id resolver;
-    id tracker;
-    id layoutOptionsProvider;
 }
 
 @end

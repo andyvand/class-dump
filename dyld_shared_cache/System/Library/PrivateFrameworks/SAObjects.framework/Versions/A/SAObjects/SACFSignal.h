@@ -6,13 +6,13 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString, SACFAbstractClientCommand;
+@class NSString;
 
 @interface SACFSignal : SADomainCommand
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
@@ -21,17 +21,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)n;
 - (id);
 - (id);
-- (id);
+- (id)progress to report:%s
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain;
-@property(copy, nonatomic) NSString *flowScriptHint;
-@property(copy, nonatomic) NSArray *scriptIdentifiers;
-@property(retain, nonatomic) SACFAbstractClientCommand *signalPayload;
 
 @end
 

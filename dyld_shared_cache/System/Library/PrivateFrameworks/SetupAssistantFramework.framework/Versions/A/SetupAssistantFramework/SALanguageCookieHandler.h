@@ -9,7 +9,6 @@
 @interface SALanguageCookieHandler
 {
     _Bool _usingVoiceOver;
-    NSArray *_guessedCountries;
 }
 
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain) NSArray *guessedCountries; // @synthesize guessedCountries=_guessedCountries;
-@property _Bool usingVoiceOver; // @synthesize usingVoiceOver=_usingVoiceOver;
 
 @end
 

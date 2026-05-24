@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, _GCHIDEventSubject;
+@class _GCHIDEventSubject;
 
 __attribute__((visibility("hidden")))
 @interface _GCHIDEventSubjectAuditor
 {
     _GCHIDEventSubject *_subject;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_serviceAuditors;
-    _Atomic unsigned long long _pausedForReasonsChangeCount;
-    unsigned long long _state;
 }
 
 - (void);
-- (id);
+- (id)$;
 - (void);
 
 @end

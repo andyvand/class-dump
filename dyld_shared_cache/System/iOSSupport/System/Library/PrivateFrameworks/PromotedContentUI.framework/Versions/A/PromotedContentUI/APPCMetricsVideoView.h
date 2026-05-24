@@ -9,9 +9,6 @@
 @interface APPCMetricsVideoView : APPCMetricsView
 {
     id isFullScreen;
-    id $__lazy_storage_$_privacyMarkerButton;
-    id representationFetched;
-    id videoView;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void)hAdsStrategyRecord;
+- (void)AnySearchAdsStrategyRecord;
 
 @end
 

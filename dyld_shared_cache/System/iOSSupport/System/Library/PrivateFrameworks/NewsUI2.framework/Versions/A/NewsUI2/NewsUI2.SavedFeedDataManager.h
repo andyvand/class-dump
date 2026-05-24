@@ -7,19 +7,11 @@
 @interface NewsUI2.SavedFeedDataManager
 {
     id delegate;
-    id readingList;
-    id dataProvider;
-    id headlineService;
-    id accessQueue;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id historyService;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)`v;
 - (void);
 
 @end

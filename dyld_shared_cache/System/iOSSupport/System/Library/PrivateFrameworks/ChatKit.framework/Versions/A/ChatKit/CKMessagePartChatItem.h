@@ -6,36 +6,33 @@
 
 #import <ChatKit/CKBalloonChatItem.h>
 
-@class CKAggregateAcknowledgmentChatItem, CKMessagePartHighlightChatItem, IMMessage, IMMessageItem, NSArray, NSItemProvider, NSString;
+@class NSArray;
 
 @interface CKMessagePartChatItem : CKBalloonChatItem
 {
     BOOL _cachedColor;
-    NSArray *_visibleAssociatedMessageChatItems;
-    NSArray *_suggestedActionsList;
-    CKMessagePartHighlightChatItem *_messageHighlightChatItem;
 }
 
+- (id)performSelector:withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (double)ic_isAppExtension;
+- (id)ic_attributedStringByCopyingInlineAttachmentsAndUpdatingChangeCountWithContext: /* Error: Ran out of types for this method. */;
+- (id)htmlAttributesForAttachment:legacyContentID:tagName: /* Error: Ran out of types for this method. */;
+- (_Bool)firstTextCheckingResultOfRegex:inDocumentText: /* Error: Ran out of types for this method. */;
+- (id)ICCalculateResultAttachmentView;
+- (_Bool);
 - (id);
-- (double);
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (BOOL);
+- (id)o;
+- (void)s;
+- (id)f;
+- (_Bool)hidden;
+- (_Bool)set on thumbnail view when it is hidden;
+- (_Bool)note (%@):%@ /* Error: Ran out of types for this method. */;
+- (_Bool)we haven't downloaded yet for a note (%@). Creating a temporary one.;
+- (BOOL)word;
 - (BOOL);
 - (_Bool);
 - (_Bool);
@@ -65,43 +62,17 @@
 - (_Bool);
 - (id);
 - (BOOL);
-- (id);
-- (id)erateAllAutomaticConfirmedMentionsUsingBlock: /* Error: Ran out of types for this method. */;
-- (id)ontactsHandle;
+- (id);
+- (id)ck_textKit2_enumerateAllAutomaticConfirmedMentionsUsingBlock: /* Error: Ran out of types for this method. */;
+- (id)allowedByContactsHandle;
 - (long long)4;
 - (struct IMColorComponents);
-- (id)sation;
-- (_Bool)SSAGE_ENTITY_PROPERTY_TITLE_ATTACHMENTS;
+- (id)conversation;
+- (_Bool)INTENTS_MESSAGE_ENTITY_PROPERTY_TITLE_ATTACHMENTS;
 - (void)ÈD;
 
 // Remaining properties
-@property(readonly, nonatomic) BOOL balloonStyle;
-@property(nonatomic) BOOL cachedColor; // @synthesize cachedColor=_cachedColor;
-@property(readonly, nonatomic) BOOL color;
-@property(readonly, nonatomic) NSItemProvider *dragItemProvider;
-@property(readonly, nonatomic) _Bool hasMessageAcknowledgment;
-@property(readonly, nonatomic) _Bool hasStickers;
-@property(readonly, nonatomic) _Bool hasVisibleAssociatedMessageItems;
-@property(readonly, nonatomic) long long index;
-@property(readonly, nonatomic) _Bool isBlackholed;
-@property(readonly, nonatomic) _Bool isCorrupt;
-@property(readonly, nonatomic) _Bool isReply;
-@property(readonly, nonatomic) _Bool isReplyContextPreview;
-@property(readonly, nonatomic) IMMessage *message;
 @property(readonly, copy, nonatomic) NSArray *messageAcknowledgments;
-@property(readonly, nonatomic) CKMessagePartHighlightChatItem *messageHighlightChatItem; // @synthesize messageHighlightChatItem=_messageHighlightChatItem;
-@property(readonly, nonatomic) IMMessageItem *messageItem;
-@property(readonly, nonatomic) struct _NSRange messagePartRange;
-@property(readonly, nonatomic) struct _NSRange originalMessagePartRange;
-@property(readonly, nonatomic) NSArray *pasteboardItemProviders;
-@property(readonly, nonatomic) unsigned long long scheduleState;
-@property(readonly, nonatomic) unsigned long long scheduleType;
-@property(readonly, nonatomic) NSString *serviceName;
-@property(readonly, nonatomic) NSArray *suggestedActionsList; // @synthesize suggestedActionsList=_suggestedActionsList;
-@property(readonly, nonatomic) CKAggregateAcknowledgmentChatItem *tapbacksChatItem;
-@property(readonly, nonatomic) NSString *threadIdentifier;
-@property(readonly, nonatomic) IMMessageItem *threadOriginator;
-@property(readonly, nonatomic) NSArray *visibleAssociatedMessageChatItems; // @synthesize visibleAssociatedMessageChatItems=_visibleAssociatedMessageChatItems;
 
 @end
 

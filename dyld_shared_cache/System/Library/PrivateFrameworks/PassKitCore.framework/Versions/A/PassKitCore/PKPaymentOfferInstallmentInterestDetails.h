@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKPaymentOfferInstallmentInterestDetails
 {
     PKCurrencyAmount *_totalInterestAmount;
-    NSArray *_interestItems;
 }
 
 + (_Bool)áW"ð!ôCùqî%Ð1Â0@ù
@@ -20,16 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long);
+- (_Bool)setMptcpHandshakeHandoverSuccessWiFi:(id)arg1;
+- (void)AWDIDSSessionAcceptReceived;
 - (id);
 - (id);
-- (id)pletion:(id)arg1;
-- (void)ACT_INVALID_COUNTRY;
+- (id)deleteInvitation:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)IN_APP_PAYMENT_CONTACT_INVALID_COUNTRY;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *interestItems; // @synthesize interestItems=_interestItems;
 @property(retain, nonatomic) PKCurrencyAmount *totalInterestAmount; // @synthesize totalInterestAmount=_totalInterestAmount;
 
 @end

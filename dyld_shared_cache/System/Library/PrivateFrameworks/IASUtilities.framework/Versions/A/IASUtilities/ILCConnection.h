@@ -6,21 +6,9 @@
 
 #import <IASUtilities/ILCBaseConnection.h>
 
-@class NSLock, NSMutableArray, NSMutableDictionary, NSObject, NSThread;
-@protocol ILCConnectionDelegate;
-
 @interface ILCConnection : ILCBaseConnection
 {
     int _state;
-    NSObject<ILCConnectionDelegate> *_delegate;
-    NSMutableDictionary *_filenameToUUIDMap;
-    NSMutableDictionary *_filehandleToUUIDMap;
-    NSMutableDictionary *_UUIDToHandleMap;
-    NSMutableArray *_pendingSysdiagnoseUUIDs;
-    NSMutableArray *_successulSysdiagnoseFilenames;
-    NSMutableArray *_failedSysdiagnoseFilenames;
-    NSThread *_fileHandleMultiplexThread;
-    NSLock *_fdLock;
 }
 
 - (void);
@@ -29,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,7 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R
+;
 - (void);
 - (void);
 - (id);
@@ -61,7 +50,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
@@ -71,16 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *UUIDToHandleMap; // @synthesize UUIDToHandleMap=_UUIDToHandleMap;
-@property __weak NSObject<ILCConnectionDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *failedSysdiagnoseFilenames; // @synthesize failedSysdiagnoseFilenames=_failedSysdiagnoseFilenames;
-@property(retain) NSLock *fdLock; // @synthesize fdLock=_fdLock;
-@property(retain) NSThread *fileHandleMultiplexThread; // @synthesize fileHandleMultiplexThread=_fileHandleMultiplexThread;
-@property(retain) NSMutableDictionary *filehandleToUUIDMap; // @synthesize filehandleToUUIDMap=_filehandleToUUIDMap;
-@property(retain) NSMutableDictionary *filenameToUUIDMap; // @synthesize filenameToUUIDMap=_filenameToUUIDMap;
-@property(retain) NSMutableArray *pendingSysdiagnoseUUIDs; // @synthesize pendingSysdiagnoseUUIDs=_pendingSysdiagnoseUUIDs;
 @property int state; // @synthesize state=_state;
-@property(retain) NSMutableArray *successulSysdiagnoseFilenames; // @synthesize successulSysdiagnoseFilenames=_successulSysdiagnoseFilenames;
 
 @end
 

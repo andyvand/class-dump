@@ -11,28 +11,26 @@
 @interface MCObject : MCObjectBase
 {
     MCMontage *mMontage;
-    NSString *mObjectID;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)TouchVisualFeedback: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool)setDisplaysTouchVisualFeedback: /* Error: Ran out of types for this method. */;
 - (id)teTextureCoordinates0; 
 			ComputeInSpriteCoordinates; 
 		} 
 		;
 
 // Remaining properties
-@property(readonly, nonatomic) MCMontage *montage; // @synthesize montage=mMontage;
 @property(readonly, nonatomic) NSString *objectID; // @synthesize objectID=mObjectID;
 
 @end

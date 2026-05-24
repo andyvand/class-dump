@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (void);
-+ (id);
++ (id)kMRMediaRemoteNowPlayingInfoTallAnimatedArtwork;
 + (id)forContext: /* Error: Ran out of types for this method. */;
 
 @end

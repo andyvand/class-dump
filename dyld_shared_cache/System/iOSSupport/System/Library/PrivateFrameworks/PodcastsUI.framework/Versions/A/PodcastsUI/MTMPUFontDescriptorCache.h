@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTMPUMutableFontDescriptor, NSMutableArray;
+@class MTMPUMutableFontDescriptor;
 
 @interface MTMPUFontDescriptorCache
 {
     MTMPUMutableFontDescriptor *_reusableMutableFontDescriptor;
-    unsigned long long _maximumCapacity;
-    NSMutableArray *_orderedCachedFontDescriptors;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (id);
-- (void);
+- (void)inary';
 - (id);
 - (void);
 

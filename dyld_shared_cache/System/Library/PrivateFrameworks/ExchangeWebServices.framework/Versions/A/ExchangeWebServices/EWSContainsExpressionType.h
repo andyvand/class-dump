@@ -6,40 +6,27 @@
 
 #import <ExchangeWebServices/EWSSearchExpressionType.h>
 
-@class EWSBasePathToElementType, EWSConstantValueType, NSString;
+@class EWSConstantValueType;
 
 @interface EWSContainsExpressionType : EWSSearchExpressionType
 {
     EWSConstantValueType *_Constant;
-    long long _ContainmentComparison;
-    long long _ContainmentMode;
-    EWSBasePathToElementType *_Path;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)h;
 - (long long);
-- (long long);
+- (long long));
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)}@ for image with dimensions:(id)arg1 {%.2f, %.2f};
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSConstantValueType *Constant; // @synthesize Constant=_Constant;
-@property(nonatomic) long long ContainmentComparison; // @synthesize ContainmentComparison=_ContainmentComparison;
-@property(nonatomic) long long ContainmentMode; // @synthesize ContainmentMode=_ContainmentMode;
-@property(retain, nonatomic) EWSBasePathToElementType *Path; // @synthesize Path=_Path;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol PLAssetsdServiceContext
+- (id);
 - (id)Ô ;
 - (id)Éð1Â0@ù
 × ;

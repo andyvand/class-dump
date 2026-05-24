@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatDecorationProvider
 {
     id packages;
-    id assetManager;
-    id config;
-    id options;
-    id groupItems;
-    id systemFactory;
-    id logger;
-    id commandCenter;
-    id debugData;
 }
 
 @end

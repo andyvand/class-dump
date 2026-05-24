@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void);
 
 @end

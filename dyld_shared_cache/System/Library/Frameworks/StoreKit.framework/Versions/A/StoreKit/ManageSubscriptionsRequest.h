@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface ManageSubscriptionsRequest
 {
     NSString *_familyID;
-    NSString *_sceneID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)ifier-cell;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *familyID; // @synthesize familyID=_familyID;
-@property(retain) NSString *sceneID; // @synthesize sceneID=_sceneID;
 
 @end
 

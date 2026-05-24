@@ -7,9 +7,6 @@
 @interface NewsUI2.MainEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

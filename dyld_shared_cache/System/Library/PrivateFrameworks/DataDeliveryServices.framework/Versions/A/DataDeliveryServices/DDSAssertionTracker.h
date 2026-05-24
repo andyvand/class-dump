@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol DDSAssertionDataHandling, DDSAssetTrackingDelegate, DDSUAFManager, OS_dispatch_queue;
+@class NSObject;
+@protocol DDSAssetTrackingDelegate, OS_dispatch_queue;
 
 @interface DDSAssertionTracker
 {
     id <DDSAssetTrackingDelegate> _delegate;
-    NSMutableArray *_trackedAssertions;
-    NSMutableDictionary *_assertionUpdateStatus;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_trackedAssertionSets;
-    id <DDSAssertionDataHandling> _dataHandler;
-    id <DDSUAFManager> _uafManager;
 }
 
 - (id);
@@ -27,16 +21,16 @@
 - (void);
 - (void);
 - (id);
+- (id)(	;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
+- (void)__objc_superrefs__DATA_CONST;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)abase is corrupt, removing it and restarting after throttle:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
@@ -44,20 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *assertionUpdateStatus; // @synthesize assertionUpdateStatus=_assertionUpdateStatus;
-@property(readonly, nonatomic) id <DDSAssertionDataHandling> dataHandler; // @synthesize dataHandler=_dataHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <DDSAssetTrackingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *trackedAssertionSets; // @synthesize trackedAssertionSets=_trackedAssertionSets;
-@property(readonly, nonatomic) NSMutableArray *trackedAssertions; // @synthesize trackedAssertions=_trackedAssertions;
-@property(readonly, nonatomic) id <DDSUAFManager> uafManager; // @synthesize uafManager=_uafManager;
 
 @end
 

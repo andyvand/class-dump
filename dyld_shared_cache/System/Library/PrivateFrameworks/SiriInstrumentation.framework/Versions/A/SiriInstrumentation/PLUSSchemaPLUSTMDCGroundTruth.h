@@ -6,36 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PLUSSchemaPLUSTMDCCorrectedPronunciationTier1, PLUSSchemaPLUSTMDCSiriCurrentPronunciationTier1, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSTMDCGroundTruth : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_groundTruthId;
-    SISchemaUUID *_asrRawRecognitionLinkId;
-    SISchemaUUID *_asrPostItnLinkId;
-    NSString *_ttsCurrentPhonemes;
-    double _phonemesToPhonemesDistance;
-    _Bool _isTTSMispronounced;
-    NSString *_ttsSuggestedPhonemes;
-    PLUSSchemaPLUSTMDCSiriCurrentPronunciationTier1 *_siriCurrentPronunciation;
-    PLUSSchemaPLUSTMDCCorrectedPronunciationTier1 *_correctedPronunciation;
-    int _selfLogSource;
-    _Bool _isTmdcPluginEnabled;
-    _Bool _isCorrectionEligible;
-    struct {
-        unsigned int phonemesToPhonemesDistance:1;
-        unsigned int isTTSMispronounced:1;
-        unsigned int selfLogSource:1;
-        unsigned int isTmdcPluginEnabled:1;
-        unsigned int isCorrectionEligible:1;
-    } _has;
-    _Bool _hasGroundTruthId;
-    _Bool _hasAsrRawRecognitionLinkId;
-    _Bool _hasAsrPostItnLinkId;
-    _Bool _hasTtsCurrentPhonemes;
-    _Bool _hasTtsSuggestedPhonemes;
-    _Bool _hasSiriCurrentPronunciation;
-    _Bool _hasCorrectedPronunciation;
 }
 
 - (id);
@@ -44,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -72,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -85,7 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -103,39 +78,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)we need to add FileProviderID for %lu items;
 - (id);
 - (id);
-- (id)eviouslyShown;
+- (id)_isAmbiguousFirstRunPreviouslyShown;
 - (id)_hasModelInputShapes;
-- (void)E_IL;
+- (void)COUNTRYCODE_IL;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *asrPostItnLinkId; // @synthesize asrPostItnLinkId=_asrPostItnLinkId;
-@property(retain, nonatomic) SISchemaUUID *asrRawRecognitionLinkId; // @synthesize asrRawRecognitionLinkId=_asrRawRecognitionLinkId;
-@property(retain, nonatomic) PLUSSchemaPLUSTMDCCorrectedPronunciationTier1 *correctedPronunciation; // @synthesize correctedPronunciation=_correctedPronunciation;
 @property(retain, nonatomic) SISchemaUUID *groundTruthId; // @synthesize groundTruthId=_groundTruthId;
-@property(nonatomic) _Bool hasAsrPostItnLinkId; // @synthesize hasAsrPostItnLinkId=_hasAsrPostItnLinkId;
-@property(nonatomic) _Bool hasAsrRawRecognitionLinkId; // @synthesize hasAsrRawRecognitionLinkId=_hasAsrRawRecognitionLinkId;
-@property(nonatomic) _Bool hasCorrectedPronunciation; // @synthesize hasCorrectedPronunciation=_hasCorrectedPronunciation;
-@property(nonatomic) _Bool hasGroundTruthId; // @synthesize hasGroundTruthId=_hasGroundTruthId;
-@property(nonatomic) _Bool hasIsCorrectionEligible;
-@property(nonatomic) _Bool hasIsTTSMispronounced;
-@property(nonatomic) _Bool hasIsTmdcPluginEnabled;
-@property(nonatomic) _Bool hasPhonemesToPhonemesDistance;
-@property(nonatomic) _Bool hasSelfLogSource;
-@property(nonatomic) _Bool hasSiriCurrentPronunciation; // @synthesize hasSiriCurrentPronunciation=_hasSiriCurrentPronunciation;
-@property(nonatomic) _Bool hasTtsCurrentPhonemes; // @synthesize hasTtsCurrentPhonemes=_hasTtsCurrentPhonemes;
-@property(nonatomic) _Bool hasTtsSuggestedPhonemes; // @synthesize hasTtsSuggestedPhonemes=_hasTtsSuggestedPhonemes;
-@property(nonatomic) _Bool isCorrectionEligible; // @synthesize isCorrectionEligible=_isCorrectionEligible;
-@property(nonatomic) _Bool isTTSMispronounced; // @synthesize isTTSMispronounced=_isTTSMispronounced;
-@property(nonatomic) _Bool isTmdcPluginEnabled; // @synthesize isTmdcPluginEnabled=_isTmdcPluginEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double phonemesToPhonemesDistance; // @synthesize phonemesToPhonemesDistance=_phonemesToPhonemesDistance;
-@property(nonatomic) int selfLogSource; // @synthesize selfLogSource=_selfLogSource;
-@property(retain, nonatomic) PLUSSchemaPLUSTMDCSiriCurrentPronunciationTier1 *siriCurrentPronunciation; // @synthesize siriCurrentPronunciation=_siriCurrentPronunciation;
-@property(copy, nonatomic) NSString *ttsCurrentPhonemes; // @synthesize ttsCurrentPhonemes=_ttsCurrentPhonemes;
-@property(copy, nonatomic) NSString *ttsSuggestedPhonemes; // @synthesize ttsSuggestedPhonemes=_ttsSuggestedPhonemes;
 
 @end
 

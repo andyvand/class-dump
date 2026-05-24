@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, _MKMapItemPhotosAttribution;
-@protocol GEOMapItemPhoto;
+@class NSString;
 
 @interface MKMapItemPhoto
 {
     long long _photoStyle;
-    _MKMapItemPhotosAttribution *_attribution;
-    NSString *_title;
-    NSString *_subtitle;
-    id <GEOMapItemPhoto> _geoMapItemPhoto;
 }
 
 - (id);
@@ -21,35 +16,24 @@
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
+- (_Bool)setLinkKeyData: /* Error: Ran out of types for this method. */;
+- (id), %@, %@;
+- (_Bool)EA;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
+- (void)getLastStartpointTimestampAndCurrentTime:(id)arg1;
+- (long long)F;
 - (id);
-- (void);
+- (void)initWithMapItemDetailPresentationStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _MKMapItemPhotosAttribution *attribution; // @synthesize attribution=_attribution;
-@property(readonly, nonatomic) _Bool displayFullScreenPhotoGallery;
-@property(readonly, nonatomic) long long format;
-@property(readonly, nonatomic) id <GEOMapItemPhoto> geoMapItemPhoto; // @synthesize geoMapItemPhoto=_geoMapItemPhoto;
-@property(readonly, nonatomic) NSURL *largestPhotoURL;
-@property(readonly, nonatomic) NSString *license;
-@property(readonly, nonatomic) _Bool needsObfuscationWhenRenderedInFullScreen;
-@property(readonly, nonatomic) NSString *photoID;
-@property(readonly, nonatomic) long long photoStyle; // @synthesize photoStyle=_photoStyle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool useGallery;
 
 @end
 

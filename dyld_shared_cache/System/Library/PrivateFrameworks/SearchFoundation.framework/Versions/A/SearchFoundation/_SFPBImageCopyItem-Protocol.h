@@ -7,9 +7,10 @@
 @class NSData, _SFPBImage;
 
 @protocol _SFPBImageCopyItem
+- (void)SDKLibrary;
+- (NSData *)tEnrichmentDate;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

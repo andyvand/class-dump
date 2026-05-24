@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSRequest, BKSSymbolOwner, BKSSymbolOwnerSegment, NSNumber, NSString, NSUUID;
+@class BKSRequest;
 
 @interface BKSResult
 {
     _Bool _isTextExecOffset;
-    BKSSymbolOwner *_symbolOwner;
-    NSString *_segmentName;
-    BKSSymbolOwnerSegment *_segment;
-    NSNumber *_offsetIntoSegment;
-    NSNumber *_offsetIntoSymbolOwner;
-    NSString *_symbol;
-    NSNumber *_symbolLength;
-    NSNumber *_sourceLine;
-    NSNumber *_sourceColumn;
-    NSString *_sourcePath;
-    NSNumber *_offsetIntoSymbol;
-    BKSRequest *_request;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -38,30 +26,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)	;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTextExecOffset; // @synthesize isTextExecOffset=_isTextExecOffset;
-@property(readonly, nonatomic) NSNumber *offset;
-@property(readonly, nonatomic) NSNumber *offsetIntoSegment; // @synthesize offsetIntoSegment=_offsetIntoSegment;
-@property(readonly, nonatomic) NSNumber *offsetIntoSymbol; // @synthesize offsetIntoSymbol=_offsetIntoSymbol;
-@property(readonly, nonatomic) NSNumber *offsetIntoSymbolOwner; // @synthesize offsetIntoSymbolOwner=_offsetIntoSymbolOwner;
 @property(readonly, nonatomic) BKSRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) BKSSymbolOwnerSegment *segment; // @synthesize segment=_segment;
-@property(readonly, nonatomic) NSString *segmentName; // @synthesize segmentName=_segmentName;
-@property(readonly, nonatomic) NSNumber *sourceColumn; // @synthesize sourceColumn=_sourceColumn;
-@property(readonly, nonatomic) NSNumber *sourceLine; // @synthesize sourceLine=_sourceLine;
-@property(readonly, nonatomic) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
-@property(readonly, nonatomic) _Bool succeeded;
-@property(readonly, nonatomic) NSString *symbol; // @synthesize symbol=_symbol;
-@property(readonly, nonatomic) NSNumber *symbolLength; // @synthesize symbolLength=_symbolLength;
-@property(readonly, nonatomic) BKSSymbolOwner *symbolOwner; // @synthesize symbolOwner=_symbolOwner;
-@property(readonly, nonatomic) NSUUID *symbolOwnerUUID;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PARRequest, PARSession;
-
 @interface PARTask
 {
     CDUnknownBlockType _completionBlock;
-    PARSession *_session;
-    unsigned long long _queryId;
-    PARRequest *_request;
 }
 
+- (id)A;
 - (id);
-- (id);
-- (void);
+- (void)`b;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(retain, nonatomic) PARRequest *request; // @synthesize request=_request;
-@property(nonatomic) __weak PARSession *session; // @synthesize session=_session;
 
 @end
 

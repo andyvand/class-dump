@@ -9,27 +9,21 @@
 @interface CNContactSection
 {
     NSString *_title;
-    NSString *_identifier;
-    NSString *_sortKey;
-    struct _NSRange _range;
 }
 
 - (id);
 - (id);
 - (struct _NSRange);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)setAXAttribute:(id)arg1 withObject:synchronous: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void)T;
 - (id);
+- (id);
 - (void)p;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) NSString *sortKey; // @synthesize sortKey=_sortKey;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

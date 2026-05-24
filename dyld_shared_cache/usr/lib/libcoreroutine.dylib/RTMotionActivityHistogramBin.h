@@ -7,25 +7,21 @@
 @interface RTMotionActivityHistogramBin
 {
     unsigned long long _type;
-    unsigned long long _confidence;
-    double _interval;
 }
 
-- (void);
+- (void)b;
 - (id);
 - (void);
-- (double);
-- (id);
+- (double)_pluginNameForStunRequest: /* Error: Ran out of types for this method. */;
+- (id)ningLength:%zd < 2 /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

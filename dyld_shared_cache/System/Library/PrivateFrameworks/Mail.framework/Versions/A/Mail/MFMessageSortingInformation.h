@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface MFMessageSortingInformation
 {
     _Bool _skipAutomaticSecondarySort;
-    NSDictionary *_sortValues;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool skipAutomaticSecondarySort; // @synthesize skipAutomaticSecondarySort=_skipAutomaticSecondarySort;
-@property(retain, nonatomic) NSDictionary *sortValues; // @synthesize sortValues=_sortValues;
 
 @end
 

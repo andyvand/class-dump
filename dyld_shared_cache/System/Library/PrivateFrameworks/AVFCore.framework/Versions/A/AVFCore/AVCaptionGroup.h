@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionGroupInternal, NSArray;
+@class AVCaptionGroupInternal;
 
 @interface AVCaptionGroup
 {
@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)T$x%;
 - (struct opaqueCMSampleBuffer *);
 - (id);
 - (void);
@@ -20,7 +20,6 @@
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *captions;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

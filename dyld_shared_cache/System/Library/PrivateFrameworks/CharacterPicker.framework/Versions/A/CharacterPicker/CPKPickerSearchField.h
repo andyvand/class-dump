@@ -6,31 +6,29 @@
 
 #import <CharacterPicker/CPKSearchField.h>
 
-@class CPKEmojiIMViewController, CPKSearchFieldPopoverTouchBarItem;
+@class CPKEmojiIMViewController;
 
 __attribute__((visibility("hidden")))
 @interface CPKPickerSearchField : CPKSearchField
 {
     CPKEmojiIMViewController *_emojiBarController;
-    CPKSearchFieldPopoverTouchBarItem *_popoverItem;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)	km;
 - (void);
 - (id);
 - (void);
+- (void)R;
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)dB;
 
 // Remaining properties
 @property CPKEmojiIMViewController *emojiBarController; // @synthesize emojiBarController=_emojiBarController;
-@property(retain) CPKSearchFieldPopoverTouchBarItem *popoverItem; // @synthesize popoverItem=_popoverItem;
 
 @end
 

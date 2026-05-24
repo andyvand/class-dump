@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSSet;
+@class NSIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface NSArrayDiff
 {
     NSIndexSet *_removedObjectIndexes;
-    NSIndexSet *_insertedObjectIndexes;
-    NSSet *_movedObjectIndexes;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)connection:didReceiveData:completion: /* Error: Ran out of types for this method. */;
+- (id)hePrefix;
+- (id)hj;
+- (id);
 - (void);
-- (id);
+- (id)predicateForEventsWithLocalCreationInDateRangeFromAfter:to: /* Error: Ran out of types for this method. */;
 - (_Bool)nGLContext currentContext] == context" -> %llu;
 
 // Remaining properties
-@property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly, copy) NSIndexSet *insertedObjectIndexes; // @synthesize insertedObjectIndexes=_insertedObjectIndexes;
-@property(readonly, copy) NSSet *movedObjectIndexes; // @synthesize movedObjectIndexes=_movedObjectIndexes;
 @property(readonly, copy) NSIndexSet *removedObjectIndexes; // @synthesize removedObjectIndexes=_removedObjectIndexes;
 
 @end

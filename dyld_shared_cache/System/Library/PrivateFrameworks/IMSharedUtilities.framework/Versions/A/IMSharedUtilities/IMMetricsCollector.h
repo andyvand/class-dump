@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SDRDiagnosticReporter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMMetricsCollector
 {
     NSObject<OS_dispatch_queue> *_metricsQueue;
-    SDRDiagnosticReporter *_diagnosticReporter;
 }
 
 + (id);
@@ -19,13 +18,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -58,7 +57,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)rivateFrameworks/PassKitMacHelper.framework;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *metricsQueue; // @synthesize metricsQueue=_metricsQueue;

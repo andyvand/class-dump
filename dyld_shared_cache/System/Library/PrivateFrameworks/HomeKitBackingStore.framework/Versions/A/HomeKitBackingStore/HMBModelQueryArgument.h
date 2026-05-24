@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol HMBQueryableModelFieldCoder;
 
 @interface HMBModelQueryArgument
 {
     NSString *_propertyName;
-    id <HMBQueryableModelFieldCoder> _defaultValue;
 }
 
 + (id);
@@ -21,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMBQueryableModelFieldCoder> defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(readonly, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
 
 @end

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (GEOTransitExtras)
-- (id);
-- (id);
+- (id)_bootSessionUUID;
+- (id)Tq,V_type;
 @end
 

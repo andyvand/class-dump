@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SARDServerContextUpdateCandidate;
+@class NSArray;
 
 @interface SARDFlowOutputCandidate : SABaseClientBoundCommand
 {
@@ -16,19 +16,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)elected;
+- (_Bool);
+- (void)ResultSelected;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *payload;
-@property(copy, nonatomic) NSString *resultCandidateId;
-@property(retain, nonatomic) SARDServerContextUpdateCandidate *serverContextUpdateCandidate;
-@property(nonatomic) _Bool shouldNotMitigateAsFalseTrigger;
 
 @end
 

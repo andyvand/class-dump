@@ -7,11 +7,6 @@
 @interface UIKit.GlassGroupLayerView__priv_0A8B4DB961B57EBA158E8356A5AC0B1F.MaterializeAnimation
 {
     id glass;
-    id view;
-    id glassView;
-    id viewTagMapping;
-    id animationCounter;
-    id group;
 }
 
 @end

@@ -6,21 +6,11 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSCompletion, BPSSubscriptionStatus, NSMutableArray, NSString;
 @protocol BPSSubscriber;
 
 @interface BPSBufferInner : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    _Bool _recursion;
-    id <BPSSubscriber> _downstream;
-    unsigned long long _size;
-    unsigned long long _prefetch;
-    unsigned long long _whenFull;
-    long long _downstreamDemand;
-    BPSSubscriptionStatus *_status;
-    BPSCompletion *_terminal;
-    NSMutableArray *_values;
 }
 
 + (id);
@@ -31,47 +21,32 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)B;
 - (unsigned long long);
 - (void);
+- (id)reviewActionLabel;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)her"16@"NSData"24@"NSString"32;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
+- (void)pant;
 - (void);
-- (void);
-- (void);
+- (void)R,N,V_title;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)bressl-2.6/crypto/evp/p_dec.c;
 - (void);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) long long downstreamDemand; // @synthesize downstreamDemand=_downstreamDemand;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long prefetch; // @synthesize prefetch=_prefetch;
-@property(nonatomic) _Bool recursion; // @synthesize recursion=_recursion;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(retain, nonatomic) BPSSubscriptionStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) BPSCompletion *terminal; // @synthesize terminal=_terminal;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
-@property(nonatomic) unsigned long long whenFull; // @synthesize whenFull=_whenFull;
 
 @end
 

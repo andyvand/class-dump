@@ -4,6 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UIContextMenuConfiguration, UISwipeActionsConfiguration, UITableView;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (void);
+- (UISwipeActionsConfiguration *);
+- (_Bool);
+- (long long)C;
+- (void)B;
+- (void);
+- (void);
+- (UIContextMenuConfiguration *);
+- (_Bool)Q;
+- (NSIndexPath *)D54",
+            "name_color_dark":(UITableView *)arg1 "#FF375F",
+            "use_name_color_in_widget":false,
+            "section_type":3,
+            "display_order":3,
+            "fallback_order":0,
+            "cached_result_cutoff_time":28800,
+            "aggregation_policy":0,
+            "maximum_slot_allocation":5,
+            "minimum_slot_allocation":1,
+            "read_stories_filter_method":2,
+            "seen_stories_filter_method":0,
+            "filter_duplicate_clusters_within_section":false,
+            "filter_duplicate_clusters_across_sections":false,
+            "filter_paywalled_stories":false,
+            "promotion_criterion":0,
+            "max_articles_shown":5,
+            "channel_muting_enabled":true,
+            "seen_stories_minimum_time_since_first_seen_to_filter":900,
+            "personalization_feature_id":"f8+topstories___2",
+            "shown_in_favorites_only_mode":false,
+            "queue_membership":[1],
+            "glanceable":true,
+            "enabled":true,
+            "curation_type":"TOP_STORIES",
+            "curation_category":"DEFAULT",
+            "supported_versions":["TIGRIS"],
+            "enabled_on_publish":true,
+            "tag_id":"TqT-jfrI0QXaYqGoz68HYeQ",
+            "name_action_url":"http://apple.news/TqT-jfrI0QXaYqGoz68HYeQ",
+            "articles":[
+                {"id":"ALqZbKd77Tj2Y3TllKVhrHg"},
+                {"id":"A9Ch7haUwRMKqOU8TFj-afg"},
+                {"id":"AKdEIC7wIT62b9OQhYPSxlg"},
+                {"id":"A-7o7NJ1uTx2p1mrInLF_DQ"},
+                {"id":"AK1ShZC40RI-AUYuKI8FiqQ"}
+            ]
+        }
+    ]
+} /* Error: Ran out of types for this method. */;
 @end
 

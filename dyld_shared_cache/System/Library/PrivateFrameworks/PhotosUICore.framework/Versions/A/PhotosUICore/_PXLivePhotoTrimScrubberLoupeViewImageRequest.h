@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVVideoComposition;
+@class AVAsset;
 
 @interface _PXLivePhotoTrimScrubberLoupeViewImageRequest
 {
     AVAsset *_asset;
-    AVVideoComposition *_videoComposition;
-    double _scale;
-    struct CGSize _imageSize;
-    CDStruct_1b6d18a9 _sourceTime;
 }
 
 - (CDStruct_1b6d18a9);
@@ -27,15 +23,10 @@
 - (void)sualSearch:(id)arg1 %@) Data Detectors:%ld /* Error: Ran out of types for this method. */;
 - (id)tioning to error state:%@ /* Error: Ran out of types for this method. */;
 - (void)mory.interactiveMemoryTimelinePlayedWith85-94PercentTransitionsOnBar;
-- (void)el;
+- (void)LemonadeUtilitiesEditableListModel;
 
 // Remaining properties
 @property(retain, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, nonatomic) _Bool isValid;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) CDStruct_1b6d18a9 sourceTime; // @synthesize sourceTime=_sourceTime;
-@property(retain, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
 
 @end
 

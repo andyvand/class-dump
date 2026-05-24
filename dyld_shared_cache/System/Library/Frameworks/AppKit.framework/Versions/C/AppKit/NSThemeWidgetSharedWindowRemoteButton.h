@@ -13,23 +13,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)r;
+- (void)r^^v16;
+- (void)rXsQQ;
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (id)ÉÒh@o-ÿ;
 
 // Remaining properties
 @property __weak id <NSThemeWidgetSharedWindowRemoteButtonDelegate> delegate; // @dynamic delegate;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

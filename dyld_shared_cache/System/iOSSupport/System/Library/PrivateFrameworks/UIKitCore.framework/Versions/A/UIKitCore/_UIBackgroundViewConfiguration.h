@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage, UIShadowProperties, UIView, UIVisualEffect;
-@protocol _UIViewMaterial;
+@class UIShadowProperties;
 
 @interface _UIBackgroundViewConfiguration
 {
@@ -20,25 +19,12 @@
         unsigned int hasCustomizedStrokeWidth:1;
         unsigned int hasCustomizedStrokeOutset:1;
     } _configurationFlags;
-    UIView *_customView;
-    double _cornerRadius;
-    unsigned long long _edgesAddingLayoutMarginsToBackgroundInsets;
-    long long _backgroundColorMode;
-    UIColor *_backgroundColor;
-    UIVisualEffect *_visualEffect;
-    long long _strokeColorMode;
-    UIColor *_strokeColor;
-    double _strokeWidth;
-    double _strokeOutset;
-    UIShadowProperties *_shadowProperties;
-    long long _defaultStyle;
-    long long _strokeLocation;
-    unsigned long long _maskedCorners;
-    NSString *_visualEffectGroupName;
-    unsigned long long _visualEffectblurClippingMode;
-    struct NSDirectionalEdgeInsets _backgroundInsets;
 }
 
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -49,6 +35,9 @@
 + (id);
 + (id);
 + (id);
++ (id)C;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -57,21 +46,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool)wControllerKey;
++ (_Bool)kTextDisplayingShareViewControllerKey;
 - (id);
-- (void);
-- (void);
+- (void)setExpectedDuration:(long long)arg1;
+- (void)fetchChatZoneChangesCKOperationUsingToken:(long long)arg1 zone:resultsLimit:groupName:activity: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
-- (void);
-- (void);
+- (long long)ne (%lld). Don't overwrite local asset. Asset from ckrecord has path %@;
+- (void)candidate for routing;
+- (void)ate %@, unrecognized update type;
 - (long long);
 - (long long);
 - (id);
@@ -88,14 +70,14 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)16QuadraticProgram;
 - (id);
 - (void);
-- (id);
+- (id)tConcrete.updateState->fileChunkListRequested && (updateItem->putReceipt || updateItem->error));
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)_pushContentItemsUpdate;
 - (_Bool);
 - (id);
 - (void);
@@ -120,14 +102,14 @@
 × ;
 - (void)× ;
 - (double)llWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"extendedAccessibilityAdjustments"b1"canUseUILabelLayer"b1"implementsDefaultAttributes"b1"textColorFollowsTintColor"b1"materialTextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
-- (_Bool)miss:(id)arg1;
-- (_Bool)tPrefersOverlayInRegularWidthPhone:(id)arg1;
+- (_Bool)setShouldDismiss:(id)arg1;
+- (_Bool)setPrefersOverlayInRegularWidthPhone:(id)arg1;
 - (void)rangeSelectionMoved:(struct NSDirectionalEdgeInsets)arg1 withTouchPoint: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1;
-- (void);
-- (void)istant:(id)arg1;
-- (void)ize:(id)arg1 withTraitCollection: /* Error: Ran out of types for this method. */;
-- (void)orResolvingTarget;
+- (id)pageViewController:(id)arg1 willTransitionToViewControllers: /* Error: Ran out of types for this method. */;
+- (void)pageControlProgress:(id)arg1 initialProgressForPage: /* Error: Ran out of types for this method. */;
+- (void)initWithInteractionAssistant:(id)arg1;
+- (void)_newlineImageForSize:(id)arg1 withTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)__useSenderForResolvingTarget;
 - (id)"UINavigationBar",R,N;
 - (void);
 - (void)UIMenuForcedAutomaticSelectionDelegate>",W,N,V_forcedAutomaticSelectionDelegate;
@@ -140,16 +122,16 @@
 - (_Bool);
 - (double)to at least one of UIAvoidanceBlockade, UIAvoidanceClient;
 - (id)e received call to -application:(id)arg1 handleActionWithIdentifier:forRemoteNotification:completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (id)StyleStatusBarExternal;
+- (id)UIActivityIndicatorViewStyleStatusBarExternal;
 - (id)@. Use the repeatBehavior property.;
-- (double)ets;
+- (double)safeAreaInsets;
 - (void)temItem=MostViewed;
 - (void);
 - (void)¹;
-- (void)iewEntryC;
+- (void)So24_UIVisualEffectViewEntryC;
 - (void)S;
-- (id);
-- (double)ollerTextAlignment;
+- (id)CoreListMetricsColor;
+- (double)NUITextFormattingViewControllerTextAlignment;
 - (void);
 - (_Bool)5P¹;
 - (void)p	Íÿ;
@@ -164,52 +146,7 @@
 - (void)d;
 
 // Remaining properties
-@property(nonatomic, setter=__setMaskedCorners:) unsigned long long __maskedCorners; // @synthesize __maskedCorners=_maskedCorners;
-@property(copy, nonatomic, setter=__setVisualEffectGroupName:) NSString *__visualEffectGroupName; // @synthesize __visualEffectGroupName=_visualEffectGroupName;
-@property(nonatomic, setter=__setVisualEffectblurClippingMode:) unsigned long long __visualEffectblurClippingMode; // @synthesize __visualEffectblurClippingMode=_visualEffectblurClippingMode;
-@property(retain, nonatomic, setter=_setBackgroundColor:) UIColor *_backgroundColor; // @synthesize _backgroundColor;
-@property(nonatomic, setter=_setBackgroundColorMode:) long long _backgroundColorMode; // @synthesize _backgroundColorMode;
-@property(nonatomic, setter=_setBackgroundInsets:) struct NSDirectionalEdgeInsets _backgroundInsets; // @synthesize _backgroundInsets;
-@property(retain, nonatomic, setter=_setContentView:) UIView *_contentView;
-@property(nonatomic, setter=_setContentViewIgnoresBackgroundInsets:) _Bool _contentViewIgnoresBackgroundInsets;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
-@property(retain, nonatomic, setter=_setCustomView:) UIView *_customView; // @synthesize _customView;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setEdgesAddingLayoutMarginsToBackgroundInsets:) unsigned long long _edgesAddingLayoutMarginsToBackgroundInsets; // @synthesize _edgesAddingLayoutMarginsToBackgroundInsets;
-@property(retain, nonatomic, setter=_setMaterial:) id <_UIViewMaterial> _material;
 @property(retain, nonatomic, setter=_setShadowProperties:) UIShadowProperties *_shadowProperties; // @synthesize _shadowProperties;
-@property(retain, nonatomic, setter=_setStrokeColor:) UIColor *_strokeColor; // @synthesize _strokeColor;
-@property(nonatomic, setter=_setStrokeColorMode:) long long _strokeColorMode; // @synthesize _strokeColorMode;
-@property(nonatomic, setter=_setStrokeOutset:) double _strokeOutset; // @synthesize _strokeOutset;
-@property(nonatomic, setter=_setStrokeWidth:) double _strokeWidth; // @synthesize _strokeWidth;
-@property(copy, nonatomic, setter=_setVisualEffect:) UIVisualEffect *_visualEffect; // @synthesize _visualEffect;
-@property(retain, nonatomic) UIColor *backgroundColor;
-@property(nonatomic) long long backgroundColorMode;
-@property(nonatomic) struct NSDirectionalEdgeInsets backgroundInsets;
-@property(nonatomic) double cornerRadius;
-@property(retain, nonatomic) UIView *customView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgesAddingLayoutMarginsToBackgroundInsets;
-@property(readonly, nonatomic, getter=_hasBackgroundColor) _Bool hasBackgroundColor;
-@property(readonly, nonatomic, getter=_hasBackgroundFill) _Bool hasBackgroundFill;
-@property(readonly, nonatomic, getter=_hasContentView) _Bool hasContentView;
-@property(readonly, nonatomic, getter=_hasMaterial) _Bool hasMaterial;
-@property(readonly, nonatomic, getter=_hasStroke) _Bool hasStroke;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) long long imageContentMode;
-@property(readonly, nonatomic) _Bool isTintBackgroundColor;
-@property(retain, nonatomic) UIColor *strokeColor;
-@property(nonatomic) long long strokeColorMode;
-@property(nonatomic, getter=_strokeLocation, setter=_setStrokeLocation:) long long strokeLocation; // @synthesize strokeLocation=_strokeLocation;
-@property(nonatomic) double strokeOutset;
-@property(nonatomic) double strokeWidth;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) UIVisualEffect *visualEffect;
 
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTab
 {
     NSString *_displayName;
-    NSString *_accessibilityIdentifier;
-    UIViewController *_viewController;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)to register subscription for zone ID %@:%@ /* Error: Ran out of types for this method. */;
 - (void)[1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorTranslatedMessagePart
 {
@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
+- (id)2@40;
 - (id);
-- (id);
-- (long long);
+- (long long)Controller";
 - (id);
 - (id);
 - (id);
@@ -22,11 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_messagePartIndex;
-@property(nonatomic, readonly) long long messagePartIndex;
-@property(nonatomic, readonly) NSString *sourceLanguage;
-@property(nonatomic, readonly) NSAttributedString *translatedText;
-@property(nonatomic, readonly) NSString *translationLanguage;
 
 @end
 

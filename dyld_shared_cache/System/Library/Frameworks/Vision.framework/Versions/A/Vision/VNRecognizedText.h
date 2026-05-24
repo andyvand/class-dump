@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImageReaderOutput, NSString;
-
 @interface VNRecognizedText
 {
     unsigned long long _requestRevision;
-    CRImageReaderOutput *_crOutput;
 }
 
 + (_Bool);
@@ -17,22 +14,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fp_volumeUUID;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (float);
-- (id)hOriginatingRequestSpecifier:boundingBox:confidence:labels:groupId:animalprint: /* Error: Ran out of types for this method. */;
+- (float)isUnitTestingImpl;
+- (id)initWithOriginatingRequestSpecifier:boundingBox:confidence:labels:groupId:animalprint: /* Error: Ran out of types for this method. */;
 - (void)fferForTransferSubImage                                                                                 (retain count = %ld, type = %u) to vtSessionDestBuffer                                                                                 (retain count = %ld, type = %u). Error %d;
 
 // Remaining properties
-@property(readonly, nonatomic) float confidence;
-@property(readonly, copy) CRImageReaderOutput *crOutput; // @synthesize crOutput=_crOutput;
 @property(nonatomic) unsigned long long requestRevision; // @synthesize requestRevision=_requestRevision;
-@property(readonly, copy, nonatomic) NSString *string;
 
 @end
 

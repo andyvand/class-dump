@@ -6,19 +6,11 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class IMAggregateAcknowledgmentChatItem, IMChat, IMMessagePartChatItem, NSOrderedSet, NSScrollView, NSString, NSTouchBarItem, SOInputLineViewController, SOStickerViewerController;
+@class NSOrderedSet;
 
 @interface SOTranscriptViewController : SOChatViewController
 {
     unsigned long long _mousedownCount;
-    NSTouchBarItem *_acknowledgementsTouchBarItem;
-    IMMessagePartChatItem *_actionableMessage;
-    SOInputLineViewController *_inputLineViewController;
-    NSOrderedSet *_selectedMessages;
-    NSString *_displayedAckPickerChatItemGUID;
-    IMAggregateAcknowledgmentChatItem *_groupAcknowledgmentsPoll;
-    SOStickerViewerController *_stickerViewerController;
-    NSOrderedSet *_selectedChatItemGUIDs;
 }
 
 + (void);
@@ -30,13 +22,13 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)hh8h;
 - (void);
 - (void);
 - (void);
@@ -46,11 +38,11 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)4&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id) `m;
 - (void);
 - (id);
 - (void);
@@ -59,7 +51,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,46 +77,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)menu:updateItem:atIndex:shouldCancel: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)recordWindowsSessionID:(id)arg1;
+- (void)&;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (_Bool)ContentsScale:(id)arg1;
+- (_Bool)recommendedLayerContentsScale:(id)arg1;
 
 // Remaining properties
-@property(readonly) IMMessagePartChatItem *acknowledgeableChatItem;
-@property(readonly) NSTouchBarItem *acknowledgementsTouchBarItem; // @synthesize acknowledgementsTouchBarItem=_acknowledgementsTouchBarItem;
-@property(retain) IMMessagePartChatItem *actionableMessage; // @synthesize actionableMessage=_actionableMessage;
-@property double bottomOverlap; // @dynamic bottomOverlap;
-@property(readonly, nonatomic) IMChat *chat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayedAckPickerChatItemGUID; // @synthesize displayedAckPickerChatItemGUID=_displayedAckPickerChatItemGUID;
-@property(readonly, getter=isDisplayingAcknowledgmentPicker) _Bool displayingAcknowledgmentPicker;
-@property(readonly, nonatomic) double distanceFromBottom;
-@property(readonly) IMAggregateAcknowledgmentChatItem *groupAcknowledgmentsPoll; // @synthesize groupAcknowledgmentsPoll=_groupAcknowledgmentsPoll;
-@property(readonly) unsigned long long hash;
-@property __weak SOInputLineViewController *inputLineViewController; // @synthesize inputLineViewController=_inputLineViewController;
-@property(readonly) NSScrollView *scrollView; // @dynamic scrollView;
-@property(copy, nonatomic) NSOrderedSet *selectedChatItemGUIDs; // @synthesize selectedChatItemGUIDs=_selectedChatItemGUIDs;
 @property(copy, nonatomic) NSOrderedSet *selectedMessages; // @synthesize selectedMessages=_selectedMessages;
-@property(readonly, nonatomic) _Bool shouldPinToBottom;
-@property(nonatomic) SOStickerViewerController *stickerViewerController; // @synthesize stickerViewerController=_stickerViewerController;
-@property(readonly) Class superclass;
-@property double topOverlap; // @dynamic topOverlap;
 
 @end
 

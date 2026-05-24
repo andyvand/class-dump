@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTVerifierResult, NSDate, NSUUID;
+@class NSUUID;
 
 @interface IDSIDKTData
 {
     NSUUID *_verificationRequestID;
-    KTVerifierResult *_verifierResult;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
@@ -19,16 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)mIsClosed;
 - (void);
 - (id)1Â0@ù
 × ;
 - (void)m sessionInfo.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, copy, nonatomic) NSUUID *verificationRequestID; // @synthesize verificationRequestID=_verificationRequestID;
-@property(readonly, copy, nonatomic) KTVerifierResult *verifierResult; // @synthesize verifierResult=_verifierResult;
 
 @end
 

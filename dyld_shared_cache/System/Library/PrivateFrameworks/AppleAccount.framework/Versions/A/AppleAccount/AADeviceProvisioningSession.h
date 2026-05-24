@@ -9,22 +9,20 @@
 @interface AADeviceProvisioningSession
 {
     NSString *_dsid;
-    unsigned long long _dsidNumber;
-    struct OpaqueCFHTTPCookieStorage *_cookieStorageRef;
 }
 
 - (int);
 - (void);
 - (id);
 - (void);
+- (id)!;
 - (id);
-- (id);
-- (int);
+- (int);;
 - (void);
-- (int);
-- (void);
-- (id);
-- (void)thID:status:handle:firstName:lastName:displayName:isAcceptedAndShared:isIdMSConfirmed:preflightStatus:otCustodianID:keyCreatedOnBuild:repairDate:repairCount: /* Error: Ran out of types for this method. */;
+- (int)Response"@"NSDictionary"@"NSError">24;
+- (void)webView:(id)arg1 runJavaScriptConfirmPanelWithMessage:(_Bool)arg2;
+- (id)updateModelWithCPDB:(id)arg1;
+- (void)initWithID:status:handle:firstName:lastName:displayName:isAcceptedAndShared:isIdMSConfirmed:preflightStatus:otCustodianID:keyCreatedOnBuild:repairDate:repairCount: /* Error: Ran out of types for this method. */;
 
 @end
 

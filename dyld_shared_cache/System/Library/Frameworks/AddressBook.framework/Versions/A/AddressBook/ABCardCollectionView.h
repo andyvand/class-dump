@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, CNContact, NSArray, NSMutableArray, NSString;
-@protocol ABCardCollectionViewDataSource, ABCardCollectionViewDelegate, ABCardCollectionViewPresentation, ABCardCollectionViewSupport, CNCancelable;
+@class NSMutableArray;
+@protocol ABCardCollectionViewSupport;
 
 @interface ABCardCollectionView
 {
     NSMutableArray *_collectionViewItems;
-    NSMutableArray *_noteCollectionItems;
-    id <ABCardCollectionViewPresentation> _itemPresentor;
-    _Bool mInReflow;
-    _Bool loaded;
-    NSArray *_constraints;
-    id <ABCardCollectionViewDataSource> _dataSource;
-    id <ABCardCollectionViewDelegate> _delegate;
-    ABCardViewStyleProvider *_styleProvider;
-    _Bool _reloadEnabled;
-    long long _noteResponderIndexAtLastTeardown;
-    double _labelColumnWidth;
-    id <CNCancelable> _frameDidChangeToken;
 }
 
 + (id);
@@ -52,16 +40,16 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -69,10 +57,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)׀;
 - (_Bool);
 - (void);
 - (void);
@@ -100,13 +88,13 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)32;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)String is of invalid length=%ld with 0x prefix;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -114,31 +102,12 @@
 × ;
 - (void)!CùQªÐ1Â0@ù
 × ;
-- (void)verlaidView:(id)arg1;
-- (_Bool)es: /* Error: Ran out of types for this method. */;
+- (void)setOverlaidView:(id)arg1;
+- (_Bool)setIgnoreOutlineSelectionChanges: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property __weak id <ABCardCollectionViewSupport> cardView; // @dynamic cardView;
-@property(readonly, nonatomic) CNContact *contact;
-@property(nonatomic) __weak id <ABCardCollectionViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ABCardCollectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAcceptedCardMode;
-@property(readonly, nonatomic) _Bool isEditable;
-@property(readonly, nonatomic) _Bool isEditing;
-@property(readonly, nonatomic) _Bool isSuggestedCardMode;
-@property(readonly, nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) double leftMargin;
-@property(getter=isLoaded) _Bool loaded; // @synthesize loaded;
-@property(nonatomic) _Bool reloadEnabled; // @synthesize reloadEnabled=_reloadEnabled;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
 
 @end
 

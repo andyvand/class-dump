@@ -6,7 +6,7 @@
 
 @interface UnknownClass (TextInputAdditions)
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 @end

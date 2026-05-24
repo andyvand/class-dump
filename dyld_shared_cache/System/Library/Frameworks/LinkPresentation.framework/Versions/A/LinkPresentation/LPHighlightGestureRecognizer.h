@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startPointInWindowCoordinates;
 }
 
-- (void);
+- (void)g;
 - (void);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)crypted archive, filename=%@, version=%{public}@, keychain item creation date=%{public}@, archive key creation date=%{public}@;
 - (void);
 - (void);
 - (void);

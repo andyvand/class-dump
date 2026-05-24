@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MLCompilerEvent
 {
     NSString *_modelName;
-    NSString *_modelHash;
-    NSNumber *_modelType;
-    NSNumber *_modelOrigin;
-    NSString *_modelVersion;
-    NSString *_modelCompiledWithVersion;
-    NSString *_compilerVersion;
-    NSNumber *_milUpgradeStatus;
-    NSString *_milUpgradeFailureReason;
 }
 
-- (void);
+- (void):(id)arg1 %u, target uid:%u; not permitted /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Q0;
 - (id);
 - (id);
 - (void);
@@ -45,24 +37,7 @@ __attribute__((visibility("hidden")))
 - (id)¼ú;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *compilerVersion; // @synthesize compilerVersion=_compilerVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *milUpgradeFailureReason; // @synthesize milUpgradeFailureReason=_milUpgradeFailureReason;
-@property(copy, nonatomic) NSNumber *milUpgradeStatus; // @synthesize milUpgradeStatus=_milUpgradeStatus;
-@property(copy, nonatomic) NSString *modelCompiledWithVersion; // @synthesize modelCompiledWithVersion=_modelCompiledWithVersion;
-@property(copy, nonatomic) NSString *modelHash; // @synthesize modelHash=_modelHash;
 @property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSNumber *modelOrigin; // @synthesize modelOrigin=_modelOrigin;
-@property(copy, nonatomic) NSNumber *modelType; // @synthesize modelType=_modelType;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

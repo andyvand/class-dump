@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFCloudChannelsRequestItem, SFDomainSubscriptionRequestItem;
+@class NSDictionary, SFCloudChannelsRequestItem;
 
 @protocol SFSubscribeForUpdatesCommand
+- (NSDictionary *);
 
 // Remaining properties
 @property(retain, nonatomic) SFCloudChannelsRequestItem *cloudChannelsRequestItem;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFDomainSubscriptionRequestItem *domainSubscriptionRequestItem;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

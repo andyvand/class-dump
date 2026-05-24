@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (unsigned long long);
-- (_Bool)merWithThreshold:(id)arg1 adjustForPartialCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)touchAutoDeleteTimerWithThreshold:(id)arg1 adjustForPartialCompletion: /* Error: Ran out of types for this method. */;
 - (id)ebarToggleGlobally;
 - (long long)6^B24;
 

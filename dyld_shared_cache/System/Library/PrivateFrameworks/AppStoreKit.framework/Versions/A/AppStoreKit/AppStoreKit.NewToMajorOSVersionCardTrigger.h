@@ -7,8 +7,6 @@
 @interface AppStoreKit.NewToMajorOSVersionCardTrigger
 {
     id identifier;
-    id adamId;
-    id activationContextIsValid;
 }
 
 @end

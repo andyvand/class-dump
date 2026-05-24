@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICClientInfo, ICUserIdentity, ICUserIdentityStore;
+@class ICUserIdentity;
 
 @interface ICUserCredentialRequest
 {
     ICUserIdentity *_identity;
-    ICUserIdentityStore *_identityStore;
-    ICClientInfo *_clientInfo;
-    long long _qualityOfService;
-    double _timeoutInterval;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id)ppInfoContainer"16;
 - (void)Id;
@@ -29,11 +25,7 @@
 èrbqèrbèrbièrbÅèrbùèrb½èrb¤èrbèrb	èrbéèrbèrbzèrb;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ICClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 @property(readonly, copy, nonatomic) ICUserIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) ICUserIdentityStore *identityStore; // @synthesize identityStore=_identityStore;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

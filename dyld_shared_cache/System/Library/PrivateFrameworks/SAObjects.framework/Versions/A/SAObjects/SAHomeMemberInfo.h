@@ -6,14 +6,15 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAHomeMemberSettings;
+@class NSArray;
 
 @interface SAHomeMemberInfo : AceObject
 {
 }
 
-- (_Bool);
+- (_Bool)^h;
 - (id);
+- (void)u;
 - (void);
 - (void);
 - (void);
@@ -21,50 +22,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE;
+- (id)y;
+- (id);
+- (id);
+- (void);
+- (void)qa;
+- (id)I;
 - (id)¸ùÿl;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attributes;
-@property(copy, nonatomic) NSString *companionAssistantId;
-@property(copy, nonatomic) NSString *companionSpeechId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *enrollmentName;
-@property(copy, nonatomic) NSString *ephemeralUserId;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAHomeMemberSettings *homeMemberSettings;
-@property(copy, nonatomic) NSString *lastVisitedAceHost;
-@property(copy, nonatomic) NSString *loggableCompanionAssistantId;
-@property(copy, nonatomic) NSString *loggableMultiUserSharedUserId;
-@property(copy, nonatomic) NSString *loggableSharedUserId;
-@property(copy, nonatomic) NSString *personaIdentifier;
-@property(copy, nonatomic) NSString *sharedUserId;
-@property(copy, nonatomic) NSString *speechId;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userAvailable;
 
 @end
 

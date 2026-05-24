@@ -9,7 +9,6 @@
 @interface DGColorCubeFilter
 {
     CIImage *inputImage;
-    CIImage *inputCube;
 }
 
 + (id);

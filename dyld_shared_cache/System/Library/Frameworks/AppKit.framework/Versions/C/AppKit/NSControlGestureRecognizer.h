@@ -6,47 +6,37 @@
 
 #import <AppKit/NSPressGestureRecognizer.h>
 
-@class NSMutableArray, NSMutableDictionary, NSTimer;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSControlGestureRecognizer : NSPressGestureRecognizer
 {
     NSMutableDictionary *_infos;
-    _Bool _hasPressure;
-    _Bool _postNotifications;
-    _Bool _previousPointDidHitTest;
-    _Bool _okToTrack;
-    long long _clickCount;
-    double _timestamp;
-    unsigned long long _modifierFlags;
-    NSTimer *_periodicTimer;
-    NSMutableArray *_completionBlocks;
-    struct CGPoint _lastPoint;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)1B;
 - (void);
 - (void);
-- (void);
+- (id)_assetDownloadDirectory;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)@;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)logFeedbackItemSelected:(_Bool)arg1 adviceSource:presentationStyle:itemsShown:bundleID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
+- (void)aractersFromRange:(CDUnknownBlockType)arg1;
 - (id);
 - (_Bool)0@ù
 × ;
@@ -58,16 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)D¹I;
 
 // Remaining properties
-@property(retain) NSMutableArray *_completionBlocks; // @synthesize _completionBlocks;
-@property struct CGPoint _lastPoint; // @synthesize _lastPoint;
-@property _Bool _okToTrack; // @synthesize _okToTrack;
-@property(retain) NSTimer *_periodicTimer; // @synthesize _periodicTimer;
 @property _Bool _postNotifications; // @synthesize _postNotifications;
-@property _Bool _previousPointDidHitTest; // @synthesize _previousPointDidHitTest;
-@property(readonly) long long clickCount; // @synthesize clickCount=_clickCount;
-@property _Bool hasPressure; // @synthesize hasPressure=_hasPressure;
-@property(readonly) unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

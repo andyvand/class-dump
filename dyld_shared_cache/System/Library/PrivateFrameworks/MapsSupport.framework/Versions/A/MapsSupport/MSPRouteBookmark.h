@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorageRouteRequestStorage, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPRouteBookmark
 {
     PBUnknownFields *_unknownFields;
-    GEOStorageRouteRequestStorage *_routeRequestStorage;
 }
 
 - (_Bool);
@@ -29,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRouteRequestStorage;
-@property(retain, nonatomic) GEOStorageRouteRequestStorage *routeRequestStorage; // @synthesize routeRequestStorage=_routeRequestStorage;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

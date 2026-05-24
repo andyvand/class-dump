@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface C2MultipeerDiscoveryRequest
 {
     NSUUID *_requestUUID;
-    NSData *_chunkSignature;
-    NSString *_containerIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)perationsCount;
+- (void)clientOperationsCount;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *chunkSignature; // @synthesize chunkSignature=_chunkSignature;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
 
 @end

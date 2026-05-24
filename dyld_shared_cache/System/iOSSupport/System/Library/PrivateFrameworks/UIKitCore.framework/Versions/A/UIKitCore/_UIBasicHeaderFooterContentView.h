@@ -6,19 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UILabel, _UIBasicHeaderFooterContentViewConfiguration;
+@class _UIBasicHeaderFooterContentViewConfiguration;
 
 @interface _UIBasicHeaderFooterContentView : UIView
 {
     _UIBasicHeaderFooterContentViewConfiguration *_animatingFromConfiguration;
-    _UIBasicHeaderFooterContentViewConfiguration *_animatingToConfiguration;
-    double _preferredMaxLayoutWidth;
-    _UIBasicHeaderFooterContentViewConfiguration *_configuration;
-    UILabel *_textLabel;
 }
 
-- (struct _UIBasicHeaderFooterContentViewSizes);
-- (struct CGSize);
+- (struct _UIBasicHeaderFooterContentViewSizes)>?;
+- (struct CGSize)objectAtIndex:(struct CGSize)arg1;
 - (id);
 - (id);
 - (id);
@@ -30,34 +26,22 @@
 - (void)q[°1Â0@ù
 × ;
 - (void)nNil"b1};
-- (void)nContextPassingNSNumber:(id)arg1;
+- (void)performHitTestForTouchEvent:(id)arg1 executionContextPassingNSNumber: /* Error: Ran out of types for this method. */;
 - (void)initWithClientIdentity:(struct UIEdgeInsets)arg1;
-- (void)entCoverColor;
-- (id)oSessionCategoryOverride;
-- (double)rUpdateWidthConstraintWithConstant:owningView:constraintsToActivate: /* Error: Ran out of types for this method. */;
+- (void)elementCoverColor;
+- (id)audioSessionCategoryOverride;
+- (double)_createOrUpdateWidthConstraintWithConstant:owningView:constraintsToActivate: /* Error: Ran out of types for this method. */;
 - (void)LA;
 - (struct CGSize)K;
 - (id)tainer is not recommended. Use an explicit constant for your constraint to override this.;
 - (struct CGSize)as the view controller for the %@ column. Split view controller:(struct CGSize)arg1 %@;
-- (void)omeScreenIconStyleConfiguration;
+- (void)sbsHomeScreenIconStyleConfiguration;
 - (double)nnot have an independently set capture view. Set your capture view on '%@';
 - (void)rò;
 - (id)ÿz¸;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _preventFocus;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) _UIBasicHeaderFooterContentViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

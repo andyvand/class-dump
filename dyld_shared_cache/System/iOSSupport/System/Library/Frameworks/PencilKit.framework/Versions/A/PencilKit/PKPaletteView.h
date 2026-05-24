@@ -4,52 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, PKPaletteContainerView, PKPaletteScaleFactorPolicy, PKPaletteToolPreview, UIScrollView, UIView, UIViewController;
-@protocol PKPaletteViewDelegate, PKPaletteViewHosting, PKPaletteViewInternalDelegate;
-
 @interface PKPaletteView
 {
     _Bool _autoHideEnabled;
-    _Bool _shouldStartUpMinimized;
-    _Bool _shouldExpandFromCorner;
-    _Bool _shadowVisible;
-    _Bool _shouldAdjustShadowRadiusForMinimized;
-    _Bool _ignoresSafeAreaInsetsInCompactSize;
-    _Bool _draggingEnabled;
-    _Bool _toolPreviewMinimized;
-    UIViewController *_palettePopoverPresentingController;
-    id <PKPaletteViewDelegate> _delegate;
-    long long _palettePosition;
-    double _paletteScaleFactor;
-    UIViewController *_presentationController;
-    double _compactPaletteHeight;
-    PKPaletteScaleFactorPolicy *_paletteScaleFactorPolicy;
-    double _shadowOpacity;
-    double _shadowRadius;
-    UIScrollView *_contentScrollView;
-    unsigned long long _lastEdgeLocation;
-    id <PKPaletteViewHosting> _paletteViewHosting;
-    id <PKPaletteViewInternalDelegate> _internalDelegate;
-    unsigned long long _autoHideCorner;
-    UIView *_clippingView;
-    PKPaletteContainerView *_containerView;
-    NSLayoutConstraint *_paletteContainerWidthConstraint;
-    NSLayoutConstraint *_paletteContainerHeightConstraint;
-    NSLayoutConstraint *_paletteContainerCenterXConstraint;
-    NSLayoutConstraint *_paletteContainerCenterYConstraint;
-    NSLayoutConstraint *_paletteContainerCompactTopConstraint;
-    NSLayoutConstraint *_paletteContainerCompactBottomConstraint;
-    NSLayoutConstraint *_paletteContainerCompactLeftConstraint;
-    NSLayoutConstraint *_paletteContainerCompactRightConstraint;
-    PKPaletteToolPreview *_toolPreview;
-    NSLayoutConstraint *_toolPreviewCenterXConstraint;
-    NSLayoutConstraint *_toolPreviewCenterYConstraint;
-    NSLayoutConstraint *_toolPreviewWidthConstraint;
-    NSLayoutConstraint *_toolPreviewHeightConstraint;
-    unsigned long long _lastPaletteEdgePositionWhileDragging;
-    struct UIEdgeInsets _palettePopoverLayoutSceneMargins;
-    struct CGRect _adjustedWindowSceneBounds;
-    struct NSDirectionalEdgeInsets _edgeInsetsInCompactSize;
 }
 
 + (id);
@@ -169,10 +126,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)groupPhotoHeaderViewController;
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (double);
@@ -190,66 +147,13 @@
 - (void);
 - (void)a	ð!Fù±'Ð1Â0@ù
 × ;
-- (void)mageCompare;
+- (void)PKImageCompare;
 - (id);
 - (_Bool)Finder findAvailableTextInputElements %p;
 - (double)­ðÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _wantsGlassBackground;
-@property(readonly, nonatomic) struct CGRect adjustedWindowSceneBounds; // @synthesize adjustedWindowSceneBounds=_adjustedWindowSceneBounds;
-@property(nonatomic) unsigned long long autoHideCorner; // @synthesize autoHideCorner=_autoHideCorner;
-@property(nonatomic, getter=isAutoHideEnabled) _Bool autoHideEnabled; // @synthesize autoHideEnabled=_autoHideEnabled;
-@property(readonly, nonatomic) UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(readonly, nonatomic) double compactPaletteHeight; // @synthesize compactPaletteHeight=_compactPaletteHeight;
-@property(readonly, nonatomic) PKPaletteContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) UIScrollView *contentScrollView; // @synthesize contentScrollView=_contentScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool draggingEnabled; // @synthesize draggingEnabled=_draggingEnabled;
-@property(nonatomic) struct NSDirectionalEdgeInsets edgeInsetsInCompactSize; // @synthesize edgeInsetsInCompactSize=_edgeInsetsInCompactSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresSafeAreaInsetsInCompactSize; // @synthesize ignoresSafeAreaInsetsInCompactSize=_ignoresSafeAreaInsetsInCompactSize;
-@property(nonatomic) __weak id <PKPaletteViewInternalDelegate> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
 @property(nonatomic) unsigned long long lastEdgeLocation; // @synthesize lastEdgeLocation=_lastEdgeLocation;
-@property(readonly, nonatomic) unsigned long long lastPaletteEdgePositionWhileDragging; // @synthesize lastPaletteEdgePositionWhileDragging=_lastPaletteEdgePositionWhileDragging;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCenterXConstraint; // @synthesize paletteContainerCenterXConstraint=_paletteContainerCenterXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCenterYConstraint; // @synthesize paletteContainerCenterYConstraint=_paletteContainerCenterYConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCompactBottomConstraint; // @synthesize paletteContainerCompactBottomConstraint=_paletteContainerCompactBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCompactLeftConstraint; // @synthesize paletteContainerCompactLeftConstraint=_paletteContainerCompactLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCompactRightConstraint; // @synthesize paletteContainerCompactRightConstraint=_paletteContainerCompactRightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerCompactTopConstraint; // @synthesize paletteContainerCompactTopConstraint=_paletteContainerCompactTopConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerHeightConstraint; // @synthesize paletteContainerHeightConstraint=_paletteContainerHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteContainerWidthConstraint; // @synthesize paletteContainerWidthConstraint=_paletteContainerWidthConstraint;
-@property(nonatomic) double paletteContentAlpha;
-@property(nonatomic) struct UIEdgeInsets palettePopoverLayoutSceneMargins; // @synthesize palettePopoverLayoutSceneMargins=_palettePopoverLayoutSceneMargins;
-@property(nonatomic) __weak UIViewController *palettePopoverPresentingController; // @synthesize palettePopoverPresentingController=_palettePopoverPresentingController;
-@property(readonly, nonatomic) long long palettePosition; // @synthesize palettePosition=_palettePosition;
-@property(readonly, nonatomic) double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
-@property(readonly, nonatomic) PKPaletteScaleFactorPolicy *paletteScaleFactorPolicy; // @synthesize paletteScaleFactorPolicy=_paletteScaleFactorPolicy;
-@property(nonatomic) __weak id <PKPaletteViewHosting> paletteViewHosting; // @synthesize paletteViewHosting=_paletteViewHosting;
-@property(readonly, nonatomic) unsigned long long paletteViewType;
-@property(nonatomic) __weak UIViewController *presentationController; // @synthesize presentationController=_presentationController;
-@property(readonly, nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(readonly, nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(nonatomic) _Bool shadowVisible; // @synthesize shadowVisible=_shadowVisible;
-@property(readonly, nonatomic) _Bool shouldAdjustShadowRadiusForMinimized; // @synthesize shouldAdjustShadowRadiusForMinimized=_shouldAdjustShadowRadiusForMinimized;
-@property(readonly, nonatomic) _Bool shouldExpandFromCorner; // @synthesize shouldExpandFromCorner=_shouldExpandFromCorner;
-@property(readonly, nonatomic) _Bool shouldStartUpMinimized; // @synthesize shouldStartUpMinimized=_shouldStartUpMinimized;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PKPaletteToolPreview *toolPreview; // @synthesize toolPreview=_toolPreview;
-@property(retain, nonatomic) NSLayoutConstraint *toolPreviewCenterXConstraint; // @synthesize toolPreviewCenterXConstraint=_toolPreviewCenterXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPreviewCenterYConstraint; // @synthesize toolPreviewCenterYConstraint=_toolPreviewCenterYConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPreviewHeightConstraint; // @synthesize toolPreviewHeightConstraint=_toolPreviewHeightConstraint;
-@property(readonly, nonatomic, getter=isToolPreviewInstalled) _Bool toolPreviewInstalled;
-@property(readonly, nonatomic) _Bool toolPreviewMatchesExpandedTool;
-@property(nonatomic, getter=isToolPreviewMinimized) _Bool toolPreviewMinimized; // @synthesize toolPreviewMinimized=_toolPreviewMinimized;
-@property(retain, nonatomic) NSLayoutConstraint *toolPreviewWidthConstraint; // @synthesize toolPreviewWidthConstraint=_toolPreviewWidthConstraint;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

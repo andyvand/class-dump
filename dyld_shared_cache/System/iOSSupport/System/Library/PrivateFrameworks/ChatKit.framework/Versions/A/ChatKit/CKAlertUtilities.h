@@ -11,10 +11,10 @@
     id <CKAlertUtilitiesProtocol> _delegate;
 }
 
-+ (long long);
++ (long long)ord;
 + (_Bool);
 + (id);
-+ (id);
++ (id)<M;
 - (void);
 - (void);
 - (void);

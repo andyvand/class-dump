@@ -13,8 +13,8 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-- (double);
++ (_Bool)H;
+- (double);
 - (void *);
 - (float);
 - (_Bool);
@@ -23,15 +23,15 @@
 - (_Bool);
 - (id);
 - (struct CATransform3D);
-- (void);
-- (void);
+- (void)__DATA_CONST;
+- (void);
 - (id);
 - (void);
 - (float);
-- (unsigned int);
+- (unsigned int)G;
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void)ÿ;
 - (long long);
 - (float)±ZUX2´QxHkÀwUm X9¼¾¾ËN¹gN[wÁð8!(NKmÅ£+p"DÇ·¾E qc|G^l}GHåâuj7¡svxëuÈc²µÒnÐAkhvÖcdó_ef¥kÂkd¦¼g;lÄ§4Ù|5Zd¸znÄÖ½¼¿|m£LÂ)m¸ÐGÃ/6D¤¯°nC0<\¼wmÉ ×zt<>³9co¡¡i`·YpAwi¾ÕhN+ÄIKH\oË£uT|M+}	í8_`¼ÏV£gªK81Äµex_~mKMí©hL7²Ã$i-Þh>uNh=ZhÅNGÁ8¸ÏÇ8\OdâÙ²Ú|BloS©Jéc5q´ULÞ~âÕzOC}jhÀRÔxSJ¦¢$¤FÆÝÈ!tÝa@³bvToÈC¼0>¤µ¹,£Ht#Ïy>¥d°Ðm£bl¹¸j»~Þ]x;[©¨p±IK|,¯§|~F¾.?×W¹\Lp¥ s5uyG¹mÕt]ÛÓ¢XÉ%«ÍF¦c>J{rwÁ`À±°2²©)`W±­Ouk¸«yA6·.ÓÖOa75v°,yÂ§ÞSgS^¯eÑ¬.Sl_u`´g/Ðu,ÝIQ~¨³ÎµÇ|f|×@8p¡¶¶akÀ¼Ã¡
@@ -43,15 +43,7 @@ fA«æÌif/½é d¼£|à2¢ls²pU¥Ò¸.3Iê·S$o8 ¨J¼yÆÁ£>0k
 - (float);
 
 // Remaining properties
-@property float instanceAlphaOffset;
-@property float instanceBlueOffset;
-@property struct CGColor *instanceColor;
 @property long long instanceCount;
-@property double instanceDelay;
-@property float instanceGreenOffset;
-@property float instanceRedOffset;
-@property struct CATransform3D instanceTransform;
-@property _Bool preservesDepth;
 
 @end
 

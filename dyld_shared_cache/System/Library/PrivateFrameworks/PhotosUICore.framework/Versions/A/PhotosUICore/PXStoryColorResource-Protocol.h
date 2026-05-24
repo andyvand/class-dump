@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *px_storyResourceColor;
-@property(readonly, nonatomic) long long px_storyResourceColorType;
 @end
 

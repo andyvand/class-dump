@@ -9,8 +9,6 @@
 @interface WBSHideMyEmailRecord
 {
     NSString *_domain;
-    unsigned long long _state;
-    NSString *_privateEmailAddress;
 }
 
 + (_Bool);
@@ -20,14 +18,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSString *privateEmailAddress; // @synthesize privateEmailAddress=_privateEmailAddress;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

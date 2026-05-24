@@ -6,20 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSLayoutConstraint, NSTitlebarSeparatorView;
-
 __attribute__((visibility("hidden")))
 @interface NSSplitViewItemAccessoryClipView : NSView
 {
     NSView *_documentView;
-    NSLayoutConstraint *_documentHeightConstraint;
-    NSTitlebarSeparatorView *_titlebarSeparator;
-    NSLayoutConstraint *_separatorLeadingConstraint;
-    NSLayoutConstraint *_separatorTrailingConstraint;
-    unsigned long long _placement;
-    unsigned int _alignmentSatisfied:1;
-    unsigned int _showsTitlebarSeparator:1;
-    unsigned int _collapsed:1;
 }
 
 + (_Bool);
@@ -31,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)set_duetPreClearedMode: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -42,11 +32,7 @@ __attribute__((visibility("hidden")))
 ´B;
 
 // Remaining properties
-@property _Bool alignmentSatisfied;
-@property(getter=isCollapsed) _Bool collapsed;
 @property(retain) NSView *documentView;
-@property(readonly) unsigned long long placement;
-@property _Bool showsTitlebarSeparator;
 
 @end
 

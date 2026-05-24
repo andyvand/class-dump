@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheData, IKLinkedList;
 @protocol IKRamManagerDelegateProtocol;
 
 @interface IKRamManager
 {
     id <IKRamManagerDelegateProtocol> _delegate;
-    IKCacheData *_cache;
-    IKLinkedList *_ramBindPriorityList;
-    unsigned int _ramCacheLength;
-    unsigned int _ramCacheUsed;
-    unsigned int _session;
-    _Bool _isUnbinding;
 }
 
 - (void);
@@ -46,7 +39,7 @@
 - (id);
 - (void);
 - (void)NSTableView"16q24;
-- (void)InterfaceBuilderMode;
+- (void)IKDebugDeviceBrowserViewInterfaceBuilderMode;
 
 @end
 

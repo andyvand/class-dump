@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBImageValue, _INPBValueMetadata;
+@class _INPBImageValue;
 
 @interface _INPBPaymentMethodValue
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBImageValue *_icon;
-    NSString *_identificationHint;
-    NSString *_name;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (id);
@@ -34,36 +29,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int);
 - (void)1Â0@ù
 × ;
 - (id)addPayloadLocationList:(int)arg1;
 - (_Bool)rs;
-- (_Bool)NSpeakable;
+- (_Bool)INSpeakable;
 - (void).P.;
-- (void);
+- (void)_payloadBinarySettingValue;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasIdentificationHint;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBImageValue *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *identificationHint; // @synthesize identificationHint=_identificationHint;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

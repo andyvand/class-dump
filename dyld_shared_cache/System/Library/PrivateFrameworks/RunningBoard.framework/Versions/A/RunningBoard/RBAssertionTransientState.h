@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface RBAssertionTransientState
 {
     NSMutableDictionary *_cpuUsageViolationPoliciesByRole;
-    NSMutableSet *_tags;
 }
 
-- (id);
-- (void);
+- (id),V_measuredValueTypeToMeasuredValueDict;
+- (void)initWithParentDir:(id)arg1;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (id)CFDictionary;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)0;
 - (void)info for %{public}@;
 
 // Remaining properties

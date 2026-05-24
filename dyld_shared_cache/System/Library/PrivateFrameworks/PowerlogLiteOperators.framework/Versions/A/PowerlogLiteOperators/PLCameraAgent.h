@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, PLXPCListenerOperatorComposition;
+@class NSMutableDictionary;
 
 @interface PLCameraAgent
 {
     NSMutableDictionary *_cameraState;
-    PLXPCListenerOperatorComposition *_cameraUsageNotification;
-    PLXPCListenerOperatorComposition *_continuityCameraUsageNotification;
-    NSArray *_cameraDevices;
 }
 
 + (id);
 + (id);
 + (id);
-+ (int);
++ (int)k;
 + (id);
 + (id);
 + (id);
@@ -45,10 +42,7 @@
 - (void)PFTLParseBufferToCxt:commitPadSectorsPerFlow(304):(#10) cfg elements != (%d) buffer elements /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *cameraDevices; // @synthesize cameraDevices=_cameraDevices;
 @property(retain) NSMutableDictionary *cameraState; // @synthesize cameraState=_cameraState;
-@property(readonly) PLXPCListenerOperatorComposition *cameraUsageNotification; // @synthesize cameraUsageNotification=_cameraUsageNotification;
-@property(readonly) PLXPCListenerOperatorComposition *continuityCameraUsageNotification; // @synthesize continuityCameraUsageNotification=_continuityCameraUsageNotification;
 
 @end
 

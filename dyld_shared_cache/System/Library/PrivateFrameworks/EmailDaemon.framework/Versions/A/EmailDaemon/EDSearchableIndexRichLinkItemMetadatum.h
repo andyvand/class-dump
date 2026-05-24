@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedRichLinkID, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface EDSearchableIndexRichLinkItemMetadatum
 {
     NSString *_domainIdentifier;
-    NSString *_accountIdentifier;
-    NSArray *_mailboxIdentifiers;
-    NSString *_senderAddress;
-    NSArray *_recipientAddresses;
-    NSDate *_dateReceived;
-    NSDate *_dateSent;
-    NSString *_title;
-    EDPersistedRichLinkID *_richLinkID;
-    NSString *_url;
 }
 
 - (id);
@@ -34,16 +25,7 @@
 - (id)°³;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(readonly, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
 @property(readonly, copy, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly, copy, nonatomic) NSArray *mailboxIdentifiers; // @synthesize mailboxIdentifiers=_mailboxIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *recipientAddresses; // @synthesize recipientAddresses=_recipientAddresses;
-@property(readonly, copy, nonatomic) EDPersistedRichLinkID *richLinkID; // @synthesize richLinkID=_richLinkID;
-@property(readonly, copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

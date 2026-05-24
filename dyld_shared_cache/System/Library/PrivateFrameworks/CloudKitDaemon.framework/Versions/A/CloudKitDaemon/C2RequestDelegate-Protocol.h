@@ -4,8 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol C2RequestDelegate
-- (void);
+- (void)_;
+- (void)setTrafficClassBKSucceededSmall:(NSURLSession *)arg1;
+- (void)So12NSURLRequestC;
 - (void)Y4Ê)¨»ÿI4Ê)(¾ÿ;
 @end
 

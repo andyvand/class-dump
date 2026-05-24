@@ -7,10 +7,6 @@
 @interface CalendarUIKit.SingleAttendeeInfoViewModel
 {
     id _isEditing;
-    id _displayPerson;
-    id _availability;
-    id _deleteHandler;
-    id _$observationRegistrar;
 }
 
 @end

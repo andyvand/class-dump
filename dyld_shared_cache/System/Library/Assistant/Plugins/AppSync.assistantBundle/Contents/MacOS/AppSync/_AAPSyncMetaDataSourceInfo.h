@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncState, NSArray;
+@class NSArray;
 
 @interface _AAPSyncMetaDataSourceInfo
 {
     NSArray *_metaData;
-    AAPSyncState *_state;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)pޢe;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *metaData; // @synthesize metaData=_metaData;
-@property(retain, nonatomic) AAPSyncState *state; // @synthesize state=_state;
 
 @end
 

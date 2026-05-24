@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID, NSXPCConnection;
+@class NSDictionary, NSString, NSUUID;
 
 @protocol PKSubsystemServicePersonality
+- (NSUUID *)assetCatalogURL;
+- (NSDictionary *)wn platform style:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSXPCConnection *connection;
 @property(readonly) NSString *identifier;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(readonly) NSURL *url;
-@property(readonly) NSUUID *uuid;
-@property(readonly) NSString *version;
 @end
 

@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaGroupsAggregateData, HMDMediaGroupsAggregatorMessenger, HMDMediaGroupsLocalDataStorage, HMFTimer, NSArray, NSMutableDictionary, NSString, NSUUID;
-@protocol HMDFeaturesDataSource, HMDMediaGroupsAggregatorDataSource, HMDMediaGroupsAggregatorDelegate, HMEEventForwarder, HMELastEventStoreReadHandle, HMESubscriptionProviding, HMFTimerProvider;
+@protocol HMFTimerProvider;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregator
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _state;
-    NSMutableDictionary *_destinations;
-    NSMutableDictionary *_destinationControllersData;
-    id <HMDMediaGroupsAggregatorDataSource> _dataSource;
-    id <HMDMediaGroupsAggregatorDelegate> _delegate;
-    HMDMediaGroupsAggregatorMessenger *_messenger;
-    id <HMFTimerProvider> _timerProvider;
-    NSUUID *_identifier;
-    id <HMEEventForwarder> _eventForwarder;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    id <HMELastEventStoreReadHandle> _eventStoreReadHandle;
-    HMDMediaGroupsLocalDataStorage *_groupLocalDataStorage;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMFTimer *_warmUpTimer;
-    HMDMediaGroupsAggregateData *_aggregateData;
-    NSArray *_generators;
 }
 
 + (id)×dÿF8ñ;
@@ -36,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -45,95 +28,79 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)oryEntrySearch>">16@?<v@?@"<MSPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
+- (_Bool)RTVehicleEvent"16;
+- (_Bool)uteNotificationDetails"16;
+- (void)submitWithCallbackQueue:(id)arg1 handler:(id)arg2 networkActivity:(id)arg3;
+- (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)stateByDeletingObjectsAtIndexes:(id)arg1;
+- (void)starskyReceiverCapabilities;
+- (id)hasMessageForNonRoutable;
+- (id)hasMatchedCoordinateIndex;
+- (void)_verifyCurrentlyUnblockedStatuses;
+- (void)_validateNavigationState: /* Error: Ran out of types for this method. */;
+- (id)C;
+- (_Bool);
+- (id)ostedNotificationDate %@ 
+lastPostedETADate %@ 
+lastUpdatedDate %@ 
+hasMadeFinalPush %@;
+- (id)ResourceBundleClass;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)reloadSegmentationItemFromWallpaperURL:asset:completion: /* Error: Ran out of types for this method. */;
+- (void)m;
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)àÐ!À@ù11Â0@ù
 × ;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (id)Update;
-- (id)aset:completion: /* Error: Ran out of types for this method. */;
-- (id)eVersionConfigurationWithVersionString:versionConfigurationValue:baseAccessoryIdentifier: /* Error: Ran out of types for this method. */;
-- (void)RIs;
+- (void)initWithHomeManager:accessoryFirmwareUpdateManager:dataSource: /* Error: Ran out of types for this method. */;
+- (id)allowExtraUpdate;
+- (id)_startThreadNetworkOnCommissionerWithOperationalDataset:completion: /* Error: Ran out of types for this method. */;
+- (id)__decodeVersionConfigurationWithVersionString:versionConfigurationValue:baseAccessoryIdentifier: /* Error: Ran out of types for this method. */;
+- (void)destinationURIs;
 - (id)·ÖþÿÿÿÿÐ;
 - (void);
 - (_Bool)t for resident device with UUID %@:%@ /* Error: Ran out of types for this method. */;
 - (void)@Can't add action set %@; namespace error %@;
-- (id);
-- (void)INT;
-- (id)eInternalMessage;
+- (id)longCount;
+- (void)RSModeCoordination_INT;
+- (id)triggerSourceInternalMessage;
 - (id)ass;
 
 // Remaining properties
-@property(retain) HMDMediaGroupsAggregateData *aggregateData; // @synthesize aggregateData=_aggregateData;
-@property __weak id <HMDMediaGroupsAggregatorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaGroupsAggregatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMEEventForwarder> eventForwarder; // @synthesize eventForwarder=_eventForwarder;
-@property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle; // @synthesize eventStoreReadHandle=_eventStoreReadHandle;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) NSArray *generators; // @synthesize generators=_generators;
-@property(readonly) HMDMediaGroupsLocalDataStorage *groupLocalDataStorage; // @synthesize groupLocalDataStorage=_groupLocalDataStorage;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMDMediaGroupsAggregatorMessenger *messenger; // @synthesize messenger=_messenger;
-@property(readonly) id <HMESubscriptionProviding> subscriptionProvider; // @synthesize subscriptionProvider=_subscriptionProvider;
-@property(readonly) Class superclass;
 @property __weak id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
-@property(retain) HMFTimer *warmUpTimer; // @synthesize warmUpTimer=_warmUpTimer;
 
 @end
 

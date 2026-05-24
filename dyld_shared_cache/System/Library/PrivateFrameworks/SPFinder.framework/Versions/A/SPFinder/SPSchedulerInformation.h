@@ -7,11 +7,9 @@
 @interface SPSchedulerInformation
 {
     long long _advertisementCount;
-    long long _priorityCount;
-    long long _lowBatteryCount;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (void);
 - (void);
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) long long advertisementCount; // @synthesize advertisementCount=_advertisementCount;
-@property(nonatomic) long long lowBatteryCount; // @synthesize lowBatteryCount=_lowBatteryCount;
-@property(nonatomic) long long priorityCount; // @synthesize priorityCount=_priorityCount;
 
 @end
 

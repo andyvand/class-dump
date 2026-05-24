@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, REMObjectID;
+@class REMObjectID;
 
 @interface REMAuxiliaryChangeInfoType
 {
     REMObjectID *remObjectID;
-    NSDictionary *_storage;
 }
 
 + (id);
@@ -24,18 +23,10 @@
 - (void);
 - (void)
 × ;
-- (id)omponents;
+- (id)dateComponents;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) REMObjectID *remObjectID; // @synthesize remObjectID;
-@property(retain, nonatomic) NSDictionary *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

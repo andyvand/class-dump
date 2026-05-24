@@ -6,7 +6,7 @@
 
 @interface UnknownClass (IMChat_Internal)
 + (Class);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)7!;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)st(Source *) [Target = WebKit::WebExtensionAPIPort, Source = WebKit::JSWebExtensionWrappable] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 @end

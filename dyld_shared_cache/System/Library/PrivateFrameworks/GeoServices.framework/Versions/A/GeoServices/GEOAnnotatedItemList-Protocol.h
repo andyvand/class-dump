@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, NSString;
-@protocol GEOPictureItemContainer, GEOTextItemContainer;
+@class NSString;
+@protocol GEOPictureItemContainer;
 
 @protocol GEOAnnotatedItemList
 - (NSString *)m can only be called once per object;
 
 // Remaining properties
-@property(readonly, nonatomic) int annotatedItemStyle;
-@property(readonly, nonatomic) GEOMapItemAttribution *attribution;
 @property(readonly, nonatomic) id <GEOPictureItemContainer> pictureItemContainer;
-@property(readonly, nonatomic) id <GEOTextItemContainer> textItemContainer;
-@property(readonly, nonatomic) NSString *title;
 @end
 

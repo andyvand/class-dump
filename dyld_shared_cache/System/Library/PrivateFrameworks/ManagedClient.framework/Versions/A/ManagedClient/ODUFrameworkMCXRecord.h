@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, ODRecord;
+@class ODRecord;
 
 __attribute__((visibility("hidden")))
 @interface ODUFrameworkMCXRecord
 {
     ODRecord *mRecord;
-    NSMutableDictionary *mOverride;
 }
 
 + (id);
@@ -21,26 +20,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)_;
+- (_Bool);
+- (id);
+- (double)hX;
+- (id)R;
+- (id);
+- (id)Y;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)[R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,24 +57,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id));
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id)P;
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)ISOCOUNTRYCODE_SE;
 - (id);
 - (void);
 - (id);
@@ -85,7 +84,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)h@yS?;
 - (_Bool);
 - (id);
 - (unsigned int)serGroupInfo no userMCXSettings found;

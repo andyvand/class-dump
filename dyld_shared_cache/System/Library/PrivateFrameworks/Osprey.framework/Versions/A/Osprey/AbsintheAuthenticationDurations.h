@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableString, NSNumber;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AbsintheAuthenticationDurations
 {
     NSMutableDictionary *_absintheTimestamps;
-    NSMutableString *_connectionMethod;
-    NSNumber *_getCertificateElapsed;
-    NSNumber *_createSessionElapsed;
-    NSNumber *_sessionEstablishedElapsed;
-    NSNumber *_absintheElapsed;
 }
 
 - (void);
 - (void);
+- (void)H7;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void));
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -43,12 +38,7 @@ QÈè­ÕáG¢å*íàÛÒ4^v¼~e%K`^ÄR¸ïOL­md¡9{ïdñ
 Øàÿ	hÈ¼Q{vóéÇJ,Úòæ¨ÄÚÂ«¢¥FK÷Ì§ÚlP`&¢æRvÖQÛü»[yïìP»TÙâ@ÙÚØ0{Ô­ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *absintheElapsed; // @synthesize absintheElapsed=_absintheElapsed;
 @property(retain, nonatomic) NSMutableDictionary *absintheTimestamps; // @synthesize absintheTimestamps=_absintheTimestamps;
-@property(retain, nonatomic) NSMutableString *connectionMethod; // @synthesize connectionMethod=_connectionMethod;
-@property(retain, nonatomic) NSNumber *createSessionElapsed; // @synthesize createSessionElapsed=_createSessionElapsed;
-@property(retain, nonatomic) NSNumber *getCertificateElapsed; // @synthesize getCertificateElapsed=_getCertificateElapsed;
-@property(retain, nonatomic) NSNumber *sessionEstablishedElapsed; // @synthesize sessionEstablishedElapsed=_sessionEstablishedElapsed;
 
 @end
 

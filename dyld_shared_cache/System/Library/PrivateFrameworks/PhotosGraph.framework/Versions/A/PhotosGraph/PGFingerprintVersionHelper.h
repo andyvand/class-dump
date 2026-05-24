@@ -26,7 +26,7 @@
 + (_Bool);
 + (long long);
 + (id);
-+ (id);
++ (id);
 + (id);
 
 @end

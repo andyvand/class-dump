@@ -13,11 +13,10 @@
 
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)/System/iOSSupport/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/A/ImagePlaygroundInternal;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct CGSize size;
 
 @end
 

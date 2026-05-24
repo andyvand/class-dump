@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TMouseOverButton, NSImage, NSString, NSTrackingArea;
-
 __attribute__((visibility("hidden")))
 @interface FI_TSidebarItemCell
 {
     struct TFENode _node;
-    _Bool _selected;
-    _Bool _isEditing;
-    _Bool _enabled;
-    FI_TMouseOverButton *_button;
-    function_12bc7359 _iconGetter;
-    NSTrackingArea *_trackingArea;
-    struct function<void (FI_TSidebarItemCell *, bool)> _fTrackingCallback;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
-    _Bool _drawingDragImage;
-    int _stateID;
 }
 
 + (struct CGRect);
@@ -28,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (const struct TFENode *);
 - (void);
-- (void);
+- (void));
 - (void);
 - (double);
 - (void);
@@ -43,19 +31,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)Pair<id, WebCore:(_Bool)arg1:ObjCEventListener *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<id, WebCore::ObjCEventListener *>>, HashFunctions = WTF::DefaultHash<id>, Traits = WTF::HashMap<id, WebCore::ObjCEventListener *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<id>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
-- (struct CGRect);
+- (struct CGRect)__swift5_fieldmd__TEXT;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)updateWithMailboxes:(id)arg1 senderSpecificMessageListItem: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:(id)arg1 pasteboardWriterForRow: /* Error: Ran out of types for this method. */;
+- (id)shouldShowHighImpact;
+- (id)shouldRestoreSelection;
+- (id)shouldDisableGroupingInUpdatesUserDefaultsObserver;
 - (struct CGRect);
 - (id);
 - (void);
@@ -80,14 +68,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)]E3$_5vJEEE;
 
 // Remaining properties
-@property(retain, nonatomic) FI_TMouseOverButton *button; // @synthesize button=_button;
-@property(nonatomic) _Bool drawingDragImage; // @synthesize drawingDragImage=_drawingDragImage;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSImage *image;
-@property(nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;
-@property(readonly, nonatomic) NSString *name;
 @property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) int stateID; // @synthesize stateID=_stateID;
 
 @end
 

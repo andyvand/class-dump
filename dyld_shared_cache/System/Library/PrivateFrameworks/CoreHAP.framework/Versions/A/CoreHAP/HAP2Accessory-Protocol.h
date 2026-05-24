@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol HAP2AccessoryDelegate, HAP2PairedAccessoryServer;
+@class NSString;
+@protocol HAP2AccessoryDelegate;
 
 @protocol HAP2Accessory
+- (unsigned long long);
+- (unsigned long long);
 - (NSString *)ring Identify discovery:%@ /* Error: Ran out of types for this method. */;
 - (NSString *)25-0000-1000-8000-0026BB765291;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HAP2PairedAccessoryServer> accessoryServer;
-@property(readonly, nonatomic) unsigned long long category;
-@property(readonly, nonatomic) unsigned long long connectionState;
 @property(nonatomic) __weak id <HAP2AccessoryDelegate> delegate;
-@property(readonly, copy, nonatomic) NSString *firmwareVersion;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) unsigned long long instanceID;
-@property(readonly, copy, nonatomic) NSString *manufacturer;
-@property(readonly, copy, nonatomic) NSString *model;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic, getter=isPrimary) _Bool primary;
-@property(readonly, copy, nonatomic) NSString *productData;
-@property(readonly, copy, nonatomic) NSString *serialNumber;
-@property(readonly, copy, nonatomic) NSArray *services;
-@property(readonly, nonatomic) double sleepInterval;
 @end
 

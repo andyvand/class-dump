@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)d%@;
+- (id)filetype;
+- (id)`;
 - (unsigned long long);
 - (id);
 - (void);

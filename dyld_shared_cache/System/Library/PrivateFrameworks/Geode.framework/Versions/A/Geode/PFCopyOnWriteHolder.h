@@ -7,7 +7,6 @@
 @interface PFCopyOnWriteHolder
 {
     int _interestCount;
-    id _object;
 }
 
 - (_Bool);

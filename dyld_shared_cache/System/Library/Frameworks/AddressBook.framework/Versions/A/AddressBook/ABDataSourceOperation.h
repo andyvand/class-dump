@@ -11,7 +11,7 @@
     PHXSource *_source;
 }
 
-- (void);
+- (void)isEqualToString:(id)arg1;
 - (id);
 - (void)ª°1Â0@ù
 × ;

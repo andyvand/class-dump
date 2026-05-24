@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKImageAnalysisBarButtonItemAccessibility;
 + (void);
 - (_Bool);
 - (unsigned long long);

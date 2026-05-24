@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGItemPlacement;
-@protocol PXDisplayAsset;
-
 @protocol PXGMutableItemPlacement
+- (void);
+- (void)C;
+- (struct CGRect);
+- (void)moreFromPublisherArticleIDs;
 - (double)ÿÿ;
-- (CDStruct_2bd92d94)6ÿ;
-- (void)ationToken;
+- (CDStruct_c2259bfa)6ÿ;
+- (void)invitationToken;
 
 // Remaining properties
 @property(nonatomic) double alpha;
-@property(nonatomic) double chromeAlpha;
-@property(nonatomic) CDStruct_2bd92d94 cornerRadius;
-@property(retain, nonatomic) id <PXDisplayAsset> displayedAsset;
-@property(nonatomic) CDStruct_597fa96d displayedAssetContentsRect;
-@property(nonatomic) double legibilityOverlayAlpha;
-@property(nonatomic) struct CGRect normalizedDisplayedAssetRect;
-@property(nonatomic) struct CGRect normalizedSubtitleRect;
-@property(nonatomic) struct CGRect normalizedTitleRect;
-@property(retain, nonatomic) PXGItemPlacement *otherItemsPlacement;
-@property(nonatomic) double scrubberAlpha;
-@property(nonatomic) float soundVolume;
 @end
 

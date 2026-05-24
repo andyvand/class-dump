@@ -5,5 +5,8 @@
 //
 
 @protocol NSCloudSharingServiceDelegate
+
+@optional
+- (unsigned long long);
 @end
 

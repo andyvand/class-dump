@@ -6,18 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSTrackingArea, NSTrackingSeparatorToolbarItem;
+@class NSTrackingSeparatorToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface NSSeparatorToolbarItemView : NSView
 {
     NSTrackingSeparatorToolbarItem *_item;
-    _Bool _alignmentSatisfied;
-    _Bool _fullHeightDividersDisabled;
-    unsigned long long _controlSize;
-    unsigned long long _displayMode;
-    CALayer *_divider;
-    NSTrackingArea *_cursorArea;
 }
 
 - (_Bool);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)HTTPNetConnection::prepareTransmission /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,19 +30,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)eyEquivalent:(id)arg1;
+- (id)(;
+- (void)_interceptKeyEquivalent:(id)arg1;
 - (void)mutable array value for key path %@ of object %@ (from bound object %@%@):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)ã@;
 - (void)3A;
 
 // Remaining properties
-@property(readonly) double _dividerHeight;
-@property(getter=isAlignmentSatisfied) _Bool alignmentSatisfied;
-@property unsigned long long controlSize;
-@property unsigned long long displayMode;
-@property _Bool fullHeightDividersDisabled;
 @property __weak NSTrackingSeparatorToolbarItem *item; // @synthesize item=_item;
 
 @end

@@ -11,10 +11,10 @@
     AAAccountUserNotificationDaemonConnection *_daemonConnection;
 }
 
-- (void);
+- (void)MIG_AddWifiNetworkProfile;
 - (id);
 - (id);
-- (void)aries: /* Error: Ran out of types for this method. */;
+- (void)fetchBeneficiaries: /* Error: Ran out of types for this method. */;
 
 @end
 

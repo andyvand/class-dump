@@ -6,12 +6,9 @@
 
 #import <CalDAV/CalDAVGetDelegatesBaseTaskGroup.h>
 
-@class NSMutableArray;
-
 @interface CalDAVGetDelegatesTaskGroup : CalDAVGetDelegatesBaseTaskGroup
 {
     int _state;
-    NSMutableArray *_nestedGroupPrincipalURLs;
 }
 
 - (void);
@@ -26,10 +23,9 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *nestedGroupPrincipalURLs; // @synthesize nestedGroupPrincipalURLs=_nestedGroupPrincipalURLs;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

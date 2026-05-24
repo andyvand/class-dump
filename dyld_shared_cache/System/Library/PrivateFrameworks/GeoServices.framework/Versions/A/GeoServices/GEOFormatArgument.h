@@ -4,58 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCountdownData, GEOGenericCombinations, GEOGenericStringData, GEOManeuverData, GEOMeasurementData, GEONumberData, GEOPBTransitArtwork, GEOPrice, GEOURLData, NSArray, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
-@protocol GEOServerFormatTokenCountdownValue, GEOServerFormatTokenManeuverValue, GEOServerFormatTokenPriceValue, GEOServerFormatTokenUrlValue, GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOFormatArgument
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _valInt3s;
-    GEOPBTransitArtwork *_artwork;
-    GEOCountdownData *_countdownData;
-    GEOGenericCombinations *_genericCombinations;
-    GEOManeuverData *_maneuverData;
-    GEOMeasurementData *_measurementData;
-    GEONumberData *_numberData;
-    GEOPrice *_price;
-    GEOGenericStringData *_stringSubstituteData;
-    NSMutableArray *_timestampDatas;
-    NSString *_token;
-    GEOURLData *_urlData;
-    NSString *_valString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _format;
-    unsigned int _valInt1;
-    unsigned int _valInt2;
-    int _waypointIndex;
-    struct {
-        unsigned int has_format:1;
-        unsigned int has_valInt1:1;
-        unsigned int has_valInt2:1;
-        unsigned int has_waypointIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_valInt3s:1;
-        unsigned int read_artwork:1;
-        unsigned int read_countdownData:1;
-        unsigned int read_genericCombinations:1;
-        unsigned int read_maneuverData:1;
-        unsigned int read_measurementData:1;
-        unsigned int read_numberData:1;
-        unsigned int read_price:1;
-        unsigned int read_stringSubstituteData:1;
-        unsigned int read_timestampDatas:1;
-        unsigned int read_token:1;
-        unsigned int read_urlData:1;
-        unsigned int read_valString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ttributionSupport:(id)arg1;
++ (_Bool)setHasResultListAttributionSupport:(id)arg1;
 - (int);
 - (unsigned int);
 - (unsigned int);
@@ -66,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -77,44 +34,44 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
 - (id);
-- (unsigned int);
-- (float);
+- (id);
+- (_Bool)32@0:8@?<v@?@>16@"<CNScheduler>"24 /* Error: Ran out of types for this method. */;
+- (_Bool)servable";
+- (_Bool)@"NSFileManager";
+- (_Bool)_tcc_message_options>";
+- (_Bool)ContractEnforcement";
+- (_Bool)setSample: /* Error: Ran out of types for this method. */;
+- (_Bool)runningBoardTarget;
+- (_Bool)removeParentheticalContent;
+- (_Bool)isOrganizer;
+- (_Bool)isGregorianDerivedCalendarIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)ifResultIsNo:setOutputError:withBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)emptyResponse;
+- (id)canWriteToAccountWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)rmatterWith3SigFigs;
+- (id)readAndTransmittingContactsData;
+- (void)CNImageCropUtilities;
+- (void)CNDictionaryPrimitiveUserDefaults;
+- (id);
+- (void)X;
+- (void);
+- (id);
+- (id);
+- (double)pple.contacts.reactive.flat-map.resource;
+- (id)-file-lock;
+- (unsigned int)te, ZIP, Country;
+- (float)8@?0;
 - (id);
 - (_Bool);
 - (id);
@@ -123,24 +80,24 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (id);
-- (_Bool);
+- (id)instances;
+- (_Bool)L;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)@9H;
 - (id);
 - (void);
+- (void)ggerConfig";
+- (id)eporter _reportUserSpeakingContext];
+- (void)8;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long)dymSuggestionVisibleTime;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id)1Â0@ù
@@ -148,11 +105,11 @@
 - (void)'Ð!ìFùÑ¸*1Â0@ù
 × ;
 - (void)ad_styleAttributes"b1"read_telephone"b1"read_urlData"b1"read_url"b1"read_walletCategoryId"b1"wrote_anyField"b1};
-- (id)etHasUserTrackingMode:(struct _NSZone *)arg1;
-- (id)e;
-- (id)rimentFetchBucketIDRequest;
+- (id)setHasUserTrackingMode:(struct _NSZone *)arg1;
+- (id)_initiallyVisible;
+- (id)GEOExperimentFetchBucketIDRequest;
 - (id)for tileSet %@:%d=>%d /* Error: Ran out of types for this method. */;
-- (int)WED_MULTIPOINT_ROUTE;
+- (int)TAP_RECENTLY_VIEWED_MULTIPOINT_ROUTE;
 - (_Bool), shiftresponse.lat, shiftresponse.lng, @epsilon) != 0    ORDER BY time DESC    LIMIT 1;;
 - (id);
 - (void)ÿLé8æ¿4;
@@ -161,61 +118,7 @@
 - (void)Ýþ57;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artworkValue;
-@property(retain, nonatomic) GEOCountdownData *countdownData;
-@property(readonly, nonatomic) id <GEOServerFormatTokenCountdownValue> countdownValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int format;
-@property(retain, nonatomic) GEOGenericCombinations *genericCombinations;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasCountdownData;
-@property(nonatomic) _Bool hasFormat;
-@property(readonly, nonatomic) _Bool hasGenericCombinations;
-@property(readonly, nonatomic) _Bool hasManeuverData;
-@property(readonly, nonatomic) _Bool hasMeasurementData;
-@property(readonly, nonatomic) _Bool hasNumberData;
-@property(readonly, nonatomic) _Bool hasPrice;
-@property(readonly, nonatomic) _Bool hasStringSubstituteData;
-@property(readonly, nonatomic) _Bool hasToken;
-@property(readonly, nonatomic) _Bool hasUrlData;
-@property(nonatomic) _Bool hasValInt1;
-@property(nonatomic) _Bool hasValInt2;
-@property(readonly, nonatomic) _Bool hasValString;
-@property(nonatomic) _Bool hasWaypointIndex;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOManeuverData *maneuverData;
-@property(readonly, nonatomic) id <GEOServerFormatTokenManeuverValue> maneuverValue;
-@property(retain, nonatomic) GEOMeasurementData *measurementData;
-@property(retain, nonatomic) GEONumberData *numberData;
-@property(readonly, nonatomic) float percentageValue;
-@property(retain, nonatomic) GEOPrice *price;
-@property(readonly, nonatomic) id <GEOServerFormatTokenPriceValue> priceValue;
-@property(readonly, nonatomic) _Bool shouldScaleUnits;
-@property(retain, nonatomic) GEOGenericStringData *stringSubstituteData;
-@property(readonly, nonatomic) NSString *stringValue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *timeStampValues;
-@property(retain, nonatomic) NSMutableArray *timestampDatas;
-@property(retain, nonatomic) NSString *token;
 @property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOURLData *urlData;
-@property(readonly, nonatomic) id <GEOServerFormatTokenUrlValue> urlValue;
-@property(nonatomic) unsigned int valInt1;
-@property(nonatomic) unsigned int valInt2;
-@property(readonly, nonatomic) unsigned int *valInt3s;
-@property(readonly, nonatomic) unsigned long long valInt3sCount;
-@property(retain, nonatomic) NSString *valString;
-@property(readonly, nonatomic) unsigned int value1;
-@property(readonly, nonatomic) unsigned int value2;
-@property(readonly, nonatomic) NSArray *value3s;
-@property(nonatomic) int waypointIndex;
 
 @end
 

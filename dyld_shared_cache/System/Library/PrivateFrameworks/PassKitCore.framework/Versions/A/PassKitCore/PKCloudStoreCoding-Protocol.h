@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PKCloudStoreCoding
+- (NSArray *)+J;
 - (unsigned long long)ore.RemoteNetworkPaymentWebsocketURLSession;
+
+@optional
+- (void)U;
 @end
 

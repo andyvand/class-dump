@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

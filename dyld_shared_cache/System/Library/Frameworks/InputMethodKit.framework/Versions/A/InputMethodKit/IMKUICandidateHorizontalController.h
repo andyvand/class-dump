@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (double)Gáz?;

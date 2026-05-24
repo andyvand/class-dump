@@ -6,20 +6,15 @@
 
 #import <Catalyst/CATTransport.h>
 
-@class CATOperationQueue, NSMutableArray, NSString;
 @protocol CATSharingConnection;
 
 @interface CATSharingServiceTransport : CATTransport
 {
     id <CATSharingConnection> mConnection;
-    CATOperationQueue *mCatalystQueue;
-    NSMutableArray *mReceivedMessages;
-    _Bool mIsActive;
-    _Bool mIsInvalidated;
 }
 
 - (id);
-- (void);
+- (void)-left;
 - (id);
 - (void);
 - (void);
@@ -27,17 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)processingError;
+- (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

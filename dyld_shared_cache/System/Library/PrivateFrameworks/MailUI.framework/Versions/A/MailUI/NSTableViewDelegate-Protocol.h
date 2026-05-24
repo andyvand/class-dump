@@ -5,5 +5,10 @@
 //
 
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

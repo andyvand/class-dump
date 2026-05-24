@@ -9,7 +9,6 @@
 @protocol PISliderNetLiftResult
 
 // Remaining properties
-@property(readonly, copy) NSData *contentFeatureVectorData;
 @property(readonly, copy) NSData *styleFeatureVectorData;
 @end
 

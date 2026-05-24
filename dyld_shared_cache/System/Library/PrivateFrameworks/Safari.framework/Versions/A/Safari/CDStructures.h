@@ -13,7 +13,7 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct Array {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct AutomaticTerminationController {
@@ -24,18 +24,16 @@ struct AutomaticTerminationController {
     id _field5;
 };
 
-struct AutomaticTerminationDisabler;
-
 struct BackForwardList {
     struct WKRetainPtr<const void *> _field1;
 };
 
 struct BackForwardListItem {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct Boolean {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct BundleFrame {
@@ -54,38 +52,10 @@ struct BundleScriptWorld {
     struct WKRetainPtr<const void *> m_webKit2Object;
 };
 
-struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
-};
-
 struct CC_SHA256state_st {
     unsigned int count[2];
     unsigned int hash[8];
     unsigned int wbuf[16];
-};
-
-struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
 };
 
 struct CGPoint {
@@ -104,8 +74,8 @@ struct CGSize {
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct CompletionListItem;
@@ -115,7 +85,7 @@ struct Context {
 };
 
 struct Data {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct DefaultWeakPtrImpl;
@@ -132,24 +102,12 @@ struct ExtensionContentAccessInfo {
 
 struct ExtensionDomainPattern;
 
-struct FileLocker;
-
-struct FormAutoFillCompletionController;
-
 struct Frame {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct GeolocationProvider {
     CDUnknownFunctionPointerType *_field1;
-};
-
-struct HashSet<Safari::WK::BackForwardListItem, WTF::DefaultHash<Safari::WK::BackForwardListItem>, WTF::HashTraits<Safari::WK::BackForwardListItem>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes> {
-    struct HashTable<Safari::WK::BackForwardListItem, Safari::WK::BackForwardListItem, WTF::IdentityExtractor, WTF::DefaultHash<Safari::WK::BackForwardListItem>, WTF::HashTraits<Safari::WK::BackForwardListItem>, WTF::HashTraits<Safari::WK::BackForwardListItem>, WTF::FastMalloc> m_impl;
-};
-
-struct HashTable<Safari::WK::BackForwardListItem, Safari::WK::BackForwardListItem, WTF::IdentityExtractor, WTF::DefaultHash<Safari::WK::BackForwardListItem>, WTF::HashTraits<Safari::WK::BackForwardListItem>, WTF::HashTraits<Safari::WK::BackForwardListItem>, WTF::FastMalloc> {
-    struct BackForwardListItem *m_table;
 };
 
 struct IconConfiguration {
@@ -158,11 +116,7 @@ struct IconConfiguration {
 };
 
 struct Image {
-    struct WKRetainPtr<const void *> m_webKit2Object;
-};
-
-struct MutableDictionary {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
 
 struct MutableMediaPlaybackAndMuteState {
@@ -176,17 +130,17 @@ struct MutableMediaPlaybackAndMuteState {
 };
 
 struct NSDirectionalEdgeInsets {
-    double top;
-    double leading;
-    double bottom;
-    double trailing;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct OpaqueFormAutoFillFrame;
@@ -194,8 +148,6 @@ struct OpaqueFormAutoFillFrame;
 struct Page {
     struct WKRetainPtr<const void *> m_webKit2Object;
 };
-
-struct ReaderController;
 
 struct ReadingListFetcher;
 
@@ -205,22 +157,6 @@ struct Ref<Safari::WebViewControllerWKAdapter, WTF::RawPtrTraits<Safari::WebView
 
 struct RefPtr<Safari::CompletionListItem, WTF::RawPtrTraits<Safari::CompletionListItem>, WTF::DefaultRefDerefTraits<Safari::CompletionListItem>> {
     struct CompletionListItem *m_ptr;
-};
-
-struct RefPtr<Safari::FormAutoFillCompletionController, WTF::RawPtrTraits<Safari::FormAutoFillCompletionController>, WTF::DefaultRefDerefTraits<Safari::FormAutoFillCompletionController>> {
-    struct FormAutoFillCompletionController *m_ptr;
-};
-
-struct RefPtr<Safari::ReaderController, WTF::RawPtrTraits<Safari::ReaderController>, WTF::DefaultRefDerefTraits<Safari::ReaderController>> {
-    struct ReaderController *m_ptr;
-};
-
-struct RefPtr<Safari::SiteMetadataFetcher, WTF::RawPtrTraits<Safari::SiteMetadataFetcher>, WTF::DefaultRefDerefTraits<Safari::SiteMetadataFetcher>> {
-    struct SiteMetadataFetcher *m_ptr;
-};
-
-struct RefPtr<Safari::UnifiedFieldCompletionController, WTF::RawPtrTraits<Safari::UnifiedFieldCompletionController>, WTF::DefaultRefDerefTraits<Safari::UnifiedFieldCompletionController>> {
-    struct UnifiedFieldCompletionController *m_ptr;
 };
 
 struct RefPtr<Safari::WebViewControllerWKAdapter, WTF::RawPtrTraits<Safari::WebViewControllerWKAdapter>, WTF::DefaultRefDerefTraits<Safari::WebViewControllerWKAdapter>> {
@@ -240,38 +176,20 @@ struct RetainPtrArc<__SecPolicy *> {
 };
 
 struct RetainPtrArc<__SecTrust *> {
-    struct __SecTrust *m_ptr;
+    struct __SecTrust *_field1;
 };
 
 struct ScopeExitHandler {
     CDUnknownBlockType _field1;
 };
 
-struct SearchSuggestionNavigation {
-    _Bool hasParsecResults;
-    unsigned long long queryID;
-    _Bool sendCorrectButAbandonedFeedbackOnNextCommittedLoad;
-};
-
 struct SessionState {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
-
-struct SidebarAnimationContext {
-    unsigned long long tabViewAutoresizingMask;
-    int revealingOrCoveringSidebar;
-    _Bool sidebarAnimationInProgress;
-    _Bool layoutAnalysisClaimsPageIsCentered;
-    _Bool sidebarWillAppearAsOverlay;
-};
-
-struct SiteMetadataFetcher;
 
 struct String {
-    struct WKRetainPtr<const void *> m_webKit2Object;
+    struct WKRetainPtr<const void *> _field1;
 };
-
-struct SuddenTerminationDisabler;
 
 struct TrackingDataController {
     CDUnknownFunctionPointerType *_field1;
@@ -284,8 +202,6 @@ struct TrackingDataController {
 
 struct TrackingDataControllerClient;
 
-struct TrackingDataControllerClientObjCAdapter;
-
 struct URL {
     struct WKRetainPtr<const void *> m_webKit2Object;
 };
@@ -293,8 +209,6 @@ struct URL {
 struct URLRequest {
     struct WKRetainPtr<const void *> m_webKit2Object;
 };
-
-struct UnifiedFieldCompletionController;
 
 struct UserNotificationProvider {
     CDUnknownFunctionPointerType *_field1;
@@ -346,8 +260,8 @@ struct _EdgeSlowingInfo {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _ScrollSlowingInfo {
@@ -362,23 +276,9 @@ struct _VisibleTabRange {
     unsigned long long _field4;
 };
 
-struct atomic<LoadingStatus> {
-    struct __cxx_atomic_impl<LoadingStatus, std::__cxx_atomic_base_impl<LoadingStatus>> {
-        _Atomic long long __a_value;
-    } __a_;
-};
-
 struct cssm_data {
     unsigned long long _field1;
     char *_field2;
-};
-
-struct optional<SearchSuggestionNavigation> {
-    union {
-        char __null_state_;
-        struct SearchSuggestionNavigation __val_;
-    } ;
-    _Bool __engaged_;
 };
 
 struct optional<unsigned long long> {
@@ -389,37 +289,9 @@ struct optional<unsigned long long> {
     _Bool __engaged_;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct unique_ptr<Safari::AutomaticTerminationDisabler, std::default_delete<Safari::AutomaticTerminationDisabler>> {
-    struct {
-        struct AutomaticTerminationDisabler *__ptr_;
-    } ;
-};
-
-struct unique_ptr<Safari::FileLocker, std::default_delete<Safari::FileLocker>> {
-    struct {
-        struct FileLocker *__ptr_;
-    } ;
-};
-
 struct unique_ptr<Safari::ReadingListFetcher, std::default_delete<Safari::ReadingListFetcher>> {
     struct {
         struct ReadingListFetcher *__ptr_;
-    } ;
-};
-
-struct unique_ptr<Safari::TrackingDataControllerClientObjCAdapter, std::default_delete<Safari::TrackingDataControllerClientObjCAdapter>> {
-    struct {
-        struct TrackingDataControllerClientObjCAdapter *__ptr_;
-    } ;
-};
-
-struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> {
-    struct {
-        struct SuddenTerminationDisabler *__ptr_;
     } ;
 };
 
@@ -438,9 +310,9 @@ typedef struct {
 } CDStruct_6ad76789;
 
 typedef struct {
-    int webProcessID;
-    unsigned long long tabID;
-} CDStruct_497cfc99;
+    int _field1;
+    unsigned long long _field2;
+} CDStruct_fca5f1f5;
 
 typedef struct {
     long long numberOfColumns;
@@ -465,8 +337,8 @@ typedef struct RetainPtrArc<__SecPolicy *> {
 } RetainPtrArc_187ab8fb;
 
 typedef struct RetainPtrArc<__SecTrust *> {
-    struct __SecTrust *m_ptr;
-} RetainPtrArc_92de88b9;
+    struct __SecTrust *_field1;
+} RetainPtrArc_a1eeb7a0;
 
 typedef struct Vector<Safari::ExtensionDomainPattern, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> {
     struct ExtensionDomainPattern *_field1;

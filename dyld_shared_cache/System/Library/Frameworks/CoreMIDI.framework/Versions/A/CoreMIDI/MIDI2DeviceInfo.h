@@ -7,29 +7,23 @@
 @interface MIDI2DeviceInfo
 {
     unsigned short _family;
-    unsigned short _modelNumber;
-    CDStruct_8bc9909c _manufacturerID;
-    CDStruct_0583a8e1 _revisionLevel;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (CDStruct_0583a8e1);
+- (CDStruct_6c2d3932);
 - (id);
-- (CDStruct_8bc9909c);
-- (unsigned short);
+- (CDStruct_8356e4f6);
+- (unsigned short)s;
 - (_Bool);
 - (id);
-- (id);
-- (unsigned short);
+- (id)fetchListsIncludingSpecialContainersWithError: /* Error: Ran out of types for this method. */;
+- (unsigned short)=;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short family; // @synthesize family=_family;
-@property(readonly, nonatomic) CDStruct_8bc9909c manufacturerID; // @synthesize manufacturerID=_manufacturerID;
-@property(readonly, nonatomic) unsigned short modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(readonly, nonatomic) CDStruct_0583a8e1 revisionLevel; // @synthesize revisionLevel=_revisionLevel;
+@property(readonly, nonatomic) CDStruct_8356e4f6 manufacturerID; // @synthesize manufacturerID=_manufacturerID;
 
 @end
 

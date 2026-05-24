@@ -11,14 +11,12 @@
 @interface WFWorkflowDatabaseRunDescriptor : WFWorkflowRunDescriptor
 {
     NSString *_identifier;
-    NSString *_name;
 }
 
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

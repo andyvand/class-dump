@@ -6,14 +6,11 @@
 
 #import <MetalTools/MTLToolsParallelRenderCommandEncoder.h>
 
-@class MTLRenderPassDescriptor, MTLTelemetryCommandBuffer, MTLTelemetryDevice;
+@class MTLTelemetryDevice;
 
 @interface MTLTelemetryParallelRenderCommandEncoder : MTLToolsParallelRenderCommandEncoder
 {
     MTLTelemetryDevice *_telemetryDevice;
-    MTLTelemetryCommandBuffer *_telemetryCommandBuffer;
-    MTLRenderPassDescriptor *_descriptor;
-    unsigned int _encoderCount;
 }
 
 - (id);

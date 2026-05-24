@@ -7,7 +7,6 @@
 @interface AppStoreKit.CompoundCollectionElementsObserver
 {
     id children;
-    id observerProviders;
 }
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRFullPayloadCorrectionInfoTier1, NSData;
+@class ASRSchemaASRFullPayloadCorrectionInfoTier1;
 
 @interface DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentInfoTier1 : SISchemaInstrumentationMessage
 {
     ASRSchemaASRFullPayloadCorrectionInfoTier1 *_infoTier1;
-    _Bool _hasInfoTier1;
 }
 
 - (void);
@@ -19,22 +18,20 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)offset;
 - (id);
-- (id);
-- (void);
+- (void)b;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Book"b1"rawMediaTypeUsageSignalMusic"b1"rawMediaTypeUsageSignalPodcast"b1"rawMediaTypeUsageSignalVideo"b1"rawNowPlayingCountCoreDuet10Min"b1"rawNowPlayingCountCoreDuet1Day"b1"rawNowPlayingCountCoreDuet1Hr"b1"rawNowPlayingCountCoreDuet28Day"b1"rawNowPlayingCountCoreDuet2Min"b1"rawNowPlayingCountCoreDuet6Hr"b1"rawNowPlayingCountCoreDuet7Day"b1"rawNowPlayingRecencyCD"b1"rawEntitySearchRecency"b1"usageScoreBooks"b1"usageScoreMusic"b1"usageScorePodcasts"b1"isAppFirstParty"b1"isRequestedApp"b1"isNowPlayingBundlePSE1"b1"isNowPlayingBundlePSE2"b1"vq21Score"b1"isSupportedFlag"b1"isUnicornFlag"b1"isSupportedUnicornMatchFlag"b1"isDisambiguationSelectedApp"b1"isModelPredictedApp"b1"usageScoreRadio"b1"usageScoreMusicWithoutRadio"b1"rawMediaTypeUsageSignalRadio"b1"rawMediaTypeUsageSignalMusicWithoutRadio"b1"subscriptionStatus"b1"isRawNowPlayingBundle"b1"rawNowPlayingTotal"b1"rawNowPlayingBundleScore"b1"isRawLastNowPlaying"b1"rawNowPlaying2Minutes"b1"rawNowPlaying10Minutes"b1"rawNowPlaying1Hour"b1"rawNowPlaying6Hours"b1"rawNowPlaying1Day"b1"rawNowPlaying7Days"b1"rawNowPlaying28Days"b1"rawLastNowPlayingRecency"b1"commonForegroundBundleApp"b1"isRawLastNowPlayingBoolean"b1"isCommonForegroundApp"b1"isBoltEnabled"b1"usageScoreMusicWithoutRadioRemote"b1"usageScoreBooksRemote"b1"usageScoreRadioRemote"b1"usageScorePodcastsRemote"b1"entitySearchBundleScoreRemote"b1"usageScoreMusicRemote"b1};
-- (id)SiriSchemaODDDictationExperimentDimensions;
+- (id)ODDSiriSchemaODDDictationExperimentDimensions;
 - (id)DFÈF|G;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInfoTier1; // @synthesize hasInfoTier1=_hasInfoTier1;
 @property(retain, nonatomic) ASRSchemaASRFullPayloadCorrectionInfoTier1 *infoTier1; // @synthesize infoTier1=_infoTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _requestType;
-    struct {
-        unsigned int exists:1;
-        unsigned int requestType:1;
-    } _has;
 }
 
 - (void);
@@ -25,11 +18,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e.;
 - (id);
 - (_Bool);
 - (id);
-- (id)data;
+- (id)_hasConversationQualityInferenceMetadata;
 - (id)UploadInfo",&,N,V_device_upload_info;
 - (void);
 - (_Bool)ntEvent;
@@ -40,10 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasRequestType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end
 

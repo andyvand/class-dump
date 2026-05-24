@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
+- (void)_setLastUnreadDumpDate:(id)arg1;
+- (void)_serverAllowsUIRefreshWhileSyncing;
 - (id);
 - (id)1]°1Â0@ù
 × ;

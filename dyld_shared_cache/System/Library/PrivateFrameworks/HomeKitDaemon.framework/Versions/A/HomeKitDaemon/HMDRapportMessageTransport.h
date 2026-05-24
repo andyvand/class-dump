@@ -6,33 +6,28 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageTransport.h>
 
-@class HMDAppleAccountManager, HMDRapportMessaging, NSString;
-@protocol HMDFeaturesDataSource, HMDRemoteMessageListener, HMMLogEventSubmitting;
+@class HMDRapportMessaging;
+@protocol HMDRemoteMessageListener;
 
 __attribute__((visibility("hidden")))
 @interface HMDRapportMessageTransport : HMDRemoteMessageTransport
 {
     id <HMDRemoteMessageListener> _remoteMessageListener;
-    HMDRapportMessaging *_rapportMessaging;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDAppleAccountManager *_appleAccountManager;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    NSString *_requestID;
 }
 
 + (unsigned long long);
 + (id);
 + (id)$¤Ô^B;
 - (id);
+- (id)setAssistModeActive:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)PIParallaxCompoundLayerStackRequest;
+- (id)sterLayoutPropertiesRequest.m;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)_TtC13SiriInference22MegadomeEntityFeatures;
 - (void);
 - (id)
 × ;
@@ -41,25 +36,20 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (id)0@28@36@44;
-- (id)tation: /* Error: Ran out of types for this method. */;
-- (_Bool)ectPayloadsFromAllDomains;
-- (void)oryRemoveTime;
+- (id)commandsInStoreRepresentation: /* Error: Ran out of types for this method. */;
+- (_Bool)_collectPayloadsFromAllDomains;
+- (void)_accessoryRemoveTime;
 - (id)rgeShares returned error %@. Will try to continue.;
 - (id);
 - (_Bool)eStatet06matterB0_SS010hapServiceB0t;
-- (_Bool)dentStatusChannelReadyNotification;
+- (_Bool)HMDResidentStatusChannelReadyNotification;
 - (double)cations;
-- (void)ventCounter;
-- (int)reSizeKB;
+- (void)HMDLogEventUserActivityAnalyzerAddShortcutEventCounter;
+- (int)coreDataCloudStoreSizeKB;
 - (id)ýþ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 @property(readonly, nonatomic) HMDRapportMessaging *rapportMessaging; // @synthesize rapportMessaging=_rapportMessaging;
-@property(retain, nonatomic) id <HMDRemoteMessageListener> remoteMessageListener; // @synthesize remoteMessageListener=_remoteMessageListener;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end
 

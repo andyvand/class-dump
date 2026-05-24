@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface NSApplicationExtensionItem
 {
@@ -15,12 +15,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_URLSession:task:_willUseEffectiveConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (id);
@@ -30,21 +30,14 @@
 - (void)1á3Ð1Â0@ù
 × ;
 - (void)bled"b1"viewRespondsToSetEnabled"b1"viewRespondsToTag"b1"viewRespondsToSetTag"b1"viewRespondsToAction"b1"viewRespondsToSetAction"b1"viewRespondsToTarget"b1"viewRespondsToSetTarget"b1"viewRespondsToImage"b1"viewRespondsToSetImage"b1"viewRespondsToTitle"b1"viewRespondsToSetTitle"b1"viewRespondsToBordered"b1"viewRespondsToSetBordered"b1"isEnabled"b1"menuHasBeenSet"b1"menuRepIsDefault"b1"viewHasBeenLoaded"b1"drawingForDragImage"b1"isCustomItemType"b1"hasValidatedAutoModeConfiguration"b1"useAutoModeConfiguration"b1"fromBaseLocalizedNib"b1"autovalidationDisabled"b1"tagHasBeenSet"b1"sizeHasBeenSet"b1"stateWasDisabledBeforeSheet"b1"wantsToBeCentered"b1"isMeasuring"b1"ignoresEncodedMinMaxValue"b1"usesStaticMinMaxValues"b1"isNavigational"b1"isValidatingMenuItem"b1"isLoadingRemoteContent"b1"bordered"b1"hidden"b1"hasFullHeightView"b1"borderedHasBeenSet"b1"backgroundStyleIsEmphasized"b1};
-- (id);
-- (id)o;
+- (id)_documentDidEndAsynchronouslyPreservingVersion:(struct _NSZone *)arg1;
+- (id)DotmacLogo;
 - (id);
 - (void)K;
 - (void)¨Õÿ:(id)arg1 0;
 
 // Remaining properties
-@property(copy) NSArray *attachments;
-@property(copy) NSString *contentText;
-@property(copy) NSArray *links;
-@property(copy) CLLocation *location;
-@property(copy) NSArray *photoAssets;
 @property(copy) NSString *titleText;
-@property(copy) NSDictionary *userInfo;
-@property(copy) NSArray *videoAssets;
 
 @end
 

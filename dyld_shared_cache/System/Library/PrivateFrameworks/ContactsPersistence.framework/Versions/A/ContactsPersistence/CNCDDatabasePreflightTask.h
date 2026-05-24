@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CNCDDatabasePreflightTask
 {
     _Bool _shouldCreateMyCard;
-    NSURL *_url;
-    unsigned long long _options;
-    NSString *_path;
-    NSFileManager *_fileManager;
 }
 
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -30,13 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)servable;
+- (id)enabledAccountsObservable;
 
 // Remaining properties
-@property(readonly) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property _Bool shouldCreateMyCard; // @synthesize shouldCreateMyCard=_shouldCreateMyCard;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

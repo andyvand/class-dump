@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAppIdentifier;
+@class _INPBAppIdentifier;
 
 @interface _INPBIntentExecutionRequest
 {
     CDStruct_a8e956ad _has;
-    int _encodingFormat;
-    _INPBAppIdentifier *_appIdentifier;
-    NSString *_encodedIntent;
-    NSString *_encodedIntentDefinition;
 }
 
 + (_Bool);
@@ -33,30 +29,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)entitlements=[%{public}@]);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (void)entsCore.summarycache.invalidation;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppIdentifier *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *encodedIntent; // @synthesize encodedIntent=_encodedIntent;
-@property(copy, nonatomic) NSString *encodedIntentDefinition; // @synthesize encodedIntentDefinition=_encodedIntentDefinition;
-@property(nonatomic) int encodingFormat; // @synthesize encodingFormat=_encodingFormat;
-@property(readonly, nonatomic) _Bool hasAppIdentifier;
-@property(readonly, nonatomic) _Bool hasEncodedIntent;
-@property(readonly, nonatomic) _Bool hasEncodedIntentDefinition;
-@property(nonatomic) _Bool hasEncodingFormat;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

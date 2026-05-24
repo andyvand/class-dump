@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface JEBrotliEncoder
 {
     unsigned int _quality;
-    unsigned int _sizeHint;
-    struct BrotliEncoderStateStruct *_encoder;
 }
 
 - (_Bool);
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (struct BrotliEncoderStateStruct *);
-- (id);
+- (id)$;
 - (_Bool);
 - (unsigned int);
 - (void)overwithinvirginphones</tr>using 
@@ -117,9 +115,6 @@ article <sectionfindingsrole in popular  Octoberwebsite exposureused to  changes
 
 // Remaining properties
 @property(readonly, nonatomic) struct BrotliEncoderStateStruct *encoder; // @synthesize encoder=_encoder;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(nonatomic) unsigned int quality; // @synthesize quality=_quality;
-@property(nonatomic) unsigned int sizeHint; // @synthesize sizeHint=_sizeHint;
 
 @end
 

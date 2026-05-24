@@ -6,19 +6,17 @@
 
 #import <PowerlogCore/PLActivityCriterion.h>
 
-@class NSDictionary, NSString, PLEntryNotificationOperatorComposition;
+@class NSString;
 
 @interface PLActivityCriterionEntry : PLActivityCriterion
 {
     NSString *_entryKey;
-    CDUnknownBlockType _criterionBlock;
-    NSDictionary *_filter;
-    PLEntryNotificationOperatorComposition *_entryListener;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)DC*J
+;
 - (id);
 - (void);
 - (void);
@@ -26,19 +24,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_handleCompletionForRequestWithType:(id)arg1 result:andAccount: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)accountKind;
 - (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType criterionBlock; // @synthesize criterionBlock=_criterionBlock;
-@property(readonly) NSString *entryKey; // @synthesize entryKey=_entryKey;
-@property(retain) PLEntryNotificationOperatorComposition *entryListener; // @synthesize entryListener=_entryListener;
-@property(retain) NSDictionary *filter; // @synthesize filter=_filter;
 
 @end
 

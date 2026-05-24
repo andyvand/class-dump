@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicValueTransitionLinearStartConditionWrapper, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface HAPCharacteristicValueLinearTransition
 {
     NSMutableArray *_transitionPoints;
-    HAPCharacteristicValueTransitionLinearStartConditionWrapper *_startBehavior;
 }
 
 + (id);
@@ -21,20 +20,12 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)maxEventsPerFrameStoreVersion:(id)arg1 averageEventSize:segmentSize: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void)APPairingIdentity"16B24^@28;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPCharacteristicValueTransitionLinearStartConditionWrapper *startBehavior; // @synthesize startBehavior=_startBehavior;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *transitionPoints; // @synthesize transitionPoints=_transitionPoints;
 
 @end

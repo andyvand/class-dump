@@ -5,30 +5,27 @@
 //
 
 @class CKMessagePartChatItem;
-@protocol CKMediaObjectAssetActionHelper;
 
 __attribute__((visibility("hidden")))
 @interface CKMediaObjectAssetActionPerformer
 {
     CKMessagePartChatItem *_chatItem;
-    id <CKMediaObjectAssetActionHelper> _chatActionHelper;
 }
 
 + (id);
-+ (id);
++ (id)h %@ and %@;
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
+- (void)validateObject;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)le:) /* Error: Ran out of types for this method. */;
+- (id)tion means no one can access your locked notes without your login password—not even Apple.;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CKMediaObjectAssetActionHelper> chatActionHelper; // @synthesize chatActionHelper=_chatActionHelper;
 @property(retain, nonatomic) CKMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
 
 @end

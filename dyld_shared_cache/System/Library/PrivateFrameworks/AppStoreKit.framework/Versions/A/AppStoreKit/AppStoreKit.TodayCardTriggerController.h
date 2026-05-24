@@ -7,14 +7,6 @@
 @interface AppStoreKit.TodayCardTriggerController
 {
     id persistantStore;
-    id accessQueue;
-    id missingIds;
-    id unresolved;
-    id inactive;
-    id activated;
-    id persistedActive;
-    id expired;
-    id activeTriggerAdamIds;
 }
 
 @end

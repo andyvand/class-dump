@@ -6,28 +6,25 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class IMAutomaticTranslationIndicatorChatItem, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKAutomaticTranslationIndicatorChatItem : CKChatItem
 {
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize)etween %1$lu and %2$lu;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (Class);
-- (unsigned long long)dth: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setBalloonSizeAtMaxWidth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSAttributedString *buttonAttributedText;
-@property(nonatomic, readonly) Class cellClass;
-@property(nonatomic, readonly) IMAutomaticTranslationIndicatorChatItem *imAutomaticTranslationIndicatorChatItem;
-@property(nonatomic, readonly) NSAttributedString *titleAttributedText;
 
 @end
 

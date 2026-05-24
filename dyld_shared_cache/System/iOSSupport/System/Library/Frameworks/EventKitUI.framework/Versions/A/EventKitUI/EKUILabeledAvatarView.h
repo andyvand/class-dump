@@ -4,75 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNContact, UILabel, UIView, UIViewController;
-@protocol EKUILabeledAvatarViewDelegate;
+@class CNAvatarView;
 
 @interface EKUILabeledAvatarView
 {
     _Bool _loadContactsAsynchronously;
-    id <EKUILabeledAvatarViewDelegate> _delegate;
-    unsigned long long _selectionState;
-    UILabel *_label;
-    UIViewController *_viewController;
-    CNAvatarView *_avatar;
-    UIView *_pressedAccentOverlay;
-    unsigned long long _labelPlacement;
-    unsigned long long _options;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)&s;
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)&s;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tl;
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)0	;
+- (void)PersistentContainerType;
+- (unsigned long long)initWithEnabledMediaKinds:account:bag: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)2;
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void)0@ù
 × ;
-- (void)eRowSeparators;
+- (void)updateRowSeparators;
 - (void)HéàìÈíîîðïð;
 
 // Remaining properties
 @property(retain) CNAvatarView *avatar; // @synthesize avatar=_avatar;
-@property(retain) CNContact *contact;
-@property(nonatomic) __weak id <EKUILabeledAvatarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) UILabel *label; // @synthesize label=_label;
-@property unsigned long long labelPlacement; // @synthesize labelPlacement=_labelPlacement;
-@property(nonatomic) _Bool loadContactsAsynchronously; // @synthesize loadContactsAsynchronously=_loadContactsAsynchronously;
-@property unsigned long long options; // @synthesize options=_options;
-@property(retain) UIView *pressedAccentOverlay; // @synthesize pressedAccentOverlay=_pressedAccentOverlay;
-@property(nonatomic) unsigned long long selectionState; // @synthesize selectionState=_selectionState;
-@property __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

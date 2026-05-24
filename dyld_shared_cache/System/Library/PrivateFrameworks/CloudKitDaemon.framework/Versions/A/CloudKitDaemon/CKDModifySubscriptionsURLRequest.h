@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKRecordZoneID, NSArray, NSMutableDictionary;
+@class CKRecordZoneID, NSArray;
 
 @interface CKDModifySubscriptionsURLRequest : CKDURLRequest
 {
     CKRecordZoneID *_zoneID;
-    CDUnknownBlockType _subscriptionModifiedBlock;
-    NSArray *_subscriptionsToSave;
-    NSArray *_subscriptionIDsToDelete;
-    NSMutableDictionary *_subscriptionIDByRequestID;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)_reportSpotlightProgress;
 - (id);
 - (_Bool);
 - (id)ry.;
@@ -40,11 +36,7 @@
 - (void)tÑçÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *subscriptionIDByRequestID; // @synthesize subscriptionIDByRequestID=_subscriptionIDByRequestID;
-@property(retain, nonatomic) NSArray *subscriptionIDsToDelete; // @synthesize subscriptionIDsToDelete=_subscriptionIDsToDelete;
-@property(copy, nonatomic) CDUnknownBlockType subscriptionModifiedBlock; // @synthesize subscriptionModifiedBlock=_subscriptionModifiedBlock;
 @property(retain, nonatomic) NSArray *subscriptionsToSave; // @synthesize subscriptionsToSave=_subscriptionsToSave;
-@property(copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

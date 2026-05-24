@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSISPlaybackOperation
 {
     NSMutableDictionary *oldIdentsToNewVariables;
-    NSMutableArray *variableDelegates;
 }
 
 - (id);

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBContactCopyItem, _SFPBCoreSpotlightCopyItem, _SFPBImageCopyItem, _SFPBTextCopyItem, _SFPBURLCopyItem;
+@class _SFPBTextCopyItem;
 
 @interface _SFPBCopyItem
 {
     _SFPBTextCopyItem *_textCopyItem;
-    _SFPBCoreSpotlightCopyItem *_spotlightCopyItem;
-    _SFPBImageCopyItem *_imageCopyItem;
-    _SFPBContactCopyItem *_contactCopyItem;
-    _SFPBURLCopyItem *_urlCopyItem;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
+- (id)Rh";
 - (id);
-- (id);
-- (id);
+- (id)`B;
 - (void);
 - (void);
 - (void);
@@ -28,31 +23,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)~;
+- (id)isReadyForAnalysisQuickCheck;
+- (id)%{public}@, stream-initial:%{public}@, ADP:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ageData: /* Error: Ran out of types for this method. */;
+- (void)setImageData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBContactCopyItem *contactCopyItem; // @synthesize contactCopyItem=_contactCopyItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImageCopyItem *imageCopyItem; // @synthesize imageCopyItem=_imageCopyItem;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBCoreSpotlightCopyItem *spotlightCopyItem; // @synthesize spotlightCopyItem=_spotlightCopyItem;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBTextCopyItem *textCopyItem; // @synthesize textCopyItem=_textCopyItem;
-@property(retain, nonatomic) _SFPBURLCopyItem *urlCopyItem; // @synthesize urlCopyItem=_urlCopyItem;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

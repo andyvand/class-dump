@@ -7,10 +7,6 @@
 @interface SiriIntentEvents.DisambiguationOffer
 {
     id parameterName;
-    id intentType;
-    id multicardinalIndexValue;
-    id disambiguationItems;
-    id timestamp;
 }
 
 @end

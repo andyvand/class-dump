@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentView, SXGradientFillView, SXImageFillView, SXLayer, SXRepeatableImageFillView, SXShapeLayer, SXVideoFillView, SXViewport;
-@protocol SXComponentStyle, SXGradientFactory, SXImageFillViewFactory, SXRepeatableImageFillViewFactory, SXVideoFillViewFactory;
+@protocol SXComponentStyle;
 
 @interface SXComponentStyleRenderer
 {
     _Bool _didRegisterForDynamicBounds;
-    id <SXComponentStyle> _componentStyle;
-    SXViewport *_viewport;
-    id <SXVideoFillViewFactory> _videoFillViewFactory;
-    id <SXImageFillViewFactory> _imageFillViewFactory;
-    id <SXGradientFactory> _gradientFactory;
-    id <SXRepeatableImageFillViewFactory> _repeatableImageFillViewFactory;
-    SXComponentView *_componentView;
-    SXGradientFillView *_gradientFillView;
-    SXImageFillView *_imageFillView;
-    SXVideoFillView *_videoFillView;
-    SXRepeatableImageFillView *_repeatableImageFillView;
-    SXLayer *_shadowLayer;
-    SXShapeLayer *_borderLayer;
-    SXShapeLayer *_topBorderLayer;
-    SXShapeLayer *_rightBorderLayer;
-    SXShapeLayer *_bottomBorderLayer;
-    SXShapeLayer *_leftBorderLayer;
 }
 
 - (void);
@@ -34,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -52,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (_Bool);
 - (void);
@@ -74,7 +56,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)TW;
 - (id);
 - (id);
 - (id);
@@ -84,31 +66,7 @@
 - (void)40@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24@"UIGestureRecognizer"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SXShapeLayer *borderLayer; // @synthesize borderLayer=_borderLayer;
-@property(retain, nonatomic) SXShapeLayer *bottomBorderLayer; // @synthesize bottomBorderLayer=_bottomBorderLayer;
 @property(readonly, nonatomic) id <SXComponentStyle> componentStyle; // @synthesize componentStyle=_componentStyle;
-@property(readonly, nonatomic) __weak SXComponentView *componentView; // @synthesize componentView=_componentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didRegisterForDynamicBounds; // @synthesize didRegisterForDynamicBounds=_didRegisterForDynamicBounds;
-@property(readonly, nonatomic) id <SXGradientFactory> gradientFactory; // @synthesize gradientFactory=_gradientFactory;
-@property(retain, nonatomic) SXGradientFillView *gradientFillView; // @synthesize gradientFillView=_gradientFillView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXImageFillView *imageFillView; // @synthesize imageFillView=_imageFillView;
-@property(readonly, nonatomic) id <SXImageFillViewFactory> imageFillViewFactory; // @synthesize imageFillViewFactory=_imageFillViewFactory;
-@property(retain, nonatomic) SXShapeLayer *leftBorderLayer; // @synthesize leftBorderLayer=_leftBorderLayer;
-@property(retain, nonatomic) SXRepeatableImageFillView *repeatableImageFillView; // @synthesize repeatableImageFillView=_repeatableImageFillView;
-@property(readonly, nonatomic) id <SXRepeatableImageFillViewFactory> repeatableImageFillViewFactory; // @synthesize repeatableImageFillViewFactory=_repeatableImageFillViewFactory;
-@property(retain, nonatomic) SXShapeLayer *rightBorderLayer; // @synthesize rightBorderLayer=_rightBorderLayer;
-@property(retain, nonatomic) SXLayer *shadowLayer; // @synthesize shadowLayer=_shadowLayer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SXShapeLayer *topBorderLayer; // @synthesize topBorderLayer=_topBorderLayer;
-@property(retain, nonatomic) SXVideoFillView *videoFillView; // @synthesize videoFillView=_videoFillView;
-@property(readonly, nonatomic) id <SXVideoFillViewFactory> videoFillViewFactory; // @synthesize videoFillViewFactory=_videoFillViewFactory;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

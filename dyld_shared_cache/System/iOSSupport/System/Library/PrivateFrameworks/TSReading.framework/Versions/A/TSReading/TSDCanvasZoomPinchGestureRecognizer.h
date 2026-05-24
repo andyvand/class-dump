@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)form-pad","value":(id)arg1 4}],"value":(id)arg2 2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
 - (void)mShouldRenderFrameStroke;
 
 @end

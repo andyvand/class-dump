@@ -11,11 +11,10 @@
 @interface BRShareDestroyOperation : BRShareOperation
 {
     CKShare *_share;
-    CDUnknownBlockType _shareDestroyCompletionBlock;
 }
 
 - (CDUnknownBlockType);
-- (id);
+- (id)';
 - (id);
 - (void);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(copy) CDUnknownBlockType shareDestroyCompletionBlock; // @synthesize shareDestroyCompletionBlock=_shareDestroyCompletionBlock;
 
 @end
 

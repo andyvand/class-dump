@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, OSALogIdentity;
+@class OSALogIdentity;
 
 @interface OSALogEvent
 {
     OSALogIdentity *_identity;
-    NSDictionary *_details;
 }
 
 + (_Bool);
@@ -21,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *details; // @synthesize details=_details;
 @property(readonly, nonatomic) OSALogIdentity *identity; // @synthesize identity=_identity;
 
 @end

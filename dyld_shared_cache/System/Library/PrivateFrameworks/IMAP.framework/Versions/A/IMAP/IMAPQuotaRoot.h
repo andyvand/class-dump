@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCQuotaUsage, NSString;
+@class NSString;
 
 @interface IMAPQuotaRoot
 {
     NSString *_name;
-    MCQuotaUsage *_usage;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id));
+- (id)] || [@"strong" isEqualToString:value]) /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)oDisk:(id)arg1;
+- (void)collectDataAndWriteToDisk:(id)arg1;
 
 // Remaining properties
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) MCQuotaUsage *usage; // @synthesize usage=_usage;
 
 @end
 

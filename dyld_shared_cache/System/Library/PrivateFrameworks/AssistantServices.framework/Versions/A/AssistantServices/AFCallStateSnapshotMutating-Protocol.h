@@ -5,5 +5,6 @@
 //
 
 @protocol AFCallStateSnapshotMutating
+- (void);
 @end
 

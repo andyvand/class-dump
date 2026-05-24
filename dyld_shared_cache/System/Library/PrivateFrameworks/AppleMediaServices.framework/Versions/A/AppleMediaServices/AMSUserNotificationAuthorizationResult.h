@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementRequest;
-
 @interface AMSUserNotificationAuthorizationResult
 {
     long long _authorizationStatus;
-    AMSEngagementRequest *_request;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)ng pair-verify with device 0x%012llX
+;
 - (id);
-- (id);
-- (void);
+- (void)MRTransactionPacketAdditions;
 - (void)Zðÿ(Zðÿl^ðÿ°^ðÿ_ðÿÀ_ðÿü_ðÿ(`ðÿL`ðÿp`ðÿ`ðÿ¸`ðÿô`ðÿaðÿ<aðÿÐaðÿôaðÿbðÿTbðÿxbðÿbðÿÀbðÿübðÿ cðÿlcðÿðcðÿücðÿdðÿdðÿÈeðÿ(fðÿ\fðÿfðÿ;
 - (void)G;
-- (long long)umerId;
+- (long long)generateConsumerId;
 - (void)Çr8¾¡
 ²æM¯KA®]RùN/!xó[Ãug
 wm¿ÓsEÌÈìÇÂ,YZ2O1»ª>!°>Ü­Õ2j ô¸ïU¿ó_Å¦E^;
 
 // Remaining properties
 @property long long authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
-@property(retain) AMSEngagementRequest *request; // @synthesize request=_request;
 
 @end
 

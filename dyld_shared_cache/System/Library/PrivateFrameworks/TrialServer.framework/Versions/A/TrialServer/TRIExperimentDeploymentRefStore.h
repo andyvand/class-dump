@@ -11,8 +11,8 @@
     TRIServerContext *_context;
 }
 
-- (id);
-- (_Bool);
+- (id)initialize;
+- (_Bool)RL:(id)arg1 adjustmentsURL:originalAdjustmentsURL:mediaSubtypes:playbackStyle:playbackVariation: /* Error: Ran out of types for this method. */;
 - (void)×°!¤Cù1!ð1Â0@ù
 × ;
 

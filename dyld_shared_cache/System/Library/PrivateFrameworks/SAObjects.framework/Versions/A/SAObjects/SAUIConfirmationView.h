@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SAUIConfirmationView : SAAceView
 {
@@ -17,15 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allConfirmationOptions;
-@property(copy, nonatomic) NSString *cancelTrigger;
-@property(copy, nonatomic) NSArray *confirmCommands;
-@property(copy, nonatomic) NSString *confirmText;
-@property(copy, nonatomic) NSArray *denyCommands;
-@property(copy, nonatomic) NSString *denyText;
-@property(copy, nonatomic) NSNumber *generateForegroundAppSearchButtonLabel;
-@property(copy, nonatomic) NSString *style;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

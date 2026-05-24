@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSPathToExtendedFieldType, NSString;
+@class EWSPathToExtendedFieldType;
 
 @interface EWSExtendedPropertyType
 {
     EWSPathToExtendedFieldType *_ExtendedFieldURI;
-    id _Item;
 }
 
 + (id);
@@ -22,14 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSPathToExtendedFieldType *ExtendedFieldURI; // @synthesize ExtendedFieldURI=_ExtendedFieldURI;
-@property(retain, nonatomic) id Item; // @synthesize Item=_Item;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

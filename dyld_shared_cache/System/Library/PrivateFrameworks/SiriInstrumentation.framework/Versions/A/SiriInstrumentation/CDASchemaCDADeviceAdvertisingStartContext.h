@@ -6,23 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CDASchemaCDAElectionAdvertisingStartEnded, CDASchemaCDAElectionAdvertisingStartStarted, NSData;
+@class CDASchemaCDAElectionAdvertisingStartStarted;
 
 @interface CDASchemaCDADeviceAdvertisingStartContext : SISchemaInstrumentationMessage
 {
     CDASchemaCDAElectionAdvertisingStartStarted *_startedOrChanged;
-    CDASchemaCDAElectionAdvertisingStartEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -36,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id)1"batchChunkId"b1};
-- (id)erated;
+- (id)CHSchemaCHConversationQualityInferenceGenerated;
 - (id)èÌ;
 - (void)¿;
 
 // Remaining properties
-@property(retain, nonatomic) CDASchemaCDAElectionAdvertisingStartEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CDASchemaCDAElectionAdvertisingStartStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

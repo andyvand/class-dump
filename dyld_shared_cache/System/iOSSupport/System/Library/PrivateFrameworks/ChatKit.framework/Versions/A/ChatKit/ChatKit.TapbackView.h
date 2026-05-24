@@ -8,12 +8,12 @@
 {
 }
 
-- (void);
-- (void);
+- (void)doesn't support showing an activity stream;
+- (void)iorMenu;
 - (void);
 - (id);
 - (id);
-- (void)ertyEditorView;
+- (void)ChatPropertyEditorView;
 
 @end
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPSourceApplicationMetadata
 {
     NSString *_name;
-    NSString *_bundleIdentifier;
-    LPImage *_icon;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)requestMetadataForAuthToken:(id)arg1 withUUID:requestedLocale:requestInfo:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Á÷ð!ìAùQ°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

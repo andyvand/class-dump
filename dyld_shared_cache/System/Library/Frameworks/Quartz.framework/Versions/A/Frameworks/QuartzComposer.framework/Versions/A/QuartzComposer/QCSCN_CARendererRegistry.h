@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ist_pid, item_artist_order, item_artist_order_section, series_name_order, series_name_order_section, album_pid, album_order, album_order_section, album_artist_pid, album_artist_order, album_artist_order_section, composer_pid, composer_order, composer_order_section, genre_id, genre_order, genre_order_section, disc_number, track_number, episode_sort_id, base_location_id, remote_location_id, exclude_from_shuffle, keep_local, keep_local_status, in_my_library, is_compilation, date_added, show_composer) SELECT item_pid, media_type, title_order, title_order_section, item_artist_pid, item_artist_order, item_artist_order_section, series_name_order, series_name_order_section, album_pid, album_order, album_order_section, album_artist_pid, album_artist_order, album_artist_order_section, composer_pid, composer_order, composer_order_section, genre_id, genre_order, genre_order_section, IFNULL(disc_number, 0), IFNULL(track_number, 0), IFNULL(episode_sort_id, 0), base_location_id, remote_location_id, exclude_from_shuffle, keep_local, keep_local_status, in_my_library, is_compilation, date_added, IFNULL(show_composer, 0) FROM item;
 - (void);
 
 @end

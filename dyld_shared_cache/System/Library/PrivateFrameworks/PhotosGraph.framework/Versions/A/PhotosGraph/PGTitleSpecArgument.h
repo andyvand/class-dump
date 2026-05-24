@@ -7,19 +7,17 @@
 @interface PGTitleSpecArgument
 {
     _Bool _requiresInput;
-    id _inputVariable;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)DataModelEnrichmentContextBackgroundActivityGraphUpdate;
+- (id)mmon/CommonUtil.c;
+- (id)TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c;
+- (void)PGGraphDataModelEnrichmentContextBackgroundActivityGraphUpdate;
 
 // Remaining properties
-@property(retain) id inputVariable; // @synthesize inputVariable=_inputVariable;
 @property _Bool requiresInput; // @synthesize requiresInput=_requiresInput;
 
 @end

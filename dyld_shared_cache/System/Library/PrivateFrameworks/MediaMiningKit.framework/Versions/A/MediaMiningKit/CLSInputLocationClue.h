@@ -6,13 +6,11 @@
 
 #import <MediaMiningKit/CLSInputClue.h>
 
-@class CLSLocationCache, CLSPlace;
+@class CLSPlace;
 
 @interface CLSInputLocationClue : CLSInputClue
 {
     CLSPlace *_place;
-    CLSLocationCache *_locationCache;
-    unsigned long long numberOfAssets;
 }
 
 + (id);
@@ -27,10 +25,10 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)rEpoch:trainingEpochs:numberOfTrainingSamples: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ateNaturalClustering: /* Error: Ran out of types for this method. */;
+- (id)setEnableIntermediateNaturalClustering: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfAssets; // @synthesize numberOfAssets;

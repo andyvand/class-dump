@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (void)ondaryLabel;
+- (id)';
+- (id)R	jA;
+- (void)secondaryLabel;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentSetupFieldsModel *fieldModel; // @synthesize fieldModel=_fieldModel;

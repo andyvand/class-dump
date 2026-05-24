@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSDictionary, NSNumber, NSSet, NSString;
+@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSSet;
 
 @protocol FCTodayPrivateData
-- (NSSet *)otesEnabled;
+- (FCBundleSubscription *);
+- (NSSet *)=;
+- (NSArray *)rviceSetupConfiguration";
+- (NSSet *)recipeNotesEnabled;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *autoFavoriteTagIDs;
-@property(readonly, copy, nonatomic) FCBundleSubscription *bundleSubscription;
 @property(readonly, copy, nonatomic) FCDerivedPersonalizationData *derivedPersonalizationData;
-@property(readonly, copy, nonatomic) NSSet *groupableTagIDs;
-@property(readonly, copy, nonatomic) NSString *localNewsTagID;
-@property(readonly, copy, nonatomic) NSSet *mutedTagIDs;
-@property(readonly, copy, nonatomic) NSNumber *onboardingVersion;
-@property(readonly, copy, nonatomic) NSSet *purchasedTagIDs;
-@property(readonly, copy, nonatomic) NSArray *rankedAllSubscribedTagIDs;
-@property(readonly, copy, nonatomic) NSArray *rankedAllSubscriptionDates;
-@property(readonly, copy, nonatomic) NSDictionary *recentlyReadHistoryItems;
-@property(readonly, copy, nonatomic) NSArray *recentlySeenHistoryItems;
 @end
 

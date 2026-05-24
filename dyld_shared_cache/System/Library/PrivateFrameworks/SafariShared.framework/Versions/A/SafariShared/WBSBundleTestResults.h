@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL;
+@class NSObject, NSURL;
 @protocol OS_dispatch_queue;
 
 @interface WBSBundleTestResults
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableArray *_pendingReports;
-    NSURL *_fileURL;
 }
 
 - (void);

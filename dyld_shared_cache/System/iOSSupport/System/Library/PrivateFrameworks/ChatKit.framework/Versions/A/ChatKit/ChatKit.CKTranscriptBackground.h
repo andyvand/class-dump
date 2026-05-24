@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, PRSPosterConfiguration;
+@class NSURL;
 
 @interface ChatKit.CKTranscriptBackground
 {
     void filePathURL;
-    void posterData;
-    void watchData;
-    PRSPosterConfiguration *editorConfiguration;
-    void extensionIdentifier;
-    _Bool extensionIsPlayground;
-    void fileName;
-    void backgroundIdentifier;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -36,14 +29,7 @@
 - (void)û¬ÿ5ÈjÐÿÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *backgroundIdentifier;
-@property(nonatomic, readonly) PRSPosterConfiguration *editorConfiguration; // @synthesize editorConfiguration;
-@property(nonatomic, readonly) NSString *extensionIdentifier;
-@property(nonatomic, readonly) _Bool extensionIsPlayground; // @synthesize extensionIsPlayground;
-@property(nonatomic, readonly) NSString *fileName;
 @property(nonatomic, readonly) NSURL *filePathURL;
-@property(nonatomic, readonly) NSData *posterData;
-@property(nonatomic, readonly) NSData *watchData;
 
 @end
 

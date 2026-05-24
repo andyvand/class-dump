@@ -6,14 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DMFOpenAppRequest : DMFTaskRequest
 {
     _Bool _lockInApp;
-    NSString *_bundleIdentifier;
-    NSString *_activityType;
-    NSData *_activityData;
 }
 
 + (_Bool);
@@ -23,20 +20,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)dateKey(const ValueType &) [Key = WTF::Ref<API::Object>, Value = WTF::KeyValuePair<WTF::Ref<API::Object>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<API::Object>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<API::Object>>, Traits = WTF::HashMap<WTF::Ref<API::Object>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<API::Object>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ss;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *activityData; // @synthesize activityData=_activityData;
-@property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool lockInApp; // @synthesize lockInApp=_lockInApp;
 
 @end
 

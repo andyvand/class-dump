@@ -19,10 +19,9 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(nonatomic) long long audioRequestID; // @synthesize audioRequestID=_audioRequestID;
 @property(readonly, nonatomic) PXFlexMusicAsset *flexMusicAsset;
 
 @end

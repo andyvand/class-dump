@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, UIView, _UICollectionTableIndexOverlayIndicatorView, _UICollectionTableIndexOverlaySelectionView;
+@class NSString, UIView;
 @protocol _UICollectionTableIndexOverlayHost;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionTableIndexOverlayManager
 {
     UIView<_UICollectionTableIndexOverlayHost> *_host;
-    _UICollectionTableIndexOverlayIndicatorView *_indicatorView;
-    _UICollectionTableIndexOverlaySelectionView *_selectionView;
-    NSTimer *_indicatorHideTimer;
-    double _mediaTimeWhenIndicatorWasFirstPresentedInResponseToWheelEvent;
-    struct {
-        unsigned int indicatorViewVisible:1;
-        unsigned int selectionViewVisible:1;
-        unsigned int ignoringWheelEventsOnIndicator:1;
-    } _flags;
-    NSString *_indexOverlayIndicatorViewText;
 }
 
 - (void);
 - (void);
+- (void)sendMessage:(id)arg1 toChat:style: /* Error: Ran out of types for this method. */;
+- (_Bool)ontroller;
+- (id)MDRelayDeletionController",R,N,V_deletionController;
+- (void)IMCountryCodeForPhoneNumber:(id)arg1 simID: /* Error: Ran out of types for this method. */;
+- (_Bool)sagePartBody;
+- (void)on;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Adding participants:%@ /* Error: Ran out of types for this method. */;
+- (void)ived invalid notice type, dropping notice.;
 - (void);
 - (void);
 - (id);

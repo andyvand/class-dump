@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface JSWrapperMap
 {
     struct RetainPtr<NSMutableDictionary> m_classMap;
-    struct unique_ptr<JSC::WeakGCMap<id, JSC::JSObject>, std::default_delete<JSC::WeakGCMap<id, JSC::JSObject>>> m_cachedJSWrappers;
-    struct RetainPtr<NSMapTable> m_cachedObjCWrappers;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_currentHeadingImage;
 - (void)p;
 
 @end

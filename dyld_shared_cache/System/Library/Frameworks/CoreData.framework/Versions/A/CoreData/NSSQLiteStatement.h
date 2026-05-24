@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedFetchRequestInfo, NSMutableArray, NSSQLEntity, NSString;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLiteStatement
 {
     NSSQLEntity *_entity;
-    NSMutableArray *_bindVariables;
-    NSMutableArray *_bindIntarrays;
-    NSString *_sqlString;
-    _Bool _isImpossibleCondition;
-    _Bool _trackChangedRowCount;
-    NSSQLEntity *_fakeEntityForFetch;
-    NSCachedFetchRequestInfo *_cachedStatementInfo;
-    struct sqlite3_stmt *_cachedSQLiteStatement;
-    void *_owner;
 }
 
 - (void);
+- (id);
 - (id);
+- (id)entitled;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)ter:(id)arg1;
+- (id);
+- (id)relinquishPresentedItemToWriter:(id)arg1;
 - (id)ü;
 
 @end

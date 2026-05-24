@@ -8,15 +8,14 @@ __attribute__((visibility("hidden")))
 @interface FPPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r ;
 - (void);
-- (id);
+- (id)qH;
 - (id);
 - (_Bool);
 - (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id first; // @synthesize first=_first;
-@property(retain, nonatomic) id second; // @synthesize second=_second;
 
 @end
 

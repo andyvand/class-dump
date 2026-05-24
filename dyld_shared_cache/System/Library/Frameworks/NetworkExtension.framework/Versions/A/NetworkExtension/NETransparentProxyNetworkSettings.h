@@ -6,32 +6,26 @@
 
 #import <NetworkExtension/NETunnelNetworkSettings.h>
 
-@class NSArray;
-
 @interface NETransparentProxyNetworkSettings : NETunnelNetworkSettings
 {
     _Bool _isFullyTransparent;
-    NSArray *_includedNetworkRules;
-    NSArray *_excludedNetworkRules;
 }
 
-+ (_Bool);
++ (_Bool)setSync: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(x;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)tRegistration";
-- (_Bool)tworkRules:(id)arg1;
+- (_Bool)setIncludedNetworkRules:(id)arg1;
 - (id)2IKESA initIKESAWithConfiguration:(int)arg1 sessionConfiguration:(unsigned long long)arg2 queue:initialTransport:transportDelegate:socketGetBlock:packetDelegate:configurationDelegate:ikeSessionUniqueIndex:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *excludedNetworkRules; // @synthesize excludedNetworkRules=_excludedNetworkRules;
-@property(copy) NSArray *includedNetworkRules; // @synthesize includedNetworkRules=_includedNetworkRules;
 @property _Bool isFullyTransparent; // @synthesize isFullyTransparent=_isFullyTransparent;
 
 @end

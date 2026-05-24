@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINavigationItem, _UINavigationBarLayout, _UINavigationBarNSToolbarLayout, _UITypedStorage;
-
 @interface _UINavigationBarItemStackEntry
 {
     _Bool _searchActive;
-    _UITypedStorage *_typedStorage;
-    UINavigationItem *_item;
-    _UINavigationBarLayout *_normalLayout;
-    _UINavigationBarLayout *_searchLayout;
-    _UINavigationBarNSToolbarLayout *_nstoolbarLayout;
 }
 
 + (id);
-+ (id)ype:(id)arg1 inDirectory:(_Bool)arg2;
++ (id)pathForResource:(id)arg1 ofType:(_Bool)arg2 inDirectory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)payloadSubCalAccountCredentials;
 - (void);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)hunk store.;
 - (id);
 - (void);
 - (id)°!8@ùZ°1Â0@ù
@@ -36,25 +29,15 @@
 - (id)
 × ;
 - (id);
-- (id)e;
-- (CDStruct_39925896)ha;
+- (id)changedDelegate;
+- (CDStruct_bd34ff7f)_uimorphingView_getInitialAlpha;
 - (id)lestUndimmedDetentIdentifierWhenFloating: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)ÿ!;
 
 // Remaining properties
-@property(readonly, nonatomic) _UITypedStorage *_typedStorage; // @synthesize _typedStorage;
-@property(readonly, nonatomic) _UINavigationBarLayout *activeLayout;
-@property(readonly, nonatomic) _UINavigationBarLayout *inactiveLayout;
 @property(nonatomic, readonly) _Bool isActiveLayoutVariableHeight;
-@property(readonly, nonatomic) UINavigationItem *item; // @synthesize item=_item;
-@property(nonatomic, readonly) CDStruct_39925896 layoutHeightsForActiveLayout;
-@property(retain, nonatomic) _UINavigationBarLayout *normalLayout; // @synthesize normalLayout=_normalLayout;
-@property(retain, nonatomic) _UINavigationBarNSToolbarLayout *nstoolbarLayout; // @synthesize nstoolbarLayout=_nstoolbarLayout;
-@property(nonatomic, getter=isSearchActive) _Bool searchActive; // @synthesize searchActive=_searchActive;
-@property(retain, nonatomic) _UINavigationBarLayout *searchLayout; // @synthesize searchLayout=_searchLayout;
-@property(nonatomic, readonly) NSString *swiftDescription;
 
 @end
 

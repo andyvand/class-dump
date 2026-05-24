@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTLocation, RTPlaceInference;
+@class NSDate;
 
 @interface RTVisit
 {
     NSDate *_date;
-    long long _type;
-    RTLocation *_location;
-    NSDate *_entry;
-    NSDate *_exit;
-    double _confidence;
-    long long _source;
-    RTPlaceInference *_placeInference;
-    NSUUID *_identifier;
-    long long _dataPointCount;
 }
 
 @end

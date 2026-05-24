@@ -7,9 +7,6 @@
 @interface NewsPersonalization.NewsAppConfigurationManager
 {
     id appConfigurationManager;
-    id transform;
-    id lock;
-    id onChangeBlocks;
 }
 
 - (void);

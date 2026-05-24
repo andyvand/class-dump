@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCEndpointConnection, NSString, NSURL;
-@protocol FCCoreConfigurationManager;
+@class NSURL;
 
 @interface FCClientEndpointConnection
 {
     NSURL *_baseURL;
-    FCEndpointConnection *_endpointConnection;
-    id <FCCoreConfigurationManager> _configurationManager;
-    FCAsyncSerialQueue *_serialQueue;
 }
 
 - (void);
@@ -20,32 +16,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_errorForNULLCGImageSourceWithData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void)Ð!ðFù)	ð1Â0@ù
 × ;
-- (void);
-- (void)ID;
+- (void)activeExperimentID;
+- (void)sourceFeedID;
 - (void)opicalNodeElement"16@?0@"<FCClassifiable>"8;
 - (id)directory at %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) FCEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCAsyncSerialQueue *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

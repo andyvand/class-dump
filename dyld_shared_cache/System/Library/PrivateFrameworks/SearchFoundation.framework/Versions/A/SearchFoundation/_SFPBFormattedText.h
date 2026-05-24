@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage, _SFPBText;
+@class _SFPBText;
 
 @interface _SFPBFormattedText
 {
     _Bool _isEmphasized;
-    _Bool _isBold;
-    int _textColor;
-    int _encapsulationStyle;
-    _SFPBText *_text;
-    _SFPBImage *_glyph;
 }
 
 - (id);
-- (int);
+- (int)T;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
 - (id);
+- (_Bool)9;
+- (id)managedObjectSupportsSharingComposition;
+- (id)duplicateAssetsForLibrary: /* Error: Ran out of types for this method. */;
+- (id)ad existing memory with id:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (int)entryInvitationRecordGUID;
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (void)eaderCardSection: /* Error: Ran out of types for this method. */;
+- (void)setRfTableHeaderCardSection: /* Error: Ran out of types for this method. */;
 - (void)ÄoÈvHy;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int encapsulationStyle; // @synthesize encapsulationStyle=_encapsulationStyle;
-@property(retain, nonatomic) _SFPBImage *glyph; // @synthesize glyph=_glyph;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBold; // @synthesize isBold=_isBold;
-@property(nonatomic) _Bool isEmphasized; // @synthesize isEmphasized=_isEmphasized;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBText *text; // @synthesize text=_text;
-@property(nonatomic) int textColor; // @synthesize textColor=_textColor;
 
 @end
 

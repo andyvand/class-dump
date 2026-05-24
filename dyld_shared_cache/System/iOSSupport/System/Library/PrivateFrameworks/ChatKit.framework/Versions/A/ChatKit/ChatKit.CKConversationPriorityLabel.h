@@ -7,18 +7,16 @@
 @interface ChatKit.CKConversationPriorityLabel
 {
     long long classification;
-    _Bool ck_highlighted;
 }
 
-- (void);
+- (void)g;
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool ck_highlighted; // @synthesize ck_highlighted;
 @property(nonatomic) long long classification; // @synthesize classification;
 
 @end

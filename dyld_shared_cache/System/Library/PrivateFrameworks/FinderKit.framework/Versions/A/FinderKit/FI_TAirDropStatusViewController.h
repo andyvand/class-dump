@@ -6,15 +6,12 @@
 
 #import <FinderKit/FI_IAirDropStateViewController.h>
 
-@class FI_TButton, FI_TProgressIndicator, FI_TTextField, NSString;
+@class FI_TProgressIndicator, NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropStatusViewController : FI_IAirDropStateViewController
 {
     FI_TProgressIndicator *_progress;
-    FI_TTextField *_mainTextFld;
-    FI_TTextField *_subTextFld;
-    FI_TButton *_cancelButton;
 }
 
 - (struct _NSRange);
@@ -26,16 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setPlaceholderSearchText: /* Error: Ran out of types for this method. */;
 - (void)ÿÿZ;
 - (double)I_TMouseOverButtonEEE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mainTextStr;
-@property(nonatomic) struct _NSRange mainTextTruncateInRange;
-@property(nonatomic) double percentComplete;
-@property(copy, nonatomic) NSString *subTextStr;
-@property(nonatomic) struct _NSRange subTextTruncateInRange;
 
 @end
 

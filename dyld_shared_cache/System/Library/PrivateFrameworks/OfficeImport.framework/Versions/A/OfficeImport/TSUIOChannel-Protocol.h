@@ -5,6 +5,8 @@
 //
 
 @protocol TSUIOChannel
+- (void)pV;
+- (_Bool)So14CNLabeledValueCySo15CNPostalAddressCG;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isValid;

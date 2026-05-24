@@ -5,8 +5,9 @@
 //
 
 @protocol CPLClientLibraryManagerProtocol
-- (void)àª0à@ùà@ùà@ùý{F©ôOE©öWD©ÿÃÿ_Ö#ÕÿÃÑé#möW©ôO	©ý{
-©ýô;
+- (void)tion_table ADD COLUMN conflicting_versions_in_genstore BOOL NOT NULL DEFAULT 0;
+- (void);
+- (void)P;
 - (void)ù
 × ;
 @end

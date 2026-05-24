@@ -5,5 +5,6 @@
 //
 
 @protocol SMBluetoothServerDelegate
+- (void);
 @end
 

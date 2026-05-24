@@ -6,24 +6,9 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSNumber, NSString;
-
 @interface BMAskToBuyEvent : BMEventBase
 {
     _Bool _isActionUserDevice;
-    int _status;
-    double _eventTime;
-    NSString *_userID;
-    NSString *_requestID;
-    NSString *_actionUserID;
-    NSString *_itemTitle;
-    NSString *_itemDescription;
-    NSString *_thumbnailPath;
-    NSString *_itemLocalizedPrice;
-    NSNumber *_itemStarRating;
-    NSString *_itemAgeRating;
-    NSString *_productType;
-    NSString *_storeLink;
 }
 
 + (id);
@@ -33,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -45,27 +30,27 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)i5;
+- (unsigned long long)V;
 - (id);
-- (unsigned long long);
-- (id);
-- (double);
-- (_Bool);
+- (double)eRef _Nonnull, void (^ _Nonnull)(void));
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)Y;
 - (int);
-- (void);
-- (id)ypes;
+- (void);
+- (id)ctecoltypes;
 - (id)=;
 - (void);
 - (void)!"#$%&'()*+,-.ÿÿ01234567ÿÿ9:(id)arg1 ;<=>?@ABCDEFGÿÿIJKLMNOPQRSTÿÿVWXYZ[\]^_`abcdefgÿÿijklmnopqrstuvwxÿÿz{|}~ÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®¯ÿÿ±²³´µ¶·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ÿÿÿÿ;
@@ -73,28 +58,7 @@
 - (id)3;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionUserID; // @synthesize actionUserID=_actionUserID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double eventTime; // @synthesize eventTime=_eventTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActionUserDevice; // @synthesize isActionUserDevice=_isActionUserDevice;
-@property(copy, nonatomic) NSString *itemAgeRating; // @synthesize itemAgeRating=_itemAgeRating;
-@property(copy, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(copy, nonatomic) NSString *itemLocalizedPrice; // @synthesize itemLocalizedPrice=_itemLocalizedPrice;
-@property(copy, nonatomic) NSNumber *itemStarRating; // @synthesize itemStarRating=_itemStarRating;
-@property(copy, nonatomic) NSString *itemTitle; // @synthesize itemTitle=_itemTitle;
-@property(copy, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *storeLink; // @synthesize storeLink=_storeLink;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *thumbnailPath; // @synthesize thumbnailPath=_thumbnailPath;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <ExchangeWebServices/EWSSearchExpressionType.h>
 
-@class EWSBasePathToElementType, EWSExcludesValueType, NSString;
+@class EWSBasePathToElementType;
 
 @interface EWSExcludesType : EWSSearchExpressionType
 {
     EWSBasePathToElementType *_Path;
-    EWSExcludesValueType *_Bitmask;
 }
 
 + (id);
@@ -19,19 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)/PrivateFrameworks/FamilyCircle.framework/FamilyCircle;
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) EWSExcludesValueType *Bitmask; // @synthesize Bitmask=_Bitmask;
 @property(retain, nonatomic) EWSBasePathToElementType *Path; // @synthesize Path=_Path;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,14 @@
 
 #import <OfficeImport/TCDumpType.h>
 
-@class TCDumpEnum;
-
 __attribute__((visibility("hidden")))
 @interface TCDumpNumeric : TCDumpType
 {
     int mType;
-    TCDumpEnum *mEnumType;
 }
 
 - (id);
-- (void);
+- (void)Q?;
 - (void);
 - (id);
 - (int);

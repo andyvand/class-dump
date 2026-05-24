@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSString;
-@protocol CALayerDelegate;
+@class CALayer;
 
 @interface TSDRenderable
 {
@@ -13,15 +12,15 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (id);
++ (id)U;
++ (id).U;
+- (_Bool)layerController - Item duration changed - item: /* Error: Ran out of types for this method. */;
+- (id)tate [play: /* Error: Ran out of types for this method. */;
+- (void)ybackSession;
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)]ć;
 - (void);
 - (struct CGSize);
 - (unsigned int);
@@ -35,7 +34,7 @@
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (struct CGAffineTransform);
@@ -53,23 +52,23 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (float);
+- (float);
 - (void);
 - (double);
 - (void);
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)AutomaticCodingKeys;
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (float);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)и;
 - (id);
 - (void);
 - (struct CGColor *);
@@ -78,7 +77,7 @@
 - (void);
 - (id);
 - (struct CGColor *);
-- (double);
+- (double)?;
 - (void);
 - (struct CGPoint);
 - (id);
@@ -91,11 +90,11 @@
 - (void);
 - (void)24@0:(struct CGPoint)arg1 8^{CGContext=}16;
 - (id)Hosting>";
-- (void)ndexPath:(double)arg1;
-- (double)ent:atT:onSegmentB:atT:atPoint: /* Error: Ran out of types for this method. */;
-- (void)mAtURL:(id)arg1 options:writingItemAtURL:options:error:byAccessor: /* Error: Ran out of types for this method. */;
+- (void)tableView:(double)arg1 leadingSwipeActionsConfigurationForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (double)initWithSegment:atT:onSegmentB:atT:atPoint: /* Error: Ran out of types for this method. */;
+- (void)coordinateReadingItemAtURL:(id)arg1 options:writingItemAtURL:options:error:byAccessor: /* Error: Ran out of types for this method. */;
 - (void)ll:%p /* Error: Ran out of types for this method. */;
-- (void)owProperty;
+- (void)TSCHChartSeriesDefaultErrorBarShadowProperty;
 - (struct CGSize)have been notified.;
 - (void);
 - (double)`;ßë?;
@@ -104,43 +103,7 @@
 - (void)|N\´h;
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform affineTransform;
-@property(nonatomic) _Bool allowsGroupOpacity;
-@property(nonatomic) struct CGPoint anchorPoint;
-@property(nonatomic) struct CGColor *backgroundColor;
-@property(nonatomic) struct CGColor *borderColor;
-@property(nonatomic) double borderWidth;
-@property(nonatomic) struct CGRect bounds;
-@property(retain, nonatomic) id contents;
-@property(copy, nonatomic) NSString *contentsGravity;
-@property(nonatomic) struct CGRect contentsRect;
-@property(nonatomic) double contentsScale;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) __weak id <CALayerDelegate> delegate;
-@property(nonatomic) unsigned int edgeAntialiasingMask;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic, getter=isHidden) _Bool hidden;
 @property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(copy, nonatomic) NSString *magnificationFilter;
-@property(retain, nonatomic) CALayer *mask;
-@property(nonatomic) _Bool masksToBounds;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) float opacity;
-@property(nonatomic) struct CGPoint position;
-@property(readonly, nonatomic) struct CGSize preferredFrameSize;
-@property(readonly, nonatomic) TSDRenderable *presentationRenderable;
-@property(nonatomic) double rasterizationScale;
-@property(nonatomic) struct CGColor *shadowColor;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) float shadowOpacity;
-@property(nonatomic) struct CGPath *shadowPath;
-@property(nonatomic) double shadowRadius;
-@property(nonatomic) _Bool shouldRasterize;
-@property(copy, nonatomic) NSArray *sublayers;
-@property(copy, nonatomic) NSArray *subrenderables;
-@property(readonly) CALayer *superlayer;
-@property(readonly, nonatomic) _Bool tsd_tilingSafeHasContents;
-@property(nonatomic) double zPosition;
 
 @end
 

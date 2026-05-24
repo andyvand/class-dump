@@ -19,24 +19,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)__const;
+- (id)setShouldProcessNamespaces: /* Error: Ran out of types for this method. */;
+- (unsigned long long)PodcastsFoundation;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)yKeys: /* Error: Ran out of types for this method. */;
+- (void)allDisplayPropertyItemsForPropertyKeys: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bundleIdentifiers;
-@property(readonly, nonatomic) NSArray *changedItems;
-@property(readonly, nonatomic) _Bool isEmpty;
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSArray *remoteItems;
 
 @end
 

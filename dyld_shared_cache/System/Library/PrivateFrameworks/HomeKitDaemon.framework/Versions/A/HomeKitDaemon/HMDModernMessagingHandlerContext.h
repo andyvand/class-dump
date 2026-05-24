@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteMessageTransport, HMFMessageDispatcher;
+@class HMDRemoteMessageTransport;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernMessagingHandlerContext
 {
     HMDRemoteMessageTransport *_modernTransport;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
 - (void);
-- (id);
+- (id)arrive at waypoint:(id)arg1 %@ legIndex:(id)arg2 %lu;
 - (id);
 - (id);
 - (void)ublisher;
-- (id)butesMessageKey;
+- (id)HMDHomeCHIPAttributesMessageKey;
 - (void)*xÿ;
 
 // Remaining properties
-@property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
 @property(retain, nonatomic) HMDRemoteMessageTransport *modernTransport; // @synthesize modernTransport=_modernTransport;
 
 @end

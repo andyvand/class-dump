@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSThemeAutosaveButtonCell : NSButtonCell
 {
     _Bool _mouseInside;
-    float _defaultLineHeight;
 }
 
 + (Class);
@@ -19,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct CGRect);
 - (void);
-- (struct CGSize);
-- (id);
+- (struct CGSize)tification %s, token %d:(struct CGRect)arg1 %u;
+- (id)+;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (long long);
-- (long long);
-- (_Bool);
+- (void)set_proxySettings:(_Bool)arg1;
+- (long long)th error %@;
+- (long long)veSessionIdentifiersWithReply error handler called with error %@;
+- (_Bool)finish app wake for session %@ with identifier %@;
 - (id);
 - (void);
 

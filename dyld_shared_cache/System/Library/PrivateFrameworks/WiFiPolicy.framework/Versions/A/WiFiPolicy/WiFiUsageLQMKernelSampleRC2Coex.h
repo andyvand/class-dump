@@ -11,15 +11,13 @@
 @interface WiFiUsageLQMKernelSampleRC2Coex : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _rc2DurationPerc;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)multicolorPickerLabelFont;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long rc2DurationPerc; // @synthesize rc2DurationPerc=_rc2DurationPerc;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

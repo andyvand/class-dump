@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSGeoServiceThread, NSObject;
-@protocol CLSQueryPerformerProtocol, OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@protocol CLSQueryPerformerProtocol;
 
 @interface CLSQueryHandler
 {
     id <CLSQueryPerformerProtocol> _query;
-    double _internalProgressTimeInterval;
-    NSObject<OS_dispatch_source> *_timer;
-    unsigned long long _retryLevel;
-    double _nextRetryTime;
-    _Bool _alreadyLaunched;
-    _Bool _didQueryFinish;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_os_log> *_loggingConnection;
-    _Bool _simulatesTimeout;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _completionBlock;
-    CLSGeoServiceThread *_geoServiceThread;
-    double _timeoutInterval;
-    unsigned long long _numberOfRetries;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -38,25 +23,20 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
+- (void)O_SJ1;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (double)otocol>">24;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) CLSGeoServiceThread *geoServiceThread; // @synthesize geoServiceThread=_geoServiceThread;
-@property(nonatomic) unsigned long long numberOfRetries; // @synthesize numberOfRetries=_numberOfRetries;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
 @property(nonatomic, getter=isSimulatingTimeout) _Bool simulatesTimeout; // @synthesize simulatesTimeout=_simulatesTimeout;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

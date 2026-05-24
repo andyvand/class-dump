@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SCNActionRepeat : SCNAction
 {
     struct SCNCActionRepeat *_mycaction;
-    SCNAction *_repeatedAction;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)TemplateIconInCache;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

@@ -4,40 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDColorReference, EDResources, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDFont
 {
     EDResources *mResources;
-    NSString *mName;
-    EDColorReference *mColorReference;
-    int mUnderline;
-    int mScript;
-    double mHeightInTwips;
-    int mCharSet;
-    int mFamily;
-    unsigned int mWeight;
-    _Bool mBold;
-    _Bool mItalic;
-    _Bool mShadow;
-    _Bool mStrike;
-    _Bool mOutline;
-    _Bool mUnderlineOverridden;
-    _Bool mStrikeOverridden;
-    _Bool mBoldOverridden;
-    _Bool mWeightOverridden;
-    _Bool mItalicOverridden;
-    _Bool mHeightOverridden;
-    _Bool mNameOverridden;
-    _Bool mDoNotModify;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)	;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (int);
@@ -61,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
 - (double);
@@ -72,20 +51,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)S;
 - (int);
-- (void)ore:(id)arg1;
+- (void)setKinsokuAltBreakBefore:(id)arg1;
 - (void);
 - (_Bool)yñ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

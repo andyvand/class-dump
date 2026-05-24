@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct CompactHTTPCookieWithData *_fromData;
 }
 
-- (void);
+- (void)uninitialized;
 - (id);
 - (id);
 - (id);
-- (struct HTTPCookie *);
+- (struct HTTPCookie *);
 - (id);
 - (id);
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface SiriUIPluginManager
 {
     NSString *_path;
-    NSArray *_domainKeys;
-    CDUnknownBlockType _factoryInitializationBlock;
-    NSMutableDictionary *_domainKeyDictionary;
 }
 
 + (id);

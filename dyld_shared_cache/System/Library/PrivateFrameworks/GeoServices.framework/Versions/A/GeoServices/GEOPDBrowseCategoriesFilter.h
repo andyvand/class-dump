@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDBrowseCategoriesFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _includeAllCategoriesForVenue;
-    struct {
-        unsigned int has_includeAllCategoriesForVenue:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)nDistanceKmP95"b1"has_winDistanceKmP99"b1"has_hasBelowStreetGeo"b1"has_isBlendingScope"b1"has_isMixedIntent"b1"read_center"b1"read_mapRegion"b1"read_multiMapRegion"b1"read_winDistanceGeohash4"b1"wrote_anyField"b1};
-- (id)Tables;
+- (id)_bookedTables;
 - (id)ÈÙ\°æ³pÛ\Äæ³8Ý\Üæ³Ôæ\¨ç³ ê\;
 - (void)¤è}þ;
 

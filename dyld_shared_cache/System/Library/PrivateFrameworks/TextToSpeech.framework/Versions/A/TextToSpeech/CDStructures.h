@@ -54,25 +54,25 @@ struct AudioStreamBasicDescription {
 struct AudioStreamPacketDescription;
 
 struct AudioTimeStamp {
-    double mSampleTime;
-    unsigned long long mHostTime;
-    double mRateScalar;
-    unsigned long long mWordClockTime;
-    struct SMPTETime mSMPTETime;
-    unsigned int mFlags;
-    unsigned int mReserved;
+    double _field1;
+    unsigned long long _field2;
+    double _field3;
+    unsigned long long _field4;
+    struct SMPTETime _field5;
+    unsigned int _field6;
+    unsigned int _field7;
 };
 
 struct SMPTETime {
-    short mSubframes;
-    short mSubframeDivisor;
-    unsigned int mCounter;
-    unsigned int mType;
-    unsigned int mFlags;
-    short mHours;
-    short mMinutes;
-    short mSeconds;
-    short mFrames;
+    short _field1;
+    short _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    short _field6;
+    short _field7;
+    short _field8;
+    short _field9;
 };
 
 struct VoiceSpec {

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface CTEOSFirmwareInfo
 {
     NSData *_currentVersion;
-    NSNumber *_userProfiles;
-    NSData *_updateCsn;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
++ (_Bool)rom trackID %d of asset %@ sourceTimeRange [%.3f,+%.3f];
+- (id);
 - (id);
 - (void);
+- (void)>ڗ;
+- (void);
+- (id);
+- (id);
+- (void)sW;
 - (id);
 - (void)
 × ;
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(retain, nonatomic) NSData *updateCsn; // @synthesize updateCsn=_updateCsn;
-@property(retain, nonatomic) NSNumber *userProfiles; // @synthesize userProfiles=_userProfiles;
 
 @end
 

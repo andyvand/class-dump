@@ -10,22 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDDeparturePredicate
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDTimeRange _timeRange;
-    unsigned int _numAdditionalDepartures;
-    struct {
-        unsigned int has_timeRange:1;
-        unsigned int has_numAdditionalDepartures:1;
-    } _flags;
 }
 
+- (id)H;
 - (id);
-- (id);
-- (void);
+- (void)C};
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)calitiesAndLandmarks"b1"read_offlineRegionSearch"b1"read_poiAddressOnly"b1"read_siriSearch"b1"read_venueSearch"b1"wrote_anyField"b1};
-- (id)nueCommands;
+- (id)_continueCommands;
 - (id):; /* Error: Ran out of types for this method. */;
 - (void);
 

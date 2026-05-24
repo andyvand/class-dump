@@ -7,14 +7,10 @@
 #import <MediaPlayer/MPSectionedIdentifierList.h>
 
 @class NSString, _MPSSILImplementation;
-@protocol MPShuffleableSectionedIdentifierListDelegate;
 
 @interface MPShuffleableSectionedIdentifierList : MPSectionedIdentifierList
 {
     _MPSSILImplementation *_shuffledList;
-    long long _shuffleType;
-    NSString *_shuffleStartingSectionIdentifier;
-    NSString *_shuffleStartingItemIdentifier;
 }
 
 + (void);
@@ -25,7 +21,7 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
@@ -34,8 +30,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)q;
+- (void)S;
 - (void);
 - (void);
 - (_Bool);
@@ -48,8 +44,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,23 +58,13 @@
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)assicalExperienceAvailable_KEY;
+- (void)couldNotFindView;
+- (id)overlay;
+- (id)@;
+- (void)__classicalExperienceAvailable_KEY;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPShuffleableSectionedIdentifierListDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *shuffleStartingItemIdentifier; // @synthesize shuffleStartingItemIdentifier=_shuffleStartingItemIdentifier;
 @property(copy, nonatomic) NSString *shuffleStartingSectionIdentifier; // @synthesize shuffleStartingSectionIdentifier=_shuffleStartingSectionIdentifier;
-@property(nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
-@property(readonly) Class superclass;
 
 @end
 

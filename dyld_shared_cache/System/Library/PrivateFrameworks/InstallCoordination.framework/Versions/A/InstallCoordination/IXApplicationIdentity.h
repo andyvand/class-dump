@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIAppIdentity, NSString;
+@class NSString;
 
 @interface IXApplicationIdentity
 {
@@ -25,14 +25,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setInputBlueYellow:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MIAppIdentity *miAppIdentity;
 @property(readonly, nonatomic) NSString *uniqueIdentifier;
 
 @end

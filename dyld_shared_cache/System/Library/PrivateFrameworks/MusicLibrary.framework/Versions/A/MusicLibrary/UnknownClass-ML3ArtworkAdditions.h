@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ML3ArtworkAdditions)
-- (void);
+- (void)dateOfOccurrence;
 @end
 

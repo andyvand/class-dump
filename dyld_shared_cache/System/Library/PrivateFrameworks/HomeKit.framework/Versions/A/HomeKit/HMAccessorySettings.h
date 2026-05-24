@@ -6,57 +6,36 @@
 
 #import <HomeKit/HMSettings.h>
 
-@class HMAccessory, HMAccessorySettingGroup, NSString, NSUUID, _HMContext;
-@protocol HMAccessorySettingsContainer, HMAccessorySettingsContainerInternal, HMAccessorySettingsDelegate, HMControllable;
+@class _HMContext;
 
 @interface HMAccessorySettings : HMSettings
 {
     struct os_unfair_lock_s _lock;
-    id <HMControllable> _settingsControl;
-    id <HMAccessorySettingsContainerInternal> _settingsContainerInternal;
-    id <HMAccessorySettingsDelegate> _delegate;
-    HMAccessorySettingGroup *_rootGroup;
-    _HMContext *_context;
 }
 
 + (id);
 + (id)diaDestination>"8;
-- (id);
+- (id)X;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ForString:range:options:originProvider:inView:] /* Error: Ran out of types for this method. */;
+- (id)B&.;
+- (void)_hasAutocorrection;
+- (id)#	;
+- (id)0	6	>	8		;
 - (id);
 - (void)ream has failed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) __weak HMAccessory *accessory;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, getter=isControllable) _Bool controllable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMAccessorySettingsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMAccessorySettingGroup *rootGroup; // @synthesize rootGroup=_rootGroup;
-@property(readonly) __weak id <HMAccessorySettingsContainer> settingsContainer;
-@property __weak id <HMAccessorySettingsContainerInternal> settingsContainerInternal; // @synthesize settingsContainerInternal=_settingsContainerInternal;
-@property __weak id <HMControllable> settingsControl; // @synthesize settingsControl=_settingsControl;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

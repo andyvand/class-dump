@@ -9,7 +9,6 @@
 @interface IMKSimulatorInputModeSelector
 {
     IMKSimulatorInputModeSelectorFloatingPanel *_floatingPanel;
-    NSArray *_inputModeURLs;
 }
 
 + (id);
@@ -18,10 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)activeDownlinkStreamIDForStreamGroupID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *inputModeLabels;
 @property(retain, nonatomic) NSArray *inputModeURLs; // @synthesize inputModeURLs=_inputModeURLs;
 
 @end

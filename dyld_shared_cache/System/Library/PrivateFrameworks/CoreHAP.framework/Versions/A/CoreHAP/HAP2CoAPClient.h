@@ -6,36 +6,16 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, NSError, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSString, NSThread;
-@protocol HAP2CoAPClientDelegate, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HAP2CoAPClient : HAP2LoggingObject
 {
     struct coap_address_t _address;
-    _Bool _connected;
-    _Bool _registered;
-    id <HAP2CoAPClientDelegate> _delegate;
-    unsigned long long _maxTransmitAttempts;
-    double _initialACKTimeout;
-    CDUnknownBlockType _openCompletion;
-    CDUnknownBlockType _closeCompletion;
-    NSMutableDictionary *_responseCompletionsByToken;
-    NSError *_closeError;
-    NSMutableSet *_activeTokens;
-    NSMutableOrderedSet *_previousResponseMessageIDs;
-    NSMutableOrderedSet *_previousEventMessageIDs;
-    HAP2PropertyLock *_propertyLock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_accessoryName;
-    NSThread *_ioThread;
-    struct coap_resource_t *_notificationResource;
 }
 
-- (struct coap_session_t *);
+- (struct coap_session_t *)C;
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (double);
 - (id);
@@ -62,16 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2CoAPClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double initialACKTimeout; // @synthesize initialACKTimeout=_initialACKTimeout;
-@property(nonatomic) unsigned long long maxTransmitAttempts; // @synthesize maxTransmitAttempts=_maxTransmitAttempts;
-@property(readonly) Class superclass;
 
 @end
 

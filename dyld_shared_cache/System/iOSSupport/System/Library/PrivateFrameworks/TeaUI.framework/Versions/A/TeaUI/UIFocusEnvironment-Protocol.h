@@ -8,19 +8,17 @@
 @protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
+- (void)initWithUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (void)blic}s forbids:%{public}s. Requires an XPC connection /* Error: Ran out of types for this method. */;
+- (id <UIFocusItemContainer>)BOOL _searchAirport(MapsSuggestionsEntry *__strong, NSString *__strong, __strong id<MapsSuggestionsNetworkRequester>, __strong MapsSuggestionsEntryMapItemsFetchCompletion)_block_invoke;
+- (id <UIFocusEnvironment>)eration];
 - (_Bool)coordinatingResetSwipeAction;
 
+@optional
+- (NSString *);
+- (UIView *)setHasMaxVersionSeen: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
 @property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SOCorrectionSuggestion
 {
     NSString *_string;
-    NSNumber *_fittingWidth;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)sendRequestReturningBooleanResponse:withSuccessKey: /* Error: Ran out of types for this method. */;
+- (id)Invalid Init called;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *fittingWidth; // @synthesize fittingWidth=_fittingWidth;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

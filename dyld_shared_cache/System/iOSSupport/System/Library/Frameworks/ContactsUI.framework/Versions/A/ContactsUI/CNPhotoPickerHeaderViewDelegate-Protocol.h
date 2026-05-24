@@ -5,5 +5,6 @@
 //
 
 @protocol CNPhotoPickerHeaderViewDelegate
+- (void)r?;
 @end
 

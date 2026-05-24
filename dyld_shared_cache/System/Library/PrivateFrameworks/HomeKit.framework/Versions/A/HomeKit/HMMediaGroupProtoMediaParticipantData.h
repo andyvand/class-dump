@@ -4,45 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaGroupProtoMediaDestination, HMMediaGroupProtoMediaDestinationControllerData, NSMutableArray;
+@class NSMutableArray;
 
 @interface HMMediaGroupProtoMediaParticipantData
 {
     NSMutableArray *_backupGroups;
-    HMMediaGroupProtoMediaDestination *_destination;
-    HMMediaGroupProtoMediaDestinationControllerData *_destinationController;
 }
 
 + (Class);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)";
+- (_Bool)&;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool)vacuole;
+- (void);
+- (id);
+- (id)@;
+- (id);
+- (void)SRCSTextEditing;
 - (void)  ¡;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *backupGroups; // @synthesize backupGroups=_backupGroups;
-@property(retain, nonatomic) HMMediaGroupProtoMediaDestination *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) HMMediaGroupProtoMediaDestinationControllerData *destinationController; // @synthesize destinationController=_destinationController;
 @property(readonly, nonatomic) _Bool hasDestination;
-@property(readonly, nonatomic) _Bool hasDestinationController;
 
 @end
 

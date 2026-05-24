@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteMessagePolicy
 {
     _Bool _requiresSecureMessage;
-    _Bool _allowsAnonymousMessage;
-    _Bool _requiresAccountMessage;
-    unsigned long long _transportRestriction;
-    unsigned long long _roles;
 }
 
 + (id);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)";
 - (unsigned long long);
 - (void);
 - (id);
@@ -33,14 +29,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned long long)loudShareTrustManagerMetricsEventDispatcher"16;
-- (id)instanceID:(struct _NSZone *)arg1 linkType: /* Error: Ran out of types for this method. */;
+- (id)matchingTransportInformationWithServerIdentifier:(struct _NSZone *)arg1 instanceID:linkType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowsAnonymousMessage; // @synthesize allowsAnonymousMessage=_allowsAnonymousMessage;
-@property _Bool requiresAccountMessage; // @synthesize requiresAccountMessage=_requiresAccountMessage;
 @property _Bool requiresSecureMessage; // @synthesize requiresSecureMessage=_requiresSecureMessage;
-@property unsigned long long roles; // @synthesize roles=_roles;
-@property unsigned long long transportRestriction; // @synthesize transportRestriction=_transportRestriction;
 
 @end
 

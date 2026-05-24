@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISMigrator
 {
     _Bool _newUserAccount;
-    unsigned long long _platform;
-    NSString *_previousVersion;
-    NSString *_currentVersion;
-    unsigned long long _previousSchemaVersion;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)authoringCameraType;
++ (id)audioSourceWithAVAudioPCMBuffer:(id)arg1;
++ (id)audioSource;
++ (id)audioPlayerWithSource:(unsigned long long)arg1;
++ (id)audioNode;
 + (unsigned long long);
+- (void)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (void)count;
+- (void)copyTextureByConvertingToCubeMapIfApplicable:(_Bool)arg1 engineContext:needsMipmap: /* Error: Ran out of types for this method. */;
+- (_Bool)contactPoint;
+- (unsigned long long)consumeExtensions: /* Error: Ran out of types for this method. */;
+- (id)ateBlock:(id)arg1 constants:(id)arg2 constantsHash: /* Error: Ran out of types for this method. */;
+- (_Bool)componentsWithURL:resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (id)appendPixelBuffer:withPresentationTime: /* Error: Ran out of types for this method. */;
+- (id)appendImage:(id)arg1 withPresentationTime:usingAdaptor: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id)e_Hant_migrator;
+- (id)IP_HK_MO_yue_Hant_migrator;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(nonatomic) _Bool newUserAccount; // @synthesize newUserAccount=_newUserAccount;
 @property(nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(nonatomic) unsigned long long previousSchemaVersion; // @synthesize previousSchemaVersion=_previousSchemaVersion;
-@property(copy, nonatomic) NSString *previousVersion; // @synthesize previousVersion=_previousVersion;
 
 @end
 

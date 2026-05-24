@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneOrientationHostComponent
 {
 }
 
-- (void);
+- (void)P;
 - (long long);
-- (_Bool);
-- (long long);
+- (_Bool)replaceMessageAcknowledgmentsWithNewMessageAcknowledgment:associatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
+- (long long)replaceFileTransferGUIDsForMessageItem:withPermanentFileTransferGUIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -27,16 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)storation(id<UIStateRestoring>, NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) long long clientInterfaceOrientationLockPreference;
-@property(readonly, nonatomic) _Bool clientPrefersInterfaceOrientationLocked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long interfaceOrientationLockState;
-@property(readonly) Class superclass;
 
 @end
 

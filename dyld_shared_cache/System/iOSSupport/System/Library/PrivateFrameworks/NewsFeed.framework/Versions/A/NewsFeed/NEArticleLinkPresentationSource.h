@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSString, NSURL;
 @protocol FCHeadlineProviding;
 
 @interface NEArticleLinkPresentationSource
 {
     id <FCHeadlineProviding> _headline;
-    NSURL *_url;
-    NSString *_selectedText;
 }
 
 + (double);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
-@property(readonly, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

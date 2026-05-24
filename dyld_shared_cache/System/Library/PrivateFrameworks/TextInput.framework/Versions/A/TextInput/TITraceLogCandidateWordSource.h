@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface TITraceLogCandidateWordSource
 {
     NSString *_wordSource;
-    double _probability;
-    double _linguisticContextProbability;
 }
 
 - (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
 - (double);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(nonatomic) double linguisticContextProbability; // @synthesize linguisticContextProbability=_linguisticContextProbability;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
 @property(retain, nonatomic) NSString *wordSource; // @synthesize wordSource=_wordSource;
 
 @end

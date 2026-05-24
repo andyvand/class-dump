@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexingContext, NSMutableArray, NSString;
+@class IMDIndexingContext;
 
 @interface IMDINInteractionMessageDonationJob
 {
     IMDIndexingContext *_context;
-    NSMutableArray *_interactions;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tellWalletThatExistingCardWasFilledInForm:(id)arg1 previouslyFilledVirtualCardNumbers: /* Error: Ran out of types for this method. */;
 - (void)ies from %ld;
 - (void)ansfer_state, is_outgoing, user_info, transfer_name, total_bytes, is_sticker, sticker_user_info, attribution_info, hide_attachment, ck_sync_state, ck_server_change_token_blob, ck_record_id, original_guid, is_commsafety_sensitive, emoji_image_content_identifier, emoji_image_short_description, preview_generation_state FROM attachment WHERE guid = ? ORDER BY ROWID DESC;;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *interactions; // @synthesize interactions=_interactions;
-@property(readonly) Class superclass;
 
 @end
 

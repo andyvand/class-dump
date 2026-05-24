@@ -5,5 +5,12 @@
 //
 
 @protocol NSURLSessionTaskDelegate
+
+@optional
+- (void)eadonly(%d) in config string.
+;
+- (void)N;
+- (void)basic_string;
+- (void);
 @end
 

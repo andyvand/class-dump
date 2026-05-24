@@ -5,5 +5,8 @@
 //
 
 @protocol BSXPCDecoding
+- (id)qa3;
+- (unsigned long long);
+- (struct CGSize);
 @end
 

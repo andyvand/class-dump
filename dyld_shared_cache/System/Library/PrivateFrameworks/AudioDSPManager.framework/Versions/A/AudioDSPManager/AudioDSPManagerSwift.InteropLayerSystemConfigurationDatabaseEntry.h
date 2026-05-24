@@ -7,13 +7,6 @@
 @interface AudioDSPManagerSwift.InteropLayerSystemConfigurationDatabaseEntry
 {
     id ioSemantic;
-    id dspSelection;
-    id graphFilePath;
-    id propStripFilePaths;
-    id tuningStripFilePaths;
-    id graphFlavor;
-    id auPresetOverrideConfig;
-    id properties;
 }
 
 - (id);

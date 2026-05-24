@@ -9,10 +9,10 @@
     struct ct_green_tea_logger_s *_logger;
 }
 
+- (void)o;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hX;
 - (id);
 - (struct ct_green_tea_logger_s *);
 

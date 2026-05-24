@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXStoryMultipartPanoramaParameters;
-@protocol PXAudioCueSource, PXStorySongResource;
+@class NSArray;
 
 @interface PXStoryConcreteThumbnailOnlyStyle
 {
     NSArray *_allowedClipCompositions;
-    NSString *_originalColorGradeCategory;
-    long long _customColorGradeKind;
-    CDStruct_1b6d18a9 _defaultDisplayAssetPresentationDuration;
-    CDStruct_1b6d18a9 _outroDuration;
 }
 
 - (CDStruct_cac3ced6);
@@ -27,16 +22,16 @@
 - (long long);
 - (void);
 - (void);
-- (CDStruct_bb38be21);
+- (CDStruct_e96db414);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
-- (CDStruct_4cef5b45);
+- (CDStruct_b9de0efa);
 - (double);
 - (id);
-- (CDStruct_273850af);
+- (CDStruct_2f782ce9);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -47,16 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsIncompleteTimelines;
-@property(readonly, nonatomic) id <PXAudioCueSource> cueSource;
-@property(readonly, nonatomic) long long customColorGradeKind; // @synthesize customColorGradeKind=_customColorGradeKind;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 defaultDisplayAssetPresentationDuration; // @synthesize defaultDisplayAssetPresentationDuration=_defaultDisplayAssetPresentationDuration;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultHorizontalMultipartPanoramaParameters;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultVerticalMultipartPanoramaParameters;
-@property(readonly, nonatomic) _Bool isCustomized;
-@property(readonly, nonatomic) NSString *originalColorGradeCategory; // @synthesize originalColorGradeCategory=_originalColorGradeCategory;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 outroDuration; // @synthesize outroDuration=_outroDuration;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource;
 
 @end
 

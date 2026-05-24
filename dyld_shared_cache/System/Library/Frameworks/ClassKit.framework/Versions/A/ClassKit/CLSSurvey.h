@@ -6,21 +6,13 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSDate, NSString;
-
 @interface CLSSurvey : CLSObject
 {
     long long _type;
-    NSString *_title;
-    NSString *_authorID;
-    NSString *_serverETag;
-    NSDate *_teacherLastModifiedDate;
-    NSDate *_studentFirstSubmissionDate;
-    long long _surveyUpdateStatus;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_deleteKeychainItemForUsername:service: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
@@ -30,19 +22,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_Concurrency.dylib;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)ClientCommand_DeviceOpen call failed result=0x%x
+;
+- (void)memory pool.;
+- (_Bool)RPCFileRead;
+- (id)h;
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void)Refresh;
 - (void);
 - (id);
 - (void);
@@ -50,18 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *authorID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *surveySteps;
-@property(readonly, nonatomic) long long surveyUpdateStatus;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long type;
 
 @end
 

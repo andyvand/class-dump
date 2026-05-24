@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol GCPhysicalInputSymbol
+- (NSString *);
 
 // Remaining properties
 @property(readonly) NSString *sfSymbolsName;

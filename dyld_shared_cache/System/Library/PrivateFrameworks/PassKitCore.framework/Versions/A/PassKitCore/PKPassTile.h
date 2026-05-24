@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPassTileMetadata, PKPassTileState;
+@class NSArray;
 
 @interface PKPassTile
 {
     _Bool _inProgress;
-    PKPassTileMetadata *_metadata;
-    NSString *_stateIdentifier;
-    PKPassTileState *_state;
-    NSArray *_tiles;
-    NSString *_axID;
-    NSString *_analyticsIdentifier;
 }
 
 + (id);
@@ -29,26 +23,20 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)kA;
+- (id)@b;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)dur_scans;
+- (void)pcieQueueState;
 - (void);
-- (void);
-- (_Bool)sactionWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)transactionSourceIdentifier:didRemoveTransactionWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)one:'%@';  /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *analyticsIdentifier; // @synthesize analyticsIdentifier=_analyticsIdentifier;
-@property(copy, nonatomic) NSString *axID; // @synthesize axID=_axID;
-@property(readonly, nonatomic, getter=isInProgress) _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property(readonly, nonatomic) PKPassTileMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) PKPassTileState *state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSString *stateIdentifier; // @synthesize stateIdentifier=_stateIdentifier;
 @property(copy, nonatomic) NSArray *tiles; // @synthesize tiles=_tiles;
 
 @end

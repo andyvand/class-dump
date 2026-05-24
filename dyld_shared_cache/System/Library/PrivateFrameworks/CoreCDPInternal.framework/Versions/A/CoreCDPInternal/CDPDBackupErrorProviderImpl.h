@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
-@protocol CDPStateUIProviderInternal;
+@class CDPContext;
 
 @interface CDPDBackupErrorProviderImpl
 {
     CDPContext *_context;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    unsigned long long _prevailingSecret;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)MorphingDragView;
+- (_Bool)StartPagePrivateRelayInPrivateBrowsingSectionProviderDelegate;
+- (void)SidebarButton;
+- (id)_ASWebAuthenticationSessionRequestServerDelegate;
+- (id)AutoFillCompletionUIPresentationController;
+- (void)ReaderNavigationDelegate;
+- (void)ReaderizedArticleFetcherNavigationDelegate;
+- (id)ReaderFontTableCellView;
+- (id)PrivacyReportController;
+- (id)ClosedTabOrWindowStateManager;
+- (id)SString",&,N,V_exporterBundleIdentifier;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

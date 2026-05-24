@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)WebView"16:24@32 /* Error: Ran out of types for this method. */;
 - (void)ì;
 - (void)(;
 

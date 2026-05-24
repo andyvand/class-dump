@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSString *string;
 }
 
-- (void);
+- (void):(unsigned short *)arg1;
 - (void);
 - (unsigned long long);
-- (id)h:(struct _NSZone *)arg1 ignore: /* Error: Ran out of types for this method. */;
+- (id)validatePath:(struct _NSZone *)arg1 ignore: /* Error: Ran out of types for this method. */;
 - (unsigned short)`AllowedSelector` in invalid
 configuration.;
 - (id) ¡¡¢£¤¤¤¤¤¤¤¥¦¦¦§¨©ªª«««¬¬¬¬¬¬¬¬­®¯°±±²²²³´µ¶¶···¸¸¹¹ºº»»¼¼¼½½½½½¾¿¿¿¿ÀÀÀÀÁÂÂÃÃÄÄÅÅÆÆÆÆÆÆÆÆÆÆÆÆÆÇÇÇÈÉÊËÌÍÎÏÐÐÑÑÑÑÑÒÓÓÓÓÔÕÕÕÖ×ØÙÙÚÛÛÛÜÜÜÝÞÞÞßßààáââãäåææççèéééêëììììííîîïððññòóóóóóóôôõöööööö÷÷øøøøùúúûûüüýýýýýýþÿÿÿ;

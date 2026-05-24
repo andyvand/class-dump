@@ -6,35 +6,20 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSArray, NSMutableDictionary, PKExtendedPhysicsBody;
-@protocol UICollisionBehaviorDelegate;
+@class NSArray;
 
 @interface UICollisionBehavior : UIDynamicBehavior
 {
     _Bool _usesImplicitBounds;
-    struct UIEdgeInsets _implicitBoundsInsets;
-    PKExtendedPhysicsBody *_implicitBoundsBody;
-    NSMutableDictionary *_boundaryBodies;
-    NSMutableDictionary *_boundaryPaths;
-    unsigned long long _collisionMode;
-    id <UICollisionBehaviorDelegate> _collisionDelegate;
-    unsigned int _groupVID;
-    unsigned int _groupBID;
-    struct {
-        unsigned int delegateBeganWithItem:1;
-        unsigned int delegateEndedWithItem:1;
-        unsigned int delegateBeganWithBoundary:1;
-        unsigned int delegateEndedWithBoundary:1;
-    } _collisionBehaviorFlags;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ceived from:(struct UIEdgeInsets)arg1 %@;
+- (void)malizedFamilyMemberHandles. Dropping Family message received from:(_Bool)arg1 %@;
+- (void)to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
+- (void)de count:(id)arg1 %@;
+- (void)s:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -46,12 +31,12 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,17 +46,13 @@
 - (void);
 - (id);
 - (id);
-- (void)rSizeChangeOfTextContainer:(id)arg1;
-- (id)omCoder;
+- (void)updateLayoutForSizeChangeOfTextContainer:(id)arg1;
+- (id)_linkedBeforeWhitetailAndInitializedFromCoder;
 - (void);
 - (void)'Ìi;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *boundaryIdentifiers;
-@property(nonatomic) __weak id <UICollisionBehaviorDelegate> collisionDelegate;
-@property(nonatomic) unsigned long long collisionMode;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) _Bool translatesReferenceBoundsIntoBoundary;
 
 @end
 

@@ -6,25 +6,23 @@
 
 #import <AuthenticationServices/ASCredentialRequestPaneViewController.h>
 
-@class NSProgressIndicator, NSTextField, NSTimer;
+@class NSTimer;
 
 @interface ASCredentialRequestCABLEConnectingViewController : ASCredentialRequestPaneViewController
 {
     NSTimer *_informativeTextTimer;
-    NSProgressIndicator *_activityIndicator;
-    NSTextField *_informativeTextLabel;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)O;
+- (id);
 - (id);
-- (id);
-- (id);
+- (void)test_firstUnlockCompleted;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)tableView:shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
+- (void)addHistoryOperation:forBackgroundLoad: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

@@ -7,6 +7,7 @@
 @interface CookingKit.UserInteractionEventHandler
 {
     id _$scope;
+    id;
 }
 
 @end

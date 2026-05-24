@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPlannedDestination, GEORouteHypothesis, NSError, NSObject, NSUUID, geo_isolater;
-@protocol OS_dispatch_source;
+@class GEOPlannedDestination;
 
 @interface GEORouteHypothesizer
 {
     GEOPlannedDestination *_plannedDestination;
-    unsigned long long _state;
-    _Bool _unableToFindRouteForOriginalTransportType;
-    GEORouteHypothesis *_currentHypothesis;
-    NSError *_currentError;
-    CDUnknownBlockType _updateHandler;
-    NSUUID *_uuid;
-    geo_isolater *_isolater;
-    _Bool _wakeForDelay;
-    NSObject<OS_dispatch_source> *_delayDispatchTimer;
 }
 
 + (_Bool);
@@ -70,29 +60,23 @@ P(
 - (void);
 - (id);
 - (void);
+- (id)orPredicateWithSubpredicates:(id)arg1;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)reservationInfo:makeReservationForSelectedTimeAtIndex: /* Error: Ran out of types for this method. */;
 - (void)²gÏejP@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *currentError; // @synthesize currentError=_currentError;
-@property(readonly, nonatomic) GEORouteHypothesis *currentHypothesis; // @synthesize currentHypothesis=_currentHypothesis;
-@property(readonly, nonatomic) GEOPlannedDestination *plannedDestination; // @synthesize plannedDestination=_plannedDestination;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) _Bool unableToFindRouteForOriginalTransportType; // @synthesize unableToFindRouteForOriginalTransportType=_unableToFindRouteForOriginalTransportType;
-@property(readonly, nonatomic) double willBeginHypothesizingInterval;
-@property(readonly, nonatomic) double willEndHypothesizingInterval;
 
 @end
 

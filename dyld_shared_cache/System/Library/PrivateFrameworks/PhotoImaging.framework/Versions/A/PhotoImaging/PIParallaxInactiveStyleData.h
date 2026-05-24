@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 @interface PIParallaxInactiveStyleData
 {
     NSDictionary *_configuration;
-    NSDictionary *_tuningParameters;
-    NSData *_data;
-    struct CGSize _imageSize;
 }
 
 + (id);
 - (id);
+- (id)leting legacy web extension data at:'%{sensitive}@' /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)setInputStrength: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, copy, nonatomic) NSDictionary *tuningParameters; // @synthesize tuningParameters=_tuningParameters;
 
 @end
 

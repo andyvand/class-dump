@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
+@protocol MTLTensor, MTLTexture;
 
 @protocol MTLBuffer
+- (long long)com.apple.Preview;
+- (id <MTLTexture>)finishRenderingNoTeardownForStroke;
+- (id <MTLTensor>)KeyboardController presentOrDismissIfPresented];
+- (unsigned long long);
+- (void)TO_TIME_FORMAT;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long gpuAddress;
 @property(readonly) unsigned long long length;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
-@property(readonly) long long sparseBufferTier;
 @end
 

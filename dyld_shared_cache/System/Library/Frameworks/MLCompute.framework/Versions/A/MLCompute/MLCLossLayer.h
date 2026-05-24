@@ -11,8 +11,6 @@
 @interface MLCLossLayer : MLCLayer
 {
     MLCLossDescriptor *_descriptor;
-    MLCTensor *_weights;
-    MLCTensor *_lossLabels;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -28,12 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initWithDevice:transpose:order:numberOfRightHandSides: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MLCLossDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 @property(retain, nonatomic) MLCTensor *lossLabels; // @synthesize lossLabels=_lossLabels;
-@property(readonly, retain, nonatomic) MLCTensor *weights; // @synthesize weights=_weights;
 
 @end
 

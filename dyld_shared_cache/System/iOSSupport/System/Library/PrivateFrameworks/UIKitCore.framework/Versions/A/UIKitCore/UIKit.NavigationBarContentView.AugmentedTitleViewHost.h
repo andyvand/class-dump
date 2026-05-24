@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id)32^@40;
-- (id)verHostManagerProvider;
+- (id)_UIPopoverHostManagerProvider;
 - (void)ÕÎüfl;
 
 @end

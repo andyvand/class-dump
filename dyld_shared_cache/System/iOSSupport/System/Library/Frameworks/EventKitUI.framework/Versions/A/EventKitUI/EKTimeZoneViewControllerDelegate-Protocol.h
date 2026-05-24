@@ -5,5 +5,6 @@
 //
 
 @protocol EKTimeZoneViewControllerDelegate
+- (void);
 @end
 

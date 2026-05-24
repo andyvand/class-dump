@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReaderOutputInternal, AVWeakReference, NSDictionary, NSString;
+@class AVAssetReaderOutputInternal;
 
 @interface AVAssetReaderOutput
 {
     AVAssetReaderOutputInternal *_internal;
 }
 
-+ (id);
++ (id)n;
 + (void)it rate strategy can only be one of:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (_Bool);
@@ -36,29 +36,23 @@
 - (int);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct opaqueCMSampleBuffer *);
+- (void)<Ժ;
+- (void)N{;
+- (void)v;
+- (struct opaqueCMSampleBuffer *)R;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct OpaqueFigAssetReader *);
 - (_Bool);
-- (id);
+- (id)TKSmartCardSlotNFCManaging;
 - (long long);
 - (_Bool)ded only by a NSXPCCoder;
 - (void)ion.representation;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysCopiesSampleData;
-@property(nonatomic, getter=_extractionID, setter=_setExtractionID:) int extractionID;
-@property(readonly, nonatomic, getter=_figAssetReaderExtractionOptions) NSDictionary *figAssetReaderExtractionOptions;
 @property(nonatomic, getter=hasProvider, setter=setHasProvider:) _Bool hasProvider;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(readonly, nonatomic, getter=_trimsSampleDurations) _Bool trimsSampleDurations;
-@property(readonly, nonatomic, getter=_weakReferenceToAssetReader) AVWeakReference *weakReferenceToAssetReader;
 
 @end
 

@@ -4,19 +4,3 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Named Structures
-
-struct os_trace_blob_s {
-    union {
-        char *ob_b;
-        void *ob_v;
-        char *ob_s;
-        char *ob_c;
-    } ;
-    unsigned int ob_len;
-    unsigned int ob_size;
-    unsigned int ob_maxsize;
-    unsigned short ob_flags;
-    _Bool ob_binary;
-};
-

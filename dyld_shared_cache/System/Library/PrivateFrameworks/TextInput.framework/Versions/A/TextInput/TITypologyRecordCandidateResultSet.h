@@ -6,13 +6,11 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TICandidateRequestToken, TIKeyboardCandidateResultSet, TIKeyboardState;
+@class TIKeyboardState;
 
 @interface TITypologyRecordCandidateResultSet : TITypologyRecord
 {
     TIKeyboardState *_keyboardState;
-    TIKeyboardCandidateResultSet *_resultSet;
-    TICandidateRequestToken *_requestToken;
 }
 
 + (_Bool);
@@ -22,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void), ?);
 - (id);
 - (void);
 - (id);
@@ -33,13 +31,11 @@
 ¾
 °
 ;
-- (id)ven;
+- (id)uneven;
 - (void)shabbyish;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(retain, nonatomic) TICandidateRequestToken *requestToken; // @synthesize requestToken=_requestToken;
-@property(retain, nonatomic) TIKeyboardCandidateResultSet *resultSet; // @synthesize resultSet=_resultSet;
 
 @end
 

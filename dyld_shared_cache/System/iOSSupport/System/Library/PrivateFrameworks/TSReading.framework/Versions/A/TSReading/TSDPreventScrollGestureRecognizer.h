@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDInteractiveCanvasController, UITouch;
+@class TSDInteractiveCanvasController;
 
 @interface TSDPreventScrollGestureRecognizer
 {
     TSDInteractiveCanvasController *mICC;
-    UITouch *mTouch;
-    UITouch *mSecondTouch;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)tion:(id)arg1 currentWordRange:(id)arg2 newWordRange:reasonToStop: /* Error: Ran out of types for this method. */;
+- (void)p_moveFromCharIndex:(id)arg1 tokenizerRef:(id)arg2 tokenizerRange:direction:currentWordRange:newWordRange:reasonToStop: /* Error: Ran out of types for this method. */;
 
 @end
 

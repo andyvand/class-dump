@@ -6,56 +6,43 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SSCalendarResultBuilder : SSResultBuilder
 {
     _Bool _isAllDay;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_calendarName;
-    NSString *_delegateCalendarName;
-    NSString *_eventIdentifier;
-    NSString *_eventName;
-    NSString *_location;
 }
 
-+ (id);
++ (id)"LPAnimatedImageTranscoder";
 + (_Bool);
 + (_Bool);
 + (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)8@"NSView"16;
+- (id)setInSenderContext: /* Error: Ran out of types for this method. */;
+- (id)removePlaceholderViews;
+- (id)removeObserver:name:object: /* Error: Ran out of types for this method. */;
+- (id)radioPlaybackInformationWithStoreIdentifier:storefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (id)previewImageForTransformer: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)selectedMicrophoneIdentifier;
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)h
+;
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)resentation;
-- (_Bool)ingServerSuggestionQuotaLocalStrong;
+- (void)dictionaryRepresentation;
+- (_Bool)IntentModelingServerSuggestionQuotaLocalStrong;
 - (void)ºéÿºöñx_	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *calendarName; // @synthesize calendarName=_calendarName;
-@property(retain, nonatomic) NSString *delegateCalendarName; // @synthesize delegateCalendarName=_delegateCalendarName;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(retain, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(retain, nonatomic) NSString *location; // @synthesize location=_location;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

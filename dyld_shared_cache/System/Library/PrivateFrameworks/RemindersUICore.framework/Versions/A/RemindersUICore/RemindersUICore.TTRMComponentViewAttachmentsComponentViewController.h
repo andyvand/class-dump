@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTableView;
+@class NSTableView;
 
 @interface RemindersUICore.TTRMComponentViewAttachmentsComponentViewController
 {
     id isEnabled;
-    NSTableView *tableView;
-    void tableViewLeadingConstraint;
-    id attachmentCellIdentifier;
-    id emptyCellIdentifier;
-    id attachments;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSTableView *tableView; // @synthesize tableView;
-@property(nonatomic) __weak NSLayoutConstraint *tableViewLeadingConstraint; // @synthesize tableViewLeadingConstraint;
 
 @end
 

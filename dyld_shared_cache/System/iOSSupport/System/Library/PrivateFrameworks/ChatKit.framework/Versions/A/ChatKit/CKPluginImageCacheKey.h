@@ -9,22 +9,20 @@
 @interface CKPluginImageCacheKey
 {
     NSString *_stringIdentifier;
-    long long _integerIdentifier;
 }
 
-+ (id);
-- (void);
-- (void);
-- (long long);
++ (id)AXAnnotationLabel;
+- (void)didStopSharing:(id)arg1 recordID:accountID: /* Error: Ran out of types for this method. */;
+- (void)accessibilityRole;
+- (long long)assetWriter;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)?;
+- (unsigned long long)0~;
 - (_Bool);
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) long long integerIdentifier; // @synthesize integerIdentifier=_integerIdentifier;
 @property(retain, nonatomic) NSString *stringIdentifier; // @synthesize stringIdentifier=_stringIdentifier;
 
 @end

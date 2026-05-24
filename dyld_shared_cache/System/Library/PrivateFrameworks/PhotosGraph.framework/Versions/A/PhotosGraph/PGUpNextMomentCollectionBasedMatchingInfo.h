@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, PGGraphFeatureNodeCollection, PGGraphMeaningNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSceneNodeCollection;
+@class PGGraphMomentNodeCollection, PGGraphPersonNodeCollection;
 
 @interface PGUpNextMomentCollectionBasedMatchingInfo
 {
     PGGraphPersonNodeCollection *_personNodes;
-    PGGraphSceneNodeCollection *_sceneNodes;
-    PGGraphMeaningNodeCollection *_meaningNodes;
-    _Bool _isTripMemory;
-    CLLocation *_representativeLocation;
-    NSDate *_representativeDate;
-    _Bool _isTripMemoryIsResolved;
-    _Bool _representativeLocationIsResolved;
-    _Bool _representativeDateIsResolved;
-    PGGraphMomentNodeCollection *_momentNodes;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setLaunchPadGridElementController:(id)arg1 ,V__launchPadGridElementController;
++ (id)ller;
++ (id)pplicationController;
++ (id)attributedStringWithAttachment:(id)arg1;
++ (id)roller",R,W,N,V_applicationController;
++ (id)nController",&,N,V__lastApplicationController;
++ (id)r;
++ (id)tionController:(id)arg1 ,V__spotlightApplicationController;
++ (id)plicationController;
++ (id)FrontmostApplicationController:(id)arg1 ,V__frontmostApplicationController;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -45,22 +36,7 @@
 - (id)ng session based on timeout:User considered at the same location: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTripMemory;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) NSDate *representativeDate;
-@property(readonly, nonatomic) CLLocation *representativeLocation;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
-@property(readonly) Class superclass;
 
 @end
 

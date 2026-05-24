@@ -9,25 +9,19 @@
 @interface SFSharedWebCredentialsDatabaseEntry
 {
     _Bool _approved;
-    NSString *_domain;
-    NSString *_appID;
-    long long _service;
 }
 
 - (id);
 - (id);
-- (_Bool);
-- (long long);
+- (_Bool)_sortByWebsiteMenuItemWithCount: /* Error: Ran out of types for this method. */;
+- (long long)StartPageCollectionLayoutEnvironment;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
-@property(readonly, nonatomic, getter=isApproved) _Bool approved; // @synthesize approved=_approved;
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) long long service; // @synthesize service=_service;
 
 @end
 

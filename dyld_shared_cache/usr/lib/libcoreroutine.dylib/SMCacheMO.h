@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSOrderedSet, NSSet, NSUUID, SMDeviceStatusMO, SMInitiatorContactMO, SMLocationMO, SMReceiverContactMO;
+@class NSUUID;
 
 @interface SMCacheMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)stringWithFormat:(id)arg1;
++ (id)storePCSIdentity:(id)arg1 identity:(id)arg2 complete: /* Error: Ran out of types for this method. */;
++ (id)smart;
++ (id)slide;
++ (id)on %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *destinationMapItem; // @dynamic destinationMapItem;
-@property(retain, nonatomic) SMDeviceStatusMO *deviceStatus; // @dynamic deviceStatus;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) SMInitiatorContactMO *initiatorContactPhone; // @dynamic initiatorContactPhone;
-@property(retain, nonatomic) SMInitiatorContactMO *initiatorContactWatch; // @dynamic initiatorContactWatch;
-@property(retain, nonatomic) NSSet *locationsDuringSession; // @dynamic locationsDuringSession;
-@property(retain, nonatomic) SMLocationMO *lockLocation; // @dynamic lockLocation;
-@property(retain, nonatomic) SMLocationMO *mostRecentLocation; // @dynamic mostRecentLocation;
-@property(retain, nonatomic) SMLocationMO *offWristLocation; // @dynamic offWristLocation;
-@property(retain, nonatomic) SMLocationMO *parkedCarLocation; // @dynamic parkedCarLocation;
-@property(retain, nonatomic) SMReceiverContactMO *receiverContactPhone; // @dynamic receiverContactPhone;
-@property(retain, nonatomic) SMReceiverContactMO *receiverContactWatch; // @dynamic receiverContactWatch;
-@property(retain, nonatomic) SMLocationMO *startingLocation; // @dynamic startingLocation;
-@property(retain, nonatomic) SMLocationMO *unlockLocation; // @dynamic unlockLocation;
-@property(retain, nonatomic) NSOrderedSet *workoutEvents; // @dynamic workoutEvents;
 
 @end
 

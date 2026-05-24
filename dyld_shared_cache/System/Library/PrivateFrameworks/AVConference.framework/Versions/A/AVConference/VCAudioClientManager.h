@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioClientManager
 {
     NSMutableDictionary *_clientList;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
 }
 
 + (id)EDHistoryAndPrimaryPayloadHistory:] /* Error: Ran out of types for this method. */;
@@ -30,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 
 @end
 

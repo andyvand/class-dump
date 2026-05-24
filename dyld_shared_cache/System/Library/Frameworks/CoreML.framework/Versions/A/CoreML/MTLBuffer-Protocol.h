@@ -7,11 +7,11 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
+- (id <MTLBuffer>)*s;
+- (void);
+- (void *);
 
 // Remaining properties
-@property(readonly) unsigned long long gpuAddress;
 @property(readonly) unsigned long long length;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
-@property(readonly) long long sparseBufferTier;
 @end
 

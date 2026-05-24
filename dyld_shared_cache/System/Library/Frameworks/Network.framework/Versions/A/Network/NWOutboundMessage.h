@@ -18,7 +18,6 @@
 - (void)group_descriptor, dumping backtrace:(double)arg1 %{public}s;
 
 // Remaining properties
-@property(nonatomic) unsigned long long expirationMilliseconds;
 @property(nonatomic) double relativePriority;
 
 @end

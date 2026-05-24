@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)titleForegroundColor;
+- (id)setTagArticleScoreCoeffIPad:(struct CGRect)arg1;
 
 @end
 

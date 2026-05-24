@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NWPrivilegedHelper
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_listener;
-    NSMutableDictionary *_handlers;
-    NSMutableSet *_allKnownEntitlementSet;
-    NSMutableArray *_allKnownEntitlementGroup;
 }
 
+- (void)cted Rows;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)N;
+- (id)t->cend();
 - (id)À;
 - (id)ublic}s vasprintf("%{public}s") returned %d failed, dumping backtrace:%{public}s /* Error: Ran out of types for this method. */;
 - (void):(CDUnknownFunctionPointerType)arg1 );
-- (_Bool)0;
+- (_Bool)c0;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *allKnownEntitlementGroup; // @synthesize allKnownEntitlementGroup=_allKnownEntitlementGroup;
-@property(retain) NSMutableSet *allKnownEntitlementSet; // @synthesize allKnownEntitlementSet=_allKnownEntitlementSet;
-@property(retain) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;
-@property(retain) NSObject<OS_xpc_object> *listener; // @synthesize listener=_listener;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

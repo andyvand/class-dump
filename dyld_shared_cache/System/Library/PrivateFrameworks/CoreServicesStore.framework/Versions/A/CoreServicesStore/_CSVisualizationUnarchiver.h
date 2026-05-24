@@ -9,15 +9,12 @@
 @interface _CSVisualizationUnarchiver
 {
     struct __sFILE *_fileHandle;
-    unsigned int _closeWhenDone:1;
-    unsigned int _finishedReading:1;
-    id <_CSVisualizationUnarchiverDelegate> _delegate;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct __sFILE *);

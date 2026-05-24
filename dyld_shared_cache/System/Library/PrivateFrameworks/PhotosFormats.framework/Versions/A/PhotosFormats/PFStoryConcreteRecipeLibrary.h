@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface PFStoryConcreteRecipeLibrary
 {
     long long _kind;
-    NSURL *_url;
 }
 
 - (_Bool);
@@ -17,13 +14,11 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id);
+- (void)clientPIP:willCloseWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 + (_Bool)°±4È²È³( ´³µH´¶¤Æ·ÌÛøÜ¸ä¹Låºäå»xæí;
 - (id);
 - (id);
-- (id);
+- (id)tControlModeRequest];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)MDCharacteristicNotificationRegistry;
+- (void)HMDCharacteristicNotificationRegistry;
 
 // Remaining properties
 @property(readonly, copy) NSNumber *mostRecentReachability; // @synthesize mostRecentReachability=_mostRecentReachability;

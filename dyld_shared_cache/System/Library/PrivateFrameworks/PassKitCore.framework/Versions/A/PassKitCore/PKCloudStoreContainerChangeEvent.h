@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSString;
 
 @interface PKCloudStoreContainerChangeEvent
 {
     NSString *_identifier;
-    unsigned long long _changeType;
-    unsigned long long _eventType;
-    NSDate *_timestamp;
-    NSString *_containerIdentifier;
-    NSString *_beginIntervalEventIdentifier;
-    NSString *_operationGroupName;
-    NSString *_operationGroupNameSuffix;
-    NSString *_errorDescription;
-    NSData *_changeToken;
-    NSString *_stateName;
-    NSArray *_objectNames;
-    double _timeInterval;
 }
 
 + (id);
@@ -30,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)J;
 + (_Bool)1Â0@ù
 × ;
 + (id)õÿIj";
@@ -38,21 +26,21 @@
 - (void);
 - (void);
 - (void);
+- (id)9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)qI;
 - (void);
 - (id);
 - (void);
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)hasIsManualDowngrade;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -61,9 +49,9 @@
 × ;
 - (void)!ÔEùñð%°1Â0@ù
 × ;
-- (unsigned long long)ficationForMarket:passUniqueID: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)mberOfPublicStyles;
+- (unsigned long long)postUpgradedPassNotificationForMarket:passUniqueID: /* Error: Ran out of types for this method. */;
+- (id)IN_APP_PAYMENT_ERROR_TRY_DIFFERENT_PAYMENT_CARD;
+- (void)numberOfPublicStyles;
 - (id)m.apple.stockholm.express.exit;
 - (void)Target"8B16@"NSError"20;
 - (double)gStepIngestPass];
@@ -74,19 +62,7 @@
 - (id)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *beginIntervalEventIdentifier; // @synthesize beginIntervalEventIdentifier=_beginIntervalEventIdentifier;
-@property(copy, nonatomic) NSData *changeToken; // @synthesize changeToken=_changeToken;
-@property(nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;
-@property(copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(copy, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *objectNames; // @synthesize objectNames=_objectNames;
-@property(copy, nonatomic) NSString *operationGroupName; // @synthesize operationGroupName=_operationGroupName;
-@property(copy, nonatomic) NSString *operationGroupNameSuffix; // @synthesize operationGroupNameSuffix=_operationGroupNameSuffix;
-@property(copy, nonatomic) NSString *stateName; // @synthesize stateName=_stateName;
-@property(nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

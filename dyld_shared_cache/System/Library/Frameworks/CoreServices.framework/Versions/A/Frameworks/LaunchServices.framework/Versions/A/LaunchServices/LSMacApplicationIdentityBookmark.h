@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LSMacApplicationIdentityBookmark
 {
     NSURL *_URL;
-    NSString *_bundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)TLFunction"16@"NSArray"24Q32^@40;
 - (id);
 - (unsigned long long);
 - (_Bool);

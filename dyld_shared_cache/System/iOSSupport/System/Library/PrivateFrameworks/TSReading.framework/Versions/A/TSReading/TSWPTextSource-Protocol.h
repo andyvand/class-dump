@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, TSWPAttachment, TSWPCharacterStyle, TSWPSmartField;
 
 @protocol TSWPTextSource
+- (unsigned long long)operties>"8;
+- (NSArray *)MPMusicPlayerQueueDescriptor;
+- (TSWPSmartField *)ntifiers=%@>;
+- (id)Continuity;
+- (_Bool)currentTime:(unsigned long long)arg1;
+- (double);
+- (TSWPAttachment *);
+- (TSWPCharacterStyle *);
 
 @optional
-- (NSString *);
+- (_Bool)<\;
+- (long long);
 @end
 

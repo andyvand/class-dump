@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TRIDefaultFactorProvider, TRIFactorsState, TRITrackingId, _PASLock;
-@protocol OS_dispatch_queue, TRIPaths;
+@class TRITrackingId;
+@protocol TRIPaths;
 
 @interface TRIClient
 {
     id <TRIPaths> _paths;
-    TRIDefaultFactorProvider *_defaultFactorProvider;
-    int _projectId;
-    double _staleFactorsUsageGracePeriod;
-    _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    TRIFactorsState *_factorsState;
-    id _logger;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TRITrackingId *trackingId;
 @end
 

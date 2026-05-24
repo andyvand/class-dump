@@ -7,9 +7,10 @@
 @class NSArray;
 
 @protocol _INPBAddCallParticipantIntentResponse
+- (void);
+- (NSArray *)|;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *invites;
-@property(readonly, nonatomic) unsigned long long invitesCount;
 @end
 

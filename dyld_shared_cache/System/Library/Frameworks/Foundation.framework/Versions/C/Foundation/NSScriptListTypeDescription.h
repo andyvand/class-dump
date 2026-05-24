@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 - (SEL);
 - (SEL);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id);
-- (id);
+- (id)9;
 - (unsigned int);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

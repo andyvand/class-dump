@@ -5,5 +5,8 @@
 //
 
 @protocol AKiCDPRecoveryKeyDelegate
+- (void);
+- (void);
+- (_Bool);
 @end
 

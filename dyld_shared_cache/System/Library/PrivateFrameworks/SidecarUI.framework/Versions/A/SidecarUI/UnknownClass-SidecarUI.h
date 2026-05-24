@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (SidecarUI)
-- (id);
+- (id)affineTransformFlatteningOriginalModelExif:withOriginalModelSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedDevicesTitle;

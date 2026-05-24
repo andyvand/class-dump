@@ -6,29 +6,17 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKModifySubscriptionsOperationInfo, NSArray, NSMutableArray, NSMutableDictionary, NSString;
 @protocol CKModifySubscriptionsOperationCallbacks;
 
 @interface CKModifySubscriptionsOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _perSubscriptionSaveBlock;
-    CDUnknownBlockType _perSubscriptionDeleteBlock;
-    CDUnknownBlockType _modifySubscriptionsCompletionBlock;
-    NSArray *_subscriptionsToSave;
-    NSArray *_subscriptionIDsToDelete;
-    NSMutableArray *_savedSubscriptions;
-    NSMutableArray *_deletedSubscriptionIDs;
-    NSMutableDictionary *_subscriptionsBySubscriptionIDs;
-    NSMutableDictionary *_subscriptionErrors;
-    CDUnknownBlockType _perSubscriptionSaveBlock_wrapper;
-    CDUnknownBlockType _perSubscriptionDeleteBlock_wrapper;
-    CDUnknownBlockType _modifySubscriptionsCompletionBlock_wrapper;
 }
 
 + (SEL);
 + (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)96o!;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -40,7 +28,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
@@ -61,22 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKModifySubscriptionsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType modifySubscriptionsCompletionBlock; // @synthesize modifySubscriptionsCompletionBlock=_modifySubscriptionsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType modifySubscriptionsCompletionBlock_wrapper; // @synthesize modifySubscriptionsCompletionBlock_wrapper=_modifySubscriptionsCompletionBlock_wrapper;
-@property(readonly, nonatomic) CKModifySubscriptionsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionDeleteBlock; // @synthesize perSubscriptionDeleteBlock=_perSubscriptionDeleteBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionDeleteBlock_wrapper; // @synthesize perSubscriptionDeleteBlock_wrapper=_perSubscriptionDeleteBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionSaveBlock; // @synthesize perSubscriptionSaveBlock=_perSubscriptionSaveBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionSaveBlock_wrapper; // @synthesize perSubscriptionSaveBlock_wrapper=_perSubscriptionSaveBlock_wrapper;
-@property(copy, nonatomic) NSArray *subscriptionIDsToDelete; // @synthesize subscriptionIDsToDelete=_subscriptionIDsToDelete;
-@property(copy, nonatomic) NSArray *subscriptionsToSave; // @synthesize subscriptionsToSave=_subscriptionsToSave;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.LayeredMediaLayerProcessorRequest
 {
     id cacheIdentifier;
-    id size;
-    id scale;
-    id assetHandles;
-    id assetHandle;
 }
 
 @end

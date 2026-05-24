@@ -7,44 +7,32 @@
 @interface AWDCoreRoutinePersistenceMirroringResetSync
 {
     unsigned long long _timestamp;
-    int _code;
-    int _reason;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int code:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
-- (int);
+- (int)@;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`K;
 - (_Bool);
-- (_Bool);
+- (_Bool)!	;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)j;
 - (int);
-- (void)DifferentInfra:(_Bool)arg1;
-- (void)eKitError;
+- (void)setCachedPeersDifferentInfra:(_Bool)arg1;
+- (void)_gameKitError;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasReason;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

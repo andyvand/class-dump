@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMOneTimeCodeAccelerator, IMOneTimeCodeAccelerator, NSHashTable, NSMapTable, NSMutableDictionary, NSObject, NSTimer, WBSAutoFillAssociatedDomainsManager;
-@protocol OS_dispatch_queue;
+@class IMOneTimeCodeAccelerator, WBSAutoFillAssociatedDomainsManager;
 
 @interface SFAppAutoFillOneTimeCodeProvider
 {
     IMOneTimeCodeAccelerator *_messagesOneTimeCodeAccelerator;
-    NSMutableDictionary *_currentReceivedOneTimeCodesBySource;
-    EMOneTimeCodeAccelerator *_mailOneTimeCodeAccelerator;
-    _Bool _isOneTimeCodeAutoDeletionEnabled;
-    NSHashTable *_observers;
-    NSMapTable *_generatorObservers;
-    NSMutableDictionary *_test_overrideAppIdentifierToIsWebBrowser;
-    NSMutableDictionary *_test_overrideAppIdentifierToAssociatedDomainEntries;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSTimer *_generatorTimer;
-    WBSAutoFillAssociatedDomainsManager *_associatedDomainsManager;
 }
 
-- (id);
+- (id)rivate}@;
 - (void);
-- (void);
+- (void)to be an object or null.;
 - (id);
 - (void);
 - (_Bool);
@@ -34,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -45,31 +34,30 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)by client to look up the domain for a nil or empty string;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)MajorDelayPeriod;
+- (void)automaticallyInstallSystemAndSecurityUpdates;
 - (long long);
+- (id)P;
 - (id);
 - (id);
-- (id);
+- (void)NSt3__16vectorIiNS_9allocatorIiEEEE;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) WBSAutoFillAssociatedDomainsManager *associatedDomainsManager; // @synthesize associatedDomainsManager=_associatedDomainsManager;
-@property(nonatomic) _Bool isOneTimeCodeAutoDeletionEnabled;
 
 @end
 

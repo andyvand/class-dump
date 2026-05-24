@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutRect, NSString;
+@class NSLayoutRect;
 
 @interface NSLayoutRectRule
 {
     NSLayoutRect *_firstLayoutRect;
-    NSLayoutRect *_secondLayoutRect;
-    long long _relation;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)K;
+- (void)MLPlatformUtils;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)&;
 - (void);
 - (_Bool);
 - (long long);
@@ -27,18 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSLayoutRect *firstLayoutRect; // @synthesize firstLayoutRect=_firstLayoutRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property long long relation; // @synthesize relation=_relation;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly, copy) NSLayoutRect *secondLayoutRect; // @synthesize secondLayoutRect=_secondLayoutRect;
-@property(readonly) Class superclass;
 
 @end
 

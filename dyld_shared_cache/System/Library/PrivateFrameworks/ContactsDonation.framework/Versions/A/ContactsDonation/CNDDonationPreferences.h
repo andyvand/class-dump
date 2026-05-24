@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
-@protocol CNDonationPreferencesLogger;
+@class NSNotificationCenter;
 
 @interface CNDDonationPreferences
 {
     NSNotificationCenter *_notificationCenter;
-    id <CNDonationPreferencesLogger> _logger;
-    CDUnknownBlockType _donationPreferenceCheckingBlock;
-    CDUnknownBlockType _donationPreferenceSettingBlock;
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)ICDeviceManagerProtocol;
+- (_Bool)ICScannerFunctionalUnitPositiveTransparency;
+- (id)NSNetServiceDelegate;
+- (CDUnknownBlockType)ICScannerFeatureEnumerationProps;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)_granularity;
 - (id);
-- (id);
+- (id)oundation.framework/Versions/C/Foundation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CDUnknownBlockType donationPreferenceCheckingBlock; // @synthesize donationPreferenceCheckingBlock=_donationPreferenceCheckingBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType donationPreferenceSettingBlock; // @synthesize donationPreferenceSettingBlock=_donationPreferenceSettingBlock;
-@property(nonatomic, getter=isDonationsEnabled) _Bool donationsEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNDonationPreferencesLogger> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAttSiriAudioSessionStateClient, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSAggressiveECModeHandler
 {
     _Bool _readThisOrVoiceOverSessionActive;
-    _Bool _inAttendingWindow;
-    _Bool _aggressiveEchoCancellationApplied;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAttSiriAudioSessionStateClient *_siriStateClient;
-    long long _echoCancellationReason;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -34,24 +29,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)faceObservationWithRequestRevision:(id)arg1 unalignedBoundingBox:alignedBoundingBox: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)realis;
+- (void)_triggeredTwoShotBorealis;
 
 // Remaining properties
-@property(nonatomic) _Bool aggressiveEchoCancellationApplied; // @synthesize aggressiveEchoCancellationApplied=_aggressiveEchoCancellationApplied;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long echoCancellationReason; // @synthesize echoCancellationReason=_echoCancellationReason;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inAttendingWindow; // @synthesize inAttendingWindow=_inAttendingWindow;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool readThisOrVoiceOverSessionActive; // @synthesize readThisOrVoiceOverSessionActive=_readThisOrVoiceOverSessionActive;
-@property(retain, nonatomic) CSAttSiriAudioSessionStateClient *siriStateClient; // @synthesize siriStateClient=_siriStateClient;
-@property(readonly) Class superclass;
 
 @end
 

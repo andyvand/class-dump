@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AKPrivateEmailUIProvider;
 
 @interface AKPrivateEmailClientImpl
@@ -19,13 +18,6 @@
 - (id)2.ü@å%Ö©SÂþÑ¦&MpÁeïFTFY¡|>¬EÏ¢ççsï¬1ÇÔÄptur\mC;÷E;ÎöxôÞâÁ ~wÇ8#§4Ä£ßËC}¤ºé@	H>§!0£v){àu²¢VÚ©«òìê0M\ñ5ú2Ü=¤Èù©~}°37~KÂ+êt}é¬Ù_K#¡ª¯;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <AKPrivateEmailUIProvider> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end

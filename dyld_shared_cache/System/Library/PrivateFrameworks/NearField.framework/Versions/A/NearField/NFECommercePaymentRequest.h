@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface NFECommercePaymentRequest
 {
     unsigned char _merchantCapabilities;
-    unsigned int _unpredictableNumber;
-    NSString *_appletIdentifier;
-    NSData *_merchantData;
-    NSString *_currencyCode;
-    NSString *_countryCode;
-    NSDecimalNumber *_transactionAmount;
-    NSDate *_transactionDate;
-    NSData *_networkMerchantIdentifier;
 }
 
 + (_Bool);
-- (unsigned int);
+- (unsigned int)16@?0@"ABUserActivityScore"8;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,8 +25,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)hasPatternId;
+- (id)deletePgModelInferenceContext;
 - (void);
 - (id);
 - (void);
@@ -46,14 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appletIdentifier; // @synthesize appletIdentifier=_appletIdentifier;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) unsigned char merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
-@property(retain, nonatomic) NSData *merchantData; // @synthesize merchantData=_merchantData;
-@property(retain, nonatomic) NSData *networkMerchantIdentifier; // @synthesize networkMerchantIdentifier=_networkMerchantIdentifier;
-@property(retain, nonatomic) NSDecimalNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(retain, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
-@property(nonatomic) unsigned int unpredictableNumber; // @synthesize unpredictableNumber=_unpredictableNumber;
 
 @end
 

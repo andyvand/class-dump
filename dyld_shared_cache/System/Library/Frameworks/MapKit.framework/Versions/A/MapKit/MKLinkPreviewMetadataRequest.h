@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, _MKURLParser;
+@class NSURL;
 
 @interface MKLinkPreviewMetadataRequest
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    CDUnknownBlockType _completionHandler;
-    _MKURLParser *_parser;
-    NSURL *_url;
 }
 
 - (void);
@@ -27,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void)2@0:(id)arg1 8@"NSArray"16@?<v@?@"NSString">24;
 - (void);
 - (void);
 - (void);
@@ -38,18 +34,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)clearFalseFirstPassTriggersPerHour;
 - (id);
 - (id);
 - (_Bool)±*1Â0@ù
 × ;
-- (void)tring;
+- (void)hasLineColorString;
 - (_Bool)d;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

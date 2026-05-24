@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitPrice, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTransitSurchargeUnit
 {
     PBUnknownFields *_unknownFields;
-    GEOTransitPrice *_price;
 }
 
-+ (_Bool);
++ (_Bool)setNavigationSettings:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -20,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)notifyDaemonStateChanged:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,15 +27,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)unt:source: /* Error: Ran out of types for this method. */;
-- (id)TransitSet;
+- (id)initWithCoordinate:radius:poiCategoryFilter:maxResultCount:source: /* Error: Ran out of types for this method. */;
+- (id)_riseTransitSet;
 - (id)stener"8Q16^B24;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPrice;
-@property(retain, nonatomic) GEOTransitPrice *price;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

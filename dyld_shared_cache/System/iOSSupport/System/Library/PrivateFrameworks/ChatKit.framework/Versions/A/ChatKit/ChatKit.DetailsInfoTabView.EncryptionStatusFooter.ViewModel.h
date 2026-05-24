@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.EncryptionStatusFooter.ViewModel
 {
     id conversation;
-    id _ktChatState;
-    id _$observationRegistrar;
 }
 
 - (void);

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMIFAutocompleteEntryClient, GEOMIFAutocompleteEntryServer, GEOPDMIFAutocompleteEntry;
-
 @interface GEOMIFAutocompleteEntry
 {
     long long _type;
-    GEOMIFAutocompleteEntryClient *_clientEntry;
-    GEOMIFAutocompleteEntryServer *_serverEntry;
-    double _rankedScore;
-    GEOPDMIFAutocompleteEntry *_pdAutocompleteEntry;
 }
 
 - (void);
@@ -22,16 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)contentsOfDirectoryAtURL:(double)arg1 includingPropertiesForKeys:options: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
+- (long long)shouldUpdateEstimatedTravelTimeForNewOrigin: /* Error: Ran out of types for this method. */;
 - (void)ü9ÿÂ¾6¸*3;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMIFAutocompleteEntryClient *clientEntry; // @synthesize clientEntry=_clientEntry;
-@property(retain, nonatomic) GEOPDMIFAutocompleteEntry *pdAutocompleteEntry; // @synthesize pdAutocompleteEntry=_pdAutocompleteEntry;
-@property(nonatomic) double rankedScore; // @synthesize rankedScore=_rankedScore;
-@property(readonly, nonatomic) GEOMIFAutocompleteEntryServer *serverEntry; // @synthesize serverEntry=_serverEntry;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

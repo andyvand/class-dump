@@ -7,32 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailPresenter_swiftUI
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id listPickerInteractor;
-    id $__lazy_storage_$_importableTypesForAttachments;
-    id moduleState;
-    id router;
-    id displayUpdater;
-    id presenterCapability;
-    id locationPickerModule;
-    id privacyChecker;
-    id pasteboardContentImporter;
-    id timeZoneOverrideCapability;
-    id userActivityCapability;
-    id urgentAlertCapability;
-    id inCellEditingPresenterHelper;
-    id titleEditingPresenter;
-    id notesEditingPresenter;
-    id editingSessionSharedProperties;
-    id listPickerViewModel;
-    id configuration;
-    id savesOnCommit;
-    id frozenViewModelBeforeCancelingChanges;
-    id completionState;
-    id deferredUpdatesCancellable;
-    id itemProvidersLoadDataCancellable;
-    id lastHashtagEditorModuleState;
 }
 
 @end

@@ -6,30 +6,21 @@
 
 #import <TSReading/TSDDrawableLayout.h>
 
-@class NSString, TSWPShapeInfo, TSWPShapeLayout;
+@class TSWPShapeInfo, TSWPShapeLayout;
 
 @interface TSWPTextHostLayout : TSDDrawableLayout
 {
     TSWPShapeInfo *_editingShapeInfo;
-    TSWPShapeLayout *_editingShapeLayout;
 }
 
-- (void);
+- (void)f file asset is invalid;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TSWPShapeInfo *editingShape; // @synthesize editingShape=_editingShapeInfo;
 @property(readonly, nonatomic) TSWPShapeLayout *editingShapeLayout; // @synthesize editingShapeLayout=_editingShapeLayout;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

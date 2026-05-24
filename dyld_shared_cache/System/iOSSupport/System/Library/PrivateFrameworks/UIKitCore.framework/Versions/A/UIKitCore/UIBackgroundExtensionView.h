@@ -9,10 +9,6 @@
 @interface UIBackgroundExtensionView : UIView
 {
     id isObservingContentViewGeometry;
-    UIView *contentView;
-    id _disableBlurEffects;
-    _Bool automaticallyPlacesContentView;
-    id effectsView;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)UINSFontPickerControllerConfiguration;
 - (void)InputDestination queue_keyboardUIDidChange:(id)arg1 onComplete:]  Keyboard UI did change:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);

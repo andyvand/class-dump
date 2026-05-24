@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INTimer, NSNumber, NSString;
+@class INTimer;
 
 @interface INResumeTimerIntent : INIntent
 {
@@ -21,24 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
-- (void);
+- (void)failedToGenerateThumbnailOfType:(id)arg1 forRequestWithUUID:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *resumeMultiple;
-@property(readonly) Class superclass;
 @property(readonly, copy) INTimer *targetTimer;
 
 @end

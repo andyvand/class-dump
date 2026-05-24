@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNFuture, CNUIIDSAvailabilityProvider, ContactsUI.FindMyLocateSession, NSObject, NSSet;
-@protocol CNCancelable, CNSchedulerProvider, CNShareLocationProtocol, OS_dispatch_queue;
+@class CNContact, ContactsUI.FindMyLocateSession;
 
 __attribute__((visibility("hidden")))
 @interface CNShareLocationController
 {
     CNContact *_contact;
-    NSObject<CNShareLocationProtocol> *_shareLocationDelegate;
-    ContactsUI.FindMyLocateSession *_findMyLocateSession;
-    NSSet *_handles;
-    CNUIIDSAvailabilityProvider *_idsAvailabilityProvider;
-    id <CNCancelable> _bestPropertyCancelable;
-    CNFuture *_bestPropertyFuture;
-    id <CNSchedulerProvider> _schedulerProvider;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,27 +36,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)@;
+- (void);
+- (id)_TtCs12_SwiftObject;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void)ContactAction;
+- (void)_updateExistingContactAction;
 - (void),V_healthStoreManager;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> bestPropertyCancelable; // @synthesize bestPropertyCancelable=_bestPropertyCancelable;
-@property(retain, nonatomic) CNFuture *bestPropertyFuture; // @synthesize bestPropertyFuture=_bestPropertyFuture;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) ContactsUI.FindMyLocateSession *findMyLocateSession; // @synthesize findMyLocateSession=_findMyLocateSession;
-@property(retain, nonatomic) NSSet *handles; // @synthesize handles=_handles;
-@property(readonly, nonatomic) CNUIIDSAvailabilityProvider *idsAvailabilityProvider; // @synthesize idsAvailabilityProvider=_idsAvailabilityProvider;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic) __weak NSObject<CNShareLocationProtocol> *shareLocationDelegate; // @synthesize shareLocationDelegate=_shareLocationDelegate;
 
 @end
 

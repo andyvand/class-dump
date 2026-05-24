@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSATSTypesetter;
-
 @interface NSATSLineFragment
 {
     void *_line;
-    NSATSTypesetter *_typesetter;
-    struct _NSRange _glyphRange;
-    struct _NSRange _characterRange;
-    double _minPosition;
-    double _maxPosition;
-    long long _elasticCharIndex;
-    double _elasticRangeWidth;
-    unsigned int _hyphenGlyph;
-    double _hyphenGlyphWidth;
-    struct {
-        unsigned int _directionState:2;
-        unsigned int _drawsOutside:1;
-        unsigned int _standaloneAttachment:1;
-        unsigned int _wrappedByCluster:1;
-        unsigned int _reserved:27;
-    } _flags;
 }
 
 - (void);

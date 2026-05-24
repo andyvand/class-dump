@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AKPlatformView_Extensions)
-- (void);
+- (void);
 - (double);
 @end
 

@@ -7,7 +7,6 @@
 @interface NUPriority
 {
     long long _level;
-    double _order;
 }
 
 - (_Bool);
@@ -17,17 +16,14 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ql;
 - (_Bool);
 - (long long);
 - (double);
 - (long long)%À;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isHigh;
-@property(readonly, nonatomic) _Bool isLow;
 @property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) double order; // @synthesize order=_order;
 
 @end
 

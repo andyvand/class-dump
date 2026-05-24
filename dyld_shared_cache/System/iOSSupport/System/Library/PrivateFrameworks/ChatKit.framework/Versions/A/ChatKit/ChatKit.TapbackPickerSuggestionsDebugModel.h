@@ -7,10 +7,9 @@
 @interface ChatKit.TapbackPickerSuggestionsDebugModel
 {
     id _suggestionInput;
-    id _$observationRegistrar;
 }
 
-- (void);
+- (void)h;
 - (_Bool);
 - (id);
 - (void)notes.richtext;

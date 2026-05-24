@@ -9,13 +9,11 @@
 @interface MKTransitItemReferenceDateUpdater
 {
     struct os_unfair_lock_s _lock;
-    _Bool _active;
-    id <MKTransitItemReferenceDateUpdaterDelegate> _delegate;
 }
 
 + (double);
-+ (unsigned long long);
-+ (void);
++ (unsigned long long)4@0:8@16@24@32Q40@48@?56 /* Error: Ran out of types for this method. */;
++ (void)@0:8:16 /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (_Bool);
@@ -30,10 +28,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)lLookupParameters: /* Error: Ran out of types for this method. */;
+- (void)resultItemForSpatialLookupParameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(nonatomic) __weak id <MKTransitItemReferenceDateUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

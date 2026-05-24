@@ -9,36 +9,29 @@
 @interface NTPBHeadlineBackingElement
 {
     NSData *_articleRecordData;
-    NSData *_parentIssueRecordData;
-    NSData *_sourceChannelRecordData;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)maxOutputTokenToDecode;
+- (void)Ws;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)een %s and %s;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_accessibilityAllowsAlternativeCharacterActivation;
 - (_Bool);
-- (void)etAppInstallImpressionValue: /* Error: Ran out of types for this method. */;
+- (void)setAppInstallImpressionValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *articleRecordData; // @synthesize articleRecordData=_articleRecordData;
 @property(readonly, nonatomic) _Bool hasArticleRecordData;
-@property(readonly, nonatomic) _Bool hasParentIssueRecordData;
-@property(readonly, nonatomic) _Bool hasSourceChannelRecordData;
-@property(retain, nonatomic) NSData *parentIssueRecordData; // @synthesize parentIssueRecordData=_parentIssueRecordData;
-@property(retain, nonatomic) NSData *sourceChannelRecordData; // @synthesize sourceChannelRecordData=_sourceChannelRecordData;
 
 @end
 

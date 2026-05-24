@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol KGNode;
 
 @interface KGNodeChangeRequest
 {
     id <KGNode> _node;
-    NSDictionary *_properties;
 }
 
 - (id);
 - (id);
-- (void);
-- (id)ifier: /* Error: Ran out of types for this method. */;
+- (void)ning bundle id; %{public}s %{public}s;
+- (id)removeModelPropertyForKey:forNodeWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <KGNode> node; // @synthesize node=_node;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

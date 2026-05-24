@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)uesForKeys: /* Error: Ran out of types for this method. */;
-- (id)Offsets;
+- (id)dictionaryWithValuesForKeys: /* Error: Ran out of types for this method. */;
+- (id)_indexCacheOffsets;
 
 // Remaining properties
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;

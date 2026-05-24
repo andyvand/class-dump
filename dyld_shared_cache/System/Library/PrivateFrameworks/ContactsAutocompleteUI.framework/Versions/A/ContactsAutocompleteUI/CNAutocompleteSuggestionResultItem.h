@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CNAutocompleteResultNamer, NSArray, NSMutableSet, NSString;
+@class CNAutocompleteResultNamer;
 
 @interface CNAutocompleteSuggestionResultItem
 {
     _Bool _isSelected;
-    CNAutocompleteResult *_result;
-    NSString *_title;
-    NSArray *_contacts;
-    NSMutableSet *_handles;
-    NSArray *_members;
-    CNAutocompleteResultNamer *_namer;
 }
 
++ (id)ctIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebCore::NetworkLoadInformation>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebCore::NetworkLoadInformation>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebCore::NetworkLoadInformation>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebCore::NetworkLoadInformation>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (id);
@@ -26,33 +20,26 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)<;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)s;
+- (void)bI;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain, nonatomic) NSMutableSet *handles; // @synthesize handles=_handles;
-@property(readonly, nonatomic) _Bool isGroup;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(retain, nonatomic) NSArray *members; // @synthesize members=_members;
 @property(retain, nonatomic) CNAutocompleteResultNamer *namer; // @synthesize namer=_namer;
-@property(retain, nonatomic) CNAutocompleteResult *result; // @synthesize result=_result;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

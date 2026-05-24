@@ -7,18 +7,11 @@
 @interface PhotosUICore.SearchAssetUUIDsValidator__priv_2FBF52365A1D24C5F1D36119D5560C97
 {
     id photoLibrary;
-    id updateBlock;
-    id updatedUUIDsKey;
-    id allowedUUIDs;
-    id manualOrderUUIDs;
-    id assetCollection;
-    id fetchQueueFetchResult;
-    id fetchQueue;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)f;
 - (void);
 
 @end

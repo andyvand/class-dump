@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTValueExpressionArrayVariant : SISchemaInstrumentationMessage
 {
@@ -25,15 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)f;
 - (id);
 - (id);
 - (id)nged;
-- (id)d;
+- (id)HALSchemaHALLocalFetchStarted;
 - (void)4ý";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *statementIds; // @synthesize statementIds=_statementIds;
 
 @end

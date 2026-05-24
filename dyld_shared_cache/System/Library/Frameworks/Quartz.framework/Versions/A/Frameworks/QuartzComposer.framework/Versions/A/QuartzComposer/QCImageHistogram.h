@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCStructurePort;
+@class QCImagePort;
 
 @interface QCImageHistogram : QCPatch
 {
     QCImagePort *inputImage;
-    QCStructurePort *outputRedHistogram;
-    QCStructurePort *outputGreenHistogram;
-    QCStructurePort *outputBlueHistogram;
-    QCStructurePort *outputAlphaHistogram;
 }
 
 + (_Bool);

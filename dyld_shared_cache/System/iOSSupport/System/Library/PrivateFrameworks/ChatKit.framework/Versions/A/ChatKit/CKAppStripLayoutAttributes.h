@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface CKAppStripLayoutAttributes
 {
     _Bool _showsBorder;
-    long long _appStripSize;
 }
 
 - (_Bool);
-- (void);
+- (void).;
 - (long long);
 - (void);
 - (_Bool);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long appStripSize; // @synthesize appStripSize=_appStripSize;
-@property(nonatomic) _Bool showsBorder; // @synthesize showsBorder=_showsBorder;
 
 @end
 

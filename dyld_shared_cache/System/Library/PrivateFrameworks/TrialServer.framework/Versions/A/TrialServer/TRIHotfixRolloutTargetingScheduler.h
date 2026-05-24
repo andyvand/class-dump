@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TRITaskQueuing;
 
 @interface TRIHotfixRolloutTargetingScheduler
@@ -12,7 +11,7 @@
     id <TRITaskQueuing> _queue;
 }
 
-+ (id);
++ (id)bestFaceRectWithImageSize:(double)arg1 deviceSize:(_Bool)arg2 faceRegions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -20,14 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <TRITaskQueuing> queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

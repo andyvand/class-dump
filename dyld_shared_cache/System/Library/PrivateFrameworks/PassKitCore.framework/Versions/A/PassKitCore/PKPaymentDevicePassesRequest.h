@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ABILITY_SHAREABILITY_ALL_TITLE;
+- (void)CAPABILITY_SHAREABILITY_ALL_TITLE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *updatedSince; // @synthesize updatedSince=_updatedSince;

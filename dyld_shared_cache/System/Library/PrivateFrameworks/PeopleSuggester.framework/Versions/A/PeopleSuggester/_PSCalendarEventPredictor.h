@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EKEventStore;
+@class EKEventStore;
 
 @interface _PSCalendarEventPredictor
 {
     EKEventStore *_eventStore;
-    CNContactStore *_contactStore;
 }
 
-+ (CDUnknownBlockType);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (CDUnknownBlockType)_allBy;
++ (_Bool)q,N,V_endEventIndex;
++ (_Bool)onType;
++ (_Bool)ge;
++ (_Bool)ecCategory;
 + (id);
-+ (CDUnknownBlockType);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (unsigned long long);
-- (id);
-- (id);
-- (id);
++ (CDUnknownBlockType),N,V_entityPartialSiriCount7Day;
++ (_Bool)ceMotionState;
++ (id)nCount;
++ (id),V_uploadSamplingRate;
++ (unsigned long long)rScoreHS;
+- (id)_firstPassStartSampleCount;
+- (id)_audioSpeechPacketFirstSecondAfterFirstSpeechPacketArrived;
+- (id)_ampMusicCount;
 - (id);
 - (id);
 - (void);

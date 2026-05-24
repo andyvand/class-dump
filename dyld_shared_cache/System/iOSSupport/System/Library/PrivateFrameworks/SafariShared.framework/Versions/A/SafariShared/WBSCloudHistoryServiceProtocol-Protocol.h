@@ -5,5 +5,7 @@
 //
 
 @protocol WBSCloudHistoryServiceProtocol
+- (void);
+- (void)q;
 @end
 

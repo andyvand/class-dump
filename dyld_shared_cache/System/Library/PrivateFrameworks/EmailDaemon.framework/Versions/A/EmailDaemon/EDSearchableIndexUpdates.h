@@ -4,46 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDIndexedItems, NSArray, NSString;
+@class EDIndexedItems;
 
 @interface EDSearchableIndexUpdates
 {
     EDIndexedItems *_indexedItems;
-    NSArray *_removedIdentifiers;
-    NSArray *_removedDomainIdentifiers;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)_TtC12SiriOntology33UsoTask_play_common_DailyBriefing;
+- (id)9_	;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)r;
 - (id);
 - (id);
 - (void)hread_scope_message WHERE (conversation_id = :conversation_id) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool hasUpdates;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EDIndexedItems *indexedItems; // @synthesize indexedItems=_indexedItems;
-@property(readonly, nonatomic) NSArray *removedDomainIdentifiers; // @synthesize removedDomainIdentifiers=_removedDomainIdentifiers;
-@property(readonly, nonatomic) NSArray *removedIdentifiers; // @synthesize removedIdentifiers=_removedIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

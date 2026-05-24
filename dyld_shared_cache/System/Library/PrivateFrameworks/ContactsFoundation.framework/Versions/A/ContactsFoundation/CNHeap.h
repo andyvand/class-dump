@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CNHeap
 {
     NSString *_rawDataString;
-    NSMutableArray *_heapObjects;
-    NSMutableDictionary *_heapObjectsByClassAndBinary;
 }
 
 - (void);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *heapObjects; // @synthesize heapObjects=_heapObjects;
-@property(retain, nonatomic) NSMutableDictionary *heapObjectsByClassAndBinary; // @synthesize heapObjectsByClassAndBinary=_heapObjectsByClassAndBinary;
 @property(retain) NSString *rawDataString; // @synthesize rawDataString=_rawDataString;
 
 @end

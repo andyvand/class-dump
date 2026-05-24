@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TUSearchController, TUSearchResults;
+@class NSMutableArray;
 
 @interface TUCallHistorySearchModule
 {
     _Bool _searchComplete;
-    TUSearchController *_searchController;
-    NSMutableArray *_currentResultsList;
-    NSString *_previousSearchString;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)unsigned long long>>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)onsDelegate;
+- (void)reactionsDelegate;
 - (void)tifier=%@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *currentResultsList; // @synthesize currentResultsList=_currentResultsList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *previousSearchString; // @synthesize previousSearchString=_previousSearchString;
-@property(nonatomic, getter=isSearchComplete) _Bool searchComplete; // @synthesize searchComplete=_searchComplete;
-@property __weak TUSearchController *searchController; // @synthesize searchController=_searchController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TUSearchController",?,W,V_searchController
-
-@property(readonly) TUSearchResults *searchResults;
-@property(readonly) Class superclass;
 
 @end
 

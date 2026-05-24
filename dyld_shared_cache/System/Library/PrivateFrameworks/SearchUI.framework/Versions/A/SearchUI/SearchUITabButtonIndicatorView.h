@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SearchUIButtonItemViewController, SearchUIRowModel;
-@protocol SearchUIFeedbackDelegate;
+@class SearchUIButtonItemViewController;
 
 @interface SearchUITabButtonIndicatorView
 {
     SearchUIButtonItemViewController *_tabButtonViewController;
-    SearchUIRowModel *_rowModel;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ation:vocab: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(retain, nonatomic) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
 @property(retain, nonatomic) SearchUIButtonItemViewController *tabButtonViewController; // @synthesize tabButtonViewController=_tabButtonViewController;
 
 @end

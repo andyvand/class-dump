@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSOperationQueue;
+@class NSError, NSOperationQueue;
 
 @interface ML3DatabaseImportManager
 {
     NSOperationQueue *_importOperationQueue;
-    NSMutableArray *_suspendedImportOperations;
-    NSError *_lastImportError;
 }
 
+- (unsigned long long)_addRegistrationEventToQueue: /* Error: Ran out of types for this method. */;
+- (void)_addRAWPackedBadgeAttributeForAllRAWAssetsInStore: /* Error: Ran out of types for this method. */;
+- (void)_abortFromMocExecFail_NSMOC_SQLITE_NOLFS_22_withCode:(id)arg1;
+- (void),R,N,V_cloudResourceMemoriesMaxResourcesPerFetch;
+- (float)ctionShare",&,D,N;
+- (void)_addressString;
+- (void)isStreamsLibraryUpdatingExpired;
+- (void)ndleID;
+- (id)Name;
+- (id)_updatePersonForFaceDetectionTypeIfNeededWithPossibleNewPerson: /* Error: Ran out of types for this method. */;
+- (void)&,N,V_libraryScopeChanges;
+- (void)_unquarantinedQuarantinedItems:(id)arg1;
+- (id)_lock_spotlightSandboxExtension;
+- (void)suggestionComponents;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (float);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)k3;
 - (void)set keep_local=0 WHERE (item_pid=? AND keep_local<?);;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *lastImportError; // @synthesize lastImportError=_lastImportError;
-@property(readonly, nonatomic) unsigned long long operationsCount;
-@property(readonly, nonatomic, getter=isSuspended) _Bool suspended;
-@property(readonly, nonatomic) unsigned long long suspendedOperationsCount;
 
 @end
 

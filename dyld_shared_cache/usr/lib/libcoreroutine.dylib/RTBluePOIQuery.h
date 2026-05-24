@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID, RTLocation;
+@class NSUUID;
 
 @interface RTBluePOIQuery
 {
     _Bool _selectedToLabel;
-    NSUUID *_identifier;
-    NSArray *_accessPoints;
-    NSArray *_locations;
-    RTLocation *_referenceLocation;
-    unsigned long long _settledState;
-    NSDate *_date;
 }
 
 + (_Bool);
+- (id)^;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)f and digest %@;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)to find candidate pair for incoming stun packet, candidatePairToken = %@;
 - (id);
 - (id);
 - (unsigned long long);
@@ -36,18 +30,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)e"@"NSError">24;
 - (void)g,found long duration visit,transitions index,%{public}ld;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) RTLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(readonly, nonatomic) _Bool selectedToLabel; // @synthesize selectedToLabel=_selectedToLabel;
-@property(readonly, nonatomic) unsigned long long settledState; // @synthesize settledState=_settledState;
 
 @end
 

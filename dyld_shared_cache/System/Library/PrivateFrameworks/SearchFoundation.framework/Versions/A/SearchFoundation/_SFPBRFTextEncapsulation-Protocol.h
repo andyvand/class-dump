@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBRFTextEncapsulation
+- (NSData *)alVideoThumbnailIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int style;
 @end
 

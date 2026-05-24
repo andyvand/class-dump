@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatPluginFactory
 {
     id delegate;
-    id pluginContainerController;
-    id resolver;
-    id formatModelFactory;
-    id formatTracker;
-    id animatorFactory;
-    id webEmbedManager;
-    id preparedIdentifiers;
 }
 
 @end

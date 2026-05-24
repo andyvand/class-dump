@@ -7,13 +7,6 @@
 @interface SiriInference.InferenceError
 {
     id errorId;
-    id msg;
-    id file;
-    id function;
-    id line;
-    id callstack;
-    id kind;
-    id isLogged;
 }
 
 @end

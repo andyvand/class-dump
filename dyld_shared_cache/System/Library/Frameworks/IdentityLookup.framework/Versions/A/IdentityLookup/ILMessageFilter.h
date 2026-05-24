@@ -10,7 +10,6 @@
 @interface ILMessageFilter
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

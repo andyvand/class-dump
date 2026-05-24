@@ -11,7 +11,6 @@
 @interface GEOComposedStringArgument_TimestampList : GEOComposedStringArgument
 {
     NSArray *_defaultTimestamps;
-    NSArray *_overrideTimestamps;
 }
 
 + (_Bool)"%@" to "%@" - %@;
@@ -20,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
-- (id);
+- (id)setDirectionsResponse:(struct _NSZone *)arg1;
 - (void)èÒeÿ§42¤5;
 
 // Remaining properties

@@ -7,36 +7,28 @@
 @interface CPLSuggestionAssetFlag
 {
     _Bool _isKeyAsset;
-    _Bool _isRepresentative;
-    struct {
-        unsigned int isKeyAsset:1;
-        unsigned int isRepresentative:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void)ocation;
+- (void)descriptionTable;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)Count;
+- (void),N,V_lowRecencyBit;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)a5;
 - (_Bool);
-- (_Bool)ÁÚ¨«ðAð£©ó;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsKeyAsset;
 @property(nonatomic) _Bool hasIsRepresentative;
-@property(nonatomic) _Bool isKeyAsset; // @synthesize isKeyAsset=_isKeyAsset;
-@property(nonatomic) _Bool isRepresentative; // @synthesize isRepresentative=_isRepresentative;
 
 @end
 

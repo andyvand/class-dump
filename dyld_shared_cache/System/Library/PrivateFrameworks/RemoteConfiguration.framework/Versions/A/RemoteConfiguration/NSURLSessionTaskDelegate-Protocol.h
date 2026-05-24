@@ -9,6 +9,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
 - (void)ndRefreshRate:(NSURLSession *)arg1 %lu
  modThreshold:(NSURLSessionTask *)arg2 %lu
  modMax:(long long)arg3 %lu endpointURL:(long long)arg4 %@ widgetEndpointURL:(long long)arg5 %@ todayEndpointURL:%@ /* Error: Ran out of types for this method. */;

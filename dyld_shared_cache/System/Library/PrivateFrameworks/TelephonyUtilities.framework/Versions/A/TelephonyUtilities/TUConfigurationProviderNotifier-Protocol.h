@@ -5,5 +5,6 @@
 //
 
 @protocol TUConfigurationProviderNotifier
+- (void);
 @end
 

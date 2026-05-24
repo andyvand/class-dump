@@ -9,25 +9,19 @@
 @interface GEOMIFExperimentMetadata
 {
     unsigned int _deploymentId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    NSString *_experimentDescription;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)didExpireSubscriptions:(struct _NSZone *)arg1 forReason: /* Error: Ran out of types for this method. */;
+- (id)tileDB:(struct _NSZone *)arg1 didExpireSubscriptions:forReason: /* Error: Ran out of types for this method. */;
 - (id)entranceZoomNameAtIndex: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void)#3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) NSString *experimentDescription; // @synthesize experimentDescription=_experimentDescription;
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

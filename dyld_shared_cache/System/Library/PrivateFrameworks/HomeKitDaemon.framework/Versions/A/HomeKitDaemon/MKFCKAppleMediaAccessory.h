@@ -6,24 +6,20 @@
 
 #import <HomeKitDaemon/MKFCKAccessory.h>
 
-@class HMFPairingIdentity, MKFCKResident, NSDictionary, NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKAppleMediaAccessory : MKFCKAccessory
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)f
+;
+- (_Bool)etaController:(id)arg1 didUpdateETAForSharedTrip:(id)arg2;
+- (_Bool)[RELAY] incomingMessage %@ from %@ to %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(retain, nonatomic) MKFCKResident *resident; // @dynamic resident;
-@property(retain, nonatomic) NSDictionary *settings; // @dynamic settings;
-@property(copy, nonatomic) NSNumber *supportedStereoPairVersions; // @dynamic supportedStereoPairVersions;
-@property(copy, nonatomic) NSNumber *variant; // @dynamic variant;
 
 @end
 

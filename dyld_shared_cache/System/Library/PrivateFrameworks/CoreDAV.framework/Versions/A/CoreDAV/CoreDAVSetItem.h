@@ -13,10 +13,10 @@
 
 + (id);
 - (id);
+- (id)alignLeadingView:toTrailingView:spacing:minimum: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)CPU_SUBTYPE_I386_ALL;
+- (void)EWSBaseRequestType;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;

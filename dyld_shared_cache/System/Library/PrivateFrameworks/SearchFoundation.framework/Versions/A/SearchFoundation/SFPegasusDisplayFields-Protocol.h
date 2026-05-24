@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFPegasusDisplayFields
+- (void)QCDisableTexturePurgeability;
+- (NSString *)# ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *arrivalTime;
-@property(copy, nonatomic) NSDate *departureTime;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *displayStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

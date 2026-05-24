@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFOptionalBool
 {
     _Bool _value;
@@ -14,24 +12,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)queryForVisibleAssetsWithObjectIDs:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)ed suggestion generation for search text:%@, with options:%@ and found %tu suggestions /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end

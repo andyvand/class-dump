@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWEntityTier1, NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWEntityContextTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_entitiesPresenteds;
-    FLOWSchemaFLOWEntityTier1 *_entitySelected;
-    _Bool _hasLinkId;
-    _Bool _hasEntitySelected;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)˟;
 - (void);
 - (void);
 - (void);
@@ -36,7 +32,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,11 +43,6 @@
 - (void)/¾ÿo¡³%;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *entitiesPresenteds; // @synthesize entitiesPresenteds=_entitiesPresenteds;
-@property(retain, nonatomic) FLOWSchemaFLOWEntityTier1 *entitySelected; // @synthesize entitySelected=_entitySelected;
-@property(nonatomic) _Bool hasEntitySelected; // @synthesize hasEntitySelected=_hasEntitySelected;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

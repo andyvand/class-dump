@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString, TIAnalyticsMetricsContext, TIUserModelValues;
 
 @protocol TIUserModeling
+- (TIUserModelValues *)d by ':(TIAnalyticsMetricsContext *)arg1 '. Ex:'0.999646,0.000354:0:4280;0.947514,0.000158:0:3859' /* Error: Ran out of types for this method. */;
+- (void)SpeechProfiles:(NSString *)arg1 language:] /* Error: Ran out of types for this method. */;
+- (void)ontextualizedTranscription`.;
+- (void)malizedTranscription`.;
+- (void)`.contextualizedTranscription`.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contexts;

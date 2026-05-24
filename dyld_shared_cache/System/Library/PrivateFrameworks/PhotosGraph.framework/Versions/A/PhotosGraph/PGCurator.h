@@ -12,22 +12,22 @@
     NSObject<OS_os_log> *_loggingConnection;
 }
 
++ (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)xy=}36;
+- (id)gSessionTracker"16@"NSString"24;
+- (id)uirementDataRatchet;
+- (id)DataAccessGroups;
 - (double);
 - (void);
-- (id);
+- (id)b;
 - (double);
-- (id);
+- (id)_9);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)oE;
 - (void);
 - (id);
 - (id);

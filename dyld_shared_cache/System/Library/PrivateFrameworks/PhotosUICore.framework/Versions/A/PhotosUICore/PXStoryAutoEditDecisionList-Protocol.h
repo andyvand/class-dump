@@ -5,19 +5,11 @@
 //
 
 @class NSString;
-@protocol PXAudioAsset;
 
 @protocol PXStoryAutoEditDecisionList
-- (NSString *)tSheetSingleDateTitle;
+- (NSString *)MemoryCreationDisambiguationEventSheetSingleDateTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsNUp;
 @property(readonly, nonatomic) NSString *colorGradeCategory;
-@property(readonly, nonatomic) NSString *decisionPapertrail;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 defaultDisplayAssetPresentationDuration;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 outroDuration;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 overallDurationInfo;
-@property(readonly, nonatomic) id <PXAudioAsset> song;
 @end
 

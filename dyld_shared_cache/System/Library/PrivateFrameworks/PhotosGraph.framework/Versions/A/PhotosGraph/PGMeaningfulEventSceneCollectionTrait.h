@@ -9,28 +9,22 @@
 @interface PGMeaningfulEventSceneCollectionTrait : PGMeaningfulEventCollectionTrait
 {
     _Bool _accumulateHighConfidenceAssetCounts;
-    unsigned long long _minimumNumberOfHighConfidenceAssets;
-    unsigned long long _minimumNumberOfNegativeHighConfidenceAssets;
-    double _minimumRatioOfHighConfidenceAssets;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void)__objc_arrayobj;
+- (double)?16@?24@32;
+- (unsigned long long)Point=dd}16;
+- (unsigned long long)"24;
+- (id)_windowController;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool accumulateHighConfidenceAssetCounts; // @synthesize accumulateHighConfidenceAssetCounts=_accumulateHighConfidenceAssetCounts;
 @property(nonatomic) unsigned long long minimumNumberOfHighConfidenceAssets; // @synthesize minimumNumberOfHighConfidenceAssets=_minimumNumberOfHighConfidenceAssets;
-@property(nonatomic) unsigned long long minimumNumberOfNegativeHighConfidenceAssets; // @synthesize minimumNumberOfNegativeHighConfidenceAssets=_minimumNumberOfNegativeHighConfidenceAssets;
-@property(nonatomic) double minimumRatioOfHighConfidenceAssets; // @synthesize minimumRatioOfHighConfidenceAssets=_minimumRatioOfHighConfidenceAssets;
 
 @end
 

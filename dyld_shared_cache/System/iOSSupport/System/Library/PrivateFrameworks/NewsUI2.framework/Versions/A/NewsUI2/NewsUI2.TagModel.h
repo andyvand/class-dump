@@ -7,11 +7,6 @@
 @interface NewsUI2.TagModel
 {
     id tag;
-    id source;
-    id notificationSetting;
-    id shortcutSetting;
-    id subscription;
-    id additionalContextMenuOptions;
 }
 
 @end

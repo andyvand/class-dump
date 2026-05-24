@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFImageOption
 - (void)Éïîê;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *defaultValue;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSDictionary *options;
 @end
 

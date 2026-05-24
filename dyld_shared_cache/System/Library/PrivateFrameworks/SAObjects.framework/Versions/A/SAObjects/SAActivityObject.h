@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSDictionary, NSString, SAClientUserActivity;
+@class NSDate;
 
 @interface SAActivityObject : SADomainObject
 {
@@ -16,29 +16,23 @@
 + (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ionalI10TRawSymbolIT0_EEEP16CSCppSymbolOwnerR19TRawSymbolOwnerDataIS7_E10_CSTypeRefEUlRS6_IS1_ERNS4_6vectorISG_NS4_9allocatorISG_EEEER16CSCppStringCacheE_;
 - (id);
-- (void);
-- (void)onPromptAmbiguityId;
+- (void);
+- (void)disambiguationPromptAmbiguityId;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSDictionary *metadata;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSString *streamType;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SAClientUserActivity *userActivity;
-@property(copy, nonatomic) NSString *visibility;
 
 @end
 

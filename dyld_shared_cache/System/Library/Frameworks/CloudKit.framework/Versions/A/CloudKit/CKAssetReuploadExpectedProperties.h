@@ -9,13 +9,11 @@
 @interface CKAssetReuploadExpectedProperties
 {
     NSData *_fileSignature;
-    NSData *_referenceSignature;
-    NSData *_assetKey;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 - (id)blic}@%{public}@. allDatabases.count is now %lu.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *assetKey; // @synthesize assetKey=_assetKey;
 @property(readonly, copy, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(readonly, copy, nonatomic) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
 
 @end
 

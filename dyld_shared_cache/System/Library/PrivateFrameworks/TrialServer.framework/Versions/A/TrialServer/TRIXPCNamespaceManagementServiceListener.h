@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface, TRIServerContext, TRIXPCServerContextPromise;
-@protocol TRITaskQueuing;
+@class NSXPCInterface;
 
 @interface TRIXPCNamespaceManagementServiceListener
 {
     NSXPCInterface *_interface;
-    TRIServerContext *_serverContext;
-    id <TRITaskQueuing> _taskQueue;
-    TRIXPCServerContextPromise *_promise;
-    NSString *_serviceName;
 }
 
-- (id);
+- (id)0;
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

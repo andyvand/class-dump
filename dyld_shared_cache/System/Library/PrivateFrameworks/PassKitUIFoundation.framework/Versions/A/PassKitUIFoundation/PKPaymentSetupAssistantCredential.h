@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, PKPaymentCredential;
+@class NSImage;
 
 @interface PKPaymentSetupAssistantCredential
 {
     _Bool _isSnapshotFetchInProgress;
-    NSImage *_passSnapshot;
 }
 
 - (void);
@@ -19,16 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaymentCredential *credential;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSnapshotFetchInProgress; // @synthesize isSnapshotFetchInProgress=_isSnapshotFetchInProgress;
 @property(retain, nonatomic) NSImage *passSnapshot; // @synthesize passSnapshot=_passSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

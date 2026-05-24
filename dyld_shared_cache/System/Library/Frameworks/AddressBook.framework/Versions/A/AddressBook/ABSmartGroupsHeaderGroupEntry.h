@@ -6,12 +6,11 @@
 
 #import <AddressBook/ABHeaderGroupEntry.h>
 
-@class ABAddressBook, ABGroup;
+@class ABAddressBook;
 
 @interface ABSmartGroupsHeaderGroupEntry : ABHeaderGroupEntry
 {
     ABAddressBook *_addressBook;
-    ABGroup *_group;
 }
 
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, retain) ABGroup *group; // @synthesize group=_group;
 
 @end
 

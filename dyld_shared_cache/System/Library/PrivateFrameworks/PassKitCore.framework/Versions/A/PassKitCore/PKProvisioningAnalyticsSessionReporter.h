@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PKProvisioningAnalyticsSessionReportingResponder;
 
 @interface PKProvisioningAnalyticsSessionReporter
 {
     id <PKProvisioningAnalyticsSessionReportingResponder> _responder;
-    NSString *_sessionID;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)TiL;
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)ified;
+- (void){;
+- (id);
+- (void)promoPeriodSpecified;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKProvisioningAnalyticsSessionReportingResponder> responder; // @synthesize responder=_responder;
-@property(nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

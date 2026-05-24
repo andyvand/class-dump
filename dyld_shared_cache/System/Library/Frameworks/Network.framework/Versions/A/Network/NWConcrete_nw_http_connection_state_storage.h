@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _NSHTTPAlternativeServicesStorage;
+@class NSObject;
 @protocol OS_nw_storage;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_http_connection_state_storage
 {
     NSObject<OS_nw_storage> *storage;
-    _NSHTTPAlternativeServicesStorage *oldStorage;
 }
 
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

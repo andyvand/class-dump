@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted : SISchemaInstrumentationMessage
 {
     int _promptType;
-    struct {
-        unsigned int promptType:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ASN1_T61STRING;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +28,6 @@
 - (id)WWebAnswerExecutionTier1",&,N,V_webAnswerExecutionTier1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPromptType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int promptType; // @synthesize promptType=_promptType;
 
 @end

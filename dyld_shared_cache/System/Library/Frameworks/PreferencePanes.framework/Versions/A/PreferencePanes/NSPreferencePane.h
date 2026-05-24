@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, NSView, NSWindow;
+@class NSBundle, NSWindow;
 
 @interface NSPreferencePane
 {
     NSWindow *_window;
-    NSView *_initialKeyView;
-    NSView *_firstKeyView;
-    NSView *_lastKeyView;
-    NSView *_mainView;
-    NSBundle *_bundle;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -45,33 +37,30 @@
 - (void);
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (id)QKBgQDpmgtj4h0eTJEefZxtHWaho3G8
+s3e2w3fDg4G+eY67V0NPbNY/cFaF6FS49JP1FH+9wsfHghI5sA617vOV0I7wDf4c
+i2cjwyNvXzOry6eSdo2VojJFrbzwbUXVaM5oxhbfOKCoqt/DOMhsRB5W/a7tgz0R
+vNUrS1TylfddoIdX4wIDAQAB
+-----END PUBLIC KEY-----
+;
+- (void)weakObjectsHashTable;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)nil;
+- (void)tReason;
+- (id)requestUpdateControl: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)webProcessPlugInBrowserContextControllerGlobalObjectIsAvailableForFrame;
 
 // Remaining properties
-@property(readonly) _Bool autoSaveTextFields;
 @property(readonly) NSBundle *bundle;
-@property(retain) NSView *firstKeyView;
-@property(retain) NSView *initialKeyView;
-@property(retain) NSView *lastKeyView;
-@property(readonly) NSString *mainNibName;
-@property(retain) NSView *mainView;
-@property(readonly, getter=isSelected) _Bool selected;
-@property(readonly) unsigned long long shouldUnselect;
 
 @end
 

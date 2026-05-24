@@ -7,27 +7,23 @@
 @interface NUHistogramCalculator
 {
     long long _binCount;
-    CDStruct_59a221c9 _range;
-    CDStruct_68f7c993 _colorMatrix;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)7;
 - (id);
 - (id);
-- (void);
+- (void)writeMetadataType:(CDStruct_68f7c993)arg1 value:toCGImageProperties:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_68f7c993);
-- (CDStruct_59a221c9);
-- (void);
+- (CDStruct_c3b9c2ee);
+- (void)not save the key as `bkup` type as pairingIdentity is nil;
 
 // Remaining properties
 @property(nonatomic) long long binCount; // @synthesize binCount=_binCount;
-@property(nonatomic) CDStruct_68f7c993 colorMatrix; // @synthesize colorMatrix=_colorMatrix;
-@property(nonatomic) CDStruct_59a221c9 range; // @synthesize range=_range;
 
 @end
 

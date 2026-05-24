@@ -6,49 +6,35 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class LPLinkView, LPWebLinkPresentationProperties, NSString;
+@class NSString;
 
 @interface CKWalletItemLinkSearchResultCell : CKEditableSearchResultCell
 {
     NSString *_resultIdentifier;
-    LPLinkView *_linkView;
-    LPWebLinkPresentationProperties *_linkMetadata;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
+- (void)setHasSanitizedAndScreenedModernSourceObjects:(struct UIEdgeInsets)arg1;
+- (void)setExpansionStateContext:(id)arg1;
+- (void)ic_preferredFontForSubheadingText;
+- (struct UIEdgeInsets)_setDecisionWithType:guiltyObjects: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
+- (void){;
+- (id)exable text for %@;
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)tTrailingLayoutMarginSize: /* Error: Ran out of types for this method. */;
-- (void)ptionOptInOnboarding;
+- (id)ate>";
+- (void)setTrailingLayoutMarginSize: /* Error: Ran out of types for this method. */;
+- (void)didShowRCSEncryptionOptInOnboarding;
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPWebLinkPresentationProperties *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
 @property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

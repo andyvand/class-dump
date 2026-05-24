@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCalendarEvent;
-
 @protocol _INPBUpdateEventIntentResponse
+- (int);
 
 // Remaining properties
 @property(nonatomic) int confirmationReason;
-@property(copy, nonatomic) NSArray *conflictingEventIdentifiers;
-@property(readonly, nonatomic) unsigned long long conflictingEventIdentifiersCount;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(readonly, nonatomic) _Bool hasUpdatedEvent;
-@property(retain, nonatomic) _INPBCalendarEvent *updatedEvent;
 @end
 

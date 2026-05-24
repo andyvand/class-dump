@@ -5,5 +5,7 @@
 //
 
 @protocol CWWiFiUIProxyEvent
+- (void)";
+- (void);
 @end
 

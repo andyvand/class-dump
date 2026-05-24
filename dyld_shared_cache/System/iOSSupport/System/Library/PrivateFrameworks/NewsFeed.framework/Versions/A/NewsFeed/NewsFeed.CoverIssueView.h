@@ -9,20 +9,6 @@
 @interface NewsFeed.CoverIssueView
 {
     id moreActionsButton;
-    id followButton;
-    id titleLabel;
-    id issueCoverView;
-    id secondaryIssueCoverView;
-    id accessoryLabel;
-    id downloadProgressBar;
-    id cloudIcon;
-    id selectionImageView;
-    id onEditSelection;
-    id debugButton;
-    id isEditSelected;
-    id downloadButtonDataProvider;
-    id downloadStateDisposable;
-    id downloadProgressDisposable;
 }
 
 - (id);

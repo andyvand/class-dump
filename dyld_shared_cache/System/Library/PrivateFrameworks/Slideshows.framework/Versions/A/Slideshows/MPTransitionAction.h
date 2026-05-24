@@ -6,26 +6,22 @@
 
 #import <Slideshows/MPAction.h>
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol MPActionableSupport;
+@class NSDictionary, NSString;
 
 @interface MPTransitionAction : MPAction
 {
     NSString *_transitionID;
-    double _transitionDuration;
-    NSMutableDictionary *_transitionAttributes;
-    NSObject<MPActionableSupport> *_transitionDestination;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)initWithLowWaterMark:highWaterMark:alwaysFlushKeysWithZeroInterest: /* Error: Ran out of types for this method. */;
+- (id)initWithDirectoryAtPath:preferredAssetPathExtension: /* Error: Ran out of types for this method. */;
+- (id)initWithData: /* Error: Ran out of types for this method. */;
+- (id)initWithConfigProvider:(id)arg1 maxPayloadSize: /* Error: Ran out of types for this method. */;
+- (void)tore",&,N,V_assetStore;
+- (void)N,V_observer;
+- (void)NDAnalyticsEnvelopeStoreObserver>",W,N,V_observer;
 - (void);
 - (void);
 - (void);
@@ -38,9 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *transitionAttributes; // @synthesize transitionAttributes=_transitionAttributes;
-@property(retain, nonatomic) NSObject<MPActionableSupport> *transitionDestination; // @synthesize transitionDestination=_transitionDestination;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
-@property(copy, nonatomic) NSString *transitionID; // @synthesize transitionID=_transitionID;
 
 @end
 

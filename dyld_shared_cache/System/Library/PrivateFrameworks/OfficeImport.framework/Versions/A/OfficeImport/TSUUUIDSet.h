@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface TSUUUIDSet
 {
     unsigned int _index;
-    struct unordered_set<TSU::UUIDData<TSP::UUIDData>, std::hash<TSUUUID>, std::equal_to<TSU::UUIDData<TSP::UUIDData>>, std::allocator<TSU::UUIDData<TSP::UUIDData>>> _uuidSet;
 }
 
-- (vector_f7949aeb);
+- (vector_8603c535);
 - (id);
 - (id);
 - (void);
@@ -30,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (UUIDData_60906e89);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)F;
+- (id)MSVLyricsTTMLParserErrorDomain;
 - (id);
 - (unsigned int);
 - (unsigned long long)Q5$Ð1Â0@ù
@@ -46,7 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly) unsigned int index; // @synthesize index=_index;
 
 @end
 

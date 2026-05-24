@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorTypingIndicator_Icon
 {
@@ -12,15 +12,13 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *balloonPluginBundleID;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorImage *image;
 
 @end
 

@@ -11,7 +11,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)initWithItem:(id)arg1 versions:(id *)arg2 desiredSize:screenScale:itemManager: /* Error: Ran out of types for this method. */;
 
 @end
 

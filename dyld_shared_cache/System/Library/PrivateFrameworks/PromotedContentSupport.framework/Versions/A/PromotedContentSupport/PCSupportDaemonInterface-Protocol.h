@@ -5,5 +5,7 @@
 //
 
 @protocol PCSupportDaemonInterface
+- (void);
+- (void);
 @end
 

@@ -6,17 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSMediaConfiguredState : SISchemaInstrumentationMessage
 {
     _Bool _shadowLogging;
-    struct {
-        unsigned int shadowLogging:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (_Bool);
@@ -25,16 +20,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)nd Predicate %@;
 - (id);
 - (id)áqð!BùqÝð1Â0@ù
 × ;
-- (id)ed;
+- (id)_hasTmdcGroundTruthGenerated;
 - (id)ceProductId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasShadowLogging;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool shadowLogging; // @synthesize shadowLogging=_shadowLogging;
 
 @end

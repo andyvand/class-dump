@@ -6,12 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNAutocompleteResultWindow.h>
 
-@class CNAutocompletePresentationManager, NSArray;
+@class NSArray;
 
 @interface CNMixedModelAutocompleteResultWindow : CNAutocompleteResultWindow
 {
     NSArray *_mixedModelArray;
-    CNAutocompletePresentationManager *_presentationManager;
 }
 
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *mixedModelArray; // @synthesize mixedModelArray=_mixedModelArray;
-@property(retain, nonatomic) CNAutocompletePresentationManager *presentationManager; // @synthesize presentationManager=_presentationManager;
 
 @end
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (void);
+- (void)s7SwiftUI19WidgetConfigurationP0C3KitE12_description33_68AA3FB28B73A94BEEE820219EFCCCF9LLyQrSSF;
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void)(;
 
 // Remaining properties
 @property(nonatomic, getter=isFilled) _Bool filled; // @synthesize filled=_filled;

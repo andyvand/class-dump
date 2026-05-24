@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSNumber, NSString, SFSearchResult;
-@protocol AssistantPopoverResultCollectionViewCellDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverResult
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSImage *_headerIcon;
-    NSString *_bodyText;
-    NSString *_summary;
-    NSString *_summaryDisclamer;
-    NSNumber *_componentIdentifier;
-    long long _type;
-    id <AssistantPopoverResultCollectionViewCellDelegate> _readerCellDelegate;
-    NSArray *_actionButtons;
-    SFSearchResult *_entityCardSearchResult;
-    NSString *_persistedOnDemandSummary;
-    NSString *_customSummaryHeader;
-    NSString *_customSummarySymbol;
-    NSString *_customSummaryFooter;
 }
 
 - (id);
@@ -50,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -60,21 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actionButtons; // @synthesize actionButtons=_actionButtons;
-@property(retain, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(copy, nonatomic) NSNumber *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(copy, nonatomic) NSString *customSummaryFooter; // @synthesize customSummaryFooter=_customSummaryFooter;
-@property(copy, nonatomic) NSString *customSummaryHeader; // @synthesize customSummaryHeader=_customSummaryHeader;
-@property(copy, nonatomic) NSString *customSummarySymbol; // @synthesize customSummarySymbol=_customSummarySymbol;
-@property(retain, nonatomic) SFSearchResult *entityCardSearchResult; // @synthesize entityCardSearchResult=_entityCardSearchResult;
-@property(retain, nonatomic) NSImage *headerIcon; // @synthesize headerIcon=_headerIcon;
-@property(copy, nonatomic) NSString *persistedOnDemandSummary; // @synthesize persistedOnDemandSummary=_persistedOnDemandSummary;
-@property(nonatomic) __weak id <AssistantPopoverResultCollectionViewCellDelegate> readerCellDelegate; // @synthesize readerCellDelegate=_readerCellDelegate;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(copy, nonatomic) NSString *summaryDisclamer; // @synthesize summaryDisclamer=_summaryDisclamer;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

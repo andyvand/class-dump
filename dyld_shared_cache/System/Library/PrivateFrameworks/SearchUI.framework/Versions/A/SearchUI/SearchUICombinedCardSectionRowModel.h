@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
@@ -29,18 +29,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)eEARLanguageDetector(withDetectorOptions:clientInfo:analysisOptions:) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e with the namespaces on the device %{public}@.;
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cardSectionRowModels; // @synthesize cardSectionRowModels=_cardSectionRowModels;
-@property(readonly) NSArray *snippetUICardSections;
 
 @end
 

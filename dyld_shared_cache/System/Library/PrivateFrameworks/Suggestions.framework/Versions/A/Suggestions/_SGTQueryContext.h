@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, SGTInput, SGTSearchQueryContext;
-
 __attribute__((visibility("hidden")))
 @interface _SGTQueryContext
 {
     unsigned long long queryID;
-    NSSet *attributeNames;
-    NSArray *additionalAttributeNames;
-    NSString *inputString;
-    SGTInput *input;
-    struct _NSRange NLRange;
-    _Bool isNLSearch;
-    long long NLScope;
-    SGTSearchQueryContext *originalQueryContext;
 }
 
-- (void);
+- (void)enumerateFontAttributesOfAttributedString:usingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

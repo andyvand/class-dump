@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSSet, NSString;
+@class NSString;
 
 @interface FCTopicalNode
 {
     double _score;
-    _Bool _scored;
-    NSSet *_identifiers;
-    NSString *_identifier;
-    NSSet *_displayedElements;
-    NSCountedSet *_topicCollections;
-    FCTopicalNode *_parent;
-    NSSet *_children;
-    double _scoreMultiplier;
-    double _relatedness;
-    double _specificity;
-    double _parentRawScore;
-    double _relatednessThreshold;
-    double _relatednessKWeight;
-    double _topicScoreWeight;
-    double _highestScoringRelativeScoreMultiplier;
-    NSString *_storedNodeIdentifier;
 }
 
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)FocusBaselineClickValue;
+- (_Bool):(id)arg1 8q16@?24;
+- (void)_client_coordinatorShouldBeginRestoringUserDataWithUUID:(id)arg1;
+- (id)ForStickersOnly;
+- (void)appInFocusBaselineClickValue;
 
 // Remaining properties
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;

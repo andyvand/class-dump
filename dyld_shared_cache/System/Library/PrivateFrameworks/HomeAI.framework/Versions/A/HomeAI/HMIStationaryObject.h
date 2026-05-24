@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMIStationaryObject
 {
     HMIVideoAnalyzerEvent *_event;
-    CDStruct_1b6d18a9 _time;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMIVideoAnalyzerEvent *event; // @synthesize event=_event;
-@property(readonly) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end
 

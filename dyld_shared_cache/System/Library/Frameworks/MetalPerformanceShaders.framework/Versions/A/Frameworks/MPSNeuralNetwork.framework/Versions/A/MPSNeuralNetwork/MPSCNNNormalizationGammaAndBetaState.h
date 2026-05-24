@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> beta;
 @property(readonly, nonatomic) id <MTLBuffer> gamma;
 
 @end

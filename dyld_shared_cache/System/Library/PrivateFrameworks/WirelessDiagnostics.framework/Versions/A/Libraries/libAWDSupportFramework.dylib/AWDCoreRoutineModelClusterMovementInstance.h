@@ -7,27 +7,23 @@
 @interface AWDCoreRoutineModelClusterMovementInstance
 {
     unsigned long long _distance;
-    struct {
-        unsigned int distance:1;
-    } _has;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)�"B)	k;
+- (_Bool)7;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)nnectDuration;
 
 // Remaining properties
-@property(nonatomic) unsigned long long distance; // @synthesize distance=_distance;
 @property(nonatomic) _Bool hasDistance;
 
 @end

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSShadow;
-
 __attribute__((visibility("hidden")))
 @interface SCTHelpPointerView
 {
     struct CGRect mInitialBounds;
-    NSShadow *mShadow;
-    struct CGRect mPreviousRect;
-    _Bool mIsRightHandSide;
-    float mAnimationProgress;
-    float mScale;
 }
 
 - (void);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)u;
 
 @end
 

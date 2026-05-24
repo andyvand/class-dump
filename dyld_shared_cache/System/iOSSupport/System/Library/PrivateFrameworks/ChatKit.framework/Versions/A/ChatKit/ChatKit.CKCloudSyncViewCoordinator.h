@@ -7,19 +7,13 @@
 @interface ChatKit.CKCloudSyncViewCoordinator
 {
     id navigationItem;
-    id viewControllerView;
-    id syncStatusViews;
-    id largeTitleSyncView;
-    id regularTitleSyncView;
-    id toolbarSyncStatusView;
-    id showsSyncStatusInNavigationBar;
 }
 
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ed.;
+- (_Bool)ing:inFolder:error:] /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
@@ -28,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isSyncViewCurrentlyVisible;
-@property(nonatomic, readonly) _Bool isSyncViewInitialized;
-@property(nonatomic, readonly) _Bool viewNeedsContentInsetAccommodation;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSMutableArray;
+@class NSMutableArray;
 
 @interface ABPastePeopleCommand
 {
     NSMutableArray *_people;
-    NSMutableArray *_linkedPeople;
-    NSMutableArray *_peopleProperties;
-    ABGroup *_selectedGroup;
 }
 
 - (id);

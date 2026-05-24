@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PKTiledView, UITextView;
-@protocol UITextViewDrawingDelegate;
+@class UITextView;
 
 @interface UITextViewDrawingInfo
 {
     _Bool _addBottomPadding;
-    _Bool _rulerEnabled;
-    UITextView *_textView;
-    PKTiledView *_tiledView;
-    id <UITextViewDrawingDelegate> _delegate;
-    Class _drawingClass;
-    NSMutableDictionary *_cachedViewProviders;
 }
 
 - (id);
@@ -31,18 +24,12 @@
 - (Class);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)!;
+- (id)_axesForDerivingIntrinsicContentSizeFromLayoutSize;
 - (void)d:,V__activeResultCommand /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool addBottomPadding; // @synthesize addBottomPadding=_addBottomPadding;
-@property(retain, nonatomic) NSMutableDictionary *cachedViewProviders; // @synthesize cachedViewProviders=_cachedViewProviders;
-@property(nonatomic) __weak id <UITextViewDrawingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) Class drawingClass; // @synthesize drawingClass=_drawingClass;
-@property(nonatomic) _Bool rulerEnabled; // @synthesize rulerEnabled=_rulerEnabled;
 @property(nonatomic) __weak UITextView *textView; // @synthesize textView=_textView;
-@property(retain, nonatomic) PKTiledView *tiledView; // @synthesize tiledView=_tiledView;
 
 @end
 

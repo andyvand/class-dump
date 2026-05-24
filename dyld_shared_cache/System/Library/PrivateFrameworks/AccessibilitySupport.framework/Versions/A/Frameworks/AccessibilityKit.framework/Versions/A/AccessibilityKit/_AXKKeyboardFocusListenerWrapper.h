@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     id <AXKKeyboardFocusListener> _listener;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)wheelDelta;
 - (id);
-- (void);
+- (void)set_slowerButtonView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AXKKeyboardFocusListener> listener; // @synthesize listener=_listener;

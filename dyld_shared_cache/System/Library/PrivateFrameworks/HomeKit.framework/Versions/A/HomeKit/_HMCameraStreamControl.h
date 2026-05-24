@@ -6,15 +6,9 @@
 
 #import <HomeKit/_HMCameraControl.h>
 
-@class HMCameraStream, NSString, NSUUID;
-@protocol _HMCameraStreamControlDelegate;
-
 @interface _HMCameraStreamControl : _HMCameraControl
 {
     unsigned long long _streamState;
-    HMCameraStream *_cameraStream;
-    id <_HMCameraStreamControlDelegate> _delegate;
-    NSUUID *_sessionUUID;
 }
 
 + (id)fetchIsWalletKeySupportedWithCompletion:] /* Error: Ran out of types for this method. */;
@@ -30,27 +24,17 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_updateAdjustmentFromAssetAdjustment:unmanagedAdjustment:fullSizeRenderURL:options: /* Error: Ran out of types for this method. */;
+- (void)_runMomentAndHighlightGenerationForAssets:(unsigned long long)arg1 hiddenAssets:updatedAssetIDsForHighlights:updatedMomentIDsForHighlights:affectedMoments:highlightsWithDeletedMoments:sharedAssetContainerIncrementalChanges:insertedOrUpdatedMoments: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void)nDelegate>",W,N,V_delegate;
-- (id)tionsDoorbellChimeEnabledPayloadKey;
+- (id)HMSiriEndpointOnboardingSelectionsDoorbellChimeEnabledPayloadKey;
 
 // Remaining properties
-@property(readonly) HMCameraStream *cameraStream; // @synthesize cameraStream=_cameraStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMCameraStreamControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 @property unsigned long long streamState; // @synthesize streamState=_streamState;
-@property(readonly) Class superclass;
 
 @end
 

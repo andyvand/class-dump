@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface HMMMRequestOptions
 {
     _Bool _oneWay;
-    long long _transportRestriction;
-    NSNumber *_timeout;
 }
 
 - (void);
@@ -24,8 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool oneWay; // @synthesize oneWay=_oneWay;
-@property(readonly, nonatomic) NSNumber *timeout; // @synthesize timeout=_timeout;
-@property(readonly, nonatomic) long long transportRestriction; // @synthesize transportRestriction=_transportRestriction;
 
 @end
 

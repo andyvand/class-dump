@@ -9,7 +9,6 @@
 @interface MTLDebugTensor : MTLToolsTensor
 {
     struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)�b6;
 - (id);
 - (id);
 - (void);

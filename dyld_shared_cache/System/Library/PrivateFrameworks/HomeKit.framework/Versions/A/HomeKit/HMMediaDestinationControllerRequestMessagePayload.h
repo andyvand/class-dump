@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaDestinationControllerRequestMessagePayload
 {
     NSUUID *_destinationIdentifier;
-    unsigned long long _updateOptions;
 }
 
 - (unsigned long long);
@@ -19,22 +18,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sovereign;
 - (id);
 - (id);
 - (void)ô»¼¼$½ ½¾¿
 ÀÁèÂpÃäÈpÉÉ4ÊÍìÍÏD×¬×	PØlÙÜÙ	tÚÔÚ	lÛ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSUUID *destinationIdentifier; // @synthesize destinationIdentifier=_destinationIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long updateOptions; // @synthesize updateOptions=_updateOptions;
 
 @end
 

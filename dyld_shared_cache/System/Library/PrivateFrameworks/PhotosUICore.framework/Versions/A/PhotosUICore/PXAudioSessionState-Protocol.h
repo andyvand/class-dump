@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @protocol PXAudioSessionState
-- (CDStruct_1b6d18a9)numberOfAssets: /* Error: Ran out of types for this method. */;
+- (float);
+- (CDStruct_1b6d18a9)requiresSizeChangeForStateChange:fromState: /* Error: Ran out of types for this method. */;
+- (float));
+- (CDStruct_1b6d18a9)estimatedSizeWithReferenceSize:spec:style:numberOfAssets: /* Error: Ran out of types for this method. */;
 - (long long)ropertySets:basePredicate:options:ignoreSharedLibraryFilters: /* Error: Ran out of types for this method. */;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) _Bool isReadyToPlay;
-@property(readonly, nonatomic) long long status;
-@property(readonly, nonatomic) float targetLoudnessInLKFS;
-@property(readonly, nonatomic) float volume;
 @end
 

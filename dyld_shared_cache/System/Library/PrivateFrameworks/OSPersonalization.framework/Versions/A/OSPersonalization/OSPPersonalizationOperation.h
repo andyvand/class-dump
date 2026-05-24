@@ -14,9 +14,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
-- (id);
-- (void);
+- (int);
+- (id);
+- (void)compute status from %@ to %@;
 
 @end
 

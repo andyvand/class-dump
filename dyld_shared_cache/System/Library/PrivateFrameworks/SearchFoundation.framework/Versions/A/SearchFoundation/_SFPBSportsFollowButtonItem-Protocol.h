@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBSportsItem, _SFPBToggleButtonConfiguration;
+@class NSData, _SFPBSportsItem;
 
 @protocol _SFPBSportsFollowButtonItem
+- (void);
+- (id)A;
+- (unsigned long long);
+- (NSData *)urce",R,N,V_resource;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fallbackTitle;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsItem *sportsItem;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

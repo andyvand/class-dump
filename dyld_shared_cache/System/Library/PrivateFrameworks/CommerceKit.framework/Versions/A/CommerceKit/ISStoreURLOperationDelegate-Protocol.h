@@ -5,5 +5,9 @@
 //
 
 @protocol ISStoreURLOperationDelegate
+
+@optional
+- (_Bool)�H;
+- (void)ޏ;
 @end
 

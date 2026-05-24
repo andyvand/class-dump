@@ -11,37 +11,30 @@
 @interface _UIPreviewPresentationContainerView : UIView
 {
     _Bool _shouldLayoutForCommitPhase;
-    UIView *_contentView;
-    double _cornerRadius;
-    _UIPreviewPresentationEffectView *_platterClippingView;
-    UIView *_platterShadowView;
-    UIView *_contentTransformView;
-    _UIPreviewPresentationEffectView *_platterView;
-    struct CGSize _preferredContentSize;
 }
 
 - (_Bool);
 - (_Bool);
+- (void)VP_SQID_NUM_NATIVE_TEX_INSTRUCTIONS;
+- (void)on Vertex Program string from PPStream;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)D9i;
 - (void);
 - (id);
-- (struct CGSize);
-- (_Bool);
-- (struct CGRect);
+- (id);
+- (void)2q40@"NSError"48;
+- (id)permanentHighQualityLocalPath;
+- (struct CGSize)xpirable,V_expirable;
+- (_Bool)ListenerFileTransfersProtocol>",N,R;
+- (struct CGRect)ecutorStatusReportCG;
 - (void);
 - (void);
 - (void);
 - (struct CGSize)Ð1Â0@ù
 × ;
-- (double)ffset;
-- (void)ight:(id)arg1;
-- (id)hildren;
+- (double)titleShadowOffset;
+- (void)setMaxTileHeight:(id)arg1;
+- (id)_hideScrollPocketContainerModelFromChildren;
 - (void)"_UIContextMenuSelectionDelayGestureRecognizer",&,N,V_selectionDelayGestureRecognizer;
 - (double)decode SceneSession for identifier %@, skipping;
 - (void)Unhandled update item action for update:(double)arg1 %@;
@@ -50,16 +43,7 @@
 - (id)ý^;
 
 // Remaining properties
-@property(nonatomic) double blurRadius; // @dynamic blurRadius;
-@property(retain, nonatomic) UIView *contentTransformView; // @synthesize contentTransformView=_contentTransformView;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(retain, nonatomic) _UIPreviewPresentationEffectView *platterClippingView; // @synthesize platterClippingView=_platterClippingView;
-@property(retain, nonatomic) UIView *platterShadowView; // @synthesize platterShadowView=_platterShadowView;
-@property(retain, nonatomic) _UIPreviewPresentationEffectView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic) struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property(nonatomic) _Bool shouldLayoutForCommitPhase; // @synthesize shouldLayoutForCommitPhase=_shouldLayoutForCommitPhase;
-@property(nonatomic) _Bool shouldRasterizeForTransition; // @dynamic shouldRasterizeForTransition;
 
 @end
 

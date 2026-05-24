@@ -7,9 +7,6 @@
 @interface SiriUI.ReportConcernButtonModel
 {
     id onTap;
-    id _showsReportConcernButton;
-    id _isDisabled;
-    id _$observationRegistrar;
 }
 
 @end

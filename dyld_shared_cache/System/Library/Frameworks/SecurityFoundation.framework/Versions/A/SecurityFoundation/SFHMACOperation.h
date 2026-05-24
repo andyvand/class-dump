@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id _hmacOperationInternal;
 }
 
+- (id) ;
+- (id)INTENT_RESTAURANT_CHECKIN_TIME_SEARCH;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (void);

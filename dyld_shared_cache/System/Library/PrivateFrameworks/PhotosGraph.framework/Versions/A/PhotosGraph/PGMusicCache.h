@@ -7,15 +7,13 @@
 @interface PGMusicCache
 {
     id cacheURL;
-    id persistentStoreCoordinator;
-    id managedObjectContext;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)framework/Versions/A/QuartzCore;
+- (_Bool)/A/CoreGraphics;
 - (_Bool);
 - (id);
 - (void)on=%.2f]

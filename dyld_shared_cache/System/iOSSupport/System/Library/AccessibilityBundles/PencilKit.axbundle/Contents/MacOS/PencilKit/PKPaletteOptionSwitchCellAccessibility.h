@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)|C;
++ (void);
 - (id);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_axLoadDetailsButtonAccessibility: /* Error: Ran out of types for this method. */;
 
 @end
 

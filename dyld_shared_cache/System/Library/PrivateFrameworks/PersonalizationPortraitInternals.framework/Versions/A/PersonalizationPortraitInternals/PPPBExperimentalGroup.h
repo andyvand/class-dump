@@ -9,20 +9,19 @@
 @interface PPPBExperimentalGroup
 {
     NSString *_abGroupIdentifier;
-    NSString *_experimentId;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)oV;
 - (id);
 - (id);
 - (id);
@@ -31,9 +30,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abGroupIdentifier; // @synthesize abGroupIdentifier=_abGroupIdentifier;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) _Bool hasAbGroupIdentifier;
 @property(readonly, nonatomic) _Bool hasExperimentId;
 
 @end

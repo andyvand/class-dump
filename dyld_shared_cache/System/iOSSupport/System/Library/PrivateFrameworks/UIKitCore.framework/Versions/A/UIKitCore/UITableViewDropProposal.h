@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)vered as:(unsigned long long)arg1 %@;
+- (void)0@"NSArray"8B16I20;
 - (long long);
 - (long long);
 - (id);
@@ -28,8 +28,6 @@
 - (void)­;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _dropLocation;
-@property(retain, nonatomic, getter=_adjustedTargetIndexPath, setter=_setAdjustedTargetIndexPath:) NSIndexPath *adjustedTargetIndexPath; // @synthesize adjustedTargetIndexPath=_adjustedTargetIndexPath;
 @property(nonatomic) long long intent; // @synthesize intent=_intent;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
-
 @interface WBSFrequentlyVistedSiteAnalyticsPayload
 {
     unsigned long long _itemPosition;
-    NSDate *_lastVisitedDate;
-    NSNumber *_score;
 }
 
 - (id);

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
+@class NSWindow;
 
 @interface _MXExtensionVendorViewController
 {
     NSWindow *_window;
 }
 
-+ (id);
-+ (id)ngMapRectForPolygons: /* Error: Ran out of types for this method. */;
++ (id)predicateForContactsInContainerWithIdentifier: /* Error: Ran out of types for this method. */;
++ (id)_boundingMapRectForPolygons: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void)Rect: /* Error: Ran out of types for this method. */;
+- (void)showAnnotationsInMapRect: /* Error: Ran out of types for this method. */;
 - (id)nHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

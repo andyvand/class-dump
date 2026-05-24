@@ -7,22 +7,19 @@
 @interface _PASProbablisticCrashesConfig
 {
     unsigned char _uniqueCallsiteWindowSize;
-    unsigned int _oddsNumerator;
-    unsigned int _oddsDenominator;
 }
 
-- (unsigned char);
-- (void);
-- (void);
-- (void);
+- (unsigned char)Event %@
+;
+- (void)gress=%@>;
+- (void)ostLogoutMode=%d, _installerProgressDescription=%@, _installerOverallProgress=%@>;
+- (void)scription=%@ _warning=%@ _needsPostLogoutMode=%d, _installerProgressDescription=%@, _installerOverallProgress=%@>;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)_invoke;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int oddsDenominator; // @synthesize oddsDenominator=_oddsDenominator;
 @property(nonatomic) unsigned int oddsNumerator; // @synthesize oddsNumerator=_oddsNumerator;
-@property(nonatomic) unsigned char uniqueCallsiteWindowSize; // @synthesize uniqueCallsiteWindowSize=_uniqueCallsiteWindowSize;
 
 @end
 

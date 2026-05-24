@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, SPMacBeaconConfig, SPNetworkMonitor, SPPowerStateMonitorMac;
-@protocol OS_dispatch_queue, SPMonitorsWrapperDelegate;
+@protocol SPMonitorsWrapperDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SPMonitorsWrapper
 {
     _Bool _isRunning;
-    struct os_unfair_lock_s _powerStateMonitorLock;
-    id <SPMonitorsWrapperDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    SPNetworkMonitor *_networkMonitor;
-    NSDate *_lastStateChangeDate;
-    NSDate *_nextStateChangeDate;
-    NSDate *_networkOffDuringSleepDate;
-    SPPowerStateMonitorMac *_powerStateMonitor;
-    SPMacBeaconConfig *_macBeaconConfig;
 }
 
 - (id);
@@ -27,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)#;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
@@ -42,40 +32,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct os_unfair_lock_s);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)ion;
 - (void)16S24@"NSError"28;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SPMonitorsWrapperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(retain, nonatomic) NSDate *lastStateChangeDate; // @synthesize lastStateChangeDate=_lastStateChangeDate;
-@property(retain, nonatomic) SPMacBeaconConfig *macBeaconConfig; // @synthesize macBeaconConfig=_macBeaconConfig;
-@property(retain, nonatomic) SPNetworkMonitor *networkMonitor; // @synthesize networkMonitor=_networkMonitor;
-@property(retain, nonatomic) NSDate *networkOffDuringSleepDate; // @synthesize networkOffDuringSleepDate=_networkOffDuringSleepDate;
-@property(retain, nonatomic) NSDate *nextStateChangeDate; // @synthesize nextStateChangeDate=_nextStateChangeDate;
-@property(retain, nonatomic) SPPowerStateMonitorMac *powerStateMonitor; // @synthesize powerStateMonitor=_powerStateMonitor;
-@property(nonatomic) struct os_unfair_lock_s powerStateMonitorLock; // @synthesize powerStateMonitorLock=_powerStateMonitorLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useLegacyMacBeaconing;
 
 @end
 

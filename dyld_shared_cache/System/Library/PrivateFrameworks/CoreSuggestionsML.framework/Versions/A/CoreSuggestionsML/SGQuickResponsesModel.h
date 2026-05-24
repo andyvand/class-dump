@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGQuickResponsesTransformerInstance;
 @protocol PMLMultiLabelClassifierProtocol;
 
 @interface SGQuickResponsesModel
 {
     id <PMLMultiLabelClassifierProtocol> _model;
-    SGQuickResponsesTransformerInstance *_transformer;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,19 +21,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (void);
 + (void);
++ (id)rrencyKey:(id)arg1 usingExponentKey:(unsigned long long)arg2 usingIdentifierKey: /* Error: Ran out of types for this method. */;
++ (_Bool)DecodeE1TLV:(id)arg1 transactionInfo:(id)arg2 error:(_Bool)arg3;
 + (id);
-+ (_Bool);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)egistered.;
 - (void);
 - (void);
 

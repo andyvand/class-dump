@@ -7,10 +7,6 @@
 @interface IMSharedUtilities.IMTranslator
 {
     id shouldForceOfflineTranslation;
-    id translator;
-    id circuitBreaker;
-    id backwardCompatibilityPrefixMap;
-    id currentLogIdentifier;
 }
 
 @end

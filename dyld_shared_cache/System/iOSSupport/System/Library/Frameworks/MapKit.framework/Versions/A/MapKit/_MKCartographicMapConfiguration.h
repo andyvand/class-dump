@@ -6,20 +6,18 @@
 
 #import <MapKit/MKMapConfiguration.h>
 
-@class NSString;
-
 @interface _MKCartographicMapConfiguration : MKMapConfiguration
 {
     CDStruct_f97336e6 _cartographicConfiguration;
 }
 
 + (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDStruct_f97336e6);
 - (void);
@@ -32,16 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_f97336e6 cartographicConfiguration; // @synthesize cartographicConfiguration=_cartographicConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool showsHiking;
-@property(nonatomic) _Bool showsTopographicFeatures;
-@property(nonatomic) _Bool showsTraffic;
-@property(readonly) Class superclass;
 
 @end
 

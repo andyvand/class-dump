@@ -9,7 +9,6 @@
 @interface RemindersUICore.TTRMComponentViewLocationPickerComponentView
 {
     id delegate;
-    void locationTextField;
 }
 
 - (void);

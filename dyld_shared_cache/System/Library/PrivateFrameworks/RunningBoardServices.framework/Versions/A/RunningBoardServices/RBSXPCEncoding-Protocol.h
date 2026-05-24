@@ -5,7 +5,8 @@
 //
 
 @protocol RBSXPCEncoding
-- (void)legate;
+- (void);
+- (void)RBSConnectionServiceDelegate;
 - (void);
 - (void)]>;
 @end

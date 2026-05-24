@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
-@protocol RPBroadcastControllerDelegate;
+@class NSDictionary;
 
 @interface RPBroadcastController
 {
     NSDictionary *_serviceInfo;
-    id <RPBroadcastControllerDelegate> _delegate;
-    NSString *_broadcastExtensionBundleID;
-    NSString *_broadcastExtensionBundleIdentifier;
 }
 
 - (void);
@@ -24,24 +20,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)%@;
 - (void);
 - (id);
 - (_Bool)Öó*~Q;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *broadcastExtensionBundleID; // @synthesize broadcastExtensionBundleID=_broadcastExtensionBundleID;
-@property(retain, nonatomic) NSString *broadcastExtensionBundleIdentifier; // @synthesize broadcastExtensionBundleIdentifier=_broadcastExtensionBundleIdentifier;
-@property(retain, nonatomic) NSURL *broadcastURL;
-@property(readonly, nonatomic, getter=isBroadcasting) _Bool broadcasting;
-@property(nonatomic) __weak id <RPBroadcastControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isPaused) _Bool paused;
 @property(retain, nonatomic) NSDictionary *serviceInfo; // @synthesize serviceInfo=_serviceInfo;
 
 @end

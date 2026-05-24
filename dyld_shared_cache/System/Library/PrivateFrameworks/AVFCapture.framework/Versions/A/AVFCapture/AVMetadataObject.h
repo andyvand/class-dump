@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMetadataObjectInternal, NSString;
+@class AVMetadataObjectInternal;
 
 @interface AVMetadataObject
 {
@@ -12,18 +12,18 @@
 }
 
 + (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (long long);
+- (unsigned long long)replaceOccurrencesOfString:withString:options:range: /* Error: Ran out of types for this method. */;
+- (void)initWithName:(long long)arg1 pid:subsystem:reason:flags: /* Error: Ran out of types for this method. */;
+- (id)bindFloatValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (_Bool)_lyricsText;
+- (id)_didEncounterErrorBlock;
+- (id)B,N,V_linesAreSortedByStartTime;
+- (long long)stemDialogOptions",R,N,V_options;
+- (long long)AlreadyExists;
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
-- (id);
+- (id)%s:Nil BWTemporalFilterNode passed in /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (id);
 - (_Bool);
@@ -32,12 +32,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) struct CGRect bounds;
-@property(readonly) CDStruct_1b6d18a9 duration;
-@property(readonly) long long groupID;
-@property(readonly) long long objectID;
 @property(readonly) CDStruct_1b6d18a9 time;
-@property(readonly) NSString *type;
 
 @end
 

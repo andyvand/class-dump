@@ -11,16 +11,16 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
-- (_Bool);
+- (_Bool)kc;
 - (struct _NSRange);
 - (id);
-- (id);
-- (_Bool);
+- (id)emented;
+- (_Bool)";
 - (id);
 - (unsigned long long);
-- (id);
+- (id)validateProtocol:hasRequiredInstanceMethod: /* Error: Ran out of types for this method. */;
 
 @end
 

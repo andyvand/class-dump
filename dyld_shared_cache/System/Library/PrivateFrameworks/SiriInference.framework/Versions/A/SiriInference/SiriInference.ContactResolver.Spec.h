@@ -7,7 +7,6 @@
 @interface SiriInference.ContactResolver.Spec
 {
     id processNLv3SpeechAlternatives;
-    id allowSuggestedContacts;
 }
 
 @end

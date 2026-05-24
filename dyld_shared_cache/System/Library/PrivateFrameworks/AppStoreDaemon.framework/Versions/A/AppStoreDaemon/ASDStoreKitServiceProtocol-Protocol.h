@@ -5,5 +5,13 @@
 //
 
 @protocol ASDStoreKitServiceProtocol
+- (void)kH;
+- (void)k8;
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void)Y;
+- (void)`;
 @end
 

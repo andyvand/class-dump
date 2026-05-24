@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFNearbySyncNetwork, NSMutableDictionary, NSObject, NSOperationQueue, RPCompanionLinkClient;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CWFNearbySyncManager
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    RPCompanionLinkClient *_rapportDiscoveryClient;
-    int _cloudKeychainSyncStateNotifyToken;
-    NSObject<OS_dispatch_source> *_checkCloudKeychainStateRetryTimer;
-    CWFNearbySyncNetwork *_nearbySyncNetwork;
-    NSMutableDictionary *_nearbySyncRequestHistory;
-    NSMutableDictionary *_failedNearbySyncRequestHistory;
-    NSMutableDictionary *_cachedBBHStateMap;
-    NSMutableDictionary *_cachedBBHTimestampMap;
-    NSOperationQueue *_rapportRequestQueue;
-    int _eligibilityNotifyToken;
-    unsigned char _cloudKeychainEnabled;
-    unsigned char _associationState;
-    _Bool _activated;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _allowNearbySyncableNetworkHandler;
-    CDUnknownBlockType _autoJoinAssistEventHandler;
-    CDUnknownBlockType _restoredBackhaulEventHandler;
-    CDUnknownBlockType _confirmBrokenBackhaulHandler;
 }
 
 - (void);
@@ -43,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (unsigned char);
 - (CDUnknownBlockType);
-- (unsigned char);
+- (unsigned char)B;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -65,14 +47,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned char);
 - (void);
-- (void);
+- (void)2;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -86,15 +68,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)q;
 
 // Remaining properties
-@property _Bool activated; // @synthesize activated=_activated;
-@property(copy) CDUnknownBlockType allowNearbySyncableNetworkHandler; // @synthesize allowNearbySyncableNetworkHandler=_allowNearbySyncableNetworkHandler;
-@property unsigned char associationState; // @synthesize associationState=_associationState;
-@property(copy) CDUnknownBlockType autoJoinAssistEventHandler; // @synthesize autoJoinAssistEventHandler=_autoJoinAssistEventHandler;
 @property unsigned char cloudKeychainEnabled; // @synthesize cloudKeychainEnabled=_cloudKeychainEnabled;
-@property(copy) CDUnknownBlockType confirmBrokenBackhaulHandler; // @synthesize confirmBrokenBackhaulHandler=_confirmBrokenBackhaulHandler;
-@property(copy) CWFNearbySyncNetwork *nearbySyncNetwork; // @dynamic nearbySyncNetwork;
-@property(copy) CDUnknownBlockType restoredBackhaulEventHandler; // @synthesize restoredBackhaulEventHandler=_restoredBackhaulEventHandler;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
 
 @end
 

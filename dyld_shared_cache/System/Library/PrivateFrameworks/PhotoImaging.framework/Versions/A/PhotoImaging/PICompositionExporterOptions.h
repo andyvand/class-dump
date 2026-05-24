@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPriority, PIBrushStrokeHistory;
-@protocol NUScalePolicy;
+@class NUPriority;
 
 @interface PICompositionExporterOptions
 {
     _Bool _exportSidecarData;
-    NUPriority *_priority;
-    NUColorSpace *_colorSpace;
-    NSString *_pairingIdentifier;
-    id <NUScalePolicy> _scalePolicy;
-    PIBrushStrokeHistory *_brushStrokeHistory;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)delVersion;
+- (void)refinementModelVersion;
 - (id)k_invoke;
 
 // Remaining properties
-@property(retain) PIBrushStrokeHistory *brushStrokeHistory; // @synthesize brushStrokeHistory=_brushStrokeHistory;
-@property(retain) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) _Bool exportSidecarData; // @synthesize exportSidecarData=_exportSidecarData;
-@property(copy) NSString *pairingIdentifier; // @synthesize pairingIdentifier=_pairingIdentifier;
 @property(retain) NUPriority *priority; // @synthesize priority=_priority;
-@property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 
 @end
 

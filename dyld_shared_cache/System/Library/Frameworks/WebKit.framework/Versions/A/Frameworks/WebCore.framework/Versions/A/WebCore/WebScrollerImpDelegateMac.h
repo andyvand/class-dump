@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebScrollerImpDelegateMac
 {
     struct ThreadSafeWeakPtr<WebCore::ScrollerMac, WTF::NoTaggingTraits<WebCore::ScrollerMac>> _scroller;
-    struct RetainPtr<WebScrollbarPartAnimationMac> _knobAlphaAnimation;
-    struct RetainPtr<WebScrollbarPartAnimationMac> _trackAlphaAnimation;
-    struct RetainPtr<WebScrollbarPartAnimationMac> _uiStateTransitionAnimation;
-    struct RetainPtr<WebScrollbarPartAnimationMac> _expansionTransitionAnimation;
 }
 
 - (void);
@@ -53,13 +47,7 @@ nioîè2õmáèhô
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

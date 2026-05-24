@@ -5,30 +5,25 @@
 //
 
 @class CNQueue;
-@protocol CNEnumeratorRefillStrategy;
 
 __attribute__((visibility("hidden")))
 @interface CNChangeHistoryLegacyResultEnumerator
 {
     CNQueue *_changes;
-    CNQueue *_batchFetchQueue;
-    id <CNEnumeratorRefillStrategy> _refillStrategy;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
-- (void);
+- (void)ҠN�;
 - (id);
 - (id);
 - (id);
 - (void)toryUpdateContactEvent"16;
 
 // Remaining properties
-@property(readonly, nonatomic) CNQueue *batchFetchQueue; // @synthesize batchFetchQueue=_batchFetchQueue;
 @property(readonly, copy, nonatomic) CNQueue *changes; // @synthesize changes=_changes;
-@property(readonly, nonatomic) id <CNEnumeratorRefillStrategy> refillStrategy; // @synthesize refillStrategy=_refillStrategy;
 
 @end
 

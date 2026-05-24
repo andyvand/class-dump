@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBinaryArchive, MTLCommandQueue, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface HDRMetalContext
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    id <MTLBinaryArchive> _archive;
-    id <MTLBinaryArchive> _binaryArchive;
-    struct __CVMetalTextureCache *_textureCache;
 }
 
 + (_Bool);
@@ -42,12 +37,7 @@ __attribute__((visibility("hidden")))
 - (id)ainMap:transform:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBinaryArchive> archive; // @synthesize archive=_archive;
-@property(readonly, nonatomic) id <MTLBinaryArchive> binaryArchive; // @synthesize binaryArchive=_binaryArchive;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) id <MTLLibrary> library; // @synthesize library=_library;
-@property(readonly, nonatomic) struct __CVMetalTextureCache *textureCache; // @synthesize textureCache=_textureCache;
 
 @end
 

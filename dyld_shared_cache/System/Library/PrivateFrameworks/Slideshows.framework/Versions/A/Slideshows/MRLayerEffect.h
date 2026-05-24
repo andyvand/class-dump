@@ -6,42 +6,18 @@
 
 #import <Slideshows/MRLayer.h>
 
-@class MCContainerEffect, MREffect, MRSlideProvider, NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class MREffect;
 
 @interface MRLayerEffect : MRLayer
 {
     MREffect *mEffect;
-    NSString *mEffectID;
-    NSMutableDictionary *mSlideProvidersForElementIDs;
-    NSArray *mSlideProviders;
-    NSMutableDictionary *mSlideShowTimeScripts;
-    NSMutableDictionary *mTextsForElementIDs;
-    MRSlideProvider *mMultiImageModelInput;
-    unsigned int mIndexOfFirstMultiImageInput;
-    struct _NSRange mMultiImageSlideRange;
-    _Bool mNeedsToUpdateEffect;
-    _Bool mNeedsToUpdateTiming;
-    _Bool mNeedsToUpdateSlides;
-    _Bool mNeedsToUpdateTexts;
-    _Bool mNeedsToUpdateEffectAttributes;
-    _Bool mNeedsToUpdateEffectLiveAttributes;
-    _Bool mSlidesAreReadonly;
-    _Bool mHasRequestedMoreSlides;
-    NSString *_panoramaPanningSlideID;
-    double _panoramaPanningPreviousDelta;
-    _Bool _panoramaPanningIsLandscape;
-    _Bool _ignoresNextTimeSynchronization;
-    double _previouslyRenderedContainerTime;
-    _Bool _isInInteractiveMode;
-    NSString *mTargetedElement;
-    NSString *mEditedElement;
-    MCContainerEffect *mContainer;
 }
 
+- (id)ork/Versions/A/CoreFoundation;
+- (void)A/UIKit;
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -52,35 +28,34 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (void);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
+- (void)URLRequest"32@?<v@?q@"NSURLRequest">40;
+- (double)appAnalyticsSportsEventsBaseURLForConfiguration:(id)arg1;
+- (double)appAnalyticsNotificationReceiptEndpointUrlForEnvironment:(id)arg1;
+- (double)appAnalyticsNotificationReceiptEndpointUrlForEnvironment:(id)arg1;
+- (_Bool)_telemetryUploader;
+- (void)_scheduleUploadIfNeededWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(double)arg1 task:(id)arg2 needNewBodyStreamFromOffset:(id)arg3 completionHandler: /* Error: Ran out of types for this method. */;
+- (double)URLSession:(id)arg1 task:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)URLSession:(id)arg1 task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
+- (double)URLSession:(id)arg1 task:didCompleteWithError: /* Error: Ran out of types for this method. */;
+- (double)URLSession:(id)arg1 didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (double);
 - (double);
 - (id);
+- (_Bool)lytics.debugging.batch_bebugging;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool), NSDate *__strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (_Bool)tion:(struct CGPoint (*)[4])arg1 ];
+- (_Bool)ticsUploadScheduler scheduleUploadInWindow:(double *)arg1 withForegroundUploadCompletion:(double *)arg2 ];
+- (void)lyticsUploadScheduler init];
+- (void)loadAssemblerConfigProvider fetchConfigWithCompletion:] /* Error: Ran out of types for this method. */;
+- (id)LugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (id)ePayloadDeliveryWindowForEntries:withLastUploadDatesByContentType:completion:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)^9;
 - (_Bool);
 - (void);
 - (void);
@@ -88,7 +63,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -100,7 +75,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (long long);
@@ -109,7 +84,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
@@ -122,20 +97,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)initForTesting;
 - (void);
 - (id);
-- (void)ix3;
+- (void)uTextureMatrix3;
 
 // Remaining properties
 @property(setter=suspendAsynchronousOperations:) _Bool asynchronousOperationsAreSuspended;
-@property(readonly) MCContainerEffect *container; // @synthesize container=mContainer;
-@property(copy, nonatomic) NSString *editedElement; // @synthesize editedElement=mEditedElement;
-@property(readonly) MREffect *effect; // @synthesize effect=mEffect;
-@property(nonatomic) _Bool isInInteractiveMode; // @synthesize isInInteractiveMode=_isInInteractiveMode;
-@property(readonly) NSDictionary *slideProvidersForElementIDs; // @synthesize slideProvidersForElementIDs=mSlideProvidersForElementIDs;
-@property(copy, nonatomic) NSString *targetedElement; // @synthesize targetedElement=mTargetedElement;
-@property(readonly) NSDictionary *textsForElementIDs; // @synthesize textsForElementIDs=mTextsForElementIDs;
 
 @end
 

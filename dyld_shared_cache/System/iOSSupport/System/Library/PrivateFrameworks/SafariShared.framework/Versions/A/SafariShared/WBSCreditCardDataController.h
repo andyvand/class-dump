@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMapTable, NSMutableArray, NSObject, NSString, PKAutoFillCardManager, PKSafariCardNotificationManager, PKVirtualCardManager;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMapTable;
 
 @interface WBSCreditCardDataController
 {
     NSMapTable *_creditCardDataKeychainReferences;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    PKAutoFillCardManager *_autoFillCardManager;
-    PKVirtualCardManager *_virtualCardManager;
-    PKSafariCardNotificationManager *_virtualCardNotificationManager;
-    NSMutableArray *_queueOfVirtualCardsToFetchDetailsFor;
-    NSCache *_artworkCache;
-    _Bool _isQueueOfVirtualCardsToFetchDetailsForBeingProcessed;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)J0;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (void);
@@ -72,7 +64,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -87,8 +79,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *creditCardData;
-@property(readonly, copy, nonatomic) NSString *messageForUnavailableVirtualCardAlert;
-@property(readonly, copy, nonatomic) NSString *titleForUnavailableVirtualCardAlert;
 
 @end
 

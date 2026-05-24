@@ -7,11 +7,6 @@
 @interface TextToSpeech.AUParamWrapper
 {
     id enabled;
-    id param;
-    id defaultValue;
-    id featureFlag;
-    id internalOnly;
-    id owner;
 }
 
 @end

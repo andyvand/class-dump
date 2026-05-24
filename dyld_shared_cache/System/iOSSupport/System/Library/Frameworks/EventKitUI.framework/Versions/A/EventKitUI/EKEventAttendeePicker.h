@@ -4,84 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchContext, CNAutocompleteResultsTableViewController, CNAutocompleteSearchManager, CNComposeRecipient, CNComposeRecipientTextView, EKEvent, NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSNumber, NSOperationQueue, NSString, UIKeyboard, UIScrollView, UITableView;
-@protocol CalBlockList, EKEventAttendeePickerDelegate;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAttendeePicker
 {
     NSArray *_recipients;
-    CNComposeRecipientTextView *_composeRecipientView;
-    UIScrollView *_recipientScrollView;
-    UITableView *_searchResultsView;
-    _Bool _showingSearchField;
-    UIKeyboard *_keyboard;
-    NSNumber *_lastSearchId;
-    _Bool _ABAccessDenied;
-    long long _maxNumberOfAttendees;
-    _Bool _shouldReenableAutomaticKeyboard;
-    struct CGRect _initialFrame;
-    NSOperationQueue *_availabilityQueue;
-    NSMutableDictionary *_recipientAddressesToRecipients;
-    EKEvent *_event;
-    NSMutableDictionary *_atomPresentationOptionsByRecipient;
-    _Bool _suppressAvailabilityRequests;
-    NSDate *_overriddenEventStartDate;
-    NSDate *_overriddenEventEndDate;
-    CNAutocompleteSearchManager *_searchManager;
-    NSMutableArray *_searchResults;
-    CNAutocompleteResultsTableViewController *_autocompleteTableViewController;
-    CNAutocompleteFetchContext *_fetchContext;
-    CNComposeRecipient *_displayedRecipient;
-    id <CalBlockList> _blockList;
-    _Bool _hasChanges;
-    _Bool _shouldSuggestFamilySharees;
-    NSString *_searchAccountID;
-    id <EKEventAttendeePickerDelegate> _addressValidationDelegate;
-    NSArray *_filterOutFamilySharees;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)&s;
+- (void)*s;
+- (void);
+- (void)Y%s;
+- (id);
+- (id);
+- (id)s;
+- (id)*s;
+- (id);
+- (void);
+- (id)3%s;
 - (_Bool);
 - (void);
+- (void)s;
 - (void);
 - (void);
+- (id);
+- (id)s;
+- (void)s;
+- (void);
+- (double)2%s;
+- (id)*s;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s;
+- (void)%s;
+- (void)n%s;
+- (Class)%s;
 - (Class);
-- (Class);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void){;
+- (_Bool);
+- (_Bool){;
 - (void);
 - (void);
 - (void);
@@ -98,46 +69,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id):(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void)r;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)nÐ1Â0@ù
 × ;
-- (void): /* Error: Ran out of types for this method. */;
-- (_Bool)m;
+- (void)saveEvent:span:error: /* Error: Ran out of types for this method. */;
+- (_Bool)So17EKCalendarWrapperCm;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKEventAttendeePickerDelegate> addressValidationDelegate; // @synthesize addressValidationDelegate=_addressValidationDelegate;
-@property(readonly, nonatomic) NSArray *addresses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *filterOutFamilySharees; // @synthesize filterOutFamilySharees=_filterOutFamilySharees;
-@property(nonatomic) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) NSString *remainingText;
 @property(copy, nonatomic) NSString *searchAccountID; // @synthesize searchAccountID=_searchAccountID;
-@property(nonatomic) _Bool shouldSuggestFamilySharees; // @synthesize shouldSuggestFamilySharees=_shouldSuggestFamilySharees;
-@property(readonly, nonatomic) _Bool showAvailability;
-@property(readonly) Class superclass;
 
 @end
 

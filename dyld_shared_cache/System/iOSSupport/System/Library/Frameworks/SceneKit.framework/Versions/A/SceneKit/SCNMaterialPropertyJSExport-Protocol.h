@@ -4,21 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CAAnimation, NSArray, NSString;
+
 @protocol SCNMaterialPropertyJSExport
+- (long long);
+- (void);
+- (NSArray *)undoButtonHeightConstraint;
+- (CAAnimation *)unarchivedObjectOfClasses:(NSString *)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)(
+;
+- (void)!;
+- (long long)R;
+- (double));
+- (double))))}class EventQueue{#e=[];#t=null;#n(e){switch(e.type){case"webkitsubmit":case"webkitautofillrequest":return e.target;case"webkitbeforefocus":case"webkitbeforeblur":case"webkitusertextinput":case"keydown":return textFieldEventTarget(e);default:return null}}processAndEnqueue(e){const t=this.#n(e);if(!t)return;let n=null;"keydown"===e.type&&(n={key:e.key,shiftKey:e.shiftKey});const s={target:t,type:e.type,data:n};this.#t?this.#t.dispatchEvent(s):(mainScriptLoadRequest.scheduleIfNeeded(),this.#e.push(s))}setDelegate(e){this.#t=e;for(const e of this.#e)this.#t.dispatchEvent(e);this.#e.length=0}}const eventQueue=new EventQueue;class MainScriptLoadRequest{#s=null;#u=!1;scheduleIfNeeded(){this.#u||this.#s||("complete"===document.readyState?this.#i():this.#s=setTimeout(this.#i.bind(this),100))}#i(){this.#u=!0,window.webkit.messageHandlers.controller.postMessage({name:"loadMainScriptRequest"})}}const mainScriptLoadRequest=new MainScriptLoadRequest;addEventListeners();
+0; /* Error: Ran out of types for this method. */;
 - (void)@Tæ®>-¾?ì3ç¾«	@ªD±>§"¯?K#æ¾7¥ü?m´>B[¢?{å¾Ñ$é?Ô·>$?~ãã¾}Ø?º>r?4¿â¾÷Ê?ën¾>tì?á¾ý¾½?ÏÂ>lv?^à¾(Ó²?ü«Ç>»v?j.ß¾ÿ®©?¼Í>ºm?@Þ¾[$¡?EñÒ>ùf?]ùÜ¾Uú?·`Ù>èla?ðÛ¾Cu?_Cà>Õ#]?SêÚ¾Õ?}±ç>:(id)arg1 éY?máÙ¾	6?²ï>ÑW?ÙØ¾ª-?ø>2!V?-°×¾&þ|?: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id borderColor;
 @property(retain, nonatomic) id contents;
-@property(nonatomic) struct SCNMatrix4 contentsTransform;
-@property(nonatomic) double intensity;
-@property(nonatomic) long long magnificationFilter;
-@property(nonatomic) long long mappingChannel;
-@property(nonatomic) double maxAnisotropy;
-@property(nonatomic) long long minificationFilter;
-@property(nonatomic) long long mipFilter;
-@property(nonatomic) long long textureComponents;
-@property(nonatomic) long long wrapS;
-@property(nonatomic) long long wrapT;
 @end
 

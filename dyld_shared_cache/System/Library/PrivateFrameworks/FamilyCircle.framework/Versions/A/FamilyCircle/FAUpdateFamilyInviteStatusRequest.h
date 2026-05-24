@@ -6,29 +6,23 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FAUpdateFamilyInviteStatusRequest : FAFamilyCircleRequest
 {
     NSString *_inviteCode;
-    long long _inviteStatus;
-    NSDictionary *_additionalRequestParameters;
-    long long _responseFormat;
 }
 
+- (long long)clockToAdd;
+- (id)requiresConditionalMultiUserGrounding;
+- (id)SetTvSubscriptionsClientState;
+- (id)headsetId;
 - (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void)g SDP to prack;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *additionalRequestParameters; // @synthesize additionalRequestParameters=_additionalRequestParameters;
 @property(readonly, copy) NSString *inviteCode; // @synthesize inviteCode=_inviteCode;
-@property(readonly) long long inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(readonly) long long responseFormat; // @synthesize responseFormat=_responseFormat;
 
 @end
 

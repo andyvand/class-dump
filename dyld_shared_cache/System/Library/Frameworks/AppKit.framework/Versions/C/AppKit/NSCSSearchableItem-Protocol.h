@@ -5,6 +5,7 @@
 //
 
 @protocol NSCSSearchableItem
+- (_Bool);
 
 // Remaining properties
 @property _Bool isUpdate;

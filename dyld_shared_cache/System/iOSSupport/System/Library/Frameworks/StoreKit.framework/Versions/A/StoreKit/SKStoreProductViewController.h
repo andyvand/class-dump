@@ -4,82 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SKInvocationQueueProxy, SKRemoteProductViewController, SKScrollDetector, _UIAsyncInvocation;
-@protocol SKStoreProductViewControllerDelegate, SKStoreProductViewControllerDelegatePrivate, SKUIServiceProductPageViewController, StoreProductPageMacHelper;
+@class NSString;
 
 @interface SKStoreProductViewController
 {
     NSString *_additionalBuyParameters;
-    NSString *_affiliateIdentifier;
-    _Bool _automaticallyDismisses;
-    _UIAsyncInvocation *_cancelRequest;
-    NSString *_clientIdentifier;
-    id <SKStoreProductViewControllerDelegatePrivate> _delegate;
-    CDUnknownBlockType _loadBlock;
-    long long _originalStatusBarStyle;
-    long long _productPageStyle;
-    SKRemoteProductViewController *_remoteViewController;
-    SKInvocationQueueProxy<SKUIServiceProductPageViewController> *_serviceProxy;
-    NSDictionary *_scriptContextDictionary;
-    _Bool _showsStoreButton;
-    NSString *_cancelButtonTitle;
-    NSString *_rightBarButtonTitle;
-    _Bool _showsRightBarButton;
-    _Bool _askToBuy;
-    NSString *_promptString;
-    SKScrollDetector *_scrollDetector;
-    _Bool _viewWasOnScreen;
-    CDUnknownBlockType _dismissalCompleted;
-    _Bool _viewWillAppearWasCalled;
-    NSString *_bundleID;
-    _Bool _productPageQFAEnabled;
-    id _presentNotificationListener;
-    id _dismissNotificationListener;
-    id <StoreProductPageMacHelper> _productPageHelper;
-    NSString *_hostBundleIdentifier;
-    NSString *_usageContext;
 }
 
+- (id)OM push_subscription WHERE pending = 1 AND schedule_to <= ;
+- (void)CT * FROM push_subscription WHERE asset_url IN ;
+- (void)tEngine.JetPackReader;
+- (void)ersion number is:(id)arg1;
+- (_Bool)etPackLoader had an error when producing the bundle: /* Error: Ran out of types for this method. */;
+- (_Bool)with error: /* Error: Ran out of types for this method. */;
+- (void)cTime, components=;
+- (void)onicTime.swift;
+- (void)as ;
+- (void)ncorrect actor executor assumption; Expected same executor as ;
+- (void)ons;
+- (void);
+- (void)process instructions for ;
+- (void)MetricsPresenter`;
+- (id);
+- (id)ple.JetEngine.actionTypes;
+- (long long)MediaArtwork;
+- (void)to support caching.;
+- (_Bool);
+- (_Bool)llPosition is not in the current roll item's time range;
+- (id)ItemsMediaActivityTracker;
+- (void);
+- (id);
+- (void);
+- (void)};
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (int);
 - (void);
 - (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (int);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -99,27 +70,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *additionalBuyParameters; // @synthesize additionalBuyParameters=_additionalBuyParameters;
-@property(copy, nonatomic) NSString *affiliateIdentifier; // @synthesize affiliateIdentifier=_affiliateIdentifier;
-@property(nonatomic) _Bool askToBuy; // @synthesize askToBuy=_askToBuy;
-@property(nonatomic) _Bool automaticallyDismisses; // @synthesize automaticallyDismisses=_automaticallyDismisses;
-@property(copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SKStoreProductViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hostBundleIdentifier; // @synthesize hostBundleIdentifier=_hostBundleIdentifier;
-@property(nonatomic) long long productPageStyle; // @synthesize productPageStyle=_productPageStyle;
-@property(copy, nonatomic) NSString *promptString; // @synthesize promptString=_promptString;
-@property(copy, nonatomic) NSString *rightBarButtonTitle; // @synthesize rightBarButtonTitle=_rightBarButtonTitle;
-@property(copy, nonatomic) NSDictionary *scriptContextDictionary; // @synthesize scriptContextDictionary=_scriptContextDictionary;
-@property(nonatomic) _Bool showsRightBarButton; // @synthesize showsRightBarButton=_showsRightBarButton;
-@property(nonatomic) _Bool showsStoreButton; // @synthesize showsStoreButton=_showsStoreButton;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *usageContext; // @synthesize usageContext=_usageContext;
 
 @end
 

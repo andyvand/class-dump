@@ -9,27 +9,24 @@
 @interface CNContactLocationVCardSummary
 {
     NSString *_title;
-    NSString *_urlString;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ation;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void)B24@0:8@"<CNCoreRecentsLibraryProviding>"16 /* Error: Ran out of types for this method. */;
-- (id)ernalSyncTagDescription;
+- (id)containerExternalSyncTagDescription;
 - (id)7;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *descriptiveLabel;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

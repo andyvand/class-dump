@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(retain) NSString *accessToken; // @dynamic accessToken;
-@property int responseDataFormat; // @dynamic responseDataFormat;
 
 @end
 

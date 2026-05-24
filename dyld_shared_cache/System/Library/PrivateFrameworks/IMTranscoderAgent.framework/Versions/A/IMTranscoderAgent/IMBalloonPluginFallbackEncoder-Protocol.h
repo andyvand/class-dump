@@ -5,5 +5,13 @@
 //
 
 @protocol IMBalloonPluginFallbackEncoder
+
+@optional
+- (void)essageID=%@
+;
+- (void)ageID(FigEndpointPlaybackSessionRef, CFDictionaryRef);
+- (void)r}] Event received %@
+;
+- (void)me(FigEndpointPlaybackSessionRef, CFDictionaryRef, CFDictionaryRef *);
 @end
 

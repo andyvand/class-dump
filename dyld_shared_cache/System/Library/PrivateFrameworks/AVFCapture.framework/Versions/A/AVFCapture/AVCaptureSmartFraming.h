@@ -9,23 +9,21 @@
 @interface AVCaptureSmartFraming
 {
     NSString *_aspectRatio;
-    float _zoomFactor;
 }
 
-+ (id);
++ (id)bjc_property=}8B16;
 + (void);
-- (id);
-- (void);
+- (id)AutomatedDeviceGroup;
+- (void)triggerKeychainMigrationIfNecessary: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (float)avoCameraVideoCapture4kMaxFPS;
-- (id)om;
+- (id);
+- (id)h;
+- (float)AVGQSuperBravoCameraVideoCapture4kMaxFPS;
+- (id)AVGQDeviceSupportsAudioZoom;
 
 // Remaining properties
 @property(readonly) NSString *aspectRatio;
-@property(readonly) float zoomFactor;
 
 @end
 

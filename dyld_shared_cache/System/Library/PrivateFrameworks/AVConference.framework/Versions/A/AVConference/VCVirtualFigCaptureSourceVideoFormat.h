@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCVirtualFigCaptureSourceVideoFormat
 {
     unsigned int _format;
-    CDStruct_79c71658 _dimensions;
 }
 
 - (void);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (void)%;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1ef3fb1f dimensions; // @synthesize dimensions=_dimensions;
 @property(nonatomic) unsigned int format; // @synthesize format=_format;
 
 @end

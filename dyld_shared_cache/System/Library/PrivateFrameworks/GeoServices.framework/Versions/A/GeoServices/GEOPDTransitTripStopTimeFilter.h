@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDeparturePredicate, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitTripStopTimeFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDDeparturePredicate *_departurePredicateCountdown;
-    GEOPDDeparturePredicate *_departurePredicateStamp;
-    struct GEOPDTimeRange _operatingHoursRange;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _includeRealTimeDepartures;
-    CDStruct_dc7e0232 _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)valueForKey:(id)arg1;
+- (id)terface:queue:delegate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)s";
-- (id)ongSessionData: /* Error: Ran out of types for this method. */;
+- (id)_setPersistedLongSessionData: /* Error: Ran out of types for this method. */;
 - (id)@i;
 - (void)¿}8grJ@;
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void)ld not instantiate an NSViewController for a nib in the "%@" bundle because the bundle has not been loaded.;
 
 // Remaining properties

@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPictureInPictureViewController, AVPlayerController, AVPlayerControllerTimeResolver, CALayerHost, NSString, UIWindow;
-@protocol AVPictureInPictureContentSource, AVPictureInPictureControllerMacHelper, AVPictureInPicturePlatformAdapterDelegate;
+@protocol AVPictureInPictureControllerMacHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVPictureInPicturePlatformAdapter
 {
     _Bool _allowsPictureInPicturePlayback;
-    _Bool _alwaysStartsAutomaticallyWhenEnteringBackground;
-    _Bool _canStartAutomaticallyWhenEnteringBackground;
-    _Bool _canPausePlaybackWhenClosingPictureInPicture;
-    _Bool _requiresLinearPlayback;
-    _Bool _microphoneEnabled;
-    _Bool _managesWiredSecondScreenPlayback;
-    _Bool _anyPictureInPictureActive;
-    _Bool _scrubbingOrSeeking;
-    _Bool _restoringUserInterface;
-    _Bool _routingVideoToHostedWindow;
-    id <AVPictureInPicturePlatformAdapterDelegate> _delegate;
-    AVPlayerController *_playerController;
-    long long _controlsStyle;
-    NSString *_activitySessionIdentifier;
-    long long _backgroundPlaybackPolicy;
-    AVPictureInPictureViewController *_pictureInPictureViewController;
-    long long _status;
-    id <AVPictureInPictureControllerMacHelper> _systemPIPController;
-    AVPlayerControllerTimeResolver *_timeResolver;
-    long long _observedTimeControlStatus;
-    double _rateWhenScrubbingOrSeekingBegan;
-    UIWindow *_bridgingWindow;
-    CALayerHost *_layerHost;
-    id _layerHostBoundsObservationToken;
-    id <AVPictureInPictureContentSource> _source;
-    AVObservationController *_observationController;
 }
 
 + (id);
@@ -46,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Y;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (id);
+- (id)ɇM.;
 - (void);
 - (struct CGRect);
 - (id);
@@ -64,11 +37,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q,;
 - (void);
 - (void);
 - (void);
@@ -78,16 +51,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)';
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long)`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -104,12 +77,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)dictionParams.modelTypeName];
 - (void);
 - (_Bool);
 - (void);
@@ -117,46 +90,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (id)anceAnimator;
+- (id)keyboardUIAvoidanceAnimator;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activitySessionIdentifier; // @synthesize activitySessionIdentifier=_activitySessionIdentifier;
-@property(nonatomic) _Bool allowsPictureInPicturePlayback; // @synthesize allowsPictureInPicturePlayback=_allowsPictureInPicturePlayback;
-@property(nonatomic) _Bool alwaysStartsAutomaticallyWhenEnteringBackground; // @synthesize alwaysStartsAutomaticallyWhenEnteringBackground=_alwaysStartsAutomaticallyWhenEnteringBackground;
-@property(readonly, nonatomic, getter=isAnyPictureInPictureActive) _Bool anyPictureInPictureActive; // @synthesize anyPictureInPictureActive=_anyPictureInPictureActive;
-@property(nonatomic) long long backgroundPlaybackPolicy; // @synthesize backgroundPlaybackPolicy=_backgroundPlaybackPolicy;
-@property(retain, nonatomic) UIWindow *bridgingWindow; // @synthesize bridgingWindow=_bridgingWindow;
-@property(readonly, nonatomic) _Bool canAnimatePictureInPictureTransition;
-@property(nonatomic) _Bool canPausePlaybackWhenClosingPictureInPicture; // @synthesize canPausePlaybackWhenClosingPictureInPicture=_canPausePlaybackWhenClosingPictureInPicture;
-@property(nonatomic) _Bool canStartAutomaticallyWhenEnteringBackground; // @synthesize canStartAutomaticallyWhenEnteringBackground=_canStartAutomaticallyWhenEnteringBackground;
-@property(readonly, nonatomic, getter=isContentSourceSupported) _Bool contentSourceSupported;
-@property(nonatomic) long long controlsStyle; // @synthesize controlsStyle=_controlsStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVPictureInPicturePlatformAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CALayerHost *layerHost; // @synthesize layerHost=_layerHost;
-@property(retain, nonatomic) id layerHostBoundsObservationToken; // @synthesize layerHostBoundsObservationToken=_layerHostBoundsObservationToken;
-@property(nonatomic) _Bool managesWiredSecondScreenPlayback; // @synthesize managesWiredSecondScreenPlayback=_managesWiredSecondScreenPlayback;
-@property(nonatomic, getter=isMicrophoneEnabled) _Bool microphoneEnabled; // @synthesize microphoneEnabled=_microphoneEnabled;
-@property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(nonatomic) long long observedTimeControlStatus; // @synthesize observedTimeControlStatus=_observedTimeControlStatus;
-@property(readonly, nonatomic) AVPictureInPictureViewController *pictureInPictureViewController; // @synthesize pictureInPictureViewController=_pictureInPictureViewController;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) double rateWhenScrubbingOrSeekingBegan; // @synthesize rateWhenScrubbingOrSeekingBegan=_rateWhenScrubbingOrSeekingBegan;
-@property(nonatomic) _Bool requiresLinearPlayback; // @synthesize requiresLinearPlayback=_requiresLinearPlayback;
-@property(nonatomic) _Bool restoringUserInterface; // @synthesize restoringUserInterface=_restoringUserInterface;
-@property(nonatomic, getter=isRoutingVideoToHostedWindow) _Bool routingVideoToHostedWindow; // @synthesize routingVideoToHostedWindow=_routingVideoToHostedWindow;
-@property(nonatomic, getter=isScrubbingOrSeeking) _Bool scrubbingOrSeeking; // @synthesize scrubbingOrSeeking=_scrubbingOrSeeking;
-@property(nonatomic) __weak id <AVPictureInPictureContentSource> source; // @synthesize source=_source;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <AVPictureInPictureControllerMacHelper> systemPIPController; // @synthesize systemPIPController=_systemPIPController;
-@property(readonly, nonatomic, getter=isSystemPictureInPicturePossible) _Bool systemPictureInPicturePossible;
-@property(retain, nonatomic) AVPlayerControllerTimeResolver *timeResolver; // @synthesize timeResolver=_timeResolver;
 
 @end
 

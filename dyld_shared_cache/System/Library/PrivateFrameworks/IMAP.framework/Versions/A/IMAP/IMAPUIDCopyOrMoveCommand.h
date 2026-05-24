@@ -6,23 +6,20 @@
 
 #import <IMAP/IMAPUIDCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMAPUIDCopyOrMoveCommand : IMAPUIDCommand
 {
     _Bool _shouldTryCreate;
-    NSString *_destinationMailboxName;
-    NSString *_destinationMailboxArgumentName;
-    NSDictionary *_messageInfo;
 }
 
 - (void);
+- (void)A;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (_Bool);
 - (id);
@@ -32,14 +29,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *destinationMailboxArgumentName; // @synthesize destinationMailboxArgumentName=_destinationMailboxArgumentName;
 @property(copy) NSString *destinationMailboxName; // @synthesize destinationMailboxName=_destinationMailboxName;
-@property(copy) NSDictionary *messageInfo; // @synthesize messageInfo=_messageInfo;
-@property _Bool shouldTryCreate; // @synthesize shouldTryCreate=_shouldTryCreate;
 
 @end
 

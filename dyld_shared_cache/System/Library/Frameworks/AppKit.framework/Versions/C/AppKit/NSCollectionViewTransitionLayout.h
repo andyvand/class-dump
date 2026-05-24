@@ -6,33 +6,19 @@
 
 #import <AppKit/NSCollectionViewLayout.h>
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface NSCollectionViewTransitionLayout : NSCollectionViewLayout
 {
     NSCollectionViewLayout *_fromLayout;
-    NSCollectionViewLayout *_toLayout;
-    struct CGRect _fromVisibleBounds;
-    struct CGRect _toVisibleBounds;
-    struct CGSize _contentSize;
-    _Bool _haveValidInfos;
-    double _transitionProgress;
-    NSMutableDictionary *_transitionInformationsDict;
-    NSMutableDictionary *_currentLayoutInfos;
-    _Bool _layoutIsValid;
-    NSMutableArray *_disappearingLayoutAttributes;
-    NSMutableArray *_appearingLayoutAttributes;
-    double _accuracy;
 }
 
 - (double);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)divert token queue;
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)responseReceived;
+- (id)_expectedTotalBytes;
+- (id)requestWithURL:(id)arg1;
+- (_Bool)NSTemporaryExceptionRequiresForwardSecrecy;
 - (void);
 - (void);
 - (struct CGRect);
@@ -43,7 +29,7 @@
 - (id);
 - (void)Qã3ð1Â0@ù
 × ;
-- (double)space: /* Error: Ran out of types for this method. */;
+- (double)initFromWindow:toTabBarInWindow:space: /* Error: Ran out of types for this method. */;
 - (struct CGSize)8	ð;
 - (id)nge or timer reset; we're tracking in a scroller.);
 - (void)t this to NSTableView.;
@@ -53,8 +39,6 @@
 - (id)bí;
 
 // Remaining properties
-@property(readonly) NSCollectionViewLayout *currentLayout; // @synthesize currentLayout=_fromLayout;
-@property(readonly) NSCollectionViewLayout *nextLayout; // @synthesize nextLayout=_toLayout;
 @property double transitionProgress; // @dynamic transitionProgress;
 
 @end

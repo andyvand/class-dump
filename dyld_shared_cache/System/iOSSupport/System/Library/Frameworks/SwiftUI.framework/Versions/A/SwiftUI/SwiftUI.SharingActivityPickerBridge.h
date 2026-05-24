@@ -7,14 +7,6 @@
 @interface SwiftUI.SharingActivityPickerBridge
 {
     id host;
-    id overrideArrowDirections;
-    id presenterOverride;
-    id barItemAnchor;
-    id activePresentation;
-    id presented;
-    id lastPresentationSeed;
-    id $__lazy_storage_$_popoverPresentationDelegate;
-    id hasPendingAnchorUpdate;
 }
 
 @end

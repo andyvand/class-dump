@@ -6,19 +6,10 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface VNDetectFaceRectanglesRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _faceCoreEnhanceEyesAndMouthLocalization;
-    _Bool _faceCoreExtractBlink;
-    _Bool _faceCoreExtractSmile;
-    unsigned long long _faceCoreType;
-    NSNumber *_faceCoreMinFaceSize;
-    NSNumber *_faceCoreNumberOfDetectionAngles;
-    NSNumber *_faceCoreInitialAngle;
-    NSNumber *_precisionRecallThresholdOverride;
 }
 
 - (void);
@@ -30,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -42,14 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool faceCoreEnhanceEyesAndMouthLocalization; // @synthesize faceCoreEnhanceEyesAndMouthLocalization=_faceCoreEnhanceEyesAndMouthLocalization;
-@property(nonatomic) _Bool faceCoreExtractBlink; // @synthesize faceCoreExtractBlink=_faceCoreExtractBlink;
-@property(nonatomic) _Bool faceCoreExtractSmile; // @synthesize faceCoreExtractSmile=_faceCoreExtractSmile;
-@property(retain, nonatomic) NSNumber *faceCoreInitialAngle; // @synthesize faceCoreInitialAngle=_faceCoreInitialAngle;
-@property(retain, nonatomic) NSNumber *faceCoreMinFaceSize; // @synthesize faceCoreMinFaceSize=_faceCoreMinFaceSize;
-@property(retain, nonatomic) NSNumber *faceCoreNumberOfDetectionAngles; // @synthesize faceCoreNumberOfDetectionAngles=_faceCoreNumberOfDetectionAngles;
 @property(nonatomic) unsigned long long faceCoreType; // @synthesize faceCoreType=_faceCoreType;
-@property(copy, nonatomic) NSNumber *precisionRecallThresholdOverride; // @synthesize precisionRecallThresholdOverride=_precisionRecallThresholdOverride;
 
 @end
 

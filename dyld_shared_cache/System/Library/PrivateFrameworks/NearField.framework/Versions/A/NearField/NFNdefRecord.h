@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NFNdefRecord
 {
     unsigned char _firstOctet;
-    NSData *_identifier;
-    NSData *_type;
-    NSData *_payload;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)p;
 + (id);
 + (id);
 + (_Bool);
 + (id);
-- (unsigned char);
+- (unsigned char)embers:%@ %@ /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (void)ntacts.CreateContact;
+- (void)ard;
+- (void)ACTION_PHONE_LARGE_TYPE;
+- (void)d)_block_invoke;
+- (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void)t;
+- (_Bool)w;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)<;
 - (void)defRecord>"16;
-- (unsigned char): /* Error: Ran out of types for this method. */;
+- (unsigned char)signWithKey:request:authorization:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool chunked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned char header;
-@property(retain, nonatomic) NSData *identifier;
-@property(nonatomic) _Bool messageBegin;
-@property(nonatomic) _Bool messageEnd;
-@property(retain, nonatomic) NSData *payload;
-@property(nonatomic) _Bool shortRecord;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *type;
-@property(nonatomic) unsigned char typeNameFormat;
 
 @end
 

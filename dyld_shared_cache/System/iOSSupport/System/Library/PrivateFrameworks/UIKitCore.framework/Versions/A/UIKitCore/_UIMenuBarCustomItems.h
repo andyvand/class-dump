@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIMenuBarCustomItems
 {
     NSMutableDictionary *_customMenus;
-    NSMutableDictionary *_customItems;
-    NSMutableSet *_deletedItems;
 }
 
 + (id)ScenePresentationManager"16@"_UIScenePresenter"24;
@@ -20,23 +18,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)transcodeFallbackFileTransferContents:(id)arg1 utiType:(id)arg2 allowUnfilteredUTIs:(id)arg3 target:sizes:commonCapabilities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)reindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler: /* Error: Ran out of types for this method. */;
+- (id)existingChatsFilteredUsingPredicate: /* Error: Ran out of types for this method. */;
+- (id)existingChatWithIdentifier:account: /* Error: Ran out of types for this method. */;
+- (id)didReceiveBalloonPayload:(id)arg1 forChat:(id)arg2 style:(CDUnknownBlockType)arg3 messageGUID:account: /* Error: Ran out of types for this method. */;
+- (id)ntId:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)didPerformAdditionalStorageRequiredCheckWithSuccess:(id)arg1 additionalStorageRequired:(id)arg2 forAccountId:error: /* Error: Ran out of types for this method. */;
+- (void)rrently connected:(id)arg1 %@   (Reachable:%@  On Call:%@  Data+Voice:%@   Result:%@) /* Error: Ran out of types for this method. */;
+- (void)r junk chat command, no message guid received;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)eRendererContext"8;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *customItems; // @synthesize customItems=_customItems;
 @property(retain, nonatomic) NSMutableDictionary *customMenus; // @synthesize customMenus=_customMenus;
-@property(retain, nonatomic) NSMutableSet *deletedItems; // @synthesize deletedItems=_deletedItems;
 
 @end
 

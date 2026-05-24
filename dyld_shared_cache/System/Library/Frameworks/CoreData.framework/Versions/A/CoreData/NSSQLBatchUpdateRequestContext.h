@@ -6,20 +6,19 @@
 
 #import <CoreData/NSSQLBatchOperationRequestContext.h>
 
-@class NSBatchUpdateRequest, NSFetchRequest, NSSQLiteStatement;
+@class NSBatchUpdateRequest, NSSQLiteStatement;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLBatchUpdateRequestContext : NSSQLBatchOperationRequestContext
 {
     NSSQLiteStatement *_updateStatement;
-    NSFetchRequest *_fetchRequest;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool)!<Fù1Ç2Ð1Â0@ù

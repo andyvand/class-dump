@@ -7,13 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)e}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii},N,V_xmlDocument;
+- (id)xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii},N,V_xmlDocument;
+- (id)=},R,N,V_connection;
+- (id)t=},R,N,V_socket;
+- (id)eam=},N,V_stream;
+- (Class)GENT=},N,V_agent;
+- (unsigned long long)(C;
+- (_Bool);
+- (_Bool);
+
+@optional
+- (NSString *)/CloudKit;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

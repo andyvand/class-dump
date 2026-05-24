@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CKDPCSMemoryCache
 {
     unsigned long long _maxEntries;
-    double _minAge;
-    NSMutableDictionary *_cacheEntries;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    double _oldestCacheEntry;
-    unsigned long long _memoryCacheRequestCount;
-    unsigned long long _memoryCacheHitCount;
-    unsigned long long _memoryCacheHighwaterCount;
-    unsigned long long _memoryCacheDeleteCount;
-    unsigned long long _memoryCacheUpdateCount;
-    unsigned long long _memoryCacheEvictCount;
 }
 
 + (void);
 + (void);
++ (void)dictionaryWithCapacity: /* Error: Ran out of types for this method. */;
 + (void);
-+ (void);
-+ (void);
++ (void)$;
 + (void)ord save progress %lf to client for operation %{public}@;
 - (void);
 - (double);
@@ -35,44 +24,35 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
+- (id)a;
+- (void){__CFNumber}^{__CFData}^{__CFString}@Q^{__CFDictionary}@@};
+- (void)ecide the audio device type for audio stream type %@.
+;
+- (unsigned long long)bufferedAudioEngine_enqueueMessageForSending;
 - (unsigned long long);
 - (void);
 - (void);
+- (void);
+- (void)HC;
 - (unsigned long long);
+- (void);
+- (unsigned long long)setLastModified: /* Error: Ran out of types for this method. */;
+- (void)umber",R,N,V_messagesIndexed;
+- (unsigned long long)addressesTableAddressColumnName;
+- (void)ssID %lld but brandIDs do not match:existingBrandID:%{public}@, businessConnectBrandID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
-- (void)tionSecondaryIdentifier;
+- (unsigned long long);
+- (void);
+- (void)sourceApplicationSecondaryIdentifier;
 - (void)oken on %@;
 - (id)c}@, "Invalid device capability check response from the server! Invalid share usage content:%@, zoneID:%@" /* Error: Ran out of types for this method. */;
 - (id)d to load fetched delta for mergeable %@:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)nded and we did attempt a renewal recently. Rate limiting this renewal request;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(retain, nonatomic) NSMutableDictionary *cacheEntries; // @synthesize cacheEntries=_cacheEntries;
-@property(nonatomic) unsigned long long maxEntries; // @synthesize maxEntries=_maxEntries;
-@property unsigned long long memoryCacheDeleteCount; // @synthesize memoryCacheDeleteCount=_memoryCacheDeleteCount;
-@property unsigned long long memoryCacheEvictCount; // @synthesize memoryCacheEvictCount=_memoryCacheEvictCount;
-@property unsigned long long memoryCacheHighwaterCount; // @synthesize memoryCacheHighwaterCount=_memoryCacheHighwaterCount;
-@property unsigned long long memoryCacheHitCount; // @synthesize memoryCacheHitCount=_memoryCacheHitCount;
-@property unsigned long long memoryCacheRequestCount; // @synthesize memoryCacheRequestCount=_memoryCacheRequestCount;
-@property unsigned long long memoryCacheUpdateCount; // @synthesize memoryCacheUpdateCount=_memoryCacheUpdateCount;
-@property(nonatomic) double minAge; // @synthesize minAge=_minAge;
-@property double oldestCacheEntry; // @synthesize oldestCacheEntry=_oldestCacheEntry;
 
 @end
 

@@ -9,16 +9,6 @@
 @interface _UXResizableImage
 {
     NSImage *_topLeftCorner;
-    NSImage *_topEdgeFill;
-    NSImage *_topRightCorner;
-    NSImage *_leftEdgeFill;
-    NSImage *_centerFill;
-    NSImage *_rightEdgeFill;
-    NSImage *_bottomLeftCorner;
-    NSImage *_bottomEdgeFill;
-    NSImage *_bottomRightCorner;
-    double _scale;
-    _Bool _alwaysStretches;
 }
 
 - (void);

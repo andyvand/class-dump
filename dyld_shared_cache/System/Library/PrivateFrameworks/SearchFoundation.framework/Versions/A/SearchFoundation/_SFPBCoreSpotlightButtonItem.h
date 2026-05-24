@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBCoreSpotlightButtonItem
 {
     NSArray *_actionItemTypes;
-    NSString *_applicationBundleIdentifier;
-    NSString *_coreSpotlightIdentifier;
-    unsigned long long _uniqueId;
 }
 
 - (void);
@@ -22,34 +19,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)N;
+- (id)isRejected;
+- (id)_favorite;
+- (id)ublic}@ In library perform for video with progress:%{public}@, asset:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)@"_SFPBViewEmailCommand"16@0:(unsigned long long)arg1 8;
-- (void)ked: /* Error: Ran out of types for this method. */;
+- (void)setIndexOfResultInSectionWhenRanked: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionItemTypes; // @synthesize actionItemTypes=_actionItemTypes;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

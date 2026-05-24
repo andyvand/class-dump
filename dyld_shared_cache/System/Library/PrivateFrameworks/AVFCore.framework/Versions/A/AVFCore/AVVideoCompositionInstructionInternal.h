@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVVideoCompositionInstructionInternal
 {
     CDStruct_e83c9415 timeRange;
-    struct CGColor *backgroundColor;
-    NSArray *layerInstructions;
-    _Bool enablePostProcessing;
-    NSString *blendingTransferFunction;
-    NSArray *requiredSourceSampleDataTrackIDs;
 }
 
 @end

@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCity, NSArray, NSComboBox, NSString, NSTimer;
+@class NSComboBox;
 
 @interface GEOCityPickerViewPrivController
 {
     NSComboBox *comboBox;
-    GEOCity *cityInComboBox;
-    NSArray *citiesInComboMenu;
-    _Bool stopAutomaticCompletion;
-    NSTimer *restartAutoCompletionTimer;
-    NSTimer *showComboMenuTimer;
-    _Bool enabled;
-    _Bool retainedHostWindow;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)e is set to false.;
+- (void)t modifications are not allowed.;
+- (void)entication because account modifications are not allowed.;
+- (void)n existing account. Unable to proceed with the authentication because account modifications are not allowed.;
+- (void)c}@:(id)arg1 [%{public}@] Failed to find an existing account. Unable to proceed with the authentication because account modifications are not allowed.;
+- (void)Creating Event with properties = %{public}@ using account = %{public}@;
+- (id)ublic}@:[%{public}@] Creating Event with properties = %{public}@ using account = %{public}@ /* Error: Ran out of types for this method. */;
+- (id)ation failed with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)expired certificates;
+- (void):%{public}@ /* Error: Ran out of types for this method. */;
+- (void)c}@] Provisioning succeeded.;
+- (void)] Provisioning failed. Error = %{public}@;
+- (void)ing machine data sync;
+- (void):(id)arg1 %{public}@ type:%ld /* Error: Ran out of types for this method. */;
+- (void)%d;
+- (void)=%{public}@. For account %{public}@, %{public}@=%{public}@, therefore requiredType=%{public}@;
+- (_Bool)gement because we failed to get an account.;
+- (_Bool)}@:[%{public}@] No Previous acknowledgement because we failed to get an account. /* Error: Ran out of types for this method. */;
+- (_Bool)acknowledgedVersion = %{public}@;
+- (_Bool)ic}@] Previous Privacy acknowledgement found. acknowledgedVersion = %{public}@;
+- (_Bool)knowledgement is true.;
+- (id)sion = %{public}@;
+- (_Bool)account = %{public}@ | acknowledgedVersion = %{public}@;
+- (id)wledgement.;
+- (void)blic}@ | currentVersion = %{public}@;
+- (void)acknowledgement. acknowledgedVersion = %{public}@;
 - (long long);
 - (void);
 - (void);
@@ -58,17 +51,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *citiesInComboMenu; // @synthesize citiesInComboMenu;
-@property(retain, nonatomic) GEOCity *cityInComboBox; // @synthesize cityInComboBox;
 @property(nonatomic) NSComboBox *comboBox; // @synthesize comboBox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

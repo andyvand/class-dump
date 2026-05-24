@@ -9,13 +9,13 @@
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)chances of losing access to your locked notes.;
++ (id)attachmentbrick_note_loading_file;
 + (_Bool);
 + (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)ble to find a size for attachment:%@ /* Error: Ran out of types for this method. */;
+- (void)copied a note;
 - (id);
 
 // Remaining properties

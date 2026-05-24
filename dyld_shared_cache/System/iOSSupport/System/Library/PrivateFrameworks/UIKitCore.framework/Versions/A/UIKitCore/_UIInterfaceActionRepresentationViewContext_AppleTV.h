@@ -10,26 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionRepresentationViewContext_AppleTV
 {
     UIMotionEffectGroup *_installedHighlightedActionMotionEffectsGroup;
-    _Bool _highlighted;
-    _Bool _pressed;
-    UIView *_highlightTransformTargetView;
-    long long _actionLayoutAxis;
-    double _focusedSizeIncrease;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (double);
-- (long long);
+- (id)submitCloudKitMetricWithData:(long long)arg1 operationGroupName:completion: /* Error: Ran out of types for this method. */;
+- (id)mutableProperties;
+- (id)initWithRecordsToSave:recordIDsToDelete: /* Error: Ran out of types for this method. */;
+- (double)IdentifierExists: /* Error: Ran out of types for this method. */;
+- (long long)markItemForOffGridRelay:inChat: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (struct CATransform3D);
-- (void);
+- (id)il from DeletedMessageStore.;
+- (void)an auto reply in the last %ld messages.;
+- (struct CATransform3D)istent properties;
+- (void)(Fallback);
 - (_Bool);
 - (void)lKeyboardChanged (forceKeyboardAway);
 - (_Bool)om.apple.UIKit.UICPI-beginning-drag-failure-relationship;
@@ -37,11 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)i¢43ëÿ;
 
 // Remaining properties
-@property(nonatomic) long long actionLayoutAxis; // @synthesize actionLayoutAxis=_actionLayoutAxis;
-@property(nonatomic) double focusedSizeIncrease; // @synthesize focusedSizeIncrease=_focusedSizeIncrease;
 @property(nonatomic) __weak UIView *highlightTransformTargetView; // @synthesize highlightTransformTargetView=_highlightTransformTargetView;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic) _Bool pressed; // @synthesize pressed=_pressed;
 
 @end
 

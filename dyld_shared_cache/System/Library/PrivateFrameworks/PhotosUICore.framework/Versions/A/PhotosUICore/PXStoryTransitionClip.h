@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryRecipeDisplayAssetNormalization;
-@protocol PXStoryClip, PXStoryResource;
+@protocol PXStoryClip;
 
 @interface PXStoryTransitionClip
 {
     id <PXStoryClip> _originalClip;
-    CDStruct_c0304e72 _clipInfo;
 }
 
 - (CDStruct_e83c9415);
@@ -20,28 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_c0304e72);
+- (CDStruct_58af7e62);
 - (_Bool);
 - (id);
 - (long long),N,V_solidBackgroundColor;
-- (CDStruct_c0304e72)0¨ ü©;
+- (CDStruct_58af7e62)0¨ ü©;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_c0304e72 clipInfo; // @synthesize clipInfo=_clipInfo;
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) long long identifier;
-@property(readonly, nonatomic) CDStruct_c0304e72 info;
-@property(readonly, nonatomic) id <PXStoryClip> originalClip; // @synthesize originalClip=_originalClip;
-@property(readonly, nonatomic) id <PXStoryResource> resource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange;
+@property(readonly, nonatomic) CDStruct_58af7e62 clipInfo; // @synthesize clipInfo=_clipInfo;
 
 @end
 

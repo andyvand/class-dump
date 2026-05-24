@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (ScreenTime)
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ERT OR IGNORE INTO item_screenshot (item_pid) SELECT item_pid FROM item;
+- (_Bool)k (item_pid) SELECT item_pid FROM item;
+- (_Bool)160030;;
 @end
 

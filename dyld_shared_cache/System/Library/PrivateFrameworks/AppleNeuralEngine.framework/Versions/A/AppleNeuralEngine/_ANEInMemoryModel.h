@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, _ANEClient, _ANEInMemoryModelDescriptor, _ANEModel, _ANEProgramForEvaluation;
+@class _ANEClient;
 
 @interface _ANEInMemoryModel
 {
     BOOL _queueDepth;
-    _Bool _isMILModel;
-    unsigned int _perfStatsMask;
-    NSDictionary *_modelAttributes;
-    NSString *_hexStringIdentifier;
-    unsigned long long _intermediateBufferHandle;
-    _ANEClient *_sharedConnection;
-    NSURL *_modelURL;
-    NSString *_compilerOptionsFileName;
-    _ANEModel *_model;
-    unsigned long long _string_id;
-    unsigned long long _programHandle;
-    _ANEProgramForEvaluation *_program;
-    unsigned long long _state;
-    _ANEInMemoryModelDescriptor *_descriptor;
 }
 
-+ (id);
++ (id)temChange for %{public}@ %@;
 + (id);
 + (void);
 - (void);
@@ -39,53 +25,39 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void)FBluetoothHeadphoneInEarDetectionState"24@"AFBluetoothHeadphoneInEarDetectionState"32;
+- (unsigned long long)24;
+- (unsigned long long)Vv24@0:8@?<v@?@"DIMSchemaDIMClientEvent"@"NSError">16 /* Error: Ran out of types for this method. */;
+- (id)6Q24;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)tector] %@:(unsigned int)arg1 Connecting endpoint=%@;
+- (_Bool)change for service %{public}@;
+- (id)work cache hit for content item %{public}@, artwork %{public}@.;
 - (void);
 - (void);
 - (BOOL);
 - (void);
-- (void);
+- (void)倹hhx;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)n_drain_below_60_15days;
+- (id)soc_curr_static_bin:charge_duration_count_at_charge_start_soc_curr_static_bin:charge_duration_var_at_charge_start_soc_curr_static_bin:charge_duration_p_0_00_at_charge_start_soc_curr_static_bin:charge_duration_p_0_10_at_charge_start_soc_curr_static_bin:charge_duration_p_0_25_at_charge_start_soc_curr_static_bin:charge_duration_p_0_50_at_charge_start_soc_curr_static_bin:charge_duration_p_0_75_at_charge_start_soc_curr_static_bin:charge_duration_p_0_90_at_charge_start_soc_curr_static_bin:charge_duration_p_1_00_at_charge_start_soc_curr_static_bin:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
+- (void)*H;
 - (void);
-- (void);
-- (id)faceWithProtocol: /* Error: Ran out of types for this method. */;
+- (id)interfaceWithProtocol: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *compilerOptionsFileName; // @synthesize compilerOptionsFileName=_compilerOptionsFileName;
-@property(retain, nonatomic) _ANEInMemoryModelDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, copy, nonatomic) NSString *hexStringIdentifier; // @synthesize hexStringIdentifier=_hexStringIdentifier;
-@property(nonatomic) unsigned long long intermediateBufferHandle; // @synthesize intermediateBufferHandle=_intermediateBufferHandle;
-@property(readonly, nonatomic) _Bool isMILModel; // @synthesize isMILModel=_isMILModel;
-@property(retain, nonatomic) _ANEModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSDictionary *modelAttributes; // @synthesize modelAttributes=_modelAttributes;
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(nonatomic) unsigned int perfStatsMask; // @synthesize perfStatsMask=_perfStatsMask;
-@property(retain, nonatomic) _ANEProgramForEvaluation *program; // @synthesize program=_program;
-@property(nonatomic) unsigned long long programHandle; // @synthesize programHandle=_programHandle;
-@property(nonatomic) BOOL queueDepth; // @synthesize queueDepth=_queueDepth;
 @property(readonly, nonatomic) _ANEClient *sharedConnection; // @synthesize sharedConnection=_sharedConnection;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long string_id; // @synthesize string_id=_string_id;
 
 @end
 

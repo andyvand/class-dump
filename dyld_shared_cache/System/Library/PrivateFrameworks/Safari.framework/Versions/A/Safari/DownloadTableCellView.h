@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ConfigurableVibrancyButton, DownloadProgressEntry, NSImageView, NSProgressIndicator, NSStackView, NSTextField, NSTimer, NSTrackingArea;
+@class DownloadProgressEntry, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface DownloadTableCellView
 {
     NSStackView *_mainStackView;
-    NSStackView *_textStackView;
-    NSImageView *_iconImageView;
-    NSTextField *_filenameTextField;
-    NSProgressIndicator *_progressIndicator;
-    NSTextField *_statusTextField;
-    ConfigurableVibrancyButton *_stopResumeButton;
-    ConfigurableVibrancyButton *_revealButton;
-    NSTrackingArea *_stopResumeTrackingArea;
-    NSTrackingArea *_revealTrackingArea;
-    NSTimer *_progressTimer;
-    long long _buttonState;
-    DownloadProgressEntry *_entry;
 }
 
 + (double);
@@ -49,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T(F;
 - (void);
 - (id);
 - (id);
@@ -65,16 +53,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)fication is disabled %@;
 - (void);
-- (void);
-- (id)tadata;
+- (id)neverFetchMetadata;
 - (void)m;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double bestWidth;
 @property(readonly, nonatomic) DownloadProgressEntry *entry; // @synthesize entry=_entry;
 
 @end

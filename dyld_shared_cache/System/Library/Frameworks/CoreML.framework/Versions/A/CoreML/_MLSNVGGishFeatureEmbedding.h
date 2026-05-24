@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 @interface _MLSNVGGishFeatureEmbedding
 {
     id <MLCustomModel> _featureEmbeddingModel;
-    MLModelDescription *_modelDescription;
 }
 
-- (id);
+- (id)atomic_fetch_min;
 - (id);
 - (id);
 - (void)unexpectedly reused the E5 stream.;

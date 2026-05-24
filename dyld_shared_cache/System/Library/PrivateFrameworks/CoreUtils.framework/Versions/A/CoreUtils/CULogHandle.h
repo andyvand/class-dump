@@ -9,8 +9,6 @@
 @interface CULogHandle
 {
     NSString *_categoryName;
-    struct LogCategory *_ucatPtr;
-    NSString *_label;
 }
 
 - (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P/;
 - (id);
 - (void);
 - (void);

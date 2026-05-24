@@ -5,14 +5,12 @@
 //
 
 @class NSArray, NSString;
-@protocol GEOTransitArtworkDataSource;
 
 @protocol GEOTransitNearbyScheduleCategory
+- (NSString *)removeTask:error: /* Error: Ran out of types for this method. */;
 - (NSArray *).ßP@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSArray *groups;
 @end
 

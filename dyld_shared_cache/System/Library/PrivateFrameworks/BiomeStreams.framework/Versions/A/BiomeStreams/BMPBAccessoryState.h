@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface BMPBAccessoryState
 {
     double _numValue;
-    NSData *_dataValue;
-    NSString *_mediaPropertyType;
-    NSString *_stringValue;
-    int _valueType;
-    struct {
-        unsigned int numValue:1;
-        unsigned int valueType:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +20,7 @@
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -38,7 +28,7 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)_ignoreScrollWheelEvents;
 - (id);
 - (id);
 - (id);
@@ -50,16 +40,7 @@
 - (id)¿;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(readonly, nonatomic) _Bool hasDataValue;
 @property(readonly, nonatomic) _Bool hasMediaPropertyType;
-@property(nonatomic) _Bool hasNumValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasValueType;
-@property(retain, nonatomic) NSString *mediaPropertyType; // @synthesize mediaPropertyType=_mediaPropertyType;
-@property(nonatomic) double numValue; // @synthesize numValue=_numValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int valueType; // @synthesize valueType=_valueType;
 
 @end
 

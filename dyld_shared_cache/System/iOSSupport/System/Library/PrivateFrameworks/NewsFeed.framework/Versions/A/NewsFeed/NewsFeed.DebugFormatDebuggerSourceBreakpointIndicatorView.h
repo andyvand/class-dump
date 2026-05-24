@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerSourceBreakpointIndicatorView
 {
     id editor;
-    id sourceMap;
-    id onTap;
 }
 
 - (id);

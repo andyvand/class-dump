@@ -7,10 +7,6 @@
 @interface JetEngine.JetPackAssetSession
 {
     id requestMap;
-    id configuration;
-    id daemonClient;
-    id coreAnalyticsLogger;
-    id observer;
 }
 
 @end

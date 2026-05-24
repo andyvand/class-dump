@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDMAErrorsDimensions;
+@class ODDSiriSchemaODDMAErrorsDimensions;
 
 @interface ODDSiriSchemaODDMAErrorsDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDMAErrorsDimensions *_maErrorsDimensions;
-    unsigned int _maFailureCount;
-    unsigned int _maSuccessCount;
-    struct {
-        unsigned int maFailureCount:1;
-        unsigned int maSuccessCount:1;
-    } _has;
-    _Bool _hasMaErrorsDimensions;
 }
 
 - (void);
@@ -35,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -48,13 +41,7 @@
 - (void)tTypeUnion.flowClientEvent.flowContactTier1.contactName;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaErrorsDimensions; // @synthesize hasMaErrorsDimensions=_hasMaErrorsDimensions;
-@property(nonatomic) _Bool hasMaFailureCount;
-@property(nonatomic) _Bool hasMaSuccessCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDMAErrorsDimensions *maErrorsDimensions; // @synthesize maErrorsDimensions=_maErrorsDimensions;
-@property(nonatomic) unsigned int maFailureCount; // @synthesize maFailureCount=_maFailureCount;
-@property(nonatomic) unsigned int maSuccessCount; // @synthesize maSuccessCount=_maSuccessCount;
 
 @end
 

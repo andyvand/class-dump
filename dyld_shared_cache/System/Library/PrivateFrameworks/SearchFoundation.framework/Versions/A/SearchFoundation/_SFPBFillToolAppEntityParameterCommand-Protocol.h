@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAppEntityAnnotation;
+@class NSData;
 
 @protocol _SFPBFillToolAppEntityParameterCommand
+- (NSData *)_photosHighlightIdentifiersKey;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(retain, nonatomic) _SFPBAppEntityAnnotation *entity;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

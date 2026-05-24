@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SASItnAlignment : AceObject
 {
 }
@@ -22,21 +20,11 @@
 - (long long);
 - (long long);
 - (long long);
-- (id);
+- (id)`B;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long firstPostItnCharPos;
-@property(nonatomic) long long firstPreItnTokenIndex;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lastPostItnCharPos;
-@property(nonatomic) long long lastPreItnTokenIndex;
-@property(readonly) Class superclass;
 
 @end
 

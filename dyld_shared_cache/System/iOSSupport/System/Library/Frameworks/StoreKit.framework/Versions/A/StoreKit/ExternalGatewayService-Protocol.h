@@ -5,5 +5,6 @@
 //
 
 @protocol ExternalGatewayService
+- (void);
 @end
 

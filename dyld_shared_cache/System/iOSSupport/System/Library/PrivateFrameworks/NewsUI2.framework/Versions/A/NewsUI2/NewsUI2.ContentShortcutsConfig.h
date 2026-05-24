@@ -7,12 +7,10 @@
 @interface NewsUI2.ContentShortcutsConfig
 {
     id layoutOptionsProvider;
-    id identifier;
-    id onRefresh;
 }
 
 - (id);
-- (void);
+- (void)TodayTrackerType;
 
 @end
 

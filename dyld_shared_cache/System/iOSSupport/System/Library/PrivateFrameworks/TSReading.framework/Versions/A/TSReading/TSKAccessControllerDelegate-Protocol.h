@@ -5,5 +5,9 @@
 //
 
 @protocol TSKAccessControllerDelegate
+
+@optional
+- (void)s=%@ dialog=%@>;
+- (void);
 @end
 

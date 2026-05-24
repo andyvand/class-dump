@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPAccessPointCorrections, GEORPCorrectedCoordinate, GEORPFeedbackAddressFields, GEORPMapLocation, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPAddressCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPAccessPointCorrections *_accessPoint;
-    GEORPFeedbackAddressFields *_addressFields;
-    GEORPCorrectedCoordinate *_coordinate;
-    GEORPMapLocation *_mapLocation;
-    GEORPFeedbackAddressFields *_originalAddressFields;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_accessPoint:1;
-        unsigned int read_addressFields:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_mapLocation:1;
-        unsigned int read_originalAddressFields:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sMerchantIncorrect:(id)arg1;
-- (void);
++ (_Bool)setIsMerchantIncorrect:(id)arg1;
+- (void)ection>";
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -48,35 +30,25 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)8;
+- (id)runLstmPhsModelWithConfig:withUrl:withConfigRoot:completion: /* Error: Ran out of types for this method. */;
+- (void)sample rate to %d;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
+- (id)eCFDictGetValueErr;
 - (id);
-- (id);
-- (id)nt;
+- (id)aa_primaryAppleAccount;
 - (id)|t;
-- (id)Region;
-- (_Bool)_UP;
+- (id)supportsCollectionByRegion;
+- (_Bool)PAN_UP;
 - (void)êìdp&L@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAccessPointCorrections *accessPoint;
-@property(retain, nonatomic) GEORPFeedbackAddressFields *addressFields;
-@property(retain, nonatomic) GEORPCorrectedCoordinate *coordinate;
-@property(readonly, nonatomic) _Bool hasAccessPoint;
 @property(readonly, nonatomic) _Bool hasAddressFields;
-@property(readonly, nonatomic) _Bool hasCoordinate;
-@property(readonly, nonatomic) _Bool hasMapLocation;
-@property(readonly, nonatomic) _Bool hasOriginalAddressFields;
-@property(retain, nonatomic) GEORPMapLocation *mapLocation;
-@property(retain, nonatomic) GEORPFeedbackAddressFields *originalAddressFields;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

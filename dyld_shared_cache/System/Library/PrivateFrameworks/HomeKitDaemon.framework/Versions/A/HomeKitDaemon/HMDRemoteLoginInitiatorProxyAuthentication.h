@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)"ÜYB;
+- (id)"NSIndexSet",R,N;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (void)ernal.interface;
 

@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface POMMESSchemaPOMMESRequestResult : SISchemaInstrumentationMessage
 {
     double _pommesConfidenceScore;
-    NSString *_pegasusDomain;
-    _Bool _isFromResponseCache;
-    int _pegasusPromptType;
-    _Bool _isLowConfidenceKnowledgeResult;
-    _Bool _isQueryDirectQuestion;
-    struct {
-        unsigned int pommesConfidenceScore:1;
-        unsigned int isFromResponseCache:1;
-        unsigned int pegasusPromptType:1;
-        unsigned int isLowConfidenceKnowledgeResult:1;
-        unsigned int isQueryDirectQuestion:1;
-    } _has;
-    _Bool _hasPegasusDomain;
 }
 
 - (void);
@@ -57,29 +42,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)l;
+- (unsigned long long)AppCapabilities;
 - (_Bool);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (id);
-- (id)responseStatusCode;
+- (id)_responseStatusCode;
 - (id)_isMediaNamePresent;
-- (void)ntentRankerResponse;
+- (void)crossIntentRankerResponse;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFromResponseCache;
-@property(nonatomic) _Bool hasIsLowConfidenceKnowledgeResult;
-@property(nonatomic) _Bool hasIsQueryDirectQuestion;
-@property(nonatomic) _Bool hasPegasusDomain; // @synthesize hasPegasusDomain=_hasPegasusDomain;
-@property(nonatomic) _Bool hasPegasusPromptType;
-@property(nonatomic) _Bool hasPommesConfidenceScore;
-@property(nonatomic) _Bool isFromResponseCache; // @synthesize isFromResponseCache=_isFromResponseCache;
-@property(nonatomic) _Bool isLowConfidenceKnowledgeResult; // @synthesize isLowConfidenceKnowledgeResult=_isLowConfidenceKnowledgeResult;
-@property(nonatomic) _Bool isQueryDirectQuestion; // @synthesize isQueryDirectQuestion=_isQueryDirectQuestion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pegasusDomain; // @synthesize pegasusDomain=_pegasusDomain;
-@property(nonatomic) int pegasusPromptType; // @synthesize pegasusPromptType=_pegasusPromptType;
 @property(nonatomic) double pommesConfidenceScore; // @synthesize pommesConfidenceScore=_pommesConfidenceScore;
 
 @end

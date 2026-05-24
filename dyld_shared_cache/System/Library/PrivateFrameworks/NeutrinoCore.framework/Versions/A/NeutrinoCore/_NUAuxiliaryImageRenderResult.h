@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString;
-@protocol NUAuxiliaryImage, NURenderStatistics;
+@protocol NUAuxiliaryImage;
 
 @interface _NUAuxiliaryImageRenderResult : _NURenderResult
 {
@@ -21,14 +20,6 @@
 
 // Remaining properties
 @property(retain) id <NUAuxiliaryImage> auxiliaryImage; // @synthesize auxiliaryImage=_auxiliaryImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

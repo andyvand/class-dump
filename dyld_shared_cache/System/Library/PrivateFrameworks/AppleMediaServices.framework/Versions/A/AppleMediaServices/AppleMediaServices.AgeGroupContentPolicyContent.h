@@ -7,10 +7,6 @@
 @interface AppleMediaServices.AgeGroupContentPolicyContent
 {
     id id;
-    id type;
-    id href;
-    id attributes;
-    id relationships;
 }
 
 - (void)LsòLsòLsòLsWòLsÁòLsòLsqòLs±òLsòLs-òLsgòLs©òLsÄòLsòLsèòLsâòLs_òLsòLs§òLsòLsßòLsÑòLsòLs<òLsòLsCòLsªòLsòLsDòLsFòLsóòLsËòLs[òLsSòLs]òLs òLsÙòLsdòLsòLsòLs"òLsëòLsaòLsãòLsÛòLsÍòLsÈòLsùòLsÔòLsòLs:òLsEòLs4òLsRòLs¿òLsôòIIÁâ!.­òùaþ¢n-$QY²ñ7þ«;|Õc_|'×qX]ÅÏË)ò/CDGy%M²´®É>å	!²PcÜ/5¹u.I±	_î­ÊAÉoÑ[0óÿ<4º*Ç=ÃÓè¹ËÖX²2¦!e]uÒM.YÔùãß!¨åä@YÔîwf£{E¹>ã7UÄZ+2 /* Error: Ran out of types for this method. */;

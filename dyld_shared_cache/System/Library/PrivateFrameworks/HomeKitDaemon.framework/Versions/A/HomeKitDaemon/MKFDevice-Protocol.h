@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDRPIdentity, HMFProductInfo, MKFDeviceDatabaseID, NSArray, NSDate, NSString, NSUUID;
-@protocol MKFAccount, MKFAppleMediaAccessory, MKFHome, MKFHomeNetworkRouterManagingDeviceSetting, MKFResident;
+@class HMDHomeKitVersion, HMDRPIdentity, HMFProductInfo, NSArray, NSString, NSUUID;
+@protocol MKFAccount, MKFAppleMediaAccessory, MKFHome;
 
 @protocol MKFDevice
-- (NSArray *)urrogateGroup: /* Error: Ran out of types for this method. */;
+- (id <MKFHome>);
+- (id <MKFAppleMediaAccessory>)SharedTripIDSTransport;
+- (HMDHomeKitVersion *)sFirstControlStateOverlay;
+- (id <MKFAccount>)K;
+- (HMFProductInfo *)&ySs_SstG;
+- (NSArray *)addActiveSurrogateGroup: /* Error: Ran out of types for this method. */;
 - (NSUUID *)legate>",W,V_delegate;
 - (void)udio destination manager due to no home;
 - (void)ket:(NSString *)arg1 %d;
 - (HMDRPIdentity *)alBulletinMatterRegistration"8;
-- (void)ticChanged;
+- (void)LockCharacteristicChanged;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAppleMediaAccessory> accessoryAppleMedia;
-@property(readonly, retain, nonatomic) id <MKFAccount> account;
-@property(readonly, copy, nonatomic) MKFDeviceDatabaseID *databaseID;
 @property(retain, nonatomic) NSArray *handles;
-@property(copy, nonatomic) NSUUID *identifier;
-@property(copy, nonatomic) NSUUID *mediaRouteID;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) id <MKFHome> primaryResidentOf;
-@property(retain, nonatomic) HMFProductInfo *productInfo;
-@property(retain, nonatomic) id <MKFResident> resident;
-@property(retain, nonatomic) HMDRPIdentity *rpIdentity;
-@property(retain, nonatomic) id <MKFHomeNetworkRouterManagingDeviceSetting> settingRouterManager;
-@property(retain, nonatomic) HMDHomeKitVersion *version;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     AVAssetDownloadCacheInternal *_internal;
 }
 
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)OJ;
 - (_Bool)sform;
 - (id)\víÿQÎGÝ;
 

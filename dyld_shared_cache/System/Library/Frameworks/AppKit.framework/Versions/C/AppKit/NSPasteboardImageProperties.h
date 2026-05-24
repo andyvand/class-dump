@@ -7,17 +7,13 @@
 @interface NSPasteboardImageProperties
 {
     struct CGSize _pixelSize;
-    struct CGPoint _resolution;
-    unsigned int _orientation;
-    unsigned long long _bitsPerPixel;
-    _Bool _hasAlpha;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)download:decideDestinationWithSuggestedFilename: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGPoint);
 - (unsigned int)ï/Ð!èDùå3ð1Â0@ù
@@ -28,11 +24,7 @@
 - (id)D);
 
 // Remaining properties
-@property unsigned long long bitsPerPixel; // @synthesize bitsPerPixel=_bitsPerPixel;
-@property _Bool hasAlpha; // @synthesize hasAlpha=_hasAlpha;
-@property unsigned int orientation; // @synthesize orientation=_orientation;
 @property struct CGSize pixelSize; // @synthesize pixelSize=_pixelSize;
-@property struct CGPoint resolution; // @synthesize resolution=_resolution;
 
 @end
 

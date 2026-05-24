@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVRoutingDiscoverySessionConfiguration, NSArray, NSMapTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface MRAVRoutingDiscoverySession
 {
     NSArray *_endpointsSnapshot;
-    NSArray *_outputDevicesSnapshot;
-    unsigned int _previousEndpointsDiscoveryMode;
-    unsigned int _previousOutputDevicesDiscoveryMode;
-    _Bool _alwaysAllowUpdates;
-    _Bool _onlyDiscoversBluetoothDevices;
-    _Bool _cachedDiscoveryEnabled;
-    _Bool _alwaysLogUpdates;
-    NSMutableDictionary *_endpointsChangedCallbacks;
-    NSMutableDictionary *_endpointsAddedCallbacks;
-    NSMutableDictionary *_endpointsRemovedCallbacks;
-    NSMutableDictionary *_endpointsModifiedCallbacks;
-    NSMutableDictionary *_outputDevicesChangedCallbacks;
-    NSMutableDictionary *_outputDevicesAddedCallbacks;
-    NSMutableDictionary *_outputDevicesRemovedCallbacks;
-    NSMutableDictionary *_outputDevicesModifiedCallbacks;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMapTable *_clientDiscoveryStates;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
 }
 
 + (id);
@@ -36,7 +16,7 @@
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id)?;
 
 @end
 

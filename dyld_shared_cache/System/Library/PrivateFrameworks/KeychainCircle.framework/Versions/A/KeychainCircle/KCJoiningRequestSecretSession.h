@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCAESGCMDuplexSession, KCSRPClientContext, NSData, NSMutableDictionary, NSString;
 @protocol KCJoiningRequestSecretDelegate;
 
 @interface KCJoiningRequestSecretSession
 {
     int _state;
-    NSString *_altDSID;
-    KCAESGCMDuplexSession *_session;
-    id <KCJoiningRequestSecretDelegate> _secretDelegate;
-    KCSRPClientContext *_context;
-    unsigned long long _dsid;
-    NSString *_piggy_uuid;
-    unsigned long long _piggy_version;
-    unsigned long long _epoch;
-    NSData *_challenge;
-    NSData *_salt;
-    NSString *_sessionUUID;
-    NSString *_flowID;
-    NSString *_deviceSessionID;
-    NSMutableDictionary *_defaults;
 }
 
 + (id);
@@ -50,12 +35,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ow=};
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)sManager:platform:xpcActivityManager: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
@@ -64,29 +49,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain) NSData *challenge; // @synthesize challenge=_challenge;
-@property(readonly) KCSRPClientContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSMutableDictionary *defaults; // @synthesize defaults=_defaults;
-@property(retain) NSString *deviceSessionID; // @synthesize deviceSessionID=_deviceSessionID;
-@property(readonly) unsigned long long dsid; // @synthesize dsid=_dsid;
-@property unsigned long long epoch; // @synthesize epoch=_epoch;
-@property(retain) NSString *flowID; // @synthesize flowID=_flowID;
-@property(retain) NSString *piggy_uuid; // @synthesize piggy_uuid=_piggy_uuid;
-@property unsigned long long piggy_version; // @synthesize piggy_version=_piggy_version;
-@property(retain) NSData *salt; // @synthesize salt=_salt;
 @property __weak id <KCJoiningRequestSecretDelegate> secretDelegate; // @synthesize secretDelegate=_secretDelegate;
-@property(readonly) KCAESGCMDuplexSession *session; // @synthesize session=_session;
-@property(retain) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) int state; // @synthesize state=_state;
 
 @end
 

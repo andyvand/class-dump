@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface XCTMainRunLoopIdleNotifier
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_idleHandlers;
-    struct __CFRunLoopObserver *_runLoopObserver;
 }
 
 - (void);
-- (id);
+- (id)�!;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct __CFRunLoopObserver *);
+- (struct __CFRunLoopObserver *)6o;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableArray *idleHandlers; // @synthesize idleHandlers=_idleHandlers;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property struct __CFRunLoopObserver *runLoopObserver; // @synthesize runLoopObserver=_runLoopObserver;
 
 @end
 

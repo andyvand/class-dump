@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPersistentHistoryToken, NSPersistentStore, NSString;
+@class NSPersistentStore;
 
 __attribute__((visibility("hidden")))
 @interface NSCloudKitMirroringDelegatePreJazzkonMetadata
 {
     NSPersistentStore *_store;
-    _Bool _loaded;
-    _Bool _hasChanges;
-    _Bool _hasInitializedZone;
-    _Bool _hasInitializedZoneSubscription;
-    _Bool _hasInitializedDatabaseSubscription;
-    NSString *_ckIdentityRecordName;
-    _Bool _hasCheckedCKIdentity;
-    NSDictionary *_keyToPreviousServerChangeToken;
-    NSPersistentHistoryToken *_lastHistoryToken;
 }
 
 - (void);

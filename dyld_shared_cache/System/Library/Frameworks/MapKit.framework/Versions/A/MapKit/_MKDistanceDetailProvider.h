@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSString;
+@class MKMapItem;
 
 @interface _MKDistanceDetailProvider
 {
     MKMapItem *_mapItem;
-    NSString *_distanceToPlace;
-    _Bool _useMetric;
-    _Bool _useYardsForShortDistances;
-    CDUnknownBlockType _updateHandler;
 }
 
 + (_Bool);
@@ -30,20 +26,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)pletionHandler: /* Error: Ran out of types for this method. */;
-- (void)Pin;
-- (CDUnknownBlockType)ewShouldUpdateScaleNotification;
+- (void)Response status code %@;
+- (void)setEdgeInsets:duration:timingFunction:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)bubblePin;
+- (CDUnknownBlockType)MKMapViewShouldUpdateScaleNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;
 
 @end

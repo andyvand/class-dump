@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, NSIndexSet;
+@class ICNote;
 
 @interface ICCalculateDocumentController
 {
     void note;
-    id $__lazy_storage_$_scanner;
-    id $__lazy_storage_$_highlighter;
-    id currentTextStorageHash;
-    id updatingExpressions;
-    id needsDocumentUpdate;
-    id $__lazy_storage_$_updateDelayer;
-    id $__lazy_storage_$_highPriorityDelayer;
-    id nextUpdateAffectsChangeCounts;
-    id $__lazy_storage_$_numberFormatter;
-    id $__lazy_storage_$_documentOptions;
-    id updating;
-    id currentScanRequest;
-    id previewedExpressionString;
-    id paperKitDocuments;
-    _Bool isExpressionFormattingEnabled;
-    id isMathPaperSolvingAllowedObservation;
-    id isKeyboardMathSolvingAllowedObservation;
-    id _isCalculateMathEnabled;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -61,11 +43,6 @@
 - (void)"ICSearchResultRegexMatchFinder",&,N,V_titleHighlightRegexMatchFinder;
 
 // Remaining properties
-@property(nonatomic, readonly) NSIndexSet *expressionsIndexSet;
-@property(nonatomic, readonly) _Bool hasExpressions;
-@property(nonatomic, readonly) _Bool isCalculateMathEnabled;
-@property(nonatomic) _Bool isExpressionFormattingEnabled; // @synthesize isExpressionFormattingEnabled;
-@property(nonatomic, readonly) _Bool isUpdating;
 @property(nonatomic) __weak ICNote *note; // @synthesize note;
 
 @end

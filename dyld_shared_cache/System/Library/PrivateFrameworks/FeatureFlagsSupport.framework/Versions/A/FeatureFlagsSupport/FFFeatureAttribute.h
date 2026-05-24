@@ -9,13 +9,12 @@
 @interface FFFeatureAttribute
 {
     NSString *_name;
-    NSString *_value;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)Q16@24;
 - (id);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

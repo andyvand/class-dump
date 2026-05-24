@@ -11,19 +11,19 @@
     NSMutableArray *_wrappingKeyMapEntries;
 }
 
-+ (Class);
++ (Class)assetSavingHelperFromAssetCollectionActionPerformer: /* Error: Ran out of types for this method. */;
+- (unsigned long long)inviteeDisplayNameIncludingEmail: /* Error: Ran out of types for this method. */;
+- (id)inviteParticipants:(unsigned long long)arg1 toSharedAlbum:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)invitationsItems;
+- (void)initWithViewModel:(id)arg1 volumeController:userDefaults: /* Error: Ran out of types for this method. */;
+- (void)defaultBackgroundColor;
+- (void)currentPixelBuffer;
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)d:(id)arg1 ];
+- (_Bool)sEndpoint due to failure to decode configuration from configuration %{public}@;
 - (id);
 - (id);
 - (void)sherArticleVersion"b1"publisherArticleVersionInt64"b1"articleType"b1"backendArticleVersion"b1"characterCount"b1"contentType"b1"feedType"b1"groupType"b1"nextArticleAffordanceType"b1"publisherArticleVersion"b1"resultType"b1"shareLocation"b1"shareMethod"b1"topStoryType"b1"fromNextArticleAffordanceTap"b1"isBreakingNewsArticle"b1"isCoverArticle"b1"isDigitalReplicaAd"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNotificationArticle"b1"isPaidSubscriberToSourceChannel"b1"isSearchResult"b1"isTopStoryArticle"b1"isUserSubscribedToFeed"b1};

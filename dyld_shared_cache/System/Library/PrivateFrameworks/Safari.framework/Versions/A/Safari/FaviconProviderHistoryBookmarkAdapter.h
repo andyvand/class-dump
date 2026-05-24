@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, WBSCacheRetainReleasePolicy;
+@class NSObject;
 @protocol FaviconProviderHistoryBookmarkAdapterDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface FaviconProviderHistoryBookmarkAdapter
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSCacheRetainReleasePolicy *_cachePolicy;
-    _Bool _didNotifyDelegate;
-    long long _bookmarksState;
-    long long _historyState;
-    NSArray *_observers;
-    id <FaviconProviderHistoryBookmarkAdapterDelegate> _delegate;
 }
 
 - (void);
+- (void)F;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)P;
+- (id)with:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)troller;
+- (void)CompletionUIPresentationController;
 - (void)Ô;
 
 // Remaining properties

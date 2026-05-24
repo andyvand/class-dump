@@ -6,31 +6,23 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKReminderUneditableButtonDetailCell, NSObject, NSString;
-@protocol EKReminderUneditableButtonDetailItemDelegate;
+@class EKReminderUneditableButtonDetailCell;
 
 @interface EKReminderUneditableButtonDetailItem : EKEventDetailItem
 {
     EKReminderUneditableButtonDetailCell *_cell;
-    NSObject<EKReminderUneditableButtonDetailItemDelegate> *_uneditableButtonDetailItemDelegate;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)s;
+- (void)T?L;
 - (id);
 - (_Bool);
 - (double)!;
-- (void);
+- (void)sharingStatus;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

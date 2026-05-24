@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVContainerStyleSheet, AVObservationController, NSArray, NSLayoutConstraint, NSMutableArray, NSString, NSView;
+@class NSArray, NSView;
 
 __attribute__((visibility("hidden")))
 @interface AVDisplayModeControlsView
 {
     NSView *_displayModeContainerView;
-    _Bool _viewHasBeenSetUp;
-    AVContainerStyleSheet *_styleSheet;
-    NSMutableArray *_displayModeIncludedButtons;
-    long long _maxControlsCount;
-    long long _currentControlsCount;
-    double _currentWidth;
-    AVObservationController *_observationController;
-    NSLayoutConstraint *_displayContainerLeadingConstraint;
-    NSLayoutConstraint *_displayContainerTrailingConstraint;
-    NSMutableArray *_trailingButtonLinkContraints;
-    NSArray *_displayModeButtons;
 }
 
 - (void);
@@ -28,36 +17,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (struct CGSize);
-- (id);
+- (struct CGSize)ramework/Versions/A/InternationalSupport;
+- (id)__const;
 - (long long);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (double);
+- (double)ring. This is probably not what you want for performance to trigger it from -isEqual:, unless you are running Tests then it's fine {class:%{public}@, self-idsOrdering:%@, other-idsOrdering:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (double)rationTextField: /* Error: Ran out of types for this method. */;
+- (double)setSeekableTimeRangeDurationTextField: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CDStruct_83cd8af5 controlsContentViewMargin;
-@property(readonly) long long cornerRadiusStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *displayModeButtons; // @synthesize displayModeButtons=_displayModeButtons;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGSize intrinsicControlsContentViewSize;
-@property(readonly) long long layoutStyle;
-@property(readonly) double minimumHeight;
-@property(readonly) double minimumWidth;
-@property(readonly) double preferredCornerRadius;
-@property(readonly) Class superclass;
 
 @end
 

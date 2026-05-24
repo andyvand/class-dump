@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)thInputs:(_Bool)arg1 arguments:(id)arg2 output:(unsigned char)arg3 error:] /* Error: Ran out of types for this method. */;
 - (void)tract;
 
 @end

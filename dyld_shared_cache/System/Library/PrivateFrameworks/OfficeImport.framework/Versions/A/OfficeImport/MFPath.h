@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)<%p> Connection state .ready;
 - (id);
 - (struct CGPoint);
 - (int);

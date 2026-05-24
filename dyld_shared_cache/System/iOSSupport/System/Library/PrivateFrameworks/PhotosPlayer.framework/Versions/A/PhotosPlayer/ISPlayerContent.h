@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, NSNumber;
-
 @interface ISPlayerContent
 {
     _Bool _photoHasColorAdjustments;
-    _Bool _photoIsOriginal;
-    _Bool _supportsVitality;
-    int _photoEXIFOrientation;
-    struct CGImage *_photo;
-    AVPlayerItem *_videoPlayerItem;
-    NSNumber *_variationIdentifier;
-    CDStruct_1b6d18a9 _photoTime;
-    CDStruct_1b6d18a9 _videoDuration;
 }
 
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)_fontTextStyle;
+- (_Bool)_componentToComponentTextStylesMap;
+- (int)_componentToComponentStylesMap;
+- (id)_applicators;
+- (id),V_bannerType;
+- (_Bool),N,V_videoType;
+- (id)@"NSSet"24@0:8@"NSSet"16 /* Error: Ran out of types for this method. */;
 - (CDStruct_1b6d18a9);
 - (struct CGImage *);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)s;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *photo; // @synthesize photo=_photo;
-@property(readonly, nonatomic) int photoEXIFOrientation; // @synthesize photoEXIFOrientation=_photoEXIFOrientation;
-@property(readonly, nonatomic) _Bool photoHasColorAdjustments; // @synthesize photoHasColorAdjustments=_photoHasColorAdjustments;
-@property(readonly, nonatomic) _Bool photoIsOriginal; // @synthesize photoIsOriginal=_photoIsOriginal;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
-@property(readonly, nonatomic) _Bool supportsVitality; // @synthesize supportsVitality=_supportsVitality;
-@property(readonly, nonatomic) NSNumber *variationIdentifier; // @synthesize variationIdentifier=_variationIdentifier;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 videoDuration; // @synthesize videoDuration=_videoDuration;
-@property(readonly, nonatomic) AVPlayerItem *videoPlayerItem; // @synthesize videoPlayerItem=_videoPlayerItem;
 
 @end
 

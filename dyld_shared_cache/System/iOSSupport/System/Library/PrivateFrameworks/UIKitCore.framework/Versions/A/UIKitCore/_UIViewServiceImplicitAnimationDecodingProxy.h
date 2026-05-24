@@ -6,29 +6,19 @@
 
 #import <UIKitCore/_UITargetedProxy.h>
 
-@class NSString, _UIViewAnimationAttributes;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceImplicitAnimationDecodingProxy : _UITargetedProxy
 {
     SEL _implicitAnimationSelector;
-    _UIViewAnimationAttributes *_animationAttributes;
-    _Bool _animationsEnabled;
 }
 
 + (id);
 - (void);
-- (void)InterfaceOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)window:(id)arg1 willAnimateFirstHalfOfRotationToInterfaceOrientation:duration: /* Error: Ran out of types for this method. */;
 - (void)¹/3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

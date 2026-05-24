@@ -13,9 +13,9 @@
     NSSet *_supportedNetworks;
 }
 
-- (id);
+- (id);
 - (id)¬	;
-- (void)UBSCRIBE_AND_INSTALL;
+- (void)SUBSCRIBE_AND_INSTALL;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;

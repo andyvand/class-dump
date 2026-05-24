@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale;
+@class NSArray;
 
 @protocol CHTransformedText
 
 // Remaining properties
-@property(readonly) NSLocale *locale;
-@property(readonly, nonatomic) long long strokeClassification;
-@property(readonly) NSArray *supportStrokeTokenRanges;
-@property(readonly) NSArray *supportStrokes;
 @property(readonly) NSArray *textStrokes;
-@property(readonly) NSArray *tokens;
 @end
 

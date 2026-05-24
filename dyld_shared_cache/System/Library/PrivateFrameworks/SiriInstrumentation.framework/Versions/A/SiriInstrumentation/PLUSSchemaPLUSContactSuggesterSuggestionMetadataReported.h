@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactSuggesterSuggestionMetadataReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_suggestionId;
-    _Bool _isDuplicateSuggestion;
-    _Bool _isSuggestionPresentInModelOutput;
-    struct {
-        unsigned int isDuplicateSuggestion:1;
-        unsigned int isSuggestionPresentInModelOutput:1;
-    } _has;
-    _Bool _hasSuggestionId;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)5xb;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,24 +29,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ll begin recovering message parts for %lu unique chatGUIDs;
 - (id);
 - (id);
-- (id)gered;
+- (id)_hasSiriRequestExperimentTriggered;
 - (id)_hasDonorBundleID;
 - (void)VUsoGraphTier1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDuplicateSuggestion;
-@property(nonatomic) _Bool hasIsSuggestionPresentInModelOutput;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(nonatomic) _Bool isDuplicateSuggestion; // @synthesize isDuplicateSuggestion=_isDuplicateSuggestion;
-@property(nonatomic) _Bool isSuggestionPresentInModelOutput; // @synthesize isSuggestionPresentInModelOutput=_isSuggestionPresentInModelOutput;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAImageSizePolicy, NSString;
+@class NSString;
 
 @interface IPAPreviewSizePolicy
 {
     NSString *_name;
-    id _style;
-    IPAImageSizePolicy *_sizePolicy;
-    CDUnknownBlockType _styleNeededThreshold;
-    CDUnknownBlockType _styleProducedThreshold;
-    NSString *_suffix;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)So19AVAssetReaderOutputC;
+- (_Bool)SaySo19AVMutableMovieTrackCG;
+- (_Bool)SSSg;
+- (id)G;
 - (struct PFIntSize_st);
 - (id);
 - (id);
@@ -27,12 +22,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)setMinConfidenceForTripodAccept: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(retain) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end

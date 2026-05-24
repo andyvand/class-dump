@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGCatalogFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -22,28 +17,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)̣;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)eDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilityMetadata_macOS.m:29 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)ed, date_played FROM message;
+- (_Bool)id IN (?;
 - (void);
 - (id);
 - (id);
-- (id)es:(id)arg1;
+- (id)addEnrollmentUtterances:(id)arg1;
 - (id)s;
-- (void)MEDIA_SET_AUDIO_LANGUAGE;
+- (void)HALACTION_MEDIA_SET_AUDIO_LANGUAGE;
 - (void)ted.identityScoreCard.identityScores.loggableSharedUserId;
 - (_Bool)=ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

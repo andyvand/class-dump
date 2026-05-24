@@ -7,15 +7,14 @@
 @class TSWPRep;
 
 @protocol TSWPTextMagnifier
+- (void);
+- (void)orites, %ld recommendations and %ld fallbacks;
+- (struct CGPoint)ndations did get any clustered recommendations, switching to ranked candidates;
+- (struct CGPoint)NewsAudioListeningProgressProvider;
 - (struct CGPoint)### NIL CONTOUR PTR
 ;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint animationPoint;
-@property(nonatomic) struct CGPoint magnificationPoint;
-@property(nonatomic) struct CGPoint offset;
 @property(retain, nonatomic) TSWPRep *target;
-@property(readonly, nonatomic) struct CGPoint terminalPoint;
-@property(readonly, nonatomic) _Bool terminalPointPlacedCarefully;
 @end
 

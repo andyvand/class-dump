@@ -30,7 +30,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NURenderNode *input;
 @property(readonly) NSString *name; // @synthesize name=_name;
 
 @end

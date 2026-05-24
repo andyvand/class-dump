@@ -7,8 +7,6 @@
 @interface JetEngine.JetIntentPreloader
 {
     id enableDispatchingPreloadIntents;
-    id preloadIntentQueue;
-    id dispatcher;
 }
 
 @end

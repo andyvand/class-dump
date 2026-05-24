@@ -11,10 +11,6 @@
 @interface CHTransformedTextLine : CHTransformedTextSegment
 {
     CDStruct_9bc45644 _principalLines;
-    struct BoundingBox _boundingBox;
-    long long _strokeClassification;
-    _Bool _fromCachedTokens;
-    NSArray *_segments;
 }
 
 + (_Bool);
@@ -34,17 +30,17 @@
 + (CDStruct_9bc45644);
 + (id);
 + (id);
-+ (void);
++ (void)Ja;
 + (id);
 + (id);
 - (id);
 - (id);
-- (vector_9d9fb3d0);
+- (vector_f46ce477);
 - (long long);
 - (void);
-- (CDStruct_9bc45644);
+- (CDStruct_9bc45644)J`;
 - (void);
-- (id);
+- (id)r1;
 - (id);
 - (_Bool);
 - (vector_9651d273);
@@ -53,15 +49,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (vector_9651d273);
+- (id)q;
+- (vector_9651d273)d;
 - (id);
 - (void);
+- (id)initWithFamilyMemberType:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)sectionHeader;
 - (struct BoundingBox);
 - (id);
 - (id);
@@ -69,7 +65,6 @@
 - (vector_9651d273);
 
 // Remaining properties
-@property(nonatomic) _Bool fromCachedTokens; // @synthesize fromCachedTokens=_fromCachedTokens;
 @property(readonly) NSArray *segments; // @synthesize segments=_segments;
 
 @end

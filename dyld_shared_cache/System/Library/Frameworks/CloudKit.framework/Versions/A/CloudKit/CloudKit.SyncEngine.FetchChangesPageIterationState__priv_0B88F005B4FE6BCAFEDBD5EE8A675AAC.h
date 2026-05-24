@@ -7,8 +7,6 @@
 @interface CloudKit.SyncEngine.FetchChangesPageIterationState__priv_0B88F005B4FE6BCAFEDBD5EE8A675AAC
 {
     id context;
-    id perZoneErrorMutex;
-    id operationWideErrorMutex;
 }
 
 @end

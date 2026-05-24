@@ -7,9 +7,6 @@
 @interface TextRecognition.CREngineAccurate.Result
 {
     id blocks;
-    id titleRegion;
-    id filteredFeatureCount;
-    id _cachedLines;
 }
 
 @end

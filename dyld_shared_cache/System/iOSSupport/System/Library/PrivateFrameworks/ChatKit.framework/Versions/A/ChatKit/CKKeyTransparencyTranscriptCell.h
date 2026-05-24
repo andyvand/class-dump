@@ -6,36 +6,29 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, UIButton, UIImageView, UILabel;
-@protocol CKKeyTransparencyTranscriptCellDelegate;
+@class UIButton;
 
 @interface CKKeyTransparencyTranscriptCell : CKTranscriptCell
 {
     _Bool _isGroupChat;
-    UIButton *_actionButton;
-    NSAttributedString *_attributedText;
-    unsigned long long _keyTransparencyStatus;
-    id <CKKeyTransparencyTranscriptCellDelegate> _delegate;
-    UILabel *_label;
-    UIImageView *_warningImageView;
 }
 
 + (double);
 + (id);
++ (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
+- (id)imageNamed:withTint: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)",&,N,V_sharedObjectsNotFromDestinationFolderInSource;
 - (id);
-- (id);
+- (id)tGGA5_G;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long)y۞;
+- (void)migrate note because its account is not authenticated — skipping {note:(id)arg1 %@};
+- (id)esentableText=%ld indexableText.length=%ld;
 - (void);
 - (void);
 - (void);
@@ -51,19 +44,13 @@
 - (void);
 - (void);
 - (id);
-- (id)rsations;
+- (id)_testingTrackedConversations;
 - (void)Adding loading indicator to chatController with guid:(id)arg1 %s;
 - (void)cation=%@&Reproducibility=%@&IncludeDevicePrefixInTitle=1;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(nonatomic) __weak id <CKKeyTransparencyTranscriptCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isGroupChat; // @synthesize isGroupChat=_isGroupChat;
-@property(nonatomic) unsigned long long keyTransparencyStatus; // @synthesize keyTransparencyStatus=_keyTransparencyStatus;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) UIImageView *warningImageView; // @synthesize warningImageView=_warningImageView;
 
 @end
 

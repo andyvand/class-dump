@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)h;
+- (void)collectionView;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *allowUserToLock; // @synthesize allowUserToLock=_allowUserToLock;

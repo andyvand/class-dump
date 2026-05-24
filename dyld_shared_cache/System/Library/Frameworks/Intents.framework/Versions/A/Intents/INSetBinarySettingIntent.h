@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSettingMetadata, INTemporalEventTrigger, NSString;
+@class INSettingMetadata;
 
 @interface INSetBinarySettingIntent : INIntent
 {
@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)m;
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)6@?<v@?B>24;
 - (id);
 - (void);
 - (void);
@@ -35,16 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) long long binaryValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSettingMetadata *settingMetadata;
-@property(readonly) Class superclass;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger;
 
 @end
 

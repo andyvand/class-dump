@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTCoreDataContainer, NSString;
-@protocol MTCoreDataContainerConfigProvider;
+@class MTCoreDataContainer;
 
 @interface MTDB
 {
     MTCoreDataContainer *_coreDataContainer;
-    id <MTCoreDataContainerConfigProvider> _config;
 }
 
 + (_Bool);
@@ -26,18 +24,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)	k!;
 + (void);
 + (void);
 + (void);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (void);
++ (void)ak_addDeviceUDIDHeader;
 + (void);
 + (_Bool);
-+ (void)aRequest:(long long)arg1 account:telemetryIdentifier:callback: /* Error: Ran out of types for this method. */;
-+ (_Bool)back;
++ (void)performDataRequest:(long long)arg1 account:telemetryIdentifier:callback: /* Error: Ran out of types for this method. */;
++ (_Bool)completionCallback;
 + (id)GAFySo12NSURLSessionCAH_pGGGGz&$G;
 - (id);
 - (void);
@@ -49,10 +47,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -64,15 +62,7 @@
 - (void)ÿ¶¥ßÿ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTCoreDataContainerConfigProvider> config; // @synthesize config=_config;
 @property(retain, nonatomic) MTCoreDataContainer *coreDataContainer; // @synthesize coreDataContainer=_coreDataContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

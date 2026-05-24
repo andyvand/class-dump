@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKExternalProvisioningPolicy;
+@class PKExternalProvisioningPolicy;
 
 @interface PKExternalProvisioningOptions
 {
     PKExternalProvisioningPolicy *_policy;
-    unsigned long long _authorizationType;
-    NSArray *_devices;
 }
 
 + (id);
 + (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)\};
+- (_Bool)minorReason;
 - (void);
 - (void);
-- (id)nablementPercentageForRegion: /* Error: Ran out of types for this method. */;
-- (id)Transactions:(id)arg1 currencyCode: /* Error: Ran out of types for this method. */;
-- (void)ashSetup;
+- (id)provisioningEnablementPercentageForRegion: /* Error: Ran out of types for this method. */;
+- (id)_spendingCategoriesFromTransactions:(id)arg1 currencyCode: /* Error: Ran out of types for this method. */;
+- (void)appleCashSetup;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long authorizationType; // @synthesize authorizationType=_authorizationType;
-@property(retain, nonatomic) NSArray *devices; // @synthesize devices=_devices;
 @property(retain, nonatomic) PKExternalProvisioningPolicy *policy; // @synthesize policy=_policy;
 
 @end

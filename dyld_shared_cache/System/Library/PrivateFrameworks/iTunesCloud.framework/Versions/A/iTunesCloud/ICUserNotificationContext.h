@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface ICUserNotificationContext
 {
     CDUnknownBlockType _completionHandler;
-    struct __CFRunLoopSource *_runLoopSourceRef;
 }
 
 - (void);
-- (void);
-- (struct __CFRunLoopSource *);
+- (void)ersonalizationController manifestHasInternalUseOnlyBuild:(struct __CFRunLoopSource *)arg1 error:] /* Error: Ran out of types for this method. */;
+- (struct __CFRunLoopSource *)Services/SystemVersion.plist;
 - (CDUnknownBlockType);
 - (void);
 - (void)N,V_globalPlaylistID;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) struct __CFRunLoopSource *runLoopSourceRef; // @synthesize runLoopSourceRef=_runLoopSourceRef;
 
 @end
 

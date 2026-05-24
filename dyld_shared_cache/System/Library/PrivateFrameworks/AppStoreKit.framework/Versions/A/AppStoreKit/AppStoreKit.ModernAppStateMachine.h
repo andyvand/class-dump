@@ -7,8 +7,6 @@
 @interface AppStoreKit.ModernAppStateMachine
 {
     id controller;
-    id observerData;
-    id adamId;
 }
 
 @end

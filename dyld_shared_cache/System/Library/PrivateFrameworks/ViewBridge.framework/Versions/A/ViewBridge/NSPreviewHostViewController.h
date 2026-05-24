@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSString, NSTimer, NSTrackingArea, VBXPCConnectionFenced;
-@protocol NSPreviewHostViewControllerDelegate;
-
 @interface NSPreviewHostViewController
 {
     unsigned int _observingActiveness:1;
-    unsigned int _targetDidBootstrap:1;
-    unsigned int _targetSizeRequestsInProgress;
-    unsigned int _mostRecentKeyboardFocusTheftID;
-    unsigned int _windowObserving;
-    long long _targetWindowStateRequestIdentifier;
-    struct os_unfair_lock_s _retainReleaseLock;
-    id _localEventMonitor;
-    struct CGRect _mostRecentlySentViewFrameInScreenCoords;
-    unsigned char _invalidationProgress;
-    unsigned char _invalidationKind;
-    NSTrackingArea *_trackingArea;
-    NSTimer *_periodicWellnessCheckTimer;
-    CDStruct_4c969caf _mostRecentTargetAuditToken;
-    struct os_unfair_lock_s _mostRecentTargetAuditTokenLock;
-    _Bool _wantsKeyboardFocus;
-    id <NSPreviewHostViewControllerDelegate> _delegate;
-    id _targetControllerProxy;
-    VBXPCConnectionFenced *_connection;
-    id _exportedObject;
 }
 
 + (id);
@@ -45,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (id);
 - (void);
@@ -59,7 +37,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -68,7 +46,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)|;
 - (id);
 - (oneway void);
 - (void);
@@ -84,26 +62,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@(;
 - (void)11Â0@ù
 × ;
 - (void)rget;
 
 // Remaining properties
-@property __weak VBXPCConnectionFenced *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSPreviewHostViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) CAContext *fenceContext;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isValid;
-@property(readonly) Class superclass;
 @property(retain) id targetControllerProxy; // @synthesize targetControllerProxy=_targetControllerProxy;
-@property(nonatomic) _Bool wantsKeyboardFocus; // @synthesize wantsKeyboardFocus=_wantsKeyboardFocus;
 
 @end
 

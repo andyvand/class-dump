@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGSharedLibraryStartQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
-    NSDictionary *_additionalInfo;
 }
 
 - (double);
@@ -23,7 +18,7 @@
 - (id);
 - (unsigned short);
 - (unsigned short);
-- (id);
+- (id)initFromLocationNode:toSubcontinentNode: /* Error: Ran out of types for this method. */;
 - (void)hPartOfDayNode"16^B24;
 
 @end

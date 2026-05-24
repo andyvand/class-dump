@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface PPQuickTypeCachedNameLookup
 {
     NSObject<OS_dispatch_semaphore> *_sem;
-    NSArray *_candidates;
 }
 
 - (void)0@ù

@@ -9,8 +9,6 @@
 @interface AppStoreKit.TapToRate : AppStoreKit.ProductRatingsAndReviewsComponent
 {
     id title;
-    id rating;
-    id rateAction;
 }
 
 @end

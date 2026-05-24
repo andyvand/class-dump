@@ -6,20 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALCompanionDeviceCommunicationEnded : SISchemaInstrumentationMessage
 {
     int _connectionType;
-    _Bool _didConnectionTimeOut;
-    struct {
-        unsigned int connectionType:1;
-        unsigned int didConnectionTimeOut:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,23 +20,19 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
+- (int)tokens for file payloads;
 - (_Bool);
-- (int);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)Favorites;
 - (id)son"b1};
 - (void)entEvent",&,N,V_ancClientEvent;
 - (id)ring",C,N,V_accessoryBrand;
 - (id)¼69ä9;
-- (void)VATION_REQUESTED;
+- (void)IFTMGRUSERTURNCANCELLEDREASON_DEACTIVATION_REQUESTED;
 
 // Remaining properties
 @property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) _Bool didConnectionTimeOut; // @synthesize didConnectionTimeOut=_didConnectionTimeOut;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasDidConnectionTimeOut;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

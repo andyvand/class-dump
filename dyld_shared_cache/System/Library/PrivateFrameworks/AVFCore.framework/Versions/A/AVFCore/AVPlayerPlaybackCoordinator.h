@@ -6,40 +6,20 @@
 
 #import <AVFCore/AVPlaybackCoordinator.h>
 
-@class AVPlayer, AVPlayerPlaybackCoordinatorStorage, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol AVPlayerPlaybackCoordinatorDelegate, OS_dispatch_queue;
+@class AVPlayer, NSString;
 
 @interface AVPlayerPlaybackCoordinator : AVPlaybackCoordinator
 {
     AVPlayer *_weakPlayer;
-    NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    NSObject<OS_dispatch_queue> *_figPlaybackCoordinatorConfigQueue;
-    NSObject<OS_dispatch_queue> *_localParticipantUUIDConfigQueue;
-    struct OpaqueFigPlaybackCoordinator *_figPlaybackCoordinator;
-    NSMutableArray *_suspensionReasons;
-    NSMutableArray *_assumedActiveSuspensions;
-    NSMutableArray *_otherParticipants;
-    AVPlayerPlaybackCoordinatorStorage *_storage;
-    NSMutableArray *_currentSuspensions;
-    AVPlayerPlaybackCoordinator *_weakPrimaryPlaybackCoordinator;
-    AVPlayerPlaybackCoordinator *_interstitialPlaybackCoordinator;
-    NSMutableDictionary *_pendingFigPlaybackCoordinatorProperties;
-    CDStruct_1b6d18a9 _networkToHostTimeOffset;
-    NSMapTable *_playerItemToItemIdentifierMap;
-    unsigned int _defaultItemIdentifierCounter;
-    _Bool _shouldOverrideGroupState;
-    id _suspensionsChangedNotificationToken;
-    id _participantsChangedNotificationToken;
-    id _didIssueCommandToPlaybackObjectNotificationToken;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (struct OpaqueFigPlaybackCoordinator *);
-- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
@@ -50,7 +30,7 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)@C;
 - (void);
 - (void);
 - (_Bool);
@@ -90,17 +70,17 @@
 - (id);
 - (id);
 - (id);
+- (void)a;
 - (void);
-- (void);
-- (id);
+- (id)8	;
 - (int);
-- (void);
+- (void)HeySiri;
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)pM;
 - (void);
 - (id);
 - (void);
@@ -114,27 +94,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)formattedName;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id)not called. Working around what is likely rdar://62751231. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)@ù
 × ;
-- (void)EstimatedDate: /* Error: Ran out of types for this method. */;
+- (void)setInitialEstimatedDate: /* Error: Ran out of types for this method. */;
 - (id)ype AVTrackAssociationTypeSelectionFollower are supported only between AVMediaTypeAudio and AVMediaTypeSubtitle tracks.;
 
 // Remaining properties
-@property __weak id <AVPlayerPlaybackCoordinatorDelegate> delegate;
-@property(readonly, getter=_hasFigPlaybackCoordinator) _Bool hasFigPlaybackCoordinator;
 @property(readonly) NSString *localParticipantUUIDString;
-@property(readonly, nonatomic) __weak AVPlayer *player;
 
 @end
 

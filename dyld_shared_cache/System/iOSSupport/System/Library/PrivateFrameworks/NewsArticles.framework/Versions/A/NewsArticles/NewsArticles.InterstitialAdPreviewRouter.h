@@ -7,8 +7,6 @@
 @interface NewsArticles.InterstitialAdPreviewRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

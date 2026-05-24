@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
-
 @protocol APSTokenInfo
 
 // Remaining properties
-@property(retain, nonatomic) NSData *baseToken;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *topic;
 @property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) NSData *vapidPublicKey;
 @end
 

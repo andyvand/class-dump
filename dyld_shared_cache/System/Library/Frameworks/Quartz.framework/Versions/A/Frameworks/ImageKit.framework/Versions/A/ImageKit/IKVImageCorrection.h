@@ -12,9 +12,9 @@
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)te...;
 
 @end
 

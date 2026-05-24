@@ -6,27 +6,18 @@
 
 #import <CoreML/MLClassifier.h>
 
-@class NSArray, NSData, NSString;
-
 @interface MLTreeEnsembleClassifier : MLClassifier
 {
     vector_7dc4c282 _cached_model;
-    NSData *_model_data;
-    unsigned long long num_dimensions;
-    vector_64acebbd _classes_by_string;
-    vector_ef673ceb _classes_by_int64_t;
-    long long _class_type;
-    NSArray *_class_values;
-    NSString *_single_array_key;
 }
 
-+ (id);
++ (id)LELS,%{public}@,sendCachedLocation,location sent to client with altitude cleared;
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)?;
 - (id);
 - (const char *);
 - (id)Function, CoreML:(double *)arg1:(unsigned long long)arg2 ModelStructure:(id *)arg3:Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>, std::allocator<std::variant<CoreML::ModelStructure::Path::Root, CoreML::ModelStructure::Path::Program, CoreML::ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>>>=^v^v{?=^v}}}24^@48 /* Error: Ran out of types for this method. */;
@@ -35,13 +26,7 @@
 - (id)\"3]¦3Z³3[3XÉ3YÙ3V!3W^3Tà3Ur3R33SÏ3PF3Qå3NU3O®3Li3M3J3K3H3I×3F3G¥3D3E3B©3CP3@ü3AÔ3~/3ã3|3}3zâ3{3xÖ3y_3vv3wë3t3u3r°3sî3pí3q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

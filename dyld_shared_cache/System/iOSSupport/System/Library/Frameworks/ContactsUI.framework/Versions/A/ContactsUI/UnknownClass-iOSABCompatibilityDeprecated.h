@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (iOSABCompatibilityDeprecated)
-+ (id);
++ (id)A/;
 @end
 

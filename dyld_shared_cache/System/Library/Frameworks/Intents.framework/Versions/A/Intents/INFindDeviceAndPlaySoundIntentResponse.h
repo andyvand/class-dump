@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INFindDeviceAndPlaySoundIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)_sandboxType;
++ (int)perties;
++ (long long)PQLResultSetInitializer;
++ (_Bool)QLCacheFileIdentifier;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)triggerStatuses;
+- (id);
+- (void)D10F173E9E;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)eParameterMetadataType;
+- (long long)__INCodableDateComponentsAttributeMetadataINIntentResponseParameterMetadataType;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *devicesFounds;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

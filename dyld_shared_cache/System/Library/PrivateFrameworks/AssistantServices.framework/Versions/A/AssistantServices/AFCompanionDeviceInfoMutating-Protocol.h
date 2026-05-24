@@ -5,5 +5,8 @@
 //
 
 @protocol AFCompanionDeviceInfoMutating
+- (void)5;
+- (void)J;
+- (void);
 @end
 

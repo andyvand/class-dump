@@ -5,5 +5,9 @@
 //
 
 @protocol CalDAVCalendarPropertyRefreshDelegate
+
+@optional
+- (_Bool);
+- (void);
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSDictionary, NSMutableDictionary, NSURL;
+@class MAAutoAssetSelector;
 
 @interface MAAutoAssetLock
 {
     _Bool _inhibitedFromEmergencyRemoval;
-    MAAutoAssetSelector *_fullAssetSelector;
-    NSURL *_localContentURL;
-    NSDictionary *_assetAttributes;
-    NSMutableDictionary *_lockReasons;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
-- (id);
+- (id)initWithName:(id)arg1 delegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *assetAttributes; // @synthesize assetAttributes=_assetAttributes;
 @property(readonly, retain, nonatomic) MAAutoAssetSelector *fullAssetSelector; // @synthesize fullAssetSelector=_fullAssetSelector;
-@property(nonatomic) _Bool inhibitedFromEmergencyRemoval; // @synthesize inhibitedFromEmergencyRemoval=_inhibitedFromEmergencyRemoval;
-@property(readonly, retain, nonatomic) NSURL *localContentURL; // @synthesize localContentURL=_localContentURL;
-@property(retain, nonatomic) NSMutableDictionary *lockReasons; // @synthesize lockReasons=_lockReasons;
 
 @end
 

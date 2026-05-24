@@ -11,10 +11,10 @@
 
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (void)!ÄAùqý#Ð1Â0@ù
 × ;
-- (void)ondsToSelector: /* Error: Ran out of types for this method. */;
+- (void)respondsToSelector: /* Error: Ran out of types for this method. */;
 
 @end
 

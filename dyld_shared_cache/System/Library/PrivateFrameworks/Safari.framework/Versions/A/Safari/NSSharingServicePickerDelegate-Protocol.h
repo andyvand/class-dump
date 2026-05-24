@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSSharingServicePickerDelegate
+
+@optional
+- (NSArray *);
+- (void);
 @end
 

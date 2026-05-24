@@ -5,5 +5,8 @@
 //
 
 @protocol PKInstallServiceClient
+
+@optional
+- (void)@9;
 @end
 

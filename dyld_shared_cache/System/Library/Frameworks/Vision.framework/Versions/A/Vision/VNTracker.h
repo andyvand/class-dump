@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, VNRequestSpecifier;
-
 __attribute__((visibility("hidden")))
 @interface VNTracker
 {
     struct shared_ptr<vision::mod::ObjectTrackerAbstract> mTrackerImpl;
-    VNRequestSpecifier *_originatingRequestSpecifier;
-    unsigned int _trackedFrameCVPixelBufferFormat;
-    NSString *_level;
-    long long _trackedFrameNumber;
-    NSUUID *_key;
-    struct CGRect _lastTrackedBBox;
 }
 
 + (long long);
-+ (id);
++ (id)_contactChanges;
 - (long long);
 - (id);
 - (id);
@@ -46,14 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool isResettable;
 @property(readonly) _Bool isTracking;
-@property(readonly) NSUUID *key; // @synthesize key=_key;
-@property struct CGRect lastTrackedBBox; // @synthesize lastTrackedBBox=_lastTrackedBBox;
-@property(readonly) NSString *level; // @synthesize level=_level;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
-@property unsigned int trackedFrameCVPixelBufferFormat; // @synthesize trackedFrameCVPixelBufferFormat=_trackedFrameCVPixelBufferFormat;
-@property long long trackedFrameNumber; // @synthesize trackedFrameNumber=_trackedFrameNumber;
 
 @end
 

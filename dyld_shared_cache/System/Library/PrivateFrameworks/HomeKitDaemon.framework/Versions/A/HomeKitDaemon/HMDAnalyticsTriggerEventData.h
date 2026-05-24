@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAnalyticsAttributeEventData, HMDAnalyticsCalendarEventData, HMDAnalyticsCharacteristicEventData, HMDAnalyticsCharacteristicThresholdEventData, HMDAnalyticsDurationEventData, HMDAnalyticsLocationEventData, HMDAnalyticsPresenceEventData, HMDAnalyticsSignificantTimeEventData;
+@class HMDAnalyticsCalendarEventData;
 
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsTriggerEventData
 {
     _Bool _endEvent;
-    HMDAnalyticsCalendarEventData *_calendarEvent;
-    HMDAnalyticsCharacteristicEventData *_charEvent;
-    HMDAnalyticsAttributeEventData *_attributeEvent;
-    HMDAnalyticsCharacteristicThresholdEventData *_charThresholdEvent;
-    HMDAnalyticsDurationEventData *_durationEvent;
-    HMDAnalyticsLocationEventData *_locationEvent;
-    HMDAnalyticsPresenceEventData *_presenceEvent;
-    HMDAnalyticsSignificantTimeEventData *_significantTimeEvent;
-    HMDAnalyticsCharacteristicThresholdEventData *_thresholdEvent;
 }
 
-- (id);
-- (id);
+- (id)ed;
+- (id)chunkGroupIDKey;
+- (void)eric;
+- (void)86BTYwNjA2QghUaGUgTG9vcFILUyBXYWNrZXIgRHJaAzIzM2IPMjMzIFMgV2Fja2VyIERyagQ2MzA2cgxXaWxsaXMgVG93ZXKKAQdDaGljYWdvigEIVGhlIExvb3CiAQo2MDYwNi02MzA2ShIJIRqCiHnwREARgBL69LPoVcBYBGISCTJrzmZ68ERAEfH7kujA6FXAcMI7;
 - (void);
 - (void);
 - (void);
@@ -30,30 +23,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (void)le to write receive message;
 - (_Bool);
 - (void)Ïèþm~&ÏèþM~&Péþm~&$Ïèþ;
 
 // Remaining properties
-@property(retain, nonatomic) HMDAnalyticsAttributeEventData *attributeEvent; // @synthesize attributeEvent=_attributeEvent;
 @property(retain, nonatomic) HMDAnalyticsCalendarEventData *calendarEvent; // @synthesize calendarEvent=_calendarEvent;
-@property(retain, nonatomic) HMDAnalyticsCharacteristicEventData *charEvent; // @synthesize charEvent=_charEvent;
-@property(retain, nonatomic) HMDAnalyticsCharacteristicThresholdEventData *charThresholdEvent; // @synthesize charThresholdEvent=_charThresholdEvent;
-@property(retain, nonatomic) HMDAnalyticsDurationEventData *durationEvent; // @synthesize durationEvent=_durationEvent;
-@property(nonatomic) _Bool endEvent; // @synthesize endEvent=_endEvent;
-@property(retain, nonatomic) HMDAnalyticsLocationEventData *locationEvent; // @synthesize locationEvent=_locationEvent;
-@property(retain, nonatomic) HMDAnalyticsPresenceEventData *presenceEvent; // @synthesize presenceEvent=_presenceEvent;
-@property(retain, nonatomic) HMDAnalyticsSignificantTimeEventData *significantTimeEvent; // @synthesize significantTimeEvent=_significantTimeEvent;
-@property(retain, nonatomic) HMDAnalyticsCharacteristicThresholdEventData *thresholdEvent; // @synthesize thresholdEvent=_thresholdEvent;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, RTDefaultsManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTTripRegionChecker
 {
     _Bool _enableRegionCheck;
-    struct CLLocationCoordinate2D _lastQueryVisitCoordinate;
-    NSDate *_lastQueryVisitTime;
-    _Bool _lastTripSegmentGenerationDecision;
-    _Bool _shouldDisableProcessingInChina;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDefaultsManager *_defaultsManager;
 }
 
 - (_Bool);
@@ -32,7 +26,6 @@
 - (id)ion;
 
 // Remaining properties
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

@@ -10,7 +10,6 @@
 @interface PXPortraitFocusView
 {
     id <PXPortraitFocusViewDelegate> _focusViewDelegate;
-    NUMediaView *_mediaView;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void)àÿÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXPortraitFocusViewDelegate> focusViewDelegate; // @synthesize focusViewDelegate=_focusViewDelegate;
 @property(readonly, nonatomic) NUMediaView *mediaView; // @synthesize mediaView=_mediaView;
 
 @end

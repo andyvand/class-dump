@@ -7,17 +7,15 @@
 @interface NewsUI2.SportsNavigationViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
-- (void)ooter;
+- (void)Footer;
 - (void)øÈ4;
 
 @end

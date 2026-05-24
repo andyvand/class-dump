@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface CNVCardImage
 {
     NSData *_data;
-    NSDictionary *_cropRects;
-    struct CGSize _size;
 }
 
 + (struct CGSize);
 - (id);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (id);
 - (id);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *cropRects; // @synthesize cropRects=_cropRects;
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

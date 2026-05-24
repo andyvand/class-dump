@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)(;
++ (id)keyHitTestClosestToPoint: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (_Bool);
@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)__PKCredentialPairingExplanationHeaderViewAccessibility_super;
 
 @end
 

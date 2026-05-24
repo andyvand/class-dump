@@ -9,20 +9,18 @@
 @interface IMKStopwatchTimer
 {
     NSDate *_beginning;
-    NSDate *_currentDate;
 }
 
-+ (id);
++ (id)@;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)addBDCDListWithNotificationArrivalTime:bdcd:queuingDelay: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *beginning; // @synthesize beginning=_beginning;
-@property(retain, nonatomic) NSDate *currentDate; // @synthesize currentDate=_currentDate;
 
 @end
 

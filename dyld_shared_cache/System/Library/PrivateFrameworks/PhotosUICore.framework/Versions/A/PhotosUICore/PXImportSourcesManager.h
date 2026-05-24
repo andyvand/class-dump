@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PHImportController, PHImportSource;
+@class NSMutableArray, PHImportController;
 
 @interface PXImportSourcesManager
 {
     NSMutableArray *_importSources;
-    PHImportSource *_URLImportSource;
-    PHImportController *_importController;
 }
 
-+ (id)derAtIndex: /* Error: Ran out of types for this method. */;
++ (id)splitView:shouldHideDividerAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -21,29 +19,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)BeginScrubbingCodingKeys;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PHImportController *importController; // @synthesize importController=_importController;
-@property(readonly, nonatomic) NSArray *importSources;
-@property(readonly) Class superclass;
 
 @end
 

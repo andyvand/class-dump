@@ -11,7 +11,7 @@
 
 - (id);
 - (struct CGSize);
-- (id);
+- (id)setTagsExpirationLists:(struct CGRect)arg1;
 - (void);
 
 // Remaining properties

@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)ttingsWithPhotoLibrary:andAnalytics: /* Error: Ran out of types for this method. */;
+- (void)_reportCameraSharingSettingsWithPhotoLibrary:andAnalytics: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PHACurareShadowEvaluationRecipeOptions *options; // @synthesize options=_options;

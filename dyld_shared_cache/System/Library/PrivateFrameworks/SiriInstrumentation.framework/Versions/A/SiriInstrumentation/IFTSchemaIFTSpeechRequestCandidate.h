@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTSpeechRequestCandidate : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasStatementId;
 }
 
 - (id);
@@ -25,15 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)xy;
 - (id);
 - (id)",&,N,V_requestReceived;
-- (id)orSiriSchemaExecutorIdentifierQueryCallEnded;
+- (id)ExecutorSiriSchemaExecutorIdentifierQueryCallEnded;
 - (void)² #;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

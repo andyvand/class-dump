@@ -11,7 +11,6 @@
 @interface CNUIEditContactCommand : CNUIUndoableCommand
 {
     CNContact *_updatedContact;
-    CNContact *_originalContact;
 }
 
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *originalContact; // @synthesize originalContact=_originalContact;
 @property(retain, nonatomic) CNContact *updatedContact; // @synthesize updatedContact=_updatedContact;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _ICMusicSubscriptionLeaseIdentityCacheKey
 {
     NSNumber *_delegatedDSID;
-    NSNumber *_DSID;
-    NSString *_carrierBundleDeviceIdentifier;
 }
 
 - (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (id)WUqsCA?=+)¼¾¨ªæäÔÖòðÀÂhjZX|~NL;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(readonly, copy, nonatomic) NSString *carrierBundleDeviceIdentifier; // @synthesize carrierBundleDeviceIdentifier=_carrierBundleDeviceIdentifier;
 @property(readonly, copy, nonatomic) NSNumber *delegatedDSID; // @synthesize delegatedDSID=_delegatedDSID;
 
 @end

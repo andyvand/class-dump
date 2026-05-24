@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSingleServiceWarmupAttemptStarted : SISchemaInstrumentationMessage
 {
     int _serviceType;
-    unsigned int _retryNumber;
-    CDStruct_47eb6c71 _has;
 }
 
 - (void);
@@ -21,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
-- (void);
-- (void);
+- (void);
+- (void)GENERAL_ALLOCATE_BOOLEAN;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -37,10 +33,6 @@
 - (id)hemaAnnounceCarPlayGlyphSettingToggled",&,N,V_announceCarPlayGlyphSettingToggled;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRetryNumber;
-@property(nonatomic) _Bool hasServiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int retryNumber; // @synthesize retryNumber=_retryNumber;
 @property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
 
 @end

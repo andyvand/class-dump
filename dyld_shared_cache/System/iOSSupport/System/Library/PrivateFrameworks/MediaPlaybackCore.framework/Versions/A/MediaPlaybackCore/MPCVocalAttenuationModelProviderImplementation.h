@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCVocalAttenuationModel, NSError, NSObject, NSString;
+@class MPCVocalAttenuationModel, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationModelProviderImplementation
 {
     NSObject<OS_dispatch_queue> *_creationQueue;
-    MPCVocalAttenuationModel *_model;
-    long long _state;
-    NSError *_loadingError;
 }
 
 - (_Bool);
-- (id);
+- (id)er not satisfying:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -26,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)isEqualToString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -44,12 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)RestorationWithTargetContentItemID:completion:| restoration failed [adding playback context failed (autoplay SIL)] dataSourceState=%p sectionID=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *basePath;
-@property(copy, nonatomic) NSError *loadingError; // @synthesize loadingError=_loadingError;
 @property(retain, nonatomic) MPCVocalAttenuationModel *model; // @synthesize model=_model;
-@property(readonly, copy, nonatomic) NSString *modelName;
-@property(readonly, copy, nonatomic) NSString *plistPath;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

@@ -8,9 +8,9 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)_VCAudioStreamGroup_ApplyAudioPlayoutDelay;
+- (id)treamGroupCommon didUpdateBasebandCodec:(id)arg1 ];
+- (id)eAudioIO:(id)arg1 ];
 
 @end
 

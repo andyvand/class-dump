@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEvent;
-
 @interface _UIHitTestContext
 {
     double _radius;
-    UIEvent *_event;
-    struct CGPoint _point;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)itemsWithHandles:(struct CGPoint)arg1 onServices:(double)arg2 limit:(id)arg3;
 - (id)nsformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
 - (double)T@"UIView",N,R,VcaptureView;
 - (struct CGPoint)%{public}d hasExternalConnected=%{public}d isCharging=%{public}d isFullyCharged=%{public}d;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIEvent *event; // @synthesize event=_event;
 @property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

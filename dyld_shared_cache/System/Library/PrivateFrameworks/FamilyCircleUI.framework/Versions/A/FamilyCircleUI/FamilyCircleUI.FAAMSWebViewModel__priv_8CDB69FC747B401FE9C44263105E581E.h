@@ -7,12 +7,6 @@
 @interface FamilyCircleUI.FAAMSWebViewModel__priv_8CDB69FC747B401FE9C44263105E581E
 {
     id _authenticateRequest;
-    id _authenticateCompletion;
-    id _dialogRequest;
-    id _dialogCompletion;
-    id bag;
-    id $__lazy_storage_$_webModel;
-    id _$observationRegistrar;
 }
 
 @end

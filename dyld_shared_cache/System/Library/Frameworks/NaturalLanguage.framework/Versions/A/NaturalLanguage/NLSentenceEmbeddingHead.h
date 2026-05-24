@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLModelConfiguration, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NLSentenceEmbeddingHead
 {
     unsigned long long _inputDimension;
-    unsigned long long _outputDimension;
-    NSURL *_modelURL;
-    MLModelConfiguration *_configuration;
-    MLModel *_model;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_faceAreaMinX;
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool){I;
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id)á¾Ð!EùQE 1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long inputDimension; // @synthesize inputDimension=_inputDimension;
-@property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;
 @property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly) unsigned long long outputDimension; // @synthesize outputDimension=_outputDimension;
-@property(readonly) Class superclass;
 
 @end
 

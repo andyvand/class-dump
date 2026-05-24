@@ -10,7 +10,7 @@
 {
 }
 
-- (id)r_op_family_stmt__pack;
+- (id)pg_query__alter_op_family_stmt__pack;
 
 @end
 

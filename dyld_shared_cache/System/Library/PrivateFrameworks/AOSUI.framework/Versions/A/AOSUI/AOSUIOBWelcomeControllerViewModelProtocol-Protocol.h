@@ -9,32 +9,13 @@
 @protocol AOSUIOBWelcomeControllerViewModelProtocol
 
 @optional
+- (void)A;
 - (NSView *)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSView *contentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView",?,C,N
-
 @property(copy, nonatomic) NSImage *image;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSImage",?,C,N
-
-@property(readonly, nonatomic) _Bool shouldEnableFirstButtonOnLoad;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowHelpLinkAsTemplateButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) long long templateContentViewLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long templateType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
 
 @end
 

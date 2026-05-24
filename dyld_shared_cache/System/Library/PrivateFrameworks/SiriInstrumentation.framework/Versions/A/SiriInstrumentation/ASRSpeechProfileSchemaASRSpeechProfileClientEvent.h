@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata, ASRSpeechProfileSchemaASRSpeechProfileUpdateContext, NSData, SISchemaInstrumentationMessage;
+@class ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ASRSpeechProfileSchemaASRSpeechProfileClientEvent : SISchemaTopLevelUnionType
 {
     ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata *_eventMetadata;
-    ASRSpeechProfileSchemaASRSpeechProfileUpdateContext *_speechProfileUpdateContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasSpeechProfileUpdateContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -28,7 +24,7 @@
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)/;
 - (void);
 - (id);
 - (id);
@@ -39,21 +35,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)nation;
-- (id)ode;
-- (unsigned long long)nTranscriptionMetadata;
+- (id)viewRegionDesignation;
+- (id)deleteResidentFirstErrorCode;
+- (unsigned long long)_dictationTranscriptionMetadata;
 - (id);
 - (id);
 - (void)\¬ÿÐ®:¹& /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasSpeechProfileUpdateContext; // @synthesize hasSpeechProfileUpdateContext=_hasSpeechProfileUpdateContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileUpdateContext *speechProfileUpdateContext; // @synthesize speechProfileUpdateContext=_speechProfileUpdateContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

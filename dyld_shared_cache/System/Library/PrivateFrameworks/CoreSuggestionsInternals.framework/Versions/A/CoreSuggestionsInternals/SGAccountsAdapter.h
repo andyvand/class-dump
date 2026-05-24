@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSSet;
 
 @interface SGAccountsAdapter
 {
     NSSet *_usernamesCache;
-    ACAccountStore *_accountStore;
-    NSString *_cachedPrimaryICloudAccount;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    NSObject<OS_dispatch_source> *_updateSource;
-    _Bool _updateTimerIsSet;
-    NSObject<OS_dispatch_queue> *_updateTimerQueue;
-    NSObject<OS_dispatch_source> *_updateTimerSource;
 }
 
 + (id);
-+ (_Bool)entExtraction;
++ (_Bool)MessagesMLEventExtraction;
 - (void);
 - (void);
 - (void);
@@ -28,8 +20,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)mMainSeqTimeNodeId;
+- (_Bool)L;
 - (id);
 - (void);
 - (id);

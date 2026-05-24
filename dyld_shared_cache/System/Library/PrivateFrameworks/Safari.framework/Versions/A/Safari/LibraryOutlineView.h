@@ -6,16 +6,12 @@
 
 #import <Safari/OutlineViewPlus.h>
 
-@class NSString, NSTrackingArea;
 @protocol LibraryOutlineViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LibraryOutlineView : OutlineViewPlus
 {
     long long _longClickedRow;
-    NSTrackingArea *_trackingArea;
-    _Bool _draggingSessionActive;
-    _Bool _tabGroupDraggingSessionActive;
 }
 
 - (void);
@@ -43,16 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿýÆ?À.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <LibraryOutlineViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool draggingSessionActive; // @synthesize draggingSessionActive=_draggingSessionActive;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tabGroupDraggingSessionActive; // @synthesize tabGroupDraggingSessionActive=_tabGroupDraggingSessionActive;
 
 @end
 

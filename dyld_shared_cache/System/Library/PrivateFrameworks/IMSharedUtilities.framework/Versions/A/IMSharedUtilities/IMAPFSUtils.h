@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)qIL;
 + (unsigned long long);
 
 @end

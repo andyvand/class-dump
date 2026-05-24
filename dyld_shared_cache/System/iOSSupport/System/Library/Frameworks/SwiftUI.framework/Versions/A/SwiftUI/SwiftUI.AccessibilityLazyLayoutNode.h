@@ -13,7 +13,7 @@
 }
 
 - (_Bool);
-- (void);
+- (void)So11UITableViewCXo;
 - (id);
 
 // Remaining properties

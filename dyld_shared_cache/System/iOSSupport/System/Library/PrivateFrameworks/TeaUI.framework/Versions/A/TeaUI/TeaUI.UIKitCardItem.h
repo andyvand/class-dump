@@ -7,25 +7,11 @@
 @interface TeaUI.UIKitCardItem
 {
     id presentedWrapper;
-    id $__lazy_storage_$_presentingWrapper;
-    id viewController;
-    id behavior;
-    id detents;
-    id previousPresentedViewFrame;
-    id presentationState;
-    id previousPresentationState;
-    id transitionDelegate;
-    id cardContainerController;
-    id layoutOptions;
-    id animationDelegate;
-    id parentAnimationDelegate;
-    id updatedDetent;
-    id futurePresentationState;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)16;
 - (void),ÕúÿÔÕúÿ¬ÖúÿÐÖúÿD×úÿh×úÿ×úÿ×úÿ×úÿ¼×úÿà×úÿì×úÿø×úÿØúÿ(ØúÿLØúÿXØúÿ|Øúÿ ØúÿÄØúÿ$Úúÿ`ÚúÿÚúÿÀÚúÿDÜúÿÀÜúÿ¬ßúÿ¸àúÿÄàúÿáúÿÌáúÿðáúÿâúÿ`âúÿâúÿÀâúÿØâúÿàãúÿäúÿ@äúÿXäúÿdäúÿpäúÿlæúÿæúÿðçúÿLèúÿÈèúÿtéúÿéúÿ<ëúÿHëúÿÌëúÿíúÿíúÿüíúÿ îúÿ\îúÿîúÿîúÿïúÿ¸ïúÿÜïúÿ;
 - (void);
 

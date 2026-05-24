@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject;
-@protocol AVCEffectsDelegate, OS_dispatch_queue;
+@protocol AVCEffectsDelegate;
 
 @interface AVCEffects
 {
     id _delegate;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_avConferenceEffectsQueue;
-    int _mode;
-    _Bool _isEffectsApplied;
-    _Bool _isFaceMeshTrackingEnabled;
-    int _effectType;
 }
 
 - (_Bool);
-- (void);
+- (void)k�;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) id <AVCEffectsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) int effectType; // @synthesize effectType=_effectType;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
 
 @end
 

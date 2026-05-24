@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, SGMIWarningsDetectionRegex;
+@class SGMIWarningsDetectionRegex;
 
 @interface SGMIWarningsDetectionRegexes
 {
     SGMIWarningsDetectionRegex *_subject;
-    SGMIWarningsDetectionRegex *_body;
-    NSDictionary *_dataDetectorMappedAdditions;
-    NSDictionary *_dataDetectorAdditions;
 }
 
-+ (id);
++ (id)_webAuthVC;
+- (id)(<;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)¤;
 - (id)EMENT,featureName INTEGER NOT NULL,token TEXT NOT NULL,is_unigram BOOLEAN NOT NULL,salientCount INTEGER NOT NULL,regularCount INTEGER NOT NULL);
 
 // Remaining properties
-@property(readonly, nonatomic) SGMIWarningsDetectionRegex *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSDictionary *dataDetectorAdditions; // @synthesize dataDetectorAdditions=_dataDetectorAdditions;
-@property(readonly, nonatomic) NSDictionary *dataDetectorMappedAdditions; // @synthesize dataDetectorMappedAdditions=_dataDetectorMappedAdditions;
 @property(readonly, nonatomic) SGMIWarningsDetectionRegex *subject; // @synthesize subject=_subject;
 
 @end

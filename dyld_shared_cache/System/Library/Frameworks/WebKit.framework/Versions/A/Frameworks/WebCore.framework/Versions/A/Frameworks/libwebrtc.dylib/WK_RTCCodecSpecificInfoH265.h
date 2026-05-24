@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WK_RTCCodecSpecificInfoH265
 {
     unsigned long long _packetizationMode;
 }
 
-- (void);
-- (unsigned long long);
-- (struct CodecSpecificInfo);
+- (void)Current;
+- (unsigned long long)missing in the provided mapping table;
+- (struct CodecSpecificInfo)nternal/Library/BuildRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/PathImpl.cpp;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long packetizationMode; // @synthesize packetizationMode=_packetizationMode;
-@property(readonly) Class superclass;
 
 @end
 

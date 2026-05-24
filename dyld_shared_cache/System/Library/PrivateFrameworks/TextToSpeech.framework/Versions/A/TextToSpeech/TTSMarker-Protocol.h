@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisMarker;
-
 @protocol TTSMarker
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVSpeechSynthesisMarker *avMark;
-@property(nonatomic) long long byteOffset;
 @property(readonly, nonatomic) long long markType;
 @end
 

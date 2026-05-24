@@ -9,13 +9,6 @@
 @interface BMPBAppClipLaunchEvent
 {
     NSString *_appBundleID;
-    NSString *_clipBundleID;
-    NSString *_fullURL;
-    NSString *_launchReason;
-    NSString *_referrerBundleID;
-    NSString *_referrerURL;
-    NSString *_uRLHash;
-    NSString *_webAppBundleID;
 }
 
 - (void);
@@ -24,7 +17,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,7 +25,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,31 +38,16 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_writesTemporaryFilesInsideDestination;
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(retain, nonatomic) NSString *clipBundleID; // @synthesize clipBundleID=_clipBundleID;
-@property(retain, nonatomic) NSString *fullURL; // @synthesize fullURL=_fullURL;
-@property(readonly, nonatomic) _Bool hasAppBundleID;
-@property(readonly, nonatomic) _Bool hasClipBundleID;
-@property(readonly, nonatomic) _Bool hasFullURL;
-@property(readonly, nonatomic) _Bool hasLaunchReason;
-@property(readonly, nonatomic) _Bool hasReferrerBundleID;
-@property(readonly, nonatomic) _Bool hasReferrerURL;
 @property(readonly, nonatomic) _Bool hasURLHash;
-@property(readonly, nonatomic) _Bool hasWebAppBundleID;
-@property(retain, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(retain, nonatomic) NSString *referrerBundleID; // @synthesize referrerBundleID=_referrerBundleID;
-@property(retain, nonatomic) NSString *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(retain, nonatomic) NSString *uRLHash; // @synthesize uRLHash=_uRLHash;
-@property(retain, nonatomic) NSString *webAppBundleID; // @synthesize webAppBundleID=_webAppBundleID;
 
 @end
 

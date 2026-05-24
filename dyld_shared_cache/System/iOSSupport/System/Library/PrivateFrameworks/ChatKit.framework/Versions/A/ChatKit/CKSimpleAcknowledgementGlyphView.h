@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)P;
+- (id)setHeight: /* Error: Ran out of types for this method. */;
 - (double)ÿ;
 - (void);
 - (void)  ;

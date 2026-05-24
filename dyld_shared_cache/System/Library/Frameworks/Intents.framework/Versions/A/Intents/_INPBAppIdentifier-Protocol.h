@@ -7,14 +7,10 @@
 @class NSString;
 
 @protocol _INPBAppIdentifier
-- (void)emoveLocationForUpdateEvent:(NSString *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (NSString *)_;
+- (void)resolveRemoveLocationForUpdateEvent:(NSString *)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appName;
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(copy, nonatomic) NSString *bundleVersion;
-@property(readonly, nonatomic) _Bool hasAppName;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasBundleVersion;
 @end
 

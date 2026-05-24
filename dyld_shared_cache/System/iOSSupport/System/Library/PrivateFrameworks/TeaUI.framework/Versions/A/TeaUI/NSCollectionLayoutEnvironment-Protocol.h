@@ -8,11 +8,10 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (id <NSCollectionLayoutContainer>)sition;
+- (id <NSCollectionLayoutContainer>)didEndTransition;
 - (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 @end
 

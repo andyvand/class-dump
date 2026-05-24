@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _UIContextMenuView *_menuView;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (void)handleSyndicatedActionWithPipeline:(_Bool)arg1 input:(struct CGSize)arg2 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)dispatcher:(id)arg1 didReceiveDismissalReflectionForNoticeGUIDs:(id)arg2;
+- (void)dismissNotice:(id)arg1;
+- (id)_processMessagesForRelayIfNeededMarkingAsRelayedUponSuccess:(id)arg1;
+- (struct CGSize)rviceController",&,N,V_relayController;
 - (id);
 - (struct UIEdgeInsets);
 - (void);

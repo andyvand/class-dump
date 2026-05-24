@@ -11,9 +11,9 @@
 }
 
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (void)&s;
+- (unsigned long long);
 - (Class);
 - (id);
 

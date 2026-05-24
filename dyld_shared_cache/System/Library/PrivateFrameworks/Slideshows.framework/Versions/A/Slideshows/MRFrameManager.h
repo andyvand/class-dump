@@ -9,15 +9,14 @@
 @interface MRFrameManager
 {
     NSMutableDictionary *mFrameSets;
-    NSMutableDictionary *mFramePools;
 }
 
 + (id);
 + (void)Àp;
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)freeValuedPropertyWithName:(id)arg1;
+- (void)er>",W,N,V_observer;
+- (id)nvelopeStore copyEnvelopes:(id)arg1 ];
 - (void);
 - (id);
 - (void);

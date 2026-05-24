@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (void);
@@ -35,13 +35,13 @@
 + (id);
 + (id);
 + (_Bool);
++ (id)updateNicknameHandles;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)"SPMonitorsWrapper";
++ (id)C;
 + (id);
 + (id);
 + (id);

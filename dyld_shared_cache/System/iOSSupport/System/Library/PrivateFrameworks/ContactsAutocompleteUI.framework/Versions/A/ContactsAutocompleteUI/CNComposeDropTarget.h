@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, UIDropInteraction, UIView;
 @protocol CNComposeDropTargetDelegate;
 
 @interface CNComposeDropTarget
@@ -21,17 +20,13 @@
         unsigned int respondsToAddressKind;
         unsigned int respondsToComposeRecipientsForDroppedContacts;
     } _delegateFlags;
-    NSSet *_acceptableUTIs;
-    UIView *_targetView;
-    id <CNComposeDropTargetDelegate> _delegate;
-    UIDropInteraction *_dropInteraction;
 }
 
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -54,17 +49,7 @@
 - (void)Allowed;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *acceptableUTIs; // @synthesize acceptableUTIs=_acceptableUTIs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNComposeDropTargetDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *targetView; // @synthesize targetView=_targetView;
 
 @end
 

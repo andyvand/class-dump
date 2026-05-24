@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginProxyDeviceRequest
 {
 }
 
-+ (id);
-+ (id);
++ (id)musicCurationDebugInfo;
++ (id)enumerateSignificantPartsOfDayUsingBlock:(id)arg1;
 + (id);
 + (_Bool);
 - (id);
@@ -20,15 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

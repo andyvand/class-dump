@@ -6,13 +6,9 @@
 
 #import <CoreHandwriting/CHPostprocessingStepModifyingOriginalTokens.h>
 
-@class CRBiDiTransform;
-
 @interface CHVisualToLogicalTransformStep : CHPostprocessingStepModifyingOriginalTokens
 {
     int _mode;
-    int _baseDirection;
-    CRBiDiTransform *_bidiTransform;
 }
 
 - (id);

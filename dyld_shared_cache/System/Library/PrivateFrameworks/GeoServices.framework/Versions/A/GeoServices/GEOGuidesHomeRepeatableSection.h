@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGuidesHomeRepeatableSection, NSArray, NSString;
+@class GEOPDGuidesHomeRepeatableSection, NSArray;
 
 @interface GEOGuidesHomeRepeatableSection
 {
     GEOPDGuidesHomeRepeatableSection *_pdRepeatableSection;
-    NSArray *_mapsResults;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)initWithAuditToken:assumedIdentity:tccServices: /* Error: Ran out of types for this method. */;
+- (id)nd;
 - (id);
 - (long long)§BAÊÃB­iêI@;
 - (void)`CZÿ;
@@ -22,12 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, nonatomic) NSArray *curatedGuides;
 @property(readonly, nonatomic) NSArray *guideLocations;
-@property(readonly, nonatomic) NSArray *publishers;
-@property(readonly, nonatomic) long long sectionType;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

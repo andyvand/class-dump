@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSBrowserDragSourceContext
 {
     long long draggedColumn;
-    NSIndexSet *draggedRows;
 }
 
 @end

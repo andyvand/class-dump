@@ -5,5 +5,8 @@
 //
 
 @protocol SCNMaterialPropertyTextureProvider
+
+@optional
+- (void);
 @end
 

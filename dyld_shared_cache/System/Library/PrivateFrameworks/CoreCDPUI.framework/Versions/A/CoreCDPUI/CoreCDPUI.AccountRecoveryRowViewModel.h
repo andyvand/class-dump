@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)k;
 
 @end
 

@@ -11,12 +11,11 @@
 @interface SLSBridgedAddWindowsToSpacesOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     NSArray *_windows;
-    NSArray *_spaces;
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)l;
+- (void)dated properties - %@ - %@;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (void)ä;
 
 // Remaining properties
-@property(readonly, copy) NSArray *spaces; // @synthesize spaces=_spaces;
 @property(readonly, copy) NSArray *windows; // @synthesize windows=_windows;
 
 @end

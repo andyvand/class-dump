@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SAThreadState;
-
 __attribute__((visibility("hidden")))
 @interface SAPAStyleThreadData
 {
     _Bool _isGlobalForcedIdle;
-    SAThreadState *_threadState;
-    unsigned long long _threadId;
-    unsigned long long _dispatchQueueId;
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)accessibilityInsertionPointLineNumber;
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

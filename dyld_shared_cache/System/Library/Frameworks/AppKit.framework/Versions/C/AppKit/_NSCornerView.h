@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGRect);
+- (struct CGRect)P;
 - (int);
-- (void);
-- (void);
-- (_Bool);
+- (void)RLResponse=}16;
+- (void)backgroundAVAssetDownloadTask:willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)_didReceiveResponseDisposition;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)module/bn/random.c.inc;
 - (_Bool);
 - (_Bool);
 - (void)daterInfo_t=^{NSMenuUpdaterInfo_t}@?@sS};
-- (id)dateKey:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)ationsAndMark:(struct CGRect)arg1;
+- (id)validateKey:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_disableAutosavingAndColumnResizingNotificationsAndMark:(struct CGRect)arg1;
 - (void)devPreviewEnabled;
 - (void)entRef, kEventParamMenuContextHeight, typeCGFloat, NULL, sizeof contextHeight, NULL, &contextHeight);
 - (id)À;

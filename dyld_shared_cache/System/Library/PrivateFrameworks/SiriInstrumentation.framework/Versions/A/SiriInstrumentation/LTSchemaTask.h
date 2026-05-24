@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaTask : SISchemaInstrumentationMessage
 {
     NSString *_translationTask;
-    NSString *_sourceLanguage;
-    NSString *_targetLanguage;
-    NSString *_deviceOS;
-    NSString *_deviceType;
-    NSString *_osVersion;
-    NSString *_bundleIdentifier;
-    _Bool _hasTranslationTask;
-    _Bool _hasSourceLanguage;
-    _Bool _hasTargetLanguage;
-    _Bool _hasDeviceOS;
-    _Bool _hasDeviceType;
-    _Bool _hasOsVersion;
-    _Bool _hasBundleIdentifier;
 }
 
 - (id);
@@ -32,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q!p;
 - (void);
 - (void);
 - (_Bool);
@@ -49,16 +36,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)allControlConfigurationsByHostWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)_wantsHighlightsDisplayAngle;
+- (id)erPreferences] Found value for DeviceRestoreVersion:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)ides] AdjustOverrides:Using package type SFR bundle path:%{public}@, SFR brain path:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)gB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_bool.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)/;
 - (void);
 - (id);
 - (id)
@@ -67,27 +54,13 @@
 - (id)QueryFailed",&,N,V_failed;
 - (id)cePluginStartedOrChanged",&,N,V_startedOrChanged;
 - (id)SchemaCAARTrialEnrollment",&,N,V_trialEnrollment;
-- (id)COVERYTOOLTIP_MODELESS_DICTATION;
-- (void)ERVICE;
+- (id)UEIDICTATIONDISCOVERYTOOLTIP_MODELESS_DICTATION;
+- (void)ODDTASKAPPBUNDLEID_COM_APPLE_INCALLSERVICE;
 - (_Bool);
 - (void)tøàÿ;
 - (void)6);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *deviceOS; // @synthesize deviceOS=_deviceOS;
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasBundleIdentifier; // @synthesize hasBundleIdentifier=_hasBundleIdentifier;
-@property(nonatomic) _Bool hasDeviceOS; // @synthesize hasDeviceOS=_hasDeviceOS;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasOsVersion; // @synthesize hasOsVersion=_hasOsVersion;
-@property(nonatomic) _Bool hasSourceLanguage; // @synthesize hasSourceLanguage=_hasSourceLanguage;
-@property(nonatomic) _Bool hasTargetLanguage; // @synthesize hasTargetLanguage=_hasTargetLanguage;
-@property(nonatomic) _Bool hasTranslationTask; // @synthesize hasTranslationTask=_hasTranslationTask;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(copy, nonatomic) NSString *sourceLanguage; // @synthesize sourceLanguage=_sourceLanguage;
-@property(copy, nonatomic) NSString *targetLanguage; // @synthesize targetLanguage=_targetLanguage;
 @property(copy, nonatomic) NSString *translationTask; // @synthesize translationTask=_translationTask;
 
 @end

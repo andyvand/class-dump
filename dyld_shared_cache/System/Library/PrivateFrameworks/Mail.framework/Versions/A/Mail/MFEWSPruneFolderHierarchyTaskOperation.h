@@ -6,16 +6,13 @@
 
 #import <Mail/MFEWSPersistenceTaskOperation.h>
 
-@class NSSet;
-
 @interface MFEWSPruneFolderHierarchyTaskOperation : MFEWSPersistenceTaskOperation
 {
     _Bool _prunedSuccessfully;
-    NSSet *_foundFolderIdStrings;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)qA;
 - (id);
 - (id);
 - (id);
@@ -23,7 +20,6 @@
 - (void)%Ð0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *foundFolderIdStrings; // @synthesize foundFolderIdStrings=_foundFolderIdStrings;
 @property(nonatomic) _Bool prunedSuccessfully; // @synthesize prunedSuccessfully=_prunedSuccessfully;
 
 @end

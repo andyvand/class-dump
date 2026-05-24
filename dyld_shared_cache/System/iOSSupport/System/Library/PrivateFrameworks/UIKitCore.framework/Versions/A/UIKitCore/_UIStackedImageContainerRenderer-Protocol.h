@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UIStackedImageConfiguration;
 @protocol UINamedLayerStack;
 
 @protocol _UIStackedImageContainerRenderer
+- (void);
 - (void)Á!DAù±d°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIStackedImageConfiguration *configuration;
-@property(nonatomic) struct CGPoint focusDirection;
 @property(retain, nonatomic) id <UINamedLayerStack> layerStack;
-@property(retain, nonatomic) UIView *maskedOverlayView;
-@property(nonatomic) unsigned long long rendererControlState;
-@property(retain, nonatomic) UIView *unmaskedOverlayView;
 @end
 

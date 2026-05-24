@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMCustomRepeatYears
 {
     id delegate;
-    id yearsView;
 }
 
 @end

@@ -9,15 +9,15 @@
 }
 
 + (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (void)c;
++ (_Bool)roller(UI) fetchContactNamesForParticipants:] /* Error: Ran out of types for this method. */;
++ (_Bool)led:(id)arg1 %@, isKeychainAvailable:(id)arg2 %@, hasKeychainItem:%@, hasCloudAccount:%@, hasDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
++ (_Bool)contains a shared note. People who currently have access to this note may lose it.;
++ (_Bool).;
++ (_Bool)e a %@ object, use +sharedInstance instead.;
++ (_Bool).indexer-reload-data-serial-queue;
 + (long long);
-+ (_Bool);
++ (_Bool);
 + (void)A7_ySayG[AByACyA10__A10_A10_A10_A10_A21_tGGGtGGSgAByA7_ySaySGA24_AEyACyADyz[ÛC[G_AByACyA10__A10_A10_A10_A10_A10_tGGtGGGGSgGGA6_yA6_yA13_A6_yAhFGG[GGGtGGt;
 
 @end

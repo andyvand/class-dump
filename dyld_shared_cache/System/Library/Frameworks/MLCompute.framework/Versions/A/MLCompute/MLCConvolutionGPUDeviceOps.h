@@ -6,21 +6,9 @@
 
 #import <MLCompute/MLCGPUDeviceOps.h>
 
-@class NSMutableArray;
-
 @interface MLCConvolutionGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _depthWiseConvolution;
-    _Bool _convolutionTranspose;
-    _Bool _hasBias;
-    id _forwardMPSGraph;
-    id _gradientMPSGraph;
-    unsigned long long _biasChannelCount;
-    NSMutableArray *_descriptorsForMPSGraph;
-    NSMutableArray *_mpsGraphTensors;
-    id _transposeDeviceOps;
-    NSMutableArray *_transposedTensors;
-    id _convolutionMultiGPUChildOps;
 }
 
 + (id);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)[;
 - (void);
 - (void);
 - (void);
@@ -43,24 +31,14 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)MPSMatrixInternalBlockLowerRightTriangularMatrixMultiply;
 
 // Remaining properties
-@property(nonatomic) unsigned long long biasChannelCount; // @synthesize biasChannelCount=_biasChannelCount;
-@property(retain, nonatomic) id convolutionMultiGPUChildOps; // @synthesize convolutionMultiGPUChildOps=_convolutionMultiGPUChildOps;
-@property(nonatomic) _Bool convolutionTranspose; // @synthesize convolutionTranspose=_convolutionTranspose;
-@property(nonatomic) _Bool depthWiseConvolution; // @synthesize depthWiseConvolution=_depthWiseConvolution;
-@property(retain, nonatomic) NSMutableArray *descriptorsForMPSGraph; // @synthesize descriptorsForMPSGraph=_descriptorsForMPSGraph;
 @property(retain, nonatomic) id forwardMPSGraph; // @synthesize forwardMPSGraph=_forwardMPSGraph;
-@property(retain, nonatomic) id gradientMPSGraph; // @synthesize gradientMPSGraph=_gradientMPSGraph;
-@property(nonatomic) _Bool hasBias; // @synthesize hasBias=_hasBias;
-@property(retain, nonatomic) NSMutableArray *mpsGraphTensors; // @synthesize mpsGraphTensors=_mpsGraphTensors;
-@property(retain, nonatomic) id transposeDeviceOps; // @synthesize transposeDeviceOps=_transposeDeviceOps;
-@property(retain, nonatomic) NSMutableArray *transposedTensors; // @synthesize transposedTensors=_transposedTensors;
 
 @end
 

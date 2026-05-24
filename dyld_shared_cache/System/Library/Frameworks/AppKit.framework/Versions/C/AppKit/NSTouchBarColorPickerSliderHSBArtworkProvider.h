@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)_connectionCachePurgeTimeout;
 + (id);
-+ (id);
-+ (id);
++ (id)allowPrivateAccessTokensForThirdParty;
 - (long long);
 
 // Remaining properties

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUbiquitousKeyValueStore;
-@protocol DOCTagRegistryProtocol, OS_dispatch_queue;
+@class NSUbiquitousKeyValueStore;
 
 @interface DOCTagCloudSource
 {
     NSUbiquitousKeyValueStore *_store;
-    NSObject *_iCloudToken;
-    NSObject<OS_dispatch_queue> *_workingQueue;
-    id <DOCTagRegistryProtocol> _tagRegistry;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,15 +30,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)rror: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject *iCloudToken; // @synthesize iCloudToken=_iCloudToken;
 @property(retain, nonatomic) NSUbiquitousKeyValueStore *store; // @synthesize store=_store;
-@property(nonatomic) __weak id <DOCTagRegistryProtocol> tagRegistry; // @synthesize tagRegistry=_tagRegistry;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workingQueue; // @synthesize workingQueue=_workingQueue;
 
 @end
 

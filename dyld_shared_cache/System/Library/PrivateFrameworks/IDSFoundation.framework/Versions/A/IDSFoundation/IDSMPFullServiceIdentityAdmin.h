@@ -6,14 +6,12 @@
 
 #import <IDSFoundation/IDSMPIdentity.h>
 
-@class NSString;
-
 @interface IDSMPFullServiceIdentityAdmin : IDSMPIdentity
 {
 }
 
-+ (id);
-+ (id);
++ (id)P;
++ (id);
 - (id);
 - (id);
 - (long long);
@@ -21,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long identityServiceType;
-@property(readonly, nonatomic) NSString *identityServiceTypeName;
 
 @end
 

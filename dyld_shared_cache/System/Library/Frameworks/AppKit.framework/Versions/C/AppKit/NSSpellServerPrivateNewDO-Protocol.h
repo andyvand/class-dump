@@ -4,6 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSData, NSString;
+
 @protocol NSSpellServerPrivateNewDO
+- (bycopy NSArray *);
+- (bycopy NSArray *);
+- (oneway void)P;
+- (oneway void);
+- (bycopy NSArray *)/A/StreamingZip;
+- (bycopy NSData *)forwarded;
+- (bycopy NSData *)authorization;
+- (bycopy NSData *)ntrol-expose-headers;
+- (bycopy NSData *)guage;
+- (bycopy NSArray *)_infersDiscretionaryFromOriginatingClient;
+- (struct _NSRange)_respectsAllowsCellularAccessForDiscretionaryTasks;
+- (_Bool)_kCFNTimingDataNStatMinRTT;
+- (bycopy NSArray *)ol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (bycopy NSString *)_onqueue_requestIsChunkEncoded;
 @end
 

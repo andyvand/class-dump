@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKValidXPCConnectionProvider, NSObject;
-@protocol OS_dispatch_queue;
+@class CRKValidXPCConnectionProvider;
 
 @interface CRKNonCatalystStudentDaemonProxy
 {
     CRKValidXPCConnectionProvider *_connectionProvider;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(readonly, nonatomic) CRKValidXPCConnectionProvider *connectionProvider; // @synthesize connectionProvider=_connectionProvider;
 
 @end

@@ -6,27 +6,11 @@
 
 #import <IMSharedUtilities/IMXMLParserContext.h>
 
-@class NSArray, NSAttributedString, NSMutableArray, NSMutableAttributedString, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface IMToSuperParserContext : IMXMLParserContext
 {
     unsigned long long _underlineCount;
-    unsigned long long _boldCount;
-    unsigned long long _italicCount;
-    unsigned long long _strikethroughCount;
-    unsigned long long _messagePartNumber;
-    NSMutableArray *_fontFamilyStack;
-    NSMutableArray *_fontSizeStack;
-    NSMutableArray *_linkStack;
-    NSMutableArray *_backgroundColorStack;
-    NSMutableArray *_foregroundColorStack;
-    NSMutableDictionary *_currentAttributes;
-    _Bool _didAddBodyAttributes;
-    NSMutableAttributedString *_body;
-    NSMutableArray *_fileTransferGUIDs;
-    NSString *_backgroundColor;
-    NSString *_foregroundColor;
-    long long _baseWritingDirection;
 }
 
 - (void);
@@ -52,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T);
+- (void)*H;
 - (void);
 - (void);
 - (void);
@@ -67,20 +51,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)ingVersion;
+- (void)DeleteVerificationCodesOnboardingVersion;
 - (void)éO÷4¼Y;
-- (id)Observer;
+- (id)IMRemoteIntentFileDownloadObserver;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property long long baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(readonly, nonatomic) NSAttributedString *body;
-@property(retain, nonatomic) NSArray *fileTransferGUIDs; // @synthesize fileTransferGUIDs=_fileTransferGUIDs;
-@property(copy, nonatomic) NSString *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
 
 @end
 

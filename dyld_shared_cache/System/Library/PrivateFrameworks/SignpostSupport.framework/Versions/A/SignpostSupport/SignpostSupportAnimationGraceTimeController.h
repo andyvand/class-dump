@@ -7,13 +7,11 @@
 @interface SignpostSupportAnimationGraceTimeController
 {
     unsigned long long _userInteractiveGraceTimeMs;
-    unsigned long long _userInitiatedGraceTimeMs;
-    unsigned long long _defaultGraceTimeMs;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)isAccessoryAssociatedWithControllerKey:(unsigned long long)arg1 controllerID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -23,8 +21,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long defaultGraceTimeMs; // @synthesize defaultGraceTimeMs=_defaultGraceTimeMs;
-@property(nonatomic) unsigned long long userInitiatedGraceTimeMs; // @synthesize userInitiatedGraceTimeMs=_userInitiatedGraceTimeMs;
 @property(nonatomic) unsigned long long userInteractiveGraceTimeMs; // @synthesize userInteractiveGraceTimeMs=_userInteractiveGraceTimeMs;
 
 @end

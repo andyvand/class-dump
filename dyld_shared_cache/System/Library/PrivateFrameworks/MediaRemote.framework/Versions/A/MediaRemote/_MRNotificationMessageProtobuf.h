@@ -9,26 +9,24 @@
 @interface _MRNotificationMessageProtobuf
 {
     NSMutableArray *_notifications;
-    NSMutableArray *_playerPaths;
-    NSMutableArray *_userInfos;
 }
 
 + (Class);
 + (Class);
-+ (Class);
++ (Class)supported networks;
+- (unsigned long long);
+- (id)Ti;
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
@@ -40,15 +38,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_removeStateForClient:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void)rNotification: /* Error: Ran out of types for this method. */;
-- (id)ns;
+- (void)_processActivePlayerInvalidationHandlersForNotification: /* Error: Ran out of types for this method. */;
+- (id)_actions;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *notifications; // @synthesize notifications=_notifications;
-@property(retain, nonatomic) NSMutableArray *playerPaths; // @synthesize playerPaths=_playerPaths;
-@property(retain, nonatomic) NSMutableArray *userInfos; // @synthesize userInfos=_userInfos;
 
 @end
 

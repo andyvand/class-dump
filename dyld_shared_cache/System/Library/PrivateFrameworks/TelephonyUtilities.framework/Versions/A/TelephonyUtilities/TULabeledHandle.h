@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TUHandle;
+@class TUHandle;
 
 @interface TULabeledHandle
 {
     _Bool _isSuggested;
-    TUHandle *_handle;
-    NSString *_label;
 }
 
 + (_Bool);
@@ -21,17 +19,15 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)dingRelayEnabled;
+- (void);
+- (id)o;
+- (id);
+- (void)smartHoldingRelayEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isSuggested; // @synthesize isSuggested=_isSuggested;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

@@ -9,13 +9,13 @@
 }
 
 + (id);
++ (id)Y;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ccountSetupViewController"24@0:(id)arg1 8@"ACAccountType"16;
++ (_Bool)tableView:(id)arg1 didDragTableColumn:(id)arg2;
++ (_Bool)tableView:(id)arg1 dataCellForTableColumn:(id)arg2 row:(id)arg3;
++ (_Bool)supportsMultipleAccounts;
 + (void);
 + (void)e = :entityType AND ep.parentKey /* Error: Ran out of types for this method. */;
 

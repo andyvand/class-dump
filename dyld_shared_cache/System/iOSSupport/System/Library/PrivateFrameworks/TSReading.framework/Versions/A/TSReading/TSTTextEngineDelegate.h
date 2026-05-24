@@ -9,13 +9,12 @@
 @interface TSTTextEngineDelegate
 {
     TSWPPadding *mPadding;
-    unsigned int mVerticalAlignment;
 }
 
 - (id);
 - (_Bool);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void);
 - (id)sController endDynamicOperation];
 
 @end

@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)PING_MISSING__;
+- (void)__MPModelPropertyPlaylistPublicPlaylist__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType startHandler; // @synthesize startHandler=_startHandler;

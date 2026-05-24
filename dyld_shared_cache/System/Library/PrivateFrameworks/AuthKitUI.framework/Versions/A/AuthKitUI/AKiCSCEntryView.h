@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPinFieldView, NSString, NSTextField;
-@protocol AKiCSCEntryViewDelegate;
-
 @interface AKiCSCEntryView
 {
     _Bool _isCodeEditable;
-    id <AKiCSCEntryViewDelegate> _delegate;
-    long long _icscType;
-    NSTextField *_passwordField;
-    AKPinFieldView *_pinView;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
+- (void)SPPMGetAllPreferenceRulesRequest;
+- (void);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
@@ -38,22 +31,10 @@
 - (void);
 - (void);
 - (void);
-- (void)me;
+- (void)deviceName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <AKiCSCEntryViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *enteredCode;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long icscType; // @synthesize icscType=_icscType;
-@property(nonatomic) _Bool isCodeEditable; // @synthesize isCodeEditable=_isCodeEditable;
-@property(retain, nonatomic) NSTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(retain, nonatomic) AKPinFieldView *pinView; // @synthesize pinView=_pinView;
-@property(readonly) Class superclass;
 
 @end
 

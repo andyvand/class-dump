@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)glowLayer1;
 - (id);
 - (id);
 - (void);

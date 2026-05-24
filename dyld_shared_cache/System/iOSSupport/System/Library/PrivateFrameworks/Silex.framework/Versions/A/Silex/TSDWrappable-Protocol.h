@@ -5,6 +5,7 @@
 //
 
 @protocol TSDWrappable
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAlpha;

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSURLRequest;
+@class NSURLRequest;
 
 @interface PKPaymentContentItem
 {
     _Bool _centered;
-    NSURLRequest *_imageRequest;
-    struct CGImage *_image;
-    NSAttributedString *_title;
-    NSAttributedString *_label;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -29,21 +25,17 @@
 - (unsigned long long);
 - (id);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)setHasTcpECNIntOffDropRst:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)uestAction;
+- (id)PKPrecursorPassUpgradeRequestAction;
 - (void)6@?0@"PKCatalogGroup"8;
 - (void)ResponsePaymentCardEntry"8;
 
 // Remaining properties
-@property(nonatomic, getter=isCentered) _Bool centered; // @synthesize centered=_centered;
-@property(nonatomic) struct CGImage *image; // @synthesize image=_image;
 @property(copy, nonatomic) NSURLRequest *imageRequest; // @synthesize imageRequest=_imageRequest;
-@property(copy, nonatomic) NSAttributedString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSAttributedString *title; // @synthesize title=_title;
 
 @end
 

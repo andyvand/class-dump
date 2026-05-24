@@ -14,34 +14,34 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 struct C3DColor4 {
     union {
-        float rgba[4];
+        float _field1[4];
         struct {
-            float r;
-            float g;
-            float b;
-            float a;
-        } ;
-    } ;
+            float _field1;
+            float _field2;
+            float _field3;
+            float _field4;
+        } _field2;
+    } _field1;
 };
 
 struct C3DMatrix4x4 {
     union {
-        double components[16];
-        double m[4][4];
-    } ;
+        double _field1[16];
+        double _field2[4][4];
+    } _field1;
 };
 
 struct C3DPlane {
     double _field1;
     union {
         struct _SCNVector3 _field1;
-        CDStruct_31142d93 _field2;
+        CDStruct_39925896 _field2;
     } _field2;
 };
 
 struct C3DSphere {
-    double radius;
-    struct _SCNVector3 center;
+    double _field1;
+    struct _SCNVector3 _field2;
 };
 
 struct C3DVector2 {
@@ -54,31 +54,31 @@ struct C3DVector2 {
 };
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGContext;
@@ -122,28 +122,10 @@ struct Cache {
     void *_field1[2];
 };
 
-struct GFNodeInfo {
-    id _field1;
-    id _field2;
-    SEL _field3;
-    SEL _field4;
-    id _field5;
-    id _field6;
-};
-
 struct Stats {
     long long _field1[2];
     long long _field2;
     long long _field3;
-};
-
-struct _BackgroundInfo {
-    id _field1;
-    unsigned int _field2;
-    float _field3;
-    float _field4;
-    unsigned long long _field5;
-    _Bool _field6;
 };
 
 struct _CGLContextObject {
@@ -1133,14 +1115,6 @@ struct _CGLPixelFormatObject;
 
 struct _CGLPrivateObject;
 
-struct _GLMatrices {
-    double _field1[16];
-    double _field2[16];
-    int _field3[4];
-    int _field4[4];
-    struct CGRect _field5;
-};
-
 struct _KernelExecutionInfo {
     unsigned int _field1[3];
     unsigned int _field2[3];
@@ -1148,8 +1122,8 @@ struct _KernelExecutionInfo {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _QCC3DMesh {
@@ -1178,13 +1152,6 @@ struct _QCExecutionArray {
     unsigned long long _field3;
 };
 
-struct _QCExecutionStride {
-    unsigned long long *_field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-    unsigned long long _field4;
-};
-
 struct _QCIterationManager {
     id _field1;
     id _field2;
@@ -1194,17 +1161,9 @@ struct _QCIterationManager {
     unsigned long long _field6;
 };
 
-struct _QCIterationStack {
-    unsigned long long *_field1;
-    unsigned long long *_field2;
-    unsigned long long _field3;
-    unsigned long long _field4;
-    unsigned long long _field5;
-};
-
 struct _QCMeshBoundingBox {
-    CDStruct_31142d93 _field1;
-    CDStruct_31142d93 _field2;
+    CDStruct_39925896 _field1;
+    CDStruct_39925896 _field2;
 };
 
 struct _QCMeshInternal {
@@ -1217,16 +1176,6 @@ struct _QCMeshInternal {
             unsigned long long _field3;
         } _field2;
     } _field2;
-};
-
-struct _QCPatchExecutionInfo {
-    double _field1;
-    unsigned long long _field2;
-    double _field3;
-    double _field4;
-    id _field5;
-    _Bool _field6;
-    _Bool _field7;
 };
 
 struct _SCNVector3 {
@@ -1348,7 +1297,10 @@ struct __C3DEngineContext {
     struct __C3DScene *_field2;
     struct __C3DNode *_field3;
     struct __C3DNode *_field4;
-    CDStruct_2921ca3b _field5;
+    struct {
+        CDUnknownFunctionPointerType _field1;
+        CDUnknownFunctionPointerType _field2;
+    } _field5;
     void *_field6;
     struct __C3DRendererContext *_field7;
     struct __C3DFXContext *_field8;
@@ -1366,17 +1318,6 @@ struct __C3DEngineContext {
 struct __C3DEntity {
     struct __CFRuntimeBase _field1;
     struct __CFDictionary *_field2;
-};
-
-struct __C3DFramebuffer {
-    struct __CFRuntimeBase _field1;
-    unsigned int _field2;
-    unsigned int _field3[10];
-    int _field4;
-    struct __C3DTexture *_field5[10];
-    int _field6;
-    struct C3DVector2 _field7;
-    _Bool _field8;
 };
 
 struct __C3DGeometry {
@@ -1657,7 +1598,15 @@ struct __C3DSkinner {
 };
 
 struct __C3DTexture {
-    struct __C3DVRAMResource _field1;
+    struct __C3DVRAMResource {
+        struct __C3DLinkableObject _field1;
+        void *_field2;
+        long long _field3;
+        struct __C3DRendererContext *_field4;
+        long long _field5;
+        _Bool _field6;
+        struct _cl_mem *_field7;
+    } _field1;
     struct C3DVector2 _field2;
     struct C3DVector2 _field3;
     _Bool _field4;
@@ -1681,32 +1630,7 @@ struct __C3DTextureSampler {
     unsigned long long _field10;
 };
 
-struct __C3DTransforms {
-    struct __CFRuntimeBase _field1;
-    struct C3DMatrix4x4 _field2;
-    struct C3DMatrix4x4 _field3;
-    struct _SCNVector3 _field4;
-    struct __C3DRotation *_field5;
-    struct _SCNVector3 _field6;
-    struct __C3DTransforms *_field7;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    void *_field8;
-};
-
-struct __C3DVRAMResource {
-    struct __C3DLinkableObject _field1;
-    void *_field2;
-    long long _field3;
-    struct __C3DRendererContext *_field4;
-    long long _field5;
-    _Bool _field6;
-    struct _cl_mem *_field7;
-};
+struct __C3DTransforms;
 
 struct __CFArray;
 
@@ -1727,8 +1651,8 @@ struct _cl_image_format {
 };
 
 struct _opaque_pthread_cond_t {
-    long long __sig;
-    char __opaque[40];
+    long long _field1;
+    char _field2[40];
 };
 
 struct _opaque_pthread_mutex_t {
@@ -1736,18 +1660,14 @@ struct _opaque_pthread_mutex_t {
     char __opaque[56];
 };
 
-struct processor_cpu_load_info {
-    unsigned int _field1[4];
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool useMatrix;
-    unsigned char wasEnabled;
-    int boundTexture;
-    void *unused[4];
-} CDStruct_d5a466fe;
+    _Bool _field1;
+    unsigned char _field2;
+    int _field3;
+    void *_field4[4];
+} CDStruct_ebf3b8e2;
 
 typedef struct {
     unsigned char _field1;
@@ -1764,13 +1684,8 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned char bytes[16];
-} CDStruct_bdcb2b0d;
-
-typedef struct {
-    CDUnknownFunctionPointerType _field1;
-    CDUnknownFunctionPointerType _field2;
-} CDStruct_2921ca3b;
+    unsigned char _field1[16];
+} CDStruct_60067b7e;
 
 typedef struct {
     double _field1;
@@ -1808,17 +1723,10 @@ typedef struct {
 } CDStruct_8727d297;
 
 typedef struct {
-    double x;
-    double y;
-    double z;
-    double w;
-} CDStruct_91d2e2b9;
-
-typedef struct {
-    double x;
-    double y;
-    double z;
-} CDStruct_31142d93;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
 
 typedef struct {
     double _field1;
@@ -1826,14 +1734,14 @@ typedef struct {
 } CDStruct_c3b9c2ee;
 
 typedef struct {
-    int saveSize;
-    int saveType;
-    int saveStride;
-    unsigned char saveEnabled;
-    unsigned char ptrHasChanged;
-    void *savePointer;
-    void *unused[4];
-} CDStruct_772be272;
+    int _field1;
+    int _field2;
+    int _field3;
+    unsigned char _field4;
+    unsigned char _field5;
+    void *_field6;
+    void *_field7[4];
+} CDStruct_f7559ea1;
 
 typedef struct CDStruct_183601bc;
 

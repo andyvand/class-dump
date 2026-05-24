@@ -7,8 +7,6 @@
 @interface GEOSortPriorityMappingEntry
 {
     long long _priority;
-    long long _resultType;
-    long long _resultSubtype;
 }
 
 - (long long);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) long long resultSubtype; // @synthesize resultSubtype=_resultSubtype;
-@property(readonly, nonatomic) long long resultType; // @synthesize resultType=_resultType;
 
 @end
 

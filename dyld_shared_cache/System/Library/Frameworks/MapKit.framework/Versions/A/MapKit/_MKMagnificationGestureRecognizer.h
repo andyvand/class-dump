@@ -8,27 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _MKMagnificationGestureRecognizer
 {
     id _target;
-    SEL _action;
-    _Bool _enabled;
-    long long _state;
-    struct CGPoint _location;
-    double _magnification;
 }
 
-- (void);
-- (double);
+- (void)overrideComponentsInContact:(id)arg1;
+- (double)originFromRecordId:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
 - (struct CGPoint);
 - (void);
 - (_Bool);
-- (void)fReply: /* Error: Ran out of types for this method. */;
+- (void)setInterface:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) double magnification; // @synthesize magnification=_magnification;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

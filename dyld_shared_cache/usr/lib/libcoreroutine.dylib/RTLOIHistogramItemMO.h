@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, RTEventLocationIdentifierMO;
+@class NSString;
 
 @interface RTLOIHistogramItemMO
 {
 }
 
-+ (id);
++ (id)existingItemReference;
 
 // Remaining properties
-@property(retain, nonatomic) RTEventLocationIdentifierMO *eventLocationIdentifier; // @dynamic eventLocationIdentifier;
 @property(retain, nonatomic) NSString *locationOfInterestIdentifier; // @dynamic locationOfInterestIdentifier;
-@property(retain, nonatomic) NSNumber *numOfEvents; // @dynamic numOfEvents;
-@property(retain, nonatomic) NSNumber *probability; // @dynamic probability;
-@property(retain, nonatomic) NSNumber *timeOfStay; // @dynamic timeOfStay;
 
 @end
 

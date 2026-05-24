@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableDictionary;
 
 @interface GCHapticCapabilityGraph
 {
     NSMutableDictionary *_nodes;
-    NSMutableSet *_exposedCapabilities;
-    NSMutableSet *_exposedLeafCapabilities;
-    NSMutableSet *_allCapabilities;
-    NSMutableSet *_allLeafCapabilities;
 }
 
 + (_Bool);
@@ -36,18 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *allCapabilities; // @synthesize allCapabilities=_allCapabilities;
-@property(retain, nonatomic) NSMutableSet *allLeafCapabilities; // @synthesize allLeafCapabilities=_allLeafCapabilities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *exposedCapabilities; // @synthesize exposedCapabilities=_exposedCapabilities;
-@property(retain, nonatomic) NSMutableSet *exposedLeafCapabilities; // @synthesize exposedLeafCapabilities=_exposedLeafCapabilities;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *nodes; // @synthesize nodes=_nodes;
-@property(readonly) Class superclass;
 
 @end
 

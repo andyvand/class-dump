@@ -9,21 +9,17 @@
 @interface CodeChallenge
 {
     NSString *_codeVerifier;
-    NSString *_codeChallenge;
-    NSString *_codeChallengeMethod;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *codeChallenge; // @synthesize codeChallenge=_codeChallenge;
-@property(retain, nonatomic) NSString *codeChallengeMethod; // @synthesize codeChallengeMethod=_codeChallengeMethod;
 @property(retain, nonatomic) NSString *codeVerifier; // @synthesize codeVerifier=_codeVerifier;
 
 @end

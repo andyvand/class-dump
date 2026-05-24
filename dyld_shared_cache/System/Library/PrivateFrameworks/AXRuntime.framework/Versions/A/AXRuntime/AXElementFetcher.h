@@ -4,46 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXElement, AXElementGroup, AXElementGroupPruner, AXVisualElementGrouper, NSArray, NSMapTable, NSMutableDictionary, NSObject;
-@protocol AXElementFetcherDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol AXElementFetcherDelegate, OS_dispatch_queue;
 
 @interface AXElementFetcher
 {
     NSObject<OS_dispatch_queue> *_elementFetchQueue;
-    NSObject<OS_dispatch_queue> *_elementAccessQueue;
-    NSObject<OS_dispatch_queue> *_filterAccessQueue;
-    NSObject<OS_dispatch_queue> *_axObserverSetupQueue;
-    struct __AXObserver *_axRuntimeNotificationObserver;
-    _Bool _eventManagementSetupInFlight;
-    unsigned long long _scheduledFetchEvent;
-    NSObject<OS_dispatch_source> *_eventCoalesceTimer;
-    AXElementGroupPruner *_elementGroupPruner;
-    _Bool _enabled;
-    _Bool _fetchingElements;
-    _Bool _eventManagementEnabled;
-    _Bool _shouldIncludeNonScannerElements;
-    _Bool _groupingEnabled;
-    _Bool _didSendFakeScreenChangeOnLastFetch;
-    float _fetchEventDefaultDelay;
-    float _fetchEventUserRequestedDelay;
-    float _fetchEventScrolledByPageDelay;
-    float _fetchEventLayoutChangeDelay;
-    float _fetchEventAlertAppearedDelay;
-    float _fetchEventOrientationChangeDelay;
-    float _fetchEventScreenChangeDelay;
-    float _fetchEventAppTransitionDelay;
-    long long _elementGroupingHeuristics;
-    id <AXElementFetcherDelegate> _delegate;
-    NSMapTable *_fetchObservers;
-    unsigned long long _activeFetchEvents;
-    NSArray *_currentApps;
-    NSArray *_elementCache;
-    AXElementGroup *_elementCommunityGroupCache;
-    AXElementGroup *_rootGroupCache;
-    AXElementGroup *_keyboardGroupCache;
-    NSMutableDictionary *_postFetchFilters;
-    AXVisualElementGrouper *_visualElementGrouper;
-    NSArray *_customCurrentApps;
 }
 
 + (id);
@@ -53,6 +19,7 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -63,14 +30,13 @@
 - (void);
 - (void);
 - (void);
+- (void)˄ ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -89,16 +55,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (float);
+- (float)ka;
 - (float);
-- (float);
-- (float);
+- (float)@yE;
 - (void);
 - (float);
 - (float);
@@ -106,46 +72,47 @@
 - (float);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)׭;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)<Hm-;
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)pD�$Em
+,Fm4Gm<Hm-;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ք;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (id)֣;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ք;
 - (id);
 - (id);
 - (id);
@@ -171,52 +138,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void)bs/TemporaryDirectory.QC0Hdk/Sources/SyncServices2/SyncServices/ISDDataDatabase.m;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)V;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeFetchEvents; // @synthesize activeFetchEvents=_activeFetchEvents;
-@property(readonly, nonatomic) NSArray *availableElements;
-@property(retain, nonatomic) NSArray *currentApps; // @synthesize currentApps=_currentApps;
-@property(retain, nonatomic) NSArray *customCurrentApps; // @synthesize customCurrentApps=_customCurrentApps;
 @property(nonatomic) __weak id <AXElementFetcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didSendFakeScreenChangeOnLastFetch; // @synthesize didSendFakeScreenChangeOnLastFetch=_didSendFakeScreenChangeOnLastFetch;
-@property(retain, nonatomic) NSArray *elementCache; // @synthesize elementCache=_elementCache;
-@property(readonly, nonatomic) AXElementGroup *elementCommunityGroup;
-@property(retain, nonatomic) AXElementGroup *elementCommunityGroupCache; // @synthesize elementCommunityGroupCache=_elementCommunityGroupCache;
-@property(readonly, nonatomic) AXElementGroupPruner *elementGroupPruner;
-@property(nonatomic) long long elementGroupingHeuristics; // @synthesize elementGroupingHeuristics=_elementGroupingHeuristics;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isEventManagementEnabled) _Bool eventManagementEnabled; // @synthesize eventManagementEnabled=_eventManagementEnabled;
-@property(nonatomic) float fetchEventAlertAppearedDelay; // @synthesize fetchEventAlertAppearedDelay=_fetchEventAlertAppearedDelay;
-@property(nonatomic) float fetchEventAppTransitionDelay; // @synthesize fetchEventAppTransitionDelay=_fetchEventAppTransitionDelay;
-@property(nonatomic) float fetchEventDefaultDelay; // @synthesize fetchEventDefaultDelay=_fetchEventDefaultDelay;
-@property(nonatomic) float fetchEventLayoutChangeDelay; // @synthesize fetchEventLayoutChangeDelay=_fetchEventLayoutChangeDelay;
-@property(nonatomic) float fetchEventOrientationChangeDelay; // @synthesize fetchEventOrientationChangeDelay=_fetchEventOrientationChangeDelay;
-@property(nonatomic) float fetchEventScreenChangeDelay; // @synthesize fetchEventScreenChangeDelay=_fetchEventScreenChangeDelay;
-@property(nonatomic) float fetchEventScrolledByPageDelay; // @synthesize fetchEventScrolledByPageDelay=_fetchEventScrolledByPageDelay;
-@property(nonatomic) float fetchEventUserRequestedDelay; // @synthesize fetchEventUserRequestedDelay=_fetchEventUserRequestedDelay;
-@property(retain, nonatomic) NSMapTable *fetchObservers; // @synthesize fetchObservers=_fetchObservers;
-@property(nonatomic, getter=isFetchingElements) _Bool fetchingElements; // @synthesize fetchingElements=_fetchingElements;
-@property(readonly, nonatomic) AXElementGroup *firstKeyboardRow;
-@property(nonatomic, getter=isGroupingEnabled) _Bool groupingEnabled; // @synthesize groupingEnabled=_groupingEnabled;
-@property(readonly, nonatomic) AXElementGroup *keyboardGroup;
-@property(retain, nonatomic) AXElementGroup *keyboardGroupCache; // @synthesize keyboardGroupCache=_keyboardGroupCache;
-@property(readonly, nonatomic) AXElementGroup *lastKeyboardRow;
-@property(readonly, nonatomic) AXElement *nativeFocusElement;
-@property(retain, nonatomic) NSMutableDictionary *postFetchFilters; // @synthesize postFetchFilters=_postFetchFilters;
-@property(readonly, nonatomic) AXElementGroup *rootGroup;
-@property(retain, nonatomic) AXElementGroup *rootGroupCache; // @synthesize rootGroupCache=_rootGroupCache;
-@property(nonatomic) _Bool shouldIncludeNonScannerElements; // @synthesize shouldIncludeNonScannerElements=_shouldIncludeNonScannerElements;
-@property(retain, nonatomic) AXVisualElementGrouper *visualElementGrouper; // @synthesize visualElementGrouper=_visualElementGrouper;
-@property(readonly, nonatomic) _Bool willFetchElements;
 
 @end
 

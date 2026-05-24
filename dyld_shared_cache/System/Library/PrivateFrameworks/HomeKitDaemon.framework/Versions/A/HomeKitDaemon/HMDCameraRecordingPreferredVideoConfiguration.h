@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingPreferredVideoConfiguration
 {
     NSDictionary *_bitRateByFrameRate;
-    NSNumber *_keyFrameInterval;
-    long long _resolution;
-    long long _h264Level;
 }
 
 - (id);
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSDictionary *bitRateByFrameRate; // @synthesize bitRateByFrameRate=_bitRateByFrameRate;
-@property(readonly) long long h264Level; // @synthesize h264Level=_h264Level;
-@property(readonly) NSNumber *keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(readonly) long long resolution; // @synthesize resolution=_resolution;
 
 @end
 

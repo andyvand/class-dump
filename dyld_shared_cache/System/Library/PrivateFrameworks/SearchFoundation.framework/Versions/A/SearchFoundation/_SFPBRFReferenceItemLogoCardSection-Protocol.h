@@ -7,9 +7,9 @@
 @class NSData, _SFPBRFVisualProperty;
 
 @protocol _SFPBRFReferenceItemLogoCardSection
+- (NSData *)albumKindFromSmartAlbumSubtype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

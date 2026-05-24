@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, XCTCapabilities;
+@class NSMutableOrderedSet, XCTCapabilities;
 
 @interface XCTRuntimeIssueContext
 {
     XCTCapabilities *_capabilities;
-    Class _reportingDelegate;
-    NSMutableOrderedSet *_mutableRuntimeIssues;
 }
 
 + (void);
@@ -21,18 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (Class);
 - (id);
-- (void);
+- (void)M>f;
 
 // Remaining properties
-@property(readonly, copy) XCTCapabilities *capabilities; // @synthesize capabilities=_capabilities;
 @property(retain) NSMutableOrderedSet *mutableRuntimeIssues; // @synthesize mutableRuntimeIssues=_mutableRuntimeIssues;
-@property(readonly) __weak Class reportingDelegate; // @synthesize reportingDelegate=_reportingDelegate;
-@property(readonly, copy) NSOrderedSet *runtimeIssues;
 
 @end
 

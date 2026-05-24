@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CSIndexingQueue
 {
     long long _mode;
-    double _idleTime;
-    double _idleTimeLeeway;
-    unsigned long long _maximumBatchSize;
-    NSMutableDictionary *_queuedItems;
-    NSObject<OS_dispatch_queue> *_coalescingQueue;
-    NSObject<OS_dispatch_source> *_coalescingTimer;
-    CDUnknownBlockType _notifyBlock;
 }
 
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (double);
 - (id);
 - (long long);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (void);
 - (void);
+- (void)H\`j6@m;
 - (void);
 - (void);
 - (void);
+- (id)?;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *coalescingQueue; // @synthesize coalescingQueue=_coalescingQueue;
-@property(retain) NSObject<OS_dispatch_source> *coalescingTimer; // @synthesize coalescingTimer=_coalescingTimer;
 @property double idleTime; // @synthesize idleTime=_idleTime;
-@property double idleTimeLeeway; // @synthesize idleTimeLeeway=_idleTimeLeeway;
-@property unsigned long long maximumBatchSize; // @synthesize maximumBatchSize=_maximumBatchSize;
-@property long long mode; // @synthesize mode=_mode;
-@property(copy) CDUnknownBlockType notifyBlock; // @synthesize notifyBlock=_notifyBlock;
-@property(retain) NSMutableDictionary *queuedItems; // @synthesize queuedItems=_queuedItems;
 
 @end
 

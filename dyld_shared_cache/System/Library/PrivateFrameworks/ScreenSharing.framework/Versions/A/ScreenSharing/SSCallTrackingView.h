@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSTrackingArea;
-@protocol SSCallTrackingViewDelegate;
+@class NSTrackingArea;
 
 @interface SSCallTrackingView
 {
     _Bool _monitoringForEntry;
-    id <SSCallTrackingViewDelegate> _delegate;
-    NSTrackingArea *_trackingArea;
-    double _timeStamp;
-    NSTimer *_mouseUpTimer;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (id);
@@ -33,10 +28,6 @@
 - (void);
 
 // Remaining properties
-@property id <SSCallTrackingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool monitoringForEntry; // @synthesize monitoringForEntry=_monitoringForEntry;
-@property(retain, nonatomic) NSTimer *mouseUpTimer; // @synthesize mouseUpTimer=_mouseUpTimer;
-@property double timeStamp; // @synthesize timeStamp=_timeStamp;
 @property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end

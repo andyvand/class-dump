@@ -5,5 +5,6 @@
 //
 
 @protocol SMInitiatorMetricsProtocol
+- (void);
 @end
 

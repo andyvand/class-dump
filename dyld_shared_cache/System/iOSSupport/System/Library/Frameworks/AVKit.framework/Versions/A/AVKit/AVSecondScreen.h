@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVSecondScreenConnection, CADisplay, UIScreen, UIWindow, UIWindowScene;
+@class AVObservationController;
 
 __attribute__((visibility("hidden")))
 @interface AVSecondScreen
 {
     _Bool _TVOutScreen;
-    AVObservationController *_observationController;
-    UIWindow *_window;
-    UIWindowScene *_windowScene;
-    UIScreen *_screen;
-    AVSecondScreenConnection *_secondScreenConnection;
-    long long _state;
-    CADisplay *_debugInfoDisplay;
 }
 
 - (void);
@@ -25,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
-- (void);
+- (void);
+- (long long)replacementView;
+- (void)_;
 - (id);
 - (id);
 - (_Bool);
@@ -41,15 +34,7 @@ __attribute__((visibility("hidden")))
 - (id)}"ì;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isTVOutScreen) _Bool TVOutScreen; // @synthesize TVOutScreen=_TVOutScreen;
-@property(retain, nonatomic) CADisplay *debugInfoDisplay; // @synthesize debugInfoDisplay=_debugInfoDisplay;
 @property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(readonly, nonatomic) struct CGRect sceneBounds;
-@property(readonly, nonatomic) __weak UIScreen *screen; // @synthesize screen=_screen;
-@property(retain, nonatomic) AVSecondScreenConnection *secondScreenConnection; // @synthesize secondScreenConnection=_secondScreenConnection;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) UIWindow *window; // @synthesize window=_window;
-@property(readonly, nonatomic) __weak UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end
 

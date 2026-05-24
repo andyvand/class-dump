@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -23,21 +21,6 @@ struct CBs {
     CDUnknownBlockType _field4;
     CDUnknownBlockType _field5;
     CDUnknownBlockType _field6;
-};
-
-struct CFURLProtocolClient {
-    long long version;
-    void *client;
-    CDUnknownFunctionPointerType retain;
-    CDUnknownFunctionPointerType release;
-    CDUnknownFunctionPointerType copyDescription;
-    CDUnknownFunctionPointerType wasRedirected;
-    CDUnknownFunctionPointerType cacheResponseIsValid;
-    CDUnknownFunctionPointerType didReceiveResponse;
-    CDUnknownFunctionPointerType didLoadData;
-    CDUnknownFunctionPointerType didFinishLoading;
-    CDUnknownFunctionPointerType didFail;
-    CDUnknownFunctionPointerType didReceiveAuthenticationChallenge;
 };
 
 struct CFURLProtocolImplementation {
@@ -92,22 +75,9 @@ struct CompactHTTPCookieWithData {
     char *_field2;
 };
 
-struct ConfigFlags {
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-};
-
 struct CoreLoggable {
     CDUnknownFunctionPointerType *_field1;
 };
-
-struct CoreSchedulingSet;
 
 struct Flags {
     unsigned int _flag_SHOULD_HANDLE_HTTP_COOKIES:1;
@@ -148,13 +118,9 @@ struct HTTPCookie {
     CDUnknownFunctionPointerType *_field1;
 };
 
-struct HTTPProtocol;
-
 struct HTTPRequest;
 
 struct HTTPResponse;
-
-struct InterfaceRequiredForLoader;
 
 struct InternalInit {
     id _field1;
@@ -178,23 +144,6 @@ struct InternalProtocolImplementation {
     CDUnknownFunctionPointerType _field10;
 };
 
-struct NSCFURLProtocolClient {
-    CDUnknownFunctionPointerType *_field1;
-    CDUnknownFunctionPointerType *_field2;
-    id _field3;
-    id _field4;
-};
-
-struct ReadBuffer {
-    CDUnknownFunctionPointerType *_field1;
-    long long _field2;
-    id _field3;
-    long long _field4;
-    unsigned char _field5;
-};
-
-struct RedirectionRecorder;
-
 struct RequestBody;
 
 struct SessionConnectionLoadable {
@@ -204,11 +153,6 @@ struct SessionConnectionLoadable {
     id _field4;
 };
 
-struct SmartBlockWithArgs<bool> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct TCPIO_BlockCallbacks_Listener {
     CDUnknownFunctionPointerType *_field1;
     struct CBs _field2;
@@ -216,53 +160,7 @@ struct TCPIO_BlockCallbacks_Listener {
     int _field4;
 };
 
-struct TCPIO_EstablishBase;
-
 struct TransportConnection;
-
-struct TransportConnectionObjCPP;
-
-struct URLConnectionLoader {
-    CDUnknownFunctionPointerType *_field1;
-    struct __CFAllocator *_field2;
-    CDUnknownFunctionPointerType *_field3;
-    unsigned char _field4;
-    unsigned char _field5;
-    struct InterfaceRequiredForLoader *_field6;
-    id _field7;
-    CDUnknownFunctionPointerType *_field8;
-    CDUnknownFunctionPointerType *_field9;
-    id _field10;
-    id _field11;
-    long long _field12;
-    struct RedirectionRecorder *_field13;
-    unsigned char _field14;
-    unsigned char _field15;
-    unsigned char _field16;
-    id _field17;
-    unsigned char _field18;
-    double _field19;
-    double _field20;
-    unsigned char _field21;
-    struct URLProtocol *_field22;
-    id _field23;
-    unsigned char _field24;
-    struct CoreSchedulingSet *_field25;
-    double _field26;
-    double _field27;
-    unsigned long long _field28;
-    struct ConfigFlags _field29;
-    unsigned char _field30;
-    unsigned char _field31;
-    unsigned char _field32;
-    unsigned char _field33;
-    unsigned long long _field34;
-    unsigned int _field35;
-    unsigned char _field36;
-    _Bool _field37;
-};
-
-struct URLProtocol;
 
 struct URLProtocolClient {
     CDUnknownFunctionPointerType *_field1;
@@ -405,25 +303,8 @@ struct map<std::string, std::vector<std::string>, std::less<std::string>, std::a
     } __tree_;
 };
 
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct shared_ptr<HTTPProtocol> {
-    struct HTTPProtocol *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<NSObject<OS_nw_context>> {
-    NSObject *__ptr_;
-    struct __shared_weak_count *__cntrl_;
 };
 
 struct shared_ptr<RequestBody> {
@@ -431,19 +312,9 @@ struct shared_ptr<RequestBody> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<TCPIO_EstablishBase> {
-    struct TCPIO_EstablishBase *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<TransportConnection> {
-    struct TransportConnection *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<TransportConnectionObjCPP> {
-    struct TransportConnectionObjCPP *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct TransportConnection *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct stat {
@@ -478,11 +349,6 @@ struct unique_ptr<_CFHSTSPolicy, Deleter_CFRelease> {
     } ;
 };
 
-struct weak_ptr<TransportConnection> {
-    struct TransportConnection *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -497,9 +363,9 @@ typedef struct {
 } CDStruct_198678f7;
 
 typedef struct {
-    long long domain;
-    int error;
-} CDStruct_59046461;
+    long long _field1;
+    int _field2;
+} CDStruct_87dc826d;
 
 typedef struct {
     unsigned char _field1[16];
@@ -561,7 +427,7 @@ typedef struct {
 
 // Template types
 typedef struct shared_ptr<TransportConnection> {
-    struct TransportConnection *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_8da4e70b;
+    struct TransportConnection *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_659b6939;
 

@@ -6,14 +6,11 @@
 
 #import <NetworkExtension/NENexusFlow.h>
 
-@class NSUUID, NWEndpoint, NWParameters;
+@class NSUUID;
 
 @interface NENexusFlowDivertFlow : NENexusFlow
 {
     NSUUID *_clientID;
-    NWEndpoint *_internalEndpoint;
-    NWParameters *_internalParameters;
-    struct _NEFlow *_flowDivertFlow;
 }
 
 - (void);

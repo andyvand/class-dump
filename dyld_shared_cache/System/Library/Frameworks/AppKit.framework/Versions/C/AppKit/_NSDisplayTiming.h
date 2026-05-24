@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDisplayTiming : NSDisplayTiming
 {
     unsigned long long _offset;
-    unsigned long long _interval;
-    unsigned long long _submissionDelta;
-    unsigned long long _wakeUpDelta;
 }
 
 + (id)ÈuI;
@@ -25,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ess;
+- (_Bool));
+- (id)entryOrExitAnimationInProgress;
 
 @end
 

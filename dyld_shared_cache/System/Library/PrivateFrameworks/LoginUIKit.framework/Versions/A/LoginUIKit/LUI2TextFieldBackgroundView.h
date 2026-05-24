@@ -11,21 +11,18 @@
 @interface LUI2TextFieldBackgroundView : LUI2VisualEffectView
 {
     LUI2TintView *_tintView;
-    id _mouseUpTarget;
-    SEL _mouseUpAction;
-    LUI2DarkenView *_darkenView;
 }
 
-- (id);
+- (id)5(kI)_k;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (SEL);
-- (id);
+- (id);
+- (void)$;
 - (void);
-- (void);
-- (void);
+- (void)lid parameters in %@ - bad identifier;
 - (void);
 - (void);
 - (void);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(retain) LUI2DarkenView *darkenView; // @synthesize darkenView=_darkenView;
-@property SEL mouseUpAction; // @synthesize mouseUpAction=_mouseUpAction;
-@property __weak id mouseUpTarget; // @synthesize mouseUpTarget=_mouseUpTarget;
-@property(readonly) LUI2TintView *tintView; // @synthesize tintView=_tintView;
 
 @end
 

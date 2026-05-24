@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGSqlEntityStore;
-
 @interface SGMIFeatureVectorCollator
 {
     unsigned long long _startInDaysAgo;
-    unsigned long long _endInDaysAgo;
-    unsigned long long _limit;
-    _Bool _withBiomeData;
-    NSArray *_featureNames;
-    SGSqlEntityStore *_store;
-    _Bool _useSpotlightDataForMissingBiomeData;
-    NSArray *_simulatedCSSIs;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)púüü¬p$èüÀÔL;

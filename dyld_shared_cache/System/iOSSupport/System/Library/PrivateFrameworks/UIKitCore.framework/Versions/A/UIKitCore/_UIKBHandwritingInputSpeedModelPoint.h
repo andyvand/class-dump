@@ -11,9 +11,10 @@ __attribute__((visibility("hidden")))
     struct CGPoint _location;
 }
 
-- (id);
+- (id)i
+;
 - (double);
-- (void)prefersDimmingVisible;
+- (void)__prefersDimmingVisible;
 - (struct CGPoint)focus map snapshot's map area and search area must be expressed in the same coordinate space.;
 - (void);
 

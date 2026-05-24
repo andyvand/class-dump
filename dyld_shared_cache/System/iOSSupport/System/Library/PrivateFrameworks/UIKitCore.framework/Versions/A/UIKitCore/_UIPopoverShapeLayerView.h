@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_stitchLastItemEntryToHeadEntry:branchList: /* Error: Ran out of types for this method. */;
 - (_Bool)á°!lBùñ\1Â0@ù
 × ;
 

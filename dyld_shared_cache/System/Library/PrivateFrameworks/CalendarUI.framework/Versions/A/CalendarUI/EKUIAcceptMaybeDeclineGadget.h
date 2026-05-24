@@ -12,12 +12,12 @@
 
 - (id);
 - (id);
-- (void);
+- (void)k;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

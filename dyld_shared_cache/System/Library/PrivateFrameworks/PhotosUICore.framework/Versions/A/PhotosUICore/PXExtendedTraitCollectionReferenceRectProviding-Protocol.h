@@ -5,6 +5,7 @@
 //
 
 @protocol PXExtendedTraitCollectionReferenceRectProviding
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect px_platformSpecificFullScreenReferenceRect;

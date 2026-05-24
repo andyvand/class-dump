@@ -4,58 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoCompositionInstructionInternal, NSArray, NSString;
+@class AVVideoCompositionInstructionInternal;
 
 @interface AVVideoCompositionInstruction
 {
     AVVideoCompositionInstructionInternal *_instruction;
 }
 
-+ (id);
++ (id);
 + (_Bool);
-+ (void)onDidResolveMediaSelectionNotification;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
++ (void)AVAssetDownloadSessionDidResolveMediaSelectionNotification;
+- (void)_unlockedInitContext;
+- (void)_partialResultIndexOffset;
+- (void)_loadLmeForVoiceCommand;
+- (void)eranceStartSamples:(id)arg1 latticeMitigatorResult:nBestVoiceCommandInterpretations:preITNNBestVoiceCommandInterpretations:recognitionPaused:firstResultAfterResume:endOfSentenceLikelihood:numTokensExcludingTriggerPhrase:voiceCommandDebugInfo:performanceMarkers:isComplete:resultCosts: /* Error: Ran out of types for this method. */;
+- (id)_commandTaggings;
+- (id)_commandParserMachContinuousStartTicks;
+- (int)uasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)String",R,N,V_commandUtterance;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)(;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (struct CGColor *);
+- (struct CGColor *);
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) struct CGColor *backgroundColor;
-@property(readonly, nonatomic) _Bool containsTweening;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enablePostProcessing;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *layerInstructions;
-@property(readonly, nonatomic) int passthroughTrackID;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-@property(readonly, nonatomic) NSArray *requiredSourceTrackIDs;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

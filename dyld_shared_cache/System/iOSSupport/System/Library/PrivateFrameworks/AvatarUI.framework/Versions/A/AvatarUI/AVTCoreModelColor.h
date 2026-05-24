@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTColorPreset, NSDictionary, NSString;
-
 @interface AVTCoreModelColor
 {
     _Bool _showSlider;
-    float _rangeMin;
-    float _rangeMax;
-    AVTColorPreset *_baseColorPreset;
-    unsigned long long _order;
-    NSDictionary *_derivedColorsByCategories;
-    CDStruct_597dd055 _settingKind;
 }
 
 - (id);
@@ -31,7 +23,7 @@
 - (float);
 - (float);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -41,22 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTColorPreset *baseColorPreset; // @synthesize baseColorPreset=_baseColorPreset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSDictionary *derivedColorsByCategories; // @synthesize derivedColorsByCategories=_derivedColorsByCategories;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) unsigned long long order; // @synthesize order=_order;
-@property(readonly, nonatomic) float rangeMax; // @synthesize rangeMax=_rangeMax;
-@property(readonly, nonatomic) float rangeMin; // @synthesize rangeMin=_rangeMin;
-@property(readonly, nonatomic) CDStruct_597dd055 settingKind; // @synthesize settingKind=_settingKind;
-@property(readonly, nonatomic, getter=canShowSlider) _Bool showSlider; // @synthesize showSlider=_showSlider;
-@property(readonly) Class superclass;
 
 @end
 

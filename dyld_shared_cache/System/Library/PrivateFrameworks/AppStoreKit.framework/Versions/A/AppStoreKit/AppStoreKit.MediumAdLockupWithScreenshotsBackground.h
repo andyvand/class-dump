@@ -7,14 +7,6 @@
 @interface AppStoreKit.MediumAdLockupWithScreenshotsBackground
 {
     id isAnimated;
-    id riverSpeed;
-    id lockup;
-    id screenshots;
-    id secondaryTextColor;
-    id backgroundColor;
-    id impressionMetrics;
-    id clickAction;
-    id automationMetadata;
 }
 
 @end

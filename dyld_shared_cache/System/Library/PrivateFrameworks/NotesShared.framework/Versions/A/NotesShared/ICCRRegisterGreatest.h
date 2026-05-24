@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (void);
+- (id)V_installedProduct;
+- (void)ԙ;
 - (void);
 - (void);
 - (long long);

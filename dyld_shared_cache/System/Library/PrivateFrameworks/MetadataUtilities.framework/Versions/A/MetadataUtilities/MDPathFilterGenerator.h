@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MDPathFilterGenerator
 {
     NSMutableDictionary *_namedRoots;
-    NSMutableArray *_namedRootArray;
-    NSMutableDictionary *_namedRootIndexes;
-    NSMutableArray *_auxValueArray;
-    int _nextAuxValueIndex;
-    _Bool _processExtensions;
-    int _auxValueCount;
-    NSMutableDictionary *_namedLinkExtensionsDictionary;
-    NSDictionary *_namedLinkPrefixesDictionary;
-    unsigned long long _atBundleMask;
-    unsigned long long _inBundleMask;
-    unsigned long long _inheritMask;
-    unsigned long long _defaultRule;
-    unsigned long long _defaultMask;
-    unsigned long long _ignoreMask;
 }
 
 - (id);
@@ -36,7 +22,7 @@
 - (struct _MDPlistContainer *);
 - (void);
 - (void);
-- (void)lues;
+- (void)allValues;
 
 @end
 

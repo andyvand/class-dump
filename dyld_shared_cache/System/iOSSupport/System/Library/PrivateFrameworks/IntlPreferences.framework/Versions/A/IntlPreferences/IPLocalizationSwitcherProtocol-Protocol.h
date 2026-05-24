@@ -5,5 +5,7 @@
 //
 
 @protocol IPLocalizationSwitcherProtocol
+- (void);
+- (void)f;
 @end
 

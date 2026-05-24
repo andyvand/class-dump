@@ -6,40 +6,25 @@
 
 #import <AppKit/NSView.h>
 
-@class CABackdropLayer, CALayer, NSString;
+@class CABackdropLayer;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorListPickerBlurContainerView : NSView
 {
     CABackdropLayer *_backdropLayer;
-    CALayer *_topCropLayer;
-    CALayer *_bottomCropLayer;
-    CALayer *_rightCropLayer;
-    CALayer *_leftCropLayer;
-    CALayer *_underContentCoverView;
-    NSView *_contentView;
-    _Bool _active;
 }
 
-- (_Bool);
+- (_Bool)TargetSubType;
 - (struct CGAffineTransform);
 - (void);
-- (void);
-- (id)orWorldAdjustingInsets:(struct CGRect)arg1;
-- (void)dMoveNotificationFromColumn:(id)arg1 toColumn: /* Error: Ran out of types for this method. */;
+- (void)(;
+- (id)setMemoizedDynamicAnimatorWorldAdjustingInsets:(struct CGRect)arg1;
+- (void)_postColumnDidMoveNotificationFromColumn:(id)arg1 toColumn: /* Error: Ran out of types for this method. */;
 - (_Bool)OÝ@;
 - (id)*ìA;
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
 @property(retain) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

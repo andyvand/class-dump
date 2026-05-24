@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WDCharacterProperties, WDParagraphProperties, WDStyleSheet, WDTableCellProperties, WDTableRowProperties, WDTableStyleOverride;
+@class WDParagraphProperties, WDStyleSheet;
 
 __attribute__((visibility("hidden")))
 @interface WDStyle
 {
     WDParagraphProperties *mParagraphProperties;
-    WDCharacterProperties *mCharacterProperties;
-    WDTableRowProperties *mTableRowProperties;
-    WDTableCellProperties *mTableCellProperties;
-    WDTableStyleOverride *mTableStyleOverrides[12];
-    _Bool mHidden;
-    NSString *mName;
-    NSString *mId;
-    int mStyleType;
-    WDStyleSheet *mStyleSheet;
-    WDStyle *mBaseStyle;
-    WDStyle *mNextStyle;
 }
 
 - (id);
@@ -35,21 +24,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)removeSubitem: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)*** DNSServiceQueryRecord returned error %d;
 - (id);
 - (int);
-- (void);
-- (id);
+- (void)P;
+- (id)ating mutable connection [mutating sql statement] statement=%{public}@;
 - (void)!¤ Ð!Fù±5$1Â0@ù
 × ;
-- (id)exadecimalString:start:stop:nicelyFormatted: /* Error: Ran out of types for this method. */;
+- (id)dumpDataToHexadecimalString:start:stop:nicelyFormatted: /* Error: Ran out of types for this method. */;
 - (void)ISFUZipEntry setDataLength:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak WDStyle *baseStyle; // @synthesize baseStyle=mBaseStyle;
-@property __weak WDStyle *nextStyle; // @synthesize nextStyle=mNextStyle;
 @property(readonly) __weak WDStyleSheet *styleSheet; // @synthesize styleSheet=mStyleSheet;
 
 @end

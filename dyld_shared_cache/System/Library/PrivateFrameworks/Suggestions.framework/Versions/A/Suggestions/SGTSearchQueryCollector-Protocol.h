@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, SGTSearchQueryCollectorDelegate;
+@protocol SGTSearchQueryCollectorDelegate;
 
 @protocol SGTSearchQueryCollector
+- (void)";
+- (_Bool);
 
 // Remaining properties
 @property __weak id <SGTSearchQueryCollectorDelegate> delegate;
-@property(readonly) _Bool isQuerying;
-@property(readonly) NSObject<OS_dispatch_queue> *queryQueue;
 @end
 

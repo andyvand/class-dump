@@ -8,13 +8,10 @@ __attribute__((visibility("hidden")))
 @interface NSDiagnosticsHandler
 {
     unsigned long long _handle;
-    CDUnknownBlockType _provider;
-    char *_path;
-    char *_title;
 }
 
-- (id);
-- (struct os_state_data_s *);
+- (id)encodeObject:(const char *)arg1 forKey:(const char *)arg2;
+- (struct os_state_data_s *)_connectionWorkQueue;
 - (void);
 - (id);
 - (void)¼×ÿ¶U;

@@ -7,9 +7,6 @@
 @interface NewsUI2.PersonalizationScriptTestCase.DataStore
 {
     id aggregateStore;
-    id start;
-    id capturedData;
-    id end;
 }
 
 @end

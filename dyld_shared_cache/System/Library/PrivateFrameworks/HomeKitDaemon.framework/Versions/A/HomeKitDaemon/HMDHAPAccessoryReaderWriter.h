@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessoryTaskTracker, HMDHome, NSString;
-@protocol HMDHAPAccessoryReaderWriterDataSource, HMMLogEventSubmitting;
+@class HMDHAPAccessoryTaskTracker;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryReaderWriter
 {
     HMDHAPAccessoryTaskTracker *_tracker;
-    HMDHome *_home;
-    id <HMDHAPAccessoryReaderWriterDataSource> _dataSource;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)ÀB;
@@ -22,37 +18,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)otification"8;
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
+- (id)"PFParallaxSpatialPhotoLayer",&,N,V_spatialPhotoLayer;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)!|Cùñð1Â0@ù
 × ;
 - (id)Ü;
-- (void)tedOptions;
+- (void)UpdateSupportedOptions;
 - (id);
 
 // Remaining properties
-@property(readonly) id <HMDHAPAccessoryReaderWriterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 @property(readonly) HMDHAPAccessoryTaskTracker *tracker; // @synthesize tracker=_tracker;
 
 @end

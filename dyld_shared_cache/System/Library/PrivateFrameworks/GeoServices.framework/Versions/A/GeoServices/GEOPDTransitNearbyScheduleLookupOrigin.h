@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWaypointTyped, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitNearbyScheduleLookupOrigin
 {
     PBUnknownFields *_unknownFields;
-    GEOWaypointTyped *_waypointTyped;
 }
 
 - (id);
-- (void);
+- (void)setScanLocation:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id)40@0:(struct _NSZone *)arg1 8{?=dd}16^d32;
-- (id)PositionFromDestination;
+- (id)_sendPositionFromDestination;
 - (id)ÿØ;
 - (void)¤à)äPJ@;
 

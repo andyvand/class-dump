@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface IKSSImageView
 {
     CALayer *_imageLayer;
-    struct CGImage *_image;
-    struct CGRect _rect;
 }
 
 - (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_handleiTunesResponseForBundleIdentifiers:(id)arg1 response:data:error:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface deoc_ultraOutput
 {
     long long _target;
-    NSDictionary *_classProbability;
 }
 
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)@;
 - (void);
 - (id);
 - (void);
-- (id)tart_secs_curr_dynamic_bin_8;
+- (id)_drain_depth_p_0_90_at_charge_start_secs_curr_dynamic_bin_8;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long target; // @synthesize target=_target;
 
 @end

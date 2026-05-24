@@ -5,5 +5,6 @@
 //
 
 @protocol _MXExtensionRequestDispatching
+- (void)BackgroundProcessing_DASPoliciesBlockingCriteria_24_5;
 @end
 

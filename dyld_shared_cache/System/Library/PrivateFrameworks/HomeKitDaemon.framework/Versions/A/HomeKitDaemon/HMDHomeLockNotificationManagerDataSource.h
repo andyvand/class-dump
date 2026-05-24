@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeLockNotificationManagerDataSource
 {
@@ -14,14 +12,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)J¦A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) Class superclass;
 
 @end
 

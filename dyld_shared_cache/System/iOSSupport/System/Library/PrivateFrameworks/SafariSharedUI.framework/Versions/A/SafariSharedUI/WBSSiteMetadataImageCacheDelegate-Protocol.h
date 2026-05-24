@@ -5,5 +5,8 @@
 //
 
 @protocol WBSSiteMetadataImageCacheDelegate
+
+@optional
+- (void)_G;
 @end
 

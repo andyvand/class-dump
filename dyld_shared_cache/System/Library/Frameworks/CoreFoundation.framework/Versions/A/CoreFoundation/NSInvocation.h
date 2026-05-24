@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMethodSignature, NSMutableArray;
-
 @interface NSInvocation
 {
     void *_frame;
-    void *_retdata;
-    NSMethodSignature *_signature;
-    NSMutableArray *_container;
-    _Bool *_replacedByPointerBacking;
-    unsigned long long _pac_signature;
-    unsigned int _magic;
-    unsigned char _retainedArgs;
-    unsigned char _stackAllocated;
 }
 
 @end

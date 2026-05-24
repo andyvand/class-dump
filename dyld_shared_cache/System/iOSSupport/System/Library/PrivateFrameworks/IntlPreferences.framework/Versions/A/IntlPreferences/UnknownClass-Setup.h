@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface UnknownClass (Setup)
 + (void);
@@ -21,24 +21,24 @@
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)u;
 + (id);
 + (id);
 + (void);
 + (id);
 + (id);
 + (id);
++ (void);
++ (void);
++ (id);
++ (id);
++ (id);
++ (id)z;
++ (id);
++ (void);
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -47,7 +47,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)|;
 + (id);
 + (_Bool);
 + (void);
@@ -57,7 +57,7 @@
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -72,15 +72,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)z;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *explanationTextForSelectableScripts;
-@property(readonly, copy) NSString *optionNameForSelectableScripts;
-@property(readonly, copy) NSString *optionNameWithColonForSelectableScripts;
-@property(readonly, copy) NSDictionary *preferenceKeysForSelectableScripts;
-@property(readonly, copy) NSArray *selectableScriptCodes;
 @property(copy) NSString *selectedScript;
 @end
 

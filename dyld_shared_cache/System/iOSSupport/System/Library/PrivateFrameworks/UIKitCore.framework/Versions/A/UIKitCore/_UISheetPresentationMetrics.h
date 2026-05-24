@@ -8,43 +8,31 @@
 {
 }
 
-+ (id)esture;
++ (id)respondsToProxGesture;
 - (_Bool);
 - (double);
-- (double);
+- (double)11TemplateKit18AsyncCacheComputer_px3KeyAaBPRts_q_5ValueADRtsXP;
 - (double);
 - (void);
 - (id);
 - (double);
-- (id);
-- (struct CGSize);
+- (id)mrAnimatedArtwork;
+- (struct CGSize)_lightweightPersonalizedObjectWithUnpersonalizedObject:(id)arg1 libraryObject:(struct CGSize)arg2 personalizationProperties:(struct CGSize)arg3 overrideLibraryAddedStatus: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (_Bool)ew"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
 - (struct CGSize)ForGeneratingToolbarIdentifiers:(struct CGSize)arg1 ,V_sectionForGeneratingToolbarIdentifiers;
-- (_Bool)g;
+- (_Bool)UIWeakCoreKeyboardTracking;
 - (_Bool);
 - (double)g:Unable to create restoration in progress marker file /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool)_UIImagePickerControllerUserDidCaptureItem;
 - (double)rrationOffset;
 - (double);
 - (double)þ±È;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysStacksWithChild;
-@property(readonly, nonatomic) double cornerRadius;
 @property(readonly, nonatomic) long long defaultMode;
-@property(readonly, nonatomic) _Bool exclusivelyUsesZPositionForTransform;
-@property(readonly, nonatomic) _Bool fadeOutIfAnyDescendantWantsFullScreen;
-@property(readonly, nonatomic) double maximumSheetDepthLevel;
-@property(readonly, nonatomic) double minimumSidePadding;
-@property(readonly, nonatomic) double preferredShadowOpacity;
-@property(readonly, nonatomic) double shadowRadius;
-@property(readonly, nonatomic) double topOffset;
-@property(readonly, nonatomic) double topOffsetInCompactHeight;
-@property(readonly, nonatomic) double transitionDuration;
-@property(readonly, nonatomic) _Bool wantsDimming;
 
 @end
 

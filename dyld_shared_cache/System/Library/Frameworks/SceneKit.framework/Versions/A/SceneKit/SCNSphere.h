@@ -9,11 +9,6 @@
 @interface SCNSphere : SCNGeometry
 {
     double _sphereradius;
-    double _sphereradialSpan;
-    long long _spheresegmentCount;
-    long long _sphereprimitiveType;
-    _Bool _spheregeodesic;
-    _Bool _spherehemispheric;
 }
 
 + (id);
@@ -32,18 +27,18 @@
 - (void);
 - (struct __C3DGeometry *);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)#;
+- (void)=;
 - (id);
 - (double);
 - (id)rseResolution.y)).r;
@@ -93,9 +88,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, getter=isGeodesic) _Bool geodesic;
 @property(nonatomic) double radius;
-@property(nonatomic) long long segmentCount;
 
 @end
 

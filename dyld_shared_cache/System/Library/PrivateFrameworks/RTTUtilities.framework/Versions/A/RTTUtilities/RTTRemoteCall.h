@@ -6,16 +6,11 @@
 
 #import <RTTUtilities/RTTCall.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject, RPCompanionLinkClient, RPCompanionLinkDevice;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, RPCompanionLinkClient;
 
 @interface RTTRemoteCall : RTTCall
 {
     NSMutableArray *_devices;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    RPCompanionLinkClient *_discoveryClient;
-    NSMutableDictionary *_messagingClients;
-    RPCompanionLinkDevice *_pairedCallDevice;
 }
 
 - (void);
@@ -33,7 +28,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)setCandidateSet:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -44,8 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RPCompanionLinkClient *discoveryClient; // @synthesize discoveryClient=_discoveryClient;
-@property(retain, nonatomic) NSMutableDictionary *messagingClients; // @synthesize messagingClients=_messagingClients;
-@property(retain, nonatomic) RPCompanionLinkDevice *pairedCallDevice; // @synthesize pairedCallDevice=_pairedCallDevice;
 
 @end
 

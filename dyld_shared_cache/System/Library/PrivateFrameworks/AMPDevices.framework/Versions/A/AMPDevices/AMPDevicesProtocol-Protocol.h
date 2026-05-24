@@ -5,5 +5,9 @@
 //
 
 @protocol AMPDevicesProtocol
+- (void)#;
+- (void)b;
+- (void);
+- (void)t;
 @end
 

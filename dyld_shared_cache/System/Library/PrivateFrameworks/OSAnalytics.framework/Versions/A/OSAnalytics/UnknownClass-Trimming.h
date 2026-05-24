@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (Trimming)
-- (id);
-- (id);
-- (id);
+- (id)LKLabel",&,N,V_label;
+- (id)teDescriptorLabel;
+- (id)archUICommandEnvironment",&,V_commandEnvironment;
 @end
 

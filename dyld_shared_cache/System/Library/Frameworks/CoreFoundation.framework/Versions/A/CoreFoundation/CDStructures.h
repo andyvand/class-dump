@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -66,7 +64,7 @@ struct __CFPasteboard {
     CDUnknownBlockType _field21;
     CDUnknownBlockType _field22;
     double _field23;
-    CDStruct_4c969caf _field24;
+    CDStruct_6ad76789 _field24;
 };
 
 struct __cfobservers_t {
@@ -84,24 +82,18 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct vertex {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long *_field3;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long state;
-    id *itemsPtr;
-    unsigned long long *mutationsPtr;
-    unsigned long long extra[5];
-} CDStruct_58648341;
+    unsigned long long _field1;
+    id *_field2;
+    unsigned long long *_field3;
+    unsigned long long _field4[5];
+} CDStruct_70511ce9;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     int _field1;
@@ -110,17 +102,12 @@ typedef struct {
 } CDStruct_b6748e3c;
 
 typedef struct {
-    long long version;
-    void *info;
-    CDUnknownFunctionPointerType retain;
-    CDUnknownFunctionPointerType release;
-    CDUnknownFunctionPointerType copyDescription;
-} CDStruct_4210025a;
-
-typedef struct {
-    struct __CFBasicHash *set;
-    NSMutableArray *array;
-} CDStruct_2595eaee;
+    long long _field1;
+    void *_field2;
+    CDUnknownFunctionPointerType _field3;
+    CDUnknownFunctionPointerType _field4;
+    CDUnknownFunctionPointerType _field5;
+} CDStruct_e097db04;
 
 typedef struct {
     int _field1;
@@ -143,18 +130,6 @@ typedef struct {
 } CDStruct_55991ab6;
 
 typedef struct {
-    id *objs;
-    union {
-        unsigned long long mutations;
-        struct {
-            unsigned int muts;
-            unsigned int used:26;
-            unsigned int szidx:6;
-        } ;
-    } state;
-} CDStruct_af6d7307;
-
-typedef struct {
     id *buffer;
     union {
         struct {
@@ -173,17 +148,4 @@ typedef struct {
         } ;
     } state;
 } CDStruct_bc24fd1e;
-
-typedef struct {
-    id *list;
-    unsigned int offset;
-    unsigned int size;
-    union {
-        unsigned long long mutations;
-        struct {
-            unsigned int muts;
-            unsigned int used;
-        } ;
-    } state;
-} CDStruct_a6934631;
 

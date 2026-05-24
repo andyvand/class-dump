@@ -6,9 +6,6 @@
 
 #import <WebKitLegacy/DOMUIEvent.h>
 
-@class DOMNode;
-@protocol DOMEventTarget;
-
 @interface DOMMouseEvent : DOMUIEvent
 {
 }
@@ -18,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%K;
 - (_Bool);
 - (int);
 - (int);
@@ -33,22 +30,7 @@
 - (short);
 
 // Remaining properties
-@property(readonly) _Bool altKey;
-@property(readonly) short button;
-@property(readonly) int clientX;
-@property(readonly) int clientY;
-@property(readonly) _Bool ctrlKey;
-@property(readonly) DOMNode *fromElement;
-@property(readonly) _Bool metaKey;
-@property(readonly) int offsetX;
-@property(readonly) int offsetY;
-@property(readonly) id <DOMEventTarget> relatedTarget;
 @property(readonly) int screenX;
-@property(readonly) int screenY;
-@property(readonly) _Bool shiftKey;
-@property(readonly) DOMNode *toElement;
-@property(readonly) int x;
-@property(readonly) int y;
 
 @end
 

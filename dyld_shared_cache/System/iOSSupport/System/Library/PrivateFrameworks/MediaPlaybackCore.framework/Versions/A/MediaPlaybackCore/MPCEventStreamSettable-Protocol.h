@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, NSString;
+@class MPCPlaybackEngineEventStream;
 
 @protocol MPCEventStreamSettable
 
 // Remaining properties
 @property(nonatomic) __weak MPCPlaybackEngineEventStream *eventStream;
-@property(copy, nonatomic) NSString *playerID;
 @end
 

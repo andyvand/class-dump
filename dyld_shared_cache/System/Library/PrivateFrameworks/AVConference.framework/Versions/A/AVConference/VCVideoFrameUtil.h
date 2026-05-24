@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (struct __CVBuffer *);
-+ (CDStruct_1b6d18a9);
++ (CDStruct_198678f7);
 
 @end
 

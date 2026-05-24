@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void):inPhase:withEvent: /* Error: Ran out of types for this method. */;
+- (void)initWithResponder:class:press:inPhase:withEvent: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct UIEdgeInsets)kImage:%@
  /* Error: Ran out of types for this method. */;
-- (_Bool)reKeyboardExclusivityIdentifier;
+- (_Bool)_UIRemoteViewControllerSceneContextHardwareKeyboardExclusivityIdentifier;
 - (_Bool);
-- (struct CGRect)creteResolverC;
+- (struct CGRect)So41_UISceneSafeAreaEdgeInsetConcreteResolverC;
 - (long long);
 - (_Bool),];
 - (_Bool)dÄåþ;

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXChartDescriptor;
-
 @interface TeaCharts.LineSeriesAccessibilityElement
 {
     id series;
-    id chartModel;
-    id interactor;
-    id dataElements;
-    id xAxisDateFormatter;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (struct CGRect);
@@ -25,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) AXChartDescriptor *accessibilityChartDescriptor;
 @property(nonatomic) struct CGRect accessibilityFrame;
 
 @end

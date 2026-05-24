@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray, NSString;
 
 @interface AVCaptureDeferredPhotoProcessor
 {
     NSString *_applicationIDOverride;
-    NSObject<OS_dispatch_queue> *_processorQueue;
-    struct OpaqueFigCaptureDeferredPhotoProcessor *_processor;
-    AVWeakReference *_weakReference;
-    struct OpaqueFigSimpleMutex *_requestsLock;
-    NSMutableArray *_requests;
-    _Bool _requestsWillBeReenqueued;
-    NSObject<OS_dispatch_queue> *_processPhotoProxyQueue;
-    NSObject<OS_dispatch_queue> *_reenqueuePhotoProxyQueue;
 }
 
 + (id);
 + (id);
 + (void)owsSuspendedPreferredCameras:] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
+- (void).> ;
+- (void)%@; isRoot:(id)arg1 %@; isDebug:(id)arg2 %@;
+- (void)DAAPKit;
+- (id)y/PrivateFrameworks/MusicLibrary.framework/MusicLibrary;
+- (id)ment!;
+- (_Bool)^__strong _Nonnull)(NSData *__strong), void (^__strong _Nonnull)(NSError * _Nullable __strong))_block_invoke;
 - (id);
-- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,14 +32,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (_Bool);
 - (int);
-- (int);
+- (int)h	;
 - (void);
-- (void);
+- (void)_TtC14AccountsDaemon18ACDAnalyticsSender;
 - (void);
 - (void)ffer=}8@"NSError"16;
 - (_Bool)]c;

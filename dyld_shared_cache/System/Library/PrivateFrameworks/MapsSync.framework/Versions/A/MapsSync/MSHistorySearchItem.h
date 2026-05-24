@@ -6,14 +6,11 @@
 
 #import <MapsSync/MSHistoryItem.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface MSHistorySearchItem : MSHistoryItem
 {
     id _geoMapRegion;
-    id _language;
-    id _locationDisplay;
-    id _query;
 }
 
 + (Class);
@@ -26,16 +23,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)queue;
+- (id)_callAudioTotalExpandTimescaleCount;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSData *geoMapRegion;
-@property(nonatomic, copy) NSString *language;
-@property(nonatomic, copy) NSString *locationDisplay;
-@property(nonatomic, copy) NSString *query;
 
 @end
 

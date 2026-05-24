@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
 @protocol NSObject;
 
 @interface CLSDarwinNotification
 {
     id <NSObject> _observer;
-    NSString *_name;
-    NSDictionary *_userInfo;
-    CDUnknownBlockType _block;
 }
 
+- (id)ader/src/ZinComputeDebugInfoParser.cpp;
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)_;
+- (CDUnknownBlockType);
 - (void);
-- (id)thID:ownerPersonID:completion: /* Error: Ran out of types for this method. */;
+- (id)remote_collaborationStatesForObjectWithID:ownerPersonID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) __weak id <NSObject> observer; // @synthesize observer=_observer;
-@property(readonly, copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

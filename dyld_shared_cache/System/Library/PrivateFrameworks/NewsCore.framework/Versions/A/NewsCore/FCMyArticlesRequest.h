@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface FCMyArticlesRequest
 {
     id dateRange;
-    id isFullFetch;
-    id feeds;
-    id maxItemsPerFeed;
 }
 
 + (void);
@@ -22,7 +19,6 @@
 - (void)authTokenApiBaseUrl;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *feedContextByFeedID;
 @property(nonatomic, readonly) NSArray *feedIDs;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMailbox, MFPOPAccount, NSData, NSString;
+@class NSString;
 
 @interface MFPOPMessage
 {
     NSString *_messageID;
-    unsigned long long _messageNumber;
-    NSData *_messageData;
 }
 
 - (id);
@@ -19,21 +17,17 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)9;
+- (id)webViewFrame: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)hostApplication;
+- (void)&,N,V__stopButtonView;
 - (unsigned long long);
 - (void)ression;
 - (void)Ü;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MFPOPAccount *account;
-@property(readonly, nonatomic) MFMailbox *mailbox;
-@property(copy, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(copy, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
 @property(nonatomic) unsigned long long messageNumber; // @synthesize messageNumber=_messageNumber;
 
 @end

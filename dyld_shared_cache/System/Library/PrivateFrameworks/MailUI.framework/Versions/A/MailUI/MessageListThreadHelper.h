@@ -6,15 +6,9 @@
 
 #import <MailUI/MessageListItemHelper.h>
 
-@class NSMutableSet;
-
 @interface MessageListThreadHelper : MessageListItemHelper
 {
     struct os_unfair_lock_s _itemIDsNeedingReloadLock;
-    _Bool _isPrioritySection;
-    NSMutableSet *_collapsingItemIDs;
-    NSMutableSet *_expandingItemIDs;
-    NSMutableSet *_itemIDsNeedingReloadPostUpdate;
 }
 
 - (id);
@@ -31,8 +25,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)9#;
+- (id)T;
 - (void);
 - (id);
 - (id);
@@ -41,13 +35,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setRowViewProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *collapsingItemIDs; // @synthesize collapsingItemIDs=_collapsingItemIDs;
-@property(retain, nonatomic) NSMutableSet *expandingItemIDs; // @synthesize expandingItemIDs=_expandingItemIDs;
 @property(readonly, nonatomic) _Bool isPrioritySection; // @synthesize isPrioritySection=_isPrioritySection;
-@property(retain, nonatomic) NSMutableSet *itemIDsNeedingReloadPostUpdate; // @synthesize itemIDsNeedingReloadPostUpdate=_itemIDsNeedingReloadPostUpdate;
 
 @end
 

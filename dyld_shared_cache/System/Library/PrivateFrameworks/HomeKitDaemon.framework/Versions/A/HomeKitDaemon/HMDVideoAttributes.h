@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDVideoResolution, NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDVideoAttributes
 {
     NSNumber *_imageWidth;
-    NSNumber *_imageHeight;
-    HMDVideoResolution *_videoResolution;
-    NSNumber *_framerate;
 }
 
 + (_Bool);
@@ -28,14 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ingAuditor;
+- (void)HMDAccessoryPairingAuditor;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *framerate; // @synthesize framerate=_framerate;
-@property(readonly, copy, nonatomic) NSNumber *imageHeight; // @synthesize imageHeight=_imageHeight;
 @property(readonly, copy, nonatomic) NSNumber *imageWidth; // @synthesize imageWidth=_imageWidth;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDVideoResolution *videoResolution; // @synthesize videoResolution=_videoResolution;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol SCNAnimatable
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

@@ -9,16 +9,13 @@
 @interface AVTAvatarAttributeEditorTransitionFromActionsStartingPortraitLayout : AVTAvatarAttributeEditorLayout
 {
     _Bool _showSideGroupPicker;
-    double _avatarContainerAlpha;
-    double _attributesContentViewExtraHeight;
-    struct CGRect _avatarContainerFrame;
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (struct CGRect);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (id);
 - (struct CGRect);
@@ -26,11 +23,11 @@
 - (struct CGRect);
 - (struct CGRect);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (double);
-- (id);
+- (id)serverUnreachable;
 
 // Remaining properties
 @property(readonly, nonatomic) double attributesContentViewExtraHeight; // @synthesize attributesContentViewExtraHeight=_attributesContentViewExtraHeight;

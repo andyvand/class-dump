@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (void);
 - (id);
-- (id);
+- (id)oll mode;
 - (_Bool);
 - (void);
 

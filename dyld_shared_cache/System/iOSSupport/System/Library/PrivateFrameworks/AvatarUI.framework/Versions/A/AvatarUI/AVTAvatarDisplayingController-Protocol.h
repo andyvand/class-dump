@@ -7,6 +7,8 @@
 @protocol AVTAvatarDisplayingControllerDelegate;
 
 @protocol AVTAvatarDisplayingController
+- (void);
+- (id <AVTAvatarDisplayingControllerDelegate>);
 - (void)io;
 
 // Remaining properties

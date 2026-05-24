@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSToolbarTitleStackView : NSView
 {
     NSView *_primaryTitleView;
-    NSView *_primaryTextField;
-    NSView *_subtitleView;
 }
 
 - (void);
@@ -19,13 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ItemStandardItemsUseSymbolImages;
-- (void)leContentsPboardType;
+- (void)NSToolbarItemStandardItemsUseSymbolImages;
+- (void)NXTypedFileContentsPboardType;
 - (id)$KËÿbí;
 
 // Remaining properties
 @property(retain) NSView *primaryTitleView;
-@property(retain) NSView *subtitleView;
 
 @end
 

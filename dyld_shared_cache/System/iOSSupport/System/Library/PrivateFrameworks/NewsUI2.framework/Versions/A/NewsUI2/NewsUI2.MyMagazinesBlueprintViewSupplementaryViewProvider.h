@@ -7,8 +7,6 @@
 @interface NewsUI2.MyMagazinesBlueprintViewSupplementaryViewProvider
 {
     id sectionHeaderRenderer;
-    id feedItemSupplementaryRenderer;
-    id separatorRenderer;
 }
 
 @end

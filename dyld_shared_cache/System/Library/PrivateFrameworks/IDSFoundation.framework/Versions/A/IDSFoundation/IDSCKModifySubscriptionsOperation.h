@@ -15,7 +15,7 @@
 + (id)fÄ1×ñ;
 - (CDUnknownBlockType);
 - (void);
-- (void)dPhoto;
+- (void)ITWNameAndPhoto;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType modifySubscriptionsCompletionBlock; // @synthesize modifySubscriptionsCompletionBlock=_modifySubscriptionsCompletionBlock;

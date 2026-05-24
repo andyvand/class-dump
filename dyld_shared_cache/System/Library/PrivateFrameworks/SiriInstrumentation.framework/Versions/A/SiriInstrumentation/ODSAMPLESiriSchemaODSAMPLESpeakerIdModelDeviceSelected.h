@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODSAMPLESiriSchemaODSAMPLESpeakerIdModelDeviceSelected : SISchemaInstrumentationMessage
 {
     _Bool _isDeviceSelected;
-    struct {
-        unsigned int isDeviceSelected:1;
-    } _has;
 }
 
 - (void);
@@ -30,12 +25,10 @@
 - (id)1Þ°1Â0@ù
 × ;
 - (id)N,V_durationInMs;
-- (id)sHandledError;
+- (id)hasHandledError;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDeviceSelected;
 @property(nonatomic) _Bool isDeviceSelected; // @synthesize isDeviceSelected=_isDeviceSelected;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)Node;
+- (long long)?s;
+- (id)removeImagesFromCacheForKeyStrings: /* Error: Ran out of types for this method. */;
+- (id)PGGraphPersonNode;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNQuickActionViewClickHelperDelegate
+- (void);
 @end
 

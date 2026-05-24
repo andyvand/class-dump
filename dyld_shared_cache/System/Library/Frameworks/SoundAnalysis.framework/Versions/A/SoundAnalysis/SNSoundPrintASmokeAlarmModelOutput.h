@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNSoundPrintASmokeAlarmModelOutput
 {
     MLMultiArray *_input_1;
-    MLMultiArray *_Confidence;
-    MLMultiArray *_Detected;
-    MLMultiArray *_thresholdedHistoryOut;
-    MLMultiArray *_detectedHistoryOut;
 }
 
 - (id);
@@ -31,12 +27,7 @@
 - (id)2Ü%;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *Confidence; // @synthesize Confidence=_Confidence;
-@property(retain, nonatomic) MLMultiArray *Detected; // @synthesize Detected=_Detected;
-@property(retain, nonatomic) MLMultiArray *detectedHistoryOut; // @synthesize detectedHistoryOut=_detectedHistoryOut;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *input_1; // @synthesize input_1=_input_1;
-@property(retain, nonatomic) MLMultiArray *thresholdedHistoryOut; // @synthesize thresholdedHistoryOut=_thresholdedHistoryOut;
 
 @end
 

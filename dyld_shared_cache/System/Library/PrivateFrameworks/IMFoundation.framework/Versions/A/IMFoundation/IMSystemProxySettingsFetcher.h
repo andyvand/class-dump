@@ -9,13 +9,6 @@
 @interface IMSystemProxySettingsFetcher
 {
     unsigned short _port;
-    unsigned short _proxyPort;
-    id _delegate;
-    NSString *_host;
-    long long _proxyProtocol;
-    NSString *_proxyHost;
-    NSString *_proxyAccount;
-    NSString *_proxyPassword;
 }
 
 - (void);
@@ -37,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned short);
+- (unsigned short)and do nothing;
 - (unsigned short);
 - (id);
 - (id);
@@ -46,13 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_host; // @synthesize _host;
-@property(nonatomic) unsigned short _port; // @synthesize _port;
-@property(copy, nonatomic) NSString *_proxyAccount; // @synthesize _proxyAccount;
-@property(copy, nonatomic) NSString *_proxyHost; // @synthesize _proxyHost;
-@property(copy, nonatomic) NSString *_proxyPassword; // @synthesize _proxyPassword;
-@property(nonatomic) unsigned short _proxyPort; // @synthesize _proxyPort;
-@property(nonatomic) long long _proxyProtocol; // @synthesize _proxyProtocol;
-@property id delegate; // @synthesize delegate=_delegate;
 
 @end
 

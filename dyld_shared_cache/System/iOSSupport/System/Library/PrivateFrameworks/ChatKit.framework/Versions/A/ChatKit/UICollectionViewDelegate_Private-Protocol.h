@@ -5,6 +5,7 @@
 //
 
 @class NSArray, NSIndexPath, NSString, UICollectionView, UIContextMenuConfiguration, UITargetedPreview, _UIContextMenuStyle, _UIWindowSceneActivationConfiguration;
+@protocol UISpringLoadedInteractionContext;
 
 @protocol UICollectionViewDelegate_Private
 
@@ -12,19 +13,20 @@
 - (struct CGPoint);
 - (_UIWindowSceneActivationConfiguration *)1Â0@ù
 × ;
-- (void)iceIsSMS:(UICollectionView *)arg1;
-- (NSIndexPath *)eEntryView:(UICollectionView *)arg1 touchDragExitForPlusButton:(NSIndexPath *)arg2;
-- (_Bool)ontactNameByHandle:(UICollectionView *)arg1;
-- (NSIndexPath *)on:(UICollectionView *)arg1;
-- (void)edsRepair;
-- (UIContextMenuConfiguration *)ation:(UICollectionView *)arg1;
-- (void)structionLabel;
-- (void);
+- (void)setServiceIsSMS:(UICollectionView *)arg1;
+- (NSIndexPath *)messageEntryView:(UICollectionView *)arg1 touchDragExitForPlusButton:(NSIndexPath *)arg2;
+- (_Bool)lockoutViewControllerWithBundleIdentifier:(UICollectionView *)arg1 contactsHandles:(NSIndexPath *)arg2 contactNameByHandle:(id <UISpringLoadedInteractionContext>)arg3;
+- (NSIndexPath *)generateThumbnailsForWidth:(UICollectionView *)arg1 isSticker:orientation: /* Error: Ran out of types for this method. */;
+- (void)accountNeedsRepair;
+- (UIContextMenuConfiguration *)_lastAddressedHandleUpdateNotification:(UICollectionView *)arg1;
+- (void)_instructionLabel;
+- (void)_fetchMeContactWithError:(UICollectionView *)arg1;
 - (UITargetedPreview *)Òÿÿ;
-- (NSString *)MenuButtonEnabled;
-- (_UIContextMenuStyle *)ationDefaults;
+- (NSString *)sendMenuButtonEnabled;
+- (_UIContextMenuStyle *)sendAnimationDefaults;
 - (_Bool)SaySSGG;
 - (NSArray *)Always expecting only 1 primary filter mode but ;
+- (UIContextMenuConfiguration *);
 - (NSIndexPath *)eConversation called with:(UICollectionView *)arg1 %@;
 @end
 

@@ -4,56 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSObject, NSSet, NSString, RTDataProtectionManager, RTDefaultsManager, RTDistanceCalculator, RTHealthKitManager, RTLearnedLocationManager, RTLocationManager, RTMotionActivityManager, RTPlatform, RTTimer, RTTimerManager, RTWatchWristStateManager, RTXPCTimerAlarm, SMCMNoMovementMonitor, SMSessionConfiguration, SMSessionMetricManager, SMSessionMonitorContext, SMSessionMonitorState, SMSessionStore;
-@protocol OS_dispatch_queue, SMSessionManagerMonitorProtocol><SMSessionManagerRegistrationProtocol;
+@class RTDataProtectionManager;
 
 @interface SMSessionMonitor
 {
     RTDataProtectionManager *_dataProtectionManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHealthKitManager *_healthKitManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPlatform *_platform;
-    SMSessionMetricManager *_sessionMetricManager;
-    SMSessionStore *_sessionStore;
-    RTWatchWristStateManager *_wristStateManager;
-    RTTimerManager *_timerManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <SMSessionManagerMonitorProtocol><SMSessionManagerRegistrationProtocol> _sessionManagerDelegate;
-    SMCMNoMovementMonitor *_noMovementMonitor;
-    unsigned long long _riskState;
-    SMSessionMonitorContext *_mostRecentTriggerContext;
-    RTTimer *_pendingSafeArrivalTimer;
-    NSSet *_triggers;
-    SMSessionConfiguration *_configuration;
-    RTXPCTimerAlarm *_regionInsidePendingTimer;
-    CLLocation *_currentLocation;
-    SMSessionMonitorState *_sessionMonitorState;
-    double _sessionMonitorRegionInsidePendingTimerDelay;
 }
 
 + (id);
 - (id);
 - (void);
+- (void)Tv
+;
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (void);
@@ -70,6 +47,17 @@
 - (id);
 - (id);
 - (id);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)amework/Versions/A/MediaAnalysis;
 - (void);
 - (void);
 - (void);
@@ -91,35 +79,24 @@
 - (void);
 - (void);
 - (void);
+- (id)logRecoverableError:(id)arg1 forEvent:withAttributes: /* Error: Ran out of types for this method. */;
+- (void)cachePCSIdentityFetchResult:notFound:serviceID: /* Error: Ran out of types for this method. */;
+- (void)tion;
+- (void)ccess;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)setRecordIDs: /* Error: Ran out of types for this method. */;
+- (void)setQuicPodParamaters:(id)arg1;
+- (void);
+- (id);
+- (void)_shouldAcceptIncomingType:(id)arg1 forTopic:localURI:remoteURI:validateAliases:guid: /* Error: Ran out of types for this method. */;
+- (void)REMOVE %@;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -132,7 +109,7 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)tion:handler: /* Error: Ran out of types for this method. */;
+- (id)storeUserCuration:handler: /* Error: Ran out of types for this method. */;
 - (id)`¢è£¸¦;
 - (id)øÌ;
 - (void)_stopMonitoringWithHandler:(CDUnknownBlockType)arg1 ];
@@ -142,37 +119,7 @@
 - (void)@ to %@;
 
 // Remaining properties
-@property(retain, nonatomic) SMSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) CLLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
 @property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) SMSessionMonitorContext *mostRecentTriggerContext; // @synthesize mostRecentTriggerContext=_mostRecentTriggerContext;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) SMCMNoMovementMonitor *noMovementMonitor; // @synthesize noMovementMonitor=_noMovementMonitor;
-@property(retain, nonatomic) RTTimer *pendingSafeArrivalTimer; // @synthesize pendingSafeArrivalTimer=_pendingSafeArrivalTimer;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTXPCTimerAlarm *regionInsidePendingTimer; // @synthesize regionInsidePendingTimer=_regionInsidePendingTimer;
-@property(nonatomic) unsigned long long riskState; // @synthesize riskState=_riskState;
-@property(nonatomic) __weak id <SMSessionManagerMonitorProtocol><SMSessionManagerRegistrationProtocol> sessionManagerDelegate; // @synthesize sessionManagerDelegate=_sessionManagerDelegate;
-@property(retain, nonatomic) SMSessionMetricManager *sessionMetricManager; // @synthesize sessionMetricManager=_sessionMetricManager;
-@property(nonatomic) double sessionMonitorRegionInsidePendingTimerDelay; // @synthesize sessionMonitorRegionInsidePendingTimerDelay=_sessionMonitorRegionInsidePendingTimerDelay;
-@property(retain, nonatomic) SMSessionMonitorState *sessionMonitorState; // @synthesize sessionMonitorState=_sessionMonitorState;
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) NSSet *triggers; // @synthesize triggers=_triggers;
-@property(retain, nonatomic) RTWatchWristStateManager *wristStateManager; // @synthesize wristStateManager=_wristStateManager;
 
 @end
 

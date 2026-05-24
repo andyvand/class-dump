@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RPCompanionLinkClient;
+@class NSString;
 
 @interface RPCompanionLinkAssertion
 {
     NSString *_assertionID;
-    RPCompanionLinkClient *_client;
-    NSString *_destinationID;
-    NSString *_identifier;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)d embedding table and embedding dim ;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (id);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assertionID; // @synthesize assertionID=_assertionID;
-@property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;
-@property(copy, nonatomic) NSString *destinationID; // @synthesize destinationID=_destinationID;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

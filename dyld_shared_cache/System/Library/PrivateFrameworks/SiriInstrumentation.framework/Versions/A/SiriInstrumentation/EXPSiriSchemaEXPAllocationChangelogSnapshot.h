@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface EXPSiriSchemaEXPAllocationChangelogSnapshot : SISchemaInstrumentationMessage
 {
@@ -14,27 +14,26 @@
 }
 
 - (void);
-- (void);
-- (unsigned long long);
+- (void)C;
+- (unsigned long long)˿;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)(=;
+- (id)eInternalStateWithArrayOfAccessories;
+- (id)t %{public}@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)t"b1"rcServerFeaturesLatency"b1"silencePosterior"b1"acousticEndpointerScore"b1"silencePosteriorFrameCountInNs"b1};
-- (id)asusQueryMetadata;
+- (id)POMMESSchemaPOMMESPegasusQueryMetadata;
 - (id)ðÈ;
 - (void)w¹ÿÂÄ¬ar%;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

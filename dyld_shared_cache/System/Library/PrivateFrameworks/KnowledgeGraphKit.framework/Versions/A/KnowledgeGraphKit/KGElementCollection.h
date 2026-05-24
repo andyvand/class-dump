@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, KGGraph, NSArray, NSSet;
-@protocol KGElement;
+@class KGElementIdentifierSet, KGGraph;
 
 @interface KGElementCollection
 {
     KGGraph *_graph;
-    KGElementIdentifierSet *_identifiers;
 }
 
 - (void);
@@ -22,26 +20,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)__objc_stubs;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)"NSDictionary",&,V_defaultParameters;
 - (void);
 - (id);
-- (id);
+- (id)__TEXT;
 - (id)¤;
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
-@property(readonly) id <KGElement> anyObject;
-@property(readonly) unsigned long long count;
-@property(readonly, nonatomic) KGGraph *graph; // @synthesize graph=_graph;
 @property(readonly, nonatomic) KGElementIdentifierSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) NSSet *set;
 
 @end
 

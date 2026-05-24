@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SiriCoreSQLiteIndexDescription
 {
     NSString *_name;
-    NSString *_tableName;
-    NSArray *_columnNames;
-    unsigned long long _options;
 }
 
 - (id);
@@ -23,10 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *columnNames; // @synthesize columnNames=_columnNames;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

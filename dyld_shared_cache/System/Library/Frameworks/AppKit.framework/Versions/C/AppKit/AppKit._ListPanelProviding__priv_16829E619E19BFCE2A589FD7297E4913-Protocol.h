@@ -5,5 +5,6 @@
 //
 
 @protocol AppKit._ListPanelProviding__priv_16829E619E19BFCE2A589FD7297E4913
+- (void)(;
 @end
 

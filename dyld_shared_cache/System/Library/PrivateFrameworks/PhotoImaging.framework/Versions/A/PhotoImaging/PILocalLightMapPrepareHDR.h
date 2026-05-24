@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSData, NSNumber;
+@class NSData;
 
 @interface PILocalLightMapPrepareHDR
 {
     NSData *inputLightMap;
-    NSNumber *inputLightMapWidth;
-    NSNumber *inputLightMapHeight;
-    CIImage *inputGuideImage;
 }
 
 + (id);
 - (id);
-- (void)tForce: /* Error: Ran out of types for this method. */;
+- (void)setForce: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface CKAttributedStringItemProviderWriter
@@ -12,26 +12,15 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_attributedString;
 }
 
-+ (id)Insets;
++ (id)contentEdgeInsets;
 - (id);
 - (id);
-- (id)Identifier:domainIdentifier:attributeSet: /* Error: Ran out of types for this method. */;
-- (id)eviceIndependentID;
+- (id)initWithUniqueIdentifier:domainIdentifier:attributeSet: /* Error: Ran out of types for this method. */;
+- (id)deviceIndependentID;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 
 @end
 

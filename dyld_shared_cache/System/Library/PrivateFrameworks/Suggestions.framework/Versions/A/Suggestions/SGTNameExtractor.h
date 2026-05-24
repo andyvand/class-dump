@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)R;
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)|;
+- (id)N;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)$;
+- (id)`#;
 - (id);
-- (id);
-- (void);
+- (void)windowDidFailToEnterFullScreen: /* Error: Ran out of types for this method. */;
 
 @end
 

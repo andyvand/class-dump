@@ -6,12 +6,11 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSColor, NSImage, NSString;
+@class NSImage;
 
 @interface WBSFaviconResponse : WBSSiteMetadataResponse
 {
     NSImage *_favicon;
-    unsigned long long _faviconType;
 }
 
 - (id);
@@ -22,24 +21,7 @@
 - (void)oundColors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSColor *extractedBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,R,N
-
 @property(readonly, nonatomic) NSImage *favicon; // @synthesize favicon=_favicon;
-@property(readonly, nonatomic) unsigned long long faviconType; // @synthesize faviconType=_faviconType;
-@property(readonly, nonatomic, getter=isGenerated) _Bool generated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisGenerated
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *icon;
-@property(readonly) Class superclass;
 
 @end
 

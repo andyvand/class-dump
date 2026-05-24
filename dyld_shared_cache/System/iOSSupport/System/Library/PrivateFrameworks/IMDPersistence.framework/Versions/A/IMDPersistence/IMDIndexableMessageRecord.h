@@ -4,46 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSData, NSDate, NSDictionary, NSString;
-
 @interface IMDIndexableMessageRecord
 {
     _Bool _hasAttachments;
-    long long _rowID;
-    NSDate *_time;
-    NSDate *_timeRead;
-    NSString *_guid;
-    NSString *_plainBody;
-    NSAttributedString *_attributedBody;
-    NSString *_subject;
-    NSString *_service;
-    unsigned long long _flags;
-    long long _type;
-    NSString *_balloonBundleID;
-    NSData *_payloadData;
-    NSString *_expressiveSendStyleID;
-    long long _associatedMessageType;
-    NSString *_associatedMessageGUID;
-    NSString *_syndicationRanges;
-    NSString *_destinationCallerID;
-    IMDIndexableMessageRecord *_threadOriginator;
-    NSString *_threadOriginatorFormattedGUID;
-    NSString *_biaReferenceID;
-    NSString *_associatedEmoji;
-    NSDictionary *_messageSummaryInfo;
-    NSString *_uncanonicalizedHandle;
-    NSString *_handle;
-    NSArray *_attachments;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (id);
@@ -53,19 +26,19 @@
 - (id);
 - (id);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)e, expiration, type, timestamp, amsDSID, paStatus, name) VALUES (?, ?, ?, ?, ?, ?, ?);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)_ ;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)T;
 - (unsigned long long);
+- (id)!;
 - (id);
-- (id);
-- (id)ssages:sourceType: /* Error: Ran out of types for this method. */;
+- (id)trackDeleteMessages:sourceType: /* Error: Ran out of types for this method. */;
 - (long long)
 ;
 - (void)t count with error:%@ /* Error: Ran out of types for this method. */;
@@ -73,34 +46,7 @@
 - (id)t_id TEXT, properties BLOB, chat_identifier TEXT, service_name TEXT, guid TEXT, room_name TEXT, account_login TEXT, participants BLOB);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *associatedEmoji; // @synthesize associatedEmoji=_associatedEmoji;
-@property(readonly, nonatomic) NSString *associatedMessageGUID; // @synthesize associatedMessageGUID=_associatedMessageGUID;
-@property(readonly, nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
-@property(readonly, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(readonly, nonatomic) NSAttributedString *attributedBody; // @synthesize attributedBody=_attributedBody;
-@property(readonly, nonatomic) NSString *balloonBundleID; // @synthesize balloonBundleID=_balloonBundleID;
-@property(readonly, nonatomic) NSString *biaReferenceID; // @synthesize biaReferenceID=_biaReferenceID;
-@property(readonly, nonatomic) NSString *destinationCallerID; // @synthesize destinationCallerID=_destinationCallerID;
-@property(readonly, nonatomic) NSString *expressiveSendStyleID; // @synthesize expressiveSendStyleID=_expressiveSendStyleID;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic, getter=isFromMe) _Bool fromMe;
-@property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(readonly, nonatomic, getter=isKnownSender) _Bool knownSender;
-@property(readonly, nonatomic) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(readonly, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property(readonly, nonatomic) NSString *plainBody; // @synthesize plainBody=_plainBody;
 @property(readonly, nonatomic) long long rowID; // @synthesize rowID=_rowID;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly, nonatomic) NSString *syndicationRanges; // @synthesize syndicationRanges=_syndicationRanges;
-@property(readonly, nonatomic) IMDIndexableMessageRecord *threadOriginator; // @synthesize threadOriginator=_threadOriginator;
-@property(readonly, nonatomic) NSString *threadOriginatorFormattedGUID; // @synthesize threadOriginatorFormattedGUID=_threadOriginatorFormattedGUID;
-@property(readonly, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(readonly, nonatomic) NSDate *timeRead; // @synthesize timeRead=_timeRead;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uncanonicalizedHandle; // @synthesize uncanonicalizedHandle=_uncanonicalizedHandle;
 
 @end
 

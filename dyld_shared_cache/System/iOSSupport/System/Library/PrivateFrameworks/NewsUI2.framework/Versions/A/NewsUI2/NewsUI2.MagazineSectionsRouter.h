@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineSectionsRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

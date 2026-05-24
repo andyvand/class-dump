@@ -5,5 +5,6 @@
 //
 
 @protocol CKMentionsControllerTextEffectsDelegate
+- (void)charactersIgnoringModifiers;
 @end
 

@@ -9,8 +9,6 @@
 @interface VSStateTransition
 {
     VSOptional *_previousState;
-    VSOptional *_triggeringEvent;
-    VSOptional *_nextState;
 }
 
 - (void);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)L;
 
 // Remaining properties
-@property(retain, nonatomic) VSOptional *nextState; // @synthesize nextState=_nextState;
 @property(retain, nonatomic) VSOptional *previousState; // @synthesize previousState=_previousState;
-@property(retain, nonatomic) VSOptional *triggeringEvent; // @synthesize triggeringEvent=_triggeringEvent;
 
 @end
 

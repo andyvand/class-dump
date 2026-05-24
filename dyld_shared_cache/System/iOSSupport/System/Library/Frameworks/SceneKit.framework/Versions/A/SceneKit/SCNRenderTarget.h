@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SCNRenderTarget
 {
     CDStruct_ace98575 _description;
-    id _size;
-    unsigned long long _arrayLength;
-    CIImage *_ciImage;
-    NSArray *_sliceTextures;
-    id _texture;
-    NSString *_name;
-    long long _referenceCount;
-    long long _timeStamp;
 }
 
 - (_Bool);
@@ -32,19 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)addObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)
 × ;
 - (id)?ëQ?ëQ?ëQ¿ëQ?ëQ¿ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ¿ëQ?ëQ?ëQ?ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ¿ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ?ëQ?ëQ?ëQ?ëQ¿ëQ¿ëQ¿ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ?ëQ¿;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long referenceCount; // @synthesize referenceCount=_referenceCount;
-@property(readonly, nonatomic) unsigned char renderBufferFormat;
 @property(retain, nonatomic) id texture; // @synthesize texture=_texture;
-@property(nonatomic) long long timeStamp; // @synthesize timeStamp=_timeStamp;
-@property(readonly, nonatomic) _Bool viewportDependant;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol VGVehicleStateProviding
+- (void)eWithChanges;
 @end
 

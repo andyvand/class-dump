@@ -4,44 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-@protocol CKSQLiteDelegate;
-
 @interface CKSQLite
 {
     struct os_unfair_lock_s _operationLock;
-    _Atomic unsigned long long _operationThread;
-    CDUnknownBlockType _errorHandlerBlock;
-    _Bool _cancelled;
-    NSError *_error;
-    long long _errorResponse;
-    NSError *_invalidationError;
-    _Bool _needsMarkCorrupt;
-    _Bool _needsRemove;
-    _Bool _hasMigrated;
-    _Bool _shouldVacuum;
-    _Bool _traced;
-    _Bool _invalid;
-    int _userVersion;
-    NSString *_path;
-    NSString *_schema;
-    NSString *_schemaVersion;
-    NSString *_objectClassPrefix;
-    long long _synchronousMode;
-    CDUnknownBlockType _invalidationHandler;
-    id <CKSQLiteDelegate> _delegate;
-    struct sqlite3 *_db;
-    unsigned long long _openCount;
 }
 
-+ (id);
++ (id);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)
+kj;
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
@@ -54,11 +30,12 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void))	K
+?;
 - (id);
 - (id);
 - (void);
@@ -72,14 +49,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)N;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)8_;
 - (void);
 - (int);
 - (id);
@@ -91,8 +68,8 @@
 - (void);
 - (id);
 - (struct sqlite3 *);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -102,7 +79,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)l;
 - (unsigned long long);
 - (void);
 - (void);
@@ -116,32 +93,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (long long): /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)addPredicateToStatement:predicate: /* Error: Ran out of types for this method. */;
 - (void)Ì;
 - (id)ô;
 - (id)ID twice in a single operation:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)Z;
-- (int)kOptions;
+- (int)CKDeviceCapabilityCheckOptions;
 - (void)¬;
 
 // Remaining properties
 @property(nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(retain, nonatomic) id <CKSQLiteDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasMigrated; // @synthesize hasMigrated=_hasMigrated;
-@property _Bool invalid; // @synthesize invalid=_invalid;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) _Bool isCorrupt;
-@property(readonly, nonatomic) _Bool isOpen;
-@property(retain, nonatomic) NSString *objectClassPrefix; // @synthesize objectClassPrefix=_objectClassPrefix;
-@property(nonatomic) unsigned long long openCount; // @synthesize openCount=_openCount;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSString *schema; // @synthesize schema=_schema;
-@property(readonly, nonatomic) NSString *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(nonatomic) _Bool shouldVacuum; // @synthesize shouldVacuum=_shouldVacuum;
-@property(nonatomic) long long synchronousMode; // @synthesize synchronousMode=_synchronousMode;
-@property(nonatomic) _Bool traced; // @synthesize traced=_traced;
-@property(nonatomic) int userVersion; // @synthesize userVersion=_userVersion;
 
 @end
 

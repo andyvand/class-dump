@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFPrimaryHeaderMarqueeCardSection
+- (_SFPBRFTextProperty *)104;
+- (NSData *),V_mediaAnalysisTimeStamp;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

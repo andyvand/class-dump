@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSNumber, NSSet, PLEntryNotificationOperatorComposition, PLNSNotificationOperatorComposition, PLStateTrackingComposition, PLTimer;
+@class NSNumber;
 
 @interface PLSMCMetricsAgent
 {
     unsigned int _loggingCounter;
-    unsigned int _loggingThreshold;
-    unsigned int _powerDeliveryCounter;
-    NSNumber *_currentLux;
-    PLTimer *_monitorTimer;
-    double _cycleCountInterval;
-    NSDate *_lastFocalSampleDate;
-    CDStruct_0d88ef11 *_smcConnection;
-    double _monitorCadence;
-    NSSet *_availableKeys;
-    NSDictionary *_lastAccumlatedSample;
-    PLStateTrackingComposition *_stateTracker;
-    NSArray *_loggedInstantKeysArray;
-    PLEntryNotificationOperatorComposition *_sbc;
-    NSDate *_lastDisplayAccumulatedSampleEndDate;
-    NSDictionary *_lastDisplayAccumlatedSample;
-    NSMutableArray *_accumGaugeArray;
-    NSMutableArray *_instantGaugeArray;
-    NSArray *_loggedAccumulatedKeysArray;
-    NSArray *_loggedPowerDeliveryKeysArray;
-    PLEntryNotificationOperatorComposition *_focalAppSwitch;
-    PLNSNotificationOperatorComposition *_dailyTaskNotification;
-    PLEntryNotificationOperatorComposition *_luxEntryNotification;
-    PLEntryNotificationOperatorComposition *_screenStateNotification;
 }
 
 + (_Bool);
@@ -64,7 +41,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (unsigned int);
 - (void);
@@ -93,7 +70,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -125,30 +102,7 @@
 - (void)ents;
 
 // Remaining properties
-@property(retain) NSMutableArray *accumGaugeArray; // @synthesize accumGaugeArray=_accumGaugeArray;
-@property(retain) NSSet *availableKeys; // @synthesize availableKeys=_availableKeys;
 @property(retain) NSNumber *currentLux; // @synthesize currentLux=_currentLux;
-@property double cycleCountInterval; // @synthesize cycleCountInterval=_cycleCountInterval;
-@property(retain) PLNSNotificationOperatorComposition *dailyTaskNotification; // @synthesize dailyTaskNotification=_dailyTaskNotification;
-@property(retain) PLEntryNotificationOperatorComposition *focalAppSwitch; // @synthesize focalAppSwitch=_focalAppSwitch;
-@property(retain) NSMutableArray *instantGaugeArray; // @synthesize instantGaugeArray=_instantGaugeArray;
-@property(retain) NSDictionary *lastAccumlatedSample; // @synthesize lastAccumlatedSample=_lastAccumlatedSample;
-@property(retain) NSDictionary *lastDisplayAccumlatedSample; // @synthesize lastDisplayAccumlatedSample=_lastDisplayAccumlatedSample;
-@property(retain) NSDate *lastDisplayAccumulatedSampleEndDate; // @synthesize lastDisplayAccumulatedSampleEndDate=_lastDisplayAccumulatedSampleEndDate;
-@property(retain) NSDate *lastFocalSampleDate; // @synthesize lastFocalSampleDate=_lastFocalSampleDate;
-@property(retain) NSArray *loggedAccumulatedKeysArray; // @synthesize loggedAccumulatedKeysArray=_loggedAccumulatedKeysArray;
-@property(retain) NSArray *loggedInstantKeysArray; // @synthesize loggedInstantKeysArray=_loggedInstantKeysArray;
-@property(retain) NSArray *loggedPowerDeliveryKeysArray; // @synthesize loggedPowerDeliveryKeysArray=_loggedPowerDeliveryKeysArray;
-@property unsigned int loggingCounter; // @synthesize loggingCounter=_loggingCounter;
-@property unsigned int loggingThreshold; // @synthesize loggingThreshold=_loggingThreshold;
-@property(retain) PLEntryNotificationOperatorComposition *luxEntryNotification; // @synthesize luxEntryNotification=_luxEntryNotification;
-@property double monitorCadence; // @synthesize monitorCadence=_monitorCadence;
-@property(retain) PLTimer *monitorTimer; // @synthesize monitorTimer=_monitorTimer;
-@property unsigned int powerDeliveryCounter; // @synthesize powerDeliveryCounter=_powerDeliveryCounter;
-@property(retain) PLEntryNotificationOperatorComposition *sbc; // @synthesize sbc=_sbc;
-@property(retain) PLEntryNotificationOperatorComposition *screenStateNotification; // @synthesize screenStateNotification=_screenStateNotification;
-@property CDStruct_0d88ef11 *smcConnection; // @synthesize smcConnection=_smcConnection;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
 
 @end
 

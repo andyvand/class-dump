@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
++ (NSArray *)#;
 
 // Remaining properties
 @property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;

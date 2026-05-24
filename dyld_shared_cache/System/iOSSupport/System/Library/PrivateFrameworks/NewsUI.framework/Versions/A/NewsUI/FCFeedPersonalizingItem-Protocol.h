@@ -4,115 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
+@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, NSString;
 
 @protocol FCFeedPersonalizingItem
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)p_cancelAfterDelay;
+- (NSString *)initWithContentDomain:embedName:errorType: /* Error: Ran out of types for this method. */;
+- (_Bool)G;
+
+@optional
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration *)mTransformedDecimalStrings;
+- (_Bool)H;
+- (_Bool)4@0:8@"NSDictionary"16 /* Error: Ran out of types for this method. */;
+- (_Bool)cline sharing email with publisher.;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isANF) _Bool anf;
-@property(readonly, nonatomic) long long bodyTextLength;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic, getter=isBundlePaid) _Bool bundlePaid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisBundlePaid
-
-@property(readonly, copy, nonatomic) NSString *clusterID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) double conditionalScore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration *expirationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration",?,R,N
-
-@property(readonly, nonatomic) NSData *float16FullBodyEncoding;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSData *float16TitleEncoding;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *globalCohorts;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *globalConversionStats;
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) unsigned long long halfLife;
-@property(readonly, nonatomic) unsigned long long halfLifeOverride;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool hasAudioTrack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool hasGlobalUserFeedback;
-@property(readonly, nonatomic) _Bool hasThumbnail;
-@property(readonly, nonatomic) _Bool hasVideo;
-@property(readonly, nonatomic, getter=isHiddenFromAutoFavorites) _Bool hiddenFromAutoFavorites;
-@property(readonly, copy, nonatomic) NSArray *iAdCategories;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) _Bool isAIGenerated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCoread;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isEvergreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isFeatureCandidate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isFeatured;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSportsHighlight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSString *itemID;
-@property(readonly, copy, nonatomic) NSString *language;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(readonly, copy, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *publisherCohorts;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *publisherConversionStats;
-@property(readonly, copy, nonatomic) NSString *publisherID;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *publisherTagMetadata;
-@property(readonly, nonatomic) _Bool reduceVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool reduceVisibilityForNonFollowers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain) FCFeedPersonalizedItemScoreProfile *scoreProfile;
 @property(readonly, copy, nonatomic) NSString *sourceFeedID;
-@property(readonly, nonatomic) NSData *thumbnailPerceptualHash;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *topicIDs;
-@property(readonly, copy, nonatomic) NSArray *topics;
-@property(readonly, nonatomic) _Bool webConverted;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

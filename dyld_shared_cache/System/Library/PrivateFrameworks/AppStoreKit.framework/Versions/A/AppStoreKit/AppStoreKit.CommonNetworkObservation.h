@@ -7,10 +7,9 @@
 @interface AppStoreKit.CommonNetworkObservation
 {
     id scheduler;
-    id body;
 }
 
-- (void);
+- (void);
 
 @end
 

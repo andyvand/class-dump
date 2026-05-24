@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessageContext, NSArray, NSMutableArray, NSObject, NSProtocolChecker, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class IMMessageContext;
 
 @interface IMLocalObjectInternal
 {
     IMMessageContext *_currentMessageContext;
-    struct os_unfair_recursive_lock_s _lock;
-    id _target;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_portName;
-    NSString *_processName;
-    NSProtocolChecker *_protocolChecker;
-    NSArray *_allowlistedClasses;
-    struct __CFRunLoopSource *_runloopSource;
-    NSMutableArray *_componentQueue;
-    struct os_unfair_lock_s _componentQueueLock;
-    _Bool _pendingComponentQueueProcessing;
-    _Bool _busyForwarding;
-    _Bool _offMainThread;
-    _Bool _wasInterrupted;
 }
 
 - (void);

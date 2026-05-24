@@ -14,10 +14,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (id);
-- (id);
+- (id)C Activity Not Continue;
 - (id);
 - (void);
 - (void);

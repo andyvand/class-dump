@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMailSearchQueryBiomeLogger, NSArray, NSMutableSet, NSString, NSURL;
-@protocol EFScheduler;
-
 @interface MUISearchRecentSuggester
 {
     struct os_unfair_lock_s _lock;
-    NSURL *_storageURL;
-    _Bool _needSave;
-    unsigned long long _maxRecentCount;
-    NSMutableSet *_recentSearches;
-    NSArray *_supportedCategories;
-    id <EFScheduler> _excludeFromBackupScheduler;
-    EMMailSearchQueryBiomeLogger *_biomeLogger;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)B;
+- (void)hB@y	?%@q!;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,35 +26,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)essibilityHorizontalUnits: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityHorizontalUnits: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) EMMailSearchQueryBiomeLogger *biomeLogger; // @synthesize biomeLogger=_biomeLogger;
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <EFScheduler> excludeFromBackupScheduler; // @synthesize excludeFromBackupScheduler=_excludeFromBackupScheduler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier;
 @property(nonatomic) unsigned long long maxRecentCount; // @synthesize maxRecentCount=_maxRecentCount;
-@property(retain, nonatomic) NSMutableSet *recentSearches; // @synthesize recentSearches=_recentSearches;
-@property(readonly, nonatomic) _Bool shouldQueryForAsYouType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedCategories; // @synthesize supportedCategories=_supportedCategories;
 
 @end
 

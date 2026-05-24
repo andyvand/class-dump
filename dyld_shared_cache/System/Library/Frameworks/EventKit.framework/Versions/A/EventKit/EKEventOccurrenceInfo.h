@@ -9,10 +9,9 @@
 @interface EKEventOccurrenceInfo
 {
     EKObjectID *_objectID;
-    double _date;
 }
 
-- (id);
+- (id)AvailableLanguageOptions:(id)arg1 Expecting a CFArrayRef of MRLanguageOptionGroupRefs but instead found a CFArrayRef of CFDataRef. Please fix.;
 - (double);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double date; // @synthesize date=_date;
 @property(retain, nonatomic) EKObjectID *objectID; // @synthesize objectID=_objectID;
 
 @end

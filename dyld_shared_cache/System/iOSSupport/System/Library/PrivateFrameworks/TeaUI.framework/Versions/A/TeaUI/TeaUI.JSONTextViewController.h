@@ -9,20 +9,12 @@
 @interface TeaUI.JSONTextViewController
 {
     id textView;
-    id textParser;
-    id _textSize;
-    id $__lazy_storage_$_searchToolbar;
-    id $__lazy_storage_$_resultsBarButtonItem;
-    id $__lazy_storage_$_nextTokenBarButtonItem;
-    id $__lazy_storage_$_previousTokenBarButtonItem;
-    id $__lazy_storage_$_doneBarButtonItem;
-    id $__lazy_storage_$_textResizeBarButtonItem;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -38,7 +30,6 @@
 - (void)9;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) UIView *inputAccessoryView;
 
 @end

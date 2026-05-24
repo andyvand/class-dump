@@ -6,58 +6,39 @@
 
 #import <Intents/INIntent.h>
 
-@class INRestaurant, NSDate, NSDateComponents, NSNumber, NSString;
+@class INRestaurant, NSDate;
 
 @interface INGetAvailableRestaurantReservationBookingsIntent : INIntent
 {
     INRestaurant *_restaurant;
-    unsigned long long _partySize;
-    NSDateComponents *_preferredBookingDateComponents;
-    NSNumber *_maximumNumberOfResults;
-    NSDate *_earliestBookingDateForResults;
-    NSDate *_latestBookingDateForResults;
-    NSDate *_preferredBookingDate;
 }
 
 + (_Bool);
-+ (id)ultValue;
++ (id)INIntentResponseParameterMetadataDefaultValue;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)/lib/libSystem.B.dylib;
 - (void);
 - (unsigned long long);
 - (id);
+- (id)for com.apple.KernelExtensionServer - assuming daemon unreachable.;
+- (id)__daemon__appDidEnterBackground;
+- (void);
+- (_Bool)__updateApple80211InterfacesWithReason:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)10CDBC;
 - (id);
+- (id)(;
+- (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)erForSaveProfileInCar: /* Error: Ran out of types for this method. */;
+- (void)defaultProfileNumberForSaveProfileInCar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *earliestBookingDateForResults; // @synthesize earliestBookingDateForResults=_earliestBookingDateForResults;
-@property(readonly) unsigned long long hash;
-@property(copy) NSDate *latestBookingDateForResults; // @synthesize latestBookingDateForResults=_latestBookingDateForResults;
-@property(copy) NSNumber *maximumNumberOfResults; // @synthesize maximumNumberOfResults=_maximumNumberOfResults;
-@property unsigned long long partySize; // @synthesize partySize=_partySize;
 @property(retain, nonatomic) NSDate *preferredBookingDate; // @synthesize preferredBookingDate=_preferredBookingDate;
-@property(copy) NSDateComponents *preferredBookingDateComponents; // @synthesize preferredBookingDateComponents=_preferredBookingDateComponents;
-@property(copy) INRestaurant *restaurant; // @synthesize restaurant=_restaurant;
-@property(readonly) Class superclass;
 
 @end
 

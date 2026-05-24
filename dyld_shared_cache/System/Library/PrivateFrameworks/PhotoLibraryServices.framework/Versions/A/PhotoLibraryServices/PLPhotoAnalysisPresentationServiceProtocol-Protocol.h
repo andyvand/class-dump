@@ -5,6 +5,7 @@
 //
 
 @protocol PLPhotoAnalysisPresentationServiceProtocol
+- (id)ifiers: /* Error: Ran out of types for this method. */;
 - (id)%tu (from %@ to %@);
 @end
 

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _initialLocation;
 }
 
-- (id);
-- (void)tor:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)__MPModelPropertyFileAssetTraits__MAPPING_MISSING__;
+- (void)setInteractionPulseNormalizationFactor:(const struct _UISEGestureFeatureSample *)arg1;
 - (void);
 
 @end

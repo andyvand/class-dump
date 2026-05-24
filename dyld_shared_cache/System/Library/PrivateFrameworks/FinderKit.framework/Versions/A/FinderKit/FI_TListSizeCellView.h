@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface FI_TListSizeCellView : FI_TListBaseCellView
 {
     NSNumber *_nodeSize;
-    struct TString _progressStatus;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)ScrollDrivenAnimationsEnabled;
 - (void);
 - (void);
 - (id);

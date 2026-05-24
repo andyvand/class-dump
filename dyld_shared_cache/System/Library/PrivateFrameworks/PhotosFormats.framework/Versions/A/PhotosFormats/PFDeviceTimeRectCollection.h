@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface PFDeviceTimeRectCollection
 {
     double _screenScale;
-    NSMutableArray *_sortedTimeRects;
-    _Bool _invalid;
 }
 
 - (struct CGRect);
@@ -27,15 +23,10 @@
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(readonly, nonatomic) struct CGRect maxTimeRect;
-@property(readonly, nonatomic) struct CGRect maxTimeRectInImageSpace;
 @property(readonly, nonatomic) struct CGRect minTimeRect;
-@property(readonly, nonatomic) struct CGRect minTimeRectInImageSpace;
-@property(readonly, nonatomic) NSArray *sortedTimeRects;
 
 @end
 

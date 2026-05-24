@@ -5,5 +5,9 @@
 //
 
 @protocol XCTestObservation
+
+@optional
+- (void);
+- (void)@;
 @end
 

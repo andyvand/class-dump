@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty;
 
 @protocol RFFactItemShortNumberCardSection
+- (RFTextProperty *);
+- (void);
+- (RFTextProperty *)_akPageOverlayViewProvider;
+- (RFTextProperty *)ƾ;
+- (NSData *);
 - (RFTextProperty *)s¥;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *number;
-@property(retain, nonatomic) RFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
-@property(retain, nonatomic) RFTextProperty *unit;
 @end
 

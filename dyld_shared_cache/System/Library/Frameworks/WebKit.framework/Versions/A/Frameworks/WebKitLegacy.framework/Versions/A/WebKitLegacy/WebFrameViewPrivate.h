@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WebFrameViewPrivate
 {
     WebFrame *webFrame;
-    struct RetainPtr<WebDynamicScrollBarsView> frameScrollView;
-    _Bool includedInWebKitStatistics;
 }
 
 - (id);

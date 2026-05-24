@@ -11,11 +11,11 @@
     _PASLRUCache *_cachedContacts;
 }
 
++ (id)__unwind_info;
 + (id);
 + (id);
-+ (id);
-- (void);
-- (id);
+- (void)iewController";
+- (id)_webLoginFailureWithError:(id)arg1;
 - (id);
 - (void);
 - (void);

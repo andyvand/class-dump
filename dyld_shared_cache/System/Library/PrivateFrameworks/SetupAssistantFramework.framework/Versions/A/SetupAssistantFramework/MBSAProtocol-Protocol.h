@@ -5,5 +5,12 @@
 //
 
 @protocol MBSAProtocol
+- (void)jh8;
+- (void)#;
+- (void);
+- (void)$;
+- (void)Y$;
+- (void)8;
+- (void)Q�;
 @end
 

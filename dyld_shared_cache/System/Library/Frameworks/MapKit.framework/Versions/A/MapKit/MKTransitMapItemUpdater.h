@@ -6,46 +6,36 @@
 
 #import <MapKit/MKTransitItemReferenceDateUpdater.h>
 
-@class MKMapItem, NSDate, NSTimer;
-@protocol MKTransitMapItemUpdaterDelegate;
+@class MKMapItem;
 
 @interface MKTransitMapItemUpdater : MKTransitItemReferenceDateUpdater
 {
     _Bool _lastInfoRefreshFailed;
-    _Bool _refreshing;
-    MKMapItem *_mapItem;
-    NSTimer *_dataRefreshTimer;
-    NSDate *_suggestedDataRefreshDate;
 }
 
+- (id)PPSClientRegistrationProtocol;
+- (void)ayloads = %@;
+- (void)erying for powerlog response in debug mode, using lastPowerlogResponse instead;
+- (void)er=%@;
+- (void)werlogRetrieval.failCopy;
+- (_Bool);
+- (_Bool);
 - (id);
+- (id);
+- (void)Dj;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
-- (void)ltSectionHeader;
+- (void)resultSectionHeader;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *dataRefreshTimer; // @synthesize dataRefreshTimer=_dataRefreshTimer;
-@property(nonatomic) __weak id <MKTransitMapItemUpdaterDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool lastInfoRefreshFailed; // @synthesize lastInfoRefreshFailed=_lastInfoRefreshFailed;
 @property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic, getter=isRefreshing) _Bool refreshing; // @synthesize refreshing=_refreshing;
-@property(retain, nonatomic) NSDate *suggestedDataRefreshDate; // @synthesize suggestedDataRefreshDate=_suggestedDataRefreshDate;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface LAUIShakeAnimation
 {
     NSView *_targetView;
-    NSLayoutConstraint *_centerXConstraint;
-    double _amplitude;
 }
 
 - (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol PXGEngineDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURL, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface ISStore
 {
     NSXPCConnection *_connection;
-    NSURL *_storeURL;
-    struct os_unfair_lock_s _registryLock;
-    NSMutableDictionary *_registry;
-    NSString *_domain;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)|C<Sc;
 - (id);
 - (id);
 - (id);
@@ -29,10 +25,6 @@
 
 // Remaining properties
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) NSMutableDictionary *registry; // @synthesize registry=_registry;
-@property struct os_unfair_lock_s registryLock; // @synthesize registryLock=_registryLock;
-@property(readonly) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 
 @end
 

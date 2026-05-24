@@ -12,7 +12,6 @@
 @interface PXStateBasedMemoriesDataSource : PXMemoriesDataSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PXMemoriesDataSourceState *__state;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (id)a&!àCù±9ð1Â0@ù
 × ;
 - (long long)setTargetCenter: /* Error: Ran out of types for this method. */;
-- (long long)ticipantImageProvider;
+- (long long)ShareParticipantImageProvider;
 - (void);
 - (id)J;;
 

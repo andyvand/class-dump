@@ -27,18 +27,18 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct CRConstrainedTextLineDetectionImpl {
@@ -68,12 +68,12 @@ struct CRTableStructureRecognizerInputFeatures {
 };
 
 struct CRTableStructureRecognizerResultParsed {
-    unsigned long long numRows;
-    unsigned long long numColumns;
-    _Bool valid;
-    vector_3f2cadd7 rowHeights;
-    vector_3f2cadd7 columnWidths;
-    vector_9009152f merges;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    _Bool _field3;
+    vector_e69d0719 _field4;
+    vector_e69d0719 _field5;
+    vector_88cd3d4f _field6;
 };
 
 struct CRTableStructureRow;
@@ -108,87 +108,7 @@ struct ContentTypeRefinementContext {
 struct EspressoModelWrapper;
 
 struct ObjectRef<const CGPath *> {
-    struct CGPath *mCFObject;
-};
-
-struct PyramidNMS<unsigned short, double, unsigned char> {
-    CDUnknownFunctionPointerType *_vptr$PyramidNMS;
-    struct deque<bool, std::allocator<bool>> fullySpecifiedForests;
-    struct deque<std::valarray<bool>, std::allocator<std::valarray<bool>>> masksValid;
-    struct deque<std::valarray<bool>, std::allocator<std::valarray<bool>>> masksInvalid;
-    struct deque<std::valarray<bool>, std::allocator<std::valarray<bool>>> masksPendingInvalid;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsWordCoincide;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsWordCoincide;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsWordContain;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsWordContain;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsWordConstitute;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsWordConstitute;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsWordOverlap;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsWordOverlap;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsLineCoincide;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsLineCoincide;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsLineContain;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsLineContain;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsLineConstitute;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsLineConstitute;
-    struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> histsLineOverlap;
-    struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> idxsLineOverlap;
-    void *pForests;
-    struct PyramidNMSConfig config;
-};
-
-struct PyramidNMSConfig {
-    CDUnknownFunctionPointerType *_vptr$PyramidNMSConfig;
-    unsigned long long methodType;
-    unsigned long long scoreType;
-    double scoreMinThreshold;
-    unsigned char scoreMapMinThreshold;
-    _Bool scoreUseScaleIndex;
-    _Bool scoreUseArea;
-    double scoreAggregationScalingFactor;
-    _Bool scoreUseNumSubDatums;
-    unsigned long long scoreNumSubDatumsUpperClip;
-    unsigned long long scoreNumSubDatumsLowerClip;
-    _Bool ignoreOrphansInFullTile;
-    double heightRatioMinThresholdForContainment;
-    _Bool computeIntrascaleGeometricRelationships;
-    unsigned long long intersectionNumSamples;
-    double iouMinThresholdToAcceptContainedDatum;
-    double normalizedAreaMinThresholdToAcceptContainedDatum;
-    _Bool pendingInvalidRejectCompetingDatums;
-    _Bool computeAndFilterByIndividualScores;
-    _Bool processCoincidence;
-    _Bool processContainment;
-    _Bool processOverlap;
-    _Bool processPendingInvalid;
-    unsigned long long favorSubDatumUndersegmentationInProcessingCoincidence;
-    _Bool favorLargerAreaInProcessingCoincidence;
-    _Bool favorFineScaleInProcessingCoincidence;
-    double datumMinHeightRatioToUseFullTile;
-    _Bool useOverlappingWordsInProcessingContainment;
-    double minValidCosAngleInDistributionCheckInProcessingContainment;
-    unsigned long long favorSubDatumUndersegmentationInProcessingContainment;
-    _Bool favorLargerAreaInProcessingContainment;
-    _Bool favorFullTileInProcessingContainment;
-    double heightRatioFineToFullMinThresholdFavorFullTileInProcessingContainment;
-    double heightRatioFineToFullMaxThresholdFavorFullTileInProcessingContainment;
-    double widthRatioFineToFullMinThresholdFavorFullTileInProcessingContainment;
-    double widthRatioFineToFullMaxThresholdFavorFullTileInProcessingContainment;
-    double heightRatioFineToFullMinThresholdFavorFullTileInProcessingSingleConstituentContainment;
-    double heightRatioFineToFullMaxThresholdFavorFullTileInProcessingSingleConstituentContainment;
-    double widthRatioFineToFullMinThresholdFavorFullTileInProcessingSingleConstituentContainment;
-    double widthRatioFineToFullMaxThresholdFavorFullTileInProcessingSingleConstituentContainment;
-    double favorFullTileInProcessingOverlap;
-    double coincidenceIOUMinThreshold;
-    double coincidenceIOMinMinThreshold;
-    double containmentIOUMaxThreshold;
-    double containmentIOMinMinThreshold;
-    double constitutionIOUMaxThreshold;
-    double constitutionIOMinMinThreshold;
-    double overlapIOUMinThreshold;
-    double overlapIOUMaxThreshold;
-    double overlapIOMinMinThreshold;
-    double overlapIOMinMaxThreshold;
+    struct CGPath *_field1;
 };
 
 struct TextBoxesOffsets {
@@ -203,106 +123,33 @@ struct _NSRange {
     unsigned long long length;
 };
 
-struct deque<bool, std::allocator<bool>> {
-    struct __split_buffer<bool *, std::allocator<bool *>> {
-        _Bool **__first_;
-        _Bool **__begin_;
-        _Bool **__end_;
-        struct {
-            _Bool **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct deque<double, std::allocator<double>> {
-    struct __split_buffer<double *, std::allocator<double *>> {
-        double **__first_;
-        double **__begin_;
-        double **__end_;
-        struct {
-            double **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
 struct deque<nms::RectForest<unsigned short, double>, std::allocator<nms::RectForest<unsigned short, double>>> {
     struct __split_buffer<nms::RectForest<unsigned short, double>*, std::allocator<nms::RectForest<unsigned short, double>*>> {
         void **__first_;
         void **__begin_;
         void **__end_;
-        CDStruct_babcf9c6 ;
+        struct {
+            void **__cap_;
+        } ;
     } __map_;
     unsigned long long __start_;
     CDStruct_a7186859 ;
-};
-
-struct deque<std::deque<std::deque<std::deque<unsigned short>>>, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>>> {
-    struct __split_buffer<std::deque<std::deque<std::deque<unsigned short>>>*, std::allocator<std::deque<std::deque<std::deque<unsigned short>>>*>> {
-        void **__first_;
-        void **__begin_;
-        void **__end_;
-        CDStruct_babcf9c6 ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct deque<std::valarray<bool>, std::allocator<std::valarray<bool>>> {
-    struct __split_buffer<std::valarray<bool>*, std::allocator<std::valarray<bool>*>> {
-        void **__first_;
-        void **__begin_;
-        void **__end_;
-        CDStruct_babcf9c6 ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct deque<std::valarray<unsigned char>, std::allocator<std::valarray<unsigned char>>> {
-    struct __split_buffer<std::valarray<unsigned char>*, std::allocator<std::valarray<unsigned char>*>> {
-        void **__first_;
-        void **__begin_;
-        void **__end_;
-        CDStruct_babcf9c6 ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct map<std::string, float, std::less<std::string>, std::allocator<std::pair<const std::string, float>>> {
-    struct __tree<std::__value_type<std::string, float>, std::__map_value_compare<std::string, std::pair<const std::string, float>, std::less<std::string>>, std::allocator<std::pair<const std::string, float>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
 };
 
 struct map<unsigned int, int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, int>>> {
     struct __tree<std::__value_type<unsigned int, int>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, int>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, int>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct optional<espresso_buffer_t> {
-    union {
-        char __null_state_;
-        CDStruct_0a65202a __val_;
-    } ;
-    _Bool __engaged_;
+        void *_field1;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+    } _field1;
 };
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct queue<double, std::deque<double>> {
-    struct deque<double, std::allocator<double>> c;
 };
 
 struct unique_ptr<CoreRecognition::EspressoModelWrapper, std::default_delete<CoreRecognition::EspressoModelWrapper>> {
@@ -312,42 +159,42 @@ struct unique_ptr<CoreRecognition::EspressoModelWrapper, std::default_delete<Cor
 };
 
 struct vImage_Buffer {
-    void *data;
-    unsigned long long height;
-    unsigned long long width;
-    unsigned long long rowBytes;
+    void *_field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
 };
 
 struct vector<CGRect, std::allocator<CGRect>> {
-    struct CGRect *__begin_;
-    struct CGRect *__end_;
+    struct CGRect *_field1;
+    struct CGRect *_field2;
     struct {
-        struct CGRect *__cap_;
-    } ;
+        struct CGRect *_field1;
+    } _field3;
 };
 
 struct vector<CRTableStructureColumn, std::allocator<CRTableStructureColumn>> {
-    struct CRTableStructureColumn *__begin_;
-    struct CRTableStructureColumn *__end_;
+    struct CRTableStructureColumn *_field1;
+    struct CRTableStructureColumn *_field2;
     struct {
-        struct CRTableStructureColumn *__cap_;
-    } ;
+        struct CRTableStructureColumn *_field1;
+    } _field3;
 };
 
 struct vector<CRTableStructureMerge, std::allocator<CRTableStructureMerge>> {
-    struct CRTableStructureMerge *__begin_;
-    struct CRTableStructureMerge *__end_;
+    struct CRTableStructureMerge *_field1;
+    struct CRTableStructureMerge *_field2;
     struct {
-        struct CRTableStructureMerge *__cap_;
-    } ;
+        struct CRTableStructureMerge *_field1;
+    } _field3;
 };
 
 struct vector<CRTableStructureRow, std::allocator<CRTableStructureRow>> {
-    struct CRTableStructureRow *__begin_;
-    struct CRTableStructureRow *__end_;
+    struct CRTableStructureRow *_field1;
+    struct CRTableStructureRow *_field2;
     struct {
-        struct CRTableStructureRow *__cap_;
-    } ;
+        struct CRTableStructureRow *_field1;
+    } _field3;
 };
 
 struct vector<CRTextRecognition::CRCTLD::CTLDRegion, std::allocator<CRTextRecognition::CRCTLD::CTLDRegion>> {
@@ -367,19 +214,19 @@ struct vector<CoreRecognition::decoder::ActivationMatrix, std::allocator<CoreRec
 };
 
 struct vector<_NSRange, std::allocator<_NSRange>> {
-    struct _NSRange *__begin_;
-    struct _NSRange *__end_;
+    struct _NSRange *_field1;
+    struct _NSRange *_field2;
     struct {
-        struct _NSRange *__cap_;
-    } ;
+        struct _NSRange *_field1;
+    } _field3;
 };
 
 struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
+        double *_field1;
+    } _field3;
 };
 
 struct vector<espresso_buffer_t, std::allocator<espresso_buffer_t>> {
@@ -399,29 +246,29 @@ struct vector<float, std::allocator<float>> {
 };
 
 struct vector<int, std::allocator<int>> {
-    int *__begin_;
-    int *__end_;
+    int *_field1;
+    int *_field2;
     struct {
-        int *__cap_;
-    } ;
+        int *_field1;
+    } _field3;
 };
 
 struct vector<std::tuple<double, CRFormFieldLabelPosition, CROutputRegion *>, std::allocator<std::tuple<double, CRFormFieldLabelPosition, CROutputRegion *>>> {
     void *_field1;
     void *_field2;
-    CDStruct_63fd5f43 _field3;
+    CDStruct_7a6dc4e9 _field3;
 };
 
 struct vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>> {
     void *_field1;
     void *_field2;
-    CDStruct_63fd5f43 _field3;
+    CDStruct_7a6dc4e9 _field3;
 };
 
 struct vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_7a6dc4e9 _field3;
 };
 
 struct vector<unsigned int, std::allocator<unsigned int>> {
@@ -447,12 +294,8 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
-
-typedef struct {
-    void **__cap_;
-} CDStruct_babcf9c6;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
     void *data;
@@ -473,21 +316,15 @@ typedef struct {
 } CDStruct_0a65202a;
 
 typedef struct {
-    void *plan;
-    int network_index;
-} CDStruct_2bc666a5;
+    void *_field1;
+    int _field2;
+} CDStruct_e4961688;
 
 typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
+    void *_field1;
+} CDStruct_7a6dc4e9;
 
 typedef struct CDStruct_183601bc;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 
 // Template types
 typedef struct AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBeamState> {
@@ -495,51 +332,55 @@ typedef struct AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBea
     double _field2;
     double _field3;
     struct vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>> _field4;
-} AdditiveCombiningBeamScorer_dacb07a7;
+} AdditiveCombiningBeamScorer_accfecad;
 
 typedef struct ObjectRef<const CGPath *> {
-    struct CGPath *mCFObject;
-} ObjectRef_52546fe6;
+    struct CGPath *_field1;
+} ObjectRef_c40a8e1d;
 
 typedef struct map<unsigned int, int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, int>>> {
     struct __tree<std::__value_type<unsigned int, int>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, int>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, int>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-} map_cd8ace26;
+        void *_field1;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+    } _field1;
+} map_3a68ae85;
 
 typedef struct vector<CGRect, std::allocator<CGRect>> {
-    struct CGRect *__begin_;
-    struct CGRect *__end_;
+    struct CGRect *_field1;
+    struct CGRect *_field2;
     struct {
-        struct CGRect *__cap_;
-    } ;
-} vector_672b9697;
+        struct CGRect *_field1;
+    } _field3;
+} vector_2afa0483;
 
 typedef struct vector<CRTableStructureColumn, std::allocator<CRTableStructureColumn>> {
-    struct CRTableStructureColumn *__begin_;
-    struct CRTableStructureColumn *__end_;
+    struct CRTableStructureColumn *_field1;
+    struct CRTableStructureColumn *_field2;
     struct {
-        struct CRTableStructureColumn *__cap_;
-    } ;
-} vector_9ef6d755;
+        struct CRTableStructureColumn *_field1;
+    } _field3;
+} vector_723dfca5;
 
 typedef struct vector<CRTableStructureMerge, std::allocator<CRTableStructureMerge>> {
-    struct CRTableStructureMerge *__begin_;
-    struct CRTableStructureMerge *__end_;
+    struct CRTableStructureMerge *_field1;
+    struct CRTableStructureMerge *_field2;
     struct {
-        struct CRTableStructureMerge *__cap_;
-    } ;
-} vector_9009152f;
+        struct CRTableStructureMerge *_field1;
+    } _field3;
+} vector_88cd3d4f;
 
 typedef struct vector<CRTableStructureRow, std::allocator<CRTableStructureRow>> {
-    struct CRTableStructureRow *__begin_;
-    struct CRTableStructureRow *__end_;
+    struct CRTableStructureRow *_field1;
+    struct CRTableStructureRow *_field2;
     struct {
-        struct CRTableStructureRow *__cap_;
-    } ;
-} vector_0f90da2f;
+        struct CRTableStructureRow *_field1;
+    } _field3;
+} vector_80d80252;
 
 typedef struct vector<CoreRecognition::decoder::ActivationMatrix, std::allocator<CoreRecognition::decoder::ActivationMatrix>> {
     struct ActivationMatrix *_field1;
@@ -550,20 +391,20 @@ typedef struct vector<CoreRecognition::decoder::ActivationMatrix, std::allocator
 } vector_2d578fff;
 
 typedef struct vector<_NSRange, std::allocator<_NSRange>> {
-    struct _NSRange *__begin_;
-    struct _NSRange *__end_;
+    struct _NSRange *_field1;
+    struct _NSRange *_field2;
     struct {
-        struct _NSRange *__cap_;
-    } ;
-} vector_46603644;
+        struct _NSRange *_field1;
+    } _field3;
+} vector_6a547bec;
 
 typedef struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
-} vector_3f2cadd7;
+        double *_field1;
+    } _field3;
+} vector_e69d0719;
 
 typedef struct vector<espresso_buffer_t, std::allocator<espresso_buffer_t>> {
     CDStruct_183601bc *_field1;
@@ -582,24 +423,24 @@ typedef struct vector<float, std::allocator<float>> {
 } vector_4858b34d;
 
 typedef struct vector<int, std::allocator<int>> {
-    int *__begin_;
-    int *__end_;
+    int *_field1;
+    int *_field2;
     struct {
-        int *__cap_;
-    } ;
-} vector_daac2569;
+        int *_field1;
+    } _field3;
+} vector_5ed94be2;
 
 typedef struct vector<std::tuple<double, CRFormFieldLabelPosition, CROutputRegion *>, std::allocator<std::tuple<double, CRFormFieldLabelPosition, CROutputRegion *>>> {
     void *_field1;
     void *_field2;
-    CDStruct_63fd5f43 _field3;
-} vector_11cef14f;
+    CDStruct_7a6dc4e9 _field3;
+} vector_fa6d61e2;
 
 typedef struct vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_2b89d498;
+    void *_field1;
+    void *_field2;
+    CDStruct_7a6dc4e9 _field3;
+} vector_10f0b7fc;
 
 typedef struct vector<unsigned int, std::allocator<unsigned int>> {
     unsigned int *__begin_;

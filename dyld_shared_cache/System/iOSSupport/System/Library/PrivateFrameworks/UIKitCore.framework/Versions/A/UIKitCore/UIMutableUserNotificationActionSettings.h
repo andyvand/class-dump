@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (id)tBarButtonItemProvider;
+- (void)d;
+- (id)UIAssistantBarButtonItemProvider;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *category; // @dynamic category;

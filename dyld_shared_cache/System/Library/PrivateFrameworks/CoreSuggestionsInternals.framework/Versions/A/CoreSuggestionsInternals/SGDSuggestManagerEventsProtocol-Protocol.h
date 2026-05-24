@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SGDSuggestManagerEventsProtocol
+- (void)p:(NSString *)arg1 options:(void (^)(SGXPCResponse1 *))arg2;
+- (void);
+- (void);
 - (void)Id %lld has unexpected minimal element %lld;
 - (void)> 0;
 @end

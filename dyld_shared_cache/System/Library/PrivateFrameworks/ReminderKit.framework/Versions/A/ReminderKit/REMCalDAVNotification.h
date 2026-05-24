@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, REMObjectID;
+@class NSString, REMObjectID;
 
 @interface REMCalDAVNotification
 {
     NSString *externalIdentifier;
-    NSString *externalModificationTag;
-    NSString *daPushKey;
-    NSString *daSyncToken;
-    NSString *_uuidString;
-    NSURL *_hostURL;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_listID;
 }
 
 + (CDUnknownBlockType);
 + (id);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)roductKeysToAutoInstall;
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)HERE record_name = ?;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -49,37 +41,18 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)om(o)},findArticleFromMetadata:(id)arg1 function(e){var t=this.contentDocument.querySelectorAll(SchemaDotOrgArticleContainerSelector);if(1===t.length){var n=t[0];if(n.matches("article, *[itemprop=articleBody]"))if(o=CandidateElement.candidateIfElementIsViable(n,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var i=n.querySelectorAll("article, *[itemprop=articleBody]"),r=elementWithLargestAreaFromElements(i);if(r)if(o=CandidateElement.candidateIfElementIsViable(r,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;return new CandidateElement(n,this.contentDocument)}if(this.openGraphMetadataClaimsPageTypeIsArticle()&&!this.prismGenreClaimsPageIsHomepage()){var a=this.contentDocument.querySelectorAll("main article"),l=elementWithLargestAreaFromElements(a);if(l)if(o=CandidateElement.candidateIfElementIsViable(l,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var o,s=this.contentDocument.querySelectorAll("article");if(1===s.length)if(o=CandidateElement.candidateIfElementIsViable(s[0],this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o}return null},articleTextContent:function(){return this._articleTextContent||this.adoptableArticle(),this._articleTextContent},unformattedArticleTextContentIncludingMetadata:function(e){this.setSuppressBoundingRectCalculationForSkippedElements(!0);var t=this.articleNode();if(t){if(!e)return t.innerText;var n="",i=this.articleTitle();i&&(n+=i+"\n");var r=this.articleSubhead();r&&(n+=r+"\n");var a=this.adoptableMetadataBlock();return a&&(n+=plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(a)+"\n"),n+t.innerText}},pageDescription:function(e){var t=e["name:description"]||e["property:og:description"];return t&&(t=t.trim()).length?t:null},articleTitleAndSiteNameFromTitleString:function(e){const t=[" - "," \u2013 "," \u2014 ",":"," | "," \xbb "],n=t.length,i=.6;for(var r,a,l=this.contentDocument.location.host.replace(/^(www|m|secure)\./,""),o=l.replace(/\.(com|info|net|org|edu|gov)$/,"").toLowerCase(),s=0;s<n;++s){var c=e.split(t[s]);if(2===c.length){var m=c[0].trim(),d=c[1].trim(),h=m.toLowerCase(),u=d.toLowerCase(),g=Math.max(stringSimilarity(h,l),stringSimilarity(h,o)),f=Math.max(stringSimilarity(u,l),stringSimilarity(u,o)),p=Math.max(g,f);(!a||p>a)&&(a=p,r=g>f?{siteName:m,articleTitle:d}:{siteName:d,articleTitle:m})}}return r&&a>=i?r:null},pageInformation:function(e,t){var n,i=this.buildMapOfMetaTags(),r=this.pageDescription(i),a=!1;this.adoptableArticle()?(n=this.articleTitle(),r=r||this.articleTextContent(),a=!0):(n=this.contentDocument.title,this.contentDocument.body&&(r=r||this.contentDocument.body.innerText));var l="",o=this.pageImageURLFromMetadata(i);if(o)l=o;else{var s=this.mainImageNode();s&&(l=s.src)}n||(n=userVisibleURLString(this.contentDocument.location.href)),n=n.trim(),e&&(n=n.substring(0,e));var c=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[property='og:site_name']");if(!c){var m=this.articleTitleAndSiteNameFromTitleString(this.contentDocument.title);m&&m.articleTitle===n&&(c=m.siteName)}return c||(c=""),r=r?r.trim():"",t&&(r=r.substring(0,t)),{title:n,previewText:r=r.replace(/[\s]+/g," "),siteName:c,mainImageURL:l,isReaderAvailable:a}},readingListItemInformation:function(){const e=220,t=220;return this.pageInformation(e,t)},buildMapOfMetaTags:function(){var e={};const t=this.contentDocument.head.getElementsByTagName("meta"),n=t.length;for(var i=0;i<n;++i){const n=t[i],r=n.content;if(!r)continue;if(this.elementAttributesContainImproperQuote(n))continue;n.name&&(e["name:"+n.name.toLowerCase()]=r);const a=n.getAttribute("property");a&&(e["property:"+a.toLowerCase()]=r)}return e},pageTitleForTextAnalysis:function(e){const t=this.contentDocument;var n=e["property:og:title"];return n||(n=e["name:twitter:title"]),n||(n=e["name:sailthru.headline"]),n||(n=t.title),n},pageAuthorForTextAnalysis:function(e){return e["name:author"]||e["property:author"]},pageMetadataCommonToTextAnalysisAndArticleContent:function(){var e={};const t=this.buildMapOfMetaTags(),n=this.pageTitleForTextAnalysis(t);n&&(e.title=n);const i=this.pageAuthorForTextAnalysis(t);i&&(e.author=i);const r=this.pageImageURLFromMetadata(t);return r&&(e.imageURL=r),e},extractedArticleContent:function(){try{const e=this.adoptableArticle(!0);for(let t of e.getElementsByTagName("*"))t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);let t=this.pageMetadataCommonToTextAnalysisAndArticleContent();if(e){const n=e.innerHTML;t.body=n}this.updateArticleBylineAndDateElementsIfNecessary();const n=this.articleDateElement();n&&(t.publishedDate=trimmedInnerTextIgnoringTextTransform(n));const i=this.articleBylineElement();return!t.author&&i&&(t.author=trimmedInnerTextIgnoringTextTransform(i)),t}catch(e){let t={};const n=e.message,i=e.stack;return n&&(t.error=n),i&&(t.stack=i),t}},readerUniqueIDOfElementPinnedToTopOfViewport:function(){const e=120;if(window.scrollY<e)return null;const t=this.articleNode();if(!t)return null;const n=t.getBoundingClientRect(),i=(n.left+n.right)/2;for(const e of[0,15,35,50,80,110]){const n=t.ownerDocument.elementFromPoint(i,e);if(n!==t&&(t.contains(n)||n===this._articleTitleElement||n===this._articleSubheadElement)){const e=this._weakMapOfOriginalElementToUniqueID.get(n);if(e)return e}}return null},scrollToElementWithUniqueID:function(e,t){const n=this._rectOfElementWithReaderUniqueID(e);if(!n||!n.top||isNaN(n.top)||!n.height||isNaN(n.height))return;const i=-t*n.height;this.scrollToOffset(n.top+i)},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){const e=this.readerUniqueIDOfElementPinnedToTopOfViewport();if(!e)return[null,null];const t=this._rectOfElementWithReaderUniqueID(e);if(!t||!t.top||isNaN(t.top)||!t.height||isNaN(t.height))return[null,null];return[e,(t.top-this.scrollY())/t.height]},_rectOfElementWithReaderUniqueID:function(e){function t(e){return{top:e.top+window.scrollY,right:e.right+window.scrollX,bottom:e.bottom+window.scrollY,left:e.left+window.scrollX,width:e.width,height:e.height}}if(!this._mapOfUniqueIDToOriginalElement)return null;let n=this._mapOfUniqueIDToOriginalElement.get(e);return n&&n.parentElement?t(n.getBoundingClientRect()):null},scrollY:function(){return window.scrollY},scrollToOffset:function(e){if("number"==typeof e)try{clearCachedElementBoundingRects(),this.cacheWindowScrollPosition(),this.contentDocument.scrollingElement.scrollTop=e}catch(e){}},documentURLString:function(){return this.contentDocument.location.href},baseURI:function(){return this.contentDocument.baseURI},usesSearchEngineOptimizationMetadata:function(){return!!document.head.querySelector('meta[property^="og:"]')},extractCanonicalLink:function(){var e=document.head.querySelector("link[rel='canonical']");if(!e)return null;var t=e.getAttribute("href");if(!t)return null;var n=document.baseURI,i=urlFromString(t,n);return"/"!==document.location.pathname&&"/"===i.pathname||"localhost"===i.hostname&&"localhost"!==document.location.hostname?null:i.href},setSuppressBoundingRectCalculationForSkippedElements:function(e){this._shouldSuppressBoundingRectCalculationForSkippedElements=e},shouldSuppressBoundingRectCalculationForSkippedElements:function(){return!!this._shouldSuppressBoundingRectCalculationForSkippedElements},handleNavigation:function(e){e.hashChange||this.resetArticleInformation()}};var ReaderArticleFinderJS=new ReaderArticleFinder(document);navigation.addEventListener("navigate",(e=>{ReaderArticleFinderJS.handleNavigation(e)}));
+0; /* Error: Ran out of types for this method. */;
+- (id)c;
 - (id);
-- (id);
-- (void);
+- (void)fetchTransitionsBetweenStartDate:(id)arg1 endDate:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id)ence rule last item format for a list with two terms.  The last part of a list:X and Y. Here %@ is 'Y' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSString *daPushKey; // @synthesize daPushKey;
-@property(copy, nonatomic) NSString *daSyncToken; // @synthesize daSyncToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier;
-@property(readonly, nonatomic) NSString *externalIdentifierForMarkedForDeletionObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(copy, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *hostURL; // @synthesize hostURL=_hostURL;
-@property(readonly, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
-@property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
+@property(readonly, nonatomic) REMObjectID *objectID;
 
 @end
 

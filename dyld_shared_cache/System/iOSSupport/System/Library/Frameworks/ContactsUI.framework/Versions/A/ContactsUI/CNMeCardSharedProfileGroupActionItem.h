@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)tentImageLock;
+- (void)_contentImageLock;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactSharedProfileSettingsAction *sharedProfileSettingsAction; // @synthesize sharedProfileSettingsAction=_sharedProfileSettingsAction;

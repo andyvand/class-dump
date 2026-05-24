@@ -7,14 +7,13 @@
 @class ACAccount, NSArray, NSString;
 
 @protocol ECMailAccount
+- (ACAccount *)naged object was updated, but none of the properties we care about changed;
+- (NSString *)performAXAction:withValue: /* Error: Ran out of types for this method. */;
+- (NSString *)targetIsTranslated;
 - (void)Eù±o1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy) NSArray *emailAddressStrings;
-@property(copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(copy) NSString *password;
-@property(readonly) ACAccount *systemAccount;
 @end
 

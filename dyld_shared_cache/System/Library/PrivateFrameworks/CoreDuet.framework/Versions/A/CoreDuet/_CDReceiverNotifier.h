@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, BMStream, NSMutableDictionary, NSObject, _CDXPCEventPublisher;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDReceiverNotifier
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _CDXPCEventPublisher *_xpcPublisher;
-    NSMutableDictionary *_subscribers;
-    _Bool _isRootProcess;
-    BMSource *_intentSource;
-    BMSource *_activitySource;
-    BMStream *_relevantShortcutsStream;
 }
 
 + (id)y"16B24B28@?<v@?B>32;

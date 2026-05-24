@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResultTracing;
+@class CNAutocompleteResultTracing, CNObservable;
 
 @protocol ABAutocompleteSearchObservable
++ (CNObservable *);
+- (void);
 
 // Remaining properties
 @property(retain) CNAutocompleteResultTracing *tracer;

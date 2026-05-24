@@ -7,8 +7,8 @@
 @class NSString, SGReminder;
 
 @protocol SGSuggestionsServiceRemindersProtocol
-- (void)shedString:(SGReminder *)arg1;
-- (void)UniqueId:(NSString *)arg1;
+- (void)hashedString:(SGReminder *)arg1;
+- (void)createGroupForUniqueId:(NSString *)arg1;
 - (void):(NSString *)arg1 %@
 ];
 @end

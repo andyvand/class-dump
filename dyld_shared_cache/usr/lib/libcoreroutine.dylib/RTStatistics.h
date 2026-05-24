@@ -8,9 +8,9 @@
 {
 }
 
-+ (double);
-+ (double);
-+ (double);
++ (double)dd to complete:(double)arg1 %@;
++ (double)ed to get attributes from %@;
++ (double)dE76KJKPA5ZXghQA9IZ6IlCi5OlRm54v/t+ifHvk6ARdSgb2ZEzcZ4=;
 
 @end
 

@@ -9,15 +9,42 @@
 @interface QProfileTuple : QComponentInfoTuple
 {
     int _data;
-    int _object;
-    long long _profile;
 }
 
-+ (id);
-- (id);
++ (id)ndif
+		domainCoord
+		);
+}
+
+;
+- (id)pename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
 - (id);
 - (int);
-- (void);
+- (void)&;
 - (void);
 - (int);
 - (long long);
@@ -25,8 +52,6 @@
 
 // Remaining properties
 @property int data; // @synthesize data=_data;
-@property int object; // @synthesize object=_object;
-@property long long profile; // @synthesize profile=_profile;
 
 @end
 

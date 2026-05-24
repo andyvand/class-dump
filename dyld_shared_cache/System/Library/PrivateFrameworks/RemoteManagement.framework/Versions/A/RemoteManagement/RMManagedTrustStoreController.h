@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RMManagedTrustStoreController
 {
     long long _scope;
-    NSString *_personaID;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ySkb;
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)Gf;
 - (void);
 - (void)s:(id)arg1 %d;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
 @property(nonatomic) long long scope; // @synthesize scope=_scope;
 
 @end

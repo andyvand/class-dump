@@ -4,32 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCRedundancyControlAlgorithmVideo
 {
     unsigned int _redundancyPercentage;
-    double _redundancyInterval;
-    double _packetLossPercentage;
-    double _packetLossPercentageVideo;
-    double _plrEnvelope;
-    _Bool _isNetworkCongested;
-    unsigned int _maxAllowedRedundancyPercentage;
-    unsigned int _burstyLoss[8];
-    unsigned int _burstyLossArraySize;
-    unsigned int _burstyLossArrayIndex;
-    int _redundancyMode;
-    unsigned char _mediaControlInfoFECFeedbackVersion;
-    _Atomic _Bool _isRedundancyStrategyResetPending;
-    struct OpaqueVCFECFeedbackAnalyzer *_feedbackAnalyzer;
-    float _offChannelTimeRatio;
-    _Bool _isNWConnectionEnabled;
-    int _freezeReason;
-    int _state;
-    unsigned int _lossFeedbackPackingLength;
-    _Bool _isFrameBasedFECEnabled;
-    double _redundancyThresholdForBDATv2;
 }
 
 - (void);
@@ -44,27 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDStruct_cb20ae6e);
 - (unsigned int);
 - (void);
-- (void);
+- (void)�);
 - (unsigned int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isRedundancyStrategyResetPending;
-@property(readonly, nonatomic) double redundancyInterval; // @synthesize redundancyInterval=_redundancyInterval;
-@property(readonly, nonatomic) unsigned int redundancyPercentage; // @synthesize redundancyPercentage=_redundancyPercentage;
-@property(readonly) Class superclass;
 
 @end
 

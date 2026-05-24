@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryInvitation
 {
     NSUUID *_identifier;
-    HMDAccessory *_accessory;
-    long long _state;
 }
 
 + (_Bool)<Ô9ÐFU;
-- (id);
+- (id)numberOfSelfies:(id)arg1;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void){;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

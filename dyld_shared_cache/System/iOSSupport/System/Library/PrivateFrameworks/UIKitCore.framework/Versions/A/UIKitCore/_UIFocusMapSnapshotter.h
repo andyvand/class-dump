@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusSystem, _UIFocusMovementInfo, _UIFocusRegion, _UIFocusSearchInfo;
-@protocol UICoordinateSpace, _UIFocusRegionContainer;
+@class _UIFocusSearchInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusMapSnapshotter
 {
     _Bool _snapshotFrameIsEmpty;
-    _Bool _ignoresRootContainerClippingRect;
-    _Bool _clipToSnapshotRect;
-    UIFocusSystem *_focusSystem;
-    id <_UIFocusRegionContainer> _rootContainer;
-    id <UICoordinateSpace> _coordinateSpace;
-    _UIFocusRegion *_focusedRegion;
-    id <_UIFocusRegionContainer> _regionsContainer;
-    _UIFocusSearchInfo *_searchInfo;
-    _UIFocusMovementInfo *_movementInfo;
-    struct CGRect _snapshotFrame;
 }
 
 - (struct CGRect);
@@ -30,33 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)UConversationManager"16@"TUConversation"24@"NSSet"32;
+- (id)updatePostedNotificationsForMessageGUIDs: /* Error: Ran out of types for this method. */;
+- (id)scheduleStateWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (id)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(id)arg3 description:(id)arg4;
+- (_Bool)didSendMessage:forChat:style:account:forceDate:itemIsComingFromStorage: /* Error: Ran out of types for this method. */;
+- (id)chatGUID;
+- (_Bool)__validateDisplayNameAndParticipantsForChat:relayMessageItem:messageGUID:serviceName:againstRecipients:trustLocalChat:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)Ë«;
 
 // Remaining properties
-@property(nonatomic) _Bool clipToSnapshotRect; // @synthesize clipToSnapshotRect=_clipToSnapshotRect;
-@property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(retain, nonatomic) _UIFocusRegion *focusedRegion; // @synthesize focusedRegion=_focusedRegion;
-@property(nonatomic) _Bool ignoresRootContainerClippingRect; // @synthesize ignoresRootContainerClippingRect=_ignoresRootContainerClippingRect;
-@property(retain, nonatomic) _UIFocusMovementInfo *movementInfo; // @synthesize movementInfo=_movementInfo;
-@property(nonatomic) __weak id <_UIFocusRegionContainer> regionsContainer; // @synthesize regionsContainer=_regionsContainer;
-@property(readonly, nonatomic) __weak id <_UIFocusRegionContainer> rootContainer; // @synthesize rootContainer=_rootContainer;
 @property(retain, nonatomic) _UIFocusSearchInfo *searchInfo; // @synthesize searchInfo=_searchInfo;
-@property(nonatomic) struct CGRect snapshotFrame; // @synthesize snapshotFrame=_snapshotFrame;
 
 @end
 

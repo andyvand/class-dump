@@ -9,14 +9,6 @@
 @interface BMPBSemanticLocationEvent
 {
     NSString *_loiIdentifier;
-    int _placeType;
-    int _userSpecificPlaceType;
-    _Bool _starting;
-    struct {
-        unsigned int placeType:1;
-        unsigned int userSpecificPlaceType:1;
-        unsigned int starting:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +22,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)itemViewClicked:clickCount: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (_Bool);
@@ -40,24 +32,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)ialMediaHandlesAtIndex: /* Error: Ran out of types for this method. */;
-- (id)ionID;
-- (void)ery_ArrayExprP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
+- (_Bool)socialMediaHandlesAtIndex: /* Error: Ran out of types for this method. */;
+- (id)hasSectionID;
+- (void)_TtCV14BiomeSQLParser17PgQuery_ArrayExprP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
 - (_Bool)×ÿr;
-- (void)ry__alter_seq_stmt__free_unpacked;
+- (void)pg_query__alter_seq_stmt__free_unpacked;
 - (void)ç;
 - (int)äåæçèé;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLoiIdentifier;
-@property(nonatomic) _Bool hasPlaceType;
 @property(nonatomic) _Bool hasStarting;
-@property(nonatomic) _Bool hasUserSpecificPlaceType;
-@property(retain, nonatomic) NSString *loiIdentifier; // @synthesize loiIdentifier=_loiIdentifier;
-@property(nonatomic) int placeType; // @synthesize placeType=_placeType;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
-@property(nonatomic) int userSpecificPlaceType; // @synthesize userSpecificPlaceType=_userSpecificPlaceType;
 
 @end
 

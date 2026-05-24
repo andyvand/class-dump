@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface WBSRecentWebSearchEntry
 {
     NSString *_searchString;
-    NSDate *_date;
-    NSArray *_URLStrings;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_combineStrokesAllowed;
+- (id)ction count (>1);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)th %@;
 - (id);
 - (id);
 - (void)Ì è;
@@ -33,8 +31,6 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *URLStrings; // @synthesize URLStrings=_URLStrings;
-@property(readonly) NSDate *date; // @synthesize date=_date;
 @property(readonly) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end

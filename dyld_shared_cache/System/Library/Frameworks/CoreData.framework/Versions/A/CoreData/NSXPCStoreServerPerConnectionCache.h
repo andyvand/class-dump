@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSPersistentStoreCoordinator, NSSQLitePrefetchRequestCache, NSString;
-@protocol OS_os_transaction;
+@class NSPersistentStoreCoordinator;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCStoreServerPerConnectionCache
 {
     NSPersistentStoreCoordinator *_coordinator;
-    NSSQLitePrefetchRequestCache *_prefetchRequestCache;
-    NSMutableDictionary *_generationTokenMap;
-    NSObject<OS_os_transaction> *_transaction;
-    long long _connections;
-    NSString *_clientIdentifier;
 }
 
 - (void);

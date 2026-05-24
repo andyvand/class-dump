@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setErrorLabelDefaultLeadingConstraint: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -37,17 +37,7 @@
 - (id)¬oÄÿNúM«;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *destinationName;
-@property(readonly, copy) NSString *destinationType;
-@property(readonly, copy) NSString *entityName;
 @property(readonly, copy) NSString *entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

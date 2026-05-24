@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTPodcastEpisodeFilter
 {
     _Bool _excludeUnentitled;
-    _Bool _excludeGhostEpisodes;
-    _Bool _restrictToUserEpisodes;
-    long long _playStateFilter;
-    long long _excludeExplicit;
-    long long _episodeTypeFilter;
-    NSString *_excludingEpisodeUuid;
 }
 
 + (long long);
@@ -30,7 +22,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (long long);
 - (long long);
@@ -39,13 +31,7 @@
 - (void)ÿN@ãÿ;
 
 // Remaining properties
-@property(nonatomic) long long episodeTypeFilter; // @synthesize episodeTypeFilter=_episodeTypeFilter;
-@property(nonatomic) long long excludeExplicit; // @synthesize excludeExplicit=_excludeExplicit;
-@property(nonatomic) _Bool excludeGhostEpisodes; // @synthesize excludeGhostEpisodes=_excludeGhostEpisodes;
-@property(nonatomic) _Bool excludeUnentitled; // @synthesize excludeUnentitled=_excludeUnentitled;
-@property(copy, nonatomic) NSString *excludingEpisodeUuid; // @synthesize excludingEpisodeUuid=_excludingEpisodeUuid;
 @property(nonatomic) long long playStateFilter; // @synthesize playStateFilter=_playStateFilter;
-@property(nonatomic) _Bool restrictToUserEpisodes; // @synthesize restrictToUserEpisodes=_restrictToUserEpisodes;
 
 @end
 

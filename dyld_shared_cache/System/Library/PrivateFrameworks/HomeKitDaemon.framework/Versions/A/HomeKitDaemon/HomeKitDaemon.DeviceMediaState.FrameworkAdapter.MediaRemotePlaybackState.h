@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.DeviceMediaState.FrameworkAdapter.MediaRemotePlaybackState
 {
     id updateStream;
-    id notificationTask;
-    id notificationCenter;
 }
 
 @end

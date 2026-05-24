@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSystemRequirementUserLocationForSystemRequest : SISchemaInstrumentationMessage
 {
     _Bool _isPreciseLocationRequired;
-    long long _timeoutForLocationFetch;
-    struct {
-        unsigned int isPreciseLocationRequired:1;
-        unsigned int timeoutForLocationFetch:1;
-    } _has;
 }
 
 - (long long);
@@ -27,24 +20,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)T.;
 - (id)1àÐ1Â0@ù
 × ;
 - (id),N,V_audioFileResultTier1;
-- (id)OWSchemaFLOWNotificationContext;
+- (id)FLOWSchemaFLOWNotificationContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPreciseLocationRequired;
-@property(nonatomic) _Bool hasTimeoutForLocationFetch;
 @property(nonatomic) _Bool isPreciseLocationRequired; // @synthesize isPreciseLocationRequired=_isPreciseLocationRequired;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long timeoutForLocationFetch; // @synthesize timeoutForLocationFetch=_timeoutForLocationFetch;
 
 @end
 

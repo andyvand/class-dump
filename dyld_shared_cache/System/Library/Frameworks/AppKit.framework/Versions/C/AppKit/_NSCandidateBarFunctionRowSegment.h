@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCandidateBarCompositeCandidate, NSString;
-@protocol _NSCandidateBarFunctionRowSegment_AccessibilityDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _NSCandidateBarFunctionRowSegment
 {
     long long _segmentType;
-    NSCandidateBarCompositeCandidate *_candidate;
-    struct CGRect _rect;
-    struct CGRect _hitTestRect;
-    _Bool _pressed;
-    _Bool _correction;
-    _Bool _roundLeft;
-    _Bool _roundRight;
-    _Bool _drawsRightToLeft;
-    NSString *_accessibilityTitle;
-    id _accessibilityParent;
-    id <_NSCandidateBarFunctionRowSegment_AccessibilityDelegate> _accessibilityDelegate;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)_AMFDRDecodeInstPropertyMatching;
+- (void)_AMFDRDecodeInstPropertyMatching;
+- (void)%02x%02x%02x%02x%02x%02x%02x;
+- (void)e-button-type;
+- (void)LE2kQ7U1iM32AmlhYvlagg;
+- (void)H3+0JA;
+- (long long)ZeeiT4Cdn8HNANoqroPEAA;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)h8?;
 - (id);
 - (id);
 - (_Bool);
@@ -55,30 +41,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (struct CGRect)ect={CGPoint=dd}{CGSize=dd}}60;
-- (void)entFillView;
+- (void)_NSLevelIndicatorSegmentFillView;
 - (void);
 - (id);
-- (void)gVFDVelocityThreshold;
-- (void)SUserQuotesArray;
+- (void)NSScrollingVFDVelocityThreshold;
+- (void)NSUserQuotesArray;
 
 // Remaining properties
-@property(nonatomic) id <_NSCandidateBarFunctionRowSegment_AccessibilityDelegate> accessibilityDelegate; // @synthesize accessibilityDelegate=_accessibilityDelegate;
-@property(nonatomic) id accessibilityParent; // @synthesize accessibilityParent=_accessibilityParent;
-@property(copy, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;
-@property(copy) NSCandidateBarCompositeCandidate *candidate; // @synthesize candidate=_candidate;
-@property(getter=isCorrection) _Bool correction; // @synthesize correction=_correction;
-@property _Bool drawsRightToLeft; // @synthesize drawsRightToLeft=_drawsRightToLeft;
-@property struct CGRect hitTestRect; // @synthesize hitTestRect=_hitTestRect;
-@property(getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
-@property struct CGRect rect; // @synthesize rect=_rect;
-@property _Bool roundLeft; // @synthesize roundLeft=_roundLeft;
-@property _Bool roundRight; // @synthesize roundRight=_roundRight;
 @property long long segmentType; // @synthesize segmentType=_segmentType;
 
 @end

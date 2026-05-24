@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSAccessibilityStaticText
+- (NSString *)So32_CHSWidgetRelevancePropertiesBufC;
+
+@optional
+- (struct _NSRange);
 @end
 

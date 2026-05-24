@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface TeaUI.ImageView
 {
     id imageView;
-    id _loadingIdentifier;
-    id _backgroundColor;
-    id symbolConfiguration;
 }
 
-+ (Class);
-- (_Bool);
++ (Class)?;
+- (_Bool)=;
 - (void);
-- (void);
+- (void)tarting monitoring;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)ase.serial;
+- (_Bool),;
 - (void);
 - (long long);
-- (id);
+- (id)mumUpdateInterval"b1"fetchingBin"b1"stabilizeAcrossRefreshes"b1};
 - (id);
 - (void)ðýÿhýÿØýÿ0ýÿàýÿd	ýÿä	ýÿü	ýÿH
 ýÿ´
@@ -34,11 +29,7 @@
 ýÿýÿ$ýÿdýÿýÿÔýÿìýÿýÿýÿ4ýÿ\ýÿÀýÿØýÿHýÿ¬ýÿÜýÿýÿ,ýÿDýÿÔýÿýÿLýÿýÿìýÿ\ýÿtýÿýÿÐýÿèýÿ ýÿýÿ°ýÿèýÿýÿ8ýÿXýÿpýÿ¨ýÿhýÿ¨ýÿìýÿ$ýÿ\ýÿ¼ýÿôýÿýÿ$ýÿýÿÄýÿtýÿÔýÿýÿðýÿ¬ýÿ ýÿàýÿýÿ,ýÿDýÿ\ýÿüýÿ4ýÿTýÿýÿ¤ýÿÜýÿýÿ@ýÿ°ýÿ ýÿXýÿäýÿ( ýÿ`!ýÿ !ýÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool accessibilityElementsHidden;
-@property(nonatomic) _Bool accessibilityIgnoresInvertColors;
-@property(nonatomic, retain) UIColor *backgroundColor;
 @property(nonatomic) _Bool clipsToBounds;
-@property(nonatomic) long long contentMode;
 
 @end
 

@@ -13,7 +13,7 @@
     MRVirtualVoiceInputDeviceDescriptor *_descriptor;
 }
 
-- (unsigned long long);
+- (unsigned long long)StartCoreDuetAttemptInfo> Number of Attempts %@ | Duration of Sync %.04f Minutes <EndCoreDuetAttemptInfo>;
 - (id);
 - (id);
 - (void)eMessage;

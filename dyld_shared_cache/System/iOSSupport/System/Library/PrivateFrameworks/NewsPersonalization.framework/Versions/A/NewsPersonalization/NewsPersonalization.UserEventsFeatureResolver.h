@@ -7,8 +7,6 @@
 @interface NewsPersonalization.UserEventsFeatureResolver
 {
     id articleEventFeaturesProvider;
-    id features;
-    id eventHistoryCount;
 }
 
 @end

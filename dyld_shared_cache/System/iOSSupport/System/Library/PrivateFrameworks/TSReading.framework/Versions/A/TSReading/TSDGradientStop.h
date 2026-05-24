@@ -9,36 +9,32 @@
 @interface TSDGradientStop
 {
     TSUColor *mColor;
-    double mFraction;
-    double mInflection;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)xijuxh;
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)n]dy;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)\;
 - (double);
-- (id);
+- (id)h=;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (double);
-- (id);
+- (id)g"24;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TSUColor *color; // @synthesize color=mColor;
-@property(readonly, nonatomic) double fraction; // @synthesize fraction=mFraction;
-@property(readonly, nonatomic) double inflection; // @synthesize inflection=mInflection;
 
 @end
 

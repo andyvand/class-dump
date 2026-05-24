@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerSheetModel, AVTUIStickerItem, NSArray, NSIndexPath, NSString, UICollectionView, UIImage, UIView;
-@protocol AVTAvatarRecord, AVTPresenterDelegate, AVTStickerDisclosureValidationDelegate, AVTStickerSheetControllerDelegate, AVTStickerSheetDelegate, AVTStickerTaskScheduler, AVTStickerViewControllerImageDelegate;
+@class UIView;
 
 @interface AVTSelectableStickerSheetController
 {
     _Bool _showCellSelectionLayer;
-    _Bool _isPageVisible;
-    _Bool _areAllStickersRendered;
-    _Bool _showPrereleaseSticker;
-    _Bool _allowsPoseCapture;
-    id <AVTPresenterDelegate> presenterDelegate;
-    id <AVTStickerSheetControllerDelegate> delegate;
-    id <AVTStickerDisclosureValidationDelegate> _disclosureValidationDelegate;
-    id <AVTStickerViewControllerImageDelegate> _imageDelegate;
-    id <AVTStickerSheetDelegate> _stickerSheetDelegate;
-    UIView *_view;
-    UICollectionView *_collectionView;
-    AVTStickerSheetModel *_model;
-    UIImage *_placeholderImage;
-    id <AVTStickerTaskScheduler> _taskScheduler;
-    NSArray *_stickerItems;
-    NSIndexPath *_selectedIndexPath;
-    AVTUIStickerItem *_cameraStickerItem;
-    struct UIEdgeInsets _sectionInsets;
 }
 
 - (void);
@@ -56,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (struct CGSize);
@@ -83,20 +64,20 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)ialog.String.lowerFirst;
+- (void);
+- (id)tring=}20I28@?32;
+- (id)$;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (id)didDisplayPearlGlassesBannerNotificationRecently: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
-- (void);
+- (void)subsystem;
 - (id);
 - (void);
 - (id);
@@ -106,38 +87,12 @@
 - (struct UIEdgeInsets);
 - (long long);
 - (void);
-- (double);
+- (double)trackCommittedQueryWithSuggestion:commitReason: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)egories:(id)arg1;
+- (void)A;
+- (id)initWithCategories:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPoseCapture; // @synthesize allowsPoseCapture=_allowsPoseCapture;
-@property(nonatomic) _Bool areAllStickersRendered; // @synthesize areAllStickersRendered=_areAllStickersRendered;
-@property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord;
-@property(nonatomic) __weak AVTUIStickerItem *cameraStickerItem; // @synthesize cameraStickerItem=_cameraStickerItem;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTStickerSheetControllerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate; // @synthesize disclosureValidationDelegate=_disclosureValidationDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AVTStickerViewControllerImageDelegate> imageDelegate; // @synthesize imageDelegate=_imageDelegate;
-@property(nonatomic) _Bool isPageVisible; // @synthesize isPageVisible=_isPageVisible;
-@property(retain, nonatomic) AVTStickerSheetModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) UIImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(nonatomic) struct UIEdgeInsets sectionInsets; // @synthesize sectionInsets=_sectionInsets;
-@property(nonatomic) NSIndexPath *selectedIndexPath; // @synthesize selectedIndexPath=_selectedIndexPath;
-@property(nonatomic) _Bool showCellSelectionLayer; // @synthesize showCellSelectionLayer=_showCellSelectionLayer;
-@property(nonatomic) _Bool showPrereleaseSticker; // @synthesize showPrereleaseSticker=_showPrereleaseSticker;
-@property(retain, nonatomic) NSArray *stickerItems; // @synthesize stickerItems=_stickerItems;
-@property(nonatomic) __weak id <AVTStickerSheetDelegate> stickerSheetDelegate; // @synthesize stickerSheetDelegate=_stickerSheetDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <AVTStickerTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

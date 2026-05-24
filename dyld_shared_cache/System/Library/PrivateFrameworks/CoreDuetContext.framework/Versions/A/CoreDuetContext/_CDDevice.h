@@ -9,31 +9,26 @@
 @interface _CDDevice
 {
     _Bool _companion;
-    NSString *_deviceID;
-    unsigned long long _identifier;
-    NSString *_name;
-    long long _deviceClass;
-    NSString *_model;
 }
 
 + (id);
 + (unsigned long long);
 + (_Bool);
-- (id);
-- (id);
+- (id)TH:(id)arg1 %d;
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)language;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)_resolvedParameters;
+- (void)INSendAnnouncementIntentResponseCodeFailureRecipientCannotReceiveAnnouncements;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 - (_Bool);
@@ -41,11 +36,6 @@
 - (void)ÿ9,;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCompanion) _Bool companion; // @synthesize companion=_companion;
-@property(nonatomic) long long deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

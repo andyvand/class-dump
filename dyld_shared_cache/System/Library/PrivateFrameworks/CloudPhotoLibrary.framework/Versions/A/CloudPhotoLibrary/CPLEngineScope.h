@@ -9,11 +9,6 @@
 @interface CPLEngineScope
 {
     NSString *_scopeIdentifier;
-    long long _scopeType;
-    NSDate *_creationDate;
-    long long _localIndex;
-    long long _cloudIndex;
-    long long _stableIndex;
 }
 
 + (id);
@@ -27,27 +22,22 @@
 - (id);
 - (long long);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool)åÿ4¨;
-- (void);
+- (_Bool);
+- (void)L;
 - (id);
-- (void);
+- (void)ernal/Library/BuildRoots/4~CNqDugCvxsAqS6DX8BD3e2ecMLSfRYQ_ycw7Pqo/Library/Caches/com.apple.xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/libmrec/src/channel/uttfile.cpp;
 - (id);
-- (long long);
+- (long long)9H;
 - (void);
 - (id)twice;
 
 // Remaining properties
-@property(nonatomic) long long cloudIndex; // @synthesize cloudIndex=_cloudIndex;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) long long localIndex; // @synthesize localIndex=_localIndex;
-@property(readonly, nonatomic) NSString *scopeIdentifier; // @synthesize scopeIdentifier=_scopeIdentifier;
-@property(readonly, nonatomic) long long scopeType; // @synthesize scopeType=_scopeType;
-@property(nonatomic) long long stableIndex; // @synthesize stableIndex=_stableIndex;
 
 @end
 

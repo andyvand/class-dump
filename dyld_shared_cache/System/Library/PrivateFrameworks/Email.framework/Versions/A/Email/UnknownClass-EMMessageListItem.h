@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (EMMessageListItem)
-- (id);
+- (id)System;
 - (unsigned long long);
 - (_Bool);
 

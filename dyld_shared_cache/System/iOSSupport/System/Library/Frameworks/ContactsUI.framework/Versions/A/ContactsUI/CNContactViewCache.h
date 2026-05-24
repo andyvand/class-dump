@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNContactStore, NSString;
+@class CNCache, CNContactStore;
 
 @interface CNContactViewCache
 {
     CNContactStore *_contactStore;
-    CNCache *_cachedContactToContainerIDs;
-    CNCache *_cachedContainers;
-    CNCache *_cachedPolicies;
-    CNCache *_cachedAccounts;
-    CNCache *_cachedTopAccounts;
 }
 
 + (_Bool);
@@ -27,18 +22,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)endTimer:dataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)es too small;
 - (id);
 - (void);
 - (id);
@@ -46,24 +41,12 @@
 - (id);
 - (id);
 - (id)oteContent"8@"NSError"16;
-- (void)yCommand;
+- (void)_addKeyCommand;
 - (void)33333Ó?;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNCache *cachedAccounts; // @synthesize cachedAccounts=_cachedAccounts;
 @property(retain, nonatomic) CNCache *cachedContactToContainerIDs; // @synthesize cachedContactToContainerIDs=_cachedContactToContainerIDs;
-@property(retain, nonatomic) CNCache *cachedContainers; // @synthesize cachedContainers=_cachedContainers;
-@property(retain, nonatomic) CNCache *cachedPolicies; // @synthesize cachedPolicies=_cachedPolicies;
-@property(retain, nonatomic) CNCache *cachedTopAccounts; // @synthesize cachedTopAccounts=_cachedTopAccounts;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

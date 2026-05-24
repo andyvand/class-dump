@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, PKOSVersionRequirementRange;
-
 @interface PKWebServiceVirtualCardFeatureNetwork
 {
     _Bool _implicitlySupported;
-    long long _network;
-    NSNumber *_refreshType;
-    PKOSVersionRequirementRange *_versions;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (long long)apabilityDecryptions;
-- (void)pBundleIdentifier;
-- (void)edImage;
+- (long long)auxiliaryCapabilityDecryptions;
+- (void)_containingAppBundleIdentifier;
+- (void)cardBackgroundCombinedImage;
 
 // Remaining properties
-@property(nonatomic) _Bool implicitlySupported; // @synthesize implicitlySupported=_implicitlySupported;
 @property(nonatomic) long long network; // @synthesize network=_network;
-@property(retain, nonatomic) NSNumber *refreshType; // @synthesize refreshType=_refreshType;
-@property(retain, nonatomic) PKOSVersionRequirementRange *versions; // @synthesize versions=_versions;
 
 @end
 

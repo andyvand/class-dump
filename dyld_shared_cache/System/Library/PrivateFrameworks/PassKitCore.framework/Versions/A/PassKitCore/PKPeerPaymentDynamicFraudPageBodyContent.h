@@ -11,13 +11,13 @@
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id)ccountUser:(id)arg1;
+- (unsigned long long);
+- (unsigned long long)B;
+- (_Bool)ffic"b1"lTECoexDurationMS"b1"lastScanReason"b1"lowAvailWLANDurFalse"b1"lowAvailWLANDurTrue"b1"lowAvailWLANRxDurFalse"b1"lowAvailWLANRxDurTrue"b1"lowAvailWLANTxDurFalse"b1"lowAvailWLANTxDurTrue"b1"lowTxAMPDUDensityFalse"b1"lowTxAMPDUDensityTrue"b1"lowTxPhyRateFalse"b1"lowTxPhyRateTrue"b1"maxQueueFullDurMS"b1"measurementDurMS"b1"offChanDurMS"b1"outputThroughput"b1"phyRxActivityDurMS"b1"phyTxActivityDurMS"b1"rC1CoexDurationMS"b1"rC2CoexDurationMS"b1"rSSI"b1"rxAmpduTxBaMismatch"b1"rxCRSErrs"b1"rxDecryErrs"b1"rxDupErrs"b1"rxFCSErrs"b1"rxFrames"b1"rxGoodPlcps"b1"rxLowFrameCountFalse"b1"rxLowFrameCountTrue"b1"rxOvflErrs"b1"rxPLCPErrs"b1"rxPhyRate"b1"rxReplayErrs"b1"rxRetries"b1"rxThroughput"b1"sNR"b1"symptomsFails"b1"tVPMActiveDurationMS"b1"testThroughput"b1"timeSinceLastRecovery"b1"timestamp"b1"txAMPDUDensity"b1"txCompBytes"b1"txCompPkts"b1"txDelayBytes"b1"txExpectedAMPDUDensity"b1"txFails"b1"txFrames"b1"txLowFrameCountFalse"b1"txLowFrameCountTrue"b1"txOutputBelowExpectedFalse"b1"txOutputBelowExpectedTrue"b1"txOutputBelowInputFalse"b1"txOutputBelowInputTrue"b1"txPhyRate"b1"txQueueFullFalse"b1"txQueueFullTrue"b1"txRetries"b1"txSubBytes"b1"txSubPkts"b1};
+- (void)eservedInfo;
+- (id)initWithFamilyMember:(id)arg1 accountUser: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;

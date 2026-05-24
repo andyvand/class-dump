@@ -7,8 +7,6 @@
 @interface NewsPersonalization.SportsLocationRecommendationMappingsService
 {
     id appConfigurationManager;
-    id contentContext;
-    id resourceService;
 }
 
 @end

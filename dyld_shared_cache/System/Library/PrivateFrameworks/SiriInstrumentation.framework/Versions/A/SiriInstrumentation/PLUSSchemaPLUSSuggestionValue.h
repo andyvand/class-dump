@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSMediaSuggestion, PLUSSchemaPLUSUniversalSuggestion;
+@class PLUSSchemaPLUSUniversalSuggestion;
 
 @interface PLUSSchemaPLUSSuggestionValue : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSUniversalSuggestion *_universalSuggestion;
-    PLUSSchemaPLUSMediaSuggestion *_mediaSuggestion;
-    _Bool _hasUniversalSuggestion;
-    _Bool _hasMediaSuggestion;
-    unsigned long long _whichSuggestion;
 }
 
 - (id);
@@ -30,24 +26,19 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)=;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)@ failed with error %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)xtNormalizationDurationForFinalResultInNs;
+- (id)_inverseTextNormalizationDurationForFinalResultInNs;
 - (id),V_hasMessageSignals;
-- (void)NTRYCODE_ER;
+- (void)COUNTRYCODE_ER;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaSuggestion; // @synthesize hasMediaSuggestion=_hasMediaSuggestion;
-@property(nonatomic) _Bool hasUniversalSuggestion; // @synthesize hasUniversalSuggestion=_hasUniversalSuggestion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PLUSSchemaPLUSMediaSuggestion *mediaSuggestion; // @synthesize mediaSuggestion=_mediaSuggestion;
 @property(retain, nonatomic) PLUSSchemaPLUSUniversalSuggestion *universalSuggestion; // @synthesize universalSuggestion=_universalSuggestion;
-@property(readonly, nonatomic) unsigned long long whichSuggestion; // @synthesize whichSuggestion=_whichSuggestion;
 
 @end
 

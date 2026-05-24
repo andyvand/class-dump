@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFExternalCredentialIdentityStoreIdentifier;
-
 @interface SFCredentialProviderExtensionState
 {
     _Bool _enabled;
-    _Bool _supportsIncrementalUpdates;
-    NSString *_localizedDisplayName;
-    SFExternalCredentialIdentityStoreIdentifier *_credentialIdentityStoreIdentifier;
-    NSString *_providerBundleID;
-    NSString *_providerExtensionBundleID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)inputCameraCalibration2;
 - (_Bool);
 - (id);
 - (id);
@@ -27,18 +20,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)riptor";
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SFExternalCredentialIdentityStoreIdentifier *credentialIdentityStoreIdentifier; // @synthesize credentialIdentityStoreIdentifier=_credentialIdentityStoreIdentifier;
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *providerBundleID; // @synthesize providerBundleID=_providerBundleID;
-@property(readonly, copy, nonatomic) NSString *providerExtensionBundleID; // @synthesize providerExtensionBundleID=_providerExtensionBundleID;
-@property(readonly, nonatomic) _Bool supportsIncrementalUpdates; // @synthesize supportsIncrementalUpdates=_supportsIncrementalUpdates;
 
 @end
 

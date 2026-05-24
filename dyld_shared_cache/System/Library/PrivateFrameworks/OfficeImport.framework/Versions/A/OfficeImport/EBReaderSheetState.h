@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EBReaderState, EDSheet;
+@class EBReaderState;
 
 __attribute__((visibility("hidden")))
 @interface EBReaderSheetState
 {
     EBReaderState *mReaderState;
-    EDSheet *mEDSheet;
-    struct map<int, unsigned long, std::less<int>, std::allocator<std::pair<const int, unsigned long>>> mSharedFormulas;
-    unsigned long long mChartIndex;
 }
 
 - (void *);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)*;
 - (id);
 - (id);
+- (id)=;
 - (id)1Â0@ù
 × ;
 - (void)´;

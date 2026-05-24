@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, NSFileWrapper, NSMutableString, NSZipFileArchive;
+@class NSAttributedString;
 
 @interface NSWordMLWriter
 {
     NSAttributedString *_attrStr;
-    NSDictionary *_documentAttrs;
-    NSMutableString *_documentStr;
-    NSFileWrapper *_fileWrapper;
-    NSZipFileArchive *_archive;
 }
 
 - (id);
@@ -21,17 +17,17 @@
 - (void);
 - (void);
 - (void);
+- (void)`0;
 - (void);
+- (_Bool)K;
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)d;
 - (id);
-- (id);
-- (id);
+- (id)! Policy:(id)arg1 %{public}@;
 - (void);
 - (id);
 

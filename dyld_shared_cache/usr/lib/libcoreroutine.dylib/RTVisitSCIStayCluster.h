@@ -4,64 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, RTLocation, RTLocationShifter;
-
 @interface RTVisitSCIStayCluster
 {
     double _meanOfSquaredLat_deg;
-    double _meanOfSquaredLon_deg;
-    _Complex double _sumOfVectorLon;
-    double _motionInducedDev_m;
-    NSDate *_lastProcessedSampleDateForAdaption;
-    NSMutableArray *_residuePoints;
-    unsigned long long _numOfDataPoints;
-    unsigned long long _numOfAdaptionSample;
-    NSDate *_potentialEntry;
-    NSDate *_potentialExit;
-    NSDate *_lastProcessedSample;
-    NSMutableArray *_outliers;
-    RTLocation *_centroid;
-    RTLocation *_lastTrustedLocation;
-    RTLocationShifter *_locationShifter;
 }
 
 + (double);
 + (double);
 + (double)Store:(double)arg1;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)ction data for %@.;
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)os_channel_attr_create failed;
 - (id);
 - (void);
-- (void);
+- (void)proxy not good;
 - (unsigned long long);
 - (void);
 - (double);
-- (id)cher;
-- (id)tWithLocation:locationsOfInterest:minCircleOverlapThreshold: /* Error: Ran out of types for this method. */;
+- (id)remoteStatusDispatcher;
+- (id)_getMatchingLocationsOfIntrestWithLocation:locationsOfInterest:minCircleOverlapThreshold: /* Error: Ran out of types for this method. */;
 - (unsigned long long)nitiatorService _onDeletedConversation:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)nDetailsOutOfSync, %{Bool}d, setting handoffRebootReconciliationState to, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTLocation *centroid; // @synthesize centroid=_centroid;
-@property(readonly, nonatomic) NSDate *lastProcessedSample; // @synthesize lastProcessedSample=_lastProcessedSample;
-@property(readonly, nonatomic) RTLocation *lastTrustedLocation; // @synthesize lastTrustedLocation=_lastTrustedLocation;
-@property(readonly, nonatomic) RTLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
-@property(readonly, nonatomic) unsigned long long numOfAdaptionSample; // @synthesize numOfAdaptionSample=_numOfAdaptionSample;
 @property(readonly, nonatomic) unsigned long long numOfDataPoints; // @synthesize numOfDataPoints=_numOfDataPoints;
-@property(readonly, nonatomic) unsigned long long numOfOutliers;
-@property(readonly, nonatomic) unsigned long long numOfResiduePoints;
-@property(readonly, nonatomic) NSMutableArray *outliers; // @synthesize outliers=_outliers;
-@property(readonly, nonatomic) NSDate *potentialEntry; // @synthesize potentialEntry=_potentialEntry;
-@property(readonly, nonatomic) NSDate *potentialExit; // @synthesize potentialExit=_potentialExit;
 
 @end
 

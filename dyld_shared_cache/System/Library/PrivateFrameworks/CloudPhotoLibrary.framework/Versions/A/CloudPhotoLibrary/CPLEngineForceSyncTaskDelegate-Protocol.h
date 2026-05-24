@@ -5,6 +5,6 @@
 //
 
 @protocol CPLEngineForceSyncTaskDelegate
-- (void)s new - will try to identify it. Initial scope change is %@;
+- (void);
 @end
 

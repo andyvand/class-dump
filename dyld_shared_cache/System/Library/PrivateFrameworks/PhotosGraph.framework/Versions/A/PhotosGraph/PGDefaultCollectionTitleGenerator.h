@@ -6,19 +6,14 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class PHAsset, PHAssetCollection;
-@protocol PGEventEnrichment;
+@class PHAsset;
 
 @interface PGDefaultCollectionTitleGenerator : PGTitleGenerator
 {
     _Bool _debug;
-    _Bool _forDiagnostics;
-    id <PGEventEnrichment> _collection;
-    PHAsset *_keyAsset;
-    PHAssetCollection *_curatedAssetCollection;
 }
 
-- (void);
+- (void)Info:(_Bool)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -30,10 +25,6 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PGEventEnrichment> collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) PHAssetCollection *curatedAssetCollection; // @synthesize curatedAssetCollection=_curatedAssetCollection;
-@property(nonatomic, getter=isDebug) _Bool debug; // @synthesize debug=_debug;
-@property(nonatomic) _Bool forDiagnostics; // @synthesize forDiagnostics=_forDiagnostics;
 @property(readonly, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
 
 @end

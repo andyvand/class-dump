@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)Layers;
+- (unsigned long long)BindDataLSTMLayers;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;

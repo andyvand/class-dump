@@ -7,8 +7,6 @@
 @interface NewsUI2.OfferAdSegmentProvider
 {
     id needsUpdate;
-    id offerManager;
-    id appConfigurationManager;
 }
 
 @end

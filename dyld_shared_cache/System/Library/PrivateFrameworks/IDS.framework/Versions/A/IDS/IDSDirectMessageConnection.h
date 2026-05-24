@@ -4,61 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDevice, IDSServiceProperties, IMPowerAssertion, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, _IDSDeviceConnection;
-@protocol IDSDirectMessageConnectionDelegate, OS_dispatch_queue, OS_dispatch_source, OS_nw_connection;
-
 @interface IDSDirectMessageConnection
 {
     _Bool _connectionSetupInProgress;
-    _Bool _upgradedTrafficClass;
-    _Bool _connectionIsIncoming;
-    _Bool _pendingAckTimerSuspended;
-    _Bool _directMessagingAllowed;
-    _Bool _directMessagingSupported;
-    _Bool _trafficClassInitialized;
-    _Bool _trafficClassTLVProcessed;
-    _Bool _peerIsConnected;
-    _Bool _peerIsNearby;
-    _Bool _peerSupportsDeviceConnection;
-    _Bool _conciseACKSupported;
-    int _connectionState;
-    int _notifyToken;
-    unsigned int _trafficClassToUse;
-    int _directMessagingTimeOutMSEC;
-    int _directMessagingRetryMSEC;
-    int _directMessagingReportStatsMSEC;
-    unsigned int _dataProtectionClass;
-    NSString *_serviceName;
-    unsigned long long _identifier;
-    char *_shortServiceNameCString;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_nw_connection> *_connection;
-    NSMutableArray *_connectionMessageSendQueue;
-    id <IDSDirectMessageConnectionDelegate> _delegate;
-    NSString *_peerID;
-    NSObject<OS_dispatch_source> *_pendingAckTimer;
-    NSObject<OS_dispatch_source> *_reporterTimer;
-    NSMutableDictionary *_queueOneToMessageIDDictionary;
-    NSMutableDictionary *_messageIDToMessageDictionary;
-    long long _idsPriorityToUse;
-    long long _trafficClassApplied;
-    IDSDevice *_device;
-    _IDSDeviceConnection *_deviceConnection;
-    NSString *_currentStreamName;
-    unsigned long long _directMessagingState;
-    IDSServiceProperties *_serviceProperties;
-    IMPowerAssertion *_assertion;
-    NSDictionary *_powerAssertionOptions;
-    unsigned long long _outgoingMessageBytes;
-    unsigned long long _outgoingMessageCount;
-    unsigned long long _incomingMessageBytes;
-    unsigned long long _incomingMessageCount;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)jh8);
+- (void);
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -90,33 +44,33 @@
 - (void);
 - (void);
 - (void);
+- (void)69;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)R;
 - (_Bool);
 - (unsigned long long);
 - (long long);
@@ -139,18 +93,18 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)4k;
 - (void);
+- (_Bool);
+- (void);
+- (id)X;
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -158,14 +112,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)\q;
 - (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (unsigned long long);
@@ -175,57 +129,14 @@
 - (void)0@ù
 × ;
 - (void)">24;
-- (id)tation: /* Error: Ran out of types for this method. */;
+- (id)manager:receiverDidDeclineInvitation: /* Error: Ran out of types for this method. */;
 - (void)_syncDaemonController;
-- (unsigned int)LinkIDMap;
+- (unsigned int)_localRemoteRelayLinkIDToVirtualLinkIDMap;
 - (void);
 - (id)tatus:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMPowerAssertion *assertion; // @synthesize assertion=_assertion;
-@property(nonatomic) _Bool conciseACKSupported; // @synthesize conciseACKSupported=_conciseACKSupported;
-@property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool connectionIsIncoming; // @synthesize connectionIsIncoming=_connectionIsIncoming;
-@property(retain, nonatomic) NSMutableArray *connectionMessageSendQueue; // @synthesize connectionMessageSendQueue=_connectionMessageSendQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(nonatomic) _Bool connectionSetupInProgress; // @synthesize connectionSetupInProgress=_connectionSetupInProgress;
-@property(nonatomic) int connectionState; // @synthesize connectionState=_connectionState;
-@property(retain, nonatomic) NSString *currentStreamName; // @synthesize currentStreamName=_currentStreamName;
-@property(nonatomic) unsigned int dataProtectionClass; // @synthesize dataProtectionClass=_dataProtectionClass;
-@property(nonatomic) __weak id <IDSDirectMessageConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) IDSDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) _IDSDeviceConnection *deviceConnection; // @synthesize deviceConnection=_deviceConnection;
-@property(nonatomic) _Bool directMessagingAllowed; // @synthesize directMessagingAllowed=_directMessagingAllowed;
-@property(nonatomic) int directMessagingReportStatsMSEC; // @synthesize directMessagingReportStatsMSEC=_directMessagingReportStatsMSEC;
-@property(nonatomic) int directMessagingRetryMSEC; // @synthesize directMessagingRetryMSEC=_directMessagingRetryMSEC;
-@property(nonatomic) unsigned long long directMessagingState; // @synthesize directMessagingState=_directMessagingState;
-@property(nonatomic) _Bool directMessagingSupported; // @synthesize directMessagingSupported=_directMessagingSupported;
-@property(nonatomic) int directMessagingTimeOutMSEC; // @synthesize directMessagingTimeOutMSEC=_directMessagingTimeOutMSEC;
 @property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long idsPriorityToUse; // @synthesize idsPriorityToUse=_idsPriorityToUse;
-@property(nonatomic) unsigned long long incomingMessageBytes; // @synthesize incomingMessageBytes=_incomingMessageBytes;
-@property(nonatomic) unsigned long long incomingMessageCount; // @synthesize incomingMessageCount=_incomingMessageCount;
-@property(retain, nonatomic) NSMutableDictionary *messageIDToMessageDictionary; // @synthesize messageIDToMessageDictionary=_messageIDToMessageDictionary;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(nonatomic) unsigned long long outgoingMessageBytes; // @synthesize outgoingMessageBytes=_outgoingMessageBytes;
-@property(nonatomic) unsigned long long outgoingMessageCount; // @synthesize outgoingMessageCount=_outgoingMessageCount;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(nonatomic) _Bool peerIsConnected; // @synthesize peerIsConnected=_peerIsConnected;
-@property(nonatomic) _Bool peerIsNearby; // @synthesize peerIsNearby=_peerIsNearby;
-@property(nonatomic) _Bool peerSupportsDeviceConnection; // @synthesize peerSupportsDeviceConnection=_peerSupportsDeviceConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *pendingAckTimer; // @synthesize pendingAckTimer=_pendingAckTimer;
-@property(nonatomic) _Bool pendingAckTimerSuspended; // @synthesize pendingAckTimerSuspended=_pendingAckTimerSuspended;
-@property(retain, nonatomic) NSDictionary *powerAssertionOptions; // @synthesize powerAssertionOptions=_powerAssertionOptions;
-@property(retain, nonatomic) NSMutableDictionary *queueOneToMessageIDDictionary; // @synthesize queueOneToMessageIDDictionary=_queueOneToMessageIDDictionary;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *reporterTimer; // @synthesize reporterTimer=_reporterTimer;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) IDSServiceProperties *serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(nonatomic) char *shortServiceNameCString; // @synthesize shortServiceNameCString=_shortServiceNameCString;
-@property(nonatomic) long long trafficClassApplied; // @synthesize trafficClassApplied=_trafficClassApplied;
-@property(nonatomic) _Bool trafficClassInitialized; // @synthesize trafficClassInitialized=_trafficClassInitialized;
-@property(nonatomic) _Bool trafficClassTLVProcessed; // @synthesize trafficClassTLVProcessed=_trafficClassTLVProcessed;
-@property(nonatomic) unsigned int trafficClassToUse; // @synthesize trafficClassToUse=_trafficClassToUse;
-@property(nonatomic) _Bool upgradedTrafficClass; // @synthesize upgradedTrafficClass=_upgradedTrafficClass;
 
 @end
 

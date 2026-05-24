@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCoreSpotlightShareItem
 {
     NSString *_shareProviderTypeIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSString *_coreSpotlightIdentifier;
 }
 
 - (id);
@@ -21,27 +19,17 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)|�|;
+- (id)isUserCreatedMemoryWithUserActionOptions:(id)arg1;
+- (id)urrentUserContributionEnabled;
+- (id)oad;
 - (id);
 - (id);
 - (void);
-- (void)licationResult: /* Error: Ran out of types for this method. */;
+- (void)setIsLocalApplicationResult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *shareProviderTypeIdentifier; // @synthesize shareProviderTypeIdentifier=_shareProviderTypeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

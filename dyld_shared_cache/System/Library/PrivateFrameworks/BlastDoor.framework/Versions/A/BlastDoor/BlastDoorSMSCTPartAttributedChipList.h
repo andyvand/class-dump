@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BlastDoorSMSCTPartAttributedChipList
 {
     id sMSCTPartAttributedChipList;
 }
 
+- (id)to %s;
 - (id);
-- (id);
-- (id);
+- (id))F;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *chipList;
 @property(nonatomic, readonly) NSString *description;
 
 @end

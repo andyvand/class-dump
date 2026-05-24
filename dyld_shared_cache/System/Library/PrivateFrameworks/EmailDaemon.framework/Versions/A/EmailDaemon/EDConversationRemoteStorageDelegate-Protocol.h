@@ -5,5 +5,9 @@
 //
 
 @protocol EDConversationRemoteStorageDelegate
+
+@optional
+- (void)CatchUpHighlights;
+- (void);
 @end
 

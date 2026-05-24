@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface HMDTransactionArchiveReplayLogEvent
 {
     long long _numUncommittedRecords;
-    long long _numUncommittedAndPushedRecords;
 }
 
-- (id);
+- (id)setBaaCertificates:(long long)arg1;
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly) long long numUncommittedAndPushedRecords; // @synthesize numUncommittedAndPushedRecords=_numUncommittedAndPushedRecords;
 @property(readonly) long long numUncommittedRecords; // @synthesize numUncommittedRecords=_numUncommittedRecords;
 
 @end

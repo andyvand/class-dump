@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id)InertImpl;
+- (id)_UISceneSizeRestrictionsInertImpl;
 - (void)B8Û|Ðl;
 
 @end

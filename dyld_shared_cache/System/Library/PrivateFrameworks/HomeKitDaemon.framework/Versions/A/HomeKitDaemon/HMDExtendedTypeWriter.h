@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDExtendedTypeWriter : HMDStructuredWriter
 {
     HMDStructuredWriter *_writer;
-    unsigned long long _options;
 }
 
 - (void);
@@ -28,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)Ôà°!EùñÐ1Â0@ù
 × ;
 - (void)}@*** DEBUG THIS :File a Radar :HomeKit | New Bugs ***:Service dump :[%@] /* Error: Ran out of types for this method. */;
-- (void)Statuses_;
+- (void)userActivityStatuses_;
 - (void)ctric blue;
 
 @end

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)dleIDToWeight=%@;
 - (void);
 - (_Bool);
-- (id);
+- (id)n:(id)arg1 recordDeviceIndicator:error:] /* Error: Ran out of types for this method. */;
 
 @end
 

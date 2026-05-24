@@ -7,11 +7,6 @@
 @interface NewsFeed.SportsBracketGroupDataVisualization
 {
     id visualizations;
-    id urlDataSources;
-    id dataSourceUrls;
-    id allDataSourceUrls;
-    id childDataSourceUrls;
-    id identifier;
 }
 
 @end

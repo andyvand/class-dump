@@ -9,7 +9,6 @@
 @interface CSSmartSiriVolumeEstimate
 {
     float _volumeEstimate;
-    NSString *_debugLogPath;
 }
 
 + (_Bool);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void)pth:startSampleCount:hostTime:arrivalHostTimeToAudioRecorder:wasBuffered:remoteVAD:isFloat: /* Error: Ran out of types for this method. */;
+- (void)initWithData:numChannels:numSamples:sampleByteDepth:startSampleCount:hostTime:arrivalHostTimeToAudioRecorder:wasBuffered:remoteVAD:isFloat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *debugLogPath; // @synthesize debugLogPath=_debugLogPath;
-@property(readonly, nonatomic) float volumeEstimate; // @synthesize volumeEstimate=_volumeEstimate;
 
 @end
 

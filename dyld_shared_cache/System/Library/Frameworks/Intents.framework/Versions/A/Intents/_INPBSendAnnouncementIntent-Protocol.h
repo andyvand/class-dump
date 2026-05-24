@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAnnouncement, _INPBIntentMetadata;
+@class NSArray, _INPBAnnouncement;
 
 @protocol _INPBSendAnnouncementIntent
-- (_Bool);
-- (_Bool)dleEndWorkout:completion: /* Error: Ran out of types for this method. */;
-- (NSArray *)rSystemExtensionBundleIdentifier: /* Error: Ran out of types for this method. */;
++ (Class)/;
+- (void);
+- (void)Array",R,V_locations;
+- (unsigned long long)registerNetworkDefaultsForAppID: /* Error: Ran out of types for this method. */;
+- (_Bool)if_flatMap: /* Error: Ran out of types for this method. */;
+- (_Bool)handleEndWorkout:completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)displayableAppBundleIdentifierForSystemExtensionBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAnnouncement *announcement;
-@property(readonly, nonatomic) _Bool hasAnnouncement;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsReply;
-@property(readonly, nonatomic) _Bool hasSharedUserID;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool isReply;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(copy, nonatomic) NSString *sharedUserID;
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_nw_channel;
 
 @interface NENexusFlowManager
 {
     NSObject<OS_nw_channel> *_kernelChannel;
-    struct nw_protocol *_protocol;
-    struct nw_protocol *_defaultInputProtocol;
-    NSMutableDictionary *_userChannels;
 }
 
-- (void);
+- (void);
 - (void)2;
 
 @end

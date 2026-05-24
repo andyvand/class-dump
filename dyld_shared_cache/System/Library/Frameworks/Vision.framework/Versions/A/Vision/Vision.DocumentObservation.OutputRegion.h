@@ -7,11 +7,6 @@
 @interface Vision.DocumentObservation.OutputRegion
 {
     id $__lazy_storage_$_data;
-    id lock;
-    id region;
-    id barcodeData;
-    id parent;
-    id $__lazy_storage_$_barcodeIndexSet;
 }
 
 @end

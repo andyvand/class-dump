@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSPredicate;
 
 @interface CKGenericCondition
 {
     id type;
-    id negated;
-    id $__lazy_storage_$_sql;
 }
 
 + (void);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -29,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSPredicate *predicate;
 
 @end

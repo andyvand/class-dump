@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMManagerPrivVars, NSSet, NSString;
+@class DMManagerPrivVars;
 
 __attribute__((visibility("hidden")))
 @interface SK_DM_Daemon2ClientDelegate
 {
     DMManagerPrivVars *_dmPrivVars;
-    NSSet *_allowedClasses;
 }
 
 - (void);
@@ -23,20 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)V_certificates;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allowedClasses; // @synthesize allowedClasses=_allowedClasses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) DMManagerPrivVars *dmPrivVars; // @synthesize dmPrivVars=_dmPrivVars;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

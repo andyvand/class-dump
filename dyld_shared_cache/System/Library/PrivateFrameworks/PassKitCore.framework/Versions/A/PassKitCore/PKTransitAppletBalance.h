@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKTransitAppletBalance
 {
     NSString *_identifier;
-    NSDecimalNumber *_balance;
-    NSString *_currency;
-    long long _exponent;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
-- (id);
+- (id)3;
 - (long long);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void));
 - (unsigned long long);
 - (_Bool);
+- (void)answeredQuerySendCountAtIndex:(id)arg1;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)UniqueIdentifier:(id)arg1 didEnableMessageService: /* Error: Ran out of types for this method. */;
-- (void)gFromCachedResponse:(id)arg1 data: /* Error: Ran out of types for this method. */;
+- (id)paymentPassWithUniqueIdentifier:(id)arg1 didEnableMessageService: /* Error: Ran out of types for this method. */;
+- (void)_logStringFromCachedResponse:(id)arg1 data: /* Error: Ran out of types for this method. */;
 - (void)zGdT4fXopFtqg/258x258.png;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) long long exponent; // @synthesize exponent=_exponent;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCurrency;
 
 @end
 

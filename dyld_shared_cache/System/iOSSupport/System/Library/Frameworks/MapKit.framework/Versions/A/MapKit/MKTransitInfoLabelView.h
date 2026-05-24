@@ -6,36 +6,23 @@
 
 #import <MapKit/_MKUILabel.h>
 
-@class MKArtworkDataSourceCache, NSArray;
-
 @interface MKTransitInfoLabelView : _MKUILabel
 {
     long long _iconSize;
-    double _maxWidth;
-    double _spaceBetweenIcons;
-    CDUnknownBlockType _textForTruncationGenerator;
-    _Bool _hasCustomShieldSize;
-    _Bool _hasCustomIconSize;
-    _Bool _hasCustomFont;
-    long long _shieldSize;
-    NSArray *_labelItems;
-    double _spaceBetweenShields;
-    double _maxShieldHeight;
-    MKArtworkDataSourceCache *_artworkCache;
 }
 
 + (long long);
 + (long long);
-+ (id);
++ (id);
 - (void);
 - (double);
-- (long long);
+- (long long)H;
 - (void);
+- (void)P;
 - (void);
+- (void)RP;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -51,20 +38,15 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)	;
 - (void);
 - (void);
 - (void);
-- (void)sNotRecognizeSelector: /* Error: Ran out of types for this method. */;
+- (void)doesNotRecognizeSelector: /* Error: Ran out of types for this method. */;
 - (void)in %f;
 
 // Remaining properties
-@property(retain, nonatomic) MKArtworkDataSourceCache *artworkCache; // @synthesize artworkCache=_artworkCache;
 @property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(copy, nonatomic) NSArray *labelItems; // @synthesize labelItems=_labelItems;
-@property(nonatomic) double maxShieldHeight; // @synthesize maxShieldHeight=_maxShieldHeight;
-@property(nonatomic) long long shieldSize; // @synthesize shieldSize=_shieldSize;
-@property(nonatomic) double spaceBetweenShields; // @synthesize spaceBetweenShields=_spaceBetweenShields;
 
 @end
 

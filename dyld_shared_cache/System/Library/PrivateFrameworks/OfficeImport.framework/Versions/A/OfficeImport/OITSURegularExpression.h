@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OITSURegularExpression
 {
     NSString *_expressionString;
-    void *_reserved;
 }
 
 + (id);
@@ -21,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (const char *);
-- (id);
-- (void);
+- (id)";
+- (void)P;
 - (id);
 - (id);
 - (unsigned long long);

@@ -5,5 +5,6 @@
 //
 
 @protocol CNAddFieldTouchBarDelegate
+- (void);
 @end
 

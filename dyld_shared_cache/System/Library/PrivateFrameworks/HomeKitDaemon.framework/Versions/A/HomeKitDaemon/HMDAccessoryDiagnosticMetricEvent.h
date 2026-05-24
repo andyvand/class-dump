@@ -6,47 +6,23 @@
 
 #import <HomeKitDaemon/HMDHAPMetrics.h>
 
-@class HMDAccessory, NSDictionary, NSString, NSUUID;
+@class HMDAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticMetricEvent : HMDHAPMetrics
 {
     HMDAccessory *_accessory;
-    NSDictionary *_diagnostics;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ory:userDefaults: /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:role:homeManager:upSecondsFactory:userDefaults: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *diagnostics; // @synthesize diagnostics=_diagnostics;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

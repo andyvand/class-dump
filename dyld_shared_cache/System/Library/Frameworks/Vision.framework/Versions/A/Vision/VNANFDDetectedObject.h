@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNANFDDetectedObject : VNEspressoDetectedObject
 {
     float _rotationAngle;
-    float _yawAngle;
-    float _pitchAngle;
-    int _labelKey;
-    int _groupId;
 }
 
 - (float);
@@ -21,20 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (int);
+- (int);
 - (id);
 - (void);
 - (float);
 - (id);
-- (int);
-- (void);
+- (int)CNContactStoreConfiguration;
+- (void)lu, deleted:(int)arg1 %lu);
 
 // Remaining properties
-@property int groupId; // @synthesize groupId=_groupId;
-@property int labelKey; // @synthesize labelKey=_labelKey;
-@property float pitchAngle; // @synthesize pitchAngle=_pitchAngle;
 @property float rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property float yawAngle; // @synthesize yawAngle=_yawAngle;
 
 @end
 

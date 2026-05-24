@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAllCollectionsViewResultFilterTypeAddress, GEOAllCollectionsViewResultFilterTypeKeyword, GEOPDAllCollectionsViewResultFilter, NSArray;
+@class GEOPDAllCollectionsViewResultFilter;
 
 @interface GEOAllCollectionsViewResultFilter
 {
     GEOPDAllCollectionsViewResultFilter *_resultFilter;
-    NSArray *_places;
 }
 
-- (id);
-- (id);
+- (id)_CNDataURLSessionTaskAdapter;
+- (id)ary/PrivateFrameworks/CoreEmoji.framework/CoreEmoji (%d);
 - (id);
 - (long long)ëäT´ìôT´ìU´ðìU´`í$U´Ðí4U´<îDU´¨îTU´ïdU´ïtU´øïU´dðU´Ðð¤U´@ñ´U´°ñÄU´òÔU´òäU´ôòôU´dóV´ÔóV´@ô$V´¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)óA5ZÎ6;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOAllCollectionsViewResultFilterTypeAddress *addressFilter;
 @property(readonly, nonatomic) long long filterType;
-@property(readonly, nonatomic) GEOAllCollectionsViewResultFilterTypeKeyword *keywordFilter;
 
 @end
 

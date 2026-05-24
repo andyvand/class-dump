@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBDeleteTimerIntentResponse
 {
     struct _has;
-    NSArray *_deletedTimers;
 }
 
 + (Class);
 + (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -25,21 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)nding networks list update (clientID=%{public}@, update=%{public}@);
 - (id);
 - (id);
-- (void)ListRideOptionsIntentResponseCodeFailureRequiringAppLaunchNoServiceInArea;
+- (void)INListRideOptionsIntentResponseCodeFailureRequiringAppLaunchNoServiceInArea;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSArray *deletedTimers; // @synthesize deletedTimers=_deletedTimers;
-@property(readonly, nonatomic) unsigned long long deletedTimersCount;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

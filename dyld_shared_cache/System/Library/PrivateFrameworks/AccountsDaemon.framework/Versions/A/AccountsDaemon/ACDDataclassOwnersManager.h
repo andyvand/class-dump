@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface ACDDataclassOwnersManager
 {
     NSXPCConnection *_connection;
-    NSLock *_connectionLock;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (id);

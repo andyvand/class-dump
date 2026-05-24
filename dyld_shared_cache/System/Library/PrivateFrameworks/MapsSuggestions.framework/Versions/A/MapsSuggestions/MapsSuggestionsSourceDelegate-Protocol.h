@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsSourceDelegate
+- (_Bool)#';
 @end
 

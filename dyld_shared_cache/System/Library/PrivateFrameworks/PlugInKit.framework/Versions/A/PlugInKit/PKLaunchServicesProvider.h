@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKLaunchServicesProvider
 {
 }
 
 - (id);
+- (id)41'(;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)40H1;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)DA;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool hasLSDatabaseAccess;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

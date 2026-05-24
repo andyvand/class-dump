@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString, RBSProcessIdentity;
+@class BSServiceConnectionEndpoint;
 
 @interface FBSSceneIdentityToken
 {
     BSServiceConnectionEndpoint *_endpoint;
-    RBSProcessIdentity *_target;
-    NSString *_workspace;
-    NSString *_identifier;
-    NSString *_stringRepresentation;
-    int _host;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)AVCFAssetResourceLoadingRequestCreateWithResourceLoaderAndRequestInfo;
 + (_Bool);
 - (void);
 - (id);
@@ -28,28 +23,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) BSServiceConnectionEndpoint *hostEndpoint;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
-@property(readonly) Class superclass;
 
 @end
 

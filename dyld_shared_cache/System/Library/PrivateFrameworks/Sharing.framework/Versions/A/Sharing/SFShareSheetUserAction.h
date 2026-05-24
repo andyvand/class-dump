@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface SFShareSheetUserAction
 {
     long long _actionType;
-    NSUUID *_uuid;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -26,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionString;
 @property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

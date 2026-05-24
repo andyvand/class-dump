@@ -6,32 +6,28 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSButton;
-
 __attribute__((visibility("hidden")))
 @interface NSLocalWindowSharingWindow : NSWindow
 {
     NSWindow *_hostWindow;
-    NSButton *_trackedCloseButton;
-    _Bool _menuIsOpen;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@16@24@32@40@48Q56@64@72@?80;
+- (void)Q40@48@?56;
+- (void)ent>"24@"NSURL"32@"NSDictionary"40@?<v@?@"<NDBackgroundSessionProtocol>"@"NSDictionary"B>48;
+- (void)_childAssetDownloadTasks;
+- (void)_childAssetDownloadSession;
+- (void)startSecureConnection on a URLSessionStreamTask after task has completed;
+- (void)interface without an established connection;
+- (void)reamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)_received;
 - (_Bool);
 - (void);
 - (void);

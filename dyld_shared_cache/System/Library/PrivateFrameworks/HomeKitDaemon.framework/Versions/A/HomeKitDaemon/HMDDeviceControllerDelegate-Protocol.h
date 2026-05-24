@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDDeviceController;
+
 @protocol HMDDeviceControllerDelegate
+
+@optional
+- (void)notifyObservers:(HMDDeviceController *)arg1;
 @end
 

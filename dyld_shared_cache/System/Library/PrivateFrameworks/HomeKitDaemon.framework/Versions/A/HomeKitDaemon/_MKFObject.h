@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class MKFObjectDatabaseID, NSString;
+@class MKFObjectDatabaseID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFObject : HMDManagedObject
@@ -22,48 +22,75 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)?;
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)@;
+- (id)`O\;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (id)A;
 - (id);
+- (id)=B;
 - (id);
+- (id)B;
 - (id);
+- (id)E;
 - (id);
 - (id);
+- (id)eC;
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)h!<E;
+- (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)G;
+- (id)E;
 - (id);
+- (id);
+- (id)(F;
 - (id);
 - (id);
+- (id)F;
+- (id)F;
 - (id);
+- (id);;
 - (id);
+- (id)G;
 - (id);
 - (id);
 - (id);
+- (id)G;
 - (id);
+- (id)5AH;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)mI;
 - (id);
 - (id);
 - (id);
@@ -74,47 +101,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setLaunchpadToolbarItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)%@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MKFObjectDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UIPickerViewDataSource
+- (long long);
 @end
 

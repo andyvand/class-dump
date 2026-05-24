@@ -9,7 +9,6 @@
 @interface UARPStandaloneCommandReplyRecord
 {
     NSMutableArray *_solicitedURLResponses;
-    NSString *_modelNumber;
 }
 
 + (_Bool);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;

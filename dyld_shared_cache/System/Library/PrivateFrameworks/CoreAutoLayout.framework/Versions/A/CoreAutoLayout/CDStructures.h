@@ -21,8 +21,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _NSRange {
@@ -33,8 +33,8 @@ struct _NSRange {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int value;
-} CDStruct_fcd6c539;
+    unsigned int _field1;
+} CDStruct_6238c8e0;
 
 typedef struct {
     unsigned long long _field1;
@@ -49,36 +49,20 @@ typedef struct {
     id _field3;
 } CDStruct_1b4a36b4;
 
-typedef struct CDStruct_183601bc;
-
 typedef struct {
-    CDStruct_183601bc *blocks;
-    unsigned long long blocksCount;
-    unsigned long long blocksCapacity;
-    struct {
-        union {
-            unsigned long long _data;
-            unsigned long long *_buckets;
-        } ;
-        unsigned int _bucketCount;
-        unsigned int _popCount;
-    } freeIndexes;
-} CDStruct_419bcb5e;
-
-typedef struct {
-    unsigned short inline_capacity;
-    unsigned int var_count;
-    double constant;
+    unsigned short _field1;
+    unsigned int _field2;
+    double _field3;
     union {
         struct {
-            id stored_extern_marker;
-            CDStruct_183601bc *slab;
-            unsigned long long capacity;
-        } extern_data;
+            id _field1;
+            struct *_field2;
+            unsigned long long _field3;
+        } _field1;
         struct {
-            unsigned long long aligner;
-        } inline_slab;
-        unsigned char padding[48];
-    } data;
-} CDStruct_9ac54d62;
+            unsigned long long _field1;
+        } _field2;
+        unsigned char _field3[48];
+    } _field4;
+} CDStruct_2fbfc061;
 

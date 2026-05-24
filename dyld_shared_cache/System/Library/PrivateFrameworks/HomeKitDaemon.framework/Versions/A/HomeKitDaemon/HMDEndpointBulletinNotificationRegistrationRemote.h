@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinNotificationRegistrationSource, HMDEndpointBulletinNotificationRegistration;
+@class HMDEndpointBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDEndpointBulletinNotificationRegistrationRemote
 {
     HMDEndpointBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)¼J`ÌH
@@ -19,15 +18,14 @@ t&Ð&°'K(x)à)L*MP+N(,p,;
 - (id);
 - (_Bool);
 - (void);
-- (id)dent;
-- (id)serializeReadRequests:mediaProfile: /* Error: Ran out of types for this method. */;
+- (id)hasAnyResident;
+- (id)deserializeReadRequests:mediaProfile: /* Error: Ran out of types for this method. */;
 - (id)public}@Conflicting commands detected for matterPath %@;
 - (void)ier Mode;
 - (id)Ø]?;
 
 // Remaining properties
 @property(readonly, copy) HMDEndpointBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

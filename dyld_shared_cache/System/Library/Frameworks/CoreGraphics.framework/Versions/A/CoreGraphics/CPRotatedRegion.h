@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPRotatedRegion : CPRegion
 {
     struct CGRect normalizedBounds;
-    _Bool dirtyNormalizedBounds;
 }
 
 - (void);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (double);
+- (double)h;
 - (double);
 - (double);
 - (double);

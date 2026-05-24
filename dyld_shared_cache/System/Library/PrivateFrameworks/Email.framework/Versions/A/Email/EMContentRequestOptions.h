@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EMContentRequestOptions
 {
     _Bool _includeCachedMetadataJSON;
-    _Bool _requestAllHeaders;
-    NSString *_requestedRepresentation;
-    long long _networkUsage;
-    long long _cacheBehavior;
-    long long _includeSuggestionItems;
-    NSArray *_requestedHeaderKeys;
-    unsigned long long _maximumNumberOfOriginalContentMessagesToRequest;
-    long long _urlBehavior;
 }
 
 + (id);
@@ -26,40 +18,32 @@
 - (void);
 - (void);
 - (void);
+- (void)HomeIntelligenceProtoPETSecureSubmitterEventMetadataDevice;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)DemoAccessoryServer;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)ValenciaAutomationFailureReason;
+- (long long);
 - (_Bool);
 - (id);
 - (long long);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
+- (void)+n;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)z^;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cacheBehavior; // @synthesize cacheBehavior=_cacheBehavior;
-@property(nonatomic) _Bool includeCachedMetadataJSON; // @synthesize includeCachedMetadataJSON=_includeCachedMetadataJSON;
-@property(nonatomic) long long includeSuggestionItems; // @synthesize includeSuggestionItems=_includeSuggestionItems;
-@property(nonatomic) unsigned long long maximumNumberOfOriginalContentMessagesToRequest; // @synthesize maximumNumberOfOriginalContentMessagesToRequest=_maximumNumberOfOriginalContentMessagesToRequest;
-@property(nonatomic) long long networkUsage; // @synthesize networkUsage=_networkUsage;
-@property(nonatomic) _Bool requestAllHeaders; // @synthesize requestAllHeaders=_requestAllHeaders;
-@property(copy, nonatomic) NSArray *requestedHeaderKeys; // @synthesize requestedHeaderKeys=_requestedHeaderKeys;
 @property(copy, nonatomic) NSString *requestedRepresentation; // @synthesize requestedRepresentation=_requestedRepresentation;
-@property(nonatomic) long long urlBehavior; // @synthesize urlBehavior=_urlBehavior;
 
 @end
 

@@ -4,59 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSMutableArray, NSMutableDictionary, NSSet, NSString;
-@protocol VISProcessor;
+@class NSMutableArray;
 
 @interface AVOfflineVideoStabilizer
 {
     CDStruct_1b6d18a9 _targetFrameDuration;
-    int _metadataPrimingCount;
-    float _lookAheadTime;
-    AVWeakReference *_dataProviderWeakReference;
-    struct __CVPixelBufferPool *_pixelBufferPool;
-    _Bool _clientMarkedEndOfVideoData;
-    long long _videoOutputFrameNumber;
-    struct opaqueCMFormatDescription *_cachedVideoFormatDescription;
-    NSMutableDictionary *_cachedInputBufferAttributes;
-    NSMutableArray *_outputSampleBuffers;
-    _Bool _clientMarkedEndOfMetadata;
-    long long _metadataOutputFrameNumber;
-    NSMutableArray *_futureFrameMetadataDicts;
-    NSSet *_requiredMetadataKeys;
-    NSSet *_optionalMetadataKeys;
-    _Bool _stabilizationEnabled;
-    _Bool _isFirstFrame;
-    id <VISProcessor> _visProcessor;
 }
 
 + (id);
 + (void);
-- (int);
-- (int);
-- (id);
-- (id);
-- (struct opaqueCMSampleBuffer *);
-- (int);
+- (int)enumerateIndexesUsingBlock: /* Error: Ran out of types for this method. */;
+- (int)entitled;
+- (id)decodedObjectOfClasses:fromData:userInfo:error: /* Error: Ran out of types for this method. */;
+- (id)_objectLookupTable;
+- (struct opaqueCMSampleBuffer *)rd;
+- (int);
 - (void);
 - (int);
-- (unsigned long long);
-- (struct opaqueCMSampleBuffer *);
-- (struct opaqueCMSampleBuffer *);
-- (int);
+- (unsigned long long)attribute;
+- (struct opaqueCMSampleBuffer *)@> elapased after <%lf> seconds (<%lf> expected);
+- (struct opaqueCMSampleBuffer *)te=%d;
+- (int)JSON object:(struct __CVBuffer *)arg1 %@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *outputSampleBuffers; // @synthesize outputSampleBuffers=_outputSampleBuffers;
-@property(readonly, nonatomic) int preferredSourcePixelBufferPrimingFrameCount;
-@property(readonly, nonatomic) int preferredSourceStabilizationMetadataPrimingCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,7 @@
 @class CMArchiveManager;
 
 @protocol CMMapperRoot
+- (struct CGSize);
 - (CMArchiveManager *);
 @end
 

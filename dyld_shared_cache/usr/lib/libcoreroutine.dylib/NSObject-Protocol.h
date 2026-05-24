@@ -7,20 +7,18 @@
 @class NSString, Protocol;
 
 @protocol NSObject
-- (id)Preprocessor;
-- (_Bool)idMessagesWaitingForAck:(Protocol *)arg1;
+- (id);
+- (_Bool)B,R,N,V_isToDefaultPairedDevice;
+- (oneway void)_clientOsVersion;
+- (_Bool);
+- (id)transitionPreprocessor;
+- (_Bool)setMadridMessagesWaitingForAck:(Protocol *)arg1;
 - (struct _NSZone *)%@;
 
 @optional
-- (NSString *)ults;
+- (NSString *)onLaunchDaemonWithRestorationIdentifierFromDefaults;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,25 +6,9 @@
 
 #import <IOBluetoothUI/IOBluetoothConcreteDeviceController.h>
 
-@class IOBluetoothDevice, IOBluetoothDevicePair, NSString, NSTextField;
-
 @interface IOBluetoothConcretePairingController : IOBluetoothConcreteDeviceController
 {
     id pinCodeDeviceNameField;
-    id pinCodeRequestPanel;
-    id pinCodeRespondButton;
-    NSTextField *pinCodeResponseField;
-    id otherAppsPanel;
-    id otherAppsPanelBR;
-    id useForAB;
-    id useForDUN;
-    id useForABPreBR;
-    id useForDUNPreBR;
-    id useForBladeRunner;
-    unsigned char mPINCodeSheetState;
-    unsigned char mNextState;
-    IOBluetoothDevice *mPairedDevice;
-    IOBluetoothDevicePair *mDevicePair;
 }
 
 - (void);
@@ -55,13 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

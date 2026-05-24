@@ -5,5 +5,7 @@
 //
 
 @protocol CSSmartSiriVolumeProcessor
+- (void)T;
+- (void)6N;
 @end
 

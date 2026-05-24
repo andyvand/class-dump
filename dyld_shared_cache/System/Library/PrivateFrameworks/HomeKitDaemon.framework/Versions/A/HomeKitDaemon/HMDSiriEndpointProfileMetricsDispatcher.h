@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol HMDSiriEndpointProfileMetricsDispatcherDataSource, HMMLogEventSubmitting;
+@class NSUUID;
+@protocol HMDSiriEndpointProfileMetricsDispatcherDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileMetricsDispatcher
 {
     id <HMDSiriEndpointProfileMetricsDispatcherDataSource> _dataSource;
-    NSUUID *_homeUUID;
-    NSUUID *_accessoryUUID;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)¬wB;
 - (void);
-- (id);
-- (id);
+- (id)d.;
+- (id)Date %@ 
+lastUpdatedDate %@ 
+hasMadeFinalPush %@;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -32,20 +31,10 @@ __attribute__((visibility("hidden")))
 - (void)sory:%@ /* Error: Ran out of types for this method. */;
 - (void)^B16;
 - (id);
-- (id)nPayloadSerializer;
+- (id)ChangeTokenPayloadSerializer;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property __weak id <HMDSiriEndpointProfileMetricsDispatcherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

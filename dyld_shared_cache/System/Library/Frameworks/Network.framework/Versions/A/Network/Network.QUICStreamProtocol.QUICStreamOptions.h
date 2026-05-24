@@ -7,10 +7,6 @@
 @interface Network.QUICStreamProtocol.QUICStreamOptions
 {
     id associatedStreamID;
-    id datagramContextID;
-    id quicConnectionOptions;
-    id _internalTLSOptions;
-    id flags;
 }
 
 @end

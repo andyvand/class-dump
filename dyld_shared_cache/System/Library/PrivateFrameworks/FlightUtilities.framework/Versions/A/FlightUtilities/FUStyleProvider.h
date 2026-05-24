@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)tone variant of BMStreamDatastore does not support saving metadata;
+- (id)NULL outside of range for frames, frameNumber=%d for segment:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)textures supported for vector noise;
+- (id)orkflowRunViewSource";
 - (id);
 - (id);
 - (id);

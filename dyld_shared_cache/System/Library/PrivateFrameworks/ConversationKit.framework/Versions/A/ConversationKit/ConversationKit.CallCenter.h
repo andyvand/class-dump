@@ -7,45 +7,44 @@
 @interface ConversationKit.CallCenter
 {
     id tuCallCenter;
-    id placeholderCallCenter;
-    id delegate;
 }
 
+- (void);
+- (void){;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)n;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)kn;
+- (void);
+- (void)ޤ;
+- (void);
+- (void)⤸Aޤ;
+- (void);
+- (void);
+- (void)x
+f;
+- (void)f;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)in;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)in;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (void)ÿÿÿWüÿ0;
 
 @end

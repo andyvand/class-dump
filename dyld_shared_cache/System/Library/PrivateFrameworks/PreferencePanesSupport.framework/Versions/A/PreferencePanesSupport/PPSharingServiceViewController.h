@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString, NSTextField;
+@class NSImageView;
 
 @interface PPSharingServiceViewController
 {
     NSImageView *_stateImage;
-    NSTextField *_stateText;
-    NSString *_firewallWarningText;
 }
 
 + (_Bool);
@@ -32,9 +30,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSString *firewallWarningText; // @synthesize firewallWarningText=_firewallWarningText;
 @property __weak NSImageView *stateImage; // @synthesize stateImage=_stateImage;
-@property __weak NSTextField *stateText; // @synthesize stateText=_stateText;
 
 @end
 

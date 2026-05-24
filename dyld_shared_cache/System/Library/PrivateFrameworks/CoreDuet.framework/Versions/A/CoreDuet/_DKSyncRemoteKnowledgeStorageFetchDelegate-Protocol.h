@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DKSyncType;
+@class NSArray, _DKSyncType;
 
 @protocol _DKSyncRemoteKnowledgeStorageFetchDelegate
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) _DKSyncType *syncType;

@@ -6,19 +6,15 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiRecipeEventAggregationConfiguration, FCNewsTabiRecipeScoringInputConfiguration, FCNewsTabiRecipeScoringOutputConfiguration;
+@class FCNewsTabiRecipeScoringOutputConfiguration;
 
 @interface FCNewsTabiRecipeScoringConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiRecipeScoringOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiRecipeScoringOutputConfiguration *_nonBundleOutputConfiguration;
-    FCNewsTabiRecipeEventAggregationConfiguration *_eventAggregationConfiguration;
-    FCNewsTabiRecipeScoringInputConfiguration *_bundleInputConfiguration;
-    FCNewsTabiRecipeScoringInputConfiguration *_nonBundleInputConfiguration;
 }
 
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -29,11 +25,7 @@
 - (void)aphIdleDuration:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeScoringInputConfiguration *bundleInputConfiguration; // @synthesize bundleInputConfiguration=_bundleInputConfiguration;
 @property(readonly, nonatomic) FCNewsTabiRecipeScoringOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeEventAggregationConfiguration *eventAggregationConfiguration; // @synthesize eventAggregationConfiguration=_eventAggregationConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeScoringInputConfiguration *nonBundleInputConfiguration; // @synthesize nonBundleInputConfiguration=_nonBundleInputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeScoringOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

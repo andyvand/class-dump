@@ -9,21 +9,14 @@
 @interface QCCompositionLayer_QCViewBacking : QCCompositionLayer
 {
     double _beginTimeOffset;
-    double _pauseTime;
-    struct CGColor *_clearColor;
-    struct {
-        unsigned int clearFlag:1;
-        unsigned int paused:1;
-        unsigned int stopped:1;
-    } _renderState;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (double);
+- (void)@;
+- (double)T;
 - (_Bool);
 - (void);
 - (void);

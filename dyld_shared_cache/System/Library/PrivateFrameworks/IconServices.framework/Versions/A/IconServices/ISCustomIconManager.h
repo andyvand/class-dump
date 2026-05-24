@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)0:8@16{_NSRange=QQ}24@40@?48 /* Error: Ran out of types for this method. */;
++ (id)https;
 + (id);
-+ (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	*;
 
 @end
 

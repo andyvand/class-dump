@@ -13,24 +13,24 @@
 + (id);
 + (id);
 + (void);
-- (void);
+- (void);
 - (id);
 - (struct DRFolderObject *);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)der"16;
+- (void)%{public}@ cid:(id)arg1 %u returned %{public}@;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)essageText",R,N;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)StringAsRecordViability: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)0s %12llu %12llu;
 
 @end
 

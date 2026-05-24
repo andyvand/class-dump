@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNLikeness, NSArray;
+@class CNLikeness;
 
 @interface CNContactLikenessesModel
 {
     CNLikeness *_currentLikeness;
-    NSArray *_recentLikenesses;
-    unsigned long long _maxNumberOfLikenessesAllowed;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
-- (id);
+- (id)8;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNLikeness *currentLikeness; // @synthesize currentLikeness=_currentLikeness;
 @property(nonatomic) unsigned long long maxNumberOfLikenessesAllowed; // @synthesize maxNumberOfLikenessesAllowed=_maxNumberOfLikenessesAllowed;
-@property(readonly, nonatomic) NSArray *recentLikenesses; // @synthesize recentLikenesses=_recentLikenesses;
 
 @end
 

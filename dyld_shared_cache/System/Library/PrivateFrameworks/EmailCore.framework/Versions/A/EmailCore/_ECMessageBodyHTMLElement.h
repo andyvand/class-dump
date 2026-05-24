@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)been loaded; we're about to force it;
 
 @end
 

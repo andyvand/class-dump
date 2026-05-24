@@ -7,8 +7,6 @@
 @interface NewsUI2.SportsManagementBlueprintModifierFactory
 {
     id sectionFactory;
-    id subscriptionService;
-    id tagService;
 }
 
 @end

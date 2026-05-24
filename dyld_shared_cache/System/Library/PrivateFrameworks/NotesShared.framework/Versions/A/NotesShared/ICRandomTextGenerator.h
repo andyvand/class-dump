@@ -9,10 +9,9 @@
 @interface ICRandomTextGenerator
 {
     unsigned long long _language;
-    ICRandomNumberGenerator *_randomNumberGenerator;
 }
 
-+ (id);
++ (id)retrieve XMLPlist from computer record:(unsigned long long)arg1 %@ (%d);
 + (id);
 + (id);
 + (_Bool);
@@ -20,21 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)recordWithRecordType:name:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)ver '%@' with IP address '%@' is already in locale '%@';
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)mpleted.;
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isRightToLeftLanguage;
-@property(nonatomic) unsigned long long language; // @synthesize language=_language;
 @property(retain, nonatomic) ICRandomNumberGenerator *randomNumberGenerator; // @synthesize randomNumberGenerator=_randomNumberGenerator;
 
 @end

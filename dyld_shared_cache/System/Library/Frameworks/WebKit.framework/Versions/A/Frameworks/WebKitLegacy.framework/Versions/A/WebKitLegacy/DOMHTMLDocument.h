@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMDocument.h>
 
-@class DOMHTMLCollection, NSString;
+@class DOMHTMLCollection;
 
 @interface DOMHTMLDocument : DOMDocument
 {
@@ -15,17 +15,17 @@
 - (void);
 - (id);
 - (void);
+- (void)E;
 - (void);
 - (void);
+- (void)oA;
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -34,7 +34,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -45,19 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *alinkColor;
-@property(copy) NSString *bgColor;
-@property(readonly, copy) NSString *compatMode;
-@property(copy) NSString *designMode;
-@property(copy) NSString *dir;
 @property(readonly) DOMHTMLCollection *embeds;
-@property(copy) NSString *fgColor;
-@property(readonly) int height;
-@property(copy) NSString *linkColor;
-@property(readonly) DOMHTMLCollection *plugins;
-@property(readonly) DOMHTMLCollection *scripts;
-@property(copy) NSString *vlinkColor;
-@property(readonly) int width;
 
 @end
 

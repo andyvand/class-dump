@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPersistedTaskAttribution;
+@class NSString;
 
 @interface TRITargetingPersistedTask
 {
 }
 
-+ (id);
++ (id)ongCommits;
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasIncludeDependencies; // @dynamic hasIncludeDependencies;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool includeDependencies; // @dynamic includeDependencies;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end
 

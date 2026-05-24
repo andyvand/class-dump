@@ -6,24 +6,13 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSObject, NSString, VCAudioMachineLearningCoordinator, VCMediaRecorder;
-@protocol OS_dispatch_queue, VCServerDelegate;
+@class NSMutableDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCCellularAudioTap : VCObject
 {
     NSMutableDictionary *_audioTapIOMap;
-    VCMediaRecorder *_mediaRecorder;
-    VCAudioMachineLearningCoordinator *_audioMachineLearningCoordinatorUplink;
-    VCAudioMachineLearningCoordinator *_audioMachineLearningCoordinatorDownlink;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    int _processId;
-    int _reportingModuleID;
-    NSString *_uuid;
-    long long _tapToken;
-    _Atomic unsigned int _callbackCounter;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <VCServerDelegate> _delegate;
 }
 
 + (_Bool);
@@ -43,15 +32,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
@@ -62,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct __CFDictionary *);
 - (void);
-- (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
@@ -72,25 +61,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <VCServerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long tapToken; // @synthesize tapToken=_tapToken;
 
 @end
 

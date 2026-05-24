@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL, SAMovieResolution;
+@class SAMovieResolution;
 
 @interface SAMovieImage : AceObject
 {
@@ -22,15 +22,7 @@
 - (id)ì0úÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SAMovieResolution *resolution;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *uri;
 
 @end
 

@@ -19,18 +19,23 @@
 - (void);
 - (void);
 - (void);
+- (void)(delta, delta);
+  return (dist2 <= radius2) ? center :(id)arg1 (destCoord() - ((delta * radius2) / dist2));
+}
+;
+- (void)}
+;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)DestinationAddImageAndMetadata:(const id *)arg1 destination is not a CGImageDestinationRef
+;
 - (void *);
 - (void);
 - (void);
@@ -38,7 +43,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)from event... Err = %ld, using state = %ld
+;
 - (void);
 - (void);
 - (void);
@@ -49,7 +55,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ogonek;
 - (void);
 - (void);
 - (void);
@@ -66,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)ormationMatrixBufferOffset;
 - (unsigned long long)mandBufferSupportState;
 

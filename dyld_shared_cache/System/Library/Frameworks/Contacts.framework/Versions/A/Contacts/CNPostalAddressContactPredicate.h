@@ -6,7 +6,7 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class CNPostalAddress, NSString;
+@class CNPostalAddress;
 
 __attribute__((visibility("hidden")))
 @interface CNPostalAddressContactPredicate : CNPredicate
@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (_Bool);
+- (id)}@:(id)arg1 bump/commit finished;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)AllowIncomingUssdSessions;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -36,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(readonly) Class superclass;
 
 @end
 

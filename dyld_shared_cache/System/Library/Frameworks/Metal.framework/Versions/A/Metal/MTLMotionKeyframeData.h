@@ -9,16 +9,15 @@
 @interface MTLMotionKeyframeData
 {
     id <MTLBuffer> _buffer;
-    unsigned long long _offset;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void)qs01Â0@ù
 × ;
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end
 

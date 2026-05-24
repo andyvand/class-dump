@@ -5,5 +5,6 @@
 //
 
 @protocol ASDIAPHistoryServiceProtocol
+- (void);
 @end
 

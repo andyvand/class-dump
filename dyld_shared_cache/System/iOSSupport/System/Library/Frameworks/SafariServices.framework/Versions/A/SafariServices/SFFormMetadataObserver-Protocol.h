@@ -5,5 +5,9 @@
 //
 
 @protocol SFFormMetadataObserver
+- (void);
+- (void);
+- (void);
+- (void)XPCCodingKey;
 @end
 

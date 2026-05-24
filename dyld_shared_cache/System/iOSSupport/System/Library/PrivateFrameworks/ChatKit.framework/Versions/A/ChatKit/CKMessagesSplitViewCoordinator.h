@@ -10,43 +10,36 @@ __attribute__((visibility("hidden")))
 @interface CKMessagesSplitViewCoordinator
 {
     _Bool _searchPresented;
-    UISplitViewController *_splitViewController;
-    double _proposedColumnWidth;
-    CDStruct_644752d7 _columnResizeParams;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)1 img %p img.version %d img.versionOutOfDate %d [ICDrawingVersionedDocument serializationVersion] %d;
+- (void)noteHTMLEditorView:attachmentPresentationForContentID: /* Error: Ran out of types for this method. */;
+- (void)generateFallbackPDFDataForAttachment:(long long)arg1;
+- (void)generateBestRepresentationForRequest:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)characterRangeForRowID:(id)arg1;
+- (void)absoluteString;
+- (void)_webView:(double)arg1 drawFooterInRect:forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
+- (void)URLForResource:withExtension: /* Error: Ran out of types for this method. */;
+- (void)@"NSMutableArray",&,N,V_completionBlocks;
 - (double);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)AttributedStringCG;
+- (_Bool)9;
 - (id);
-- (void);
+- (void)a;
 - (double);
-- (CDStruct_644752d7);
-- (double);
-- (double);
+- (CDStruct_cc5867a2)a;
+- (double)uteHeight;
+- (double)kICTTEditedRangeNotificationKey;
 - (double);
 - (double);
 - (void);
 - (id)th share:(id)arg1 %@, containerSetupInfo = %@, collaborationShareOptions = %@, isCollaboration = %@;
 - (void);
-- (id)BalloonViewDataSourceManager;
+- (id)CarouselBalloonViewDataSourceManager;
 
 // Remaining properties
-@property(nonatomic) CDStruct_644752d7 columnResizeParams; // @synthesize columnResizeParams=_columnResizeParams;
-@property(readonly, nonatomic, getter=isInspectorVisible) _Bool inspectorVisible;
-@property(nonatomic) double proposedColumnWidth; // @synthesize proposedColumnWidth=_proposedColumnWidth;
-@property(nonatomic, getter=isSearchPresented) _Bool searchPresented; // @synthesize searchPresented=_searchPresented;
 @property(nonatomic) __weak UISplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
 
 @end

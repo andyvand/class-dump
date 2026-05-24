@@ -7,10 +7,11 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
-+ (NSArray *): /* Error: Ran out of types for this method. */;
++ (NSArray *)setDraftForPendingConversation:withRecipients: /* Error: Ran out of types for this method. */;
 
 @optional
-- (NSArray *)pe: /* Error: Ran out of types for this method. */;
+- (long long)L & H Inc.      ;
+- (NSArray *)setPayloadCollaborationType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

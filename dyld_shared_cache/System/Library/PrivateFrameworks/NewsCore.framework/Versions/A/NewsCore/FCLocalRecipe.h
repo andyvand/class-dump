@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-@protocol FCChannelProviding;
+@class NSString;
 
 @interface FCLocalRecipe
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_shortExcerpt;
-    id <FCChannelProviding> _sourceChannel;
-    NSURL *_thumbnailURL;
-    NSURL *_contentURL;
-    unsigned long long _contentFormat;
-    unsigned long long _contentEncoding;
-    NSString *_thumbnailPrimaryColor;
-    NSString *_thumbnailBackgroundColor;
 }
 
 - (id);
@@ -29,22 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id)FeedConfigurationResourceId;
+- (id)recipeSearchFeedConfigurationResourceId;
 - (id)ownloads:defaultMaxAudioDownloads:defaultMaxRecipeDownloads: /* Error: Ran out of types for this method. */;
-- (id)lue: /* Error: Ran out of types for this method. */;
-- (void)e;
+- (id)setSignedValue: /* Error: Ran out of types for this method. */;
+- (void)postPurchaseOnboardingLastSeenDate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long contentEncoding; // @synthesize contentEncoding=_contentEncoding;
-@property(readonly, nonatomic) unsigned long long contentFormat; // @synthesize contentFormat=_contentFormat;
-@property(readonly, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *shortExcerpt; // @synthesize shortExcerpt=_shortExcerpt;
-@property(readonly, nonatomic) id <FCChannelProviding> sourceChannel; // @synthesize sourceChannel=_sourceChannel;
-@property(readonly, nonatomic) NSString *thumbnailBackgroundColor; // @synthesize thumbnailBackgroundColor=_thumbnailBackgroundColor;
-@property(readonly, nonatomic) NSString *thumbnailPrimaryColor; // @synthesize thumbnailPrimaryColor=_thumbnailPrimaryColor;
-@property(readonly, nonatomic) NSURL *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

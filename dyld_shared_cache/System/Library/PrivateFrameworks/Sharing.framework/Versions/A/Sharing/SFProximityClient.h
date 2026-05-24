@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface SFProximityClient
 {
     _Bool _activateCalled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    _Bool _shouldAdvertise;
-    _Bool _wantsUpdates;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _deviceEnteredImmediateHandler;
-    CDUnknownBlockType _deviceExitedImmediateHandler;
-    CDUnknownBlockType _deviceEnteredNearbyHandler;
-    CDUnknownBlockType _deviceExitedNearbyHandler;
-    CDUnknownBlockType _deviceWasSelectedHandler;
-    CDUnknownBlockType _deviceWillTriggerHandler;
-    CDUnknownBlockType _deviceDidUntriggerHandler;
-    CDUnknownBlockType _deviceWasDismissedHandlerEx;
-    CDUnknownBlockType _deviceWasDismissedHandler;
-    CDUnknownBlockType _deviceUpdateHandler;
 }
 
 + (_Bool);
@@ -44,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
@@ -67,15 +46,15 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)0;
+- (CDUnknownBlockType)l;
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)[%{ptr}] Started;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -85,32 +64,18 @@
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_escrowStoreAllowed;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)BluetoothHCIBroadcomEnableWBS:(id)arg1 inUUIDWBS: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)úþÿd½þÿ;
 - (void)Device"8I16;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deviceDidUntriggerHandler; // @synthesize deviceDidUntriggerHandler=_deviceDidUntriggerHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceEnteredImmediateHandler; // @synthesize deviceEnteredImmediateHandler=_deviceEnteredImmediateHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceEnteredNearbyHandler; // @synthesize deviceEnteredNearbyHandler=_deviceEnteredNearbyHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceExitedImmediateHandler; // @synthesize deviceExitedImmediateHandler=_deviceExitedImmediateHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceExitedNearbyHandler; // @synthesize deviceExitedNearbyHandler=_deviceExitedNearbyHandler;
 @property(copy, nonatomic) CDUnknownBlockType deviceUpdateHandler; // @synthesize deviceUpdateHandler=_deviceUpdateHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceWasDismissedHandler; // @synthesize deviceWasDismissedHandler=_deviceWasDismissedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceWasDismissedHandlerEx; // @synthesize deviceWasDismissedHandlerEx=_deviceWasDismissedHandlerEx;
-@property(copy, nonatomic) CDUnknownBlockType deviceWasSelectedHandler; // @synthesize deviceWasSelectedHandler=_deviceWasSelectedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceWillTriggerHandler; // @synthesize deviceWillTriggerHandler=_deviceWillTriggerHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) _Bool shouldAdvertise; // @synthesize shouldAdvertise=_shouldAdvertise;
-@property(nonatomic) _Bool wantsUpdates; // @synthesize wantsUpdates=_wantsUpdates;
 
 @end
 

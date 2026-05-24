@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUIOSurface;
+@class NUIOSurface;
 
 @interface NUSurfaceTileAdapter
 {
     NUIOSurface *_surface;
-    CDStruct_996ac03c _frameRect;
-    CDStruct_996ac03c _contentRect;
 }
 
 - (id);
-- (CDStruct_996ac03c);
+- (CDStruct_996ac03c)UkXt7d0Mt4pdHM2cW0cgwiQwBDFeyuEs3eg4MaawhSkRC7+4xb+Ihou28sY9OOTcEBn6yOivWy/5LX7N7935/jpXMBtJ/g1FwAowp1lHDGJlRozcHQ5v0+yGJA8P25GbbSd0PsxHMCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAhlKk1kU7lvoPynXwuqszWRLVRvnn97uNa/uuyX5kgQ5sRUBip9IzALZckFURbsVdw9eVg4tMG4qaHbPLKza2XvIdCx9i3pjnSMMi5A2/DXc6NbRc9QqTwBcEL6xDZ4sBWzCUblkdb5TKizRp/G+xZkhaZXDXECmgNBTUyo16kx9Ql9AOM/xURt3i1/EzrZSaePSjMiJ4h1mWWbj108dqsC2MXHoSB9WT+6DHlIcjECW1PEr8PggTITJhjLNDrBzKLbzJrH1u6e/d3k3pmODHBbeuaQb9qiTcxTh5yfcdahia4OMCt+k9YGNkoDdoFeKFK4LtiHsY3s0JIuNBbE76Uw==;
 - (id);
 - (id);
 - (CDStruct_996ac03c);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_996ac03c frameRect; // @synthesize frameRect=_frameRect;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NUIOSurface *surface; // @synthesize surface=_surface;
 
 @end

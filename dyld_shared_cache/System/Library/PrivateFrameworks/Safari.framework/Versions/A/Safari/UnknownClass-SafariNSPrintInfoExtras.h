@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SafariNSPrintInfoExtras)
-- (struct WKPrintInfo);
+- (struct WKPrintInfo)R;
 
 // Remaining properties
 @property(readonly, nonatomic) struct WKPrintInfo wkPrintInfo;

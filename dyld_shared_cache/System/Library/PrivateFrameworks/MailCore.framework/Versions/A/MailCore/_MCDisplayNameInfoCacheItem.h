@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCDisplayNameInfo, NSString;
+@class MCDisplayNameInfo;
 
 @interface _MCDisplayNameInfoCacheItem
 {
     MCDisplayNameInfo *_info;
-    NSString *_rawAddress;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MCDisplayNameInfo *info; // @synthesize info=_info;
-@property(readonly, copy, nonatomic) NSString *rawAddress; // @synthesize rawAddress=_rawAddress;
 
 @end
 

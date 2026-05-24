@@ -16,7 +16,7 @@
 + (unsigned long long);
 + (unsigned long long);
 + (double);
-+ (CDStruct_3ead2808);
++ (CDStruct_d2b197d1);
 + (id);
 + (_Bool);
 + (id);

@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol HMDAccessCodeDataManagerDelegate
+- (void);
 - (NSUUID *)int from constraints to add data:%@ /* Error: Ran out of types for this method. */;
 @end
 

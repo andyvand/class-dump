@@ -6,23 +6,20 @@
 
 #import <IconServices/ISIconConfigurationMarkupParser.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ISGraphicIconConfigurationParser : ISIconConfigurationMarkupParser
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)DQueryFragment}qq^?^v}16^{__CFArray=}24;
+- (id)getIMScreenNameValue:type: /* Error: Ran out of types for this method. */;
+- (id)_scannerOptions;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly) NSDictionary *aliasedConfigurationDictionary;
-@property(readonly) NSArray *enclosureColors;
-@property(readonly) long long renderingMode;
 @property(readonly) NSArray *symbolColors;
 
 @end

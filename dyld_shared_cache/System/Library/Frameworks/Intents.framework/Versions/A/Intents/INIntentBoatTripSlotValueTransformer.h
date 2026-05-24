@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ediaAffinityIntentDatas;
 - (id);
-- (id)cidentIntentResponseExport;
+- (id)INReportIncidentIntentResponseExport;
 
 @end
 

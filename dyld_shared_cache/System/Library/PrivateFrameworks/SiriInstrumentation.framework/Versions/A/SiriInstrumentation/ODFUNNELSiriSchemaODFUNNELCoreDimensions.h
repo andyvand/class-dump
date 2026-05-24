@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaISOLocale;
+@class NSString;
 
 @interface ODFUNNELSiriSchemaODFUNNELCoreDimensions : SISchemaInstrumentationMessage
 {
     NSString *_systemBuild;
-    int _viewInterface;
-    SISchemaISOLocale *_siriInputLocale;
-    struct {
-        unsigned int viewInterface:1;
-    } _has;
-    _Bool _hasSystemBuild;
-    _Bool _hasSiriInputLocale;
 }
 
 - (int);
@@ -39,22 +32,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)f;
+- (_Bool);
 - (id);
 - (id);
 - (id)sageSignalBook;
-- (id)Primitive;
+- (id)deletePrimitive;
 - (void)ientEvent.notificationReceivedTier1.appBundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool hasViewInterface;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
 @property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(nonatomic) int viewInterface; // @synthesize viewInterface=_viewInterface;
 
 @end
 

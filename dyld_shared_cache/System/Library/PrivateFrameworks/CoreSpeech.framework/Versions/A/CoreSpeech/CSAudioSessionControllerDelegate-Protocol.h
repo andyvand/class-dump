@@ -5,5 +5,10 @@
 //
 
 @protocol CSAudioSessionControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)%;
 @end
 

@@ -11,7 +11,6 @@
 @interface QCFlameImageUI : QCInspector
 {
     NSTextField *widthField;
-    NSTextField *heightField;
 }
 
 + (id);

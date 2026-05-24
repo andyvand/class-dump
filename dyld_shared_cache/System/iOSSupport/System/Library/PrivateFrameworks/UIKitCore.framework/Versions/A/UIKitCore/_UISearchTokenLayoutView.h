@@ -12,30 +12,28 @@ __attribute__((visibility("hidden")))
 @interface _UISearchTokenLayoutView : UIView
 {
     double _verticalDelegateViewOrigin;
-    _Bool _isLastSearchToken;
-    UIView<_UIAtomTextViewAtomLayout> *_delegateView;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)ring"32B40@"NSError"44;
+- (struct CGRect)service:(id)arg1 didFlushCacheForKTPeerURI:(struct CGRect)arg2;
+- (struct UIEdgeInsets)resultsForLogging;
 - (struct CGRect);
-- (struct UIEdgeInsets);
-- (struct CGRect);
 - (id);
-- (void);
+- (void)Dictionary"16@?0@"CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettingsApplicationsItem"8;
 - (struct CGSize);
 - (id);
-- (id);
+- (id)ely got a nil remoteViewController because Music is crashing.;
 - (void);
 - (_Bool);
 - (_Bool)esAttributedText"b1"clearingBehavior"b2"overridePasscodeStyle"b1"shouldResignWithoutUpdate"b1"blurEnabled"b1"visualEffectViewEnabled"b1"disableFocus"b1"disableRemoteTextEditing"b1"allowsAttachments"b1"isReceivingDrop"b1"contentCoverUnsecuresText"b1"forcesClearButtonHighContrastAppearance"b1"contentInsetsFromFontsValid"b1"autolayoutWantsBaselines"b1"animateNextHighlightChange"b1"backgroundProviderDraws"b1"backgroundProviderHasBackgroundView"b1"isHandlingClearButton"b1"textLayoutManagerEnabled"b1"extremeSizingEnabled"b1"sizingRule"b1"shouldDisplayDictationPlaceholderMessage"b1"supportsKeyboardNavigationForSuggestions"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"shouldUpdatePlaceholderTextAlignmentWhenOverridden"b1"hasDictationButton"b1};
-- (id)illaryIndexesDict;
+- (id)_invalidatedAuxillaryIndexesDict;
 - (id);
 - (id)%@);
 - (void)øÂþLR0£13,hÀ7;

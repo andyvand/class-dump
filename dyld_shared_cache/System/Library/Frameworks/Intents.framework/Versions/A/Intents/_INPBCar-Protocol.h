@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCarHeadUnit, _INPBColor;
+@class NSString, _INPBCarChargingConnectorPower;
 
 @protocol _INPBCar
+- (NSString *)k;
+- (_INPBCarChargingConnectorPower *);
+- (void);
+- (void);
+- (void)ultsForIdentifier:(NSString *)arg1 byTaskWithIdentifier [resultIdentifier:%@, taskIdentifier:%@] Failed:%@ /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *carIdentifier;
-@property(retain, nonatomic) _INPBColor *color;
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool hasCarIdentifier;
-@property(readonly, nonatomic) _Bool hasColor;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasHeadUnit;
-@property(readonly, nonatomic) _Bool hasMake;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasYear;
-@property(retain, nonatomic) _INPBCarHeadUnit *headUnit;
-@property(copy, nonatomic) NSString *make;
-@property(copy, nonatomic) NSString *model;
-@property(copy, nonatomic) NSArray *powerPerConnectors;
-@property(readonly, nonatomic) unsigned long long powerPerConnectorsCount;
-@property(copy, nonatomic) NSArray *supportedChargingConnectors;
-@property(readonly, nonatomic) unsigned long long supportedChargingConnectorsCount;
-@property(copy, nonatomic) NSString *year;
 @end
 

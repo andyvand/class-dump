@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ALCity
 {
     int _identifier;
-    NSString *_localeCode;
-    NSString *_timeZone;
-    float _longitude;
-    float _latitude;
-    NSString *_yahooCode;
-    NSString *_name;
-    NSString *_unlocalizedName;
-    NSString *_countryName;
-    NSString *_unlocalizedCountryName;
-    NSString *_countryOverride;
-    NSString *_unlocalizedCountryOverride;
-    NSString *_identifierForCPCity;
-    _Bool _localizationAttempted;
-    _Bool _displayNameIncludingCountryShowsOnlyCountry;
 }
 
 - (id);
@@ -30,20 +16,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)|;
+- (unsigned long long)ation=%.3f:responseStartDelay=%.3f:responseDuration=%.3f:transactionDuration=%.3f:outOfProcess=%{public}@:allowCellular=%{public}@:allowExpensive=%{public}@:powerNap=%{public}@:app=%{public}@:2app=%{public}@:pool=%{public}@:tlsPinning=%{public}@:retryNetworkFailures=%{public}@:disc=%{public}@:duet=%{public}@:reqTimeout=%.2f:resTimeout=%.2f:appleIdSessionId=%{public}@:metricRequest=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (void)_waitForResponseAndReleaseNotification:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
+- (void)I;
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int)ܯ;
 - (id);
 - (id);
 - (void);
@@ -66,20 +52,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *classicIdentifier;
-@property(retain, nonatomic) NSString *countryName;
-@property(retain, nonatomic) NSString *countryOverride;
-@property(nonatomic) _Bool displayNameIncludingCountryShowsOnlyCountry; // @synthesize displayNameIncludingCountryShowsOnlyCountry=_displayNameIncludingCountryShowsOnlyCountry;
-@property(nonatomic) int identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) float latitude; // @synthesize latitude=_latitude;
-@property(retain, nonatomic) NSString *localeCode; // @synthesize localeCode=_localeCode;
-@property(nonatomic) float longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSDictionary *properties;
-@property(retain, nonatomic) NSString *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain, nonatomic) NSString *unlocalizedCountryName;
-@property(retain, nonatomic) NSString *unlocalizedCountryOverride; // @synthesize unlocalizedCountryOverride=_unlocalizedCountryOverride;
-@property(retain, nonatomic) NSString *unlocalizedName;
-@property(retain, nonatomic) NSString *yahooCode; // @synthesize yahooCode=_yahooCode;
 
 @end
 

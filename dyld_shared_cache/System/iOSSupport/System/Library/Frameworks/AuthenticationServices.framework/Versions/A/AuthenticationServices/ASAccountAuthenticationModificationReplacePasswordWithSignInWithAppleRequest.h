@@ -6,32 +6,24 @@
 
 #import <AuthenticationServices/ASAccountAuthenticationModificationRequest.h>
 
-@class ASCredentialServiceIdentifier, NSDictionary, NSExtension, NSString;
+@class NSString;
 
 @interface ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest : ASAccountAuthenticationModificationRequest
 {
     NSString *_user;
-    ASCredentialServiceIdentifier *_serviceIdentifier;
-    NSDictionary *_userInfo;
-    NSString *_password;
-    NSExtension *_extension;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)eleting messages not in recently deleted older than %ld days;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
 @property(readonly, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, nonatomic) NSString *user; // @synthesize user=_user;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

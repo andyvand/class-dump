@@ -9,9 +9,6 @@
 @interface PXPlaceholder
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_fallbackActionTitle;
-    NSURL *_url;
 }
 
 + (id);
@@ -22,14 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id)Session:movedToPoint: /* Error: Ran out of types for this method. */;
+- (id)draggingSession:movedToPoint: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)PCÊ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fallbackActionTitle; // @synthesize fallbackActionTitle=_fallbackActionTitle;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

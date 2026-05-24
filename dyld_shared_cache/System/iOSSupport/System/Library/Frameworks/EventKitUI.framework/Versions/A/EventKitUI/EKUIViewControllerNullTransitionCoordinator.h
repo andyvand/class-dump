@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-
 @interface EKUIViewControllerNullTransitionCoordinator
 {
 }
@@ -22,36 +20,18 @@
 × ;
 - (_Bool)ew"16@"NSArray"24;
 - (_Bool)8@0:(id)arg1 8@"UICollectionView"16:(CDUnknownBlockType)arg2 24@"NSIndexPath"32@40;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)Class:(CDUnknownBlockType)arg1 orientation: /* Error: Ran out of types for this method. */;
-- (_Bool)ngesSaved: /* Error: Ran out of types for this method. */;
-- (id)p: /* Error: Ran out of types for this method. */;
+- (_Bool)sectionWithListConfiguration:layoutEnvironment: /* Error: Ran out of types for this method. */;
+- (_Bool)saveTemporaryViews;
+- (void)defaultHeightForSizeClass:(CDUnknownBlockType)arg1 orientation: /* Error: Ran out of types for this method. */;
+- (_Bool)calendarEditItem:shareesChanged:changesSaved: /* Error: Ran out of types for this method. */;
+- (id)_doubleTap: /* Error: Ran out of types for this method. */;
 - (double)oreOnAppearence;
 - (double)LocationRowModel",&,N,V_locationViewModel;
 - (void)V_location;
-- (long long)te;
+- (long long)EKEventDetailTextCellDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
-@property(readonly, nonatomic) UIView *containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 
 @end
 

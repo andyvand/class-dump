@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface HAPKeychainItem
 {
     _Bool _syncable;
-    _Bool _invisible;
-    NSString *_accessGroup;
-    NSNumber *_type;
-    NSString *_account;
-    NSData *_valueData;
-    NSString *_label;
-    NSString *_itemDescription;
-    NSString *_viewHint;
-    NSDate *_creationDate;
-    NSData *_genericData;
-    void *_platformReference;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)ucbWithMean:varianceOfMean:explorationFactor: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)s;
 - (void *);
 - (id);
 - (id);
@@ -38,38 +27,26 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)a!@e;
+- (id)eIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/asn1/f_enum.c;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)(	;
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)UARPTLVPersonalizationLogicalUnitNumberOS;
 - (void);
 - (void)^?}16;
-- (id)Peripherals: /* Error: Ran out of types for this method. */;
+- (id)setRecentlySeenPairedPeripherals: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(retain, nonatomic) NSString *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSData *genericData; // @synthesize genericData=_genericData;
-@property(readonly, nonatomic, getter=isInvisible) _Bool invisible; // @synthesize invisible=_invisible;
-@property(retain, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) void *platformReference; // @synthesize platformReference=_platformReference;
-@property(readonly, copy, nonatomic) NSNumber *revision;
-@property(nonatomic, getter=isSyncable) _Bool syncable; // @synthesize syncable=_syncable;
-@property(retain, nonatomic) NSNumber *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSData *valueData; // @synthesize valueData=_valueData;
-@property(retain, nonatomic) NSString *viewHint; // @synthesize viewHint=_viewHint;
 
 @end
 

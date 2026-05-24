@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (void)tCSg;
+- (id)-keyboard;
+- (void)So8NSObjectCSg;
 
 @end
 

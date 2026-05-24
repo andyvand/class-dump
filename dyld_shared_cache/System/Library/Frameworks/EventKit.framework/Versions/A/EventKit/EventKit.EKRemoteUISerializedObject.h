@@ -9,19 +9,15 @@
 @interface EventKit.EKRemoteUISerializedObject
 {
     void serializedObjectIDDictionary;
-    void objectIDToChangeSetDictionaryMap;
-    void objectIDToPersistentDictionaryMap;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)Utility] unarchive failed with error:%@ /* Error: Ran out of types for this method. */;
+- (id)No handoff session handler found for player path:%@ /* Error: Ran out of types for this method. */;
+- (id)t find connection:%@ to handle invalidation /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *objectIDToChangeSetDictionaryMap;
-@property(nonatomic, readonly) NSDictionary *objectIDToPersistentDictionaryMap;
 @property(nonatomic, readonly) NSDictionary *serializedObjectIDDictionary;
 
 @end

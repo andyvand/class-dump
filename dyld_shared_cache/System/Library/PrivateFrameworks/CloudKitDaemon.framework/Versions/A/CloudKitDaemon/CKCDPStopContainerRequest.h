@@ -9,33 +9,29 @@
 @interface CKCDPStopContainerRequest
 {
     NSString *_containerName;
-    NSString *_environment;
 }
 
 - (_Bool);
 - (void);
 - (id);
+- (void)IDHistoryDecoder;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long), APSWrapperRef, APSenderSessionRef *);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool)@0:(id)arg1 8@"<ECMessage>"16B24;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)IDsToFetch: /* Error: Ran out of types for this method. */;
-- (Class)shFetchedRecordsToConsumerNoOrderingLocked;
-- (void)AssetsByFieldName;
+- (id)setRecordIDsToFetch: /* Error: Ran out of types for this method. */;
+- (Class)_flushFetchedRecordsToConsumerNoOrderingLocked;
+- (void)FailedAssetsByFieldName;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
 @property(readonly, nonatomic) _Bool hasContainerName;
-@property(readonly, nonatomic) _Bool hasEnvironment;
 
 @end
 

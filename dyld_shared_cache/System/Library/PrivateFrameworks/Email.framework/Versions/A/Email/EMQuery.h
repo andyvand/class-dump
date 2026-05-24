@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSArray, NSDictionary, NSPredicate, NSString;
-
 @interface EMQuery
 {
     struct EFAtomicObject _publicDescription;
-    Class _targetClass;
-    NSPredicate *_predicate;
-    NSArray *_sortDescriptors;
-    long long _limit;
-    unsigned long long _queryOptions;
-    NSDictionary *_targetClassOptions;
-    NSString *_label;
-    CSSuggestion *_suggestion;
 }
 
 + (void);
@@ -24,11 +14,11 @@
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ugCSzycZZGvpxZ9wI2FWDByvH0oCeGYOVRo/Library/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/stubs/common.cc;
+- (id)er.;
+- (id)N6google8protobuf8internal12MapEntryLiteIN4siri12dialogengine19PatternSchemaBinary28MapValue_ValueEntry_DoNotUseENSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS5_31VisualComponentsCombinationListELNS1_14WireFormatLite9FieldTypeE9ELSG_11ELi0EEE;
+- (id) (2.SnippetUI.Control_SliderH;
+- (void)h;
 - (id);
 - (id);
 - (id);
@@ -41,7 +31,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)2;
 - (unsigned long long);
 - (void);
 - (id);
@@ -49,10 +39,10 @@
 - (id);
 - (void);
 - (id);
+- (void)group;
+- (long long);
 - (void);
-- (long long);
-- (void);
-- (id);
+- (id)type;
 - (void);
 - (id);
 - (void);
@@ -61,26 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long limit; // @synthesize limit=_limit;
-@property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) unsigned long long queryOptions; // @synthesize queryOptions=_queryOptions;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(copy, nonatomic) CSSuggestion *suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) Class targetClass; // @synthesize targetClass=_targetClass;
-@property(copy, nonatomic) NSDictionary *targetClassOptions; // @synthesize targetClassOptions=_targetClassOptions;
 
 @end
 

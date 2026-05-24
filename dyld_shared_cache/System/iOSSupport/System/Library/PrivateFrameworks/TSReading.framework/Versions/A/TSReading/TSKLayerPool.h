@@ -9,21 +9,18 @@
 @interface TSKLayerPool
 {
     NSMutableArray *mLayerPool;
-    Class mLayerClass;
-    id mLayerDelegate;
 }
 
+- (void)time:(id)arg1;
+- (void)er - Saving playback resume time:(Class)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)ckController - playbackDidStart: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (Class);
 - (id);
 
 // Remaining properties
-@property(nonatomic) Class layerClass; // @synthesize layerClass=mLayerClass;
 @property(nonatomic) id layerDelegate; // @synthesize layerDelegate=mLayerDelegate;
 
 @end

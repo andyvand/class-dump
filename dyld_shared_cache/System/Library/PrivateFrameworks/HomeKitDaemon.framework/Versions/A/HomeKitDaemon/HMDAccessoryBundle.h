@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMFObject;
+@class HMDHAPAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBundle
 {
     HMDHAPAccessory *accessory;
-    HMFObject *context;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)WithCountNotStartedAndEndedAtHome:(id)arg1 countStartedAndEndedAtHome:durationBetweenInitialETAAndActualArrivalTime:durationBetweenStartingComingHomeAndActualArrivalTime:countStartedAndEndedNotAtHome:durationBetweenStartingComingHomeAndCancellingComingHome:durationBetweenCancellingComingHomeAndEstimatedArrivalTime:countEndDateUpdated:countPausedNotMakingProgress:durationBetweenStartingComingHomeAndPausingComingHome:durationBetweenPausingComingHomeAndEstimatedArrivalTime:countResumedAfterPaused: /* Error: Ran out of types for this method. */;
+- (void)initWithCountNotStartedAndEndedAtHome:(id)arg1 countStartedAndEndedAtHome:durationBetweenInitialETAAndActualArrivalTime:durationBetweenStartingComingHomeAndActualArrivalTime:countStartedAndEndedNotAtHome:durationBetweenStartingComingHomeAndCancellingComingHome:durationBetweenCancellingComingHomeAndEstimatedArrivalTime:countEndDateUpdated:countPausedNotMakingProgress:durationBetweenStartingComingHomeAndPausingComingHome:durationBetweenPausingComingHomeAndEstimatedArrivalTime:countResumedAfterPaused: /* Error: Ran out of types for this method. */;
 - (void)j=;
 
 // Remaining properties
 @property(retain, nonatomic) HMDHAPAccessory *accessory; // @synthesize accessory;
-@property(retain, nonatomic) HMFObject *context; // @synthesize context;
 
 @end
 

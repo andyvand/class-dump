@@ -5,5 +5,8 @@
 //
 
 @protocol PLMediaProcessingAlgorithmVersionProvider
+- (short);
+- (short))A;
+- (short)removeMonitor: /* Error: Ran out of types for this method. */;
 @end
 

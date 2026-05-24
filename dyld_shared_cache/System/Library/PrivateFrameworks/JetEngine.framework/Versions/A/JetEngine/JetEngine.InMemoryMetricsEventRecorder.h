@@ -7,8 +7,6 @@
 @interface JetEngine.InMemoryMetricsEventRecorder
 {
     id historySize;
-    id events;
-    id onEventRecorded;
 }
 
 @end

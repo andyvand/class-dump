@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFKitTextViewPrivate;
+@class PDFKitTextViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFKitTextView
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)P;
+- (void)chat_service_on_insert_chat_message_join;
 - (void);
 - (void);
 - (void);
@@ -47,13 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)Range=QQ}24@40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

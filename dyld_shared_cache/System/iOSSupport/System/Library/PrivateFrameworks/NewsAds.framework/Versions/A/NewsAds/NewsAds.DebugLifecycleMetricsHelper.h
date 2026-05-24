@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)engagementCohortsExpField;
 - (void);
 - (void);
 - (void);

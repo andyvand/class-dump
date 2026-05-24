@@ -6,28 +6,19 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class CNCancelationToken;
-@protocol CNScheduler;
-
 @interface _CNGeneratorObservable : CNObservable
 {
     id _state;
-    CDUnknownBlockType _condition;
-    CDUnknownBlockType _nextState;
-    CDUnknownBlockType _resultSelector;
-    CDUnknownBlockType _delay;
-    id <CNScheduler> _scheduler;
-    CNCancelationToken *_cancelable;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)= 5 || bitsPerComponent == 8;
 - (_Bool);
+- (id)newStringFrom:(id)arg1 usingUnicodeTransforms:(CDUnknownBlockType)arg2;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 
 @end

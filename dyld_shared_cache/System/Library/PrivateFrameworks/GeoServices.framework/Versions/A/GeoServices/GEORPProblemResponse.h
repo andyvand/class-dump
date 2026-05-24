@@ -9,22 +9,16 @@
 @interface GEORPProblemResponse
 {
     NSString *_problemId;
-    int _statusCode;
-    _Bool _isNotificationSupported;
-    struct {
-        unsigned int has_statusCode:1;
-        unsigned int has_isNotificationSupported:1;
-    } _flags;
 }
 
-+ (_Bool)ine:(id)arg1;
++ (_Bool)setLine:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)dateComponentsFromGMTDate: /* Error: Ran out of types for this method. */;
+- (_Bool)f;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,26 +27,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)setVoiceTriggerFirstPassRemora:(id)arg1;
+- (unsigned long long);
+- (_Bool)\@9	;
 - (_Bool);
 - (void);
 - (id)ead_userEmail"b1"wrote_anyField"b1};
-- (id)letion;
+- (id)completion;
 - (id)¨L;
-- (id)ta;
+- (id)query_spell_correction_metadata;
 - (void)REñ*ÙO@;
 - (int)½ÿ;
 - (void)·w5;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsNotificationSupported;
-@property(readonly, nonatomic) _Bool hasProblemId;
 @property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) _Bool isNotificationSupported;
-@property(retain, nonatomic) NSString *problemId;
-@property(nonatomic) int statusCode;
 
 @end
 

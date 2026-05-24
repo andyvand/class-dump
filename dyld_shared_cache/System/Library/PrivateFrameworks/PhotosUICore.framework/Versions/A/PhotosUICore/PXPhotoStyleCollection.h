@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PXPhotoStyleCollection
 {
     id id;
-    void name;
-    void elements;
-    id _selectedIndex;
-    id observable;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void)init];
 - (void)ÕN¦: /* Error: Ran out of types for this method. */;
 - (id)(~=;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, copy) NSArray *elements;
 @property(nonatomic, readonly) NSString *name;
 
 @end

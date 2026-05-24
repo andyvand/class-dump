@@ -7,7 +7,6 @@
 @interface PromotedContent.CompositeODTrackingMetadata
 {
     id representations;
-    id impressionId;
 }
 
 @end

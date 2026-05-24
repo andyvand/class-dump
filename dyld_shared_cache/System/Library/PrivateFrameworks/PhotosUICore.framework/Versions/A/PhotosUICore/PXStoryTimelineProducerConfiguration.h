@@ -5,43 +5,28 @@
 //
 
 @class PXStoryResourcesDataSource;
-@protocol PXStoryErrorReporter, PXStoryLoadingCoordinator, PXStoryStyle, PXStoryTimelineSpec;
 
 @interface PXStoryTimelineProducerConfiguration
 {
     PXStoryResourcesDataSource *_resourcesDataSource;
-    id <PXStoryStyle> _style;
-    id <PXStoryTimelineSpec> _spec;
-    unsigned long long _options;
-    id <PXStoryLoadingCoordinator> _loadingCoordinator;
-    id <PXStoryErrorReporter> _errorReporter;
-    CDUnknownBlockType _scorerFactory;
-    struct _NSRange _rangeOfPrioritizedDisplayAssetResources;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
+- (id);
+- (id);
+- (id);
+- (id)/;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)phaseInSublayerForKey: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(readonly, nonatomic) id <PXStoryLoadingCoordinator> loadingCoordinator; // @synthesize loadingCoordinator=_loadingCoordinator;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) struct _NSRange rangeOfPrioritizedDisplayAssetResources; // @synthesize rangeOfPrioritizedDisplayAssetResources=_rangeOfPrioritizedDisplayAssetResources;
 @property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
-@property(copy, nonatomic) CDUnknownBlockType scorerFactory; // @synthesize scorerFactory=_scorerFactory;
-@property(readonly, nonatomic) id <PXStoryTimelineSpec> spec; // @synthesize spec=_spec;
-@property(readonly, nonatomic) id <PXStoryStyle> style; // @synthesize style=_style;
 
 @end
 

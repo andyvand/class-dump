@@ -7,12 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBStoreButtonItem
+- (void);
+- (NSData *)Capture;
+- (id);;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) int identifierType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldOpenAppAfterInstallCompletes;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

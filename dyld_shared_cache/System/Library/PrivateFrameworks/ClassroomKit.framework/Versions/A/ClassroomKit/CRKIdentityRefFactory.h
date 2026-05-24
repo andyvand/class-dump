@@ -11,17 +11,17 @@
     CRKIdentityConfiguration *_configuration;
 }
 
-- (void);
+- (void);
 - (struct __SecIdentity *);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (const void *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)empts: /* Error: Ran out of types for this method. */;
+- (id)setMaxConnectionAttempts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CRKIdentityConfiguration *configuration; // @synthesize configuration=_configuration;

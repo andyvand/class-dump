@@ -9,30 +9,29 @@
 @interface _NSDisplayOperationStack
 {
     NSMutableArray *_stack;
-    _Bool _threadIsViewDrawOperationThread;
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
++ (id)encodeBool:forKey: /* Error: Ran out of types for this method. */;
 + (void)Eb,ðG;
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (void)ifications yet;
+- (void);
+- (void)do not match!;
+- (id)s:(id)arg1 %s;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)h,;
 - (_Bool);
 - (void);
 - (id);

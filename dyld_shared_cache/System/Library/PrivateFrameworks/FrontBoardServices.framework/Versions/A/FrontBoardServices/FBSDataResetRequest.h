@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSDataResetRequest
 {
     long long _mode;
-    long long _options;
-    NSString *_reason;
 }
 
 - (id);
@@ -24,8 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

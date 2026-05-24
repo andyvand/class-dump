@@ -6,19 +6,15 @@
 
 #import <DifferentialPrivacy/_DPOBHRecord.h>
 
-@class NSString;
-
 @interface _DPOBHSequenceRecord : _DPOBHRecord
 {
     _Bool _sequenceBitValue;
-    long long _sequenceBitPosition;
-    NSString *_plainSequence;
 }
 
-+ (id);
++ (id)1L;
 + (id)0@ù
 × ;
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -29,12 +25,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *plainSequence; // @synthesize plainSequence=_plainSequence;
 @property(nonatomic) long long sequenceBitPosition; // @synthesize sequenceBitPosition=_sequenceBitPosition;
-@property(nonatomic) _Bool sequenceBitValue; // @synthesize sequenceBitValue=_sequenceBitValue;
 
 @end
 

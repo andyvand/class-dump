@@ -6,31 +6,25 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNRemoveBackgroundRequest : VNImageBasedRequest
 {
 }
 
-+ (Class);
++ (Class)pletionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 + (const CDStruct_3a02d5a8 *);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id)ntainer with identifier %{public}s for %{public}s app;
+- (void)ttl;
 - (_Bool);
 - (id)TÄr±ÿµz§T´r±ÿ¥z§Tr±ÿ;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool cropResult;
-@property(nonatomic) _Bool performInPlace;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(nonatomic) _Bool returnMask;
 @property(nonatomic) _Bool usesCPUOnly; // @dynamic usesCPUOnly;
 
 @end

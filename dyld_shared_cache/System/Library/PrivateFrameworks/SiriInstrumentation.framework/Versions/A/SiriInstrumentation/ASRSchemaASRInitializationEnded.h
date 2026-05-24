@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRInitializationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    _Bool _compilationDone;
-    _Bool _isSpeechRecognizerCreated;
-    struct {
-        unsigned int exists:1;
-        unsigned int compilationDone:1;
-        unsigned int isSpeechRecognizerCreated:1;
-    } _has;
 }
 
 - (void);
@@ -37,8 +28,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)mpInNs;
+- (id)__auth_stubs;
+- (id)startLogicalTimestampInNs;
 - (id)<®@±`²;
 - (id);
 - (_Bool)¿;
@@ -46,13 +37,7 @@
 - (void)-;
 
 // Remaining properties
-@property(nonatomic) _Bool compilationDone; // @synthesize compilationDone=_compilationDone;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasCompilationDone;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasIsSpeechRecognizerCreated;
-@property(nonatomic) _Bool isSpeechRecognizerCreated; // @synthesize isSpeechRecognizerCreated=_isSpeechRecognizerCreated;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

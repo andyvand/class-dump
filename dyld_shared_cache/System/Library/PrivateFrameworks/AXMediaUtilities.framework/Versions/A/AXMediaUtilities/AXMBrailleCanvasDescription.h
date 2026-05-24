@@ -7,46 +7,30 @@
 @interface AXMBrailleCanvasDescription
 {
     _Bool _hasConsistentHorizontalPinSpacing;
-    _Bool _hasConsistentVerticalPinSpacing;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _numberOfDiscretePinHeights;
-    double _verticalPinSpacing;
-    double _horizontalPinSpacing;
-    double _interCellHorizontalSpacing;
-    double _interCellVerticalSpacing;
 }
 
-+ (_Bool);
++ (_Bool)extSessionGuid;
+- (double){;
+- (void);
+- (void);
+- (void);
+- (void)\|;
+- (void)\|;
+- (void);
+- (unsigned long long)|;
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (double);
-- (double);
+- (double)[|;
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)@@;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasConsistentHorizontalPinSpacing; // @synthesize hasConsistentHorizontalPinSpacing=_hasConsistentHorizontalPinSpacing;
-@property(nonatomic) _Bool hasConsistentVerticalPinSpacing; // @synthesize hasConsistentVerticalPinSpacing=_hasConsistentVerticalPinSpacing;
-@property(readonly) unsigned long long height; // @synthesize height=_height;
-@property(nonatomic) double horizontalPinSpacing; // @synthesize horizontalPinSpacing=_horizontalPinSpacing;
-@property(nonatomic) double interCellHorizontalSpacing; // @synthesize interCellHorizontalSpacing=_interCellHorizontalSpacing;
-@property(nonatomic) double interCellVerticalSpacing; // @synthesize interCellVerticalSpacing=_interCellVerticalSpacing;
-@property(readonly) unsigned long long numberOfDiscretePinHeights; // @synthesize numberOfDiscretePinHeights=_numberOfDiscretePinHeights;
-@property(nonatomic) double verticalPinSpacing; // @synthesize verticalPinSpacing=_verticalPinSpacing;
 @property(readonly) unsigned long long width; // @synthesize width=_width;
 
 @end

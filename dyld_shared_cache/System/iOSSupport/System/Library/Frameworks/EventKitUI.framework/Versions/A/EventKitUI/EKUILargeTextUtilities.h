@@ -9,7 +9,7 @@
 }
 
 + (double);
-+ (double);
++ (double)`z_`;
 + (double);
 + (double);
 + (void);

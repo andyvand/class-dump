@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (void)1Â0@ù
 × ;
 - (_Bool)Að!¨@ùÑb°1Â0@ù
@@ -26,18 +26,11 @@ __attribute__((visibility("hidden")))
 - (int)qg°1Â0@ù
 × ;
 - (_Bool)sabled"b1"allowDisablingNavigationBarHiding"b1"showsResultsForEmptyField"b1"searchBarCanBeHoisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
-- (_Bool)tion:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_prepareEffectForActiveConfigurationAtLocation:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)ÿ0;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeSuspended;
-@property(retain, nonatomic) id <UIDropSession> dropSession; // @synthesize dropSession=_dropSession;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isDragging;
-@property(readonly, nonatomic) _Bool isReordering;
-@property(readonly, nonatomic) _Bool isSuspended;
-@property(readonly, nonatomic) _Bool isWaitingForResume;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

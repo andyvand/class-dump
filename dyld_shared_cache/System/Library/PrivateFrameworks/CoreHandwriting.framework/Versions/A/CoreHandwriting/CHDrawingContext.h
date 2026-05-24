@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHClassifiableDrawing;
-
 @interface CHDrawingContext
 {
     unsigned long long _edgeIndex;
-    long long _numberOfSubstrokes;
-    long long _numberOfSegments;
-    CHClassifiableDrawing *_classifiableDrawing;
-    set_f8fc641a _strokeGroup;
 }
 
-- (set_f8fc641a);
+- (set_ebe48671);
 - (long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)didRevealDownloadWithMIMEType:uti:result: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)àè;
 
 // Remaining properties
-@property(readonly, nonatomic) CHClassifiableDrawing *classifiableDrawing; // @synthesize classifiableDrawing=_classifiableDrawing;
 @property(readonly, nonatomic) unsigned long long edgeIndex; // @synthesize edgeIndex=_edgeIndex;
-@property(readonly, nonatomic) long long numberOfSegments; // @synthesize numberOfSegments=_numberOfSegments;
-@property(readonly, nonatomic) long long numberOfSubstrokes; // @synthesize numberOfSubstrokes=_numberOfSubstrokes;
-@property(readonly, nonatomic) set_f8fc641a strokeGroup; // @synthesize strokeGroup=_strokeGroup;
 
 @end
 

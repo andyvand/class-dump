@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLService, PLXPCListenerOperatorComposition;
+@class PLService;
 
 @interface PLDuetServiceDAS
 {
     PLService *_duetService;
-    PLXPCListenerOperatorComposition *_dasActivityEventListener;
-    PLXPCListenerOperatorComposition *_dasActivityLifecycleEventListener;
-    PLXPCListenerOperatorComposition *_dasInfoEventListener;
-    PLXPCListenerOperatorComposition *_dasPredictionEventListener;
-    PLXPCListenerOperatorComposition *_dasBudgetEventListener;
-    PLXPCListenerOperatorComposition *_dasDataBudgetEventListener;
-    PLXPCListenerOperatorComposition *_dasEnergyReportEventListener;
-    PLXPCListenerOperatorComposition *_dasPoliciesBlockingCriteriaEventListener;
-    PLXPCListenerOperatorComposition *_dasTrialEventListener;
 }
 
 + (id);
@@ -29,23 +20,23 @@
 + (id);
 + (id);
 + (id);
-+ (id)tatus;
-+ (id)tions;
++ (id)Img4DecodeStatus;
++ (id)OPTICAL_POWER_SC2_17_Transitions;
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)!;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (void)u;
+- (void))o;
 - (id);
 - (void);
 - (void);
@@ -53,8 +44,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)incazzerebbe;
+- (void)9	;
 - (void);
 - (id);
 - (void);
@@ -66,15 +57,6 @@
 - (void)¬¨`ª­Ø­ì²h³;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *dasActivityEventListener; // @synthesize dasActivityEventListener=_dasActivityEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasActivityLifecycleEventListener; // @synthesize dasActivityLifecycleEventListener=_dasActivityLifecycleEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasBudgetEventListener; // @synthesize dasBudgetEventListener=_dasBudgetEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasDataBudgetEventListener; // @synthesize dasDataBudgetEventListener=_dasDataBudgetEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasEnergyReportEventListener; // @synthesize dasEnergyReportEventListener=_dasEnergyReportEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasInfoEventListener; // @synthesize dasInfoEventListener=_dasInfoEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasPoliciesBlockingCriteriaEventListener; // @synthesize dasPoliciesBlockingCriteriaEventListener=_dasPoliciesBlockingCriteriaEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasPredictionEventListener; // @synthesize dasPredictionEventListener=_dasPredictionEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dasTrialEventListener; // @synthesize dasTrialEventListener=_dasTrialEventListener;
 @property __weak PLService *duetService; // @synthesize duetService=_duetService;
 
 @end

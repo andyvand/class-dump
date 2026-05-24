@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSArray, NSData;
+@class AFBBufRef, NSArray;
 
 @interface _CHSRelevanceCacheBuf
 {
     AFBBufRef *_br;
-    const struct RelevanceCacheBuf *_ptr;
 }
 
 - (_Bool);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *archivedObjects;
-@property(readonly, nonatomic) NSData *archivedObjectsAsData;
-@property(readonly, nonatomic) NSArray *groups;
 
 @end
 

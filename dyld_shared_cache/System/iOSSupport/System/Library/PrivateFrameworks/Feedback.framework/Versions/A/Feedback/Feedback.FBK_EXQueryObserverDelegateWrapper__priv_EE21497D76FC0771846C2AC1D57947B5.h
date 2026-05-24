@@ -8,8 +8,6 @@
 {
     id controller;
     id hostViewController;
-    id extensionKitHostViewControllerDelegate;
-    id isBeginningHosting;
 }
 
 - (void);

@@ -4,57 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSIndexPath, NSView;
-
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarCustomizationDragRecord
 {
     id _draggedItem;
-    struct CGPoint _originalLocation;
-    struct CGPoint _dragLocation;
-    NSView *_coordinateSpace;
-    long long _dragType;
-    struct CGPoint _anchorPoint;
-    struct CGSize _backupDragSize;
-    NSArray *_replacedItems;
-    NSDate *_startTime;
-    NSIndexPath *_postReplacementInsertionIndexPath;
-    _Bool _pending;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (struct CGPoint);
+- (void)o access device tree;
+- (id)_AMFDRDecodeGetPayloadSeqAndSetManifestFromMultiCombinedData;
+- (id)key (0x%X):%@ from %@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)GraphicsFeatureSetClass;
 - (id);
 - (id);
 - (long long);
 - (struct CGPoint);
 - (struct CGSize);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void)nt=dd}{CGSize=dd}}32^Q40;
-- (_Bool)iseAmbiguityInLayout;
+- (_Bool)exerciseAmbiguityInLayout;
 - (struct CGPoint);
 - (void)om.microsoft.SkypeForBusiness;
 
 // Remaining properties
-@property(readonly) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property struct CGSize backupDragSize; // @synthesize backupDragSize=_backupDragSize;
-@property(readonly) __weak NSView *coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
 @property struct CGPoint dragLocation; // @synthesize dragLocation=_dragLocation;
-@property(readonly) long long dragType; // @synthesize dragType=_dragType;
-@property(readonly) id draggedItem; // @synthesize draggedItem=_draggedItem;
-@property(readonly) struct CGPoint originalLocation; // @synthesize originalLocation=_originalLocation;
-@property(getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(copy) NSIndexPath *postReplacementInsertionIndexPath; // @synthesize postReplacementInsertionIndexPath=_postReplacementInsertionIndexPath;
-@property(copy) NSArray *replacedItems; // @synthesize replacedItems=_replacedItems;
-@property(readonly, copy) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

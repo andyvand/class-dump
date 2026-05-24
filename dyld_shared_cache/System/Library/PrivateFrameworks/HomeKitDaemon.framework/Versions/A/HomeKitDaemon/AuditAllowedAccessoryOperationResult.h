@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface AuditAllowedAccessoryOperationResult
 {
     _Bool _credentialsRemoved;
-    _Bool _shouldReschedule;
-    NSError *_error;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property _Bool credentialsRemoved; // @synthesize credentialsRemoved=_credentialsRemoved;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool shouldReschedule; // @synthesize shouldReschedule=_shouldReschedule;
 
 @end
 

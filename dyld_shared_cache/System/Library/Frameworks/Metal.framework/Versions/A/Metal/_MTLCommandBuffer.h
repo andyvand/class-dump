@@ -6,98 +6,24 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSArray, NSDictionary, NSError, NSMutableArray, NSMutableDictionary, NSString, _MTLCommandQueue;
-@protocol MTLBuffer, MTLCommandBuffer, MTLCommandEncoder, MTLCommandQueue, MTLDeadlineProfile, MTLLogState;
+@protocol MTLCommandEncoder;
 
 @interface _MTLCommandBuffer : _MTLObjectWithLabel
 {
     id <MTLCommandEncoder> _currentCommandEncoder;
-    _MTLCommandQueue<MTLCommandQueue> *_queue;
-    struct MTLDispatch *_scheduledDispatchList;
-    struct MTLDispatch *_scheduledDispatchListTail;
-    struct MTLDispatch *_completedDispatchList;
-    struct MTLDispatch *_completedDispatchListTail;
-    struct MTLSyncDispatch *_syncDispatchList;
-    struct MTLSyncDispatch *_syncDispatchListTail;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct _opaque_pthread_cond_t _completedCond;
-    struct _opaque_pthread_cond_t _scheduledCond;
-    unsigned long long _creationTime;
-    unsigned long long _enqueueTime;
-    unsigned long long _commitTime;
-    unsigned long long _submitToKernelTime;
-    unsigned long long _submitToHardwareTime;
-    unsigned long long _completionInterruptTime;
-    unsigned long long _completionHandlerEnqueueTime;
-    unsigned long long _completionHandlerExecutionTime;
-    unsigned long long _status;
-    NSError *_error;
-    _Bool _skipRender;
-    _Bool _profilingEnabled;
-    _Bool _scheduledCallbacksDone;
-    _Bool _completedCallbacksDone;
-    _Bool _strongObjectReferences;
-    NSDictionary *_profilingResults;
-    _Bool _retainedReferences;
-    _Bool _synchronousDebugMode;
-    NSMutableDictionary *_userDictionary;
-    unsigned long long _kernelStartTime;
-    unsigned long long _kernelEndTime;
-    unsigned long long _gpuStartTime;
-    unsigned long long _gpuEndTime;
-    unsigned long long _numEncoders;
-    unsigned long long _numThisCommandBuffer;
-    unsigned long long _listIndex;
-    unsigned long long _numRequestedCounters;
-    unsigned long long _numInternalSampleCounters;
-    _MTLCommandBuffer<MTLCommandBuffer> *_statCommandBuffer;
-    struct os_unfair_lock_s _sampleLock;
-    _Bool _ownedByParallelEncoder;
-    _Bool _wakeOnCommit;
-    NSMutableArray *_retainedObjects;
-    _Bool _needsCommandBufferSemaphoreSignal;
-    unsigned long long _globalTraceObjectID;
-    id <MTLBuffer> _privateData;
-    unsigned long long _privateDataOffset;
-    id <MTLBuffer> _privateLoggingBuffer;
-    id <MTLLogState> _logState;
-    unsigned long long _labelTraceID;
-    _Bool _StatEnabled;
-    CDUnknownBlockType _perfSampleHandlerBlock;
-    unsigned long long _StatOptions;
-    unsigned long long _StatLocations;
-    unsigned long long _samplesPerStorageBlock;
-    unsigned long long _totalNumStatSamples;
-    NSMutableArray *_sampleStorage;
-    struct MTLStatSampleRec *_samples;
-    struct MTLStatSampleRec *_currentSample;
-    unsigned long long _internalCounterSampleSize;
-    _Bool _hasPresent;
-    id <MTLBuffer> _progressBuffer;
-    unsigned int _progressOffset;
-    _Bool _creatingProgressEncoder;
-    _Bool _needsFrameworkAssistedErrorTracking;
-    NSMutableArray *_encoderInfos;
-    _Bool _sharedIndirectionTable;
-    id <MTLDeadlineProfile> _deadlineProfile;
-    NSArray *_logs;
-    unsigned long long _numPresentWaits;
-    _Bool _requiresBindingLogState;
-    _Bool _didComplete;
-    struct MTLDispatch *_swiftConcurrencyScheduledWaiters;
-    struct MTLDispatch *_swiftConcurrencyScheduledWaitersTail;
-    struct MTLDispatch *_swiftConcurrencyCompletedWaiters;
-    struct MTLDispatch *_swiftConcurrencyCompletedWaitersTail;
-    unsigned long long _errorOptions;
 }
 
 + (void)ndler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)tor not loaded;
+- (id)erDestination:(unsigned long long)arg1 width:(CDUnion_c6e49ed4 *)arg2 height:(unsigned long long)arg3 format:colorspace:] /* Error: Ran out of types for this method. */;
+- (_Bool), 1.0);
+  interpolant = ((3.0 - (2.0 * interpolant)) * interpolant) * interpolant;
+  return compare(vec4(dist1 - (hw - 1.0)), color, compare(vec4(dist1 - hw), color * interpolant, vec4(0.0))) * opacity;
+}
+;
+- (id)face1ChinX;
 - (double);
 - (void);
 - (_Bool);
@@ -119,7 +45,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)er.cpp;
 - (id);
 - (void);
 - (unsigned long long);
@@ -132,7 +58,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -142,8 +68,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)******* client log file path is %@ *********;
+- (void)dth for a truncated menu title; firstTruncatedMenuIndex = %d
+;
 - (id);
 - (void);
 - (void);
@@ -163,12 +90,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (double);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)H;
+- (id)002700310033;
 - (id);
 - (void);
 - (void);
@@ -179,13 +106,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)/;
+- (_Bool)rPlayManager creation result:%d /* Error: Ran out of types for this method. */;
+- (id)TimeSyncClockGetClockRateAnchorsAndGrandmasterIdentity;
 - (void);
 - (void);
 - (void);
@@ -203,10 +130,10 @@
 - (void);
 - (void)!ðAùÑs01Â0@ù
 × ;
-- (void)urces:(id)arg1;
+- (void)newGeometryBufferWithGeometryDescriptors:(id)arg1 retainedResources: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)Half3;
 - (id)newComputePipelineStateWithAdditionalBinaryFunctions:error:] /* Error: Ran out of types for this method. */;
 - (void)yEntry"16^B24;
 - (id);
@@ -214,36 +141,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double GPUEndTime;
-@property(readonly, nonatomic) double GPUStartTime;
-@property(nonatomic, getter=isStatEnabled) _Bool StatEnabled; // @synthesize StatEnabled=_StatEnabled;
-@property(nonatomic, getter=getStatLocations) unsigned long long StatLocations; // @synthesize StatLocations=_StatLocations;
-@property(nonatomic, getter=getStatOptions) unsigned long long StatOptions; // @synthesize StatOptions=_StatOptions;
-@property(readonly) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_queue;
-@property(readonly, retain) id <MTLDeadlineProfile> deadlineProfile; // @synthesize deadlineProfile=_deadlineProfile;
-@property(readonly) NSError *error;
-@property(nonatomic) unsigned long long errorOptions; // @synthesize errorOptions=_errorOptions;
-@property(readonly) unsigned long long globalTraceObjectID; // @synthesize globalTraceObjectID=_globalTraceObjectID;
-@property(nonatomic) unsigned long long internalCounterSampleSize; // @synthesize internalCounterSampleSize=_internalCounterSampleSize;
-@property(readonly, nonatomic) double kernelEndTime;
-@property(readonly, nonatomic) double kernelStartTime;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly, nonatomic, getter=getListIndex) unsigned long long listIndex; // @synthesize listIndex=_listIndex;
-@property(retain, nonatomic) NSArray *logs;
-@property(nonatomic) unsigned long long numEncoders; // @synthesize numEncoders=_numEncoders;
-@property(nonatomic) unsigned long long numThisCommandBuffer; // @synthesize numThisCommandBuffer=_numThisCommandBuffer;
-@property(nonatomic) _Bool ownedByParallelEncoder; // @synthesize ownedByParallelEncoder=_ownedByParallelEncoder;
-@property(retain, nonatomic) id <MTLBuffer> privateData; // @synthesize privateData=_privateData;
-@property(nonatomic) unsigned long long privateDataOffset; // @synthesize privateDataOffset=_privateDataOffset;
-@property(nonatomic) id <MTLBuffer> privateLoggingBuffer; // @synthesize privateLoggingBuffer=_privateLoggingBuffer;
-@property(getter=isProfilingEnabled) _Bool profilingEnabled;
-@property(readonly) NSDictionary *profilingResults;
 @property(readonly) _Bool retainedReferences; // @synthesize retainedReferences=_retainedReferences;
-@property(nonatomic) _Bool sharedIndirectionTable; // @synthesize sharedIndirectionTable=_sharedIndirectionTable;
-@property(nonatomic) _MTLCommandBuffer<MTLCommandBuffer> *statCommandBuffer; // @synthesize statCommandBuffer=_statCommandBuffer;
-@property(readonly) unsigned long long status; // @synthesize status=_status;
-@property(readonly) _Bool synchronousDebugMode; // @synthesize synchronousDebugMode=_synchronousDebugMode;
-@property(readonly, nonatomic) NSMutableDictionary *userDictionary;
 
 @end
 

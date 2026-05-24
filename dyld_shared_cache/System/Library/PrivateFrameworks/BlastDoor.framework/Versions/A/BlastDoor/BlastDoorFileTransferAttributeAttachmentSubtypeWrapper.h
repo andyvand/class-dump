@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorAudioMessageAttachmentInfo, BlastDoorEmojiImageAttachmentInfo, BlastDoorGeneralAttachmentInfo, BlastDoorLivePhotoAttachmentInfo, BlastDoorStickerAttachmentInfo, NSString;
+@class NSString;
 
 @interface BlastDoorFileTransferAttributeAttachmentSubtypeWrapper
 {
@@ -15,21 +15,15 @@
 - (id);
 - (id);
 - (id);
+- (id)essagesController _conversationLeft:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ed, result:%d /* Error: Ran out of types for this method. */;
 - (void)ñÉ
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorAudioMessageAttachmentInfo *audioMessage;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorEmojiImageAttachmentInfo *emojiImage;
-@property(nonatomic, readonly) BlastDoorLivePhotoAttachmentInfo *livePhoto;
-@property(nonatomic, readonly) BlastDoorStickerAttachmentInfo *sticker;
-@property(nonatomic, readonly) unsigned long long type;
-@property(nonatomic, readonly) BlastDoorGeneralAttachmentInfo *unspecified;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <Silex/SXOEmbedResponse.h>
 
-@class NSURL;
-
 @interface SXOEmbedPhotoResponse : SXOEmbedResponse
 {
 }
@@ -15,9 +13,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) double height; // @dynamic height;
-@property(readonly, nonatomic) struct CGSize size;
 @property(readonly, nonatomic) double width; // @dynamic width;
 
 @end

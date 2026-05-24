@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface AVAssetSegmentReport
 {
     long long _segmentType;
-    NSMutableArray *_trackReports;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long segmentType; // @synthesize segmentType=_segmentType;
-@property(readonly, nonatomic) NSArray *trackReports; // @synthesize trackReports=_trackReports;
 
 @end
 

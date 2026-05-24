@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)n.focus.items;
 + (void);
-- (id);
+- (id)HJ;
 
 @end
 

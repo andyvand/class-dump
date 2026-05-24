@@ -5,5 +5,7 @@
 //
 
 @protocol AXImageMonitor
+- (void);
+- (void)(;
 @end
 

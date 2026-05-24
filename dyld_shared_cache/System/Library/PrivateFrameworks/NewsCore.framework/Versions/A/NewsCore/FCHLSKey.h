@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface FCHLSKey
 {
     long long _method;
-    NSURL *_url;
-    NSString *_keyFormat;
-    NSString *_keyFormatVersions;
-    NSString *_iv;
 }
 
-- (id);
+- (id)!;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void)issue;
 
 @end

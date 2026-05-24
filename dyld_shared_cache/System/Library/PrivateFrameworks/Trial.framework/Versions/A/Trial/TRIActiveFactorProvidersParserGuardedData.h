@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface TRIActiveFactorProvidersParserGuardedData
 {
     NSDictionary *plplistLocal;
-    NSDictionary *plplistGlobal;
-    NSMutableDictionary *targetedRolloutDeploymentMap;
-    NSMutableDictionary *targetedExperimentFactorPackDeploymentMap;
-    NSMutableDictionary *overrideFactorPackDeploymentMap;
-    _Bool hasIssuedWarnings;
 }
 
 - (void);

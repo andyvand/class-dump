@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGColorBalanceFilter
 {
     CIImage *inputImage;
-    NSNumber *inputGrayColorIComp;
-    NSNumber *inputGrayColorQComp;
-    NSNumber *inputGrayLum;
-    NSNumber *inputStrength;
-    NSNumber *inputWarmth;
-    NSNumber *useProPhoto;
 }
 
 + (id);

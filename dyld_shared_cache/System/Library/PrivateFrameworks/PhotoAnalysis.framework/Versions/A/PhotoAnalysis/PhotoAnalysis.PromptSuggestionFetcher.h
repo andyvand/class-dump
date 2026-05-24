@@ -7,9 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionFetcher
 {
     id log;
-    id logger;
-    id configuration;
-    id embeddingCalculator;
 }
 
 @end

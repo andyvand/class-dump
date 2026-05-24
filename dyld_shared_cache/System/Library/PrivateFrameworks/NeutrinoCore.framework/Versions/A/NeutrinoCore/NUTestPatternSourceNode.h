@@ -6,21 +6,16 @@
 
 #import <NeutrinoCore/NUSourceNode.h>
 
-@class NUColorSpace;
-
 @interface NUTestPatternSourceNode : NUSourceNode
 {
     CDStruct_d58201db _size;
-    long long _orientation;
-    CDStruct_1e2b2e48 _scale;
-    NUColorSpace *_colorSpace;
 }
 
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)R;
 - (CDStruct_912cb5d2);
 - (id);
 - (id);

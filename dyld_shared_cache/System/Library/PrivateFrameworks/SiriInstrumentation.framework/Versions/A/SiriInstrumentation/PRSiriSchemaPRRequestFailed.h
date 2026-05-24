@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PRSiriSchemaPRRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)ted display ETA %@ | %@ | %@ | %@;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nstallApps/Metadata/ASDWatchAppMetadata.m:162 :Unsupported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)e;
+- (id)_siriInputLanguage;
 - (id)nabled;
-- (void)GE;
+- (void)MTINPUTSOURCE_IMAGE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -7,29 +7,21 @@
 @interface IMKUIProperties
 {
     double _candidateThickness;
-    long long _layoutDirection;
-    long long _layoutOrientation;
-    unsigned long long _truncationType;
-    long long _UIType;
 }
 
-- (unsigned long long);
+- (unsigned long long)Q�@93;
 - (void);
 - (void);
 - (void);
 - (double);
 - (long long);
 - (void);
-- (void)reSupplementalContentView;
+- (void)configureSupplementalContentView;
 - (long long)orByCharacterCount:%{public}ld. Actually moved %{private}ld /* Error: Ran out of types for this method. */;
 - (long long) ~;
 
 // Remaining properties
-@property long long UIType; // @synthesize UIType=_UIType;
 @property double candidateThickness; // @synthesize candidateThickness=_candidateThickness;
-@property long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property unsigned long long truncationType; // @synthesize truncationType=_truncationType;
 
 @end
 

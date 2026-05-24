@@ -9,26 +9,24 @@
 @interface NSRangeSpecifier : NSScriptObjectSpecifier
 {
     NSScriptObjectSpecifier *_startSpec;
-    NSScriptObjectSpecifier *_endSpec;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (_Bool)`";
+- (id);
+- (void)(2;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSScriptObjectSpecifier *endSpecifier;
 @property(retain) NSScriptObjectSpecifier *startSpecifier;
 
 @end

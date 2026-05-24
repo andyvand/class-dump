@@ -7,9 +7,6 @@
 @interface SafariCore.WBSWebsitePasskeyAvailabilityManager
 {
     id websiteMetadataStore;
-    id websitePasskeyEndpointsService;
-    id batchSize;
-    id refreshInterval;
 }
 
 @end

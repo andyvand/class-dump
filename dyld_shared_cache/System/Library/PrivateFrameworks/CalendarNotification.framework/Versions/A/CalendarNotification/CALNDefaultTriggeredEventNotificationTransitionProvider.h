@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CALNTravelAdvisoryAuthority, CalDateProvider;
+@protocol CALNTravelAdvisoryAuthority;
 
 @interface CALNDefaultTriggeredEventNotificationTransitionProvider
 {
     id <CALNTravelAdvisoryAuthority> _travelAdvisoryAuthority;
-    id <CalDateProvider> _dateProvider;
 }
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -28,14 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CalDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <CALNTravelAdvisoryAuthority> travelAdvisoryAuthority; // @synthesize travelAdvisoryAuthority=_travelAdvisoryAuthority;
 
 @end

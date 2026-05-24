@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterAccessoryPairingEndContext
 {
     _Bool _isCancelled;
-    NSNumber *_step;
-    NSError *_error;
-    NSString *_sourceErrorDomain;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)sport type;
 - (id);
 - (id)haracteristics value updated notification:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 - (id)`b=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) NSString *sourceErrorDomain; // @synthesize sourceErrorDomain=_sourceErrorDomain;
 @property(readonly, nonatomic) NSNumber *step; // @synthesize step=_step;
 
 @end

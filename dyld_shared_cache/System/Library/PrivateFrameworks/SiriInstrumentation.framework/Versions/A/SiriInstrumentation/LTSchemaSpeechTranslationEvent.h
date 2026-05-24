@@ -6,38 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LTSchemaError, LTSchemaTask, NSData, NSString;
+@class LTSchemaTask;
 
 @interface LTSchemaSpeechTranslationEvent : SISchemaInstrumentationMessage
 {
     LTSchemaTask *_task;
-    NSString *_sessionID;
-    NSString *_requestID;
-    _Bool _inRestrictedMode;
-    _Bool _isAutomaticLID;
-    LTSchemaError *_error;
-    int _uiMode;
-    NSString *_mobileAssetConfigVersion;
-    unsigned int _timeToFirstPartialDisplayed;
-    unsigned int _timeToRecordingDialogDismissed;
-    unsigned int _timeToShowTranslationCard;
-    unsigned int _timeToCancel;
-    int _status;
-    struct {
-        unsigned int inRestrictedMode:1;
-        unsigned int isAutomaticLID:1;
-        unsigned int uiMode:1;
-        unsigned int timeToFirstPartialDisplayed:1;
-        unsigned int timeToRecordingDialogDismissed:1;
-        unsigned int timeToShowTranslationCard:1;
-        unsigned int timeToCancel:1;
-        unsigned int status:1;
-    } _has;
-    _Bool _hasTask;
-    _Bool _hasSessionID;
-    _Bool _hasRequestID;
-    _Bool _hasError;
-    _Bool _hasMobileAssetConfigVersion;
 }
 
 - (int);
@@ -46,13 +19,13 @@
 - (unsigned int);
 - (unsigned int);
 - (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,25 +51,26 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void)v
+;
+- (void);
+- (_Bool);
+- (void)showiCloudFollowUpSuggestion:(_Bool)arg1 usingWindow:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)ng",&,N,V_currentUUID;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)/x509_lu.c;
+- (void)Sources/libressl/libressl-2.2/crypto/cryptlib.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -104,48 +78,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)%@;
 - (int);
 - (id)1Â0@ù
 × ;
 - (void)setAnonymizedHandleValues:(id)arg1;
-- (id)iceClass:(id)arg1;
+- (id)setDeviceClass:(id)arg1;
 - (id)earchGlobalSearchTime;
-- (_Bool)emaPSEHomeFollowUp;
-- (_Bool)artyAudioInterfaceProductId;
-- (void)NCECONTACTSEARCHSUGGESTEDTYPE_UNKNOWN;
+- (_Bool)PSESchemaPSEHomeFollowUp;
+- (_Bool)firstPartyAudioInterfaceProductId;
+- (void)INFERENCECONTACTSEARCHSUGGESTEDTYPE_UNKNOWN;
 - (void)ÀÃàÿ|jÚ!;
 - (void)ìËÿ;
 - (_Bool)0ï±ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) LTSchemaError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasInRestrictedMode;
-@property(nonatomic) _Bool hasIsAutomaticLID;
-@property(nonatomic) _Bool hasMobileAssetConfigVersion; // @synthesize hasMobileAssetConfigVersion=_hasMobileAssetConfigVersion;
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasSessionID; // @synthesize hasSessionID=_hasSessionID;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(nonatomic) _Bool hasTimeToCancel;
-@property(nonatomic) _Bool hasTimeToFirstPartialDisplayed;
-@property(nonatomic) _Bool hasTimeToRecordingDialogDismissed;
-@property(nonatomic) _Bool hasTimeToShowTranslationCard;
-@property(nonatomic) _Bool hasUiMode;
-@property(nonatomic) _Bool inRestrictedMode; // @synthesize inRestrictedMode=_inRestrictedMode;
-@property(nonatomic) _Bool isAutomaticLID; // @synthesize isAutomaticLID=_isAutomaticLID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mobileAssetConfigVersion; // @synthesize mobileAssetConfigVersion=_mobileAssetConfigVersion;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) int status; // @synthesize status=_status;
 @property(retain, nonatomic) LTSchemaTask *task; // @synthesize task=_task;
-@property(nonatomic) unsigned int timeToCancel; // @synthesize timeToCancel=_timeToCancel;
-@property(nonatomic) unsigned int timeToFirstPartialDisplayed; // @synthesize timeToFirstPartialDisplayed=_timeToFirstPartialDisplayed;
-@property(nonatomic) unsigned int timeToRecordingDialogDismissed; // @synthesize timeToRecordingDialogDismissed=_timeToRecordingDialogDismissed;
-@property(nonatomic) unsigned int timeToShowTranslationCard; // @synthesize timeToShowTranslationCard=_timeToShowTranslationCard;
-@property(nonatomic) int uiMode; // @synthesize uiMode=_uiMode;
 
 @end
 

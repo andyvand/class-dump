@@ -7,21 +7,6 @@
 @interface AppStoreKit.SearchChartOrCategory
 {
     id badge;
-    id title;
-    id style;
-    id artworks;
-    id collectionIcons;
-    id placementStyle;
-    id threeDimensionalArtworkRenderSize;
-    id backgroundColor;
-    id titleLineCount;
-    id id;
-    id impressionMetrics;
-    id clickAction;
-    id clickSender;
-    id artworkSafeArea;
-    id textSafeArea;
-    id automationMetadata;
 }
 
 @end

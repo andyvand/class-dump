@@ -4,59 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBDeviceInfo;
+@class NTPBDeviceInfo;
 
 @interface NTPBPushNotifySubscriptionRequest
 {
     NTPBDeviceInfo *_deviceInfo;
-    NSMutableArray *_notificationEntitys;
-    NSString *_notificationUserId;
-    NSMutableArray *_topicsFolloweds;
-    NSString *_userStorefrontId;
 }
 
-+ (Class);
-+ (Class);
++ (Class)arrayChangeDetails;
++ (Class)_socialLayerHighlightProvider;
+- (id)inactiveBackgroundLayer;
+- (unsigned long long)importFilesAtURLs:photoLibrary:collection:checkDuplicates:referenced:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)importDate;
+- (void)hasSyndicationAttributionInfo;
+- (void)hasNumberOfUnitValue;
+- (void)floatingFadeOutDistance;
+- (void)floatingAppearanceCrossfadeDistance;
+- (id)currentAssetStore;
+- (unsigned long long)curationProperties;
 - (id);
-- (unsigned long long);
+- (id)curationLengthsProgress;
+- (_Bool)countOfUnsharingRecords;
+- (_Bool)composabilityScoresForDisplayAssetIndex: /* Error: Ran out of types for this method. */;
+- (void)tyle: /* Error: Ran out of types for this method. */;
+- (void)bestCropRectEnabled;
+- (void)autoEditSceneConfidenceThreshold;
+- (void)audioSessionCategoryOptions;
+- (id)assetContainer;
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)(`;
+- (_Bool)sed _getProductVersion];
+- (_Bool)__clusterID;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
+- (void)setMaxExpiredPaidSubscriptionGroupCount: /* Error: Ran out of types for this method. */;
+- (void)setHasMoreVideosGroupMaxNumberOfVideos:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) _Bool hasDeviceInfo;
 @property(readonly, nonatomic) _Bool hasNotificationUserId;
-@property(readonly, nonatomic) _Bool hasUserStorefrontId;
-@property(retain, nonatomic) NSMutableArray *notificationEntitys; // @synthesize notificationEntitys=_notificationEntitys;
-@property(retain, nonatomic) NSString *notificationUserId; // @synthesize notificationUserId=_notificationUserId;
-@property(retain, nonatomic) NSMutableArray *topicsFolloweds; // @synthesize topicsFolloweds=_topicsFolloweds;
-@property(retain, nonatomic) NSString *userStorefrontId; // @synthesize userStorefrontId=_userStorefrontId;
 
 @end
 

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface CPLRecordTargetMapping
 {
     NSMutableDictionary *_targets;
-    NSMutableDictionary *_targetsFromOtherScopedIdentifier;
-    NSMutableSet *_updatedScopedIdentifiers;
-    NSMutableSet *_scopedIdentifiersWithUnknownTargets;
 }
 
 - (id);
-- (id);
+- (id)#)PROGRAM:SignpostSupport  PROJECT:SignpostSupport-174.8
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allTargetScopedIdentifiers;
 @property(readonly, nonatomic) _Bool hasUnknownTargets;
-@property(readonly, nonatomic) _Bool hasUpdatedTargets;
-@property(readonly, nonatomic) NSString *targetDescriptions;
-@property(readonly, nonatomic) NSArray *unknownTargetScopedIdentifiers;
-@property(readonly, nonatomic) NSSet *updatedTargetScopedIdentifiers;
-@property(readonly, nonatomic) NSString *updatedTargetsDescription;
 
 @end
 

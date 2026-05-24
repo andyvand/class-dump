@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     UIKeyboardEmojiCategory *_category;
 }
 
-+ (_Bool);
++ (_Bool)recover;
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)nfo for transfer %@;
+- (void)CEMSystemCameraDeclaration;
 - (void)1Â0@ù
 × ;
-- (id)viderImageBackground:traitCollection:tintColor:size: /* Error: Ran out of types for this method. */;
-- (double)ut;
+- (id)_modernDividerImageBackground:traitCollection:tintColor:size: /* Error: Ran out of types for this method. */;
+- (double)_UIAtomTextViewAtomLayout;
 - (struct UIEdgeInsets)óàóhøüÐþ;
 - (double)Ä0;
 - (void)llback transition. To correct the error, be sure to a provide a view that's visible and in a window. View:%{public}s /* Error: Ran out of types for this method. */;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPriceDescription, NSString;
+@class GEOPDPriceDescription;
 
 @interface GEOPriceDescription
 {
@@ -12,16 +12,14 @@
 }
 
 - (void);
-- (id);
+- (id)ContactsPersistence;
 - (id);
 - (_Bool);
-- (id);
+- (id)X`;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) GEOPDPriceDescription *geoPriceDescription; // @synthesize geoPriceDescription=_geoPriceDescription;
-@property(readonly, nonatomic) _Bool hasPriceDescription;
-@property(readonly, nonatomic) NSString *priceDescription;
 
 @end
 

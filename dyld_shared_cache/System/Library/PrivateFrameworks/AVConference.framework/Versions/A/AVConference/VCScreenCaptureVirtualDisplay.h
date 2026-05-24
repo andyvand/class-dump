@@ -6,15 +6,13 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol VCScreenCaptureSourceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCScreenCaptureVirtualDisplay : VCObject
 {
     NSObject<VCScreenCaptureSourceDelegate> *_delegate;
-    struct OpaqueFigVirtualDisplaySession *_session;
-    struct _VCScreenCaptureSourceContext _frameCallback;
 }
 
 - (int);
@@ -28,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface REMListsDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_accountStorages;
-    NSArray *_listStorages;
-    NSArray *_objectIDs;
 }
 
 + (_Bool);
@@ -23,15 +21,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accountStorages; // @synthesize accountStorages=_accountStorages;
-@property(readonly, nonatomic) NSArray *listStorages; // @synthesize listStorages=_listStorages;
-@property(readonly, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end
 

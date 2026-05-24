@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NUAnimationFactory;
-
 @interface NUSlideViewAnimator
 {
     _Bool _animating;
-    double _duration;
-    CAMediaTimingFunction *_mediaTimingFunction;
-    double _translateBoundsPadding;
-    NUAnimationFactory *_animationFactory;
-    struct CGRect _bounds;
 }
 
 - (void);
@@ -37,11 +30,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(retain, nonatomic) NUAnimationFactory *animationFactory; // @synthesize animationFactory=_animationFactory;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) CAMediaTimingFunction *mediaTimingFunction; // @synthesize mediaTimingFunction=_mediaTimingFunction;
-@property(nonatomic) double translateBoundsPadding; // @synthesize translateBoundsPadding=_translateBoundsPadding;
 
 @end
 

@@ -11,7 +11,7 @@
     NSString *_sandboxExtensionClass;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (id);
 - (id);

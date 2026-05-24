@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long state;
 @end
 

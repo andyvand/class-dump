@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NTPBCoverArticleWidgetExposure
 {
     int _coverArticleWidgetArticleCount;
-    NSData *_coverArticleWidgetExposureSessionId;
-    NSData *_feedViewExposureId;
-    CDStruct_bb0d9f0d _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)axDescriptionForSyndicationLoadingIndicator;
+- (void)associatedPhotoKitContainer;
+- (void)assetCollectionReferencesWithParentAssetCollectionReference:(id)arg1 assetCollectionReferenceWithSameKeyAssetAsParent: /* Error: Ran out of types for this method. */;
+- (void)assetCollectionReferencesWithParentAssetCollectionReference:(int)arg1;
+- (_Bool)_updatePlayerRate;
+- (_Bool)_updateImageToAnalyse;
+- (_Bool)_updateImageRequestIfNeeded;
+- (id)_updateAsset:withAnalysisResult:forVideoComplement: /* Error: Ran out of types for this method. */;
+- (id)_transitionAnimationOccurred:fromOrigin:transitionObject:isBegin: /* Error: Ran out of types for this method. */;
+- (int)_transientChapterCollectionManager;
 - (id);
-- (id);
-- (int);
-- (id);
 - (void);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)ma;
+- (void)hourlyFlowRateGamma;
 
 // Remaining properties
-@property(nonatomic) int coverArticleWidgetArticleCount; // @synthesize coverArticleWidgetArticleCount=_coverArticleWidgetArticleCount;
-@property(retain, nonatomic) NSData *coverArticleWidgetExposureSessionId; // @synthesize coverArticleWidgetExposureSessionId=_coverArticleWidgetExposureSessionId;
-@property(retain, nonatomic) NSData *feedViewExposureId; // @synthesize feedViewExposureId=_feedViewExposureId;
-@property(nonatomic) _Bool hasCoverArticleWidgetArticleCount;
 @property(readonly, nonatomic) _Bool hasCoverArticleWidgetExposureSessionId;
-@property(readonly, nonatomic) _Bool hasFeedViewExposureId;
 
 @end
 

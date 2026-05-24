@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (void)mOrder;
+- (void)3;
+- (id)4;
+- (void)_albumOrder;
 
 // Remaining properties
 @property(retain, nonatomic) MPStoreLyricsSnippetURLComponents *snippetURL; // @synthesize snippetURL=_snippetURL;

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate, NSString;
 
 @protocol APPCMetricable
+- (long long)sourceChannel;
+- (NSDate *)TSCHChartAxisValue3DGridlineOpacityProperty;
 - (NSString *)\%;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contentId;
-@property(nonatomic, readonly) long long metric;
-@property(nonatomic, readonly) NSDictionary *properties;
 @property(nonatomic, readonly) long long purpose;
-@property(nonatomic, readonly) NSDate *timestamp;
 @end
 

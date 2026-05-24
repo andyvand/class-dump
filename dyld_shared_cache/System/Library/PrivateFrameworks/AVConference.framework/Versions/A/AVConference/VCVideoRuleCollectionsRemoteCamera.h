@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned int);
-+ (id)idate;
++ (id)RemoteCandidate;
 - (_Bool);
 
 @end

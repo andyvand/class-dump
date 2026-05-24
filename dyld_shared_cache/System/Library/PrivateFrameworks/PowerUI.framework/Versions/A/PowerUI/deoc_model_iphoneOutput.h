@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface deoc_model_iphoneOutput
 {
     long long _next_drain_is_significant;
-    NSDictionary *_classProbability;
 }
 
 - (void);
@@ -20,11 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)handler;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long next_drain_is_significant; // @synthesize next_drain_is_significant=_next_drain_is_significant;
 
 @end

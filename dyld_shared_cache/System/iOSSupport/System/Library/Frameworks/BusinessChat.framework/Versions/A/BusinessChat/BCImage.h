@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, UIImage;
+@class NSData, NSString;
 
 @interface BCImage
 {
     NSData *_imageData;
     NSString *_identifier;
-    NSString *_imageDescription;
 }
 
-- (id);
+- (id)mediaPickerDidCancel:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)ypoint;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) UIImage *image;
 @property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *imageDescription; // @synthesize imageDescription=_imageDescription;
 
 @end
 

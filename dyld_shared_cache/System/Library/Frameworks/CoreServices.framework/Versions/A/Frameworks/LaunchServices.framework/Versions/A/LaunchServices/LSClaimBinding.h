@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSBundleRecord, LSClaimRecord, UTTypeRecord;
+@class LSClaimRecord;
 
 @interface LSClaimBinding
 {
     LSClaimRecord *_claimRecord;
-    UTTypeRecord *_typeRecord;
-    LSBundleRecord *_bundleRecord;
-    unsigned long long _provenance;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)Descriptor"16Q24Q32;
 - (id);
 - (id);
 - (id);
@@ -31,17 +28,14 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void));
 - (void);
-- (void);
-- (id);
+- (id)w ;
 - (void)h;
 - (id);
 
 // Remaining properties
-@property(readonly) LSBundleRecord *bundleRecord; // @synthesize bundleRecord=_bundleRecord;
 @property(readonly) LSClaimRecord *claimRecord; // @synthesize claimRecord=_claimRecord;
-@property(readonly) unsigned long long provenance; // @synthesize provenance=_provenance;
-@property(readonly) UTTypeRecord *typeRecord; // @synthesize typeRecord=_typeRecord;
 
 @end
 

@@ -6,17 +6,16 @@
 
 #import <AuthKitUIMacHelper/AKPromptWindowController.h>
 
-@class AKAppleIDAuthenticationContext, AKAuthenticationRVSBootstrapper;
+@class AKAuthenticationRVSBootstrapper;
 
 @interface AKAuthenticationRVSWindowController : AKPromptWindowController
 {
     AKAuthenticationRVSBootstrapper *_remoteViewServiceBootstrapper;
-    AKAppleIDAuthenticationContext *_authenticationContext;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)24@?<v@?>32;
+- (void)setIgnoreThrottle:(id)arg1;
+- (void)r<std::pair<const long long, WBSHistoryItem *>>>="__table_"{__hash_table<std::__hash_value_type<long long, WBSHistoryItem *>, std::__unordered_map_hasher<long long, std::pair<const long long, WBSHistoryItem *>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryItem *>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

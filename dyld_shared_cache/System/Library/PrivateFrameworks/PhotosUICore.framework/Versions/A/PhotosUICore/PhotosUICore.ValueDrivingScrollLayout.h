@@ -7,9 +7,6 @@
 @interface PhotosUICore.ValueDrivingScrollLayout
 {
     id numberOfPages;
-    id targetPosition;
-    id scrollHandler;
-    id scrollContentLayout;
 }
 
 - (void);

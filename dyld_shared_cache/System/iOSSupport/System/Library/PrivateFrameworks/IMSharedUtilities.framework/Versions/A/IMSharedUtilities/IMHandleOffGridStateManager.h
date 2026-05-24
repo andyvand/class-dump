@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString, SKStatusSubscription, SKStatusSubscriptionService;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMHandleOffGridStateManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_fetchQueue;
-    SKStatusSubscription *_personalSubscription;
-    NSMutableDictionary *_currentSubscriptionCache;
-    NSMutableDictionary *_lastKnownSubscriptionCache;
-    long long _currentCacheGeneration;
-    NSMutableSet *_pendingFetchesForCacheKeys;
-    SKStatusSubscriptionService *_subscriptionService;
-    NSMutableDictionary *_overrideDatesByHandleID;
 }
 
 + (id)erate files because there were no transfer guids on the request.;
@@ -25,11 +17,11 @@
 - (void);
 - (id);
 - (void);
+- (void)#	`C(c`x`ha;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,18 +34,18 @@
 - (long long);
 - (id);
 - (void);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -64,29 +56,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void)Ù;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setCachedOverrideDatesByHandleID:) NSDictionary *cachedOverrideDatesByHandleID;
-@property(nonatomic) long long currentCacheGeneration; // @synthesize currentCacheGeneration=_currentCacheGeneration;
-@property(retain, nonatomic) NSMutableDictionary *currentSubscriptionCache; // @synthesize currentSubscriptionCache=_currentSubscriptionCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *lastKnownSubscriptionCache; // @synthesize lastKnownSubscriptionCache=_lastKnownSubscriptionCache;
-@property(retain, nonatomic) NSMutableDictionary *overrideDatesByHandleID; // @synthesize overrideDatesByHandleID=_overrideDatesByHandleID;
-@property(retain, nonatomic) NSMutableSet *pendingFetchesForCacheKeys; // @synthesize pendingFetchesForCacheKeys=_pendingFetchesForCacheKeys;
-@property(readonly, nonatomic) long long personalOffGridMode;
-@property(retain, nonatomic) SKStatusSubscription *personalSubscription; // @synthesize personalSubscription=_personalSubscription;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SKStatusSubscriptionService *subscriptionService; // @synthesize subscriptionService=_subscriptionService;
-@property(readonly) Class superclass;
 
 @end
 

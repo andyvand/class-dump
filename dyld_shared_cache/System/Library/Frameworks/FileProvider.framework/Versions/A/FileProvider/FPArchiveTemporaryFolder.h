@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FPArchiveTemporaryFolder
 {
     NSURL *_url;
-    _Bool _didStartAccessing;
-    NSURL *_temporaryFolderURL;
 }
 
 - (id);

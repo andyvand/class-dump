@@ -7,11 +7,10 @@
 @interface TSKHideOnTouchOutsideViewGestureRecognizerTarget
 {
     id mTarget;
-    SEL mAction;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (_Bool);
 - (SEL);
@@ -19,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=mAction;
 @property(nonatomic) id target; // @synthesize target=mTarget;
 
 @end

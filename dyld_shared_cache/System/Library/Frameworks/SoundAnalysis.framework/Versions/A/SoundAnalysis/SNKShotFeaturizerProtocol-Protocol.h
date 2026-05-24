@@ -5,5 +5,6 @@
 //
 
 @protocol SNKShotFeaturizerProtocol
++ (id);
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ResourcePreferencesController, SandboxFileExtensionController;
+@class ResourcePreferencesController;
 
 __attribute__((visibility("hidden")))
 @interface SandboxMigrationController
 {
     ResourcePreferencesController *_resourcePreferencesController;
-    SandboxFileExtensionController *_fileExtensionController;
 }
 
 - (void);

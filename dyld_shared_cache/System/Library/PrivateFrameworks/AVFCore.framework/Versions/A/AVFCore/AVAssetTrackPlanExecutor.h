@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrackPlan, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class AVAssetTrackPlan;
 
 @interface AVAssetTrackPlanExecutor
 {
     AVAssetTrackPlan *_trackPlan;
-    CDUnknownBlockType _writingSegmentCallbackBlock;
-    NSObject<OS_dispatch_semaphore> *_writingSemaphore;
 }
 
 + (id);
@@ -19,14 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Ǻ;
 - (int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) int assemblyTrackID;
-@property(readonly) NSString *mediaType;
 @property(readonly) _Bool requiresVideoCompression;
 
 @end

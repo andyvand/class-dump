@@ -7,11 +7,6 @@
 @interface NewsArticles.LiveCoverageStatusButton
 {
     id prefixLabel;
-    id suffixLabel;
-    id horizontalPadding;
-    id verticalPadding;
-    id labelContainerView;
-    id isPinned;
 }
 
 - (struct CGSize);
@@ -19,7 +14,7 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void)issingManager;
+- (void)feedDismissingManager;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

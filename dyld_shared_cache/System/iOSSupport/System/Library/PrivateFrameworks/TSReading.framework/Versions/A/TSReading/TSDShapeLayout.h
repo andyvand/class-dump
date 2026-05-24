@@ -6,7 +6,7 @@
 
 #import <TSReading/TSDStyledLayout.h>
 
-@class TSDBezierPath, TSDEditableBezierPathSource, TSDFill, TSDInfoGeometry, TSDMutableStroke, TSDPathSource;
+@class TSDFill;
 
 @interface TSDShapeLayout : TSDStyledLayout
 {
@@ -22,61 +22,35 @@
         unsigned int tailLineEnd:1;
         unsigned int clippedPath:1;
     } mShapeInvalidFlags;
-    TSDBezierPath *mCachedPath;
-    struct CGRect mCachedPathBounds;
-    struct CGRect mCachedPathBoundsWithoutStroke;
-    _Bool mCachedPathIsOpen;
-    _Bool mCachedPathIsLineSegment;
-    struct CGRect mCachedAlignmentFrame;
-    struct CGPoint mHeadPoint;
-    struct CGPoint mTailPoint;
-    struct CGPoint mHeadLineEndPoint;
-    struct CGPoint mTailLineEndPoint;
-    double mHeadLineEndAngle;
-    double mTailLineEndAngle;
-    long long mHeadCutSegment;
-    long long mTailCutSegment;
-    double mHeadCutT;
-    double mTailCutT;
-    TSDBezierPath *mCachedClippedPath;
-    TSDPathSource *mShrunkenPathSource;
-    TSDEditableBezierPathSource *mCachedEditableBezierPathSource;
-    TSDPathSource *mCachedPathSource;
-    TSDPathSource *mResizePathSource;
-    TSDInfoGeometry *mResizeInfoGeometry;
-    TSDInfoGeometry *mInitialInfoGeometry;
-    TSDPathSource *mProvidedPathSource;
-    TSDMutableStroke *mDynamicStroke;
-    TSDFill *mDynamicFill;
 }
 
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
+- (struct CGPoint)andle: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)MusicAppBehavior - contextWillHandle: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)-live stream will resume without seeking -  currentItem: /* Error: Ran out of types for this method. */;
+- (_Bool)ing playback;
+- (_Bool)ID for time jump [;
 - (id);
-- (struct CGRect);
+- (struct CGRect)t:(struct CGAffineTransform)arg1;
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id)QueueControllerBehaviorPodcasts;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
 - (unsigned long long);
-- (id);
+- (id)ort;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (id);
 - (void);
@@ -91,8 +65,8 @@
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -102,7 +76,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -117,7 +91,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (struct CGPoint);
 - (double);
@@ -129,12 +103,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (struct CGSize);
+- (struct CGSize)r;
 - (id);
-- (void)atternWithPattern:(id)arg1 count:phase: /* Error: Ran out of types for this method. */;
+- (void)strokePatternWithPattern:(id)arg1 count:phase: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) TSDFill *dynamicFill; // @synthesize dynamicFill=mDynamicFill;
 @property(readonly, nonatomic) TSDFill *fill;
 
 @end

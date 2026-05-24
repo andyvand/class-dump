@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSLinkDefinitionPortOverridingPlugin
 {
     id name;
-    id linkDefiner;
 }
 
 @end

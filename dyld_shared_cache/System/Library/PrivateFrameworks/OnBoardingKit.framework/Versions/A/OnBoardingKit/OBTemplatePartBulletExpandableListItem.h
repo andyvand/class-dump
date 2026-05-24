@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSLayoutConstraint, NSMutableArray, NSStackView, NSView, OBTemplatePartBulletListItem;
+@class NSStackView;
 
 @interface OBTemplatePartBulletExpandableListItem
 {
     _Bool _expanded;
-    _Bool _showsBackground;
-    NSStackView *_stackView;
-    NSStackView *_expandableStack;
-    NSMutableArray *_cells;
-    NSView *_separatorView;
-    NSImageView *_chevronImageView;
-    OBTemplatePartBulletListItem *_listItem;
-    NSLayoutConstraint *_stackViewToTrailingEdgeConstraint;
-    NSLayoutConstraint *_chevronViewWidthConstraint;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -36,30 +27,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)A;
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cells; // @synthesize cells=_cells;
-@property(retain, nonatomic) NSImageView *chevronImageView; // @synthesize chevronImageView=_chevronImageView;
-@property(retain, nonatomic) NSLayoutConstraint *chevronViewWidthConstraint; // @synthesize chevronViewWidthConstraint=_chevronViewWidthConstraint;
-@property(retain, nonatomic) NSStackView *expandableStack; // @synthesize expandableStack=_expandableStack;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(retain, nonatomic) OBTemplatePartBulletListItem *listItem; // @synthesize listItem=_listItem;
-@property(retain, nonatomic) NSView *separatorView; // @synthesize separatorView=_separatorView;
-@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
 @property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSLayoutConstraint *stackViewToTrailingEdgeConstraint; // @synthesize stackViewToTrailingEdgeConstraint=_stackViewToTrailingEdgeConstraint;
 
 @end
 

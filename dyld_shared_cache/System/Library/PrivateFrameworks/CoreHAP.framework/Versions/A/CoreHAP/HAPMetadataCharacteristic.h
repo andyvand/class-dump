@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPMetadataCharacteristicValue, NSNumber, NSString;
+@class NSString;
 
 @interface HAPMetadataCharacteristic
 {
     NSString *_name;
-    NSString *_chrDescription;
-    NSString *_uuidStr;
-    NSNumber *_properties;
-    NSString *_format;
-    NSString *_units;
-    HAPMetadataCharacteristicValue *_valueMetadata;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)eDismissalWithExpanseSessionForPlayer:cancellable:dismissalBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (void)eseting telephony calling support;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)48@0:(id)arg1 8@16d24^Q32^@40;
+- (void);
 - (id);
-- (id);
+- (id)ng Rose-SE pairing is not supported.
+;
 - (void);
 - (void)PCharacteristicValueLinearTransition";
 - (void)ssion established;
-- (id)ata;
+- (id)additionalAuthData;
 - (void);
 - (void);
 

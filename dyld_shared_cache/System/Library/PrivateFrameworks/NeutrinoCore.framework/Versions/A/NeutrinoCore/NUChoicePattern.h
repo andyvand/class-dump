@@ -20,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)quicktimeMetadataCinematicVideoIntent;
 - (id);
 - (id);
 - (id);

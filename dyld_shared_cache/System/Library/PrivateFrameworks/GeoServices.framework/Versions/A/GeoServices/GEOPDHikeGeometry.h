@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDHikeGeometry
 {
     PBUnknownFields *_unknownFields;
-    NSData *_routingPathLeg;
 }
 
 + (id);
-+ (_Bool)s:(id)arg1;
++ (_Bool)setHoles:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -21,23 +20,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void)file transmission timed out;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ields"b1"read_addressObjectGeocodingResult"b1"read_addressRecommendationResult"b1"read_airportEntityPlaceLookupResult"b1"read_allCollectionsViewResult"b1"read_allGuidesLocationsViewresult"b1"read_autocompleteResult"b1"read_batchCategoryLookupResult"b1"read_batchMerchantLookupBrandResult"b1"read_batchPopularNearbySearchResult"b1"read_batchReverseGeocodingResult"b1"read_batchSpatialLookupResult"b1"read_brandLookupResult"b1"read_browseCategorySuggestionResult"b1"read_canonicalSearchResult"b1"read_categorySearchResult"b1"read_childPlaceLookupByCategoryResult"b1"read_collectionSuggestionResult"b1"read_exploreGuidesLookupResult"b1"read_extendedGeoLookupResult"b1"read_externalTransitLookupResult"b1"read_featureIdGeocodingResult"b1"read_geocodingResult"b1"read_groundViewLabelResult"b1"read_guidesHomeResult"b1"read_ipGeoLookupResult"b1"read_locationDirectedSearchResult"b1"read_mapsHomeResult"b1"read_mapsIdentifierPlaceLookupResult"b1"read_mapsSearchHomeResult"b1"read_merchantLookupResult"b1"read_nearbySearchResult"b1"read_offlineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)dMuids;
+- (id)_endMuids;
 - (id)µ;
-- (id)ck_result;
+- (id)feedback_result;
 - (void)° ÍX4[@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRoutingPathLeg;
-@property(retain, nonatomic) NSData *routingPathLeg;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

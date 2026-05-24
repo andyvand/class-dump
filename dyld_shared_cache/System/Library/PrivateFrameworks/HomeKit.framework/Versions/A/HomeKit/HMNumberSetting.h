@@ -11,13 +11,11 @@
 @interface HMNumberSetting : HMSetting
 {
     NSNumber *_minimumValue;
-    NSNumber *_maximumValue;
-    NSNumber *_stepValue;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -25,9 +23,7 @@
 - (id)ge:value:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
 
 @end
 

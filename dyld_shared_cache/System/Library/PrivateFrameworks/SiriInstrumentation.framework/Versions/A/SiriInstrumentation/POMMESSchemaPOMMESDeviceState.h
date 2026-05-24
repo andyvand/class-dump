@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface POMMESSchemaPOMMESDeviceState : SISchemaInstrumentationMessage
 {
     NSString *_companionName;
-    _Bool _isCarDoNotDisturbModeEnabled;
-    _Bool _isCarPlayEnabled;
-    _Bool _isEyesFreeEnabled;
-    _Bool _isLockedWithPasscode;
-    _Bool _isMultiUserDevice;
-    _Bool _isTextToSpeechEnabled;
-    _Bool _isVoiceTriggerEnabled;
-    struct {
-        unsigned int isCarDoNotDisturbModeEnabled:1;
-        unsigned int isCarPlayEnabled:1;
-        unsigned int isEyesFreeEnabled:1;
-        unsigned int isLockedWithPasscode:1;
-        unsigned int isMultiUserDevice:1;
-        unsigned int isTextToSpeechEnabled:1;
-        unsigned int isVoiceTriggerEnabled:1;
-    } _has;
-    _Bool _hasCompanionName;
 }
 
 - (void);
@@ -41,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,33 +55,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long).apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDUpdatePollMetrics_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)Matching addresses (in order) are %@;
 - (id);
 - (id);
-- (id)eneratePlanContext;
+- (id)_pgGeneratePlanContext;
 - (id)xt;
-- (void)viceCount;
+- (void)eligibleDeviceCount;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *companionName; // @synthesize companionName=_companionName;
-@property(nonatomic) _Bool hasCompanionName; // @synthesize hasCompanionName=_hasCompanionName;
-@property(nonatomic) _Bool hasIsCarDoNotDisturbModeEnabled;
-@property(nonatomic) _Bool hasIsCarPlayEnabled;
-@property(nonatomic) _Bool hasIsEyesFreeEnabled;
-@property(nonatomic) _Bool hasIsLockedWithPasscode;
-@property(nonatomic) _Bool hasIsMultiUserDevice;
-@property(nonatomic) _Bool hasIsTextToSpeechEnabled;
-@property(nonatomic) _Bool hasIsVoiceTriggerEnabled;
-@property(nonatomic) _Bool isCarDoNotDisturbModeEnabled; // @synthesize isCarDoNotDisturbModeEnabled=_isCarDoNotDisturbModeEnabled;
-@property(nonatomic) _Bool isCarPlayEnabled; // @synthesize isCarPlayEnabled=_isCarPlayEnabled;
-@property(nonatomic) _Bool isEyesFreeEnabled; // @synthesize isEyesFreeEnabled=_isEyesFreeEnabled;
-@property(nonatomic) _Bool isLockedWithPasscode; // @synthesize isLockedWithPasscode=_isLockedWithPasscode;
-@property(nonatomic) _Bool isMultiUserDevice; // @synthesize isMultiUserDevice=_isMultiUserDevice;
-@property(nonatomic) _Bool isTextToSpeechEnabled; // @synthesize isTextToSpeechEnabled=_isTextToSpeechEnabled;
-@property(nonatomic) _Bool isVoiceTriggerEnabled; // @synthesize isVoiceTriggerEnabled=_isVoiceTriggerEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

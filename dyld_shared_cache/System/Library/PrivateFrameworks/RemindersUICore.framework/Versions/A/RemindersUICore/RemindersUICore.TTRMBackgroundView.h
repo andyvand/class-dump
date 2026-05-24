@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRMBackgroundView
 {
     id backgroundFillColor;
-    id borderWidth;
-    id borderColor;
-    id continuousCorners;
-    id wantsVibrancy;
-    id roundedCorners;
-    id customCornerRadius;
-    id visualEffectView;
 }
 
 - (_Bool);
@@ -29,10 +22,7 @@
 - (void)lSourceLayoutContext:trying to set an unsupported currentLayout {newValue:%s} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic, readonly) _Bool flipped;
 @property(nonatomic, readonly) _Bool opaque;
-@property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface NUContentOverlayDocumentSectionBlueprintData
 {
     SXDocumentSectionBlueprint *_blueprint;
-    double _topOffset;
 }
 
 - (id);
-- (double);
+- (double)interactiveCanvasControllerShouldEndEditingWhenLosingFirstResponder: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SXDocumentSectionBlueprint *blueprint; // @synthesize blueprint=_blueprint;
-@property(readonly, nonatomic) double topOffset; // @synthesize topOffset=_topOffset;
 
 @end
 

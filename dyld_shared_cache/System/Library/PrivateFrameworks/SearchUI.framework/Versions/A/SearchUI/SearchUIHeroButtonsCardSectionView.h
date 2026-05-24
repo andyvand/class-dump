@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SFButtonListCardSection, SearchUIButtonItemStackView;
+@class SFButtonListCardSection;
 
 @interface SearchUIHeroButtonsCardSectionView : SearchUICardSectionView
 {
@@ -14,10 +14,9 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)%d and original '%@' strlen %d;
 
 // Remaining properties
-@property(readonly) SearchUIButtonItemStackView *contentView; // @dynamic contentView;
 @property(readonly, nonatomic) SFButtonListCardSection *section; // @dynamic section;
 
 @end

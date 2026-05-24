@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _UIWTCProofreadingDecorationInfo
 {
     NSUUID *_identifier;
-    NSArray *_ranges;
-    NSDictionary *_paths;
-    NSMapTable *_containers;
-    long long _type;
 }
 
-+ (id);
++ (id)dn't find message for guid:(id)arg1 %@;
 + (id);
 - (id);
 - (void);
 - (id);
 - (long long)1Â0@ù
 × ;
-- (id)Element;
+- (id)_TtC5UIKit27_UISliderFluidVisualElement;
 - (id)_format(struct ui_archive *);
 - (id)ection %ld;
-- (void)o;
+- (void)So46_UIContextMenuLiquidMorphPresentationAnimationCXo;
 - (id)°ô²þ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *containers; // @synthesize containers=_containers;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *paths; // @synthesize paths=_paths;
-@property(readonly, nonatomic) NSArray *ranges; // @synthesize ranges=_ranges;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

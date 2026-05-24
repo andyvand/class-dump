@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NSWTUITextChunk, _NSWTUITextEffectView;
+@class _NSWTUITextEffectView, _NSWTUITextPreview;
 
 @protocol _NSWTUITextEffect
+- (void)_makeRequestCanonicalByMakingRequestURLCanonical:(_NSWTUITextPreview *)arg1;
+- (_NSWTUITextEffectView *)groupedFamilies;
 - (void)w_proxies;
 
 @optional
-- (_NSWTUITextEffectView *);
+- (void);
+- (struct _NSRange)40@0:8{_NSRange=QQ}16^I32 /* Error: Ran out of types for this method. */;
+- (void)`;
 
 // Remaining properties
-@property(retain) _NSWTUITextChunk *chunk;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_NSWTUITextChunk",?,&
-
-@property __weak _NSWTUITextEffectView *effectView;
 @property struct _NSRange range;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T{_NSRange=QQ},?

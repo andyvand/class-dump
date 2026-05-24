@@ -6,57 +6,48 @@
 
 #import <PassKitCore/PKDataAccessor.h>
 
-@class NSArray, NSString, NSURL, PKDirectoryCoordinator, PKRemoteAssetManager;
+@class PKDirectoryCoordinator;
 
 @interface PKFileDataAccessor : PKDataAccessor
 {
     PKDirectoryCoordinator *_coordinator;
-    _Bool _remoteAssetManagerAccessed;
-    PKRemoteAssetManager *_remoteAssetManager;
-    NSArray *_seids;
-    _Bool _ownsFileURL;
-    NSString *_explicitDataTypeIdentifier;
-    NSURL *_fileURL;
 }
 
-- (void);
+- (void)R\;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)"9t;
+- (id)T;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)J@9)!;
 - (id);
 - (void);
 - (id);
+- (id)queryString;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)ListURL;
-- (id)DateTimeZone;
-- (void)edentialAuthorityIdentifier;
+- (id)freeCancellationDateTimeZone;
+- (void)credentialAuthorityIdentifier;
 - (id));
 
 // Remaining properties
-@property(copy, nonatomic) NSString *explicitDataTypeIdentifier; // @synthesize explicitDataTypeIdentifier=_explicitDataTypeIdentifier;
-@property(readonly, nonatomic) unsigned long long fileSizeOnDisk;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(nonatomic) _Bool ownsFileURL; // @synthesize ownsFileURL=_ownsFileURL;
 
 @end

@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMSemanticTextFactory, AXMVisionFeature, AXMetricSession, CIImage, NSArray, NSData, NSDictionary, NSNumber, NSObject, NSSet, NSString;
-@protocol NSSecureCoding;
+@class CIImage, NSArray;
 
 @interface AXMVisionResult
 {
     CIImage *_image;
-    NSArray *_features;
-    NSSet *_evaluatedFeatureTypes;
-    NSNumber *_appliedImageOrientation;
-    NSString *_detectedTextDescription;
-    NSArray *_effectiveTextDetectionLocales;
-    NSString *_detectedTextSummary;
-    NSString *_detectedTextType;
-    AXMetricSession *_metricSession;
-    long long _imageRegistrationState;
-    NSObject<NSSecureCoding> *_userContext;
-    NSData *_brailleEdges;
-    AXMSemanticTextFactory *_semanticTextFactory;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)32@40q48;
 - (id);
-- (id);
+- (id){;
+- (void);
+- (void);
+- (void){;
+- (void);
+- (void)z;
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)|;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)|z;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -64,28 +51,28 @@
 - (id);
 - (id);
 - (id);
+- (id)\|;
 - (id);
 - (id);
 - (id);
+- (id)\|;
+- (id);
+- (_Bool)|;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)|;
+- (id)}z;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long){>L;
+- (id)e;
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -94,40 +81,7 @@
 - (id)pletionHandlersForEmptyResultSet;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *appliedImageOrientation; // @synthesize appliedImageOrientation=_appliedImageOrientation;
-@property(readonly, nonatomic) AXMVisionFeature *assetMetadataFeature;
-@property(readonly, nonatomic) NSArray *blurFeatures;
-@property(retain, nonatomic) NSData *brailleEdges; // @synthesize brailleEdges=_brailleEdges;
-@property(readonly, nonatomic) NSArray *brightnessFeatures;
-@property(readonly, nonatomic) NSArray *captionFeatures;
-@property(readonly, nonatomic) _Bool captionMayContainSensitiveContent;
-@property(readonly, nonatomic) AXMVisionFeature *colorInfoFeature;
-@property(readonly, nonatomic) NSDictionary *detectedFeatureDictionary;
-@property(retain, nonatomic) NSString *detectedTextDescription; // @synthesize detectedTextDescription=_detectedTextDescription;
-@property(retain, nonatomic) NSString *detectedTextSummary; // @synthesize detectedTextSummary=_detectedTextSummary;
-@property(retain, nonatomic) NSString *detectedTextType; // @synthesize detectedTextType=_detectedTextType;
-@property(retain, nonatomic) NSArray *effectiveTextDetectionLocales; // @synthesize effectiveTextDetectionLocales=_effectiveTextDetectionLocales;
-@property(retain, nonatomic) NSSet *evaluatedFeatureTypes; // @synthesize evaluatedFeatureTypes=_evaluatedFeatureTypes;
 @property(readonly, nonatomic) NSArray *faceFeatures;
-@property(readonly, nonatomic) NSDictionary *featureGates;
-@property(retain, nonatomic) NSArray *features; // @synthesize features=_features;
-@property(readonly, nonatomic) NSArray *iconClassFeatures;
-@property(retain, nonatomic) CIImage *image; // @synthesize image=_image;
-@property(nonatomic) long long imageRegistrationState; // @synthesize imageRegistrationState=_imageRegistrationState;
-@property(readonly, nonatomic) _Bool includesFeaturesForImageExploration;
-@property(readonly, nonatomic) _Bool includesNSFWFeatures;
-@property(readonly, nonatomic) NSString *localizedDetectedIconHint;
-@property(readonly, nonatomic) NSString *localizedDetectedTextHint;
-@property(readonly, nonatomic) NSString *localizedDetectedTextSummaryHint;
-@property(readonly, nonatomic) NSString *localizedDetectedTextTypeHint;
-@property(retain, nonatomic) AXMetricSession *metricSession; // @synthesize metricSession=_metricSession;
-@property(readonly, nonatomic) NSArray *modelClassificationFeatures;
-@property(readonly, nonatomic) NSArray *objectClassificationFeatures;
-@property(readonly, nonatomic) NSArray *ocrFeatures;
-@property(readonly, nonatomic) NSArray *sceneClassificationFeatures;
-@property(retain, nonatomic) AXMSemanticTextFactory *semanticTextFactory; // @synthesize semanticTextFactory=_semanticTextFactory;
-@property(readonly, nonatomic) NSArray *sensitiveContentForCaptionFeatures;
-@property(retain, nonatomic) NSObject<NSSecureCoding> *userContext; // @synthesize userContext=_userContext;
 
 @end
 

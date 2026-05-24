@@ -5,5 +5,10 @@
 //
 
 @protocol APSConnectionDelegate
+- (void);
+
+@optional
+- (void));
+- (void);
 @end
 

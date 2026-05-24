@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaNLRouterRewrittenUtteranceTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_subRequestId;
-    NSString *_utteranceText;
-    int _utteranceIndex;
-    struct {
-        unsigned int utteranceIndex:1;
-    } _has;
-    _Bool _hasSubRequestId;
-    _Bool _hasUtteranceText;
 }
 
 - (id);
@@ -43,18 +36,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)icies;
-- (id)s;
+- (id)_activeRedactionPolicies;
+- (id)hasPromptStatus;
 - (void)llouts;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasUtteranceIndex;
-@property(nonatomic) _Bool hasUtteranceText; // @synthesize hasUtteranceText=_hasUtteranceText;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(nonatomic) int utteranceIndex; // @synthesize utteranceIndex=_utteranceIndex;
-@property(copy, nonatomic) NSString *utteranceText; // @synthesize utteranceText=_utteranceText;
 
 @end
 

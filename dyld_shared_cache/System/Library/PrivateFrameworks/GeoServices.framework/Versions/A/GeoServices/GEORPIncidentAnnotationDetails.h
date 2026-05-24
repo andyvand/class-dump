@@ -4,81 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEORPUserLocationDetails, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPIncidentAnnotationDetails
 {
     PBDataReader *_reader;
-    NSString *_incidentId;
-    GEOLatLng *_incidentLocation;
-    GEORPUserLocationDetails *_userLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _annotationType;
-    int _incidentType;
-    struct {
-        unsigned int has_annotationType:1;
-        unsigned int has_incidentType:1;
-        unsigned int read_incidentId:1;
-        unsigned int read_incidentLocation:1;
-        unsigned int read_userLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)x:(id)arg1;
++ (_Bool)setLastRoadSegmentIndex:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void):(_Bool)arg1 8;
+- (void)setExternalGroupBehavior:(_Bool)arg1;
 - (id);
-- (int);
+- (int);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
-- (int);
+- (_Bool);
+- (_Bool);
+- (id)ak;
 - (_Bool);
 - (int);
-- (void);
+- (_Bool);
+- (int);
+- (void)VNFaceSegmentGeneratorInternalProcessOption_FaceSegmentBBoxNormalized_Y;
 - (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)useSpeexForAudioInjection;
+- (void)CSRCHandlingXPCService;
+- (void)ioInjectionEngine audioStreamDidStartSuccessfully:(unsigned long long)arg1 error:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)1"read_unknownFields"b1"read_operatingHours"b1"read_alternateArtwork"b1"read_artwork"b1"read_displayHints"b1"read_headerArtwork"b1"read_lineColor"b1"read_modeArtwork"b1"read_nameDisplayString"b1"read_styleAttributes"b1"wrote_anyField"b1};
-- (id)ractionModel;
+- (id)carHeadunitInteractionModel;
 - (id)°ãØä;
 - (id)pleInternal/Library/Frameworks/Contacts.framework/Contacts;
 - (void)<¼çÀrØN@;
 
 // Remaining properties
-@property(nonatomic) int annotationType;
-@property(nonatomic) _Bool hasAnnotationType;
-@property(readonly, nonatomic) _Bool hasIncidentId;
-@property(readonly, nonatomic) _Bool hasIncidentLocation;
-@property(nonatomic) _Bool hasIncidentType;
 @property(readonly, nonatomic) _Bool hasUserLocation;
-@property(retain, nonatomic) NSString *incidentId;
-@property(retain, nonatomic) GEOLatLng *incidentLocation;
-@property(nonatomic) int incidentType;
-@property(retain, nonatomic) GEORPUserLocationDetails *userLocation;
 
 @end
 

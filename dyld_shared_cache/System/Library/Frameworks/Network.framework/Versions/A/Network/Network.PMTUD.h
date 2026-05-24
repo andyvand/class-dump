@@ -7,19 +7,6 @@
 @interface Network.PMTUD
 {
     id startPN;
-    id currentPathMTU;
-    id maxPathMTU;
-    id headerSize;
-    id nextProbeMTU;
-    id probedMTU;
-    id packetTooBigMTU;
-    id failedProbeCount;
-    id dataFrameSplitCount;
-    id timerID;
-    id timerName;
-    id conn;
-    id path;
-    id flags;
 }
 
 @end

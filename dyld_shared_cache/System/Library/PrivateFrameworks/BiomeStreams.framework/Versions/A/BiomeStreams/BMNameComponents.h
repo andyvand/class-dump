@@ -9,20 +9,14 @@
 @interface BMNameComponents
 {
     NSString *_namePrefix;
-    NSString *_givenName;
-    NSString *_middleName;
-    NSString *_previousFamilyName;
-    NSString *_familyName;
-    NSString *_nameSuffix;
-    NSString *_nickname;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)So22NSManagedObjectContextCSg;
 - (id);
 - (id)kOption":(id)arg1 {;
 - (void);
@@ -33,13 +27,7 @@
 - (id)æ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
 @property(readonly, nonatomic) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(readonly, nonatomic) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(readonly, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(readonly, nonatomic) NSString *previousFamilyName; // @synthesize previousFamilyName=_previousFamilyName;
 
 @end
 

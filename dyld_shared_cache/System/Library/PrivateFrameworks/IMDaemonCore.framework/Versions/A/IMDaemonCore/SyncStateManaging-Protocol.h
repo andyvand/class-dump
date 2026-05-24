@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate;
+
 @protocol SyncStateManaging
+- (void)?;
+- (void)H9;
+- (void);
+- (void)";
+- (NSDate *);
 - (void);
 @end
 

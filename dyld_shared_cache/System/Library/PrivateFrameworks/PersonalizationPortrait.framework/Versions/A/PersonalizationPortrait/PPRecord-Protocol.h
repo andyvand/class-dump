@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPSource;
+@class PPSource;
 
 @protocol PPRecord
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int extractionAssetVersion;
-@property(readonly, nonatomic) NSString *extractionOsBuild;
-@property(readonly, nonatomic) double initialScore;
 @property(readonly, nonatomic) PPSource *source;
 @end
 

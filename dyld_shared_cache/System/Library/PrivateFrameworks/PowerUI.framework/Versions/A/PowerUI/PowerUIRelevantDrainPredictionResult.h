@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PowerUIRelevantDrainPredictionResult
 {
     _Bool _significantDrainAhead;
-    double _confidence;
-    double _threshold;
-    unsigned long long _suggestedLimit;
-    PowerUIRelevantDrainPredictionResult *_prevStageResult;
-    long long _predictionScheme;
-    NSString *_predictionSchemeString;
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,23 +20,17 @@
 - (id);
 - (long long);
 - (id);
+- (id)@?0@"<AMSTreatmentStoreServiceProtocol>"8;
 - (id);
-- (id);
+- (void);
+- (double);
 - (void);
-- (double);
 - (void);
-- (void);
-- (void)learAllNotificationState;
-- (double)otalFullDisableEvents;
+- (void)clearAllNotificationState;
+- (double)totalFullDisableEvents;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) long long predictionScheme; // @synthesize predictionScheme=_predictionScheme;
-@property(retain, nonatomic) NSString *predictionSchemeString; // @synthesize predictionSchemeString=_predictionSchemeString;
-@property(retain, nonatomic) PowerUIRelevantDrainPredictionResult *prevStageResult; // @synthesize prevStageResult=_prevStageResult;
-@property(nonatomic) _Bool significantDrainAhead; // @synthesize significantDrainAhead=_significantDrainAhead;
-@property(nonatomic) unsigned long long suggestedLimit; // @synthesize suggestedLimit=_suggestedLimit;
-@property(nonatomic) double threshold; // @synthesize threshold=_threshold;
 
 @end
 

@@ -6,46 +6,19 @@
 
 #import <AccessibilityVisuals/AXVSpeechStyleWindow.h>
 
-@class AXVSpeechMenuButton, NSButton, NSImage, NSImageView, NSString, NSTextField, NSVisualEffectView;
+@class NSButton;
 @protocol AXVSpeechMenuWindowButtonEventDelegate;
 
 @interface AXVSpeechMenuWindow : AXVSpeechStyleWindow
 {
     id <AXVSpeechMenuWindowButtonEventDelegate> _buttonEventDelegate;
-    unsigned long long _currentSpeakingState;
-    NSButton *__closeButton;
-    NSButton *__placeholderButton;
-    NSButton *__minimizeButton;
-    AXVSpeechMenuButton *__slowerButton;
-    AXVSpeechMenuButton *__previousButton;
-    AXVSpeechMenuButton *__playPauseButton;
-    AXVSpeechMenuButton *__nextButton;
-    AXVSpeechMenuButton *__fasterButton;
-    AXVSpeechMenuButton *__stopButton;
-    NSVisualEffectView *__slowerButtonView;
-    NSVisualEffectView *__previousButtonView;
-    NSVisualEffectView *__playPauseButtonView;
-    NSVisualEffectView *__nextButtonView;
-    NSVisualEffectView *__fasterButtonView;
-    NSVisualEffectView *__stopButtonView;
-    NSImageView *__slowerButtonImageView;
-    NSImageView *__fasterButtonImageView;
-    NSImageView *__playPauseButtonImageView;
-    NSImageView *__nextButtonImageView;
-    NSImageView *__previousButtonImageView;
-    NSImageView *__stopButtonImageView;
-    NSImage *__turtleIcon;
-    NSImage *__playIcon;
-    NSImage *__pauseIcon;
-    NSImage *__hareIcon;
-    NSImage *__nextIcon;
-    NSImage *__previousIcon;
-    NSImage *__stopIcon;
-    NSTextField *__titleField;
 }
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -54,17 +27,14 @@
 - (void);
 - (void);
 - (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q-;
 - (void);
 - (void);
 - (void);
@@ -77,37 +47,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)F;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id)@qa;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -115,6 +75,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)@@y	?%@qa;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)*	;
+- (void)y	?%@qa;
 - (id);
 - (void);
 - (void);
@@ -126,11 +96,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -140,43 +110,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSButton *_closeButton; // @synthesize _closeButton=__closeButton;
-@property(retain, nonatomic) AXVSpeechMenuButton *_fasterButton; // @synthesize _fasterButton=__fasterButton;
-@property(retain, nonatomic) NSImageView *_fasterButtonImageView; // @synthesize _fasterButtonImageView=__fasterButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_fasterButtonView; // @synthesize _fasterButtonView=__fasterButtonView;
-@property(retain, nonatomic) NSImage *_hareIcon; // @synthesize _hareIcon=__hareIcon;
-@property(retain, nonatomic) NSButton *_minimizeButton; // @synthesize _minimizeButton=__minimizeButton;
-@property(retain, nonatomic) AXVSpeechMenuButton *_nextButton; // @synthesize _nextButton=__nextButton;
-@property(retain, nonatomic) NSImageView *_nextButtonImageView; // @synthesize _nextButtonImageView=__nextButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_nextButtonView; // @synthesize _nextButtonView=__nextButtonView;
-@property(retain, nonatomic) NSImage *_nextIcon; // @synthesize _nextIcon=__nextIcon;
-@property(retain, nonatomic) NSImage *_pauseIcon; // @synthesize _pauseIcon=__pauseIcon;
-@property(retain, nonatomic) NSButton *_placeholderButton; // @synthesize _placeholderButton=__placeholderButton;
-@property(retain, nonatomic) NSImage *_playIcon; // @synthesize _playIcon=__playIcon;
-@property(retain, nonatomic) AXVSpeechMenuButton *_playPauseButton; // @synthesize _playPauseButton=__playPauseButton;
-@property(retain, nonatomic) NSImageView *_playPauseButtonImageView; // @synthesize _playPauseButtonImageView=__playPauseButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_playPauseButtonView; // @synthesize _playPauseButtonView=__playPauseButtonView;
-@property(retain, nonatomic) AXVSpeechMenuButton *_previousButton; // @synthesize _previousButton=__previousButton;
-@property(retain, nonatomic) NSImageView *_previousButtonImageView; // @synthesize _previousButtonImageView=__previousButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_previousButtonView; // @synthesize _previousButtonView=__previousButtonView;
-@property(retain, nonatomic) NSImage *_previousIcon; // @synthesize _previousIcon=__previousIcon;
-@property(retain, nonatomic) AXVSpeechMenuButton *_slowerButton; // @synthesize _slowerButton=__slowerButton;
-@property(retain, nonatomic) NSImageView *_slowerButtonImageView; // @synthesize _slowerButtonImageView=__slowerButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_slowerButtonView; // @synthesize _slowerButtonView=__slowerButtonView;
-@property(retain, nonatomic) AXVSpeechMenuButton *_stopButton; // @synthesize _stopButton=__stopButton;
-@property(retain, nonatomic) NSImageView *_stopButtonImageView; // @synthesize _stopButtonImageView=__stopButtonImageView;
-@property(retain, nonatomic) NSVisualEffectView *_stopButtonView; // @synthesize _stopButtonView=__stopButtonView;
-@property(retain, nonatomic) NSImage *_stopIcon; // @synthesize _stopIcon=__stopIcon;
-@property(retain, nonatomic) NSTextField *_titleField; // @synthesize _titleField=__titleField;
-@property(retain, nonatomic) NSImage *_turtleIcon; // @synthesize _turtleIcon=__turtleIcon;
-@property(nonatomic) __weak id <AXVSpeechMenuWindowButtonEventDelegate> buttonEventDelegate; // @synthesize buttonEventDelegate=_buttonEventDelegate;
-@property(nonatomic) unsigned long long currentSpeakingState; // @synthesize currentSpeakingState=_currentSpeakingState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,7 +15,7 @@
 + (int);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)H;
 + (_Bool);
 + (_Bool);
 + (_Bool);

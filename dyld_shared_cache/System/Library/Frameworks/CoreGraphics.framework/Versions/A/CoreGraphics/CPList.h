@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPParagraphListItem;
-
 __attribute__((visibility("hidden")))
 @interface CPList
 {
     struct CGRect spacer;
-    int type;
-    unsigned int ordinalPrefixLength;
-    unsigned int ordinalSuffixLength;
-    CPParagraphListItem *parentItem;
-    struct __CFArray *items;
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -30,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -39,11 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)0;
 
 // Remaining properties
-@property(nonatomic) unsigned int ordinalPrefixLength; // @synthesize ordinalPrefixLength;
-@property(nonatomic) unsigned int ordinalSuffixLength; // @synthesize ordinalSuffixLength;
-@property(retain, nonatomic) CPParagraphListItem *parentItem; // @synthesize parentItem;
 @property(nonatomic) struct CGRect spacer; // @synthesize spacer;
-@property(nonatomic) int type; // @synthesize type;
 
 @end
 

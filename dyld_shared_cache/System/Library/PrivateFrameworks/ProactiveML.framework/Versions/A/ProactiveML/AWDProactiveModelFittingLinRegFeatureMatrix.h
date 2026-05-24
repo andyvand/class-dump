@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo, AWDProactiveModelFittingQuantizedSparseMatrix, AWDProactiveModelFittingSparseFloatMatrix;
-
 @interface AWDProactiveModelFittingLinRegFeatureMatrix
 {
     unsigned long long _timestamp;
-    float _featureMatrixL2norm;
-    float _featureMatrixScaleFactor;
-    AWDProactiveModelFittingMinibatchStats *_minibatchStats;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingSparseFloatMatrix *_sparseFloatFeatureMatrix;
-    AWDProactiveModelFittingQuantizedSparseMatrix *_sparseQuantizedFeatureMatrix;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int featureMatrixL2norm:1;
-        unsigned int featureMatrixScaleFactor:1;
-    } _has;
 }
 
 - (id);
@@ -35,16 +22,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (float);
+- (float);
 - (float);
 - (void);
 - (_Bool);
 - (float);
 - (id);
-- (id);
+- (id)skipWriteMissingAssetStatusRecord;
 - (void);
 - (void);
 - (unsigned long long);
@@ -53,27 +40,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)iriCoreSiriBackgroundConnection"16@"NSDictionary"24;
 
 // Remaining properties
-@property(nonatomic) float featureMatrixL2norm; // @synthesize featureMatrixL2norm=_featureMatrixL2norm;
-@property(nonatomic) float featureMatrixScaleFactor; // @synthesize featureMatrixScaleFactor=_featureMatrixScaleFactor;
-@property(nonatomic) _Bool hasFeatureMatrixL2norm;
-@property(nonatomic) _Bool hasFeatureMatrixScaleFactor;
-@property(readonly, nonatomic) _Bool hasMinibatchStats;
-@property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasSparseFloatFeatureMatrix;
-@property(readonly, nonatomic) _Bool hasSparseQuantizedFeatureMatrix;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *minibatchStats; // @synthesize minibatchStats=_minibatchStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingSparseFloatMatrix *sparseFloatFeatureMatrix; // @synthesize sparseFloatFeatureMatrix=_sparseFloatFeatureMatrix;
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedSparseMatrix *sparseQuantizedFeatureMatrix; // @synthesize sparseQuantizedFeatureMatrix=_sparseQuantizedFeatureMatrix;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

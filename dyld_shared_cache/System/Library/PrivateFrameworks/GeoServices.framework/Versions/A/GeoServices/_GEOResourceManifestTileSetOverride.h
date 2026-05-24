@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSURL;
-
 @interface _GEOResourceManifestTileSetOverride
 {
     int _style;
-    int _size;
-    int _scale;
-    NSNumber *_version;
-    NSURL *_baseURL;
-    NSURL *_localizationURL;
 }
 
 + (_Bool)equest (%d).;
@@ -22,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (int);
 - (int);
 - (void);
@@ -33,12 +26,7 @@
 - (id)EGrùgP@;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSURL *localizationURL; // @synthesize localizationURL=_localizationURL;
-@property(readonly, nonatomic) int scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) int size; // @synthesize size=_size;
 @property(readonly, nonatomic) int style; // @synthesize style=_style;
-@property(copy, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

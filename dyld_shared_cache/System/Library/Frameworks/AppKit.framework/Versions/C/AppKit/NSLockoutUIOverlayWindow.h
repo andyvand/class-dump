@@ -6,62 +6,58 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSLockoutUIOverlayWindow : NSWindow
 {
     NSWindow *_original;
-    double _animationDuration;
-    CDUnknownBlockType _pendingCompletionHandler;
-    _Bool _needToEngageMiniaturizedWindow;
-    _Bool _needToDisengageMiniaturizedWindow;
-    _Bool _engaged;
 }
 
-- (void);
+- (void);
 - (struct CGSize);
 - (struct CGSize);
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
+- (void)set_connectionCacheCellPurgeTimeout:(double)arg1;
+- (void)initWithBackgroundTaskInfo:(double)arg1 taskGroup:(CDUnknownBlockType)arg2;
+- (struct CGRect)_onqueue_resetStorageWithCompletionHandler:(struct CGRect)arg1;
+- (id)id *;
+- (_Bool)ackground authenticator getting headers for %@ codes %@;
+- (_Bool)ction %lld);
+- (_Bool)(lm	mm(mn	nn(np	pp(pll
+llll)l8lmm
+mmmm)m8mnn
+nnnn)n8npp
+pppp)p8pr	rr(ru	uu(u:(unsigned long long)arg1 :(unsigned long long)arg2 BBCCDDrr
+rrrr)r8ruu
+uuuu)u8u:::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (long long);
-- (long long);
+- (long long);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (_Bool)@;
 - (void);
+- (id)@;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id)eedsRedisplayWhenBeginningToolbarEditing;
+- (id)_needsRedisplayWhenBeginningToolbarEditing;
 - (struct CGSize)ð£¼ÿ¤C;
 - (struct CGSize)\äG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

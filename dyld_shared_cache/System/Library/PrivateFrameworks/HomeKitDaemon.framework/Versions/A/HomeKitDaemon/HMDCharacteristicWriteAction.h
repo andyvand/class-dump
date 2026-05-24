@@ -6,18 +6,12 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class HMDCharacteristic, HMDHAPAccessory, HMDHome, NSDictionary, NSNumber, NSString, NSUUID;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicWriteAction : HMDAction
 {
     id _targetValue;
-    NSUUID *_accessoryUUID;
-    NSNumber *_serviceID;
-    NSNumber *_characteristicID;
-    NSDictionary *_actionInformation;
-    NSString *_dumpState;
-    HMDHome *_home;
 }
 
 + (id);
@@ -38,10 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)dtDelegateSessionPaused;
+- (id)*;
 - (id);
 - (id);
 - (unsigned long long);
@@ -54,29 +48,14 @@ __attribute__((visibility("hidden")))
 - (id)onLogEvent",R,C,N;
 - (void)pportsAppleProvisioning:(id)arg1 %@;
 - (id)ficantEventTypePackages to existing significant event notification condition:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)utomationDailyCountAnalyzer;
+- (void)observationTask;
+- (void)CleanEnergyAutomationDailyCountAnalyzer;
 - (id)Ùo',;
 - (id)@;
 - (id)ãÿñ;
 
 // Remaining properties
-@property(readonly) HMDHAPAccessory *accessory;
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, nonatomic) NSDictionary *actionInformation; // @synthesize actionInformation=_actionInformation;
-@property(readonly, nonatomic) __weak HMDCharacteristic *characteristic;
-@property(readonly, nonatomic) NSNumber *characteristicID; // @synthesize characteristicID=_characteristicID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dumpState; // @synthesize dumpState=_dumpState;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) NSNumber *serviceID; // @synthesize serviceID=_serviceID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) id targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

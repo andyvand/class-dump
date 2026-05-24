@@ -6,54 +6,40 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSString, RTDefaultsManager, RTFingerprintStore, RTScenarioTriggerManager, RTTimer, RTTimerManager, RTWiFiManager;
-
 @interface RTFingerprintManager : RTService
 {
     _Bool _available;
-    _Bool _fingerprintMonitoringEnabled;
-    RTDefaultsManager *_defaultsManager;
-    RTFingerprintStore *_fingerprintStore;
-    RTTimer *_scanRequestTimer;
-    RTTimer *_scanResultTimer;
-    RTScenarioTriggerManager *_scenarioTriggerManager;
-    RTTimerManager *_timerManager;
-    RTWiFiManager *_wifiManager;
-    unsigned long long _accessPointsFetchLimit;
-    unsigned long long _accessPointsCollectedPerFingerprint;
-    NSDate *_startCollectAccessPoints;
-    unsigned long long _settledState;
 }
 
 + (long long);
 + (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)needPassword;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)nto keychain:%d /* Error: Ran out of types for this method. */;
+- (unsigned long long)ot available:%d /* Error: Ran out of types for this method. */;
+- (void)tadata key hashes to DBR record;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (unsigned long long)4;
 - (void);
 - (id);
 - (id);
@@ -69,26 +55,7 @@
 - (void)#;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessPointsCollectedPerFingerprint; // @synthesize accessPointsCollectedPerFingerprint=_accessPointsCollectedPerFingerprint;
-@property(nonatomic) unsigned long long accessPointsFetchLimit; // @synthesize accessPointsFetchLimit=_accessPointsFetchLimit;
 @property(nonatomic) _Bool available; // @synthesize available=_available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fingerprintMonitoringEnabled; // @synthesize fingerprintMonitoringEnabled=_fingerprintMonitoringEnabled;
-@property(readonly, nonatomic) RTFingerprintStore *fingerprintStore; // @synthesize fingerprintStore=_fingerprintStore;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTTimer *scanRequestTimer; // @synthesize scanRequestTimer=_scanRequestTimer;
-@property(retain, nonatomic) RTTimer *scanResultTimer; // @synthesize scanResultTimer=_scanResultTimer;
-@property(readonly, nonatomic) RTScenarioTriggerManager *scenarioTriggerManager; // @synthesize scenarioTriggerManager=_scenarioTriggerManager;
-@property(nonatomic) unsigned long long settledState; // @synthesize settledState=_settledState;
-@property(retain, nonatomic) NSDate *startCollectAccessPoints; // @synthesize startCollectAccessPoints=_startCollectAccessPoints;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

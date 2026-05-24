@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetMessageAttributeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)@0:(long long)arg1 8@"NSXPCConnection"16;
++ (int)preFPFSDownloadOrGenerateThumbnailAtTaggedURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)maximumPixelSize;
++ (_Bool)integerValue;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)sendRPKitManualRecordingSavedEventForBundleID:(id)arg1 productCategory:duration: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)r:(id)arg1 %@;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)izedValue;
+- (long long)_localizedValue;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

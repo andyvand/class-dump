@@ -9,7 +9,6 @@
 @interface AKRedactionRectAnnotation : AKRectangularShapeAnnotation
 {
     _Bool _isOpaque;
-    _Bool _isHighlighted;
 }
 
 + (_Bool);
@@ -21,13 +20,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)DFDocument=}16;
 - (void);
 - (_Bool)!EùÑÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
 @property _Bool isOpaque; // @synthesize isOpaque=_isOpaque;
 
 @end

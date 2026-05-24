@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKChangeHistoryEvent
 {
     NSString *_identifier;
-    long long _type;
-    long long _recordType;
-    NSString *_recordUniqueID;
-    NSDate *_timestamp;
 }
 
 - (void);
@@ -24,12 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (long long);
-- (long long);
-- (_Bool);
-- (void);
+- (long long)currentPageIndex;
+- (long long);
+- (_Bool)hasHeRxtrigMubar;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,14 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long recordType; // @synthesize recordType=_recordType;
-@property(retain, nonatomic) NSString *recordUniqueID; // @synthesize recordUniqueID=_recordUniqueID;
-@property(readonly, nonatomic) _Bool representsCatalogUpdate;
-@property(readonly, nonatomic) _Bool representsPassAddition;
-@property(readonly, nonatomic) _Bool representsPassRemoval;
-@property(readonly, nonatomic) _Bool representsPassUpdate;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

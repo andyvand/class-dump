@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
-
 @interface _SFPBUserActivityInfo
 {
     int _valueType;
-    NSString *_key;
-    NSString *_stringValue;
-    _SFPBURL *_urlValue;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (int);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)setImageSize:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -34,17 +29,6 @@
 - (void)v24@0:8@"_SFPBRFFormattedText"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBURL *urlValue; // @synthesize urlValue=_urlValue;
 @property(nonatomic) int valueType; // @synthesize valueType=_valueType;
 
 @end

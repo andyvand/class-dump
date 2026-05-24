@@ -9,9 +9,6 @@
 @interface IXRefreshContainerOptions
 {
     _Bool _allowRefreshDuringPostProcessing;
-    _Bool _forceTerminateApp;
-    NSString *_reason;
-    unsigned long long _containerTypes;
 }
 
 + (_Bool);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowRefreshDuringPostProcessing; // @synthesize allowRefreshDuringPostProcessing=_allowRefreshDuringPostProcessing;
-@property(readonly, nonatomic) unsigned long long containerTypes; // @synthesize containerTypes=_containerTypes;
-@property(nonatomic) _Bool forceTerminateApp; // @synthesize forceTerminateApp=_forceTerminateApp;
 @property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

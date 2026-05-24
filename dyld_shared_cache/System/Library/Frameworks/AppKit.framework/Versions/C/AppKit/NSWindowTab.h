@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSString, NSTabBarItem, NSView, NSWindow;
+@class NSString, NSWindow;
 
 @interface NSWindowTab
 {
     NSString *_title;
-    NSAttributedString *_attributedTitle;
-    NSString *_toolTip;
-    NSImage *_image;
-    NSView *_accessoryView;
-    NSTabBarItem *_tabBarItem;
-    NSWindow *_window;
-    _Bool _showIcon;
 }
 
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)rb;
+- (void)DeviceVariant;
+- (id)+;
 - (void);
 - (id);
 - (id);
 - (void)peration"16;
-- (void)sitionWithCompletionHandler:(id)arg1;
+- (void)finishLoginTransitionWithCompletionHandler:(id)arg1;
 - (id);
 - (id).open.document;
 - (void)uit]_block_invoke;
 - (id)suom;
 - (void);
-- (void);
+- (void)JY;
 
 // Remaining properties
-@property(retain) NSView *accessoryView;
-@property(copy) NSAttributedString *attributedTitle;
-@property(copy) NSImage *image;
-@property _Bool showIcon;
-@property(readonly) NSTabBarItem *tabBarItem;
-@property(copy) NSString *title;
-@property(copy) NSString *toolTip;
 @property __weak NSWindow *window; // @synthesize window=_window;
 
 @end

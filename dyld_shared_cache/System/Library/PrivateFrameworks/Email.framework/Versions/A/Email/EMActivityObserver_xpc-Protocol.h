@@ -5,5 +5,7 @@
 //
 
 @protocol EMActivityObserver_xpc
+- (void);
+- (void)@;
 @end
 

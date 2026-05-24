@@ -5,5 +5,7 @@
 //
 
 @protocol PKTextInputPaletteControllerDelegate
+- (void)ation.framework/Versions/A/CoreFoundation;
+- (void)t;
 @end
 

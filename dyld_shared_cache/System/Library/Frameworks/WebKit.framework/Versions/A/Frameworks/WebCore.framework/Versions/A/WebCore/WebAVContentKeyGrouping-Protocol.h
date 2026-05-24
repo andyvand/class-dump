@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol WebAVContentKeyGrouping
+- (NSData *);
 - (void)amåâëìé=@@uè8Åôæé³ó¨iîçäfteeîçÄz­happy­è(äè#®hôà',åè;Rdrigèà¹báç#$rfïçªpláçÅcî
 	
 @Cc#d³``T¢JrÅweáàr	treåfÏà-bmåè¡ieòb»æåoÎhadoscïå

@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPLinkView, NSURL;
+@protocol LPAudioPlayer;
+
 @protocol LPLinkViewDelegate
+
+@optional
+- (void)warning;
+- (void)valueWithRange:(LPLinkView *)arg1;
+- (id <LPAudioPlayer>)ing",R,C,N,V_messageID;
+- (NSURL *)g",R,C,N,V_compatibilityService;
+- (void)t;
 @end
 

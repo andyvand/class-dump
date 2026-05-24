@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKShape;
+@class PKShape;
 
 @interface PKAlternativeStrokesAnimation
 {
     _Bool _accepted;
-    _Bool _forceDone;
-    PKShape *_shape;
-    NSArray *_strokes;
-    double _startTime;
-    double _crossFadeStartTime;
-    double _fadeDuration;
-    double _originalStrokeDimmingFactor;
 }
 
 - (void);
@@ -29,20 +22,13 @@
 - (double);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool accepted; // @synthesize accepted=_accepted;
-@property(readonly, nonatomic) double crossFadeStartTime; // @synthesize crossFadeStartTime=_crossFadeStartTime;
-@property(readonly, nonatomic) double fadeDuration; // @synthesize fadeDuration=_fadeDuration;
-@property(nonatomic) _Bool forceDone; // @synthesize forceDone=_forceDone;
-@property(readonly, nonatomic) double originalStrokeDimmingFactor; // @synthesize originalStrokeDimmingFactor=_originalStrokeDimmingFactor;
 @property(readonly, nonatomic) PKShape *shape; // @synthesize shape=_shape;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end
 

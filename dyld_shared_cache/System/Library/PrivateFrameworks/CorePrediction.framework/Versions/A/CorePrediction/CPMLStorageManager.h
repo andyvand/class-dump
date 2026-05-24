@@ -8,12 +8,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)rationQueue"24@0:(id)arg1 8@"NSFilePromiseProvider"16;
+- (id)eProvider"16@"NSURL"24@?<v@?@"NSError">32;
+- (id)romiseProvider"16@"NSString"24;
+- (id)ession"16q24;
+- (id)v48@0:(id)arg1 8@16{CGPoint=dd}24Q40;
+- (id)andler>";
 
 @end
 

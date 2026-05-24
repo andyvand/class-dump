@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface MRApplicationActivity
 {
     NSUUID *_uniqueIdentifier;
-    NSString *_primaryApplicationDisplayID;
-    NSString *_secondaryApplicationDisplayID;
-    int _status;
-    int _creatorProcessID;
 }
 
 + (_Bool);
@@ -27,14 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int):] /* Error: Ran out of types for this method. */;
 - (void)Date;
 
 // Remaining properties
-@property(readonly, nonatomic) int creatorProcessID; // @synthesize creatorProcessID=_creatorProcessID;
-@property(readonly, nonatomic) NSString *primaryApplicationDisplayID; // @synthesize primaryApplicationDisplayID=_primaryApplicationDisplayID;
-@property(readonly, nonatomic) NSString *secondaryApplicationDisplayID; // @synthesize secondaryApplicationDisplayID=_secondaryApplicationDisplayID;
-@property(readonly, nonatomic) int status; // @synthesize status=_status;
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

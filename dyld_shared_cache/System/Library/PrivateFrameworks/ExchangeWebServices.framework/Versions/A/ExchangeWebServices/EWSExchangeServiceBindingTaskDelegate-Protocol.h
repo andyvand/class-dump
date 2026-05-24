@@ -5,5 +5,8 @@
 //
 
 @protocol EWSExchangeServiceBindingTaskDelegate
+
+@optional
+- (void);
 @end
 

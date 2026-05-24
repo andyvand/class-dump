@@ -6,7 +6,7 @@
 
 #import <OnBoardingKit/OBPasscodeInputView.h>
 
-@class NSString, UITextField;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface OBComplexPasscodeInputView : OBPasscodeInputView
@@ -26,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UITextField *passcodeField; // @synthesize passcodeField=_passcodeField;
-@property(readonly) Class superclass;
 
 @end
 

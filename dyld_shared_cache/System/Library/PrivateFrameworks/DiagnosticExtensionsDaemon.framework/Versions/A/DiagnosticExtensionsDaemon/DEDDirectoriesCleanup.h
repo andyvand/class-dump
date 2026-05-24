@@ -10,7 +10,7 @@
 
 + (void);
 + (_Bool);
-+ (void);
++ (void);
 + (_Bool)er failed to deserialize attachments response:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end

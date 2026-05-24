@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)x<^B;
-- (id);
+- (id)setEndDatetime:(id)arg1;
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)oryConfiguredNotificationKey;
+- (void)HMDTargetAccessoryConfiguredNotificationKey;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDRemoteLoginProxyAuthenticationRequest *request; // @synthesize request=_request;

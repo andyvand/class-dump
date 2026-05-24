@@ -6,28 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface USOSchemaUSONodeDataTier1 : SISchemaInstrumentationMessage
 {
     unsigned int _index;
-    NSString *_stringPayload;
-    int _integerPayload;
-    NSArray *_normalizedStringPayloads;
-    struct {
-        unsigned int index:1;
-        unsigned int integerPayload:1;
-    } _has;
-    _Bool _hasStringPayload;
 }
 
 - (id);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)9;
 - (id);
 - (id);
 - (int);
@@ -42,28 +32,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)`<;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_objectToKeyDictionary;
+- (_Bool)cmj.message_id = m.ROWID WHERE   m.thread_originator_guid == ?   AND m.associated_message_guid IS NULL GROUP BY  m.thread_originator_part;
+- (id);
 - (id);
-- (id);
-- (id)eteStartToDNSResolution;
-- (unsigned int)estContext;
-- (id)Result;
+- (id)deleteStartToDNSResolution;
+- (unsigned int)deletePgPrescribedPlanRequestContext;
+- (id)_operationResult;
 - (void)ltsStatsReported;
 - (void)outcome.success.returnValue.collection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasIntegerPayload;
-@property(nonatomic) _Bool hasStringPayload; // @synthesize hasStringPayload=_hasStringPayload;
 @property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(nonatomic) int integerPayload; // @synthesize integerPayload=_integerPayload;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *normalizedStringPayloads; // @synthesize normalizedStringPayloads=_normalizedStringPayloads;
-@property(copy, nonatomic) NSString *stringPayload; // @synthesize stringPayload=_stringPayload;
 
 @end
 

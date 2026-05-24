@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDObject, ASDPropertyAddress;
-@protocol ASDCustomPropertyInterest;
+@class ASDObject;
 
 @interface ASDCustomProperty
 {
     _Bool _settable;
-    unsigned int _propertyDataType;
-    unsigned int _qualifierDataType;
-    ASDPropertyAddress *_address;
-    id <ASDCustomPropertyInterest> _interested;
-    ASDObject *_owner;
 }
 
 - (void);
@@ -28,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (unsigned int);
-- (void);
+- (void),;
 - (id);
 - (unsigned int);
 - (id);
@@ -41,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ASDPropertyAddress *address; // @synthesize address=_address;
-@property(readonly, nonatomic) unsigned int element;
-@property(nonatomic) __weak id <ASDCustomPropertyInterest> interested; // @synthesize interested=_interested;
 @property(nonatomic) __weak ASDObject *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) unsigned int propertyDataType; // @synthesize propertyDataType=_propertyDataType;
-@property(readonly, nonatomic) unsigned int qualifierDataType; // @synthesize qualifierDataType=_qualifierDataType;
-@property(readonly, nonatomic) unsigned int scope;
-@property(readonly, nonatomic) unsigned int selector;
-@property(nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
-@property(readonly, nonatomic) id value;
 
 @end
 

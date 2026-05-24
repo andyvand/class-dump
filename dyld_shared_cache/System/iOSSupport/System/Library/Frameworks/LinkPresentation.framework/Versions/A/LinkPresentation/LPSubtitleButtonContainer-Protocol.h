@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPSubtitleButtonView;
+
 @protocol LPSubtitleButtonContainer
+- (LPSubtitleButtonView *)chatScene:willConnectToSession:userActivities:urlContexts:windowSceneDelegate: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ChronoServices/CHSWidgetExtension.h>
 
-@class CHSEntitlementCollection, CHSExtensionIdentity, NSArray, NSSet, NSString;
+@class CHSExtensionIdentity;
 
 @interface CHSMutableWidgetExtension : CHSWidgetExtension
 {
@@ -20,18 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *containerBundleLocalizedDisplayName; // @dynamic containerBundleLocalizedDisplayName;
-@property(nonatomic) long long dataProtectionLevel; // @dynamic dataProtectionLevel;
-@property(retain, nonatomic) CHSEntitlementCollection *entitlements; // @dynamic entitlements;
 @property(copy, nonatomic) CHSExtensionIdentity *identity; // @dynamic identity;
-@property(copy, nonatomic) NSSet *liveActivityDescriptors; // @dynamic liveActivityDescriptors;
-@property(copy, nonatomic) NSString *localizedDisplayName; // @dynamic localizedDisplayName;
-@property(copy, nonatomic) NSArray *orderedControlDescriptors; // @dynamic orderedControlDescriptors;
-@property(copy, nonatomic) NSArray *orderedWidgetDescriptors; // @dynamic orderedWidgetDescriptors;
 
 @end
 

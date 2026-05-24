@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEDNSSettings, NEProxySettings, NSString;
+@class NSString;
 
 @interface NETunnelNetworkSettings
 {
     NSString *_tunnelRemoteAddress;
-    NEDNSSettings *_DNSSettings;
-    NEProxySettings *_proxySettings;
 }
 
-+ (_Bool);
++ (_Bool)setSyncDaemonController: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)211BindToInterface returned %d;
+- (id)ortContactResponse;
 - (void);
 - (id);
 - (void)}^{nw_protocol}^v^{nw_protocol}^v}16;
-- (_Bool)aceTypeMatch:(id)arg1;
+- (_Bool)setInterfaceTypeMatch:(id)arg1;
 - (id)resetRemoteAddress:(int)arg1 ];
 
 // Remaining properties
-@property(copy) NEDNSSettings *DNSSettings; // @synthesize DNSSettings=_DNSSettings;
-@property(copy) NEProxySettings *proxySettings; // @synthesize proxySettings=_proxySettings;
 @property(readonly) NSString *tunnelRemoteAddress; // @synthesize tunnelRemoteAddress=_tunnelRemoteAddress;
 
 @end

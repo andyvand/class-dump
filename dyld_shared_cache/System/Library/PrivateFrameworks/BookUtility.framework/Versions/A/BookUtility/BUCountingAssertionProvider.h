@@ -5,13 +5,11 @@
 //
 
 @class NSObject;
-@protocol BUCountingAssertionProviderDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface BUCountingAssertionProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _count;
-    id <BUCountingAssertionProviderDelegate> _delegate;
 }
 
 - (id);

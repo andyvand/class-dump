@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void)dThresholdForCurrentTransportType;
+- (void)_speedThresholdForCurrentTransportType;
 
 @end
 

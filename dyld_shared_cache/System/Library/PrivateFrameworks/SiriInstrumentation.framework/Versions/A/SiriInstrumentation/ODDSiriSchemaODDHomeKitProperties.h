@@ -6,26 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDHomeKitProperties : SISchemaInstrumentationMessage
 {
     _Bool _hasHomekitHome;
-    struct {
-        unsigned int hasHomekitHome:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (id);
 - (id)0@ù
 × ;
@@ -33,9 +28,7 @@
 - (id)TSchemaMTBatchRequestCancelled",&,N,V_cancelled;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasHomekitHome;
 @property(nonatomic) _Bool hasHomekitHome; // @synthesize hasHomekitHome=_hasHomekitHome;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityMeasurerBurst
 {
     id $defaultActor;
-    id rtts;
-    id packetsSent;
-    id acksReceived;
-    id start;
-    id end;
 }
 
 @end

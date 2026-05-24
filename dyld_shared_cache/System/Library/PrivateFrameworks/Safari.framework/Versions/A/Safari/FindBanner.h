@@ -6,26 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class FindBannerSearchField, NSPopUpButton, NSResponder, NSSegmentedControl, NSString, NSTextField, NSTimer;
-@protocol FindBannerDelegate;
+@class FindBannerSearchField, NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface FindBanner : Banner
 {
     NSTimer *_clearMatchCountTimer;
-    int _lastFindPasteboardChangeCount;
-    unsigned long long _matchCount;
-    long long _matchIndex;
-    NSString *_previousSearchString;
-    _Bool _nextReturnShouldPerformFind;
-    _Bool _suppressUpdatingSearchFieldFromFindPasteboard;
-    _Bool _forceUpdateSearchFieldFromFindPasteboardScheduled;
-    _Bool _beepOnFailure;
-    NSResponder *_supplementalSearchFieldCommandPerformer;
-    FindBannerSearchField *_searchField;
-    NSSegmentedControl *_nextPreviousControl;
-    NSTextField *_statusField;
-    NSPopUpButton *_findBehaviorPopUp;
 }
 
 + (unsigned long long);
@@ -53,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -71,15 +57,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)7;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -87,19 +73,7 @@ __attribute__((visibility("hidden")))
 - (void)RÒÃ-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FindBannerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property __weak NSPopUpButton *findBehaviorPopUp; // @synthesize findBehaviorPopUp=_findBehaviorPopUp;
-@property(readonly) unsigned long long hash;
-@property __weak NSSegmentedControl *nextPreviousControl; // @synthesize nextPreviousControl=_nextPreviousControl;
 @property __weak FindBannerSearchField *searchField; // @synthesize searchField=_searchField;
-@property __weak NSTextField *statusField; // @synthesize statusField=_statusField;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSResponder *supplementalSearchFieldCommandPerformer; // @synthesize supplementalSearchFieldCommandPerformer=_supplementalSearchFieldCommandPerformer;
 
 @end
 

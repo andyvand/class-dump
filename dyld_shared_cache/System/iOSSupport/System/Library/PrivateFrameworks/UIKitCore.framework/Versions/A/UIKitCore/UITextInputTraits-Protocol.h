@@ -13,13 +13,13 @@
 × ;
 - (UIConversationContext *)!¸Dùeð1Â0@ù
 × ;
-- (_Bool)entifier:shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
-- (void)erfaceOrientations;
-- (void)atIndex:(unsigned long long)arg1;
-- (UITextInputPasswordRules *):visibleLayerCount: /* Error: Ran out of types for this method. */;
-- (void)eView;
+- (_Bool)popoverWithIdentifier:shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (void)_windowCanDynamicallySpecifySupportedInterfaceOrientations;
+- (void)_selectEntry:(unsigned long long)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (UITextInputPasswordRules *)_contentSizeInExposedRect:topLayer:visibleLayerCount: /* Error: Ran out of types for this method. */;
+- (void)updateHostedInlineCandidateView;
 - (void)hange:(long long)arg1 fence:] /* Error: Ran out of types for this method. */;
-- (long long)tGrayTintColor;
+- (long long)systemDarkLightGrayTintColor;
 - (long long)xtAnimationsNewRenderController(void);
 - (NSString *)?0@"<_UIFeedbackPlayer>"8;
 - (void)ss to file URLs;
@@ -28,7 +28,7 @@
 - (void)mpted to lay out a pinned supplementary item whose frame %@ does not intersect with the visible bounds %@. Please file a bug against UICollectionView.;
 - (long long)roller of style UIAlertControllerStyleAlert;
 - (long long)perly entitled.;
-- (long long)tBleedOpacity;
+- (long long)inputBleedOpacity;
 - (long long)bug.;
 - (long long)nteractions;
 - (void)²°þÿ;
@@ -43,81 +43,9 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) long long autocapitalizationType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
 
 @end
 

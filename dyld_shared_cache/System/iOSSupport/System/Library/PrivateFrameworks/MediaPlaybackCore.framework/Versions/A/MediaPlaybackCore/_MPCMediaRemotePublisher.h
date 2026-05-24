@@ -4,52 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, MPNowPlayingInfoCenter, MPRemoteCommandCenter, MSVBlockGuard, NSArray, NSDictionary, NSObject, NSString, _MPCMediaRemoteDetective, _MPCMediaRemotePublisher_Swift;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _MPCMediaRemotePublisher
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasBeganFastForward;
-    _Bool _hasBeganRewind;
-    NSObject<OS_dispatch_source> *_nextPreviousTrackCooldownTimer;
-    long long _deferredTrackChangeDelta;
-    NSArray *_lastCommandDescriptions;
-    id _extendedBackgroundTask;
-    struct {
-        unsigned long long launchCommands;
-        unsigned long long itemUpdate;
-    } _hashes;
-    _Bool _commandUpdateScheduled;
-    _Bool _overrideStopState;
-    CDUnknownBlockType _mrMigratePostCallbackCompletion;
-    MSVBlockGuard *_mrMigratePostCallbackGuard;
-    _Bool _initializedSupportedCommands;
-    _Bool _engineRestoringState;
-    MPCPlaybackEngine *_playbackEngine;
-    MPNowPlayingInfoCenter *_infoCenter;
-    MPRemoteCommandCenter *_commandCenter;
-    NSString *_hostingSharedSessionID;
-    _MPCMediaRemotePublisher_Swift *_swift;
-    _MPCMediaRemoteDetective *_detective;
-    NSDictionary *_lastPerformanceMetrics;
 }
 
-- (unsigned long long);
+- (unsigned long long)ameworks/Foundation.framework/Versions/C/Foundation;
+- (void)__objc_imageinfo__DATA_CONST;
+- (void);
+- (id);
+- (void)ss actions:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,13 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)debugDescription;
 - (id);
 - (id);
 - (void);
@@ -78,18 +52,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)isMemberOfClass: /* Error: Ran out of types for this method. */;
+- (void)assetsdClient;
+- (void)canRemoveAccount:(id)arg1 inStore:(double)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)Stream for unsupported platform;
+- (_Bool)lClient isReadyForCloudPhotoLibrary...;
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sC;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -108,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -118,18 +92,7 @@ __attribute__((visibility("hidden")))
 - (void)PositionHead to PositionSpecified after deferredNextContentItem [head (current item was placeholder)] deferredNextContentItem=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPRemoteCommandCenter *commandCenter; // @synthesize commandCenter=_commandCenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *hostingSharedSessionID; // @synthesize hostingSharedSessionID=_hostingSharedSessionID;
-@property(readonly, nonatomic) MPNowPlayingInfoCenter *infoCenter; // @synthesize infoCenter=_infoCenter;
-@property(readonly, nonatomic, getter=hasInitializedSupportedCommands) _Bool initializedSupportedCommands;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly) Class superclass;
 
 @end
 

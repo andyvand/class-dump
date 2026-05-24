@@ -8,16 +8,12 @@
 - (double)CùQZ1Â0@ù
 × ;
 - (_Bool);
-- (void)ation:(_Bool)arg1;
-- (void)cleAnimationWithLayer:(double)arg1 animation:key: /* Error: Ran out of types for this method. */;
+- (void)updateOpacityAnimation:(_Bool)arg1;
+- (void)cycleAnimationWithLayer:(double)arg1 animation:key: /* Error: Ran out of types for this method. */;
 - (_Bool)InterfaceOrientationUnknown;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool floating;
 @property(nonatomic) _Bool isHeader;
-@property(nonatomic) struct UIEdgeInsets margins;
-@property(nonatomic) double maxTitleWidth;
-@property(nonatomic) long long textAlignment;
 @end
 

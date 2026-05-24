@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface MRArtwork
 {
     NSData *_imageData;
-    long long _height;
-    long long _width;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (id);
-- (long long);
-- (long long);
+- (long long)movedMessagesToRecentlyDeletedForChatsWithGUIDs:queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (long long)or sync %@, is not recoverable, will defer to DAS if possible;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ouncementRequestTypesWithCompletion:(long long)arg1 ]_block_invoke;
+- (id);};
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)Date;
+- (void)lastPlayingDate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) long long height; // @synthesize height=_height;
 @property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

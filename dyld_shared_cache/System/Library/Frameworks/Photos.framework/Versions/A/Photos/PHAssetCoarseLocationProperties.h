@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id)ountKey;
++ (id)PHMemoryCurationAvailabilityOptionVideoCountKey;
 - (double);
 - (id)or subtype (%lu) with album kind:(id)arg1 %d, dict:(id)arg2 %@;
 

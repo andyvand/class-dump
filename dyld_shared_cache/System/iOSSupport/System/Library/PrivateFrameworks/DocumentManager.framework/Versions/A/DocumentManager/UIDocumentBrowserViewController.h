@@ -4,61 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOCAppearance, DOCConfiguration, DOCDocBrowserVC_UIActivityViewController, DOCDocumentCreationController, DOCRemoteContainerViewController, DOCUIPBrowserState, NSArray, NSOperationQueue, NSString, NSTimer, NSURL, UIColor, UIDocumentBrowserTransitionController, UIMenu, UISheetPresentationController, UIView, UIViewController, _UIRemoteViewController;
-@protocol DOCServiceDocumentBrowserViewControllerInterface, UIDocumentBrowserViewControllerDelegate, UINSDocumentBrowserViewController, _UIDocumentLandingPresenter;
-
 @interface UIDocumentBrowserViewController
 {
     _Bool _isDisplayingRemoteViewController;
-    _Bool _isDelayingRemotePresentation;
-    _Bool _isDelayingParentPresentation;
-    _Bool _hasScheduledAppearanceUpdateXPC;
-    _Bool _configuredForUIPDocumentLanding;
-    _Bool _attachedToLaunchOptionsForUIPDocumentLanding;
-    UIView *_trackingViewsContainer;
-    DOCAppearance *_appearance;
-    NSURL *_urlCurrentlyBeingImported;
-    UIDocumentBrowserTransitionController *_uipTransitionCoordinator;
-    _Bool _allowsDocumentCreation;
-    _Bool _allowsPickingMultipleItems;
-    _Bool _remoteHasReceivedInitialUIPBrowserState;
-    _Bool _shouldPresentBridgedDocumentBrowser;
-    id <UIDocumentBrowserViewControllerDelegate> _delegate;
-    NSArray *_additionalLeadingNavigationBarButtonItems;
-    NSArray *_additionalTrailingNavigationBarButtonItems;
-    NSArray *_customActions;
-    NSArray *_leadingBarButtonTrackingViews;
-    NSArray *_trailingBarButtonTrackingViews;
-    NSArray *_remoteAdditionalLeadingNavigationBarButtonItems;
-    NSArray *_remoteAdditionalTrailingNavigationBarButtonItems;
-    UIViewController *_dummySplitViewController;
-    DOCRemoteContainerViewController *_remoteViewController;
-    DOCDocBrowserVC_UIActivityViewController *_activityViewController;
-    id <DOCServiceDocumentBrowserViewControllerInterface> _serviceProxy;
-    NSOperationQueue *_serviceQueue;
-    DOCDocumentCreationController *_documentCreationController;
-    DOCUIPBrowserState *_preferredUIPBrowserState;
-    UISheetPresentationController *_observedUIPPresentationController;
-    id <_UIDocumentLandingPresenter> _documentLandingPresenter;
-    UIMenu *_browserHostedCreateDocumentsMenu;
-    id <UINSDocumentBrowserViewController> _bridgedDocumentBrowserViewController;
-    NSArray *_documentTypes;
-    NSTimer *_presentDocumentBrowserTimer;
-    DOCConfiguration *_configuration;
-    UIColor *_backgroundColor;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (void);
+- (void)k!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,7 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id);
@@ -93,7 +54,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -113,8 +74,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -129,7 +90,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -146,8 +107,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ha;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -167,7 +128,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -189,9 +150,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)initForWritingToURL:(id)arg1 error:(CDUnknownBlockType)arg2;
+- (void)= %@; key = %@>;
+- (long long)riter.Channel;
 - (void);
 - (void);
 - (void);
@@ -199,10 +160,10 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -211,20 +172,20 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)_useCPURenderingForMaterials;
+- (void)f;
+- (id)_updateInputTargetStateWithUncommittedPendingText:(id)arg1 activePreviewText:committedTextLength:accumulatedCommitLength: /* Error: Ran out of types for this method. */;
+- (void)dddddBqddBdqq},N,V_filteredPoint;
+- (id)onManager>",W,N,V_delegate;
+- (void)_doubleBuffered;
+- (id)om.apple.PencilKit.simultaneous;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)or %@) into sync_deleted_chats Table;
 - (void);
 - (void);
 - (_Bool);
@@ -233,7 +194,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ASAuthorizationCredential;
 - (void);
 - (void);
 - (void);
@@ -249,59 +210,12 @@
 - (void);
 - (id);
 - (void);
-- (long long)tionalLeadingNavigationBarButtonItems;
+- (long long)additionalLeadingNavigationBarButtonItems;
 - (void)",&,N,V_image;
 - (void)from backups. Migrating this database to a different device via D2D might generate a lot of inode lookup errors! Error:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_activeDocumentCreationIntent;
-@property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;
-@property(readonly, nonatomic) NSString *activeDocumentCreationIntent;
-@property(nonatomic) __weak DOCDocBrowserVC_UIActivityViewController *activityViewController; // @synthesize activityViewController=_activityViewController;
-@property(retain, nonatomic) NSArray *additionalLeadingNavigationBarButtonItems; // @synthesize additionalLeadingNavigationBarButtonItems=_additionalLeadingNavigationBarButtonItems;
-@property(retain, nonatomic) NSArray *additionalTrailingNavigationBarButtonItems; // @synthesize additionalTrailingNavigationBarButtonItems=_additionalTrailingNavigationBarButtonItems;
-// Error: Property attributes should begin with the type ('T') attribute, property name: allowedContentTypes
-// Property attributes: (null)
-
-@property(nonatomic) _Bool allowsDocumentCreation; // @synthesize allowsDocumentCreation=_allowsDocumentCreation;
-@property(nonatomic) _Bool allowsPickingMultipleItems; // @synthesize allowsPickingMultipleItems=_allowsPickingMultipleItems;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) id <UINSDocumentBrowserViewController> bridgedDocumentBrowserViewController; // @synthesize bridgedDocumentBrowserViewController=_bridgedDocumentBrowserViewController;
-@property(retain, nonatomic) UIMenu *browserHostedCreateDocumentsMenu; // @synthesize browserHostedCreateDocumentsMenu=_browserHostedCreateDocumentsMenu;
-@property(nonatomic) unsigned long long browserUserInterfaceStyle; // @dynamic browserUserInterfaceStyle;
-@property(retain, nonatomic) DOCConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSArray *contentTypesForRecentDocuments;
-@property(copy, nonatomic) NSString *createButtonTitle;
-@property(copy, nonatomic) NSArray *customActions; // @synthesize customActions=_customActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double defaultDocumentAspectRatio;
-@property(nonatomic) __weak id <UIDocumentBrowserViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) DOCDocumentCreationController *documentCreationController; // @synthesize documentCreationController=_documentCreationController;
-@property(nonatomic) __weak id <_UIDocumentLandingPresenter> documentLandingPresenter; // @synthesize documentLandingPresenter=_documentLandingPresenter;
-@property(retain, nonatomic) NSArray *documentTypes; // @synthesize documentTypes=_documentTypes;
-@property(retain, nonatomic) UIViewController *dummySplitViewController; // @synthesize dummySplitViewController=_dummySplitViewController;
-@property(readonly) DOCAppearance *effectiveAppearance; // @dynamic effectiveAppearance;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *leadingBarButtonTrackingViews; // @synthesize leadingBarButtonTrackingViews=_leadingBarButtonTrackingViews;
-@property(copy, nonatomic) NSString *localizedCreateDocumentActionTitle;
-@property(readonly, nonatomic) UISheetPresentationController *observedUIPPresentationController; // @synthesize observedUIPPresentationController=_observedUIPPresentationController;
-@property(retain, nonatomic) DOCUIPBrowserState *preferredUIPBrowserState; // @synthesize preferredUIPBrowserState=_preferredUIPBrowserState;
-@property(retain, nonatomic) NSTimer *presentDocumentBrowserTimer; // @synthesize presentDocumentBrowserTimer=_presentDocumentBrowserTimer;
-@property(readonly, copy, nonatomic) NSArray *recentDocumentsContentTypes;
-@property(retain, nonatomic) NSArray *remoteAdditionalLeadingNavigationBarButtonItems; // @synthesize remoteAdditionalLeadingNavigationBarButtonItems=_remoteAdditionalLeadingNavigationBarButtonItems;
-@property(retain, nonatomic) NSArray *remoteAdditionalTrailingNavigationBarButtonItems; // @synthesize remoteAdditionalTrailingNavigationBarButtonItems=_remoteAdditionalTrailingNavigationBarButtonItems;
-@property(nonatomic) _Bool remoteHasReceivedInitialUIPBrowserState; // @synthesize remoteHasReceivedInitialUIPBrowserState=_remoteHasReceivedInitialUIPBrowserState;
-@property(retain, nonatomic) DOCRemoteContainerViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain, nonatomic) id <DOCServiceDocumentBrowserViewControllerInterface> serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property(retain, nonatomic) NSOperationQueue *serviceQueue; // @synthesize serviceQueue=_serviceQueue;
-@property(nonatomic) _Bool shouldPresentBridgedDocumentBrowser; // @synthesize shouldPresentBridgedDocumentBrowser=_shouldPresentBridgedDocumentBrowser;
-@property(nonatomic) _Bool shouldShowFileExtensions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *trailingBarButtonTrackingViews; // @synthesize trailingBarButtonTrackingViews=_trailingBarButtonTrackingViews;
 
 @end
 

@@ -7,40 +7,17 @@
 @interface SCNGeometryWrapDeformerParameters
 {
     unsigned int _vertexCount;
-    unsigned long long _bindingMode;
-    struct {
-        void *pointIndices;
-        unsigned long long pointIndicesStride;
-        unsigned long long pointIndicesFormat;
-        void *barycentricCoords;
-        unsigned long long barycentricCoordsStride;
-        unsigned long long barycentricCoordsFormat;
-        float *innerLayerInfluences;
-        unsigned long long innerLayerInfluencesLength;
-        float *innerLayerTNBs;
-        float *outerLayerTNBs;
-        unsigned long long tnbMatricesLength;
-        float *innerLayerOffsets;
-        float *outerLayerOffsets;
-        unsigned long long offsetsLength;
-        float *legacyOffsetsOrTransforms;
-        unsigned long long legacyOffsetsOrTransformsLength;
-    } _bindingData;
-    CDStruct_95fa7c00 _deformedToDrivingBindingTransform;
-    _Bool _isLegacySingleLayerDeformer;
-    unsigned long long _legacyDrivingNodeUVChannel;
-    unsigned long long _legacyDeformedNodeUVChannel;
 }
 
-+ (_Bool);
++ (_Bool)emailFieldLabelPatternMatchers;
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

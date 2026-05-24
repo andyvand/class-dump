@@ -9,24 +9,20 @@
 @interface GEOWalkingUserPreferences
 {
     PBUnknownFields *_unknownFields;
-    _Bool _avoidBusyRoads;
-    _Bool _avoidHills;
-    _Bool _avoidStairs;
-    CDStruct_31c7cb5d _flags;
 }
 
-+ (_Bool)dex:(id)arg1;
-- (void);
++ (_Bool)setOfflineMetadataIndex:(id)arg1;
+- (void)8;
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setOepEntitledAssetManager:(id)arg1;
+- (id)icyHomePod _addSmartSiriVolumeEnabledConditions]_block_invoke;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)e;
 - (void)0@ù
 × ;
 - (id)!¨Bùñ¹*Ð1Â0@ù
@@ -34,14 +30,14 @@
 - (void)ficSnapshotUnixTime"b1"has_getRouteForZilchPoints"b1"has_isFromAPI"b1"has_isDodgeballOutsideOfMapsEnroute"b1"read_unknownFields"b1"read_abClientMetadata"b1"read_additionalEnabledMarkets"b1"read_analyticMetadata"b1"read_clientCapabilities"b1"read_clientFeedbackInfo"b1"read_commonOptions"b1"read_currentMapRegion"b1"read_currentUserLocation"b1"read_deviceHistoricalLocations"b1"read_displayedBannerIds"b1"read_familiarWaypointRoute"b1"read_feedback"b1"read_lastKnownRoadLocation"b1"read_loggedAbExperiment"b1"read_nonRecommendedRoutesCache"b1"read_originalDirectionsResponseID"b1"read_originalRouteID"b1"read_originalRouteZilchPoints"b1"read_originalRoute"b1"read_originalRouteEvInfos"b1"read_originalWaypointRoute"b1"read_privacyMetadata"b1"read_recentLocationHistory"b1"read_routeAttributes"b1"read_serviceTags"b1"read_sessionState"b1"read_trafficApiResponses"b1"read_trafficSnapshotIds"b1"read_tripInfo"b1"read_userIncidentReports"b1"read_waypointTypeds"b1"read_xpcUuid"b1"wrote_anyField"b1};
 - (_Bool)nnection"b1"has_usedCellular"b1};
 - (_Bool)OPolylineCoordinateRange={PolylineCoordinate=If}{PolylineCoordinate=If}}16{_NSRange=QQ}32Q48;
-- (id)ormatVersion:coordinate: /* Error: Ran out of types for this method. */;
-- (_Bool)s;
-- (id)sString: /* Error: Ran out of types for this method. */;
+- (id)initWithType:dataFormatVersion:coordinate: /* Error: Ran out of types for this method. */;
+- (_Bool)hasFlyoverRegionVersions;
+- (id)intentAsString: /* Error: Ran out of types for this method. */;
 - (void)´±4õ;
-- (id);
+- (id)DISPATCHER_CALCULATED;
 - (void)can only be called once per object;
-- (_Bool)e_threshold_high;
-- (_Bool)ENUM;
+- (_Bool)feature_value_threshold_high;
+- (_Bool)CPPTYPE_ENUM;
 - (void);
 - (void)dRange
 start (
@@ -169,13 +165,7 @@ deprecated (:false
 - (_Bool)]jþ;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidBusyRoads;
-@property(nonatomic) _Bool avoidHills;
-@property(nonatomic) _Bool avoidStairs;
-@property(nonatomic) _Bool hasAvoidBusyRoads;
-@property(nonatomic) _Bool hasAvoidHills;
 @property(nonatomic) _Bool hasAvoidStairs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

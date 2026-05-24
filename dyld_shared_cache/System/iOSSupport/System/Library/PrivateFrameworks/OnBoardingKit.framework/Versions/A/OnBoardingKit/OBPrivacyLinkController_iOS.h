@@ -6,13 +6,11 @@
 
 #import <OnBoardingKit/OBPrivacyLinkController.h>
 
-@class OBPrivacyLinkButton, UIImageView, UITextView;
+@class OBPrivacyLinkButton, UIImageView;
 
 @interface OBPrivacyLinkController_iOS : OBPrivacyLinkController
 {
     OBPrivacyLinkButton *_linkButton;
-    _Bool bundleTitlesMatch;
-    _Bool bundlesIncludePII;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -29,7 +27,6 @@
 
 // Remaining properties
 @property(readonly) UIImageView *iconView;
-@property(readonly) UITextView *textView;
 
 @end
 

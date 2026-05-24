@@ -5,5 +5,7 @@
 //
 
 @protocol ILMessageFilterExtensionVendorProtocol
+- (oneway void)H;
+- (oneway void);
 @end
 

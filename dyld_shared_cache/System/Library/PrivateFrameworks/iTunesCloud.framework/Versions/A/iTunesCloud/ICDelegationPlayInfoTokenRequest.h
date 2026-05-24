@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationPlayInfoTokenRequest
 {
     NSNumber *_DSID;
-    NSData *_cloudCredentialsTokenData;
-    NSData *_SICData;
 }
 
 - (void);
@@ -29,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(copy, nonatomic) NSData *SICData; // @synthesize SICData=_SICData;
-@property(copy, nonatomic) NSData *cloudCredentialsTokenData; // @synthesize cloudCredentialsTokenData=_cloudCredentialsTokenData;
-@property(readonly, copy, nonatomic) NSMutableDictionary *propertyListRepresentation;
 
 @end
 

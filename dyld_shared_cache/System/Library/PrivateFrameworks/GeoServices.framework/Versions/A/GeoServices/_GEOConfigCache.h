@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class geo_isolater;
-
 __attribute__((visibility("hidden")))
 @interface _GEOConfigCache
 {
     id _cache;
-    geo_isolater *_isolator;
 }
 
 - (void);

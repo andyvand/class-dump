@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSHistorySessionIntervalCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSCalendar *_calendar;
-    struct Vector<double, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _intervalCache;
 }
 
 - (double);

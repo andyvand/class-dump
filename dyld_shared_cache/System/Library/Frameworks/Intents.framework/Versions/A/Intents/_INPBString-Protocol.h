@@ -7,11 +7,12 @@
 @class NSArray, _INPBStringValue;
 
 @protocol _INPBString
-- (void)ForGetFileInformation:(_INPBStringValue *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBStringValue *)eOptionsCollectionForCreateEvent:(unsigned long long)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
++ (Class)ckCoreWithPassphrase:passphrase is not a CFStringRef
+ /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsCollectionForGetFileInformation:(_INPBStringValue *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBStringValue *)provideDateTimeRangeOptionsCollectionForCreateEvent:(unsigned long long)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

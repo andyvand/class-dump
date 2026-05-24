@@ -5,5 +5,9 @@
 //
 
 @protocol MobileInstallationHelperServiceProtocol
+- (void);
+- (void);
+- (void)C;
+- (void)Data",R,C,N,V_certificate;
 @end
 

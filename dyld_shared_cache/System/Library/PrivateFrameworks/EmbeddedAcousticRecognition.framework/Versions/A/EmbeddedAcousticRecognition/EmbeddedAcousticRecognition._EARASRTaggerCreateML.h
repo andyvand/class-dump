@@ -7,8 +7,6 @@
 @interface EmbeddedAcousticRecognition._EARASRTaggerCreateML
 {
     id model;
-    id tokenizer;
-    id tokenSeparator;
 }
 
 @end

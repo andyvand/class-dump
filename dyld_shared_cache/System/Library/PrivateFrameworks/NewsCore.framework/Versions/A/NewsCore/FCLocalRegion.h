@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSString;
 
 @interface FCLocalRegion
 {
     NSString *_identifier;
-    NSString *_name;
-    NSArray *_autoFavoriteTagIDs;
-    NSArray *_localVersionedTagIDs;
-    NSMutableSet *_areas;
-    struct CGRect _rect;
 }
 
 - (void);
@@ -22,29 +17,24 @@
 - (id);
 - (struct CLLocationCoordinate2D);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)H;
 - (id);
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)rrno:(id)arg1;
+- (void)fc_fileRemovalErrorWithURL:(id)arg1 removalErrno: /* Error: Ran out of types for this method. */;
 - (void)0`°;
-- (void)ConfigData;
+- (void)recipeUnitConfigData;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *areas; // @synthesize areas=_areas;
-@property(readonly, nonatomic) NSArray *autoFavoriteTagIDs; // @synthesize autoFavoriteTagIDs=_autoFavoriteTagIDs;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *localVersionedTagIDs; // @synthesize localVersionedTagIDs=_localVersionedTagIDs;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end
 

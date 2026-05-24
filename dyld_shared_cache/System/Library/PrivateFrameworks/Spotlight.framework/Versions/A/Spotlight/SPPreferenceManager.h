@@ -7,17 +7,10 @@
 @interface SPPreferenceManager
 {
     id dynamicRules;
-    id enabledRuleIdentifiers;
-    id mode;
-    id options;
-    id matchingContext;
-    id service;
-    id client;
-    id fastAccessFilter;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -26,9 +19,9 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id):%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

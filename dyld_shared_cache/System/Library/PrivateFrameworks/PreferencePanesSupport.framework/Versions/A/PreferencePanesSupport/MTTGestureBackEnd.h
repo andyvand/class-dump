@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CloudSettingsManager;
-
 @interface MTTGestureBackEnd
 {
     long long _updateDelay;
-    unsigned long long _updateBSCounter;
-    CDUnknownBlockType _updateBSBlock;
-    unsigned long long _updateAppKitCounter;
-    CDUnknownBlockType _updateAppKitBlock;
-    unsigned long long _mtLogCounter;
-    _Bool _allowToCoalesce;
-    _Bool _enableMTLogging;
-    unsigned long long _cachedTrackpadType;
-    CloudSettingsManager *_csManager;
-    _Bool _shouldSyncChangesToCloud;
 }
 
 + (_Bool);
@@ -110,7 +98,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)iew"16@"UITextItem"24@"UIMenu"32;
 - (void);
 - (void);
 - (_Bool);
@@ -128,50 +116,7 @@
 - (_Bool);
 
 // Remaining properties
-@property long long actuateDetents; // @dynamic actuateDetents;
-@property long long actuationStrength; // @dynamic actuationStrength;
-@property _Bool allowToCoalesce; // @synthesize allowToCoalesce=_allowToCoalesce;
-@property(readonly) unsigned long long builtInTrackpadType; // @dynamic builtInTrackpadType;
-@property unsigned long long cachedTrackpadType; // @synthesize cachedTrackpadType=_cachedTrackpadType;
-@property long long clickPressureLevel; // @dynamic clickPressureLevel;
-@property long long cornerClickBehavior; // @dynamic cornerClickBehavior;
-@property long long deepClickPressureLevel; // @dynamic deepClickPressureLevel;
-@property unsigned long long doubleClickDelay; // @dynamic doubleClickDelay;
-@property double doubleClickDelayRaw; // @dynamic doubleClickDelayRaw;
-@property _Bool enableMTLogging; // @synthesize enableMTLogging=_enableMTLogging;
-@property _Bool forceClick; // @dynamic forceClick;
-@property _Bool forceSuppressed; // @dynamic forceSuppressed;
-@property long long fourFingerHorizSwipe; // @dynamic fourFingerHorizSwipe;
-@property long long fourFingerVertSwipe; // @dynamic fourFingerVertSwipe;
-@property _Bool ignoreTrackpadIfMouseOnSystem; // @dynamic ignoreTrackpadIfMouseOnSystem;
-@property _Bool momentumScroll; // @dynamic momentumScroll;
 @property unsigned long long mtLogCounter; // @synthesize mtLogCounter=_mtLogCounter;
-@property long long multiFingerPinch; // @dynamic multiFingerPinch;
-@property(readonly) unsigned long long numberOfDoubleClickDelayFactors; // @dynamic numberOfDoubleClickDelayFactors;
-@property(readonly) unsigned long long numberOfScrollSpeedFactors; // @dynamic numberOfScrollSpeedFactors;
-@property(readonly) unsigned long long numberOfTrackSpeedFactors; // @dynamic numberOfTrackSpeedFactors;
-@property _Bool scroll; // @dynamic scroll;
-@property unsigned long long scrollSpeed; // @dynamic scrollSpeed;
-@property double scrollSpeedRaw; // @dynamic scrollSpeedRaw;
-@property _Bool shouldSyncChangesToCloud; // @synthesize shouldSyncChangesToCloud=_shouldSyncChangesToCloud;
-@property long long tapBehavior; // @dynamic tapBehavior;
-@property _Bool threeFingerActionClick; // @dynamic threeFingerActionClick;
-@property long long threeFingerDoubleTap; // @dynamic threeFingerDoubleTap;
-@property _Bool threeFingerDrag; // @dynamic threeFingerDrag;
-@property long long threeFingerHorizSwipe; // @dynamic threeFingerHorizSwipe;
-@property _Bool threeFingerSecondaryClick; // @dynamic threeFingerSecondaryClick;
-@property long long threeFingerTap; // @dynamic threeFingerTap;
-@property long long threeFingerVertSwipe; // @dynamic threeFingerVertSwipe;
-@property unsigned long long trackSpeed; // @dynamic trackSpeed;
-@property double trackSpeedRaw; // @dynamic trackSpeedRaw;
-@property(readonly) unsigned long long trackpadType; // @dynamic trackpadType;
-@property long long twoFingerDoubleTap; // @dynamic twoFingerDoubleTap;
-@property long long twoFingerFromRightEdgeSwipe; // @dynamic twoFingerFromRightEdgeSwipe;
-@property _Bool twoFingerPinch; // @dynamic twoFingerPinch;
-@property _Bool twoFingerRotate; // @dynamic twoFingerRotate;
-@property _Bool twoFingerSecondaryClick; // @dynamic twoFingerSecondaryClick;
-@property long long twoFingerTap; // @dynamic twoFingerTap;
-@property long long updateDelay; // @synthesize updateDelay=_updateDelay;
 
 @end
 

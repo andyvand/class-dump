@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PISmartColorFilterHDR
 {
     CIImage *inputImage;
-    NSNumber *inputVibrancy;
-    NSNumber *inputContrast;
-    NSNumber *inputCast;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Jc;
 - (id);
 - (id);
 - (void);
@@ -30,13 +27,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)anticStyleRendererWithMetalCommandQueue:processingType:useStyleEngine:perform: /* Error: Ran out of types for this method. */;
+- (void)usingSharedSemanticStyleRendererWithMetalCommandQueue:processingType:useStyleEngine:perform: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputCast; // @synthesize inputCast;
-@property(retain, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputVibrancy; // @synthesize inputVibrancy;
 
 @end
 

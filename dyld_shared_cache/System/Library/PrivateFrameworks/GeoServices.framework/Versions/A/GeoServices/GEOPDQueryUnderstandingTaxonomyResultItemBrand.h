@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDQueryUnderstandingTaxonomyResultItemBrand
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_localizedTaxonomyResultBrands;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)H;
+- (_Bool);
 - (_Bool);
 - (id)ExtraStorage";
-- (id)ch;
+- (id)_maxMatchDistanceFromPreviousRouteMatch;
 - (id)tÕ¬ÚTÝøäXåÜæéë0ìñxò$óàóhôõàø¸ü0ýÐÿ<l(D|äè,H-ü-l3d6Ð;È<ðCE JüM
 hNäNPQR	(VÐW(\(]@^\`è`;
 - (void)ô3õºEF@;

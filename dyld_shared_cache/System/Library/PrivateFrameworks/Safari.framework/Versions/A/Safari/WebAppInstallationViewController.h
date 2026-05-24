@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserDocument, NSButton, NSImage, NSObject, NSTextField, TextFieldWithEnforcedPrefixFormatter, _WKApplicationManifest;
+@class NSButton, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface WebAppInstallationViewController
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    BrowserDocument *_browserDocument;
-    _WKApplicationManifest *_manifest;
-    NSImage *_monogramIcon;
-    TextFieldWithEnforcedPrefixFormatter *_prefixFormatter;
-    long long _addMethod;
-    NSButton *_iconButton;
-    NSTextField *_nameTextField;
-    NSTextField *_urlTextField;
-    NSTextField *_descriptionTextField;
-    NSButton *_addButton;
 }
 
 - (id);
@@ -31,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -46,17 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)IMAnimatedImagePreviewGeneratorProtocol;
+- (void)message;
+- (void)fetchProductData:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)¸;
 
 // Remaining properties
-@property __weak NSButton *addButton; // @synthesize addButton=_addButton;
-@property __weak NSTextField *descriptionTextField; // @synthesize descriptionTextField=_descriptionTextField;
 @property __weak NSButton *iconButton; // @synthesize iconButton=_iconButton;
-@property __weak NSTextField *nameTextField; // @synthesize nameTextField=_nameTextField;
-@property __weak NSTextField *urlTextField; // @synthesize urlTextField=_urlTextField;
 
 @end
 

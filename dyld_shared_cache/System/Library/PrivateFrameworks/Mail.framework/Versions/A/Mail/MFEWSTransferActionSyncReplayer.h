@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSConnection, NSString;
+@class MFEWSConnection;
 
 @interface MFEWSTransferActionSyncReplayer
 {
@@ -23,18 +23,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void) ;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MFEWSConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

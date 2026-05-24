@@ -6,15 +6,11 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class MABinaryAdjacency, PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class MABinaryAdjacency;
 
 @interface PGPlaceLocationMemoryGenerator : PGOverTimeMemoryGenerator
 {
     MABinaryAdjacency *_addressNodesByCityNode;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
@@ -26,12 +22,12 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)screenDescriberDidFinishDescribingElement:(id)arg1;
+- (id)_applicationControllerForElement: /* Error: Ran out of types for this method. */;
+- (void)_dispatch_queue>",&,N,V__trackerQueue;
+- (unsigned long long)AttributedString",C,N,V_currentLineContent;
+- (id);
+- (id)i;
 - (void)ed assets	utility assets	moments	assets per moment;
 
 @end

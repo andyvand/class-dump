@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableArray, NSMutableSet, NSObject, NSString, NSURL, WBSHistoryCrypto, WBSHistoryServiceURLCompletion, WBSHistoryTagDatabaseController, WBSSQLiteDatabase, WBSSQLiteStatementCache;
-@protocol OS_dispatch_group, OS_dispatch_queue, WBSFileLock;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface WBSHistoryServiceDatabase
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_fileOperationGroup;
-    unsigned long long _currentRangeForTemporaryID;
-    id <WBSFileLock> _lock;
-    WBSHistoryCrypto *_crypto;
-    WBSSQLiteDatabase *_database;
-    NSDictionary *_databaseOptions;
-    WBSSQLiteStatementCache *_statements;
-    NSMapTable *_delegates;
-    NSMapTable *_listeners;
-    NSMutableSet *_registeredListeners;
-    struct LatestVisitInformationMap _latestVisitMap;
-    _Bool _hasComputedLatestVisit;
-    unordered_map_535bcc7c _temporaryIDToItem;
-    unordered_map_535bcc7c _visitForTemporaryID;
-    NSMutableArray *_pendingVisits;
-    struct atomic<bool> _integrityCheckPending;
-    NSURL *_clearHistoryInProgressFileURL;
-    CDUnknownBlockType _pendingVisitsTimeout;
-    WBSHistoryTagDatabaseController *_tagController;
-    NSString *_databaseID;
-    NSURL *_databaseURL;
-    WBSHistoryServiceURLCompletion *_urlCompletion;
 }
 
 - (void);
@@ -50,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,6 +45,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,9 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -110,7 +88,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)A;
 - (long long);
 - (double);
 - (void);
@@ -132,9 +110,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -168,7 +146,7 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -179,15 +157,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBSHistoryServiceURLCompletion *urlCompletion; // @synthesize urlCompletion=_urlCompletion;
 
 @end
 

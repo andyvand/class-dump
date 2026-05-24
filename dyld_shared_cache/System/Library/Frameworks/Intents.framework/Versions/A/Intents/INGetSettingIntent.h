@@ -6,15 +6,15 @@
 
 #import <Intents/INIntent.h>
 
-@class INSettingMetadata, NSString;
+@class INSettingMetadata;
 
 @interface INGetSettingIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool));
 - (void);
-- (void);
+- (void)n;
 - (void);
 - (id);
 - (id);
@@ -27,21 +27,13 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)%s:No support /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id) ;
 
 // Remaining properties
-@property(readonly) long long confirmationValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSettingMetadata *settingMetadata;
-@property(readonly) Class superclass;
 
 @end
 

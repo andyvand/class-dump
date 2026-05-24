@@ -6,6 +6,6 @@
 
 @interface UnknownClass (NSValue_AVMargin)
 + (id);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1);
 @end
 

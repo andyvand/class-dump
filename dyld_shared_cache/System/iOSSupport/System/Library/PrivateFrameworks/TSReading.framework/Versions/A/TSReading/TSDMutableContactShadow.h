@@ -6,28 +6,20 @@
 
 #import <TSReading/TSDContactShadow.h>
 
-@class TSUColor;
-
 @interface TSDMutableContactShadow : TSDContactShadow
 {
 }
 
+- (void)networkUnreachablePercentage;
 - (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) TSUColor *TSUColor; // @dynamic TSUColor;
-@property(nonatomic) struct CGColor *color; // @dynamic color;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @dynamic enabled;
 @property(nonatomic) double height; // @dynamic height;
-@property(nonatomic) double offset; // @dynamic offset;
-@property(nonatomic) double perspective; // @dynamic perspective;
-@property(nonatomic) double radius; // @dynamic radius;
 
 @end
 

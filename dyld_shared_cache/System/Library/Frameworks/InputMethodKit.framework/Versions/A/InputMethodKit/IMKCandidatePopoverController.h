@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController, NSPopover, NSString, NSTimer, NSURL, NSView, WebView;
-@protocol IMKCandidateLookupSupport;
+@class NSURL;
 
 @interface IMKCandidatePopoverController
 {
     NSURL *_baseURL;
-    IMKCandidateController *_controller;
-    NSPopover *_popover;
-    WebView *_webView;
-    NSView<IMKCandidateLookupSupport> *_descriptionTargetView;
-    struct CGSize _minimumSize;
-    NSURL *_stylesheetURL;
-    NSTimer *_popoverTimer;
 }
 
 - (id);
@@ -38,10 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (id)>°1Â0@ù
@@ -49,18 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) IMKCandidateController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSView<IMKCandidateLookupSupport> *descriptionTargetView; // @synthesize descriptionTargetView=_descriptionTargetView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(retain, nonatomic) NSTimer *popoverTimer; // @synthesize popoverTimer=_popoverTimer;
-@property(retain, nonatomic) NSURL *stylesheetURL; // @synthesize stylesheetURL=_stylesheetURL;
-@property(readonly) Class superclass;
 
 @end
 

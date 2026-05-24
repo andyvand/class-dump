@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)orphan directories;
+- (void)layoutManager;
 - (void);
 
 @end

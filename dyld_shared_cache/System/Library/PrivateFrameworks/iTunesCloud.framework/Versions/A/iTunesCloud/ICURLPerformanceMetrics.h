@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICURLPerformanceMetrics
 {
     _Bool _cachedResponse;
-    _Bool _connectionReused;
-    NSString *_taskIdentifier;
-    NSString *_jingleCorrelationKey;
-    double _connectionStartTime;
-    double _connectionEndTime;
-    double _domainLookupStartTime;
-    double _domainLookupEndTime;
-    double _fetchStartTime;
-    double _requestStartTime;
-    double _responseStartTime;
-    double _responseEndTime;
-    double _secureConnectionStartTime;
-    NSString *_appleTimingApp;
-    NSString *_connectionType;
-    NSString *_edgeNodeCacheStatus;
-    NSString *_environmentDataCenter;
-    NSString *_responseDate;
-    unsigned long long _statusCode;
-    unsigned long long _redirectCount;
-    unsigned long long _requestMessageSize;
-    unsigned long long _requestBytesSent;
-    NSString *_requestUrl;
-    NSString *_resolvedIPAddress;
-    unsigned long long _responseMessageSize;
-    unsigned long long _responseBytesReceived;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface ConversationKit.TonePlayer
 {
     id soundPlayer;
-    id lastPlayedConnectedToneUUID;
-    id lastPlayedSoundDate;
-    id lastPlayedSoundEventType;
 }
 
 - (id);

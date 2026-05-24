@@ -5,11 +5,12 @@
 //
 
 @protocol ECEventType
+- (_Bool)SCloudKitMirroringDelegate _performSerializationRequest:]_block_invoke /* Error: Ran out of types for this method. */;
+- (unsigned int)2GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSSQLAttributeTrigger.m;
+- (unsigned long long)uildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSSQLAttributeTrigger.m;
+- (unsigned int)predicate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cgSubType;
-@property(readonly, nonatomic) unsigned int cgType;
-@property(readonly, nonatomic) unsigned int hidType;
 @property(readonly, nonatomic) _Bool isCGType;
 @end
 

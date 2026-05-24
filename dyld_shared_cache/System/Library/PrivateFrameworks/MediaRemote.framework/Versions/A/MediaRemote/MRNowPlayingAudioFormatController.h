@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayoutMonitor, MRClient, MRNowPlayingAudioFormatApplication, MRNowPlayingAudioFormatContentInfo, NSArray, NSObject, NSString;
-@protocol MRNowPlayingAudioFormatControllerDelegate, OS_dispatch_queue;
+@class NSArray;
+@protocol MRNowPlayingAudioFormatControllerDelegate;
 
 @interface MRNowPlayingAudioFormatController
 {
     id <MRNowPlayingAudioFormatControllerDelegate> _delegate;
-    MRNowPlayingAudioFormatApplication *_audioFormatApplication;
-    MRNowPlayingAudioFormatContentInfo *_audioFormatContentInfo;
-    NSArray *_contentInfos;
-    MRClient *_activeClient;
-    FBSDisplayLayoutMonitor *_layoutMonitor;
-    NSString *_foregroundBundleID;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -25,57 +18,42 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)h2;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)ra;
+- (id)setRegistered: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)subAction;
+- (id);
+- (void);
+- (id)h-;
+- (void)CKHeartEffect;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void)String",&,N,V_subtitle;
 
 // Remaining properties
-@property(retain, nonatomic) MRClient *activeClient; // @synthesize activeClient=_activeClient;
-@property(readonly, nonatomic) MRNowPlayingAudioFormatApplication *audioFormatApplication; // @synthesize audioFormatApplication=_audioFormatApplication;
-@property(readonly, nonatomic) MRNowPlayingAudioFormatContentInfo *audioFormatContentInfo; // @synthesize audioFormatContentInfo=_audioFormatContentInfo;
-@property(readonly, copy, nonatomic) NSString *audioFormatDescription;
-@property(readonly, nonatomic) long long bestAvailableAudioFormat;
-@property(readonly, copy, nonatomic) NSString *bestAvailableAudioFormatDescription;
-@property(readonly, copy, nonatomic) NSString *bundleID;
 @property(retain, nonatomic) NSArray *contentInfos; // @synthesize contentInfos=_contentInfos;
-@property(nonatomic) __weak id <MRNowPlayingAudioFormatControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic, getter=isEligibleForSpatialization) _Bool eligibleForSpatialization;
-@property(retain, nonatomic) NSString *foregroundBundleID; // @synthesize foregroundBundleID=_foregroundBundleID;
-@property(readonly, nonatomic) _Bool hasNowPlayingApp;
-@property(retain, nonatomic) FBSDisplayLayoutMonitor *layoutMonitor; // @synthesize layoutMonitor=_layoutMonitor;
-@property(readonly, nonatomic, getter=isMultichannel) _Bool multichannel;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

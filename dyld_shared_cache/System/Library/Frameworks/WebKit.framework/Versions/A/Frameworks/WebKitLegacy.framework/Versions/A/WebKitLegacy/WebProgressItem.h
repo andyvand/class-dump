@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebProgressItem
 {
     long long bytesReceived;
-    long long estimatedLength;
 }
 
 @end

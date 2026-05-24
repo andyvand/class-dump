@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _AFInterstitialAction
 {
     long long _phase;
-    NSString *_displayKey;
-    NSString *_speakableKey;
-    double _duration;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)t:%@
+ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
-- (void)torTimeout;
+- (void)_myriadEventMonitorTimeout;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayKey; // @synthesize displayKey=_displayKey;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, copy, nonatomic) NSString *speakableKey; // @synthesize speakableKey=_speakableKey;
 
 @end
 

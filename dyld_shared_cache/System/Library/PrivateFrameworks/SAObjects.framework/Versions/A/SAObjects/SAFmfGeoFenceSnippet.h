@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSNumber, NSString, NSURL, SAFmfGeoFence;
+@class SAFmfGeoFence;
 
 @interface SAFmfGeoFenceSnippet : SAUISnippet
 {
@@ -23,16 +23,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAFmfGeoFence *aceFmfGeoFence;
-@property(copy, nonatomic) NSNumber *enable;
-@property(copy, nonatomic) NSString *fenceType;
-@property(copy, nonatomic) NSNumber *oneTimeOnly;
-@property(copy, nonatomic) NSURL *searchContext;
 
 @end
 

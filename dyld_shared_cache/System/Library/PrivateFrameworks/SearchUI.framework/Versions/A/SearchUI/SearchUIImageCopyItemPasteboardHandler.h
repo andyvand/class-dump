@@ -16,12 +16,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tiled image;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSImage *image; // @synthesize image=_image;
 @property(retain) SFImageCopyItem *item; // @dynamic item;
 
 @end

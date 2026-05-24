@@ -6,42 +6,27 @@
 
 #import <AVKit/AVView.h>
 
-@class AVButton, AVMobileChromelessContainerView, AVRoutePickerView, AVRoutingConfiguration, NSArray, NSMapTable, NSString;
-@protocol AVMobileChromelessDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate, AVMobileControlsStyleFontsSheet;
+@class AVButton, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessDisplayModeControlsView : AVView
 {
     NSMapTable *_viewToIdentifierMap;
-    _Bool _includesPictureInPictureControl;
-    _Bool _includesMultiviewControl;
-    _Bool _includesFullscreenControl;
-    _Bool _includesRoutePickerControl;
-    AVButton *_fullScreenButton;
-    AVButton *_pictureInPictureButton;
-    AVButton *_multiviewButton;
-    AVRoutePickerView *_routePickerButton;
-    AVMobileChromelessContainerView *_containerView;
-    NSArray *_customActions;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    unsigned long long _fullscreenIcon;
-    AVRoutingConfiguration *_routingConfiguration;
-    id <AVMobileChromelessDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate> _delegate;
 }
 
-- (void);
+- (void)@ has items that require encryption but no protection data was found;
 - (void);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGSize);
@@ -53,45 +38,24 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
+- (void)8Q16;
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)u@;
 - (id);
-- (id);
-- (void);
+- (void)LPMetadataProviderSpecialization;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)Að!(Bù[1Â0@ù
 × ;
-- (_Bool)ation: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithInteractionAnimation: /* Error: Ran out of types for this method. */;
 - (id)_hasOverflowOnlyControl;
 
 // Remaining properties
-@property(readonly, nonatomic) AVMobileChromelessContainerView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSArray *customActions; // @synthesize customActions=_customActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileChromelessDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) AVButton *fullScreenButton; // @synthesize fullScreenButton=_fullScreenButton;
-@property(nonatomic) unsigned long long fullscreenIcon; // @synthesize fullscreenIcon=_fullscreenIcon;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includesFullscreenControl; // @synthesize includesFullscreenControl=_includesFullscreenControl;
-@property(nonatomic) _Bool includesMultiviewControl; // @synthesize includesMultiviewControl=_includesMultiviewControl;
-@property(nonatomic) _Bool includesPictureInPictureControl; // @synthesize includesPictureInPictureControl=_includesPictureInPictureControl;
-@property(nonatomic) _Bool includesRoutePickerControl; // @synthesize includesRoutePickerControl=_includesRoutePickerControl;
-@property(readonly, nonatomic) AVButton *multiviewButton; // @synthesize multiviewButton=_multiviewButton;
-@property(readonly, nonatomic) AVButton *pictureInPictureButton; // @synthesize pictureInPictureButton=_pictureInPictureButton;
-@property(retain, nonatomic) AVRoutePickerView *routePickerButton; // @synthesize routePickerButton=_routePickerButton;
-@property(readonly, nonatomic) AVRoutePickerView *routePickerView;
-@property(retain, nonatomic) AVRoutingConfiguration *routingConfiguration; // @synthesize routingConfiguration=_routingConfiguration;
-@property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
 
 @end
 

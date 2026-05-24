@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDBIMIManager, EDLocalActionPersistence, EDMessageAuthenticator, EDMessageCategorizer, EDMessagePersistence, EDPersistenceDatabase, EDReadLaterPersistence, EDServerMessagePersistenceFactory, NSObject, NSString;
-@protocol EDMessageChangeHookResponder, EFCancelable, OS_dispatch_queue;
+@class EDPersistenceDatabase;
 
 @interface EDMessageChangeManager
 {
     EDPersistenceDatabase *_database;
-    EDReadLaterPersistence *_readLaterPersistence;
-    EDServerMessagePersistenceFactory *_serverMessagePersistenceFactory;
-    EDBIMIManager *_bimiManager;
-    NSObject<OS_dispatch_queue> *_markAllWorkQueue;
-    id <EFCancelable> _stateCancelable;
-    EDMessagePersistence *_messagePersistence;
-    id <EDMessageChangeHookResponder> _hookResponder;
-    EDLocalActionPersistence *_localActionPersistence;
-    EDMessageAuthenticator *_messageAuthenticator;
-    EDMessageCategorizer *_messageCategorizer;
 }
 
 + (id);
@@ -69,8 +58,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -80,7 +69,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (id);
@@ -88,10 +77,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (id);
@@ -105,24 +94,7 @@
 - (void)tableArray"16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) EDBIMIManager *bimiManager; // @synthesize bimiManager=_bimiManager;
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <EDMessageChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
-@property(readonly, nonatomic) EDLocalActionPersistence *localActionPersistence; // @synthesize localActionPersistence=_localActionPersistence;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *markAllWorkQueue; // @synthesize markAllWorkQueue=_markAllWorkQueue;
-@property(nonatomic) __weak EDMessageAuthenticator *messageAuthenticator; // @synthesize messageAuthenticator=_messageAuthenticator;
-@property(nonatomic) __weak EDMessageCategorizer *messageCategorizer; // @synthesize messageCategorizer=_messageCategorizer;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) EDReadLaterPersistence *readLaterPersistence; // @synthesize readLaterPersistence=_readLaterPersistence;
-@property(readonly, nonatomic) EDServerMessagePersistenceFactory *serverMessagePersistenceFactory; // @synthesize serverMessagePersistenceFactory=_serverMessagePersistenceFactory;
-@property(retain, nonatomic) id <EFCancelable> stateCancelable; // @synthesize stateCancelable=_stateCancelable;
-@property(readonly) Class superclass;
 
 @end
 

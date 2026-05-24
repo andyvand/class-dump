@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRBoundingBoxE7, GEOLPRRegionInfo, NSMutableArray, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLPRRegion
 {
     PBDataReader *_reader;
-    NSMutableArray *_displayNames;
-    GEOLPRRegionInfo *_info;
-    GEOLPRBoundingBoxE7 *_regionBoundingBox;
-    NSMutableArray *_subRegions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_displayNames:1;
-        unsigned int read_info:1;
-        unsigned int read_regionBoundingBox:1;
-        unsigned int read_subRegions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class){CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48;
 + (Class);
-+ (Class);
-+ (_Bool)tiveTimestamp:(id)arg1;
++ (_Bool)setHasSearchResponseRelativeTimestamp:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -35,29 +21,29 @@
 - (void);
 - (id);
 - (_Bool);
+- (unsigned long long)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
+- (id)contentsOfDirectoryAtURL:includingPropertiesForKeys:options: /* Error: Ran out of types for this method. */;
+- (id)containerURLForSecurityApplicationGroupIdentifier:(unsigned long long)arg1;
+- (void)initWithDelay:options:delegate: /* Error: Ran out of types for this method. */;
+- (void)#;
+- (unsigned long long)ABSenderProcessName;
+- (void)NameTransform;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)ener"16B24f28;
+- (id)iceIdXPCConnection _handleImplicitUtteranceMessage:client:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool)_transactionId"b1"wrote_anyField"b1};
-- (id)ageVersionSupported:(struct _NSZone *)arg1;
-- (void);
-- (id)rorWithCode:userInfo: /* Error: Ran out of types for this method. */;
+- (id)setMaxZilchMessageVersionSupported:(struct _NSZone *)arg1;
+- (void)hasSupportsGuidanceEventImportanceInfo;
+- (id)GEOErrorWithCode:userInfo: /* Error: Ran out of types for this method. */;
 - (id)e}@;
 - (id)preferences;
 - (id);
@@ -65,11 +51,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *displayNames;
-@property(readonly, nonatomic) _Bool hasInfo;
-@property(readonly, nonatomic) _Bool hasRegionBoundingBox;
-@property(retain, nonatomic) GEOLPRRegionInfo *info;
-@property(retain, nonatomic) GEOLPRBoundingBoxE7 *regionBoundingBox;
-@property(retain, nonatomic) NSMutableArray *subRegions;
 
 @end
 

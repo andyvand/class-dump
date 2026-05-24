@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface BookmarkLocation
 {
     NSString *_parentUUID;
-    unsigned long long _childIndex;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)IMBrandCacheProtocol;
 - (id);
 - (void)ÿÿE;
 
 // Remaining properties
-@property unsigned long long childIndex; // @synthesize childIndex=_childIndex;
 @property(copy) NSString *parentUUID; // @synthesize parentUUID=_parentUUID;
 
 @end

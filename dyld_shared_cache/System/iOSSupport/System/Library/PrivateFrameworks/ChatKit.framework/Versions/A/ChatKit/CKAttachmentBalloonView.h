@@ -6,15 +6,14 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class CKMediaObject, LPLinkView, NSString, UIView;
+@class CKMediaObject;
 
 @interface CKAttachmentBalloonView : CKImageBalloonView
 {
     CKMediaObject *_mediaObject;
-    LPLinkView *_attachmentView;
 }
 
-+ (id);
++ (id)resentLockedNotesSwitchMigrationPromptIfSupportedForAccount:(id)arg1 window:completionHandler:] /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 - (id);
@@ -22,14 +21,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (struct CGSize);
+- (_Bool)assetReaderFailedToStartWithError;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
-- (id);
+- (void)o;
+- (struct UIEdgeInsets)u;
+- (void)r saveShare:(id)arg1 withRootRecord:object:accountID:container:qualityOfService:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)"16@?0@"ICHashtag"8;
+- (id).apple.notes.textattachment;
 - (void);
 - (void);
 - (void);
@@ -57,17 +56,7 @@
 - (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) LPLinkView *attachmentView; // @synthesize attachmentView=_attachmentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect uncroppedSourceFrame;
-@property(readonly) UIView *uncroppedSourceView;
 
 @end
 

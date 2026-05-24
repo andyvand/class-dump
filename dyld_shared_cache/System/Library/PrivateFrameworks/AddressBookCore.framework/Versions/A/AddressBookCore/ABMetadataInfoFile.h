@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOperationQueue, NSString;
-@protocol ABMetadataInfoFileDelegate;
+@class NSMutableDictionary;
 
 @interface ABMetadataInfoFile
 {
     NSMutableDictionary *_dictionary;
-    NSString *_path;
-    NSOperationQueue *_queue;
-    _Bool _isDirty;
-    id <ABMetadataInfoFileDelegate> _delegate;
 }
 
 - (_Bool);
@@ -21,11 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Է/;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)CTStewieRequestContext;
 - (void);
 - (id);
 - (_Bool);

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)events;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"read_routeLegs"b1"wrote_anyField"b1};
-- (id)pool;
+- (id)_pool;
 - (id)ô;
 - (void)-ÎùaH@;
 

@@ -5,5 +5,9 @@
 //
 
 @protocol NSEditorRegistration
+
+@optional
+- (void)AMFDRDecodeEvaluateTrustInternal;
+- (void)_AMFDRDecodeGetExpectedManifestHash;
 @end
 

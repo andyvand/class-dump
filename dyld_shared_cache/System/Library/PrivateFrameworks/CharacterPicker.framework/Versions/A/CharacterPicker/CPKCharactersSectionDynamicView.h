@@ -6,22 +6,18 @@
 
 #import <CharacterPicker/CPKCharactersSectionView.h>
 
-@class CPKCollectionView, CPKDraggableView, NSCache, NSScrollView, NSString;
+@class CPKCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface CPKCharactersSectionDynamicView : CPKCharactersSectionView
 {
     CPKCollectionView *_collectionView;
-    NSString *_currentlySelectedIdentifier;
-    CPKDraggableView *_currentlySelectedView;
-    NSScrollView *_staticScrollView;
-    NSCache *_stickerViewCache;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (void);
 - (void);
 - (void);
@@ -32,13 +28,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)b;
 - (struct CGRect);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+i
+;
 - (void);
 - (id);
 - (_Bool);
@@ -58,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)Th;
 - (void);
 - (id);
 - (id);
@@ -67,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)idgetIcon"8;
 - (void);
 - (void);
 - (unsigned long long);
@@ -78,18 +76,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CPKCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(copy, nonatomic) NSString *currentlySelectedIdentifier; // @synthesize currentlySelectedIdentifier=_currentlySelectedIdentifier;
-@property(retain, nonatomic) CPKDraggableView *currentlySelectedView; // @synthesize currentlySelectedView=_currentlySelectedView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double initialPadding;
-@property(retain, nonatomic) NSScrollView *staticScrollView; // @synthesize staticScrollView=_staticScrollView;
-@property(retain, nonatomic) NSCache *stickerViewCache; // @synthesize stickerViewCache=_stickerViewCache;
-@property(readonly) Class superclass;
 
 @end
 

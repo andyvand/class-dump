@@ -11,7 +11,6 @@
 @interface SSKerberosCredentials : SSCredentials
 {
     NSString *mClientPrincipal;
-    NSString *mServicePrincipal;
 }
 
 + (id);
@@ -19,13 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_momentTitleByMomentUUID;
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *clientPrincipal; // @synthesize clientPrincipal=mClientPrincipal;
-@property(readonly) NSString *servicePrincipal; // @synthesize servicePrincipal=mServicePrincipal;
-@property(readonly) NSString *username;
 
 @end
 

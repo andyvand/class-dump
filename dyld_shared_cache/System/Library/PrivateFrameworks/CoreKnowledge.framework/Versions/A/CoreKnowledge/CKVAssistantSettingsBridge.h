@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
++ (_Bool)updatedRequirements:respectingMaxLength: /* Error: Ran out of types for this method. */;
++ (id)schedulePeriodicReport;
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)d;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)`;
 + (_Bool);
 + (_Bool);
 + (id);

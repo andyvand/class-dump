@@ -7,6 +7,7 @@
 @interface HomeWidgetIntents.IntentsService
 {
     id _homeManager;
+    id;
 }
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAPublicKey, LARight, NSObject;
-@protocol LAKeyStoreKey, OS_dispatch_queue;
+@class LAPublicKey, LARight;
 
 @interface LAPrivateKey
 {
     LARight *_right;
-    id <LAKeyStoreKey> _key;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _instanceID;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,11 +20,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)initWithQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LAPublicKey *publicKey;

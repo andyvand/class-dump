@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCDispatchQueue
 {
     struct _opaque_pthread_mutex_t _lock;
-    NSMutableArray *_rootQueues;
 }
 
 + (id);

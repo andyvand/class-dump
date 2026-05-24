@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_endpoint_handler;
-@protocol OS_nw_array, OS_nw_endpoint, OS_xpc_object;
+@class NSObject;
+@protocol OS_nw_array;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_endpoint_transform
 {
     NSObject<OS_nw_array> *child_endpoint_handlers;
-    NSObject<OS_nw_array> *failed_child_endpoint_handlers;
-    NSObject<OS_xpc_object> *fallback_modes;
-    NSObject<OS_nw_array> *blocked_protocols;
-    unsigned int next_child_endpoint_index;
-    NWConcrete_nw_endpoint_handler *connected_child;
-    NSObject<OS_nw_endpoint> *primary_endpoint;
-    void *child_timer;
-    unsigned long long last_timeout_ms;
-    unsigned int first_protocol;
-    unsigned int connected_protocol;
-    unsigned int connected_protocol_index;
-    _Bool quic_deferred;
-    _Bool quic_application_deferred;
-    _Bool quic_denied;
-    _Bool quic_alternative_present;
-    _Bool quic_updated_alternative;
-    _Bool quic_speculative_attempt;
 }
 
 - (_Bool);
+- (void)emeSchema %@] is abstract and should not be called;
 - (void);
+- (id)#;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)_;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

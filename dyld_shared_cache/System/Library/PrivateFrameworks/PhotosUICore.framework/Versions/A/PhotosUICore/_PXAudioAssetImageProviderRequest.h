@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXImageRequestOptions;
 @protocol PXDisplayAsset;
 
 @interface _PXAudioAssetImageProviderRequest
 {
     id <PXDisplayAsset> _asset;
-    long long _contentMode;
-    PXImageRequestOptions *_options;
-    CDUnknownBlockType _resultHandler;
-    long long _requestID;
-    unsigned long long _signpostID;
-    struct CGSize _targetSize;
 }
 
 - (id);
@@ -27,17 +20,11 @@
 - (struct CGSize);
 - (long long);
 - (id)l to YUV %{public}s;
-- (CDUnknownBlockType)INATION_HIDDEN;
-- (void)leListModel;
+- (CDUnknownBlockType)DESTINATION_HIDDEN;
+- (void)LemonadeMediaTypesEditableListModel;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(readonly, nonatomic) PXImageRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 @property(readonly, nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface PFCoalescerActivityToken
 {
     NSObject<OS_dispatch_group> *_group;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSString *_reason;
-    NSArray *_callStackReturnAddresses;
-    NSDate *_creationDate;
 }
 
 - (id);
-- (void);
+- (void),V_group;
 - (id);
 - (id);
 - (id);
@@ -27,17 +23,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)parser:(id)arg1 foundAttributes:inRange:characters: /* Error: Ran out of types for this method. */;
+- (void)currentBytes;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *callStackReturnAddresses; // @synthesize callStackReturnAddresses=_callStackReturnAddresses;
-@property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(retain) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_isolationQueue;
-@property(retain) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

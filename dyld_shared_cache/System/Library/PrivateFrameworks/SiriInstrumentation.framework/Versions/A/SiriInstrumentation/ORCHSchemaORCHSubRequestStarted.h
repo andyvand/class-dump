@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHNLRouterDecisionGenAIMetadata, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHSubRequestStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    int _subRequestType;
-    ORCHSchemaORCHNLRouterDecisionGenAIMetadata *_genAIMetadata;
-    struct {
-        unsigned int subRequestType:1;
-    } _has;
-    _Bool _hasTrpId;
-    _Bool _hasGenAIMetadata;
 }
 
 - (id);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,21 +33,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ice:(id)arg1 %@;
 - (id);
 - (id)
 × ;
-- (id)questContext;
+- (id)_entityKitRequestContext;
 - (id)_pommesServiceClassifierScoreReported;
 - (void)nerated.outcome.parameterConfirmation.item.collection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHNLRouterDecisionGenAIMetadata *genAIMetadata; // @synthesize genAIMetadata=_genAIMetadata;
-@property(nonatomic) _Bool hasGenAIMetadata; // @synthesize hasGenAIMetadata=_hasGenAIMetadata;
-@property(nonatomic) _Bool hasSubRequestType;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int subRequestType; // @synthesize subRequestType=_subRequestType;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

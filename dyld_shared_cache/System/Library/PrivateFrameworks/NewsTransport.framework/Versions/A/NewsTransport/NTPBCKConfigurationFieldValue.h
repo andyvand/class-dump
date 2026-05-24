@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface NTPBCKConfigurationFieldValue
 {
     double _doubleValue;
-    long long _longValue;
-    NSData *_bytesValue;
-    NSMutableArray *_fieldValues;
-    NSMutableArray *_listValues;
-    NSString *_stringValue;
-    int _type;
-    _Bool _boolValue;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int longValue:1;
-        unsigned int type:1;
-        unsigned int boolValue:1;
-    } _has;
 }
 
 + (Class);
@@ -35,18 +20,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)NSView",&,N,V_customView;
+- (void)"NSArray",&,N,V_topViewControllerOtherConstraints;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void).;
 - (unsigned long long);
 - (void);
 - (id);
@@ -54,8 +39,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (int);
+- (long long)setStandardDeviationOfEvents: /* Error: Ran out of types for this method. */;
+- (int)isDeleted;
 - (_Bool);
 - (double);
 - (id);
@@ -63,28 +48,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)oreTelephony.framework/Versions/A/CoreTelephony;
 - (_Bool)lliseconds"b1"layeredCoverAspectRatio"b1"minimumNewsVersion"b1"type"b1"isDraft"b1"isPaid"b1};
-- (void)ailWidgetHQMetadata;
+- (void)thumbnailWidgetHQMetadata;
 - (id)targetDatabase;
-- (void)Position;
+- (void)hasPosition;
 - (void)·BO	;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(retain, nonatomic) NSData *bytesValue; // @synthesize bytesValue=_bytesValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(retain, nonatomic) NSMutableArray *fieldValues; // @synthesize fieldValues=_fieldValues;
-@property(nonatomic) _Bool hasBoolValue;
-@property(readonly, nonatomic) _Bool hasBytesValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasLongValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSMutableArray *listValues; // @synthesize listValues=_listValues;
-@property(nonatomic) long long longValue; // @synthesize longValue=_longValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

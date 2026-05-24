@@ -6,36 +6,27 @@
 
 #import <HomeAI/HMIHomeTask.h>
 
-@class HMIClusteringTaskSummary, HMIGreedyClustering, HMIPersonsModelManager, NSDate, NSUUID;
-@protocol HMIFaceClassifier, HMIHomePersonManagerDataSource;
+@class HMIClusteringTaskSummary, HMIGreedyClustering;
 
 @interface HMIHomePersonClusteringTask : HMIHomeTask
 {
     HMIGreedyClustering *_clusterer;
-    id <HMIFaceClassifier> _faceClassifier;
-    struct os_unfair_lock_s _lock;
-    _Bool _doImpurePersonCleanup;
-    id <HMIHomePersonManagerDataSource> _dataSource;
-    NSUUID *_sourceUUID;
-    HMIPersonsModelManager *_personsModelManager;
-    HMIClusteringTaskSummary *_summary;
-    NSDate *_startTime;
 }
 
 + (id)X;
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
@@ -43,11 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) _Bool doImpurePersonCleanup; // @synthesize doImpurePersonCleanup=_doImpurePersonCleanup;
-@property(readonly) HMIPersonsModelManager *personsModelManager; // @synthesize personsModelManager=_personsModelManager;
-@property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
-@property(readonly) NSDate *startTime; // @synthesize startTime=_startTime;
 @property(readonly) HMIClusteringTaskSummary *summary; // @synthesize summary=_summary;
 
 @end

@@ -6,17 +6,12 @@
 
 #import <WPDaemon/WPDManager.h>
 
-@class CBScalablePipeManager, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WPDPipeManager : WPDManager
 {
     unsigned long long _wpPipeDataSignPostID;
-    NSObject<OS_dispatch_queue> *_queue;
-    CBScalablePipeManager *_pipeManager;
-    NSMutableDictionary *_endpointsDict;
-    NSMutableDictionary *_peerPipesDict;
-    NSMutableDictionary *_connectionInitiators;
 }
 
 - (void);
@@ -31,13 +26,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -51,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -59,24 +54,13 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *connectionInitiators; // @synthesize connectionInitiators=_connectionInitiators;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *endpointsDict; // @synthesize endpointsDict=_endpointsDict;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *peerPipesDict; // @synthesize peerPipesDict=_peerPipesDict;
-@property(retain) CBScalablePipeManager *pipeManager; // @synthesize pipeManager=_pipeManager;
 @property __weak NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

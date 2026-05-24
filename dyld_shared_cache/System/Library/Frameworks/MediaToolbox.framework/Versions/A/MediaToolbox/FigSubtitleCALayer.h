@@ -6,15 +6,12 @@
 
 #import <MediaToolbox/FigSubtitleBackdropCALayer.h>
 
-@class NSString;
-
 @interface FigSubtitleCALayer : FigSubtitleBackdropCALayer
 {
     struct OpaqueFigSubtitleCALayerInternal *layerInternal;
-    _Bool _hidesAllCaptionDisplay;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -27,15 +24,15 @@
 - (void);
 - (void);
 - (id);
+- (void)ged;
+- (void)opy string contents into nil buffer pointer;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (_Bool);
 - (void);
@@ -44,15 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *captionRenderingStrategy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool hidesAllCaptionDisplay; // @synthesize hidesAllCaptionDisplay=_hidesAllCaptionDisplay;
-@property(readonly) Class superclass;
 
 @end
 

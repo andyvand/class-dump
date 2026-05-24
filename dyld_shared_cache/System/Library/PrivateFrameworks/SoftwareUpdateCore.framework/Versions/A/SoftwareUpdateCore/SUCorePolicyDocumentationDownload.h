@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyDocumentationDownload
 {
     _Bool _allowsCellular;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _requiresPowerPluggedIn;
-    _Bool _requiresInexpensiveAccess;
-    int _downloadTimeoutSecs;
-    long long _specifiedFields;
-    NSDictionary *_additionalOptions;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)5;
 - (_Bool);
 - (int);
 - (void);
@@ -32,10 +23,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)URL"24@"NSString"32q40@?<v@?@"SafariSandboxDownloadBundleToken"@"NSError">48;
+- (void)lastUsedBookmarkFolderForFavoritesInStartPageFavoritesSectionProvider:(_Bool)arg1;
+- (_Bool)defaultSearchEnginePopUpButton;
+- (id)_loadContentScriptsAndStylesheetsForExtension:withCodeRef: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -46,13 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(nonatomic) _Bool allowsCellular; // @synthesize allowsCellular=_allowsCellular;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(nonatomic) int downloadTimeoutSecs; // @synthesize downloadTimeoutSecs=_downloadTimeoutSecs;
-@property(nonatomic) _Bool requiresInexpensiveAccess; // @synthesize requiresInexpensiveAccess=_requiresInexpensiveAccess;
-@property(nonatomic) _Bool requiresPowerPluggedIn; // @synthesize requiresPowerPluggedIn=_requiresPowerPluggedIn;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

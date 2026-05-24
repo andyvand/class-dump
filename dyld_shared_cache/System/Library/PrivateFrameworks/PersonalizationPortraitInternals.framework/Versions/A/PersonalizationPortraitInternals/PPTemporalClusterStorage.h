@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPLocalContactStore, PPLocalEventStore, PPLocalLocationStore, PPLocalNamedEntityStore, PPLocalTopicStore;
+@class PPLocalEventStore;
 
 @interface PPTemporalClusterStorage
 {
     PPLocalEventStore *_eventStore;
-    PPLocalTopicStore *_topicStore;
-    PPLocalNamedEntityStore *_entityStore;
-    PPLocalLocationStore *_locationStore;
-    PPLocalContactStore *_contactStore;
 }
 
 + (id);

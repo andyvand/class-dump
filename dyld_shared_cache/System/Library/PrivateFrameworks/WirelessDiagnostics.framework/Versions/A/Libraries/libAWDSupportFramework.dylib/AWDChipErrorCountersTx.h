@@ -7,27 +7,16 @@
 @interface AWDChipErrorCountersTx
 {
     unsigned long long _txchanrej;
-    unsigned long long _txexptime;
-    unsigned long long _txphycrs;
-    unsigned long long _txphyerr;
-    unsigned long long _txuflo;
-    struct {
-        unsigned int txchanrej:1;
-        unsigned int txexptime:1;
-        unsigned int txphycrs:1;
-        unsigned int txphyerr:1;
-        unsigned int txuflo:1;
-    } _has;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -35,15 +24,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)TI;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)j;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -51,16 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTxchanrej;
-@property(nonatomic) _Bool hasTxexptime;
-@property(nonatomic) _Bool hasTxphycrs;
-@property(nonatomic) _Bool hasTxphyerr;
 @property(nonatomic) _Bool hasTxuflo;
-@property(nonatomic) unsigned long long txchanrej; // @synthesize txchanrej=_txchanrej;
-@property(nonatomic) unsigned long long txexptime; // @synthesize txexptime=_txexptime;
-@property(nonatomic) unsigned long long txphycrs; // @synthesize txphycrs=_txphycrs;
-@property(nonatomic) unsigned long long txphyerr; // @synthesize txphyerr=_txphyerr;
-@property(nonatomic) unsigned long long txuflo; // @synthesize txuflo=_txuflo;
 
 @end
 

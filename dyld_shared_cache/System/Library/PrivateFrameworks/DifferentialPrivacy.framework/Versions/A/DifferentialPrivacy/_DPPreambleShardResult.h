@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface _DPPreambleShardResult
 {
     void publicShare;
-    void inputShares;
-    void nonce;
-    long long dimension;
-    double cohortSigma;
-    double sigmaLocal;
-    double scalingFactor;
 }
 
 - (double);
 - (id);
 - (id);
 - (double);
-- (id);
-- (id);
+- (id)_getBookmarkType:fromDictionaryRepresentation: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (void);
-- (id);
+- (id)deAccelerator";
 - (long long)ing %@ in metadata;
 
 // Remaining properties
-@property(nonatomic, readonly) double cohortSigma; // @synthesize cohortSigma;
-@property(nonatomic, readonly) long long dimension; // @synthesize dimension;
-@property(nonatomic, readonly) NSArray *inputShares;
-@property(nonatomic, readonly) NSData *nonce;
 @property(nonatomic, readonly) NSData *publicShare;
-@property(nonatomic, readonly) double scalingFactor; // @synthesize scalingFactor;
-@property(nonatomic, readonly) double sigmaLocal; // @synthesize sigmaLocal;
 
 @end
 

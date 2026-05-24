@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIDynamicAnimator.h>
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionCompositionalLayoutDynamicAnimator : UIDynamicAnimator
@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)didReceiveInvitation:(id)arg1 forChat:style: /* Error: Ran out of types for this method. */;
+- (id)dExitDateOnLaunch;
 - (id);
 - (void);
 - (_Bool);
@@ -27,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)0ÿ.+Î`^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *visibleItemBehaviors;
-@property(readonly, nonatomic) NSSet *visibleItemIdentifiers;
 @property(readonly, nonatomic) NSArray *visibleItems;
 
 @end

@@ -8,24 +8,24 @@
 {
 }
 
++ (long long)&s;
++ (_Bool)Xc%s;
++ (_Bool);
++ (id)F*s;
++ (_Bool);
++ (void);
++ (void)n%s;
++ (id);
++ (void);
++ (void);
++ (id);
 + (long long);
-+ (_Bool);
-+ (_Bool);
 + (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
++ (id)s;
 + (_Bool);
 + (void);
 + (void);
-+ (id);
++ (id)s;
 
 @end
 

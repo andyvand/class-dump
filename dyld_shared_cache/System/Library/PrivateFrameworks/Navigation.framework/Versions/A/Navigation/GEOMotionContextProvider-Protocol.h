@@ -7,6 +7,7 @@
 @protocol GEOMotionContextProviderDelegate;
 
 @protocol GEOMotionContextProvider
+- (id <GEOMotionContextProviderDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <GEOMotionContextProviderDelegate> motionDelegate;

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (_Bool);
+- (id)e of the asset at %@, %@;
+- (_Bool);
 - (void)h+ÍdÂf;
 
 // Remaining properties

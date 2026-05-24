@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSView;
+@class NSView;
 
 @interface ICCollapsibleBaseView
 {
     _Bool _collapsed;
-    _Bool _setupComplete;
-    double _leadingSpace;
-    double _trailingSpace;
-    NSView *_contentView;
-    NSLayoutConstraint *_zeroWidthConstraint;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
 }
 
 - (id);
-- (double);
+- (double)$;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)channel_muting_enabled;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)d size:(id)arg1 %lu;
 - (_Bool);
-- (void)pansionStateContext;
+- (void)_expansionStateContext;
 - (void);
-- (id)ETTINGS_TEXT_STYLE_HEADING;
+- (id)SETTINGS_TEXT_STYLE_HEADING;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
 @property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSLayoutConstraint *leadingConstraint; // @synthesize leadingConstraint=_leadingConstraint;
-@property(nonatomic) double leadingSpace; // @synthesize leadingSpace=_leadingSpace;
-@property(nonatomic) _Bool setupComplete; // @synthesize setupComplete=_setupComplete;
-@property(retain, nonatomic) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
-@property(nonatomic) double trailingSpace; // @synthesize trailingSpace=_trailingSpace;
-@property(retain, nonatomic) NSLayoutConstraint *zeroWidthConstraint; // @synthesize zeroWidthConstraint=_zeroWidthConstraint;
 
 @end
 

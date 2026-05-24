@@ -11,9 +11,9 @@
     struct OpaqueFigCaptionRendererCALayerOutputNodeContentLayerInternal *layerInternal;
 }
 
-- (void);
+- (void);
 - (id);
-- (id)atKey;
+- (id)QuickTimeClosedCaptionFormatKey;
 
 @end
 

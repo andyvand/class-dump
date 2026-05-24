@@ -7,10 +7,10 @@
 @class NSURL;
 
 @protocol GEOMapItemPhotoInfo
+- (struct CGSize)?Qq);
 - (NSURL *)ng"b1"read_mapsId"b1"read_name"b1"read_styleAttributes"b1"wrote_anyField"b1};
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) NSURL *url;
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PLState
 {
     id _lastValue;
-    id _currValue;
-    NSDate *_stateChangeTime;
-    unsigned long long _stateId;
-    NSString *_entryKey;
 }
 
 + (void)chived powerlog for upgrade date '%@':%@ /* Error: Ran out of types for this method. */;
@@ -21,21 +15,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)>;
+- (id)#;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain) id currValue; // @synthesize currValue=_currValue;
-@property(readonly) NSString *entryKey; // @synthesize entryKey=_entryKey;
 @property(retain) id lastValue; // @synthesize lastValue=_lastValue;
-@property(retain) NSDate *stateChangeTime; // @synthesize stateChangeTime=_stateChangeTime;
-@property(readonly) unsigned long long stateId; // @synthesize stateId=_stateId;
 
 @end
 

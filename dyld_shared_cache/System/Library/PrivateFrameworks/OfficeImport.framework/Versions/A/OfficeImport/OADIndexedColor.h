@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)/;
 
 @end
 

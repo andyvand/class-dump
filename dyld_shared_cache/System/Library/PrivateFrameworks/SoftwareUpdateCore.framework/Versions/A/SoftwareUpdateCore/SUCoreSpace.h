@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SUCoreSpace
 {
     _Bool _reserveSpacePaused;
-    _Bool _entitledSpaceDisabled;
-    NSObject<OS_dispatch_queue> *_spaceQueue;
 }
 
 + (id);
@@ -44,16 +39,14 @@
 + (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool entitledSpaceDisabled; // @synthesize entitledSpaceDisabled=_entitledSpaceDisabled;
 @property(nonatomic) _Bool reserveSpacePaused; // @synthesize reserveSpacePaused=_reserveSpacePaused;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *spaceQueue; // @synthesize spaceQueue=_spaceQueue;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKOSVersionRequirementRange;
-
 @interface PKPassFeatureConfiguration
 {
     _Bool _enabled;
-    PKOSVersionRequirementRange *_versionRange;
 }
 
 + (_Bool)0@ù
@@ -18,17 +15,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setHasConnectionAttemptCount:(id)arg1;
+- (void)durationFromVoiceRecordingEnd;
 - (id)tifier:(id)arg1 passUniqueIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool)NSData",C,N,V_signaturePayload;
-- (void)r;
+- (void)cloudStoreUnknownError;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *versionRange; // @synthesize versionRange=_versionRange;
 
 @end
 

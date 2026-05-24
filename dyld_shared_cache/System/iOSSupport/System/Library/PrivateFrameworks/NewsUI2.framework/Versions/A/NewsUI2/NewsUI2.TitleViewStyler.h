@@ -7,8 +7,6 @@
 @interface NewsUI2.TitleViewStyler
 {
     id headlineFontMetrics;
-    id actionButtonFontMetrics;
-    id baseTitleFont;
 }
 
 @end

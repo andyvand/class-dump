@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EDPersistedRichLinkID
 {
     long long databaseID;
-    void stringValue;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)b;
 - (_Bool);
 - (long long);
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long databaseID; // @synthesize databaseID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *stringValue;
 
 @end
 

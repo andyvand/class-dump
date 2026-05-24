@@ -11,7 +11,7 @@
     long long _metadataType;
 }
 
-- (_Bool);
+- (_Bool)7(6e;
 - (id);
 - (id);
 - (id);

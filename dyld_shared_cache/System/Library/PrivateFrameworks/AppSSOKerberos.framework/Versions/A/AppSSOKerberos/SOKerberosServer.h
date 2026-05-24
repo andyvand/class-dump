@@ -9,24 +9,18 @@
 @interface SOKerberosServer
 {
     NSString *_host;
-    NSString *_protocol;
-    NSString *_port;
-    NSString *_path;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)newBufferWithLength:options:placementSparsePageSize: /* Error: Ran out of types for this method. */;
+- (id)e >>>> %s:using main queue for refreshing camera properties /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *host; // @synthesize host=_host;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) NSString *port; // @synthesize port=_port;
-@property(readonly) NSString *protocol; // @synthesize protocol=_protocol;
 
 @end
 

@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRInitializationEnded, ASRSchemaASRInitializationStarted, NSData;
+@class ASRSchemaASRInitializationStarted;
 
 @interface ASRSchemaASRInitializationContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRInitializationStarted *_startedOrChanged;
-    ASRSchemaASRInitializationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
+- (unsigned long long)�Pp;
+- (id);
+- (_Bool)B;
+- (void).;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)64@0:(id)arg1 8@16@24@32{_NSRange=QQ}40^q56;
+- (void)36;
+- (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)t;
+- (id)stLLMQueryUnderstandingContext;
 - (id)ør4s;
 - (id);
 - (void)ü&;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRInitializationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRInitializationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

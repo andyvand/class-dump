@@ -5,5 +5,6 @@
 //
 
 @protocol _DeviceActivity_SwiftUI.DeviceActivityReportServiceXPC
+- (void)̄;
 @end
 

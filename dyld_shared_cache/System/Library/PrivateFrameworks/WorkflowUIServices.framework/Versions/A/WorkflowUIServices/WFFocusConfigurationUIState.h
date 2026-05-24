@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAction, LNDisplayRepresentation, WFContextualAction;
-
 @interface WFFocusConfigurationUIState
 {
     _Bool _enabled;
-    _Bool _isUIValid;
-    LNAction *_action;
-    LNDisplayRepresentation *_displayRepresentation;
-    WFContextualAction *_contextualAction;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,11 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) LNAction *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;
-@property(readonly, copy, nonatomic) LNDisplayRepresentation *displayRepresentation; // @synthesize displayRepresentation=_displayRepresentation;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool isUIValid; // @synthesize isUIValid=_isUIValid;
 @property(readonly, nonatomic) _Bool isValid;
 
 @end

@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _CATRemoteConnectionSendDataContext
 {
     NSData *mEncodedData;
-    NSData *_data;
-    id _userInfo;
-    unsigned long long _bytesWritten;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)g;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)(	;
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (id)@;
+- (void);
+- (void)(;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesWritten; // @synthesize bytesWritten=_bytesWritten;
-@property(readonly, nonatomic) unsigned long long clientBytesWritten;
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBytesRemaining;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

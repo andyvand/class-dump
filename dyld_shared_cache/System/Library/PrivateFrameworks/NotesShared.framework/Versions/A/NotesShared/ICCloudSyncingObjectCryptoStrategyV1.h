@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCryptoStrategyBase.h>
 
-@class ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSData, NSString;
+@class NSData;
 
 @interface ICCloudSyncingObjectCryptoStrategyV1 : ICCryptoStrategyBase
 {
@@ -21,58 +21,41 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)localeByFindingExistingLocaleWithName:(id)arg1;
+- (id)(%d);
+- (id)record '%@' with IP address '%@':%@ (%d) /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)oard-10.9-noticeboard.merged-1.sucatalog;
+- (_Bool)o install (take 2);
+- (id);
+- (id)%;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ry/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)TTRRemindersListCellEditModeStateType;
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSData *fileURLEncryptionCryptoInitialzationVector;
 @property(readonly) NSData *fileURLEncryptionCryptoTag;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
-@property(readonly, nonatomic) __weak ICCloudSyncingObject *object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
-@property(readonly) Class superclass;
 
 @end
 

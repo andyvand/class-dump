@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, PGCurationManager, PGGraphLocationHelper, PHPhotoLibrary;
+@class PGCurationManager;
 
 @interface PGMemoryCurationSession
 {
     PGCurationManager *_curationManager;
-    PHPhotoLibrary *_photoLibrary;
-    CLSCurationContext *_curationContext;
-    PGGraphLocationHelper *_locationHelper;
 }
 
-- (id);
-- (id);
+- (id)shouldShowDialog;
+- (id)_findLastWordCandidateInSearchRange:(id)arg1;
 - (id);
 - (void)n failed due to missing port:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (id)hmChineseValentinesDay;
+- (id)PhotosChallengeEvaluableAlgorithmChineseValentinesDay;
 
 // Remaining properties
-@property(readonly, nonatomic) CLSCurationContext *curationContext; // @synthesize curationContext=_curationContext;
 @property(readonly, nonatomic) PGCurationManager *curationManager; // @synthesize curationManager=_curationManager;
-@property(readonly, nonatomic) PGGraphLocationHelper *locationHelper; // @synthesize locationHelper=_locationHelper;
-@property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

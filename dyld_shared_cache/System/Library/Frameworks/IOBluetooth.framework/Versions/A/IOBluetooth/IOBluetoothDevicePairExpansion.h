@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, IOBluetoothHostController, IOBluetoothL2CAPChannel, NSXPCConnection;
-
 @interface IOBluetoothDevicePairExpansion
 {
     unsigned short pageTimeout;
-    IOBluetoothHostController *hostController;
-    _Bool supportsAuthentication;
-    _Bool isNonSSPKeypressNotificationCapable;
-    IOBluetoothL2CAPChannel *channel;
-    _Bool Q6BDAddrRange;
-    _Bool isWiiRemote;
-    _Bool isNeuroSwitch;
-    _Bool _isWiiUProController;
-    _Bool isPolyVision;
-    NSXPCConnection *xpcConnection;
-    CBCentralManager *_central;
-    _Bool _started;
 }
 
 - (void);
@@ -29,7 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)
+k;
 - (void);
 - (unsigned short);
 - (_Bool);
@@ -38,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (void);
@@ -48,23 +35,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)identity-creation;
 - (void);
 
 // Remaining properties
-@property _Bool Q6BDAddrRange; // @synthesize Q6BDAddrRange;
-@property(retain) CBCentralManager *central; // @synthesize central=_central;
-@property(retain) IOBluetoothL2CAPChannel *channel; // @synthesize channel;
-@property(retain) IOBluetoothHostController *hostController; // @synthesize hostController;
-@property _Bool isNeuroSwitch; // @synthesize isNeuroSwitch;
-@property _Bool isNonSSPKeypressNotificationCapable; // @synthesize isNonSSPKeypressNotificationCapable;
-@property _Bool isPolyVision; // @synthesize isPolyVision;
-@property _Bool isStarted; // @synthesize isStarted=_started;
-@property _Bool isWiiRemote; // @synthesize isWiiRemote;
-@property _Bool isWiiUProController; // @synthesize isWiiUProController=_isWiiUProController;
 @property unsigned short pageTimeout; // @synthesize pageTimeout;
-@property _Bool supportsAuthentication; // @synthesize supportsAuthentication;
-@property(retain) NSXPCConnection *xpcConnection; // @synthesize xpcConnection;
 
 @end
 

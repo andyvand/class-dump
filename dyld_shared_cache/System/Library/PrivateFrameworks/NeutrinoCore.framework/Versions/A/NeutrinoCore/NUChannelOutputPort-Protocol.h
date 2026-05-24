@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@protocol NUChannelOutputPort;
 
 @protocol NUChannelOutputPort
+- (id <NUChannelOutputPort>)d@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *connectedInputPorts;
 @property(readonly, nonatomic) _Bool hasConnections;
 @end
 

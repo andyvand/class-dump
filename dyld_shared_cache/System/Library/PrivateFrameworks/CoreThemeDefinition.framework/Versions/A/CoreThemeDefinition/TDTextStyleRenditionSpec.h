@@ -6,8 +6,6 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSString, TDNamedColorProduction;
-
 @interface TDTextStyleRenditionSpec : TDRenditionSpec
 {
 }
@@ -16,13 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) short alignment; // @dynamic alignment;
-@property(retain, nonatomic) TDNamedColorProduction *backgroundColor; // @dynamic backgroundColor;
-@property(copy, nonatomic) NSString *fontName; // @dynamic fontName;
-@property(nonatomic) float fontSize; // @dynamic fontSize;
-@property(retain, nonatomic) TDNamedColorProduction *foregroundColor; // @dynamic foregroundColor;
-@property(nonatomic) float maxPointSize; // @dynamic maxPointSize;
-@property(nonatomic) float minPointSize; // @dynamic minPointSize;
-@property(nonatomic) short scalingStyle; // @dynamic scalingStyle;
 
 @end
 

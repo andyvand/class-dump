@@ -7,14 +7,12 @@
 @class ACAccount, NSArray, NSString;
 
 @protocol ECMailAccount
+- (ACAccount *)CORONET_POW_OFF_Transitions;
+- (NSString *)purePommesL2RankingAllowedWithSectionBundle:clientBundle: /* Error: Ran out of types for this method. */;
 - (NSString *)"8;
 - (void)ShouldArchive:(NSString *)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy) NSArray *emailAddressStrings;
-@property(copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(copy) NSString *password;
-@property(readonly) ACAccount *systemAccount;
 @end
 

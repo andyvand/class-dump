@@ -7,14 +7,11 @@
 @class EMDeliveryAccount, NSArray, NSString;
 
 @protocol EMReceivingAccountBuilder
+- (NSString *)?;
+- (void);
 - (NSArray *)dû;
 
 // Remaining properties
 @property(retain) EMDeliveryAccount *deliveryAccount;
-@property(retain) NSArray *emailAddresses;
-@property _Bool isLocalAccount;
-@property _Bool shouldArchiveByDefault;
-@property _Bool sourceIsManaged;
-@property(copy, nonatomic) NSString *statisticsKind;
 @end
 

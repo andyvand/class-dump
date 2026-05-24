@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CALNNotificationAction
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_systemImageName;
-    NSURL *_url;
 }
 
 + (id);
-+ (id);
++ (id)N3ctu20RestListenerDelegateI16HelperRestServerEE;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

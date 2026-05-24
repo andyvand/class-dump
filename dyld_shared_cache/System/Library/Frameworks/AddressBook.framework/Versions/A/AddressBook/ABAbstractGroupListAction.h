@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupListController, NSString;
-@protocol ABGroupHelperFactory;
+@class ABGroupListController;
 
 @interface ABAbstractGroupListAction
 {
     ABGroupListController *_groupListController;
-    id <ABGroupHelperFactory> _helperFactory;
-    _Bool executionWasAuthorized;
 }
 
 - (_Bool);
@@ -24,15 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool executionWasAuthorized; // @synthesize executionWasAuthorized;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool requiresAuthorizationBeforeExecution;
-@property(readonly) Class superclass;
 
 @end
 

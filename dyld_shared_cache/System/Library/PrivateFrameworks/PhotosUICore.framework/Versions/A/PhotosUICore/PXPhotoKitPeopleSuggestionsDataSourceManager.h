@@ -6,19 +6,11 @@
 
 #import <PhotosUICore/PXPeopleSuggestionsDataSourceManager.h>
 
-@class NSMutableOrderedSet, NSString, PHAssetCollection, PXPhotoKitPeopleSuggestionsDataSource, PXPhotoKitPeopleSuggestionsDataSourceState, PXUpdater;
+@class PXPhotoKitPeopleSuggestionsDataSource;
 
 @interface PXPhotoKitPeopleSuggestionsDataSourceManager : PXPeopleSuggestionsDataSourceManager
 {
     _Bool _isPrefetching;
-    _Bool _hasCreatedInitialDataSource;
-    _Bool _needsDeferredLoading;
-    _Bool _hasStartedLoadingFinalDataSource;
-    _Bool _hasFinishedLoadingFinalDataSource;
-    PXPhotoKitPeopleSuggestionsDataSourceState *__state;
-    NSMutableOrderedSet *__remainingPeopleToFetch;
-    PHAssetCollection *_assetCollection;
-    PXUpdater *_updater;
 }
 
 + (id);
@@ -60,20 +52,7 @@
 - (_Bool)2Êÿ`qR<;
 
 // Remaining properties
-@property(retain) NSMutableOrderedSet *_remainingPeopleToFetch; // @synthesize _remainingPeopleToFetch=__remainingPeopleToFetch;
-@property(retain, nonatomic) PXPhotoKitPeopleSuggestionsDataSourceState *_state; // @synthesize _state=__state;
-@property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
 @property(readonly, nonatomic) PXPhotoKitPeopleSuggestionsDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasFinishedLoadingFinalDataSource; // @synthesize hasFinishedLoadingFinalDataSource=_hasFinishedLoadingFinalDataSource;
-@property(nonatomic) _Bool hasStartedLoadingFinalDataSource; // @synthesize hasStartedLoadingFinalDataSource=_hasStartedLoadingFinalDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end
 

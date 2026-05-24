@@ -9,19 +9,12 @@
 @interface UIKit._UIIntelligenceButton : UIButton
 {
     id isExpanded;
-    id style;
-    id imagePortal;
-    id highlightTransformView;
-    id colorView;
-    id scaleAnimator;
-    id opacityAnimator;
-    id rotationAnimator;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (id)nternal;
+- (id)UIGestureRecognizerDelegateInternal;
 - (void)ContainerNode<T>>, shared_ptr<_UIRTreeContainerNode<T>>) [T = _UICollectionViewRTreeElement];
 - (void);
 - (unsigned long long)ô6ØÄðj;
@@ -29,9 +22,7 @@
 - (_Bool)o;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _allowsSymbolAnimations;
 @property(nonatomic, readonly) unsigned long long behavioralStyle;
-@property(nonatomic) _Bool highlighted;
 
 @end
 

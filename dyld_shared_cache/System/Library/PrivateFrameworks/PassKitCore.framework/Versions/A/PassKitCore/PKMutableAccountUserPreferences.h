@@ -6,8 +6,6 @@
 
 #import <PassKitCore/PKAccountUserPreferences.h>
 
-@class NSDecimalNumber;
-
 @interface PKMutableAccountUserPreferences : PKAccountUserPreferences
 {
 }
@@ -15,12 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *monthlySpendLimitAmount; // @dynamic monthlySpendLimitAmount;
-@property(nonatomic) _Bool monthlySpendLimitEnabled; // @dynamic monthlySpendLimitEnabled;
-@property(nonatomic) _Bool showAvailableCredit; // @dynamic showAvailableCredit;
 @property(nonatomic) _Bool spendingEnabled; // @dynamic spendingEnabled;
-@property(retain, nonatomic) NSDecimalNumber *transactionSpendLimitAmount; // @dynamic transactionSpendLimitAmount;
-@property(nonatomic) _Bool transactionSpendLimitEnabled; // @dynamic transactionSpendLimitEnabled;
 
 @end
 

@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSymbolContentTransition, NSSymbolEffectOptions, UIImage;
+@class NSSymbolContentTransition;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewPendingSymbolContentTransition
 {
     _Bool _pendingLayoutPass;
-    NSSymbolContentTransition *_symbolContentTransition;
-    NSSymbolEffectOptions *_options;
-    CDUnknownBlockType _completionHandler;
-    UIImage *_sourceSymbolImage;
-    UIImage *_targetSymbolImage;
-    struct CGRect _initialSymbolAbsoluteRect;
 }
 
-+ (id);
-- (id);
++ (id)y file transfers were updated.;
+- (id)__kIMCapabilityFileSharing;
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)scanUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ze:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)olumnNumberOffset;
+- (CDUnknownBlockType)rightColumnNumberOffset;
 - (id)any information you have that helps reproduce this bug!;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) struct CGRect initialSymbolAbsoluteRect; // @synthesize initialSymbolAbsoluteRect=_initialSymbolAbsoluteRect;
-@property(readonly, nonatomic) NSSymbolEffectOptions *options; // @synthesize options=_options;
-@property(nonatomic, getter=isPendingLayoutPass) _Bool pendingLayoutPass; // @synthesize pendingLayoutPass=_pendingLayoutPass;
-@property(readonly, nonatomic) UIImage *sourceSymbolImage; // @synthesize sourceSymbolImage=_sourceSymbolImage;
 @property(readonly, nonatomic) NSSymbolContentTransition *symbolContentTransition; // @synthesize symbolContentTransition=_symbolContentTransition;
-@property(readonly, nonatomic) UIImage *targetSymbolImage; // @synthesize targetSymbolImage=_targetSymbolImage;
 
 @end
 

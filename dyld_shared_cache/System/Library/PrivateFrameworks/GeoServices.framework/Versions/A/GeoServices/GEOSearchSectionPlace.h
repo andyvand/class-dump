@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)16@"NSManagedObjectContext"24;
+- (id)storeUrlForContainerIdentifer:(id)arg1;
 - (id);
 - (void)IC«°P@;
 

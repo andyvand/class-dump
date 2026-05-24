@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface SearchUIShareItem
 {
     NSData *_data;
-    NSString *_contentType;
 }
 
 + (_Bool);
@@ -22,20 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (void)SymbolFontSize:(id)arg1;
+- (void)setPreferredSymbolFontSize:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

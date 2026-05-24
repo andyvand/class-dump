@@ -7,7 +7,7 @@
 @class NSUUID;
 
 @protocol WBReusableTab
-- (NSUUID *)orWindowAllowingDeminiaturizing: /* Error: Ran out of types for this method. */;
+- (NSUUID *)_restoreWebInspectorWindowAllowingDeminiaturizing: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

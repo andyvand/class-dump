@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, MPCPlayerCommandStatus, NSData, NSDate;
+@class MPCPlayerCommandRequest;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteCommandOperation
 {
     MPCPlayerCommandRequest *_request;
-    unsigned long long _options;
-    NSDate *_sendDate;
-    MPCPlayerCommandStatus *_status;
-    NSData *_tokenB;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)aa_primaryAppleAccount;
+- (void)up.;
+- (_Bool)ng username!;
+- (id)^(4;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)u;
 - (void)ration from end event %{public}@ - start event %{public}@ = %.3fs;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) MPCPlayerCommandRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) NSDate *sendDate; // @synthesize sendDate=_sendDate;
-@property(readonly, nonatomic) MPCPlayerCommandStatus *status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSData *tokenB; // @synthesize tokenB=_tokenB;
 
 @end
 

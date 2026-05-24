@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     MLModel *_model;
 }
 
-+ (void);
++ (void)code;
 + (id);
 + (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)t;
+- (void)sSearchAttributes:(id)arg1 ignoreDeviceNameIfNil:(CDUnknownBlockType)arg2 ];
 - (id);
 - (id);
 - (id);

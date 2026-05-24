@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)appEventNames;
+- (_Bool)senceConfigData:%@ -> %@ /* Error: Ran out of types for this method. */;
 - (Class)× ;
 
 @end

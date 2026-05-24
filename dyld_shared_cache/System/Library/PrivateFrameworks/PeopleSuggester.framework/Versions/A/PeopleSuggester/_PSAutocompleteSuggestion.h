@@ -9,42 +9,30 @@
 @interface _PSAutocompleteSuggestion
 {
     NSString *_chatGuid;
-    NSArray *_chatHandles;
-    NSString *_displayName;
-    NSString *_handle;
-    NSString *_contactIdentifier;
-    unsigned long long _resultSourceType;
-    NSArray *_recipients;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)_effectiveSystemLanguage;
+- (id)_areQueryDiacriticsRemoved;
+- (id)_applicationsInForeground;
+- (id)rtcutsAvailable;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (_Bool)/Versions/A/QuickLookUI;
 - (id);
 - (void);
+- (id),;
+- (void)o;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *chatGuid; // @synthesize chatGuid=_chatGuid;
-@property(readonly, copy, nonatomic) NSArray *chatHandles; // @synthesize chatHandles=_chatHandles;
-@property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 @property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(nonatomic) unsigned long long resultSourceType; // @synthesize resultSourceType=_resultSourceType;
 
 @end
 

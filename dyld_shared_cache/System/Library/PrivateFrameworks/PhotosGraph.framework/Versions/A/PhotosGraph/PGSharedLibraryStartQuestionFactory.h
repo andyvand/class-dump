@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)_readableContentOfElement:topLevelElement:visitedChildren:currentReadableContents:depth: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (unsigned short);

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     int mType;
 }
 
-- (id);
+- (id)4;
 - (int);
 - (void);
 

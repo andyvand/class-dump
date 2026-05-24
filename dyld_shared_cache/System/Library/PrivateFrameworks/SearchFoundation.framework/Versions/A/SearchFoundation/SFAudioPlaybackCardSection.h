@@ -6,44 +6,36 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFImage, SFRichText, SFUserReportRequest;
+@class NSString;
 
 @interface SFAudioPlaybackCardSection : SFCardSection
 {
     struct {
         unsigned int state:1;
     } _has;
-    int _state;
-    NSString *_type;
-    NSArray *_playCommands;
-    NSArray *_stopCommands;
-    SFRichText *_detailText;
-    SFRichText *_title;
-    SFRichText *_subtitle;
-    SFImage *_thumbnail;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)"apple" - "keychain-access-groups";
 - (void);
-- (id);
+- (id)performWithDatabaseOperations:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)CXChannelProviderVendorProtocol;
 - (void);
 - (int);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)allpaper_UNUSED:(id)arg1 momentShared:placeholder:referenced:alternate:guest:companionSynced:recovered:collectionShare:legacyImport: /* Error: Ran out of types for this method. */;
+- (void)setFractionOfCuratedAssetsWithSceneAnalysisInSearchIndex:(id)arg1;
+- (id)SharedLibrary] first;
 - (id);
 - (void);
 - (id);
@@ -52,60 +44,7 @@
 - (void)@"_SFPBRichText",&,N,V_richTrailingTopText;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SFRichText *detailText; // @synthesize detailText=_detailText;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *playCommands; // @synthesize playCommands=_playCommands;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(copy, nonatomic) NSArray *stopCommands; // @synthesize stopCommands=_stopCommands;
-@property(retain, nonatomic) SFRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain, nonatomic) SFRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

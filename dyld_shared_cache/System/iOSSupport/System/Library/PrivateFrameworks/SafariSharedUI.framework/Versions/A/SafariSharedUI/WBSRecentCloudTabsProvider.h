@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, WBSRecentsStore;
+@class WBSRecentsStore;
 @protocol WBSCloudTabDeviceProvider;
 
 @interface WBSRecentCloudTabsProvider
 {
     WBSRecentsStore *_recentsStore;
-    id <WBSCloudTabDeviceProvider> _cloudTabDeviceProvider;
-    NSString *_activeProfileIdentifier;
 }
 
 + (id);
 - (void);
+- (id)P;
+- (void)"@9;
 - (id);
+- (id);
+- (id)@9J
+;
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)eturnDefaultIconIfNoneAvailable:iconSize:isURLTypedByUser:completion: /* Error: Ran out of types for this method. */;
+- (id)g at least 1;
+- (void)registerOneTimeRequestForURLString:withToken:returnDefaultIconIfNoneAvailable:iconSize:isURLTypedByUser:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activeProfileIdentifier; // @synthesize activeProfileIdentifier=_activeProfileIdentifier;
 @property(retain, nonatomic) id <WBSCloudTabDeviceProvider> cloudTabDeviceProvider; // @synthesize cloudTabDeviceProvider=_cloudTabDeviceProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *recentItems;
-@property(nonatomic) __weak WBSRecentsStore *recentsStore; // @synthesize recentsStore=_recentsStore;
-@property(readonly) Class superclass;
 
 @end
 

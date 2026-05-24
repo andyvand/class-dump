@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHMemory, PHPhotoLibrary, PHUserFeedbackCalculator;
+@class PHMemory, PHPhotoLibrary;
 
 @interface PGPotentialUpNextMemory
 {
     PHPhotoLibrary *_photoLibrary;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
-    _Bool _noKeyAsset;
-    PHAsset *_keyAsset;
-    PHMemory *_memory;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (id)sentenceTokenizerWithString:(id)arg1 locale:(id)arg2;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id):progressReporter: /* Error: Ran out of types for this method. */;
-- (void)gory;
+- (id)futureMemoriesForConfiguration:withGraph:progressReporter: /* Error: Ran out of types for this method. */;
+- (void)publicEventCategory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PHAsset *keyAsset;
-@property(readonly, nonatomic) NSString *keyAssetLocalIdentifier;
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
-@property(readonly, nonatomic) NSString *memoryLocalIdentifier;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

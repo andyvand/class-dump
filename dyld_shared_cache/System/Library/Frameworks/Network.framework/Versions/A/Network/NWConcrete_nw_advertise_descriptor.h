@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_nw_txt_record;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_advertise_descriptor
 {
     int descriptor_type;
-    char *name;
-    char *type;
-    char *domain;
-    NSObject<OS_nw_txt_record> *txt_record;
-    char *application_service_name;
-    char *bundle_id;
-    int invitation_scope;
-    int invitation_route;
-    unsigned long long custom_service_length;
-    char *custom_service;
-    unsigned int no_auto_rename:1;
-    unsigned int __pad_bits:7;
 }
 
-- (void);
-- (id);
+- (void)ht Bezel Text;
+- (id)?;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

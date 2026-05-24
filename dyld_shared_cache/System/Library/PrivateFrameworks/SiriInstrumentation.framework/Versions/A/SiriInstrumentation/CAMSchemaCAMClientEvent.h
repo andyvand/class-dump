@@ -6,33 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CAMSchemaCAMAutoSendFeaturesGenerated, CAMSchemaCAMClientEventMetadata, CAMSchemaCAMModelExecuted, CAMSchemaCAMRequestReceived, CAMSchemaCAMResponseGenerated, NSData, SISchemaInstrumentationMessage;
+@class CAMSchemaCAMClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CAMSchemaCAMClientEvent : SISchemaTopLevelUnionType
 {
     CAMSchemaCAMClientEventMetadata *_eventMetadata;
-    CAMSchemaCAMRequestReceived *_requestReceived;
-    CAMSchemaCAMModelExecuted *_modelExecuted;
-    CAMSchemaCAMResponseGenerated *_responseGenerated;
-    CAMSchemaCAMAutoSendFeaturesGenerated *_autoSendFeaturesGenerated;
-    _Bool _hasEventMetadata;
-    _Bool _hasRequestReceived;
-    _Bool _hasModelExecuted;
-    _Bool _hasResponseGenerated;
-    _Bool _hasAutoSendFeaturesGenerated;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
++ (int)9;
 + (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
+- (void)=;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)w8(	;
 - (void);
 - (void);
 - (id);
@@ -41,18 +31,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)=;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -62,27 +52,15 @@
 - (_Bool);
 - (id);
 - (id)RModelOutput";
-- (id)eteSuggestionEvaluation;
+- (id)deleteSuggestionEvaluation;
 - (unsigned long long)HSchemaMHAssistantDaemonAudioStopRecordingeStarted",&,N,V_startedOrChanged;
-- (id)InfoTier1;
+- (id)ASRSchemaASRDictationVoiceCommandInfoTier1;
 - (id)X÷ÿ|÷ÿ ÷ÿÄ÷ÿè÷ÿ÷ÿ0÷ÿT÷ÿx÷ÿ÷ÿÀ÷ÿä÷ÿ÷ÿ,÷ÿP÷ÿt÷ÿ÷ÿ¼÷ÿà÷ÿ÷ÿ(÷ÿL÷ÿp÷ÿ÷ÿ¸÷ÿÜ÷ÿ;
 - (int)meterNotAllowed.value.value.entity.typeIdentifier.custom.bundleId;
 - (void)D5®ÿB¬j|&;
 
 // Remaining properties
-@property(retain, nonatomic) CAMSchemaCAMAutoSendFeaturesGenerated *autoSendFeaturesGenerated; // @synthesize autoSendFeaturesGenerated=_autoSendFeaturesGenerated;
-@property(retain, nonatomic) CAMSchemaCAMClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAutoSendFeaturesGenerated; // @synthesize hasAutoSendFeaturesGenerated=_hasAutoSendFeaturesGenerated;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasModelExecuted; // @synthesize hasModelExecuted=_hasModelExecuted;
-@property(nonatomic) _Bool hasRequestReceived; // @synthesize hasRequestReceived=_hasRequestReceived;
-@property(nonatomic) _Bool hasResponseGenerated; // @synthesize hasResponseGenerated=_hasResponseGenerated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CAMSchemaCAMModelExecuted *modelExecuted; // @synthesize modelExecuted=_modelExecuted;
-@property(retain, nonatomic) CAMSchemaCAMRequestReceived *requestReceived; // @synthesize requestReceived=_requestReceived;
-@property(retain, nonatomic) CAMSchemaCAMResponseGenerated *responseGenerated; // @synthesize responseGenerated=_responseGenerated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

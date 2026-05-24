@@ -7,13 +7,6 @@
 @interface NewsUI2.NewsActivityInfo
 {
     id type;
-    id identifier;
-    id title;
-    id url;
-    id activityTraits;
-    id bookmark;
-    id scrollPosition;
-    id feedConfigurationRawValue;
 }
 
 - (id);

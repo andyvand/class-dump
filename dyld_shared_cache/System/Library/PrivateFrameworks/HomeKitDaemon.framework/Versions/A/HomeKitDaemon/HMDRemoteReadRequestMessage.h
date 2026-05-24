@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessage, NSObject, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMFMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteReadRequestMessage
 {
     HMFMessage *_readMessage;
-    NSUUID *_accessoryUUID;
-    NSObject<OS_dispatch_queue> *_responseQueue;
 }
 
-- (id);
+- (id)_regionBookmark;
 - (id);
 - (id);
 - (id)bulk send listener:%@ /* Error: Ran out of types for this method. */;
@@ -24,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
 @property(readonly, nonatomic) HMFMessage *readMessage; // @synthesize readMessage=_readMessage;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
 
 @end
 

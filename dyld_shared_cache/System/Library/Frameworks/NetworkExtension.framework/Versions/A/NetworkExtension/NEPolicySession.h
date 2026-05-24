@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface NEPolicySession
 {
     _Bool _convertToLegacyPriority;
-    unsigned int _lastSendMessageID;
-    int _sessionFD;
-    long long _internalPriority;
-    NSMutableDictionary *_policies;
-    NSObject<OS_dispatch_queue> *_ioQueue;
-    NSObject<OS_dispatch_semaphore> *_responseSemaphore;
-    NSData *_lastReceivedResponse;
 }
 
 - (void);
@@ -38,8 +28,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)(async) created %llu from %llu and %@;
+- (_Bool)ta for publicIdentity {dataProtectionClass:%{public}@, error:%{public}@} /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void)Response=};

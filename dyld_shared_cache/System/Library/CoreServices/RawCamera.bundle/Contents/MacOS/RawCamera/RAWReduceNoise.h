@@ -6,36 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSArray, NSDictionary, NSNumber;
+@class CIImage;
 
 @interface RAWReduceNoise : RAWFilter
 {
     CIImage *inputImage;
-    NSNumber *inputLNRAmount;
-    NSNumber *inputCNRAmount;
-    NSNumber *inputSharpenAmount;
-    NSNumber *inputSharpenThreshold;
-    NSNumber *inputContrastAmount;
-    NSNumber *inputDetailAmount;
-    NSNumber *inputMoireRadius;
-    NSNumber *inputMoireAmount;
-    NSNumber *inputOpponentColorEnabled;
-    CIVector *inputNeutralFactors;
-    NSNumber *inputRepresentativeNoise;
-    NSNumber *inputScaleFactor;
-    NSNumber *inputBoostMethod;
-    CIVector *inputLumFactors;
-    NSNumber *inputBaselineExposure;
-    NSNumber *inputISO;
-    NSNumber *inputSensorPattern;
-    NSDictionary *inputISODictionary;
-    NSDictionary *inputTrimParameters;
-    NSArray *inputLowCurvatureThreshold;
-    NSDictionary *inputDespeckleParameters;
-    NSNumber *inputHighFrequencyFactor;
-    NSNumber *inputShowHF;
-    NSNumber *inputVersion;
-    id inputColorSpace;
 }
 
 + (id);
@@ -66,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -86,14 +61,14 @@
 - (id);
 - (id);
 - (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -106,7 +81,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)�7;
 - (id);
 - (float);
 - (id);

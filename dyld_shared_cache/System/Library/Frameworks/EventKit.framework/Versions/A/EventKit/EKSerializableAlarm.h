@@ -6,35 +6,29 @@
 
 #import <EventKit/EKSerializableObject.h>
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface EKSerializableAlarm : EKSerializableObject
 {
     _Bool _isAbsolute;
-    _Bool _isDefaultAlarm;
-    NSNumber *_relativeOffset;
-    NSDate *_absoluteDate;
 }
 
-+ (id);
-- (void);
++ (id)8I16@"NSError"20;
+- (void)x!;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ble;
 - (void);
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *absoluteDate; // @synthesize absoluteDate=_absoluteDate;
-@property(nonatomic) _Bool isAbsolute; // @synthesize isAbsolute=_isAbsolute;
-@property(nonatomic) _Bool isDefaultAlarm; // @synthesize isDefaultAlarm=_isDefaultAlarm;
 @property(retain, nonatomic) NSNumber *relativeOffset; // @synthesize relativeOffset=_relativeOffset;
 
 @end

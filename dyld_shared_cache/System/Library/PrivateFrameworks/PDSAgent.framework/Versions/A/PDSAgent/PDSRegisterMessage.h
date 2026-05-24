@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDSProtoBatchRegisterReq, PDSProtoBatchRegisterResp;
+@class PDSProtoBatchRegisterReq;
 
 @interface PDSRegisterMessage
 {
     PDSProtoBatchRegisterReq *_protoRequest;
-    PDSProtoBatchRegisterResp *_protoResponse;
-    unsigned long long _regReason;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)hip states to Failed.;
+- (void)add %ld sharing relationships. Error:(id)arg1 %{public}@. Setting relationship states to Failed.;
+- (unsigned long long)ic}@:Computing derivatives for %ld photos took %.2f seconds, or %.2f per photo. /* Error: Ran out of types for this method. */;
+- (id)}@:Received derivatives for %ld photos, and received rejections for %ld photos. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PDSProtoBatchRegisterReq *protoRequest; // @synthesize protoRequest=_protoRequest;
-@property(retain, nonatomic) PDSProtoBatchRegisterResp *protoResponse; // @synthesize protoResponse=_protoResponse;
-@property(nonatomic) unsigned long long regReason; // @synthesize regReason=_regReason;
 
 @end
 

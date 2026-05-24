@@ -10,12 +10,12 @@
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)networkProvider;
+- (_Bool)",C,V_excludedDomains;
+- (_Bool)NEBloomFilterFile;
+- (id)NEFilterPacketExtensionProviderHostProtocol;
+- (id)NEIKEv2VendorIDPayload;
+- (id)NEFilterDataExtensionProviderHostContext;
 - (id);
 - (void);
 - (id);

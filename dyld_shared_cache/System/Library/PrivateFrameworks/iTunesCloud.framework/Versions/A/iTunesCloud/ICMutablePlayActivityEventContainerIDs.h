@@ -6,8 +6,6 @@
 
 #import <iTunesCloud/ICPlayActivityEventContainerIDs.h>
 
-@class NSString;
-
 @interface ICMutablePlayActivityEventContainerIDs : ICPlayActivityEventContainerIDs
 {
 }
@@ -19,20 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)removeControlTarget:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long adamID; // @dynamic adamID;
-@property(copy, nonatomic) NSString *cloudAlbumID; // @dynamic cloudAlbumID;
-@property(nonatomic) unsigned long long cloudPlaylistFolderID; // @dynamic cloudPlaylistFolderID;
-@property(nonatomic) unsigned long long cloudPlaylistID; // @dynamic cloudPlaylistID;
-@property(copy, nonatomic) NSString *globalPlaylistID; // @dynamic globalPlaylistID;
-@property(copy, nonatomic) NSString *playlistVersionHash; // @dynamic playlistVersionHash;
-@property(copy, nonatomic) NSString *stationHash; // @dynamic stationHash;
-@property(nonatomic) long long stationID; // @dynamic stationID;
-@property(copy, nonatomic) NSString *stationStringID; // @dynamic stationStringID;
 
 @end
 

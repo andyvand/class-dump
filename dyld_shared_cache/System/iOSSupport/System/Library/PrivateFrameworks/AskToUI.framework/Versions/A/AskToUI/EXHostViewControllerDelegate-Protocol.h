@@ -5,5 +5,8 @@
 //
 
 @protocol EXHostViewControllerDelegate
+
+@optional
+- (void);
 @end
 

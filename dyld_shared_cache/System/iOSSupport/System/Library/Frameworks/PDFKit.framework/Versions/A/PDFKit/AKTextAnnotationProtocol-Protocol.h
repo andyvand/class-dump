@@ -7,27 +7,17 @@
 @class NSDictionary, NSString, NSTextStorage, UIColor;
 
 @protocol AKTextAnnotationProtocol
+- (void);
+- (UIColor *);
+- (unsigned long long);
+- (NSString *)layoutManager:shouldSetLineFragmentRect:lineFragmentUsedRect:baselineOffset:inTextContainer:forGlyphRange: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
-- (void)ges;
-- (UIColor *)Printing;
+- (void)_findVisiblePages;
+- (UIColor *)_allowsPrinting;
 - (NSDictionary *)\î,ðñÄôàô;
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;
-@property(copy) UIColor *foregroundColor;
-@property(retain) UIColor *foregroundColorHDR;
-@property(retain) UIColor *foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(getter=isHighlighted) _Bool highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters;
-@property _Bool shouldUsePlaceholderText;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes;
 @end
 

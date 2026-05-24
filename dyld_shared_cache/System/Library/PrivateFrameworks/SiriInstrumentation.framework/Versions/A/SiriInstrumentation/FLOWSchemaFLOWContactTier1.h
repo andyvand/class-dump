@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWContactTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_contactName;
-    _Bool _hasLinkId;
-    _Bool _hasContactName;
 }
 
 - (void);
@@ -21,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)CoreStorage.dylib;
+- (id)6;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -39,10 +36,6 @@
 - (void)öë°¥%;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactName; // @synthesize contactName=_contactName;
-@property(nonatomic) _Bool hasContactName; // @synthesize hasContactName=_hasContactName;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

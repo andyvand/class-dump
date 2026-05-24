@@ -9,10 +9,9 @@
 @interface CHTilingResult
 {
     NSDictionary *_documentTiles;
-    double _tileSizeFactor;
 }
 
-+ (_Bool);
++ (_Bool)_inlinePreviewMouseExitedFromCellAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *documentTiles; // @synthesize documentTiles=_documentTiles;
-@property(readonly, nonatomic) double tileSizeFactor; // @synthesize tileSizeFactor=_tileSizeFactor;
 
 @end
 

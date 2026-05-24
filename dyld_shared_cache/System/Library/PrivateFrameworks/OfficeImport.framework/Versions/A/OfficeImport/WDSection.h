@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDDocument, WDText;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDSection
 {
     unsigned int mOriginal:1;
-    unsigned int mTracked:1;
-    unsigned int mResolved:1;
-    WDText *mText;
-    WDText *mEvenPageHeader;
-    WDText *mOddPageHeader;
-    WDText *mFirstPageHeader;
-    WDText *mEvenPageFooter;
-    WDText *mOddPageFooter;
-    WDText *mFirstPageFooter;
-    CDStruct_a57204a6 mOriginalProperties;
-    CDStruct_a57204a6 mTrackedProperties;
-    WDDocument *mDocument;
 }
 
 - (int);
-- (_Bool);
+- (_Bool)i;
 - (void);
 - (void);
 - (void);
@@ -37,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)3;
 - (unsigned int);
 - (_Bool);
 - (int);
@@ -67,6 +55,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -82,6 +75,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,30 +89,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (unsigned short);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (long long);
+- (long long)a;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@y)
+@9J
+;
 - (long long);
 - (long long);
 - (long long);
 - (int);
 - (int);
-- (int);
+- (int)9;
 - (int);
 - (_Bool);
 - (void);
@@ -132,30 +122,30 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (long long);
 - (long long);
 - (int);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)kVinylFwUpdateGoldFwSize;
 - (id);
 - (unsigned short);
 - (long long);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)E;
 - (id);
 - (long long);
-- (long long)r;
+- (long long)OCPPackageError;
 - (void)t sizes, but didn't create 64 bit field.;
 - (id)ÿ;
 

@@ -6,44 +6,17 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIColor, UIImage, UIPageControlProgress, UIView, UIVisualEffect, _UIPageControlVisualProvider;
+@class _UIPageControlVisualProvider;
 
 @interface UIPageControl : UIControl
 {
     _UIPageControlVisualProvider *_visualProvider;
-    struct {
-        unsigned int hideForSinglePage:1;
-        unsigned int defersCurrentPageDisplay:1;
-        unsigned int allowScrubbing:1;
-        unsigned int allowTapping:1;
-        unsigned int flickToEndGestureEnabled:1;
-        unsigned int prefersTargetPageForDiscreteInteraction:1;
-    } _pageControlFlags;
-    struct {
-        unsigned int verticalPadding:1;
-        unsigned int horizontalPadding:1;
-        unsigned int indicatorSpacing:1;
-        unsigned int backgroundView:1;
-    } _custom;
-    double _horizontalPadding;
-    double _verticalPadding;
-    double _indicatorSpacing;
-    unsigned long long _preferredNumberOfVisibleIndicators;
-    long long _numberOfPages;
-    long long _currentPage;
-    UIPageControlProgress *_progress;
-    UIColor *_pageIndicatorTintColor;
-    UIColor *_currentPageIndicatorTintColor;
-    long long _backgroundStyle;
-    long long _direction;
-    long long _previousPage;
-    UIVisualEffect *__platterEffect;
 }
 
 + (_Bool);
 + (id)1Â0@ù
 × ;
-- (void);
+- (void)IMTypingIndicatorProcessingPipelineComponent;
 - (_Bool);
 - (void);
 - (void);
@@ -52,21 +25,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void)1;
+- (id)generate an unused chat identifier!;
+- (id)chat with an empty string display name;
+- (_Bool)ed device:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)oad dirty messages needing a T2 update. Bailing for now;
+- (_Bool)eriodic sync;
+- (id)taken:%f /* Error: Ran out of types for this method. */;
+- (id)ing transfer:(long long)arg1 %@   success:%@  error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)s.message-processing.;
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGAffineTransform);
 - (void);
+- (void)bX0;
 - (void);
 - (void);
 - (void);
@@ -75,13 +49,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -91,7 +64,7 @@
 - (struct CAColorMatrix);
 - (void);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -108,22 +81,22 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_payloadCommRemoteAddress;
+- (_Bool)CEMAccountGoogleDeclaration;
 - (id);
-- (struct CGSize);
+- (struct CGSize)xDescriptorCount;
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (long long)6@0:8B16@20B28B32 /* Error: Ran out of types for this method. */;
-- (void)ChangedDate;
-- (_Bool)atorIsPrimed;
+- (void)defaultsLastChangedDate;
+- (_Bool)accumulatorIsPrimed;
 - (id);
 - (void)o create player with pattern for %@:%@ /* Error: Ran out of types for this method. */;
 - (long long)ÿÿÚÐïÿÖÐïÿÖ#ïÿ;
 - (void)nt state as argument to -[UIKeyboardInput setDocumentState:(long long)arg1 ];
-- (long long)oordinator;
+- (long long)UIWritingToolsCoordinator;
 - (id)¨;
 - (void)ÍV^ò?ùß?¨Á?;
 - (void)T(¸þ;
@@ -140,35 +113,7 @@
 - (void),ÐÓÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setActivePageIndicatorVibrantColorMatrix:) struct CAColorMatrix _activePageIndicatorVibrantColorMatrix;
-@property(nonatomic, setter=_setActiveTransformForTouchedPage:) struct CGAffineTransform _activeTransformForTouchedPage;
-@property(nonatomic, setter=_setAllowsDiscreteInteraction:) _Bool _allowsDiscreteInteraction;
 @property(nonatomic, setter=_setCustomHorizontalPadding:) double _customHorizontalPadding;
-@property(nonatomic, setter=_setCustomIndicatorSpacing:) double _customIndicatorSpacing;
-@property(nonatomic, setter=_setCustomVerticalPadding:) double _customVerticalPadding;
-@property(nonatomic, setter=_setFlickToEndGestureEnabled:) _Bool _flickToEndGestureEnabled;
-@property(nonatomic, setter=_setIndicatorOpacity:) double _indicatorOpacity;
-@property(nonatomic, setter=_setPageIndicatorVibrantColorMatrix:) struct CAColorMatrix _pageIndicatorVibrantColorMatrix;
-@property(retain, nonatomic, setter=_setPageProgress:) UIPageControlProgress *_pageProgress;
-@property(retain, nonatomic, setter=_setPlatterBackgroundView:) UIView *_platterBackgroundView;
-@property(retain, nonatomic, setter=_setPlatterEffect:) UIVisualEffect *_platterEffect; // @synthesize _platterEffect=__platterEffect;
-@property(nonatomic, setter=_setPrefersTargetPageForDiscreteInteraction:) _Bool _prefersTargetPageForDiscreteInteraction;
-@property(nonatomic, setter=_setTargetTransformForTouchedPage:) struct CGAffineTransform _targetTransformForTouchedPage;
-@property(nonatomic) _Bool allowsContinuousInteraction;
-@property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(nonatomic) long long currentPage; // @synthesize currentPage=_currentPage;
-@property(retain, nonatomic) UIColor *currentPageIndicatorTintColor; // @synthesize currentPageIndicatorTintColor=_currentPageIndicatorTintColor;
-@property(nonatomic) _Bool defersCurrentPageDisplay;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool hidesForSinglePage;
-@property(readonly, nonatomic) long long interactionState;
-@property(nonatomic) long long numberOfPages; // @synthesize numberOfPages=_numberOfPages;
-@property(retain, nonatomic) UIColor *pageIndicatorTintColor; // @synthesize pageIndicatorTintColor=_pageIndicatorTintColor;
-@property(retain, nonatomic) UIImage *preferredCurrentPageIndicatorImage;
-@property(retain, nonatomic) UIImage *preferredIndicatorImage;
-@property(nonatomic, getter=_preferredNumberOfVisibleIndicators, setter=_setPreferredNumberOfVisibleIndicators:) unsigned long long preferredNumberOfVisibleIndicators;
-@property(nonatomic) long long previousPage; // @synthesize previousPage=_previousPage;
-@property(retain, nonatomic) UIPageControlProgress *progress; // @synthesize progress=_progress;
 
 @end
 

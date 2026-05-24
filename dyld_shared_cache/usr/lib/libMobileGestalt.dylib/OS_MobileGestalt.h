@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_os_log;
+@class NSDictionary;
 
 @interface OS_MobileGestalt
 {
     NSDictionary *_overrides;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
@@ -21,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(retain, nonatomic) NSDictionary *overrides; // @synthesize overrides=_overrides;
 
 @end

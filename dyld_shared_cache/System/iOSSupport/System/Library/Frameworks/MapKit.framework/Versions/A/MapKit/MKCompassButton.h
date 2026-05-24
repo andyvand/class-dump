@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, UIView;
+@class UIView;
 @protocol MKCompassView;
 
 @interface MKCompassButton
 {
     UIView<MKCompassView> *_compassView;
-    _Bool _visible;
-    _Bool _listeningForYawUpdateNotifications;
-    MKMapView *_mapView;
-    long long _compassVisibility;
-    long long _compassSize;
 }
 
 + (id);
@@ -28,7 +23,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
@@ -37,14 +32,12 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void)elMarker: /* Error: Ran out of types for this method. */;
-- (id)ypesRequested;
+- (void)_refineLabelMarker: /* Error: Ran out of types for this method. */;
+- (id)_additionalTransportTypesRequested;
 - (void)nformation.;
 
 // Remaining properties
 @property(nonatomic) long long compassSize; // @synthesize compassSize=_compassSize;
-@property(nonatomic) long long compassVisibility; // @synthesize compassVisibility=_compassVisibility;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
 
 @end
 

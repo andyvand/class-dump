@@ -6,31 +6,24 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSData;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSAnisetteSyncTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSData *_data;
-    long long _type;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)MFileSizeForItemAtPath;
 - (long long);
-- (id);
+- (id)reason;
 - (void)AêeVÔ¸*úñB©u»N±ò!â3fó²;sQ×Ò\ÝÖtO$Ë¬{Jô&Ä´P[Mq§¤@ÁvÐFÓjÜ°üÞ"2ùrnd¨å¯SE®S$­S×¬S¶«SªSâ©S¨Sp§Sû¦S¥Si¤S£S=¢S\¡S¯ SÎ¿SÞ¾S¿½SL¼S-»SºSy¹S¸Së·S`¶SµSò´S³S¦²SÇ±S4°SUSjSSøSS¬SÍS>S_SÔSµSFS'SSsSSáSñSScSS7SVS¥SÄSOS.SÝS¼SSèSSzïSîS}íSìSïëSÚêS»éSHèS)çS¢æSÃåS0äSQãSdâSáSöàSÿSþSæýSüStûSAúS ùSÓøS²÷S9öSXõS«ôSÊóSÿòSñSmðSÏS3ÎSRÍS¡ÌSÀËSõÊSÉSgÈSÇSÆSìÅSÄS~ÃSKÂS*ÁSÙÀS¸ßS¨ÞSÉÝS:ÜS[ÛSnÚSÙSüØS×SÖSwÕSÔSåÓSÐÒS±ÑSBÐS#/S.Sã-S,Sq+SD*S%)SÖ(S·'S<&S]%S®$SÏ#Sú"S!Sh S	?S>Sx=S<Sê;Sß:S¾9SM8S,7S§6SÆ5S54ST3Sa2S /* Error: Ran out of types for this method. */;
 - (id)µ TL^ô¶£Ùyú¸vË$	ü<Þ|Âä³²á1HÞl÷i=¦ØMØ9´ÒÞä`Ù½o|,0;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

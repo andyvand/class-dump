@@ -6,25 +6,18 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVErrorItem, CoreDAVItemWithHrefChildItem, CoreDAVLeafItem, CoreDAVMatchResultsItem, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface CoreDAVResponseItem : CoreDAVItem
 {
     NSMutableArray *_hrefs;
-    CoreDAVLeafItem *_status;
-    NSMutableSet *_propStats;
-    CoreDAVErrorItem *_errorItem;
-    CoreDAVLeafItem *_responseDescription;
-    CoreDAVItemWithHrefChildItem *_location;
-    CoreDAVLeafItem *_serverUID;
-    CoreDAVMatchResultsItem *_matchResults;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)alarmConstraints;
 - (void);
 - (void);
 - (void);
@@ -32,29 +25,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)addObjectsFromArray:(id)arg1;
+- (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)EWSBaseDelegateResponseMessageType;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVErrorItem *errorItem; // @synthesize errorItem=_errorItem;
 @property(retain, nonatomic) NSMutableArray *hrefs; // @synthesize hrefs=_hrefs;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *location; // @synthesize location=_location;
-@property(retain, nonatomic) CoreDAVMatchResultsItem *matchResults; // @synthesize matchResults=_matchResults;
-@property(retain, nonatomic) NSMutableSet *propStats; // @synthesize propStats=_propStats;
-@property(retain, nonatomic) CoreDAVLeafItem *responseDescription; // @synthesize responseDescription=_responseDescription;
-@property(retain, nonatomic) CoreDAVLeafItem *serverUID; // @synthesize serverUID=_serverUID;
-@property(retain, nonatomic) CoreDAVLeafItem *status; // @synthesize status=_status;
 
 @end
 

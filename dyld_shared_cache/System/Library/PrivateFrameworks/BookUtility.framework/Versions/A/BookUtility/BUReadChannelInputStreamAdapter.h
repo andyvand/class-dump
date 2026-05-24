@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol BUReadChannel, OS_dispatch_data;
+@protocol BUReadChannel;
 
 @interface BUReadChannelInputStreamAdapter
 {
     id <BUReadChannel> _readChannel;
-    NSObject<OS_dispatch_data> *_leftoverData;
-    long long _offset;
 }
 
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (unsigned long long);
 - (id);
@@ -32,16 +29,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_data> *leftoverData; // @synthesize leftoverData=_leftoverData;
-@property(nonatomic) long long offset; // @synthesize offset=_offset;
 @property(retain, nonatomic) id <BUReadChannel> readChannel; // @synthesize readChannel=_readChannel;
-@property(readonly) Class superclass;
 
 @end
 

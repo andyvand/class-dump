@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitNearbySchedule
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_categorys;
-    NSMutableArray *_groups;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_categorys:1;
-        unsigned int read_groups:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)setRecordClassName:(id)arg1;
+- (id)initWithDeviceType:deviceName:deviceID:productID: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ansitEdgePiece}}}"__start_"Q""{?="__size_"Q}};
-- (id)nceState;
+- (id)_sendGuidanceState;
 - (id)ÌÌÍ¼Ð;
 - (void)>çn×KOJ@;
 

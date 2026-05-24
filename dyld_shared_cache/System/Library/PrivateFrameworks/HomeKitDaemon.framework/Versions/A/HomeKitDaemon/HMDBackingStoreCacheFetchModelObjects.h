@@ -6,17 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class HMDBackingStoreCacheGroup, NSArray, NSString, NSUUID;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchModelObjects : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_group;
-    CDUnknownBlockType _fetchResult;
-    NSArray *_uuids;
-    NSArray *_names;
-    NSUUID *_parent;
-    NSString *_type;
 }
 
 - (id);
@@ -29,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)useStyleRecipeConfigDirectory;
 - (void);
 - (void);
 - (id);
-- (void)sent:(id)arg1;
+- (void)addRoomIfNotPresent:(id)arg1;
 - (void)ate>",W,V_delegate;
 - (CDUnknownBlockType)with error:%@ /* Error: Ran out of types for this method. */;
 - (id)ublic}@[LPM]:Unable to wake accessory with error:%@, current suspended state:%@ /* Error: Ran out of types for this method. */;
@@ -41,12 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)¤/D;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchResult; // @synthesize fetchResult=_fetchResult;
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(retain, nonatomic) NSArray *names; // @synthesize names=_names;
-@property(retain, nonatomic) NSUUID *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSArray *uuids; // @synthesize uuids=_uuids;
 
 @end
 

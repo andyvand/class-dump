@@ -5,5 +5,7 @@
 //
 
 @protocol STBlockingViewService
+- (void)burstPeriodMs;
+- (void)viewArea;
 @end
 

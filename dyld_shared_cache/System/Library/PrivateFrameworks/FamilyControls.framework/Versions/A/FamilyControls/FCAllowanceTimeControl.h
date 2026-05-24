@@ -11,14 +11,14 @@
     int _secondsPerDay;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (int);
-- (id);
-- (_Bool);
++ (id)dentifier:idType:learnMoreURL:proofingErrorMessage: /* Error: Ran out of types for this method. */;
++ (id)initWithState:country:target:credentialIdentifier:status:productIdentifier:accountKeyIdentifier:idType:learnMoreURL:proofingErrorMessage: /* Error: Ran out of types for this method. */;
++ (id)ils:(long long)arg1 sessionIdentifier:(int)arg2;
++ (id)initWithSelectionType:(id)arg1 installmentAssessment:selectedOfferIdentifier:criteria:passDetails:sessionIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithString:(int)arg1 attributes: /* Error: Ran out of types for this method. */;
+- (int)eURL:proofingErrorMessage: /* Error: Ran out of types for this method. */;
+- (id)rcentTotal:(long long)arg1 specialTotal:(int)arg2;
+- (_Bool)eDeviceWebService:(id)arg1;
 - (void);
 - (id);
 - (id);

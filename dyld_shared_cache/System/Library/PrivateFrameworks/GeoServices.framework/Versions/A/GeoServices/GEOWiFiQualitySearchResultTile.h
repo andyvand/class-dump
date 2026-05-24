@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualitySearchResultTile
 {
     PBDataReader *_reader;
-    NSMutableArray *_ess;
-    NSString *_etag;
-    unsigned long long _tileKey;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_tileKey:1;
-        unsigned int read_ess:1;
-        unsigned int read_etag:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ginalPhone:(id)arg1;
++ (_Bool)setOriginalPhone:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
@@ -36,32 +24,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)startWithNviContext:(id)arg1 didStartHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)tring"40;
 - (_Bool);
 - (void);
-- (id);
+- (id)5;
 - (void);
 - (id)× ;
 - (id);
-- (id)Type;
-- (id)VisualRepresentationValid: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ase;
+- (id)licensePlateInfoType;
+- (id)setIsVisualRepresentationValid: /* Error: Ran out of types for this method. */;
+- (unsigned long long)NavdRefreshTimeIntervalBackoffBase;
 - (id)tart_time;
 - (void);
 - (void)G@;
 - (unsigned long long){3;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *ess;
-@property(retain, nonatomic) NSString *etag;
-@property(readonly, nonatomic) _Bool hasEtag;
 @property(nonatomic) _Bool hasTileKey;
-@property(nonatomic) unsigned long long tileKey;
 
 @end
 

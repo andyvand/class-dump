@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDLogEventCoreDataSignificantEvent
 {
     unsigned long long _reason;
-    NSString *_context;
-    NSString *_extraContext;
 }
 
 - (void);
@@ -19,24 +17,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_cancelAllButton;
 - (id);
-- (void)tionForClipWithUUID:(id)arg1;
+- (void)removeEventNotificationForClipWithUUID:(id)arg1;
 - (id)ueIDForAccessories=%@ endpointID=%@ accessoryUUID=%@ deviceIdsIdentifier=%@;
 - (void)cord.recordName:%@  encoding:%lu data:<%lu bytes>> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSString *diagnosticReportEventType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
-@property(copy, nonatomic) NSString *extraContext; // @synthesize extraContext=_extraContext;
-@property(readonly, nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end
 

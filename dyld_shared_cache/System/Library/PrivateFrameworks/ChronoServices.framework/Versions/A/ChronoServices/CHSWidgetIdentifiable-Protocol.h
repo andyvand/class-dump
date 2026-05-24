@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, NSString;
+@class CHSExtensionIdentity;
 
 @protocol CHSWidgetIdentifiable
 
 // Remaining properties
 @property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity;
-@property(readonly, nonatomic) NSString *kind;
 @end
 

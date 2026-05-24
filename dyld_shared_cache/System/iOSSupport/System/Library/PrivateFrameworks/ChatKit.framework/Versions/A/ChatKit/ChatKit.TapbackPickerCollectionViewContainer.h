@@ -9,13 +9,10 @@
 @interface ChatKit.TapbackPickerCollectionViewContainer : ChatKit.TapbackBlurView
 {
     id parentMaskLayer;
-    id centerMask;
-    id leadingGradientLayer;
-    id trailingGradientLayer;
 }
 
 - (void);
-- (void)pGroupTrait;
+- (void)CKBalloonBackdropGroupTrait;
 
 @end
 

@@ -7,9 +7,9 @@
 @protocol SXAutoPlacementLayout;
 
 @protocol SXAutoPlacementType
+- (id <SXAutoPlacementLayout>)<;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) id <SXAutoPlacementLayout> layout;
 @end
 

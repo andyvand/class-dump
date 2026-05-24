@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol _UIScrollPocketRegistrationInteractionDelegate;
 
 @interface _UIScrollPocketRegistrationInteraction
 {
     id receiver;
-    void delegate;
-    void _view;
-    id parentScrollPocketCollectorModel;
 }
 
+- (void)ets, we don't meet the resource conditions currently;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void);
+- (void)CEMManagementStateCommand;
+- (id)setUniqueIdentifier: /* Error: Ran out of types for this method. */;
+- (id),;
 - (id)0@ù
 × ;
-- (void)r:(id)arg1;
+- (void)styleForAlertPresentationController:(id)arg1;
 - (id)ä6¨7l9;
 - (void)yle:(id)arg1 %@; activationCount:%ld; styleActivationCount:%ld; %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)y;
+- (void)CacheKey;
 - (void)<ÕôEl;
 
 // Remaining properties
-@property(nonatomic) __weak UIView *_view; // @synthesize _view;
 @property(nonatomic) __weak id <_UIScrollPocketRegistrationInteractionDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

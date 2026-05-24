@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 @interface SidecarMutableItem : SidecarItem
 {
     NSMutableData *_mutableData;
-    unsigned long long _capacity;
-    unsigned int _complete:1;
 }
 
 - (id);
-- (id);
+- (id):RawPtrTraits<SafariShared::BookmarkAndHistoryCompletionMatch>, WTF::DefaultRefDerefTraits<SafariShared::BookmarkAndHistoryCompletionMatch>>=^{BookmarkAndHistoryCompletionMatch}}32^v40^v48@56d64@72 /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)windowWillUseStandardFrame:defaultFrame: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

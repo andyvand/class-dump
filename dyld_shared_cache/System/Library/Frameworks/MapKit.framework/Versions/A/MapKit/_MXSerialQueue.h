@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)ñ&°!ØAù±*1Â0@ù
 × ;
-- (id);
+- (id)VNImageAnalyzerMultiDetectorOption_PotentialLandmarkConfiguration;
 - (void);
-- (void)CarDestinations;
+- (void)showCarDestinations;
 
 @end
 

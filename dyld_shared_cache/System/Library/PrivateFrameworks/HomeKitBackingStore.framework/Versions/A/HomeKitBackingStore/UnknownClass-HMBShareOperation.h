@@ -11,7 +11,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)�;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -31,28 +31,13 @@
 - (double);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) double hmbCloudKitRetryDelay;
-@property(readonly) double hmbDefaultCloudKitRetryDelay;
-@property(readonly) _Bool hmbIsCKChangeTokenExpiredError;
-@property(readonly) _Bool hmbIsCKLimitExceededError;
-@property(readonly) _Bool hmbIsCKManateeUnavailableError;
-@property(readonly) _Bool hmbIsCKMissingManateeIdentityError;
-@property(readonly) _Bool hmbIsCKNotAuthenticatedError;
-@property(readonly) _Bool hmbIsCKPartialFailureError;
-@property(readonly) _Bool hmbIsCKUnsyncedKeychainError;
-@property(readonly) _Bool hmbIsCKZoneDeletedError;
-@property(readonly) _Bool hmbIsCKZoneDisabledError;
-@property(readonly) _Bool hmbIsCloudKitError;
-@property(readonly) _Bool hmbIsSQLiteConstraintError;
-@property(readonly) _Bool hmbIsSQLiteDatabaseCorruptedError;
-@property(readonly) _Bool hmbIsSQLiteDiskFullError;
 @property(readonly, getter=hmbIsRetryShareOperationError) _Bool hmbRetryShareOperationError;
 @end
 

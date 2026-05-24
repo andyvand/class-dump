@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface LPImageProperties
 {
     _Bool _hasSingleDominantColor;
-    NSString *_accessibilityText;
-    long long _type;
-    UIColor *_overlaidTextColor;
-    UIColor *_dominantColor;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)tableView:(id)arg1 willEndContextMenuInteractionWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 didUpdateFocusInContext:withAnimationCoordinator: /* Error: Ran out of types for this method. */;
+- (id)systemBackgroundColor;
+- (_Bool)suggestionCategoryTitleWithSenderName:numberOfFiles:numberOfItems:aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)i;
 - (_Bool);
 - (id);
 - (void);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(retain, nonatomic) UIColor *dominantColor; // @synthesize dominantColor=_dominantColor;
-@property(nonatomic) _Bool hasSingleDominantColor; // @synthesize hasSingleDominantColor=_hasSingleDominantColor;
-@property(retain, nonatomic) UIColor *overlaidTextColor; // @synthesize overlaidTextColor=_overlaidTextColor;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

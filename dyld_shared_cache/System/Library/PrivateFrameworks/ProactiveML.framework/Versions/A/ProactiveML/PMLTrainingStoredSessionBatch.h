@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PMLModelRegressor, PMLSparseMatrix;
+@class PMLSparseMatrix;
 
 @interface PMLTrainingStoredSessionBatch
 {
     PMLSparseMatrix *_covariates;
-    PMLModelRegressor *_outcomes;
-    unsigned long long _count;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)tem/Library/PrivateFrameworks/LoggingSupport.framework/Versions/A/LoggingSupport;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) PMLSparseMatrix *covariates; // @synthesize covariates=_covariates;
-@property(readonly, nonatomic) PMLModelRegressor *outcomes; // @synthesize outcomes=_outcomes;
 
 @end
 

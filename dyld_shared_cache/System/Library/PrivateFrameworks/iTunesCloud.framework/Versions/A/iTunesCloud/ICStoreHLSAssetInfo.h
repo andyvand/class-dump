@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSSet, NSString, NSURL;
+@class NSDictionary, NSURL;
 
 @interface ICStoreHLSAssetInfo
 {
     NSDictionary *_itemResponseDictionary;
-    _Bool _isiTunesStoreStream;
-    NSURL *_keyCertificateURL;
-    NSURL *_keyServerURL;
-    NSURL *_playlistURL;
-    NSString *_keyServerProtocolType;
-    NSNumber *_keyServerAdamID;
-    NSSet *_audioTraits;
 }
 
 - (void);
@@ -28,10 +21,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0:8@16@24@32Q40Q48@56@64 /* Error: Ran out of types for this method. */;
+- (id)4@32@40;
+- (id)e>";
+- (id)setDataSyncState: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -40,15 +33,6 @@
 - (void)",&,N,V_connectionController;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *alternateKeyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *alternateKeyServerURL;
-@property(readonly, copy, nonatomic) NSURL *alternatePlaylistURL;
-@property(copy, nonatomic) NSSet *audioTraits; // @synthesize audioTraits=_audioTraits;
-@property(nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream; // @synthesize iTunesStoreStream=_isiTunesStoreStream;
-@property(copy, nonatomic) NSURL *keyCertificateURL; // @synthesize keyCertificateURL=_keyCertificateURL;
-@property(copy, nonatomic) NSNumber *keyServerAdamID; // @synthesize keyServerAdamID=_keyServerAdamID;
-@property(copy, nonatomic) NSString *keyServerProtocolType; // @synthesize keyServerProtocolType=_keyServerProtocolType;
-@property(copy, nonatomic) NSURL *keyServerURL; // @synthesize keyServerURL=_keyServerURL;
 @property(copy, nonatomic) NSURL *playlistURL; // @synthesize playlistURL=_playlistURL;
 
 @end

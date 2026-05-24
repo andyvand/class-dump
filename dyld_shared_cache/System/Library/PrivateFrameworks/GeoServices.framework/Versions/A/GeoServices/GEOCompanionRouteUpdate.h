@@ -4,56 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitRouteUpdate, NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEOCompanionRouteUpdate
 {
     PBDataReader *_reader;
-    double _lastUpdated;
-    NSData *_routeID;
-    GEOTransitRouteUpdate *_transitRouteUpdate;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_lastUpdated:1;
-        unsigned int has_type:1;
-        unsigned int read_routeID:1;
-        unsigned int read_transitRouteUpdate:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)pancyStatus:(id)arg1;
++ (_Bool)setHasOccupancyStatus:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)extractNamePrefixFromBeginning;
+- (_Bool)initWithDSID:altDSID:appleID:principalPath:nameComponents:isMe: /* Error: Ran out of types for this method. */;
+- (_Bool)CNMainQueueSchedulerCancelationToken;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void)Mode:(id)arg1 isInActiveCall: /* Error: Ran out of types for this method. */;
+- (id)oiceTriggerFirstPassJarvis _handleAudioChunk:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)_muninMarker;
 - (_Bool);
 - (id);
 - (void)!¸GùÑ¶*1Â0@ù
 × ;
-- (id)BrandMuids:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (void)ess:(int)arg1;
+- (id)setAbstractOfBrandMuids:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (void)_geo_progressMirroringProgress:(int)arg1;
 - (id)Àab;
 - (int)n from listener %{private}s, but it doesn't have the proper entitlement.;
-- (id)my_triggered;
+- (id)is_suggest_to_findmy_triggered;
 - (void)butesReadAllFrom can only be called once per object;
 - (id)ÿÿ;
 - (id)÷lJ@;
@@ -62,14 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastUpdated;
 @property(readonly, nonatomic) _Bool hasRouteID;
-@property(readonly, nonatomic) _Bool hasTransitRouteUpdate;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) double lastUpdated;
-@property(retain, nonatomic) NSData *routeID;
-@property(retain, nonatomic) GEOTransitRouteUpdate *transitRouteUpdate;
-@property(nonatomic) int type;
 
 @end
 

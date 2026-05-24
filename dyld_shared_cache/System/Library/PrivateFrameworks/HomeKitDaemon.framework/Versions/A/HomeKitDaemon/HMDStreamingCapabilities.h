@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDStreamingCapabilities
 {
     _Bool _supportsComfortNoise;
-    NSDictionary *_supportedAudioCodecs;
-    NSSet *_supportedVideoCodecs;
-    NSSet *_supportedVideoResolutions;
-    NSSet *_supportedH264Profiles;
-    NSSet *_supportedH264Levels;
-    NSSet *_supportedPacketizationModes;
-    NSSet *_supportedBitRateSettings;
-    NSSet *_supportedAudioSampleRates;
-    unsigned long long _streamingTierType;
 }
 
 + (void);
@@ -37,26 +28,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)stopSharingWithReason:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
+- (id)change %d;
 - (id);
-- (id);
-- (void);
-- (void)t_writeVersion;
+- (void)W;
+- (void)root_siri_soundAlert_writeVersion;
 
 // Remaining properties
-@property(nonatomic) unsigned long long streamingTierType; // @synthesize streamingTierType=_streamingTierType;
 @property(readonly, nonatomic) NSDictionary *supportedAudioCodecs; // @synthesize supportedAudioCodecs=_supportedAudioCodecs;
-@property(readonly, nonatomic) NSSet *supportedAudioSampleRates; // @synthesize supportedAudioSampleRates=_supportedAudioSampleRates;
-@property(readonly, nonatomic) NSSet *supportedBitRateSettings; // @synthesize supportedBitRateSettings=_supportedBitRateSettings;
-@property(readonly, nonatomic) NSSet *supportedH264Levels; // @synthesize supportedH264Levels=_supportedH264Levels;
-@property(readonly, nonatomic) NSSet *supportedH264Profiles; // @synthesize supportedH264Profiles=_supportedH264Profiles;
-@property(readonly, nonatomic) NSSet *supportedPacketizationModes; // @synthesize supportedPacketizationModes=_supportedPacketizationModes;
-@property(readonly, nonatomic) NSSet *supportedVideoCodecs; // @synthesize supportedVideoCodecs=_supportedVideoCodecs;
-@property(readonly, nonatomic) NSSet *supportedVideoResolutions; // @synthesize supportedVideoResolutions=_supportedVideoResolutions;
-@property(nonatomic) _Bool supportsComfortNoise; // @synthesize supportsComfortNoise=_supportsComfortNoise;
 
 @end
 

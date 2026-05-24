@@ -10,19 +10,12 @@ __attribute__((visibility("hidden")))
 @interface OADVectorArcPathElement : OADPathElement
 {
     struct OADAdjustCoord mLeft;
-    struct OADAdjustCoord mTop;
-    struct OADAdjustCoord mRight;
-    struct OADAdjustCoord mBottom;
-    struct OADAdjustPoint mStartVector;
-    struct OADAdjustPoint mEndVector;
-    _Bool mClockwise;
-    _Bool mConnectedToPrevious;
 }
 
 - (struct OADAdjustPoint);
 - (id);
 - (struct OADAdjustPoint);
-- (_Bool);
+- (_Bool)K;
 - (_Bool);
 - (struct OADAdjustCoord);
 - (struct OADAdjustCoord);

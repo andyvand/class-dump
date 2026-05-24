@@ -9,7 +9,6 @@
 @interface AXVRotorInfo
 {
     NSString *_rotorTitle;
-    long long _rotorKnobCount;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long rotorKnobCount; // @synthesize rotorKnobCount=_rotorKnobCount;
 @property(copy, nonatomic) NSString *rotorTitle; // @synthesize rotorTitle=_rotorTitle;
 
 @end

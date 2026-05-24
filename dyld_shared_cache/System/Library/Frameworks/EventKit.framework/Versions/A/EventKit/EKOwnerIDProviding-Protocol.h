@@ -7,6 +7,7 @@
 @class EKObjectID;
 
 @protocol EKOwnerIDProviding
+- (EKObjectID *)setValue:forProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) EKObjectID *ownerID;

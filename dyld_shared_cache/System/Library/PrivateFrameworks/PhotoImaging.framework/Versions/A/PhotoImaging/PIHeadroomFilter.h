@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, PFParallaxColor;
+@class CIImage;
 
 @interface PIHeadroomFilter
 {
     _Bool _useBlur;
-    _Bool _isInactive;
-    _Bool _useHighKeyStyle;
-    CIImage *_inputImage;
-    PFParallaxColor *_primaryGradientColor;
-    double _renderScale;
-    struct CGRect _extendedRect;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)/;
+- (void)9H;
 - (id);
 - (struct CGRect);
 - (_Bool);
@@ -32,16 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void)mentationDataURL;
+- (void)segmentationDataURL;
 
 // Remaining properties
-@property(nonatomic) struct CGRect extendedRect; // @synthesize extendedRect=_extendedRect;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(nonatomic) _Bool isInactive; // @synthesize isInactive=_isInactive;
-@property(retain, nonatomic) PFParallaxColor *primaryGradientColor; // @synthesize primaryGradientColor=_primaryGradientColor;
-@property(nonatomic) double renderScale; // @synthesize renderScale=_renderScale;
-@property(nonatomic) _Bool useBlur; // @synthesize useBlur=_useBlur;
-@property(nonatomic) _Bool useHighKeyStyle; // @synthesize useHighKeyStyle=_useHighKeyStyle;
 
 @end
 

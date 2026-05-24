@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESCacheStoringEnded, POMMESSchemaPOMMESCacheStoringFailed, POMMESSchemaPOMMESCacheStoringStarted;
+@class POMMESSchemaPOMMESCacheStoringStarted;
 
 @interface POMMESSchemaPOMMESCacheStoringContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESCacheStoringStarted *_startedOrChanged;
-    POMMESSchemaPOMMESCacheStoringEnded *_ended;
-    POMMESSchemaPOMMESCacheStoringFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,12 +19,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)wtrace_live_recording_system_options_set_exception_level_target(hwtrace_live_recording_system_options_t, hwtrace_live_recording_system_option_exception_level_target_t);
 - (void);
 - (id);
 - (id);
@@ -38,24 +32,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)equest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (id);
-- (id)hDataReported;
+- (id)_odbatchDataReported;
 - (id);
-- (void)_PUNCTUATION_CESRFORMATTER;
+- (void)FLOWDOMAINEXECUTIONTYPE_MESSAGE_ONE_SHOT_AUTO_PUNCTUATION_CESRFORMATTER;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheStoringEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheStoringFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESCacheStoringStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

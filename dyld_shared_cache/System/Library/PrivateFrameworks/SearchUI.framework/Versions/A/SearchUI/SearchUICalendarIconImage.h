@@ -6,12 +6,9 @@
 
 #import <SearchUI/SearchUIAppIconImage.h>
 
-@class NSDate;
-
 @interface SearchUICalendarIconImage : SearchUIAppIconImage
 {
     _Bool _isCurrentDate;
-    NSDate *_date;
 }
 
 - (void);
@@ -19,14 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_nextPacketWithMaximumLength:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(nonatomic) _Bool isCurrentDate; // @synthesize isCurrentDate=_isCurrentDate;
 
 @end

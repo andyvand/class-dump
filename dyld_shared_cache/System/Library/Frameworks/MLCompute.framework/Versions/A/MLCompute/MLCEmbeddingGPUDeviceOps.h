@@ -6,33 +6,25 @@
 
 #import <MLCompute/MLCGPUDeviceOps.h>
 
-@class NSArray, NSNumber;
-
 @interface MLCEmbeddingGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _scaleGradientByFrequency;
-    id _gradientForWeights;
-    NSNumber *_paddingIndex;
-    NSArray *_embeddingParams;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id)i!;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *embeddingParams; // @synthesize embeddingParams=_embeddingParams;
 @property(retain, nonatomic) id gradientForWeights; // @synthesize gradientForWeights=_gradientForWeights;
-@property(copy, nonatomic) NSNumber *paddingIndex; // @synthesize paddingIndex=_paddingIndex;
-@property(nonatomic) _Bool scaleGradientByFrequency; // @synthesize scaleGradientByFrequency=_scaleGradientByFrequency;
 
 @end
 

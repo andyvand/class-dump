@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSMutableSet;
+@class NSIndexSet, NSMutableDictionary;
 
 @interface MPChangeDetails
 {
     NSMutableDictionary *_sectionMoves;
-    NSMutableDictionary *_sectionUpdates;
-    NSMutableIndexSet *_updatedSectionMoveFromIndexes;
-    NSMutableDictionary *_itemMoves;
-    NSMutableDictionary *_itemUpdates;
-    NSMutableSet *_updatedItemMoveFromIndexPaths;
-    _Bool _isFlatCollection;
-    _Bool _isFinalized;
-    NSIndexSet *_insertedSections;
-    NSIndexSet *_deletedSections;
-    NSArray *_insertedItemIndexPaths;
-    NSArray *_deletedItemIndexPaths;
 }
 
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,27 +43,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)callbackName;
+- (void)%@:(CDUnknownBlockType)arg1 Rendering disabled;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)tyPlaylistTrackCount__MAPPING_MISSING__;
-- (_Bool)oupingComposer;
+- (void)__MPModelPropertyPlaylistTrackCount__MAPPING_MISSING__;
+- (_Bool)MPMediaGroupingComposer;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSIndexSet *deletedIndexes;
-@property(copy, nonatomic) NSArray *deletedItemIndexPaths; // @synthesize deletedItemIndexPaths=_deletedItemIndexPaths;
-@property(copy, nonatomic) NSIndexSet *deletedSections; // @synthesize deletedSections=_deletedSections;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, copy, nonatomic) NSIndexSet *insertedIndexes;
-@property(copy, nonatomic) NSArray *insertedItemIndexPaths; // @synthesize insertedItemIndexPaths=_insertedItemIndexPaths;
 @property(copy, nonatomic) NSIndexSet *insertedSections; // @synthesize insertedSections=_insertedSections;
-@property(readonly, copy, nonatomic) NSIndexSet *updatedIndexes;
-@property(copy, nonatomic) NSArray *updatedItemIndexPaths;
-@property(copy, nonatomic) NSIndexSet *updatedSections;
 
 @end
 

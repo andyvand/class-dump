@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface CTLazuliChatBotCardMedia
 {
     NSURL *_mediaUrl;
-    NSString *_mediaContentType;
-    NSNumber *_mediaFileSize;
-    NSURL *_thumbnailUrl;
-    NSString *_thumbnailContentType;
-    NSNumber *_thumbnailFileSize;
-    long long _height;
-    NSString *_contentDescription;
 }
 
-+ (_Bool);
++ (_Bool)led again after reading has already started;
 - (id);
 - (id);
 - (void);
@@ -32,7 +25,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (long long);
@@ -46,14 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentDescription; // @synthesize contentDescription=_contentDescription;
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(retain, nonatomic) NSString *mediaContentType; // @synthesize mediaContentType=_mediaContentType;
-@property(retain, nonatomic) NSNumber *mediaFileSize; // @synthesize mediaFileSize=_mediaFileSize;
 @property(retain, nonatomic) NSURL *mediaUrl; // @synthesize mediaUrl=_mediaUrl;
-@property(retain, nonatomic) NSString *thumbnailContentType; // @synthesize thumbnailContentType=_thumbnailContentType;
-@property(retain, nonatomic) NSNumber *thumbnailFileSize; // @synthesize thumbnailFileSize=_thumbnailFileSize;
-@property(retain, nonatomic) NSURL *thumbnailUrl; // @synthesize thumbnailUrl=_thumbnailUrl;
 
 @end
 

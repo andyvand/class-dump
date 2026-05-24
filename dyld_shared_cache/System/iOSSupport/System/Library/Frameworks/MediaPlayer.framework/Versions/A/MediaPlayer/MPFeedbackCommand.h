@@ -6,14 +6,9 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSString;
-
 @interface MPFeedbackCommand : MPRemoteCommand
 {
     long long _presentationStyle;
-    _Bool _active;
-    NSString *_localizedTitle;
-    NSString *_localizedShortTitle;
 }
 
 - (id);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)onent/Contents/MacOS/AudioDSP;
 - (long long)q?°1Â0@ù
 × ;
 - (void)ctionary",R,C,N,V_dialogDictionary;
@@ -31,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSString *localizedShortTitle; // @synthesize localizedShortTitle=_localizedShortTitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

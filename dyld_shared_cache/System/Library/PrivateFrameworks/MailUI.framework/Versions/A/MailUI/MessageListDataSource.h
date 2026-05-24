@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, MUIMessageListCollectionView, MUIMessageListDiffableDataSource, NSSet, NSString;
-@protocol MessageListDataSourceDelegate, MessageListDataSourceProvider;
+@class MUIMessageListCollectionView;
 
 @interface MessageListDataSource
 {
     _Atomic unsigned int _updateIdentifier;
-    _Bool _hasAdditionalSections;
-    id <MessageListDataSourceProvider> _provider;
-    id <MessageListDataSourceDelegate> _delegate;
-    MUIMessageListCollectionView *_collectionView;
-    MUIMessageListDiffableDataSource *_dataSource;
-    EFLocked *_visibleSections;
-    EFLocked *_dataSourceForSection;
-    EFLocked *_pendingSectionsToClear;
-    NSSet *_messagesSections;
-    EFLocked *_pendingSectionUpdates;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id)C;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -46,7 +35,7 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -56,7 +45,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -67,33 +56,34 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)*;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)v!;
 - (_Bool);
 - (id);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)HTTPEquivEnabled;
 - (void);
 - (void);
 - (id);
@@ -103,30 +93,13 @@
 - (void);
 - (long long);
 - (void)32@0:(id)arg1 8Q16Q24;
-- (void)etIsVIP: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)atchMessageListItem:(id)arg1 style:hintsBySnippetZone: /* Error: Ran out of types for this method. */;
+- (void)setIsVIP: /* Error: Ran out of types for this method. */;
+- (id)constraintEqualToAnchor:constant: /* Error: Ran out of types for this method. */;
+- (id)_updateViewsToMatchMessageListItem:(id)arg1 style:hintsBySnippetZone: /* Error: Ran out of types for this method. */;
 - (id)SURL",C;
 
 // Remaining properties
 @property(nonatomic) __weak MUIMessageListCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) MUIMessageListDiffableDataSource *collectionViewDataSource;
-@property(retain, nonatomic) MUIMessageListDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) EFLocked *dataSourceForSection; // @synthesize dataSourceForSection=_dataSourceForSection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MessageListDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAdditionalSections; // @synthesize hasAdditionalSections=_hasAdditionalSections;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *messagesSections; // @synthesize messagesSections=_messagesSections;
-@property(readonly, nonatomic) EFLocked *pendingSectionUpdates; // @synthesize pendingSectionUpdates=_pendingSectionUpdates;
-@property(retain, nonatomic) EFLocked *pendingSectionsToClear; // @synthesize pendingSectionsToClear=_pendingSectionsToClear;
-@property(nonatomic) __weak id <MessageListDataSourceProvider> provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) EFLocked *visibleSections; // @synthesize visibleSections=_visibleSections;
 
 @end
 

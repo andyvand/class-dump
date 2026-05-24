@@ -16,18 +16,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)setAliasToCNIDMap: /* Error: Ran out of types for this method. */;
+- (_Bool)_isAssociatedMessageContentTypeTextInMessageSummaryInfo: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)teeEnabled;
+- (id)dictation_user_edit_classification;
+- (void)_isManateeEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

@@ -9,11 +9,10 @@
 @interface GEORevealedPlaceCardModuleTypeActionBar
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_buttons;
 }
 
-+ (Class);
-+ (_Bool)verStartCoordinateIndex:(id)arg1;
++ (Class);
++ (_Bool)setManeuverStartCoordinateIndex:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -24,22 +23,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)new;
+- (void)_combineResultsWithOptimalFromNoise:(id)arg1 andOptimalFromLkfs:withUserOffset: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)8`j;
 - (id)TransitRouteMatcher";
-- (id)lback: /* Error: Ran out of types for this method. */;
-- (id)aultsDBArray;
+- (id)fetchExpiredSubscriptionsMatchingIdentifiers:queue:callback: /* Error: Ran out of types for this method. */;
+- (id)GEODefaultsDBArray;
 - (id)r object;
 - (void)w£ùGP@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *buttons;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

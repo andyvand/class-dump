@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     id <_UISEGestureFeatureSettings> _settings;
 }
 
-- (id);
+- (id)__MPModelPropertyLyricsHasDownloadedCatalogLyrics__MAPPING_MISSING__;
 - (void)setInterfaceIdiom:(const struct _UISEGestureFeatureSample *)arg1;
 - (void);
 

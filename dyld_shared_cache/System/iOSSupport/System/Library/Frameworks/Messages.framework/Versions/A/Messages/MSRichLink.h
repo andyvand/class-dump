@@ -9,7 +9,6 @@
 @interface MSRichLink
 {
     LPLinkMetadata *_linkMetadata;
-    NSURL *_URL;
 }
 
 + (_Bool);
@@ -19,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)@"NSDate"8@"NSError"16;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) LPLinkMetadata *_linkMetadata; // @synthesize _linkMetadata;
 
 @end
 

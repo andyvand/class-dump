@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @protocol TIUserDictionaryEntry
 - (void)£Áµ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *phrase;
-@property(copy, nonatomic) NSString *shortcut;
-@property(retain, nonatomic) NSNumber *timestamp;
 @end
 

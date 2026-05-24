@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASportsSeason;
+@class NSString;
 
 @interface SASportsLeague : AceObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (id);
@@ -30,19 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *diplayedText;
-@property(nonatomic) _Bool displayTeamLocationOverName;
-@property(copy, nonatomic) NSString *displayedText;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) SASportsSeason *season;
-@property(copy, nonatomic) NSString *sport;
-@property(readonly) Class superclass;
 
 @end
 

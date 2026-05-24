@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MTLProgramAddressTableMappedBinary
 {
     unsigned long long _mappedAddress;
-    unsigned long long _mappedSize;
-    unsigned long long _binaryUniqueId;
-    NSString *_type;
 }
 
 - (unsigned long long);
@@ -22,10 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long binaryUniqueId; // @synthesize binaryUniqueId=_binaryUniqueId;
 @property(readonly) unsigned long long mappedAddress; // @synthesize mappedAddress=_mappedAddress;
-@property(readonly) unsigned long long mappedSize; // @synthesize mappedSize=_mappedSize;
-@property(readonly) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -7,14 +7,11 @@
 @class NSString, NSURL;
 
 @protocol ICTableObject
+- (void);
+- (void)";
 - (NSURL *)achment for %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *fileURL;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *identifierURIPathComponent;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *typeUTI;
 @end
 

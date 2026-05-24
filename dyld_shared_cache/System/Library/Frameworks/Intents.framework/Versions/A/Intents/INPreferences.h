@@ -9,7 +9,6 @@
 @interface INPreferences
 {
     _INVocabularyConnection *_assistantdConnection;
-    NSString *_cachedSiriLanguageCode;
 }
 
 + (long long);
@@ -18,17 +17,18 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)K
+KQ);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (long long);
+- (_Bool)!;
+- (void))8;
+- (long long)_systemGesturesPossible;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)TemporalEventTriggerOptionsForAddTasks:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTemporalEventTriggerOptionsForAddTasks:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, setter=_setCachedSiriLanguageCode:) NSString *_cachedSiriLanguageCode; // @synthesize _cachedSiriLanguageCode;

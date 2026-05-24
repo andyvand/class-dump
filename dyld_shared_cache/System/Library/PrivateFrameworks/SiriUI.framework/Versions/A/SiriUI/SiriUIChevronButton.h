@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSView, SiriUIKeyline;
+@class NSImageView, NSView;
 
 @interface SiriUIChevronButton
 {
     NSImageView *_chevronImageView;
-    SiriUIKeyline *_keyline;
-    _Bool _hasChevron;
-    NSView *_subview;
-    double _chevronRightInset;
-    double _leftSubviewInset;
-    long long _keylineType;
 }
 
 - (void);
@@ -22,7 +16,7 @@
 - (void);
 - (double);
 - (long long);
-- (double);
+- (double)˟;
 - (void);
 - (void);
 - (id);
@@ -34,10 +28,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double chevronRightInset; // @synthesize chevronRightInset=_chevronRightInset;
-@property(nonatomic) _Bool hasChevron; // @synthesize hasChevron=_hasChevron;
-@property(nonatomic) long long keylineType; // @synthesize keylineType=_keylineType;
-@property(nonatomic) double leftSubviewInset; // @synthesize leftSubviewInset=_leftSubviewInset;
 @property(retain, nonatomic) NSView *subview; // @synthesize subview=_subview;
 
 @end

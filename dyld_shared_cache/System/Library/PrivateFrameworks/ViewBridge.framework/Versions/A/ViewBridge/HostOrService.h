@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HostAndService, NSDictionary, NSString, NSXPCConnection;
+@class HostAndService;
 
 __attribute__((visibility("hidden")))
 @interface HostOrService
 {
     unsigned int _window;
-    HostAndService *_hostAndService;
-    NSXPCConnection *_connection;
-    NSDictionary *_secBundleInfo;
-    struct os_unfair_lock_s _secBundleInfoLock;
-    struct os_unfair_lock_s _applicationDisplayNameLock;
-    NSString *_applicationDisplayName;
 }
 
 - (void);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -38,15 +32,10 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (void);
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)_setTouchBar:description: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *applicationDisplayName;
-@property(readonly) struct __LSASN *applicationSerialNumber;
-@property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property HostAndService *hostAndService; // @synthesize hostAndService=_hostAndService;
-@property(readonly) NSDictionary *secBundleInfo;
-@property(readonly) unsigned int window; // @synthesize window=_window;
 
 @end
 

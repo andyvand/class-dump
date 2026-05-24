@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INSearchCallHistoryIntentResponseExport
-- (long long)eIntentRecipientUnsupportedReason;
+- (long long)hasSendMessageIntentRecipientUnsupportedReason;
 
 // Remaining properties
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
 @end
 

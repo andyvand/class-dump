@@ -5,5 +5,6 @@
 //
 
 @protocol VCCaptionsSourceDelegate
+- (void)9;
 @end
 

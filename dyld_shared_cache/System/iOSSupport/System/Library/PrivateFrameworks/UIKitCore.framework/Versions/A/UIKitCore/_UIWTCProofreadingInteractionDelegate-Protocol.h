@@ -5,5 +5,6 @@
 //
 
 @protocol _UIWTCProofreadingInteractionDelegate
+- (void);
 @end
 

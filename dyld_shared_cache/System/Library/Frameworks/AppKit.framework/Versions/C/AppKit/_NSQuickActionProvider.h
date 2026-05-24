@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, _NSExtensionQuickActionProviderSource, _NSLegacyServiceQuickActionProviderSource, _NSQuickActionPresentation, _NSShortcutsQuickActionProviderSource;
+@class NSArray;
 @protocol _NSQuickActionProviderObserver;
 
 @interface _NSQuickActionProvider
 {
     id <_NSQuickActionProviderObserver> _observer;
-    _NSQuickActionPresentation *_presentation;
-    _NSLegacyServiceQuickActionProviderSource *_legacyServiceSource;
-    _NSExtensionQuickActionProviderSource *_extensionSource;
-    _NSShortcutsQuickActionProviderSource *_shortcutsSource;
-    _Bool _isObservingSources;
-    _Bool _isObservingConfiguration;
 }
 
-+ (id);
++ (id)ackgroundTrailers;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)needed to sniff, we shouldn't have signaled that we had data;
 - (void);
 - (id);
-- (id);
+- (id)silaSCAMnvliNSt3__120__shared_ptr_emplaceI7TNWNodeNS_9allocatorIS1_EEEE;
 - (void);
-- (void);
+- (void);
 - (void)tInsets:(id)arg1 forWidget: /* Error: Ran out of types for this method. */;
-- (void)onTouchBarNoItemsView;
+- (void)NSQuickActionTouchBarNoItemsView;
 
 // Remaining properties
-@property(readonly) NSArray *activeOrderedQuickActions;
-@property(readonly) NSSet *activeQuickActions;
 @property(readonly) NSArray *allOrderedQuickActions;
-@property(readonly) NSSet *allQuickActions;
 
 @end
 

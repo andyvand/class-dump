@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBRFAppIconImage
 {
     int _image_style;
-    int _fallback;
-    NSString *_application_bundle_identifier;
 }
 
 - (void);
 - (int);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)processingSnapshot;
+- (void)SString",R,C,N,V_assetDescription;
+- (id)able to make read-only imported file writeable with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int);
@@ -32,16 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *application_bundle_identifier; // @synthesize application_bundle_identifier=_application_bundle_identifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int fallback; // @synthesize fallback=_fallback;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol WFPythonHTMLParserDelegate
+
+@optional
+- (void);
+- (void)b;
 @end
 

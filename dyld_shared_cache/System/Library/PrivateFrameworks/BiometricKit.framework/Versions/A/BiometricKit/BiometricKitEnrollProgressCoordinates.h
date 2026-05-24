@@ -7,8 +7,6 @@
 @interface BiometricKitEnrollProgressCoordinates
 {
     double _x;
-    double _y;
-    double _angle;
 }
 
 - (void);
@@ -19,9 +17,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

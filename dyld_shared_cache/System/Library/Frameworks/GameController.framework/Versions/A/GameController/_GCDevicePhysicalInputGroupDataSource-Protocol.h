@@ -5,5 +5,7 @@
 //
 
 @protocol _GCDevicePhysicalInputGroupDataSource
+- (void);
+- (void);
 @end
 

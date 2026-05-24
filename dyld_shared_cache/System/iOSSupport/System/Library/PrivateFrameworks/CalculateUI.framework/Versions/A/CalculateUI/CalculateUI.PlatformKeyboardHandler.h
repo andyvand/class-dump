@@ -8,8 +8,6 @@
 {
     id supportsCommandModifier;
     id upArrow;
-    id downArrow;
-    id escapeKey;
 }
 
 @end

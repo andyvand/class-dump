@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RVItem, _UIContextMenuStyle;
+@class RVItem;
 
 __attribute__((visibility("hidden")))
 @interface _UIMenuBarControllerContext
 {
     _Bool _useSenderAsResponderSender;
-    RVItem *_rvItem;
-    _UIContextMenuStyle *_contextMenuStyle;
-    id _initialTarget;
-    id _sender;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)0@ù
@@ -31,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UIContextMenuStyle *contextMenuStyle; // @synthesize contextMenuStyle=_contextMenuStyle;
-@property(nonatomic) __weak id initialTarget; // @synthesize initialTarget=_initialTarget;
 @property(retain, nonatomic) RVItem *rvItem; // @synthesize rvItem=_rvItem;
-@property(nonatomic) __weak id sender; // @synthesize sender=_sender;
-@property(nonatomic) _Bool useSenderAsResponderSender; // @synthesize useSenderAsResponderSender=_useSenderAsResponderSender;
 
 @end
 

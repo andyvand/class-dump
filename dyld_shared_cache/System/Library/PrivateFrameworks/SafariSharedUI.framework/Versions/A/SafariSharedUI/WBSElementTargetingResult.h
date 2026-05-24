@@ -9,8 +9,6 @@
 @interface WBSElementTargetingResult
 {
     NSMutableSet *_globalElements;
-    NSMutableSet *_perSiteElements;
-    _WKTargetedElementInfo *_target;
 }
 
 - (_Bool);
@@ -21,10 +19,9 @@
 - (void);
 - (id);
 - (void);
-- (void)elistSnapshot;
+- (void)WBSAutoplayQuirkWhitelistSnapshot;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBackedByGlobalAction) _Bool backedByGlobalAction;
 @property(readonly, nonatomic) _WKTargetedElementInfo *target; // @synthesize target=_target;
 
 @end

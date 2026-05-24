@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BMContextualActionParameter
 {
     NSString *_parameterType;
-    NSDictionary *_parameterMetadata;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 - (void)g;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *parameterMetadata; // @synthesize parameterMetadata=_parameterMetadata;
 @property(readonly, nonatomic) NSString *parameterType; // @synthesize parameterType=_parameterType;
 
 @end

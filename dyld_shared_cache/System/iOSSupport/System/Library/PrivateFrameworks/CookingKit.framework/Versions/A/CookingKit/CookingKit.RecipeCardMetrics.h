@@ -8,10 +8,6 @@
 {
     id _safeAreaInsets;
     id _horizontalPadding;
-    id _containerSize;
-    id _fullBleedSize;
-    id _columnConfig;
-    id _$observationRegistrar;
 }
 
 @end

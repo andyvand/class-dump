@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSUUID, PKDrawing, PKMathRecognitionController, PKRecognitionSessionManager, _PKDataDetectorController;
+@class _PKDataDetectorController;
 @protocol PKRecognitionControllerInternalDelegate;
 
 @interface PKRecognitionController
 {
     _PKDataDetectorController *_dataDetectorController;
-    PKMathRecognitionController *_mathRecognitionController;
-    NSUUID *_listenerID;
-    NSMutableSet *_currentDrawingStrokeUUIDs;
-    struct os_unfair_lock_s _currentDrawingStrokeUUIDsLock;
-    id <PKRecognitionControllerInternalDelegate> _internalDelegate;
-    PKRecognitionSessionManager *_sessionManager;
 }
 
 - (void);
@@ -38,12 +32,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (id);
@@ -59,18 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _PKDataDetectorController *dataDetectorController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) PKDrawing *drawing;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <PKRecognitionControllerInternalDelegate> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
-@property(readonly, nonatomic) PKMathRecognitionController *mathRecognitionController;
-@property(readonly, nonatomic) PKRecognitionSessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;
-@property(readonly) Class superclass;
 
 @end
 

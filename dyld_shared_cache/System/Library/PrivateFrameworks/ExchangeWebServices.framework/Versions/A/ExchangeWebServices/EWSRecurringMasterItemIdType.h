@@ -11,30 +11,21 @@
 @interface EWSRecurringMasterItemIdType : EWSBaseItemIdType
 {
     NSString *_OccurrenceId;
-    NSString *_ChangeKey;
 }
 
-+ (_Bool);
++ (_Bool)pointValue;
 + (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
-- (id);
+- (id)kNetworkDisconnect_NW;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ChangeKey; // @synthesize ChangeKey=_ChangeKey;
 @property(copy, nonatomic) NSString *OccurrenceId; // @synthesize OccurrenceId=_OccurrenceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

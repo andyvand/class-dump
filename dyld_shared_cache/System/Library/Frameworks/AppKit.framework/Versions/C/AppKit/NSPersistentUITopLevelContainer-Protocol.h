@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol NSPersistentUITopLevelContainer
+- (void);
+- (NSDictionary *)set_sourceApplicationSecondaryIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)set_allowsUltraConstrainedInternal: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(setter=_setContentsHaveInvalidRestorableState:) _Bool _contentsHaveInvalidRestorableState;
-@property(readonly) unsigned int _persistentUIWindowID;
-@property(readonly) _Bool _shouldRecordPersistentState;
 @end
 

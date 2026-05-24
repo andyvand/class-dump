@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventFaceClassificationModel
 {
 }
 
-+ (id);
++ (id)crResolverIsFavoriteSignalProviderFailed;
 + (id);
 - (id);
 
 // Remaining properties
 @property(retain) NSUUID *personManagerUUID; // @dynamic personManagerUUID;
-@property(retain) NSString *personName; // @dynamic personName;
-@property(retain) NSUUID *personUUID; // @dynamic personUUID;
-@property(retain) NSUUID *unassociatedFaceCropUUID; // @dynamic unassociatedFaceCropUUID;
 
 @end
 

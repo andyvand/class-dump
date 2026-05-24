@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng;
+@class NSString;
 
 @interface _SFPBStructuredLocation
 {
     NSString *_title;
-    _SFPBLatLng *_geoLocation;
-    double _radius;
 }
 
 - (void);
@@ -22,25 +20,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setContentEditingOutput:(id)arg1;
+- (id)le at path %@ - error:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)tem"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBLatLng *geoLocation; // @synthesize geoLocation=_geoLocation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

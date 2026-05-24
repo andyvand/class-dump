@@ -7,13 +7,10 @@
 @class NSData;
 
 @protocol _SFPBMapRegion
+- (double)";
+- (NSData *)onQueue",R,&;
 
 // Remaining properties
-@property(nonatomic) double altitudeInMeters;
-@property(nonatomic) double eastLng;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double northLat;
 @property(nonatomic) double southLat;
-@property(nonatomic) double westLng;
 @end
 

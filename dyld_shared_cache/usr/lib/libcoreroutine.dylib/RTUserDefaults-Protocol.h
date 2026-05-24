@@ -5,5 +5,9 @@
 //
 
 @protocol RTUserDefaults
+- (void)|;
+- (void);
+- (void)	?׷;
+- (id)5;
 @end
 

@@ -7,21 +7,9 @@
 @class FCColor;
 
 @protocol FCPuzzleNavigationBarThemeProviding
+- (FCColor *);
 
 // Remaining properties
-@property(readonly, nonatomic) FCColor *barButtonItemBackgroundColor;
-@property(readonly, nonatomic) FCColor *barButtonItemBackgroundDarkModeColor;
-@property(readonly, nonatomic) FCColor *barButtonItemTintColor;
-@property(readonly, nonatomic) FCColor *barButtonItemTintDarkModeColor;
 @property(readonly, nonatomic) FCColor *navigationBarBackgroundColor;
-@property(readonly, nonatomic) FCColor *navigationBarBackgroundDarkModeColor;
-@property(readonly, nonatomic) FCColor *rankForegroundColor;
-@property(readonly, nonatomic) FCColor *rankForegroundDarkModeColor;
-@property(readonly, nonatomic) FCColor *shareText2BackgroundColor;
-@property(readonly, nonatomic) FCColor *shareText2ForegroundColor;
-@property(readonly, nonatomic) _Bool shareText2UseLargeFontNoCapsule;
-@property(readonly, nonatomic) FCColor *shareText3BackgroundColor;
-@property(readonly, nonatomic) FCColor *shareText3ForegroundColor;
-@property(readonly, nonatomic) FCColor *shareTextForegroundColor;
 @end
 

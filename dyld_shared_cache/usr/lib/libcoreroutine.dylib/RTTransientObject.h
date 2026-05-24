@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRecursiveLock, RTTimer, RTTimerManager;
 @protocol RTTransientObjectProtocol;
 
 @interface RTTransientObject
 {
     id <RTTransientObjectProtocol> _transientObjectDelegate;
-    CDUnknownBlockType _backingObjectCreationBlock;
-    id _backingObject;
-    double _backingObjectExpirationTimeInterval;
-    RTTimer *_backingObjectExpirationTimer;
-    RTTimerManager *_timerManager;
-    NSRecursiveLock *_lock;
-    double _lastForwardedMessageTimeInterval;
 }
 
 - (double);
 - (void);
-- (void);
+- (void)pendingAllocationForTuple;
+- (id)UnexpectedSendResult;
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)annot perform query;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double)rol socket;
 - (id);
 - (id);
 - (id);
@@ -42,21 +34,14 @@
 - (id);
 - (CDUnknownBlockType)Ôa(!XCù1C,°1Â0@ù
 × ;
-- (void)ctWithEntityDescription:predicate:context:error: /* Error: Ran out of types for this method. */;
-- (id)heReleasedViaScheduledSend;
+- (void)earliestCloudManagedObjectWithEntityDescription:predicate:context:error: /* Error: Ran out of types for this method. */;
+- (id)cacheReleasedViaScheduledSend;
 - (void)e}@;
 - (void)ervalSinceMessage, %f, didInteract, %@;
 - (void)satisfying:(id)arg1 softDistanceThreshold > 0;
 
 // Remaining properties
-@property(retain, nonatomic) id backingObject; // @synthesize backingObject=_backingObject;
 @property(copy, nonatomic) CDUnknownBlockType backingObjectCreationBlock; // @synthesize backingObjectCreationBlock=_backingObjectCreationBlock;
-@property(nonatomic) double backingObjectExpirationTimeInterval; // @synthesize backingObjectExpirationTimeInterval=_backingObjectExpirationTimeInterval;
-@property(retain, nonatomic) RTTimer *backingObjectExpirationTimer; // @synthesize backingObjectExpirationTimer=_backingObjectExpirationTimer;
-@property(nonatomic) double lastForwardedMessageTimeInterval; // @synthesize lastForwardedMessageTimeInterval=_lastForwardedMessageTimeInterval;
-@property(retain, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(nonatomic) __weak id <RTTransientObjectProtocol> transientObjectDelegate; // @synthesize transientObjectDelegate=_transientObjectDelegate;
 
 @end
 

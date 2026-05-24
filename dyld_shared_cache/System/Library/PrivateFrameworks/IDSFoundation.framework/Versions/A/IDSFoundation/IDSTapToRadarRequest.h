@@ -9,16 +9,14 @@
 @interface IDSTapToRadarRequest
 {
     NSString *_title;
-    NSString *_message;
 }
 
 - (id);
 - (id);
-- (id)ns:error: /* Error: Ran out of types for this method. */;
+- (id)writeToURL:options:error: /* Error: Ran out of types for this method. */;
 - (void)@ timed out after %d seconds.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSExtensionContext, NSString;
-@protocol NSCopying;
+@class NSExtension, NSExtensionContext;
 
 @interface PKExtensionRequestHandler
 {
     NSExtension *_extension;
-    NSExtensionContext *_extensionContext;
-    id <NSCopying> _requestIdentifier;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (_Bool)forVirtualCardIdentifier:forAccountIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)adata;
+- (_Bool)noteSecurityCodeActivityWithAction:forSecurityCodeIdentifier:forVirtualCardIdentifier:forAccountIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)metadata;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSExtensionContext *extensionContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly) Class superclass;
 
 @end
 

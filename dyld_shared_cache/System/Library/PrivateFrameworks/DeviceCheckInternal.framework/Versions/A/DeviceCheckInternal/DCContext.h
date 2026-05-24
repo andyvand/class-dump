@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
+- (id)initWithBag:caller:keyProfile: /* Error: Ran out of types for this method. */;
+- (void)initWithArray:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(copy) NSString *clientAppID; // @synthesize clientAppID=_clientAppID;

@@ -8,16 +8,9 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSessionInternalState
 {
     struct OpaqueCMIOGraph *_graph;
-    struct __CFDictionary *_supportUnitsForInputPorts;
-    _Bool _hasAudioMixerNode;
-    int _audioMixerNode;
-    _Bool _hasAudioMixerFanOutNode;
-    int _audioMixerFanOutNode;
-    _Bool _masterSynchronizerSet;
-    int _candidateMasterSynchronizerNode;
 }
 
-- (void);
+- (void)setVisibility: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

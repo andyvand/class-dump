@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModelCloudReference, NSData, NSDate, NSNumber, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDFaceCropModel
@@ -13,26 +13,18 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)x;
++ (id)loiGivenMessageWithEntity;
++ (id);
+- (void)service:(struct CGRect)arg1 account:inviteDroppedForSessionID:fromID:context:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)oundation.dylib;
 - (void);
-- (long long)eWithModelIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)deviceWithModelIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSData *dataRepresentation; // @dynamic dataRepresentation;
-@property(retain) NSDate *dateCreated; // @dynamic dateCreated;
-@property struct CGRect faceBoundingBox;
 @property(retain) NSData *faceBoundingBoxData; // @dynamic faceBoundingBoxData;
-@property(retain) HMBModelCloudReference *person; // @dynamic person;
-@property(retain) NSUUID *personUUID; // @dynamic personUUID;
-@property long long source;
-@property(retain) NSNumber *sourceField; // @dynamic sourceField;
-@property(retain) NSUUID *unassociatedFaceCropUUID; // @dynamic unassociatedFaceCropUUID;
 
 @end
 

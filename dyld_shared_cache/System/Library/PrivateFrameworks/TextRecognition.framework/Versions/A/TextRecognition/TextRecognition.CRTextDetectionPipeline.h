@@ -7,12 +7,6 @@
 @interface TextRecognition.CRTextDetectionPipeline
 {
     id $defaultActor;
-    id textDetector;
-    id textDetectorConfig;
-    id detectorStats;
-    id postProcStats;
-    id inferenceStats;
-    id detectorLoadTask;
 }
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSRegularExpression;
-
 @protocol LPTextStyleable
+- (long long)V;
+- (_Bool);
+
+@optional
+- (void)closeDbForTesting;
 
 // Remaining properties
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression;
-@property(readonly, nonatomic) NSFont *fallbackFont;
-@property(retain, nonatomic) NSFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSFont",?,&,N
-
 @property(nonatomic) long long overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) NSFont *preferredFont;
 @end
 

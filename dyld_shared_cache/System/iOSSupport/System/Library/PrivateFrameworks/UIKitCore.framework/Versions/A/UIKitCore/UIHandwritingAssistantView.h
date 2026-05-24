@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIKBKeyView.h>
 
-@class TUISystemInputAssistantView, UIKBHandwritingCandidateView, UIKeyboardCandidatePocketShadow;
+@class TUISystemInputAssistantView;
 
 __attribute__((visibility("hidden")))
 @interface UIHandwritingAssistantView : UIKBKeyView
 {
     TUISystemInputAssistantView *_systemInputAssistantView;
-    UIKBHandwritingCandidateView *_candidateView;
-    UIKeyboardCandidatePocketShadow *_rightBorder;
 }
 
-- (void);
+- (void)rticipant due to empty chatIdentifier for chat:(id)arg1 %@;
 - (struct CGRect);
 - (id);
 - (void);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)¸¦ÿËj;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBHandwritingCandidateView *candidateView; // @synthesize candidateView=_candidateView;
-@property(retain, nonatomic) UIKeyboardCandidatePocketShadow *rightBorder; // @synthesize rightBorder=_rightBorder;
 @property(retain, nonatomic) TUISystemInputAssistantView *systemInputAssistantView; // @synthesize systemInputAssistantView=_systemInputAssistantView;
 
 @end

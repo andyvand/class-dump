@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettings, HMMediaSession;
 @protocol HMMediaObjectDelegate;
 
 @protocol HMMediaObject
+- (id <HMMediaObjectDelegate>);
+- (void);
 
 // Remaining properties
 @property __weak id <HMMediaObjectDelegate> delegate;
-@property(readonly, copy) HMMediaSession *mediaSession;
-@property(readonly) HMAccessorySettings *settings;
 @end
 

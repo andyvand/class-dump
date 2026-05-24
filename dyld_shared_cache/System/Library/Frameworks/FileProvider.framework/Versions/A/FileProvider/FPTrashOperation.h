@@ -10,13 +10,13 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)AM;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)JA;
+- (void);
 
 @end
 

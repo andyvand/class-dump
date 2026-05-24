@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXUpNextMemoriesGenerationResult
 {
     PHFetchResult *_memories;
-    NSString *_debugInfo;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)¡Ë±;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;
 @property(readonly, nonatomic) PHFetchResult *memories; // @synthesize memories=_memories;
 
 @end

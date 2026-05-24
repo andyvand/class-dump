@@ -9,12 +9,10 @@
 @interface CNValueOrigin
 {
     NSString *_localizedApplicationName;
-    NSString *_donationIdentifier;
 }
 
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *donationIdentifier; // @synthesize donationIdentifier=_donationIdentifier;
 @property(readonly, copy, nonatomic) NSString *localizedApplicationName; // @synthesize localizedApplicationName=_localizedApplicationName;
 @end
 

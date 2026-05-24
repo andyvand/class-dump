@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageReportingSessionManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_sessionsByUUID;
-    CDUnknownBlockType _endSessionTimerFactory;
-    CDUnknownBlockType _consumeSessionResultsTimerFactory;
-    CDUnknownBlockType _performBackgroundRequestHandler;
 }
 
 + (id);
@@ -22,28 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (void)ticipantDidJoin %@;
+- (CDUnknownBlockType)icipant already present %@;
 - (CDUnknownBlockType);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (id)~;
 - (void)essing wake for operation:(id)arg1 '%@' on unreachable accessory:%@ in state:'%@'. tryWakeOnRetrievalFailure:%@ /* Error: Ran out of types for this method. */;
 - (void)e reachability issues).;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType consumeSessionResultsTimerFactory; // @synthesize consumeSessionResultsTimerFactory=_consumeSessionResultsTimerFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType endSessionTimerFactory; // @synthesize endSessionTimerFactory=_endSessionTimerFactory;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType performBackgroundRequestHandler; // @synthesize performBackgroundRequestHandler=_performBackgroundRequestHandler;
 @property(readonly) NSMutableDictionary *sessionsByUUID; // @synthesize sessionsByUUID=_sessionsByUUID;
-@property(readonly) Class superclass;
 
 @end
 

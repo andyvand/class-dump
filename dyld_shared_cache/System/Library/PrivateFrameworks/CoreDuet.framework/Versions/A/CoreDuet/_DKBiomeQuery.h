@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSSet;
+@class NSArray;
 
 @interface _DKBiomeQuery
 {
     NSArray *_eventStreamNames;
-    NSPredicate *_predicate;
-    unsigned long long _limit;
-    unsigned long long _offset;
-    NSArray *_sortDescriptors;
-    long long _resultType;
-    NSArray *_groupByProperties;
-    _Bool _returnDistinctResults;
-    _Bool _readMetadata;
-    NSSet *_excludedMetadataKeys;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)@;
++ (id)== kCFStreamStatusNotOpen;
 + (id);
 + (id);
 - (id);
@@ -40,7 +31,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)nder;
 - (void)ñ©3ð1Â0@ù
 × ;
 

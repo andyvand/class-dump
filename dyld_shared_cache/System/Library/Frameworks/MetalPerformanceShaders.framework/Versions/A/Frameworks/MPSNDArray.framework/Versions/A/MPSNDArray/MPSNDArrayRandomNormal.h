@@ -9,8 +9,6 @@
 @interface MPSNDArrayRandomNormal : MPSNDArrayRandom
 {
     unsigned int _samplingMethod;
-    float _mean;
-    float _standardDeviation;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (float);
+- (float)Z;
 - (id);
 
 // Remaining properties
-@property(nonatomic) float mean; // @synthesize mean=_mean;
 @property(nonatomic) unsigned int samplingMethod; // @synthesize samplingMethod=_samplingMethod;
-@property(nonatomic) float standardDeviation; // @synthesize standardDeviation=_standardDeviation;
 
 @end
 

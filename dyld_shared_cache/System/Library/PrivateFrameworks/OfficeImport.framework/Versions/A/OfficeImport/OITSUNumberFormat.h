@@ -4,45 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface OITSUNumberFormat
 {
     int mValueType;
-    NSString *mFormatString;
-    unsigned short mDecimalPlaces;
-    NSString *mCurrencyCode;
-    _Bool mUseAccountingStyle;
-    int mNegativeStyle;
-    _Bool mShowThousandsSeparator;
-    int mFractionAccuracy;
-    _Bool mFormatStringRequiresSuppressionOfMinusSign;
-    _Bool mUseScientificFormattingAutomatically;
-    _Bool mIgnoreDecimalPlacesForZeroValue;
-    NSString *mPrefixString;
-    NSString *mSuffixString;
-    unsigned char mBase;
-    unsigned short mBasePlaces;
-    _Bool mBaseUseMinusSign;
-    _Bool mIsCustom;
-    double mScaleFactor;
-    _Bool mFormatStringContainsTabCharacter;
-    _Bool mFormatContainsSpecialTokens;
-    _Bool mFormatContainsIntegerToken;
-    unsigned char mNumberOfHashDecimalPlaceholders;
-    unsigned char mTotalNumberOfDecimalPlaceholdersInFormat;
-    _Bool mRequiresFractionReplacement;
-    NSArray *mInterstitialStrings;
-    NSIndexSet *mInterstitialStringInsertionIndexes;
-    unsigned short mIndexFromRightOfLastDigitPlaceholder;
-    _Bool mIsTextFormat;
-    unsigned char mMinimumIntegerWidth;
-    unsigned char mDecimalWidth;
-    unsigned char mNumberOfNonSpaceIntegerPlaceholderDigits;
-    unsigned char mNumberOfNonSpaceDecimalPlaceholderDigits;
-    NSString *mFormatName;
-    NSUUID *mCustomFormatKey;
 }
 
 + (id);
@@ -52,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -80,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (unsigned short);
 - (_Bool);
@@ -91,25 +56,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)contacts:CompleteName /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (double);
+- (double);
 - (unsigned short)\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

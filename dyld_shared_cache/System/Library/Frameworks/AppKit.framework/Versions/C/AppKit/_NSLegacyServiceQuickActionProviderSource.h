@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSServicesMonitor, NSSet, NSString, _NSQuickActionPresentation;
+@class _NSQuickActionPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _NSLegacyServiceQuickActionProviderSource
 {
     _NSQuickActionPresentation *_presentation;
-    NSServicesMonitor *_monitor;
-    NSSet *_quickActions;
-    void *_observationInfo;
 }
 
-+ (_Bool);
++ (_Bool)kGroup:forward %s to %@ /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool)`;
-- (void);
-- (id);
+- (void)IsVirtualDevice;
+- (id)cVdYn5ajyDgnkT7YmtD1Gg;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)x£;
 - (void *)¨	;
-- (void)aults;
+- (void)NSColorPickerSlidersDefaults;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSSet *quickActions;
-@property(readonly) Class superclass;
 
 @end
 

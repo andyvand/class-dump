@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAccountInfo, CKRecordID, NSString;
+@class CKAccountInfo;
 
 @interface CKSyncEngineAccount
 {
@@ -12,24 +12,22 @@
 }
 
 + (_Bool);
+- (id)c
+;
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id)�;
+- (id);;
+- (long long)initializeWordTaggingModelWithData:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)è;9;
 
 // Remaining properties
 @property(nonatomic, readonly) CKAccountInfo *accountInfo;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, retain) CKRecordID *userRecordID;
 
 @end
 

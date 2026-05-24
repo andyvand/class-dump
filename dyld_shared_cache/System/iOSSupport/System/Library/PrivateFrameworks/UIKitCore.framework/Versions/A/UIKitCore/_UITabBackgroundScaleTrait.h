@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)P;
 + (id)from %@ to %@ because the parent view controller of %@ could not be found.;
 + (long long)Ôf;
 

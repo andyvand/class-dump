@@ -11,14 +11,13 @@
 @interface PXEditBatchAudioMixModeAction : PXEditBatchAction
 {
     NSString *_audioMixModeTitle;
-    NSString *_audioMixMode;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (void);
 - (id);

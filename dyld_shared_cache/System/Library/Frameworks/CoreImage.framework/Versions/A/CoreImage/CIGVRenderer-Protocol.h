@@ -7,6 +7,9 @@
 @class NSURL;
 
 @protocol CIGVRenderer
+- (void);
+- (void);
+- (void)a;
 - (void)LaYqmkgmrrrrssssXkgsczy££££czt|}xysbyvvvvv]idjkkkkrrrrQok}F_TmYe\ioooohlfpQf^sy{x{qSh_rttot~~~~r{{{{ppppggggeeeegggggggg^mjqrxwy\YM\SSGSTYN_Qiaw    ¡¡   ££££¦¦¦¦    fh`odd[iwwwwkzwj¡¡¡¡vunv`^OcVcVj`yum}yyun}wfup;ZMt^ql{qozwl|zpnfp;N<[JK6VlkblZrnNld¢¢¢¢ªªªª   ||||xxvxqvuzuuuufonp]c_fYYQ\7LAW=NBWCREYVZNcdpjux~~~~sssskkkkiifiSfapp^oltKSG^USFUZZYZffffssssr~vvvv\nnptwwwIWOaHPFVeeeexxxx{{{{ssssppppzzzz¤¤¤¤qf||Rqo|{{{{|t|y|}cxv~{w~j~f{x|{wUtpx~~~~ooooZgdjqqqqwwwwjlivaqn{||||T_Wgkkkk{{{{WmknBPCW=N>WZmfw££££´´´´\sm|mmmmnnnnszz|7XOn9M@]BPESLK=LAQETllll¤¤¤¤­­­­¥¦¨¨    ¡¡¡¡qyveqouDYPc<TI^_gbijzzzwwwwC\Qi6VJixxxxo~Yyun~}jmtqylkemonio~~~~qpkqRd[lnnmnjtpu¢¢¢¢¥¥¥¥nywzjspuwwwwzzzzrxx{~ssssP[U^6D7J4"C-F9Rpppp||||euoz}zu}¤¤¤¤²²²²©««`{w~~~~ttttnnnngggg^^^^VVVV8MDO2E7NJQE[tzxz ©©©csl{/J6`SYJaoooo\iapK]Pj`g]lxuox|j{vlemfq`aUdxxxx||yE[On;
 - (void)as it aligns with how
 // they do this.  This code is used to index and pull out the right value.  For the Chroma it is a bit
@@ -804,7 +807,5 @@ cojrBTGaISF\Wb^biiii]ihjggggbbbb[b_bkkkk\pmvhrnxYh_qXdYlppppqqqqmlemqqqq~~~~
 
 // Remaining properties
 @property int direction;
-@property _Bool drawEdgesFirst;
-@property struct CGSize separation;
 @end
 

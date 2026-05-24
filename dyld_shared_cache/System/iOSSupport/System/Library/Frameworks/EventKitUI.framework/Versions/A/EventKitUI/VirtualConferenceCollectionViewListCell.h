@@ -11,7 +11,7 @@
     EKVirtualConferenceRoomType *_currentRoomType;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)=dd}24N^{CGPoint=dd}40;
 

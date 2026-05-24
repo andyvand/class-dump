@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTREditSectionsChangeItem
 {
     id saveRequest;
-    id listID;
-    id sectionNames;
-    id orderedSectionIDs;
-    id initialOrderedSectionIDs;
-    id shouldHideEmptySections;
 }
 
 @end

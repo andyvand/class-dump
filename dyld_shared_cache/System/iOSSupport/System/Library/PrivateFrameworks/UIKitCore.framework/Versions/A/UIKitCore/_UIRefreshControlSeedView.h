@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)sing mapping for MPModelPropertyPodcastEpisodeShareURL;
 - (_Bool)Á°!ÈDù±\ð1Â0@ù
 × ;
 

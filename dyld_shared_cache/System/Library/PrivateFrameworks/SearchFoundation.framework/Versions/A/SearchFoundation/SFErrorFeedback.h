@@ -15,9 +15,9 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)setAlbumArtistProperties:(id)arg1 forAlbumArtistPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)acOS/CoreMedia;
 - (id);
 - (void)i,N,V_renderingMode;
 

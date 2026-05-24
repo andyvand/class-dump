@@ -9,11 +9,10 @@
 @interface AKServerBackoffController
 {
     struct os_unfair_lock_s _serverBackoffLock;
-    id <AKServerBackoffControllerDelegate> _delegate;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,12 +23,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)Ätàt;

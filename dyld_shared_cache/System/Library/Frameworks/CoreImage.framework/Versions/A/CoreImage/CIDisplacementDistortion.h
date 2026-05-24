@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisplacementDistortion : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputDisplacementImage;
-    NSNumber *inputScale;
 }
 
 + (id);
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)Mf[rrum}a{wPql~wwwwvvvvmyyzx~}p}~dg^v]iau}YohyWjbssssspsmtTg^n>ZMhMg_oakevFaXtyyyymmmmMTI[U^VdVhcn;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputDisplacementImage; // @synthesize inputDisplacementImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

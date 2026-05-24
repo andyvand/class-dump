@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, NSArray, NSString;
+@class GEOMapItemAttribution, NSString;
 
 @interface _MKMapItemAttribution
 {
@@ -23,20 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void): /* Error: Ran out of types for this method. */;
-- (id)ssRAP;
+- (id)FitnessRAP;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) NSArray *attributionApps;
-@property(readonly, nonatomic) NSArray *attributionURLs;
-@property(readonly, nonatomic) NSString *captionDisplayName;
 @property(readonly, nonatomic) NSString *providerID;
-@property(readonly, nonatomic) NSString *providerName;
-@property(readonly, nonatomic) _Bool requiresAttributionInCallout;
-@property(readonly, nonatomic) _Bool requiresAttributionInDeveloperPlaceCard;
-@property(readonly, nonatomic) _Bool shouldOpenInAppStore;
 
 @end
 

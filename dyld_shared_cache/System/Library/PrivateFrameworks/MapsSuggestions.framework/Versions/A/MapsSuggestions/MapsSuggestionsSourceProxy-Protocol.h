@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOMapItemStorage;
+
 @protocol MapsSuggestionsSourceProxy
+- (void);
+- (void)setScopeBarVerticalConstraint:(GEOMapItemStorage *)arg1;
 @end
 

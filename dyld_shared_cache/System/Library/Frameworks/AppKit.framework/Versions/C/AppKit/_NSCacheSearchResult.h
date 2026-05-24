@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _NSCacheSearchResult
 {
     void menu;
-    long long indexInMenu;
-    long long matchPenalty;
 }
 
-- (void);
+- (void)_connectionCacheCellPurgeTimeout;
+- (long long)nnot initWithResumeData with nil upload file;
 - (long long);
-- (long long);
-- (void);
+- (void)2Wi;
 - (id);
 - (void)dalResponseOK result!;
 - (void);
 - (id)Ì0H;
 
 // Remaining properties
-@property(nonatomic) long long indexInMenu; // @synthesize indexInMenu;
-@property(nonatomic) long long matchPenalty; // @synthesize matchPenalty;
 @property(nonatomic) __weak NSMenu *menu; // @synthesize menu;
 
 @end

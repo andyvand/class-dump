@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFAutoJoinParameters, NSDate, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CWFAutoJoinRequest
 {
     _Bool _allowAutoHotspotFallback;
-    _Bool _throttled;
-    NSUUID *_UUID;
-    CWFAutoJoinParameters *_parameters;
-    NSDate *_addedAt;
-    CDUnknownBlockType _reply;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)GCGameIntentLauncherXPCServerInterface;
 - (void);
 - (_Bool);
 - (id);
@@ -30,16 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)tProtocolPublicWiFi;
+- (void)CWFXPCRequestProtocolPublicWiFi;
 - (void)@ (attempt %ld);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSDate *addedAt; // @synthesize addedAt=_addedAt;
-@property(nonatomic) _Bool allowAutoHotspotFallback; // @synthesize allowAutoHotspotFallback=_allowAutoHotspotFallback;
-@property(copy, nonatomic) CWFAutoJoinParameters *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) CDUnknownBlockType reply; // @synthesize reply=_reply;
-@property(nonatomic) _Bool throttled; // @synthesize throttled=_throttled;
 
 @end
 

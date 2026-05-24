@@ -5,5 +5,8 @@
 //
 
 @protocol CNFamilyMemberEditControlsViewControllerDelegate
+
+@optional
+- (void)/;
 @end
 

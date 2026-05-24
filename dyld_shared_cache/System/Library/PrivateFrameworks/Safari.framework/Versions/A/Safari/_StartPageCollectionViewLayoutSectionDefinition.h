@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, StartPageCollectionViewLayoutSection;
+@class StartPageCollectionViewLayoutSection;
 
 __attribute__((visibility("hidden")))
 @interface _StartPageCollectionViewLayoutSectionDefinition
 {
     _Bool _isCollapsed;
-    _Bool _showsAsCollapsed;
-    _Bool _hidingAllElements;
-    StartPageCollectionViewLayoutSection *_layoutSection;
-    NSArray *_supplementaryItemFrames;
-    long long _sectionIndex;
-    double _sectionOffset;
-    long long _numberOfColumns;
-    long long _numberOfRows;
-    long long _numberOfRowsIncludingDraggedIndexPath;
-    long long _numberOfItems;
-    long long _numberOfItemsIncludingDraggedIndexPath;
-    long long _actualNumberOfItems;
-    long long _numberOfRowsWhenCollapsed;
-    long long _numberOfItemsWhenCollapsed;
-    double _topContentOffsetInSection;
-    double _contentHeight;
-    double _contentHeightIncludingDraggedIndexPath;
-    double _contentHeightWhenCollapsed;
-    struct CGSize _itemSize;
-    struct CGSize _interItemSpacing;
-    struct NSDirectionalEdgeInsets _contentEdgeInsets;
 }
 
 - (double);
@@ -39,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -62,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
@@ -74,12 +53,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
+- (struct CGSize)N;
 - (struct CGSize);
-- (struct CGSize);
-- (id);
+- (id)annot be edited or retracted, message is a memo associated with an Apple Cash payment or request;
 - (double);
 - (void);
-- (void);
+- (void)}@):(long long)arg1 asked to add %ld, can only add %ld new zones;
 - (long long)e;
 - (_Bool);
 - (long long);
@@ -87,35 +66,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long actualNumberOfItems; // @synthesize actualNumberOfItems=_actualNumberOfItems;
-@property(readonly, nonatomic) _Bool canCollapse;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentEdgeInsets; // @synthesize contentEdgeInsets=_contentEdgeInsets;
-@property(nonatomic) double contentHeight; // @synthesize contentHeight=_contentHeight;
-@property(nonatomic) double contentHeightIncludingDraggedIndexPath; // @synthesize contentHeightIncludingDraggedIndexPath=_contentHeightIncludingDraggedIndexPath;
-@property(nonatomic) double contentHeightWhenCollapsed; // @synthesize contentHeightWhenCollapsed=_contentHeightWhenCollapsed;
-@property(readonly, nonatomic) double effectiveContentHeight;
-@property(readonly, nonatomic) long long effectiveNumberOfItems;
-@property(readonly, nonatomic) long long effectiveNumberOfRows;
-@property(readonly, nonatomic) double effectiveSectionHeight;
-@property(nonatomic) _Bool hidingAllElements; // @synthesize hidingAllElements=_hidingAllElements;
-@property(nonatomic) struct CGSize interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(nonatomic) _Bool isCollapsed; // @synthesize isCollapsed=_isCollapsed;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
 @property(readonly, copy, nonatomic) StartPageCollectionViewLayoutSection *layoutSection; // @synthesize layoutSection=_layoutSection;
-@property(nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(nonatomic) long long numberOfItemsIncludingDraggedIndexPath; // @synthesize numberOfItemsIncludingDraggedIndexPath=_numberOfItemsIncludingDraggedIndexPath;
-@property(nonatomic) long long numberOfItemsWhenCollapsed; // @synthesize numberOfItemsWhenCollapsed=_numberOfItemsWhenCollapsed;
-@property(nonatomic) long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(nonatomic) long long numberOfRowsIncludingDraggedIndexPath; // @synthesize numberOfRowsIncludingDraggedIndexPath=_numberOfRowsIncludingDraggedIndexPath;
-@property(nonatomic) long long numberOfRowsWhenCollapsed; // @synthesize numberOfRowsWhenCollapsed=_numberOfRowsWhenCollapsed;
-@property(readonly, nonatomic) double sectionHeight;
-@property(readonly, nonatomic) double sectionHeightWhenCollapsed;
-@property(nonatomic) long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
-@property(nonatomic) double sectionOffset; // @synthesize sectionOffset=_sectionOffset;
-@property(nonatomic) _Bool showsAsCollapsed; // @synthesize showsAsCollapsed=_showsAsCollapsed;
-@property(copy, nonatomic) NSArray *supplementaryItemFrames; // @synthesize supplementaryItemFrames=_supplementaryItemFrames;
-@property(nonatomic) double topContentOffsetInSection; // @synthesize topContentOffsetInSection=_topContentOffsetInSection;
 
 @end
 

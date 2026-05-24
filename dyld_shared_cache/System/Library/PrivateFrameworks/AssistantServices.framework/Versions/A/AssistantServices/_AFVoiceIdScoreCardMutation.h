@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceIdScoreCard, NSDictionary, NSNumber, NSString;
+@class AFVoiceIdScoreCard;
 
 @interface _AFVoiceIdScoreCardMutation
 {
     AFVoiceIdScoreCard *_base;
-    NSNumber *_spIdAudioProcessedDuration;
-    NSNumber *_spIdUnknownUserScore;
-    NSDictionary *_spIdKnownUserScores;
-    NSNumber *_spIdUserScoresVersion;
-    NSString *_spIdScoreThresholdingType;
-    NSString *_spIdAssetVersion;
-    NSString *_userClassified;
-    long long _userIdentityClassification;
-    NSNumber *_lowScoreThreshold;
-    NSNumber *_highScoreThreshold;
-    NSNumber *_confidentScoreThreshold;
-    NSNumber *_deltaScoreThreshold;
-    long long _hasSufficientAudioProcessed;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSpIdAudioProcessedDuration:1;
-        unsigned int hasSpIdUnknownUserScore:1;
-        unsigned int hasSpIdKnownUserScores:1;
-        unsigned int hasSpIdUserScoresVersion:1;
-        unsigned int hasSpIdScoreThresholdingType:1;
-        unsigned int hasSpIdAssetVersion:1;
-        unsigned int hasUserClassified:1;
-        unsigned int hasUserIdentityClassification:1;
-        unsigned int hasLowScoreThreshold:1;
-        unsigned int hasHighScoreThreshold:1;
-        unsigned int hasConfidentScoreThreshold:1;
-        unsigned int hasDeltaScoreThreshold:1;
-        unsigned int hasHasSufficientAudioProcessed:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -54,11 +25,11 @@
 - (id);
 - (id);
 - (id);
+- (id)qm;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)q̵;
 - (id);
 - (long long);
 - (id);
@@ -67,17 +38,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)tions:(id)arg1 testOptions: /* Error: Ran out of types for this method. */;
-- (void)adcast: /* Error: Ran out of types for this method. */;
+- (id)testRequestWithText:(id)arg1 speechRequestOptions:testOptions: /* Error: Ran out of types for this method. */;
+- (void)_recomputePrivateSessionStateAndBroadcast: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

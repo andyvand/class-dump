@@ -4,39 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, _PASLazyResult;
-@protocol OS_xpc_object;
+@class NSDictionary, _PASLazyResult;
 
 @interface _PSFamilyMLModel
 {
     _PASLazyResult *_extractor;
-    NSDictionary *_models;
-    NSObject<OS_xpc_object> *_activity;
 }
 
+- (id)_dynamicEvaluatorTaskName;
+- (id)_durationSelfTriggerSuppressionWasActiveInSeconds;
+- (id)_crossDomainRankerScoreKeepers;
+- (_Bool)_correction;
+- (void)_conversationQualityComplexity;
+- (id)_assistantSchemaKind;
+- (id)_assistantDaemonSpawnTimestampInNs;
+- (id)_assistantDaemonAudioStopRecordingContext;
+- (id)_asrHypothesisIds;
+- (id)_asrFeatureLatencyDistribution;
+- (id)_appleNeuralEngineCpuTimeInNs;
+- (id)_appUsageCountForEntity28Days;
+- (id)_appUsageCountForEntity1Hr;
+- (id)eventTransmittedRelativeToBootTimeTimestampNs;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)a;
+- (void)s/;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
 @property(readonly, nonatomic) NSDictionary *models; // @synthesize models=_models;
 
 @end

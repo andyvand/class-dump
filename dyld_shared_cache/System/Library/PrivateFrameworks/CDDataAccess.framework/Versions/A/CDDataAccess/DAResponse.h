@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)diffFreezerProcs;
 
 // Remaining properties
 @property(nonatomic) long long status; // @synthesize status=_status;

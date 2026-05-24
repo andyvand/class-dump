@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)compressData:(id *)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

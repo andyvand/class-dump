@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _UITextFieldImageBackgroundView *_backgroundView;
 }
 
-- (void);
-- (id)rKeyClass;
-- (void)pSg;
+- (void)setDisplayProperties: /* Error: Ran out of types for this method. */;
+- (id)_UIAppearanceWrapperKeyClass;
+- (void)_pSg;
 - (void)Ü`];
 - (void);
 - (void)Ñ0o];

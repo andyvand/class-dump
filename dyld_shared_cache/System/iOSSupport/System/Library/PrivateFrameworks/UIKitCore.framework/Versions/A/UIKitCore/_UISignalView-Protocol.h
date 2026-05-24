@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAccessibilityHUDItem, UIColor;
+@class UIColor;
 
 @protocol _UISignalView
-- (void)dscapeLayout:(long long)arg1;
-- (void)em:(long long)arg1 attachmentAnchor: /* Error: Ran out of types for this method. */;
-- (id)tLinkInteractionHandler;
+- (void)set_useLandscapeLayout:(long long)arg1;
+- (void)fixedAttachmentWithItem:(long long)arg1 attachedToItem:attachmentAnchor: /* Error: Ran out of types for this method. */;
+- (id)_UITextLinkInteractionHandler;
 - (UIColor *);
 - (void)ò;
 - (UIColor *)#;
+- (long long)SpringAnimationParameters;
 - (long long);
 - (void)wþÅ>43Xrwþ>43drwþ¥>43prwþµ>43|rwþµ>43rwþµ>43¼rwþÕ>43Ørwþu>43ärwþ}>43ðrwþU>43ürwþ¥>43swþ5>43swþ5>43à}wþ}>43swþµ>43oþ>43swþ;
 - (long long)43+û;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-@property(copy, nonatomic) UIColor *activeColor;
-@property(copy, nonatomic) UIColor *inactiveColor;
-@property(nonatomic) long long numberOfActiveBars;
-@property(nonatomic) long long numberOfBars;
-@property(nonatomic) long long signalMode;
 @property(nonatomic) long long sizeCategory;
 @end
 

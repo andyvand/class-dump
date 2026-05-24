@@ -6,73 +6,54 @@
 
 #import <MusicLibrary/ML3ImportOperation.h>
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface ML3DAAPImportOperation : ML3ImportOperation
 {
     void *_importSession;
-    NSError *_importError;
-    struct shared_ptr<DAAPParserDelegate> _delegate;
-    unsigned char _updateType;
-    long long _totalTrackCount;
-    long long _totalContainerCount;
-    long long _totalAlbumCount;
-    long long _totalArtistCount;
-    long long _totalLibraryPinsCount;
-    long long _maxLibraryPinsCount;
-    long long _processedTrackCount;
-    long long _processedContainerCount;
-    long long _processedArtistCount;
-    long long _processedAlbumCount;
-    long long _processedLibraryPinsCount;
-    _Bool _importSessionStarted;
-    _Bool _clientInitiatedReset;
-    int _sourceType;
 }
 
-- (void);
-- (shared_ptr_9dbb0ac9);
+- (void)nHandler:(float)arg1;
+- (shared_ptr_9dbb0ac9)_resourceType;
+- (_Bool)Version;
+- (shared_ptr_9dbb0ac9)rPhotoKitOrPrivatePhotosTCC;
+- (shared_ptr_9dbb0ac9)ntroller;
+- (shared_ptr_9dbb0ac9)ring",C,V_containerIdentifier;
+- (shared_ptr_9dbb0ac9)dcfCompliantNameForFileName:(shared_ptr_37fa1f3d)arg1 createDate:(long long)arg2 fileSize:filenameMarker: /* Error: Ran out of types for this method. */;
+- (shared_ptr_55dea43e)createDatabaseOptionsDictionary;
+- (shared_ptr_9dbb0ac9)tsGroupFilterPredicate;
+- (shared_ptr_55dea43e)ntStore",&,N,V_store;
+- (shared_ptr_9dbb0ac9),V_lastIteratedToken;
+- (shared_ptr_9dbb0ac9)centerY;
+- (_Bool)s;
+- (_Bool)WithContainerChange;
+- (_Bool)_uploadFullPhotoLibraryToCloud:(int)arg1;
+- (_Bool)&,N,V_updatedContent;
+- (_Bool)_updatedEntries;
+- (_Bool),&,N,V_pdsaLock_postDelayedSaveActionsReplyBlocks;
 - (_Bool);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_55dea43e);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_55dea43e);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (shared_ptr_9dbb0ac9);
-- (int);
+- (_Bool)_updateAlbumAssociationIfNeeded;
+- (_Bool)Assets;
+- (_Bool)_textUnderstandingGatingVersion;
+- (_Bool)MutableArray",&,N,V_albumChanges;
+- (_Bool)NSManagedObjectModel",R;
+- (_Bool)ObjectID",R,N,V_objectID;
+- (_Bool)jectID;
+- (_Bool)ontext;
+- (_Bool)bject>",&,N,V_validatedObject;
+- (_Bool)ManagedObject<PLValidatedManagedObject>",&,N,V_validatedObject;
+- (_Bool)_smartSharingCacheWriteEntitled;
+- (_Bool)_singleThreaded;
+- (_Bool)IndexSet",R,N,V_movedIndexes;
+- (_Bool)onCategories;
+- (_Bool)tityTypes;
+- (_Bool)Expiration;
+- (_Bool),&,N,VcachedNonPersistedVideoPlaybackURLExpiration;
+- (void),V_dateSearchIndexSnapshotLastUpdated;
+- (shared_ptr_9dbb0ac9)R,N,V_configuration;
+- (int)_assetSortOrder;
 - (void);
 - (id);
-- (void)oreignPersistentIDProperty;
+- (void)foreignPersistentIDProperty;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface IMTranslatedMessagePart
 {
     NSString *_sourceLanguage;
-    NSString *_translationLanguage;
-    NSAttributedString *_translatedText;
 }
 
 + (_Bool);
@@ -25,13 +23,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void)~Zÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sourceLanguage; // @synthesize sourceLanguage=_sourceLanguage;
-@property(copy, nonatomic) NSAttributedString *translatedText; // @synthesize translatedText=_translatedText;
-@property(copy, nonatomic) NSString *translationLanguage; // @synthesize translationLanguage=_translationLanguage;
 
 @end
 

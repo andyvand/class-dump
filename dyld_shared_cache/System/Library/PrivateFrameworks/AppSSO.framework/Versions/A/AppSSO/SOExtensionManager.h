@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, SOExtensionFinder;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SOExtensionManager
 {
     NSObject<OS_dispatch_queue> *_extensionManagerQueue;
-    SOExtensionFinder *_extensionFinder;
-    NSArray *_loadedExtensions;
 }
 
 + (_Bool);
 + (_Bool);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool).apple.appleaccount.custodian.setupFailSafe.pending;
 + (id);
 + (_Bool);
 + (id);
-- (void);
-- (void);
+- (void)_;
+- (void)V;
 - (id);
 - (id);
 - (id);

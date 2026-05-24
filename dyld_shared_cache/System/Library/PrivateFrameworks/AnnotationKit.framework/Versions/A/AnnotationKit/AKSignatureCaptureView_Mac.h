@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureVideoPreviewLayer, CALayer;
+@class AVCaptureVideoPreviewLayer;
 
 @interface AKSignatureCaptureView_Mac
 {
     AVCaptureVideoPreviewLayer *_captureLayer;
-    CALayer *_frostingLayer;
-    _Bool _frostingLayerShouldBeVisible;
-    _Bool _shouldBeMirrored;
-    _Bool _mirrored;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);

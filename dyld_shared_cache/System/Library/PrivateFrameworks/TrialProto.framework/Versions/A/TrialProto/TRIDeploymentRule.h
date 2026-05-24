@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIDeploymentRule : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSMutableArray *predicateArray; // @dynamic predicateArray;
-@property(readonly, nonatomic) unsigned long long predicateArray_Count; // @dynamic predicateArray_Count;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

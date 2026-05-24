@@ -12,11 +12,9 @@
 × ;
 - (void)ÔA°!HAùq[°1Â0@ù
 × ;
-- (_Bool)tLevel: /* Error: Ran out of types for this method. */;
+- (_Bool)setCurrentLevel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVContentIntersectingDelegate> contentIntersectingDelegate;
 @property(nonatomic) struct CGRect contentIntersection;
-@property(readonly, nonatomic, getter=isOverVideo) _Bool isOverVideo;
 @end
 

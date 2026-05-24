@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, QCInterpolation;
+@class NSTextField;
 
 @interface QCInterpolationView
 {
     NSTextField *timeField;
-    NSTextField *valueField;
-    QCInterpolation *_spline;
-    long long _selectedIndex;
 }
 
 - (void);
@@ -31,15 +28,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)MaxSupportedProtocolVersion;
+- (_Bool)ate on deleted tracks, error=%{public}@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)#[;
 - (void);
 - (void);
 - (id);
 - (_Bool)¸$E;
-- (_Bool)putChinPositions;
+- (_Bool)inputChinPositions;
 - (void);
 
 @end

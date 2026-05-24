@@ -6,34 +6,29 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKDProtocolTranslator, NSArray, NSMutableDictionary, NSSet;
+@class NSArray;
 
 @interface CKDRecordResolveTokenURLRequest : CKDURLRequest
 {
     _Bool _shouldFetchRootRecord;
-    NSSet *_rootRecordDesiredKeySet;
-    CDUnknownBlockType _tokenResolveBlock;
-    NSArray *_lookupInfos;
-    NSMutableDictionary *_lookupInfosByRequestID;
-    CKDProtocolTranslator *_privateDBTranslator;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (long long);
+- (_Bool)	;
+- (void);
+- (_Bool));
+- (long long)#;
 - (id)H;
 - (void)Ï;
 - (id)riter _compressBodyData:shouldFlush:] /* Error: Ran out of types for this method. */;
@@ -45,11 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *lookupInfos; // @synthesize lookupInfos=_lookupInfos;
-@property(retain, nonatomic) NSMutableDictionary *lookupInfosByRequestID; // @synthesize lookupInfosByRequestID=_lookupInfosByRequestID;
-@property(retain, nonatomic) CKDProtocolTranslator *privateDBTranslator; // @synthesize privateDBTranslator=_privateDBTranslator;
-@property(retain, nonatomic) NSSet *rootRecordDesiredKeySet; // @synthesize rootRecordDesiredKeySet=_rootRecordDesiredKeySet;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
-@property(copy, nonatomic) CDUnknownBlockType tokenResolveBlock; // @synthesize tokenResolveBlock=_tokenResolveBlock;
 
 @end
 

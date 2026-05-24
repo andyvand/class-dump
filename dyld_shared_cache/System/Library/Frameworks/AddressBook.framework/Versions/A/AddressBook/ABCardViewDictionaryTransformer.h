@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ABCardViewDictionaryTransformer
 {
     NSDictionary *_currentDictionary;
-    NSString *_valueKey;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *currentDictionary; // @synthesize currentDictionary=_currentDictionary;
-@property(retain, nonatomic) NSString *valueKey; // @synthesize valueKey=_valueKey;
 
 @end
 

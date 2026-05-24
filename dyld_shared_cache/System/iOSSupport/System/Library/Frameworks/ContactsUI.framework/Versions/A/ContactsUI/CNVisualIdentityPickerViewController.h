@@ -4,41 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarEditingManager, CNAvatarPosePickerController, CNContactStyle, CNMHEmojiPickerHelper, CNPhotoPickerActionsViewController, CNPhotoPickerDataSource, CNPhotoPickerHeaderView, CNPhotoPickerProviderItem, CNUIToolbar, CNUIToolbarItem, CNVisualIdentity, CNVisualIdentityEditablePrimaryAvatarViewController, CNVisualIdentityImagePickerController, NSArray, NSData, NSString, UICollectionView;
-@protocol CNVisualIdentityPickerPresenterDelegate, CNVisualIdentityPickerViewControllerDelegate;
+@class UICollectionView;
 
 @interface CNVisualIdentityPickerViewController
 {
     _Bool _didSetEmojiFromPicker;
-    _Bool _allowRotation;
-    _Bool _shouldUpdateEmojiSuggestions;
-    id <CNVisualIdentityPickerViewControllerDelegate> _delegate;
-    id <CNVisualIdentityPickerPresenterDelegate> _presenterDelegate;
-    NSString *_assignActionTitleOverride;
-    UICollectionView *_collectionView;
-    CNPhotoPickerProviderItem *_lastSelectedProviderItem;
-    CNPhotoPickerProviderItem *_editingProviderItem;
-    CNPhotoPickerProviderItem *_duplicatingProviderItem;
-    CNAvatarEditingManager *_avatarEditingManager;
-    CNPhotoPickerActionsViewController *_actionsViewController;
-    CNVisualIdentityEditablePrimaryAvatarViewController *_editablePrimaryAvatarController;
-    CNAvatarPosePickerController *_posePickerController;
-    CNMHEmojiPickerHelper *_emojiPickerHelper;
-    CNUIToolbarItem *_doneItem;
-    CNUIToolbar *_toolbar;
-    CNContactStyle *_contactStyle;
-    NSArray *_pendingInjectedSuggestionItems;
-    CNVisualIdentityImagePickerController *_imagePickerController;
-    CNPhotoPickerHeaderView *_headerView;
-    CNVisualIdentity *_pendingVisualIdentity;
-    CNPhotoPickerDataSource *_dataSource;
-    NSData *_proposedImageData;
 }
 
 + (id);
 + (double);
 + (id);
-+ (id);
++ (id)%;
 + (id);
 + (_Bool);
 + (struct CGSize);
@@ -47,7 +23,7 @@
 + (id);
 + (id)
 × ;
-+ (id)ect:preferredEdge: /* Error: Ran out of types for this method. */;
++ (id)showEmojiPickerInWindow:atWindowRect:preferredEdge: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -56,21 +32,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)hmM9;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)KJ	;
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)q;
+- (void);
+- (void);
+- (void)N;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,10 +67,10 @@
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -95,19 +82,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)?;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -121,11 +97,11 @@
 - (void);
 - (id);
 - (id);
+- (void)�;
+- (id)kb;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)/;
 - (id);
 - (id);
 - (void);
@@ -135,27 +111,27 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)bW;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void));
 - (double);
 - (void);
 - (id);
 - (id);
+- (_Bool)_);
+- (id);
+- (void);
+- (void);
+- (_Bool)T@9	;
+- (void);
+- (void);
+- (void);
+- (void)@9j;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -169,16 +145,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)shouldSuppressPasscodeCreationCancelPrompt;
 - (void);
 - (id);
 - (void);
+- (id)(;
 - (void);
+- (void)";
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)__objc_const;
 - (long long);
 - (struct UIEdgeInsets);
 - (struct CGSize);
@@ -186,48 +162,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool)0@ù
 × ;
-- (void)ions;
+- (void)buildStaticIdentityActions;
 - (id)tÿ;
 - (id)itlements and mach services in the app.;
-- (void)cription;
+- (void)NSPhotoLibraryUsageDescription;
 - (id);
 - (id)=´øLgÑÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerActionsViewController *actionsViewController; // @synthesize actionsViewController=_actionsViewController;
-@property(nonatomic) _Bool allowRotation; // @synthesize allowRotation=_allowRotation;
-@property(retain, nonatomic) NSString *assignActionTitleOverride; // @synthesize assignActionTitleOverride=_assignActionTitleOverride;
-@property(retain, nonatomic) CNAvatarEditingManager *avatarEditingManager; // @synthesize avatarEditingManager=_avatarEditingManager;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) CNContactStyle *contactStyle; // @synthesize contactStyle=_contactStyle;
-@property(readonly, nonatomic) CNPhotoPickerDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didSetEmojiFromPicker; // @synthesize didSetEmojiFromPicker=_didSetEmojiFromPicker;
-@property(retain, nonatomic) CNUIToolbarItem *doneItem; // @synthesize doneItem=_doneItem;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *duplicatingProviderItem; // @synthesize duplicatingProviderItem=_duplicatingProviderItem;
-@property(retain, nonatomic) CNVisualIdentityEditablePrimaryAvatarViewController *editablePrimaryAvatarController; // @synthesize editablePrimaryAvatarController=_editablePrimaryAvatarController;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *editingProviderItem; // @synthesize editingProviderItem=_editingProviderItem;
-@property(retain, nonatomic) CNMHEmojiPickerHelper *emojiPickerHelper; // @synthesize emojiPickerHelper=_emojiPickerHelper;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNPhotoPickerHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) CNVisualIdentityImagePickerController *imagePickerController; // @synthesize imagePickerController=_imagePickerController;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *lastSelectedProviderItem; // @synthesize lastSelectedProviderItem=_lastSelectedProviderItem;
-@property(retain, nonatomic) NSArray *pendingInjectedSuggestionItems; // @synthesize pendingInjectedSuggestionItems=_pendingInjectedSuggestionItems;
-@property(retain, nonatomic) CNVisualIdentity *pendingVisualIdentity; // @synthesize pendingVisualIdentity=_pendingVisualIdentity;
-@property(retain, nonatomic) CNAvatarPosePickerController *posePickerController; // @synthesize posePickerController=_posePickerController;
-@property(nonatomic) __weak id <CNVisualIdentityPickerPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate=_presenterDelegate;
-@property(retain, nonatomic) NSData *proposedImageData; // @synthesize proposedImageData=_proposedImageData;
-@property(nonatomic) _Bool shouldUpdateEmojiSuggestions; // @synthesize shouldUpdateEmojiSuggestions=_shouldUpdateEmojiSuggestions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNUIToolbar *toolbar; // @synthesize toolbar=_toolbar;
 
 @end
 

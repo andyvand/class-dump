@@ -9,7 +9,7 @@
     id colors;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

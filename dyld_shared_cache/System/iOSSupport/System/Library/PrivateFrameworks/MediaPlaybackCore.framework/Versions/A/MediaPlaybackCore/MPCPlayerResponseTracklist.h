@@ -4,56 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerResponse, MPCPlayerResponseItem, MPSectionedCollection, NSIndexPath, NSString;
+@class MPCPlayerResponse;
 
 @interface MPCPlayerResponseTracklist
 {
     unsigned long long _changeItemSupport;
-    _Bool _transitionsActive;
-    NSString *_uniqueIdentifier;
-    long long _lastChangeDirection;
-    long long _upNextItemCount;
-    long long _explicitContentState;
-    long long _repeatType;
-    long long _shuffleType;
-    long long _transitionStyle;
-    long long _actionAtQueueEnd;
-    MPCPlayerResponse *_response;
-    MPSectionedCollection *_items;
-    NSIndexPath *_playingItemIndexPath;
-    MPSectionedCollection *_displayItems;
-    long long _playingItemGlobalIndex;
-    long long _globalItemCount;
 }
 
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)resourceValuesForKeys:error: /* Error: Ran out of types for this method. */;
+- (id)aaf_setByRemovingObjectsFromSet:(id)arg1;
+- (id)estruct;
+- (id)URL;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (long long);
-- (long long);
 - (id);
 - (id);
 - (long long);
@@ -63,32 +29,29 @@
 - (id);
 - (id);
 - (long long);
+- (unsigned long long)/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (long long)autorelease;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)!;
 - (void)orMetricsEvent event doesn't have preceding QueueAdd event (eventID:%{public}@ item:%{public}@ %{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionAtQueueEnd; // @synthesize actionAtQueueEnd=_actionAtQueueEnd;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) MPSectionedCollection *displayItems; // @synthesize displayItems=_displayItems;
-@property(readonly, nonatomic) long long explicitContentState; // @synthesize explicitContentState=_explicitContentState;
-@property(readonly, nonatomic) long long globalItemCount; // @synthesize globalItemCount=_globalItemCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) MPSectionedCollection *items; // @synthesize items=_items;
-@property(readonly, nonatomic) long long lastChangeDirection; // @synthesize lastChangeDirection=_lastChangeDirection;
-@property(readonly, nonatomic) MPCPlayerResponseItem *playingItem;
-@property(readonly, nonatomic) long long playingItemGlobalIndex; // @synthesize playingItemGlobalIndex=_playingItemGlobalIndex;
-@property(readonly, copy, nonatomic) NSIndexPath *playingItemIndexPath; // @synthesize playingItemIndexPath=_playingItemIndexPath;
-@property(readonly, nonatomic) long long repeatType; // @synthesize repeatType=_repeatType;
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
-@property(readonly, nonatomic) _Bool transitionsActive; // @synthesize transitionsActive=_transitionsActive;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) long long upNextItemCount; // @synthesize upNextItemCount=_upNextItemCount;
 
 @end
 

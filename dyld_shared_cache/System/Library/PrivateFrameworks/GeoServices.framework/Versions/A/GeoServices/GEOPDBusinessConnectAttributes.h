@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBusinessConnectAttributes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_chainId;
-    NSString *_orgId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_chainId:1;
-        unsigned int read_orgId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ndpoint;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)unknownFields"b1"read_address"b1"read_personalizedMaps"b1"read_placeRequest"b1"read_place"b1"wrote_anyField"b1};
-- (id)Behind;
+- (id)_buildBehind;
 - (id)Ì3a ´=aä´d?aü´4Pa4´Pa´¬a´ £a ´ça<´ðéaP´ìah´Pîa´töa´,øa¬´àùaÀ´@&bÔ´Ð)bè´h7b0´¼8bD´YdX´ädÀ´@ídÔ´ôdì´ùd´he´(e0´àeD´eX´\el´e´|e´<e¨´`2e¼´ÄFe ´ÄMe4´ìRed´¼Sex´¨Ve¬´XaeÀ´ eÔ´eè´Üe	´¸eH	´üe\	´´ep	´Ä e	´°e	´`´e¬	´P¸eØ	´Ðºe
 ´Æe 
 ´àÇe4

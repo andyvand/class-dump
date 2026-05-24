@@ -7,14 +7,6 @@
 @interface NewsUI2.SuggestionTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id tagService;
-    id headlineService;
-    id feedPersonalizer;
-    id suggestionClusteringService;
-    id sportsGraphManager;
-    id name;
 }
 
 @end

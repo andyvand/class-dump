@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, TDFontSizeDefinition, TDThemeSize;
+@class NSNumber;
 
 @interface TDMetafontSizeSelector
 {
@@ -12,10 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) TDThemeSize *controlSize; // @dynamic controlSize;
-@property(retain, nonatomic) TDFontSizeDefinition *definition; // @dynamic definition;
-@property(retain, nonatomic) NSString *displayName; // @dynamic displayName;
 @property(retain, nonatomic) NSNumber *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSString *selectorName; // @dynamic selectorName;
 @end
 

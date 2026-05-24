@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CALSoundFile
 {
     int _type;
-    NSString *_name;
-    NSString *_extension;
 }
 
-- (id);
-- (id);
+- (id)V;
+- (id)	;
 - (long long);
 - (long long);
 - (long long);

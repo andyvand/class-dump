@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAPSessionData, GEOUserSessionEntity, NSData, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface GEOUserSession
 {
     _Bool _shareSessionWithMaps;
-    struct GEOSessionID _shortSessionID;
-    double _shortSessionStartTime;
-    struct os_unfair_lock_s _shortNavSessionLock;
-    _Bool _shortNavSessionNeedsInit;
-    int _shortSessionChangedToken;
-    NSDictionary *_shortSessionByAppID;
-    id _shortSessionListener;
-    NSData *_navigationDirectionsID;
-    struct GEOSessionID _navigationSessionID;
-    double _navigationSessionStartTime;
-    NSData *_previousNavigationDirectionsID;
-    struct GEOSessionID _previousNavigationSessionID;
-    double _previousNavigationSessionStartTime;
-    double _previousNavigationSessionEndTime;
-    double _shortSessionCreateHour;
-    struct os_unfair_lock_s _fifteenMoDeviceSessionLock;
-    GEOAPSessionData *_fifteenMoDeviceSessionData;
-    struct GEOSessionID _zeroSessionID;
-    struct os_unfair_lock_s _locIntelSessionLock;
-    _Bool _locIntelNeedsInit;
-    GEOAPSessionData *_locIntelSessionData;
-    id _locIntelSessionListener;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
-+ (void);
++ (void);
 + (id)1Â0@ù
 × ;
 + (struct GEOSessionID)× ;
@@ -58,17 +34,17 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)setNAPrivs:forUserWithName:authorization:result: /* Error: Ran out of types for this method. */;
+- (id)@' to test recipe '%@';
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)+;
 - (double);
 - (void);
 - (void);
+- (void)es remaining), dropping it;
+- (void)O;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)KPinAnnotationViewImageCacheKey *, geo:(id)arg1:(id)arg2 _retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -83,22 +59,18 @@
 - (void)EOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^Q24;
 - (void)nPlaceCardForResultWithId"b1"read_paginationInfo"b1"read_placeSummaryLayoutMetadata"b1"read_redoButtonThreshold"b1"read_relatedEntitySections"b1"read_relatedSearchSuggestions"b1"read_resultDetourInfos"b1"read_resultDisplayHeader"b1"read_resultRefinementGroup"b1"read_retainSearchs"b1"read_searchClientBehavior"b1"read_searchResultSections"b1"read_searchSessionData"b1"read_searchTierMetadatas"b1"read_sectionList"b1"wrote_anyField"b1};
 - (void)tToken"24;
-- (id);
+- (id)hasIncludeShortTrafficSummary;
 - (void)GEOPDPlaceSummaryLayoutUnitInUserLibrary;
 - (struct GEOSessionID)~;
 - (id)r outAndBack was found at %f, %f. Stopping outAndBack here.;
 - (void)nce per object;
-- (id)nsionFactor;
+- (id)viewportExpansionFactor;
 - (id)ÿÿ;
 - (double) ;
 - (void);
 - (id)þ´BA D2äØP@;
 
 // Remaining properties
-@property(copy, nonatomic) GEOUserSessionEntity *mapsShortSession;
-@property(copy, nonatomic) GEOUserSessionEntity *mapsUserSessionEntity;
-@property(readonly, nonatomic) struct GEOSessionID navSessionID;
-@property(nonatomic) _Bool shareSessionWithMaps; // @synthesize shareSessionWithMaps=_shareSessionWithMaps;
 @property(readonly, nonatomic, getter=_sharedSessionDataByAppId) NSDictionary *sharedSessionData;
 
 @end

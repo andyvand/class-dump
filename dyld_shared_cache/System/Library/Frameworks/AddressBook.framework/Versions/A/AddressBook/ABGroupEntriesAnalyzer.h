@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, NSArray, NSMutableArray;
-@protocol ABAccountHidingPolicy;
+@class NSArray;
 
 @interface ABGroupEntriesAnalyzer
 {
     NSArray *_accounts;
-    ABAddressBook *_addressBook;
-    NSMutableArray *_directoryAccounts;
-    NSMutableArray *_persistentAccounts;
-    ABAccount *_acceptedIntroductionsAccount;
-    NSMutableArray *_smartGroups;
-    NSMutableArray *_visibleAccounts;
-    id <ABAccountHidingPolicy> _accountHidingPolicy;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)ª1Â0@ù
 × ;

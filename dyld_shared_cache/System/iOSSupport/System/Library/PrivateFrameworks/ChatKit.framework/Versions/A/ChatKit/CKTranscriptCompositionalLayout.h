@@ -4,49 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, IMScheduledUpdater, NSArray, NSIndexSet, NSMutableDictionary, NSMutableIndexSet;
+@class NSArray;
 
 @interface CKTranscriptCompositionalLayout
 {
     _Bool _holdingBoundsInvalidation;
-    _Bool _useInitialLayoutAttributesForRotation;
-    _Bool _useOverlayLayout;
-    _Bool _inlineAnimatingOut;
-    unsigned char _chatStyle;
-    _Bool _isResting;
-    _Bool _disableRotisserieScroll;
-    _Bool _disableDynamicsWhileScrolling;
-    _Bool _isDisplayDrivenLayoutInvalidation;
-    _Bool _easingUp;
-    _Bool _hasLoadMore;
-    _Bool _sizeCategoryIsAccessibilitySizeCategory;
-    double _anchorYPosition;
-    NSIndexSet *_indicesOfChatItemsToBeRemovedWithoutFading;
-    NSIndexSet *_indicesOfChatItemsToBeInsertedWithoutFading;
-    NSIndexSet *_indicesOfReplyChatItemsToBeInserted;
-    NSArray *_layoutAttributes;
-    NSArray *_associatedLayoutAttributes;
-    NSArray *_decorationLayoutAttributes;
-    NSArray *_oldLayoutAttributes;
-    NSArray *_oldAssociatedLayoutAttributes;
-    NSMutableIndexSet *_insertedAssociatedLayoutAttributes;
-    double _previousFrameTimestamp;
-    double _currentFrameTimestamp;
-    double _cumulativeDisplayDrivenDynamicsRunTime;
-    double _requestedFrameRate;
-    NSMutableDictionary *_initialParentLayoutAttributes;
-    NSMutableDictionary *_finalParentVerticalOffsets;
-    IMScheduledUpdater *_dynamicsUpdater;
-    CADisplayLink *_displayLink;
-    struct CGPoint _targetContentOffset;
-    struct CGSize _sizeForRotation;
-    struct CGSize _contentSize;
-    struct CGRect _visibleBounds;
 }
 
 + (long long);
 + (Class);
-+ (double)ickerCurrentPageIndicatorColor;
++ (double)fsmPickerCurrentPageIndicatorColor;
 - (void);
 - (void);
 - (void);
@@ -57,13 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)l;
 - (void);
 - (void);
 - (unsigned char);
 - (void);
 - (double);
-- (struct CGRect);
+- (struct CGRect)jlxm;
 - (struct CGPoint);
 - (void);
 - (id);
@@ -75,17 +42,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)IA	*;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)<˟;
 - (void);
 - (void);
 - (void);
@@ -99,15 +66,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)=;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)Q;
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -117,7 +84,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithCapacity:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -125,7 +92,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_delegateCanDropItemsWithDropSession:(id)arg1;
 - (void)Â0@ù
 × ;
 - (id)Ñ1Â0@ù
@@ -136,18 +103,18 @@
 × ;
 - (_Bool)ets=dddd}24;
 - (struct CGSize)}40@0:8@16@24^@32 /* Error: Ran out of types for this method. */;
-- (double)ionIndex:(double)arg1;
-- (void)ateChatItem:(_Bool)arg1;
-- (void)rame:(_Bool)arg1 collectionViewLayout: /* Error: Ran out of types for this method. */;
-- (void)ion;
+- (double)setStickerReactionIndex:(double)arg1;
+- (void)retractScheduledMessageParts:(_Bool)arg1 fromAggregateChatItem: /* Error: Ran out of types for this method. */;
+- (void)_newCollectionViewWithFrame:(_Bool)arg1 collectionViewLayout: /* Error: Ran out of types for this method. */;
+- (void)_composition;
 - (_Bool)G¬HLäMNdNN;
 - (id)`;
 - (void)ùÿ;
 - (void)SgGGPÔ]yAPGGtGGk®]G_Äà]tGG¤¼]G¶¶]GAAyÝå]yA5_GA7_GGGmÝ]ySbGGtGGA18_GA7_GÎ]yu^GG;
 - (void)chat on conversation;
 - (id)sages:%@, animate:%@ /* Error: Ran out of types for this method. */;
-- (struct CGSize)ARED_SUBITEM_TITLE;
-- (_Bool)KEY;
+- (struct CGSize)COLLABORATION_ERROR_FOLDER_HAS_SHARED_SUBITEM_TITLE;
+- (_Bool)CKMEDIAOBJECT_TRANSFERGUID_KEY;
 - (void)D;
 - (id);
 - (id);
@@ -160,31 +127,7 @@
 - (void)/;
 
 // Remaining properties
-@property(nonatomic) double anchorYPosition; // @synthesize anchorYPosition=_anchorYPosition;
-@property(copy, nonatomic) NSArray *associatedLayoutAttributes; // @synthesize associatedLayoutAttributes=_associatedLayoutAttributes;
-@property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
-@property(copy, nonatomic) NSArray *decorationLayoutAttributes; // @synthesize decorationLayoutAttributes=_decorationLayoutAttributes;
-@property(nonatomic) _Bool disableDynamicsWhileScrolling; // @synthesize disableDynamicsWhileScrolling=_disableDynamicsWhileScrolling;
-@property(nonatomic) _Bool disableRotisserieScroll; // @synthesize disableRotisserieScroll=_disableRotisserieScroll;
-@property(retain, nonatomic) IMScheduledUpdater *dynamicsUpdater; // @synthesize dynamicsUpdater=_dynamicsUpdater;
-@property(retain, nonatomic) NSMutableDictionary *finalParentVerticalOffsets; // @synthesize finalParentVerticalOffsets=_finalParentVerticalOffsets;
-@property(nonatomic) _Bool hasLoadMore; // @synthesize hasLoadMore=_hasLoadMore;
-@property(nonatomic, getter=isHoldingBoundsInvalidation) _Bool holdingBoundsInvalidation; // @synthesize holdingBoundsInvalidation=_holdingBoundsInvalidation;
-@property(retain, nonatomic) NSIndexSet *indicesOfChatItemsToBeInsertedWithoutFading; // @synthesize indicesOfChatItemsToBeInsertedWithoutFading=_indicesOfChatItemsToBeInsertedWithoutFading;
-@property(retain, nonatomic) NSIndexSet *indicesOfChatItemsToBeRemovedWithoutFading; // @synthesize indicesOfChatItemsToBeRemovedWithoutFading=_indicesOfChatItemsToBeRemovedWithoutFading;
-@property(retain, nonatomic) NSIndexSet *indicesOfReplyChatItemsToBeInserted; // @synthesize indicesOfReplyChatItemsToBeInserted=_indicesOfReplyChatItemsToBeInserted;
-@property(retain, nonatomic) NSMutableDictionary *initialParentLayoutAttributes; // @synthesize initialParentLayoutAttributes=_initialParentLayoutAttributes;
-@property(nonatomic, getter=isInlineAnimatingOut) _Bool inlineAnimatingOut; // @synthesize inlineAnimatingOut=_inlineAnimatingOut;
-@property(retain, nonatomic) NSMutableIndexSet *insertedAssociatedLayoutAttributes; // @synthesize insertedAssociatedLayoutAttributes=_insertedAssociatedLayoutAttributes;
-@property(readonly, nonatomic) _Bool isResting;
 @property(copy, nonatomic) NSArray *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(copy, nonatomic) NSArray *oldAssociatedLayoutAttributes; // @synthesize oldAssociatedLayoutAttributes=_oldAssociatedLayoutAttributes;
-@property(copy, nonatomic) NSArray *oldLayoutAttributes; // @synthesize oldLayoutAttributes=_oldLayoutAttributes;
-@property(nonatomic) _Bool sizeCategoryIsAccessibilitySizeCategory; // @synthesize sizeCategoryIsAccessibilitySizeCategory=_sizeCategoryIsAccessibilitySizeCategory;
-@property(nonatomic) struct CGSize sizeForRotation; // @synthesize sizeForRotation=_sizeForRotation;
-@property(nonatomic) struct CGPoint targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
-@property(nonatomic, getter=isUsingInitialLayoutAttributesForRotation) _Bool useInitialLayoutAttributesForRotation; // @synthesize useInitialLayoutAttributesForRotation=_useInitialLayoutAttributesForRotation;
-@property(nonatomic, getter=isUsingOverlayLayout) _Bool useOverlayLayout; // @synthesize useOverlayLayout=_useOverlayLayout;
 
 @end
 

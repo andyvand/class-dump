@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDTileProvider, TSDTilingBackgroundQueue, TSDTilingLayer;
+
 @protocol TSDTilingLayerDelegate
+
+@optional
+- (struct CGRect)og"8@?0;
+- (void)UnsupportedPlaybackContext;
+- (void)FailedToResolveStartItem;
+- (_Bool)DELEGATION (legacy client);
+- (_Bool)Context are supported.;
+- (TSDTilingBackgroundQueue *)nnot find UpNextSection in either identifier list:(TSDTilingLayer *)arg1 %@;
+- (TSDTileProvider *)_MPCOverrideAllowsInsertionPositionLast;
+- (_Bool)GaplessInfoEncodingDrainInFramesKey;
+- (void);
 @end
 

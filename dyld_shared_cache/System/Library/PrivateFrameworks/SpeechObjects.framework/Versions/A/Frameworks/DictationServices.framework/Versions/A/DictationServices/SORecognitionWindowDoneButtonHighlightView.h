@@ -11,7 +11,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)pilotAttributeSyntax;
 - (void);
 
 @end

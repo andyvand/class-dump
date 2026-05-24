@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccountSetupInput, IAAccountSetupResult, IAProvider, NSDictionary, NSError, NSObject, NSString, NSXPCConnection;
-@protocol IAXPCProtocol, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSDictionary;
 
 @interface IAAccountCreator
 {
     NSDictionary *_settings;
-    IAAccountSetupResult *_result;
-    IAProvider *_provider;
-    NSError *_error;
-    NSString *_appleID;
-    NSString *_createdUID;
-    NSObject<OS_dispatch_semaphore> *_accountSetupSema;
-    NSString *_providerID;
-    NSString *_pluginID;
-    NSString *_token;
-    _Bool _continueThroughError;
-    _Bool _continueWithoutSSL;
-    NSXPCConnection *_connection;
-    id <IAXPCProtocol> _agent;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    IAAccountSetupInput *_input;
 }
 
 + (id);
 + (id);
++ (id)R;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)9j;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (id);
@@ -63,10 +47,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ccessibility;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -76,16 +60,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSString *appleID; // @synthesize appleID=_appleID;
-@property _Bool continueThroughError; // @synthesize continueThroughError=_continueThroughError;
-@property _Bool continueWithoutSSL; // @synthesize continueWithoutSSL=_continueWithoutSSL;
-@property(retain) NSString *createdUID; // @synthesize createdUID=_createdUID;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *pluginID; // @synthesize pluginID=_pluginID;
-@property(retain) IAProvider *provider; // @synthesize provider=_provider;
-@property(retain) NSString *providerID; // @synthesize providerID=_providerID;
 @property(retain) NSDictionary *settings; // @synthesize settings=_settings;
-@property(retain) NSString *token; // @synthesize token=_token;
 
 @end
 

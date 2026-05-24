@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMRequestEnded, NLXSchemaCDMRequestFailed, NLXSchemaCDMRequestStarted, NSData;
+@class NLXSchemaCDMRequestStarted;
 
 @interface NLXSchemaCDMRequestContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMRequestStarted *_startedOrChanged;
-    NLXSchemaCDMRequestEnded *_ended;
-    NLXSchemaCDMRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -26,17 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)PlaylistID;
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id));
+- (void)le.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_pss.c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -48,14 +42,7 @@
 - (void)è=ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

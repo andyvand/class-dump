@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSWindow, PKPassWindowController;
+@class PKPassWindowController;
 
 @interface PKPassSheet
 {
     PKPassWindowController *_windowController;
-    NSArray *_passes;
-    NSWindow *_hostWindow;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly) _Bool didAddPass;
-@property(readonly) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(readonly) NSArray *passes; // @synthesize passes=_passes;
 
 @end
 

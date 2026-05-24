@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyPreflightDownloadSU
 {
     _Bool _allowsCellular;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _skipPhase;
-    long long _specifiedFields;
-    NSDictionary *_basePreflightOptions;
-    NSDictionary *_additionalOptions;
 }
 
-+ (_Bool);
++ (_Bool)Q;
 - (_Bool);
 - (void);
 - (void);
@@ -25,17 +17,17 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)0:(id)arg1 8@"NSUUID"16;
+- (void)linkIconFromPageURL:(_Bool)arg1 toCurrentPageURL:isPrivate:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_locationChangeDoneForWebView:isMainFrame:pageLoadType:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,12 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(nonatomic) _Bool allowsCellular; // @synthesize allowsCellular=_allowsCellular;
-@property(retain, nonatomic) NSDictionary *basePreflightOptions; // @synthesize basePreflightOptions=_basePreflightOptions;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

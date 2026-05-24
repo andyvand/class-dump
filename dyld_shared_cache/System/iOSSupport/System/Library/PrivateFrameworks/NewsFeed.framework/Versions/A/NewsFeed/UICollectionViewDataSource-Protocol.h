@@ -11,6 +11,7 @@
 
 @optional
 - (long long)ÜÕ;
+- (_Bool)size;
 - (UICollectionViewCell *);
 - (NSIndexPath *);
 - (UICollectionReusableView *)Ù¥?Tñþ;

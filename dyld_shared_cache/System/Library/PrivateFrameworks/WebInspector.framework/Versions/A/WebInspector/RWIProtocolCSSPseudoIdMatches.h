@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray;
-
 @interface RWIProtocolCSSPseudoIdMatches : RWIProtocolJSONObject
 {
 }
@@ -19,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *matches;
 @property(nonatomic) long long pseudoId;
 
 @end

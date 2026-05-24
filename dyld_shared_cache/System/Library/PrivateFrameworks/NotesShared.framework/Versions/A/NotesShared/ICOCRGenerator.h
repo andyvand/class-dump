@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_downloadThread;
++ (id)SObject<OS_dispatch_semaphore>",&,V_downloaderFinished;
++ (id)@"MSUProductManager",&,V_productManager;
 
 @end
 

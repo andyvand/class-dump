@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedWaypoint, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPRidesharingTrip
 {
     PBUnknownFields *_unknownFields;
-    GEOComposedWaypoint *_endWaypoint;
-    GEOComposedWaypoint *_startWaypoint;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id).*hhx-%.*X] Unable to encode move/copy reference.;
+- (void)r UID %u (%{iec-bytes}ld) bytes.;
+- (_Bool)EXISTS imap_copy_action_messages_action_id_index;;
+- (_Bool)EFERENCES messages(ROWID) ON DELETE SET NULL, transaction_id INTEGER NOT NULL, message_body_indexed INTEGER NOT NULL, reindex_type INTEGER NOT NULL);;
+- (id)year to index list IDs.;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -32,11 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOComposedWaypoint *endWaypoint; // @synthesize endWaypoint=_endWaypoint;
-@property(readonly, nonatomic) _Bool hasEndWaypoint;
 @property(readonly, nonatomic) _Bool hasStartWaypoint;
-@property(retain, nonatomic) GEOComposedWaypoint *startWaypoint; // @synthesize startWaypoint=_startWaypoint;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

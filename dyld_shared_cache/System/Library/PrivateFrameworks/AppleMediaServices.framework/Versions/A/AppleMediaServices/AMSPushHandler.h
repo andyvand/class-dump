@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPushConfiguration, NSDictionary;
-@protocol AMSBagProtocol, AMSPushHandlerContract, AMSPushHandlerDelegate;
+@class NSDictionary;
+@protocol AMSBagProtocol;
 
 @interface AMSPushHandler
 {
     id <AMSBagProtocol> _bag;
-    AMSPushConfiguration *_configuration;
-    id <AMSPushHandlerContract> _bagContract;
 }
 
 + (id);
@@ -21,9 +19,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)stringForExpression:containsPrivacySensitiveContents: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)%{BOOL}u, canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -35,10 +33,6 @@ LÈêÇMÈê·¶Éêª·ÉêÚ°Éê±ÉêgºÉê7»ÉêG´ÉêµÉêú¾Éê
 - (void)|ùÖ:(id)arg1 ÝÖÖû"Ö3ÝÖOßkÖû²°Öõ²°ÖÁû"ÖÄû"Ö¡ ÖiÖ÷²°ÖiÖÊû"ÖiÖFßkÖÇû"ÖiÖMOÖ­ Ö8ÝÖiùÖmùÖMOÖà²°Ö® Ö@ßkÖiÖÌû"ÖÏû"ÖMOÖ¶ ÖMOÖVßkÖ± ÖBßkÖ6ÝÖØû"Öø²°ÖEßkÖMOÖYßkÖÛû"ÖMOÖxùÖËû"Ö=ÝÖIßkÖö²°ÖKßkÖÿ²°ÖSßkÖî²°ÖMOÖ(ÝÖÐû"Ö%ÝÖ¢ ÖwùÖ¦ Ö¤ Öå²°ÖiÖ\ßkÖ{ùÖiÖTßkÖæ²°ÖhùÖô²°ÖMOÖ^ßkÖnùÖ)ÝÖÉû"ÖiÖMOÖì²°ÖoùÖgùÖÒû"Öð²°ÖRßkÖpùÖiÖú²°Ö&ÝÖiÖDßkÖMOÖbùÖ° ÖMßkÖ"ÝÖiÖ¸ ÖMOÖjùÖsùÖMOÖWßkÖ ÝÖº Öý²°Ö×û"Öã²°Ö/ÝÖAßkÖ¹ ÖZßkÖiÖrùÖ<ÝÖMOÖ¥ Ö`ùÖ¿ Ö?ÝÖ}ùÖ]ßkÖPßkÖ$ÝÖiÖLßkÖ2ÝÖiÖiÖÝû"Ö;
 
 // Remaining properties
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) id <AMSPushHandlerContract> bagContract; // @synthesize bagContract=_bagContract;
-@property(readonly) AMSPushConfiguration *configuration; // @synthesize configuration=_configuration;
-@property __weak id <AMSPushHandlerDelegate> delegate;
 @property(readonly) NSDictionary *enabledParsables;
 
 @end

@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEONavTrayGuidance
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_detail;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_detail:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etHasTransitType:(id)arg1;
++ (_Bool)setHasTransitType:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)didClearTextAuthentication;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)and resetting voice controller.;
+- (void)oFileWriter configureWithAudioStreamBasicDescription:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (_Bool)_mapkit_imageWithSymbolConfiguration: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id)"NSError"24;
@@ -50,11 +38,7 @@
 - (void)i~ÿËs4ju2;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *detail;
-@property(readonly, nonatomic) _Bool hasDetail;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

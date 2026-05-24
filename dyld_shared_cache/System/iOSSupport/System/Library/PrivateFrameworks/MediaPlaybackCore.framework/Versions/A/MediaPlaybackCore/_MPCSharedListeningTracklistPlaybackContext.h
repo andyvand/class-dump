@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSectionedCollection, NSIndexPath;
+@class MSVSectionedCollection;
 
 __attribute__((visibility("hidden")))
 @interface _MPCSharedListeningTracklistPlaybackContext
 {
     MSVSectionedCollection *_tracklist;
-    NSIndexPath *_startItemIndexPath;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)@?q@"NSError">40;
+- (id);
 - (id);
 - (void);
 - (void)doesn't support loading more];
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexPath *startItemIndexPath; // @synthesize startItemIndexPath=_startItemIndexPath;
 @property(retain, nonatomic) MSVSectionedCollection *tracklist; // @synthesize tracklist=_tracklist;
 
 @end

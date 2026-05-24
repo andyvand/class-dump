@@ -4,49 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOCountdownData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _alternateCountdownTypes;
-    CDStruct_9f2792e4 _timestampValues;
-    NSMutableArray *_alternateFormatStrings;
-    NSString *_separator;
-    NSString *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_alternateCountdownTypes:1;
-        unsigned int read_timestampValues:1;
-        unsigned int read_alternateFormatStrings:1;
-        unsigned int read_separator:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)HasPoiOpenState:(id)arg1;
++ (Class)A;
++ (_Bool)setHasPoiOpenState:(id)arg1;
 - (unsigned long long);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)tatfs file at path:%s:%d /* Error: Ran out of types for this method. */;
+- (void)TENCENTWEIBO;
+- (void)amework/CoreEmoji;
+- (void)em/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (int *);
+- (unsigned long long)X;
+- (id)O;
+- (int *)K;
 - (int);
 - (void);
 - (void);
@@ -54,13 +36,13 @@
 - (long long);
 - (unsigned int *);
 - (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)setAttSiriState:(id)arg1;
+- (id)ck_invoke;
 - (void);
 - (_Bool);
 - (id);
@@ -71,10 +53,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)OPDWarsawMerchantIdentifier;
-- (id)E_TYPE_MINI_PLACE_BROWSE_CATEGORIES;
+- (void);
+- (id)setGeoOntologyId:(struct _NSZone *)arg1;
+- (id)GEOPDWarsawMerchantIdentifier;
+- (id)ElementType_MODULE_TYPE_MINI_PLACE_BROWSE_CATEGORIES;
 - (id);
 - (id);
 - (void);
@@ -82,26 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *alternateCountdownTypes;
-@property(readonly, nonatomic) unsigned long long alternateCountdownTypesCount;
-@property(retain, nonatomic) NSMutableArray *alternateFormatStrings;
-@property(readonly, nonatomic) NSDictionary *alternativeFormatStringsByType;
 @property(readonly, nonatomic) long long countdownType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSeparator;
-@property(readonly, nonatomic) _Bool hasTimezone;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *separator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int *timestampValues;
-@property(readonly, nonatomic) unsigned long long timestampValuesCount;
-@property(readonly, nonatomic) NSArray *timestamps;
-@property(retain, nonatomic) NSString *timezone;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

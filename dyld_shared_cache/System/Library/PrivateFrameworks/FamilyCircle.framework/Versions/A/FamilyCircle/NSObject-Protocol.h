@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)reInfo",R,N;
+- (oneway void);
+- (unsigned long long);
+- (id);
 - (struct _NSZone *)úÿúÿÐ¬úÿ¨ÕúÿpÝúÿàûÿðûÿ!ûÿ@/ûÿ¸4ûÿÌ`ûÿÀ¾ûÿ¸Úûÿàèûÿ¤êûÿØ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *):GSM /* Error: Ran out of types for this method. */;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

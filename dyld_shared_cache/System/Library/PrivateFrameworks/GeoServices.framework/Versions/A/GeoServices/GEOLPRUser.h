@@ -12,24 +12,24 @@
 }
 
 + (Class);
-+ (_Bool)lectedIndex:(id)arg1;
-- (unsigned long long);
++ (_Bool)setHasSelectedIndex:(id)arg1;
+- (unsigned long long)#;
 - (void);
 - (void);
-- (void);
+- (void)initWithBundleIdentifier:(CDUnknownBlockType)arg1 localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (void)_cn_resultWithAllCharacters: /* Error: Ran out of types for this method. */;
+- (id)Phonetic Togo;
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id)tures:(struct _NSZone *)arg1;
+- (id)setNamedFeatures:(struct _NSZone *)arg1;
 - (id)pirationDate;
 - (id);
 - (id);

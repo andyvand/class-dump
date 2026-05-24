@@ -10,8 +10,8 @@
 
 + (void);
 + (void);
-+ (_Bool);
-+ (void);
++ (_Bool)HTMLToSuper_A_Frame;
++ (void)DaemonAttachmentBroadcastEntity;
 + (id);
 + (void);
 + (void);
@@ -19,7 +19,7 @@
 + (long long);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void)r;
 + (void);
 + (void);
 + (void);

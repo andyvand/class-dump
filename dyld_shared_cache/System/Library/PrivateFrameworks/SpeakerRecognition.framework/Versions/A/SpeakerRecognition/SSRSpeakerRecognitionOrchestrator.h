@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, SSRSpeakerRecognitionContext, SSRVoiceActivityDetector;
-@protocol CSAudioFileWriter, OS_dispatch_queue, OS_os_transaction, SSRSpeakerRecognitionOrchestratorDelegate, SSRSpeakerRecognizer;
+@class SSRSpeakerRecognitionContext;
 
 @interface SSRSpeakerRecognitionOrchestrator
 {
     double _lastScoreReportTimeStamp;
-    double _lastSegmentStartTime;
-    unsigned long long _segmentCounter;
-    unsigned long long _numSamplesAddedToSpeakerRecognizers;
-    _Bool _endAudioCalled;
-    _Bool _startPointReported;
-    SSRSpeakerRecognitionContext *_context;
-    id <SSRSpeakerRecognitionOrchestratorDelegate> _delegate;
-    id <CSAudioFileWriter> _ssrUttLogger;
-    unsigned long long _myriadResult;
-    id <SSRSpeakerRecognizer> _psrRecognizer;
-    id <SSRSpeakerRecognizer> _satRecognizer;
-    SSRVoiceActivityDetector *_vad;
-    NSDictionary *_psrLastSpeakerInfo;
-    NSDictionary *_satLastSpeakerInfo;
-    NSDictionary *_combinedScores;
-    NSDictionary *_psrFinalSpeakerInfo;
-    NSDictionary *_satFinalSpeakerInfo;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_debugUtteranceAudioFilePath;
-    NSString *_debugUtteranceJsonFilePath;
-    NSObject<OS_os_transaction> *_transaction;
-    NSString *_transDesc;
 }
 
 - (id);
@@ -54,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -76,7 +53,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ary/PrivateFrameworks/IDS.framework/Versions/A/IDS;
 - (id);
 - (void);
 - (void);
@@ -86,30 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *combinedScores; // @synthesize combinedScores=_combinedScores;
 @property(retain, nonatomic) SSRSpeakerRecognitionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *debugUtteranceAudioFilePath; // @synthesize debugUtteranceAudioFilePath=_debugUtteranceAudioFilePath;
-@property(retain, nonatomic) NSString *debugUtteranceJsonFilePath; // @synthesize debugUtteranceJsonFilePath=_debugUtteranceJsonFilePath;
-@property(nonatomic) __weak id <SSRSpeakerRecognitionOrchestratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long myriadResult; // @synthesize myriadResult=_myriadResult;
-@property(retain, nonatomic) NSDictionary *psrFinalSpeakerInfo; // @synthesize psrFinalSpeakerInfo=_psrFinalSpeakerInfo;
-@property(retain, nonatomic) NSDictionary *psrLastSpeakerInfo; // @synthesize psrLastSpeakerInfo=_psrLastSpeakerInfo;
-@property(retain, nonatomic) id <SSRSpeakerRecognizer> psrRecognizer; // @synthesize psrRecognizer=_psrRecognizer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSDictionary *satFinalSpeakerInfo; // @synthesize satFinalSpeakerInfo=_satFinalSpeakerInfo;
-@property(retain, nonatomic) NSDictionary *satLastSpeakerInfo; // @synthesize satLastSpeakerInfo=_satLastSpeakerInfo;
-@property(retain, nonatomic) id <SSRSpeakerRecognizer> satRecognizer; // @synthesize satRecognizer=_satRecognizer;
-@property(retain, nonatomic) id <CSAudioFileWriter> ssrUttLogger; // @synthesize ssrUttLogger=_ssrUttLogger;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *transDesc; // @synthesize transDesc=_transDesc;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
-@property(retain, nonatomic) SSRVoiceActivityDetector *vad; // @synthesize vad=_vad;
 
 @end
 

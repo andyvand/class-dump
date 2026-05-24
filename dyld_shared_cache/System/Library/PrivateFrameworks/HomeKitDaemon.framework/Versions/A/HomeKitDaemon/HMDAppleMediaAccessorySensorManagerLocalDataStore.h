@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)oring did start stream because our stream control manager %@ does not match the provided one:(id)arg1 %@;

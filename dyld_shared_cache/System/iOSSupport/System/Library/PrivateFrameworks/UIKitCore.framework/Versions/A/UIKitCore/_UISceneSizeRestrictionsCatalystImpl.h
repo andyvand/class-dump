@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSString, UIWindowScene;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneSizeRestrictionsCatalystImpl
 {
     _Bool _hasAutomaticMinimumSize;
-    _Bool _hasAutomaticMaximumSize;
-    struct CGSize _minimumSizeForScreen;
-    struct CGSize _initialBounds;
-    struct CGSize _contentSize;
-    struct CGPoint _windowOrigin;
-    UIWindowScene *_scene;
-    _Bool _allowsFullScreen;
-    _Bool _sizeRequestPending;
-    _Bool _originRequestPending;
-    _Bool _needsStyleMaskUpdates;
-    CAAnimation *_windowFrameAnimationForNextPendingRequest;
-    struct CGSize _minimumSize;
-    struct CGSize _maximumSize;
-    struct CGSize _preferredContentSize;
 }
 
 + (id);
@@ -31,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)bestCandidateGroupChatWithFromIdentifier:toIdentifier:displayName:participants:updatingToLatestiMessageGroupID:sortedIdentifiers:serviceName: /* Error: Ran out of types for this method. */;
+- (_Bool)_clientAppName;
+- (void)TS,R,N,V_serverPort;
+- (void)ol>",N,R;
 - (_Bool);
 - (struct CGPoint);
 - (id);
@@ -43,15 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (struct CGSize)ews;
+- (id)c;
+- (struct CGSize)shouldAvoidInputViews;
 - (struct CGSize),;
 - (void)ôÅÐÊÍÙàÙ;
 - (struct CGSize)[;
@@ -59,23 +43,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)6ÂÚtà];
 
 // Remaining properties
-@property(nonatomic, setter=_setContentSize:) struct CGSize _contentSize;
-@property(nonatomic, setter=_setNeedsStyleMaskUpdates:) _Bool _needsStyleMaskUpdates; // @synthesize _needsStyleMaskUpdates;
-@property(nonatomic, setter=_setOriginRequestPending:) _Bool _originRequestPending; // @synthesize _originRequestPending;
-@property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize; // @synthesize _preferredContentSize;
-@property(nonatomic, setter=_setSizeRequestPending:) _Bool _sizeRequestPending; // @synthesize _sizeRequestPending;
-@property(retain, nonatomic, setter=_setWindowFrameAnimationForNextPendingRequest:) CAAnimation *_windowFrameAnimationForNextPendingRequest; // @synthesize _windowFrameAnimationForNextPendingRequest;
-@property(nonatomic, setter=_setWindowOrigin:) struct CGPoint _windowOrigin;
-@property(nonatomic) _Bool allowsFullScreen; // @synthesize allowsFullScreen=_allowsFullScreen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
 @property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(readonly) Class superclass;
 
 @end
 

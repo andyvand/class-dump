@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 @interface _MCMimeEnrichedState
 {
     unsigned char _excerptLevel;
-    _Bool _bold;
-    _Bool _italic;
-    _Bool _fixed;
-    _Bool _underline;
-    short _fontDelta;
-    long long _alignment;
-    NSString *_fontFamily;
-    NSColor *_color;
 }
 
 - (void);
@@ -29,10 +19,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)2;
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)H;
 - (id);
 - (void);
 - (void);
@@ -40,15 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool bold; // @synthesize bold=_bold;
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) unsigned char excerptLevel; // @synthesize excerptLevel=_excerptLevel;
-@property(nonatomic) _Bool fixed; // @synthesize fixed=_fixed;
-@property(nonatomic) short fontDelta; // @synthesize fontDelta=_fontDelta;
-@property(copy, nonatomic) NSString *fontFamily; // @synthesize fontFamily=_fontFamily;
-@property(nonatomic) _Bool italic; // @synthesize italic=_italic;
-@property(nonatomic) _Bool underline; // @synthesize underline=_underline;
 
 @end
 

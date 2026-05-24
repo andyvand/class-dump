@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pommesSessionId;
-    int _confirmationOutcome;
-    CDStruct_72d5c25e _has;
-    _Bool _hasPommesSessionId;
 }
 
 - (void);
@@ -23,26 +20,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (int);
+- (void)T`;
+- (int)";
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ASDSubscriptionEntitlementsiCloudDidChangeNotification;
 - (_Bool);
-- (_Bool);
+- (_Bool)g clearing all tombstones;
 - (id);
-- (id);
-- (id)yModelVersion;
+- (id);
+- (id)_policyModelVersion;
 - (id)dInfoGenerated;
-- (void)UTOMATIONCONDITIONTYPE_EVENT_BASED_SUNSET;
+- (void)FLOWHOMEAUTOMATIONCONDITIONTYPE_EVENT_BASED_SUNSET;
 
 // Remaining properties
-@property(nonatomic) int confirmationOutcome; // @synthesize confirmationOutcome=_confirmationOutcome;
-@property(nonatomic) _Bool hasConfirmationOutcome;
-@property(nonatomic) _Bool hasPommesSessionId; // @synthesize hasPommesSessionId=_hasPommesSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pommesSessionId; // @synthesize pommesSessionId=_pommesSessionId;
 
 @end

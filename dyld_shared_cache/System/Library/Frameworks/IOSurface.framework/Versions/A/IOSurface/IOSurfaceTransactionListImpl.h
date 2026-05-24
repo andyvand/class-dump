@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOSurfaceTransactionListImpl
 {
     struct mutex _mtx;
-    unsigned long long _length;
-    unsigned long long _kernelFullListLength;
-    unsigned long long _selectedLength;
-    shared_ptr_5e55d9c6 _serializedData;
-    struct unordered_map<unsigned long, IOSurfaceTransaction *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, IOSurfaceTransaction *>>> _txnCache;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned int);
+- (id)fosl_filter_kernelpool_getKernelByIdx;
+- (unsigned int)in()
+{
+  gl_Position = position;
+  p0 = (vec3(texcoord.xy,1.0) * vertexTransform).xy;
+}
+;
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)tahmedialarabic;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long kernelFullListLength; // @synthesize kernelFullListLength=_kernelFullListLength;
 @property(readonly) unsigned long long length; // @synthesize length=_length;
-@property(readonly) unsigned long long selectedLength; // @synthesize selectedLength=_selectedLength;
-@property(readonly) Class superclass;
 
 @end
 

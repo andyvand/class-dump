@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PGTitle, PGTitleGenerationContext, PGTitleSpecCollection;
-@protocol PGSpecBasedTitleGeneratorDelegate;
+@class NSSet, PGTitleGenerationContext;
 
 @interface PGSpecBasedTitleGenerator
 {
     PGTitleGenerationContext *_titleGenerationContext;
-    NSSet *_momentNodes;
-    NSSet *_features;
-    PGTitleSpecCollection *_specCollection;
-    PGTitle *_title;
-    id <PGSpecBasedTitleGeneratorDelegate> _delegate;
-    unsigned long long _lineBreakBehavior;
 }
 
 - (id);
@@ -29,31 +22,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)iometryMatched;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)6@"GEOApplicationAuditToken"24@?<v@?B>32;
-- (id);
+- (id)inferredDaughterPersonNodes;
 - (void)earch/PGZeroKeywordComputer.m;
-- (id)tionEntities;
+- (id)rankGraphLocationEntities;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <PGSpecBasedTitleGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *features; // @synthesize features=_features;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long lineBreakBehavior; // @synthesize lineBreakBehavior=_lineBreakBehavior;
 @property(retain, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(retain, nonatomic) PGTitleSpecCollection *specCollection; // @synthesize specCollection=_specCollection;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PGTitle *title; // @synthesize title=_title;
 
 @end
 

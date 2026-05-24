@@ -6,20 +6,15 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerShuffleCommand : _MPCPlayerCommand
 {
     _Bool _supportsChangeShuffle;
-    _Bool _supportsAdvanceShuffle;
-    long long _currentShuffleType;
-    NSArray *_supportedShuffleTypes;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)upported for CloudKit Accounts;
+- (_Bool)loudKit app token, since %@ is a non-entitled client.;
+- (id)en, since you need to verify your iCloud T&Cs or your account is in suspended mode.;
 - (void);
 - (void);
 - (void);
@@ -31,16 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long currentShuffleType; // @synthesize currentShuffleType=_currentShuffleType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedShuffleTypes; // @synthesize supportedShuffleTypes=_supportedShuffleTypes;
-@property(nonatomic) _Bool supportsAdvanceShuffle; // @synthesize supportsAdvanceShuffle=_supportsAdvanceShuffle;
-@property(nonatomic) _Bool supportsChangeShuffle; // @synthesize supportsChangeShuffle=_supportsChangeShuffle;
 
 @end
 

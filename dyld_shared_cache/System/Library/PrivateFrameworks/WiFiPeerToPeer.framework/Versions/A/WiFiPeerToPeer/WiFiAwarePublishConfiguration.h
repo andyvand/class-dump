@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, WiFiAwareFastDiscoveryConfiguration, WiFiAwareInternetSharingConfiguration, WiFiAwareMulticastConfiguration, WiFiAwarePairingMetadata, WiFiAwarePublishDatapathConfiguration, WiFiAwarePublishServiceSpecificInfo, WiFiChannel, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwarePublishConfiguration
 {
     _Bool _furtherServiceDiscoveryRequired;
-    _Bool _jumboServiceDiscoveryMessages;
-    NSString *_serviceName;
-    WiFiAwarePublishServiceSpecificInfo *_serviceSpecificInfo;
-    WiFiMACAddress *_multicastAddress;
-    long long _authenticationType;
-    WiFiAwarePublishDatapathConfiguration *_datapathConfiguration;
-    WiFiAwareFastDiscoveryConfiguration *_fastDiscoveryConfiguration;
-    WiFiAwareInternetSharingConfiguration *_internetSharingConfiguration;
-    NSSet *_allowedDeviceIDs;
-    unsigned long long _timeoutAfterSeconds;
-    WiFiChannel *_channelInfo;
-    NSString *_countryCode;
-    WiFiAwareMulticastConfiguration *_multicastConfiguration;
-    WiFiAwarePairingMetadata *_pairingMetadata;
 }
 
 + (_Bool);
@@ -31,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -54,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)RE;
+- (void)R;
 - (id);
 - (_Bool);
 - (void);
@@ -63,7 +49,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)Z;
 - (_Bool);
 - (void);
 - (id);
@@ -72,21 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedDeviceIDs; // @synthesize allowedDeviceIDs=_allowedDeviceIDs;
-@property(nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(copy, nonatomic) WiFiChannel *channelInfo; // @synthesize channelInfo=_channelInfo;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) WiFiAwarePublishDatapathConfiguration *datapathConfiguration; // @synthesize datapathConfiguration=_datapathConfiguration;
-@property(copy, nonatomic) WiFiAwareFastDiscoveryConfiguration *fastDiscoveryConfiguration; // @synthesize fastDiscoveryConfiguration=_fastDiscoveryConfiguration;
-@property(nonatomic) _Bool furtherServiceDiscoveryRequired; // @synthesize furtherServiceDiscoveryRequired=_furtherServiceDiscoveryRequired;
-@property(copy, nonatomic) WiFiAwareInternetSharingConfiguration *internetSharingConfiguration; // @synthesize internetSharingConfiguration=_internetSharingConfiguration;
-@property(nonatomic) _Bool jumboServiceDiscoveryMessages; // @synthesize jumboServiceDiscoveryMessages=_jumboServiceDiscoveryMessages;
-@property(copy, nonatomic) WiFiMACAddress *multicastAddress; // @synthesize multicastAddress=_multicastAddress;
-@property(copy, nonatomic) WiFiAwareMulticastConfiguration *multicastConfiguration; // @synthesize multicastConfiguration=_multicastConfiguration;
-@property(copy, nonatomic) WiFiAwarePairingMetadata *pairingMetadata; // @synthesize pairingMetadata=_pairingMetadata;
 @property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(copy, nonatomic) WiFiAwarePublishServiceSpecificInfo *serviceSpecificInfo; // @synthesize serviceSpecificInfo=_serviceSpecificInfo;
-@property(nonatomic) unsigned long long timeoutAfterSeconds; // @synthesize timeoutAfterSeconds=_timeoutAfterSeconds;
 
 @end
 

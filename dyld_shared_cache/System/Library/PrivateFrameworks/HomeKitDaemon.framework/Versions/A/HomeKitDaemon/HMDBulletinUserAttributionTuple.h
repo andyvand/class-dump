@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinUserAttributionTuple
 {
     NSNumber *_targetCharacteristicInstanceID;
-    id _value;
-    NSDate *_lastKnownValueUpdateTime;
-    NSUUID *_userUUID;
 }
 
+- (id)GEOKeyBagProtectedDataDidBecomeAvailableObserver;
+- (void)rd succeeded;
+- (void)Containers;
 - (id);
-- (void);
-- (void);
+- (void)@32@40@48@56@?64@72@?80;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)AfterResidentChange;
+- (id)_migratingAfterResidentChange;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastKnownValueUpdateTime; // @synthesize lastKnownValueUpdateTime=_lastKnownValueUpdateTime;
 @property(copy, nonatomic) NSNumber *targetCharacteristicInstanceID; // @synthesize targetCharacteristicInstanceID=_targetCharacteristicInstanceID;
-@property(copy, nonatomic) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
-@property(copy, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

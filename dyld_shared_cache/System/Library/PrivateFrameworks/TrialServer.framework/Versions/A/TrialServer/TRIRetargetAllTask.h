@@ -6,20 +6,19 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class NSArray;
+@protocol TRITaskAttributing;
 
 @interface TRIRetargetAllTask : TRIBaseTask
 {
     id <TRITaskAttributing> _taskAttribution;
-    NSArray *_nextTasks;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id){public}@Error registering for system power;
 - (void);
 - (id);
 - (id);
@@ -32,20 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *nextTasks; // @synthesize nextTasks=_nextTasks;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
 
 @end
 

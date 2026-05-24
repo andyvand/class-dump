@@ -11,7 +11,6 @@
 @interface SKAPFSContainerDisk : SKDisk
 {
     _Bool _isFusion;
-    NSString *_designatedPSUUID;
 }
 
 - (id);
@@ -24,26 +23,24 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)$-;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *apfsUUID;
 @property(retain) NSString *designatedPSUUID; // @synthesize designatedPSUUID=_designatedPSUUID;
-@property _Bool isFusion; // @synthesize isFusion=_isFusion;
 
 @end
 

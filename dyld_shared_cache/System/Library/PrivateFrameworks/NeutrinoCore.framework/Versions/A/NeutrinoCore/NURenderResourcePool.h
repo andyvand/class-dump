@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NURenderResourcePool
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_resources;
-    unsigned long long _sid;
 }
 
-+ (id)id: /* Error: Ran out of types for this method. */;
++ (id)setInterpolatedFrameValid: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

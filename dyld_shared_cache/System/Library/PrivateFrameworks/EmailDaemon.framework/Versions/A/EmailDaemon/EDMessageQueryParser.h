@@ -5,16 +5,10 @@
 //
 
 @class EDMessageQueryTransformer, EFSQLObjectPropertyMapper;
-@protocol EFSQLValueExpressable;
 
 @interface EDMessageQueryParser
 {
     EFSQLObjectPropertyMapper *_sqlPropertyMapper;
-    EDMessageQueryTransformer *_transformer;
-    id <EFSQLValueExpressable> _additionalSQLClause;
-    id <EFSQLValueExpressable> _additionalSQLClauseForCountQuery;
-    id <EFSQLValueExpressable> _additionalSQLClauseForGlobalMessageCountQuery;
-    id <EFSQLValueExpressable> _additionalSQLClauseForJournaledMessages;
 }
 
 + (id)³Ð1Â0@ù
@@ -36,11 +30,6 @@
 - (void)%d;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFSQLValueExpressable> additionalSQLClause; // @synthesize additionalSQLClause=_additionalSQLClause;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> additionalSQLClauseForCountQuery; // @synthesize additionalSQLClauseForCountQuery=_additionalSQLClauseForCountQuery;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> additionalSQLClauseForGlobalMessageCountQuery; // @synthesize additionalSQLClauseForGlobalMessageCountQuery=_additionalSQLClauseForGlobalMessageCountQuery;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> additionalSQLClauseForJournaledMessages; // @synthesize additionalSQLClauseForJournaledMessages=_additionalSQLClauseForJournaledMessages;
-@property(readonly, nonatomic) EFSQLObjectPropertyMapper *sqlPropertyMapper; // @synthesize sqlPropertyMapper=_sqlPropertyMapper;
 @property(readonly, nonatomic) EDMessageQueryTransformer *transformer; // @synthesize transformer=_transformer;
 
 @end

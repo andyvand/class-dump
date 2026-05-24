@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSystemPressureStateInternal_Tundra
 {
     NSString *_level;
-    unsigned long long _factors;
 }
 
 @end

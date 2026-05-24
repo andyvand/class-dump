@@ -6,16 +6,13 @@
 
 #import <NetworkExtension/NEIKEv2RequestContext.h>
 
-@class NSError;
-
 @interface NEIKEv2DeleteChildContext : NEIKEv2RequestContext
 {
     unsigned int _childID;
-    NSError *_reasonError;
 }
 
-- (id);
-- (void)rties: /* Error: Ran out of types for this method. */;
+- (id)Sharing/SFAsyncSequence.swift;
+- (void)setProperties: /* Error: Ran out of types for this method. */;
 - (int)%lu, Satisfied %lu);
 
 @end

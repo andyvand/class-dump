@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFAssertionInternal, NFTimer;
+@class NFTimer;
 
 @interface NFAssertionInternalWrapper
 {
     NFTimer *_releaseTimer;
-    NFAssertionInternal *_assertion;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NFAssertionInternal *assertion; // @synthesize assertion=_assertion;
 @property(retain, nonatomic) NFTimer *releaseTimer; // @synthesize releaseTimer=_releaseTimer;
 
 @end

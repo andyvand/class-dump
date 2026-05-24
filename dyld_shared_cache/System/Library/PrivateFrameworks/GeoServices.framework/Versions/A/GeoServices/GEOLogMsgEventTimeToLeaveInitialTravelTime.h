@@ -9,17 +9,13 @@
 @interface GEOLogMsgEventTimeToLeaveInitialTravelTime
 {
     PBUnknownFields *_unknownFields;
-    int _travelTime;
-    struct {
-        unsigned int has_travelTime:1;
-    } _flags;
 }
 
-+ (_Bool)Search:(id)arg1;
++ (_Bool)setHasStructuredSearch:(id)arg1;
 - (id);
 - (void);
 - (_Bool);
-- (int);
+- (int)CNTCCAppAuthorizationRecord;
 - (void);
 - (id);
 - (void);
@@ -29,11 +25,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@"NSRecursiveLock";
 - (int);
 - (_Bool);
 - (void);
-- (id)cy:(struct _NSZone *)arg1;
+- (id)shiftCoordinate:(struct _NSZone *)arg1 accuracy:shiftedCoordinate:shiftedAccuracy: /* Error: Ran out of types for this method. */;
 - (id)eSelections;
 - (id)d loading attribution info from geod for identifier '%{public}@';
 - (id);
@@ -41,8 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTravelTime;
-@property(nonatomic) int travelTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

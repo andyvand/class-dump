@@ -4,59 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationData, AVCapturePhotoInternal_Tundra, AVCaptureResolvedPhotoSettings_Tundra, AVDepthData, AVPortraitEffectsMatte, NSDictionary, NSString;
+@class AVCapturePhotoInternal_Tundra;
 
 @interface AVCapturePhoto_Tundra
 {
     AVCapturePhotoInternal_Tundra *_internal;
-    _Bool _constantColorFallbackPhoto;
-    float _constantColorCenterWeightedMeanConfidenceLevel;
-    struct __CVBuffer *_constantColorConfidenceMap;
 }
 
 - (id);
-- (void);
+- (void)saveAccount:withHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)caler error:&error] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (struct __CVBuffer *);
 - (id);
-- (_Bool);
+- (_Bool)vEEE;
 - (struct CGImage *);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (struct __CVBuffer *);
 - (long long)reviewLayerInternal";
-- (float)martFramings;
-- (struct CGImage *):forDevice: /* Error: Ran out of types for this method. */;
+- (float)supportedSmartFramings;
+- (struct CGImage *)handleChangedActiveFormat:forDevice: /* Error: Ran out of types for this method. */;
 - (id)ALDevice >>>> %s:No such property, centerStageFramingMode on stream %d /* Error: Ran out of types for this method. */;
 - (long long)must be of the same class;
 
 // Remaining properties
-@property(readonly) AVCameraCalibrationData *cameraCalibrationData;
-@property(readonly) float constantColorCenterWeightedMeanConfidenceLevel; // @synthesize constantColorCenterWeightedMeanConfidenceLevel=_constantColorCenterWeightedMeanConfidenceLevel;
-@property(readonly) struct __CVBuffer *constantColorConfidenceMap; // @synthesize constantColorConfidenceMap=_constantColorConfidenceMap;
-@property(readonly, getter=isConstantColorFallbackPhoto) _Bool constantColorFallbackPhoto; // @synthesize constantColorFallbackPhoto=_constantColorFallbackPhoto;
-@property(readonly) AVDepthData *depthData;
-@property(readonly) NSDictionary *embeddedThumbnailPhotoFormat;
-@property(readonly) NSDictionary *metadata;
-@property(readonly) long long photoCount;
-@property(readonly) struct __CVBuffer *pixelBuffer;
-@property(readonly) AVPortraitEffectsMatte *portraitEffectsMatte;
-@property(readonly) struct __CVBuffer *previewPixelBuffer;
-@property(readonly, getter=isRawPhoto) _Bool rawPhoto;
-@property(readonly) AVCaptureResolvedPhotoSettings_Tundra *resolvedSettings;
-@property(readonly) NSString *sourceDeviceType;
 @property(readonly) CDStruct_1b6d18a9 timestamp;
 
 @end

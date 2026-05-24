@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBProcessState, RBSProcessIdentity;
+@class RBSProcessIdentity;
 
 @interface RBProcessStateChange
 {
     RBSProcessIdentity *_identity;
-    RBProcessState *_originalState;
-    RBProcessState *_updatedState;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)y.;
+- (id)T;
+- (id)hough ECIsNetworkActivityAllowed = NO.;
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) RBSProcessIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) RBProcessState *originalState; // @synthesize originalState=_originalState;
-@property(readonly, nonatomic) RBProcessState *updatedState; // @synthesize updatedState=_updatedState;
 
 @end
 

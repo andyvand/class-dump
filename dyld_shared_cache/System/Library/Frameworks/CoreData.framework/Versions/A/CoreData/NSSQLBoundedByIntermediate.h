@@ -6,14 +6,12 @@
 
 #import <CoreData/NSSQLIntermediate.h>
 
-@class NSAttributeDescription, NSExpression, NSSQLEntity;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLBoundedByIntermediate : NSSQLIntermediate
 {
     NSSQLEntity *_entity;
-    NSAttributeDescription *_target;
-    NSExpression *_bounds;
 }
 
 - (id);

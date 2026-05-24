@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PDAnimateEffectBehavior : PDAnimateBehavior
 {
     _Bool mHasTransition;
-    int mTransition;
-    NSMutableDictionary *mPropertyMap;
 }
 
 - (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)Ü;
 - (int)`;
-- (void);
+- (void)17XlCellFormatTable;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *propertyMap; // @synthesize propertyMap=mPropertyMap;

@@ -5,5 +5,6 @@
 //
 
 @protocol PLPhotoAnalysisPresentationServiceProtocol
+- (void)`;
 @end
 

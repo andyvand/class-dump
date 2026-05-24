@@ -10,24 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollingMomentumBasCalculator : _NSScrollingMomentumCalculator
 {
     double _decelerationFactorX;
-    double _decelerationFactorY;
-    double _decelerationLnFactorX;
-    double _decelerationLnFactorY;
-    double _durationUntilStop;
-    double _minXOffset;
-    double _maxXOffset;
-    double _minYOffset;
-    double _maxYOffset;
-    long long _lastRequestedDuration;
-    struct CGPoint _offsetAtLastRequestedDuration;
-    double _velocityAtLastRequestedDuration;
 }
 
 - (double);
-- (double);
+- (double);
 - (void);
-- (void);
-- (struct CGPoint);
+- (void)eStateKey in power source dictionary;
+- (struct CGPoint)mb2roP5ebtEFA;
 - (double);
 - (double);
 - (double);

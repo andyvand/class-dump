@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDQuickLinkActionDataParams, NSString, NSURL;
+@class GEOPDQuickLinkActionDataParams, NSURL;
 
 @interface GEOPlaceExternalActionLinkQuickLinkParams
 {
@@ -13,11 +13,10 @@
 
 - (id);
 - (id);
-- (id)avelDescription: /* Error: Ran out of types for this method. */;
+- (id)setTravelDescription: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamId;
 @property(readonly, nonatomic) NSURL *url;
 
 @end

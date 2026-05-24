@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GMSSchemaGMSModelRequestEnded, GMSSchemaGMSModelRequestFailed, GMSSchemaGMSModelRequestStarted, NSData;
+@class GMSSchemaGMSModelRequestStarted;
 
 @interface GMSSchemaGMSModelRequestContext : SISchemaInstrumentationMessage
 {
     GMSSchemaGMSModelRequestStarted *_started;
-    GMSSchemaGMSModelRequestEnded *_ended;
-    GMSSchemaGMSModelRequestFailed *_failed;
-    _Bool _hasStarted;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,10 +28,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)pickerOutlineViewDidFinishHandlingMouseDrag: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)atingInterval];
 - (id)chemaTextToSpeechEnd";
 - (id),&,N,V_startedOrChanged;
 - (id);
@@ -48,14 +42,7 @@
 - (void)ÿ¥A³an);
 
 // Remaining properties
-@property(retain, nonatomic) GMSSchemaGMSModelRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GMSSchemaGMSModelRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GMSSchemaGMSModelRequestStarted *started; // @synthesize started=_started;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, NSManagedObjectModel, NSString;
+@class NSString;
 
 @interface CNPersistentStoreDescription
 {
     NSString *_modelName;
-    unsigned long long _dataType;
-    float _version;
-    CNFuture *_modelFuture;
-    CNFuture *_XPCServerModelFuture;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 - (id);
 - (id);
 - (float);
-- (id);
+- (id)";
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSManagedObjectModel *XPCServerModel;
-@property(readonly) unsigned long long dataType; // @synthesize dataType=_dataType;
-@property(readonly) NSManagedObjectModel *model;
 @property(readonly, copy) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly) float version; // @synthesize version=_version;
 
 @end
 

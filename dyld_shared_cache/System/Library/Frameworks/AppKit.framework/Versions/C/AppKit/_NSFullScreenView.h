@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)setext-pinSecure;
 - (_Bool);
 
 @end

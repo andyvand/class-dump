@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CATransform3D);
 - (void);
 - (id);
-- (struct CATransform3D);
+- (struct CATransform3D)6t;
 - (struct SCNVector3);
 - (void);
 - (void),&,N;

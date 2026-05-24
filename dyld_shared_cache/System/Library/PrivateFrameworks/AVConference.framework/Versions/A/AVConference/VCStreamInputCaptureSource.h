@@ -6,22 +6,10 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class NSMutableDictionary, NSString;
-@protocol VCVideoSource;
-
 __attribute__((visibility("hidden")))
 @interface VCStreamInputCaptureSource : VCVideoCapture
 {
     int _captureSourceID;
-    long long _streamInputID;
-    struct opaqueCMFormatDescription *_formatDescription;
-    id _delegate;
-    struct _opaque_pthread_mutex_t _sinkMutex;
-    NSMutableDictionary *_videoSinkState;
-    unsigned int _frameRate;
-    id <VCVideoSource> _cannedVideoCapture;
-    int _cannedVideoWidth;
-    int _cannedVideoHeight;
 }
 
 + (_Bool);
@@ -45,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -53,34 +41,12 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (void);
+- (void)\\p{Nd}.*?){%@,}?';
 - (_Bool);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *)dropLeftRedundantDesignator;
 
 // Remaining properties
-@property(readonly, nonatomic) int bestCameraCaptureFrameRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
 @property(nonatomic) int captureSourceID; // @synthesize captureSourceID=_captureSourceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool followSystemCamera;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *formatDescription; // @synthesize formatDescription=_formatDescription;
-@property(readonly, nonatomic) unsigned int frameRate; // @synthesize frameRate=_frameRate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool is1080pCameraAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long streamInputID; // @synthesize streamInputID=_streamInputID;
-@property(readonly) Class superclass;
 
 @end
 

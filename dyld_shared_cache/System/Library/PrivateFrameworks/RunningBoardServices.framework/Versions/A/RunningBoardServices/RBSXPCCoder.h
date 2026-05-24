@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyedArchiver, NSKeyedUnarchiver, NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface RBSXPCCoder
 {
     NSObject<OS_xpc_object> *_message;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_xpc_object> *_codingContext;
-    NSKeyedArchiver *_archiver;
-    NSKeyedUnarchiver *_unarchiver;
-    int _finalized;
 }
 
 + (id);
@@ -38,30 +33,22 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)	k@;
 - (_Bool);
 - (double);
 - (void);
-- (id)rtions;
-- (void)nstraintsAttribute;
+- (id)legacyAssertions;
+- (void)RBSConstraintsAttribute;
 - (void)riteToFile failed with expected error %{public}@;
 - (void)ectedClass != nil;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_xpc_object> *XPCConnection; // @synthesize XPCConnection=_xpcConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSObject<OS_xpc_object> *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

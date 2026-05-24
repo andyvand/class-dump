@@ -7,17 +7,12 @@
 @class NSDictionary, NSString;
 
 @protocol PGQuestion
-- (NSDictionary *)rationContext:holidayName:isForHighlight: /* Error: Ran out of types for this method. */;
-- (void)sformers:(double)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)ilityKit.framework/Versions/A/AccessibilityKit;
+- (NSString *);
+- (NSDictionary *)initWithType:referenceDateInterval:momentNodes:titleGenerationContext:holidayName:isForHighlight: /* Error: Ran out of types for this method. */;
+- (void)_assetFingerprintWithFeatureExtractor:(double)arg1 forAsset:withTransformers:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *additionalInfo;
-@property(readonly, nonatomic) unsigned short displayType;
 @property(readonly, copy, nonatomic) NSString *entityIdentifier;
-@property(readonly, nonatomic) unsigned short entityType;
-@property(readonly, nonatomic) double localFactoryScore;
-@property(nonatomic) double score;
-@property(readonly, nonatomic) unsigned short state;
-@property(readonly, nonatomic) unsigned short type;
 @end
 

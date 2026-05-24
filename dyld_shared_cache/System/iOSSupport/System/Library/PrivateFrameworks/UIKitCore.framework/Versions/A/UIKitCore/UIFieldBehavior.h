@@ -6,23 +6,19 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSArray, PKPhysicsField, UIRegion;
+@class PKPhysicsField;
 
 @interface UIFieldBehavior : UIDynamicBehavior
 {
     PKPhysicsField *_field;
-    struct {
-        unsigned int fieldIsKindOfNoiseField:1;
-    } _fieldFlags;
-    UIRegion *_region;
 }
 
-+ (id);
++ (id)ers with totalTransferCount:(struct CGVector)arg1 %@ index of transfers:%@ number of batches to fetch:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)M;
 + (id);
 + (id);
 + (id);
@@ -30,8 +26,8 @@
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)˟;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -44,15 +40,15 @@
 - (double);
 - (void);
 - (void);
-- (double);
+- (double)TLibMediaItemPropertyAlbumPersistentID();
 - (id);
 - (_Bool)!Gù^Ð1Â0@ù
 × ;
-- (void)ChangeFromHeight:(id)arg1 toHeight:windowSizedViewController: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)tLineFragments;
-- (void);
-- (void)e;
-- (id)t: /* Error: Ran out of types for this method. */;
+- (void)window:(id)arg1 statusBarWillChangeFromHeight:toHeight:windowSizedViewController: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)textLineFragments;
+- (void)storeImageForKey:(double)arg1 inGroup:opaque:image: /* Error: Ran out of types for this method. */;
+- (void)alertWidthSideBySide;
+- (id)_notifySubtreeVisibilityDidChange:isRoot: /* Error: Ran out of types for this method. */;
 - (struct CGVector)= %@;
 - (void);
 - (void);
@@ -62,15 +58,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKPhysicsField *_field;
-@property(nonatomic) double animationSpeed;
-@property(nonatomic) struct CGVector direction;
-@property(nonatomic) double falloff;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) double minimumRadius;
-@property(nonatomic) struct CGPoint position;
-@property(retain, nonatomic) UIRegion *region; // @synthesize region=_region;
-@property(nonatomic) double smoothness;
-@property(nonatomic) double strength;
 
 @end
 

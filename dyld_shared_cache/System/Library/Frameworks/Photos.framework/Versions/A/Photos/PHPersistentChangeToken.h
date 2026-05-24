@@ -9,7 +9,6 @@
 @interface PHPersistentChangeToken
 {
     NSPersistentHistoryToken *_persistentHistoryToken;
-    int _version;
 }
 
 + (id);
@@ -19,19 +18,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (int);
-- (id);
+- (int)cLibraryID=%{public}@, isActiveLocker=%{BOOL}u;
+- (id)pple.iTunesCloud.ICLibraryAuthServiceClientTokenProvider._handleLibraryAuthServiceClientTokenDidChangeDistributedNotification;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)treamToken"b1"callTokens"b1"initiator"b1"crossDeviceIdentifier"b1"ISOCountryCode"b1"localSenderIdentityUUID"b1"localSenderIdentityAccountUUID"b1"localMemberHandleValue"b1"localSenderSubscriptionIdentifier"b1"participantGroupUUID"b1"remoteParticipantHandles"b1"otherInvitedHandles"b1"activeRemoteParticipantHandles"b1"handoffContext"b1"screenShareAttributes"b1"context"b1"prefersExclusiveAccessToCellularNetwork"b1"remoteUplinkMuted"b1"shouldSuppressInCallUI"b1"launchInBackground"b1"requiresAuthentication"b1"mutuallyExclusiveCall"b1"junkConfidence"b1"identificationCategory"b1"conversation"b1"mixesVoiceWithMedia"b1"prefersToPlayDuringWombat"b1"mediaPlaybackOnExternalDevice"b1"oneToOneModeEnabled"b1"sharingScreen"b1"bluetoothAudioFormat"b1"ignoresBluetoothDeviceUID"b1"serviceStatus"b1"transmissionMode"b1"accessoryButtonEventsEnabled"b1"sendingVideo"b1"hasBeenRedirected"b1"isKnownCaller"b1"filteredOutReason"b1"silencingUserInfo"b1"isReRing"b1"suppressRingtone"b1"callSubType"b1"supportsScreening"b1"supportsRecents"b1"screenSharingIntention"b1"screenSharingType"b1"isSharePlayCapable"b1"anyRemoteSupportsRequestToScreenShare"b1"nearbyMode"b1"commTrustScore"b1"specialUnknown"b1"conversationGroupUUID"b1"shouldSilentlyRegisterIMAVCall"b1};
 - (void)FailureHidden;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPersistentHistoryToken *persistentHistoryToken; // @synthesize persistentHistoryToken=_persistentHistoryToken;
-@property(readonly, nonatomic) int version; // @synthesize version=_version;
 
 @end
 

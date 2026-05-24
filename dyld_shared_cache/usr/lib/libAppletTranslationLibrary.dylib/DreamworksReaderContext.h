@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface DreamworksReaderContext
 {
     NSData *_filePurseInfo;
-    NSMutableArray *_filePurse;
-    NSMutableArray *_fileTrans;
-    NSNumber *_balance;
-    NSNumber *_filePurseMaxRecCount;
 }
 
 + (id);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)VR;
 - (id);
 - (id);
 - (void);
@@ -35,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *balance; // @synthesize balance=_balance;
-@property(retain, nonatomic) NSMutableArray *filePurse; // @synthesize filePurse=_filePurse;
 @property(retain, nonatomic) NSData *filePurseInfo; // @synthesize filePurseInfo=_filePurseInfo;
-@property(retain, nonatomic) NSNumber *filePurseMaxRecCount; // @synthesize filePurseMaxRecCount=_filePurseMaxRecCount;
-@property(retain, nonatomic) NSMutableArray *fileTrans; // @synthesize fileTrans=_fileTrans;
 
 @end
 

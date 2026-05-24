@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage, _SFPBPunchout;
+@class NSString;
 
 @interface _SFPBAppLink
 {
     int _imageAlign;
-    NSString *_title;
-    _SFPBPunchout *_appPunchout;
-    _SFPBImage *_image;
 }
 
 - (int);
@@ -24,27 +21,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)5;
+- (void)32@40@?48;
+- (id)initWithObjectType:(id)arg1 insertedIdentifiers:updatedIdentifiers:deletedIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)%lu;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)options:range: /* Error: Ran out of types for this method. */;
+- (void)matchesInString:options:range: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBPunchout *appPunchout; // @synthesize appPunchout=_appPunchout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) int imageAlign; // @synthesize imageAlign=_imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

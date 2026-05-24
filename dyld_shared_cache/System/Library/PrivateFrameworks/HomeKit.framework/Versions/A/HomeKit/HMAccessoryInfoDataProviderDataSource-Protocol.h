@@ -5,5 +5,7 @@
 //
 
 @protocol HMAccessoryInfoDataProviderDataSource
+- (void))V;
+- (_Bool)c;
 @end
 

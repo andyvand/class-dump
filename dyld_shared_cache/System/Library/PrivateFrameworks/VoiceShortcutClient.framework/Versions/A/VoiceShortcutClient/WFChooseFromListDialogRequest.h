@@ -6,25 +6,16 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSArray, NSString, NSXPCConnection, NSXPCListenerEndpoint, WFDialogButton, WFListDisplayConfiguration;
-@protocol WFDialogListItemStore;
+@class NSXPCConnection;
 
 @interface WFChooseFromListDialogRequest : WFDialogRequest
 {
     _Bool _allowsMultipleSelection;
-    NSArray *_items;
-    NSString *_message;
-    WFListDisplayConfiguration *_displayConfiguration;
-    WFDialogButton *_doneButton;
-    WFDialogButton *_cancelButton;
-    NSXPCListenerEndpoint *_dataStoreEndpoint;
-    NSString *_parameterKey;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void);
+- (id){;
 - (id);
 - (id);
 - (id);
@@ -35,26 +26,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)"NSString"32@"NSString"40@?<v@?@"NSString"@"NSError">48;
+- (id)_extractPhoneNumberFrom: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)a
+;
 - (void);
 - (id);
 - (void)ñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, nonatomic) id <WFDialogListItemStore> dataStore;
-@property(retain, nonatomic) NSXPCListenerEndpoint *dataStoreEndpoint; // @synthesize dataStoreEndpoint=_dataStoreEndpoint;
-@property(retain, nonatomic) WFListDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(readonly, copy, nonatomic) WFDialogButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly, copy, nonatomic) NSString *emptyStateMessage;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

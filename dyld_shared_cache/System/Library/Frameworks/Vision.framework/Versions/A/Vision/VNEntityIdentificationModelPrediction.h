@@ -5,31 +5,27 @@
 //
 
 @class VNObservation;
-@protocol NSObject><NSCopying><NSSecureCoding, VNEntityIdentificationModelObservation;
+@protocol VNEntityIdentificationModelObservation;
 
 @interface VNEntityIdentificationModelPrediction
 {
     VNObservation<VNEntityIdentificationModelObservation> *_observation;
-    id <NSObject><NSCopying><NSSecureCoding> _entityUniqueIdentifier;
-    float _confidence;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Instance:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (float);
+- (float)_activeBlockCount;
 - (void)is greater than allowed maximum ;
 
 // Remaining properties
-@property(readonly) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> entityUniqueIdentifier; // @synthesize entityUniqueIdentifier=_entityUniqueIdentifier;
 @property(readonly) VNObservation<VNEntityIdentificationModelObservation> *observation; // @synthesize observation=_observation;
 
 @end

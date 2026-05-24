@@ -6,27 +6,17 @@
 
 #import <Safari/SearchableWKView.h>
 
-@class BrowserViewController, NSArray, NSMutableSet, NSString;
-@protocol BrowserViewIconLoadingDelegate, NSTouchBarProvider;
+@class NSMutableSet;
+@protocol BrowserViewIconLoadingDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BrowserWKView : SearchableWKView
 {
     NSMutableSet *_WKViewMouseTrackingBlockerSet;
-    _Bool _shouldBlockAllMouseEvents;
-    _Bool _shouldBlockAllKeyEvents;
-    _Bool _shouldBlockFirstResponder;
-    _Bool _isVisible;
-    _Bool _forPagePreviews;
-    _Bool _didUserInteractWithPage;
-    _Bool _overrideMaintainsInactiveSelectionForVoiceOver;
-    id <BrowserViewIconLoadingDelegate> _iconDelegate;
-    NSArray *_previewWKViews;
-    id <NSTouchBarProvider> _alternateFunctionBarProvider;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -38,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
+- (void)ʸ;
 - (id);
 - (id);
 - (id);
@@ -52,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -62,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,14 +68,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)P;
+- (void)rrno}d;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)exOfContainerForTabViewItem:(id)arg1;
+- (void)_indexOfContainerForTabViewItem:(id)arg1;
 - (id)7214847Z230207214847Z010	UUS10U
 
 Apple Inc.1,0*U#Apple Worldwide Developer Relations1D0BU;Apple Worldwide Developer Relations Certification Authority0"0	*H÷;
@@ -99,24 +89,7 @@ Apple Inc.1,0*U#Apple Worldwide Developer Relations1D0BU;Apple Worldwi
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSTouchBarProvider> alternateFunctionBarProvider; // @synthesize alternateFunctionBarProvider=_alternateFunctionBarProvider;
-@property(readonly, nonatomic) BrowserViewController *browserViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didUserInteractWithPage; // @synthesize didUserInteractWithPage=_didUserInteractWithPage;
-@property(nonatomic, getter=isForPagePreviews) _Bool forPagePreviews; // @synthesize forPagePreviews=_forPagePreviews;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <BrowserViewIconLoadingDelegate> iconDelegate; // @synthesize iconDelegate=_iconDelegate;
-@property(readonly, nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(nonatomic) _Bool overrideMaintainsInactiveSelectionForVoiceOver; // @synthesize overrideMaintainsInactiveSelectionForVoiceOver=_overrideMaintainsInactiveSelectionForVoiceOver;
-@property(readonly, copy, nonatomic) NSArray *previewWKViews; // @synthesize previewWKViews=_previewWKViews;
-@property(nonatomic) _Bool shouldBlockAllKeyEvents; // @synthesize shouldBlockAllKeyEvents=_shouldBlockAllKeyEvents;
-@property(nonatomic) _Bool shouldBlockAllMouseEvents;
-@property(nonatomic) _Bool shouldBlockFirstResponder; // @synthesize shouldBlockFirstResponder=_shouldBlockFirstResponder;
-@property(readonly) Class superclass;
 
 @end
 

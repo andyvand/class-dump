@@ -7,9 +7,10 @@
 @class NSData;
 
 @protocol _SFPBViewEmailCommand
+- (NSData *)Comments,S_setCanShowCloudComments:,V_canShowCloudComments /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool placeHolderProperty;
 @end
 

@@ -6,14 +6,10 @@
 
 #import <OfficeImport/STStorage.h>
 
-@class NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface STRootStorage : STStorage
 {
     struct _RootStorage *m_pCRoot;
-    NSMutableData *m_StorageData;
-    void *m_pvBuf;
 }
 
 - (void);
@@ -25,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (id);
 - (id);
-- (id);
+- (id)qc;
 - (short);
-- (int);
+- (int)!;
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UIKBVisualEffectView, UIView, _UIKeyboardPopover, _UIKeyboardPopoverAffordance, _UIPopoverView;
+@class UIView, _UIKeyboardPopover;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardPopoverContainer
 {
     _UIKeyboardPopover *_popoverContainerView;
-    UIKBVisualEffectView *_backdrop;
-    _UIPopoverView *_popover;
-    _UIKeyboardPopoverAffordance *_affordance;
-    struct CGRect _targetFull;
-    double _arrowOffset;
-    unsigned long long _direction;
-    NSLayoutConstraint *_keyboardAreaHeight;
 }
 
 + (id);
@@ -27,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (double);
 + (double);
 + (double);
-+ (double);
++ (double)buildWithIdentifier:withBundleIdentifiers: /* Error: Ran out of types for this method. */;
 + (struct CGRect);
 + (struct UIEdgeInsets)a°!@Dù1`ð1Â0@ù
 × ;
@@ -40,20 +33,18 @@ __attribute__((visibility("hidden")))
 + (struct CGSize)¥QÍ`lo;
 + (double);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)st handles;
+- (id)artDescriptor"8Q16^B24;
+- (id);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (struct CGRect)ssingKeyboardOrientationLandscapeLeft;
+- (struct CGRect)getIAPayloadValueMissingKeyboardOrientationLandscapeLeft;
 - (void)</rþ;
 
 // Remaining properties
 @property(readonly) UIView *affordance;
-@property(readonly) UIView *backdropParent;
-@property(readonly) struct CGRect frame;
 
 @end
 

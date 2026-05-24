@@ -9,7 +9,6 @@
 @interface NSMetadataItem
 {
     id _item;
-    void *_reserved;
 }
 
 

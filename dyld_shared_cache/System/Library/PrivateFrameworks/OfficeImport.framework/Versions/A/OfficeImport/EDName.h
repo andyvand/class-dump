@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDFormula, EDString, NSString, OITSUPointerKeyDictionary;
+@class EDString, NSString;
 
 __attribute__((visibility("hidden")))
 @interface EDName
 {
     NSString *_formulaString;
-    OITSUPointerKeyDictionary *_maxWorksheetReferences;
-    EDString *_nameString;
-    EDFormula *_formula;
-    unsigned long long _sheetIndex;
 }
 
 + (id);
@@ -30,19 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ker.logMessageData;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (void)(Ð5;
 
 // Remaining properties
-@property(readonly, nonatomic) EDFormula *formula; // @synthesize formula=_formula;
-@property(readonly, nonatomic) NSString *internalFunctionName;
-@property(readonly, nonatomic) _Bool isInternalFunction;
-@property(readonly, nonatomic) OITSUPointerKeyDictionary *maxWorksheetReferences;
 @property(retain, nonatomic) EDString *nameString; // @synthesize nameString=_nameString;
-@property(nonatomic) unsigned long long sheetIndex; // @synthesize sheetIndex=_sheetIndex;
 
 @end
 

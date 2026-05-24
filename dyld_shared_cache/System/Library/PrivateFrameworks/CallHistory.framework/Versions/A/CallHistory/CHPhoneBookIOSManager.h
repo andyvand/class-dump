@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CNContactStore *_contactStore;
 }
 
-- (id);
+- (id)ClientRequestBundleIdFilters;
 - (id);
 - (id);
 - (id);
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_SwiftDataNoType;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

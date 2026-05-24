@@ -5,5 +5,6 @@
 //
 
 @protocol TKTokenDriverHostProtocol
+- (void);
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoRelay
 {
     NSMutableArray *_videoCaptureSinks;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 + (id)ty:replaceOnly:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

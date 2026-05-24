@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSLayoutConstraintConveniences)
-+ (id);
++ (id)te_id;
 + (id);
 + (id);
 + (id);
@@ -16,11 +16,11 @@
 + (id);
 + (double);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)Uploading Apple Internal exception usage for domain:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)@;
 - (int)@ because the object archive is missing. Valid nib files must contain either keyedobjects.nib, objects.nib, or data.nib. Full path:%@ /* Error: Ran out of types for this method. */;
 - (id)WH;
 @end

@@ -9,9 +9,6 @@
 @interface TRIPBDoubleArray
 {
     TRIPBMessage *_autocreator;
-    double *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
@@ -20,14 +17,14 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ObjectContext;
+- (id)(;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)e",R,N,V_dataCache;
 - (void);
 - (void);
 - (void);
@@ -36,10 +33,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)
+;
 - (void)tionaryBehavior"b1"allowAnyNetworking"b1"allowBattery"b1};
 - (double)vCarrierCountryIsoCode;
-- (void)alizationPortraitNamedEntities;
+- (void)PersonalizationPortraitNamedEntities;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

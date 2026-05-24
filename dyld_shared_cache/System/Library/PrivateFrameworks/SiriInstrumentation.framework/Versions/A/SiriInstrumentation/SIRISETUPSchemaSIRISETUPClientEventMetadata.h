@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SIRISETUPSchemaSIRISETUPClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_siriSetupId;
-    _Bool _hasSiriSetupId;
 }
 
 - (id);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)DiagnosticService] Adding subscriber failed:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)tingContactCommand.m;
+- (_Bool)ing"8@"NSString"16^B24;
 - (id);
 - (id);
-- (id)PreferredLanguages;
+- (id)clearPreferredLanguages;
 - (id)V_siriEngagementTaskSuccess;
-- (void)IONRESOLUTIONTYPE_SELECTED_OTHER;
+- (void)INFERENCEDISAMBIGUATIONRESOLUTIONTYPE_SELECTED_OTHER;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriSetupId; // @synthesize hasSiriSetupId=_hasSiriSetupId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *siriSetupId; // @synthesize siriSetupId=_siriSetupId;
 
 @end

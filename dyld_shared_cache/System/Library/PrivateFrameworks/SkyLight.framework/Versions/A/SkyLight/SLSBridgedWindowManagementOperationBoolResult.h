@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)uring migration functions in the SQLite database.;
 - (id);
 - (_Bool);
 - (void);

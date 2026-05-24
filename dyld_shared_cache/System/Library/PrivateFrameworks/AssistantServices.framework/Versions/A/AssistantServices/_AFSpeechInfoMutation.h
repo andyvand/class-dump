@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechInfo, NSString, SASSpeechRecognized;
+@class AFSpeechInfo;
 
 @interface _AFSpeechInfoMutation
 {
     AFSpeechInfo *_base;
-    SASSpeechRecognized *_speechRecognizedCommand;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSpeechRecognizedCommand:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id)deTransparency;
-- (void)eCode;
+- (id)supportsListeningModeTransparency;
+- (void)_primaryLanguageCode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

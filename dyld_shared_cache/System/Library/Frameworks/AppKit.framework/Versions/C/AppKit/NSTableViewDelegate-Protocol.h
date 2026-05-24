@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (void)X;
+- (void);
+- (_Bool)I;
+- (NSArray *)%I;
+- (void)#;
+- (void)_TLSNegotiatedCipherSuite;
 @end
 

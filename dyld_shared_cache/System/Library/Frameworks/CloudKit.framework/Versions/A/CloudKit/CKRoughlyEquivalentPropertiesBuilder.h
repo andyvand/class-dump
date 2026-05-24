@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRoughlyEquivalentProperties, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CKRoughlyEquivalentPropertiesBuilder
 {
@@ -12,17 +12,16 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *properties;
 
 @end
 

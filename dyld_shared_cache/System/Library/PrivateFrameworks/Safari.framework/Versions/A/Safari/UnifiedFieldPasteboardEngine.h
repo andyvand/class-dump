@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol UnifiedFieldPasteboardDriver;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldPasteboardEngine
 {
     _Bool _copyingSearchTerms;
-    id <UnifiedFieldPasteboardDriver> _pasteboardDriver;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UnifiedFieldPasteboardDriver> pasteboardDriver; // @synthesize pasteboardDriver=_pasteboardDriver;
-@property(readonly, nonatomic) NSArray *writablePasteboardTypes;
 
 @end
 

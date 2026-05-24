@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, _IDSConnection;
+@class _IDSConnection;
 
 @interface IDSConnection
 {
@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)C$;
 - (id);
 - (void)1,°1Â0@ù
 × ;
@@ -30,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _IDSConnection *_internal;
-@property(readonly, nonatomic) IDSAccount *account;
-@property(readonly, nonatomic) _Bool isActive;
 
 @end
 

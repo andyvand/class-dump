@@ -6,12 +6,11 @@
 
 #import <CoreData/NSAttributeDescription.h>
 
-@class NSExpression, NSPredicate;
+@class NSExpression;
 
 @interface NSDerivedAttributeDescription : NSAttributeDescription
 {
     NSExpression *_derivationExpression;
-    NSPredicate *_filteringPredicate;
 }
 
 + (_Bool);
@@ -32,7 +31,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)k';
 - (void)Ç2ð1Â0@ù
 × ;
 - (void)caught during trigger recreation %@;

@@ -14,9 +14,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)yFormattedAddress;
+- (void);
+- (id)B;
+- (id)_DKLocationApplicationActivityMetadataKey__fullyFormattedAddress;
 
 @end
 

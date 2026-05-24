@@ -9,18 +9,15 @@
 @interface AVMetadataHumanHandObject : AVMetadataObject
 {
     _Bool _hasConfidence;
-    double _confidence;
-    _Bool _hasChirality;
-    unsigned long long _chirality;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (unsigned long long);
+- (id)_createGroupSession;
+- (id)_songDuration;
+- (id)sBackgroundColorLight;
+- (_Bool)ole;
+- (long long)T@"NSMutableArray",R,N,V_wrapperStack;
+- (unsigned long long)lready open.;
 - (_Bool);
 - (void);
 - (id);
@@ -28,11 +25,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly) unsigned long long chirality; // @synthesize chirality=_chirality;
-@property(readonly) double confidence; // @synthesize confidence=_confidence;
 @property(readonly) long long handID;
-@property(readonly) _Bool hasChirality; // @synthesize hasChirality=_hasChirality;
-@property(readonly) _Bool hasConfidence; // @synthesize hasConfidence=_hasConfidence;
 
 @end
 

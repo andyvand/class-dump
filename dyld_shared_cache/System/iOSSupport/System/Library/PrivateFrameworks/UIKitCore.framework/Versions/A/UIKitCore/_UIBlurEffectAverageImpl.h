@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (unsigned long long);
-- (_Bool)t:(id)arg1;
-- (void)withObject:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (_Bool)setResizingOffset:(id)arg1;
+- (void)performSelectorForObject:(id)arg1 selector:withObject:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void)"<NSObject>",&,N,V_identifier;
 - (void);
 - (id);

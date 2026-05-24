@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarDebugView
 {
     NSView *_pinningDragRegionBoundsView;
-    NSView *_unpinnedTabScrollingBoundsView;
-    NSView *_unpinnedActiveTabScrollingBoundsView;
-    NSView *_unpinnedInactiveTabScrollingBoundsView;
-    NSView *_draggedTabButtonFrameView;
-    UnifiedTabBarLayout *_currentLayout;
 }
 
 - (id);

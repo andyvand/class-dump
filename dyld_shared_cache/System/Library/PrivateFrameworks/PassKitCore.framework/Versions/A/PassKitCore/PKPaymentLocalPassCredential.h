@@ -6,20 +6,15 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKPaymentPass;
+@class NSString;
 
 @interface PKPaymentLocalPassCredential : PKPaymentCredential
 {
     NSString *_serialNumber;
-    NSString *_passTypeIdentifier;
-    PKPaymentPass *_paymentPass;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, copy, nonatomic) PKPaymentPass *paymentPass; // @synthesize paymentPass=_paymentPass;
 @property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, copy, nonatomic) NSString *summaryMetadataDescription;
 @end
 

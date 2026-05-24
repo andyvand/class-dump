@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-@protocol GEOTransitArtworkDataSource;
+@class NSString;
 
 @protocol GEOTransitVehiclePosition
+- (NSString *)k/Versions/C/Foundation;
 - (NSString *)ssRequestParameters",&,N,V_requestParameters;
-- (double)teMethod: /* Error: Ran out of types for this method. */;
+- (double)StringAsUpdateMethod: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artworkDataSource;
-@property(readonly, copy, nonatomic) NSString *colorHexString;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, copy, nonatomic) NSString *direction;
-@property(readonly, nonatomic) double heading;
-@property(readonly, copy, nonatomic) NSString *headsign;
-@property(readonly, nonatomic) NSDate *timestamp;
 @property(readonly, nonatomic) unsigned long long tripID;
 @end
 

@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShareParticipant, HMBShareInvitation, HMBShareUserID, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMBShareParticipant
 {
     NSUUID *_clientIdentifier;
-    CKShareParticipant *_ckShareParticipant;
-    HMBShareInvitation *_pendingInvitation;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
 
 // Remaining properties
-@property(readonly, copy) CKShareParticipant *ckShareParticipant; // @synthesize ckShareParticipant=_ckShareParticipant;
-@property(readonly, copy) NSUUID *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) HMBShareUserID *cloudShareID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasAccepted;
-@property(readonly) _Bool hasWriteAccess;
 @property(readonly) unsigned long long hash;
-@property(copy) HMBShareInvitation *pendingInvitation; // @synthesize pendingInvitation=_pendingInvitation;
-@property(readonly) Class superclass;
 
 @end
 

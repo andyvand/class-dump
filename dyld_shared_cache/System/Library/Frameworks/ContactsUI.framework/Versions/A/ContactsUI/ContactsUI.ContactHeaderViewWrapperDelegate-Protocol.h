@@ -5,5 +5,6 @@
 //
 
 @protocol ContactsUI.ContactHeaderViewWrapperDelegate
+- (void);
 @end
 

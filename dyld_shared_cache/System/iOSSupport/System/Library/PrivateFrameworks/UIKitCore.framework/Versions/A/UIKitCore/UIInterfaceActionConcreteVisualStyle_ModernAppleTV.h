@@ -13,22 +13,22 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (_Bool);
-- (id);
-- (id);
-- (struct CGSize);
+- (id)chats %@ on services %@;
+- (id)retries:(id)arg1 %lu) Error was %@;
+- (struct CGSize)s File transfer %@ exists at local path %@, no need to move further;
 - (double);
-- (void);
+- (void)I;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
-- (double);
+- (double)u;
 - (id);
 - (double);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)ry.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_clnt.c;
 
 @end
 

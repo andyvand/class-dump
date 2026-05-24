@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (id);
+- (id)PKPaletteColorPickerControllerDelegate>",W,N;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) DOCConfiguration *configuration; // @synthesize configuration=_configuration;

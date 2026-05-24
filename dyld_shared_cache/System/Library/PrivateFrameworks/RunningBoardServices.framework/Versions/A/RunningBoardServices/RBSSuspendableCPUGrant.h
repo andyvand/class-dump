@@ -11,7 +11,7 @@
     unsigned char _role;
 }
 
-+ (id);
++ (id)*A;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char role; // @synthesize role=_role;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (struct OpaqueEventRef *);
-- (void);
+- (void)+;
 
 @end
 

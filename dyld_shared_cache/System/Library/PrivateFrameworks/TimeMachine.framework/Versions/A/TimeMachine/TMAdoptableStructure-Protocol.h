@@ -5,5 +5,8 @@
 //
 
 @protocol TMAdoptableStructure
+
+@optional
+- (void);
 @end
 

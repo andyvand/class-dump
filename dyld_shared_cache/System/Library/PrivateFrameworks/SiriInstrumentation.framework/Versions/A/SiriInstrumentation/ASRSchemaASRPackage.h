@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRRecognitionResult, NSData;
+@class ASRSchemaASRRecognitionResult;
 
 @interface ASRSchemaASRPackage : SISchemaInstrumentationMessage
 {
     ASRSchemaASRRecognitionResult *_rawRecognition;
-    ASRSchemaASRRecognitionResult *_postItn;
-    _Bool _hasRawRecognition;
-    _Bool _hasPostItn;
 }
 
 - (void);
@@ -23,26 +20,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)OG;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ebreakers;
+- (id)tiebreakers;
 - (id)üÃDÄhÅ°ÅTÆÆ@ÇÇüÈDÉPËËtÌLÍ¼ÎLÏÒÌÒ¬ÓÔ¨ÕðÕÐÖ×ø×@ØdÙôÙ;
 - (id);
 - (void)¿;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPostItn; // @synthesize hasPostItn=_hasPostItn;
-@property(nonatomic) _Bool hasRawRecognition; // @synthesize hasRawRecognition=_hasRawRecognition;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ASRSchemaASRRecognitionResult *postItn; // @synthesize postItn=_postItn;
 @property(retain, nonatomic) ASRSchemaASRRecognitionResult *rawRecognition; // @synthesize rawRecognition=_rawRecognition;
 
 @end

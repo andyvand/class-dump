@@ -5,5 +5,8 @@
 //
 
 @protocol _UIPlatterMenuDynamicsControllerDelegate
+
+@optional
+- (void);
 @end
 

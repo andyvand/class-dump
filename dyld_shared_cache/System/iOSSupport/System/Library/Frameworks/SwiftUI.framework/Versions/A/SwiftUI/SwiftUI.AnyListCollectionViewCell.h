@@ -7,12 +7,10 @@
 @interface SwiftUI.AnyListCollectionViewCell
 {
     id selectionDelegate;
-    id insetsDelegate;
-    id editMenuDelegate;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

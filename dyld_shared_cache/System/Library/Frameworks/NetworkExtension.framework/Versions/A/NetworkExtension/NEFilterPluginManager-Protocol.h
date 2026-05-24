@@ -5,5 +5,7 @@
 //
 
 @protocol NEFilterPluginManager
+- (void);
+- (void)˟;
 @end
 

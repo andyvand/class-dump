@@ -6,39 +6,26 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL, PKFeatureApplicationInvitationDetails, PKPaymentInstallmentConfiguration;
+@class NSURL;
 
 @interface PKApplyWebServiceCreateRequest : PKApplyWebServiceRequest
 {
     NSURL *_applyServiceURL;
-    unsigned long long _featureIdentifier;
-    PKPaymentInstallmentConfiguration *_installmentConfiguration;
-    long long _applicationType;
-    long long _updateUserInfoSubType;
-    unsigned long long _verificationType;
-    long long _channel;
-    NSString *_accountIdentifier;
-    NSString *_referenceIdentifier;
-    NSString *_fundingSourceIdentifier;
-    PKFeatureApplicationInvitationDetails *_invitationDetails;
-    NSString *_preliminaryAssessmentIdentifier;
-    NSString *_odiAssessment;
-    long long _associatedIntent;
 }
 
 + (_Bool)X"ð!(Cùî%ð1Â0@ù
 × ;
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)[;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,20 +49,7 @@
 - (void)iðU;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long applicationType; // @synthesize applicationType=_applicationType;
 @property(retain, nonatomic) NSURL *applyServiceURL; // @synthesize applyServiceURL=_applyServiceURL;
-@property(nonatomic) long long associatedIntent; // @synthesize associatedIntent=_associatedIntent;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSString *fundingSourceIdentifier; // @synthesize fundingSourceIdentifier=_fundingSourceIdentifier;
-@property(retain, nonatomic) PKPaymentInstallmentConfiguration *installmentConfiguration; // @synthesize installmentConfiguration=_installmentConfiguration;
-@property(retain, nonatomic) PKFeatureApplicationInvitationDetails *invitationDetails; // @synthesize invitationDetails=_invitationDetails;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(copy, nonatomic) NSString *preliminaryAssessmentIdentifier; // @synthesize preliminaryAssessmentIdentifier=_preliminaryAssessmentIdentifier;
-@property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(nonatomic) long long updateUserInfoSubType; // @synthesize updateUserInfoSubType=_updateUserInfoSubType;
-@property(nonatomic) unsigned long long verificationType; // @synthesize verificationType=_verificationType;
 
 @end
 

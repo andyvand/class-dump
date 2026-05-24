@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyAccount, ICLegacyFolder;
+@class NSString;
 
 @interface UnknownClass (ICLegacyNote)
 + (id);
@@ -13,32 +12,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)-Ù;
-- (id);
+- (_Bool)__hash_value_type<NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, std::__unordered_map_hasher<NTPBKeyValuePair_ValueType, std::pair<const NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, std::hash<int>, std::equal_to<NTPBKeyValuePair_ValueType>>, std::__unordered_map_equal<NTPBKeyValuePair_ValueType, std::pair<const NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, std::equal_to<NTPBKeyValuePair_ValueType>, std::hash<int>>, std::allocator<std::pair<const NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<NTPBKeyValuePair_ValueType, Class<FCKeyValueStoreCoding>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)!;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICLegacyAccount> account;
-@property(readonly, nonatomic) NSSet *attachments;
-@property(readonly, nonatomic) NSString *contentAsPlainText;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ICLegacyFolder> folder;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *htmlString;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, nonatomic) _Bool isMarkedForDeletion;
-@property(readonly, nonatomic) _Bool isPlainText;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
 @end
 

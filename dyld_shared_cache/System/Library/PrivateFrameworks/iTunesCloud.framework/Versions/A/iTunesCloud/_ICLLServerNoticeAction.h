@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSString *_notice;
 }
 
-- (id);
-- (void);
-- (unsigned long long);
+- (id)B;
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface VNPersonsModelFaceModelDataSummarization
 {
     unsigned long long _personsCount;
-    NSIndexSet *_faceObservationCountsDistribution;
-    NSCountedSet *_personFaceObservationsCountHistogram;
 }
 
 + (id);
@@ -20,10 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)oBBox_Width;
+- (void)VNDetectorInternalProcessOption_TorsoBBox_Width;
 
 // Remaining properties
-@property(readonly, copy) NSIndexSet *faceObservationCountsDistribution; // @synthesize faceObservationCountsDistribution=_faceObservationCountsDistribution;
 @property(readonly) unsigned long long personsCount; // @synthesize personsCount=_personsCount;
 
 @end

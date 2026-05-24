@@ -6,38 +6,28 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class UITapGestureRecognizer, _UIContainerWindowPortalInteraction, _UICursorAccessoryView, _UITouchFallbackView;
-@protocol _UIAssertion;
+@class _UIContainerWindowPortalInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UICursorAccessoryHostView : _UITouchPassthroughView
 {
     unsigned long long _resolvedPlacement;
-    UITapGestureRecognizer *_dismissGestureRecognizer;
-    _UITouchFallbackView *_touchFallbackView;
-    id <_UIAssertion> _uiAssertion;
-    _Bool _collapsed;
-    _Bool _touchFallbackEnabled;
-    unsigned long long _preferredPlacementEdge;
-    _UICursorAccessoryView *_cursorAccessoryView;
-    _UIContainerWindowPortalInteraction *_portalInteraction;
-    struct CGRect _selectionRect;
 }
 
 - (_Bool);
 - (void);
+- (void)rray"36q44@?<v@?@"NSArray">52;
+- (void)sageItem"36;
+- (void)setSyncTaskByServiceName:(id)arg1;
+- (unsigned long long)initWithRegistrationProperties:pushToken: /* Error: Ran out of types for this method. */;
+- (id)initWithIMDAccount:service:messageStore:storageController:broadcaster:recentsController:chatRegistry:attachmentStore: /* Error: Ran out of types for this method. */;
+- (id)_mutablePersistentProperties;
+- (id)!;
+- (void)to guess URI for sender handle ;
 - (void);
+- (void)H;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_draggingItem;
 - (struct CGRect)&À&;
 - (void)ding delegate -barPositionForBar:! %@ /* Error: Ran out of types for this method. */;
 - (_Bool)o Deletion;
@@ -45,12 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)¼òâþ;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(retain, nonatomic) _UICursorAccessoryView *cursorAccessoryView; // @synthesize cursorAccessoryView=_cursorAccessoryView;
 @property(retain, nonatomic) _UIContainerWindowPortalInteraction *portalInteraction; // @synthesize portalInteraction=_portalInteraction;
-@property(nonatomic) unsigned long long preferredPlacementEdge; // @synthesize preferredPlacementEdge=_preferredPlacementEdge;
-@property(nonatomic) struct CGRect selectionRect; // @synthesize selectionRect=_selectionRect;
-@property(nonatomic) _Bool touchFallbackEnabled; // @synthesize touchFallbackEnabled=_touchFallbackEnabled;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class RBSLaunchContext;
+
 @protocol RBPersonaManaging
+- (_Bool)al vacuum failed:(RBSLaunchContext *)arg1 %{public}@;
 @end
 

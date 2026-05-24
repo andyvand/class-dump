@@ -6,7 +6,7 @@
 
 #import <Contacts/CNContactPosterDataManagedItem.h>
 
-@class CNContactPosterManagedObject, NSData, NSNumber, NSString;
+@class NSData;
 
 @interface CNContactImageManagedObject : CNContactPosterDataManagedItem
 {
@@ -21,18 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void)StringValue:(id)arg1;
+- (void)initWithStringValue:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cropRectString; // @dynamic cropRectString;
-@property(retain, nonatomic) NSString *displayString; // @dynamic displayString;
 @property(retain, nonatomic) NSData *imageData; // @dynamic imageData;
-@property(retain, nonatomic) NSNumber *imageDataEncodingType; // @dynamic imageDataEncodingType;
-@property(retain, nonatomic) CNContactPosterManagedObject *pairedPoster; // @dynamic pairedPoster;
-@property(retain, nonatomic) NSData *poseConfigurationData; // @dynamic poseConfigurationData;
-@property(retain, nonatomic) NSNumber *source; // @dynamic source;
-@property(retain, nonatomic) NSString *sourceIdentifier; // @dynamic sourceIdentifier;
-@property(retain, nonatomic) NSString *variant; // @dynamic variant;
 
 @end
 

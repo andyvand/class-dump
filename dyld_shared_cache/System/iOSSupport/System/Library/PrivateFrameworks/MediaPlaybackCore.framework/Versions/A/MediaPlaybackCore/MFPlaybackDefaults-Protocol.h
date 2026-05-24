@@ -5,10 +5,9 @@
 //
 
 @protocol MFPlaybackDefaults
+- (double)__AUTH_CONST;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowScreenRecording;
-@property(nonatomic, readonly) double rewindOnInterruptionDuration;
 @property(nonatomic, readonly) _Bool shouldPreroll;
 @end
 

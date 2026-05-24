@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSString, NSURL;
+@class NSString;
 
 @interface NEChannelLinkPresentationSource
 {
     NSString *_title;
-    NSURL *_url;
 }
 
-- (id);
+- (id)setShouldAddMagicMoveObjectOnly:(id)arg1;
 - (id);
 - (id)Õþÿÿÿÿ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

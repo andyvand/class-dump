@@ -6,14 +6,11 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSColor, NSImage;
+@class NSImage;
 
 @interface WBSTemplateIconResponse : WBSSiteMetadataResponse
 {
     _Bool _monogram;
-    NSImage *_image;
-    NSImage *_highlightedImage;
-    NSColor *_themeColor;
 }
 
 + (id);
@@ -26,10 +23,7 @@
 - (void)meInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic, getter=isMonogram) _Bool monogram; // @synthesize monogram=_monogram;
-@property(readonly, nonatomic) NSColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

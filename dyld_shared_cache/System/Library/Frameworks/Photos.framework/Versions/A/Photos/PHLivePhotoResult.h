@@ -9,9 +9,6 @@
 @interface PHLivePhotoResult : PHCompositeMediaResult
 {
     PHCompositeMediaResult *_imageResult;
-    PHCompositeMediaResult *_videoResult;
-    _Bool _isDegraded;
-    _Bool _requiresImageResult;
 }
 
 - (id);
@@ -24,14 +21,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_visualIdenticalityStringRepresentation;
 - (long long);
 - (void);
 - (id);
 - (struct CGImage *);
 - (id);
-- (id)eleteAfterImport;
-- (_Bool)MatchingDictionary;
+- (id)deleteAfterImport;
+- (_Bool)contactMatchingDictionary;
 - (void)ons",R,N,V_searchOptions;
 - (id)Originals to:%d, error:%@ /* Error: Ran out of types for this method. */;
 

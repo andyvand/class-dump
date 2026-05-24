@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSBundleProxy, NSDictionary, NSString, NSURL;
+@class LSBundleProxy;
 
 @interface PKBundleProxy
 {
@@ -16,26 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id)machPort;
 - (id);
-- (id);
-- (id);
+- (id)ii8J;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSURL *bundleURL;
-@property(readonly, nonatomic) NSString *bundleVersion;
-@property(readonly, nonatomic) NSURL *dataContainerURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *localizedName;
 @property(readonly, nonatomic) LSBundleProxy *lsObject; // @synthesize lsObject=_lsObject;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol PXStoryPacingClock
-- (CDStruct_1b6d18a9)n;
+- (CDStruct_1b6d18a9)handleContentSeen;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;

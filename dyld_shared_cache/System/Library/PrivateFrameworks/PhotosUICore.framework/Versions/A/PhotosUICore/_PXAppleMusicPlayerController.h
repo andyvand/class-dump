@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMusicPlayerApplicationController, NSObject, NSString, PXExpectation, PXObservable;
+@class NSObject, PXObservable;
 @protocol OS_dispatch_queue;
 
 @interface _PXAppleMusicPlayerController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_queue_itemStoreID;
-    NSString *_queue_currentClientIdentifier;
-    NSString *_queue_windowSceneID;
-    MPMusicPlayerApplicationController *_queue_player;
-    float _queue_volume;
-    CDUnknownBlockType _queue_preparationCompletionHandler;
-    PXExpectation *_queue_preparationExpectation;
-    id _playbackStateChangeObserver;
-    id _playbackDidEndObserver;
-    long long _preparationSignpostID;
-    _Bool _playerRespondsToRelativeVolume;
-    _Bool _isAtEnd;
-    long long _playbackState;
 }
 
 + (_Bool);
@@ -47,23 +34,18 @@
 - (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void)ncy.dylib;
 - (id);
 - (id);
-- (void);
-- (double);
+- (void)GSize=dd}24{CGSize=dd}40;
+- (double)L;
 - (void)ion"8@"PHFetchResult"16^B24;
 - (void)¹³@$÷þ;
 - (void)Hûþ¶a(ÿ;
 - (id)¬NÄ@: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *currentClientIdentifier;
-@property(readonly, nonatomic) _Bool isAtEnd; // @synthesize isAtEnd=_isAtEnd;
 @property(readonly, nonatomic) PXObservable *observable;
-@property(readonly, nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(readonly, nonatomic) double volume;
-@property(copy, nonatomic) NSString *windowSceneID;
 
 @end
 

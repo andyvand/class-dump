@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     id <_UITextServicesResponderProxyDelegate> _delegate;
 }
 
-+ (id)onDidEnd;
-- (id);
++ (id)_viewControllerPresentationDidEnd;
+- (id)MSVErrorWithMissingDependency: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)Q;
 - (void)$_accessoryContainerMaskView;
 - (_Bool)l.BadgeBackgroundColor;
-- (void)erfaceStyle;
+- (void)_UITraitNameUserInterfaceStyle;
 - (void)rong);
 - (void)edgeAttachedCompactHeightAppearance;
 - (void)G;

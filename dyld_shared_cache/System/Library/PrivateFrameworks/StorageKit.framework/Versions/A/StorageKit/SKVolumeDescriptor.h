@@ -9,20 +9,18 @@
 @interface SKVolumeDescriptor
 {
     NSString *_name;
-    SKFilesystem *_filesystem;
-    NSString *_password;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id) ;
++ (_Bool)D %s scorer %p;
 - (_Bool);
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
+- (id)ngleLinkedListEntry=^{_VCSingleLinkedListEntry}}@}24@0:8@16 /* Error: Ran out of types for this method. */;
+- (id)conferenceUpdateOutputFrequencyMetering;
 - (void);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SKFilesystem *filesystem; // @synthesize filesystem=_filesystem;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 
 @end
 

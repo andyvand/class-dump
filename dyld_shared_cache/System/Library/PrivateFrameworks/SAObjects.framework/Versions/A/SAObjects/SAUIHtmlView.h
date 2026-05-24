@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUIHtmlView : SAAceView
 {
@@ -20,13 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSString *html;
 
 @end
 

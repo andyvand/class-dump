@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)ing policy of now using the GROUP-ID-uuid for new subj folder creation;
 + (void);
 
 @end

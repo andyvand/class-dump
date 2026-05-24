@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
-
 @interface WPAdvertisingRequest
 {
     unsigned char _clientType;
-    _Bool _connectable;
-    _Bool _isRanging;
-    _Bool _stopOnAdvertisingAddressChange;
-    _Bool _holdVoucher;
-    _Bool _enableEPAForAdvertising;
-    NSData *_advertisingData;
-    long long _advertisingRate;
-    long long _priorityValue;
-    double _updateTime;
-    NSDictionary *_advertisingOptions;
-    NSNumber *_advertisementRequestedAt;
-    NSData *_advertisingRandomData;
 }
 
 + (id);
@@ -53,28 +39,16 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
+- (void)isEmergencyChat;
+- (id),;
 - (long long);
-- (_Bool);
+- (_Bool)accessoryDetectedForPairing;
 - (void);
 - (_Bool);
 - (unsigned char)ing, but no client advertising;
 
 // Remaining properties
-@property(retain) NSNumber *advertisementRequestedAt; // @synthesize advertisementRequestedAt=_advertisementRequestedAt;
-@property(retain, nonatomic) NSData *advertisingData; // @synthesize advertisingData=_advertisingData;
-@property(retain) NSDictionary *advertisingOptions; // @synthesize advertisingOptions=_advertisingOptions;
-@property(retain, nonatomic) NSData *advertisingRandomData; // @synthesize advertisingRandomData=_advertisingRandomData;
-@property long long advertisingRate; // @synthesize advertisingRate=_advertisingRate;
 @property(nonatomic) unsigned char clientType; // @synthesize clientType=_clientType;
-@property _Bool connectable; // @synthesize connectable=_connectable;
-@property _Bool enableEPAForAdvertising; // @synthesize enableEPAForAdvertising=_enableEPAForAdvertising;
-@property _Bool holdVoucher; // @synthesize holdVoucher=_holdVoucher;
-@property _Bool isRanging; // @synthesize isRanging=_isRanging;
-@property long long priorityValue; // @synthesize priorityValue=_priorityValue;
-@property _Bool stopOnAdvertisingAddressChange; // @synthesize stopOnAdvertisingAddressChange=_stopOnAdvertisingAddressChange;
-@property double updateTime; // @synthesize updateTime=_updateTime;
 
 @end
 

@@ -14,7 +14,7 @@
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void)Q;
 + (_Bool);
 + (_Bool);
 + (void);
@@ -51,7 +51,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)tes;
++ (id)sendAvailableUpdates;
 
 @end
 

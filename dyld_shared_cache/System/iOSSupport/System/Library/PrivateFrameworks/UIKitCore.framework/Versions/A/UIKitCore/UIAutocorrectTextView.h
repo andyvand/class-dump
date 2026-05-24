@@ -6,21 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIFont;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIAutocorrectTextView : UIView
 {
     NSString *m_string;
-    int m_type;
-    int m_edgeType;
-    UIFont *m_textFont;
-    _Bool m_animating;
-    _Bool m_isLongString;
 }
 
 - (void);
-- (void);
+- (void)operation name %@ using DB %@;
 - (_Bool);
 - (id);
 - (struct CGRect);

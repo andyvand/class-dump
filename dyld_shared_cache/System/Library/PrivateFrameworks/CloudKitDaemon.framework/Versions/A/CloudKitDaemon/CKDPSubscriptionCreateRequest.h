@@ -12,12 +12,13 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
+- (void)i;
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)SetMagicCookie failed for hose [%{ptr}] with err= %d 
+ ;
+- (unsigned long long)wLatencyAudioGlitch(FigEndpointStreamAudioEngineRef, CFDictionaryRef);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -25,12 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (Class)contentsVector:removalsVector:dependenciesVector: /* Error: Ran out of types for this method. */;
+- (Class)initWithPreviousVector:contentsVector:removalsVector:dependenciesVector: /* Error: Ran out of types for this method. */;
 - (void)Ü;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSubscription;
-@property(retain, nonatomic) CKDPSubscription *subscription; // @synthesize subscription=_subscription;
 
 @end
 

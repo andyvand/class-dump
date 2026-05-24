@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCIFilterCorrection, IKImageHistogram, IKScanUIControllerAdvanced, NSString;
+@class IKCIFilterCorrection, IKImageHistogram;
 
 @interface IKImageAdjustSlider
 {
     IKCIFilterCorrection *_filterCorrection;
-    NSString *_filterName;
-    NSString *_key;
-    NSString *_prefsKey;
-    double _defaultValue;
-    IKImageHistogram *_histogram;
-    IKScanUIControllerAdvanced *_scanUIController;
 }
 
 + (void)ÜD(E;
@@ -28,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -43,13 +37,7 @@
 - (void)-L¯´;
 
 // Remaining properties
-@property double defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(nonatomic) IKCIFilterCorrection *filterCorrection; // @synthesize filterCorrection=_filterCorrection;
-@property(copy) NSString *filterName; // @synthesize filterName=_filterName;
 @property IKImageHistogram *histogram; // @synthesize histogram=_histogram;
-@property(copy) NSString *key; // @synthesize key=_key;
-@property(copy) NSString *prefsKey; // @synthesize prefsKey=_prefsKey;
-@property IKScanUIControllerAdvanced *scanUIController; // @synthesize scanUIController=_scanUIController;
 
 @end
 

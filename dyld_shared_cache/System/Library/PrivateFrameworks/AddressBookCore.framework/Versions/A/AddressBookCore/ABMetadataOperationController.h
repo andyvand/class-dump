@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABMetadataIgnoredDirectories, ABMetadataInfoFile, ABMetadataOperationSanityChecker, CNProcessSharedLock, NSMutableDictionary, NSOperationQueue, NSString;
+@class CNProcessSharedLock;
 
 @interface ABMetadataOperationController
 {
     CNProcessSharedLock *_metadataSharedLock;
-    NSString *_metadataDirectory;
-    ABMetadataInfoFile *_infoFile;
-    ABAddressBook *_addressBook;
-    NSOperationQueue *_queue;
-    unsigned long long _suspended;
-    NSMutableDictionary *_delinquentRecords;
-    ABMetadataIgnoredDirectories *_ignoredDirectories;
-    ABMetadataOperationSanityChecker *_sanityChecker;
 }
 
 + (_Bool);
@@ -37,40 +29,40 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)R;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -84,9 +76,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -94,13 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

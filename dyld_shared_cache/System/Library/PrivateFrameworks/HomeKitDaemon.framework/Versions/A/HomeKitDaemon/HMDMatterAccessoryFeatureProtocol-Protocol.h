@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData, NSNumber;
 
 @protocol HMDMatterAccessoryFeatureProtocol
+- (NSNumber *);
+- (NSData *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *matterExtendedMACAddress;
-@property(copy, nonatomic) NSNumber *matterSoftwareVersionNumber;
-@property(copy, nonatomic) NSNumber *matterWEDSupport;
-@property(readonly) _Bool mfiCertifiedACWG;
-@property(readonly, copy, nonatomic) NSData *preexistingReaderGroupIdentifierACWG;
-@property(readonly, copy, nonatomic) NSData *readerGroupSubIdentifierACWG;
-@property(retain, nonatomic) NSNumber *supportedLinkLayerTypes;
-@property(readonly) _Bool supportsACWGProvisioning;
-@property(readonly) _Bool supportsACWGUWB;
 @property(readonly, copy, nonatomic) NSNumber *supportsMatterAccessCode;
-@property(readonly, copy, nonatomic) NSNumber *supportsMatterWalletKey;
-@property(readonly) _Bool supportsMatterWeekDaySchedule;
-@property(readonly) _Bool supportsMatterYearDaySchedule;
 @end
 

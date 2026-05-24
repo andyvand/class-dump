@@ -9,15 +9,6 @@
 @interface PromotedContentUI.WebAdView : APPCPromotedContentView
 {
     id videoProgressMetricThresholds;
-    id outstreamVisibleThreshold;
-    id nonOutstreamVisibleThreshold;
-    id mraidActionTypes;
-    id webView;
-    id webViewDebugging;
-    id videoProgressMetricStatus;
-    id unfairLock;
-    id needToUpdateVisibility;
-    id isAppActive;
 }
 
 - (void);
@@ -29,12 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (void)5;
 - (void);
 - (void);
+- (void)_TtP9JetEngineP33_00CA739BD089D2E5E3428E206B1638D917JSLocalizerExport_;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)gnozo_;
 - (void);
 - (void);
 - (void);
@@ -46,9 +37,9 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)nt [unable to convert to shared listening event] event=%{public}@;
+- (void)ic _qfa_performInsertPlaybackContext:(float)arg1 atPosition:(float)arg2 afterContentItemID:sectionIdentifier:actions:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

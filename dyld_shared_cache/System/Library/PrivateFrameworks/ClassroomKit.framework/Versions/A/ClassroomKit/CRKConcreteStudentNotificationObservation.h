@@ -9,7 +9,6 @@
 @interface CRKConcreteStudentNotificationObservation
 {
     NSString *_notificationName;
-    CDUnknownBlockType _notificationHandler;
 }
 
 - (void);
@@ -17,12 +16,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (id);
+- (id)crk_badFieldTypeErrorWithField: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType notificationHandler; // @synthesize notificationHandler=_notificationHandler;
 @property(readonly, copy, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
 
 @end

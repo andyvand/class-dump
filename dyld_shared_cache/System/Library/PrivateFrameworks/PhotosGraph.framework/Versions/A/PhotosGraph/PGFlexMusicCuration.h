@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PGFlexMusicCuration
 {
     id curatorVersion;
-    void bestSongSuggestions;
-    void secondarySongSuggestions;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)applicationWithProcessIdentifier:applicationIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_signalForElement:(id)arg1 stringInserted:wordCompleted:editTracker: /* Error: Ran out of types for this method. */;
+- (id)_signalForElement:(id)arg1 stringDeleted:wasSelected:editTracker: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *bestSongSuggestions;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *secondarySongSuggestions;
 
 @end
 

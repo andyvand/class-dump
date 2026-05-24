@@ -9,19 +9,16 @@
 @interface MPVolumeHardwareButtonController
 {
     double _pendingVolumeChange;
-    _Bool _debounceVolumeRepeat;
-    _Bool _didRegisterForButtonNotifications;
-    id <MPVolumeControllerDataSource> _activeDataSource;
 }
 
 + (id);
-- (id);
+- (id)ationPhoneNumberReceivedSMS(NSString *, NSNumber *)_block_invoke;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)o fetch auto donating chats:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
@@ -29,13 +26,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ystem/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage;
 - (void)Â0@ù
 × ;
-- (void)ptionLeaseReturningLikelyToReachRemoteServer: /* Error: Ran out of types for this method. */;
+- (void)_calculateShouldPlaybackRequireSubscriptionLeaseReturningLikelyToReachRemoteServer: /* Error: Ran out of types for this method. */;
 - (void)sing remote view controller at app's request.;
 
 // Remaining properties

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned int);
+- (unsigned int)atBotMessageRecordZoneID;
 
 @end
 

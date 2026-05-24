@@ -11,12 +11,6 @@
 @interface JetUI.JUNavigationController : JetUI.JetTraitsViewController
 {
     id stack;
-    id isOurAppearanceTransitioning;
-    id navigationBarIfLoaded;
-    id containerView;
-    id delegate;
-    id isNavigationBarHidden;
-    id isGoBackActionEnabled;
 }
 
 - (void);
@@ -24,13 +18,13 @@
 - (void);
 - (_Bool);
 - (void);
+- (void):(id)arg1 16@24@32;
 - (void);
 - (void);
-- (void);
+- (id)_titleTextLabels;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)UseDevelopmentAPSEnvironment;
 - (_Bool);
 - (void);
 - (void);

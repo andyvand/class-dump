@@ -7,6 +7,7 @@
 @class EMObjectID;
 
 @protocol EMObject
+- (EMObjectID *)commentWithGUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) EMObjectID *objectID;

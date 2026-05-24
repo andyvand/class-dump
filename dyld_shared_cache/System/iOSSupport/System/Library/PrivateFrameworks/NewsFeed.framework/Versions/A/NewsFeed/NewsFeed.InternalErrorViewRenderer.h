@@ -7,8 +7,6 @@
 @interface NewsFeed.InternalErrorViewRenderer
 {
     id rendererTool;
-    id debuggers;
-    id contentEnvironment;
 }
 
 @end

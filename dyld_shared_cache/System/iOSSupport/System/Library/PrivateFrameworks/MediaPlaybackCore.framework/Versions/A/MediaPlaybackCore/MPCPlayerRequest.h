@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, MPCPlayerPath, MPPropertySet, NSString;
+@class MPPropertySet;
 
 @interface MPCPlayerRequest
 {
     _Bool _disablePlaybackStateValidation;
-    _Bool _disablePlaybackRateValidation;
-    MPCPlayerPath *_playerPath;
-    MPPropertySet *_playingItemProperties;
-    MPPropertySet *_queueSectionProperties;
-    MPPropertySet *_queueItemProperties;
-    NSString *_preferredFallbackItemRelationship;
-    ICUserIdentity *_userIdentity;
-    CDStruct_339ad95e _tracklistRange;
 }
 
 + (Class);
-- (CDStruct_339ad95e);
+- (CDStruct_912cb5d2)autorelease;
 - (void);
 - (void);
 - (void);
@@ -46,22 +38,7 @@
 - (id)c}@ %{public}@ %2i %{public}@ôª ITEM CONFIG END            %{public}@ %{public}@ [%.3fs];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disablePlaybackRateValidation; // @synthesize disablePlaybackRateValidation=_disablePlaybackRateValidation;
-@property(nonatomic) _Bool disablePlaybackStateValidation; // @synthesize disablePlaybackStateValidation=_disablePlaybackStateValidation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 @property(copy, nonatomic) MPPropertySet *playingItemProperties; // @synthesize playingItemProperties=_playingItemProperties;
-@property(copy, nonatomic) NSString *preferredFallbackItemRelationship; // @synthesize preferredFallbackItemRelationship=_preferredFallbackItemRelationship;
-@property(copy, nonatomic) MPPropertySet *queueItemProperties; // @synthesize queueItemProperties=_queueItemProperties;
-@property(copy, nonatomic) MPPropertySet *queueSectionProperties; // @synthesize queueSectionProperties=_queueSectionProperties;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_339ad95e tracklistRange; // @synthesize tracklistRange=_tracklistRange;
-@property(retain, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

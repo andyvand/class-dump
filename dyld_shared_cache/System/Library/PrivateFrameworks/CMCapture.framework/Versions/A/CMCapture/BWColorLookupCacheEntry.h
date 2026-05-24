@@ -9,16 +9,14 @@
 @interface BWColorLookupCacheEntry
 {
     NSData *_foregroundColorLookupTable;
-    NSData *_backgroundColorLookupTable;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)as provided to initalize reply ACRemoteDeviceMessage!;
+- (id)?;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSData *backgroundColorLookupTable; // @synthesize backgroundColorLookupTable=_backgroundColorLookupTable;
 @property(readonly, retain, nonatomic) NSData *foregroundColorLookupTable; // @synthesize foregroundColorLookupTable=_foregroundColorLookupTable;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedCommunityID
@@ -16,14 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *communityIdentifier; // @dynamic communityIdentifier;
-@property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic) _Bool expired; // @dynamic expired;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic, retain) NSSet *rapRecords; // @dynamic rapRecords;
-@property(nonatomic, retain) NSSet *reviewedPlaces; // @dynamic reviewedPlaces;
-@property(nonatomic) long long usedCount; // @dynamic usedCount;
 
 @end
 

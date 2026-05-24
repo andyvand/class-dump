@@ -10,7 +10,6 @@
 - (NSString *);
 
 // Remaining properties
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
 @end
 

@@ -9,8 +9,6 @@
 @interface MTLAccelerationStructurePassSampleBufferAttachmentDescriptor
 {
     id <MTLCounterSampleBuffer> _sampleBuffer;
-    unsigned long long _startOfEncoderSampleIndex;
-    unsigned long long _endOfEncoderSampleIndex;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long endOfEncoderSampleIndex; // @synthesize endOfEncoderSampleIndex=_endOfEncoderSampleIndex;
 @property(retain, nonatomic) id <MTLCounterSampleBuffer> sampleBuffer; // @synthesize sampleBuffer=_sampleBuffer;
-@property(nonatomic) unsigned long long startOfEncoderSampleIndex; // @synthesize startOfEncoderSampleIndex=_startOfEncoderSampleIndex;
 
 @end
 

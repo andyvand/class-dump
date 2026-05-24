@@ -6,30 +6,25 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface IFTSchemaASTFlatExprCallVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_toolId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasToolId;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)removeItemAtPath:error: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)OrChanged;
@@ -41,10 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

@@ -6,29 +6,23 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSString, NSURL, PKPaymentRewardsRedemption;
+@class NSString;
 
 @interface PKPaymentOfferWebServiceConfirmResponse : PKPaymentWebServiceResponse
 {
     NSString *_paymentHash;
-    NSURL *_issuerInstallmentManagementURL;
-    PKPaymentRewardsRedemption *_redemption;
-    unsigned long long _followUpAction;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)qa0;
 - (id);
 - (void)unt;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long followUpAction; // @synthesize followUpAction=_followUpAction;
-@property(readonly, nonatomic) NSURL *issuerInstallmentManagementURL; // @synthesize issuerInstallmentManagementURL=_issuerInstallmentManagementURL;
 @property(readonly, copy, nonatomic) NSString *paymentHash; // @synthesize paymentHash=_paymentHash;
-@property(readonly, nonatomic) PKPaymentRewardsRedemption *redemption; // @synthesize redemption=_redemption;
 
 @end
 

@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface InteractionAnalysisPETInteractionEvent
 {
     double _timestamp;
-    NSString *_associatedMemberIDs;
-    NSString *_bundleID;
-    NSString *_direction;
-    NSString *_eventMechanism;
-    NSString *_interactionID;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)@];
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)י;
+- (id);
 - (void);
 
 @end

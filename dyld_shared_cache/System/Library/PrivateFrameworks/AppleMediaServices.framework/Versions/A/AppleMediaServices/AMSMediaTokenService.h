@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSMediaToken, AMSMediaTokenServiceThrottler, AMSProcessInfo, AMSPromise, AMSPromiseSerialQueue, AMSURLSession, NSObject, NSString;
-@protocol AMSBagProtocol, AMSMediaTokenServiceStoreProtocol, OS_dispatch_queue;
+@class AMSMediaTokenServiceThrottler;
 
 @interface AMSMediaTokenService
 {
     _Bool _URLKnownToBeTrusted;
-    AMSURLSession *_session;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    long long _clientType;
-    NSString *_clientIdentifier;
-    AMSProcessInfo *_clientInfo;
-    NSString *_clientVersion;
-    AMSMediaTokenServiceThrottler *_throttler;
-    AMSPromiseSerialQueue *_tokenFetchPromiseSerialQueue;
-    id <AMSMediaTokenServiceStoreProtocol> _tokenStore;
-    id <AMSMediaTokenServiceStoreProtocol> _patBasedtokenStore;
-    NSString *_privateAcessTokenChallenge;
-    Class _privateAccessTokenFetcherClass;
-    NSObject<OS_dispatch_queue> *_patTokenFetchQueue;
 }
 
 + (id);
@@ -31,7 +16,7 @@
 + (id)ª(Ã-ìQ#7ÅÎÇÏJû¢Wä¹Îÿ¤aJn8U\¢»JÞÞ¨ã.z¿*9÷Ü¥<à¬¿uõ®áBéf7°;
 + (id)C²<XC²'ZC²ï$C²P&C²8C²7:C²·$C²Á&C²|8C²:C²$C²³&C²â8C²9:C²ð$C².&C²8C²K:C²ÙDC²ßFC²ÈXC²nZC²	DC²FC²0XC²/ZC²DC²¶FC²XC²FZC²DC²FC²XC²þZC²×$C²è&C²8C²:C²
 $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØL²iÚL²ºÄL²"ÆL²ÉØL²_ÚL²¢ÄL²ÎÆL²!ØL²TÚL²êÄL²]ÆL²VØL² /* Error: Ran out of types for this method. */;
-+ (id)oolToken;
++ (id)WrappedBoolToken;
 - (id);
 - (void);
 - (void);
@@ -42,28 +27,29 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 - (void);
 - (void);
+- (id)userNameHidden;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)moving and cancelling oldest download.;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (Class);
+- (id)asConfidenceScores"b1};
+- (id)getIdsIdentifier;
+- (void),C,N,V_aceCommandIdentifier;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)AFSiriAnnouncementRequestCapabilityManager;
+- (id))
+;
 - (id);
 - (void);
+- (void);
+- (id)length;
+- (id)MRXPC_ROUTE_EXTERNAL_SCREEN_TYPE_KEY;
+- (void)MRXPC_ROUTE_OPTIONS_KEY;
 - (_Bool);
 - (id);
 - (void);
@@ -75,7 +61,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 - (id)Q§&ð1Â0@ù
 × ;
-- (void)checkThatSilentEnrollmentIsEnabled;
+- (void)_checkThatSilentEnrollmentIsEnabled;
 - (void)ve the authenticatable resource. error = %{public}@;
 - (id)²¶^ÃïÀJòªiqKÍÓ]B/+êË4°x0cãYzCT>¦Gûh¯·Éa3yùü,ßÆ6¿þN³©9¼Î réø«*®ÁOe¾f(
 s1_	;áúÏ8Sl­¬WA$o)ÑFpæ¡¹:	«õSÊ5T³(pQ.?hl÷ÇÏ¡Ùû´éE»&ö£#!²|um×ßÀZ9ä îñ0ê¹j¢òÐd¼ëF©Mðt\q¿Bzãf"Õ¨3ìeis$DªÈcà<{HÃóþµâ wv@¶ÓØG;I[á}ïúOÚ>Þ:ùgøkåXÉèÌ%Ûn /* Error: Ran out of types for this method. */;
@@ -88,31 +74,7 @@ s1_	;áúÏ8Sl­¬WA$o)ÑFpæ¡¹:	«õSÊ5T³(pQ
 - (long long)g;
 
 // Remaining properties
-@property _Bool URLKnownToBeTrusted; // @synthesize URLKnownToBeTrusted=_URLKnownToBeTrusted;
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) AMSMediaToken *cachedMediaToken;
-@property(readonly) AMSPromise *cachedMediaTokenPromise;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property long long clientType; // @synthesize clientType=_clientType;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *keychainAccessGroup;
-@property(readonly) id <AMSMediaTokenServiceStoreProtocol> patBasedtokenStore; // @synthesize patBasedtokenStore=_patBasedtokenStore;
-@property(readonly) NSObject<OS_dispatch_queue> *patTokenFetchQueue; // @synthesize patTokenFetchQueue=_patTokenFetchQueue;
-@property(readonly) Class privateAccessTokenFetcherClass; // @synthesize privateAccessTokenFetcherClass=_privateAccessTokenFetcherClass;
-@property(retain) NSString *privateAcessTokenChallenge; // @synthesize privateAcessTokenChallenge=_privateAcessTokenChallenge;
-@property __weak AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 @property(readonly) AMSMediaTokenServiceThrottler *throttler; // @synthesize throttler=_throttler;
-@property(readonly) AMSPromiseSerialQueue *tokenFetchPromiseSerialQueue; // @synthesize tokenFetchPromiseSerialQueue=_tokenFetchPromiseSerialQueue;
-@property(readonly) id <AMSMediaTokenServiceStoreProtocol> tokenStore; // @synthesize tokenStore=_tokenStore;
 
 @end
 

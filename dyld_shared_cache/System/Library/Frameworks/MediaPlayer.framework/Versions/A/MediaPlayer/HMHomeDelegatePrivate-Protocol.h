@@ -4,6 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHome;
+
 @protocol HMHomeDelegatePrivate
+
+@optional
+- (void)};
+- (void)keyPath;
+- (void);
+- (void)ddddddddddddddd},N,V_projectionMatrix;
+- (void)o3DPoint=fff},N;
+- (void)isGizmo;
+- (void)interactionMode;
+- (void)initWithSource:(HMHome *)arg1;
+- (void)ent;
+- (void)Tq,N,V_timeStamp;
+- (void)ingPolicy;
+- (void)influenceFactor;
+- (void)getReturnValue:(HMHome *)arg1;
+- (void),R,N,V_gridUnit;
+- (void)ationAngle;
+- (void)sitivity;
+- (void)falloffExponent;
+- (void)Td,N,V_continuousCollisionDetectionThreshold;
+- (void)th=},R;
+- (void)olorSpace=},R,N;
+- (void)didModifyRange:(HMHome *)arg1;
+- (void)dataWithString:(HMHome *)arg1;
+- (void)dataWithDouble:(HMHome *)arg1;
+- (void)customFieldWithEvaluationBlock:(HMHome *)arg1;
+- (void)conformsToType:(HMHome *)arg1;
+- (void)commitImmediate;
+- (void)clearCoatNormal;
+- (void)orphTargets;
+- (void)TB,N,V_syncTimeWithCoreAnimation;
+- (void)caction;
+- (void)aphicalSelectionEnabled;
+- (void)ideoMirrored;
+- (void)positional;
+- (void)paque;
+- (void)angularVelocity;
+- (void)c;
+- (void)B,N,GisDoubleSided;
+- (void)sAffectedByGravity;
+- (void)laying;
+- (void)_vertexSamplers;
+- (void)_velocityFactor;
+- (void),W,N,Vdelegate;
+- (void)ject;
+- (void)oundInstance;
+- (void)_statisticsInfo;
+- (void),C,N;
+- (void),&,N;
+- (void)SCNTextureOffscreenRenderingSource;
+- (void)SCNBufferStream;
+- (void)SCNActionReference;
+- (void)ScreenDidChange;
+- (void)qM;
+- (void)entityProperties"16@"ICUserIdentity"24@?<v@?B@"NSError">32;
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSMediaTokenServiceBagProperties
 {
     _Bool _enabled;
-    NSArray *_anonymousRateLimitingClientIds;
-    NSDictionary *_anonymousRateLimitingClientChallenges;
-    double _refreshPercentage;
-    double _refreshTime;
 }
 
 - (double);
@@ -21,17 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)AFBluetoothWirelessSplitterSessionStateObserver;
 - (void)ÃRS]{¬&MFÃ¥F³¬ñÞ/}ÓQ¯Ùel¿¹­¢Ð%,£h¼ÎîÍBkä'~ÅQÆâÁ«éû½h¨È)æbøþ/KmâÐnó!ßz=H?rÓ³ÍfË¾|óÃôåõáI6ks#åZ¦t~ Yo¼M¡8Ëê»daýUÈÇ<hÅD1V3×Y	gdFû«Çi»To¡ÇÆQ@·PëÈg:Ð}ý{üÞ^jM:zXã¿ño@;Ë¶µöã] ®9¸m<r³þºÁÝr"¯ÉËA
 [Ê
 ?þÑEíÏê-¿¶üqý©­Üßà°:´TG¤<²ayü×ü»?­óÑ×Æ¥ª±Ö<nã,Û ¬pÝ/åÆ\ÊÎYè%Ðs«¿8»ÁÃgCî	AaÐ\sI\ü{ÿ|¡Òòtyì^â[þ*oQ(^µcÌ¹&µJAf¼½Uëµ¿ïw'éÑ0¾\wXx:ÊÜëûJ²Úa÷¥7Kßæ¶°Þ'4¸ÔÉ©êù'Ó~ë¯®X\4N!Iï	e'.Qoºþüëx=¯³ã32íÛé£ò)°hÊä³&¢VgoÇqàó)ó=ê ¬¥ðÿC«èGÂ@áeì4ÆaRdL¨+&¦MX³QðWçõfÕWÍ[OM~Ï/¼[|¨Sófîp=Jÿ·ð·3mã7½Å¿:²ÂÀmÏ¡ÝyÌ9ÐóÆ^¹<A~ª£½Q{+Ã/)õ­[â©çú¯Ü	® bÓj$yp /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *anonymousRateLimitingClientChallenges; // @synthesize anonymousRateLimitingClientChallenges=_anonymousRateLimitingClientChallenges;
 @property(readonly, nonatomic) NSArray *anonymousRateLimitingClientIds; // @synthesize anonymousRateLimitingClientIds=_anonymousRateLimitingClientIds;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) double refreshPercentage; // @synthesize refreshPercentage=_refreshPercentage;
-@property(readonly, nonatomic) double refreshTime; // @synthesize refreshTime=_refreshTime;
 
 @end
 

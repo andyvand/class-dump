@@ -7,31 +7,26 @@
 #import <PhotosUICore/PXPhotosAction.h>
 
 @class PHCollectionList, PHFetchResult;
-@protocol PXFastEnumeration;
 
 @interface PXUpdateCollectionListOrderAction : PXPhotosAction
 {
     PHFetchResult *_beforeFetchResult;
-    PHFetchResult *_afterFetchResult;
-    PHCollectionList *_collectionList;
-    id <PXFastEnumeration> _orderedCollections;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)e�;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
-@property(readonly, nonatomic) id <PXFastEnumeration> orderedCollections; // @synthesize orderedCollections=_orderedCollections;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AppStoreKit.ShelfBasedPageScrollAction : AppStoreKit.Action
 {
     id shelfId;
-    id purchasedShelfId;
-    id notPurchasedShelfId;
-    id adamId;
-    id index;
-    id clicksOnScroll;
 }
 
 @end

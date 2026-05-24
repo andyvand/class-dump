@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFTriggerDatabaseID, NSArray, NSDate, NSNumber, NSString;
+@class NSNumber;
 @protocol MKFHome, MKFUser;
 
 @protocol MKFTrigger
+- (NSNumber *)pired blocked trip identifiers;
+- (void)se SCRT attestation instead;
+- (void)Z;
+- (void)ContactIdProvider;
 - (id <MKFUser>)!\DùQð1Â0@ù
 × ;
 - (id <MKFHome>);
 - (void)is %@;
-- (NSNumber *)AddedAccessoryNotification;
+- (NSNumber *)HMDHomeThisOwnerDeviceAddedAccessoryNotification;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actionSets;
 @property(copy, nonatomic) NSNumber *active;
-@property(copy, nonatomic) NSNumber *autoDelete;
-@property(copy, nonatomic) NSString *configuredName;
-@property(readonly, copy, nonatomic) MKFTriggerDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSDate *mostRecentFireDate;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) id <MKFUser> owner;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

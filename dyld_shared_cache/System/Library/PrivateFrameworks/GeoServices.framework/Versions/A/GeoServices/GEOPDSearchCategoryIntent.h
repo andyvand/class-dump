@@ -4,54 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchCategoryIntent
 {
     PBDataReader *_reader;
-    CDStruct_62a50c50 _keywordMuids;
-    NSMutableArray *_canonicalNames;
-    NSMutableArray *_categoryIds;
-    NSMutableArray *_categoryMappings;
-    NSMutableArray *_expandedCategoryIds;
-    NSMutableArray *_featureMaps;
-    NSMutableArray *_keywordMappings;
-    NSMutableArray *_legacyCategoryIds;
-    NSMutableArray *_modernToLegacyIdMappings;
-    NSMutableArray *_negativeCategorys;
-    GEOPDSearchTokenSet *_tokenSet;
-    NSString *_trigger;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_keywordMuids:1;
-        unsigned int read_canonicalNames:1;
-        unsigned int read_categoryIds:1;
-        unsigned int read_categoryMappings:1;
-        unsigned int read_expandedCategoryIds:1;
-        unsigned int read_featureMaps:1;
-        unsigned int read_keywordMappings:1;
-        unsigned int read_legacyCategoryIds:1;
-        unsigned int read_modernToLegacyIdMappings:1;
-        unsigned int read_negativeCategorys:1;
-        unsigned int read_tokenSet:1;
-        unsigned int read_trigger:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)audioSessionInfoProvider:didReceiveAudioSessionInterruptionNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)maximumVoltage"b1"has_type"b1};
-- (id)les;
+- (id)_placeCardRevealedPlaceCardModules;
 - (id)ð;
 - (void)á¦ÏH@;
 

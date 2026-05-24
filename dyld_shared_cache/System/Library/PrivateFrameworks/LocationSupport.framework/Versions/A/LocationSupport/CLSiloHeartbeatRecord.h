@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSilo, NSString;
+@class CLSilo;
 
 @interface CLSiloHeartbeatRecord
 {
     int _synCount;
-    int _ackCount;
-    int _residentCount;
-    CLSilo *_silo;
-    Class _svcClass;
-    NSString *_svcName;
 }
 
-- (id);
+- (id);
 - (Class);
 - (int);
 - (id);
-- (void);
+- (void)tch;
 - (id);
 - (int);
 - (int);
@@ -29,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int ackCount; // @synthesize ackCount=_ackCount;
-@property(nonatomic) int residentCount; // @synthesize residentCount=_residentCount;
 @property(readonly, nonatomic) CLSilo *silo; // @synthesize silo=_silo;
-@property(readonly, nonatomic) Class svcClass; // @synthesize svcClass=_svcClass;
-@property(readonly) NSString *svcName; // @synthesize svcName=_svcName;
-@property(readonly, nonatomic) int synCount; // @synthesize synCount=_synCount;
 
 @end
 

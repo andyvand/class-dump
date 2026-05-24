@@ -9,14 +9,10 @@
 @interface PPEventMetadata
 {
     unsigned long long _ocnt_precomputedHash;
-    NSDictionary *_titlesAndParticipants;
-    double _earliestStartTime;
-    unsigned long long _eventCount;
-    unsigned long long _eventHasAlarmCount;
 }
 
 + (id);
-- (double);
+- (double)sqlvalue_function;
 - (id);
 - (id);
 - (id);
@@ -26,18 +22,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ption for handle:"%@". Not observing availability (yet). /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)@16@24@32@40C48;
-- (_Bool)viceID:(id)arg1;
+- (_Bool)eventForTopicRecord:(id)arg1 sourceDeviceID: /* Error: Ran out of types for this method. */;
 - (unsigned long long)LTER TABLE sources ADD COLUMN length_seconds INTEGER NOT NULL DEFAULT 0;
 
 // Remaining properties
-@property(readonly, nonatomic) double earliestStartTime; // @synthesize earliestStartTime=_earliestStartTime;
-@property(readonly, nonatomic) unsigned long long eventCount; // @synthesize eventCount=_eventCount;
-@property(readonly, nonatomic) unsigned long long eventHasAlarmCount; // @synthesize eventHasAlarmCount=_eventHasAlarmCount;
 @property(readonly, nonatomic) NSDictionary *titlesAndParticipants; // @synthesize titlesAndParticipants=_titlesAndParticipants;
 
 @end

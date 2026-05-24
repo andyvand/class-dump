@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSArray;
+@class NSArray;
 
 @protocol MFSearchableIndexInstantAnswersResultsCollectorBuilder
 - (void)%u:(NSArray *)arg1 All data for section '%{public}s' has been received.;
@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *filterQueries;
-@property(retain, nonatomic) CSSuggestion *updatedSuggestion;
 @end
 

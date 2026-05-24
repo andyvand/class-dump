@@ -5,5 +5,6 @@
 //
 
 @protocol SXVisibilityReporting
+- (void);
 @end
 

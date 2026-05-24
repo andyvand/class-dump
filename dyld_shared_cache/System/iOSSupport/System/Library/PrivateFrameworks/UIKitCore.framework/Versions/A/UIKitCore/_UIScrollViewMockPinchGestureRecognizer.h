@@ -10,21 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewMockPinchGestureRecognizer
 {
     double _scale;
-    double _velocity;
-    long long _state;
-    UIScrollViewPinchGestureRecognizer *_gestureRecognizer;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)eline;
+- (id)Ae;
 - (double);
 - (void);
 - (double)1Â0@ù
 × ;
 - (long long)A	!HEùQeð1Â0@ù
 × ;
-- (void)WithFrame:(id)arg1 serviceIdentity:sceneSpecification: /* Error: Ran out of types for this method. */;
+- (void)initWithFrame:(id)arg1 serviceIdentity:sceneSpecification: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (void)H.;
 - (id);

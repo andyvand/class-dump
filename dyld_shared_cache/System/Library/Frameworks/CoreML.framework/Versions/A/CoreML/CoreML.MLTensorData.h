@@ -7,7 +7,6 @@
 @interface CoreML.MLTensorData
 {
     id descriptor;
-    id data;
 }
 
 @end

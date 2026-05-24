@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)updateToInlinePDFAttachmentIfNeeded:(struct CGRect)arg1;
+- (_Bool)_videoInitiatePlaybackBaselineImpressionValue;
 - (id);
 - (_Bool);
 - (void);
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic) _Bool emphasized;
-@property(nonatomic) _Bool groupRowStyle;
 
 @end
 

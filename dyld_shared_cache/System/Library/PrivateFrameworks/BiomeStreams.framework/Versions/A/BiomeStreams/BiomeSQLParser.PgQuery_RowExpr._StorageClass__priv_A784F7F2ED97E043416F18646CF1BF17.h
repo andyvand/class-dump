@@ -7,11 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RowExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _args;
-    id _rowTypeid;
-    id _rowFormat;
-    id _colnames;
-    id _location;
 }
 
 @end

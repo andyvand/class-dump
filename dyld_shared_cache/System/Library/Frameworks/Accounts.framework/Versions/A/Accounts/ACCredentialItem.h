@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSDate, NSMutableSet, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface ACCredentialItem
 {
     NSString *_accountIdentifier;
-    NSDate *_expirationDate;
-    NSString *_serviceName;
-    _Bool _persistent;
-    NSURL *_objectID;
-    ACAccountStore *_accountStore;
-    NSMutableSet *_dirtyProperties;
 }
 
 + (_Bool);
-- (id);
+- (id)CB;
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)a#;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -54,21 +48,6 @@
 
 // Remaining properties
 @property(readonly) NSString *accountIdentifier;
-@property __weak ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isDirty) _Bool dirty;
-@property(readonly) NSSet *dirtyProperties; // @synthesize dirtyProperties=_dirtyProperties;
-@property(retain) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
-@property(retain) NSURL *objectID;
-@property(getter=isPersistent) _Bool persistent;
-@property(readonly) NSString *serviceName;
-@property(readonly) Class superclass;
 
 @end
 

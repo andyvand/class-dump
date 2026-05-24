@@ -6,43 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTApp, IFTSchemaIFTCurrencyAmount, IFTSchemaIFTDateComponents, IFTSchemaIFTFile, IFTSchemaIFTMeasurement, IFTSchemaIFTPaymentMethod, IFTSchemaIFTPerson, IFTSchemaIFTPlacemark, NSData, NSString;
-
 @interface IFTSchemaIFTPrimitiveValue : SISchemaInstrumentationMessage
 {
     _Bool _primitiveNull;
-    _Bool _primitiveBool;
-    long long _primitiveInt;
-    double _primitiveDouble;
-    NSString *_primitiveDecimal;
-    IFTSchemaIFTDateComponents *_primitiveDateComponents;
-    IFTSchemaIFTMeasurement *_measurement;
-    IFTSchemaIFTCurrencyAmount *_currencyAmount;
-    IFTSchemaIFTPaymentMethod *_paymentMethod;
-    IFTSchemaIFTPlacemark *_placemark;
-    IFTSchemaIFTPerson *_person;
-    IFTSchemaIFTFile *_file;
-    IFTSchemaIFTApp *_app;
-    _Bool _hasPrimitiveNull;
-    _Bool _hasPrimitiveBool;
-    _Bool _hasPrimitiveInt;
-    _Bool _hasPrimitiveDouble;
-    _Bool _hasPrimitiveDecimal;
-    _Bool _hasPrimitiveDateComponents;
-    _Bool _hasMeasurement;
-    _Bool _hasCurrencyAmount;
-    _Bool _hasPaymentMethod;
-    _Bool _hasPlacemark;
-    _Bool _hasPerson;
-    _Bool _hasFile;
-    _Bool _hasApp;
-    unsigned long long _whichOneof_Primitivevalue;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -98,55 +70,28 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)definition;
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)>;
 - (_Bool);
-- (id);
+- (id)__swift5_builtin__TEXT;
 - (void);
 - (id)QàÐ1Â0@ù
 × ;
-- (id)PromptSelectedInfoGenerated;
+- (id)userPromptSelectedInfoGenerated;
 - (id)ession",&,N,V_reject;
-- (id)aASRNamedEntityUserEdit;
+- (id)ASRSchemaASRNamedEntityUserEdit;
 - (void)Þæ9üé>;
 - (void)ÔF#;
 - (void)}¹&;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTApp *app; // @synthesize app=_app;
-@property(retain, nonatomic) IFTSchemaIFTCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) IFTSchemaIFTFile *file; // @synthesize file=_file;
-@property(nonatomic) _Bool hasApp; // @synthesize hasApp=_hasApp;
-@property(nonatomic) _Bool hasCurrencyAmount; // @synthesize hasCurrencyAmount=_hasCurrencyAmount;
-@property(nonatomic) _Bool hasFile; // @synthesize hasFile=_hasFile;
-@property(nonatomic) _Bool hasMeasurement; // @synthesize hasMeasurement=_hasMeasurement;
-@property(nonatomic) _Bool hasPaymentMethod; // @synthesize hasPaymentMethod=_hasPaymentMethod;
-@property(nonatomic) _Bool hasPerson; // @synthesize hasPerson=_hasPerson;
-@property(nonatomic) _Bool hasPlacemark; // @synthesize hasPlacemark=_hasPlacemark;
-@property(nonatomic) _Bool hasPrimitiveBool; // @synthesize hasPrimitiveBool=_hasPrimitiveBool;
-@property(nonatomic) _Bool hasPrimitiveDateComponents; // @synthesize hasPrimitiveDateComponents=_hasPrimitiveDateComponents;
-@property(nonatomic) _Bool hasPrimitiveDecimal; // @synthesize hasPrimitiveDecimal=_hasPrimitiveDecimal;
-@property(nonatomic) _Bool hasPrimitiveDouble; // @synthesize hasPrimitiveDouble=_hasPrimitiveDouble;
-@property(nonatomic) _Bool hasPrimitiveInt; // @synthesize hasPrimitiveInt=_hasPrimitiveInt;
-@property(nonatomic) _Bool hasPrimitiveNull; // @synthesize hasPrimitiveNull=_hasPrimitiveNull;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTMeasurement *measurement; // @synthesize measurement=_measurement;
-@property(retain, nonatomic) IFTSchemaIFTPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(retain, nonatomic) IFTSchemaIFTPerson *person; // @synthesize person=_person;
-@property(retain, nonatomic) IFTSchemaIFTPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(nonatomic) _Bool primitiveBool; // @synthesize primitiveBool=_primitiveBool;
-@property(retain, nonatomic) IFTSchemaIFTDateComponents *primitiveDateComponents; // @synthesize primitiveDateComponents=_primitiveDateComponents;
-@property(copy, nonatomic) NSString *primitiveDecimal; // @synthesize primitiveDecimal=_primitiveDecimal;
-@property(nonatomic) double primitiveDouble; // @synthesize primitiveDouble=_primitiveDouble;
-@property(nonatomic) long long primitiveInt; // @synthesize primitiveInt=_primitiveInt;
 @property(nonatomic) _Bool primitiveNull; // @synthesize primitiveNull=_primitiveNull;
-@property(readonly, nonatomic) unsigned long long whichOneof_Primitivevalue; // @synthesize whichOneof_Primitivevalue=_whichOneof_Primitivevalue;
 
 @end
 

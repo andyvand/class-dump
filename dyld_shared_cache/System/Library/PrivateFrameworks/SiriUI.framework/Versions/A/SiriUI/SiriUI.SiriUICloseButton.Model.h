@@ -7,8 +7,6 @@
 @interface SiriUI.SiriUICloseButton.Model
 {
     id _offersDismissal;
-    id onClose;
-    id _$observationRegistrar;
 }
 
 @end

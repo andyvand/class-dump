@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)4;
 - (void);
 
 // Remaining properties

@@ -11,11 +11,11 @@
     NSNumber *_pid;
 }
 
-+ (_Bool);
++ (_Bool)12DummyDeleter;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)32@0:8@"NSData"16^@24 /* Error: Ran out of types for this method. */;
+- (void)sionEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 
 // Remaining properties

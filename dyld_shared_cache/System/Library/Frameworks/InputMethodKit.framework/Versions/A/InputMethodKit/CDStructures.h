@@ -33,16 +33,16 @@ struct NSEdgeInsets {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool insertTextUnreliable;
-    _Bool selectedRangeUnreliable;
-} CDStruct_66d8504c;
+    _Bool _field1;
+    _Bool _field2;
+} CDStruct_3d581f42;
 
 typedef struct {
     long long _field1;

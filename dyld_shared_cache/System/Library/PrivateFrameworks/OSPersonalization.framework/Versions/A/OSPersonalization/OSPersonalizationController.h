@@ -9,13 +9,13 @@
 }
 
 + (id);
-+ (id);
++ (id)MF;
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)qA;
 - (void);
 - (_Bool);
 - (_Bool);

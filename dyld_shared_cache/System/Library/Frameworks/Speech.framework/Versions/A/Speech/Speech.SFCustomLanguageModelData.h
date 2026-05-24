@@ -7,11 +7,6 @@
 @interface Speech.SFCustomLanguageModelData
 {
     id dataSamples;
-    id customProns;
-    id dataSampleGenerators;
-    id locale;
-    id identifier;
-    id version;
 }
 
 @end

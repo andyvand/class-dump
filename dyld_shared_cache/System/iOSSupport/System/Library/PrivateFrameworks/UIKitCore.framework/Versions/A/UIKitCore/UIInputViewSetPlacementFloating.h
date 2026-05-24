@@ -6,39 +6,34 @@
 
 #import <UIKitCore/UIInputViewSetPlacementUndocked.h>
 
-@class NSArray, UIInputViewSetPlacementOnScreen, UIResponder, UIView;
+@class UIResponder;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewSetPlacementFloating : UIInputViewSetPlacementUndocked
 {
     double _floatingWidth;
-    UIView *_responderToFollow;
-    struct CGRect _responderRect;
-    struct CGSize _lastSize;
-    UIInputViewSetPlacementOnScreen *_cachedSecondaryPlacement;
-    NSArray *_subPlacements;
 }
 
 + (id);
 + (struct CGRect);
-+ (id)e:(struct CGPoint)arg1;
++ (id)initWithObject:(struct CGPoint)arg1 keyPath:(id)arg2 value: /* Error: Ran out of types for this method. */;
 + (_Bool)smiss the keyboard for the keyboard show/hide test;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)%{bool}d for notice collaboration id %s, elapsedMinutes:(id)arg1 %ld < threshold:%ld /* Error: Ran out of types for this method. */;
+- (void)ownload with error %@;
+- (void)message revocation for %@ in chat %@;
+- (id)o index with error %@;
+- (unsigned long long)16@?0@"IMResult"8;
+- (id)com.apple.private.Messages.IMDCKRecordSaltManager;
+- (id)PipelineParameter %p; GUID = %@; timestamp = %@; isFromStorage = %{BOOL}d; isLastFromStorage = %{BOOL}d; isFromMe = %{BOOL}d; OUTPUT chat = %@;;
 - (id);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -46,12 +41,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)\ð1Â0@ù
 × ;
 - (void)ntainer>"16;
-- (_Bool)g;
-- (void)thDimension:(id)arg1 multiplier:constant: /* Error: Ran out of types for this method. */;
-- (double)t;
+- (_Bool)hysteresisPadding;
+- (void)anchorByOffsettingWithDimension:(id)arg1 multiplier:constant: /* Error: Ran out of types for this method. */;
+- (double)_supplementaryViewClassDict;
 - (_Bool);
-- (Class)ow;
-- (_Bool)t;
+- (Class)_isInWindow;
+- (_Bool)UITextFormattingViewControllerHighlightDefault;
 - (void)0î\þ÷ª;
 
 // Remaining properties

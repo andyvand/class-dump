@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCBalancedCounter, FCDateRange, NFMutexLock, NSOperationQueue, NSString, NSURLSession;
-@protocol FCOperationThrottler, NDAnalyticsUploadSchedulerDelegate;
+@class NFMutexLock;
+@protocol NDAnalyticsUploadSchedulerDelegate;
 
 @interface NDAnalyticsUploadScheduler
 {
     id <NDAnalyticsUploadSchedulerDelegate> _delegate;
-    NFMutexLock *_lock;
-    FCDateRange *_deliveryWindow;
-    id <FCOperationThrottler> _schedulingAndForegroundUploadThrottler;
-    FCAsyncSerialQueue *_uploadQueue;
-    NSOperationQueue *_backgroundSessionQueue;
-    NSURLSession *_backgroundSession;
-    FCBalancedCounter *_backgroundSessionLaunchEventCounter;
 }
 
 - (void);
@@ -26,12 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)inGroupPositionData;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -48,21 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURLSession *backgroundSession; // @synthesize backgroundSession=_backgroundSession;
-@property(retain, nonatomic) FCBalancedCounter *backgroundSessionLaunchEventCounter; // @synthesize backgroundSessionLaunchEventCounter=_backgroundSessionLaunchEventCounter;
-@property(retain, nonatomic) NSOperationQueue *backgroundSessionQueue; // @synthesize backgroundSessionQueue=_backgroundSessionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NDAnalyticsUploadSchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) FCDateRange *deliveryWindow; // @synthesize deliveryWindow=_deliveryWindow;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NFMutexLock *lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) id <FCOperationThrottler> schedulingAndForegroundUploadThrottler; // @synthesize schedulingAndForegroundUploadThrottler=_schedulingAndForegroundUploadThrottler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCAsyncSerialQueue *uploadQueue; // @synthesize uploadQueue=_uploadQueue;
 
 @end
 

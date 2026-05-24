@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AVAudioDeviceBasedRouteTopology
 {
 }
 
-- (id);
+- (id)NEAccountIdentifiers;
+- (id)NEExtensionPacketTunnelProviderContext;
+- (_Bool)eyExchangeHandlerCryptoKitP521;
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id)ceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEEE;
+- (id)NSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEEE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *masterClockUID;
-@property(readonly, nonatomic) NSString *masterDeviceUID;
-@property(readonly, copy, nonatomic) NSString *name;
 @property(readonly, nonatomic, getter=isStacked) _Bool stacked;
-@property(readonly, nonatomic) NSArray *subDeviceUIDs;
-@property(readonly) Class superclass;
 
 @end
 

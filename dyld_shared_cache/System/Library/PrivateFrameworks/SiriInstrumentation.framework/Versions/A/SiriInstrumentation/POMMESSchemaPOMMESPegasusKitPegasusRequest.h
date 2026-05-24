@@ -6,23 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESPegasusRequestArguments;
-
 @interface POMMESSchemaPOMMESPegasusKitPegasusRequest : SISchemaInstrumentationMessage
 {
     unsigned int _rawRequestSizeInKB;
-    unsigned int _compressedRequestSizeInKB;
-    POMMESSchemaPOMMESPegasusRequestArguments *_pegasusRequestArguments;
-    struct {
-        unsigned int rawRequestSizeInKB:1;
-        unsigned int compressedRequestSizeInKB:1;
-    } _has;
-    _Bool _hasPegasusRequestArguments;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,22 +29,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobOptions_macOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)RY;
+- (_Bool)tForGUIDIsLegacyGUID called with isLegacyGUID %@;
 - (id);
 - (id);
-- (id)StatementId;
+- (id)_previousAnswerReferenceStatementId;
 - (id)Intent;
-- (void)SLAT;
+- (void)FLOWHOMEKITSERVICETYPE_SLAT;
 
 // Remaining properties
-@property(nonatomic) unsigned int compressedRequestSizeInKB; // @synthesize compressedRequestSizeInKB=_compressedRequestSizeInKB;
-@property(nonatomic) _Bool hasCompressedRequestSizeInKB;
-@property(nonatomic) _Bool hasPegasusRequestArguments; // @synthesize hasPegasusRequestArguments=_hasPegasusRequestArguments;
-@property(nonatomic) _Bool hasRawRequestSizeInKB;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestArguments *pegasusRequestArguments; // @synthesize pegasusRequestArguments=_pegasusRequestArguments;
 @property(nonatomic) unsigned int rawRequestSizeInKB; // @synthesize rawRequestSizeInKB=_rawRequestSizeInKB;
 
 @end

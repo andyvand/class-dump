@@ -7,15 +7,6 @@
 @interface BiomeSQLParser.PgQuery_XmlExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _op;
-    id _name;
-    id _namedArgs;
-    id _argNames;
-    id _args;
-    id _xmloption;
-    id _type;
-    id _typmod;
-    id _location;
 }
 
 @end

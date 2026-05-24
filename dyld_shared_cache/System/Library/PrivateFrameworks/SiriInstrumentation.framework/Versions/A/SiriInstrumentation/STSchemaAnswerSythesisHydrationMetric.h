@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaAnswerSythesisHydrationMetric : SISchemaInstrumentationMessage
 {
     int _asHydrationContentType;
-    int _asHydrationPerContentTypeTimeInMs;
-    struct {
-        unsigned int asHydrationContentType:1;
-        unsigned int asHydrationPerContentTypeTimeInMs:1;
-    } _has;
 }
 
 - (void);
@@ -23,27 +16,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (int);
 - (int);
+- (id)P<;
+- (void)A;
+- (unsigned long long)resultWithRestrictedActivity:bundleID: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardViewPhoneProperty;
+- (_Bool)unesMediaSongMetadataClass(void)_block_invoke;
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id)hasNextRejection;
+- (id)deleteIsNowPlayingBundlePSE1;
+- (id)_hasNextRejection;
 
 // Remaining properties
 @property(nonatomic) int asHydrationContentType; // @synthesize asHydrationContentType=_asHydrationContentType;
-@property(nonatomic) int asHydrationPerContentTypeTimeInMs; // @synthesize asHydrationPerContentTypeTimeInMs=_asHydrationPerContentTypeTimeInMs;
-@property(nonatomic) _Bool hasAsHydrationContentType;
-@property(nonatomic) _Bool hasAsHydrationPerContentTypeTimeInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

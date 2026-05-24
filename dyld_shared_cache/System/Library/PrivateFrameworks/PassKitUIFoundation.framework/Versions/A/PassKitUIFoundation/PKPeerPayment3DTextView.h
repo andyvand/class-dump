@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PKPeerPayment3DScene, PKPeerPayment3DStore, SCNView;
+@class SCNView;
 
 @interface PKPeerPayment3DTextView
 {
     SCNView *_sceneView;
-    PKPeerPayment3DScene *_scene;
-    double _sceneWidthUnits;
-    double _sceneHeightUnits;
-    NSMutableArray *_performHandlers;
-    double _dynamicRollPitchMix;
-    double _startAnimationTime;
-    double _animationDuration;
-    double _lastRenderTime;
-    _Bool _liveMotionEnabled;
-    _Bool _willAnimate;
-    _Bool _snapshotRequested;
-    _Bool _usedForSnapshotting;
-    unsigned long long _framesFullyRendered;
-    PKPeerPayment3DStore *_3DStore;
-    _Bool _layoutRequested;
-    NSArray *_charactersToDraw;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _renderStyle;
-    NSString *_text;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -42,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)AccessoryView";
+- (void)compositionByAppendingMediaObject:(struct CGSize)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -51,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long renderStyle; // @synthesize renderStyle=_renderStyle;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

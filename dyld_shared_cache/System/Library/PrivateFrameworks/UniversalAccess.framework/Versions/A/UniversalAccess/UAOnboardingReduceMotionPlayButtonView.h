@@ -10,25 +10,22 @@ __attribute__((visibility("hidden")))
 @interface UAOnboardingReduceMotionPlayButtonView
 {
     _Bool _isHovering;
-    NSImage *__hoverImage;
-    NSImage *__plainImage;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)t";
+- (_Bool)"isWebSearchUsed"b1"isUserSignedIn"b1"modelParty"b1"modelLocation"b1"useCase"b1"externalPartner"b1"genAIAgentUsed"b1};
+- (id)maGATGenerativeRequestContext";
+- (id)e"b1"actionStatementId"b1"donationTrigger"b1"wasTupleDonated"b1};
+- (void)hemaFLToolCandidateCategory";
+- (id)tatementId"b1"evaluationType"b1};
+- (void)chemaFLOWState";
+- (void){?="statusReason"b1};
+- (id)/JF
+;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *_hoverImage; // @synthesize _hoverImage=__hoverImage;
-@property(retain, nonatomic) NSImage *_plainImage; // @synthesize _plainImage=__plainImage;
-@property(nonatomic) _Bool isHovering; // @synthesize isHovering=_isHovering;
 
 @end
 

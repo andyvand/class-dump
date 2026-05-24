@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionProviderServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_listener;
-    NSObject<OS_xpc_object> *_endpoint;
-    NSString *_serviceName;
-    _Bool _internalDaemon;
 }
 
 + (id);

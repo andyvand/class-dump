@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface RTBluePOIMetadataMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_newHSMContent;
++ (id)_metadata;
++ (id)QRProtoH3EndToEndChannelUnRegisterRequest writeTo:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *categoryDenyList; // @dynamic categoryDenyList;
-@property(retain, nonatomic) NSData *geoCacheInfo; // @dynamic geoCacheInfo;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSDictionary *modelCalibrationParameters; // @dynamic modelCalibrationParameters;
 
 @end
 

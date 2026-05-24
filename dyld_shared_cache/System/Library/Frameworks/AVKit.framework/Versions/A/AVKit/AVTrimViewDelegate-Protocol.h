@@ -5,5 +5,8 @@
 //
 
 @protocol AVTrimViewDelegate
+
+@optional
+- (void);
 @end
 

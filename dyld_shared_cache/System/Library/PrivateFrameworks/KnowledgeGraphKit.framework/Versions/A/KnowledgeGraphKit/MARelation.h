@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
@@ -30,11 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MARelation *excludeSource;
-@property(readonly, nonatomic) MARelation *inverse;
-@property(readonly, nonatomic) _Bool isTransitive;
-@property(readonly, nonatomic) MARelation *optionalStep;
-@property(readonly, nonatomic) MARelation *transitiveClosure;
 @property(readonly, nonatomic) NSString *visualString;
 
 @end

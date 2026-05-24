@@ -7,9 +7,6 @@
 @interface NewsUI2.ShortcutItemUpdater
 {
     id subscriptionService;
-    id personalizationService;
-    id tagService;
-    id featureAvailability;
 }
 
 @end

@@ -11,16 +11,16 @@
     _Bool _shouldRunFollowUpAction;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
++ (_Bool)__swift5_reflstr__TEXT;
++ (_Bool)/libSystem.B.dylib;
+- (_Bool)|;
+- (void)|;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldRunFollowUpAction; // @synthesize shouldRunFollowUpAction=_shouldRunFollowUpAction;

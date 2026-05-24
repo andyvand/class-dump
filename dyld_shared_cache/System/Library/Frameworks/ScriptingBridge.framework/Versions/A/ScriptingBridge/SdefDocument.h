@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, NSXMLElement;
+@class NSXMLElement;
 
 __attribute__((visibility("hidden")))
 @interface SdefDocument
 {
     NSXMLElement *_sdef_root;
-    NSString *_basename;
-    NSMutableDictionary *_type_dictionary;
-    NSArray *_classes;
-    NSArray *_records;
-    NSArray *_commands;
-    NSArray *_enumerations;
 }
 
 + (id);
 - (struct typeinfo_t);
 - (struct typeinfo_t);
 - (id);
+- (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ms};
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

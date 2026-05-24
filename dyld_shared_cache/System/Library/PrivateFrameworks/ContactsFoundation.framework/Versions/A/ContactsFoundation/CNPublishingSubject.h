@@ -6,15 +6,9 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class CNObservableContractEnforcement, NSMutableArray, NSString;
-@protocol CNCancelable;
-
 @interface CNPublishingSubject : CNObservable
 {
     CNObservable *_observable;
-    id <CNCancelable> _upstreamToken;
-    NSMutableArray *_observers;
-    CNObservableContractEnforcement *_enforcement;
 }
 
 - (void);
@@ -23,31 +17,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id)Ôá&°!¨Aù1@*1Â0@ù
 × ;
-- (void)untsFromAccounts: /* Error: Ran out of types for this method. */;
-- (id)ring:inString: /* Error: Ran out of types for this method. */;
-- (void)holderString;
-- (id)es;
+- (void)writableAccountsFromAccounts: /* Error: Ran out of types for this method. */;
+- (id)rangesOfString:inString: /* Error: Ran out of types for this method. */;
+- (void)arabicGregorianPlaceholderString;
+- (id)CNFileServices;
 - (id)Z´ZäZ;
 - (void)NSString"16@?0@"DDScannerResult"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNObservableContractEnforcement *enforcement; // @synthesize enforcement=_enforcement;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CNObservable *observable; // @synthesize observable=_observable;
-@property(readonly, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CNCancelable> upstreamToken; // @synthesize upstreamToken=_upstreamToken;
 
 @end
 

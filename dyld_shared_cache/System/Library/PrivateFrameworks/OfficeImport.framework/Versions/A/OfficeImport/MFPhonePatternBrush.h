@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface MFPhonePatternBrush : MFPhoneBrush
 {
     MFPhoneBitmap *m_pattern;
-    _Bool m_usePaletteForBilevel;
 }
 
-+ (id);
-- (id);
++ (id);
+- (id)k	;
 - (void);
 - (void)Ì;
 

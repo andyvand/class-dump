@@ -13,19 +13,17 @@ __attribute__((visibility("hidden")))
     double _cornerAngleWindow;
 }
 
++ (id);
 + (id);
-+ (id);
+- (void)__data;
+- (void)__DATA;
+- (double)setIsUpdatingAttachmentFileSizes: /* Error: Ran out of types for this method. */;
+- (double)setIsRegistered: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (double);
-- (double);
-- (void);
-- (double);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (double)redoNextTransactionWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)setShouldReverseLayoutDirection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double cornerAngleWindow; // @synthesize cornerAngleWindow=_cornerAngleWindow;
-@property(nonatomic) double cornerAngleWindowDegreees;
 @property(nonatomic) double cornerSize; // @synthesize cornerSize=_cornerSize;
 
 @end

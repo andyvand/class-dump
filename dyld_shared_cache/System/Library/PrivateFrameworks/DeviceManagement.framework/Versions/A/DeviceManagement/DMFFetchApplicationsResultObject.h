@@ -13,11 +13,11 @@
 
 + (_Bool);
 - (id);
+- (id)4;
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *applicationsByIdentifier; // @synthesize applicationsByIdentifier=_applicationsByIdentifier;

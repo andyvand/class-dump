@@ -4,45 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface HMMutableArray
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_internal;
 }
 
 + (id);
-+ (id);
++ (id)oStartOfTextSegment;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)hC;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)enumerateTextRecordEntriesUsingBlock:(id)arg1;
+- (_Bool)decode;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)
+;
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (unsigned long long);
 - (void)	;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *array;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, copy, nonatomic) NSMutableArray *internal; // @synthesize internal=_internal;
 
 @end

@@ -5,9 +5,9 @@
 //
 
 @protocol _INPBHangUpCallIntentResponse
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHungUpCallType;
 @property(nonatomic) int hungUpCallType;
 @end
 

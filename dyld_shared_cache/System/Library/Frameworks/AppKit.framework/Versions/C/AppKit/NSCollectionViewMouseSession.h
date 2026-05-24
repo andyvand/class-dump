@@ -6,55 +6,38 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSCollectionView, NSEvent, NSIndexPath, NSMutableSet, NSSet, NSTimer, NSView;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewMouseSession : NSResponder
 {
     long long sessionNumber;
-    NSCollectionView *collectionView;
-    long long state;
-    NSEvent *mouseDownEvent;
-    struct CGPoint mouseDownPointInCollectionView;
-    NSEvent *lastNonPeriodicEvent;
-    NSSet *selectedIndexPathsAtStart;
-    NSMutableSet *indexPathsToSelect;
-    NSMutableSet *indexPathsToDeselect;
-    NSIndexPath *indexPathToDeselectOnMouseUpIfNoDrag;
-    NSMutableSet *dragCandidateIndexPaths;
-    NSSet *indexPathsBeingDragged;
-    _Bool unmodifiedMouseDownInAlreadySelectedItem;
-    _Bool dragSelectShouldModifyExistingSelection;
-    _Bool itemsBeingDraggedAreHidden;
-    _Bool trackingModally;
-    NSTimer *autoscrollTimer;
-    NSView *rubberbandView;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)__CoalescingConnectionKey>, std:(id)arg1:pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)relevantHTTPStatusCodes;
+- (id)_NSCFTranslatedFileURLProtocol_PIMPL_7;
 - (long long);
+- (_Bool)$;
+- (_Bool)_$;
+- (void);
+- (void)'t have a body stream, you don't need to be chunked.;
+- (void)eived Proxy Challenge %@ %u;
+- (void)sion <%{public}@> error requesting a NSURLSessionUploadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
+- (void)de closed;
+- (void)ake - generating errSSLClosedNoNotify;
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void):(id)arg1;
 - (void);
 - (void);
 - (_Bool);

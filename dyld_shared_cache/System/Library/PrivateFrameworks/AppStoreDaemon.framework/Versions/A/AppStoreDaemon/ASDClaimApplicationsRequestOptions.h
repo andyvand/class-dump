@@ -6,25 +6,17 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSArray, NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface ASDClaimApplicationsRequestOptions : ASDRequestOptions
 {
     _Bool _establishesActiveAccount;
-    _Bool _ignoresPreviousClaimAttempts;
-    _Bool _suppressErrorDialogs;
-    NSNumber *_accountID;
-    NSData *_clientAuditTokenData;
-    NSArray *_bundleIdentifiers;
-    long long _claimStyle;
-    NSDictionary *_httpHeaders;
-    NSNumber *_purchaseID;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_։"@9	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -40,18 +32,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)i;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, nonatomic) long long claimStyle; // @synthesize claimStyle=_claimStyle;
-@property(copy, nonatomic) NSData *clientAuditTokenData; // @synthesize clientAuditTokenData=_clientAuditTokenData;
-@property(nonatomic) _Bool establishesActiveAccount; // @synthesize establishesActiveAccount=_establishesActiveAccount;
-@property(copy, nonatomic) NSDictionary *httpHeaders; // @synthesize httpHeaders=_httpHeaders;
-@property(nonatomic) _Bool ignoresPreviousClaimAttempts; // @synthesize ignoresPreviousClaimAttempts=_ignoresPreviousClaimAttempts;
-@property(copy, nonatomic) NSNumber *purchaseID; // @synthesize purchaseID=_purchaseID;
-@property(nonatomic) _Bool suppressErrorDialogs; // @synthesize suppressErrorDialogs=_suppressErrorDialogs;
 
 @end
 

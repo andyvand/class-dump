@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)St3__110__function6__funcIZN6quasar31OnlineLatticeBiglmFasterDecoder26doEverythingWithRawLatticeERNS2_15DecoderPassDataERKNS_10shared_ptrINS2_18DecoderChainOutputEEERKNS6_INS2_17SpeechRequestDataEEERKN5kaldi6quasar37OnlineLatticeBiglmFasterDecoderConfigEiRKNS_6atomicIbEEE3$_0FbvEEE;
 
 @end
 

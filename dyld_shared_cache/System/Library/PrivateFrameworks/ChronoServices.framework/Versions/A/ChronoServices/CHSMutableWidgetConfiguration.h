@@ -6,14 +6,14 @@
 
 #import <ChronoServices/CHSWidgetConfiguration.h>
 
-@class CHSRemoteDevicePredicate, CHSWidgetMetricsSpecification, NSArray, NSSet;
+@class NSArray;
 
 @interface CHSMutableWidgetConfiguration : CHSWidgetConfiguration
 {
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -21,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyOrphaned; // @dynamic automaticallyOrphaned;
 @property(copy, nonatomic) NSArray *containerDescriptors; // @dynamic containerDescriptors;
-@property(nonatomic) double expirationTimeout; // @dynamic expirationTimeout;
-@property(copy, nonatomic) CHSWidgetMetricsSpecification *metricsSpecification; // @dynamic metricsSpecification;
-@property(copy, nonatomic) NSSet *rateLimitPolicies; // @dynamic rateLimitPolicies;
-@property(copy, nonatomic) CHSRemoteDevicePredicate *replicationPredicate; // @dynamic replicationPredicate;
 
 @end
 

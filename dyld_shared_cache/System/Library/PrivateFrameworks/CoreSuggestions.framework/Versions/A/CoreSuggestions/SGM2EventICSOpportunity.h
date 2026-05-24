@@ -9,14 +9,6 @@
 @interface SGM2EventICSOpportunity
 {
     NSString *_key;
-    int _recipient;
-    int _source;
-    _Bool _accountSetup;
-    struct {
-        unsigned int recipient:1;
-        unsigned int source:1;
-        unsigned int accountSetup:1;
-    } _has;
 }
 
 - (void);
@@ -32,15 +24,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)k;
+- (_Bool)urrently supported nclc, returning AMBDerrorUnsupported;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -50,14 +42,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool accountSetup; // @synthesize accountSetup=_accountSetup;
-@property(nonatomic) _Bool hasAccountSetup;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasRecipient;
-@property(nonatomic) _Bool hasSource;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int recipient; // @synthesize recipient=_recipient;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PKPaymentSetupProductImageAssetURLs, PKPaymentSetupProductImageAssets;
+@class NSString;
 
 @interface PKPaymentSetupProductCategory
 {
     NSString *_localizedSubtitle;
-    _Bool _allowOnManagedAccount;
-    NSString *_identifier;
-    NSString *_localizedDisplayName;
-    NSSet *_regions;
-    NSString *_localizedTitle;
-    NSString *_localizedSearchBarDefaultText;
-    unsigned long long _excludedContexts;
-    unsigned long long _capabilities;
-    PKPaymentSetupProductImageAssetURLs *_imageAssetURLs;
-    PKPaymentSetupProductImageAssets *_imageAssets;
-    NSSet *_productIdentifiers;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (id);
 - (id);
@@ -43,22 +32,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id):(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (id)getPassesOfType:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (void)utableArray"8;
 - (id)§£;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowOnManagedAccount; // @synthesize allowOnManagedAccount=_allowOnManagedAccount;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) unsigned long long excludedContexts; // @synthesize excludedContexts=_excludedContexts;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKPaymentSetupProductImageAssetURLs *imageAssetURLs; // @synthesize imageAssetURLs=_imageAssetURLs;
-@property(retain, nonatomic) PKPaymentSetupProductImageAssets *imageAssets; // @synthesize imageAssets=_imageAssets;
-@property(copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *localizedSearchBarDefaultText; // @synthesize localizedSearchBarDefaultText=_localizedSearchBarDefaultText;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) NSSet *productIdentifiers; // @synthesize productIdentifiers=_productIdentifiers;
-@property(copy, nonatomic) NSSet *regions; // @synthesize regions=_regions;
 
 @end
 

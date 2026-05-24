@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class CKServerChangeToken, NSDate, NSNumber, NSSet, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKDatabaseMetadata : NSManagedObject
@@ -20,14 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)c;
 
 // Remaining properties
-@property(retain, nonatomic) CKServerChangeToken *currentChangeToken; // @dynamic currentChangeToken;
-@property(retain, nonatomic) NSString *databaseName; // @dynamic databaseName;
-@property(nonatomic) long long databaseScope;
-@property(retain, nonatomic) NSNumber *databaseScopeNum; // @dynamic databaseScopeNum;
-@property(nonatomic) _Bool hasSubscription;
 @property(retain, nonatomic) NSNumber *hasSubscriptionNum; // @dynamic hasSubscriptionNum;
-@property(retain, nonatomic) NSDate *lastFetchDate; // @dynamic lastFetchDate;
-@property(retain, nonatomic) NSSet *recordZones; // @dynamic recordZones;
 
 @end
 

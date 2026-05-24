@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SharedAOPDebugStream.AOPSubscription
 {
     id trackingID;
-    id analytics;
-    id connect;
 }
 
 @end

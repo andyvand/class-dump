@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (int);
+- (int)48q56@64;
 - (void)Ë4;
 
 // Remaining properties

@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGCurationContentOrAestheticScoreTrait, PGCurationCropScoreTrait, PGCurationPartOfDayTrait, PGCurationSDFoodTrait, PGCurationSceneTrait, PGCurationSetTrait;
-
 @interface PGCurationCriteria
 {
     _Bool _filterUtilityAssets;
-    double _minimumAssetsRatio;
-    PGCurationSceneTrait *_compulsoryScenesTrait;
-    PGCurationSceneTrait *_scenesTrait;
-    PGCurationPartOfDayTrait *_partOfDayTrait;
-    unsigned long long _faceFilter;
-    PGCurationSetTrait *_peopleTrait;
-    PGCurationSetTrait *_socialGroupTrait;
-    PGCurationContentOrAestheticScoreTrait *_contentOrAestheticScoreTrait;
-    PGCurationCropScoreTrait *_cropScoreTrait;
-    PGCurationSDFoodTrait *_sdFoodTrait;
-    unsigned long long _client;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)setAccessibilitySelected: /* Error: Ran out of types for this method. */;
+- (void)isCurrentTokenValid;
+- (void)defaultsSetValue:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)_signalSelectionChanged:(double)arg1;
+- (void)_orderedArrayFromUnorderedElements:(_Bool)arg1 ordering: /* Error: Ran out of types for this method. */;
+- (void)_menuControllerSelectedItem;
+- (void)_inputMarkingSessionActive;
+- (void)_handleInfoChangedContentIncreased:(id)arg1 previousElementInfo: /* Error: Ran out of types for this method. */;
+- (void)_handleCandidateListSelectionChangeForUIElement:(id)arg1;
+- (id)_batteryStatusLastUpdated;
+- (id)_applicationElement;
 - (id);
 - (id);
+- (_Bool)t;
+- (_Bool)s;
+- (id);
+- (id)LibCall_ACMContextVerifyPolicyWithPreflight_Block;
 - (double);
 - (_Bool);
 - (id);
@@ -46,7 +33,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (double);
 - (double);
 - (_Bool);
@@ -55,21 +42,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void)regations;
+- (void)ratioOfCuratedAssetsInAggregations;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long client; // @synthesize client=_client;
-@property(retain, nonatomic) PGCurationSceneTrait *compulsoryScenesTrait; // @synthesize compulsoryScenesTrait=_compulsoryScenesTrait;
-@property(retain, nonatomic) PGCurationContentOrAestheticScoreTrait *contentOrAestheticScoreTrait; // @synthesize contentOrAestheticScoreTrait=_contentOrAestheticScoreTrait;
-@property(retain, nonatomic) PGCurationCropScoreTrait *cropScoreTrait; // @synthesize cropScoreTrait=_cropScoreTrait;
-@property(nonatomic) unsigned long long faceFilter; // @synthesize faceFilter=_faceFilter;
-@property(nonatomic) _Bool filterUtilityAssets; // @synthesize filterUtilityAssets=_filterUtilityAssets;
 @property(nonatomic) double minimumAssetsRatio; // @synthesize minimumAssetsRatio=_minimumAssetsRatio;
-@property(retain, nonatomic) PGCurationPartOfDayTrait *partOfDayTrait; // @synthesize partOfDayTrait=_partOfDayTrait;
-@property(retain, nonatomic) PGCurationSetTrait *peopleTrait; // @synthesize peopleTrait=_peopleTrait;
-@property(retain, nonatomic) PGCurationSceneTrait *scenesTrait; // @synthesize scenesTrait=_scenesTrait;
-@property(retain, nonatomic) PGCurationSDFoodTrait *sdFoodTrait; // @synthesize sdFoodTrait=_sdFoodTrait;
-@property(retain, nonatomic) PGCurationSetTrait *socialGroupTrait; // @synthesize socialGroupTrait=_socialGroupTrait;
 
 @end
 

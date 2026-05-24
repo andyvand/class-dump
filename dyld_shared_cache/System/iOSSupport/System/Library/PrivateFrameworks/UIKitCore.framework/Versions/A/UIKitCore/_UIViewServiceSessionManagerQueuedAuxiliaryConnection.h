@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
+- (id)`r;
+- (void)setArtworkDataSource:(id)arg1;
 - (id)1Â0@ù
 × ;
 - (void)eCConvertibleAttributedStringKeyP;

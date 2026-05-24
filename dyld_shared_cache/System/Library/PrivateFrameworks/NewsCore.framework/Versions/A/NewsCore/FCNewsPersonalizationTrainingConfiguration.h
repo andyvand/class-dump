@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsPersonalizationAggregateModificationConfigurations, FCNewsPersonalizationEventConditionalsConfigurations, FCNewsPersonalizationFeaturePriorsConfiguration, FCNewsPersonalizationTrainingBiases, FCNewsPersonalizationTrainingFeatureFlags;
+@class FCNewsPersonalizationEventConditionalsConfigurations;
 
 @interface FCNewsPersonalizationTrainingConfiguration
 {
     FCNewsPersonalizationEventConditionalsConfigurations *_eventConditionalsConfigurations;
-    FCNewsPersonalizationAggregateModificationConfigurations *_aggregateModificationConfigurations;
-    double _decayRate;
-    FCNewsPersonalizationFeaturePriorsConfiguration *_priorsConfiguration;
-    FCNewsPersonalizationTrainingBiases *_biases;
-    FCNewsPersonalizationTrainingFeatureFlags *_featureFlags;
 }
 
 - (void);
@@ -23,9 +18,9 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)=;
 - (void);
-- (void);
+- (void)nimate;
 - (void);
 - (id)1Â0@ù
 × ;
@@ -35,12 +30,7 @@
 - (id)s were requested to be cleared;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfigurations *aggregateModificationConfigurations; // @synthesize aggregateModificationConfigurations=_aggregateModificationConfigurations;
-@property(retain, nonatomic) FCNewsPersonalizationTrainingBiases *biases; // @synthesize biases=_biases;
-@property(nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
 @property(retain, nonatomic) FCNewsPersonalizationEventConditionalsConfigurations *eventConditionalsConfigurations; // @synthesize eventConditionalsConfigurations=_eventConditionalsConfigurations;
-@property(retain, nonatomic) FCNewsPersonalizationTrainingFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(retain, nonatomic) FCNewsPersonalizationFeaturePriorsConfiguration *priorsConfiguration; // @synthesize priorsConfiguration=_priorsConfiguration;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface PRLikenessCacheContext
 {
     _Bool _circular;
-    _Bool _forceDecode;
-    unsigned long long _cacheSize;
-    double _scale;
 }
 
 + (id);
@@ -20,14 +17,11 @@
 - (double);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
 @property unsigned long long cacheSize; // @synthesize cacheSize=_cacheSize;
-@property _Bool circular; // @synthesize circular=_circular;
-@property _Bool forceDecode; // @synthesize forceDecode=_forceDecode;
-@property double scale; // @synthesize scale=_scale;
 
 @end
 

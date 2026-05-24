@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, _BlastDoorLPVideoProperties;
+@class NSURL;
 
 @interface _BlastDoorLPVideo
 {
     _Bool _hasAudio;
-    NSURL *_streamingURL;
-    NSURL *_youTubeURL;
-    NSData *_data;
-    NSString *_MIMEType;
-    NSURL *_fileURL;
-    _BlastDoorLPVideoProperties *_properties;
 }
 
 + (_Bool);
@@ -27,13 +21,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ackButtonEnabled;
 - (_Bool);
 - (id);
 - (void);
@@ -42,13 +36,7 @@
 - (id)ùä¡l"¡ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
-@property(copy, nonatomic) _BlastDoorLPVideoProperties *properties; // @synthesize properties=_properties;
 @property(retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
-@property(retain, nonatomic) NSURL *youTubeURL; // @synthesize youTubeURL=_youTubeURL;
 
 @end
 

@@ -9,38 +9,32 @@
 @interface GEOPlaceDataAmendment
 {
     PBUnknownFields *_unknownFields;
-    _Bool _suppressSiriRating;
-    struct {
-        unsigned int has_suppressSiriRating:1;
-    } _flags;
 }
 
-+ (_Bool)et:(id)arg1;
++ (_Bool)setIsChainResultSet:(id)arg1;
 - (_Bool);
-- (void);
-- (void);
+- (void)valueForKey:(_Bool)arg1 withEntityName:entityKey: /* Error: Ran out of types for this method. */;
+- (void)_cn_isChildDelegateAccount;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)mples:(id)arg1 %{public}tu;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id)0@0:(struct _NSZone *)arg1 8@16@?24@?32;
-- (id)Mode;
+- (id)_themeColorDarkMode;
 - (id)èÆ¸Ç;
 - (id)y:(id)arg1 7 in (2, 6);
 - (void)&feûTK@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSuppressSiriRating;
-@property(nonatomic) _Bool suppressSiriRating;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

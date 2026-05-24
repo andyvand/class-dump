@@ -6,18 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImage, UIImageView;
-
 __attribute__((visibility("hidden")))
 @interface UIDropShadowRimPartView : UIView
 {
     long long _part;
-    UIImage *_image;
-    UIImageView *_imageView;
 }
 
-- (id);
-- (void);
+- (id)vacy Violation;
+- (void)0;
 - (void)ÚÒ<vh;
 
 @end

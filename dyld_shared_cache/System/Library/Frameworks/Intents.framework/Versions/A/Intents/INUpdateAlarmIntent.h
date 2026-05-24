@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INAlarm, INAlarmSearch, INDateComponentsRange, INSpeakableString, NSString;
+@class INAlarmSearch;
 
 @interface INUpdateAlarmIntent : INIntent
 {
@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)fileProtection;
 - (id);
 - (void);
 - (id);
@@ -37,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) INAlarm *alarm;
 @property(readonly, copy) INAlarmSearch *alarmSearch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long operation;
-@property(readonly, copy) INSpeakableString *proposedLabel;
-@property(readonly, copy) INDateComponentsRange *proposedTime;
-@property(readonly) Class superclass;
 
 @end
 

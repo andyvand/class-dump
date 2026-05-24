@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDTestFlightAppGenre
 {
     NSString *_genre;
-    NSNumber *_genreID;
 }
 
 + (_Bool);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)dingData:(struct _NSZone *)arg1 traceName:selectedRouteIndex:isReconnecting:isSimulation:] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *genre; // @synthesize genre=_genre;
-@property(readonly) NSNumber *genreID; // @synthesize genreID=_genreID;
 
 @end
 

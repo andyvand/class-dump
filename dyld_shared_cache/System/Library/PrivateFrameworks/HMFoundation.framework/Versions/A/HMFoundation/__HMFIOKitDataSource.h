@@ -13,25 +13,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long);
+- (long long)>	0	@	;
 - (long long);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *modelIdentifier;
-@property(readonly, nonatomic) long long productClass;
-@property(readonly, nonatomic) long long productPlatform;
-@property(readonly, nonatomic) long long productVariant;
 @property(readonly, copy, nonatomic) NSString *serialNumber;
-@property(readonly) Class superclass;
 
 @end
 

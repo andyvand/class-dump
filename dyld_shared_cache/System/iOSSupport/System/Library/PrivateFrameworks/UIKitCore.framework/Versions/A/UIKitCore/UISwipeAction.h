@@ -6,40 +6,30 @@
 
 #import <UIKitCore/UIContextualAction.h>
 
-@class UIColor, UIImage, UIVisualEffect;
-
 @interface UISwipeAction : UIContextualAction
 {
     _Bool _canBeTriggeredBySwipe;
-    _Bool _resetsSwipedRow;
-    UIVisualEffect *_backgroundEffect;
-    CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
++ (id)ur peer devices are on the allowed list, Not relaying message;
+- (void)IMDaemonAutomationProtocol;
+- (void)@;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)al message, loaded %@;
 - (_Bool);
 - (void);
 - (id);
 - (id)elegate>";
-- (CDUnknownBlockType)Rect: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)displayRect: /* Error: Ran out of types for this method. */;
 - (void)ion:(id)arg1;
-- (id)acheForImage: /* Error: Ran out of types for this method. */;
+- (id)_clearPretiledImageCacheForImage: /* Error: Ran out of types for this method. */;
 - (void)tyleEffectConfiguration",&,N,G_cuiStyleEffectConfiguration,S_setCuiStyleEffectConfiguration:(id)arg1;
 - (id)rnerSize;
 - (void)õ13xñnþ13Døÿí13hñnþí13|þõ13`ð¸þ;
 - (void)bí;
 
 // Remaining properties
-@property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;
-@property(nonatomic) _Bool canBeTriggeredBySwipe; // @synthesize canBeTriggeredBySwipe=_canBeTriggeredBySwipe;
-@property(copy, nonatomic) UIColor *color;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) UIImage *icon;
-@property(nonatomic) _Bool resetsSwipedRow; // @synthesize resetsSwipedRow=_resetsSwipedRow;
 
 @end
 

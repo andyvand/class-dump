@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HistoryOperation
 {
     History *_history;
-    CDUnknownBlockType _block;
 }
 
 - (id);

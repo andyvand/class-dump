@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADToPointPathElement : OADPathElement
 {
     struct OADAdjustPoint mToPoint;
-    _Bool mRelative;
 }
 
 - (void);

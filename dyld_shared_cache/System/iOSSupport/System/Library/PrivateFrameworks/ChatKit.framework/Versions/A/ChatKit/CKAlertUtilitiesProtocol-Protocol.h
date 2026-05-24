@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIAlertController;
+
 @protocol CKAlertUtilitiesProtocol
+- (void)ic_indexPathOfObjectAtIndex:(UIAlertController *)arg1 in:itemsPerSection: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

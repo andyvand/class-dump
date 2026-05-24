@@ -6,37 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTApiInvocationMetadata, MTSchemaMTAppInvocationMetadata, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTInvocationStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _isOnDeviceTranslation;
-    unsigned int _mobileAssetConfigVersion;
-    int _task;
-    int _inputSource;
-    _Bool _isExplicitLanguageFilterEnabled;
-    _Bool _isLanguageIdentificationEnabled;
-    int _displayMode;
-    SISchemaUUID *_qssSessionId;
-    int _invocationType;
-    MTSchemaMTAppInvocationMetadata *_appInvocationMetadata;
-    MTSchemaMTApiInvocationMetadata *_apiInvocationMetadata;
-    struct {
-        unsigned int isOnDeviceTranslation:1;
-        unsigned int mobileAssetConfigVersion:1;
-        unsigned int task:1;
-        unsigned int inputSource:1;
-        unsigned int isExplicitLanguageFilterEnabled:1;
-        unsigned int isLanguageIdentificationEnabled:1;
-        unsigned int displayMode:1;
-        unsigned int invocationType:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasQssSessionId;
-    _Bool _hasAppInvocationMetadata;
-    _Bool _hasApiInvocationMetadata;
-    unsigned long long _whichInvocationmetadata;
 }
 
 - (unsigned long long);
@@ -45,17 +19,18 @@
 - (void);
 - (void);
 - (void);
+- (void)T+
+;
+- (void);
+- (void);
+- (void);
+- (void)H;
+- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?׍;
 - (void);
 - (void);
 - (id);
@@ -64,13 +39,13 @@
 - (int);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -80,10 +55,10 @@
 - (void);
 - (void);
 - (void);
+- (void)@91;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)v;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -95,13 +70,13 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
-- (void);
-- (int);
+- (void)s/DiskManagement.framework/Versions/A/DiskManagement;
+- (void)gories view;
+- (int)setDisableRootVolumeSealCheck: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/AppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/hmac/hmac.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -110,36 +85,11 @@
 × ;
 - (id)ommandContext;
 - (id)C,N,V_voiceShortcutActions;
-- (void)IEnablementSource;
+- (void)IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablementSource;
 - (int)hÑÿ Ë­J/#;
 
 // Remaining properties
-@property(retain, nonatomic) MTSchemaMTApiInvocationMetadata *apiInvocationMetadata; // @synthesize apiInvocationMetadata=_apiInvocationMetadata;
-@property(retain, nonatomic) MTSchemaMTAppInvocationMetadata *appInvocationMetadata; // @synthesize appInvocationMetadata=_appInvocationMetadata;
-@property(nonatomic) int displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic) _Bool hasApiInvocationMetadata; // @synthesize hasApiInvocationMetadata=_hasApiInvocationMetadata;
-@property(nonatomic) _Bool hasAppInvocationMetadata; // @synthesize hasAppInvocationMetadata=_hasAppInvocationMetadata;
-@property(nonatomic) _Bool hasDisplayMode;
-@property(nonatomic) _Bool hasInputSource;
-@property(nonatomic) _Bool hasInvocationType;
-@property(nonatomic) _Bool hasIsExplicitLanguageFilterEnabled;
-@property(nonatomic) _Bool hasIsLanguageIdentificationEnabled;
-@property(nonatomic) _Bool hasIsOnDeviceTranslation;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasMobileAssetConfigVersion;
-@property(nonatomic) _Bool hasQssSessionId; // @synthesize hasQssSessionId=_hasQssSessionId;
-@property(nonatomic) _Bool hasTask;
-@property(nonatomic) int inputSource; // @synthesize inputSource=_inputSource;
-@property(nonatomic) int invocationType; // @synthesize invocationType=_invocationType;
-@property(nonatomic) _Bool isExplicitLanguageFilterEnabled; // @synthesize isExplicitLanguageFilterEnabled=_isExplicitLanguageFilterEnabled;
-@property(nonatomic) _Bool isLanguageIdentificationEnabled; // @synthesize isLanguageIdentificationEnabled=_isLanguageIdentificationEnabled;
-@property(nonatomic) _Bool isOnDeviceTranslation; // @synthesize isOnDeviceTranslation=_isOnDeviceTranslation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) unsigned int mobileAssetConfigVersion; // @synthesize mobileAssetConfigVersion=_mobileAssetConfigVersion;
-@property(retain, nonatomic) SISchemaUUID *qssSessionId; // @synthesize qssSessionId=_qssSessionId;
-@property(nonatomic) int task; // @synthesize task=_task;
-@property(readonly, nonatomic) unsigned long long whichInvocationmetadata; // @synthesize whichInvocationmetadata=_whichInvocationmetadata;
 
 @end
 

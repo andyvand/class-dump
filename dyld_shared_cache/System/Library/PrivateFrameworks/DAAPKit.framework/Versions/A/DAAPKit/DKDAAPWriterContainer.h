@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface DKDAAPWriterContainer
 {
     unsigned int _code;
-    NSMutableData *_childData;
 }
 
 - (void);
@@ -18,10 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)ertisingManager",W,V_advertisingManager;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *childData; // @synthesize childData=_childData;
 @property(readonly, nonatomic) unsigned int code; // @synthesize code=_code;
 
 @end

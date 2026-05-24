@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAccessibilityElement, NSString, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryViewAccessibilityHUDContentProvider
 {
     PXStoryViewModel *_viewModel;
-    _Bool _attached;
-    _Bool _cachedStringNeedsUpdate;
-    NSString *_cachedDisplayString;
-    NSAccessibilityElement *_currentFocusedAccessibilityElement;
-    NSAccessibilityElement *_previousFocusedAccessibilityElement;
 }
 
 - (id);

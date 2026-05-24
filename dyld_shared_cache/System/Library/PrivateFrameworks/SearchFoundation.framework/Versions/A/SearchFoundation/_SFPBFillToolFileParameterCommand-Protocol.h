@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBFillToolFileParameterCommand
+- (NSData *);
+- (NSData *)_isTopLevelUserCollection;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(copy, nonatomic) NSString *filePath;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

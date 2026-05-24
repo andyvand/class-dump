@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSStoreMetricsObjectExports__priv_D93910E9944B580F3C32343FA6C40C2A
+- (JSValue *);
 @end
 

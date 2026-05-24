@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores, NSArray, NSString, NTPBFeedItem;
+@class NSString;
 
 @interface UnknownClass (FCNotificationItem)
 - (id);
@@ -15,17 +15,6 @@
 - (id)ntHistory",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *algoID;
-@property(readonly, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) NSString *canonicalID;
-@property(readonly, nonatomic) NSString *channelID;
-@property(readonly, nonatomic) NSString *clusterID;
-@property(readonly, nonatomic) NTPBFeedItem *feedItem;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores *notabilityScores;
-@property(readonly, nonatomic) int source;
-@property(readonly, nonatomic) NSArray *suppressIfFollowingTagIDs;
-@property(readonly, nonatomic) unsigned int targetDeviceTypes;
-@property(readonly, nonatomic) long long targetMinNewsVersion;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, WBSReaderFontManager;
+@class NSDictionary;
 
 @interface WBSReaderConfigurationManager
 {
     long long _theme;
-    long long _darkModeTheme;
-    NSMutableDictionary *_fontFamilyNameForLanguageTag;
-    _Bool _prefersLargerDefaultFontSize;
-    _Bool _javaScriptEnabled;
-    _Bool _darkModeEnabled;
-    WBSReaderFontManager *_fontManager;
-    long long _textZoomIndex;
 }
 
 - (long long);
@@ -46,16 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canMakeTextBigger;
-@property(readonly, nonatomic) _Bool canMakeTextSmaller;
 @property(readonly, nonatomic) NSDictionary *configurationToSave;
-@property(readonly, nonatomic) NSDictionary *configurationToSendToWebPage;
-@property(nonatomic) _Bool darkModeEnabled; // @synthesize darkModeEnabled=_darkModeEnabled;
-@property(readonly, nonatomic) long long effectiveTextZoomIndex;
-@property(readonly, nonatomic) WBSReaderFontManager *fontManager; // @synthesize fontManager=_fontManager;
-@property(nonatomic) _Bool javaScriptEnabled; // @synthesize javaScriptEnabled=_javaScriptEnabled;
-@property(readonly, nonatomic) _Bool resettingTextSizeWouldHaveEffect;
-@property(nonatomic) long long textZoomIndex; // @synthesize textZoomIndex=_textZoomIndex;
 
 @end
 

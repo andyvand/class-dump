@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMixInputParametersInternal, NSString;
+@class AVAudioMixInputParametersInternal;
 
 @interface AVAudioMixInputParameters
 {
@@ -18,13 +18,13 @@
 - (void);
 - (void);
 - (void);
+- (void)g;
+- (void)X;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)9H:(CDStruct_1b6d18a9)arg1 ;;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,18 +34,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (struct opaqueMTAudioProcessingTap *);
+- (struct opaqueMTAudioProcessingTap *);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ɓ;
+- (void)�?;
 - (void);
 - (void);
 - (id);
@@ -56,13 +56,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (int)V;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) struct opaqueMTAudioProcessingTap *audioTapProcessor;
-@property(readonly, copy, nonatomic) NSString *audioTimePitchAlgorithm;
 @property(readonly, nonatomic) int trackID;
 
 @end

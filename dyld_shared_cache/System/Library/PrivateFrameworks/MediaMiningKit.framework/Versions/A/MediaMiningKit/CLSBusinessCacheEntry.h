@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface CLSBusinessCacheEntry
 {
 }
 
-+ (id)er: /* Error: Ran out of types for this method. */;
++ (id)dateByAddingYears:toDate:withCalendarIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *businessItems; // @dynamic businessItems;
 @property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) double radius; // @dynamic radius;
-@property(nonatomic) double updateTimestamp; // @dynamic updateTimestamp;
 
 @end
 

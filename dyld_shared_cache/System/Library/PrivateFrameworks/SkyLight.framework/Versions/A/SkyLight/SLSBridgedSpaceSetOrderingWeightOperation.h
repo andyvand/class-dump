@@ -9,12 +9,11 @@
 @interface SLSBridgedSpaceSetOrderingWeightOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     int _weight;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)lement without a property;
+- (id)ontext initializeCachesWithManagedObjectContext:(unsigned long long)arg1 andObservedStore:(int)arg2 error:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) int weight; // @synthesize weight=_weight;
 
 @end
 

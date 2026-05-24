@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INConnectedCall, NSArray;
+@class NSArray;
 
 @protocol INAnswerCallIntentResponseExport
-- (long long)bundle:language: /* Error: Ran out of types for this method. */;
+- (NSArray *)-;
+- (long long)grammarCollectionNamed:bundle:language: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(copy) INConnectedCall *answeredCall;
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
-@property long long statusCode;
 @end
 

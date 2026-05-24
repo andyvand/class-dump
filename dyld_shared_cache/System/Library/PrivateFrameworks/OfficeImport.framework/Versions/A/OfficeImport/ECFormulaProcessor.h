@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ECFormulaProcessor
 {
     void *mXlFormulaProcessorLasso;
-    void *mXlFormulaProcessorXl;
-    void *mXlNameTable;
-    void *mLassoSheetNames;
-    void *mXlSheetNames;
-    void *mXlLinkTable;
 }
 
 + (id);

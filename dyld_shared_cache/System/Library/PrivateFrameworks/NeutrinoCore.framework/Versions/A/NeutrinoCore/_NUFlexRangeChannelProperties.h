@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NUFlexRangeChannelProperties
 {
     float _min;
-    float _max;
-    float _gamma;
-    float _baseOffset;
-    float _alternateOffset;
 }
 
 - (void);
 - (float);
+- (void)__oslogstring;
 - (void);
+- (float);
 - (void);
-- (float);
-- (void);
-- (float);
+- (float)matchesInString:options:range: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -29,18 +23,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float alternateOffset; // @synthesize alternateOffset=_alternateOffset;
-@property(nonatomic) float baseOffset; // @synthesize baseOffset=_baseOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float gamma; // @synthesize gamma=_gamma;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float max; // @synthesize max=_max;
 @property(nonatomic) float min; // @synthesize min=_min;
-@property(readonly) Class superclass;
 
 @end
 

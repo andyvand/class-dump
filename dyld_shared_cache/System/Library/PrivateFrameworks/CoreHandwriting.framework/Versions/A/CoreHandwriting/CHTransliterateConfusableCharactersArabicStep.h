@@ -9,10 +9,9 @@
 @interface CHTransliterateConfusableCharactersArabicStep : CHPostprocessingStepModifyingOriginalTokens
 {
     struct map<std::string, std::pair<std::string, double>, std::less<std::string>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>> _transliterationMapArabicLetters;
-    struct map<std::string, std::pair<std::string, double>, std::less<std::string>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>> _transliterationMapArabicNumbers;
 }
 
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void)*;

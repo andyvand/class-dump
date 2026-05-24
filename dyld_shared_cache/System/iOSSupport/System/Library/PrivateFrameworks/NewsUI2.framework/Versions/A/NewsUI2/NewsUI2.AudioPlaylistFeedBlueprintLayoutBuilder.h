@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
 }
 
 @end

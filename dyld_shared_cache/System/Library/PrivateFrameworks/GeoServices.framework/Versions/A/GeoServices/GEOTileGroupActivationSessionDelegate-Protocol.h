@@ -5,5 +5,7 @@
 //
 
 @protocol GEOTileGroupActivationSessionDelegate
+- (void);
+- (void)A;
 @end
 

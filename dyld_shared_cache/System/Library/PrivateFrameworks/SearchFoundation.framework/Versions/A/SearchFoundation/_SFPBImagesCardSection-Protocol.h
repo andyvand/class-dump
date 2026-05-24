@@ -7,20 +7,17 @@
 @class NSArray, NSData, NSString, _SFPBColor;
 
 @protocol _SFPBImagesCardSection
+- (NSString *);
+- (NSString *)*;
+- (_Bool)%;
+- (_Bool)initWithRequestContext:storeItemID:affiliateIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithMediaAPIResponse: /* Error: Ran out of types for this method. */;
+- (unsigned long long)%@, unable to convert to savedAccount;
+- (void)setBeingDeemphasized:(_SFPBColor *)arg1;
+- (NSData *)_sourceCodeFile;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool borderless;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString, TIMetricDescriptorRegistry;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIFeatureUsageMetricsCache
 {
     NSString *_inputMode;
-    TIMetricDescriptorRegistry *_metricDescriptorRegistry;
-    NSDate *_testingTimestamp;
-    NSDate *_queryEndDate;
-    NSMutableDictionary *_cachedMetrics;
-    NSDictionary *_defaultMetrics;
-    _Bool _sufficientData;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)kMDItemLastUsedDate_Ranking;
 - (id);
 - (void);
 - (void);

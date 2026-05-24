@@ -5,6 +5,8 @@
 //
 
 @protocol _UIKeyboardAutoRespondingScrollView
+- (void)setRequestedDowngradeExpirationDate:(_Bool)arg1;
+- (_Bool)_translating;
 
 // Remaining properties
 @property(nonatomic, getter=_keepsFirstResponderVisibleOnBoundsChange, setter=_setKeepsFirstResponderVisibleOnBoundsChange:) _Bool keepsFirstResponderVisibleOnBoundsChange;

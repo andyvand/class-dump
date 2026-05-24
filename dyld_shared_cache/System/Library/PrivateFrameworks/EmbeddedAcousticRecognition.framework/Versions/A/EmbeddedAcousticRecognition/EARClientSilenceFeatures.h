@@ -7,11 +7,6 @@
 @interface EARClientSilenceFeatures
 {
     double _silenceFramesCountMs;
-    double _silenceProbability;
-    double _silenceDurationMs;
-    double _silencePosterior;
-    double _processedAudioMs;
-    unsigned long long _inferenceTime;
 }
 
 - (void);
@@ -20,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (double);
 - (double);
@@ -30,12 +25,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) unsigned long long inferenceTime; // @synthesize inferenceTime=_inferenceTime;
-@property(nonatomic) double processedAudioMs; // @synthesize processedAudioMs=_processedAudioMs;
-@property(nonatomic) double silenceDurationMs; // @synthesize silenceDurationMs=_silenceDurationMs;
 @property(nonatomic) double silenceFramesCountMs; // @synthesize silenceFramesCountMs=_silenceFramesCountMs;
-@property(nonatomic) double silencePosterior; // @synthesize silencePosterior=_silencePosterior;
-@property(nonatomic) double silenceProbability; // @synthesize silenceProbability=_silenceProbability;
 
 @end
 

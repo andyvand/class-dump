@@ -6,16 +6,11 @@
 
 #import <CommerceKit/CKServiceInterface.h>
 
-@class CKDownloadQueueClient, NSArray, NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CKDownloadQueue : CKServiceInterface
 {
     NSMutableDictionary *_downloadsByItemID;
-    NSLock *_downloadsLock;
-    NSLock *_tokenLock;
-    id _observerToken;
-    NSMutableDictionary *_downloadQueueObservers;
-    CKDownloadQueueClient *_sharedObserver;
 }
 
 + (id);
@@ -33,22 +28,20 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e no background jobs for bundle %@;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *downloadQueueObservers; // @synthesize downloadQueueObservers=_downloadQueueObservers;
-@property(readonly, nonatomic) NSArray *downloads; // @dynamic downloads;
-@property(retain, nonatomic) CKDownloadQueueClient *sharedObserver; // @synthesize sharedObserver=_sharedObserver;
 
 @end
 

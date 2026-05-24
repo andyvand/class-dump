@@ -11,7 +11,7 @@
     NSSet *_strokeIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)_heightOfFixedSizeSpace;
 - (id);
 - (id);
 - (id);

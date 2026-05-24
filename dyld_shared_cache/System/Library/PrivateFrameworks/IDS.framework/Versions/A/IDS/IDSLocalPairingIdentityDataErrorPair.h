@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError;
+@class NSData;
 
 @interface IDSLocalPairingIdentityDataErrorPair
 {
     NSData *_identityData;
-    NSError *_error;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)X: /* Error: Ran out of types for this method. */;
+- (id)4;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)uest:(id)arg1 %@;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSData *identityData; // @synthesize identityData=_identityData;
 
 @end

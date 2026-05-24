@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _NSLocalizedStringResource;
+@class NSString;
 
 @interface WFDeferredLocalizedString
 {
     NSString *_localizedValue;
-    _NSLocalizedStringResource *_stringResource;
-    NSString *_backingStore;
 }
 
-- (id);
-- (void);
+- (id)z;
+- (void)|;
 - (void);
 - (id);
 - (id);
@@ -22,14 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short)P;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backingStore; // @synthesize backingStore=_backingStore;
-@property(copy, nonatomic) NSString *localizedValue; // @synthesize localizedValue=_localizedValue;
-@property(copy, nonatomic) _NSLocalizedStringResource *stringResource; // @synthesize stringResource=_stringResource;
 
 @end
 

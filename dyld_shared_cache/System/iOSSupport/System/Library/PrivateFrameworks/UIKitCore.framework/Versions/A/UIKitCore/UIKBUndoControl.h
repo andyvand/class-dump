@@ -6,44 +6,33 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSLayoutConstraint, UIImageView, UIKBUndoStyling, UILabel, UIView, _UISlotView;
-
 __attribute__((visibility("hidden")))
 @interface UIKBUndoControl : UIControl
 {
     long long _type;
-    UIKBUndoStyling *_style;
-    UIView *_springCoverView;
-    UILabel *_label;
-    UIImageView *_icon;
-    _UISlotView *_securePasteButtonSlotView;
-    NSLayoutConstraint *_coverConstraintLeftAnchor;
-    NSLayoutConstraint *_coverConstraintRightAnchor;
-    NSLayoutConstraint *_coverConstraintTopAnchor;
-    NSLayoutConstraint *_coverConstraintBottomAnchor;
 }
 
 + (id);
 - (void);
+- (void)SaySo19IMSimulatedNicknameCG;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void):(id)arg1 from service that doesn't support it. File a radar-------*/;
+- (void)eflectMarkUnreadToPeerDevicesForMessageGUID:(id)arg1 from service that doesn't support it. File a radar-------*/;
+- (void)e a radar-------*/;
+- (id):could not find iMessage session to find iMessage chat. /* Error: Ran out of types for this method. */;
+- (void)pamExtensionID:(long long)arg1 %@, isUsingFirstPartyFilter:(id)arg2 %{BOOL}d, containsOneTimeCode:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id)style %hhu need to have shouldForceToSMS updated to %@.;
+- (id)omStorage:%@, isFromMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
+- (id)estamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
+- (id)ePipelineParameter %p> { guid:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
+- (id)nary"8{_NSRange=QQ}16^B32;
+- (id)sage-format-version;
+- (id)OTP_CLEANUP_ALERT_TITLE;
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)setPayloadProviderConfiguration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -59,15 +48,6 @@ __attribute__((visibility("hidden")))
 - (void)ØPþvß;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *coverConstraintBottomAnchor; // @synthesize coverConstraintBottomAnchor=_coverConstraintBottomAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *coverConstraintLeftAnchor; // @synthesize coverConstraintLeftAnchor=_coverConstraintLeftAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *coverConstraintRightAnchor; // @synthesize coverConstraintRightAnchor=_coverConstraintRightAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *coverConstraintTopAnchor; // @synthesize coverConstraintTopAnchor=_coverConstraintTopAnchor;
-@property(retain, nonatomic) UIImageView *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) __weak _UISlotView *securePasteButtonSlotView; // @synthesize securePasteButtonSlotView=_securePasteButtonSlotView;
-@property(retain, nonatomic) UIView *springCoverView; // @synthesize springCoverView=_springCoverView;
-@property(retain, nonatomic) UIKBUndoStyling *style; // @synthesize style=_style;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -6,16 +6,15 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHObjectPlaceholder;
-@protocol PLChangesForServiceHandling;
+@class PHObjectPlaceholder;
 
 @interface PHKeywordChangeRequest : PHChangeRequest
 {
 }
 
++ (id)=6;
 + (id);
-+ (id);
-+ (void);
++ (void);
 - (id);
 - (id);
 - (id);
@@ -28,30 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (void)t;
+- (void)_rowCount;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedKeyword;
-@property(copy, nonatomic) NSString *shortcut;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

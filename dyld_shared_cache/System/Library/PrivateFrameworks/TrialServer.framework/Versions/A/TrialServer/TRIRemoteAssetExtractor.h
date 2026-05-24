@@ -12,9 +12,9 @@
     NSObject<OS_xpc_object> *_monitoredActivity;
 }
 
-- (CDStruct_6b48f683);
+- (CDStruct_6b48f683)HTTPActivity;
 - (id);
-- (id);
+- (id)ech.synthesis.SpeechSynthesisServer;
 - (void)a×ð!ðAù1!1Â0@ù
 × ;
 

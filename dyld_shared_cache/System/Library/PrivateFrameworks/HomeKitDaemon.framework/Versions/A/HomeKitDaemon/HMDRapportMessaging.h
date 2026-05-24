@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, RPCompanionLinkClient;
-@protocol HMDRapportMessagingClientFactory, HMDRapportMessagingReachabilityDelegate, OS_dispatch_queue;
+@protocol HMDRapportMessagingReachabilityDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDRapportMessaging
 {
     struct os_unfair_lock_s _lock;
-    id <HMDRapportMessagingReachabilityDelegate> _reachabilityDelegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDRapportMessagingClientFactory> _clientFactory;
-    RPCompanionLinkClient *_discoveryClient;
-    NSMutableDictionary *_receiverContexts;
-    NSMutableDictionary *_deviceClients;
 }
 
 + (id)O°;
 + (id)4¤¤^B;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)ander.Timeout;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)
 × ;
 - (id)!PEùÐ1Â0@ù
 × ;
-- (void)orUserIDs:(id)arg1;
-- (void)reEventCounter;
+- (void)addFireWallEntryForUserIDs:(id)arg1;
+- (void)HMDLogEventUserActivityAnalyzerCameraStreamStartFailureEventCounter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <HMDRapportMessagingReachabilityDelegate> reachabilityDelegate; // @synthesize reachabilityDelegate=_reachabilityDelegate;
-@property(readonly) Class superclass;
 
 @end
 

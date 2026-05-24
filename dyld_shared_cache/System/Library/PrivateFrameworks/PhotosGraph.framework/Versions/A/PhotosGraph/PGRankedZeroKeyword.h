@@ -9,17 +9,15 @@
 @interface PGRankedZeroKeyword
 {
     NSDictionary *_zeroKeyword;
-    double _score;
 }
 
 - (id);
-- (id);
+- (id)setActiveMenuController:(id)arg1;
 - (_Bool);
 - (double);
 - (void)/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/TripTitling/PGTripTitlingQuestionFactory.m;
 
 // Remaining properties
-@property(readonly) double score; // @synthesize score=_score;
 @property(readonly) NSDictionary *zeroKeyword; // @synthesize zeroKeyword=_zeroKeyword;
 
 @end

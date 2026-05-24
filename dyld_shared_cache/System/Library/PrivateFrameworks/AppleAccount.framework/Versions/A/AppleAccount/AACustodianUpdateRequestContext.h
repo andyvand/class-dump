@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AACustodianUpdateRequestContext
 {
     NSUUID *_custodianID;
-    NSString *_telemetryFlowID;
-    NSString *_altDSID;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)(%d);
+- (id)MCXLockFileInHomeDir():lseek(%d, 0, 0) = %lld (%s) /* Error: Ran out of types for this method. */;
+- (id)U;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)ount:accountStore: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)initWithAppleAccount:grandSlamAccount:accountStore: /* Error: Ran out of types for this method. */;
 - (id)su5Wª¾r$-î6Ïè|ÁØgK'¢í·¤Â\#ÿ£ÞÚÜqì³Æ	P¡k©Åe÷àñ¥f¬ÔnJ:¼7{Ìxzæýá!m=Ã¦U< +ï?2ë /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(readonly, copy, nonatomic) NSUUID *custodianID; // @synthesize custodianID=_custodianID;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

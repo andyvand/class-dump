@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceRequest, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStatePlaceRequest
 {
     PBUnknownFields *_unknownFields;
-    GEOPDPlaceRequest *_placeDataRequest;
-    int _placeRequestType;
-    struct {
-        unsigned int has_placeRequestType:1;
-    } _flags;
 }
 
-+ (_Bool)pportsBrandFallback:(id)arg1;
++ (_Bool)setHasSupportsBrandFallback:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -24,34 +19,30 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (int);
-- (void);
+- (void)_notifyObserver:(int)arg1 withSoftwareUpdateCheckingRunning: /* Error: Ran out of types for this method. */;
+- (int)int;
+- (void)&M;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)_showMapAttribution;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id)stingDictionaryForIsWeekdayInRange;
-- (id)seMs;
+- (id)testingDictionaryForIsWeekdayInRange;
+- (id)tPoseMs;
 - (void)´;
 - (id)alized because some data is missing.
 Link hasAdamID:%s, url:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ION_PICKER;
+- (_Bool)TRANSIT_STATION_PICKER;
 - (id);
 - (_Bool)d¼;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPlaceDataRequest;
 @property(nonatomic) _Bool hasPlaceRequestType;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeDataRequest;
-@property(nonatomic) int placeRequestType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

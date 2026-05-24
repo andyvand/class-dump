@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)RawValue;
 - (unsigned long long);
 - (_Bool);
 - (long long);

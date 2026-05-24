@@ -13,8 +13,9 @@
     NSDictionary *_keyValues;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)from prefs:old value:%d, new value:%d
+ /* Error: Ran out of types for this method. */;
+- (id)ry>",C,N,V_summary;
 - (id);
 - (void);
 - (id);

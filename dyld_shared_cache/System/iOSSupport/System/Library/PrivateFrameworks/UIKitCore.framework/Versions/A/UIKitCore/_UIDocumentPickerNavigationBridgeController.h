@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UINavigationController.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDocumentPickerNavigationBridgeController : UINavigationController
 {
@@ -19,27 +17,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)not disturb;
+- (void)dQOI:%{BOOL}d wantsReceipt:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)';
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)e:(id)arg1;
-- (void)ateForDocumentText:(id)arg1 revertText:(_Bool)arg2 textChoices:range:underlineStyle:promptStyle:promptButton: /* Error: Ran out of types for this method. */;
+- (void)setFocusName:(id)arg1;
+- (void)candidateForDocumentText:(id)arg1 revertText:(_Bool)arg2 textChoices:range:underlineStyle:promptStyle:promptButton: /* Error: Ran out of types for this method. */;
 - (id)Td,N,V_projectionThreshold;
 - (id)N,VemojiKeyManager;
 - (void)phoneCompactHeightSides;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

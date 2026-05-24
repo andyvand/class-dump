@@ -5,5 +5,9 @@
 //
 
 @protocol NSDraggingSource
+
+@optional
+- (void)B;
+- (void);
 @end
 

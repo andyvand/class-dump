@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, VNRequestSpecifier;
+@class NSArray, NSDictionary;
 
 @interface VNDetectionprint
 {
     NSDictionary *_tensorsDictionary;
-    VNRequestSpecifier *_originatingRequestSpecifier;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)accommodatePresentedSubitemDeletionAtURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -29,8 +28,6 @@
 - (void)anager.detectorDescriptorsCache: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 @property(readonly, copy, nonatomic) NSArray *tensorKeys;
 
 @end

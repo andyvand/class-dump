@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (void);
++ (void)T;
++ (void);
++ (void)q(;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void);
 + (id);
 + (void);
 

@@ -12,11 +12,11 @@
 }
 
 + (_Bool)ÿvþoþ;
-- (struct _UICornerInsets);
+- (struct _UICornerInsets);
 - (id);
 - (id);
 - (id)@0:(id)arg1 8@"NSAdaptiveImageGlyph"16;
-- (_Bool)ToImageView:(id)arg1;
+- (_Bool)applyToImageView:(id)arg1;
 - (void)lItems,V__mutableAdditionalItems;
 - (void)¨?l;
 

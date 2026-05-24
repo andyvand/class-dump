@@ -11,7 +11,7 @@
     NSArray *_items;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void)tIndex: /* Error: Ran out of types for this method. */;
+- (void)textView:willDisplayToolTip:forCharacterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;

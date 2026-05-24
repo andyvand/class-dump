@@ -6,13 +6,9 @@
 
 #import <NeutrinoCore/NURenderNode.h>
 
-@class NSString;
-@protocol NUSourceDerivation;
-
 @interface NUSourceNode : NURenderNode
 {
     NURenderNode *_originalNode;
-    id <NUSourceDerivation> _sourceDerivation;
 }
 
 - (_Bool);
@@ -28,6 +24,10 @@
 - (long long);
 - (_Bool);
 - (id);
+- (id)6;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,11 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (long long);
 - (id);
 - (_Bool);
@@ -52,11 +48,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxiliaryImageType;
-@property(readonly, nonatomic) NSString *auxiliaryImageTypeString;
 @property __weak NURenderNode *originalNode; // @synthesize originalNode=_originalNode;
-@property(retain) id <NUSourceDerivation> sourceDerivation; // @synthesize sourceDerivation=_sourceDerivation;
-@property(readonly) long long sourceOrientation;
 
 @end
 

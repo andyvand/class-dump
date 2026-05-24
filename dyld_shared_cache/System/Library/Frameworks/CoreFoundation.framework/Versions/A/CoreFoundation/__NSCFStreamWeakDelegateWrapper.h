@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface __NSCFStreamWeakDelegateWrapper
 {
     id <NSStreamDelegate> _object;
-    _Bool _useFallback;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

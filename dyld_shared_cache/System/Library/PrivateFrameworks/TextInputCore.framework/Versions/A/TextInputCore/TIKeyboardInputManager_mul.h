@@ -6,21 +6,9 @@
 
 #import <TextInputCore/TIKeyboardInputManager.h>
 
-@class NSDictionary, TIKeyboardFeatureSpecialization;
-
 @interface TIKeyboardInputManager_mul : TIKeyboardInputManager
 {
     _Bool _isSuspended;
-    _Bool _choseSecondaryPrev;
-    _Bool _choseSecondary;
-    _Bool _shouldAutocapitalizeCandidates;
-    TIKeyboardFeatureSpecialization *_keyboardFeatureSpecializationSecondary;
-    NSDictionary *_keyLayoutMap;
-    NSDictionary *_keyLayoutMapReverse;
-    long long _reasonForFreezing;
-    long long _indexOfLastDynamicSwitch;
-    struct USet *_validUSetForAutocorrection;
-    struct USet *_validUSetForAutocorrectionSecondary;
 }
 
 + (id);
@@ -28,9 +16,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
-- (void);
+- (void)[;
 - (id);
 - (long long);
 - (void);
@@ -40,9 +28,9 @@
 - (id);
 - (id);
 - (struct USet *);
-- (_Bool);
+- (_Bool)er is busy;
 - (long long);
-- (void);
+- (void)__textPositionForAttribute:axfPosition: /* Error: Ran out of types for this method. */;
 - (struct _NSRange);
 - (id);
 - (_Bool);
@@ -50,42 +38,42 @@
 - (unsigned int);
 - (id);
 - (void);
+- (id)id pid [%d] for exclave info tid 0x%llu;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void *);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)acebook.BroadcastUploadExtension;
+- (id)nputmethod.ChineseHandwriting;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)pack %{public}@ has missing factor name.;
+- (void)%@). Selected namespace %{public}@ -> %{public}@;
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (struct USet *);
+- (id)~x;
+- (void);
 - (_Bool);
-- (vector_aeb0b352);
-- (_Bool);
+- (void);
+- (id);
+- (struct USet *)e %@;
+- (_Bool)L=%@ appEntityInstanceId=%@ name=%@ score=(likelihood=%lf topicality=%lf originalTopicalityScore=%lf pommesL1Score=%lf adjustedSparseScore=%lf pommesCalibratedL1Score=%lf embeddingSimilarity=%lf projectedEmbeddingSimilarity=%lf keywordMatchScore=%lf freshness=%lf engagement=%lf pommesL2Score=%lf searchtoolL2Score=%f) documentSignals=(detectedEventTypes=%@ cardType=%@ link=(type=%@ name=%@ url=%@ isInferred=%i isPromoted=%i) isMailCategoryHighImpact=%i isMailCategoryPromotions=%i startDueDateToNowInSeconds=%ld isCalendarFlightEventType=%i isCalendarHotelEventType=%i isCalendarRestaurantEventTyp=%i isCalendarOtherReservationEventType=%i mostRecentTimeToQueryInMinutes=%ld) topicalityAnonFeatDict=(%@) dates=(lastUsedDate=[%@] contentCreationDate=[%@] contentModificationDate=[%@] receivedDate=[%@] sentDate=[%@] startDate=[%@] endDate=[%@]) retrievalType=%i documentEmbeddingAvailable=%d searchTermsMatchTitle=%@;
+- (vector_aeb0b352)local_bundle_id_num_prefix_word_match_abs_rank;
+- (_Bool)com_apple_mobilesms_chatUniqueIdentifier;
 - (id);
 - (id);
 - (_Bool);
@@ -98,15 +86,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
-- (void);
+- (void)2^;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)remoteView;
 - (_Bool);
 - (id);
 - (void);
@@ -118,15 +106,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool choseSecondary; // @synthesize choseSecondary=_choseSecondary;
-@property(nonatomic) long long indexOfLastDynamicSwitch; // @synthesize indexOfLastDynamicSwitch=_indexOfLastDynamicSwitch;
-@property(readonly, nonatomic) NSDictionary *keyLayoutMap; // @synthesize keyLayoutMap=_keyLayoutMap;
-@property(readonly, nonatomic) NSDictionary *keyLayoutMapReverse; // @synthesize keyLayoutMapReverse=_keyLayoutMapReverse;
-@property(readonly, nonatomic) TIKeyboardFeatureSpecialization *keyboardFeatureSpecializationSecondary; // @synthesize keyboardFeatureSpecializationSecondary=_keyboardFeatureSpecializationSecondary;
-@property(nonatomic) long long reasonForFreezing; // @synthesize reasonForFreezing=_reasonForFreezing;
-@property(nonatomic) _Bool shouldAutocapitalizeCandidates; // @synthesize shouldAutocapitalizeCandidates=_shouldAutocapitalizeCandidates;
-@property(readonly, nonatomic) _Bool shouldDynamicallySwitchBetweenPrimaryAndSecondary;
-@property(nonatomic) struct USet *validUSetForAutocorrection; // @synthesize validUSetForAutocorrection=_validUSetForAutocorrection;
-@property(nonatomic) struct USet *validUSetForAutocorrectionSecondary; // @synthesize validUSetForAutocorrectionSecondary=_validUSetForAutocorrectionSecondary;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineModelVisitCount
 {
     unsigned long long _timestamp;
-    unsigned int _count;
-    NSMutableArray *_visits;
-    CDStruct_eca94db9 _has;
 }
 
 + (Class);

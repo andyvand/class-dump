@@ -11,10 +11,10 @@
     id shadowEdgeMaskView;
 }
 
-- (id);
+- (id)[;
 - (void);
 - (_Bool);
-- (id)arrangedViewEncapsulatesLeadingDivider:(struct CGRect)arg1;
+- (id)_splitView:(struct CGRect)arg1 arrangedViewEncapsulatesLeadingDivider: /* Error: Ran out of types for this method. */;
 - (void)9Ãÿ;
 
 // Remaining properties

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)RE path = 'iTunes_Control/Music/F%02d';
++ (id)unes_Control/Music/F%02d');
 
 @end
 

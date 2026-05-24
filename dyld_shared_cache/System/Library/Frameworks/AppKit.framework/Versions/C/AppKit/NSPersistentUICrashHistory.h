@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentUICrashHistory
 {
     _Bool _loaded;
-    struct os_unfair_lock_s _lock;
-    NSDate *_lastCrashDate;
-    NSDate *_lastForceQuitDate;
 }
 
 - (id);
-- (id);
-- (id)rKey:(struct _NSZone *)arg1 asynchronousUpdater: /* Error: Ran out of types for this method. */;
+- (id)O!;
+- (id)_resolveRecentDocumentsForKey:(struct _NSZone *)arg1 asynchronousUpdater: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSDate *lastCrashDate;
-@property(readonly, copy) NSDate *lastForceQuitDate;
 
 @end
 

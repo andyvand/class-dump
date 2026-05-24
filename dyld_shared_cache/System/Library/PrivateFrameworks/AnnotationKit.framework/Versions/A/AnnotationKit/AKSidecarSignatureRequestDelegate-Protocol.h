@@ -5,5 +5,7 @@
 //
 
 @protocol AKSidecarSignatureRequestDelegate
+- (void);
+- (void);
 @end
 

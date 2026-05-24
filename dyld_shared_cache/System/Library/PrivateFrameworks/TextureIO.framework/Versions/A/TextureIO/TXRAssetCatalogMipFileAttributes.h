@@ -9,19 +9,17 @@
 @interface TXRAssetCatalogMipFileAttributes : TXRAssetCatalogFileAttributes
 {
     unsigned long long _level;
-    unsigned long long _face;
 }
 
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)lic}s %{public}s buffer smaller than tcp header;
 - (id);
 - (unsigned long long)eInfo";
 
 // Remaining properties
-@property(nonatomic) unsigned long long face;
 @property(nonatomic) unsigned long long level; // @synthesize level=_level;
 
 @end

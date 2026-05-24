@@ -7,7 +7,6 @@
 @interface SoundAnalysis.XPCProxyDecoder.UnkeyedContainer
 {
     id encoded;
-    id nextIndex;
 }
 
 @end

@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLPDeviceHandler, MPSImageCopyToMatrix, MPSMatrixCopyToImage, MontrealNNModelOptimizerParam, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface MLPNetwork
 {
     _Bool _computeLossOnInference;
-    NSDictionary *_options;
-    NSArray *_layers;
-    unsigned long long _networkType;
-    MLPDeviceHandler *_deviceHandler;
-    MPSImageCopyToMatrix *_i2mKernel;
-    MPSMatrixCopyToImage *_m2iKernel;
-    MontrealNNModelOptimizerParam *_optimizerParams;
-    unsigned long long _inputLength;
-    unsigned long long _inputHeight;
-    unsigned long long _inputChannels;
-    unsigned long long _batchSize;
-    unsigned long long _lossBatchSize;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void){;
+- (void)@9;
 - (void);
 - (void);
 - (void);
@@ -36,7 +24,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -60,18 +48,6 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property _Bool computeLossOnInference; // @synthesize computeLossOnInference=_computeLossOnInference;
-@property(retain) MLPDeviceHandler *deviceHandler; // @synthesize deviceHandler=_deviceHandler;
-@property(retain) MPSImageCopyToMatrix *i2mKernel; // @synthesize i2mKernel=_i2mKernel;
-@property unsigned long long inputChannels; // @synthesize inputChannels=_inputChannels;
-@property unsigned long long inputHeight; // @synthesize inputHeight=_inputHeight;
-@property unsigned long long inputLength; // @synthesize inputLength=_inputLength;
-@property(retain) NSArray *layers; // @synthesize layers=_layers;
-@property unsigned long long lossBatchSize; // @synthesize lossBatchSize=_lossBatchSize;
-@property(retain) MPSMatrixCopyToImage *m2iKernel; // @synthesize m2iKernel=_m2iKernel;
-@property unsigned long long networkType; // @synthesize networkType=_networkType;
-@property(retain) MontrealNNModelOptimizerParam *optimizerParams; // @synthesize optimizerParams=_optimizerParams;
 @property(retain) NSDictionary *options; // @synthesize options=_options;
 
 @end

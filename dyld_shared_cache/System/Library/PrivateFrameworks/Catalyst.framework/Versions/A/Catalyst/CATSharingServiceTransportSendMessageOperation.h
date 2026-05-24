@@ -6,14 +6,12 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class CATMessage;
 @protocol CATSharingConnection;
 
 __attribute__((visibility("hidden")))
 @interface CATSharingServiceTransportSendMessageOperation : CATOperation
 {
     id <CATSharingConnection> mConnection;
-    CATMessage *mMessage;
 }
 
 - (void);

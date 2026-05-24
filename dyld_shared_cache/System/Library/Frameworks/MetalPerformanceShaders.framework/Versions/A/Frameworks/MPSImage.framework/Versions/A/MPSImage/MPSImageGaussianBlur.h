@@ -6,17 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageConvolution;
-
 @interface MPSImageGaussianBlur : MPSUnaryImageKernel
 {
     float _sigma;
-    MPSImageConvolution *smallConv;
-    int _planSteps[8];
-    unsigned long long _numSteps;
-    const double *_plan;
-    _Bool _cheesyBlur;
-    float _scale;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,10 +17,10 @@
 - (struct MPSRegion);
 - (id);
 - (id);
+- (void)ngDonationForRedonationRequests:(id)arg1 dateOfNewestUndonatedItem: /* Error: Ran out of types for this method. */;
+- (void)jh8;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)1;
 - (float);
 - (id)&±_=Ä?toUÀ~·?£PvÜxµ?uD7`ëª?;
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BGContinuedProcessingTaskContext
 {
     long long _topology;
-    NSString *_hostAppBundleIdentifier;
-    CDStruct_4c969caf _hostAppAuditToken;
 }
 
 + (id);
@@ -21,18 +17,15 @@
 - (id);
 - (id);
 - (long long);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (id);
-- (long long);
+- (long long)(;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long executionContext;
-@property(readonly, nonatomic) CDStruct_4c969caf hostAppAuditToken; // @synthesize hostAppAuditToken=_hostAppAuditToken;
-@property(readonly, copy, nonatomic) NSString *hostAppBundleIdentifier; // @synthesize hostAppBundleIdentifier=_hostAppBundleIdentifier;
 @property(readonly, nonatomic) long long topology; // @synthesize topology=_topology;
 
 @end

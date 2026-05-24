@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VSSubscriptionSource
 {
     long long _kind;
-    NSString *_identifier;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_servesFaviconRequest;
 - (void);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) long long kind; // @synthesize kind=_kind;
 
 @end

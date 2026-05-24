@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface NEFileHandleMaintainer
 {
     _Bool _changed;
-    _Bool _isOwnerMode;
-    NSMutableArray *_fileHandles;
-    CDUnknownBlockType _receivedHandlesCallback;
-    CDUnknownBlockType __fileHandleActivityCallback;
-    NSObject<OS_xpc_object> *_auxiliaryDataDictionary;
-    NSString *_eventName;
 }
 
 + (id);
-- (id);
+- (id)atchesSearchAttributes:ignoreDeviceNameIfNil:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -32,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void)wPostQuantumKeyExchangeFallback: /* Error: Ran out of types for this method. */;
+- (void)setAllowPostQuantumKeyExchangeFallback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSString *eventName; // @synthesize eventName=_eventName;

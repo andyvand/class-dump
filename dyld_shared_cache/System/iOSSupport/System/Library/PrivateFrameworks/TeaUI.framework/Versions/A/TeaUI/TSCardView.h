@@ -9,19 +9,6 @@
 @interface TSCardView
 {
     id onTap;
-    id onCloseTap;
-    id expandAccessibilityActionHandler;
-    id expandAccessibilityAction;
-    id collapseAccessibilityActionHandler;
-    id collapseAccessibilityAction;
-    id contentView;
-    id clippingView;
-    id grabberView;
-    id contentOverlayButtonView;
-    id barView;
-    id titleView;
-    id layout;
-    id isFullscreen;
 }
 
 - (_Bool);
@@ -29,11 +16,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)onfig.m;
+- (id)tappedNextArticleAffordanceFeedId;
+- (_Bool)DislikeLocation;
 - (void)ýýÿ6þýÿRýÿ;
-- (id)oundInactive;
+- (id)foregroundInactive;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

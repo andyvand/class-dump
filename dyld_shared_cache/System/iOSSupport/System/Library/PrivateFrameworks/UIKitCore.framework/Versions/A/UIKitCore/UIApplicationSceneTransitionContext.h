@@ -4,43 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, UISClickAttribution, UISPasteSharingToken, UISSceneRequestOptions;
-@protocol OS_xpc_object;
+@class NSDictionary;
 
 @interface UIApplicationSceneTransitionContext
 {
 }
 
+- (double)cation interval is less than or equal to zero, disabling;
+- (long long)ontact (%@) added, removing chat (%@) from blackhole.;
+- (_Bool)che. No metric event will be posted.;
+- (void)es %@ - archived %@;
+- (void)name %@ as current for handle %@;
+- (void)m %@;
+- (void)ing batch Message %p size %ld (%lld/%lld) for service %@ account %@ %@;
+- (void)be lost if restored to older devices;
+- (void)SMS (current %@, override %@), ignoring!;
+- (void)ck for hevc+alpha;
+- (void)p mutation from failed chat validation because destination supports relay error handling.;
+- (void)tialSyncCompletedRecordIfNeeded No last sync date;
+- (void)etwork);
+- (_Bool)IMFailPreviewGeneration;
+- (id)?;
+- (_Bool);
+- (_Bool);
 - (double);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)_processUserActivity:extractionContainer:rawTextOut:language: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long)a°1Â0@ù
 × ;
 - (id);
-- (id)resetRenderingModesForBackgroundImageView:(long long)arg1 inBarStyle:(id)arg2 isEnabled:(unsigned long long)arg3 withAccessibilityBackground:wantsBlendModeForAccessibilityBackgrounds:accessibilityBackgroundTintColor: /* Error: Ran out of types for this method. */;
+- (id)_resetRenderingModesForBackgroundImageView:(long long)arg1 inBarStyle:(id)arg2 isEnabled:(unsigned long long)arg3 withAccessibilityBackground:wantsBlendModeForAccessibilityBackgrounds:accessibilityBackgroundTintColor: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)À{þÿ;
 - (id)3Üuþ;
@@ -49,22 +48,7 @@
 - (void)[o;
 
 // Remaining properties
-@property(retain, nonatomic) UISClickAttribution *clickAttribution;
-@property(nonatomic) _Bool disableTouchCancellationOnRotation;
-@property(nonatomic) double execTime;
-@property(nonatomic) _Bool forTesting;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *launchMetricsPayload;
-@property(retain, nonatomic) UISPasteSharingToken *pasteSharingToken;
 @property(retain, nonatomic) NSDictionary *payload;
-@property(nonatomic) _Bool safeMode;
-@property(nonatomic) long long sceneCollectionJoinBehavior;
-@property(copy, nonatomic) UISSceneRequestOptions *sceneRequestOptions;
-@property(nonatomic) _Bool shouldTakeKeyboardFocus;
-@property(nonatomic) unsigned long long signpostID;
-@property(copy, nonatomic) NSString *sourceIdentifier;
-@property(nonatomic) long long statusBarAnimation;
-@property(nonatomic) double userLaunchEventTime;
-@property(nonatomic) _Bool waitForBackgroundTaskCompletion;
 
 @end
 

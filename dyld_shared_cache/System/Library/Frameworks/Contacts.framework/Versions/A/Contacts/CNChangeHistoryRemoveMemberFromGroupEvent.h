@@ -6,12 +6,11 @@
 
 #import <Contacts/CNChangeHistoryEvent.h>
 
-@class CNContact, CNGroup;
+@class CNContact;
 
 @interface CNChangeHistoryRemoveMemberFromGroupEvent : CNChangeHistoryEvent
 {
     CNContact *_member;
-    CNGroup *_group;
 }
 
 + (unsigned long long);
@@ -21,7 +20,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)invite with expired contact.;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 @property(readonly, nonatomic) CNContact *member; // @synthesize member=_member;
 
 @end

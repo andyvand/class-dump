@@ -10,21 +10,21 @@
 {
 }
 
-- (_Bool);
+- (_Bool)initWithIndex:string: /* Error: Ran out of types for this method. */;
+- (double)initWithIncomingMessage:transportType:serviceType:recipients:receivingHandle: /* Error: Ran out of types for this method. */;
+- (double)initWithImageName:imageFilePath:contentIsSensitive: /* Error: Ran out of types for this method. */;
+- (double)ct:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (double)eTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (double)agePartTranslation:editedMessagePartFileTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)fileTransfer:(struct UIEdgeInsets)arg1 explicitDownloadSucceededWithPath:livePhotoBundlePath: /* Error: Ran out of types for this method. */;
+- (double)canonicalizeChatIdentifier:style: /* Error: Ran out of types for this method. */;
+- (double)canonicalFormOfID:withIDSensitivity: /* Error: Ran out of types for this method. */;
+- (double)cancelScheduledMessageWithGUID:destination: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct CGSize);
-- (long long);
-- (id);
+- (double)cancelRequestID:serviceIdentifier: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_numBatchMessages;
+- (long long)N,V_handledNicknamesKVStore;
+- (id)IMDKeyTransparencyController;
 - (id);
 - (double);
 - (double);

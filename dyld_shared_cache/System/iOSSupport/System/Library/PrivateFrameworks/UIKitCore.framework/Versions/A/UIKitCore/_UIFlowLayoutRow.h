@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _UIFlowLayoutSection;
+@class _UIFlowLayoutSection;
 
 __attribute__((visibility("hidden")))
 @interface _UIFlowLayoutRow
 {
     _Bool _isValid;
-    _Bool _complete;
-    int _verticalAlignement;
-    int _horizontalAlignement;
-    _Bool _fixedItemSize;
-    _UIFlowLayoutSection *_section;
-    long long _index;
-    NSMutableArray *_items;
-    double _availableSpace;
-    struct CGSize _rowSize;
-    struct CGRect _rowFrame;
 }
 
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)withOSVersion:withBuildVersion:withModelName:withModel:withProductName:withMarketingName:withSerialNumber:withDeviceCapacity:withAvailableDeviceCapacity:withIMEI:withMEID:withModemFirmwareVersion:withCellularTechnology:withBatteryLevel:withIsSupervised:withIsMultiUser:withIsDeviceLocatorServiceEnabled:withIsActivationLockEnabled:withIsDoNotDisturbInEffect:withDeviceID:withEASDeviceIdentifier:withIsCloudBackupEnabled:withActiveManagedUsers:withOSUpdateSettings:withAutoSetupAdminAccounts:withSystemIntegrityProtectionEnabled:withIsMDMLostModeEnabled:withMaximumResidentUsers:withPushToken:withDiagnosticSubmissionEnabled:withAppAnalyticsEnabled:withICCID:withBluetoothMAC:withWiFiMAC:withEthernetMACs:withCurrentCarrierNetwork:withSIMCarrierNetwork:withSubscriberCarrierNetwork:withCarrierSettingsVersion:withPhoneNumber:withDataRoamingEnabled:withVoiceRoamingEnabled:withPersonalHotspotEnabled:withIsNetworkTethered:withIsRoaming:withSIMMCC:withSIMMNC:withSubscriberMCC:withSubscriberMNC:withCurrentMCC:withCurrentMNC: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -35,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void)!lEùÑað1Â0@ù
 × ;
 - (_Bool);
-- (long long)eType:(struct CGPoint)arg1;
-- (id)te;
-- (void)imated:(id)arg1;
-- (id)SuspendedConfiguration;
-- (void)ppSettingsFromURL;
+- (long long)sizeThatFits:(struct CGPoint)arg1 titleType: /* Error: Ran out of types for this method. */;
+- (id)didChangeMinimumDate;
+- (void)canHandleSnapbackIdentifier:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)_storeSuspendedConfiguration;
+- (void)_canOpenAppSettingsFromURL;
 - (void)owThanInitialPresentationViewController:(id)arg1 ,V__allowsSourceViewInDifferentWindowThanInitialPresentationViewController;
 - (struct CGRect);
 - (long long)Q16^B24;
@@ -51,13 +41,6 @@ __attribute__((visibility("hidden")))
 - (id)Øþ;
 
 // Remaining properties
-@property(nonatomic) double availableSpace; // @synthesize availableSpace=_availableSpace;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect rowFrame; // @synthesize rowFrame=_rowFrame;
-@property(nonatomic) struct CGSize rowSize; // @synthesize rowSize=_rowSize;
 @property(nonatomic) __weak _UIFlowLayoutSection *section; // @synthesize section=_section;
 
 @end

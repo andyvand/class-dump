@@ -6,22 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSButton, NSGridView, NSPopUpButton, NSTextField, WebsiteSpecificSearchEditor;
+@class WebsiteSpecificSearchEditor;
 
 __attribute__((visibility("hidden")))
 @interface SearchPreferences : PreferencesModule
 {
     WebsiteSpecificSearchEditor *_websiteSpecificSearchEditor;
-    NSGridView *_contentGridView;
-    NSPopUpButton *_defaultSearchEnginePopUpButton;
-    NSButton *_searchSuggestionsCheckbox;
-    NSButton *_enableParsecCheckbox;
-    NSButton *_showStartPageCheckbox;
-    NSTextField *_searchEngineLabel;
-    NSTextField *_smartSearchFieldLabel;
-    NSButton *_privateSearchEngineUsesNormalSearchEngineToggle;
-    NSPopUpButton *_privateSearchEnginePopUpButton;
-    NSTextField *_searchSuggestionText;
 }
 
 - (id);
@@ -41,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -58,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -66,16 +56,6 @@ __attribute__((visibility("hidden")))
 - (void)ü#;
 
 // Remaining properties
-@property(nonatomic) __weak NSGridView *contentGridView; // @synthesize contentGridView=_contentGridView;
-@property(nonatomic) __weak NSPopUpButton *defaultSearchEnginePopUpButton; // @synthesize defaultSearchEnginePopUpButton=_defaultSearchEnginePopUpButton;
-@property(nonatomic) __weak NSButton *enableParsecCheckbox; // @synthesize enableParsecCheckbox=_enableParsecCheckbox;
-@property(nonatomic) __weak NSPopUpButton *privateSearchEnginePopUpButton; // @synthesize privateSearchEnginePopUpButton=_privateSearchEnginePopUpButton;
-@property(nonatomic) __weak NSButton *privateSearchEngineUsesNormalSearchEngineToggle; // @synthesize privateSearchEngineUsesNormalSearchEngineToggle=_privateSearchEngineUsesNormalSearchEngineToggle;
-@property(nonatomic) __weak NSTextField *searchEngineLabel; // @synthesize searchEngineLabel=_searchEngineLabel;
-@property(retain, nonatomic) NSTextField *searchSuggestionText; // @synthesize searchSuggestionText=_searchSuggestionText;
-@property(nonatomic) __weak NSButton *searchSuggestionsCheckbox; // @synthesize searchSuggestionsCheckbox=_searchSuggestionsCheckbox;
-@property(nonatomic) __weak NSButton *showStartPageCheckbox; // @synthesize showStartPageCheckbox=_showStartPageCheckbox;
-@property(nonatomic) __weak NSTextField *smartSearchFieldLabel; // @synthesize smartSearchFieldLabel=_smartSearchFieldLabel;
 @property(retain, nonatomic) WebsiteSpecificSearchEditor *websiteSpecificSearchEditor; // @synthesize websiteSpecificSearchEditor=_websiteSpecificSearchEditor;
 
 @end

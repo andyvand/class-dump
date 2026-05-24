@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKPaymentValidationCacheEntry
 {
     _Bool _result;
-    NSDate *_timestamp;
 }
 
 - (_Bool);
@@ -18,12 +15,11 @@
 - (void);
 - (_Bool)Lì°íî0ï;
 - (void)%@:(_Bool)arg1 Failed to initialize validCharacterSet with array:%@ /* Error: Ran out of types for this method. */;
-- (void)tivationOptionForceOSPKey;
+- (void)PKSharingCarKeyActivationOptionForceOSPKey;
 - (double);
 
 // Remaining properties
 @property(nonatomic) _Bool result; // @synthesize result=_result;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

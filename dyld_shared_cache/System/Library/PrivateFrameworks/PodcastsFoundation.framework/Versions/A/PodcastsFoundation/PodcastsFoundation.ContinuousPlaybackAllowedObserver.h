@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ContinuousPlaybackAllowedObserver
 {
     id userDefaults;
-    id stream;
 }
 
 @end

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 @interface SSCredentialsManager
 {
     NSLock *mRequestsMapLock;
-    NSLock *mOptionsLock;
-    NSMutableDictionary *mRequestsToIDsMap;
-    NSMutableDictionary *mRequestsToOptionsMap;
 }
 
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (id);
 + (void)ntialsFromKeychain;
@@ -50,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)&;
 
 @end
 

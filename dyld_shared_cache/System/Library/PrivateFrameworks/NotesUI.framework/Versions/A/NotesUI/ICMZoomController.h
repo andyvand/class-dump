@@ -11,10 +11,6 @@
 @interface ICMZoomController : ICTTZoomController
 {
     _Bool _onlyAcceptsCustomZooms;
-    long long _localZoomFactorIndex;
-    double _attachmentBrickZoomFactor;
-    NSHashTable *_delegates;
-    long long _savedZoomFactorIndex;
 }
 
 + (void);
@@ -25,7 +21,7 @@
 + (id);
 + (long long);
 + (double);
-+ (id);
++ (id);
 + (id);
 + (double);
 + (id);
@@ -35,32 +31,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (long long);
 - (double);
-- (void);
+- (void)RE;
 - (void);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)Set"24;
 - (void);
 - (id);
-- (void)ryAttributeEditing;
+- (void);
+- (id);
+- (void)_temporaryAttributeEditing;
 
 // Remaining properties
-@property(nonatomic) double attachmentBrickZoomFactor; // @synthesize attachmentBrickZoomFactor=_attachmentBrickZoomFactor;
 @property(retain, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, nonatomic) double localZoomFactor;
-@property(nonatomic) long long localZoomFactorIndex; // @synthesize localZoomFactorIndex=_localZoomFactorIndex;
-@property(nonatomic) _Bool onlyAcceptsCustomZooms; // @synthesize onlyAcceptsCustomZooms=_onlyAcceptsCustomZooms;
-@property(nonatomic) long long savedZoomFactorIndex; // @synthesize savedZoomFactorIndex=_savedZoomFactorIndex;
 
 @end
 

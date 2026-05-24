@@ -7,7 +7,6 @@
 @interface Network.HTTPResponse.PseudoHeaderFields._Storage__priv_FF12D4D20740A306BA953A4510090311
 {
     id status;
-    id reasonPhrase;
 }
 
 @end

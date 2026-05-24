@@ -5,5 +5,8 @@
 //
 
 @protocol FBSceneDelegate
+
+@optional
+- (void)rFormat;
 @end
 

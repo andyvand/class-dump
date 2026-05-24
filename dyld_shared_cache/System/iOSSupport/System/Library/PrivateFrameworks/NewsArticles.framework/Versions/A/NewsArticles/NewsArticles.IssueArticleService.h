@@ -7,7 +7,6 @@
 @interface NewsArticles.IssueArticleService
 {
     id operationFactory;
-    id personalizationService;
 }
 
 @end

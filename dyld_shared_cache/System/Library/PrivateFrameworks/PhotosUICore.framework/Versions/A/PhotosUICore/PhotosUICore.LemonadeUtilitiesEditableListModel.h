@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadeUtilitiesEditableListModel
 {
     id _isEditing;
-    id photoLibrary;
-    id _utilitiesOrderedList;
-    id logger;
-    id _$observationRegistrar;
 }
 
 @end

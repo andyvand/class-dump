@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolRuntimeTypeLocation : RWIProtocolJSONObject
 {
 }
@@ -21,8 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int divot;
-@property(copy, nonatomic) NSString *sourceID;
 @property(nonatomic) int typeInformationDescriptor;
 
 @end

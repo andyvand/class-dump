@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineMapItem, NSMutableArray;
-
 @interface AWDCoreRoutineVisit
 {
     CDStruct_95bda58d _mapItemSources;
-    unsigned long long _dwellTime;
-    NSMutableArray *_possibleMapItems;
-    AWDCoreRoutineMapItem *_selectedMapItem;
-    struct {
-        unsigned int dwellTime:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
++ (Class)	;
+- (void)&;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,7 +20,7 @@
 - (int);
 - (id);
 - (int *);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -37,27 +29,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (unsigned long long)SON_CANCELLED;
+- (unsigned long long)NW_ACTIVITY_COMPLETION_REASON_CANCELLED;
 - (void)åÿÕínÏÔ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long dwellTime; // @synthesize dwellTime=_dwellTime;
-@property(nonatomic) _Bool hasDwellTime;
-@property(readonly, nonatomic) _Bool hasSelectedMapItem;
-@property(readonly, nonatomic) int *mapItemSources;
 @property(readonly, nonatomic) unsigned long long mapItemSourcesCount;
-@property(retain, nonatomic) NSMutableArray *possibleMapItems; // @synthesize possibleMapItems=_possibleMapItems;
-@property(retain, nonatomic) AWDCoreRoutineMapItem *selectedMapItem; // @synthesize selectedMapItem=_selectedMapItem;
 
 @end
 

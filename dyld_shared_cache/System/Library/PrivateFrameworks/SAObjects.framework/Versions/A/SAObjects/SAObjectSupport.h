@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAObjectSupport : AceObject
 {
@@ -21,22 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)ediately;
+- (id)showImmediately;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceVersion;
-@property(copy, nonatomic) NSString *classId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *groupId;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedProperties;
 
 @end
 

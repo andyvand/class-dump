@@ -6,42 +6,31 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableDictionary, NSMutableSet;
-@protocol UIKeyboardPinchGestureRecognizerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardPinchGestureRecognizer : UIGestureRecognizer
 {
     _Bool _pinchDetected;
-    double _initialPinchSeparation;
-    double _pinchSeparationValues[4];
-    NSMutableSet *_activeTouches;
-    NSMutableDictionary *_initialTouchPoints;
-    double _beginPinchTimestamp;
-    id <UIKeyboardPinchGestureRecognizerDelegate> _pinchDelegate;
 }
 
 - (void);
-- (void);
+- (void)ithAccount:%@] (activated = %@) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (double);
-- (double);
+- (void)d:%@ /* Error: Ran out of types for this method. */;
+- (double)al nickname %@ and recordID %@ on disk;
+- (double)edits, message edit timestamp exceeds maximum receive timeout. TimeBetweenOriginalAndEdit:(double)arg1 %ld, MaximumInterval:%ld, OriginalDate:%@, EditedDate:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)0@ù
 × ;
-- (id)tion:(id)arg1;
-- (_Bool)mator;
-- (void)sterNotifications;
-- (void)te;
+- (id)setChangesSelectionAsPrimaryAction:(id)arg1;
+- (_Bool)entranceAnimator;
+- (void)_unregisterNotifications;
+- (void)_decelerationRate;
 - (void)R,N,V_keyboardPressEventForwardingMap;
 - (_Bool)¬öµ;
 - (void)d_;
 - (void)U;
 
 // Remaining properties
-@property(readonly, nonatomic) double initialPinchSeparation; // @synthesize initialPinchSeparation=_initialPinchSeparation;
-@property(nonatomic) __weak id <UIKeyboardPinchGestureRecognizerDelegate> pinchDelegate; // @synthesize pinchDelegate=_pinchDelegate;
 @property(readonly, nonatomic) _Bool pinchDetected; // @synthesize pinchDetected=_pinchDetected;
 
 @end

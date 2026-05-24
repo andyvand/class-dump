@@ -7,27 +7,21 @@
 @interface PXGainMapAnimationDurationFilter
 {
     _Bool _gainMapImageAvailable;
-    _Bool _enabled;
-    double _filterStartTime;
-    double _activationThreshold;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (double);
 - (void);
 - (id);
-- (_Bool)SyncDate;
+- (_Bool)lastSyncDate;
 
 // Remaining properties
-@property(nonatomic) double activationThreshold; // @synthesize activationThreshold=_activationThreshold;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic) double filterStartTime; // @synthesize filterStartTime=_filterStartTime;
-@property(nonatomic) _Bool gainMapImageAvailable; // @synthesize gainMapImageAvailable=_gainMapImageAvailable;
 
 @end
 

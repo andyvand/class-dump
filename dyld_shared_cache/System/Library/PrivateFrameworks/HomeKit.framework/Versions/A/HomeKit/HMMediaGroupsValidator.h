@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMHome, NSArray;
+@class HMHome;
 
 @interface HMMediaGroupsValidator
 {
     HMHome *home;
-    void selectedDestinations;
-    HMAccessory *selectedSourceAccessory;
 }
 
 - (unsigned long long);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,12 +47,7 @@
 - (void)ath:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *allDestinations;
-@property(nonatomic, readonly) NSArray *allSourceAccessories;
 @property(nonatomic, readonly) HMHome *home; // @synthesize home;
-@property(nonatomic, readonly) NSArray *otherDestinations;
-@property(nonatomic, copy) NSArray *selectedDestinations;
-@property(nonatomic, retain) HMAccessory *selectedSourceAccessory; // @synthesize selectedSourceAccessory;
 
 @end
 

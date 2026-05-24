@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)Pause;
++ (void)SAAlarm;
++ (void)Delete;
 + (id);
-+ (void);
++ (void);
 
 @end
 

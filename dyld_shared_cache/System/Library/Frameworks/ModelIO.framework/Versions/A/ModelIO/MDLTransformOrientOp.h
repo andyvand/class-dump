@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAnimatedQuaternion, NSString;
-
 @interface MDLTransformOrientOp
 {
     _Bool _inverse;
-    NSString *_name;
-    MDLAnimatedQuaternion *_animatedValue;
 }
 
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -24,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MDLAnimatedQuaternion *animatedValue; // @synthesize animatedValue=_animatedValue;
 @property(nonatomic) _Bool inverse; // @synthesize inverse=_inverse;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

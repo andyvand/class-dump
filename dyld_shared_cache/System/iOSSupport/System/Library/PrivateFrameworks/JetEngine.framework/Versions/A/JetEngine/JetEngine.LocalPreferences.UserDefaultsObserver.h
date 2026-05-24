@@ -9,7 +9,7 @@
     id preferences;
 }
 
-- (id);
+- (id)id;
 - (void);
 - (void);
 

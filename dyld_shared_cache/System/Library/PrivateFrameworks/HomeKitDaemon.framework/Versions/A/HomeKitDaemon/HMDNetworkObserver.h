@@ -4,73 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, HMFTimer, HMFWiFiManager, HMFWifiNetworkAssociation, HMMDailyScheduler, HMMDateProvider, NSMutableDictionary, NSNotificationCenter, NSString;
-@protocol HMDCurrentResidentDeviceDataSource, HMMLogEventDispatching;
+@protocol HMMLogEventDispatching;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkObserver
 {
     _Bool _wifiAssociated;
-    _Bool _started;
-    struct os_unfair_lock_s _networkAssociationLock;
-    id <HMMLogEventDispatching> _logEventDispatcher;
-    HMDEventCountersManager *_countersManager;
-    HMFWiFiManager *_wifiManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDCurrentResidentDeviceDataSource> _currentHomeDataSource;
-    HMMDateProvider *_dateProvider;
-    HMMDailyScheduler *_dailyScheduler;
-    HMFWifiNetworkAssociation *_networkAssociation;
-    unsigned long long _collectionStartSeconds;
-    unsigned long long _numWifiAssociations;
-    unsigned long long _numWifiDisassociations;
-    unsigned long long _numAPChanges;
-    unsigned long long _numGatewayChanges;
-    unsigned long long _numReadWrites;
-    unsigned long long _numReadErrors;
-    unsigned long long _numWriteErrors;
-    NSMutableDictionary *_topWriteErrors;
-    NSMutableDictionary *_topSessionErrors;
-    CDUnknownBlockType _tickBlock;
-    HMFTimer *_changeDebounceTimer;
 }
 
 + (id)BùÑ1Â0@ù
 × ;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (struct os_unfair_lock_s);
-- (id);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)rangeOfString: /* Error: Ran out of types for this method. */;
+- (unsigned long long)queryItems;
+- (unsigned long long)pushDaemonProxyReceivedNotificationData:forType:recordIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)performBlockAfterInitialConnection: /* Error: Ran out of types for this method. */;
+- (unsigned long long)originalIdentifierForObject: /* Error: Ran out of types for this method. */;
+- (unsigned long long)navigationListenerArrived: /* Error: Ran out of types for this method. */;
+- (unsigned long long)mutableData;
+- (struct os_unfair_lock_s)incrementMinimumETADifference;
+- (id)incidentsCount;
+- (id),R,N,GisBlocked;
+- (id)ed:(id)arg1 %@;
+- (id)er] %{private}s;
 - (void);
 - (void);
-- (id);
+- (id)G;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)setIdsDeviceAudioStreamPausedAtStart: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)놟
+;
 - (void);
 - (void)ySecurityEnabled from %@ to %@;
 - (void)s:(id)arg1 Matter lock characteristic changed, preparing to populate bulletin for accessory=%@ characteristic=%@ message=%@ remoteRequest=%@;
@@ -83,36 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)q;
 
 // Remaining properties
-@property(readonly) HMFTimer *changeDebounceTimer; // @synthesize changeDebounceTimer=_changeDebounceTimer;
-@property(readonly) unsigned long long collectionStartSeconds; // @synthesize collectionStartSeconds=_collectionStartSeconds;
-@property(readonly, nonatomic) __weak HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(readonly, nonatomic) __weak id <HMDCurrentResidentDeviceDataSource> currentHomeDataSource; // @synthesize currentHomeDataSource=_currentHomeDataSource;
-@property(readonly, nonatomic) __weak HMMDailyScheduler *dailyScheduler; // @synthesize dailyScheduler=_dailyScheduler;
-@property(readonly, nonatomic) __weak HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <HMMLogEventDispatching> logEventDispatcher; // @synthesize logEventDispatcher=_logEventDispatcher;
-@property(readonly, nonatomic) HMFWifiNetworkAssociation *networkAssociation; // @synthesize networkAssociation=_networkAssociation;
-@property(nonatomic) struct os_unfair_lock_s networkAssociationLock; // @synthesize networkAssociationLock=_networkAssociationLock;
-@property(readonly, nonatomic) __weak NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) unsigned long long numAPChanges; // @synthesize numAPChanges=_numAPChanges;
-@property(readonly, nonatomic) unsigned long long numGatewayChanges; // @synthesize numGatewayChanges=_numGatewayChanges;
-@property(readonly, nonatomic) unsigned long long numReadErrors; // @synthesize numReadErrors=_numReadErrors;
-@property(readonly, nonatomic) unsigned long long numReadWrites; // @synthesize numReadWrites=_numReadWrites;
-@property(readonly, nonatomic) unsigned long long numWifiAssociations; // @synthesize numWifiAssociations=_numWifiAssociations;
-@property(readonly, nonatomic) unsigned long long numWifiDisassociations; // @synthesize numWifiDisassociations=_numWifiDisassociations;
-@property(readonly, nonatomic) unsigned long long numWriteErrors; // @synthesize numWriteErrors=_numWriteErrors;
-@property(readonly, nonatomic) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType tickBlock; // @synthesize tickBlock=_tickBlock;
-@property(readonly, nonatomic) NSMutableDictionary *topSessionErrors; // @synthesize topSessionErrors=_topSessionErrors;
-@property(readonly, nonatomic) NSMutableDictionary *topWriteErrors; // @synthesize topWriteErrors=_topWriteErrors;
-@property(nonatomic) _Bool wifiAssociated; // @synthesize wifiAssociated=_wifiAssociated;
-@property(readonly, nonatomic) __weak HMFWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

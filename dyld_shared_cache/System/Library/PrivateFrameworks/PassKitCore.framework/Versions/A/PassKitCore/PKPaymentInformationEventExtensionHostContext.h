@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)hanged;
+- (id)q;
+- (void)wallet:applePayContextChanged /* Error: Ran out of types for this method. */;
 
 @end
 

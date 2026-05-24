@@ -7,7 +7,6 @@
 @interface AppStoreKit.AdvertAppearanceJournal
 {
     id instanceId;
-    id entries;
 }
 
 @end

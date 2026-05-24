@@ -11,7 +11,6 @@
 @interface LPVideoProperties : LPVisualMediaProperties
 {
     _Bool _hasAudio;
-    NSColor *_overlappingControlsColor;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setOverlappingControlsColor:) NSColor *_overlappingControlsColor; // @synthesize _overlappingControlsColor;
-@property(nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
 
 @end
 

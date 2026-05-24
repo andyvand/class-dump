@@ -7,11 +7,6 @@
 @interface ReminderKitInternal.REMUniversalGrammarTitleEmbedding
 {
     id lang;
-    id revision;
-    id wordEmbedding;
-    id tagger;
-    id tagOptions;
-    id posInUse;
 }
 
 @end

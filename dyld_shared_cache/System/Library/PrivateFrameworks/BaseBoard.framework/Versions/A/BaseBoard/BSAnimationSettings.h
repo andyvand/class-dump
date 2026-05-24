@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSString;
-
 @interface BSAnimationSettings
 {
     struct os_unfair_lock_s _lock;
-    float _lock_speed;
-    double _lock_storedDuration;
-    double _lock_delay;
-    double _lock_frameInterval;
-    struct CAFrameRateRange _lock_frameRange;
-    unsigned int _lock_highFrameRateReason;
-    CAMediaTimingFunction *_lock_timingFunction;
-    double _lock_beginTime;
-    double _lock_mass;
-    double _lock_stiffness;
-    double _lock_damping;
-    double _lock_epsilon;
-    double _lock_initialVelocity;
-    _Bool _lock_storedDurationIsDirty;
-    _Bool _mutable;
-    _Bool _isSpring;
 }
 
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
@@ -38,7 +20,7 @@
 - (unsigned long long);
 - (float);
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (double);
@@ -49,33 +31,14 @@
 - (double);
 - (id);
 - (double);
-- (unsigned int);
+- (unsigned int)exitContextForNamespace:code:wait4Status: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CAFrameRateRange)etUsesAnonymousConnection: /* Error: Ran out of types for this method. */;
+- (struct CAFrameRateRange)setUsesAnonymousConnection: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double beginTime;
-@property(readonly, nonatomic) double damping;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delay;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) double epsilon;
-@property(readonly, nonatomic) double frameInterval;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int highFrameRateReason;
-@property(readonly, nonatomic) double initialVelocity;
 @property(readonly, nonatomic) double mass;
-@property(readonly, nonatomic) struct CAFrameRateRange preferredFrameRateRange;
-@property(readonly, nonatomic) float speed;
-@property(readonly, nonatomic) double stiffness;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CAMediaTimingFunction *timingFunction;
 
 @end
 

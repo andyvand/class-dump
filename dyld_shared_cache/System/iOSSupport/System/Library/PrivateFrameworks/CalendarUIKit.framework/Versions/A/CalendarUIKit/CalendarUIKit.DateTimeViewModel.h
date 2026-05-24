@@ -7,21 +7,6 @@
 @interface CalendarUIKit.DateTimeViewModel
 {
     id _dateInterval;
-    id _dateIntervalImplicit;
-    id _allDay;
-    id _timeZone;
-    id _endTimeZone;
-    id event;
-    id eventID;
-    id _delegate;
-    id dateTimeComponents;
-    id dateOnlyComponents;
-    id timeOnlyComponents;
-    id _startDateComponents;
-    id _endDateComponents;
-    id _editTimeZone;
-    id _editEndTimeZone;
-    id _$observationRegistrar;
 }
 
 @end

@@ -13,7 +13,7 @@
 @optional
 - (void)kgroundColor;
 - (UICollectionViewDropProposal *)tView",&,N,V_selectionVibrancyView;
-- (UIDragPreviewParameters *)crementBlock:(UICollectionView *)arg1;
+- (UIDragPreviewParameters *)setAccessibilityIncrementBlock:(UICollectionView *)arg1;
 - (_Bool)eKeyboardClientChange:(UICollectionView *)arg1 resignFirstResponder;
 - (void)ðþÿÿPeéÿDa]þ;
 - (void)icationPreservationStateWithSessionIdentifier:(UICollectionView *)arg1 viewController:(id <UIDropSession>)arg2 beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;

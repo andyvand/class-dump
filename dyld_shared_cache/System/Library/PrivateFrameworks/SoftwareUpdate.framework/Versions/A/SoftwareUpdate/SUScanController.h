@@ -4,34 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSMutableArray, NSMutableDictionary, NSObject, NSURL, SUScan;
-@protocol OS_dispatch_queue, OS_os_activity;
+@class NSObject;
+@protocol OS_os_activity;
 
 @interface SUScanController
 {
     NSObject<OS_os_activity> *_activity;
-    NSMutableArray *_availableProducts;
-    NSMutableDictionary *_productByKey;
-    NSURL *_catalogURLFromPrefs;
-    NSURL *_catalogURL;
-    int _catalogTrustLevel;
-    NSArray *_preferredLocalizationsForLastClient;
-    long long _scanState;
-    SUScan *_scanInProgress;
-    NSError *_lastScanError;
-    NSDate *_lastCmdRScanCompleted;
-    NSObject<OS_dispatch_queue> *_updateInfoQueue;
-    NSObject<OS_dispatch_queue> *_scanRefreshQueue;
-    NSObject<OS_dispatch_queue> *_scanStateQueue;
-    NSObject<OS_dispatch_queue> *_clientNotifyQueue;
-    _Bool _scanDisabled;
-    CDUnknownBlockType _availableProductsDidChangeHandler;
-    CDUnknownBlockType _catalogURLDidChangeHandler;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,21 +26,21 @@
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (int);
+- (int);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)d$;
 - (void);
 - (void);
 - (void);
@@ -68,7 +51,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType availableProductsDidChangeHandler; // @synthesize availableProductsDidChangeHandler=_availableProductsDidChangeHandler;
-@property(copy) CDUnknownBlockType catalogURLDidChangeHandler; // @synthesize catalogURLDidChangeHandler=_catalogURLDidChangeHandler;
 
 @end
 

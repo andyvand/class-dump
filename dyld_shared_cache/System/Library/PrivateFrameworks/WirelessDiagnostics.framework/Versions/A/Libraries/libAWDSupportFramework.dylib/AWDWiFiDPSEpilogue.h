@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWADiagnosisActionAssociationDifferences, AWDWAPeerDiscoveryInfo, AWDWAQuickDpsStats, AWDWASymptomsDnsStats, NSMutableArray;
-
 @interface AWDWiFiDPSEpilogue
 {
     unsigned long long _timestamp;
-    NSMutableArray *_accessPointInfos;
-    int _action;
-    unsigned int _actionIntVal;
-    int _afterRecommendedAction;
-    NSMutableArray *_associationChanges;
-    int _beforeAction;
-    AWDWADiagnosisActionAssociationDifferences *_changes;
-    AWDWAPeerDiscoveryInfo *_discoveredPeerInfo;
-    AWDWAQuickDpsStats *_qDpsStats;
-    int _studyType;
-    AWDWASymptomsDnsStats *_symptomsDnsStats;
-    _Bool _isAssociatedAtStudyEnd;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int action:1;
-        unsigned int actionIntVal:1;
-        unsigned int afterRecommendedAction:1;
-        unsigned int beforeAction:1;
-        unsigned int studyType:1;
-        unsigned int isAssociatedAtStudyEnd:1;
-    } _has;
 }
 
 + (Class);
@@ -38,6 +15,8 @@
 - (id);
 - (int);
 - (void);
+- (void)5;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,18 +24,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,30 +44,30 @@
 - (int);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)C;
 - (int);
 - (void);
 - (void);
 - (unsigned int);
+- (unsigned long long)@9	;
+- (id);
+- (id),;
+- (_Bool);
+- (_Bool);
+- (int);
+- (int);
+- (int);
+- (id);
+- (void);
+- (_Bool);
+- (int);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -98,38 +75,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (int);
-- (void);
+- (int)kupViewController addToolbarButton:] /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool)sedCount;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPointInfos; // @synthesize accessPointInfos=_accessPointInfos;
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) unsigned int actionIntVal; // @synthesize actionIntVal=_actionIntVal;
-@property(nonatomic) int afterRecommendedAction; // @synthesize afterRecommendedAction=_afterRecommendedAction;
-@property(retain, nonatomic) NSMutableArray *associationChanges; // @synthesize associationChanges=_associationChanges;
-@property(nonatomic) int beforeAction; // @synthesize beforeAction=_beforeAction;
-@property(retain, nonatomic) AWDWADiagnosisActionAssociationDifferences *changes; // @synthesize changes=_changes;
-@property(retain, nonatomic) AWDWAPeerDiscoveryInfo *discoveredPeerInfo; // @synthesize discoveredPeerInfo=_discoveredPeerInfo;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasActionIntVal;
-@property(nonatomic) _Bool hasAfterRecommendedAction;
-@property(nonatomic) _Bool hasBeforeAction;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) _Bool hasDiscoveredPeerInfo;
-@property(nonatomic) _Bool hasIsAssociatedAtStudyEnd;
-@property(readonly, nonatomic) _Bool hasQDpsStats;
-@property(nonatomic) _Bool hasStudyType;
-@property(readonly, nonatomic) _Bool hasSymptomsDnsStats;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isAssociatedAtStudyEnd; // @synthesize isAssociatedAtStudyEnd=_isAssociatedAtStudyEnd;
-@property(retain, nonatomic) AWDWAQuickDpsStats *qDpsStats; // @synthesize qDpsStats=_qDpsStats;
-@property(nonatomic) int studyType; // @synthesize studyType=_studyType;
-@property(retain, nonatomic) AWDWASymptomsDnsStats *symptomsDnsStats; // @synthesize symptomsDnsStats=_symptomsDnsStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

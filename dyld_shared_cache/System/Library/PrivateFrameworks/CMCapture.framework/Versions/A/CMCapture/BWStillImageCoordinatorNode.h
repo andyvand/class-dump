@@ -6,102 +6,31 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWDeviceOrientationMonitor, BWFigVideoCaptureDevice, BWStillImageCaptureSettings, BWStillImageNodeConfiguration, BWStillImageProcessingSettings, FigCaptureOSStateHandle, FigCaptureStillImageSettings, FigStateMachine, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol BWCompressedShotBuffer, BWStillImageCaptureStatusDelegate, BWStillImageProcessingSupportProvider, OS_dispatch_group, OS_dispatch_queue;
+@protocol BWStillImageCaptureStatusDelegate;
 
 @interface BWStillImageCoordinatorNode : BWNode
 {
     _Bool _active;
-    _Bool _liveReconfiguring;
-    BWStillImageNodeConfiguration *_nodeConfiguration;
-    BWFigVideoCaptureDevice *_captureDevice;
-    NSDictionary *_portTypeToInput;
-    NSDictionary *_portTypeToOutput;
-    NSDictionary *_portTypeToSensorRawInput;
-    NSDictionary *_portTypeToSensorRawOutput;
-    NSArray *_highResStillImageDimensions;
-    id <BWStillImageCaptureStatusDelegate> _stillImageCaptureStatusDelegate;
-    id <BWStillImageProcessingSupportProvider> _stillImageProcessingSupportProvider;
-    int _stillImageCapturePipeliningMode;
-    unsigned int _numberOfBurstCapturesInFlight;
-    unsigned int _maxNumberOfBurstCapturesAllowedInFlight;
-    NSMutableArray *_requestQueue;
-    struct os_unfair_lock_s _requestQueueLock;
-    int _captureRequestCount;
-    int _prepareRequestCount;
-    NSObject<OS_dispatch_queue> *_stillImageDispatchQueue;
-    NSObject<OS_dispatch_group> *_stillImageDispatchGroup;
-    _Atomic int _stillImageDispatchGroupEnterCount;
-    NSObject<OS_dispatch_group> *_stillImageGraphStopDispatchGroup;
-    FigStateMachine *_stateMachine;
-    NSMutableDictionary *_receivedImagesOrErrorsForRequestByPortType;
-    NSMutableDictionary *_receivedUltraHighResImagesOrErrorsForRequestByPortType;
-    int _clientExpectedImagesOrErrorsForRequest;
-    int _clientReceivedImagesOrErrorsForRequest;
-    FigCaptureStillImageSettings *_currentRequestedStillImageCaptureSettings;
-    BWStillImageCaptureSettings *_currentResolvedStillImageCaptureSettings;
-    BWStillImageProcessingSettings *_currentResolvedStillImageProcessingSettings;
-    unsigned int _firedDelegateCallbackFlags;
-    NSString *_flushedCaptureRequestIdentifier;
-    _Bool _isMomentCaptureCapturingBeforeCommitted;
-    _Bool _isMomentCaptureProcessingBeforeCommitted;
-    NSMutableArray *_momentCaptureUnfiredCallbacks;
-    NSMutableArray *_momentCaptureBuffersByInputIndex;
-    int _momentCaptureUncommittedStillImageCaptureError;
-    long long _momentCaptureUnfiredWillBeginCaptureBeforeResolvingSettingsCallbackSettingsID;
-    long long _momentCaptureLastCancelledSettingsID;
-    long long _momentCaptureLastComittedSettingsID;
-    CDStruct_1b6d18a9 _streamingDisruptionEndPTS;
-    struct os_unfair_lock_s _bufferTrackingLock;
-    int _inUseBufferCount;
-    int _inUseZoomBasedBufferCount;
-    int _inUseUltraHighResBufferCount;
-    int _ultraHighResFrameCountExpansionFactor;
-    _Bool _responsiveShutterEnabled;
-    _Bool _responsiveShutterEnabledViaAPI;
-    _Bool _fastCapturePrioritizationEnabled;
-    id <BWCompressedShotBuffer> _compressedShotBuffer;
-    int _extraUncompressedShotBufferCapacityForThermalSystemPressureLevelSerious;
-    int _extraUncompressedShotBufferCapacityForThermalSystemPressureLevelCritical;
-    int _normalResolutionOverlapCapacityForSoQ;
-    _Bool _shotBufferEnabled;
-    int _allocatedShotBufferCapacity;
-    int _defaultShotBufferCapacity;
-    int _numberOfZoomBasedBufferIncludedInShotBuffer;
-    int _numberOfUltraHighResBufferIncludedInShotBuffer;
-    NSObject<OS_dispatch_group> *_shotBufferWaitGroup;
-    int _shotBufferWaitFreeBufferCount;
-    _Bool _shotPacerEnabled;
-    float _shotPacerMaxFPS;
-    long long _lastStillImageCaptureStartTime;
-    long long _lastStillImageCaptureCompleteTime;
-    _Bool _dynamicShotQualityEnabled;
-    int _minFullQualityShots;
-    float _timeSinceLastCaptureEnterThreshold;
-    float _timeSinceLastCaptureExitThreshold;
-    int _numCapturesInShotSequence;
-    FigCaptureOSStateHandle *_osStateHandle;
-    BWDeviceOrientationMonitor *_deviceOrientationMonitor;
 }
 
-+ (void);
++ (void);
 + (int);
 + (void);
-+ (CDStruct_a7632323);
-+ (int);
++ (CDStruct_a7632323)modelFeatureStandardizationStandardDeviations;
++ (int)SGMContactDetailUsedAppFaceTime;
 + (int);
 + (int);
 + (void);
 + (void)ÿ};
-+ (void)VideoCodecKey;
++ (void)AVVideoCodecKey;
 - (int);
-- (void);
+- (void)AffineTransform=dddddd}68I76;
+- (_Bool)"NSError">32;
+- (int)base;
+- (void)CHDChartTypeWithGrouping;
+- (id);
+- (int);
 - (_Bool);
-- (int);
-- (void);
-- (id);
-- (int);
-- (_Bool);
 - (void);
 - (int);
 - (id);
@@ -110,25 +39,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)setShouldIncludeAppIdInRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (int);
+- (id)setHasPreviousInteractionFromUserOnConversationInMinutes:(id)arg1;
+- (void)d:(id)arg1 contactEntityId:(CDStruct_1b6d18a9)arg2 matchinfoData:(id)arg3 tokens:requireName: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (int)#;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@9	;
 - (id);
 - (void);
 - (unsigned int);
@@ -143,7 +72,7 @@
 - (void)ÿT^ÿ__ÿjaÿtbÿ~cÿcÿb!ÿa"ÿ`#ÿ§^"ÿ­\!ÿ³Zÿ¹Xÿ¿VÿÇTÿÍSÿÔRÿÛRÿãTÿéW!ÿëX$ÿëY$ÿìZ%ÿ;
 - (void)dÿ£bÿ«`ÿ²^;
 - (void)¨dÿ¯aÿ·_ÿ¾]ÿÆZÿÏWÿ×UÿàS}ÿéR|ÿóQ|ÿüQ|ÿüQ{ÿüQ{ÿüQ{ÿ;
-- (void)elThreshold;
+- (void)TooDarkLuxLevelThreshold;
 - (void)Device captureStillImageNowWithSettings:(id)arg1 captureSettings:] /* Error: Ran out of types for this method. */;
 - (id)mAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:reservedPrimaryImageHandleOut:] /* Error: Ran out of types for this method. */;
 - (_Bool)server;
@@ -151,15 +80,7 @@
 - (void)CinematographyMetadataProducer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <BWStillImageCaptureStatusDelegate> stillImageCaptureStatusDelegate; // @synthesize stillImageCaptureStatusDelegate=_stillImageCaptureStatusDelegate;
-@property(nonatomic) __weak id <BWStillImageProcessingSupportProvider> stillImageProcessingSupportProvider; // @synthesize stillImageProcessingSupportProvider=_stillImageProcessingSupportProvider;
-@property(readonly) Class superclass;
 
 @end
 

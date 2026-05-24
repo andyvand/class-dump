@@ -7,9 +7,6 @@
 @protocol SXFeatures
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool limitTextSelectionEnabled;
 @property(readonly, nonatomic) _Bool newAdsEnabled;
-@property(readonly, nonatomic) int textSelectionLimit;
-@property(readonly, nonatomic) _Bool writingToolsDisabled;
 @end
 

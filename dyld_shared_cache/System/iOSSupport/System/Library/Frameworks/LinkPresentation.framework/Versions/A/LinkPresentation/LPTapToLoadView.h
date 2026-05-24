@@ -6,32 +6,25 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPTapToLoadViewStyle, LPTextView, NSString, UILongPressGestureRecognizer, UIView;
+@class LPTextView;
 @protocol LPTapToLoadViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LPTapToLoadView : LPComponentView
 {
     LPTextView *_captionView;
-    UIView *_progressView;
-    LPTapToLoadViewStyle *_style;
-    UIView *_highlightView;
-    UILongPressGestureRecognizer *_highlightGestureRecognizer;
-    _Bool _wasTapped;
-    CDUnknownBlockType _animateOutCompletionHandler;
-    id <LPTapToLoadViewDelegate> _tapToLoadViewDelegate;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (id)ference: /* Error: Ran out of types for this method. */;
+- (void)ontainerFrame:(id)arg1 proposedAttributes: /* Error: Ran out of types for this method. */;
+- (void)throwAnimationManager:canNowSendMessages: /* Error: Ran out of types for this method. */;
+- (id)textInputContextIdentifierForFullScreenBalloonViewController:(id)arg1;
+- (void)tableView:(CDUnknownBlockType)arg1 willDisplayCell:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)subMenuForScreenSharingOptionsWithHandle:conversation:andContactsManager: /* Error: Ran out of types for this method. */;
+- (void)storeGUIDInAttemptingListInScrutinyMode: /* Error: Ran out of types for this method. */;
+- (void)stopRecordingForRaiseGestureWithFailure: /* Error: Ran out of types for this method. */;
+- (struct CGSize)k;
+- (id)settlingEffectEnabled;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -43,13 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <LPTapToLoadViewDelegate> tapToLoadViewDelegate; // @synthesize tapToLoadViewDelegate=_tapToLoadViewDelegate;
 
 @end

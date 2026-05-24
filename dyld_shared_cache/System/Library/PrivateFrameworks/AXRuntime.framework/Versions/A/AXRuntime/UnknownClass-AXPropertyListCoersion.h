@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AXPropertyListCoersion)
-- (id);
+- (id);
 - (id);
 @end
 

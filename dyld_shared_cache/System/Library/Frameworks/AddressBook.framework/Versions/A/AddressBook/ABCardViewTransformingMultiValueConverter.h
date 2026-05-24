@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol ABCardViewMultiValueConverter;
 
 @interface ABCardViewTransformingMultiValueConverter
 {
     id <ABCardViewMultiValueConverter> _basicConverter;
-    NSArray *_multiValueTransformers;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -23,14 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <ABCardViewMultiValueConverter> basicConverter; // @synthesize basicConverter=_basicConverter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *multiValueTransformers; // @synthesize multiValueTransformers=_multiValueTransformers;
-@property(readonly) Class superclass;
 
 @end
 

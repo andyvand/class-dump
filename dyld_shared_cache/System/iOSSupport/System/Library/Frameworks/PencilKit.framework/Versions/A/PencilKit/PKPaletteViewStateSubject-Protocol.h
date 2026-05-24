@@ -5,11 +5,10 @@
 //
 
 @protocol PKPaletteViewStateSubject
+- (double);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAutoHideEnabled) _Bool autoHideEnabled;
 @property(readonly, nonatomic) double paletteScaleFactor;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 @end
 

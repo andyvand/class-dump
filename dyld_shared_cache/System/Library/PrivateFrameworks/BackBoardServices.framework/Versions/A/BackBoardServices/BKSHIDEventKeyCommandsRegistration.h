@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, NSSet, NSString;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSHIDEventKeyCommandsRegistration
 {
     BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDeferringToken *_token;
-    NSSet *_keyCommands;
 }
 
 + (_Bool);
 - (id);
+- (id)submitActivityInternal:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)ust specify an exmaple for all classes:%d not found.
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,22 +25,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy, nonatomic) BKSHIDEventDeferringEnvironment *deferringEnvironment; // @synthesize deferringEnvironment=_environment;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringToken *deferringToken; // @synthesize deferringToken=_token;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *keyCommands; // @synthesize keyCommands=_keyCommands;
-@property(readonly) Class superclass;
 
 @end
 

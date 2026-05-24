@@ -12,11 +12,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)"decisionVIBE"b1"decisionVO"b1"deviation"b1"devicePointOfInterest"b1"estimatedHighBandwidth"b1"estimatedLowBandwidth"b1"estimatedSpeed"b1"event"b1"expectedThroughputVIBE"b1"expectedThroughputVO"b1"goodDecisionsCounterVIBE"b1"goodDecisionsCounterVO"b1"invalidDecisionsCounterVIBE"b1"invalidDecisionsCounterVO"b1"isWfiCaptive"b1"lqmScoreBT"b1"lqmScoreWifi"b1"lqmScorecellular"b1"lteMaxScheduledMimoLayersInACell"b1"maxDLCAConfigured"b1"maxOfActualLowBandwidth"b1"maxULCAConfigured"b1"mlPredictedCellBW"b1"mlPredictedWiFiBW"b1"movingAvgHighBandwidth"b1"movingAvgLowBandwidth"b1"nrConfiguredBw"b1"nrMaxDlModulation"b1"nrTotalScheduledMimoLayers"b1"pActualLowBandwidth"b1"packetLifetimeVIBE"b1"packetLossRateVIBE"b1"phyRate"b1"pkgLifeTimeVO"b1"pktLifeTimeVO"b1"pktLossRateVO"b1"qbssLoad"b1"ratioDupeBytes"b1"ratioOOBBytes"b1"rrcState"b1"rxRetransmissionRate"b1"rxRetry"b1"tcpRTTAvg"b1"tcpRTTmin"b1"tcpRTTvar"b1"totalConfiguredBw"b1"totalConfiguredMimoLayers"b1"txRetransmissionRate"b1"txber"b1"videoStreamingStallTime"b1"weightedAveragePhyrateRx"b1"weightedAveragePhyrateTx"b1"weightedAverageRssi"b1"weightedAverageSnr"b1"wifChannelBW"b1"wifChannelType"b1"wifiCapability"b1"wifiModelConfidenceLevel"b1"wifiModelVersion"b1"wifiSinr"b1"wifichannel"b1"wifiguardinterval"b1"wifilowDataMode"b1"wifimcsindex"b1"wifinumberOfSpatialStreams"b1"wrmRecommendedRAT"b1"cellNsaEnabled"b1"isFR1"b1};
 - (void);
 - (id);
-- (id);
+- (id);
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -22,11 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) Class balloonViewClass;
-@property(nonatomic, readonly) _Bool canAttachStickers;
-@property(nonatomic, readonly) _Bool canCopy;
-@property(nonatomic, readonly) _Bool canInlineReply;
-@property(nonatomic, readonly) _Bool canPerformQuickAction;
-@property(nonatomic, readonly) _Bool canSendTapbacks;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.DebugFormatUploadConfirmViewController
 {
     id delegate;
-    id editor;
-    id uploadService;
-    id tableView;
-    id sections;
-    id entries;
 }
 
 - (void);

@@ -5,5 +5,10 @@
 //
 
 @protocol SFUnlockProtocol
+
+@optional
+- (void);
+- (void)P;
+- (void);
 @end
 

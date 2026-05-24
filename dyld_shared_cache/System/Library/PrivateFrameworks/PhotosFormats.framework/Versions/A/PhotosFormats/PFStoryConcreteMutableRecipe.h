@@ -6,8 +6,7 @@
 
 #import <PhotosFormats/PFStoryConcreteRecipe.h>
 
-@class NSArray, NSDictionary, NSString;
-@protocol PFStoryRecipeSongAsset, PFStoryRecipeStyle;
+@class NSArray;
 
 @interface PFStoryConcreteMutableRecipe : PFStoryConcreteRecipe
 {
@@ -17,6 +16,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)/libc++.1.dylib;
 - (void);
 - (void);
 - (void);
@@ -24,28 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *assets; // @dynamic assets;
-@property(retain, nonatomic) NSDictionary *autoEditDecisionLists; // @dynamic autoEditDecisionLists;
-@property(copy, nonatomic) NSString *contentIdentifier;
-@property(copy, nonatomic) id <PFStoryRecipeStyle> currentStyle; // @dynamic currentStyle;
-@property(readonly, copy, nonatomic) id <PFStoryRecipeSongAsset> currentStyleSongAsset;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(copy, nonatomic) NSArray *libraries; // @dynamic libraries;
-@property(nonatomic) long long majorVersion;
-@property(nonatomic) long long minorVersion;
-@property(readonly, nonatomic) long long numberOfAssets;
-@property(readonly, nonatomic) long long numberOfPresentations;
-@property(nonatomic) CDStruct_5d4c7ed3 overallDurationInfo;
-@property(copy, nonatomic) NSArray *presentations; // @dynamic presentations;
-@property(copy, nonatomic) NSDictionary *seedSongIdentifiersByCatalog; // @dynamic seedSongIdentifiersByCatalog;
 
 @end
 

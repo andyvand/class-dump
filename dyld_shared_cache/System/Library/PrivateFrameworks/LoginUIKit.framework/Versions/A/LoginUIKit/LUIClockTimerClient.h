@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUIClockTimer, NSMutableDictionary;
+@class LUIClockTimer;
 
 @interface LUIClockTimerClient
 {
     LUIClockTimer *_clockTimer;
-    unsigned long long _interval;
-    double _timeAdjustment;
-    CDUnknownBlockType _handler;
-    struct os_unfair_lock_s _lock;
-    struct __CFRunLoopSource *_rls;
-    NSMutableDictionary *_modes;
 }
 
 - (void);
@@ -27,13 +21,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)etDiagnostics-%f.zip;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) double animationTimeAdjustment;
 @property(readonly) unsigned long long interval;
 
 @end

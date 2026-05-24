@@ -7,28 +7,20 @@
 @interface PFSlowMotionTimeRangeMapperScaledRegion
 {
     float _rate;
-    float _rampInStartTime;
-    float _rampInEndTime;
-    float _rampOutStartTime;
-    float _rampOutEndTime;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (float);
-- (float);
-- (float);
+- (float)b/libutil.dylib;
+- (float)0;
+- (float)s/A/LoggingSupport;
 - (float);
 - (void);
 - (float)}48{CGSize=dd}64;
 
 // Remaining properties
-@property(nonatomic) float rampInEndTime; // @synthesize rampInEndTime=_rampInEndTime;
-@property(nonatomic) float rampInStartTime; // @synthesize rampInStartTime=_rampInStartTime;
-@property(nonatomic) float rampOutEndTime; // @synthesize rampOutEndTime=_rampOutEndTime;
-@property(nonatomic) float rampOutStartTime; // @synthesize rampOutStartTime=_rampOutStartTime;
 @property(nonatomic) float rate; // @synthesize rate=_rate;
 
 @end

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, _ASKResourceCacheGroup;
+@class _ASKResourceCacheGroup;
 
 @interface ASKResourceCache
 {
     _ASKResourceCacheGroup *_group;
-    NSCache *_contents;
 }
 
 - (id);
+- (void)`oo;
+- (_Bool)o;
+- (id)o;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)m;
 - (void);
 - (_Bool);
 - (void);
@@ -29,11 +28,7 @@
 - (void)ÐÒ	y«Ò	_ShyÒ	GtG;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *contents; // @synthesize contents=_contents;
-@property(nonatomic) _Bool evictsObjectsWhenApplicationEntersBackground;
 @property(readonly, nonatomic) _ASKResourceCacheGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool isGroupMember;
-@property(nonatomic) unsigned long long limit;
 
 @end
 

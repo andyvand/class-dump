@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStatsCalculator;
-
 @interface _PXStoryPPTMeasureInfo
 {
     long long _metric;
-    PXStatsCalculator *_statistics;
 }
 
 - (id);
-- (long long);
+- (long long)latitudeDelta;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long metric; // @synthesize metric=_metric;
-@property(readonly, nonatomic) PXStatsCalculator *statistics; // @synthesize statistics=_statistics;
 
 @end
 

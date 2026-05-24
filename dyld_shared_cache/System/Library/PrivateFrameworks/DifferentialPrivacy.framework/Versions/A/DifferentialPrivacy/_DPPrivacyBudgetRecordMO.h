@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DPPrivacyBudgetRecordMO
 {
 }
@@ -13,9 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) long long balance; // @dynamic balance;
-@property(nonatomic) double cohortAggregateBalance; // @dynamic cohortAggregateBalance;
-@property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(nonatomic) double lastUpdate; // @dynamic lastUpdate;
 @end
 

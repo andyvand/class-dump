@@ -11,12 +11,11 @@
 @interface PXNavigationListActionItem : PXNavigationListItem
 {
     NSString *_glyphImageName;
-    NSString *_actionType;
 }
 
 - (id);
-- (id);
-- (id);
+- (id))˪#;
+- (id);
 - (id);
 - (_Bool);
 - (id);

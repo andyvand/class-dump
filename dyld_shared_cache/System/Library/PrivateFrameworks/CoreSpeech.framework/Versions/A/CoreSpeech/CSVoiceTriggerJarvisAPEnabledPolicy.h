@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSVoiceTriggerJarvisAPEnabledPolicy
 {
     _Bool _isPlaybackAudioSessionActive;
-    _Bool _hasNonVoiceTriggerStreamsOrStreamHoldersActive;
-    NSString *_clientRecordRoute;
 }
 
-+ (id)Info;
++ (id)_pendingActivationInfo;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,23 +23,14 @@
 - (void);
 - (void);
 - (id);
+- (void)for crop operations;
 - (void);
 - (void);
-- (void);
-- (void)isVoiceTriggerTimeout;
+- (void)jarvisVoiceTriggerTimeout;
 - (void)StopRecording:(id)arg1 audioDeviceInfo:(id)arg2 forReason:(id)arg3 estimatedSpeechEndHostTime:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientRecordRoute; // @synthesize clientRecordRoute=_clientRecordRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasNonVoiceTriggerStreamsOrStreamHoldersActive; // @synthesize hasNonVoiceTriggerStreamsOrStreamHoldersActive=_hasNonVoiceTriggerStreamsOrStreamHoldersActive;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isPlaybackAudioSessionActive; // @synthesize isPlaybackAudioSessionActive=_isPlaybackAudioSessionActive;
-@property(readonly) Class superclass;
 
 @end
 

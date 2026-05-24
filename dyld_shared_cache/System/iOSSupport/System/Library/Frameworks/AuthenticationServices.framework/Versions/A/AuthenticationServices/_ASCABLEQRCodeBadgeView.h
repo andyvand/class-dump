@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UIImageView, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _ASCABLEQRCodeBadgeView
 {
     UIView *_platterView;
-    UIImageView *_iconView;
-    NSLayoutConstraint *_iconOffsetXConstraint;
-    NSLayoutConstraint *_iconOffsetYConstraint;
 }
 
 - (void);

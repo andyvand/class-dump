@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)redundantAudio;
++ (id)senderNANWifiStats;
 
 @end
 

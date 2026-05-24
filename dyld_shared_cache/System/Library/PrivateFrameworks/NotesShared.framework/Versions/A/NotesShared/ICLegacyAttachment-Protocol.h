@@ -7,22 +7,13 @@
 @class NSManagedObjectContext, NSString, NSURL;
 
 @protocol ICLegacyAttachment
-- (NSURL *)È;
+- (void);
+- (_Bool);
+- (NSURL *);
 - (NSURL *)@, previewImage:%@} /* Error: Ran out of types for this method. */;
 - (NSManagedObjectContext *)/8;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *cidURL;
-@property(readonly, copy, nonatomic) NSString *contentID;
-@property(readonly, copy, nonatomic) NSURL *fileURL;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *identifierURIPathComponent;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, nonatomic) _Bool isHiddenFromIndexing;
-@property(readonly, nonatomic) _Bool isHiddenFromSearch;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(copy, nonatomic) NSString *mimeType;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *typeUTI;
 @end
 

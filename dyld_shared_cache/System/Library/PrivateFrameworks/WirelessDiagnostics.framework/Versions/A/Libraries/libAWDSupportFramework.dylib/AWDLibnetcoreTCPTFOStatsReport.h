@@ -7,27 +7,6 @@
 @interface AWDLibnetcoreTCPTFOStatsReport
 {
     unsigned long long _numTfoBlackholed;
-    unsigned long long _numTfoCookieInvalid;
-    unsigned long long _numTfoCookieRcv;
-    unsigned long long _numTfoCookieReq;
-    unsigned long long _numTfoCookieReqRcv;
-    unsigned long long _numTfoCookieSent;
-    unsigned long long _numTfoFallback;
-    unsigned long long _numTfoSynDataAcked;
-    unsigned long long _numTfoSynDataRcv;
-    unsigned long long _numTfoSynDataSent;
-    struct {
-        unsigned int numTfoBlackholed:1;
-        unsigned int numTfoCookieInvalid:1;
-        unsigned int numTfoCookieRcv:1;
-        unsigned int numTfoCookieReq:1;
-        unsigned int numTfoCookieReqRcv:1;
-        unsigned int numTfoCookieSent:1;
-        unsigned int numTfoFallback:1;
-        unsigned int numTfoSynDataAcked:1;
-        unsigned int numTfoSynDataRcv:1;
-        unsigned int numTfoSynDataSent:1;
-    } _has;
 }
 
 - (void);
@@ -58,10 +37,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)L3;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,7 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (void);
 - (void);
@@ -77,30 +56,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)#!;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumTfoBlackholed;
-@property(nonatomic) _Bool hasNumTfoCookieInvalid;
-@property(nonatomic) _Bool hasNumTfoCookieRcv;
 @property(nonatomic) _Bool hasNumTfoCookieReq;
-@property(nonatomic) _Bool hasNumTfoCookieReqRcv;
-@property(nonatomic) _Bool hasNumTfoCookieSent;
-@property(nonatomic) _Bool hasNumTfoFallback;
-@property(nonatomic) _Bool hasNumTfoSynDataAcked;
-@property(nonatomic) _Bool hasNumTfoSynDataRcv;
-@property(nonatomic) _Bool hasNumTfoSynDataSent;
-@property(nonatomic) unsigned long long numTfoBlackholed; // @synthesize numTfoBlackholed=_numTfoBlackholed;
-@property(nonatomic) unsigned long long numTfoCookieInvalid; // @synthesize numTfoCookieInvalid=_numTfoCookieInvalid;
-@property(nonatomic) unsigned long long numTfoCookieRcv; // @synthesize numTfoCookieRcv=_numTfoCookieRcv;
-@property(nonatomic) unsigned long long numTfoCookieReq; // @synthesize numTfoCookieReq=_numTfoCookieReq;
-@property(nonatomic) unsigned long long numTfoCookieReqRcv; // @synthesize numTfoCookieReqRcv=_numTfoCookieReqRcv;
-@property(nonatomic) unsigned long long numTfoCookieSent; // @synthesize numTfoCookieSent=_numTfoCookieSent;
-@property(nonatomic) unsigned long long numTfoFallback; // @synthesize numTfoFallback=_numTfoFallback;
-@property(nonatomic) unsigned long long numTfoSynDataAcked; // @synthesize numTfoSynDataAcked=_numTfoSynDataAcked;
-@property(nonatomic) unsigned long long numTfoSynDataRcv; // @synthesize numTfoSynDataRcv=_numTfoSynDataRcv;
-@property(nonatomic) unsigned long long numTfoSynDataSent; // @synthesize numTfoSynDataSent=_numTfoSynDataSent;
 
 @end
 

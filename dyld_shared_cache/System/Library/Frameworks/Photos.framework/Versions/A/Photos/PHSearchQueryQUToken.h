@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSIndexSet, NSString;
+@class NSDictionary, NSString;
 
 @interface PHSearchQueryQUToken
 {
     NSString *_text;
-    NSIndexSet *_entityCategoryTypes;
-    NSDictionary *_metadata;
-    unsigned long long _version;
 }
 
 + (id);
@@ -23,24 +20,20 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (unsigned long long)nvalid token response but not allowed to authenticate for:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)iveLinkSessionEvent:(id)arg1 %p kind=%@>;
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)URLByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long ambiguityType;
-@property(readonly, nonatomic) NSIndexSet *entityCategoryTypes; // @synthesize entityCategoryTypes=_entityCategoryTypes;
 @property(readonly, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

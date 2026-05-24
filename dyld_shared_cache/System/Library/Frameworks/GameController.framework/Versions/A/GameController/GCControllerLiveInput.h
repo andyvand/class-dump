@@ -6,35 +6,13 @@
 
 #import <GameController/GCControllerInputState.h>
 
-@class GCPhysicalInputElementCollection, NSObject, NSString;
-@protocol GCDevice, OS_dispatch_queue;
-
 @interface GCControllerLiveInput : GCControllerInputState
 {
 }
 
-- (id);
+- (id)u;
 
 // Remaining properties
-@property(readonly) GCPhysicalInputElementCollection *axes;
-@property(readonly) GCPhysicalInputElementCollection *buttons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) __weak id <GCDevice> device;
-@property(readonly) GCPhysicalInputElementCollection *dpads;
-@property(copy) CDUnknownBlockType elementValueDidChangeHandler;
-@property(readonly) GCPhysicalInputElementCollection *elements;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType inputStateAvailableHandler;
-@property long long inputStateQueueDepth;
-@property(readonly) double lastEventLatency;
-@property(readonly) double lastEventTimestamp;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
-@property(readonly) GCPhysicalInputElementCollection *switches;
 @property(readonly) GCControllerLiveInput *unmappedInput;
 
 @end

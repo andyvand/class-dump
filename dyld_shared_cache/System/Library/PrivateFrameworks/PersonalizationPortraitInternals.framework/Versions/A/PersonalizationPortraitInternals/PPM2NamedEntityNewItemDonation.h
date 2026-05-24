@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPM2NamedEntityNewItemDonation
 {
     long long _rank;
-    NSString *_activeTreatments;
-    int _algorithm;
-    int _category;
-    int _donationSource;
-    NSString *_dynamicCategory;
-    NSString *_groupId;
-    _Bool _newItem;
-    _Bool _userCreated;
-    struct {
-        unsigned int rank:1;
-        unsigned int algorithm:1;
-        unsigned int category:1;
-        unsigned int donationSource:1;
-        unsigned int newItem:1;
-        unsigned int userCreated:1;
-    } _has;
 }
 
 - (_Bool);
@@ -43,13 +25,13 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
+- (id):(int)arg1 %@;
 - (void);
-- (int);
+- (int)2;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)8;
 - (_Bool);
 - (void);
 - (void);
@@ -64,10 +46,10 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)I;
+- (void)isGroupTypingMessage;
+- (_Bool)_customMessagesChanged: /* Error: Ran out of types for this method. */;
+- (void)d to remove too many participants, ignoring;
 - (int);
 - (id);
 - (_Bool);
@@ -78,24 +60,7 @@
 - (void)e to flush logs;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *dynamicCategory; // @synthesize dynamicCategory=_dynamicCategory;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(nonatomic) _Bool hasCategory;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasDynamicCategory;
-@property(readonly, nonatomic) _Bool hasGroupId;
-@property(nonatomic) _Bool hasNewItem;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasUserCreated;
-@property(nonatomic) _Bool newItem; // @synthesize newItem=_newItem;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(nonatomic) _Bool userCreated; // @synthesize userCreated=_userCreated;
 
 @end
 

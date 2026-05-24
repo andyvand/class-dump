@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETDebugSessionConnectionQuality : SISchemaInstrumentationMessage
 {
     int _symptomsCellularHistorical;
-    int _symptomsCellularInstant;
-    int _symptomsWiFiHistorical;
-    int _symptomsWiFiInstant;
-    struct {
-        unsigned int symptomsCellularHistorical:1;
-        unsigned int symptomsCellularInstant:1;
-        unsigned int symptomsWiFiHistorical:1;
-        unsigned int symptomsWiFiInstant:1;
-    } _has;
 }
 
 - (int);
@@ -43,26 +32,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)AuthTokenTBS;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)ependentSignals;
 - (id)tsCurrentPhonemes;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSymptomsCellularHistorical;
-@property(nonatomic) _Bool hasSymptomsCellularInstant;
-@property(nonatomic) _Bool hasSymptomsWiFiHistorical;
-@property(nonatomic) _Bool hasSymptomsWiFiInstant;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int symptomsCellularHistorical; // @synthesize symptomsCellularHistorical=_symptomsCellularHistorical;
-@property(nonatomic) int symptomsCellularInstant; // @synthesize symptomsCellularInstant=_symptomsCellularInstant;
-@property(nonatomic) int symptomsWiFiHistorical; // @synthesize symptomsWiFiHistorical=_symptomsWiFiHistorical;
-@property(nonatomic) int symptomsWiFiInstant; // @synthesize symptomsWiFiInstant=_symptomsWiFiInstant;
 
 @end
 

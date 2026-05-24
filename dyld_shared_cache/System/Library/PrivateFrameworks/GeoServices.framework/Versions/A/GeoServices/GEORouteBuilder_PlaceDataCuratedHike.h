@@ -6,27 +6,24 @@
 
 #import <GeoServices/GEORouteBuilderBase.h>
 
-@class GEOPDHikeAssociatedInfo, GEOPDHikeGeometry, GEOPDHikeSummary;
+@class GEOPDHikeAssociatedInfo;
 @protocol GEOMapItem;
 
 @interface GEORouteBuilder_PlaceDataCuratedHike : GEORouteBuilderBase
 {
     GEOPDHikeAssociatedInfo *_hikeAssociatedInfo;
-    GEOPDHikeGeometry *_hikeGeometry;
-    GEOPDHikeSummary *_hikeSummary;
-    id <GEOMapItem> _mapItem;
 }
 
 + (id);
 - (int);
+- (_Bool)C;
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id)PE_UNKNOWN;
+- (id);
+- (id)LOG_MESSAGE_TYPE_UNKNOWN;
 - (void);
 - (void);
 

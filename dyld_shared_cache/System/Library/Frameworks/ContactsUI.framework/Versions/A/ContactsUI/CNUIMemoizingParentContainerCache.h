@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSString;
+@class CNCache;
 
 @interface CNUIMemoizingParentContainerCache
 {
@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)X;
 - (void);
 - (id);
 - (id);
@@ -24,13 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *containerByContactIdentifier; // @synthesize containerByContactIdentifier=_containerByContactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

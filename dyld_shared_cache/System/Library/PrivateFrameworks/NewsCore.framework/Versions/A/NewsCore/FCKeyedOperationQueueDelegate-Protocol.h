@@ -7,6 +7,6 @@
 @protocol FCOperationCanceling;
 
 @protocol FCKeyedOperationQueueDelegate
-- (id <FCOperationCanceling>)l;
+- (id <FCOperationCanceling>)label;
 @end
 

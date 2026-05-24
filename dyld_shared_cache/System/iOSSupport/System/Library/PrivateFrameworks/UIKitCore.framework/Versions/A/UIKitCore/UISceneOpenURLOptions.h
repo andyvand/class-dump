@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSProcessHandle, NSString, UIEventAttribution;
-@protocol NSObject;
+@class BSProcessHandle, NSString;
 
 @interface UISceneOpenURLOptions
 {
     NSString *_sourceApp;
-    BSProcessHandle *_sourceProcessHandle;
-    id <NSObject> _annotation;
-    _Bool _openInPlace;
-    UIEventAttribution *_eventAttribution;
-    _Bool _openAsDownload;
-    long long _contentOwner;
 }
 
-+ (id);
-+ (id)Kit20ScrollEdgeEffectViewP33_A8A62288E15893CDC14B9FB558CFED1E15ObservableState;
++ (id)currentUserDidChange;
++ (id)_TtCC5UIKit20ScrollEdgeEffectViewP33_A8A62288E15893CDC14B9FB558CFED1E15ObservableState;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long)bÐ1Â0@ù
 × ;
 - (id)sualModeManager";
-- (_Bool)aterialView;
-- (_Bool)aTime;
+- (_Bool)obscuringMaterialView;
+- (_Bool)_startMediaTime;
 - (id)CdFDG;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long _contentOwner; // @synthesize _contentOwner;
-@property(readonly, nonatomic) _Bool _openAsDownload; // @synthesize _openAsDownload;
 @property(readonly, nonatomic) BSProcessHandle *_sourceProcessHandle; // @synthesize _sourceProcessHandle;
-@property(readonly, nonatomic) id annotation; // @synthesize annotation=_annotation;
-@property(readonly, nonatomic) UIEventAttribution *eventAttribution; // @synthesize eventAttribution=_eventAttribution;
-@property(readonly, nonatomic) _Bool openInPlace; // @synthesize openInPlace=_openInPlace;
-@property(readonly, nonatomic) NSString *sourceApplication; // @synthesize sourceApplication=_sourceApp;
 
 @end
 

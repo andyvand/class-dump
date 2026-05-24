@@ -7,7 +7,6 @@
 @interface ICSTimeZoneChange
 {
     double _interval;
-    long long _tzOffsetTo;
 }
 
 - (long long);

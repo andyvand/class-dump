@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatAnimationNodeGroupAnimation
 {
     id animations;
-    id mediaTiming;
 }
 
 @end

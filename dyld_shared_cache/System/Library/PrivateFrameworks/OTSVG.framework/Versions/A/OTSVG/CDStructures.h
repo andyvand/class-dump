@@ -8,63 +8,63 @@
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_69d7cc99 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unordered_map<std::string, std::stack<std::string>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::stack<std::string>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::stack<std::string>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::stack<std::string>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::stack<std::string>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::stack<std::string>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_69d7cc99 _field3;
         struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
+            float _field1;
+        } _field4;
+    } _field1;
 };
 
 struct vector<std::reference_wrapper<SVG::Element>, std::allocator<std::reference_wrapper<SVG::Element>>> {
-    void *__begin_;
-    void *__end_;
+    void *_field1;
+    void *_field2;
     struct {
-        void *__cap_;
-    } ;
+        void *_field1;
+    } _field3;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
 
 // Template types
 typedef struct unordered_map<std::string, std::stack<std::string>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::stack<std::string>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::stack<std::string>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::stack<std::string>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::stack<std::string>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::stack<std::string>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_69d7cc99 _field3;
         struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-} unordered_map_7e644981;
+            float _field1;
+        } _field4;
+    } _field1;
+} unordered_map_896e9326;
 
 typedef struct vector<std::reference_wrapper<SVG::Element>, std::allocator<std::reference_wrapper<SVG::Element>>> {
-    void *__begin_;
-    void *__end_;
+    void *_field1;
+    void *_field2;
     struct {
-        void *__cap_;
-    } ;
-} vector_76038cb7;
+        void *_field1;
+    } _field3;
+} vector_457cd715;
 

@@ -6,42 +6,16 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, VCMediaRecorderHistory, VideoAttributes;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaRecorder : VCObject
 {
     id _delegate;
-    id _transportDelegate;
-    unsigned int _streamToken;
-    VCMediaRecorderHistory *_mediaRecorderHistory;
-    unsigned int _capabilities;
-    unsigned char _mode;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_delegateNotificationQueue;
-    int _currentActiveRequestsCount;
-    _Bool _isActive;
-    _Bool _isClientRegistered;
-    VideoAttributes *_targetScreenAttributes;
-    NSMutableSet *_requests;
-    NSMutableDictionary *_transactionIDToRequestMap;
-    _Bool _lastRequest;
-    unsigned int _currentTimestamp;
-    double _lastHealthPrintCallAbsoluteSeconds;
-    unsigned long long _localVideoCallbacksCount;
-    unsigned long long _localVideoCallbacksClearedCount;
-    unsigned long long _localAudioCallbacksCount;
-    unsigned long long _localAudioCallbacksClearedCount;
-    unsigned long long _remoteAudioCallbacksCount;
-    unsigned long long _remoteAudioCallbacksClearedCount;
-    unsigned long long _bufferResets;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (unsigned int);
 - (_Bool);
@@ -50,16 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_ր;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -82,28 +56,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)x;
 - (int);
 - (void);
-- (void);
+- (void)p;
 - (_Bool);
 - (void);
 - (unsigned int);
 
 // Remaining properties
 @property(nonatomic) unsigned int capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int imageType;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) VideoAttributes *targetScreenAttributes; // @synthesize targetScreenAttributes=_targetScreenAttributes;
-@property(readonly, nonatomic) _Bool usesClientToken;
-@property(nonatomic) int videoCodec;
 
 @end
 

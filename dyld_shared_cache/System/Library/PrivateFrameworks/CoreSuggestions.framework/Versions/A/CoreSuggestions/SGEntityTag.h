@@ -9,10 +9,6 @@
 @interface SGEntityTag
 {
     _Bool _indexed;
-    _Bool _stored;
-    _Bool _tracked;
-    NSString *_label;
-    NSString *_value;
 }
 
 - (id);
@@ -30,6 +26,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,10 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,14 +65,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -90,11 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool indexed; // @synthesize indexed=_indexed;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) _Bool stored; // @synthesize stored=_stored;
-@property(readonly, nonatomic) _Bool tracked; // @synthesize tracked=_tracked;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

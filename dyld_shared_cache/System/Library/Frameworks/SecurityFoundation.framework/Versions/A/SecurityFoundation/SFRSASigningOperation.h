@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFRSAKeySpecifier;
-@protocol SFDigestOperation;
+@class _SFRSAKeySpecifier;
 
 __attribute__((visibility("hidden")))
 @interface SFRSASigningOperation
@@ -13,8 +12,8 @@ __attribute__((visibility("hidden")))
     id _rsaSigningOperationInternal;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)ATTR_kMDItemEventRestaurantReservationForAddress;
 - (id);
 - (id);
 - (void);
@@ -29,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) id <SFDigestOperation> digestOperation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) _SFRSAKeySpecifier *signingKeySpecifier;
-@property(readonly) Class superclass;
 
 @end
 

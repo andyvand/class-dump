@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOConfigPersistence, NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOConfigStorageSQLiteBase
 {
     long long _source;
-    GEOConfigPersistence *_persister;
 }
 
 - (id);
@@ -22,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (void)_8ì5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

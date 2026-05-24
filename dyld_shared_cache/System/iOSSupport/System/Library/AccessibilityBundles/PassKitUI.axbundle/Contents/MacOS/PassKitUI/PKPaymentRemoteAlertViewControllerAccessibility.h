@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKImageAnalysisButtonAccessibility;
 + (void);
 - (void);
 

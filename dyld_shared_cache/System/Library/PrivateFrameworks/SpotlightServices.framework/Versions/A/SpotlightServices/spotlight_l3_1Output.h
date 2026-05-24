@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface spotlight_l3_1Output
 {
     MLMultiArray *_y;
-    MLMultiArray *_id_features;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)smallThumbnail;
 - (void);
 - (id);
-- (void)cit;
+- (void)isExplicit;
 - (id)%lu;
-- (id)corrected_strong;
+- (id)enum_parsec_corrected_strong;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(retain, nonatomic) MLMultiArray *id_features; // @synthesize id_features=_id_features;
 @property(retain, nonatomic) MLMultiArray *y; // @synthesize y=_y;
 
 @end

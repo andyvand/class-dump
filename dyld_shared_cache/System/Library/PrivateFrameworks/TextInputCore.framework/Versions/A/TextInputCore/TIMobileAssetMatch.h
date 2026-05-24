@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface TIMobileAssetMatch
 {
     NSArray *_types;
-    NSArray *_inputModeLevels;
-    NSArray *_regions;
 }
 
 + (id);
-+ (id);
++ (id)k;
+- (id)ll request with paired call device:(id)arg1 %@ for call:(id)arg2 %@;
 - (id);
-- (id);
-- (id);
+- (id)cy version %d! Thread QoS ipc overrides and promotions will be missing;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void)
 × ;
-- (id)DisplayKeys;
+- (id)contextualDisplayKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *inputModeLevels; // @synthesize inputModeLevels=_inputModeLevels;
-@property(readonly, nonatomic) NSArray *regions; // @synthesize regions=_regions;
 @property(readonly, nonatomic) NSArray *types; // @synthesize types=_types;
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersAddressOnly
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _highlightDiff;
-    CDStruct_f55cf389 _flags;
 }
 
 + (_Bool)setHasWestLng:(id)arg1;
@@ -26,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Y;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -40,17 +31,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)SSVCADBToTTSMaximumOutput;
+- (void)inSpeakerSegmentThreshold;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)ng to create utf8 string
+;
 - (id)2@40;
-- (id)t;
+- (id)_addressObjectGeocodingResult;
 - (id)³¼Ð5³8Ô5Ä³à×5Ø³Dà5ì³üá5;
 - (id)mestamp, subscriptions.insert_timestamp, subscription_access_times.timestamp    FROM subscriptions    LEFT JOIN subscription_access_times ON subscriptions.rowid = subscription_access_times.subscription_pk;;
 - (void)Option*	è"¾
@@ -68,15 +60,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

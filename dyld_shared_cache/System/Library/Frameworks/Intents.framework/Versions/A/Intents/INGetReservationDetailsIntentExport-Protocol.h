@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSArray;
+@class INSpeakableString;
 
 @protocol INGetReservationDetailsIntentExport
 
 // Remaining properties
 @property(copy) INSpeakableString *reservationContainerReference;
-@property(copy) NSArray *reservationItemReferences;
 @end
 

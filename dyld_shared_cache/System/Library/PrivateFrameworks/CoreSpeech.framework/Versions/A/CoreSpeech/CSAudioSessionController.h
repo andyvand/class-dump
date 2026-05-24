@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSXPCClient, NSHashTable, NSObject, NSString, NSUUID;
-@protocol CSAudioSessionInfoProviding, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSAudioSessionController
 {
     _Bool _shouldKeepConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    id <CSAudioSessionInfoProviding> _sessionInfoProvider;
-    CSXPCClient *_xpcClient;
-    NSUUID *_endpointId;
 }
 
-+ (id)tion;
++ (id)_modelLoadTransaction;
 - (void);
 - (void);
 - (void);
@@ -33,37 +28,25 @@
 - (id);
 - (void);
 - (void);
+- (unsigned int)an error in last-chance selection of a home container for the contact. Without a container, this save will fail with a contact constraint violation. Core Data returned error:%{public}@ from MOC %{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)hasFaceBodyAssociation;
+- (void);
+- (void);
+- (void);
 - (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ssetOfType:providerType:language:completion: /* Error: Ran out of types for this method. */;
+- (void)assetOfType:providerType:language:completion: /* Error: Ran out of types for this method. */;
 - (id)lyzerDidDetectEndpoint:(id)arg1 ]_block_invoke;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSUUID *endpointId; // @synthesize endpointId=_endpointId;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <CSAudioSessionInfoProviding> sessionInfoProvider; // @synthesize sessionInfoProvider=_sessionInfoProvider;
-@property _Bool shouldKeepConnection; // @synthesize shouldKeepConnection=_shouldKeepConnection;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end
 

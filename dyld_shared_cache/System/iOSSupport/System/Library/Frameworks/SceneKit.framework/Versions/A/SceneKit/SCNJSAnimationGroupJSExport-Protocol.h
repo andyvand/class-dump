@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol SCNJSAnimationGroupJSExport
-- (void)t:(NSArray *)arg1 patchIndexBuffer:patchIndexBufferOffset:instanceCount:baseInstance: /* Error: Ran out of types for this method. */;
+- (void)pathExtensionForMIMEType:(NSString *)arg1;
+- (float)_ASPasswordManagerIconController;
+- (void);
+- (double)_handleControlBlurredMessage: /* Error: Ran out of types for this method. */;
+- (void)ength;){let e=o.shift();if(null!=e){if(Object.prototype.hasOwnProperty.call(e,"telephone")&&(t.telephone=e.telephone),"PostalAddress"===e["@type"]){for(let r in e)SchemaDataExtractor.validAddressProperties[r]&&(t[r]=e[r]);break}for(let t in e){let r=e[t];"object"==typeof r&&o.push(r)}}}return t},extractAllSchemaValuesFromJSONLD:(double)arg1 function(){let t={};const e=document.querySelector('script[type="application/ld+json"]');if(!e)return t;let r,a;try{r=JSON.parse(e.text)}catch(e){return t}if(a=Array.isArray(r)?r[0]["@context"]:r["@context"],"http://schema.org"!==a&&"https://schema.org"!==a)return t;t[SchemaDataExtractor.containsSchemaOrgKey]=!0;let o=[];o.unshift(r);const s=o.shift();for(let e in s)t[e]=s[e];return t},resultHasAddressOrTelephone:function(t){return null!=t&&(Object.prototype.hasOwnProperty.call(t,"streetAddress")||Object.prototype.hasOwnProperty.call(t,"telephone"))},resultHasSchemaOrgInfo:function(t){return null!=t&&Object.prototype.hasOwnProperty.call(t,SchemaDataExtractor.containsSchemaOrgKey)},extractSchemaValuesFromSchemaOrg:function(){let t=this.extractAllSchemaValuesFromMicroData(),e=this.extractFilteredSchemaValuesFromMicroData();return this.resultHasAddressOrTelephone(e)||(e=this.extractFilteredSchemaValuesFromJSONLD()),this.resultHasAddressOrTelephone(t)||(t=this.extractAllSchemaValuesFromJSONLD()),(this.resultHasAddressOrTelephone(e)||this.resultHasSchemaOrgInfo(e))&&(e.url=location.href),[e,t]}},"undefined"==typeof SchemaDataExtractorJS&&(SchemaDataExtractorJS=new SchemaDataExtractor),SchemaDataExtractorJS.extractSchemaValuesFromSchemaOrg(); /* Error: Ran out of types for this method. */;
+- (void)drawPatches:(NSArray *)arg1 patchStart:patchCount:patchIndexBuffer:patchIndexBufferOffset:instanceCount:baseInstance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSArray *animations;
-@property _Bool autoreverses;
-@property double beginTime;
-@property double duration;
-@property(copy) NSString *fillMode;
-@property(getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property double timeOffset;
-@property(retain) CAMediaTimingFunction *timingFunction;
 @end
 

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKInkBehavior, UIColor;
+@class NSData;
 
 @interface PKInk
 {
     shared_ptr_ad015234 _unknownFields;
-    PKInk *_cachedInkWithOriginalRequiredContentVersion;
-    _Bool __weightIsUndefined;
-    NSString *_identifier;
-    UIColor *_sdrColor;
-    unsigned long long _version;
-    NSString *_variant;
-    double _weight;
-    double _azimuth;
-    PKInkBehavior *_behavior;
-    UIColor *_hdrColor;
-    double _hdrHeadroom;
-    long long __requiredContentVersionOverride;
-    id _sixChannelAddColor;
-    id _sixChannelMultiplyColor;
-    id _hdrAddColor;
-    id _hdrMultiplyColor;
 }
 
 - (id);
@@ -47,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -70,7 +54,7 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,7 +70,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
@@ -95,7 +79,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (struct CGAffineTransform);
 - (void);
 - (id);
@@ -106,11 +90,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)eType;
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -118,39 +102,17 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)@;
+- (double)addConstraints: /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
 - (id);
-- (id);
-- (void);
+- (void)D;
 - (void)8^{CGImage=}16;
 - (void)Äg;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double _azimuth; // @synthesize _azimuth;
-@property(nonatomic) id _hdrAddColor; // @synthesize _hdrAddColor;
-@property(nonatomic) id _hdrMultiplyColor; // @synthesize _hdrMultiplyColor;
-@property(readonly, nonatomic) _Bool _isStrokeGeneratingInk;
-@property(nonatomic) long long _requiredContentVersionOverride; // @synthesize _requiredContentVersionOverride=__requiredContentVersionOverride;
-@property(nonatomic) id _sixChannelAddColor; // @synthesize _sixChannelAddColor;
-@property(nonatomic) id _sixChannelMultiplyColor; // @synthesize _sixChannelMultiplyColor;
-@property(readonly, nonatomic) double _weight;
-@property(nonatomic) _Bool _weightIsUndefined; // @synthesize _weightIsUndefined=__weightIsUndefined;
-@property(retain, nonatomic) PKInkBehavior *behavior; // @synthesize behavior=_behavior;
-@property(readonly, nonatomic) UIColor *color;
-@property(readonly, nonatomic) UIColor *hdrColor; // @synthesize hdrColor=_hdrColor;
-@property(readonly, nonatomic) double hdrHeadroom; // @synthesize hdrHeadroom=_hdrHeadroom;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long inkFormatVersion;
-@property(readonly, nonatomic) NSString *inkType;
-@property(readonly, nonatomic) unsigned long long particleRotation;
 @property(readonly, nonatomic) NSData *rawValue;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) UIColor *sdrColor; // @synthesize sdrColor=_sdrColor;
-@property(readonly, nonatomic) NSString *variant; // @synthesize variant=_variant;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
-@property(readonly, nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

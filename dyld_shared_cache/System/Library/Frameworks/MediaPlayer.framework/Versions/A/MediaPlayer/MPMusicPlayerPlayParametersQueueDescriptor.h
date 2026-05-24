@@ -6,20 +6,17 @@
 
 #import <MediaPlayer/MPMusicPlayerQueueDescriptor.h>
 
-@class MPMusicPlayerPlayParameters, NSArray;
+@class NSArray;
 
 @interface MPMusicPlayerPlayParametersQueueDescriptor : MPMusicPlayerQueueDescriptor
 {
     NSArray *_playParametersQueue;
-    MPMusicPlayerPlayParameters *_startItemPlayParameters;
-    MPMusicPlayerPlayParameters *_containerPlayParameters;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *playParametersQueue; // @synthesize playParametersQueue=_playParametersQueue;
-@property(retain, nonatomic) MPMusicPlayerPlayParameters *startItemPlayParameters; // @synthesize startItemPlayParameters=_startItemPlayParameters;
 
 @end
 

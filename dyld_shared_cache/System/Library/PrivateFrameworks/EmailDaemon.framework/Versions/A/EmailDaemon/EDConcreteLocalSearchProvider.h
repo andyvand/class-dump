@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDMessageQueryTransformer, EDSearchableIndexManager, EDSearchableIndexQueryTransformer;
+@class EDSearchableIndexManager;
 
 @interface EDConcreteLocalSearchProvider
 {
     EDSearchableIndexManager *_searchableIndexManager;
-    EDMessagePersistence *_messagePersistence;
-    EDSearchableIndexQueryTransformer *_queryTransformer;
-    EDMessageQueryTransformer *_messageQueryTransformer;
 }
 
 + (id)³ð1Â0@ù
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)};
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,9 +31,6 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) EDMessageQueryTransformer *messageQueryTransformer; // @synthesize messageQueryTransformer=_messageQueryTransformer;
-@property(readonly) EDSearchableIndexQueryTransformer *queryTransformer; // @synthesize queryTransformer=_queryTransformer;
 @property(readonly) EDSearchableIndexManager *searchableIndexManager; // @synthesize searchableIndexManager=_searchableIndexManager;
 
 @end

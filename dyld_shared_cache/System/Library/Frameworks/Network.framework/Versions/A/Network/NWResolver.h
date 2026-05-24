@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSSet, NWEndpoint, NWParameters;
+@class NSObject, NWEndpoint;
 @protocol OS_nw_resolver;
 
 @interface NWResolver
 {
     NWEndpoint *_endpoint;
-    NWParameters *_parameters;
-    NSObject<OS_nw_resolver> *_internalResolver;
-    long long _internalStatus;
-    NSSet *_internalResolvedEndpoints;
-    NSArray *_internalResolvedEndpointArray;
 }
 
 + (_Bool)22:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)';
 - (id);
 - (id);
 - (id);
@@ -39,15 +34,7 @@
 - (void)@;
 
 // Remaining properties
-@property(readonly) NWEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain) NSArray *internalResolvedEndpointArray; // @synthesize internalResolvedEndpointArray=_internalResolvedEndpointArray;
-@property(retain) NSSet *internalResolvedEndpoints; // @synthesize internalResolvedEndpoints=_internalResolvedEndpoints;
 @property(readonly) NSObject<OS_nw_resolver> *internalResolver; // @synthesize internalResolver=_internalResolver;
-@property long long internalStatus; // @synthesize internalStatus=_internalStatus;
-@property(readonly) NWParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSArray *resolvedEndpointArray;
-@property(readonly, nonatomic) NSSet *resolvedEndpoints;
-@property(readonly, nonatomic) long long status;
 
 @end
 

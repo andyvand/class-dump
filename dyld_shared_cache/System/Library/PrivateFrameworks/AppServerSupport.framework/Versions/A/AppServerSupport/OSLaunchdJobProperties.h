@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSSet, NSString, NSURL, NSUUID;
+@class NSString;
 
 @interface OSLaunchdJobProperties
 {
     _Bool _abandonCoalition;
-    _Bool _joinExistingSession;
-    _Bool _watchdogTimeout;
-    _Bool _omitSandboxParameters;
-    unsigned int _platform;
-    unsigned int _enterprisePersona;
-    NSString *_sandboxProfile;
-    NSURL *_sandboxContainer;
-    NSDictionary *_environmentVariables;
-    NSDictionary *_arguments;
-    NSArray *_programArguments;
-    NSString *_serviceType;
-    NSString *_processType;
-    NSString *_runLoopType;
-    NSString *_roleAccount;
-    NSString *_personaString;
-    NSUUID *_oneShotUUID;
-    NSDictionary *_additionalProperties;
-    NSSet *_managedEndpointLaunchIdentifiers;
-    NSArray *_managedByServices;
-    NSDictionary *_additionalSubServices;
-    NSString *_uiApplicationClass;
-    NSString *_uiApplicationDelegateClass;
-    NSDictionary *_spawnConstraint;
-    NSData *_lightweightCodeRequirement;
-    NSDictionary *_overlay;
 }
 
 - (id);
@@ -45,21 +20,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -69,14 +44,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)'HD'/�E;
 - (id);
 - (id);
-- (void);
+- (void)_Q;
 - (id);
+- (id)PresentmentCursorAnimation %p refcnt = %d>;
 - (id);
-- (id);
-- (id);
+- (id)ue;
 - (id);
 - (void);
 - (void);
@@ -89,37 +64,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool abandonCoalition; // @synthesize abandonCoalition=_abandonCoalition;
-@property(copy, nonatomic) NSDictionary *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(copy, nonatomic) NSDictionary *additionalSubServices; // @synthesize additionalSubServices=_additionalSubServices;
-@property(copy, nonatomic) NSDictionary *arguments; // @synthesize arguments=_arguments;
-@property(nonatomic) unsigned int enterprisePersona; // @synthesize enterprisePersona=_enterprisePersona;
-@property(copy, nonatomic) NSDictionary *environmentVariables; // @synthesize environmentVariables=_environmentVariables;
-@property(nonatomic) _Bool joinExistingSession; // @synthesize joinExistingSession=_joinExistingSession;
-@property(copy, nonatomic) NSData *lightweightCodeRequirement; // @synthesize lightweightCodeRequirement=_lightweightCodeRequirement;
-@property(copy, nonatomic) NSArray *managedByServices; // @synthesize managedByServices=_managedByServices;
-@property(copy, nonatomic) NSSet *managedEndpointLaunchIdentifiers; // @synthesize managedEndpointLaunchIdentifiers=_managedEndpointLaunchIdentifiers;
-@property(nonatomic) _Bool omitSandboxParameters; // @synthesize omitSandboxParameters=_omitSandboxParameters;
-@property(retain, nonatomic) NSUUID *oneShotUUID; // @synthesize oneShotUUID=_oneShotUUID;
-@property(copy, nonatomic) NSDictionary *overlay; // @synthesize overlay=_overlay;
-@property(copy, nonatomic) NSString *personaString; // @synthesize personaString=_personaString;
-@property(nonatomic) unsigned int platform; // @synthesize platform=_platform;
-@property(copy, nonatomic) NSString *processType; // @synthesize processType=_processType;
-@property(copy, nonatomic) NSArray *programArguments; // @synthesize programArguments=_programArguments;
-@property(copy, nonatomic) NSString *roleAccount; // @synthesize roleAccount=_roleAccount;
-@property(copy, nonatomic) NSString *runLoopType; // @synthesize runLoopType=_runLoopType;
-@property(retain, nonatomic) NSURL *sandboxContainer; // @synthesize sandboxContainer=_sandboxContainer;
 @property(copy, nonatomic) NSString *sandboxProfile; // @synthesize sandboxProfile=_sandboxProfile;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) NSDictionary *spawnConstraint; // @synthesize spawnConstraint=_spawnConstraint;
-@property(copy, nonatomic) NSString *uiApplicationClass; // @synthesize uiApplicationClass=_uiApplicationClass;
-@property(copy, nonatomic) NSString *uiApplicationDelegateClass; // @synthesize uiApplicationDelegateClass=_uiApplicationDelegateClass;
-@property(nonatomic) _Bool watchdogTimeout; // @synthesize watchdogTimeout=_watchdogTimeout;
 
 @end
 

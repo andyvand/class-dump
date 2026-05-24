@@ -4,50 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSImageCell, NSTextField;
+@class NSImageCell, NSTextField;
 
 @interface AKTooManyAttemptsController
 {
     NSImageCell *_imageView;
-    NSImage *_displayImage;
-    CDUnknownBlockType _cancelAction;
-    CDUnknownBlockType _forgotAction;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSButton *_cancelButton;
-    NSButton *_forgotPasswordButton;
 }
 
+- (void)eProvider.;
+- (void)SPToolKitUtilities;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
+- (id);
 - (void);
-- (void);
+- (CDUnknownBlockType)ress property:%@ /* Error: Ran out of types for this method. */;
+- (void)Կ;;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)bkitViewSetAssistantCancelButtonTitle:(id)arg1;
+- (void)mbWebkitViewSetAssistantCancelButtonTitle:(id)arg1;
 - (id)Library/Frameworks/SystemAdministrationInterface.framework/SystemAdministrationInterface;
 
 // Remaining properties
-@property NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(copy, nonatomic) CDUnknownBlockType cancelAction; // @synthesize cancelAction=_cancelAction;
-@property NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(copy, nonatomic) CDUnknownBlockType forgotAction; // @synthesize forgotAction=_forgotAction;
-@property NSButton *forgotPasswordButton; // @synthesize forgotPasswordButton=_forgotPasswordButton;
-@property(retain, nonatomic) NSImageCell *imageView; // @synthesize imageView=_imageView;
 @property NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

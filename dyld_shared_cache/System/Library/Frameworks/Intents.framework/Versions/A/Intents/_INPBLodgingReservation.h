@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBInteger, _INPBLocation, _INPBReservation;
+@class _INPBLocation;
 
 @interface _INPBLodgingReservation
 {
     struct _has;
-    _INPBLocation *_lodgingBusinessLocation;
-    _INPBInteger *_numberOfAdults;
-    _INPBInteger *_numberOfChildren;
-    _INPBReservation *_reservation;
-    _INPBDateTimeRange *_reservationDuration;
 }
 
 + (_Bool);
@@ -40,26 +35,10 @@
 - (void);
 - (id);
 - (id);
-- (void)tResponseParameterObjectType;
+- (void)INIntentResponseParameterObjectType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLodgingBusinessLocation;
-@property(readonly, nonatomic) _Bool hasNumberOfAdults;
-@property(readonly, nonatomic) _Bool hasNumberOfChildren;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservationDuration;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBLocation *lodgingBusinessLocation; // @synthesize lodgingBusinessLocation=_lodgingBusinessLocation;
-@property(retain, nonatomic) _INPBInteger *numberOfAdults; // @synthesize numberOfAdults=_numberOfAdults;
-@property(retain, nonatomic) _INPBInteger *numberOfChildren; // @synthesize numberOfChildren=_numberOfChildren;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBDateTimeRange *reservationDuration; // @synthesize reservationDuration=_reservationDuration;
-@property(readonly) Class superclass;
 
 @end
 

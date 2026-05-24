@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLCollection, NSString;
+@class DOMHTMLCollection;
 
 @interface DOMHTMLMapElement : DOMHTMLElement
 {
@@ -14,11 +14,10 @@
 
 - (id);
 - (id);
-- (void);
+- (void)Surface;
 
 // Remaining properties
 @property(readonly) DOMHTMLCollection *areas;
-@property(copy) NSString *name;
 
 @end
 

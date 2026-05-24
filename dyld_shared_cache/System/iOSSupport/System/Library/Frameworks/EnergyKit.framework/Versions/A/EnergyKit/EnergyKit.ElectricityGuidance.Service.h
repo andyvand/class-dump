@@ -7,6 +7,7 @@
 @interface EnergyKit.ElectricityGuidance.Service
 {
     id serializedGuidanceOperations;
+    id;
 }
 
 @end

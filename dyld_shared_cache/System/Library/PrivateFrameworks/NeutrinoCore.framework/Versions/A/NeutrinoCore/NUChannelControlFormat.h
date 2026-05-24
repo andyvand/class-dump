@@ -11,7 +11,6 @@
 @interface NUChannelControlFormat : NUChannelFormat
 {
     long long _controlType;
-    NUModel *_dataModel;
 }
 
 + (id);
@@ -27,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (long long);
 - (id);
 - (id);
@@ -35,10 +34,9 @@
 - (long long);
 - (long long);
 - (id);
-- (void)block: /* Error: Ran out of types for this method. */;
+- (void)writeTextureInRegion:device:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long controlType; // @synthesize controlType=_controlType;
 @property(readonly, nonatomic) NUModel *dataModel; // @synthesize dataModel=_dataModel;
 
 @end

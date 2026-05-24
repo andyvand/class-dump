@@ -12,13 +12,13 @@
 
 + (_Bool);
 + (Class)le local memories;
+- (id)_didRegisterWindowDidMovedNotification;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)%;
 - (id);
 
 @end

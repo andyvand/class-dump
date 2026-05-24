@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SearchUIContactButtonItem, SearchUIContactButtonItemGenerator;
+@class SearchUIContactButtonItemGenerator;
 
 @interface SearchUIContactQuickActionView
 {
     _Bool _enabled;
-    NSString *title;
-    NSString *systemImageName;
-    SearchUIContactButtonItemGenerator *_generator;
-    SearchUIContactButtonItem *_buttonItem;
 }
 
 - (void);
@@ -20,26 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (void)c;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property __weak SearchUIContactButtonItem *buttonItem; // @synthesize buttonItem=_buttonItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property __weak SearchUIContactButtonItemGenerator *generator; // @synthesize generator=_generator;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *systemImageName; // @synthesize systemImageName;
-@property(retain, nonatomic) NSString *title; // @synthesize title;
 
 @end
 

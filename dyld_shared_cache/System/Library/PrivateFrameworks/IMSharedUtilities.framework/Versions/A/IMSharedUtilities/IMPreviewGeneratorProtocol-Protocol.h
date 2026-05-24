@@ -5,5 +5,8 @@
 //
 
 @protocol IMPreviewGeneratorProtocol
++ (_Bool)_;
++ (_Bool);
++ (double);
 @end
 

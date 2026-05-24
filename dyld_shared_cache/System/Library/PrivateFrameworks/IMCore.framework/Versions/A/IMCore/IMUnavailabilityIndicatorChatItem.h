@@ -6,28 +6,24 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSHashTable;
+@class NSHashTable;
 
 @interface IMUnavailabilityIndicatorChatItem : IMTranscriptChatItem
 {
     _Bool _displayNotifyAnywayButton;
-    IMHandle *_handle;
-    NSHashTable *_unavailabilityIndicatorChatItemDelegates;
 }
 
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)@ AVAudioClient-start;
+- (void)s] %s:(id)arg1 %d Parameter 'connectionInfo' must be non-nil;
+- (void)%d Forcing WSOLA, time since silence:(_Bool)arg1 %f, Adjust = %f, time since low adjust:%f /* Error: Ran out of types for this method. */;
+- (_Bool)es for crossfade. sampleCount=%d;
+- (void)(%p) codecType=%s[%ld];
+- (void)%d Failed to allocate the audio receiver;
+- (id)s] %s:(id)arg1 %d Video info layer is enabled.;
 - (id);
 - (void)dv,}è~@;
 
 // Remaining properties
-@property(nonatomic) _Bool displayNotifyAnywayButton; // @synthesize displayNotifyAnywayButton=_displayNotifyAnywayButton;
-@property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
 @property(retain, nonatomic) NSHashTable *unavailabilityIndicatorChatItemDelegates; // @synthesize unavailabilityIndicatorChatItemDelegates=_unavailabilityIndicatorChatItemDelegates;
 
 @end

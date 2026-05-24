@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INPaymentRecord, NSString;
-
 @interface INSendPaymentIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)6@?<v@?B>24;
++ (int)needStopAccessing;
++ (long long)intValue;
++ (_Bool)initWithMachServiceName:(long long)arg1 options: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)refreshPhysicalDeviceConfiguration:(id)arg1;
+- (id);
+- (void)try with error:(id)arg1 %@;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)sPreferredCallProvider: /* Error: Ran out of types for this method. */;
+- (long long)StringAsPreferredCallProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INPaymentRecord *paymentRecord;
-@property(readonly) Class superclass;
 
 @end
 

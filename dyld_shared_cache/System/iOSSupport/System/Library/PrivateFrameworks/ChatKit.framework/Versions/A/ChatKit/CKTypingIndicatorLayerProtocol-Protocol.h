@@ -5,17 +5,13 @@
 //
 
 @protocol CKTypingIndicatorLayerProtocol
+- (void);
 - (void)H;
 
 @optional
 - (void)8NSNumberCG;
 
 // Remaining properties
-@property(nonatomic) _Bool hasDarkBackground;
 @property(retain, nonatomic) id iconImage;
-@property(nonatomic) double transcriptBackgroundLuminance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
 @end
 

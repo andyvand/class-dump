@@ -6,28 +6,11 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class CADisplayLink, NSMutableSet, _UIVelocityIntegrator;
+@class CADisplayLink;
 
 @interface UITouchForceGestureRecognizer : UIGestureRecognizer
 {
     CADisplayLink *_continuousEvaluationDisplayLink;
-    NSMutableSet *_currentTouches;
-    unsigned long long _eventTouchCount;
-    double _currentTouchForce;
-    struct CGPoint _initialCentroidOfTouches;
-    struct CGPoint _currentCentroidOfTouches;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    _Bool _automaticallyIncreaseTouchForce;
-    double _touchesBeganTimestamp;
-    _Bool _steady;
-    double _touchForce;
-    double _minimumRequiredTouchForce;
-    double _velocity;
-    double _allowableMovement;
-    unsigned long long _maximumNumberOfTouches;
-    double _automaticTouchForce;
-    double _automaticTouchForceDuration;
-    CDUnknownBlockType _configurationBlock;
 }
 
 - (void);
@@ -35,11 +18,11 @@
 - (double);
 - (double);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)eTimeRangeHasOverlappingOperationsInArraySortedByStartTime(maskRanges);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void)Ô¡!Bù\1Â0@ù
 × ;
@@ -52,17 +35,17 @@
 - (_Bool)View";
 - (void)";
 - (void)lor:(unsigned long long)arg1;
-- (_Bool)terInSection: /* Error: Ran out of types for this method. */;
-- (id)ngText;
-- (void)tPlainHeaderFooterFont;
-- (void)yViewsIncludingHiddenBackButtonViews: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Command: /* Error: Ran out of types for this method. */;
-- (void)set:(double)arg1;
-- (void)umResizableSize;
-- (void)eractiveChangeHandlers;
+- (_Bool)titleForFooterInSection: /* Error: Ran out of types for this method. */;
+- (id)textInputChangingText;
+- (void)defaultPlainHeaderFooterFont;
+- (void)_shim_displayViewsIncludingHiddenBackButtonViews: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_overlayForKeyCommand: /* Error: Ran out of types for this method. */;
+- (void)_originForContentOffset:(double)arg1;
+- (void)_minimumResizableSize;
+- (void)_interactiveChangeHandlers;
 - (void)B,R,N,V_isRepeating;
 - (void)usTest",&,N,S_setCurrentTest:(double)arg1;
-- (_Bool)egate;
+- (_Bool)_UIHyperOutOfProcessViewAnimatorDelegate;
 - (void)0718E70CF655EC048F6C17ObservableStorage;
 - (void)0 D!Ð!;
 - (double);
@@ -77,17 +60,7 @@
 - (_Bool)¸ÿ÷Ö×d;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(nonatomic) double automaticTouchForce; // @synthesize automaticTouchForce=_automaticTouchForce;
-@property(nonatomic) double automaticTouchForceDuration; // @synthesize automaticTouchForceDuration=_automaticTouchForceDuration;
-@property(copy, nonatomic) CDUnknownBlockType configurationBlock; // @synthesize configurationBlock=_configurationBlock;
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(nonatomic) unsigned long long maximumNumberOfTouches; // @synthesize maximumNumberOfTouches=_maximumNumberOfTouches;
-@property(nonatomic) double minimumRequiredTouchForce; // @synthesize minimumRequiredTouchForce=_minimumRequiredTouchForce;
-@property(nonatomic, getter=isSteady) _Bool steady; // @synthesize steady=_steady;
-@property(readonly, nonatomic) double touchDuration;
 @property(nonatomic) double touchForce; // @synthesize touchForce=_touchForce;
-@property(nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

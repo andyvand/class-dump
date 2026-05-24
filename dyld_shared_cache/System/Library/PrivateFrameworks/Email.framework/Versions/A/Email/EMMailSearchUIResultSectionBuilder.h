@@ -8,11 +8,11 @@
 {
 }
 
++ (id)OORDINATION_ELECTION;
++ (id)SELECTION_MODE_TYPE_UNKNOWN;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
++ (id)_CONNECTION_TYPE_UNKNOWN;
++ (long long)=;
 + (int);
 + (int);
 + (int);

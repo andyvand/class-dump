@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
 @protocol CNContactPickerInternalResponseDelegate;
 
 @interface CNMHContactPickerRemoteViewController
 {
     id <CNContactPickerInternalResponseDelegate> _responseDelegate;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -28,19 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)differenceFromArray:withOptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <CNContactPickerInternalResponseDelegate> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -18,8 +18,8 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)tPath: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)setPath: /* Error: Ran out of types for this method. */;
+- (id)RSASignature;
 
 @end
 

@@ -8,24 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _UIUpdateTarget
 {
     struct _UIInstrumentedCADisplay _display;
-    struct _UIInstrumentedCADynamicFrameRateSource _frameSource;
-    unsigned int _displayId;
-    _Bool _frameSourceActive;
-    long long _epsilonDuration;
-    long long _minFrameDuration;
-    long long _presentationLagDuration[2];
-    long long _commitDeadlineLeadDuration[2];
-    long long _commitTimeLeadDuration;
 }
 
-+ (id);
++ (id)ror:(id)arg1 %@;
 - (long long);
 - (struct _UIUpdatePresentationTiming);
+- (void)	;
 - (void);
-- (void);
+- (id)0;
 - (id);
-- (id);
-- (void);
+- (void)j;
 - (unsigned int);
 - (_Bool)(layout=%p);
 - (void).3G`Á.3y"¡.3yD¾7GGGACyÁÕ.3ycÕ.3y½Ô.3y7Ô.3yACy¥.3y_Ï.3yµ²;

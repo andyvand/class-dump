@@ -9,18 +9,16 @@
 @interface CalUIEventViewReportJunkControl
 {
     NSButton *_senderLabelButton;
-    NSButton *_junkButton;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)3;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSButton *junkButton; // @synthesize junkButton=_junkButton;
 @property(retain) NSButton *senderLabelButton; // @synthesize senderLabelButton=_senderLabelButton;
 
 @end

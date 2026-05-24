@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-@protocol UIPreviewInteractionDelegate, _UIPreviewInteractionImpl, _UIPreviewInteractionTouchForceProviding;
+@protocol _UIPreviewInteractionImpl, _UIPreviewInteractionTouchForceProviding;
 
 @interface UIPreviewInteraction
 {
     id <_UIPreviewInteractionImpl> _interactionImpl;
 }
 
-- (id);
-- (id);
-- (_Bool)InlineByToolbar:(SEL)arg1;
+- (id)g;
+- (id);
+- (_Bool)setHostedInlineByToolbar:(SEL)arg1;
 - (id)@"UIViewController"16;
 - (void)ÂçÓ°Rd;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate; // @dynamic delegate;
 @property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> touchForceProvider; // @dynamic touchForceProvider;
-@property(readonly, nonatomic) __weak UIView *view; // @dynamic view;
 
 @end
 

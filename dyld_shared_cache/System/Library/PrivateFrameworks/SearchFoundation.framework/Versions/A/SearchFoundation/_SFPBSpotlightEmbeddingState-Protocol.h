@@ -7,11 +7,9 @@
 @class NSData;
 
 @protocol _SFPBSpotlightEmbeddingState
+- (NSData *)",R,N,V_behaviorSpec;
 
 // Remaining properties
 @property(nonatomic) int embeddedPhotosAssetsCount;
-@property(nonatomic) int embeddedPhotosAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int totalPhotosAssetsCount;
 @end
 

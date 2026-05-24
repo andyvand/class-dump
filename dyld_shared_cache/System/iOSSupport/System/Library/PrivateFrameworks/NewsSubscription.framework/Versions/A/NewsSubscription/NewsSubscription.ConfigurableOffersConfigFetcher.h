@@ -7,9 +7,6 @@
 @interface NewsSubscription.ConfigurableOffersConfigFetcher
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
-    id cachedConfigurableOfferConfigs;
 }
 
 @end

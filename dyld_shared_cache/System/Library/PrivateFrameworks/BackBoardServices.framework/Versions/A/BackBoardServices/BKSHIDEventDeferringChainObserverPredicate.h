@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDisplay;
+@class BKSHIDEventDisplay;
 
 @interface BKSHIDEventDeferringChainObserverPredicate
 {
     BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringEnvironment *_environment;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)FOLLOWUP_START_USING_BUTTON_DISMISS;
 + (_Bool);
-- (id);
-- (id);
+- (id)requestsImmediateRuntime;
+- (id)initializeNaiveBayesV2Memory;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -24,11 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 
 // Remaining properties
 @property(readonly, nonatomic) BKSHIDEventDisplay *display;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *environment;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDEventModel.h>
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCalendarEventModel : HMDEventModel
 {
@@ -21,14 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *fireDateComponents; // @dynamic fireDateComponents;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

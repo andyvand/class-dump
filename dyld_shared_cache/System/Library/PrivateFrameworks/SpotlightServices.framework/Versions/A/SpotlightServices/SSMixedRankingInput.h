@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SSMixedRankingConfig;
-
 @interface SSMixedRankingInput
 {
     unsigned long long _queryId;
-    NSArray *_sections;
-    NSArray *_serverSuggestions;
-    NSString *_queryString;
-    SSMixedRankingConfig *_config;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)sion"16@"NSURLSessionDataTask"24@"NSCachedURLResponse"32@?<v@?@"NSCachedURLResponse">40;
+- (id)trailingPaddingForPresenceOfLeadingIcon;
 - (id);
 - (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)Domain:withLikelihood:withEntityTypes:withtoolBoxKind: /* Error: Ran out of types for this method. */;
+- (void)generateFeaturesWithFilterTypes:withSourcetypes:withGlobalDomain:withLikelihood:withEntityTypes:withtoolBoxKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SSMixedRankingConfig *config; // @synthesize config=_config;
 @property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(retain, nonatomic) NSArray *serverSuggestions; // @synthesize serverSuggestions=_serverSuggestions;
 
 @end
 

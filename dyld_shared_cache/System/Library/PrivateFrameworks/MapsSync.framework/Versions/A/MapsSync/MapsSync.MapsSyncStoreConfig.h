@@ -7,17 +7,15 @@
 @interface MapsSync.MapsSyncStoreConfig
 {
     long long primary;
-    long long cache;
 }
 
 + (id);
 + (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) long long cache; // @synthesize cache;
 @property(nonatomic, readonly) long long primary; // @synthesize primary;
 
 @end

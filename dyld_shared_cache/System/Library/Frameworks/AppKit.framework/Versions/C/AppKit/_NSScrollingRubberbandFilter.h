@@ -9,26 +9,6 @@
 @interface _NSScrollingRubberbandFilter
 {
     NSRecursiveLock *_syncLock;
-    struct CGPoint _constrainedClippingOrigin;
-    struct CGSize _clippingSize;
-    struct CGRect _documentFrame;
-    double _pointsPerPixel;
-    struct CGAffineTransform _affineTransformOfContent;
-    double _stiffness;
-    struct _flags1 {
-        unsigned int flipped:1;
-        unsigned int allowsHorizontalRubberbanding:1;
-        unsigned int allowsVerticalRubberbanding:1;
-        unsigned int reserved:29;
-    } _flags1;
-    struct _flags2 {
-        unsigned int stretched:1;
-        unsigned int reserved:31;
-    } _flags2;
-    struct CGPoint _scrollPosition;
-    struct CGPoint _filteredDelta;
-    struct CGPoint _filteredVelocity;
-    struct CGPoint _overflow;
 }
 
 + (void)pàG;
@@ -41,20 +21,20 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (double);
+- (double)UHwjAM1cqBLCR1OuYouf8A;
 - (_Bool);
 - (id);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
 - (struct CGAffineTransform);
 - (void);
-- (void);
-- (void);
+- (void)stream to read from!;
+- (void)21V;
 - (void);
 - (double);
 - (id);
@@ -63,19 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform affineTransformOfContent; // @synthesize affineTransformOfContent=_affineTransformOfContent;
-@property(nonatomic) _Bool allowsHorizontalRubberbanding;
-@property(nonatomic) _Bool allowsVerticalRubberbanding;
-@property(nonatomic) struct CGSize clippingSize; // @synthesize clippingSize=_clippingSize;
 @property(nonatomic) struct CGPoint constrainedClippingOrigin; // @synthesize constrainedClippingOrigin=_constrainedClippingOrigin;
-@property(nonatomic) struct CGRect documentFrame; // @synthesize documentFrame=_documentFrame;
-@property(readonly, nonatomic) struct CGPoint filteredDelta; // @synthesize filteredDelta=_filteredDelta;
-@property(readonly, nonatomic) struct CGPoint filteredVelocity; // @synthesize filteredVelocity=_filteredVelocity;
-@property(nonatomic, getter=isFlipped) _Bool flipped;
-@property(nonatomic) double pointsPerPixel; // @synthesize pointsPerPixel=_pointsPerPixel;
-@property(nonatomic) struct CGPoint scrollPosition;
-@property(nonatomic) double stiffness; // @synthesize stiffness=_stiffness;
-@property(readonly, nonatomic, getter=isStretched) _Bool stretched;
 
 @end
 

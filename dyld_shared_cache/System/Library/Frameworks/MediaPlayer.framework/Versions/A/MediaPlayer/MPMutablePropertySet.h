@@ -14,8 +14,141 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)* p.y);
+}
+
+void main()
+{
+    float x = hash(u_modelTransform[3].xy);
+	gl_FragColor = vec4(vec3(x+1./255.),1.);
+}
+
+;
+- (void)ace._normalTS = vec3(0., 0., 0.);
+#endif
+    
+    
+#ifdef USE_REFLECTIVE_MAP
+    vec3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.0 * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.0)*(refl.z+1.0));
+    _surface.reflective = texture2D(u_reflectiveTexture,vec2(vec2(refl.x,-refl.y) / m) + 0.5) ;
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    vec3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = textureCube(u_reflectiveTexture, mat3(u_viewToCubeWorld) * refl); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = u_reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = vec4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = u_fresnel.x + u_fresnel.y * pow(1.0 - clamp(dot(_surface.view, _surface.normal), 0.0, 1.0), u_fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = u_materialShininess;
+#endif
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+    
+    
+    
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = u_ambientLightColor.rgb;
+#elif defined(USE_AMBIENT)
+    _lightingContribution.ambient = vec3(0.);
+#endif
+    
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+    _lightingContribution.diffuse = vec3(0.);
+#ifdef USE_MODULATE
+    _lightingContribution.modulate = vec3(1.);
+#endif
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = vec3(0.);
+#endif
+    
+    __DoLighting__
+    
+#else 
+    _lightingContribution.diffuse = v_diffuse;
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = v_specular;
+#endif
+#endif
+    
+    
+#ifdef AVOID_OVERLIGHTING
+    _lightingContribution.diffuse = clamp(_lightingContribution.diffuse, vec3(0.), vec3(1.));
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = clamp(_lightingContribution.specular, vec3(0.), vec3(1.));
+#endif 
+#endif 
+#else 
+    _lightingContribution.diffuse = vec3(1.);
+#endif 
+    
+    
+    _output.color = illuminate(_surface, _lightingContribution);
+    
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * u_fogParameters.x + u_fogParameters.y, 0., u_fogColor.a), u_fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, u_fogColor.rgb * _output.color.a, fogFactor);
+#endif
+    
+#ifndef DIFFUSE_PREMULTIPLIED
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= u_transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+#ifdef USE_NODE_OPACITY
+    _output.color *= u_nodeOpacity;
+#endif
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671) + (_surface.transparent.g * 0.715160) + (_surface.transparent.b * 0.072169);
+    _output.color *= (vec4(1.) - _surface.transparent);
+#else 
+    _output.color *= _surface.transparent.a;
+#endif
+#else
+#ifdef USE_TRANSPARENCY 
+    _output.color *= u_transparency;
+#endif
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard;
+#endif
+    
+    gl_FragColor = _output.color;
+}
+;
 - (id);
 - (id);
 

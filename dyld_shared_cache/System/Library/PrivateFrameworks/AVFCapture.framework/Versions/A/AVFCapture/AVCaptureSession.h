@@ -9,19 +9,17 @@
 @interface AVCaptureSession
 {
     AVCaptureSessionInternal *_internal;
-    _Bool _multitaskingCameraAccessSupported;
-    _Bool _multitaskingCameraAccessEnabled;
 }
 
-+ (void);
++ (void)enabledDataclasses;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)b,;
 + (id);
 + (id);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)ework/Versions/A/CoreServices;
 + (_Bool);
 + (void);
 

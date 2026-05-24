@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRAction : SISchemaInstrumentationMessage
 {
@@ -22,19 +22,18 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'  LIMIT ?;;
 - (_Bool);
-- (void);
+- (void)?;
 - (id);
 - (id)
 × ;
 - (id)SString",C,N,V_dataCollectionId;
-- (id)iVocabSyncDataDownloadTriggered;
+- (id)RSSSchemaRSSSiriVocabSyncDataDownloadTriggered;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

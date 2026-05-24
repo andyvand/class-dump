@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSString, PXSharedLibraryAssistantParticipantViewModel, PXSharedLibraryAssistantViewModel, PXSharedLibraryParticipantTableViewController;
+@class PXSharedLibraryAssistantViewModel, PXSharedLibraryParticipantTableViewController;
 
 @interface PXSharedLibraryAssistantParticipantViewController : PXAssistantTemplateViewController
 {
     PXSharedLibraryParticipantTableViewController *_tableViewController;
-    PXSharedLibraryAssistantViewModel *_assistantViewModel;
-    PXSharedLibraryAssistantParticipantViewModel *_participantViewModel;
 }
 
 - (void);
@@ -21,21 +19,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)eThatFits: /* Error: Ran out of types for this method. */;
+- (void)_TtC12NewsArticles42SaveArticleViewerFeatureVisibilityProvider;
+- (void)sizeThatFits: /* Error: Ran out of types for this method. */;
 - (void)AnimationHelper.m;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *assistantViewModel; // @synthesize assistantViewModel=_assistantViewModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSharedLibraryAssistantParticipantViewModel *participantViewModel; // @synthesize participantViewModel=_participantViewModel;
-@property(readonly) Class superclass;
 
 @end
 

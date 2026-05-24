@@ -11,10 +11,6 @@
 @interface CHOpeningClosingCharacterMatchingStep : CHPostprocessingStepModifyingOriginalTokens
 {
     NSCharacterSet *_openingBracketCharacters;
-    NSCharacterSet *_closingBracketCharacters;
-    NSCharacterSet *_openingQuoteCharacters;
-    NSCharacterSet *_closingQuoteCharacters;
-    NSCharacterSet *_symmetricQuoteCharacters;
 }
 
 - (id);

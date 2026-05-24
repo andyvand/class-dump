@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelPickerMainModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

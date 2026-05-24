@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface ICBGTaskScheduler
 {
     NSMutableDictionary *_taskInfoDictionaries;
-    NSMutableDictionary *_taskHandlers;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    _Bool _registered;
-    NSString *_taskIdentifier;
 }
 
 + (id);

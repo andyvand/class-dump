@@ -5,5 +5,9 @@
 //
 
 @protocol CPKPopoverDelegate
+
+@optional
+- (void)0;
+- (_Bool);
 @end
 

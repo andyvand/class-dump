@@ -11,7 +11,7 @@
     _Bool _isJunk;
 }
 
-- (id);
+- (id)t %@;
 - (_Bool);
 - (void);
 - (id);

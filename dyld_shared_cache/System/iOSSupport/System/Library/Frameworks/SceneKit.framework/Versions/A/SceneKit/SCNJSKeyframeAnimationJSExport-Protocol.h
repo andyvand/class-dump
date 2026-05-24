@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol SCNJSKeyframeAnimationJSExport
++ (id)tableView:(NSString *)arg1 accessoryTypeForRowWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)40{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (id)	؀;
+- (void)populateUserInfoForNotificationContent:(NSString *)arg1 messageBalloonBundleID:payloadData:chatIdentifier:isUrgentMessageTrigger:shouldSuppressNotification:isKnownChat: /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1 %d;
+- (float)_ASAgentCredentialUpdateListenerProxy;
+- (void)upport/System/Library/PrivateFrameworks/UIKitCore.framework/Versions/A/UIKitCore;
+- (_Bool)initWithSet: /* Error: Ran out of types for this method. */;
+- (void)_travelTimeLeaveNowDrivingStringWithHypothesis:(NSArray *)arg1 eta:location: /* Error: Ran out of types for this method. */;
+- (void)locationSearchResults;
+- (NSString *)P;
+- (double)_hasScheduledCoalescedUpdate;
+- (struct CGPath *)_urlStringWithoutQueryForMatch: /* Error: Ran out of types for this method. */;
+- (void)for(let e in s)t[e]=s[e];return t},resultHasAddressOrTelephone:(double)arg1 function(t){return null!=t&&(Object.prototype.hasOwnProperty.call(t,"streetAddress")||Object.prototype.hasOwnProperty.call(t,"telephone"))},resultHasSchemaOrgInfo:function(t){return null!=t&&Object.prototype.hasOwnProperty.call(t,SchemaDataExtractor.containsSchemaOrgKey)},extractSchemaValuesFromSchemaOrg:function(){let t=this.extractAllSchemaValuesFromMicroData(),e=this.extractFilteredSchemaValuesFromMicroData();return this.resultHasAddressOrTelephone(e)||(e=this.extractFilteredSchemaValuesFromJSONLD()),this.resultHasAddressOrTelephone(t)||(t=this.extractAllSchemaValuesFromJSONLD()),(this.resultHasAddressOrTelephone(e)||this.resultHasSchemaOrgInfo(e))&&(e.url=location.href),[e,t]}},"undefined"==typeof SchemaDataExtractorJS&&(SchemaDataExtractorJS=new SchemaDataExtractor),SchemaDataExtractorJS.extractSchemaValuesFromSchemaOrg(); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property _Bool autoreverses;
-@property double beginTime;
-@property(copy) NSArray *biasValues;
-@property(retain) id byValue;
-@property(copy) NSString *calculationMode;
-@property(copy) NSArray *continuityValues;
-@property(getter=isCumulative) _Bool cumulative;
-@property double duration;
-@property(copy) NSString *fillMode;
 @property(retain) id fromValue;
-@property(copy) NSString *keyPath;
-@property(copy) NSArray *keyTimes;
-@property struct CGPath *path;
-@property(getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property(copy) NSArray *tensionValues;
-@property double timeOffset;
-@property(retain) CAMediaTimingFunction *timingFunction;
-@property(copy) NSArray *timingFunctions;
-@property(retain) id toValue;
-@property(copy) NSArray *values;
 @end
 

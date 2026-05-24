@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKSyncEngineFetchChangesZoneConfiguration
 {
     _Bool _shouldFetchAssetContents;
-    unsigned long long _resultsLimit;
 }
 
 - (_Bool);
@@ -20,20 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)32;
 - (_Bool);
 - (unsigned long long)ally persisted %@ on a CKRecord. If a %@ is fetched from the server, it must be merged into your locally persisted %@ and not directly used for saving new mergeable changes, unless it's the initial fetch.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long resultsLimit;
-@property _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
-@property(readonly) Class superclass;
+@property unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

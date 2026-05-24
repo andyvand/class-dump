@@ -9,7 +9,6 @@
 @interface LUIClockSettingsMonitor
 {
     NSString *_userGUID;
-    NSObservableDefaults *_defaultsObserver;
 }
 
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain) NSObservableDefaults *defaultsObserver; // @synthesize defaultsObserver=_defaultsObserver;
-@property(readonly) NSString *userGUID; // @synthesize userGUID=_userGUID;
 
 @end
 

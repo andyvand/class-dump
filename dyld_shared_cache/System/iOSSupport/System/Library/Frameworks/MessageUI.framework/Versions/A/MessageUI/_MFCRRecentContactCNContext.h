@@ -9,18 +9,16 @@
 @interface _MFCRRecentContactCNContext
 {
     CNContact *_existingContact;
-    CNContact *_interimContact;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *existingContact; // @synthesize existingContact=_existingContact;
-@property(retain, nonatomic) CNContact *interimContact; // @synthesize interimContact=_interimContact;
 
 @end
 

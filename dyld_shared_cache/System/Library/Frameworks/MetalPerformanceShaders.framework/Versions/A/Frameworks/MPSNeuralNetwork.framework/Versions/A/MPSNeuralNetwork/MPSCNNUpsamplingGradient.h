@@ -9,8 +9,6 @@
 @interface MPSCNNUpsamplingGradient : MPSCNNGradientKernel
 {
     unsigned long long _filterType;
-    double _scaleFactorX;
-    double _scaleFactorY;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -18,15 +16,14 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)F;
 - (id);
 - (void);
 - (id);
-- (id)TMMultiInputKernelFloat10;
+- (id)MPSLSTMMultiInputKernelFloat10;
 
 // Remaining properties
 @property(readonly, nonatomic) double scaleFactorX; // @synthesize scaleFactorX=_scaleFactorX;
-@property(readonly, nonatomic) double scaleFactorY; // @synthesize scaleFactorY=_scaleFactorY;
 
 @end
 

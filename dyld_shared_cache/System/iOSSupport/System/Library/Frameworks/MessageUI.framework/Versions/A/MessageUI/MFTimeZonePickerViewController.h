@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFCity, NSArray, NSString, UICollectionView, UICollectionViewDiffableDataSource;
-@protocol MFTimeZonePickerViewControllerDelegate;
+@class MFCity, UICollectionViewDiffableDataSource;
 
 @interface MFTimeZonePickerViewController
 {
     MFCity *_currentCity;
-    id <MFTimeZonePickerViewControllerDelegate> _delegate;
-    UICollectionViewDiffableDataSource *_dataSource;
-    NSArray *_currentFilteredCities;
-    UICollectionView *_collectionView;
 }
 
 + (id);
@@ -25,28 +20,17 @@
 - (void);
 - (void);
 - (id);
+- (void)de_"{__hash_node_base<std:(id)arg1:__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)_sdfPenEllipseLookupTexture;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)saveAttachmentsForTransfer:(id)arg1 chatGUID:(id)arg2 storeAtExternalLocation:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) MFCity *currentCity; // @synthesize currentCity=_currentCity;
-@property(retain, nonatomic) NSArray *currentFilteredCities; // @synthesize currentFilteredCities=_currentFilteredCities;
 @property(retain, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFTimeZonePickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,24 +6,19 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSDate;
 @protocol BPSPublisher;
 
 @interface BPSDebounce : BPSPublisher
 {
     id <BPSPublisher> _upstream;
-    double _dueTime;
-    CDUnknownBlockType _getTimestamp;
-    id _lastEvent;
-    NSDate *_lastArrivalTimestamp;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)c;
 - (double);
 - (void);
-- (void);
+- (void)/AppleInternal/Library/BuildRoots/4~CNqGugBTvussLedkUW04_EOP1COaY7E05ExiW38/Library/Caches/com.apple.xbs/TemporaryDirectory.tEblf0/Sources/ATCommandStudio/ATCSCommPortConfigurer.cpp;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -34,11 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double dueTime; // @synthesize dueTime=_dueTime;
-@property(readonly, nonatomic) CDUnknownBlockType getTimestamp; // @synthesize getTimestamp=_getTimestamp;
-@property(retain, nonatomic) NSDate *lastArrivalTimestamp; // @synthesize lastArrivalTimestamp=_lastArrivalTimestamp;
 @property(retain, nonatomic) id lastEvent; // @synthesize lastEvent=_lastEvent;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

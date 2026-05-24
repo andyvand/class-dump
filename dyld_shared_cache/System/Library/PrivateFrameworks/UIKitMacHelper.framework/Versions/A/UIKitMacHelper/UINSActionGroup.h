@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSProcessHandle, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UINSActionGroup
 {
     NSArray *_actions;
-    BSProcessHandle *_sourceApplication;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (void);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSArray *actions; // @synthesize actions=_actions;
-@property(retain) BSProcessHandle *sourceApplication; // @synthesize sourceApplication=_sourceApplication;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsUI2.ChannelPickerRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id featureAvailability;
-    id localRegionManager;
-    id appConfigManager;
 }
 
 @end

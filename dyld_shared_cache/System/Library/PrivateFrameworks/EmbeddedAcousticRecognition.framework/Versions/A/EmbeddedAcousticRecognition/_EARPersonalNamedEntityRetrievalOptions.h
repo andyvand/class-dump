@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EARPersonalNamedEntityRetrievalOptions
 {
     _Bool _enablePersonalNamedEntityRetrieval;
-    long long _personalNamedEntityVectorSpaceType;
-    NSString *_personalNamedEntityVectorSpacePath;
 }
 
 + (_Bool);
@@ -20,16 +16,14 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)maximumTLSVersion;
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enablePersonalNamedEntityRetrieval; // @synthesize enablePersonalNamedEntityRetrieval=_enablePersonalNamedEntityRetrieval;
-@property(retain, nonatomic) NSString *personalNamedEntityVectorSpacePath; // @synthesize personalNamedEntityVectorSpacePath=_personalNamedEntityVectorSpacePath;
-@property(nonatomic) long long personalNamedEntityVectorSpaceType; // @synthesize personalNamedEntityVectorSpaceType=_personalNamedEntityVectorSpaceType;
 
 @end
 

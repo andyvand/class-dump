@@ -7,16 +7,6 @@
 @interface RemindersUICore.TTRGeoLocationService
 {
     id delegate;
-    id locationAccuracyUpperBound;
-    id maximumLocationUpdatingTime;
-    id _addressToResolvedLocationCache;
-    id _locationToResolvedLocationCache;
-    id currentlyGeocodingLocation;
-    id _lastKnownCurrentLocation;
-    id pendingLocationsToResolve;
-    id locationManager;
-    id authorizationTracker;
-    id blockToPerformAfterRequestingInUseAuthorization;
 }
 
 - (id);

@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSTrackingSeparatorToolbarItem, NSWindow, NSWindowSectionControllerBoundingDivider;
+@class NSMutableArray, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowSectionController
 {
     NSMutableArray *_contentControllers;
-    NSMutableSet *_pendingTrackingSeparatorRegistrationQueue;
-    NSMutableSet *_pendingScrollViewRegistrationQueue;
-    NSMutableSet *_pendingSplitViewItemRegistrationQueue;
-    NSWindowSectionControllerBoundingDivider *_leftItem;
-    NSWindowSectionControllerBoundingDivider *_rightItem;
-    NSTrackingSeparatorToolbarItem *_systemSidebarItem;
-    NSTrackingSeparatorToolbarItem *_customSidebarItem;
-    NSTrackingSeparatorToolbarItem *_systemTrailingSidebarItem;
-    NSTrackingSeparatorToolbarItem *_customTrailingSidebarItem;
-    _Bool _fullHeightDividersDisabled;
-    _Bool _fullHeightSidebarDividersDisabled;
-    _Bool _updatingRegistrations;
-    _Bool _checkingAbandonedContentControllers;
-    NSWindow *_window;
 }
 
-+ (double);
++ (double)_ZN19URLConnectionLoader24protocolDidFinishLoadingEv;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)4D8XW4YwJI7QvyPhv1TEdw;
+- (void)0pY9r1XBV1duZ8HO3tBvFg;
+- (void)/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/device_map.c;
 - (void);
 - (void);
 - (void);
@@ -43,43 +29,39 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (double);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)- Failed munmap;
+- (void)get pfkey socket with error %s(%d);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (_Bool)download:(id)arg1 didReceiveDataOfLength:(id)arg2;
+- (void)_sqlDeleteStmtResponse;
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (void)d:frame %llu %llu data %zu complete %{bool}d /* Error: Ran out of types for this method. */;
+- (_Bool)lic}s {transaction_duration_ms=%u, response_status=%ld, cache_hit=%{bool}d};
+- (_Bool)blic,uuid_t}.16P>.<%lu> summary for %{public}s {transaction_duration_ms=%u, response_status=%ld, cache_hit=%{bool}d};
+- (_Bool)lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (void);
-- (void)erEntriesByRemovingItemsThatUseSelectionIfItIsWhitespace:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void));
+- (void)filterEntriesByRemovingItemsThatUseSelectionIfItIsWhitespace:(id)arg1;
 - (void)ctivationToApplication:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double boundingWidth;
-@property(readonly) NSArray *contentControllers;
-@property _Bool fullHeightDividersDisabled;
-@property _Bool fullHeightSidebarDividersDisabled;
 @property __weak NSWindow *window;
 
 @end

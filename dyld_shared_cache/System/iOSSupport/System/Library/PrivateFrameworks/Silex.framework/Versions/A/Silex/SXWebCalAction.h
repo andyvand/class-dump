@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SXJSONDictionary;
+@class NSURL, SXJSONDictionary;
 
 @interface SXWebCalAction
 {
     SXJSONDictionary *analytics;
-    NSURL *_URL;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

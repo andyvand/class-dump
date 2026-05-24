@@ -11,29 +11,27 @@
 @interface MechanismKofN : MechanismBaseComposite
 {
     NSMutableArray *_runningMechanisms;
-    _Bool _finishing;
-    _Bool _serial;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
++ (id)be called after initialize();
++ (id)alled after initialize();
+- (void)too many);
+- (void)ayers (must be at least 1);
+- (_Bool)supported feature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X);
+- (_Bool)pnetDistribution:(id)arg1:mapFromMemory() - DNN image %s contains unsupported feature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X) /* Error: Ran out of types for this method. */;
+- (_Bool)ead enough data from file:(_Bool)arg1;
+- (id)) - DNN file %s contains no layers (must be at least 1);
+- (id)6X%.8X, available = 0x%.6X%.8X);
+- (_Bool)ution::read() - cannot read cookie from file %s /* Error: Ran out of types for this method. */;
+- (id)NCOMPBITS;
+- (void)has shut down!;
+- (id)all ok;
+- (id)be called with NULL;
+- (id)not initialized in config;
+- (id)upervector() can only be called after initialize();
+- (id)esults() can only be called after initialize();
+- (void)ng option incompatible with durations/means/score;
+- (id)_encodedStrokeIdentifier;
 - (void);
 - (void);
 

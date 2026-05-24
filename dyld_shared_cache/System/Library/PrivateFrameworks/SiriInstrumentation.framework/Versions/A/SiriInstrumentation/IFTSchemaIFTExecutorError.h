@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFTSchemaIFTExecutorError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_other;
-    _Bool _failedToExecute;
-    _Bool _hasOther;
-    _Bool _hasFailedToExecute;
-    unsigned long long _whichOneof_Executorerror;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void)(=;
 - (_Bool);
 - (void);
 - (void);
@@ -28,7 +24,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -36,18 +32,13 @@
 - (id);
 - (id)!t!ÐGùqà1Â0@ù
 × ;
-- (id)promptstatus;
+- (id)_whichOneof_Candidatepromptstatus;
 - (id)cUploadStarted",&,N,V_companionSyncUploadStarted;
 - (id)ÿÿÿÿD;
 - (void)At#;
 
 // Remaining properties
-@property(nonatomic) _Bool failedToExecute; // @synthesize failedToExecute=_failedToExecute;
-@property(nonatomic) _Bool hasFailedToExecute; // @synthesize hasFailedToExecute=_hasFailedToExecute;
-@property(nonatomic) _Bool hasOther; // @synthesize hasOther=_hasOther;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *other; // @synthesize other=_other;
-@property(readonly, nonatomic) unsigned long long whichOneof_Executorerror; // @synthesize whichOneof_Executorerror=_whichOneof_Executorerror;
 
 @end
 

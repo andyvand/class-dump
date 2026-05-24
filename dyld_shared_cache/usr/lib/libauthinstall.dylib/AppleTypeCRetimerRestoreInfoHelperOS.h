@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface AppleTypeCRetimerRestoreInfoHelperOS
 {
     CDUnknownFunctionPointerType _logFunction;
-    void *_logContext;
-    _Bool _verbose;
 }
 
-- (void);
-- (id);
+- (void)Metadata;
+- (id)_registerBiomeETLToCALoggerTask;
 - (void);
 - (void);
 

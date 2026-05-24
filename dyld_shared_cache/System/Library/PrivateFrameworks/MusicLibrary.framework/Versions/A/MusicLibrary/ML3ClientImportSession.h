@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3ClientImportSessionConfiguration, NSProgress, NSString, NSXPCConnection;
-@protocol ML3ClientImportSessionDelegate;
+@class NSProgress, NSXPCConnection;
 
 @interface ML3ClientImportSession
 {
     NSXPCConnection *_xpcClientConnection;
-    id <ML3ClientImportSessionDelegate> _delegate;
-    ML3ClientImportSessionConfiguration *_sessionConfiguration;
-    _Bool _hasActiveSession;
-    NSProgress *_progress;
 }
 
-- (id);
-- (id);
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_FULL_13_withCode:(id)arg1;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_ERROR_1_withCode:(id)arg1;
+- (void),N,V_bundleScope;
 - (void);
+- (void)Q,V_previousStoreVersion;
+- (void),V_observerCount;
+- (void)n;
+- (void)sCount;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)nownFileType;
+- (id)I,N,V_version;
+- (id)eDictionary",&,N,V_curatedAssetCountByMomentUUID;
+- (id)addTransaction:(id)arg1 toXPCDictionary: /* Error: Ran out of types for this method. */;
+- (id)e>",W,N,V_delegate;
+- (_Bool);
+- (_Bool)gram data
+;
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)parseGetSpeakersResponse:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)twork_token, artwork_source_type, %d, album_pid, %d, artwork_variant_type FROM artwork_token JOIN item ON (item_pid = entity_pid) WHERE artwork_type = %d AND entity_type = %d AND entity_pid;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

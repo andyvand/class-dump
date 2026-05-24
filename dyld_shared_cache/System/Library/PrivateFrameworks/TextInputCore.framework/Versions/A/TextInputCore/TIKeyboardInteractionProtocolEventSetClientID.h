@@ -16,22 +16,15 @@
 + (_Bool);
 - (void);
 - (id);
+- (id)parable timestamps:(id)arg1 %s vs %s;
 - (id);
-- (id);
-- (void);
+- (void)als;
 - (id);
 - (void)aÐ!PDùQið1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,12 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSURL;
-
 @interface MPModelHomeSharingAsset : MPModelObject
 {
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @dynamic URL;
 @property(nonatomic, getter=isAvailable) _Bool available; // @dynamic available;
-@property(copy, nonatomic) NSURL *protectedContentSupportStorageFileURL; // @dynamic protectedContentSupportStorageFileURL;
 @end
 

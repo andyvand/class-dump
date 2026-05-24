@@ -12,22 +12,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)çÿ|öæ;
-- (struct CGColor *);
+- (struct CGColor *)%;
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (unsigned long long);
 - (struct CGColorSpace *);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (const double *);
+- (const double *);
 - (id);
 - (unsigned long long);
 - (double);
 - (double);
-- (double);
-- (struct CGColor *);
+- (double)[pP;
+- (struct CGColor *)(;
 - (id)_niigihhhh````TTTTOULUggggxxxxzxv}hxv~||||nvtwwwww}}}}~[rozpnipkkkkkkkkttttyxvyN]Rijh_jmvsw|{wwwwFYMa<H5T;K:Z\f]qOf_u5QCdX^Sb^aWi_plyxyyri~zitq|||||akbycvqcoiymh`qbkenG[QbDN?W]]R]\kfnu{zjZeZuvrkw££££¤¤¤¤s2TEkb]PfqyvywLkg}nlgn`cbcaaaakkkkzzzzyyyyjmjoYhcijjjj\mkqp|}yVoizrnfroytz}Jb\maaaaYYYYDNERISKYihfi[lkqloltarn}¤¤¤¤¦¦¦¦gz{fbZfS\Rf{{{{ecZe[bXf_wsVg]uT^SlalgqttttVc[jUWL`^^Y^M]SadhamwNgdo````[[[[\\\\XXVX7J;V<WIio¶¶¶¶»»»»¢¢¢¢}}}}O[Ma9TE`tttt««««¨¨¨¨yytyt{{{{G^XlZb]dbbbbSa[bee_ekg`keql{££££    \khurrrrppppP`YeIPB^GYMh{yy{Phdp?MAYJQETdddd`vv|¡¡¡¡Me^t[\QaddddZnir /* Error: Ran out of types for this method. */;
 - (double)wwwwYfbfZZSZJXM\micm}¢¢¢¢yfkbxVg^r[sp{v~{^oireeaeccZcTkbx    ¾¾¾¾»»»»v¥uuuuT[R^GUMWaaaammmmrqpsvvvvqqqqX[R]0A0KGG7GNNBNIXO_hxw{    i}l{xzzvzwr}|~YqmwhiciQ]W]WWQWKXPYeeeeuuuux¡¡¡¡§§§§HaYpBXPfooooltttWkkqvvvvx{y{Be]vYwq|wv~r««««°°°°¨§¨¨yl~yoummrjwhtmy££££¶¶¶¶¯¯¯¯qwp{]i`t{{{{R_Ue?XKe{~¦¥«¬ ­µ¸ÃÃÃÃÂÂÂÂ¨³´´¢¢¢¢|}\pizomepfh`iid[iKhatyyyy~~~~¡¡¡¡zzvzeqicpj{lkflgf_gqqpqfxxjr|{mzxUql^wwCVKfRZP]iidiq¡¡¡¡~u~zmzx}jwu`mhuornwy~}~_mfxkrk}¬¬¬¬®®®®¡¡¡¤¤¤¤¥¥¥¥~~~~ffbfaaYappppsz{~yyyyyyyypzx««««°°°°¢¡¢¢b~|]g^tQ`Xg\\\\<J?M4;,A7A8AKKKKR^X^||||¤¤¤¤]wtrwu|mmmmBQGV=H;Occcc{{{{oplqFXKkVrl§§§§¹¹¹¹°°°°ctrs}}}}Shepkkikqqqqyyyy{{{{||||qxxvxWngy¨¨¨¨¬¬¬¬§§§§¦¦¦¦¢¢¢¢s}y|}}}}V_Tgmmfo´´´´¶¶¶¶¡ªªªª­­­­utpwyyyyjwv{evu|~yuvvvvmtttyyyyo{}}zwxzVfaoJ]VfffffiiiibeaiYnkuVmd^yr££££¬¬¬¬¤¤¤¤¢¢¢¢¨¨¨¨¤£¤¤{{y{qqnqgmlmRe_iMbZl{{{{]xxvvvvtttt||||};ZNqbcXlvvvv||||vvvvMb]lVd_jtttt{d¡¡¡FldXng}tttt]`W`UUHY\e]kq¢¢¢¢¢¢¢¢Ytp~7N?b@QD\hhhhvvvvuZ}zioa}wf¤¤¬¯¯¯¤ªªzv\qkx}r~zjq|zltqxvvvvxxxxkxyy~~~~eqmxmg^oepjszzzzuuuuN`UiG\PhksoszzzzPlgwbnjvjrrrK_[dBNDT;
 - (id)tzy|||pwvymlhmPSHY%?-O^[P^~~~~srjzMbUoaj_st~{~Zoh|{yt{z{{{exuy}}}}yyyykmbtu}v¨§««£¡££|WkbwZpjw£°°°°¯¯¯¯ssssZYRZELBQFQIU^\W^]b_dNc`i]ppppppp^fafO[S`afbgnutvkasqyyyyyXbZf9O@_\_Tittpt[mfthi`qboivLgbp=VMcWb^bdddd_e_ipyzzzzzz]]]]4C4IPPFPiiiigSrmjmgtM[Re`_X`T`[addddjjjjqqqqcqsyzzzzTe[s|h|zyuzLg_zF]QoKcXqYsn|xxxx:(double)arg1 RC]FTF_vvvv|~~~eldw]j`uy{xntoy:(double)arg2 RCc5I8U?N>U8VJbyyyyqi_xr{{{{}}}}|yvtyJ_Vjcc]ciiiissss`rrzvwwyGa[iDMAWQSJUbbbbqqqqwwww`jikCPE]YXNc:(double)arg3 VLh"<(RaaaavvvvuuuuHZOf&M=fUpj~´´´´³³³³vsmyU\OeW`Ufvuqvu{{{{`nkrfg`kS^Uf=PE^?K@S9A5D&5':(double)arg4 >>1>3E;IWWQWiiii||||i^vuhgahFPDUCTK[oooottttPf`q~    ¬¬¬¬££xxsxGWIe:(struct CGColorSpace *)arg5 VGetzt|£«½º½½ÆÆÆÆ¸¸¸¸qupx[ickkqqq_{xogsmvWldtryv|wzunzgvo££©©©©¥¥¥¥x}xU_Se;WHf¤ªª²³³³¡¡¡¡ff_fIZO^dkfl  ¦¦¦¦¥¥¥¥¤¡¦¦ ££u~}¨©©©¯¯¯¯t¬¥£¨¬¬¬¬¬¥¥¥¥xkvs|||||wu{~u{Ukew5UGfalel||||qyvry<ZNkM[PeabZe=WLbIYOadf^f;

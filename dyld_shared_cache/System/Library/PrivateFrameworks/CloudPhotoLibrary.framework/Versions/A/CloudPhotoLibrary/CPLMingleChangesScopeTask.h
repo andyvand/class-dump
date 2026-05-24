@@ -6,29 +6,16 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLBatchExtractionStrategy, CPLEngineScope, CPLEngineTransientRepositoryBatchStorage, CPLTransportScopeMapping, NSObject, NSString;
-@protocol CPLEngineTransportFixUpSparseRecordTask, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLMingleChangesScopeTask : CPLEngineScopedTask
 {
     NSObject<OS_dispatch_queue> *_lock;
-    CPLEngineTransientRepositoryBatchStorage *_batchStorage;
-    CPLBatchExtractionStrategy *_extractionStrategy;
-    CPLEngineScope *_sharedScope;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    id <CPLEngineTransportFixUpSparseRecordTask> _fixUpTask;
-    _Bool _shouldStashRecordsIfNecessary;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    _Bool _didNotifySchedulerPullQueueIsFullOnce;
-    _Bool _needsToNotifySchedulerPullQueueIsFull;
-    unsigned long long _minglingCount;
-    _Bool _isDoingInitialMingling;
-    _Bool _minglingHasBeenReset;
-    _Bool _didLogShouldStashMasterRecords;
 }
 
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (void);
 - (_Bool);
@@ -39,25 +26,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)÷ö;
+- (void);
 - (void);
 - (void)
 × ;
 - (id)library/Engine/Storage/CPLClientCacheView_Extensions.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

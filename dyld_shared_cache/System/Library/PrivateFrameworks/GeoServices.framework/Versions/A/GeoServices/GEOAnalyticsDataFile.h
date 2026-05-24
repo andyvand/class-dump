@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOAnalyticsDataFile
 {
     _Bool _forWrite;
-    int _fd;
-    struct {
-        unsigned int header_magic;
-        unsigned int header_len;
-    } _hdr;
-    struct iovec _iov[2];
-    NSString *_filePath;
 }
 
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)_cn_concurrentMap:(id)arg1;
+- (id)k:(unsigned int)arg1 %@ %{public}@;
+- (id){public}@ is a directory; unexpected behavior may follow:(unsigned int)arg1 %{public}@;
+- (id)unts.framework/Accounts (%d);
 - (void);
 - (void);
-- (void);
+- (void)BEndpointDescriptor=CCCCSC}{IOUSBSuperSpeedEndpointCompanionDescriptor=CCCCS}{IOUSBSuperSpeedPlusIsochronousEndpointCompanionDescriptor=CCSI}},R;
 - (void)w9NÎ6;
 
 @end

@@ -7,7 +7,7 @@
 @protocol MTLBuffer;
 
 @protocol MTLIOScratchBuffer
-- (id <MTLBuffer>)uteDynamicLinkingDescriptor: /* Error: Ran out of types for this method. */;
+- (id <MTLBuffer>)newUnwrappedMTL4ComputeDynamicLinkingDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <MTLBuffer> buffer;

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AFSiriRequest
 {
     NSString *_originatingAceID;
-    NSUUID *_identifier;
-    NSUUID *_turnId;
-    NSString *__refId;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (_Bool);
@@ -31,13 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void)V_userIntent;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setOriginatingAceID:) NSString *_originatingAceID; // @synthesize _originatingAceID;
 @property(copy, nonatomic, setter=_setRefId:) NSString *_refId; // @synthesize _refId=__refId;
-@property(copy, nonatomic, setter=_setTurnId:) NSUUID *_turnId; // @synthesize _turnId;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol SFUnlockClientProtocol
+- (void)q;
+- (void);
+- (void)P;
 @end
 

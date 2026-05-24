@@ -13,18 +13,18 @@
 
 + (id);
 + (_Bool);
+- (id)sSession;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)insertPointer:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)uousConversationInfo;
 
 // Remaining properties

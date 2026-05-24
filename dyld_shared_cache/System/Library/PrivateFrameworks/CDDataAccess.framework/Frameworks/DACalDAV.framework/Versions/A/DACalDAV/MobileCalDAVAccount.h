@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVPrincipalSearchPropertySet, CalDAVRefreshContext, CalDAVServerVersion, CoreDAVDiscoveryTaskGroup, DACoreDAVLogger, DACoreDAVTaskManager, MobileCalDAVAccountRefreshActor, MobileCalDAVPrincipal, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet, NSString, NSTimeZone, NSURL;
+@class CoreDAVDiscoveryTaskGroup;
 
 @interface MobileCalDAVAccount
 {
     int _wasMigrated;
-    NSMutableDictionary *_principals;
-    NSMutableDictionary *_itemIDsToMoveActions;
-    NSMutableSet *_mMovedItemURLStrings;
-    NSMutableSet *_calendars;
-    CalDAVServerVersion *_serverVersion;
-    NSString *_usernameForDiscovery;
-    NSString *_hostForDiscovery;
-    _Bool _needsAccountPropertyRefresh;
-    _Bool _isRefreshing;
-    _Bool _searchQueriesShouldCancel;
-    _Bool _isSpinning;
-    int _preferredEventDaysToSync;
-    int _preferredToDoDaysToSync;
-    NSMutableSet *_movedItemURLStrings;
-    MobileCalDAVPrincipal *_mainPrincipal;
-    NSDictionary *_delegateUserInfos;
-    CalDAVPrincipalSearchPropertySet *_searchPropertySet;
-    CalDAVRefreshContext *_refreshContext;
-    CoreDAVDiscoveryTaskGroup *_checkValidityTaskGroup;
-    MobileCalDAVAccountRefreshActor *_actor;
-    NSMutableSet *_searchTaskSet;
-    DACoreDAVLogger *_coreDAVLogger;
 }
 
 - (id);
@@ -42,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (void);
 - (void);
@@ -57,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);
@@ -99,7 +77,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
@@ -111,7 +89,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -124,7 +102,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)K!;
 - (_Bool);
 - (void);
 - (void);
@@ -139,7 +117,7 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -154,63 +132,24 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (_Bool)O;
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)1;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MobileCalDAVAccountRefreshActor *actor; // @synthesize actor=_actor;
-@property(copy, nonatomic) NSString *calendarHomeSyncToken;
-@property(readonly, nonatomic) NSSet *calendars;
 @property(retain, nonatomic) CoreDAVDiscoveryTaskGroup *checkValidityTaskGroup; // @synthesize checkValidityTaskGroup=_checkValidityTaskGroup;
-@property(retain, nonatomic) NSURL *collectionSetURL;
-@property(retain, nonatomic) DACoreDAVLogger *coreDAVLogger; // @synthesize coreDAVLogger=_coreDAVLogger;
-@property(retain, nonatomic) NSDictionary *delegateUserInfos; // @synthesize delegateUserInfos=_delegateUserInfos;
-@property(nonatomic) _Bool isRefreshing; // @synthesize isRefreshing=_isRefreshing;
-@property(nonatomic) _Bool isSpinning; // @synthesize isSpinning=_isSpinning;
-@property(nonatomic) _Bool isWritable;
-@property(readonly, nonatomic) NSDictionary *itemIDsToMoveActions;
-@property(retain, nonatomic) NSMutableSet *mCalendars; // @synthesize mCalendars=_calendars;
-@property(retain, nonatomic) NSMutableDictionary *mItemIDsToMoveActions; // @synthesize mItemIDsToMoveActions=_itemIDsToMoveActions;
-@property(retain, nonatomic) NSMutableSet *mMovedItemURLStrings; // @synthesize mMovedItemURLStrings=_movedItemURLStrings;
-@property(retain, nonatomic) NSMutableDictionary *mPrincipals; // @synthesize mPrincipals=_principals;
-@property(retain, nonatomic) MobileCalDAVPrincipal *mainPrincipal; // @synthesize mainPrincipal=_mainPrincipal;
-@property(readonly, nonatomic) NSSet *movedItemURLStrings;
-@property(nonatomic) _Bool needsAccountPropertyRefresh; // @synthesize needsAccountPropertyRefresh=_needsAccountPropertyRefresh;
-@property(nonatomic) int overriddenPort;
-@property(retain, nonatomic) NSString *overriddenScheme;
-@property(retain, nonatomic) NSString *overriddenServer;
-@property(nonatomic) int preferredEventDaysToSync; // @synthesize preferredEventDaysToSync=_preferredEventDaysToSync;
-@property(nonatomic) int preferredToDoDaysToSync; // @synthesize preferredToDoDaysToSync=_preferredToDoDaysToSync;
-@property(readonly, nonatomic) NSDictionary *principals;
-@property(retain, nonatomic) CalDAVRefreshContext *refreshContext; // @synthesize refreshContext=_refreshContext;
-@property(retain, nonatomic) CalDAVPrincipalSearchPropertySet *searchPropertySet; // @synthesize searchPropertySet=_searchPropertySet;
-@property(nonatomic) _Bool searchQueriesShouldCancel; // @synthesize searchQueriesShouldCancel=_searchQueriesShouldCancel;
-@property(retain, nonatomic) NSMutableSet *searchTaskSet; // @synthesize searchTaskSet=_searchTaskSet;
-@property(readonly, nonatomic) NSURL *serverBaseURL;
-@property(retain, nonatomic) CalDAVServerVersion *serverVersion; // @synthesize serverVersion=_serverVersion;
-@property(readonly, nonatomic) _Bool shouldFilterEventSyncTimeRange;
-@property(readonly, nonatomic) _Bool shouldFilterSyncTimeRangeForInbox;
-@property(readonly, nonatomic) _Bool shouldUseCalendarHomeSyncReport;
-@property(retain, nonatomic) NSDictionary *subscribedCalendars;
-@property(readonly, nonatomic) _Bool supportsEvents;
-@property(readonly, nonatomic) _Bool supportsReminders;
-@property(readonly, nonatomic) DACoreDAVTaskManager *taskManager;
-@property(readonly, nonatomic) NSTimeZone *viewedTimeZone;
-@property(nonatomic) _Bool wasMigrated;
-@property(readonly, nonatomic) NSArray *wellKnownPaths;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AVPlayerLayer
 {
     AVPlayerLayerInternal *_playerLayer;
-    struct CGPoint __captionPreviewPosition;
 }
 
 + (id);

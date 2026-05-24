@@ -9,14 +9,13 @@
 @interface ILNinePartImageRep
 {
     NSMutableArray *slices;
-    struct CGRect slicingRect;
 }
 
 + (id);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)O;
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *slices; // @synthesize slices;
-@property struct CGRect slicingRect; // @synthesize slicingRect;
 
 @end
 

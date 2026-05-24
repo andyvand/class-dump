@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)f/extension_set.cc;
 @end
 

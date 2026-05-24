@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BlastDoorASCodableSample;
-
 @interface _BlastDoorASCodableAchievement
 {
     double _completedDate;
-    double _doubleValue;
-    long long _intValue;
-    long long _workoutActivityType;
-    NSString *_definitionIdentifier;
-    _BlastDoorASCodableSample *_sample;
-    NSString *_templateUniqueName;
-    struct {
-        unsigned int completedDate:1;
-        unsigned int doubleValue:1;
-        unsigned int intValue:1;
-        unsigned int workoutActivityType:1;
-    } _has;
 }
 
 - (id);
@@ -34,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)BUSINESS_LEAVE_AND_DELETE_CONVERSATION;
 - (void);
 - (double);
 - (_Bool);
@@ -53,27 +39,15 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)'
+g;
 - (id);
 - (long long)¨÷ïÿÌ÷ïÿä÷ïÿlúïÿúïÿÌúïÿ;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) double completedDate; // @synthesize completedDate=_completedDate;
-@property(retain, nonatomic) NSString *definitionIdentifier; // @synthesize definitionIdentifier=_definitionIdentifier;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasCompletedDate;
-@property(readonly, nonatomic) _Bool hasDefinitionIdentifier;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntValue;
 @property(readonly, nonatomic) _Bool hasSample;
-@property(readonly, nonatomic) _Bool hasTemplateUniqueName;
-@property(nonatomic) _Bool hasWorkoutActivityType;
-@property(nonatomic) long long intValue; // @synthesize intValue=_intValue;
-@property(retain, nonatomic) _BlastDoorASCodableSample *sample; // @synthesize sample=_sample;
-@property(retain, nonatomic) NSString *templateUniqueName; // @synthesize templateUniqueName=_templateUniqueName;
-@property(nonatomic) long long workoutActivityType; // @synthesize workoutActivityType=_workoutActivityType;
 
 @end
 

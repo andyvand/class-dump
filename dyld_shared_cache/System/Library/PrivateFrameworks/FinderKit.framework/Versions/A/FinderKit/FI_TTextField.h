@@ -4,29 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TTextField
 {
     struct CGSize _maxSize;
-    struct CGSize _minSize;
-    struct CGSize _idealSize;
-    _Bool _idealSizeIsDirty;
-    NSColor *_enabledTextColor;
-    NSColor *_disabledTextColor;
-    _Bool _autoSizeToFit;
-    _Bool _autoAdjustHeightToFit;
-    _Bool _sizingInProgress;
-    _Bool _drawGrayTextWhenDisabled;
-    _Bool _delayWindowOrderingOnClickThrough;
-    struct TriStateBool _isEnabledCacheWhenNotKey;
-    _Bool _isInsideWindowChangedKeyState;
-    _Bool _stringSelectorUpdateTextWithAttributedString;
-    unique_ptr_85e9c8c7 _bestFitStringSelector;
-    struct shared_ptr<TBestFitFormatterSelector> _bestFitFormatterSelector;
-    _Bool _disableIntegralFrames;
-    _Bool _textHitTestingEnabled;
 }
 
 + (Class);
@@ -34,20 +15,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Q;
+- (void);
+- (void)@@y	?%@qa;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,24 +58,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void),N;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)W2;
+- (void);
 - (unsigned long long);
-- (void);
+- (void)wayTime:(_Bool)arg1 %@, currentRunwayTime:%@, gateBufferMinutes:%@, runwayBufferMinutes:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)
 × ;
@@ -107,26 +88,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)llocatorIS8_EEEEEERT_EUlRK10TNodeEventE_;
 
 // Remaining properties
-@property(nonatomic) _Bool autoAdjustHeightToFit; // @synthesize autoAdjustHeightToFit=_autoAdjustHeightToFit;
-@property(nonatomic) _Bool autoSizeToFit; // @synthesize autoSizeToFit=_autoSizeToFit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool delayWindowOrderingOnClickThrough; // @synthesize delayWindowOrderingOnClickThrough=_delayWindowOrderingOnClickThrough;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableIntegralFrames; // @synthesize disableIntegralFrames=_disableIntegralFrames;
-@property(retain, nonatomic) NSColor *disabledTextColor;
-@property(nonatomic) _Bool drawGrayTextWhenDisabled; // @synthesize drawGrayTextWhenDisabled=_drawGrayTextWhenDisabled;
-@property(retain, nonatomic) NSColor *enabledTextColor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize idealSize; // @synthesize idealSize=_idealSize;
 @property(nonatomic) _Bool idealSizeIsDirty; // @synthesize idealSizeIsDirty=_idealSizeIsDirty;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textHitTestingEnabled; // @synthesize textHitTestingEnabled=_textHitTestingEnabled;
-@property(nonatomic) struct _NSRange truncateInRange;
 
 @end
 

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, NSData, NSDate, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface MapsSuggestionsEntry
 {
     NSMutableSet *_typeHistory;
-    NSMutableDictionary *_sourceSpecificInfo;
-    _Bool _deleted;
-    NSString *_undecoratedTitle;
-    NSString *_undecoratedTitleWhenLocked;
-    NSString *_undecoratedSubtitle;
-    NSString *_undecoratedSubtitleWhenLocked;
-    long long _type;
-    NSString *_title;
-    NSString *_titleWhenLocked;
-    NSString *_subtitle;
-    NSString *_subtitleWhenLocked;
-    NSData *_iconData;
-    double _weight;
-    NSDate *_expires;
-    GEOMapItemStorage *_geoMapItem;
-    NSString *_originatingSourceName;
 }
 
 + (id);
@@ -68,12 +52,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,10 +77,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (id)tableView:(id)arg1 userDidChangeVisibilityOfTableColumns: /* Error: Ran out of types for this method. */;
+- (unsigned long long)erOfEnrichmentStateAssetMetadataAndScoreAssetCollections;
+- (id)_isPerformingFetch;
+- (_Bool)@;
 - (void);
 - (id);
 - (_Bool);
@@ -125,14 +109,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@C;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@~;
 - (void);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (long long);
@@ -141,7 +125,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)TB,N,GisSubtoolbarHidden,V_subtoolbarHidden;
 - (void);
 - (void);
 - (id);
@@ -153,39 +137,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool deleted; // @synthesize deleted=_deleted;
-@property(readonly, copy, nonatomic) NSString *description;
-@property(retain) NSDate *expires; // @synthesize expires=_expires;
-@property(readonly, copy, nonatomic) NSString *fullDescription;
-@property(retain) GEOMapItemStorage *geoMapItem; // @synthesize geoMapItem=_geoMapItem;
-@property(readonly, nonatomic) _Bool hasExpired;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(readonly, nonatomic) _Bool isPureShortcut;
 @property(readonly, nonatomic) _Bool isShortcut;
-@property(readonly, nonatomic) _Bool isShortcutForSetup;
-@property(retain, nonatomic) NSString *originatingSourceName; // @synthesize originatingSourceName=_originatingSourceName;
-@property(readonly, copy, nonatomic) NSString *serializedBase64String;
-@property(readonly, copy, nonatomic) NSString *serializedHexString;
-@property(readonly, copy, nonatomic) NSString *shortDescription;
-@property(readonly, nonatomic) NSString *shortcutIdentifier;
-@property(retain) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain) NSString *subtitleWhenLocked; // @synthesize subtitleWhenLocked=_subtitleWhenLocked;
-@property(readonly) Class superclass;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSString *titleWhenLocked; // @synthesize titleWhenLocked=_titleWhenLocked;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(retain) NSString *undecoratedSubtitle; // @synthesize undecoratedSubtitle=_undecoratedSubtitle;
-@property(retain) NSString *undecoratedSubtitleWhenLocked; // @synthesize undecoratedSubtitleWhenLocked=_undecoratedSubtitleWhenLocked;
-@property(retain) NSString *undecoratedTitle; // @synthesize undecoratedTitle=_undecoratedTitle;
-@property(retain) NSString *undecoratedTitleWhenLocked; // @synthesize undecoratedTitleWhenLocked=_undecoratedTitleWhenLocked;
-@property(readonly) NSString *uniqueIdentifier;
-@property(readonly, nonatomic) NSString *uniqueName;
-@property double weight; // @synthesize weight=_weight;
 
 @end
 

@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _NSCollectionLayoutEdgeSpacing, _NSCollectionLayoutSize;
+@class NSArray, _NSCollectionLayoutSize;
 
 @interface _NSCollectionLayoutItem
 {
     NSArray *_supplementaryItems;
-    NSArray *_decorationItems;
-    _NSCollectionLayoutEdgeSpacing *_edgeSpacing;
-    NSString *_name;
-    _NSCollectionLayoutSize *_size;
-    struct NSDirectionalEdgeInsets _contentInsets;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)%@ XPC error %@;
++ (id)ic}@ error %@;
++ (id)create ABQuery data %{public}@ error %@;
 + (id);
 - (id);
-- (id);
+- (id)undSessionDidStartAppWake:called with ID:%@, when we already had an app wake with ID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
-- (id)IgnoringOpacity;
+- (id)displayIfNeededIgnoringOpacity;
 - (void);
-- (void)up;
+- (void)fontFamilyPopup;
 - (void)martRepliesReportConcern(void);
 
 // Remaining properties
-@property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(copy, nonatomic) _NSCollectionLayoutEdgeSpacing *edgeSpacing; // @synthesize edgeSpacing=_edgeSpacing;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) _NSCollectionLayoutSize *size; // @synthesize size=_size;
 
 @end

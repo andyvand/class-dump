@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface FigCaptureFrameCounter
 {
     NSString *_title;
-    double _loggingInterval;
-    struct os_unfair_lock_s _lock;
-    _Bool _started;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    long long _totalFramesCount;
-    CDStruct_1b6d18a9 _totalFirstFramePTS;
-    CDStruct_1b6d18a9 _totalLastFramePTS;
-    long long _intervalFramesCount;
-    CDStruct_1b6d18a9 _intervalFirstFramePTS;
-    CDStruct_1b6d18a9 _intervalLastFramePTS;
 }
 
 + (id);
@@ -28,20 +16,18 @@
 - (void);
 - (id);
 - (void);
+- (double)28;
 - (double);
-- (double);
 - (void);
-- (void);
+- (void)lineSpacingRule;
+- (id)ream exception.;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)ACDKeychainCache;
 - (id)¾è¡ÿÌç¤ÿÙå¨ÿääªÿðâ¥ÿýáÿÿàÿÿÞÿÿÜÿÿÛÿÿÙÿÿ×ÿÿÖÿ;
 - (_Bool)/¬ÿ0­ÿ«1®ÿ´/«ÿ»,¨ÿÃ(¦ÿË#£ÿÔ ÿÜÿåÿîÿøÿúÿúÿúÿúÿ;
 
 // Remaining properties
-@property(nonatomic) double loggingInterval;
-@property(readonly, nonatomic) _Bool started;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

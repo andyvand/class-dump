@@ -12,7 +12,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)countered corrupt db (%@), attempting to reinitialize;
 + (id);
 + (unsigned long long);
 + (_Bool);

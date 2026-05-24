@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (const char *);
-- (id);
+- (id);
 
 @end
 

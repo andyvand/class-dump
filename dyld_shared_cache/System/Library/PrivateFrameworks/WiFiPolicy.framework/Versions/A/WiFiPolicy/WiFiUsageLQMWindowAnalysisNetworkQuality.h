@@ -6,25 +6,21 @@
 
 #import <WiFiPolicy/WiFiUsageLQMWindowAnalysis.h>
 
-@class NSDictionary;
-
 @interface WiFiUsageLQMWindowAnalysisNetworkQuality : WiFiUsageLQMWindowAnalysis
 {
     unsigned long long _networkQualityResponsivenessScore;
-    NSDictionary *_networkQualityEventFields;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)9;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__objc_protorefs__DATA_CONST;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *networkQualityEventFields; // @synthesize networkQualityEventFields=_networkQualityEventFields;
 @property(nonatomic) unsigned long long networkQualityResponsivenessScore; // @synthesize networkQualityResponsivenessScore=_networkQualityResponsivenessScore;
 
 @end

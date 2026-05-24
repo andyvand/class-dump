@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBiometricsSignatureResult, NSNumber, NSString;
+@class NSString;
 
 @interface AMSPaymentSheetResult
 {
     NSString *_delegateAuthenticateToken;
-    NSString *_passwordEquivalentToken;
-    NSNumber *_paymentMethodType;
-    NSString *_paymentToken;
-    AMSBiometricsSignatureResult *_signatureResult;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)ٓ;
+- (void)K;
 - (id);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(retain) NSString *delegateAuthenticateToken; // @synthesize delegateAuthenticateToken=_delegateAuthenticateToken;
-@property(retain) NSString *passwordEquivalentToken; // @synthesize passwordEquivalentToken=_passwordEquivalentToken;
-@property(retain) NSNumber *paymentMethodType; // @synthesize paymentMethodType=_paymentMethodType;
-@property(retain) NSString *paymentToken; // @synthesize paymentToken=_paymentToken;
-@property(retain) AMSBiometricsSignatureResult *signatureResult; // @synthesize signatureResult=_signatureResult;
 
 @end
 

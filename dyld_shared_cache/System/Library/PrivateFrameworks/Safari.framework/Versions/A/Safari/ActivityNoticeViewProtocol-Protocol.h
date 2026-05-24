@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ActivityNoticeViewDelegate;
-
 @protocol ActivityNoticeViewProtocol
 
 // Remaining properties
-@property(nonatomic) __weak id <ActivityNoticeViewDelegate> delegate;
 @property(readonly, nonatomic) unsigned long long dismissalMode;
 @end
 

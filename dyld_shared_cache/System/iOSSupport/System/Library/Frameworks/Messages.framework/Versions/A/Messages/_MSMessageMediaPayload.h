@@ -4,40 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL, NSUUID, UIImage;
+@class NSString;
 
 @interface _MSMessageMediaPayload
 {
     _Bool _isSticker;
-    UIImage *_image;
-    NSURL *_mediaURL;
-    NSString *_mediaType;
-    unsigned long long _stickerEffectType;
-    NSString *_text;
-    NSData *_mediaData;
-    NSString *_mediaFilename;
-    NSData *_data;
-    NSString *_accessibilityLabel;
-    NSString *_accessibilityName;
-    NSString *_searchText;
-    NSString *_sanitizedPrompt;
-    NSDictionary *_attributionInfo;
-    NSString *_stickerPackGUID;
-    unsigned long long _stickerPositionVersion;
-    NSData *_generativePlaygroundRecipeData;
-    unsigned long long _initialFrameIndex;
-    NSArray *_stickerRepresentations;
-    NSString *_externalURI;
-    NSUUID *_stickerStoreIdentifier;
-    NSString *_stickerName;
-    NSData *_stickerMetadata;
-    NSURL *_animatedImageCacheURL;
-    NSData *_macDragImageData;
-    struct CGRect _sourceFrame;
 }
 
 + (id);
-+ (id);
++ (id)effectVersion;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -56,14 +31,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)b: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -96,7 +71,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)nternal/Library/BuildRoots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Utilities/DGGeometry.m;
 - (id);
 - (void);
 - (void);
@@ -104,43 +79,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy, nonatomic) NSString *accessibilityName; // @synthesize accessibilityName=_accessibilityName;
-@property(copy, nonatomic) NSURL *animatedImageCacheURL; // @synthesize animatedImageCacheURL=_animatedImageCacheURL;
-@property(copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(copy, nonatomic) NSData *generativePlaygroundRecipeData; // @synthesize generativePlaygroundRecipeData=_generativePlaygroundRecipeData;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long initialFrameIndex; // @synthesize initialFrameIndex=_initialFrameIndex;
-@property(nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(copy, nonatomic) NSData *macDragImageData; // @synthesize macDragImageData=_macDragImageData;
-@property(copy, nonatomic) NSData *mediaData; // @synthesize mediaData=_mediaData;
-@property(copy, nonatomic) NSString *mediaFilename; // @synthesize mediaFilename=_mediaFilename;
-@property(copy, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(copy, nonatomic) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
-@property(copy, nonatomic) NSString *sanitizedPrompt; // @synthesize sanitizedPrompt=_sanitizedPrompt;
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(nonatomic) struct CGRect sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(nonatomic) unsigned long long stickerEffectType; // @synthesize stickerEffectType=_stickerEffectType;
-@property(copy, nonatomic) NSData *stickerMetadata; // @synthesize stickerMetadata=_stickerMetadata;
-@property(copy, nonatomic) NSString *stickerName; // @synthesize stickerName=_stickerName;
-@property(copy, nonatomic) NSString *stickerPackGUID; // @synthesize stickerPackGUID=_stickerPackGUID;
-@property(nonatomic) unsigned long long stickerPositionVersion; // @synthesize stickerPositionVersion=_stickerPositionVersion;
-@property(retain, nonatomic) NSArray *stickerRepresentations; // @synthesize stickerRepresentations=_stickerRepresentations;
-@property(copy, nonatomic) NSUUID *stickerStoreIdentifier; // @synthesize stickerStoreIdentifier=_stickerStoreIdentifier;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 
 @end
 

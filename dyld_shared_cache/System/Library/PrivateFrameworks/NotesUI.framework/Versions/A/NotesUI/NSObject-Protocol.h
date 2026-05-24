@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)TextView"16@"NSTextAttachment"24Q32;
+- (id)"NSURL"40@0:8@"NSTextView"16@"NSTextAttachment"24Q32 /* Error: Ran out of types for this method. */;
+- (id)6{_NSRange=QQ}24Q40@"NSDictionary"48@"NSArray"56@"NSOrthography"64q72;
+- (id)ry"40^Q48;
+- (id)16{_NSRange=QQ}24@"NSDictionary"40^Q48;
+- (Class)extView"16:24 /* Error: Ran out of types for this method. */;
+- (unsigned long long)_TtC15RemindersUICore47TTRMReminderDetailLocationTextEditorCoordinator;
 - (struct _NSZone *)otes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

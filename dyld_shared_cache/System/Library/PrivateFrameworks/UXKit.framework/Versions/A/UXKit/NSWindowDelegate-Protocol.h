@@ -9,19 +9,23 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void)E@9*;
+- (void);
+- (void);
+- (void)#;
 - (void)Ú!HDù±ïÐ1Â0@ù
 × ;
 - (unsigned long long)ð1Â0@ù
 × ;
 - (void)Point=dd}{CGSize=dd}}64@0:(NSNotification *)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56;
-- (void):(NSNotification *)arg1;
-- (void)rs:(NSNotification *)arg1;
-- (struct CGRect)paque;
-- (void)viewOfClass:(NSNotification *)arg1;
-- (void)rSelectedItems;
-- (_Bool)accessibilityDefaultRole;
+- (void)settingsAtIndex:(NSNotification *)arg1;
+- (void)setToolbarDefaultItemIdentifiers:(NSNotification *)arg1;
+- (struct CGRect)opaque;
+- (void)_viewOfClass:(NSNotification *)arg1;
+- (void)_indexPathsForSelectedItems;
+- (_Bool)_accessibilityDefaultRole;
 - (void)hlightedBackgroundView;
 - (void)atorColor:(NSNotification *)arg1 ,V__separatorColor;
-- (struct CGSize)XLabel;
+- (struct CGSize)UXLabel;
 @end
 

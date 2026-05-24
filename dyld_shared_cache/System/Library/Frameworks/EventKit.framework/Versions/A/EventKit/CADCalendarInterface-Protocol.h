@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CADObjectID;
+
 @protocol CADCalendarInterface
+- (void)leader:(CADObjectID *)arg1 %{public}@;
+- (void)gerDataSource] [MRNowPlayingSessionManager] Got command preview that will cause a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
+- (void)pairing process after setting setup code. %{public}@;
 @end
 

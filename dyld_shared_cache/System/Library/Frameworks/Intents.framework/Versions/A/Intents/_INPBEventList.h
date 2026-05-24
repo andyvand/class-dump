@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBEventList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_events;
 }
 
 + (Class);
@@ -21,12 +19,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)equest already in progress (clientID=%{public}@);
 - (id);
 - (id);
 - (void);
@@ -37,16 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) unsigned long long eventsCount;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

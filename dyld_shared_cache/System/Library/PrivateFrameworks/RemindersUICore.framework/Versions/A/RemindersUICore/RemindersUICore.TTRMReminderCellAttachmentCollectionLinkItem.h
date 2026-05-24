@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox;
-
 @interface RemindersUICore.TTRMReminderCellAttachmentCollectionLinkItem
 {
     id delegate;
-    id preferredSizeClass;
-    void selectionOverlay;
-    id linkView;
 }
 
 - (void);
@@ -25,12 +20,10 @@
 - (void);
 - (void);
 - (_Bool)menu item title (without item count);
-- (void)Key;
+- (void)URLResourceKey;
 
 // Remaining properties
-@property(nonatomic) long long highlightState;
 @property(nonatomic) _Bool selected;
-@property(nonatomic) __weak NSBox *selectionOverlay; // @synthesize selectionOverlay;
 
 @end
 

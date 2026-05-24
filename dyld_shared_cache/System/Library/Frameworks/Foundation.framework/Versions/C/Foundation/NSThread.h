@@ -7,7 +7,6 @@
 @interface NSThread
 {
     id _private;
-    unsigned char _bytes[44];
 }
 
 @end

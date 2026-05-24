@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthorizationRequest, BrowserDataExportController, NSButton, NSDictionary, NSLayoutConstraint, NSPanel, NSPopUpButton, NSStackView, NSTextField;
+@class BrowserDataExportController, NSPanel;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataExportPanelController
 {
     BrowserDataExportController *_browsingDataExportController;
-    AuthorizationRequest *_authorizationRequest;
-    NSDictionary *_exportDataTypeToggleContainers;
-    NSPopUpButton *_profilePopUpButton;
-    unsigned long long _exportTypesComputingCountsFor;
-    NSPanel *_exportPanel;
-    NSButton *_exportButton;
-    NSButton *_cancelButton;
-    NSStackView *_togglesContainer;
-    NSTextField *_exportTitleText;
-    NSTextField *_exportDescriptionText;
-    NSLayoutConstraint *_stackViewBottomSpacingConstraint;
 }
 
 + (id);
@@ -39,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (void);
@@ -54,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak NSButton *exportButton; // @synthesize exportButton=_exportButton;
-@property(nonatomic) __weak NSTextField *exportDescriptionText; // @synthesize exportDescriptionText=_exportDescriptionText;
 @property __weak NSPanel *exportPanel; // @synthesize exportPanel=_exportPanel;
-@property __weak NSTextField *exportTitleText; // @synthesize exportTitleText=_exportTitleText;
-@property __weak NSLayoutConstraint *stackViewBottomSpacingConstraint; // @synthesize stackViewBottomSpacingConstraint=_stackViewBottomSpacingConstraint;
-@property(nonatomic) __weak NSStackView *togglesContainer; // @synthesize togglesContainer=_togglesContainer;
 
 @end
 

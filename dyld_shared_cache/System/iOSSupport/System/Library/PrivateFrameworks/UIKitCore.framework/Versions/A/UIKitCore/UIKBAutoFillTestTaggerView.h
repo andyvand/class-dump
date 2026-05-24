@@ -6,30 +6,21 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIBarButtonItem, UIKBAutoFillTestTagRequest, UILabel, UIPickerView, UIToolbar, UIVisualEffectView;
+@class UIKBAutoFillTestTagRequest;
 @protocol UIKBAutoFillTestTaggerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestTaggerView : UIView
 {
     UIKBAutoFillTestTagRequest *_currentRequest;
-    UIPickerView *_pickerView;
-    UIToolbar *_toolbar;
-    UIBarButtonItem *_nextBarButtoItem;
-    UIBarButtonItem *_previousBarButtonItem;
-    UIBarButtonItem *_doneBarButtonItem;
-    UIVisualEffectView *_visualEffectView;
-    UILabel *_titleLabel;
-    id <UIKBAutoFillTestTaggerViewDelegate> _delegate;
-    NSArray *_tagRequests;
 }
 
 - (id);
-- (id);
-- (double);
-- (long long);
-- (void);
-- (void);
+- (id)egory:(id)arg1 %ld and subCategory:(long long)arg2 %ld.;
+- (double)essage was categorized on iPhone. Received category:(id)arg1 %ld and subCategory:(long long)arg2 %ld.;
+- (long long)lu from deviceID:(id)arg1 %@. Checking if we need to update filterCapabilities;
+- (void)xtensionName:(id)arg1 %@, smsFilterCapabilitiesOptions:(long long)arg2 %lu from deviceID:(long long)arg3 %@. Checking if we need to update filterCapabilities;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,15 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)HÀÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIKBAutoFillTestTaggerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *tagRequests; // @synthesize tagRequests=_tagRequests;
 
 @end
 

@@ -5,9 +5,12 @@
 //
 
 @protocol SGDSuggestManagerContactsProtocol
+- (void)dgetProtocolP;
+- (void);
+- (void);
+- (void)differentialStyles;
 - (void)ÔAÚ Ð!tFù±l$1Â0@ù
 × ;
 - (void)èHyySpykèHGz_SpySo8NSObjectCSgGSgzSpyypGSgztcG;
-- (void);
 @end
 

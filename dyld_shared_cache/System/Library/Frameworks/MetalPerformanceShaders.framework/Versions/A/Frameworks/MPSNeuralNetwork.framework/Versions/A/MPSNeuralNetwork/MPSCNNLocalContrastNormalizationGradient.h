@@ -9,11 +9,6 @@
 @interface MPSCNNLocalContrastNormalizationGradient : MPSCNNGradientKernel
 {
     float _alpha;
-    float _beta;
-    float _delta;
-    float _p0;
-    float _pm;
-    float _ps;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -49,11 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(nonatomic) float p0; // @synthesize p0=_p0;
-@property(nonatomic) float pm; // @synthesize pm=_pm;
-@property(nonatomic) float ps; // @synthesize ps=_ps;
 
 @end
 

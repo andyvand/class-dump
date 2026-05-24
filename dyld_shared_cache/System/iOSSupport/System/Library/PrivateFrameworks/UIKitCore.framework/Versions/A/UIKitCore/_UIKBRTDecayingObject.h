@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIKBRTDecayingObject
 {
     NSMutableArray *_resetBlocks;
-    _Bool _isDecaying;
-    _Bool _isHolding;
-    double _lastUpdate;
-    double _timeoutDuration;
 }
 
 - (void);
@@ -22,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (double);
+- (void)writeToFile:(CDUnknownBlockType)arg1 atomically:encoding:error: /* Error: Ran out of types for this method. */;
+- (_Bool)setAssociatedMessagePartText: /* Error: Ran out of types for this method. */;
+- (id)replicationSourceServiceNameWithBlastDoorBasicMessage:(double)arg1;
+- (double)ed;
 - (void);
 - (_Bool)
 × ;
@@ -34,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (double)Ò_;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isDecaying; // @synthesize isDecaying=_isDecaying;
-@property(readonly, nonatomic) _Bool isHolding; // @synthesize isHolding=_isHolding;
 @property(readonly, nonatomic) double lastUpdate; // @synthesize lastUpdate=_lastUpdate;
-@property(nonatomic) double timeoutDuration; // @synthesize timeoutDuration=_timeoutDuration;
 
 @end
 

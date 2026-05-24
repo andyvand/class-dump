@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BKHIDEventDeliveryObserverService;
+
 @protocol BKHIDEventDeliveryObserverServiceProvider
+- (BKHIDEventDeliveryObserverService *)_INCREMENT;
 @end
 

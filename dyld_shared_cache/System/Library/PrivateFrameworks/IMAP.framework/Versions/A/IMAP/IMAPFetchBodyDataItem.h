@@ -6,13 +6,9 @@
 
 #import <IMAP/IMAPFetchDataItem.h>
 
-@class NSString;
-
 @interface IMAPFetchBodyDataItem : IMAPFetchDataItem
 {
     long long _textSectionSpecifier;
-    NSString *_partSectionSpecifier;
-    struct _NSRange _dataRange;
 }
 
 + (id);
@@ -23,15 +19,12 @@
 - (id);
 - (struct _NSRange);
 - (void);
-- (id);
+- (id)%@;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly) struct _NSRange dataRange; // @synthesize dataRange=_dataRange;
-@property(readonly) _Bool isHeader;
-@property(readonly, copy) NSString *partSectionSpecifier; // @synthesize partSectionSpecifier=_partSectionSpecifier;
-@property(readonly) long long textSectionSpecifier; // @synthesize textSectionSpecifier=_textSectionSpecifier;
 
 @end
 

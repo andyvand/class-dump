@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioProvider, CSAudioStreamHolding;
+@class CSAudioStreamHolding;
 
 @interface CSRemoraSecondPassAudioStreamHoldingContext
 {
     CSAudioStreamHolding *_audioStreamHolding;
-    CSAudioProvider *_audioProvider;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)ssChannelSelectionDelaySeconds;
+- (void)firstPassChannelSelectionDelaySeconds;
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
 @property(retain, nonatomic) CSAudioStreamHolding *audioStreamHolding; // @synthesize audioStreamHolding=_audioStreamHolding;
 
 @end

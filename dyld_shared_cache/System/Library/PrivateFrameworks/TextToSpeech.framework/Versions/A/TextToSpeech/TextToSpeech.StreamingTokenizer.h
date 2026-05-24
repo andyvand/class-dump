@@ -7,11 +7,6 @@
 @interface TextToSpeech.StreamingTokenizer
 {
     id stream;
-    id tokenizer;
-    id tokenizerQueue;
-    id continuation;
-    id string;
-    id shouldContinue;
 }
 
 @end

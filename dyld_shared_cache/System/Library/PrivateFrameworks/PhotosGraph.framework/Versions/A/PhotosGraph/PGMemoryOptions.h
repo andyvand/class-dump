@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSDictionary, NSSet;
-
 @interface PGMemoryOptions
 {
     unsigned long long _reason;
-    NSDate *_universalDate;
-    CLLocation *_location;
-    NSArray *_peopleNames;
-    NSArray *_existingMemories;
-    NSArray *_blockedMemories;
-    NSSet *_blockedFeatures;
-    NSArray *_existingSuggestions;
-    NSDate *_lastMemoryCreationUniversalDate;
-    NSDate *_baseMemoryCreationUniversalDate;
-    NSDictionary *_extraParameters;
-    unsigned long long _randomSeed;
-    double _forcedBeta;
 }
 
-+ (id);
++ (id)actionWithName:(unsigned long long)arg1 uiElement: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)currentTokenRange;
+- (double)stringFromDate: /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -48,26 +34,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)!;
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)enumerateNeighborEdgesAndNodesThroughOutEdgesUsingBlock: /* Error: Ran out of types for this method. */;
 - (void)d:%@, propertyNames:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *baseMemoryCreationUniversalDate; // @synthesize baseMemoryCreationUniversalDate=_baseMemoryCreationUniversalDate;
-@property(retain, nonatomic) NSSet *blockedFeatures; // @synthesize blockedFeatures=_blockedFeatures;
-@property(retain, nonatomic) NSArray *blockedMemories; // @synthesize blockedMemories=_blockedMemories;
-@property(retain, nonatomic) NSArray *existingMemories; // @synthesize existingMemories=_existingMemories;
-@property(retain, nonatomic) NSArray *existingSuggestions; // @synthesize existingSuggestions=_existingSuggestions;
-@property(retain, nonatomic) NSDictionary *extraParameters; // @synthesize extraParameters=_extraParameters;
-@property(nonatomic) double forcedBeta; // @synthesize forcedBeta=_forcedBeta;
-@property(retain, nonatomic) NSDate *lastMemoryCreationUniversalDate; // @synthesize lastMemoryCreationUniversalDate=_lastMemoryCreationUniversalDate;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSArray *peopleNames; // @synthesize peopleNames=_peopleNames;
-@property(nonatomic) unsigned long long randomSeed; // @synthesize randomSeed=_randomSeed;
 @property unsigned long long reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSDate *universalDate; // @synthesize universalDate=_universalDate;
 
 @end
 

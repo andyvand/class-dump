@@ -6,60 +6,52 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class EKCalendarItemEditor, EKLocationEditItemViewController, EKUILocationEditItemModel, NSString;
+@class EKUILocationEditItemModel;
 
 __attribute__((visibility("hidden")))
 @interface EKCalendarItemLocationInlineEditItem : EKEventEditItem
 {
     EKUILocationEditItemModel *_viewModel;
-    EKCalendarItemEditor *_editor;
-    EKLocationEditItemViewController *_currentLocationEditController;
 }
 
-- (_Bool);
+- (_Bool)&s;
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (unsigned long long)&s;
+- (_Bool)%s;
+- (_Bool)2%s;
+- (void);
+- (void);
+- (void))s;
+- (void);
+- (unsigned long long)%s;
+- (void);
+- (void)%s;
+- (void);
+- (id);
+- (void)P;
+- (void);
+- (_Bool)&{;
+- (_Bool)q;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void)ate: /* Error: Ran out of types for this method. */;
+- (void)_isInLiveContinuousToneSession;
+- (id),?,R;
+- (void)nextDaylightSavingTimeTransitionAfterDate: /* Error: Ran out of types for this method. */;
 - (_Bool)ker]|;
 - (double)9_´	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

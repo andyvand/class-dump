@@ -9,33 +9,26 @@
 @interface NSButtonImageSource
 {
     NSMutableDictionary *_buttonImages;
-    struct CGSize _imageSize;
-    struct CGSize _focusRingImageSize;
-    struct {
-        unsigned int hasAlpha:1;
-        unsigned int fullEncoding:1;
-        unsigned int reserved:30;
-    } _bisFlags;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)set_socketStreamProperties: /* Error: Ran out of types for this method. */;
++ (id)set_shouldHandleCookies: /* Error: Ran out of types for this method. */;
++ (id)set_private_nw_activity: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (void)ÖR©H;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (void)!,Fùñà3ð1Â0@ù
 × ;
-- (id)Successfully:(struct _NSZone *)arg1 actionSender: /* Error: Ran out of types for this method. */;
-- (struct CGSize)nTabRemoval;
+- (id)_executeSelectPrevious:(struct _NSZone *)arg1 didCommitSuccessfully:actionSender: /* Error: Ran out of types for this method. */;
+- (struct CGSize)NSWindowTabbingAnimateFullScreenTabRemoval;
 - (void);
 
 // Remaining properties

@@ -7,10 +7,6 @@
 @interface SiriOntology.UsoEntity
 {
     id valueTypeString;
-    id attributes;
-    id usoIdentifiers;
-    id usoValue;
-    id entitySpans;
 }
 
 @end

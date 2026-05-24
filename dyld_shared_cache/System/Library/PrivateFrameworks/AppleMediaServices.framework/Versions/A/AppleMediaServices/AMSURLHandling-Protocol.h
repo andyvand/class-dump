@@ -7,6 +7,7 @@
 @class AMSURLSession, NSData;
 
 @protocol AMSURLHandling
+- (void);
 
 @optional
 - (id)ge with error:(NSData *)arg1 %{public}@;

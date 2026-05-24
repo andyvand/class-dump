@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSMutableDictionary, NSObject, NSString;
-@protocol AVCMomentsDelegate, OS_dispatch_queue;
+@class AVConferenceXPCClient;
+@protocol AVCMomentsDelegate;
 
 @interface AVCMoments
 {
     AVConferenceXPCClient *_connection;
-    long long _streamToken;
-    id _delegate;
-    unsigned int _capabilities;
-    NSString *_requesterID;
-    NSMutableDictionary *_requests;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    int _currentActiveRequestsCount;
-    int _currentPendingRequestsCount;
-    _Bool _isLocalRecordingEnabled;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (id);
@@ -34,29 +25,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)?;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void),V_elevationLogic;
 - (long long);
 - (int);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id){;
 - (unsigned int);
 - (void)é$Ì¹¬ðå¨íÞóæÍ6£?é£ãËrº.\±7ç·ÔÊãaôáÞtó;
 
 // Remaining properties
-@property(readonly, nonatomic) int activeRequestCount; // @synthesize activeRequestCount=_currentActiveRequestsCount;
-@property(readonly, nonatomic) unsigned int capabilities; // @synthesize capabilities=_capabilities;
 @property(readonly, nonatomic) id <AVCMomentsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) int pendingRequestCount; // @synthesize pendingRequestCount=_currentPendingRequestsCount;
-@property(readonly, nonatomic) NSString *requesterID; // @synthesize requesterID=_requesterID;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
 
 @end
 

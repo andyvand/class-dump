@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHCollectionList, PHFetchOptions, PXAssetsRecoveryCountsManager, PXMacSyncedAssetsStatusProvider, PXPhotoKitVirtualCollections, PXPhotoLibraryLocalDefaults, PXSharedLibrarySharingSuggestionsCountsManager;
+@class PXAssetsRecoveryCountsManager;
 
 @interface UnknownClass (AssetsRecoveryCountsManager)
 + (id);
@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -47,14 +47,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsRecoveryCountsManager *px_assetsRecoveryCountsManager;
-@property(readonly, nonatomic, getter=px_areChangesPaused) _Bool px_changesPaused;
-@property(readonly) PXPhotoLibraryLocalDefaults *px_localDefaults;
-@property(readonly, nonatomic) PXMacSyncedAssetsStatusProvider *px_macSyncedAssetsStatusProvider;
-@property(readonly, nonatomic) unsigned long long px_peoplePetsHomeVisibility;
-@property(readonly, nonatomic) PHCollectionList *px_rootAlbumCollectionList;
-@property(readonly, nonatomic) PHCollectionList *px_rootProjectCollectionList;
-@property(readonly, nonatomic) PXSharedLibrarySharingSuggestionsCountsManager *px_sharedLibrarySharingSuggestionsCountsManager;
-@property(readonly, copy, nonatomic) PHFetchOptions *px_standardLibrarySpecificFetchOptions;
-@property(readonly, nonatomic) PXPhotoKitVirtualCollections *px_virtualCollections;
 @end
 

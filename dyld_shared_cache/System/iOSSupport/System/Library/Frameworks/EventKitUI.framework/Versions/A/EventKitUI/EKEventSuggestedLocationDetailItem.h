@@ -6,33 +6,26 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKEventDetailSuggestedLocationCell, NSString;
+@class EKEventDetailSuggestedLocationCell;
 
 @interface EKEventSuggestedLocationDetailItem : EKEventDetailItem
 {
     EKEventDetailSuggestedLocationCell *_cell;
-    _Bool _visibilityChanged;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)ay";
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)openAndWaitWithUpgrade:(id)arg1 error:(id)arg2;
+- (unsigned long long)[K;
+- (_Bool)S;
 - (_Bool);
-- (_Bool);
-- (void)iewOnCanvasHidden: /* Error: Ran out of types for this method. */;
+- (void)setOccurrenceViewOnCanvasHidden: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

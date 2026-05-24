@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LARight, NSObject;
-@protocol LAKeyStoreGenericPassword, OS_dispatch_queue;
+@class LARight;
 
 @interface LASecret
 {
     LARight *_right;
-    id <LAKeyStoreGenericPassword> _genp;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _instanceID;
 }
 
 - (void);

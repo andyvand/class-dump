@@ -8,6 +8,8 @@
 @protocol OS_dispatch_queue;
 
 @protocol GCHIDSystemEventProviding
+- (void),;
+- (id);
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_queue> *eventQueue;

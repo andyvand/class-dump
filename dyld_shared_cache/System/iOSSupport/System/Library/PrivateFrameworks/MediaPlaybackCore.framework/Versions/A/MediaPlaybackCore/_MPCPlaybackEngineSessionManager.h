@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEngineSessionManager
 {
     _Bool _stateRestorationSupported;
-    MPCPlaybackEngine *_playbackEngine;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_sessionArchives;
-    NSMutableDictionary *_sessionIdentifierArchiveMap;
 }
 
 + (id);
@@ -25,27 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)AIDA account with username %@;
+- (id)bled for account %@;
 - (id);
 - (id);
 - (id);
 - (void)updated items];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly, nonatomic) NSMutableArray *sessionArchives; // @synthesize sessionArchives=_sessionArchives;
-@property(readonly, nonatomic) NSMutableDictionary *sessionIdentifierArchiveMap; // @synthesize sessionIdentifierArchiveMap=_sessionIdentifierArchiveMap;
-@property(retain, nonatomic) NSString *stateRestorationSessionIdentifier;
-@property(nonatomic, getter=isStateRestorationSupported) _Bool stateRestorationSupported; // @synthesize stateRestorationSupported=_stateRestorationSupported;
-@property(readonly) Class superclass;
 
 @end
 

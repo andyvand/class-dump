@@ -9,10 +9,9 @@
 @interface MFDatePickerItemIdentifier
 {
     NSUUID *_identifier;
-    unsigned long long _type;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

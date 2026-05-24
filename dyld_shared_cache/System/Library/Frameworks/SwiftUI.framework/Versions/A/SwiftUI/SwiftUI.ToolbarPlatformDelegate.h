@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)getCredentialsForAppWithAppID:(id)arg1 externallyVerifiedAndApprovedSharedWebCredentialDomains:(id)arg2 websiteURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÐýF4Õ Y7V
 ;

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)isBatteryMonitoringEnabled;
 + (void);
-- (id);
+- (id)PKPaymentTransactionDetailHeaderViewAccessibility;
 
 @end
 

@@ -6,39 +6,27 @@
 
 #import <ChatKit/CKMessageEntryTextView.h>
 
-@class NSString;
 @protocol CKBalloonTextViewInteractionDelegate;
 
 @interface CKMessageEditingBalloonTextView : CKMessageEntryTextView
 {
     _Bool _fakeSelected;
-    _Bool _shouldAdjustInsetsForMinimumSize;
-    id <CKBalloonTextViewInteractionDelegate> _interactionDelegate;
 }
 
-- (struct CGSize);
+- (struct CGSize)checkForMentionInEditedRange:(struct CGSize)arg1 ofTextStorage:(struct UIEdgeInsets *)arg2 note:(_Bool *)arg3 textView:allowAutoExplicitMention:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
+- (_Bool)addKVObserversForAttachment: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_cancelButton;
+- (void)wasForceStopped;
+- (void),N,V_passphraseManager;
+- (_Bool)derCSgG;
 - (id);
 - (void);
 - (void)èX;
 - (_Bool)32e0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFakeSelected) _Bool fakeSelected; // @synthesize fakeSelected=_fakeSelected;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <CKBalloonTextViewInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property(nonatomic) _Bool shouldAdjustInsetsForMinimumSize; // @synthesize shouldAdjustInsetsForMinimumSize=_shouldAdjustInsetsForMinimumSize;
-@property(readonly) Class superclass;
 
 @end
 

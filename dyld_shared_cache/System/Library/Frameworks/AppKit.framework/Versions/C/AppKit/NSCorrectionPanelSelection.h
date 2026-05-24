@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSCorrectionPanelSelection
 {
     NSString *_selectedString;
-    long long _dismissType;
-    NSEvent *_dismissEvent;
 }
 
 - (id);
-- (id);
+- (id)_useEnhancedPrivacyMode;
 - (long long);
 - (id);
 - (void)X²ÿöFB;
 
 // Remaining properties
-@property(readonly, nonatomic) NSEvent *dismissEvent; // @synthesize dismissEvent=_dismissEvent;
-@property(readonly, nonatomic) long long dismissType; // @synthesize dismissType=_dismissType;
 @property(readonly, nonatomic) NSString *selectedString; // @synthesize selectedString=_selectedString;
 
 @end

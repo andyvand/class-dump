@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)ginTime"d"connectBeginTime"d"domainLookupDuration"I"connectDuration"I"secureConnectionDuration"I"secure"B};
+- (_Bool)netService:(id)arg1 didNotResolve:(_Bool)arg2;
+- (_Bool)minimizedLanguagesFromLanguages:(id)arg1;
+- (_Bool)%p> for HTTP3ConnectionCache<@%p>;
+- (_Bool)Err-1206;
 
 @end
 

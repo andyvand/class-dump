@@ -5,5 +5,9 @@
 //
 
 @protocol MTLDebugCommandEncoder
+
+@optional
+- (void);
+- (void)";
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CoreTelephonyClientDelegateProxyInterface
+- (void)h;
 @end
 

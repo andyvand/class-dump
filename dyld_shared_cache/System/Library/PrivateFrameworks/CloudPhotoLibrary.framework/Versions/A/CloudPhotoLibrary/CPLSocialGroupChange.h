@@ -6,28 +6,24 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class CPLSocialGroupPersonList, NSData, NSString;
+@class NSData;
 
 @interface CPLSocialGroupChange : CPLRecordChange
 {
     short _verifiedType;
-    NSString *_customTitle;
-    unsigned long long _position;
-    NSString *_keyAssetIdentifier;
-    NSData *_personsData;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (_Bool);
 + (id);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)lesToCommit;
 + (_Bool);
-- (id);
-- (id);
+- (id)bluetoothDeviceEntityRelevanceLOIFeatures;
+- (id)bluetoothDeviceEntityRelevanceDayOfWeekAndTimeOfDayFeatures;
 - (void);
 - (void);
 - (id);
@@ -35,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ple_MobileSMS_LLMQUIntentPartyEvent;
 - (short);
 - (void);
 - (void);
@@ -45,18 +41,13 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long)hºð½¹`jhüj(üjyx;
+- (unsigned long long);
 - (void);
 - (void)aÂ°!t@ùÑ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(retain, nonatomic) NSString *keyAssetIdentifier; // @synthesize keyAssetIdentifier=_keyAssetIdentifier;
-@property(retain, nonatomic) CPLSocialGroupPersonList *persons;
 @property(copy, nonatomic) NSData *personsData; // @synthesize personsData=_personsData;
-@property(nonatomic) unsigned long long position; // @synthesize position=_position;
-@property(nonatomic) short verifiedType; // @synthesize verifiedType=_verifiedType;
 
 @end
 

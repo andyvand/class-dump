@@ -5,8 +5,10 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void);
 
 @optional
+- (void);
 - (void)fGridStateManager;
 @end
 

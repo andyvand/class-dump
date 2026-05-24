@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDMMCSItemGroup, NSError, NSMutableSet;
+@class CKDMMCSItemGroup, NSError;
 
 @interface CKDMMCSItemGroupSet
 {
     CKDMMCSItemGroup *_lastGroup;
-    NSMutableSet *_itemsGroups;
 }
 
 + (unsigned long long);
 + (_Bool);
-- (id);
+- (id)read::common_DateTime /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSMutableSet *itemsGroups; // @synthesize itemsGroups=_itemsGroups;
 
 @end
 

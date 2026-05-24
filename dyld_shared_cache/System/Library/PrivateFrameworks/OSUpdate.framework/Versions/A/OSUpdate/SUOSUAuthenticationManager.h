@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, LAUIAuthenticationSheetController, NSString;
+@class LAUIAuthenticationSheetController;
 
 @interface SUOSUAuthenticationManager
 {
     _Bool _localAuthenticationRequired;
-    LAContext *_localAuthenticationContext;
-    NSString *_bootstrapTokenString;
-    LAUIAuthenticationSheetController *_sheetController;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,17 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bootstrapTokenString; // @synthesize bootstrapTokenString=_bootstrapTokenString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) LAContext *localAuthenticationContext; // @synthesize localAuthenticationContext=_localAuthenticationContext;
-@property _Bool localAuthenticationRequired; // @synthesize localAuthenticationRequired=_localAuthenticationRequired;
 @property(retain) LAUIAuthenticationSheetController *sheetController; // @synthesize sheetController=_sheetController;
-@property(readonly) Class superclass;
 
 @end
 

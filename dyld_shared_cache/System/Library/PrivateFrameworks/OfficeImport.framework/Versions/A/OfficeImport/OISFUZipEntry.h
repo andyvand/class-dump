@@ -6,29 +6,18 @@
 
 #import <OfficeImport/OISFUDataRepresentation.h>
 
-@class OISFUCryptoKey;
 @protocol SFUZipArchiveDataRepresentation;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipEntry : OISFUDataRepresentation
 {
     OISFUDataRepresentation<SFUZipArchiveDataRepresentation> *mArchiveDataRepresentation;
-    int mCompressionMethod;
-    unsigned long long mCompressedSize;
-    unsigned long long mUncompressedSize;
-    unsigned long long mOffset;
-    unsigned int mCrc;
-    unsigned long long mDataOffset;
-    _Bool mHasDataOffset;
-    unsigned long long mEncodedLength;
-    _Bool mHasEncodedLength;
-    OISFUCryptoKey *mCryptoKey;
 }
 
-- (void);
+- (void)X;
 - (void);
 - (_Bool);
-- (id);
+- (id)q;
 - (id);
 - (unsigned long long);
 - (void);
@@ -36,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned int);
-- (void);
+- (void)32;
 - (long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);

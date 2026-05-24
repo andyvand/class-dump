@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGMIMetricsSubmodelsStats, SGMIMetricsTrialMetadata;
-
 @interface SGMIMetricsUpdateProcessInformation
 {
     struct {
@@ -13,45 +11,12 @@
         unsigned long long count;
         unsigned long long size;
     } _ctsJobConstraints;
-    unsigned long long _biomeAggregationPerformanceInMilliSeconds;
-    unsigned long long _cumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds;
-    unsigned long long _submodelsPruningForCappingPolicyPerformanceInMilliSeconds;
-    unsigned long long _submodelsUpdatePerformanceInMilliSeconds;
-    SGMIMetricsTrialMetadata *_backgroundTrialMetadata;
-    unsigned int _daysAvailableDuringIncrementalUpdate;
-    unsigned int _daysProcessedDuringIncrementalUpdate;
-    unsigned int _deletedEmailsCount;
-    unsigned int _deletedTokensCountToComplyToCappingPolicy;
-    unsigned int _hoursSinceLastIncrementalUpdate;
-    unsigned int _hoursSinceReference;
-    unsigned int _mailsProcessedDuringIncrementalUpdate;
-    unsigned int _rollbackedEmailsCountToComplyToPostDeletionPolicy;
-    unsigned int _rollbackedSlicesCountToComplyToPostDeletionPolicy;
-    SGMIMetricsSubmodelsStats *_submodelsStats;
-    SGMIMetricsTrialMetadata *_trialMetadata;
-    _Bool _isSubmodelRebuilt;
-    struct {
-        unsigned int biomeAggregationPerformanceInMilliSeconds:1;
-        unsigned int cumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds:1;
-        unsigned int submodelsPruningForCappingPolicyPerformanceInMilliSeconds:1;
-        unsigned int submodelsUpdatePerformanceInMilliSeconds:1;
-        unsigned int daysAvailableDuringIncrementalUpdate:1;
-        unsigned int daysProcessedDuringIncrementalUpdate:1;
-        unsigned int deletedEmailsCount:1;
-        unsigned int deletedTokensCountToComplyToCappingPolicy:1;
-        unsigned int hoursSinceLastIncrementalUpdate:1;
-        unsigned int hoursSinceReference:1;
-        unsigned int mailsProcessedDuringIncrementalUpdate:1;
-        unsigned int rollbackedEmailsCountToComplyToPostDeletionPolicy:1;
-        unsigned int rollbackedSlicesCountToComplyToPostDeletionPolicy:1;
-        unsigned int isSubmodelRebuilt:1;
-    } _has;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 - (void);
@@ -80,45 +45,45 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (_Bool)_lp_reverseEnumerateComponents:usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)c;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned long long)__TEXT;
 - (unsigned long long);
 - (int);
 - (id);
-- (int *);
+- (int *);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)pn_verticalServiceCharacterSet;
+- (void)__TEXT;
 - (unsigned int);
 - (int);
 - (void);
@@ -126,50 +91,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)d¦`§;
 
 // Remaining properties
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *backgroundTrialMetadata; // @synthesize backgroundTrialMetadata=_backgroundTrialMetadata;
-@property(nonatomic) unsigned long long biomeAggregationPerformanceInMilliSeconds; // @synthesize biomeAggregationPerformanceInMilliSeconds=_biomeAggregationPerformanceInMilliSeconds;
-@property(readonly, nonatomic) int *ctsJobConstraints;
-@property(readonly, nonatomic) unsigned long long ctsJobConstraintsCount;
-@property(nonatomic) unsigned long long cumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds; // @synthesize cumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds=_cumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds;
-@property(nonatomic) unsigned int daysAvailableDuringIncrementalUpdate; // @synthesize daysAvailableDuringIncrementalUpdate=_daysAvailableDuringIncrementalUpdate;
-@property(nonatomic) unsigned int daysProcessedDuringIncrementalUpdate; // @synthesize daysProcessedDuringIncrementalUpdate=_daysProcessedDuringIncrementalUpdate;
-@property(nonatomic) unsigned int deletedEmailsCount; // @synthesize deletedEmailsCount=_deletedEmailsCount;
-@property(nonatomic) unsigned int deletedTokensCountToComplyToCappingPolicy; // @synthesize deletedTokensCountToComplyToCappingPolicy=_deletedTokensCountToComplyToCappingPolicy;
-@property(readonly, nonatomic) _Bool hasBackgroundTrialMetadata;
-@property(nonatomic) _Bool hasBiomeAggregationPerformanceInMilliSeconds;
-@property(nonatomic) _Bool hasCumulatedSubmodelsRollbackForPostDeletionPolicyPerformanceInMilliSeconds;
-@property(nonatomic) _Bool hasDaysAvailableDuringIncrementalUpdate;
-@property(nonatomic) _Bool hasDaysProcessedDuringIncrementalUpdate;
-@property(nonatomic) _Bool hasDeletedEmailsCount;
-@property(nonatomic) _Bool hasDeletedTokensCountToComplyToCappingPolicy;
-@property(nonatomic) _Bool hasHoursSinceLastIncrementalUpdate;
-@property(nonatomic) _Bool hasHoursSinceReference;
-@property(nonatomic) _Bool hasIsSubmodelRebuilt;
-@property(nonatomic) _Bool hasMailsProcessedDuringIncrementalUpdate;
-@property(nonatomic) _Bool hasRollbackedEmailsCountToComplyToPostDeletionPolicy;
-@property(nonatomic) _Bool hasRollbackedSlicesCountToComplyToPostDeletionPolicy;
-@property(nonatomic) _Bool hasSubmodelsPruningForCappingPolicyPerformanceInMilliSeconds;
-@property(readonly, nonatomic) _Bool hasSubmodelsStats;
-@property(nonatomic) _Bool hasSubmodelsUpdatePerformanceInMilliSeconds;
 @property(readonly, nonatomic) _Bool hasTrialMetadata;
-@property(nonatomic) unsigned int hoursSinceLastIncrementalUpdate; // @synthesize hoursSinceLastIncrementalUpdate=_hoursSinceLastIncrementalUpdate;
-@property(nonatomic) unsigned int hoursSinceReference; // @synthesize hoursSinceReference=_hoursSinceReference;
-@property(nonatomic) _Bool isSubmodelRebuilt; // @synthesize isSubmodelRebuilt=_isSubmodelRebuilt;
-@property(nonatomic) unsigned int mailsProcessedDuringIncrementalUpdate; // @synthesize mailsProcessedDuringIncrementalUpdate=_mailsProcessedDuringIncrementalUpdate;
-@property(nonatomic) unsigned int rollbackedEmailsCountToComplyToPostDeletionPolicy; // @synthesize rollbackedEmailsCountToComplyToPostDeletionPolicy=_rollbackedEmailsCountToComplyToPostDeletionPolicy;
-@property(nonatomic) unsigned int rollbackedSlicesCountToComplyToPostDeletionPolicy; // @synthesize rollbackedSlicesCountToComplyToPostDeletionPolicy=_rollbackedSlicesCountToComplyToPostDeletionPolicy;
-@property(nonatomic) unsigned long long submodelsPruningForCappingPolicyPerformanceInMilliSeconds; // @synthesize submodelsPruningForCappingPolicyPerformanceInMilliSeconds=_submodelsPruningForCappingPolicyPerformanceInMilliSeconds;
-@property(retain, nonatomic) SGMIMetricsSubmodelsStats *submodelsStats; // @synthesize submodelsStats=_submodelsStats;
-@property(nonatomic) unsigned long long submodelsUpdatePerformanceInMilliSeconds; // @synthesize submodelsUpdatePerformanceInMilliSeconds=_submodelsUpdatePerformanceInMilliSeconds;
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *trialMetadata; // @synthesize trialMetadata=_trialMetadata;
 
 @end
 

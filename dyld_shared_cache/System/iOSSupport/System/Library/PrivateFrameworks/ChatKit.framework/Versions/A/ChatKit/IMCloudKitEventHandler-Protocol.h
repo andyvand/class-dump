@@ -5,5 +5,8 @@
 //
 
 @protocol IMCloudKitEventHandler
+
+@optional
+- (void);
 @end
 

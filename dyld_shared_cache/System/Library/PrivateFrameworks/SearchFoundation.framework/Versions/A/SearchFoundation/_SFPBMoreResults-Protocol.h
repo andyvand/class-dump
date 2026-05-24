@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBMoreResults
+- (NSData *),R,C,N,V_transientTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label;
 @end
 

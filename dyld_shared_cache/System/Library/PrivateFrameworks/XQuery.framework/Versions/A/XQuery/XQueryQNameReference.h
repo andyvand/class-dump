@@ -6,15 +6,12 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSString, XQueryQName;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface XQueryQNameReference : XQueryExpr
 {
     NSString *_name;
-    NSString *_prefix;
-    NSString *_localPart;
-    XQueryQName *_qName;
 }
 
 + (id);
@@ -27,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,23 +6,21 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRAVRoutingDiscoverySessionConfiguration, NSArray;
+@class NSArray;
 
 @interface MRDiscoveryUpdateEndpointsMessage : MRProtocolMessage
 {
     NSArray *_endpoints;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)item;
+- (id)D;
 - (id);
 - (void)aybackQueueRequest",C,N,V_request;
 
 // Remaining properties
-@property(readonly, nonatomic) MRAVRoutingDiscoverySessionConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSArray *endpoints; // @synthesize endpoints=_endpoints;
 
 @end

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EKTimedEventStorePurger
 {
     _Bool _ignoreLowLevelDatabaseChangedNotifications;
-    _Bool _internalPurgingAllowed;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_source> *_timer;
-    double _internalTimeout;
-    CDUnknownBlockType _internalCreationBlock;
-    CDUnknownBlockType _internalChangedBlock;
-    EKEventStore *_internalStore;
 }
 
 - (void);
@@ -38,41 +30,29 @@
 - (_Bool);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)@;
+- (id)calling createInvertedMatrix3() in attempt to work-around rdar://33679423 /* Error: Ran out of types for this method. */;
 - (void);
+- (void)locationManager:didRangeBeacons:satisfyingConstraint: /* Error: Ran out of types for this method. */;
+- (void)gin event without unplug:(_Bool)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)DOMHTMLUListElement;
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (double);
-- (void);
+- (void)	;
 - (void)12'ð1Â0@ù
 × ;
 - (CDUnknownBlockType)R(S¨T$WDYLYðY_;
 - (void)ty type:(CDUnknownBlockType)arg1 %d;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType changedBlock;
-@property(copy, nonatomic) CDUnknownBlockType creationBlock;
-@property(nonatomic) _Bool ignoreLowLevelDatabaseChangedNotifications; // @synthesize ignoreLowLevelDatabaseChangedNotifications=_ignoreLowLevelDatabaseChangedNotifications;
-@property(copy, nonatomic) CDUnknownBlockType internalChangedBlock; // @synthesize internalChangedBlock=_internalChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType internalCreationBlock; // @synthesize internalCreationBlock=_internalCreationBlock;
-@property(nonatomic) _Bool internalPurgingAllowed; // @synthesize internalPurgingAllowed=_internalPurgingAllowed;
-@property(retain, nonatomic) EKEventStore *internalStore; // @synthesize internalStore=_internalStore;
-@property(nonatomic) double internalTimeout; // @synthesize internalTimeout=_internalTimeout;
-@property(nonatomic) _Bool purgingAllowed;
-@property(nonatomic) double timeout;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

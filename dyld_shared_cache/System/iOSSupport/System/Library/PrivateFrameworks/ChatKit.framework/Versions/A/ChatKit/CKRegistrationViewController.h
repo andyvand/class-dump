@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKTapToSignInViewController, NSString, OBPrivacyLinkController;
+@class AKTapToSignInViewController;
 
 @interface CKRegistrationViewController
 {
     CDUnknownBlockType _completionBlock;
-    AKTapToSignInViewController *_akSignInVC;
-    OBPrivacyLinkController *_privacyLinkController;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)ly viewable on iOS 14.5, iPadOS 14.5, and macOS 11.3 and later. Your devices that need upgrading;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)setMathNote:(struct CGRect)arg1;
+- (void)alignmentRectForFrame:(id)arg1;
+- (void)_isMovie;
+- (id)owing diverged mode alert for device password mode…;
+- (void)hive from data with length %lu;
 - (void);
 - (void);
 - (id);
@@ -42,15 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AKTapToSignInViewController *akSignInVC; // @synthesize akSignInVC=_akSignInVC;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) OBPrivacyLinkController *privacyLinkController; // @synthesize privacyLinkController=_privacyLinkController;
-@property(readonly) Class superclass;
 
 @end
 

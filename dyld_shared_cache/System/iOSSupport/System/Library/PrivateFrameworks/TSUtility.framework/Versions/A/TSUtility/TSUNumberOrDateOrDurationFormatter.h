@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)EQKitEquation;
+- (id)__swift5_fieldmd__TEXT;
 
 @end
 

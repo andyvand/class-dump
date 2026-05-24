@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _PXStoryConcreteAspectFitOneUpClipComposition
 {
     long long _clipAssetIndex;
-    long long _mainDividerAxis;
 }
 
 - (double);
@@ -25,13 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) const long long *clipAssetIndexes;
-@property(readonly, nonatomic) _Bool clipFramesExtendToBounds;
-@property(readonly, nonatomic) const long long *dividerAxes;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) long long mainDividerAxis; // @synthesize mainDividerAxis=_mainDividerAxis;
-@property(readonly, nonatomic) double mainDividerSplitRatio;
-@property(readonly, nonatomic) long long numberOfAssets;
 @property(readonly, nonatomic) long long numberOfClips;
 
 @end

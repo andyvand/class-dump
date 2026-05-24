@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol UIViewControllerAnimatedTransitioning;
 
 __attribute__((visibility("hidden")))
@@ -15,21 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id)Constraints:(id)arg1;
+- (_Bool)applyChatServiceChangesUsingSyncData: /* Error: Ran out of types for this method. */;
+- (void)_handleFileTransfer:(_Bool)arg1 createdWithProperties:withAuditToken: /* Error: Ran out of types for this method. */;
+- (_Bool)dI?;
+- (id)_trackChangesAffectingExternalBaselineConstraints:(id)arg1;
 - (void)Ãõ(\ÂÅ?;
 
 // Remaining properties
 @property(nonatomic, setter=_setSuppressCrossFadeNavigationBarAnimation:) _Bool _suppressCrossFadeNavigationBarAnimation; // @synthesize _suppressCrossFadeNavigationBarAnimation=__suppressCrossFadeNavigationBarAnimation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

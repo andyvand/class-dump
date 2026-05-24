@@ -6,12 +6,9 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class NSSet;
-
 @interface MapsSuggestionsDestinationdTrigger : MapsSuggestionsBaseTrigger
 {
     struct unique_ptr<MSg::NotificationReceiver, std::default_delete<MSg::NotificationReceiver>> _notificationReceiver;
-    NSSet *_ignoredPeerIdentifiers;
 }
 
 - (id);

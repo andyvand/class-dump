@@ -4,53 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSSet, NSString, NSURL, PKPaymentSetupProductConfiguration, PKPaymentSetupProductImageAssetURLs, PKPaymentSetupProductImageAssets, PKPaymentSetupProductRegionData;
-
 @interface PKPaymentSetupProduct
 {
     _Bool _suppressPendingPurchases;
-    _Bool _meetsAgeRequirements;
-    _Bool _allowOnManagedAccount;
-    _Bool _showOtherProviders;
-    _Bool _preventsFeatureApplication;
-    _Bool _isServerDriven;
-    unsigned long long _supportedProvisioningMethods;
-    NSArray *_partners;
-    NSArray *_setupProductMethods;
-    PKPaymentSetupProductConfiguration *_configuration;
-    NSString *_displayName;
-    NSString *_localizedDescription;
-    NSString *_longLocalizedDescription;
-    NSSet *_regions;
-    PKPaymentSetupProductRegionData *_regionData;
-    NSString *_primaryRegion;
-    NSArray *_requiredFields;
-    NSArray *_supportedProtocols;
-    NSURL *_termsURL;
-    NSDictionary *_readerModeMetadata;
-    unsigned long long _flags;
-    long long _hsa2Requirement;
-    PKPaymentSetupProductImageAssetURLs *_imageAssetURLs;
-    PKPaymentSetupProductImageAssets *_imageAssets;
-    long long _minimumSupportedAge;
-    long long _maximumSupportedAge;
-    long long _minimumTargetUserSupportedAge;
-    NSDictionary *_clientInfo;
-    NSArray *_searchTerms;
-    NSArray *_supportedTransitNetworkIdentifiers;
-    NSArray *_featureApplications;
-    NSArray *_accounts;
-    NSArray *_onboardingItems;
-    NSString *_regionIdentifier;
-    NSString *_criteriaIdentifier;
-    NSArray *_paymentOptions;
-    NSDictionary *_rawDictionary;
-    PKPaymentSetupProduct *_augmentedProduct;
-    NSDictionary *_minimumOSVersion;
-    NSMutableDictionary *_requestedProvisioningMethods;
-    NSString *_displayStatus;
-    NSString *_badge;
-    unsigned long long _provisioningStatus;
 }
 
 + (id);

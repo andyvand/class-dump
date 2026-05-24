@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol FCMutableIssueReadingHistoryItem
+- (void);
+- (void)initExtensionKitPlaceholderWithBundleName:(NSString *)arg1 bundleID:parentPlaceholder:client: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *issueID;
-@property(copy, nonatomic) NSDate *lastBadgedDate;
-@property(copy, nonatomic) NSDate *lastEngagedDate;
-@property(copy, nonatomic) NSDate *lastRemovedFromMyMagazinesDate;
-@property(copy, nonatomic) NSDate *lastSeenDate;
-@property(copy, nonatomic) NSString *lastVisitedArticleID;
-@property(copy, nonatomic) NSDate *lastVisitedDate;
-@property(copy, nonatomic) NSString *lastVisitedPageID;
 @end
 

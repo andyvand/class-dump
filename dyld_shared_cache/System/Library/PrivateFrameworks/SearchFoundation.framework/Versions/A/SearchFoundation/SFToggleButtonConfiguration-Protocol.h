@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage;
+@class NSString;
 
 @protocol SFToggleButtonConfiguration
+- (NSString *)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *toggledImage;
-@property(copy, nonatomic) NSString *toggledTitle;
-@property(retain, nonatomic) SFImage *untoggledImage;
 @property(copy, nonatomic) NSString *untoggledTitle;
 @end
 

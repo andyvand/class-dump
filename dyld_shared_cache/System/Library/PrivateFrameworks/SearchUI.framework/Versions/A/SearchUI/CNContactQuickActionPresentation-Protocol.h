@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CNContactQuickActionPresentation
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;
-@property(retain, nonatomic) NSString *systemImageName;
-@property(retain, nonatomic) NSString *title;
 @end
 

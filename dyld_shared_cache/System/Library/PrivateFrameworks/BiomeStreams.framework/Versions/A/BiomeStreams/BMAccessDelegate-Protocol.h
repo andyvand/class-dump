@@ -5,5 +5,7 @@
 //
 
 @protocol BMAccessDelegate
+- (_Bool)'�;
+- (_Bool)4;
 @end
 

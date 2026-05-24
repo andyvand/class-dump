@@ -5,5 +5,7 @@
 //
 
 @protocol CNContactsAccountsServiceProtocol
+- (void);
+- (void);
 @end
 

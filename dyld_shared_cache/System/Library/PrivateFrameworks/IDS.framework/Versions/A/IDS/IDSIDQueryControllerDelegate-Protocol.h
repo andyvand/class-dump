@@ -5,5 +5,8 @@
 //
 
 @protocol IDSIDQueryControllerDelegate
+
+@optional
+- (void);
 @end
 

@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _PFVMData
 {
     int _cd_rc;
-    unsigned long long _length;
-    void *_payload;
 }
 
 + (Class)u;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (Class);
-- (const void *);
+- (const void *)5;
 - (id);
 - (id)WHERE %@ = %d) WHERE %@ = %d;
 

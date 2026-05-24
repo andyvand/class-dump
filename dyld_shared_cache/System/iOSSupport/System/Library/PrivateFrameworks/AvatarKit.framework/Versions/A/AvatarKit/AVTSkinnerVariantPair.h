@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVTSkinnerVariantPair
 {
     VFXSkinner *_originalSkinner;
-    VFXSkinner *_variantSkinner;
 }
 
 - (void);

@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionItem.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKHashtagItem : PKDetectionItem
 {
@@ -20,16 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)itingView;
+- (_Bool)_supportsLassoToolEditingView;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
 @property(readonly, nonatomic) NSString *hashtagResult;
-@property(readonly, nonatomic) NSUUID *hashtagUUID;
 
 @end
 

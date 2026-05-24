@@ -6,16 +6,14 @@
 
 #import <ContentKit/WFGenericFileContentItem.h>
 
-@class CLLocation, NSDictionary, NSString, WFFileType, WFImage, WFObjectType;
-
 @interface WFImageContentItem : WFGenericFileContentItem
 {
     _Bool _isScreenshot;
-    WFFileType *_preferredFileType;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -25,8 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ong long, std::__cxx_atomic_base_impl<long long>>="__a_value"Aq}} /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (void);
 - (id);
@@ -42,7 +39,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,60 +47,63 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ns = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+;
 - (id);
-- (id){;
-- (struct CGSize);
 - (id);
+- (struct CGSize)y/PrivateFrameworks/MobileSafari.framework/Versions/A/MobileSafari;
 - (id);
-- (id);
+- (id)@;
+- (id)*;
 - (void);
+- (id)Q%;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)__AUTH_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) _Bool cachesSupportedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasStringOutput;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WFImage *image;
-@property(readonly, nonatomic) _Bool imageIsAnimated;
-@property(readonly, nonatomic) _Bool includesFileRepresentationInSerializedItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isScreenshot; // @synthesize isScreenshot=_isScreenshot;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) NSDictionary *metadataForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) WFFileType *preferredFileType; // @synthesize preferredFileType=_preferredFileType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFFileType",?,R,N,V_preferredFileType
-
-@property(readonly, nonatomic) WFObjectType *preferredObjectType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFObjectType",?,R,N
-
 @property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
 
 @end
 

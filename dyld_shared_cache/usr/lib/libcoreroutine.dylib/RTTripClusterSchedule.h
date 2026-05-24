@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface RTTripClusterSchedule
 {
     int _timeID;
-    int _count;
-    NSUUID *_clusterID;
 }
 
-+ (int);
-+ (int);
-+ (int);
-+ (id);
++ (int)supreme;
++ (int)shiver;
++ (int)observe;
++ (id)rd to push identities;
 + (id);
 + (_Bool);
 - (int);
 - (_Bool);
 - (id);
-- (id);
+- (id)emotion;
 - (id);
 - (id);
 - (id);
@@ -31,21 +27,12 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)mOfWay;
-- (int)SequenceIndex:firstSequenceLength:batchSize: /* Error: Ran out of types for this method. */;
+- (void)geoFormOfWay;
+- (int)batchProcess:featureVectorStride:firstSequenceIndex:firstSequenceLength:batchSize: /* Error: Ran out of types for this method. */;
 - (void)ired minDaysNonZeroDwellTime, %.2f, totalWeeklyVisitCount, %.2f, minTopMedianDwellTime, %.2f;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(nonatomic) int count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int timeID; // @synthesize timeID=_timeID;
 
 @end
 

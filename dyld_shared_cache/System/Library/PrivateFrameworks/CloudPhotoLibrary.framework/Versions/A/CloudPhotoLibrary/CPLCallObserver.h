@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLCallObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    struct os_unfair_lock_s _lock;
-    NSDate *_startDate;
-    Class _aClass;
-    SEL _selector;
-    _Bool _objectIsClass;
-    NSString *_functionName;
-    NSString *_callDescription;
 }
 
 + (void);

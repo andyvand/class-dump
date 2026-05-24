@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CALNActivitySchedulerDelegate, OS_xpc_object;
+@class NSString;
+@protocol CALNActivitySchedulerDelegate;
 
 @interface CALNXPCActivityScheduler
 {
     NSString *_activityIdentifier;
-    NSObject<OS_xpc_object> *_otherCriteria;
-    id <CALNActivitySchedulerDelegate> _delegate;
 }
 
 - (void);
@@ -22,14 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CALNActivitySchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

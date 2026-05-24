@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)R,N,V_searchIndexDateFormatter;
 - (id);
-- (id);
+- (id)X=	;
 - (id);
 - (int);
 

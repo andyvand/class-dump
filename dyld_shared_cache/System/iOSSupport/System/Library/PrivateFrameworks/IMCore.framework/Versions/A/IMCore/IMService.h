@@ -11,7 +11,7 @@
     NSDictionary *_serviceProperties;
 }
 
-+ (id);
++ (id)setDelegate:(id)arg1;
 + (id);
 + (id);
 + (id);
@@ -21,13 +21,13 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)� ;
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)_TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D310_MapStates;
 + (id);
 + (id);
 + (id);

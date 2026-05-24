@@ -7,8 +7,6 @@
 @interface AppStoreKit.ArtworkIconFetcher
 {
     id loadedArtwork;
-    id objectGraph;
-    id completionBlocks;
 }
 
 @end

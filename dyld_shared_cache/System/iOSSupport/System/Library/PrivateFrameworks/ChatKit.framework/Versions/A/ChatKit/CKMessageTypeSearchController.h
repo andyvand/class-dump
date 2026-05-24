@@ -11,16 +11,16 @@
     _Bool _searchTerminated;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)predicateForPinnedNotes;
+- (_Bool)predicateForPasswordProtected: /* Error: Ran out of types for this method. */;
+- (void)eArray",R,N,V_lockedObjectInSource;
+- (_Bool)Delayer",&,N,V_paperChangeSelectorDelayer;
+- (void)IJ;
+- (id)teSystemPaperNotesWithCoalescingAndDelay;
 - (id);
-- (id);
-- (void);
+- (void);;
 - (Class);
-- (void);
+- (void)h;
 - (struct NSDirectionalEdgeInsets);
 
 // Remaining properties

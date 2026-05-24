@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer, CAShapeLayer, FUStyleProvider;
-
 __attribute__((visibility("hidden")))
 @interface FUFlightProgressView
 {
     double _progress;
-    FUStyleProvider *_provider;
-    CALayer *_plane;
-    CAShapeLayer *_fullArc;
-    CAShapeLayer *_partialArc;
-    CAShapeLayer *_startDot;
-    CAShapeLayer *_endDot;
-    CALayer *_planeShadow;
-    CALayer *_blurredShadow;
-    CAShapeLayer *_shadowArc;
-    CAGradientLayer *_bottomLayer;
-    _Bool _layersCreated;
-    _Bool _blurEnabled;
-    _Bool _blurPostponed;
 }
 
+- (void)beyond totalFrames:%u:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)e() because %{public, darwin.errno}d;
+- (void)et:%ld /* Error: Ran out of types for this method. */;
+- (struct CGPoint)astore does not support saving metadata;
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (_Bool);
+- (_Bool)_backCameraCaptureTime;
 - (id);
 - (void);
 - (id);

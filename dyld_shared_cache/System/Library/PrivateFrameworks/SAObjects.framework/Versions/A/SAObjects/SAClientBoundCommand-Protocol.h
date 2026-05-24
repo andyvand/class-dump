@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appId;
-@property(copy, nonatomic) NSArray *callbacks;
 @end
 

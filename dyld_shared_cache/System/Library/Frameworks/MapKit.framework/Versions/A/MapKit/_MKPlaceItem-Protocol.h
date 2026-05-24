@@ -7,18 +7,15 @@
 @class CNContact, EKCalendarItem, MKMapItem, NSString;
 
 @protocol _MKPlaceItem
-- (NSString *)gImageRep;
+- (_Bool)oPowerlogHelper;
+- (_Bool)<OS_os_log>",&,V_logHandle;
+- (_Bool)erlog response in debug mode, using lastPowerlogResponse instead;
+- (EKCalendarItem *);
+- (CNContact *)oPlaybackSessionImplAVPlayerBased _finalizeWithError:] /* Error: Ran out of types for this method. */;
+- (MKMapItem *);
+- (NSString *)_backingImageRep;
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendarItem *calendarItem;
-@property(readonly, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) _Bool hasContactOnly;
-@property(readonly, nonatomic) _Bool isContactPersisted;
-@property(readonly, nonatomic) _Bool isIntermediateMapItem;
-@property(readonly, nonatomic) MKMapItem *mapItem;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long options;
-@property(readonly, nonatomic) _Bool representsPerson;
-@property(readonly, nonatomic) NSString *secondaryName;
 @end
 

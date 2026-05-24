@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface ISDPropertyConflict
 {
     NSArray *_propertyNames;
-    NSString *_winningClientId;
-    NSDictionary *_userValues;
-    NSMutableDictionary *_propertyChangesPerClientId;
-    NSString *_recordId;
-    _Bool _modified;
 }
 
 - (id);
@@ -21,16 +16,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)T;
+- (_Bool)C;
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)(-;
 - (void);
 - (id);
 - (id);

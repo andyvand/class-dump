@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface INArchivedObject
 {
     NSString *_typeName;
-    NSData *_messageData;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)pb;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)ndler;
+- (void)seamlessSSIDList;
+- (id)R;
+- (id);
 - (id)_deviceClass;
-- (void)BillIntent;
+- (void)PayBillIntent;
 - (id)oúÿ;
 - (id)¸]ïÿV:(id)arg1 NÉÁ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSData *messageData; // @synthesize messageData=_messageData;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *typeName; // @synthesize typeName=_typeName;
 
 @end

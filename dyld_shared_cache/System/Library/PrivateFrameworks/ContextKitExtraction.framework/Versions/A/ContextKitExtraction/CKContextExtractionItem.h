@@ -9,27 +9,22 @@
 @interface CKContextExtractionItem
 {
     _Bool _onScreen;
-    NSString *_title;
-    unsigned long long _type;
-    NSString *_bundleIdentifier;
-    NSString *_identifier;
-    NSString *_extractionSourceClassName;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (id);
+- (void), rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, sort_order, sort_order_section FROM album_artist ;
+- (id)ng_key = ?;
+- (id)sync_id, classical_experience_available FROM item_artist ;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)representationWithSize:(id)arg1 video: /* Error: Ran out of types for this method. */;
+- (void)ue;
+- (id));
 - (void);
 - (void);
 - (id);
@@ -40,12 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *extractionSourceClassName; // @synthesize extractionSourceClassName=_extractionSourceClassName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isOnScreen) _Bool onScreen; // @synthesize onScreen=_onScreen;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

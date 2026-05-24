@@ -5,5 +5,6 @@
 //
 
 @protocol ADIDManager_XPC
+- (void);
 @end
 

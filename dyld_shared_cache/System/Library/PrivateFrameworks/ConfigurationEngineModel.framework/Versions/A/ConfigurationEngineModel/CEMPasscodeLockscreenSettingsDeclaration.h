@@ -6,17 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMPasscodeLockscreenSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowVoiceDialing;
-    NSNumber *_payloadAllowAssistantWhileLocked;
-    NSNumber *_payloadAllowLockScreenTodayView;
-    NSNumber *_payloadAllowPassbookWhileLocked;
-    NSNumber *_payloadAllowLockScreenNotificationsView;
-    NSNumber *_payloadAllowLockScreenControlCenter;
-    NSNumber *_payloadAllowLockScreenWiFiModification;
 }
 
 + (id);
@@ -45,25 +39,12 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)set.VoiceServices.CustomVoice.ma.new-asset-installed;
 - (id);
-- (void);
+- (void)arge for cipher;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAssistantWhileLocked; // @synthesize payloadAllowAssistantWhileLocked=_payloadAllowAssistantWhileLocked;
-@property(copy, nonatomic) NSNumber *payloadAllowLockScreenControlCenter; // @synthesize payloadAllowLockScreenControlCenter=_payloadAllowLockScreenControlCenter;
-@property(copy, nonatomic) NSNumber *payloadAllowLockScreenNotificationsView; // @synthesize payloadAllowLockScreenNotificationsView=_payloadAllowLockScreenNotificationsView;
-@property(copy, nonatomic) NSNumber *payloadAllowLockScreenTodayView; // @synthesize payloadAllowLockScreenTodayView=_payloadAllowLockScreenTodayView;
-@property(copy, nonatomic) NSNumber *payloadAllowLockScreenWiFiModification; // @synthesize payloadAllowLockScreenWiFiModification=_payloadAllowLockScreenWiFiModification;
-@property(copy, nonatomic) NSNumber *payloadAllowPassbookWhileLocked; // @synthesize payloadAllowPassbookWhileLocked=_payloadAllowPassbookWhileLocked;
 @property(copy, nonatomic) NSNumber *payloadAllowVoiceDialing; // @synthesize payloadAllowVoiceDialing=_payloadAllowVoiceDialing;
-@property(readonly) Class superclass;
 
 @end
 

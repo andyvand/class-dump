@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSArray;
 
 @interface PHLivePhotoExportSession
 {
     NSArray *_fileURLs;
-    NSURL *_imageURL;
-    NSURL *_videoURL;
 }
 
 + (_Bool);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)oScore;
+- (id)defaultAudioScore;
 - (void)representativeAssetsHelper;
 - (id)only valid for original or adjusted versions;
 - (id)ion = %@
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;
-@property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(retain, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

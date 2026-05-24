@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationGroup, HMBProcessingOptions, HMFActivity, NAPromise, NSDate, NSString;
+@class HMFActivity, NAPromise;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelper
 {
     NAPromise *_promise;
-    _Bool _finished;
-    HMFActivity *_activity;
-    HMBProcessingOptions *_options;
-    CKOperationGroup *_operationGroup;
-    double _retryIntervalSeconds;
-    unsigned long long _retryCount;
-    NSDate *_operationStartTime;
 }
 
 + (unsigned long long);
@@ -26,39 +19,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)showPredictedRouteTrafficIncidentBulletinForCommuteDetails: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)update handler loading trialManager;
 - (id);
 - (void);
 - (id)tionary",R,V_subactivityToDelegatesMap;
 - (void)HÞà
 Dä;
-- (void)tocolVersion;
+- (void)protocolVersion;
 - (void)=;
 - (unsigned long long)ÿ8ÔË>;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKOperationGroup *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(retain, nonatomic) NSDate *operationStartTime; // @synthesize operationStartTime=_operationStartTime;
-@property(readonly, nonatomic) HMBProcessingOptions *options; // @synthesize options=_options;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(nonatomic) double retryIntervalSeconds; // @synthesize retryIntervalSeconds=_retryIntervalSeconds;
-@property(nonatomic) _Bool shouldRetry;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,10 @@
 
 #import <AppleMediaServices/AMSSQLitePropertyPredicate.h>
 
-@class AMSSQLiteQuery, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteContainsPredicate : AMSSQLitePropertyPredicate
 {
     _Bool _negative;
-    AMSSQLiteQuery *_query;
-    NSString *_queryProperty;
-    id _values;
 }
 
 + (id);
@@ -23,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (_Bool)foProtobuf";
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)±Õ ³±Õ ±Õ ±Õ m±Õ ±Õ ÷±Õ 3±Õ J±Õ ¾±Õ ¨±Õ `±Õ >±Õ -±Õ y±Õ k±Õ ä±Õ 7±Õ D±Õ ¢±Õ á±Õ =±Õ ±Õ yÊj°Khô@4^»i3¤½·*W0®jö
 ûºã	Ìcê{EÑ fÒ¬¶,&ýÄËÊÿ"µÕ\§òüîaát­mA×sÛH´¼DRuÐ=T`©S÷o¦]óhèåÂÚ«<xØJUÝôäÍp1 ¸N¯¹ç²¥éCÓ(.F°e@Y4vÖù+/KOþ¾9PÁ±5Ã³ø-MXïà»?iÀ¡>k$lZÇ}QÎVyÆIGæÉwBâÈë_¨|Lª£dÏq8g¢õñ6Üßì~#ð¿n:[ú2!;'zÙrbÔ)^íÞÅ7% /* Error: Ran out of types for this method. */;
@@ -34,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isNegative) _Bool negative; // @synthesize negative=_negative;
-@property(readonly, nonatomic) AMSSQLiteQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSString *queryProperty; // @synthesize queryProperty=_queryProperty;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

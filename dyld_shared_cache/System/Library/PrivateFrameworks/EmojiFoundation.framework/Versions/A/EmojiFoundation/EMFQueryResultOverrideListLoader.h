@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ease the current storage quota.;
 
 @end
 

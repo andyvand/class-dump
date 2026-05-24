@@ -6,17 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDFetchRecordZonesURLRequest : CKDURLRequest
 {
     _Bool _onlyFetchPCSInfo;
-    NSArray *_recordZones;
-    CDUnknownBlockType _recordZoneFetchedBlock;
-    CDUnknownBlockType _errorFetchingAllRecordZonesBlock;
-    CDUnknownBlockType _anonymousRecordZoneTuplesFetchedBlock;
-    NSArray *_zoneIDs;
-    NSMutableDictionary *_zoneIDByRequestID;
 }
 
 - (CDUnknownBlockType);
@@ -24,18 +18,19 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool)===========================================================
+;
+- (CDUnknownBlockType)l> on <%p>;
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)address_metadata;
+- (void)last_viewed;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)v;
 - (void);
-- (id)imatedSize;
+- (id)constructedAssetDownloadEstimatedSize;
 - (void)ted.;
 - (id)erID, personaID, accountID) on conflict replace
 );
@@ -100,12 +95,6 @@ create table if not exists DSIDMap (
 - (_Bool)´;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousRecordZoneTuplesFetchedBlock; // @synthesize anonymousRecordZoneTuplesFetchedBlock=_anonymousRecordZoneTuplesFetchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType errorFetchingAllRecordZonesBlock; // @synthesize errorFetchingAllRecordZonesBlock=_errorFetchingAllRecordZonesBlock;
-@property(nonatomic) _Bool onlyFetchPCSInfo; // @synthesize onlyFetchPCSInfo=_onlyFetchPCSInfo;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchedBlock; // @synthesize recordZoneFetchedBlock=_recordZoneFetchedBlock;
-@property(readonly, nonatomic) NSArray *recordZones; // @synthesize recordZones=_recordZones;
-@property(retain, nonatomic) NSMutableDictionary *zoneIDByRequestID; // @synthesize zoneIDByRequestID=_zoneIDByRequestID;
 @property(retain, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end

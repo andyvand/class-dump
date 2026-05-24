@@ -6,37 +6,25 @@
 
 #import <MapsSupport/_MSPContainerEdit.h>
 
-@class NSArray, NSIndexSet, NSMapTable, NSString;
+@class NSArray, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _MSPContainerEditAddition : _MSPContainerEdit
 {
     NSMapTable *_identifiersAtopByIdentifier;
-    NSArray *_objects;
-    NSArray *_addedImmutableObjects;
-    NSIndexSet *_indexesOfAddedObjects;
 }
 
 - (void);
+- (id);
+- (id)l;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Y;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedImmutableObjects; // @synthesize addedImmutableObjects=_addedImmutableObjects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexSet *indexesOfAddedObjects; // @synthesize indexesOfAddedObjects=_indexesOfAddedObjects;
 @property(readonly, nonatomic) NSArray *objects; // @synthesize objects=_objects;
-@property(readonly) Class superclass;
 
 @end
 

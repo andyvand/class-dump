@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, CNContactViewController, FAFamilyMember, NSArray, NSString;
-@protocol CNDowntimeWhitelistContainerFetching, CNSchedulerProvider, CNUICoreContactManagementConsentCheck, CNUICoreFamilyMemberWhitelistedContactsDataSource, CNUIFamilyMemberContactsPresentation, CNUIFamilyMemberWhitelistedContactsControllerDelegate;
+@class CNContactStore;
+@protocol CNUIFamilyMemberContactsPresentation;
 
 @interface CNUIFamilyMemberWhitelistedContactsController
 {
     id <CNUIFamilyMemberContactsPresentation> _familyMemberContactsPresentation;
-    FAFamilyMember *_familyMember;
-    id <CNUIFamilyMemberWhitelistedContactsControllerDelegate> _delegate;
-    CNContactStore *_familyMemberScopedContactStore;
-    CNContactFormatter *_contactCardWarningFormatter;
-    id <CNUICoreFamilyMemberWhitelistedContactsDataSource> _dataSource;
-    id <CNUICoreContactManagementConsentCheck> _contactManagentConsentCheck;
-    id <CNDowntimeWhitelistContainerFetching> _downtimeContaienerFetcher;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNContactViewController *_contactViewControllerPresentingItemDetails;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9_	;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -52,43 +43,24 @@
 - (id);
 - (_Bool);
 - (id);
+- (long long)5;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)showListShowsAllShows;
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void)BundleId: /* Error: Ran out of types for this method. */;
+- (void)appNameForBundleId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactFormatter *contactCardWarningFormatter; // @synthesize contactCardWarningFormatter=_contactCardWarningFormatter;
-@property(readonly, nonatomic) id <CNUICoreContactManagementConsentCheck> contactManagentConsentCheck; // @synthesize contactManagentConsentCheck=_contactManagentConsentCheck;
-@property(nonatomic) __weak CNContactViewController *contactViewControllerPresentingItemDetails; // @synthesize contactViewControllerPresentingItemDetails=_contactViewControllerPresentingItemDetails;
-@property(readonly, nonatomic) id <CNUICoreFamilyMemberWhitelistedContactsDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIFamilyMemberWhitelistedContactsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNDowntimeWhitelistContainerFetching> downtimeContaienerFetcher; // @synthesize downtimeContaienerFetcher=_downtimeContaienerFetcher;
-@property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) NSArray *familyMemberContactItems;
-@property(readonly, nonatomic) id <CNUIFamilyMemberContactsPresentation> familyMemberContactsPresentation; // @synthesize familyMemberContactsPresentation=_familyMemberContactsPresentation;
 @property(readonly, nonatomic) CNContactStore *familyMemberScopedContactStore; // @synthesize familyMemberScopedContactStore=_familyMemberScopedContactStore;
-@property(readonly, nonatomic) long long fetchStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, nonatomic) long long status;
-@property(readonly) Class superclass;
 
 @end
 

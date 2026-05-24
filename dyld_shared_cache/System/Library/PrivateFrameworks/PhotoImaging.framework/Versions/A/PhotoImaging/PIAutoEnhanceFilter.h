@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSString;
+@class CIImage;
 
 @interface PIAutoEnhanceFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputTargetImage;
-    NSString *_inputAlgorithm;
 }
 
 + (id);
@@ -26,12 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ysForMediaType: /* Error: Ran out of types for this method. */;
+- (void)pasteKeysForMediaType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *inputAlgorithm; // @synthesize inputAlgorithm=_inputAlgorithm;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage=_inputTargetImage;
 
 @end
 

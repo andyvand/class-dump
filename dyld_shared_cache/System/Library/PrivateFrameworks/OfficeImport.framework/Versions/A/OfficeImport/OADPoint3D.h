@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADPoint3D
 {
     float mX;
-    float mY;
-    float mZ;
 }
 
 - (id);

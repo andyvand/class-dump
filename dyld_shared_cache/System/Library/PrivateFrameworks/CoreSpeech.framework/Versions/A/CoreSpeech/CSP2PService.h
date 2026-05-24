@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CSADCompanionServiceProvider, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol CSADCompanionServiceProvider, OS_dispatch_queue;
 
 @interface CSP2PService
 {
     id <CSADCompanionServiceProvider> _adCompanionServiceProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_lastCommunicatedPeer;
-    NSString *_voiceTriggerBatchId;
-    NSString *_voiceIdentificationBatchId;
-    NSObject<OS_dispatch_semaphore> *_sema;
 }
 
-+ (id)yObserver:withSRFUserSetting: /* Error: Ran out of types for this method. */;
++ (id)_notifyObserver:withSRFUserSetting: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)t;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -73,19 +68,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithType:(id)arg1 cachePath:state:threshold: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)endMonitoring;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSADCompanionServiceProvider> adCompanionServiceProvider; // @synthesize adCompanionServiceProvider=_adCompanionServiceProvider;
-@property(retain, nonatomic) NSString *lastCommunicatedPeer; // @synthesize lastCommunicatedPeer=_lastCommunicatedPeer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sema; // @synthesize sema=_sema;
-@property(retain, nonatomic) NSString *voiceIdentificationBatchId; // @synthesize voiceIdentificationBatchId=_voiceIdentificationBatchId;
-@property(retain, nonatomic) NSString *voiceTriggerBatchId; // @synthesize voiceTriggerBatchId=_voiceTriggerBatchId;
 
 @end
 

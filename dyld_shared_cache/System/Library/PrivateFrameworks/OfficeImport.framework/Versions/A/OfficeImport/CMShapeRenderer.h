@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (void)!A;
++ (void)	;
 + (void);
-+ (void);
-+ (void);
-+ (struct CGImage *);
++ (struct CGImage *)(;
 + (struct CGImage *);
 + (void);
 + (void);

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKFont, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPKCellDrawingInfo
 {
     _Bool _needsDrawing;
-    _Bool _foundFallback;
-    unsigned short _glyph;
-    long long _index;
-    CPKFont *_font;
-    NSString *_character;
-    struct CGRect _frame;
-    struct CGRect _cellFrame;
 }
 
 - (void);
@@ -24,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)h;
 - (void);
 - (id);
 - (void);
@@ -32,21 +23,14 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (void);
 - (id);
-- (long long);
+- (long long)cachePath;
 - (void);
 - (void);
 - (void)1rÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property struct CGRect cellFrame; // @synthesize cellFrame=_cellFrame;
-@property(copy) NSString *character; // @synthesize character=_character;
-@property(retain) CPKFont *font; // @synthesize font=_font;
-@property _Bool foundFallback; // @synthesize foundFallback=_foundFallback;
-@property struct CGRect frame; // @synthesize frame=_frame;
-@property unsigned short glyph; // @synthesize glyph=_glyph;
 @property long long index; // @synthesize index=_index;
-@property _Bool needsDrawing; // @synthesize needsDrawing=_needsDrawing;
 
 @end
 

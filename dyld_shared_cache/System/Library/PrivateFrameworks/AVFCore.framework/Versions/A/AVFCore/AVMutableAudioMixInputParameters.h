@@ -6,14 +6,14 @@
 
 #import <AVFCore/AVAudioMixInputParameters.h>
 
-@class AVMutableAudioMixInputParametersInternal, NSString;
+@class AVMutableAudioMixInputParametersInternal;
 
 @interface AVMutableAudioMixInputParameters : AVAudioMixInputParameters
 {
     AVMutableAudioMixInputParametersInternal *_mutableInputParameters;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -34,8 +34,6 @@
 - (int)ï;
 
 // Remaining properties
-@property(retain, nonatomic) struct opaqueMTAudioProcessingTap *audioTapProcessor;
-@property(copy, nonatomic) NSString *audioTimePitchAlgorithm;
 @property(nonatomic) int trackID;
 
 @end

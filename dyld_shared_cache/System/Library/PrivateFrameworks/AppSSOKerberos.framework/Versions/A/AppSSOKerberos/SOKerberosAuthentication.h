@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDistributedNotificationCenter, NSString, SOADSiteDiscovery, SOKerberosHelper, SOKeychainHelper;
+@class NSString;
 
 @interface SOKerberosAuthentication
 {
     _Bool _siteDiscoveryInProgress;
-    NSString *_realm;
-    SOKerberosHelper *_kerberosHelper;
-    SOKeychainHelper *_keychainHelper;
-    SOADSiteDiscovery *_siteDiscovery;
-    NSDistributedNotificationCenter *_notificationCenter;
 }
 
 + (void);
@@ -39,19 +34,14 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)arningCount + min(1, max(0, 1 + negativeEngagement - positiveEngagement - :positiveEngagement                                                                         - :maxAllowedNegativeUserEngagementDiffToExposeAWarning))RETURNING negativeEngagement, positiveEngagement, blockedWarningCount /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)A	;
 - (void);
 
 // Remaining properties
-@property(retain) SOKerberosHelper *kerberosHelper; // @synthesize kerberosHelper=_kerberosHelper;
-@property(retain) SOKeychainHelper *keychainHelper; // @synthesize keychainHelper=_keychainHelper;
-@property(retain, nonatomic) NSDistributedNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(retain, nonatomic) NSString *realm; // @synthesize realm=_realm;
-@property(retain) SOADSiteDiscovery *siteDiscovery; // @synthesize siteDiscovery=_siteDiscovery;
-@property _Bool siteDiscoveryInProgress; // @synthesize siteDiscoveryInProgress=_siteDiscoveryInProgress;
 
 @end
 

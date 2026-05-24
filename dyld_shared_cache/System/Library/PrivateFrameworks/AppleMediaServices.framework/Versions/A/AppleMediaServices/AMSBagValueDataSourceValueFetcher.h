@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
-@protocol AMSBagDataSourceProtocol;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagValueDataSourceValueFetcher
 {
     NSString *_key;
-    unsigned long long _valueType;
-    ACAccount *_account;
-    id <AMSBagDataSourceProtocol> _dataSource;
 }
 
 + (id);
 - (void);
 - (id);
+- (id)uld send is YES, but not removing from dictionary;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)AFBluetoothWirelessSplitterSessionInfo;
+- (unsigned long long)tingsForRecognizedUserWithCompletion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool)@?0@"AMSLookupResult"8@"NSError"16;
@@ -32,10 +28,6 @@ T&
 - (void)¸ûut§ó;Z¿Ð4h¢`<,6,;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(nonatomic) __weak id <AMSBagDataSourceProtocol> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool isLoaded;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) unsigned long long valueType; // @synthesize valueType=_valueType;
 
 @end

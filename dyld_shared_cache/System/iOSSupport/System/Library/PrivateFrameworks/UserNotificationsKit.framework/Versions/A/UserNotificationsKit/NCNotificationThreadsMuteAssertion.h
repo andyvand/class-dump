@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface NCNotificationThreadsMuteAssertion
 {
     NSSet *_mutedThreadIDs;
+    id hash;
 }
 
-+ (id);
-- (unsigned long long);
-- (id);
-- (id);
++ (id)most 1 asset, as defined in the request call.;
+- (unsigned long long)WFShowAttribution;
+- (id)r showDialogRequest:(id)arg1 runningContext:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)OneMinusNode;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,11 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

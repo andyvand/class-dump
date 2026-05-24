@@ -6,27 +6,25 @@
 
 #import <AppKit/NSMediaLibraryBrowserControllerViewBridgeBase.h>
 
-@class NSMediaLibraryBrowserControllerViewBridgePanel, NSProgressIndicator;
+@class NSMediaLibraryBrowserControllerViewBridgePanel;
 
 __attribute__((visibility("hidden")))
 @interface NSMediaLibraryBrowserControllerViewBridge : NSMediaLibraryBrowserControllerViewBridgeBase
 {
     unsigned int _clientDidSetFrame:1;
-    NSMediaLibraryBrowserControllerViewBridgePanel *_panel;
-    NSProgressIndicator *_progressIndicator;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)ted value (%llx);
+- (id)!4;
 - (id);
-- (id);
-- (id);
+- (void)I;
 - (void);
-- (void);
-- (void)MarkerView;
+- (void)NSRulerMarkerView;
 - (void)ØnPÔ@;
 - (id)¸àÈ½B;
 - (_Bool)ÔE;
@@ -34,11 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSMediaLibraryBrowserControllerViewBridgePanel *panel; // @synthesize panel=_panel;
-@property(nonatomic) __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface NSSearchFieldBezelConfiguration : NSTextFieldBezelConfiguration
 {
     _Bool hasMenu;
-    _Bool hasSearchButton;
-    _Bool hasCancelButton;
-    _Bool _cancelButtonVisible;
 }
 
 + (id);
+- (void)4h;
 - (void);
-- (void);
-- (void);
+- (void)	K ##;
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)s:(_Bool)arg1 forCellWithReuseIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ContextViewController:(struct _NSZone *)arg1;
+- (_Bool);
+- (_Bool)#;
+- (void)registerClass:(_Bool)arg1 forCellWithReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_setTextInputContextViewController:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool cancelButtonVisible; // @synthesize cancelButtonVisible=_cancelButtonVisible;
-@property(nonatomic) _Bool hasCancelButton; // @synthesize hasCancelButton;
 @property(nonatomic) _Bool hasMenu; // @synthesize hasMenu;
-@property(nonatomic) _Bool hasSearchButton; // @synthesize hasSearchButton;
 
 @end
 

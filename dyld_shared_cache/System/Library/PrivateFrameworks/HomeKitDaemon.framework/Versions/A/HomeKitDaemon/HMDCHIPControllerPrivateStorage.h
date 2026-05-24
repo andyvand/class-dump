@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSDictionary, NSNumber, NSString;
+@class HMDHome, NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerPrivateStorage
 {
     HMDHome *_home;
-    NSNumber *_controllerNodeID;
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)%{public}@] mark handles inflight:(id)arg1 %{private}@;
+- (_Bool)Asked to resolve handle to contact, but Maps is not authorised for Contacts;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -25,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)1;
 - (_Bool);
 - (id)0@ù
 × ;
@@ -33,20 +32,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)installing the same hook;
 - (void);
-- (id)tectAccessory;
+- (id)NetworkDetectAccessory;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *cachedLocalControllerNodeID;
 @property(copy) NSNumber *controllerNodeID; // @synthesize controllerNodeID=_controllerNodeID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 
 @end
 

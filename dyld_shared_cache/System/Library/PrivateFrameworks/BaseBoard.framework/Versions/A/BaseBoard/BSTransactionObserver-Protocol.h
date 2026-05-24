@@ -5,5 +5,9 @@
 //
 
 @protocol BSTransactionObserver
+
+@optional
+- (void)M9;
+- (void);
 @end
 

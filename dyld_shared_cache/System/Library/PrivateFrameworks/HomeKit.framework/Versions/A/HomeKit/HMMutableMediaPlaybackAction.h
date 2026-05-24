@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMMediaPlaybackAction.h>
 
-@class MPPlaybackArchive, NSNumber, NSSet;
+@class NSSet;
 
 @interface HMMutableMediaPlaybackAction : HMMediaPlaybackAction
 {
@@ -14,14 +14,11 @@
 
 - (void);
 - (void);
-- (void);
+- (void)na;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *mediaProfiles; // @dynamic mediaProfiles;
-@property(retain, nonatomic) MPPlaybackArchive *playbackArchive; // @dynamic playbackArchive;
-@property(nonatomic) long long state; // @dynamic state;
-@property(copy, nonatomic) NSNumber *volume; // @dynamic volume;
 
 @end
 

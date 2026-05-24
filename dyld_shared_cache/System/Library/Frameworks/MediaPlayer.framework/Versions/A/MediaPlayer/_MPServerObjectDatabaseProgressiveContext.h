@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPropertySet, NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _MPServerObjectDatabaseProgressiveContext
 {
     NSMutableSet *_identifiers;
-    CDUnknownBlockType _onInvalidate;
-    struct os_unfair_lock_s _lock;
-    _Bool _invalid;
-    unsigned int _tag;
-    MPPropertySet *_propertySet;
 }
 
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)@;
 - (_Bool);
-- (void)lterPredicate: /* Error: Ran out of types for this method. */;
+- (void)addFilterPredicate: /* Error: Ran out of types for this method. */;
 - (void)¬áÜãäÔå¼ç;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(copy, nonatomic) CDUnknownBlockType onInvalidate;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned int tag; // @synthesize tag=_tag;
 
 @end

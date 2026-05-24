@@ -4,66 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableData, NSMutableURLRequest, NSObject, NSString, NSURLSession, NSURLSessionDataTask;
-@protocol OS_dispatch_semaphore;
+@class NSMutableURLRequest;
 
 __attribute__((visibility("hidden")))
 @interface AIASRequest
 {
     _Bool _done;
-    _Bool _success;
-    NSMutableURLRequest *_URLRequest;
-    NSMutableData *_data;
-    struct __AppleIDAuthSupportData *_context;
-    NSObject<OS_dispatch_semaphore> *_sema;
-    NSURLSession *_session;
-    NSURLSessionDataTask *_task;
-    NSError *_error;
-    NSString *_networkTaskDescription;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)urity:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct __AppleIDAuthSupportData *);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) NSMutableURLRequest *URLRequest; // @synthesize URLRequest=_URLRequest;
-@property struct __AppleIDAuthSupportData *context; // @synthesize context=_context;
-@property(retain) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool done; // @synthesize done=_done;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *networkTaskDescription; // @synthesize networkTaskDescription=_networkTaskDescription;
-@property(retain) NSObject<OS_dispatch_semaphore> *sema; // @synthesize sema=_sema;
-@property(retain) NSURLSession *session; // @synthesize session=_session;
-@property _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(retain) NSURLSessionDataTask *task; // @synthesize task=_task;
 
 @end
 

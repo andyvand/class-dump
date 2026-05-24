@@ -6,23 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISpotLight : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputLightPosition;
-    CIVector *inputLightPointsAt;
-    NSNumber *inputBrightness;
-    NSNumber *inputConcentration;
-    CIColor *inputColor;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)~x«¨««©®®««««¦¦¦¦p]ogyttrtjjjj/I8Z8N>^yyyy~YjdvekfrorotssssokdoMhbr~~~~utzy~yyv|Xogulogs[piwkyu|yxryZaUoJbWpwyvyt{x~­­­­£¨¨    ¡¡¡¡jzjslyttttvvvv|}}~mwvSh`ruuuu||||txqn{~~~~~}}}}zzzzjsqwk~rw;
 
 // Remaining properties

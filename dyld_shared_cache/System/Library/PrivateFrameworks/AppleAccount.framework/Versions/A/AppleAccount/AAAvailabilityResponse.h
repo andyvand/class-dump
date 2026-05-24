@@ -11,19 +11,15 @@
 @interface AAAvailabilityResponse : AAResponse
 {
     NSString *_status;
-    NSString *_eta;
-    NSString *_feature;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)stNames;
+- (void)firstNames;
 - (id)xMÔÙ@uì½$)°8¡¬5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eta; // @synthesize eta=_eta;
-@property(readonly, nonatomic) NSString *feature; // @synthesize feature=_feature;
 @property(readonly, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end

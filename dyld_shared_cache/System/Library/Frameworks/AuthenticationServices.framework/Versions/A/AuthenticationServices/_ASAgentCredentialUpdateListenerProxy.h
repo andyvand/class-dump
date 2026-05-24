@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)thumbnailChangedForTabPreviewDataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

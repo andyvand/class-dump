@@ -6,45 +6,36 @@
 
 #import <Suggestions/SGTQueryGenius.h>
 
-@class ABAddressBook, NSArray, NSMutableDictionary, NSPersonNameComponentsFormatter, NSString;
+@class ABAddressBook;
 
 @interface SGTMailQueryGenius : SGTQueryGenius
 {
     ABAddressBook *ab;
-    NSPersonNameComponentsFormatter *personFormatter;
-    NSMutableDictionary *imageCache;
-    NSMutableDictionary *uniqueIDToLoader;
-    _Bool contentSearchEnabled;
-    NSString *contentSearchDisabledExplanation;
-    NSArray *mailboxList;
-    NSArray *mailFlagColors;
-    NSArray *mailPriorities;
-    NSArray *mailAccountPaths;
 }
 
 + (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)K;
 + (_Bool);
 + (id);
 + (id);
 + (id);
+- (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)Rc;
 - (void);
 - (void);
 - (void);
@@ -52,7 +43,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -65,7 +56,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -74,26 +65,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)�;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)s;
 
 // Remaining properties
-@property(copy) NSString *contentSearchDisabledExplanation; // @synthesize contentSearchDisabledExplanation;
 @property(getter=isContentSearchEnabled) _Bool contentSearchEnabled; // @synthesize contentSearchEnabled;
-@property(copy) NSArray *mailAccountPaths;
-@property(copy) NSArray *mailAccountURLs;
-@property(copy) NSArray *mailFlagColors;
-@property(copy) NSArray *mailPriorities;
-@property(copy) NSArray *mailboxList;
 
 @end
 

@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)setValueAsProperty:withRawValue:options: /* Error: Ran out of types for this method. */;
 
 @end
 

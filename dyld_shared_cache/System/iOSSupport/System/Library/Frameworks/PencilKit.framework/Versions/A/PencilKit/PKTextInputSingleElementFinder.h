@@ -6,13 +6,11 @@
 
 #import <PencilKit/PKTextInputElementsFinder.h>
 
-@class NSSet, PKTextInputElement;
+@class PKTextInputElement;
 
 @interface PKTextInputSingleElementFinder : PKTextInputElementsFinder
 {
     _Bool _finished;
-    PKTextInputElement *_foundElement;
-    NSSet *_candidateElements;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 - (void)veredElementsByUniqueID;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *candidateElements; // @synthesize candidateElements=_candidateElements;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 @property(readonly, nonatomic) PKTextInputElement *foundElement; // @synthesize foundElement=_foundElement;
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet;
 @protocol MTLBuffer;
 
 __attribute__((visibility("hidden")))
 @interface SCNFixedSizePage
 {
     id <MTLBuffer> _buffer;
-    unsigned long long _elementSize;
-    NSMutableIndexSet *_freeIndices;
 }
 
 - (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool)dependency on self;
-- (id)CNPhysicsFieldScopeOutsideExtent;
+- (id)SCNPhysicsFieldScopeOutsideExtent;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;

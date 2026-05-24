@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBSearchForMeCardIntent
-- (_Bool)tentCallCapabilityUnsupportedReason;
+- (_INPBIntentMetadata *);
+- (_Bool)hasStartCallIntentCallCapabilityUnsupportedReason;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

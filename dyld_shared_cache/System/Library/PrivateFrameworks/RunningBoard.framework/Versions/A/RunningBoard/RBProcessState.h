@@ -4,72 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet, NSString, RBInheritanceCollection, RBMutableProcessAppNapState, RBProcessAppNapState, RBSProcessIdentity;
+@class RBSProcessIdentity;
 
 @interface RBProcessState
 {
     RBSProcessIdentity *_identity;
-    RBInheritanceCollection *_inheritances;
-    NSMutableDictionary *_maxCPULimitsByRole;
-    NSMutableDictionary *_minCPULimitsByRole;
-    NSMutableDictionary *_jetsamLenientModeByRole;
-    NSMutableSet *_preventIdleSleepIdentifiers;
-    NSMutableSet *_tags;
-    NSMutableSet *_legacyAssertions;
-    NSMutableSet *_primitiveAssertions;
-    unsigned long long _legacyFinishTaskReason;
-    _Bool _guaranteedRunning;
-    unsigned char _terminationResistance;
-    unsigned long long _explicitJetsamBand;
-    NSString *_memoryLimitCategory;
-    unsigned char _memoryLimitStrength;
-    int _memoryLimit;
-    unsigned short _flags;
-    unsigned char _role;
-    unsigned char _gpuRole;
-    unsigned long long _coalitionLevel;
-    RBMutableProcessAppNapState *_appNapState;
-    NSMutableSet *_endowmentInfos;
-    NSMutableSet *_prefetchPageScenarios;
-    NSSet *_preventLaunchReasons;
 }
 
 - (_Bool);
-- (id);
+- (id)endpointForMachName:service:instance: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (unsigned char);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id),N,V_presentedFrameStatsAggregation;
 - (id);
 - (_Bool);
+- (_Bool)unwrapKeyUsingHPKEWithWrappedKeyBase64:recipientPrivateKeyBase64:error: /* Error: Ran out of types for this method. */;
+- (id)ch is not needed, ncv-compatible rollout v2 are present for namespaces names:(id)arg1 %{public}@;
+- (_Bool)0^{__SecKey=}8@"NSArray"16@"NSError"24;
+- (unsigned long long)spaces (     rowid INTEGER PRIMARY KEY AUTOINCREMENT,     rolloutsV2_rowid INTEGER NOT NULL,     name TEXT NOT NULL,     UNIQUE (rolloutsV2_rowid, name),     FOREIGN KEY (rolloutsV2_rowid) REFERENCES rolloutsV2 (rowid) );;
+- (_Bool)s expected.;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (unsigned char);
-- (unsigned long long);
-- (id);
 - (unsigned long long);
 - (unsigned char);
-- (_Bool);
+- (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (unsigned long long);
 - (unsigned char);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)&,N,V_formattedSnippet;
 - (id);
+- (unsigned char);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)PrivateFrameworks/InfoQueryPersonalizationFeatures.framework/Versions/A/InfoQueryPersonalizationFeatures;
+- (_Bool)findmydeviced;
+- (id)try=YES ;
 - (int);
 - (_Bool);
 - (id);
@@ -78,7 +55,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)dataWithBytesNoCopy:length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -91,52 +68,11 @@
 - (id);
 - (id)Bù~Ð1Â0@ù
 × ;
-- (id)gProcesses;
-- (_Bool)torState:concreteTarget:targetProcess:targetIdentity:targetIdentifier:targetState:acquisitionContext:error: /* Error: Ran out of types for this method. */;
+- (id)_pendingProcesses;
+- (_Bool)_lock_validateDescriptor:originatorProcess:originatorState:concreteTarget:targetProcess:targetIdentity:targetIdentifier:targetState:acquisitionContext:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appNapEnabled;
-@property(readonly, nonatomic) _Bool appNapInactive;
-@property(readonly, nonatomic) _Bool appNapPreventBackgroundSockets;
-@property(readonly, nonatomic) _Bool appNapPreventDiskThrottle;
-@property(readonly, nonatomic) _Bool appNapPreventLowPriorityCPU;
-@property(readonly, nonatomic) _Bool appNapPreventSuppressedCPU;
-@property(readonly, nonatomic) unsigned char appNapPreventTimerThrottleTier;
-@property(readonly, nonatomic) RBProcessAppNapState *appNapState; // @synthesize appNapState=_appNapState;
-@property(readonly, nonatomic) _Bool carPlayMode;
-@property(readonly, nonatomic) unsigned long long coalitionLevel; // @synthesize coalitionLevel=_coalitionLevel;
-@property(readonly, nonatomic) _Bool effectiveJetsamLenientMode;
-@property(readonly, nonatomic) unsigned long long effectiveMaxCPUDuration;
-@property(readonly, nonatomic) unsigned long long effectiveMaxCPUPercentage;
-@property(readonly, nonatomic) unsigned long long effectiveMaxCPUUsageViolationPolicy;
-@property(readonly, nonatomic) unsigned long long effectiveMinCPUDuration;
-@property(readonly, nonatomic) unsigned long long effectiveMinCPUPercentage;
-@property(readonly, copy, nonatomic) NSSet *endowmentInfos; // @synthesize endowmentInfos=_endowmentInfos;
-@property(readonly, nonatomic) unsigned long long explicitJetsamBand; // @synthesize explicitJetsamBand=_explicitJetsamBand;
-@property(readonly, nonatomic) _Bool forceRoleManage;
-@property(readonly, nonatomic) unsigned char gpuRole; // @synthesize gpuRole=_gpuRole;
-@property(readonly, nonatomic) _Bool guaranteedRunning; // @synthesize guaranteedRunning=_guaranteedRunning;
 @property(readonly, copy, nonatomic) RBSProcessIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) RBInheritanceCollection *inheritances; // @synthesize inheritances=_inheritances;
-@property(readonly, nonatomic) _Bool isBeingDebugged;
-@property(readonly, nonatomic) _Bool jetsamLenientMode;
-@property(readonly, copy, nonatomic) NSSet *legacyAssertions;
-@property(readonly, nonatomic) unsigned long long legacyFinishTaskReason; // @synthesize legacyFinishTaskReason=_legacyFinishTaskReason;
-@property(readonly, nonatomic) int memoryLimit; // @synthesize memoryLimit=_memoryLimit;
-@property(readonly, nonatomic) NSString *memoryLimitCategory; // @synthesize memoryLimitCategory=_memoryLimitCategory;
-@property(readonly, nonatomic) unsigned char memoryLimitStrength; // @synthesize memoryLimitStrength=_memoryLimitStrength;
-@property(readonly, copy, nonatomic) NSSet *prefetchPageScenarios;
-@property(readonly, nonatomic) _Bool preventBaseMemoryLimitReduction;
-@property(readonly, nonatomic) _Bool preventIdleSleep;
-@property(readonly, nonatomic) NSSet *preventIdleSleepIdentifiers; // @synthesize preventIdleSleepIdentifiers=_preventIdleSleepIdentifiers;
-@property(readonly, nonatomic) NSSet *preventLaunchReasons; // @synthesize preventLaunchReasons=_preventLaunchReasons;
-@property(readonly, nonatomic) _Bool preventSuspend;
-@property(readonly, copy, nonatomic) NSSet *primitiveAssertions;
-@property(readonly, nonatomic) unsigned char role; // @synthesize role=_role;
-@property(readonly, copy, nonatomic) NSSet *tags;
-@property(readonly, nonatomic) _Bool targetedBySuspendableAssertion;
-@property(readonly, nonatomic) unsigned char terminationResistance; // @synthesize terminationResistance=_terminationResistance;
-@property(readonly, nonatomic) _Bool throttleBestEffortNetworking;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HAP2EncodedCharacteristicResponse : HAP2LoggingObject
 {
@@ -16,18 +16,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)etoothClassicMacAddress: /* Error: Ran out of types for this method. */;
+- (void)setBluetoothClassicMacAddress: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

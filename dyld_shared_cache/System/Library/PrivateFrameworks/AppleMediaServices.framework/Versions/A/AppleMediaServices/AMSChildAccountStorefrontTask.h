@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSNumber;
-@protocol AMSBagProtocol, AMSURLProtocolDelegate><NSURLSessionDelegate;
+@class ACAccount;
 
 @interface AMSChildAccountStorefrontTask : AMSTask
 {
     ACAccount *parentAccount;
-    NSNumber *childDSID;
-    id <AMSBagProtocol> bag;
-    void delegate;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)getAllocation;
 - (void);
 - (void)kÇ%åtÇ%uÇ%ÄvÇ%wÇ%¼pÇ%qÇ%1rÇ%òsÇ%I|Ç%}Ç%*~Ç%éÇ%RxÇ%dyÇ%ßzÇ%{Ç%§DÇ%"EÇ%FÇ%ZGÇ%á@Ç%×AÇ%lBÇ%¯CÇ%LÇ%ÌMÇ%wNÇ%´OÇ%HÇ%9IÇ%JÇ%AKÇ%úTÇ%`UÇ%ÛVÇ%WÇ%£PÇ%QÇ%.RÇ%íSÇ%V\Ç%]Ç%5^Ç%ö_Ç%MXÇ%{YÇ%ÀZÇ%[Ç%¸¤Ç%~¥Ç%Å¦Ç%§Ç%½ Ç%¡Ç%0¢Ç%ó£Ç%H¬Ç%­Ç%+®Ç%è¯Ç%S¨Ç%e©Ç%ÞªÇ%«Ç%¦´Ç%<µÇ%¶Ç%D·Ç%ÿ°Ç%É±Ç%r²Ç%±³Ç%
 ¼Ç%Ò½Ç%i¾Ç%ª¿Ç%¸Ç%'¹Ç%ºÇ%_»Ç%äÇ%aÇ%ÚÇ%Ç%¢Ç%Ç%/Ç%ìÇ%WÇ%Ç%4Ç%÷Ç%LÇ%zÇ%ÁÇ%Ç%¹Ç%#Ç%Ç%[Ç%àÇ%ÖÇ%mÇ%®Ç%Ç%ÍÇ%vÇ%µÇ%Ç%8Ç%Ç%@Ç%ûäÇ%ÂåÇ%yæÇ%ºçÇ%àÇ%7áÇ%âÇ%OãÇ%ôìÇ%,íÇ%îÇ%TïÇ%ïèÇ%ÙéÇ%bêÇ%¡ëÇ%ôÇ%õÇ%;öÇ%ø÷Ç%CðÇ%uñÇ%ÎòÇ%óÇ%¶üÇ%nýÇ%ÕþÇ%ÿÇ%­øÇ%ùÇ% úÇ%ãûÇ%XÄÇ%ÝÅÇ%fÆÇ%¥ÇÇ%ÀÇ%(ÁÇ%ÂÇ%PÃÇ%ëÌÇ%3ÍÇ%ÎÇ%KÏÇ%ðÈÇ%ÆÉÇ%}ÊÇ%¾ËÇ%ÔÇ%ÕÇ%$ÖÇ%ç×Ç%\ÐÇ%jÑÇ%ÑÒÇ%ÓÇ%©ÜÇ%qÝÇ%ÊÞÇ%	ßÇ%²ØÇ%ÙÇ%?ÚÇ%üÛÇ%GE;´æ8hÆF!HFB½!eÜ'Rù/W/h£üÆ^<Ý½N#nÆúO=Ó÷S×JÓÝâEõùO´1±lw>^,_Y|:z[køÒÄZb>°èNàÄ(»|ÚÚß`9¼MÒ¥-¡tªóå$tÉ>D2&kuïÚX@ÿÍ)Þ(ë¦ì<Ý¥x>rêzæ±²«acÍ¦+xÌ>= 4Í¿ýÛÂA7æ; 0î>­ôòÿ	téÿ©ÓÃ§Q·Ô¼Kè¢øoóàJ9Úz
@@ -30,9 +26,6 @@ K$@<xVH+zò /* Error: Ran out of types for this method. */;
 - (id)of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0DU=0;09 7 53https://www.apple.com/certificateauthority/root.crl0U+I0G0E+09https://www.apple.com/certificateauthority/casigners.html0	*H÷ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) id <AMSBagProtocol> bag; // @synthesize bag;
-@property(nonatomic, readonly) NSNumber *childDSID; // @synthesize childDSID;
-@property(nonatomic) __weak id <AMSURLProtocolDelegate><NSURLSessionDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) ACAccount *parentAccount; // @synthesize parentAccount;
 
 @end

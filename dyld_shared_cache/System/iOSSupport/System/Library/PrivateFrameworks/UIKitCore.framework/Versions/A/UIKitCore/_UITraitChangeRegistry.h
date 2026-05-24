@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UITraitChangeRegistry
 {
     NSMutableDictionary *_registrations;
-    NSHashTable *_auxiliaryChildTraitEnvironments;
-    struct unordered_map<void (*)(), _UITrackedTraitUsageRecord, std::hash<void (*)()>, std::equal_to<void (*)()>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> _traitUsageRecordsByMethodIMP;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)rringTransfers;
+- (void)UIDs;
+- (void);
 - (void);
 - (id);
 - (id)
 × ;
-- (void)ySo13_UIBarSectionCG;
+- (void)SaySo13_UIBarSectionCG;
 
 @end
 

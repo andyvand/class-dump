@@ -5,5 +5,6 @@
 //
 
 @protocol SXComponentViewEngine
+- (void);
 @end
 

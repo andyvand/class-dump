@@ -5,5 +5,6 @@
 //
 
 @protocol _SGDSuggestManagerBaseProtocol
+- (void);
 @end
 

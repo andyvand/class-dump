@@ -4,63 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUIUserActionListDataSource, NSArray, NSButton, NSDictionary, NSMutableDictionary, NSPopoverTouchBarItem, NSStackView, NSString, NSTouchBar;
-@protocol CNUIUserActionContext;
+@class NSTouchBar;
 
 @interface CNUserActionTouchBar
 {
     unsigned long long _displayStyle;
-    unsigned long long _titleOptions;
-    NSArray *_actionTypes;
-    CNContact *_contact;
-    NSTouchBar *_touchBar;
-    NSStackView *_userActionStackView;
-    NSPopoverTouchBarItem *_userActionPopoverTouchBarItem;
-    NSStackView *_allActionsPopoverStackView;
-    id <CNUIUserActionContext> _userActionContext;
-    CNUIUserActionListDataSource *_userActionDataSource;
-    NSDictionary *_buttonsByActionType;
-    NSMutableDictionary *_modelsByActionType;
-    NSArray *_tokens;
-    NSButton *_actionTypeTextButton;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)9B9_k@;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)9B9;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (void);
+- (unsigned long long)M9;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,7 +36,25 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id)c;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)I;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)	;
+- (id)<;
 - (id);
 - (void);
 - (void);
@@ -79,27 +65,7 @@
 - (id)^äJtG;
 
 // Remaining properties
-@property(retain) NSButton *actionTypeTextButton; // @synthesize actionTypeTextButton=_actionTypeTextButton;
-@property(copy, nonatomic) NSArray *actionTypes; // @synthesize actionTypes=_actionTypes;
-@property(retain) NSStackView *allActionsPopoverStackView; // @synthesize allActionsPopoverStackView=_allActionsPopoverStackView;
-@property(retain) NSDictionary *buttonsByActionType; // @synthesize buttonsByActionType=_buttonsByActionType;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *modelsByActionType; // @synthesize modelsByActionType=_modelsByActionType;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long titleOptions; // @synthesize titleOptions=_titleOptions;
-@property(retain) NSArray *tokens; // @synthesize tokens=_tokens;
 @property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(retain) id <CNUIUserActionContext> userActionContext; // @synthesize userActionContext=_userActionContext;
-@property(retain) CNUIUserActionListDataSource *userActionDataSource; // @synthesize userActionDataSource=_userActionDataSource;
-@property(retain) NSPopoverTouchBarItem *userActionPopoverTouchBarItem; // @synthesize userActionPopoverTouchBarItem=_userActionPopoverTouchBarItem;
-@property(retain) NSStackView *userActionStackView; // @synthesize userActionStackView=_userActionStackView;
 
 @end
 

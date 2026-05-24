@@ -7,13 +7,14 @@
 @interface CoreNFC.NFCTagReaderSessionDelegateSwiftWrapper
 {
     id swiftDelegate;
+    _Bool isEqual:;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id);
+- (void)#6{;
 
 @end
 

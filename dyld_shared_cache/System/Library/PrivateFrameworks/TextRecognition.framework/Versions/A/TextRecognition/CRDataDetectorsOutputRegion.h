@@ -6,15 +6,9 @@
 
 #import <TextRecognition/CROutputRegion.h>
 
-@class DDScannerResult, NSArray, NSString;
-
 @interface CRDataDetectorsOutputRegion : CROutputRegion
 {
     unsigned long long _dataType;
-    DDScannerResult *_ddResult;
-    NSString *_originalString;
-    NSString *_ddFriendlyString;
-    NSArray *_matchToOriginalIndexMapping;
 }
 
 - (_Bool);
@@ -28,29 +22,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
+- (unsigned long long)H;
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
 - (id);
-- (void);
+- (void)squaredDistanceMaxRatioFromCorrespondingCornersOfQuad: /* Error: Ran out of types for this method. */;
 - (void)ýÿ´ðÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool computesBoundsFromChildren;
-@property(nonatomic, readonly) _Bool contributesToDocumentHierarchy;
-@property(nonatomic) unsigned long long dataType; // @synthesize dataType=_dataType;
-@property(retain, nonatomic) NSString *ddFriendlyString; // @synthesize ddFriendlyString=_ddFriendlyString;
-@property(retain, nonatomic) DDScannerResult *ddResult; // @synthesize ddResult=_ddResult;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(retain, nonatomic) NSArray *matchToOriginalIndexMapping; // @synthesize matchToOriginalIndexMapping=_matchToOriginalIndexMapping;
-@property(retain, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
-@property(nonatomic) _Bool shouldComputeTranscriptFromChildren;
 @property(nonatomic, readonly) unsigned long long type;
 
 @end

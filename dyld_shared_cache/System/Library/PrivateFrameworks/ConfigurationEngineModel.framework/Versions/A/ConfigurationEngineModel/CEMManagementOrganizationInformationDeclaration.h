@@ -11,16 +11,12 @@
 @interface CEMManagementOrganizationInformationDeclaration : CEMConfigurationBase
 {
     NSString *_payloadOrganizationName;
-    NSString *_payloadOrganizationAddress;
-    NSString *_payloadOrganizationPhone;
-    NSString *_payloadOrganizationEmail;
-    NSString *_payloadOrganizationMagic;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)race.framework/Versions/A/ViceroyTrace;
 + (id);
 + (id);
 + (id);
@@ -39,23 +35,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)AssetId;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadOrganizationAddress; // @synthesize payloadOrganizationAddress=_payloadOrganizationAddress;
-@property(copy, nonatomic) NSString *payloadOrganizationEmail; // @synthesize payloadOrganizationEmail=_payloadOrganizationEmail;
-@property(copy, nonatomic) NSString *payloadOrganizationMagic; // @synthesize payloadOrganizationMagic=_payloadOrganizationMagic;
 @property(copy, nonatomic) NSString *payloadOrganizationName; // @synthesize payloadOrganizationName=_payloadOrganizationName;
-@property(copy, nonatomic) NSString *payloadOrganizationPhone; // @synthesize payloadOrganizationPhone=_payloadOrganizationPhone;
-@property(readonly) Class superclass;
 
 @end
 

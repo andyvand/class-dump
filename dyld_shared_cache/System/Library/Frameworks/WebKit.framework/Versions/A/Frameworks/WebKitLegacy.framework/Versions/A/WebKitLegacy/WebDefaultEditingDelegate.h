@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool)MY;
 - (_Bool);
 - (_Bool);
+- (_Bool)O;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)NI;
+- (_Bool)1G;
 - (_Bool);
 - (_Bool);
 - (_Bool);

@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarStore, AVTSimpleAvatarPicker, AVTUIEnvironment, AVTUILogger, NSString, UIView;
-@protocol AVTAvatarPickerDelegate, AVTPresenterDelegate, AVTSimpleAvatarPickerSwiftProviderDelegate, NSObject;
+@class AVTAvatarStore;
+@protocol AVTAvatarPickerDelegate;
 
 @interface AVTSimpleAvatarPickerSwiftProvider
 {
     id <AVTAvatarPickerDelegate> avatarPickerDelegate;
-    id <AVTPresenterDelegate> presenterDelegate;
-    UIView *view;
-    id <AVTSimpleAvatarPickerSwiftProviderDelegate> _delegate;
-    AVTAvatarStore *_avatarStore;
-    AVTUIEnvironment *_environment;
-    AVTUILogger *_logger;
-    AVTSimpleAvatarPicker *_avatarPicker;
-    id <NSObject> _avatarStoreChangeObserver;
-    NSString *_presentedIdentifier;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,24 +51,7 @@
 - (id)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTSimpleAvatarPicker *avatarPicker; // @synthesize avatarPicker=_avatarPicker;
-@property(nonatomic) __weak id <AVTAvatarPickerDelegate> avatarPickerDelegate; // @synthesize avatarPickerDelegate;
 @property(readonly, nonatomic) AVTAvatarStore *avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(retain, nonatomic) id <NSObject> avatarStoreChangeObserver; // @synthesize avatarStoreChangeObserver=_avatarStoreChangeObserver;
-@property(nonatomic) struct UIEdgeInsets contentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTSimpleAvatarPickerSwiftProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVTUILogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) NSString *presentedIdentifier; // @synthesize presentedIdentifier=_presentedIdentifier;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *view; // @synthesize view;
 
 @end
 

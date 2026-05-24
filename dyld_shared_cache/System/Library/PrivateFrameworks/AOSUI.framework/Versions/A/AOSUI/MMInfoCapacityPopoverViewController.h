@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MMInfoCapacityPopoverViewController
 {
     NSTextField *mediaTypeLabel;
-    NSTextField *mediaSizeLabel;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSTextField *mediaSizeLabel; // @synthesize mediaSizeLabel;
 @property __weak NSTextField *mediaTypeLabel; // @synthesize mediaTypeLabel;
 
 @end

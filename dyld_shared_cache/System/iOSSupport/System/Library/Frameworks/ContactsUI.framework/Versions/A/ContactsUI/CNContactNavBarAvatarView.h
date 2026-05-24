@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNContact;
+@class CNAvatarView;
 
 __attribute__((visibility("hidden")))
 @interface CNContactNavBarAvatarView
 {
     _Bool _showing;
-    CNContact *_contact;
-    CNAvatarView *_avatarView;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)_mallocZoneStatisticsMap;
 - (id);
 - (void);
 - (void)N,V_disableContextMenus;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool showing; // @synthesize showing=_showing;
 
 @end
 

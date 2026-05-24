@@ -7,26 +7,6 @@
 @interface CoreCDPUI.RemoteSecretViewModel
 {
     id _alert;
-    id _secret;
-    id _isValidating;
-    id _isPresentingAlert;
-    id _presentRPDAlert;
-    id cdpContext;
-    id validator;
-    id escapeOffers;
-    id devices;
-    id _stack;
-    id localDevice;
-    id isADPEnabled;
-    id bestDevice;
-    id secretType;
-    id cdpDevice;
-    id _remainingSecretAttempts;
-    id _performingAccountRecovery;
-    id _isSOSCompatibilityCFUForSingleICSC;
-    id _offeringRemoteApproval;
-    id _isNaturalUIEnabled;
-    id _$observationRegistrar;
 }
 
 - (void);

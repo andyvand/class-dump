@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMNicknameEncryptionTag
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (id);
@@ -21,11 +21,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)e;
+- (void)unexpectedTypeFromArchive;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;
-@property(readonly, nonatomic) NSString *stringRepresentation;
 
 @end
 

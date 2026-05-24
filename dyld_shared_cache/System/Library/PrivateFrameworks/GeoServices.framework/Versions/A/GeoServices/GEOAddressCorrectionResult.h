@@ -4,57 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAddressCorrectionResult
 {
     PBDataReader *_reader;
-    NSString *_addressID;
-    NSMutableArray *_significantLocations;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_addressID:1;
-        unsigned int read_significantLocations:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)UseLastDate:(id)arg1;
++ (Class)setIsClientTCCAllowedCachedValue: /* Error: Ran out of types for this method. */;
++ (_Bool)setHasMapsUseLastDate:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)copyWithZone:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)_scheduleSecondPassCompletionWatchDog;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
-- (id)inimumZoomLevelForStyle:(struct _NSZone *)arg1;
+- (id)minimumZoomLevelForStyle:(struct _NSZone *)arg1;
 - (id)4ôøõØö¨÷øXù;
-- (id)portsCommute;
+- (id)SupportsCommute;
 - (id);
 - (void)Èÿkÿìê;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *addressID;
 @property(readonly, nonatomic) _Bool hasAddressID;
-@property(retain, nonatomic) NSMutableArray *significantLocations;
 
 @end
 

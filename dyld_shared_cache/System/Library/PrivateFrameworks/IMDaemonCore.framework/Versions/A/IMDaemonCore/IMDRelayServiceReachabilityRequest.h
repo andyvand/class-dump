@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityContext, NSArray, NSString;
+@class NSArray;
 
 @interface IMDRelayServiceReachabilityRequest
 {
     NSArray *_handles;
-    NSString *_serviceName;
-    IMServiceReachabilityContext *_context;
 }
 
 + (id);
@@ -19,15 +17,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (void)>()ÿèÚ;
 
 // Remaining properties
-@property(retain, nonatomic) IMServiceReachabilityContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NRDUpdateDaemonClientImpl, NSDictionary, NSError, NSString, SUCoreDescriptor, SUMacControllerOverrides;
-@protocol NRDUpdateBrainClientInterface;
+@class NSString;
 
 @interface SUMacControllerRecoveryOSEventInfo
 {
     _Bool _nrdUpdateRequired;
-    NSString *_event;
-    SUCoreDescriptor *_descriptor;
-    SUCoreDescriptor *_sfrDescriptor;
-    SUMacControllerOverrides *_overrides;
-    id <NRDUpdateBrainClientInterface> _nrdBrain;
-    NRDUpdateDaemonClientImpl *_nrdDaemon;
-    NSDictionary *_nrdUpdateAttributes;
-    NSError *_error;
-    CDUnknownBlockType _completion;
-    CDUnknownBlockType _progressCallback;
-    NSString *_persistenceDescription;
 }
 
 + (_Bool);
@@ -36,12 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,24 +43,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)outConstraint",V_categoryButtonWidthConstraint;
+- (void)>>;
 - (void)@?0@8@16^B24;
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) SUCoreDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *event; // @synthesize event=_event;
-@property(retain, nonatomic) id <NRDUpdateBrainClientInterface> nrdBrain; // @synthesize nrdBrain=_nrdBrain;
-@property(retain, nonatomic) NRDUpdateDaemonClientImpl *nrdDaemon; // @synthesize nrdDaemon=_nrdDaemon;
-@property(retain, nonatomic) NSDictionary *nrdUpdateAttributes; // @synthesize nrdUpdateAttributes=_nrdUpdateAttributes;
-@property(nonatomic) _Bool nrdUpdateRequired; // @synthesize nrdUpdateRequired=_nrdUpdateRequired;
-@property(retain, nonatomic) SUMacControllerOverrides *overrides; // @synthesize overrides=_overrides;
 @property(retain, nonatomic) NSString *persistenceDescription; // @synthesize persistenceDescription=_persistenceDescription;
-@property(readonly, retain, nonatomic) CDUnknownBlockType progressCallback; // @synthesize progressCallback=_progressCallback;
-@property(retain, nonatomic) SUCoreDescriptor *sfrDescriptor; // @synthesize sfrDescriptor=_sfrDescriptor;
 
 @end
 

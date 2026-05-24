@@ -5,5 +5,6 @@
 //
 
 @protocol CKMacToolbarDelegate
+- (_Bool)"NSAttributedString"40;
 @end
 

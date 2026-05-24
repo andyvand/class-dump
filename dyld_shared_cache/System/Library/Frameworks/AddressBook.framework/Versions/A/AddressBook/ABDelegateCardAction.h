@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABDelegateCardAction
 {
     id _delegate;
@@ -16,14 +14,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)initWithIntent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)ÔaA°!PDùÑªÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSString *actionProperty;
 @property(readonly) id delegate; // @synthesize delegate=_delegate;
 
 @end

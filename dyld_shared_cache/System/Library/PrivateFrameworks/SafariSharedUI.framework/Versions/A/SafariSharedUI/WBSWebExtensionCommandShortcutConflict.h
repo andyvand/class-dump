@@ -9,8 +9,6 @@
 @interface WBSWebExtensionCommandShortcutConflict
 {
     NSString *_shortcut;
-    NSString *_extensionDisplayName;
-    NSString *_extensionDisplayShortName;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void)T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_geometry;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *extensionDisplayName; // @synthesize extensionDisplayName=_extensionDisplayName;
-@property(readonly, copy, nonatomic) NSString *extensionDisplayShortName; // @synthesize extensionDisplayShortName=_extensionDisplayShortName;
 @property(readonly, copy, nonatomic) NSString *shortcut; // @synthesize shortcut=_shortcut;
 
 @end

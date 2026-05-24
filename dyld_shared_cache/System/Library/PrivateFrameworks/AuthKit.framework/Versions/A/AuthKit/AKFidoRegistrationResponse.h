@@ -9,12 +9,6 @@
 @interface AKFidoRegistrationResponse
 {
     NSString *_clientData;
-    NSString *_credentialID;
-    NSString *_userIdentifier;
-    NSString *_challenge;
-    NSString *_relyingPartyIdentifier;
-    NSString *_attestationsData;
-    NSString *_credentialName;
 }
 
 + (id);
@@ -30,18 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)\L;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attestationsData; // @synthesize attestationsData=_attestationsData;
-@property(readonly, nonatomic) NSString *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) NSString *clientData; // @synthesize clientData=_clientData;
-@property(readonly, nonatomic) NSString *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, nonatomic) NSString *credentialName; // @synthesize credentialName=_credentialName;
-@property(readonly, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(readonly, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

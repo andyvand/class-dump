@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AKTextViewKeyCommandDelegate;
-
 @interface AKTextView
 {
     long long _maximumNumberOfCharacters;
-    id <AKTextViewKeyCommandDelegate> _keyCommandDelegate;
 }
 
 - (void);
@@ -18,17 +15,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)vityClass(void)_block_invoke;
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)Specular;
 - (_Bool);
 - (void);
 - (id)@ù
 × ;
 
 // Remaining properties
-@property __weak id <AKTextViewKeyCommandDelegate> keyCommandDelegate; // @synthesize keyCommandDelegate=_keyCommandDelegate;
 @property long long maximumNumberOfCharacters; // @synthesize maximumNumberOfCharacters=_maximumNumberOfCharacters;
 
 @end

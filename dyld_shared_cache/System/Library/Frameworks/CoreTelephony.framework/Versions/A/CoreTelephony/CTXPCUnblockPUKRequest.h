@@ -17,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)of class %@ is not of expected class %@;
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *pin;
 @property(readonly, nonatomic) NSString *puk;
 
 @end

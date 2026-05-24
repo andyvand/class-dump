@@ -4,64 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, RTLocationManager, RTTimer, RTTimerManager;
-@protocol OS_dispatch_queue, RTDelayedLocationRequesterDelegate;
+@class RTLocationManager;
+@protocol RTDelayedLocationRequesterDelegate;
 
 @interface RTDelayedLocationRequester
 {
     id <RTDelayedLocationRequesterDelegate> _delegate;
-    RTLocationManager *_locationManager;
-    RTTimerManager *_timerManager;
-    RTTimer *_delayTimer;
-    RTTimer *_activeTimer;
-    double _maxHorizontalAccuracy;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_fireDate;
-    NSDate *_activeStartDate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)CSIdentityData=};
+- (id)_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
+- (id)PDPState value:%lu /* Error: Ran out of types for this method. */;
+- (id)FlagFailedToDeleteRecoveryTokenRecord;
+- (void)l not end well;
+- (void)same;
+- (void)%@/%@-%@.%@;
+- (void)LegacySetupIdentitiesSilentDBR;
+- (void)o deserialize PCSManateeShareableIdentity;
+- (void)ity;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)tityWithIdentifier:(id)arg1 error:additionalResult: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (double);
+- (double)evaluatePolicy:localizedReason:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void)q;
-- (void)ers;
+- (void)median_daily_total_visit_duration_weekend_others;
 - (void)@,success:%d,error:%@ /* Error: Ran out of types for this method. */;
 - (void)rameter not satisfying:relabelerPersisterParameters /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *activeStartDate; // @synthesize activeStartDate=_activeStartDate;
-@property(retain, nonatomic) RTTimer *activeTimer; // @synthesize activeTimer=_activeTimer;
-@property(retain, nonatomic) RTTimer *delayTimer; // @synthesize delayTimer=_delayTimer;
-@property(retain, nonatomic) id <RTDelayedLocationRequesterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
 @property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) double maxHorizontalAccuracy; // @synthesize maxHorizontalAccuracy=_maxHorizontalAccuracy;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
 
 @end
 

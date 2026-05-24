@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXNewMagazineGrid;
-
 @interface PXNewMagazineRectArray
 {
     unsigned long long _currentIndex;
-    unsigned long long _size;
-    PXNewMagazineGrid *_tileGrid;
-    _Bool _isPerfectEnding;
-    double _score;
-    unsigned long long _endingType;
-    struct PXMagazineRect *_rects;
 }
 
 - (double);
@@ -26,9 +18,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (struct PXMagazineRect);
+- (struct PXMagazineRect)O;
 - (void);
 - (void);
 - (void);
@@ -36,13 +28,10 @@
 - (double);
 - (unsigned long long)e.m;
 - (void)c)}{?=qqfdddd}}8;
-- (void)rceKey;
+- (void)URLResourceKey;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) unsigned long long endingType; // @synthesize endingType=_endingType;
-@property(readonly, nonatomic) struct PXMagazineRect *rects; // @synthesize rects=_rects;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

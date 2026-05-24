@@ -7,9 +7,6 @@
 @interface NewsFeed.FeaturePromotionViewFactory
 {
     id commandCenter;
-    id presentationArchive;
-    id featurePromotionTrackerManager;
-    id dismissalTask;
 }
 
 @end

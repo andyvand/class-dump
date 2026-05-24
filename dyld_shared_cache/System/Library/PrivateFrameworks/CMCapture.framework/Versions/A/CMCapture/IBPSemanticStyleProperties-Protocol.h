@@ -5,9 +5,9 @@
 //
 
 @protocol IBPSemanticStyleProperties
+- (void);
 
 // Remaining properties
 @property(nonatomic) float toneBias;
-@property(nonatomic) float warmthBias;
 @end
 

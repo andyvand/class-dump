@@ -6,19 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint;
-@protocol _UITAMICAdaptorViewDelegate;
-
 @interface _UITAMICAdaptorView : UIView
 {
     UIView *_view;
-    NSLayoutConstraint *_width;
-    NSLayoutConstraint *_height;
-    struct CGSize _layoutSize;
-    _Bool _inLayout;
-    _Bool _invalidatesIntrinsicContentSizeOnSizeChange;
-    float _sizingPriority;
-    id <_UITAMICAdaptorViewDelegate> _delegate;
 }
 
 + (_Bool)lder;
@@ -27,24 +17,21 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void)0@ù
 × ;
 - (float)!Bù1f1Â0@ù
 × ;
 - (id)V_itemCount;
-- (void)emDefaultAnimation;
+- (void)configureSystemDefaultAnimation;
 - (_Bool)N,G_elementKind,S_setElementKind: /* Error: Ran out of types for this method. */;
-- (void)IMutableTransformerDelegate;
+- (void)UIMutableTransformerDelegate;
 - (struct CGSize)ll is requested will prevent reuse and cause created cells to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:(struct CGSize)arg1 %@;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <_UITAMICAdaptorViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool invalidatesIntrinsicContentSizeOnSizeChange; // @synthesize invalidatesIntrinsicContentSizeOnSizeChange=_invalidatesIntrinsicContentSizeOnSizeChange;
-@property(nonatomic) float sizingPriority; // @synthesize sizingPriority=_sizingPriority;
 @property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

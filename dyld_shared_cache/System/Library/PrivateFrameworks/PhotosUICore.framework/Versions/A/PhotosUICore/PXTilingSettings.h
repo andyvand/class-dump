@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (void);
+- (void)G;
 - (_Bool);
 - (id);
 - (void);

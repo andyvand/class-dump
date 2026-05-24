@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextDropProposal;
+
 @protocol UITextDropDelegate
+
+@optional
+- (unsigned long long);
+- (UITextDropProposal *);
 @end
 

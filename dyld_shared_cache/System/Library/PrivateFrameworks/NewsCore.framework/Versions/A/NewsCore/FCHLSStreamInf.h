@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface FCHLSStreamInf
 {
     NSURL *_url;
-    unsigned long long _bandwidth;
-    unsigned long long _averageBandwidth;
-    NSString *_codecs;
-    NSString *_audio;
 }
 
 - (id);
-- (void)ationConfigurationAsset;
+- (void)articleRecirculationConfigurationAsset;
 
 @end
 

@@ -13,11 +13,11 @@
     ACAccount *_appleAccount;
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)sr_getfilterrules returned %d;
+- (_Bool)chronizing _mcxlpadmin group (%ld:%s) /* Error: Ran out of types for this method. */;
+- (_Bool)rtyList] raised exception "%s" because "%s";
 - (id);
-- (void)BenefactorMessage;
+- (void)removeBenefactorMessage;
 
 @end
 

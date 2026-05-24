@@ -6,20 +6,17 @@
 
 #import <ViewBridge/NSRemoteViewController.h>
 
-@class NSString, NSTouchBarItem;
-
 __attribute__((visibility("hidden")))
 @interface NSRemoteViewControllerForTouchBarItem : NSRemoteViewController
 {
     unsigned int _observing:1;
-    NSTouchBarItem *_observingTouchBarItem;
 }
 
 + (id);
-- (struct CGSize);
+- (struct CGSize):(id)arg1 ;
 - (_Bool);
 - (void);
-- (void);
+- (void)hI9	;
 - (void);
 - (_Bool);
 - (void);
@@ -28,58 +25,12 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool);
 - (id);
+- (void)B;
 - (void);
-- (void);
-- (struct CGSize)dDragWindowRelativeToMouseDown: /* Error: Ran out of types for this method. */;
+- (struct CGSize)swizzledDragWindowRelativeToMouseDown: /* Error: Ran out of types for this method. */;
 - (struct CGSize)(P0,;
 
 // Remaining properties
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) Class superclass;
 @property(readonly) _Bool wantsAlertStylePadding;
 
 @end

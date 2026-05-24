@@ -7,16 +7,11 @@
 @interface TeaUI.AccessoryContainerView
 {
     id touchInsets;
-    id spacing;
-    id rightMargin;
-    id leftMargin;
-    id itemSize;
-    id cellHeight;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)recordTypes;
+- (id)setTopicFeedPublisherAggregateWeight:(struct CGRect)arg1;
 - (_Bool);
 
 @end

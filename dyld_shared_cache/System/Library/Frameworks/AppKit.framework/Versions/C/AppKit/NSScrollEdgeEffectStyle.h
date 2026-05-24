@@ -11,9 +11,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (unsigned long long);
-- (id);
++ (id)est_object,									 proto_props, user_info) 									 VALUES (%q, %q, %q, %q, %q);;
+- (unsigned long long)AVAssetDownloadTaskMinimumRequiredPresentationSizeKey;
+- (id);
 - (void)hC¸;
 
 // Remaining properties

@@ -9,7 +9,7 @@
     id containingViewController;
 }
 
-- (id);
+- (id)dz;
 - (id);
 - (void)"jüÿlFÿÿýÿ;
 

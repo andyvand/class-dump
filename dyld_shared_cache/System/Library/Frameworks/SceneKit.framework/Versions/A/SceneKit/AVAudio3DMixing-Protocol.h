@@ -5,7 +5,13 @@
 //
 
 @protocol AVAudio3DMixing
-- (void)rZoomAtScreenPoint:(struct AVAudio3DPoint)arg1 scaleDelta:viewport: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)emperature for brightness:%lu /* Error: Ran out of types for this method. */;
+- (void)iCloudAvailable_INT;
+- (float)k at mount point %s (aht / recovery system pre-dates versioning?);
+- (struct AVAudio3DPoint)dynamicViewController:contentViewWithDictionary:frame: /* Error: Ran out of types for this method. */;
+- (void)c;
+- (void)_orthographicViewSpaceTranslationForZoomAtScreenPoint:(struct AVAudio3DPoint)arg1 scaleDelta:viewport: /* Error: Ran out of types for this method. */;
 - (void)ometryNormal, _surface.view);
         _surface.view = _surface.view + max(0.f, -2.f * NoV) * _surface.geometryNormal;         
         
@@ -398,13 +404,6 @@
 - (float)E;
 
 // Remaining properties
-@property(nonatomic) float obstruction;
-@property(nonatomic) float occlusion;
-@property(nonatomic) long long pointSourceInHeadMode;
-@property(nonatomic) struct AVAudio3DPoint position;
-@property(nonatomic) float rate;
 @property(nonatomic) long long renderingAlgorithm;
-@property(nonatomic) float reverbBlend;
-@property(nonatomic) long long sourceMode;
 @end
 

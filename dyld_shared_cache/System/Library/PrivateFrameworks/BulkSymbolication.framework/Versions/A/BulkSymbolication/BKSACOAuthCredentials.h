@@ -9,9 +9,6 @@
 @interface BKSACOAuthCredentials
 {
     NSString *_userName;
-    NSString *_serviceClientID;
-    NSString *_oauthIDToken;
-    NSString *_oauthAccessToken;
 }
 
 - (id);
@@ -22,9 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *oauthAccessToken; // @synthesize oauthAccessToken=_oauthAccessToken;
-@property(readonly, nonatomic) NSString *oauthIDToken; // @synthesize oauthIDToken=_oauthIDToken;
-@property(readonly, nonatomic) NSString *serviceClientID; // @synthesize serviceClientID=_serviceClientID;
 @property(readonly, nonatomic) NSString *userName; // @synthesize userName=_userName;
 
 @end

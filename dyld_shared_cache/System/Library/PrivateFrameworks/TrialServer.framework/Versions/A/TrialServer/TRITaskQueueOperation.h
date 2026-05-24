@@ -9,18 +9,16 @@
 @interface TRITaskQueueOperation
 {
     _Bool _inProgress;
-    id <TRITask> _task;
 }
 
-- (id);
+- (id)Iw;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)!Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool inProgress; // @synthesize inProgress=_inProgress;
 @property(retain, nonatomic) id <TRITask> task; // @synthesize task=_task;
 
 @end

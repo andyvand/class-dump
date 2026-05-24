@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadAdvertisementContext, NSData, NSString;
+@class AFMyriadAdvertisementContext;
 
 @interface _AFMyriadAdvertisementContextMutation
 {
     AFMyriadAdvertisementContext *_base;
-    unsigned long long _generation;
-    NSData *_contextData;
-    double _contextFetchDelay;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasGeneration:1;
-        unsigned int hasContextData:1;
-        unsigned int hasContextFetchDelay:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -28,16 +19,10 @@
 - (_Bool);
 - (void);
 - (id)startWatchAdvertisingFromDirectTriggerWithContext:(id)arg1;
-- (void)observerQueue;
+- (void)_observerQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

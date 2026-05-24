@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSMapTable, PXStoryResourcesPreloadingCoordinator, PXStoryViewModel;
+@class PXStoryResourcesPreloadingCoordinator;
 
 @interface PXStoryViewResourcesPreloadingController : PXStoryController
 {
     _Bool _isActive;
-    PXStoryViewModel *_viewModel;
-    PXStoryResourcesPreloadingCoordinator *_resourcesPreloadingCoordinator;
-    NSMapTable *_resourcesPreloadingControllers;
 }
 
 - (id);
@@ -21,22 +18,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void)tyle;
+- (_Bool)nt=dd}24d40;
+- (void)ColumnStyle;
 - (void)ÿ;
-- (id)braryBannerViewModel;
+- (id)SharedLibraryBannerViewModel;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) NSMapTable *resourcesPreloadingControllers; // @synthesize resourcesPreloadingControllers=_resourcesPreloadingControllers;
 @property(readonly, nonatomic) PXStoryResourcesPreloadingCoordinator *resourcesPreloadingCoordinator; // @synthesize resourcesPreloadingCoordinator=_resourcesPreloadingCoordinator;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

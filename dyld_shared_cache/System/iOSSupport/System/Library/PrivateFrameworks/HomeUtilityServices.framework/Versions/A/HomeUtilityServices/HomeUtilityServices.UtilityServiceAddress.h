@@ -10,18 +10,13 @@
 {
     void addressLine1;
     void addressLine2;
-    void addressLine3;
-    void city;
-    void state;
-    void postalCode;
-    void country;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -32,11 +27,6 @@
 // Remaining properties
 @property(nonatomic, readonly) NSString *addressLine1;
 @property(nonatomic, readonly) NSString *addressLine2;
-@property(nonatomic, readonly) NSString *addressLine3;
-@property(nonatomic, readonly) NSString *city;
-@property(nonatomic, readonly) NSString *country;
-@property(nonatomic, readonly) NSString *postalCode;
-@property(nonatomic, readonly) NSString *state;
 
 @end
 

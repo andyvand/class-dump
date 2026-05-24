@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, SXJSONObject;
+@class SXJSONObject;
 
 @interface SXResolvedObject
 {
     SXJSONObject *_object;
-    NSSet *_conditionTypes;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *conditionTypes; // @synthesize conditionTypes=_conditionTypes;
 @property(readonly, nonatomic) SXJSONObject *object; // @synthesize object=_object;
 
 @end

@@ -7,20 +7,19 @@
 @interface FMReachability
 {
     _Bool localWiFiRef;
-    struct __SCNetworkReachability *reachabilityRef;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-- (unsigned long long);
++ (id).>(.>/;
+- (unsigned long long)e to provide source library for guest asset sync worker;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)&	(	>	;
 
 @end
 

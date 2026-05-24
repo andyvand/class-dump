@@ -7,18 +7,6 @@
 @interface NewsFeed.DebugFormatSnapshotCanvasView
 {
     id toolbarItems;
-    id contentView;
-    id _selectedSnapshotView;
-    id $__lazy_storage_$_rotateGesture;
-    id $__lazy_storage_$_translateGesture;
-    id $__lazy_storage_$_zoomGesture;
-    id rotateState;
-    id translateState;
-    id zoomState;
-    id hiddenSlider;
-    id depthSlider;
-    id snapshots;
-    id snapshotTransform;
 }
 
 - (void);
@@ -26,13 +14,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)e;
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (_Bool)ayoutContext;
+- (_Bool)_TtC8NewsFeed17FeedLayoutContext;
 - (void)I×;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UILabel;
+@class UIImageView;
 
 @interface PKMathContextMenuPreviewView
 {
     UIImageView *_imageView;
-    UILabel *_label;
-    UIImageView *_attrImageView;
-    UILabel *_dateLabel;
-    struct CGSize _labelSize;
 }
 
 + (id);

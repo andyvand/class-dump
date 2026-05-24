@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, OSPDevice, OSPVolume;
+@class NSURL;
 
 @interface OSPVolumeAnalyzer
 {
     NSURL *_mountPointURL;
-    OSPDevice *_device;
-    OSPVolume *_volume;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)image destination;
+- (id)setsd.filesystemDeletionInfo.isolation;
 - (void);
+- (id)MG/.>/;
+- (void)A;
 - (id);
+- (id)<;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(retain) OSPDevice *device; // @synthesize device=_device;
 @property(retain) NSURL *mountPointURL; // @synthesize mountPointURL=_mountPointURL;
-@property(retain) OSPVolume *volume; // @synthesize volume=_volume;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol RBAssertionManagerQueueDelegate
+- (void)shouldHideUnderShowMoreIfNotTophit;
 @end
 

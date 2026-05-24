@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NUColorSpace;
+@class NUColorSpace;
 
 @protocol NUFlexRangeProperties
+- (_Bool);
+- (NUColorSpace *)w;
+- (unsigned long long)essl-2.6/crypto/asn1/a_dup.c;
 
 // Remaining properties
-@property(readonly, nonatomic) NUColorSpace *alternateColorSpace;
-@property(readonly, nonatomic) float alternateHeadroom;
-@property(readonly) float baseHeadroom;
-@property(readonly, copy, nonatomic) NSArray *channelInfo;
-@property(readonly, nonatomic) _Bool useBaseColor;
 @property(readonly) unsigned long long version;
 @end
 

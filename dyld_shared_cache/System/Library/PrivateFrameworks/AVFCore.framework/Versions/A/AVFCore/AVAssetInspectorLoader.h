@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSString, NSURL;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetInspectorLoader
@@ -33,15 +33,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)(2;
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)messages must conform to NSSecureCoding. %@ does not.;
 - (struct OpaqueFigPlaybackItem *);
 - (id);
 - (_Bool);
@@ -55,31 +55,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic, getter=isAssociatedWithFragmentMinder) _Bool associatedWithFragmentMinder;
-@property(readonly, nonatomic, getter=_classForTrackInspectors) Class classForTrackInspectors;
-@property(readonly, nonatomic, getter=isCompatibleWithSavedPhotosAlbum) _Bool compatibleWithSavedPhotosAlbum;
-@property(readonly, nonatomic, getter=isComposable) _Bool composable;
-@property(readonly, nonatomic) NSArray *contentKeySpecifiersEligibleForPreloading;
-@property(readonly, nonatomic) unsigned long long downloadToken;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, nonatomic, getter=isExportable) _Bool exportable;
-@property(readonly, nonatomic, getter=_figAsset) struct OpaqueFigAsset *figAsset;
-@property(readonly, nonatomic) NSArray *figChapterGroupInfo;
-@property(readonly, nonatomic) NSArray *figChapters;
-@property(readonly, nonatomic) long long firstFragmentSequenceNumber;
-@property(readonly, nonatomic) long long fragmentCount;
-@property(nonatomic, getter=_fragmentMindingInterval, setter=_setFragmentMindingInterval:) double fragmentMindingInterval;
-@property(readonly, nonatomic) _Bool hasProtectedContent;
-@property(readonly, nonatomic) NSString *lyrics;
-@property(readonly, nonatomic) NSURL *originalNetworkContentURL;
-@property(readonly, nonatomic, getter=isPlayable) _Bool playable;
-@property(readonly, nonatomic, getter=_playbackItem) struct OpaqueFigPlaybackItem *playbackItem;
-@property(readonly, nonatomic, getter=_prefersNominalDurations) _Bool prefersNominalDurations;
-@property(readonly, nonatomic, getter=isReadable) _Bool readable;
-@property(readonly, nonatomic) NSURL *resolvedURL;
-@property(readonly, nonatomic, getter=_isStreaming) _Bool streaming;
-@property(readonly, nonatomic) NSArray *variants;
 @property(readonly, nonatomic, getter=_weakReference) AVWeakReference *weakReference;
 
 @end

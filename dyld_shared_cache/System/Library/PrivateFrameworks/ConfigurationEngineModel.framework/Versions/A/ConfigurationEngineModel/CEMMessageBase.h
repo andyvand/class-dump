@@ -6,40 +6,32 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMAnyPayload, NSDate, NSString;
+@class NSString;
 
 @interface CEMMessageBase : CEMPayloadBase
 {
     NSString *_messageType;
-    NSString *_messageIdentifier;
-    NSString *_messageInReplyTo;
-    NSDate *_messageTimestamp;
-    CEMAnyPayload *_messagePayload;
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)tion"8Q16^B24;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id)p;
+- (void)ber %d;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(copy, nonatomic) NSString *messageInReplyTo; // @synthesize messageInReplyTo=_messageInReplyTo;
-@property(copy, nonatomic) CEMAnyPayload *messagePayload; // @synthesize messagePayload=_messagePayload;
-@property(copy, nonatomic) NSDate *messageTimestamp; // @synthesize messageTimestamp=_messageTimestamp;
 @property(copy, nonatomic) NSString *messageType; // @synthesize messageType=_messageType;
 
 @end

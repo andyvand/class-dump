@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIBlendingHighlightView.h>
 
-@class NSString, _UIInterfaceActionSeparatorConstraintController;
+@class _UIInterfaceActionSeparatorConstraintController;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionBlendingSeparatorView : _UIBlendingHighlightView
@@ -19,26 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (double);
-- (long long);
-- (double);
-- (void);
+- (id)regenerateTransfersForMessage:(id)arg1 inChat:(id)arg2 addingAssetWithUUID:(id)arg3;
+- (double)GUID:associatedMessageType:associatedMessageRange:associatedMessageEmoji:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)_replicationProxy;
+- (double)_replicatingEncryptedMessage;
+- (void)ender-uri;
 - (id);
 - (void);
 - (void)P°R0¥ª43 ;
 
 // Remaining properties
-@property(nonatomic) double constantAxisDimension;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalLineLeadingInset; // @synthesize horizontalLineLeadingInset=_horizontalLineLeadingInset;
 @property(readonly, retain, nonatomic) _UIInterfaceActionSeparatorConstraintController *separatorViewConstraints; // @synthesize separatorViewConstraints=_separatorViewConstraints;
-@property(readonly) Class superclass;
 
 @end
 

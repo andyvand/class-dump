@@ -6,19 +6,16 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHFaceGroup, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHFaceGroup, PHRelationshipChangeRequestHelper;
 
 @interface PHFaceGroupChangeRequest : PHChangeRequest
 {
     PHFaceGroup *_originalFaceGroup;
-    PHRelationshipChangeRequestHelper *_facesHelper;
-    PHRelationshipChangeRequestHelper *_keyFaceHelper;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)T;
 - (long long);
 - (void);
 - (void);
@@ -30,45 +27,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)};
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9#;
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (void)ta",R,N,V_rulesData;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PHRelationshipChangeRequestHelper *facesHelper; // @synthesize facesHelper=_facesHelper;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *keyFaceHelper; // @synthesize keyFaceHelper=_keyFaceHelper;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(nonatomic) long long personBuilderState;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedFaceGroup;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(nonatomic) long long unnamedFaceCount;
 
 @end
 

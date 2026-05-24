@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBDouble
 {
     struct _has;
-    NSArray *_values;
 }
 
 + (Class);
@@ -18,28 +17,20 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)3;
 - (void);
 - (_Bool);
+- (void));
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)entRestaurantReservationBookings:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRestaurantOptionsForGetUserCurrentRestaurantReservationBookings:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)ñÿØMÊÈ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

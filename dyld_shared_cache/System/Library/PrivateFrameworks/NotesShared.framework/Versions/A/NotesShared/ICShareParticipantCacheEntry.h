@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface ICShareParticipantCacheEntry
 {
     NSSet *_names;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_nickname;
-    NSString *_initials;
-    NSString *_displayName;
-    NSString *_activityStreamDisplayName;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)D;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,13 +28,7 @@
 - (id)Ö;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activityStreamDisplayName; // @synthesize activityStreamDisplayName=_activityStreamDisplayName;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *initials; // @synthesize initials=_initials;
 @property(copy, nonatomic) NSSet *names; // @synthesize names=_names;
-@property(copy, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
 
 @end
 

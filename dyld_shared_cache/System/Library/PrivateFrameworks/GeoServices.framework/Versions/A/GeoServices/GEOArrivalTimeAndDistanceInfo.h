@@ -9,13 +9,11 @@
 @interface GEOArrivalTimeAndDistanceInfo
 {
     NSArray *_arrivalTimeInfo;
-    double _distanceRemainingToEndOfLeg;
-    double _distanceRemainingToEndOfRoute;
 }
 
 + (_Bool)nnect to geod on %s;
-- (void);
-- (void);
+- (void)setCurrentProcessHasValue:(double)arg1 forEntitlement: /* Error: Ran out of types for this method. */;
+- (void)observableAtIndexDidComplete:(id)arg1 forObserver: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *arrivalTimeInfo; // @synthesize arrivalTimeInfo=_arrivalTimeInfo;
-@property(nonatomic) double distanceRemainingToEndOfLeg; // @synthesize distanceRemainingToEndOfLeg=_distanceRemainingToEndOfLeg;
-@property(nonatomic) double distanceRemainingToEndOfRoute; // @synthesize distanceRemainingToEndOfRoute=_distanceRemainingToEndOfRoute;
 
 @end
 

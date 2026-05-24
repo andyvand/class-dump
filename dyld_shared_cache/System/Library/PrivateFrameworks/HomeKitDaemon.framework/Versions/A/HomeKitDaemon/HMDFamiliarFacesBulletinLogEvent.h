@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDFamiliarFacesBulletinLogEvent
 {
     _Bool _containsFaceClassification;
-    _Bool _doorbellPressed;
-    long long _numberOfKnownPersons;
-    long long _numberOfUnknownPersons;
-    NSString *_bulletinReason;
-    double _secondsFromDoorbellToFaceClassification;
 }
 
-- (double);
+- (double)T;
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
@@ -30,34 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)cool white fluorescent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy) NSString *bulletinReason; // @synthesize bulletinReason=_bulletinReason;
 @property(readonly) _Bool containsFaceClassification; // @synthesize containsFaceClassification=_containsFaceClassification;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool doorbellPressed; // @synthesize doorbellPressed=_doorbellPressed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) long long numberOfKnownPersons; // @synthesize numberOfKnownPersons=_numberOfKnownPersons;
-@property(readonly) long long numberOfUnknownPersons; // @synthesize numberOfUnknownPersons=_numberOfUnknownPersons;
-@property(readonly) double secondsFromDoorbellToFaceClassification; // @synthesize secondsFromDoorbellToFaceClassification=_secondsFromDoorbellToFaceClassification;
-@property(readonly) Class superclass;
 
 @end
 

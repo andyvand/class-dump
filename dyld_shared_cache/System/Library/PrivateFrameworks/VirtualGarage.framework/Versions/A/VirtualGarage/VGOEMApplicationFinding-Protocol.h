@@ -7,6 +7,8 @@
 @protocol VGOEMApplicationFinderUpdates;
 
 @protocol VGOEMApplicationFinding
+- (id <VGOEMApplicationFinderUpdates>);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <VGOEMApplicationFinderUpdates> delegate;

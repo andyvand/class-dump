@@ -11,33 +11,22 @@ __attribute__((visibility("hidden")))
 @interface _ISPlayerItemChefOperation
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _includeVideo;
-    _Bool _includeAudio;
-    AVAsset *_asset;
-    CDUnknownBlockType _resultHandler;
-    CDStruct_1b6d18a9 _photoTime;
-    CDStruct_e83c9415 _trimmedTimeRange;
 }
 
-- (CDStruct_e83c9415);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (CDStruct_5c5366e1)_previousContentFrame;
+- (id)_fullscreenViewControllerProvider;
+- (_Bool)_fromLayoutAttribute;
+- (_Bool)_fromDependencyAttribute;
+- (void)_childComponentsByParentIdentifier;
+- (void)_activeTimer;
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)collectionViewPointForLayoutPoint: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) _Bool includeAudio; // @synthesize includeAudio=_includeAudio;
-@property(readonly, nonatomic) _Bool includeVideo; // @synthesize includeVideo=_includeVideo;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
-@property(readonly, copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(readonly, nonatomic) CDStruct_e83c9415 trimmedTimeRange; // @synthesize trimmedTimeRange=_trimmedTimeRange;
 
 @end
 

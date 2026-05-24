@@ -5,5 +5,7 @@
 //
 
 @protocol AKAuthorizationPaneAutomaticResizeDelegate
+- (void);
+- (void)Pv;
 @end
 

@@ -7,7 +7,6 @@
 @interface AppleMediaServices.MediaRestrictionsPerformer.PromiseHandler__priv_36668741CA9525741226C3D3F7E765C3
 {
     id $defaultActor;
-    id promise;
 }
 
 @end

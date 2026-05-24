@@ -6,38 +6,29 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMutableArray, NSTextFieldCell;
+@class NSTextFieldCell;
 
 @interface NSNextStepFrame : NSView
 {
     NSTextFieldCell *titleCell;
-    NSMutableArray *edgeResizingTrackingAreas;
-    id nsfReserved;
-    unsigned long long styleMask;
-    struct _frFlags {
-        unsigned int defeatTitleWrap:1;
-        unsigned int resizeByIncrement:1;
-        unsigned int RESERVED:30;
-    } fvFlags;
-    struct CGSize sizingParams;
 }
 
-+ (double);
-+ (struct CGSize);
-+ (struct CGSize);
++ (double)okie with the same name from an untrusted endpoint;
++ (struct CGSize)be present for the same eld+1.;
++ (struct CGSize)tURL are in different domains;
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)serialized>;
 + (unsigned long long);
 + (_Bool)!tDùâ3ð1Â0@ù
 × ;
 + (void)f©ôâG;
 - (id);
 - (_Bool);
-- (void);
-- (struct CGRect);
+- (void);
+- (struct CGRect);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)R2;
 - (void);
 - (void);
 - (void);
@@ -51,39 +42,47 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void);
+- (struct CGRect)nnectionKeyComparator>, std:(struct CGRect)arg1:less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)@"NSError"24@"__CFN_TaskMetrics"32@"NSDictionary"40@?<v@?>48;
+- (id)0;
+- (struct CGRect)sender;
+- (id)searchForBrowsableDomains;
+- (id)resumedAndWaitingForEarliestBeginDate;
+- (double)resolveWithTimeout: /* Error: Ran out of types for this method. */;
+- (id)dataTask:didReceiveResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_flushWithCompletionHandler:(id)arg1;
 - (_Bool);
 - (void);
 - (struct CGRect);
+- (void)0R6;
+- (_Bool)failed to unpack proxy list from xpc reply %@ [%ld];
+- (_Bool)session %p != %p;
+- (_Bool)e():NULL response provided! /* Error: Ran out of types for this method. */;
+- (void)ustCopyPolicies failed %d;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)Q16^B24;
+- (_Bool)_nscfBridgeURLCacheCopyResponseForRequest: /* Error: Ran out of types for this method. */;
+- (void)1	11(12	22(2a	aa(a00
+0000)08011
+1111)18122
+2222)282aa
+aaaa)a8ac	cc(ce	ee(ei	ii(io	oo(occ
+cccc)c8cee
+eeee)e8eii
+iiii)i8ioo
+oooo)o8osstt;
 - (id);
 - (double);
 - (void);
 - (Class);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -94,13 +93,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void)",?,R;
 - (void);
-- (void);
-- (void);
-- (void)ta;
-- (void)Queue;
-- (void)ddenOrHasHiddenSubitems;
-- (id);
+- (void)shareItemData;
+- (void)_sendQueue;
+- (void)_isHiddenOrHasHiddenSubitems;
+- (id)NSWindowExcessiveWindowWarningCount;
 - (void)|mcÿrLØD;
 - (struct CGSize)È6G;
 - (void);

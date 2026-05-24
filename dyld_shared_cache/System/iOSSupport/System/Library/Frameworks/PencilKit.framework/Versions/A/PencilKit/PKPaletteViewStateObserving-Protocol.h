@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteViewStateObserving
+- (void);
 @end
 

@@ -6,22 +6,15 @@
 
 #import <EmailFoundation/EFObservable.h>
 
-@class EFManualCancelationToken;
 @protocol EFScheduler;
 
 @interface _EFGeneratorObservable : EFObservable
 {
     id <EFScheduler> _scheduler;
-    EFManualCancelationToken *_cancelable;
-    id _state;
-    CDUnknownBlockType _condition;
-    CDUnknownBlockType _nextStateForState;
-    CDUnknownBlockType _resultFromState;
-    CDUnknownBlockType _delayForState;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)_handlePlaybackToggleNotificationForMetricsCollectionEvent;
 - (id);
 - (id);
 - (void);

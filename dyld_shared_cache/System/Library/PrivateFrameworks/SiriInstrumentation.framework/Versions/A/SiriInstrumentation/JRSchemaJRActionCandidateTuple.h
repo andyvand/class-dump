@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRActionCandidateTuple : SISchemaInstrumentationMessage
 {
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,12 +30,11 @@
 - (id)1Â0@ù
 × ;
 - (id)C,N,V_deviceOS;
-- (id)aRTSClientEvent;
+- (id)RTSSchemaRTSClientEvent;
 - (void){*";
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateIds; // @synthesize candidateIds=_candidateIds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

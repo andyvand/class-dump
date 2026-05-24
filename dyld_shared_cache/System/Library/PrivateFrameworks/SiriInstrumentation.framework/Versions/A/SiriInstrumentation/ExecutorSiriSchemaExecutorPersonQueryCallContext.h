@@ -6,36 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorPersonQueryCallEnded, ExecutorSiriSchemaExecutorPersonQueryCallFailed, ExecutorSiriSchemaExecutorPersonQueryCallStarted, NSData;
+@class ExecutorSiriSchemaExecutorPersonQueryCallStarted;
 
 @interface ExecutorSiriSchemaExecutorPersonQueryCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorPersonQueryCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorPersonQueryCallEnded *_ended;
-    ExecutorSiriSchemaExecutorPersonQueryCallFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)?;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)EnforcedByManualConfiguration;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)IAPAppBTPairingDidSendPairInfoKey;
+- (id)Comparison;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -43,20 +37,13 @@
 - (_Bool);
 - (id);
 - (id)DurationInMs"b1"masterPlaylistConnectionTlsHandshakeDurationInMs"b1"masterPlaylistRequestDurationInMs"b1"subPlaylistConnectionTlsHandshakeDurationInMs"b1"subPlaylistRequestDurationInMs"b1"contentConnectionTlsHandshakeDurationInMs"b1"contentFirstSegmentDurationInMs"b1};
-- (id)Event;
+- (id)SISchemaClientEvent;
 - (id)<èl 
 Ô)´/;
 - (void)£O%;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorPersonQueryCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorPersonQueryCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorPersonQueryCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

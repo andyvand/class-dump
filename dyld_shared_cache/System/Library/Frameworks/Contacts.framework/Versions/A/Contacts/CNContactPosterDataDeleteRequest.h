@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (void)dSynchronize:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)instanceEnableDomain:(id)arg1 bundleIdentifier:shouldSynchronize:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPersistentStoreRequest *persistentStoreRequest;

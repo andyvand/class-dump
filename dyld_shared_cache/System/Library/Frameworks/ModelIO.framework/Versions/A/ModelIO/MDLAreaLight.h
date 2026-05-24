@@ -9,8 +9,6 @@
 @interface MDLAreaLight : MDLPhysicallyPlausibleLight
 {
     float _areaRadius;
-    float _aspect;
-    id _superEllipticPower;
 }
 
 - (id);
@@ -19,12 +17,10 @@
 - (float);
 - (void);
 - (float);
-- (id);
+- (id)ic}@AllowAssociatedService:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float areaRadius; // @synthesize areaRadius=_areaRadius;
-@property(nonatomic) float aspect; // @synthesize aspect=_aspect;
-@property(nonatomic) id superEllipticPower; // @synthesize superEllipticPower=_superEllipticPower;
 
 @end
 

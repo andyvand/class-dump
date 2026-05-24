@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _DASActivityRateLimitConfiguration
 {
     NSString *_name;
-    NSArray *_rateLimits;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *rateLimits; // @synthesize rateLimits=_rateLimits;
 
 @end
 

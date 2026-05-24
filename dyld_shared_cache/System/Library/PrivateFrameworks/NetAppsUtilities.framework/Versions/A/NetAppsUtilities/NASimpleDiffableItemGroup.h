@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NASimpleDiffableItemGroup
 {
     NSString *_groupIdentifier;
-    NSArray *_diffableItems;
 }
 
 - (void);
 - (id);
-- (id)ObjCTypes: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *diffableItems; // @synthesize diffableItems=_diffableItems;
 @property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

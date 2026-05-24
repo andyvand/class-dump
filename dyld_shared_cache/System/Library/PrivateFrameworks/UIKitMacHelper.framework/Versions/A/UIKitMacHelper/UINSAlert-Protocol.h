@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
+@class NSAttributedString, NSImage;
 
 @protocol UINSAlert
-- (void)oduleUse:(NSAttributedString *)arg1;
+- (void);
+- (void)kit(WebCore:(NSImage *)arg1:DeprecatedCSSOMCounter *) /* Error: Ran out of types for this method. */;
+- (void)relenquishExclusiveGameModuleUse:(NSAttributedString *)arg1;
 @end
 

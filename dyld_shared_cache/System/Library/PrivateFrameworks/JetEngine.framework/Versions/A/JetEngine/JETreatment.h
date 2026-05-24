@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JEMetricsDataPredicate, JETreatmentAction, NSDictionary;
+@class JEMetricsDataPredicate;
 
 __attribute__((visibility("hidden")))
 @interface JETreatment
 {
     JEMetricsDataPredicate *_predicate;
-    JETreatmentAction *_eventAction;
-    NSDictionary *_fieldActions;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)l;
+- (id)^m;
 - (void)È[;
 
 @end

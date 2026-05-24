@@ -6,34 +6,27 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface PHAssetCharacterRecognitionProperties : PHAssetPropertySet
 {
     NSData *_characterRecognitionData;
-    NSData *_machineReadableCodeData;
-    long long _algorithmVersion;
-    NSDate *_adjustmentVersion;
 }
 
 + (id);
 + (id);
-+ (id)onAvailabilityOptionMinimumDurationForMediumCurationKey;
++ (id)PHMemoryCurationAvailabilityOptionMinimumDurationForMediumCurationKey;
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (long long);
 - (id);
-- (void)AsynchronousPhotoLibraryExecutionContext;
+- (void)PHAsynchronousPhotoLibraryExecutionContext;
 - (id)eption in %s:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *adjustmentVersion; // @synthesize adjustmentVersion=_adjustmentVersion;
-@property(readonly, nonatomic) long long algorithmVersion; // @synthesize algorithmVersion=_algorithmVersion;
-@property(readonly, nonatomic) NSData *characterRecognitionData; // @synthesize characterRecognitionData=_characterRecognitionData;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSData *machineReadableCodeData; // @synthesize machineReadableCodeData=_machineReadableCodeData;
 
 @end
 

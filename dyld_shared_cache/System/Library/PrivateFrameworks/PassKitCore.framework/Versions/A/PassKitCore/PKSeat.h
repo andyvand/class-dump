@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKColor;
+@class NSString;
 
 @interface PKSeat
 {
     unsigned long long _attributes;
-    NSString *_designation;
-    NSString *_row;
-    NSString *_section;
-    NSString *_aisle;
-    NSString *_level;
-    NSString *_type;
-    PKColor *_sectionColor;
-    NSString *_seatDescription;
-    NSString *_identifier;
 }
 
 + (id);
@@ -36,24 +27,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (_Bool);
-- (void);
+- (void)_pid;
 - (id);
 - (id);
-- (void)PAY_ONE_SIXTH_TITLE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_ONE_SIXTH_TITLE;
 - (id)ÿw;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *aisle; // @synthesize aisle=_aisle;
 @property(readonly, copy, nonatomic) NSString *designation; // @synthesize designation=_designation;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *level; // @synthesize level=_level;
-@property(readonly, copy, nonatomic) NSString *row; // @synthesize row=_row;
-@property(readonly, copy, nonatomic) NSString *seatDescription; // @synthesize seatDescription=_seatDescription;
-@property(readonly, copy, nonatomic) NSString *section; // @synthesize section=_section;
-@property(readonly, nonatomic) PKColor *sectionColor; // @synthesize sectionColor=_sectionColor;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

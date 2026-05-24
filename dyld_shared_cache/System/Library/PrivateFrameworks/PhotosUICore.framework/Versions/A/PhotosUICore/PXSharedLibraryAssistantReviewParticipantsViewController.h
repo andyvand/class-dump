@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSArray, NSProgress, NSString, NSView, PXAssistantTemplateView, PXSharedLibraryAssistantParticipantViewModel, PXSharedLibraryAssistantViewModel, PXSharedLibraryParticipantTableViewController, PXSharedLibraryStatusProvider;
+@class PXSharedLibraryAssistantParticipantViewModel;
 
 @interface PXSharedLibraryAssistantReviewParticipantsViewController : PXAssistantTemplateViewController
 {
     PXSharedLibraryAssistantParticipantViewModel *_participantViewModel;
-    PXSharedLibraryParticipantTableViewController *_tableViewController;
-    NSArray *_variableLayoutConstraints;
-    NSView *_contentView;
-    PXAssistantTemplateView *_templateView;
-    NSProgress *_activityProgress;
-    PXSharedLibraryAssistantViewModel *_viewModel;
-    PXSharedLibraryStatusProvider *_statusProvider;
 }
 
 - (void);
@@ -34,23 +27,14 @@
 - (void);
 - (void);
 - (void);
-- (void)appingEdge: /* Error: Ran out of types for this method. */;
-- (void)ate;
+- (void)skipToSegmentWithOffset:byTappingEdge: /* Error: Ran out of types for this method. */;
+- (void)_targetCinematographyState;
 - (void)run test;
 - (void);
 - (id)i©ÿq;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasParticipants;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

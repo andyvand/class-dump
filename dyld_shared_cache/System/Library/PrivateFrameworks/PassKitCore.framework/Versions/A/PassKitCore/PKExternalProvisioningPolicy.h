@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKExternalProvisioningPolicy
 {
     NSString *_type;
-    NSDictionary *_deviceLimits;
 }
 
 + (_Bool);
@@ -18,17 +17,16 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
+- (unsigned long long)H;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)modelType;
 - (void);
 - (void);
-- (id)sPerCalendarUnit;
-- (void)KNOWN;
+- (id)_spendingsPerCalendarUnit;
+- (void)NETWORK_NAME_UNKNOWN;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *deviceLimits; // @synthesize deviceLimits=_deviceLimits;
 @property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

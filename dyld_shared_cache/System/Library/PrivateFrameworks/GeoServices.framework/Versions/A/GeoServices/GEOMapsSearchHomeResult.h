@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapsSearchHomeResult
 {
     NSArray *_sections;
-    NSString *_cachedNaturalSearchKey;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)setHasMapsCategoryMuid: /* Error: Ran out of types for this method. */;
 - (void)ü	ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cachedNaturalSearchKey; // @synthesize cachedNaturalSearchKey=_cachedNaturalSearchKey;
 @property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end

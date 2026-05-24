@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNScene;
+@class SCNScene;
 
 @protocol SCNMetalLayerJSExport
-- (_Bool)tomEncodingOfSCNPhysicsShape: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)-B;
+- (SCNScene *)set;
+- (_Bool)_customEncodingOfSCNPhysicsShape: /* Error: Ran out of types for this method. */;
 - (void)= u_floorCenter.xyz + u_floorExtent.x * (_geometry.position.x * u_floorTangent.xyz) + u_floorExtent.y * (_geometry.position.y * floorBitangent);
   _geometry.normal = u_floorNormal;
   _geometry.tangent = u_floorTangent;
@@ -27,13 +31,6 @@
 - (void)3s?c?jL8¾ÅÉ>Òrt???êÌ-¾h>Í¬u?c?!#¾Mhr>7áv?·?ª¾\^>x?=?ç¾ðÁK>~y?ñ? §¾9>%$z?Ð¹{?¼ì½µ4'>	{?^×w?ýÀÕ½·ë>õ{?gdt?5¿½]>E½|?·&q?Õu¨½sê=óq}?,En?á½Ê={~?/¿k?Q/x½¡ª=»~?i?Î5L½¡=?¯g?Q!½ï©\=bf?Df?á`ï¼Nï"=C«?Á¬d?u¼dÔ<ÂÛ?Gc?*¼AòN<I÷?AÔa?89¸;
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(nonatomic) double currentTime;
-@property(nonatomic) id delegate;
-@property(nonatomic) _Bool loops;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) _Bool showsStatistics;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchResultsInflaterFactory
 {
     id tagService;
-    id searchRecipeFactory;
 }
 
 @end

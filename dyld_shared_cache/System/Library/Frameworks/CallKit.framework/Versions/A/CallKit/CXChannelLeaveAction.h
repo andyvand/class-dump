@@ -6,7 +6,7 @@
 
 #import <CallKit/CXChannelAction.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CXChannelLeaveAction : CXChannelAction
 {
@@ -20,19 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)BluetoothSpeaker;
 - (id);
-- (void);
+- (void)6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDate *leaveDate; // @synthesize leaveDate=_leaveDate;
-@property(readonly) Class superclass;
 
 @end
 

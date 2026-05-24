@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageModelController, PDFAKPageAdaptorPrivate, PDFPage;
+@class PDFAKPageAdaptorPrivate, PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKPageAdaptor
@@ -14,13 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)#A;
 - (void);
 - (id);
 - (id);
@@ -28,10 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)primaryResidentElectionFirstCloudKitImportFutureResolvedMSHH2;
+- (id)notifyDelegateOfRemovedMediaSystem: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)geometrySourceWithTextureCoordinates:count: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AKPageModelController *akPageModelController;
 @property(readonly, nonatomic) __weak PDFPage *pdfPage;
 
 @end

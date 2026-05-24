@@ -6,14 +6,12 @@
 
 #import <iTunesCloud/ICSharedListeningConnectionController.h>
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface ICExternalSharedListeningConnectionController : ICSharedListeningConnectionController
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (void);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,14 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)45H5	9@<T=l=ø=(>4>?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -7,13 +7,6 @@
 @interface OSLogTermDumper
 {
     struct os_trace_blob_s _ob;
-    unsigned short _last_attrs;
-    unsigned char _ob_slop[1];
-    _Bool _fancy;
-    int _fd;
-    _Bool _vis;
-    unsigned char _colorMode;
-    unsigned short _cur_attrs;
 }
 
 - (void);
@@ -21,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -31,7 +24,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)h;
 - (unsigned char);
 - (unsigned char);
 - (unsigned int);
@@ -47,19 +40,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_itemIsAFolderAtIndex:(unsigned short)arg1;
 - (unsigned char);
 - (_Bool){tracev3_subchunk_systeminfo_s=ii[16c][32c]}{tracev3_subchunk_preamble_s=II}{tracev3_subchunk_generation_s=[16C]ii}{tracev3_subchunk_preamble_s=II}{tracev3_subchunk_timezone_s=[48c]}}{tracev3_chunk_catalog_s=SSSS[0C]}{tracev3_chunk_catalog_v2_s=SSSSSSS[1S]Q[0C]}{tracev3_chunk_log_preamble_s=QIC[3C]}{tracev3_chunk_firehose_s=QICC[2C][0C]}{tracev3_chunk_firehose_old_s=QiCC[0C]}{tracev3_chunk_oversize_s=QIC[3C]QISS[0C]}{tracev3_chunk_oversize_old_s=QISS[0C]}{tracev3_chunk_statedump_s=QIC[3C]QQ[16C][0C]}{tracev3_chunk_simple_s=QICC[2C]QQQ[16C][16C][0C]}[0C])}16q24^v32@40I48;
 
 // Remaining properties
-@property(nonatomic) unsigned char bgColor;
-@property(nonatomic, getter=isBold) _Bool bold;
 @property(readonly, nonatomic) unsigned char colorMode; // @synthesize colorMode=_colorMode;
-@property(nonatomic) unsigned char fgColor;
-@property(readonly, nonatomic) _Bool isFancy; // @synthesize isFancy=_fancy;
-@property(nonatomic, getter=isOblique) _Bool oblique;
-@property(nonatomic) unsigned short style; // @synthesize style=_cur_attrs;
-@property(nonatomic, getter=isUnderlined) _Bool underline;
 
 @end
 

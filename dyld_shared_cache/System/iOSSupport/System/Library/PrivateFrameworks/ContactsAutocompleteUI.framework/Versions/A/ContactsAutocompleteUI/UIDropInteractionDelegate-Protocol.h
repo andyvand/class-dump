@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIDragItem, UIDropInteraction, UITargetedDragPreview;
+
 @protocol UIDropInteractionDelegate
+
+@optional
+- (UITargetedDragPreview *)_permitCorrection:(UIDropInteraction *)arg1 languageObject:(UIDragItem *)arg2 flags:(UITargetedDragPreview *)arg3 isCapitalized:typologyCorrection: /* Error: Ran out of types for this method. */;
+- (void)�&@y)9�&;
 @end
 

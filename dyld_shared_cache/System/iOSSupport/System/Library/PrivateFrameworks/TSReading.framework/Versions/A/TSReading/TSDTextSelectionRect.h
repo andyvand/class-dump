@@ -9,11 +9,6 @@
 @interface TSDTextSelectionRect
 {
     struct CGRect _rect;
-    long long _writingDirection;
-    UITextRange *_range;
-    _Bool _containsStart;
-    _Bool _containsEnd;
-    _Bool _isVertical;
 }
 
 - (id);

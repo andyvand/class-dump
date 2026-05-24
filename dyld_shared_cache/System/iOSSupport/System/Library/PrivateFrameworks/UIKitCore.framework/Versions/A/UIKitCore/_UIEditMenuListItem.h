@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIMenuElement, UISPasteVariant, UIView;
+@class UIMenuElement;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuListItem
 {
     _Bool _wantsPasteSlotView;
-    _Bool _singleItemMenu;
-    UIMenuElement *_menuElement;
-    NSString *_title;
-    UIImage *_image;
-    UISPasteVariant *_pasteVariant;
-    long long _options;
-    UIView *_customView;
-    double _overrideMinimumWidth;
-    unsigned long long _displayMode;
 }
 
 + (id);
@@ -27,32 +18,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)overrideNumberOfChatsToFetch;
+- (double)newestChatWithOriginalGroupID:onService: /* Error: Ran out of types for this method. */;
+- (id)isDisablingDevices;
+- (_Bool)handleMessageMarkUnreadRequestWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_tuConversationForChat:(id)arg1;
+- (_Bool)_truncateDBToPath:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id)enWidth;
+- (id)leadingOffscreenWidth;
 - (void)òl;
 - (unsigned long long)¸á^;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) UIMenuElement *menuElement; // @synthesize menuElement=_menuElement;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
-@property(nonatomic) double overrideMinimumWidth; // @synthesize overrideMinimumWidth=_overrideMinimumWidth;
-@property(readonly, nonatomic) UISPasteVariant *pasteVariant; // @synthesize pasteVariant=_pasteVariant;
-@property(nonatomic, getter=isSingleItemMenu) _Bool singleItemMenu; // @synthesize singleItemMenu=_singleItemMenu;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool wantsPasteSlotView; // @synthesize wantsPasteSlotView=_wantsPasteSlotView;
 
 @end
 

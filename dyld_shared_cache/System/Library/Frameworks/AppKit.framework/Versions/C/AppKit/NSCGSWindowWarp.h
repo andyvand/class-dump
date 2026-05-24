@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface NSCGSWindowWarp
 {
     unsigned long long _width;
-    unsigned long long _height;
-    float *_points;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

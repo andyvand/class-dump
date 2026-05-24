@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface TISCTextRunRequest
 {
     NSArray *_strings;
-    struct CGColor *_color;
-    double _maxFontSize;
-    double _minFontSize;
-    _Bool _allowTruncation;
-    NSString *_truncationSentinel;
-    unsigned long long _widthGroup;
 }
 
-+ (id);
++ (id)shouldShow;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)hRecordingDidFail:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct CGColor *);

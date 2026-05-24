@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKImageView, MKMapItem, NSString, NSView;
+@class MKImageView, NSView;
 
 __attribute__((visibility("hidden")))
 @interface MKPhotoBigAttributionView
 {
     MKImageView *_imageView;
-    NSView *_backgroundView;
-    _Bool _needsImageLoad;
-    long long _context;
-    long long _type;
-    MKMapItem *_mapItem;
-    NSView *_contentView;
 }
 
 + (id);
+- (void)_%@.CESQL;
 - (void);
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)getAutoBugCaptureConfiguration: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (void);
@@ -33,21 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)mStorage: /* Error: Ran out of types for this method. */;
+- (void)mapItemStorageForSerializedMapItemStorage: /* Error: Ran out of types for this method. */;
 - (id)t silhouette;
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) long long context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

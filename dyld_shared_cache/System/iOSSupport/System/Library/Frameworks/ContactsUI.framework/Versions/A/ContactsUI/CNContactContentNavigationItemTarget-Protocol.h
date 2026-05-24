@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactContentNavigationItemTarget
+- (void);
 @end
 

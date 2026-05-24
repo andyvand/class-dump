@@ -11,7 +11,7 @@
     EKEventStore *_eventStore;
 }
 
-- (id);
+- (id)`;
 - (void)PlayerViewController";
 
 // Remaining properties

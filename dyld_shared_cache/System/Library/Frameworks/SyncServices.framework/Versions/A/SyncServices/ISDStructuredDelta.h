@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDClientState, ISyncSession, NSMutableDictionary;
+@class ISDClientState;
 
 @interface ISDStructuredDelta
 {
     ISDClientState *_clientState;
-    NSMutableDictionary *_supportedPropertyNames;
-    NSMutableDictionary *_syncStates;
-    NSMutableDictionary *_entities;
-    unsigned int _currentGeneration;
-    id _changePusher;
-    id _changePuller;
-    ISyncSession *_relationshipValidationDelegate;
-    _Bool _clientIsTrusted;
-    _Bool _clientFormatsRelationships;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);

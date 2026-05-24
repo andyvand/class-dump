@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (SEL);
-+ (unsigned char);
-- (void);
++ (unsigned char)ongTag",&,N;
+- (void)C;
 - (id);
 - (id);
-- (void);
+- (void)setFormatDescriptions:(id)arg1;
 - (void)1Â0@ù
 × ;
 - (void);

@@ -17,12 +17,12 @@
 + (Class);
 - (id);
 - (void);
-- (id);
+- (id)B9;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)rtition scheme;
 - (void);
 - (id);
 - (id);
@@ -31,7 +31,6 @@
 - (_Bool)*;
 
 // Remaining properties
-@property(nonatomic) unsigned long long imageCropAndScaleOption;
 @property(readonly, nonatomic) VNCoreMLModel *model; // @synthesize model=_model;
 
 @end

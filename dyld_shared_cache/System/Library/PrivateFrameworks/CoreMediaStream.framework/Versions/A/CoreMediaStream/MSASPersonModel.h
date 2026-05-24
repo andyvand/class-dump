@@ -24,12 +24,12 @@
 - (int);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)l update has newer minimum version "%s", preferring built in asset;
+- (_Bool)خروات;
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (int);
 - (id);
@@ -42,10 +42,10 @@
 - (int);
 - (void);
 - (int);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (void)logEventForwardMainScreenState:(id)arg1;
+- (long long)-V_RUNMAX;
+- (void)valMostSevereCost(1198):(id)arg1 Cannot add 3 elements to context;
+- (void)elements != (%d) buffer elements;
 - (void);
 - (void);
 - (void);
@@ -53,16 +53,16 @@
 - (int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)�;
+- (id)getIdentityFromUUID:(id)arg1 withClient:(id)arg2;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)checkInWithProtectionClass failed, nil client bundleID for process:(id)arg1 %@;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties

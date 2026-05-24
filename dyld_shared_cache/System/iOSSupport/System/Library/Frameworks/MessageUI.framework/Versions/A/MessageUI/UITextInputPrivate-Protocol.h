@@ -4,62 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInteractionAssistant, UIView;
-@protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
+@class NSAttributedString, NSDictionary, UIDictationSerializableResults, UIFont, UITextInteractionAssistant, UITextRange, UITextSuggestion, UIView;
+@protocol UISelectionInteractionAssistant;
 
 @protocol UITextInputPrivate
-- (UITextInteractionAssistant *)mPosition:toBoundary:inDirection: /* Error: Ran out of types for this method. */;
-- (void)eparator: /* Error: Ran out of types for this method. */;
+- (_Bool)#;
+- (UITextInteractionAssistant *)positionFromPosition:toBoundary:inDirection: /* Error: Ran out of types for this method. */;
+- (void)_setShouldHaveFullLengthTopSeparator: /* Error: Ran out of types for this method. */;
 
 @optional
+- (UIFont *)`!@e ` !`)M`;
+- (_Bool);
+- (void);
+- (long long)H;
+- (void)(;
+- (void)_internalStartFetchingMetadataForWebView:(UITextSuggestion *)arg1 isNonAppInitiated:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setSelectionRingMaskLayer:(UIDictationSerializableResults *)arg1;
+- (void)0;
+- (UITextRange *);
+- (UITextRange *);
+- (void);
+- (UIView *)/AuthenticationServicesCore;
 - (NSDictionary *)actionCommitAnimating>"32;
-- (void)ctions;
-- (void)rgins:(long long)arg1;
-- (struct CGRect)nimations;
+- (void)numberOfSections;
+- (void)mf_pinToView:(long long)arg1 usingLayoutMargins: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_beginAtomViewAnimations;
 - (id <UISelectionInteractionAssistant>)t={CGPoint=dd}{CGSize=dd}},N,Vrect;
 - (_Bool),N;
 - (NSAttributedString *),ä;
-- (void)H;
 - (UIView *)È;
-- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RTIInputSystemSourceSession",?,R,N
-
-@property(nonatomic) _Bool _systemCursorAccessoriesDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long _textInputSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool automaticallyAdjustsWritingDirection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) long long cursorBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
-@property(nonatomic) long long selectionGranularity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool supportsEmojiImageTextAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImagePaste;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) id <UITextInputSuggestionDelegate> textInputSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UITextInputSuggestionDelegate>",?,R,N
-
 @end
 

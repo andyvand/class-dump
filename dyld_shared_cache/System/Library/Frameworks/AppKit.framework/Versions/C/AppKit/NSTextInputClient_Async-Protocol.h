@@ -5,5 +5,12 @@
 //
 
 @protocol NSTextInputClient_Async
+- (void)to copy EAN data for 'seal' - non-fatal.;
+
+@optional
+- (void)3Hj0jFscGt094g65Fag7eQ;
+- (void);
+- (void)$;
+- (void)0.25in"/></text:(struct CGSize)arg1 list-level-style-number>;
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSString;
+@class NSArray, NSDate;
 
 @interface SGMessagePairIterator
 {
     NSArray *_messageEvents;
-    unsigned long long _messageEventCount;
-    unsigned long long _messageEventIndex;
-    double _maxReplyGap;
-    unsigned long long _maxReplyLength;
-    _Bool _done;
-    NSString *_attachmentCharacterString;
-    NSString *_breadcrumbCharacterString;
-    NSMutableDictionary *_latestPromptForHandle;
-    NSDate *_latestProcessedDate;
 }
 
 - (id);

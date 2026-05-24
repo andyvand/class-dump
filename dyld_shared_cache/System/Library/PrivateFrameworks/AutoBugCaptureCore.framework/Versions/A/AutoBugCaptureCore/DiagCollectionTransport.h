@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagCollectionServiceImpl, NSObject, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface DiagCollectionTransport
 {
     NSXPCListener *listener;
-    DiagCollectionServiceImpl *service;
-    NSObject<OS_dispatch_queue> *transport_queue;
 }
 
 - (void);

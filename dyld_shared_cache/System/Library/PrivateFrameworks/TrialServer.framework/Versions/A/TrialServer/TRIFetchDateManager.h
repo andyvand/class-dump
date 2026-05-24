@@ -11,7 +11,7 @@
     TRIKVStore *_keyValueStore;
 }
 
-+ (id);
++ (id)AMSupportX509DecodeParseDERLengthFromBuffer;
 + (id);
 - (void);
 - (id);

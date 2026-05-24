@@ -7,14 +7,9 @@
 @interface IdentityLookup.LiveLookupDBExtensionSnapshot
 {
     id identifier;
-    id isAppStoreVendable;
-    id isEnabled;
-    id isInstalled;
-    id priority;
-    id shouldRemove;
 }
 
-- (id);
+- (id)B;
 - (void);
 
 @end

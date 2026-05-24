@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface SCNUIProperty
 {
     _Bool readonly;
-    int type;
-    NSString *name;
-    Class objectClass;
 }
 
 - (void);
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)H	;
 - (void)=(?=[4f]{?=ffff})}^vq^{__C3DFXProgramObject}{__C3DEngineStats=IIIIIIIIIIIIIIIIIIIIIIIIdddddddddddddddIIIIIIIIIIIIIIIIIdIdIdddd[60d]Idd}{Cache=[16I]Ii^{__C3DBlendStates}I^{__C3DRasterizerStates}^{__C3DMesh}^{__C3DMeshElement}IIiI^viii}{?=[5I][5i][46{?=iII}][46I]^?^?^?^?^?^?^?^?^?^?}[2{VolatileObject=^{__C3DArray}II^{__CFArray}}]^{__C3DArray}I^{__CFDictionary}}24@0:(id)arg1 8^{__C3DEngineContext=}16;
 - (Class)code:NOT IMPLEMENTED YET /* Error: Ran out of types for this method. */;
 - (_Bool).tangent = dPu;
@@ -631,9 +628,6 @@ static OsdPatchVertex OsdComputePatch(
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name;
-@property(retain, nonatomic) Class objectClass; // @synthesize objectClass;
-@property(nonatomic) _Bool readonly; // @synthesize readonly;
-@property(nonatomic) int type; // @synthesize type;
 
 @end
 

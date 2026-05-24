@@ -7,14 +7,6 @@
 @interface CloudKitDaemon.CKDSessionAcquirer
 {
     id sessionID;
-    id sessionConfiguration;
-    id previousInvalidationContext;
-    id testDeviceReferenceProtocol;
-    id sessionAcquisitionClientProxy;
-    id processScopedClientProxy;
-    id entitlements;
-    id overlaidCKEntitlements;
-    id actorMutex;
 }
 
 - (id);

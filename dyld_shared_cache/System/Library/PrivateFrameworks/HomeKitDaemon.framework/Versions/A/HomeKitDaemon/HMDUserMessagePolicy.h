@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserMessagePolicy
 {
     _Bool _requiresRemoteAccess;
-    _Bool _requiresCameraStreamingAccess;
-    _Bool _dropErrorMessage;
-    _Bool _useProofOfLocality;
-    HMDHome *_home;
-    unsigned long long _userPrivilege;
-    NSUUID *_homeUUID;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)tring"8@"MSPGroupSessionStorage"16^B24;
++ (id)ontroller dealloc];
++ (id)serviceName;
++ (id)MSPSharedTripVirtualReceiverStartLiveUpdates;
++ (id)WORK;
++ (id)mapItemStorage;
++ (id)latLng;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -34,27 +28,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y:%{private}@, %{private}@%s, %lu%s trips /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)0@ù
 × ;
-- (id)User:(struct _NSZone *)arg1 presenceAuthStatus: /* Error: Ran out of types for this method. */;
+- (id)presenceAuthStatusChangedForUser:(struct _NSZone *)arg1 presenceAuthStatus: /* Error: Ran out of types for this method. */;
 - (void)D5D-7E96-48C1-AD0D-BC4431A81FD1;
 
 // Remaining properties
-@property(readonly) _Bool dropErrorMessage; // @synthesize dropErrorMessage=_dropErrorMessage;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
 @property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property _Bool requiresCameraStreamingAccess; // @synthesize requiresCameraStreamingAccess=_requiresCameraStreamingAccess;
-@property _Bool requiresRemoteAccess; // @synthesize requiresRemoteAccess=_requiresRemoteAccess;
-@property _Bool useProofOfLocality; // @synthesize useProofOfLocality=_useProofOfLocality;
-@property unsigned long long userPrivilege; // @synthesize userPrivilege=_userPrivilege;
-@property(readonly) _Bool validForAnyHomeTheUserIsPartOf;
 
 @end
 

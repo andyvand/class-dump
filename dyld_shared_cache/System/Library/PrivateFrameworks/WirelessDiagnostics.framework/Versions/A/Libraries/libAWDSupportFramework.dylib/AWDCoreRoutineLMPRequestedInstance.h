@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineLMPRequestedInstance
 {
     unsigned long long _timestamp;
-    int _confidence;
-    NSString *_eventId;
-    int _occurrences;
-    int _reason;
-    _Bool _suggested;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int confidence:1;
-        unsigned int occurrences:1;
-        unsigned int reason:1;
-        unsigned int suggested:1;
-    } _has;
 }
 
 @end

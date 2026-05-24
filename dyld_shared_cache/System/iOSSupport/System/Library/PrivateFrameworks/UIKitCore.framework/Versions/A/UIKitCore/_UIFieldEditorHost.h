@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)setRepairHistory: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAccountID:service:guid:groupID:chatIdentifier:participants:roomName:displayName:lastAddressedLocalHandle:lastAddressedSIMID:properties:state:style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)availabilityOffGridRecipientEncryptionValidationTokenWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -28,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)´;
 
 // Remaining properties
-@property(readonly, nonatomic) UIFieldEditor *hostedFieldEditor; // @synthesize hostedFieldEditor=_hostedFieldEditor;
-@property(readonly, nonatomic, getter=isHostingFieldEditor) _Bool hostingFieldEditor;
 @property(readonly, nonatomic) __weak UIView<_UIFieldEditorHostingViewRequirements> *hostingView; // @synthesize hostingView=_hostingView;
 
 @end

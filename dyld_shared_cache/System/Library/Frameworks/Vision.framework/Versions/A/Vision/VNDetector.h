@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, VNControlledCapacityTasksQueue, VNMetalContext;
+@class VNControlledCapacityTasksQueue;
 
 __attribute__((visibility("hidden")))
 @interface VNDetector
 {
     struct os_unfair_lock_s _detectorMultiSessionAccessLock;
-    NSDictionary *_boundComputeStageDevices;
-    NSDictionary *_configurationOptions;
-    VNMetalContext *_metalContext;
-    unsigned long long _backingStore;
-    VNControlledCapacityTasksQueue *_synchronizationQueue;
 }
 
 + (id);
++ (_Bool)bC9;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)4;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (Class);
 + (Class);
@@ -40,11 +35,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (unsigned int);
 + (id);
++ (void)controlStringToFilledString:(id)arg1 parameters:numberFormat:outString: /* Error: Ran out of types for this method. */;
 + (void);
-+ (void);
-+ (id);
++ (id)PropertyDescription;
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (Class)\l°l;
 - (_Bool);
@@ -57,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -78,24 +73,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)R;
 - (id);
-- (id);
+- (id);
 - (void)ype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, copy, nonatomic) NSDictionary *boundComputeStageDevices;
-@property(readonly, copy) NSDictionary *configurationOptions; // @synthesize configurationOptions=_configurationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) VNMetalContext *metalContext; // @synthesize metalContext=_metalContext;
-@property(readonly, nonatomic) unsigned long long signPostAdditionalParameter;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) VNControlledCapacityTasksQueue *synchronizationQueue; // @synthesize synchronizationQueue=_synchronizationQueue;
 
 @end

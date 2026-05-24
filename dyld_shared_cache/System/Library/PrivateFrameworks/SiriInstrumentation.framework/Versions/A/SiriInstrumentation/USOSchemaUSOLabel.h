@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface USOSchemaUSOLabel : SISchemaInstrumentationMessage
 {
     NSString *_value;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -19,20 +18,18 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)_manager;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)tive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)Enabled;
-- (id)nces;
-- (void)OUPED_MESSAGES_PRODUCER_METADATA;
+- (id)deleteSpokenNotificationsEnabled;
+- (id)_numUtterances;
+- (void)GROUPED_MESSAGES_PRODUCER_METADATA;
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

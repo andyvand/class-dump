@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementRangeDiscrete
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_elements;
-    unsigned int _selectedMaxElementIndex;
-    unsigned int _selectedMinElementIndex;
-    struct {
-        unsigned int has_selectedMaxElementIndex:1;
-        unsigned int has_selectedMinElementIndex:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)tents"b1"read_metadata"b1"wrote_anyField"b1};
-- (id)numberOfInlineItems;
+- (id)_numberOfInlineItems;
 - (id)pZ¸Z[;
 - (void)EIH¤mBG@;
 

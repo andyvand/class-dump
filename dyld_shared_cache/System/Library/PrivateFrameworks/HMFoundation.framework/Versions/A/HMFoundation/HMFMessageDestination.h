@@ -6,7 +6,7 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMFMessageDestination : HMFObject
 {
@@ -19,32 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)>	5	(	>	;
+- (_Bool)mands that normally reference a phrase made up of one or more words in Dictation mode, such as “{Text.SelectPhrase}”, will reference one or more characters instead.\nWhen Spelling mode is on, a dark icon with “ABC” appears in the text input area. To switch back to Dictation mode, say “{System.StartDictationMode}”.;
 - (void);
-- (id);
-- (id);
+- (id)notifyDelegatesOfExecutionForActionSet:(struct _NSZone *)arg1 atDate:] /* Error: Ran out of types for this method. */;
+- (id)C;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSUUID *target; // @synthesize target=_target;
 
 @end

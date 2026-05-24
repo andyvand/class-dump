@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeRatingsSubmissionManager
 {
     id tracker;
-    id userInfo;
 }
 
 @end

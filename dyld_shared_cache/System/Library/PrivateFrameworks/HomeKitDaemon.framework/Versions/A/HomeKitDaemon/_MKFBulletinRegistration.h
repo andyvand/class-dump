@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFBulletinRegistrationDatabaseID, NSArray, NSDate, NSSet, NSString, NSUUID;
-@protocol MKFGuest, MKFHome, MKFUser;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MKFBulletinRegistration : _MKFModel
@@ -15,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (_Bool);
@@ -24,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)p;
+- (id)];
+- (id)ple.Maps.SharedTrip.Capabilities;
+- (id)p ID;
 - (id);
 - (void);
 - (id);
@@ -36,23 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(retain, nonatomic) NSSet *conditions_; // @dynamic conditions_;
-@property(readonly, copy, nonatomic) MKFBulletinRegistrationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *deviceIdsDestination; // @dynamic deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier; // @dynamic deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest; // @dynamic guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user; // @dynamic user;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

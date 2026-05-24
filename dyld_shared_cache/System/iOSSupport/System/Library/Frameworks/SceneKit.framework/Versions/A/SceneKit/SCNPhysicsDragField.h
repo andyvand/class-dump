@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (struct c3dPhysicsField *);
+- (struct c3dPhysicsField *);
 
 @end
 

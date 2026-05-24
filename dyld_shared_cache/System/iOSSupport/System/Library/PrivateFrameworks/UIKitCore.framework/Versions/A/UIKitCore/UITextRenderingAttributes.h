@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UITextRenderingAttributes
 {
     UIFont *_font;
-    double _minimumFontSize;
-    double _actualFontSize;
-    double _lineSpacing;
-    long long _lineBreakMode;
-    long long _baselineAdjustment;
-    long long _alignment;
-    _Bool _includeEmoji;
-    struct CGRect _truncationRect;
-    _Bool _drawUnderline;
 }
 
 - (id);

@@ -5,5 +5,6 @@
 //
 
 @protocol MFErrorController
+- (void);
 @end
 

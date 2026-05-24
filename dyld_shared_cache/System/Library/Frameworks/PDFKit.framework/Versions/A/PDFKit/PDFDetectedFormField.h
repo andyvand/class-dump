@@ -8,37 +8,27 @@ __attribute__((visibility("hidden")))
 @interface PDFDetectedFormField
 {
     long long _kind;
-    long long _index;
-    long long _numberOfSegments;
-    double _segmentWidth;
-    struct CGRect _rect;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (long long);
-- (double);
+- (double)fstGrammar;
 - (double);
 - (double);
 - (void);
-- (double);
-- (void);
+- (double)ully released auto add wallet key suppression assertion;
+- (void)thenticate request or view controller was missing.;
 - (double);
 - (struct CGRect);
-- (long long);
-- (long long);
+- (long long)P;
+- (long long)`;
 - (void);
-- (void)etMaximumItemSize:(long long)arg1;
+- (void)setMaximumItemSize:(long long)arg1;
 
 // Remaining properties
-@property long long index; // @synthesize index=_index;
 @property long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) double maxX;
-@property(readonly, nonatomic) double minX;
-@property long long numberOfSegments; // @synthesize numberOfSegments=_numberOfSegments;
-@property struct CGRect rect; // @synthesize rect=_rect;
-@property double segmentWidth; // @synthesize segmentWidth=_segmentWidth;
 
 @end
 

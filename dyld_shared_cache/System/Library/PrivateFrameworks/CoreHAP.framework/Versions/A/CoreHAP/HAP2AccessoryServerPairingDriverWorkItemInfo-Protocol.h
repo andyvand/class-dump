@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2PropertyLock, HAP2SerializedOperationQueue, HAPSRPPairSetupSession;
-@protocol HAP2AccessoryServerEncoding, HAP2AccessoryServerPairingDriverDelegate, HAP2AccessoryServerSecureTransportFactory, HAP2AccessoryServerTransport, HAP2UnpairedAccessoryServer;
+@class HAP2SerializedOperationQueue, HAPSRPPairSetupSession;
 
 @protocol HAP2AccessoryServerPairingDriverWorkItemInfo
+- (void);
+- (HAPSRPPairSetupSession *)N8cnmatrix8CNMatrixILj44ELj1ENS0_ILj1ELj1EdEEEE;
 - (unsigned long long)erPrivate>"24;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HAP2UnpairedAccessoryServer> accessoryServer;
-@property(readonly, nonatomic) __weak id <HAP2AccessoryServerPairingDriverDelegate> delegate;
-@property(readonly, nonatomic) id <HAP2AccessoryServerEncoding> encoding;
-@property(readonly, nonatomic) unsigned long long featureFlags;
 @property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue;
-@property(retain, nonatomic) HAPSRPPairSetupSession *pairingSession;
-@property(readonly, nonatomic) HAP2PropertyLock *propertyLock;
-@property(readonly, nonatomic) id <HAP2AccessoryServerSecureTransportFactory> secureTransportFactory;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransport> transport;
 @end
 

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSURL;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface ICContentKeySessionPrefetchKeyConfiguration
 {
     _Bool _initWithDefaultKeyIdentifiers;
-    NSSet *_keyIdentifiers;
-    NSURL *_keyServerURL;
-    NSURL *_keyCertificateURL;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    unsigned long long _timeout;
 }
 
 - (void);
+- (id)updateDownloadProgressToPercentageComplete: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)6;
 - (id);
 - (void)üI JJ¼J¸LLM;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
 @property(readonly, copy, nonatomic) NSSet *keyIdentifiers;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
 
 @end
 

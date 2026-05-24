@@ -5,5 +5,7 @@
 //
 
 @protocol MDSearchQueryResultProcessor
+- (void);
+- (void);
 @end
 

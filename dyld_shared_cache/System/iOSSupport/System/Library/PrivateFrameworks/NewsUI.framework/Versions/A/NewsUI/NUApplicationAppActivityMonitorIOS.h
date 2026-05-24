@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSString;
+@class NSHashTable;
 
 @interface NUApplicationAppActivityMonitorIOS
 {
     NSHashTable *_observers;
-    NSMutableSet *_foregroundObserverBlocks;
-    NSMutableSet *_backgroundObserverBlocks;
-    NSMutableSet *_windowForegroundObserverBlocks;
-    NSMutableSet *_windowBackgroundObserverBlocks;
 }
 
 - (void);
@@ -22,43 +18,28 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (long long)widgetEngagementData;
 - (void);
 - (void);
-- (long long);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)hZ;
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)`";
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)V;
+- (id));
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *backgroundObserverBlocks; // @synthesize backgroundObserverBlocks=_backgroundObserverBlocks;
-@property(readonly, nonatomic) long long currentApplicationState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableSet *foregroundObserverBlocks; // @synthesize foregroundObserverBlocks=_foregroundObserverBlocks;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableSet *windowBackgroundObserverBlocks; // @synthesize windowBackgroundObserverBlocks=_windowBackgroundObserverBlocks;
-@property(readonly, nonatomic) NSMutableSet *windowForegroundObserverBlocks; // @synthesize windowForegroundObserverBlocks=_windowForegroundObserverBlocks;
 
 @end
 

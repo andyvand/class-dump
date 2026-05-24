@@ -5,5 +5,8 @@
 //
 
 @protocol VCAdaptiveLearningDelegate
+- (int);
+- (int)֗;
+- (int);
 @end
 

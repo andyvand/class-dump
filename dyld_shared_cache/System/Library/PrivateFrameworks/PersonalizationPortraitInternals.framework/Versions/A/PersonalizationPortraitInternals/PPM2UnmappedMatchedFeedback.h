@@ -9,8 +9,6 @@
 @interface PPM2UnmappedMatchedFeedback
 {
     NSString *_activeTreatments;
-    NSString *_clientId;
-    NSString *_mappingId;
 }
 
 - (_Bool);
@@ -19,29 +17,24 @@
 - (id);
 - (void);
 - (id);
+- (void));
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_getMessageChatItemMap:withDeleteMap:andAllChatItems: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)ùñöð1Â0@ù
 × ;
 - (void)
 × ;
-- (_Bool)hChoicesIdentifiers:chosenContactIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)feedbackDisambiguationResultWithChoicesIdentifiers:chosenContactIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(readonly, nonatomic) _Bool hasClientId;
-@property(readonly, nonatomic) _Bool hasMappingId;
-@property(retain, nonatomic) NSString *mappingId; // @synthesize mappingId=_mappingId;
 
 @end
 

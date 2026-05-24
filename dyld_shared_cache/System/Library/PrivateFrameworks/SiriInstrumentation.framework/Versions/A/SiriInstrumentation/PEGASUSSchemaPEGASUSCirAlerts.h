@@ -6,46 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSCirAlerts : SISchemaInstrumentationMessage
 {
     NSString *_cirAlert;
-    NSString *_cirAlertContext;
-    NSString *_cirAlertDictionaryOverKgBoost;
-    NSString *_cirAlertDomainFallback;
-    NSString *_cirAlertEmergencyOverride;
-    NSString *_cirAlertKgWaBoost;
-    NSString *_cirAlertKgWaBoostQa;
-    NSString *_cirAlertKgWaBoostWebPost;
-    NSString *_cirAlertKgWaBoostWebPre;
-    NSString *_cirAlertMapsKgSwap;
-    NSString *_cirAlertMediaPodcastOverride;
-    NSString *_cirAlertProfaneFilter;
-    NSString *_cirAlertRespectIsFollowUpHeuristicFlag;
-    NSString *_cirAlertRespectMultiTurnResolvedRankingFlag;
-    NSString *_cirAlertRespectScoreOverrides;
-    NSString *_cirAlertVerblessQueriesKgBoost;
-    NSString *_cirAlertVideoMediaBoost;
-    NSString *_cirAlertWaBoost;
-    _Bool _hasCirAlert;
-    _Bool _hasCirAlertContext;
-    _Bool _hasCirAlertDictionaryOverKgBoost;
-    _Bool _hasCirAlertDomainFallback;
-    _Bool _hasCirAlertEmergencyOverride;
-    _Bool _hasCirAlertKgWaBoost;
-    _Bool _hasCirAlertKgWaBoostQa;
-    _Bool _hasCirAlertKgWaBoostWebPost;
-    _Bool _hasCirAlertKgWaBoostWebPre;
-    _Bool _hasCirAlertMapsKgSwap;
-    _Bool _hasCirAlertMediaPodcastOverride;
-    _Bool _hasCirAlertProfaneFilter;
-    _Bool _hasCirAlertRespectIsFollowUpHeuristicFlag;
-    _Bool _hasCirAlertRespectMultiTurnResolvedRankingFlag;
-    _Bool _hasCirAlertRespectScoreOverrides;
-    _Bool _hasCirAlertVerblessQueriesKgBoost;
-    _Bool _hasCirAlertVideoMediaBoost;
-    _Bool _hasCirAlertWaBoost;
 }
 
 - (void);
@@ -60,11 +25,11 @@
 - (void);
 - (void);
 - (void);
+- (void) ;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,15 +51,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)M;
+- (_Bool)R";
+- (_Bool);
+- (_Bool)PM;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)s,;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -109,7 +74,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -142,52 +107,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)migration from %d to %d;
 - (id);
 - (id)!ÐBùÑÝð1Â0@ù
 × ;
-- (id)dingOptInStateChanges;
+- (id)_gradingOptInStateChanges;
 - (id)bledStatus;
 - (void)systemResponseGenerated.interpretedStatementResults.outcome.parameterDisambiguation.items.collection.typeIdentifier.custom.bundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cirAlert; // @synthesize cirAlert=_cirAlert;
-@property(copy, nonatomic) NSString *cirAlertContext; // @synthesize cirAlertContext=_cirAlertContext;
-@property(copy, nonatomic) NSString *cirAlertDictionaryOverKgBoost; // @synthesize cirAlertDictionaryOverKgBoost=_cirAlertDictionaryOverKgBoost;
-@property(copy, nonatomic) NSString *cirAlertDomainFallback; // @synthesize cirAlertDomainFallback=_cirAlertDomainFallback;
-@property(copy, nonatomic) NSString *cirAlertEmergencyOverride; // @synthesize cirAlertEmergencyOverride=_cirAlertEmergencyOverride;
-@property(copy, nonatomic) NSString *cirAlertKgWaBoost; // @synthesize cirAlertKgWaBoost=_cirAlertKgWaBoost;
-@property(copy, nonatomic) NSString *cirAlertKgWaBoostQa; // @synthesize cirAlertKgWaBoostQa=_cirAlertKgWaBoostQa;
-@property(copy, nonatomic) NSString *cirAlertKgWaBoostWebPost; // @synthesize cirAlertKgWaBoostWebPost=_cirAlertKgWaBoostWebPost;
-@property(copy, nonatomic) NSString *cirAlertKgWaBoostWebPre; // @synthesize cirAlertKgWaBoostWebPre=_cirAlertKgWaBoostWebPre;
-@property(copy, nonatomic) NSString *cirAlertMapsKgSwap; // @synthesize cirAlertMapsKgSwap=_cirAlertMapsKgSwap;
-@property(copy, nonatomic) NSString *cirAlertMediaPodcastOverride; // @synthesize cirAlertMediaPodcastOverride=_cirAlertMediaPodcastOverride;
-@property(copy, nonatomic) NSString *cirAlertProfaneFilter; // @synthesize cirAlertProfaneFilter=_cirAlertProfaneFilter;
-@property(copy, nonatomic) NSString *cirAlertRespectIsFollowUpHeuristicFlag; // @synthesize cirAlertRespectIsFollowUpHeuristicFlag=_cirAlertRespectIsFollowUpHeuristicFlag;
-@property(copy, nonatomic) NSString *cirAlertRespectMultiTurnResolvedRankingFlag; // @synthesize cirAlertRespectMultiTurnResolvedRankingFlag=_cirAlertRespectMultiTurnResolvedRankingFlag;
-@property(copy, nonatomic) NSString *cirAlertRespectScoreOverrides; // @synthesize cirAlertRespectScoreOverrides=_cirAlertRespectScoreOverrides;
-@property(copy, nonatomic) NSString *cirAlertVerblessQueriesKgBoost; // @synthesize cirAlertVerblessQueriesKgBoost=_cirAlertVerblessQueriesKgBoost;
-@property(copy, nonatomic) NSString *cirAlertVideoMediaBoost; // @synthesize cirAlertVideoMediaBoost=_cirAlertVideoMediaBoost;
-@property(copy, nonatomic) NSString *cirAlertWaBoost; // @synthesize cirAlertWaBoost=_cirAlertWaBoost;
-@property(nonatomic) _Bool hasCirAlert; // @synthesize hasCirAlert=_hasCirAlert;
-@property(nonatomic) _Bool hasCirAlertContext; // @synthesize hasCirAlertContext=_hasCirAlertContext;
-@property(nonatomic) _Bool hasCirAlertDictionaryOverKgBoost; // @synthesize hasCirAlertDictionaryOverKgBoost=_hasCirAlertDictionaryOverKgBoost;
-@property(nonatomic) _Bool hasCirAlertDomainFallback; // @synthesize hasCirAlertDomainFallback=_hasCirAlertDomainFallback;
-@property(nonatomic) _Bool hasCirAlertEmergencyOverride; // @synthesize hasCirAlertEmergencyOverride=_hasCirAlertEmergencyOverride;
-@property(nonatomic) _Bool hasCirAlertKgWaBoost; // @synthesize hasCirAlertKgWaBoost=_hasCirAlertKgWaBoost;
-@property(nonatomic) _Bool hasCirAlertKgWaBoostQa; // @synthesize hasCirAlertKgWaBoostQa=_hasCirAlertKgWaBoostQa;
-@property(nonatomic) _Bool hasCirAlertKgWaBoostWebPost; // @synthesize hasCirAlertKgWaBoostWebPost=_hasCirAlertKgWaBoostWebPost;
-@property(nonatomic) _Bool hasCirAlertKgWaBoostWebPre; // @synthesize hasCirAlertKgWaBoostWebPre=_hasCirAlertKgWaBoostWebPre;
-@property(nonatomic) _Bool hasCirAlertMapsKgSwap; // @synthesize hasCirAlertMapsKgSwap=_hasCirAlertMapsKgSwap;
-@property(nonatomic) _Bool hasCirAlertMediaPodcastOverride; // @synthesize hasCirAlertMediaPodcastOverride=_hasCirAlertMediaPodcastOverride;
-@property(nonatomic) _Bool hasCirAlertProfaneFilter; // @synthesize hasCirAlertProfaneFilter=_hasCirAlertProfaneFilter;
-@property(nonatomic) _Bool hasCirAlertRespectIsFollowUpHeuristicFlag; // @synthesize hasCirAlertRespectIsFollowUpHeuristicFlag=_hasCirAlertRespectIsFollowUpHeuristicFlag;
-@property(nonatomic) _Bool hasCirAlertRespectMultiTurnResolvedRankingFlag; // @synthesize hasCirAlertRespectMultiTurnResolvedRankingFlag=_hasCirAlertRespectMultiTurnResolvedRankingFlag;
-@property(nonatomic) _Bool hasCirAlertRespectScoreOverrides; // @synthesize hasCirAlertRespectScoreOverrides=_hasCirAlertRespectScoreOverrides;
-@property(nonatomic) _Bool hasCirAlertVerblessQueriesKgBoost; // @synthesize hasCirAlertVerblessQueriesKgBoost=_hasCirAlertVerblessQueriesKgBoost;
-@property(nonatomic) _Bool hasCirAlertVideoMediaBoost; // @synthesize hasCirAlertVideoMediaBoost=_hasCirAlertVideoMediaBoost;
-@property(nonatomic) _Bool hasCirAlertWaBoost; // @synthesize hasCirAlertWaBoost=_hasCirAlertWaBoost;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

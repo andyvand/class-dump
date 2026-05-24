@@ -6,18 +6,12 @@
 
 #import <AVFCore/AVOperation.h>
 
-@class AVOutputContextDestinationChange, AVWeakReference, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVOutputContextDestinationChange, AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVRouteConfigUpdatedFigRoutingContextRouteChangeOperation : AVOperation
 {
     AVWeakReference *_weakObserver;
-    struct OpaqueFigRoutingContext *_routingContext;
-    struct __CFString *_routeChangeID;
-    CDUnknownBlockType _routeChangeBlock;
-    NSObject<OS_dispatch_queue> *_routeChangeIvarAccessQueue;
-    AVOutputContextDestinationChange *_result;
 }
 
 + (void)be one of:kVTDecompressionProperty_FieldMode_BothFields, kVTDecompressionProperty_FieldMode_TopFieldOnly, kVTDecompressionProperty_FieldMode_BottomFieldOnly, kVTDecompressionProperty_FieldMode_SingleField, or kVTDecompressionProperty_FieldMode_DeinterlaceFields /* Error: Ran out of types for this method. */;
@@ -31,14 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Àü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVOutputContextDestinationChange *result;
-@property(readonly) Class superclass;
 
 @end
 

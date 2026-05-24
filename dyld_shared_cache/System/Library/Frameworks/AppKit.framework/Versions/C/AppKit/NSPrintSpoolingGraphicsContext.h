@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface NSPrintSpoolingGraphicsContext : NSCGSContext
 {
     NSPrintInfo *_printInfo;
-    _Bool _needsToEndDocument;
-    struct CGContext *_blackHoleContext;
 }
 
-- (id);
+- (id)3;
 - (void *);
 - (void);
-- (void);
-- (void);
+- (void)set_appleIDContext:(struct CGRect)arg1;
+- (void)set_TLSMaximumSupportedProtocolVersion:(id)arg1;
 - (void);
 - (void);
 - (id);

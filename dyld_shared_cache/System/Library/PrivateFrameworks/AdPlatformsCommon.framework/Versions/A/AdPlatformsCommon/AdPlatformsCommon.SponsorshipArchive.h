@@ -7,10 +7,9 @@
 @interface AdPlatformsCommon.SponsorshipArchive
 {
     id contentData;
-    id context;
 }
 
-+ (_Bool);
++ (_Bool)UnicodeScalarLiteralType;
 - (id);
 - (id);
 - (void);

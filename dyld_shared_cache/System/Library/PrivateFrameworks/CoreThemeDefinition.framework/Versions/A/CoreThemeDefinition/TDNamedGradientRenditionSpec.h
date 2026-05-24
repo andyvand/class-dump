@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSNumber, NSOrderedSet;
+@class NSNumber;
 
 @interface TDNamedGradientRenditionSpec : TDRenditionSpec
 {
@@ -20,13 +20,6 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(retain, nonatomic) NSOrderedSet *colorStops; // @dynamic colorStops;
-@property(nonatomic) struct CGPoint gradientEndPoint;
-@property(copy, nonatomic) NSNumber *gradientEndX; // @dynamic gradientEndX;
-@property(copy, nonatomic) NSNumber *gradientEndY; // @dynamic gradientEndY;
-@property(nonatomic) struct CGPoint gradientStartPoint;
-@property(copy, nonatomic) NSNumber *gradientStartX; // @dynamic gradientStartX;
-@property(copy, nonatomic) NSNumber *gradientStartY; // @dynamic gradientStartY;
 @property(copy, nonatomic) NSNumber *gradientType; // @dynamic gradientType;
 
 @end

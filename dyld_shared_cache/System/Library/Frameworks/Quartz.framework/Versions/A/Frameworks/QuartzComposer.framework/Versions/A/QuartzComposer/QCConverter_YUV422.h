@@ -9,9 +9,6 @@
 @interface QCConverter_YUV422 : QCImageBufferConverter
 {
     float _YCbCr_To_RGB[2][3][3];
-    float _RGB_To_YCbCr[2][3][3];
-    unsigned int _shader;
-    int _lastColorspace;
 }
 
 - (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

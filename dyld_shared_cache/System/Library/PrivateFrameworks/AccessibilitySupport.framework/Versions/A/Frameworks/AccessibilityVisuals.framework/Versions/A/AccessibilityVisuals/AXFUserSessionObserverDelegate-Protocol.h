@@ -5,5 +5,14 @@
 //
 
 @protocol AXFUserSessionObserverDelegate
+
+@optional
+- (void);
+- (void)Rh";
+- (void)qaD;
+- (void)T;
+- (void);
+- (void)Q;
+- (void)>K;
 @end
 

@@ -11,11 +11,6 @@
 @interface PKPaymentServiceProviderPurchasesRequest : PKPaymentWebServiceRequest
 {
     NSString *_purchaseState;
-    NSString *_serviceProviderIdentifier;
-    NSString *_productIdentifier;
-    NSString *_actionIdentifier;
-    NSString *_countryCode;
-    NSString *_targetDeviceSerialNumber;
 }
 
 - (id);
@@ -30,17 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (id)dDiscoveryItemWithIdentifier:callToAction:cardSize: /* Error: Ran out of types for this method. */;
+- (id)tappedDiscoveryItemWithIdentifier:callToAction:cardSize: /* Error: Ran out of types for this method. */;
 - (void)l°;
 - (void)deTerminal"8@"PKApplicationMessageNodeTerminal"16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 @property(copy, nonatomic) NSString *purchaseState; // @synthesize purchaseState=_purchaseState;
-@property(copy, nonatomic) NSString *serviceProviderIdentifier; // @synthesize serviceProviderIdentifier=_serviceProviderIdentifier;
-@property(copy, nonatomic) NSString *targetDeviceSerialNumber; // @synthesize targetDeviceSerialNumber=_targetDeviceSerialNumber;
 
 @end
 

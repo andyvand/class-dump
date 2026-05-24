@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface DEDSeedingFilerToken
 {
     NSNumber *_entityID;
-    NSString *_token;
-    NSString *_dsid;
-    long long _submissionType;
 }
 
 - (long long);
@@ -20,13 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
 @property(readonly, nonatomic) NSNumber *entityID; // @synthesize entityID=_entityID;
-@property(readonly, nonatomic) long long submissionType; // @synthesize submissionType=_submissionType;
-@property(readonly, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

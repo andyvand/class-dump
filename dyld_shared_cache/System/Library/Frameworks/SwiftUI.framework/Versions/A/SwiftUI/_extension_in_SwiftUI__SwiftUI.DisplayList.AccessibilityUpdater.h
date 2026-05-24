@@ -7,10 +7,6 @@
 @interface (extension in SwiftUI):SwiftUI.DisplayList.AccessibilityUpdater
 {
     id seed;
-    id host;
-    id root;
-    id cache;
-    id latestVersion;
 }
 
 @end

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSScriptSuiteDescription, NSSet, NSString;
+@class NSString;
 
 @interface NSScriptPropertyDescription
 {
     NSString *_key;
-    NSObject *_typeNameOrDescription;
-    unsigned long long _access;
-    _Bool _isHidden;
-    NSSet *_readAccessGroups;
-    NSSet *_writeAccessGroups;
-    NSScriptSuiteDescription *_typeSuiteDescription;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -33,11 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (id);
-- (_Bool);
-- (unsigned long long)Descriptors: /* Error: Ran out of types for this method. */;
+- (id));
+- (_Bool)NSt3__118__weak_result_typeIMN2LM40DynamicLanguageModelPredictionEnumeratorEKFbRKNS1_15NgramPredictionEEEE;
+- (unsigned long long)sortUsingDescriptors: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -14,14 +14,14 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-- (void);
+- (void);
+- (id);
 - (id);
+- (_Bool)UALoginWindowFeatureManagerClass(void)_block_invoke;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)SSL_CTX_set_ssl_version;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *payloadOverridePrimary; // @synthesize payloadOverridePrimary=_payloadOverridePrimary;

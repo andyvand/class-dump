@@ -6,7 +6,6 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class NSArray;
 @protocol CNSchedulerProvider;
 
 __attribute__((visibility("hidden")))
@@ -17,24 +16,23 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (void)+);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (void)bject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_cn_containsObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *contactCardActionMenuItems;
 @property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end

@@ -7,11 +7,6 @@
 @interface RTRelabelerPersisterParameters
 {
     unsigned long long _maxCollapseIterations;
-    double _placeholderCollapseDistanceThreshold;
-    double _reverseGeocodeLeewayDistance;
-    double _reverseGeocodePlaceFetchDistanceThreshold;
-    double _unconcreteLOICollapseDistanceThreshold;
-    double _visitAdjacencyMergeThreshold;
 }
 
 - (double);
@@ -21,17 +16,12 @@
 - (double);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)rface index on socket %d to %u;
+- (id);
 - (id)ems;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maxCollapseIterations; // @synthesize maxCollapseIterations=_maxCollapseIterations;
-@property(readonly, nonatomic) double placeholderCollapseDistanceThreshold; // @synthesize placeholderCollapseDistanceThreshold=_placeholderCollapseDistanceThreshold;
-@property(readonly, nonatomic) double reverseGeocodeLeewayDistance; // @synthesize reverseGeocodeLeewayDistance=_reverseGeocodeLeewayDistance;
-@property(readonly, nonatomic) double reverseGeocodePlaceFetchDistanceThreshold; // @synthesize reverseGeocodePlaceFetchDistanceThreshold=_reverseGeocodePlaceFetchDistanceThreshold;
-@property(readonly, nonatomic) double unconcreteLOICollapseDistanceThreshold; // @synthesize unconcreteLOICollapseDistanceThreshold=_unconcreteLOICollapseDistanceThreshold;
-@property(readonly, nonatomic) double visitAdjacencyMergeThreshold; // @synthesize visitAdjacencyMergeThreshold=_visitAdjacencyMergeThreshold;
 
 @end
 

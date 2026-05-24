@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, PPCExtensibleSSOAuthenticator;
-@protocol HPDAuthClientProtocol, OS_dispatch_queue;
+@class NSString, PPCExtensibleSSOAuthenticator;
 
 @interface HPDAuthChallengeHandler
 {
     PPCExtensibleSSOAuthenticator *_ssoAuthenticator;
-    NSData *_trustExceptions;
-    NSString *_serviceName;
-    long long _resourceType;
-    id <HPDAuthClientProtocol> _delegate;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -36,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property __weak id <HPDAuthClientProtocol> delegate; // @synthesize delegate=_delegate;
-@property long long resourceType; // @synthesize resourceType=_resourceType;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) PPCExtensibleSSOAuthenticator *ssoAuthenticator; // @synthesize ssoAuthenticator=_ssoAuthenticator;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(copy) NSData *trustExceptions; // @synthesize trustExceptions=_trustExceptions;
 
 @end
 

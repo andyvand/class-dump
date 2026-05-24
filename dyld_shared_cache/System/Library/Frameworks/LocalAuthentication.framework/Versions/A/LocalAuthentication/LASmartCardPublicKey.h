@@ -11,19 +11,18 @@
     id properties;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
-- (void);
+- (id)_;
+- (long long);
+- (id));
+- (_Bool)�;
+- (void)j;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *bytes;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

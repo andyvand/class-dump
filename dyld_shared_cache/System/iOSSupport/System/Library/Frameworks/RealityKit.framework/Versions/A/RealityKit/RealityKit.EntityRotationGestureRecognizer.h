@@ -7,11 +7,12 @@
 @interface RealityKit.EntityRotationGestureRecognizer
 {
     id entity;
+    id;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)iftIntents.dylib;
 - (void);
 
 @end

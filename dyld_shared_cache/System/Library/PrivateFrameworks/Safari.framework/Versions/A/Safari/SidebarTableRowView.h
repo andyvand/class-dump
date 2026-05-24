@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSVisualEffectView;
+@class NSVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface SidebarTableRowView
 {
     NSVisualEffectView *_selectionBackgroundView;
-    NSLayoutConstraint *_centerYConstraint;
-    _Bool _shouldDrawSelectionOnlyWhenEmphasized;
-    _Bool _highlighted;
 }
 
 - (_Bool);
@@ -21,14 +18,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void)oLayout:(_Bool)arg1;
+- (void)_setUpPreviousLayoutForAnimationFromLayout:(_Bool)arg1 toLayout: /* Error: Ran out of types for this method. */;
 - (void)e background;
 - (void);
 - (void)ü;
 - (_Bool)ð;
 
 // Remaining properties
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic) _Bool shouldDrawSelectionOnlyWhenEmphasized; // @synthesize shouldDrawSelectionOnlyWhenEmphasized=_shouldDrawSelectionOnlyWhenEmphasized;
 
 @end

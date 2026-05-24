@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageBrowserView, NSMutableArray;
-@protocol IKHierarchicalDatasource;
+@class IKImageBrowserView;
 
 @interface IKHierarchicalDatasourceAdaptor
 {
     id _dataSource;
-    id _imageBrowser;
-    NSMutableArray *_items;
-    NSMutableArray *_groups;
-    _Bool _flattenedRepresentationValid;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -37,15 +32,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)eviceState with device.identifier = nil :(id)arg1 %{public}@;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)íÿÓ8;
 
 // Remaining properties
-@property id <IKHierarchicalDatasource> dataSource; // @synthesize dataSource=_dataSource;
 @property IKImageBrowserView *imageBrowser; // @synthesize imageBrowser=_imageBrowser;
 
 @end

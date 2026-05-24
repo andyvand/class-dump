@@ -9,13 +9,9 @@
 @interface CTLazuliChatBotCreateCalendarEvent
 {
     NSString *_startTime;
-    NSString *_endTime;
-    NSString *_title;
-    NSString *_calDescription;
-    NSString *_fallbackUrl;
 }
 
-+ (_Bool);
++ (_Bool)%@>;
 - (void);
 - (_Bool);
 - (id);
@@ -25,23 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SearchResults;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void)
 × ;
 - (void)¶KG#f;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *calDescription; // @synthesize calDescription=_calDescription;
-@property(retain, nonatomic) NSString *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSString *fallbackUrl; // @synthesize fallbackUrl=_fallbackUrl;
 @property(retain, nonatomic) NSString *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

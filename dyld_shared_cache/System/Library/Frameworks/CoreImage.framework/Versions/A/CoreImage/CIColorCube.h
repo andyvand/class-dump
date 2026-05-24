@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorCube : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputCubeDimension;
-    NSData *inputCubeData;
-    NSNumber *inputExtrapolate;
-    CIImage *_cubeImage;
 }
 
 + (id);
@@ -36,9 +32,6 @@ __attribute__((visibility("hidden")))
 - (id)ozwwxt~~~~uuuuJe`mmmmmiiii__W_EPC[\e^errrrivszkwtIaVrHcYt    zhhghNRGRTTLTqqqqkxv;\QoP_Sj]ngv|    ¢§§m}Giaxzzzzxxxx<]QoloixVvs~~~~?VKcRd]i;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *inputCubeData; // @synthesize inputCubeData;
-@property(retain, nonatomic) NSNumber *inputCubeDimension; // @synthesize inputCubeDimension;
-@property(copy, nonatomic) NSNumber *inputExtrapolate; // @synthesize inputExtrapolate;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

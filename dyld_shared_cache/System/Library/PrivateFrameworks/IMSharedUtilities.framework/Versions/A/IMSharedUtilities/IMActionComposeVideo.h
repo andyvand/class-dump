@@ -12,16 +12,15 @@
 }
 
 - (id);
-- (id);
+- (id).payment.transaction.transaction-identifier.match.failed;
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)@@;
 - (id);
 - (void)X¨ ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

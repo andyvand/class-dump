@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, VCMediaNegotiatorLocalConfiguration, VCMediaNegotiatorMediaEncryptionSettings, VCMediaNegotiatorResults, VCMediaNegotiatorResultsAudio, VCMediaNegotiatorResultsFaceTimeSettings, VCMediaNegotiatorResultsMediaRecorder, VCMediaNegotiatorResultsVideo;
+@class VCMediaNegotiatorLocalConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorBase
 {
     VCMediaNegotiatorLocalConfiguration *_localSettings;
-    VCMediaNegotiatorResults *_negotiatedSettings;
-    NSMutableDictionary *_negotiatedU1MediaSettings;
-    VCMediaNegotiatorResultsMediaRecorder *_negotiatedMediaRecorderSettings;
-    VCMediaNegotiatorResultsFaceTimeSettings *_negotiatedFaceTimeSettings;
-    NSMutableArray *_negotiatedStreamGroups;
-    VCMediaNegotiatorMediaEncryptionSettings *_negotiatedMediaEncyptionSettings;
 }
 
 + (_Bool);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool))}I)}:(unsigned char)arg1 ;
 + (unsigned char);
 + (void);
 - (_Bool);
@@ -39,6 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,27 +42,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)or<gdc::DebugTreeProperty>>=^{DebugTreeProperty}^{DebugTreeProperty}{?=^{DebugTreeProperty}}}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) VCMediaNegotiatorLocalConfiguration *localSettings; // @synthesize localSettings=_localSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsAudio *negotiatedAudioSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsFaceTimeSettings *negotiatedFaceTimeSettings; // @synthesize negotiatedFaceTimeSettings=_negotiatedFaceTimeSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorMediaEncryptionSettings *negotiatedMediaEncyptionSettings; // @synthesize negotiatedMediaEncyptionSettings=_negotiatedMediaEncyptionSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsMediaRecorder *negotiatedMediaRecorderSettings; // @synthesize negotiatedMediaRecorderSettings=_negotiatedMediaRecorderSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedScreenSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResults *negotiatedSettings; // @synthesize negotiatedSettings=_negotiatedSettings;
-@property(readonly, nonatomic) NSArray *negotiatedStreamGroups; // @synthesize negotiatedStreamGroups=_negotiatedStreamGroups;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedVideoSettings;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,25 +15,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)N3ctu8LoggableI15SipSubscriptionNS_11OsLogLoggerEEE;
 - (id);
 - (void);
-- (void)ContactImage;
+- (void)userSelectedContactImage;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

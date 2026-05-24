@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDAskToParser
 {
     id urlParser;
-    id payload;
-    id url;
 }
 
 - (id);
@@ -23,9 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isValid;
-@property(nonatomic, readonly) NSString *notificationText;
-@property(nonatomic, readonly) NSString *questionIdentifier;
-@property(nonatomic, readonly) NSString *summary;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, _SFPBPunchout;
 
 @protocol _SFPBMapPlaceCardSection
+- (_SFPBPunchout *)R%;
+- (NSData *);
+- (void)P;
+- (_Bool)isEqualToIdentityProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)internalDefaults;
+- (id)`;
+- (NSData *)fileURL;
 - (int)í;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSData *detourInfoData;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *mapsData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
-@property(copy, nonatomic) NSString *type;
 @end
 

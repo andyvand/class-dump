@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSURLSession;
+@class NSObject, NSURLSession;
 @protocol OS_os_log;
 
 @interface SDHTTPClient
 {
     NSURLSession *_urlSession;
-    NSObject<OS_os_log> *_log;
 }
 
-+ (id);
-+ (id);
++ (id)voiceSearchHeaderFields;
++ (id)d not process request ret=0x%x lModel=%@;
+- (id)32@0:8q16@"NSString"24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)substringWithRange:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)ualClient validateNetworkCreate failed to create outValidationDictIOSurfaceRef;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

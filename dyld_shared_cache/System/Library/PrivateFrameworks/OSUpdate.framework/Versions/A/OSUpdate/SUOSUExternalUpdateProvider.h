@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSXPCConnection;
+@class NSXPCConnection;
 @protocol SUOSUExternalUpdateProviderDelegate;
 
 @interface SUOSUExternalUpdateProvider
 {
     id <SUOSUExternalUpdateProviderDelegate> _delegate;
-    NSXPCConnection *_serviceConnection;
-    NSLock *_serviceConnectionLock;
-    NSMutableArray *_progressHandlers;
 }
 
 - (void);
@@ -45,16 +42,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C)	h;
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id).;
 - (id);
 - (id);
 - (void);
@@ -62,10 +59,7 @@
 - (id);
 
 // Remaining properties
-@property __weak id <SUOSUExternalUpdateProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain, nonatomic) NSLock *serviceConnectionLock; // @synthesize serviceConnectionLock=_serviceConnectionLock;
 
 @end
 

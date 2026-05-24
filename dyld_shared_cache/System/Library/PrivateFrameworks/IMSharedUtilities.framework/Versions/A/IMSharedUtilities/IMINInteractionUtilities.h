@@ -16,6 +16,10 @@
 - (void);
 - (void);
 - (id);
+ clamshellClosed:%d;
+ screenReaderRunning:%d;
+ remotePaymentsRequiredForVoiceover:%d;
+  /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÿ´yÿÿ6ÿÿ;
 

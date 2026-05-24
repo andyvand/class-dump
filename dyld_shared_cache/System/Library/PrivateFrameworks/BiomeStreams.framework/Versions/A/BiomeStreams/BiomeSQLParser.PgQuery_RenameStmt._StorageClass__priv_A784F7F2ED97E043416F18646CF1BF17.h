@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RenameStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _renameType;
-    id _relationType;
-    id _relation;
-    id _object;
-    id _subname;
-    id _newname;
-    id _behavior;
-    id _missingOk;
 }
 
 @end

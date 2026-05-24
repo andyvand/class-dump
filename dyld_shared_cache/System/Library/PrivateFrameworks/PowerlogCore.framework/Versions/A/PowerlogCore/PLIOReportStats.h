@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface PLIOReportStats
 {
     NSDictionary *_ioReportSample;
-    NSDate *_sampleTime;
-    NSDate *_sampleTimePrevious;
-    struct __IOReportSubscriptionCF *_subscription;
-    NSDictionary *_subscribedChannels;
-    NSString *_driverName;
-    NSDictionary *_previousIOReportSample;
 }
 
 - (id);
@@ -29,45 +23,41 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)t configuration from STSetupClient;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)Ӈ;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)i?;
 - (id);
 - (id);
 - (id);
 - (void);
 - (double);
-- (double);
-- (id);
-- (id);
+- (double)<OS_dispatch_queue>";
+- (id)didReceivePendingServerRequest;
+- (id)endpoint;
 - (struct __IOReportSubscriptionCF *);
+- (id)H(J
+;
+- (id)+1J
+;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)пY4;
 - (_Bool);
-- (id);
+- (id)l;
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
 
 // Remaining properties
 @property(retain) NSString *driverName; // @synthesize driverName=_driverName;
-@property(retain) NSDictionary *ioReportSample; // @synthesize ioReportSample=_ioReportSample;
-@property(retain) NSDictionary *previousIOReportSample; // @synthesize previousIOReportSample=_previousIOReportSample;
-@property(retain) NSDate *sampleTime; // @synthesize sampleTime=_sampleTime;
-@property(retain) NSDate *sampleTimePrevious; // @synthesize sampleTimePrevious=_sampleTimePrevious;
-@property(retain) NSDictionary *subscribedChannels; // @synthesize subscribedChannels=_subscribedChannels;
-@property struct __IOReportSubscriptionCF *subscription; // @synthesize subscription=_subscription;
 
 @end
 

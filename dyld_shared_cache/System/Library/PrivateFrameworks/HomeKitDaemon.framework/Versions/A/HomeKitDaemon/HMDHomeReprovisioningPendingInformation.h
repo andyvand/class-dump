@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryNetworkCredential, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeReprovisioningPendingInformation
 {
     NSUUID *_messageIdentifier;
-    HMDAccessoryNetworkCredential *_networkCredential;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)atedNotification;
+- (id)pipelineState:error:] /* Error: Ran out of types for this method. */;
+- (void)HMDAccessoryManufacturerUpdatedNotification;
 
 // Remaining properties
 @property(readonly) NSUUID *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(readonly) HMDAccessoryNetworkCredential *networkCredential; // @synthesize networkCredential=_networkCredential;
 
 @end
 

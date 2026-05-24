@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FilterElementDefinition, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MDElementAndFED
 {
     NSString *_element;
-    FilterElementDefinition *_fed;
 }
 
 - (id);

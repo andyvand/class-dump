@@ -5,5 +5,6 @@
 //
 
 @protocol SFContentBlockerManagerDelegate
+- (void);
 @end
 

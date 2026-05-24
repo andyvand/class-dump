@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage, NSWindow, QLPreviewBubble, QLPreviewView, QLSeamlessOpener;
+
 @protocol QLSeamlessOpenerDelegate
+
+@optional
+- (NSWindow *)24@32Q40@48@56@64@72@80@88@96;
+- (NSImage *)4@0:(QLSeamlessOpener *)arg1 8B16B20;
+- (NSImage *)16@24^@32^@40^@48^@56^@64^@72^@80;
+- (NSWindow *)ral"32@0:(QLSeamlessOpener *)arg1 8@"NSUUID"16@"HAPBLEPeripheral"24;
+- (NSImage *)erverBrowserWiProxBTLE"16@"HAPBLEPeripheral"24;
+- (int)ryServerBTLE";
+- (QLPreviewView *)Status=QQQQQQQQQQQQQQQQBBB}16;
+- (struct CGRect)meters";
+- (QLPreviewBubble *)sportCommandStatusWrapper";
+- (void)StreamTransportCommandWrapper";
+- (void)Info";
 @end
 

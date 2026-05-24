@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyPreflightPersonalize
 {
     _Bool _performPhase;
-    NSDictionary *_basePreflightOptions;
-    NSDictionary *_additionalOptions;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ivity"16;
+- (id)_lockdownModeIndicator;
 - (id);
 - (_Bool);
 - (void);
@@ -30,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *basePreflightOptions; // @synthesize basePreflightOptions=_basePreflightOptions;
 @property(nonatomic) _Bool performPhase; // @synthesize performPhase=_performPhase;
 
 @end

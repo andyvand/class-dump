@@ -4,22 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNLocation, MNTraceRecorder, NSArray, NSError, NSString, NSUUID;
+@class MNTraceRecorder;
 
 __attribute__((visibility("hidden")))
 @interface MNTraceNavigationEventRecorder
 {
     MNTraceRecorder *_traceRecorder;
-    MNLocation *_lastMatchedLocation;
-    NSError *_previousSuppressedRerouteError;
-    NSUUID *_currentPrimarySignID;
-    NSUUID *_currentSecondarySignID;
-    NSUUID *_laneGuidanceID;
-    NSUUID *_junctionViewID;
-    NSArray *_lastARInfos;
-    int _sysdiagnoseStartedToken;
 }
 
+- (void)WidgetAuxiliaryTextImagePreference;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)SelectionPlatformItemListFlags;
+- (void);
+- (void)PrimitiveControlWidgetConfigurationModifier;
+- (void);
+- (void)edControlGroupContent;
 - (void);
 - (void);
 - (void);
@@ -27,23 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)CoordinateSpaceNameModifier;
+- (void)CoordinateSpaceTransform;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)G4;
+- (void)TitleAndIconLabelStyle;
 - (id);
 - (void);
 - (void);
@@ -55,13 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

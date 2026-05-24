@@ -12,28 +12,27 @@
 @interface SMNTimeCapsule_DiscoveryPlugin : SMSystemScanner_DiscoveryPlugin
 {
     NSObject<OS_dispatch_queue> *_mountingSparsebundlesSerialQueue;
-    NSObject<OS_dispatch_queue> *_browserQueue;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)C;
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,7 +51,6 @@
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *browserQueue; // @synthesize browserQueue=_browserQueue;
-@property(retain) NSObject<OS_dispatch_queue> *mountingSparsebundlesSerialQueue; // @synthesize mountingSparsebundlesSerialQueue=_mountingSparsebundlesSerialQueue;
 
 @end
 

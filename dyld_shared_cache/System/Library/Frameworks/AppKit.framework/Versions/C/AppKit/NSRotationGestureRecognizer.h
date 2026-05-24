@@ -6,25 +6,9 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSArray, _NSGestureRecognizerTransformAnalyzer;
-
 @interface NSRotationGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    struct CGPoint _reserved1;
-    double _rotation;
-    id _touchID1;
-    id _touchID2;
-    double _initialTouchAngle;
-    double _currentTouchAngle;
-    double _initialTouchDistance;
-    long long _currentRotationCount;
-    double _lastTouchTime;
-    double _velocity;
-    double _previousVelocity;
-    struct CGPoint _anchorSceneReferencePoint;
-    _NSGestureRecognizerTransformAnalyzer *_transformAnalyzer;
-    NSArray *_currentTouches;
 }
 
 + (id);
@@ -41,19 +25,18 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)P;
 - (struct CGPoint);
 - (_Bool);
+- (id)document;
 - (id);
-- (id);
-- (void);
+- (void);
 - (struct CGPoint)!¼Fùqà3Ð1Â0@ù
 × ;
-- (void)iredItemIdentifiers:(id)arg1;
+- (void)setRequiredItemIdentifiers:(id)arg1;
 
 // Remaining properties
 @property double rotation;
-@property double rotationInDegrees; // @synthesize rotationInDegrees=_rotation;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSURLCredential, NSURLSession;
-@protocol CRKIdentity;
+@class NSURLCredential, NSURLSession;
 
 @interface CRKDownloadResourcesOperation
 {
     NSURLSession *mSession;
-    NSArray *mDownloadTasks;
-    NSMutableArray *mFileURLs;
-    NSMutableArray *mCompletedUnitCounts;
-    NSURLCredential *_credential;
-    NSArray *_resources;
-    id <CRKIdentity> _clientIdentity;
-    NSArray *_trustedCertificates;
 }
 
 - (void);
@@ -29,30 +21,20 @@
 - (id);
 - (void);
 - (void);
+- (void)_waiter;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id):8{CGPoint=dd}16 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void)ter: /* Error: Ran out of types for this method. */;
+- (void)setPublishedRoster: /* Error: Ran out of types for this method. */;
 - (id)<úÿ;
 - (_Bool);Ê;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKIdentity> clientIdentity; // @synthesize clientIdentity=_clientIdentity;
 @property(readonly, nonatomic) NSURLCredential *credential; // @synthesize credential=_credential;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *resources; // @synthesize resources=_resources;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *trustedCertificates; // @synthesize trustedCertificates=_trustedCertificates;
 
 @end
 

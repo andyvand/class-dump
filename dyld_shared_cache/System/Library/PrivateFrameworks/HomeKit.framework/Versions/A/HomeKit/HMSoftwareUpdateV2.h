@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFSoftwareVersion, HMSoftwareUpdateDocumentationMetadata, NSArray, NSError, NSString;
-
 @interface HMSoftwareUpdateV2
 {
     _Bool _rampFeatureEnabledOnServer;
-    float _percentageComplete;
-    long long _status;
-    NSError *_error;
-    double _estimatedTimeRemaining;
-    HMSoftwareUpdateDocumentationMetadata *_documentationMetadata;
-    HMFSoftwareVersion *_version;
-    unsigned long long _downloadSize;
-    NSString *_humanReadableUpdateName;
 }
 
 + (id);
@@ -27,8 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (float);
-- (id);
+- (float)4F'
+;
+- (id)HAJ
+;
 - (double);
 - (id);
 - (id);
@@ -38,42 +30,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)monotonously;
+- (id)clarinettist;
+- (void)lS;
 - (id);
 - (long long);
-- (id);
-- (void)cher;
-- (unsigned long long)nUUID;
+- (id))�;
+- (void)HMAccessorySettingsMetricsDispatcher;
+- (unsigned long long)kActionUUID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) HMSoftwareUpdateDocumentationMetadata *documentationMetadata; // @synthesize documentationMetadata=_documentationMetadata;
-@property unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *humanReadableUpdateName; // @synthesize humanReadableUpdateName=_humanReadableUpdateName;
-@property(readonly) float percentageComplete; // @synthesize percentageComplete=_percentageComplete;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool rampFeatureEnabledOnServer; // @synthesize rampFeatureEnabledOnServer=_rampFeatureEnabledOnServer;
-@property(readonly, copy) NSString *shortDescription;
 @property long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(retain) HMFSoftwareVersion *version; // @synthesize version=_version;
 
 @end
 

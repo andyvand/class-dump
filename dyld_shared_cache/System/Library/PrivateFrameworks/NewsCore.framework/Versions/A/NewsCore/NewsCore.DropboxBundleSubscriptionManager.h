@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription, FCExperimentalPaywallConfiguration, NSSet;
-@protocol FCBundleCampaignManagerType, FCBundleSubscriptionProviderType, FCEntitlementsOverrideProviderType, FCPurchaseProviderType;
+@protocol FCBundleCampaignManagerType;
 
 @interface NewsCore.DropboxBundleSubscriptionManager
 {
     id todayDropbox;
-    id lazyDropboxData;
-    id <FCBundleCampaignManagerType> bundleCampaignManager;
-    id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
 }
 
 - (void);
@@ -20,44 +16,35 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)timeIntervalSinceReferenceDate;
+- (_Bool)defaultManager;
+- (void)collectionView:(CDUnknownBlockType)arg1 targetContentOffsetOnResizeForProposedContentOffset: /* Error: Ran out of types for this method. */;
+- (id)#;
+- (_Bool)_visitQueryTimeStamp;
+- (id)entKit deleteOrDeclineEntry:handler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)opy system preferences.;
 - (id);
 - (_Bool);
 - (id);
 - (void)	
 ;
 - (_Bool)e within array %@ for field %@;
-- (void)abiConfigurationDawnburstB;
+- (void)newsTabiConfigurationDawnburstB;
 
 // Remaining properties
 @property(nonatomic, readonly) id <FCBundleCampaignManagerType> bundleCampaignManager; // @synthesize bundleCampaignManager;
-@property(nonatomic, readonly) FCBundleSubscription *bundleSubscription;
-@property(nonatomic, readonly) id <FCBundleSubscriptionProviderType> bundleSubscriptionProvider;
-@property(nonatomic, readonly) FCBundleSubscription *cachedSubscription;
-@property(nonatomic, retain) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @synthesize entitlementsOverrideProvider;
-@property(nonatomic, readonly) FCExperimentalPaywallConfiguration *experimentalPaywallConfig;
-@property(nonatomic, readonly) NSSet *notificationOpenedArticleIDs;
-@property(nonatomic, readonly) id <FCPurchaseProviderType> purchaseProvider;
-@property(nonatomic, readonly) NSSet *purchasedTagIDs;
-@property(nonatomic, readonly) FCBundleSubscription *validatedCachedSubscription;
 
 @end
 

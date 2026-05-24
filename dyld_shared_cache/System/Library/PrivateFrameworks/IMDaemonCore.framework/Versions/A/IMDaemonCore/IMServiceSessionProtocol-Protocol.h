@@ -4,6 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol IMServiceSessionProtocol
+
+@optional
+- (void);
+- (void)#;
+- (void).!8.  ;
+- (void)q`;
+- (void)N;
+- (void).;
+- (void)';
+- (void)4Q;
+- (_Bool)
+?;
+- (_Bool)B+`;
+- (_Bool)I ;
+- (void);
+- (void);
+- (void)[;
+- (void);
+- (void);
+- (void)setEvictedFramesAnalysisValidIntervals:(NSArray *)arg1;
+- (void)\;
 @end
 

@@ -4,46 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksController, BookmarksSearcher, KeyLoopSplicingContainerView, NSArray, NSBox, NSButton, NSLayoutConstraint, NSScrollView, NSSearchField, NSString, NSTableColumn, NSTextField, OutlineViewPlus, SafariWebBookmark, WBSFaviconRequestsController;
-@protocol BookmarksViewControllerDelegate;
+@class KeyLoopSplicingContainerView, NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksViewController
 {
     NSLayoutConstraint *_mainContentViewTopConstraint;
-    _Bool _draggingUndeletableBookmarks;
-    _Bool _abortedDraggingBookmarks;
-    BookmarksController *_bookmarksController;
-    BookmarksSearcher *_searcher;
-    NSTableColumn *_hiddenAddressColumn;
-    _Bool _bookmarkChangeIsExpected;
-    _Bool _didProgrammaticallyRevealBookmarks;
-    WBSFaviconRequestsController *_requestsController;
-    NSArray *_filterEntities;
-    id <BookmarksViewControllerDelegate> _delegate;
-    SafariWebBookmark *_selectedCollection;
-    NSBox *_mainContentView;
-    NSScrollView *_scrollView;
-    OutlineViewPlus *_outlineView;
-    NSTableColumn *_bookmarkColumn;
-    NSTableColumn *_parentColumn;
-    NSTableColumn *_addressColumn;
-    NSButton *_contentModificationButton;
-    NSSearchField *_searchField;
-    NSTextField *_searchMatchesLabel;
-    NSTextField *_titleField;
 }
 
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (float);
-+ (id);
++ (id)_;
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -52,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -69,8 +47,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void))`;
 - (void);
 - (void);
 - (void);
@@ -98,24 +76,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)
+;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -174,7 +153,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (_Bool);
 - (id);
 - (void);
@@ -211,20 +190,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (void));
+- (void)\;
+- (void)l;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s27RemoteIntentBroadcastEntityP;
+- (id)alid service for chat lookup:%@. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)mportDataTypes:forBrowserDataDirectories: /* Error: Ran out of types for this method. */;
+- (_Bool)_importDataTypes:forBrowserDataDirectories: /* Error: Ran out of types for this method. */;
 - (id)y;
 - (void);
 - (void);
@@ -235,26 +214,6 @@ __attribute__((visibility("hidden")))
 - (id)y;
 
 // Remaining properties
-@property(nonatomic) __weak NSTableColumn *addressColumn; // @synthesize addressColumn=_addressColumn;
-@property(nonatomic) __weak NSTableColumn *bookmarkColumn; // @synthesize bookmarkColumn=_bookmarkColumn;
-@property(nonatomic) __weak NSButton *contentModificationButton; // @synthesize contentModificationButton=_contentModificationButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BookmarksViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSBox *mainContentView; // @synthesize mainContentView=_mainContentView;
-@property(nonatomic) __weak OutlineViewPlus *outlineView; // @synthesize outlineView=_outlineView;
-@property(nonatomic) __weak NSTableColumn *parentColumn; // @synthesize parentColumn=_parentColumn;
-@property(nonatomic) __weak NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) __weak NSSearchField *searchField; // @synthesize searchField=_searchField;
-@property(nonatomic) __weak NSTextField *searchMatchesLabel; // @synthesize searchMatchesLabel=_searchMatchesLabel;
-@property(retain, nonatomic) SafariWebBookmark *selectedCollection; // @synthesize selectedCollection=_selectedCollection;
-@property(readonly, nonatomic, getter=isShowingHistory) _Bool showingHistory;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *titleField; // @synthesize titleField=_titleField;
 @property(retain) KeyLoopSplicingContainerView *view; // @dynamic view;
 
 @end

@@ -16,18 +16,18 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct GreedyClusterer;
@@ -40,8 +40,8 @@ struct HMIVideoEncoderDataRate {
 struct Mat;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
@@ -70,11 +70,11 @@ struct vector<cv::Point_<float>, std::allocator<cv::Point_<float>>> {
 };
 
 struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
+        float *_field1;
+    } _field3;
 };
 
 struct vector<unsigned char, std::allocator<unsigned char>> {
@@ -100,9 +100,9 @@ typedef struct {
 } CDStruct_1b6d18a9;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_1b6d18a9 _field1;
+    CDStruct_1b6d18a9 _field2;
+} CDStruct_5c5366e1;
 
 // Template types
 typedef struct vector<cv::Mat, std::allocator<cv::Mat>> {
@@ -122,12 +122,12 @@ typedef struct vector<cv::Point_<float>, std::allocator<cv::Point_<float>>> {
 } vector_ed0ba568;
 
 typedef struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
-} vector_926a3350;
+        float *_field1;
+    } _field3;
+} vector_4858b34d;
 
 typedef struct vector<unsigned char, std::allocator<unsigned char>> {
     char *_field1;

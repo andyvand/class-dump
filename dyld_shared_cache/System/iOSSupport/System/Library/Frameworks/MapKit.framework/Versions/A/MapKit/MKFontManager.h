@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont;
-
 @interface MKFontManager
 {
     _Bool _useSmallFont;
@@ -21,6 +19,11 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
+- (id);
+- (id);
+- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -28,14 +31,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)J;
+- (id)G;
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -47,42 +45,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIFont *attributionFont;
-@property(readonly, nonatomic) UIFont *bodyFont;
-@property(readonly, nonatomic) UIFont *boldBodyFont;
-@property(readonly, nonatomic) UIFont *boldSectionHeaderFont;
-@property(readonly, nonatomic) UIFont *brandTitleFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIFont *largeTitleFont;
-@property(readonly, nonatomic) UIFont *largeTitleFontStatic;
-@property(readonly, nonatomic) UIFont *largeTitleHeaderFont;
-@property(readonly, nonatomic) UIFont *lookAroundAttributionButtonFont;
-@property(readonly, nonatomic) UIFont *lookAroundButtonFont;
-@property(readonly, nonatomic) UIFont *lookAroundLabelFont;
-@property(readonly, nonatomic) UIFont *lookAroundSecondaryLabelFont;
-@property(readonly, nonatomic) UIFont *lookAroundTertiaryLabelFont;
-@property(readonly, nonatomic) UIFont *mediumBodyFont;
-@property(readonly, nonatomic) UIFont *mediumTitleFont;
-@property(readonly, nonatomic) UIFont *ratingCallToActionGlyphFont;
-@property(readonly, nonatomic) UIFont *ratingCallToActionHeaderLabelFont;
-@property(readonly, nonatomic) UIFont *ratingCallToActionLabelFont;
-@property(readonly, nonatomic) UIFont *ratingOverallFont;
-@property(readonly, nonatomic) UIFont *ratingOverallPercentageFont;
-@property(readonly, nonatomic) UIFont *recommendSubtitleFont;
-@property(readonly, nonatomic) UIFont *rowButtonFont;
-@property(readonly, nonatomic) UIFont *rowGlyphButtonFont;
-@property(readonly, nonatomic) UIFont *sectionHeaderButtonFont;
-@property(readonly, nonatomic) UIFont *sectionHeaderFont;
-@property(readonly, nonatomic) UIFont *semiboldButtonCellFont;
-@property(readonly, nonatomic) UIFont *smallAttributionFont;
-@property(readonly, nonatomic) UIFont *subtitleFont;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIFont *textBlurbFont;
 @property(nonatomic) _Bool useSmallFont; // @synthesize useSmallFont=_useSmallFont;
 
 @end

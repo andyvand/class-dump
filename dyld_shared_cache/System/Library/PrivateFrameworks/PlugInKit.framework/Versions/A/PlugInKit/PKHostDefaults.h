@@ -11,9 +11,9 @@
     PKHostPlugIn *_plugin;
 }
 
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)';
 - (void);
 - (void);
 - (id);

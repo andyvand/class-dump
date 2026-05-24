@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSDate;
 
 @interface IADNSCache
 {
     NSDate *_lastSyncDate;
-    NSMutableDictionary *_cacheDict;
 }
 
 + (id);
+- (id);
+- (void);
+- (void);
+- (void)C;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (void);
 
 // Remaining properties

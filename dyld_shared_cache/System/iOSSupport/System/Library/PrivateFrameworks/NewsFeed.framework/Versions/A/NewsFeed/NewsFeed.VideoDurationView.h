@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)entries;
 - (struct CGSize);
 - (id);
 - (void)¬kïþa:(Âwþa:ðªþ /* Error: Ran out of types for this method. */;

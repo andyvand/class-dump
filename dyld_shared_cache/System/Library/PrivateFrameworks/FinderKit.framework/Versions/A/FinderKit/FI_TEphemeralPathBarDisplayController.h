@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSView;
-@protocol FI_TEphemeralPathBarDisplayControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface FI_TEphemeralPathBarDisplayController
 {
     struct TEventMonitor _pathBarModifierEventMonitor;
-    struct TEventMonitor _pathBarMouseEventMonitor;
-    TNSWeakPtr_db0eab6c _pathBarDelayToken;
-    TNSWeakPtr_db0eab6c _pathBarDismissDelayToken;
-    struct TNSWeakPtr<NSObject<FI_TEphemeralPathBarDisplayControllerDelegate>> _delegate;
-    _Bool _peerMenuEnabled;
-    _Bool _mouseInside;
-    _Bool _keyWindowOnly;
-    _Bool _displayExtendedByMouseOver;
-    _Bool _visible;
-    _Bool _skipAnimation;
-    _Bool _showingMenu;
-    unsigned long long _modifierMask;
-    NSView *_trackingView;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -44,20 +28,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)I;
+- (void)@;
 - (id);
-- (void);
-- (id);
-- (void)ToCopy;
+- (void)bytesToCopy;
 - (void);
 - (_Bool)_ENKUlvE_clEvEUlvE_vJEEE;
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<FI_TEphemeralPathBarDisplayControllerDelegate> *delegate;
-@property(readonly, nonatomic) unsigned long long modifierMask; // @synthesize modifierMask=_modifierMask;
-@property(nonatomic, getter=isShowingMenu) _Bool showingMenu; // @synthesize showingMenu=_showingMenu;
 @property(nonatomic) _Bool skipAnimation; // @synthesize skipAnimation=_skipAnimation;
-@property(nonatomic) __weak NSView *trackingView; // @synthesize trackingView=_trackingView;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol INPlayAnnouncementSoundIntentResponseExport
-- (long long)sClear;
+- (long long)hasIsClear;
 
 // Remaining properties
 @property(readonly) long long code;

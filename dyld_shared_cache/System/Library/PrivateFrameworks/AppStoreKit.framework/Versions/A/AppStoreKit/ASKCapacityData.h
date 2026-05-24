@@ -9,30 +9,22 @@
 @interface ASKCapacityData
 {
     NSNumber *_totalSystemCapacity;
-    NSNumber *_totalSystemAvailable;
-    NSNumber *_totalDataCapacity;
-    NSNumber *_totalDataAvailable;
-    NSNumber *_totalDiskCapacity;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)o;
+- (id)eo;
+- (id)o;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (id);
 - (void)reKit22UpdatablePresenterViewP;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *totalDataAvailable; // @synthesize totalDataAvailable=_totalDataAvailable;
-@property(retain, nonatomic) NSNumber *totalDataCapacity; // @synthesize totalDataCapacity=_totalDataCapacity;
-@property(retain, nonatomic) NSNumber *totalDiskCapacity; // @synthesize totalDiskCapacity=_totalDiskCapacity;
-@property(retain, nonatomic) NSNumber *totalSystemAvailable; // @synthesize totalSystemAvailable=_totalSystemAvailable;
 @property(retain, nonatomic) NSNumber *totalSystemCapacity; // @synthesize totalSystemCapacity=_totalSystemCapacity;
 
 @end

@@ -14,10 +14,11 @@
 + (Class);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)L`)x
+;
 - (void);
 - (id);
 - (void);

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)ected value class %@, found %@;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h\;
 - (_Bool);
 - (id);
-- (id)TypeKey;
+- (id)_powerTypeKey;
 - (id)l8m@n¬oÈpprÜr;
 - (void)á|H@;
 

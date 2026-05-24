@@ -9,13 +9,11 @@
 @interface GEOPDAutocompleteEntryClientResolved
 {
     PBUnknownFields *_unknownFields;
-    int _resolvedItemType;
-    CDStruct_2aff0b11 _flags;
 }
 
-+ (_Bool)uteCreationTip:(id)arg1;
++ (_Bool)setHasWantsRouteCreationTip:(id)arg1;
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (int);
 - (_Bool);
@@ -25,22 +23,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)onActiveDelayOverride];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)PRoute"b1"everViewedAudioSheet"b1"everViewedAudioSheetBTAny"b1"everViewedAudioSheetBTHFP"b1"manuallyChangedRouteCount"b1"manuallyDisabledHFPCount"b1"manuallyEnabledHFPCount"b1"pauseSpokenAudioEnabled"b1"spokenPromptsCount"b1"viewedAudioSheet"b1"viewedAudioSheetBTAny"b1"viewedAudioSheetBTHFP"b1"wirelessRoutesAvailable"b1}};
-- (id)illCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)URLSession:dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)È®²ð£";
 - (id), data.ext_uuid, data.size    FROM tiles INNER JOIN data ON tiles.data_pk == data.rowid    WHERE tiles.key_a == @tiles_key_a AND tiles.key_b == @tiles_key_b AND tiles.key_c == @tiles_key_c AND tiles.key_d == @tiles_key_d;;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasResolvedItemType;
-@property(nonatomic) int resolvedItemType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

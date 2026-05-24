@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClient, CBAdaptationClient, CBBlueLightClient;
+@class BrightnessSystemClient, CBBlueLightClient;
 
 @interface CBClient
 {
     BrightnessSystemClient *bsc;
-    CBBlueLightClient *_blueLightClient;
-    CBAdaptationClient *_adaptationClient;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
+- (id)<;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) CBAdaptationClient *adaptationClient; // @synthesize adaptationClient=_adaptationClient;
 @property(readonly) CBBlueLightClient *blueLightClient; // @synthesize blueLightClient=_blueLightClient;
 
 @end

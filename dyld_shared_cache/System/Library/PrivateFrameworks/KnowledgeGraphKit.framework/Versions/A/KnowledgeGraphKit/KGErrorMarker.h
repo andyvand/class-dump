@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)tra.vpn;
 
 @end
 

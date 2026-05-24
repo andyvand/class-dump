@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface _UICellAccessoryConfiguration
 {
     _Bool _usesDefaultLayoutWidth;
-    UIColor *_tintColor;
-    UIColor *_backgroundColor;
 }
 
 + (_Bool)reate keyboard proxy layers - they should only forward them;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)g"24@"NSNumber"32;
+- (_Bool)mismatched participants. The found chat will not be returned.;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool)cContentAttribute:(id)arg1;
-- (void)opTintAlpha;
+- (_Bool)setSemanticContentAttribute:(id)arg1;
+- (void)preBackdropTintAlpha;
 - (id);
-- (id)fTextStorage: /* Error: Ran out of types for this method. */;
+- (id)restoreAttributesOfTextStorage: /* Error: Ran out of types for this method. */;
 - (id)vediamo e quando?;
 - (long long)x£];
 - (void)-,ÿ;
 - (void)Ïd;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_backgroundColor, setter=_setBackgroundColor:) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic, getter=_identifier) NSString *identifier;
 @property(readonly, nonatomic, getter=_isSystemType) _Bool isSystemType;
-@property(readonly, nonatomic, getter=_systemType) long long systemType;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(nonatomic) _Bool usesDefaultLayoutWidth; // @synthesize usesDefaultLayoutWidth=_usesDefaultLayoutWidth;
 
 @end
 

@@ -4,49 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountCredential, ACAccountStore, ACAccountType, ACMutableTrackedSet, NSArray, NSDate, NSMutableDictionary, NSMutableSet, NSSet, NSString, NSURL;
-@protocol NSObject;
+@class ACAccountStore;
 
 @interface ACAccount
 {
     ACAccountStore *_accountStore;
-    NSString *_identifier;
-    NSString *_accountDescription;
-    NSString *_owningBundleID;
-    NSString *_username;
-    NSString *_authenticationType;
-    NSString *_credentialType;
-    NSString *_clientToken;
-    ACAccountType *_accountType;
-    ACAccountCredential *_credential;
-    NSMutableDictionary *_properties;
-    NSMutableDictionary *_dataclassProperties;
-    NSURL *_objectID;
-    NSDate *_date;
-    NSDate *_lastCredentialRenewalRejectionDate;
-    NSString *_modificationID;
-    NSString *_cachedParentAccountID;
-    ACAccount *_parentAccount;
-    NSArray *_childAccounts;
-    NSSet *_provisionedEnumDataclasses;
-    ACMutableTrackedSet *_trackedProvisionedDataclasses;
-    NSSet *_enabledEnumDataclasses;
-    ACMutableTrackedSet *_trackedEnabledDataclasses;
-    NSMutableSet *_dirtyProperties;
-    NSMutableSet *_dirtyAccountProperties;
-    NSMutableSet *_dirtyDataclassProperties;
-    id <NSObject> _credentialsDidChangeObserver;
-    CDUnknownBlockType _accountPropertiesTransformer;
-    _Bool _haveCheckedForClientToken;
-    _Bool _accountAccessAvailable;
-    _Bool _authenticated;
-    _Bool _active;
-    _Bool _warmingUp;
-    _Bool _supportsAuthentication;
-    _Bool _visible;
-    _Bool _haveCheckedForChildAccounts;
-    _Bool _wasProvisionedDataclassesReset;
-    _Bool _wasEnabledDataclassesReset;
 }
 
 @end

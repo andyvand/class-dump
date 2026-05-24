@@ -5,5 +5,6 @@
 //
 
 @protocol _UIContextMenuHierarchyLayout
+- (struct CGSize);
 @end
 

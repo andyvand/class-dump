@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
-
 @interface SSURLRequestProperties
 {
     long long _allowedRetryCount;
-    unsigned long long _cachePolicy;
-    NSString *_clientIdentifier;
-    NSData *_httpBody;
-    NSDictionary *_httpHeaders;
-    NSString *_httpMethod;
-    _Bool _isITunesStoreRequest;
-    NSDictionary *_requestParameters;
-    double _timeoutInterval;
-    NSString *_urlBagKey;
-    NSURL *_url;
 }
 
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)key. { error=%@, env=%d, keyID=%@, counter=%d, appUUID=%@, resolvedAppID=%@, realAppID=%@ };
 - (id);
 - (id);
 - (id);
@@ -33,27 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e %@ to %@;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)=;
 - (void);
 - (double);
-- (unsigned long long)tifier: /* Error: Ran out of types for this method. */;
-- (id)updateProgressObservers;
+- (unsigned long long)cancelDownloadsWithIdentifiers:onQueueWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_updateProgressObservers;
 
 // Remaining properties
-@property(readonly, copy) NSData *HTTPBody;
-@property(readonly, copy) NSDictionary *HTTPHeaders;
-@property(readonly, copy) NSString *HTTPMethod;
-@property(readonly, getter=isITunesStoreRequest) _Bool ITunesStoreRequest;
-@property(readonly) NSURL *URL;
-@property(readonly, copy) NSString *URLBagKey;
 @property(readonly) long long allowedRetryCount;
-@property(readonly) unsigned long long cachePolicy;
-@property(readonly, copy) NSString *clientIdentifier;
-@property(readonly, copy) NSDictionary *requestParameters;
-@property(readonly) double timeoutInterval;
 
 @end
 

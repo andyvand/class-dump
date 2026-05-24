@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-@protocol PGPersonResult;
-
 @interface PGSharingSuggestionResult
 {
     _Bool _useContactSuggestion;
-    id <PGPersonResult> _person;
-    double _weight;
-    double _sourceWeight;
-    NSArray *_sourceNames;
 }
 
 - (_Bool);
@@ -28,15 +21,9 @@
 - (double);
 - (id)ð1Â0@ù
 × ;
-- (void)tionshipDayOfWeekAnalyzer;
+- (void)PGRelationshipDayOfWeekAnalyzer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) id <PGPersonResult> person; // @synthesize person=_person;
-@property(readonly, nonatomic) double score;
-@property(readonly, nonatomic) NSArray *sourceNames; // @synthesize sourceNames=_sourceNames;
-@property(readonly, nonatomic) double sourceWeight; // @synthesize sourceWeight=_sourceWeight;
-@property(nonatomic) _Bool useContactSuggestion; // @synthesize useContactSuggestion=_useContactSuggestion;
 @property(readonly, nonatomic) double weight; // @synthesize weight=_weight;
 
 @end

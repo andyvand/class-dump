@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface;
-
 @interface MigrationHelper_Client
 {
     unsigned int uid;
-    NSString *tracingUUID;
-    NSXPCConnection *helperConnection;
-    NSXPCInterface *helperInterface;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)P;
 - (void);
 - (void);
 - (id);
@@ -33,9 +28,6 @@
 - (void)urce system:(id)arg1 %@;
 
 // Remaining properties
-@property(retain) NSXPCConnection *helperConnection; // @synthesize helperConnection;
-@property(retain) NSXPCInterface *helperInterface; // @synthesize helperInterface;
-@property(retain) NSString *tracingUUID; // @synthesize tracingUUID;
 @property unsigned int uid; // @synthesize uid;
 
 @end

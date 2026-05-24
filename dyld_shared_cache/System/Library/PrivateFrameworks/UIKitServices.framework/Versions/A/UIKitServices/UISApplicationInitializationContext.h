@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneIdentityToken, NSSet, NSString, UISCompatibilityContext, UISDeviceContext, UISDisplayContext;
+@class UISDisplayContext;
 
 @interface UISApplicationInitializationContext
 {
     UISDisplayContext *_mainDisplayContext;
-    UISDisplayContext *_launchDisplayContext;
-    UISDeviceContext *_deviceContext;
-    UISCompatibilityContext *_compatibilityContext;
-    NSSet *_persistedSceneIdentifiers;
-    FBSSceneIdentityToken *_defaultSceneToken;
-    _Bool _supportAppSceneRequests;
 }
 
-+ (id);
++ (id)_transform;
 + (_Bool);
 - (id);
+- (id)~;
 - (id);
-- (id);
-- (id);
+- (id)S9;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)9h;
+- (id)t^;
+- (void)_options;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)fullLogArchive;
 - (_Bool);
 - (void);
 - (id);
@@ -43,21 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UISCompatibilityContext *compatibilityContext; // @synthesize compatibilityContext=_compatibilityContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) FBSSceneIdentityToken *defaultSceneToken; // @synthesize defaultSceneToken=_defaultSceneToken;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UISDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
 @property(readonly, nonatomic) UISDisplayContext *displayContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UISDisplayContext *launchDisplayContext; // @synthesize launchDisplayContext=_launchDisplayContext;
-@property(readonly, nonatomic) UISDisplayContext *mainDisplayContext; // @synthesize mainDisplayContext=_mainDisplayContext;
-@property(readonly, nonatomic) NSSet *persistedSceneIdentifiers; // @synthesize persistedSceneIdentifiers=_persistedSceneIdentifiers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportAppSceneRequests; // @synthesize supportAppSceneRequests=_supportAppSceneRequests;
 
 @end
 

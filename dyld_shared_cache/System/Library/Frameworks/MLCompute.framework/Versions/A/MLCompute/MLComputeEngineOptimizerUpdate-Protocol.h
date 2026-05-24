@@ -5,5 +5,7 @@
 //
 
 @protocol MLComputeEngineOptimizerUpdate
+- (void);
+- (void);
 @end
 

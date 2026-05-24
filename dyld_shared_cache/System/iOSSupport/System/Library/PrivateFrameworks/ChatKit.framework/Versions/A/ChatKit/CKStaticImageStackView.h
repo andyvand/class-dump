@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PFMessagesStackLayoutFrameSolver;
+@class NSArray;
 
 @interface CKStaticImageStackView
 {
     NSArray *_mediaObjects;
-    double _stackCornerRadius;
-    NSArray *_imageLayers;
-    PFMessagesStackLayoutFrameSolver *_frameSolver;
 }
 
-- (double);
-- (void);
+- (double)preferredFontForICTTTextStyle: /* Error: Ran out of types for this method. */;
+- (void)indexSet;
 - (id);
 - (id);
 - (id);
-- (void);
-- (Class);
+- (void)er(%@);;
+- (Class);
 - (void);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (void)¼ä$Ô;
 
 // Remaining properties
-@property(retain, nonatomic) PFMessagesStackLayoutFrameSolver *frameSolver; // @synthesize frameSolver=_frameSolver;
-@property(retain, nonatomic) NSArray *imageLayers; // @synthesize imageLayers=_imageLayers;
 @property(retain, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
-@property(nonatomic) double stackCornerRadius; // @synthesize stackCornerRadius=_stackCornerRadius;
 
 @end
 

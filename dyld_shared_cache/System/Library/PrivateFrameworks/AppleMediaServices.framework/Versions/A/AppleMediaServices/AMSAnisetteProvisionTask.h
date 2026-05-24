@@ -6,34 +6,27 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSData;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSAnisetteProvisionTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSData *_data;
-    long long _type;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
-- (id);
+- (id)pear to be valid;
 - (long long);
-- (id);
+- (id)rapportCompanionLinkClient: /* Error: Ran out of types for this method. */;
 - (void)?W49®+ÃgHzãm`pöæèàéc=ÏßRX­îÆÑ¥Kíìhk>:ÚÇ£ðCØ /* Error: Ran out of types for this method. */;
 - (id)£M³Å\«Nà¯Yû(vÔãúaëß9|;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSMutableSet, NSObject, NSString, NSTimer, TIRequestedInputModes;
-@protocol OS_dispatch_queue, TIInputModePreferenceProvider;
+@class NSMutableArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TIAssetManager
 {
     NSMutableArray *_notificationTokens;
-    NSMutableSet *_languagesWithWarmedAssets;
-    CDUnknownBlockType _enabledInputModeIdentifiersProviderBlock;
-    CDUnknownBlockType _preferencesProviderBlock;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSArray *_requestedInputModes_mainThreadCache;
-    id <TIInputModePreferenceProvider> _inputModePreferenceProvider;
-    NSArray *_currentActiveRegions;
-    NSArray *_currentNormalizedActiveRegions;
-    NSTimer *_didUpdateAssetsTimer;
-    TIRequestedInputModes *_requestedInputModes;
-    NSDate *_lastMeCardRegionFetchTime;
-    NSArray *_cachedMeCardRegions;
 }
 
 + (id);
 + (long long);
 + (id);
-+ (id);
++ (id)purge;
 + (id);
 + (id);
 + (void);
@@ -39,22 +27,56 @@
 - (void);
 - (void);
 - (void);
+- (id)__DATA_DIRTY;
+- (void);
+- (void);
+- (id)no sampleIndex;
+- (void)isplayVMFaultTypeInCallTrees:(id)arg1 %d
+displayPageGrabIntervalInCallTrees:%d
+displayPageGrabTypeInCallTrees:%d
+displayPageGrabVMTagInCallTrees:%d
+displayOnBehalfOfInCallTrees:%d
+displayQoSTransitionsBetweenUnspecifiedAndUnavailable:%d
+displayTrialInformation:%d
+repeatPrimaryStateInCallTrees:%d
+callTreeTimestampsTimeDomain:0x%llx
+callTreeAggregation:%llu
+swiftAsyncCallTreeAggregation:%llu
+swiftAsyncDisplayCRootCallstacks:%d
+swiftAsyncPrintLeafyCCallstackOnTopOfSwiftAsyncCallstacksAlways:%d
+swiftAsyncPrintLeafyCCallstackOnTopOfCRootCallstacksAlways:%d
+taskAggregation:%llu
+aggregateFramesByOffsetIntoBinary:%d
+microstackshotsFormat:%d
+systemstatsFormat:%d
+includeUserIdleAndBatteryStateInStacks:%d
+omitStacksOnBattery:%d
+omitStacksOnAC:%d
+omitStacksWithUserIdle:%d
+omitStacksWithUserActive:%d
+omitStacksWithECore:%d
+omitStacksWithMCore:%d
+omitStacksWithPCore:%d
+omitStacksBelowBasePriority:%d
+omitStacksAboveBasePriority:%d
+omitAbsoluteWallTimes:%d
+printProblematicProcessesAndThreads:%d
+tidsToPrint:%@
+pidsToPrint:%@
+uniquePidsToPrint:%@
+processUUIDsToPrint:%@
+ /* Error: Ran out of types for this method. */;
+- (id)wn:(id)arg1 0x%x);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)ration",&,D,N;
+- (_Bool)^;
 - (id);
 - (id);
 - (id);
@@ -65,14 +87,14 @@
 - (void);
 - (void);
 - (id);
+- (id)fractionalWidthDimension:(id)arg1;
+- (void)_trailingTopText;
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)contactStore;
+- (id)parsec_completed_query_TermFrequenciesWeighted_Var_Prefix;
 - (void);
 - (id);
 - (double);
@@ -84,7 +106,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/lib/libc++.1.dylib;
 - (void);
 - (void);
 - (_Bool);
@@ -92,36 +114,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)i°1Â0@ù
 × ;
 - (void)ù
 × ;
-- (id)del;
+- (id)usesWordNgramModel;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cachedMeCardRegions; // @synthesize cachedMeCardRegions=_cachedMeCardRegions;
-@property(retain, nonatomic) NSArray *currentActiveRegions; // @synthesize currentActiveRegions=_currentActiveRegions;
-@property(retain, nonatomic) NSArray *currentNormalizedActiveRegions; // @synthesize currentNormalizedActiveRegions=_currentNormalizedActiveRegions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSTimer *didUpdateAssetsTimer; // @synthesize didUpdateAssetsTimer=_didUpdateAssetsTimer;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType enabledInputModeIdentifiersProviderBlock; // @synthesize enabledInputModeIdentifiersProviderBlock=_enabledInputModeIdentifiersProviderBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <TIInputModePreferenceProvider> inputModePreferenceProvider; // @synthesize inputModePreferenceProvider=_inputModePreferenceProvider;
-@property(readonly, nonatomic) NSMutableSet *languagesWithWarmedAssets;
-@property(copy, nonatomic) NSDate *lastMeCardRegionFetchTime; // @synthesize lastMeCardRegionFetchTime=_lastMeCardRegionFetchTime;
-@property(copy, nonatomic) CDUnknownBlockType preferencesProviderBlock; // @synthesize preferencesProviderBlock=_preferencesProviderBlock;
-@property(readonly, nonatomic) double requestExpirationInterval;
-@property(readonly, nonatomic) TIRequestedInputModes *requestedInputModes; // @synthesize requestedInputModes=_requestedInputModes;
-@property(copy, nonatomic) NSArray *requestedInputModes_mainThreadCache; // @synthesize requestedInputModes_mainThreadCache=_requestedInputModes_mainThreadCache;
-@property(readonly) Class superclass;
 
 @end
 

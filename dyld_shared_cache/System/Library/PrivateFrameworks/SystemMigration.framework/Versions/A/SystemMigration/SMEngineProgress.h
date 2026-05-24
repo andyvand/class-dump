@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSObject, NSString, SMEngineProgressPhase;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface SMEngineProgress
 {
     _Bool _itemCountIsUnreliable;
-    double _estimatedOverallTimeRemaining;
-    double _smoothedItemRate;
-    double _smoothedSizeRate;
-    double _processStartTime;
-    double _lastCalculatedTimeRemaining;
-    unsigned long long _lastPercentCompleted;
-    unsigned long long _lastPercentCompletedByCount;
-    unsigned long long _lastPercentCompletedBySize;
-    NSNumber *_lastFakePercentCompleted;
-    double _currentPhaseStartTime;
-    double _currentPhaseLastUpdateTime;
-    double _currentPhaseLastSizeUpdateTime;
-    double _currentPhaseLastItemUpdateTime;
-    SMEngineProgressPhase *_currentPhase;
-    NSMutableDictionary *_allPhases;
-    NSObject<OS_dispatch_queue> *_phaseQueue;
-    CDUnknownBlockType _progressCallbackBlock;
-    NSObject<OS_dispatch_source> *_progressTimer;
-    double _oldProgressLatestTimeEstimate;
-    NSString *_floatingPhaseDescription;
-    NSString *_floatingPhaseSubDescription;
 }
 
 + (id);
 - (void);
-- (double);
+- (double)C;
 - (double);
 - (void);
 - (void);
@@ -87,10 +63,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
@@ -98,28 +74,7 @@
 - (id)Sparsebundles.mounting;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *allPhases; // @synthesize allPhases=_allPhases;
-@property(retain) SMEngineProgressPhase *currentPhase; // @synthesize currentPhase=_currentPhase;
-@property double currentPhaseLastItemUpdateTime; // @synthesize currentPhaseLastItemUpdateTime=_currentPhaseLastItemUpdateTime;
-@property double currentPhaseLastSizeUpdateTime; // @synthesize currentPhaseLastSizeUpdateTime=_currentPhaseLastSizeUpdateTime;
-@property double currentPhaseLastUpdateTime; // @synthesize currentPhaseLastUpdateTime=_currentPhaseLastUpdateTime;
-@property double currentPhaseStartTime; // @synthesize currentPhaseStartTime=_currentPhaseStartTime;
-@property double estimatedOverallTimeRemaining; // @synthesize estimatedOverallTimeRemaining=_estimatedOverallTimeRemaining;
-@property(retain) NSString *floatingPhaseDescription; // @synthesize floatingPhaseDescription=_floatingPhaseDescription;
-@property(retain) NSString *floatingPhaseSubDescription; // @synthesize floatingPhaseSubDescription=_floatingPhaseSubDescription;
-@property _Bool itemCountIsUnreliable; // @synthesize itemCountIsUnreliable=_itemCountIsUnreliable;
-@property double lastCalculatedTimeRemaining; // @synthesize lastCalculatedTimeRemaining=_lastCalculatedTimeRemaining;
-@property(retain) NSNumber *lastFakePercentCompleted; // @synthesize lastFakePercentCompleted=_lastFakePercentCompleted;
-@property unsigned long long lastPercentCompleted; // @synthesize lastPercentCompleted=_lastPercentCompleted;
-@property unsigned long long lastPercentCompletedByCount; // @synthesize lastPercentCompletedByCount=_lastPercentCompletedByCount;
-@property unsigned long long lastPercentCompletedBySize; // @synthesize lastPercentCompletedBySize=_lastPercentCompletedBySize;
-@property double oldProgressLatestTimeEstimate; // @synthesize oldProgressLatestTimeEstimate=_oldProgressLatestTimeEstimate;
-@property(retain) NSObject<OS_dispatch_queue> *phaseQueue; // @synthesize phaseQueue=_phaseQueue;
-@property double processStartTime; // @synthesize processStartTime=_processStartTime;
-@property(copy) CDUnknownBlockType progressCallbackBlock; // @synthesize progressCallbackBlock=_progressCallbackBlock;
-@property(retain) NSObject<OS_dispatch_source> *progressTimer; // @synthesize progressTimer=_progressTimer;
 @property double smoothedItemRate; // @synthesize smoothedItemRate=_smoothedItemRate;
-@property double smoothedSizeRate; // @synthesize smoothedSizeRate=_smoothedSizeRate;
 
 @end
 

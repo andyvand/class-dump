@@ -5,5 +5,6 @@
 //
 
 @protocol HMAccessorySettingsDataSourceDataSource
+- (void)+;
 @end
 

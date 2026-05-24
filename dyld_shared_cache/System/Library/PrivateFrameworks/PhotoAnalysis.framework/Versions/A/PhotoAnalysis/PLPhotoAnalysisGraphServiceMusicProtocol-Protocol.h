@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol PLPhotoAnalysisGraphServiceMusicProtocol
+- (void)targetCurationDurationWithPrivateAssets:(NSString *)arg1 sharedAssets:(NSDictionary *)arg2 sharingFilter:(void (^)(NSString *, NSError *))arg3 options: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACMonitoredAccountStore, NSString;
-@protocol CNScheduler;
+@class ACMonitoredAccountStore;
 
 @interface ABACInProcessAccountStore
 {
     ACMonitoredAccountStore *_accountStore;
-    id <CNScheduler> _scheduler;
-    double _migrationDelay;
 }
 
 + (id);
@@ -22,22 +19,22 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (double);
+- (double)A;
 - (id);
 - (id);
 - (id);
@@ -46,15 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ACMonitoredAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double migrationDelay; // @synthesize migrationDelay=_migrationDelay;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSWindow;
 
 @protocol NSLockoutUIOverlayWindow
-- (NSWindow *)ror: /* Error: Ran out of types for this method. */;
+- (void)HasPartiallyOccludedDisplay;
+- (NSWindow *)initWithContentsOfURL:error: /* Error: Ran out of types for this method. */;
 @end
 

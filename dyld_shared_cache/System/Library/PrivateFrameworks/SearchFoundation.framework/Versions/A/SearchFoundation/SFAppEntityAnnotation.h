@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFAppEntityAnnotation
 {
     NSString *_typeIdentifer;
-    NSString *_entityIdentifer;
 }
 
 + (_Bool);
@@ -17,27 +16,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)orderingDirectionMappings;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)*;
+- (id)userTrashAssets:(id)arg1 withTrashedReason: /* Error: Ran out of types for this method. */;
+- (id)mMakerClass(void)_block_invoke;
+- (id)�;
 - (id);
 - (void)extProperty",&,N,V_text_9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *entityIdentifer; // @synthesize entityIdentifer=_entityIdentifer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *typeIdentifer; // @synthesize typeIdentifer=_typeIdentifer;
 
 @end

@@ -7,17 +7,14 @@
 @interface AVTFunCamAvatarPickerStyle
 {
     double _interitemSpacing;
-    struct CGSize _cellSize;
-    struct CGSize _engagedCellSize;
-    struct UIEdgeInsets _gridEdgeInsets;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (id);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)(;
+- (double);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGSize cellSize; // @synthesize cellSize=_cellSize;
-@property(nonatomic) struct CGSize engagedCellSize; // @synthesize engagedCellSize=_engagedCellSize;
-@property(nonatomic) struct UIEdgeInsets gridEdgeInsets; // @synthesize gridEdgeInsets=_gridEdgeInsets;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
 
 @end
 

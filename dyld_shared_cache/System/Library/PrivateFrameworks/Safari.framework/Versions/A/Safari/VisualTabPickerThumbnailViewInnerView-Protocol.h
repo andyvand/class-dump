@@ -5,6 +5,7 @@
 //
 
 @protocol VisualTabPickerThumbnailViewInnerView
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool visibleToUser;

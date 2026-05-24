@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFModesConfiguration
 {
     _Bool _isEyesFree;
-    _Bool _isUIFree;
-    _Bool _isForCarDND;
-    _Bool _isInAmbient;
-    _Bool _isMapsNavigationActive;
-    _Bool _isVoiceTriggerRequest;
-    _Bool _isConnectedToCarPlay;
-    _Bool _isRequestMadeWithPhysicalDeviceInteraction;
-    _Bool _isAudioAccessoryButtonActivation;
-    _Bool _isSiriAutoPrompt;
-    _Bool _isFlexibleFollowup;
-    _Bool _userTypedInSiri;
-    _Bool _isDeviceUnlocked;
-    _Bool _isDeviceScreenON;
-    _Bool _isInitialBringUp;
-    NSString *_modeOverrideValue;
-    long long _isUserEngagedWithDevice;
 }
 
 + (id);
@@ -33,7 +15,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)f;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,12 +27,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)PKDictionaryOfKeyClass:(CDUnknownBlockType)arg1 valueClass:ForKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -60,23 +42,7 @@
 - (void)T*,R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAudioAccessoryButtonActivation; // @synthesize isAudioAccessoryButtonActivation=_isAudioAccessoryButtonActivation;
-@property(readonly, nonatomic) _Bool isConnectedToCarPlay; // @synthesize isConnectedToCarPlay=_isConnectedToCarPlay;
-@property(readonly, nonatomic) _Bool isDeviceScreenON; // @synthesize isDeviceScreenON=_isDeviceScreenON;
-@property(readonly, nonatomic) _Bool isDeviceUnlocked; // @synthesize isDeviceUnlocked=_isDeviceUnlocked;
 @property(readonly, nonatomic) _Bool isEyesFree; // @synthesize isEyesFree=_isEyesFree;
-@property(readonly, nonatomic) _Bool isFlexibleFollowup; // @synthesize isFlexibleFollowup=_isFlexibleFollowup;
-@property(readonly, nonatomic) _Bool isForCarDND; // @synthesize isForCarDND=_isForCarDND;
-@property(readonly, nonatomic) _Bool isInAmbient; // @synthesize isInAmbient=_isInAmbient;
-@property(readonly, nonatomic) _Bool isInitialBringUp; // @synthesize isInitialBringUp=_isInitialBringUp;
-@property(readonly, nonatomic) _Bool isMapsNavigationActive; // @synthesize isMapsNavigationActive=_isMapsNavigationActive;
-@property(readonly, nonatomic) _Bool isRequestMadeWithPhysicalDeviceInteraction; // @synthesize isRequestMadeWithPhysicalDeviceInteraction=_isRequestMadeWithPhysicalDeviceInteraction;
-@property(readonly, nonatomic) _Bool isSiriAutoPrompt; // @synthesize isSiriAutoPrompt=_isSiriAutoPrompt;
-@property(readonly, nonatomic) _Bool isUIFree; // @synthesize isUIFree=_isUIFree;
-@property(readonly, nonatomic) long long isUserEngagedWithDevice; // @synthesize isUserEngagedWithDevice=_isUserEngagedWithDevice;
-@property(readonly, nonatomic) _Bool isVoiceTriggerRequest; // @synthesize isVoiceTriggerRequest=_isVoiceTriggerRequest;
-@property(readonly, copy, nonatomic) NSString *modeOverrideValue; // @synthesize modeOverrideValue=_modeOverrideValue;
-@property(readonly, nonatomic) _Bool userTypedInSiri; // @synthesize userTypedInSiri=_userTypedInSiri;
 
 @end
 

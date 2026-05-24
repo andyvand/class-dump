@@ -16,7 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long audioFilePrefetchThresholdInDays;
 @property(nonatomic, readonly) long long metadataPrefetchThresholdInDays;
 
 @end

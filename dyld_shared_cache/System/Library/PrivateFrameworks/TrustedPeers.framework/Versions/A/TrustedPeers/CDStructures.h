@@ -11,25 +11,20 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CC_SHA256state_st {
-    unsigned int count[2];
-    unsigned int hash[8];
-    unsigned int wbuf[16];
+    unsigned int _field1[2];
+    unsigned int _field2[8];
+    unsigned int _field3[16];
 };
 
 struct CC_SHA512state_st {
-    unsigned long long count[2];
-    unsigned long long hash[8];
-    unsigned long long wbuf[16];
+    unsigned long long _field1[2];
+    unsigned long long _field2[8];
+    unsigned long long _field3[16];
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int ctx[96];
-} CDStruct_43cfb2c2;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int policyVersion:1;
-} CDStruct_0e29c504;
+    unsigned int _field1[96];
+} CDStruct_39d5974f;
 

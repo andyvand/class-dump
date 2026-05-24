@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface, NSXPCListenerEndpoint;
+@class NSString;
 
 @interface AKXPCConnectionConfiguration
 {
     NSString *_machServiceName;
-    unsigned long long _options;
-    NSXPCListenerEndpoint *_daemonXPCEndpoint;
-    id _exportedObject;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteObjectInterface;
 }
 
 - (id);
@@ -21,23 +16,18 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)1;
+- (void)mEventFlightArrivalAirportLocality="%@*"cwd || kMDItemEventFlightArrivalAirportRegion="%@*"cwd || kMDItemEventFlightArrivalAirportCountry="%@*"cwd);
 - (id);
-- (void)seDaemonConnection;
+- (void)AKBaseDaemonConnection;
 - (id)dian;
 - (void)Ü#ößç¿³2ìiÁEc±[¤^ÌSÇwo6zË0ó¹1DäK(Î:(id)arg1 n¹CêË-9ßø6K%Ýuä]1¤17ÝÐÕÐ²ÐÐÐ$Ð¶ÐmÐÐ±ÐèÐÐ*Ð®ÐpÐÐîÐÐßÐTÐnÐÞÐ6ÐÐÂÐûÐ×Ð!Ð#ÐÐäÐ·ÐAÐÐXÐÐÐùÐPÐ­ÐÎÐ ÐÐÐ[ÐÅÐGÐ_ÐÜÐÐÇÐíÐÐáÐøÐjÐµÐ}ÐºÐÐ¼Ð(ÐÿÐ ÐëÐrÐÐRÐÁÐ;ÐfÐ\Ð§ÐWÐÐIÐ¹Ð£ÐÑÐ:Ð7ÐØÐÖÐÀÐªÐÐvÐZÐ¨Ð0ÐñÐ8ÐSÐÐYÐ^Ð¦Ð=ÐwÐÐÐ]ÐÐ¥ÐÐæÐ°ÐzÐFÐ>ÐÐÐÐ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCListenerEndpoint *daemonXPCEndpoint; // @synthesize daemonXPCEndpoint=_daemonXPCEndpoint;
-@property(retain, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
 @property(copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) NSXPCInterface *remoteObjectInterface; // @synthesize remoteObjectInterface=_remoteObjectInterface;
 
 @end
 

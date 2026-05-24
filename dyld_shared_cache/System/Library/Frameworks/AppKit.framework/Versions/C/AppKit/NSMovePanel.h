@@ -6,68 +6,53 @@
 
 #import <AppKit/NSPanel.h>
 
-@class FILocationPopUp, NSButton, NSString, NSTextField, NSURL, NSWindow;
+@class NSURL;
 
 @interface NSMovePanel : NSPanel
 {
     NSURL *_initialURL;
-    NSString *_fileName;
-    FILocationPopUp *_movePopUp;
-    NSTextField *_movePopUpLabel;
-    NSButton *_cancelButton;
-    NSButton *_moveButton;
-    NSWindow *_parentWindow;
-    CDUnknownBlockType _completionHandler;
-    NSMovePanel *_retainedSelf;
 }
 
-+ (void);
-+ (id);
++ (void)ve - failed to duplicate target string for dir %s.  Errno=%{errno}d;
++ (id)sportConnection in addInputHandler;
 - (void);
 - (void);
+- (_Bool)V;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)esponseInternal";
+- (void)_pad1;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)@;
+- (void)@;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)*i;
+- (id)c;
 - (id);
 - (id)1"doingCacheDisplayInRect"b1"ignoreCurrentEvent"b1"sharesParentFirstResponder"b1"inLayoutPass"b1"viewsConstraintsAreClean"b1"viewsLayoutDependentMetricsAreClean"b1"forceMainAppearance"b1"RTLLayoutDirection"b1"forceInactiveShadow"b1"isInactiveRevisionWindow"b1"isClosed"b1"currentLiveResizeEdges"b4"isUserLiveResize"b1"wantsFullScreenModeIfAppropriate"b1"wasVisibleBeforeMinimization"b1"delegateRespondsToWillEncodeRestorableState"b1"wasActiveBeforeCurrentEvent"b1"hasKeyAppearance"b1"hasMainAppearance"b1"shouldHaveKeyAppearance"b1"shouldHaveMainAppearance"b1"hasKeyFocus"b1"hasMainFocus"b1"canHostLayersInWindowServer"b1"hostsLayersInWindowServer"b1"hasIncompatibleAppearanceOverride"b1"stoleKeyFocus"b1"documentShowsPanelOnClose"b1"usesPointIntegralizationForLayout"b1"spaceAssignmentDone"b1"disableUserInteraction"b1"hasWeakTitleBindingToContentViewController"b1"titleVisibility"b3"titlePosition"b3"toolbarStyle"b3"titlebarSeparatorStyle"b2"contentTitlebarSeparatorStyle"b2"autoFlatteningDisabled"b1"minFullScreenContentSizeSet"b1"maxFullScreenContentSizeSet"b1"measuringMinFullScreenContentSize"b1"isRemovingFromParentWindow"b1"overrideIsOnActiveSpace"b1"shouldCleanupFullScreen"b1"isSnapping"b1"windowIsMoving"b1"snapSizeTimerStarted"b1"firstResponderWasSet"b1"ignoreResignFirstResponder"b1"startShowingWindowDockingFeedbackScheduled"b1"preventSetFrameScreenReassignment"b1"selectActiveShadow"b1"isInHiddenWindowTab"b1"temporarilyIgnoreMoves"b1"ignoreWindowStackController"b1"isPerformingRestoration"b1"hasTimeMachineDelegate"b1"layoutUpdateObserverScheduled"b1"RTLLayoutDirectionWasSet"b1"preventedOtherWindowResignKeyAppearance"b1"hasExplicitTabbingIdentifier"b1"firstResponderIsWeak"b1"ignoreResignMainEvent"b1"minimizedInFullScreen"b1"isImplicitlyDetachedFromParent"b1"sidebarIsRegisteredWithSectionController"b1"trailingSidebarIsRegisteredWithSectionController"b1"fullScreenSidebarUsesWithinWindowBlending"b1"tabbedFullHeightSidebarsAreIndependent"b1"hasCreatedUndoManager"b1"orderingSuppressedForFullScreenTransition"b1"orderOutSuppressedForWindowTransformAnimation"b1"wiringNibConnections"b1"pendingMinimizeViaRestoration"b1"disableSheetParentDimming"b1"forceSheetTransparency"b1"disableSheetAnimation"b1"propertySpecifiedCornerRadius"b1"propertySpecifiedCornerPath"b1"validateSecurityOfSuperlayers"b1"skipNextDocumentAnimation"b1"allowEdgeResizingCursorsInInactiveApp"b1"observingGameControllerNavigationSession"b1};
-- (void)nspectorBarView:(id)arg1;
-- (void)eDragSource:(id)arg1;
+- (void)set_isInspectorBarView:(id)arg1;
+- (void)setAlternateDragSource:(id)arg1;
 - (void)was unable to resignFirstResponder on the window's previous firstResponder, because the zeroing weak reference had already been cleared implicitly. Letting an NSResponder deallocate while it is still firstResponder of a window is a programming error, which also breaks KVC compliance for the window's firstResponder property.
 %{public}@;
 - (id)emIdentifier was provided, but an item with that identifier was not provided;
-- (void)eCycle;
+- (void)UpdateCycle;
 - (void)Encountered nil cell/child of single celled control:(id)arg1 %@.;
 - (id);
 - (void)U;
 - (void)BE;
 
 // Remaining properties
-@property(copy) NSURL *directoryURL;
-@property(copy) NSString *fileName; // @synthesize fileName=_fileName;
-@property(readonly) NSURL *finalURL;
-@property(copy) NSURL *initialURL;
-@property(copy) NSString *movePopupFieldLabel; // @dynamic movePopupFieldLabel;
-@property(copy) NSString *prompt; // @dynamic prompt;
 @property(retain) NSMovePanel *retainedSelf; // @synthesize retainedSelf=_retainedSelf;
-@property(copy) NSString *title; // @dynamic title;
 
 @end
 

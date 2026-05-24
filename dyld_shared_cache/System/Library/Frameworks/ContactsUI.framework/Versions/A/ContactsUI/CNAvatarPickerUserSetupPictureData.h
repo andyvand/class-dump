@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CNAvatarPickerUserSetupPictureData
 {
     NSString *_path;
-    NSData *_userPictureData;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSData *userPictureData; // @synthesize userPictureData=_userPictureData;
 
 @end
 

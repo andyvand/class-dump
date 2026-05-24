@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSData, NSString;
+@class NSData, NSString;
 
 @interface CNUIPRLikenessPhotoProvider
 {
     NSData *_originalPhotoData;
-    CNCache *_cache;
-    NSString *_likenessFingerprint;
 }
 
 + (struct CGImage *);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (struct CGImage *);
-- (unsigned long long);
+- (unsigned long long)}ӁB;
 - (id);
 - (struct CGImage *);
 - (struct CGImage *);
@@ -27,15 +25,7 @@
 - (void)der>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *likenessFingerprint; // @synthesize likenessFingerprint=_likenessFingerprint;
-@property(readonly, nonatomic) NSData *originalPhotoData; // @synthesize originalPhotoData=_originalPhotoData;
-@property(readonly) Class superclass;
 
 @end
 

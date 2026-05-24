@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface IAApplication
 {
     NSString *_bundleID;
-    NSString *_displayName;
-    NSString *_imagePath;
-    NSImage *_image;
-    NSMutableDictionary *_userInfo;
-    _Bool _enabled;
-    _Bool _alreadyEnabled;
 }
 
-+ (id);
++ (id);
 - (long long);
 - (void);
 - (id);
@@ -26,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,19 +29,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
-- (id);
+- (id)S;
 - (void);
 
 // Remaining properties
-@property _Bool alreadyEnabled; // @synthesize alreadyEnabled=_alreadyEnabled;
 @property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSImage *image;
-@property(retain) NSString *imagePath; // @synthesize imagePath=_imagePath;
-@property(retain) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

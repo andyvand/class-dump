@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIGestureRecognizer, UILongPressGestureRecognizer, UISelectionFeedbackGenerator, _CNUINavigationListViewPermissiveGestureRecognizerDelegate;
-@protocol CNUINavigationListViewDataSource, CNUINavigationListViewDelegate;
+@class UILongPressGestureRecognizer;
+@protocol CNUINavigationListViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CNUINavigationListView
 {
     id <CNUINavigationListViewDataSource> _navigationListViewDataSource;
-    id <CNUINavigationListViewDelegate> _navigationListViewDelegate;
-    UILongPressGestureRecognizer *_selectionGestureRecognizer;
-    UIGestureRecognizer *_additionalSelectionGestureRecognizer;
-    UIGestureRecognizer *_pressGestureRecognizer;
-    NSIndexPath *_trackedElementIndexPath;
-    UISelectionFeedbackGenerator *_retargetBehavior;
-    _CNUINavigationListViewPermissiveGestureRecognizerDelegate *_selectionGestureRecognizerDelegate;
-    struct CGPoint _gestureStartLocation;
-    struct CGPoint _gestureStartLocationInWindow;
 }
 
 + (_Bool);
@@ -36,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)c;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -61,26 +52,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)applySnapshot:toSection:animatingDifferences:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIGestureRecognizer *additionalSelectionGestureRecognizer; // @synthesize additionalSelectionGestureRecognizer=_additionalSelectionGestureRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGPoint gestureStartLocation; // @synthesize gestureStartLocation=_gestureStartLocation;
-@property(nonatomic) struct CGPoint gestureStartLocationInWindow; // @synthesize gestureStartLocationInWindow=_gestureStartLocationInWindow;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNUINavigationListViewDataSource> navigationListViewDataSource; // @synthesize navigationListViewDataSource=_navigationListViewDataSource;
-@property(nonatomic) __weak id <CNUINavigationListViewDelegate> navigationListViewDelegate; // @synthesize navigationListViewDelegate=_navigationListViewDelegate;
-@property(retain, nonatomic) UIGestureRecognizer *pressGestureRecognizer; // @synthesize pressGestureRecognizer=_pressGestureRecognizer;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *retargetBehavior; // @synthesize retargetBehavior=_retargetBehavior;
 @property(retain, nonatomic) UILongPressGestureRecognizer *selectionGestureRecognizer; // @synthesize selectionGestureRecognizer=_selectionGestureRecognizer;
-@property(retain, nonatomic) _CNUINavigationListViewPermissiveGestureRecognizerDelegate *selectionGestureRecognizerDelegate; // @synthesize selectionGestureRecognizerDelegate=_selectionGestureRecognizerDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSIndexPath *trackedElementIndexPath; // @synthesize trackedElementIndexPath=_trackedElementIndexPath;
 
 @end
 

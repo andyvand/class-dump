@@ -12,8 +12,8 @@
 }
 
 - (long long);
-- (id);
-- (void)urrency;
+- (id)H;
+- (void)totalFeesCurrency;
 
 @end
 

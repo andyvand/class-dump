@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SUDownloadCache
 {
     NSObject<OS_dispatch_queue> *_cacheQueue;
-    NSFileManager *_fileManager;
 }
 
 + (id);
@@ -22,21 +21,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)qI;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

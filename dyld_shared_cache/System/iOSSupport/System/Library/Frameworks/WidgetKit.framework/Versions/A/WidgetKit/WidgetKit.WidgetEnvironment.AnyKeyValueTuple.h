@@ -7,7 +7,6 @@
 @interface WidgetKit.WidgetEnvironment.AnyKeyValueTuple
 {
     id storage;
-    id value;
 }
 
 @end

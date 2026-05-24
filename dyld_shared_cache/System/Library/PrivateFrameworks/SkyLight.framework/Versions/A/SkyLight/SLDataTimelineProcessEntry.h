@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SLDataTimelineProcessWindows;
-
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineProcessEntry
 {
     unsigned long long _windowScreenStates[4];
-    int _pid;
 }
 
-+ (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (int);
++ (id)s);
+- (id)rsistence/source/NSFileBackedFuture.m;
+- (unsigned long long)RYTRANSACTIONID INTEGER;
+- (unsigned long long)CHANGETRACKHISTORYENTITY INTEGER;
+- (unsigned long long)e = 'ZCHANGETRACKHISTORY';
+- (unsigned long long)to mandatory MTM nullify inverse on %@/%@') FROM ZCTE_INTERMEDIATE T0 WHERE (0 == (SELECT COUNT(*) FROM %@ T1 where T1.%@ = T0.%@ and T1.%@ != OLD.Z_PK));
+- (id)ullify inverse on %@/%@') FROM %@ WHERE %@ = OLD.Z_PK;
+- (int);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long offScreen;
-@property(readonly, nonatomic) unsigned long long onScreenOccluded;
-@property(readonly, nonatomic) unsigned long long onScreenVisible;
-@property(readonly, nonatomic) unsigned long long orderedOut;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) id <SLDataTimelineProcessWindows> windowData;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)`;
 - (void);
-- (id);
+- (id)asteboard.NSFilePromiseID;
 - (id);
 - (id);
 - (_Bool);

@@ -7,11 +7,9 @@
 @interface AppKit.FluidAnimationBase
 {
     id animatedObject;
-    id keyPath;
-    id bridgedAnimation;
 }
 
-- (void);
+- (void)E<TransportConnection:(_Bool)arg1:RefCountedWrapper>::GET() [OBJTYPE = TransportConnection::RefCountedWrapper] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

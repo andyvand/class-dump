@@ -7,21 +7,6 @@
 @interface UIKit._UIMagicMorphAnimation.Parameters
 {
     id morphSpring;
-    id widthSpring;
-    id heightSpring;
-    id positionXSpring;
-    id positionYSpring;
-    id transformSpring;
-    id overlayViews;
-    id fallbackBackgroundColor;
-    id contentScale;
-    id reparentingOptions;
-    id crossBlurWhenMorphing;
-    id useIntermediateShape;
-    id tracksPresentationLayer;
-    id kick;
-    id animationSmoothness;
-    id forceCrossfade;
 }
 
 - (id);

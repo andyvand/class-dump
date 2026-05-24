@@ -6,13 +6,12 @@
 
 #import <Safari/SafeAutoFillChoicesPopUpButtonViewController.h>
 
-@class ContactsAutoFillChoicesMenuItemView, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface ContactsAutoFillChoicesPopUpButtonViewController : SafeAutoFillChoicesPopUpButtonViewController
 {
     NSView *_popUpButtonContentView;
-    ContactsAutoFillChoicesMenuItemView *_menuItemView;
 }
 
 - (void);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ContactsAutoFillChoicesMenuItemView *menuItemView; // @synthesize menuItemView=_menuItemView;
 @property(retain, nonatomic) NSView *popUpButtonContentView; // @synthesize popUpButtonContentView=_popUpButtonContentView;
 
 @end

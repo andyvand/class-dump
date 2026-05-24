@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
 @protocol NSCacheDelegate;
 
 @interface CKExpiringCache
 {
     id <NSCacheDelegate> _delegate;
-    NSMapTable *_entries;
-    NSMapTable *_weakCache;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)MLComputePolicy;
+- (void)I;
 - (void);
-- (void);
-- (void);
+- (void)";
 - (id);
-- (id);
+- (id);
 - (void)¬­Ü®D¯ä°±;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <NSCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMapTable *entries; // @synthesize entries=_entries;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMapTable *weakCache; // @synthesize weakCache=_weakCache;
 
 @end
 

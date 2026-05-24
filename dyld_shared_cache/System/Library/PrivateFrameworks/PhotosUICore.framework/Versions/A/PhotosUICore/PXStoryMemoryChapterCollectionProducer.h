@@ -11,7 +11,6 @@
 @interface PXStoryMemoryChapterCollectionProducer : PXStoryTransientChapterCollectionProducer
 {
     NSArray *_workQueue_originalPhotosGraphChapters;
-    PHMemory *_memory;
 }
 
 + (id);

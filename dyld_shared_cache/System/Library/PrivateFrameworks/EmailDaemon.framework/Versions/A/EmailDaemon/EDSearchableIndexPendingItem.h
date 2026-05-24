@@ -5,35 +5,28 @@
 //
 
 @class NSMutableArray, NSString;
-@protocol EDIndexableItem;
 
 @interface EDSearchableIndexPendingItem
 {
     NSString *_identifier;
-    NSMutableArray *_items;
-    id <EDIndexableItem> _referenceItem;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)Serialized express configuration too long ;
 - (id);
-- (id);
+- (id)of %lu bytes, purging entire store;
 - (long long);
 - (void);
 - (void)excluded.junk_level_set_by_user,   junk_level = min(junk_level, excluded.junk_level),   has_red_flag = has_red_flag OR excluded.has_red_flag,   has_orange_flag = has_orange_flag OR excluded.has_orange_flag,   has_yellow_flag = has_yellow_flag OR excluded.has_yellow_flag,   has_green_flag = has_green_flag OR excluded.has_green_flag,   has_blue_flag = has_blue_flag OR excluded.has_blue_flag,   has_purple_flag = has_purple_flag OR excluded.has_purple_flag,   has_gray_flag = has_gray_flag OR excluded.has_gray_flag,   is_icloud_cleanup = is_icloud_cleanup OR excluded.is_icloud_cleanup WHERE count != excluded.count;;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long estimatedSizeInBytes;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) id <EDIndexableItem> referenceItem; // @synthesize referenceItem=_referenceItem;
-@property(readonly, nonatomic) _Bool requiresPreprocessing;
 
 @end
 

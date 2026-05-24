@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface VNFaceLegacyFaceCore
 {
     unsigned long long _profile;
-    double _faceSize;
-    double _faceAngle;
-    long long _trackID;
-    unsigned long long _trackDuration;
-    NSDictionary *_features;
-    struct CGPoint _faceCenter;
-    struct CGPoint _leftEye;
-    struct CGPoint _rightEye;
-    struct CGPoint _mouth;
-    struct CGRect _faceBoundingBox;
 }
 
 + (void);
@@ -30,9 +18,9 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)?G;
 - (struct CGRect);
-- (id);
+- (id)copy:(id)arg1 to:overwriteDestination:progress:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -43,18 +31,7 @@
 - (long long)`´éÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double faceAngle; // @synthesize faceAngle=_faceAngle;
-@property(readonly, nonatomic) struct CGRect faceBoundingBox; // @synthesize faceBoundingBox=_faceBoundingBox;
-@property(readonly, nonatomic) struct CGPoint faceCenter; // @synthesize faceCenter=_faceCenter;
-@property(readonly, nonatomic) double faceSize; // @synthesize faceSize=_faceSize;
-@property(readonly, nonatomic) NSDictionary *features; // @synthesize features=_features;
-@property(readonly, nonatomic) struct CGPoint leftEye; // @synthesize leftEye=_leftEye;
-@property(readonly, nonatomic) struct CGPoint mouth; // @synthesize mouth=_mouth;
 @property(readonly, nonatomic) unsigned long long profile; // @synthesize profile=_profile;
-@property(readonly, nonatomic) unsigned long long requestRevision;
-@property(readonly, nonatomic) struct CGPoint rightEye; // @synthesize rightEye=_rightEye;
-@property(readonly, nonatomic) unsigned long long trackDuration; // @synthesize trackDuration=_trackDuration;
-@property(readonly, nonatomic) long long trackID; // @synthesize trackID=_trackID;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBIntentResponsePayloadFailure
 {
     struct {
         unsigned int appLaunchRequested:1;
         unsigned int errorCode:1;
     } _has;
-    _Bool _appLaunchRequested;
-    int _errorCode;
-    NSString *_enumTypeName;
 }
 
 + (_Bool);
@@ -25,34 +20,22 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)remote_triggerUserNotificationHandoutDueSoonWithReferenceDate:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (id);
-- (void)Request;
-- (void)ier;
+- (void)requiresManualRequest;
+- (void)notebookItemIdentifier;
 - (int);
 
 // Remaining properties
 @property(nonatomic) _Bool appLaunchRequested; // @synthesize appLaunchRequested=_appLaunchRequested;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *enumTypeName; // @synthesize enumTypeName=_enumTypeName;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasAppLaunchRequested;
-@property(readonly, nonatomic) _Bool hasEnumTypeName;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

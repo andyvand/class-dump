@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPNLv4SampleEvaluationFailed : SISchemaInstrumentationMessage
 {
     _Bool _userProfileSandboxFailure;
-    _Bool _xpcClientDisconnected;
-    _Bool _xpcClientNLURequestTimeout;
-    struct {
-        unsigned int userProfileSandboxFailure:1;
-        unsigned int xpcClientDisconnected:1;
-        unsigned int xpcClientNLURequestTimeout:1;
-    } _has;
 }
 
 - (_Bool);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,17 +33,11 @@
 - (_Bool);
 - (id);
 - (id)};
-- (id)eReturned;
+- (id)GATSchemaGATNotForMeResponseReturned;
 - (id),Ø\ì4h@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUserProfileSandboxFailure;
-@property(nonatomic) _Bool hasXpcClientDisconnected;
-@property(nonatomic) _Bool hasXpcClientNLURequestTimeout;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool userProfileSandboxFailure; // @synthesize userProfileSandboxFailure=_userProfileSandboxFailure;
-@property(nonatomic) _Bool xpcClientDisconnected; // @synthesize xpcClientDisconnected=_xpcClientDisconnected;
-@property(nonatomic) _Bool xpcClientNLURequestTimeout; // @synthesize xpcClientNLURequestTimeout=_xpcClientNLURequestTimeout;
 
 @end
 

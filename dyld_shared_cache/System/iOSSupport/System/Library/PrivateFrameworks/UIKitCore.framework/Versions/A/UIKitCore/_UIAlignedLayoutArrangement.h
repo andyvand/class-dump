@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UILayoutArrangement.h>
 
-@class NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlignedLayoutArrangement : _UILayoutArrangement
@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setStatusFDEHasInstitutionalRecoveryKey: /* Error: Ran out of types for this method. */;
+- (id)padded_length RegisterItem chunk %llu of %llu not returned.;
 - (id);
-- (id);
+- (void)tipleSelection;
+- (void)eedTrackIDType:count:completion:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool)Ð1Â0@ù
 × ;
 - (_Bool)Fù±_Ð1Â0@ù
@@ -56,20 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)»ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems;
 @property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) long long axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints;
-@property(nonatomic) _Bool layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling;
-@property(readonly) Class superclass;
 
 @end
 

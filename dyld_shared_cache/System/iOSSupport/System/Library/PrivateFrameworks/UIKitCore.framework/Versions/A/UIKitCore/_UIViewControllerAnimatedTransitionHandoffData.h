@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewFloatAnimatableProperty, _UIViewControllerAnimatedTransitionViewControllerHandoffData, _UIVisualEffectBackdropView;
+@class _UIViewControllerAnimatedTransitionViewControllerHandoffData;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerAnimatedTransitionHandoffData
 {
     _Bool _isPush;
-    _UIViewControllerAnimatedTransitionViewControllerHandoffData *_fromViewControllerHandoffData;
-    _UIViewControllerAnimatedTransitionViewControllerHandoffData *_toViewControllerHandoffData;
-    UIViewFloatAnimatableProperty *_progressValue;
-    _UIVisualEffectBackdropView *_captureBackdropView;
 }
 
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)__auth_got;
 - (id);
 - (id);
 - (id);
@@ -26,11 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)7yQ¬;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIVisualEffectBackdropView *captureBackdropView; // @synthesize captureBackdropView=_captureBackdropView;
 @property(readonly, nonatomic) _UIViewControllerAnimatedTransitionViewControllerHandoffData *fromViewControllerHandoffData; // @synthesize fromViewControllerHandoffData=_fromViewControllerHandoffData;
-@property(readonly, nonatomic) _Bool isPush; // @synthesize isPush=_isPush;
-@property(readonly, nonatomic) UIViewFloatAnimatableProperty *progressValue; // @synthesize progressValue=_progressValue;
-@property(readonly, nonatomic) _UIViewControllerAnimatedTransitionViewControllerHandoffData *toViewControllerHandoffData; // @synthesize toViewControllerHandoffData=_toViewControllerHandoffData;
 
 @end
 

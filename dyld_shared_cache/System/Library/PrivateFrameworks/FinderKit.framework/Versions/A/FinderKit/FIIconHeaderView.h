@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TIconCollectionGroupHeaderView, NSButton, NSString;
+@class FI_TIconCollectionGroupHeaderView, NSString;
 
 @interface FIIconHeaderView
 {
@@ -20,37 +20,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)highImpactCategoryType;
+- (id)serverPathPrefix;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool)observedObjects:observedKeyPath: /* Error: Ran out of types for this method. */;
-- (unsigned long long)undImageView;
+- (_Bool)initWithFunctorWithChange:observedObjects:observedKeyPath: /* Error: Ran out of types for this method. */;
+- (unsigned long long)FI_TRoundImageView;
 - (void);
 - (void)`;
 - (void)wserTableView _setUpImmediateActionGestureRecognizers]E3$_5;
 
 // Remaining properties
-@property(getter=isCollapseButtonHidden) _Bool collapseButtonHidden;
-@property(getter=isCollapseButtonHiddenManually) _Bool collapseButtonHiddenManually;
-@property(getter=isCollapsed) _Bool collapsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isFloating) _Bool floating;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property unsigned long long itemCount;
-@property __weak NSButton *sectionCollapseButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSButton",?,W
-
-@property(readonly) Class superclass;
 @property(copy) NSString *titleStr;
 
 @end

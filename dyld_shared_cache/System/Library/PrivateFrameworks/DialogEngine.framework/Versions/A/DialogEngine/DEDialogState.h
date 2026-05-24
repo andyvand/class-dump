@@ -15,7 +15,7 @@
 - (struct DialogStateFamily);
 - (void);
 - (id);
-- (struct DialogStateUseCase);
+- (struct DialogStateUseCase)rewritePredicate:currentCharacteristicInPredicate:characteristicsToRead:homePresence: /* Error: Ran out of types for this method. */;
 - (void)¸Ð·Ð´Ð°Ð±Ð¾Ð»ÑÑ;
 
 // Remaining properties

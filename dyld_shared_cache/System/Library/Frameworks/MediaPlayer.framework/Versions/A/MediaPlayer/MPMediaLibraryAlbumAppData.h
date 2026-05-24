@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-
 @interface MPMediaLibraryAlbumAppData
 {
     long long _version;
-    NSDictionary *_appDataDict;
-    NSMutableDictionary *_dirtyPopularityDict;
 }
 
 - (id);
@@ -20,8 +16,8 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void)KEY;
+- (id)З;
+- (void)__duration_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;

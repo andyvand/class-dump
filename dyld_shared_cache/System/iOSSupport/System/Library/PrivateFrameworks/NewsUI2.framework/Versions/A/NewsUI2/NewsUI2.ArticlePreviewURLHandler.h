@@ -7,8 +7,6 @@
 @interface NewsUI2.ArticlePreviewURLHandler
 {
     id navigator;
-    id previewManager;
-    id patterns;
 }
 
 @end

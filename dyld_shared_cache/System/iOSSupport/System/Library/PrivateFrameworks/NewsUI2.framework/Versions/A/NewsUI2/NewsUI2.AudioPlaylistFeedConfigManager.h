@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

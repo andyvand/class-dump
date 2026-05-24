@@ -8,30 +8,22 @@ __attribute__((visibility("hidden")))
 @interface LPVisualMediaViewConfiguration
 {
     _Bool _disablePlayback;
-    _Bool _disablePlaybackControls;
-    _Bool _disableAutoPlay;
-    _Bool _allowsLoadingMediaWithAutoPlayDisabled;
-    double _fullScreenTransitionCornerRadius;
 }
 
+- (void)transcriptCollectionViewController:(double)arg1 balloonView:showInlineReplyForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptCanUseOpaqueMask;
+- (void)transcriptButtonTextFont;
+- (void)transcriptBackgroundChannelController;
+- (double)textView:willBeginFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)textPasteConfigurationSupporting:transformPasteItem: /* Error: Ran out of types for this method. */;
+- (_Bool)targetForAction:withSender: /* Error: Ran out of types for this method. */;
+- (_Bool)suggestedRepliesList;
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsLoadingMediaWithAutoPlayDisabled; // @synthesize allowsLoadingMediaWithAutoPlayDisabled=_allowsLoadingMediaWithAutoPlayDisabled;
-@property(nonatomic) _Bool disableAutoPlay; // @synthesize disableAutoPlay=_disableAutoPlay;
 @property(nonatomic) _Bool disablePlayback; // @synthesize disablePlayback=_disablePlayback;
-@property(nonatomic) _Bool disablePlaybackControls; // @synthesize disablePlaybackControls=_disablePlaybackControls;
-@property(nonatomic) double fullScreenTransitionCornerRadius; // @synthesize fullScreenTransitionCornerRadius=_fullScreenTransitionCornerRadius;
 
 @end
 

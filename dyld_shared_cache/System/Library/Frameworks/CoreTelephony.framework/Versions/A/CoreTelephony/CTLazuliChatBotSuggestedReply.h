@@ -11,15 +11,15 @@
     CTLazuliChatBotSuggestion *_data;
 }
 
-+ (_Bool);
++ (_Bool)mentDuration:%f mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SALocalSearchOffer;
 - (_Bool);
 - (id);
-- (void);
+- (void),;
 - (id);
 - (void)ª)ð1Â0@ù
 × ;

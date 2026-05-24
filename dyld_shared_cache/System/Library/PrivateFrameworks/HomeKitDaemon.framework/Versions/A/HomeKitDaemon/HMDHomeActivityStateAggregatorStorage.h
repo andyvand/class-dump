@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, HMDHome, NSMutableDictionary, NSString;
+@class HMCContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateAggregatorStorage
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_userIDByActivityStatusModelID;
-    HMCContext *_context;
-    HMDHome *_home;
 }
 
 + (unsigned long long)r while electing a device to remove user;
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Region",&,N,V_mapRegion;
 - (void);
 - (id);
 - (id);
@@ -32,14 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMCContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 
 @end
 

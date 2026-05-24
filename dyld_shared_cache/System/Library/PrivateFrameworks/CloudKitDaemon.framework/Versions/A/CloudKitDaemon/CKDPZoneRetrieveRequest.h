@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier, NSData;
+@class NSData;
 
 @interface CKDPZoneRetrieveRequest
 {
     NSData *_continuationMarker;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    _Bool _onlyFetchPCSInfo;
-    _Bool _skipContinuation;
-    struct {
-        unsigned int onlyFetchPCSInfo:1;
-        unsigned int skipContinuation:1;
-    } _has;
 }
 
 + (id);
@@ -29,13 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)endpointCluster_activateSubEndpoint;
+- (unsigned long long)r}.darwinNotification;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)ymptom_post action flags %x from filter %p
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,18 +38,11 @@
 - (id);
 - (id)Að!ø@ùQÛ°1Â0@ù
 × ;
-- (Class)cord;
+- (Class)movedRecord;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
-@property(nonatomic) _Bool hasOnlyFetchPCSInfo;
-@property(nonatomic) _Bool hasSkipContinuation;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) _Bool onlyFetchPCSInfo; // @synthesize onlyFetchPCSInfo=_onlyFetchPCSInfo;
-@property(nonatomic) _Bool skipContinuation; // @synthesize skipContinuation=_skipContinuation;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

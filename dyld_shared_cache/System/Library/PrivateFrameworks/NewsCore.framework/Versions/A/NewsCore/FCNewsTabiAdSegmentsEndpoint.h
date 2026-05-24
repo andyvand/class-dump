@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiAdSegmentsEndpoint
 {
     NSString *_packageAssetID;
-    NSString *_adSegmentsOutputName;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id)1Â0@ù
@@ -23,8 +21,6 @@
 - (void)a">16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *adSegmentsOutputName; // @synthesize adSegmentsOutputName=_adSegmentsOutputName;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(readonly, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

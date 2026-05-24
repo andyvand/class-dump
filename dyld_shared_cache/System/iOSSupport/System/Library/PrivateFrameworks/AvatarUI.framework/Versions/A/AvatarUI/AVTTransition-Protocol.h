@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTTransitionModel;
-
 @protocol AVTTransition
+- (void)lld, Current Observers:(_Bool)arg1 %lu;
 
 // Remaining properties
-@property(nonatomic) _Bool animated;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler;
-@property(readonly, nonatomic) id <AVTTransitionModel> model;
-@property(copy, nonatomic) CDUnknownBlockType setupHandler;
 @property(nonatomic) long long state;
 @end
 

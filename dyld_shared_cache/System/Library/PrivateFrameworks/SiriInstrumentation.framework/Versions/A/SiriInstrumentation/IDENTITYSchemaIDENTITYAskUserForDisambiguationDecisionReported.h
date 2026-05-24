@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported : SISchemaInstrumentationMessage
 {
     _Bool _isUserDisambiguationSkipped;
-    struct {
-        unsigned int isUserDisambiguationSkipped:1;
-    } _has;
 }
 
 - (void);
@@ -26,16 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)didStartSharingMyLocationWithHandle: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)oresReported",&,N,V_turnRestatementScoresReported;
 - (id)X¬­;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsUserDisambiguationSkipped;
 @property(nonatomic) _Bool isUserDisambiguationSkipped; // @synthesize isUserDisambiguationSkipped=_isUserDisambiguationSkipped;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

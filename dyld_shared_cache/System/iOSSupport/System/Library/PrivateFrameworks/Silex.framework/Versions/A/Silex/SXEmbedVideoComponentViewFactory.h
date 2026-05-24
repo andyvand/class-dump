@@ -6,17 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@class WKWebsiteDataStore;
-@protocol SXAnalyticsReportingProvider, SXAppStateMonitor, SXComponentActionHandler, SXProxyAuthenticationHandler, SXSceneStateMonitor;
+@protocol SXComponentActionHandler;
 
 @interface SXEmbedVideoComponentViewFactory : SXComponentViewFactory
 {
     id <SXComponentActionHandler> _actionHandler;
-    id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    WKWebsiteDataStore *_dataStore;
-    id <SXProxyAuthenticationHandler> _proxyAuthenticationHandler;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
 }
 
 - (id);
@@ -33,11 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) WKWebsiteDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, nonatomic) id <SXProxyAuthenticationHandler> proxyAuthenticationHandler; // @synthesize proxyAuthenticationHandler=_proxyAuthenticationHandler;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
 
 @end
 

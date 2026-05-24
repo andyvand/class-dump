@@ -6,19 +6,11 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscriptionStatus, NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSHandleEventsInner : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    BPSSubscriptionStatus *_status;
-    CDUnknownBlockType _receiveSubscription;
-    CDUnknownBlockType _receiveOutput;
-    CDUnknownBlockType _receiveCompletion;
-    CDUnknownBlockType _receiveCancel;
-    CDUnknownBlockType _receiveRequest;
-    id <BPSSubscriber> _downstream;
 }
 
 - (id);
@@ -33,14 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

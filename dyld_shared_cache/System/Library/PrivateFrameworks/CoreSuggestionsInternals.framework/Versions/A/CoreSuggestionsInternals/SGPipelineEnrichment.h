@@ -11,34 +11,32 @@
 @interface SGPipelineEnrichment : SGEntity
 {
     _Bool _pendingGeocode;
-    NSData *_contentHash;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@24q32Q40;
++ (id)setOauth2ViewContainer:(id)arg1;
++ (id)retainCount;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_lp_stringByDeletingUsernameAndPassword;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)addRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Àr;
 - (id)e - Could not initialize model with config path:%@, bin path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *contentHash; // @synthesize contentHash=_contentHash;
-@property(nonatomic) _Bool pendingGeocode; // @synthesize pendingGeocode=_pendingGeocode;
 
 @end
 

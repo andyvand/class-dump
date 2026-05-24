@@ -9,19 +9,11 @@
 @interface _LSDatabase
 {
     FSNode *node;
-    struct LSSessionKey sessionKey;
-    struct __CSStoreAccessContext *accessContext;
-    unsigned int needsUpdate:1;
-    unsigned int isForcedForXCTesting:1;
-    unsigned int isForcedForRemoteUpdates:1;
-    struct __CSStore *_store;
-    struct LSSchema _schema;
-    _Bool _shouldBeDeletedOnOpen;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)	k;
 - (id);
 - (void)ô;
 

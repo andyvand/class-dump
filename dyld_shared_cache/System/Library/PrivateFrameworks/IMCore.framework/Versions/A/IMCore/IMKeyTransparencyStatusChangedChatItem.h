@@ -11,20 +11,16 @@
 @interface IMKeyTransparencyStatusChangedChatItem : IMTranscriptChatItem
 {
     _Bool _groupChat;
-    NSArray *_affectedHandles;
-    unsigned long long _status;
 }
 
-- (id);
-- (id);
+- (id)iled to create local video attributes;
+- (id)ailed to send oneToOneModeEnabled=%d message;
 - (_Bool);
 - (unsigned long long);
 - (void)øGhH;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *affectedHandles; // @synthesize affectedHandles=_affectedHandles;
-@property(readonly, getter=isGroupChat) _Bool groupChat; // @synthesize groupChat=_groupChat;
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

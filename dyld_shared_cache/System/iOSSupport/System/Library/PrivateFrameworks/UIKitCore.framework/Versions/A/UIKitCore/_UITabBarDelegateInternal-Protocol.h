@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITabBar, UIWindow;
+
 @protocol _UITabBarDelegateInternal
+
+@optional
+- (UIWindow *)updateLastAddressedHandle:(UITabBar *)arg1 forceUpdate: /* Error: Ran out of types for this method. */;
 @end
 

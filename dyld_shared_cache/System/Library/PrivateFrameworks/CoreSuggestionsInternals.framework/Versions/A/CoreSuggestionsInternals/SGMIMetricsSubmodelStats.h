@@ -7,26 +7,15 @@
 @interface SGMIMetricsSubmodelStats
 {
     unsigned int _ageOfTheSubmodelInDays;
-    unsigned int _nbExtremelyDiscriminantTokensForIgnorability;
-    unsigned int _nbExtremelyDiscriminantTokensForSaliency;
-    unsigned int _nbHighlyDiscriminantTokensForIgnorability;
-    unsigned int _nbHighlyDiscriminantTokensForSaliency;
-    struct {
-        unsigned int ageOfTheSubmodelInDays:1;
-        unsigned int nbExtremelyDiscriminantTokensForIgnorability:1;
-        unsigned int nbExtremelyDiscriminantTokensForSaliency:1;
-        unsigned int nbHighlyDiscriminantTokensForIgnorability:1;
-        unsigned int nbHighlyDiscriminantTokensForSaliency:1;
-    } _has;
 }
 
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,23 +33,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ng dictionary representation for store <(%@)>;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int ageOfTheSubmodelInDays; // @synthesize ageOfTheSubmodelInDays=_ageOfTheSubmodelInDays;
 @property(nonatomic) _Bool hasAgeOfTheSubmodelInDays;
-@property(nonatomic) _Bool hasNbExtremelyDiscriminantTokensForIgnorability;
-@property(nonatomic) _Bool hasNbExtremelyDiscriminantTokensForSaliency;
-@property(nonatomic) _Bool hasNbHighlyDiscriminantTokensForIgnorability;
-@property(nonatomic) _Bool hasNbHighlyDiscriminantTokensForSaliency;
-@property(nonatomic) unsigned int nbExtremelyDiscriminantTokensForIgnorability; // @synthesize nbExtremelyDiscriminantTokensForIgnorability=_nbExtremelyDiscriminantTokensForIgnorability;
-@property(nonatomic) unsigned int nbExtremelyDiscriminantTokensForSaliency; // @synthesize nbExtremelyDiscriminantTokensForSaliency=_nbExtremelyDiscriminantTokensForSaliency;
-@property(nonatomic) unsigned int nbHighlyDiscriminantTokensForIgnorability; // @synthesize nbHighlyDiscriminantTokensForIgnorability=_nbHighlyDiscriminantTokensForIgnorability;
-@property(nonatomic) unsigned int nbHighlyDiscriminantTokensForSaliency; // @synthesize nbHighlyDiscriminantTokensForSaliency=_nbHighlyDiscriminantTokensForSaliency;
 
 @end
 

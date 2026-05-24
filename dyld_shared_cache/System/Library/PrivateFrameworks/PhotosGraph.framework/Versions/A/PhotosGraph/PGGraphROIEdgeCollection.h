@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)]N;
 
 @end
 

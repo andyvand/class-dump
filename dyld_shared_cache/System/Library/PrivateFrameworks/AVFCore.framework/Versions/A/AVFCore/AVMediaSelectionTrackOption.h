@@ -6,25 +6,17 @@
 
 #import <AVFCore/AVMediaSelectionOption.h>
 
-@class AVAssetTrack, AVWeakReference, NSArray, NSDictionary, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionTrackOption : AVMediaSelectionOption
 {
     id _groupID;
-    AVAssetTrack *_track;
-    NSDictionary *_dictionary;
-    AVWeakReference *_weakReferenceToGroup;
-    _Bool _displaysNonForcedSubtitles;
-    NSNumber *_audioCompositionPresetIndex;
-    NSArray *_audioCompositionPresetIndexesForFallbackIDs;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -35,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)}@" to be soft-linked in to all clients. Please address this before shipping.;
 - (id)¸ô;
 - (_Bool)CoordinatorBufferingCommand init] unavailable;
 - (int)¤¤êÿ[Geÿ;

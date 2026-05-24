@@ -14,13 +14,13 @@
 }
 
 - (id);
+- (id)]S(aH*j;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ChildEnvironment;
 - (id);
 - (void);
+- (id);
+- (void)CPKEmojiIMRequestShowHideCloseButtonNotification;
 
 // Remaining properties
 @property(retain) NSString *peerAddress; // @synthesize peerAddress=_peerAddress;

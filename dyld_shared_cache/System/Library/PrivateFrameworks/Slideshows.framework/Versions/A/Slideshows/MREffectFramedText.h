@@ -6,31 +6,11 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectFramedText : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRCroppingSprite *mSprite;
-    MRCroppingSprite *mTextSprite;
-    MRImage *mTextImage;
-    float *mVertices;
-    float *mFrameTextureCoordinates;
-    struct CGRect mTextRect;
-    struct CGRect mInnerFrameRect;
-    double mHalfWidth;
-    double mYPosition;
-    double mScrollY;
-    double mNewScrollY;
-    double mFrameTime;
-    double mHitOffFrameTime;
-    float mVelocity;
-    _Bool mWasUpdatedSinceLastRendering;
-    _Bool mLiveAttributesWereUpdatedSinceLastRendering;
-    _Bool mHasTextRect;
-    _Bool mStretchesHorizontally;
-    _Bool mIsHit;
-    _Bool mNewIsHit;
 }
 
 + (void)ø&;
@@ -39,14 +19,14 @@
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)droppedEntriesByLocalReason;
+- (_Bool)NDAnalyticsEnvelopeManager _handleDroppedEnvelopesForLocalReasons:(double)arg1 ];
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (struct CGSize);
 - (long long);
-- (void);
+- (void));
 - (double);
 - (void);
 - (_Bool);

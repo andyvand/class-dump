@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface _MLCANEWeightOps
 {
     NSMutableDictionary *_weights;
-    NSMutableArray *_weightFiles;
-    NSMutableDictionary *_weightFileIndexMap;
-    NSMutableDictionary *_constantTensorMap;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)=t;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *constantTensorMap; // @synthesize constantTensorMap=_constantTensorMap;
-@property(readonly, nonatomic) NSMutableDictionary *weightFileIndexMap; // @synthesize weightFileIndexMap=_weightFileIndexMap;
-@property(readonly, nonatomic) NSMutableArray *weightFiles; // @synthesize weightFiles=_weightFiles;
 @property(readonly, nonatomic) NSMutableDictionary *weights; // @synthesize weights=_weights;
 
 @end

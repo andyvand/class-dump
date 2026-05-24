@@ -7,30 +7,23 @@
 @interface AWDWRMLinkPrefInit
 {
     unsigned long long _timestamp;
-    unsigned int _countCellular;
-    unsigned int _countWifi;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int countCellular:1;
-        unsigned int countWifi:1;
-    } _has;
 }
 
+- (void)R/;
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
 - (void);
@@ -39,12 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int countCellular; // @synthesize countCellular=_countCellular;
-@property(nonatomic) unsigned int countWifi; // @synthesize countWifi=_countWifi;
-@property(nonatomic) _Bool hasCountCellular;
-@property(nonatomic) _Bool hasCountWifi;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

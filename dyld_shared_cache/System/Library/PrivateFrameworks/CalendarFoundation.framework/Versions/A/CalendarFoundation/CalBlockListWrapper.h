@@ -9,8 +9,6 @@
 @interface CalBlockListWrapper
 {
     id blockList;
-    id knownBlockedLock;
-    CalAccumulatingQueue *cacheUpdatingQueue;
 }
 
 + (id);
@@ -25,11 +23,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(nonatomic, readonly) CalAccumulatingQueue *cacheUpdatingQueue; // @synthesize cacheUpdatingQueue;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

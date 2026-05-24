@@ -7,8 +7,6 @@
 @interface PencilKit.StrokeAnimationController
 {
     id tiledView;
-    id containerView;
-    id drawingTransform;
 }
 
 @end

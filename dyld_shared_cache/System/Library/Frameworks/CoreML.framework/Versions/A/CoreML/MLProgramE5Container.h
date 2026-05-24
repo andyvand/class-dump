@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCompilerNeuralNetworkOutput, MLModelAssetDescription, MLVersionInfo, NSArray, NSURL;
+@class MLModelAssetDescription, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MLProgramE5Container
 {
     MLModelAssetDescription *_modelAssetDescription;
-    MLCompilerNeuralNetworkOutput *_compilerOutput;
-    NSURL *_URLOfMILText;
-    MLVersionInfo *_compilerVersionInfo;
-    MLVersionInfo *_modelVersionInfo;
-    NSArray *_functionInfoArray;
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
+- (id)c_object>"8;
+- (id)a MTLTileRenderPipelineColorAttachmentDescriptor.;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)eND layer:mismatch between rank of the input and the length of 'begin ids' parameter /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URLOfMILText; // @synthesize URLOfMILText=_URLOfMILText;
-@property(readonly, nonatomic) MLCompilerNeuralNetworkOutput *compilerOutput; // @synthesize compilerOutput=_compilerOutput;
-@property(readonly, nonatomic) MLVersionInfo *compilerVersionInfo; // @synthesize compilerVersionInfo=_compilerVersionInfo;
 @property(readonly, copy, nonatomic) NSArray *functionInfoArray; // @synthesize functionInfoArray=_functionInfoArray;
-@property(readonly, copy, nonatomic) MLModelAssetDescription *modelAssetDescription; // @synthesize modelAssetDescription=_modelAssetDescription;
-@property(readonly, nonatomic) MLVersionInfo *modelVersionInfo; // @synthesize modelVersionInfo=_modelVersionInfo;
 
 @end
 

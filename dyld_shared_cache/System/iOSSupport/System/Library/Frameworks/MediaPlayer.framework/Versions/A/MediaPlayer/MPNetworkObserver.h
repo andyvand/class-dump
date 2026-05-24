@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MPNetworkObserver
 {
     int _musicCellularNetworkingAllowedNotifyToken;
-    int _videosPreferencesChangedToken;
-    long long _networkUsageCount;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _videosAllowsCellularStreaming;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -28,16 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)k__MAPPING_MISSING__;
+- (_Bool)uZ;
+- (_Bool);
+- (void)__MPModelPropertyGenreArtwork__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isUsingNetwork;
-@property(nonatomic, getter=isMusicCellularDownloadingAllowed) _Bool musicCellularDownloadingAllowed;
-@property(nonatomic, getter=isMusicCellularStreamingAllowed) _Bool musicCellularStreamingAllowed;
-@property(readonly, nonatomic, getter=isStoreCellularNetworkingAllowed) _Bool storeCellularNetworkingAllowed;
-@property(nonatomic, getter=isVideoCellularStreamingAllowed) _Bool videoCellularStreamingAllowed;
 
 @end
 

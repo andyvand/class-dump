@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SSPurchaseResponse
 {
     NSArray *_downloads;
-    NSDictionary *_rawResponse;
-    NSDictionary *_metrics;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) NSArray *downloads; // @synthesize downloads=_downloads;
-@property(retain) NSDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

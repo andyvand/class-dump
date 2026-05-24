@@ -6,25 +6,15 @@
 
 #import <IMSharedUtilities/IMItem.h>
 
-@class NSString;
-
 @interface IMMessageActionItem : IMItem
 {
     long long _actionType;
-    NSString *_otherCountryCode;
-    NSString *_otherHandle;
-    NSString *_otherUnformattedID;
-    NSString *_originalMessageGUID;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSString *originalMessageGUID; // @synthesize originalMessageGUID=_originalMessageGUID;
-@property(retain, nonatomic) NSString *otherCountryCode; // @synthesize otherCountryCode=_otherCountryCode;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSString *otherUnformattedID; // @synthesize otherUnformattedID=_otherUnformattedID;
 
 @end
 

@@ -6,52 +6,48 @@
 
 #import <TSReading/TSDFill.h>
 
-@class NSArray, NSMutableArray, NSString, TSUColor;
+@class NSMutableArray;
 
 @interface TSDGradient : TSDFill
 {
     NSMutableArray *mStops;
-    unsigned long long mType;
-    double mOpacity;
-    struct CGShading *mShadingRef;
-    _Bool mIsAdvancedGradient;
 }
 
++ (_Bool);
 + (_Bool);
-+ (_Bool);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-- (id);
+- (id);
 - (id);
 - (struct CGPoint);
 - (struct CGShading *);
+- (void)@;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)<;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGContext *);
+- (void);
+- (struct CGContext *);
 - (id);
 - (long long);
 - (id);
@@ -69,7 +65,43 @@
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (id);
+- (id)ype":3,
+            "display_order":3,
+            "fallback_order":0,
+            "cached_result_cutoff_time":28800,
+            "aggregation_policy":0,
+            "maximum_slot_allocation":5,
+            "minimum_slot_allocation":1,
+            "read_stories_filter_method":2,
+            "seen_stories_filter_method":0,
+            "filter_duplicate_clusters_within_section":false,
+            "filter_duplicate_clusters_across_sections":false,
+            "filter_paywalled_stories":false,
+            "promotion_criterion":0,
+            "max_articles_shown":5,
+            "channel_muting_enabled":true,
+            "seen_stories_minimum_time_since_first_seen_to_filter":900,
+            "personalization_feature_id":"f8+topstories___2",
+            "shown_in_favorites_only_mode":false,
+            "queue_membership":[1],
+            "glanceable":true,
+            "enabled":true,
+            "curation_type":"TOP_STORIES",
+            "curation_category":"DEFAULT",
+            "supported_versions":["TIGRIS"],
+            "enabled_on_publish":true,
+            "tag_id":"TqT-jfrI0QXaYqGoz68HYeQ",
+            "name_action_url":"http://apple.news/TqT-jfrI0QXaYqGoz68HYeQ",
+            "articles":[
+                {"id":"ALqZbKd77Tj2Y3TllKVhrHg"},
+                {"id":"A9Ch7haUwRMKqOU8TFj-afg"},
+                {"id":"AKdEIC7wIT62b9OQhYPSxlg"},
+                {"id":"A-7o7NJ1uTx2p1mrInLF_DQ"},
+                {"id":"AK1ShZC40RI-AUYuKI8FiqQ"}
+            ]
+        }
+    ]
+} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -88,16 +120,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TSUColor *firstColor;
-@property(readonly, retain, nonatomic) NSArray *gradientStops;
-@property(readonly, nonatomic) unsigned long long gradientType; // @synthesize gradientType=mType;
-@property(readonly, nonatomic) _Bool hasAlpha;
-@property(nonatomic) _Bool isAdvancedGradient; // @synthesize isAdvancedGradient=mIsAdvancedGradient;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(readonly, nonatomic) TSUColor *lastColor;
 @property(nonatomic) double opacity; // @synthesize opacity=mOpacity;
-@property(readonly, nonatomic) NSString *presetKind;
-@property(readonly, nonatomic) struct CGShading *shadingRef;
 
 @end
 

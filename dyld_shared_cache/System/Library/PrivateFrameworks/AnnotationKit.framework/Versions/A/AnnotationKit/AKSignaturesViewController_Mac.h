@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKSignatureCaptureViewController_Mac, NSButton, NSLayoutConstraint, NSString, NSTableView, NSTextField, NSView;
+@class AKSignatureCaptureViewController_Mac, NSTableView;
 
 @interface AKSignaturesViewController_Mac
 {
     AKSignatureCaptureViewController_Mac *_captureViewController;
-    double _signaturesListWidth;
-    double _tableViewBottomConstant;
-    CDUnknownBlockType _completionHandler;
-    id _presentingContainer;
-    NSTableView *_tableView;
-    NSView *_containerView;
-    NSButton *_createSignatureButton;
-    NSLayoutConstraint *_tableTrailingSpaceConstraint;
-    NSTextField *_warningTextField;
-    AKController *_controller;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -42,22 +32,79 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (void);
+- (id)HMSettingLanguageValueOutputVoiceLanaguageCodePayloadKey;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)@;
+- (void)if (patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 6) {
+        int boundaryMask = OsdGetPatchBoundaryMask(fvarPatchParam);
+        OsdGetBSplinePatchWeights(uv.x, uv.y, 1.0f, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+#else
+    float wP[4], wDs[4], wDt[4], wDss[4], wDst[4], wDtt[4];
+    int patchCVs = 4;
+    int patchStride = patchCVs;
+    OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+#endif
+    
+    for (int i = 0; i < patchCVs; ++i) {
+        int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * OSD_FVAR_WIDTH + 0 ;
+#if defined(HAS_VERTEX_COLOR) && (OSD_COLOR_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.color += wP[i] * float4(osdFaceVaryingData[index], osdFaceVaryingData[index+1], osdFaceVaryingData[index+2], osdFaceVaryingData[index+3]);
+        index += 4;
+#endif
+#if defined(NEED_IN_TEXCOORD0) && (OSD_TEXCOORD0_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[0] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD1) && (OSD_TEXCOORD1_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[1] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD2) && (OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[2] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD3) && (OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[3] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD4) && (OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[4] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+    }
+#endif 
+}
+#endif 
+;
 - (id);
 - (void);
-- (long long);
+- (long long)t;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -68,24 +115,10 @@
 × ;
 - (id)!¬@ù11Â0@ù
 × ;
-- (id)ectForRect:withStrokeWidth:alignToScreenUsingPageController:orAlignToContext:usingAnnotation: /* Error: Ran out of types for this method. */;
+- (id)renderingStrokeAlignedRectForRect:withStrokeWidth:alignToScreenUsingPageController:orAlignToContext:usingAnnotation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property __weak AKController *controller; // @synthesize controller=_controller;
-@property(retain) NSButton *createSignatureButton; // @synthesize createSignatureButton=_createSignatureButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id presentingContainer; // @synthesize presentingContainer=_presentingContainer;
-@property(readonly) Class superclass;
-@property(retain) NSLayoutConstraint *tableTrailingSpaceConstraint; // @synthesize tableTrailingSpaceConstraint=_tableTrailingSpaceConstraint;
 @property(retain) NSTableView *tableView; // @synthesize tableView=_tableView;
-@property(retain) NSTextField *warningTextField; // @synthesize warningTextField=_warningTextField;
 
 @end
 

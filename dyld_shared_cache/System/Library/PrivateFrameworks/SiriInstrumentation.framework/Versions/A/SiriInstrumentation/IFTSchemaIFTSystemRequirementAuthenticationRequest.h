@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSystemRequirementAuthenticationRequest : SISchemaInstrumentationMessage
 {
     int _authenticationLevel;
-    struct {
-        unsigned int authenticationLevel:1;
-    } _has;
 }
 
 - (void);
@@ -26,16 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)tContext",&,N,V_experimentContext;
-- (id)sExecution;
+- (id)FLOWSchemaFLOWMapsExecution;
 
 // Remaining properties
 @property(nonatomic) int authenticationLevel; // @synthesize authenticationLevel=_authenticationLevel;
-@property(nonatomic) _Bool hasAuthenticationLevel;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

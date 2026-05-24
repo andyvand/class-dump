@@ -6,68 +6,52 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSLayoutConstraint, NSString, UIAlertVisualStyleUpdatableConstraints, UIGestureRecognizer, UIView, _UIKeyboardLayoutAlignmentView, _UIStatesFeedbackGenerator;
-@protocol _UIForcePresentationControllerDelegate;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerPresentationController : UIPresentationController
 {
     UIView *_dimmingView;
-    _UIKeyboardLayoutAlignmentView *keyboardLayoutAlignmentView;
-    UIView *keyboardLayoutAlignmentAvailableSpaceView;
-    UIAlertVisualStyleUpdatableConstraints *_visualStyleUpdatableConstraints;
-    NSLayoutConstraint *_topAvailableSpaceConstraint;
-    NSLayoutConstraint *_bottomAvailableSpaceConstraint;
-    _Bool constraintsPrepared;
-    _Bool _sourceViewSnapshotAndScaleTransformSuppressed;
-    _Bool _chromeHidden;
-    _Bool __isCurrentContext;
-    _Bool __shouldRespectNearestCurrentContextPresenter;
-    UIGestureRecognizer *_panningGestureRecognizer;
-    CDUnknownBlockType _presentationPhaseCompletionBlock;
-    id <_UIForcePresentationControllerDelegate> _forcePresentationControllerDelegate;
-    UIView *_revealContainerView;
-    _UIStatesFeedbackGenerator *_feedbackGenerator;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (void)setPersonCentricID:(_Bool)arg1;
+- (void)participantDestinationIdentifierWithBasicMessage:(CDUnknownBlockType)arg1;
+- (void)messagesWithAssociatedGUID:(id)arg1 shouldLoadAttachments: /* Error: Ran out of types for this method. */;
+- (void)hasActualService;
+- (CDUnknownBlockType)_numberOfRepliesFor:fallbackFilterCategory:fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
+- (id)_nukeCKData;
+- (id)_didUpdateChatStatusWithContext:mergedChatsCache: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)(;
+- (void)to find chat for message:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)art matching file transfer GUID, using 0 as the message part index.;
+- (_Bool)essagePipelineComponent> Allowing instant delivery of %@, skipDeferral is set;
+- (void)%@;
+- (void)te transfer:(_Bool)arg1 %@;
+- (void)sage profile:(_Bool)arg1 %@;
+- (id)essfully reuploaded our local nickname %@ %@;
+- (void)iled To Transcode and upload, error:%@ /* Error: Ran out of types for this method. */;
+- (id)achments for peer relay:%@ /* Error: Ran out of types for this method. */;
+- (void)download via CloudKit;
+- (void)ackward compatibility message, ignoring.;
+- (_Bool)t for chatID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)MessageSendableUTIs;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (void);
 - (void)1Â0@ù
 × ;
 - (_Bool)invalidateEverything;
-- (_Bool)oller;
+- (_Bool)_TFTextFormattingContentViewController;
 - (void)itiatingCell cannot be nil in %@;
 - (id)ion. ;
-- (long long)UIFocusDefaultAppearanceEnabled;
-- (void)rdTransitionInhibitStart;
+- (long long)_UIFocusDefaultAppearanceEnabled;
+- (void)_UISplitKeyboardTransitionInhibitStart;
 - (id);
 - (_Bool)2;
 - (void)èù;
@@ -77,23 +61,7 @@ __attribute__((visibility("hidden")))
 - (id)ñe;
 
 // Remaining properties
-@property(nonatomic, getter=_isChromeHidden, setter=_setChromeHidden:) _Bool _chromeHidden; // @synthesize _chromeHidden;
 @property(readonly) UIView *_dimmingView; // @synthesize _dimmingView;
-@property(setter=_setIsCurrentContext:) _Bool _isCurrentContext; // @synthesize _isCurrentContext=__isCurrentContext;
-@property(readonly, nonatomic) UIView *_revealContainerView; // @synthesize _revealContainerView;
-@property(setter=_setShouldRespectNearestCurrentContextPresenter:) _Bool _shouldRespectNearestCurrentContextPresenter; // @synthesize _shouldRespectNearestCurrentContextPresenter=__shouldRespectNearestCurrentContextPresenter;
-@property(nonatomic) _Bool _sourceViewSnapshotAndScaleTransformSuppressed; // @synthesize _sourceViewSnapshotAndScaleTransformSuppressed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(nonatomic) __weak id <_UIForcePresentationControllerDelegate> forcePresentationControllerDelegate; // @synthesize forcePresentationControllerDelegate=_forcePresentationControllerDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIGestureRecognizer *panningGestureRecognizer; // @synthesize panningGestureRecognizer=_panningGestureRecognizer;
-@property(copy, nonatomic) CDUnknownBlockType presentationPhaseCompletionBlock; // @synthesize presentationPhaseCompletionBlock=_presentationPhaseCompletionBlock;
-@property(readonly) Class superclass;
 
 @end
 

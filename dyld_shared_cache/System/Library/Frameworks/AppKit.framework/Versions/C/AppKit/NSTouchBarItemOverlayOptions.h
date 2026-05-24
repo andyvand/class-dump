@@ -7,26 +7,22 @@
 @interface NSTouchBarItemOverlayOptions
 {
     long long _type;
-    struct CGPoint _point;
-    long long _edge;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
-- (id)eneSessions:(struct _NSZone *)arg1;
+- (id)application:(struct _NSZone *)arg1 didDiscardSceneSessions: /* Error: Ran out of types for this method. */;
 - (const struct CGPoint *);
 - (long long)¬';
 
 // Remaining properties
-@property(readonly) long long edge;
-@property(readonly) const struct CGPoint *point;
 @property(readonly) long long type;
 
 @end

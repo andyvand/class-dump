@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFContextualActionIcon;
+@class NSString;
 
 @interface WFAutoShortcutEntityInfo
 {
     NSString *_name;
-    NSString *_subtitle;
-    WFContextualActionIcon *_icon;
-    unsigned long long _badge;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)google.protobuf.EnumDescriptorProto;
+- (void)@24q32^@40;
 - (id);
 - (void);
 - (unsigned long long)BundleMetadataCache;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long badge; // @synthesize badge=_badge;
-@property(readonly, nonatomic) WFContextualActionIcon *icon; // @synthesize icon=_icon;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 
 @end
 

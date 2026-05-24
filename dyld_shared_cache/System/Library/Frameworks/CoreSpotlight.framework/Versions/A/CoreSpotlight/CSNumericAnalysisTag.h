@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CSNumericAnalysisTag
 {
     NSNumber *_primaryValue;
-    NSArray *_components;
-    double _confidence;
 }
 
 + (_Bool);
@@ -24,12 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy) NSNumber *primaryValue; // @synthesize primaryValue=_primaryValue;
 
 @end

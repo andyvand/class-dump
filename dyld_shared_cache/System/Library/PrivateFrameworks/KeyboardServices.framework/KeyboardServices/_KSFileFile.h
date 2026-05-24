@@ -6,15 +6,9 @@
 
 #import <KeyboardServices/_KSFileEntry.h>
 
-@class NSDate, NSURL;
-
 @interface _KSFileFile : _KSFileEntry
 {
     int _protectionClass;
-    NSURL *_url;
-    NSDate *_lastModified;
-    unsigned long long _offset;
-    unsigned long long _size;
 }
 
 + (int);
@@ -23,15 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)familyMemberScopedContactStore;
+- (id)PlanetsAvatarLayoutConfigurations;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 
 @end

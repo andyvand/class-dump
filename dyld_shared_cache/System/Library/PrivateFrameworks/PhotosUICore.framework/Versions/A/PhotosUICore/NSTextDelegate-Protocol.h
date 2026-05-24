@@ -7,6 +7,7 @@
 @protocol NSTextDelegate
 
 @optional
-- (void)adersFadeoutDistance;
+- (void)9;
+- (void)monthsInlineHeadersFadeoutDistance;
 @end
 

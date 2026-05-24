@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WMFPlayer;
-
 __attribute__((visibility("hidden")))
 @interface WMFReader
 {
     int m_recordsRead;
-    WMFPlayer *m_player;
-    unsigned int m_length;
-    const char *m_pBuffer;
-    unsigned int m_cursor;
 }
 
 - (int);
@@ -25,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (int),;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

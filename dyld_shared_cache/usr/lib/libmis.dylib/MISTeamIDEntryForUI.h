@@ -9,9 +9,6 @@
 @interface MISTeamIDEntryForUI
 {
     _Bool _trusted;
-    _Bool _hasAuxiliarySignature;
-    NSString *_teamID;
-    NSString *_teamName;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)organizationName;
 - (_Bool);
 - (id);
 - (void);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasAuxiliarySignature; // @synthesize hasAuxiliarySignature=_hasAuxiliarySignature;
 @property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
-@property(copy, nonatomic) NSString *teamName; // @synthesize teamName=_teamName;
-@property(nonatomic) _Bool trusted; // @synthesize trusted=_trusted;
 
 @end
 

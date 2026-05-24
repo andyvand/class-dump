@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol VCControlChannelMessageProtocol
+- (NSData *);
 
 // Remaining properties
-@property(readonly) NSData *VCCCData;
 @property(readonly) unsigned long long VCCCLength;
-@property(readonly) NSString *VCCCPayloadKey;
-@property(readonly) NSString *VCCCString;
 @end
 

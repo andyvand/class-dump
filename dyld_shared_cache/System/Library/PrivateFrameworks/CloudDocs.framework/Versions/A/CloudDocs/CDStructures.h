@@ -48,13 +48,13 @@ struct __sbuf {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long first_max_num;
-    unsigned long long first_max_ms;
-    unsigned long long progress_max_num;
-    unsigned long long progress_max_ms;
-    unsigned long long update_max_num;
-    unsigned long long update_max_ms;
-} CDStruct_37e85dac;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+} CDStruct_a16f0967;
 
 typedef struct {
     unsigned long long _field1;

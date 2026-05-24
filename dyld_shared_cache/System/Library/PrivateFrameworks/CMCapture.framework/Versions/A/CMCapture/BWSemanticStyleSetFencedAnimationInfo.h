@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
+- (void)TSUQuicklookResource;
 - (id);
 
 // Remaining properties

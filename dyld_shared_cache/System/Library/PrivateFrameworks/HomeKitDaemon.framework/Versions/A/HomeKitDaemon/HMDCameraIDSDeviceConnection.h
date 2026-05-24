@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, HMFTimer, IDSDeviceConnection, NSObject, NSString;
-@protocol HMDIDSService, OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSDeviceConnection
 {
     unsigned char _keepAliveCounter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    id <HMDIDSService> _idsProxyStreamService;
-    IDSDeviceConnection *_watchVideoConnection;
-    IDSDeviceConnection *_watchAudioConnection;
-    IDSDeviceConnection *_keepAliveConnection;
-    NSObject<OS_dispatch_queue> *_highPriorityQueue;
-    NSObject<OS_dispatch_source> *_keepAliveSocketReceiveSource;
-    HMFTimer *_keepAliveByteSendTimer;
-    HMFTimer *_keepAliveByteReceiveTimeoutTimer;
-    CDUnknownBlockType _idsDeviceConnectionFactory;
 }
 
 + (id)øB;
-- (id);
-- (id);
-- (id);
+- (id)initWithGeoWaypointRoute:initializerData: /* Error: Ran out of types for this method. */;
+- (id)initWithCoordinate: /* Error: Ran out of types for this method. */;
+- (id)e>",&,N,V_ioQueue;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%@;
+- (void)MSPCollections;
 - (id);
 - (id);
 - (id);
@@ -48,20 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType idsDeviceConnectionFactory; // @synthesize idsDeviceConnectionFactory=_idsDeviceConnectionFactory;
-@property(readonly, nonatomic) id <HMDIDSService> idsProxyStreamService; // @synthesize idsProxyStreamService=_idsProxyStreamService;
-@property(retain) IDSDeviceConnection *keepAliveConnection; // @synthesize keepAliveConnection=_keepAliveConnection;
-@property(readonly, nonatomic) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) Class superclass;
-@property(retain) IDSDeviceConnection *watchAudioConnection; // @synthesize watchAudioConnection=_watchAudioConnection;
-@property(retain) IDSDeviceConnection *watchVideoConnection; // @synthesize watchVideoConnection=_watchVideoConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

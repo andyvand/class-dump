@@ -9,7 +9,6 @@
 @interface SFAcousticFeature
 {
     NSArray *_acousticFeatureValuePerFrame;
-    double _frameDuration;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *acousticFeatureValuePerFrame; // @synthesize acousticFeatureValuePerFrame=_acousticFeatureValuePerFrame;
-@property(readonly, nonatomic) double frameDuration; // @synthesize frameDuration=_frameDuration;
 
 @end
 

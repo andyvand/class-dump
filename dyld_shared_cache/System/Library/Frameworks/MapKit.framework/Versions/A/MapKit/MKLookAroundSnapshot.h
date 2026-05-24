@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)oAddresses: /* Error: Ran out of types for this method. */;
+- (void)initForDirectionsToAddresses: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *image;

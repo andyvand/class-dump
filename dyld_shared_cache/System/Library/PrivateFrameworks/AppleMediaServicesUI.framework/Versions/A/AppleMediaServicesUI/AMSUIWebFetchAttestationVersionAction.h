@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     ACAccount *_account;
 }
 
-- (id);
+- (id)load-ui-lock;
 - (id);
 - (id);
 - (id);

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_ar_decodeDataNoCopyForKey: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (_Bool);

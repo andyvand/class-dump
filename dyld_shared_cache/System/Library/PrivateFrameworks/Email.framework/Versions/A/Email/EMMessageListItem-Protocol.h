@@ -4,65 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, ECSubject, EFFuture, EMCategory, EMFollowUp, EMGeneratedSummary, EMObjectID, EMReadLater, NSArray, NSDate, NSIndexSet, NSNumber, NSString, NSURL;
-@protocol EMCollectionItemID;
+@class ECSubject, EMFollowUp, EMReadLater, NSArray, NSDate, NSNumber;
 
 @protocol EMMessageListItem
-- (_Bool)t:queryOptions:targetClassOptions:label: /* Error: Ran out of types for this method. */;
-- (ECSubject *)troller;
+- (NSNumber *);
+- (EMReadLater *)@;
+- (_Bool)@;
+- (CDStruct_f4b747e6)Hl@;
+- (NSArray *)(d@;
+- (EMFollowUp *);
+- (_Bool)@;
+- (_Bool)&;
+- (unsigned long long)|A;
+- (NSArray *);
+- (_Bool)N6google8protobuf10TextFormat21FastFieldValuePrinterE;
+- (_Bool)initWithTargetClass:predicate:sortDescriptors:suggestion:limit:queryOptions:targetClassOptions:label: /* Error: Ran out of types for this method. */;
+- (ECSubject *)EMFetchController;
 - (long long)8´;
 - (NSArray *);
 
 // Remaining properties
-@property(readonly) _Bool allowAuthenticationWarning;
-@property(readonly) unsigned long long attachmentCount;
-@property(readonly, nonatomic) NSURL *brandIndicatorLocation;
-@property(readonly) long long businessID;
-@property(readonly, copy) NSString *businessLogoID;
-@property(readonly) EMCategory *category;
-@property(readonly, copy) NSArray *ccList;
-@property(readonly) long long conversationID;
-@property(readonly) long long conversationNotificationLevel;
-@property(readonly) unsigned long long count;
 @property(readonly) NSDate *date;
-@property(readonly) _Bool deleteMovesToTrash;
-@property(readonly) NSDate *displayDate;
-@property(readonly) EFFuture *displayMessage;
-@property(readonly) id <EMCollectionItemID> displayMessageItemID;
-@property(readonly) EMObjectID *displayMessageObjectID;
-@property(readonly, copy) NSIndexSet *flagColors;
-@property(readonly) ECMessageFlags *flags;
-@property(readonly) EMFollowUp *followUp;
-@property(readonly, copy) EMGeneratedSummary *generatedSummary;
-@property(readonly) NSArray *groupedSenderMessageListItems;
-@property(readonly) _Bool hasAttachments;
-@property(readonly) _Bool hasUnflagged;
-@property(readonly) _Bool isAuthenticated;
-@property(readonly) _Bool isBlocked;
-@property(readonly) _Bool isCCMe;
-@property(readonly) _Bool isEditable;
-@property(readonly) _Bool isGroupedSender;
-@property(readonly) _Bool isToMe;
-@property(readonly) _Bool isUrgent;
-@property(readonly) _Bool isVIP;
-@property(readonly, copy) NSArray *mailboxObjectIDs;
-@property(readonly, copy) NSArray *mailboxes;
-@property(readonly, copy) NSArray *mailboxesIfAvailable;
-@property(readonly) CDStruct_7ad7028e messageColor;
-@property(readonly) _Bool messageColorIsHighlight;
-@property(readonly) unsigned long long messageSize;
-@property(readonly) long long priority;
-@property(readonly) EMReadLater *readLater;
-@property(readonly) NSNumber *searchRelevanceScore;
-@property(readonly) long long searchResultType;
-@property(readonly) NSDate *sendLaterDate;
-@property(readonly, copy) NSArray *senderList;
-@property(readonly) _Bool shouldArchiveByDefault;
-@property(readonly) ECSubject *subject;
-@property(readonly, copy) NSString *summary;
-@property(readonly) _Bool supportsArchiving;
-@property(readonly, copy) NSArray *toList;
-@property(readonly) long long unsubscribeType;
-@property(readonly) _Bool wasActedOnByExtension;
 @end
 

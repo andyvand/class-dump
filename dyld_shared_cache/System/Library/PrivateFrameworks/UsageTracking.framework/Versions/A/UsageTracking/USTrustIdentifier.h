@@ -9,26 +9,25 @@
 @interface USTrustIdentifier
 {
     _Bool _trusted;
-    NSString *_identifier;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)f
+;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id) @9 ;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool trusted; // @synthesize trusted=_trusted;
 
 @end
 

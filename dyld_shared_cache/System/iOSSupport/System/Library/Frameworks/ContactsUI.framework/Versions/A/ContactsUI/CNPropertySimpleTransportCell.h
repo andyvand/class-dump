@@ -6,32 +6,22 @@
 
 #import <ContactsUI/CNPropertySimpleCell.h>
 
-@class CNTransportButton, UIColor, UIImageView, UIView;
+@class CNTransportButton, UIView;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertySimpleTransportCell : CNPropertySimpleCell
 {
     CNTransportButton *_transportIcon1;
-    CNTransportButton *_transportIcon2;
-    CNTransportButton *_transportIcon3;
-    UIImageView *_starView;
-    _Bool _allowsActions;
-    _Bool _shouldShowBadge;
-    _Bool _shouldShowTransportButtons;
-    _Bool _needsUpdateTouchAreas;
-    UIImageView *_standardStarView;
-    UIColor *_actionsColor;
-    UIView *_badgeView;
 }
 
 + (id);
 + (void);
 - (id);
 - (void);
+- (void)X;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)9+;
 - (id);
 - (id);
 - (void);
@@ -43,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -51,30 +41,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void));
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)R	;
 - (void);
 - (id);
-@property(nonatomic) _Bool shouldShowTransportButtons; // @synthesize shouldShowTransportButtons=_shouldShowTransportButtons;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)_shouldShowTransportButtons;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *actionsColor; // @synthesize actionsColor=_actionsColor;
-@property(nonatomic) _Bool allowsActions; // @synthesize allowsActions=_allowsActions;
 @property(retain, nonatomic) UIView *badgeView; // @synthesize badgeView=_badgeView;
-@property(nonatomic) _Bool needsUpdateTouchAreas; // @synthesize needsUpdateTouchAreas=_needsUpdateTouchAreas;
-@property(nonatomic) _Bool shouldShowBadge; // @synthesize shouldShowBadge=_shouldShowBadge;
-@property(readonly, nonatomic) _Bool shouldShowStar;
-@property(readonly, nonatomic) UIView *standardBadgeView;
-@property(readonly, nonatomic) UIImageView *standardStarView; // @synthesize standardStarView=_standardStarView;
-@property(readonly, nonatomic) CNTransportButton *standardTransportIcon;
-@property(readonly, nonatomic) CNTransportButton *transportIcon1;
-@property(readonly, nonatomic) CNTransportButton *transportIcon2;
-@property(readonly, nonatomic) CNTransportButton *transportIcon3;
 
 @end
 

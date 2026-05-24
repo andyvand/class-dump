@@ -7,13 +7,6 @@
 @interface RTAuthorizedLocationZDRLocationCurationMetrics
 {
     _Bool _isZDRHomeLearnedALoi;
-    _Bool _isZDRWorkLearnedALoi;
-    _Bool _isZDRSchoolLearnedALoi;
-    _Bool _isZDRSetupLearnedALoi;
-    int _numberOfZDRLocationsHome;
-    int _numberOfZDRLocationsWork;
-    int _numberOfZDRLocationsSchool;
-    int _totalZDRLocations;
 }
 
 - (int);
@@ -23,26 +16,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (int);
 - (int);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)ata}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)SPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)ta}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property _Bool isZDRHomeLearnedALoi; // @synthesize isZDRHomeLearnedALoi=_isZDRHomeLearnedALoi;
-@property _Bool isZDRSchoolLearnedALoi; // @synthesize isZDRSchoolLearnedALoi=_isZDRSchoolLearnedALoi;
-@property _Bool isZDRSetupLearnedALoi; // @synthesize isZDRSetupLearnedALoi=_isZDRSetupLearnedALoi;
-@property _Bool isZDRWorkLearnedALoi; // @synthesize isZDRWorkLearnedALoi=_isZDRWorkLearnedALoi;
 @property int numberOfZDRLocationsHome; // @synthesize numberOfZDRLocationsHome=_numberOfZDRLocationsHome;
-@property int numberOfZDRLocationsSchool; // @synthesize numberOfZDRLocationsSchool=_numberOfZDRLocationsSchool;
-@property int numberOfZDRLocationsWork; // @synthesize numberOfZDRLocationsWork=_numberOfZDRLocationsWork;
-@property int totalZDRLocations; // @synthesize totalZDRLocations=_totalZDRLocations;
 
 @end
 

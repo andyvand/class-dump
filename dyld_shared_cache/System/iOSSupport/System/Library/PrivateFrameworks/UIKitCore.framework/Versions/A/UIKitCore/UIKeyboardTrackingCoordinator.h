@@ -13,22 +13,20 @@ __attribute__((visibility("hidden")))
     struct CGRect _lastSentEndFrame;
 }
 
-+ (id);
++ (id)oor relay reachability request response %p received;
 - (void);
 - (void);
-- (struct CGRect);
-- (id);
-- (void);
-- (struct CGRect);
-- (id);
-- (void);
+- (struct CGRect)yReceiptPipelineComponent> Personal off grid status is %d, wantsDeliveryReceipt:%@ /* Error: Ran out of types for this method. */;
+- (id)sPairedWatch:(struct CGRect)arg1 %d);
+- (void)record passed to initWithCKRecord %@;
+- (struct CGRect)t path for cachedelete, last component is Attachments;
+- (id)ing mark as reviewed chats command, no chat guids received;
+- (void)service %@. Participants on chat found mismatch recipients of outgoing message with GUID %@.;
 - (id);
 - (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) UIInputWindowController *controllerForTrackingElements; // @synthesize controllerForTrackingElements=_controllerForTrackingElements;
-@property(nonatomic) struct CGRect lastSentEndFrame; // @synthesize lastSentEndFrame=_lastSentEndFrame;
-@property(readonly, nonatomic) struct CGRect previousEndFrame;
 
 @end
 

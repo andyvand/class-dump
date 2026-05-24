@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint;
-@protocol NSXPCListenerDelegate;
+@class NSString;
 
 @interface LFListener
 {
     NSString *_serviceName;
-    NSXPCListener *_listener;
-    id <NSXPCListenerDelegate> _listenerDelegate;
-    id _messageHandler;
-    NSXPCInterface *_interface;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)'D'*;
 - (void);
 - (id);
 - (id);
@@ -29,18 +24,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)roblem encountered at;
+- (id)k;
 - (void);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
-@property(readonly) NSXPCListenerEndpoint *endpoint;
-@property(retain) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain) id <NSXPCListenerDelegate> listenerDelegate; // @synthesize listenerDelegate=_listenerDelegate;
-@property(retain) id messageHandler; // @synthesize messageHandler=_messageHandler;
 @property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol MTLVisibleFunctionTable
+- (void);
 
 // Remaining properties
 @property(readonly) struct MTLResourceID gpuResourceID;

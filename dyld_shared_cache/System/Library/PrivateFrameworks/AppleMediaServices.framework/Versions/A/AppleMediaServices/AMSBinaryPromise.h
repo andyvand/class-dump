@@ -4,42 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMutablePromise;
-
 @interface AMSBinaryPromise
 {
     AMSBinaryPromise *_retainedSelf;
-    AMSMutablePromise *_backingPromise;
 }
 
++ (id)!;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ize=dd}32^{CGImageSource=}48d56;
++ (id)setChildIsYoungAgeGroup: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)8;
+- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)put origin = %@.
+
+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)rollerIDCallback);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (_Bool)ildDSID;
 - (id)length(data.value) DESC;;
-- (void)e;
+- (void)AMSAuthenticateOptionsPromptTitle;
 - (void)Ú¿I2Ø¸:(double)arg1 i%#¦1¢P×V_¥ÞOú±|XÌ]ÿqól®mªJNÛ{né¬
 ¾ÂhYB0.ë£ Íõ©½ÄÆË°;
 - (id)5v´äÐv´äAv´äXv´ä1v´äðv´ä;
@@ -51,7 +50,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AMSMutablePromise *backingPromise; // @synthesize backingPromise=_backingPromise;
 @property(retain, nonatomic) AMSBinaryPromise *retainedSelf; // @synthesize retainedSelf=_retainedSelf;
 
 @end

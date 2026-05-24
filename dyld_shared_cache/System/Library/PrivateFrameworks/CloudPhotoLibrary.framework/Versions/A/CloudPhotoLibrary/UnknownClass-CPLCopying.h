@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CPLCopying)
-- (id);
+- (id);
 @end
 

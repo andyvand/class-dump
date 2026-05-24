@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface RAWTIFFIFDTable
 {
     CDUnknownBlockType mValueBlock;
-    NSDictionary *mNamespace;
-    NSDictionary *mNamespaceReverse;
 }
 
 - (void);
@@ -20,15 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_ensureMutableSettingsForIdentifier:(id)arg1;
 - (id);
-- (void);
+- (void);
 - (void);
 - (id)h@;
 
 // Remaining properties
-@property(retain) NSDictionary *mNamespace; // @synthesize mNamespace;
-@property(retain) NSDictionary *mNamespaceReverse; // @synthesize mNamespaceReverse;
 @property(copy) CDUnknownBlockType mValueBlock; // @synthesize mValueBlock;
 
 @end

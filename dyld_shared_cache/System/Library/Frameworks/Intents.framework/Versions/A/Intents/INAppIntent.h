@@ -6,24 +6,15 @@
 
 #import <Intents/INIntent.h>
 
-@class LNAction, NSDictionary, NSString;
-@protocol INVCVoiceShortcutClient;
-
 @interface INAppIntent : INIntent
 {
     long long _indexingHash;
-    NSString *_launchId;
-    LNAction *_linkAction;
-    id <INVCVoiceShortcutClient> _voiceShortcutClient;
-    NSString *_extensionBundleId;
-    NSString *_appIntentIdentifier;
-    NSDictionary *_serializedParameters;
 }
 
 + (void);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (_Bool);
-+ (id)e:(id)arg1 data:(id *)arg2;
++ (id)initWithDescriptorType:(id)arg1 data:(id *)arg2;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <HomeKit/HMEvent.h>
 
-@class HMCharacteristic, NSString;
 @protocol NSCopying;
 
 @interface HMCharacteristicEvent : HMEvent
 {
     id <NSCopying> _triggerValue;
-    HMCharacteristic *_characteristic;
 }
 
 + (id);
@@ -25,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -34,14 +32,6 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) id <NSCopying> triggerValue; // @synthesize triggerValue=_triggerValue;
 
 @end

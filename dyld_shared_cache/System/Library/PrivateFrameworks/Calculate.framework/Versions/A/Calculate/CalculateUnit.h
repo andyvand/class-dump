@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateUnitCategory, NSLocale, NSString, UnitInfo;
+@class CalculateUnitCategory;
 
 @interface CalculateUnit
 {
     int _exponent;
-    NSString *_name;
-    NSString *_displayName;
-    NSString *_shortName;
-    unsigned long long _unitType;
-    CalculateUnitCategory *_category;
-    CalculateUnit *_nextSmallest;
-    NSString *_displayNames;
-    NSLocale *_displayNamesLocale;
-    UnitInfo *_unitInfo;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)
+J*;
 - (void);
 - (void);
 - (void);
@@ -44,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -56,19 +48,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak CalculateUnitCategory *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *compactName;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *displayNames; // @synthesize displayNames=_displayNames;
-@property(retain, nonatomic) NSLocale *displayNamesLocale; // @synthesize displayNamesLocale=_displayNamesLocale;
-@property(readonly, nonatomic) int exponent; // @synthesize exponent=_exponent;
-@property(readonly, nonatomic) _Bool formatNextSmallest;
-@property(readonly, nonatomic) _Bool isBaseUnit;
-@property(readonly, nonatomic) _Bool isPreferredUnit;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) CalculateUnit *nextSmallest; // @synthesize nextSmallest=_nextSmallest;
-@property(retain, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(retain, nonatomic) UnitInfo *unitInfo; // @synthesize unitInfo=_unitInfo;
-@property(readonly, nonatomic) unsigned long long unitType; // @synthesize unitType=_unitType;
 
 @end
 

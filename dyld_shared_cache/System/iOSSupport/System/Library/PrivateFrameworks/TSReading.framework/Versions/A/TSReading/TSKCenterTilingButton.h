@@ -9,51 +9,26 @@
 @interface TSKCenterTilingButton
 {
     UIImage *mLeftCapImage_Normal;
-    UIImage *mLeftCapImage_Disabled;
-    UIImage *mLeftCapImage_Active;
-    UIImage *mLeftCapImage_Selected;
-    UIImage *mLeftCapImage_ActiveSelected;
-    UIImage *mRightCapImage_Normal;
-    UIImage *mRightCapImage_Disabled;
-    UIImage *mRightCapImage_Active;
-    UIImage *mRightCapImage_Selected;
-    UIImage *mRightCapImage_ActiveSelected;
-    UIImage *mCenterTileImage_Normal;
-    UIImage *mCenterTileImage_Disabled;
-    UIImage *mCenterTileImage_Active;
-    UIImage *mCenterTileImage_Selected;
-    UIImage *mCenterTileImage_ActiveSelected;
-    UIImage *mLeftCenterTileImage_Normal;
-    UIImage *mLeftCenterTileImage_Disabled;
-    UIImage *mLeftCenterTileImage_Active;
-    UIImage *mLeftCenterTileImage_Selected;
-    UIImage *mLeftCenterTileImage_ActiveSelected;
-    UIImage *mRightCenterTileImage_Normal;
-    UIImage *mRightCenterTileImage_Disabled;
-    UIImage *mRightCenterTileImage_Active;
-    UIImage *mRightCenterTileImage_Selected;
-    UIImage *mRightCenterTileImage_ActiveSelected;
-    int mTilingType;
 }
 
+- (void)backStartTimeOverride set on queue item] - target time:(id)arg1;
+- (void)ntroller - Seek to time completed [playbackStartTimeOverride set on queue item] - target time:(id)arg1;
+- (void)o player gaining overlap support;
+- (void)'t overlap playback;
+- (void);
+- (id)adable range];
+- (id)ng asset task at ';
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)topicIDsOutputName;
 
 @end
 

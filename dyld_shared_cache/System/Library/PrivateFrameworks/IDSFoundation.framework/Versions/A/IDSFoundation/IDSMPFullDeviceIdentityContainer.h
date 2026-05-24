@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPFullLegacyIdentity, NSData, NSNumber;
-@protocol IDSNGMIdentity, IDSSyncQueue;
+@class IDSMPFullLegacyIdentity;
+@protocol IDSSyncQueue;
 
 @interface IDSMPFullDeviceIdentityContainer
 {
     IDSMPFullLegacyIdentity *_legacyFullIdentity;
-    NSNumber *_ngmVersion;
-    NSData *_cachedLegacySerializedData;
-    id <IDSNGMIdentity> _ngmFullDeviceIdentity;
-    id <IDSSyncQueue> _queue;
 }
 
 + (id);
@@ -33,19 +29,19 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)__swift5_fieldmd__TEXT;
+- (id)Yyxq_G;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)port;
 - (void);
 - (id);
+- (_Bool)processAppleCommand:(id)arg1;
+- (id);
+- (id)tensionsOrderingPreferencesWithCompletion;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)(!Ț3;
 - (id);
 - (void);
 - (id)
@@ -53,10 +49,6 @@
 - (void)rt range for clientType %u.;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cachedLegacySerializedData; // @synthesize cachedLegacySerializedData=_cachedLegacySerializedData;
-@property(readonly, nonatomic) IDSMPFullLegacyIdentity *legacyFullIdentity; // @synthesize legacyFullIdentity=_legacyFullIdentity;
-@property(readonly, nonatomic) id <IDSNGMIdentity> ngmFullDeviceIdentity; // @synthesize ngmFullDeviceIdentity=_ngmFullDeviceIdentity;
-@property(readonly, nonatomic) NSNumber *ngmVersion; // @synthesize ngmVersion=_ngmVersion;
 @property(retain, nonatomic) id <IDSSyncQueue> queue; // @synthesize queue=_queue;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSensorDimensions, NSString;
+@class HAPSensorDimensions;
 
 @interface HAPSensorConfiguration
 {
@@ -24,14 +24,7 @@
 - (id)lic}@Electing to write as reduced size payload of length %tu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPSensorDimensions *sensorDimensions; // @synthesize sensorDimensions=_sensorDimensions;
-@property(readonly) Class superclass;
 
 @end
 

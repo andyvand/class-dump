@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tls_seal_scatter_record;
 - (unsigned long long);
 
 @end

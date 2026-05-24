@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber;
-
 @interface PKAccountUserPreferences
 {
     _Bool _spendingEnabled;
-    _Bool _showAvailableCredit;
-    _Bool _transactionSpendLimitEnabled;
-    _Bool _monthlySpendLimitEnabled;
-    NSDecimalNumber *_transactionSpendLimitAmount;
-    NSDecimalNumber *_monthlySpendLimitAmount;
 }
 
 + (_Bool)X"ð!¸Aùî%ð1Â0@ù
@@ -29,26 +22,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T	@9?;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)addQuerySizeCount:(id)arg1;
 - (void);
 - (id);
-- (id)elds;
+- (id)_encryptionFields;
 - (void)byPeerPaymentReceiverCoordinator;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *monthlySpendLimitAmount; // @synthesize monthlySpendLimitAmount=_monthlySpendLimitAmount;
-@property(nonatomic) _Bool monthlySpendLimitEnabled; // @synthesize monthlySpendLimitEnabled=_monthlySpendLimitEnabled;
-@property(nonatomic) _Bool showAvailableCredit; // @synthesize showAvailableCredit=_showAvailableCredit;
 @property(nonatomic) _Bool spendingEnabled; // @synthesize spendingEnabled=_spendingEnabled;
-@property(retain, nonatomic) NSDecimalNumber *transactionSpendLimitAmount; // @synthesize transactionSpendLimitAmount=_transactionSpendLimitAmount;
-@property(nonatomic) _Bool transactionSpendLimitEnabled; // @synthesize transactionSpendLimitEnabled=_transactionSpendLimitEnabled;
 
 @end
 

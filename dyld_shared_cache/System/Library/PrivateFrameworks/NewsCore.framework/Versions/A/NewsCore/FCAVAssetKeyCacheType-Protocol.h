@@ -5,8 +5,10 @@
 //
 
 @class NSData;
+@protocol FCAVAssetKeyType;
 
 @protocol FCAVAssetKeyCacheType
+- (id <FCAVAssetKeyType>);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *keyServerCertificate;

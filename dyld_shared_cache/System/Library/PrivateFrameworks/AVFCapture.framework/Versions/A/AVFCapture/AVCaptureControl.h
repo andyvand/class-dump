@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureControlsOverlay, AVCaptureDevice, AVCaptureSession, AVWeakReference, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface AVCaptureControl
 {
     _Bool _enabled;
-    struct os_unfair_lock_s _lock;
-    NSString *_identifier;
-    AVWeakReference *_overlayReference;
-    AVWeakReference *_sessionReference;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,17 +23,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)#;
+- (id)#;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *actionQueue;
-@property(readonly, nonatomic) AVCaptureDevice *device;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak AVCaptureControlsOverlay *overlay;
-@property(nonatomic) __weak AVCaptureSession *session;
 
 @end
 

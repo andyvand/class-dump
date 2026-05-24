@@ -12,8 +12,8 @@
 
 - (id);
 - (id);
-- (unsigned long long)Map;
-- (void)jectStageActive;
+- (unsigned long long)textureMap;
+- (void)_objectStageActive;
 
 @end
 

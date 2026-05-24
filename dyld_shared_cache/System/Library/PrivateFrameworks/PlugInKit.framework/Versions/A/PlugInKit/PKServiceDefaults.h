@@ -17,7 +17,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property __weak PKServicePersonality *personality; // @synthesize personality=_personality;

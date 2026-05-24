@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDraggingSystemSessionInfo, UIDraggingSystemTouchRoutingPolicy;
-@protocol _DUIServerSessionSystemApp;
+@class UIDraggingSystemSessionInfo;
 
 @interface UIDraggingSystemSession
 {
     _Bool _commandeered;
-    UIDraggingSystemSessionInfo *_info;
-    UIDraggingSystemTouchRoutingPolicy *_routingPolicy;
-    id <_DUIServerSessionSystemApp> _serverSession;
 }
 
+- (void)essage had error:(id)arg1 %d;
+- (void)oller | Recovery:(id)arg1 did not find any chats for chat metadata %@;
+- (void)Updated allow list handles version to %@;
+- (id)s that were marked as clean ;
+- (void)SMS service with number:(CDUnknownBlockType)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)IMDSyncedSettings;
+- (_Bool)guid:%@, assocatedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (void)pressLayoutSubviews;
+- (void)_suppressLayoutSubviews;
 - (void)$ôàølùû;
 - (id)w;
 - (void)bí;
 
 // Remaining properties
-@property(nonatomic, getter=isCommandeered) _Bool commandeered; // @synthesize commandeered=_commandeered;
 @property(retain, nonatomic) UIDraggingSystemSessionInfo *info; // @synthesize info=_info;
-@property(retain, nonatomic) UIDraggingSystemTouchRoutingPolicy *routingPolicy; // @synthesize routingPolicy=_routingPolicy;
-@property(retain, nonatomic, getter=_serverSession) id <_DUIServerSessionSystemApp> serverSession; // @synthesize serverSession=_serverSession;
 
 @end
 

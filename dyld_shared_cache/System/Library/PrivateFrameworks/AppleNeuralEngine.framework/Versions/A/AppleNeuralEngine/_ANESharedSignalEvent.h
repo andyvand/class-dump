@@ -9,13 +9,9 @@
 @interface _ANESharedSignalEvent
 {
     unsigned int _symbolIndex;
-    unsigned long long _value;
-    unsigned long long _agentMask;
-    long long _eventType;
-    IOSurfaceSharedEvent *_sharedEvent;
 }
 
-+ (id);
++ (id)0:(unsigned long long)arg1 8;
 + (id);
 + (_Bool);
 - (id);
@@ -34,11 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long agentMask; // @synthesize agentMask=_agentMask;
-@property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
 @property(readonly, nonatomic) IOSurfaceSharedEvent *sharedEvent; // @synthesize sharedEvent=_sharedEvent;
-@property(readonly, nonatomic) unsigned int symbolIndex; // @synthesize symbolIndex=_symbolIndex;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

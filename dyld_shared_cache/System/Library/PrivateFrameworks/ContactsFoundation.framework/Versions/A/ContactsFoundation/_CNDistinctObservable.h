@@ -6,13 +6,11 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class NSMutableSet;
 @protocol CNObservable;
 
 @interface _CNDistinctObservable : CNObservable
 {
     id <CNObservable> _observable;
-    NSMutableSet *_previouslyObservedResults;
 }
 
 - (_Bool);

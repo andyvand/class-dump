@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (id);
+- (id)/;
 - (id);
-- (id);
-- (void)ifierRange;
+- (void)_privacyIdentifierRange;
 - (id);
 
 // Remaining properties

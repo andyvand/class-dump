@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, UIImage;
+@class NSString, UIImage;
 
 @interface IMPlayerChapterInfo
 {
     UIImage *_artwork;
-    int _type;
-    int _metadataType;
-    NSString *_title;
-    NSURL *_externalURL;
-    NSData *_artworkData;
-    double _duration;
-    double _time;
-    CDStruct_e83c9415 _mediaTimeRange;
-    CDStruct_e83c9415 _assetTimeRange;
 }
 
+- (void)8;
 - (void);
-- (void);
-- (CDStruct_e83c9415);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
+- (CDStruct_3c1748cc)/;
 - (void);
 - (id);
-- (void);
+- (void)debugLabel;
 - (void);
 - (id);
 - (id);
@@ -37,7 +28,7 @@
 - (int);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (double);
 - (int);
 - (id);
@@ -45,16 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *artwork;
-@property(retain, nonatomic) NSData *artworkData; // @synthesize artworkData=_artworkData;
-@property(nonatomic) CDStruct_e83c9415 assetTimeRange; // @synthesize assetTimeRange=_assetTimeRange;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSURL *externalURL; // @synthesize externalURL=_externalURL;
-@property(nonatomic) CDStruct_e83c9415 mediaTimeRange; // @synthesize mediaTimeRange=_mediaTimeRange;
-@property(nonatomic) int metadataType; // @synthesize metadataType=_metadataType;
-@property(nonatomic) double time; // @synthesize time=_time;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

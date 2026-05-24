@@ -9,7 +9,6 @@
 @interface AppKit.OrbitalColorView : NSView
 {
     id colors;
-    id orbitLayer;
 }
 
 - (id);

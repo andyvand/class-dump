@@ -5,5 +5,8 @@
 //
 
 @protocol AAFollowUpProtocol
+- (void);
+- (void);
+- (_Bool)count button pressed.;
 @end
 

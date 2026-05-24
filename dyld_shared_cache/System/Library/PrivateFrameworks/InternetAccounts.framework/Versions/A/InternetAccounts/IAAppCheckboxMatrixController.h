@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAListPlugin, IAAccount, IAAppCheckboxMatrix, NSMutableArray;
-@protocol IAAppTableControllerDelegateProtocol;
+@class IAAccount;
 
 @interface IAAppCheckboxMatrixController
 {
     IAAccount *_account;
-    IAAListPlugin *_plugin;
-    IAAppCheckboxMatrix *_checkboxMatrix;
-    NSMutableArray *_apps;
-    NSMutableArray *_pairedServices;
-    id _delegate;
 }
 
 - (void);
@@ -22,16 +16,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)i;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (void);
@@ -40,9 +34,6 @@
 
 // Remaining properties
 @property(retain) IAAccount *account; // @synthesize account=_account;
-@property(retain) NSMutableArray *apps; // @synthesize apps=_apps;
-@property(retain) id <IAAppTableControllerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *pairedServices; // @synthesize pairedServices=_pairedServices;
 
 @end
 

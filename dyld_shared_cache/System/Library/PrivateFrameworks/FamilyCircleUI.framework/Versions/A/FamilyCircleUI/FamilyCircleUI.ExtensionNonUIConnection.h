@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.ExtensionNonUIConnection
 {
     id xpcConnection;
-    id interruptionHandler;
-    id invalidationHandler;
 }
 
 @end

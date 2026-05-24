@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-+ (id);
++ (id)getPropertiesForUserIdentity:error: /* Error: Ran out of types for this method. */;
 + (Class);
 + (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (double);
+- (void)requiresSingleAccount;
+- (void)moveMessagesInChatsWithGUIDsToRecentlyDeleted:deleteDate: /* Error: Ran out of types for this method. */;
+- (_Bool)includesWallpaperData;
+- (void)ceDispatcher;
+- (double);
 - (id);
-- (void);
-- (struct CGPoint);
+- (void)eclared API is not available, validatePersonalStatusSubscriptionMatchesSubscriptionValidationToken:(id)arg1 fromSender:(id)arg2 completion:(struct CGPoint)arg3;
+- (struct CGPoint)sync to CloudKit in-memory transfer:%@ newGUID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void)ArrayLiteralElement;

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMRange, UIResponder, UITextRange;
+@class UIResponder;
 @protocol UITextInputPrivate;
 
 @interface UITextSelection
 {
     UIResponder<UITextInputPrivate> *_document;
-    long long _granularity;
-    UITextRange *_selectedRange;
-    UITextRange *_base;
-    UITextRange *_initialExtent;
-    _Bool _isCommitting;
 }
 
 - (_Bool);
@@ -23,12 +18,12 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (void))%ؚI;
+- (void)quest %p.;
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void)rivateListeningOverride=%@ mediaRemoteQueueAsDictionary=%@>;
+- (void)nt"8;
 - (void);
 - (void);
 - (_Bool);
@@ -36,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool)!dAù±Y°1Â0@ù
 × ;
@@ -51,15 +46,15 @@
 × ;
 - (void)B32B36;
 - (_Bool)@"__UIDiffableDataSource";
-- (_Bool)ceRange:(struct CGPoint)arg1;
-- (id)KeyHitTest: /* Error: Ran out of types for this method. */;
-- (id)thButtonSpacing: /* Error: Ran out of types for this method. */;
-- (_Bool)ssDefault: /* Error: Ran out of types for this method. */;
-- (struct CGRect): /* Error: Ran out of types for this method. */;
-- (void)nLoopTimeOut;
-- (_Bool)eview:(struct CGPoint)arg1;
-- (id);
-- (void)ouchForView:(struct CGPoint)arg1;
+- (_Bool)tagAtIndex:(struct CGPoint)arg1 scheme:(_Bool)arg2 tokenRange:sentenceRange: /* Error: Ran out of types for this method. */;
+- (id)setLayoutForKeyHitTest: /* Error: Ran out of types for this method. */;
+- (id)setHeaderViewInterMonthButtonSpacing: /* Error: Ran out of types for this method. */;
+- (_Bool)overrideUnlessDefault: /* Error: Ran out of types for this method. */;
+- (struct CGRect)initWithViewController: /* Error: Ran out of types for this method. */;
+- (void)forwardingInterposableRunLoopTimeOut;
+- (_Bool)_pointerEffectWithPreview:(struct CGPoint)arg1;
+- (id)_handleAutoScroll:(id)arg1;
+- (void)_firstTouchForView:(struct CGPoint)arg1;
 - (void)tFrame;
 - (struct CGPoint)kgroundTask with taskName:(struct CGPoint)arg1 %{private}@, expirationHandler:(struct CGRect)arg2 %@;
 - (void)arKeyboardPaste.png;
@@ -85,15 +80,7 @@
 - (id)yÊÿEÒBh;
 
 // Remaining properties
-@property(retain, nonatomic) UITextRange *base; // @synthesize base=_base;
 @property(readonly, nonatomic) __weak UIResponder<UITextInputPrivate> *document; // @synthesize document=_document;
-@property(readonly, nonatomic, getter=_domRange) DOMRange *domRange;
-@property(nonatomic) long long granularity; // @synthesize granularity=_granularity;
-@property(retain, nonatomic) UITextRange *initialExtent; // @synthesize initialExtent=_initialExtent;
-@property(readonly, nonatomic) _Bool isCommitting; // @synthesize isCommitting=_isCommitting;
-@property(readonly, nonatomic) _Bool isValid;
-@property(retain, nonatomic) UITextRange *selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(readonly, nonatomic) _Bool willSelectionChange;
 
 @end
 

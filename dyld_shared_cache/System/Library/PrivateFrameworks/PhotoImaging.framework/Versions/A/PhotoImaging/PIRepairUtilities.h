@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (struct CGImage *);
++ (struct CGImage *)>;
 + (id);
 + (void);
 + (id);

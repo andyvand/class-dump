@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TSUAdditions)
-- (_Bool);
+- (_Bool);
 @end
 

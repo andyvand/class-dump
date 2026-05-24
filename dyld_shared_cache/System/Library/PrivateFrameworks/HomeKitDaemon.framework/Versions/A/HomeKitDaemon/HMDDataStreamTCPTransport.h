@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamFrameReader, HMFNetAddress, NSObject, NSString;
-@protocol HMDDataStreamTransportDelegate, HMDNetworkConnection, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamTCPTransport
 {
     _Bool _connected;
-    long long _remotePort;
-    int _schedulingMode;
-    id <HMDDataStreamTransportDelegate> delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFNetAddress *_remoteAddress;
-    id <HMDNetworkConnection> _tcpConnection;
-    HMDDataStreamFrameReader *_byteReader;
-    NSString *_logIdentifier;
-    CDUnknownBlockType _connectionFactory;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)t;
+- (void)eRoute %@;
 - (id);
 - (id);
 - (id);
@@ -33,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setCountLimit:(id)arg1;
 - (void);
 - (id);
 - (void);
@@ -46,25 +37,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (void)rorCode;
+- (void)_errorCode;
 - (void)HomeUUID:context:shouldUpdateLocks:shouldRoll:flow:requireCloudFetch:isOnSharedUserAcceptance:) /* Error: Ran out of types for this method. */;
 - (id)Äî=;
 - (void)?;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDataStreamFrameReader *byteReader; // @synthesize byteReader=_byteReader;
-@property(copy, nonatomic) CDUnknownBlockType connectionFactory; // @synthesize connectionFactory=_connectionFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDDataStreamTransportDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, nonatomic) HMFNetAddress *remoteAddress; // @synthesize remoteAddress=_remoteAddress;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <HMDNetworkConnection> tcpConnection; // @synthesize tcpConnection=_tcpConnection;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

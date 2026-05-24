@@ -4,15 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlagChange, EDMessageChangeManager, EDServerMessagePersistence, IMAPCommandPipeline, IMAPDownloadCache, NSDate, NSString;
+@class ECMessageFlagChange, EDServerMessagePersistence, IMAPCommandPipeline, IMAPDownloadCache;
 @protocol IMAPAccount;
 
 @protocol IMAPMessageDataSource
+- (_Bool)0;
+- (id <IMAPAccount>)3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"notificationID"{UUID="m_data"T}"contextIdentifier"{optional<WebCore::ProcessQualified<WTF::UUID>>=""(?="__null_state_"c"__val_"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}})"__engaged_"B}"sourceSession"{SessionID="m_identifier"Q}"creationTime"{WallTime="m_value"d}"data"{Vector<unsigned char, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"*"m_capacity"I"m_size"I}"silent"{optional<bool>=""(?="__null_state_"c"__val_"B)"__engaged_"B}})"__engaged_"B} /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned int)fields;
 - (EDServerMessagePersistence *)Â0@ù
 × ;
 - (_Bool)achmentIDUpgradeStep"16@"NSURL"24;
 - (unsigned long long)onDelegate>";
-- (_Bool)cendantsToSplitCount;
+- (_Bool)descendantsToSplitCount;
 - (IMAPCommandPipeline *)ÈÏÐ;
 - (void)È	;
 - (void)0ÿXÿ°ÿ;
@@ -30,21 +34,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMAPAccount> account;
-@property(nonatomic) unsigned long long allegedHighestModificationSequence;
-@property(readonly, nonatomic) IMAPDownloadCache *downloadCache;
-@property(readonly, nonatomic) IMAPCommandPipeline *fetchPipeline;
-@property(readonly, nonatomic) _Bool isAllMailMailbox;
-@property(readonly, nonatomic) _Bool isInbox;
-@property(readonly, nonatomic) _Bool isTrash;
-@property(retain) NSDate *lastSyncDate;
-@property(readonly, copy) NSString *mailboxName;
-@property(readonly, nonatomic) unsigned int maximumUID;
-@property(readonly) EDMessageChangeManager *messageChangeManager;
-@property(readonly, nonatomic) unsigned int permanentFlags;
-@property(readonly, nonatomic) unsigned long long serverMessageCount;
-@property(readonly) EDServerMessagePersistence *serverMessagePersistence;
-@property _Bool supportsModificationSequences;
-@property(nonatomic) unsigned int uidNext;
-@property(nonatomic) unsigned int uidValidity;
 @end
 

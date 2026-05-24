@@ -7,7 +7,6 @@
 #import <MailSupport/MSTriageAction.h>
 
 @class ECMessageFlags;
-@protocol MSFlagChangeTriageActionDelegate;
 
 @interface MSFlagChangeTriageAction : MSTriageAction
 {
@@ -24,10 +23,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <MSFlagChangeTriageActionDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool flagState;
 @property(readonly, nonatomic) ECMessageFlags *messageFlags;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end
 

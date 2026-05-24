@@ -10,21 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPShape : CPGraphicObject
 {
     long long mcid;
-    unsigned int pdfObjectID;
-    struct CGPath *path;
-    _Bool isUprightRectangle;
-    int windingRule;
-    double lineWidth;
-    double miterLimit;
-    int lineCap;
-    int lineJoin;
-    struct CGColor *fillColor;
-    struct CGColor *strokeColor;
-    struct CGPDFObject *fillObject;
-    struct CGPDFObject *strokeObject;
-    struct CGAffineTransform paintTransform;
-    _Bool boundsComputed;
-    _Bool renderedBoundsComputed;
 }
 
 - (long long);
@@ -34,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
+- (unsigned int)t";
 - (struct CGAffineTransform);
 - (long long);
 - (void);
@@ -45,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (struct CGPDFObject *);
 - (void);
 - (void);
@@ -58,15 +43,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)�h&�M;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (struct CGPath *);
@@ -74,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (struct CGColor *)zÌzzCØzzFzzËzzGzz;
 - (void)ÊpÊ	pËpËpÌpÌBXpÍpÍ&pÎpÎ+pÏpÏ	"pÐpÐ9mpÑpÑpÒpÒ"pÓpÓpÔpÔ%pÕpÖBYp×p×!pØpØ	pÙpÙ	 pÚpÚ*pÜpÜpÝpÝpÞpÞ#pßpßB[pàpà$pápá,pâpâ päpä	pïpïpðpðrpñpñ:(struct CGColor *)arg1 ÈpópótpôpôppõpõG`pöpö|p÷p÷npøpø{pùpùpúpúlpûpû!òpüpüvpýpýpþpþ=pÿpÿwq;
 - (void);
-- (double)Day;
+- (double)kDay;
 - (void)î[ð[ð[ó[ó[õ[õ¼[ö[ö[ø[ø
 G[ú[úÉ[þ[þ0[ÿ[ÿ	#\\ç\\
 \\ù\\ \\	\\!\	\	\

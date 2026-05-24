@@ -7,13 +7,6 @@
 @interface HomeKitDaemon.DispatchQueueMonitor
 {
     id $defaultActor;
-    id timerProvider;
-    id monitorTimer;
-    id tailspinTimer;
-    id queue;
-    id interval;
-    id threshold;
-    id tailspinIndex;
 }
 
 @end

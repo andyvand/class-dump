@@ -14,12 +14,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)drain_depth_p_0_50_at_charge_start_secs_curr_dynamic_bin_1;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isScheduleTransparent;
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *transparent; // @synthesize transparent=_transparent;
 
 @end

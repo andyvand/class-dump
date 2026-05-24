@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaOptionsController, AVObservationController, AVPlayerController, NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVNowPlayingInfoController
 {
     id _playerControllerCurrentTimeJumpedObserver;
-    _Bool _nowPlayingInfoNeedsUpdate;
-    _Bool _enabled;
-    void *_commandHandlerIdentifier;
-    AVObservationController *_keyValueObservationController;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    _Bool _suspended;
-    _Bool _requiresLinearPlayback;
-    AVMediaOptionsController *_mediaOptionsController;
-    NSString *_overrideParentApplicationDisplayIdentifier;
-    AVPlayerController *_playerController;
-    AVPlayerController *_playerControllerToActivateAfterDelay;
-    NSTimer *_startNowPlayingUpdatesTimer;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)3;
 + (void *);
 + (void *);
-+ (id);
++ (id);
 - (void);
+- (id);
+- (void);
+- (void)>;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)b;
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -55,8 +42,8 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)(;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -64,14 +51,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) __weak AVMediaOptionsController *mediaOptionsController; // @synthesize mediaOptionsController=_mediaOptionsController;
-@property(copy, nonatomic) NSString *overrideParentApplicationDisplayIdentifier; // @synthesize overrideParentApplicationDisplayIdentifier=_overrideParentApplicationDisplayIdentifier;
 @property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) __weak AVPlayerController *playerControllerToActivateAfterDelay; // @synthesize playerControllerToActivateAfterDelay=_playerControllerToActivateAfterDelay;
-@property(nonatomic) _Bool requiresLinearPlayback; // @synthesize requiresLinearPlayback=_requiresLinearPlayback;
-@property(nonatomic) __weak NSTimer *startNowPlayingUpdatesTimer; // @synthesize startNowPlayingUpdatesTimer=_startNowPlayingUpdatesTimer;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, PKDrawing, PKImageView, PKSelectionController, PKSpaceInsertionView, PKStroke, PKStrokeSelection, UIPanGestureRecognizer, UIView;
+@class NSMutableOrderedSet;
 
 @interface PKSpaceInsertionController
 {
     NSMutableOrderedSet *_strokesBelow;
-    NSMutableOrderedSet *_strokesAbove;
-    UIView *_tapToDismissView;
-    PKSpaceInsertionView *_topInsertionView;
-    PKSpaceInsertionView *_bottomInsertionView;
-    struct CGPoint _beginDragLocation;
-    struct CGPoint _initialViewLocation;
-    UIPanGestureRecognizer *_dragTopLollipopGR;
-    UIPanGestureRecognizer *_dragBottomLollipopGR;
-    PKStrokeSelection *_bottomStrokeSelection;
-    PKStrokeSelection *_topStrokeSelection;
-    PKImageView *_topImageView;
-    PKImageView *_bottomImageView;
-    _Bool _topHandleRemovesWhitespace;
-    PKStrokeSelection *_strokeSelectionBeforeInsertingSpace;
-    long long _selectionTypeBeforeInsertingSpace;
-    PKStrokeSelection *_cachedStrokeSelection;
-    NSOrderedSet *_cachedStrokesBelow;
-    NSOrderedSet *_cachedStrokesAbove;
-    _Bool _shouldUseCachedStrokes;
-    _Bool _insertSpaceAffordancePanDidEnd;
-    _Bool _isCurrentlyAddingSpace;
-    _Bool _didMoveStrokes;
-    PKStroke *_lassoStroke;
-    PKDrawing *_drawing;
-    PKSelectionController *_selectionController;
-    NSOrderedSet *_externalElements;
 }
 
 - (void);
@@ -75,15 +49,10 @@
 - (void);
 - (id);
 - (id)letteTooltipPresentationHandle",R,N,V_tooltipPresentationHandle;
-- (void)ingDidChangeVisibleStrokes: /* Error: Ran out of types for this method. */;
+- (void)drawingDidChangeVisibleStrokes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didMoveStrokes; // @synthesize didMoveStrokes=_didMoveStrokes;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(copy, nonatomic) NSOrderedSet *externalElements; // @synthesize externalElements=_externalElements;
 @property(nonatomic) _Bool isCurrentlyAddingSpace; // @synthesize isCurrentlyAddingSpace=_isCurrentlyAddingSpace;
-@property(retain, nonatomic) PKStroke *lassoStroke; // @synthesize lassoStroke=_lassoStroke;
-@property(readonly, nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;
 
 @end
 

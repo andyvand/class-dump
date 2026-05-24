@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HTTPAuthenticationRequest
 {
     _Bool isBasic;
-    _Bool isDigest;
-    NSString *base64Credentials;
-    NSString *username;
-    NSString *realm;
-    NSString *nonce;
-    NSString *uri;
-    NSString *qop;
-    NSString *nc;
-    NSString *cnonce;
-    NSString *response;
 }
 
 - (id);
@@ -35,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (id):level:flag:context:file:function:line:tag:format: /* Error: Ran out of types for this method. */;
+- (id)log:level:flag:context:file:function:line:tag:format: /* Error: Ran out of types for this method. */;
 
 @end
 

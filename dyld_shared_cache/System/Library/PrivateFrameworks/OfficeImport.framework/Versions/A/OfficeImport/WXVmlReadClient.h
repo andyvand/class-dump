@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 + (double);
 + (double);
 + (double);
++ (int);
 + (int);
-+ (int);
-+ (void);
++ (void)C;
 + (void);
 + (void);
 + (void);

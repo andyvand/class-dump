@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)count ID. Using cloudKitAccountInContext.;
 + (void);
 
 @end

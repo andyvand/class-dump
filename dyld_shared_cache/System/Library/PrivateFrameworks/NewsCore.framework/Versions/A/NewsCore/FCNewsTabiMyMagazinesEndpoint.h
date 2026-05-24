@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiMyMagazinesConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiMyMagazinesEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiMyMagazinesConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 - (void)ource recordFromCKRecord:base:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiMyMagazinesConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

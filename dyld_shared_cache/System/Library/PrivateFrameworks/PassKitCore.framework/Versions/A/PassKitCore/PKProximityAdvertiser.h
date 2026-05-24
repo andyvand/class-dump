@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SFService;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class SFService;
 
 @interface PKProximityAdvertiser
 {
     SFService *_nearbyInfoSharingService;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_dispatch_queue> *_advertiserQueue;
-    _Bool _isAdvertising;
 }
 
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (_Bool);
 - (id);

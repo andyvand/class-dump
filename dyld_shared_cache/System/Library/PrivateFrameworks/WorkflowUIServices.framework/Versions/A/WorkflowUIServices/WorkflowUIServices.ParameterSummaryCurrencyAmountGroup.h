@@ -7,10 +7,6 @@
 @interface WorkflowUIServices.ParameterSummaryCurrencyAmountGroup
 {
     id identifier;
-    id parameterDefinition;
-    id amountParameter;
-    id currencyCodeParameter;
-    id delegate;
 }
 
 @end

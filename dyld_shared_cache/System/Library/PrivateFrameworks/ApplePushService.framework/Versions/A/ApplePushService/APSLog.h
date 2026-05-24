@@ -8,7 +8,21 @@
 {
 }
 
-+ (void);
++ (void);
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)e %.4f;
++ (id)N6google8protobuf2io18IstreamInputStream25CopyingIstreamInputStreamE;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -17,29 +31,15 @@
 + (id);
 + (id);
 + (id);
++ (id)_registerForSubscriptionWithID:inDatabase:handler:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)`;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)C;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSNumber;
+@class INPerson;
 
 @interface INScoredPerson
 {
     INPerson *_person;
-    NSNumber *_score;
-    long long _recommendation;
 }
 
 + (_Bool);
@@ -18,22 +16,20 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)logicalDevice:(id)arg1 makeControllerForClient: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)performSensingFor:(id)arg1;
+- (void)SUSPENDED PROCESS;
 - (id);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (id)Value:(unsigned long long)arg1;
-- (void);
+- (id)findDataInValue:(unsigned long long)arg1;
+- (void)provideDueDateRangeOptionsForSearchForBills:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) INPerson *person; // @synthesize person=_person;
-@property(readonly) long long recommendation; // @synthesize recommendation=_recommendation;
-@property(readonly, copy) NSNumber *score; // @synthesize score=_score;
 
 @end
 

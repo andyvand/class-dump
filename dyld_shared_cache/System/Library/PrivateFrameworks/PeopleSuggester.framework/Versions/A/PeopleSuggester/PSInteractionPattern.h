@@ -9,26 +9,20 @@
 @interface PSInteractionPattern
 {
     NSArray *_timePatterns;
-    NSArray *_contentPatterns;
-    NSArray *_contentTags;
-    long long _frequency;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)_dictionaryCount;
+- (void)_currentBuildVersion;
+- (void)_cirAlertKgWaBoost;
+- (id)_appleMusicSubscriber;
+- (id)V_relativeAppUsage1Day;
+- (id)lementState;
+- (void)lashlightLevel;
 - (void);
 - (void);
 - (long long)tents/MacOS/CoreML;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contentPatterns; // @synthesize contentPatterns=_contentPatterns;
-@property(retain, nonatomic) NSArray *contentTags; // @synthesize contentTags=_contentTags;
-@property(nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(retain, nonatomic) NSArray *timePatterns; // @synthesize timePatterns=_timePatterns;
 
 @end

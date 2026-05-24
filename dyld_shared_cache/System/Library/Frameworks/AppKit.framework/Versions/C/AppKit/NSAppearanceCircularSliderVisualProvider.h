@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSliderCircularKnob, NSSliderDial, NSString, NSView;
-@protocol NSSliderCellMetricsStrategy, NSSliderTickMarksDelegate;
+@class NSSliderDial, NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSAppearanceCircularSliderVisualProvider
 {
     NSView *_controlView;
-    id <NSSliderCellMetricsStrategy> _metricsStrategy;
-    NSSliderDial *_dialView;
-    NSSliderCircularKnob *_circularKnobView;
-    CDStruct_6717dab8 _state;
-    id <NSSliderTickMarksDelegate> tickMarkDelegate;
 }
 
 + (id);
 + (id);
 - (id);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)_httpConnectionInfoCompletionBlock;
+- (struct CGRect)_groupConfiguration_ivar;
+- (struct CGRect)_goneSecure;
+- (struct CGRect)bleUploadState",&,V_resumableUploadState;
+- (struct CGRect)8&;
 - (struct CGRect);
 - (struct NSEdgeInsets);
 - (void);
@@ -35,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
-- (int);
+- (struct CGSize);
+- (int)}12;
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (double);
@@ -54,21 +48,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets);F;
 
 // Remaining properties
-@property(readonly) int _vibrancyBlendMode;
-@property(readonly) NSSliderCircularKnob *circularKnobView;
-@property __weak NSView *controlView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSView *designatedFocusRingView;
 @property(readonly) NSSliderDial *dialView;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSSliderCellMetricsStrategy> metricsStrategy;
-@property CDStruct_6717dab8 state;
-@property(readonly) Class superclass;
-@property __weak id <NSSliderTickMarksDelegate> tickMarkDelegate; // @synthesize tickMarkDelegate;
 
 @end
 

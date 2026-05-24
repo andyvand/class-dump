@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface USOSchemaUSOPayloadAttachmentInfo : SISchemaInstrumentationMessage
 {
     int _attachmentType;
-    struct {
-        unsigned int attachmentType:1;
-    } _has;
 }
 
 - (void);
-- (id);
+- (id)#;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)y;
+- (unsigned long long)__DATA_CONST;
+- (_Bool)_parentContainer;
 - (int);
-- (_Bool);
+- (_Bool)OM message WHERE (is_sent = 0 AND is_from_me = 1 AND error = 0);
 - (id);
 - (id);
-- (id)ementIds;
-- (id)onPosition;
+- (id)deleteStatementIds;
+- (id)_ordinalCardSectionPosition;
 
 // Remaining properties
 @property(nonatomic) int attachmentType; // @synthesize attachmentType=_attachmentType;
-@property(nonatomic) _Bool hasAttachmentType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

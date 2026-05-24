@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXButtonComponentTextProvider, SXTextComponentLayoutHosting, SXTextSourceFactory;
+@protocol SXButtonComponentTextProvider, SXTextComponentLayoutHosting;
 
 @interface SXButtonComponentSizerFactory
 {
     id <SXTextComponentLayoutHosting> _textComponentLayoutHosting;
-    id <SXButtonComponentTextProvider> _textProvider;
-    id <SXTextSourceFactory> _textSourceFactory;
 }
 
 - (id);
@@ -25,18 +22,7 @@
 - (void)}16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int role;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <SXTextComponentLayoutHosting> textComponentLayoutHosting; // @synthesize textComponentLayoutHosting=_textComponentLayoutHosting;
 @property(readonly, nonatomic) id <SXButtonComponentTextProvider> textProvider; // @synthesize textProvider=_textProvider;
-@property(readonly, nonatomic) id <SXTextSourceFactory> textSourceFactory; // @synthesize textSourceFactory=_textSourceFactory;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

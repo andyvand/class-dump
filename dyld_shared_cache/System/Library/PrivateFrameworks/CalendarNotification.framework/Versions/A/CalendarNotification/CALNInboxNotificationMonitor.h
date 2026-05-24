@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _EKNotificationMonitor;
+@class _EKNotificationMonitor;
 
 @interface CALNInboxNotificationMonitor
 {
     _Bool _active;
-    _EKNotificationMonitor *_notificationMonitor;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)d, Longitude:%{private}d /* Error: Ran out of types for this method. */;
+- (void);
+- (id)PV;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long eventNotificationCount;
-@property(readonly, nonatomic) NSArray *eventNotificationReferences;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _EKNotificationMonitor *notificationMonitor; // @synthesize notificationMonitor=_notificationMonitor;
-@property(readonly) Class superclass;
 
 @end
 

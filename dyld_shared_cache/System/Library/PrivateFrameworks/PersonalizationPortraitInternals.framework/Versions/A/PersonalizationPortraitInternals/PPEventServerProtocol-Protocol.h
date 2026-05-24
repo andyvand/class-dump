@@ -5,5 +5,6 @@
 //
 
 @protocol PPEventServerProtocol
+- (void)ptor == &pg_query__reindex_stmt__descriptor;
 @end
 

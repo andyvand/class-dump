@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMetadataItem, NSDictionary, NSString;
+@class AVMetadataItem, NSString;
 
 @interface MPTimedMetadata
 {
@@ -13,19 +13,15 @@
 
 - (id);
 - (id);
-- (id);
+- (id)hasElapsed;
 - (id);
 - (double);
-- (id);
-- (id);
-- (void)ations;
+- (id)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (id)CEMSystemAllowedMediaDeclaration;
+- (void)_artworkResizingOperations;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *allMetadata;
 @property(readonly, nonatomic) NSString *key;
-@property(readonly, nonatomic) NSString *keyspace;
-@property(readonly, nonatomic) double timestamp;
-@property(readonly, nonatomic) id value;
 
 @end
 

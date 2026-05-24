@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (MapKitExtras)
++ (id);
 + (id);
 + (id);
 + (id);
@@ -12,10 +13,9 @@
 + (id);
 + (id);
 + (id);
++ (id)R=X;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)snapshotWithSignature:withIDSDestinations:validFor:duration:events:payload:actions:reply: /* Error: Ran out of types for this method. */;
+- (id);
 @end
 

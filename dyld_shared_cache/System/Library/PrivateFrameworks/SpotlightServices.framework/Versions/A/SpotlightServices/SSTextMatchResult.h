@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SSTextMatchResult
 {
     float _score;
-    NSString *_source;
-    NSArray *_termMatches;
-    NSArray *_matchPositions;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)specializedMetadataProviderForResourceWithContext:(id)arg1;
+- (void)setSourceApplicationSecondaryIdentifier:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -28,13 +25,10 @@
 - (id);
 - (float);
 - (void);
-- (void)tifier:error: /* Error: Ran out of types for this method. */;
+- (void)initWithRemotePlaceholderBundleIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *matchPositions; // @synthesize matchPositions=_matchPositions;
-@property(nonatomic) float score; // @synthesize score=_score;
 @property(retain, nonatomic) NSString *source; // @synthesize source=_source;
-@property(retain, nonatomic) NSArray *termMatches; // @synthesize termMatches=_termMatches;
 
 @end
 

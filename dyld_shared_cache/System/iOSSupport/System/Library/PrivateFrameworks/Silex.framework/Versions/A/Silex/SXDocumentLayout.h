@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXDocumentLayout
 {
     long long _width;
-    long long _margin;
-    long long _gutter;
-    unsigned long long _columns;
 }
 
 - (id);
@@ -22,16 +17,6 @@
 - (long long)olver>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long gutter; // @synthesize gutter=_gutter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long margin; // @synthesize margin=_margin;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long width; // @synthesize width=_width;
 
 @end

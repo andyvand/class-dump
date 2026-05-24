@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, IMStateCaptureAssistant, NSString;
-@protocol IMDRemoteDatabaseProtocol;
+@class NSString;
 
 @interface IMDChatStore
 {
     NSString *_lastModificationStamp;
-    IMStateCaptureAssistant *_stateCaptureAssistant;
 }
 
 + (id)pantId:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)indexPathForItem:(id)arg1 inSection: /* Error: Ran out of types for this method. */;
+- (void)_changeCount;
 - (_Bool);
 - (id);
 - (void);
@@ -27,51 +25,51 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id)@;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (_Bool)StringAsModeSemanticType:(id)arg1;
+- (void)gs for cause;
+- (id)pg_query__a__const__pack_to_buffer;
+- (void)lity":(long long)arg1 %s,;
+- (id)constraint;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -82,13 +80,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)LocalTimestampingMode;
 - (id);
 - (id);
 - (id);
+- (void)#�;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)y;
 - (id);
 - (id);
 - (id)ù
@@ -101,18 +99,7 @@
 - (id)Updating clients with final transfer:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMDRemoteDatabaseProtocol> database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain) NSString *modificationStamp; // @synthesize modificationStamp=_lastModificationStamp;
-@property(readonly, nonatomic) CKRecordZoneID *record1ZoneID;
-@property(readonly, nonatomic) CKRecordZoneID *recordZoneID;
-@property(retain, nonatomic) IMStateCaptureAssistant *stateCaptureAssistant; // @synthesize stateCaptureAssistant=_stateCaptureAssistant;
-@property(readonly) Class superclass;
 
 @end
 

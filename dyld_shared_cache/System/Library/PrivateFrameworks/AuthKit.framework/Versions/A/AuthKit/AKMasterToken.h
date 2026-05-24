@@ -6,7 +6,7 @@
 
 #import <AuthKit/AKToken.h>
 
-@class NSData, NSMutableDictionary, NSString;
+@class NSData, NSMutableDictionary;
 
 @interface AKMasterToken : AKToken
 {
@@ -29,9 +29,6 @@
 - (void)lS;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *encryptedSessionKey;
-@property(readonly, nonatomic) NSData *externalizedVersion;
-@property(readonly, nonatomic) NSString *externalizedVersionString;
 @property(readonly, nonatomic) NSData *sessionKey;
 
 @end

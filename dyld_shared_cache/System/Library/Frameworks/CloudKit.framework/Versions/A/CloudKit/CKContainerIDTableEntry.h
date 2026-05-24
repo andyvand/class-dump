@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class CKContainerID, NSNumber, NSString;
+@class CKContainerID, NSNumber;
 
 @interface CKContainerIDTableEntry : CKSQLiteTableEntry
 {
     CKContainerID *_containerID;
-    NSNumber *_containerIDKey;
-    NSString *_containerIdentifier;
-    long long _environment;
 }
 
 + (Class);
@@ -30,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *containerIDKey; // @synthesize containerIDKey=_containerIDKey;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(nonatomic) long long environment; // @synthesize environment=_environment;
 
 @end
 

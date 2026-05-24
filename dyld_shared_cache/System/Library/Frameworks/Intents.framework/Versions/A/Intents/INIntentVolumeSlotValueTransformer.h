@@ -12,9 +12,9 @@
 + (Class);
 + (Class);
 + (Class);
-+ (long long)ringAsCapabilities: /* Error: Ran out of types for this method. */;
++ (long long)StringAsCapabilities: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)MediaAffinityIntentMediaItemsUnsupportedReason:(id)arg1;
+- (id)StringAsUpdateMediaAffinityIntentMediaItemsUnsupportedReason:(id)arg1;
 
 @end
 

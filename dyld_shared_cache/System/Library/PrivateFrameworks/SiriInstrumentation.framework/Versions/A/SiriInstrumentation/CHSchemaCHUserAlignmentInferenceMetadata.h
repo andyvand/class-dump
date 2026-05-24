@@ -6,22 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface CHSchemaCHUserAlignmentInferenceMetadata : SISchemaInstrumentationMessage
 {
     int _userAlignmentResult;
-    int _confidenceScore;
-    NSArray *_issueCategorys;
-    NSString *_rationale;
-    struct {
-        unsigned int userAlignmentResult:1;
-        unsigned int confidenceScore:1;
-    } _has;
-    _Bool _hasRationale;
 }
 
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -33,36 +23,29 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)openWindow;
+- (void)>L;
 - (_Bool);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1};
-- (id)riSchemaEXPServerCounterfactualTriggeredTier1;
+- (id)EXPSiriSchemaEXPServerCounterfactualTriggeredTier1;
 - (id)¼×;
 - (void)°ÿ@³;
 
 // Remaining properties
-@property(nonatomic) int confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasRationale; // @synthesize hasRationale=_hasRationale;
-@property(nonatomic) _Bool hasUserAlignmentResult;
-@property(copy, nonatomic) NSArray *issueCategorys; // @synthesize issueCategorys=_issueCategorys;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *rationale; // @synthesize rationale=_rationale;
 @property(nonatomic) int userAlignmentResult; // @synthesize userAlignmentResult=_userAlignmentResult;
 
 @end

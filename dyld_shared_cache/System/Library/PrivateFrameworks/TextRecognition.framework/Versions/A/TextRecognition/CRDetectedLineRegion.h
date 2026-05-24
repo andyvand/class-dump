@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedPolyline, CRNormalizedQuad, NSArray, NSDictionary, NSString, NSUUID;
-@protocol CRScriptCategory;
+@class CRNormalizedQuad;
 
 @interface CRDetectedLineRegion
 {
     _Bool _isCurved;
-    _Bool _shouldRunSequenceScript;
-    _Bool _shouldRunSequenceOrientation;
-    _Bool _shouldRotate180DetectorOrientationFallback;
-    CRNormalizedPolyline *_polygon;
-    id <CRScriptCategory> _topScriptCategory;
-    NSArray *_scriptCategoryResults;
-    NSDictionary *_scriptCategoryCounts;
-    NSString *_sequenceScriptOutputResult;
-    unsigned long long _nmsOutputScale;
-    unsigned long long _textType;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSUUID *_uuid;
 }
 
 - (id);
@@ -36,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -49,44 +35,22 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void)_trackReorderingEventsWithStartEvent:(id)arg1 forTabButton: /* Error: Ran out of types for this method. */;
+- (id)_takeOffscreenToolbarSnapshotForVisualTabPickerAnimation;
+- (id);
+- (id);
+- (id);
+- (id)14COpcodeGainMap;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ToLength:withString:startingAtIndex: /* Error: Ran out of types for this method. */;
+- (void)stringByPaddingToLength:withString:startingAtIndex: /* Error: Ran out of types for this method. */;
 - (void)É	;
 - (void)ions %lu;
 - (double);
 - (unsigned long long)÷ÿ(ÿ½¤;
 
 // Remaining properties
-@property(readonly) double aspectRatio;
 @property(retain) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isCurved; // @synthesize isCurved=_isCurved;
-@property unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property unsigned long long nmsOutputScale; // @synthesize nmsOutputScale=_nmsOutputScale;
-@property(retain) CRNormalizedPolyline *polygon; // @synthesize polygon=_polygon;
-@property(readonly) struct CGSize rectifiedSize;
-@property(retain) NSDictionary *scriptCategoryCounts; // @synthesize scriptCategoryCounts=_scriptCategoryCounts;
-@property(retain) NSArray *scriptCategoryResults; // @synthesize scriptCategoryResults=_scriptCategoryResults;
-@property(retain) NSString *sequenceScriptOutputResult; // @synthesize sequenceScriptOutputResult=_sequenceScriptOutputResult;
-@property _Bool shouldRotate180DetectorOrientationFallback; // @synthesize shouldRotate180DetectorOrientationFallback=_shouldRotate180DetectorOrientationFallback;
-@property _Bool shouldRunSequenceOrientation; // @synthesize shouldRunSequenceOrientation=_shouldRunSequenceOrientation;
-@property _Bool shouldRunSequenceScript; // @synthesize shouldRunSequenceScript=_shouldRunSequenceScript;
-@property(readonly) Class superclass;
-@property unsigned long long textType; // @synthesize textType=_textType;
-@property(retain) id <CRScriptCategory> topScriptCategory; // @synthesize topScriptCategory=_topScriptCategory;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

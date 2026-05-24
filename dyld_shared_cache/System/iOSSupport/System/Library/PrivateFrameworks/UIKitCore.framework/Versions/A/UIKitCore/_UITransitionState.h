@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface _UITransitionState
 {
     long long _transitionDirection;
-    CDUnknownBlockType _completion;
-    NSDate *_beginDate;
 }
 
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (long long);
 - (void);
@@ -24,12 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)
 × ;
-- (void)w;
+- (void)SgXw;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(readonly, nonatomic) long long effectiveTransitionDirection;
 @property(readonly, nonatomic) long long transitionDirection; // @synthesize transitionDirection=_transitionDirection;
 
 @end

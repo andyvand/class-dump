@@ -16,7 +16,7 @@
 + (void);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -38,21 +38,21 @@
 - (id);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)0A9;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)for identity %{public}@. err = %{public}@.;
+- (id)ext %{public}@, clientInfo=%{public}@; force=%{BOOL}u, cached=%{BOOL}u, expired=%{BOOL}u, allowsExpired=%{BOOL}u, cacheKey='%{public}@', allKeys=%{public}@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (struct CGSize);
-- (id)rdTitles;
+- (id)_keywordTitles;
 - (void)ng",R,N,V_inviteeFullName;
-- (struct CGSize)ityRequestAdjustmentSecondaryDataUTIKey;
+- (struct CGSize)PHResourceLocalAvailabilityRequestAdjustmentSecondaryDataUTIKey;
 - (_Bool)Ùÿ.&·¥;
 
 // Remaining properties

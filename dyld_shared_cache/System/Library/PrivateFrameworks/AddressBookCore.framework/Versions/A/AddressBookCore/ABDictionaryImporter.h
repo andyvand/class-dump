@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, NSMutableArray, NSMutableDictionary, NSString;
+@class ABAddressBook, NSString;
 
 @interface ABDictionaryImporter
 {
     ABAddressBook *_addressBook;
-    ABAccount *_account;
-    NSString *_discoveredMeIdentifier;
-    _Bool _preservesIdentifiers;
-    NSMutableDictionary *_recordMapping;
-    NSMutableArray *_importedGroups;
 }
 
 + (id);
@@ -22,22 +17,20 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void),T;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
 @property(copy) NSString *discoveredMeIdentifier; // @synthesize discoveredMeIdentifier=_discoveredMeIdentifier;
-@property _Bool preservesIdentifiers; // @synthesize preservesIdentifiers=_preservesIdentifiers;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSUIBrandManager, IMBrandRBMBrandDataSourceObjcShim, NSOperationQueue;
+@class BSUIBrandManager;
 
 @interface IMBrandManager
 {
     BSUIBrandManager *_mapKitBrandManager;
-    IMBrandRBMBrandDataSourceObjcShim *_rbmShim;
-    BSUIBrandManager *_chatBotBrandManager;
-    NSOperationQueue *_brandFetchQueue;
 }
 
 + (id)[%s]:final url:%s /* Error: Ran out of types for this method. */;
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)̹;
 - (id);
 - (void);
 - (_Bool);
@@ -32,13 +29,10 @@
 - (void);
 - (id);
 - (id);
-- (void)nCG;
+- (void)SaySo28_LTLanguageStatusObservationCG;
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *brandFetchQueue; // @synthesize brandFetchQueue=_brandFetchQueue;
-@property(retain, nonatomic) BSUIBrandManager *chatBotBrandManager; // @synthesize chatBotBrandManager=_chatBotBrandManager;
 @property(retain, nonatomic) BSUIBrandManager *mapKitBrandManager; // @synthesize mapKitBrandManager=_mapKitBrandManager;
-@property(retain, nonatomic) IMBrandRBMBrandDataSourceObjcShim *rbmShim; // @synthesize rbmShim=_rbmShim;
 
 @end
 

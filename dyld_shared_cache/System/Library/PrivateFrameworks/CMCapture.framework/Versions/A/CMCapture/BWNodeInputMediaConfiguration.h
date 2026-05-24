@@ -9,37 +9,26 @@
 @interface BWNodeInputMediaConfiguration
 {
     NSString *_associatedAttachedMediaKey;
-    BWFormatRequirements *_formatRequirements;
-    int _passthroughMode;
-    _Bool _conversionToPassthroughModeNeverAllowed;
-    int _retainedBufferCount;
-    int _delayedBufferCount;
-    int _indefinitelyHeldBufferCount;
 }
 
 - (void);
 - (id);
-- (int);
+- (int);
 - (void);
-- (int);
-- (_Bool);
+- (int)contextBeforeInput;
+- (_Bool)@;
 - (void)øÿú8úÿú9úÿú:(id)arg1 ùÿú;÷ÿú=öÿ;
 - (int)­¥Vÿµ£Tÿ¼¢RÿÄ OÿÍLÿÕIÿÝGÿåFÿïEÿøEÿÿFÿÿFÿÿFÿ;
 - (void)?ÿ>ÿ¦;ÿ®8ÿµ5ÿ½2ÿÄ/ÿÍ+ÿÕ(ÿÝ%ÿæ~#ÿð~"ÿù~"ÿý~"ÿý~#ÿý~$ÿ;
 - (void)pturesource.video.notificationQueue;
-- (void)e;
-- (void);
-- (int)tputSmartStyleConfiguration;
+- (void)minTimeSinceLastPhotoCapture;
+- (void)totalCompressedSize;
+- (int)outputSmartStyleConfiguration;
 - (id)Öÿ;
 - (void)5XË;
 
 // Remaining properties
-@property(nonatomic) _Bool conversionToPassthroughModeNeverAllowed; // @synthesize conversionToPassthroughModeNeverAllowed=_conversionToPassthroughModeNeverAllowed;
-@property(nonatomic) int delayedBufferCount; // @synthesize delayedBufferCount=_delayedBufferCount;
 @property(retain, nonatomic) BWFormatRequirements *formatRequirements; // @synthesize formatRequirements=_formatRequirements;
-@property(nonatomic) int indefinitelyHeldBufferCount; // @synthesize indefinitelyHeldBufferCount=_indefinitelyHeldBufferCount;
-@property(nonatomic) int passthroughMode; // @synthesize passthroughMode=_passthroughMode;
-@property(nonatomic) int retainedBufferCount; // @synthesize retainedBufferCount=_retainedBufferCount;
 
 @end
 

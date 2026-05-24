@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebEvent;
-
 @interface UIKeyEvent
 {
     _Bool _keyRepeating;
-    int _inputFlags;
-    NSString *_characters;
-    NSString *_charactersIgnoringModifiers;
-    long long _type;
-    long long _keyCode;
-    double _timestamp;
-    long long _modifierFlags;
-    NSString *_inputManagerHint;
-    WebEvent *_webEvent;
 }
 
++ (long long)[%@] anyways;
++ (id)with GUID=%@;
 + (long long);
-+ (id);
-+ (long long);
 - (id);
 - (void);
 - (void);
+- (void)d object type from IMDChatAddedNotification %s;
+- (_Bool)age [%@] because we do not want to store a message from Mako URI on mac;
+- (int)e token has expired for processing the record zone for attachments going to try and fetch again;
+- (id)ns;
+- (id)?0@?<v@?>8;
 - (void);
-- (_Bool);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void)Xc;
+- (id)C;
 - (long long);
 - (id);
 - (void);
@@ -44,24 +33,15 @@
 - (long long)!°!8AùZ°1Â0@ù
 × ;
 - (long long)32@0:8q16B24B28 /* Error: Ran out of types for this method. */;
-- (id)tionExtensionTapGesture: /* Error: Ran out of types for this method. */;
-- (void)iguration;
-- (id)ollerTransition;
+- (id)_handleSelectionExtensionTapGesture: /* Error: Ran out of types for this method. */;
+- (void)_customSearchFieldConfiguration;
+- (id)_UILegacyModalViewControllerTransition;
 - (void)ä;
 - (void)lacement;
 - (void)À¾þ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *characters; // @synthesize characters=_characters;
-@property(copy, nonatomic) NSString *charactersIgnoringModifiers; // @synthesize charactersIgnoringModifiers=_charactersIgnoringModifiers;
-@property(nonatomic) int inputFlags; // @synthesize inputFlags=_inputFlags;
-@property(retain, nonatomic) NSString *inputManagerHint; // @synthesize inputManagerHint=_inputManagerHint;
-@property(nonatomic) long long keyCode; // @synthesize keyCode=_keyCode;
-@property(nonatomic, getter=isKeyRepeating) _Bool keyRepeating; // @synthesize keyRepeating=_keyRepeating;
-@property(nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) WebEvent *webEvent; // @synthesize webEvent=_webEvent;
 
 @end
 

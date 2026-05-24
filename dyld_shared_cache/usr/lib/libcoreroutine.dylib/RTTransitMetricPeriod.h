@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface RTTransitMetricPeriod
 {
     NSDateInterval *_journeyPeriod;
-    NSDateInterval *_homeStayPeriod;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)manual;
 - (void)xts, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDateInterval *homeStayPeriod; // @synthesize homeStayPeriod=_homeStayPeriod;
 @property(readonly, nonatomic) NSDateInterval *journeyPeriod; // @synthesize journeyPeriod=_journeyPeriod;
 
 @end

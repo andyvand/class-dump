@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataWrapper, NSData;
+@class ISDDataWrapper;
 
 @interface ISDDataReference
 {
     ISDDataWrapper *_dataWrapper;
-    NSData *_data;
 }
 
 + (void);
@@ -20,14 +19,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (const void *);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (const void *)u";
+- (_Bool)Y;
+- (id);
+- (id);
+- (id)_;
 
 @end
 

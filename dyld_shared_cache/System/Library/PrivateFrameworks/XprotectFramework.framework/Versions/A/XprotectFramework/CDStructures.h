@@ -24,8 +24,6 @@ struct RE_FIBER_POOL {
     struct RE_FIBER_LIST _field2;
 };
 
-struct YR_AC_AUTOMATON;
-
 struct YR_AC_MATCH;
 
 struct YR_ARENA;
@@ -34,16 +32,6 @@ struct YR_ARENA_REF {
     unsigned int _field1;
     unsigned int _field2;
 };
-
-struct YR_ATOMS_CONFIG {
-    CDUnknownFunctionPointerType _field1;
-    struct YR_ATOM_QUALITY_TABLE_ENTRY *_field2;
-    int _field3;
-    int _field4;
-    _Bool _field5;
-};
-
-struct YR_ATOM_QUALITY_TABLE_ENTRY;
 
 struct YR_EXTERNAL_VARIABLE;
 
@@ -56,8 +44,6 @@ struct YR_META;
 struct YR_NAMESPACE;
 
 struct YR_NOTEBOOK;
-
-struct YR_OBJECT;
 
 struct YR_PROFILING_INFO;
 
@@ -128,69 +114,7 @@ struct YR_SCAN_CONTEXT {
 
 struct YR_STRING;
 
-struct _YR_COMPILER {
-    struct YR_ARENA *_field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-    unsigned int _field5;
-    unsigned int _field6;
-    struct YR_RULES *_field7;
-    int _field8;
-    int _field9;
-    int _field10;
-    int _field11;
-    int _field12[48];
-    struct YR_AC_AUTOMATON *_field13;
-    struct _YR_HASH_TABLE *_field14;
-    struct _YR_HASH_TABLE *_field15;
-    struct _YR_HASH_TABLE *_field16;
-    struct _YR_HASH_TABLE *_field17;
-    struct _YR_FIXUP *_field18;
-    int _field19;
-    struct _YR_LOOP_CONTEXT _field20[4];
-    int _field21;
-    int _field22;
-    char *_field23[16];
-    int _field24;
-    char _field25[256];
-    char _field26[8192];
-    char *_field27;
-    unsigned short _field28;
-    char _field29[1024];
-    void *_field30;
-    void *_field31;
-    void *_field32;
-    CDUnknownFunctionPointerType _field33;
-    CDUnknownFunctionPointerType _field34;
-    CDUnknownFunctionPointerType _field35;
-    CDUnknownFunctionPointerType _field36;
-    struct YR_ATOMS_CONFIG _field37;
-};
-
-struct _YR_EXPRESSION {
-    int _field1;
-    union {
-        long long _field1;
-        struct YR_OBJECT *_field2;
-        struct YR_ARENA_REF _field3;
-    } _field2;
-    struct {
-        char *_field1;
-        struct YR_ARENA_REF _field2;
-    } _field3;
-};
-
-struct _YR_FIXUP;
-
 struct _YR_HASH_TABLE;
-
-struct _YR_LOOP_CONTEXT {
-    struct YR_ARENA_REF _field1;
-    int _field2;
-    struct _YR_EXPRESSION _field3[2];
-    int _field4;
-};
 
 struct _YR_STOPWATCH {
     struct mach_timebase_info _field1;

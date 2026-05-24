@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath;
-
 __attribute__((visibility("hidden")))
 @interface _UIVectorTextLayoutGlyph
 {
     unsigned short _glyph;
-    UIBezierPath *_path;
-    struct CGRect _rect;
-    struct CGAffineTransform _pathTransform;
 }
 
 - (void);
 - (struct CGAffineTransform);
 - (void)B24^B28;
-- (struct CGRect)mLineCount: /* Error: Ran out of types for this method. */;
-- (unsigned short)tViewTransform;
-- (id)pacing_OpaqueButtonBaselines;
+- (struct CGRect)_setTitleMaximumLineCount: /* Error: Ran out of types for this method. */;
+- (unsigned short)_preRotationInputAssistantViewTransform;
+- (id)_UIKitLayoutSpacing_OpaqueButtonBaselines;
 - (void)ocument;
 - (void)rdinator _trailingCursorLocationRangeForProofreadingSuggestion:(unsigned short)arg1 inContextID:] /* Error: Ran out of types for this method. */;
 - (void)¾7GGG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned short glyph; // @synthesize glyph=_glyph;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) struct CGAffineTransform pathTransform; // @synthesize pathTransform=_pathTransform;
-@property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly) Class superclass;
 
 @end
 

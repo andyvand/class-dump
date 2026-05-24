@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFormatter, NSString;
+@class NSString;
 
 @interface _CPLSyncSessionPredictionType
 {
     NSString *_type;
-    NSFormatter *_formatter;
 }
 
 - (void)AÂð!ÜDù±Ð1Â0@ù

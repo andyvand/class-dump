@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id)tmentForBarMetrics: /* Error: Ran out of types for this method. */;
-+ (id)ViewInTableView:amountScrolledUnder: /* Error: Ran out of types for this method. */;
++ (id)backgroundVerticalAdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
++ (id)_updateTableHeaderBackgroundViewInTableView:amountScrolledUnder: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

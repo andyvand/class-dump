@@ -7,16 +7,9 @@
 @interface RTTripClusterMetricsCollector
 {
     int _clusterOrderDefault_totalNumberOfRoutes;
-    int _clusterOrderDefault_sumOfTraversalCountOfAllRoutes;
-    int _clusterOrderBeforeDrive_totalNumberOfRoutes;
-    int _clusterOrderBeforeDrive_sumOfTraversalCountOfAllRoutes;
-    int _clusterOrderAfterDrive_totalNumberOfRoutes;
-    int _clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes;
-    int _clusterOrderNoDrive_totalNumberOfRoutes;
-    int _clusterOrderNoDrive_sumOfTraversalCountOfAllRoutes;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -35,14 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes; // @synthesize clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes=_clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes;
-@property(nonatomic) int clusterOrderAfterDrive_totalNumberOfRoutes; // @synthesize clusterOrderAfterDrive_totalNumberOfRoutes=_clusterOrderAfterDrive_totalNumberOfRoutes;
-@property(nonatomic) int clusterOrderBeforeDrive_sumOfTraversalCountOfAllRoutes; // @synthesize clusterOrderBeforeDrive_sumOfTraversalCountOfAllRoutes=_clusterOrderBeforeDrive_sumOfTraversalCountOfAllRoutes;
-@property(nonatomic) int clusterOrderBeforeDrive_totalNumberOfRoutes; // @synthesize clusterOrderBeforeDrive_totalNumberOfRoutes=_clusterOrderBeforeDrive_totalNumberOfRoutes;
-@property(nonatomic) int clusterOrderDefault_sumOfTraversalCountOfAllRoutes; // @synthesize clusterOrderDefault_sumOfTraversalCountOfAllRoutes=_clusterOrderDefault_sumOfTraversalCountOfAllRoutes;
 @property(nonatomic) int clusterOrderDefault_totalNumberOfRoutes; // @synthesize clusterOrderDefault_totalNumberOfRoutes=_clusterOrderDefault_totalNumberOfRoutes;
-@property(nonatomic) int clusterOrderNoDrive_sumOfTraversalCountOfAllRoutes; // @synthesize clusterOrderNoDrive_sumOfTraversalCountOfAllRoutes=_clusterOrderNoDrive_sumOfTraversalCountOfAllRoutes;
-@property(nonatomic) int clusterOrderNoDrive_totalNumberOfRoutes; // @synthesize clusterOrderNoDrive_totalNumberOfRoutes=_clusterOrderNoDrive_totalNumberOfRoutes;
 
 @end
 

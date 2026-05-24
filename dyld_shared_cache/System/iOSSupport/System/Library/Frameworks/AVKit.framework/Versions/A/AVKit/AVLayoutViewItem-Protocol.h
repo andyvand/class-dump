@@ -7,6 +7,7 @@
 @class AVLayoutItemAttributes;
 
 @protocol AVLayoutViewItem
+- (AVLayoutItemAttributes *)ary/PrivateFrameworks/FTServices.framework/Versions/A/FTServices;
 
 // Remaining properties
 @property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes;

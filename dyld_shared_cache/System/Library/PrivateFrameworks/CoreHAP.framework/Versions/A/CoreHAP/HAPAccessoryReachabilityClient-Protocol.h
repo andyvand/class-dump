@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HAPAccessoryReachabilityDelegate, HAPAccessoryReachabilityProfile;
+@protocol HAPAccessoryReachabilityDelegate;
 
 @protocol HAPAccessoryReachabilityClient
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double confirmInterval;
 @property(nonatomic) __weak id <HAPAccessoryReachabilityDelegate> delegate;
-@property(copy, nonatomic) id <HAPAccessoryReachabilityProfile> profile;
 @end
 

@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOABClientConfig
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_assignedAbBranchId;
-    NSMutableArray *_configKeyValues;
-    NSMutableArray *_debugExperimentBranchs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_assignedAbBranchId:1;
-        unsigned int read_configKeyValues:1;
-        unsigned int read_debugExperimentBranchs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)Settings:(id)arg1;
++ (_Bool)setHasMapSettingsDrivingVoiceSettings:(id)arg1;
 - (void);
 - (id);
 - (void);
@@ -38,12 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_handleSessionInfoProvidingDelegateMediaServicesWereLostNotification:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s must be followed by );
 - (void);
 - (_Bool);
 - (_Bool);
@@ -55,22 +41,18 @@
 - (id)@ù
 × ;
 - (id)=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (void)l:(id)arg1;
-- (id)en:(struct _NSZone *)arg1 callbackQ:beginNetwork:callback: /* Error: Ran out of types for this method. */;
+- (void)setOrdinal:(id)arg1;
+- (id)loadKey:(struct _NSZone *)arg1 priority:forClient:options:reason:auditToken:callbackQ:beginNetwork:callback: /* Error: Ran out of types for this method. */;
 - (id)ÄÜLÝ;
 - (unsigned long long)ex from %d to %d;
 - (id)ntifier is %@;
 - (void)are no longer referenced by the database;
-- (id)eHypothesisAggressiveTravelTimeKey;
+- (id)GEORouteHypothesisAggressiveTravelTimeKey;
 - (id)´;
 - (void)07;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assignedAbBranchId;
 @property(retain, nonatomic) NSMutableArray *configKeyValues;
-@property(retain, nonatomic) NSMutableArray *debugExperimentBranchs;
-@property(readonly, nonatomic) _Bool hasAssignedAbBranchId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

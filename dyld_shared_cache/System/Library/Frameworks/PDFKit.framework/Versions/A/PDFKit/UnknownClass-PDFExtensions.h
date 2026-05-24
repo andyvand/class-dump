@@ -6,7 +6,7 @@
 
 @interface UnknownClass (PDFExtensions)
 + (id);
-+ (id);
++ (id)2;
 - (struct CGPoint);
 - (struct CGRect);
 @end

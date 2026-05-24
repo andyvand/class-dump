@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMIndexThrottleMonitor, NSMutableDictionary, NSObject, NSTimer;
-@protocol OS_dispatch_queue;
+@class IMIndexThrottleMonitor, NSTimer;
 
 @interface IMDIndexThrottlingController
 {
     IMIndexThrottleMonitor *_throttleMonitor;
-    NSTimer *_timer;
-    long long _throttleState;
-    NSMutableDictionary *_throttles;
-    NSMutableDictionary *_historicalThrottles;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)Roots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -33,33 +27,27 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)qA;
+- (_Bool)8(	;
 - (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)*;
+- (id)c;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)verter;
+- (id)*aA9_;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)IMDSortDescriptorToSQLConverter;
 - (void). Please file a radar!;
 - (_Bool)ND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (void), display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join ON    chat_message_join.chat_id == chat.rowid    AND chat_message_join.message_date = (       SELECT MAX(cmj_inner.message_date)        FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (void)nreadChats with time:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *historicalThrottles; // @synthesize historicalThrottles=_historicalThrottles;
-@property(readonly, nonatomic) _Bool isThrottled;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) IMIndexThrottleMonitor *throttleMonitor; // @synthesize throttleMonitor=_throttleMonitor;
-@property(nonatomic) long long throttleState; // @synthesize throttleState=_throttleState;
-@property(readonly, nonatomic) NSMutableDictionary *throttles; // @synthesize throttles=_throttles;
 @property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end

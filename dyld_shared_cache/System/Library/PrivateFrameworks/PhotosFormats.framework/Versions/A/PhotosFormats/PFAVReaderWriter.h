@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetReader, AVAssetWriter, AVAssetWriterInput, NSArray, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, PFAVReaderWriterAdjustDelegate;
+@class AVAsset, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PFAVReaderWriter
 {
     NSObject<OS_dispatch_queue> *_serializationQueue;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    AVAssetReader *assetReader;
-    AVAssetWriter *assetWriter;
-    NSArray *videoChannels;
-    NSArray *passthroughChannels;
-    _Bool cancelled;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _completionBlock;
-    _Bool _writeInProgress;
-    CDStruct_1b6d18a9 _stillImagetime;
-    id <PFAVReaderWriterAdjustDelegate> _delegate;
-    AVAsset *_asset;
-    AVAssetWriterInput *_metadataInput;
-    NSURL *_outputURL;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (_Bool);
@@ -34,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -46,23 +31,12 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
 - (void);
 - (id)þÿXþ:(id)arg1 Ü;
 
 // Remaining properties
 @property(copy, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PFAVReaderWriterAdjustDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVAssetWriterInput *metadataInput; // @synthesize metadataInput=_metadataInput;
-@property(copy, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PRASTStackItem
 {
     _Bool _visited;
-    PRAstNode *_node;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) PRAstNode *node; // @synthesize node=_node;
-@property(nonatomic) _Bool visited; // @synthesize visited=_visited;
 
 @end
 

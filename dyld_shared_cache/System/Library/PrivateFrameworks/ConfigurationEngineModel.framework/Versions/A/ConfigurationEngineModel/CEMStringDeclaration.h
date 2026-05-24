@@ -6,38 +6,29 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMStringDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    NSString *_payloadData;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)@9;
 + (id);
-+ (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ibressl-2.2/ssl/t1_lib.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadData; // @synthesize payloadData=_payloadData;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(readonly) Class superclass;
 
 @end
 

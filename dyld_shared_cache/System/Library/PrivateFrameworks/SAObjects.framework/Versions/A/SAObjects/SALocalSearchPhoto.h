@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL, SAUIAppPunchOut;
+@class NSURL;
 
 @interface SALocalSearchPhoto : AceObject
 {
@@ -21,7 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ord-boundary-int-file is missing.
+Option 1:(id)arg1 Set autocomplete-partial-result=true. This is *usually* done only for 'srch' and 'srch'-variant (WebSearch) decoder chains. This is required if the model doesn't have word-boundary-int-file.
+Option 2:Keep using autocomplete-partial-result=false, but add a word-boundary-int-file. This is *usually* done for all other tasks. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,19 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSURL *fullsize;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSURL *largeSize;
-@property(copy, nonatomic) NSURL *maximumSize;
-@property(retain, nonatomic) SAUIAppPunchOut *photoPunchOut;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *thumbnail;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABGroupEntry, NSArray;
+@class ABAccount;
 
 @interface ABAccountGroupEntries
 {
     ABAccount *_account;
-    ABGroupEntry *_entryForAllContacts;
-    NSArray *_entriesForGroups;
-    ABGroupEntry *_entryForSearching;
 }
 
 + (id);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSArray *entriesForGroups; // @synthesize entriesForGroups=_entriesForGroups;
-@property(readonly, retain) ABGroupEntry *entryForAllContacts; // @synthesize entryForAllContacts=_entryForAllContacts;
-@property(readonly, retain) ABGroupEntry *entryForSearching; // @synthesize entryForSearching=_entryForSearching;
 
 @end
 

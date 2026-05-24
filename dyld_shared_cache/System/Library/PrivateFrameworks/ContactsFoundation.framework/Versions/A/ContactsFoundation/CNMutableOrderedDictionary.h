@@ -11,9 +11,9 @@
 }
 
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void)_#;
 
 @end
 

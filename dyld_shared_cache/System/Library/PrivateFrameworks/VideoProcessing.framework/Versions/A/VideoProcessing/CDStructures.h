@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -16,14 +14,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 struct CF<OpaqueVTPixelTransferSession *> {
     struct OpaqueVTPixelTransferSession *value_;
-};
-
-struct CF<__CFDictionary *> {
-    struct __CFDictionary *value_;
-};
-
-struct CF<__CVMetalTextureCache *> {
-    struct __CVMetalTextureCache *value_;
 };
 
 struct CF<__CVPixelBufferPool *> {
@@ -40,13 +30,6 @@ struct EMAMeter {
 };
 
 struct EspressoModel;
-
-struct MetalBufferPool {
-    NSMutableArray *pool_;
-    id device_;
-    unsigned long long allocSize_;
-    unsigned long long storageMode_;
-};
 
 struct OpaqueVTPixelTransferSession;
 
@@ -129,14 +112,14 @@ typedef struct {
 } CDStruct_14f26992;
 
 typedef struct {
-    float scalingFactor;
-    long long matchedFileIndex;
-    long long closestFileIndex;
-    long long closestWidth;
-    long long closestHeight;
-    long long extendRight;
-    long long extendBottom;
-} CDStruct_d2d250c8;
+    float _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
+    long long _field5;
+    long long _field6;
+    long long _field7;
+} CDStruct_6229c11b;
 
 typedef struct {
     long long _field1;

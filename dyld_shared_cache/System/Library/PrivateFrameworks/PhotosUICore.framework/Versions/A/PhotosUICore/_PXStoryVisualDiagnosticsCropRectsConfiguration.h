@@ -9,22 +9,18 @@
 @interface _PXStoryVisualDiagnosticsCropRectsConfiguration
 {
     id <PXStoryMovieHighlight> movieHighlight;
-    struct CGSize TVPreviewSize;
-    CDStruct_24e54195 kenBurnsAnimationInfo;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDStruct_24e54195);
+- (CDStruct_6bc7ba05)#;
 - (struct CGSize);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGSize TVPreviewSize; // @synthesize TVPreviewSize;
-@property(nonatomic) CDStruct_24e54195 kenBurnsAnimationInfo; // @synthesize kenBurnsAnimationInfo;
-@property(retain, nonatomic) id <PXStoryMovieHighlight> movieHighlight; // @synthesize movieHighlight;
+@property(nonatomic) CDStruct_6bc7ba05 kenBurnsAnimationInfo; // @synthesize kenBurnsAnimationInfo;
 
 @end
 

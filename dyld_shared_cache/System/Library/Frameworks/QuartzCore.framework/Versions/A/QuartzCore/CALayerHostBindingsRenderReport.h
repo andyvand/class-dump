@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CALayerHostBindingsRenderReport
 {
     unsigned int _contextId;
-    unsigned int _bindingFlags;
-    unsigned int _portalInstances;
-    struct CGSRegionObject *_unobscuredShape;
-    struct CGSRegionObject *_unobscuredShapeClipped;
-    struct CGSRegionObject *_originalShape;
-    NSDictionary *_securityAnalysisInfo;
 }
 
-- (id);
+- (id)?E9	;
 - (struct CGSRegionObject *);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (struct CGSRegionObject *);
 - (unsigned int);
 - (void);
@@ -28,13 +20,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bindingFlags; // @synthesize bindingFlags=_bindingFlags;
 @property(readonly, nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(readonly, nonatomic) struct CGSRegionObject *originalShape; // @synthesize originalShape=_originalShape;
-@property(readonly, nonatomic) unsigned int portalInstances; // @synthesize portalInstances=_portalInstances;
-@property(readonly, nonatomic) NSDictionary *securityAnalysisInfo; // @synthesize securityAnalysisInfo=_securityAnalysisInfo;
-@property(readonly, nonatomic) struct CGSRegionObject *unobscuredShape; // @synthesize unobscuredShape=_unobscuredShape;
-@property(readonly, nonatomic) struct CGSRegionObject *unobscuredShapeClipped; // @synthesize unobscuredShapeClipped=_unobscuredShapeClipped;
 
 @end
 

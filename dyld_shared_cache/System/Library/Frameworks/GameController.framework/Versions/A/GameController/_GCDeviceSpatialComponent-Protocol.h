@@ -7,6 +7,7 @@
 @protocol GCDeviceSpatial;
 
 @protocol _GCDeviceSpatialComponent
+- (id <GCDeviceSpatial>);
 
 // Remaining properties
 @property(readonly) id <GCDeviceSpatial> spatialFacade;

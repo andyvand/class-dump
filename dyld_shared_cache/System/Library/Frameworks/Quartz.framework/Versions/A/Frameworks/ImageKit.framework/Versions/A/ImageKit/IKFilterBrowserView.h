@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray;
-
 @interface IKFilterBrowserView
 {
     id _actionButton;
-    id _addCollectionButton;
-    id _browser;
-    id _descriptionField;
-    id _previewView;
-    id _removeCollectionButton;
-    id _searchField;
-    id _OKButton;
-    id _CancelButton;
-    NSMutableArray *_foundFilters;
-    NSDictionary *_options;
-    _Bool _showPreviewView;
-    _Bool _useNarrowLayout;
-    id _modalDelegate;
-    void *_priv[8];
 }
 
 - (void);
@@ -35,12 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (id)P;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -49,7 +33,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)queryForPersonsWithLocalIdentifiers:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

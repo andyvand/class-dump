@@ -6,7 +6,7 @@
 
 #import <PlugInKit/PKBundleProxy.h>
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSArray;
 
 @interface PKApplicationProxy : PKBundleProxy
 {
@@ -17,21 +17,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSURL *bundleURL;
-@property(readonly, nonatomic) NSString *bundleVersion;
-@property(readonly, nonatomic) NSURL *dataContainerURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder;
 @property(readonly, nonatomic) NSArray *plugInKitPlugins;
-@property(readonly) Class superclass;
 
 @end
 

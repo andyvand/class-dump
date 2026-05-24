@@ -7,19 +7,22 @@
 @class NSSliderAccessory;
 
 @protocol NSSliderAccessoryContainer
-- (double)idDrawInLayer:inContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)__TEXT;
+- (NSSliderAccessory *)%s
+	fsca:%s
+	esca:%s
+	trustObject:%@
+} /* Error: Ran out of types for this method. */;
+- (NSSliderAccessory *)tionary (%@);
+- (void)!;
+- (double)_viewDidDrawInLayer:inContext: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void)r.framework/AppContainer;
 - (double)5ÿ;
 
 // Remaining properties
-@property(readonly) _Bool _hasStepBehaviorContext;
-@property double incrementValue;
-@property double maximumValue;
-@property(readonly) NSSliderAccessory *maximumValueAccessory;
-@property double minimumValue;
-@property(readonly) NSSliderAccessory *minimumValueAccessory;
 @property double value;
 @end
 

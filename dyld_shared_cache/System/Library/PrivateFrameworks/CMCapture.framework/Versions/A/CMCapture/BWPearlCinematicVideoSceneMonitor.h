@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWPearlCinematicVideoSceneMonitor
 {
     int _numberOfFramesToWaitForAEAndLTMToStabilize;
-    _Bool _aeStableAfterStartStreaming;
-    int _sdofNumFramesSinceAEBecameStable;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    int _sceneTooDarkLuxThreshold;
-    _Bool _sceneIsTooDark;
-    _Bool _occluded;
-    _Bool portraitSceneMonitoringRequiresStageThresholds;
 }
 
-+ (void);
++ (void)und;
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds; // @synthesize portraitSceneMonitoringRequiresStageThresholds;
-@property(readonly) Class superclass;
 
 @end
 

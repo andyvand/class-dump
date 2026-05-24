@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPortalLayer, MKBlurBackedControlProxy, MKBlurBackingView, NSView;
+@class NSView;
 
 @interface MKBlurBackedControlView
 {
     NSView *_displayControl;
-    NSView *_maskControl;
-    MKBlurBackedControlProxy *_proxyControl;
-    CAPortalLayer *_maskPortal;
-    MKBlurBackingView *_blurView;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)F;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
@@ -33,17 +29,12 @@
 × ;
 - (void)!xGùQ *°1Â0@ù
 × ;
-- (double)ormSelector:withObject: /* Error: Ran out of types for this method. */;
-- (void)gScrollView;
+- (double)makeObjectsPerformSelector:withObject: /* Error: Ran out of types for this method. */;
+- (void)enclosingScrollView;
 - (struct NSEdgeInsets)ordinate2D=dd},R,N,V_coordinate;
 
 // Remaining properties
-@property(retain, nonatomic) MKBlurBackingView *blurView; // @synthesize blurView=_blurView;
-@property(readonly, nonatomic) id control;
 @property(retain, nonatomic) NSView *displayControl; // @synthesize displayControl=_displayControl;
-@property(retain, nonatomic) NSView *maskControl; // @synthesize maskControl=_maskControl;
-@property(retain, nonatomic) CAPortalLayer *maskPortal; // @synthesize maskPortal=_maskPortal;
-@property(retain, nonatomic) MKBlurBackedControlProxy *proxyControl; // @synthesize proxyControl=_proxyControl;
 
 @end
 

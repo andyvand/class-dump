@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MRTrivialAssetManager
 {
@@ -16,26 +16,20 @@
 - (struct CGImage *);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize)work/Versions/A/NewsTransport;
+- (id)addObjectsFromArray:(id)arg1;
+- (id)hes/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (id)oadAssembler init];
+- (id)24@?0B8@"NSError"12B20;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)(;
 - (struct __IOSurface *);
 - (struct CGImage *);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

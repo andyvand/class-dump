@@ -9,8 +9,6 @@
 @interface PHImportAssetThumbnailDataRequest : PHImportAssetDataRequest
 {
     CDUnknownBlockType _completionHandler;
-    unsigned char _priority;
-    unsigned long long _longestSide;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) unsigned long long longestSide; // @synthesize longestSide=_longestSide;
-@property(readonly, nonatomic) unsigned char priority; // @synthesize priority=_priority;
 
 @end
 

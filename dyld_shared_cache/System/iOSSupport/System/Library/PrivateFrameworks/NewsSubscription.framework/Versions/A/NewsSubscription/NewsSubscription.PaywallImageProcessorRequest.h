@@ -7,10 +7,6 @@
 @interface NewsSubscription.PaywallImageProcessorRequest
 {
     id cacheIdentifier;
-    id size;
-    id scaling;
-    id assetHandles;
-    id assetHandle;
 }
 
 @end

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, PHFetchResult, PLSortedChangedObjects;
+@class PHFetchResult, PLSortedChangedObjects;
 
 @interface PHFetchResultChangeDetails
 {
     PHFetchResult *_fetchResultBeforeChanges;
-    PHFetchResult *_fetchResultAfterChanges;
-    NSArray *_previousObjects;
-    NSArray *_currentObjects;
-    NSIndexSet *_removedIndexes;
-    NSIndexSet *_insertedIndexes;
-    NSIndexSet *_movedIndexes;
-    struct __CFArray *_movedFromIndexes;
-    PLSortedChangedObjects *_sortedChangedIdentifiers;
-    NSIndexSet *_changedIndexes;
-    _Bool _skipIncrementalChanges;
 }
 
 + (id);
@@ -30,7 +20,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,31 +30,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void)order:(unsigned long long *)arg1 modes:(unsigned long long *)arg2;
+- (id)s:locale='%{public}@', keyboardIDs='%{public}@', result='%{public}@' /* Error: Ran out of types for this method. */;
+- (void)performSelector:(unsigned long long *)arg1 target:(unsigned long long *)arg2 argument:(unsigned long long *)arg3 order:modes: /* Error: Ran out of types for this method. */;
 - (struct __CFArray *)Score;
-- (void)d;
-- (id)edObject;
+- (void)cancelRequested;
+- (id)PHBatchFetchedObject;
 
 // Remaining properties
-@property(readonly) NSIndexSet *changedIndexes;
-@property(readonly) NSArray *changedObjects;
-@property(readonly) PHFetchResult *fetchResultAfterChanges;
-@property(readonly) PHFetchResult *fetchResultBeforeChanges;
-@property(readonly, nonatomic) _Bool hasAnyChanges;
-@property(readonly) _Bool hasIncrementalChanges;
-@property(readonly) _Bool hasMoves;
-@property(readonly) NSIndexSet *insertedIndexes;
-@property(readonly) NSArray *insertedObjects;
-@property(readonly, nonatomic) struct __CFArray *movedFromIndexes;
-@property(readonly, nonatomic) NSIndexSet *movedIndexes;
-@property(readonly) NSIndexSet *removedIndexes;
-@property(readonly) NSArray *removedObjects;
 @property(readonly, nonatomic) PLSortedChangedObjects *sortedChangedIdentifiers;
 
 @end

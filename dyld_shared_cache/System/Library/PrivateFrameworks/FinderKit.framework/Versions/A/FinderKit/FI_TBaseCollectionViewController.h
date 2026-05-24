@@ -6,20 +6,10 @@
 
 #import <FinderKit/FI_TBrowserViewController.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TBaseCollectionViewController : FI_TBrowserViewController
 {
     unsigned long long _pendingNodeToPropertiesToUpdateIndex;
-    struct unordered_map<unsigned long, std::unordered_map<TFENode, std::unordered_set<Property>>, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, std::unordered_map<TFENode, std::unordered_set<Property>>>>> _pendingNodeToPropertiesToUpdateMaps;
-    struct TNotificationCenterObserver _sizeChangedObserver;
-    struct TKeyValueObserver _selectionIndexPathsObserver;
-    struct TKeyValueObserver _windowFirstResponderObserver;
-    _Bool _useActiveAppearance;
-    _Bool _supportsPrefetching;
-    _Bool _selectionChanged;
-    int _selectionCoalescing;
 }
 
 - (void);
@@ -31,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (struct TFENode);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -51,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (struct TFENodeVector);
+- (struct TFENodeVector)�;
 - (struct TFENode);
 - (struct TFENode);
 - (struct TFENode);
@@ -60,20 +50,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (void);
@@ -81,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -94,20 +84,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TFENode);
 - (_Bool);
+- (void)showAndClearSearchText;
 - (void);
-- (void);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)writeToURL:(id)arg1 options:(id)arg2 originalContentsURL:error: /* Error: Ran out of types for this method. */;
+- (id)windowWillClose:(id)arg1;
+- (id)windowShouldClose:(id)arg1;
+- (id)windowDidChangeOcclusionState:(id)arg1;
+- (_Bool)window:(id)arg1 willUseFullScreenContentSize:(id)arg2;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)before;
 - (id);
 - (void);
 - (id);
@@ -121,14 +111,6 @@ __attribute__((visibility("hidden")))
 - (id)NSt3__111__match_anyIcEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsPrefetching; // @synthesize supportsPrefetching=_supportsPrefetching;
 @property(nonatomic) _Bool useActiveAppearance; // @synthesize useActiveAppearance=_useActiveAppearance;
 
 @end

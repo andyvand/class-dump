@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXCallDirectoryManager, NSObject;
-@protocol CXCallDirectoryExtensionManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXCallDirectoryExtensionManager
 {
     int _storeExtensionsChangedNotifyToken;
-    CXCallDirectoryManager *_manager;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CXCallDirectoryExtensionManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (int);
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)!`;
+- (id)a;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)oaded %zu passkey keychain records from personal keychain;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CXCallDirectoryExtensionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, nonatomic) CXCallDirectoryManager *manager; // @synthesize manager=_manager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) int storeExtensionsChangedNotifyToken; // @synthesize storeExtensionsChangedNotifyToken=_storeExtensionsChangedNotifyToken;
 
 @end
 

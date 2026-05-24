@@ -6,14 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLEngineSyncTask.h>
 
-@class CPLEngineScope, CPLEngineStore, NSData, NSString;
+@class NSString;
 
 @interface CPLEngineScopedTask : CPLEngineSyncTask
 {
     NSString *_clientCacheIdentifier;
-    CPLEngineScope *_scope;
-    NSData *_transportScope;
-    CPLEngineStore *_store;
 }
 
 - (id);
@@ -23,15 +20,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void)°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientCacheIdentifier; // @synthesize clientCacheIdentifier=_clientCacheIdentifier;
-@property(readonly, nonatomic) CPLEngineScope *scope; // @synthesize scope=_scope;
-@property(readonly, nonatomic) CPLEngineStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) NSData *transportScope; // @synthesize transportScope=_transportScope;
 
 @end
 

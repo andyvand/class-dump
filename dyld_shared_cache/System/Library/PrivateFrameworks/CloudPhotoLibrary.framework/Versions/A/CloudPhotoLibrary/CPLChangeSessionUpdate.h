@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CPLChangeSessionUpdate
 {
     NSString *_libraryVersion;
-    NSDate *_queuedDate;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -28,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *libraryVersion; // @synthesize libraryVersion=_libraryVersion;
-@property(readonly, nonatomic) NSDate *queuedDate; // @synthesize queuedDate=_queuedDate;
-@property(readonly, nonatomic) NSString *statusDescription;
 
 @end
 

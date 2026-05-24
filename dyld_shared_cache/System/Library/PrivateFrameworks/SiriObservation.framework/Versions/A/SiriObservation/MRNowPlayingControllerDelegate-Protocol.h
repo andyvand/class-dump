@@ -5,5 +5,11 @@
 //
 
 @protocol MRNowPlayingControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

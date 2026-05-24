@@ -15,15 +15,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (id)ror:%{public}@. /* Error: Ran out of types for this method. */;
+- (unsigned long long)lic}@ Handling account-updated notification for Apple account %{public}@. _primaryICloudAccount=%@;
+- (_Bool)_bytesPredicateValue;
+- (void)erFramework.MPAVRouteConnection.accessQueue;
 - (id);
 - (unsigned int)Qr°1Â0@ù
 × ;
-- (void)otifyToken;
-- (_Bool)Name;
+- (void)storeExtensionsChangedNotifyToken;
+- (_Bool)serviceName;
 
 // Remaining properties
 @property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;

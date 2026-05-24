@@ -4,49 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInput_Tundra, AVCaptureDevice_Tundra, AVWeakReference, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureConnectionInternal_Tundra
 {
     NSMutableArray *inputPorts;
-    AVWeakReference *outputWeakReference;
-    AVWeakReference *videoPreviewLayerWeakReference;
-    AVCaptureDeviceInput_Tundra *sourceDeviceInput;
-    AVCaptureDevice_Tundra *sourceDevice;
-    _Bool active;
-    _Bool enabled;
-    NSMutableArray *audioChannels;
-    NSMutableArray *enabledAudioChannels;
-    NSArray *audioChannelPeakLevels;
-    long long lastGetAudioPeakLevelsTime;
-    NSArray *audioChannelAvgLevels;
-    long long lastGetAudioAvgLevelsTime;
-    _Bool automaticallyAdjustsVideoMirroring;
-    _Bool videoMirrored;
-    long long videoOrientation;
-    double maxVideoScaleAndCropFactor;
-    double videoScaleAndCropFactor;
-    long long videoFieldMode;
-    CDStruct_1b6d18a9 videoMinFrameDuration;
-    CDStruct_1b6d18a9 videoMaxFrameDuration;
-    struct OpaqueCMIOGraph *graph;
-    int node;
-    unsigned int element;
-    unsigned int scope;
-    struct {
-        int _field1;
-        int _field2;
-        void *_field3;
-    } *extendedNodeInfo;
-    unsigned int writerElement;
-    long long clientSequenceID;
-    struct __CFString *clientSequenceIDCF;
-    void *mostRecentlySeenClientSequenceID;
-    long long preferredVideoStabilizationMode;
-    _Bool didChangeAudioChannelVolume;
-    _Bool didChangeAudioChannelEnabled;
-    _Bool didChangeVideoFieldMode;
 }
 
 @end

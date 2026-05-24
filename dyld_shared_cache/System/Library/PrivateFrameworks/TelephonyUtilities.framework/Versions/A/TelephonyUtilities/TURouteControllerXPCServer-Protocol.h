@@ -5,5 +5,6 @@
 //
 
 @protocol TURouteControllerXPCServer
+- (oneway void);
 @end
 

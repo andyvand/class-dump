@@ -5,5 +5,7 @@
 //
 
 @protocol NSDetachedTabDraggingImageToWindowTransitionControllerDelegate
+- (void);
+- (_Bool);
 @end
 

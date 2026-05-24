@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSArray, NSString;
-
 @interface CKSearchTokenFilter
 {
     unsigned long long _contentType;
-    NSString *_itemIdentifier;
-    NSArray *_tokenAddresses;
-    CKConversation *_conversation;
-    unsigned long long _filterOptions;
-    NSString *_queryStringForConversationSearch;
-    NSString *_queryStringForDateTypeSearch;
-    NSString *_queryStringForMessageTypeSearch;
 }
 
++ (id)o;
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
++ (id)T;
+- (id)retainOriginalFormatting;
+- (void)ic_rectForRange:(id)arg1;
+- (void)generateMissingOrOutdatedAttachmentMetaDataIfNeededInContext:(id)arg1;
+- (void)generateImagePreviewsForAttachment:(id)arg1 withFallbackPDFData: /* Error: Ran out of types for this method. */;
+- (void)generateImagePreviewsForAttachment:(id)arg1 withFallbackPDFData: /* Error: Ran out of types for this method. */;
+- (id)NSLayoutConstraint",W,N,V_hintTextViewHeightConstraint;
+- (id)isclaimerHeightConstraint;
+- (id)configuration;
+- (id)ppearanceDidChange;
+- (_Bool)?5;
 - (id);
 - (void);
 - (unsigned long long);
@@ -44,13 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(nonatomic) __weak CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) unsigned long long filterOptions; // @synthesize filterOptions=_filterOptions;
-@property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain, nonatomic) NSString *queryStringForConversationSearch; // @synthesize queryStringForConversationSearch=_queryStringForConversationSearch;
-@property(retain, nonatomic) NSString *queryStringForDateTypeSearch; // @synthesize queryStringForDateTypeSearch=_queryStringForDateTypeSearch;
-@property(retain, nonatomic) NSString *queryStringForMessageTypeSearch; // @synthesize queryStringForMessageTypeSearch=_queryStringForMessageTypeSearch;
-@property(retain, nonatomic) NSArray *tokenAddresses; // @synthesize tokenAddresses=_tokenAddresses;
 
 @end
 

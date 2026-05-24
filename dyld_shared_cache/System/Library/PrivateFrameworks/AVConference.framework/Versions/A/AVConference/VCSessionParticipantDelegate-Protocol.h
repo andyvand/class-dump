@@ -5,5 +5,13 @@
 //
 
 @protocol VCSessionParticipantDelegate
+- (void)B;
+- (void)9I;
+- (void)9;
+- (void){;
+- (void);
+- (void)T(;
+- (void)h;
+- (void);
 @end
 

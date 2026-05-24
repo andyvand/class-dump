@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface MSVFrameworkDescription
 {
     _Bool _root;
-    _Bool _debug;
-    NSString *_name;
-    NSUUID *_uuid;
-    NSString *_version;
 }
 
 @end

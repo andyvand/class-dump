@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     SAExclave *_exclave;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

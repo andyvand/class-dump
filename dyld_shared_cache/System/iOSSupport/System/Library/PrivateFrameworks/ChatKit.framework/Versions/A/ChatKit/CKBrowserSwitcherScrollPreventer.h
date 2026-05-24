@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView, UIView;
-@protocol CKBrowserSwitcherScrollPreventerDelegate;
+@class UIScrollView;
 
 @interface CKBrowserSwitcherScrollPreventer
 {
     _Bool _engaged;
-    _Bool _switching;
-    _Bool _scrollEnabled;
-    id <CKBrowserSwitcherScrollPreventerDelegate> _delegate;
-    UIScrollView *_horizontalScrollView;
-    UIView *_horizontalScrollPreventerView;
 }
 
+- (void)objectCache;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)d) to attributed string (length=%ld);
+- (id).size.height);
 - (_Bool);
 - (void);
 - (void);
@@ -36,28 +30,14 @@
 - (id);
 - (_Bool)
 × ;
-- (void)etupFlowWithMemoji:(id)arg1 forUserInitiatedEdit: /* Error: Ran out of types for this method. */;
+- (void)presentNicknameSharingSetupFlowWithMemoji:(id)arg1 forUserInitiatedEdit: /* Error: Ran out of types for this method. */;
 - (void)ion;
 - (void);
 - (id)§/;
 - (struct CGSize)4W]ÿç;Ðü2;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint contentOffset;
-@property(nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserSwitcherScrollPreventerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEngaged) _Bool engaged; // @synthesize engaged=_engaged;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *horizontalScrollPreventerView; // @synthesize horizontalScrollPreventerView=_horizontalScrollPreventerView;
 @property(retain, nonatomic) UIScrollView *horizontalScrollView; // @synthesize horizontalScrollView=_horizontalScrollView;
-@property(nonatomic) _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSwitching) _Bool switching; // @synthesize switching=_switching;
 
 @end
 

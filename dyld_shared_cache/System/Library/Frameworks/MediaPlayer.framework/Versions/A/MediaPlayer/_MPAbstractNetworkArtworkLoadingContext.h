@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURLSessionDataTask;
+@class NSURLSessionDataTask;
 
 __attribute__((visibility("hidden")))
 @interface _MPAbstractNetworkArtworkLoadingContext
 {
     NSURLSessionDataTask *_dataTask;
-    NSMutableDictionary *_catalogIdentifierToCompletionHandlerMap;
 }
 
 - (id);
@@ -18,10 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)ÔÁ¿ð!À@ù@Ð1Â0@ù
 × ;
-- (void)y:enable: /* Error: Ran out of types for this method. */;
+- (void)_updateUserListeningHistoryControlForAccessory:enable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *catalogIdentifierToCompletionHandlerMap; // @synthesize catalogIdentifierToCompletionHandlerMap=_catalogIdentifierToCompletionHandlerMap;
 @property(retain, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
 
 @end

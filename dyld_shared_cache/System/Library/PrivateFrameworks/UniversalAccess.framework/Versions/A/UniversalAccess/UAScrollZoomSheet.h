@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSComboBox, NSMatrix, NSTextField, NSView, NSWindow, UAModifiersController;
+@class NSWindow;
 
 @interface UAScrollZoomSheet
 {
     NSWindow *_sheet;
-    NSButton *_doneButton;
-    NSView *_scrollZoomControlsView;
-    NSButton *_scrollZoomCheckbox;
-    NSTextField *_modifiersLabel;
-    NSComboBox *_modifiersComboBox;
-    NSMatrix *_panningModeMatrix;
-    NSButton *_smoothImagesCheckbox;
-    _Bool _showModifiers;
-    UAModifiersController *_modifiersController;
-    _Bool _didAwakeFromNib;
 }
 
+- (void)b1"watchCount"b1"macBookCount"b1"macStudioCount"b1"iMacCount"b1};
+- (void)SICClientEvent";
+- (void)ent";
+- (void)maCDAClientEvent";
+- (void)LUSSchemaPLUSClientEvent";
+- (void)1"responseTimeInMilliseconds"b1};
+- (void)ext";
+- (void)ntentName"b1"isConfirmationPromptSettingEnabled"b1};
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)UEIUUFRREADYDIALOGPHASE_REFLECTION;
 - (void);
 - (void);
 - (id);

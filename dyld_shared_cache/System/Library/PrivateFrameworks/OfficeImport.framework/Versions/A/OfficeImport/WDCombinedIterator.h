@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface WDCombinedIterator : WDIterator
 {
     WDIterator *mParentIterator;
-    WDIterator *mChildIterator;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)s init];
 - (id);
 

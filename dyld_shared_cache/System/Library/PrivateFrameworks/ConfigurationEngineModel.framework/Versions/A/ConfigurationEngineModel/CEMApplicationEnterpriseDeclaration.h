@@ -6,25 +6,18 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMApplicationEnterpriseDeclaration_AppPackage, CEMAssetBaseDescriptor, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMApplicationEnterpriseDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    NSString *_payloadBundleIdentifier;
-    CEMApplicationEnterpriseDeclaration_AppPackage *_payloadAppPackage;
-    NSString *_payloadAppPackageHashMD5;
-    NSString *_payloadDisplayImage;
-    NSString *_payloadDisplayImageHashMD5;
-    NSString *_payloadFullSizeImage;
-    NSString *_payloadFullSizeImageHashMD5;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -35,9 +28,9 @@
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,21 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CEMApplicationEnterpriseDeclaration_AppPackage *payloadAppPackage; // @synthesize payloadAppPackage=_payloadAppPackage;
-@property(copy, nonatomic) NSString *payloadAppPackageHashMD5; // @synthesize payloadAppPackageHashMD5=_payloadAppPackageHashMD5;
-@property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) NSString *payloadDisplayImage; // @synthesize payloadDisplayImage=_payloadDisplayImage;
-@property(copy, nonatomic) NSString *payloadDisplayImageHashMD5; // @synthesize payloadDisplayImageHashMD5=_payloadDisplayImageHashMD5;
-@property(copy, nonatomic) NSString *payloadFullSizeImage; // @synthesize payloadFullSizeImage=_payloadFullSizeImage;
-@property(copy, nonatomic) NSString *payloadFullSizeImageHashMD5; // @synthesize payloadFullSizeImageHashMD5=_payloadFullSizeImageHashMD5;
-@property(readonly) Class superclass;
 
 @end
 

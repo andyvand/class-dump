@@ -6,15 +6,10 @@
 
 #import <ViewBridge/NSVB_TargetedProxy.h>
 
-@class NSVB_ViewAnimationAttributes;
-
 __attribute__((visibility("hidden")))
 @interface NSVB_ViewServiceImplicitAnimationEncodingProxy : NSVB_TargetedProxy
 {
     id _controlMessageTarget;
-    NSVB_ViewAnimationAttributes *_animationAttributes;
-    struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _sentAnimationAttributes;
 }
 
 + (id);

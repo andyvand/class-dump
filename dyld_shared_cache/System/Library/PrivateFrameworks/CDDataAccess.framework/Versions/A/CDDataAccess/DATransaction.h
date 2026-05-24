@@ -9,7 +9,6 @@
 @interface DATransaction
 {
     NSString *_label;
-    NSString *_transactionId;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *transactionId; // @synthesize transactionId=_transactionId;
 
 @end
 

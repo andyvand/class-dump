@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPPairingIdentity, NSData, NSNumber, NSString;
+@class HAPPairingIdentity;
 
 @interface HAPAccessoryPairingRequest
 {
     _Bool _requiresUserConsent;
-    _Bool _doNetworkScan;
-    _Bool _ownerPairing;
-    HAPPairingIdentity *_pairingIdentity;
-    NSData *_ownershipToken;
-    NSString *_ssid;
-    NSData *_psk;
-    NSString *_isoCountryCode;
-    NSNumber *_chipFabricID;
 }
 
 - (void);
@@ -34,25 +26,17 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)teWithOptions:(id)arg1 offset (%u) beyond the space used:%u by the currentFrameCount:%d  segment:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)F\;
 - (id);
 - (id);
-- (id);
-- (void)dationCount: /* Error: Ran out of types for this method. */;
+- (id)mework/Versions/A/HTTPServer;
+- (void)setMetricHAPIPInvalidationCount: /* Error: Ran out of types for this method. */;
 - (id)026BB765291;
 
 // Remaining properties
-@property(copy) NSNumber *chipFabricID; // @synthesize chipFabricID=_chipFabricID;
-@property(nonatomic) _Bool doNetworkScan; // @synthesize doNetworkScan=_doNetworkScan;
-@property(copy) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(getter=isOwnerPairing) _Bool ownerPairing; // @synthesize ownerPairing=_ownerPairing;
-@property(copy) NSData *ownershipToken; // @synthesize ownershipToken=_ownershipToken;
 @property(copy) HAPPairingIdentity *pairingIdentity; // @synthesize pairingIdentity=_pairingIdentity;
-@property(copy) NSData *psk; // @synthesize psk=_psk;
-@property _Bool requiresUserConsent; // @synthesize requiresUserConsent=_requiresUserConsent;
-@property(copy) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

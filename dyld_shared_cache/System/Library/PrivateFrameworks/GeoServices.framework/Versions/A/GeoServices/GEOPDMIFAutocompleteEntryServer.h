@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteEntry, GEOPDMIFAutocompleteBaseEntry, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMIFAutocompleteEntryServer
 {
     PBDataReader *_reader;
-    GEOPDMIFAutocompleteBaseEntry *_baseEntry;
-    GEOPDAutocompleteEntry *_entry;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_baseEntry:1;
-        unsigned int read_entry:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_accessoryVoiceTriggerMetaDataByDeviceId;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)atencyMs"b1"has_requestType"b1"has_status"b1"read_unknownFields"b1"read_analyticData"b1"read_clientMetrics"b1"read_datasetAbStatus"b1"read_debugApiKey"b1"read_displayLanguages"b1"read_displayRegion"b1"read_dotPlaces"b1"read_globalResult"b1"read_mapsResults"b1"read_legacyPlaceResults"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (id)ShiftFunctionForLatLng:auditToken:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_fetchShiftFunctionForLatLng:auditToken:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)0;
 - (void);
 

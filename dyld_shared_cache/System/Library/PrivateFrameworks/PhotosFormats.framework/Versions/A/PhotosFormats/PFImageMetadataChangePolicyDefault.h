@@ -16,7 +16,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (float);
 - (id);

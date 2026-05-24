@@ -13,8 +13,8 @@
 + (long long);
 - (long long);
 - (id);
-- (id);
-- (long long);
+- (id)_kCFNTimingDataConnectionUUID;
+- (long long)_kCFNTimingDataTotalBytesReceived;
 - (id);
 - (id);
 - (id);

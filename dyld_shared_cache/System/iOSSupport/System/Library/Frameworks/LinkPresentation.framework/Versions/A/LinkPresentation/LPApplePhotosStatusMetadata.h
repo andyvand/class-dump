@@ -6,18 +6,18 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface LPApplePhotosStatusMetadata : LPSpecializationMetadata
 {
     NSAttributedString *_status;
 }
 
-+ (id);
++ (id)sortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)storageMode;
+- (_Bool)smallBubbleGrowOffset;
+- (id)applicationShouldHandleReopen:(id)arg1 hasVisibleWindows: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -28,14 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSAttributedString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

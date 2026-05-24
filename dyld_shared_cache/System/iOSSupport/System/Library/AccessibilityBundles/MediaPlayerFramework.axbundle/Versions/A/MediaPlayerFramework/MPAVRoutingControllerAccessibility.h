@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)8;
 + (Class);
-+ (id);
++ (id)_backgroundColorSystemColorName;
 + (void);
 
 @end

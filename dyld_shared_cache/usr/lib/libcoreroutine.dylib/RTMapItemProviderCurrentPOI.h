@@ -6,36 +6,25 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTMapItemProviderCurrentPOIParameters, RTPlaceInferenceQueryStore, RTVisitStore;
+@class RTPlaceInferenceQueryStore;
 
 @interface RTMapItemProviderCurrentPOI : RTMapItemProviderBase
 {
     RTPlaceInferenceQueryStore *_placeInferenceQueryStore;
-    RTVisitStore *_visitStore;
-    RTMapItemProviderCurrentPOIParameters *_parameters;
 }
 
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7;
 - (void)or detected:truth visit from yesterday, %@, is unknown /* Error: Ran out of types for this method. */;
 - (id)%d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RTMapItemProviderCurrentPOIParameters *parameters; // @synthesize parameters=_parameters;
 @property(readonly, nonatomic) RTPlaceInferenceQueryStore *placeInferenceQueryStore; // @synthesize placeInferenceQueryStore=_placeInferenceQueryStore;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
 
 @end
 

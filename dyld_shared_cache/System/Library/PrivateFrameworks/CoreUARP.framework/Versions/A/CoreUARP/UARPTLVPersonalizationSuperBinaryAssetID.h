@@ -13,13 +13,13 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (id)E9;
++ (unsigned int)marked as complete in the calling context.;
 - (id);
 - (id);
 - (id);
-- (unsigned short);
-- (id);
+- (unsigned short)isTrustedURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)HTTPBody;
 - (void);
 
 // Remaining properties

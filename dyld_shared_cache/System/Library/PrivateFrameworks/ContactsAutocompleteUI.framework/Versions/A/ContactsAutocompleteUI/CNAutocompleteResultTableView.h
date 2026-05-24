@@ -9,7 +9,6 @@
 @interface CNAutocompleteResultTableView
 {
     _Bool _shouldAllowVibrancy;
-    NSTrackingArea *_trackingArea;
 }
 
 - (_Bool);
@@ -17,12 +16,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)WTF:(id)arg1:HashMap<PAL::SessionID, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, WTF::HashTraits<PAL::SessionID>>::validateKey(const ValueType &) [Key = PAL::SessionID, Value = WTF::KeyValuePair<PAL::SessionID, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<PAL::SessionID, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<PAL::SessionID>, Traits = WTF::HashMap<PAL::SessionID, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<PAL::SessionID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)!}S;
 - (void);
 - (_Bool);
 - (void);
@@ -32,7 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldAllowVibrancy; // @synthesize shouldAllowVibrancy=_shouldAllowVibrancy;
 @property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end

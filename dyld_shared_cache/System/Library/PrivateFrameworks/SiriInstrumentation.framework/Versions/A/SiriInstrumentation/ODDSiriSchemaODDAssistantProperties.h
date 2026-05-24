@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAppleIntelligenceProperties, ODDSiriSchemaODDHomeKitProperties, ODDSiriSchemaODDOptInProperties, ODDSiriSchemaODDVoiceProperties, SISchemaISOLocale;
-
 @interface ODDSiriSchemaODDAssistantProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAssistantEnabled;
-    SISchemaISOLocale *_inputLocale;
-    int _listenFor;
-    int _numSiriShortcutsEnabled;
-    _Bool _isPreciseLocationEnabled;
-    ODDSiriSchemaODDVoiceProperties *_voice;
-    ODDSiriSchemaODDOptInProperties *_optIn;
-    ODDSiriSchemaODDHomeKitProperties *_homeKit;
-    int _locationAccessPermission;
-    ODDSiriSchemaODDAppleIntelligenceProperties *_appleIntelligence;
-    struct {
-        unsigned int isAssistantEnabled:1;
-        unsigned int listenFor:1;
-        unsigned int numSiriShortcutsEnabled:1;
-        unsigned int isPreciseLocationEnabled:1;
-        unsigned int locationAccessPermission:1;
-    } _has;
-    _Bool _hasInputLocale;
-    _Bool _hasVoice;
-    _Bool _hasOptIn;
-    _Bool _hasHomeKit;
-    _Bool _hasAppleIntelligence;
 }
 
 - (void);
@@ -50,7 +27,7 @@
 - (void);
 - (int);
 - (int);
-- (int);
+- (int);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -60,9 +37,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)0";
 - (void);
 - (void);
 - (void);
@@ -80,12 +57,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)setPageSubTitle:__JS_EXPORT_AS__setPageSubTitle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -95,30 +72,10 @@
 × ;
 - (id)s;
 - (id),&,N,V_ended;
-- (void)ROUTPUT_MULTI_STEP;
+- (void)WKACLASSIFIEROUTPUT_MULTI_STEP;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAppleIntelligenceProperties *appleIntelligence; // @synthesize appleIntelligence=_appleIntelligence;
-@property(nonatomic) _Bool hasAppleIntelligence; // @synthesize hasAppleIntelligence=_hasAppleIntelligence;
-@property(nonatomic) _Bool hasHomeKit; // @synthesize hasHomeKit=_hasHomeKit;
-@property(nonatomic) _Bool hasInputLocale; // @synthesize hasInputLocale=_hasInputLocale;
-@property(nonatomic) _Bool hasIsAssistantEnabled;
-@property(nonatomic) _Bool hasIsPreciseLocationEnabled;
-@property(nonatomic) _Bool hasListenFor;
-@property(nonatomic) _Bool hasLocationAccessPermission;
-@property(nonatomic) _Bool hasNumSiriShortcutsEnabled;
-@property(nonatomic) _Bool hasOptIn; // @synthesize hasOptIn=_hasOptIn;
-@property(nonatomic) _Bool hasVoice; // @synthesize hasVoice=_hasVoice;
-@property(retain, nonatomic) ODDSiriSchemaODDHomeKitProperties *homeKit; // @synthesize homeKit=_homeKit;
-@property(retain, nonatomic) SISchemaISOLocale *inputLocale; // @synthesize inputLocale=_inputLocale;
 @property(nonatomic) _Bool isAssistantEnabled; // @synthesize isAssistantEnabled=_isAssistantEnabled;
-@property(nonatomic) _Bool isPreciseLocationEnabled; // @synthesize isPreciseLocationEnabled=_isPreciseLocationEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int listenFor; // @synthesize listenFor=_listenFor;
-@property(nonatomic) int locationAccessPermission; // @synthesize locationAccessPermission=_locationAccessPermission;
-@property(nonatomic) int numSiriShortcutsEnabled; // @synthesize numSiriShortcutsEnabled=_numSiriShortcutsEnabled;
-@property(retain, nonatomic) ODDSiriSchemaODDOptInProperties *optIn; // @synthesize optIn=_optIn;
-@property(retain, nonatomic) ODDSiriSchemaODDVoiceProperties *voice; // @synthesize voice=_voice;
 
 @end
 

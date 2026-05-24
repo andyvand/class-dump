@@ -11,18 +11,16 @@
 @interface PKPeerPaymentPendingRequestPerformActionRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_requestToken;
-    NSString *_action;
 }
 
-- (id);
+- (id)C;
 - (void);
 - (id);
-- (id)gAddressSeed;
+- (id)_shippingAddressSeed;
 - (void)fier;
-- (void)SUBTITLE_CAR;
+- (void)SHARE_PREVIEW_SUBTITLE_CAR;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
 @property(copy, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
 
 @end

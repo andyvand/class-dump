@@ -4,84 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioRecordContext, CSFAudioRecordDeviceInfo, CSSiriAudioFileWriter, CSSiriAudioMessageRequestClient, CSSiriRecordingInfo, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, NSUUID;
-@protocol AFRelinquishableAssertion, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSSiriSpeechRecordingContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isCurrent;
-    NSString *_startSpeechId;
-    NSString *_selectedResultCandidateId;
-    CSAudioRecordContext *_audioRecordContext;
-    CSFAudioRecordDeviceInfo *_audioRecordDeviceInfo;
-    NSDictionary *_voiceTriggerInfo;
-    NSDictionary *_recordingSettings;
-    CSSiriRecordingInfo *_recordingInfo;
-    CSSiriAudioFileWriter *_audioFileWriter;
-    NSURL *_recordedAudioFileURL;
-    id <AFRelinquishableAssertion> _startRecordingAudioSessionAssertion;
-    id <AFRelinquishableAssertion> _twoShotDetectionAudioSessionAssertion;
-    NSObject<OS_dispatch_group> *_recordingAudioGroup;
-    _Bool _voiceIdentificationTraining_allowsWithoutResultCandidate;
-    NSMutableSet *_voiceIdentificationTraining_allowedResultCandidateIds;
-    NSMutableDictionary *_voiceIdentificationTraining_resultCandidateToSharedUserIdMap;
-    NSUUID *_turnIdentifier;
-    NSString *_voiceIdentificationTraining_withoutResultCandidateSharedUserId;
-    _Bool _stopRecordingInstrumented;
-    CSSiriAudioMessageRequestClient *_audioMessageRequestClient;
-    _Bool _wantsRecordedAudioBufferLogs;
-    _Bool _shouldUseLocalFileWriter;
-    NSString *_sessionUUID;
 }
 
+- (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)4;
+- (void)5;
+- (void);
+- (void);
+- (void)j5;
+- (void);
+- (void);
+- (_Bool);
+- (void)q;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)ework/Versions/A/CoreFoundation;
+- (void)stem/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void)__DATA_DIRTY;
+- (void)__AUTH_CONST;
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)UAFDownloadMonitor:withLanguageCodeUpdateMonitor:withAssetOverrideFlag:withOverrideAssetPath:disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
+- (void)initWithAssetManager:withUAFAssetManager:withUAFDownloadMonitor:withLanguageCodeUpdateMonitor:withAssetOverrideFlag:withOverrideAssetPath:disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
 - (id)e _receiveVoiceGradingDataFromPeerId:requestInfo:withReply:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 @property(readonly, nonatomic) _Bool shouldUseLocalFileWriter; // @synthesize shouldUseLocalFileWriter=_shouldUseLocalFileWriter;
-@property(readonly, nonatomic) _Bool wantsRecordedAudioBufferLogs; // @synthesize wantsRecordedAudioBufferLogs=_wantsRecordedAudioBufferLogs;
 
 @end
 

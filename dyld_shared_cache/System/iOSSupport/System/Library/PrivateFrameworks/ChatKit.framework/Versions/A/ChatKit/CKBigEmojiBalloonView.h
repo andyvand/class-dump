@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
+- (_Bool)Todo",R,N,V_todo;
 - (void);
-- (void);
-- (Class);
-- (void);
+- (void)Key.swift;
+- (Class)NPNotePreviewProviderError;
+- (void)Model;
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (struct UIEdgeInsets);
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void)Range=QQ}32;
-- (id)enBalloonViewControllerPhoneC;
+- (id)So38CKFullScreenBalloonViewControllerPhoneC;
 
 @end
 

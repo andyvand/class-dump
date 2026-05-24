@@ -9,17 +9,12 @@
 @interface WFToolKitIndexingRequest
 {
     id id;
-    id timestamp;
-    id reasons;
-    id overrideLocalizations;
-    id retryCount;
-    id testingConfig;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)createServiceDiscoveryWellKnownFailedWithReason:(id)arg1;
 - (id);
 - (void)_°1Â0@ù
 × ;

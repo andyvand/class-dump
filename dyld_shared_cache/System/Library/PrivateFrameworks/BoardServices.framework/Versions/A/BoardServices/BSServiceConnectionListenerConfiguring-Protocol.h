@@ -5,6 +5,7 @@
 //
 
 @protocol BSServiceConnectionListenerConfiguring
+- (void)h;
 - (void)F;
 @end
 

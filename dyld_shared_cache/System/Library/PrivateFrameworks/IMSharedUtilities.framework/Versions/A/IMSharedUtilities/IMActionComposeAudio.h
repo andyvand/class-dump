@@ -12,16 +12,15 @@
 }
 
 - (id);
-- (id);
+- (id)ce.locked.screen-off;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)f;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

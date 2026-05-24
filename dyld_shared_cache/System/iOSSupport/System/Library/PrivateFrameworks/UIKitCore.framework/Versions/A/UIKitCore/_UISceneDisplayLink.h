@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, NSString, UIScene;
+@class NSMutableArray, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneDisplayLink
 {
     NSMutableArray *_targetsAndActions;
-    CADisplayLink *_displayLink;
-    UIScene *_scene;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)led;
+- (void)P;
+- (void)SwipeDeleteWordEnabled;
 - (id)1/3y¿7G;
 - (void);
 - (id);
@@ -27,13 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

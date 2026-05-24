@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface AXAccessQueue
 {
     NSString *_threadLocalStorageKey;
-    NSObject<OS_dispatch_queue> *_concurrentQueue;
-    unsigned long long _specialBehaviors;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)5;
 - (id);
 - (void);
 - (id);
@@ -37,18 +34,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool behavesAsMainQueue;
-@property(readonly, nonatomic) _Bool behavesWithoutErrorReporting;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *concurrentQueue; // @synthesize concurrentQueue=_concurrentQueue;
-@property(readonly, copy, nonatomic) NSString *label;
-@property(nonatomic) unsigned long long specialBehaviors; // @synthesize specialBehaviors=_specialBehaviors;
 @property(copy, nonatomic) NSString *threadLocalStorageKey; // @synthesize threadLocalStorageKey=_threadLocalStorageKey;
 
 @end

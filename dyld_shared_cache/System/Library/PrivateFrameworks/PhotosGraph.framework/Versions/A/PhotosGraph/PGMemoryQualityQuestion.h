@@ -6,24 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGMemoryQualityQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
-- (double);
-- (id);
+- (double)2@40;
+- (id)_textElement:(id)arg1 attributedStringForRange:(double)arg2 shouldTrimNewline:withElementInfo: /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)IDForSuggestions:options: /* Error: Ran out of types for this method. */;
+- (id)fetchKeyAssetBySuggestionUUIDForSuggestions:options: /* Error: Ran out of types for this method. */;
 - (void)f
 
 ;

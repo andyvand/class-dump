@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAuthorization, CNXPCConnection, NSString;
-@protocol CNContactPosterDataStore, CNContactsLogger, CNKeyboardStateMonitor, CNXPCDataMapperService;
+@class CNXPCConnection;
 
 @interface CNXPCDataMapper
 {
     CNXPCConnection *_serviceConnection;
-    id <CNXPCDataMapperService> _serviceProxy;
-    id <CNContactsLogger> _logger;
-    CNAuthorization *_authorization;
-    id <CNKeyboardStateMonitor> _keyboardStateMonitor;
-    id <CNContactPosterDataStore> _posterDataStore;
 }
 
-+ (id);
++ (id)] failed to reset client state:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -25,17 +19,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)ection using client outbound SPI %u (%x);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void):(id)arg1 8@16I24@?28;
 - (id);
 - (id);
 - (id);
@@ -43,64 +37,41 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)Not broadcasting local change notifications.";
 - (id)Ñ*°1Â0@ù
 × ;
 - (void);
-- (id)ntPostersRequestForContactIdentifiers: /* Error: Ran out of types for this method. */;
-- (_Bool)Qualified;
-- (id)tifier;
+- (id)recentPostersRequestForContactIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)isFullyQualified;
+- (id)enforceClientIdentifier;
 - (id);
-- (id)epresentation;
-- (_Bool)ompletion:(id *)arg1;
+- (id)_dataRepresentation;
+- (_Bool)doOnCompletion:(id *)arg1;
 - (id)@"NSObject<CNDataMapper>",R,&,N,V_mapper;
-- (void)nchServicesAdapter;
+- (void)CNLaunchServicesAdapter;
 - (void)h+;
 - (_Bool)©	Tªtªôª«¤«;
 - (id);
 - (void);
 - (id);
-- (id)indResult;
+- (id)findResult;
 - (_Bool)Say +VGz_Xx;
 - (_Bool)ed with a matching recent image. Unexpected.;
 - (id)ainer"8@"CNContainer"16;
-- (id)dentifier;
+- (id)donationIdentifier;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *legacyTetheredSyncComputerAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *legacyTetheredSyncDeviceAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
 @property(readonly) _Bool shouldLogContactsAccess;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly) _Bool userMightHaveUnconfiguredPersistenceStack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

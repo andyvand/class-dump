@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCache, CNContact, NSMutableArray;
-@protocol CNUIPRLikenessProvider;
+@class CNContact, NSMutableArray;
 
 @interface CNAvatarCacheEntry
 {
     NSMutableArray *_delegates;
-    CNAvatarCache *_cache;
-    CNContact *_contact;
-    id <CNUIPRLikenessProvider> _likeness;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) id <CNUIPRLikenessProvider> likeness; // @synthesize likeness=_likeness;
 
 @end
 

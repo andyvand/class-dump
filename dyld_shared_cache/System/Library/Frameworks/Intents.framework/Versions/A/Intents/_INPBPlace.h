@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
-
 @interface _INPBPlace
 {
     struct {
         unsigned int personalPlaceType:1;
     } _has;
-    int _personalPlaceType;
-    NSArray *_placeDescriptors;
-    _INPBString *_placeSubType;
-    _INPBString *_placeType;
 }
 
 + (Class);
@@ -24,10 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (void);
@@ -44,26 +38,12 @@
 - (id);
 - (void)Ð!,Aù¿(1Â0@ù
 × ;
-- (void)DialingContact;
-- (id)pConfigurationRequired;
+- (void)_payloadDialingContact;
+- (id)INScanVisualCodeIntentResponseCodeFailureAppConfigurationRequired;
 - (_Bool)Oæ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasPersonalPlaceType;
-@property(readonly, nonatomic) _Bool hasPlaceSubType;
-@property(readonly, nonatomic) _Bool hasPlaceType;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int personalPlaceType; // @synthesize personalPlaceType=_personalPlaceType;
-@property(copy, nonatomic) NSArray *placeDescriptors; // @synthesize placeDescriptors=_placeDescriptors;
-@property(readonly, nonatomic) unsigned long long placeDescriptorsCount;
-@property(retain, nonatomic) _INPBString *placeSubType; // @synthesize placeSubType=_placeSubType;
-@property(retain, nonatomic) _INPBString *placeType; // @synthesize placeType=_placeType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaPNRFatalErrorInfo;
+@class SISchemaPNRFatalErrorInfo;
 
 @interface SISchemaPNRFatalError : SISchemaInstrumentationMessage
 {
     SISchemaPNRFatalErrorInfo *_error;
-    SISchemaPNRFatalErrorInfo *_underlyingError;
-    SISchemaPNRFatalErrorInfo *_underUnderlyingError;
-    _Bool _hasError;
-    _Bool _hasUnderlyingError;
-    _Bool _hasUnderUnderlyingError;
 }
 
 - (id);
@@ -25,34 +20,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)initWithType:(id)arg1 selector: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)2;
+- (unsigned long long)_activityCacheUpdatedNotificationToken;
+- (_Bool)DataAvailableKey(void);
+- (void)m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id INNER JOIN chat_handle_join ch ON   c.ROWID = ch.chat_id WHERE   ch.handle_id = ?   AND c.room_name IS NULL   AND m.replace = ? ORDER BY m.ROWID DESC LIMIT ?;
+- (_Bool)ate);;
 - (id);
 - (id);
-- (id)estionOutcomeReported;
-- (id)ry;
-- (void)EC_ENHANCED_AC;
+- (id)deleteContactSuggestionOutcomeReported;
+- (id)_entityTaggerCategory;
+- (void)MWTFORMATCODEC_ENHANCED_AC;
 - (void)entSiriRequestExperimentTriggeredTier1;
 - (_Bool)usoGraphTier1.usoGraphTier1.linkedUsoNodeDatas.stringPayload;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaPNRFatalErrorInfo *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasUnderUnderlyingError; // @synthesize hasUnderUnderlyingError=_hasUnderUnderlyingError;
-@property(nonatomic) _Bool hasUnderlyingError; // @synthesize hasUnderlyingError=_hasUnderlyingError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaPNRFatalErrorInfo *underUnderlyingError; // @synthesize underUnderlyingError=_underUnderlyingError;
-@property(retain, nonatomic) SISchemaPNRFatalErrorInfo *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

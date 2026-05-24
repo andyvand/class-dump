@@ -9,11 +9,10 @@
 @interface SGAhoCorasick
 {
     NSData *_bytecode;
-    unsigned short _endPtr;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_oauth2ViewContainer;
+- (id);
 - (id);
 - (void);
 

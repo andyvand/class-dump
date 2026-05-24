@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ICSharedListeningConnectionReportEvent
 {
     NSString *_name;
-    NSError *_error;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSMutableArray *_subEvents;
 }
 
 - (id);
@@ -28,16 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void)CClientInfo",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSMutableArray *subEvents; // @synthesize subEvents=_subEvents;
 
 @end
 

@@ -6,34 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaBluetoothCarInvocationContext : SISchemaInstrumentationMessage
 {
     int _route;
-    struct {
-        unsigned int route:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)9z;
+- (void)iq	;
+- (unsigned long long)ASDJobOptions;
+- (_Bool)lock_invoke;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)N chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'  LIMIT ?;;
+- (id);
+- (id)tract image mask
+;
 - (id)dataClassificationManifests;
-- (int)dInterpretationIndices: /* Error: Ran out of types for this method. */;
-- (id)eForPhoneCall;
-- (void)leteParseType;
+- (int)addInterpretationIndices: /* Error: Ran out of types for this method. */;
+- (id)_appAffinityScoreForPhoneCall;
+- (void)deleteParseType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRoute;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int route; // @synthesize route=_route;
 
 @end

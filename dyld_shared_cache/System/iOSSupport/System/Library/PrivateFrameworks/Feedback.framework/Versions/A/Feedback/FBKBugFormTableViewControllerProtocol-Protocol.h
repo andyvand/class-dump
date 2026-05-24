@@ -5,5 +5,9 @@
 //
 
 @protocol FBKBugFormTableViewControllerProtocol
+- (void)Hs5;
+
+@optional
+- (void);
 @end
 

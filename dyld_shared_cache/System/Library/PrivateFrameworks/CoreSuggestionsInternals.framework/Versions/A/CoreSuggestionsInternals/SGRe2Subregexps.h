@@ -6,18 +6,17 @@
 
 #import <CoreSuggestionsInternals/SGRe2.h>
 
-@class NSArray, SGRe2PrefilterTree;
+@class NSArray;
 
 @interface SGRe2Subregexps : SGRe2
 {
     NSArray *_subregexps;
-    SGRe2PrefilterTree *_prefilter;
 }
 
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)pn_hasInternationalDirectDialingPrefix;
 - (id);
 - (void)8;
 

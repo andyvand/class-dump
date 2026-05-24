@@ -8,8 +8,6 @@
 {
     id _$scope;
     id _conversionState;
-    id _sheet;
-    id _$observationRegistrar;
 }
 
 @end

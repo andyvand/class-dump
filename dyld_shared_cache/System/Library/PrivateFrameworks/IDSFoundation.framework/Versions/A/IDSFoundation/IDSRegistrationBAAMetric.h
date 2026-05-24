@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface IDSRegistrationBAAMetric
 {
     _Bool _success;
-    NSError *_error;
-    NSString *_deviceID;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)L;
 - (unsigned short);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)m serverBag:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned short rtcType;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

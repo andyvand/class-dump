@@ -8,12 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _NSPeriodicEventSource
 {
     double delay;
-    double period;
-    struct __CFRunLoopTimer *timer;
-    unsigned long long errorData;
 }
 
-- (void);
+- (void)event;
 
 @end
 

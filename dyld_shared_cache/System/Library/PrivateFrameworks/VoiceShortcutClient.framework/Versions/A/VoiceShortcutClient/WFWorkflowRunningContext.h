@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLocale, NSString, NSURL, WFContextualAction, WFContextualActionContext, WFWorkflowRunViewSource;
-
 @interface WFWorkflowRunningContext
 {
     _Bool _stepwise;
-    _Bool _shouldForwardSiriActionRequests;
-    _Bool _shouldForwardDialogRequests;
-    _Bool _runningInPersistentMode;
-    _Bool _allowsDialogNotifications;
-    NSString *_identifier;
-    NSString *_workflowIdentifier;
-    NSDate *_creationDate;
-    NSString *_automationType;
-    NSString *_rootWorkflowIdentifier;
-    NSString *_runSource;
-    NSString *_xCallbackURLSuccessURLScheme;
-    NSString *_runKind;
-    WFWorkflowRunViewSource *_runViewSource;
-    NSString *_originatingBundleIdentifier;
-    NSLocale *_locale;
-    NSString *_progressCategory;
-    unsigned long long _presentationMode;
-    unsigned long long _outputBehavior;
-    NSURL *_outputRootIfRunningInFinder;
-    WFContextualAction *_contextualAction;
-    WFContextualActionContext *_contextualActionContext;
 }
 
-+ (_Bool);
++ (_Bool)Library/PrivateFrameworks/Lexicon.framework/Versions/A/Lexicon;
 
 @end
 

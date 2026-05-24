@@ -6,14 +6,9 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSString;
-
 @interface ASDPurgeableAppRequestOptions : ASDRequestOptions
 {
     _Bool _performAvailablityCheck;
-    _Bool _skipLaunchCheck;
-    long long _urgency;
-    NSString *_volume;
 }
 
 - (void);
@@ -24,15 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)81;
+- (void)e list;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool performAvailablityCheck; // @synthesize performAvailablityCheck=_performAvailablityCheck;
-@property(nonatomic) _Bool skipLaunchCheck; // @synthesize skipLaunchCheck=_skipLaunchCheck;
-@property(nonatomic) long long urgency; // @synthesize urgency=_urgency;
-@property(copy, nonatomic) NSString *volume; // @synthesize volume=_volume;
 
 @end
 

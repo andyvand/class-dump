@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, WBSWebBrowserPasskey;
+@class WBSWebBrowserPasskey;
 
 @interface ASAuthorizationWebBrowserPlatformPublicKeyCredential
 {
@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,12 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WBSWebBrowserPasskey *corePasskey; // @synthesize corePasskey=_corePasskey;
-@property(readonly, nonatomic) NSData *credentialID;
-@property(readonly, nonatomic) NSString *customTitle;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *providerName;
-@property(readonly, nonatomic) NSString *relyingParty;
-@property(readonly, nonatomic) NSData *userHandle;
 
 @end
 

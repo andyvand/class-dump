@@ -9,18 +9,14 @@
 @interface GEORoutingFeaturesInfo
 {
     GEOChargingNetworkInfo *_chargingNetworkInfo;
-    int _destinationVariant;
-    struct {
-        unsigned int has_destinationVariant:1;
-    } _flags;
 }
 
-+ (_Bool)sTrafficEnabled:(id)arg1;
++ (_Bool)setMapSettingsTrafficEnabled:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ll be retuned; unexpected nil accountCollection %@;
+- (_Bool)ator for all stores:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (id);
@@ -29,21 +25,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_opportuneSpeakAudioProviderUUID;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)tion"16@"NSURLProtectionSpace"24;
-- (id)NumConf;
+- (id)hasCellMaxUlCaNumConf;
 - (id)7;
-- (id)ONFIDENCE_HIGH;
+- (id)MODALITY_CONFIDENCE_HIGH;
 - (void)$jf-P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOChargingNetworkInfo *chargingNetworkInfo;
-@property(nonatomic) int destinationVariant;
-@property(readonly, nonatomic) _Bool hasChargingNetworkInfo;
 @property(nonatomic) _Bool hasDestinationVariant;
 
 @end

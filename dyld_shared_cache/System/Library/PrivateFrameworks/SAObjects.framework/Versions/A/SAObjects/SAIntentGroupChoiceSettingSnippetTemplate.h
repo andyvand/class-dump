@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAIntentGroupSettingSnippetTemplate.h>
 
-@protocol SAServerBoundCommand;
-
 @interface SAIntentGroupChoiceSettingSnippetTemplate : SAIntentGroupSettingSnippetTemplate
 {
 }
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool selected;
-@property(retain, nonatomic) id <SAServerBoundCommand> updateSlotCommand;
 
 @end
 

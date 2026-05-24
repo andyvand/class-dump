@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (void);
++ (void)MPModelPropertyRecordLabelDescriptionText;
 + (id)dler:didPresentBlock:allowPopoverToCloseBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)HÐsþ%T43ÐsþT43\Ïsþ;

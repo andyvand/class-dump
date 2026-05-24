@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGModelSource;
-@protocol PMLMultiLabelClassifierProtocol, PMLTransformerProtocol;
+@protocol PMLMultiLabelClassifierProtocol;
 
 @interface SGModel
 {
     id <PMLMultiLabelClassifierProtocol> _model;
-    id <PMLTransformerProtocol> _featurizer;
-    SGModelSource *_modelSource;
-    NSString *_locale;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (Class);
-+ (id);
-+ (id);
++ (id)?36;
++ (id),&,V_dislaimerLabel;
 - (id);
 - (id);
 - (id);
@@ -32,10 +28,7 @@
 - (void)<ðHð,àòxó´óðüÿ@;
 
 // Remaining properties
-@property(readonly) id <PMLTransformerProtocol> featurizer; // @synthesize featurizer=_featurizer;
-@property(readonly, copy) NSString *locale; // @synthesize locale=_locale;
 @property(readonly) id <PMLMultiLabelClassifierProtocol> model; // @synthesize model=_model;
-@property(readonly) SGModelSource *modelSource; // @synthesize modelSource=_modelSource;
 
 @end
 

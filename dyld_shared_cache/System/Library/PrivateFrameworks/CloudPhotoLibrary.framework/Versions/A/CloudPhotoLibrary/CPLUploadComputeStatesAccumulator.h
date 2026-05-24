@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, NSMutableArray, NSMutableDictionary;
-
 @interface CPLUploadComputeStatesAccumulator
 {
     unsigned long long _capacity;
-    NSMutableDictionary *_localComputeStatesToUpload;
-    NSMutableDictionary *_cloudComputeStatesToUpload;
-    NSMutableDictionary *_cloudComputeStatesNeedingPayload;
-    NSMutableArray *_batchedLocalComputeStatesNeedingPayload;
-    NSMutableDictionary *_currentBatchOfComputeStatesNeedingPayload;
-    NSEnumerator *_batchEnumerator;
-    unsigned long long _maximumPayloadRequestsBatchSize;
 }
 
-- (void);
+- (void)appEntityRelevanceCoarseGeoHashAndCoarseTimeOfDayFeatures;
 - (id);
 - (id);
 - (id);
@@ -31,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cloudComputeStatesToUpload;
-@property(readonly, nonatomic) unsigned long long countOfCloudComputeStatesToUpload;
-@property(readonly, nonatomic) _Bool hasEnqueuedComputeStatesToUpload;
 @property(readonly, nonatomic) unsigned long long maximumPayloadRequestsBatchSize; // @synthesize maximumPayloadRequestsBatchSize=_maximumPayloadRequestsBatchSize;
 
 @end

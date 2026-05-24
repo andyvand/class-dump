@@ -17,7 +17,7 @@
 - (unsigned long long);
 - (long long);
 - (void);
-- (unsigned long long)h;
+- (unsigned long long)textureWidth;
 
 @end
 

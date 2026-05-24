@@ -7,6 +7,7 @@
 @interface CookingSupport.CookingScopeRegistry
 {
     id _registry;
+    id;
 }
 
 @end

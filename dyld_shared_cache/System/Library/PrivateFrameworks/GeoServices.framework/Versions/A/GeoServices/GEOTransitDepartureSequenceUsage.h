@@ -4,60 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOTransitDepartureSequenceUsage
 {
     PBDataReader *_reader;
-    NSString *_direction;
-    NSString *_headsign;
-    unsigned long long _lineId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_lineId:1;
-        unsigned int read_direction:1;
-        unsigned int read_headsign:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ld:(id)arg1;
++ (_Bool)setModeShield:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)24@32@40;
+- (_Bool)unmarkCustomPropertyDefinitionsForDeletion: /* Error: Ran out of types for this method. */;
+- (_Bool)setDeletedRecords: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)9;
+- (void)initWithTrailingSilenceDuration:(id)arg1 clientSilenceFramesCount:endOfSentenceLikelihood:wordCount:serverFeaturesLatency:clientSilenceProbability:rcTrailingSilenceDuration:rcEndOfSentenceLikelihood:rcWordCount:rcServerFeaturesLatency:silencePosterior:acousticEndpointerScore:silencePosteriorNF: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)nFields"b1"read_algorithmDetails"b1"read_failureDetails"b1"read_gravityVector"b1"read_location"b1"read_successDetails"b1"read_tileDetails"b1"wrote_anyField"b1};
-- (id)ToRefreshThresholdInSeconds;
+- (id)hypothesisResponseStaleToRefreshThresholdInSeconds;
 - (id);
-- (id)rection: /* Error: Ran out of types for this method. */;
-- (void)rovider;
+- (id)StringAsCyclingDirection: /* Error: Ran out of types for this method. */;
+- (void)hotspotHelperProvider;
 - (id)EORPProblemStatusResponse"8;
 - (void)6sHj¡RQ@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *direction;
-@property(readonly, nonatomic) _Bool hasDirection;
-@property(readonly, nonatomic) _Bool hasHeadsign;
 @property(nonatomic) _Bool hasLineId;
-@property(retain, nonatomic) NSString *headsign;
-@property(nonatomic) unsigned long long lineId;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXGSpriteReference, PXVideoSession;
+@class NSString, PXVideoSession;
 
 @interface PXGridInlineVideoSessionAssetPlaybackRecord
 {
     NSString *_bufferRequestIdentifier;
-    _Bool _playLivePhotosWithSettlingEffectIfPossible;
-    struct os_unfair_lock_s _ivarLock;
-    PXVideoSession *_videoSession;
-    struct __CVBuffer *_currentPixelBuffer;
-    _Bool _discardVideoOnPause;
-    long long _desiredPlayState;
-    CDUnknownBlockType _pixelBufferDidChangeHandler;
-    CDUnknownBlockType _providePlaceholderHandler;
 }
 
 + (id);
@@ -38,32 +30,17 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)BEL_SYNDICATION_ATTRIBUTION_CONTACT_IMAGE;
+- (_Bool)AX_LABEL_SYNDICATION_ATTRIBUTION_CONTACT_IMAGE;
 - (void);
 - (struct CGAffineTransform)Ä¶;
 - (void)LemonadeSearchRootOverlayView;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool discardVideoOnPause; // @synthesize discardVideoOnPause=_discardVideoOnPause;
-@property(readonly, nonatomic) PXGSpriteReference *geometryReference; // @dynamic geometryReference;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType pixelBufferDidChangeHandler; // @synthesize pixelBufferDidChangeHandler=_pixelBufferDidChangeHandler;
-@property(readonly, nonatomic) struct CGAffineTransform preferredTransform;
-@property(copy, nonatomic) CDUnknownBlockType providePlaceholderHandler; // @synthesize providePlaceholderHandler=_providePlaceholderHandler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double suppressContentsRect;
 @property(retain) PXVideoSession *videoSession;
-@property(readonly, nonatomic) NSString *videoStatusDescription;
 
 @end
 

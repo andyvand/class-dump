@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableDictionary, NSPersistentStore;
+@class NSMutableDictionary, NSPersistentStore;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitStoreComparisonCache
 {
     NSMutableDictionary *_storeUUIDToStoreCache;
-    _Bool _checkCloudKitMetadata;
-    NSPersistentStore *_store;
-    NSPersistentStore *_otherStore;
-    NSManagedObjectContext *_storeMoc;
-    NSManagedObjectContext *_otherStoreMoc;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -38,16 +33,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)K;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool checkCloudKitMetadata; // @synthesize checkCloudKitMetadata=_checkCloudKitMetadata;
-@property(readonly, nonatomic) NSPersistentStore *otherStore; // @synthesize otherStore=_otherStore;
-@property(readonly, nonatomic) NSManagedObjectContext *otherStoreMoc; // @synthesize otherStoreMoc=_otherStoreMoc;
 @property(readonly, nonatomic) NSPersistentStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) NSManagedObjectContext *storeMoc; // @synthesize storeMoc=_storeMoc;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, SUOSUUpdateController;
+@class NSMutableDictionary;
 
 @interface SUOSUBadgePolicy
 {
     _Bool _installTonightArmed;
-    _Bool _doesBackgroundDownload;
-    _Bool _splatEnabled;
-    NSArray *_msuProducts;
-    NSArray *_legacyProductKeys;
-    NSArray *_externalProducts;
-    NSArray *_seenProductKeys;
-    NSArray *_adminDeferredProductKeys;
-    NSDictionary *_firstOfferDatesByProductKey;
-    NSMutableDictionary *_downloadStateByProductKey;
-    SUOSUUpdateController *_updateController;
 }
 
 + (id);
@@ -40,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -48,22 +38,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSArray *adminDeferredProductKeys; // @synthesize adminDeferredProductKeys=_adminDeferredProductKeys;
-@property _Bool doesBackgroundDownload; // @synthesize doesBackgroundDownload=_doesBackgroundDownload;
 @property(retain) NSMutableDictionary *downloadStateByProductKey; // @synthesize downloadStateByProductKey=_downloadStateByProductKey;
-@property(retain) NSArray *externalProducts; // @synthesize externalProducts=_externalProducts;
-@property(retain) NSDictionary *firstOfferDatesByProductKey; // @synthesize firstOfferDatesByProductKey=_firstOfferDatesByProductKey;
-@property _Bool installTonightArmed; // @synthesize installTonightArmed=_installTonightArmed;
-@property(retain) NSArray *legacyProductKeys; // @synthesize legacyProductKeys=_legacyProductKeys;
-@property(retain) NSArray *msuProducts; // @synthesize msuProducts=_msuProducts;
-@property(retain) NSArray *seenProductKeys; // @synthesize seenProductKeys=_seenProductKeys;
-@property _Bool splatEnabled; // @synthesize splatEnabled=_splatEnabled;
-@property(retain) SUOSUUpdateController *updateController; // @synthesize updateController=_updateController;
 
 @end
 

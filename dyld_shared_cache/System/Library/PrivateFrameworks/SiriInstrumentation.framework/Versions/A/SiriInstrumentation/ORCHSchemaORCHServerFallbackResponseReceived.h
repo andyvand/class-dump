@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHServerFallbackResponseReceived : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -20,11 +17,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)d to %s;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)tectFiredTime;
+- (id)_earlyDetectFiredTime;
 - (id)ted",&,N,V_performanceReported;
 - (_Bool)FLOWSTATUSREASON_UNKNOWN_CLIENT_ERROR;
 - (_Bool);
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

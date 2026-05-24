@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (WFAdditionalUnits)
-+ (id);
++ (id)'${;
 @end
 

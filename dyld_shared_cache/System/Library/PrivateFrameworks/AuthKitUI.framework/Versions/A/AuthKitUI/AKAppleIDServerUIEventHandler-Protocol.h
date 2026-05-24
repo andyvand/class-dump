@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AKAppleIDServerUIEventHandler
+- (void);
+- (void);
+- (void)birthdayStringForContactName:(NSString *)arg1 eventDate:(void (^)(AKUserInformation *, NSError *))arg2 birthDate:lunarCalendar: /* Error: Ran out of types for this method. */;
 @end
 

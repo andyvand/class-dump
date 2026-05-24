@@ -5,6 +5,9 @@
 //
 
 @protocol PLSharedAssetsContainer
+- (id)*-EF'
+;
+- (id)l;
 - (id)
 × ;
 - (id)purgeable resources;

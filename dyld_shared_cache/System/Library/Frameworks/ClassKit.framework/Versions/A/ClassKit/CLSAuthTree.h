@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber;
+@class NSMutableDictionary;
 
 @interface CLSAuthTree
 {
     NSMutableDictionary *_graph;
-    NSNumber *_overridingStatus;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)_callCompletionBlockWithError: /* Error: Ran out of types for this method. */;
+- (void)ed result= 0x%x
+;
+- (id)#;
 - (id);
+- (long long);
+- (long long);
+- (void);
+- (id)(#;
 - (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void),;
 - (void);
 
 @end

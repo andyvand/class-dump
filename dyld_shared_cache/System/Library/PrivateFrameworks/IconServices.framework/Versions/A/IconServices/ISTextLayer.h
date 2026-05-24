@@ -6,32 +6,27 @@
 
 #import <IconServices/ISLayer.h>
 
-@class IFColor, NSString;
+@class IFColor;
 
 @interface ISTextLayer : ISLayer
 {
     IFColor *_color;
-    NSString *_text;
-    NSString *_fontName;
-    double _fontSize;
 }
 
 - (id);
+- (id)1
+;
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
-- (void);
+- (void)FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpoints;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) IFColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

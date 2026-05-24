@@ -15,14 +15,14 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)è;
+- (id);
 - (void);
 - (void);
 - (id);

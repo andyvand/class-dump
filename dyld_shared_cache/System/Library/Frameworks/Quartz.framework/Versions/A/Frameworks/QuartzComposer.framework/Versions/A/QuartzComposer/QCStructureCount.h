@@ -6,15 +6,14 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCIndexPort, QCStructurePort;
+@class QCStructurePort;
 
 @interface QCStructureCount : QCPatch
 {
     QCStructurePort *inputStructure;
-    QCIndexPort *outputCount;
 }
 
-+ (_Bool);
++ (_Bool)aToolbox.framework/Versions/A/MediaToolbox;
 + (_Bool);
 - (_Bool);
 

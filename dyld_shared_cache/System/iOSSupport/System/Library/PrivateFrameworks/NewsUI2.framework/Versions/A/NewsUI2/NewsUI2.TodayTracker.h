@@ -7,32 +7,6 @@
 @interface NewsUI2.TodayTracker
 {
     id delegate;
-    id tracker;
-    id blueprintProvider;
-    id blueprintLayoutProvider;
-    id blueprintLayoutCollectionProvider;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id issueModelFactory;
-    id sectionPositionProvider;
-    id newsActivityManager;
-    id headlineExposureTracker;
-    id trackerConfiguration;
-    id audioPlaybackContext;
-    id $__lazy_storage_$_adInstrumentationEnabled;
-    id todayActivityRegistrationType;
-    id hasRegisteredUserActivity;
-    id issueReadingHistory;
-    id upsellManager;
-    id puzzleHistoryService;
-    id commandCenter;
-    id gapOnscreenTimer;
-    id articleViewingSession;
-    id recipeViewingSession;
-    id subscriptionRouter;
-    id contentAvailabilityValidator;
-    id feedDismissingManager;
 }
 
 @end

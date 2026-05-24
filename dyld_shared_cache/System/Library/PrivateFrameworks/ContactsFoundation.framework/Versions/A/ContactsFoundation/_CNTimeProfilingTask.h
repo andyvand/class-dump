@@ -6,13 +6,9 @@
 
 #import <ContactsFoundation/CNTask.h>
 
-@protocol CNTaskTimeProfileLogging, CNTimeProvider;
-
 @interface _CNTimeProfilingTask : CNTask
 {
     CNTask *_task;
-    id <CNTimeProvider> _timeProvider;
-    id <CNTaskTimeProfileLogging> _logger;
 }
 
 - (id);
@@ -26,9 +22,7 @@
 - (id)Ü;
 
 // Remaining properties
-@property(readonly) id <CNTaskTimeProfileLogging> logger; // @synthesize logger=_logger;
 @property(readonly) CNTask *task; // @synthesize task=_task;
-@property(readonly) id <CNTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
 
 @end
 

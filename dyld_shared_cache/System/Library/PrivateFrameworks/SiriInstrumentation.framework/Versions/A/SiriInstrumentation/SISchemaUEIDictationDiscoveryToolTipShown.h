@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationDiscoveryToolTipShown : SISchemaInstrumentationMessage
 {
     int _toolTipShown;
-    _Bool _hasEmoji;
-    struct {
-        unsigned int toolTipShown:1;
-        unsigned int hasEmoji:1;
-    } _has;
 }
 
 - (int);
@@ -30,19 +23,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)appReceiptData;
 - (_Bool);
-- (_Bool);
+- (_Bool)was_deduplicated;
 - (id);
 - (id);
-- (id)leteEngagedAccessoryContext;
-- (id)eVersion;
+- (id)deleteEngagedAccessoryContext;
+- (id)_hasAppBundleVersion;
 
 // Remaining properties
-@property(nonatomic) _Bool hasEmoji; // @synthesize hasEmoji=_hasEmoji;
-@property(nonatomic) _Bool hasHasEmoji;
-@property(nonatomic) _Bool hasToolTipShown;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int toolTipShown; // @synthesize toolTipShown=_toolTipShown;
 
 @end

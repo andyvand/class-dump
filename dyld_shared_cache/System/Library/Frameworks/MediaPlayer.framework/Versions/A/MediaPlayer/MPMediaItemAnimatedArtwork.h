@@ -9,8 +9,6 @@
 @interface MPMediaItemAnimatedArtwork
 {
     CDUnknownBlockType _previewImageRequestHandler;
-    CDUnknownBlockType _videoAssetFileURLRequestHandler;
-    NSString *_artworkID;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)PPING_MISSING__;
+- (void)__MPModelRelationshipPlaylistCurator__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *artworkID; // @synthesize artworkID=_artworkID;

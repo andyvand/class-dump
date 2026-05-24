@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate;
 
 @interface IMDaemonCore.PersistedCollaborationNotice
 {
@@ -14,12 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *date; // @dynamic date;
-@property(nonatomic, copy) NSDate *dateViewed; // @dynamic dateViewed;
-@property(nonatomic, copy) NSString *guidString; // @dynamic guidString;
-@property(nonatomic, copy) NSData *metadata; // @dynamic metadata;
-@property(nonatomic, copy) NSString *senderHandle; // @dynamic senderHandle;
-@property(nonatomic, copy) NSString *url; // @dynamic url;
-@property(nonatomic) short version; // @dynamic version;
 
 @end
 

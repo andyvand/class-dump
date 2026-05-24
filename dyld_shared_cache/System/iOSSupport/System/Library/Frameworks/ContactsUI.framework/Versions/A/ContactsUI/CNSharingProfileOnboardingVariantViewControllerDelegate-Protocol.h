@@ -5,5 +5,6 @@
 //
 
 @protocol CNSharingProfileOnboardingVariantViewControllerDelegate
+- (void);
 @end
 

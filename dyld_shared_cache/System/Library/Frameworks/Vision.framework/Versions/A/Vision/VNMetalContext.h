@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol MTLCommandQueue, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface VNMetalContext
 {
     id <MTLDevice> _device;
-    struct os_unfair_lock_s _lock;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    NSDictionary *_wisdomParams;
 }
 
 - (void)FaceFrontalizer;

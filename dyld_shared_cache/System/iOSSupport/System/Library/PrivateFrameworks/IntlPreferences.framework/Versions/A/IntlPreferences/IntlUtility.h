@@ -9,7 +9,6 @@
 @interface IntlUtility
 {
     NSMutableArray *mBidiLanguagesArray;
-    NSMutableArray *mBidiTestedLanguagesArray;
 }
 
 + (id);
@@ -37,7 +36,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)";
 + (_Bool);
 + (_Bool);
 + (long long);
@@ -49,11 +48,11 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)R|;
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)";
 + (void);
 + (id);
 + (id);
@@ -63,7 +62,7 @@
 + (id);
 + (int);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -71,7 +70,7 @@
 + (id);
 + (void);
 + (_Bool);
-+ (id);
++ (id), is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ((associated_message_guid = ?) AND (is_from_me = 1));;
 + (id);
 - (id);
 - (id);

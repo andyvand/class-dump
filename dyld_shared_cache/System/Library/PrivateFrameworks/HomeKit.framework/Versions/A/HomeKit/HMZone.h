@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, HMMutableArray, NSArray, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMZone
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_uniqueIdentifier;
-    NSString *_name;
-    HMHome *_home;
-    NSUUID *_uuid;
-    _HMContext *_context;
-    HMMutableArray *_currentRooms;
 }
 
 + (_Bool);
@@ -35,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1 8@"NSString"16@"TIKeyboardLayout"24@?<v@?@"NSArray">32;
 - (id);
 - (void);
 - (id);
@@ -51,19 +45,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) HMMutableArray *currentRooms; // @synthesize currentRooms=_currentRooms;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *rooms;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

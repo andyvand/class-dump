@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
-
 @interface NEFlowMetaData
 {
     _Bool _fastOpenRequested;
-    _Bool _multipathRequested;
-    NSData *_sourceAppUniqueIdentifier;
-    NSString *_sourceAppSigningIdentifier;
-    NSData *_sourceAppAuditToken;
-    NSUUID *_filterFlowIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)setPeerResponseIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -24,18 +17,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)showDeviceDetails;
 - (void);
 - (id);
-- (void)psulation: /* Error: Ran out of types for this method. */;
+- (void)setForceUDPEncapsulation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool fastOpenRequested; // @synthesize fastOpenRequested=_fastOpenRequested;
-@property(readonly) NSUUID *filterFlowIdentifier; // @synthesize filterFlowIdentifier=_filterFlowIdentifier;
-@property(readonly) _Bool multipathRequested; // @synthesize multipathRequested=_multipathRequested;
-@property(readonly) NSData *sourceAppAuditToken; // @synthesize sourceAppAuditToken=_sourceAppAuditToken;
-@property(readonly) NSString *sourceAppSigningIdentifier; // @synthesize sourceAppSigningIdentifier=_sourceAppSigningIdentifier;
-@property(readonly) NSData *sourceAppUniqueIdentifier; // @synthesize sourceAppUniqueIdentifier=_sourceAppUniqueIdentifier;
 
 @end
 

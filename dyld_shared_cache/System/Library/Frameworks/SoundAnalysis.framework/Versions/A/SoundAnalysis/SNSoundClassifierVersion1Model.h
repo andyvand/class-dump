@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)scriptor;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ation date:(id)arg1 %@, not old enough;
 - (void);
-- (void);
+- (void)K;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)onLockScreen:(id)arg1 %@;
 - (id);
 - (id);
 - (void)è>úÿ$?úÿH?úÿl?úÿ?úÿÌ?úÿð?úÿ<@úÿ@úÿ¬@úÿÐ@úÿAúÿhAúÿ¤AúÿàAúÿBúÿ<Cúÿ`CúÿCúÿÀCúÿäCúÿDúÿ,DúÿhDúÿDúÿ°DúÿÔDúÿEúÿ4EúÿXEúÿ|Eúÿ¸EúÿÜEúÿ;

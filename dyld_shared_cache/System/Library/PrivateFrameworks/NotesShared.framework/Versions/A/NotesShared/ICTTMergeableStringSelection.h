@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICTTMergeableStringSelection
 {
     struct vector<std::pair<TopoID, TopoID>, std::allocator<std::pair<TopoID, TopoID>>> _selectionRanges;
-    unsigned long long _selectionAffinity;
 }
 
 - (struct TopoID);
@@ -27,20 +24,11 @@
 - (_Bool);
 - (void *);
 - (id);
-- (long long);
+- (long long)?;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ICTTMergeableStringSelection *locationOnlySelection;
 @property(readonly, nonatomic) struct TopoID minTopoID;
-@property(nonatomic) unsigned long long selectionAffinity; // @synthesize selectionAffinity=_selectionAffinity;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface RTLearnedRouteCloudKitSyncStatisticsMetrics
 {
     int _numEntriesTripClusterMO;
-    int _numEntriesTripClusterRecencyMO;
-    int _numEntriesTripClusterRoadTransitionsMO;
-    int _numEntriesTripClusterRouteMO;
-    int _numEntriesTripClusterScheduleMO;
-    int _numTransactionsTripClusterRoadTransitionsMO;
 }
 
 - (void);
@@ -25,17 +20,12 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 
 // Remaining properties
 @property int numEntriesTripClusterMO; // @synthesize numEntriesTripClusterMO=_numEntriesTripClusterMO;
-@property int numEntriesTripClusterRecencyMO; // @synthesize numEntriesTripClusterRecencyMO=_numEntriesTripClusterRecencyMO;
-@property int numEntriesTripClusterRoadTransitionsMO; // @synthesize numEntriesTripClusterRoadTransitionsMO=_numEntriesTripClusterRoadTransitionsMO;
-@property int numEntriesTripClusterRouteMO; // @synthesize numEntriesTripClusterRouteMO=_numEntriesTripClusterRouteMO;
-@property int numEntriesTripClusterScheduleMO; // @synthesize numEntriesTripClusterScheduleMO=_numEntriesTripClusterScheduleMO;
-@property int numTransactionsTripClusterRoadTransitionsMO; // @synthesize numTransactionsTripClusterRoadTransitionsMO=_numTransactionsTripClusterRoadTransitionsMO;
 
 @end
 

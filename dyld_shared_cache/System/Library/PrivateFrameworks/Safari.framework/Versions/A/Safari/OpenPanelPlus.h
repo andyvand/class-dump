@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OpenPanelPlus
 {
     NSTimer *_keyDownTimer;
-    _Bool _acceptsKeyEvents;
-    NSTimer *_enableOKButtonTimer;
-    id _leftMouseButtonEventMonitor;
 }
 
 - (void);

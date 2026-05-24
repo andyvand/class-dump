@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTMotionActivity, RTVisitPipelineMotionAccumulatorParams;
+@class RTVisitPipelineMotionAccumulatorParams;
 
 @interface RTVisitPipelineMotionAccumulator
 {
     _Bool _foundIntervalToTrim;
-    NSDate *_intervalStartDate;
-    double _runningScoreHighConfidence;
-    double _runningScoreMediumConfidence;
-    RTMotionActivity *_lastObservedMotionActivity;
-    _Bool _processActivitiesReverse;
-    RTVisitPipelineMotionAccumulatorParams *_params;
 }
 
-+ (_Bool);
++ (_Bool)allocWithZone:(unsigned long long)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)iteActiveSessionDetailsCKLatency;
+- (void)SMHandoffSessionCriteriaWriteActiveSessionDetailsCKLatency;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitPipelineMotionAccumulatorParams *params; // @synthesize params=_params;
-@property(readonly, nonatomic) _Bool processActivitiesReverse; // @synthesize processActivitiesReverse=_processActivitiesReverse;
 
 @end
 

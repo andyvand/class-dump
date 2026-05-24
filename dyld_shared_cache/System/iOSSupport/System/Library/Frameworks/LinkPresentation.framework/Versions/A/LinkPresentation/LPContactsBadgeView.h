@@ -6,24 +6,20 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class CAShapeLayer, LPContactsBadgeStyle, UIImageView, UIView;
+@class LPContactsBadgeStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPContactsBadgeView : LPComponentView
 {
     LPContactsBadgeStyle *_style;
-    UIView *_avatarView;
-    UIImageView *_highlightIndicatorView;
-    UIView *_highlightShadowView;
-    CAShapeLayer *_maskLayer;
 }
 
-- (struct CGRect);
-- (void);
-- (id);
+- (struct CGRect)suggestionComparator;
+- (void)eNoticeType: /* Error: Ran out of types for this method. */;
+- (id)stopListeningToVideoPlayer;
 - (void);
 - (struct CGSize);
-- (id);
+- (id)businessMessage;
 - (void)qð1Â0@ù
 × ;
 

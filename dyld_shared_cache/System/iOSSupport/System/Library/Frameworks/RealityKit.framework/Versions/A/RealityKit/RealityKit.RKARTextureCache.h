@@ -8,9 +8,6 @@
 {
     id backgroundReplacementBuffer;
     id cache;
-    id capturedImageCVTexturePair;
-    id segmentationBufferCVTexture;
-    id estimatedDepthDataCVTexture;
 }
 
 @end

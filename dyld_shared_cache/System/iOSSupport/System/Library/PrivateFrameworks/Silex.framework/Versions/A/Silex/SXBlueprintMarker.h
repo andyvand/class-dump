@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol SXComponent, SXComponentAnchor;
+@protocol SXComponent;
 
 @interface SXBlueprintMarker
 {
     id <SXComponent> _leadingComponent;
-    id <SXComponent> _trailingComponent;
-    NSArray *_path;
-    id <SXComponentAnchor> _componentAnchor;
-    struct CGPoint _approximateLocation;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)Q;
+- (id)C;
 - (_Bool);
 - (id);
 - (id);
@@ -28,18 +23,7 @@
 - (void)Storage";
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint approximateLocation; // @synthesize approximateLocation=_approximateLocation;
-@property(retain, nonatomic) id <SXComponentAnchor> componentAnchor; // @synthesize componentAnchor=_componentAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXComponent> leadingComponent; // @synthesize leadingComponent=_leadingComponent;
-@property(readonly, nonatomic) NSArray *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXComponent> trailingComponent; // @synthesize trailingComponent=_trailingComponent;
 
 @end
 

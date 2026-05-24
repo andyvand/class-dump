@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFAccessoryNetworkProtectionGroupDatabaseID, NSDate, NSNumber, NSString;
+@class MKFAccessoryNetworkProtectionGroupDatabaseID, NSNumber, NSString;
 @protocol MKFHome;
 
 @protocol MKFAccessoryNetworkProtectionGroup
+- (void);
+- (MKFAccessoryNetworkProtectionGroupDatabaseID *)(;
 - (id <MKFHome>)0@ù
 × ;
 - (void)Ø;
@@ -15,10 +17,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *category;
-@property(readonly, copy, nonatomic) MKFAccessoryNetworkProtectionGroupDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *manufacturer;
-@property(copy, nonatomic) NSNumber *targetProtectionMode;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -5,23 +5,14 @@
 //
 
 @class NSMutableArray;
-@protocol MFMessageConsumer;
 
 @interface _MFMessageLoadingContext
 {
     unsigned int _options;
-    NSMutableArray *_messages;
-    id <MFMessageConsumer> _target;
-    unsigned long long _chunkSize;
-    double _chunkInterval;
-    double _lastChunkSentTime;
-    unsigned long long _messagesLoaded;
-    struct sqlite3 *_database;
-    long long _countOfMessagesProcessed;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -32,26 +23,18 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)_becomingFirstResponderFromOutside;
 - (void);
 - (void);
-- (unsigned int);
-- (struct sqlite3 *)nges;
+- (unsigned int)X;
+- (struct sqlite3 *)_startingIndexForAttributionLineRanges;
 - (id)h	
 HI;
 - (void);
 - (void)L;
 
 // Remaining properties
-@property(nonatomic) double chunkInterval; // @synthesize chunkInterval=_chunkInterval;
-@property(nonatomic) unsigned long long chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(nonatomic) long long countOfMessagesProcessed; // @synthesize countOfMessagesProcessed=_countOfMessagesProcessed;
-@property(nonatomic) struct sqlite3 *database; // @synthesize database=_database;
-@property(nonatomic) double lastChunkSentTime; // @synthesize lastChunkSentTime=_lastChunkSentTime;
 @property(retain, nonatomic) NSMutableArray *messages; // @synthesize messages=_messages;
-@property(nonatomic) unsigned long long messagesLoaded; // @synthesize messagesLoaded=_messagesLoaded;
-@property(nonatomic) unsigned int options; // @synthesize options=_options;
-@property(retain, nonatomic) id <MFMessageConsumer> target; // @synthesize target=_target;
 
 @end
 

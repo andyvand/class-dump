@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)v;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setFunctionCount:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isLowLatency; // @synthesize isLowLatency=_isLowLatency;

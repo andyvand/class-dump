@@ -8,7 +8,9 @@
 
 @protocol DiagnosticsServiceInterface
 - (void);
-- (void)DictionaryArray:(NSString *)arg1;
+- (void);
+- (void);
+- (void)_updatePayloadDictionaryArray:(NSString *)arg1;
 - (void)failed to initialize.%@;
 - (void)stratively enabling AutoBugCapture;
 @end

@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, HMDHome, HMDPersonResidentSyncManager, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDPersonCoreDataManagerDelegate, HMDPersonDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDPersonCoreDataManagerDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonCoreDataManager
 {
     id <HMDPersonCoreDataManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_UUID;
-    HMDHome *_home;
-    NSUUID *_userUUID;
-    HMCContext *_context;
-    HMDPersonResidentSyncManager *_residentSyncManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDPersonDataSource> _dataSource;
 }
 
 + (id)\#;
@@ -26,31 +18,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)aredTripSharingIdentity";
+- (id)4;
+- (id)service:account:receivedGroupSessionParticipantUpdate:context: /* Error: Ran out of types for this method. */;
+- (_Bool)_msp_IDSIdentifierFor:(id)arg1;
+- (_Bool)_minimumNotificationInterval;
+- (void)setEndDatetime:(id)arg1;
+- (void)pants;
+- (id)desharingTrip",&,N,V_ridesharingTrip;
+- (id)urce",R,N;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id){CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}};
 - (id);
 - (id);
 - (void);
@@ -63,26 +55,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!\FùñÐ1Â0@ù
 × ;
-- (void)ectContext;
-- (void)onSource;
+- (void)newManagedObjectContext;
+- (void)invitationSource;
 - (id)û;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) HMCContext *context; // @synthesize context=_context;
-@property __weak id <HMDPersonDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDPersonCoreDataManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) HMDPersonResidentSyncManager *residentSyncManager; // @synthesize residentSyncManager=_residentSyncManager;
-@property(readonly) Class superclass;
-@property(copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

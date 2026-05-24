@@ -6,32 +6,21 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSColor, NSColorList, NSPressGestureRecognizer, NSScrubber, NSString, NSTouchBarColorListPickerPressAndHoldPopUp;
+@class NSColorList;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorListPicker : NSControl
 {
     NSColorList *_colorList;
-    NSColor *_currentColor;
-    NSColor *_preTrackingColor;
-    id _autounbinder;
-    NSScrubber *_scrubber;
-    NSPressGestureRecognizer *_longPressRecognizer;
-    NSTouchBarColorListPickerPressAndHoldPopUp *_pressAndHoldPopUp;
-    NSArray *_allowedColorSpaces;
-    long long _scrubberHighlightCount;
-    _Bool _continuous;
-    _Bool _allowsAlpha;
-    _Bool _supportsPressAndHoldVariants;
 }
 
 + (id);
 + (long long);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
++ (id)versized protocol property key %@ in %@;
++ (id)Reply error handler called with error %@;
++ (_Bool)%d, st_mode:%o st_flags:0x%x acl:%s /* Error: Ran out of types for this method. */;
++ (_Bool)ject<OS_sec_protocol_metadata>"8@"NSObject<OS_sec_trust>"16@?<v@?B>24;
+- (_Bool)LbLUs+TajsEE4xkbrw;
 - (void);
 - (void);
 - (void);
@@ -41,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -51,41 +40,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)he UUID cache because the current OS version (%s) does not equal the cache OS version (%s);
+- (id)ed to fstat %s:[%d] %s /* Error: Ran out of types for this method. */;
+- (void)nnectionKeyComparator>, std:(unsigned long long)arg1:allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)ionKey>, std:(id)arg1:(_Bool)arg2 set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (long long)n <%{public}@> Invalid URL scheme for background tasks:%@. Valid schemes are http or https /* Error: Ran out of types for this method. */;
+- (unsigned long long)callbacks for the background session:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (long long);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)> 0.0;
+- (_Bool).r0;
+- (void)0;
 - (oneway void);
-- (struct CGSize);
+- (struct CGSize)P;
 - (_Bool);
-- (id)ximumFractionDigits:(struct CGRect)arg1;
-- (void)Region:(_Bool)arg1;
+- (id)setMaximumFractionDigits:(struct CGRect)arg1;
+- (void)_scrollTargetPointForStackingRegion:(_Bool)arg1;
 
 // Remaining properties
-@property SEL action;
-@property(copy) NSArray *allowedColorSpaces; // @synthesize allowedColorSpaces=_allowedColorSpaces;
-@property _Bool allowsAlpha; // @synthesize allowsAlpha=_allowsAlpha;
 @property(retain) NSColorList *colorList;
-@property(copy) NSColor *currentColor; // @synthesize currentColor=_currentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *selectedColorKey;
-@property(readonly) Class superclass;
-@property _Bool supportsPressAndHoldVariants; // @synthesize supportsPressAndHoldVariants=_supportsPressAndHoldVariants;
-@property __weak id target;
 
 @end
 

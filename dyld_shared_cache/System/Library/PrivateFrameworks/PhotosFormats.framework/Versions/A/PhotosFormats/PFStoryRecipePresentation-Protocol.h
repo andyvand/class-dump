@@ -5,12 +5,13 @@
 //
 
 @class NSString;
+@protocol PFStoryRecipeClip;
 
 @protocol PFStoryRecipePresentation
+- (long long);
+- (id <PFStoryRecipeClip>)width;
 
 // Remaining properties
-@property(readonly, nonatomic) long long clipCount;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *identifier;
 @end
 

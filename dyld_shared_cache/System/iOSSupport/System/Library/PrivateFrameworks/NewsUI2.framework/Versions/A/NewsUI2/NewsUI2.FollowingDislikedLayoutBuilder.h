@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingDislikedLayoutBuilder
 {
     id titleViewLayoutAttributesFactory;
-    id tagViewLayoutAttributesFactory;
 }
 
 @end

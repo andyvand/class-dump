@@ -9,26 +9,24 @@
 @interface CTLazuliMessageRevokeResult
 {
     CTLazuliMessageID *_messageID;
-    long long _status;
 }
 
-+ (_Bool);
++ (_Bool)p %@ recoverableErrorCount:%ld error:%@ stallCount:%ld variantSwitchCount:%ld playbackDuration:%ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)_domainStateCache;
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)llular home = %lu;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliMessageID *messageID; // @synthesize messageID=_messageID;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

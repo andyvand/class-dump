@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristic, NSData, NSDate, NSError, NSNumber;
+@class HAPCharacteristic;
 
 @interface HAPCharacteristicResponseTuple
 {
     HAPCharacteristic *_characteristic;
-    id _value;
-    NSNumber *_stateNumber;
-    NSDate *_valueUpdatedTime;
-    NSData *_notificationContext;
-    NSError *_error;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)missing delta payload;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id)@Retrying cloud zone startup;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)Scheduler";
 
 // Remaining properties
 @property(retain, nonatomic) HAPCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSData *notificationContext; // @synthesize notificationContext=_notificationContext;
-@property(retain, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
-@property(retain, nonatomic) NSDate *valueUpdatedTime; // @synthesize valueUpdatedTime=_valueUpdatedTime;
 
 @end
 

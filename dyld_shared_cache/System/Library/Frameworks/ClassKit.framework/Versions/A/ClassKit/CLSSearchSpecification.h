@@ -4,46 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSAdminRequestor, NSArray, NSString;
-
 @interface CLSSearchSpecification
 {
     _Bool _includeEmptyGroupsInResults;
-    _Bool _includeUnsearchablePersons;
-    unsigned long long _options;
-    unsigned long long _behaviors;
-    NSString *_searchString;
-    NSArray *_searchTokens;
-    unsigned long long _compareOptions;
-    CLSAdminRequestor *_adminRequestor;
-    NSArray *_classSortDescriptors;
-    NSArray *_classLocationIDs;
-    NSArray *_groupSortDescriptors;
-    NSArray *_groupLocationIDs;
-    NSArray *_requiredGroupMemberGroupIDs;
-    NSArray *_personSortDescriptors;
-    NSArray *_personLocationIDs;
-    NSString *_requiredRoleID;
-    long long _requiredRoleType;
-    NSString *_requiredPrivilege;
-    NSArray *_requiredPrivilegeLocationIDs;
-    NSString *_prohibitedPrivilege;
-    NSArray *_prohibitedPrivilegeLocationIDs;
-    NSArray *_locationSortDescriptors;
-    NSArray *_locationPersonIDs;
-    long long _requiredLocationRoleType;
-    NSString *_requiredLocationPrivilege;
-    NSArray *_requiredLocationPersonIDs;
-    NSString *_prohibitedLocationPrivilege;
-    NSArray *_prohibitedLocationPersonIDs;
-    NSArray *_organizationSortDescriptors;
-    NSString *_requiredOrganizationEmailDomain;
-    NSArray *_requiredClassMemberClassIDs;
-    unsigned long long _requiredClassMemberRole;
 }
 
-+ (id);
-+ (_Bool);
++ (id)(;
++ (_Bool)_delegate_signOutAccount:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -60,92 +27,111 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)work/Versions/A/CoreAnalytics;
+- (void)PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (void);
+- (void)mework/Versions/A/InternationalTextSearch;
+- (id)eKeyBag.framework/Versions/A/MobileKeyBag;
+- (void)shReporterSupport;
+- (void)terSupport.framework/Versions/A/CrashReporterSupport;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ork/Versions/A/SoftLinking;
+- (_Bool)System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset;
+- (long long);
+- (id)usr/lib/libsqlite3.dylib;
+- (id)ore.A.dylib;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (unsigned long long)P;
+- (id);
+- (void)/Versions/A/ProactiveSupport;
+- (void)rivateFrameworks/ProactiveSupport.framework/Versions/A/ProactiveSupport;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)8;
+- (void);
+- (id)ؿ;
+- (id);
+- (id);
+- (id)tv;
+- (id)j;
+- (id);
+- (id)8;
+- (id);
+- (id);
+- (id);
+- (id)e thread
+;
+- (id)08X;
+- (_Bool)ping ANEDriver
+;
+- (_Bool)allocated
+;
+- (_Bool)ent in statsbuffer.
+;
+- (_Bool)Not all events might be present in statsbuffer.
+;
+- (_Bool)shTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (_Bool)reId:%u, StartTime:%llu, nFinishTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (_Bool)first start event
+;
+- (_Bool)%u, procedureId:%u,  tid %u is first start event
+ /* Error: Ran out of types for this method. */;
+- (id)troller array is empty;
+- (id)num of devices %d
+;
+- (_Bool)ghtsBuffer:%d
+ /* Error: Ran out of types for this method. */;
+- (_Bool)ServicesProgramCreateNewInstance;
+- (_Bool)aotCacheUrlIdentifier passed from ProgramDefinition :%s /* Error: Ran out of types for this method. */;
+- (_Bool)ontent=%llx statsMask=%x;
+- (id)pings=%d maxAlloweMappings=%d
+;
+- (id)s:Invalid arguments - numMappings=%d maxAlloweMappings=%d
+ /* Error: Ran out of types for this method. */;
+- (unsigned long long)axBuffers numOutputBuffers = %d
+;
+- (id)rogramGetInitSection:error! section addr < segment addr /* Error: Ran out of types for this method. */;
+- (id)etInitSection:invalid section /* Error: Ran out of types for this method. */;
+- (_Bool)r:thread argument buffer overrun. /* Error: Ran out of types for this method. */;
+- (_Bool)d argument is not supported.;
+- (_Bool)artitionScheduleInfo;
+- (id)etMachThreadPriority - thread_policy_set(...,THREAD_PRECEDENCE_POLICY,...) failed, err=%d
+;
+- (void)t(ANEClientLoggerThreadParams *);
+- (void)ssion returned 0x%08x 
+;
+- (void)ANEClientLoggerThread;
+- (void)iled. Error:(_Bool)arg1 %d
+;
+- (void)Error:(id)arg1 %d
+;
+- (void)IOServiceMatched;
+- (void)al/share/firmware/ane/ane1.bin;
+- (void)m.apple.ane;
+- (id)rf tracer category map.
+;
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
@@ -155,38 +141,7 @@
 × ;
 
 // Remaining properties
-@property(copy) CLSAdminRequestor *adminRequestor; // @synthesize adminRequestor=_adminRequestor;
-@property(nonatomic) unsigned long long behaviors; // @synthesize behaviors=_behaviors;
-@property(copy, nonatomic) NSArray *classLocationIDs; // @synthesize classLocationIDs=_classLocationIDs;
-@property(copy) NSArray *classSortDescriptors; // @synthesize classSortDescriptors=_classSortDescriptors;
-@property(nonatomic) unsigned long long compareOptions; // @synthesize compareOptions=_compareOptions;
-@property(copy, nonatomic) NSArray *groupLocationIDs; // @synthesize groupLocationIDs=_groupLocationIDs;
-@property(copy) NSArray *groupSortDescriptors; // @synthesize groupSortDescriptors=_groupSortDescriptors;
-@property _Bool includeEmptyGroupsInResults; // @synthesize includeEmptyGroupsInResults=_includeEmptyGroupsInResults;
-@property _Bool includeUnsearchablePersons; // @synthesize includeUnsearchablePersons=_includeUnsearchablePersons;
-@property(copy) NSArray *locationPersonIDs; // @synthesize locationPersonIDs=_locationPersonIDs;
-@property(copy) NSArray *locationSortDescriptors; // @synthesize locationSortDescriptors=_locationSortDescriptors;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy) NSArray *organizationSortDescriptors; // @synthesize organizationSortDescriptors=_organizationSortDescriptors;
-@property(copy) NSArray *personLocationIDs; // @synthesize personLocationIDs=_personLocationIDs;
-@property(copy) NSArray *personSortDescriptors; // @synthesize personSortDescriptors=_personSortDescriptors;
-@property(copy) NSArray *prohibitedLocationPersonIDs; // @synthesize prohibitedLocationPersonIDs=_prohibitedLocationPersonIDs;
-@property(copy) NSString *prohibitedLocationPrivilege; // @synthesize prohibitedLocationPrivilege=_prohibitedLocationPrivilege;
-@property(copy) NSString *prohibitedPrivilege; // @synthesize prohibitedPrivilege=_prohibitedPrivilege;
-@property(copy) NSArray *prohibitedPrivilegeLocationIDs; // @synthesize prohibitedPrivilegeLocationIDs=_prohibitedPrivilegeLocationIDs;
-@property(copy) NSArray *requiredClassMemberClassIDs; // @synthesize requiredClassMemberClassIDs=_requiredClassMemberClassIDs;
-@property unsigned long long requiredClassMemberRole; // @synthesize requiredClassMemberRole=_requiredClassMemberRole;
-@property(copy) NSArray *requiredGroupMemberGroupIDs; // @synthesize requiredGroupMemberGroupIDs=_requiredGroupMemberGroupIDs;
-@property(copy) NSArray *requiredLocationPersonIDs; // @synthesize requiredLocationPersonIDs=_requiredLocationPersonIDs;
-@property(copy) NSString *requiredLocationPrivilege; // @synthesize requiredLocationPrivilege=_requiredLocationPrivilege;
-@property long long requiredLocationRoleType; // @synthesize requiredLocationRoleType=_requiredLocationRoleType;
-@property(copy) NSString *requiredOrganizationEmailDomain; // @synthesize requiredOrganizationEmailDomain=_requiredOrganizationEmailDomain;
-@property(copy) NSString *requiredPrivilege; // @synthesize requiredPrivilege=_requiredPrivilege;
-@property(copy) NSArray *requiredPrivilegeLocationIDs; // @synthesize requiredPrivilegeLocationIDs=_requiredPrivilegeLocationIDs;
-@property(copy) NSString *requiredRoleID; // @synthesize requiredRoleID=_requiredRoleID;
-@property long long requiredRoleType; // @synthesize requiredRoleType=_requiredRoleType;
-@property(copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(copy, nonatomic) NSArray *searchTokens; // @synthesize searchTokens=_searchTokens;
+@property _Bool includeUnsearchablePersons;
 
 @end
 

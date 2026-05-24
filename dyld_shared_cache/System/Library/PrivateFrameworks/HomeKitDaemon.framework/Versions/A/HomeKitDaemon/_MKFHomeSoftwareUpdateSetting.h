@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeSetting.h>
 
-@class MKFHomeSoftwareUpdateSettingDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeSoftwareUpdateSetting : _MKFHomeSetting
@@ -23,26 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *automaticSoftwareUpdateEnabled; // @dynamic automaticSoftwareUpdateEnabled;
-@property(copy, nonatomic) NSNumber *automaticThirdPartyAccessorySoftwareUpdateEnabled; // @dynamic automaticThirdPartyAccessorySoftwareUpdateEnabled;
-@property(readonly, copy, nonatomic) MKFHomeSoftwareUpdateSettingDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

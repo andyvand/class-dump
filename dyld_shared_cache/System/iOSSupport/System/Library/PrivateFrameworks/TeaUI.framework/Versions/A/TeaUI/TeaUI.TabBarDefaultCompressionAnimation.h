@@ -7,9 +7,6 @@
 @interface TeaUI.TabBarDefaultCompressionAnimation
 {
     double topOffset;
-    _Bool shouldCompressAtTop;
-    _Bool shouldCloseGapOnScroll;
-    id tabBarController;
 }
 
 - (void);
@@ -22,12 +19,10 @@
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id)unregisterNotificationsForTopicIDs:withTopicGroupingID:fromChannelID: /* Error: Ran out of types for this method. */;
 - (void)	ÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;
-@property(nonatomic, readonly) _Bool shouldCompressAtTop; // @synthesize shouldCompressAtTop;
 @property(nonatomic, readonly) double topOffset; // @synthesize topOffset;
 
 @end

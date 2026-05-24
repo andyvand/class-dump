@@ -13,11 +13,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)s;
 + (id);
 + (_Bool);
++ (id);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -25,7 +25,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)7;
 
 @end
 

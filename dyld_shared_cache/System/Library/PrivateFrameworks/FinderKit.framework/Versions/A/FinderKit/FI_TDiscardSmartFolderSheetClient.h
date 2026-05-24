@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserContainerController, NSString;
+@class FI_TBrowserContainerController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TDiscardSmartFolderSheetClient
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -23,13 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak FI_TBrowserContainerController *containerController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

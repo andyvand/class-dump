@@ -10,12 +10,10 @@
 @interface NFTimer
 {
     NSObject<OS_dispatch_source> *_src;
-    unsigned long long _popTimeInSeconds;
-    _Bool _monotonic;
 }
 
 - (double);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (void);

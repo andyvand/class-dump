@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTRequestContentSpeechContent : SISchemaInstrumentationMessage
 {
@@ -25,16 +25,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ateFrameworks/CoreSDB.framework/Versions/A/CoreSDB;
 - (id);
 - (id)SchemaASRFinalAudioPacketContainingSpeechReadyUpstream",&,N,V_finalAudioPacketContainingSpeechReadyUpstream;
-- (id)uationContext;
+- (id)CLPInstSchemaCLPNLv4TaskEvaluationContext;
 - (void)('Ñÿ;
 - (void)[';
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

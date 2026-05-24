@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSPublishStreamsProtocol, NSDictionary;
+
 @protocol MSPublishStreamsProtocolDelegate
+- (void)main:(MSPublishStreamsProtocol *)arg1 %@ because observer was added;
+- (void)lic}@Registering observer:(MSPublishStreamsProtocol *)arg1 %@ for domain:(NSDictionary *)arg2 %@;
+- (void)%{public}@Unable to stop publishing for domain:(MSPublishStreamsProtocol *)arg1 %@, not configured;
 @end
 

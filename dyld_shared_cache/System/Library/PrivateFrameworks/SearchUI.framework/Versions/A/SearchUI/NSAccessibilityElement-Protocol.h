@@ -5,5 +5,9 @@
 //
 
 @protocol NSAccessibilityElement
+- (id)__AUTH_CONST;
+
+@optional
+- (struct CGRect);
 @end
 

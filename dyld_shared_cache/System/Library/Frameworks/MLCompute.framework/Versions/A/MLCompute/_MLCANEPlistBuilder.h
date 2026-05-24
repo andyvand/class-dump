@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, _MLCANEWeightOps;
+@class NSMutableDictionary;
 
 @interface _MLCANEPlistBuilder
 {
     NSMutableDictionary *_plist;
-    _MLCANEWeightOps *_weightOps;
-    NSMutableSet *_weightTensorsWithDeviceMemory;
 }
 
 + (_Bool);
@@ -26,7 +24,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)^;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,12 +37,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ctor:] Failed:%@ must have batchSize = 1. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *plist; // @synthesize plist=_plist;
-@property(readonly, nonatomic) _MLCANEWeightOps *weightOps; // @synthesize weightOps=_weightOps;
-@property(readonly, nonatomic) NSMutableSet *weightTensorsWithDeviceMemory; // @synthesize weightTensorsWithDeviceMemory=_weightTensorsWithDeviceMemory;
 
 @end
 

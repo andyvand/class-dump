@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)decodeBytesWithReturnedLength:(id)arg1;
 - (id);
 - (void);
 - (void);

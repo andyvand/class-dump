@@ -9,7 +9,6 @@
 @interface QLThumbnailExtensionInfo
 {
     QLExtension *_extension;
-    unsigned long long _minimumThumbnailSize;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)realDeviceFoundInternal: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

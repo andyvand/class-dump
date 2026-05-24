@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)q@"NSURLCredential">32;
+- (void)TL;
 - (_Bool);
-- (id);
-- (id);
+- (id)%@ };
+- (id)%d closed;
 - (_Bool);
-- (id);
+- (id);
+- (void);
 - (void);
-- (void);
 - (id);
-- (id)nsWillTrackHorizontalScroller:(id)arg1;
+- (id)_scrollViewForColumnsWillTrackHorizontalScroller:(id)arg1;
 
 @end
 

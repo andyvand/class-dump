@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocationManager, CLRegion;
+
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void);
+- (void)control:(CLLocationManager *)arg1 textShouldEndEditing:(CLRegion *)arg2;
+- (void),C,V_displayName;
+- (void)PersistedStateCurrentUUID;
 @end
 

@@ -5,19 +5,16 @@
 //
 
 @class UIView;
-@protocol UIInteraction;
 
 @protocol PKScribbleInteractionWrapper
+- (_Bool);
+- (_Bool);
 
 @optional
-- (UIView *)Value;
+- (UIView *)8;
+- (UIView *)_firstSubviewValue;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UIInteraction> interaction;
-@property(readonly, nonatomic) UIView *interactionView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
 @property(readonly, nonatomic) UIView *view;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIView",?,R,N

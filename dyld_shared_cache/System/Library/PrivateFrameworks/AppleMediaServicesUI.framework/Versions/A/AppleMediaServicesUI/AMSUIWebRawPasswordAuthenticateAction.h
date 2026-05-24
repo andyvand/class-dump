@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebRawPasswordAuthenticateAction : AMSUIWebAction
 {
     id authKitContext;
-    id signInContext;
-    id serviceTypes;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)e;
+- (void)regionCode;
 
 @end
 

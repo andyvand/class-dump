@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCPhysicalInputProfile, GCRacingWheelInput, NSArray, NSObject, NSString, _GCDevicePhysicalInputComponent;
-@protocol GCDeviceSpatial, GCRacingWheelProductInfo, NSCopying><NSObject><NSSecureCoding, OS_dispatch_queue;
+@class NSObject;
+@protocol NSCopying><NSObject><NSSecureCoding, OS_dispatch_queue;
 
 @interface GCRacingWheel
 {
     NSObject<OS_dispatch_queue> *_handlerQueue;
-    id <NSCopying><NSObject><NSSecureCoding> _identifier;
-    NSArray *_components;
-    id <GCRacingWheelProductInfo> _info;
-    _GCDevicePhysicalInputComponent *_input;
-    _Bool _isSnapshot;
 }
 
 + (id);
@@ -23,40 +18,22 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool)A;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)unt/fetch-recovery-token;
 - (id);
 - (void);
-- (void);
+- (void)D;
 - (_Bool)<GCRelativeInput>"f>16;
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isAcquired) _Bool acquired;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *handlerQueue; // @synthesize handlerQueue=_handlerQueue;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSCopying><NSObject><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) GCPhysicalInputProfile *physicalInputProfile;
-@property(readonly, nonatomic) NSString *productCategory;
-@property(readonly, getter=isSnapshot) _Bool snapshot; // @synthesize snapshot=_isSnapshot;
-@property(readonly) id <GCDeviceSpatial> spatial;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<GCDeviceSpatial>",?,R
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *vendorName;
-@property(readonly) GCRacingWheelInput *wheelInput;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface PKPhysicsContact
 {
     PKPhysicsBody *_bodyA;
-    PKPhysicsBody *_bodyB;
-    struct CGPoint _contactPoint;
-    struct CGVector _contactNormal;
-    double _impulse;
-    _Bool _didBegin;
-    _Bool _didEnd;
 }
 
 - (void);
@@ -35,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKPhysicsBody *bodyA;
-@property(readonly, nonatomic) PKPhysicsBody *bodyB;
-@property(readonly, nonatomic) double collisionImpulse;
-@property(readonly, nonatomic) struct CGVector contactNormal;
-@property(readonly, nonatomic) struct CGPoint contactPoint;
 @property _Bool didBegin;
-@property _Bool didEnd;
 
 @end
 

@@ -6,17 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWDomainExecutionMetadata : SISchemaInstrumentationMessage
 {
     NSString *_domainExecutionAppIntentBundleID;
-    _Bool _hasDomainExecutionAppIntentBundleID;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domainExecutionAppIntentBundleID; // @synthesize domainExecutionAppIntentBundleID=_domainExecutionAppIntentBundleID;
-@property(nonatomic) _Bool hasDomainExecutionAppIntentBundleID; // @synthesize hasDomainExecutionAppIntentBundleID=_hasDomainExecutionAppIntentBundleID;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

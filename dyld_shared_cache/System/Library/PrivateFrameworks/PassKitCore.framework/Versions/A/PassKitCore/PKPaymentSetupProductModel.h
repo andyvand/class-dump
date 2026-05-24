@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface PKPaymentSetupProductModel
 {
     NSMutableDictionary *_paymentSetupProducts;
-    NSMutableArray *_allSections;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
 }
 
 - (void);
@@ -25,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -37,11 +34,10 @@
 - (id);
 - (id);
 - (id);
-- (void)CH_TITLE;
-- (id);
+- (void)ELIGIBILITY_ERROR_REGION_MISMATCH_TITLE;
+- (id)G;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
 @property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

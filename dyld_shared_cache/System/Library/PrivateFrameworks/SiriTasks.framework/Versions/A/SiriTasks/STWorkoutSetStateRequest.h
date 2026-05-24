@@ -10,10 +10,10 @@
 }
 
 + (_Bool);
-- (long long);
+- (long long)*;
 - (id);
 - (id);
-- (void);
+- (void)@@"BSProcessHandle";
 - (id);
 
 @end

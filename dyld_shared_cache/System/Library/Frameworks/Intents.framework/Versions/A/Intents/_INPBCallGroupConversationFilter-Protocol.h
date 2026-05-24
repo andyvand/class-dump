@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCallGroup, _INPBContact;
+@class NSArray, _INPBCallGroup;
 
 @protocol _INPBCallGroupConversationFilter
+- (unsigned long long);
+- (NSArray *);
+- (void)CachedPrivateMACAddress;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCallGroup *callGroup;
-@property(retain, nonatomic) _INPBContact *caller;
-@property(readonly, nonatomic) _Bool hasCallGroup;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(nonatomic) _Bool hasMatchCallerAndParticipantsExactly;
-@property(nonatomic) _Bool matchCallerAndParticipantsExactly;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
 @end
 

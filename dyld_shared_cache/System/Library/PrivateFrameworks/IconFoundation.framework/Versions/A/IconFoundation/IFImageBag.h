@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface IFImageBag
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_imagesByScale;
 }
 
 + (id);
++ (id)';
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)IE	*!'
+}S	ASKr;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id)e LL subband always has a weight of 1.0, which avoids problems which may occur when image components or tiles have different numbers of resolution levels.  To modify the relative weighting of components or tile-components, including their LL subbands, use the `Cweight' option; its weighting factors are multiplied by those specified using `Cband_weights' and `Clev_weights'.  If the `Cdecomp' attribute is used to describe more general packet wavelet transforms, all subbands obtained by splitting an HL, LH or HH subband will be assigned the same weight.  No mechanism is provided for specifying their weights separately.  Moreover, all three weights (HL, LH and HH) are present for each resolution level, even if that level only involves horizontal or vertical splitting, and even in the degenerate case of no splitting at all.  For horizontal splitting only, subbands derived from HX use the corresponding HL weight; HH and LH weights are then ignored.  Similarly for vertical splitting only, subbands derived from XH use the corresponding LH weight; HH and HL weights are then ignored.;
 - (void);
 - (id);
 - (id);

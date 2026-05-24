@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)shortDayMonthYearlessDateFormatterWithLocale: /* Error: Ran out of types for this method. */;
+- (id)errorUserInfo;
+- (_Bool)CNObservableDoOnNextBlockObserver;
+- (_Bool)CNAuthorizationContextTestDouble;
+- (long long)_setShouldShowDynamicLocationAnimations: /* Error: Ran out of types for this method. */;
 
 @end
 

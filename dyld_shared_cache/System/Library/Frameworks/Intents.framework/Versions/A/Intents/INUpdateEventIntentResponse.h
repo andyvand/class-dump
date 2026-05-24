@@ -6,19 +6,17 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INCalendarEvent, NSArray, NSString;
-
 @interface INUpdateEventIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
++ (int)shouldBeInvalidatedByThumbnailVersion:(long long)arg1;
++ (long long)setQuicklookSandboxWrapper:(int)arg1;
++ (_Bool)setInterface:(long long)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,25 +27,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)@16;
+- (id)H;
+- (void){public}s %{public}s (duration=%lums, results=%lu, error=(%{public}@), timeout=%lu, maxCacheAge=%lu);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long);
+- (long long)synonym;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(copy) NSArray *conflictingEventIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INCalendarEvent *updatedEvent;
 
 @end
 

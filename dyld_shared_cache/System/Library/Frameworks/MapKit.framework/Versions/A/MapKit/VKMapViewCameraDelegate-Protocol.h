@@ -5,5 +5,10 @@
 //
 
 @protocol VKMapViewCameraDelegate
+
+@optional
+- (void)_XPCServerModelFuture;
+- (void);
+- (void)oPlaybackService _handleFinalizationForSession:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,9 +7,6 @@
 @interface PromotedContentUI.AppAdRequestContextBuilder
 {
     id userInformationSource;
-    id frequencyStorageType;
-    id metaFieldsSource;
-    id extraAdamId;
 }
 
 @end

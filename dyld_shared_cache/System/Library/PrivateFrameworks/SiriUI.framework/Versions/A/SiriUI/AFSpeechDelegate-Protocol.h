@@ -5,5 +5,10 @@
 //
 
 @protocol AFSpeechDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

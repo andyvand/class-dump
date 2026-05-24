@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSByteCountFormatter, NSString;
+@class NSString;
 
 @interface SMSizeFormatter
 {
     NSString *_formatString;
-    NSByteCountFormatter *_numberFormatter;
 }
 
 - (id);
+- (id)_;
 - (id);
-- (id);
-- (void);
+- (void)N15InputTranscoder10PlistBiMapINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEjEE;
 - (void)0@ù
 × ;
 - (id)ntStreamCreate failed;
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain) NSString *formatString; // @synthesize formatString=_formatString;
-@property(retain) NSByteCountFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
 
 @end
 

@@ -6,28 +6,16 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIRenditionMetrics, CUIRenditionSliceInformation, NSMutableArray, _CSIRenditionBlockData;
-
 __attribute__((visibility("hidden")))
 @interface _CUIThemePixelRendition : CUIThemeRendition
 {
     unsigned int _nimages;
-    struct CGImage *_image[16];
-    struct CGImage *_unslicedImage;
-    CUIRenditionMetrics *_renditionMetrics;
-    CUIRenditionSliceInformation *_sliceInformation;
-    _CSIRenditionBlockData *_cachedBlockDataBGRX;
-    _CSIRenditionBlockData *_cachedBlockDataRGBX;
-    _CSIRenditionBlockData *_cachedBlockDataGray;
-    unsigned long long _sourceRowbytes;
-    NSMutableArray *_layers;
-    struct CGSize _unslicedSize;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (id);
-- (id);
+- (id)hb9;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGImage *);
-- (unsigned long long);
+- (unsigned long long)unregisterStakeHolder:status:reason: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
 - (int)0@ù

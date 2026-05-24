@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAKeyframeAnimation, NSString, UIView;
+@class CAKeyframeAnimation;
 
 __attribute__((visibility("hidden")))
 @interface _UITextCursorBlinkAnimation
 {
     CAKeyframeAnimation *_caretBlinkAnimation;
-    _Bool _enabled;
-    UIView *_cursorShapeView;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ge item does not support availability reply;
 - (void);
-- (void);
+- (void)ring",C,N,V_payloadNewPassword;
 - (_Bool);
 - (void)eMaxSizeV@1000)]-(0@990)-|;
 - (void)7_G;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UIView *cursorShapeView; // @synthesize cursorShapeView=_cursorShapeView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

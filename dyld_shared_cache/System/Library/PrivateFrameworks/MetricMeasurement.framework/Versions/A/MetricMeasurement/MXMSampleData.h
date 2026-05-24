@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSArray;
 
 @interface MXMSampleData
 {
     NSArray *_enumSet;
-    NSMutableDictionary *_tagsToSampleSets;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)'U;
+- (void)P;
 - (id);
 - (id);
 - (id);
@@ -40,16 +39,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)getChangeAfterAnchor:changeInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
 @property(retain) NSArray *enumSet; // @synthesize enumSet=_enumSet;
-@property(readonly, nonatomic) unsigned long long numberOfSamples;
-@property(readonly, nonatomic) unsigned long long numberOfSets;
-@property(readonly, copy, nonatomic) NSArray *samples;
-@property(readonly, copy, nonatomic) NSSet *tags;
-@property(retain, nonatomic) NSMutableDictionary *tagsToSampleSets; // @synthesize tagsToSampleSets=_tagsToSampleSets;
 
 @end
 

@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
+- (long long)notificationUUID;
 - (void);
 - (void);
-- (id);
+- (id));
 - (long long);
 - (id);
-- (void)leaseCGPathArray;
+- (void)releaseCGPathArray;
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

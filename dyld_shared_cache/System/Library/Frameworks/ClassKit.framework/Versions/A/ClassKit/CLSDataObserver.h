@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSDataStore, CLSQuerySpecification, NSArray, NSMutableSet, NSPredicate, NSString;
+@class NSMutableSet;
 
 @interface CLSDataObserver
 {
     _Bool _invalidated;
-    CLSQuerySpecification *_querySpec;
-    NSString *_observerID;
-    CDUnknownBlockType _dataChanged;
-    CDUnknownBlockType _entitiesChanged;
-    NSMutableSet *_entitiesMatchingPredicate;
-    NSMutableSet *_entitiesChangedAddedIDs;
-    NSMutableSet *_entitiesChangedUpdatedIDs;
-    NSMutableSet *_entitiesChangedDeletedIDs;
-    NSMutableSet *_entitiesChangedUpdatedMatchingPredicateIDs;
-    NSMutableSet *_entitiesChangedUpdatedNotMatchingPredicateIDs;
-    CLSDataStore *_dataStore;
-    unsigned long long _changeTag;
 }
 
 + (id);
@@ -34,40 +22,48 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (oneway void);
-- (oneway void);
+- (void)ServicesFrameProcDirect;
+- (void)icesDeviceMessageNotification:(id)arg1 kANEDeviceWakeup
+;
+- (void)ServicesDeviceMessageNotification:(id)arg1 kANEDeviceSleep
+;
+- (void)sageNotification:(id)arg1 kANEFirmwareFailure
+;
+- (void)kANEHardwareFailure
+;
+- (void)lx;
+- (void)0x%x
+;
+- (id)ize %zd too large. 
+;
+- (id)imeStamp:(id)arg1 %llx 
+;
+- (id)%d 
+;
+- (id)U firmware override file;
+- (id)firmware/ane/ane1.bin;
+- (id)IOGeneralInterest;
+- (id)kernel_read;
+- (id)Groups;
+- (id)MinorVersion;
+- (id)false;
+- (id)Group # ;
+- (id)tics ==;
+- (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (Class);
@@ -79,30 +75,7 @@
 - (id)TÏë;
 
 // Remaining properties
-@property unsigned long long changeTag; // @synthesize changeTag=_changeTag;
-@property(readonly, nonatomic) NSString *className;
-@property(copy, nonatomic) CDUnknownBlockType dataChanged; // @synthesize dataChanged=_dataChanged;
-@property(nonatomic) __weak CLSDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType entitiesChanged; // @synthesize entitiesChanged=_entitiesChanged;
-@property(retain, nonatomic) NSMutableSet *entitiesChangedAddedIDs; // @synthesize entitiesChangedAddedIDs=_entitiesChangedAddedIDs;
-@property(retain, nonatomic) NSMutableSet *entitiesChangedDeletedIDs; // @synthesize entitiesChangedDeletedIDs=_entitiesChangedDeletedIDs;
-@property(retain, nonatomic) NSMutableSet *entitiesChangedUpdatedIDs; // @synthesize entitiesChangedUpdatedIDs=_entitiesChangedUpdatedIDs;
-@property(retain, nonatomic) NSMutableSet *entitiesChangedUpdatedMatchingPredicateIDs; // @synthesize entitiesChangedUpdatedMatchingPredicateIDs=_entitiesChangedUpdatedMatchingPredicateIDs;
-@property(retain, nonatomic) NSMutableSet *entitiesChangedUpdatedNotMatchingPredicateIDs; // @synthesize entitiesChangedUpdatedNotMatchingPredicateIDs=_entitiesChangedUpdatedNotMatchingPredicateIDs;
 @property(retain, nonatomic) NSMutableSet *entitiesMatchingPredicate; // @synthesize entitiesMatchingPredicate=_entitiesMatchingPredicate;
-@property(readonly) unsigned long long hash;
-@property(getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, nonatomic) Class objectType;
-@property(readonly, nonatomic) NSString *observerID; // @synthesize observerID=_observerID;
-@property(readonly, nonatomic) NSPredicate *predicate;
-@property(readonly, nonatomic) CLSQuerySpecification *querySpec; // @synthesize querySpec=_querySpec;
-@property(copy, nonatomic) NSArray *sortDescriptors;
-@property(readonly) Class superclass;
 
 @end
 

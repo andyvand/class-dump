@@ -7,7 +7,6 @@
 @interface IOGPUMetalGLDrawable
 {
     struct __IOGPUGLDrawable *_drawableRef;
-    struct IOGPUDrawableSurfaceConfig _surfaceConfig;
 }
 
 - (unsigned long long);
@@ -21,7 +20,7 @@
 - (int);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)Save;
 - (id);
 
 @end

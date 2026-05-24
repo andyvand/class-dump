@@ -4,45 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString, NSTask, NSURL;
-@protocol NSObject><SUPredicateInstallControllerDelegate;
+@class NSMutableDictionary, NSString;
 
 @interface SUPredicateInstallController
 {
     NSMutableDictionary *_resources;
-    id <NSObject><SUPredicateInstallControllerDelegate> _delegate;
-    NSDate *_lastCacheRefreshAttempt;
-    NSTask *_currentTask;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)s<;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)`;
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id),;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,26 +50,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id):suggestionsHelper:appDeletionManager:trialManager: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *busyMessage;
-@property(copy) NSString *busyTitle;
-@property(copy) NSString *helpAnchor;
-@property(copy) NSURL *helpURL;
 @property(copy) NSString *iconPath;
-@property(copy) NSDictionary *installedPrintersPlist;
-@property long long legalTextType;
-@property(copy) NSString *noNetworkMessage;
-@property(copy) NSString *noNetworkTitle;
-@property(copy) NSString *noServerMessage;
-@property(copy) NSString *noServerTitle;
-@property(copy) NSString *notFoundMessage;
-@property _Bool requireLicenseAgreement;
-@property(copy) NSString *title;
 
 @end
 

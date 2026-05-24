@@ -6,37 +6,33 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSPopover, NSPopoverFrame;
+@class NSPopover;
 
 __attribute__((visibility("hidden")))
 @interface _NSPopoverWindow : NSPanel
 {
     NSPopover *_popover;
-    id _popoverAccessibilityParent;
-    id _popoverAccessibilityAnchorElement;
-    _Bool _animates;
-    _Bool _nonActivating;
 }
 
-+ (id);
++ (id)che at %@. Errno=%{errno}d;
 + (Class);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)L;
 + (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void)lling back to default policy.;
+- (void)ple of (%d);
+- (void)eForClass_fn %p;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)lX;
+- (void)s:(struct CGSize)arg1 AMFDRDecodeIterateTrustObjectTrustedBegin failed;
+- (void)ccess);
+- (id)Zj1535/jeXbmfOndlIVA;
+- (id)SqGUXaJPl/uT6ur8g;
+- (id)0Yu30fwSQVPKvHVla17kXw;
+- (void)5Af/affNtA;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -49,8 +45,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -61,35 +57,35 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGRect);
+- (_Bool)6@"NSDictionary"64@"NSDictionary"72Q80@"NSUUID"88Q96B104@?<v@?B>108;
+- (_Bool)@"NSURL"32@"NSURL"40@"NSString"48@"NSData"56@"NSDictionary"64@"NSDictionary"72Q80@"NSUUID"88Q96B104@?<v@?B>108;
+- (_Bool)tring, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)setNetworkDownloadSize: /* Error: Ran out of types for this method. */;
+- (long long)"NSURL",C,N,V_mainDocumentURL;
+- (_Bool);
+- (_Bool)9!;
+- (void)URLSessionStreamTask after task has completed;
+- (id)nection %llu:(id)arg1 TLS handshake complete;
+- (struct CGRect)HTTPS;
 - (void);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
 - (void);
-- (void)uggestionForPoint:(id)arg1;
+- (void)_suggestionForPoint:(id)arg1;
 - (struct CGPoint);
 - (id);
 - (void)eventRef, kEventParamMenuDrawState, typeThemeMenuState, NULL, sizeof menuState, NULL, &menuState);
@@ -99,14 +95,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property NSPopover *_popover; // @synthesize _popover;
-@property(readonly) NSPopoverFrame *_popoverFrame;
-@property unsigned long long anchorEdge; // @dynamic anchorEdge;
-@property struct CGPoint anchorPoint; // @dynamic anchorPoint;
-@property struct CGSize anchorSize; // @dynamic anchorSize;
-@property _Bool animates; // @synthesize animates=_animates;
-@property struct NSEdgeInsets contentInset; // @dynamic contentInset;
-@property(retain) id popoverAccessibilityAnchorElement; // @synthesize popoverAccessibilityAnchorElement=_popoverAccessibilityAnchorElement;
-@property(retain) id popoverAccessibilityParent; // @synthesize popoverAccessibilityParent=_popoverAccessibilityParent;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCDaemonController, NSMutableSet, NSObject, NSString;
-@protocol IDSOffGridStateManagerDelegate, OS_dispatch_queue;
+@class IDSXPCDaemonController, NSMutableSet;
 
 @interface IDSOffGridStateManager
 {
     NSMutableSet *_invitedHandles;
-    IDSXPCDaemonController *_daemonController;
-    IDSXPCDaemonController *_daemonController_sync;
-    NSString *_uuid;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <IDSOffGridStateManagerDelegate> _delegate;
 }
 
 - (void);
@@ -35,41 +29,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void)f(!@ù,°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) IDSXPCDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(retain, nonatomic) IDSXPCDaemonController *daemonController_sync; // @synthesize daemonController_sync=_daemonController_sync;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IDSOffGridStateManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *invitedHandles; // @synthesize invitedHandles=_invitedHandles;
-@property(readonly, nonatomic) long long offGridMode;
-@property(readonly, nonatomic) long long offGridState;
-@property(readonly, nonatomic) long long offGridStatus;
-@property(readonly, nonatomic) long long publishStatus;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

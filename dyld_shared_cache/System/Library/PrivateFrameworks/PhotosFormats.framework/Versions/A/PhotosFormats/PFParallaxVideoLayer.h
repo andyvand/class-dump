@@ -11,7 +11,6 @@
 @interface PFParallaxVideoLayer : PFParallaxLayer
 {
     AVAsset *_video;
-    NSData *_videoData;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (struct CGSize);
-- (void);
+- (id)ey from data with error:%@ for data:%@. /* Error: Ran out of types for this method. */;
+- (struct CGSize)a;
+- (void)PIPContentTypeLiveBroadcast;
 
 // Remaining properties
-@property(readonly, nonatomic) AVAsset *video;
 @property(readonly, nonatomic) NSData *videoData; // @synthesize videoData=_videoData;
 
 @end

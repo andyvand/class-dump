@@ -7,10 +7,9 @@
 @class NSDictionary, NSString;
 
 @protocol GPURawCounterSourceTrigger
+- (NSDictionary *)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *options;
 @end
 

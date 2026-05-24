@@ -9,17 +9,16 @@
 @interface IMAVHandler
 {
     NSMutableArray *_pendingChats;
-    NSMutableArray *_pendingLookups;
 }
 
 + (void);
 + (void);
+- (void)ovider with error %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)confinementRectForMenu:onScreen: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -34,11 +33,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)fileURLWithPath:relativeToURL: /* Error: Ran out of types for this method. */;
+- (void)action withCurrentTransaction:(id)arg1 ];
 - (void);
 - (void);
 - (void);

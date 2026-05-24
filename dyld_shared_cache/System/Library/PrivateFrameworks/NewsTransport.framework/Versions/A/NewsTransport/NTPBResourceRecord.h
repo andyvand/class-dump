@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBResourceRecord
 {
     NTPBRecordBase *_base;
-    NSString *_encoding;
-    NSString *_mimeType;
-    NSString *_url;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)8@"MapsSuggestionsEntry"16@"MapsSuggestionsEntry"24;
 - (id);
-- (id);
+- (id)acOS Spatial Rendering, disconnect Continuity Camera first.;
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (void);
+- (unsigned long long)_observersQueue;
+- (_Bool)r]_block_invoke;
+- (void)$;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (id);
@@ -37,14 +34,7 @@
 - (id)e;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSString *encoding; // @synthesize encoding=_encoding;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasEncoding;
-@property(readonly, nonatomic) _Bool hasMimeType;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

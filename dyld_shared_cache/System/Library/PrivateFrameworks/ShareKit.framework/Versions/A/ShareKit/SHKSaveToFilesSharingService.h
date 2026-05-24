@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)cally Pause New Service Workers;
 - (_Bool);
 - (void);
 

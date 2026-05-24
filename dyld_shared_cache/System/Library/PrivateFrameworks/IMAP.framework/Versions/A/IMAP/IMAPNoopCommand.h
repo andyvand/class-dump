@@ -13,8 +13,8 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)i!H)	kAP;
+- (id)@9	;
 
 @end
 

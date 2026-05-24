@@ -5,5 +5,6 @@
 //
 
 @protocol CNCancelationToken
+- (void);
 @end
 

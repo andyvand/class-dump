@@ -11,33 +11,29 @@
 @interface _NSToolbarFlexibleSpace : NSView
 {
     NSToolbarFlexibleSpaceItem *_spaceItem;
-    _Bool _inPalette;
-    unsigned long long _controlSize;
 }
 
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)__data;
+- (_Bool)est lengths did not match %d != %d;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (struct __CFString *);
-- (Class);
-- (_Bool);
+- (_Bool)l"16@"NSURLAuthenticationChallenge"24;
+- (void)webSocketTaskForRequest:(struct CGRect)arg1;
+- (struct __CFString *)connectionDidResumeDownloading:totalBytesWritten:expectedTotalBytes: /* Error: Ran out of types for this method. */;
+- (Class)_countOfBytesReceived;
+- (_Bool)icationUpdateFromResponse():authentication context not properly configured /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)ILLEGAL_EMPTY_EXTENSION;
 - (_Bool);
-- (void);
+- (void)setCompletedUnitCount: /* Error: Ran out of types for this method. */;
 - (void)"20@?0B8^{CGSize=dd}12;
 - (void)SScrubberLayoutAttributes"24@?0q8@"NSSet"16;
 
 // Remaining properties
-@property unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property _Bool inPalette;
-@property __weak NSToolbarFlexibleSpaceItem *spaceItem; // @synthesize spaceItem=_spaceItem;
 
 @end
 

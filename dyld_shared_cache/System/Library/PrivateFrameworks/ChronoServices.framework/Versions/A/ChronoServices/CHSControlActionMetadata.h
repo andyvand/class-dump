@@ -9,8 +9,6 @@
 @interface CHSControlActionMetadata
 {
     NSString *_intentType;
-    _Bool _isLauncher;
-    _Bool _isCameraCapture;
 }
 
 + (_Bool);
@@ -34,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *intentType; // @synthesize intentType=_intentType;
-@property(readonly, nonatomic) _Bool isCameraCapture; // @synthesize isCameraCapture=_isCameraCapture;
-@property(readonly, nonatomic) _Bool isLauncher; // @synthesize isLauncher=_isLauncher;
-@property(readonly, copy, nonatomic) NSString *rawIntentType;
-@property(readonly) Class superclass;
 
 @end
 

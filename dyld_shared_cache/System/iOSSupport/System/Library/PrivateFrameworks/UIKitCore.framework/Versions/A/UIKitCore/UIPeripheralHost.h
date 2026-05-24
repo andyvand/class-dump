@@ -4,42 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSMutableArray, NSMutableDictionary, NSString, UIInputViewSet, UIKeyboardRotationState, UIPeripheralHostState, UIPeripheralHostView, UIResponder, UITextInputMode, UIView;
+@class UIPeripheralHostView, UIView;
 
 @interface UIPeripheralHost
 {
     UIPeripheralHostView *_hostView;
-    _Bool _automaticAppearanceEnabled;
-    _Bool _automaticAppearanceEnabledInternal;
-    int _ignoredReloads;
-    int _nextAutomaticOrderInDirection;
-    _Bool _isTranslating;
-    _Bool _isUndocked;
-    _Bool _splitLockState;
-    CADisplayLink *_displayLink;
-    struct CGAffineTransform _targetTransform;
-    struct CGAffineTransform _initialTransform;
-    struct CGPoint _velocity;
-    struct CGRect _lastKnownIVFrame;
-    struct CGRect _lastKnownIAVFrame;
-    long long _disableAnimationsCount;
-    NSMutableArray *_targetStateStack;
-    UIInputViewSet *_inputViewSet;
-    UIResponder *_responder;
-    _Bool _animationFencingEnabled;
-    _Bool _interfaceAutorotationDisabled;
-    double _ambiguousControlCenterActivationMargin;
-    NSMutableDictionary *_deferredTransitionTasks;
-    int _currentState;
-    UIKeyboardRotationState *_rotationState;
-    UIInputViewSet *_transientInputViewSet;
-    NSArray *_allVisibleFrames;
-    UITextInputMode *_documentInputMode;
 }
 
-+ (void);
++ (void)dDisableRedirect;
 + (double);
-+ (struct CGPoint);
++ (struct CGPoint)k"K;
 + (struct UIEdgeInsets);
 + (struct CGRect);
 + (id);
@@ -53,7 +27,7 @@
 + (id)@ù
 × ;
 + (void)ed, but we're cancelling; move touch to cancelled:(id)arg1 %p;
-+ (id)onDefaultSoundName;
++ (id)UILocalNotificationDefaultSoundName;
 + (void)tSettings<_UISceneHostingContentSizePreferenceClientSettings>"8;
 + (_Bool)ension=%f;
 + (id);
@@ -69,13 +43,13 @@
 - (double);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)c;
+- (void)_payloadWeekdayCurfew;
+- (void)L;
 - (void);
 - (_Bool);
 - (void);
@@ -92,13 +66,13 @@
 - (void);
 - (void);
 - (double);
+- (void)ns:(id)arg1 displayProperties: /* Error: Ran out of types for this method. */;
+- (void)allowsSynchronousArtworkCatalogsBlockExecution;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)r be ignored.;
+- (id)MRContentItemArtworkFormatStandard;
+- (id)ibraryCommmand();
 - (void);
 - (void);
 - (id);
@@ -114,7 +88,7 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void)qY°1Â0@ù
 × ;
 - (void)1Â0@ù
@@ -146,27 +120,27 @@
 - (id)>"24;
 - (id)ceptanceDelegate>";
 - (void)iews"b2"animateNextHighlightChange"b1"blurEnabled"b1"visualEffectViewEnabled"b1"suppressAccessibilityUnderline"b1"requiresLayoutForPropertyChange"b1"needsTitleViewDefaultColorUpdate"b1"adjustsImageSizeForAccessibilityContentSizeCategory"b1"disableAutomaticTitleAnimations"b1"overridesRectAccessors"b1"hasActivePointerEffect"b1"automaticallyUpdatesConfiguration"b1"changesSelectionAsPrimaryAction"b1};
-- (void)apGesture:(id)arg1;
-- (struct CGPoint)oupeGestureEndPoint:(struct CGPoint)arg1;
-- (void)ion:(_Bool)arg1;
-- (void)ionReferenceView;
-- (id);
-- (void)ePredictionsForTouch:weight: /* Error: Ran out of types for this method. */;
-- (void)vg;
-- (id)tionWithReason: /* Error: Ran out of types for this method. */;
-- (void)argeTitleDisplayedForItem:hideLargeTitleForActiveSearch: /* Error: Ran out of types for this method. */;
-- (void)ateView;
-- (int)tSizeInExposedRect:topLayer:visibleLayerCount: /* Error: Ran out of types for this method. */;
-- (double)angeStatusBarOrientationToInterfaceOrientation:(double)arg1;
+- (void)setTapGesture:(id)arg1;
+- (struct CGPoint)setLoupeGestureEndPoint:(struct CGPoint)arg1;
+- (void)readerWithConfiguration:(_Bool)arg1;
+- (void)positionReferenceView;
+- (id)inverseTransformView;
+- (void)_updatePredictionsForTouch:weight: /* Error: Ran out of types for this method. */;
+- (void)_typingAvg;
+- (id)_takeScrollAnimatingAssertionWithReason: /* Error: Ran out of types for this method. */;
+- (void)_stackWantsLargeTitleDisplayedForItem:hideLargeTitleForActiveSearch: /* Error: Ran out of types for this method. */;
+- (void)_dateView;
+- (int)_contentSizeInExposedRect:topLayer:visibleLayerCount: /* Error: Ran out of types for this method. */;
+- (double)__hostDidChangeStatusBarOrientationToInterfaceOrientation:(double)arg1;
 - (void)eyboardShown:(struct UIPeripheralAnimationGeometry)arg1 ,V__keyboardShown;
 - (_Bool)@?,C,N,S_setCurrentOffsetGetter: /* Error: Ran out of types for this method. */;
-- (_Bool)dentifier:(id)arg1 children:viewControllerProvider: /* Error: Ran out of types for this method. */;
-- (void)itWithNumberOfTicks:(_Bool)arg1 behavior:(_Bool)arg2;
+- (_Bool)initWithTitle:(id)arg1 image:identifier:children:viewControllerProvider: /* Error: Ran out of types for this method. */;
+- (void)initWithNumberOfTicks:(_Bool)arg1 behavior:(_Bool)arg2;
 - (void)@"UIColor",&,N,V_chevronShimmerColor;
 - (void)line;
-- (_Bool)ributes: /* Error: Ran out of types for this method. */;
-- (id)UIDragSessionProperties;
-- (void)SearchDisplayController;
+- (_Bool)updateFramesForStyleAttributes: /* Error: Ran out of types for this method. */;
+- (id)_UIDragSessionProperties;
+- (void)UISearchDisplayController;
 - (void)À X¡;
 - (void)Ô|;
 - (void)0;
@@ -176,12 +150,12 @@
 - (void)ÿ;
 - (_Bool)ÿÀîÿÜÔïÿÕïÿ;
 - (void)unds section index while validating delete updates (section=%ld, oldSectionCount=%ld);
-- (void)ellOutline;
-- (void)lpha29;
+- (void)UIKBLegacyCandidateGridCellOutline;
+- (void)UIKBColorBlack_Alpha29;
 - (void)t least zero and less than the corner size (%ld).;
 - (int)"UIViewController"16;
 - (void)fset before solving. Item:(id)arg1 %@;
-- (_Bool)rial;
+- (_Bool)UIBlurEffectStyleSystemThickMaterial;
 - (void)table.swift;
 - (void)ÿÿ;
 - (void);
@@ -222,30 +196,6 @@
 - (void)ìk;
 
 // Remaining properties
-@property(retain, nonatomic) UIInputViewSet *_inputViews; // @synthesize _inputViews=_inputViewSet;
-@property(retain, nonatomic) UIInputViewSet *_transientInputViews; // @synthesize _transientInputViews=_transientInputViewSet;
-@property(retain, nonatomic) NSArray *allVisibleFrames; // @synthesize allVisibleFrames=_allVisibleFrames;
-@property(nonatomic) double ambiguousControlCenterActivationMargin;
-@property(nonatomic) _Bool animationFencingEnabled; // @synthesize animationFencingEnabled=_animationFencingEnabled;
-@property(readonly, nonatomic) _Bool animationsEnabled;
-@property(nonatomic) _Bool automaticAppearanceEnabled; // @synthesize automaticAppearanceEnabled=_automaticAppearanceEnabled;
-@property(nonatomic) _Bool automaticAppearanceInternalEnabled;
-@property(readonly, nonatomic) _Bool automaticAppearanceReallyEnabled;
-@property(nonatomic) int currentState; // @synthesize currentState=_currentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITextInputMode *documentInputMode; // @synthesize documentInputMode=_documentInputMode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIInputViewSet *inputViews;
-@property(readonly, nonatomic) _Bool keyClicksEnabled;
-@property(readonly, nonatomic) UIInputViewSet *loadAwareInputViews;
-@property(retain, nonatomic) UIResponder *responder; // @synthesize responder=_responder;
-@property(retain, nonatomic) UIKeyboardRotationState *rotationState; // @synthesize rotationState=_rotationState;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIPeripheralHostState *targetState;
 @property(readonly, nonatomic) UIView *view;
 
 @end

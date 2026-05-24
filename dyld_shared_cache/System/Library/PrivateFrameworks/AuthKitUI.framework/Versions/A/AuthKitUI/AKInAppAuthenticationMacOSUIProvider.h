@@ -4,57 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationInAppContext, AKAuthenticationPromptController, ASWebAuthenticationSession, NSString;
+@class AKAppleIDAuthenticationInAppContext;
 
 @interface AKInAppAuthenticationMacOSUIProvider
 {
     AKAppleIDAuthenticationInAppContext *_context;
-    AKAppleIDAuthenticationInAppContext *_largePromptSheetContext;
-    AKAuthenticationPromptController *_authenticationPrompt;
-    int _numberOfAttempts;
-    ASWebAuthenticationSession *_webAuthenticationSession;
 }
 
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
+- (void),N,V_interval;
+- (void)CalComponentForHours:(CDUnknownBlockType)arg1;
+- (void)er;
+- (void)ntStartDate;
+- (void)CalArchivedDataWithRootObject:(id)arg1 ofClasses:(CDUnknownBlockType)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)C,N,V_daysOfTheWeek;
+- (void)CDVStringByAppendingSlashIfNeeded;
+- (void)CALsafeObjectForKey:(id)arg1 calculatedWithBlock:(id)arg2;
+- (void)CDVURLWithPath:(id)arg1;
+- (void)_TtC18CalendarFoundationP33_05EB12F1877A7D0E63754845D702D2A519ResourceBundleClass;
+- (void);
+- (void)@ was nil. %@;
+- (void)either the principal's dictionary %@ or its uid %@ was nil. %@;
+- (void)c}@ to something that's not a string (%@, which is a %{public}@);
+- (void)gnoring attempt to set Hostname for account %{public}@ to something that's not a string (%@, which is a %{public}@);
+- (void)Ignoring invalid hostname (%@) on account %@;
+- (void)ing for the best.;
+- (void);
+- (void);
+- (id)_playlistsBySyncID;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,38 +9,30 @@
 @interface NSMenuItemBadge
 {
     _Bool _usesPreferredLocalization;
-    long long _itemCount;
-    long long _type;
-    NSString *_customStringValue;
-    NSString *_stringValue;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)NDBackgroundSessionManagerRestoredStateKeyTLSSessionCachePrefix;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (void)creating challenge failed %@;
+- (id)@;
+- (id);
+- (void)16s;
+- (long long)ld ;
 - (id)lementaryOffsets:(struct _NSZone *)arg1 itemLimit: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)sDirectories;
 - (_Bool);
 - (id);
-- (long long)illCameraTemplate;
+- (long long)NSStillCameraTemplate;
 - (void)¬¼g@;
 
 // Remaining properties
-@property(copy) NSString *_customStringValue; // @synthesize _customStringValue;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(readonly) long long itemCount; // @synthesize itemCount=_itemCount;
-@property(readonly) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) long long type; // @synthesize type=_type;
+@property(nonatomic, copy) NSString *stringValue;
 
 @end
 

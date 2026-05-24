@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingPuzzleTypeTextActivityItemSource
 {
     id puzzleType;
-    id $__lazy_storage_$_defaultText;
 }
 
 - (id);

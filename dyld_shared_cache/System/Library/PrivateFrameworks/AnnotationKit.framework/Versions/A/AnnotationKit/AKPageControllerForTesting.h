@@ -6,16 +6,11 @@
 
 #import <AnnotationKit/AKPageController.h>
 
-@class AKController, AKGeometryHelper, AKLayerPresentationManager, AKPageModelController, NSView;
+@class AKController;
 
 @interface AKPageControllerForTesting : AKPageController
 {
     AKController *_testingController;
-    unsigned long long _testingPageIndex;
-    AKPageModelController *_testingPageModelController;
-    AKLayerPresentationManager *_testingLayerPresentationManager;
-    AKGeometryHelper *_testingGeometryHelper;
-    NSView *_testingOverlayView;
 }
 
 - (id);
@@ -26,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -39,19 +34,14 @@
 - (id);
 - (struct CGPoint);
 - (struct CGPoint);
-- (unsigned long long);
-- (id);
+- (unsigned long long)tems/s);
+- (id)3DGenericSource={__C3DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DSourceAccessor}(?=^{__CFData}^v^v)qb1b1b1}SCC}8c16q20C28;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) AKController *testingController; // @synthesize testingController=_testingController;
-@property(retain) AKGeometryHelper *testingGeometryHelper; // @synthesize testingGeometryHelper=_testingGeometryHelper;
-@property(retain) AKLayerPresentationManager *testingLayerPresentationManager; // @synthesize testingLayerPresentationManager=_testingLayerPresentationManager;
-@property(retain) NSView *testingOverlayView; // @synthesize testingOverlayView=_testingOverlayView;
-@property unsigned long long testingPageIndex; // @synthesize testingPageIndex=_testingPageIndex;
-@property(retain) AKPageModelController *testingPageModelController; // @synthesize testingPageModelController=_testingPageModelController;
 
 @end
 

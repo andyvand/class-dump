@@ -13,9 +13,9 @@
     NSString *_encoding;
 }
 
+- (id);
 - (id);
-- (id);
-- (void)fLengthZero;
+- (void)CKNilIfLengthZero;
 
 @end
 

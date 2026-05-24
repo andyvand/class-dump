@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSMutableDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface ILMediaObject
 {
     NSString *_ID;
-    NSString *_name;
-    NSImage *_icon;
-    NSURL *_url;
-    NSString *_aliasResolvedPath;
-    NSDate *_modificationDate;
-    NSMutableDictionary *_allProperties;
-    NSMutableDictionary *_sourceProperties;
-    NSMutableDictionary *_extendedProperties;
-    unsigned int _hasQueriedSpotlightProperties:1;
-    unsigned int _hasAppliedThumbnailCacheInfo:1;
-    unsigned int _initialPropertiesComplete:1;
-    unsigned int _reservedStatus:5;
-    NSNumber *_fileSize;
-    NSString *_contentType;
-    unsigned long long _mediaType;
-    unsigned long long _mediaSourceType;
-    NSString *_thumbnailPath;
-    NSImage *_thumbnailImage;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
 }
 
 + (id);
@@ -71,8 +50,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -99,20 +78,20 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)initWithName:startState:behavior: /* Error: Ran out of types for this method. */;
+- (void)code;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_TtC5TeaUI10HiddenView;
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)H'A�q;
 - (id);
 - (void);
 - (void);
@@ -124,14 +103,14 @@
 - (void);
 - (double);
 - (void);
+- (id)T;
+- (void)";
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -145,7 +124,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)eBandSong;
+- (id)MBGarageBandSong;
 
 @end
 

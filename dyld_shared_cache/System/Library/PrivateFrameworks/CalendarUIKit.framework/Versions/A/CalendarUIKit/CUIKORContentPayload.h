@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKORTextDrawInfo, NSAttributedString, NSImage;
-
 @interface CUIKORContentPayload
 {
     long long _requestId;
-    unsigned long long _requestOptions;
-    NSImage *_backgroundImage;
-    NSImage *_textImage;
-    CUIKORTextDrawInfo *_textDrawInfo;
-    NSImage *_travelTimeImage;
-    NSAttributedString *_travelTimeString;
 }
 
-- (id)ô;
-- (id)?×é;
-- (id)Iø?;
-- (id)© #Ñáªèøýü;
-- (id)#ÕôO¾©ý{©ýC;
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)e;
 - (void)r"16@0:8 /* Error: Ran out of types for this method. */;
 - (long long)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
 @property(readonly, nonatomic) long long requestId; // @synthesize requestId=_requestId;
-@property(readonly, nonatomic) unsigned long long requestOptions; // @synthesize requestOptions=_requestOptions;
-@property(readonly, nonatomic) CUIKORTextDrawInfo *textDrawInfo; // @synthesize textDrawInfo=_textDrawInfo;
-@property(readonly, nonatomic) NSImage *textImage; // @synthesize textImage=_textImage;
-@property(readonly, nonatomic) NSImage *travelTimeImage; // @synthesize travelTimeImage=_travelTimeImage;
-@property(readonly, nonatomic) NSAttributedString *travelTimeString; // @synthesize travelTimeString=_travelTimeString;
 
 @end
 

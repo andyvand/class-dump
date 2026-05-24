@@ -9,16 +9,10 @@
 @interface GEOLogMessage
 {
     NSMutableArray *_logMsgEvents;
-    unsigned int _groupRetryCount;
-    int _logMessageType;
-    struct {
-        unsigned int has_groupRetryCount:1;
-        unsigned int has_logMessageType:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)IntermediateStateTapBehaviorListView:(id)arg1;
++ (_Bool)setHasShowIntermediateStateTapBehaviorListView:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -29,15 +23,15 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)e-data first (in %lld/%lld out %lld/%lld) last (in %lld/%lld out %lld/%lld)]no frames returned from output handler;
+- (id)H;
 - (_Bool);
 - (id);
 - (void);
@@ -53,11 +47,7 @@
 - (unsigned int)@³;
 
 // Remaining properties
-@property(nonatomic) unsigned int groupRetryCount;
 @property(nonatomic) _Bool hasGroupRetryCount;
-@property(nonatomic) _Bool hasLogMessageType;
-@property(nonatomic) int logMessageType;
-@property(retain, nonatomic) NSMutableArray *logMsgEvents;
 
 @end
 

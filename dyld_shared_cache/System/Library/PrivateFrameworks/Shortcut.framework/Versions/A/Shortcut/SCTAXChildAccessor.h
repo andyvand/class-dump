@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SCTAXChildAccessor
 {
     NSString *mAttribute;
-    NSString *mValue;
-    NSNumber *mOccurance;
 }
 
 - (struct __AXUIElement *);
 - (id);
 - (void);
-- (long long);
+- (long long)';
 - (void);
 - (id);
 - (id);

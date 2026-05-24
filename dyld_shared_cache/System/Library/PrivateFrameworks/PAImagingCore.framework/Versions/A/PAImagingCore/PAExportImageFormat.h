@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PAExportImageFormat
 {
     _Bool _canIncludeMetadata;
-    unsigned long long _bitsPerChannel;
-    struct __CFString *_uti;
-    NSString *_pathExtension;
 }
 
 + (id);
@@ -34,9 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long bitsPerChannel; // @synthesize bitsPerChannel=_bitsPerChannel;
-@property(nonatomic) _Bool canIncludeMetadata; // @synthesize canIncludeMetadata=_canIncludeMetadata;
-@property(retain, nonatomic) NSString *pathExtension; // @synthesize pathExtension=_pathExtension;
-@property(nonatomic) struct __CFString *uti; // @synthesize uti=_uti;
 
 @end
 

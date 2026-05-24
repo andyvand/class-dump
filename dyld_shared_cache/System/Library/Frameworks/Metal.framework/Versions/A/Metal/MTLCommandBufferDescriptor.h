@@ -18,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long errorOptions; // @dynamic errorOptions;
-@property(retain, nonatomic) id <MTLLogState> logState; // @synthesize logState=_logState;
 @property(nonatomic) _Bool retainedReferences; // @dynamic retainedReferences;
 
 @end

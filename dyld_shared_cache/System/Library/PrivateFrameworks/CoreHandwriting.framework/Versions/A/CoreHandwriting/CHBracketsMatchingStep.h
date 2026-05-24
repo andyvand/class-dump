@@ -6,12 +6,9 @@
 
 #import <CoreHandwriting/CHMathPostprocessingStep.h>
 
-@class NSSet;
-
 @interface CHBracketsMatchingStep : CHMathPostprocessingStep
 {
     unique_ptr_6dc90793 latexHelper;
-    NSSet *_bracketSymbols;
 }
 
 - (id);

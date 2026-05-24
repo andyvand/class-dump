@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)oad transfer. Reason:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AMSSecureCodingSanitizable;
 - (void);
-- (id);
+- (id)ning cacheColorSpaceFromICC;
 
 // Remaining properties
 @property(readonly) NSData *nonce; // @synthesize nonce=_nonce;

@@ -7,8 +7,6 @@
 @interface PhotosUICore.SharedAlbumMigratedBannerModel
 {
     id id;
-    id sharedAlbumiCloudURL;
-    id _$observationRegistrar;
 }
 
 @end

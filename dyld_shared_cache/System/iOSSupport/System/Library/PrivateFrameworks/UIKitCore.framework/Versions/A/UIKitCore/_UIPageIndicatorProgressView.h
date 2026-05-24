@@ -12,23 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _UIPageIndicatorProgressView : UIView
 {
     _UIPageIndicatorView *_indicatorView;
-    UIView *_backgroundView;
-    UIView *_filledView;
 }
 
 - (void);
-- (id);
+- (id)setCloudkitRecordsKVStore: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id)tForTextRangeAdjustmentEdgeRect:(struct CGRect)arg1 isVertical:direction: /* Error: Ran out of types for this method. */;
-- (void)utMargins;
+- (id)_grabberDotRectForTextRangeAdjustmentEdgeRect:(struct CGRect)arg1 isVertical:direction: /* Error: Ran out of types for this method. */;
+- (void)_applyVisualStyleToLayoutMargins;
 - (id)lease pass an object of type UIDragItem.;
 - (void)èþ ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) UIView *filledView; // @synthesize filledView=_filledView;
 @property(nonatomic) _UIPageIndicatorView *indicatorView; // @synthesize indicatorView=_indicatorView;
 
 @end

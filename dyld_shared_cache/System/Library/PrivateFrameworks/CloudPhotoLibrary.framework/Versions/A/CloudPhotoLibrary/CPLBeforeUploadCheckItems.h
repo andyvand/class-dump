@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLChangeBatch, CPLFingerprintContext, CPLRecordTargetMapping, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CPLBeforeUploadCheckItemsProvider;
+@class CPLChangeBatch, NSDictionary;
 
 @interface CPLBeforeUploadCheckItems
 {
     NSDictionary *_items;
-    NSDictionary *_foundRecords;
-    NSMutableSet *_recordsToFetch;
-    NSMutableDictionary *_nonAssetsWithResourcesToUpload;
-    NSMutableDictionary *_assetsWithResourcesToUpload;
-    NSMutableDictionary *_additionalRecords;
-    NSMutableSet *_fetchRules;
-    NSMutableDictionary *_itemsToReinject;
-    _Bool _shouldCheckOverQuotaChangesWithServer;
-    _Bool _hasDroppedSomeResources;
-    CPLChangeBatch *_originalBatch;
-    CPLRecordTargetMapping *_targetMapping;
-    CPLFingerprintContext *_fingerprintContext;
-    id <CPLBeforeUploadCheckItemsProvider> _provider;
-    long long _ruleGroups;
-    unsigned long long _pushRepositoryPriority;
-    NSString *_sharingScopeIdentifier;
 }
 
 - (_Bool);
@@ -35,10 +18,10 @@
 - (_Bool);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -46,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`";
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -54,7 +37,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)PRSRankingItemAdditions_completedQuery;
 - (id);
 - (id);
 - (id);
@@ -63,24 +46,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLChangeBatch *batchToUpload;
-@property(readonly, nonatomic) unsigned long long countOfAssetsWithResourcesToUpload;
-@property(readonly, nonatomic) unsigned long long estimatedUploadResourceSize;
-@property(readonly, nonatomic) NSArray *fetchRules;
-@property(readonly, nonatomic) CPLFingerprintContext *fingerprintContext; // @synthesize fingerprintContext=_fingerprintContext;
-@property(readonly, nonatomic) _Bool hasDroppedSomeResources; // @synthesize hasDroppedSomeResources=_hasDroppedSomeResources;
-@property(readonly, nonatomic) NSDictionary *itemsToReinject;
 @property(readonly, nonatomic) CPLChangeBatch *originalBatch; // @synthesize originalBatch=_originalBatch;
-@property(readonly, nonatomic) id <CPLBeforeUploadCheckItemsProvider> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) unsigned long long pushRepositoryPriority; // @synthesize pushRepositoryPriority=_pushRepositoryPriority;
-@property(readonly, nonatomic) NSArray *recordsNeedingGeneratedDerivatives;
-@property(readonly, nonatomic) NSArray *recordsToFetch;
-@property(readonly, nonatomic) long long ruleGroups; // @synthesize ruleGroups=_ruleGroups;
-@property(copy, nonatomic) NSString *sharingScopeIdentifier; // @synthesize sharingScopeIdentifier=_sharingScopeIdentifier;
-@property(nonatomic) _Bool shouldCheckOverQuotaChangesWithServer; // @synthesize shouldCheckOverQuotaChangesWithServer=_shouldCheckOverQuotaChangesWithServer;
-@property(readonly, nonatomic) _Bool shouldResetExceedingQuotaOnSuccessfulUpload;
-@property(readonly, nonatomic) CPLRecordTargetMapping *targetMapping; // @synthesize targetMapping=_targetMapping;
-@property(readonly, nonatomic) _Bool willUploadSomeResources;
 
 @end
 

@@ -12,17 +12,15 @@ __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingVersionValue : HMDCompositeSettingValue
 {
     HMFVersion *_version;
-    long long _type;
 }
 
-- (id);
+- (id):(id)arg1:(long long)arg2 __hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id)Id:%@ /* Error: Ran out of types for this method. */;
 - (void)nload failed (;
 
 // Remaining properties
-@property(readonly) long long type; // @synthesize type=_type;
 @property(readonly, copy) HMFVersion *version; // @synthesize version=_version;
 
 @end

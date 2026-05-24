@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMAttachment
 {
     _Bool _isSticker;
-    _Bool _isTransferComplete;
-    NSString *_guid;
-    NSString *_path;
-    NSDate *_createdDate;
 }
 
 - (void);
@@ -27,16 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id)eviousItem:prevItems:chatStyle: /* Error: Ran out of types for this method. */;
+- (id)_shouldAppendServiceForChat:item:previousItem:prevItems:chatStyle: /* Error: Ran out of types for this method. */;
 - (void)$Îúÿ,?öÿÈÐÿÿ;
 - (void)cáu0;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
 @property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(nonatomic) _Bool isTransferComplete; // @synthesize isTransferComplete=_isTransferComplete;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

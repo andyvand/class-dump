@@ -9,17 +9,6 @@
 @interface IKImageHistogram
 {
     IKScanUIControllerAdvanced *_scanUIController;
-    struct CGRect _selectionRectInch;
-    struct CGRect _selectionRectPixels;
-    _Bool _isGray;
-    _Bool _isDirty;
-    _Bool _updating;
-    struct CGImage *_image;
-    unsigned long long _histA[256];
-    unsigned long long _histR[256];
-    unsigned long long _histG[256];
-    unsigned long long _histB[256];
-    unsigned long long *_histogram[4];
 }
 
 - (void);
@@ -32,15 +21,14 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)setValue:(struct CGSize)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)textCopyItem;
 - (struct CGSize);
 - (id);
 
 // Remaining properties
-@property _Bool isGray; // @synthesize isGray=_isGray;
 @property IKScanUIControllerAdvanced *scanUIController; // @synthesize scanUIController=_scanUIController;
 
 @end

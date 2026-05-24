@@ -7,7 +7,6 @@
 @interface PhotosGraph.RelatedPersonEntityDescriptor
 {
     id personEntity;
-    id confidenceByRelationType;
 }
 
 - (id);

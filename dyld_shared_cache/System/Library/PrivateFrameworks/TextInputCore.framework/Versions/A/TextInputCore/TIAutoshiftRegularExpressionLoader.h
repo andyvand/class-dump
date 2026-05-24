@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface TIAutoshiftRegularExpressionLoader
 {
     NSRegularExpression *_regex;
-    NSString *_sentenceDelimitingCharacters;
-    NSString *_sentenceTrailingCharacters;
-    NSString *_nextSentencePrefixCharacters;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)N;
+- (void)_initializeCAInstrumentationProcessor;
+- (id)TEGER NOT NULL DEFAULT 0,     UNIQUE (name) );;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)_externalRetainCount;
 - (void)ð!Ü@ùi°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *nextSentencePrefixCharacters; // @synthesize nextSentencePrefixCharacters=_nextSentencePrefixCharacters;
-@property(retain, nonatomic) NSRegularExpression *regex; // @synthesize regex=_regex;
 @property(readonly, nonatomic) NSString *sentenceDelimitingCharacters; // @synthesize sentenceDelimitingCharacters=_sentenceDelimitingCharacters;
-@property(readonly, nonatomic) NSString *sentenceTrailingCharacters; // @synthesize sentenceTrailingCharacters=_sentenceTrailingCharacters;
 
 @end
 

@@ -6,44 +6,36 @@
 
 #import <PassKitCore/PKPassTileState.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPassTileStateGroup : PKPassTileState
 {
     NSString *_header;
-    NSString *_footer;
-    NSString *_headerActionTitle;
-    NSString *_footerActionTitle;
-    NSArray *_footerActions;
 }
 
-+ (id);
++ (id);
 + (_Bool)qî%ð1Â0@ù
 × ;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)q@;
 - (id);
 - (id);
+- (void)highUcodeLatency;
 - (void);
-- (void);
-- (void)icyURL;
+- (void)privacyPolicyURL;
 - (id)Êÿ
 +kh;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *footer; // @synthesize footer=_footer;
-@property(copy, nonatomic) NSString *footerActionTitle; // @synthesize footerActionTitle=_footerActionTitle;
-@property(copy, nonatomic) NSArray *footerActions; // @synthesize footerActions=_footerActions;
 @property(copy, nonatomic) NSString *header; // @synthesize header=_header;
-@property(copy, nonatomic) NSString *headerActionTitle; // @synthesize headerActionTitle=_headerActionTitle;
 
 @end
 

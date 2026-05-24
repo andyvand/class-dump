@@ -4,93 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAppGrabberView, CKBrowserSwitcherCell, CKBrowserTransitionCoordinator, CKImmediatePanGestureRecognizer, IMBalloonPlugin, NSDate, NSMutableDictionary, NSString, UILongPressGestureRecognizer, UIView, UIViewController, UIViewPropertyAnimator;
-@protocol CKBrowserSwitcherViewControllerDelegate><CKBrowserTransitionCoordinatorDelegate, CKBrowserViewControllerProtocol;
+@class CKImmediatePanGestureRecognizer, UIView;
 
 @interface CKBrowserSwitcherViewController
 {
     CKImmediatePanGestureRecognizer *_expandGestureTracker;
-    UIViewPropertyAnimator *_expandPropertyAnimator;
-    _Bool _isDoingExpandInteraction;
-    _Bool _expandInteractionDidMove;
-    _Bool _expandGestureStartedOnGrabber;
-    double _expandGestureTranslationOffset;
-    _Bool _dragging;
-    _Bool _browserViewReadyForUserInteraction;
-    _Bool _insertedViaCollapse;
-    _Bool _inDragAndDrop;
-    _Bool _interactiveExpandStarted;
-    _Bool _transitioningFromSnapshotToLiveView;
-    _Bool _transitioningExpandedState;
-    _Bool _allowFooterLabelUpdates;
-    _Bool _allowPluginLaunchNotifications;
-    _Bool _viewHasLaidOutSubviews;
-    _Bool _browserIsLoadingCompact;
-    _Bool _browserIsCollapsingFromFullscreen;
-    id <CKBrowserSwitcherViewControllerDelegate><CKBrowserTransitionCoordinatorDelegate> _delegate;
-    UIViewController<CKBrowserViewControllerProtocol> *_currentViewController;
-    CKBrowserTransitionCoordinator *_transitionCoordinator;
-    IMBalloonPlugin *_balloonPlugin;
-    UIView *_contentView;
-    UIView *_browserContainer;
-    CKBrowserSwitcherCell *_cell;
-    NSMutableDictionary *_livePluginIdentifierToTimestampMap;
-    UILongPressGestureRecognizer *_touchTracker;
-    IMBalloonPlugin *_currentVisiblePlugin;
-    CKAppGrabberView *_grabberView;
-    UIView *_shadowView;
-    CDUnknownBlockType _performAfterFirstLayoutBlock;
-    NSDate *_timeOfLastScrollingDecelerationEnded;
 }
 
+- (_Bool)lerts;
+- (void)initWithFrame:(id)arg1 siriSnippetWidth: /* Error: Ran out of types for this method. */;
+- (void)_icaxUnfilteredAttributedString;
+- (id)ICLockedNotesWelcomeViewController;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)G̤7G;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)IeyB_Sg;
+- (void)So13PKDrawingUUID_p;
+- (void)r;
+- (struct CGRect)n;
 - (double);
-- (void);
-- (CDUnknownBlockType);
+- (void);;
+- (CDUnknownBlockType)s;
+- (id)ailed because the note is no longer shared or the recipient is invalid;
+- (_Bool)either cancelled or not needed:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)classifcation %d;
+- (_Bool)ues — deleting duplicated note {originalNote:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
+- (_Bool)Note:%@, reason:%@} /* Error: Ran out of types for this method. */;
+- (_Bool)ift;
+- (_Bool)2$@;
+- (id)wable on Some Devices;
+- (void)attachment or discard the change you made.;
+- (id)ave before converting drawings in a single opened note;
+- (void)SETTINGS_TEXT_STYLE_SUBHEADING;
+- (void)movieFooterBackground;
+- (void)ieFooter(18)]|;
+- (void)icon;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)LockedAttachmentView;
 - (struct CGRect);
 - (void);
 - (void);
@@ -138,19 +106,19 @@
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)m;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (double);
+- (void);
+- (id);
+- (void);
+- (double);
 - (id);
 - (void);
 - (void);
@@ -174,7 +142,7 @@
 × ;
 - (void)1Ð1Â0@ù
 × ;
-- (void)thYouFooterView;
+- (void)sharedWithYouFooterView;
 - (void)N,&;
 - (_Bool);
 - (void)ayContainer for itemProvider:(_Bool)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
@@ -188,39 +156,7 @@
 - (void)U]ÿö7À3;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFooterLabelUpdates; // @synthesize allowFooterLabelUpdates=_allowFooterLabelUpdates;
-@property(nonatomic) _Bool allowPluginLaunchNotifications; // @synthesize allowPluginLaunchNotifications=_allowPluginLaunchNotifications;
-@property(retain, nonatomic) IMBalloonPlugin *balloonPlugin; // @synthesize balloonPlugin=_balloonPlugin;
-@property(retain, nonatomic) UIView *browserContainer; // @synthesize browserContainer=_browserContainer;
-@property(nonatomic) _Bool browserIsCollapsingFromFullscreen; // @synthesize browserIsCollapsingFromFullscreen=_browserIsCollapsingFromFullscreen;
-@property(nonatomic) _Bool browserIsLoadingCompact; // @synthesize browserIsLoadingCompact=_browserIsLoadingCompact;
-@property(nonatomic, getter=isBrowserReadyForUserInteraction) _Bool browserViewReadyForUserInteraction; // @synthesize browserViewReadyForUserInteraction=_browserViewReadyForUserInteraction;
-@property(retain, nonatomic) CKBrowserSwitcherCell *cell; // @synthesize cell=_cell;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *currentViewController; // @synthesize currentViewController=_currentViewController;
-@property(retain, nonatomic) IMBalloonPlugin *currentVisiblePlugin; // @synthesize currentVisiblePlugin=_currentVisiblePlugin;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserSwitcherViewControllerDelegate><CKBrowserTransitionCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragging) _Bool dragging; // @synthesize dragging=_dragging;
-@property(retain, nonatomic) CKAppGrabberView *grabberView; // @synthesize grabberView=_grabberView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInDragAndDrop) _Bool inDragAndDrop; // @synthesize inDragAndDrop=_inDragAndDrop;
-@property(nonatomic) _Bool insertedViaCollapse; // @synthesize insertedViaCollapse=_insertedViaCollapse;
-@property(nonatomic) _Bool interactiveExpandStarted; // @synthesize interactiveExpandStarted=_interactiveExpandStarted;
-@property(retain, nonatomic) NSMutableDictionary *livePluginIdentifierToTimestampMap; // @synthesize livePluginIdentifierToTimestampMap=_livePluginIdentifierToTimestampMap;
-@property(copy, nonatomic) CDUnknownBlockType performAfterFirstLayoutBlock; // @synthesize performAfterFirstLayoutBlock=_performAfterFirstLayoutBlock;
-@property(retain, nonatomic) UIView *shadowView; // @synthesize shadowView=_shadowView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *timeOfLastScrollingDecelerationEnded; // @synthesize timeOfLastScrollingDecelerationEnded=_timeOfLastScrollingDecelerationEnded;
-@property(retain, nonatomic) UILongPressGestureRecognizer *touchTracker; // @synthesize touchTracker=_touchTracker;
-@property(retain, nonatomic) CKBrowserTransitionCoordinator *transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
-@property(nonatomic, getter=isTransitioningExpandedState) _Bool transitioningExpandedState; // @synthesize transitioningExpandedState=_transitioningExpandedState;
-@property(nonatomic, getter=isTransitioningFromSnapshotToLiveView) _Bool transitioningFromSnapshotToLiveView; // @synthesize transitioningFromSnapshotToLiveView=_transitioningFromSnapshotToLiveView;
-@property(nonatomic) _Bool viewHasLaidOutSubviews; // @synthesize viewHasLaidOutSubviews=_viewHasLaidOutSubviews;
 
 @end
 

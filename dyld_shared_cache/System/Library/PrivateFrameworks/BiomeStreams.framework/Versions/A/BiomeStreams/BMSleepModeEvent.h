@@ -6,20 +6,16 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSDate, NSString;
-
 @interface BMSleepModeEvent : BMEventBase
 {
     unsigned long long _sleepModeState;
-    unsigned long long _sleepModeChangeReason;
-    NSDate *_expectedEndDate;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (id);
@@ -30,21 +26,11 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id)d_size;
+- (id)pg_query__reassign_owned_stmt__get_packed_size;
 - (void)LMNOPQRSTUVWXY.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expectedEndDate; // @synthesize expectedEndDate=_expectedEndDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long sleepModeChangeReason; // @synthesize sleepModeChangeReason=_sleepModeChangeReason;
 @property(readonly, nonatomic) unsigned long long sleepModeState; // @synthesize sleepModeState=_sleepModeState;
-@property(readonly) Class superclass;
 
 @end
 

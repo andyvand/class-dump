@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHVoiceTriggerEventInfo, NSData;
+@class MHSchemaMHVoiceTriggerEventInfo;
 
 @interface MHSchemaMHVoiceTriggerSecondPassCancelled : SISchemaInstrumentationMessage
 {
     MHSchemaMHVoiceTriggerEventInfo *_voiceTriggerEventInfo;
-    _Bool _hasVoiceTriggerEventInfo;
 }
 
-- (void);
+- (void)@9(;
 - (_Bool);
 - (void);
 - (void);
+- (id)rentalID;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)evp/e_gost2814789.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!0Dù1ßÐ1Â0@ù
 × ;
 - (id)sAttendingContext;
 - (id)exLists;
-- (void)ASUSAudioPlaybackQueueLocation;
+- (void)PEGASUSSchemaPEGASUSAudioPlaybackQueueLocation;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVoiceTriggerEventInfo; // @synthesize hasVoiceTriggerEventInfo=_hasVoiceTriggerEventInfo;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHVoiceTriggerEventInfo *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEResolutionRequestFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)coordinateRangeAtIndex: /* Error: Ran out of types for this method. */;
+- (void)S;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)electionCacheHit;
-- (id)Source;
+- (id)deleteIsIntentSelectionCacheHit;
+- (id)PLUSSchemaPLUSMediaSuggestionSource;
 - (void)ð.Êÿ±}á#;
 - (unsigned int)C³ú(;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,26 +6,16 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionBandwidthAllocationTable : VCObject
 {
     unsigned char _type;
-    NSMutableDictionary *_streamTokenEntries;
-    NSMutableDictionary *_sortedEntriesForStreamToken;
-    NSMutableDictionary *_streamIDToEntryTable;
-    unsigned int _currentScreenEncoderGroupCount;
-    unsigned int _maxActiveScreenEncoders;
-    unsigned int _maxActiveCameraEncoders;
-    NSDictionary *_audioOnlyBitrateToStreamIDsTable;
-    NSDictionary *_audioVideoBitrateToStreamIDsTable;
-    NSDictionary *_videoOnlyBitrateToStreamIDsTable;
-    NSDictionary *_videoStreamIdToRepairStreamIdMap;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -44,9 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *audioOnlyBitrateToStreamIDsTable; // @synthesize audioOnlyBitrateToStreamIDsTable=_audioOnlyBitrateToStreamIDsTable;
-@property(readonly, nonatomic) NSDictionary *audioVideoBitrateToStreamIDsTable; // @synthesize audioVideoBitrateToStreamIDsTable=_audioVideoBitrateToStreamIDsTable;
-@property(readonly, nonatomic) NSDictionary *videoOnlyBitrateToStreamIDsTable; // @synthesize videoOnlyBitrateToStreamIDsTable=_videoOnlyBitrateToStreamIDsTable;
-@property(readonly, nonatomic) NSDictionary *videoStreamIdToRepairStreamIdMap; // @synthesize videoStreamIdToRepairStreamIdMap=_videoStreamIdToRepairStreamIdMap;
 
 @end
 

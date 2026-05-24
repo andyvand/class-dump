@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NUSourceNode.h>
 
-@class NUComposition, NURenderPipeline;
+@class NURenderPipeline;
 
 @interface NUCompositionSourceNode : NUSourceNode
 {
     NURenderPipeline *_renderPipeline;
-    NUComposition *_composition;
-    CDStruct_d58201db _pixelSize;
 }
 
 - (_Bool);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void)@0:8@16B24{?=qiIq}28o^@52 /* Error: Ran out of types for this method. */;

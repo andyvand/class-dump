@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
 @protocol ConfigEditorDelegate;
 
 @interface ConfigKeyEditor
 {
     id <ConfigEditorDelegate> mDelegate;
-    NSNumber *mVirtualKey;
-    unsigned long long mModifiers;
-    NSString *mCharCode;
-    NSNumber *mNSModifiers;
-    _Bool mAllowsHighFunctionKeys;
-    _Bool mOperationModeEnabled;
-    unsigned int mSavedHotKeyOperatingMode;
-    _Bool _allowKeyWithoutModifiers;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -30,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (_Bool);
 - (id);
 - (void);
@@ -43,11 +34,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowKeyWithoutModifiers; // @synthesize allowKeyWithoutModifiers=_allowKeyWithoutModifiers;
 @property _Bool allowsHighFunctionKeys; // @synthesize allowsHighFunctionKeys=mAllowsHighFunctionKeys;
-@property(readonly) NSString *charCode; // @synthesize charCode=mCharCode;
-@property(readonly) NSNumber *key; // @synthesize key=mVirtualKey;
-@property(readonly) NSNumber *modifier; // @synthesize modifier=mNSModifiers;
 
 @end
 

@@ -4,63 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInteractionAssistant, UIView;
-@protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
+@class NSAttributedString, NSDictionary, UITextInteractionAssistant, UIView;
+@protocol UISelectionInteractionAssistant;
 
 @protocol UITextInputPrivate
 - (UITextInteractionAssistant *)eractionAnimating>"16;
-- (void)archManager;
+- (void)searchManager;
 
 @optional
+- (_Bool);
+- (struct CGAffineTransform)A;
+- (void)`;
+- (void)A;
+- (UIView *);
 - (NSDictionary *)0@ù
 × ;
 - (void)ITextPosition"16q24;
 - (void)Range=QQ}32;
 - (struct CGRect)dentifier:contactProvider:groupMembersProvider:userInfo: /* Error: Ran out of types for this method. */;
-- (id <UISelectionInteractionAssistant>)belWithContentRect:labelRect: /* Error: Ran out of types for this method. */;
-- (_Bool)tion: /* Error: Ran out of types for this method. */;
+- (id <UISelectionInteractionAssistant>)layoutComposeFieldInfoLabelWithContentRect:labelRect: /* Error: Ran out of types for this method. */;
+- (_Bool)keyboardInputChangedSelection: /* Error: Ran out of types for this method. */;
 - (NSAttributedString *)xSet",&,N,V_deletedRows;
-- (void)_NAME;
+- (void)GROUP_NO_MEMBERS_NAME;
 - (UIView *)ÿ;
-- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RTIInputSystemSourceSession",?,R,N
-
-@property(nonatomic) _Bool _systemCursorAccessoriesDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long _textInputSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool automaticallyAdjustsWritingDirection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) long long cursorBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
-@property(nonatomic) long long selectionGranularity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool supportsEmojiImageTextAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImagePaste;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) id <UITextInputSuggestionDelegate> textInputSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UITextInputSuggestionDelegate>",?,R,N
-
 @end
 

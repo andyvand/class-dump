@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSString;
+@class NSString;
 
 @interface SecJWSDecoder
 {
     NSString *_keyID;
-    NSData *_payload;
-    NSData *_signature;
-    NSError *_verificationError;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)JKJ;
 - (id);
 - (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyID; // @synthesize keyID=_keyID;
-@property(readonly, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) NSError *verificationError; // @synthesize verificationError=_verificationError;
 
 @end
 

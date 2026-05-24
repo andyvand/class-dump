@@ -9,39 +9,27 @@
 @interface CKTapToRadarRequest
 {
     NSString *_title;
-    NSString *_radarDescription;
-    NSString *_uuid;
-    NSString *_componentName;
-    NSString *_componentVersion;
-    NSString *_componentID;
-    NSString *_relatedRadar;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void):(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)
 × ;
-- (void)Callbacks;
+- (void)CKFetchWhitelistedBundleIDsOperationCallbacks;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *componentID; // @synthesize componentID=_componentID;
-@property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(retain, nonatomic) NSString *componentVersion; // @synthesize componentVersion=_componentVersion;
-@property(retain, nonatomic) NSString *radarDescription; // @synthesize radarDescription=_radarDescription;
-@property(retain, nonatomic) NSString *relatedRadar; // @synthesize relatedRadar=_relatedRadar;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

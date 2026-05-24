@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface PHAPrivateFederatedLearningCoreModelTrainerResponse
 {
     NSData *_dataPackage;
-    NSDictionary *_trainingMetrics;
 }
 
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
-- (void)ationDeliveryDate: /* Error: Ran out of types for this method. */;
+- (void)asyncNotifyInterestingMemoryNotificationForColletionID:notificationDeliveryDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dataPackage; // @synthesize dataPackage=_dataPackage;
-@property(retain, nonatomic) NSDictionary *trainingMetrics; // @synthesize trainingMetrics=_trainingMetrics;
 
 @end
 

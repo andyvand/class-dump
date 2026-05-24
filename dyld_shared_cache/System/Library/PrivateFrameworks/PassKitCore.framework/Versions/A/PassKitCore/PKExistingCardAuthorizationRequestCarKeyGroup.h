@@ -11,8 +11,6 @@
 @interface PKExistingCardAuthorizationRequestCarKeyGroup : PKExistingCardAuthorizationRequestGroup
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_personalizedVehicleIdentifier;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -23,17 +21,15 @@
 - (id);
 - (id);
 - (id);
+- (id) ;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)isEnabled;
+- (void)?T;
 - (id);
 - (void)tPercentage:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) NSString *personalizedVehicleIdentifier; // @synthesize personalizedVehicleIdentifier=_personalizedVehicleIdentifier;
 
 @end
 

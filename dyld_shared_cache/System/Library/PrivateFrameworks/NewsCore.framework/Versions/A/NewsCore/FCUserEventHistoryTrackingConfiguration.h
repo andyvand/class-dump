@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)Jx;
 - (id);
 - (void);
-- (id);
-- (void)ponent;
+- (id)tent:(id)arg1 !1}:{nodeIsSignificantContent:!0,mayContainSignificantContent:!1}}; /* Error: Ran out of types for this method. */;
+- (void)safariPriorFactorExponent;
 
 // Remaining properties
 @property(retain, nonatomic) FCUserEventHistoryPruningPolicies *pruningPolicies; // @synthesize pruningPolicies=_pruningPolicies;

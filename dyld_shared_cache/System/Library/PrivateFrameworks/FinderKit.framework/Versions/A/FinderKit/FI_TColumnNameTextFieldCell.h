@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)preferredFontForTextStyle:(id)arg1 addingSymbolicTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)mui_prepareToLayoutSynchronously:(id)arg1;
+- (id)messageForSearchableItemIdentifier:(id)arg1;
+- (id)messageForSearchIndexerIdentifier: /* Error: Ran out of types for this method. */;
+- (id)mc_documentsDirectoryURL;
+- (id)Є;
 - (_Bool);
 - (_Bool);
 

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)_asrAssistantPolicy;
++ (id)_asHydrationContentType;
 
 @end
 

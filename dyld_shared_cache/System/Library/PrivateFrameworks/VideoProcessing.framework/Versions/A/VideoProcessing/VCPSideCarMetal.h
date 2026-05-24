@@ -4,42 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLLibrary, OS_dispatch_queue;
+@protocol MTLDevice;
 
 @interface VCPSideCarMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    _Bool _supportsSIMDPermute;
-    _Bool _supportsQuadPermute;
-    id <MTLComputePipelineState> _transitionDetection;
-    id <MTLComputePipelineState> _transitionDetectionUnorm;
-    id <MTLComputePipelineState> _blitKernel;
-    id <MTLComputePipelineState> _deblockLumaH;
-    id <MTLComputePipelineState> _deblockChromaH;
-    int _deblockBitdepth;
-    struct CF<__CVMetalTextureCache *> _textureCacheLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheChroma;
-    struct CF<__CVMetalTextureCache *> _textureCacheRGBALuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheRGBAChroma;
-    NSDictionary *_readAttributes;
-    NSDictionary *_writeAttributes;
-    NSDictionary *_readWriteAttributes;
-    struct MetalBufferPool _packetPool;
-    struct MetalBufferPool _blockDist;
-    NSObject<OS_dispatch_queue> *_submissionQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    unsigned int _planeOffset[4];
-    unsigned int _planeBytesPerRow[4];
-    int _priority;
 }
 
 - (id);
 - (id);
 - (future_1676b93f);
-- (int);
+- (int);
 - (void);
 - (int);
 - (id);
@@ -52,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (void);

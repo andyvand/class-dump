@@ -5,6 +5,8 @@
 //
 
 @protocol CALNNotificationManager
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isProtectedDataAvailable;

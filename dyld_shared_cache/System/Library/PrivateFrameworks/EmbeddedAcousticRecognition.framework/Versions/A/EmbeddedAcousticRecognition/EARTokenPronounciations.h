@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EARTokenPronounciations
 {
     NSString *_token;
-    NSArray *_pronunciations;
 }
 
 - (id);
-- (struct TokenProns);
+- (struct TokenProns);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *pronunciations; // @synthesize pronunciations=_pronunciations;
 @property(copy, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface AVTHUDView
 {
     UILabel *_totalLatencyLabel;
-    UILabel *_arKitLatencyLabel;
-    UILabel *_updateSyncLatencyLabel;
-    UILabel *_metalLatencyLabel;
-    UILabel *_fpsLabel;
-    UILabel *_audioTimeLabel;
-    UILabel *_timeBetweenARFrameLabel;
-    UILabel *_droppedFrameLabel;
-    UILabel *_shaderCompilationLabel;
-    CDStruct_53ba08a1 _lastFrameData;
-    CALayer *_arKitLatencyBar;
-    CALayer *_updateLatencyBar;
-    CALayer *_metalLatencyBar;
-    NSMutableArray *_totalLatencyGraphLayers;
-    int _selectedGraphIndex;
 }
 
 - (void);
@@ -31,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)child.heic;

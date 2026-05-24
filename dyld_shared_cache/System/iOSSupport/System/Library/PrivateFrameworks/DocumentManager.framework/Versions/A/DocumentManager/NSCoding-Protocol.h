@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)_updateSmartSelectionWithInput:(NSCoder *)arg1 modificationType:liveScrollOffset:completion: /* Error: Ran out of types for this method. */;
+- (void)containsString:(NSCoder *)arg1;
 @end
 

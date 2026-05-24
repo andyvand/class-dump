@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void);
+- (void)__DATA;
 - (id);
 - (id);
 - (id);
@@ -22,16 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSString *deploymentId;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *experimentId;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *treatmentId;
 
 @end
 

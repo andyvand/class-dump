@@ -23,7 +23,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)N14CoreNavigation3CLP8LogEntry16InternalToolData24GnssMsmtAnalysisToolData15GNSSSatelliteIDE;
 
 // Remaining properties
 @property(nonatomic) _Bool _registeredForScrollChangedNotification; // @synthesize _registeredForScrollChangedNotification=__registeredForScrollChangedNotification;

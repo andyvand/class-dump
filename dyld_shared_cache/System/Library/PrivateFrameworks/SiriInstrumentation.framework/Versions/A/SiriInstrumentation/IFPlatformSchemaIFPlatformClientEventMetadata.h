@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFPlatformSchemaIFPlatformClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifSessionId;
-    unsigned long long _postingSpanId;
-    CDStruct_b8d36928 _has;
-    _Bool _hasIfSessionId;
 }
 
 - (void);
@@ -23,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,8 +28,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)noLocationImageForWidth:height:andCompletion: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (id)LRouterBridgeFailed",&,N,V_failed;
@@ -40,11 +37,7 @@
 - (void)Ë#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfSessionId; // @synthesize hasIfSessionId=_hasIfSessionId;
-@property(nonatomic) _Bool hasPostingSpanId;
 @property(retain, nonatomic) SISchemaUUID *ifSessionId; // @synthesize ifSessionId=_ifSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long postingSpanId; // @synthesize postingSpanId=_postingSpanId;
 
 @end
 

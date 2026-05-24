@@ -5,5 +5,7 @@
 //
 
 @protocol NFXPCServiceClientDelegate
+- (void)kABGroupsSelectionChangedNotification;
+- (void)kABConverterCurrentRecordKey;
 @end
 

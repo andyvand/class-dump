@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFContact, WFEmailAddress, WFMessageGroup, WFPhoneNumber;
-
 @interface WFContactFieldEntry
 {
     long long _type;
-    WFContact *_contact;
-    WFPhoneNumber *_phoneNumber;
-    WFEmailAddress *_emailAddress;
-    NSString *_customHandle;
-    WFMessageGroup *_messageGroup;
 }
 
 + (id);

@@ -17,8 +17,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)		M	0	@	/	;
+- (_Bool)interrogative;
 - (void);
 - (id);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) HMImmutableSettingsProtoBoolValueEvent *value; // @synthesize value=_value;
 
 @end
 

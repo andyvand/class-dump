@@ -6,42 +6,31 @@
 
 #import <AnnotationKit/AKRectangularShapeAnnotation.h>
 
-@class NSString, UIBezierPath;
+@class UIBezierPath;
 
 @interface AKTriangleAnnotation : AKRectangularShapeAnnotation
 {
     _Bool _verticallyFlipped;
-    _Bool _horizontallyFlipped;
-    UIBezierPath *_path;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool)le.ee;
+- (void)oke;
+- (void)lass()_block_invoke;
+- (id);
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)P;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool horizontallyFlipped; // @synthesize horizontallyFlipped=_horizontallyFlipped;
 @property(retain) UIBezierPath *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property _Bool verticallyFlipped; // @synthesize verticallyFlipped=_verticallyFlipped;
 
 @end
 

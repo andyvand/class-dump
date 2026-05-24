@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAnalyticsEventTriggerData;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsAddEventTriggerData
 {
     int _requestOrigin;
-    unsigned int _resultErrorCode;
-    unsigned long long _timestamp;
-    HMDAnalyticsEventTriggerData *_eventTrigger;
 }
 
 - (void);
 - (void);
 - (int);
-- (unsigned int);
-- (void);
-- (id);
+- (unsigned int)domainLookupEndDate;
+- (void)skipEnrichment;
+- (id)passesFilteringWithAsset:curationContext:orientation:reason: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)initWithGroup:(unsigned long long)arg1 recordNames:resultBlock: /* Error: Ran out of types for this method. */;
 - (void)ÙV&Ý;
 
 // Remaining properties
-@property(retain, nonatomic) HMDAnalyticsEventTriggerData *eventTrigger; // @synthesize eventTrigger=_eventTrigger;
-@property int requestOrigin; // @synthesize requestOrigin=_requestOrigin;
-@property unsigned int resultErrorCode; // @synthesize resultErrorCode=_resultErrorCode;
 @property unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

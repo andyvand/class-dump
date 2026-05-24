@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface SPBeaconResult
 {
     _Bool _shouldBeacon;
-    NSDate *_nextStateChangeDate;
 }
 
 - (_Bool);
@@ -19,10 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *nextStateChangeDate; // @synthesize nextStateChangeDate=_nextStateChangeDate;
 @property(nonatomic) _Bool shouldBeacon; // @synthesize shouldBeacon=_shouldBeacon;
 
 @end

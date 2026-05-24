@@ -7,7 +7,10 @@
 @class NSExpression, NSString;
 
 @protocol PHObject
-+ (NSExpression *)ntsBackingSuggestion:(NSExpression *)arg1 options:(NSString *)arg2;
++ (_Bool);
++ (_Bool)home:didUpdateAudioAnalysisClassifierOptions: /* Error: Ran out of types for this method. */;
++ (NSString *)T;
++ (NSExpression *)fetchMomentsBackingSuggestion:(NSExpression *)arg1 options:(NSString *)arg2;
 + (_Bool)sitionScore;
 @end
 

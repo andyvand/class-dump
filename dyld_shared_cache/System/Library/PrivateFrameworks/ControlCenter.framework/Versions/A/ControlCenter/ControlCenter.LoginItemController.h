@@ -7,7 +7,6 @@
 @interface ControlCenter.LoginItemController
 {
     id loginItemList;
-    id loginItemQueue;
 }
 
 @end

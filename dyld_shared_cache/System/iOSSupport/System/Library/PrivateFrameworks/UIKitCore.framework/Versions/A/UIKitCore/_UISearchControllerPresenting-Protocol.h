@@ -12,27 +12,15 @@
 - (void)1f to %.1f;
 - (_Bool);
 - (_Bool)þÿ;
-- (unsigned long long)rAttenuation;
-- (double)ffset;
-- (struct CGRect)e;
+- (unsigned long long)blurAttenuation;
+- (double)explicitBaselineOffset;
+- (struct CGRect)UIScrollViewInteractionActivityTrackingBaseName;
 - (_Bool)e a dictionary from it. Ignoring action %@;
 - (UIPresentationController<_UISearchControllerPresenting> *)BarArrowDown.png;
-- (_Bool)ForHostedTabBar;
-- (_Bool)edLayoutHostingViewC;
+- (_Bool)ExtendContentViewForHostedTabBar;
+- (_Bool)So35_UIConstraintBasedLayoutHostingViewC;
 
 // Remaining properties
-@property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;
-@property(readonly, nonatomic) _Bool animatorShouldLayoutPresentationViews;
-@property(readonly, nonatomic) unsigned long long edgeForHidingNavigationBar;
-@property(readonly, nonatomic) struct CGRect finalFrameForContainerView;
-@property(readonly, nonatomic) _Bool forceObeyNavigationBarInsets;
-@property(readonly, nonatomic) double resultsControllerContentOffset;
-@property(readonly, nonatomic) _Bool resultsUnderlapsSearchBar;
-@property(readonly, nonatomic) _Bool searchBarCanContainScopeBar;
 @property(readonly, retain, nonatomic) UIView *searchBarContainerView;
-@property(readonly, nonatomic) _Bool searchBarShouldClipToBounds;
-@property(readonly, nonatomic) _Bool searchBarToBecomeTopAttached;
-@property(readonly, nonatomic) _Bool shouldAccountForStatusBar;
-@property(readonly, nonatomic) double statusBarAdjustment;
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol QLPreviewItem;
+
 @protocol QLPreviewMenuItemDelegate
+
+@optional
+- (_Bool);
+- (id <QLPreviewItem>);
 @end
 

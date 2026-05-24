@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLModel, NSData, NSString;
+@class NSString;
 
 @interface NLGazetteer
 {
     void *_gazetteer;
-    NLModel *_nlModel;
-    NSString *_language;
 }
 
 + (_Bool);
@@ -22,20 +20,19 @@
 - (id);
 - (void *);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)h;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)getActivePageInTab:(id)arg1 completionHandler:(id *)arg2;
 
 // Remaining properties
-@property(readonly, copy) NSData *data;
 @property(readonly, copy) NSString *language; // @synthesize language=_language;
 
 @end

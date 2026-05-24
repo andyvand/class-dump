@@ -4,40 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock, _PASSqliteDatabase;
+@class _PASSqliteDatabase;
 
 @interface SGMIDomainCountingTable
 {
     _PASSqliteDatabase *_db;
-    NSString *_tableName;
-    NSString *_tableNameEscaped;
-    _PASLock *_lock;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)(;
++ (id)tableViewColumnDidResize:(id)arg1;
++ (id)tableView:(id)arg1 writeRowsWithIndexes:(id)arg2 toPasteboard: /* Error: Ran out of types for this method. */;
++ (void)setUiDataclasses:(id)arg1;
++ (id)erLogo;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)T;
+- (id)Canadian_Aboriginal;
+- (id)Common;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void)__const;
 - (void);
+- (void)__AUTH_CONST;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)l;
 - (long long);
 - (void);
 - (void);

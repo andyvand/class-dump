@@ -7,15 +7,6 @@
 @interface PhotosUICore.LemonadeAccountViewModel
 {
     id photoLibrary;
-    id photoLibraryContext;
-    id footerViewModel;
-    id footerViewModelController;
-    id $__lazy_storage_$_notificationsShelfViewModel;
-    id $__lazy_storage_$_shelvesViewModel;
-    id $__lazy_storage_$_featureLibrary;
-    id _scrollTargetIdentifier;
-    id _scrollAnimationDuration;
-    id _$observationRegistrar;
 }
 
 @end

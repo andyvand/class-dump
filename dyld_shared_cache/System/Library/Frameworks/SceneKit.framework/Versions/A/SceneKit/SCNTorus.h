@@ -9,11 +9,6 @@
 @interface SCNTorus : SCNGeometry
 {
     double _torusringRadius;
-    double _toruspipeRadius;
-    double _torusradialSpan;
-    long long _torusringSegmentCount;
-    long long _toruspipeSegmentCount;
-    long long _torusprimitiveType;
 }
 
 + (id);
@@ -22,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (double);
-- (double);
+- (double);
 - (id);
 - (long long);
 - (double);
@@ -37,12 +32,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id)pler0, TexCoord+offsets[i]);
@@ -56,10 +51,7 @@
 };
 
 // Remaining properties
-@property(nonatomic) double pipeRadius;
-@property(nonatomic) long long pipeSegmentCount;
 @property(nonatomic) double ringRadius;
-@property(nonatomic) long long ringSegmentCount;
 
 @end
 

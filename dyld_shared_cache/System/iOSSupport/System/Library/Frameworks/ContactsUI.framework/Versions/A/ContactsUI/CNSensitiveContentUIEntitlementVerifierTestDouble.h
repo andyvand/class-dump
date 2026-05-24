@@ -8,20 +8,18 @@ __attribute__((visibility("hidden")))
 @interface CNSensitiveContentUIEntitlementVerifierTestDouble
 {
     _Bool _canShowSensitiveUI;
-    _Bool _hasCommunicationFilterEntitlements;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool canShowSensitiveUI; // @synthesize canShowSensitiveUI=_canShowSensitiveUI;
-@property(nonatomic) _Bool hasCommunicationFilterEntitlements; // @synthesize hasCommunicationFilterEntitlements=_hasCommunicationFilterEntitlements;
 
 @end
 

@@ -6,35 +6,32 @@
 
 #import <ChatKit/CKStampLabelChatItem.h>
 
-@class CKTranscriptReportSpamCell, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKReportSpamChatItem : CKStampLabelChatItem
 {
     NSAttributedString *_transcriptButtonText;
-    CKTranscriptReportSpamCell *_sizingCell;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)setAppearance:(_Bool)arg1;
+- (id)rangeInOriginalStringCorrespondingToRange: /* Error: Ran out of types for this method. */;
+- (id)isAccessibilityFocused;
+- (void)ic_addDidMoveToWindowHandler:(id)arg1;
+- (void)formUnionWithCharacterSet:(id)arg1;
+- (id);
 - (struct CGSize);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)g;
 - (_Bool);
 - (Class);
 - (unsigned long long)@?48;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *internalPhishingWarning;
-@property(copy, nonatomic) CKTranscriptReportSpamCell *sizingCell; // @synthesize sizingCell=_sizingCell;
 @property(copy, nonatomic) NSAttributedString *transcriptButtonText; // @synthesize transcriptButtonText=_transcriptButtonText;
 
 @end

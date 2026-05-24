@@ -7,8 +7,6 @@
 @interface FPAuxData
 {
     _Bool _aggregate;
-    long long _value;
-    CDUnknownBlockType _formatter;
 }
 
 - (_Bool);
@@ -20,17 +18,11 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (CDUnknownBlockType);
-- (void);
+- (long long);
+- (CDUnknownBlockType)ng"16;
+- (void)period;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=shouldAggregate) _Bool aggregate; // @synthesize aggregate=_aggregate;
-@property(readonly, nonatomic) const char *formattedValue;
-@property(copy, nonatomic) CDUnknownBlockType formatter; // @synthesize formatter=_formatter;
-@property(readonly, nonatomic) _Bool fp_isContainer;
-@property(readonly, nonatomic) id fp_jsonRepresentation;
-@property(readonly, nonatomic) _Bool supportsFormattedValue;
 @property(readonly, nonatomic) long long value; // @synthesize value=_value;
 
 @end

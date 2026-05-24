@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStorySongResource;
-
 @interface PXStoryExportAudioOptions
 {
     unsigned long long _outputType;
-    id <PXStorySongResource> _initialSongResource;
-    id <PXStorySongResource> _exportSongResource;
 }
 
 + (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -26,12 +22,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id)emLayout:(struct _NSZone *)arg1 shouldAutoplayContent:videoTimeRange: /* Error: Ran out of types for this method. */;
+- (id)setItemLayout:(struct _NSZone *)arg1 shouldAutoplayContent:videoTimeRange: /* Error: Ran out of types for this method. */;
 - (void)ÀÐÉ;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXStorySongResource> exportSongResource; // @synthesize exportSongResource=_exportSongResource;
-@property(readonly, nonatomic) id <PXStorySongResource> initialSongResource; // @synthesize initialSongResource=_initialSongResource;
 @property(nonatomic) unsigned long long outputType; // @synthesize outputType=_outputType;
 
 @end

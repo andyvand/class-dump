@@ -14,23 +14,23 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (_Bool);
 - (struct CGPoint);
+- (double)T;
 - (double);
-- (double);
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (struct CGSize);
-- (double);
+- (struct CGPoint)pam:not checking sms spam, chat is not filtered:%@ /* Error: Ran out of types for this method. */;
+- (id)up pipeline for junk chat command received fromID:%@,  /* Error: Ran out of types for this method. */;
+- (struct CGPoint)%@ with error:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)sFiltered:(id)arg1 %d hasHadSuccessfulQuery:(id)arg2 %@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)essedHandle:(unsigned long long)arg1 %@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (double)ount:(unsigned long long)arg1 %d  Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)@ Style:(id)arg1 %c State:(id)arg2 %d Participants:%@  Room Name:%@  Display Name:%@  Identifier:%@  Unread count:%d  Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)requestedDowngradeExpirationDate;
+- (double)downloadingPendingSatelliteMessages;
+- (id)-mmcs-download;
+- (struct CGPoint)BlastDoorTextMessage;
+- (struct CGPoint)IMDRelayErrorChatForOutgoingMessageServiceSessionKey;
+- (double)IMDRelayErrorChatForOutgoingMessageServiceKey;
+- (struct CGSize)torage.mobileBackupStateChange;
+- (double);
 - (id);
 - (double);
 - (double);
@@ -39,10 +39,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)I;
 - (id)!ÜCù1eð1Â0@ù
 × ;
-- (double)CenterXConstraint;
+- (double)labelContainerCenterXConstraint;
 - (struct CGPoint)Á;
 
 @end

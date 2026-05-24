@@ -11,35 +11,31 @@
 @interface _NSToolbarSpace : NSView
 {
     NSToolbarSpaceItem *_spaceItem;
-    _Bool _inPalette;
-    unsigned long long _controlSize;
 }
 
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)etrieve data %@:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (struct __CFString *);
-- (Class);
+- (_Bool)esponse"32@?<v@?B@"NSDictionary"@"NSURLRequest">40;
+- (void)"24@"NSError"32;
+- (struct __CFString *)dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (Class)_disavow;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)setShowHiddenFiles: /* Error: Ran out of types for this method. */;
 - (void)%1$@ untitled %2$@ documents. Do you want to review these documents before quitting?;
-- (void)yleAutomatic;
+- (void)NSSegmentStyleAutomatic;
 
 // Remaining properties
-@property unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property _Bool inPalette;
-@property __weak NSToolbarSpaceItem *spaceItem; // @synthesize spaceItem=_spaceItem;
 
 @end
 

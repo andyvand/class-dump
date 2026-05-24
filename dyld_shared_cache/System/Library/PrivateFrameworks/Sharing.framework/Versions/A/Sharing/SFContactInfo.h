@@ -9,25 +9,21 @@
 @interface SFContactInfo
 {
     NSString *_contactIdentifier;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (id)X;
+- (void)@	;
 - (id);
 - (void);
 - (void)<Èÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

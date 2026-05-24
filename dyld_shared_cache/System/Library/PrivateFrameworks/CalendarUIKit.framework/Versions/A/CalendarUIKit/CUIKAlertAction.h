@@ -9,8 +9,6 @@
 @interface CUIKAlertAction
 {
     NSString *_title;
-    long long _style;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
@@ -18,11 +16,9 @@
 - (long long);
 - (CDUnknownBlockType);
 - (id);
-- (void)ringWithAutoCommentRemoved: /* Error: Ran out of types for this method. */;
+- (void)stringWithAutoCommentRemoved: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

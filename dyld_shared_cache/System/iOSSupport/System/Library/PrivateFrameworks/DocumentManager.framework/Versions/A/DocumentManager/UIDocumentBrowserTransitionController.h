@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItem, NSOperationQueue, NSProgress, NSString, NSURL, UIView;
-@protocol DOCServiceDocumentBrowserViewControllerInterface, DOCServiceTransitionProtocol;
+@class FPItem, NSURL;
 
 @interface UIDocumentBrowserTransitionController
 {
     FPItem *_item;
-    id <DOCServiceDocumentBrowserViewControllerInterface> _serviceDocumentBrowserProxy;
-    UIView *_referenceView;
-    _Bool _transitionDidFinish;
-    _Bool _encounteredUnrecoverableError;
-    _Bool _shouldStopObservingProgress;
-    NSProgress *_loadingProgress;
-    UIView *_targetView;
-    NSURL *_itemURL;
-    id <DOCServiceTransitionProtocol> _transitionController;
-    NSOperationQueue *_transitionControllerQueue;
 }
 
 - (_Bool);
@@ -38,32 +27,18 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)e_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON m.ROWID = j.message_id INNER JOIN chat c ON c.ROWID = j.chat_id WHERE c.chat_identifier = ? AND m.item_type = 0 AND m.is_system_message = 0 AND m.is_read == 1 AND is_from_me == 0 AND is_finished == 1 ORDER BY m.date DESC LIMIT 1;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)MFComposeRecipientStringMatchAddress;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool encounteredUnrecoverableError; // @synthesize encounteredUnrecoverableError=_encounteredUnrecoverableError;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *itemURL; // @synthesize itemURL=_itemURL;
-@property(retain, nonatomic) NSProgress *loadingProgress; // @synthesize loadingProgress=_loadingProgress;
-@property _Bool shouldStopObservingProgress; // @synthesize shouldStopObservingProgress=_shouldStopObservingProgress;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *targetView; // @synthesize targetView=_targetView;
-@property(retain, nonatomic) id <DOCServiceTransitionProtocol> transitionController; // @synthesize transitionController=_transitionController;
-@property(retain, nonatomic) NSOperationQueue *transitionControllerQueue; // @synthesize transitionControllerQueue=_transitionControllerQueue;
-@property _Bool transitionDidFinish; // @synthesize transitionDidFinish=_transitionDidFinish;
 
 @end
 

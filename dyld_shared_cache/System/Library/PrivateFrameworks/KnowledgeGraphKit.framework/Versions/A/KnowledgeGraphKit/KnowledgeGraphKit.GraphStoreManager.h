@@ -7,16 +7,6 @@
 @interface KnowledgeGraphKit.GraphStoreManager
 {
     id $defaultActor;
-    id url;
-    id readRunningCount;
-    id readFeeding;
-    id closed;
-    id readStoreBooking;
-    id readOnlyStores;
-    id readWriteStore;
-    id executionQueue;
-    id readFeederQueue;
-    id writeFeederQueue;
 }
 
 @end

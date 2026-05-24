@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
+- (id)resourceLoader:(id)arg1 shouldWaitForLoadingOfRequestedResource: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)sound-identifier;
 
 @end
 

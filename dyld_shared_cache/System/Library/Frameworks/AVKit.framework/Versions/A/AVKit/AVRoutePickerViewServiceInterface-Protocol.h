@@ -7,13 +7,12 @@
 @class AVOutputContext;
 
 @protocol AVRoutePickerViewServiceInterface
+- (void);
+- (long long);
 - (AVOutputContext *)ectionButtonViewControllerDelegate>",W,N,V_delegate;
 - (void).;
 
 // Remaining properties
 @property(retain, nonatomic) AVOutputContext *outputContext;
-@property(nonatomic) _Bool prioritizesVideoDevices;
-@property(nonatomic) _Bool revealsAllRoutes;
-@property(nonatomic) long long routingMethod;
 @end
 

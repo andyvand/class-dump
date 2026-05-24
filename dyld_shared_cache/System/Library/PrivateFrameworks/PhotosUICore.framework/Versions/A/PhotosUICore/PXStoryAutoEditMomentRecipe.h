@@ -7,23 +7,17 @@
 @interface PXStoryAutoEditMomentRecipe
 {
     unsigned long long _recipeType;
-    CDStruct_b8e7e30c _motion;
-    CDStruct_618113c1 _incomingTransition;
-    CDStruct_618113c1 _innerTransition;
 }
 
 - (id);
-- (CDStruct_618113c1);
-- (CDStruct_618113c1);
+- (CDStruct_4ae65f2e);
+- (CDStruct_4ae65f2e);
 - (unsigned long long);
-- (CDStruct_b8e7e30c);
+- (CDStruct_412fc33d);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_618113c1 incomingTransition; // @synthesize incomingTransition=_incomingTransition;
-@property(readonly, nonatomic) CDStruct_618113c1 innerTransition; // @synthesize innerTransition=_innerTransition;
-@property(readonly, nonatomic) CDStruct_b8e7e30c motion; // @synthesize motion=_motion;
 @property(readonly, nonatomic) unsigned long long recipeType; // @synthesize recipeType=_recipeType;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer;
+@class NSObject, NSTimer;
 @protocol OS_dispatch_queue;
 
 @interface PKTextInputAnalyticsController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _lastEventSource;
-    unsigned long long _lastEventSourceChangeTimestamp;
-    unsigned long long _eventSourceUsage[9];
-    long long _lastActivePencilType;
-    double _activePencilUsage;
-    NSTimer *_eventSourceTimer;
 }
 
 + (void);
@@ -35,17 +29,10 @@
 - (void);
 - (void);
 - (id);
-- (void)straint: /* Error: Ran out of types for this method. */;
+- (void)setScrollViewCenterXConstraint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSTimer *eventSourceTimer; // @synthesize eventSourceTimer=_eventSourceTimer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (IMTapbackSender)
 - (id);
-- (id);
+- (id);
 @end
 

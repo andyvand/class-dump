@@ -6,15 +6,11 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class CNContact, LPLinkView, NSString, TUConversation, UILabel;
+@class TUConversation;
 
 @interface CKDetailsExpanseActivityCell : CKDetailsCell
 {
     _Bool _isScreenShare;
-    TUConversation *_conversation;
-    LPLinkView *_lpLinkView;
-    UILabel *_activityDescriptionLabel;
-    CNContact *_contactSharingScreen;
 }
 
 + (_Bool);
@@ -23,17 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)n;
 - (_Bool);
 - (double);
 - (id);
-- (void);
-- (id);
+- (void)l;
+- (id)ount Required;
 - (double);
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (id)1Â0@ù
@@ -41,18 +37,7 @@
 - (void)BlockButton;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *activityDescriptionLabel; // @synthesize activityDescriptionLabel=_activityDescriptionLabel;
-@property(retain, nonatomic) CNContact *contactSharingScreen; // @synthesize contactSharingScreen=_contactSharingScreen;
 @property(retain, nonatomic) TUConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isScreenShare; // @synthesize isScreenShare=_isScreenShare;
-@property(retain, nonatomic) LPLinkView *lpLinkView; // @synthesize lpLinkView=_lpLinkView;
-@property(readonly) Class superclass;
 
 @end
 

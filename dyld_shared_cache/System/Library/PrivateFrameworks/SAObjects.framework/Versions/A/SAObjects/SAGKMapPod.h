@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKPodView.h>
 
-@class NSNumber, SALocation, SAUIAppPunchOut;
+@class SALocation;
 
 @interface SAGKMapPod : SAGKPodView
 {
@@ -23,14 +23,11 @@
 - (id);
 - (void)áÇ%!Bù±n)1Â0@ù
 × ;
-- (id)ceIndex: /* Error: Ran out of types for this method. */;
+- (id)setUtteranceIndex: /* Error: Ran out of types for this method. */;
 - (void)¶5;
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *location;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
-@property(copy, nonatomic) NSNumber *showButton;
-@property(copy, nonatomic) NSNumber *zoomLevel;
 
 @end
 

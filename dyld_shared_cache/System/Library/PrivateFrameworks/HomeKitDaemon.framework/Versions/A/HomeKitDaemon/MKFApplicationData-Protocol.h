@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFApplicationDataDatabaseID, NSDate, NSDictionary;
-@protocol MKFAccessory, MKFActionSet, MKFHome, MKFRoom, MKFService, MKFServiceGroup;
+@class NSDictionary;
+@protocol MKFHome, MKFRoom;
 
 @protocol MKFApplicationData
+- (id <MKFRoom>);
 - (id <MKFHome>);
 - (NSDictionary *)¸ÿ$;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAccessory> accessory;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
 @property(retain, nonatomic) NSDictionary *appDataDictionary;
-@property(readonly, copy, nonatomic) MKFApplicationDataDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(readonly, retain, nonatomic) id <MKFRoom> room;
-@property(readonly, retain, nonatomic) id <MKFService> service;
-@property(readonly, retain, nonatomic) id <MKFServiceGroup> serviceGroup;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

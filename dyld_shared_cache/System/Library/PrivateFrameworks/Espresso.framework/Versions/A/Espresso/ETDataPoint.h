@@ -7,14 +7,13 @@
 @interface ETDataPoint
 {
     map_cbeaf817 image_buffers;
-    struct map<std::string, ETDataPoint_buffer, std::less<std::string>, std::allocator<std::pair<const std::string, ETDataPoint_buffer>>> buffers;
 }
 
 - (void);
 - (void);
 - (void);
 - (struct vImage_Buffer);
-- (unordered_map_15d4c443);
+- (unordered_map_bc276792);
 - (float *);
 - (void);
 - (id);

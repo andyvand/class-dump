@@ -9,32 +9,28 @@
 @interface IMBalloonPluginAttributionController
 {
     _Bool _hasPerformedFirstAppExtensionLoad;
-    NSMutableDictionary *_expiredBundleIDToTimestampMap;
-    NSMutableDictionary *_bundleIDsDisplayingAttribution;
 }
 
 + (id)Ìÿÿ§r;
+- (void);
+- (_Bool)>e;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)˿;
 - (id);
 - (void);
 - (void);
 - (void);
 - (double);
 - (void);
+- (id)loc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)tedEmptyAccountParticipant;
+- (void)hasExportedEmptyAccountParticipant;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *bundleIDsDisplayingAttribution; // @synthesize bundleIDsDisplayingAttribution=_bundleIDsDisplayingAttribution;
 @property(retain, nonatomic) NSMutableDictionary *expiredBundleIDToTimestampMap; // @synthesize expiredBundleIDToTimestampMap=_expiredBundleIDToTimestampMap;
-@property(nonatomic) _Bool hasPerformedFirstAppExtensionLoad; // @synthesize hasPerformedFirstAppExtensionLoad=_hasPerformedFirstAppExtensionLoad;
 
 @end
 

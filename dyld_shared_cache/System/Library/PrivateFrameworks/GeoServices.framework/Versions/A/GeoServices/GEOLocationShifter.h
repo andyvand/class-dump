@@ -4,58 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface GEOLocationShifter
 {
     _Bool _isRequestingShiftFunction;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_locationsToShift;
-    NSCache *_shiftFunctionCache;
-    int _resetPrivacyToken;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (unsigned int);
-+ (_Bool);
++ (_Bool)(=;
 + (_Bool);
 + (id);
 + (void)°pYþÿÿÿÿ;
-+ (Class)ed_directions_metadata;
++ (Class)redacted_directions_metadata;
 + (void)nt().;
 + (void)IøP@;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)ɶ;
+- (_Bool)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void)@;
+- (id)]_block_invoke;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)tination:(id)arg1;
+- (void)addPredictedDestination:(id)arg1;
 - (void)\iøjDk;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool locationShiftEnabled;
-@property(readonly) Class superclass;
 
 @end
 

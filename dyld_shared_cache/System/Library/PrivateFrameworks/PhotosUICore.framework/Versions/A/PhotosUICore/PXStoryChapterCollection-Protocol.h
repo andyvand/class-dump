@@ -5,6 +5,7 @@
 //
 
 @protocol PXStoryChapterCollection
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long numberOfChapters;

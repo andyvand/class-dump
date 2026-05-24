@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDThreadSafeMessageDictionaryMapper, _IMDAggregateMessageIndexingJob;
-
 @interface _IMDBatchFetchingMessageIndexingJob
 {
     _Bool _runsOneBatch;
-    _Bool _processedAnything;
-    _IMDAggregateMessageIndexingJob *_job;
-    IMDThreadSafeMessageDictionaryMapper *_mapper;
 }
 
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,10 +20,7 @@
 - (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) _IMDAggregateMessageIndexingJob *job; // @synthesize job=_job;
-@property(readonly, nonatomic) IMDThreadSafeMessageDictionaryMapper *mapper; // @synthesize mapper=_mapper;
 @property(nonatomic) _Bool processedAnything; // @synthesize processedAnything=_processedAnything;
-@property(nonatomic) _Bool runsOneBatch; // @synthesize runsOneBatch=_runsOneBatch;
 
 @end
 

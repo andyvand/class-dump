@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeActivityStateSchedule, NSDate, NSDictionary, NSMutableDictionary, NSString;
-@protocol HMDHomeActivityStateAggregatorStateChangeDelegate, HMDHomeActivityStateAggregatorStorage, HMDHomeActivityStateManagerDataSource;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateAggregator
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_userActivityMap;
-    _Bool _configured;
-    id <HMDHomeActivityStateAggregatorStateChangeDelegate> _stateChangeDelegate;
-    id <HMDHomeActivityStateAggregatorStorage> _storage;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    HMDHomeActivityStateSchedule *_homeActivityStateSchedule;
 }
 
 + (unsigned long long);
 + (id)fE;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)T@"<MSPSharedTripAvailabiltyDelegate>",W,N,V_availabilityDelegate;
+- (id);
+- (void)entifiers %@:error:%@ /* Error: Ran out of types for this method. */;
+- (id)updates sent at all yet;
 - (_Bool);
 - (id);
 - (id);
@@ -35,31 +26,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)terval"16@0:(CDUnknownBlockType)arg1 8;
+- (void)requestSynonymsDictionaries;
+- (id)_settlingEffectEnabled;
 - (_Bool);
 - (id);
 - (id);
 - (id)n value:%@ is not a number for integer setting:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)rs;
+- (void)operationIdentifiers;
 
 // Remaining properties
 @property(nonatomic, getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDHomeActivityStateSchedule *homeActivityStateSchedule; // @synthesize homeActivityStateSchedule=_homeActivityStateSchedule;
-@property(readonly) NSDate *nextRefreshTimestamp;
-@property(readonly, copy, nonatomic) NSDictionary *rawUserActivityMap;
-@property(nonatomic) __weak id <HMDHomeActivityStateAggregatorStateChangeDelegate> stateChangeDelegate; // @synthesize stateChangeDelegate=_stateChangeDelegate;
-@property(readonly, nonatomic) id <HMDHomeActivityStateAggregatorStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *userActivityMap;
 
 @end
 

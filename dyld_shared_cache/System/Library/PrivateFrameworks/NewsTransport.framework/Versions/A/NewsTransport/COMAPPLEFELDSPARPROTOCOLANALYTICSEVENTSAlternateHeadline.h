@@ -7,34 +7,29 @@
 @interface COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSAlternateHeadline
 {
     int _articleHeadlineTreatmentId;
-    int _articleHeadlineTreatmentState;
-    CDStruct_762d0caf _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (int);
-- (id);
-- (void);
+- (void)_transormClips:(_Bool)arg1 frames:count:transformHandler:resultHandler: /* Error: Ran out of types for this method. */;
+- (void)_transitionToState:(_Bool)arg1;
+- (void)_swapBaseZPositions;
+- (void)_suppressUnsupportedTransitionErrors;
+- (_Bool)_recipients;
+- (_Bool)_recipeType;
+- (id)_playbackEndDarkeningAnimator;
+- (int)_playbackEndDarkening;
+- (int)_playbackEndButtonSystemImageWeight;
+- (int)_occlusionSizeForSize:(id)arg1 kind:size:containerRect:stylePairing:extendedTraitCollectionSnapshot:fixedBottomPadding:isVerticalText:isKashida: /* Error: Ran out of types for this method. */;
+- (id)a;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 
 // Remaining properties
-@property(nonatomic) int articleHeadlineTreatmentId; // @synthesize articleHeadlineTreatmentId=_articleHeadlineTreatmentId;
-@property(nonatomic) int articleHeadlineTreatmentState; // @synthesize articleHeadlineTreatmentState=_articleHeadlineTreatmentState;
-@property(nonatomic) _Bool hasArticleHeadlineTreatmentId;
 @property(nonatomic) _Bool hasArticleHeadlineTreatmentState;
 
 @end

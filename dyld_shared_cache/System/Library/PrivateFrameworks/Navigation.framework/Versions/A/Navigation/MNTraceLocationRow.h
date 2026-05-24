@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNLocation, MNLocationMatchInfo, NSError, NSString;
-
 @interface MNTraceLocationRow
 {
     double _timestamp;
-    MNLocation *_location;
-    NSError *_error;
-    MNLocationMatchInfo *_matchInfo;
-    double _correctedCourse;
-    long long _locationEventType;
-    unsigned long long _originalMatchType;
-    CDStruct_2c43369c _correctedCoordinate;
 }
 
 - (void);
@@ -27,7 +18,7 @@
 - (void);
 - (CDStruct_c3b9c2ee);
 - (id);
-- (double);
+- (double)(;
 - (id);
 - (double);
 - (void);
@@ -39,22 +30,7 @@
 - (void).	;
 
 // Remaining properties
-@property(nonatomic) CDStruct_c3b9c2ee correctedCoordinate; // @synthesize correctedCoordinate=_correctedCoordinate;
-@property(nonatomic) double correctedCourse; // @synthesize correctedCourse=_correctedCourse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MNLocation *location; // @synthesize location=_location;
-@property(nonatomic) long long locationEventType; // @synthesize locationEventType=_locationEventType;
-@property(retain, nonatomic) MNLocationMatchInfo *matchInfo; // @synthesize matchInfo=_matchInfo;
-@property(nonatomic) unsigned long long originalMatchType; // @synthesize originalMatchType=_originalMatchType;
 @property(readonly, nonatomic) double position;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

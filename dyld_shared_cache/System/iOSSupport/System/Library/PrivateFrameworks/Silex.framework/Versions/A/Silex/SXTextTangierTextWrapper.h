@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface SXTextTangierTextWrapper
 {
     NSArray *_exclusionPaths;
-    NSMutableArray *_tangierExclusionPaths;
-    struct CGAffineTransform _canvasSpaceToWrapSpace;
-    struct CGAffineTransform _wrapSpaceToCanvasSpace;
 }
 
 - (struct CGAffineTransform);
@@ -30,15 +27,12 @@
 - (struct CGAffineTransform);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)ï°1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform canvasSpaceToWrapSpace; // @synthesize canvasSpaceToWrapSpace=_canvasSpaceToWrapSpace;
-@property(retain, nonatomic) NSArray *exclusionPaths; // @synthesize exclusionPaths=_exclusionPaths;
-@property(retain, nonatomic) NSMutableArray *tangierExclusionPaths; // @synthesize tangierExclusionPaths=_tangierExclusionPaths;
-@property(nonatomic) struct CGAffineTransform wrapSpaceToCanvasSpace; // @synthesize wrapSpaceToCanvasSpace=_wrapSpaceToCanvasSpace;
 
 @end
 

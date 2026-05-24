@@ -15,18 +15,17 @@
 + (id);
 - (long long);
 - (void);
+- (void)`;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)setAccessibilityElement:(id)arg1;
 - (id);
 - (_Bool);
 - (long long);
 - (void)eferenceV10CodingKeys33_AA1B91F0937C1B1125C44D1481880704LLO;
 
 // Remaining properties
-@property(nonatomic) long long composeMode;
 @property(readonly, copy, nonatomic) NSString *trashMailboxName;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFFactItemHeroNumberCardSection
 {
     _SFPBRFTextProperty *_number;
-    _SFPBRFTextProperty *_unit;
-    NSArray *_text_2s;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFTextProperty *_text_5;
 }
 
 - (id);
@@ -22,6 +17,7 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -30,8 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -42,28 +37,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)queryForAssetsInLibraryScope:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)ension for %@;
 - (id);
 - (id);
 - (void)"RFPrimaryHeaderStackedImageCardSection"16;
 - (id)<;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number; // @synthesize number=_number;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *text_2s; // @synthesize text_2s=_text_2s;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5; // @synthesize text_5=_text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *unit; // @synthesize unit=_unit;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface ICRemoteFileWrapper
 {
     NSURL *_remoteURL;
-    NSData *_cachedData;
 }
 
 + (_Bool);
@@ -22,7 +21,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (id);
 - (id);
 - (id);
@@ -30,17 +29,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)drmRogueTaskConfiguration;
 - (id);
 - (void)4;
 - (id)count;
 - (id)9Ë;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cachedData; // @synthesize cachedData=_cachedData;
 @property(retain, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
 
 @end

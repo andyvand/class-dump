@@ -7,8 +7,6 @@
 @interface NewsUI2.AppIntentsAppDependencyStartupTask
 {
     id executionPhase;
-    id appDependencyManager;
-    id resolver;
 }
 
 @end

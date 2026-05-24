@@ -4,57 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
-
 @interface RTTripCluster
 {
     _Bool _isLocked;
-    short _clusterOrder;
-    int _countOfTraversal;
-    int _countOfBikeTraversal;
-    int _countOfWalkTraversal;
-    NSUUID *_clusterID;
-    NSUUID *_commuteID;
-    double _startLatitude;
-    double _startLongitude;
-    double _endLatitude;
-    double _endLongitude;
-    long long _modeOfTransport;
-    NSDate *_lastTimeTaken;
-    double _minTripTime;
-    double _maxTripTime;
-    double _avgTripTime;
-    double _minTripDistance;
-    double _maxTripDistance;
-    double _avgTripDistance;
-    double _avgBikeDistance;
-    double _avgBikeTime;
-    double _avgWalkDistance;
-    double _avgWalkTime;
 }
 
-+ (id);
-+ (id);
++ (id)atch dsid;
++ (id)generate a PDP password change blob when walrus is on;
 + (id);
 + (_Bool);
-- (void);
+- (void);
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double);
 - (double);
-- (double);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (double);
@@ -63,25 +39,25 @@
 - (int);
 - (int);
 - (short);
-- (double);
-- (double);
-- (double);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
+- (double)setPosition: /* Error: Ran out of types for this method. */;
+- (double)setPdpState: /* Error: Ran out of types for this method. */;
+- (double)setObservers: /* Error: Ran out of types for this method. */;
+- (void)ill;
+- (double)doll;
+- (double)divorce;
+- (void)better;
+- (void)bench;
+- (void)assist;
+- (void)ask;
+- (double)abandon;
+- (double)TRANSACTION;;
+- (double)R NOT NULL,publicIdentity BLOB );CREATE TABLE IF NOT EXISTS SyncedKeys ( deviceNumber INTEGER NOT NULL, pubkeyNumber INTEGER NOT NULL, current INTEGER DEFAULT 0, PRIMARY KEY (deviceNumber,pubkeyNumber) ) ;CREATE TABLE IF NOT EXISTS EscrowedKeys ( publicKey TEXT PRIMARY KEY NOT NULL, escrow BLOB,dsid TEXT NOT NULL );CREATE TRIGGER IF NOT EXISTS removeSyncedKeys DELETE ON SyncDevices    FOR EACH ROW BEGIN        DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.deviceNumber ;    END  ; CREATE TRIGGER IF NOT EXISTS removeMirrorKeys DELETE ON MirrorKeys    FOR EACH ROW BEGIN        DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
 - (id);
-- (long long);
+- (long long)BluetoothHCICommandReadVoiceSetting;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)defaults:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -90,36 +66,7 @@
 - (void)sitive}@;
 
 // Remaining properties
-@property(nonatomic) double avgBikeDistance; // @synthesize avgBikeDistance=_avgBikeDistance;
-@property(nonatomic) double avgBikeTime; // @synthesize avgBikeTime=_avgBikeTime;
-@property(nonatomic) double avgTripDistance; // @synthesize avgTripDistance=_avgTripDistance;
-@property(nonatomic) double avgTripTime; // @synthesize avgTripTime=_avgTripTime;
-@property(nonatomic) double avgWalkDistance; // @synthesize avgWalkDistance=_avgWalkDistance;
-@property(nonatomic) double avgWalkTime; // @synthesize avgWalkTime=_avgWalkTime;
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(nonatomic) short clusterOrder; // @synthesize clusterOrder=_clusterOrder;
-@property(readonly, nonatomic) NSUUID *commuteID; // @synthesize commuteID=_commuteID;
-@property(nonatomic) int countOfBikeTraversal; // @synthesize countOfBikeTraversal=_countOfBikeTraversal;
-@property(nonatomic) int countOfTraversal; // @synthesize countOfTraversal=_countOfTraversal;
-@property(nonatomic) int countOfWalkTraversal; // @synthesize countOfWalkTraversal=_countOfWalkTraversal;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double endLatitude; // @synthesize endLatitude=_endLatitude;
-@property(readonly, nonatomic) double endLongitude; // @synthesize endLongitude=_endLongitude;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLocked; // @synthesize isLocked=_isLocked;
-@property(copy, nonatomic) NSDate *lastTimeTaken; // @synthesize lastTimeTaken=_lastTimeTaken;
-@property(nonatomic) double maxTripDistance; // @synthesize maxTripDistance=_maxTripDistance;
-@property(nonatomic) double maxTripTime; // @synthesize maxTripTime=_maxTripTime;
-@property(nonatomic) double minTripDistance; // @synthesize minTripDistance=_minTripDistance;
-@property(nonatomic) double minTripTime; // @synthesize minTripTime=_minTripTime;
-@property(nonatomic) long long modeOfTransport; // @synthesize modeOfTransport=_modeOfTransport;
-@property(readonly, nonatomic) double startLatitude; // @synthesize startLatitude=_startLatitude;
-@property(readonly, nonatomic) double startLongitude; // @synthesize startLongitude=_startLongitude;
-@property(readonly) Class superclass;
 
 @end
 

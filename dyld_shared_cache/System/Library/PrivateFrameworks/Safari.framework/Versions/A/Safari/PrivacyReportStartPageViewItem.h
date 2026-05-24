@@ -6,19 +6,12 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class NSButton, NSImageView, NSStackView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface PrivacyReportStartPageViewItem : StartPageViewItem
 {
     _Bool _usesPrivateBrowsing;
-    long long _numberOfTrackers;
-    NSImageView *_shieldIcon;
-    NSTextField *_numberOfTrackersLabel;
-    NSTextField *_bodyText;
-    NSButton *_enableCrossSiteTrackingPreventionButton;
-    NSStackView *_privacyBubbleContentStackView;
-    NSStackView *_crossSiteTrackingContainer;
 }
 
 - (id);
@@ -27,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
@@ -36,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (id);
 - (void);
@@ -47,11 +40,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *bodyText; // @synthesize bodyText=_bodyText;
-@property(nonatomic) __weak NSStackView *crossSiteTrackingContainer; // @synthesize crossSiteTrackingContainer=_crossSiteTrackingContainer;
-@property(retain, nonatomic) NSButton *enableCrossSiteTrackingPreventionButton; // @synthesize enableCrossSiteTrackingPreventionButton=_enableCrossSiteTrackingPreventionButton;
-@property(nonatomic) __weak NSTextField *numberOfTrackersLabel; // @synthesize numberOfTrackersLabel=_numberOfTrackersLabel;
-@property(nonatomic) __weak NSStackView *privacyBubbleContentStackView; // @synthesize privacyBubbleContentStackView=_privacyBubbleContentStackView;
 @property(nonatomic) __weak NSImageView *shieldIcon; // @synthesize shieldIcon=_shieldIcon;
 
 @end

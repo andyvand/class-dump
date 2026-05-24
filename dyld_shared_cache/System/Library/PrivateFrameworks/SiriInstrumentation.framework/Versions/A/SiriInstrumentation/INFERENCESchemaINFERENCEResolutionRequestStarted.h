@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEResolverConfig, NSData;
-
 @interface INFERENCESchemaINFERENCEResolutionRequestStarted : SISchemaInstrumentationMessage
 {
     int _slotType;
-    INFERENCESchemaINFERENCEResolverConfig *_resolverConfig;
-    struct {
-        unsigned int slotType:1;
-    } _has;
-    _Bool _hasResolverConfig;
 }
 
 - (int);
@@ -34,17 +27,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)SArray",C,N,V_nearMissWithTriggerPhraseLists;
-- (id)d;
+- (id)PLUSSchemaPLUSRECTIFIPatternSequenceGenerated;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResolverConfig; // @synthesize hasResolverConfig=_hasResolverConfig;
-@property(nonatomic) _Bool hasSlotType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEResolverConfig *resolverConfig; // @synthesize resolverConfig=_resolverConfig;
 @property(nonatomic) int slotType; // @synthesize slotType=_slotType;
 
 @end

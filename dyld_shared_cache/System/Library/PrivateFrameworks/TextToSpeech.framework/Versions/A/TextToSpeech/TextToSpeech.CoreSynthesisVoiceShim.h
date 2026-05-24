@@ -7,25 +7,21 @@
 @interface TextToSpeech.CoreSynthesisVoiceShim
 {
     id executor;
-    id $__lazy_storage_$_voiceSource;
-    id $__lazy_storage_$_resourceResolver;
-    id $__lazy_storage_$_internalResolver;
-    id $__lazy_storage_$_publicResolver;
 }
 
-+ (void);
++ (void)th seqNumHash=%d;
 + (id)R;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

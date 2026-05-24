@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (PhotosPlayer)
-- (void);
-- (double);
-- (id);
+- (void)ion;
+- (double)ItemHeight;
+- (id)eenMargin;
 
 // Remaining properties
 @property(nonatomic, setter=is_setBlurRadius:) double is_blurRadius;

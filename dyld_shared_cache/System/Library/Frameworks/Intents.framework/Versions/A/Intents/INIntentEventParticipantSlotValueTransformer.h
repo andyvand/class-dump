@@ -13,7 +13,7 @@
 + (Class);
 + (long long)T@"NSArray",C,N,V_targetTaskListMembers;
 - (id);
-- (id)icipantIntentParticipantsUnsupportedReason:(id)arg1;
+- (id)StringAsAddCallParticipantIntentParticipantsUnsupportedReason:(id)arg1;
 
 @end
 

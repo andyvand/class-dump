@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBActionItem, _SFPBImage;
+@class NSData, NSString, _SFPBActionItem;
 
 @protocol _SFPBMediaOffer
-- (void)issText:(_Bool)arg1;
+- (void)MPMediaItemCollectionInitException;
+- (NSString *);
+- (NSData *)isWalrusEnabled;
+- (void)setDismissText:(_Bool)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBActionItem *actionItem;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *offerIdentifier;
-@property(copy, nonatomic) NSString *sublabel;
 @end
 

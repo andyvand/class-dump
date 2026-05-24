@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.BeneficiaryViewControllerRepresentable.Coordinator
 {
     id controller;
-    id delegate;
 }
 
 @end

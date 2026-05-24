@@ -4,55 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface MPSKernel
 {
     unsigned long long _options;
-    unsigned long long _verbosityLevel;
-    void *_device;
-    void *_library;
-    NSString *_label;
-    unsigned long long _labelHash;
-    _Bool _enableConcurrency;
-    unsigned long long _allowedOptions;
-    unsigned int _tuningParams;
-    unsigned int _maxTuningParams;
-    CDUnion_cbb8185c _fileVersion;
-    unsigned int _privateOptions;
 }
 
 + (const struct MPSLibraryInfo *);
 + (_Bool);
 - (id);
 - (void);
-- (CDUnion_cbb8185c);
+- (CDUnion_e993bd0a);
 - (_Bool);
 - (_Bool);
+- (void)p;
 - (void);
-- (void);
+- (id)R";
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)-;
 - (void);
 - (id);
 - (id);
-- (id);
+- (unsigned long long)9;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)bSystem.B.dylib;
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MTLDevice> device;
 @property(nonatomic) _Bool enableConcurrency; // @synthesize enableConcurrency=_enableConcurrency;
-@property(nonatomic) CDUnion_cbb8185c fileVersion; // @synthesize fileVersion=_fileVersion;
-@property(copy) NSString *label;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

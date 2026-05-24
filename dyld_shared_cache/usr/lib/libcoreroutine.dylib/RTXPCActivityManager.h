@@ -6,18 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString, RTDefaultsManager, RTDiagnostics, RTTimer, RTTimerManager, RTXPCActivityTask;
+@class RTDefaultsManager;
 
 @interface RTXPCActivityManager : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTDiagnostics *_diagnostics;
-    RTTimerManager *_timerManager;
-    RTTimer *_timer;
-    NSString *_identifier;
-    NSMutableDictionary *_registrants;
-    RTXPCActivityTask *_runningTask;
-    NSMutableArray *_pendingTasks;
 }
 
 + (long long);
@@ -27,9 +20,9 @@
 + (_Bool);
 + (id);
 + (void);
-+ (id);
++ (id)storageGuid;
 + (_Bool)@32@40@?48;
-+ (void)ts:(const char *)arg1;
++ (void)setClients:(const char *)arg1;
 - (void);
 - (void);
 - (id);
@@ -39,46 +32,39 @@
 - (void);
 - (id);
 - (id);
+- (id)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)I32;
+- (void)=}16@0:(id)arg1 8;
+- (void)setCanSendMetrics: /* Error: Ran out of types for this method. */;
+- (id)initWithPCSMetrics:(id)arg1 altDSID:flowID:deviceSessionID:eventName:testsAreEnabled:canSendMetrics:category: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)ed;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)initWithOffGridStatus:(id)arg1 forURI:pushToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id)trainingMode;
 - (void)OCountryCode, %@;
 - (void)ersation with receivers, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDiagnostics *diagnostics; // @synthesize diagnostics=_diagnostics;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *pendingTasks; // @synthesize pendingTasks=_pendingTasks;
-@property(retain, nonatomic) NSMutableDictionary *registrants; // @synthesize registrants=_registrants;
-@property(retain, nonatomic) RTXPCActivityTask *runningTask; // @synthesize runningTask=_runningTask;
-@property(retain, nonatomic) RTTimer *timer; // @synthesize timer=_timer;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
 
 @end
 

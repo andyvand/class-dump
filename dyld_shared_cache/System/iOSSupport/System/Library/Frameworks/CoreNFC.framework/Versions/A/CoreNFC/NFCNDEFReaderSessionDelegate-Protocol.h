@@ -5,5 +5,6 @@
 //
 
 @protocol NFCNDEFReaderSessionDelegate
+- (void);;
 @end
 

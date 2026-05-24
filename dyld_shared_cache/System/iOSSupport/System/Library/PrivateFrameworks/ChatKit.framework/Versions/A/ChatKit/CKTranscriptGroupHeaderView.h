@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CNComposeRecipientTextView, UIButton, UIView, _UIBackdropView;
+@class CKConversation;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptGroupHeaderView
 {
     CKConversation *_conversation;
-    CNComposeRecipientTextView *_textView;
-    UIView *_separator;
-    UIButton *_actionButton;
-    _UIBackdropView *_backdropView;
 }
 
 - (id);
@@ -25,18 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)asValidPostfixCharacterForString: /* Error: Ran out of types for this method. */;
+- (id)range:hasValidPostfixCharacterForString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void));
 - (void)Ô¤;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain, nonatomic) UIView *separator; // @synthesize separator=_separator;
-@property(retain, nonatomic) CNComposeRecipientTextView *textView; // @synthesize textView=_textView;
 
 @end
 

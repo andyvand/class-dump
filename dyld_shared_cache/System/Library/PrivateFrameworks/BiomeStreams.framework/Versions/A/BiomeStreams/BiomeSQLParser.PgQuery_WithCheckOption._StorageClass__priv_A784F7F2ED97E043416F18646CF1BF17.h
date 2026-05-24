@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_WithCheckOption._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _kind;
-    id _relname;
-    id _polname;
-    id _qual;
-    id _cascaded;
 }
 
 @end

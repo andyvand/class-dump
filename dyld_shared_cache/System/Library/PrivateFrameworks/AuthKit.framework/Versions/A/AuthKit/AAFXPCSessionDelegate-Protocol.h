@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+
 @protocol AAFXPCSessionDelegate
+
+@optional
+- (void)-e;
+- (void)=(;
+- (NSObject *)6;
 @end
 

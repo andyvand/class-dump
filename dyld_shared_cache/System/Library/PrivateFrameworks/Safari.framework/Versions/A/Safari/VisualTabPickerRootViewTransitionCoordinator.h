@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, NSView;
+@class NSView;
 @protocol VisualTabPickerRootViewTransitionCoordinatorDataSource;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerRootViewTransitionCoordinator
 {
     NSView *_topBarView;
-    CALayer *_tileContainerLayer;
-    id <VisualTabPickerRootViewTransitionCoordinatorDataSource> _dataSource;
 }
 
 - (void);
@@ -25,13 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <VisualTabPickerRootViewTransitionCoordinatorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

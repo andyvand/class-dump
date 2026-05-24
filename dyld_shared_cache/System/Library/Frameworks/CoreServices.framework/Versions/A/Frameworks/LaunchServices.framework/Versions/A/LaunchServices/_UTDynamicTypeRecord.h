@@ -15,22 +15,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)tionDescriptor"16^@24;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
+- (_Bool)_`;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -44,10 +44,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id)setVertexReportBuffer:offset: /* Error: Ran out of types for this method. */;
+- (void)%s, format=%s, options=%s, fullBlit=%s, minSamples=%u, maxSamples=%u, avgSamples=%f, totalSamples=%llu, countSamples=%u, minBytesPerRow=%u, maxBytesPerRow=%u, avgBytesPerRow=%f, totalBytesPerRow=%llu, countBytesPerRow=%u, minImageBytes=%u, maxImageBytes=%u, avgImageBytes=%f, totalImageBytes=%llu, countImageBytes=%u, minBufferBytes=%u, maxBufferBytes=%u, avgBufferBytes=%f, totalBufferBytes=%llu, countBufferBytes=%u;
+- (id)oder drawMeshThreadgroupsWithIndirectBuffer:(id)arg1 indirectBufferOffset:threadsPerObjectThreadgroup:threadsPerMeshThreadgroup:] /* Error: Ran out of types for this method. */;
 - (id)Ô ;
 - (void);
 

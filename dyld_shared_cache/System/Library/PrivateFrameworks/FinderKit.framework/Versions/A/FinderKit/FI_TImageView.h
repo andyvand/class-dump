@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol TDraggingSource;
-
 __attribute__((visibility("hidden")))
 @interface FI_TImageView
 {
     function_e88ba8d7 _clickHandler;
-    function_e88ba8d7 _doubleClickHandler;
-    _Bool _doubleClickOnMouseUp;
-    _Bool _delayWindowOrderingOnClickThrough;
-    struct TNSWeakPtr<NSObject<TDraggingSource>> _weakDraggingSourceDelegate;
-    _Bool _acceptsFirstMouse;
-    _Bool _opaqueHitTestingEnabled;
-    struct CGSize _maxSize;
-    struct CGSize _minSize;
 }
 
 - (void);
@@ -30,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -39,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)onView.Toolbar.LaterButton;
 - (void);
 - (id);
+- (void)l"24@"NSTableColumn"32q40;
+- (_Bool)replaceMessageList:(id)arg1 initialLoadCompletedPromise: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (id);
+- (id)unt"16;
 - (void);
 - (void);
 - (void);
@@ -63,12 +52,6 @@ __attribute__((visibility("hidden")))
 - (void)<;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(nonatomic) _Bool delayWindowOrderingOnClickThrough; // @synthesize delayWindowOrderingOnClickThrough=_delayWindowOrderingOnClickThrough;
-@property(nonatomic) __weak NSObject<TDraggingSource> *draggingSourceDelegate;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(nonatomic, getter=isOpaqueHitTestingEnabled) _Bool opaqueHitTestingEnabled; // @synthesize opaqueHitTestingEnabled=_opaqueHitTestingEnabled;
 @property(nonatomic) _Bool rejectsMultiFileDrops;
 
 @end

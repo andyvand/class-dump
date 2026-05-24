@@ -11,7 +11,7 @@
     NSString *_errorReason;
 }
 
-- (_Bool);
+- (_Bool)point"@"<FPDLifetimeServicing>"@"NSString"@"NSError">24;
 - (void);
 - (id);
 - (void);
@@ -19,14 +19,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)p;
+- (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *errorReason; // @synthesize errorReason=_errorReason;
 @property(readonly, nonatomic) _Bool hasErrorReason;
 
 @end

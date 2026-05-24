@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MRShaderManager
 {
     NSMutableDictionary *mGLShadersPerContext;
-    NSMutableDictionary *mShadersPerContext;
-    NSMutableDictionary *mShaderDescriptions;
-    NSLock *mGLShadersPerContextLock;
-    NSLock *mShadersPerContextLock;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)newsEdgeTodayConfig;
 - (unsigned int);
 - (void);
 - (id);

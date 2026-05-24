@@ -9,8 +9,6 @@
 @interface WBSAutoFillAccountInfo
 {
     NSString *_savedAccountID;
-    NSString *_userNameForTesting;
-    NSString *_passwordForTesting;
 }
 
 + (_Bool);
@@ -22,15 +20,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void)A×ð!0EùÑX°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAutoFill;
-@property(readonly, nonatomic) NSString *passwordForTesting; // @synthesize passwordForTesting=_passwordForTesting;
 @property(readonly, nonatomic) NSString *savedAccountID; // @synthesize savedAccountID=_savedAccountID;
-@property(readonly, nonatomic) NSString *userNameForTesting; // @synthesize userNameForTesting=_userNameForTesting;
 
 @end
 

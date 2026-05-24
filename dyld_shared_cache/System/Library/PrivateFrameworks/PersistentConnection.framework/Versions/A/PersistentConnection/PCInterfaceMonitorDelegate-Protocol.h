@@ -5,5 +5,8 @@
 //
 
 @protocol PCInterfaceMonitorDelegate
+
+@optional
+- (void);
 @end
 

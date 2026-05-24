@@ -6,51 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionFailureDeveloperDefinedError, NSData;
-
 @interface IFTSchemaIFTActionFailureFailure : SISchemaInstrumentationMessage
 {
     _Bool _preflightCheckFailure;
-    _Bool _preciseLocationDisabled;
-    _Bool _locationDisabled;
-    _Bool _wifiDisabled;
-    _Bool _bluetoothDisabled;
-    _Bool _networkFailure;
-    _Bool _partialFailure;
-    _Bool _unsupportedOnDevice;
-    _Bool _featureCurrentlyRestricted;
-    _Bool _entityNotFound;
-    _Bool _actionNotAllowed;
-    _Bool _unableToUndo;
-    _Bool _actionCanceled;
-    _Bool _valueDisambiguationRejected;
-    _Bool _noMatchingTool;
-    _Bool _developerDefinedError;
-    IFTSchemaIFTActionFailureDeveloperDefinedError *_actionFailureDeveloperDefinedError;
-    _Bool _unableToCancel;
-    _Bool _searchSucceededNoMatchingTool;
-    _Bool _unableToHandleRequest;
-    _Bool _hasPreflightCheckFailure;
-    _Bool _hasPreciseLocationDisabled;
-    _Bool _hasLocationDisabled;
-    _Bool _hasWifiDisabled;
-    _Bool _hasBluetoothDisabled;
-    _Bool _hasNetworkFailure;
-    _Bool _hasPartialFailure;
-    _Bool _hasUnsupportedOnDevice;
-    _Bool _hasFeatureCurrentlyRestricted;
-    _Bool _hasEntityNotFound;
-    _Bool _hasActionNotAllowed;
-    _Bool _hasUnableToUndo;
-    _Bool _hasActionCanceled;
-    _Bool _hasValueDisambiguationRejected;
-    _Bool _hasNoMatchingTool;
-    _Bool _hasDeveloperDefinedError;
-    _Bool _hasActionFailureDeveloperDefinedError;
-    _Bool _hasUnableToCancel;
-    _Bool _hasSearchSucceededNoMatchingTool;
-    _Bool _hasUnableToHandleRequest;
-    unsigned long long _whichOneof_Actionfailurefailure;
 }
 
 - (_Bool);
@@ -62,6 +20,11 @@
 - (void);
 - (void);
 - (void);
+- (void)R";
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,6 +41,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,14 +54,16 @@
 - (void);
 - (void);
 - (void);
+- (void)A9;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -107,15 +73,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(*		;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -160,55 +118,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4;
 - (id);
 - (id)on",&,N,V_pgPlanGenTotalTime;
 - (id)p ;
 - (void)±Ìÿ2\²ì§#;
 
 // Remaining properties
-@property(nonatomic) _Bool actionCanceled; // @synthesize actionCanceled=_actionCanceled;
-@property(retain, nonatomic) IFTSchemaIFTActionFailureDeveloperDefinedError *actionFailureDeveloperDefinedError; // @synthesize actionFailureDeveloperDefinedError=_actionFailureDeveloperDefinedError;
-@property(nonatomic) _Bool actionNotAllowed; // @synthesize actionNotAllowed=_actionNotAllowed;
-@property(nonatomic) _Bool bluetoothDisabled; // @synthesize bluetoothDisabled=_bluetoothDisabled;
-@property(nonatomic) _Bool developerDefinedError; // @synthesize developerDefinedError=_developerDefinedError;
-@property(nonatomic) _Bool entityNotFound; // @synthesize entityNotFound=_entityNotFound;
-@property(nonatomic) _Bool featureCurrentlyRestricted; // @synthesize featureCurrentlyRestricted=_featureCurrentlyRestricted;
-@property(nonatomic) _Bool hasActionCanceled; // @synthesize hasActionCanceled=_hasActionCanceled;
-@property(nonatomic) _Bool hasActionFailureDeveloperDefinedError; // @synthesize hasActionFailureDeveloperDefinedError=_hasActionFailureDeveloperDefinedError;
-@property(nonatomic) _Bool hasActionNotAllowed; // @synthesize hasActionNotAllowed=_hasActionNotAllowed;
-@property(nonatomic) _Bool hasBluetoothDisabled; // @synthesize hasBluetoothDisabled=_hasBluetoothDisabled;
-@property(nonatomic) _Bool hasDeveloperDefinedError; // @synthesize hasDeveloperDefinedError=_hasDeveloperDefinedError;
-@property(nonatomic) _Bool hasEntityNotFound; // @synthesize hasEntityNotFound=_hasEntityNotFound;
-@property(nonatomic) _Bool hasFeatureCurrentlyRestricted; // @synthesize hasFeatureCurrentlyRestricted=_hasFeatureCurrentlyRestricted;
-@property(nonatomic) _Bool hasLocationDisabled; // @synthesize hasLocationDisabled=_hasLocationDisabled;
-@property(nonatomic) _Bool hasNetworkFailure; // @synthesize hasNetworkFailure=_hasNetworkFailure;
-@property(nonatomic) _Bool hasNoMatchingTool; // @synthesize hasNoMatchingTool=_hasNoMatchingTool;
-@property(nonatomic) _Bool hasPartialFailure; // @synthesize hasPartialFailure=_hasPartialFailure;
-@property(nonatomic) _Bool hasPreciseLocationDisabled; // @synthesize hasPreciseLocationDisabled=_hasPreciseLocationDisabled;
-@property(nonatomic) _Bool hasPreflightCheckFailure; // @synthesize hasPreflightCheckFailure=_hasPreflightCheckFailure;
-@property(nonatomic) _Bool hasSearchSucceededNoMatchingTool; // @synthesize hasSearchSucceededNoMatchingTool=_hasSearchSucceededNoMatchingTool;
-@property(nonatomic) _Bool hasUnableToCancel; // @synthesize hasUnableToCancel=_hasUnableToCancel;
-@property(nonatomic) _Bool hasUnableToHandleRequest; // @synthesize hasUnableToHandleRequest=_hasUnableToHandleRequest;
-@property(nonatomic) _Bool hasUnableToUndo; // @synthesize hasUnableToUndo=_hasUnableToUndo;
-@property(nonatomic) _Bool hasUnsupportedOnDevice; // @synthesize hasUnsupportedOnDevice=_hasUnsupportedOnDevice;
-@property(nonatomic) _Bool hasValueDisambiguationRejected; // @synthesize hasValueDisambiguationRejected=_hasValueDisambiguationRejected;
-@property(nonatomic) _Bool hasWifiDisabled; // @synthesize hasWifiDisabled=_hasWifiDisabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool locationDisabled; // @synthesize locationDisabled=_locationDisabled;
-@property(nonatomic) _Bool networkFailure; // @synthesize networkFailure=_networkFailure;
-@property(nonatomic) _Bool noMatchingTool; // @synthesize noMatchingTool=_noMatchingTool;
-@property(nonatomic) _Bool partialFailure; // @synthesize partialFailure=_partialFailure;
-@property(nonatomic) _Bool preciseLocationDisabled; // @synthesize preciseLocationDisabled=_preciseLocationDisabled;
 @property(nonatomic) _Bool preflightCheckFailure; // @synthesize preflightCheckFailure=_preflightCheckFailure;
-@property(nonatomic) _Bool searchSucceededNoMatchingTool; // @synthesize searchSucceededNoMatchingTool=_searchSucceededNoMatchingTool;
-@property(nonatomic) _Bool unableToCancel; // @synthesize unableToCancel=_unableToCancel;
-@property(nonatomic) _Bool unableToHandleRequest; // @synthesize unableToHandleRequest=_unableToHandleRequest;
-@property(nonatomic) _Bool unableToUndo; // @synthesize unableToUndo=_unableToUndo;
-@property(nonatomic) _Bool unsupportedOnDevice; // @synthesize unsupportedOnDevice=_unsupportedOnDevice;
-@property(nonatomic) _Bool valueDisambiguationRejected; // @synthesize valueDisambiguationRejected=_valueDisambiguationRejected;
-@property(readonly, nonatomic) unsigned long long whichOneof_Actionfailurefailure; // @synthesize whichOneof_Actionfailurefailure=_whichOneof_Actionfailurefailure;
-@property(nonatomic) _Bool wifiDisabled; // @synthesize wifiDisabled=_wifiDisabled;
 
 @end
 

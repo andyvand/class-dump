@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKEncryptedDataObject;
+@class NSString;
 
 @interface PKBarcodeCredential
 {
     NSString *_identifier;
-    NSDate *_expirationTimestamp;
-    PKEncryptedDataObject *_value;
 }
 
 + (_Bool)0@ù
@@ -20,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (id)ifiers;
-- (void)ack;
+- (id)_merchantIdentifiers;
+- (void)dynamicLayerStaticFallback;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationTimestamp; // @synthesize expirationTimestamp=_expirationTimestamp;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKEncryptedDataObject *value; // @synthesize value=_value;
 
 @end
 

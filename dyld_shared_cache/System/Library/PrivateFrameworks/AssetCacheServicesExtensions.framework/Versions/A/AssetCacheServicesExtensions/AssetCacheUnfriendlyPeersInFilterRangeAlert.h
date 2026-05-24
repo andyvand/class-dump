@@ -6,27 +6,23 @@
 
 #import <AssetCacheServicesExtensions/AssetCacheAlert.h>
 
-@class NSArray;
-
 @interface AssetCacheUnfriendlyPeersInFilterRangeAlert : AssetCacheAlert
 {
     unsigned long long _peerFilterRangeIndex;
-    NSArray *_addresses;
 }
 
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)]SIaI*?ahj`;
 - (id);
 - (id);
 - (void);
+- (id)4@;
 - (id);
-- (id);
-- (void);
+- (void)CPKEmojiIMRequestCoverTouchBarNotification;
 
 // Remaining properties
-@property(retain) NSArray *addresses; // @synthesize addresses=_addresses;
 @property unsigned long long peerFilterRangeIndex; // @synthesize peerFilterRangeIndex=_peerFilterRangeIndex;
 
 @end

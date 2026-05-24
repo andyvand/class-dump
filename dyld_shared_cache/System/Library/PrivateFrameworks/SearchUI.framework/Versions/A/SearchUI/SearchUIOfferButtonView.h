@@ -14,7 +14,7 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (_Bool)mageForFileURL:scale:isDarkStyle:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)loadRelatedAppIconImageForFileURL:scale:isDarkStyle:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontSizeToFitWidth; // @synthesize adjustsFontSizeToFitWidth=_adjustsFontSizeToFitWidth;

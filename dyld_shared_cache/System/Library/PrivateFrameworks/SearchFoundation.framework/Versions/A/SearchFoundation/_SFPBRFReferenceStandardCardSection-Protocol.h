@@ -7,10 +7,10 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFReferenceStandardCardSection
+- (_SFPBRFTextProperty *)80@0:8^{CGPDFForm=}16q24^{CGContext=}32{CGRect={CGPoint=dd}{CGSize=dd}}40B72B76 /* Error: Ran out of types for this method. */;
+- (NSData *)text;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @end
 

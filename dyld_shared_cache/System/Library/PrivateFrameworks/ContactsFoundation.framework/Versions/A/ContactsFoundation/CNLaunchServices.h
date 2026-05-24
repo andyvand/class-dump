@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CNLaunchServicesAdapter, OS_os_log;
+@protocol CNLaunchServicesAdapter;
 
 @interface CNLaunchServices
 {
     id <CNLaunchServicesAdapter> _adapter;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -30,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <CNLaunchServicesAdapter> adapter; // @synthesize adapter=_adapter;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end
 

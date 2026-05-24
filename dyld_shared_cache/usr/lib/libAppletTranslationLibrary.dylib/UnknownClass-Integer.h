@@ -17,7 +17,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned short);
-- (id);
+- (id);
 - (int);
 - (int);
 - (unsigned long long);

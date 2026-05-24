@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setActionType:(id)arg1;
+- (id)sessionClass;
+- (id)assignTransfer:toAccount:otherPerson: /* Error: Ran out of types for this method. */;
+- (id)is a valid alias:(id)arg1 %@;
+- (id)ntioned identity.;
 - (id);
 - (void);
 

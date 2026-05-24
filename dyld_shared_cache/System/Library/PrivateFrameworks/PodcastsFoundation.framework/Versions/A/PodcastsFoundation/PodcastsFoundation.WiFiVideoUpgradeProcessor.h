@@ -7,12 +7,6 @@
 @interface PodcastsFoundation.WiFiVideoUpgradeProcessor
 {
     id $defaultActor;
-    id reachability;
-    id downloadManager;
-    id library;
-    id context;
-    id _downloadVideoEnabled;
-    id _globalAutoDownloadOption;
 }
 
 @end

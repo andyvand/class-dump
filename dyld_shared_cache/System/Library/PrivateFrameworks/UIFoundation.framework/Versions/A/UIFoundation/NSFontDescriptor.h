@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAffineTransform, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface NSFontDescriptor
 {
     NSMutableDictionary *_attributes;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    id _reserved4;
-    id _reserved5;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *fontAttributes;
-@property(readonly, copy) NSAffineTransform *matrix;
-@property(readonly) double pointSize;
 @property(readonly, copy) NSString *postscriptName;
-@property(readonly) _Bool requiresFontAssetRequest;
-@property(readonly) unsigned int symbolicTraits;
 @end
 

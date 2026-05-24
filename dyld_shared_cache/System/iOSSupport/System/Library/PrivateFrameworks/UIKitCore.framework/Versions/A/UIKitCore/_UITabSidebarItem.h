@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UITabSidebarItem.h>
 
-@class NSArray, UIBackgroundConfiguration, UICellConfigurationState, _UITab;
-@protocol UIContentConfiguration;
+@class _UITab;
 
 @interface _UITabSidebarItem : UITabSidebarItem
 {
@@ -17,10 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAccessories:) NSArray *_accessories; // @dynamic _accessories;
-@property(copy, nonatomic, setter=_setBackgroundConfiguration:) UIBackgroundConfiguration *_backgroundConfiguration; // @dynamic _backgroundConfiguration;
-@property(readonly, nonatomic, getter=_configurationState) UICellConfigurationState *_configurationState; // @dynamic _configurationState;
-@property(copy, nonatomic, setter=_setContentConfiguration:) id <UIContentConfiguration> _contentConfiguration; // @dynamic _contentConfiguration;
 @property(readonly, nonatomic, getter=_tab) _UITab *_tab; // @dynamic _tab;
 
 @end

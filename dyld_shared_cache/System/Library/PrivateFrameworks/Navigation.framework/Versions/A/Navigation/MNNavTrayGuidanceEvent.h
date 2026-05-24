@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedGuidanceEvent, GEOComposedString, NSString;
+@class GEOComposedGuidanceEvent;
 
 @interface MNNavTrayGuidanceEvent
 {
@@ -12,21 +12,18 @@
 }
 
 + (_Bool);
+- (id)k;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)alue:withObjCType: /* Error: Ran out of types for this method. */;
+- (void)value:withObjCType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) GEOComposedGuidanceEvent *_guidanceEvent; // @synthesize _guidanceEvent;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) GEOComposedString *detail;
-@property(nonatomic, readonly) GEOComposedString *title;
 
 @end
 

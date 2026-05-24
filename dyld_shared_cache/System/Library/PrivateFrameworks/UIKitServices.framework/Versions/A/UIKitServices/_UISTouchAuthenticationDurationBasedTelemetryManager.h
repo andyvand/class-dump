@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableIntegerMap, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _UISTouchAuthenticationDurationBasedTelemetryManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BSMutableIntegerMap *_recordMap;
 }
 
 - (double);
@@ -18,9 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ntFeatureState;
+- (void)d:(id)arg1;
+- (id)`;
 - (void);
 
 @end

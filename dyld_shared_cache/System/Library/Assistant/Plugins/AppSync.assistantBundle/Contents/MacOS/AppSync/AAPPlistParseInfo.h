@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface AAPPlistParseInfo
 {
     NSArray *_entries;
-    NSDictionary *_values;
 }
 
 - (void);
-- (void);
+- (void)collectOSLogs;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(retain, nonatomic) NSDictionary *values; // @synthesize values=_values;
 
 @end
 

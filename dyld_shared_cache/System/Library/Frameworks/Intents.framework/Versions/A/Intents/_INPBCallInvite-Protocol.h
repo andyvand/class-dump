@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBURLValue;
+@class _INPBURLValue;
 
 @protocol _INPBCallInvite
++ (Class)(;
+- (void)7;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBURLValue *callURL;
-@property(readonly, nonatomic) _Bool hasCallURL;
-@property(nonatomic) _Bool hasInviteType;
-@property(nonatomic) int inviteType;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
 @end
 

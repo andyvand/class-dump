@@ -5,5 +5,7 @@
 //
 
 @protocol MTLIndirectComputeCommand
+- (void)R;
+- (void);
 @end
 

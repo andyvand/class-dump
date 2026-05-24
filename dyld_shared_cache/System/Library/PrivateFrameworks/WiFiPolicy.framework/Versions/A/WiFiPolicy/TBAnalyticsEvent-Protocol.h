@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol TBAnalyticsEvent
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *eventDictionary;
 @property(readonly, nonatomic) NSString *eventName;
 @end
 

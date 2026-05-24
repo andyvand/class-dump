@@ -5,5 +5,11 @@
 //
 
 @protocol SpeechRecognitionCore.SRDProtocol
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

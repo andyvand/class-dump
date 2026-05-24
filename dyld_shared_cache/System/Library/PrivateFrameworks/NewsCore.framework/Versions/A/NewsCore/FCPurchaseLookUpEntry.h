@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface FCPurchaseLookUpEntry
 {
     _Bool _isNewsAppPurchase;
-    _Bool _hasShownRenewalNotice;
-    unsigned long long _purchaseType;
-    unsigned long long _purchaseValidationState;
-    NSDate *_lastVerificationTime;
-    NSDate *_lastVerificationFailureTime;
-    NSString *_purchaseID;
-    NSString *_tagID;
-    NSString *_identifier;
-    NSDate *_dateOfExpiration;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long)!;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)%;
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)IXDataPromise isComplete]_block_invoke_2;
 - (id);
-- (id);
+- (id)mounted but its data/system pair not both mounted.;
 - (id);
 - (void);
 - (void)apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCheckDraftContentAccessOperation.m;
 - (id)"16^B24;
-- (id)decar;
+- (id)sidecar;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *dateOfExpiration; // @synthesize dateOfExpiration=_dateOfExpiration;
-@property(nonatomic) _Bool hasShownRenewalNotice; // @synthesize hasShownRenewalNotice=_hasShownRenewalNotice;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isNewsAppPurchase; // @synthesize isNewsAppPurchase=_isNewsAppPurchase;
-@property(copy, nonatomic) NSDate *lastVerificationFailureTime; // @synthesize lastVerificationFailureTime=_lastVerificationFailureTime;
-@property(copy, nonatomic) NSDate *lastVerificationTime; // @synthesize lastVerificationTime=_lastVerificationTime;
-@property(copy, nonatomic) NSString *purchaseID; // @synthesize purchaseID=_purchaseID;
 @property(nonatomic) unsigned long long purchaseType; // @synthesize purchaseType=_purchaseType;
-@property(nonatomic) unsigned long long purchaseValidationState; // @synthesize purchaseValidationState=_purchaseValidationState;
-@property(copy, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
 
 @end
 

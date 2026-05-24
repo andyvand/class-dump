@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoutingController, MPCPlaybackEngine, NSString;
-@protocol MFQueueItemTranslator;
+@class MPAVRoutingController, MPCPlaybackEngine;
 
 __attribute__((visibility("hidden")))
 @interface MPCExternalPlaybackController
 {
     MPAVRoutingController *_routingController;
-    MPCPlaybackEngine *_playbackEngine;
-    id <MFQueueItemTranslator> _translator;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
+- (_Bool)>;
+- (_Bool)nt %@;
+- (_Bool)auto-created if necessary by calling cloudInternalClient isReadyForCloudPhotoLibrary...;
+- (id)RI;
+- (long long)5	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic) MPAVRoutingController *routingController; // @synthesize routingController=_routingController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <MFQueueItemTranslator> translator; // @synthesize translator=_translator;
 
 @end
 

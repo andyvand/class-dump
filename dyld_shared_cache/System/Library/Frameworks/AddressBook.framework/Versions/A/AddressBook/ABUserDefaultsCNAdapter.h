@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABUserDefaults, NSDictionary, NSString;
+@class ABUserDefaults;
 
 @interface ABUserDefaultsCNAdapter
 {
@@ -19,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
@@ -32,19 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) NSDictionary *filteredAccountsAndContainers;
-@property(readonly) unsigned long long hash;
-@property unsigned long long nameOrder;
-@property _Bool preferNickname;
-@property unsigned long long shortNameFormat;
-@property(nonatomic, getter=isShortNameFormatEnabled) _Bool shortNameFormatEnabled;
 @property _Bool showContactPhotos;
-@property(readonly) Class superclass;
 
 @end
 

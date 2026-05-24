@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSIndexSet, NSTimeZone, PHPhotoLibrary;
+@class NSDate;
 
 @interface PGMemoryContext
 {
     _Bool _futureLookup;
-    NSDate *_localDate;
-    NSTimeZone *_timeZone;
-    NSDate *_creationDateOfLastMemory;
-    unsigned long long _numberOfDaysSinceMemoryUpgrade;
-    PHPhotoLibrary *_photoLibrary;
-    NSIndexSet *_categoriesDeniedForContextual;
-    NSIndexSet *_categoriesDeniedForFallback;
 }
 
 - (void);
-- (void);
+- (void)rameworks/CoreServices.framework/Versions/A/CoreServices;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)set_didRegisterMenuOpenedNotification: /* Error: Ran out of types for this method. */;
+- (id)_setOpenMenuControllers:(id)arg1;
+- (id)_pageContainer;
+- (id)_handleInfoChangedContentDecreased:(id)arg1 previousElementInfo:(id)arg2;
+- (void)rackOpenedMenus;
+- (_Bool)KElementController",&,N,S_setLaunchPadGridElementController:,V__launchPadGridElementController /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -35,14 +28,7 @@
 - (id)ü3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *categoriesDeniedForContextual; // @synthesize categoriesDeniedForContextual=_categoriesDeniedForContextual;
-@property(readonly, nonatomic) NSIndexSet *categoriesDeniedForFallback; // @synthesize categoriesDeniedForFallback=_categoriesDeniedForFallback;
 @property(retain, nonatomic) NSDate *creationDateOfLastMemory; // @synthesize creationDateOfLastMemory=_creationDateOfLastMemory;
-@property(readonly, nonatomic) _Bool futureLookup; // @synthesize futureLookup=_futureLookup;
-@property(readonly, nonatomic) NSDate *localDate; // @synthesize localDate=_localDate;
-@property(nonatomic) unsigned long long numberOfDaysSinceMemoryUpgrade; // @synthesize numberOfDaysSinceMemoryUpgrade=_numberOfDaysSinceMemoryUpgrade;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

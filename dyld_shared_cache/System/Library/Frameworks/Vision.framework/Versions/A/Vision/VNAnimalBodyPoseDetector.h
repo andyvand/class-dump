@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     VCPPetsPoseImageRequest *_animalBodyPoseDetector;
 }
 
-+ (id);
++ (id)CNCoreRecentsPredicate;
 + (id);
 - (_Bool);
 - (_Bool);

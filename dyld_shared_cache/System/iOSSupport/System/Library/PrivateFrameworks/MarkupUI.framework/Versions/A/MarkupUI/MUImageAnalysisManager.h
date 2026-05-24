@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, UIView, VKCImageAnalysisInteraction, VKCImageAnalyzer;
-@protocol MUImageAnalysisManagerDelegate;
+@class VKCImageAnalysisInteraction;
 
 __attribute__((visibility("hidden")))
 @interface MUImageAnalysisManager
 {
     _Bool _shouldHighlightTextAndDDAfterNextAnalysis;
-    _Bool _shouldEnterVisualSearchAfterNextAnalysis;
-    _Bool _shouldUpliftSubjectAfterNextAnalysis;
-    _Bool _isFullScreen;
-    _Bool _isImageAnalysisPopoverPresented;
-    int _imageAnalysisRequestId;
-    id <MUImageAnalysisManagerDelegate> _delegate;
-    VKCImageAnalysisInteraction *_imageInteraction;
-    VKCImageAnalyzer *_imageAnalyzer;
-    UIView *_visualSearchViewContainer;
-    UIView *_analysisButtonContainer;
-    UIView *_bottomRightButtonsContainer;
-    NSLayoutConstraint *_bottomRightButtonsContainerRightConstraint;
-    NSLayoutConstraint *_bottomRightButtonsContainerBottomConstraint;
-    UIView *_presentingView;
 }
 
 + (_Bool);
@@ -40,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (void);
@@ -73,7 +58,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)w;
 - (void);
 - (unsigned long long);
 - (void);
@@ -83,15 +68,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)setAccessibilityDelegate:(id)arg1;
+- (void)onboardingController:(id)arg1 canProceed:nextButtonText: /* Error: Ran out of types for this method. */;
+- (void)numberOfPreviewItemsInPreviewPanel:(id)arg1;
+- (void)notifyClientStateManagerSpeakingBegan:(id)arg1;
+- (void)a;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)qY;
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -104,37 +89,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *analysisButtonContainer; // @synthesize analysisButtonContainer=_analysisButtonContainer;
-@property(retain, nonatomic) UIView *bottomRightButtonsContainer; // @synthesize bottomRightButtonsContainer=_bottomRightButtonsContainer;
-@property(retain, nonatomic) NSLayoutConstraint *bottomRightButtonsContainerBottomConstraint; // @synthesize bottomRightButtonsContainerBottomConstraint=_bottomRightButtonsContainerBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *bottomRightButtonsContainerRightConstraint; // @synthesize bottomRightButtonsContainerRightConstraint=_bottomRightButtonsContainerRightConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MUImageAnalysisManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *filledInfoButtonGlyphName;
-@property(readonly) unsigned long long hash;
-@property int imageAnalysisRequestId; // @synthesize imageAnalysisRequestId=_imageAnalysisRequestId;
-@property(retain, nonatomic) VKCImageAnalyzer *imageAnalyzer; // @synthesize imageAnalyzer=_imageAnalyzer;
 @property(retain, nonatomic) VKCImageAnalysisInteraction *imageInteraction; // @synthesize imageInteraction=_imageInteraction;
-@property(readonly, nonatomic) NSString *infoButtonGlyphName;
-@property _Bool isFullScreen; // @synthesize isFullScreen=_isFullScreen;
-@property _Bool isImageAnalysisPopoverPresented; // @synthesize isImageAnalysisPopoverPresented=_isImageAnalysisPopoverPresented;
-@property(nonatomic) __weak UIView *presentingView; // @synthesize presentingView=_presentingView;
-@property(nonatomic) _Bool shouldEnterVisualSearchAfterNextAnalysis; // @synthesize shouldEnterVisualSearchAfterNextAnalysis=_shouldEnterVisualSearchAfterNextAnalysis;
-@property(nonatomic) _Bool shouldHighlightTextAndDDAfterNextAnalysis; // @synthesize shouldHighlightTextAndDDAfterNextAnalysis=_shouldHighlightTextAndDDAfterNextAnalysis;
-@property(nonatomic) _Bool shouldUpliftSubjectAfterNextAnalysis; // @synthesize shouldUpliftSubjectAfterNextAnalysis=_shouldUpliftSubjectAfterNextAnalysis;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *visualSearchViewContainer; // @synthesize visualSearchViewContainer=_visualSearchViewContainer;
 
 @end
 

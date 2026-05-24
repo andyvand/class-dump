@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventNetworkSelectionHarvest
 {
     PBUnknownFields *_unknownFields;
-    NSData *_harvestData;
 }
 
-+ (_Bool)tValidSegmentIndex:(id)arg1;
++ (_Bool)setHasStartValidSegmentIndex:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
@@ -24,20 +23,19 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)InterestNotifier:(id)arg1 Failed to create notification port
+;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)ltipleAddresses:(struct _NSZone *)arg1;
-- (id)tionIntent;
+- (void)A;
+- (id)setSupportsMultipleAddresses:(struct _NSZone *)arg1;
+- (id)directionIntent;
 - (id)from route request:%@
 Directions error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)pxÿBx;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *harvestData;
 @property(readonly, nonatomic) _Bool hasHarvestData;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

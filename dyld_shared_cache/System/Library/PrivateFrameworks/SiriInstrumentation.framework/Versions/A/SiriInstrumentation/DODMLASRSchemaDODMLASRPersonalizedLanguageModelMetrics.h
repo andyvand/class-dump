@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DODMLASRSchemaDODMLASREvaluationMetrics, DODMLASRSchemaDODMLASRModelMetrics, DODMLASRSchemaDODMLASRTranscriptionMetrics, NSData;
-
 @interface DODMLASRSchemaDODMLASRPersonalizedLanguageModelMetrics : SISchemaInstrumentationMessage
 {
     int _userLocale;
-    DODMLASRSchemaDODMLASRTranscriptionMetrics *_transcriptionMetrics;
-    DODMLASRSchemaDODMLASRModelMetrics *_modelMetrics;
-    DODMLASRSchemaDODMLASREvaluationMetrics *_evaluationMetrics;
-    struct {
-        unsigned int userLocale:1;
-    } _has;
-    _Bool _hasTranscriptionMetrics;
-    _Bool _hasModelMetrics;
-    _Bool _hasEvaluationMetrics;
 }
 
 - (id);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,27 +31,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ory.distributednotification.server;
+- (id)NFProductIsDevBoard_block_invoke;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ontact"b1"areAllPrimaryContactTokensInQuery"b1"isGivenNameMatch"b1"isMiddleNameMatch"b1"isFamilyNameMatch"b1"isOrganizationNameMatch"b1"isWeakOrganizationMatch"b1"isNicknameMatch"b1"isNamePrefixMatch"b1"isNameSuffixMatch"b1"isHandleQueryMatch"b1"isHandleQueryLabelNameMatch"b1};
-- (id);
+- (id)ORCHSchemaORCHAudioTopologyReported;
 - (id)DÑ;
 - (void)]%e]£%;
 
 // Remaining properties
-@property(retain, nonatomic) DODMLASRSchemaDODMLASREvaluationMetrics *evaluationMetrics; // @synthesize evaluationMetrics=_evaluationMetrics;
-@property(nonatomic) _Bool hasEvaluationMetrics; // @synthesize hasEvaluationMetrics=_hasEvaluationMetrics;
-@property(nonatomic) _Bool hasModelMetrics; // @synthesize hasModelMetrics=_hasModelMetrics;
-@property(nonatomic) _Bool hasTranscriptionMetrics; // @synthesize hasTranscriptionMetrics=_hasTranscriptionMetrics;
-@property(nonatomic) _Bool hasUserLocale;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRModelMetrics *modelMetrics; // @synthesize modelMetrics=_modelMetrics;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRTranscriptionMetrics *transcriptionMetrics; // @synthesize transcriptionMetrics=_transcriptionMetrics;
 @property(nonatomic) int userLocale; // @synthesize userLocale=_userLocale;
 
 @end

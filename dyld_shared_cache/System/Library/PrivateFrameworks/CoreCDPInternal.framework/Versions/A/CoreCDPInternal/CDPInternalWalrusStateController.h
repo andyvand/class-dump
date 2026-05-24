@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, CDPAccount, CDPContext, CDPDAccount;
-@protocol CDPDSecureBackupProxy, CDPProtectedCloudStorageProxy, CDPWalrusSecurityProxy;
+@protocol CDPWalrusSecurityProxy;
 
 @interface CDPInternalWalrusStateController
 {
     id <CDPWalrusSecurityProxy> _securityProxy;
-    id <CDPProtectedCloudStorageProxy> _pcsProxy;
-    id <CDPDSecureBackupProxy> _sbProxy;
-    CDPAccount *_cdpAccount;
-    CDPDAccount *_cdpDaemonAccount;
-    ACAccountStore *_accountStore;
-    CDPContext *_context;
 }
 
 - (id);
+- (_Bool)	k@;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -36,7 +29,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)m;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -44,7 +37,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)/;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);

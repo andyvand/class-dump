@@ -6,42 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
-
 @interface GMSSchemaGMSModelRequestStarted : SISchemaInstrumentationMessage
 {
     int _accountType;
-    _Bool _isWebSearchUsed;
-    _Bool _isUserSignedIn;
-    int _modelParty;
-    int _modelLocation;
-    int _useCase;
-    NSString *_modelVersion;
-    NSString *_configVersion;
-    NSString *_promptVersion;
-    NSString *_modelName;
-    int _externalPartner;
-    SISchemaUUID *_gmsClientRequestIdentifier;
-    SISchemaUUID *_executorTraceID;
-    int _genAIAgentUsed;
-    SISchemaUUID *_clientTraceId;
-    struct {
-        unsigned int accountType:1;
-        unsigned int isWebSearchUsed:1;
-        unsigned int isUserSignedIn:1;
-        unsigned int modelParty:1;
-        unsigned int modelLocation:1;
-        unsigned int useCase:1;
-        unsigned int externalPartner:1;
-        unsigned int genAIAgentUsed:1;
-    } _has;
-    _Bool _hasModelVersion;
-    _Bool _hasConfigVersion;
-    _Bool _hasPromptVersion;
-    _Bool _hasModelName;
-    _Bool _hasGmsClientRequestIdentifier;
-    _Bool _hasExecutorTraceID;
-    _Bool _hasClientTraceId;
 }
 
 - (void);
@@ -90,6 +57,21 @@
 - (void);
 - (void);
 - (void);
+- (void)ka;
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (id);
+- (_Bool);
+- (int);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -99,30 +81,15 @@
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)setNeedsDisplay: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)FENCE_NOTIFY_FRIEND_WHEN_I_AM_NOT_AT_LOCATION_BY_TIME_EVERY_DAY;
 - (id)@"SISchemaUEIDictationAlternativeTextPairsSelected";
-- (id)MessagesHaptic;
+- (id)appContactFreqForMessagesHaptic;
 - (id)Ð¢;
 - (void)extualEntityRetrievalContext.ended.retrievedEntityStates.entityType.bundleId;
 - (void)aphNodeDatas.linkedUsoEntitySpans.alternatives.alternative;
@@ -133,36 +100,6 @@
 
 // Remaining properties
 @property(nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(retain, nonatomic) SISchemaUUID *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(copy, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(retain, nonatomic) SISchemaUUID *executorTraceID; // @synthesize executorTraceID=_executorTraceID;
-@property(nonatomic) int externalPartner; // @synthesize externalPartner=_externalPartner;
-@property(nonatomic) int genAIAgentUsed; // @synthesize genAIAgentUsed=_genAIAgentUsed;
-@property(retain, nonatomic) SISchemaUUID *gmsClientRequestIdentifier; // @synthesize gmsClientRequestIdentifier=_gmsClientRequestIdentifier;
-@property(nonatomic) _Bool hasAccountType;
-@property(nonatomic) _Bool hasClientTraceId; // @synthesize hasClientTraceId=_hasClientTraceId;
-@property(nonatomic) _Bool hasConfigVersion; // @synthesize hasConfigVersion=_hasConfigVersion;
-@property(nonatomic) _Bool hasExecutorTraceID; // @synthesize hasExecutorTraceID=_hasExecutorTraceID;
-@property(nonatomic) _Bool hasExternalPartner;
-@property(nonatomic) _Bool hasGenAIAgentUsed;
-@property(nonatomic) _Bool hasGmsClientRequestIdentifier; // @synthesize hasGmsClientRequestIdentifier=_hasGmsClientRequestIdentifier;
-@property(nonatomic) _Bool hasIsUserSignedIn;
-@property(nonatomic) _Bool hasIsWebSearchUsed;
-@property(nonatomic) _Bool hasModelLocation;
-@property(nonatomic) _Bool hasModelName; // @synthesize hasModelName=_hasModelName;
-@property(nonatomic) _Bool hasModelParty;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasPromptVersion; // @synthesize hasPromptVersion=_hasPromptVersion;
-@property(nonatomic) _Bool hasUseCase;
-@property(nonatomic) _Bool isUserSignedIn; // @synthesize isUserSignedIn=_isUserSignedIn;
-@property(nonatomic) _Bool isWebSearchUsed; // @synthesize isWebSearchUsed=_isWebSearchUsed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int modelLocation; // @synthesize modelLocation=_modelLocation;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) int modelParty; // @synthesize modelParty=_modelParty;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(copy, nonatomic) NSString *promptVersion; // @synthesize promptVersion=_promptVersion;
-@property(nonatomic) int useCase; // @synthesize useCase=_useCase;
 
 @end
 

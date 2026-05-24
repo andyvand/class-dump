@@ -9,7 +9,7 @@
     struct __CFRunLoopSource *_powerRunLoopSource;
 }
 
-+ (id)ce:completion: /* Error: Ran out of types for this method. */;
++ (id)_notifyBuiltInVoiceTriggerPrewarm:activationSource:completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (long long);

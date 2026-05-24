@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTLLMQURequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)=%u. Using default index=%d
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)supportsRealityDevice;
+- (_Bool)_implicitlyAdvanceTheSelection:(id)arg1;
+- (_Bool)gration failed adding column madrid_date_read.;
 - (id);
 - (id);
-- (id)yPressure;
-- (id)logIdentifier;
-- (_Bool)TIONSOURCE_UNKNOWN_SOURCE;
-- (_Bool)t;
-- (void)GQAUsecase;
+- (id)deleteMemoryPressure;
+- (id)_hasScoredDialogIdentifier;
+- (_Bool)PNRSPEECHRECOGNITIONSOURCE_UNKNOWN_SOURCE;
+- (_Bool)homeContext;
+- (void)PEGASUSSchemaPEGASUSKGQAUsecase;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallCancelSent
 {
     unsigned long long _timestamp;
-    unsigned int _cancelCode;
-    int _errorCode;
-    NSString *_guid;
-    unsigned int _isVideo;
-    unsigned int _onLockScreen;
-    unsigned int _sendDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int cancelCode:1;
-        unsigned int errorCode:1;
-        unsigned int isVideo:1;
-        unsigned int onLockScreen:1;
-        unsigned int sendDuration:1;
-    } _has;
 }
 
 - (void);
@@ -31,8 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (void);
+- (unsigned int)k!;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -45,10 +29,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?	;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)u;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,26 +43,13 @@
 - (id);
 - (_Bool);
 - (id)tionAttempts"b1"tcpIPv4AvgRTT"b1"tcpIPv6AvgRTT"b1"tcpRecvPLR"b1"tcpSendPLR"b1"tcpSendReorderRate"b1"tcpSendTLRTO"b1};
-- (void):(int)arg1;
+- (void)setIsInitiator:(int)arg1;
 - (int)"xpá¸	;
 - (void)q%
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned int cancelCode; // @synthesize cancelCode=_cancelCode;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasCancelCode;
-@property(nonatomic) _Bool hasErrorCode;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasSendDuration;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned int sendDuration; // @synthesize sendDuration=_sendDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

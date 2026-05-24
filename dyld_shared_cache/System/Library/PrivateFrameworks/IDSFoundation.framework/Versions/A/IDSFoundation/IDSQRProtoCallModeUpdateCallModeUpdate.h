@@ -13,9 +13,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)gth:(id)arg1;
+- (void)_clientHeartbeatSend]_block_invoke;
+- (id);
 - (id);
 
 @end

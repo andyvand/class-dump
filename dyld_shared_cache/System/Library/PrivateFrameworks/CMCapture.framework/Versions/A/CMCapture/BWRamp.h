@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWSpringSimulation, NSString;
+@class NSString;
 
 @interface BWRamp
 {
     NSString *_name;
-    _Bool _isRamping;
-    float _currentValue;
-    int _currentIteration;
-    float _startValue;
-    float _targetValue;
-    int _durationInIterations;
-    int _shape;
-    _Bool _isRampingUp;
-    float _exponentialConvergenceFraction;
-    float _exponentialSnapFraction;
-    BWSpringSimulation *_spring;
-    CDStruct_1b6d18a9 _springPTS;
-    float _frameRate;
 }
 
-+ (void);
++ (void)audioTimeScale;
 - (void);
 - (_Bool);
-- (float);
+- (float)dataWithDataPointCount:resources: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -38,9 +25,7 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float currentValue; // @synthesize currentValue=_currentValue;
 @property(readonly, nonatomic) _Bool isRamping; // @synthesize isRamping=_isRamping;
-@property(readonly, nonatomic) _Bool isRampingUp; // @synthesize isRampingUp=_isRampingUp;
 
 @end
 

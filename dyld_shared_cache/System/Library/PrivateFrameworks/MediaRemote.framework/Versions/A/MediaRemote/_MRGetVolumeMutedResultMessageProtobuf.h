@@ -7,26 +7,24 @@
 @interface _MRGetVolumeMutedResultMessageProtobuf
 {
     _Bool _isMuted;
-    CDStruct_d5ba98b4 _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)shouldShowWalletInSettings:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)cda_face_detection;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsMuted;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
 
 @end
 

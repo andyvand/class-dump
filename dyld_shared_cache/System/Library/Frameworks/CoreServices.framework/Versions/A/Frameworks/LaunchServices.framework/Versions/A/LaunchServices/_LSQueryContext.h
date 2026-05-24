@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)cblas_ctbmv;
 - (id);
 - (void);
 - (id);
 - (void)ÿÿ5D;
-- (void)SBundleFindWithInfoAndNo_IOFilter;
+- (void)_LSBundleFindWithInfoAndNo_IOFilter;
 
 // Remaining properties
 @property(readonly) id <_LSQueryResolving> _resolver; // @dynamic _resolver;

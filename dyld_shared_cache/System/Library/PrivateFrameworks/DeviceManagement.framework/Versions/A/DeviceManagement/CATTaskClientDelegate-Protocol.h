@@ -5,5 +5,8 @@
 //
 
 @protocol CATTaskClientDelegate
+
+@optional
+- (void);
 @end
 

@@ -9,12 +9,12 @@
 }
 
 + (void);
-+ (id);
++ (id)];
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool)kpko;
++ (_Bool)kpkk;
 + (_Bool);
 + (id);
 + (id);

@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (struct CLLocationCoordinate2D);
-- (id);
+- (id)setSupportAddingBinaryFunctions:(struct _NSZone *)arg1;
 - (id)fetchHawkeyeAISManufacturerName:(struct CLLocationCoordinate2D)arg1;
 
 // Remaining properties

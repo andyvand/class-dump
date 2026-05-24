@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleEmbedOpenLeaderboardMessageHandler
 {
     id scriptsManager;
-    id delegate;
 }
 
 - (void);

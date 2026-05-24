@@ -5,5 +5,7 @@
 //
 
 @protocol SecureBackupConcurrentProtocol
+- (void);
+- (void)lass]];
 @end
 

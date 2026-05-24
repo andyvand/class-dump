@@ -4,57 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSString, PBDataReader;
 
 @interface GEOCategory
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_alias;
-    long long _geoOntologyId;
-    NSMutableArray *_localizedNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _level;
-    struct {
-        unsigned int has_geoOntologyId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_alias:1;
-        unsigned int read_localizedNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ceGuidanceLevel:(id)arg1;
++ (_Bool)setHasNavVoiceGuidanceLevel:(id)arg1;
 - (void);
 - (void);
 - (void);
+- (void)syncableDataclasses;
+- (unsigned long long)_sortCollatorIdentifier;
+- (id)_signature3;
+- (id)V_distributedNotificationCenter;
+- (_Bool)AccountCacheService;
+- (long long)rridable;
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (void)enableVoiceTriggerOnAlwaysOnProcessorWithAsset:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)SVoiceTriggerSecondPass _voiceTriggerFirstPassDidDetectKeywordFrom:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (unsigned long long)";
 - (_Bool);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)initWithTokenName:(id)arg1 start:end:silenceStart:confidence:hasSpaceAfter:hasSpaceBefore:phoneSequence:ipaPhoneSequence: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)String:(struct _NSZone *)arg1;
+- (id)refinementMetadataDefaultTypeAsString:(struct _NSZone *)arg1;
 - (id)¬|;
 - (id)Ì`	¨
 ,;
@@ -66,11 +51,6 @@ X6;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *alias;
-@property(nonatomic) long long geoOntologyId;
-@property(nonatomic) _Bool hasGeoOntologyId;
-@property(nonatomic) int level;
-@property(retain, nonatomic) NSMutableArray *localizedNames;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

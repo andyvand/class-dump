@@ -4,20 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NSURL, NTPBPublisherPaidDescriptionStrings;
-@protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
+@class FCAssetHandle, NSData, NSDate, NSString, NSURL;
+@protocol FCSectionProviding, FCTagProviding;
 
 @protocol FCTagProviding
+- (_Bool);
+- (NSString *);
+- (NSString *);
+- (NSData *);
+- (NSString *)p;
+- (id <FCSectionProviding>)signals:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSString *)Q;
+- (NSString *);
+- (_Bool)ionary"16@0:8 /* Error: Ran out of types for this method. */;
+- (NSString *)p_shouldInsertionSplitChange:changeSession: /* Error: Ran out of types for this method. */;
+- (void)initWithColumnCount:(NSString *)arg1 equalWidth:widthArray:gapArray: /* Error: Ran out of types for this method. */;
+- (long long)headerColumnBodyRowStroke;
+- (NSString *)nersCanDragResize;
+- (_Bool)ldAddReversedFinal;
+- (FCAssetHandle *)uildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDKnobTracker.m;
+- (_Bool)taBuffer p_setAttributeUpdateData:(id <FCTagProviding>)arg1 fromAttribute:] /* Error: Ran out of types for this method. */;
+- (FCAssetHandle *)odifyForUpgrade];
+- (_Bool);
+- (NSDate *);
+- (FCAssetHandle *)`;
 - (_Bool)ÿ;
-- (double)Data;
+- (double)feedData;
 - (_Bool)Ðÿe`k8ÐÿM`kHÐÿ;
 - (_Bool)Ü;
-- (_Bool)zleRevealData;
+- (_Bool)PuzzleRevealData;
 - (_Bool)"nè0Ûÿ"n1Ûÿ"n42Ûÿ;
 - (_Bool);
 - (NSString *)ÿ<m|tÒÿ½<mä;
 - (_Bool)ÿåQm¼ÒÿõQm¸ÒÿõQmÈÒÿÝQmØÒÿ;
-- (NSDate *);
 - (NSString *)}dn;
 - (long long);
 - (NSURL *)Òÿ«nDÄÖÿ;
@@ -26,118 +45,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *adTargetingKeywords;
-@property(readonly, nonatomic) NSArray *allowedStorefrontIDs;
-@property(readonly, nonatomic) _Bool allowsRecipes;
-@property(readonly, nonatomic) NSString *articleRecirculationConfigJSON;
-@property(readonly, nonatomic) id <FCChannelProviding> asChannel;
-@property(readonly, nonatomic) id <FCPuzzleTypeProviding> asPuzzleType;
-@property(readonly, nonatomic) id <FCSectionProviding> asSection;
-@property(readonly, nonatomic) id <FCSportsProviding> asSports;
-@property(readonly, nonatomic) id <FCSportsEventProviding> asSportsEvent;
-@property(readonly, nonatomic) id <FCTopicProviding> asTopic;
-@property(readonly, nonatomic) NSData *backingTagRecordData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSArray *blockedStorefrontIDs;
-@property(readonly, copy, nonatomic) NSString *compactDisplayName;
-@property(readonly, nonatomic) long long contentProvider;
-@property(readonly, nonatomic) NSArray *contextualNames;
-@property(readonly, nonatomic) FCAssetHandle *coverImageAssetHandle;
-@property(readonly, nonatomic) _Bool disableBlock;
-@property(readonly, nonatomic) _Bool disableFollow;
-@property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
-@property(readonly, nonatomic) NSDate *fetchDate;
-@property(readonly, nonatomic) unsigned long long foodGroupingAvailability;
-@property(readonly, copy, nonatomic) FCColor *groupDarkStyleTitleColor;
-@property(readonly, copy, nonatomic) NSString *groupName;
-@property(readonly, copy, nonatomic) FCColor *groupTitleColor;
-@property(readonly, nonatomic) unsigned long long groupingEligibility;
-@property(readonly, nonatomic) _Bool hasEvergreenArticleList;
-@property(readonly, nonatomic) _Bool hasRecipeList;
-@property(readonly, nonatomic) _Bool hasRecipes;
-@property(readonly, nonatomic) _Bool hideAccessoryText;
-@property(readonly, copy, nonatomic) NSString *highlightsArticleListID;
-@property(readonly, nonatomic) NSArray *iAdCategories;
-@property(readonly, nonatomic) NSArray *iAdKeywords;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isArticleReadCountReportingEnabled;
-@property(readonly, nonatomic) _Bool isAutoDarkModeEnabled;
-@property(readonly, nonatomic) _Bool isBlockedExplicitContent;
-@property(readonly, nonatomic) _Bool isDeprecated;
-@property(readonly, nonatomic) _Bool isExplicitContent;
-@property(readonly, nonatomic) _Bool isFoodHub;
-@property(readonly, nonatomic) _Bool isFoodTopic;
-@property(readonly, nonatomic) _Bool isHidden;
-@property(readonly, nonatomic) _Bool isInternal;
-@property(readonly, nonatomic) _Bool isLocal;
-@property(readonly, nonatomic) _Bool isLocalHub;
-@property(readonly, nonatomic) _Bool isMagazine;
-@property(readonly, nonatomic) _Bool isMySports;
-@property(readonly, nonatomic) _Bool isNewspaper;
-@property(readonly, nonatomic) _Bool isNotificationEnabled;
-@property(readonly, nonatomic) _Bool isPublic;
-@property(readonly, nonatomic) _Bool isPuzzleHub;
-@property(readonly, nonatomic) _Bool isPuzzleType;
-@property(readonly, nonatomic) _Bool isRealTimeTrackingEnabled;
-@property(readonly, nonatomic) _Bool isRecipeCatalog;
-@property(readonly, nonatomic) _Bool isSandbox;
-@property(readonly, nonatomic) _Bool isSearchHub;
-@property(readonly, nonatomic) _Bool isSensitiveTopic;
-@property(readonly, nonatomic) _Bool isSports;
-@property(readonly, nonatomic) _Bool isSportsEvent;
-@property(readonly, nonatomic) _Bool isSubscribable;
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, nonatomic) NSDate *lastModifiedDate;
-@property(readonly, nonatomic) NSDate *loadDate;
-@property(readonly, copy, nonatomic) NSString *magazineGenre;
-@property(readonly, nonatomic) long long minimumNewsVersion;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSString *nameCompact;
-@property(readonly, nonatomic) FCAssetHandle *nameImageCompactAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageLargeAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageLargeMaskAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageMaskWidgetHQAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageMaskWidgetLQAssetHandle;
-@property(readonly, copy, nonatomic) FCPaywallConfiguration *paidBundlePaywallConfiguration;
-@property(readonly, nonatomic) NSString *personalizedPaywallName;
-@property(readonly, copy, nonatomic) NSString *primaryAudience;
-@property(readonly, copy, nonatomic) NSString *publisherPaidAuthorizationURL;
-@property(readonly, nonatomic) NSArray *publisherPaidBundlePurchaseIDs;
-@property(readonly, nonatomic) NTPBPublisherPaidDescriptionStrings *publisherPaidDescriptionStrings;
-@property(readonly, nonatomic) NSArray *publisherPaidFeldsparablePurchaseIDs;
-@property(readonly, nonatomic) _Bool publisherPaidLeakyPaywallOptOut;
-@property(readonly, nonatomic) NSArray *publisherPaidOfferableConfigurations;
-@property(readonly, copy, nonatomic) NSString *publisherPaidVerificationURL;
-@property(readonly, nonatomic) _Bool publisherPaidWebAccessOptIn;
-@property(readonly, copy, nonatomic) NSString *publisherPaidWebAccessURL;
-@property(readonly, nonatomic) NSArray *publisherSpecifiedArticleIDs;
-@property(readonly, nonatomic) NSDate *publisherSpecifiedArticleIDsModifiedDate;
-@property(readonly, nonatomic) NSDictionary *publisherSpecifiedArticles;
-@property(readonly, copy, nonatomic) NSString *replacementID;
-@property(readonly, nonatomic) long long score;
-@property(readonly, nonatomic) _Bool sponsoredFeedEligible;
-@property(readonly, nonatomic) FCSportsRecommendationMappings *sportsRecommendationMappings;
-@property(readonly, nonatomic) NSData *sportsRecommendationMappingsJSON;
-@property(readonly, nonatomic) id <FCTagStocksFields> stocksFields;
-@property(readonly, nonatomic) double subscriptionRate;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *superfeedConfigResourceID;
-@property(readonly, nonatomic) NSString *supergroupConfigJson;
-@property(readonly, nonatomic) FCSectionSupergroupKnobs *supergroupKnobs;
-@property(readonly, nonatomic) NSString *supergroupKnobsJson;
 @property(readonly, nonatomic) unsigned long long tagType;
-@property(readonly, copy, nonatomic) id <FCFeedTheming> theme;
-@property(copy, nonatomic) NSString *titleDisplayPrefix;
-@property(copy, nonatomic) NSString *titleDisplaySuffix;
-@property(readonly, nonatomic) _Bool useCompactNameForPersonalizedPaywall;
-@property(readonly, nonatomic) unsigned long long userFacingTagType;
-@property(readonly, copy, nonatomic) NSString *versionKey;
 @end
 

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSServerBag, HMDProcessMonitor, HMDResidentStatusChannel, HMFTimer, NSMutableSet, NSNotificationCenter, NSObject, NSString;
-@protocol HMFTimerProvider, OS_dispatch_queue;
+@class HMDResidentStatusChannel, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelManager
 {
     NSMutableSet *_clientIdentifiers;
-    HMDResidentStatusChannel *_residentStatusChannel;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMFTimerProvider> _timerProvider;
-    HMFTimer *_unsubscribeFromChannelDebounceTimer;
-    HMDIDSServerBag *_idsServerBag;
-    HMDProcessMonitor *_processMonitor;
 }
 
 + (id)RB;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_reportAProblemSearchRecordingsPath;
+- (id)_replacementObjects;
+- (void)transitLineItem;
+- (void)language;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -43,29 +35,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)tring",R,C,N,V_accessoryFirmwareVersion;
-- (void)DynamicPortRule;
+- (void)HMDNetworkRouterDynamicPortRule;
 - (void):%@, user:%@, privateZone:%@ /* Error: Ran out of types for this method. */;
 - (void)r delegate;
-- (void)User;
-- (id)dGuestInfoLogEvent;
+- (void)isOwnerUser;
+- (id)RestrictedGuestInfoLogEvent;
 - (id)8ÿ Ù0?;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *clientIdentifiers; // @synthesize clientIdentifiers=_clientIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDIDSServerBag *idsServerBag; // @synthesize idsServerBag=_idsServerBag;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) HMDProcessMonitor *processMonitor; // @synthesize processMonitor=_processMonitor;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) HMDResidentStatusChannel *residentStatusChannel; // @synthesize residentStatusChannel=_residentStatusChannel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
-@property(retain) HMFTimer *unsubscribeFromChannelDebounceTimer; // @synthesize unsubscribeFromChannelDebounceTimer=_unsubscribeFromChannelDebounceTimer;
 
 @end
 

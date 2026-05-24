@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _CATArbitratorRegistrationEntry;
-
 __attribute__((visibility("hidden")))
 @interface _CATArbitratorResourceProxy
 {
     id mResource;
-    _CATArbitratorRegistrationEntry *mRegistration;
-    _Bool _isExclusive;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isExclusive; // @synthesize isExclusive=_isExclusive;
-@property(readonly) Class superclass;
 
 @end
 

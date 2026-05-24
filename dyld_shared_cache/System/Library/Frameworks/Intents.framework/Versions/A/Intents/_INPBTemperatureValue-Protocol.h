@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBValueMetadata;
+@class NSString, _INPBValueMetadata;
 
 @protocol _INPBTemperatureValue
-- (_Bool)tomIdentifier;
-- (void)edOptionsCollectionForPlayMedia:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)ntitiesOptionsCollectionForConfigureHome:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void);
+- (_Bool)_customIdentifier;
+- (void)providePlayShuffledOptionsCollectionForPlayMedia:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideEntitiesOptionsCollectionForConfigureHome:withCompletion: /* Error: Ran out of types for this method. */;
 - (int)n: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

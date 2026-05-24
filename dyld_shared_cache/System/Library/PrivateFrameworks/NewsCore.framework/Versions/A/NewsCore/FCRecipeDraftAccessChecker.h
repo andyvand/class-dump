@@ -15,11 +15,11 @@
 
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void) ;
 - (_Bool);
-- (id)QueryEndpoint;
+- (id)multiFetchQueryEndpoint;
 - (void)ches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticle.m;
 
 // Remaining properties

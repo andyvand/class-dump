@@ -7,20 +7,17 @@
 @interface _MFAtomTextSelectionRect
 {
     _Bool containsStart;
-    _Bool containsEnd;
-    struct CGRect rect;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (void)X;
+- (_Bool)AlarmStoppedWithID;
+- (_Bool)AlarmSnoozedWithID;
+- (struct CGRect)lane, reason, reason_priority, user_info)
+SELECT m.guid,  ? ,  ? , ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart;
 @property(nonatomic) struct CGRect rect; // @synthesize rect;
 
 @end

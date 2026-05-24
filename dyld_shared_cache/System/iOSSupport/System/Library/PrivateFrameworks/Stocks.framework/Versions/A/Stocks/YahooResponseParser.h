@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)0;
 + (void);
 + (id);
 + (void);

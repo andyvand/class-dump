@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL, NSWindow, PKOrderWindowController;
+@class NSURL;
 
 @interface PKOrderSheet
 {
     NSURL *_orderURL;
-    NSWindow *_hostWindow;
-    PKOrderWindowController *_windowController;
-    NSError *_orderImportError;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);

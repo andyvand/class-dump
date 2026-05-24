@@ -12,28 +12,23 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int isMonitoring:1;
     } _flags;
-    NSArray *_barButtonItems;
-    CDUnknownBlockType _registerObservers;
-    CDUnknownBlockType _unregisterObservers;
 }
 
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)shouldImitateGroupChatUsingChatRooms;
+- (void)scheduledMessageLastModifiedTime;
+- (id)SyncErrorAnalyzing;
+- (CDUnknownBlockType)r, please file a radar to the FindMy team. Error:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)TH;
 - (void);
 - (void);
 - (id)ù
 × ;
-- (void)rPoint;
+- (void)_focusScaleAnchorPoint;
 - (void);
 - (void)P^;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *barButtonItems; // @synthesize barButtonItems=_barButtonItems;
-@property(copy, nonatomic) CDUnknownBlockType registerObservers; // @synthesize registerObservers=_registerObservers;
-@property(copy, nonatomic) CDUnknownBlockType unregisterObservers; // @synthesize unregisterObservers=_unregisterObservers;
 
 @end
 

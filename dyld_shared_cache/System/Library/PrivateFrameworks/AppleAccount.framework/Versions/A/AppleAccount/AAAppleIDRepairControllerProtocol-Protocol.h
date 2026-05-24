@@ -5,5 +5,7 @@
 //
 
 @protocol AAAppleIDRepairControllerProtocol
+- (void)rtable profile;
+- (_Bool)ileManager.profilesForUser ____________________________________________________;
 @end
 

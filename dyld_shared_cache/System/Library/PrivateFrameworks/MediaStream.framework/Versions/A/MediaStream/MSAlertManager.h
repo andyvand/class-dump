@@ -11,11 +11,11 @@
     NSMutableDictionary *_personIDToNotification;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)FPBCommand",&,N,V_command;
+- (void)and;
+- (void)m",&,N,V_spotlightCopyItem;
+- (void)m",&,N;
+- (void)tlightButtonItem",&,N,V_coreSpotlightButtonItem;
 - (id);
 - (void);
 

@@ -10,28 +10,24 @@
 @interface PXStoryAutoEditDurationConstraintSolver
 {
     NSObject<OS_os_log> *_log;
-    struct vector<PFStoryDurationInfo, std::allocator<PFStoryDurationInfo>> _infos;
-    struct vector<PFStoryDurationInfo, std::allocator<PFStoryDurationInfo>> _solveResults;
 }
 
 - (_Bool);
-- (_Bool);
-- (CDStruct_5d4c7ed3);
-- (CDStruct_c8943d03);
+- (_Bool);
+- (CDStruct_f0d1f9bc);
+- (CDStruct_d2aef016);
 - (id);
 - (id);
-- (CDStruct_5d4c7ed3);
+- (CDStruct_f0d1f9bc);
 - (void);
-- (CDStruct_c8943d03);
+- (CDStruct_d2aef016);
 - (id);
-- (id);
+- (id)addObject: /* Error: Ran out of types for this method. */;
 - (unsigned long long)he Handle URL progress alert;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 constrainedOverallDurationInfo;
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 originalOverallDurationInfo;
 
 @end
 

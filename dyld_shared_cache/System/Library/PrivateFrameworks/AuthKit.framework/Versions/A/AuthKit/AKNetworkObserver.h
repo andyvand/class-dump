@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@class NSObject;
+@protocol OS_nw_path_monitor;
 
 @interface AKNetworkObserver
 {
     NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    NSMutableDictionary *_callbacksByObserver;
-    _Bool _isNetworkReachable;
 }
 
 + (id);

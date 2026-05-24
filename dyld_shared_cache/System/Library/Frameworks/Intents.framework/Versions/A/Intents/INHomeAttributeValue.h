@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INHomeAttributeRange, NSString;
-
 @interface INHomeAttributeValue
 {
     _Bool _boolValue;
-    long long _type;
-    double _doubleValue;
-    long long _integerValue;
-    NSString *_stringValue;
-    long long _limitValue;
-    long long _unit;
-    INHomeAttributeRange *_rangeValue;
 }
 
 + (_Bool);
@@ -27,29 +18,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e>",?,R;
 - (unsigned long long);
 - (long long);
 - (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)_cellularDataUsageInLegacyBoundary;
 - (double);
-- (void);
+- (void)networkIsStandalone6GHz;
 - (id);
 - (id);
-- (void)sForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRelativeTemperatureSettingOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (long long)Of;
 
 // Remaining properties
-@property(readonly) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(readonly) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(readonly) long long limitValue; // @synthesize limitValue=_limitValue;
-@property(readonly) INHomeAttributeRange *rangeValue; // @synthesize rangeValue=_rangeValue;
-@property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 @property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) long long unit; // @synthesize unit=_unit;
 
 @end
 

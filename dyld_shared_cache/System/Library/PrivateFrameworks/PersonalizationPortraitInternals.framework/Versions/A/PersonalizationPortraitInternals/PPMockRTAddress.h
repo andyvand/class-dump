@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PPMockRTAddress
 {
     NSString *_subThoroughfare;
-    NSString *_thoroughfare;
-    NSString *_subLocality;
-    NSString *_locality;
-    NSString *_subAdministrativeArea;
-    NSString *_administrativeArea;
-    NSString *_administrativeAreaCode;
-    NSString *_postalCode;
-    NSString *_country;
-    NSString *_countryCode;
-    NSString *_inlandWater;
-    NSString *_ocean;
-    NSArray *_areasOfInterest;
 }
 
 - (void);
@@ -34,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,19 +40,7 @@
 - (void)mappingId:(id)arg1 %@ query:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(retain, nonatomic) NSString *administrativeAreaCode; // @synthesize administrativeAreaCode=_administrativeAreaCode;
-@property(retain, nonatomic) NSArray *areasOfInterest; // @synthesize areasOfInterest=_areasOfInterest;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *inlandWater; // @synthesize inlandWater=_inlandWater;
-@property(retain, nonatomic) NSString *locality; // @synthesize locality=_locality;
-@property(retain, nonatomic) NSString *ocean; // @synthesize ocean=_ocean;
-@property(retain, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(retain, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(retain, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
 @property(retain, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
-@property(retain, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end
 

@@ -7,23 +7,19 @@
 @interface RBProcessCPUMaximumLimits
 {
     unsigned long long _percentage;
-    unsigned long long _duration;
-    unsigned long long _violationPolicy;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)ring",&,N,V_string2Name;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) unsigned long long percentage; // @synthesize percentage=_percentage;
-@property(readonly, nonatomic) unsigned long long violationPolicy; // @synthesize violationPolicy=_violationPolicy;
 
 @end
 

@@ -13,19 +13,18 @@
 }
 
 + (_Bool);
-- (Class);
-- (_Bool);
-- (_Bool);
+- (Class)%;
+- (_Bool)ͽ;
+- (_Bool)t�;
 - (id);
 - (void);
 - (_Bool);
+- (id)tionMessageClass];
 - (id);
-- (id);
-- (id)llyLoadedAssetKeys:(id)arg1;
+- (id)playerItemWithAsset:(id)arg1 automaticallyLoadedAssetKeys: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAssociatedWithFragmentMinder) _Bool associatedWithFragmentMinder;
 @property(readonly, nonatomic) NSArray *tracks;
 
 @end

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id _transaction;
 }
 
-- (id);
+- (id)0R;
 - (void)ýÿÿÿ;
 
 @end

@@ -6,27 +6,19 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPTextViewStyle, NSAttributedString, NSFont, NSRegularExpression, NSString, NSTextField;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface LPTextView : LPComponentView
 {
     struct NSEdgeInsets _contentInset;
-    LPTextViewStyle *_style;
-    NSAttributedString *_attributedString;
-    double _ascender;
-    double _descender;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    NSTextField *_textView;
-    NSFont *_font;
 }
 
 + (id);
 + (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)X;
 - (long long);
 - (void);
 - (id);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ᇹ;
 - (_Bool);
 - (double);
 - (id);
@@ -51,31 +43,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct NSEdgeInsets);
+- (id)listContainedPaths;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)8;
+- (void)8
+;
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) NSFont *fallbackFont;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) NSFont *preferredFont;
-@property(readonly, retain, nonatomic) LPTextViewStyle *style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTextField *textView; // @synthesize textView=_textView;
 
 @end
 

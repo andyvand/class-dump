@@ -6,37 +6,19 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFOpenCalculationCommand : SFCommand
 {
     struct {
         unsigned int shouldOpenCurrencyConversionProvider:1;
     } _has;
-    _Bool _shouldOpenCurrencyConversionProvider;
-    NSString *_input;
-    NSString *_output;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(copy, nonatomic) NSString *output; // @synthesize output=_output;
-@property(nonatomic) _Bool shouldOpenCurrencyConversionProvider; // @synthesize shouldOpenCurrencyConversionProvider=_shouldOpenCurrencyConversionProvider;
-@property(readonly) Class superclass;
 
 @end
 

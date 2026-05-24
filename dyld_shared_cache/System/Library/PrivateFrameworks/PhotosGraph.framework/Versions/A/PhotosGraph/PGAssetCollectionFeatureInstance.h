@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGAssetCollectionFeatureSpecification, PGGraphFeatureNodeCollection, PGGraphMomentNode;
+@class PGAssetCollectionFeatureSpecification;
 
 @interface PGAssetCollectionFeatureInstance
 {
     PGAssetCollectionFeatureSpecification *_specification;
-    PGGraphMomentNode *_momentNode;
-    PGGraphFeatureNodeCollection *_featureNodes;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void)- name:%@, weight:%.2f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) PGGraphFeatureNodeCollection *featureNodes; // @synthesize featureNodes=_featureNodes;
-@property(readonly) PGGraphMomentNode *momentNode; // @synthesize momentNode=_momentNode;
 @property(readonly) PGAssetCollectionFeatureSpecification *specification; // @synthesize specification=_specification;
 
 @end

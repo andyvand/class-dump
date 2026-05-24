@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMPixelBufferWrapper, CIImage, NSString, NSURL;
-
 @interface AXMPipelineContextInput
 {
     long long _inputType;
-    CIImage *_ciImage;
-    NSURL *_photoLibraryURL;
-    AXMPixelBufferWrapper *_pixelBuffer;
-    struct CGColorSpace *_extendedSRGBColorSpace;
-    NSString *_phAssetLocalIdentifier;
-    NSURL *_URL;
-    struct CGSize _cachedImageURLSize;
 }
 
++ (id)ę[|;
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)|;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)setObject:forKey: /* Error: Ran out of types for this method. */;
 - (struct __CVBuffer *);
 - (id);
 - (struct CGImage *);
+- (id)k[|;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (struct CGColorSpace *);
-- (id);
+- (id);
+- (struct CGColorSpace *){;
+- (id)z;
 - (long long);
 - (void);
 - (id);
@@ -50,15 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) CIImage *ciImage;
-@property(readonly, nonatomic) struct CGColorSpace *imageColorSpace;
 @property(readonly, nonatomic) long long inputType;
-@property(readonly, nonatomic) NSString *phAssetLocalIdentifier;
-@property(readonly, nonatomic) NSURL *photoLibraryURL;
-@property(readonly, nonatomic) AXMPixelBufferWrapper *pixelBuffer;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) struct __CVBuffer *wrappedPixelBuffer;
 
 @end
 

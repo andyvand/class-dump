@@ -6,7 +6,7 @@
 
 @interface UnknownClass (AggregateDictionaryAdditions)
 + (int);
-+ (id);
++ (id);
 - (int);
 @end
 

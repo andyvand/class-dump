@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PPScoredEvent
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_title;
-    double _score;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)controlPointsForFunctionType:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

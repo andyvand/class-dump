@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CKDPResponseLogging)
-- (unsigned long long);
+- (unsigned long long)on grandmaster;
 - (_Bool);
 - (void);
 @end

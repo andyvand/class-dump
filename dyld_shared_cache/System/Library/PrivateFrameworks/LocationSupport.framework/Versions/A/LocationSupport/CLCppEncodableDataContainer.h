@@ -11,8 +11,6 @@
 @interface CLCppEncodableDataContainer : CLCppContainer
 {
     NSData *_serialized;
-    id _compatibilityInfo;
-    CDUnknownBlockType _encoder;
 }
 
 + (id);
@@ -23,15 +21,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)eater than this volume's size. System used amount:%llu (%@), this volume:%@ :%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) id compatibilityInfo; // @synthesize compatibilityInfo=_compatibilityInfo;
-@property(copy, nonatomic) CDUnknownBlockType encoder; // @synthesize encoder=_encoder;
 @property(copy, nonatomic) NSData *serialized; // @synthesize serialized=_serialized;
 
 @end

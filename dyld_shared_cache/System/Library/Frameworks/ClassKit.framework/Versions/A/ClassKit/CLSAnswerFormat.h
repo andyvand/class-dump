@@ -11,8 +11,8 @@
     long long _answerFormatType;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)_benefactors;
+- (void)eRef);
 - (long long);
 - (_Bool);
 - (id);

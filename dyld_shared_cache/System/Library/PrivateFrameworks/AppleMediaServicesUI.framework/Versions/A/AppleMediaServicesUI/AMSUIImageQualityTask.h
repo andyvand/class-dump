@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (void)purchase:handleSceneIdentifierRequest:purchaseQueue:error: /* Error: Ran out of types for this method. */;
 
 @end
 

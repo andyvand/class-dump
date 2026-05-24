@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.SiriDonator.DataFetcher
 {
     id donationType;
-    id iTunesAccount;
-    id mediaRequestController;
-    id workQueue;
-    id donationData;
 }
 
 @end

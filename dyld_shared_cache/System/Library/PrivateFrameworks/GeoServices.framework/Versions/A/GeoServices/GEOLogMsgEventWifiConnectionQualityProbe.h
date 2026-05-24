@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWiFiConnectionQuality, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventWifiConnectionQualityProbe
 {
     PBUnknownFields *_unknownFields;
-    GEOWiFiConnectionQuality *_wifiConnectionQuality;
 }
 
-+ (_Bool)entEventId:(id)arg1;
++ (_Bool)setHasSubsequentEventId:(id)arg1;
 - (id);
 - (void);
 - (_Bool);
@@ -28,17 +27,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)wAtDistance;
-- (id)ecifiers:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)showAtDistance;
+- (id)localizedStringWithValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
 - (id), hasTemplateUrl :%s /* Error: Ran out of types for this method. */;
 - (id)ÿÿ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasWifiConnectionQuality;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOWiFiConnectionQuality *wifiConnectionQuality;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDRecord.h>
 
-@class CNCDContainer, NSString;
+@class NSString;
 
 @interface ABCDInfo : ABCDRecord
 {
@@ -14,8 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) CNCDContainer *container; // @dynamic container;
 @property(retain, nonatomic) NSString *meUniqueId;
-@property(retain, nonatomic) NSString *serialNumber;
 @end
 

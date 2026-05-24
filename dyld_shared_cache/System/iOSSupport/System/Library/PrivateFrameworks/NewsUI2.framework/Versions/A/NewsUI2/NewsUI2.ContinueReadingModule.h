@@ -7,7 +7,6 @@
 @interface NewsUI2.ContinueReadingModule
 {
     id featureSettings;
-    id resolver;
 }
 
 @end

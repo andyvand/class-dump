@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSTextField;
 
 @interface LUI2BatteryView
 {
     NSTextField *_batteryTextField;
-    NSImageView *_batteryImageView;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSImageView *batteryImageView; // @synthesize batteryImageView=_batteryImageView;
 @property(retain) NSTextField *batteryTextField; // @synthesize batteryTextField=_batteryTextField;
 
 @end

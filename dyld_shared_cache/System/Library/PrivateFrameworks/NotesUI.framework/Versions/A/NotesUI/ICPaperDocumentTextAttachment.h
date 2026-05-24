@@ -6,12 +6,11 @@
 
 #import <NotesUI/ICSystemPaperTextAttachment.h>
 
-@class ICPDFEncryptionStateChecker, NSURL;
+@class ICPDFEncryptionStateChecker;
 
 @interface ICPaperDocumentTextAttachment : ICSystemPaperTextAttachment
 {
     _Bool _viewportShouldSnapToAttachmentView;
-    ICPDFEncryptionStateChecker *_encryptionStateChecker;
 }
 
 + (_Bool);
@@ -19,9 +18,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) ICPDFEncryptionStateChecker *encryptionStateChecker; // @synthesize encryptionStateChecker=_encryptionStateChecker;
-@property(readonly, nonatomic) _Bool isLegacyMediaType;
-@property(readonly, nonatomic) NSURL *pdfURL;
-@property(nonatomic) _Bool viewportShouldSnapToAttachmentView; // @synthesize viewportShouldSnapToAttachmentView=_viewportShouldSnapToAttachmentView;
 
 @end
 

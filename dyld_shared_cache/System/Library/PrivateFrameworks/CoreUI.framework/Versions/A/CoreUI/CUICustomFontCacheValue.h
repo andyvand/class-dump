@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface CUICustomFontCacheValue
 {
     struct __CTFontDescriptor *_fontDescriptor;
-    double _baselineAdjustment;
 }
 
 - (void);
 - (double);
 - (struct __CTFontDescriptor *);
-- (void);
+- (void)5;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double baselineAdjustment; // @synthesize baselineAdjustment=_baselineAdjustment;
 @property(retain, nonatomic) struct __CTFontDescriptor *fontDescriptor;
 
 @end

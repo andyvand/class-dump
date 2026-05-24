@@ -5,5 +5,6 @@
 //
 
 @protocol PKTextInputLanguageSelectionControllerObserver
+- (void);
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCandidateListTouchBarItem, NSString, NSTextInputContext, NSTouchBar, NSView;
-@protocol NSTextInputClient;
+@class NSTextInputContext;
 
 __attribute__((visibility("hidden")))
 @interface NSBridgedTextTouchBarController
 {
     _Bool _pendingCandidateUpdate;
-    NSTextInputContext *_textInputContext;
-    NSView<NSTextInputClient> *_inputView;
-    NSTouchBar *_touchBar;
-    NSCandidateListTouchBarItem *_candidateListItem;
-    long long _spellCheckerDocumentTag;
-    unsigned long long _candidateSequenceNumber;
-    NSString *_lastCandidateString;
 }
 
 - (unsigned long long);
@@ -30,22 +22,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ionStreamTask"24@"NSInputStream"32@"NSOutputStream"40;
+- (void)8@"NSURLSession"16@"NSURLSessionStreamTask"24;
+- (void)loadConfig: /* Error: Ran out of types for this method. */;
+- (_Bool)_getCookiesForURL:mainDocumentURL:partition:policyProperties:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)after use cred;
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)output is on;
 - (struct _NSRange);
 - (void);
 - (void);
@@ -53,27 +45,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)on:(id)arg1;
+- (void)_updateFramesForPencils:(id)arg1 duration: /* Error: Ran out of types for this method. */;
 - (id)nNumber=%ld;
 - (void)¾Ñ´JD;
 - (id)è¶{ÿÿk+J;
 
 // Remaining properties
-@property(retain) NSCandidateListTouchBarItem *candidateListItem; // @synthesize candidateListItem=_candidateListItem;
-@property unsigned long long candidateSequenceNumber; // @synthesize candidateSequenceNumber=_candidateSequenceNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSView<NSTextInputClient> *inputView; // @synthesize inputView=_inputView;
-@property(copy) NSString *lastCandidateString; // @synthesize lastCandidateString=_lastCandidateString;
-@property _Bool pendingCandidateUpdate; // @synthesize pendingCandidateUpdate=_pendingCandidateUpdate;
-@property long long spellCheckerDocumentTag; // @synthesize spellCheckerDocumentTag=_spellCheckerDocumentTag;
-@property(readonly) Class superclass;
 @property __weak NSTextInputContext *textInputContext; // @synthesize textInputContext=_textInputContext;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

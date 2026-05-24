@@ -7,7 +7,6 @@
 @interface AccessibilitySharedSupport.AXSSRemoteDesktopCoder
 {
     id _keyPair;
-    id _symmetricKey;
 }
 
 @end

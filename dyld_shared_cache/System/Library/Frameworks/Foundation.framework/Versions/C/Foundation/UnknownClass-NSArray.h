@@ -13,17 +13,17 @@
 + (id);
 + (_Bool);
 - (void);
+- (id)Z;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�@�;
 - (id);
 - (id);
 - (void);
@@ -57,20 +57,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
 - (id);
 - (Class);
-- (void);
+- (void)e;
 - (id);
 - (void);
-- (id)ShouldHandleCookies;
+- (id)HTTPShouldHandleCookies;
 - (id);
 - (void)Ü;
 - (void)h whose UTF-8 representation contains a NUL character;
@@ -80,7 +80,7 @@
 - (void);
 - (id)Pk;
 - (id)8;
-- (_Bool);
+- (_Bool)xv9;
 - (_Bool)¢:(id)arg1;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMSPIRecentEvent
 {
     NSString *_handle;
-    NSDate *_date;
-    NSString *_labelID;
 }
 
 - (id);
@@ -25,9 +23,7 @@
 - (void)$;
 
 // Remaining properties
-@property(retain) NSDate *date; // @synthesize date=_date;
 @property(retain) NSString *handle; // @synthesize handle=_handle;
-@property(retain) NSString *labelID; // @synthesize labelID=_labelID;
 
 @end
 

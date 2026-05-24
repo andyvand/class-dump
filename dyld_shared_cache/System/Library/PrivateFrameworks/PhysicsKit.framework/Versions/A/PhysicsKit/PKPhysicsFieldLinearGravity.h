@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mStatusItem;
 - (id);
 - (id);
 - (void);

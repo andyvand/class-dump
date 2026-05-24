@@ -7,7 +7,6 @@
 @interface CallHistory.LegacyManager
 {
     id chManager;
-    id delegate;
 }
 
 @end

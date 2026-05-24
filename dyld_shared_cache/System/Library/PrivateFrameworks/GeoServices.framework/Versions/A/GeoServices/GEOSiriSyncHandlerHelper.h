@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface GEOSiriSyncHandlerHelper
 {
     NSArray *_additionalEnabledMarkets;
-    NSString *_manifestEnvironment;
-    NSData *_clientMetadata;
 }
 
 - (id);
@@ -18,14 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id)TapewormInstructionCount;
+- (id)__perf_NanomapsgdTapewormInstructionCount;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additionalEnabledMarkets; // @synthesize additionalEnabledMarkets=_additionalEnabledMarkets;
-@property(readonly, nonatomic) NSData *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, nonatomic) NSString *manifestEnvironment; // @synthesize manifestEnvironment=_manifestEnvironment;
-@property(readonly, nonatomic) NSString *postAnchor;
 
 @end
 

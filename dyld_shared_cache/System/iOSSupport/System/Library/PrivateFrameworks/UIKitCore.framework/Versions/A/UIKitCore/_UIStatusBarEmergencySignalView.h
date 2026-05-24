@@ -6,31 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, NSString, UIAccessibilityHUDItem, UIImageView, _UIStatusBarCellularSignalView;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarEmergencySignalView : UIView
 {
     _Bool _rounded;
-    UIImageView *_sosView;
-    _UIStatusBarCellularSignalView *_signalView;
-    long long _iconSize;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_verticalInterspaceConstraint;
-    struct UIEdgeInsets _alignmentRectInsets;
 }
 
 + (double);
 + (double)ingSpacerType;
 - (id);
-- (id);
+- (id)%@ number of messages:%lu /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct CGSize);
 - (void);
 - (long long)SArray"16@"_UIFeedback"24d32;
 - (void)hasNonContiguousLayout;
-- (id)icationInfo;
+- (id)_keyboardHeightChangeNotificationInfo;
 - (void)eToFocusUpdate,S_setDeferViewUpdateToFocusUpdate:(_Bool)arg1;
 - (void)d Vertical Movement;
 - (void)233333Ã?;
@@ -44,40 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) _Bool rounded; // @synthesize rounded=_rounded;
-@property(readonly) _UIStatusBarCellularSignalView *signalView; // @synthesize signalView=_signalView;
-@property(readonly) UIImageView *sosView; // @synthesize sosView=_sosView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraint; // @synthesize topConstraint=_topConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *verticalInterspaceConstraint; // @synthesize verticalInterspaceConstraint=_verticalInterspaceConstraint;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

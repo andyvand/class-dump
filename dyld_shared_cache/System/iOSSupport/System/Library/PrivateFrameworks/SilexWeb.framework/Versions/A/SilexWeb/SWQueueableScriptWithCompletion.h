@@ -9,16 +9,14 @@
 @interface SWQueueableScriptWithCompletion
 {
     id <SWScript> _script;
-    CDUnknownBlockType _completion;
 }
 
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly, nonatomic) id <SWScript> script; // @synthesize script=_script;
 
 @end

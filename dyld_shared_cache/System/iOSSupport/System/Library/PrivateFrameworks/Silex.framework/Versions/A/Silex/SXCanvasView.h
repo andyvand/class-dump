@@ -14,7 +14,7 @@
 + (Class);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)m;
 - (void)
 × ;
 - (void)SXDOM"24;

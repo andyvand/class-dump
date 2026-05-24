@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/MKFLocalBulletinAccessoryRegistration.h>
 
-@class MKFLocalBulletinServiceGroup;
-
 __attribute__((visibility("hidden")))
 @interface MKFLocalBulletinServiceRegistration : MKFLocalBulletinAccessoryRegistration
 {
@@ -17,7 +15,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) MKFLocalBulletinServiceGroup *bulletinServiceGroup; // @dynamic bulletinServiceGroup;
 @property(nonatomic) long long serviceInstanceID; // @dynamic serviceInstanceID;
 
 @end

@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void);
+- (id)_isHandleIDEligibleToReceiveAutomaticInvitation:isContact: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

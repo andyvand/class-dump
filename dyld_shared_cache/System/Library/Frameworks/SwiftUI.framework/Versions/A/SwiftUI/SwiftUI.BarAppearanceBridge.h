@@ -7,23 +7,11 @@
 @interface SwiftUI.BarAppearanceBridge
 {
     id platformStorage;
-    id updateContext;
-    id allowedBars;
-    id lastEnvironment;
-    id lastBarUpdates;
-    id lastNavigationTitleStorage;
-    id lastNavigationSubtitle;
-    id lastToolbarInputContent;
-    id barBackgroundViewModels;
-    id barConfigurations;
-    id toUpdateBars;
-    id seedTracker;
-    id pendingUpdates;
 }
 
 - (id);
 - (void);
-- (void)enceKey;
+- (void)WidgetAuxiliaryURLPreferenceKey;
 
 @end
 

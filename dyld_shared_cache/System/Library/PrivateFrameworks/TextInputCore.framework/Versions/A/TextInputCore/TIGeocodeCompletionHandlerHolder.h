@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _geocodeCompletionHandler;
 }
 
-- (void);
+- (void)from connect notification;
 - (CDUnknownBlockType);
 - (void)°!Cùqið1Â0@ù
 × ;

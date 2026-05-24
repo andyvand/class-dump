@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)hArguments:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)executeWithArguments:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ööö÷øùùúûüýýþÿÿ;
 
 @end

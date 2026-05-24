@@ -7,20 +7,11 @@
 @interface _MRGameControllerDigitizerProtobuf
 {
     unsigned long long _timestamp;
-    double _x;
-    double _y;
-    _Bool _touchDown;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int x:1;
-        unsigned int y:1;
-        unsigned int touchDown:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -29,30 +20,23 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)R;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)getPrimaryUserSharedUserInfoWithCompletion:(double)arg1;
+- (id):completion:] /* Error: Ran out of types for this method. */;
 - (double);
 - (double):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTouchDown;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool touchDown; // @synthesize touchDown=_touchDown;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

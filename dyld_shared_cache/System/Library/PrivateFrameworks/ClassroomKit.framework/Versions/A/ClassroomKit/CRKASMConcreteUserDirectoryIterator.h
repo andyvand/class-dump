@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol CRKClassKitQuery, CRKClassKitRosterRequirements;
+@protocol CRKClassKitRosterRequirements;
 
 @interface CRKASMConcreteUserDirectoryIterator
 {
     _Bool _executing;
-    id <CRKClassKitRosterRequirements> _requirements;
-    id <CRKClassKitQuery> _query;
-    NSMutableArray *_queryCompletionQueue;
 }
 
-+ (id);
++ (id)#;
 - (void);
 - (void);
 - (id);
@@ -24,21 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)et;
-- (void)Instructors;
+- (_Bool)fireAndForget;
+- (void)activeInstructors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CRKClassKitQuery> query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSMutableArray *queryCompletionQueue; // @synthesize queryCompletionQueue=_queryCompletionQueue;
 @property(readonly, nonatomic) id <CRKClassKitRosterRequirements> requirements; // @synthesize requirements=_requirements;
-@property(readonly) Class superclass;
 
 @end
 

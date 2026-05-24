@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPIdentifier, CKDPRecordZoneIdentifier;
+@class CKDPIdentifier;
 
 @interface CKDPZoneUsage
 {
     CKDPIdentifier *_deviceIdentifier;
-    CKDPDate *_time;
-    CKDPIdentifier *_userIdentifier;
-    int _version;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    CDStruct_f20694ce _has;
 }
 
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,36 +20,27 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)%@, state.supportedAudioFormats=%@;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)SystemInVehicleCount;
 - (id);
 - (_Bool);
+- (void)D:(int)arg1;
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)3;
 - (id)AÐ!BùQÛ1Â0@ù
 × ;
-- (void)omServer;
+- (void)dontFetchFromServer;
 - (void)ÌØ;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPIdentifier *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) _Bool hasDeviceIdentifier;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasUserIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPDate *time; // @synthesize time=_time;
-@property(retain, nonatomic) CKDPIdentifier *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(nonatomic) int version; // @synthesize version=_version;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

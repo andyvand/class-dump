@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSDate, NSString, UIColor;
-
 @interface EKExpandedHashableReminder
 {
     _Bool _completed;
-    _Bool _editable;
-    NSDate *_date;
-    UIColor *_color;
-    NSString *_title;
-    NSString *_buttonImageName;
-    EKEvent *_event;
 }
 
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)s;
 - (id);
 - (_Bool);
+- (id);
 - (void);
+- (unsigned long long)B;
+- (id);
+- (id);
+- (_Bool)0:(id)arg1 8@"UIApplication"16@"NSUserActivity"24;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void): /* Error: Ran out of types for this method. */;
+- (_Bool)0;
+- (void)setShowsTravelTime: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buttonImageName; // @synthesize buttonImageName=_buttonImageName;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

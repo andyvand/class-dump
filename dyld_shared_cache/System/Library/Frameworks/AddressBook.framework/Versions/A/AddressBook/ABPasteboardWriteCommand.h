@@ -5,12 +5,10 @@
 //
 
 @class NSPasteboard;
-@protocol ABPasteboardData;
 
 @interface ABPasteboardWriteCommand
 {
     NSPasteboard *_pasteboard;
-    id <ABPasteboardData> _pasteboardData;
 }
 
 - (id);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSPasteboard *pasteboard; // @synthesize pasteboard=_pasteboard;
-@property(readonly) id <ABPasteboardData> pasteboardData; // @synthesize pasteboardData=_pasteboardData;
 
 @end
 

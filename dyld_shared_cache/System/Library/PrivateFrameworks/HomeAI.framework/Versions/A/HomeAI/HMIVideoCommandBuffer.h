@@ -6,26 +6,16 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class HMITimeIntervalAverage, NSCondition, NSObject, NSString;
-@protocol HMIVideoCommandBufferDelegate, OS_dispatch_queue;
-
 @interface HMIVideoCommandBuffer : HMIVideoProcessingNode
 {
     CDStruct_1b6d18a9 _duration;
-    unsigned long long _size;
-    unsigned long long _capacity;
-    NSCondition *_condition;
-    HMITimeIntervalAverage *_sampleBufferDelay;
-    id <HMIVideoCommandBufferDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    CDStruct_1b6d18a9 _videoDuration;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (float);
+- (float);
 - (void);
 - (id);
 - (id);
@@ -33,35 +23,18 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)9N:(id)arg1 N;N<;
 - (unsigned long long);
-- (id);
+- (id)(;
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (_Bool);
+- (void);
+- (CDStruct_1b6d18a9);
+- (_Bool)-_;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly) NSCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) double delay;
-@property __weak id <HMIVideoCommandBufferDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) float fillRatio;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isEmpty;
-@property(readonly) _Bool isFull;
-@property(readonly) HMITimeIntervalAverage *sampleBufferDelay; // @synthesize sampleBufferDelay=_sampleBufferDelay;
 @property unsigned long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(readonly) CDStruct_1b6d18a9 videoDuration; // @synthesize videoDuration=_videoDuration;
 
 @end
 

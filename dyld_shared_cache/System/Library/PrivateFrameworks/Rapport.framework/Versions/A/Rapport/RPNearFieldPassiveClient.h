@@ -11,11 +11,11 @@
     CDUnknownBlockType _alwaysOnHandler;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType alwaysOnHandler; // @synthesize alwaysOnHandler=_alwaysOnHandler;

@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKDeleteCalendarsConfirmationInfo, NSArray, NSMutableArray, NSString;
+@class NSArray;
 
 @interface CUIKDeleteCalendarsDecisionManager
 {
     NSArray *_calendars;
-    NSMutableArray *_confirmations;
-    _Bool _performed;
-    _Bool _canceled;
-    _Bool _reportSpam;
-    unsigned long long _rejectionReason;
-    NSString *_rejectionTitle;
-    NSString *_rejectionDetails;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -40,18 +33,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)];
 - (void);
 - (id);
 - (void);
-- (void)ForFont: /* Error: Ran out of types for this method. */;
+- (void)scaledCalendarInvitationDotForFont: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CUIKDeleteCalendarsConfirmationInfo *nextConfirmation;
 @property(readonly, nonatomic) _Bool rejected;
-@property(readonly, nonatomic) NSString *rejectionDetails; // @synthesize rejectionDetails=_rejectionDetails;
-@property(readonly, nonatomic) unsigned long long rejectionReason; // @synthesize rejectionReason=_rejectionReason;
-@property(readonly, nonatomic) NSString *rejectionTitle; // @synthesize rejectionTitle=_rejectionTitle;
 
 @end
 

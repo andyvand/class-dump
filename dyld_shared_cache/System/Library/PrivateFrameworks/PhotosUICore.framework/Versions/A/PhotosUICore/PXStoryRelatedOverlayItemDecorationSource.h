@@ -6,41 +6,31 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSString, PXStoryRelatedOverlayLayout, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryRelatedOverlayItemDecorationSource : PXStoryController
 {
     long long _selectedIndex;
-    PXStoryRelatedOverlayLayout *_decoratedLayout;
-    PXStoryViewModel *_viewModel;
 }
 
 - (void);
 - (long long);
 - (unsigned long long);
 - (id);
-- (CDStruct_0054b44d);
+- (CDStruct_818bb265);
 - (long long);
 - (id);
+- (void)T;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)rtableStereoViewingKey;
+- (void)kPXFeedbackImageQualityUncomfortableStereoViewingKey;
 - (void)U´;
 - (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak PXStoryRelatedOverlayLayout *decoratedLayout; // @synthesize decoratedLayout=_decoratedLayout;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

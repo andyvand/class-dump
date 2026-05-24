@@ -10,6 +10,7 @@
 
 @optional
 - (long long);
-- (void)Delegate:(UIPresentationController *)arg1 forViewController: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)_setPaneDelegate:(UIPresentationController *)arg1 forViewController: /* Error: Ran out of types for this method. */;
 @end
 

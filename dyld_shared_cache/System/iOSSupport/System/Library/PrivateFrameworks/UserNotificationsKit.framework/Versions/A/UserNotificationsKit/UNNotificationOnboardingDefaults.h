@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
++ (void)WFGetHalfwayPointSecondLocation;
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 

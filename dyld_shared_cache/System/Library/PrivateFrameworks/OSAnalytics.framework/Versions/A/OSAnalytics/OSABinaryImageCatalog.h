@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, OSABinaryImageSegment;
+@class OSABinaryImageSegment;
 
 @interface OSABinaryImageCatalog
 {
     OSABinaryImageSegment *_absolute_segment;
-    OSABinaryImageSegment *_kernel_cache_segment;
-    NSMutableArray *_kernel_segments;
-    NSMutableArray *_kernel_text_exec_segments;
-    NSMutableArray *_rootedCacheLibs;
-    OSABinaryImageSegment *_targeted_cache;
-    unsigned long long _targeted_slide;
-    NSMutableDictionary *_shared_segments;
-    NSMutableArray *_used_segments;
-    NSMutableArray *_exclave_shared_caches;
-    NSMutableArray *_notes;
 }
 
 + (_Bool);
@@ -33,8 +23,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)B;
+- (id);
 - (unsigned long long);
 - (void);
 - (void);

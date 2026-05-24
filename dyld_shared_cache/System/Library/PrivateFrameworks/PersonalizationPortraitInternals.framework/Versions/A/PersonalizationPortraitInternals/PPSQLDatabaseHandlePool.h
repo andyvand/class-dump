@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _PASSqliteDatabase;
+@class _PASSqliteDatabase;
 
 @interface PPSQLDatabaseHandlePool
 {
     _PASSqliteDatabase *readWriteHandle;
-    NSMutableArray *availableReadOnlyHandles;
-    unsigned long long totalReadOnlyHandles;
 }
 
 - (void)0@ù

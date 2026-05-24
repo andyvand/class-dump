@@ -9,9 +9,9 @@
     _Bool _analyticsSaveToFile;
 }
 
-+ (id);
++ (id)nnection;
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (id);

@@ -6,21 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface JRSchemaJREntitySimilarityRow : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_candidateA;
-    SISchemaUUID *_candidateB;
-    float _similarityScore;
-    CDStruct_76ff307a _has;
-    _Bool _hasCandidateA;
-    _Bool _hasCandidateB;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,18 +37,12 @@
 - (id);
 - (id)!Bù±ßð1Â0@ù
 × ;
-- (id)wedContinuousZeros;
-- (id)maAudioFirstBufferRecorded;
+- (id)hasMaxNumAllowedContinuousZeros;
+- (id)SISchemaAudioFirstBufferRecorded;
 - (void)é!";
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *candidateA; // @synthesize candidateA=_candidateA;
-@property(retain, nonatomic) SISchemaUUID *candidateB; // @synthesize candidateB=_candidateB;
-@property(nonatomic) _Bool hasCandidateA; // @synthesize hasCandidateA=_hasCandidateA;
-@property(nonatomic) _Bool hasCandidateB; // @synthesize hasCandidateB=_hasCandidateB;
-@property(nonatomic) _Bool hasSimilarityScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float similarityScore; // @synthesize similarityScore=_similarityScore;
 
 @end
 

@@ -6,14 +6,10 @@
 
 #import <WebInspector/RWIServiceConnection.h>
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface RWIServiceXPCConnection : RWIServiceConnection
 {
     _Bool _validated;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 - (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 @end
 

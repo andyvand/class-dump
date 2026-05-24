@@ -10,10 +10,10 @@
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)@;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hy"64q72;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowNoteEditingOutsideOfEditMode; // @synthesize allowNoteEditingOutsideOfEditMode=_allowNoteEditingOutsideOfEditMode;

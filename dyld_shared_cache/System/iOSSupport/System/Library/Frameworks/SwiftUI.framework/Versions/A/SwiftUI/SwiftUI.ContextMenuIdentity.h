@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (id);
-- (long long);
+- (id)@28@0:8@16i24 /* Error: Ran out of types for this method. */;
+- (long long)s neither an ICLegacyNote or ICLegacyFolder:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

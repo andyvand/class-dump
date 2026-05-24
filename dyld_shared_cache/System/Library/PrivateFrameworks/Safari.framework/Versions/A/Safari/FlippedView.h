@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)ring",C,N,V_threadIdentifier;
 
 @end
 

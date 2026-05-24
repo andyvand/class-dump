@@ -10,9 +10,9 @@
 
 + (void);
 + (void);
++ (void);
 + (void);
-+ (void);
-+ (id);
++ (id)trombavate;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODMSiriSchemaODMSiriRequestCounts : SISchemaInstrumentationMessage
 {
     unsigned int _allRequestCount;
-    unsigned int _userRequestCount;
-    struct {
-        unsigned int allRequestCount:1;
-        unsigned int userRequestCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -24,12 +17,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9
+A;
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)(+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,10 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int allRequestCount; // @synthesize allRequestCount=_allRequestCount;
-@property(nonatomic) _Bool hasAllRequestCount;
-@property(nonatomic) _Bool hasUserRequestCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int userRequestCount; // @synthesize userRequestCount=_userRequestCount;
 
 @end
 

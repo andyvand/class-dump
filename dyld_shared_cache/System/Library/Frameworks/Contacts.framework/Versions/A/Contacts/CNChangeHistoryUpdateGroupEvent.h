@@ -13,13 +13,13 @@
     CNGroup *_group;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (_Bool);
-- (long long);
+- (long long);
+- (id):(id)arg1 8{CGSize=dd}16;
+- (void)ystem/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)o call can't be made ;
 - (id);
 - (unsigned long long);
 - (_Bool);

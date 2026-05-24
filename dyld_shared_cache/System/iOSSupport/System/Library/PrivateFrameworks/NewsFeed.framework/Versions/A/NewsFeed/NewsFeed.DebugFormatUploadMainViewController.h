@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatUploadMainViewController
 {
     id uploadNavigationController;
-    id uploadDiffNavigationController;
-    id editor;
 }
 
 - (id);

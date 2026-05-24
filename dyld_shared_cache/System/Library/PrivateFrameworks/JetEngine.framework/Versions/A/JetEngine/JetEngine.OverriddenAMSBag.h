@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-@protocol AMSBagProtocol;
-
 @interface JetEngine.OverriddenAMSBag
 {
     id backing;
-    id overrides;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
 @property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
-@property(nonatomic, readonly) id <AMSBagProtocol> replacingSnapshotIfNeeded;
 
 @end
 

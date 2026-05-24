@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)iew"24@"NSArray"32{_NSRange=QQ}40^q56;
++ (id)ount;
 
 @end
 

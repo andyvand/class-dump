@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (void)safari_matchesErrorDomain:(NSCoder *)arg1 andCode: /* Error: Ran out of types for this method. */;
 @end
 

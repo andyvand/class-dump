@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface MSServiceAccount
 {
     NSString *_serviceName;
     NSString *_accountName;
-    NSString *_clientID;
-    NSString *_clientSecret;
-    NSURL *_configurationURL;
-    NSURL *_authorizationTokenURL;
-    NSString *_authorizationScope;
 }
 
 - (void);
@@ -30,15 +25,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)AL_OUT_OF_MEMORY;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountName; // @synthesize accountName=_accountName;
-@property(copy, nonatomic) NSString *authorizationScope; // @synthesize authorizationScope=_authorizationScope;
-@property(copy, nonatomic) NSURL *authorizationTokenURL; // @synthesize authorizationTokenURL=_authorizationTokenURL;
-@property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) NSString *clientSecret; // @synthesize clientSecret=_clientSecret;
-@property(copy, nonatomic) NSURL *configurationURL; // @synthesize configurationURL=_configurationURL;
 @property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

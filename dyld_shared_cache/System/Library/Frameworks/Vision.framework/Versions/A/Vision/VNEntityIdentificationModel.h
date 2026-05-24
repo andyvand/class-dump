@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNEntityIdentificationModelAlgorithm, VNEntityIdentificationModelConfiguration, VNEntityIdentificationModelInformation, VNEntityIdentificationModelTrainedModel;
-@protocol VNEntityIdentificationModelDataSource, VNEntityIdentificationModelDelegate;
+@protocol VNEntityIdentificationModelDelegate;
 
 @interface VNEntityIdentificationModel
 {
     id <VNEntityIdentificationModelDelegate> _delegate_DO_NOT_ACCESS_DIRECTLY;
-    struct {
-        unsigned int willTrain:1;
-        unsigned int didTrain:1;
-        unsigned int failedTraining:1;
-        unsigned int willDropTrainingData:1;
-        unsigned int didDropTrainingData:1;
-    } _delegateFlags;
-    VNEntityIdentificationModelConfiguration *_configuration;
-    id <VNEntityIdentificationModelDataSource> _dataSource_DO_NOT_ACCESS_DIRECTLY;
-    unsigned long long _lastDataChangeSequenceNumber;
-    VNEntityIdentificationModelTrainedModel *_trainedModel_DO_NOT_ACCESS_DIRECTLY;
 }
 
 + (_Bool);
@@ -39,7 +27,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,27 +38,25 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`
+;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)t be nil;
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)up with altDSID:(id)arg1 %@";
 - (id);
 - (_Bool)¤34<44D6x6;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) VNEntityIdentificationModelAlgorithm *algorithm;
-@property(readonly, copy) VNEntityIdentificationModelConfiguration *configuration;
 @property __weak id <VNEntityIdentificationModelDelegate> delegate;
-@property(readonly, copy) VNEntityIdentificationModelInformation *information;
 
 @end
 

@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (id)linkWithDataRepresentationWithoutSubstitutingAttachments:(id)arg1;
++ (id)linkWithDataRepresentation:(id)arg1 attachments:(_Bool)arg2;
++ (id)linkView:(id)arg1 didFetchMetadata: /* Error: Ran out of types for this method. */;
++ (_Bool)isPreliminary;
++ (_Bool)isLyricStyle;
++ (_Bool)isLoading;
++ (_Bool)isAppleBookSeriesURL:(int)arg1;
 + (id);
 + (void);
 + (void);

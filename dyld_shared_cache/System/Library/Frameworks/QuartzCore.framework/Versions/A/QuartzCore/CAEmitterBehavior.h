@@ -9,28 +9,24 @@
 @interface CAEmitterBehavior
 {
     unsigned int _type;
-    NSString *_name;
-    void *_attr;
-    void *_cache;
-    unsigned int _flags;
 }
 
 + (id);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)@;
 + (id);
 + (_Bool)ump vec3 ycbcr_bias%d;
 ;
 - (void);
 - (void);
-- (id);
+- (id)T*;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)allbacks serially. Try performing this in a detached Task.;
 - (void);
 - (id);
 - (_Bool);
@@ -40,14 +36,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)lient should use only NSRemoteView;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(getter=isEnabled) _Bool enabled;
-@property(copy) NSString *name;
 @property(readonly) NSString *type;
 
 @end

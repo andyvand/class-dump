@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RTDefaultsManager, RTXPCTimerAlarm, SMSessionStore;
+@class NSObject;
 @protocol OS_dispatch_queue, SMTriggerManagerProtocol;
 
 @interface SMTriggerDuration
 {
     id <SMTriggerManagerProtocol> sessionMonitorDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDefaultsManager *_defaultsManager;
-    RTXPCTimerAlarm *_xpcTimerAlarm;
-    SMSessionStore *_sessionStore;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (void);
@@ -33,27 +29,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)u;
 - (id)ü;
-- (void)nForPausing;
+- (void)RTDefaultsBluePOIMonitorEnablerStationaryDurationForPausing;
 - (void)nnot compute settled time.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate; // @synthesize sessionMonitorDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SMTriggerManagerProtocol>",?,W,N,VsessionMonitorDelegate
-
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTXPCTimerAlarm *xpcTimerAlarm; // @synthesize xpcTimerAlarm=_xpcTimerAlarm;
 
 @end
 

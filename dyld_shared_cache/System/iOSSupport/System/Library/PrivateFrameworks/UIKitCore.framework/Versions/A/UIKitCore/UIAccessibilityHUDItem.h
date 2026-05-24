@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIView;
-
 @interface UIAccessibilityHUDItem
 {
     _Bool _disabledAppearance;
-    _Bool _flattenImage;
-    _Bool _scaleImage;
-    long long _customUserInterfaceStyle;
-    NSString *_title;
-    UIImage *_image;
-    UIView *_customView;
-    struct UIEdgeInsets _imageInsets;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)enter:(_Bool)arg1 could not set keys/values on file %@  (%@:%@) /* Error: Ran out of types for this method. */;
+- (void)URL (may not have received the highlight yet), dropping notice.;
+- (void)aceholder account:(_Bool)arg1 %@;
+- (void)ateEligibilityAndNeedsRepairStatus();
+- (_Bool)reEnabled:%@, isSyncing:%@, isEligibleForTruthzone %@, isSyncingEnabled:%@, isRemovedFromBackup:%@, isInExitState:%@, exitDate:%@, isStartingDisabledDisableDevice:%@, lastSyncDate:%@, isSyncingPaused:%@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)9	A;
 - (void);
 - (id);
-- (id);
+- (id)payloadPayloadCertificateUUID;
 - (void);
 - (unsigned long long);
 - (id)× ;
-- (_Bool)ttomAnchor;
-- (void)ocusPlatterInset;
+- (_Bool)coverConstraintBottomAnchor;
+- (void)pillControlKeyFocusPlatterInset;
 - (id)#À#<$ð$X(0)`*;
 - (id)PÁ^;
 - (void)ÿêÉ°h;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long customUserInterfaceStyle; // @synthesize customUserInterfaceStyle=_customUserInterfaceStyle;
-@property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;
 @property(nonatomic) _Bool disabledAppearance; // @synthesize disabledAppearance=_disabledAppearance;
-@property(nonatomic) _Bool flattenImage; // @synthesize flattenImage=_flattenImage;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) struct UIEdgeInsets imageInsets; // @synthesize imageInsets=_imageInsets;
-@property(nonatomic) _Bool scaleImage; // @synthesize scaleImage=_scaleImage;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

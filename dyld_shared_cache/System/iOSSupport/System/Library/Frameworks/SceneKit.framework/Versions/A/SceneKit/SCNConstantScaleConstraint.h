@@ -9,11 +9,10 @@
 @interface SCNConstantScaleConstraint : SCNConstraint
 {
     float _scale;
-    _Bool _screenSpace;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)nonAccountPasswordSecureTextEntryFieldLabels;
 - (_Bool);
 - (void);
 - (id);
@@ -21,11 +20,10 @@
 - (float);
 - (void);
 - (id);
-- (void);
+- (void)ord={searchTerms}&v=5;
 
 // Remaining properties
 @property(nonatomic) float scale;
-@property(nonatomic) _Bool screenSpace;
 
 @end
 

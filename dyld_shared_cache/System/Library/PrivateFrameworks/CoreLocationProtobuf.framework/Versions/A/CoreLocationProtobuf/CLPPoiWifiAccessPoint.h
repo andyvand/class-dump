@@ -9,24 +9,10 @@
 @interface CLPPoiWifiAccessPoint
 {
     double _age;
-    double _scanTimestamp;
-    int _channel;
-    NSString *_mac;
-    int _rssi;
-    struct {
-        unsigned int age:1;
-        unsigned int scanTimestamp:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(nonatomic) double age; // @synthesize age=_age;
-@property(nonatomic) int channel; // @synthesize channel=_channel;
-@property(nonatomic) _Bool hasAge;
-@property(nonatomic) _Bool hasScanTimestamp;
 @property(retain, nonatomic) NSString *mac; // @synthesize mac=_mac;
-@property(nonatomic) int rssi; // @synthesize rssi=_rssi;
-@property(nonatomic) double scanTimestamp; // @synthesize scanTimestamp=_scanTimestamp;
 @end
 

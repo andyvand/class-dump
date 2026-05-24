@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIUIRenderingEnded, SISchemaUEIUIRenderingStarted;
+@class SISchemaUEIUIRenderingStarted;
 
 @interface SISchemaUEIUIRenderingContext : SISchemaInstrumentationMessage
 {
     SISchemaUEIUIRenderingStarted *_startedOrChanged;
-    SISchemaUEIUIRenderingEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,26 +23,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)Q;
+- (unsigned long long)getDisplayNamesForBundleID:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)alized(void);
 - (id);
 - (id);
-- (id)eFormatCodec;
-- (id)ge;
-- (void)REWRITETYPE_CBR;
+- (id)deleteFormatCodec;
+- (id)_hasConfiguredSiriLanguage;
+- (void)CDMREWRITETYPE_CBR;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEIUIRenderingEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEIUIRenderingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

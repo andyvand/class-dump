@@ -12,7 +12,8 @@
 - (void);
 - (struct OpaqueAVCFPlayerLayer *);
 - (void);
-- (void);
+- (void)invalidating
+;
 - (void);
 
 // Remaining properties

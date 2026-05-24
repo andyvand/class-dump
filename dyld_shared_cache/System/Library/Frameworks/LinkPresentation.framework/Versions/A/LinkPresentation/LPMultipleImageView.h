@@ -6,14 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPImageViewStyle, NSArray, NSMutableArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LPMultipleImageView : LPComponentView
 {
     NSArray *_images;
-    LPImageViewStyle *_style;
-    NSMutableArray *_imageViews;
 }
 
 + (_Bool);

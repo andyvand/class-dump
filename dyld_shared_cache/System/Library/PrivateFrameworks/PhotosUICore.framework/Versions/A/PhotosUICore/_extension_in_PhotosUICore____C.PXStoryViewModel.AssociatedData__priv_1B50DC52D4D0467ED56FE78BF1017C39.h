@@ -7,7 +7,6 @@
 @interface (extension in PhotosUICore):__C.PXStoryViewModel.AssociatedData__priv_1B50DC52D4D0467ED56FE78BF1017C39
 {
     id isFirstActivation;
-    id lastIsActiveChangeDate;
 }
 
 - (id);

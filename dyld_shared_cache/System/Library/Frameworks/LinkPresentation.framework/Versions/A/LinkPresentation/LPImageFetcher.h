@@ -6,23 +6,21 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class NSURL, WKWebView;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPImageFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    WKWebView *_webView;
-    NSURL *_URL;
 }
 
 + (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)eID;
+- (void),;
 - (void)!ÌDùH°1Â0@ù
 × ;
 

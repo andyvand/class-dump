@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDBugSession, DEDBugSessionConfiguration, NSMutableSet, NSObject, NSString, NSURLSession;
-@protocol OS_os_log;
+@class DEDBugSession;
 
 @interface DEDRadarFinisher
 {
     float _percentComplete;
-    int _retryAttemptCount;
-    DEDBugSession *_session;
-    DEDBugSessionConfiguration *_configuration;
-    NSObject<OS_os_log> *_log;
-    NSMutableSet *_uploadItems;
-    NSURLSession *_urlSession;
-    NSMutableSet *_verificationTasks;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)N3ctu20SharedSynchronizableIN3qmi6Server5StateEEE;
 - (id);
 - (void);
 - (void);
@@ -42,36 +34,22 @@
 - (id);
 - (id);
 - (void);
+- (id)operationMetrics;
+- (void);
+- (void);
+- (void);
+- (void)dlerForActiveObjectINS1_18ActivityStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void)I;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)setDateFormat:(id)arg1;
 - (float);
-- (void)dentifier;
+- (void)de_bundle_identifier;
 
 // Remaining properties
-@property __weak DEDBugSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property float percentComplete; // @synthesize percentComplete=_percentComplete;
-@property int retryAttemptCount; // @synthesize retryAttemptCount=_retryAttemptCount;
 @property __weak DEDBugSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain) NSMutableSet *uploadItems; // @synthesize uploadItems=_uploadItems;
-@property(retain) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
-@property(retain) NSMutableSet *verificationTasks; // @synthesize verificationTasks=_verificationTasks;
 
 @end
 

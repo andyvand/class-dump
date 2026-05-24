@@ -11,20 +11,20 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (double);
 + (void);
 + (void);
-+ (void);
++ (void)TH;
 + (void);
 + (_Bool);
 + (_Bool);
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void);
++ (void)+;
 + (void);
 + (_Bool);
 

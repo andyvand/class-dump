@@ -6,31 +6,24 @@
 
 #import <UIKitCore/_UIMorphPlatterViewBase.h>
 
-@class UITargetedPreview, _UIMagicMorphView, _UIPortalView, _UIShadowProperties;
-@protocol _UIAssertion;
+@class UITargetedPreview, _UIMagicMorphView;
 
 @interface _UIContentPlatterView : _UIMorphPlatterViewBase
 {
     _UIMagicMorphView *morphView;
-    _UIPortalView *collapsedPortalView;
-    id <_UIAssertion> collapsedPreviewBackgroundSuppression;
-    _Bool isFrozen;
-    _Bool didTearOffPreviewForDrag;
-    id backgroundCapture;
-    _UIShadowProperties *_shadowProperties;
 }
 
-- (_Bool);
+- (_Bool)trusted sender;
+- (void)iceReachabilityResponseHandler>"16;
+- (void)p; GUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (void)imMessageItemDict;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,13 +43,13 @@
 - (id);
 - (void);
 - (void);
+- (void)Z8;
 - (void);
 - (void);
-- (void);
+- (id)";
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)requiredThreadsPerObjectThreadgroup;
 - (id);
 - (void);
 - (void)Aù±[°1Â0@ù
@@ -65,29 +58,13 @@
 × ;
 - (_Bool)dð1Â0@ù
 × ;
-- (_Bool)nt;
-- (id)fectEntry;
-- (void)ge;
+- (_Bool)moveEvent;
+- (id)_UIImageViewSymbolEffectEntry;
+- (void)NSGrammarLanguage;
 - (void)Xl;
 
 // Remaining properties
-@property(nonatomic, readonly) UITargetedPreview *_destinationPreview;
-@property(nonatomic, retain) _UIShadowProperties *_shadowProperties; // @synthesize _shadowProperties;
-@property(nonatomic, retain) _UIPortalView *collapsedPortalView; // @synthesize collapsedPortalView;
 @property(nonatomic, retain) UITargetedPreview *collapsedPreview;
-@property(nonatomic, retain) id <_UIAssertion> collapsedPreviewBackgroundSuppression; // @synthesize collapsedPreviewBackgroundSuppression;
-@property(nonatomic) double collapsedShadowIntensity;
-@property(nonatomic) long long collapsedShadowStyle;
-@property(nonatomic) _Bool didTearOffPreviewForDrag; // @synthesize didTearOffPreviewForDrag;
-@property(nonatomic) _Bool expanded;
-@property(nonatomic, retain) UITargetedPreview *expandedPreview;
-@property(nonatomic) double expandedShadowIntensity;
-@property(nonatomic) long long expandedShadowStyle;
-@property(nonatomic) _Bool hidesCollapsedSourceView;
-@property(nonatomic) _Bool isFrozen; // @synthesize isFrozen;
-@property(nonatomic, readonly) _UIMagicMorphView *morphView; // @synthesize morphView;
-@property(nonatomic) unsigned long long preferredMorphingAxis;
-@property(nonatomic) _Bool wantsEdgeAntialiasing;
 
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-- (void);
+- (void)P;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusSystem;
 @protocol _UIFocusRegionContainer;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusRegionSearchContextState
 {
     id <_UIFocusRegionContainer> _regionContainer;
-    UIFocusSystem *_regionContainerFocusSystem;
-    struct CGRect _clippingRect;
 }
 
-+ (id);
++ (id)n't find parent chat from %@ for message %@, message may be lost if restored to older devices;
+- (id)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
 @property(readonly, nonatomic) id <_UIFocusRegionContainer> regionContainer; // @synthesize regionContainer=_regionContainer;
-@property(readonly, nonatomic) UIFocusSystem *regionContainerFocusSystem; // @synthesize regionContainerFocusSystem=_regionContainerFocusSystem;
 
 @end
 

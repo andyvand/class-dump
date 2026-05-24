@@ -9,11 +9,6 @@
 @interface REMAppStoreDataViewConfigurationsInvocationResult : REMStoreInvocationResult
 {
     unsigned long long _createdOrCompletedRemindersCountThreshold;
-    unsigned long long _numberOfForegroundsThreshold;
-    double _timeIntervalOfInterest;
-    double _timeIntervalSinceInitialForeground;
-    double _timeIntervalSinceLastPrompt;
-    double _timeIntervalSinceLastFetch;
 }
 
 + (_Bool);
@@ -32,11 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long createdOrCompletedRemindersCountThreshold; // @synthesize createdOrCompletedRemindersCountThreshold=_createdOrCompletedRemindersCountThreshold;
-@property(readonly, nonatomic) unsigned long long numberOfForegroundsThreshold; // @synthesize numberOfForegroundsThreshold=_numberOfForegroundsThreshold;
-@property(readonly, nonatomic) double timeIntervalOfInterest; // @synthesize timeIntervalOfInterest=_timeIntervalOfInterest;
-@property(readonly, nonatomic) double timeIntervalSinceInitialForeground; // @synthesize timeIntervalSinceInitialForeground=_timeIntervalSinceInitialForeground;
-@property(readonly, nonatomic) double timeIntervalSinceLastFetch; // @synthesize timeIntervalSinceLastFetch=_timeIntervalSinceLastFetch;
-@property(readonly, nonatomic) double timeIntervalSinceLastPrompt; // @synthesize timeIntervalSinceLastPrompt=_timeIntervalSinceLastPrompt;
 
 @end
 

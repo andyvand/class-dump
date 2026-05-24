@@ -7,21 +7,6 @@
 @interface NewsUI2.MagazineGridViewController
 {
     id viewControllerIdentifier;
-    id viewControllerConfig;
-    id _windowTitle;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id offlineAlertControllerFactory;
-    id $__lazy_storage_$_selectAllBarButtonItem;
-    id $__lazy_storage_$_doneBarButtonItem;
-    id $__lazy_storage_$_downloadBarButtonItem;
-    id $__lazy_storage_$_removeIssuesAndDownloadsBarButtonItem;
-    id $__lazy_storage_$_removeDownloadsBarButtonItem;
-    id $__lazy_storage_$_selectionCountBarButtonItem;
-    id $__lazy_storage_$_selectionCountLabel;
-    id editSelection;
-    id commandCenterWithTracker;
 }
 
 - (void);
@@ -30,10 +15,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)G;
 - (void)Ä;
 - (void)4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/VideoAdTracker.swift;
 - (void)øÐXÿ;

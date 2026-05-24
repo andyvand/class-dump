@@ -7,7 +7,6 @@
 @interface ChronoServices.SandboxExtension
 {
     id token;
-    id handle;
 }
 
 @end

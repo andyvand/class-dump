@@ -7,14 +7,12 @@
 @interface RemindersUICore.TTRReminderCopyPasteItem
 {
     id metadata;
-    id storages;
-    id titles;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)collectionView:(id)arg1 previewForDismissingContextMenuWithConfiguration:(id)arg2;
++ (id)=;
 + (_Bool);
 - (id);
 - (id);

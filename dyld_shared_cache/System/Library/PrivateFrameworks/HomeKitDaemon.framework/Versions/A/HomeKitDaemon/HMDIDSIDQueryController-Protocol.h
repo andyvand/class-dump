@@ -5,5 +5,6 @@
 //
 
 @protocol HMDIDSIDQueryController
+- (_Bool)yTransitLineItem>">40;
 @end
 

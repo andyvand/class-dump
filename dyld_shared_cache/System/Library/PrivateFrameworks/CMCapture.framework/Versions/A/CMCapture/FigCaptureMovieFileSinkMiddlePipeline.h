@@ -6,31 +6,24 @@
 
 #import <CMCapture/FigCapturePipeline.h>
 
-@class BWFanOutNode, BWOverCaptureFanOutNode, FigCaptureMovieFileSinkHeadPipeline, FigCaptureVISPipeline, NSMutableArray;
+@class FigCaptureVISPipeline;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkMiddlePipeline : FigCapturePipeline
 {
     FigCaptureVISPipeline *_visPipeline;
-    BWFanOutNode *_videoFanOut;
-    FigCaptureVISPipeline *_overCaptureVISPipeline;
-    BWOverCaptureFanOutNode *_audioFanOut;
-    NSMutableArray *_metadataFanOuts;
-    FigCaptureMovieFileSinkHeadPipeline *_headPipeline;
-    unsigned long long _numberOfTailsToSupport;
 }
 
 - (id);
-- (void);
+- (void)mNumber;
 - (id);
 - (id);
 - (id);
 - (id)@ù
 × ;
-- (id)idences;
+- (id)_gazeConfidences;
 
 // Remaining properties
-@property(readonly, nonatomic) FigCaptureVISPipeline *overCaptureVISPipeline; // @synthesize overCaptureVISPipeline=_overCaptureVISPipeline;
 @property(readonly, nonatomic) FigCaptureVISPipeline *visPipeline; // @synthesize visPipeline=_visPipeline;
 
 @end

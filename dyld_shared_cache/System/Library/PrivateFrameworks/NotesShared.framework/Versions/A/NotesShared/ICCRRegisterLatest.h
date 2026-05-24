@@ -12,24 +12,23 @@
 @interface ICCRRegisterLatest : ICCRRegister
 {
     id <ICCRDataType> _contents;
-    ICCRTimestamp *_timestamp;
 }
 
-- (id);
+- (id)_catalogURL;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

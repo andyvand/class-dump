@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _Bool _suppressPhoneNumber;
 }
 
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)contents of directory at path %@:%@ /* Error: Ran out of types for this method. */;
+- (void)sult:(_Bool)arg1 %lu;
+- (id)ith identifier, manager interface is nil for asset type:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

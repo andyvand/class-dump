@@ -7,18 +7,16 @@
 @interface AWDIDSWiProxConnectionSuccess
 {
     long long _timeToSucceed;
-    unsigned long long _timestamp;
-    CDStruct_88bb938d _has;
 }
 
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*h;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)i;
+- (unsigned long long)A;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeToSucceed;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long timeToSucceed; // @synthesize timeToSucceed=_timeToSucceed;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

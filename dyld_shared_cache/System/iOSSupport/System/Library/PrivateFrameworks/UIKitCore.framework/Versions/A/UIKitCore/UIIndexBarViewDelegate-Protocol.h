@@ -5,5 +5,8 @@
 //
 
 @protocol UIIndexBarViewDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSFileHandle, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriAudioFileWriter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _type;
-    NSURL *_url;
-    NSString *_path;
-    struct OpaqueExtAudioFile *_audioFile;
-    struct AudioStreamBasicDescription _asbd;
-    NSFileHandle *_fileHandle;
-    NSError *_underlyingError;
 }
 
 + (id);
@@ -31,7 +24,7 @@
 - (void);
 - (id);
 - (void);
-- (void)rrentCompatibilityVersion;
+- (void)getSpeakerRecognitionCurrentCompatibilityVersion;
 - (void)tifyDidStopStream:reason:withEventUUID:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 
 @end

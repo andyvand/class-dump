@@ -6,19 +6,15 @@
 
 #import <MetalTools/MTLToolsRenderCommandEncoder.h>
 
-@class MTLTelemetryCommandBuffer, MTLTelemetryDevice, MTLTelemetryRenderPipelineState, NSMutableDictionary, NSMutableSet;
+@class MTLTelemetryDevice;
 
 @interface MTLTelemetryRenderCommandEncoder : MTLToolsRenderCommandEncoder
 {
     MTLTelemetryDevice *_telemetryDevice;
-    MTLTelemetryCommandBuffer *_telemetryCommandBuffer;
-    unsigned int _reDraws;
-    NSMutableSet *_anisoFragmentSamplers;
-    NSMutableDictionary *_clippedMip2DFragmentTextures;
-    MTLTelemetryRenderPipelineState *_telemetryPipeline;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,8 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9);
 - (id);
 - (id);
 - (void);
@@ -44,9 +39,9 @@
 - (void);
 - (void);
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void);
 
 @end
 

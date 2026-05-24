@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSData, NSDictionary, NSString;
 
 @protocol SFStockChartCardSection
+- (NSData *)$	;
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *chartData;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSURL *thirdPartyContentURL;
 @property(copy, nonatomic) NSString *type;
 @end
 

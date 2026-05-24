@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface _CATProxyWaitToken
 {
     _Atomic _Bool mFinished;
-    NSObject<OS_dispatch_group> *mGroup;
-    _Bool _isExclusive;
-    id _resourceProxy;
 }
 
 - (id);
-- (void);
+- (void)S;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isExclusive; // @synthesize isExclusive=_isExclusive;
-@property(readonly, nonatomic) id resourceProxy; // @synthesize resourceProxy=_resourceProxy;
 
 @end
 

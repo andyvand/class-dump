@@ -6,30 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PSESchemaPSECall : SISchemaInstrumentationMessage
 {
     double _callDurationInSeconds;
-    _Bool _hasUserInitiatedFollowup;
-    double _timeToEstablishInSeconds;
-    int _recentCallStatus;
-    int _disconnectedReason;
-    int _contactMatch;
-    double _contactFullNamePhoneticScore;
-    double _contactFirstNamePhoneticScore;
-    double _contactLastNamePhoneticScore;
-    struct {
-        unsigned int callDurationInSeconds:1;
-        unsigned int hasUserInitiatedFollowup:1;
-        unsigned int timeToEstablishInSeconds:1;
-        unsigned int recentCallStatus:1;
-        unsigned int disconnectedReason:1;
-        unsigned int contactMatch:1;
-        unsigned int contactFullNamePhoneticScore:1;
-        unsigned int contactFirstNamePhoneticScore:1;
-        unsigned int contactLastNamePhoneticScore:1;
-    } _has;
 }
 
 - (double);
@@ -40,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -51,8 +30,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,8 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -70,43 +49,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)0p;
 - (void);
 - (void);
 - (int);
 - (int);
 - (void);
-- (int);
+- (int);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)W;
+- (unsigned long long)le.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManagerOptions_macOS.m:44 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)copy handle associates from chat %ld to chat %ld;
 - (id);
 - (id);
-- (id)peechStopDetected;
+- (id)_speechStopDetected;
 - (id)nRequired;
 
 // Remaining properties
 @property(nonatomic) double callDurationInSeconds; // @synthesize callDurationInSeconds=_callDurationInSeconds;
-@property(nonatomic) double contactFirstNamePhoneticScore; // @synthesize contactFirstNamePhoneticScore=_contactFirstNamePhoneticScore;
-@property(nonatomic) double contactFullNamePhoneticScore; // @synthesize contactFullNamePhoneticScore=_contactFullNamePhoneticScore;
-@property(nonatomic) double contactLastNamePhoneticScore; // @synthesize contactLastNamePhoneticScore=_contactLastNamePhoneticScore;
-@property(nonatomic) int contactMatch; // @synthesize contactMatch=_contactMatch;
-@property(nonatomic) int disconnectedReason; // @synthesize disconnectedReason=_disconnectedReason;
-@property(nonatomic) _Bool hasCallDurationInSeconds;
-@property(nonatomic) _Bool hasContactFirstNamePhoneticScore;
-@property(nonatomic) _Bool hasContactFullNamePhoneticScore;
-@property(nonatomic) _Bool hasContactLastNamePhoneticScore;
-@property(nonatomic) _Bool hasContactMatch;
-@property(nonatomic) _Bool hasDisconnectedReason;
-@property(nonatomic) _Bool hasHasUserInitiatedFollowup;
-@property(nonatomic) _Bool hasRecentCallStatus;
-@property(nonatomic) _Bool hasTimeToEstablishInSeconds;
-@property(nonatomic) _Bool hasUserInitiatedFollowup; // @synthesize hasUserInitiatedFollowup=_hasUserInitiatedFollowup;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int recentCallStatus; // @synthesize recentCallStatus=_recentCallStatus;
-@property(nonatomic) double timeToEstablishInSeconds; // @synthesize timeToEstablishInSeconds=_timeToEstablishInSeconds;
 
 @end
 

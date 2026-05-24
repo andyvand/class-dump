@@ -14,7 +14,7 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)T;
 
 // Remaining properties
 @property(readonly, nonatomic) AdPlatformsCommon.APDeviceCapabilityEngineInternal *capabilityEngine; // @synthesize capabilityEngine=_capabilityEngine;

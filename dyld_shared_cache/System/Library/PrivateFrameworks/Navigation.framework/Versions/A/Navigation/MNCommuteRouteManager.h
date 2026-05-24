@@ -8,9 +8,9 @@
 {
 }
 
-+ (id)edNumericCharacterSet;
++ (id)supportedNumericCharacterSet;
 - (id);
-- (void)ionState: /* Error: Ran out of types for this method. */;
+- (void)updateWithSessionState: /* Error: Ran out of types for this method. */;
 
 @end
 

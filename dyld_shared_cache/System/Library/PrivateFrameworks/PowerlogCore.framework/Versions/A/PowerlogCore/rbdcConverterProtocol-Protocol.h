@@ -5,5 +5,7 @@
 //
 
 @protocol rbdcConverterProtocol
+- (void)2;
+- (void);
 @end
 

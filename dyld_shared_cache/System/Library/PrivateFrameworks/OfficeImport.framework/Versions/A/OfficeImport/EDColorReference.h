@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface EDColorReference
 {
     EDResources *mResources;
-    int mSystemColorID;
-    unsigned long long mColorIndex;
-    unsigned long long mThemeIndex;
-    double mTint;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)-;
++ (id)a;
 + (id);
 + (id);
 - (int);

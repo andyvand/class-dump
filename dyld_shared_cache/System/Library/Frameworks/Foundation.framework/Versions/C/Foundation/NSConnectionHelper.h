@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConnection, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface NSConnectionHelper
 {
     double reqLim;
-    double repLim;
-    _Bool remoteUsesKeyedDO;
-    NSSet *allowlist;
-    _Bool useKeyedDO;
-    NSConnection *parent;
 }
 
 - (void);

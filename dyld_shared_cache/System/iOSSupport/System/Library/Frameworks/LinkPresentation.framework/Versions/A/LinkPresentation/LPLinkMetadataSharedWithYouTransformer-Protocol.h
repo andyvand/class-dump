@@ -5,5 +5,6 @@
 //
 
 @protocol LPLinkMetadataSharedWithYouTransformer
+- (_Bool)unanimatedLayoutPassShouldSnapToTargetFrames;
 @end
 

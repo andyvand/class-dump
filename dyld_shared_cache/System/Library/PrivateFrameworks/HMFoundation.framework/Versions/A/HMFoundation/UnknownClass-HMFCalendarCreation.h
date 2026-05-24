@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface UnknownClass (HMFCalendarCreation)
 + (id);
 - (id);
@@ -15,11 +13,11 @@
 - (id);
 - (id);
 - (unsigned char);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int)c;
 - (id);
 - (id);
 - (id);
@@ -36,7 +34,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -51,24 +49,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *hmf_hexadecimalRepresentation;
 @property(readonly, getter=hmf_isZeroed) _Bool hmf_zeroed;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @end
 

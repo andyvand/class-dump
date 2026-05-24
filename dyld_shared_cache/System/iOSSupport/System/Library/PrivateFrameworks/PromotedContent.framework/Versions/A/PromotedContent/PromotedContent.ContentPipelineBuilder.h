@@ -7,7 +7,6 @@
 @interface PromotedContent.ContentPipelineBuilder
 {
     id segmentBuilders;
-    id endOfPipe;
 }
 
 @end

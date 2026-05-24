@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController, _UIViewControllerAnimatedTransitionHandoffData, _UIViewControllerOneToOneTransitionContext, _UIViewControllerTransitionManager;
-@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning, UIViewControllerTransitionCoordinator, _UIViewControllerTransitionConductorDelegate;
+@class _UIViewControllerTransitionManager;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerTransitionConductor
 {
     _Bool _needsDeferredTransition;
-    _Bool _hostIsAppearingAnimated;
-    _Bool _interactiveTransition;
-    int _deferredTransitionType;
-    UIViewController<_UIViewControllerTransitionConductorDelegate> *_delegate;
-    id <UIViewControllerAnimatedTransitioning> _transitionController;
-    id <UIViewControllerInteractiveTransitioning> _interactiveTransitionController;
-    double _customNavigationTransitionDuration;
-    UIView *_transitionContainerView;
-    _UIViewControllerAnimatedTransitionHandoffData *_pendingPreemptionHandoffData;
-    _UIViewControllerTransitionManager *_transitionManager;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -46,41 +35,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)setVideoDataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (int);
 - (double);
+- (void)overwritePerChatReadReceiptSettingsWithGlobalValue:(int)arg1;
+- (void)numberWithUnsignedChar:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)eindex scheduling;
 - (id);
 - (void)°!`Gù_Ð1Â0@ù
 × ;
-- (void)tUpInitialValues;
+- (void)_setUpInitialValues;
 - (id)%@;
-- (id)ownHoverAzimuthUnitVector;
-- (void)SgSg;
+- (id)lastKnownHoverAzimuthUnitVector;
+- (void)So15UITableViewCellCSgSg;
 - (id)J;
 - (id);
 
 // Remaining properties
-@property(nonatomic) double customNavigationTransitionDuration; // @synthesize customNavigationTransitionDuration=_customNavigationTransitionDuration;
-@property(nonatomic) int deferredTransitionType; // @synthesize deferredTransitionType=_deferredTransitionType;
-@property(readonly, nonatomic) __weak UIViewController<_UIViewControllerTransitionConductorDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hostIsAppearingAnimated; // @synthesize hostIsAppearingAnimated=_hostIsAppearingAnimated;
-@property(nonatomic, getter=isInteractiveTransition) _Bool interactiveTransition; // @synthesize interactiveTransition=_interactiveTransition;
-@property(retain, nonatomic) id <UIViewControllerInteractiveTransitioning> interactiveTransitionController; // @synthesize interactiveTransitionController=_interactiveTransitionController;
-@property(nonatomic) _Bool needsDeferredTransition; // @synthesize needsDeferredTransition=_needsDeferredTransition;
-@property(retain, nonatomic) _UIViewControllerAnimatedTransitionHandoffData *pendingPreemptionHandoffData; // @synthesize pendingPreemptionHandoffData=_pendingPreemptionHandoffData;
-@property(retain, nonatomic) UIView *transitionContainerView; // @synthesize transitionContainerView=_transitionContainerView;
-@property(readonly, nonatomic) _UIViewControllerOneToOneTransitionContext *transitionContext;
-@property(retain, nonatomic) id <UIViewControllerAnimatedTransitioning> transitionController; // @synthesize transitionController=_transitionController;
-@property(readonly, nonatomic) id <UIViewControllerTransitionCoordinator> transitionCoordinator;
 @property(retain, nonatomic) _UIViewControllerTransitionManager *transitionManager; // @synthesize transitionManager=_transitionManager;
 
 @end

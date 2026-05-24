@@ -5,5 +5,6 @@
 //
 
 @protocol BSXPCServiceConnectionMessageDelegate
+- (void)q;
 @end
 

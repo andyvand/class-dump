@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <TBScore> popularityScore;
-@property(readonly, nonatomic) id <TBScore> qualityScore;
 @end
 

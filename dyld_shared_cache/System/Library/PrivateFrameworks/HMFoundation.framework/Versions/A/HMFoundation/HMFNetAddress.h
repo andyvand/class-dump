@@ -6,7 +6,7 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetAddressInternal, NSString;
+@class HMFNetAddressInternal;
 
 @interface HMFNetAddress : HMFObject
 {
@@ -14,22 +14,20 @@
 }
 
 + (id);
+- (id)discoverCaptureDevicesAndSetupReactionObserver;
 - (id);
 - (id);
+- (id)M	.	A		;
+- (unsigned long long),	&	0	@	;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)l};
+- (unsigned long long)setHasConnectionState: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long addressFamily;
-@property(readonly, copy, nonatomic) NSString *addressString;
 @property(readonly, nonatomic) HMFNetAddressInternal *internal; // @synthesize internal=_internal;
 
 @end

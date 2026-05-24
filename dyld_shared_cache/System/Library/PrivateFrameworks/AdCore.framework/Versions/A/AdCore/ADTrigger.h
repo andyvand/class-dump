@@ -9,20 +9,19 @@
 @interface ADTrigger
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)Available"b1"shouldSendMutableContent"b1};
+- (_Bool)_retryPCSFailures;
 - (id);
 - (void);
-- (void);
+- (void)i;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

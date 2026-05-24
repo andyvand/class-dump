@@ -10,7 +10,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)staticMultiplier;
 - (_Bool)sourceIdentifier=%{public}s;
 
 @end

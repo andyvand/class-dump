@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, _SFPBColor;
 
 @protocol _SFPBInfoCardSection
+- (void);
+- (void);
+- (NSArray *)!hb(;
+- (_Bool)initWithResponseDictionary:serverPlaybackContextData: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPropertyListRepresentation: /* Error: Ran out of types for this method. */;
+- (void)setPlaybackCompletionContextsToProcess:(_SFPBColor *)arg1;
+- (NSData *)_updateGraphAvailabilityInFeatureAvailability:forFeature:error: /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(copy, nonatomic) NSArray *infoTuples;
-@property(nonatomic) unsigned long long initiallyVisibleTuples;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -5,23 +5,20 @@
 //
 
 @class SOAuthorizationCore;
-@protocol SOAuthorizationCoreDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SOAuthorizationPoolItem
 {
     SOAuthorizationCore *_authorization;
-    id <SOAuthorizationCoreDelegate> _delegate;
 }
 
-- (id);
+- (id)H('&D;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SOAuthorizationCore *authorization; // @synthesize authorization=_authorization;
-@property(readonly, nonatomic) id <SOAuthorizationCoreDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

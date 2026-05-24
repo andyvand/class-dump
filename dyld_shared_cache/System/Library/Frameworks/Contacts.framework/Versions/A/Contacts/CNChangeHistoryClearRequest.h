@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryAnchor, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface CNChangeHistoryClearRequest
 {
     NSString *_clientIdentifier;
-    CNChangeHistoryAnchor *_toChangeAnchor;
-    NSArray *_contactChangeIDs;
-    NSArray *_groupChangeIDs;
-    NSString *_containerIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)a support level to: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)illReindexAsSnapshotAnchorChangedFrom:to: /* Error: Ran out of types for this method. */;
+- (void)willReindexAsSnapshotAnchorChangedFrom:to: /* Error: Ran out of types for this method. */;
 - (id)ster>!$_;
 - (void)0Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(retain, nonatomic) NSArray *contactChangeIDs; // @synthesize contactChangeIDs=_contactChangeIDs;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(retain, nonatomic) NSArray *groupChangeIDs; // @synthesize groupChangeIDs=_groupChangeIDs;
-@property(retain, nonatomic) CNChangeHistoryAnchor *toChangeAnchor; // @synthesize toChangeAnchor=_toChangeAnchor;
 
 @end
 

@@ -7,20 +7,19 @@
 @interface CKBusinessOnboardingController
 {
     CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _notNowActionHandler;
 }
 
 + (_Bool);
 + (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)r;
+- (CDUnknownBlockType)i;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (CDUnknownBlockType);
 - (void)D:(CDUnknownBlockType)arg1 %@, groupName:%@, handles:%@ /* Error: Ran out of types for this method. */;
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType notNowActionHandler; // @synthesize notNowActionHandler=_notNowActionHandler;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.WeakNewsLiveActivityManagerObserverProxy__priv_0FC7CDF4A7FA5855D69E1F6A74309AAB
 {
     id target;
+    id;
 }
 
 @end

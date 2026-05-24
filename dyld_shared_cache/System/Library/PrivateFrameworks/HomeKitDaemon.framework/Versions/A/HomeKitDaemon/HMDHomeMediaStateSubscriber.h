@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol HMDHomeMediaStateSubscriberDataSource, HMESubscriptionProviding, OS_dispatch_queue;
+@protocol HMDHomeMediaStateSubscriberDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeMediaStateSubscriber
 {
     id <HMDHomeMediaStateSubscriberDataSource> _dataSource;
-    NSUUID *_homeUUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMESubscriptionProviding> _remoteSubscriptionProvider;
-    id <HMESubscriptionProviding> _localSubscriptionProvider;
-    NSMutableDictionary *_subscribedAccessoriesToTokenMap;
 }
 
-+ (id);
++ (id)@;
 + (id)b	B;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)_purgeTimer;
+- (void)%@:(id)arg1 %p, muid:%llu, timezone:%@, location:%@, name:%@, navDisplayName:%@, navDisplayAddress:%@, directionsListAddress:%@, waypointCategory:%@, waypointType:%@, isCurrentLocation:%d, isServerProvidedWaypoint:%d> /* Error: Ran out of types for this method. */;
+- (void)receivingAccountIdentifier;
+- (id)messageStrategyIdentifier;
+- (void)minimalStrategyIdentifier;
+- (void)originatorIdentifier;
 - (id);
 - (id);
+- (void)h;
+- (id)defaultLayout;
 - (id);
+- (id)P;
 - (id);
 - (void)d;
 - (void)Version]_block_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDHomeMediaStateSubscriberDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) id <HMESubscriptionProviding> localSubscriptionProvider; // @synthesize localSubscriptionProvider=_localSubscriptionProvider;
-@property(readonly, nonatomic) id <HMESubscriptionProviding> remoteSubscriptionProvider; // @synthesize remoteSubscriptionProvider=_remoteSubscriptionProvider;
-@property(readonly, nonatomic) NSMutableDictionary *subscribedAccessoriesToTokenMap; // @synthesize subscribedAccessoriesToTokenMap=_subscribedAccessoriesToTokenMap;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

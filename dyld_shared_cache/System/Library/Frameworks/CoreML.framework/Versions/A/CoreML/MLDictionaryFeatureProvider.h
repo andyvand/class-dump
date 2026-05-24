@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface MLDictionaryFeatureProvider
 {
     NSDictionary *_dictionary;
-    NSSet *_cachedFeatureNames;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void):(id)arg1 shared_ptr<CLMapRoad>];
 - (id);
-- (id);
+- (id)generic_kbps;
 - (id);
 - (id);
 - (id);
@@ -45,9 +44,7 @@
 - (unsigned long long)¼ri,Â	Uûëó#»Ã«³ÛãËÓ{ks¢;C+3[cKSø;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *cachedFeatureNames; // @synthesize cachedFeatureNames=_cachedFeatureNames;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

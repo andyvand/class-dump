@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MTLProgramAddressTableMappedBinary
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long binaryUniqueId;
 @property(readonly) unsigned long long mappedAddress;
-@property(readonly) unsigned long long mappedSize;
-@property(readonly) NSString *type;
 @end
 

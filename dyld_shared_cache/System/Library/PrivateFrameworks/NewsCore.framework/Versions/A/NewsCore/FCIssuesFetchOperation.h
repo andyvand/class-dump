@@ -6,33 +6,28 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, NSArray;
+@class FCCachePolicy;
 @protocol FCContentContext;
 
 @interface FCIssuesFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSArray *_issueIDs;
-    NSArray *_resultIssues;
 }
 
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)S;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType)q)	1Â0@ù
 × ;
-- (void)ion;
+- (void)notificationDescription;
 - (void)ord sources and assets in %llums;
 - (void)a with cloud;
 - (void)¸ÿ;
@@ -40,12 +35,7 @@
 - (_Bool)¤.àÿ®Fk;
 
 // Remaining properties
-@property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
-@property(retain, nonatomic) NSArray *issueIDs; // @synthesize issueIDs=_issueIDs;
-@property(retain, nonatomic) NSArray *resultIssues; // @synthesize resultIssues=_resultIssues;
 
 @end
 

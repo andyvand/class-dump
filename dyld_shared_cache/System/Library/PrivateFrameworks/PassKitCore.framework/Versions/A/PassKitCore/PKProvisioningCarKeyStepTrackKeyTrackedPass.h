@@ -7,13 +7,12 @@
 @interface PKProvisioningCarKeyStepTrackKeyTrackedPass
 {
     id passURL;
-    id subcredential;
 }
 
 + (void);
 + (_Bool);
 - (id);
-- (id);
+- (id)q";
 - (void);
 - (void);
 

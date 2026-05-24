@@ -11,7 +11,7 @@
     id preferAudioReactivity;
 }
 
-- (id);
+- (id)K;
 - (id);
 
 @end

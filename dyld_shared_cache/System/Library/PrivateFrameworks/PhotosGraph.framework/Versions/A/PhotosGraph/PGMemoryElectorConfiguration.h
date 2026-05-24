@@ -6,39 +6,42 @@
 
 #import <PhotosGraph/PGConfiguration.h>
 
-@class NSArray, NSDate, NSString, NSTimeZone, PGFeature;
+@class NSDate;
 
 @interface PGMemoryElectorConfiguration : PGConfiguration
 {
     _Bool _shouldPersist;
-    _Bool _useMaximumTargetNumberOfMemories;
-    _Bool _skipEnrichment;
-    _Bool _allowGuestAsset;
-    unsigned short _pendingState;
-    NSDate *_localDate;
-    NSTimeZone *_timeZone;
-    unsigned long long _maximumTargetNumberOfMemories;
-    unsigned long long _minimumTargetNumberOfMemories;
-    unsigned long long _maximumNumberOfMemoriesWithGuestAssets;
-    double _maximumRatioOfGuestAssets;
-    unsigned long long _numberOfDaysToLookInPast;
-    unsigned long long _numberOfDaysToLookInFuture;
-    unsigned long long _numberOfDaysToFocusOnNewMemoryTypes;
-    unsigned long long _minimumNumberOfDaysBeforeTimeDecay;
-    unsigned long long _minimumNumberOfCuratedAssets;
-    NSArray *_collidableSuggestions;
-    unsigned long long _requestedMemoryCategory;
-    unsigned long long _requestedTriggerType;
-    PGFeature *_requestedFeature;
-    NSString *_requestedUniqueMemoryIdentifier;
-    NSArray *_moodHistory;
 }
 
 + (id);
 - (_Bool);
 - (unsigned long long);
+- (_Bool)66;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ityKit;
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long)8@16@24@32Q40;
+- (unsigned long long)ng"24;
+- (double)mentInfo"32;
+- (unsigned long long)KeyboardFocusTracker"16@"AXKElementController"24@"AXKKeyboardFocusListenerSharedKeyboardFocusElementInfo"32;
+- (id)set_previousSelectionRange: /* Error: Ran out of types for this method. */;
+- (id)ldControllers;
+- (id)2;
 - (_Bool);
 - (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -48,66 +51,21 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned short);
-- (unsigned long long);
-- (id);
+- (unsigned long long)C;
+- (id);
 - (void)ryNodeCollection",R,N;
 - (void)r %s (%d):%s /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowGuestAsset; // @synthesize allowGuestAsset=_allowGuestAsset;
-@property(retain, nonatomic) NSArray *collidableSuggestions; // @synthesize collidableSuggestions=_collidableSuggestions;
 @property(copy, nonatomic) NSDate *localDate; // @synthesize localDate=_localDate;
-@property(nonatomic) unsigned long long maximumNumberOfMemoriesWithGuestAssets; // @synthesize maximumNumberOfMemoriesWithGuestAssets=_maximumNumberOfMemoriesWithGuestAssets;
-@property(nonatomic) double maximumRatioOfGuestAssets; // @synthesize maximumRatioOfGuestAssets=_maximumRatioOfGuestAssets;
-@property(nonatomic) unsigned long long maximumTargetNumberOfMemories; // @synthesize maximumTargetNumberOfMemories=_maximumTargetNumberOfMemories;
-@property(nonatomic) unsigned long long minimumNumberOfCuratedAssets; // @synthesize minimumNumberOfCuratedAssets=_minimumNumberOfCuratedAssets;
-@property(nonatomic) unsigned long long minimumNumberOfDaysBeforeTimeDecay; // @synthesize minimumNumberOfDaysBeforeTimeDecay=_minimumNumberOfDaysBeforeTimeDecay;
-@property(nonatomic) unsigned long long minimumTargetNumberOfMemories; // @synthesize minimumTargetNumberOfMemories=_minimumTargetNumberOfMemories;
-@property(retain, nonatomic) NSArray *moodHistory; // @synthesize moodHistory=_moodHistory;
-@property(nonatomic) unsigned long long numberOfDaysToFocusOnNewMemoryTypes; // @synthesize numberOfDaysToFocusOnNewMemoryTypes=_numberOfDaysToFocusOnNewMemoryTypes;
-@property(nonatomic) unsigned long long numberOfDaysToLookInFuture; // @synthesize numberOfDaysToLookInFuture=_numberOfDaysToLookInFuture;
-@property(nonatomic) unsigned long long numberOfDaysToLookInPast; // @synthesize numberOfDaysToLookInPast=_numberOfDaysToLookInPast;
-@property(nonatomic) unsigned short pendingState; // @synthesize pendingState=_pendingState;
-@property(retain, nonatomic) PGFeature *requestedFeature; // @synthesize requestedFeature=_requestedFeature;
-@property(nonatomic) unsigned long long requestedMemoryCategory; // @synthesize requestedMemoryCategory=_requestedMemoryCategory;
-@property(nonatomic) unsigned long long requestedTriggerType; // @synthesize requestedTriggerType=_requestedTriggerType;
-@property(retain, nonatomic) NSString *requestedUniqueMemoryIdentifier; // @synthesize requestedUniqueMemoryIdentifier=_requestedUniqueMemoryIdentifier;
-@property(nonatomic) _Bool shouldPersist; // @synthesize shouldPersist=_shouldPersist;
-@property(nonatomic) _Bool skipEnrichment; // @synthesize skipEnrichment=_skipEnrichment;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(nonatomic) _Bool useMaximumTargetNumberOfMemories; // @synthesize useMaximumTargetNumberOfMemories=_useMaximumTargetNumberOfMemories;
 
 @end
 

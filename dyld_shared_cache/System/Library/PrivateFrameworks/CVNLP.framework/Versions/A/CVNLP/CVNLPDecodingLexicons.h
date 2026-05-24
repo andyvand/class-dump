@@ -11,18 +11,17 @@
 @interface CVNLPDecodingLexicons : CVNLPInformationStream
 {
     NSArray *_sortedLexicons;
-    CDUnknownFunctionPointerType _inputNormalizationFunction;
 }
 
 - (id);
-- (id);
+- (id)DE;
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)F12;
 - (unsigned long long);
 - (void);
 

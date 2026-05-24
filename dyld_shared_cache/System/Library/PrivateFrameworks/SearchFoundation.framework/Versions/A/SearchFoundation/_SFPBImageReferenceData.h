@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommand;
+@class NSString;
 
 @interface _SFPBImageReferenceData
 {
     _Bool _is_prominent;
-    int _width;
-    int _height;
-    NSString *_image_url;
-    _SFPBCommand *_command;
-    NSString *_attribution;
 }
 
 - (void);
@@ -30,30 +25,17 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)mostRelevantMemoryInMemories:(id)arg1 atDate: /* Error: Ran out of types for this method. */;
+- (id)y primary image data (%p %ld) to URL %@, %ld;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)AttributionCommand: /* Error: Ran out of types for this method. */;
+- (void)setTrailingAttributionCommand: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attribution; // @synthesize attribution=_attribution;
-@property(retain, nonatomic) _SFPBCommand *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int height; // @synthesize height=_height;
 @property(copy, nonatomic) NSString *image_url; // @synthesize image_url=_image_url;
-@property(nonatomic) _Bool is_prominent; // @synthesize is_prominent=_is_prominent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) int width; // @synthesize width=_width;
 
 @end
 

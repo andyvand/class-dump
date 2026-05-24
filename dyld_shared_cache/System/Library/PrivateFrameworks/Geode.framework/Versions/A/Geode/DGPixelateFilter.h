@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (void)GSmartColorOperation;
++ (void)DGSmartColorOperation;
 - (id);
 - (id);
 

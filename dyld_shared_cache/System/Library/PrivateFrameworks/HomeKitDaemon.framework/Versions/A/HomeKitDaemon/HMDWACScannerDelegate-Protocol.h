@@ -5,6 +5,7 @@
 //
 
 @protocol HMDWACScannerDelegate
+- (void);
 - (void)&,N,V_violations;
 - (void);
 @end

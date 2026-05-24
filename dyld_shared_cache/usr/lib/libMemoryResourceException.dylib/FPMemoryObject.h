@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
-
 @interface FPMemoryObject
 {
     unsigned int _accurateSizes:1;
-    unsigned int _hasNoFootprint:1;
-    unsigned int _hasProcessViewForSingleTotalRegions:1;
-    unsigned int _isProcessViewForSingleTotalRegions:1;
-    int _ownerPid;
-    NSMutableArray *_memoryRegions;
-    unsigned long long _dirtySize;
-    unsigned long long _swappedSize;
-    unsigned long long _cleanSize;
-    unsigned long long _reclaimableSize;
-    unsigned long long _wiredSize;
-    NSMutableDictionary *_processMemoryRegions;
 }
 
-- (id);
+- (id)`.;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (int);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id);
+- (_Bool)_fetchBoundaryKeyIfNecessaryWithSourceLocked:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)H;
 - (_Bool);
 - (id);
 - (void);
@@ -49,31 +36,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxData;
-@property(readonly, nonatomic) NSString *auxDataName;
-@property(readonly, nonatomic) unsigned long long cleanSize; // @synthesize cleanSize=_cleanSize;
-@property(readonly, nonatomic) _Bool containsFakeRegion;
-@property(readonly, nonatomic) _Bool couldHaveProcessView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *detailedAuxData;
-@property(readonly, nonatomic) NSString *detailedAuxDataName;
-@property(readonly, nonatomic) NSString *detailedName;
-@property(readonly, nonatomic) unsigned long long dirtySize; // @synthesize dirtySize=_dirtySize;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool hasNoFootprint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
 @property(nonatomic) int ownerPid; // @synthesize ownerPid=_ownerPid;
-@property(readonly, nonatomic) unsigned long long reclaimableSize; // @synthesize reclaimableSize=_reclaimableSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long swappedSize; // @synthesize swappedSize=_swappedSize;
-@property(readonly, nonatomic) unsigned int totalRegions;
-@property(readonly, nonatomic) _Bool verbose;
-@property(readonly, nonatomic) unsigned long long wiredSize; // @synthesize wiredSize=_wiredSize;
 
 @end
 

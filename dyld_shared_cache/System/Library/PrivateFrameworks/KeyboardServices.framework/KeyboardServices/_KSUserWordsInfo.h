@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _KSFileEntry;
+@class NSDate;
 
 @interface _KSUserWordsInfo
 {
     NSDate *_modifiedDate;
-    unsigned long long _size;
-    _KSFileEntry *_file;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)G;
 - (void);
 - (_Bool);
 - (id);

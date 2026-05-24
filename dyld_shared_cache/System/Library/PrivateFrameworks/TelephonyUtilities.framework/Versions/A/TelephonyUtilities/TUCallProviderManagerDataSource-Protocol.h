@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, TUCallProvider;
-@protocol TUCallProviderManagerDataSourceDelegate;
+@class NSString;
 
 @protocol TUCallProviderManagerDataSource
+- (void)qA;
+- (_Bool)|;
+- (void)displayStringForResult:(NSString *)arg1 withAddress:queryString:itemLimit: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool currentProcessCanAccessInitialState;
-@property(readonly, nonatomic) TUCallProvider *defaultAppProvider;
-@property(nonatomic) __weak id <TUCallProviderManagerDataSourceDelegate> delegate;
-@property(readonly, copy, nonatomic) NSDictionary *localProvidersByIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *pairedHostDeviceProvidersByIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *providersByIdentifier;
-@property(readonly, copy, nonatomic) NSArray *sortedProviders;
 @end
 

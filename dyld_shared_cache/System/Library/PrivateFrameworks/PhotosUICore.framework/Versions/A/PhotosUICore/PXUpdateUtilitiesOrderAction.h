@@ -11,8 +11,6 @@
 @interface PXUpdateUtilitiesOrderAction : PXPhotosAction
 {
     id <PXFastEnumeration> orderedCollections;
-    id undoOrderedUtilityTypes;
-    id redoOrderedUtilityTypes;
 }
 
 + (_Bool);

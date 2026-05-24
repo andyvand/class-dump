@@ -7,30 +7,22 @@
 @interface ChatKit.CKTranscriptNavigationBarContextFlags
 {
     _Bool isNewCompose;
-    _Bool isTitleViewInteractable;
-    _Bool isShownInStandaloneWindow;
-    _Bool isSplitViewCollapsed;
-    _Bool wantsGlassPlatter;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)s;
+- (void)e;
+- (void).;
+- (void));
+- (_Bool)lf.zoomController) != nil);
+- (_Bool)ap[contentID];
+- (_Bool)rtLegacyNote:temporaryTextStorage:toNote:attachmentPreviewGenerator:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)ICTTTextStorageDidUpdateDataDetectionResultsNotification;
+- (id)?;
 
 // Remaining properties
 @property(nonatomic) _Bool isNewCompose; // @synthesize isNewCompose;
-@property(nonatomic) _Bool isShownInStandaloneWindow; // @synthesize isShownInStandaloneWindow;
-@property(nonatomic) _Bool isSplitViewCollapsed; // @synthesize isSplitViewCollapsed;
-@property(nonatomic) _Bool isTitleViewInteractable; // @synthesize isTitleViewInteractable;
-@property(nonatomic) _Bool wantsGlassPlatter; // @synthesize wantsGlassPlatter;
 
 @end
 

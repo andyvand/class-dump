@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)recoveryKeyHttpMethod;
 - (id);
 - (void)"d"longitude"d};
 - (void)çþÿDÄ¹0ø;

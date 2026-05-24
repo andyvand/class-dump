@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SBDefaultExistanceHelpers)
-- (void);
+- (void)V;
 - (_Bool);
 @end
 

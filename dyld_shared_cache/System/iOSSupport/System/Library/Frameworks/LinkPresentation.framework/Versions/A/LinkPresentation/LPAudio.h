@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVURLAsset, LPAudioProperties, NSData, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface LPAudio
 {
     NSData *_data;
-    NSObject<OS_dispatch_queue> *_mediaLoadingQueue;
-    AVURLAsset *_asset;
-    LPAudioProperties *_properties;
-    NSURL *_fileURL;
-    NSURL *_streamingURL;
-    NSString *_MIMEType;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)startTrimmingMediaObjectsInComposition:(id)arg1;
+- (id)startAccessingSecurityScopedResource;
+- (_Bool)shouldUseTranscoderGeneratedPreviewSize;
+- (unsigned long long)shouldShowTranslationSecondaryText;
+- (_Bool)shouldShowDictationButton;
+- (id)shouldOfferTranslateConversationInTranslateMenu;
 - (id);
 - (id);
 - (id);
+- (id)beginSheetForDirectory:(id)arg1 file:modalForWindow:modalDelegate:didEndSelector:contextInfo: /* Error: Ran out of types for this method. */;
+- (id)_authorizationIdentifier;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,21 +34,7 @@
 - (id)¢;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(readonly, nonatomic) AVAsset *_asset; // @synthesize _asset;
-@property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;
-@property(readonly, nonatomic) unsigned long long _encodedSize;
 @property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) LPAudioProperties *properties;
-@property(readonly, retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,11 +12,12 @@
 }
 
 + (id);
-- (void);
+- (void)%d
+;
+- (id)s;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void)okItems: /* Error: Ran out of types for this method. */;
+- (void)defaultItemTypeForSearchForNotebookItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CSSearchableIndex *index; // @synthesize index=_index;

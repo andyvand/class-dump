@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, BrowserWindowController, ForYouRecommendationMediator, KeyLoopSplicingContainerView, NSLayoutConstraint, NSScrollView, NSString, NSView, NSViewController, NSVisualEffectView, StartPageCollectionViewController;
-@protocol StartPageContentViewController;
+@class KeyLoopSplicingContainerView, NSView;
 
 __attribute__((visibility("hidden")))
 @interface StartPageViewController
 {
     NSView *_rootView;
-    NSViewController<StartPageContentViewController> *_currentMainContainerViewController;
-    StartPageCollectionViewController *_startPageCollectionViewController;
-    double _defaultBottomBannerContainerToMainContainerBottomConstraintConstant;
-    BrowserViewController *_browserContentViewController;
-    BrowserWindowController *_browserWindowController;
-    NSView *_externalCenteringView;
-    ForYouRecommendationMediator *_mediator;
-    long long _type;
-    KeyLoopSplicingContainerView *_mainContainerView;
-    NSVisualEffectView *_windowBackdropVisualEffectView;
-    NSView *_bottomBanner;
-    NSView *_bottomBannerContainer;
-    NSLayoutConstraint *_mainContainerToBottomBannerContainerConstraint;
-    NSLayoutConstraint *_bottomBannerContainerToMainContainerBottomConstraint;
 }
 
 + (id);
@@ -44,19 +29,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -64,48 +40,42 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)=;
 - (id);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)half-of connections must use different initializer;
 - (void)0@ù
 × ;
 - (void);
 - (id)íÿÙx;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *bottomBanner; // @synthesize bottomBanner=_bottomBanner;
-@property(nonatomic) __weak NSView *bottomBannerContainer; // @synthesize bottomBannerContainer=_bottomBannerContainer;
-@property(retain, nonatomic) NSLayoutConstraint *bottomBannerContainerToMainContainerBottomConstraint; // @synthesize bottomBannerContainerToMainContainerBottomConstraint=_bottomBannerContainerToMainContainerBottomConstraint;
-@property(nonatomic) __weak BrowserViewController *browserContentViewController; // @synthesize browserContentViewController=_browserContentViewController;
-@property(nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(retain, nonatomic) NSString *deviceUUIDForStandaloneCloudTabsStartPage;
-@property(retain, nonatomic) NSView *externalCenteringView; // @synthesize externalCenteringView=_externalCenteringView;
-@property(copy, nonatomic) NSString *lastUsedBookmarksFolderUUID;
-@property(retain, nonatomic) NSLayoutConstraint *mainContainerToBottomBannerContainerConstraint; // @synthesize mainContainerToBottomBannerContainerConstraint=_mainContainerToBottomBannerContainerConstraint;
 @property(nonatomic) __weak KeyLoopSplicingContainerView *mainContainerView; // @synthesize mainContainerView=_mainContainerView;
-@property(retain, nonatomic) ForYouRecommendationMediator *mediator; // @synthesize mediator=_mediator;
-@property(readonly, nonatomic) NSString *pageTitle;
-@property(readonly, nonatomic) NSScrollView *startPageScrollView;
-@property(readonly, nonatomic) struct CGRect startPageViewContentRect;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) __weak NSVisualEffectView *windowBackdropVisualEffectView; // @synthesize windowBackdropVisualEffectView=_windowBackdropVisualEffectView;
 
 @end
 

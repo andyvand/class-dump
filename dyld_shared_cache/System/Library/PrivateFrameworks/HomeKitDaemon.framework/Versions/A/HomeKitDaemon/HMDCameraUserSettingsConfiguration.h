@@ -8,18 +8,14 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraUserSettingsConfiguration
 {
     _Bool _sharingFaceClassificationsEnabled;
-    _Bool _importingFromPhotoLibraryEnabled;
-    _Bool _owner;
 }
 
+- (_Bool)4^d32d40@?48;
+- (_Bool)8@16Q24;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)a;
 
 // Remaining properties
-@property(readonly, getter=isImportingFromPhotoLibraryEnabled) _Bool importingFromPhotoLibraryEnabled; // @synthesize importingFromPhotoLibraryEnabled=_importingFromPhotoLibraryEnabled;
-@property(readonly, getter=isOwner) _Bool owner; // @synthesize owner=_owner;
 @property(readonly, getter=isSharingFaceClassificationsEnabled) _Bool sharingFaceClassificationsEnabled; // @synthesize sharingFaceClassificationsEnabled=_sharingFaceClassificationsEnabled;
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)Options: /* Error: Ran out of types for this method. */;
+- (id)showReplacementsForText:withOptions: /* Error: Ran out of types for this method. */;
 - (id)d during State Restoration for window %@;
 
 // Remaining properties

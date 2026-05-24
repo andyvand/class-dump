@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKWiProxTrackerScanner, NSMutableSet, NSSet, NSString;
-@protocol CRKClassSessionBeaconBrowserDelegate;
+@class CRKWiProxTrackerScanner;
 
 @interface CRKClassSessionBeaconBrowser
 {
     long long mZoneTrackerLastState;
-    NSMutableSet *mScanningZones;
-    long long mIncreasedScanRequestCount;
-    _Bool _allowInvitationSessions;
-    _Bool _isBrowsing;
-    _Bool _isScanning;
-    id <CRKClassSessionBeaconBrowserDelegate> _delegate;
-    NSSet *_organizationUUIDs;
-    CRKWiProxTrackerScanner *_trackerScanner;
-    NSSet *_trackingUUIDs;
 }
 
 + (id);
@@ -31,29 +21,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -66,20 +56,7 @@
 - (_Bool)½g;
 
 // Remaining properties
-@property(nonatomic) _Bool allowInvitationSessions; // @synthesize allowInvitationSessions=_allowInvitationSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKClassSessionBeaconBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBrowsing; // @synthesize isBrowsing=_isBrowsing;
-@property(nonatomic) _Bool isScanning; // @synthesize isScanning=_isScanning;
-@property(copy, nonatomic) NSSet *organizationUUIDs; // @synthesize organizationUUIDs=_organizationUUIDs;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CRKWiProxTrackerScanner *trackerScanner; // @synthesize trackerScanner=_trackerScanner;
-@property(copy, nonatomic) NSSet *trackingUUIDs; // @synthesize trackingUUIDs=_trackingUUIDs;
 
 @end
 

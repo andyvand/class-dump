@@ -7,54 +7,30 @@
 #import <Vision/VNLKTOpticalFlow.h>
 
 @class VNMetalContext;
-@protocol MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLTexture;
 
 __attribute__((visibility("hidden")))
 @interface VNLKTOpticalFlowGPU : VNLKTOpticalFlow
 {
     VNMetalContext *_mtlContext;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLComputePipelineState> _computePipelines[9];
-    unsigned long long _maxThreadExecutionWidth;
-    struct CGSize _pyramid_size[10];
-    id <MTLTexture> _I_tex[2][10];
-    id <MTLTexture> _I_u32_alias_tex[2][10];
-    struct __CVBuffer *_G0_pxbuf;
-    struct __CVBuffer *_G1_pxbuf;
-    id <MTLTexture> _G0_tex[10];
-    id <MTLTexture> _G1_tex[10];
-    struct __CVBuffer *_C0_pxbuf;
-    struct __CVBuffer *_C1_pxbuf;
-    id <MTLTexture> _C0_tex[10];
-    id <MTLTexture> _C1_tex[10];
-    id <MTLBuffer> _Adiagb_buf[2];
-    id <MTLBuffer> _Ixy_buf[2];
-    struct __CVBuffer *_w_pxbuf;
-    id <MTLTexture> _w_tex[10];
-    struct __CVBuffer *_uv_pxbuf[2];
-    id <MTLTexture> _uv_tex[2][10];
-    id <MTLTexture> _uv_u32_alias_tex[2][10];
-    int _current_frame_index;
-    id <MTLTexture> _uv_tex_user_ref;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)aceLandmarksConstellation76Points;
+- (void);
+- (void)VNRequestFaceLandmarksConstellation76Points;
 - (void)¬;
 
 @end

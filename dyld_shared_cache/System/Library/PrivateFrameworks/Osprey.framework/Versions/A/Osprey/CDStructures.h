@@ -10,11 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct FairPlayHWInfo_ {
-    unsigned int IDLength;
-    unsigned char ID[20];
-};
-
 struct internal_state;
 
 struct z_stream_s {

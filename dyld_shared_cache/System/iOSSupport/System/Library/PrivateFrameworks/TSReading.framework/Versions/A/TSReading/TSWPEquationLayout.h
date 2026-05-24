@@ -6,26 +6,22 @@
 
 #import <TSReading/TSDLayout.h>
 
-@class TSDShadow;
-@protocol EQKitLayout, EQKitLayoutContext;
+@protocol EQKitLayoutContext;
 
 @interface TSWPEquationLayout : TSDLayout
 {
     _Bool _equationIsValid;
-    id <EQKitLayout> _equationLayout;
-    id <EQKitLayoutContext> _equationLayoutContext;
-    struct CGColor *_textColor;
-    TSDShadow *_textShadow;
 }
 
-- (void);
-- (_Bool);
+- (void)QueueController <%p>
+;
+- (_Bool)age:%p localizedTitle="%@" localizedMessage="%@"> /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h|;
 - (struct CGRect);
 - (id);
 - (id);
@@ -34,11 +30,7 @@
 - (void)D5T7;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool equationIsValid; // @synthesize equationIsValid=_equationIsValid;
-@property(readonly, nonatomic) id <EQKitLayout> equationLayout; // @synthesize equationLayout=_equationLayout;
 @property(retain, nonatomic) id <EQKitLayoutContext> equationLayoutContext; // @synthesize equationLayoutContext=_equationLayoutContext;
-@property(readonly, nonatomic) struct CGColor *textColor; // @synthesize textColor=_textColor;
-@property(readonly, nonatomic) TSDShadow *textShadow; // @synthesize textShadow=_textShadow;
 
 @end
 

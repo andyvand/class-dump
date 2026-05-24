@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTBiomeManager, RTContactsManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationStore, RTLocationManager, RTMapServiceManager, RTMapsSupportManager, RTPlaceTypeClassifierMetricsCalculator, RTPlatform, RTVisitManager;
-@protocol OS_dispatch_queue;
+@class RTBiomeManager;
 
 @interface RTPlaceTypeClassifier
 {
     RTBiomeManager *_biomeManager;
-    RTContactsManager *_contactsManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTMapsSupportManager *_mapsSupportManager;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
-    RTPlatform *_platform;
-    RTVisitManager *_visitManager;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (_Bool);
@@ -36,19 +24,19 @@
 - (id);
 - (id);
 - (id);
+- (void)FArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)o;
+- (id)DPHSM;
+- (_Bool)ationTime;
+- (id);
+- (_Bool)PCSIdentityCollectionCopyCurrent;
+- (id)gold;
+- (id)invalid_record;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)bs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDS/Client/IDSDataChannels.m;
 - (void);
 - (id);
 - (id);
@@ -70,17 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTBiomeManager *biomeManager; // @synthesize biomeManager=_biomeManager;
-@property(retain, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

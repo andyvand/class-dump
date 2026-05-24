@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFXPCAlarmScheduler, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EFXPCAlarmScheduler;
 
 @interface EFXPCAlarm
 {
     struct os_unfair_lock_s _lock;
-    NSString *_eventName;
-    EFXPCAlarmScheduler *_scheduler;
-    NSObject<OS_dispatch_queue> *_eventHandlerQueue;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _test_schedulerObserver;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)previousLocationInView: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)Listener"16@"NSXPCConnection"24;
 - (id);
-- (id);
+- (void)setBody:(id)arg1;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)k
+;
 - (void);
 - (void);
 - (void);
@@ -35,11 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *eventHandlerQueue; // @synthesize eventHandlerQueue=_eventHandlerQueue;
-@property(readonly, copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
 @property(readonly, nonatomic) EFXPCAlarmScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(copy, nonatomic) CDUnknownBlockType test_schedulerObserver; // @synthesize test_schedulerObserver=_test_schedulerObserver;
 
 @end
 

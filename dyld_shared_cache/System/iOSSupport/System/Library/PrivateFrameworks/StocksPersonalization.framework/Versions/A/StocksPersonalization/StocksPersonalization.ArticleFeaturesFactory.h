@@ -7,6 +7,7 @@
 @interface StocksPersonalization.ArticleFeaturesFactory
 {
     id newsArticleFeaturesFactory;
+    id;
 }
 
 @end

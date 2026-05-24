@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FMFuture
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _finished;
-    NSMutableArray *_completionBlocks;
-    id _resultValue;
-    NSError *_resultError;
-    NSString *_descriptor;
 }
 
 + (id);
-+ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
@@ -36,38 +31,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)mic content key.;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (CDUnknownBlockType);
+- (void);
+- (_Bool);
 - (id);
+- (_Bool);
+- (CDUnknownBlockType);
 - (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptor; // @synthesize descriptor=_descriptor;
 @property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

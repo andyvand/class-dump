@@ -6,15 +6,12 @@
 
 #import <AuthKitUI/AKPromptWindowController.h>
 
-@class AKPrivateEmailContext, AKPrivateEmailRVSBootstrapper;
+@class AKPrivateEmailRVSBootstrapper;
 @protocol AKPrivateEmailRVSWindowControllerDelegate;
 
 @interface AKPrivateEmailRVSWindowController : AKPromptWindowController
 {
     id <AKPrivateEmailRVSWindowControllerDelegate> _delegate;
-    AKPrivateEmailContext *_privateEmailContext;
-    AKPrivateEmailRVSBootstrapper *_helper;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
@@ -27,16 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)!;
+- (CDUnknownBlockType);
+- (id)@?32;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) __weak id <AKPrivateEmailRVSWindowControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) AKPrivateEmailRVSBootstrapper *helper; // @synthesize helper=_helper;
-@property(readonly, nonatomic) AKPrivateEmailContext *privateEmailContext; // @synthesize privateEmailContext=_privateEmailContext;
 
 @end
 

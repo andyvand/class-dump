@@ -4,53 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLDerivativesFilter, CPLEngineLibrary, CPLPlatformObject, CPLSyncSession, CPLSyncStep, NSArray, NSCountedSet, NSDate, NSError, NSMutableArray, NSObject, NSString;
-@protocol CPLEngineStoreUserIdentifier, CPLEngineSyncManagerForcedTask, CPLEngineTransportSetupTask, OS_dispatch_queue;
+@protocol CPLEngineStoreUserIdentifier;
 
 @interface CPLEngineSyncManager
 {
     id <CPLEngineStoreUserIdentifier> _transportUserIdentifier;
-    struct os_unfair_lock_s _transportUserIdentifierLock;
-    struct os_unfair_lock_s _brokenScopesLock;
-    NSMutableArray *_brokenScopes;
-    CPLDerivativesFilter *_derivativesFilter;
-    _Bool _setupIsDone;
-    _Bool _shouldUpdateDisabledFeatures;
-    _Bool _closed;
-    id <CPLEngineTransportSetupTask> _setupTask;
-    CDUnknownBlockType _closingCompletionHandler;
-    CPLSyncSession *_session;
-    NSObject<OS_dispatch_queue> *_lock;
-    NSError *_lastError;
-    CPLSyncStep *_currentStep;
-    id <CPLEngineTransportSetupTask> _forcedSetupTask;
-    id <CPLEngineSyncManagerForcedTask> _currentForcedTask;
-    NSMutableArray *_pendingForcedTasks;
-    unsigned long long _shouldRestartSessionFromState;
-    NSMutableArray *_lastErrors;
-    NSDate *_lastSyncSessionStartDate;
-    NSDate *_lastSyncSessionEndDate;
-    NSString *_lastSyncSessionDescription;
-    _Bool _foreground;
-    _Bool _boostPriority;
-    _Bool _hasOverridenBudgets;
-    _Bool _disabledSchedulerForForcedTask;
-    NSMutableArray *_forcedTaskHistory;
-    NSMutableArray *_cancellerBlocks;
-    NSCountedSet *_blockedReasons;
-    _Bool _shouldTryToMingleImmediately;
-    CPLPlatformObject *_platformObject;
-    CPLEngineLibrary *_engineLibrary;
-    unsigned long long _state;
 }
 
++ (id)S;
++ (unsigned int);
 + (id);
 + (unsigned int);
 + (id);
-+ (unsigned int);
-+ (id);
-+ (id)ectsOfClass:(unsigned long long)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)decodeArrayOfObjectsOfClass:(unsigned long long)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)tems we might want (need fs_snapshot check)
+SELECT rt.fp_id,
+       (fs_snapshot.metadata_is_dataless = 0) as is_watched,
+       rt.enumeration_anchor,
+       fp.parent_id,
+       fp.filename,
+       fp.metadata_kind as kind
+  FROM reconciliation_table rt INDEXED BY reconciliation_materialized_set_opt
+  INNER JOIN fp_snapshot fp ON rt.fp_id = fp.id
+  INNER JOIN fs_snapshot ON rt.fs_id = fs_snapshot.id
+ WHERE fp.parent_id IS NOT NULL
+   AND rt.enumeration_anchor > ;
 - (void);
 - (void);
 - (void);
@@ -72,21 +50,20 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void)R;
+- (id)5;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)ngineStoreTransaction"24;
-- (_Bool)not to trigger a sync session;
-- (void);
-- (void)_;
-- (void){I©ôOH©öWG©ÿÿ_Ö#ÕÿÑöW©ôO©ý{©ýCóªô;
-- (unsigned long long)Õ
-@ù÷#;
-- (_Bool);
-- (void)#ÕÿCÑöW©ôO©ý{©ýóªô;
-- (id)r+ÁÚ­Áð£©àª¥ªö/;
-- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -100,36 +77,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)<;
 - (id);
-- (void);
+- (void);;
 - (void)Âð!Ø@ù1Â0@ù
 × ;
-- (void)ntifier:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
+- (void)initWithUserIdentifier:(id)arg1;
+- (id)executePostOpenWithError: /* Error: Ran out of types for this method. */;
 - (id)gRecords;
-- (void)edState;
+- (void)requiredState;
 - (void)eatureCompatibleVersion = %@;
 - (void)c}@:(CDUnknownBlockType)arg1 %{public}@ exists now - informing %@;
 - (void)¶e;
 - (id)x±òÿ/;
 
 // Remaining properties
-@property(readonly) NSArray *brokenScopes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(readonly) _Bool hasBrokenScopes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSError *lastError;
-@property(readonly, nonatomic) NSError *lastErrorUnlocked;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(nonatomic) _Bool shouldTryToMingleImmediately; // @synthesize shouldTryToMingleImmediately=_shouldTryToMingleImmediately;
 @property(nonatomic, setter=_setState:) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

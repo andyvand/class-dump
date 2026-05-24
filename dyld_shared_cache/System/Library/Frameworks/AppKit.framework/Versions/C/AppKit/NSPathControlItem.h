@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSPathComponentCell, NSString, NSURL;
+@class NSPathComponentCell, NSString;
 
 @interface NSPathControlItem
 {
@@ -12,23 +12,20 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)erface-option;
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)tLocation;
+- (id);
+- (void)startLocation;
 - (id)s of object:%@, suppress specific notification of object %@ with key path %@ /* Error: Ran out of types for this method. */;
 - (id)ýÆ;
 - (void);
 - (void)eüD;
 
 // Remaining properties
-@property(readonly) NSURL *URL;
-@property(copy) NSAttributedString *attributedTitle;
-@property(retain) NSImage *image;
 @property(copy) NSString *title;
 
 @end

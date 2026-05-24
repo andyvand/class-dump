@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface RadialFalloffFilter : CIFilter
 {
     CIVector *inputExtent;
-    CIImage *inputCenter;
-    NSNumber *inputFalloff;
-    NSNumber *inputRadius;
-    NSNumber *inputAnisotropic;
 }
 
 - (void);
@@ -23,19 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (id)Uum\pff}yz|||LbWl^_Seilelttttqqqq`e[knsms££££yyyyYcYg[[O[KSCW>R@`nyt§§§§ºººº´´´´    z{¡¡¡¡¢¢¢¢ssquc`Ycbbbbjjjjrrrrsxxx|;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAnisotropic; // @synthesize inputAnisotropic;
-@property(retain, nonatomic) CIImage *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
-@property(retain, nonatomic) NSNumber *inputFalloff; // @synthesize inputFalloff;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

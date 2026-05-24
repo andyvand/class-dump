@@ -5,5 +5,8 @@
 //
 
 @protocol PKPaymentOffersControllerObserver
+
+@optional
+- (void);
 @end
 

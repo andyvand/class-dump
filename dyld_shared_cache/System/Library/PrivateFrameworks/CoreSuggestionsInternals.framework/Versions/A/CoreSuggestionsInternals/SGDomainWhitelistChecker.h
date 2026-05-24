@@ -12,9 +12,9 @@
 + (CDStruct_0802cd3c);
 + (CDStruct_0802cd3c);
 + (_Bool);
-+ (void);
-+ (_Bool);
-+ (id)ype:extractionInfo:curated:parent:value:context:contextRangeOfInterest: /* Error: Ran out of types for this method. */;
++ (void)addLabelTextFieldWithLabel:(id)arg1;
++ (_Bool)H;
++ (id)initWithContactDetailWithKey:type:extractionInfo:curated:parent:value:context:contextRangeOfInterest: /* Error: Ran out of types for this method. */;
 
 @end
 

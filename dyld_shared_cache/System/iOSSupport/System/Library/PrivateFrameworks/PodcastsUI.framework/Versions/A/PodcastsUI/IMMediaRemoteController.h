@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAVPlayer, MPRemoteCommandCenter, NSArray;
+@class IMAVPlayer;
 
 @interface IMMediaRemoteController
 {
     IMAVPlayer *_player;
-    NSArray *_supportedPlaybackRates;
-    MPRemoteCommandCenter *_remoteCommandCenter;
 }
 
 - (void);
@@ -24,17 +22,17 @@
 - (long long);
 - (long long);
 - (struct __CFArray *);
-- (void);
+- (void)tadctadc;
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)ObjectID";
+- (long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)JetEngine/AccountProvider.swift;
 - (id);
 - (void);
 - (void);
@@ -42,8 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMAVPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) MPRemoteCommandCenter *remoteCommandCenter; // @synthesize remoteCommandCenter=_remoteCommandCenter;
-@property(retain, nonatomic) NSArray *supportedPlaybackRates; // @synthesize supportedPlaybackRates=_supportedPlaybackRates;
 
 @end
 

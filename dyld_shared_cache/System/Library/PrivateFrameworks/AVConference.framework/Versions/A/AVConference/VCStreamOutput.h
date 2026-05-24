@@ -6,22 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCStreamOutput : VCObject
 {
     long long _streamToken;
-    struct opaqueVCRemoteImageQueue *_remoteQueue;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    int _clientProcessID;
-    struct __CFDictionary *_attributes;
-    id _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _isClientInProcess;
-    _Bool _useFigRemoteQueue;
-    struct __CFAllocator *_backingBufferAllocator;
 }
 
 - (_Bool);
@@ -44,16 +32,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly) struct __CFAllocator *backingBufferAllocator; // @synthesize backingBufferAllocator=_backingBufferAllocator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isClientInProcess; // @synthesize isClientInProcess=_isClientInProcess;
 @property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
 
 @end
 

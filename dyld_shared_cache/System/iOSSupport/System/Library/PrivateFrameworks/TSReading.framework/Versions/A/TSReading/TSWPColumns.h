@@ -7,20 +7,17 @@
 @interface TSWPColumns
 {
     unsigned long long _columnCount;
-    _Bool _equalWidth;
-    double _widthArray[10];
-    double _gapArray[9];
 }
 
 + (id)stence/src/TSPObject.mm;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
+- (void)uePlaceHolder must have deferredNextContentItemID:(double)arg1 %@;
+- (void)contentType;
+- (void)previousItemEndReason;
+- (void)GaplessInfoDurationInFramesKey;
+- (void)Offset:(unsigned long long)arg1;
+- (double)itemDidPlayToEnd:(double)arg1;
+- (double)o ;
+- (double)the current batchNumber has changed to ;
 - (id);
 - (id);
 - (id);
@@ -37,7 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long columnCount; // @synthesize columnCount=_columnCount;
-@property(nonatomic) _Bool equalWidth; // @synthesize equalWidth=_equalWidth;
 
 @end
 

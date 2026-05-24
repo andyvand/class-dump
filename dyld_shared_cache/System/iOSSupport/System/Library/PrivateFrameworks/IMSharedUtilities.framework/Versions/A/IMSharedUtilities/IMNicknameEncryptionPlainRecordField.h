@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMNicknameEncryptionPlainRecordField
 {
     NSString *_fieldName;
-    NSData *_plainData;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ssagesData;
+- (id)(;
+- (void);
+- (void)_messagesData;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) NSData *plainData; // @synthesize plainData=_plainData;
 
 @end
 

@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMultiFrameImage, NSArray, UIImage;
+@class CKMultiFrameImage, NSArray;
 
 @interface CKAnimatedImage
 {
     NSArray *_frameStartTimestamps;
-    NSArray *_frameEndTimestamps;
-    double _animationStartTimeOffset;
-    CKMultiFrameImage *_multiFrameImage;
-    UIImage *_cachedMultiFrameUIImage;
-    long long _previouslyReturnedFrameIndexHint;
 }
 
 + (id);
 + (id);
 - (double);
+- (void)So15CalculateResultC;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (void)s;
+- (long long);
+- (id)ICAttachmentInitialPreviewDidLoadNotification;
+- (id);
 - (long long);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (double);
+- (double)=C;
 - (id);
 - (double);
 - (void);
@@ -39,23 +34,13 @@
 - (id);
 - (double);
 - (id);
-- (struct CGSize);
+- (struct CGSize)@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double animationStartTimeOffset; // @synthesize animationStartTimeOffset=_animationStartTimeOffset;
-@property(retain, nonatomic) UIImage *cachedMultiFrameUIImage; // @synthesize cachedMultiFrameUIImage=_cachedMultiFrameUIImage;
-@property(readonly, copy, nonatomic) NSArray *durations;
-@property(readonly, copy, nonatomic) NSArray *frameEndTimestamps; // @synthesize frameEndTimestamps=_frameEndTimestamps;
-@property(readonly, copy, nonatomic) NSArray *frameStartTimestamps; // @synthesize frameStartTimestamps=_frameStartTimestamps;
-@property(readonly, nonatomic) NSArray *frames;
-@property(readonly, nonatomic) UIImage *image;
 @property(retain, nonatomic) CKMultiFrameImage *multiFrameImage; // @synthesize multiFrameImage=_multiFrameImage;
-@property(nonatomic) long long previouslyReturnedFrameIndexHint; // @synthesize previouslyReturnedFrameIndexHint=_previouslyReturnedFrameIndexHint;
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

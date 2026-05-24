@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface LNAutoShortcutParameterPhraseGroup
 {
     NSUUID *_parameterID;
-    NSArray *_phrases;
 }
 
-- (id);
+- (id)З{;
 - (void);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *parameterID; // @synthesize parameterID=_parameterID;
-@property(readonly, nonatomic) NSArray *phrases; // @synthesize phrases=_phrases;
 
 @end
 

@@ -6,32 +6,29 @@
 
 #import <Catalyst/CATTransport.h>
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CATXPCTransport : CATTransport
 {
     NSXPCConnection *mConnection;
-    _Bool mConnectionHasResumed;
-    _Bool mConnectionShouldInvalidate;
-    _Bool mConnectionHasInvalidated;
 }
 
-+ (id);
++ (id)setCurrentRequestingViewIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setLoadingProgressValue:(id)arg1;
 - (_Bool);
 - (int);
 - (void);
+- (void)th should be smaller than the candidate string length;
+- (id);
+- (void);
 - (void);
 - (id);
+- (void)race_str_map_s}Q^{os_procinfo_map_s}QQ{subchunk_queue_t=^{catalog_subchunk_s}^^{catalog_subchunk_s}}Q},R,N,V_catalog;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
+- (int)@;
 - (unsigned int);
 - (id);
 - (void);
@@ -39,16 +36,6 @@
 
 // Remaining properties
 @property(readonly) int auditSessionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int effectiveGroupIdentifier;
-@property(readonly) unsigned int effectiveUserIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) int processIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

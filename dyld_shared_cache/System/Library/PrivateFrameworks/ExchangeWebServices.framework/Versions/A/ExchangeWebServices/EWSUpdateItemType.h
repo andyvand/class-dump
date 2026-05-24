@@ -6,15 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSTargetFolderIdType, NSArray;
+@class EWSTargetFolderIdType;
 
 @interface EWSUpdateItemType : EWSBaseRequestType
 {
     EWSTargetFolderIdType *_SavedItemFolderId;
-    NSArray *_ItemChanges;
-    long long _ConflictResolution;
-    long long _MessageDisposition;
-    long long _SendMeetingInvitationsOrCancellations;
 }
 
 + (id);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long ConflictResolution; // @synthesize ConflictResolution=_ConflictResolution;
-@property(copy, nonatomic) NSArray *ItemChanges; // @synthesize ItemChanges=_ItemChanges;
-@property(nonatomic) long long MessageDisposition; // @synthesize MessageDisposition=_MessageDisposition;
 @property(retain, nonatomic) EWSTargetFolderIdType *SavedItemFolderId; // @synthesize SavedItemFolderId=_SavedItemFolderId;
-@property(nonatomic) long long SendMeetingInvitationsOrCancellations; // @synthesize SendMeetingInvitationsOrCancellations=_SendMeetingInvitationsOrCancellations;
 
 @end
 

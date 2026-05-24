@@ -21,14 +21,13 @@
 - (id);
 - (void);
 - (id);
-- (void)IDs;
+- (void)ICMutablePlayActivityEventContainerIDs;
 - (id)¬;
 - (id){¨
 ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *propertyListRepresentation;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier;
 
 @end
 

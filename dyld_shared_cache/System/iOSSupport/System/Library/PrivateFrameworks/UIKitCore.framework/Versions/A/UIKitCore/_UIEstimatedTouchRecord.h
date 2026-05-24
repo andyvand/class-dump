@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, UITouch;
+@class UITouch;
 
 __attribute__((visibility("hidden")))
 @interface _UIEstimatedTouchRecord
@@ -17,34 +17,24 @@ __attribute__((visibility("hidden")))
         unsigned int hasUpdatedRollAngle:1;
         unsigned int updatedRollAngleStillEstimated:1;
     } _stateFlags;
-    NSMutableArray *_touchables;
-    double _updatedPressure;
-    double _updatedRollAngle;
-    UITouch *_liveTouch;
-    UITouch *_frozenTouch;
-    NSNumber *_contextID;
 }
 
 - (id);
+- (void)setHasScheduledMessage:(id)arg1;
+- (id)initWithService:commands:manuallyAckMessages: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:(id)arg1 kickedMembersChangedForConversation:(id)arg2 fromOldConversation:(id)arg3;
+- (_Bool)IDs: /* Error: Ran out of types for this method. */;
+- (id)_reportReceivedMetricForSMSWithMessage:context: /* Error: Ran out of types for this method. */;
+- (void)_deviceSupportsSMSAutoReplyForChat:(double)arg1;
+- (void)_deviceLowOnDiskSpace;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ticipantVersion:%@, timeDifference:%lld, lastUpdated:%lld, timestamp:%lld, incomingParticipants:%@, protocolVersion:%@, isIncomingParticipantSetSame %@ /* Error: Ran out of types for this method. */;
 - (id)!¸FùÑaÐ1Â0@ù
 × ;
 - (void)ÌöWÔ]\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *contextID; // @synthesize contextID=_contextID;
-@property(readonly, nonatomic) UITouch *frozenTouch; // @synthesize frozenTouch=_frozenTouch;
-@property(readonly, nonatomic) _Bool hasRemainingUpdates;
 @property(readonly, nonatomic) UITouch *liveTouch; // @synthesize liveTouch=_liveTouch;
-@property(readonly, nonatomic) NSArray *touchables; // @synthesize touchables=_touchables;
 
 @end
 

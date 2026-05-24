@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetInspector, AVAssetInspectorLoader, AVDispatchOnce, NSDictionary, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCompositionInternal
 {
     struct OpaqueFigMutableComposition *mutableComposition;
-    AVDispatchOnce *formatReaderInitializationOnce;
-    AVDispatchOnce *assetInspectorInitializationOnce;
-    AVDispatchOnce *tracksInitializationOnce;
-    struct OpaqueFigFormatReader *formatReader;
-    AVAssetInspectorLoader *assetInspectorLoader;
-    AVAssetInspector *assetInspector;
-    struct CGSize naturalSize;
-    NSDictionary *URLAssetInitializationOptions;
-    NSMutableArray *tracks;
-    AVDispatchOnce *figAssetInitializationOnce;
-    struct OpaqueFigAsset *figAsset;
 }
 
 @end

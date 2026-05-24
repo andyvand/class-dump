@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface FTABSubfileOS
 {
     NSData *_data;
-    unsigned int _dataLength;
-    NSString *_tag;
-    const char *_dataPointer;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)F};
+- (id)canSetSpeakItemUnderMouseVerbosity;
 - (const char *);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly) unsigned int dataLength; // @synthesize dataLength=_dataLength;
-@property(readonly) const char *dataPointer; // @synthesize dataPointer=_dataPointer;
 @property(readonly) NSString *tag; // @synthesize tag=_tag;
 
 @end

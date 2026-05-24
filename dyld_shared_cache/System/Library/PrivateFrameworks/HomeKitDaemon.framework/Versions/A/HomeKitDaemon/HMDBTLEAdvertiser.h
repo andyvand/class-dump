@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUBLEAdvertiser, HAPBTLECentralManager, HMDAccessoryQueues, HMDHAPAccessory, HMFTimer, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CUBLEAdvertiser;
 
 __attribute__((visibility("hidden")))
 @interface HMDBTLEAdvertiser
 {
     CUBLEAdvertiser *_leAdvertiser;
-    HMFTimer *_advertisementTimer;
-    HMDHAPAccessory *_accessory;
-    HAPBTLECentralManager *_centralManager;
-    HMDAccessoryQueues *_powerOnQueues;
-    double _advertisementTimeInterval;
-    double _reachabilityTimeInterval;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
 + (id);
+- (void)ng passed waypoint %lu etaInfo;
+- (void)GEOTransitArtworkSourceTypeIcon;
+- (void)meworks/DeviceIdentity.framework/DeviceIdentity;
+- (void)E;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
-- (id);
+- (id);;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -47,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setDateStyle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -56,32 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)BiomeLogEventObserverDataSource;
 
 // Remaining properties
-@property(retain, nonatomic) HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(nonatomic) double advertisementTimeInterval; // @synthesize advertisementTimeInterval=_advertisementTimeInterval;
-@property(retain, nonatomic) HMFTimer *advertisementTimer; // @synthesize advertisementTimer=_advertisementTimer;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(retain, nonatomic) HAPBTLECentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isReady) _Bool isReady;
 @property(retain, nonatomic) CUBLEAdvertiser *leAdvertiser; // @synthesize leAdvertiser=_leAdvertiser;
-@property(retain, nonatomic) HMDAccessoryQueues *powerOnQueues; // @synthesize powerOnQueues=_powerOnQueues;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double reachabilityTimeInterval; // @synthesize reachabilityTimeInterval=_reachabilityTimeInterval;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

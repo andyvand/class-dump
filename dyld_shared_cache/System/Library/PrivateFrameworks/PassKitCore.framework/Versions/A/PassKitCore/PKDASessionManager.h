@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, PKDASession;
+@class NSObject;
 @protocol OS_dispatch_group, OS_dispatch_queue;
 
 @interface PKDASessionManager
 {
     NSObject<OS_dispatch_group> *_dispatchGroup;
-    CDUnknownBlockType _sessionCreationBlock;
-    PKDASession *_session;
-    NSMutableArray *_workItems;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -21,18 +17,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

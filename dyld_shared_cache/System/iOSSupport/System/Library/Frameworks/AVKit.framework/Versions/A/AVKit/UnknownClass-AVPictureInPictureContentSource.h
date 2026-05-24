@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindow;
-
 @interface UnknownClass (AVPictureInPictureContentSource)
 - (id);
-- (void);
+- (void)a;
 - (_Bool);
 - (struct CGRect);
 - (void);
@@ -23,16 +21,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool avkit_isVisible;
-@property(readonly, nonatomic) struct CGRect avkit_playerLayerRectInWindow;
 @property(readonly, nonatomic) struct CGRect avkit_videoRectInWindow;
-@property(readonly, nonatomic) UIWindow *avkit_window;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

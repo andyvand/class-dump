@@ -9,9 +9,6 @@
 @interface _PXStoryAnalyticsSessionInfo
 {
     id <CPAnalyticsEventProtocol> _startEvent;
-    long long _pauseCount;
-    long long _appSuspensionCount;
-    id <CPAnalyticsEventProtocol> _endEvent;
 }
 
 - (long long);
@@ -27,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long appSuspensionCount; // @synthesize appSuspensionCount=_appSuspensionCount;
-@property(retain, nonatomic) id <CPAnalyticsEventProtocol> endEvent; // @synthesize endEvent=_endEvent;
-@property(readonly, nonatomic) long long pauseCount; // @synthesize pauseCount=_pauseCount;
 @property(retain, nonatomic) id <CPAnalyticsEventProtocol> startEvent; // @synthesize startEvent=_startEvent;
 
 @end

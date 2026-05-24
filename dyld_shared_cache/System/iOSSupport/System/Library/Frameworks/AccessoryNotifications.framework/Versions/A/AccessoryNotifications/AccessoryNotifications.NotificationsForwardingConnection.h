@@ -8,10 +8,6 @@
 {
     id capabilityEndpoint;
     id device;
-    id extensionSession;
-    id activeNotifications;
-    id xpcConnection;
-    id delegate;
 }
 
 - (void);
@@ -19,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 
 @end
 

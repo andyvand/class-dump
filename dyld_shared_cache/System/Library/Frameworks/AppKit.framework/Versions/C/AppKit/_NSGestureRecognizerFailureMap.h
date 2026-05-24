@@ -10,23 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _NSGestureRecognizerFailureMap
 {
     NSMutableArray *_gestureRecognizers;
-    char *_failureMap;
-    int _unmetFailureRequirementCount;
-    int _unmetFailureDependentCount;
 }
 
++ (void)ength;
 + (void);
-+ (void);
-- (void);
-- (void);
+- (void)Fh1jQ;
+- (void)Fe55gxpfp6SByfqjASqF5A;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)set_countOfPendingBytesReceivedEncoded:(id)arg1;
 - (void);
 - (id);
 

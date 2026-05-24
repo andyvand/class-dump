@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, NSMutableSet, NSObject;
-@protocol MTLDevice, OS_dispatch_semaphore;
+@class IOGPUMetalDevice;
+@protocol MTLDevice;
 
 @interface IOGPUMetalCommandBuffer
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    struct IOGPUMetalCommandBufferStorage *_storage;
-    unsigned long long *_submitToHardwareTimeStampPointer;
-    unsigned long long _protectionOptions;
-    void *_scheduledCallbackBlockPtr;
-    void *_completedCallbackBlockPtr;
-    NSObject<OS_dispatch_semaphore> *_commitAndResetSem;
-    NSMutableSet *_purgedResources;
-    unsigned long long _gpuFaultAddress;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)30PreferredNetworksCommandDriver;
 - (void);
 - (void);
 - (void);
@@ -33,7 +25,7 @@
 - (struct IOGPUMetalCommandBufferStorage *);
 - (struct IOGPUSegmentListHeader *);
 - (void);
-- (id);
+- (id)speakableDescription;
 - (id);
 - (void);
 - (void);
@@ -41,9 +33,9 @@
 - (id);
 - (struct IOGPUMetalCommandBufferResourceInfo *);
 - (void);
-- (void);
+- (void)_normalizedSourceAppCount;
 - (_Bool);
-- (void);
+- (void)AutocompleteRemoteExecutionError;
 - (void);
 - (struct IOGPUResourceList *);
 - (void);
@@ -53,9 +45,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)*~;
+- (void);
+- (id)?	;
 - (void);
 - (void *);
 - (void);
@@ -63,30 +55,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)accentColor;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)tch our current task, %p;
+- (void)CoreDAVHTTPHeaders;
+- (void)`,;
 - (unsigned long long)Q64;
-- (void)TypeUInt8;
+- (void)MTLTensorDataTypeUInt8;
 - (void)p ID=0x%llu refcnt=%d>;
 
 // Remaining properties
 @property(readonly) struct IOGPUMetalCommandBufferResourceInfo *commandBufferResourceInfo;
-@property(readonly) struct IOGPUMetalCommandBufferStorage *commandBufferStorage; // @synthesize commandBufferStorage=_storage;
-@property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) unsigned long long gpuFaultAddress; // @synthesize gpuFaultAddress=_gpuFaultAddress;
-@property(readonly) struct IOGPUResourceList *ioGPUResourceList;
 
 @end
 

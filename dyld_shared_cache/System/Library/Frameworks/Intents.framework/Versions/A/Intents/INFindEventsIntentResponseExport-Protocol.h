@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INFindEventsIntentResponseExport
-- (long long)ndleUncompressFile:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)handleUncompressFile:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *events;
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCPersonalizationFeature
 {
     _Bool _shouldBeBoosted;
-    NSString *_personalizationIdentifier;
-    NSString *_fc_description;
-    NSString *_tagID;
 }
 
 + (id);
-+ (id);
++ (id)~;
 + (id);
 + (id);
 + (id);
@@ -25,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (unsigned long long);
@@ -36,10 +31,7 @@
 - (id)ÿÿ¸ÿpS;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fc_description; // @synthesize fc_description=_fc_description;
-@property(readonly, nonatomic) NSString *personalizationIdentifier;
 @property(nonatomic) _Bool shouldBeBoosted; // @synthesize shouldBeBoosted=_shouldBeBoosted;
-@property(readonly, nonatomic) NSString *tagID;
 
 @end
 

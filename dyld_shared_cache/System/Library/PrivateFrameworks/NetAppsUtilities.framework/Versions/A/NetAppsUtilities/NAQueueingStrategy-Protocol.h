@@ -5,5 +5,6 @@
 //
 
 @protocol NAQueueingStrategy
+- (void)hasStoredChangeSessionUpdate;
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol WBSAuthenticationServicesAgentInterface
+- (void);
+- (void):(NSString *)arg1 8@"NSTextView"16@"NSArray"24@"NSArray"32;
+- (void)hint.softwareOnly;
+- (void)q;
+- (void)_popConnection;
 @end
 

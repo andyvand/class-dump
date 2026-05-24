@@ -15,7 +15,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableData *mutableData; // @synthesize mutableData=_mutableData;
 @property(readonly, nonatomic) float *mutablePtr;
 @end
 

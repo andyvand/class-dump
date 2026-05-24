@@ -9,51 +9,41 @@
 @interface GEOPDPlaceSummaryLayoutLine
 {
     NSMutableArray *_units;
-    _Bool _isDynamicContextLine;
-    _Bool _shouldOmitSpacingDelimiter;
-    struct {
-        unsigned int has_isDynamicContextLine:1;
-        unsigned int has_shouldOmitSpacingDelimiter:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)pressionEvent:(id)arg1;
-- (unsigned long long);
++ (_Bool)setImpressionEvent:(id)arg1;
+- (unsigned long long)ce",&,D,N;
+- (id)_isChildAccount;
+- (_Bool)ore (url = %@) container %@.;
+- (void)%@;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (id)_subtitleOverride;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)se count:(id)arg1 %lu, not constructing VTEI;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)b4b36})}24;
-- (id)ion;
+- (id)_isNonApplePayFpanTransaction;
 - (id)°78;
 - (id)an only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDynamicContextLine;
-@property(nonatomic) _Bool hasShouldOmitSpacingDelimiter;
-@property(nonatomic) _Bool isDynamicContextLine;
-@property(nonatomic) _Bool shouldOmitSpacingDelimiter;
 @property(retain, nonatomic) NSMutableArray *units;
 
 @end

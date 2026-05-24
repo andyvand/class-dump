@@ -7,6 +7,7 @@
 @class CPXLaunchServicesInterface;
 
 @protocol CPXLaunchServicesProviding
+- (CPXLaunchServicesInterface *)oudkit.fetch.records;
 
 // Remaining properties
 @property(readonly, nonatomic) CPXLaunchServicesInterface *launchServicesInterface;

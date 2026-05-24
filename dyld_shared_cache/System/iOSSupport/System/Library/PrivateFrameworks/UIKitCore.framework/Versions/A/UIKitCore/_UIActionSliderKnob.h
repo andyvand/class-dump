@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id)eForCell:(struct CGRect)arg1 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)PModelRelationshipPodcastEpisodeLocalFileAsset;
+- (id)_accessoryTypeForCell:(struct CGRect)arg1 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)
 ;
 

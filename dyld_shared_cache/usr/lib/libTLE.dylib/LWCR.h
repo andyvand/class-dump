@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface LWCR
 {
     NSData *backingStorage;
     struct CEQueryContext *backingContext;
-    NSDictionary *_dictionary;
-    struct LWCR lwcr;
 }
 
 + (id);
@@ -21,15 +19,13 @@
 - (void);
 - (long long);
 - (id);
+- (id)X;
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)to Probe Device Server [Default Log];
 
 // Remaining properties
 @property(readonly) long long constraintCategory;
-@property(readonly) NSDictionary *dictionary;
-@property(readonly) _Bool hasRequirements;
 @property(readonly) long long version;
 
 @end

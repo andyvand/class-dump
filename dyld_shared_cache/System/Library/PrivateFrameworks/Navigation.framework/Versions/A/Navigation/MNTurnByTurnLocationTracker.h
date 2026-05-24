@@ -6,71 +6,60 @@
 
 #import <Navigation/MNLocationTracker.h>
 
-@class GEODirectionsServiceRequest, GEONavigationMapMatcher, GEOPathMatcher, MNArrivalUpdater, MNLocation, MNTrafficIncidentAlertUpdater, NSDate, NSMutableArray, NSString;
+@class GEONavigationMapMatcher, MNLocation;
 
 @interface MNTurnByTurnLocationTracker : MNLocationTracker
 {
     GEONavigationMapMatcher *_mapMatcher;
-    MNArrivalUpdater *_arrivalUpdater;
-    unsigned long long _lastArrivalLegIndex;
-    NSDate *_startDate;
-    CDStruct_2c43369c _originCoordinate;
-    GEODirectionsServiceRequest *_pendingRequest;
-    unsigned long long _rerouteReason;
-    MNLocation *_previousRerouteLocation;
-    NSMutableArray *_rerouteDates;
-    unsigned long long _consecutiveOffRouteCount;
-    MNLocation *_lastKnownGoodLocationOnRoute;
-    _Bool _isNavigatingInLowGuidance;
-    MNTrafficIncidentAlertUpdater *_trafficIncidentAlertUpdater;
-    GEOPathMatcher *_pathMatcher;
-    unsigned long long _stateCaptureHandle;
-    _Bool _puckLocationTracing;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)AnyFormStyleContext;
+- (void);
+- (void);
+- (void);
+- (void)RelationshipScope;
+- (void);
+- (void);
+- (void);
+- (void)EmptyPayload;
+- (id);
+- (_Bool);
+- (void);
+- (id)Y7i
+;
+- (id)7dm
+;
+- (_Bool);
+- (void);
+- (void);
+- (void)AccessibilityRotorEntryElementSpecifier;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Storage;
+- (void)ListPaddingAnchor;
+- (void);
+- (void);
+- (void)ArchivableFactory;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Y78n
+;
+- (void);
+- (void)Z7lo
+;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)ScrollViewConfiguration;
 - (id);
 - (id);
 - (void);
@@ -88,12 +77,12 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)CollapsedContent;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)ons;
 - (void);
 - (void);
 - (void);
@@ -107,14 +96,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MNLocation *lastKnownGoodLocationOnRoute; // @synthesize lastKnownGoodLocationOnRoute=_lastKnownGoodLocationOnRoute;
-@property(readonly) Class superclass;
 
 @end
 

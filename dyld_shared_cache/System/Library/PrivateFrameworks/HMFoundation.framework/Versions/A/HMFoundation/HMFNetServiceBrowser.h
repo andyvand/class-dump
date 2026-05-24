@@ -6,21 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSHashTable, NSMutableOrderedSet, NSNetServiceBrowser, NSObject, NSString;
-@protocol HMFNetServiceBrowserDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFNetServiceBrowser : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSHashTable *_netServices;
-    NSMutableOrderedSet *_cachedNetServices;
-    _Bool _browsing;
-    id <HMFNetServiceBrowserDelegate> _delegate;
-    NSString *_domain;
-    NSString *_serviceType;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSNetServiceBrowser *_internal;
-    CDUnknownBlockType _browseBlock;
 }
 
 + (id);
@@ -37,16 +28,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)isEqualToNumber: /* Error: Ran out of types for this method. */;
+- (_Bool)selayer bitrate fraction should be between 0 (exclusive) and 1 (inclusive);
+- (id)E;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)CHRecentCallOriginatingUITypeCarPlayAnswerIncoming;
 - (void);
 - (void);
 - (void);
@@ -60,22 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType browseBlock; // @synthesize browseBlock=_browseBlock;
-@property(nonatomic, getter=isBrowsing) _Bool browsing; // @synthesize browsing=_browsing;
-@property(readonly, copy, nonatomic) NSArray *cachedNetServices;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFNetServiceBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNetServiceBrowser *internal; // @synthesize internal=_internal;
-@property(readonly, copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) _Bool shouldCache;
-@property(readonly) Class superclass;
 
 @end
 

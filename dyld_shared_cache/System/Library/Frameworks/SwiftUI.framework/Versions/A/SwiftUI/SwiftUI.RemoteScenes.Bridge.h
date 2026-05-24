@@ -7,10 +7,6 @@
 @interface SwiftUI.RemoteScenes.Bridge
 {
     id sessionController;
-    id recenterHandler;
-    id scenePhaseHandler;
-    id localSceneIsDismissing;
-    id remoteSceneIsInvalidating;
 }
 
 @end

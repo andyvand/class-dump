@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListStyleDefaultProvider
@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (id);
@@ -35,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)_isApplication;
 - (long long);
 - (id);
 - (id);
@@ -50,51 +50,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (id)PhotoPickerAnimojiPosePreviewView;
+- (id)CNPhotoPickerAnimojiPosePreviewView;
 - (unsigned long long);
 - (id)urce.m;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *bannerTitleTextColor;
 @property(readonly, nonatomic) UIColor *cellBackgroundColor;
-@property(readonly, nonatomic) UIColor *cellBackgroundSelectedColor;
-@property(readonly, nonatomic) UIColor *cellBlueSelectionSecondaryTextColor;
-@property(readonly, nonatomic) double cellBottomLayoutMargin;
-@property(readonly, nonatomic) _Bool cellIsOpaque;
-@property(readonly, nonatomic) _Bool cellIsVibrant;
-@property(readonly, nonatomic) double cellLeadingLayoutMargin;
-@property(readonly, nonatomic) UIColor *cellNameTextColor;
-@property(readonly, nonatomic) UIFont *cellNameTextEmphasisedFont;
-@property(readonly, nonatomic) UIFont *cellNameTextFont;
-@property(readonly, nonatomic) UIColor *cellNameTextHighlightedColor;
-@property(readonly, nonatomic) UIColor *cellNameTextHighlightedLightColor;
-@property(readonly, nonatomic) UIColor *cellSearchBackgroundColor;
-@property(readonly, nonatomic) UIColor *cellSearchResultTextColor;
-@property(readonly, nonatomic) UIColor *cellSearchResultTextDisabledColor;
-@property(readonly, nonatomic) double cellTopLayoutMargin;
-@property(readonly, nonatomic) double cellTrailingLayoutMargin;
-@property(readonly, nonatomic) UIColor *headerBackgroundColor;
-@property(readonly, nonatomic) UIColor *headerIndexTextColor;
-@property(readonly, nonatomic) _Bool navigationBarIsTranslucent;
-@property(readonly, nonatomic) long long navigationBarStyle;
-@property(readonly, nonatomic) UIColor *searchBarBackgroundColor;
-@property(readonly, nonatomic) _Bool searchBarIsTranslucent;
-@property(readonly, nonatomic) long long searchBarKeyboardAppearance;
-@property(readonly, nonatomic) UIColor *searchBarPlaceholderTextColor;
-@property(readonly, nonatomic) UIColor *searchBarPlaceholderTextDisabledColor;
-@property(readonly, nonatomic) long long searchBarStyle;
-@property(readonly, nonatomic) UIColor *searchBarTextColor;
-@property(readonly, nonatomic) UIColor *searchBarTextDisabledColor;
-@property(readonly, nonatomic) double sectionHeaderFooterLeadingLayoutMargin;
-@property(readonly, nonatomic) UIColor *tableBackgroundColor;
-@property(readonly, nonatomic) UIColor *tableBackgroundFilteredColor;
-@property(readonly, nonatomic) _Bool tableIsOpaque;
-@property(readonly, nonatomic) unsigned long long tableNoContactsAvailableStyle;
-@property(readonly, nonatomic) UIColor *tableSectionIndexBackgroundColor;
-@property(readonly, nonatomic) UIColor *tableSeparatorColor;
-@property(readonly, nonatomic) long long tableSeparatorOverlayBlendMode;
-@property(readonly, nonatomic) long long tableSeparatorStyle;
-@property(readonly, nonatomic) _Bool usesInsetPlatterStyle;
 
 @end
 

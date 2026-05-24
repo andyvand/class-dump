@@ -7,11 +7,6 @@
 @interface ConversationKit.ParticipantViewDragController
 {
     id dragEnabled;
-    id delegate;
-    id participantView;
-    id constraintIdentifier;
-    id panOffset;
-    id isDragging;
 }
 
 @end

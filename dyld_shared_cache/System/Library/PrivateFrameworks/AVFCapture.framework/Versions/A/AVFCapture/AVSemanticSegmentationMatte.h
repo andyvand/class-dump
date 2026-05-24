@@ -9,23 +9,21 @@
 @interface AVSemanticSegmentationMatte
 {
     NSString *_matteType;
-    struct __CVBuffer *_pixelBuffer;
-    int _version;
 }
 
 + (id);
 + (id);
 + (id);
 + (void);
-- (short);
-- (short);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGImageMetadata *);
-- (struct __CFString *);
+- (short)setTertiaryTextColorHex: /* Error: Ran out of types for this method. */;
+- (short)setTail: /* Error: Ran out of types for this method. */;
+- (id)initWithUUIDBytes:(struct __CVBuffer *)arg1;
+- (id)initWithTimeout:(unsigned int)arg1 interruptionHandler: /* Error: Ran out of types for this method. */;
+- (id)connectionDidStart: /* Error: Ran out of types for this method. */;
+- (id)_scheduleTimeout;
+- (id)_sandboxExtensions;
+- (struct CGImageMetadata *)_vectorCapacity;
+- (struct __CFString *)_MSVSQLDatabaseScalarFunctionDescriptor;
 - (struct __CVBuffer *);
 - (id);
 - (unsigned int);
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSString *matteType;
-@property(readonly) struct __CVBuffer *mattingImage;
-@property(readonly) unsigned int pixelFormatType;
 
 @end
 

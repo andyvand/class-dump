@@ -5,13 +5,11 @@
 //
 
 @class NSString;
-@protocol SXAction;
 
 @protocol SXConditionalButtonComponentProperties
-- (NSString *)VideoComponentAnalyticsReporter: /* Error: Ran out of types for this method. */;
+- (NSString *)setVideoComponentAnalyticsReporter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAction> action;
 @property(readonly, nonatomic) NSString *textStyle;
 @end
 

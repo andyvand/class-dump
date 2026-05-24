@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUFlightLeg, MKGeodesicPolyline;
+@class MKGeodesicPolyline;
 
 __attribute__((visibility("hidden")))
 @interface FUFLightTrack
 {
     MKGeodesicPolyline *_polyline;
-    FUFlightLeg *_leg;
 }
 
-- (void);
-- (void);
+- (void)with a timestamp in the future;
+- (void)d:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) FUFlightLeg *leg; // @synthesize leg=_leg;
 @property(retain) MKGeodesicPolyline *polyline; // @synthesize polyline=_polyline;
 
 @end

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIClickInteraction;
+@protocol UIInteractionEffect;
+
 @protocol _UIClickInteractionDelegate
+
+@optional
+- (id <UIInteractionEffect>)_updateControlBarFromDictionaryRepresentation:(_UIClickInteraction *)arg1;
 @end
 

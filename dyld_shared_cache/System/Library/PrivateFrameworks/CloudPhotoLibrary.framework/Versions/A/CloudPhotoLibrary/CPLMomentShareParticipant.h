@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CPLMomentShareParticipant
 {
     _Bool _hasiCloudAccount;
-    _Bool _isCurrentUser;
-    short _type;
-    short _status;
-    NSString *_email;
-    NSString *_phoneNumber;
-    NSString *_userIdentifier;
-    NSPersonNameComponents *_nameComponents;
 }
 
 + (id);
@@ -29,36 +22,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (void);
 - (unsigned long long);
 - (void);
-- (void)ö;
-- (short)£°B@=«§ýªôªõ;
-- (id)ö;
-- (void)Ù©#ÕÿÑé#mø_©öW	©ôO
-©ý{©ýÃóªõ;
-- (_Bool)ôOÂ¨ÿ_Ö#ÕÿÃÑúg©ø_©öW©ôO©ý{©ýôªóªõ;
-- (id)ð§©õÏ©à#;
-- (id)é#
-möW©ôO©ý{©ýCó;
+- (void);
+- (short);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (short);
-- (void);
-- (id);
+- (void)B;
+- (id)it8i;
 - (void)ñ°1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(nonatomic) _Bool hasiCloudAccount; // @synthesize hasiCloudAccount=_hasiCloudAccount;
-@property(nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
-@property(copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(nonatomic) short status; // @synthesize status=_status;
-@property(nonatomic) short type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

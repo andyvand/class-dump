@@ -7,40 +7,29 @@
 @interface SPCCurvePoint
 {
     double _x;
-    double _y;
-    double _roundness;
-    double _smoothness;
-    struct CGPoint _leftTangentPoint;
-    struct CGPoint _rightTangentPoint;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)4˟;
 - (void);
 - (double);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)s;
 - (id);
 - (double);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)utoplayEnabled;
-- (double)esult;
+- (void)isAutoplayEnabled;
+- (double)emptyAssetResult;
 - (double);
 
 // Remaining properties
-@property struct CGPoint CGPoint;
-@property struct CGPoint leftTangentPoint; // @synthesize leftTangentPoint=_leftTangentPoint;
-@property struct CGPoint rightTangentPoint; // @synthesize rightTangentPoint=_rightTangentPoint;
-@property double roundness; // @synthesize roundness=_roundness;
-@property double smoothness; // @synthesize smoothness=_smoothness;
 @property double x; // @synthesize x=_x;
-@property double y; // @synthesize y=_y;
 
 @end
 

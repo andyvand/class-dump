@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PPXPCServerPipelinedBatchQueryManager;
+@class NSString;
 @protocol PPSocialHighlightClientProtocol;
 
 @interface PPSocialHighlightServerRequestHandler
 {
     id <PPSocialHighlightClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
-    NSArray *_applicationIdentifiers;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)d3;
+- (void)?;
 - (void);
-- (void);
-- (void);
+- (void)replaceObjectAtIndex:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)tp_ix_records_qid;
-- (void)ondsBeforeNow;
+- (void)creationDateSecondsBeforeNow;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *applicationIdentifiers; // @synthesize applicationIdentifiers=_applicationIdentifiers;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

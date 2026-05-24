@@ -11,20 +11,18 @@
 @interface MLPOptimizerAdam : MLPOptimizer
 {
     MPSVector *_momentum;
-    MPSVector *_velocity;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) MPSVector *momentum; // @synthesize momentum=_momentum;
-@property(retain) MPSVector *velocity; // @synthesize velocity=_velocity;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface CSSceneClassification : CSExternalAnalysisTag
 {
     float _sceneArea;
-    unsigned long long _sceneIdentifier;
-    long long _sceneType;
-    long long _mediaType;
-    struct CGRect _boundingBox;
 }
 
 + (_Bool);
@@ -28,7 +24,7 @@
 - (unsigned long long);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)� ;
 - (void);
 - (id);
 - (void);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property long long mediaType; // @synthesize mediaType=_mediaType;
-@property float sceneArea; // @synthesize sceneArea=_sceneArea;
 @property unsigned long long sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property long long sceneType; // @synthesize sceneType=_sceneType;
 
 @end
 

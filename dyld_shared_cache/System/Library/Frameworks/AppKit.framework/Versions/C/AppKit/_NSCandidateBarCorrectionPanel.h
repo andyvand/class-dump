@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
+- (void)protectionSpacesForChallenge;
+- (void)re to create a UUID.;
 
 @end
 

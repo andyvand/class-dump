@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EntitlementABCIssueReporter, NSDate, NSString;
+@class EntitlementABCIssueReporter, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface EntitlementABCIssue
 {
     NSDate *_nextAction;
-    EntitlementABCIssueReporter *_reporter;
-    NSString *_clientName;
-    NSString *_processName;
-    NSString *_clientUUID;
-    NSString *_platform;
-    unsigned long long _reportCounter;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -44,12 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain, nonatomic) NSString *clientUUID; // @synthesize clientUUID=_clientUUID;
-@property(retain, nonatomic) NSDate *nextAction; // @synthesize nextAction=_nextAction;
-@property(retain, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(nonatomic) unsigned long long reportCounter; // @synthesize reportCounter=_reportCounter;
 @property(retain, nonatomic) EntitlementABCIssueReporter *reporter; // @synthesize reporter=_reporter;
 
 @end

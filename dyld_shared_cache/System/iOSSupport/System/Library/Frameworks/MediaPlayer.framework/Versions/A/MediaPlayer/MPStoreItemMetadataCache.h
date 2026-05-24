@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVLRUDictionary, NSMapTable;
+@class MSVLRUDictionary;
 
 @interface MPStoreItemMetadataCache
 {
     MSVLRUDictionary *_itemIdentifierToCompositeStoreItemMetadataLRUDictionary;
-    NSMapTable *_itemIdentifierToCompositeStoreItemMetadataMapTable;
 }
 
-- (void);
+- (void)M;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (long long);
-- (void)talogBlock_KEY;
+- (void)__superHeroTallEditorialArtworkCatalogBlock_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

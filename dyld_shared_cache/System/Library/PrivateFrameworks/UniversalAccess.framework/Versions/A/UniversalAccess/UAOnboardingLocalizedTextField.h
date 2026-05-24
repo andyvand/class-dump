@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingLocalizedTextField
 {
     NSString *_text;
-    NSColor *_color;
-    long long _fontSize;
-    struct CGPoint _origin;
 }
 
+- (void)Ended";
+- (id)ntEventStarted";
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct CGPoint);
-- (long long);
+- (struct CGPoint),;
+- (long long)e;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) long long fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

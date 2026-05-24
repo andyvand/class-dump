@@ -12,21 +12,21 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraMediaParameterSelection : HMDCameraParameterSelection
 {
     HMDCameraAudioParameterSelection *_audioParameterSelection;
-    HMDCameraVideoParameterSelection *_videoParameterSelection;
 }
 
-- (id);
+- (id)initWithMerchantIndustryCode:mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e supported;
+- (void)error %@;
+- (void)vate}@
+	Added:(id)arg1 %{private}@,
+	Removed:(id)arg2 %{private}@;
+- (void)ipServer etaController:(id)arg1 didUpdateReachedDestinationForSharedTrip:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)Ñ~&;
 
 // Remaining properties
-@property(retain, nonatomic) HMDCameraAudioParameterSelection *audioParameterSelection; // @synthesize audioParameterSelection=_audioParameterSelection;
 @property(retain, nonatomic) HMDCameraVideoParameterSelection *videoParameterSelection; // @synthesize videoParameterSelection=_videoParameterSelection;
 
 @end

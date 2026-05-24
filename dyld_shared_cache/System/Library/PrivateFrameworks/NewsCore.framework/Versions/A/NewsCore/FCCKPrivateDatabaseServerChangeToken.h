@@ -11,18 +11,18 @@
     NSDictionary *_changeTokensByDestinationKey;
 }
 
-+ (id);
++ (id)C;
 + (_Bool);
-+ (id)ageBackgroundColor;
++ (id)thumbnailImageBackgroundColor;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)llu;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)a Results record;
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol RPAuthenticatable
-- (void)sferred;
+- (void (^)(unsigned int, int));
+- (NSObject<OS_dispatch_queue> *)EiEENS1_11VectorStateIS6_NS_9allocatorIS6_EEEEEENS_14default_deleteISB_EENS8_ISB_EEEE;
+- (void);
+- (void);
+- (int)T?	;
+- (void)_reportDataTransferred;
 - (NSArray *)g;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allowedMACAddresses;
-@property(copy, nonatomic) CDUnknownBlockType authCompletionHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType hidePasswordHandler;
-@property(retain, nonatomic) NSArray *pairSetupACL;
-@property(nonatomic) unsigned int pairSetupFlags;
-@property(nonatomic) unsigned int pairVerifyFlags;
-@property(copy, nonatomic) NSData *pairingInfo;
-@property(copy, nonatomic) NSString *password;
-@property(nonatomic) int passwordType;
-@property(readonly, nonatomic) int passwordTypeActual;
-@property(copy, nonatomic) CDUnknownBlockType promptForPasswordHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPasswordHandler;
 @end
 

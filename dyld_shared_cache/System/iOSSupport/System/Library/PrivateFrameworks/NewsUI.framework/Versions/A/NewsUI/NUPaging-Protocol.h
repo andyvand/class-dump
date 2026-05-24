@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol NUPage;
 
 @protocol NUPaging
+- (id <NUPage>)4u;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPages;
 @property(readonly, nonatomic) id <NUPage> firstPage;
-@property(readonly, nonatomic) id <NUPage> lastPage;
 @end
 

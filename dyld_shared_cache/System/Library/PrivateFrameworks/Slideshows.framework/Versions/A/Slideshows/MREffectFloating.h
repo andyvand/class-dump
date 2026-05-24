@@ -6,21 +6,9 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRContext, NSMutableArray, NSMutableDictionary;
-
 @interface MREffectFloating : MREffect
 {
     long long mTotalImages;
-    NSMutableArray *mFrontSlideOrder;
-    NSMutableArray *mMiddleSlideOrder;
-    NSMutableArray *mBackSlideOrder;
-    _Bool mNeedsUpdate;
-    _Bool mNeedsMoreSlides;
-    long long mIterationOffset;
-    NSMutableDictionary *mSlideTimes;
-    float *mVBOData;
-    unsigned int mVBO;
-    MRContext *mHackContext;
 }
 
 + (unsigned long long);
@@ -30,14 +18,14 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (double);
-- (double);
-- (void);
-- (void);
+- (double)valuesByHTTPHeaderField;
+- (double)uploadScheduler:(unsigned long long)arg1 performUploadWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)endpointConnection;
+- (void)copyData:(struct _NSRange)arg1 withKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)eduler scheduleUploadInWindow:(double)arg1 withForegroundUploadCompletion:] /* Error: Ran out of types for this method. */;
+- (double)"NSNumber"24@?0@"NSNumber"8@"NSNumber"16;
 - (id);
 - (unsigned long long);
 - (double);
@@ -51,15 +39,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
 - (void)"NSMutableDictionary",R,VmMotions;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
-@property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 @property(nonatomic) long long totalImages; // @synthesize totalImages=mTotalImages;
 
 @end

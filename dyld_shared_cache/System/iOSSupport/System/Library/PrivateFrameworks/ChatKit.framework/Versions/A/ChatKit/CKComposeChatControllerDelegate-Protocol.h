@@ -5,5 +5,9 @@
 //
 
 @protocol CKComposeChatControllerDelegate
+- (_Bool);
+
+@optional
+- (_Bool);
 @end
 

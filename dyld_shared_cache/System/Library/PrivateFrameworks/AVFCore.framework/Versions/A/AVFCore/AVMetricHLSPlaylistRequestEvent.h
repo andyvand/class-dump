@@ -6,14 +6,11 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVMetricMediaResourceRequestEvent, NSString, NSURL;
+@class NSURL;
 
 @interface AVMetricHLSPlaylistRequestEvent : AVMetricEvent
 {
     NSURL *_url;
-    _Bool _isMultivariantPlaylist;
-    NSString *_mediaType;
-    AVMetricMediaResourceRequestEvent *_mediaResourceRequestEvent;
 }
 
 + (_Bool);
@@ -25,12 +22,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) _Bool isMultivariantPlaylist;
-@property(readonly) AVMetricMediaResourceRequestEvent *mediaResourceRequestEvent;
-@property(readonly) NSString *mediaType;
 @property(readonly) NSURL *url;
 
 @end

@@ -6,43 +6,32 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol MapsSuggestionsSourceDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface MapsSuggestionsRemoteSource : MapsSuggestionsBaseSource
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _started;
 }
 
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long);
 - (double);
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)rectForSupplementaryElementOfKind:(id)arg1 atIndexPath:(long long)arg2;
 - (id);
 - (void)SuggestionsMapsSyncConnectorDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

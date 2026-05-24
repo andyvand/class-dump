@@ -7,8 +7,6 @@
 @interface AMSBiometricsAvailabilityTask
 {
     _Bool forceInProcess;
-    id account;
-    id purpose;
 }
 
 + (id);

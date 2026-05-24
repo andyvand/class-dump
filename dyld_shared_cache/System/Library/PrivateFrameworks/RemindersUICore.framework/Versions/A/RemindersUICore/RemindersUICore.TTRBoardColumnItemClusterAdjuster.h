@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRBoardColumnItemClusterAdjuster
 {
     id presentationToDataSource;
-    id detectedUpdate;
 }
 
 @end

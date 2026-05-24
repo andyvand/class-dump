@@ -9,7 +9,6 @@
 @interface TUMetadataItem
 {
     NSMutableDictionary *_callMetadata;
-    NSMutableDictionary *_callMetadataDict;
 }
 
 - (void);
@@ -21,12 +20,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)sory: /* Error: Ran out of types for this method. */;
+- (void)startTransmissionForBargeCall:sourceIsHandsfreeAccessory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *callMetadata; // @synthesize callMetadata=_callMetadata;
-@property(readonly, nonatomic) NSMutableDictionary *callMetadataDict; // @synthesize callMetadataDict=_callMetadataDict;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface AppStoreKit.ReviewsPage.SortOption
 {
     id id;
-    id title;
-    id selectedActionTitle;
-    id url;
 }
 
 @end

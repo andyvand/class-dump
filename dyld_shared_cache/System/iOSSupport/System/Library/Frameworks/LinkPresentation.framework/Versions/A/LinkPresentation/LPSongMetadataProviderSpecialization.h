@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)skipOnboardingWithOnboardingSuggestions:(id)arg1;
 + (unsigned long long);
 
 @end

@@ -12,20 +12,16 @@ __attribute__((visibility("hidden")))
 @interface NWStatsEntityMapperDynamicLaunchServices : NWStatsEntityMapperNEHelper
 {
     NWStatsEntityMapCache *_entityMap;
-    void *_coreServicesDylibHandle;
-    Class _LSPlugInKitProxyClass;
-    Class _LSApplicationWorkspaceClass;
-    Class _LSApplicationProxyClass;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Fyh;
 - (void);
 
 @end

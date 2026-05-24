@@ -6,7 +6,7 @@
 
 #import <CalendarUI/EKUILabeledGadget.h>
 
-@class EKUIPopUpButton, NSString;
+@class EKUIPopUpButton;
 
 @interface EKUIStatusGadget : EKUILabeledGadget
 {
@@ -15,7 +15,7 @@
 
 + (id);
 - (void);
-- (id);
+- (id).;
 - (id);
 - (void);
 - (_Bool);
@@ -23,24 +23,17 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)eworks/iCloudQuota.framework/Contents/MacOS/iCloudQuota;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) EKUIPopUpButton *statusPicker; // @synthesize statusPicker=_statusPicker;
-@property(readonly) Class superclass;
 
 @end
 

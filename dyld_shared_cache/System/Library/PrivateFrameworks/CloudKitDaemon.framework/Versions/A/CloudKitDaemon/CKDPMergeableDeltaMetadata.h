@@ -4,45 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDistributedTimestamps, CKDPProtectionInfo, NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface CKDPMergeableDeltaMetadata
 {
     NSData *_encryptedTimestamps;
-    NSString *_identifier;
-    CKDPProtectionInfo *_protectionInfo;
-    NSMutableArray *_replacedDeltaIdentifiers;
-    CKDPDistributedTimestamps *_timestamps;
-    NSData *_timestampsAuthTag;
 }
 
 + (Class);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)isEqualToData:(id)arg1;
+- (void);
+- (unsigned long long)dioHoseRegistrarRegisterProtocolDriverHoseLegacyInternal(void *);
+- (_Bool):(id)arg1;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (id)&,N,V_auxiliaryError;
 - (void)è;
@@ -50,17 +45,7 @@
 - (_Bool):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptedTimestamps; // @synthesize encryptedTimestamps=_encryptedTimestamps;
-@property(readonly, nonatomic) _Bool hasEncryptedTimestamps;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(readonly, nonatomic) _Bool hasTimestamps;
-@property(readonly, nonatomic) _Bool hasTimestampsAuthTag;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) NSMutableArray *replacedDeltaIdentifiers; // @synthesize replacedDeltaIdentifiers=_replacedDeltaIdentifiers;
-@property(retain, nonatomic) CKDPDistributedTimestamps *timestamps; // @synthesize timestamps=_timestamps;
-@property(retain, nonatomic) NSData *timestampsAuthTag; // @synthesize timestampsAuthTag=_timestampsAuthTag;
 
 @end
 

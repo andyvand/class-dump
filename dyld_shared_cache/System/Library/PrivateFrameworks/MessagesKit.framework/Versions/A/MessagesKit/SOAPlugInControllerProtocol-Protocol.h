@@ -5,6 +5,7 @@
 //
 
 @protocol SOAPlugInControllerProtocol
+- (oneway void);
 - (void)0@ù
 × ;
 @end

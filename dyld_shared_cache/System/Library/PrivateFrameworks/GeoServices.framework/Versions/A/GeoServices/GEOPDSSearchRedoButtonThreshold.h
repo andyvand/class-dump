@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSSearchRedoButtonThreshold
 {
     PBUnknownFields *_unknownFields;
-    double _panDeltaThresholdInMeters;
-    double _zoomInPercentThreshold;
-    double _zoomOutPercentThreshold;
-    unsigned int _numberOfVisiblePoisThreshold;
-    CDStruct_541951ee _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1"read_tileRanges"b1"read_attributions"b1"read_iconChecksums"b1"read_icons"b1"wrote_anyField"b1};
-- (id)partnersResourceUrl;
+- (id)_partnersResourceUrl;
 - (id)»D¼½ü½Ì¾Ô¿;
 - (void)Q¡º¹ø»G@;
 

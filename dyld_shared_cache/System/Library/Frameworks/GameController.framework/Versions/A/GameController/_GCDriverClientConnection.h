@@ -6,7 +6,6 @@
 
 #import <GameController/_GCIPCRemoteIncomingConnection.h>
 
-@class NSString;
 @protocol _GCDriverServerInterface;
 
 @interface _GCDriverClientConnection : _GCIPCRemoteIncomingConnection
@@ -20,15 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <_GCDriverServerInterface> exportedObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(readonly) Class superclass;
 
 @end
 

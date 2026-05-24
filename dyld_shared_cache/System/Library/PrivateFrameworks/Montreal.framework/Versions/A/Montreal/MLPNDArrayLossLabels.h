@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MLPNDArrayLossLabels
 {
     NSMutableArray *_largeReductionSumResult;
-    NSMutableArray *_smallReductionSumResult;
-    NSArray *_labels;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *labels; // @synthesize labels=_labels;
 @property(retain) NSMutableArray *largeReductionSumResult; // @synthesize largeReductionSumResult=_largeReductionSumResult;
-@property(retain) NSMutableArray *smallReductionSumResult; // @synthesize smallReductionSumResult=_smallReductionSumResult;
 
 @end
 

@@ -7,28 +7,24 @@
 @interface CTLazuliBusinessMessagingCapabilities
 {
     _Bool _supported;
-    _Bool _enabledByDefault;
-    long long _userPreferenceForSwitch;
 }
 
-+ (_Bool);
++ (_Bool)add an output after reading has started;
 - (long long);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)O;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)TNetworkSelectionInfo;
-- (_Bool)CTRadioEnhancedLinkQualitySupportsDataTransferTime;
-- (void);
+- (void)CTNetworkSelectionInfo;
+- (_Bool)kCTRadioEnhancedLinkQualitySupportsDataTransferTime;
+- (void)destination;
 
 // Remaining properties
-@property(nonatomic) _Bool enabledByDefault; // @synthesize enabledByDefault=_enabledByDefault;
-@property(nonatomic) _Bool supported; // @synthesize supported=_supported;
 @property(nonatomic) long long userPreferenceForSwitch; // @synthesize userPreferenceForSwitch=_userPreferenceForSwitch;
 
 @end

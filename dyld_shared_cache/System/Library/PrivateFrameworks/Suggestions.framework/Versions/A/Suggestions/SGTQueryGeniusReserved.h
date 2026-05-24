@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSUserQueryParser, NSDate, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SGTQueryGeniusReserved
 {
     NSObject<OS_dispatch_queue> *_groupQueue;
-    NSObject<OS_dispatch_queue> *_parserQueue;
-    NSObject<OS_dispatch_group> *_lastGroup;
-    CSUserQueryParser *_parser;
-    NSString *_currentInputString;
-    NSDictionary *_parseResult;
-    NSDate *_date;
 }
 
 - (id);
-- (void);
+- (void)_getColorFromAppearanceString: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PXBrowserSelectionSnapshot;
+
 @protocol PXBrowserSummaryControllerDataSource
+
+@optional
+- (id <PXBrowserSelectionSnapshot>);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldShowImportDates;

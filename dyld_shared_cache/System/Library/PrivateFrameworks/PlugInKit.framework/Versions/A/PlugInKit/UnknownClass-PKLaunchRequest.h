@@ -6,6 +6,6 @@
 
 @interface UnknownClass (PKLaunchRequest)
 - (id);
-- (id);
+- (id)ISEmbossedSmartFolder;
 @end
 

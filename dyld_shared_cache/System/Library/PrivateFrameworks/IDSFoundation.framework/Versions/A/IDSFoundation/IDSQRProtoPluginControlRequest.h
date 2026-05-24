@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IDSQRProtoPluginControlRequest
 {
     NSData *_pluginClientRawPublicKey;
-    NSString *_pluginName;
-    unsigned int _pluginOperation;
-    unsigned int _pluginStreamId;
-    struct {
-        unsigned int pluginStreamId:1;
-    } _has;
 }
 
 - (void);
@@ -33,19 +27,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)6C]}16C24C28*32;
+- (void)ect:(id)arg1 ];
 - (id);
 - (id);
 - (void)to add to %s;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPluginClientRawPublicKey;
-@property(nonatomic) _Bool hasPluginStreamId;
-@property(retain, nonatomic) NSData *pluginClientRawPublicKey; // @synthesize pluginClientRawPublicKey=_pluginClientRawPublicKey;
-@property(retain, nonatomic) NSString *pluginName; // @synthesize pluginName=_pluginName;
 @property(nonatomic) unsigned int pluginOperation; // @synthesize pluginOperation=_pluginOperation;
-@property(nonatomic) unsigned int pluginStreamId; // @synthesize pluginStreamId=_pluginStreamId;
 
 @end
 

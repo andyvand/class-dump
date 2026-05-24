@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, _ASCABLEQRCodeBadgeView, _ASCABLEQRCodeImageView;
+@class NSString;
 
 @interface _ASCABLEQRCodeView
 {
     NSString *_message;
-    _ASCABLEQRCodeImageView *_imageView;
-    NSView *_platterView;
-    _ASCABLEQRCodeBadgeView *_badgeView;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (double);
 - (id);
-- (struct CGSize);
+- (struct CGSize)DebugOverridePasswordGenerationIsDisallowedByRequirements;
 - (void);
 - (void);
 

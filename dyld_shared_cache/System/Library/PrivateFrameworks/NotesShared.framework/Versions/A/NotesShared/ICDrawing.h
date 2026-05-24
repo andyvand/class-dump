@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTVectorMultiTimestamp, NSDate, NSMutableOrderedSet, NSOrderedSet, NSUUID;
+@class ICTTVectorMultiTimestamp, NSMutableOrderedSet;
 
 @interface ICDrawing
 {
     NSMutableOrderedSet *_commands;
-    NSMutableOrderedSet *_visibleCommands;
-    long long _orientation;
-    struct CGRect _unrotatedBoundsInCommandSpace;
-    struct CGRect _commandBounds;
-    NSUUID *_replicaUUID;
-    ICTTVectorMultiTimestamp *_timestamp;
-    NSDate *_orientationTimestamp;
-    struct CGSize _unrotatedSize;
 }
 
 + (void);
@@ -26,7 +18,7 @@
 + (struct CGSize);
 + (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
@@ -38,8 +30,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ocale '%@';
+- (void);
 - (id);
 - (id);
 - (id);
@@ -48,10 +40,10 @@
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)__LINKEDIT;
 - (id);
-- (id);
-- (id);
+- (id)@16;
+- (id);
 - (struct CGSize);
 - (struct CGRect);
 - (unsigned int);
@@ -64,24 +56,14 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (long long);
-- (void);
-- (id);
+- (long long)$&;
+- (void)\;
+- (id)i;
 - (void);
 - (void)`LXNhO`QpRhTxUpW|XY\]_`¬ac~è~;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool canChangeTransientOrientation;
-@property(readonly, nonatomic) NSOrderedSet *commands; // @synthesize commands=_commands;
-@property(readonly, nonatomic) struct CGRect fullBounds;
-@property(nonatomic) long long orientation;
-@property(retain, nonatomic) NSDate *orientationTimestamp; // @synthesize orientationTimestamp=_orientationTimestamp;
-@property(readonly, nonatomic) NSUUID *replicaUUID; // @synthesize replicaUUID=_replicaUUID;
 @property(retain, nonatomic) ICTTVectorMultiTimestamp *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) struct CGRect unrotatedBoundsInCommandSpace; // @synthesize unrotatedBoundsInCommandSpace=_unrotatedBoundsInCommandSpace;
-@property(nonatomic) struct CGSize unrotatedSize; // @synthesize unrotatedSize=_unrotatedSize;
-@property(readonly, nonatomic) NSOrderedSet *visibleCommands;
 
 @end
 

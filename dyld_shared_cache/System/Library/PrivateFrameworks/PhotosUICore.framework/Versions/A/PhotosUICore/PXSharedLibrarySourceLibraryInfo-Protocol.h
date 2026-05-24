@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXSharedLibraryStatusProvider;
-
 @protocol PXSharedLibrarySourceLibraryInfo
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryEnabled;
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryExiting;
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryInitialSyncCompleted;
 @property(readonly, nonatomic) _Bool isSystemPhotoLibrary;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider;
 @end
 

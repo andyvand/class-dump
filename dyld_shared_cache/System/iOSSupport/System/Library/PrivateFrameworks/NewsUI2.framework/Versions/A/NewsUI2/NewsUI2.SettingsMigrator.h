@@ -7,8 +7,6 @@
 @interface NewsUI2.SettingsMigrator
 {
     id keysToMigrate;
-    id oldDefaults;
-    id newDefaults;
 }
 
 @end

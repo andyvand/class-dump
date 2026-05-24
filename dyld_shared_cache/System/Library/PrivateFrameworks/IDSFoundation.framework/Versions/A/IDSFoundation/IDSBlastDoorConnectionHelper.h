@@ -9,14 +9,14 @@
     id _idsBlastDoor;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)Y;
 - (_Bool);
 - (void);
 - (void);

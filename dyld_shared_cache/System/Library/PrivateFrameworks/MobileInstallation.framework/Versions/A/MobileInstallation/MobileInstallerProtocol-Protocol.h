@@ -5,5 +5,8 @@
 //
 
 @protocol MobileInstallerProtocol
+- (void);
+- (void);
+- (void)˿;
 @end
 

@@ -9,7 +9,6 @@
 @interface QCPatchClassDescription : GFNodeClassDescription
 {
     struct __CFArray *_stateKeysCache;
-    struct __CFDictionary *_stateKeysCaches;
 }
 
 - (id);

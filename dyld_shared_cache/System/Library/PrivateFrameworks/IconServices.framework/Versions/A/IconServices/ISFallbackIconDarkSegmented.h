@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIconSegmentationFeedback, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISFallbackIconDarkSegmented
 {
     _Bool _drawsLightingEffects;
-    struct CGImage *_darkImage;
-    ISIconSegmentationFeedback *_feedback;
 }
 
 - (id);
 - (_Bool);
 - (struct CGImage *);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *darkImage; // @synthesize darkImage=_darkImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool drawsLightingEffects; // @synthesize drawsLightingEffects=_drawsLightingEffects;
-@property(readonly, nonatomic) ISIconSegmentationFeedback *feedback; // @synthesize feedback=_feedback;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

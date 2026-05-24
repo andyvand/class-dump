@@ -6,16 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSNNOptimizer.h>
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface MPSNNOptimizerAdam : MPSNNOptimizer
 {
     double _beta1;
-    double _beta2;
-    float _epsilon;
-    unsigned long long _timeStep;
-    NSObject<OS_dispatch_semaphore> *_timeStepSemaphore;
 }
 
 + (const struct MPSLibraryInfo *);

@@ -6,24 +6,17 @@
 
 #import <AppKit/NSVisualTabPickerShadowTileView.h>
 
-@class CALayer, NSTextField, NSView, NSVisualTabPickerButton;
-@protocol NSVisualTabPickerThumbnailDataSource, NSVisualTabPickerThumbnailDelegate;
+@class NSTextField;
+@protocol NSVisualTabPickerThumbnailDataSource;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerThumbnailView : NSVisualTabPickerShadowTileView
 {
     NSTextField *_titleTextField;
-    NSView *_thumbnailView;
-    NSVisualTabPickerButton *_closeButton;
-    id <NSVisualTabPickerThumbnailDataSource> _dataSource;
-    id <NSVisualTabPickerThumbnailDelegate> _delegate;
-    _Bool _closeButtonVisible;
-    _Bool _exposeBorderVisible;
-    CALayer *_exposeBorderLayer;
 }
 
-- (void);
-- (void);
+- (void)on-string (%@) for %@ in SIM status interface (%@);
+- (void)SecurityDomain;
 - (void);
 - (void);
 - (void);
@@ -31,30 +24,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)y/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
 - (id);
+- (id)p;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)uest!;
+- (void)considered operational %{bool}d;
+- (id)ts to process;
+- (void)0_9allocatorIS4_EEEE17NodeClientContextP16OpaqueEventQueuePFvSB_EPU28objcproto17OS_dispatch_queue8NSObjectU13block_pointerFvP11FINodeEventEPK10__CFStringE3$_0;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)justDrawingRectUsingSquareBezelHacks;
-- (void)ues;
+- (void)setTextAttachment:(id)arg1;
+- (void)_rowArrayForBlock:(id)arg1 atIndex:text:layoutManager:containerWidth:withRepetitions:collapseBorders:rowCharRange:indexInRow:startingRow:startingColumn:previousRowBlockHelper: /* Error: Ran out of types for this method. */;
+- (id)shouldAdjustDrawingRectUsingSquareBezelHacks;
+- (void)CopyAttributeValues;
 - (void),B;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCloseButtonVisible) _Bool closeButtonVisible; // @synthesize closeButtonVisible=_closeButtonVisible;
 @property(nonatomic) __weak id <NSVisualTabPickerThumbnailDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <NSVisualTabPickerThumbnailDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isExposeBorderVisible) _Bool exposeBorderVisible; // @synthesize exposeBorderVisible=_exposeBorderVisible;
 
 @end
 

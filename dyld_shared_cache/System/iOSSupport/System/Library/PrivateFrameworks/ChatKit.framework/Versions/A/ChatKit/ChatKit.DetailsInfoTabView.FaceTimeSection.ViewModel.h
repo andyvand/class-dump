@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.FaceTimeSection.ViewModel
 {
     id conversation;
-    id actionHandlers;
-    id _$observationRegistrar;
 }
 
 @end

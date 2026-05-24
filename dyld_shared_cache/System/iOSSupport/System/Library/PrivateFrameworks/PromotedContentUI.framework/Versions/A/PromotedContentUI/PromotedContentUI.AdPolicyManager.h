@@ -7,17 +7,6 @@
 @interface PromotedContentUI.AdPolicyManager
 {
     id $defaultActor;
-    id frequencyCap;
-    id adPolicies;
-    id unsafeAdPolicies;
-    id subscriberStatus;
-    id impressions;
-    id unsafeImpressions;
-    id creativeImpressions;
-    id launchTimestamps;
-    id unsafeLaunchTimestamps;
-    id xlAdFormat;
-    id requester;
 }
 
 @end

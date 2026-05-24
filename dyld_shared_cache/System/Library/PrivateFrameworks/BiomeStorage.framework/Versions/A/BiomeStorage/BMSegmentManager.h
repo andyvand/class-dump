@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileManager, BMFrameStore, BMStoreConfig, BMStreamMetadata, NSOrderedSet, NSString, _PASLock;
-@protocol BMSegmentManagerDelegate;
+@class BMFileManager;
 
 @interface BMSegmentManager
 {
     BMFileManager *_fileManager;
-    unsigned long long _permission;
-    BMStreamMetadata *_metadata;
-    Class _eventDataClass;
-    BMStoreConfig *_config;
-    id _deviceLockStateRegistration;
-    _PASLock *_protectedState;
-    _Bool _lockingCXReceived;
-    NSString *_path;
-    BMFrameStore *_currentFrameStore;
-    id <BMSegmentManagerDelegate> _delegate;
 }
 
-+ (id);
++ (id)P;
++ (unsigned long long)u;
 + (unsigned long long);
-+ (unsigned long long);
-+ (double);
++ (double)HMBCloudZoneRebuilderStatus;
 - (id);
 - (void);
 - (_Bool);
@@ -36,55 +25,42 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)h;
+- (id)imageByColorMatchingWorkingSpaceToColorSpace:(id)arg1;
+- (void)o %@;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)transformers;
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (void)ve"B"liveEdgeMarkContentTagVisible"B};
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)lection;
 - (id);
-- (void);
 - (id);
+- (void))6=;
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)removeObject: /* Error: Ran out of types for this method. */;
+- (void)forceSetRePromptRequired;
+- (id)blic}lu;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) BMFrameStore *currentFrameStore; // @synthesize currentFrameStore=_currentFrameStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BMSegmentManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isDataAccessible;
-@property(readonly, nonatomic) NSString *lastSegmentName;
-@property(nonatomic) _Bool lockingCXReceived; // @synthesize lockingCXReceived=_lockingCXReceived;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSOrderedSet *segmentNames;
-@property(readonly) Class superclass;
 
 @end
 

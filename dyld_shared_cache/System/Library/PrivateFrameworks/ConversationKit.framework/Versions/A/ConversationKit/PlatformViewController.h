@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void);
+- (void)_refreshEventAndReload;
 
 @end
 

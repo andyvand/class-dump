@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SearchUIBackgroundColorView, TLKProminenceView;
+@class SearchUIBackgroundColorView;
 
 @interface SearchUIBackgroundColorSupplementaryView
 {
     _Bool _highlighted;
-    SearchUIBackgroundColorView *_colorView;
-    unsigned long long _maskedCorners;
-    TLKProminenceView *_highlightView;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)v16@?0@"NSMutableSet"8;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,22 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)sets | cloudKit:(_Bool)arg1 %@ mobileAsset:%@> /* Error: Ran out of types for this method. */;
+- (void)?;
 
 // Remaining properties
 @property(retain, nonatomic) SearchUIBackgroundColorView *colorView; // @synthesize colorView=_colorView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKProminenceView *highlightView; // @synthesize highlightView=_highlightView;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(copy) NSString *identifier;
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners=_maskedCorners;
-@property(readonly) Class superclass;
 
 @end
 

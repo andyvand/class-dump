@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFDispatchQueue, AXFUIElement, NSArray, NSMutableArray, NSOperationQueue, NSString, _AXFEventProvider, _AXFLaunchServicesProvider;
-@protocol AXFApplicationManagerDelegate;
+@class _AXFLaunchServicesProvider;
 
 @interface AXFApplicationManager
 {
     int __updateGen;
-    AXFUIElement *__focusedApplication;
-    id <AXFApplicationManagerDelegate> _delegate;
-    _AXFLaunchServicesProvider *__launchServicesProvider;
-    CDUnknownBlockType __launchServicesProviderProvider;
-    _AXFEventProvider *__eventProvider;
-    CDUnknownBlockType __eventProviderProvider;
-    AXFUIElement *__frontmostApplication;
-    NSMutableArray *__runningApplications;
-    AXFDispatchQueue *__applicationManagerQueue;
-    AXFDispatchQueue *__delegateQueue;
-    NSOperationQueue *__updateQueue;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)AV Interfaces;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -44,13 +32,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,10 +50,10 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)C;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -85,32 +73,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Interruption start date %@ end date %@ interval %f;
 
 // Remaining properties
-@property(readonly, nonatomic) AXFDispatchQueue *_applicationManagerQueue; // @synthesize _applicationManagerQueue=__applicationManagerQueue;
-@property(readonly, nonatomic) AXFDispatchQueue *_delegateQueue; // @synthesize _delegateQueue=__delegateQueue;
-@property(retain, nonatomic, setter=_setEventProvider:) _AXFEventProvider *_eventProvider; // @synthesize _eventProvider=__eventProvider;
-@property(copy, nonatomic, setter=_setEventProviderProvider:) CDUnknownBlockType _eventProviderProvider; // @synthesize _eventProviderProvider=__eventProviderProvider;
-@property(retain, nonatomic, setter=_setFocusedApplication:) AXFUIElement *_focusedApplication; // @synthesize _focusedApplication=__focusedApplication;
-@property(retain, nonatomic, setter=_setFrontmostApplication:) AXFUIElement *_frontmostApplication; // @synthesize _frontmostApplication=__frontmostApplication;
 @property(retain, nonatomic, setter=_setLaunchServicesProvider:) _AXFLaunchServicesProvider *_launchServicesProvider; // @synthesize _launchServicesProvider=__launchServicesProvider;
-@property(copy, nonatomic, setter=_setLaunchServicesProviderProvider:) CDUnknownBlockType _launchServicesProviderProvider; // @synthesize _launchServicesProviderProvider=__launchServicesProviderProvider;
-@property(retain, nonatomic, setter=_setRunningApplications:) NSMutableArray *_runningApplications; // @synthesize _runningApplications=__runningApplications;
-@property(nonatomic) int _updateGen; // @synthesize _updateGen=__updateGen;
-@property(readonly, nonatomic) NSOperationQueue *_updateQueue; // @synthesize _updateQueue=__updateQueue;
-@property(readonly) AXFUIElement *applicationWithMenubar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AXFApplicationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) AXFUIElement *focusedApplication;
-@property(readonly) AXFUIElement *frontmostApplication;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *runningApplications;
-@property(readonly) Class superclass;
 
 @end
 

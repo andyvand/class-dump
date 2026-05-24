@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface WFWhitelistSite
 {
     NSString *_urlString;
-    NSURL *_url;
-    NSString *_domainName;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)R;
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (unsigned long long);
 - (void);
@@ -26,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain) NSString *domainName; // @synthesize domainName=_domainName;
-@property(retain) NSURL *url; // @synthesize url=_url;
 @property(retain) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
+@class NSWindow;
 
 @interface AOSUICustodianRecoveryApprovalController
 {
     _Bool _isResetEligible;
-    NSWindow *_hostWindow;
-    NSString *_recoverySessionID;
-    NSWindow *_modalWindow;
 }
 
 + (id);
@@ -27,14 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool isResetEligible; // @synthesize isResetEligible=_isResetEligible;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(retain) NSString *recoverySessionID; // @synthesize recoverySessionID=_recoverySessionID;
 
 @end
 

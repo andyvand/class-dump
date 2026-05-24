@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCIDRSchedulerPeriodGroup
 {
     unsigned int _basePeriodCount;
-    unsigned int _framesPerBasePeriod;
-    NSMutableArray *_streams;
-    NSMutableArray *_schedulerItems;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (unsigned int);
 - (void);

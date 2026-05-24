@@ -9,7 +9,6 @@
 @interface CAWindowServerDisplayManager
 {
     NSArray *_displays;
-    struct DisplayManager *_apple_display_manager;
 }
 
 - (id);

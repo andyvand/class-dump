@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSTextField *_descriptionField;
 }
 
-- (void);
-- (id);
+- (void)the future.;
+- (id)ublic key of a prekey while checking the key validator.;
 
 // Remaining properties
 @property(retain) NSTextField *descriptionField; // @synthesize descriptionField=_descriptionField;

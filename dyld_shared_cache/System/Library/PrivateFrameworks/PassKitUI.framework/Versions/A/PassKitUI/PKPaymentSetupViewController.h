@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController, PKPaymentProvisioningController, PKPaymentSetupAssistantProvisioningContext;
-@protocol PKPaymentSetupDelegate;
+@class NSViewController;
 
 @interface PKPaymentSetupViewController
 {
     NSViewController *_rootViewController;
-    PKPaymentProvisioningController *_provisioningController;
-    long long _setupContext;
-    PKPaymentSetupAssistantProvisioningContext *_setupAssistantContext;
-    _Bool _isProcessingRequest;
-    _Bool _nextButtonEnabled;
-    _Bool _backButtonEnabled;
-    NSString *_currentTitle;
-    id <PKPaymentSetupDelegate> _setupDelegate;
 }
 
 - (void);
@@ -32,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -46,13 +37,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool backButtonEnabled; // @synthesize backButtonEnabled=_backButtonEnabled;
-@property(readonly, nonatomic) long long context;
-@property(retain) NSString *currentTitle; // @synthesize currentTitle=_currentTitle;
 @property(nonatomic) _Bool isProcessingRequest; // @synthesize isProcessingRequest=_isProcessingRequest;
-@property _Bool nextButtonEnabled; // @synthesize nextButtonEnabled=_nextButtonEnabled;
-@property(nonatomic) __weak id <PKPaymentSetupDelegate> setupDelegate; // @synthesize setupDelegate=_setupDelegate;
-@property(readonly, nonatomic) unsigned long long status;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QCImageKernel;
-
 @interface QCFilter
 {
     struct OpaqueJSContext *_jsContext;
-    QCImageKernel *_patch;
 }
 
 - (void);

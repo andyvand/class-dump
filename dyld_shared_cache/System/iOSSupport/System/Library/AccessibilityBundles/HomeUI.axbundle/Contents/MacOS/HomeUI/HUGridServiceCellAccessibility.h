@@ -10,17 +10,17 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)=;
+- (id)__MUPlaceSectionHeaderViewAccessibility_super;
 
 @end
 

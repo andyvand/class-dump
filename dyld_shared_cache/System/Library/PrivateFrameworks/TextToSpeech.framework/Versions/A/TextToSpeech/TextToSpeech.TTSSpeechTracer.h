@@ -7,11 +7,6 @@
 @interface TextToSpeech.TTSSpeechTracer
 {
     id $__lazy_storage_$_pid;
-    id $__lazy_storage_$_procName;
-    id operationQueue;
-    id encoder;
-    id eventQueue;
-    id eventBufferSize;
 }
 
 + (id);

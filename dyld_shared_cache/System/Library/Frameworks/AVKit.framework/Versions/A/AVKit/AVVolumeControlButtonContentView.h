@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AVVolumeControlButtonContentView
 {
     NSTrackingArea *_trackingArea;
-    AVVolumeControlButton *_volumeButton;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)while querying iCloud configuration for Suggested Attributes harvesting parameters {error:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

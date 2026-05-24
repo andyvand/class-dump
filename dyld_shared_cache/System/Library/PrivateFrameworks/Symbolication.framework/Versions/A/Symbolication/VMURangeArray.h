@@ -7,15 +7,12 @@
 @interface VMURangeArray
 {
     unsigned int _count;
-    struct _VMURange *_ranges;
-    unsigned int _max;
-    _Bool _sorted;
 }
 
 - (unsigned long long);
 - (struct _VMURange);
 - (struct _VMURange);
-- (struct _VMURange);
+- (struct _VMURange);
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -29,13 +26,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct _VMURange);
-- (void);
+- (struct _VMURange)pf_cleanUrlToStoreTrackId;
+- (void);
 - (id);
 - (struct _VMURange);
 - (unsigned int);
 - (struct _VMURange *);
-- (_Bool);
+- (_Bool)completion;
 - (void);
 
 @end

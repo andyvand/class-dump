@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFocusSystem, _UIFocusInputDeviceInfo;
 @protocol UIFocusEnvironment;
 
 @interface _UIFocusUpdateRequest
 {
     _Bool _scrollIfNecessary;
-    _Bool _allowsDeferral;
-    _Bool _isFocusRemovalRequest;
-    _Bool _resetsUpdateThrottle;
-    _Bool _allowsFocusingCurrentItem;
-    _Bool _allowsOverridingPreferedFocusEnvironments;
-    _Bool _shouldPlayFocusSound;
-    id <UIFocusEnvironment> _destinationEnvironment;
-    UIFocusSystem *_focusSystem;
-    id <UIFocusEnvironment> _environment;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,24 +21,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)8@16@24@32d40@48;
+- (_Bool)y"32@0:8^@16q24 /* Error: Ran out of types for this method. */;
+- (_Bool)SService"16@"NSString"24@"NSString"32@"NSString"40;
+- (id)40;
+- (id)16B24B28q32B40;
+- (id)}32;
+- (_Bool)postHubbleDownloadFinishedIfNeededForTransfer:(id)arg1;
+- (_Bool)pendingRemoteFileRequests;
+- (_Bool)oscarFilteredChat;
+- (id)identifiersForDomain:(id)arg1;
+- (id)identifier:(id)arg1 equalsIdentifier:(id)arg2;
+- (id)_screenTimeAskReponseHandler;
+- (_Bool)V_capability;
+- (void)xMessage;
+- (_Bool)preview;
+- (_Bool),&,N,V_pendingNicknameUpdates;
+- (_Bool)gRelayMessageTimerMap;
+- (id)EvictionCounter;
 - (id);
 - (id);
 - (id)nabled:(struct _NSZone *)arg1;
@@ -57,28 +47,7 @@
 - (id)H¼b;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDeferral; // @synthesize allowsDeferral=_allowsDeferral;
-@property(nonatomic) _Bool allowsFocusingCurrentItem; // @synthesize allowsFocusingCurrentItem=_allowsFocusingCurrentItem;
-@property(nonatomic) _Bool allowsOverridingPreferedFocusEnvironments; // @synthesize allowsOverridingPreferedFocusEnvironments=_allowsOverridingPreferedFocusEnvironments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak id <UIFocusEnvironment> destinationEnvironment; // @synthesize destinationEnvironment=_destinationEnvironment;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIFocusInputDeviceInfo *inputDeviceInfo;
-@property(readonly, nonatomic) _Bool isFocusRemovalRequest; // @synthesize isFocusRemovalRequest=_isFocusRemovalRequest;
-@property(readonly, nonatomic, getter=isMovementRequest) _Bool movementRequest;
-@property(readonly, nonatomic) _Bool requiresEnvironmentValidation;
-@property(readonly, nonatomic) _Bool requiresNextFocusedItem;
-@property(nonatomic) _Bool resetsUpdateThrottle; // @synthesize resetsUpdateThrottle=_resetsUpdateThrottle;
-@property(nonatomic, getter=shouldScrollIfNecessary) _Bool scrollIfNecessary; // @synthesize scrollIfNecessary=_scrollIfNecessary;
-@property(readonly, nonatomic) _Bool shouldPerformHapticFeedback;
-@property(nonatomic) _Bool shouldPlayFocusSound; // @synthesize shouldPlayFocusSound=_shouldPlayFocusSound;
-@property(readonly) Class superclass;
 
 @end
 

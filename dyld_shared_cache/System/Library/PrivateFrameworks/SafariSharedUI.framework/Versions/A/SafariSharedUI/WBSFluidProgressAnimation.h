@@ -9,25 +9,19 @@
 @interface WBSFluidProgressAnimation
 {
     CAMediaTimingFunction *_timingFunction;
-    double _initialPosition;
-    double _destinationPosition;
-    double _animationDuration;
 }
 
 - (void);
 - (double);
 - (void);
 - (double);
-- (void);
+- (void)@@9	;
 - (id);
 - (void);
 - (double);
-- (void)ctionCompleteAtElapsedTime: /* Error: Ran out of types for this method. */;
+- (void)_fractionCompleteAtElapsedTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(nonatomic) double destinationPosition; // @synthesize destinationPosition=_destinationPosition;
-@property(nonatomic) double initialPosition; // @synthesize initialPosition=_initialPosition;
 @property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 
 @end

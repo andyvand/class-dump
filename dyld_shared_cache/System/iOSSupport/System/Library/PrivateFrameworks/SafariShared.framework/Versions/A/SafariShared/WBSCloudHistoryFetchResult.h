@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface WBSCloudHistoryFetchResult
 {
     NSMutableDictionary *_mutableVisitsPerProfile;
-    NSMutableDictionary *_mutableTombstonesPerProfile;
-    NSMutableDictionary *_mutableClientVersions;
-    NSData *_serverChangeTokenData;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,18 +23,14 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)ibswiftCompression.dylib;
+- (id)r:forGlyphRange: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *clientVersions;
 @property(readonly, nonatomic) NSSet *profiles;
-@property(readonly, nonatomic) NSData *serverChangeTokenData; // @synthesize serverChangeTokenData=_serverChangeTokenData;
-@property(readonly, nonatomic) unsigned long long tombstoneCount;
-@property(readonly, nonatomic) unsigned long long visitCount;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SiriCoreSQLiteValue;
-
 @protocol SiriCoreSQLiteColumn
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) id <SiriCoreSQLiteValue> defaultValue;
 @property(readonly, nonatomic) long long identifier;
-@property(readonly, nonatomic) _Bool isNotNull;
-@property(readonly, nonatomic) _Bool isPrimaryKey;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSString *type;
 @end
 

@@ -7,20 +7,6 @@
 @interface NewsUI2.TodayFeedPoolService
 {
     id cloudContext;
-    id feedPersonalizer;
-    id eslInventory;
-    id peopleAlsoReadInventory;
-    id autoFavoritesPreparer;
-    id magazineFeedServiceConfigFetcher;
-    id personalizationService;
-    id topicClusteringService;
-    id headlineService;
-    id sportsGraphManager;
-    id sportsOnboardingManager;
-    id tracker;
-    id localNewsChannelService;
-    id myArticlesRequestFactory;
-    id myArticlesService;
 }
 
 @end

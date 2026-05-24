@@ -11,7 +11,7 @@
 
 - (struct CGSize);
 - (id);
-- (id);
+- (id)setSurfacedByArticleListID2s:(struct CGRect)arg1;
 
 @end
 

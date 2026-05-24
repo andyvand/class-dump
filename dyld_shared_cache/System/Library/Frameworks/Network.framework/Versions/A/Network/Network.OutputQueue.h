@@ -7,7 +7,6 @@
 @interface Network.OutputQueue
 {
     id queue;
-    id space;
 }
 
 @end

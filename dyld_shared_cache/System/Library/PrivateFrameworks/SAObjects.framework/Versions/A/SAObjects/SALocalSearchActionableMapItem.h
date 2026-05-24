@@ -15,9 +15,9 @@
 + (id);
 + (id);
 - (id);
+- (id)tB;
 - (id);
-- (id);
-- (void);
+- (void)senting thread;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;

@@ -4,68 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNLabeledValue, NSString;
+@class NSString;
 
 @interface MSPSharedTripContact
 {
     NSString *_displayName;
-    NSString *_originalHandle;
-    _Bool _isBlocked;
-    double _lastCheckedBlocked;
-    CNContact *_contact;
-    CNLabeledValue *_labeledValue;
 }
 
 + (id);
 + (id);
 + (void);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (_Bool);
++ (id)$;
++ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)\;
 + (id);
 + (unsigned long long);
 + (id);
 + (_Bool);
 + (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id)T;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)remote;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)t3__110__function6__funcIZ62-[FIAirDropViewGutsController touchBar:makeItemForIdentifier:]E4$_21FvvEEE /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *handleForIDS;
 @property(readonly, nonatomic) _Bool isPhoneNumber;
-@property(retain, nonatomic) CNLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(readonly, nonatomic) NSString *stringValue;
 
 @end
 

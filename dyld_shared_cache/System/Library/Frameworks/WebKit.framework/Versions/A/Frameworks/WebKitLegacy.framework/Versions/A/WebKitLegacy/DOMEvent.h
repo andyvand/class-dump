@@ -7,44 +7,34 @@
 #import <WebKitLegacy/DOMObject.h>
 
 @class NSString;
-@protocol DOMEventTarget;
 
 @interface DOMEvent : DOMObject
 {
 }
 
 - (void);
-- (id);
+- (id)-: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)Z;
 - (void);
-- (void);
-- (void);
+- (void)t;
 - (unsigned short);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id)copyAccessControlRefWithAccount:options:error: /* Error: Ran out of types for this method. */;
+- (void)ed from payload data. Error:%{public}@. Media token string:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool bubbles;
-@property _Bool cancelBubble;
-@property(readonly) _Bool cancelable;
-@property(readonly) id <DOMEventTarget> currentTarget;
-@property(readonly) unsigned short eventPhase;
-@property _Bool returnValue;
-@property(readonly) id <DOMEventTarget> srcElement;
-@property(readonly) id <DOMEventTarget> target;
-@property(readonly) unsigned long long timeStamp;
 @property(readonly, copy) NSString *type;
 
 @end

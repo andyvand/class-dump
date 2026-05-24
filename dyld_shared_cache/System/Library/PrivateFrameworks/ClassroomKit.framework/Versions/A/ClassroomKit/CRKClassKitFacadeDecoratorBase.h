@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CRKClassKitFacade;
 
 @interface CRKClassKitFacadeDecoratorBase
@@ -13,7 +13,7 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -46,19 +46,11 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)B;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<CRKClassKitFacade> *underlyingClassKitFacade; // @synthesize underlyingClassKitFacade=_underlyingClassKitFacade;
 
 @end

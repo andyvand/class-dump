@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITableViewCell;
+
 @protocol EKEventDetailAttendeeCellDelegate
+
+@optional
+- (void).x;
+- (void)formattedNumber:(UITableViewCell *)arg1 withPrecision:useGroupSeparator: /* Error: Ran out of types for this method. */;
 @end
 

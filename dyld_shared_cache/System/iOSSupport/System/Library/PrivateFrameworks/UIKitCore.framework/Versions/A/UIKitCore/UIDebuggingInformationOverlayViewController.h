@@ -6,22 +6,18 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class UIDebuggingInformationContainerView, UIDebuggingInformationRootTableViewController, UINavigationController, UIView;
+@class UIDebuggingInformationContainerView;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationOverlayViewController : UIViewController
 {
     UIDebuggingInformationContainerView *_shadowContainer;
-    UINavigationController *_navController;
-    _Bool _isFullscreen;
-    UIDebuggingInformationRootTableViewController *_rootTableViewController;
-    struct CGPoint _offset;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ane for %{public}s has finished deferral;
+- (void)d currentBatchCount %@ maxNumberOfBatches %@;
+- (void)ess DB invalidation timer;
+- (id)d on signature:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)oid);
@@ -32,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)0Ol;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *containerView;
-@property(nonatomic) _Bool isFullscreen; // @synthesize isFullscreen=_isFullscreen;
 @property struct CGPoint offset; // @synthesize offset=_offset;
-@property(retain, nonatomic) UIDebuggingInformationRootTableViewController *rootTableViewController; // @synthesize rootTableViewController=_rootTableViewController;
 
 @end
 

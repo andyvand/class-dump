@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface UnknownClass (IMChatDictionaryLogging)
 + (id);
@@ -30,14 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *__im_associatedMessageContentType;
-@property(readonly, nonatomic) NSString *__im_associatedMessagePluginBundleID;
-@property(readonly, nonatomic) NSString *__im_associatedMessagePluginDisplayName;
-@property(readonly, nonatomic) NSString *__im_associatedMessageSummary;
 @property(readonly, nonatomic) NSDictionary *__im_propertyListSafeCopy;
 @end
 

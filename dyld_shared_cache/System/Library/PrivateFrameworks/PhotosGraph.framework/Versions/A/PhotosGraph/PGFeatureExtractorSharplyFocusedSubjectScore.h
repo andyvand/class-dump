@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)otentialUpNextMemoryProtocol;
+- (long long)e;
+- (id)DownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
+- (id)PGPotentialUpNextMemoryProtocol;
 
 @end
 

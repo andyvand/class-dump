@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface CNContactViewExtensionContext
 {
     _Bool _asyncShouldPerformResponse;
-    NSObject<OS_dispatch_semaphore> *_asyncShouldPerformSemaphore;
 }
 
 + (id);
-+ (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
++ (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -27,32 +21,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (void);
+- (id)Rhb;
+- (_Bool)d;
 - (void);
 - (void);
+- (void)ӱ;
 - (void);
+- (id)undation12MAPIResponseP;
 - (void);
-- (id);
-- (void);
-- (void)ousRendering;
+- (void)_asynchronousRendering;
 
 // Remaining properties
 @property(nonatomic) _Bool asyncShouldPerformResponse; // @synthesize asyncShouldPerformResponse=_asyncShouldPerformResponse;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *asyncShouldPerformSemaphore; // @synthesize asyncShouldPerformSemaphore=_asyncShouldPerformSemaphore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

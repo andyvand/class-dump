@@ -12,12 +12,9 @@ __attribute__((visibility("hidden")))
 @interface FI_TPropertyTaggingTokenFieldController : FI_IPropertyScrollViewController
 {
     NSArray *_origTagInfos;
-    struct TNotificationCenterObserver _tokenFieldDidEndEditingObserver;
-    struct TNotificationCenterObserver _forceTokenFieldToCommitObserver;
-    NSArray *_minAndMaxHeightConstraints;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (int);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)8ä;

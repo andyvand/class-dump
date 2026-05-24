@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDBugSessionConfiguration, NSObject, NSString, NSURLSession;
-@protocol DEDSeedingClientDelegate, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface DEDSeedingClient
 {
     NSObject<OS_os_log> *_log;
-    DEDBugSessionConfiguration *_config;
-    id <DEDSeedingClientDelegate> _uploadDelegate;
-    NSURLSession *_foregroundSession;
-    NSString *_bugSessionIdentifier;
-    NSURLSession *_backgroundSession;
 }
 
 - (id);
@@ -22,18 +17,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -45,46 +30,44 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)umber;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)%;
+- (id)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)writeFolderRepresentationToDirectory:(id)arg1 error:(id)arg2;
+- (id);
+- (id);
+- (void);
+- (void)substringWithRange:(id)arg1;
+- (id);
+- (void)serialNumber;
 - (void)(°;
 
 // Remaining properties
-@property(retain) NSURLSession *backgroundSession; // @synthesize backgroundSession=_backgroundSession;
-@property(retain) NSString *bugSessionIdentifier; // @synthesize bugSessionIdentifier=_bugSessionIdentifier;
-@property(retain) DEDBugSessionConfiguration *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSURLSession *foregroundSession; // @synthesize foregroundSession=_foregroundSession;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
-@property __weak id <DEDSeedingClientDelegate> uploadDelegate; // @synthesize uploadDelegate=_uploadDelegate;
 
 @end
 

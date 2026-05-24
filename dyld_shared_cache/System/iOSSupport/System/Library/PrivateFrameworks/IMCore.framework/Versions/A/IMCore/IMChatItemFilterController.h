@@ -6,30 +6,23 @@
 
 #import <IMCore/IMItemsController.h>
 
-@class IMChat, IMMessage, IMScheduledUpdater, NSArray;
-@protocol IMChatItemRules;
+@class IMChat;
 
 @interface IMChatItemFilterController : IMItemsController
 {
     _Bool _hasEarlierMessagesToLoad;
-    _Bool _hasRecentMessagesToLoad;
-    _Bool _disableItemInserts;
-    _Bool _isUpdatingChatItems;
-    IMChat *_chat;
-    id <IMChatItemRules> _chatItemRules;
-    IMScheduledUpdater *_chatItemsUpdater;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)g;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_ְ;
+- (id)YA�;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -62,15 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak IMChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) id <IMChatItemRules> chatItemRules; // @synthesize chatItemRules=_chatItemRules;
-@property(readonly, nonatomic) NSArray *chatItems;
-@property(retain, nonatomic) IMScheduledUpdater *chatItemsUpdater; // @synthesize chatItemsUpdater=_chatItemsUpdater;
-@property(nonatomic) _Bool disableItemInserts; // @synthesize disableItemInserts=_disableItemInserts;
-@property(readonly, nonatomic) IMMessage *firstMessage;
-@property(nonatomic) _Bool hasEarlierMessagesToLoad; // @synthesize hasEarlierMessagesToLoad=_hasEarlierMessagesToLoad;
-@property(nonatomic) _Bool hasRecentMessagesToLoad; // @synthesize hasRecentMessagesToLoad=_hasRecentMessagesToLoad;
-@property(nonatomic) _Bool isUpdatingChatItems; // @synthesize isUpdatingChatItems=_isUpdatingChatItems;
-@property(readonly, nonatomic) IMMessage *lastMessage;
 
 @end
 

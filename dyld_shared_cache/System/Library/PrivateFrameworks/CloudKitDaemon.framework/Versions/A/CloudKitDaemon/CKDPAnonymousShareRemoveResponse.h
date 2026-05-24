@@ -12,21 +12,20 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)f);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)Etag;
+- (void)localZoneEtag;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousShareTupleHash; // @synthesize anonymousShareTupleHash=_anonymousShareTupleHash;
 @property(readonly, nonatomic) _Bool hasAnonymousShareTupleHash;
 
 @end

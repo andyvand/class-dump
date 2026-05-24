@@ -7,21 +7,14 @@
 @interface IMUnlockMonitor
 {
     id keybagChangeIOKitToken;
-    id firstKeybagUnlockToken;
-    id keybagChangeToken;
-    id sbLockChangeToken;
-    id initializedBeforeFirstUnlock;
-    id state;
-    id listeners;
-    id stringboardLockstateNotifificationKey;
 }
 
 + (id)¤;
-- (_Bool);
-- (id);
+- (_Bool)#;
+- (id)ctor;
 - (_Bool);
 - (void)U£L;
-- (_Bool)pants;
+- (_Bool)MutableGroupChatParticipants;
 - (void)Àm;
 - (void)PbÕÿ;
 

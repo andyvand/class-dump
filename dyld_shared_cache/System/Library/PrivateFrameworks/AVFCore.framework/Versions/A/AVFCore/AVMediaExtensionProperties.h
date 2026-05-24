@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AVMediaExtensionProperties
 {
     NSString *_extensionIdentifier;
-    NSString *_extensionName;
-    NSString *_containingBundleName;
-    NSURL *_extensionURL;
-    NSURL *_containingBundleURL;
 }
 
 - (id);
 - (id);
+- (id)L;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)e;
+- (id)a;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containingBundleName; // @synthesize containingBundleName=_containingBundleName;
-@property(readonly, nonatomic) NSURL *containingBundleURL; // @synthesize containingBundleURL=_containingBundleURL;
 @property(readonly, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(readonly, nonatomic) NSString *extensionName; // @synthesize extensionName=_extensionName;
-@property(readonly, nonatomic) NSURL *extensionURL; // @synthesize extensionURL=_extensionURL;
 
 @end
 

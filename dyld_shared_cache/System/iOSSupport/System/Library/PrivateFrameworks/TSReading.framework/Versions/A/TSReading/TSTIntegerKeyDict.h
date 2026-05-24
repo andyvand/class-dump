@@ -9,7 +9,7 @@
     void *mMap;
 }
 
-- (void);
+- (void)ust always be from the same source;
 - (void);
 - (void);
 - (void);

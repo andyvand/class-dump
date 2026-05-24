@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, PKMetalRendererController;
-@protocol OS_dispatch_queue;
+@class PKMetalRendererController;
 
 @interface PKTileController
 {
     _Bool _invertColors;
-    _Bool _sixChannelBlending;
-    _Bool _transparentBlending;
-    _Bool _previewsSuspended;
-    double _contentZoomScale;
-    PKMetalRendererController *_rendererController;
-    NSMutableArray *_tasks;
-    NSMutableArray *_completionHandlers;
-    NSObject<OS_dispatch_queue> *_previewQueue;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R#;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)d ;
 - (id);
 - (void);
 - (void);
@@ -51,21 +42,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)6;
+- (void);
+- (void)@*;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(nonatomic) double contentZoomScale; // @synthesize contentZoomScale=_contentZoomScale;
-@property(nonatomic) _Bool invertColors; // @synthesize invertColors=_invertColors;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *previewQueue; // @synthesize previewQueue=_previewQueue;
-@property(nonatomic) _Bool previewsSuspended; // @synthesize previewsSuspended=_previewsSuspended;
 @property(retain, nonatomic) PKMetalRendererController *rendererController; // @synthesize rendererController=_rendererController;
-@property(nonatomic) _Bool sixChannelBlending; // @synthesize sixChannelBlending=_sixChannelBlending;
-@property(retain, nonatomic) NSMutableArray *tasks; // @synthesize tasks=_tasks;
-@property(nonatomic) _Bool transparentBlending; // @synthesize transparentBlending=_transparentBlending;
-@property(nonatomic) _Bool wantsExtendedDynamicRangeContent;
 
 @end
 

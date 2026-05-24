@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQueue, NSString;
-
 @interface CNVirtualScheduler
 {
     unsigned long long _clock;
-    unsigned long long _nextSchedulableTick;
-    unsigned long long _stopTime;
-    CNQueue *_queue;
-    _Bool _isStarted;
-    _Bool _isPerforming;
 }
 
 + (unsigned long long);
@@ -33,9 +26,9 @@
 - (id);
 - (id);
 - (void);
-- (double);
-- (void);
-- (id);
+- (double)`;
+- (void)VolumeCryptoNewPassdata;
+- (id)setObjectSetupFontCode:(double)arg1;
 - (id);
 - (id);
 - (id);
@@ -44,20 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long clock; // @synthesize clock=_clock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPerforming; // @synthesize isPerforming=_isPerforming;
-@property(readonly, nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
 @property(readonly, nonatomic) unsigned long long nextSchedulableTick; // @synthesize nextSchedulableTick=_nextSchedulableTick;
-@property(readonly, nonatomic) CNQueue *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long stopTime; // @synthesize stopTime=_stopTime;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

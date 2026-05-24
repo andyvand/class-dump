@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-- (void);
-- (id);
++ (id)*;
+- (void)commandToHandlerBlock;
+- (id)So14IMFeatureFlagsC;
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (id)UIFont"48{_NSRange=QQ}56;
-- (struct CGRect)constraintAffectsContentSize: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_constraintAffectsContentSize: /* Error: Ran out of types for this method. */;
 - (void)KÖ,ç`;
 
 // Remaining properties

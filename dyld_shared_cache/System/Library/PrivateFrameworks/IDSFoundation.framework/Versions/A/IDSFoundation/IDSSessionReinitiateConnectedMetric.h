@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSSessionReinitiateConnectedMetric
 {
@@ -12,22 +12,13 @@
 }
 
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id)Wy!W;
 - (void)for IDSSessionID:%@ (FaceTime:YES, isMultiway:NO). /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

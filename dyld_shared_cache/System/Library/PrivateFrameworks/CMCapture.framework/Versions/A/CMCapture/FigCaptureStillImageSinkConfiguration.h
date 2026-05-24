@@ -9,13 +9,12 @@
 @interface FigCaptureStillImageSinkConfiguration : FigCaptureSinkConfiguration
 {
     _Bool _zeroShutterLagEnabled;
-    _Bool _cameraSensorOrientationCompensationEnabled;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id):(struct _NSZone *)arg1;
 - (id)viceVendorName;
 - (int)Ö ;
 - (void)óçÿÿçÿÿéÿÿéÿÿéÿ;
@@ -24,7 +23,6 @@
 - (void)nNeeded || mirroringNeeded || scalingNeeded || videoZoomNeeded || P3ToBT2020ConversionEnabled || deviceOrientationCorrectionNeeded || cropNeeded );
 
 // Remaining properties
-@property(nonatomic) _Bool cameraSensorOrientationCompensationEnabled; // @synthesize cameraSensorOrientationCompensationEnabled=_cameraSensorOrientationCompensationEnabled;
 @property(nonatomic) _Bool zeroShutterLagEnabled; // @synthesize zeroShutterLagEnabled=_zeroShutterLagEnabled;
 
 @end

@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface ADClientSettingsResponse
 {
     double _expirationDate;
-    NSMutableArray *_searchAdsSettingsParams;
-    NSMutableArray *_searchLandingAdsSettingsParams;
-    struct {
-        unsigned int expirationDate:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
@@ -46,10 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(nonatomic) _Bool hasExpirationDate;
-@property(retain, nonatomic) NSMutableArray *searchAdsSettingsParams; // @synthesize searchAdsSettingsParams=_searchAdsSettingsParams;
-@property(retain, nonatomic) NSMutableArray *searchLandingAdsSettingsParams; // @synthesize searchLandingAdsSettingsParams=_searchLandingAdsSettingsParams;
 
 @end
 

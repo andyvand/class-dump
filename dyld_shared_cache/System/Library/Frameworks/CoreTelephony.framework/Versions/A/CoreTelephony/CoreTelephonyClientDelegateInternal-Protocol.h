@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyClientDelegateInternal
+
+@optional
+- (void);
+- (void)_ensureAssetWithFigPlaybackItemWithTrackIDs: /* Error: Ran out of types for this method. */;
 @end
 

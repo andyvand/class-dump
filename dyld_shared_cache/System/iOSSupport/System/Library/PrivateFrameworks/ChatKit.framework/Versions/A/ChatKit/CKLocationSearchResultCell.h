@@ -6,59 +6,40 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class CKSpotlightQueryResult, NSString, UILabel, UIVisualEffectView;
+@class UILabel;
 
 @interface CKLocationSearchResultCell : CKEditableSearchResultCell
 {
     UILabel *_placeLabel;
-    UIVisualEffectView *_blurEffectView;
-    CKSpotlightQueryResult *_result;
-    NSString *_searchText;
-    unsigned long long _mode;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)isBlockingMerge;
+- (void)ntext>",&,N,V_legacyContext;
+- (void)ICPrintableTextAttachment;
 - (void);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (void);
+- (void)d;
+- (id)password.;
+- (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)iceControllerDidStartRecording:(id)arg1 successfully: /* Error: Ran out of types for this method. */;
+- (void)voiceControllerDidStartRecording:(id)arg1 successfully: /* Error: Ran out of types for this method. */;
 - (id)ged;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(retain, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) UILabel *placeLabel; // @synthesize placeLabel=_placeLabel;
-@property(retain, nonatomic) CKSpotlightQueryResult *result; // @synthesize result=_result;
-@property(readonly, copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
 
 @end
 

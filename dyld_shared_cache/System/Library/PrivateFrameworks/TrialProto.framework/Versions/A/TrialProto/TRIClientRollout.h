@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIAssignment, TRIEncryptedMessage;
+@class NSString;
 
 @interface TRIClientRollout : TRIPBMessage
 {
@@ -15,20 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIAssignment *assignment; // @dynamic assignment;
-@property(copy, nonatomic) NSString *channelId; // @dynamic channelId;
-@property(nonatomic) unsigned int deploymentId; // @dynamic deploymentId;
-@property(retain, nonatomic) TRIEncryptedMessage *encryptedMessage; // @dynamic encryptedMessage;
-@property(nonatomic) _Bool hasAssignment; // @dynamic hasAssignment;
-@property(nonatomic) _Bool hasChannelId; // @dynamic hasChannelId;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasEncryptedMessage; // @dynamic hasEncryptedMessage;
-@property(nonatomic) _Bool hasRampId; // @dynamic hasRampId;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(copy, nonatomic) NSString *rampId; // @dynamic rampId;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
-@property(retain, nonatomic) NSMutableArray *selectedNamespaceArray; // @dynamic selectedNamespaceArray;
-@property(readonly, nonatomic) unsigned long long selectedNamespaceArray_Count; // @dynamic selectedNamespaceArray_Count;
 
 @end
 

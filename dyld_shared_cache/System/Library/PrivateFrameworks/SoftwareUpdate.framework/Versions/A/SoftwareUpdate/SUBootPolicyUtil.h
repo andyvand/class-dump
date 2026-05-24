@@ -16,8 +16,8 @@
 - (_Bool);
 - (_Bool);
 - (unsigned char);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned char);

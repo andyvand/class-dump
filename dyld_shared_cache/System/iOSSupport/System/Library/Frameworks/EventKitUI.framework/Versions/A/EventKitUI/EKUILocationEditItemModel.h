@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUILocationRowModel, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface EKUILocationEditItemModel
 {
     NSMutableArray *_rowModels;
-    NSMutableDictionary *_conferenceRoomInfos;
 }
 
 - (id);
@@ -18,43 +17,36 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)+s;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)&s;
+- (void)%s;
 - (void);
 - (id);
-- (id);
+- (id)&s;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)s;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)ݓy;
 - (id);
-- (id);
-- (void)ynamicPocket;
+- (id)apshot attributes %@.;
+- (void)useDynamicPocket;
 - (void)ecurrenceWeekdayChooserController",&,V_weeklyChooser;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *conferenceRoomInfos; // @synthesize conferenceRoomInfos=_conferenceRoomInfos;
-@property(readonly, nonatomic) _Bool displaysPlaceholder;
-@property(readonly, nonatomic) _Bool hasMapLocation;
-@property(readonly, nonatomic) _Bool hasVirtualConference;
-@property(readonly, nonatomic) EKUILocationRowModel *mapLocationRowModel;
-@property(readonly, nonatomic) NSString *placeholderCellText;
 @property(retain, nonatomic) NSMutableArray *rowModels; // @synthesize rowModels=_rowModels;
-@property(readonly, nonatomic) EKUILocationRowModel *virtualConferenceRowModel;
 
 @end
 

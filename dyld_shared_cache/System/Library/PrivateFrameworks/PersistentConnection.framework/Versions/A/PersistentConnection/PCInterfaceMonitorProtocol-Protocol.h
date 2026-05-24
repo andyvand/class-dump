@@ -7,38 +7,17 @@
 @class NSString;
 
 @protocol PCInterfaceMonitorProtocol
+- (_Bool);
+- (_Bool)hotpink;
+- (_Bool)A;
+- (_Bool);
+- (_Bool);
+- (NSString *)&;
+
+@optional
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) int currentRAT;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
-@property(readonly, nonatomic) unsigned long long interface5GMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long interfaceConstraint;
 @property(readonly, nonatomic) long long interfaceIdentifier;
-@property(readonly, nonatomic) _Bool isBadLinkQuality;
-@property(readonly, nonatomic) _Bool isInterfaceHistoricallyUsable;
-@property(readonly, nonatomic) _Bool isInterfaceUsable;
-@property(readonly, nonatomic) _Bool isInternetReachable;
-@property(readonly, nonatomic) _Bool isLTEWithCDRX;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isNetworkingPowerExpensiveToUse;
-@property(readonly, nonatomic) _Bool isPoorLinkQuality;
-@property(readonly, nonatomic) _Bool isRadioHot;
-@property(readonly, nonatomic) int linkQuality;
-@property(readonly, retain, nonatomic) NSString *linkQualityString;
-@property(readonly, nonatomic) NSString *networkCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) struct __CFString *wwanInterfaceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFString=},?,R,N
-
 @end
 

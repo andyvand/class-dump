@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLASRSchemaDODMLASRContextualReplayBiomeRecordDeleted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    _Bool _hasOriginalAsrId;
 }
 
 - (void);
@@ -25,16 +24,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)K;
 - (id)b1"isNamePrefixMatch"b1"isNameSuffixMatch"b1"allHandlesMatched"b1"isRelationAlias"b1};
-- (id)aSSUBackgroundUpdateContext;
+- (id)NLXSchemaSSUBackgroundUpdateContext;
 - (id);
 - (void)õ
 ¶þÎ%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

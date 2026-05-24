@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSSet;
 
 @interface _DKBiomePredicateValueScanner
 {
     NSSet *_searchKeys;
-    NSMutableSet *_matchedValues;
-    unsigned long long _state;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (void)!XEùñ©3ð1Â0@ù
 × ;
 - (void)@; countOverAllValues=%@};
-- (void)urnUnlockNow;
+- (void)AlwaysReturnUnlockNow;
 - (void);
 
 @end

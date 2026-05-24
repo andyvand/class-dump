@@ -6,21 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSDictionary, NSString, PHPhotosHighlight, PHRelationshipChangeRequestHelper;
+@class NSString;
 
 @interface PHPhotosHighlightChangeRequest : PHChangeRequest
 {
     NSString *_verboseSmartDescriptionUserEdited;
-    PHRelationshipChangeRequestHelper *_dayKeyAssetHelper;
-    PHRelationshipChangeRequestHelper *_monthKeyAssetHelper;
-    PHRelationshipChangeRequestHelper *_yearKeyAssetHelper;
-    PHRelationshipChangeRequestHelper *_dayGroupKeyAssetHelper;
-    PHPhotosHighlight *_originalHighlight;
-    NSDictionary *_curationHelpersByCurationType;
-    PHRelationshipChangeRequestHelper *_dayGroupKeyAssetSharedHelper;
-    PHRelationshipChangeRequestHelper *_monthKeyAssetSharedHelper;
-    PHRelationshipChangeRequestHelper *_dayKeyAssetSharedHelper;
-    PHRelationshipChangeRequestHelper *_yearKeyAssetSharedHelper;
 }
 
 + (void);

@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)loadTransfers:Downloading %ld mirror files, and waiting for:%ld in progress downloads. /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)Hx;
 - (id);
 - (unsigned char);
-- (id);
-- (id);
+- (id);
+- (id)AMSSyncRestrictedRegionTask;
 
 // Remaining properties
 @property(readonly) unsigned char enableMixMatch; // @synthesize enableMixMatch=_enableMixMatch;

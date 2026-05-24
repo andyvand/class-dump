@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _IKIRLMainProxy
 {
     id _originalObject;
-    _Bool _wait;
-    NSArray *_modes;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)e of type %@;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 
 @end
 

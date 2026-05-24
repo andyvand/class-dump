@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (unsigned char);
-- (void);
++ (id)ID = ?;
++ (void)e, ROWID, sync_id FROM genre WHERE (ROWID=? OR sync_id=?);
++ (unsigned char)genre WHERE grouping_key = (?);
+- (void)C3DRotationGetQuaternion;
 - (void);
 - (double);
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSPasteboardReading
++ (NSArray *)y cert was issued and signed by issuer (success);
+
+@optional
++ (unsigned long long)be non NULL;
+- (id)aD51uqjUwgRKjAC04BCrxg;
 @end
 

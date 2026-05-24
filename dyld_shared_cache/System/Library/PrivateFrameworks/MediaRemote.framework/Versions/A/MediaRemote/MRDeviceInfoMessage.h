@@ -15,14 +15,13 @@
 
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)setMerchantTokenIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)recoverableMessagesDidSync;
 - (id);
-- (void)on;
+- (void)_pairingSession;
 
 // Remaining properties
 @property(readonly, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly, nonatomic) MRSupportedProtocolMessages *supportedProtocolMessages;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNAutocompleteObservableBuilderBatchingHelper
+- (void)р";
 @end
 

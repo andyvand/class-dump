@@ -6,39 +6,25 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMSource, NSDictionary, NSObject;
-@protocol OS_dispatch_source;
-
 @interface _DKBatteryMonitor : _DKMonitor
 {
     unsigned int _powerService;
-    unsigned int _batteryNotification;
-    struct IONotificationPort *_notifyPort;
-    BMSource *_source;
-    _Bool _hasInternalBattery;
-    _Bool _previouslyFullyCharged;
-    _Bool _waiting;
-    int _immediateShutdownThreshold;
-    int _percentageChangeToken;
-    NSDictionary *_previousBatteryState;
-    double _previousPercentage;
-    NSObject<OS_dispatch_source> *_coalescingTimer;
 }
 
-+ (id);
++ (id)ithContent failed with error %@;
 + (void);
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)d}{Unit<geo:(_Bool)arg1:MeterUnitDescription, double>=d}}40@0:8{?=ddd}16 /* Error: Ran out of types for this method. */;
+- (void)setCaptureMemoryStatistics:(_Bool)arg1;
+- (_Bool)HIROSHIMA_Hiroshima_Dentetsu_Light_Rail_Five;
+- (id)canvasSize;
 - (_Bool);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (int);
@@ -52,35 +38,28 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)@9@;
 - (void);
-- (int);
+- (int);
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)P	;
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *coalescingTimer; // @synthesize coalescingTimer=_coalescingTimer;
-@property(nonatomic) _Bool hasInternalBattery; // @synthesize hasInternalBattery=_hasInternalBattery;
 @property(nonatomic) int immediateShutdownThreshold; // @synthesize immediateShutdownThreshold=_immediateShutdownThreshold;
-@property(nonatomic) int percentageChangeToken; // @synthesize percentageChangeToken=_percentageChangeToken;
-@property(retain, nonatomic) NSDictionary *previousBatteryState; // @synthesize previousBatteryState=_previousBatteryState;
-@property(nonatomic) double previousPercentage; // @synthesize previousPercentage=_previousPercentage;
-@property(nonatomic) _Bool previouslyFullyCharged; // @synthesize previouslyFullyCharged=_previouslyFullyCharged;
-@property(nonatomic) _Bool waiting; // @synthesize waiting=_waiting;
 
 @end
 

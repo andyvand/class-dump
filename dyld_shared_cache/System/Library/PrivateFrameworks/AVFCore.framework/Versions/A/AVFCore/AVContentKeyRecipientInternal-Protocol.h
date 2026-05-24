@@ -7,12 +7,12 @@
 @class NSUUID;
 
 @protocol AVContentKeyRecipientInternal
+- (int)X[;
+
+@optional
+- (NSUUID *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool disallowsLoggingURLs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,N

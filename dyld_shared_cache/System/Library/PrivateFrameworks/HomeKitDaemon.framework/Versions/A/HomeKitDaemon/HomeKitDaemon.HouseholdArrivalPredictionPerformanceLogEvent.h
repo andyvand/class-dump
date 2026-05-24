@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.HouseholdArrivalPredictionPerformanceLogEvent
 {
     id preciseCount;
-    id impreciseCount;
-    id accurateCount;
-    id inaccurateCount;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)F;
 - (id);
 - (void)Í	Ôá>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

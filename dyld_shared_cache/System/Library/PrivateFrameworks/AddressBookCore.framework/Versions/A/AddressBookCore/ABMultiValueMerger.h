@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABMultiValue, ABMutableMultiValue;
+@class ABMultiValue;
 
 @interface ABMultiValueMerger
 {
     ABMultiValue *_originalMultiValue;
-    ABMutableMultiValue *_combinedMultiValue;
-    _Bool _hasChanges;
 }
 
 + (_Bool);
@@ -20,15 +18,14 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)cterAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)characterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
-@property(readonly) ABMultiValue *result; // @synthesize result=_combinedMultiValue;
 
 @end
 

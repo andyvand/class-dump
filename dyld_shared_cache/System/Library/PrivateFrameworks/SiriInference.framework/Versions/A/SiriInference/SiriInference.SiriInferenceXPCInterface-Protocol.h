@@ -5,5 +5,8 @@
 //
 
 @protocol SiriInference.SiriInferenceXPCInterface
+- (void)XSS;
+- (void)XLS;
+- (void);
 @end
 

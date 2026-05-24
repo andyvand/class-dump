@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMutableSet, SCNGeometry, SCNManipulator, SCNNode, SCNRenderer;
+@class NSMutableSet, SCNNode;
 
 @interface SCNAuthoringEnvironment2
 {
     NSMutableSet *_selection;
-    struct __C3DScene *_scene;
-    SCNNode *_layerRoot;
-    SCNNode *_overlayLayerRoot;
-    SCNNode *_lightRoot;
-    SCNNode *_cameraRoot;
-    SCNNode *_particlesRoot;
-    SCNNode *_physicsFieldsRoot;
-    SCNNode *_cameraTarget;
-    SCNNode *_pointsOfViewRoot;
-    struct __CFDictionary *_lightsDictionary;
-    struct __CFDictionary *_camerasDictionary;
-    struct __CFDictionary *_particlesDictionary;
-    struct __CFDictionary *_physicsFieldsDictionary;
-    SCNRenderer *_renderer;
-    SCNGeometry *_lightGeometry;
-    SCNGeometry *_cameraFrustumGeometry;
-    SCNGeometry *_cameraOrthographicFrustumGeometry;
-    SCNGeometry *_cameraGeometry;
-    SCNGeometry *_cameraNearPlaneGeometry;
-    SCNGeometry *_particlesGeometry;
-    SCNGeometry *_fieldGeometry;
-    long long _displayMask;
-    NSColor *_paleGreen;
-    NSColor *_paleBlue;
-    NSColor *_red;
-    NSColor *_green;
-    NSColor *_blue;
-    NSColor *_cyan;
-    NSColor *_yellow;
-    NSColor *_orange;
-    NSColor *_pink;
-    NSColor *_grayLight;
-    NSColor *_grayMedium;
-    NSColor *_grayDark;
-    NSColor *_white;
-    SCNManipulator *_manipulator;
 }
 
 + (id);
@@ -55,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,9 +52,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)on.framework/Versions/A/HMFoundation;
 - (long long);
-- (_Bool);
+- (_Bool)ons/A/AppleIDSSOAuthentication;
 - (id)yTextureSampler
 #endif
 #ifdef USE_NORMAL_MAP
@@ -799,9 +763,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SCNNode *authoringLayer;
-@property(readonly, nonatomic) SCNNode *authoringOverlayLayer;
-@property long long displayMask;
-@property(readonly, nonatomic) SCNManipulator *manipulator;
 
 @end
 

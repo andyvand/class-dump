@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, NSArray, NSHashTable, NSString;
-@protocol SGTABPersonImageAsyncLoaderDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SGTABPersonImageAsyncLoader
 {
     long long asyncLoadTag;
-    ABPerson *person;
-    id <SGTABPersonImageAsyncLoaderDelegate> delegate;
-    NSHashTable *relatedObjects;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)7b;
 - (id);
 - (void);
 - (id);
@@ -28,19 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SGTABPersonImageAsyncLoaderDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) ABPerson *person; // @synthesize person;
 @property(readonly) NSArray *relatedObjects;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPXExtensionContext, NSFileProviderDomain, NSFileProviderRequest, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NSFileProviderExtension
 {
     NSObject<OS_dispatch_queue> *_extensionDispatchQueue;
-    FPXExtensionContext *_extensionContext;
-    NSFileProviderRequest *_currentRequest;
-    NSObject<OS_dispatch_queue> *_memberQueue;
-    NSURL *_memberQueueDocumentStorageURL;
-    NSString *_memberQueueProviderIdentifier;
-    NSFileProviderDomain *_domain;
 }
 
 + (_Bool);
@@ -31,22 +25,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)M;
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)M;
+- (id);
+- (void)M;
+- (void);
+- (void)M;
+- (void);
+- (id);
+- (id)bM;
 - (id);
 - (id);
 - (id);
@@ -67,7 +61,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)gyMask;
 - (id);
 - (id);
 - (id);
@@ -75,15 +69,11 @@
 - (id);
 - (id);
 - (void);
-- (id)ActionOperationInfo;
-- (void)xm;
+- (id)FPActionOperationInfo;
+- (void)pxm;
 
 // Remaining properties
-@property(retain, nonatomic) NSFileProviderDomain *domain; // @synthesize domain=_domain;
-@property(nonatomic) __weak FPXExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *memberQueue; // @synthesize memberQueue=_memberQueue;
-@property(retain, nonatomic) NSURL *memberQueueDocumentStorageURL; // @synthesize memberQueueDocumentStorageURL=_memberQueueDocumentStorageURL;
-@property(copy, nonatomic) NSString *memberQueueProviderIdentifier; // @synthesize memberQueueProviderIdentifier=_memberQueueProviderIdentifier;
 
 @end
 

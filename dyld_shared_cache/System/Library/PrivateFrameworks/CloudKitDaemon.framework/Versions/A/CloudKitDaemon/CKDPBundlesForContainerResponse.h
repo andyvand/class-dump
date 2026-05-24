@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nterruptingStreamWrapper_resumeInternal(FigEndpointStreamRef, CFDictionaryRef);
 - (_Bool);
 - (_Bool);
 - (void);

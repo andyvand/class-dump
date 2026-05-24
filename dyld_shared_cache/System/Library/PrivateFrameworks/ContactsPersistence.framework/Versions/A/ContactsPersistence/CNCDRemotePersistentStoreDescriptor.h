@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CNCDRemotePersistentStoreDescriptor
 {
     _Bool _includesDisabledStoreMatches;
-    NSString *_accountIdentifier;
-    NSURL *_URL;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSURL *URL; // @synthesize URL=_URL;
 @property(copy) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property _Bool includesDisabledStoreMatches; // @synthesize includesDisabledStoreMatches=_includesDisabledStoreMatches;
 
 @end
 

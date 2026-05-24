@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) MKFLocalElementTimePeriod *endElement; // @dynamic endElement;
-@property(retain, nonatomic) MKFLocalElementTimePeriod *startElement; // @dynamic startElement;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSURL;
+@class NSURL;
 
 @interface IASInstallMedia
 {
     NSURL *_URL;
-    NSString *_name;
-    NSURL *_iconURL;
-    long long _kind;
-    NSMutableArray *_submedia;
-    long long _mediaState;
 }
 
 - (id);
@@ -26,21 +21,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)er - Email failed to send because of nil emailAddress. AlarmID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)ContactEntityPropertyComparator;
 - (long long);
-- (void);
+- (void)?;
 - (void);
 
 // Remaining properties
 @property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(copy) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property long long kind; // @synthesize kind=_kind;
-@property long long mediaState; // @synthesize mediaState=_mediaState;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) NSMutableArray *submedia; // @synthesize submedia=_submedia;
 
 @end
 

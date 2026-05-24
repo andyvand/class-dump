@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWLocationAccessPermissionPromptFailed : SISchemaInstrumentationMessage
 {
     int _failureReason;
-    CDStruct_ebe11093 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)etion in a secondary thread";
+- (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)";
+- (void)initWithActionName:(int)arg1 contactStore:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (int);
-- (id);
+- (int)setIsBorderEnabled: /* Error: Ran out of types for this method. */;
+- (id)Se;
 - (id)emaORCHMUXUserSessionState";
 - (id)V_isMediaEntitySyncEnabled;
 - (id)¬u;
 
 // Remaining properties
 @property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

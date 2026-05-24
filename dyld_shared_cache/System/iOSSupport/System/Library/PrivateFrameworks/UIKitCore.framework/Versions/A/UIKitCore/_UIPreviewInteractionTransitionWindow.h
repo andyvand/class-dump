@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)0@ù
 × ;
+- (id)MPModelPropertySocialPersonIsPrivate;
 - (id);
-- (id);
-- (_Bool)rTreeSizeThresholdForReset;
-- (_Bool)ColorCapsuleForSelection;
-- (_Bool)yleKey;
+- (_Bool)_renderTreeSizeThresholdForReset;
+- (_Bool)usesTintColorCapsuleForSelection;
+- (_Bool)UIBezierPathLineJoinStyleKey;
 - (void);
 - (_Bool)%];
 - (_Bool);

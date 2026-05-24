@@ -7,10 +7,6 @@
 @interface NewsUI2.CampaignLandingPageRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id linkHandler;
-    id actionHandler;
 }
 
 @end

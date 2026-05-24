@@ -9,12 +9,10 @@
 @interface HMMediaGroupProtoMediaDestinationAggregateData
 {
     NSMutableArray *_destinationControllerDatas;
-    NSMutableArray *_destinations;
-    NSMutableArray *_groups;
 }
 
 + (Class);
-+ (Class);
++ (Class)deleteSharedCommentFromServer: /* Error: Ran out of types for this method. */;
 + (Class)¢d²;
 - (void);
 - (id);
@@ -34,21 +32,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)thinking;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void)PF;
 - (id)ng multiuser settings messenger with home uuid %@;
-- (void)r;
+- (void)driver;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *destinationControllerDatas; // @synthesize destinationControllerDatas=_destinationControllerDatas;
 @property(retain, nonatomic) NSMutableArray *destinations; // @synthesize destinations=_destinations;
-@property(retain, nonatomic) NSMutableArray *groups; // @synthesize groups=_groups;
 
 @end
 

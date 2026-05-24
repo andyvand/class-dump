@@ -9,9 +9,6 @@
 @interface MRIRNode
 {
     _Bool _isLocal;
-    NSString *_avOutputDeviceIdentifier;
-    NSString *_rapportIdentifier;
-    NSString *_idsIdentifier;
 }
 
 + (id);
@@ -31,16 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *avOutputDeviceIdentifier; // @synthesize avOutputDeviceIdentifier=_avOutputDeviceIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(nonatomic) _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(retain, nonatomic) NSString *rapportIdentifier; // @synthesize rapportIdentifier=_rapportIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

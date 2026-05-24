@@ -9,16 +9,12 @@
 @interface ABFileUtilities
 {
     id <ABFileServices> _services;
-    struct {
-        id object;
-        long long onceToken;
-    } _sharedLockDirectoryUrlOnce;
 }
 
 + (id)0@ù
 × ;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

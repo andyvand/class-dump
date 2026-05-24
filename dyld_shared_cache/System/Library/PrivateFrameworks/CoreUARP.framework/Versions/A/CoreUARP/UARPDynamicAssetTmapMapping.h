@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface UARPDynamicAssetTmapMapping
 {
     NSString *_appleModelNumber;
-    NSArray *_tmapEvents;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)AMSClipMediaURLBuilder;
 - (void);
-- (void);
+- (void)K-;
 
 @end
 

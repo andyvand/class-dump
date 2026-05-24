@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSMenuItem, NSString, SFContentBlockerManager, SafariContentBlockerAppExtensionsController, SafariExtensionCommandMenuController, SafariWebExtensionsController, WebAppDocumentController;
+@class NSMenu, WebAppDocumentController;
 
 __attribute__((visibility("hidden")))
 @interface WebAppController
 {
     WebAppDocumentController *_webAppDocumentController;
-    SafariContentBlockerAppExtensionsController *_contentBlockerAppExtensionsController;
-    NSMenuItem *_reloadWithInvertedContentBlockersMenuItem;
-    _Bool _hasFinishedLaunching;
-    SFContentBlockerManager *_contentBlockerManager;
-    SafariWebExtensionsController *_webExtensionsController;
-    SafariExtensionCommandMenuController *_extensionMenuController;
-    NSMenu *_fileMenu;
-    NSMenu *_editMenu;
-    NSMenu *_viewMenu;
-    NSMenuItem *_applicationMenuItem;
-    NSMenuItem *_aboutMenuItem;
-    NSMenuItem *_hideMenuItem;
-    NSMenuItem *_quitMenuItem;
-    NSMenuItem *_shareMenuItem;
-    NSMenuItem *_reloadMenuItem;
-    NSMenuItem *_reloadFromOriginMenuItem;
-    NSMenuItem *_newWindowMenuItem;
-    NSMenuItem *_closeWindowMenuItem;
-    NSMenuItem *_settingsMenuItem;
-    NSMenuItem *_minimizeMenuItem;
-    NSMenuItem *_fileMenuFirstSeparatorItem;
-    NSMenuItem *_autoFillFormMenuItem;
-    NSMenuItem *_findMenuItem;
 }
 
 - (id);
@@ -53,13 +30,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -72,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -94,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -105,42 +82,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)wb@9b;
 - (void);
-- (void);
+- (void);
 - (void)À;
 - (void);
 - (_Bool)ì;
 - (id)ÑÇ*;
 
 // Remaining properties
-@property __weak NSMenuItem *aboutMenuItem; // @synthesize aboutMenuItem=_aboutMenuItem;
-@property __weak NSMenuItem *applicationMenuItem; // @synthesize applicationMenuItem=_applicationMenuItem;
-@property __weak NSMenuItem *autoFillFormMenuItem; // @synthesize autoFillFormMenuItem=_autoFillFormMenuItem;
-@property __weak NSMenuItem *closeWindowMenuItem; // @synthesize closeWindowMenuItem=_closeWindowMenuItem;
-@property(readonly, nonatomic) SFContentBlockerManager *contentBlockerManager; // @synthesize contentBlockerManager=_contentBlockerManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSMenu *editMenu; // @synthesize editMenu=_editMenu;
-@property(readonly, nonatomic) SafariExtensionCommandMenuController *extensionMenuController; // @synthesize extensionMenuController=_extensionMenuController;
 @property __weak NSMenu *fileMenu; // @synthesize fileMenu=_fileMenu;
-@property __weak NSMenuItem *fileMenuFirstSeparatorItem; // @synthesize fileMenuFirstSeparatorItem=_fileMenuFirstSeparatorItem;
-@property __weak NSMenuItem *findMenuItem; // @synthesize findMenuItem=_findMenuItem;
-@property(readonly) unsigned long long hash;
-@property __weak NSMenuItem *hideMenuItem; // @synthesize hideMenuItem=_hideMenuItem;
-@property __weak NSMenuItem *minimizeMenuItem; // @synthesize minimizeMenuItem=_minimizeMenuItem;
-@property __weak NSMenuItem *newWindowMenuItem; // @synthesize newWindowMenuItem=_newWindowMenuItem;
-@property __weak NSMenuItem *quitMenuItem; // @synthesize quitMenuItem=_quitMenuItem;
-@property __weak NSMenuItem *reloadFromOriginMenuItem; // @synthesize reloadFromOriginMenuItem=_reloadFromOriginMenuItem;
-@property __weak NSMenuItem *reloadMenuItem; // @synthesize reloadMenuItem=_reloadMenuItem;
-@property __weak NSMenuItem *settingsMenuItem; // @synthesize settingsMenuItem=_settingsMenuItem;
-@property __weak NSMenuItem *shareMenuItem; // @synthesize shareMenuItem=_shareMenuItem;
-@property(readonly) Class superclass;
-@property __weak NSMenu *viewMenu; // @synthesize viewMenu=_viewMenu;
-@property(readonly, nonatomic) SafariWebExtensionsController *webExtensionsController; // @synthesize webExtensionsController=_webExtensionsController;
 
 @end
 

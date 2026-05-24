@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)ight not be strictly illegal, they are clearly foolish.;
 
 // Remaining properties
 @property(retain) id <LFSessionOwnerListenerInterface> messageHandler; // @dynamic messageHandler;

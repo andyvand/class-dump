@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
-@protocol PMLWordPieceVocabProtocol;
-
 @interface PMLHashingVectorizer
 {
     int _buckets;
-    struct _NSRange _characterNGramRange;
-    struct _NSRange _tokenNGramRange;
-    _Bool _shouldNormalizeTokens;
-    _Bool _shouldNormalizeCharacters;
-    NSLocale *_localeForNonwordTokens;
-    _Bool _tokenizeNewlines;
-    unsigned long long _idVectorLength;
-    unsigned long long _extraIdOptions;
-    unsigned long long _vectorizerStrategy;
-    long long _vectorNormalization;
-    long long _paddingId;
-    long long _endId;
-    long long _startId;
-    id <PMLWordPieceVocabProtocol> _vocab;
 }
 
 + (id);
@@ -36,9 +19,9 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -52,13 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface IFTSchemaASTFlatExprPickOneVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_rawEventId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasRawEventId;
 }
 
 - (void);
@@ -29,9 +24,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)setCachedOfferExpirationForHandleByHandle: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)setAudioArtist:(id)arg1;
 - (id)°4ÈüÀ;
 - (_Bool)òT¶»á!;
 - (void)¸ËÿLªÀ#;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasRawEventId; // @synthesize hasRawEventId=_hasRawEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *rawEventId; // @synthesize rawEventId=_rawEventId;
 
 @end
 

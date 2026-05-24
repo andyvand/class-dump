@@ -9,36 +9,35 @@
 @interface IMKKey
 {
     unsigned short _code;
-    NSMutableDictionary *_primaryCharactersMapping;
-    NSMutableDictionary *_secondaryCharactersMapping;
 }
 
 + (unsigned long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool)?
+k;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)*** ActiveProbing_FlushPendingPackets:flushed 0 pkts; alraedy empty /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -47,26 +46,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)_useBTNotificationMonitor;
 - (id);
 - (unsigned short);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short code; // @synthesize code=_code;
-@property(readonly, nonatomic) _Bool isAlphabeticKey;
-@property(readonly, nonatomic) _Bool isArrow;
-@property(readonly, nonatomic) _Bool isCharacterKey;
-@property(readonly, nonatomic) _Bool isDelete;
-@property(readonly, nonatomic) _Bool isEnter;
-@property(readonly, nonatomic) _Bool isEscape;
-@property(readonly, nonatomic) _Bool isNumericKey;
-@property(readonly, nonatomic) _Bool isShift;
-@property(readonly, nonatomic) _Bool isSpace;
-@property(readonly, nonatomic) _Bool isTab;
 @property(readonly, nonatomic) NSMutableDictionary *primaryCharactersMapping; // @synthesize primaryCharactersMapping=_primaryCharactersMapping;
-@property(readonly, nonatomic) NSMutableDictionary *secondaryCharactersMapping; // @synthesize secondaryCharactersMapping=_secondaryCharactersMapping;
 
 @end
 

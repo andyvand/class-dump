@@ -9,7 +9,6 @@
 @interface CKDAddAnonymousShareToSharedDBOperationInfo
 {
     NSDictionary *_encryptedAnonymousSharesToAdd;
-    CDUnknownBlockType _anonymousShareSavedBlock;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void)S for share %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousShareSavedBlock; // @synthesize anonymousShareSavedBlock=_anonymousShareSavedBlock;
 @property(retain, nonatomic) NSDictionary *encryptedAnonymousSharesToAdd; // @synthesize encryptedAnonymousSharesToAdd=_encryptedAnonymousSharesToAdd;
 
 @end

@@ -4,96 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HLPDataCacheController
 {
     NSObject<OS_dispatch_queue> *_dataCacheSerialQueue;
     long long _dataType;
-    _Bool _backgroundOriginUpdate;
-    _Bool _dataCacheDirty;
-    float _defaultPriority;
-    NSString *_languageCode;
-    NSMutableArray *_dataCacheArray;
-    unsigned long long _cacheSize;
-    unsigned long long _maxDataCacheSize;
-    NSString *_identifier;
-    NSUserDefaults *_userDefaults;
-    NSMutableDictionary *_dataCacheMap;
-    NSString *_cacheDirectory;
-    NSMutableArray *_originFetchItems;
 }
 
 + (void);
 + (id);
 - (void);
+- (id);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)4+{;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)|;
+- (id);
+- (void)|;
+- (id);
+- (id)_z;
+- (id);
+- (id)͏z;
+- (_Bool);
+- (id){;
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (id);
+- (float)P;
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)0:(id)arg1 8@"NSArray"16;
 - (id);
-- (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (float);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void)wBackgroundColor;
+- (void)updateFooterViewBackgroundColor;
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundOriginUpdate; // @synthesize backgroundOriginUpdate=_backgroundOriginUpdate;
-@property(retain, nonatomic) NSString *cacheDirectory; // @synthesize cacheDirectory=_cacheDirectory;
 @property(nonatomic) unsigned long long cacheSize; // @synthesize cacheSize=_cacheSize;
-@property(retain, nonatomic) NSMutableArray *dataCacheArray; // @synthesize dataCacheArray=_dataCacheArray;
-@property(nonatomic) _Bool dataCacheDirty; // @synthesize dataCacheDirty=_dataCacheDirty;
-@property(retain, nonatomic) NSMutableDictionary *dataCacheMap; // @synthesize dataCacheMap=_dataCacheMap;
-@property(nonatomic) float defaultPriority; // @synthesize defaultPriority=_defaultPriority;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 @property(nonatomic) unsigned long long maxDataCacheSize; // @synthesize maxDataCacheSize=_maxDataCacheSize;
-@property(retain, nonatomic) NSMutableArray *originFetchItems; // @synthesize originFetchItems=_originFetchItems;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

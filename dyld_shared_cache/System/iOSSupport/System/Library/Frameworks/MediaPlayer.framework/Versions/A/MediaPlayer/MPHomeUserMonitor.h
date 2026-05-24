@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, HMSettings, HMUser, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPHomeUserMonitor
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    HMUser *_user;
-    HMSettings *_privateHomeSettings;
-    HMSettings *_sharedSettings;
-    HMHomeManager *_homeManager;
-    _Bool _allowExplicitCachedValue;
-    _Bool _currentAccessoryPrivateListeningCachedValue;
 }
 
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void)coerceExplicitCast;
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)BMDSLStreamPublisher could not create a BPSPublisher for stream %@ because the stream type %@ is not allowed;
 - (void);
 - (void);
 - (void);
@@ -36,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)withClause;
 - (void);
 - (void);
 - (void);
@@ -44,20 +37,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)age to mark as saved:(id)arg1 %@;
 - (void);
 - (void)_identifierSets;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isExplicitSettingEnabled) _Bool explicitSettingEnabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPrivateListeningEnabledForCurrentAccessory) _Bool privateListeningEnabledForCurrentAccessory;
-@property(readonly) Class superclass;
 
 @end
 

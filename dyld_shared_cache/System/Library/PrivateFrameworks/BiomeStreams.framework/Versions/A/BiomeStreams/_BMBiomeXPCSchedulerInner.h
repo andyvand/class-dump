@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessClient, BMBookmarkablePublisher, BMComputePublisherClient, BMComputePublisherStorage, BMComputeSubscription, BMDSL, BPSSubscriptionStatus, NSObject, NSString;
-@protocol BPSSubscriber, OS_dispatch_queue;
+@protocol BPSSubscriber;
 
 @interface _BMBiomeXPCSchedulerInner
 {
     struct os_unfair_lock_s _lock;
-    BMBookmarkablePublisher *_bpsPublisher;
-    double _latestEventTime;
-    _Bool _waking;
-    id <BPSSubscriber> _downstream;
-    long long _demand;
-    BMComputePublisherClient *_client;
-    BMDSL *_graph;
-    BMComputeSubscription *_xpcSubscription;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    BPSSubscriptionStatus *_status;
-    BMAccessClient *_accessClient;
-    BMComputePublisherStorage *_bookmarkStorage;
 }
 
 + (id);
@@ -30,26 +16,26 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void)5;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)setAccessibilityCustomActions:(id)arg1;
 - (id);
 - (void);
-- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)	;
+- (id);
+- (void);
+- (long long) ;
 - (void);
 - (void)AssociatedMessageID:(long long)arg1 tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
 - (long long)¸ÿÿn2ÿÿ;
@@ -59,24 +45,7 @@
 - (void)Ùm1¨½êÿ;
 
 // Remaining properties
-@property(retain, nonatomic) BMAccessClient *accessClient; // @synthesize accessClient=_accessClient;
-@property(retain, nonatomic) BMComputePublisherStorage *bookmarkStorage; // @synthesize bookmarkStorage=_bookmarkStorage;
-@property(retain, nonatomic) BMComputePublisherClient *client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(retain, nonatomic) BMDSL *graph; // @synthesize graph=_graph;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) BPSSubscriptionStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool waking; // @synthesize waking=_waking;
-@property(retain, nonatomic) BMComputeSubscription *xpcSubscription; // @synthesize xpcSubscription=_xpcSubscription;
 
 @end
 

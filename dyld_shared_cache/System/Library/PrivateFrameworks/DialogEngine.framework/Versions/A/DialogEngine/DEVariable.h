@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEVariable
 {
     shared_ptr_695b9c0c _This;
@@ -15,7 +13,7 @@
 - (id);
 - (void *);
 - (shared_ptr_695b9c0c);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property shared_ptr_695b9c0c This; // @synthesize This=_This;
-@property(retain) NSString *name;
-@property(retain) NSString *type;
 
 @end
 

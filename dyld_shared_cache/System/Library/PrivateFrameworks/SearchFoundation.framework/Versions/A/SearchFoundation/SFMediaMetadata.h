@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFMediaMetadata
 {
     struct {
         unsigned int mediaType:1;
     } _has;
-    int _mediaType;
-    NSString *_mediaName;
-    NSString *_artistName;
-    NSString *_albumName;
-    NSArray *_mediaPunchouts;
-    NSArray *_bundleIdentifiersToExclude;
-    NSString *_disambiguationTitle;
-    NSString *_mediaIdentifier;
 }
 
 + (_Bool);
@@ -32,42 +24,26 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setPlayActivityRecommendationData:(id)arg1;
 - (int);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)kipping play command on %{public}@ because we need to honor a delay of %f seconds for the initiation of audio playback.;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_validateAndGenerateStillImageForLoopingLivePhotoWithContentEditingOutput:error: /* Error: Ran out of types for this method. */;
+- (id)downloadIntent;
+- (id)AXDescription:(struct _NSZone *)arg1 %d, assetBundle:%d, disableMetadataCorrections:%d, unmodifiedOriginals:%d> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (void);
+- (void)_placeHolderProperty;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumName; // @synthesize albumName=_albumName;
-@property(copy, nonatomic) NSString *artistName; // @synthesize artistName=_artistName;
-@property(copy, nonatomic) NSArray *bundleIdentifiersToExclude; // @synthesize bundleIdentifiersToExclude=_bundleIdentifiersToExclude;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *disambiguationTitle; // @synthesize disambiguationTitle=_disambiguationTitle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
 @property(copy, nonatomic) NSString *mediaName; // @synthesize mediaName=_mediaName;
-@property(copy, nonatomic) NSArray *mediaPunchouts; // @synthesize mediaPunchouts=_mediaPunchouts;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) Class superclass;
 
 @end
 

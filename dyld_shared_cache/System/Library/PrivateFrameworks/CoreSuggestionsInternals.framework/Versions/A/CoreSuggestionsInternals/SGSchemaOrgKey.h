@@ -11,10 +11,10 @@
     NSString *_uuid;
 }
 
-+ (_Bool);
++ (_Bool)A/CorePhoneNumbers;
 - (_Bool);
-- (id);
-- (id);
+- (id)__swift5_capture__TEXT;
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);
@@ -23,13 +23,7 @@
 HI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

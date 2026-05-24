@@ -6,7 +6,7 @@
 
 #import <CoreBluetooth/CBService.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CBMutableService : CBService
 {
@@ -21,12 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSNumber *ID; // @synthesize ID=_ID;
-@property(retain) NSArray *characteristics; // @dynamic characteristics;
-@property(retain) NSArray *includedServices; // @dynamic includedServices;
 
 @end
 

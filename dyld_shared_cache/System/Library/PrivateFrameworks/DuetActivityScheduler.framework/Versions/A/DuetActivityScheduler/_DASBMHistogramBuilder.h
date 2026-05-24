@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSPublisher, NSObject, _DASBMMinimumSpanConfiguration;
-@protocol OS_os_log;
+@class BPSPublisher;
 
 @interface _DASBMHistogramBuilder
 {
     _Bool _saveSpans;
-    CDUnknownBlockType _filter;
-    CDUnknownBlockType _transform;
-    _DASBMMinimumSpanConfiguration *_minimumSpanConfiguration;
-    BPSPublisher *_publisher;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)3K;
+- (id)}S?;
 - (void);
 - (id);
 - (id);
@@ -32,17 +26,12 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)48;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(copy, nonatomic) _DASBMMinimumSpanConfiguration *minimumSpanConfiguration; // @synthesize minimumSpanConfiguration=_minimumSpanConfiguration;
 @property(retain, nonatomic) BPSPublisher *publisher; // @synthesize publisher=_publisher;
-@property(nonatomic) _Bool saveSpans; // @synthesize saveSpans=_saveSpans;
-@property(copy, nonatomic) CDUnknownBlockType transform; // @synthesize transform=_transform;
 
 @end
 

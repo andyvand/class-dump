@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, OspreyDeferredObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface OspreyRPCPromise
 {
     NSObject<OS_dispatch_queue> *_fulfillmentQueue;
-    OspreyDeferredObject *_deferredRPC;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -23,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)ÛÛáÄÛmáÄÇgáÄÇIáÄÛáÄÛáÄÿ"áÄÿáÄû$áÄû²áÄ÷{áÄ÷FáÄûàáÄûáÄÿaáÄÿháÄû áÄûáÄÇÖáÄÇýáÄûáÄûÍáÄß«áÄßáÄÛÉáÄÛÅáÄ×óáÄ×'áÄÛ÷áÄÛWáÄßáÄß|áÄÛ5áÄÛ¥áÄÇ)áÄÇLáÄÛáÄÛÐáÄ¿ÏáÄ¿áÄ»oáÄ»áÄ·éáÄ·áÄ»áÄ»8áÄ¿¨áÄ¿ÕáÄ»áÄ»áÄÇ_áÄÇ¬áÄ»öáÄ»;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

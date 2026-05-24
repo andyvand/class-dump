@@ -10,26 +10,24 @@ __attribute__((visibility("hidden")))
 @interface _NSInlineButtonBezelView : NSView
 {
     long long _backgroundStyle;
-    long long _bezelState;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)on NULL with a non-zero length (length=%u);
 - (struct CGRect);
 - (void);
 - (long long);
-- (void);
+- (void)ostR3410-94-CryptoPro-XchA-ParamSet;
 - (void);
 - (struct CGSize);
 - (id)6;
 - (void)amesLauncher;
-- (long long)utView;
+- (long long)UINSInputView;
 - (struct NSEdgeInsets)ouch mitigation:prevent guarded button tracking due to multi-touch /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property long long bezelState; // @synthesize bezelState=_bezelState;
 
 @end
 

@@ -9,15 +9,9 @@
 @interface FMFDevice
 {
     _Bool _isActiveDevice;
-    _Bool _isThisDevice;
-    _Bool _isCompanionDevice;
-    _Bool _isAutoMeCapable;
-    NSString *_deviceId;
-    NSString *_deviceName;
-    NSString *_idsDeviceId;
 }
 
-+ (_Bool);
++ (_Bool)RecordCounterDatabaseInspectorCrossCheckReport;
 + (id);
 - (void);
 - (void);
@@ -30,11 +24,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)imageWithBadgeCount:(id)arg1 offset: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)has nil chat background url - nothing to do (this is not an error);
 - (_Bool);
 - (id);
 - (id);
@@ -45,12 +39,6 @@
 
 // Remaining properties
 @property(copy) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy) NSString *idsDeviceId; // @synthesize idsDeviceId=_idsDeviceId;
-@property _Bool isActiveDevice; // @synthesize isActiveDevice=_isActiveDevice;
-@property _Bool isAutoMeCapable; // @synthesize isAutoMeCapable=_isAutoMeCapable;
-@property _Bool isCompanionDevice; // @synthesize isCompanionDevice=_isCompanionDevice;
-@property _Bool isThisDevice; // @synthesize isThisDevice=_isThisDevice;
 
 @end
 

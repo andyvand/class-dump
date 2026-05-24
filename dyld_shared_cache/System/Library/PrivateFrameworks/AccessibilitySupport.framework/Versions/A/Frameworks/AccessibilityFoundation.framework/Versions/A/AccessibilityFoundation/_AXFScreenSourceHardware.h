@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFScreen, NSArray, NSString;
-@protocol AXFScreenSourceDelegate, NSLocking;
+@class NSArray;
+@protocol AXFScreenSourceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _AXFScreenSourceHardware
 {
     id <AXFScreenSourceDelegate> _delegate;
-    NSArray *_screens;
-    AXFScreen *_mainScreen;
-    id <NSLocking> __screenInfoCacheLock;
-    struct CGRect _totalScreenBounds;
 }
 
 + (_Bool);
@@ -26,27 +22,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)axtty_read_action;
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void){CGSize=dd},N,S_setRemotePIPPortraitOrientation:,V_remotePIPPortraitOrientation /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSLocking> _screenInfoCacheLock; // @synthesize _screenInfoCacheLock=__screenInfoCacheLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXFScreenSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AXFScreen *mainScreen; // @synthesize mainScreen=_mainScreen;
 @property(retain, nonatomic) NSArray *screens; // @synthesize screens=_screens;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect totalScreenBounds; // @synthesize totalScreenBounds=_totalScreenBounds;
 
 @end
 

@@ -14,7 +14,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)e.ConstantOperation;
 - (unsigned int);
 - (void);
 

@@ -6,31 +6,22 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOPDPlaceRequest, NSString;
+@class GEOPDPlaceRequest;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapServiceGeoIpLookupTicket : GEOAbstractTicket
 {
     GEOPDPlaceRequest *_placeRequest;
-    id _requestToken;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (CDStruct_d1a7ebee)q;
+- (CDStruct_026435ec)q;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

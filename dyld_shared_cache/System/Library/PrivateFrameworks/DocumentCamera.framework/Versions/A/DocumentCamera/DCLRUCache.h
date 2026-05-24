@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray;
-@protocol DCLRUCacheDelegate;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface DCLRUCache
 {
     NSMapTable *mData;
-    NSMutableArray *mOrderedKeys;
-    unsigned long long mMax;
-    id <DCLRUCacheDelegate> _delegate;
 }
 
 + (void);
 + (id);
 - (void);
-- (id);
+- (id)esizedFrame is NULL after resizing;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
-@property(nonatomic) __weak id <DCLRUCacheDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) unsigned long long maxSize; // @synthesize maxSize=mMax;
 
 @end

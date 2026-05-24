@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFScreen, NSArray, NSString;
 @protocol AXFScreenSourceDelegate;
 
 @interface AXFScreenSourceTest
 {
     id <AXFScreenSourceDelegate> _delegate;
-    NSArray *_screens;
-    AXFScreen *_mainScreen;
-    struct CGRect _totalScreenBounds;
 }
 
 - (struct CGRect);
@@ -20,23 +16,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (void);
-- (void);
+- (void)m-relay-initiate-to-incoming-relay-update;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXFScreenSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AXFScreen *mainScreen; // @synthesize mainScreen=_mainScreen;
-@property(retain, nonatomic) NSArray *screens; // @synthesize screens=_screens;
-@property(readonly) Class superclass;
 @property(nonatomic) struct CGRect totalScreenBounds; // @synthesize totalScreenBounds=_totalScreenBounds;
 
 @end

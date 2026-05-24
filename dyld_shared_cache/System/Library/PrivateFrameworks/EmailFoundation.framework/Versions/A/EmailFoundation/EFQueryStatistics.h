@@ -7,17 +7,15 @@
 @interface EFQueryStatistics
 {
     unsigned long long _count;
-    double _totalExecutionTime;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) double totalExecutionTime; // @synthesize totalExecutionTime=_totalExecutionTime;
 
 @end
 

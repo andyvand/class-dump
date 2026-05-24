@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HAP2TLVPairingStateWrapper
 {
@@ -14,23 +12,16 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool), segment before write=%@;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

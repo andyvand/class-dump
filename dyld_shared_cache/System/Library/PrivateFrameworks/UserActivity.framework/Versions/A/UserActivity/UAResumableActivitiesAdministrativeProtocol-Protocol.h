@@ -5,5 +5,11 @@
 //
 
 @protocol UAResumableActivitiesAdministrativeProtocol
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)?;
+- (void);
 @end
 

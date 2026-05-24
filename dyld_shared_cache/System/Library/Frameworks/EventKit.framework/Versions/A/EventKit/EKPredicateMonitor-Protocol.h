@@ -7,9 +7,9 @@
 @class NSPredicate;
 
 @protocol EKPredicateMonitor
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSPredicate *predicate;
-@property(readonly, nonatomic) unsigned long long propertyFilter;
 @end
 

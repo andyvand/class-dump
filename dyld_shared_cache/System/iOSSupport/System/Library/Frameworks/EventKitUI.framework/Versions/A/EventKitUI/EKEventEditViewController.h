@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEvent, EKEventStore, NSString, UIColor, UIViewController;
-@protocol EKEventEditViewControllerImpl, EKEventEditViewDelegate, EKEventOrIntegrationEditViewDelegate;
+@class UIViewController;
+@protocol EKEventEditViewControllerImpl;
 
 @interface EKEventEditViewController
 {
@@ -14,10 +14,10 @@
 
 + (void);
 + (id);
-+ (id);
-+ (id);
++ (id))s;
++ (id)s;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,26 +28,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)X<&s;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)%s;
+- (_Bool);
+- (void)S%s;
+- (void);
+- (id)~z;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -55,7 +55,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (_Bool);
@@ -66,31 +66,11 @@
 - (void);
 - (void);
 - (void);
-- (void)euseIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setCachedTimeCellReuseIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendar *calendarToMakeVisibleOnSave;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displayingRootView;
-@property(nonatomic) __weak id <EKEventEditViewDelegate> editViewDelegate;
-@property(retain, nonatomic) UIColor *editorBackgroundColor;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) unsigned long long eventCreationMethod;
-@property(nonatomic) unsigned long long eventCreationViewStart;
-@property(retain, nonatomic) EKEventStore *eventStore;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreUnsavedChanges;
-@property(nonatomic) __weak id <EKEventOrIntegrationEditViewDelegate> internalEditViewDelegate;
-@property(readonly, nonatomic) id precommitSerializedEvent;
 @property(nonatomic) _Bool shouldRecordPrecommitEvent;
-@property(retain, nonatomic) NSString *suggestionKey;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool timeImplicitlySet;
 
 @end
 

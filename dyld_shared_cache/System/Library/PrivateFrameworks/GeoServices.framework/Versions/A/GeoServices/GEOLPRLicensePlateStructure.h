@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLicensePlateStructure
 {
     PBDataReader *_reader;
-    NSString *_supportedPlateAlphabetLetters;
-    NSString *_supportedPlateNumerics;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_supportedPlateAlphabetLetters:1;
-        unsigned int read_supportedPlateNumerics:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)earchImplicitType:(id)arg1;
++ (_Bool)setHasSearchImplicitType:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSupportedPlateAlphabetLetters;
-@property(readonly, nonatomic) _Bool hasSupportedPlateNumerics;
-@property(retain, nonatomic) NSString *supportedPlateAlphabetLetters;
-@property(retain, nonatomic) NSString *supportedPlateNumerics;
 
 @end
 

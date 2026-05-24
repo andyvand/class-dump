@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, VKCImageAnalyzer, _PXVisualIntelligenceRequest;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXVisualIntelligenceManager
 {
     _Bool _analysisSuspended;
-    int _nextRequestID;
-    NSObject<OS_dispatch_queue> *_workingQueue;
-    NSMutableArray *_requests;
-    _PXVisualIntelligenceRequest *_currentRequest;
-    VKCImageAnalyzer *_vkAnalyzer;
 }
 
 + (unsigned long long);
 + (int);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -32,32 +27,27 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)?;
 - (int);
 - (int);
 - (int);
 - (void);
 - (_Bool);
+- (void)R@�;
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (id);
+- (void);
+- (int);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)fNeeded;
+- (id);
+- (id)_updateWidgetLoadingIfNeeded;
 - (id)|À;
 - (void)GenerativeStoryBackgroundAssetsManager;
 
 // Remaining properties
-@property(nonatomic) _Bool analysisSuspended; // @synthesize analysisSuspended=_analysisSuspended;
-@property(retain, nonatomic) _PXVisualIntelligenceRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(nonatomic) int nextRequestID; // @synthesize nextRequestID=_nextRequestID;
-@property(retain, nonatomic) NSMutableArray *requests; // @synthesize requests=_requests;
-@property(retain, nonatomic) VKCImageAnalyzer *vkAnalyzer; // @synthesize vkAnalyzer=_vkAnalyzer;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workingQueue; // @synthesize workingQueue=_workingQueue;
 
 @end

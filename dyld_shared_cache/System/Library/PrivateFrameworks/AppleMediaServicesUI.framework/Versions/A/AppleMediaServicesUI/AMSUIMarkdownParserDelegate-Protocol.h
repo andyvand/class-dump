@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSUIMarkdownParser;
+
 @protocol AMSUIMarkdownParserDelegate
+- (void)LinguisticData repository;
+- (void)cData repository;
+- (void)ions...;
+- (void)ycle for missed/remaining pending assertions...;
+- (void)ate cycled ended with error:(AMSUIMarkdownParser *)arg1 %{public}@;
+- (void)d, initiating forced update for %@;
+- (void)requested for %@ ...;
+- (void)quested for %@ ...;
+- (void):(AMSUIMarkdownParser *)arg1 %{public}@;
+- (void)objectsAtIndexes:(AMSUIMarkdownParser *)arg1;
+- (void)#;
 @end
 

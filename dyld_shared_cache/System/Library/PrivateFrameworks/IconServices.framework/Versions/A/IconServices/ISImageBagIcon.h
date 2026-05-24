@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface ISImageBagIcon : ISIcon
 {
     NSArray *_images;
-    NSArray *_decorations;
-    ISImageCache *_imageCache;
 }
 
-- (id);
+- (id)y�3;
 - (id);
 - (id);
 - (void);
@@ -33,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) ISImageCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(readonly) NSArray *images; // @synthesize images=_images;
 
 @end
 

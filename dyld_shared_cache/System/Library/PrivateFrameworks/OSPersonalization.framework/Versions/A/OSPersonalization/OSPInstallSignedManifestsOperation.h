@@ -11,12 +11,11 @@
 @interface OSPInstallSignedManifestsOperation : OSPOperation
 {
     NSURL *_sandboxURL;
-    NSURL *_apTicketURL;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,11 +25,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)tialize from decoded name:%@, isCurrentUser:%{bool}d /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *apTicketURL; // @synthesize apTicketURL=_apTicketURL;
 @property(retain) NSURL *sandboxURL; // @synthesize sandboxURL=_sandboxURL;
 
 @end

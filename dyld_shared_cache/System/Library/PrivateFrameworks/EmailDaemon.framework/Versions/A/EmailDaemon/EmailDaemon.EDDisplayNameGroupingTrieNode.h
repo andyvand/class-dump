@@ -7,9 +7,6 @@
 @interface EmailDaemon.EDDisplayNameGroupingTrieNode
 {
     id value;
-    id children;
-    id isEndOfName;
-    id addressIDs;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountHandle, NSData, NSString, NSUUID, _HMDDeviceHandle;
+@class _HMDDeviceHandle;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceHandle
@@ -12,36 +12,35 @@ __attribute__((visibility("hidden")))
     _HMDDeviceHandle *_internal;
 }
 
-+ (id);
++ (id)setMessage:(id)arg1;
 + (id)egatingEventRouter"16@"NSArray"24@"<HMESynchronousSubscriptionProviding>"32;
 + (_Bool)ÈÚ;
+- (id)clsIsInterestingSDOF;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)\;
+- (id).95)-1.0)/2.6))); 
+ result.rgb = mix(c.rgb, result.rgb, .85); 
+ result.rgb = result.rgb+neg+pos; 
+ return result; 
+ } 
+;
+- (id)`;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)intValueType;
+- (id)C;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)cessCodeModel:(struct _NSZone *)arg1 message:flow: /* Error: Ran out of types for this method. */;
+- (id)handleUpdatedHMDRemovedUserAccessCodeModel:(struct _NSZone *)arg1 message:flow: /* Error: Ran out of types for this method. */;
 - (id)`[4\p]À];
 - (id)of signing out.;
-- (void)InternalRequestKey;
+- (void)kAddTriggersInternalRequestKey;
 - (id)¿ì,K?;
 
 // Remaining properties
-@property(readonly, copy) HMDAccountHandle *accountHandle;
-@property(readonly, copy) NSString *destination;
-@property(readonly, getter=isGlobal) _Bool global;
-@property(readonly, copy) NSUUID *identifier;
 @property(readonly, copy, nonatomic) _HMDDeviceHandle *internal; // @synthesize internal=_internal;
-@property(readonly, getter=isLocal) _Bool local;
-@property(readonly, copy) NSData *pushToken;
 
 @end
 

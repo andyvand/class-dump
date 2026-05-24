@@ -6,24 +6,22 @@
 
 #import <AppKit/NSAppearance.h>
 
-@class NSBundle, NSString;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface NSBuiltinAppearance : NSAppearance
 {
     NSBundle *_systemAppearanceBundle;
-    NSString *_publicName;
-    NSString *_catalystName;
 }
 
-- (id);
-- (id);
+- (id)_ZN12SocketStream5writeEP15__CFWriteStreamPKhlP13CFStreamError;
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)`B;
 - (id);
 - (_Bool);
 

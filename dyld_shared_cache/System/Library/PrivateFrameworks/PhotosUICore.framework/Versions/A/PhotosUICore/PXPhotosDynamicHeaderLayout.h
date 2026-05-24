@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @interface PXPhotosDynamicHeaderLayout
 {
     id dataSource;
-    id spec;
-    id isInSelectMode;
-    id selectionSnapshot;
-    id context;
-    id viewModel;
-    id viewModelObservation;
-    id updateFlags;
-    id postUpdateFlags;
-    id contentMediaVersion;
-    id insets;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (Class);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -38,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSIndexSet *axSpriteIndexes;
 @property(nonatomic, readonly) _Bool canHandleVisibleRectRejection;
 
 @end

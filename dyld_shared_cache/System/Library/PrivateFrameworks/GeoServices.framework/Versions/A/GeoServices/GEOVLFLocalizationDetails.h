@@ -4,42 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFFailureDetails, GEOVLFGravityVector, GEOVLFLocalizationAlgorithmDetails, GEOVLFLocation, GEOVLFSuccessDetails, GEOVLFTileDetails, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVLFLocalizationDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOVLFPositionContextClassification _positionContextClassification;
-    GEOVLFLocalizationAlgorithmDetails *_algorithmDetails;
-    double _exposureTargetOffset;
-    GEOVLFFailureDetails *_failureDetails;
-    GEOVLFGravityVector *_gravityVector;
-    GEOVLFLocation *_location;
-    GEOVLFSuccessDetails *_successDetails;
-    GEOVLFTileDetails *_tileDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _relativeTimestampMs;
-    unsigned int _runTimeMs;
-    struct {
-        unsigned int has_positionContextClassification:1;
-        unsigned int has_exposureTargetOffset:1;
-        unsigned int has_relativeTimestampMs:1;
-        unsigned int has_runTimeMs:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_algorithmDetails:1;
-        unsigned int read_failureDetails:1;
-        unsigned int read_gravityVector:1;
-        unsigned int read_location:1;
-        unsigned int read_successDetails:1;
-        unsigned int read_tileDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)berOfPhotos:(id)arg1;
++ (_Bool)setNumberOfPhotos:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -60,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)s/A/SystemConfiguration;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,17 +40,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)&,N,V_moc;
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)setAudioRecorder:(id)arg1;
+- (id)iveAudioSessionMediaServicesWereResetNotificationWithUserInfo:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -86,7 +58,7 @@
 - (void);
 - (id)º*°1Â0@ù
 × ;
-- (id)tSubtype: /* Error: Ran out of types for this method. */;
+- (id)initWithPriority:resultType:resultSubtype: /* Error: Ran out of types for this method. */;
 - (id)kUIntField",&,N;
 - (id)rl;
 - (id)obuf/descriptor.proto;
@@ -96,27 +68,7 @@
 - (void)ë ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOVLFLocalizationAlgorithmDetails *algorithmDetails;
-@property(nonatomic) double exposureTargetOffset;
-@property(retain, nonatomic) GEOVLFFailureDetails *failureDetails;
-@property(retain, nonatomic) GEOVLFGravityVector *gravityVector;
-@property(readonly, nonatomic) _Bool hasAlgorithmDetails;
-@property(nonatomic) _Bool hasExposureTargetOffset;
-@property(readonly, nonatomic) _Bool hasFailureDetails;
-@property(readonly, nonatomic) _Bool hasGravityVector;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasPositionContextClassification;
-@property(nonatomic) _Bool hasRelativeTimestampMs;
-@property(nonatomic) _Bool hasRunTimeMs;
-@property(readonly, nonatomic) _Bool hasSuccessDetails;
 @property(readonly, nonatomic) _Bool hasTileDetails;
-@property(retain, nonatomic) GEOVLFLocation *location;
-@property(nonatomic) struct GEOVLFPositionContextClassification positionContextClassification;
-@property(nonatomic) unsigned int relativeTimestampMs;
-@property(nonatomic) unsigned int runTimeMs;
-@property(retain, nonatomic) GEOVLFSuccessDetails *successDetails;
-@property(retain, nonatomic) GEOVLFTileDetails *tileDetails;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

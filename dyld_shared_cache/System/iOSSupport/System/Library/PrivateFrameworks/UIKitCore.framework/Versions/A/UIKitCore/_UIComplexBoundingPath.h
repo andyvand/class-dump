@@ -6,17 +6,13 @@
 
 #import <UIKitCore/_UIBoundingPath.h>
 
-@class _UIBoundingPathBitmap;
-
 __attribute__((visibility("hidden")))
 @interface _UIComplexBoundingPath : _UIBoundingPath
 {
     double _scale;
-    long long _orientation;
-    _UIBoundingPathBitmap *_bitmap;
 }
 
-+ (_Bool)ingToolsResultOptions;
++ (_Bool)UIAllowedWritingToolsResultOptions;
 - (struct UIEdgeInsets);
 - (id);
 - (struct CGRect);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
+- (id)home:(id)arg1 didUpdateSiriPhraseOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect)
 × ;
@@ -32,14 +28,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGRect)ùñc°1Â0@ù
 × ;
-- (struct CGRect)toreOptions:(unsigned long long)arg1;
-- (void)rnerAdaptation:(id)arg1;
+- (struct CGRect)setPersistentStoreOptions:(unsigned long long)arg1;
+- (void)readableContentLayoutRegionWithCornerAdaptation:(id)arg1;
 - (_Bool)etry:(id)arg1;
 - (id)letion: /* Error: Ran out of types for this method. */;
-- (struct CGRect):(double)arg1;
-- (struct _UIIntegralRect)tributeNameIgnoreShiftRendering;
-- (_Bool)electionRangeAdjustmentContainerView;
-- (struct _UIIntegralRect)tcutIconTypeDate;
+- (struct CGRect)_setInteractions:(double)arg1;
+- (struct _UIIntegralRect)UIKBAttributeNameIgnoreShiftRendering;
+- (_Bool)_UITextSelectionRangeAdjustmentContainerView;
+- (struct _UIIntegralRect)UIApplicationShortcutIconTypeDate;
 - (void);
 - (struct CGRect)];
 - (void)`Íÿ;

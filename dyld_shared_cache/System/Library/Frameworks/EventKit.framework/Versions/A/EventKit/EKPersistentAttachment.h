@@ -10,40 +10,40 @@
 {
 }
 
-+ (id);
++ (id)n(CoreUtils)] Failed to begin pairing exchange. %{public}@;
 + (Class);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)t;
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)5;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ding endpoint registered to receive message:%@ /* Error: Ran out of types for this method. */;
+- (id)add outputDevice %{public}@ for endpoint %{public}@;
+- (void)ce %{public}@ failed to fetch deviceInfo:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)ourcesFromServer %{public}@;
+- (id)ain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (int);
+- (int)keyWindow;
+- (void)backListWithLimit:(id)arg1;
+- (void)TF:(int)arg1:HashTraits<WTF::WeakRef<WebCore::DOMWrapperWorld, WTF::SingleThreadWeakPtrImpl>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)chesRecurrenceRules;
+- (id)validateOccurrenceDateStillMatchesRecurrenceRules;
 - (id)recurrenceEnd;
 
 @end

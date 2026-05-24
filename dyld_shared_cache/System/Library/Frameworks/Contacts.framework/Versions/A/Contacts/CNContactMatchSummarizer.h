@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)localizedDescription;
+- (id)1	?׿F;
 
 @end
 

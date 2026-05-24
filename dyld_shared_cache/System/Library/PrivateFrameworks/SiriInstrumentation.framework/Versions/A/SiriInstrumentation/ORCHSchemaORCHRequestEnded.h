@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -24,16 +21,14 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)o;
-- (id)omeCommunicationContext: /* Error: Ran out of types for this method. */;
-- (_Bool)PE_ASK_USER_TO_REPEAT;
-- (_Bool)hemaODDSiriInCallEnablementState;
+- (id)_derivedBufferTimeFromHistoricalAudio;
+- (id)setHasHomeCommunicationContext: /* Error: Ran out of types for this method. */;
+- (_Bool)FLOWSTATETYPE_ASK_USER_TO_REPEAT;
+- (_Bool)ODDSiriSchemaODDSiriInCallEnablementState;
 - (void)%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

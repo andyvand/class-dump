@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFDispatchContext, HMFMessageDispatcher, NSArray, NSCalendar, NSObject, NSString, NSUUID;
-@protocol HMDHomeActivityStateManagerDataSource, HMDHomeActivityStateScheduleDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateSchedule
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_scheduleEntries;
-    NSUUID *_uuid;
-    unsigned long long _state;
-    id <HMDHomeActivityStateScheduleDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    HMDHome *_home;
-    NSCalendar *_gregorian;
-    HMFDispatchContext *_workContext;
 }
 
 + (_Bool)´÷ùkúüúlþôþèè@Ü*¬*;
 + (id)Ü;
-- (void);
-- (id);
+- (void)from IDS;
+- (id)blocked trip identifiers...;
 - (id);
 - (id);
 - (id);
@@ -36,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)ay"16^@24;
 - (id);
+- (id)nup;
 - (id);
+- (id)_upgradeWallpaperAtURL:existingEditConfiguration:exportToURL:options:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -52,32 +42,11 @@ __attribute__((visibility("hidden")))
 - (void)tElectionModernTransportStartedFutureResolvedMS_HH2:(id)arg1 primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2:primaryResidentElectionJoinMeshMS_HH2:firstCoreDataContainerSetupDurationMS_HH2:firstCoreDataContainerSetupErrorCode_HH2:firstCoreDataContainerSetupErrorDomain_HH2:firstCoreDataContainerSetupUnderlyingErrorCode_HH2:firstCoreDataContainerSetupUnderlyingErrorDomain_HH2:savedEventState: /* Error: Ran out of types for this method. */;
 - (id)gs for user;
 - (id)on message payload:%@ did not contain resident location /* Error: Ran out of types for this method. */;
-- (void)essoryCharacteristicsResponseReceivedNotification;
+- (void)HMDAccessoryCharacteristicsResponseReceivedNotification;
 - (void);
 - (id)xh@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDHomeActivityStateScheduleDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSCalendar *gregorian; // @synthesize gregorian=_gregorian;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly, nonatomic) NSArray *scheduleEntries; // @synthesize scheduleEntries=_scheduleEntries;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) HMFDispatchContext *workContext; // @synthesize workContext=_workContext;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

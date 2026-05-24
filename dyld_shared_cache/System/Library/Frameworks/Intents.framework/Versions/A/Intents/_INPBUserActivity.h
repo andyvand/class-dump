@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBUserActivity
 {
     struct _has;
-    NSData *_data;
-    NSString *_title;
-    NSString *_uri;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)sKit daemon connection interrupted.;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)±¾(Ð1Â0@ù
 × ;
 - (void)e reformed to notRequired.;
@@ -37,18 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasUri;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

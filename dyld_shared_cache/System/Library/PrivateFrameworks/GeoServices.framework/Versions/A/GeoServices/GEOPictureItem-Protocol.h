@@ -8,12 +8,10 @@
 @protocol GEOMapItemPhoto;
 
 @protocol GEOPictureItem
+- (NSString *);
 - (NSString *)$î±ô¡uJ@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <GEOMapItemPhoto> photo;
-@property(readonly, nonatomic) int pictureItemPhotoType;
-@property(readonly, nonatomic) NSString *primaryText;
-@property(readonly, nonatomic) NSString *secondaryText;
 @end
 

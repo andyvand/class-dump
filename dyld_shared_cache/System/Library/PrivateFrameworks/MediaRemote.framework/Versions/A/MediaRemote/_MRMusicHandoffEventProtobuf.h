@@ -9,8 +9,6 @@
 @interface _MRMusicHandoffEventProtobuf
 {
     NSString *_sessionIdentifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (_Bool);
@@ -19,25 +17,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)tting bundleID:%@ to enabled:%@ in SharedWithYouApp Preferences /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)AFSiriActivationCreateXPCDictionaryFromContext;
+- (id)(%lu).;
 - (int);
 - (id);
 - (_Bool)Channel"16;
-- (void)etadata:(_Bool)arg1;
-- (void)entationStyle;
+- (void)setHasIncludeMetadata:(_Bool)arg1;
+- (void)_presentationStyle;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSessionIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

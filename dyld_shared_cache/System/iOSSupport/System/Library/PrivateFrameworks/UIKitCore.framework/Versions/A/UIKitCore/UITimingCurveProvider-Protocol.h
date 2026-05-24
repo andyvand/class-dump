@@ -7,13 +7,11 @@
 @class UICubicTimingParameters, UISpringTimingParameters;
 
 @protocol UITimingCurveProvider
-- (UICubicTimingParameters *)yedRange: /* Error: Ran out of types for this method. */;
+- (UICubicTimingParameters *)_isPageWithinPermittedDisplayedRange: /* Error: Ran out of types for this method. */;
 - (UISpringTimingParameters *)without a view is unsupported;
-- (long long)rs;
+- (long long)colors;
 
 // Remaining properties
-@property(readonly, nonatomic) UICubicTimingParameters *cubicTimingParameters;
-@property(readonly, nonatomic) UISpringTimingParameters *springTimingParameters;
 @property(readonly, nonatomic) long long timingCurveType;
 @end
 

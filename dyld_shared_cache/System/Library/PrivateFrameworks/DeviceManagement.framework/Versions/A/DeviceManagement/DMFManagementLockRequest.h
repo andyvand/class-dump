@@ -11,21 +11,19 @@
 @interface DMFManagementLockRequest : DMFTaskRequest
 {
     NSString *_lockedByLabel;
-    NSString *_passcode;
 }
 
 + (_Bool);
-- (void);
+- (void);
+- (id);
+- (void)g WebProcess launch;
+- (id)alid message dispatched %{public}s;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)V_labelString;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *lockedByLabel; // @synthesize lockedByLabel=_lockedByLabel;
-@property(copy, nonatomic) NSString *passcode; // @synthesize passcode=_passcode;
 
 @end
 

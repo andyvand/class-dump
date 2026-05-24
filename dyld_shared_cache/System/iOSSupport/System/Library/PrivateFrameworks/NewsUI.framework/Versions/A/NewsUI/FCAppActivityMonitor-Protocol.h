@@ -6,6 +6,9 @@
 
 @protocol FCAppActivityMonitor
 
+@optional
+- (long long);
+
 // Remaining properties
 @property(readonly, nonatomic) long long currentApplicationState;
 // Preceding property had unknown attributes: ?

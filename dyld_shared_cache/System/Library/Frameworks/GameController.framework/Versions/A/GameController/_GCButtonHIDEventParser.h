@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _GCButtonHIDEventParser : _GCHIDEventParser
 {
     unsigned long long _buttonStateKey;
-    unsigned long long _buttonPressureKey;
-    unsigned long long _requiredButtonNumber;
 }
 
 + (_Bool);
+- (void);
+- (unsigned long long),;
 - (void);
-- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)O;
 - (void);
 
 // Remaining properties

@@ -6,13 +6,11 @@
 
 #import <Geode/PAImageRequest.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface PAURLRequest : PAImageRequest
 {
     NSURL *_url;
-    NSDictionary *_options;
-    NSString *_uti;
 }
 
 - (id);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *options; // @synthesize options=_options;
 @property(copy) NSURL *url; // @synthesize url=_url;
-@property(copy) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

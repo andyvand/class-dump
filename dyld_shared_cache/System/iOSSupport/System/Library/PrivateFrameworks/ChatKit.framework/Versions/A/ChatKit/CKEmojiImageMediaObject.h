@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKImageMediaObject.h>
 
-@class IMSticker, NSDate, NSString;
+@class NSString;
 
 @interface CKEmojiImageMediaObject : CKImageMediaObject
 {
@@ -14,37 +14,24 @@
 
 + (_Bool);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_leadingVisibleObjectIDs;
+- (id)_ic_attributedStringByHighlightingRegexMatches:withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
+- (id)_htmlStringToLoad;
+- (id)_htmlNotes;
+- (id)_htmlDestinationFolder;
+- (id)_hintLabel;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)s;
+- (_Bool)ordID"8@"NSError"16;
+- (_Bool)account.enabled == YES AND                               (entity != %@ || notes.@count > 0);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDeleteFromStickerDetails;
-@property(nonatomic, readonly) _Bool canUseAsBackground;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMSticker *saveableSticker;
-@property(readonly, nonatomic) NSDate *stickerDetailsDateAdded;
-@property(readonly, nonatomic) NSString *stickerDetailsSubtitleText;
 @property(readonly, nonatomic) NSString *stickerDetailsTitleText;
-@property(readonly, nonatomic) NSString *stickerDetailsTransferGUID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CheapRandomness : CIFilter
 {
     NSNumber *inputDither;
-    NSNumber *inputScale;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *inputDither; // @synthesize inputDither;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface LPYouTubePlayerView
 {
     _Bool _startsPlayingAutomatically;
-    _Bool _showsControls;
-    _Bool _muted;
-    id <LPYouTubePlayerDelegate> _delegate;
-    double _startTime;
-    double _endTime;
 }
 
 - (_Bool);
@@ -21,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)Ew;
 - (void);
 - (_Bool);
 - (void);
@@ -30,9 +25,9 @@
 - (double);
 - (id);
 - (void);
-- (void);
-- (double);
-- (id);
+- (void);
+- (double)setIsLandscapeDepthEnabled: /* Error: Ran out of types for this method. */;
+- (id)enablePretty;
 - (void);
 - (_Bool);
 - (void);
@@ -41,11 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <LPYouTubePlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic) _Bool showsControls; // @synthesize showsControls=_showsControls;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) _Bool startsPlayingAutomatically; // @synthesize startsPlayingAutomatically=_startsPlayingAutomatically;
 
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RBEventQueue, RBProcessMap;
-@protocol OS_dispatch_queue, RBAssertionManagerQueueDelegate, RBTimeProviding;
+@protocol RBAssertionManagerQueueDelegate;
 
 @interface RBAssertionManagerEventQueue
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    RBEventQueue *_eventQueue;
-    RBProcessMap *_expirationWarningEvents;
-    id <RBTimeProviding> _timeProvider;
-    id <RBAssertionManagerQueueDelegate> _delegate;
 }
 
-- (id);
+- (id)__wantsNotEqual;
 - (id);
 - (void);
-- (void);
+- (void)ort
+;
 - (unsigned long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(nonatomic) __weak id <RBAssertionManagerQueueDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

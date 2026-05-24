@@ -9,14 +9,12 @@
 @interface AXFKAFocusRingShapeLayer
 {
     AXFKAFocusRingBorderShapeLayer *_bottomBorderLayer;
-    unsigned long long _kind;
-    long long _interfaceStyle;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)�;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -45,12 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXFKAFocusRingBorderShapeLayer *bottomBorderLayer; // @synthesize bottomBorderLayer=_bottomBorderLayer;
-@property(readonly, nonatomic) _Bool increaseContrast;
-@property(nonatomic) long long interfaceStyle; // @synthesize interfaceStyle=_interfaceStyle;
-@property(nonatomic) unsigned long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) struct CGColor *ringColorRef;
-@property(readonly, nonatomic) _Bool useDefaultRingColor;
-@property(readonly, nonatomic) _Bool useLargeRing;
 
 @end
 

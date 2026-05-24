@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
+@class _INPBLocationValue;
 
 @interface _INPBBusTrip
 {
     struct _has;
-    _INPBLocationValue *_arrivalBusStopLocation;
-    NSString *_arrivalPlatform;
-    NSString *_busName;
-    NSString *_busNumber;
-    _INPBLocationValue *_departureBusStopLocation;
-    NSString *_departurePlatform;
-    NSString *_provider;
-    _INPBDateTimeRange *_tripDuration;
 }
 
 + (_Bool);
@@ -39,45 +31,23 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
-- (id);
+- (id)yntheticControllerDescription"16@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ers"24@?<v@?@"NSError">32;
+- (void)bile asset fetch;
 - (id);
 - (id);
 - (id);
-- (void)OULD_BE_CREATED;
-- (void)sponseCodeSuccess;
+- (void)LIST_SHOULD_BE_CREATED;
+- (void)INControlHomeIntentResponseCodeSuccess;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocationValue *arrivalBusStopLocation; // @synthesize arrivalBusStopLocation=_arrivalBusStopLocation;
-@property(copy, nonatomic) NSString *arrivalPlatform; // @synthesize arrivalPlatform=_arrivalPlatform;
-@property(copy, nonatomic) NSString *busName; // @synthesize busName=_busName;
-@property(copy, nonatomic) NSString *busNumber; // @synthesize busNumber=_busNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _INPBLocationValue *departureBusStopLocation; // @synthesize departureBusStopLocation=_departureBusStopLocation;
-@property(copy, nonatomic) NSString *departurePlatform; // @synthesize departurePlatform=_departurePlatform;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArrivalBusStopLocation;
-@property(readonly, nonatomic) _Bool hasArrivalPlatform;
-@property(readonly, nonatomic) _Bool hasBusName;
-@property(readonly, nonatomic) _Bool hasBusNumber;
-@property(readonly, nonatomic) _Bool hasDepartureBusStopLocation;
-@property(readonly, nonatomic) _Bool hasDeparturePlatform;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasTripDuration;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *tripDuration; // @synthesize tripDuration=_tripDuration;
 
 @end
 

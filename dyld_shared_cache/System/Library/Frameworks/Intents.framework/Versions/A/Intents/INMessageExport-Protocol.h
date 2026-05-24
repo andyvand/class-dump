@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSArray, NSDate, NSNumber, NSString;
+@class NSArray, NSNumber, NSString;
 
 @protocol INMessageExport
+- (NSNumber *);
+- (void)placeholderAvatarImageForPrimaryAccountOwnerWithDiameter:(long long)arg1;
+- (long long)exportedInterface;
+- (void)m;
+- (long long)r";
 - (void)× ;
-- (NSString *)ToSyncSlot:onBehalfOf: /* Error: Ran out of types for this method. */;
-- (NSArray *)StringLanguageCodeKey;
-- (NSString *)viceNotAvailable;
+- (NSString *)askToSyncSlot:onBehalfOf: /* Error: Ran out of types for this method. */;
+- (NSArray *)__INCodableDescriptionFormatStringLanguageCodeKey;
+- (NSString *)INSetNicknameIntentResponseCodeFailureContactServiceNotAvailable;
 
 // Remaining properties
-@property(copy) NSString *content;
-@property(copy) NSString *conversationIdentifier;
-@property(copy) NSDate *dateMessageWasLastRead;
-@property(copy) NSDate *dateSent;
 @property(copy) NSString *identifier;
-@property long long messageEffectType;
-@property long long messageType;
-@property(copy) NSNumber *numberOfAttachments;
-@property(copy) NSArray *recipients;
-@property(copy) INPerson *sender;
 @end
 

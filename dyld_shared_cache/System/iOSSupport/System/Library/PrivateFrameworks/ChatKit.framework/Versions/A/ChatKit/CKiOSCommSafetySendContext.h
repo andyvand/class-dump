@@ -6,28 +6,24 @@
 
 #import <ChatKit/CKCommSafetySendContext.h>
 
-@class CKComposition, NSArray, NSSet;
+@class CKComposition;
 
 __attribute__((visibility("hidden")))
 @interface CKiOSCommSafetySendContext : CKCommSafetySendContext
 {
     CKComposition *_composition;
-    NSSet *_sensitiveMediaObjects;
-    NSArray *_identifiersOfShelvedImages;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)newPreviewImageSource;
+- (id)@"NSObject<OS_dispatch_queue>",&,N,V_indexAccessQueue;
+- (id)ton;
 - (id);
 - (void)will delete attachment files on disk but you can re-download them. Be sure to imtool kim after running this.;
 
 // Remaining properties
 @property(readonly, nonatomic) CKComposition *composition; // @synthesize composition=_composition;
-@property(readonly, nonatomic) NSArray *identifiersOfShelvedImages; // @synthesize identifiersOfShelvedImages=_identifiersOfShelvedImages;
-@property(readonly, nonatomic) NSSet *sensitiveMediaObjects; // @synthesize sensitiveMediaObjects=_sensitiveMediaObjects;
 
 @end
 

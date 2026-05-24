@@ -7,8 +7,6 @@
 @interface NewsArticles.AudioMiniPlayerPresentationStartupTask
 {
     id bootstrapper;
-    id commandCenter;
-    id isPlaybackStopped;
 }
 
 @end

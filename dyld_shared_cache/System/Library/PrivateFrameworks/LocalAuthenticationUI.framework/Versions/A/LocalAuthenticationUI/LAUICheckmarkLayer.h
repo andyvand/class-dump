@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSColor;
+@class CAShapeLayer;
 
 @interface LAUICheckmarkLayer
 {
     CAShapeLayer *_shape_layer;
-    struct vector<CAShapeLayer *, std::allocator<CAShapeLayer *>> _transient_shape_layers;
-    _Bool _animating;
-    unsigned int _animation_index;
-    double _line_width;
-    double _effective_line_width;
-    struct vector<LAUI_CA_utilities::animation_completion_handler_container, std::allocator<LAUI_CA_utilities::animation_completion_handler_container>> _completions;
-    _Bool _revealed;
-    NSColor *_primary_color;
-    double _line_width_scale;
-    struct CGColor *_color;
 }
 
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
@@ -37,16 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (struct CGColor *);
+- (struct CGColor *)initialized.;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize aspectSize;
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=_color;
 @property(nonatomic) double lineWidthScale; // @synthesize lineWidthScale=_line_width_scale;
-@property(readonly, copy, nonatomic) NSColor *primaryColor; // @synthesize primaryColor=_primary_color;
-@property(readonly, nonatomic, getter=isRevealed) _Bool revealed; // @synthesize revealed=_revealed;
 
 @end
 

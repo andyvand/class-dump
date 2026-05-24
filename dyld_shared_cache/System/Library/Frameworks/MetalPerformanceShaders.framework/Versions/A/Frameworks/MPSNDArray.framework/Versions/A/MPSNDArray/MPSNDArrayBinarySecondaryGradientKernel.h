@@ -13,7 +13,7 @@
 + (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)R%;
 - (id);
 
 @end

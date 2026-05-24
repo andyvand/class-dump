@@ -8,7 +8,7 @@
 {
 }
 
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (long long);
 
 @end

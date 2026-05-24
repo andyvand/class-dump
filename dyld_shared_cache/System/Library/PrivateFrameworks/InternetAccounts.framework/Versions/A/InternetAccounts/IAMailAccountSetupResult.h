@@ -6,52 +6,39 @@
 
 #import <InternetAccounts/IAAccountSetupResult.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface IAMailAccountSetupResult : IAAccountSetupResult
 {
     NSString *_displayName;
-    NSString *_fullName;
-    NSArray *_emailAddresses;
-    NSString *_imapPathPrefix;
-    NSString *_incomingAccountType;
-    NSString *_incomingHostname;
-    long long _incomingPort;
-    _Bool _incomingUseSSL;
-    NSString *_incomingAuthMechanism;
-    NSString *_incomingUserName;
-    NSString *_incomingPassword;
-    NSData *_incomingTLSCertificate;
-    NSString *_incomingNTLMDomain;
-    NSString *_outgoingHostname;
-    long long _outgoingPort;
-    _Bool _outgoingUseSSL;
-    NSString *_outgoingAuthMechanism;
-    NSString *_outgoingUserName;
-    NSString *_outgoingPassword;
-    NSData *_outgoingTLSCertificate;
-    long long _deletionPolicy;
-    long long _deleteOnServerInterval;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)d;
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ĀR(;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (_Bool);
+- (id);
+- (long long)
+;
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -60,13 +47,6 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (long long);
@@ -76,34 +56,13 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property long long deleteOnServerInterval; // @synthesize deleteOnServerInterval=_deleteOnServerInterval;
-@property long long deletionPolicy; // @synthesize deletionPolicy=_deletionPolicy;
 @property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain) NSString *fullName; // @synthesize fullName=_fullName;
-@property(retain) NSString *imapPathPrefix; // @synthesize imapPathPrefix=_imapPathPrefix;
-@property(retain) NSString *incomingAccountType; // @synthesize incomingAccountType=_incomingAccountType;
-@property(retain) NSString *incomingAuthMechanism; // @synthesize incomingAuthMechanism=_incomingAuthMechanism;
-@property(retain) NSString *incomingHostname; // @synthesize incomingHostname=_incomingHostname;
-@property(retain) NSString *incomingNTLMDomain; // @synthesize incomingNTLMDomain=_incomingNTLMDomain;
-@property(retain) NSString *incomingPassword; // @synthesize incomingPassword=_incomingPassword;
-@property long long incomingPort; // @synthesize incomingPort=_incomingPort;
-@property(retain) NSData *incomingTLSCertificate; // @synthesize incomingTLSCertificate=_incomingTLSCertificate;
-@property _Bool incomingUseSSL; // @synthesize incomingUseSSL=_incomingUseSSL;
-@property(retain) NSString *incomingUserName; // @synthesize incomingUserName=_incomingUserName;
-@property(retain) NSString *outgoingAuthMechanism; // @synthesize outgoingAuthMechanism=_outgoingAuthMechanism;
-@property(retain) NSString *outgoingHostname; // @synthesize outgoingHostname=_outgoingHostname;
-@property(retain) NSString *outgoingPassword; // @synthesize outgoingPassword=_outgoingPassword;
-@property long long outgoingPort; // @synthesize outgoingPort=_outgoingPort;
-@property(retain) NSData *outgoingTLSCertificate; // @synthesize outgoingTLSCertificate=_outgoingTLSCertificate;
-@property _Bool outgoingUseSSL; // @synthesize outgoingUseSSL=_outgoingUseSSL;
-@property(retain) NSString *outgoingUserName; // @synthesize outgoingUserName=_outgoingUserName;
 
 @end
 

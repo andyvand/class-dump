@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLRouterBridgeRoutingDecision : SISchemaInstrumentationMessage
 {
     int _routingDecisionSource;
-    int _routerDecisionType;
-    CDStruct_e490e2c4 _has;
 }
 
 - (void);
@@ -33,14 +29,10 @@
 - (id);
 - (id)Arð!`BùñÝð1Â0@ù
 × ;
-- (id)sterQueryContext;
+- (id)_contactSuggesterQueryContext;
 - (id),N,V_plusSuggesterSuggestionMetadataReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRouterDecisionType;
-@property(nonatomic) _Bool hasRoutingDecisionSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int routerDecisionType; // @synthesize routerDecisionType=_routerDecisionType;
 @property(nonatomic) int routingDecisionSource; // @synthesize routingDecisionSource=_routingDecisionSource;
 
 @end

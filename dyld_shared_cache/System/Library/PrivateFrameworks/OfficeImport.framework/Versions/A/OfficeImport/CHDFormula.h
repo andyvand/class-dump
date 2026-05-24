@@ -6,26 +6,25 @@
 
 #import <OfficeImport/EDFormula.h>
 
-@class EDReferenceCollection, EDWorkbook;
+@class EDReferenceCollection;
 
 __attribute__((visibility("hidden")))
 @interface CHDFormula : EDFormula
 {
     EDReferenceCollection *mReferences;
-    EDWorkbook *mWorkbook;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void)ä;

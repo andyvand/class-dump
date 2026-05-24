@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (struct CGRect);
 - (void);
 - (void);
@@ -26,10 +26,10 @@
 - (void);
 - (void);
 - (long long);
-- (struct CGSize);
+- (struct CGSize)AffineTransform=dddddd}d}12r^{?={?=ddd}}20r^{?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}28r^{?=CCfqSC}36@"PXGLayout"44I52^B56;
 - (id);
 - (long long);
-- (void);
+- (void)E;
 
 @end
 

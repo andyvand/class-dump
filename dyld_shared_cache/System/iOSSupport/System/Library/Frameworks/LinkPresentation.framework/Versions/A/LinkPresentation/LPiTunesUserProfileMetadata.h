@@ -6,47 +6,36 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesUserProfileMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startPeriodicSync;
 + (_Bool);
-- (void);
+- (void)transcriptRegularPreferredFont;
+- (id)transcriptEditingSelectedImage;
+- (id)transcriptDynamicsDisabledReasons;
+- (id)transcriptDrawerOverlapForMarginInsets:(id)arg1;
+- (void)transcriptDrawerContactImagePadding;
+- (_Bool)topKeylineHeightConstraint;
+- (void)tapbackStartingScaleY;
+- (id)tableView:canPerformAction:forRowAtIndexPath:withSender: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)String || [URLString isKindOfClass:[NSString class]] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

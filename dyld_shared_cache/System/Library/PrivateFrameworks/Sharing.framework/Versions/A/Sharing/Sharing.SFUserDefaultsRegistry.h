@@ -7,7 +7,6 @@
 @interface Sharing.SFUserDefaultsRegistry
 {
     id _registeredDefaults;
-    id lock;
 }
 
 @end

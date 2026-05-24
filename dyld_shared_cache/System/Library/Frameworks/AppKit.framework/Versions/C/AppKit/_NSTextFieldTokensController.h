@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)UserIntentPhysicalButtonNormalizedCGRect;
+- (id)nd URLSession adopters are required to have matching bundle identifier (%{public}@) and application identifier entitlement (%{public}@) value.;
 - (id);
 - (id);
 - (void)windowRefIsDeallocated"b1"unhandledKey"b1"blockInputContext"b1"keyWindowProperties"b2"ignoresMulticolorAccent"b1"reserved"b26};

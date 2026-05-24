@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)spelled-range-trailing-pause-ms;
 - (id);
 - (id);
 - (id);

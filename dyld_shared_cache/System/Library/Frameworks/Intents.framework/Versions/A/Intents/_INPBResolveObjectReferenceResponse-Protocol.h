@@ -9,7 +9,6 @@
 @protocol _INPBResolveObjectReferenceResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasResolvedReference;
 @property(copy, nonatomic) NSData *resolvedReference;
 @end
 

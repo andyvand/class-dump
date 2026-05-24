@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)RE;
 - (_Bool);
 - (id);
 - (id);
@@ -28,23 +28,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)4H;
 - (void);
 - (void)1ª1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly) _Bool shouldReloadViewOnUserEdit;
-@property(readonly) Class superclass;
 
 @end
 

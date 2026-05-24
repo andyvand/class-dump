@@ -9,14 +9,6 @@
 @interface _DKPRSource
 {
     NSString *_bundleID;
-    NSString *_deviceID;
-    NSString *_groupID;
-    NSString *_itemID;
-    NSString *_sourceID;
-    int _userID;
-    struct {
-        unsigned int userID:1;
-    } _has;
 }
 
 - (id);
@@ -25,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)á¶/Ð!,Aùñ©3°1Â0@ù
 × ;
 

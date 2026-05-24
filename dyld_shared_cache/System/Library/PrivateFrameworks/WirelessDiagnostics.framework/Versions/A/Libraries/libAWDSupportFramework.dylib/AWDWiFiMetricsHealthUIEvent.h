@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWiFiMetricsHealthUIEvent
 {
     unsigned long long _healthIssues;
-    unsigned long long _timestamp;
-    unsigned int _eventType;
-    NSString *_hashCode;
-    struct {
-        unsigned int healthIssues:1;
-        unsigned int timestamp:1;
-        unsigned int eventType:1;
-    } _has;
 }
 
 - (void);
@@ -30,11 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,17 +33,10 @@
 - (id);
 - (void);
 - (id);
-- (void)WifiScoTxBytes;
+- (void)hasWifiScoTxBytes;
 
 // Remaining properties
-@property(nonatomic) unsigned int eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) _Bool hasHashCode;
-@property(nonatomic) _Bool hasHealthIssues;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *hashCode; // @synthesize hashCode=_hashCode;
-@property(nonatomic) unsigned long long healthIssues; // @synthesize healthIssues=_healthIssues;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

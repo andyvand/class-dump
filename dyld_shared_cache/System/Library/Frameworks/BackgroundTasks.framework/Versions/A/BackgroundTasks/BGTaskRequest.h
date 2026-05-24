@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface BGTaskRequest
 {
     NSString *_identifier;
-    NSDate *_earliestBeginDate;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDate *earliestBeginDate; // @synthesize earliestBeginDate=_earliestBeginDate;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

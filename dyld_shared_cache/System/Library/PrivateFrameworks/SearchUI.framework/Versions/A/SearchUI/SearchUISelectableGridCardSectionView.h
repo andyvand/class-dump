@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, TLKSelectableGridView;
+@class TLKSelectableGridView;
 
 @interface SearchUISelectableGridCardSectionView : SearchUICardSectionView
 {
@@ -15,18 +15,11 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_cacheKeyForLanguage:mode:plistPath:vocabPath: /* Error: Ran out of types for this method. */;
+- (void)NSString",R,C,N,V_name;
 
 // Remaining properties
 @property(retain, nonatomic) TLKSelectableGridView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

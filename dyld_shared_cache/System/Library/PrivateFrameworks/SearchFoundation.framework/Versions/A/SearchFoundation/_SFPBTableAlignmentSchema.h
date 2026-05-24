@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBStringDictionary;
+@class NSArray;
 
 @interface _SFPBTableAlignmentSchema
 {
     NSArray *_tableColumnAlignments;
-    _SFPBStringDictionary *_metadata;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)NCFStringRef;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)setDataStoreKeyData:(id)arg1;
+- (id)Unable to get details for active search query.;
 - (id);
 - (void);
 - (id);
 - (void)ion"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBStringDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *tableColumnAlignments; // @synthesize tableColumnAlignments=_tableColumnAlignments;
 
 @end

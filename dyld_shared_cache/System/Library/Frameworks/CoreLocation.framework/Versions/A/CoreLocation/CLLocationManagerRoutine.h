@@ -5,7 +5,6 @@
 //
 
 @class _CLLocationManagerRoutineProxy;
-@protocol CLInertialDataManagerDelegate, CLLocationManagerDelegate;
 
 @interface CLLocationManagerRoutine
 {
@@ -13,11 +12,12 @@
 }
 
 - (id);
-- (void);
+- (void)r
+;
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void);
+- (id)(;
 - (void);
 - (id);
 - (void);
@@ -25,8 +25,6 @@
 - (void)or<NSTimeInterval> &, std::vector<double> &) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CLLocationManagerDelegate> delegate;
-@property(nonatomic) __weak id <CLInertialDataManagerDelegate> inertialDelegate;
 @property(retain, nonatomic) _CLLocationManagerRoutineProxy *locationManagerRoutineProxy; // @synthesize locationManagerRoutineProxy=_locationManagerRoutineProxy;
 
 @end

@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPlaceActionItemAppearanceProvider, NSColor, NSString;
+@class MKPlaceActionItemAppearanceProvider, NSString;
 
 @interface MKPlaceCardActionItem
 {
     MKPlaceActionItemAppearanceProvider *_appearanceProvider;
-    _Bool _enabled;
-    _Bool _selected;
-    unsigned long long _type;
-    NSColor *_glyphColor;
-    NSColor *_backgroundColor;
-    MKPlaceCardActionItem *_selectedItem;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)b/powerlog;
+- (id)BackgroundProcessing:(unsigned long long)arg1:SystemConditionsOther /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (void);
-- (id);
+- (id)ttps?://(?:www\.)?(linkedin\.com)/profile/view\?id=(?:\d+).* /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)llowedList",R;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ndPassRunning = %d, isSiriClientListening = %d, _isAPHearstFirstPassEnabled = %d;
 - (id);
 - (void);
-- (_Bool);
-- (void)epareMenu:withEvent: /* Error: Ran out of types for this method. */;
-- (id)horOffset;
+- (_Bool)emissiveColor;
+- (void)mapView:prepareMenu:withEvent: /* Error: Ran out of types for this method. */;
+- (id)_updateAnchorOffset;
 - (_Bool)er [%@](%p) for %@ should pause location updates;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionBarGlyph;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(readonly, copy, nonatomic) NSString *displayString;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSString *glyph;
-@property(retain, nonatomic) NSColor *glyphColor; // @synthesize glyphColor=_glyphColor;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(retain, nonatomic) MKPlaceCardActionItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

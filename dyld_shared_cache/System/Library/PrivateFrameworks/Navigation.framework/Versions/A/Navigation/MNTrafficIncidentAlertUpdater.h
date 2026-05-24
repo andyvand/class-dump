@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNLocation, MNTrafficIncidentAlert, NSDate, NSMutableSet, NSString;
+@class MNTrafficIncidentAlert;
 @protocol MNTrafficIncidentAlertUpdaterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNTrafficIncidentAlertUpdater
 {
     id <MNTrafficIncidentAlertUpdaterDelegate> _delegate;
-    MNLocation *_lastLocation;
-    NSMutableSet *_pendingAlerts;
-    MNTrafficIncidentAlert *_activeAlert;
-    NSDate *_activeAlertDisplayedTime;
-    NSDate *_nextAlertDisplayTime;
-    int _trafficIncidentStatus;
-    NSString *_previousBannerID;
-    NSMutableSet *_displayedBannerIds;
-    _Atomic _Bool _dodgeballEnabled;
-    id _dodgeballEnabledListener;
-    _Bool _useTriggerPointRangeBannerQueuing;
 }
 
 - (_Bool);
+- (void)5
+;
+- (void);
+- (void);
+- (void)_AnimatableView;
+- (void);
+- (void);
+- (id)Y7lp
+;
+- (void)7t
+;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)UpdateAlertActions;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void)q`;
 - (void);
 - (id);
 - (id);
@@ -50,8 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MNTrafficIncidentAlert *activeAlert;
-@property(nonatomic) __weak id <MNTrafficIncidentAlertUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool useTriggerPointRangeBannerQueuing; // @synthesize useTriggerPointRangeBannerQueuing=_useTriggerPointRangeBannerQueuing;
 
 @end
 

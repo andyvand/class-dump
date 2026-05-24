@@ -11,7 +11,6 @@
 @interface EWSContactsViewType : EWSBasePagingType
 {
     NSString *_InitialName;
-    NSString *_FinalName;
 }
 
 + (id);
@@ -19,10 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)r;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *FinalName; // @synthesize FinalName=_FinalName;
 @property(copy, nonatomic) NSString *InitialName; // @synthesize InitialName=_InitialName;
 
 @end

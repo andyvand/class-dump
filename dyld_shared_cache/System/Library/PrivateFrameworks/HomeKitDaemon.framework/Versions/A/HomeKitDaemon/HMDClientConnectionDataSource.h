@@ -15,13 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)com.apple.homed.HomeAS.comingHomeExcessiveDuration.falsePositive;
 
 // Remaining properties
 @property(readonly) id <HMDCarPlayDataSource> carPlayDataSource; // @synthesize carPlayDataSource=_carPlayDataSource;
-@property(readonly) _Bool isDeviceLocked;
-@property(readonly) _Bool supportsDeviceLock;
 
 @end
 

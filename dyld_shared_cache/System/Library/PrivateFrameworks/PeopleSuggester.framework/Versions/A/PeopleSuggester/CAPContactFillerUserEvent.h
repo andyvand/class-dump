@@ -7,55 +7,38 @@
 @interface CAPContactFillerUserEvent
 {
     unsigned int _highConfidenceRuleCount;
-    unsigned int _lowConfidenceRuleCount;
-    unsigned int _mediumConfidenceRuleCount;
-    unsigned int _shareInteractionsSent;
-    unsigned int _textInteractionsReceived;
-    unsigned int _textInteractionsSent;
-    struct {
-        unsigned int highConfidenceRuleCount:1;
-        unsigned int lowConfidenceRuleCount:1;
-        unsigned int mediumConfidenceRuleCount:1;
-    } _has;
 }
 
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned int)_deviceGroup;
+- (unsigned int)_deviceFamily;
+- (unsigned int)_currentTurn;
+- (void)_countFactoryAssetInBytes;
+- (void)_countAttributeUnigramPrefixMatch;
+- (void)_coreFollowUpPosted;
+- (void)_compoundMediaTypeBundleScore;
+- (void)_companionSyncUploadStarted;
+- (void)_commandPayloadWordCount;
+- (void)_clientLocale;
+- (void)_clientApplicationId;
+- (void)_cirAlertWaBoost;
+- (unsigned int)_assetTypes;
+- (unsigned int)_assetEndPoint;
+- (unsigned int)equencyCount2500Meters;
+- (_Bool)ec;
+- (_Bool),V_thermalMitigationLevel;
+- (_Bool)ngApp6Hrs;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H9D*E'
+;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighConfidenceRuleCount;
-@property(nonatomic) _Bool hasLowConfidenceRuleCount;
-@property(nonatomic) _Bool hasMediumConfidenceRuleCount;
-@property(nonatomic) unsigned int highConfidenceRuleCount; // @synthesize highConfidenceRuleCount=_highConfidenceRuleCount;
-@property(nonatomic) unsigned int lowConfidenceRuleCount; // @synthesize lowConfidenceRuleCount=_lowConfidenceRuleCount;
-@property(nonatomic) unsigned int mediumConfidenceRuleCount; // @synthesize mediumConfidenceRuleCount=_mediumConfidenceRuleCount;
-@property(nonatomic) unsigned int shareInteractionsSent; // @synthesize shareInteractionsSent=_shareInteractionsSent;
-@property(nonatomic) unsigned int textInteractionsReceived; // @synthesize textInteractionsReceived=_textInteractionsReceived;
 @property(nonatomic) unsigned int textInteractionsSent; // @synthesize textInteractionsSent=_textInteractionsSent;
 
 @end

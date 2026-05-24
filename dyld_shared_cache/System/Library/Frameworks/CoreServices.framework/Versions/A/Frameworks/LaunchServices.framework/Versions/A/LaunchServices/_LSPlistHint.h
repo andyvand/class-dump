@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _LSPlistHint
 {
     NSSet *_keys;
-    NSDictionary *_cachedValues;
-    _Bool _cachedValuesAreComplete;
-    _Bool _keysAreCompacted;
 }
 
 - (id);

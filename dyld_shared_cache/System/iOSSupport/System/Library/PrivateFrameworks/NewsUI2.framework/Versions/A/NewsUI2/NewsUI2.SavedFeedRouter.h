@@ -7,10 +7,6 @@
 @interface NewsUI2.SavedFeedRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
 }
 
 @end

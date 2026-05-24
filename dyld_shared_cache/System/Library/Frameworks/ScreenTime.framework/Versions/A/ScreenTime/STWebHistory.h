@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSString;
 
 @interface STWebHistory
 {
     NSString *_bundleIdentifier;
-    NSString *_profileIdentifier;
-    NSXPCConnection *_xpcConnection;
 }
 
+- (id)DefaultBundlePaidMultiplier;
+- (void)DefaultConversionCoefficient;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)cancel:(id)arg1;
+- (void)_storyViewModel;
+- (void)_relevanceScore;
+- (void)SArray",R,N,V_emailAddresses;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)edirected host item %@.;
 
 // Remaining properties
 @property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, SSRSpeakerProfileEmbeddingServiceDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SSRSpeakerProfileEmbeddingServiceClient
 {
     int _notifyToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
-    id _remoteObjectProxy;
-    id <SSRSpeakerProfileEmbeddingServiceDelegate> _delegate;
 }
 
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (id);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void)acquireDormancySuspendAssertion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -33,23 +29,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_enableSystemTranscriptionsWithOnboardingIfNeeded;
 - (void);
 - (void)anager notifyImplicitTrainingUtteranceAvailable:(id)arg1 forVoiceProfileId:withRecordDeviceInfo:withRecordCtxt:withVoiceTriggerCtxt:withOtherCtxt:assetToUse:withCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRSpeakerProfileEmbeddingServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

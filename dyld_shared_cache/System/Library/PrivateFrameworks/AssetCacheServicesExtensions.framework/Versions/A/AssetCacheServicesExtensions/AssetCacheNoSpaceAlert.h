@@ -9,21 +9,19 @@
 @interface AssetCacheNoSpaceAlert : AssetCacheAlert
 {
     long long _cacheLimit;
-    long long _reservedVolumeSpace;
 }
 
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)}SI	*(3d;
 - (id);
-- (long long);
+- (long long)_scrollState;
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property long long cacheLimit; // @synthesize cacheLimit=_cacheLimit;
-@property long long reservedVolumeSpace; // @synthesize reservedVolumeSpace=_reservedVolumeSpace;
 
 @end
 

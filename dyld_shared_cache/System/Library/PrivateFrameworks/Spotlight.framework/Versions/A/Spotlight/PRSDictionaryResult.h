@@ -9,21 +9,19 @@
 @interface PRSDictionaryResult
 {
     NSString *_dictionaryId;
-    NSString *_definitionId;
-    NSString *_query;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)GridNet_pyrlite.H13.espresso.hwx;
+- (id)=;
 - (id);
 - (int);
 - (id);
@@ -32,9 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *definitionId; // @synthesize definitionId=_definitionId;
 @property(retain) NSString *dictionaryId; // @synthesize dictionaryId=_dictionaryId;
-@property(retain) NSString *query; // @synthesize query=_query;
 
 @end
 

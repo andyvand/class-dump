@@ -15,14 +15,14 @@
 }
 
 + (_Bool)class for the identifier or connect a prototype cell in a storyboard;
-- (void);
+- (void)e hashes for handle:(CDUnknownBlockType)arg1 %@, but nickname has no image data. This is unexpected;
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ferenceVersusContent:(id)arg1 checkFontDifference: /* Error: Ran out of types for this method. */;
-- (void)rentWithSceneSettings:(id)arg1 transitionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)differenceVersusContent:(id)arg1 checkFontDifference: /* Error: Ran out of types for this method. */;
+- (void)_updateForcedStatusBarForegroundTransparentWithSceneSettings:(id)arg1 transitionContext: /* Error: Ran out of types for this method. */;
 - (long long),V__facets;
 - (id)Ð<hè;
 - (_Bool)ng for reason:(id)arg1 %{public}@;
@@ -33,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenu *_internalMenu;
-@property(readonly, copy, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(copy, nonatomic) CDUnknownBlockType selectedElementDidChangeHandler; // @synthesize selectedElementDidChangeHandler=_selectedElementDidChangeHandler;
 
 @end
 

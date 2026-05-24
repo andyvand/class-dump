@@ -11,15 +11,15 @@
     CTLazuliMessageChatBotFontStyle *_style;
 }
 
-+ (_Bool);
++ (_Bool)ariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)!: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)";
+- (void)checkInternalOperation:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)&Ð!4@ùª)°1Â0@ù
 × ;

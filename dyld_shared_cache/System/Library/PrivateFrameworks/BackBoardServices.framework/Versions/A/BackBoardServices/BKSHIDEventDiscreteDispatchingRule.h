@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDiscreteDispatchingPredicate, BKSHIDEventDispatchingTarget, NSString;
+@class BKSHIDEventDiscreteDispatchingPredicate;
 
 @interface BKSHIDEventDiscreteDispatchingRule
 {
     BKSHIDEventDiscreteDispatchingPredicate *_predicate;
-    BKSHIDEventDispatchingTarget *_target;
-    unsigned long long _predicateEventTypeMask;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)setSystemAddedWidgetMaxBudget:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)r:%s 
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -26,20 +25,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)y*;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) BKSHIDEventDiscreteDispatchingPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly, nonatomic) unsigned long long predicateEventTypeMask; // @synthesize predicateEventTypeMask=_predicateEventTypeMask;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) BKSHIDEventDispatchingTarget *target; // @synthesize target=_target;
 
 @end
 

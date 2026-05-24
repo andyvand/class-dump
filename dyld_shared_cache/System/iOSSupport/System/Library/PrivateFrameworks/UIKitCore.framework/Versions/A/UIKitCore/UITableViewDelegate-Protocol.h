@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexPath, UIContextMenuConfiguration, UITargetedPreview, UIView;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (void);
+- (UIView *);
+- (UITargetedPreview *);
+- (UITargetedPreview *);
+- (NSArray *);
+- (void);
+- (UIContextMenuConfiguration *)`;
+- (NSIndexPath *)allServicesNonBlocking;
+- (NSIndexPath *);
+- (void);
 @end
 

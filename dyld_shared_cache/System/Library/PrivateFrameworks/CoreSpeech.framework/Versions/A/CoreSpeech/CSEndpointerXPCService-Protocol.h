@@ -5,6 +5,8 @@
 //
 
 @protocol CSEndpointerXPCService
+- (void)%@:(long long)arg1 %d;
+- (void);
 - (void)ast buffer callback without first buffer.;
 - (void)lly:(unsigned long long)arg1 error:] /* Error: Ran out of types for this method. */;
 @end

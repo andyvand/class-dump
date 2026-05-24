@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMInternalSpanDataTier1, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMMatchingSpanTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_input;
-    NLXSchemaCDMInternalSpanDataTier1 *_internalSpanData;
-    NSString *_semanticValue;
-    _Bool _hasLinkId;
-    _Bool _hasInput;
-    _Bool _hasInternalSpanData;
-    _Bool _hasSemanticValue;
 }
 
 - (void);
@@ -35,9 +28,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)m;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -49,20 +42,12 @@
 - (id)0@ù
 × ;
 - (id)V_hasSiriDirectedSpeechDetectionFailed;
-- (id)etHasPrefetchedMetadataSource: /* Error: Ran out of types for this method. */;
-- (void)cType;
+- (id)setHasPrefetchedMetadataSource: /* Error: Ran out of types for this method. */;
+- (void)conversionMetricType;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInput; // @synthesize hasInput=_hasInput;
-@property(nonatomic) _Bool hasInternalSpanData; // @synthesize hasInternalSpanData=_hasInternalSpanData;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSemanticValue; // @synthesize hasSemanticValue=_hasSemanticValue;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(retain, nonatomic) NLXSchemaCDMInternalSpanDataTier1 *internalSpanData; // @synthesize internalSpanData=_internalSpanData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *semanticValue; // @synthesize semanticValue=_semanticValue;
 
 @end
 

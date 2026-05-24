@@ -9,7 +9,7 @@
     _Bool _cachedDiscoveryEnabled;
 }
 
-+ (void);
++ (void)7;
 + (CDUnknownBlockType);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ControllerForPlayerPath:(_Bool)arg1;
+- (void)existingSubscriptionControllerForPlayerPath:(_Bool)arg1;
 - (void)B,N,V_representsUGLSender;
 - (_Bool)zÓÿq;
 

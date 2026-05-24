@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKTransitInfoLabelView, NSView, _MKLineHeaderModel;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _MKDataHeaderModel
 {
     NSView *_ownerView;
-    _MKLineHeaderModel *_firstLine;
-    _MKLineHeaderModel *_secondLine;
-    _MKLineHeaderModel *_thirdLine;
-    _MKLineHeaderModel *_forthLine;
-    MKTransitInfoLabelView *_transitLabel;
-    _MKLineHeaderModel *_secondaryNameLine;
 }
 
+- (id)updateWithBytes:withDuration: /* Error: Ran out of types for this method. */;
+- (id)setEventIntervals: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)rgyBilledToMe;
+- (void)bleDictionary",&,V_permissionCache;
+- (void)tableDictionary",&,V_eventFilterSaved;
+- (void)thRateLimitingforClient:(id)arg1 %d withKey:%@ withPayload:%@ sent! /* Error: Ran out of types for this method. */;
+- (void)@) - %@
+;
+- (id)y snapshot, cpuEnergyTotal=%f, networkEnergyTotal=%f, totalEnergy=%f;
+- (id)p=%@;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)ion: /* Error: Ran out of types for this method. */;
+- (id)empty dictionary D_;
+- (id);
+- (void)setDisplayRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MKLineHeaderModel *firstLine; // @synthesize firstLine=_firstLine;
-@property(retain, nonatomic) _MKLineHeaderModel *forthLine; // @synthesize forthLine=_forthLine;
 @property(nonatomic) __weak NSView *ownerView; // @synthesize ownerView=_ownerView;
-@property(retain, nonatomic) _MKLineHeaderModel *secondLine; // @synthesize secondLine=_secondLine;
-@property(retain, nonatomic) _MKLineHeaderModel *secondaryNameLine; // @synthesize secondaryNameLine=_secondaryNameLine;
-@property(retain, nonatomic) _MKLineHeaderModel *thirdLine; // @synthesize thirdLine=_thirdLine;
-@property(retain, nonatomic) MKTransitInfoLabelView *transitLabel; // @synthesize transitLabel=_transitLabel;
 
 @end
 

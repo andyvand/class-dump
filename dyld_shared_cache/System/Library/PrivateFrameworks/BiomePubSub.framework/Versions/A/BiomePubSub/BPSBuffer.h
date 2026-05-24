@@ -12,11 +12,6 @@
 @interface BPSBuffer : BMBookmarkablePublisher
 {
     id <BPSPublisher> _upstream;
-    unsigned long long _size;
-    unsigned long long _prefetch;
-    unsigned long long _whenFull;
-    NSMutableArray *_values;
-    NSMutableArray *_buffer;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)tring",R,N,V_identifier;
 - (id);
 - (id);
 - (id);
@@ -35,21 +30,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)__auth_stubs;
+- (id)eredSet";
 - (id);
 - (id)ù
 × ;
 - (void)¬;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) unsigned long long prefetch; // @synthesize prefetch=_prefetch;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 @property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long whenFull; // @synthesize whenFull=_whenFull;
 
 @end
 

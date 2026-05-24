@@ -5,5 +5,9 @@
 //
 
 @protocol NSCollectionViewDelegateFlowLayout
+
+@optional
+- (double);
+- (struct NSEdgeInsets)=;
 @end
 

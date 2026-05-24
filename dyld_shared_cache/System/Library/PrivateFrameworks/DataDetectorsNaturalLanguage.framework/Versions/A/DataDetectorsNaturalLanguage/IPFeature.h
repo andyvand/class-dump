@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IPFeature
 {
     double _confidence;
-    double _weight;
-    NSString *_textUnit;
-    struct _NSRange _matchRange;
 }
 
 - (id);
@@ -21,20 +16,17 @@
 - (void);
 - (id);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)?1;
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)systemPathsForVolumeAtURL:(double)arg1;
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
 @property double confidence; // @synthesize confidence=_confidence;
-@property struct _NSRange matchRange; // @synthesize matchRange=_matchRange;
-@property(copy) NSString *textUnit; // @synthesize textUnit=_textUnit;
-@property double weight; // @synthesize weight=_weight;
 
 @end
 

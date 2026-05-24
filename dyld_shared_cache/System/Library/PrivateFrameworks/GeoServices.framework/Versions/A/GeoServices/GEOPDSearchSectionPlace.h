@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSectionPlace
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_placeIds;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)PTParameterRecordLeaf;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id)unknownFields"b1"read_detail"b1"read_distance"b1"read_duration"b1"read_routeDescription"b1"read_separator"b1"wrote_anyField"b1};
-- (id)ally;
+- (id)_reconnectAutomatically;
 - (id)ÜRX ^;
 - (void);
 

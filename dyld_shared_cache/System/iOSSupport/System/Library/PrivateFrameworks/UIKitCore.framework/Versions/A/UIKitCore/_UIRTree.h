@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet;
+@class NSIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIRTree
 {
     struct shared_ptr<_UIRTreeContainerNode<>> _root;
-    struct _NSRange _allIndexesRange;
-    NSMutableIndexSet *_allIndexes;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)ssing mapping for MPModelPropertyPodcastChapterDuration;
 - (id)xEùñYð1Â0@ù
 × ;
 - (id)!Ð!ÜGùQa°1Â0@ù
 × ;
 - (struct CGRect)xCù1d1Â0@ù
 × ;
-- (struct CGRect)ControllerForWindow:(unsigned long long)arg1;
+- (struct CGRect)_installLocalSheetPresentationControllerForWindow:(unsigned long long)arg1;
 - (void)ÐWøX¼^t`;
 - (void);
 - (void)e23ÙÎ;

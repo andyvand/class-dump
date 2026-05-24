@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFManualCancelationToken, NSArray, NSString;
+@class NSArray;
 
 @interface _EMMessageRepositoryMailboxPredictionObserver
 {
     NSArray *_messageObjectIDs;
-    CDUnknownBlockType _completionHandler;
-    EFManualCancelationToken *_cancelationToken;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)param 0x%x:status 0x%x /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EFManualCancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *messageObjectIDs; // @synthesize messageObjectIDs=_messageObjectIDs;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol HAP2AccessoryServerBrowserDelegate;
 
 @protocol HAP2AccessoryServerBrowser
+- (void)itizenship;
 - (void)Queuing add-pairing until pair-verify completes;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConfirming) _Bool confirming;
 @property(nonatomic) __weak id <HAP2AccessoryServerBrowserDelegate> delegate;
-@property(readonly, nonatomic, getter=isDiscovering) _Bool discovering;
-@property(readonly, copy, nonatomic) NSArray *pairedAccessoryServers;
-@property(readonly, copy, nonatomic) NSArray *unpairedAccessoryServers;
 @end
 

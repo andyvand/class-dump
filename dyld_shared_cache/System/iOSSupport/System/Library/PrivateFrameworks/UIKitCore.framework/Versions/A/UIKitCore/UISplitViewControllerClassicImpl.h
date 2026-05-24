@@ -6,91 +6,12 @@
 
 #import <UIKitCore/_UISplitViewControllerBaseImpl.h>
 
-@class NSArray, NSString, UIBarButtonItem, UIFocusContainerGuide, UIGestureRecognizer, UIPopoverController, UIResponder, UISnapshotView, UISplitViewController, UISplitViewControllerDisplayModeBarButtonItem, UITapGestureRecognizer, UITraitCollection, UIView, UIViewController;
-@protocol UISplitViewControllerDelegate;
+@class UISplitViewController, UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface UISplitViewControllerClassicImpl : _UISplitViewControllerBaseImpl
 {
     UISplitViewController *_svc;
-    id _delegate;
-    UIBarButtonItem *_barButtonItem;
-    UISplitViewControllerDisplayModeBarButtonItem *_displayModeButtonItem;
-    NSString *_buttonTitle;
-    UIPopoverController *_hiddenPopoverController;
-    UIView *_rotationSnapshotView;
-    UIResponder *_postTransitionResponder;
-    UISnapshotView *_collapsingMasterSnapshotView;
-    UISnapshotView *_collapsingDetailSnapshotView;
-    float _gutterWidth;
-    long long _rotatingFromOrientation;
-    long long _lastPresentedOrientation;
-    struct CGRect _rotatingFromMasterViewFrame;
-    struct CGRect _rotatingToMasterViewFrame;
-    UIView *_underBarSeparatorView;
-    UITraitCollection *_traitCollectionWhenRemovedFromWindow;
-    _Bool _presentsWithGesture;
-    UIGestureRecognizer *_popoverPresentationGestureRecognizer;
-    UITapGestureRecognizer *_menuGestureRecognizer;
-    long long _preferredDisplayMode;
-    long long _effectiveTargetDisplayMode;
-    long long _pendingDisplayModeChangeCount;
-    long long _rotatingMasterChange;
-    _Bool _useChangingBoundsLayout;
-    long long _transitioningMasterChange;
-    UITraitCollection *_transitioningToTraitCollection;
-    long long _transitioningToInternalMode;
-    long long _lastNotifiedDisplayMode;
-    struct CGRect _viewBoundsBeforeCollapse;
-    long long _suspendedState;
-    long long _primaryEdge;
-    struct {
-        unsigned int invalidDelegateHiddenMasterAspectRatios:2;
-        unsigned int delegateHiddenMasterAspectRatios:2;
-        unsigned int delegateImplementsShouldHide:1;
-        unsigned int hidden:3;
-        unsigned int masterOnSlide:1;
-        unsigned int delegateWantsWillShowCallback:1;
-        unsigned int delegateWantsWillHideCallback:1;
-        unsigned int delegateWantsWillPresentCallback:1;
-        unsigned int delegateSupportedInterfaceOrientations:1;
-        unsigned int delegatePreferredInterfaceOrientationForPresentation:1;
-        unsigned int delegateWantsShowViewController:1;
-        unsigned int delegateWantsShowDetailViewController:1;
-        unsigned int delegateWantsCollapseSecondaryViewController:1;
-        unsigned int delegateWantsSeparateSecondaryViewController:1;
-        unsigned int delegateWantsPrimaryViewControllerForCollapse:1;
-        unsigned int delegateWantsPrimaryViewControllerForExpanding:1;
-        unsigned int collapsedState:2;
-        unsigned int primaryHidingState:2;
-        unsigned int primaryHidingStateForCurrentOrientation:2;
-        unsigned int delegateWantsWillChangeToDisplayMode:1;
-        unsigned int delegateWantsTargetDisplayModeForAction:1;
-        unsigned int delegateCanModifyFirstResponderOnTraitCollectionTransition:1;
-        unsigned int pendingPresentMasterViewController:1;
-        unsigned int pendingUpdateTargetDisplayMode:1;
-        unsigned int collapsingClockwise:1;
-        unsigned int firstResponderChangedFromPostTransitionResponder:1;
-        unsigned int firstResponderChangedFromPostTransitionResponderToNil:1;
-        unsigned int inWillTransitionToSize:1;
-        unsigned int hasTransitioningToInternalMode:1;
-        unsigned int delegateImplementsPrivateIsPrimaryVisible:1;
-        unsigned int delegateImplementsPrivateCollapseSecondaryViewControllerWhileSuspended:1;
-        unsigned int usesExtraWidePrimaryColumn:1;
-        unsigned int usesDeviceOverlayPreferences:1;
-        unsigned int prefersOverlayInRegularWidthPhone:1;
-    } _splitViewControllerFlags;
-    _Bool _columnSeparatorsExtendToTitlebar;
-    NSString *_displayModeButtonItemTitle;
-    double _preferredPrimaryColumnWidthFraction;
-    double _minimumPrimaryColumnWidth;
-    double _maximumPrimaryColumnWidth;
-    unsigned long long _lastFocusedChildViewControllerIndex;
-    UIViewController *__preservedDetailController;
-    CDUnknownBlockType __clearPreventRotationHook;
-    UIFocusContainerGuide *_masterFocusContainerGuide;
-    UIFocusContainerGuide *_detailFocusContainerGuide;
-    struct UIEdgeInsets _additionalSidebarSafeAreaInsets;
 }
 
 + (double);
@@ -101,21 +22,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
+- (void)N";
+- (void)statusIsValidated;
+- (void)_payloadEncryptCertPayloadUUID;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)K;
 - (_Bool);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
+- (id)supportsSubscription;
+- (struct CGRect)initWithMoviePlayerController: /* Error: Ran out of types for this method. */;
+- (id)__MPModelPropertyRadioStationProviderUniversalLink__MAPPING_MISSING__;
+- (void)t dispatch canceled event:(long long)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -143,35 +64,35 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)=dd}{CGSize=dd}}72;
 - (void)8@"<UIViewControllerAnimatedTransitioning>"16;
-- (_Bool)eakObject: /* Error: Ran out of types for this method. */;
-- (void)rogressTintColor;
+- (_Bool)setWeakObject: /* Error: Ran out of types for this method. */;
+- (void)progressTintColor;
 - (void)t: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)ain;
-- (void)tFetcherSink;
+- (void)keyboardSuggestionOptions;
+- (void)gain;
+- (void)eventFetcherSink;
 - (struct CGSize)_setBackButtonPressed:(_Bool)arg1;
-- (void);
-- (unsigned long long)h:completion: /* Error: Ran out of types for this method. */;
-- (void)corationIndexPathsDict;
-- (void)omBarViewPocketContainerInteraction;
-- (id)stDoubleHeightTextVisibility;
+- (void)_isScrollingEnabled;
+- (unsigned long long)_immediatelyBeginDragWithTouch:completion: /* Error: Ran out of types for this method. */;
+- (void)_deletedDecorationIndexPathsDict;
+- (void)_bottomBarViewPocketContainerInteraction;
+- (id)_adjustDoubleHeightTextVisibility;
 - (id)hAnimation",R,N,V_morphAnimation;
-- (void)ibleItemIndexPaths;
+- (void)_currentlyVisibleItemIndexPaths;
 - (void)t>",W,N,V_subject;
-- (_Bool)seEffect;
-- (double)SectionListSolver;
-- (long long)ckingElement;
+- (_Bool)_UIImageSymbolPulseEffect;
+- (double)_UICollectionLayoutSectionListSolver;
+- (long long)UICoreKeyboardTrackingElement;
 - (void)¬ÏÐxÐhÑ(ÒÒàÒLÓLÕ¤Õ\×hØ;
 - (void)|/X1Ì>¨?$@ @ÔG8HI´I;
-- (void)pIntentInsertAtDestinationIndexPath;
+- (void)UITableViewDropIntentInsertAtDestinationIndexPath;
 - (long long)iously-used email address or enter a new one. To remove one, go to Settings > General.;
 - (_Bool)TargetAndAction"8Q16^B24;
 - (id)) has no segue with identifier '%@';
 - (id)wCell"16;
 - (void):(id)arg1 withStyle:rightButton:withStyle:] /* Error: Ran out of types for this method. */;
-- (id)temThinMaterial;
-- (id)TextAttributeCustom;
-- (_Bool)ants;
+- (id)UIBlurEffectStyleSystemThinMaterial;
+- (id)UIAccessibilityTextAttributeCustom;
+- (_Bool)_scalesDownBehindDescendants;
 - (_Bool)h23g;
 - (void)LeadingBar;
 - (void);
@@ -180,7 +101,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)á;
 - (void)Í­43Iö;
 - (unsigned long long)D;
-- (void)facePresentationSemanticContext;
+- (void)_UIUserInterfacePresentationSemanticContext;
 - (id);
 - (id);
 - (void)X­[;
@@ -228,7 +149,7 @@ __attribute__((visibility("hidden")))
 - (double)@_;
 - (id)Ú`;
 - (_Bool)èÃ_;
-- (void);
+- (void)4o;
 - (_Bool)\âìþ
 p;
 - (id)dÿÕt
@@ -332,43 +253,7 @@ g;
 - (id)Pj;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets; // @synthesize _additionalSidebarSafeAreaInsets;
-@property(copy, nonatomic, setter=_setClearPreventRotationHook:) CDUnknownBlockType _clearPreventRotationHook; // @synthesize _clearPreventRotationHook=__clearPreventRotationHook;
-@property(nonatomic, setter=_setColumnSeparatorsExtendToTitlebar:) _Bool _columnSeparatorsExtendToTitlebar; // @synthesize _columnSeparatorsExtendToTitlebar;
-@property(copy, nonatomic, setter=_setDisplayModeButtonItemTitle:) NSString *_displayModeButtonItemTitle; // @synthesize _displayModeButtonItemTitle;
 @property(retain, nonatomic, setter=_setPreservedDetailController:) UIViewController *_preservedDetailController; // @synthesize _preservedDetailController=__preservedDetailController;
-@property(nonatomic, setter=_setPrimaryOffscreenGestureMode:) long long _primaryOffscreenGestureMode;
-@property(nonatomic, setter=_setWantsFloatingSidebar:) _Bool _wantsFloatingSidebar;
-@property(readonly, nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UISplitViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_detailFocusContainerGuide) UIFocusContainerGuide *detailFocusContainerGuide; // @synthesize detailFocusContainerGuide=_detailFocusContainerGuide;
-@property(nonatomic) float gutterWidth;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesMasterViewInPortrait;
-@property(readonly, nonatomic) _Bool inCollapsingToProposedTopColumnCallback;
-@property(readonly, nonatomic) _Bool inExpandingToProposedDisplayModeCallback;
-@property(readonly, nonatomic, getter=_lastFocusedChildViewControllerIndex) unsigned long long lastFocusedChildViewControllerIndex; // @synthesize lastFocusedChildViewControllerIndex=_lastFocusedChildViewControllerIndex;
-@property(readonly, nonatomic) _Bool lockedForDelegateCallback;
-@property(readonly, nonatomic, getter=_masterFocusContainerGuide) UIFocusContainerGuide *masterFocusContainerGuide; // @synthesize masterFocusContainerGuide=_masterFocusContainerGuide;
-@property(nonatomic) double maximumPrimaryColumnWidth; // @synthesize maximumPrimaryColumnWidth=_maximumPrimaryColumnWidth;
-@property(nonatomic) double minimumPrimaryColumnWidth; // @synthesize minimumPrimaryColumnWidth=_minimumPrimaryColumnWidth;
-@property(nonatomic) long long preferredDisplayMode;
-@property(nonatomic) double preferredPrimaryColumnWidthFraction; // @synthesize preferredPrimaryColumnWidthFraction=_preferredPrimaryColumnWidthFraction;
-@property(nonatomic) _Bool prefersOverlayInRegularWidthPhone;
-@property(nonatomic) _Bool presentsWithGesture; // @synthesize presentsWithGesture=_presentsWithGesture;
-@property(nonatomic) long long primaryBackgroundStyle;
-@property(nonatomic) long long primaryEdge;
-@property(readonly, nonatomic) UISplitViewController *splitViewController;
-@property(readonly, nonatomic) long long style;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesDeviceOverlayPreferences;
-@property(nonatomic, getter=_usesExtraWidePrimaryColumn, setter=_setUsesExtraWidePrimaryColumn:) _Bool usesExtraWidePrimaryColumn;
-@property(copy, nonatomic) NSArray *viewControllers;
 
 @end
 

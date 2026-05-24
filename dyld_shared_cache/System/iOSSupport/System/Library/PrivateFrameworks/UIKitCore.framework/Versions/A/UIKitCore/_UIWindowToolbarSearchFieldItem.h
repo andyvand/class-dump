@@ -15,7 +15,7 @@
 }
 
 - (id);
-- (void);
+- (void)mergeUnknownKeysFrom:(_Bool)arg1 withParentKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)!ì@ùñX°1Â0@ù
@@ -23,18 +23,14 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)ccessibilityFocusUpdateRequest;
+- (void)_UIAccessibilityFocusUpdateRequest;
 - (void)Àolplqrds;
-- (SEL)View;
+- (SEL)prevReparentingReferenceView;
 - (void)of the contentView:(SEL)arg1 %@;
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(copy, nonatomic) NSString *placeholder;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

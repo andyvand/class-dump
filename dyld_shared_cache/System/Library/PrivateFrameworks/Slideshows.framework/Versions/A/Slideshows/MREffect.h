@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImage, MRLayerEffect, NSDictionary, NSMutableDictionary, NSOperation, NSString;
+@class NSDictionary;
 
 @interface MREffect
 {
     NSDictionary *mDescription;
-    MRLayerEffect *mEffectLayer;
-    MRImage *mOutputImage;
-    NSString *mEffectID;
-    NSDictionary *mAttributes;
-    NSDictionary *mFlattenedAttributes;
-    unsigned long long mSeed;
-    struct _NSRange mMultiImageSlideRange;
-    _Bool mNeedsToUpdateSlides;
-    _Bool mNeedsToUpdateTexts;
-    _Bool mNeedsToUpdateAttributes;
-    _Bool mIsNative3D;
-    _Bool mIsOpaque;
-    _Bool mIsAlphaFriendly;
-    NSOperation *mPreloadOperation;
-    struct CGSize mPixelSize;
-    double mDefaultPhaseInDuration;
-    double mDefaultMainDuration;
-    double mDefaultPhaseOutDuration;
-    double mPhaseInDuration;
-    double mMainDuration;
-    double mPhaseOutDuration;
-    NSMutableDictionary *_panoramaPanningOffsets;
-    double _panoramaPanningEndTime;
-    double _panoramaPanningAmount;
-    _Bool _isInInteractiveMode;
 }
 
 + (unsigned long long);
@@ -45,32 +20,32 @@
 - (double);
 - (void);
 - (long long);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)r">28;
+- (double)uration>"@"NSDictionary"@"NSData"@"NSError">28;
+- (_Bool)4q32q40q48;
+- (_Bool)thenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (_Bool)ay"24;
+- (void)_submissionDateMillisecondsSince1970;
+- (void)_fetchAnalyticsEnvelopeContentTypeConfigsWithCompletion:(_Bool)arg1;
+- (void)_envelopeIdentifier;
+- (void)_backgroundSessionQueue;
+- (void)URLSession:(id)arg1 task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct _NSRange);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)newsEdgeTodayConfig;
+- (double)ugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
+- (id)undUploadInWindow:(double)arg1 ];
+- (_Bool)localHour;
+- (_Bool)ntegerValue]); }];
+- (_Bool)contentTypes;
+- (struct _NSRange)(NTPBEnvelope *envelope) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported(envelope.contentType); }];
+- (double)csEnvelopeStore initWithStoreDirectoryFileURL:] /* Error: Ran out of types for this method. */;
+- (void)4;
+- (void)cs.scheduleUploadOnSubmission;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -102,8 +77,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void),V_innerState;
@@ -119,22 +94,7 @@
 		;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=mAttributes;
-@property(readonly) NSString *effectID; // @synthesize effectID=mEffectID;
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly) _Bool isInInteractiveMode; // @synthesize isInInteractiveMode=_isInInteractiveMode;
-@property(readonly, nonatomic) _Bool isInfinite;
-@property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(readonly, nonatomic) double mainDuration; // @synthesize mainDuration=mMainDuration;
-@property(nonatomic) struct _NSRange multiImageSlideRange; // @synthesize multiImageSlideRange=mMultiImageSlideRange;
-@property(nonatomic) _Bool needsToUpdateSlides; // @synthesize needsToUpdateSlides=mNeedsToUpdateSlides;
-@property(nonatomic) _Bool needsToUpdateTexts; // @synthesize needsToUpdateTexts=mNeedsToUpdateTexts;
-@property(readonly, nonatomic) double phaseInDuration; // @synthesize phaseInDuration=mPhaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration=mPhaseOutDuration;
-@property(nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=mPixelSize;
 @property(readonly, nonatomic) _Bool supportsDynamicExpansion;
-@property(readonly, nonatomic) long long typicalSlideBatchSize;
 
 @end
 

@@ -8,8 +8,6 @@
 {
     id _image;
     id isLoading;
-    id url;
-    id cancellable;
 }
 
 @end

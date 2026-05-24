@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue, _INPBRentalCar, _INPBReservation;
+@class _INPBLocationValue;
 
 @interface _INPBRentalCarReservation
 {
     struct _has;
-    _INPBLocationValue *_dropOffLocation;
-    _INPBLocationValue *_pickupLocation;
-    _INPBRentalCar *_rentalCar;
-    _INPBDateTimeRange *_rentalDuration;
-    _INPBReservation *_reservation;
 }
 
 + (_Bool);
@@ -23,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)*3I;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,23 +38,7 @@
 - (void)n:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBLocationValue *dropOffLocation; // @synthesize dropOffLocation=_dropOffLocation;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly, nonatomic) _Bool hasRentalCar;
-@property(readonly, nonatomic) _Bool hasRentalDuration;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBLocationValue *pickupLocation; // @synthesize pickupLocation=_pickupLocation;
-@property(retain, nonatomic) _INPBRentalCar *rentalCar; // @synthesize rentalCar=_rentalCar;
-@property(retain, nonatomic) _INPBDateTimeRange *rentalDuration; // @synthesize rentalDuration=_rentalDuration;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(readonly) Class superclass;
 
 @end
 

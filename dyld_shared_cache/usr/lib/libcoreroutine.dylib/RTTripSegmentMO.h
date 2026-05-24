@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTTripSegmentMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
++ (id)cted. Not creating ChannelData connection.;
 
 // Remaining properties
-@property(nonatomic) double destinationLatitude; // @dynamic destinationLatitude;
-@property(nonatomic) double destinationLongitude; // @dynamic destinationLongitude;
-@property(retain, nonatomic) NSDate *endDate; // @dynamic endDate;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) _Bool isConsumedByClustering; // @dynamic isConsumedByClustering;
-@property(nonatomic) short modeOfTransportation; // @dynamic modeOfTransportation;
-@property(nonatomic) double originLatitude; // @dynamic originLatitude;
-@property(nonatomic) double originLongitude; // @dynamic originLongitude;
-@property(retain, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSUUID *tripCommuteID; // @dynamic tripCommuteID;
-@property(nonatomic) double tripDistanceUncertainty_m; // @dynamic tripDistanceUncertainty_m;
-@property(nonatomic) double tripDistance_m; // @dynamic tripDistance_m;
-@property(nonatomic) int tripSegmentSequence; // @dynamic tripSegmentSequence;
-@property(nonatomic) int tripSegmentSequenceMax; // @dynamic tripSegmentSequenceMax;
 
 @end
 

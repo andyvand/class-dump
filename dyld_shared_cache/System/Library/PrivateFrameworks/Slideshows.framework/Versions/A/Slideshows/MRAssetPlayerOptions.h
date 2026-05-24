@@ -9,36 +9,25 @@
 @interface MRAssetPlayerOptions
 {
     MRImage *_initialImage;
-    _Bool _wantsMonochromatic;
-    _Bool _wantsMipmap;
-    _Bool _wantsPowerOfTwo;
-    _Bool _isForExport;
-    _Bool _thumbnailIsOK;
-    double _stillTime;
-    id _playerHint;
-    double _introDuration;
-    double _mainDuration;
-    double _outroDuration;
-    struct CGSize _resolutionIfEmbeddedAsset;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)segmentSetIDs;
+- (double)RL:URLSessionQueue: /* Error: Ran out of types for this method. */;
+- (void)_submissionDateMillisecondsSince1970;
+- (void)_submissionDateMillisecondsSince1970;
+- (void)URLSession:(_Bool)arg1 task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)set_timeoutIntervalForResource:(double)arg1;
+- (void)dulerDelegate>",W,N,V_delegate;
+- (void)FCOperationThrottlerDelegate;
+- (void),;
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)on/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
 - (double);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (_Bool);
@@ -52,20 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) MRImage *initialImage;
-@property(nonatomic) double introDuration; // @synthesize introDuration=_introDuration;
 @property(readonly) _Bool isEmbeddedAsset;
-@property(nonatomic) _Bool isForExport; // @synthesize isForExport=_isForExport;
-@property(readonly) _Bool isStill;
-@property(nonatomic) double mainDuration; // @synthesize mainDuration=_mainDuration;
-@property(nonatomic) double outroDuration; // @synthesize outroDuration=_outroDuration;
-@property(nonatomic) id playerHint; // @synthesize playerHint=_playerHint;
-@property(nonatomic) struct CGSize resolutionIfEmbeddedAsset; // @synthesize resolutionIfEmbeddedAsset=_resolutionIfEmbeddedAsset;
-@property(nonatomic) double stillTime; // @synthesize stillTime=_stillTime;
-@property(nonatomic) _Bool thumbnailIsOK; // @synthesize thumbnailIsOK=_thumbnailIsOK;
-@property(nonatomic) _Bool wantsMipmap; // @synthesize wantsMipmap=_wantsMipmap;
-@property(nonatomic) _Bool wantsMonochromatic; // @synthesize wantsMonochromatic=_wantsMonochromatic;
-@property(nonatomic) _Bool wantsPowerOfTwo; // @synthesize wantsPowerOfTwo=_wantsPowerOfTwo;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFMarkupStylePickerCellPrivate
 {
     NSMutableArray *styleImages;
-    unsigned long long hoveredStyle;
-    unsigned long long focusedStyle;
 }
 
 - (void);

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALCrossDeviceCommandExecutionFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    int _action;
-    struct {
-        unsigned int reason:1;
-        unsigned int action:1;
-    } _has;
 }
 
 - (void);
@@ -23,26 +16,22 @@
 - (id);
 - (int);
 - (_Bool);
-- (void);
+- (void)pollConfigWithOption:sessionConfig: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)nfo;
 - (id)esisIndex"b1"nodeIndex"b1};
-- (void)red;
-- (id)ryType;
+- (void)_hasUserPresenceSourceCaptured;
+- (id)hasCategoryType;
 - (int)<`¨;
 - (id)ôd%Ð';
 - (void)GB;
 - (void)Ù}¯V¨";
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

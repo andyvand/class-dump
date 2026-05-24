@@ -11,15 +11,15 @@
 }
 
 + (Class);
-+ (id);
++ (id)installSafeCategories:afterDelay:validationTargetName:overrideProcessName: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)%;
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

@@ -5,5 +5,7 @@
 //
 
 @protocol MTSDevicePairingServerInterface
+- (void);
+- (void)36;
 @end
 

@@ -7,16 +7,11 @@
 @class NSString;
 
 @protocol INIntentDescriptionExport
-- (_Bool)upNamesOptionsCollectionForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (Class);
+- (SEL);
+- (_Bool)provideSpeakableGroupNamesOptionsCollectionForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL confirmSelector;
-@property(readonly, nonatomic) Class dataClass;
-@property(readonly, nonatomic) Class facadeClass;
-@property(readonly, nonatomic) SEL handleSelector;
-@property(readonly, nonatomic) _Bool isPrivate;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSString *responseName;
-@property(readonly, copy, nonatomic) NSString *type;
 @end
 

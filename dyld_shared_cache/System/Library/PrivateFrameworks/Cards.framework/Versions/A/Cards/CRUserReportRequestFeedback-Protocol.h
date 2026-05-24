@@ -8,6 +8,9 @@
 
 @protocol CRUserReportRequestFeedback
 
+@optional
+- (SFUserReportFeedback *);
+
 // Remaining properties
 @property(readonly, nonatomic) SFUserReportFeedback *backingFeedback;
 // Preceding property had unknown attributes: ?

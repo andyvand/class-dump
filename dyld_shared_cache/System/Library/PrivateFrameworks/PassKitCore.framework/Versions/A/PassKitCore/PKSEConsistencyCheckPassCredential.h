@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PKAppletSubcredential, PKPaymentApplication, PKSECredentialAddress;
-
 @interface PKSEConsistencyCheckPassCredential
 {
     id _underlyingpassCredential;
-    _Bool _containsSubkeys;
-    unsigned long long _type;
-    long long _state;
-    PKSECredentialAddress *_address;
-    unsigned long long _paymentMethod;
-    NSDictionary *_keyMaterialHashForDeviceCredentialType;
 }
 
 - (id);
@@ -22,23 +14,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)q!;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)lt' text.;
 - (id)ng disabled for region:%@, and 0 cards on file. /* Error: Ran out of types for this method. */;
-- (void)rdRewardsAndOffers;
+- (void)appleCardRewardsAndOffers;
 
 // Remaining properties
-@property(readonly, nonatomic) PKSECredentialAddress *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool containsSubkeys; // @synthesize containsSubkeys=_containsSubkeys;
-@property(retain, nonatomic) NSDictionary *keyMaterialHashForDeviceCredentialType; // @synthesize keyMaterialHashForDeviceCredentialType=_keyMaterialHashForDeviceCredentialType;
-@property(readonly, nonatomic) PKPaymentApplication *paymentApplication;
-@property(readonly, nonatomic) unsigned long long paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) PKAppletSubcredential *subcredential;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

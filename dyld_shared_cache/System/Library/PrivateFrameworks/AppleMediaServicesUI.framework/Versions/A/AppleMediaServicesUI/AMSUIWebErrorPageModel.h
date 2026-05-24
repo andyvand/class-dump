@@ -4,38 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSBundle, NSError, NSObject, NSString;
-@protocol AMSUIWebActionRunnable, AMSUIWebErrorPageModelDelegate, OS_nw_path_monitor;
+@class NSBundle, NSObject;
+@protocol OS_nw_path_monitor;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebErrorPageModel
 {
     NSObject<OS_nw_path_monitor> *_pathMonitor;
-    _Bool _errorMessageInternalOnly;
-    _Bool _hasNetworkConnection;
-    NSString *_backgroundColor;
-    NSString *_errorMessage;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    id <AMSUIWebErrorPageModelDelegate> _delegate;
-    id <AMSUIWebActionRunnable> _action;
-    CDUnknownBlockType _actionBlock;
-    NSString *_actionButtonTitle;
-    NSError *_error;
-    NSString *_errorTitle;
-    NSBundle *_bundle;
-    AMSUIWebClientContext *_context;
-    id <AMSUIWebActionRunnable> _cachedAction;
-    CDUnknownBlockType _cachedActionBlock;
-    struct CGSize _windowSize;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ate status for auto asset:(_Bool)arg1 %@;
+- (void)c}@ unlocked successfully;
+- (void)(%{public}@)/value (%{public}@) pair;
+- (void)nexpected failure adding key (%{public}@)/value (%{public}@) pair;
 - (id);
 - (id);
 - (id);
@@ -60,10 +42,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@, s:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void)4^@32;
@@ -73,36 +55,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)Áý=Øð;
 
 // Remaining properties
-@property(retain) id <AMSUIWebActionRunnable> action; // @synthesize action=_action;
-@property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(retain) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain) id <AMSUIWebActionRunnable> cachedAction; // @synthesize cachedAction=_cachedAction;
-@property(copy) CDUnknownBlockType cachedActionBlock; // @synthesize cachedActionBlock=_cachedActionBlock;
-@property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIWebErrorPageModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property _Bool errorMessageInternalOnly; // @synthesize errorMessageInternalOnly=_errorMessageInternalOnly;
-@property(retain) NSString *errorTitle; // @synthesize errorTitle=_errorTitle;
-@property _Bool hasNetworkConnection; // @synthesize hasNetworkConnection=_hasNetworkConnection;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

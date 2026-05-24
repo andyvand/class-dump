@@ -5,5 +5,7 @@
 //
 
 @protocol _WebDocumentViewState
+- (id)setDeviceIsPlaying: /* Error: Ran out of types for this method. */;
+- (void)nowPlayingAudioFormatController:(id)arg1 didChangeAudioFormatApplication: /* Error: Ran out of types for this method. */;
 @end
 

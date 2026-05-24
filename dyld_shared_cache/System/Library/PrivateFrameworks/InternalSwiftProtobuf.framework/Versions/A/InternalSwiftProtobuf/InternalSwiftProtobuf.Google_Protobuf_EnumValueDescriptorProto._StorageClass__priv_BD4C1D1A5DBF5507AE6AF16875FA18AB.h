@@ -7,8 +7,6 @@
 @interface InternalSwiftProtobuf.Google_Protobuf_EnumValueDescriptorProto._StorageClass__priv_BD4C1D1A5DBF5507AE6AF16875FA18AB
 {
     id _name;
-    id _number;
-    id _options;
 }
 
 @end

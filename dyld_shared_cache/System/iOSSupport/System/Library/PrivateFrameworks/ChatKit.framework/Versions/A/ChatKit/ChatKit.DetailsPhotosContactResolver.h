@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsPhotosContactResolver
 {
     id meContact;
-    id meSyndicationIDs;
-    id contactsMap;
-    id syndicationIDCache;
 }
 
 @end

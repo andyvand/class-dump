@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)h";
++ (id)cQ;
 + (_Bool);
-+ (Class);
++ (Class)etworkConsumer;
 - (id);
 - (_Bool);
 

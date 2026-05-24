@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AXRTTSettingsListenerHelper
 {
     void *_listenerAddress;
-    NSMutableArray *_selectorKeys;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

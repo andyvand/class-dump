@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, OCPPackagePart;
+@class OCPPackagePart;
 
 __attribute__((visibility("hidden")))
 @interface OAXTableStyleCache
 {
     OCPPackagePart *mStylesPart;
-    NSString *mDefaultStyleId;
-    NSMutableDictionary *mCache;
 }
 
 - (void);

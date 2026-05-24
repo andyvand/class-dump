@@ -7,23 +7,20 @@
 @interface AVTConfigurationPreset
 {
     _Bool _defaultPreset;
-    id _preset;
-    CDStruct_597dd055 _settingKind;
 }
 
 - (CDStruct_597dd055);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)LU
+;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDefaultPreset) _Bool defaultPreset; // @synthesize defaultPreset=_defaultPreset;
-@property(readonly, nonatomic) id preset; // @synthesize preset=_preset;
 @property(readonly, nonatomic) CDStruct_597dd055 settingKind; // @synthesize settingKind=_settingKind;
 
 @end

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)isFirstResponder;
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__PKDashboardViewControllerFooterViewAccessibility_super;
 
 @end
 

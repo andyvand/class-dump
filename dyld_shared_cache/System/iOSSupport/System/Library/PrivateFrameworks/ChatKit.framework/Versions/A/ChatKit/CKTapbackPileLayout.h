@@ -7,13 +7,12 @@
 @interface CKTapbackPileLayout
 {
     id template;
-    id platterLayouts;
-    id bottomPeekPlatterLayout;
-    id showBottomPeekPlatter;
 }
 
-- (struct CGSize);
-- (id);
+- (struct CGSize)ur notes provides full encryption of this account’s locked notes, and you won’t need to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
+- (id)w	;
 - (id);
 - (void)Pe\;
 

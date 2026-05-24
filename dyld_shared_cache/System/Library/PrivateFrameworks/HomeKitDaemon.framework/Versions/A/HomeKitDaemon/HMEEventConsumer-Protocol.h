@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMEEvent;
+
 @protocol HMEEventConsumer
+- (void)initWithGEOMapItem:(HMEEvent *)arg1;
 
 @optional
 - (void)8Ä;

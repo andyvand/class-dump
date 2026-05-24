@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebArchiveSharingControllerObjCAdapter
 {
     void *_controller;
-    _Bool _registeredForDidLaunchApplicationNotification;
 }
 
 + (id);

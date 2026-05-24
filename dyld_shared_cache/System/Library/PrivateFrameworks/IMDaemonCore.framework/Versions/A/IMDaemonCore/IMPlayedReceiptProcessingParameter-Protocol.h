@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDiMessageIDSTrustedData, NSNumber, NSString;
+@class IMDiMessageIDSTrustedData;
 
 @protocol IMPlayedReceiptProcessingParameter
+- (_Bool)sage:participantID:isLocalInitiated:isLocalSideOnly:] /* Error: Ran out of types for this method. */;
+- (_Bool)%;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *GUID;
 @property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData;
-@property(readonly, nonatomic) _Bool isFromDefaultPairedDevice;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

@@ -11,11 +11,11 @@
     NSURL *_url;
 }
 
-+ (id);
++ (id)";
 - (id);
+- (id)36^B40;
 - (id);
-- (id);
-- (void)ted:extractedBackgroundColor: /* Error: Ran out of types for this method. */;
+- (void)responseWithURL:touchIcon:generated:extractedBackgroundColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

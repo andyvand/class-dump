@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)entSocialGroupCentricSuggestion;
+- (id)retrieveHandoffRecommendationWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGPotentialRecentSocialGroupCentricSuggestion;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUICompactViewControllerDelegate
+- (void);
 @end
 

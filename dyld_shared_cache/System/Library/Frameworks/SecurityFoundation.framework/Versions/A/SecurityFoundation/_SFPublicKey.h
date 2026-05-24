@@ -13,9 +13,9 @@
 
 + (Class);
 + (id);
-- (id);
+- (id)rj ;
 - (struct __SecKey *);
-- (id);
+- (id)s/vecLib.framework/Versions/A/libBLAS.dylib;
 - (void);
 - (id);
 - (void);

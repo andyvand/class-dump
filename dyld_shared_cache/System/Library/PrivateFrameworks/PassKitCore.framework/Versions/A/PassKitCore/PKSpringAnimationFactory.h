@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction;
-
 @interface PKSpringAnimationFactory
 {
     CDStruct_83348318 _state;
-    double _duration;
-    CDUnknownBlockType _dynamicDurationProvider;
-    _Bool _needsDurationUpdate;
-    PKSpringAnimationFactory *_invertedFactory;
-    double _speed;
-    CAMediaTimingFunction *_timing;
 }
 
 + (id);
@@ -30,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (double);
 - (id);
 - (void);
@@ -38,24 +30,18 @@
 - (double);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id):withCompletionHandlerV2: /* Error: Ran out of types for this method. */;
+- (id)paymentWebService:addPaymentPass:withCompletionHandlerV2: /* Error: Ran out of types for this method. */;
 - (void)ring",&,N,V_flightIdentifier;
 - (void)SignatureIsValid:(double)arg1 Failed to create security policy;
 - (void)e Invalid:Image from %@ is not a png. /* Error: Ran out of types for this method. */;
-- (id)ds;
+- (id)requiredDeviceMetadataFields;
 - (double);
 - (void)Aáÿ9 j=`;
 
 // Remaining properties
-@property(nonatomic) double damping;
 @property(readonly, nonatomic) double duration;
-@property(nonatomic) double mass;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) double stiffness;
-@property(retain, nonatomic) CAMediaTimingFunction *timing; // @synthesize timing=_timing;
-@property(nonatomic) double velocity;
 
 @end
 

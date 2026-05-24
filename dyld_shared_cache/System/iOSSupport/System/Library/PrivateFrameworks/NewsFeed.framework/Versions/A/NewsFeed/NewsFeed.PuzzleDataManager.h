@@ -7,16 +7,6 @@
 @interface NewsFeed.PuzzleDataManager
 {
     id delegate;
-    id configuration;
-    id appConfigurationManager;
-    id puzzleService;
-    id puzzleHistoryService;
-    id puzzleTypeSettings;
-    id puzzleNotificationAutoEnableManager;
-    id bundleSubscriptionManager;
-    id puzzleStatsService;
-    id puzzleGameCenterService;
-    id puzzle;
 }
 
 - (id);

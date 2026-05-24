@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)showNewMessageCompositionPanelWithRecipients:chatID:composition:appendToExistingDraft:suggestedReplies:animated:bizIntent:launchPluginWithBundleID:pluginLaunchPayload:startAudioRecording:simID:sendMessageHandler:sourceBarButtonItem: /* Error: Ran out of types for this method. */;
++ (id)showMessageEffectsHint;
 
 @end
 

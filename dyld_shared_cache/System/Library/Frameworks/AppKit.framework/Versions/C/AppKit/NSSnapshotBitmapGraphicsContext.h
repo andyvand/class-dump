@@ -6,24 +6,22 @@
 
 #import <AppKit/NSBitmapGraphicsContext.h>
 
-@class NSMutableData, NSSnapshotContextSignature;
+@class NSSnapshotContextSignature;
 
 __attribute__((visibility("hidden")))
 @interface NSSnapshotBitmapGraphicsContext : NSBitmapGraphicsContext
 {
     NSSnapshotContextSignature *signature;
-    NSMutableData *backingData;
 }
 
 - (id);
-- (void);
+- (void)@;
 - (struct CGImage *);
 - (void);
 - (id)tCounterForName] called for counter "%@" when counter is %u;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *backingData; // @synthesize backingData;
 @property(retain, nonatomic) NSSnapshotContextSignature *signature; // @synthesize signature;
 
 @end

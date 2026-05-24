@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundOperationManager, HMDHomeManager, NSDate, NSDictionary, NSMutableSet, NSOperationQueue, NSString, NSUUID;
-@protocol HMDBackgroundOperationDataSource;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _finished;
-    _Bool _isReadyToRun;
-    _Bool _isExpired;
-    _Bool _scheduled;
-    NSDate *_deferralDate;
-    NSUUID *_operationUUID;
-    HMDHomeManager *_homeManager;
-    HMDBackgroundOperationManager *_bgOpsManager;
-    NSMutableSet *_dependencies;
-    NSDictionary *_userData;
-    NSDate *_scheduledDate;
-    NSDate *_expirationDate;
-    NSOperationQueue *_queue;
-    id <HMDBackgroundOperationDataSource> _dataSource;
-    long long _failureCount;
 }
 
 + (id);
@@ -52,8 +36,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)prepareForApplyingStyle:error: /* Error: Ran out of types for this method. */;
+- (id)24Q32Q40Q48;
 - (_Bool);
 - (void);
 - (id);
@@ -62,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)àð!PCùQð1Â0@ù
 × ;
-- (id)KFCKAccessory;
+- (id)MKFCKAccessory;
 - (id)àØ;
 - (id)%{public}@Allowing Siri Endpoint Profile creation because the force allow pref is on;
 - (void)panionLinkDevice %@ changed;
@@ -74,29 +58,7 @@ __attribute__((visibility("hidden")))
 - (void)uâäÝ?;
 
 // Remaining properties
-@property(retain, nonatomic) HMDBackgroundOperationManager *bgOpsManager; // @synthesize bgOpsManager=_bgOpsManager;
-@property(readonly, nonatomic) id <HMDBackgroundOperationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSDate *deferralDate; // @synthesize deferralDate=_deferralDate;
 @property(readonly) NSMutableSet *dependencies; // @synthesize dependencies=_dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) long long failureCount; // @synthesize failureCount=_failureCount;
-@property _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) _Bool isExpired; // @synthesize isExpired=_isExpired;
-@property(nonatomic) _Bool isReadyToRun; // @synthesize isReadyToRun=_isReadyToRun;
-@property(readonly, nonatomic) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
-@property(readonly) long long qualityOfService;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(getter=isAlreadyScheduled) _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) NSDate *scheduledDate; // @synthesize scheduledDate=_scheduledDate;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *userData; // @synthesize userData=_userData;
 
 @end
 

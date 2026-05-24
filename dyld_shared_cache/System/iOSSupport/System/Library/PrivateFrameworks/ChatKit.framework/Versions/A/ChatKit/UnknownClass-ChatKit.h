@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ChatKit)
-- (void);
+- (void)sults(queryString:(id)arg1 rankingQueries:) /* Error: Ran out of types for this method. */;
 @end
 

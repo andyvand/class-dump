@@ -9,8 +9,6 @@
 @interface PDSRegistration
 {
     BOOL _pushEnvironment;
-    NSString *_topicString;
-    NSString *_qualifierString;
 }
 
 + (_Bool);
@@ -22,14 +20,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ctor checker, map vector course uncertainty is not set, or negative, do not use map vector;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BOOL pushEnvironment; // @synthesize pushEnvironment=_pushEnvironment;
-@property(readonly, nonatomic) NSString *qualifierString; // @synthesize qualifierString=_qualifierString;
 @property(readonly, nonatomic) NSString *topicString; // @synthesize topicString=_topicString;
 
 @end

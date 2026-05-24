@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDUserCloudShareController, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserCloudShareManager
 {
     NSUUID *_identifier;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMDHomeManager *_homeManager;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDUserCloudShareController *_userCloudShareController;
 }
 
 + (id)OôdB;
@@ -32,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)0:(id)arg1 8@"HMBCloudDatabase"16@"HMBCloudZoneID"24;
-- (id)aryNetworkInterfaceDetails;
+- (id)HMDPrimaryNetworkInterfaceDetails;
 - (void) ¥Ì¦ §;
 - (id)uest to setup reverse secure connection:%@ /* Error: Ran out of types for this method. */;
 - (id)rked as tomb stoned record.;
@@ -40,10 +35,10 @@ __attribute__((visibility("hidden")))
 - (id)accessoryUUID:(id)arg1 %@;
 - (void)ration:(id *)arg1 %@;
 - (void)e home entities to CoreSpotlight;
-- (void)State;
+- (void)sessionState;
 - (void)atterCommand"8;
 - (void)y _configureDevice];
-- (id);
+- (id)DEVICE_IDENTIFIER;
 - (void)ÿ;
 - (id);
 - (id);
@@ -52,23 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)dûæ>;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMDUserCloudShareController *userCloudShareController; // @synthesize userCloudShareController=_userCloudShareController;
 
 @end
 

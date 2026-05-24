@@ -10,12 +10,12 @@
 
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id)H;
 - (double);
 - (double);
-- (double);
+- (double){Su|ӠB;
 - (double);
 
 @end

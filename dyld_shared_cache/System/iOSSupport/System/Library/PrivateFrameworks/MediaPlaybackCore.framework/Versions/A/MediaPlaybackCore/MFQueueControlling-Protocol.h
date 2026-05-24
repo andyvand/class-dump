@@ -4,16 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerPlaybackCoordinator, NSString;
+@class MPAVItem, NSArray, NSString;
+@protocol MFQueuePlayerItem;
 
 @protocol MFQueueControlling
+- (NSString *);
+- (void)32@0:(MPAVItem *)arg1 8@"ACAccount"16@"ACDClient"24;
+- (id <MFQueuePlayerItem>);
+- (void)sses:(NSString *)arg1 %@;
+- (double)U;
+- (void);
+- (void)ntCcG;
+- (void);
+- (NSArray *)e:(long long)arg1 Cannot auto enable mail dataclass;
 
 // Remaining properties
-@property(readonly, nonatomic) double crossfadeDuration;
-@property(readonly, nonatomic) AVPlayerPlaybackCoordinator *playbackCoordinator;
-@property(readonly, nonatomic) _Bool queueSupportsTransitionSettings;
 @property(readonly, copy, nonatomic) NSString *targetContentItemID;
-@property(readonly, nonatomic) long long transitionStyle;
-@property(readonly, nonatomic) _Bool transitionsEnabled;
 @end
 

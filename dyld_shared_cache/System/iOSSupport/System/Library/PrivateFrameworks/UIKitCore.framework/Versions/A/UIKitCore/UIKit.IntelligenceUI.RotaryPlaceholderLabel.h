@@ -9,15 +9,13 @@
 @interface UIKit.IntelligenceUI.RotaryPlaceholderLabel : UIView
 {
     id segmentLayout;
-    id _attributedText;
-    id _textSegmentsCovered;
 }
 
 - (struct CGSize);
 - (id);
 - (void);
 - (struct CGSize);
-- (id)bilityInterfaceStyleIntent;
+- (id)_accessibilityInterfaceStyleIntent;
 - (void)ÎÝÿq;
 
 // Remaining properties

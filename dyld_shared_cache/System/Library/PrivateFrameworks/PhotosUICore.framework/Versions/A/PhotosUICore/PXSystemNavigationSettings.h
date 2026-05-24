@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)ewController;
 + (id)Ò¿;
 - (id);
 

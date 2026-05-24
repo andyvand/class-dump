@@ -5,5 +5,8 @@
 //
 
 @protocol PKTextEffectsWindowObserverDelegate
+
+@optional
+- (void);
 @end
 

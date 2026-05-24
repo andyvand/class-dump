@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadePeoplePlaceholderView.PlaceholderModel__priv_419C98D6938A4A9A86638F0A04B048CC
 {
     id photoLibrary;
-    id _title;
-    id _message;
-    id _$observationRegistrar;
 }
 
 @end

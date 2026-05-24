@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL, NSXPCConnection;
+@class NSURL;
 
 @interface XProtectAnalysis
 {
     NSURL *_fileURL;
-    NSMutableDictionary *_lsProperties;
-    CDUnknownBlockType _feedback;
-    CDUnknownBlockType _results;
-    NSXPCConnection *_xpc;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)waitForPendingRebuild;
 - (void);
 - (void);
 - (id);

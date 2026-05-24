@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSSet, NSString;
+@class CNContact, NSString;
 
 @interface SGMeContact
 {
     CNContact *_meContact;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_formattedName;
-    NSSet *_emailAddresses;
-    NSSet *_phoneNumbers;
-    NSSet *_postalAddresses;
-    NSSet *_socialProfileIdentifiers;
 }
 
 + (id);
@@ -31,13 +24,7 @@
 - (id)E IF NOT EXISTS serializedContacts (id INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER,data BLOB);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSString *formattedName; // @synthesize formattedName=_formattedName;
 @property(readonly, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) NSSet *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, nonatomic) NSSet *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
-@property(readonly, nonatomic) NSSet *socialProfileIdentifiers; // @synthesize socialProfileIdentifiers=_socialProfileIdentifiers;
 
 @end
 

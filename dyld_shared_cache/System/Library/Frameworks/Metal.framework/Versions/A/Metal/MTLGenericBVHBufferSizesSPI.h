@@ -7,44 +7,28 @@
 @interface MTLGenericBVHBufferSizesSPI
 {
     unsigned long long _version;
-    unsigned long long _headerBufferSize;
-    unsigned long long _innerNodeBufferSize;
-    unsigned long long _leafNodeBufferSize;
-    unsigned long long _primitiveBufferSize;
-    unsigned long long _geometryBufferSize;
-    unsigned long long _instanceTransformBufferSize;
-    unsigned long long _perPrimitiveDataBufferSize;
-    unsigned long long _controlPointBufferSize;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)b;
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)a;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)9?1;
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long controlPointBufferSize; // @synthesize controlPointBufferSize=_controlPointBufferSize;
-@property(nonatomic) unsigned long long geometryBufferSize; // @synthesize geometryBufferSize=_geometryBufferSize;
-@property(nonatomic) unsigned long long headerBufferSize; // @synthesize headerBufferSize=_headerBufferSize;
-@property(nonatomic) unsigned long long innerNodeBufferSize; // @synthesize innerNodeBufferSize=_innerNodeBufferSize;
-@property(nonatomic) unsigned long long instanceTransformBufferSize; // @synthesize instanceTransformBufferSize=_instanceTransformBufferSize;
-@property(nonatomic) unsigned long long leafNodeBufferSize; // @synthesize leafNodeBufferSize=_leafNodeBufferSize;
-@property(nonatomic) unsigned long long perPrimitiveDataBufferSize; // @synthesize perPrimitiveDataBufferSize=_perPrimitiveDataBufferSize;
-@property(nonatomic) unsigned long long primitiveBufferSize; // @synthesize primitiveBufferSize=_primitiveBufferSize;
 @property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

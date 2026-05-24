@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MIDINetworkSession
 {
     void *_imp;
@@ -27,22 +25,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (id)q'1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectionPolicy;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSString *localName;
-@property(readonly, nonatomic) NSString *networkName;
-@property(readonly, nonatomic) unsigned long long networkPort;
 
 @end
 

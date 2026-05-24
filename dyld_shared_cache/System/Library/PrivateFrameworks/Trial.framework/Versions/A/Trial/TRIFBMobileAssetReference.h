@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString;
+@class AFBBufRef, NSString;
 
 @interface TRIFBMobileAssetReference
 {
     AFBBufRef *_br;
-    const struct MobileAssetReference *_ptr;
 }
 
 - (id);
 - (const char *);
+- (_Bool);
+- (id);
+- (const char *);
+- (const char *);
+- (id);
+- (id);
+- (id)j;
+- (id);
 - (_Bool);
 - (id);
-- (const char *);
-- (const char *);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (const char *);
+- (const char *)z;
 - (_Bool);
 - (id);
 - (id);
@@ -37,7 +36,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned char);
 - (id);
@@ -47,26 +46,7 @@
 - (id)Q(;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetName;
-@property(readonly, nonatomic) const char *assetNameAsCString;
-@property(readonly, nonatomic) NSData *assetNameAsData;
-@property(readonly, nonatomic) unsigned long long downloadSize;
-@property(readonly, nonatomic) unsigned char fileType;
-@property(readonly, nonatomic) _Bool hasDownloadSize;
-@property(readonly, nonatomic) _Bool hasFileType;
-@property(readonly, nonatomic) _Bool hasHasOnDemandFlag;
-@property(readonly, nonatomic) _Bool hasIsOnDemand;
-@property(readonly, nonatomic) _Bool hasOnDemandFlag;
-@property(readonly, nonatomic) _Bool isOnDemand;
-@property(readonly, nonatomic) NSString *specifier;
-@property(readonly, nonatomic) const char *specifierAsCString;
-@property(readonly, nonatomic) NSData *specifierAsData;
 @property(readonly, nonatomic) NSString *type;
-@property(readonly, nonatomic) const char *typeAsCString;
-@property(readonly, nonatomic) NSData *typeAsData;
-@property(readonly, nonatomic) NSString *version;
-@property(readonly, nonatomic) const char *versionAsCString;
-@property(readonly, nonatomic) NSData *versionAsData;
 
 @end
 

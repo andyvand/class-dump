@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol MPCQueueControllerBehaviorMusicDelegate;
 
 @protocol MPCQueueControllerBehaviorMusic
+- (void);
+- (_Bool)appBundleIdentifierForDataclass:(NSString *)arg1;
+- (void)AADataclassManager.m;
+- (_Bool);
+
+@optional
+- (_Bool)__objc_classlist__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool autoPlayEnabled;
 @property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicDelegate> musicBehaviorDelegate;
-@property(readonly, nonatomic) long long queueEndAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long repeatType;
-@property(readonly, nonatomic) long long shuffleType;
 @end
 

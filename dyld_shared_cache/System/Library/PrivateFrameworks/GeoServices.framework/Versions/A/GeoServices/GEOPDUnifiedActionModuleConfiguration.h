@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDUnifiedActionModuleConfiguration
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_buttonItems;
 }
 
 - (id);
-- (void);
+- (void)0:(id)arg1 8;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (id)32B36@40;
-- (id)tDescriptionString;
+- (id)_shortDescriptionString;
 - (id)¶h»H¼	À$Á;
 - (void)2YÜdJ@;
 

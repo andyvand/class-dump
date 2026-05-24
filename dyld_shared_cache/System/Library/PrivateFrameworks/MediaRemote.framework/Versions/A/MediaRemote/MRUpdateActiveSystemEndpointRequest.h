@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRUpdateActiveSystemEndpointRequestProtobuf;
+@class NSString;
 
 @interface MRUpdateActiveSystemEndpointRequest
 {
     _Bool _pairedDeviceSync;
-    _Bool _demoteWhenSyncingToCompanion;
-    _Bool _suppressPairedDeviceSync;
-    NSString *_outputDeviceUID;
-    NSString *_reason;
-    long long _changeType;
-    NSString *_previousOutputDeviceUID;
-    NSString *_clientBundleIdentifier;
-    long long _type;
-    double _disableDuration;
 }
 
 - (id);
@@ -26,10 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (double);
-- (id);
+- (double)trol"16@24;
+- (id)isTemporaryBackwardCompatibilityAsset;
 - (void);
-- (long long);
+- (long long)e to determine APNG / animated HEIC / animated WebP at path %@;
 - (_Bool);
 - (void);
 - (void);
@@ -38,8 +29,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_pendingSpeechRequestCounter;
+- (void)deregisterFromMyriadEventNotifications];
 - (void);
 - (void);
 - (long long);
@@ -50,17 +41,7 @@
 - (void)_hasCurrentlyPlaying;
 
 // Remaining properties
-@property(nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(copy, nonatomic) NSString *clientBundleIdentifier; // @synthesize clientBundleIdentifier=_clientBundleIdentifier;
-@property(nonatomic) _Bool demoteWhenSyncingToCompanion; // @synthesize demoteWhenSyncingToCompanion=_demoteWhenSyncingToCompanion;
-@property(nonatomic) double disableDuration; // @synthesize disableDuration=_disableDuration;
-@property(copy, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(nonatomic, getter=isPairedDeviceSync) _Bool pairedDeviceSync; // @synthesize pairedDeviceSync=_pairedDeviceSync;
 @property(copy, nonatomic) NSString *previousOutputDeviceUID; // @synthesize previousOutputDeviceUID=_previousOutputDeviceUID;
-@property(readonly, nonatomic) _MRUpdateActiveSystemEndpointRequestProtobuf *protobuf;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool suppressPairedDeviceSync; // @synthesize suppressPairedDeviceSync=_suppressPairedDeviceSync;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

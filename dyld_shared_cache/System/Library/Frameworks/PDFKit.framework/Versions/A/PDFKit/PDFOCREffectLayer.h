@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDFPage;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFOCREffectLayer
 {
     PDFPage *_page;
-    long long _displayBox;
-    struct CGRect _cropBox;
-    NSMutableArray *_quadLayers;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)setHasNumberOfTimesPrimaryClientDisconnectedHH2:(id)arg1;
 - (void);
-- (void)s;
+- (void)pageShadowMetrics;
 
 @end
 

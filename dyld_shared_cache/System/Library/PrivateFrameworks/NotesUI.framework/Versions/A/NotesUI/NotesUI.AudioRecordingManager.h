@@ -7,18 +7,6 @@
 @interface NotesUI.AudioRecordingManager
 {
     id recordingMethod;
-    id _recordingState;
-    id _currentRecordingDuration;
-    id _totalRecordingDuration;
-    id _samples;
-    id _recordingStartTime;
-    id timeObserver;
-    id waveformBuffer;
-    id identifier;
-    id liveTranscriptionCoordinator;
-    id attachmentModel;
-    id appBackgroundOccurred;
-    id noteMultitaskingOccurred;
 }
 
 - (void);

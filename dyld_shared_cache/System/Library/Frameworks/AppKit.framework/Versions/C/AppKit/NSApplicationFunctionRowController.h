@@ -4,56 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSApplicationFunctionRowContainer, NSFunctionRow, NSMutableArray, NSString, NSTouchBarCustomizationController, NSTouchBarEscapeKeyViewController, NSTouchBarFinder, NSTouchBarViewController, _NSQuickActionTouchBarClient;
+@class NSFunctionRow;
 
 __attribute__((visibility("hidden")))
 @interface NSApplicationFunctionRowController
 {
     NSFunctionRow *_applicationFunctionRowElement;
-    NSFunctionRow *_previousApplicationFunctionRowElement;
-    NSFunctionRow *_escapeKeyFunctionRowElement;
-    NSFunctionRow *_previousEscapeKeyFunctionRowElement;
-    NSMutableArray *_currentBars;
-    NSTouchBarViewController *_applicationTouchBarViewController;
-    NSTouchBarEscapeKeyViewController *_escapeKeyTouchBarViewController;
-    NSTouchBarCustomizationController *_customizationController;
-    NSApplicationFunctionRowContainer *_rootContainer;
-    NSTouchBarFinder *_finder;
-    _NSQuickActionTouchBarClient *_quickActionClient;
-    unsigned int _observingPopoversForCustomization:1;
-    unsigned int _wasEverActive:1;
 }
 
-+ (id);
++ (id)set_connectionCacheCellPurgeTimeout: /* Error: Ran out of types for this method. */;
 + (void)¾ØÈH;
 + (id)´ñÔÿE±p:(struct _NSZone *)arg1 J;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)_companionAppBundleIdentifier;
+- (_Bool)@ (PowerNap);
+- (void)y88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (void)SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)4;
 - (void);
 - (void)ome;
 - (void)¸{÷C;
 
 // Remaining properties
-@property(readonly) NSTouchBarCustomizationController *_customizationController;
-@property(readonly) _Bool alwaysWantsEscKeyReplacements;
 @property(readonly) NSFunctionRow *applicationFunctionRow; // @synthesize applicationFunctionRow=_applicationFunctionRowElement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

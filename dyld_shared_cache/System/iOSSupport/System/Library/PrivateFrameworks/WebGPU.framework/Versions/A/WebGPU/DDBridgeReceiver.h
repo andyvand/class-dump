@@ -9,13 +9,13 @@
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)e};
+- (void)containsAttachmentsInRange:(CDStruct_34f00414)arg1;
 - (id):(id)arg1:DefaultHash<unsigned long long>, Traits = WTF::HashMap<unsigned long long, WTF::RefPtr<WebGPU::Texture>, WTF::DefaultHash<unsigned long long>, WTF::UnsignedWithZeroKeyHashTraits<unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::UnsignedWithZeroKeyHashTraits<unsigned long long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)øÌ;
 

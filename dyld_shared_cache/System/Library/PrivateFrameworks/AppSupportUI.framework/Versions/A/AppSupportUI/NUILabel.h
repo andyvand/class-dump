@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)ce %@ result is %d;
 
 @end
 

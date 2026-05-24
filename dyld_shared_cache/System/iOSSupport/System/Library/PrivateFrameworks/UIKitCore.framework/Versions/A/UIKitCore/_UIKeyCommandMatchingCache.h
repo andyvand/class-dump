@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
-- (unsigned char);
-- (unsigned char);
+- (id)SString"24C32B36@"IMDAccount"40;
+- (unsigned char)delayedSaveSettings;
+- (unsigned char)_transferId;
 - (void);
-- (unsigned char);
-- (id);
-- (id);
+- (unsigned char)cordName (%@) with local guid (%@);
+- (id)ize_overwrite;
+- (id);
 - (void)¨,FÓ;
 
 // Remaining properties

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FARequestCoalescer
 {
     NSObject<OS_dispatch_queue> *_coalesceQueue;
-    NSMutableDictionary *_inFlightRequests;
 }
 
 + (id);
+- (void)commercialPlaying;
+- (id)Search;
+- (id)ActivityObject;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)X;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *coalesceQueue; // @synthesize coalesceQueue=_coalesceQueue;
-@property(retain, nonatomic) NSMutableDictionary *inFlightRequests; // @synthesize inFlightRequests=_inFlightRequests;
 
 @end
 

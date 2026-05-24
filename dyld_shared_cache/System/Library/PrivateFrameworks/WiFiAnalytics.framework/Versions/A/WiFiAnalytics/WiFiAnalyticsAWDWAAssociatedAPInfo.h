@@ -9,10 +9,6 @@
 @interface WiFiAnalyticsAWDWAAssociatedAPInfo
 {
     NSString *_deviceNameData;
-    NSString *_deviceNameElement;
-    NSString *_manufacturerElement;
-    NSString *_modelName;
-    NSString *_modelNumber;
 }
 
 - (void);
@@ -23,35 +19,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)dW;
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)tion %@.;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)noiseVelocityX;
 - (id);
 - (void);
-- (id);
+- (id)ib@9?;
 - (void);
 - (id)?28;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceNameData; // @synthesize deviceNameData=_deviceNameData;
-@property(retain, nonatomic) NSString *deviceNameElement; // @synthesize deviceNameElement=_deviceNameElement;
-@property(readonly, nonatomic) _Bool hasDeviceNameData;
-@property(readonly, nonatomic) _Bool hasDeviceNameElement;
 @property(readonly, nonatomic) _Bool hasManufacturerElement;
-@property(readonly, nonatomic) _Bool hasModelName;
-@property(readonly, nonatomic) _Bool hasModelNumber;
-@property(retain, nonatomic) NSString *manufacturerElement; // @synthesize manufacturerElement=_manufacturerElement;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(retain, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
 
 @end
 

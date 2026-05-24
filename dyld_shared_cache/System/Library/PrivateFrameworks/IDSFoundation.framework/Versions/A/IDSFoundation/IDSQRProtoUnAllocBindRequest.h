@@ -9,10 +9,6 @@
 @interface IDSQRProtoUnAllocBindRequest
 {
     IDSQRProtoMaterial *_clientContextBlob;
-    int _reason;
-    struct {
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
@@ -26,9 +22,9 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)ndedInquiryResponse=[240C]}24;
 - (void);
-- (void);
+- (void)tent_context>"16B24@"NSObject<OS_nw_error>"28;
 - (id);
 - (id);
 - (void)nse code, switch is ON !! ***********;
@@ -36,10 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterial *clientContextBlob; // @synthesize clientContextBlob=_clientContextBlob;
-@property(readonly, nonatomic) _Bool hasClientContextBlob;
 @property(nonatomic) _Bool hasReason;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

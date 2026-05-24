@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
-
 @interface CKTitleIcon
 {
     long long _imageType;
 }
 
-- (id);
+- (id)tributes;
 - (id);
 - (long long);
 - (id);
@@ -20,10 +18,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) NSString *imageName;
 @property(readonly, nonatomic) long long imageType; // @synthesize imageType=_imageType;
-@property(readonly, nonatomic) UIColor *preferredColor;
 
 @end
 

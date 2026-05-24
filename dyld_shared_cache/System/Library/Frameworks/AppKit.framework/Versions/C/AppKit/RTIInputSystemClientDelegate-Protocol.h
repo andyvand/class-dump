@@ -8,7 +8,7 @@
 
 @optional
 - (void);
-- (void)ith count %{public}ld;
 - (void);
+- (void)ith count %{public}ld;
 @end
 

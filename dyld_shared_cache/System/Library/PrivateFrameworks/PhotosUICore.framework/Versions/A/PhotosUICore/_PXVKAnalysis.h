@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAsset, PXVKImageAnalysis;
+@protocol PXDisplayAsset;
 
 @interface _PXVKAnalysis
 {
     id <PXDisplayAsset> _asset;
-    id <PXVKImageAnalysis> _analysis;
 }
 
 - (id);
-- (id);
+- (id)l2;
 - (id)riesEntryCardTimeSlotProvider:todays time slot is %s /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXVKImageAnalysis> analysis; // @synthesize analysis=_analysis;
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
 
 @end

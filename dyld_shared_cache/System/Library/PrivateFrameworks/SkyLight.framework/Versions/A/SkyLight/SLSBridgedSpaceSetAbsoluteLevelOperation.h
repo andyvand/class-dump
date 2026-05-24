@@ -9,19 +9,17 @@
 @interface SLSBridgedSpaceSetAbsoluteLevelOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     int _level;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)Sources/Persistence/PFCloudKitImportZoneContext.m;
+- (id)IS NULL AND %@ IS NULL;
+- (unsigned long long);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly) int level; // @synthesize level=_level;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

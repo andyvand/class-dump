@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PMLPlanProtocol
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *planId;

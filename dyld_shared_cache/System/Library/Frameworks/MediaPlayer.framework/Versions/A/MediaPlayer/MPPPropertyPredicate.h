@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPMediaPredicateValue, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPPPropertyPredicate
 {
     int _comparisonType;
-    NSString *_property;
-    MPPMediaPredicateValue *_value;
-    struct {
-        unsigned int comparisonType:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@y;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_inputViewController;
 - (void);
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (_Bool);
 - (id);
-- (void)m: /* Error: Ran out of types for this method. */;
+- (void)_itemKindClassForTranslatorForITLibItem: /* Error: Ran out of types for this method. */;
 - (void)r;
 
 // Remaining properties
-@property(nonatomic) int comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(nonatomic) _Bool hasComparisonType;
 @property(readonly, nonatomic) _Bool hasProperty;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *property; // @synthesize property=_property;
-@property(retain, nonatomic) MPPMediaPredicateValue *value; // @synthesize value=_value;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, NSString;
+@class NSMapTable;
 
 @interface SKClientBroker
 {
     NSMapTable *_clients;
-    NSHashTable *_subscriptionStatusListeners;
-    NSHashTable *_transactionListeners;
-    NSHashTable *_messageListeners;
-    int _unfinishedTransactionsToken;
-    int _receivedPurchaseIntentsToken;
 }
 
 + (id);
@@ -22,37 +17,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (id)u;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ath"32;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

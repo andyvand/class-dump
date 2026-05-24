@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBString;
+@class NSString, _INPBDateTimeRange, _INPBString, _INPBWellnessValue;
 
 @protocol _INPBWellnessObjectResultValue
+- (_INPBWellnessValue *);
+- (_INPBDateTimeRange *);
+- (void)s",R,N,V_requestParameters;
+- (void)0x;
+- (int)_currentLockedAutoAssetSelector;
+- (void);
 - (int);
-- (NSString *)od:(int)arg1;
-- (_INPBString *)ConfigureHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *)resolveInstanceMethod:(int)arg1;
+- (_INPBString *)provideEntitiesOptionsForConfigureHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRecordDate;
-@property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) _Bool hasUnit;
 @property(retain, nonatomic) _INPBDateTimeRange *recordDate;
-@property(nonatomic) int resultType;
-@property(retain, nonatomic) _INPBString *unit;
-@property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

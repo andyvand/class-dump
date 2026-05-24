@@ -7,13 +7,6 @@
 @interface CalendarUIKit.AttachmentsViewModel
 {
     id owningEvent;
-    id _attachmentControllers;
-    id _showPreviewController;
-    id _attachmentAlert;
-    id _attachmentItem;
-    id updateAttachmentStatus;
-    id updateDownloadProgress;
-    id _$observationRegistrar;
 }
 
 - (void);
@@ -23,8 +16,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)StringWithFormat: /* Error: Ran out of types for this method. */;
+- (id)targetElement;
+- (void)localizedStringWithFormat: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)|&;
 - (void);
 - (void);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)AXMessagesExtensionWindow;
 
 @end
 

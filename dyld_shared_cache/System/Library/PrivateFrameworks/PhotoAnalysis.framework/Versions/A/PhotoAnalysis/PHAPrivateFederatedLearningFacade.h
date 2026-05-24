@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, PGManager, PHPhotoLibrary;
+@class CPAnalytics;
 
 @interface PHAPrivateFederatedLearningFacade
 {
     CPAnalytics *_analytics;
-    PGManager *_graphManager;
-    PHPhotoLibrary *_systemPhotoLibrary;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)yDate: /* Error: Ran out of types for this method. */;
+- (void)asyncNotifyPhotosChallengeNewQuestionsWithNotificationDeliveryDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CPAnalytics *analytics; // @synthesize analytics=_analytics;
-@property(retain, nonatomic) PGManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(retain, nonatomic) PHPhotoLibrary *systemPhotoLibrary; // @synthesize systemPhotoLibrary=_systemPhotoLibrary;
 
 @end
 

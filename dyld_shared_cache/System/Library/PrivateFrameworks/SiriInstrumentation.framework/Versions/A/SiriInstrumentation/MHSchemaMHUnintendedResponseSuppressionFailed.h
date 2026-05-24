@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHUnintendedResponseSuppressionFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)shouldUpdateRouteWhenJumping;
 - (void);
-- (void);
+- (void)ec_GF2m_simple_oct2point;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id)QßÐ1Â0@ù
 × ;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKPCSKeyToRemove
 {
     long long _keyType;
-    NSData *_pcsKeyID;
 }
 
-+ (_Bool);
++ (_Bool)k**a;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)"16@?<v@?@"<MTLRenderPipelineState>"@"NSError">24;
 - (long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)	$;
 - (id)
 × ;
 - (void)ø;
 
 // Remaining properties
 @property(readonly, nonatomic) long long keyType; // @synthesize keyType=_keyType;
-@property(readonly, nonatomic) NSData *pcsKeyID; // @synthesize pcsKeyID=_pcsKeyID;
 
 @end
 

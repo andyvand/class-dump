@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface TetraSessionSerialized
 {
@@ -14,7 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *remoteIdentifier; // @dynamic remoteIdentifier;
-@property(nonatomic, copy) NSData *serializedSession; // @dynamic serializedSession;
 
 @end
 

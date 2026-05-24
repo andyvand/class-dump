@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTrafficBannerTextButton
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_text;
-    int _action;
-    int _buttonDisplay;
-    struct {
-        unsigned int has_action:1;
-        unsigned int has_buttonDisplay:1;
-    } _flags;
 }
 
-+ (_Bool)kupContext:(id)arg1;
++ (_Bool)setMerchantLookupContext:(id)arg1;
 - (void);
+- (void);
+- (_Bool)imageDataOfType: /* Error: Ran out of types for this method. */;
+- (id)ith a contact constraint violation. Core Data returned error:(int)arg1 %{public}@ from MOC %{public}@;
+- (int)ner, this save will fail with a contact constraint violation. Core Data returned error:%{public}@ from MOC %{public}@ /* Error: Ran out of types for this method. */;
+- (int);
 - (void);
 - (_Bool);
-- (id);
 - (int);
-- (int);
-- (void);
-- (_Bool);
-- (int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)handleVoiceTriggerWithActivationInfo:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -42,10 +35,10 @@
 - (_Bool);
 - (void);
 - (id)ields"b1"read_lookAroundPipRecords"b1"read_lookAroundViewRecords"b1"wrote_anyField"b1};
-- (id)ing;
-- (id)reRequest;
+- (id)hasSupportsWalkingSuggestionsAfterParking;
+- (id)GEOConfigGetAllValueInStoreRequest;
 - (void)W;
-- (id)Languages;
+- (id)displayLanguages;
 - (int)%f  > 
 ;
 - (void)aryDirectory.wsazt5/Sources/GeoServices/libaddr_obj/cpp/AddrObjGoogle/protobuf/io/coded_stream.cc;
@@ -53,13 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int action;
-@property(nonatomic) int buttonDisplay;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasButtonDisplay;
 @property(readonly, nonatomic) _Bool hasText;
-@property(retain, nonatomic) GEOFormattedString *text;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

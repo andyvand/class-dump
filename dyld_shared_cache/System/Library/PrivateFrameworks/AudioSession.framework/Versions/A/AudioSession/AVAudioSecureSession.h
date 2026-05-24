@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSArray, NSString;
+@class AVAudioSession;
 
 @interface AVAudioSecureSession
 {
     AVAudioSession *_innerSession;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (id);
-- (double);
-- (unsigned long long);
+- (void)_proposalNumber;
+- (_Bool)>",R;
+- (id)NEIKEv2GSPMPayload;
+- (id)NEFilterDataProvider;
+- (id)NEFilterExtensionProviderProtocol;
+- (_Bool)NEPolicySessionFileHandle;
+- (double)NEExtensionTunnelProviderContext;
+- (id)NEExtensionPacketTunnelProviderHostContext;
+- (double)NEAgentDNSProxyExtension;
+- (unsigned long long)NEDNSSettings;
 - (_Bool);
 - (id);
 - (id);
@@ -29,22 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double IOBufferDuration;
-@property(readonly) unsigned long long IOBufferFrameSize;
 @property(retain, nonatomic) AVAudioSession *_innerSession; // @synthesize _innerSession;
-@property(readonly) NSArray *availableCategories;
-@property(readonly) NSArray *availableModes;
-@property(readonly) NSString *category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double inputLatency;
-@property(readonly) double inputSampleRate;
-@property(readonly) NSString *mode;
-@property(readonly) Class superclass;
 
 @end
 

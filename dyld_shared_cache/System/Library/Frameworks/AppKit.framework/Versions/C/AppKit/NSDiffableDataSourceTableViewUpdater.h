@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface NSDiffableDataSourceTableViewUpdater : _NSDiffableDataSourceViewUpdater
 {
     NSTableViewDataSourceUpdatesController *_tableViewUpdates;
-    NSTableViewDiffableDataSourceImpl *_dataSource;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);

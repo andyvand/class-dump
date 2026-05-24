@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKReplicaManager
 {
     NSObject<OS_dispatch_queue> *_uuidAccessQueue;
-    NSMutableOrderedSet *_replicaUUIDs;
-    NSMutableDictionary *_replicaEntries;
-    NSMutableArray *_replicaManagerErrors;
-    CDUnknownBlockType _saveStateBlock;
-    _Bool _dirtyTokenSet;
-    _Bool _shouldPersist;
-    _Bool _testMode;
 }
 
 + (id);
@@ -32,15 +25,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)tNotRunningOnAccessQueue];
+- (id)E;
 - (void);
 - (void);
 - (void);
-- (_Bool)tributes;
+- (_Bool)strokeAttributes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *replicaManagerErrors;
 @property(nonatomic) _Bool testMode; // @synthesize testMode=_testMode;
 
 @end

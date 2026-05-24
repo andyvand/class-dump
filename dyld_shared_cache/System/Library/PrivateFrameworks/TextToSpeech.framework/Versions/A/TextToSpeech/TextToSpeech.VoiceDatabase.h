@@ -7,15 +7,6 @@
 @interface TextToSpeech.VoiceDatabase
 {
     id $defaultActor;
-    id $__lazy_storage_$_currentBootTime;
-    id debouncer;
-    id context;
-    id prefs;
-    id executor;
-    id $__lazy_storage_$_scheduler;
-    id $__lazy_storage_$_store;
-    id loaderMap;
-    id eventHandlers;
 }
 
 @end

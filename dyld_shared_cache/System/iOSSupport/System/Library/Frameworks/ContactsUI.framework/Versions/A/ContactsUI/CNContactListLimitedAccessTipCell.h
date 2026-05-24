@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListLimitedAccessTipView, CNContactListStyleApplier, NSString;
+@class CNContactListLimitedAccessTipView;
 @protocol CNContactListLimitedAccessTipCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListLimitedAccessTipCell
 {
     id <CNContactListLimitedAccessTipCellDelegate> _delegate;
-    CNContactListStyleApplier *_contactListStyleApplier;
-    CNContactListLimitedAccessTipView *_limitedAccessTipView;
 }
 
 - (void);
@@ -21,22 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_addressToRuntimeMetadataChunkInfoDict;
 - (void),N,V_effectView;
 - (void)ë;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNContactListStyleApplier *contactListStyleApplier; // @synthesize contactListStyleApplier=_contactListStyleApplier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactListLimitedAccessTipCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNContactListLimitedAccessTipView *limitedAccessTipView; // @synthesize limitedAccessTipView=_limitedAccessTipView;
-@property(readonly) Class superclass;
 
 @end
 

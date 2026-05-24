@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, IFColor, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface ISSegmentTintEffect
 {
     _Bool _hasSegmentedImage;
-    IFColor *_color;
-    CIImage *_segmentedImage;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)kCPLGetUseLastPrinterPref;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) IFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasSegmentedImage; // @synthesize hasSegmentedImage=_hasSegmentedImage;
-@property(readonly) unsigned long long hash;
 @property(copy) CIImage *segmentedImage; // @synthesize segmentedImage=_segmentedImage;
-@property(readonly) Class superclass;
 
 @end
 

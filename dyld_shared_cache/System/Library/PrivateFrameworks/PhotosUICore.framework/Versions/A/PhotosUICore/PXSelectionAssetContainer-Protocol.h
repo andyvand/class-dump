@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PHFetchResult;
+
 @protocol PXSelectionAssetContainer
 
+@optional
+- (PHFetchResult *);
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool px_canPerformFavoriteAction;
 @property(readonly, nonatomic) _Bool px_isEmpty;
-@property(readonly, nonatomic) _Bool px_isFavorite;
 @end
 

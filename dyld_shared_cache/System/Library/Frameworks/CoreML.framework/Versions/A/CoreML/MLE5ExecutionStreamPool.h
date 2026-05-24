@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class MLModelConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface MLE5ExecutionStreamPool
 {
     MLModelConfiguration *_modelConfiguration;
-    NSMutableSet *_pool;
-    NSMutableSet *_allStreams;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _modelSignpostId;
 }
 
 - (void);
@@ -30,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)¾¸½»¹¯º¬®¨­«©§ª¤¦ ¥£¡÷¢ôö·´¶ÈÍËÉÇÊÄÆÀÅÃÁ×ÂÔÖÐÕÓÑßÒÜÞØÝÛÙwÚtvðõóñÿòüþøýûùïúìîèíëéçêäæàåãáÏâÌÎHMKIGJDF@ECAWBTVPUSQ_R\^X][YZpusqr|~x}{yozlnhmkigjdf`ecaObLNõ9z,¸²}·	ôâãqÇ[áÐ%_V¦17þ0¢ª\CÑXÁ)ºüìZ¨I®úBQ·³}ó}öúòû;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *allStreams; // @synthesize allStreams=_allStreams;
 @property(readonly, copy, nonatomic) MLModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
-@property(readonly, nonatomic) unsigned long long modelSignpostId; // @synthesize modelSignpostId=_modelSignpostId;
-@property(readonly, nonatomic) NSMutableSet *pool; // @synthesize pool=_pool;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

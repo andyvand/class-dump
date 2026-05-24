@@ -7,12 +7,15 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFTableRowCardSection
+- (void)B;
+- (void);
+- (_Bool);
+- (void);
+- (void)#;
+- (NSArray *)__MPModelPropertyTVEpisodeKeepLocalManagedStatus__MAPPING_MISSING__;
+- (NSData *)fier;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cells;
-@property(copy, nonatomic) NSArray *compact_cells;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool scale_to_fit;
-@property(nonatomic) int vertical_alignment;
 @end
 

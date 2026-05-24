@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKKnowledgeStorage;
+@class _DKKnowledgeStorage;
 
 @interface _DKKnowledgeStorageSimpleKeyValueStore
 {
     _DKKnowledgeStorage *_storage;
-    NSString *_domain;
 }
 
-- (void);
+- (void)d displayName=%s;
 - (void);
 - (id);
 - (void)ñ©3°1Â0@ù

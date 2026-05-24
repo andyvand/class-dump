@@ -7,10 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepImportKey
 {
     id context;
-    id credential;
-    id sharedState;
-    id subcredential;
-    id handle;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAppletSubcredential, PKPassEntitlement, PKPaymentPass;
+@class PKPaymentPass;
 
 @interface PKAppletSubcredentialSharingRequest
 {
     _Bool _forLocalDevice;
-    PKPaymentPass *_pass;
-    PKAppletSubcredential *_credential;
-    NSString *_passIdentifier;
-    NSString *_credentialIdentifier;
-    PKPassEntitlement *_entitlement;
-    NSString *_recipientIdentifier;
-    NSString *_recipientName;
 }
 
 + (_Bool);
@@ -23,35 +16,28 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id)(;
+- (id))1;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id)@ù
 × ;
-- (void)RAUD_SUSPECTED;
+- (void)TRANSACTION_DECLINED_REASON_FRAUD_SUSPECTED;
 
 // Remaining properties
-@property(retain, nonatomic) PKAppletSubcredential *credential; // @synthesize credential=_credential;
-@property(readonly, copy, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(retain, nonatomic) PKPassEntitlement *entitlement; // @synthesize entitlement=_entitlement;
-@property(nonatomic, getter=isForLocalDevice) _Bool forLocalDevice; // @synthesize forLocalDevice=_forLocalDevice;
 @property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(readonly, copy, nonatomic) NSString *passIdentifier; // @synthesize passIdentifier=_passIdentifier;
-@property(copy, nonatomic) NSString *recipientIdentifier; // @synthesize recipientIdentifier=_recipientIdentifier;
-@property(copy, nonatomic) NSString *recipientName; // @synthesize recipientName=_recipientName;
 
 @end
 

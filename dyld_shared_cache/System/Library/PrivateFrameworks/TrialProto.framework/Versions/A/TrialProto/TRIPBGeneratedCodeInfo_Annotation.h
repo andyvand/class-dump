@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBInt32Array;
+@class TRIPBInt32Array;
 
 @interface TRIPBGeneratedCodeInfo_Annotation : TRIPBMessage
 {
@@ -15,14 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int begin; // @dynamic begin;
-@property(nonatomic) int end; // @dynamic end;
-@property(nonatomic) _Bool hasBegin; // @dynamic hasBegin;
-@property(nonatomic) _Bool hasEnd; // @dynamic hasEnd;
-@property(nonatomic) _Bool hasSourceFile; // @dynamic hasSourceFile;
 @property(retain, nonatomic) TRIPBInt32Array *pathArray; // @dynamic pathArray;
-@property(readonly, nonatomic) unsigned long long pathArray_Count; // @dynamic pathArray_Count;
-@property(copy, nonatomic) NSString *sourceFile; // @dynamic sourceFile;
 
 @end
 

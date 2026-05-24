@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIToneMapHeadroom : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSourceHeadroom;
-    NSNumber *inputTargetHeadroom;
 }
 
 + (id);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputSourceHeadroom; // @synthesize inputSourceHeadroom;
-@property(retain, nonatomic) NSNumber *inputTargetHeadroom; // @synthesize inputTargetHeadroom;
 
 @end
 

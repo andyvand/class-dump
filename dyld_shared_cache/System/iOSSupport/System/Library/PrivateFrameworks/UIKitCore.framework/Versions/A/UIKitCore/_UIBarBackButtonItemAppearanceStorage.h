@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIBarBackButtonItemAppearanceStorage
 {
     NSMutableDictionary *backgroundImages;
-    NSMutableDictionary *miniBackgroundImages;
-    NSValue *titlePositionOffset;
-    NSValue *miniTitlePositionOffset;
-    NSMutableDictionary *backgroundVerticalAdjustmentsForBarMetrics;
 }
 
 - (id);
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id)DataStringEntry";
-- (void)orAdaptiveNonLinearCarplayKeyboard;
-- (double)ip_setTabBarHidden:(long long)arg1;
+- (void)isColorAdaptiveNonLinearCarplayKeyboard;
+- (double)_uip_setTabBarHidden:(long long)arg1;
 - (void)9Äÿ®Óh£^;
 
 // Remaining properties

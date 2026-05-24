@@ -8,13 +8,6 @@
 {
     id _id;
     id _isFocusable;
-    id _recipeTitle;
-    id _ingredients;
-    id _recipeURL;
-    id _tipTitle;
-    id _tipMessage;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

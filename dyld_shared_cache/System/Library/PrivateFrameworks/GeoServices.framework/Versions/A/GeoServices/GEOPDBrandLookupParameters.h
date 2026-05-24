@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBrandLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSString *_imessageUid;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)1"read_detail"b1"read_nameShort"b1"read_name"b1"wrote_anyField"b1};
-- (id);
+- (id)_bindParameter:inStatement:error:withBinder: /* Error: Ran out of types for this method. */;
 - (id)àZ Û³PZ°Û³ÀZÀÛ³LZÐÛ³ZàÛ³ ZðÛ³)ZÜ³(GZÜ³h]ZÜ³ÐtZÝ³èZpÝ³P ZüÝ³«ZÞ³è¬Z(Þ³¼¯Z<Þ³¤±ZXÞ³¼ZlÞ³@¾ZÞ³\ÇZÞ³ØÜZìÞ³ìúZ|ß³ð[èß³\;[à³ÐL[á³Y[$á³l[[<á³t^[Pá³|`[lá³0j[á³l[á³°|[¨á³Ð\8â³\â³ô&\Üâ³@:\@ã³¤W\¤ã³4~\@ä³T\¨ä³°Â\¼ä³dÄ\Ðä³èÊ\då³Ì\|å³Ð\Ôå³¨Õ\Læ³Ø\æ³ÈÙ\°æ³pÛ\Äæ³8Ý\Üæ³Ôæ\¨ç³ ê\ /* Error: Ran out of types for this method. */;
 - (void)4	;
 

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (id)stallDragInteractionIfNeeded;
-- (_Bool)nterHoverWithTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
+- (id)installDragInteractionIfNeeded;
+- (_Bool)didPointerHoverWithTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
 - (id)(Ì4Í;
 - (struct CGColor *)Gwÿ;
 - (void);

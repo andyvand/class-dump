@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)save;
+- (void)rttLiveTranscriptionsFeatureFlagEnabled;
 - (id);
-- (id);
+- (id)";
 
 @end
 

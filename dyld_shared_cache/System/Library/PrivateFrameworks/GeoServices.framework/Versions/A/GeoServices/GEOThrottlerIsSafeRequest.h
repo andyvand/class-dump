@@ -6,21 +6,14 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEODataRequestThrottlerToken, NSString;
-
 @interface GEOThrottlerIsSafeRequest : GEOXPCRequest
 {
     _Bool _nextSafeRequestTime;
-    _Bool _availableRequestCount;
-    _Bool _includeToken;
-    int _requestKindType;
-    int _requestKindSubtype;
-    GEODataRequestThrottlerToken *_throttlerToken;
 }
 
-+ (Class);
++ (Class)0q48;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,23 +28,11 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)jectType:(id)arg1;
+- (void)setMapsSyncObjectType:(id)arg1;
 - (void)ÙY5Q@;
 
 // Remaining properties
-@property(nonatomic) _Bool availableRequestCount; // @synthesize availableRequestCount=_availableRequestCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeToken; // @synthesize includeToken=_includeToken;
-@property(nonatomic) _Bool nextSafeRequestTime; // @synthesize nextSafeRequestTime=_nextSafeRequestTime;
-@property(nonatomic) int requestKindSubtype; // @synthesize requestKindSubtype=_requestKindSubtype;
 @property(nonatomic) int requestKindType; // @synthesize requestKindType=_requestKindType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEODataRequestThrottlerToken *throttlerToken; // @synthesize throttlerToken=_throttlerToken;
 
 @end
 

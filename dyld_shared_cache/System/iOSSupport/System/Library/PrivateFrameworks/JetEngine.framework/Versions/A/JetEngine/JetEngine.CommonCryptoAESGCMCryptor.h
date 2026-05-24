@@ -7,13 +7,6 @@
 @interface JetEngine.CommonCryptoAESGCMCryptor
 {
     id cryptor;
-    id inputStream;
-    id outputStream;
-    id inputBuffer;
-    id outputBuffer;
-    id outputBufferSize;
-    id blockSize;
-    id state;
 }
 
 @end

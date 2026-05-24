@@ -6,66 +6,58 @@
 
 #import <ChatKit/CKMediaObject.h>
 
-@class FKOrderMessagesPreviewMetadata, LPWebLinkPresentationProperties, NSString, NSURL;
+@class FKOrderMessagesPreviewMetadata, LPWebLinkPresentationProperties;
 
 @interface CKOrderMediaObject : CKMediaObject
 {
     FKOrderMessagesPreviewMetadata *_metadata;
-    NSURL *_overrideMetadataProperties;
-    LPWebLinkPresentationProperties *_presentationProperties;
-    NSURL *_overrideFileURL;
 }
 
 + (_Bool);
-+ (id);
++ (id)A;
 + (void);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (Class);
++ (_Bool)_ր*;
+- (_Bool)setCurrentContextObject:(id)arg1;
+- (_Bool)imageClassificationSummaryVersion;
+- (_Bool)filePromiseProvider;
+- (_Bool)discardPreviewedResult;
+- (void)accessibilityIdentifier;
+- (void)accessibilityFrame;
+- (Class)animatableRange;
 - (id);
 - (id);
 - (id);
-- (Class);
+- (Class)D;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)entt;
 - (_Bool);
 - (id);
-- (int);
+- (Class)tIDs:(double)arg1 dates:(BOOL)arg2 referenceDate:direction:sizes of arrays don't match /* Error: Ran out of types for this method. */;
+- (id)se locked notes.;
 - (id);
-- (void)KAppStripLayoutAttributes;
+- (id);
+- (id);
+- (id);
+- (void)NotesDataObject;
+- (id);
+- (_Bool);
+- (id);
+- (int)=;
+- (id);
+- (void)CKAppStripLayoutAttributes;
 - (_Bool)ort encryption;
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) FKOrderMessagesPreviewMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSURL *overrideFileURL; // @synthesize overrideFileURL=_overrideFileURL;
-@property(retain, nonatomic) NSURL *overrideMetadataProperties; // @synthesize overrideMetadataProperties=_overrideMetadataProperties;
 @property(retain, nonatomic) LPWebLinkPresentationProperties *presentationProperties; // @synthesize presentationProperties=_presentationProperties;
-@property(readonly, copy, nonatomic) NSString *previewMetadataFilenameExtension;
-@property(readonly, nonatomic) _Bool supportsPreviewMetadata;
 
 @end
 

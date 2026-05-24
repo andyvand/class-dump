@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentFinalExecutionStarted : SISchemaInstrumentationMessage
 {
     int _plugin;
-    unsigned int _stackDepth;
-    struct {
-        unsigned int plugin:1;
-        unsigned int stackDepth:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -26,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)CHSWidgetDescriptor;
 - (int);
 - (id);
 - (void);
@@ -35,15 +28,11 @@
 - (_Bool);
 - (id);
 - (id)tEventMetadata";
-- (id)d;
+- (id)MHSchemaMHAssistantDaemonAudioConfigureStarted;
 - (id)P<;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlugin;
-@property(nonatomic) _Bool hasStackDepth;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int plugin; // @synthesize plugin=_plugin;
-@property(nonatomic) unsigned int stackDepth; // @synthesize stackDepth=_stackDepth;
 
 @end
 

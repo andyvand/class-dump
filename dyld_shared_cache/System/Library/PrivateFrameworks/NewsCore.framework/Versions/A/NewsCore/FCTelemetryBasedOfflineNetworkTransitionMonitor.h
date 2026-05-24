@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCMultiNetworkBehaviorMonitor, NFUnfairLock, NSDate, NSString;
-@protocol FCAppActivationMonitorType, FCNetworkTransitionMonitor, FCNewsAppConfigurationManager;
+@class NSDate;
+@protocol FCAppActivationMonitorType;
 
 @interface FCTelemetryBasedOfflineNetworkTransitionMonitor
 {
     NSDate *_dateOfLastTransition;
-    id <FCAppActivationMonitorType> _appActivationMonitor;
-    id <FCNewsAppConfigurationManager> _configurationManager;
-    FCMultiNetworkBehaviorMonitor *_networkBehaviorMonitor;
-    id <FCNetworkTransitionMonitor> _onlineTransitionMonitor;
-    NFUnfairLock *_dateOfLastTransitionLock;
 }
 
 - (void);
@@ -22,27 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (id)b;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)InstallImpressionValue;
+- (void)appInstallImpressionValue;
 - (id)at %{public}@, which is prior to the earliest allowed date of %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCAppActivationMonitorType> appActivationMonitor; // @synthesize appActivationMonitor=_appActivationMonitor;
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(copy, nonatomic) NSDate *dateOfLastTransition; // @synthesize dateOfLastTransition=_dateOfLastTransition;
-@property(readonly, nonatomic) NFUnfairLock *dateOfLastTransitionLock; // @synthesize dateOfLastTransitionLock=_dateOfLastTransitionLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FCMultiNetworkBehaviorMonitor *networkBehaviorMonitor; // @synthesize networkBehaviorMonitor=_networkBehaviorMonitor;
-@property(readonly, nonatomic) id <FCNetworkTransitionMonitor> onlineTransitionMonitor; // @synthesize onlineTransitionMonitor=_onlineTransitionMonitor;
-@property(readonly) Class superclass;
 
 @end
 

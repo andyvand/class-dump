@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MRCAMLAnimation
 {
     double startTime;
-    double duration;
-    _Bool removedOnCompletion;
-    NSString *keyPath;
-    NSArray *keyframes;
 }
 
 - (void);
@@ -23,7 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath;
-@property(retain, nonatomic) NSArray *keyframes; // @synthesize keyframes;
 
 @end
 

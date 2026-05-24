@@ -6,8 +6,6 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSString;
-
 @interface MRTextInputMessage : MRProtocolMessage
 {
 }
@@ -15,11 +13,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)nse %@ received %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long actionType;
-@property(readonly, nonatomic) NSString *text;
 
 @end
 

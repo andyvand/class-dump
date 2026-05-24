@@ -6,33 +6,29 @@
 
 #import <PhotosUICore/PXVideoProcessingOperation.h>
 
-@class NUImagePropertiesRequest, PIVideoStabilizeRequest, PLPhotoEditRenderer, PXVideoStabilizeOperationSpec;
+@class PLPhotoEditRenderer;
 @protocol PXVideoStabilizeResult;
 
 @interface PXVideoStabilizeOperation : PXVideoProcessingOperation
 {
     PLPhotoEditRenderer *_lock_renderer;
-    PIVideoStabilizeRequest *_lock_stabilizeRequest;
-    NUImagePropertiesRequest *_lock_imagePropertiesRequest;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void)/Versions/A/SilexVideo;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)CollectionCustomizationPeopleModelUtilities;
+- (void)LemonadeCollectionCustomizationPeopleModelUtilities;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXVideoStabilizeResult> result; // @dynamic result;
-@property(readonly, nonatomic) PXVideoStabilizeOperationSpec *spec; // @dynamic spec;
 
 @end
 

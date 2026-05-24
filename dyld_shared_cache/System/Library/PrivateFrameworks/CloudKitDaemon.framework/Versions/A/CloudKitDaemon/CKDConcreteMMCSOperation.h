@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKOperationInfo, NSString;
-@protocol CKDOperationCallbackProxy;
+@class NSString;
 
 @interface CKDConcreteMMCSOperation
 {
     _Bool _isLongLived;
-    NSString *_operationID;
-    CKOperationInfo *_operationInfo;
-    CKDContainer *_container;
-    id <CKDOperationCallbackProxy> _clientOperationCallbackProxy;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)!;
+- (id)sharedKeySetForKeys: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)tè;
 - (void)ng record zone to server:Protection data didn't match /* Error: Ran out of types for this method. */;
@@ -30,11 +25,7 @@
 - (void)éÿw;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKDOperationCallbackProxy> clientOperationCallbackProxy; // @synthesize clientOperationCallbackProxy=_clientOperationCallbackProxy;
-@property(retain, nonatomic) CKDContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) _Bool isLongLived; // @synthesize isLongLived=_isLongLived;
 @property(readonly, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(retain, nonatomic) CKOperationInfo *operationInfo; // @synthesize operationInfo=_operationInfo;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface Mail.DiskSpaceObserver
 {
     id queue;
-    id volume;
-    id source;
-    id update;
-    id lastValue;
 }
 
 @end

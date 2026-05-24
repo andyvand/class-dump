@@ -11,13 +11,11 @@
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool)';
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasActiveAccounts;
-@property(readonly, nonatomic) unsigned long long numberOfActiveAccounts;
 @property(readonly, copy, nonatomic) NSArray *receivingAddresses;
 
 @end

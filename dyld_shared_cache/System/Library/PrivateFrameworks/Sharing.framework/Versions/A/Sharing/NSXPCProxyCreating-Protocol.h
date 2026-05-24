@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCProxyCreating
+
+@optional
+- (id)objectForKeyedSubscript:(void (^)(NSError *))arg1;
 @end
 

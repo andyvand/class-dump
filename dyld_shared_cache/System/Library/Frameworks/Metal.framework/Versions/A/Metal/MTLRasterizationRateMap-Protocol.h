@@ -8,13 +8,11 @@
 @protocol MTLDevice;
 
 @protocol MTLRasterizationRateMap
+- (NSString *)	;
+- (CDStruct_da2e99ad);
+- (id <MTLDevice>)mieumacirclekorean;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long layerCount;
-@property(readonly) CDStruct_4bcfbbae parameterBufferSizeAndAlign;
-@property(readonly) CDStruct_da2e99ad physicalGranularity;
-@property(readonly) CDStruct_da2e99ad screenSize;
 @end
 

@@ -7,7 +7,6 @@
 @interface AMSAgeVerificationRequiredResult
 {
     _Bool _isVerificationRequired;
-    unsigned long long _requiredType;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property _Bool isVerificationRequired; // @synthesize isVerificationRequired=_isVerificationRequired;
-@property unsigned long long requiredType; // @synthesize requiredType=_requiredType;
 
 @end
 

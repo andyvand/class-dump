@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItem, NSString;
+@class MPMediaItem;
 
 @interface _MPMusicPlayerMediaItemProxy
 {
     MPMediaItem *_item;
-    NSString *_itemIdentifier;
 }
 
 - (id);
+- (id)+;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)class;
 - (void);
 - (id);
 - (void)addAdjunctError: /* Error: Ran out of types for this method. */;
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 
 @end
 

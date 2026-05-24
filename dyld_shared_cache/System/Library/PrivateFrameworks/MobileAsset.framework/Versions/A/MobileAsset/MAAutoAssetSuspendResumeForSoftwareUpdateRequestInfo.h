@@ -12,7 +12,7 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)ppkAuthenticated;
 - (id);
 - (id);
 - (void);

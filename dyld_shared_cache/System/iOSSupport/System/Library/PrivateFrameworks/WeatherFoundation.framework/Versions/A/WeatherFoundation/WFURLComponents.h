@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSLocale, NSString, NSURL;
-
 @interface WFURLComponents
 {
     _Bool _showHourlyWeatherOnly;
-    _Bool _isLocalWeatherCity;
-    unsigned long long _destination;
-    CLLocation *_location;
-    NSString *_locationName;
-    unsigned long long _cityIndex;
-    NSLocale *_locale;
-    NSString *_platform;
 }
 
 + (void);
 + (void);
-+ (id);
-+ (id);
++ (id)r>"24;
++ (id)32@0:(id)arg1 8@"PAURLRequest"16@"<PFCanceler>"24;
 + (_Bool);
 - (_Bool);
 - (void);
@@ -35,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)TEMPLATE_SHARING_MAX_REMINDER_COUNT_EXCEEDED_ALERT_MESSAGE;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -43,24 +34,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)G;
 - (id);
 - (void);
+- (id);
+- (void)PP;
 - (id);
 - (void)é;
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL;
-@property unsigned long long cityIndex; // @synthesize cityIndex=_cityIndex;
-@property unsigned long long destination; // @synthesize destination=_destination;
 @property _Bool isLocalWeatherCity; // @synthesize isLocalWeatherCity=_isLocalWeatherCity;
-@property(retain) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy) CLLocation *location; // @synthesize location=_location;
-@property(copy) NSString *locationName; // @synthesize locationName=_locationName;
-@property(retain) NSString *platform; // @synthesize platform=_platform;
-@property _Bool showHourlyWeatherOnly; // @synthesize showHourlyWeatherOnly=_showHourlyWeatherOnly;
 
 @end
 

@@ -6,38 +6,16 @@
 
 #import <TSReading/TSPContainedObject.h>
 
-@class TSPLazyReference, TSTCustomFormatList, TSTMergeRegionMap, TSTTableHeaderStorage, TSTTileIDKeyDict;
-
 @interface TSTTableDataStore : TSPContainedObject
 {
     struct TSTTableRBTreeNode_s *mColumnTileIndex;
-    struct TSTTableRBTreeNode_s *mRowTileIndex;
-    TSTTileIDKeyDict *mTileStorage;
-    TSTTableHeaderStorage *mRowHeaderStorage;
-    TSPLazyReference *mColumnHeaderStorageReference;
-    TSPLazyReference *mConditionalStyleSetTableReference;
-    TSPLazyReference *mStringTableReference;
-    TSPLazyReference *mStyleTableReference;
-    TSPLazyReference *mFormulaTableReference;
-    TSPLazyReference *mFormulaErrorTableReference;
-    TSPLazyReference *mRichTextPayloadTableReference;
-    TSPLazyReference *mFormatTableReference;
-    TSPLazyReference *mMultipleChoiceListFormatTableReference;
-    TSPLazyReference *mCommentStorageTableReference;
-    TSTCustomFormatList *mPasteboardCustomFormatList;
-    unsigned short mNextRowStripID;
-    unsigned short mNextColumnStripID;
-    TSTMergeRegionMap *mMergedCellRanges;
-    unsigned int mCellCount;
-    _Bool mCellCountValid;
-    _Bool mDrawableIsBeingCopied;
-    unsigned int mStorageVersion;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sectionedModelObjects=[ <%ld sections>
+;
+- (void)com.apple.MediaPlaybackCore/Siri;
+- (void)timeout expired;
+- (void)ause it was for a prior seek;
 - (_Bool);
 - (void);
 - (id);

@@ -9,35 +9,25 @@
 @interface AppStoreKit.BackgroundView
 {
     id borderWidth;
-    id borderColor;
-    id continuousCorners;
-    id roundedCorners;
-    id layoutMargins;
-    id visualEffectView;
 }
 
-- (_Bool);
+- (_Bool)Path;
 - (id);
-- (void);
+- (void)bundleForClass:(struct CGRect)arg1;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)&;
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (double)mlParserInput}ii^^{_xmlParserInput}^{_xmlNode}ii^^{_xmlNode}i{_xmlParserNodeInfoSeq=QQ^{_xmlParserNodeInfo}}iiiiii{_xmlValidCtxt=^v^?^?^{_xmlNode}ii^^{_xmlNode}I^{_xmlDoc}i^{_xmlValidState}ii^{_xmlValidState}^{_xmlAutomata}^{_xmlAutomataState}}ii**ii^*qqiii***^iii^ii^{_xmlParserInput}iiii^vii^vii^{_xmlDict}^*ii***iii^*^i^{_xmlStartTag}^{_xmlHashTable}^{_xmlHashTable}iiii^{_xmlNode}i^{_xmlAttr}{_xmlError=ii*i*i***ii^v^v}iQQ^{_xmlParserNodeInfo}ii^{_xmlParserNodeInfo}iQ}16@0:8 /* Error: Ran out of types for this method. */;
 - (void)ÞøÿÄCùÿ0bøÿ bøÿ"bøÿ;
-- (void)arseEverything;
+- (void)didParseEverything;
 - (void)ôÒ	G;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
 @property(nonatomic, retain) NSColor *backgroundColor;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) _Bool opaque;
-@property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end
 

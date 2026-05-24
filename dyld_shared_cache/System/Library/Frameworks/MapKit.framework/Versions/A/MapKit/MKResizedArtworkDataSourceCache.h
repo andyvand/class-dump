@@ -6,28 +6,24 @@
 
 #import <MapKit/MKArtworkDataSourceCache.h>
 
-@class NSCache;
-
 __attribute__((visibility("hidden")))
 @interface MKResizedArtworkDataSourceCache : MKArtworkDataSourceCache
 {
     CDUnknownBlockType _resizingBlock;
-    NSCache *_resizedImageCache;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (id);
 - (void);
 - (void)!Fùq*Ð1Â0@ù
 × ;
-- (void)ionManager:didSelectAddOrRemoveFromLibraryWithEnvironment:selectedAdd: /* Error: Ran out of types for this method. */;
+- (void)placeActionManager:didSelectAddOrRemoveFromLibraryWithEnvironment:selectedAdd: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSCache *resizedImageCache; // @synthesize resizedImageCache=_resizedImageCache;
 @property(readonly, copy, nonatomic) CDUnknownBlockType resizingBlock; // @synthesize resizingBlock=_resizingBlock;
 
 @end

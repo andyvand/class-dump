@@ -7,9 +7,6 @@
 @interface FamilyCircle.MessageUtil
 {
     id $defaultActor;
-    id messageStatusProvider;
-    id messageServiceAvailabilty;
-    id messageSigninProvider;
 }
 
 @end

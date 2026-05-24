@@ -8,15 +8,6 @@
 {
     id _prepareToShowCall;
     id _showingTranslationActivity;
-    id _moreMenuViewModel;
-    id _cancellable;
-    id logger;
-    id call;
-    id worker;
-    id service;
-    id languageViewModel;
-    id viewController;
-    id _$observationRegistrar;
 }
 
 @end

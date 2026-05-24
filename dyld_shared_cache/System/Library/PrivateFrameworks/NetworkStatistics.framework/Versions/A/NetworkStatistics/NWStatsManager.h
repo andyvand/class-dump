@@ -4,44 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NWStatsMonitor, NWStatsPollHandler;
-@protocol NWStatsManagerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface NWStatsManager
 {
     int _interfaceTraceFd;
-    char *_iftracebuf;
-    unsigned int _continuationCount;
-    unsigned int _consecutiveReadLimit;
-    unsigned long long _currentPollReference;
-    unsigned long long _nextPollReference;
-    double _trafficDeltaAdjustmentFactor;
-    _Bool _checkNESessionManagerVPNs;
-    _Bool _eagerInstantiate;
-    _Bool _handlingSocketReads;
-    int _currentRcvBufSize;
-    double _currentRcvBufTimestamp;
-    int _numAdaptiveRcvBufIncrements;
-    struct provider_counts _providerCounts[11];
-    struct combined_counts _combinedCounts;
-    _Bool _configured;
-    _Bool _invalidated;
-    int _sockfd;
-    id <NWStatsManagerDelegate> _delegate;
-    NSObject<OS_dispatch_source> *_readSource;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableDictionary *_internalSources;
-    NSMutableSet *_interfaceSources;
-    NWStatsMonitor *_statsMonitor;
-    unsigned long long _currentQueryAllReference;
-    unsigned long long _querySequenceNumber;
-    char *_readBuffer;
-    unsigned long long _readBufferSize;
-    NSMutableArray *_queuedPolls;
-    NWStatsPollHandler *_activePoll;
 }
 
-+ (id);
++ (id)=;
 + (void);
 - (int);
 - (id);
@@ -51,8 +22,8 @@
 - (void);
 - (void);
 - (int);
+- (int)1;
 - (int);
-- (int);
 - (id);
 - (id);
 - (int);
@@ -70,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -98,16 +69,16 @@
 - (void);
 - (id);
 - (void);
+- (void)cardViewDidAppear: /* Error: Ran out of types for this method. */;
+- (unsigned long long)anking,$time.today(-7d),$time.now(+1d)) || InRange(kMDItemMailDateLastViewed_Ranking,$time.today(-7d),$time.now(+1d)) || (InRange(kMDItemMailDateLastViewed_Ranking,$time.today(-30d),$time.now(+1d)) && !InRange(kMDItemMailDateReceived_Ranking,$time.today(-30d),$time.now(+1d))));
+- (id)PRSRankingRecency90Days2;
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (int)PackageComponent:(CDUnknownBlockType)arg1 %@, brainBundlePackageComponent:%@ /* Error: Ran out of types for this method. */;
 - (int);
-- (int);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)#;
+- (void)of artrace trace info block is smaller than structure (%{errno}d);
+- (void)updateAutocorrectionListGivenOutdatedInput:(unsigned long long)arg1 andUpdatedInput: /* Error: Ran out of types for this method. */;
+- (id)ActionHistory;
 - (_Bool);
 - (id);
 - (id);
@@ -119,21 +90,7 @@
 - (void)Q]}}}"nstat_rxduplicatebytes"Q"nstat_rxoutoforderbytes"Q"nstat_txretransmit"Q"nstat_min_rtt"I"nstat_avg_rtt"I"nstat_var_rtt"I"nstat_xtra_flags"I"nstat_xtra_uuid"[16C]}"provider"I"reserved"[4C]"tcp_desc"{nstat_tcp_descriptor="upid"Q"eupid"Q"start_timestamp"Q"timestamp"Q"rx_transfer_size"Q"tx_transfer_size"Q"activity_bitmap"{activity_bitmap="start"Q"bitmap"[2Q]}"ifindex"I"state"I"sndbufsize"I"sndbufused"I"rcvbufsize"I"rcvbufused"I"txunacked"I"txwindow"I"txcwindow"I"traffic_class"I"traffic_mgt_flags"I"pid"I"epid"I"local"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"remote"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"cc_algo"[16c]"pname"[64c]"uuid"[16C]"euuid"[16C]"vuuid"[16C]"fuuid"[16C]"persona_id"I"uid"I""(?="connstatus"{tcp_conn_status=""(?=""{?="probe_activated"b1"write_probe_failed"b1"read_probe_failed"b1"conn_probe_failed"b1}"pad_field"I)}"__pad_connstatus"[4C])"ifnet_properties"I"fallback_mode"C"reserved"[3C]}};
 
 // Remaining properties
-@property(retain) NWStatsPollHandler *activePoll; // @synthesize activePoll=_activePoll;
-@property(retain) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property _Bool configured; // @synthesize configured=_configured;
-@property unsigned long long currentQueryAllReference; // @synthesize currentQueryAllReference=_currentQueryAllReference;
-@property(nonatomic) __weak id <NWStatsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableSet *interfaceSources; // @synthesize interfaceSources=_interfaceSources;
-@property(retain) NSMutableDictionary *internalSources; // @synthesize internalSources=_internalSources;
-@property(getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property unsigned long long querySequenceNumber; // @synthesize querySequenceNumber=_querySequenceNumber;
-@property(retain) NSMutableArray *queuedPolls; // @synthesize queuedPolls=_queuedPolls;
-@property char *readBuffer; // @synthesize readBuffer=_readBuffer;
-@property unsigned long long readBufferSize; // @synthesize readBufferSize=_readBufferSize;
 @property(retain) NSObject<OS_dispatch_source> *readSource; // @synthesize readSource=_readSource;
-@property int sockfd; // @synthesize sockfd=_sockfd;
-@property(retain) NWStatsMonitor *statsMonitor; // @synthesize statsMonitor=_statsMonitor;
 
 @end
 

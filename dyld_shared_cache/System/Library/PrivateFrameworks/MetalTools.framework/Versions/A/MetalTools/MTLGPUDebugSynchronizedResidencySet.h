@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLDevice, MTLResidencySet;
+@protocol MTLResidencySet;
 
 @interface MTLGPUDebugSynchronizedResidencySet
 {
     id <MTLResidencySet> _residencySet;
-    id <MTLDevice> _baseDevice;
-    struct shared_mutex _mutex;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id) ;
 - (void)pelineDescriptor"16Q24^@32;
 - (id)rTargetArrayLength is %lu, but the texture only has %lu slices.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long allocationCount;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

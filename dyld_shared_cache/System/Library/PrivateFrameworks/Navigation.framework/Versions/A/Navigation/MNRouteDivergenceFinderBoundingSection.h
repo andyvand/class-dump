@@ -8,45 +8,35 @@ __attribute__((visibility("hidden")))
 @interface MNRouteDivergenceFinderBoundingSection
 {
     MNRouteDivergenceFinderBoundingSection *_left;
-    MNRouteDivergenceFinderBoundingSection *_right;
-    unsigned long long _leafIndex;
-    double _length;
-    GEOPolylineCoordinateRange_1706676a _range;
-    CDStruct_02837cd9 _boundingRect;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_CoordinateSpaceModifier;
+- (id)NavigationSearchDisabledAdjustmentModifier;
 - (unsigned long long);
+- (id)AccessibilityAttachmentChild;
+- (void).G4;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (double);
 - (id);
 - (id);
-- (struct GEOPolylineCoordinateRange);
+- (GEOPolylineCoordinateRange_e9365640);
 - (id);
 - (void);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262)%@
+};
 - (void)!èCùQð1Â0@ù
 × ;
 - (_Bool)GlNTiCYB0uPioBY9TDbg0/Library/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Location/LocationTracking/MNAlternateRoutesUpdater.m;
 
 // Remaining properties
-@property(nonatomic) CDStruct_02837cd9 boundingRect; // @synthesize boundingRect=_boundingRect;
-@property(readonly, nonatomic) _Bool isLeaf;
-@property(nonatomic) unsigned long long leafIndex; // @synthesize leafIndex=_leafIndex;
-@property(retain, nonatomic) MNRouteDivergenceFinderBoundingSection *left; // @synthesize left=_left;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(nonatomic) GEOPolylineCoordinateRange_3ad5eabb range; // @synthesize range=_range;
-@property(retain, nonatomic) MNRouteDivergenceFinderBoundingSection *right; // @synthesize right=_right;
+@property(nonatomic) struct GEOPolylineCoordinateRange range; // @synthesize range=_range;
 
 @end
 

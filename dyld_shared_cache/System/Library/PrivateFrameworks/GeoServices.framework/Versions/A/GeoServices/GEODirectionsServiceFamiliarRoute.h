@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEODirectionsServiceFamiliarRoute
 {
     void routeUUID;
-    void segments;
 }
 
 - (id);
+- (id)stringByAppendingString:(id)arg1;
+- (id)R;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)tWithOptions:preparationHandler:executionHandler:finalizationHandler:] /* Error: Ran out of types for this method. */;
 - (void)ÿºJÖ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *routeUUID;
-@property(nonatomic, readonly) NSArray *segments;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface ktrace.WakeListener
 {
     id notices;
-    id reporter;
 }
 
 @end

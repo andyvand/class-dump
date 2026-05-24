@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface EKDayOccurrenceViewIterator
 {
     long long _currentIndex;
-    long long _firstTimedOccurrenceIndex;
-    NSArray *_occurrenceViews;
 }
 
-- (void);
-- (id);
+- (void)&s;
+- (id)s;
+- (long long)&&s;
+- (void)(s;
+- (long long)&s;
 - (long long);
 - (void);
+- (id)%s;
 - (long long);
 - (long long);
 - (void);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
+- (id)nProvisioningRequest";
 - (long long);
 - (void);
-- (id);
-- (void)ionalProperties: /* Error: Ran out of types for this method. */;
+- (id)xpc-message-unhandled-error-reply;
+- (void)prefetchAttendeesWithAdditionalProperties: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long firstTimedOccurrenceIndex; // @synthesize firstTimedOccurrenceIndex=_firstTimedOccurrenceIndex;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *occurrenceViews; // @synthesize occurrenceViews=_occurrenceViews;
-@property(readonly) Class superclass;
 
 @end
 

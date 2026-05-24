@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAsset, PHFace, PXPeopleFaceCropFetchOptions;
+@class PXPeopleFaceCropFetchOptions;
 
 @interface PXPeopleFaceCropRequest
 {
     _Bool _canceled;
-    int _faceCropRequestID;
-    int _imageManagerRequestID;
-    PXPeopleFaceCropFetchOptions *_options;
-    PHFace *_face;
-    PHAsset *_asset;
-    struct CGPoint _normalizedCenterEyeLine;
-    struct CGSize _targetSizeToUse;
-    struct CGRect _normalizedFaceCropRect;
-    struct CGRect _normalizedEdgeAdjustedCropRect;
-    struct CGRect _flippedNormalizedEdgeAdjustedCropRect;
-    struct CGRect _normalizedSmallFaceRect;
-    struct CGRect _smallFaceRect;
 }
 
 + (int);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)c ;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGPoint);
@@ -42,7 +30,7 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id)free cohort cap ;
 - (id);
 - (id);
 - (_Bool);
@@ -52,19 +40,7 @@
 - (void)LemonadeFixedShelvesDataSource;
 
 // Remaining properties
-@property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(retain, nonatomic) PHFace *face; // @synthesize face=_face;
-@property(readonly, nonatomic) int faceCropRequestID; // @synthesize faceCropRequestID=_faceCropRequestID;
-@property(readonly, nonatomic) struct CGRect flippedNormalizedEdgeAdjustedCropRect; // @synthesize flippedNormalizedEdgeAdjustedCropRect=_flippedNormalizedEdgeAdjustedCropRect;
-@property(nonatomic) int imageManagerRequestID; // @synthesize imageManagerRequestID=_imageManagerRequestID;
-@property(nonatomic) struct CGPoint normalizedCenterEyeLine; // @synthesize normalizedCenterEyeLine=_normalizedCenterEyeLine;
-@property(nonatomic) struct CGRect normalizedEdgeAdjustedCropRect; // @synthesize normalizedEdgeAdjustedCropRect=_normalizedEdgeAdjustedCropRect;
-@property(nonatomic) struct CGRect normalizedFaceCropRect; // @synthesize normalizedFaceCropRect=_normalizedFaceCropRect;
-@property(nonatomic) struct CGRect normalizedSmallFaceRect; // @synthesize normalizedSmallFaceRect=_normalizedSmallFaceRect;
 @property(readonly, nonatomic) PXPeopleFaceCropFetchOptions *options; // @synthesize options=_options;
-@property(nonatomic) struct CGRect smallFaceRect; // @synthesize smallFaceRect=_smallFaceRect;
-@property(nonatomic) struct CGSize targetSizeToUse; // @synthesize targetSizeToUse=_targetSizeToUse;
 
 @end
 

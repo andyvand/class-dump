@@ -9,8 +9,6 @@
 @interface AppleMediaServices.BagServiceValueFetcher__priv_DB210F3D31AA4C5BFE8754B925F1C106
 {
     NSString *key;
-    id bagLoader;
-    id valueFetcher;
 }
 
 - (void);
@@ -21,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isLoaded;
 @property(nonatomic, readonly) NSString *key; // @synthesize key;
 
 @end

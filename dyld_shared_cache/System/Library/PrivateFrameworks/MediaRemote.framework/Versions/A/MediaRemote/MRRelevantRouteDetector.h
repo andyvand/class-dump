@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVRoutingDiscoverySession, NSMutableArray, NSObject, NSString;
-@protocol MRRelevantRouteDetectorDataSource, MRRelevantRouteDetectorDelegate, OS_dispatch_queue;
+@protocol MRRelevantRouteDetectorDelegate;
 
 @interface MRRelevantRouteDetector
 {
     _Bool _relevantRouteDetected;
-    _Bool _isMonitoring;
-    id <MRRelevantRouteDetectorDelegate> _delegate;
-    id <MRRelevantRouteDetectorDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSString *_initiator;
-    NSObject<OS_dispatch_queue> *_queue;
-    MRAVRoutingDiscoverySession *_discoverySession;
-    NSMutableArray *_relevantEndpoints;
 }
 
 - (void);
@@ -25,29 +16,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
-- (void);
+- (_Bool);
+- (void)Created with remote identifier:(_Bool)arg1 %s, Websocket URL %s;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
+- (id)ter";
+- (void)ft/libswift_Builtin_float.dylib;
+- (void)8@"NSArray"16@"NSString"24@"NSDate"32;
+- (void)IMOffGridModeInvitationManagerErrorDomain;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)initWithCommandId:isComplete:paramMatches: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -55,16 +46,7 @@
 - (void)sageProtobuf",&,N,V_setNowPlayingPlayerMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <MRRelevantRouteDetectorDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(nonatomic) __weak id <MRRelevantRouteDetectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(retain, nonatomic) MRAVRoutingDiscoverySession *discoverySession; // @synthesize discoverySession=_discoverySession;
-@property(readonly, nonatomic) NSString *initiator; // @synthesize initiator=_initiator;
-@property(nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(readonly, nonatomic, getter=isMonitoring) _Bool monitoring;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *relevantEndpoints; // @synthesize relevantEndpoints=_relevantEndpoints;
-@property(nonatomic) _Bool relevantRouteDetected; // @synthesize relevantRouteDetected=_relevantRouteDetected;
 
 @end
 

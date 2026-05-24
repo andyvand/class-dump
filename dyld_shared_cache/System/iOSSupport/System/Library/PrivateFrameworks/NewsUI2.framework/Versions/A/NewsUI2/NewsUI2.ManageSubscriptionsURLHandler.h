@@ -7,7 +7,6 @@
 @interface NewsUI2.ManageSubscriptionsURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

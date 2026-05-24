@@ -17,15 +17,15 @@
 - (void);
 - (void);
 - (void);
+- (void)$TiL;
+- (void);
+- (void)TiL;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)ressReadOnly;
+- (id);
+- (id);
+- (void)pickupAddressReadOnly;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *pageTag; // @synthesize pageTag=_pageTag;

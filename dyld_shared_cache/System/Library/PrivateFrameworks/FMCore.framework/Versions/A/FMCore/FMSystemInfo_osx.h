@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)t];
 - (id);
-- (id);
-- (id);
-- (id)tributes:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 
 @end
 

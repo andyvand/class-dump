@@ -25,15 +25,14 @@
 - (int *);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)_keyPath;
 
 // Remaining properties
-@property(readonly, nonatomic) int *conditions;
 @property(readonly, nonatomic) unsigned long long conditionsCount;
 
 @end

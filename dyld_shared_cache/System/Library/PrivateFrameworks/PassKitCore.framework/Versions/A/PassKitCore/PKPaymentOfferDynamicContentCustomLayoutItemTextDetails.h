@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKPaymentOfferDynamicContentCustomLayoutItemTextDetails
 {
     _Bool _bold;
-    NSString *_text;
-    NSSet *_textLinks;
-    NSString *_altText;
-    unsigned long long _font;
-    unsigned long long _textColor;
 }
 
 + (_Bool)0@ù
@@ -28,27 +23,22 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setLength:(id)arg1;
+- (void)AWDCoreRoutineLocationAwarenessIntervalHistogram;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (void)1Â0@ù
 × ;
-- (id)tContactPhone;
+- (id)defaultContactPhone;
 - (void)T@"PKPaymentOfferInstallmentAssessment",&,N,V_installmentAssessment;
 - (void)n;
 - (void)©;
 - (_Bool)øÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altText; // @synthesize altText=_altText;
-@property(nonatomic, getter=isBold) _Bool bold; // @synthesize bold=_bold;
-@property(nonatomic) unsigned long long font; // @synthesize font=_font;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) unsigned long long textColor; // @synthesize textColor=_textColor;
-@property(copy, nonatomic) NSSet *textLinks; // @synthesize textLinks=_textLinks;
 
 @end
 

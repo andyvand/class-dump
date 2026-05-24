@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDialog, CKStoreAction, NSData, NSDictionary, NSError, NSString;
+@class NSDictionary, NSString;
 
 @interface CKStoreResponse
 {
     NSString *_MIMEType;
-    NSDictionary *_bodyPlist;
-    long long _httpStatusCode;
-    NSDictionary *_headers;
-    NSData *_body;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)r %@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)M5;
 - (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CKStoreAction *action;
-@property(readonly, nonatomic) NSData *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSDictionary *bodyPlist;
-@property(readonly, copy, nonatomic) CKDialog *dialog;
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
-@property(readonly, nonatomic) long long status;
 
 @end
 

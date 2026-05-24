@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)Reasons;
+- (unsigned long long)AVControlCenterVideoEffectsModuleGetUnavailableReasons;
 @end
 

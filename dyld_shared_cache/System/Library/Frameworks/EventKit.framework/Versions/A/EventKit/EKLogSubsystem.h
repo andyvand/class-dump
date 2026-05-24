@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)econds;
++ (id)[MRScreenMirroringObserver] <%p> Notify mirroring ON.;
++ (id)kMRLanguageOptionAllowEmptySelection;
++ (id)r supported client.;
++ (id)MRAVEndpointGroupSessionHostingEligibilityDidChangeNotification;
 + (id);
 + (id);
 + (id);

@@ -5,15 +5,10 @@
 //
 
 @class NSArray;
-@protocol MPSHandle, MPSImageAllocator;
 
 @interface MPSNNGraph
 {
     struct Graph _graph;
-    id <MPSImageAllocator> _destinationImageAllocator;
-    unsigned long long _format;
-    _Bool _resultIsNeeded;
-    _Bool _outputStateIsTemporary;
 }
 
 + (id);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Tm;
 - (id);
 - (_Bool);
 - (id);
@@ -33,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (id);
@@ -43,25 +38,17 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id);
+- (void)0;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)++;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)a;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <MPSImageAllocator> destinationImageAllocator; // @synthesize destinationImageAllocator=_destinationImageAllocator;
-@property(nonatomic) unsigned long long format; // @synthesize format=_format;
-@property(readonly, copy, nonatomic) NSArray *intermediateImageHandles;
-@property(nonatomic) _Bool outputStateIsTemporary; // @synthesize outputStateIsTemporary=_outputStateIsTemporary;
-@property(readonly, nonatomic) id <MPSHandle> resultHandle;
-@property(readonly, nonatomic) _Bool resultImageIsNeeded;
-@property(readonly, copy, nonatomic) NSArray *resultStateHandles;
 @property(readonly, copy, nonatomic) NSArray *sourceImageHandles;
-@property(readonly, copy, nonatomic) NSArray *sourceStateHandles;
 
 @end
 

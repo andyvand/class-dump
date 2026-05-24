@@ -4,64 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelObserveLogEvent
 {
     _Bool _didLoseStatuses;
-    _Bool _didAddStatuses;
-    _Bool _didUpdateStatuses;
-    _Bool _didFindPrimary;
-    _Bool _didPrimaryChange;
-    _Bool _isStatusesEmpty;
-    long long _count;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)e;
+- (id)_currentETADate;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)JA9H;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)ded %d;
+- (id);
 - (long long)remove existing HomePod sensor accessory:%@ - %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didAddStatuses; // @synthesize didAddStatuses=_didAddStatuses;
-@property(readonly, nonatomic) _Bool didFindPrimary; // @synthesize didFindPrimary=_didFindPrimary;
 @property(readonly, nonatomic) _Bool didLoseStatuses; // @synthesize didLoseStatuses=_didLoseStatuses;
-@property(readonly, nonatomic) _Bool didPrimaryChange; // @synthesize didPrimaryChange=_didPrimaryChange;
-@property(readonly, nonatomic) _Bool didUpdateStatuses; // @synthesize didUpdateStatuses=_didUpdateStatuses;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool isStatusesEmpty; // @synthesize isStatusesEmpty=_isStatusesEmpty;
-@property(readonly) Class superclass;
 
 @end
 

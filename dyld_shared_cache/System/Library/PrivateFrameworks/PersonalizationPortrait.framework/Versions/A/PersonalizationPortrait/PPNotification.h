@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PPNotification
 {
     NSString *_bundleId;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_message;
-    NSDate *_date;
 }
 
 + (_Bool);
+- (id)x;
+- (id)clearTexture:(id)arg1 commandQueue: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)4;
 - (id);
 - (id);
 - (id);
@@ -31,14 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

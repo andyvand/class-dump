@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NWStatisticsSource;
+
 @protocol NWStatisticsSourceDelegate
+
+@optional
+- (void)oudKitContainerId:(NWStatisticsSource *)arg1 bundleId:completion: /* Error: Ran out of types for this method. */;
 @end
 

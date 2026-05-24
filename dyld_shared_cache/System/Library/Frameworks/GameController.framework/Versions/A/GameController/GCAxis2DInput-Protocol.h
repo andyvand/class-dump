@@ -7,14 +7,11 @@
 @class NSSet;
 
 @protocol GCAxis2DInput
+- (void (^)(id <GCPhysicalInputElement>, id <GCAxis2DInput>, struct GCPoint2));
+- (double)l;
+- (NSSet *)+;
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) struct GCPoint2 value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 @end
 

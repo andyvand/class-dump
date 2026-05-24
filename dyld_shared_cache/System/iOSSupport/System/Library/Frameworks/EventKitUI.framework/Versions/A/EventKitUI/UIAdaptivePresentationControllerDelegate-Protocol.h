@@ -7,7 +7,11 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)UIEventInviteesEditViewController;
+- (void);
+- (void);
+- (long long)ޢO,;
+- (void);
+- (_Bool)EKUIEventInviteesEditViewController;
 - (long long);
 - (void)ment is a download link to an external website, would you like to continue opening the attachment in web browser?;
 @end

@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface PGSpecialPOIResolver
 {
     NSArray *_momentNodes;
-    NSMutableDictionary *_countBySpecialPOI;
 }
 
-+ (unsigned long long);
-+ (unsigned long long);
-+ (_Bool);
-+ (_Bool);
++ (unsigned long long)disableTRMStateAndInformUserIfNeededWithCompletionBlock:(id)arg1;
++ (unsigned long long)didPerformAction:(struct CLLocationCoordinate2D)arg1 withElementController: /* Error: Ran out of types for this method. */;
++ (_Bool)dictionaryWithObjectsAndKeys:(id)arg1;
++ (_Bool)dialogHasEverBeenDisplayed;
 + (id);
 + (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)leLineMode;
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)T+;
+- (unsigned long long));
 - (void)@"NSString"8Q16;
-- (id)ies;
+- (id)rankGraphMeaningEntities;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *countBySpecialPOI; // @synthesize countBySpecialPOI=_countBySpecialPOI;
 @property(readonly, nonatomic) NSArray *momentNodes; // @synthesize momentNodes=_momentNodes;
 
 @end

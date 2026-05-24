@@ -6,37 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ORCHSchemaORCHDeviceDynamicContext : SISchemaInstrumentationMessage
 {
     int _thermalState;
-    int _motionActivity;
-    unsigned long long _timeSinceAssistantDaemonStartedInMs;
-    _Bool _headGesturesSupported;
-    _Bool _headGesturesEnabled;
-    int _acceptProceedGesture;
-    int _declineDismissGesture;
-    _Bool _isWifiEnabled;
-    int _bluetoothState;
-    int _flashlightLevel;
-    _Bool _isChatGPTEnabled;
-    NSArray *_genAIAgentsEnableds;
-    _Bool _isSoundAnalysisEnabled;
-    struct {
-        unsigned int thermalState:1;
-        unsigned int motionActivity:1;
-        unsigned int timeSinceAssistantDaemonStartedInMs:1;
-        unsigned int headGesturesSupported:1;
-        unsigned int headGesturesEnabled:1;
-        unsigned int acceptProceedGesture:1;
-        unsigned int declineDismissGesture:1;
-        unsigned int isWifiEnabled:1;
-        unsigned int bluetoothState:1;
-        unsigned int flashlightLevel:1;
-        unsigned int isChatGPTEnabled:1;
-        unsigned int isSoundAnalysisEnabled:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -78,7 +50,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)po;
 - (void);
 - (void);
 - (void);
@@ -98,12 +70,12 @@
 - (int);
 - (_Bool);
 - (int);
-- (int);
-- (int);
+- (int)addLocalMonitorForEventsMatchingMask:handler: /* Error: Ran out of types for this method. */;
+- (int)unt:%ld,endFailCount:%ld,errorCount:%ld,anomalyCount:%ld,failureCount:%ld,faultCount:%ld,stateEventCount:%ld,allIndications:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)Hints;
+- (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
@@ -112,38 +84,13 @@
 - (void);
 - (id);
 - (id);
-- (id)aemonAudioSessionSetInactiveContext;
+- (id)_assistantDaemonAudioSessionSetInactiveContext;
 - (id)evicePropertiesReported",&,N,V_watchOSDevicePropertiesReported;
 - (void)Resolution.toolId;
 - (void)peUnion.nlxClientEvent.cdmMatchingSpanEndedTier1.matchingSpans.internalSpanData.siriVocabularySpanData.priorOrdinality;
 
 // Remaining properties
-@property(nonatomic) int acceptProceedGesture; // @synthesize acceptProceedGesture=_acceptProceedGesture;
-@property(nonatomic) int bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(nonatomic) int declineDismissGesture; // @synthesize declineDismissGesture=_declineDismissGesture;
-@property(nonatomic) int flashlightLevel; // @synthesize flashlightLevel=_flashlightLevel;
-@property(copy, nonatomic) NSArray *genAIAgentsEnableds; // @synthesize genAIAgentsEnableds=_genAIAgentsEnableds;
-@property(nonatomic) _Bool hasAcceptProceedGesture;
-@property(nonatomic) _Bool hasBluetoothState;
-@property(nonatomic) _Bool hasDeclineDismissGesture;
-@property(nonatomic) _Bool hasFlashlightLevel;
-@property(nonatomic) _Bool hasHeadGesturesEnabled;
-@property(nonatomic) _Bool hasHeadGesturesSupported;
-@property(nonatomic) _Bool hasIsChatGPTEnabled;
-@property(nonatomic) _Bool hasIsSoundAnalysisEnabled;
-@property(nonatomic) _Bool hasIsWifiEnabled;
-@property(nonatomic) _Bool hasMotionActivity;
-@property(nonatomic) _Bool hasThermalState;
-@property(nonatomic) _Bool hasTimeSinceAssistantDaemonStartedInMs;
-@property(nonatomic) _Bool headGesturesEnabled; // @synthesize headGesturesEnabled=_headGesturesEnabled;
-@property(nonatomic) _Bool headGesturesSupported; // @synthesize headGesturesSupported=_headGesturesSupported;
-@property(nonatomic) _Bool isChatGPTEnabled; // @synthesize isChatGPTEnabled=_isChatGPTEnabled;
-@property(nonatomic) _Bool isSoundAnalysisEnabled; // @synthesize isSoundAnalysisEnabled=_isSoundAnalysisEnabled;
-@property(nonatomic) _Bool isWifiEnabled; // @synthesize isWifiEnabled=_isWifiEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int motionActivity; // @synthesize motionActivity=_motionActivity;
 @property(nonatomic) int thermalState; // @synthesize thermalState=_thermalState;
-@property(nonatomic) unsigned long long timeSinceAssistantDaemonStartedInMs; // @synthesize timeSinceAssistantDaemonStartedInMs=_timeSinceAssistantDaemonStartedInMs;
 
 @end
 

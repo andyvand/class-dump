@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEntryTextView, NSString;
+
 @protocol CKMessageEntryTextViewTextFormattingDelegate
+- (void);
+- (void)datePickerWindowWithType:(CKMessageEntryTextView *)arg1 representedObject:(struct _NSRange)arg2 selectedRange:(NSDictionary * (^)(NSDictionary *))arg3;
+- (void)datePickerWindowWithType:(CKMessageEntryTextView *)arg1 representedObject:(NSString *)arg2;
+- (void)dateHeadersTypeUserDefaultsKey;
 @end
 

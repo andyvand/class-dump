@@ -4,66 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSMutableDictionary, NSObject, NSString, UNNotificationIcon, UNNotificationSound, UNUserNotificationCenter;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary;
 
 @interface CUUserNotificationSession
 {
     NSMutableDictionary *_actions;
-    _Bool _actionsChanged;
-    long long _actionsNextIndex;
-    _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSString *_requestIdentifier;
-    int _state;
-    NSError *_stepError;
-    int _stepState;
-    NSObject<OS_dispatch_source> *_timer;
-    UNUserNotificationCenter *_unCenter;
-    struct LogCategory *_ucat;
-    unsigned int _flags;
-    int _interruptionLevel;
-    CDUnknownBlockType _actionHandler;
-    NSString *_bodyKey;
-    NSArray *_bodyArguments;
-    NSString *_bundleID;
-    NSString *_categoryID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_header;
-    UNNotificationIcon *_icon;
-    NSString *_iconAppIdentifier;
-    NSString *_iconName;
-    NSString *_iconPath;
-    NSString *_iconSystemName;
-    NSString *_identifier;
-    NSString *_label;
-    NSArray *_mockActions;
-    NSString *_mockID;
-    UNNotificationSound *_sound;
-    long long _soundAlertType;
-    NSString *_subtitleKey;
-    NSArray *_subtitleArguments;
-    double _timeoutSeconds;
-    NSString *_titleKey;
-    NSArray *_titleArguments;
-    NSDictionary *_userInfo;
 }
 
 + (void);
 + (void);
 + (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)l
+;
 - (void);
 - (void);
 - (void);
@@ -90,23 +52,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id)setAuthenticationType: /* Error: Ran out of types for this method. */;
+- (int)ing;
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -126,43 +88,11 @@
 × ;
 - (void)±A/°1Â0@ù
 × ;
-- (void)dvertiseFlags;
+- (void)_advertiseFlags;
 - (id)ress;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(copy, nonatomic) NSArray *bodyArguments; // @synthesize bodyArguments=_bodyArguments;
-@property(copy, nonatomic) NSString *bodyKey; // @synthesize bodyKey=_bodyKey;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *categoryID; // @synthesize categoryID=_categoryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *header; // @synthesize header=_header;
-@property(copy, nonatomic) UNNotificationIcon *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *iconAppIdentifier; // @synthesize iconAppIdentifier=_iconAppIdentifier;
-@property(copy, nonatomic) NSString *iconName; // @synthesize iconName=_iconName;
-@property(copy, nonatomic) NSString *iconPath; // @synthesize iconPath=_iconPath;
-@property(copy, nonatomic) NSString *iconSystemName; // @synthesize iconSystemName=_iconSystemName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int interruptionLevel; // @synthesize interruptionLevel=_interruptionLevel;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy) NSArray *mockActions; // @synthesize mockActions=_mockActions;
-@property(copy) NSString *mockID; // @synthesize mockID=_mockID;
-@property(copy, nonatomic) UNNotificationSound *sound; // @synthesize sound=_sound;
-@property(nonatomic) long long soundAlertType; // @synthesize soundAlertType=_soundAlertType;
-@property(copy, nonatomic) NSArray *subtitleArguments; // @synthesize subtitleArguments=_subtitleArguments;
-@property(copy, nonatomic) NSString *subtitleKey; // @synthesize subtitleKey=_subtitleKey;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
-@property(copy, nonatomic) NSArray *titleArguments; // @synthesize titleArguments=_titleArguments;
-@property(copy, nonatomic) NSString *titleKey; // @synthesize titleKey=_titleKey;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

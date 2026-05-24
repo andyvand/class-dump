@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLSchemaFLCandidateIdentifier : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_candidateId;
-    _Bool _hasCandidateId;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)NSMenuItemValidation;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *candidateId; // @synthesize candidateId=_candidateId;
-@property(nonatomic) _Bool hasCandidateId; // @synthesize hasCandidateId=_hasCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

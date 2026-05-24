@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedGroupDebugCandidates
 {
     id candidateItems;
-    id candidateItemsByIdentifier;
-    id deduplicateItemIdentifiers;
-    id filterJournals;
 }
 
 @end

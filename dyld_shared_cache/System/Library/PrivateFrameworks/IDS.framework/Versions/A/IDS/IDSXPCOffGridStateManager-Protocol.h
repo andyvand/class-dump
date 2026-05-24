@@ -5,5 +5,10 @@
 //
 
 @protocol IDSXPCOffGridStateManager
+- (void);
+- (void)~"T;
+- (void);
+- (void)C;
+- (void);
 @end
 

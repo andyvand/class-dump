@@ -7,7 +7,6 @@
 @interface IMDPersistence.SqlOperation.Row
 {
     id sqlOperation;
-    id columns;
 }
 
 @end

@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABDebugPanelExperimentBranch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_branchLabel;
-    NSString *_branchName;
-    NSString *_experimentId;
-    NSString *_experimentName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_branchLabel:1;
-        unsigned int read_branchName:1;
-        unsigned int read_experimentId:1;
-        unsigned int read_experimentName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)abled:(id)arg1;
-- (void);
++ (_Bool)setHasMapSettingsHeadingEnabled:(id)arg1;
+- (void)_downstreamScheduler;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,34 +26,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_handleVoiceTriggerFirstPassFromHearstAP:(id)arg1 deviceId:audioProviderUUID:firstPassInfo:rtModelRequestOptions:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Script compatibility mode;
 - (_Bool);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)caleWithLocaleIdentifier:(struct _NSZone *)arg1;
-- (id)verWaypoints;
+- (id)localeWithLocaleIdentifier:(struct _NSZone *)arg1;
+- (id)_autocompleteOriginationEditingServerWaypoints;
 - (id)H³4´;
 - (id).json;
-- (void)eId;
+- (void)unitTypeId;
 - (id);
 - (void)N%7;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *branchLabel;
-@property(retain, nonatomic) NSString *branchName;
-@property(retain, nonatomic) NSString *experimentId;
-@property(retain, nonatomic) NSString *experimentName;
-@property(readonly, nonatomic) _Bool hasBranchLabel;
-@property(readonly, nonatomic) _Bool hasBranchName;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasExperimentName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

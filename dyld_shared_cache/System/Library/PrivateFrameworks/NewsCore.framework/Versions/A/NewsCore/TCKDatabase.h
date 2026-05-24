@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSMutableArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableArray, NSMutableDictionary;
 
 @interface TCKDatabase
 {
     NSMutableArray *_tQueriedRecordTypes;
-    NSMutableArray *_tQueriedRecordZonesNames;
-    NSMutableArray *_tFetchedRecords;
-    NSMutableArray *_tFetchedChangedRecordZoneNames;
-    NSMutableArray *_tQueriedRecords;
-    NSMutableArray *_tSavedRecords;
-    NSMutableSet *_tSavedRecordIDs;
-    NSMutableArray *_tSavedZones;
-    NSMutableArray *_tDeletedZoneIDs;
-    NSMutableArray *_tDeletedRecordIDs;
-    NSMutableArray *_tSavedSubscriptions;
-    CDUnknownBlockType _tQueryHandler;
-    CDUnknownBlockType _tFetchRecordsHandler;
-    CDUnknownBlockType _tModifyRecordsOperationHandler;
-    CDUnknownBlockType _tModifyRecordsHandler;
-    CDUnknownBlockType _tFetchZonesHandler;
-    CDUnknownBlockType _tModifyZonesHandler;
-    CDUnknownBlockType _tFetchZoneChangesHandler;
-    CDUnknownBlockType _tFetchRecordZoneChangesOperationHandler;
-    CDUnknownBlockType _tFetchDatabaseChangesHandler;
-    NSMutableDictionary *_recordsByID;
 }
 
 - (id);
@@ -45,10 +25,11 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`;
 - (id);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -65,46 +46,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void)x\;
-- (id)de;
-- (void)ation;
+- (id)halfLifeCoefficientOverride;
+- (void)notification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *recordsByID; // @synthesize recordsByID=_recordsByID;
-@property(readonly, nonatomic) CKRecord *secureSentinelRecord;
-@property(readonly, nonatomic) CKRecord *sentinelRecord;
-@property(retain, nonatomic) NSMutableArray *tDeletedRecordIDs; // @synthesize tDeletedRecordIDs=_tDeletedRecordIDs;
-@property(retain, nonatomic) NSMutableArray *tDeletedZoneIDs; // @synthesize tDeletedZoneIDs=_tDeletedZoneIDs;
-@property(copy, nonatomic) CDUnknownBlockType tFetchDatabaseChangesHandler; // @synthesize tFetchDatabaseChangesHandler=_tFetchDatabaseChangesHandler;
-@property(copy, nonatomic) CDUnknownBlockType tFetchRecordZoneChangesOperationHandler; // @synthesize tFetchRecordZoneChangesOperationHandler=_tFetchRecordZoneChangesOperationHandler;
-@property(copy, nonatomic) CDUnknownBlockType tFetchRecordsHandler; // @synthesize tFetchRecordsHandler=_tFetchRecordsHandler;
-@property(copy, nonatomic) CDUnknownBlockType tFetchZoneChangesHandler; // @synthesize tFetchZoneChangesHandler=_tFetchZoneChangesHandler;
-@property(copy, nonatomic) CDUnknownBlockType tFetchZonesHandler; // @synthesize tFetchZonesHandler=_tFetchZonesHandler;
-@property(retain, nonatomic) NSMutableArray *tFetchedChangedRecordZoneNames; // @synthesize tFetchedChangedRecordZoneNames=_tFetchedChangedRecordZoneNames;
-@property(retain, nonatomic) NSMutableArray *tFetchedRecords; // @synthesize tFetchedRecords=_tFetchedRecords;
-@property(copy, nonatomic) CDUnknownBlockType tModifyRecordsHandler; // @synthesize tModifyRecordsHandler=_tModifyRecordsHandler;
-@property(copy, nonatomic) CDUnknownBlockType tModifyRecordsOperationHandler; // @synthesize tModifyRecordsOperationHandler=_tModifyRecordsOperationHandler;
-@property(copy, nonatomic) CDUnknownBlockType tModifyZonesHandler; // @synthesize tModifyZonesHandler=_tModifyZonesHandler;
-@property(retain, nonatomic) NSMutableArray *tQueriedRecordTypes; // @synthesize tQueriedRecordTypes=_tQueriedRecordTypes;
-@property(retain, nonatomic) NSMutableArray *tQueriedRecordZonesNames; // @synthesize tQueriedRecordZonesNames=_tQueriedRecordZonesNames;
-@property(retain, nonatomic) NSMutableArray *tQueriedRecords; // @synthesize tQueriedRecords=_tQueriedRecords;
-@property(copy, nonatomic) CDUnknownBlockType tQueryHandler; // @synthesize tQueryHandler=_tQueryHandler;
-@property(retain, nonatomic) NSMutableSet *tSavedRecordIDs; // @synthesize tSavedRecordIDs=_tSavedRecordIDs;
-@property(retain, nonatomic) NSMutableArray *tSavedRecords; // @synthesize tSavedRecords=_tSavedRecords;
-@property(retain, nonatomic) NSMutableArray *tSavedSubscriptions; // @synthesize tSavedSubscriptions=_tSavedSubscriptions;
-@property(retain, nonatomic) NSMutableArray *tSavedZones; // @synthesize tSavedZones=_tSavedZones;
 
 @end
 

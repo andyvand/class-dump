@@ -7,7 +7,6 @@
 @interface SNDSPGraphBox
 {
     void *_box;
-    struct shared_ptr<DSPGraph::Graph> _graph;
 }
 
 - (id);

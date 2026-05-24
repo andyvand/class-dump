@@ -6,8 +6,6 @@
 
 #import <AddressBook/ABCardViewMultiValue.h>
 
-@class NSString;
-
 @interface ABCardViewMutableMultiValue : ABCardViewMultiValue
 {
 }
@@ -31,16 +29,10 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)edAtDestination:(_Bool)arg1 forDraggedRowsWithIndexes: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedRowsWithIndexes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

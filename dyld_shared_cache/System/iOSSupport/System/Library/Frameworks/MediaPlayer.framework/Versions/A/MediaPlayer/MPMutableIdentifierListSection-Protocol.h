@@ -7,10 +7,14 @@
 @class NSArray, NSString;
 
 @protocol MPMutableIdentifierListSection
-- (NSArray *);
+- (void);
+- (void)P%3@3;
+- (void)overridingSystemValue;
+- (void)alterTypeStmt;
+- (void);
+- (NSArray *)upNextItemCount;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *itemIdentifiers;
 @property(readonly, copy, nonatomic) NSString *sectionIdentifier;
 @end
 

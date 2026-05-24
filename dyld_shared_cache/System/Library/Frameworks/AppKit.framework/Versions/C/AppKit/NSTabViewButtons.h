@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSTabView *_tabView;
 }
 
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
 - (void);

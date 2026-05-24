@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PPSourceMetadata
 {
     unsigned char _flags;
-    unsigned short _donationCount;
-    unsigned short _contactHandleCount;
-    unsigned int _dwellTimeSeconds;
-    unsigned int _lengthSeconds;
-    unsigned int _lengthCharacters;
 }
 
 + (_Bool);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int)@32@40@?48@?56;
+- (id):(unsigned char)arg1 8@16@24@32;
+- (id)currentlyRenderingCount;
 - (unsigned short);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)mmar;
 - (unsigned short);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (_Bool);
 - (id);
@@ -37,13 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short contactHandleCount; // @synthesize contactHandleCount=_contactHandleCount;
-@property(readonly, nonatomic) unsigned short donationCount; // @synthesize donationCount=_donationCount;
 @property(readonly, nonatomic) unsigned int dwellTimeSeconds; // @synthesize dwellTimeSeconds=_dwellTimeSeconds;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) unsigned char flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) unsigned int lengthCharacters; // @synthesize lengthCharacters=_lengthCharacters;
-@property(readonly, nonatomic) unsigned int lengthSeconds; // @synthesize lengthSeconds=_lengthSeconds;
 
 @end
 

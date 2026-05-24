@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecipientAvailabilities, IMServiceReachabilityContext, NSSet;
-
 @interface CKPendingConversationStatusRefreshContext
 {
     _Bool _isForPendingConversation;
-    IMServiceReachabilityContext *_customContext;
-    NSSet *_preconditionsIgnoredForServices;
-    CKRecipientAvailabilities *_availabilities;
 }
 
-- (void);
+- (void)_aboveExistingHighlights;
 - (void);
 - (id);
-- (id);
+- (id)ted string;
 - (id);
 - (void);
 - (void);
@@ -29,10 +24,7 @@
 - (void)4;
 
 // Remaining properties
-@property(retain, nonatomic) CKRecipientAvailabilities *availabilities; // @synthesize availabilities=_availabilities;
-@property(retain, nonatomic) IMServiceReachabilityContext *customContext; // @synthesize customContext=_customContext;
 @property(nonatomic) _Bool isForPendingConversation; // @synthesize isForPendingConversation=_isForPendingConversation;
-@property(retain, nonatomic) NSSet *preconditionsIgnoredForServices; // @synthesize preconditionsIgnoredForServices=_preconditionsIgnoredForServices;
 
 @end
 

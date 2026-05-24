@@ -11,10 +11,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void)T?;
 - (id);
-- (void);
-- (id)pletion:(id)arg1;
+- (void)linkRegister;
+- (id)carKeyPreWarmForManufacturer:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 
 @end
 

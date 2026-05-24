@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)insertSections:withRowAnimation: /* Error: Ran out of types for this method. */;
++ (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)PKPassTileViewAccessibility;
 
 @end
 

@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioFetchRouteStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)at the device does not support SFR (usesSFRSoftwareUpdates=NO);
 - (id);
-- (void);
-- (void);
+- (void)#;
+- (void)characters;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)d:(id)arg1;
+- (id)setHasHashedHomeKitAccessoryId:(id)arg1;
 - (id)N,V_ended;
-- (_Bool)OCK_ID;
+- (_Bool)JOINABILITY_BY_LOGICAL_CLOCK_ID;
 - (_Bool)¬Æÿé¸;
 - (void)Éÿ°}H(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

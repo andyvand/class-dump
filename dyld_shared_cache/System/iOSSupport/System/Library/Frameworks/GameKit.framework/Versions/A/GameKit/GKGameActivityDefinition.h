@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface GKGameActivityDefinition
 {
     void identifier;
     void groupIdentifier;
-    void title;
-    void details;
-    _Bool supportsPartyCode;
-    NSURL *_fallbackURL;
-    NSURL *imageURL;
-    void language;
-    NSURL *partyStartURL;
-    NSNumber *__minPlayers;
-    NSNumber *internalMaxPlayers;
-    void defaultProperties;
-    unsigned long long releaseState;
-    long long playStyle;
-    void associatedLeaderboardIDs;
-    void associatedAchievementDescriptionIDs;
 }
 
 + (void);
 + (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -46,35 +32,18 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)or (;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSURL *_fallbackURL; // @synthesize _fallbackURL;
-@property(nonatomic, readonly) NSArray *associatedAchievementDescriptionIDs;
-@property(nonatomic, readonly) NSArray *associatedLeaderboardIDs;
-@property(nonatomic, readonly) NSDictionary *defaultProperties;
-@property(nonatomic, readonly) NSString *details;
-@property(nonatomic, readonly) NSURL *fallbackURL;
 @property(nonatomic, readonly) NSString *groupIdentifier;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSURL *imageURL; // @synthesize imageURL;
-@property(nonatomic, readonly) NSNumber *internalMaxPlayers; // @synthesize internalMaxPlayers;
-@property(nonatomic, readonly) NSString *language;
-@property(nonatomic, readonly) NSNumber *maxPlayers;
-@property(nonatomic, retain) NSNumber *minPlayers; // @synthesize minPlayers=__minPlayers;
-@property(nonatomic, readonly) NSURL *partyStartURL; // @synthesize partyStartURL;
-@property(nonatomic, readonly) long long playStyle; // @synthesize playStyle;
-@property(nonatomic, readonly) unsigned long long releaseState; // @synthesize releaseState;
-@property(nonatomic, readonly) _Bool supportsPartyCode; // @synthesize supportsPartyCode;
-@property(nonatomic, readonly) _Bool supportsUnlimitedPlayers;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

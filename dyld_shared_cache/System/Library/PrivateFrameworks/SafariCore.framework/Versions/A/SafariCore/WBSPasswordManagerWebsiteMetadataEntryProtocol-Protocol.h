@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @protocol WBSPasswordManagerWebsiteMetadataEntryProtocol
+- (NSDictionary *);
+- (id);
+- (NSDictionary *)ssing mapping for MPModelPropertyTVSeasonNumber;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *keychainItemDescription;
-@property(readonly, nonatomic) NSDictionary *originalBackingDictionary;
 @end
 

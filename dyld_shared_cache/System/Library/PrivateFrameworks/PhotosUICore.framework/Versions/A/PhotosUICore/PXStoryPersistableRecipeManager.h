@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSProgress, NSString, PXStoryModel, PXStoryRecipeAssetEdits, PXStoryRecipeManager, PXStoryResourcesDataSourceManager, PXStoryStyleManager, PXUpdater;
-@protocol OS_dispatch_queue, PFStoryRecipe, PXStoryErrorReporter;
+@class PXStoryModel;
 
 @interface PXStoryPersistableRecipeManager
 {
     _Bool _isReadyToProducePersistableRecipe;
-    _Bool _isProducingPersistableRecipe;
-    _Bool _isOriginalPersistableRecipeValid;
-    _Bool _hasUserExperiencedPlayback;
-    _Bool _hasUserExperiencedFirstPlaybackEver;
-    _Bool _isPreparedForUserChanges;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    id <PFStoryRecipe> _persistableRecipe;
-    PXStoryRecipeAssetEdits *_recipeAssetEdits;
-    NSError *_error;
-    PXStoryModel *_model;
-    id <PXStoryErrorReporter> _errorReporter;
-    PXStoryRecipeManager *_recipeManager;
-    PXStoryResourcesDataSourceManager *_resourcesDataSourceManager;
-    PXStoryStyleManager *_styleManager;
-    id <PFStoryRecipe> _originalPersistableRecipe;
-    long long _persistencePermission;
-    PXUpdater *_updater;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSProgress *_progress;
 }
 
 - (id);
@@ -54,7 +34,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -73,9 +53,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ntAttributes:fontSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)1;
 - (void);
 - (void);
 - (id);
@@ -88,34 +68,7 @@
 - (id)mªP_: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(nonatomic) _Bool hasUserExperiencedFirstPlaybackEver; // @synthesize hasUserExperiencedFirstPlaybackEver=_hasUserExperiencedFirstPlaybackEver;
-@property(nonatomic) _Bool hasUserExperiencedPlayback; // @synthesize hasUserExperiencedPlayback=_hasUserExperiencedPlayback;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOriginalPersistableRecipeValid; // @synthesize isOriginalPersistableRecipeValid=_isOriginalPersistableRecipeValid;
-@property(nonatomic) _Bool isPreparedForUserChanges; // @synthesize isPreparedForUserChanges=_isPreparedForUserChanges;
-@property(readonly, nonatomic) _Bool isProducingPersistableRecipe; // @synthesize isProducingPersistableRecipe=_isProducingPersistableRecipe;
-@property(readonly, nonatomic) _Bool isReadyToProducePersistableRecipe; // @synthesize isReadyToProducePersistableRecipe=_isReadyToProducePersistableRecipe;
 @property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) id <PFStoryRecipe> originalPersistableRecipe; // @synthesize originalPersistableRecipe=_originalPersistableRecipe;
-@property(retain, nonatomic) id <PFStoryRecipe> persistableRecipe; // @synthesize persistableRecipe=_persistableRecipe;
-@property(nonatomic) long long persistencePermission; // @synthesize persistencePermission=_persistencePermission;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) PXStoryRecipeAssetEdits *recipeAssetEdits; // @synthesize recipeAssetEdits=_recipeAssetEdits;
-@property(readonly, nonatomic) PXStoryRecipeManager *recipeManager; // @synthesize recipeManager=_recipeManager;
-@property(readonly, nonatomic) PXStoryResourcesDataSourceManager *resourcesDataSourceManager; // @synthesize resourcesDataSourceManager=_resourcesDataSourceManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly, nonatomic) PXStoryStyleManager *styleManager; // @synthesize styleManager=_styleManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

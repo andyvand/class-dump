@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)%;
 
 // Remaining properties
 @property(retain, nonatomic) FLFollowUpItem *item; // @synthesize item=_item;

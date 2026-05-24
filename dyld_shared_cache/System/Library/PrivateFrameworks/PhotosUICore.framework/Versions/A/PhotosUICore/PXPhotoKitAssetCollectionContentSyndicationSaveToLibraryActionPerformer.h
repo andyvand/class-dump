@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXPhotoKitAssetCollectionActionPerformer.h>
 
-@class PHFetchResult, PXContentSyndicationPhotoKitAssetArrivalObserver;
+@class PHFetchResult;
 
 @interface PXPhotoKitAssetCollectionContentSyndicationSaveToLibraryActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     PHFetchResult *_unsavedSyndicatedAssetsFetchResult;
-    PXContentSyndicationPhotoKitAssetArrivalObserver *_assetArrivalObserver;
-    PHFetchResult *_savedAssetsFetchResult;
 }
 
 + (id);

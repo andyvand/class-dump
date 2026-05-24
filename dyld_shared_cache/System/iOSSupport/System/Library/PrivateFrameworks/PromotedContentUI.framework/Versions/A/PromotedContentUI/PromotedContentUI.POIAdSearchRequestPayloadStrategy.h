@@ -7,9 +7,6 @@
 @interface PromotedContentUI.POIAdSearchRequestPayloadStrategy
 {
     id routingInfoProvider;
-    id requestBuilder;
-    id fpdiPoolManager;
-    id timer;
 }
 
 @end

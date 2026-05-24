@@ -6,28 +6,25 @@
 
 #import <UIKitCore/_UITextSelectionHighlightView.h>
 
-@class NSArray, NSMutableArray, UIVisualEffectView;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITextUnderlineView : _UITextSelectionHighlightView
 {
     NSMutableArray *_underlineViews;
-    NSMutableArray *_trackedUnderlineRects;
-    UIVisualEffectView *_baseView;
-    _Bool _useDirectionalLightEffect;
 }
 
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)80@0:(id)arg1 8i16@20@28@36@44@52C60@64@72;
+- (id)andling incomming local incoming push:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id)tionBarPocketContainerInteraction;
+- (id)_navigationBarPocketContainerInteraction;
 - (void)SDySiSo22CAPresentationModifierCG;
 
 // Remaining properties

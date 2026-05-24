@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class RTNotification, SMMessage;
+
 @protocol SMMessagingServiceMessengerDelegate
+- (void);
+- (void){PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(SMMessage *)arg1 8;
+- (void)loadConfigurationWithID:(RTNotification *)arg1 withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
 @end
 

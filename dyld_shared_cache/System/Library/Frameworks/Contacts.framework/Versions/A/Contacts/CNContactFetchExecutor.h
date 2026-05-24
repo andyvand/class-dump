@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFetchRequest, CNContactStore;
+@class CNContactFetchRequest;
 
 __attribute__((visibility("hidden")))
 @interface CNContactFetchExecutor
 {
     CNContactFetchRequest *_request;
-    CNContactStore *_store;
 }
 
 + (id);
+- (id)`;
+- (id)efresh method configured;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)LVF in the LVG;
+- (id)u;
 - (void)cyDescription"16^@24;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNContactFetchRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end
 

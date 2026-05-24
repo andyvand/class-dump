@@ -7,21 +7,16 @@
 @interface RemindersUICore.FillView__priv_679F6607466DBBD5F847885A7EF16055
 {
     id fillColor;
-    id gradientLayer;
-    id desaturationLayer;
-    id glowLayer;
-    id glowRect;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (void)Sb27hasHiddenCompletedReminders_t;
 - (void)¹V.Â;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
 @property(nonatomic, readonly) _Bool flipped;
 
 @end

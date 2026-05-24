@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIView;
+@class UIView;
 
 @interface CKAppIconView
 {
     UIView *_contactItemView;
-    long long _appName;
-    UIView *_activityItemView;
-    NSMutableArray *_constraints;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)8;
+- (void)p;
+- (id)Version:(struct CGRect)arg1 %@, isInternetReachable:(long long)arg2 %@, isBiometricAuthenticationEnabled:%@, isKeychainAvailable:%@, hasKeychainItem:%@, hasCloudAccount:%@, hasDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -25,13 +22,10 @@
 - (long long);
 - (id);
 - (void);
-- (void)ut;
+- (void)TapbackPickerStagingLayout;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *activityItemView; // @synthesize activityItemView=_activityItemView;
 @property(nonatomic) long long appName; // @synthesize appName=_appName;
-@property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) UIView *contactItemView; // @synthesize contactItemView=_contactItemView;
 
 @end
 

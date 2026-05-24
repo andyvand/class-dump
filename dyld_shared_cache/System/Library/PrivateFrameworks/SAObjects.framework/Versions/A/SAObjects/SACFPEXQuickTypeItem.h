@@ -6,7 +6,7 @@
 
 #import <SAObjects/SACFPEXItem.h>
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface SACFPEXQuickTypeItem : SACFPEXItem
 {
@@ -14,19 +14,19 @@
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (id);
+- (void)?;
 - (void);
 - (id);
+- (void)e() && veccorrs->size() == bias_corr_.size();
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)yP;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -35,13 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *fields;
-@property(copy, nonatomic) NSArray *itemFlags;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *originatingBundleId;
-@property(copy, nonatomic) NSString *originatingWebsiteURL;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

@@ -13,7 +13,7 @@
     TIMecabraWrapper *_mecabraWrapper;
 }
 
-- (id);
+- (id)lastUtteranceForMe:(id)arg1 withText: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

@@ -6,27 +6,24 @@
 
 #import <KnowledgeGraphKit/MAEdge.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MAConcreteEdge : MAEdge
 {
     NSMutableDictionary *_properties;
-    unsigned short _domain;
-    float _weight;
-    NSString *_label;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)backForwardCommon: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (float);
 - (unsigned short);
 - (id);
-- (void);
+- (void)hS;
 
 @end
 

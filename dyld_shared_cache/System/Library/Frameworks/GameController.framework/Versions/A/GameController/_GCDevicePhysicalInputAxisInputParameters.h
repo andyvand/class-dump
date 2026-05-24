@@ -6,19 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputViewParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputAxisInputParameters : _GCDevicePhysicalInputViewParameters
 {
     _Bool _analog;
-    _Bool _canWrap;
-    NSSet *_sources;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)sessionWithConfiguration:(struct _NSZone *)arg1 delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

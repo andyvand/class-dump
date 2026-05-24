@@ -6,19 +6,18 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSString;
-
 @interface CLSProgressReportingCapability : CLSObject
 {
     long long _kind;
-    NSString *_details;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (id);
-- (_Bool);
++ (_Bool)_delegate_disableFindMyDeviceForAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)usage type:(id)arg1 %d
+;
+- (id)ANEServicesDevice->ANE_ProgramPrepare failed with status=0x%x
+;
+- (_Bool)l2_write_intra_conflict_cycle;
 - (id);
 - (id);
 - (id);
@@ -32,15 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *details; // @synthesize details=_details;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly) Class superclass;
 
 @end
 

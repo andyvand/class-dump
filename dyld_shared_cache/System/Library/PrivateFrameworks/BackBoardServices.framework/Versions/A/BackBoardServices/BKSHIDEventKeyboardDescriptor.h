@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)aussian mixture model predict should not have integer features.;
 
 @end
 

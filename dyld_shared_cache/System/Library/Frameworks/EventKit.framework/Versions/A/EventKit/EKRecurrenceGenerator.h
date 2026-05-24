@@ -8,27 +8,27 @@
 {
 }
 
-+ (id);
-+ (unsigned long long);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (int);
-- (_Bool);
++ (id)rightShoulder;
++ (unsigned long long)for previously batched request to respond;
++ (_Bool)tentItemSetDurationStringLocalizationKey(MRContentItemRef, CFStringRef);
++ (id)playbackQueueContext;
++ (id)esponse;
++ (int)Vision;
+- (_Bool)X;
+- (id);
+- (id);
+- (id)�8;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (id)E;
+- (id)gin because playerPath already exists:(id)arg1 %@;
+- (void)ing updates;
+- (void)wPlayingPlayerClientRequests] %{public}@ UpdatingCache:(id)arg1 contentItem %@;
+- (id)lication record:(id)arg1 %{public}@;
+- (_Bool)re in %lf seconds;
 
 @end
 

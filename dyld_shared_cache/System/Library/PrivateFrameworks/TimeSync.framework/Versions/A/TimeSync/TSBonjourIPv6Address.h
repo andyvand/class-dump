@@ -7,8 +7,6 @@
 @interface TSBonjourIPv6Address
 {
     unsigned char _ipv6Address[16];
-    unsigned char _linkLayerAddress[6];
-    _Bool _hasLinkLayerAddress;
 }
 
 + (_Bool);
@@ -18,14 +16,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (const char *);
+- (const char *)a`|`xb;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasLinkLayerAddress; // @synthesize hasLinkLayerAddress=_hasLinkLayerAddress;
-@property(readonly, nonatomic) const char *ipv6Address;
-@property(readonly, nonatomic) const char *linkLayerAddress; // @dynamic linkLayerAddress;
 
 @end
 

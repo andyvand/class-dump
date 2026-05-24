@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBModifyRelationship;
+@class NSArray, _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBSetRelationshipIntent
+- (void);
+- (_Bool);
+- (_INPBString *)6;
+- (_INPBIntentMetadata *)TMStructureMetadata;
 - (_Bool)nfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIdentifiers;
-@property(readonly, nonatomic) unsigned long long contactIdentifiersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetRelationship;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBModifyRelationship *targetRelationship;
 @end
 

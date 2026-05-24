@@ -4,61 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCornerRadiusConfiguration, NSNumber, NSSet, NSString;
-@protocol BSInterfaceOrientationMapResolving><BSXPCSecureCoding;
+@class NSSet, NSString;
 
 @protocol UIApplicationSceneSettings
+- (_Bool);
+- (NSSet *);
+- (struct CGRect);
+- (long long)c+;
+- (_Bool)amework/Versions/A/Cocoa;
+- (double);
 - (NSString *)
 × ;
 - (double)Ô ;
 - (struct UIEdgeInsets)ð1Â0@ù
 × ;
-- (double)Map;
-- (struct UIEdgeInsets)erDeletingBackward;
-- (struct UIEdgeInsets)ion: /* Error: Ran out of types for this method. */;
+- (double)proxyDecodingMap;
+- (struct UIEdgeInsets)documentStateAfterDeletingBackward;
+- (struct UIEdgeInsets)defaultLabelMinimumScaleFactorForSidebar:traitCollection: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)ht:%f
  /* Error: Ran out of types for this method. */;
-- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessibilityContrast;
-@property(readonly, nonatomic) double angleFromHostReferenceUprightDirection;
-@property(readonly, nonatomic) unsigned long long artworkSubtype;
-@property(readonly, nonatomic) _Bool canShowAlerts;
-@property(readonly, nonatomic) struct CGRect catalystHostWindowFrame;
-@property(readonly, nonatomic) BSCornerRadiusConfiguration *cornerRadiusConfiguration;
-@property(readonly, nonatomic) unsigned long long deactivationReasons;
-@property(readonly, nonatomic) long long deviceOrientation;
-@property(readonly, nonatomic) _Bool deviceOrientationEventsEnabled;
-@property(readonly, nonatomic) _Bool enhancedWindowingEnabled;
-@property(readonly, nonatomic) _Bool forcedStatusBarForegroundTransparent;
-@property(readonly, nonatomic) NSNumber *forcedStatusBarStyle;
-@property(readonly, nonatomic) double homeAffordanceOverlayAllowance;
-@property(readonly, nonatomic) unsigned int hostContextIdentifierForSnapshotting;
-@property(readonly, nonatomic) unsigned long long hostReferenceAngleMode;
-@property(readonly, nonatomic) _Bool idleModeEnabled;
-@property(readonly, nonatomic) _Bool inLiveResize;
-@property(readonly, nonatomic) id <BSInterfaceOrientationMapResolving><BSXPCSecureCoding> interfaceOrientationMapResolver;
-@property(readonly, nonatomic) long long interfaceOrientationMode;
-@property(readonly, nonatomic) _Bool isCapturingContentForAdditionalRenderingDestination;
-@property(readonly, nonatomic) struct UIEdgeInsets peripheryInsets;
 @property(readonly, nonatomic) NSString *persistenceIdentifier;
-@property(readonly, nonatomic) long long pointerLockStatus;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeLeft;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeRight;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortrait;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortraitUpsideDown;
-@property(readonly, nonatomic) unsigned long long scenePresenterRenderIdentifierForSnapshotting;
-@property(readonly, nonatomic) _Bool screenBoundsIgnoresSceneOrientation;
-@property(readonly, nonatomic) long long screenReferenceDisplayModeStatus;
-@property(readonly, nonatomic) struct CGRect statusBarAvoidanceFrame;
-@property(readonly, nonatomic) _Bool statusBarDisabled;
-@property(readonly, nonatomic) double statusBarHeight;
-@property(readonly, nonatomic) long long statusBarParts;
-@property(readonly, nonatomic) unsigned long long statusBarStyleOverridesToSuppress;
-@property(readonly, nonatomic) double systemMinimumMargin;
-@property(readonly, nonatomic) NSSet *targetOfEventDeferringEnvironments;
-@property(readonly, nonatomic) _Bool underLock;
-@property(readonly, nonatomic) long long userInterfaceStyle;
 @end
 

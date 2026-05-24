@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBRecordBase;
+@class NSString;
 
 @interface NTPBNotificationItemListRecord
 {
     NSString *_algoID;
-    NTPBRecordBase *_base;
-    NSMutableArray *_notificationItemIDs;
-    int _notificationSource;
-    struct {
-        unsigned int notificationSource:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
++ (Class)_snapKeyTimes;
+- (void)ectNormalized:(id)arg1 sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:sourceGazeAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (void)dataSectionManagers;
+- (unsigned long long)clientEncodingPolicy;
+- (id)clientBundleIdentifier;
+- (id)clearUndoStack;
+- (_Bool)backdropStyleForPlacesAndImports;
+- (_Bool)alwaysSortAfterAddMore;
+- (void)addPhotoLibraryProviderDependency: /* Error: Ran out of types for this method. */;
+- (void)accessoryItemPlacementLayout;
 - (void);
 - (int);
 - (void);
@@ -36,7 +30,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)__DEBUG_SOFTWAREUPDATE_ENVIRONMENT;
 - (_Bool);
 - (id);
 - (id);
@@ -45,13 +39,7 @@
 - (id)rs;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *algoID; // @synthesize algoID=_algoID;
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(readonly, nonatomic) _Bool hasAlgoID;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(nonatomic) _Bool hasNotificationSource;
-@property(retain, nonatomic) NSMutableArray *notificationItemIDs; // @synthesize notificationItemIDs=_notificationItemIDs;
-@property(nonatomic) int notificationSource; // @synthesize notificationSource=_notificationSource;
 
 @end
 

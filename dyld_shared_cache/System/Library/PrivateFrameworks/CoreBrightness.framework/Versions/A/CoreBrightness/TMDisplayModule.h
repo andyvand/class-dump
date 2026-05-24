@@ -6,17 +6,13 @@
 
 #import <CoreBrightness/CBDisplayModule.h>
 
-@class BrightnessSequenceQueue, NSObject;
-@protocol CBBrightnessProxy, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface TMDisplayModule : CBDisplayModule
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    id <CBBrightnessProxy> _brightnessControlProxy;
-    double _rampStart;
-    BrightnessSequenceQueue *_updateSequence;
 }
 
 - (_Bool);
@@ -24,20 +20,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`4;
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)o long for DD, ignoring. Do you really need to analyze something this long?;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)t could not be closed;
 - (_Bool);
 - (_Bool);
 - (_Bool);

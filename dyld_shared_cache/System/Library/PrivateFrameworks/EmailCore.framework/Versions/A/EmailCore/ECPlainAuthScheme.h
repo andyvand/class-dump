@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id);
 + (id)ÑUð1Â0@ù
 × ;
-- (id);
-- (unsigned int);
+- (id)ld;
+- (unsigned int)f) vs window size (%f x %f);
 - (id);
 - (void);
 - (id);

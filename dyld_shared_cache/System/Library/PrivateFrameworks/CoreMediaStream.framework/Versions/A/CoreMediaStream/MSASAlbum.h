@@ -4,46 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface MSASAlbum
 {
     _Bool _ownerIsWhitelisted;
-    _Bool _isFamilySharedAlbum;
-    int _relationshipState;
-    NSString *_ownerEmail;
-    NSString *_ownerPersonID;
-    NSString *_ownerFullName;
-    NSString *_ownerFirstName;
-    NSString *_ownerLastName;
-    NSDate *_subscriptionDate;
-    NSString *_GUID;
-    NSString *_ctag;
-    NSString *_foreignCtag;
-    NSString *_URLString;
-    NSString *_publicURLString;
-    NSDictionary *_metadata;
-    id _context;
-    NSString *_clientOrgKey;
-    NSString *_updatedSharedAlbumURL;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)userID:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (void)dress to %@;
+- (void){public}@Updated resident capabilities to %@;
+- (void)ce, preferring local device -- local:(id)arg1 %@, cloud :%@ /* Error: Ran out of types for this method. */;
+- (void)ed;
+- (void)notification device was updated;
+- (void)identifier.;
+- (void)c}@Could not find the model identifier.;
+- (void)lic}@Failed to decode person links:(_Bool)arg1 %@;
+- (void)%{public}@;
+- (id)t primary resident change monitor from notification:%@ /* Error: Ran out of types for this method. */;
+- (id)dit prohibited accessory [%@] with restricted guest [%@];
+- (void)%{public}@Failed to decode targetSleepWakeState in action:(id)arg1 %@;
 - (void);
 - (void);
 - (int);
@@ -79,25 +62,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *URLString; // @synthesize URLString=_URLString;
-@property(retain, nonatomic) NSString *clientOrgKey; // @synthesize clientOrgKey=_clientOrgKey;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(retain, nonatomic) NSString *ctag; // @synthesize ctag=_ctag;
-@property(retain, nonatomic) NSString *foreignCtag; // @synthesize foreignCtag=_foreignCtag;
-@property(nonatomic) _Bool isFamilySharedAlbum; // @synthesize isFamilySharedAlbum=_isFamilySharedAlbum;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
 @property(retain, nonatomic) NSString *ownerEmail; // @synthesize ownerEmail=_ownerEmail;
-@property(retain, nonatomic) NSString *ownerFirstName; // @synthesize ownerFirstName=_ownerFirstName;
-@property(retain, nonatomic) NSString *ownerFullName; // @synthesize ownerFullName=_ownerFullName;
-@property(nonatomic) _Bool ownerIsWhitelisted; // @synthesize ownerIsWhitelisted=_ownerIsWhitelisted;
-@property(retain, nonatomic) NSString *ownerLastName; // @synthesize ownerLastName=_ownerLastName;
-@property(retain, nonatomic) NSString *ownerPersonID; // @synthesize ownerPersonID=_ownerPersonID;
-@property(retain, nonatomic) NSString *publicURLString; // @synthesize publicURLString=_publicURLString;
-@property(nonatomic) int relationshipState; // @synthesize relationshipState=_relationshipState;
-@property(retain, nonatomic) NSDate *subscriptionDate; // @synthesize subscriptionDate=_subscriptionDate;
-@property(retain, nonatomic) NSString *updatedSharedAlbumURL; // @synthesize updatedSharedAlbumURL=_updatedSharedAlbumURL;
-@property(readonly, nonatomic) _Bool useForeignCtag;
 
 @end
 

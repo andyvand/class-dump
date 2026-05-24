@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputePublisherClientDomainConfiguration, NSMutableDictionary, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol BMComputePublisher, OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface BMComputePublisherClient
 {
     struct os_unfair_lock_s _lock;
-    NSXPCConnection *_connection;
-    int _token;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    BMComputePublisherClientDomainConfiguration *_configuration;
-    id <BMComputePublisher> _localComputePublisher;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_subscriptions;
-    NSMutableDictionary *_pendingEvents;
 }
 
 + (id);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id);
@@ -29,18 +20,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<@;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)c ;
 - (id);
 - (id);
 - (id);
@@ -49,17 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *pendingEvents; // @synthesize pendingEvents=_pendingEvents;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) NSMutableDictionary *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(readonly) Class superclass;
 
 @end
 

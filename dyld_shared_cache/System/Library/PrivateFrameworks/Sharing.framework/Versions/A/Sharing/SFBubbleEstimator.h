@@ -9,13 +9,6 @@
 @interface SFBubbleEstimator
 {
     SFRSSIQueue *_rssiQueue;
-    unsigned long long _thresholdStartTicks;
-    _Bool _insideBubble;
-    _Bool _insideBubbleWithThreshold;
-    _Bool _preventBoost;
-    long long _rssiEnter;
-    long long _rssiExit;
-    double _thresholdSeconds;
 }
 
 + (id);
@@ -24,28 +17,21 @@
 - (double);
 - (_Bool);
 - (void);
+- (void)(a;
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (double);
 - (_Bool);
-- (void)ction;
+- (void)cancelAction;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool insideBubble; // @synthesize insideBubble=_insideBubble;
-@property(readonly, nonatomic) _Bool insideBubbleWithThreshold; // @synthesize insideBubbleWithThreshold=_insideBubbleWithThreshold;
-@property(nonatomic) _Bool preventBoost; // @synthesize preventBoost=_preventBoost;
-@property(nonatomic) long long rssiEnter; // @synthesize rssiEnter=_rssiEnter;
-@property(nonatomic) long long rssiExit; // @synthesize rssiExit=_rssiExit;
-@property(nonatomic) double thresholdSeconds; // @synthesize thresholdSeconds=_thresholdSeconds;
-@property(readonly, nonatomic) double velocity;
-@property(readonly, nonatomic) double velocitySmoothed;
 
 @end
 

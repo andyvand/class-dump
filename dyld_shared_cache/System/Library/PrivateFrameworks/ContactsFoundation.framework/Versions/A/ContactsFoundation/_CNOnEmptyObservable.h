@@ -11,12 +11,10 @@
 @interface _CNOnEmptyObservable : CNObservable
 {
     id <CNObservable> _observable;
-    id <CNObservable> _nextObservable;
-    _Bool _observableIsEmpty;
 }
 
-- (void);
-- (id);
+- (void)FPCollectionDataSourceDelegate>"16;
+- (id)NSError">32;
 - (void);
 - (_Bool);
 - (id);

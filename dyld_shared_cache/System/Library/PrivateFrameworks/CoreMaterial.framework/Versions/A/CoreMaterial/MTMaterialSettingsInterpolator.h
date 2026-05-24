@@ -4,52 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTColor, NSArray, NSDictionary, NSString;
-@protocol MTRecipeMaterialSettingsProviding;
-
 @interface MTMaterialSettingsInterpolator
 {
     double _previousWeighting;
-    _Bool _overlay;
-    double _weighting;
-    id <MTRecipeMaterialSettingsProviding> _finalSettings;
-    id <MTRecipeMaterialSettingsProviding> _initialSettings;
-    CDUnknownBlockType _blurRadiusTransformer;
 }
 
-+ (id);
++ (id)y?;
 - (id);
-- (struct CGImage *);
-- (double);
-- (void);
-- (double);
+- (struct CGImage *)q;
+- (double)(;
+- (void)j;
+- (double)#;
 - (_Bool);
 - (_Bool);
 - (double);
+- (_Bool)q`;
+- (id)A;
+- (id)(
+;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (void);
 - (_Bool);
 - (struct CAColorMatrix);
-- (_Bool);
+- (_Bool)*x;
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (id);
 - (_Bool);
 - (double);
-- (id);
+- (id)߈	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -57,24 +50,24 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P7;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AccountRecoveryRowViewModel;
 - (id);
 - (id);
 - (double);
-- (void);
-- (void);
+- (void)r %@ saving %@ to %@;
+- (void)@;
 - (double);
 - (_Bool);
 - (void);
@@ -82,38 +75,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAverageColorEnabled) _Bool averageColorEnabled;
-@property(readonly, nonatomic, getter=isAverageColorEnabledEver) _Bool averageColorEnabledEver;
-@property(readonly, nonatomic, getter=isBackdropRequiredEver) _Bool backdropRequiredEver;
-@property(readonly, nonatomic, getter=isBackdropRequiredFinally) _Bool backdropRequiredFinally;
-@property(readonly, nonatomic, getter=isBackdropRequiredInitially) _Bool backdropRequiredInitially;
-@property(readonly, nonatomic) double backdropScale;
-@property(readonly, nonatomic, getter=isBlurAtEnd) _Bool blurAtEnd;
-@property(readonly, nonatomic, getter=isBlurEnabled) _Bool blurEnabled;
-@property(readonly, copy, nonatomic) NSString *blurInputQuality;
-@property(readonly, nonatomic) double blurRadius;
-@property(copy, nonatomic) CDUnknownBlockType blurRadiusTransformer; // @synthesize blurRadiusTransformer=_blurRadiusTransformer;
-@property(readonly, nonatomic) double brightness;
-@property(readonly, nonatomic, getter=isBrightnessEnabled) _Bool brightnessEnabled;
-@property(readonly, nonatomic) struct CAColorMatrix colorMatrix;
-@property(readonly, nonatomic, getter=isColorMatrixEnabled) _Bool colorMatrixEnabled;
-@property(readonly, nonatomic, getter=isCurvesEnabled) _Bool curvesEnabled;
-@property(readonly, copy, nonatomic) NSDictionary *curvesValues;
-@property(retain, nonatomic) id <MTRecipeMaterialSettingsProviding> finalSettings; // @synthesize finalSettings=_finalSettings;
-@property(retain, nonatomic) id <MTRecipeMaterialSettingsProviding> initialSettings; // @synthesize initialSettings=_initialSettings;
-@property(readonly, nonatomic) double luminanceAmount;
-@property(readonly, nonatomic, getter=isLuminanceEnabled) _Bool luminanceEnabled;
-@property(readonly, copy, nonatomic) NSArray *luminanceValues;
-@property(readonly, nonatomic, getter=isOverlay) _Bool overlay; // @synthesize overlay=_overlay;
-@property(readonly, nonatomic) double saturation;
-@property(readonly, nonatomic, getter=isSaturationEnabled) _Bool saturationEnabled;
-@property(readonly, nonatomic) double tintAlpha;
-@property(readonly, copy, nonatomic) MTColor *tintColor;
-@property(readonly, nonatomic, getter=isTintEnabled) _Bool tintEnabled;
 @property(nonatomic) double weighting; // @synthesize weighting=_weighting;
-@property(readonly, nonatomic, getter=isWeightingChanging) _Bool weightingChanging;
-@property(readonly, nonatomic) double zoom;
-@property(readonly, nonatomic, getter=isZoomEnabled) _Bool zoomEnabled;
 
 @end
 

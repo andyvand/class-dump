@@ -9,8 +9,6 @@
 @interface MUIManualSummary
 {
     _Bool _requiresConfirmation;
-    _Bool _isExternalSummary;
-    NSAttributedString *_attributedString;
 }
 
 - (_Bool);
@@ -18,13 +16,11 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)@b;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) _Bool isExternalSummary; // @synthesize isExternalSummary=_isExternalSummary;
-@property(readonly, nonatomic) _Bool requiresConfirmation; // @synthesize requiresConfirmation=_requiresConfirmation;
 
 @end
 

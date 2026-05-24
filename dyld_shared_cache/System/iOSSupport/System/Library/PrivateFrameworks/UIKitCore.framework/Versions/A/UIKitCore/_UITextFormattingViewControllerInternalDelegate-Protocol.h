@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextFormattingViewController;
+
 @protocol _UITextFormattingViewControllerInternalDelegate
+
+@optional
+- (void)wasRecordArchived:(UITextFormattingViewController *)arg1;
+- (void)wasManuallySuspended;
+- (void)wasDeliveredQuietly;
+- (void)stringWithUTF8String:(UITextFormattingViewController *)arg1;
+- (void)spotlightItemRecorder;
 @end
 

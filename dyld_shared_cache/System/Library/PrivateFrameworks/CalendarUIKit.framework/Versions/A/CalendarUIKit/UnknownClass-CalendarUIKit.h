@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CalendarUIKit)
-- (id);
+- (id)itemType;
 @end
 

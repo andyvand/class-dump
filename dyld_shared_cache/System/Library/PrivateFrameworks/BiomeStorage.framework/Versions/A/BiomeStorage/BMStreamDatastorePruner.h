@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (id);
+- (id)40@48@56@64@72@80@88B96B100;
 - (void);
-- (void);
+- (void)oll Back;
 - (id);
 - (id);
 - (void);
@@ -26,12 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (Class)p;
+- (Class)lastAbsoluteTimestamp;
 - (void)Èÿÿ|;
 
 // Remaining properties
 @property(nonatomic) __weak id <BMStreamDatastorePruningDelegate> delegate;
-@property(readonly, nonatomic) _Bool isDataAccessible;
 
 @end
 

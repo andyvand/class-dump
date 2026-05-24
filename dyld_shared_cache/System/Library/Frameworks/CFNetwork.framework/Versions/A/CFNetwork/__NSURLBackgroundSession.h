@@ -6,39 +6,20 @@
 
 #import <CFNetwork/NSURLSession.h>
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, NSXPCConnection;
-@protocol NDBackgroundSessionProtocol, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface __NSURLBackgroundSession : NSURLSession
 {
     unsigned long long _identSeed;
-    id <NDBackgroundSessionProtocol> _remoteSession;
-    NSXPCConnection *_xpcConn;
-    NSMutableDictionary *_tasks;
-    NSMutableArray *_taskIDsToFailOnReconnection;
-    NSMutableSet *_taskIDsGettingAuthHeaders;
-    NSObject<OS_dispatch_queue> *_invalidateQueue;
-    CDUnknownBlockType _invalidateCallback;
-    struct SmartBlockWithArgs<bool> _backgroundSessionDidFinishAppWakeBlock;
-    NSString *_appWakeUUID;
-    NSURL *_downloadDirectory;
-    NSURL *_assetDownloadDirectory;
-    _Bool _isPrivileged;
-    _Bool _isInvalid;
-    _Bool _companionAvailable;
-    NSError *_invalidationError;
-    _Bool _tryToReconnect;
-    _Bool _immediatelyReconnectAfterInterruption;
-    int _notifyToken;
 }
 
-- (void);
-- (id);
+- (void)ieungcirclekorean;
+- (id)ived class vptr, but matches base class vptr";
 - (void)ground AVAssetDownloadTask, as remote session is unavailable;
 - (void)veServices Storage singleton;
 - (void);
-- (id);
+- (id)hP;
 - (void)Ì;
 - (void);
 - (void)ÿÿ@;
@@ -69,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)%u;
 - (void)^?^^?^{__CFData}}8;
 - (void)ontext %p>{url = %@, state = %s, conn=%p, isZombie=%s};
-- (void)urationSOCKS5ServerCredentials;
+- (void)NSServerConfigurationSOCKS5ServerCredentials;
 - (void)twork.cfnetworkagent;
 - (id);
 - (id)@;
@@ -106,11 +87,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void):(unsigned long long)arg1 yC;
-- (void)t;
+- (void)2Wt;
 - (id)6Rg;
 - (void):(CDUnknownBlockType)arg1 GP;
 - (void)2u6;
-- (void)S;
+- (void)6nS;
 - (void)2gd;
 - (void)CdoaCdocCdoeCdoiCdooCdosCdot.do;
 - (id)6=Q;
@@ -121,17 +102,10 @@ __attribute__((visibility("hidden")))
 - (void)6c,;
 - (id).2_;
 - (void)*0e;
-- (void)or;
+- (void)_kCFStreamPropertyExpiredDNSBehavior;
 
 // Remaining properties
 @property(copy) NSString *appWakeUUID; // @synthesize appWakeUUID=_appWakeUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

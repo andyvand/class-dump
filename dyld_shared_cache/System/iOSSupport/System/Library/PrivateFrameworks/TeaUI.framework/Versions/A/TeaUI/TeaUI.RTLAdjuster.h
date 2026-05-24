@@ -7,7 +7,6 @@
 @interface TeaUI.RTLAdjuster
 {
     id locale;
-    id bounds;
 }
 
 @end

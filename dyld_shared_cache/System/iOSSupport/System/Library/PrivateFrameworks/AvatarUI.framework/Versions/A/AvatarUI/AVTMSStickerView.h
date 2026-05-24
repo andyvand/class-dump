@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVTMSStickerViewDelegate, AVTStickerDisclosureValidationDelegate;
-
 @interface AVTMSStickerView
 {
     _Bool _allowsPeel;
-    id <AVTMSStickerViewDelegate> _delegate;
-    id <AVTStickerDisclosureValidationDelegate> _disclosureValidationDelegate;
 }
 
 - (void);
@@ -22,21 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)8;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPeel; // @synthesize allowsPeel=_allowsPeel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTMSStickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate; // @synthesize disclosureValidationDelegate=_disclosureValidationDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,26 +6,24 @@
 
 #import <UIKitCore/UIInterfaceActionConcreteVisualStyle.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionConcreteVisualStyle_CarPlay : UIInterfaceActionConcreteVisualStyle
 {
 }
 
 - (double);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (double);
+- (_Bool)chat [%@];
+- (id)purged assets for chats %@ on services %@;
+- (id)%@;
+- (id)etries %@;
+- (struct CGSize)ssageService Failed writing astc encoded image attachment to disk on incoming:%@ /* Error: Ran out of types for this method. */;
+- (double)ifier in SCI list derived from Family;
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)(o;
 - (id);
-- (id);
+- (id)+;
 - (struct UIEdgeInsets);
 - (id);
 - (_Bool);
@@ -34,16 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)pple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_cbc.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

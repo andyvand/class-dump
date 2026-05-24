@@ -9,8 +9,8 @@
     long long _sandboxExtensionHandle;
 }
 
-+ (id);
-+ (id);
++ (id)ot map any device class strings %s to their enum values;
++ (id)g %s to an enum value;
 - (id);
 - (void);
 

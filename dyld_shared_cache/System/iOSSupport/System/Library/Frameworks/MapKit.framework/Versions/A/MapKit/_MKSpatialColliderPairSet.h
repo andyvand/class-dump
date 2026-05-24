@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)OMapItemAttribution: /* Error: Ran out of types for this method. */;
+- (void)initWithGEOMapItemAttribution: /* Error: Ran out of types for this method. */;
 
 @end
 

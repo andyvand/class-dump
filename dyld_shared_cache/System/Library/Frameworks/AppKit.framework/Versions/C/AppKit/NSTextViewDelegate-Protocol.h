@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSMenu, NSString;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (void);
+- (NSArray *);
+- (NSString *)A;
+- (_Bool)B;
+- (void)ցB;
+- (NSMenu *)_allowsExpensiveNetworkAccess;
+- (_Bool)NSURLSessionTaskBackgroundHTTPAuthenticator;
 @end
 

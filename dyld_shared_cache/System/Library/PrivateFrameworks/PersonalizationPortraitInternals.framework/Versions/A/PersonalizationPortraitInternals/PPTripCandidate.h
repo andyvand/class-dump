@@ -9,9 +9,6 @@
 @interface PPTripCandidate
 {
     NSArray *_flights;
-    NSArray *_hotels;
-    NSArray *_others;
-    NSArray *_groundTransports;
 }
 
 - (id);
@@ -21,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *flights; // @synthesize flights=_flights;
-@property(retain, nonatomic) NSArray *groundTransports; // @synthesize groundTransports=_groundTransports;
-@property(retain, nonatomic) NSArray *hotels; // @synthesize hotels=_hotels;
-@property(retain, nonatomic) NSArray *others; // @synthesize others=_others;
 
 @end
 

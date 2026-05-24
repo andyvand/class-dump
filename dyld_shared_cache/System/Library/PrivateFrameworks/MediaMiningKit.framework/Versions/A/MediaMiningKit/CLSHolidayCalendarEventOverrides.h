@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface CLSHolidayCalendarEventOverrides
 {
     NSString *_uuid;
-    NSString *_countryCode;
-    NSArray *_dateRuleOverrides;
-    double _locationScore;
-    NSDictionary *_sceneImportanceOverrides;
 }
 
 - (id);
@@ -25,10 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) NSArray *dateRuleOverrides; // @synthesize dateRuleOverrides=_dateRuleOverrides;
-@property(readonly, nonatomic) double locationScore; // @synthesize locationScore=_locationScore;
-@property(readonly, nonatomic) NSDictionary *sceneImportanceOverrides; // @synthesize sceneImportanceOverrides=_sceneImportanceOverrides;
 @property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

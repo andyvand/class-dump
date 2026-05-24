@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSString, SFExternalCredentialIdentityStoreIdentifier;
+@class ASCredentialServiceIdentifier, NSString;
 
 @interface ASOneTimeCodeCredentialIdentity
 {
     ASCredentialServiceIdentifier *_serviceIdentifier;
-    NSString *_recordIdentifier;
-    long long _rank;
-    SFExternalCredentialIdentityStoreIdentifier *_credentialIdentityStoreIdentifier;
-    NSString *_label;
 }
 
 + (_Bool);
@@ -22,31 +18,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)isNonAnimatedMultiframeImageType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)fetchFavoriteCNIDs;
+- (id)G;
 - (id);
 - (long long);
-- (void);
-- (id);
+- (void)__TEXT;
+- (id)TV;
 
 // Remaining properties
-@property(readonly, nonatomic) SFExternalCredentialIdentityStoreIdentifier *credentialIdentityStoreIdentifier; // @synthesize credentialIdentityStoreIdentifier=_credentialIdentityStoreIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *user;
 
 @end
 

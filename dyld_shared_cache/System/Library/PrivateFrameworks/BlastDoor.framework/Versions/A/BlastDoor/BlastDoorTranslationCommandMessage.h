@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorTranslationCommandMessage
 {
     id translationCommandMessage;
 }
 
-- (id);
+- (id)_shouldShowPollDetailsActionForChatItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)@;
@@ -20,8 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) NSArray *parts;
 
 @end
 

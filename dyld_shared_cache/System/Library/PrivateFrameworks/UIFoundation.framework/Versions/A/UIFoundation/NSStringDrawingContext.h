@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, CUIStyleEffectConfiguration, NSString;
-
 @interface NSStringDrawingContext
 {
     double _minimumScaleFactor;
-    double _minimumTrackingAdjustment;
-    double _actualScaleFactor;
-    double _actualTrackingAdjustment;
-    struct CGRect _totalBounds;
-    CUICatalog *_CUICatalog;
-    CUIStyleEffectConfiguration *_CUIStyleEffects;
-    unsigned long long _numberOfLineFragments;
-    unsigned long long _maximumNumberOfLines;
-    double _baselineOffset;
-    double _scaledBaselineOffset;
-    double _scaledLineHeight;
-    double _firstBaselineOffset;
-    id _layout;
-    struct {
-        unsigned int _wantsNumberOfLineFragments:1;
-        unsigned int _wrapsForTruncationMode:1;
-        unsigned int _wantsBaselineOffset:1;
-        unsigned int _wantsScaledBaselineOffset:1;
-        unsigned int _wantsScaledLineHeight:1;
-        unsigned int _drawsDebugBaselines:1;
-        unsigned int _wantsMultipleDeviceMetrics:1;
-        unsigned int _cachesLayout:1;
-        unsigned int _usesSimpleTextEffects:1;
-        unsigned int _activeRenderers:4;
-        unsigned int _applicationPlatformContext:3;
-    } _sdcFlags;
-    _Bool _hasTruncatedRanges;
-    CDUnknownBlockType _linkTextAttributesProvider;
-    long long _fallbackBaseWritingDirection;
-    struct CGRect _multilineDeviceMetricsRect;
 }
 
 - (void);
@@ -57,15 +25,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)qc;
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
@@ -77,64 +45,32 @@
 - (long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)ntactInAirDrop"b1"contactInAirDropAtHome"b1"contactInFMFFavorite"b1"contactInFMFFollowingMe"b1"contactInFMFSharingWithMe"b1"contactInHome"b1"contactInPhotos"b1"contactParent"b1};
+- (_Bool)_DKFetchRecordZoneChangesOperation;
+- (_Bool)ms for %@ since date %@;
 - (id);
 - (void);
 - (unsigned long long);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@9;
 - (_Bool);
 - (id);
 - (void);
 - (double);
 - (id);
+- (void)ing classCSSearchQuery%@%@%@%@%@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
+- (double);
+- (void));
 - (id);
 - (double);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeRenderers;
-@property double actualScaleFactor; // @synthesize actualScaleFactor=_actualScaleFactor;
-@property double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property _Bool cachesLayout;
-@property(retain) CUICatalog *cuiCatalog; // @synthesize cuiCatalog=_CUICatalog;
-@property(retain) CUIStyleEffectConfiguration *cuiStyleEffects; // @synthesize cuiStyleEffects=_CUIStyleEffects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool drawsDebugBaselines;
-@property long long fallbackBaseWritingDirection; // @synthesize fallbackBaseWritingDirection=_fallbackBaseWritingDirection;
-@property double firstBaselineOffset; // @synthesize firstBaselineOffset=_firstBaselineOffset;
-@property _Bool hasTruncatedRanges; // @synthesize hasTruncatedRanges=_hasTruncatedRanges;
-@property(readonly) unsigned long long hash;
-@property(retain) id layout; // @synthesize layout=_layout;
-@property(copy) CDUnknownBlockType linkTextAttributesProvider; // @synthesize linkTextAttributesProvider=_linkTextAttributesProvider;
-@property unsigned long long maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property double minimumScaleFactor; // @synthesize minimumScaleFactor=_minimumScaleFactor;
 @property struct CGRect multilineDeviceMetricsRect; // @synthesize multilineDeviceMetricsRect=_multilineDeviceMetricsRect;
-@property unsigned long long numberOfLineFragments; // @synthesize numberOfLineFragments=_numberOfLineFragments;
-@property double scaledBaselineOffset; // @synthesize scaledBaselineOffset=_scaledBaselineOffset;
-@property double scaledLineHeight; // @synthesize scaledLineHeight=_scaledLineHeight;
-@property(readonly) Class superclass;
-@property struct CGRect totalBounds; // @synthesize totalBounds=_totalBounds;
-@property _Bool usesSimpleTextEffects;
-@property _Bool wantsBaselineOffset;
-@property _Bool wantsMultilineDeviceMetrics;
-@property _Bool wantsNumberOfLineFragments;
-@property _Bool wantsScaledBaselineOffset;
-@property _Bool wantsScaledLineHeight;
-@property _Bool wrapsForTruncationMode;
 
 @end
 

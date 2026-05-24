@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SearchUICommandDelegate;
+
 @protocol SearchUIFeedbackDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (id <SearchUICommandDelegate>)xtracting>";
 @end
 

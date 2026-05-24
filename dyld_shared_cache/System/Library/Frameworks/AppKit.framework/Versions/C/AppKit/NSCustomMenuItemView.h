@@ -12,40 +12,35 @@ __attribute__((visibility("hidden")))
 @interface NSCustomMenuItemView : NSContextMenuItemView
 {
     NSAppearance *_normalAppearance;
-    id _rememberedFirstResponder;
-    _Bool _isDrawingOnly;
-    _Bool _isInitialized;
-    _Bool _isBecomingFirstResponder;
-    _Bool _isFilterView;
 }
 
 + (id);
-+ (id);
++ (id)anceled;
 + (_Bool)±â3ð1Â0@ù
 × ;
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (id)@40Q48@56@64@?72;
+- (void)set_sourceApplicationBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)set_skipsStackTraceCapture: /* Error: Ran out of types for this method. */;
+- (_Bool)numberWithUnsignedShort: /* Error: Ran out of types for this method. */;
+- (_Bool)minimizedLanguagesFromLanguages: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithUser:password:persistence: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (struct CGRect)for stream %llu has become unblocked;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=`;
 - (void);
 - (void)e:shouldCloseSelector:contextInfo:]_block_invoke_4 /* Error: Ran out of types for this method. */;
 - (void)ýÿÿRhê];
@@ -53,10 +48,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿÒò`*H;
 
 // Remaining properties
-@property _Bool isBecomingFirstResponder; // @synthesize isBecomingFirstResponder=_isBecomingFirstResponder;
 @property _Bool isDrawingOnly; // @synthesize isDrawingOnly=_isDrawingOnly;
-@property _Bool isFilterView; // @synthesize isFilterView=_isFilterView;
-@property _Bool isInitialized; // @synthesize isInitialized=_isInitialized;
 
 @end
 

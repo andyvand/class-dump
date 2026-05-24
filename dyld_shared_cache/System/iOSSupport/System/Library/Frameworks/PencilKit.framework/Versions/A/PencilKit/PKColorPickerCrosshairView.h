@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PKColorPickerCrosshairCornerMaskView, _PKColorPickerSimpleCrosshairView;
 @protocol PKColorPickerCrosshairViewDelegate;
 
 @interface PKColorPickerCrosshairView
 {
     id <PKColorPickerCrosshairViewDelegate> _delegate;
-    unsigned long long _cornerPosition;
-    _PKColorPickerSimpleCrosshairView *_baseView;
-    _PKColorPickerCrosshairCornerMaskView *_baseMaskView;
-    _PKColorPickerSimpleCrosshairView *_cornerEdgeView;
-    _PKColorPickerCrosshairCornerMaskView *_cornerEdgeMaskView;
 }
 
 - (void);
@@ -35,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _PKColorPickerCrosshairCornerMaskView *baseMaskView; // @synthesize baseMaskView=_baseMaskView;
-@property(retain, nonatomic) _PKColorPickerSimpleCrosshairView *baseView; // @synthesize baseView=_baseView;
-@property(retain, nonatomic) _PKColorPickerCrosshairCornerMaskView *cornerEdgeMaskView; // @synthesize cornerEdgeMaskView=_cornerEdgeMaskView;
-@property(retain, nonatomic) _PKColorPickerSimpleCrosshairView *cornerEdgeView; // @synthesize cornerEdgeView=_cornerEdgeView;
 @property(nonatomic) unsigned long long cornerPosition; // @synthesize cornerPosition=_cornerPosition;
-@property(nonatomic) __weak id <PKColorPickerCrosshairViewDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

@@ -4,64 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomePodSetupLatencyLogEvent
 {
     _Bool _iCloudAvailable_INT;
-    _Bool _IDSAvailable_INT;
-    _Bool _manateeAvailable_INT;
-    _Bool _networkAvailable_INT;
-    _Bool _controllerInHH2_INT;
-    _Bool _controllerHasSentinelZone_INT;
-    _Bool _currentDeviceConfirmedPrimaryResident_INT;
-    unsigned int _numberOfTimesPrimaryResidentChanged_HH2;
-    unsigned int _numberOfTimesPrimaryClientConnected_HH2;
-    unsigned int _numberOfTimesPrimaryClientDisconnected_HH2;
-    unsigned int _numberOfTimesPrimaryClientConnectMessageFailed_HH2;
-    long long _sessionSetupOpenMS_HH1;
-    long long _controllerKeyExchangeMS_HH1;
-    long long _newAccessoryTransferMS_HH1;
-    long long _sessionSetupCloseMS_HH1;
-    long long _sentinelZoneFetchMS_HH1;
-    long long _totalDurationMS_HH1;
-    long long _accountSettleWaitMS_HH2;
-    long long _currentDeviceIDSWaitMS_HH2;
-    long long _homeManagerReadyMS_HH2;
-    long long _firstCoreDataImportMS_HH2;
-    long long _accessoryAddMS_HH2;
-    long long _settingsCreationMS_HH2;
-    long long _pairingIdentityCreationMS_HH2;
-    long long _siriReadyMS_HH2;
-    long long _eventRouterServerConnectionMS_HH2;
-    long long _primaryResidentElectionMS_HH2;
-    long long _eventRouterFirstEventPushMS_HH2;
-    long long _totalDurationMS_HH2;
-    long long _IDSRegistrationStatus_INT;
-    long long _IDSRegistrationError_INT;
-    long long _errorCode;
-    NSString *_errorDomain;
-    long long _underlyingErrorCode;
-    NSString *_underlyingErrorDomain;
-    NSString *_errorStage_String;
-    NSString *_setupSessionIdentifier;
-    unsigned long long _lastPrimaryClientConnectedTime_HH2;
-    long long _lastPrimaryClientConnectMessageFailErrorCode_HH2;
-    NSString *_lastPrimaryClientConnectMessageFailErrorDomain_HH2;
-    long long _lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2;
-    NSString *_lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2;
-    long long _primaryResidentElectionPeerDeviceFutureResolvedMS_HH2;
-    long long _primaryResidentElectionFirstCloudKitImportFutureResolvedMS_HH2;
-    long long _primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2;
-    long long _primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2;
-    long long _primaryResidentElectionJoinMeshMS_HH2;
-    long long _firstCoreDataContainerSetupDurationMS_HH2;
-    long long _firstCoreDataContainerSetupErrorCode_HH2;
-    NSString *_firstCoreDataContainerSetupErrorDomain_HH2;
-    long long _firstCoreDataContainerSetupUnderlyingErrorCode_HH2;
-    NSString *_firstCoreDataContainerSetupUnderlyingErrorDomain_HH2;
-    unsigned long long _savedEventState;
 }
 
 - (long long);
@@ -107,70 +53,70 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
+- (void)40@"IDSMessageContext"48;
+- (void)eContext"56;
+- (void)ionListener"16{?=dd}24;
+- (void)ionListener"16@"NSArray"24;
+- (void)updateGroupSessionStorageWithState:(long long)arg1;
+- (void)transitAttribution;
+- (long long)ress:traits: /* Error: Ran out of types for this method. */;
+- (long long)pushToken:allowContactBackAtEmailAddress:traits: /* Error: Ran out of types for this method. */;
+- (long long)stopAllSharingWithReason:completion: /* Error: Ran out of types for this method. */;
+- (long long)setInitialShareSessionWithMaps: /* Error: Ran out of types for this method. */;
+- (long long)",R,C,N;
+- (long long)atch_queue>",R,N,G_accessQueue;
+- (long long)removeNetworkReachableObserver: /* Error: Ran out of types for this method. */;
+- (long long)erETAControllerDelegate>",W,N,V_delegate;
+- (long long)bleDictionary",&,N,V_sharedTripGroupSessionInfo;
+- (long long)_MSPSharedTripSingleCapabilityLevelFetcher;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)z;
 - (long long);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)nal.;
+- (_Bool)lic}@] block | failed to block identifiers %@:error:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ences;
+- (id)rray"32Q40;
+- (long long)48@?0@"MSPSharedTripSharingIdentity"8@"NSArray"16@"NSDictionary"24@"NSArray"32Q40;
+- (id)i8;
+- (long long)chunkDataKey;
 - (id);
-- (long long);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (long long);
 - (_Bool);
 - (long long);
+- (long long);
+- (id);
+- (long long);
+- (id);
+- (long long);
+- (long long);
+- (long long);
+- (id);
+- (long long);
 - (_Bool);
+- (long long);
 - (_Bool);
+- (_Bool);
 - (long long);
 - (long long);
 - (void);
 - (long long);
 - (long long);
-- (long long);
+- (long long)5;
 - (long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (void);
+- (void);
+- (id)ns generated since already at unanswered question limit of %d;
+- (long long)s handler.;
+- (void)essfully processed candidates for %ld conversations;
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (void)ceAreaClusterAreaStruct"8;
@@ -178,81 +124,7 @@ __attribute__((visibility("hidden")))
 - (long long)ð>ÿ8_	pì@;
 
 // Remaining properties
-@property(nonatomic) _Bool IDSAvailable_INT; // @synthesize IDSAvailable_INT=_IDSAvailable_INT;
-@property(nonatomic) long long IDSRegistrationError_INT; // @synthesize IDSRegistrationError_INT=_IDSRegistrationError_INT;
-@property(nonatomic) long long IDSRegistrationStatus_INT; // @synthesize IDSRegistrationStatus_INT=_IDSRegistrationStatus_INT;
-@property(nonatomic) long long accessoryAddMS_HH2; // @synthesize accessoryAddMS_HH2=_accessoryAddMS_HH2;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(nonatomic) long long accountSettleWaitMS_HH2; // @synthesize accountSettleWaitMS_HH2=_accountSettleWaitMS_HH2;
-@property(nonatomic) _Bool controllerHasSentinelZone_INT; // @synthesize controllerHasSentinelZone_INT=_controllerHasSentinelZone_INT;
-@property(nonatomic) _Bool controllerInHH2_INT; // @synthesize controllerInHH2_INT=_controllerInHH2_INT;
-@property(nonatomic) long long controllerKeyExchangeMS_HH1; // @synthesize controllerKeyExchangeMS_HH1=_controllerKeyExchangeMS_HH1;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(nonatomic) _Bool currentDeviceConfirmedPrimaryResident_INT; // @synthesize currentDeviceConfirmedPrimaryResident_INT=_currentDeviceConfirmedPrimaryResident_INT;
-@property(nonatomic) long long currentDeviceIDSWaitMS_HH2; // @synthesize currentDeviceIDSWaitMS_HH2=_currentDeviceIDSWaitMS_HH2;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(retain, nonatomic) NSString *errorStage_String; // @synthesize errorStage_String=_errorStage_String;
-@property(nonatomic) long long eventRouterFirstEventPushMS_HH2; // @synthesize eventRouterFirstEventPushMS_HH2=_eventRouterFirstEventPushMS_HH2;
-@property(nonatomic) long long eventRouterServerConnectionMS_HH2; // @synthesize eventRouterServerConnectionMS_HH2=_eventRouterServerConnectionMS_HH2;
-@property(nonatomic) long long firstCoreDataContainerSetupDurationMS_HH2; // @synthesize firstCoreDataContainerSetupDurationMS_HH2=_firstCoreDataContainerSetupDurationMS_HH2;
-@property(nonatomic) long long firstCoreDataContainerSetupErrorCode_HH2; // @synthesize firstCoreDataContainerSetupErrorCode_HH2=_firstCoreDataContainerSetupErrorCode_HH2;
-@property(retain, nonatomic) NSString *firstCoreDataContainerSetupErrorDomain_HH2; // @synthesize firstCoreDataContainerSetupErrorDomain_HH2=_firstCoreDataContainerSetupErrorDomain_HH2;
-@property(nonatomic) long long firstCoreDataContainerSetupUnderlyingErrorCode_HH2; // @synthesize firstCoreDataContainerSetupUnderlyingErrorCode_HH2=_firstCoreDataContainerSetupUnderlyingErrorCode_HH2;
-@property(retain, nonatomic) NSString *firstCoreDataContainerSetupUnderlyingErrorDomain_HH2; // @synthesize firstCoreDataContainerSetupUnderlyingErrorDomain_HH2=_firstCoreDataContainerSetupUnderlyingErrorDomain_HH2;
-@property(nonatomic) long long firstCoreDataImportMS_HH2; // @synthesize firstCoreDataImportMS_HH2=_firstCoreDataImportMS_HH2;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long homeManagerReadyMS_HH2; // @synthesize homeManagerReadyMS_HH2=_homeManagerReadyMS_HH2;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(nonatomic) _Bool iCloudAvailable_INT; // @synthesize iCloudAvailable_INT=_iCloudAvailable_INT;
-@property(nonatomic) long long lastPrimaryClientConnectMessageFailErrorCode_HH2; // @synthesize lastPrimaryClientConnectMessageFailErrorCode_HH2=_lastPrimaryClientConnectMessageFailErrorCode_HH2;
-@property(retain, nonatomic) NSString *lastPrimaryClientConnectMessageFailErrorDomain_HH2; // @synthesize lastPrimaryClientConnectMessageFailErrorDomain_HH2=_lastPrimaryClientConnectMessageFailErrorDomain_HH2;
-@property(nonatomic) long long lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2; // @synthesize lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2=_lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2;
-@property(retain, nonatomic) NSString *lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2; // @synthesize lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2=_lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2;
-@property(nonatomic) unsigned long long lastPrimaryClientConnectedTime_HH2; // @synthesize lastPrimaryClientConnectedTime_HH2=_lastPrimaryClientConnectedTime_HH2;
-@property(nonatomic) _Bool manateeAvailable_INT; // @synthesize manateeAvailable_INT=_manateeAvailable_INT;
-@property(nonatomic) _Bool networkAvailable_INT; // @synthesize networkAvailable_INT=_networkAvailable_INT;
-@property(nonatomic) long long newAccessoryTransferMS_HH1; // @synthesize newAccessoryTransferMS_HH1=_newAccessoryTransferMS_HH1;
-@property(nonatomic) unsigned int numberOfTimesPrimaryClientConnectMessageFailed_HH2; // @synthesize numberOfTimesPrimaryClientConnectMessageFailed_HH2=_numberOfTimesPrimaryClientConnectMessageFailed_HH2;
-@property(nonatomic) unsigned int numberOfTimesPrimaryClientConnected_HH2; // @synthesize numberOfTimesPrimaryClientConnected_HH2=_numberOfTimesPrimaryClientConnected_HH2;
-@property(nonatomic) unsigned int numberOfTimesPrimaryClientDisconnected_HH2; // @synthesize numberOfTimesPrimaryClientDisconnected_HH2=_numberOfTimesPrimaryClientDisconnected_HH2;
-@property(nonatomic) unsigned int numberOfTimesPrimaryResidentChanged_HH2; // @synthesize numberOfTimesPrimaryResidentChanged_HH2=_numberOfTimesPrimaryResidentChanged_HH2;
-@property(nonatomic) long long pairingIdentityCreationMS_HH2; // @synthesize pairingIdentityCreationMS_HH2=_pairingIdentityCreationMS_HH2;
-@property(nonatomic) long long primaryResidentElectionFirstCloudKitImportFutureResolvedMS_HH2; // @synthesize primaryResidentElectionFirstCloudKitImportFutureResolvedMS_HH2=_primaryResidentElectionFirstCloudKitImportFutureResolvedMS_HH2;
-@property(nonatomic) long long primaryResidentElectionJoinMeshMS_HH2; // @synthesize primaryResidentElectionJoinMeshMS_HH2=_primaryResidentElectionJoinMeshMS_HH2;
-@property(nonatomic) long long primaryResidentElectionMS_HH2; // @synthesize primaryResidentElectionMS_HH2=_primaryResidentElectionMS_HH2;
-@property(nonatomic) long long primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2; // @synthesize primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2=_primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2;
-@property(nonatomic) long long primaryResidentElectionPeerDeviceFutureResolvedMS_HH2; // @synthesize primaryResidentElectionPeerDeviceFutureResolvedMS_HH2=_primaryResidentElectionPeerDeviceFutureResolvedMS_HH2;
-@property(nonatomic) long long primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2; // @synthesize primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2=_primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2;
-@property(nonatomic) unsigned long long savedEventState; // @synthesize savedEventState=_savedEventState;
-@property(nonatomic) long long sentinelZoneFetchMS_HH1; // @synthesize sentinelZoneFetchMS_HH1=_sentinelZoneFetchMS_HH1;
-@property(nonatomic) long long sessionSetupCloseMS_HH1; // @synthesize sessionSetupCloseMS_HH1=_sessionSetupCloseMS_HH1;
 @property(nonatomic) long long sessionSetupOpenMS_HH1; // @synthesize sessionSetupOpenMS_HH1=_sessionSetupOpenMS_HH1;
-@property(nonatomic) long long settingsCreationMS_HH2; // @synthesize settingsCreationMS_HH2=_settingsCreationMS_HH2;
-@property(retain, nonatomic) NSString *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
-@property(nonatomic) long long siriReadyMS_HH2; // @synthesize siriReadyMS_HH2=_siriReadyMS_HH2;
-@property(readonly) Class superclass;
-@property(nonatomic) long long totalDurationMS_HH1; // @synthesize totalDurationMS_HH1=_totalDurationMS_HH1;
-@property(nonatomic) long long totalDurationMS_HH2; // @synthesize totalDurationMS_HH2=_totalDurationMS_HH2;
-@property(nonatomic) long long underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(retain, nonatomic) NSString *underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

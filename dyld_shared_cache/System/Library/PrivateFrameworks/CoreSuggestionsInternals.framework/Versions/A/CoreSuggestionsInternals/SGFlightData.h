@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLazyPurgeableResult, _PASNotificationToken;
 @protocol SGSeekable;
 
 @interface SGFlightData
 {
     id <SGSeekable> _flightsFh;
-    _PASLazyPurgeableResult *_flightDataOffsets;
-    id <SGSeekable> _flightsUpdateFh;
-    _PASLazyPurgeableResult *_flightUpdateDataOffsets;
-    id <SGSeekable> _airportsFh;
-    _PASLazyPurgeableResult *_airportDataOffsets;
-    id <SGSeekable> _airportsUpdateFh;
-    _PASLazyPurgeableResult *_airportUpdateDataOffsets;
-    _PASNotificationToken *_assetUpdateToken;
-    _PASLazyPurgeableResult *_carrierNames;
-    _PASLazyPurgeableResult *_carrierCodesByName;
-    _PASLazyPurgeableResult *_carrierUpdateNames;
-    _PASLazyPurgeableResult *_carrierUpdateCodesByName;
 }
 
 + (id);
 + (id);
++ (id)iconOverrideForDataclass: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
+- (id)eGraphics;
+- (id)rks/CoreGraphics.framework/Versions/A/CoreGraphics;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,11 +35,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)webView:(id)arg1 shouldGoToBackForwardListItem:willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)tableViewSelectionDidChange:(id)arg1;
 - (void);
 - (id);
 - (void)Àf4;

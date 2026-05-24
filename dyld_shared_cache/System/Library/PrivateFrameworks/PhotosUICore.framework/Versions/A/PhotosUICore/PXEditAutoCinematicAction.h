@@ -11,12 +11,10 @@
 @interface PXEditAutoCinematicAction : PXAction
 {
     PXCinematicEditController *_cinematicController;
-    _Bool _isInAutoFocusState;
-    NSString *_localizedActionName;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

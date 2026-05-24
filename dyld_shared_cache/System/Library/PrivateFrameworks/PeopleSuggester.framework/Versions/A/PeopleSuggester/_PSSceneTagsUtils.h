@@ -8,15 +8,15 @@
 {
 }
 
++ (id)_assistantDaemonAudioStopRecordingContext;
++ (id)_assistantDaemonAudioRecordingMissedBufferDetected;
++ (id)_amountOfSpeechDetectedInMs;
++ (id)_alwaysShowSiriDialog;
++ (id)_alternativeSelections;
++ (id)Target;
++ (id)t;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)otTriggerReason;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateInterval, NSMutableArray, NSObject, RTDefaultsManager, RTDistanceCalculator, RTHealthKitManager, RTLearnedLocationStore, RTLocationManager, RTMotionActivityManager, RTSensitiveDateClassifierMetrics, RTTimer, RTTimerManager, RTVehicleLocationProvider, RTWiFiManager;
-@protocol OS_dispatch_queue;
+@class RTDistanceCalculator;
 
 @interface RTSensitiveDateClassifier
 {
     _Bool _inWifiDenseArea;
-    RTDistanceCalculator *_distanceCalculator;
-    RTDefaultsManager *_defaultsManager;
-    RTHealthKitManager *_healthKitManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTSensitiveDateClassifierMetrics *_metrics;
-    RTMotionActivityManager *_motionActivityManager;
-    RTTimerManager *_timerManager;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTWiFiManager *_wifiManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDateInterval *_latestWorkoutDateInterval;
-    NSArray *_sensitiveLocations;
-    NSDate *_nearSensitiveLocationDetectionDate;
-    NSMutableArray *_accessPoints;
-    RTTimer *_wifiScanTimer;
-    CDUnknownBlockType _wifiDenseHandler;
 }
 
 - (CDUnknownBlockType);
@@ -35,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -44,60 +26,44 @@
 - (id);
 - (void);
 - (id);
+- (id)@;
+- (_Bool)%@;
+- (id)stingray fallback record:(id)arg1 %@;
+- (id)MS password metadata;
+- (id)g key matches existing record;
+- (id)al store iCDP state is %@;
+- (void)ection failed%s
+;
+- (void)various;
+- (id)fashion;
+- (_Bool)rrent = 0 WHERE service=? AND dsid=?;;
+- (_Bool)velope:%@] [associatedData:%@] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
+- (void)_;
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)th (%s) reply (connect);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)Üq r;
 - (id)erWithCommuteID:handler:] /* Error: Ran out of types for this method. */;
-- (id)imeKey;
+- (id)RTDefaultsSafetyCachePersistenceTimeKey;
 - (id)TDaemonClient fetchAuthorizedLocationStatus:] /* Error: Ran out of types for this method. */;
 - (void)e WiFi, status accessible;
 - (id)activity:%{public}@. /* Error: Ran out of types for this method. */;
 - (void)@,%@,got nil account info and nil error;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(nonatomic) _Bool inWifiDenseArea; // @synthesize inWifiDenseArea=_inWifiDenseArea;
-@property(retain, nonatomic) NSDateInterval *latestWorkoutDateInterval; // @synthesize latestWorkoutDateInterval=_latestWorkoutDateInterval;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTSensitiveDateClassifierMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) NSDate *nearSensitiveLocationDetectionDate; // @synthesize nearSensitiveLocationDetectionDate=_nearSensitiveLocationDetectionDate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSArray *sensitiveLocations; // @synthesize sensitiveLocations=_sensitiveLocations;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
-@property(copy, nonatomic) CDUnknownBlockType wifiDenseHandler; // @synthesize wifiDenseHandler=_wifiDenseHandler;
-@property(readonly, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) RTTimer *wifiScanTimer; // @synthesize wifiScanTimer=_wifiScanTimer;
 
 @end
 

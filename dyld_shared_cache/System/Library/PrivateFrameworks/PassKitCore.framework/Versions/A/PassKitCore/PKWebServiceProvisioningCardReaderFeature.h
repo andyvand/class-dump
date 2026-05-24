@@ -16,7 +16,7 @@
 - (id);
 - (_Bool);
 - (id)ø;
-- (void)L_CARD_ENROLLMENT;
+- (void)VIRTUAL_CARD_ENROLLMENT;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *networkConfigurations; // @synthesize networkConfigurations=_networkConfigurations;

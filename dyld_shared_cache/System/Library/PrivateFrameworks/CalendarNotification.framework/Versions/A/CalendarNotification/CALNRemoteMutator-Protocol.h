@@ -5,5 +5,7 @@
 //
 
 @protocol CALNRemoteMutator
+- (_Bool);
+- (void),;
 @end
 

@@ -11,12 +11,11 @@
 @interface WiFiUsageLQMWindowAnalysisDataTriggered : WiFiUsageLQMWindowAnalysis
 {
     NSArray *_triggerCriteriaList;
-    NSString *_dataTriggerReason;
 }
 
+- (id)getTokensForAssets:inAlbum:albumURLString:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)ùo;
 - (void);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *dataTriggerReason; // @synthesize dataTriggerReason=_dataTriggerReason;
-@property(readonly, nonatomic) NSArray *triggerCriteriaList; // @synthesize triggerCriteriaList=_triggerCriteriaList;
 
 @end
 

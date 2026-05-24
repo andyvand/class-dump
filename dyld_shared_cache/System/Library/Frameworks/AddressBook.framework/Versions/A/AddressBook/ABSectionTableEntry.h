@@ -11,8 +11,6 @@
 @interface ABSectionTableEntry : ABTableEntry
 {
     NSString *_header;
-    long long _theme;
-    _Bool _isMe;
 }
 
 - (id);
@@ -20,24 +18,18 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)RF;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)actionScanForUpdateBrain:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)
 × ;
 - (id)for search node:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityDescription;
-@property(readonly, nonatomic) NSString *displayName;
 @property(copy, nonatomic) NSString *header; // @synthesize header=_header;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(readonly, nonatomic) NSString *sortingFirstName;
-@property(readonly, nonatomic) NSString *sortingLastName;
-@property(nonatomic) long long theme; // @synthesize theme=_theme;
 
 @end
 

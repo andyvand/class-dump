@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPersistedTaskAttribution, TRIPersistedTaskCapabilityModifier;
+@class NSString;
 
 @interface TRIFetchTreatmentPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostSupportExactProcessNameBlocklist;
 
 // Remaining properties
-@property(retain, nonatomic) TRIPersistedTaskCapabilityModifier *capabilityModifier; // @dynamic capabilityModifier;
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasCapabilityModifier; // @dynamic hasCapabilityModifier;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

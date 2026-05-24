@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface IntervalBlocks
 {
@@ -13,21 +13,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long commodity; // @dynamic commodity;
-@property(nonatomic, copy) NSDate *creationDate; // @dynamic creationDate;
-@property(nonatomic, copy) NSDate *end; // @dynamic end;
-@property(nonatomic) long long flowDirection; // @dynamic flowDirection;
 @property(nonatomic, copy) NSString *meterID; // @dynamic meterID;
-@property(nonatomic) _Bool preprocessed; // @dynamic preprocessed;
-@property(nonatomic, copy) NSData *readings; // @dynamic readings;
 @property(nonatomic, copy) NSString *recordID; // @dynamic recordID;
-@property(nonatomic, copy) NSDate *sourceTime; // @dynamic sourceTime;
-@property(nonatomic, copy) NSDate *start; // @dynamic start;
-@property(nonatomic, copy) NSString *subscriptionID; // @dynamic subscriptionID;
-@property(nonatomic) long long unit; // @dynamic unit;
-@property(nonatomic, copy) NSString *usagePointID; // @dynamic usagePointID;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
-@property(nonatomic, copy) NSString *zoneName; // @dynamic zoneName;
 
 @end
 

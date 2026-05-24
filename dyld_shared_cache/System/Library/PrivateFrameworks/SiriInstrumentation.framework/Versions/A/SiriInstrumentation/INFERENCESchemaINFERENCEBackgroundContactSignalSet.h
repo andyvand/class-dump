@@ -6,28 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface INFERENCESchemaINFERENCEBackgroundContactSignalSet : SISchemaInstrumentationMessage
 {
     _Bool _isMatchWithRelationName;
-    float _peopleSuggesterScoreSumForContact;
-    NSArray *_handlesWithBgPrivacySignals;
-    struct {
-        unsigned int isMatchWithRelationName:1;
-        unsigned int peopleSuggesterScoreSumForContact:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)hB;
 - (float);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (id);
 - (void);
@@ -41,21 +33,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)Metadata;
-- (id)IFTContextPrewarmCompleted;
+- (id)IFTSchemaIFTContextPrewarmCompleted;
 - (void)¹:°]ë" /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *handlesWithBgPrivacySignals; // @synthesize handlesWithBgPrivacySignals=_handlesWithBgPrivacySignals;
-@property(nonatomic) _Bool hasIsMatchWithRelationName;
-@property(nonatomic) _Bool hasPeopleSuggesterScoreSumForContact;
 @property(nonatomic) _Bool isMatchWithRelationName; // @synthesize isMatchWithRelationName=_isMatchWithRelationName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float peopleSuggesterScoreSumForContact; // @synthesize peopleSuggesterScoreSumForContact=_peopleSuggesterScoreSumForContact;
 
 @end
 

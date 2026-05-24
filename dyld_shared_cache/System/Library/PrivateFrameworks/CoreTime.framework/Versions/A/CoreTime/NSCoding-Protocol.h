@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)reprocessing:(NSCoder *)arg1 A 1-to-1 dictionary of substitutions for SentencePiece input pieces. Example:{"foo":"bar"} will map every 'foo' piece to 'bar'.  /* Error: Ran out of types for this method. */;
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id)inconsistency. AVScrubbingGestureController state should never be unknown or scrubbing when a new scub gesture begins.;
 + (id)0@ù
 × ;
-- (id);
-- (unsigned int);
+- (id)nother view.;
+- (unsigned int)ype AVPresentationContainerView. Falling back to out-of-band presented view.;
 - (id);
 - (void);
 - (id);

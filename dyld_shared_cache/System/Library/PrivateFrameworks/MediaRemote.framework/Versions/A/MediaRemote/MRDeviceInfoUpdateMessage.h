@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)recoverablesMessagesWrittenCount;
 
 @end
 

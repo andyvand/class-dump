@@ -6,22 +6,11 @@
 
 #import <HomeKit/_HMAccessoryProfile.h>
 
-@class HMSiriEndpointProfilesMessenger, NSArray, NSNumber, NSString, NSUUID;
-@protocol _HMSiriEndpointProfileDelegate;
+@class HMSiriEndpointProfilesMessenger;
 
 @interface _HMSiriEndpointProfile : _HMAccessoryProfile
 {
     _Bool _manuallyDisabled;
-    long long _sessionState;
-    NSUUID *_sessionHubIdentifier;
-    NSString *_siriEndpointVersion;
-    unsigned long long _capability;
-    NSString *_siriEngineVersion;
-    NSNumber *_activeIdentifier;
-    long long _multifunctionButton;
-    NSArray *_assistants;
-    id <_HMSiriEndpointProfileDelegate> _delegate;
-    HMSiriEndpointProfilesMessenger *_messenger;
 }
 
 + (id);
@@ -37,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -47,7 +36,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (_Bool);
 - (void);
 - (void);
@@ -57,49 +46,22 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)imperishable;
 - (void);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void)ype;
+- (void)_predictionType;
 - (id)sSharedBackingStoreNotRunningDueToStopped:%@
             numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation:%@
 } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSNumber *activeIdentifier; // @synthesize activeIdentifier=_activeIdentifier;
-@property(retain) NSArray *assistants; // @synthesize assistants=_assistants;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(nonatomic) unsigned long long capability; // @synthesize capability=_capability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMSiriEndpointProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool manuallyDisabled; // @synthesize manuallyDisabled=_manuallyDisabled;
 @property(retain) HMSiriEndpointProfilesMessenger *messenger; // @synthesize messenger=_messenger;
-@property long long multifunctionButton; // @synthesize multifunctionButton=_multifunctionButton;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSUUID *sessionHubIdentifier; // @synthesize sessionHubIdentifier=_sessionHubIdentifier;
-@property long long sessionState; // @synthesize sessionState=_sessionState;
-@property(readonly, copy) NSString *shortDescription;
-@property(retain) NSString *siriEndpointVersion; // @synthesize siriEndpointVersion=_siriEndpointVersion;
-@property(retain) NSString *siriEngineVersion; // @synthesize siriEngineVersion=_siriEngineVersion;
-@property(readonly) Class superclass;
 
 @end
 

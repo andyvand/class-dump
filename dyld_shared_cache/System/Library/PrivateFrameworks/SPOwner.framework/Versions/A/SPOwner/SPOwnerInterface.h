@@ -14,13 +14,13 @@
 - (id);
 - (id);
 - (id);
+- (id)D9;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)rate metadata for an unsupported object;
+- (id)4;
 - (id);
 - (id);
 - (id);

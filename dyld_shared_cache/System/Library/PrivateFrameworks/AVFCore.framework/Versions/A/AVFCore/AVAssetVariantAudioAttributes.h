@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigAlternateObjC, NSArray, NSMutableDictionary;
+@class FigAlternateObjC, NSArray;
 
 @interface AVAssetVariantAudioAttributes
 {
     FigAlternateObjC *_figAlternateObjC;
-    NSMutableDictionary *_renditionSpecificAttributesForMediaSelection;
-    struct OpaqueFigSimpleMutex *_mutex;
 }
 
+- (id)|D	;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 

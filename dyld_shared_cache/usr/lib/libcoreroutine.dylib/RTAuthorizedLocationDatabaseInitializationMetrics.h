@@ -7,26 +7,20 @@
 @interface RTAuthorizedLocationDatabaseInitializationMetrics
 {
     int _eraseInstallInitializationAttemptCount;
-    int _eraseInstallInitializationCompletionTimeHours;
-    int _numberOfVisitsRegisteredDuringEraseInstallInitialization;
-    int _numberOfALOIsGeneratedDuringEraseInstallInitialization;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)WHERE MirrorKeys.dsid = ? AND MirrorKeys.type = ? AND (MirrorKeys.rowid NOT IN   (SELECT SyncedKeys.pubkeyNumber FROM SyncedKeys,SyncDevices WHERE (SyncDevices.deviceID = ? AND SyncedKeys.deviceNumber = SyncDevices.rowid))) ORDER BY MirrorKeys.current != 0;
+- (int)dsid=?;;
 - (id);
 
 // Remaining properties
 @property int eraseInstallInitializationAttemptCount; // @synthesize eraseInstallInitializationAttemptCount=_eraseInstallInitializationAttemptCount;
-@property int eraseInstallInitializationCompletionTimeHours; // @synthesize eraseInstallInitializationCompletionTimeHours=_eraseInstallInitializationCompletionTimeHours;
-@property int numberOfALOIsGeneratedDuringEraseInstallInitialization; // @synthesize numberOfALOIsGeneratedDuringEraseInstallInitialization=_numberOfALOIsGeneratedDuringEraseInstallInitialization;
-@property int numberOfVisitsRegisteredDuringEraseInstallInitialization; // @synthesize numberOfVisitsRegisteredDuringEraseInstallInitialization=_numberOfVisitsRegisteredDuringEraseInstallInitialization;
 
 @end
 

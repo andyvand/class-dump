@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatLogger
 {
     id _entries;
-    id timers;
-    id timerLock;
-    id queue;
 }
 
 @end

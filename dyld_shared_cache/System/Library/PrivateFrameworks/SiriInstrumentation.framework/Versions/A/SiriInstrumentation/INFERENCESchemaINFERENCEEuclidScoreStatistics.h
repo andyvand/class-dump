@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEEuclidScoreStatistics : SISchemaInstrumentationMessage
 {
     float _minScore;
-    float _maxScore;
-    float _medianScore;
-    float _meanScore;
-    struct {
-        unsigned int minScore:1;
-        unsigned int maxScore:1;
-        unsigned int medianScore:1;
-        unsigned int meanScore:1;
-    } _has;
 }
 
 - (void);
@@ -30,18 +19,18 @@
 - (float);
 - (float);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (float);
+- (float)SString",?,C,N,V_imageName;
 - (id);
 - (void);
 - (unsigned long long);
@@ -50,17 +39,9 @@
 - (id);
 - (id);
 - (id)ationUISelected",&,N,V_languageDisambiguationUISelected;
-- (id)gest;
+- (id)ODDSiriSchemaODDAssetAvailabilityFromBootDigest;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxScore;
-@property(nonatomic) _Bool hasMeanScore;
-@property(nonatomic) _Bool hasMedianScore;
-@property(nonatomic) _Bool hasMinScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float maxScore; // @synthesize maxScore=_maxScore;
-@property(nonatomic) float meanScore; // @synthesize meanScore=_meanScore;
-@property(nonatomic) float medianScore; // @synthesize medianScore=_medianScore;
 @property(nonatomic) float minScore; // @synthesize minScore=_minScore;
 
 @end

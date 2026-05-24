@@ -14,14 +14,14 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)Support.framework/Contents/MacOS/TextToSpeechMauiSupport;
+- (void)SRTP_AES128_CM_SHA1_80;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *statusExtensions; // @synthesize statusExtensions=_statusExtensions;

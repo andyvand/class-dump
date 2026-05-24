@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface VNFaceRegionMap
 {
     unsigned long long _requestRevision;
-    struct vImage_Buffer _regionMap;
-    struct CGRect _userBBox;
-    struct _Geometry2D_rect2D_ _internalAlignedBBox;
-    _Bool _deallocateBuffer;
-    NSDictionary *_pixelValueToRegionLabelMap;
-    NSArray *_regionLabels;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id)65;
+- (id)c;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)B;
+- (id)D:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
@@ -34,7 +28,6 @@
 
 // Remaining properties
 @property(copy) NSArray *regionLabels; // @synthesize regionLabels=_regionLabels;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 
 @end
 

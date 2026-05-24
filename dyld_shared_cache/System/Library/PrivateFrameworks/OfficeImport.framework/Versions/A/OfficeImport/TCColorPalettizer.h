@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TCColorPalettizer
 {
     struct _tagOctree *m_pTree;
-    _Bool isDefaultPaletteSize;
 }
 
 - (int);
@@ -24,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (int);
-- (int);
+- (int)";
 - (void);
 - (int);
-- (int);
-- (_Bool);
+- (int)@;
+- (_Bool);
 - (_Bool);
 - (int);
 - (void);

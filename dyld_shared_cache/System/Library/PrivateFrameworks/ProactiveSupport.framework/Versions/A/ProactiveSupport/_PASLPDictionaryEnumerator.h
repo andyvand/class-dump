@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLPDictionaryContext;
 @protocol _PASLPReaderProtocol;
 
 @interface _PASLPDictionaryEnumerator
 {
     id <_PASLPReaderProtocol> _reader;
-    _PASLPDictionaryContext *_context;
-    unsigned long long _ofs;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)setX_apple_self_invited: /* Error: Ran out of types for this method. */;
 
 @end
 

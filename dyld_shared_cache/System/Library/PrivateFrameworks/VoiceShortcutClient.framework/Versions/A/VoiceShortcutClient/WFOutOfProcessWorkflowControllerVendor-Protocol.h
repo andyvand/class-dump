@@ -5,5 +5,13 @@
 //
 
 @protocol WFOutOfProcessWorkflowControllerVendor
+- (oneway void);
+- (oneway void)z;
+- (oneway void)q3|;
+- (oneway void);
+- (oneway void)3|;
+- (void)z;
+- (oneway void)|;
+- (oneway void){;
 @end
 

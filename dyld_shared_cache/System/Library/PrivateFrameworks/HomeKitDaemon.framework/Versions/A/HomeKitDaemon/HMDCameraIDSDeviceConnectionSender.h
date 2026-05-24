@@ -6,58 +6,49 @@
 
 #import <HomeKitDaemon/HMDCameraIDSDeviceConnection.h>
 
-@class AVCPacketRelay, HMDDevice, HMFOSTransaction, NSNumber, NSString;
+@class HMDDevice;
 @protocol HMDCameraIDSDeviceConnectionSenderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSDeviceConnectionSender : HMDCameraIDSDeviceConnection
 {
     id <HMDCameraIDSDeviceConnectionSenderDelegate> _delegate;
-    HMDDevice *_device;
-    AVCPacketRelay *_videoPacketRelay;
-    AVCPacketRelay *_audioPacketRelay;
-    HMFOSTransaction *_packetRelayTransaction;
 }
 
 + (id)ÇB;
+- (id)immutable;
+- (void)MSPNavigationListenerDelegate;
+- (void)GEONavigationListenerDelegate;
+- (void);
+- (void)pdated:(id)arg1 %{public}@, locallyUpdated:%{public}@
+	senderInfo:%{public}@, fromDisplayName:%{public}@ [ %{private}@ ], fromIdentifier:%{public}@ [ %{private}@ ], localName:%{public}@ [ %{private}@ ], localContactIdentifier:%{public}@ [ %{private}@ ]
+	arrived:%{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)/usr/lib/swift/libswiftMLCompute.dylib;
 - (void);
 - (id)ítC;
 
 // Remaining properties
-@property(retain) AVCPacketRelay *audioPacketRelay; // @synthesize audioPacketRelay=_audioPacketRelay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraIDSDeviceConnectionSenderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *mtu;
-@property(retain) HMFOSTransaction *packetRelayTransaction; // @synthesize packetRelayTransaction=_packetRelayTransaction;
-@property(readonly) Class superclass;
-@property(retain) AVCPacketRelay *videoPacketRelay; // @synthesize videoPacketRelay=_videoPacketRelay;
 
 @end
 

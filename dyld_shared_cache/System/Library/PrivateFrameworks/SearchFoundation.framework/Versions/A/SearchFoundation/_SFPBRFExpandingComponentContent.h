@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFLongItemStandardCardSection, _SFPBRFReferenceFootnoteCardSection;
+@class _SFPBRFLongItemStandardCardSection;
 
 @interface _SFPBRFExpandingComponentContent
 {
     _SFPBRFLongItemStandardCardSection *_long_item_standard_card_section;
-    _SFPBRFReferenceFootnoteCardSection *_reference_footnote_card_section;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -23,24 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)queryForAnsweredQuestionsWithOptions:(id)arg1;
+- (id)key face:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)@0:8@"RFFactItemShortHeroNumberCardSection"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFLongItemStandardCardSection *long_item_standard_card_section; // @synthesize long_item_standard_card_section=_long_item_standard_card_section;
-@property(retain, nonatomic) _SFPBRFReferenceFootnoteCardSection *reference_footnote_card_section; // @synthesize reference_footnote_card_section=_reference_footnote_card_section;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

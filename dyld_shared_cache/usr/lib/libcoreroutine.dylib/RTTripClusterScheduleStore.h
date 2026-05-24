@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterScheduleStore : RTStore
 {
 }
@@ -16,7 +14,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (long long);
@@ -26,25 +24,19 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)predicateWithFormat:(id)arg1;
+- (void)addObserver:(id)arg1 selector:(CDUnknownBlockType)arg2 name:object: /* Error: Ran out of types for this method. */;
+- (void)PCSAccountManager;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Expected Federation:(id)arg1 %@;
+- (void)assword;
+- (void)w record for LRC Fed Record, quitting;
 - (id);
 - (id)send failed with error %@,GUID,%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

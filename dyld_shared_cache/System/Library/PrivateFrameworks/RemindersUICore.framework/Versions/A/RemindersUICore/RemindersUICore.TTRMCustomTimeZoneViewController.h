@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSComboBox, NSLayoutConstraint, NSTextField;
+@class NSComboBox;
 
 @interface RemindersUICore.TTRMCustomTimeZoneViewController
 {
     id timeZone;
-    void cityNameComboBox;
-    void timeZoneTextField;
-    void comboBoxWidthConstraint;
-    void buttonsCenterAlignment;
-    void okButtonTrailingConstraint;
-    void comboBoxTrailingConstraint;
-    void titleLabel;
-    void instructionLabelTopConstraintToTitle;
-    void instructionLabelTopConstraintToSuperview;
-    id presenter;
-    id initialCityName;
-    id date;
-    id configuration;
-    id isHandlingDeleteBackward;
 }
 
 - (id);
@@ -54,15 +40,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak NSLayoutConstraint *buttonsCenterAlignment; // @synthesize buttonsCenterAlignment;
 @property(nonatomic) __weak NSComboBox *cityNameComboBox; // @synthesize cityNameComboBox;
-@property(nonatomic) __weak NSLayoutConstraint *comboBoxTrailingConstraint; // @synthesize comboBoxTrailingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *comboBoxWidthConstraint; // @synthesize comboBoxWidthConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *instructionLabelTopConstraintToSuperview; // @synthesize instructionLabelTopConstraintToSuperview;
-@property(nonatomic) __weak NSLayoutConstraint *instructionLabelTopConstraintToTitle; // @synthesize instructionLabelTopConstraintToTitle;
-@property(nonatomic) __weak NSLayoutConstraint *okButtonTrailingConstraint; // @synthesize okButtonTrailingConstraint;
-@property(nonatomic) __weak NSTextField *timeZoneTextField; // @synthesize timeZoneTextField;
-@property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel;
 
 @end
 

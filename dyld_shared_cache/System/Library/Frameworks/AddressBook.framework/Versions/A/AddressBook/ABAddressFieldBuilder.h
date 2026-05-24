@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, CNPostalAddress, NSArray, NSColor, NSTextField;
+@class CNPostalAddress, NSArray;
 
 @interface ABAddressFieldBuilder
 {
     CNPostalAddress *_postalAddress;
-    _Bool _fieldsEditable;
-    NSColor *_textColor;
-    NSArray *_textFieldsArrangedByLine;
-    NSArray *_firstFieldsPerLine;
-    NSTextField *_streetField;
-    ABCardViewStyleProvider *_styleProvider;
 }
 
 + (unsigned long long);
-+ (id);
++ (id)AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:50 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -41,13 +35,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool fieldsEditable; // @synthesize fieldsEditable=_fieldsEditable;
-@property(copy, nonatomic) NSArray *firstFieldsPerLine; // @synthesize firstFieldsPerLine=_firstFieldsPerLine;
-@property(readonly, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(readonly, copy, nonatomic) NSArray *stackViewsArrangedByLine;
-@property(readonly, nonatomic) NSTextField *streetField; // @synthesize streetField=_streetField;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 @property(copy, nonatomic) NSArray *textFieldsArrangedByLine; // @synthesize textFieldsArrangedByLine=_textFieldsArrangedByLine;
 
 @end

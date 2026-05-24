@@ -4,61 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableDescription, INImage, INIntentResponseCodableCode, INIntentResponseDescription, NSDictionary, NSString, NSUserActivity, PBCodable, _INPBIntentResponse;
-
 @interface INIntentResponse
 {
     _Bool __userConfirmationRequired;
-    long long _code;
-    _INPBIntentResponse *_backingStore;
-    PBCodable *_responseMessagePBRepresentation;
-    INCodableDescription *_codableDescription;
-    NSUserActivity *_userActivity;
-    long long __stage;
 }
 
-+ (int);
-+ (long long);
-+ (int);
-+ (long long);
-+ (long long);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (int)isTypeAudioOnly:(long long)arg1;
++ (long long)_thumbnailRequest;
++ (int)_finishAndCallCompletionBlockOfRequest:(long long)arg1 withError: /* Error: Ran out of types for this method. */;
++ (long long)_basicFileIdentifier;
++ (long long)_badgeType;
++ (_Bool)_QLIssueFileExtensionWithSandboxType:(long long)arg1;
++ (id)NSImage;
++ (id)wrappedGenerator;
++ (_Bool);
 + (_Bool);
 + (void)TÖMg©;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_JSONDictionaryRepresentation;
-@property(readonly, nonatomic) NSString *_className;
-@property(readonly, nonatomic) INCodableDescription *_codableDescription; // @synthesize _codableDescription;
-@property(nonatomic, setter=_setCode:) long long _code;
-@property(readonly, nonatomic) INIntentResponseDescription *_instanceDescription;
-@property(readonly, nonatomic) INIntentResponseCodableCode *_intentResponseCodableCode;
-@property(readonly, nonatomic) long long _intentResponseCode;
-@property(readonly) long long _intents_toggleState;
-@property(readonly) INImage *_keyImage;
-@property(retain, nonatomic, setter=_setPayloadResponseTypeName:) NSString *_payloadResponseTypeName;
-@property(nonatomic, setter=_setRequiresAuthentication:) _Bool _requiresAuthentication;
-@property(nonatomic, setter=_setRequiresProtectedData:) _Bool _requiresProtectedData;
-@property(retain, nonatomic, setter=_setResponseMessagePBRepresentation:) PBCodable *_responseMessagePBRepresentation; // @synthesize _responseMessagePBRepresentation;
-@property(readonly, nonatomic) _Bool _shouldForwardIntentToApp;
-@property(nonatomic, setter=_setStage:) long long _stage; // @synthesize _stage=__stage;
-@property(readonly, nonatomic, getter=_isSuccess) _Bool _success;
-@property(readonly, nonatomic) long long _type;
-@property(readonly, nonatomic) _Bool _userConfirmationRequired; // @synthesize _userConfirmationRequired=__userConfirmationRequired;
-@property(readonly, copy, nonatomic) _INPBIntentResponse *backingStore; // @synthesize backingStore=_backingStore;
-@property(nonatomic) long long code; // @synthesize code=_code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSDictionary *propertiesByName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
 
 @end
 

@@ -19,10 +19,10 @@
 - (id);
 - (_Bool);
 - (unsigned char);
-- (void);
+- (void)mFirstPacketSize;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned char);
 - (unsigned char);
 - (id);
@@ -30,7 +30,7 @@
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
-- (void);
+- (void)setPalmImport: /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (_Bool);
 

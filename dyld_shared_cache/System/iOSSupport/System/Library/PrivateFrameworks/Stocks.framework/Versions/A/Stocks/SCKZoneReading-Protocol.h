@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol SCKZoneReading
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allRecords;

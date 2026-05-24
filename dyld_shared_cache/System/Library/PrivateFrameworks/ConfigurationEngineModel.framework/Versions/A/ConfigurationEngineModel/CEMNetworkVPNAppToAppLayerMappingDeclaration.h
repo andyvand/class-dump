@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMNetworkVPNAppToAppLayerMappingDeclaration : CEMConfigurationBase
 {
@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)m/Library/PrivateFrameworks/AVConference.framework/Frameworks/LegacyHandle.framework/Versions/A/LegacyHandle;
 + (id);
 + (id);
 - (void);
@@ -27,19 +27,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)r"8;
 - (id);
-- (void);
+- (void)AESGCM;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadAppLayerVPNMapping; // @synthesize payloadAppLayerVPNMapping=_payloadAppLayerVPNMapping;
-@property(readonly) Class superclass;
 
 @end
 

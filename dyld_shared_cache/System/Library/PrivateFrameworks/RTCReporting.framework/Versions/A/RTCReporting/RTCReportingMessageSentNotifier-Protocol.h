@@ -5,5 +5,8 @@
 //
 
 @protocol RTCReportingMessageSentNotifier
+
+@optional
+- (void)C;
 @end
 

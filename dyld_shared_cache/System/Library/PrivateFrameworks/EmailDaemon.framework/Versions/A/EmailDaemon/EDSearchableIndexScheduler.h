@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDSearchableIndexSchedulerState, NSMutableDictionary, NSObject, NSString;
-@protocol EDSearchableIndexSchedulable, OS_dispatch_queue;
-
 @interface EDSearchableIndexScheduler
 {
     _Bool _scheduling;
-    _Bool _scheduledDeferralCheck;
-    _Bool _requireClassA;
-    id <EDSearchableIndexSchedulable> _schedulable;
-    NSObject<OS_dispatch_queue> *_indexingStateQueue;
-    EDSearchableIndexSchedulerState *_state;
-    NSMutableDictionary *_activities;
-    NSMutableDictionary *_tasks;
 }
 
-+ (_Bool);
++ (_Bool),V_parentID;
 + (id);
 + (id);
 + (_Bool);
@@ -27,11 +17,11 @@
 + (id)0@ù
 × ;
 - (void);
-- (double);
+- (double)listUnsubscribeCommands;
+- (void)_blockedSenderManager;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -47,9 +37,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -63,13 +53,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rimming unwanted samples from message ring
+;
 - (void);
-- (void);
-- (void);
+- (void)setRequiresIdentity:(id)arg1;
+- (void)_joinSuccessCountInLastDay;
 - (double);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (void)to %{public}@, because %{public}@ entry is more recent.;
 - (void)R IGNORE threads SET   display_message = threads.newest_read_message WHERE threads.ROWID = :thread ; /* Error: Ran out of types for this method. */;
@@ -77,21 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activities; // @synthesize activities=_activities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *indexingStateQueue; // @synthesize indexingStateQueue=_indexingStateQueue;
-@property _Bool requireClassA; // @synthesize requireClassA=_requireClassA;
-@property(readonly, nonatomic) __weak id <EDSearchableIndexSchedulable> schedulable; // @synthesize schedulable=_schedulable;
 @property(nonatomic) _Bool scheduledDeferralCheck; // @synthesize scheduledDeferralCheck=_scheduledDeferralCheck;
-@property(nonatomic, getter=isScheduling) _Bool scheduling; // @synthesize scheduling=_scheduling;
-@property(retain, nonatomic) EDSearchableIndexSchedulerState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *tasks; // @synthesize tasks=_tasks;
 
 @end
 

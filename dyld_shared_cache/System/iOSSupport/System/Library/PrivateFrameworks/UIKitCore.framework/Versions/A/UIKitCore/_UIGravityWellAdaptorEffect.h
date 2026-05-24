@@ -6,37 +6,32 @@
 
 #import <UIKitCore/_UIGravityWellEffect.h>
 
-@class _UIGravityWellAdaptorInteraction;
 @protocol _UIClickHighlightEffect;
 
 __attribute__((visibility("hidden")))
 @interface _UIGravityWellAdaptorEffect : _UIGravityWellEffect
 {
     double _maxProgress;
-    id <_UIClickHighlightEffect> _adaptedEffect;
-    _UIGravityWellAdaptorInteraction *_adaptorInteraction;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)mations: /* Error: Ran out of types for this method. */;
+- (id):8@"Protocol"16 /* Error: Ran out of types for this method. */;
+- (id)updateStateForChat:(id)arg1 hintMessage:shouldRebuildFailedMessageDate:setUnreadCountToZero: /* Error: Ran out of types for this method. */;
+- (double)sendNameOnlyToHandleIDs:fromHandleID: /* Error: Ran out of types for this method. */;
+- (void)chatBotRecoverableMessageRecordZoneID;
+- (id)findRootCauses: /* Error: Ran out of types for this method. */;
+- (id)icationAction;
+- (void);
+- (void)CacheTimeoutInterval;
+- (void)addKeyframeWithRelativeStartTime:relativeDuration:animations: /* Error: Ran out of types for this method. */;
 - (void)ng,V_springDamping;
 - (void),o[;
 - (void)3f;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIClickHighlightEffect> adaptedEffect; // @synthesize adaptedEffect=_adaptedEffect;
-@property(retain, nonatomic) _UIGravityWellAdaptorInteraction *adaptorInteraction; // @synthesize adaptorInteraction=_adaptorInteraction;
-@property(nonatomic) double maxProgress; // @synthesize maxProgress=_maxProgress;
 
 @end
 

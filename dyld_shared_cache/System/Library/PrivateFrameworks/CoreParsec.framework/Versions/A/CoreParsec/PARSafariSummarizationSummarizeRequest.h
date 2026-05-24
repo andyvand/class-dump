@@ -11,14 +11,13 @@
 @interface PARSafariSummarizationSummarizeRequest : PARRequest
 {
     NSString *_urlString;
-    NSString *_localeString;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)Empty or invalid `browser_url_overrides` manifest entry;
+- (id)ctor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Traits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (void);
 - (Class);
@@ -26,7 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localeString; // @synthesize localeString=_localeString;
 @property(copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end

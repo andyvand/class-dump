@@ -9,11 +9,10 @@
 @interface PDFTextLogicalPosition
 {
     PDFPage *_page;
-    long long _offset;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long)
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) long long offset; // @synthesize offset=_offset;
 @property(nonatomic) __weak PDFPage *page; // @synthesize page=_page;
 
 @end

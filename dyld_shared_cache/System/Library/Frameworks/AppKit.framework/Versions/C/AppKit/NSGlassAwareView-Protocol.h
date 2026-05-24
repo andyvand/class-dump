@@ -5,6 +5,7 @@
 //
 
 @protocol NSGlassAwareView
+- (unsigned long long)or %u;
 
 // Remaining properties
 @property(readonly) unsigned long long preferredGlassBehavior;

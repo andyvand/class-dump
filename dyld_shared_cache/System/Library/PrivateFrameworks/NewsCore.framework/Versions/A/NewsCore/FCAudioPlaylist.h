@@ -6,24 +6,22 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCMTWriterLock, NSArray, NSDate, NSMutableDictionary, NSOrderedSet;
+@class NSArray, NSMutableDictionary;
 
 @interface FCAudioPlaylist : FCPrivateDataController
 {
     NSMutableDictionary *_itemsByID;
-    NSOrderedSet *_orderedArticleIDs;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (long long);
++ (long long)_getString: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)set a bundle ID on the attribution info.;
 + (void);
 + (id);
 + (id);
@@ -32,22 +30,21 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)Li1EEEEEE;
+- (void)didChangeScreenParameters;
+- (void)to set configuration complete for %@;
+- (void);
+- (_Bool)Y;
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id)hSortMethod:(id)arg1;
-- (void)onData;
+- (id)transformationWithSortMethod:(id)arg1;
+- (void)_eventAggregationPersonalizationData;
 - (void)ScoringConfig;
-- (void)eration;
+- (void)FCCKDirectRequestOperation;
 - (void)r _mergeRecords:withCachedRecords:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSDate *modificationDate;
 
 @end
 

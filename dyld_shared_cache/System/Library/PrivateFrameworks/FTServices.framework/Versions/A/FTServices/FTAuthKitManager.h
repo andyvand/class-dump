@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDSession, NSObject;
-@protocol OS_dispatch_queue;
+@class AKAppleIDSession;
 
 @interface FTAuthKitManager
 {
     AKAppleIDSession *_akAppleIDSession;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);

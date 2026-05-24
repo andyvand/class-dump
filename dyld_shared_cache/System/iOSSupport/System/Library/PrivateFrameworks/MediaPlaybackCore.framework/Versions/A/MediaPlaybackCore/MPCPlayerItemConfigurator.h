@@ -4,96 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AudioQualityPreferenceConfigurationObserver, MPAVRoutingController, MPCAudioAssetTypeSelector, MPCModelGenericAVItem, MPCPassthroughAudioDeviceObserver, MPCPlaybackEngine, MPCPlayerAudioRoute, MPPlaybackEQSetting, NSObject, NSString;
-@protocol MFPlaybackStackController><MFQueueManagement, MFQueueItemTranslator, OS_dispatch_source;
+@class AudioQualityPreferenceConfigurationObserver, MPCPlayerAudioRoute;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlayerItemConfigurator
 {
     MPCPlayerAudioRoute *_currentAudioRoute;
-    MPAVRoutingController *_routingController;
-    MPCAudioAssetTypeSelector *_audioAssetTypeSelector;
-    AudioQualityPreferenceConfigurationObserver *_audioQualityPreferenceObserver;
-    MPPlaybackEQSetting *_eqSetting;
-    id <MFQueueItemTranslator> _translator;
-    id <MFPlaybackStackController><MFQueueManagement> _stackController;
-    MPCPlaybackEngine *_playbackEngine;
-    NSObject<OS_dispatch_source> *_userDefaultsDebouncer;
-    MPCPassthroughAudioDeviceObserver *_passthroughAudioDeviceObserver;
 }
 
+- (id)ompletion: /* Error: Ran out of types for this method. */;
+- (void)copy;
+- (_Bool)appStateForBundleID:(id)arg1;
+- (void)_enableBYOEWithDataclassActionsAndSaveAccount:store:completion: /* Error: Ran out of types for this method. */;
+- (void)t change:No new dataclasses to enable /* Error: Ran out of types for this method. */;
+- (void)re valid;
+- (void)^;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)";
+- (id);
+- (id)__objc_methname;
 - (id);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)oto Stream due to missing library bundle;
+- (void)library bundle;
+- (void)B;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)account:(id)arg1 willChangeWithType:(double *)arg2 inStore:(id *)arg3 oldAccount: /* Error: Ran out of types for this method. */;
+- (id)account:(id)arg1 didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ccounts;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)paymentQueue:shouldAddStorePayment:forProduct: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void)public}@ %2i %{public}@ô¤ NETWORK TASK BEGIN         %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCAudioAssetTypeSelector *audioAssetTypeSelector; // @synthesize audioAssetTypeSelector=_audioAssetTypeSelector;
 @property(retain, nonatomic) AudioQualityPreferenceConfigurationObserver *audioQualityPreferenceObserver; // @synthesize audioQualityPreferenceObserver=_audioQualityPreferenceObserver;
-@property(readonly, nonatomic) MPCPlayerAudioRoute *currentAudioRoute; // @synthesize currentAudioRoute=_currentAudioRoute;
-@property(readonly, nonatomic) __weak MPCModelGenericAVItem *currentItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MPPlaybackEQSetting *eqSetting; // @synthesize eqSetting=_eqSetting;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MPCPassthroughAudioDeviceObserver *passthroughAudioDeviceObserver; // @synthesize passthroughAudioDeviceObserver=_passthroughAudioDeviceObserver;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic) MPAVRoutingController *routingController; // @synthesize routingController=_routingController;
-@property(readonly, nonatomic) __weak id <MFPlaybackStackController><MFQueueManagement> stackController; // @synthesize stackController=_stackController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak id <MFQueueItemTranslator> translator; // @synthesize translator=_translator;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *userDefaultsDebouncer; // @synthesize userDefaultsDebouncer=_userDefaultsDebouncer;
 
 @end
 

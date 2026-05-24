@@ -7,9 +7,6 @@
 @interface Network.NWBrowser
 {
     id _nw;
-    id lock;
-    id descriptor;
-    id parameters;
 }
 
 @end

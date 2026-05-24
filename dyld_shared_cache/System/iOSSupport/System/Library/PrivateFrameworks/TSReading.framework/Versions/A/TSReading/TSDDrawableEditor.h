@@ -4,49 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TSDDrawableInfo, TSDInteractiveCanvasController, TSDMultiPaneController, TSKSelection;
+@class TSDDrawableInfo, TSDInteractiveCanvasController;
 
 @interface TSDDrawableEditor
 {
     TSDInteractiveCanvasController *mICC;
-    NSSet *mInfos;
-    TSDMultiPaneController *mGraphicInspector;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
 - (id);
 - (id);
 - (void);
+- (id)StateProvidingDelegate;
+- (void);
+- (double);
+- (id)<;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)f;
 - (void);
 - (void);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -54,7 +52,7 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)qa;
 - (void);
 - (id);
 - (id);
@@ -62,70 +60,11 @@
 - (void);
 - (id);
 - (id);
-- (void)orPreset:(id)arg1 andTableArea: /* Error: Ran out of types for this method. */;
+- (void)textStyleIDForPreset:(id)arg1 andTableArea: /* Error: Ran out of types for this method. */;
 - (id)ÿ_ÆZiÕ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TSDDrawableInfo *firstInfo;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) TSDDrawableInfo *info;
-@property(retain, nonatomic) NSSet *infos; // @synthesize infos=mInfos;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=mICC;
-@property(readonly, nonatomic) NSSet *layouts;
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingConnectionLineAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingEndpoints;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingOpacity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingReflection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingResize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShadow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShrinkTextToFit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingSmartShapeAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingStroke;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingTextInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(retain, nonatomic) TSKSelection *selection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSKSelection",?,&,N
-
-@property(readonly) Class superclass;
 
 @end
 

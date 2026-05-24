@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBURLValue
 {
     struct _has;
-    NSString *_absoluteString;
-    NSData *_scope;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -19,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (unsigned long long);
 - (id);
@@ -29,25 +26,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)gIntent;
-- (void)ntentResponseCodeFailureRequiringAppLaunch;
+- (_Bool)_INPBOpenSettingIntent;
+- (void)INSetNumericSettingIntentResponseCodeFailureRequiringAppLaunch;
 - (void);
 - (id)åÎ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *absoluteString; // @synthesize absoluteString=_absoluteString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAbsoluteString;
-@property(readonly, nonatomic) _Bool hasScope;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

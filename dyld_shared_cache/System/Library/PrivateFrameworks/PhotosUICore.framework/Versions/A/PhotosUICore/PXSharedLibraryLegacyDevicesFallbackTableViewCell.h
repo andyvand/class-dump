@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSString, NSTextField;
+@class NSImage, NSImageView;
 
 @interface PXSharedLibraryLegacyDevicesFallbackTableViewCell
 {
     NSImageView *_imageView;
-    NSTextField *_titleLabel;
-    NSTextField *_messageLabel;
 }
 
 + (double){?}^{?}^{?}}16;
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *image;
-@property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

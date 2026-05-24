@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXAbstractProvider, CXChannelProviderConfiguration, NSArray, NSString, NSXPCConnection;
-@protocol CXChannelProviderDelegate;
+@class CXAbstractProvider, CXChannelProviderConfiguration;
 
 @interface CXChannelProvider
 {
     CXChannelProviderConfiguration *_configuration;
-    CXAbstractProvider *_abstractProvider;
-    NSXPCConnection *_voipApplicationControllerConnection;
 }
 
-+ (id)endLegacyScreenSharingInvite;
++ (id)shouldSendLegacyScreenSharingInvite;
 - (id);
 - (void);
 - (void);
@@ -23,9 +20,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (oneway void);
@@ -38,29 +35,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void){public}@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CXAbstractProvider *abstractProvider; // @synthesize abstractProvider=_abstractProvider;
-@property(copy, nonatomic) CXChannelProviderConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXChannelProviderDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *pendingTransactions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *voipApplicationControllerConnection; // @synthesize voipApplicationControllerConnection=_voipApplicationControllerConnection;
 
 @end
 

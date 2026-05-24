@@ -5,5 +5,6 @@
 //
 
 @protocol UITextRefinementInteractionBehaviorDelegate
+- (void);
 @end
 

@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOMapSubscriptionSizeEstimationReply : GEOXPCReply
 {
     long long _sizeInBytes;
 }
 
-- (void);
+- (void)VNBarcodeSymbologyCode39FullASCIIChecksum;
 - (long long);
 - (id);
-- (_Bool);
-- (void)nt;
+- (_Bool)parser:didStartElement:namespaceURI:qualifiedName:attributes: /* Error: Ran out of types for this method. */;
+- (void)cameraMetadataIndexsCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long sizeInBytes; // @synthesize sizeInBytes=_sizeInBytes;
-@property(readonly) Class superclass;
 
 @end
 

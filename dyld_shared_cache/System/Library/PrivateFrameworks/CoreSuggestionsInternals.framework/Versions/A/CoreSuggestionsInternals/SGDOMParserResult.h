@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGDOMParserResult
 {
     NSString *_plainText;
-    NSArray *_taggedCharacterRanges;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)8;
 - (void);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *plainText; // @synthesize plainText=_plainText;
-@property(readonly, nonatomic) NSArray *taggedCharacterRanges; // @synthesize taggedCharacterRanges=_taggedCharacterRanges;
 
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, UIColor;
+@class NSString, UIColor;
 
 @interface PRMonogramColor
 {
     NSString *_colorName;
-    UIColor *_color;
-    UIColor *_gradientStartColor;
-    UIColor *_gradientEndColor;
-    UIColor *_selectedActiveColor;
-    UIColor *_selectedInactiveColor;
-    UIColor *_selectedActiveTextColor;
-    NSBundle *_bundle;
 }
 
-+ (id);
++ (id)8;
 + (id);
 + (id);
 + (id);
@@ -35,36 +28,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Ț;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)!ɚ;
+- (void)initWithObjectsAndKeys:(id)arg1;
+- (id)5:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)aF;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
-@property(retain, nonatomic) UIColor *gradientEndColor; // @synthesize gradientEndColor=_gradientEndColor;
-@property(retain, nonatomic) UIColor *gradientStartColor; // @synthesize gradientStartColor=_gradientStartColor;
-@property(retain, nonatomic) UIColor *selectedActiveColor; // @synthesize selectedActiveColor=_selectedActiveColor;
-@property(retain, nonatomic) UIColor *selectedActiveTextColor; // @synthesize selectedActiveTextColor=_selectedActiveTextColor;
-@property(retain, nonatomic) UIColor *selectedInactiveColor; // @synthesize selectedInactiveColor=_selectedInactiveColor;
 
 @end
 

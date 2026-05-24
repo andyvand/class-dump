@@ -4,28 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserPrivacySettings, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPUserPrivacySettingsRetrieveResponse
 {
     NSMutableArray *_applicationBundles;
-    CKDPUserPrivacySettings *_userPrivacySettings;
 }
 
 + (Class);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id)#;
 - (id);
 - (void);
+- (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)suspend real-time audio engine. Self deregistering...
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,9 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *applicationBundles; // @synthesize applicationBundles=_applicationBundles;
 @property(readonly, nonatomic) _Bool hasUserPrivacySettings;
-@property(retain, nonatomic) CKDPUserPrivacySettings *userPrivacySettings; // @synthesize userPrivacySettings=_userPrivacySettings;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INListCarsIntentResponseExport
-- (long long)PhoneNumber;
+- (void);
+- (long long)hasDialingPhoneNumber;
 
 // Remaining properties
-@property(copy) NSArray *cars;
 @property(readonly) long long code;
 @end
 

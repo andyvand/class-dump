@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface PKSharedAccountCloudStore
 {
     _Bool _dirty;
-    NSArray *_sharedAccountCloudStoreZones;
-    NSDate *_lastUpdated;
-    NSString *_accountIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id)@9_q;
 - (id);
 - (id);
 - (id);
@@ -29,8 +26,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_tcpECNIntNotSupportedPeer;
+- (_Bool)passiveCaptivityDetected;
 - (id);
 - (void)!X"Ð!°Bù±î%ð1Â0@ù
 × ;
@@ -41,9 +38,6 @@
 - (void)0@"PKSecureElementPass"8@"NSError"16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 @property(copy, nonatomic) NSArray *sharedAccountCloudStoreZones; // @synthesize sharedAccountCloudStoreZones=_sharedAccountCloudStoreZones;
 
 @end

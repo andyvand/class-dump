@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFPlatformRequestSchemaIFPlatformRequestEnded, IFPlatformRequestSchemaIFPlatformRequestFailed, IFPlatformRequestSchemaIFPlatformRequestStarted, NSData, SISchemaUUID;
+@class IFPlatformRequestSchemaIFPlatformRequestStarted;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestContext : SISchemaInstrumentationMessage
 {
     IFPlatformRequestSchemaIFPlatformRequestStarted *_startedOrChanged;
-    IFPlatformRequestSchemaIFPlatformRequestEnded *_ended;
-    IFPlatformRequestSchemaIFPlatformRequestFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -37,35 +29,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)h";
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)s;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)localizedDaysOfWeekStringFor: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (id)amId;
+- (id)pommesSelectedMediaEntityAdamId;
 - (id)à;
 - (void)Ò#;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

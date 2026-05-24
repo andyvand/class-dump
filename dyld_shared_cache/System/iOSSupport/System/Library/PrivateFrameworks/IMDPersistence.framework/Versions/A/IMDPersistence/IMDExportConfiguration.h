@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IMDExportConfiguration
 {
     long long sortOrder;
-    long long batchSize;
-    unsigned long long messagesExcluded;
-    unsigned long long participantsIncluded;
-    void limitToGUIDs;
-    _Bool quickEstimates;
 }
 
 + (_Bool);
@@ -23,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
@@ -31,12 +24,6 @@
 - (void)mentsAsNeedingSync ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long batchSize; // @synthesize batchSize;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *limitToGUIDs;
-@property(nonatomic, readonly) unsigned long long messagesExcluded; // @synthesize messagesExcluded;
-@property(nonatomic, readonly) unsigned long long participantsIncluded; // @synthesize participantsIncluded;
-@property(nonatomic, readonly) _Bool quickEstimates; // @synthesize quickEstimates;
 @property(nonatomic, readonly) long long sortOrder; // @synthesize sortOrder;
 
 @end

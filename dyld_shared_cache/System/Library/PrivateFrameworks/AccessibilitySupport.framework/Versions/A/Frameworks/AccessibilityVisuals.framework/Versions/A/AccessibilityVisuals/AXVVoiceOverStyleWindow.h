@@ -11,8 +11,6 @@
 @interface AXVVoiceOverStyleWindow : AXVWindow
 {
     _Bool _isHighContrast;
-    _Bool _inSharedSpace;
-    NSVisualEffectView *__visualEffectView;
 }
 
 - (struct CGPoint);
@@ -31,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -40,8 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSVisualEffectView *_visualEffectView; // @synthesize _visualEffectView=__visualEffectView;
-@property(nonatomic, getter=isInSharedSpace) _Bool inSharedSpace; // @synthesize inSharedSpace=_inSharedSpace;
-@property(nonatomic) _Bool isHighContrast; // @synthesize isHighContrast=_isHighContrast;
 
 @end
 

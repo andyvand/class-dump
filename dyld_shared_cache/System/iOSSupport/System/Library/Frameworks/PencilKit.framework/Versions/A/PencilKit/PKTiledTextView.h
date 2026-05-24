@@ -6,13 +6,12 @@
 
 #import <PencilKit/PKTiledView.h>
 
-@class NSString, UIButton, UIView;
+@class UIView;
 @protocol PKTextAttachmentDrawingViewProviderView;
 
 @interface PKTiledTextView : PKTiledView
 {
     UIView<PKTextAttachmentDrawingViewProviderView> *_standInEndAttachmentView;
-    UIButton *_tapToRadarButton;
 }
 
 - (id);
@@ -54,19 +53,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)oolShadowViewTopAnchorConstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIView<PKTextAttachmentDrawingViewProviderView> *standInEndAttachmentView; // @synthesize standInEndAttachmentView=_standInEndAttachmentView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIButton *tapToRadarButton; // @synthesize tapToRadarButton=_tapToRadarButton;
 
 @end
 

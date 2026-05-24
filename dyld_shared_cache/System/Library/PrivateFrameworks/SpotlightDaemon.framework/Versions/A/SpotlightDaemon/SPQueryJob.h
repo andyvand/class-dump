@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SPQueryResultsQueue;
-
 @interface SPQueryJob
 {
     struct __SIJobRef *_siJob;
-    NSString *_dataclass;
-    SPQueryResultsQueue *_resultsQueue;
-    CDUnknownBlockType _resultsHandler;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)pochards;
 - (struct __SIJobRef *);
-- (void);
+- (void)BTMProperty_IforVmin;
 - (void);
 - (void);
 - (id);
@@ -28,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataclass; // @synthesize dataclass=_dataclass;
-@property(copy, nonatomic) CDUnknownBlockType resultsHandler; // @synthesize resultsHandler=_resultsHandler;
-@property(nonatomic) __weak SPQueryResultsQueue *resultsQueue; // @synthesize resultsQueue=_resultsQueue;
 @property(nonatomic) struct __SIJobRef *siJob; // @synthesize siJob=_siJob;
 
 @end

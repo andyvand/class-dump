@@ -5,5 +5,6 @@
 //
 
 @protocol MRActivityTracker
+- (void)R_;
 @end
 

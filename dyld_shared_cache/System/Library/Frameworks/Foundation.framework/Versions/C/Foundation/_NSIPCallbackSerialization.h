@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface _NSIPCallbackSerialization
 {
     CDUnknownBlockType _endBlock;
-    _Atomic _Bool _hasBegun;
-    _Atomic _Bool _hasEnded;
-    NSUUID *_UUID;
 }
 
 - (void);

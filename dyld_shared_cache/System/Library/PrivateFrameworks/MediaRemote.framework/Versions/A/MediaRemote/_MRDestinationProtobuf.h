@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRAVEndpointDescriptorProtobuf, _MRNowPlayingPlayerPathProtobuf;
+@class _MRAVEndpointDescriptorProtobuf;
 
 @interface _MRDestinationProtobuf
 {
     _MRAVEndpointDescriptorProtobuf *_endpoint;
-    NSString *_outputContextUID;
-    NSString *_outputDeviceUID;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
 - (void);
@@ -19,33 +16,26 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)E;
+- (unsigned long long)H;
+- (_Bool);
+- (id)resetMeCard;
+- (_Bool)_cachedStatusSubscriptionForIMHandle:fromCache:cacheDescription:cacheMiss: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)tion;
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id)8!;
+- (id)egin;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)sterNotification: /* Error: Ran out of types for this method. */;
+- (void)_handleApplicationDidRegisterNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRAVEndpointDescriptorProtobuf *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, nonatomic) _Bool hasEndpoint;
-@property(readonly, nonatomic) _Bool hasOutputContextUID;
 @property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) NSString *outputContextUID; // @synthesize outputContextUID=_outputContextUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

@@ -14,27 +14,26 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)rs;
 - (void);
 - (_Bool);
-- (id);
+- (id)OutOfBandMigrator;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets atomInsets;
-@property(retain, nonatomic) UIView<MFAtomTextViewAtomLayout> *delegateView; // @synthesize delegateView=_delegateView;
 
 @end
 

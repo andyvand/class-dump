@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NUChannelMediaFormat;
 @protocol NUMediaGeometry, NUMediaMetadata;
 
 @protocol NUMedia
+- (id <NUMediaMetadata>)P;
+- (id <NUMediaGeometry>);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
 @property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 @end
 

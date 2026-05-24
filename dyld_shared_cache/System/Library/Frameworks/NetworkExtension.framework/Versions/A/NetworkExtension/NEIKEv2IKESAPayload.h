@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)pIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setSourceAppIdentifier: /* Error: Ran out of types for this method. */;
 - (id)entifier initWithKeyIDString:(int)arg1 aad:(unsigned long long)arg2 key:] /* Error: Ran out of types for this method. */;
 
 @end

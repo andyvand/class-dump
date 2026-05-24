@@ -11,24 +11,21 @@
 @interface AppKit._NSSuggestionsMenuTableView : NSTableView
 {
     id menuTableViewDelegate;
-    id shouldHighlightRowsOnHover;
-    id trackingArea;
-    id isSettingStyleData;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c}@> error removing file at location of downloads directory:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (void);
+- (void)6Yh;
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id)lveForContainer:(struct CGRect)arg1 layoutAxis:traitCollection:maxFrameCount:layoutRTL:preferredSizes:solutionRecursionDepth: /* Error: Ran out of types for this method. */;
-- (void)ry;
+- (id)_solveForContainer:(struct CGRect)arg1 layoutAxis:traitCollection:maxFrameCount:layoutRTL:preferredSizes:solutionRecursionDepth: /* Error: Ran out of types for this method. */;
+- (void)_crashHistory;
 - (void)è»dÿ4,mE;
 - (void)ôª^ÿÆI;
 - (void);

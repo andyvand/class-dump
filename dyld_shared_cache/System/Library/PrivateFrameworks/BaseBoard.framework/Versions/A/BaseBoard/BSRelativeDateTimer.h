@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSString, NSTimer;
+@class NSCalendar;
 @protocol BSRelativeDateTimerDelegate;
 
 @interface BSRelativeDateTimer
 {
     NSCalendar *_gregorian;
-    NSTimer *_timer;
-    NSDate *_date;
-    unsigned long long _currResolution;
-    long long _currValue;
-    id <BSRelativeDateTimerDelegate> _delegate;
 }
 
 + (void);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)4H!;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,14 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <BSRelativeDateTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

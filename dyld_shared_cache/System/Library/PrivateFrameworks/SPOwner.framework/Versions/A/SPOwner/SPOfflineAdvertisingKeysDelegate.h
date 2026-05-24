@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPeripheralManager, FMXPCServiceDescription, FMXPCSession, NSObject, NSString, SPLocalBeaconManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SPOfflineAdvertisingKeysDelegate
 {
     _Bool _inLowPowerMode;
-    NSObject<OS_dispatch_queue> *_queue;
-    SPLocalBeaconManager *_beaconManager;
-    CBPeripheralManager *_peripheralManager;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_userAgentServiceDescription;
-    FMXPCSession *_userAgentSession;
 }
 
 - (void);
@@ -28,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
@@ -37,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_TtC17IMSharedUtilities21RecordCountCollection;
 - (void);
 - (void);
 - (id);
@@ -47,24 +40,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)Ô¸`qí;
 - (void)redAccessory"16;
-- (void);
+- (void)canBeLeashedByHost;
 
 // Remaining properties
-@property(retain, nonatomic) SPLocalBeaconManager *beaconManager; // @synthesize beaconManager=_beaconManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inLowPowerMode; // @synthesize inLowPowerMode=_inLowPowerMode;
-@property(retain, nonatomic) CBPeripheralManager *peripheralManager; // @synthesize peripheralManager=_peripheralManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FMXPCServiceDescription *userAgentServiceDescription; // @synthesize userAgentServiceDescription=_userAgentServiceDescription;
-@property(retain, nonatomic) FMXPCSession *userAgentSession; // @synthesize userAgentSession=_userAgentSession;
 
 @end
 

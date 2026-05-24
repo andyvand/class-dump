@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)l,;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)LabeledContactProperty: /* Error: Ran out of types for this method. */;
+- (void)unsupportedAttributesForLabeledContactProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CNContactFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;

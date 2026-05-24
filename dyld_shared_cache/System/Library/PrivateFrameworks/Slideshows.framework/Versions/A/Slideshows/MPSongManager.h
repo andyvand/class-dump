@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSRecursiveLock, NSString;
+@class NSMutableDictionary;
 
 @interface MPSongManager
 {
     NSMutableDictionary *mSongDescriptions;
-    NSMutableDictionary *mSongBeats;
-    NSMutableDictionary *mSongMetaData;
-    NSString *mSongCacheFilePath;
-    NSRecursiveLock *mSongLock;
-    void *mDaFunc;
 }
 
 + (void);
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)URLSession:(id)arg1 task:(id)arg2 needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setEndpointURL:(id)arg1;
+- (id)?0@"NSNumber"8@"NSArray"16^B24;
 - (_Bool);
 - (id);
 - (id);
-- (short);
+- (short);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 

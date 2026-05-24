@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerSourceMetricContext
 {
     id buildRecords;
-    id buildRecordsBySourceFile;
-    id bindRecords;
-    id bindRecordsBySourceFile;
 }
 
 @end

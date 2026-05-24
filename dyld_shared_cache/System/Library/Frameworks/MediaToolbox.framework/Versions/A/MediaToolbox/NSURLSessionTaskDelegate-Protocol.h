@@ -9,9 +9,12 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)purgeabilityScoreAtUrgency:(NSURLSession *)arg1;
+- (void);
+- (void)n_;
 - (void)coordinator from '%{public}@' to '%{public}@' based on timebase.;
 - (void)%@;
-- (void)nged;
+- (void)Note_PropertyChanged;
 - (void)on:(NSURLSession *)arg1 %p;
 @end
 

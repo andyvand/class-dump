@@ -13,15 +13,11 @@
 - (void)ð1Â0@ù
 × ;
 - (UIKBGradient *)16@"NSArray"24{_NSRange=QQ}32@"WTContext"48B56;
-- (double)ed;
+- (double)checked;
 - (void)<Ì>;
 - (struct CGColor *)board.onehanded.right;
 
 // Remaining properties
-@property(readonly, nonatomic) UIKBGradient *gradient;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool renderUnder;
-@property(readonly, nonatomic) _Bool usesRGBColors;
-@property(nonatomic) double weight;
 @end
 

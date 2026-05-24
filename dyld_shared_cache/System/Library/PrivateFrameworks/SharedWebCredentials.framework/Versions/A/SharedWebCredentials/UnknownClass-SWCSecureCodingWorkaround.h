@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SWCSecureCodingWorkaround)
 - (id);
-- (id);
+- (id)3y1H;
 @end
 

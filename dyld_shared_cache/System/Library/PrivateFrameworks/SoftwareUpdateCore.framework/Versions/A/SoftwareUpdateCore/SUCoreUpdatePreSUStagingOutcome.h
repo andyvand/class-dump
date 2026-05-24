@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)_migrateSidebarBookmarksSortByPreferenceIfNeeded;
 - (id);
 - (void);
 

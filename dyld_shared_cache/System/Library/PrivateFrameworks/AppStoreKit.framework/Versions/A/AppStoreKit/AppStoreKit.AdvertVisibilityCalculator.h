@@ -7,12 +7,6 @@
 @interface AppStoreKit.AdvertVisibilityCalculator
 {
     id view;
-    id scrollView;
-    id occludedEdgeInsets;
-    id visibilityThreshold;
-    id observer;
-    id viewControllerIsVisible;
-    id appIsForegrounded;
 }
 
 @end

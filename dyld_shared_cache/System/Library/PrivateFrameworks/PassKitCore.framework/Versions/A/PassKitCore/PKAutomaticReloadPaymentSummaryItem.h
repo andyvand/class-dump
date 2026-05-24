@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasChangeDirection;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)Card;
+- (void)transitCard;
 
 // Remaining properties
 @property(retain, nonatomic) NSDecimalNumber *thresholdAmount; // @synthesize thresholdAmount=_thresholdAmount;

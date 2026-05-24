@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface RTTripClusterRouteMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)SPublicIdentityData=}16^@24;
++ (id)iled (%@);
 
 // Remaining properties
-@property(nonatomic) unsigned long long clRoadID; // @dynamic clRoadID;
-@property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
-@property(nonatomic) double course; // @dynamic course;
-@property(nonatomic) _Bool followedByUTurn; // @dynamic followedByUTurn;
 @property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) short sequence; // @dynamic sequence;
 
 @end
 

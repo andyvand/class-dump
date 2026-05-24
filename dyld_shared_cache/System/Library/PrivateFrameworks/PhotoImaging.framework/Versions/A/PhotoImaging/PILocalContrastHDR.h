@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PILocalContrastHDR
 {
     CIImage *inputImage;
-    NSNumber *inputStrength;
-    NSNumber *inputScale;
 }
 
 + (id);
 - (id);
 - (id);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)setFlavor: /* Error: Ran out of types for this method. */;
 
 @end
 

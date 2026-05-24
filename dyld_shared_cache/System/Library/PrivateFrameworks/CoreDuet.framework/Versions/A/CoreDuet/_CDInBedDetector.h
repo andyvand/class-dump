@@ -5,44 +5,40 @@
 //
 
 @class NSObject;
-@protocol OS_os_log, _DKKnowledgeQuerying;
+@protocol OS_os_log;
 
 @interface _CDInBedDetector
 {
     NSObject<OS_os_log> *_log;
-    id <_DKKnowledgeQuerying> _knowledge;
-    unsigned long long _method;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)=;
 + (double);
 - (id);
 - (void);
+- (id)S;;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)W0;
+- (id)S;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)!HGùª3Ð1Â0@ù
 × ;
-- (void):(id)arg1;
+- (void)setActiveInteraction:(id)arg1;
 
 // Remaining properties
-@property(retain) id <_DKKnowledgeQuerying> knowledge; // @synthesize knowledge=_knowledge;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property unsigned long long method; // @synthesize method=_method;
 
 @end
 

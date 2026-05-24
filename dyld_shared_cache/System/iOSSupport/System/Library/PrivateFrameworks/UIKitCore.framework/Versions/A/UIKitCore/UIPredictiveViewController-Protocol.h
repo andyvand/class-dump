@@ -4,19 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, UIInputViewSet;
 @protocol UIKeyInput;
 
 @protocol UIPredictiveViewController
 - (double)1Â0@ù
 × ;
-- (_Bool)rState:(id <UIKeyInput>)arg1;
+- (_Bool)setTextAttributes:(id <UIKeyInput>)arg1 forState:(UIInputViewSet *)arg2;
 
 @optional
-- (_Bool)olorsByThemeKey;
+- (_Bool)CEMDeviceeSIMCellularPlanManagementCommand_Status;
+- (_Bool)_colorsByThemeKey;
 - (_Bool);
 - (NSArray *)on context with identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)erC;
+- (void)So40_UITextViewAnimatedPlaceholderIdentifierC;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *displayedCandidates;

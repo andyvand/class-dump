@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACEnvironmentState, LAEnvironmentMechanismBiometry, LAEnvironmentMechanismUserPassword, NSArray;
+@class LACEnvironmentState, LAEnvironmentMechanismBiometry;
 
 @interface LAEnvironmentState
 {
     LAEnvironmentMechanismBiometry *_biometry;
-    LAEnvironmentMechanismUserPassword *_userPassword;
-    NSArray *_companions;
-    LACEnvironmentState *_coreState;
 }
 
 - (id);
@@ -20,17 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allMechanisms;
-@property(readonly, nonatomic) LAEnvironmentMechanismBiometry *biometry; // @synthesize biometry=_biometry;
-@property(readonly, nonatomic) NSArray *companions; // @synthesize companions=_companions;
 @property(readonly, nonatomic) LACEnvironmentState *coreState; // @synthesize coreState=_coreState;
-@property(readonly, nonatomic) LAEnvironmentMechanismUserPassword *userPassword; // @synthesize userPassword=_userPassword;
 
 @end
 

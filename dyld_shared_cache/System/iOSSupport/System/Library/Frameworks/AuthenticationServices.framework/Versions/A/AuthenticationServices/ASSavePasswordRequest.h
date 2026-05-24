@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, ASPasswordCredential, NSString;
+@class ASCredentialServiceIdentifier;
 
 @interface ASSavePasswordRequest
 {
@@ -22,22 +22,16 @@
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (id);
-- (id);
+- (id)cloneTableContents:(void *)arg1 withOperation:resultBlock: /* Error: Ran out of types for this method. */;
+- (id)_searchableAttributeFromAssociatedMessageType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) ASPasswordCredential *credential;
-@property(nonatomic, readonly) long long event;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *passwordKind;
 @property(nonatomic, readonly) ASCredentialServiceIdentifier *serviceIdentifier;
-@property(nonatomic, readonly) NSString *sessionID;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

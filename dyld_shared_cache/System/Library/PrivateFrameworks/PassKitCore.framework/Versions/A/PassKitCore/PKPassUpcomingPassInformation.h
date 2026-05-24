@@ -9,26 +9,24 @@
 @interface PKPassUpcomingPassInformation
 {
     NSArray *_groups;
-    NSArray *_allEntries;
 }
 
-+ (_Bool);
++ (_Bool)k#;
 + (id);
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void)lectPrompt;
+- (id)Ӫ;
+- (void)linkOpen_100pct;
+- (void)dailyCashStatementCreditSelectPrompt;
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allEntries; // @synthesize allEntries=_allEntries;
-@property(readonly, copy, nonatomic) NSArray *groups; // @synthesize groups=_groups;
 
 @end
 

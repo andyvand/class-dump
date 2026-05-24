@@ -7,7 +7,6 @@
 @interface AFKUserSystemService
 {
     unsigned int _service;
-    unsigned long long _regID;
 }
 
 + (id);

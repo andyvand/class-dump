@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoPropertyOverride
 {
     int _propertyName;
-    int _propertyValue;
-    NSString *_stringValue;
-    unsigned int _uint32Value;
-    _Bool _boolValue;
-    struct {
-        unsigned int propertyName:1;
-        unsigned int propertyValue:1;
-        unsigned int uint32Value:1;
-        unsigned int boolValue:1;
-    } _has;
 }
 
 - (void);
@@ -27,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,37 +24,29 @@
 - (int);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8@16:(id)arg1 24@32@40;
 - (int);
-- (int);
-- (void);
+- (int)setBannerDismissReason: /* Error: Ran out of types for this method. */;
+- (void)ient start:(id)arg1 XID 0x%X, SF %#{flags}, PF %#{flags}
+;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void)ualityMetadata:quality metadata:length is invalid /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(nonatomic) _Bool hasBoolValue;
 @property(nonatomic) _Bool hasPropertyName;
-@property(nonatomic) _Bool hasPropertyValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasUint32Value;
-@property(nonatomic) int propertyName; // @synthesize propertyName=_propertyName;
-@property(nonatomic) int propertyValue; // @synthesize propertyValue=_propertyValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) unsigned int uint32Value; // @synthesize uint32Value=_uint32Value;
 
 @end
 

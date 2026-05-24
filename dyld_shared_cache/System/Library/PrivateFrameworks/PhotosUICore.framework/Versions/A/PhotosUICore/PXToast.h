@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, PXToastConfiguration, UXView;
+@class NSLayoutConstraint, PXToastConfiguration;
 
 @interface PXToast
 {
     PXToastConfiguration *_configuration;
-    _Bool _isShown;
-    NSLayoutConstraint *_onscreenConstraint;
-    NSLayoutConstraint *_offscreenConstraint;
-    UXView *_view;
-    double _bottomMargin;
 }
 
 + (id);
-- (void);
+- (void)!he;
 - (void);
 - (id);
 - (id);
@@ -29,17 +24,13 @@
 - (_Bool);
 - (double);
 - (void);
-- (id)etActionInfoViewHidden: /* Error: Ran out of types for this method. */;
+- (id)setActionInfoViewHidden: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ontroller>"8;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double bottomMargin; // @synthesize bottomMargin=_bottomMargin;
-@property(nonatomic) _Bool isShown; // @synthesize isShown=_isShown;
-@property(retain, nonatomic) NSLayoutConstraint *offscreenConstraint; // @synthesize offscreenConstraint=_offscreenConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *onscreenConstraint; // @synthesize onscreenConstraint=_onscreenConstraint;
-@property(retain, nonatomic) UXView *view; // @synthesize view=_view;
 
 @end
 

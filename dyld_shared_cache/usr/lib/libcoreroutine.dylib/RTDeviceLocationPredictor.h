@@ -6,30 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSArray, NSMutableArray, NSObject, NSSet, NSString, RTAuthorizationManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationManager, RTLocationManager, RTMapServiceManager, RTMetricManager, RTNextPredictedLocationsOfInterestCache, RTPlatform;
-@protocol OS_dispatch_source;
+@class RTAuthorizationManager;
 
 @interface RTDeviceLocationPredictor : RTService
 {
     _Bool _routineEnabled;
-    _Bool _encryptedDataAvailabilityNotificationNeeded;
-    _Bool _pendingNextPredictedLocationsOfInterestRequest;
-    RTAuthorizationManager *_authorizationManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTMetricManager *_metricManager;
-    RTPlatform *_platform;
-    RTNextPredictedLocationsOfInterestCache *_nextPredictedLocationsOfInterestCache;
-    NSObject<OS_dispatch_source> *_nextPredictedLocationsOfInterestPollLocationTimer;
-    NSArray *_nextPredictedLocationsOfInterest;
-    double _nextPredictedLocationsOfInterestProcessInterval;
-    double _nextPredictedLocationsOfInterestPollLocationInterval;
-    NSMutableArray *_evalPredictedLocationsOfInterest;
-    NSMutableArray *_evalPredictedExitDates;
-    NSSet *_providers;
 }
 
 + (long long);
@@ -41,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_childConnectionEvaluatorForToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -57,15 +38,15 @@
 - (void);
 - (void);
 - (void);
+- (double);
+- (void);
+- (id);
+- (void)R;
 - (double);
+- (_Bool)accountKeyTimestamp;
+- (void):(id)arg1 ];
 - (void);
-- (id);
-- (void);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
@@ -85,13 +66,13 @@
 - (void)0@ù
 × ;
 - (void)4d152d160;
-- (id)k;
-- (id)ltTimer;
+- (id)_handleMagnetBreak;
+- (id)scanResultTimer;
 - (id)W;
 - (void)erPerDevice collapseReconciledVisitsToLocationsOfInterest:(id)arg1 context:handler:] /* Error: Ran out of types for this method. */;
 - (void)nse:(id)arg1 ];
 - (id)%@ && %K <= %@;
-- (void)est_visit_duration_weekend_work;
+- (void)median_daily_longest_visit_duration_weekend_work;
 - (id)temUncertaintyMin;
 - (void)@,nil conversation;
 - (void)or,sessionID:(id)arg1 %@,%@,%@,distanceBetweenLocations,error %@;
@@ -106,31 +87,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) _Bool encryptedDataAvailabilityNotificationNeeded; // @synthesize encryptedDataAvailabilityNotificationNeeded=_encryptedDataAvailabilityNotificationNeeded;
-@property(retain, nonatomic) NSMutableArray *evalPredictedExitDates; // @synthesize evalPredictedExitDates=_evalPredictedExitDates;
-@property(retain, nonatomic) NSMutableArray *evalPredictedLocationsOfInterest; // @synthesize evalPredictedLocationsOfInterest=_evalPredictedLocationsOfInterest;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) NSArray *nextPredictedLocationsOfInterest; // @synthesize nextPredictedLocationsOfInterest=_nextPredictedLocationsOfInterest;
-@property(retain, nonatomic) RTNextPredictedLocationsOfInterestCache *nextPredictedLocationsOfInterestCache; // @synthesize nextPredictedLocationsOfInterestCache=_nextPredictedLocationsOfInterestCache;
-@property(nonatomic) double nextPredictedLocationsOfInterestPollLocationInterval; // @synthesize nextPredictedLocationsOfInterestPollLocationInterval=_nextPredictedLocationsOfInterestPollLocationInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *nextPredictedLocationsOfInterestPollLocationTimer; // @synthesize nextPredictedLocationsOfInterestPollLocationTimer=_nextPredictedLocationsOfInterestPollLocationTimer;
-@property(nonatomic) double nextPredictedLocationsOfInterestProcessInterval; // @synthesize nextPredictedLocationsOfInterestProcessInterval=_nextPredictedLocationsOfInterestProcessInterval;
-@property(nonatomic) _Bool pendingNextPredictedLocationsOfInterestRequest; // @synthesize pendingNextPredictedLocationsOfInterestRequest=_pendingNextPredictedLocationsOfInterestRequest;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSSet *providers; // @synthesize providers=_providers;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MDLTexture
 {
     NSString *_name;
-    struct MDLTextureData _textureData;
-    long long _channelEncoding;
-    NSData *_topLeftOriginData[14];
-    NSData *_bottomLeftOriginData[14];
-    _Bool _selfCreating;
-    _Bool _alphaValuesSet;
-    _Bool _hasAlphaValues;
 }
 
 + (id);
@@ -33,11 +26,11 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (struct MDLTextureData *);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
@@ -52,28 +45,21 @@
 - (void);
 - (id);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)Z;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (long long);
+- (id)est:%0.4f sec /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ed number of observations;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelCount;
-@property(readonly, nonatomic) long long channelEncoding; // @synthesize channelEncoding=_channelEncoding;
 @property(readonly, nonatomic) id dimensions;
-@property(nonatomic) _Bool hasAlphaValues;
-@property(nonatomic) _Bool isCube;
-@property(readonly, nonatomic) unsigned long long mipLevelCount;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long rowStride;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSString;
-
 @interface SGKeyValueCacheFile
 {
-    struct _opaque_pthread_mutex_t _lock;
-    NSData *_data;
-    int _fd;
-    NSString *_path;
-    NSString *_tmpDir;
-    NSMutableData *_memStore;
-    SGKeyValueCacheFile *_other;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } _lock;
 }
 
 + (void);
 + (id);
 + (id);
 + (_Bool);
++ (id)%@;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -31,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);

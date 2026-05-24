@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelGenericObject, NSHashTable, NSTimer;
+@class MPModelGenericObject;
 
 __attribute__((visibility("hidden")))
 @interface LPMediaRemotePlaybackObserver
 {
     MPModelGenericObject *_enqueuedItem;
-    MPModelGenericObject *_enqueuedItemContext;
-    double _elapsedTime;
-    double _totalTime;
-    _Bool _isPlaying;
-    _Bool _enqueuedItemIsLive;
-    NSHashTable *_clients;
-    NSTimer *_timer;
 }
 
 + (id)@ù
@@ -24,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)borderedButtonConfiguration;
 - (_Bool);
 - (void);
 - (void)á÷!,GùQð1Â0@ù
 × ;
-- (double)dresses;
+- (double)addresses;
 - (void)roviderSpecialization.m;
 
 @end

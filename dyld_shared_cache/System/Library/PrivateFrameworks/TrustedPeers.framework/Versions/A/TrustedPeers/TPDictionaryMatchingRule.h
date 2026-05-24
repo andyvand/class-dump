@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)core_PlayState_Paused;
 + (id);
 + (id);
 + (id);

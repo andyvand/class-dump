@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSleepConfigurationOperationStatusWrapper
 {
     long long _value;
 }
 
-+ (id);
++ (id)numberOfAssetClustersWithin10mOfCenter;
 - (id);
-- (void);
+- (void)s;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ClientsOfRemovedGroup:(struct _NSZone *)arg1;
-- (long long)etionHandler: /* Error: Ran out of types for this method. */;
+- (id)notifyClientsOfRemovedGroup:(struct _NSZone *)arg1;
+- (long long)fetchIsTwoFactorAuthenticationEnabledForAccountWithReason:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ublic}@Shared user is not yet user of the home. Will wait for user addition before setting up fabric data;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

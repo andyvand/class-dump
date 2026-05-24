@@ -6,31 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIMenu, UINavigationItem, _UINavigationBarTitleViewOverlayRects;
-@protocol _UINavigationBarTitleViewDataSource;
+@class UINavigationItem, _UINavigationBarTitleViewOverlayRects;
 
 @interface _UINavigationBarTitleView : UIView
 {
     _UINavigationBarTitleViewOverlayRects *_overlayRects;
-    id <_UINavigationBarTitleViewDataSource> _dataSource;
-    _Bool _underlayBarContent;
-    _Bool _hideBackButton;
-    _Bool _hideLeadingBarButtons;
-    _Bool _hideStandardTitle;
-    _Bool _hideCenterBarButtons;
-    _Bool _hideTrailingBarButtons;
-    _Bool _heightShouldBeIncreasedByTabBarHeight;
-    _Bool _disallowNavigationBarMinimumTopPadding;
-    UINavigationItem *_navigationItem;
-    long long _titleLocation;
-    double _height;
-    double _heightExtension;
-    double _backButtonMaximumWidth;
-    double _backButtonAlpha;
-    double _leadingBarAlpha;
-    double _trailingBarAlpha;
-    long long _preferredContentAlignment;
-    long long _displayLayer;
 }
 
 - (_Bool);
@@ -39,7 +19,7 @@
 - (long long);
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,57 +38,57 @@
 - (long long);
 - (void);
 - (void);
+- (long long)24C32@"NSDictionary"36@"NSString"44@"NSString"52@"IMItem"60;
+- (_Bool)setEncounteredIncompatibleMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)setEligibleForTruthZone: /* Error: Ran out of types for this method. */;
+- (_Bool)setDisablingDevices: /* Error: Ran out of types for this method. */;
+- (_Bool)setDeviceLowOnDiskSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)setDeletedZones: /* Error: Ran out of types for this method. */;
+- (_Bool)setCount: /* Error: Ran out of types for this method. */;
+- (double)requestNetworkDataAvailability;
+- (long long)mode;
+- (_Bool)maxSizePerAttachmentWithCount:lastAddressHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (id)getCollaborationHighlightForURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)forwardInvocation: /* Error: Ran out of types for this method. */;
+- (double)forcedReloadingChatRegistryWithQueryID: /* Error: Ran out of types for this method. */;
+- (id)clearHistoryForIDs:style:onServices:beforeGUID:afterGUID:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (_Bool)_preflightLogAllUnreadMessages;
+- (id)N,R;
+- (void);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (long long);
+- (double);
 - (_Bool);
 - (id);
 - (double);
 - (double);
+- (double);
+- (double);
+- (_Bool);
+- (_Bool)ation Center post badge string with error:[%@] /* Error: Ran out of types for this method. */;
+- (_Bool)fication center to post badge string %@;
+- (_Bool)t badge number with error:[%@] /* Error: Ran out of types for this method. */;
+- (long long)etry=YES ;
+- (_Bool)sage %@;
+- (void)e user!;
+- (double)lastdoor completed processing Collaboration Notice Action, actionType:%@, guids:%@ /* Error: Ran out of types for this method. */;
+- (double)ning early.;
+- (_Bool)dWithDate, must be called with a non-nil exit date ignoring request;
+- (double)Positive match on alias %@ ;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
-- (double);
-- (double);
-- (_Bool);
-- (double);
-- (id);
-- (double);
+- (double)CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary;
 - (id);
 - (id);
 - (double)!Aù1^°1Â0@ù
 × ;
 - (id);
-- (long long)opertiesQuick: /* Error: Ran out of types for this method. */;
-- (id)longHeading:(struct CGRect)arg1 forMove:duringIteration: /* Error: Ran out of types for this method. */;
+- (long long)_isEqualToPropertiesQuick: /* Error: Ran out of types for this method. */;
+- (id)_focusMoveTest:(struct CGRect)arg1 didMoveFocusAlongHeading:forMove:duringIteration: /* Error: Ran out of types for this method. */;
 - (CDStruct_c3b9c2ee)r,S_setTitleTextColor:,V_titleTextColor /* Error: Ran out of types for this method. */;
 - (void)ngPinConstraint;
 - (double)effect.height;
@@ -117,57 +97,7 @@
 - (id)_;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _disallowNavigationBarMinimumTopPadding;
-@property(readonly, nonatomic) long long _displayLayer;
-@property(readonly, nonatomic) _Bool _hideNavigationBarBackButton;
-@property(readonly, nonatomic) _Bool _hideNavigationBarCenterBarButtons;
-@property(readonly, nonatomic) _Bool _hideNavigationBarLeadingBarButtons;
-@property(readonly, nonatomic) _Bool _hideNavigationBarStandardTitle;
-@property(readonly, nonatomic) _Bool _hideNavigationBarTrailingBarButtons;
-@property(readonly, nonatomic) double _navigationBarBackButtonAlpha;
-@property(readonly, nonatomic) double _navigationBarBackButtonMaximumWidth;
-@property(readonly, nonatomic) double _navigationBarContentHeight;
-@property(readonly, nonatomic) double _navigationBarContentHeightExtension;
-@property(readonly, copy, nonatomic) NSArray *_navigationBarContentOverlayRects;
-@property(readonly, nonatomic) _Bool _navigationBarHeightShouldBeIncreasedByTabBarHeight;
-@property(readonly, nonatomic) double _navigationBarLeadingBarButtonsAlpha;
-@property(readonly, nonatomic) double _navigationBarTrailingBarButtonsAlpha;
-@property(readonly, nonatomic) long long _preferredAlignment;
-@property(nonatomic) double backButtonAlpha; // @synthesize backButtonAlpha=_backButtonAlpha;
-@property(nonatomic) double backButtonMaximumWidth; // @synthesize backButtonMaximumWidth=_backButtonMaximumWidth;
-@property(readonly, copy, nonatomic) UIMenu *backButtonMenu;
-@property(readonly, nonatomic) double contentBaseHeight;
-@property(readonly, nonatomic) double contentBaselineOffsetFromTop;
-@property(readonly, copy, nonatomic) NSArray *contentOverlayRects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disallowNavigationBarMinimumTopPadding; // @synthesize disallowNavigationBarMinimumTopPadding=_disallowNavigationBarMinimumTopPadding;
-@property(nonatomic) long long displayLayer; // @synthesize displayLayer=_displayLayer;
-@property(readonly, nonatomic) double floatingTabBarHeight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) double heightExtension; // @synthesize heightExtension=_heightExtension;
-@property(nonatomic) _Bool heightShouldBeIncreasedByTabBarHeight; // @synthesize heightShouldBeIncreasedByTabBarHeight=_heightShouldBeIncreasedByTabBarHeight;
-@property(nonatomic) _Bool hideBackButton; // @synthesize hideBackButton=_hideBackButton;
-@property(nonatomic) _Bool hideCenterBarButtons; // @synthesize hideCenterBarButtons=_hideCenterBarButtons;
-@property(nonatomic) _Bool hideLeadingBarButtons; // @synthesize hideLeadingBarButtons=_hideLeadingBarButtons;
-@property(nonatomic) _Bool hideStandardTitle; // @synthesize hideStandardTitle=_hideStandardTitle;
-@property(nonatomic) _Bool hideTrailingBarButtons; // @synthesize hideTrailingBarButtons=_hideTrailingBarButtons;
-@property(readonly, nonatomic) double largeTitleHeight;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee largeTitleHeightRange;
-@property(nonatomic) double leadingBarAlpha; // @synthesize leadingBarAlpha=_leadingBarAlpha;
-@property(readonly, nonatomic) long long leadingOverlayCount;
 @property(readonly, nonatomic) __weak UINavigationItem *navigationItem; // @synthesize navigationItem=_navigationItem;
-@property(readonly, nonatomic) _UINavigationBarTitleViewOverlayRects *overlays;
-@property(nonatomic) long long preferredContentAlignment; // @synthesize preferredContentAlignment=_preferredContentAlignment;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long titleLocation; // @synthesize titleLocation=_titleLocation;
-@property(nonatomic) double trailingBarAlpha; // @synthesize trailingBarAlpha=_trailingBarAlpha;
-@property(readonly, nonatomic) long long trailingOverlayCount;
-@property(nonatomic) _Bool underlayBarContent; // @synthesize underlayBarContent=_underlayBarContent;
 
 @end
 

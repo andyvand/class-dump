@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateHoldInfo
 {
     unsigned long long _state;
-    NSDate *_activationDate;
 }
 
 - (id);
-- (id);
+- (id)PersonaVector;
 - (unsigned long long);
 - (id)lic}@Submitting routine configuration event;
-- (void)tFlagsArchivedEventFlagsKey;
+- (void)HMDEventFlagsArchivedEventFlagsKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *activationDate; // @synthesize activationDate=_activationDate;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol NUFaceDetectionResult
-- (NSArray *)r:object: /* Error: Ran out of types for this method. */;
+- (CDStruct_912cb5d2)P;
+- (NSArray *)extraError:object: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSArray *faces;
-@property(readonly) CDStruct_912cb5d2 imageSize;
 @end
 

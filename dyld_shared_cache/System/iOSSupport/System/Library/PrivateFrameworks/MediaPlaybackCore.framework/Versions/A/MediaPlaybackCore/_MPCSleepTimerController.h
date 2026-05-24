@@ -7,31 +7,23 @@
 @interface _MPCSleepTimerController
 {
     id playbackEngine;
-    id fadeOutDuration;
-    id timer;
-    id identifier;
-    id mode;
-    id engineObserver;
-    id observedChapter;
 }
 
+- (void)__swift5_reflstr__TEXT;
 - (void);
-- (void);
-- (void);
+- (void)__swift5_typeref__TEXT;
 - (void);
 - (void);
 - (long long);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void)xt [dataSource %p] playbackContext=%{public}@ ;
 
 // Remaining properties
-@property(nonatomic, readonly) double fireDate;
 @property(nonatomic, readonly) long long stopMode;
-@property(nonatomic, readonly) double time;
 
 @end
 

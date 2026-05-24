@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaDestinationControllerBackingStoreHandler, HMDMediaDestinationControllerMessageHandler, HMDMediaDestinationControllerMetricsEventDispatcher, HMFStagedValue, HMMediaDestinationControllerData, NSObject, NSString, NSUUID;
-@protocol HMDFeaturesDataSource, HMDMediaDestinationControllerDataSource, HMDMediaDestinationControllerDelegate, OS_os_log;
+@class NSObject, NSString;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationController
 {
     NSObject<OS_os_log> *_logger;
-    _Bool _isTargetDevice;
-    NSUUID *_identifier;
-    HMDMediaDestinationControllerMessageHandler *_messageHandler;
-    HMDMediaDestinationControllerBackingStoreHandler *_backingStoreHandler;
-    id <HMDMediaDestinationControllerDataSource> _dataSource;
-    id <HMDMediaDestinationControllerDelegate> _delegate;
-    HMDMediaDestinationControllerMetricsEventDispatcher *_metricsEventDispatcher;
-    HMFStagedValue *_stagedDestinationIdentifier;
-    HMFStagedValue *_stagedAvailableDestinationIdentifiers;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (unsigned long long);
@@ -39,42 +29,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)onse"@"NSData"@"NSError">16@?<v@?B>24;
+- (void)setCustomName: /* Error: Ran out of types for this method. */;
+- (void)setCurrentState: /* Error: Ran out of types for this method. */;
+- (void)setCompletedUnitCount: /* Error: Ran out of types for this method. */;
+- (void)_messageForRoutePlanning;
+- (void)le;
+- (id)service:account:inviteDroppedForSessionID:fromID:context:error: /* Error: Ran out of types for this method. */;
+- (id)initWithRemovedObjects:(id)arg1 indexes:(id)arg2;
+- (id)",&,N,V_position;
+- (void)V_transitLineStorage;
+- (void)sharedTripInvalidatedWithError:(id)arg1;
+- (void)&,N,V_originatorIdentifier;
+- (void)setModeArtwork:(id)arg1;
+- (void)URL;
+- (void)setCorrections:(id)arg1;
+- (void)service:(id)arg1 account:(id)arg2 didReceiveLocalNetworkHandshake:(id)arg3 fromID:(unsigned long long)arg4 context: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ch_queue>",&,N,V_ioQueue;
+- (void)Capabilities;
+- (void)ctionary",&,N,V_capabilitiesByParticipant;
+- (void)objectInEditableObjectsAtIndex:(id)arg1;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)rformBlockAfterInitialConnection:instead /* Error: Ran out of types for this method. */;
+- (id)׎;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -83,40 +73,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)outputMaskSurroundExtent;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ity:permissions:error: /* Error: Ran out of types for this method. */;
+- (id)addPairingToHAPAccessory:newPairingIdentity:permissions:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)d metadata for homes awaiting auto accept is expired - purging.;
-- (void)onnectedToInternet;
+- (void)isConnectedToInternet;
 - (void)6BB765291;
-- (id)anSeeControllerNearby;
+- (id)primaryCanSeeControllerNearby;
 
 // Remaining properties
-@property(readonly) HMDMediaDestinationControllerBackingStoreHandler *backingStoreHandler; // @synthesize backingStoreHandler=_backingStoreHandler;
-@property(readonly, copy) HMMediaDestinationControllerData *committedData;
-@property(readonly, copy) HMMediaDestinationControllerData *data;
-@property __weak id <HMDMediaDestinationControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaDestinationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isTargetDevice; // @synthesize isTargetDevice=_isTargetDevice;
-@property(readonly) HMDMediaDestinationControllerMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(retain) HMDMediaDestinationControllerMetricsEventDispatcher *metricsEventDispatcher; // @synthesize metricsEventDispatcher=_metricsEventDispatcher;
-@property(readonly) HMFStagedValue *stagedAvailableDestinationIdentifiers; // @synthesize stagedAvailableDestinationIdentifiers=_stagedAvailableDestinationIdentifiers;
-@property(readonly) HMFStagedValue *stagedDestinationIdentifier; // @synthesize stagedDestinationIdentifier=_stagedDestinationIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *urlString;
 
 @end

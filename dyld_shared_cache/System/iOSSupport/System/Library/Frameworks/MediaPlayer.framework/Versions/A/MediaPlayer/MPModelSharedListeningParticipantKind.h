@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)value:withObjCType: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -24,8 +24,8 @@ struct OpaqueVTTemporalNoiseFilterInternal {
     id _field5;
     struct pendingFrameList _field6;
     struct OpaqueFigSimpleMutex *_field7;
-    CDStruct_1b6d18a9 _field8;
-    CDStruct_1b6d18a9 _field9;
+    CDStruct_198678f7 _field8;
+    CDStruct_198678f7 _field9;
     int _field10;
     _Bool _field11;
     _Bool _field12;
@@ -34,7 +34,7 @@ struct OpaqueVTTemporalNoiseFilterInternal {
 struct PendingFrameItem {
     id _field1;
     id _field2;
-    CDStruct_1b6d18a9 _field3;
+    CDStruct_198678f7 _field3;
     unsigned char _field4;
     unsigned char _field5;
     struct __CVBuffer *_field6;
@@ -44,10 +44,6 @@ struct PendingFrameItem {
     struct {
         struct PendingFrameItem *_field1;
     } _field10;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 struct pendingFrameList {
@@ -62,9 +58,9 @@ typedef struct {
 } CDStruct_1ef3fb1f;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 

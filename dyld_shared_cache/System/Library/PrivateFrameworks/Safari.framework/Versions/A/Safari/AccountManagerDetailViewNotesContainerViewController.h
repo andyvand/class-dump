@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AccountManagerDetailViewNotesContainerViewController
 {
     NSTextField *_titleLabel;
-    NSTextField *_valueLabel;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) __weak NSTextField *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

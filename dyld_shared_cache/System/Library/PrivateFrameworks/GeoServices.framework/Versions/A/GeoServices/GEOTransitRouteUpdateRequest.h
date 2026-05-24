@@ -4,53 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdditionalEnabledMarkets, GEOClientCapabilities, GEOPDABClientDatasetMetadata, GEOPrivacyMetadata, GEORouteAttributes, NSArray, NSData, NSMutableArray, NSString, NSUUID, PBDataReader, PBUnknownFields;
+@class NSUUID, PBDataReader;
 
 @interface GEOTransitRouteUpdateRequest
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOSessionID _sessionId;
-    GEOPDABClientDatasetMetadata *_abClientMetadata;
-    NSData *_directionsResponseId;
-    GEOAdditionalEnabledMarkets *_originalAdditionalEnabledMarkets;
-    GEOClientCapabilities *_originalClientCapabilities;
-    GEORouteAttributes *_originalRouteAttributes;
-    NSMutableArray *_originalWaypoints;
-    GEOPrivacyMetadata *_privacyMetadata;
-    NSString *_requestingAppId;
-    NSMutableArray *_routeIdentifiers;
-    NSMutableArray *_serviceTags;
-    double _sessionRelativeTimestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_sessionId:1;
-        unsigned int has_sessionRelativeTimestamp:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_abClientMetadata:1;
-        unsigned int read_directionsResponseId:1;
-        unsigned int read_originalAdditionalEnabledMarkets:1;
-        unsigned int read_originalClientCapabilities:1;
-        unsigned int read_originalRouteAttributes:1;
-        unsigned int read_originalWaypoints:1;
-        unsigned int read_privacyMetadata:1;
-        unsigned int read_requestingAppId:1;
-        unsigned int read_routeIdentifiers:1;
-        unsigned int read_serviceTags:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
 + (id);
++ (Class)deProtocol_>",N,R;
++ (Class)ure;
 + (Class);
-+ (Class);
-+ (Class);
-+ (id);
-+ (_Bool):(id)arg1;
++ (id)phics.framework/CoreGraphics;
++ (_Bool)setNameRanges:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -62,7 +30,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -71,39 +39,39 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)"CNPublishingSubject";
+- (id)connection;
+- (id)_cache;
+- (void)C,N,V_allAccountsImpl;
+- (void)tomPropertyDefinitionsToDelete;
+- (id)gacy contact identifier persistence could not load data from the specified URL. error = %{public}@;
+- (void)han properties;
+- (void)ice failed database preparation:(id)arg1 %{public}@;
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (void);
+- (id)W?p;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (double);
-- (id);
+- (void)kSSVCAUserIntentVolumeDecreaseFactor;
+- (unsigned long long)_cancelLastAudioStreamHold;
+- (void)hAbsTime:(unsigned long long)arg1 %{public}llu, stopRecordingMachAbsTime:%{public}llu /* Error: Ran out of types for this method. */;
+- (double)session activation til we receive didStart;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (id);
@@ -111,10 +79,10 @@
 - (id)1Â0@ù
 × ;
 - (id)"GEOPDTransitScheduleFilter";
-- (id)ordinateLongitude:trackFeatureID:nameOfTrack:numberOfLanes:comment: /* Error: Ran out of types for this method. */;
+- (id)initForRunningTrackIssue:trackCoordinateLatitude:trackCoordinateLongitude:trackFeatureID:nameOfTrack:numberOfLanes:comment: /* Error: Ran out of types for this method. */;
 - (id)N,G_transitInfo;
-- (id)pEnablement;
-- (id)TION_CABLE;
+- (id)GEOPDInlineRapEnablement;
+- (id)CONNECTION_CABLE;
 - (void)/;
 - (Class);
 - (void);
@@ -125,30 +93,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDABClientDatasetMetadata *abClientMetadata;
-@property(readonly, nonatomic) NSArray *allClientRouteIDs;
 @property(readonly, nonatomic) NSUUID *clientRouteID;
-@property(retain, nonatomic) NSData *directionsResponseId;
-@property(readonly, nonatomic) _Bool hasAbClientMetadata;
-@property(readonly, nonatomic) _Bool hasDirectionsResponseId;
-@property(readonly, nonatomic) _Bool hasOriginalAdditionalEnabledMarkets;
-@property(readonly, nonatomic) _Bool hasOriginalClientCapabilities;
-@property(readonly, nonatomic) _Bool hasOriginalRouteAttributes;
-@property(readonly, nonatomic) _Bool hasPrivacyMetadata;
-@property(readonly, nonatomic) _Bool hasRequestingAppId;
-@property(nonatomic) _Bool hasSessionId;
-@property(nonatomic) _Bool hasSessionRelativeTimestamp;
-@property(retain, nonatomic) GEOAdditionalEnabledMarkets *originalAdditionalEnabledMarkets;
-@property(retain, nonatomic) GEOClientCapabilities *originalClientCapabilities;
-@property(retain, nonatomic) GEORouteAttributes *originalRouteAttributes;
-@property(retain, nonatomic) NSMutableArray *originalWaypoints;
-@property(retain, nonatomic) GEOPrivacyMetadata *privacyMetadata;
-@property(retain, nonatomic) NSString *requestingAppId;
-@property(retain, nonatomic) NSMutableArray *routeIdentifiers;
-@property(retain, nonatomic) NSMutableArray *serviceTags;
-@property(nonatomic) struct GEOSessionID sessionId;
-@property(nonatomic) double sessionRelativeTimestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

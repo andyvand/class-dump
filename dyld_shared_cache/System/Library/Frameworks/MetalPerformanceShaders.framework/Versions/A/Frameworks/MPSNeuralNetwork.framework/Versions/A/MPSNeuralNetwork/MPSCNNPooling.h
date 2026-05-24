@@ -10,18 +10,18 @@
 {
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)3;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)mns == %d, should match layer input feature channels == %d;
 

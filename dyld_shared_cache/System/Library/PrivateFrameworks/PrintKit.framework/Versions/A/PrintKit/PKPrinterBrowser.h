@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PKPrintdRPC_BrowseClient;
-@protocol PKPrinterBrowserDelegate;
+@class NSMutableDictionary;
 
 @interface PKPrinterBrowser
 {
     unsigned char _originalCellFlag;
-    unsigned char _originalWifiFlag;
-    _Bool _delegateRespondsToProximityUpdate;
-    PKPrintdRPC_BrowseClient *_browserClient;
-    id <PKPrinterBrowserDelegate> _delegate;
-    NSMutableDictionary *_printers;
-    NSMutableDictionary *_btDevices;
 }
 
 + (id);
@@ -25,30 +18,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (void);
-- (void);
+- (void)oller",&,N,V_menuControllerSelectedItem;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *btDevices; // @synthesize btDevices=_btDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <PKPrinterBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool delegateRespondsToProximityUpdate; // @synthesize delegateRespondsToProximityUpdate=_delegateRespondsToProximityUpdate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *printers; // @synthesize printers=_printers;
-@property(readonly) Class superclass;
 
 @end
 

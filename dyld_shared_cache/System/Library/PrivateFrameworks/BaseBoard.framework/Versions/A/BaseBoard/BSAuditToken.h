@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSecTask, NSString;
-
 @interface BSAuditToken
 {
     CDStruct_4c969caf _auditToken;
-    NSString *_bundleID;
-    BSSecTask *_secTask;
-    _Bool _resolvedBundleID;
 }
 
 + (id);

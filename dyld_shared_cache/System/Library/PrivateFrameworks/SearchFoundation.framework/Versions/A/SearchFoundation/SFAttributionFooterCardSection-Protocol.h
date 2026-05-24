@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCommand, SFPunchout, SFRichText;
+@class NSData, NSString;
 
 @protocol SFAttributionFooterCardSection
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *leadingAttribution;
-@property(retain, nonatomic) SFPunchout *leadingAttributionPunchout;
-@property(retain, nonatomic) SFRichText *trailingAttribution;
-@property(retain, nonatomic) SFCommand *trailingAttributionCommand;
-@property(retain, nonatomic) SFPunchout *trailingAttributionPunchout;
 @property(copy, nonatomic) NSString *type;
 @end
 

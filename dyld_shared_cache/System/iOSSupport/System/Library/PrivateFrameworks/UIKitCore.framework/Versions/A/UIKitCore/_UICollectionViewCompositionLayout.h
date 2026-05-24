@@ -15,13 +15,13 @@
 
 + (Class);
 - (id);
+- (void)filteringEventPayloadForMessageItem:(id)arg1 chat: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (id)ng incoming sms relay filtering. Checking if we need to update filterCapbilities from relayed message;
+- (struct CGRect)t-app-version;
 - (void);
 - (void);
 - (id);

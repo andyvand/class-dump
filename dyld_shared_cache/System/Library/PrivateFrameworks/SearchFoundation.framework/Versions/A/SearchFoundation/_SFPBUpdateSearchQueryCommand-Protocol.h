@@ -7,12 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBUpdateSearchQueryCommand
-- (void);
+- (id);
+- (NSData *)",&,N,V_thumbnailManager;
+- (void)setFramesPerPacket:(NSString *)arg1;
 - (NSString *)rfSecondaryHeaderEmphasizedCardSection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int querySource;
 @property(copy, nonatomic) NSString *searchString;
 @end
 

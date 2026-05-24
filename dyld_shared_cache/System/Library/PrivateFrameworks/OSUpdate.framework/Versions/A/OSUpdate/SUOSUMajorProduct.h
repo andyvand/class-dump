@@ -6,14 +6,11 @@
 
 #import <OSUpdate/SUOSUProduct.h>
 
-@class NSDate, NSImage, NSString, SUMajorProduct;
+@class NSDate;
 
 @interface SUOSUMajorProduct : SUOSUProduct
 {
     _Bool __adminDeferred;
-    SUMajorProduct *_majorProduct;
-    NSString *_majorOSBuildVersion;
-    NSDate *__adminDeferredDate;
 }
 
 - (void);
@@ -43,24 +40,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)"_;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool _adminDeferred; // @synthesize _adminDeferred=__adminDeferred;
 @property(retain) NSDate *_adminDeferredDate; // @synthesize _adminDeferredDate=__adminDeferredDate;
-@property(readonly) _Bool isAdminDeferred;
-@property(retain) NSString *majorOSBuildVersion; // @synthesize majorOSBuildVersion=_majorOSBuildVersion;
-@property(readonly) NSString *majorOSBundleIdentifier;
-@property(readonly) NSString *majorOSDisplayTitle;
-@property(readonly) NSString *majorOSDisplayVersion;
-@property(readonly) NSImage *majorOSIconImage;
-@property(readonly) NSString *majorOSMoreInfoLinkString;
-@property(readonly) NSString *majorOSNotificationBodyString;
-@property(readonly) NSString *majorOSNotificationTitleString;
-@property(readonly) _Bool majorOSNotificationsEnabled;
-@property(readonly) SUMajorProduct *majorProduct; // @synthesize majorProduct=_majorProduct;
 
 @end
 

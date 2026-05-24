@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableIndexSet;
-
 @interface PXTileStatePool
 {
     struct PXTileState *_states;
-    struct unordered_map<PXTileIdentifier, unsigned long, std::hash<PXTileIdentifier>, std::equal_to<PXTileIdentifier>, std::allocator<std::pair<const PXTileIdentifier, unsigned long>>> _indexByTargetIdentifier;
-    NSMapTable *_tileIndexesByPageKey;
-    long long _statesMaxCount;
-    NSMutableIndexSet *_usedIndexes;
-    NSMutableIndexSet *_unusedIndexes;
-    NSMutableIndexSet *_pageKeysToRemove;
 }
 
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -32,11 +24,11 @@
 - (struct PXTileState *);
 - (void);
 - (void);
-- (struct PXProtectedTileState *);
+- (struct PXProtectedTileState *);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setUserInfoAttribute:forKey: /* Error: Ran out of types for this method. */;
 - (long long)e;
 - (void)é{³$öþ;
 

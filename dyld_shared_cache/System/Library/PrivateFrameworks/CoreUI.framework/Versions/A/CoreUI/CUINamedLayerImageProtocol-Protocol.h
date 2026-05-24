@@ -5,13 +5,9 @@
 //
 
 @protocol CUINamedLayerImageProtocol
+- (int)completed with error %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int blendMode;
-@property(nonatomic) _Bool fixedFrame;
 @property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) struct CGImage *image;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) double scale;
 @end
 

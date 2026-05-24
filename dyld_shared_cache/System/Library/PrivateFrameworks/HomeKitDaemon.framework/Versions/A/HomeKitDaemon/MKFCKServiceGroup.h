@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKHome, NSArray, NSDate, NSDictionary, NSString, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKServiceGroup : MKFCKHomeObject
@@ -14,19 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)handleMapsApplicationRemoval:(id)arg1;
+- (_Bool)ng closure reasons:(id)arg1 %s;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *applicationData; // @dynamic applicationData;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSArray *services; // @dynamic services;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

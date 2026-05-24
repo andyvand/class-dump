@@ -6,13 +6,12 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class NSBox, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPopoverContentSubview : FI_TUpdateLayerView
 {
     NSView *_view;
-    NSBox *_separator;
 }
 
 - (void);

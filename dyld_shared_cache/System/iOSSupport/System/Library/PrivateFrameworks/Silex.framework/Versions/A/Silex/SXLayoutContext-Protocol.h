@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXColumnLayout, SXUnitConverter;
+@class SXColumnLayout;
 
 @protocol SXLayoutContext
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnLayout *columnLayout;
-@property(readonly, nonatomic) SXUnitConverter *unitConverter;
 @end
 

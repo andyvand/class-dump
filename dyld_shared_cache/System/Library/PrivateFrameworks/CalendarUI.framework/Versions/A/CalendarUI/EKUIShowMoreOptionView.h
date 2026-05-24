@@ -6,46 +6,33 @@
 
 #import <CalendarUI/CalUIControlView.h>
 
-@class EKUIResizingTextField, NSString;
+@class EKUIResizingTextField;
 @protocol EKUIShowMoreOptionViewDelegate;
 
 @interface EKUIShowMoreOptionView : CalUIControlView
 {
     id <EKUIShowMoreOptionViewDelegate> _delegate;
-    long long _state;
-    EKUIResizingTextField *_showMoreTextField;
-    NSString *_axTitle;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)qc;
+- (id)";
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (void);
-- (void);
+- (void) ;
 - (long long);
 - (void);
-- (void);
+- (void)pushEnvironment;
 - (id)!CùÑÃ#°1Â0@ù
 × ;
-- (void):(id)arg1 endingConstant:isExpanding: /* Error: Ran out of types for this method. */;
+- (void)initWithTargetContainer:(id)arg1 startingConstant:endingConstant:isExpanding: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *axTitle; // @synthesize axTitle=_axTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EKUIShowMoreOptionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) EKUIResizingTextField *showMoreTextField; // @synthesize showMoreTextField=_showMoreTextField;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

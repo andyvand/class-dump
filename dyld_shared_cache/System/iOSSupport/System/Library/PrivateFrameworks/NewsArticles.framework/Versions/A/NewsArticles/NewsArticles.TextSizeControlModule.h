@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)tivityProviderFactory;
+- (void)defaultSharingActivityProviderFactory;
 
 @end
 

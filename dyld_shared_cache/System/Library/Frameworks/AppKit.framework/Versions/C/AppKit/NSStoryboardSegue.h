@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSStoryboardSegue
 {
     CDUnknownBlockType _performHandler;
-    NSString *_identifier;
-    id _sourceController;
-    id _destinationController;
-    CDUnknownBlockType _prepareHandler;
 }
 
-+ (id);
++ (id)_didCheckMixedReplace;
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
+- (CDUnknownBlockType)#;
+- (id);
+- (void)alDownloadFile:error %d opening resume file:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)extRectIsInvalid: /* Error: Ran out of types for this method. */;
+- (id)_selectedTextRectIsInvalid: /* Error: Ran out of types for this method. */;
 - (id)|Pþ<Ôþ<ø¬þ<Äôþ<° @ÿ< ¡Pÿ<¤Èÿ<¥Øÿ<¨;
 - (void)Xÿ=phtÿ-ph(9,ÿph9,ÿ-ph9,ÿ;
 
 // Remaining properties
-@property(readonly) id destinationController; // @synthesize destinationController=_destinationController;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType performHandler; // @synthesize performHandler=_performHandler;
 @property(copy) CDUnknownBlockType prepareHandler; // @synthesize prepareHandler=_prepareHandler;
-@property(readonly) id sourceController; // @synthesize sourceController=_sourceController;
 
 @end
 

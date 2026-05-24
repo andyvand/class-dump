@@ -5,15 +5,18 @@
 //
 
 @protocol RTCYUVPlanarBuffer
+- (id)f:(int)arg1 Return;
+- (id)omponentsConfiguration[4];
+- (const char *)SeparateArrayItems_v2;
+- (const char *)CatenateArrayItems;
+- (const char *)be simple;
+- (int)0);
+- (int)es != 0) && (catedStr != 0);
+- (int).0/g/img/;
+- (int).adobe.com/xap/1.0/t/;
+- (int)Photo/1.0/;
 
 // Remaining properties
-@property(readonly, nonatomic) int chromaHeight;
 @property(readonly, nonatomic) int chromaWidth;
-@property(readonly, nonatomic) const char *dataU;
-@property(readonly, nonatomic) const char *dataV;
-@property(readonly, nonatomic) const char *dataY;
-@property(readonly, nonatomic) int strideU;
-@property(readonly, nonatomic) int strideV;
-@property(readonly, nonatomic) int strideY;
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _NSCollectionLayoutSupplementaryEnrolling;
+
 @protocol _NSCollectionLayoutAuxiliaryHosting
+- (id <_NSCollectionLayoutSupplementaryEnrolling>)Ls;
+- (struct CGSize)taOptions;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSColor;
+@class NSCache;
 
 @interface PXPlacesPopoverImageFactory
 {
     NSCache *_cachedBackgroundImages;
-    NSColor *_defaultBackgroundColor;
 }
 
 + (struct CGSize);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *cachedBackgroundImages; // @synthesize cachedBackgroundImages=_cachedBackgroundImages;
-@property(retain, nonatomic) NSColor *defaultBackgroundColor; // @synthesize defaultBackgroundColor=_defaultBackgroundColor;
 
 @end
 

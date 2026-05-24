@@ -4,49 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKPCSKeysToRemove, CKRecordZoneID, CKRecordZoneReference, CKReference, CKRequiredFeatureSet, CKServerChangeToken, NSArray, NSData, NSDate, NSNumber, NSString;
-
 @interface CKRecordZone
 {
     _Bool _hasUpdatedParent;
-    _Bool _applyPCSKeysToRemoveForTesting;
-    _Bool _expired;
-    _Bool _hasUpdatedExpirationTimeInterval;
-    _Bool _needsZoneishPCSRolled;
-    _Bool _zoneKeyRollAllowed;
-    _Bool _serializeProtectionData;
-    int _deviceCount;
-    NSArray *_invitedKeysToRemove;
-    CKRecordZoneID *_zoneID;
-    long long _encryptionScope;
-    CKRecordZoneReference *_parent;
-    CKReference *_governingShare;
-    unsigned long long _capabilities;
-    CKReference *_share;
-    CKContainerID *_containerID;
-    NSDate *_directExpirationDate;
-    NSDate *_expirationDate;
-    NSNumber *_updatedExpirationTimeInterval;
-    CKServerChangeToken *_currentServerChangeToken;
-    NSData *_clientChangeToken;
-    NSData *_protectionData;
-    NSString *_protectionEtag;
-    NSData *_zoneishProtectionData;
-    NSData *_pcsKeyID;
-    NSData *_zoneishKeyID;
-    CKPCSKeysToRemove *_zonePCSKeysToRemove;
-    CKPCSKeysToRemove *_zoneishPCSKeysToRemove;
-    CKRequiredFeatureSet *_originalRequiredFeatures;
-    NSString *_changeTag;
-    NSString *_zonePCSLastModifierDevice;
-    NSString *_previousProtectionEtag;
-    long long _assetQuotaUsage;
-    long long _metadataQuotaUsage;
-    NSDate *_zonePCSModificationDate;
-    CKRequiredFeatureSet *_requiredFeatures;
 }
 
-+ (id);
++ (id)|;
 + (_Bool);
 + (id);
 + (_Bool);

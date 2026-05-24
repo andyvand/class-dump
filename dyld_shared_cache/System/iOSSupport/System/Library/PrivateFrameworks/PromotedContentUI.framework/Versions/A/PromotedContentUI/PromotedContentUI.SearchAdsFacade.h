@@ -7,10 +7,6 @@
 @interface PromotedContentUI.SearchAdsFacade
 {
     id lock;
-    id notificationQueue;
-    id frequencyCapServiceItems;
-    id featureFlagsProvider;
-    id runMode;
 }
 
 @end

@@ -7,6 +7,7 @@
 @interface CoreNFC.NFCPresentmentIntentAssertion
 {
     id protectedValidState;
+    id;
 }
 
 @end

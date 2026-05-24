@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NAGroupedItemDiff
 {
     NSArray *_groupOperations;
-    NSArray *_itemOperations;
-    NSArray *_fromGroups;
-    NSArray *_toGroups;
-    CDUnknownBlockType _changeTest;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,13 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allOperations;
-@property(copy, nonatomic) CDUnknownBlockType changeTest; // @synthesize changeTest=_changeTest;
 @property(copy, nonatomic) NSArray *fromGroups; // @synthesize fromGroups=_fromGroups;
-@property(copy, nonatomic) NSArray *groupOperations; // @synthesize groupOperations=_groupOperations;
-@property(copy, nonatomic) NSArray *itemOperations; // @synthesize itemOperations=_itemOperations;
-@property(readonly, copy, nonatomic) NSString *operationDescription;
-@property(copy, nonatomic) NSArray *toGroups; // @synthesize toGroups=_toGroups;
 
 @end
 

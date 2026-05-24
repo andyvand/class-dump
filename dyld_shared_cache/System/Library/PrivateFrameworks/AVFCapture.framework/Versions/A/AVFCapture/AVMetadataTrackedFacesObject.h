@@ -13,13 +13,13 @@
     AVMetadataTrackedFacesObjectInternal *_trackedFacesObjectInternal;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)@"<MSVJSONValue>"8;
+- (id)_gradientTextColorHex;
+- (id),R,N,V_compressionQuality;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setSmartStyleRenderingSupported: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly) NSDictionary *payload;

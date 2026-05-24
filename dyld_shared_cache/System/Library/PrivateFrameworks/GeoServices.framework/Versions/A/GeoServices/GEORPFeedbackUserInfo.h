@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPAppAttestInfo, GEORPTdmInfo, GEORPUserCredentials, NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackUserInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPAppAttestInfo *_anonUserInfo;
-    NSData *_devicePushToken;
-    NSString *_preferredEmail;
-    GEORPAppAttestInfo *_rolloverInfo;
-    GEORPTdmInfo *_tdmUserInfo;
-    NSString *_ugcUserId;
-    GEORPUserCredentials *_userCredentials;
-    NSString *_userEmail;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_anonUserInfo:1;
-        unsigned int read_devicePushToken:1;
-        unsigned int read_preferredEmail:1;
-        unsigned int read_rolloverInfo:1;
-        unsigned int read_tdmUserInfo:1;
-        unsigned int read_ugcUserId:1;
-        unsigned int read_userCredentials:1;
-        unsigned int read_userEmail:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tDetectedLocationTraversalPercent:(id)arg1;
++ (_Bool)setLastDetectedLocationTraversalPercent:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -44,16 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)insertNewObjectInManagedObjectContact:(id)arg1;
+- (void)customPropertyValuesToDelete;
+- (id)URLByDeletingLastPathComponent;
+- (id)CNCDIOSLegacyIdentifierRegistrationRequest;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -65,38 +41,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)trainPersonalizedLMWithLanguage:directory:completion: /* Error: Ran out of types for this method. */;
+- (void)CSVoiceTriggerJarvisAPEnabledPolicy;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)d_query"b1"read_sourceAppId"b1"wrote_anyField"b1};
-- (id)ulateDistance;
+- (id)canCalculateDistance;
 - (id)T-;
 - (id)eETARequest;
 - (void)³ìI`§N@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAppAttestInfo *anonUserInfo;
-@property(retain, nonatomic) NSData *devicePushToken;
-@property(readonly, nonatomic) _Bool hasAnonUserInfo;
-@property(readonly, nonatomic) _Bool hasDevicePushToken;
-@property(readonly, nonatomic) _Bool hasPreferredEmail;
-@property(readonly, nonatomic) _Bool hasRolloverInfo;
-@property(readonly, nonatomic) _Bool hasTdmUserInfo;
-@property(readonly, nonatomic) _Bool hasUgcUserId;
 @property(readonly, nonatomic) _Bool hasUserCredentials;
-@property(readonly, nonatomic) _Bool hasUserEmail;
-@property(retain, nonatomic) NSString *preferredEmail;
-@property(retain, nonatomic) GEORPAppAttestInfo *rolloverInfo;
-@property(retain, nonatomic) GEORPTdmInfo *tdmUserInfo;
-@property(retain, nonatomic) NSString *ugcUserId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEORPUserCredentials *userCredentials;
-@property(retain, nonatomic) NSString *userEmail;
 
 @end
 

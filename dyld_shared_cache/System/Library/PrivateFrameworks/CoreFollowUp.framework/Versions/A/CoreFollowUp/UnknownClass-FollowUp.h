@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (FollowUp)
-- (id);
-- (id);
+- (id));
+- (id);
 @end
 

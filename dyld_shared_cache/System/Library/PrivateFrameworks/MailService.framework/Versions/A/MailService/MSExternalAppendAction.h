@@ -6,28 +6,24 @@
 
 #import <MailService/MSExternalAction.h>
 
-@class ACAccount, MCMessage;
+@class MCMessage;
 
 @interface MSExternalAppendAction : MSExternalAction
 {
     int _mailboxType;
-    MCMessage *_message;
-    ACAccount *_account;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)R�?;
 - (int);
 - (id);
+- (id)setCancelButton:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)d topLevelObjects != requested topLevel IDs (%@) - some items may be discarded;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) int mailboxType; // @synthesize mailboxType=_mailboxType;
 @property(readonly) MCMessage *message; // @synthesize message=_message;
 
 @end

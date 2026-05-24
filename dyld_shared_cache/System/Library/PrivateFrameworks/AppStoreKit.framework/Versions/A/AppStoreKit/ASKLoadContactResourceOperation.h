@@ -13,12 +13,12 @@
     NSString *_contactId;
 }
 
-+ (id);
++ (id);
 + (double);
+- (id)Mo;
+- (id)Lo;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)o;
 - (id);
 - (void);
 - (void)YSg;

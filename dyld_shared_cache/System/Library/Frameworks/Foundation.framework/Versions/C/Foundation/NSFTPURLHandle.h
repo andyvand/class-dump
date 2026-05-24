@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSFTPURLHandle : NSURLHandle
 {
     NSURL *originalURL;
-    struct __CFReadStream *ftpReadStream;
 }
 
 + (id);
@@ -20,14 +19,14 @@ __attribute__((visibility("hidden")))
 + (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)@9;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (struct __CFReadStream *);
+- (struct __CFReadStream *)4	;
 - (void);
 - (void);
 - (void);

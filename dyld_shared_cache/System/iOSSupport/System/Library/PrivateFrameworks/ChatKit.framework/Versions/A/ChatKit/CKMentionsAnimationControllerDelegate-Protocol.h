@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMentionsAnimationController, NSString;
+
 @protocol CKMentionsAnimationControllerDelegate
+- (void)characterRangeForGlyphRange:(CKMentionsAnimationController *)arg1 actualGlyphRange:(NSString *)arg2;
 @end
 

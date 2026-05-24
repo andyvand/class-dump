@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface ECCurrencyEntry
 {
     NSString *mLassoCurrencyCode;
-    NSString *mXlLangId;
-    NSString *mXlCurrencySymbol;
-    _Bool mAppliesToExport;
-    int mXlAccountingFormat;
 }
 
 + (id);
 + (id);
++ (id)O;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (void);
 
 @end

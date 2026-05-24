@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexSet, NSTableView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (NSIndexSet *);
+- (long long);
+- (void);
+- (void)re:(NSTableView *)arg1 Empty AppleTCONDP835 firmware file;
 @end
 

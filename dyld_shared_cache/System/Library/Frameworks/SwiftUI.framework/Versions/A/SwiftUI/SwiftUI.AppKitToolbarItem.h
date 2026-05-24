@@ -7,18 +7,6 @@
 @interface SwiftUI.AppKitToolbarItem
 {
     id item;
-    id host;
-    id shouldUseEntirePlatformItem;
-    id menuDelegate;
-    id isVisibleObservation;
-    id toolbarObservation;
-    id pendingUpdateOutsideWindow;
-    id isInOverflow;
-    id oldIsInOverflow;
-    id tintTracker;
-    id glassBehaviorTracker;
-    id itemColorScheme;
-    id lastColorScheme;
 }
 
 - (id);

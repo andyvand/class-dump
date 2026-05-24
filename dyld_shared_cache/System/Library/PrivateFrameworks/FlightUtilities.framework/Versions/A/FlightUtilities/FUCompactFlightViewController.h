@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id):(id)arg1 %{public}@;
+- (id)lready in deleted state %u;
 - (struct CGSize);
 
 @end

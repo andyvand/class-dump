@@ -17,10 +17,10 @@
 + (_Bool);
 + (id);
 - (void);
+- (id)shouldDonateToSharedWithYouForTransformer: /* Error: Ran out of types for this method. */;
+- (id)setAffineTransform: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)atchesInString:options:range:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateMatchesInString:options:range:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSString *freeFormDescription; // @synthesize freeFormDescription=_freeFormDescription;

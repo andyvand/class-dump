@@ -10,10 +10,10 @@
 
 + (id);
 + (struct __SecKey *);
-+ (id);
++ (id);
 + (int);
 + (int);
-+ (int);
++ (int)!;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface EWSAutodiscoverV2Response
 {
     NSString *_host;
-    NSString *_authorizationURI;
-    NSString *_issuer;
-    NSString *_emailAddress;
-    NSString *_user;
 }
 
 - (id);
@@ -27,11 +23,7 @@
 - (void)_EWSKerberosPrincipals;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *authorizationURI; // @synthesize authorizationURI=_authorizationURI;
 @property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, copy, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end
 

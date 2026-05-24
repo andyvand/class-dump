@@ -5,13 +5,11 @@
 //
 
 @class NSFileProviderDomainVersion;
-@protocol NSFileProviderItem;
 
 @protocol NSFileProviderTestingCreation
+- (NSFileProviderDomainVersion *)onv ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic) id <NSFileProviderItem> sourceItem;
 @property(readonly, nonatomic) unsigned long long targetSide;
 @end
 

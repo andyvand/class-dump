@@ -8,14 +8,10 @@ __attribute__((visibility("hidden")))
 @interface WebAppIconMetrics
 {
     double _cornerRadius;
-    double _shadowBlur;
-    struct CGSize _containerSize;
-    struct CGSize _shadowOffset;
-    struct CGRect _frame;
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (double);
 - (struct CGRect);
 - (double)th;
@@ -23,10 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) double shadowBlur; // @synthesize shadowBlur=_shadowBlur;
-@property(readonly, nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
 
 @end
 

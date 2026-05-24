@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFPosterPath;
+@class NSString;
 
 @protocol PFPosterContents
+- (NSString *)0T;
 - (NSString *)n·_G;
 
 // Remaining properties
-@property(readonly, nonatomic) PFPosterPath *_path;
-@property(readonly, copy, nonatomic) NSString *descriptorIdentifier;
 @property(readonly, copy, nonatomic) NSString *role;
 @end
 

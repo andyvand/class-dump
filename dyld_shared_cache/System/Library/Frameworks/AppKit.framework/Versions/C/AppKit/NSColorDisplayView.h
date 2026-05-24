@@ -6,28 +6,25 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSColor;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSColorDisplayView : NSView
 {
     NSColor *_color;
-    CALayer *_diagonalLayer;
-    CALayer *_transparentColorLayer;
-    CALayer *_colorLayer;
 }
 
-+ (id);
++ (id)perty list produced!;
 + (_Bool)Aí/Ð!xCùÑâ31Â0@ù
 × ;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)ingUpdateLayer;
-- (id)ounbinder;
-- (void)nSidebars;
+- (void)usingUpdateLayer;
+- (id)autounbinder;
+- (void)NSScrollPocketDisableTracksLumaInSidebars;
 - (void);
 
 // Remaining properties

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSObject;
-@protocol OS_os_log;
+@class CNContactStore;
 
 @interface CNUIDeleteCommandHelper
 {
     CNContactStore *_contactStore;
-    NSObject<OS_os_log> *_log_t;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void)A;
 - (id);
 - (id);
 - (void);
-- (id)ons;
+- (id)loadInternalActions;
 - (id)X"d"# #ô$;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSObject<OS_os_log> *log_t; // @synthesize log_t=_log_t;
 
 @end
 

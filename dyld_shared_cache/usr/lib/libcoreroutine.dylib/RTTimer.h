@@ -10,17 +10,16 @@
 @interface RTTimer
 {
     NSObject<OS_dispatch_source> *_timer;
-    NSString *_identifier;
 }
 
 - (void);
+- (id)setUpP2PQUICPodConnectionsForCandidatePair:(id)arg1 attemptID:(id)arg2 completionHandler:(CDUnknownBlockType)arg3;
 - (id);
-- (id);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?0@"IMRemoteObject"8@"NSDictionary"16B24;
 - (void);
 - (void);
 - (void);

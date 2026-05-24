@@ -5,5 +5,9 @@
 //
 
 @protocol CPKGenerationUIViewServiceProtocol
+- (void)w
+;
+- (void);
+- (void);
 @end
 

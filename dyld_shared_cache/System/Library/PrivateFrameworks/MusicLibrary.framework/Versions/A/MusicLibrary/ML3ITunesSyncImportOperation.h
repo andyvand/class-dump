@@ -6,37 +6,29 @@
 
 #import <MusicLibrary/ML3ImportOperation.h>
 
-@class NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface ML3ITunesSyncImportOperation : ML3ImportOperation
 {
     _Bool _sagaIsEnabled;
-    _Bool _resetSync;
-    NSMutableDictionary *_cachedPIDToFilePathMap;
-    NSMutableDictionary *_cachedPIDToLocationPropertyMap;
-    NSMutableDictionary *_cachedSyncIDsToPIDsMap;
-    NSMutableSet *_importedPlaylists;
-    long long _devicePrimaryContainer;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)isPlayableVideo;
+- (id)isOwned;
+- (void)initWithFilteredAlbum:(id)arg1 priorChangeState:(long long)arg2 albumChangeNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)imagePropertiesFromImageSource:(id)arg1;
+- (_Bool)ignoreUntilDate;
+- (_Bool)Identifier;
+- (_Bool)&,V_assetCloudScopedIdentifier;
+- (_Bool)@"NSString",&,N,V_personUri;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (void)N,V_mergeTargetPersonUUID;
+- (_Bool)importSessionID;
+- (_Bool)fingerprint;
+- (_Bool)emberIDsOfSocialGroupsNeedingDeduplication;
+- (_Bool)ParticipantsForUpdate;
+- (_Bool),C,N,V_deletedEntries;
+- (id)MutableSet",&,N,V_deleted;
+- (unsigned long long)ready trashed resource %{public}@ on asset %{public}@;
 - (void);
 - (void)unt_recent + ? WHERE item_pid = ?;
 

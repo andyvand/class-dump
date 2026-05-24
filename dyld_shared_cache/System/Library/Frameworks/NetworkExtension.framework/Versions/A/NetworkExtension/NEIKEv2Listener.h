@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2IKESAConfiguration, NEIKEv2Transport, NEIPSecSASession, NSMutableSet, NSObject, NSString;
-@protocol NEIKEv2ListenerDelegate, NEIKEv2PacketDelegate, OS_dispatch_queue, OS_nw_listener;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface NEIKEv2Listener
 {
     _Bool _cancelled;
-    NSObject<OS_dispatch_queue> *_listenerQueue;
-    NEIKEv2IKESAConfiguration *_ikeConfig;
-    NEIPSecSASession *_saSession;
-    NSString *_kernelSASessionName;
-    NSObject<OS_nw_listener> *_listener;
-    NSMutableSet *_sessionsBeforeAuth;
-    NSMutableSet *_connectionTransports;
-    NEIKEv2Transport *_packetDelegateTransport;
-    id <NEIKEv2ListenerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <NEIKEv2PacketDelegate> _packetDelegate;
 }
 
 - (void);
@@ -37,17 +26,10 @@
 - (id);
 - (void);
 - (void);
-- (void)ray: /* Error: Ran out of types for this method. */;
+- (void)setWithArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *listenerQueue;
-@property(readonly) Class superclass;
 
 @end
 

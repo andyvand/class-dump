@@ -9,16 +9,15 @@
 @interface AppKit._NSSoftOutlineView : NSView
 {
     id configuration;
-    id outlineLayer;
 }
 
+- (id)sing request since userOverride is true;
 - (id);
-- (id);
-- (void);
+- (void)ncRoot %{public}@ %{public}@ %{public}@;
 - (void);
 - (void);
 - (_Bool);
-- (id)nob;
+- (id)_sliderKnob;
 - (void)¬cA;
 - (void)eø4sE;
 

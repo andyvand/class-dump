@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
     struct unique_ptr<cvml::util::model_file_cache, std::default_delete<cvml::util::model_file_cache>> m_impl;
 }
 
-+ (id)red_ptr_emplaceIN6vision3mod33ImageClassifier_HierarchicalModelENS_9allocatorIS3_EEEE;
++ (id)NSt3__120__shared_ptr_emplaceIN6vision3mod33ImageClassifier_HierarchicalModelENS_9allocatorIS3_EEEE;
 + (_Bool)4!?²?b?øS?V}?	??Ûùþ>j¼ô>Ãdê>;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)db_;
-- (void)tector;
+- (void)ObjectDetector;
 
 @end
 

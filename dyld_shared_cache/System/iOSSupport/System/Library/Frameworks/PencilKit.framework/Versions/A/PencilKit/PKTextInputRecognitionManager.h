@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, CHTextInputQuery, NSArray, NSString;
 @protocol PKTextInputRecognitionManagerDataSource;
 
 @interface PKTextInputRecognitionManager
 {
     _Bool _preferOutOfProcessRecognition;
-    NSArray *_recognitionLocales;
-    id <PKTextInputRecognitionManagerDataSource> _currentDataSource;
-    CHRecognitionSession *__recognitionSession;
-    CHTextInputQuery *__textInputQuery;
-    double __beganRecognitionTimestamp;
-    double __lastRecognitionDuration;
 }
 
 - (void);
@@ -32,36 +25,22 @@
 - (double);
 - (double);
 - (id);
+- (void)ceController"16@"NSDictionary"24;
+- (id)te>"16;
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)DefaultStorefrontIDCountryCodeLUTDataSource;
 - (void)CHEncodedStrokeIdentifier",R,N,V_encodedStrokeIdentifier;
 
 // Remaining properties
-@property(nonatomic) double _beganRecognitionTimestamp; // @synthesize _beganRecognitionTimestamp=__beganRecognitionTimestamp;
-@property(nonatomic) double _lastRecognitionDuration; // @synthesize _lastRecognitionDuration=__lastRecognitionDuration;
-@property(retain, nonatomic) CHRecognitionSession *_recognitionSession; // @synthesize _recognitionSession=__recognitionSession;
-@property(retain, nonatomic) CHTextInputQuery *_textInputQuery; // @synthesize _textInputQuery=__textInputQuery;
 @property(retain, nonatomic) id <PKTextInputRecognitionManagerDataSource> currentDataSource; // @synthesize currentDataSource=_currentDataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preferOutOfProcessRecognition; // @synthesize preferOutOfProcessRecognition=_preferOutOfProcessRecognition;
-@property(copy, nonatomic) NSArray *recognitionLocales; // @synthesize recognitionLocales=_recognitionLocales;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *textInputTargets;
 
 @end
 

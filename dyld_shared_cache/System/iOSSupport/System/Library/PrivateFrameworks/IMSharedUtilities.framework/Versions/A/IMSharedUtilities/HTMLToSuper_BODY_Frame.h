@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)(clbe( `;
 
 @end
 

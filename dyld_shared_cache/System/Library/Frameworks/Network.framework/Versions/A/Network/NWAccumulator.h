@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface NWAccumulator
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _kvo_lock;
-    NSString *_name;
-    NWAccumulator *_lastSnapshot;
-    NSMutableArray *_accumulatedValues;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)op Up Button Inset;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id)O_MAX_PACING_RATE failed %{darwin.errno}d, no backtrace;
 - (id)%s;
-- (void)xecute_locked;
+- (void)nw_quic_connection_execute_locked;
 - (void)d-Offset;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accumulatedValues; // @synthesize accumulatedValues=_accumulatedValues;
-@property(readonly, nonatomic) NSArray *accumulations;
-@property(retain, nonatomic) NWAccumulator *lastSnapshot; // @synthesize lastSnapshot=_lastSnapshot;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

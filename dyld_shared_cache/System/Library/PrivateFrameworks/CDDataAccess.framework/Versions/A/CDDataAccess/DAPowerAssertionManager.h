@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMapTable, NSMutableSet;
+@class NSCountedSet;
 
 @interface DAPowerAssertionManager
 {
     NSCountedSet *_contexts;
-    NSMapTable *_groupIdentifierToContexts;
-    NSMapTable *_contextToGroupIdentifier;
-    NSMutableSet *_heldAsideGroupIdentifiers;
-    NSCountedSet *_heldAsideContexts;
-    NSMapTable *_contextToPowerAssertionRef;
 }
 
 + (void);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *contextToGroupIdentifier; // @synthesize contextToGroupIdentifier=_contextToGroupIdentifier;
-@property(retain, nonatomic) NSMapTable *contextToPowerAssertionRef; // @synthesize contextToPowerAssertionRef=_contextToPowerAssertionRef;
 @property(retain, nonatomic) NSCountedSet *contexts; // @synthesize contexts=_contexts;
-@property(retain, nonatomic) NSMapTable *groupIdentifierToContexts; // @synthesize groupIdentifierToContexts=_groupIdentifierToContexts;
-@property(retain, nonatomic) NSCountedSet *heldAsideContexts; // @synthesize heldAsideContexts=_heldAsideContexts;
-@property(retain, nonatomic) NSMutableSet *heldAsideGroupIdentifiers; // @synthesize heldAsideGroupIdentifiers=_heldAsideGroupIdentifiers;
 
 @end
 

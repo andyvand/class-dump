@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKModelController, AKRectAnnotation, AKToolbarView, NSString, PDFDocument, PDFView, UIView;
-@protocol PDFAKControllerDelegateProtocol;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKDocumentAdaptor
 {
     _Bool _isTornDown;
-    PDFDocument *_pdfDocument;
-    PDFView *_pdfView;
-    AKController *_akController;
-    id <PDFAKControllerDelegateProtocol> _pdfAKControllerDelegate;
-    AKToolbarView *_akToolbarView;
-    AKRectAnnotation *_editingAnnotaiton;
-    struct TextAnnotationAnimationProperties _animationProperties;
-    double _modelBaseScaleFactor;
 }
 
 + (void);
@@ -32,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (_Bool);
 - (void);
 - (void);
@@ -46,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)__objc_imageinfo__DATA_CONST;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -83,7 +74,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (void);
 - (id);
 - (_Bool);
@@ -95,31 +86,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PDFAKControllerDelegateProtocol> PDFAKControllerDelegate;
-@property(readonly, nonatomic) AKModelController *akDocumentModelController;
-@property(readonly, nonatomic) AKController *akMainController;
-@property(readonly, nonatomic) UIView *akToolbarView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *originalImageDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) __weak PDFDocument *pdfDocument;
 @property(nonatomic) __weak PDFView *pdfView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsFormFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImageDescriptionEditing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

@@ -9,16 +9,10 @@
 @interface _MRSetDiscoveryModeProtobufMessage
 {
     _MRDiscoverySessionConfigurationProtobuf *_configuration;
-    int _features;
-    int _mode;
-    struct {
-        unsigned int features:1;
-        unsigned int mode:1;
-    } _has;
 }
 
 - (id);
-- (void);
+- (void);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -31,25 +25,20 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (int);
 - (void);
-- (id);
-- (id);
+- (id)MemoryCreationInternationalization;
+- (id)nectionInvalidated];
 - (_Bool);
 - (void);
-- (void)DPlaceholder;
+- (void)alternativeLocalDeviceUIDPlaceholder;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDiscoverySessionConfigurationProtobuf *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) int features; // @synthesize features=_features;
-@property(readonly, nonatomic) _Bool hasConfiguration;
-@property(nonatomic) _Bool hasFeatures;
 @property(nonatomic) _Bool hasMode;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol NSCopying;
-
 @interface MPTiledArtworkRequest
 {
     struct os_unfair_lock_s _cacheLock;
-    NSArray *_artworkCatalogsCache;
-    long long _artworkCatalogsCacheCount;
-    _Bool _allowsSynchronousArtworkCatalogsBlockExecution;
-    CDUnknownBlockType _artworkCatalogsBlock;
-    unsigned long long _numberOfColumns;
-    unsigned long long _numberOfRows;
-    double _tileSpacing;
-    id <NSCopying> _entityIdentifier;
-    id <NSCopying> _namespaceIdentifier;
-    id <NSCopying> _revisionIdentifier;
 }
 
 - (double);
@@ -28,32 +15,25 @@
 - (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)h;
+- (void)`;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)error:(unsigned long long)arg1 %{public}@;
 - (id);
 - (unsigned long long);
-- (void)ailInsertionContentItemID;
+- (void)_tailInsertionContentItemID;
 - (unsigned long long)%{public}s] value changed:%{private,mask.hash}s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSynchronousArtworkCatalogsBlockExecution; // @synthesize allowsSynchronousArtworkCatalogsBlockExecution=_allowsSynchronousArtworkCatalogsBlockExecution;
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogsBlock; // @synthesize artworkCatalogsBlock=_artworkCatalogsBlock;
-@property(copy, nonatomic) id <NSCopying> entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(copy, nonatomic) id <NSCopying> namespaceIdentifier; // @synthesize namespaceIdentifier=_namespaceIdentifier;
-@property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(copy, nonatomic) id <NSCopying> revisionIdentifier; // @synthesize revisionIdentifier=_revisionIdentifier;
-@property(nonatomic) double tileSpacing; // @synthesize tileSpacing=_tileSpacing;
 
 @end
 

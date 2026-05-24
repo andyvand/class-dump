@@ -8,13 +8,6 @@
 {
     id id;
     id _graphExpressions;
-    id _graphColors;
-    id _needsUpdate;
-    id __viewModel;
-    id _graphType;
-    id _animation;
-    id _bounds;
-    id _$observationRegistrar;
 }
 
 @end

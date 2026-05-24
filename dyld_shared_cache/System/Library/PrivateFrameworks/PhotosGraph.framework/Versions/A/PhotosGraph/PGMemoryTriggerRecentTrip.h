@@ -10,9 +10,9 @@
 {
 }
 
+- (id)suals.framework/Versions/A/AccessibilityVisuals;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)@?0@"WBSForYouTopic"8@"WBSForYouTopic"16;
 
 @end
 

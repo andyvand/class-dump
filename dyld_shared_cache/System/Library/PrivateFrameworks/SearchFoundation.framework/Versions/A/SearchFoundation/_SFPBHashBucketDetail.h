@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBHashBucketDetail
 {
     NSString *_hash_prefix;
-    NSArray *_hash_details;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)@;
+- (void)";
 - (void);
 - (id);
 - (void);
@@ -24,24 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)markRetired;
+- (id)atch type:%@, returning all results. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setSectionHeaderMore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *hash_details; // @synthesize hash_details=_hash_details;
 @property(copy, nonatomic) NSString *hash_prefix; // @synthesize hash_prefix=_hash_prefix;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface PhotosUICore.LemonadeMediaTypesEditableListModel
 {
     id _isEditing;
-    id _photoLibrary;
-    id _mediaTypesOrderedList;
-    id defaultsMediaTypesOrderedList;
-    id logger;
-    id _$observationRegistrar;
 }
 
 @end

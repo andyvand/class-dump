@@ -7,27 +7,16 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohort
 {
     double _clicks;
-    double _impressions;
-    double _rawClicks;
-    long long _timestamp;
-    int _type;
-    struct {
-        unsigned int clicks:1;
-        unsigned int impressions:1;
-        unsigned int rawClicks:1;
-        unsigned int timestamp:1;
-        unsigned int type:1;
-    } _has;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)sendUserSizeProgressUpdate: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
+- (int)iAdSectionID;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,26 +32,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (int);
+- (int)($;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool)equest";
-- (void)mUpdateInterval:(_Bool)arg1;
-- (double)eferringUrl;
+- (void)setHasTrendingBackgroundMinimumUpdateInterval:(_Bool)arg1;
+- (double)_referringUrl;
 
 // Remaining properties
-@property(nonatomic) double clicks; // @synthesize clicks=_clicks;
-@property(nonatomic) _Bool hasClicks;
-@property(nonatomic) _Bool hasImpressions;
-@property(nonatomic) _Bool hasRawClicks;
-@property(nonatomic) _Bool hasTimestamp;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) double impressions; // @synthesize impressions=_impressions;
-@property(nonatomic) double rawClicks; // @synthesize rawClicks=_rawClicks;
-@property(nonatomic) long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface FamilyCircleUI.STSettingsStoreProvider
 {
     id store;
+    id;
 }
 
 @end

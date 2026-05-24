@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLFollowUpActionHandler, FLFollowUpItem, NSWindow, iCloudFollowUpSuggestion, iCloudHandleFLUI;
-@protocol FLViewModel, iCloudFollowUpActionDelegate;
+@class FLFollowUpItem;
+@protocol FLViewModel;
 
 @interface iCloudFollowUpActionHandler
 {
     id <FLViewModel> _topViewModel;
-    FLFollowUpItem *_item;
-    id <iCloudFollowUpActionDelegate> _actionDelegate;
-    iCloudHandleFLUI *_followupUIController;
-    iCloudFollowUpSuggestion *_iCloudFollowUpSuggestionController;
-    NSWindow *_parentWindow;
-    FLFollowUpActionHandler *_handler;
 }
 
 + (id);
@@ -44,15 +38,10 @@
 - (id);
 - (void)
 × ;
-- (id)on:(id)arg1 forDraggedItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (id)collectionView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <iCloudFollowUpActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(retain) iCloudHandleFLUI *followupUIController; // @synthesize followupUIController=_followupUIController;
-@property(retain) FLFollowUpActionHandler *handler; // @synthesize handler=_handler;
-@property(retain) iCloudFollowUpSuggestion *iCloudFollowUpSuggestionController; // @synthesize iCloudFollowUpSuggestionController=_iCloudFollowUpSuggestionController;
 @property(retain, nonatomic) FLFollowUpItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
 
 @end
 

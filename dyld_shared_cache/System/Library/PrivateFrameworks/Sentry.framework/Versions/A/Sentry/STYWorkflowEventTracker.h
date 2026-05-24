@@ -9,8 +9,6 @@
 @interface STYWorkflowEventTracker
 {
     int _perDayEventCount;
-    int _perPeriodEventCount;
-    WRWorkflowEventTracker *_wrTracker;
 }
 
 - (id);
@@ -19,11 +17,9 @@
 - (void);
 - (int);
 - (int);
-- (void);
+- (void);
 
 // Remaining properties
-@property int perDayEventCount; // @synthesize perDayEventCount=_perDayEventCount;
-@property int perPeriodEventCount; // @synthesize perPeriodEventCount=_perPeriodEventCount;
 @property(retain) WRWorkflowEventTracker *wrTracker; // @synthesize wrTracker=_wrTracker;
 
 @end

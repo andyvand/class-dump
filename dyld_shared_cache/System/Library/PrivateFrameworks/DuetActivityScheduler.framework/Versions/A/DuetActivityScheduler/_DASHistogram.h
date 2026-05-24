@@ -9,17 +9,15 @@
 @interface _DASHistogram
 {
     NSDictionary *_countsDictionary;
-    NSCountedSet *_counts;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)R;
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSCountedSet *counts; // @synthesize counts=_counts;
-@property(readonly, copy, nonatomic) NSDictionary *countsDictionary; // @synthesize countsDictionary=_countsDictionary;
 
 @end
 

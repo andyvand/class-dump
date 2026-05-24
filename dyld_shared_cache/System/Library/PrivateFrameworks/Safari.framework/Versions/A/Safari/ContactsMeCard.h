@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface ContactsMeCard
 {
     CNContact *_me;
-    _Bool _meNeedsUpdate;
 }
 
 - (void);
+- (id)m 	`	a;
+- (void));
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void)ð;
 - (id)ï;
 

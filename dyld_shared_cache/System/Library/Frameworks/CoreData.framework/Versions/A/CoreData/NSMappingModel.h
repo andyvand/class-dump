@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface NSMappingModel
 {
     void *_reserved;
-    void *_reserved1;
-    void *_reserved2;
-    NSMutableArray *_entityMappings;
-    NSMutableDictionary *_entityMappingsByName;
-    struct __modelMappingFlags {
-        unsigned int _isInUse:1;
-        unsigned int _reservedModelMapping:31;
-    } _modelMappingFlags;
 }
 
 + (id);
@@ -42,7 +34,6 @@
 
 // Remaining properties
 @property(retain) NSArray *entityMappings;
-@property(readonly, copy) NSDictionary *entityMappingsByName;
 
 @end
 

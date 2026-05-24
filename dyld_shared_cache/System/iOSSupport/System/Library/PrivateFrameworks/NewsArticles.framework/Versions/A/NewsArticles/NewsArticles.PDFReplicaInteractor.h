@@ -7,9 +7,6 @@
 @interface NewsArticles.PDFReplicaInteractor
 {
     id delegate;
-    id coordinator;
-    id dataManager;
-    id pages;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <CalendarUIKit/CUIKUserOperation.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CUIKSaveOperation : CUIKUserOperation
 {
     NSArray *_previousObjects;
-    NSArray *_previousSliceInfo;
-    NSDictionary *_objectsRequiringAlteredSpan;
 }
 
 + (id);
@@ -53,7 +51,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (id);
@@ -62,12 +60,10 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void)ity: /* Error: Ran out of types for this method. */;
+- (void)setWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDictionary *objectsRequiringAlteredSpan; // @synthesize objectsRequiringAlteredSpan=_objectsRequiringAlteredSpan;
 @property(retain) NSArray *previousObjects; // @synthesize previousObjects=_previousObjects;
-@property(retain) NSArray *previousSliceInfo; // @synthesize previousSliceInfo=_previousSliceInfo;
 
 @end
 

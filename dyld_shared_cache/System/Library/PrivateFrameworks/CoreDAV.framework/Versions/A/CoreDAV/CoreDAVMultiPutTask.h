@@ -6,22 +6,11 @@
 
 #import <CoreDAV/CoreDAVTask.h>
 
-@class CoreDAVXMLData, NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CoreDAVMultiPutTask : CoreDAVTask
 {
     NSString *_appSpecificNamespace;
-    NSString *_appSpecificDataProp;
-    NSString *_checkCTag;
-    CoreDAVXMLData *_pushedData;
-    _Bool _validCTag;
-    NSString *_nextCTag;
-    NSMutableDictionary *_uuidToHREF;
-    NSMutableDictionary *_hrefToETag;
-    NSMutableDictionary *_uuidToErrorItems;
-    NSMutableDictionary *_hrefToErrorItems;
-    NSMutableDictionary *_uuidToStatus;
-    NSMutableDictionary *_hrefToStatus;
 }
 
 - (id);
@@ -35,19 +24,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`B;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *hrefToETag; // @synthesize hrefToETag=_hrefToETag;
-@property(readonly, nonatomic) NSDictionary *hrefToErrorItems; // @synthesize hrefToErrorItems=_hrefToErrorItems;
-@property(readonly, nonatomic) NSDictionary *hrefToStatus; // @synthesize hrefToStatus=_hrefToStatus;
 @property(readonly, nonatomic) NSString *nextCTag; // @synthesize nextCTag=_nextCTag;
-@property(readonly, nonatomic) NSDictionary *uuidToErrorItems; // @synthesize uuidToErrorItems=_uuidToErrorItems;
-@property(readonly, nonatomic) NSDictionary *uuidToHREF; // @synthesize uuidToHREF=_uuidToHREF;
-@property(readonly, nonatomic) NSDictionary *uuidToStatus; // @synthesize uuidToStatus=_uuidToStatus;
 
 @end
 

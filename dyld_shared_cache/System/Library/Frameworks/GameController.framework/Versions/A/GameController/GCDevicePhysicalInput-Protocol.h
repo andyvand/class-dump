@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol GCDevice, OS_dispatch_queue;
+@protocol GCDevice, GCDevicePhysicalInputState;
 
 @protocol GCDevicePhysicalInput
+- (void);
+- (void)8;
+- (id <GCDevicePhysicalInputState>)ntRequest is skipping plugin with ID %@ and params %@;
 
 // Remaining properties
 @property(readonly) __weak id <GCDevice> device;
-@property(copy) CDUnknownBlockType elementValueDidChangeHandler;
-@property(copy) CDUnknownBlockType inputStateAvailableHandler;
-@property long long inputStateQueueDepth;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
 @end
 

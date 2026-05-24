@@ -9,16 +9,14 @@
 @interface PNRPhoneNumberResolutionResult
 {
     NSString *_locationName;
-    long long _dataSource;
 }
 
-- (id);
-- (id);
-- (long long);
-- (void);
+- (id)&{;
+- (id)Zf;
+- (long long);
+- (void)24@0:8@16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataSource; // @synthesize dataSource=_dataSource;
 @property(readonly, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
 
 @end

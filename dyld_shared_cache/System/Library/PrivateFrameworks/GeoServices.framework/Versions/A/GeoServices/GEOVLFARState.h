@@ -9,17 +9,9 @@
 @interface GEOVLFARState
 {
     PBUnknownFields *_unknownFields;
-    int _geoTrackingStateReason;
-    int _geoTrackingState;
-    unsigned int _relativeTimestampMs;
-    struct {
-        unsigned int has_geoTrackingStateReason:1;
-        unsigned int has_geoTrackingState:1;
-        unsigned int has_relativeTimestampMs:1;
-    } _flags;
 }
 
-+ (_Bool)dLanes:(id)arg1;
++ (_Bool)setNumValidLanes:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -41,26 +33,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)secondPassAudioLoggingFilePathWithDeviceId:(id)arg1;
+- (id)gerSecondPass _handleVoiceTriggerFirstPassFromAOP:audioProviderUUID:completion:] /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)itToken:throttleToken: /* Error: Ran out of types for this method. */;
-- (id)tionHall;
+- (id)initWithMessage:traits:auditToken:throttleToken: /* Error: Ran out of types for this method. */;
+- (id)destinationHall;
 - (id)chattribution.loadAttribution;
 - (void)Ãõ(\:\@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int geoTrackingState;
-@property(nonatomic) int geoTrackingStateReason;
-@property(nonatomic) _Bool hasGeoTrackingState;
-@property(nonatomic) _Bool hasGeoTrackingStateReason;
 @property(nonatomic) _Bool hasRelativeTimestampMs;
-@property(nonatomic) unsigned int relativeTimestampMs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

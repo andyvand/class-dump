@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHNLRouterBridgeRoutingDecision;
+@class ORCHSchemaORCHNLRouterBridgeRoutingDecision;
 
 @interface ORCHSchemaORCHNLRouterBridgeEnded : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHNLRouterBridgeRoutingDecision *_routingDecision;
-    _Bool _hasRoutingDecision;
 }
 
 - (void);
@@ -28,13 +27,11 @@
 - (id);
 - (id)! BùñÝð1Â0@ù
 × ;
-- (id)rtToTLSHandshake;
+- (id)_connectionStartToTLSHandshake;
 - (id)nEvaluation;
 - (void)values.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRoutingDecision; // @synthesize hasRoutingDecision=_hasRoutingDecision;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHNLRouterBridgeRoutingDecision *routingDecision; // @synthesize routingDecision=_routingDecision;
 
 @end

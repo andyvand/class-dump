@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
 @protocol LSRegistrantStrategy;
 
 __attribute__((visibility("hidden")))
 @interface LSBuiltinPluginRegistrant
 {
     id <LSRegistrantStrategy> _strategy;
-    NSUUID *_uuid;
-    NSDictionary *_miDict;
 }
 
 - (id);

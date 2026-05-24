@@ -6,17 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCEContact : SISchemaInstrumentationMessage
 {
     NSString *_anonymizedContactIdentifier;
-    NSArray *_anonymizedHandleValues;
-    _Bool _hasAnonymizedContactIdentifier;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -34,15 +32,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)sAutomaticLID;
-- (id)erIdDataCollectionEnrollmentDataReportedTier1;
+- (id)_isAutomaticLID;
+- (id)MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anonymizedContactIdentifier; // @synthesize anonymizedContactIdentifier=_anonymizedContactIdentifier;
-@property(copy, nonatomic) NSArray *anonymizedHandleValues; // @synthesize anonymizedHandleValues=_anonymizedHandleValues;
-@property(nonatomic) _Bool hasAnonymizedContactIdentifier; // @synthesize hasAnonymizedContactIdentifier=_hasAnonymizedContactIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

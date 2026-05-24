@@ -6,15 +6,11 @@
 
 #import <CallKit/CXVoicemailSource.h>
 
-@class NSSet, NSString, NSURL, NSXPCConnection;
+@class NSString, NSXPCConnection;
 
 @interface CXXPCVoicemailSource : CXVoicemailSource
 {
     NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSXPCConnection *_connection;
-    NSString *_applicationIdentifier;
-    NSSet *_capabilities;
 }
 
 - (id);
@@ -26,22 +22,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)otherFormatString;
 - (id);
 - (_Bool);
 - (_Bool);
 - (int);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)WithPendingRequests;
+- (void)P;
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(copy, nonatomic) NSSet *capabilities; // @synthesize capabilities=_capabilities;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

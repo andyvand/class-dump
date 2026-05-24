@@ -7,10 +7,6 @@
 @interface NewsSubscription.PaywallModalAdViewController
 {
     id modalAdInfo;
-    id metricsView;
-    id adView;
-    id gradientLayer;
-    id onContinueButtonTapped;
 }
 
 - (void);
@@ -18,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -7,20 +7,6 @@
 @interface PhotosUICore.LemonadeLibraryDefaultsShelvesDataSource
 {
     id photoLibrary;
-    id logger;
-    id defaultShelvesLayoutStyle;
-    id featureLibrary;
-    id defaultShelvesInOrder;
-    id defaultShelvesInOrderByIDString;
-    id availableShelves;
-    id pinnedToBottomShelfIDs;
-    id pinnedToTopShelfIDs;
-    id layoutStyle;
-    id shelvesVersionNumber;
-    id currentHiddenShelves;
-    id currentDisplayOnLeadingSide;
-    id currentDisplayWholeRow;
-    id observable;
 }
 
 @end

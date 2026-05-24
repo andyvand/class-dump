@@ -11,23 +11,21 @@
 @interface AKShapesPicker : AKModernToolbarPicker
 {
     NSArray *_shapes;
-    long long _style;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *shapes; // @synthesize shapes=_shapes;
-@property long long style; // @synthesize style=_style;
 
 @end
 

@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface C2Route
 {
     NSString *_destination;
-    double _lastUpdated;
 }
 
 - (double);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(nonatomic) double lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 
 @end
 

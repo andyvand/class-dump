@@ -6,13 +6,13 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, NSNumber, NSString;
+@class NSString;
 
 @interface MXMMemoryMetric : MXMMetric
 {
 }
 
-+ (id);
++ (id)nputCore;
 - (void);
 - (id);
 - (id);
@@ -21,11 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_queue_sourceNodes;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
-@property(readonly, copy, nonatomic) NSNumber *processIdentifier;
 @property(readonly, copy, nonatomic) NSString *processName;
 
 @end

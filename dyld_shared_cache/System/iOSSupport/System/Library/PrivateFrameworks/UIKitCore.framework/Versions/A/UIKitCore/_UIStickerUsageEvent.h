@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIStickerUsageEvent
 {
     long long _sourceType;
-    long long _usageType;
-    long long _stickerType;
-    long long _effectType;
 }
 
 + (_Bool);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)ins the urgent trigger phrase within the grace period window. Grace period is active.;
 - (void);
 - (long long);
 - (long long)±]Ð1Â0@ù
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)^;
 
 // Remaining properties
-@property(nonatomic) long long effectType; // @synthesize effectType=_effectType;
 @property(nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(nonatomic) long long stickerType; // @synthesize stickerType=_stickerType;
-@property(nonatomic) long long usageType; // @synthesize usageType=_usageType;
 
 @end
 

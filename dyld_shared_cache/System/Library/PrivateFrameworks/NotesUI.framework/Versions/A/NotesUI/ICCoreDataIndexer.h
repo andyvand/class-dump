@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSObject, NSSet, NSString;
-@protocol ICCoreDataIndexerDelegate, ICItemIdentifier, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ICCoreDataIndexer
 {
     _Bool _shouldIncludeOutlineParentItems;
-    _Bool _needsFetchedResultsControllerUpdate;
-    _Bool _stopIndexing;
-    id <ICCoreDataIndexerDelegate> _delegate;
-    NSManagedObjectContext *_legacyManagedObjectContext;
-    NSManagedObjectContext *_modernManagedObjectContext;
-    id <ICItemIdentifier> _firstRelevantItemIdentifier;
-    NSObject<OS_dispatch_queue> *_reloadDataSerialQueue;
-    id _stopIndexingToken;
 }
 
 + (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -58,27 +50,10 @@
 - (void);
 - (id);
 - (void);
-- (void)atio;
+- (void)_forceSquareImageAspectRatio;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *activeFetchedResultsControllers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ICCoreDataIndexerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *expansionStateContext;
-@property(readonly, nonatomic) id <ICItemIdentifier> firstRelevantItemIdentifier; // @synthesize firstRelevantItemIdentifier=_firstRelevantItemIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSManagedObjectContext *legacyManagedObjectContext; // @synthesize legacyManagedObjectContext=_legacyManagedObjectContext;
-@property(readonly, nonatomic) NSManagedObjectContext *modernManagedObjectContext; // @synthesize modernManagedObjectContext=_modernManagedObjectContext;
-@property(nonatomic) _Bool needsFetchedResultsControllerUpdate; // @synthesize needsFetchedResultsControllerUpdate=_needsFetchedResultsControllerUpdate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *reloadDataSerialQueue; // @synthesize reloadDataSerialQueue=_reloadDataSerialQueue;
-@property(nonatomic) _Bool shouldIncludeOutlineParentItems; // @synthesize shouldIncludeOutlineParentItems=_shouldIncludeOutlineParentItems;
-@property _Bool stopIndexing; // @synthesize stopIndexing=_stopIndexing;
-@property(retain, nonatomic) id stopIndexingToken; // @synthesize stopIndexingToken=_stopIndexingToken;
-@property(readonly) Class superclass;
 
 @end
 

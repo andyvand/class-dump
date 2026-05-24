@@ -19,7 +19,7 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)K!˚B;
 - (id);
 - (id);
 - (_Bool);

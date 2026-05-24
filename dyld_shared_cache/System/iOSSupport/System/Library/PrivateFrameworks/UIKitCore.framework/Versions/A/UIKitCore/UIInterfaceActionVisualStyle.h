@@ -4,91 +4,78 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInterfaceActionConcreteVisualStyle, UIInterfaceActionGroupViewState, UIInterfaceActionOverrideVisualStyle;
+@class UIInterfaceActionConcreteVisualStyle, UIInterfaceActionGroupViewState;
 @protocol UIInterfaceActionConcreteVisualStyleImpl;
 
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionVisualStyle
 {
     UIInterfaceActionGroupViewState *_groupViewState;
-    UIInterfaceActionConcreteVisualStyle<UIInterfaceActionConcreteVisualStyleImpl> *_concreteVisualStyle;
-    CDUnknownBlockType _fontForViewStateBlock;
-    UIInterfaceActionOverrideVisualStyle *_visualStyleOverride;
 }
 
 + (id);
 - (id);
 - (double);
 - (void);
+- (void)me:(CDUnknownBlockType)arg1 %@;
+- (void)lly enrolling for SMS relay with requesting device:(id)arg1 %@;
+- (_Bool)nt;
+- (_Bool)chat dictionary %@;
+- (_Bool)ng chat (%@) from blackhole.;
+- (id)e processing which split sa %lu records to RE-fetch and  %lu to delete;
+- (id)eted record IDs from error;
+- (id)h record name:(id)arg1 %@;
+- (id)ent downloads %@;
+- (struct CGSize)However I am SMS Capable:Sending Message via CT /* Error: Ran out of types for this method. */;
+- (struct CGSize)rl retrieval.;
+- (id)PersistentTaskCriticalExecutionRanges;
+- (double)SendingResult"8;
+- (id)__kIMDChatRegistryAddedChatNotification;
+- (CDUnknownBlockType)KeyStore.db;
+- (id)CandidateHash;
+- (id);
+- (id);
+- (id);
+- (double);
 - (void);
 - (void);
+- (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
 - (id);
 - (double);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)8@;
 - (struct UIEdgeInsets);
+- (double)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)P;
+- (void);
+- (void);
 - (double);
+- (struct UIEdgeInsets)SSL3_CHANGE_CIPHER_STATE;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
-- (_Bool)dicatorFeed;
-- (id)rItemIdentifying;
+- (_Bool)indicatorFeed;
+- (id)_UINavigationBarNSToolbarItemIdentifying;
 - (void)Hÿ>;
 
 // Remaining properties
 @property(retain, nonatomic) UIInterfaceActionConcreteVisualStyle<UIInterfaceActionConcreteVisualStyleImpl> *concreteVisualStyle; // @synthesize concreteVisualStyle=_concreteVisualStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fontForViewStateBlock; // @synthesize fontForViewStateBlock=_fontForViewStateBlock;
-@property(readonly, nonatomic) UIInterfaceActionGroupViewState *groupViewState; // @synthesize groupViewState=_groupViewState;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIInterfaceActionOverrideVisualStyle *visualStyleOverride; // @synthesize visualStyleOverride=_visualStyleOverride;
 
 @end
 

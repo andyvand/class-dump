@@ -7,10 +7,6 @@
 @interface NotesShared.CloudSession.PhaseMetrics
 {
     id phase;
-    id startDate;
-    id endDate;
-    id errors;
-    id ckMetrics;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface TPCategoryRule
 {
     NSString *_prefix;
-    NSString *_category;
 }
 
 + (id);
@@ -21,13 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)1a;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
 @property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end

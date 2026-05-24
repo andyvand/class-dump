@@ -14,8 +14,8 @@
 + (id);
 + (void);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)P;
+- (id)setAccessibilityElements: /* Error: Ran out of types for this method. */;
 
 @end
 

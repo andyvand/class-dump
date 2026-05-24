@@ -7,11 +7,6 @@
 @interface NewsFeed.DebugFormatLayoutTreeItem
 {
     id id;
-    id model;
-    id isEnabled;
-    id _children;
-    id _isExpanded;
-    id stateMachine;
 }
 
 @end

@@ -7,14 +7,6 @@
 @interface MPSMatrixSum
 {
     _Bool _transpose;
-    int _neuronType;
-    float _neuronA;
-    float _neuronB;
-    float _neuronC;
-    unsigned long long _rows;
-    unsigned long long _columns;
-    unsigned long long _count;
-    CDStruct_67e7699a _resultMatrixOrigin;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -30,14 +22,14 @@
 - (float);
 - (float);
 - (float);
-- (id);
+- (id)I;
 - (unsigned long long);
 - (void);
 - (int);
 - (void);
+- (float)P;
 - (float);
-- (float);
-- (float)PrimarySourceFeatureChannelMaxCount: /* Error: Ran out of types for this method. */;
+- (float)setPrimarySourceFeatureChannelMaxCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ights.descriptor can not contain an integrated neuron.
 	A separate node must be built for neurons for training.
 	The graph will automatically integrate them later for inference.;
@@ -45,18 +37,7 @@
 - (id)nal data;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) float neuronA; // @synthesize neuronA=_neuronA;
-@property(nonatomic) float neuronB; // @synthesize neuronB=_neuronB;
-@property(nonatomic) float neuronC; // @synthesize neuronC=_neuronC;
-@property(readonly, nonatomic) float neuronParameterA;
-@property(readonly, nonatomic) float neuronParameterB;
-@property(readonly, nonatomic) float neuronParameterC;
 @property(nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
-@property(nonatomic) CDStruct_14f26992 resultMatrixOrigin; // @synthesize resultMatrixOrigin=_resultMatrixOrigin;
-@property(readonly, nonatomic) unsigned long long rows; // @synthesize rows=_rows;
-@property(readonly, nonatomic) _Bool transpose; // @synthesize transpose=_transpose;
 
 @end
 

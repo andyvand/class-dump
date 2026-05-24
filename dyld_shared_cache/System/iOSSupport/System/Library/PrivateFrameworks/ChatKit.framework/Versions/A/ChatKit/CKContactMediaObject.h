@@ -6,50 +6,46 @@
 
 #import <ChatKit/CKCardMediaObject.h>
 
-@class CNContactVCardSummary, NSDictionary, UIImage;
+@class NSDictionary;
 
 @interface CKContactMediaObject : CKCardMediaObject
 {
     _Bool _vCardParsingFailed;
-    NSDictionary *_contactMediaInfo;
-    CNContactVCardSummary *_vCardSummary;
-    unsigned long long _oopPreviewRequestCount;
-    UIImage *_vCardImage;
 }
 
-+ (_Bool);
++ (_Bool)_Qo__AASgt;
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)_modernDestination;
+- (_Bool)_modernAccountManagedObjectIDs;
+- (id)_mininumScaleFactor;
+- (id)_minimumSerializationVersion;
+- (void));
 - (void);
+- (void)L&;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)timedOut;
 - (id);
 - (Class);
-- (Class);
+- (Class)y;
+- (unsigned long long)e;
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)t;
+- (id)legacy attachment file wrapper for an attachment that hasn't been imported yet:(double)arg1 %@';
+- (id)inline attachment (%@) in text of note (%@) that doesn't have an identifier;
+- (_Bool)tachment (%@) that we haven't downloaded yet for a note (%@). Creating a temporary one.;
+- (void)plicating note… {originalNote:%@, folder:%@, isPasswordProtected:%@, removingOriginalNote:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)th:70px"> /* Error: Ran out of types for this method. */;
+- (id)v16@?0@"NSProgress"8;
 - (struct CGSize);
-- (Class);
+- (Class)NICDocumentMergeControllingReason;
 - (id);
 - (id);
-- (id);
+- (id)7;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
@@ -58,10 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *contactMediaInfo; // @synthesize contactMediaInfo=_contactMediaInfo;
-@property(nonatomic) unsigned long long oopPreviewRequestCount; // @synthesize oopPreviewRequestCount=_oopPreviewRequestCount;
-@property(retain, nonatomic) UIImage *vCardImage; // @synthesize vCardImage=_vCardImage;
-@property(nonatomic) _Bool vCardParsingFailed; // @synthesize vCardParsingFailed=_vCardParsingFailed;
-@property(retain, nonatomic) CNContactVCardSummary *vCardSummary; // @synthesize vCardSummary=_vCardSummary;
 
 @end
 

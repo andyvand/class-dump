@@ -9,6 +9,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void);
 - (UIView *)0:(UIScrollView *)arg1 8;
 - (void)ption of an audio playback rate of 1.25x.;
 @end

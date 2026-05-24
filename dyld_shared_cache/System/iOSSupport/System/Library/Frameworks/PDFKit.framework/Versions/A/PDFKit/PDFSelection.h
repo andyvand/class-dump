@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSMutableArray, NSString, NSUUID, PDFDocument, UIColor;
+@class NSArray, PDFDocument;
 
 @interface PDFSelection
 {
     PDFDocument *_document;
-    UIColor *_color;
-    NSMutableArray *_pageRanges;
-    _Bool _forceBreaks;
-    struct __CFArray *_cgSelections;
-    NSMutableArray *_pages;
-    NSUUID *_pdfSelectionUUID;
 }
 
-+ (id);
++ (id)�;
 + (id);
 + (id);
 - (struct CGRect);
@@ -34,7 +28,7 @@
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -59,17 +53,17 @@
 - (void);
 - (void);
 - (void);
-- (struct _NSRange);
-- (unsigned long long);
+- (struct _NSRange)ionsHandler] Empty recipientNames passed in;
+- (unsigned long long)totalWordsEntered;
 - (id);
 - (void);
 - (struct CGPoint);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -78,22 +72,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString;
-@property(copy, nonatomic) UIColor *color;
 @property(readonly, nonatomic) NSArray *pages;
-@property(readonly, nonatomic) NSString *string;
 
 @end
 

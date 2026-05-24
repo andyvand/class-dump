@@ -9,27 +9,18 @@
 @interface NTPBEnvelope
 {
     NSData *_content;
-    int _contentType;
-    int _contentTypeMinorVersion;
-    int _contentTypePatchVersion;
-    int _contentTypeVersion;
-    NSData *_identifier;
-    struct {
-        unsigned int contentTypeMinorVersion:1;
-        unsigned int contentTypePatchVersion:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)bestCropRectForAspectRatio:(_Bool)arg1 verticalContentMode:cropMode:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (void)bestCropRectForAspectRatio:(_Bool)arg1 verticalContentMode:cropMode: /* Error: Ran out of types for this method. */;
+- (void)assetsProducerFactory;
+- (void)assetsPickerPresenter;
+- (void)assetsInSectionIndexPath:(int)arg1;
+- (_Bool)_updatePendingTransitionModelWithSegmentTransitionInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)_updatePendingTransitionModelWithSegmentTransitionInfo: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void)_14KeyboardLayoutEEEE;
+- (void)4;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -44,19 +35,11 @@
 - (void);
 - (id);
 - (int);
-- (void)line;
+- (void)likeClickValueBaseline;
 - (void)ô}H~;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *content; // @synthesize content=_content;
-@property(nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(nonatomic) int contentTypeMinorVersion; // @synthesize contentTypeMinorVersion=_contentTypeMinorVersion;
-@property(nonatomic) int contentTypePatchVersion; // @synthesize contentTypePatchVersion=_contentTypePatchVersion;
 @property(nonatomic) int contentTypeVersion; // @synthesize contentTypeVersion=_contentTypeVersion;
-@property(nonatomic) _Bool hasContentTypeMinorVersion;
-@property(nonatomic) _Bool hasContentTypePatchVersion;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
 
 @end
 

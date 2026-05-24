@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotosItemListSelectionManager.Mutator__priv_D7A05B6FD5D101EBE87B4BF40FCB2E08
 {
     id _selectionSnapshot;
-    id observable;
 }
 
 @end

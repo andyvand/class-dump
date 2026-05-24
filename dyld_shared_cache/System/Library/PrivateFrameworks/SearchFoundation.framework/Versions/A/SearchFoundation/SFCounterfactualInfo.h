@@ -7,8 +7,6 @@
 @interface SFCounterfactualInfo
 {
     _Bool _cfDiffered;
-    _Bool _cfUsed;
-    unsigned long long _cfError;
 }
 
 - (void);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool cfDiffered; // @synthesize cfDiffered=_cfDiffered;
-@property(nonatomic) unsigned long long cfError; // @synthesize cfError=_cfError;
-@property(nonatomic) _Bool cfUsed; // @synthesize cfUsed=_cfUsed;
 
 @end
 

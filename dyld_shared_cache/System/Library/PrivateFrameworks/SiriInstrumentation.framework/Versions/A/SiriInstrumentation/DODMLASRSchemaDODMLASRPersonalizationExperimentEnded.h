@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DODMLASRSchemaDODMLASRAudioFileResult, DODMLASRSchemaDODMLASRPersonalizedLanguageModelMetrics, NSArray, NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRPersonalizationExperimentEnded : SISchemaInstrumentationMessage
 {
     NSString *_datapackVersion;
-    unsigned int _numAudioFilesAvailable;
-    unsigned int _numAudioFilesSelected;
-    int _experimentStatusCode;
-    NSArray *_audioFileResults;
-    DODMLASRSchemaDODMLASRPersonalizedLanguageModelMetrics *_personalizedLanguageModelMetrics;
-    unsigned long long _textFetchDurationInNs;
-    unsigned long long _textProcessingDurationInNs;
-    int _deviceThermalState;
-    DODMLASRSchemaDODMLASRAudioFileResult *_audioFileResult;
-    struct {
-        unsigned int numAudioFilesAvailable:1;
-        unsigned int numAudioFilesSelected:1;
-        unsigned int experimentStatusCode:1;
-        unsigned int textFetchDurationInNs:1;
-        unsigned int textProcessingDurationInNs:1;
-        unsigned int deviceThermalState:1;
-    } _has;
-    _Bool _hasDatapackVersion;
-    _Bool _hasPersonalizedLanguageModelMetrics;
-    _Bool _hasAudioFileResult;
 }
 
 - (unsigned long long);
@@ -64,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (int);
@@ -85,39 +65,20 @@
 - (void);
 - (id);
 - (id);
+- (id)IAPCameraSendStartCamera;
 - (id);
-- (id);
-- (void);
+- (void)G;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)UE;
 - (id)meters"b1"locationFrequencyCount300Meters"b1"locationFrequencyCount2500Meters"b1"locationFrequencyCount156Kilometers"b1};
-- (id)TaskCountsReported;
+- (id)ODMSiriSchemaODMSiriTaskCountsReported;
 - (id)À$@;
 - (void)û¦%;
 
 // Remaining properties
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRAudioFileResult *audioFileResult; // @synthesize audioFileResult=_audioFileResult;
-@property(copy, nonatomic) NSArray *audioFileResults; // @synthesize audioFileResults=_audioFileResults;
 @property(copy, nonatomic) NSString *datapackVersion; // @synthesize datapackVersion=_datapackVersion;
-@property(nonatomic) int deviceThermalState; // @synthesize deviceThermalState=_deviceThermalState;
-@property(nonatomic) int experimentStatusCode; // @synthesize experimentStatusCode=_experimentStatusCode;
-@property(nonatomic) _Bool hasAudioFileResult; // @synthesize hasAudioFileResult=_hasAudioFileResult;
-@property(nonatomic) _Bool hasDatapackVersion; // @synthesize hasDatapackVersion=_hasDatapackVersion;
-@property(nonatomic) _Bool hasDeviceThermalState;
-@property(nonatomic) _Bool hasExperimentStatusCode;
-@property(nonatomic) _Bool hasNumAudioFilesAvailable;
-@property(nonatomic) _Bool hasNumAudioFilesSelected;
-@property(nonatomic) _Bool hasPersonalizedLanguageModelMetrics; // @synthesize hasPersonalizedLanguageModelMetrics=_hasPersonalizedLanguageModelMetrics;
-@property(nonatomic) _Bool hasTextFetchDurationInNs;
-@property(nonatomic) _Bool hasTextProcessingDurationInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numAudioFilesAvailable; // @synthesize numAudioFilesAvailable=_numAudioFilesAvailable;
-@property(nonatomic) unsigned int numAudioFilesSelected; // @synthesize numAudioFilesSelected=_numAudioFilesSelected;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRPersonalizedLanguageModelMetrics *personalizedLanguageModelMetrics; // @synthesize personalizedLanguageModelMetrics=_personalizedLanguageModelMetrics;
-@property(nonatomic) unsigned long long textFetchDurationInNs; // @synthesize textFetchDurationInNs=_textFetchDurationInNs;
-@property(nonatomic) unsigned long long textProcessingDurationInNs; // @synthesize textProcessingDurationInNs=_textProcessingDurationInNs;
 
 @end
 

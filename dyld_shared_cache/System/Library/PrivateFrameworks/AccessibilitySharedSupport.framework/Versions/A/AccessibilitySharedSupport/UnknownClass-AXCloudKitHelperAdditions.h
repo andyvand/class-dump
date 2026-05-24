@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface UnknownClass (AXCloudKitHelperAdditions)
 - (void);
@@ -19,22 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)4f32;
+- (id)b;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *basePunctuationGroup;
-@property(retain, nonatomic) NSArray *entries;
-@property(retain, nonatomic) NSUUID *groupUUID;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *punctuation;
-@property(retain, nonatomic) NSString *replacement;
-@property(retain, nonatomic) NSString *rule;
 @property(retain, nonatomic) NSString *uuid;
-@property(retain, nonatomic) NSNumber *version;
 @end
 

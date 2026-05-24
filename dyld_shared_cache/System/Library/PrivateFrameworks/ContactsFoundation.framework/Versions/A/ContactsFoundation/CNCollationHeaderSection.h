@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly) NSString *ICUSortKey; // @synthesize ICUSortKey=_ICUSortKey;

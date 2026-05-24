@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRNowPlayingInfoProtobuf, _MRNowPlayingPlayerPathProtobuf, _MRPlaybackQueueCapabilitiesProtobuf, _MRPlaybackQueueProtobuf, _MRPlaybackQueueRequestProtobuf, _MRSupportedCommandsProtobuf;
-
 @interface _MRSetStateMessageProtobuf
 {
     double _playbackStateTimestamp;
-    NSString *_displayID;
-    NSString *_displayName;
-    _MRNowPlayingInfoProtobuf *_nowPlayingInfo;
-    _MRPlaybackQueueProtobuf *_playbackQueue;
-    _MRPlaybackQueueCapabilitiesProtobuf *_playbackQueueCapabilities;
-    int _playbackState;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    _MRPlaybackQueueRequestProtobuf *_request;
-    _MRSupportedCommandsProtobuf *_supportedCommands;
-    struct {
-        unsigned int playbackStateTimestamp:1;
-        unsigned int playbackState:1;
-    } _has;
 }
 
 - (void);
@@ -41,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -51,46 +36,27 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)TVPhotos;
 - (void);
-- (id);
+- (id)= %@, lastModifiedDate = %@};
 - (int);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id)Eùq&Ð1Â0@ù
 × ;
 - (id)× ;
-- (void)rkDataWidth;
-- (_Bool)staticRequest;
+- (void)artworkDataWidth;
+- (_Bool)_staticRequest;
 - (void)tor] %@:(id)arg1 Querying output device relevance for %@;
-- (void)oneConnection;
-- (_Bool)RemoteNowPlayingInfoRadioStationHash;
+- (void)requestMicrophoneConnection;
+- (_Bool)kMRMediaRemoteNowPlayingInfoRadioStationHash;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayID; // @synthesize displayID=_displayID;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasDisplayID;
-@property(readonly, nonatomic) _Bool hasDisplayName;
 @property(readonly, nonatomic) _Bool hasNowPlayingInfo;
-@property(readonly, nonatomic) _Bool hasPlaybackQueue;
-@property(readonly, nonatomic) _Bool hasPlaybackQueueCapabilities;
-@property(nonatomic) _Bool hasPlaybackState;
-@property(nonatomic) _Bool hasPlaybackStateTimestamp;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(readonly, nonatomic) _Bool hasSupportedCommands;
-@property(retain, nonatomic) _MRNowPlayingInfoProtobuf *nowPlayingInfo; // @synthesize nowPlayingInfo=_nowPlayingInfo;
-@property(retain, nonatomic) _MRPlaybackQueueProtobuf *playbackQueue; // @synthesize playbackQueue=_playbackQueue;
-@property(retain, nonatomic) _MRPlaybackQueueCapabilitiesProtobuf *playbackQueueCapabilities; // @synthesize playbackQueueCapabilities=_playbackQueueCapabilities;
-@property(nonatomic) int playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) double playbackStateTimestamp; // @synthesize playbackStateTimestamp=_playbackStateTimestamp;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) _MRPlaybackQueueRequestProtobuf *request; // @synthesize request=_request;
-@property(retain, nonatomic) _MRSupportedCommandsProtobuf *supportedCommands; // @synthesize supportedCommands=_supportedCommands;
 
 @end
 

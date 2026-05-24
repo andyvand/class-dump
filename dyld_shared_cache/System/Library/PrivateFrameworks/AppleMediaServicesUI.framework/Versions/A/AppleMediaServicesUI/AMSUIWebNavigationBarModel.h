@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebBarButtonItemModel, NSArray, NSString;
+@class AMSUIWebBarButtonItemModel;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebNavigationBarModel
 {
     _Bool _hidesBackButton;
-    AMSUIWebBarButtonItemModel *_accessoryBarButtonItemModel;
-    NSString *_backButtonTitle;
-    NSString *_backgroundColor;
-    long long _backgroundStyle;
-    AMSUIWebBarButtonItemModel *_leftBarButtonItemModel;
-    NSArray *_otherBarButtonItemModels;
-    AMSUIWebBarButtonItemModel *_rightBarButtonItemModel;
-    long long _style;
-    NSString *_title;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)@ ...;
+- (void)mping assets:(id)arg1 %{public}@;
+- (void)ected error occured as remote sync state object not found for asset type:(id)arg1 %{public}@;
+- (void)blic}@) loading assertion data.;
+- (void)t handle did receive asset:(id)arg1 %@ for client:%@ /* Error: Ran out of types for this method. */;
+- (id)r:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)eate auto asset object for asset selector:%{public}@ due to error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ForQuery:errorPtr:] /* Error: Ran out of types for this method. */;
+- (id)leAsset.LinguisticData;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -49,24 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AMSUIWebBarButtonItemModel *accessoryBarButtonItemModel; // @synthesize accessoryBarButtonItemModel=_accessoryBarButtonItemModel;
-@property(retain) NSString *backButtonTitle; // @synthesize backButtonTitle=_backButtonTitle;
-@property(retain) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool hidesBackButton; // @synthesize hidesBackButton=_hidesBackButton;
-@property(readonly) _Bool includesLeftItems;
-@property(readonly) _Bool includesRightItems;
-@property(retain) AMSUIWebBarButtonItemModel *leftBarButtonItemModel; // @synthesize leftBarButtonItemModel=_leftBarButtonItemModel;
-@property(retain) NSArray *otherBarButtonItemModels; // @synthesize otherBarButtonItemModels=_otherBarButtonItemModels;
-@property(retain) AMSUIWebBarButtonItemModel *rightBarButtonItemModel; // @synthesize rightBarButtonItemModel=_rightBarButtonItemModel;
-@property long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

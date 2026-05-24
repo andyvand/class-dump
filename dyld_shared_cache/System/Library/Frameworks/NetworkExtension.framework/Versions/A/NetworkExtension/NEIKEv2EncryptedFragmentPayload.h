@@ -9,12 +9,11 @@
 @interface NEIKEv2EncryptedFragmentPayload : NEIKEv2EncryptedPayload
 {
     unsigned int _fragmentNumber;
-    unsigned int _totalFragments;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 

@@ -12,14 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PXModifySocialGroupAction : PXPhotosAction
 {
     id originalSocialGroup;
-    id peopleToBeAdded;
-    id peopleToBeRemoved;
-    id newCustomTitle;
-    id customTitleWasDeleted;
-    id newKeyAsset;
-    id placeholderLocalIdentifier;
-    id originalTitle;
-    id originalKeyAsset;
 }
 
 - (id);
@@ -32,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;
-@property(nonatomic, readonly) NSString *localizedActionName;
 
 @end
 

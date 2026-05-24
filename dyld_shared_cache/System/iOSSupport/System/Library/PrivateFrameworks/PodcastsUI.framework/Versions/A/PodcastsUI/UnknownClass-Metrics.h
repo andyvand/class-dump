@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (Metrics)
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

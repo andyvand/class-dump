@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, VISRotationCorrectionEstimator;
-
 __attribute__((visibility("hidden")))
 @interface GVSOverscanPredictor
 {
     id _margin;
-    id _imageSize;
-    id _imageCenter;
-    CDStruct_da14d750 _cameraAlignment;
-    double _detectionTimeoutSeconds;
-    double _resetTimeoutSeconds;
-    double _overscanFitsTimestamp;
-    double _latestSampleTimestamp;
-    NSString *_previousPort;
-    VISRotationCorrectionEstimator *_visEstimator;
-    NSDictionary *_pixelSizeByPortType;
-    CDStruct_ec629c3d _rawQuaternionArray[36];
-    id _estimatedCorrection;
-    id _estimatedOverscan;
 }
 
-- (void);
-- (void);
+- (void)b;
+- (void)n;
 - (_Bool);
 - (int);
 - (id);

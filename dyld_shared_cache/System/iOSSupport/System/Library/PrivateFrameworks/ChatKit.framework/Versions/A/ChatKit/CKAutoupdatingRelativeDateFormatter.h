@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)d;
++ (id)T;
 - (id);
 - (id)r completion.;
 

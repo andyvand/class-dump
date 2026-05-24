@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCVideoRuleCollectionsCamera : VCVideoRuleCollections
 {
     _Bool _encodeHighDef;
-    _Bool _decodeHighDef;
 }
 
 + (id)ctionManagerLegacy removeConnection:] /* Error: Ran out of types for this method. */;
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct _VCBitrateConfiguration *);
 - (id);
 - (id);

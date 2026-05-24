@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWIrisMovieInfo, FigCaptureMovieFileRecordingSettings;
+@class FigCaptureMovieFileRecordingSettings;
 
 @interface BWPendingIrisRecordingRequest
 {
     FigCaptureMovieFileRecordingSettings *_settings;
-    long long _enqueuedHostTime;
-    CDStruct_1b6d18a9 _momentCaptureMovieRecordingMasterEndTime;
-    _Bool _pairedRequestCreated;
-    BWIrisMovieInfo *_irisMovieInfo;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,14 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)stics;
+- (_Bool)_afDriverShortStatistics;
 
 // Remaining properties
-@property(nonatomic) long long enqueuedHostTime; // @synthesize enqueuedHostTime=_enqueuedHostTime;
-@property(retain, nonatomic) BWIrisMovieInfo *irisMovieInfo; // @synthesize irisMovieInfo=_irisMovieInfo;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(nonatomic) CDStruct_1b6d18a9 momentCaptureMovieRecordingMasterEndTime; // @synthesize momentCaptureMovieRecordingMasterEndTime=_momentCaptureMovieRecordingMasterEndTime;
-@property(nonatomic, getter=isPairedRequestCreated) _Bool pairedRequestCreated; // @synthesize pairedRequestCreated=_pairedRequestCreated;
 @property(readonly, nonatomic) FigCaptureMovieFileRecordingSettings *settings; // @synthesize settings=_settings;
 
 @end

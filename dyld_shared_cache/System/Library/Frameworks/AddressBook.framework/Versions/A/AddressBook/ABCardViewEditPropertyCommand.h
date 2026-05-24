@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ABCardViewDataSourceProvider, NSObject;
+@protocol ABCardViewDataSourceProvider;
 
 @interface ABCardViewEditPropertyCommand
 {
     id <ABCardViewDataSourceProvider> _dataSourceProvider;
-    id <NSObject> _oldValue;
-    id <NSObject> _updatedValue;
-    NSString *_propertyKey;
 }
 
 - (void);
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <ABCardViewDataSourceProvider> dataSourceProvider; // @synthesize dataSourceProvider=_dataSourceProvider;
-@property(retain, nonatomic) id <NSObject> oldValue; // @synthesize oldValue=_oldValue;
-@property(copy, nonatomic) NSString *propertyKey; // @synthesize propertyKey=_propertyKey;
-@property(retain, nonatomic) id <NSObject> updatedValue; // @synthesize updatedValue=_updatedValue;
 
 @end
 

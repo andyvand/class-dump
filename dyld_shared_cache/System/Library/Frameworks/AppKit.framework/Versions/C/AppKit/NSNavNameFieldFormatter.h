@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (_Bool)ontainerViewHeight;
+- (_Bool)VA�u;
+- (_Bool)_accessoryContainerViewHeight;
 - (void)ôìÿ;
 - (id)PE;
 

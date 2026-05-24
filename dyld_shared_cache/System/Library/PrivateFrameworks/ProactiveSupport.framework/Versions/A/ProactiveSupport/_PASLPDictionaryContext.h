@@ -9,17 +9,15 @@
 @interface _PASLPDictionaryContext
 {
     const unsigned int *_storage;
-    unsigned long long _count;
-    NSCache *_enumerationCache;
 }
 
-- (id);
+- (id)A9(;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)*, struct PartialQueryResults *);
 - (_Bool);
-- (void);
+- (void)setX_apple_proximity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NSCache *enumerationCache; // @synthesize enumerationCache=_enumerationCache;

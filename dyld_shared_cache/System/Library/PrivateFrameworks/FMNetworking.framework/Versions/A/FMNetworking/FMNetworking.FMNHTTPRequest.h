@@ -7,8 +7,6 @@
 @interface FMNetworking.FMNHTTPRequest
 {
     id credential;
-    id accountType;
-    id urlComponents;
 }
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface WBSURLCompletionMatchSnapshot
 {
     _Bool _topHit;
-    _Bool _synthesizedTopHit;
-    _Bool _topHitDueToTriggerMatch;
-    NSURL *_url;
-    NSString *_title;
-    NSString *_userVisibleURLString;
-    long long _matchLocation;
-    long long _visitCount;
-    NSDate *_lastVisitTime;
 }
 
 + (_Bool);
@@ -25,34 +17,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
-- (id);
+- (id)8t;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)stinationURL;
+- (void)RedirectDestinationURL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastVisitTime; // @synthesize lastVisitTime=_lastVisitTime;
-@property(readonly, nonatomic) long long matchLocation; // @synthesize matchLocation=_matchLocation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSynthesizedTopHit) _Bool synthesizedTopHit; // @synthesize synthesizedTopHit=_synthesizedTopHit;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic, getter=isTopHit) _Bool topHit; // @synthesize topHit=_topHit;
-@property(readonly, nonatomic, getter=isTopHitDueToTriggerMatch) _Bool topHitDueToTriggerMatch; // @synthesize topHitDueToTriggerMatch=_topHitDueToTriggerMatch;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, copy, nonatomic) NSString *userVisibleURLString; // @synthesize userVisibleURLString=_userVisibleURLString;
-@property(readonly, nonatomic) long long visitCount; // @synthesize visitCount=_visitCount;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface RemindersUICore.TTRMComponentViewTitleComponent : RemindersUICore.TTRMComponentViewReminderAttributedTextComponent
 {
     id enabledState;
-    id flaggedAction;
-    id containerView;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class REMAccountChangeItem, REMManualOrdering;
+@class REMAccountChangeItem;
 
 @interface REMAccountPinnedListsContextChangeItem
 {
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) REMAccountChangeItem *accountChangeItem; // @synthesize accountChangeItem=_accountChangeItem;
-@property(readonly, nonatomic) REMManualOrdering *unsavedManualOrdering;
 
 @end
 

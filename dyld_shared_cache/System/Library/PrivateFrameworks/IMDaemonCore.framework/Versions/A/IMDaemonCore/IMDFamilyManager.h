@@ -7,7 +7,6 @@
 @interface IMDFamilyManager
 {
     id processingQueue;
-    id familyContactsNotificationToken;
 }
 
 + (id);

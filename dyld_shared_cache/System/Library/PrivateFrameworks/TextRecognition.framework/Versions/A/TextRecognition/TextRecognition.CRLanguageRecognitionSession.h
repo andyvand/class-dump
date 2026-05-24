@@ -7,7 +7,6 @@
 @interface TextRecognition.CRLanguageRecognitionSession
 {
     id $defaultActor;
-    id latinLanguageRecognitionContext;
 }
 
 @end

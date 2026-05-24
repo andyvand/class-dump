@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCDaemonController, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface _IDSActivityMonitorXPCConnector
 {
     NSMutableDictionary *_listenersByActivity;
-    IDSXPCDaemonController *_daemonController;
-    IDSXPCDaemonController *_syncDaemonController;
-    CDUnknownBlockType _syncDaemonControllerBuilder;
-    CDUnknownBlockType _daemonControllerBuilder;
 }
 
 + (id);
@@ -20,37 +16,27 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
+- (CDUnknownBlockType)rror"32;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)mote-address-key;
+- (CDUnknownBlockType)B;
+- (void)U;
 - (id);
-- (id);
+- (id)
+;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)
 × ;
 - (void)ller adding new one %@;
 
 // Remaining properties
-@property(retain, nonatomic) IDSXPCDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(copy, nonatomic) CDUnknownBlockType daemonControllerBuilder; // @synthesize daemonControllerBuilder=_daemonControllerBuilder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *listenersByActivity; // @synthesize listenersByActivity=_listenersByActivity;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IDSXPCDaemonController *syncDaemonController; // @synthesize syncDaemonController=_syncDaemonController;
-@property(copy, nonatomic) CDUnknownBlockType syncDaemonControllerBuilder; // @synthesize syncDaemonControllerBuilder=_syncDaemonControllerBuilder;
 
 @end
 

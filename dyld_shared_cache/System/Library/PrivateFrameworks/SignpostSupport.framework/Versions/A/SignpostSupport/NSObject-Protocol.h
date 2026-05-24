@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long)";
+- (NSString *)tity.framework/Versions/A/DeviceIdentity;
+- (id);
+- (_Bool)(;
 - (struct _NSZone *),N,V__isTotalDuration;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

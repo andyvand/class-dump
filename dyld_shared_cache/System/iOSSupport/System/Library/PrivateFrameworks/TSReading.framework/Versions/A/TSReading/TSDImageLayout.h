@@ -6,53 +6,38 @@
 
 #import <TSReading/TSDMediaLayout.h>
 
-@class TSDBezierPath, TSDImageAdjustments, TSDInfoGeometry, TSDLayoutGeometry, TSDMaskLayout;
+@class TSDLayoutGeometry;
 
 @interface TSDImageLayout : TSDMediaLayout
 {
     TSDLayoutGeometry *mImageGeometry;
-    TSDMaskLayout *mMaskLayout;
-    struct CGPath *mPathToStroke;
-    struct CGAffineTransform mLayoutToImageTransform;
-    struct CGAffineTransform mLayoutToMaskTransform;
-    _Bool mMaskIntersectsImage;
-    TSDBezierPath *mTracedPath;
-    int mHasAlpha;
-    TSDLayoutGeometry *mBaseImageLayoutGeometry;
-    TSDInfoGeometry *mDynamicInfoGeometry;
-    TSDInfoGeometry *mBaseInfoGeometry;
-    int mMaskEditMode;
-    _Bool mScalingInMaskMode;
-    _Bool mInInstantAlphaMode;
-    _Bool mIsUpdatingImageAdjustments;
-    TSDImageAdjustments *mDynamicImageAdjustments;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)RateScannerType;
 - (struct CGSize);
-- (_Bool);
+- (_Bool)O;
 - (_Bool);
 - (void);
 - (_Bool);
 - (struct CGPath *);
 - (struct CGRect);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)؁;
 - (int);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -64,14 +49,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)L;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -88,7 +73,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)m;
 - (id);
 - (void);
 - (void);
@@ -102,23 +87,13 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isInInstantAlphaMode) _Bool inInstantAlphaMode; // @synthesize inInstantAlphaMode=mInInstantAlphaMode;
-@property(readonly, nonatomic, getter=isInMaskEditMode) _Bool inMaskEditMode;
-@property(readonly, nonatomic, getter=isInMaskScaleMode) _Bool inMaskScaleMode; // @synthesize inMaskScaleMode=mScalingInMaskMode;
-@property(readonly, nonatomic) _Bool isDraggingInMaskEditMode;
-@property(readonly, nonatomic) _Bool isResizingInMaskEditMode;
-@property(readonly, nonatomic) _Bool isRotatingInMaskEditMode;
 @property(readonly, nonatomic) int maskEditMode; // @synthesize maskEditMode=mMaskEditMode;
-@property(readonly, nonatomic) int maskEditModeForDragging;
-@property(readonly, nonatomic) int maskEditModeForLayoutState;
-@property(readonly, nonatomic) int maskEditModeForResizing;
-@property(readonly, nonatomic) int maskEditModeForRotating;
 
 @end
 

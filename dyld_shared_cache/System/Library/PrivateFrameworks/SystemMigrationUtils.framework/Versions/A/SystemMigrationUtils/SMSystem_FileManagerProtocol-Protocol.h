@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol SMSystem_FileManagerProtocol
+- (NSURL *);
+- (NSURL *);
 
 // Remaining properties
-@property(readonly) NSString *buildVersion;
 @property(readonly, getter=isFileSystemReady) _Bool fileSystemReady;
-@property(readonly) NSString *productVersion;
-@property(readonly) NSURL *slash;
-@property(readonly) NSURL *userContentRoot;
-@property(readonly) NSURL *userHomeRoot;
 @end
 

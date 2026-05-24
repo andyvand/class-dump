@@ -7,10 +7,6 @@
 @interface AppStoreKit.EditorialQuote
 {
     id text;
-    id attribution;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

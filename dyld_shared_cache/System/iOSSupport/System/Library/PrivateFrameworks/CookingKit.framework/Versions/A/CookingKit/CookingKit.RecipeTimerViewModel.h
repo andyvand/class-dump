@@ -8,10 +8,6 @@
 {
     id _recipeID;
     id _timer;
-    id _recipeName;
-    id _recipeTimerDuration;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

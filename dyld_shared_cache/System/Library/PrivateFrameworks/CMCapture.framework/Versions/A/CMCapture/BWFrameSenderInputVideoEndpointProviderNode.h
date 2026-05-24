@@ -6,21 +6,19 @@
 
 #import <CMCapture/BWNode.h>
 
-@class CMCaptureFrameSenderService, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWFrameSenderInputVideoEndpointProviderNode : BWNode
 {
     struct opaqueCMFormatDescription *_outputFormatDescription;
-    NSString *_captureDeviceUniqueID;
-    CMCaptureFrameSenderService *_frameSender;
 }
 
 + (void)Need at least 1 input;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ng %tu unique identifiers (%tu after de-duplication) for %{public}@:(id)arg1 %@;
 - (void);
 - (void);
 - (void);

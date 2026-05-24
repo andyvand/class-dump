@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MRPasscodeCredentials
 {
     unsigned int _type;
-    unsigned long long _characterCount;
-    NSString *_passcode;
 }
 
-+ (id);
++ (id)hx;
 - (void);
-- (id);
-- (void);
-- (unsigned int);
+- (id)$;
+- (void)ssociatedPassIdentifiers;
+- (unsigned int)_createArchiveOfDirectory(at:withOutputURL:archiveFilePermissions:) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)4;
 - (void)ateHostedEndpointRequest;
 
 // Remaining properties
-@property(nonatomic) unsigned long long characterCount; // @synthesize characterCount=_characterCount;
-@property(copy, nonatomic) NSString *passcode; // @synthesize passcode=_passcode;
 @property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDMultiUserSetupStatus;
+@class NSArray;
 
 @interface ODDSiriSchemaODDMultiUserState : SISchemaInstrumentationMessage
 {
     NSArray *_enrolledUsers;
-    ODDSiriSchemaODDMultiUserSetupStatus *_multiUserSetupStatus;
-    _Bool _hasMultiUserSetupStatus;
 }
 
 - (void);
@@ -28,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -42,9 +40,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *enrolledUsers; // @synthesize enrolledUsers=_enrolledUsers;
-@property(nonatomic) _Bool hasMultiUserSetupStatus; // @synthesize hasMultiUserSetupStatus=_hasMultiUserSetupStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDMultiUserSetupStatus *multiUserSetupStatus; // @synthesize multiUserSetupStatus=_multiUserSetupStatus;
 
 @end
 

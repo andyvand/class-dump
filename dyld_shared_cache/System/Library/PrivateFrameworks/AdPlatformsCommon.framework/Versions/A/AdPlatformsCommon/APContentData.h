@@ -4,43 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APInstallAttribution, NSArray, NSDate, NSDictionary, NSError, NSMutableSet, NSSet, NSString, NSURL, NSUUID;
+@class NSMutableSet, NSString;
 
 @interface APContentData
 {
     NSMutableSet *_representations;
-    _Bool _isLocationAvailableForAd;
-    _Bool _isPAAvailableForAd;
-    NSString *_identifier;
-    NSString *_uniqueIdentifier;
-    NSUUID *_contextIdentifier;
-    NSString *_journeyIdentifier;
-    NSString *_impressionId;
-    NSDictionary *_metadata;
-    NSURL *_disclosureURL;
-    NSString *_disclosureRendererPayload;
-    NSString *_targetingExpressionId;
-    unsigned long long _minimumTimeBetweenPresentation;
-    APInstallAttribution *_installAttribution;
-    NSString *_brandName;
-    NSString *_campaignText;
-    NSError *_error;
-    NSDate *_startDate;
-    NSDate *_expirationDate;
-    double _impressionThreshold;
-    double _impressionVisibilityThreshold;
-    long long _serverUnfilledReason;
-    double _serverResponseReceivedTimestamp;
-    NSDate *_receivedReferenceTime;
-    long long _diagnosticCode;
-    NSArray *_adServerEnvironment;
-    NSString *_humanReadableName;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)PK;
 - (id);
 - (void);
 - (void);
@@ -72,7 +46,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (double);
@@ -80,9 +54,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)computeDiffForModel:(id)arg1;
+- (void)_showFaceTimeVideoButtonForEntity:(id)arg1;
+- (id)_sendStickerForDragItem:previewSize:dropLocation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -95,13 +69,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)isioningContext"8Q16;
 - (id);
-- (void);
-- (id);
+- (void)_logAceObjectPresented:(id)arg1 dialogPhase: /* Error: Ran out of types for this method. */;
+- (id)[9;
 - (id);
 - (void);
 - (void);
@@ -109,34 +83,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *adServerEnvironment; // @synthesize adServerEnvironment=_adServerEnvironment;
-@property(retain) NSString *brandName; // @synthesize brandName=_brandName;
-@property(retain) NSString *campaignText; // @synthesize campaignText=_campaignText;
-@property(retain) NSUUID *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;
-@property(nonatomic) long long diagnosticCode; // @synthesize diagnosticCode=_diagnosticCode;
-@property(retain) NSString *disclosureRendererPayload; // @synthesize disclosureRendererPayload=_disclosureRendererPayload;
-@property(retain) NSURL *disclosureURL; // @synthesize disclosureURL=_disclosureURL;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain) NSString *humanReadableName; // @synthesize humanReadableName=_humanReadableName;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *impressionId; // @synthesize impressionId=_impressionId;
-@property double impressionThreshold; // @synthesize impressionThreshold=_impressionThreshold;
-@property double impressionVisibilityThreshold; // @synthesize impressionVisibilityThreshold=_impressionVisibilityThreshold;
-@property(retain) APInstallAttribution *installAttribution; // @synthesize installAttribution=_installAttribution;
-@property(nonatomic) _Bool isLocationAvailableForAd; // @synthesize isLocationAvailableForAd=_isLocationAvailableForAd;
-@property(nonatomic) _Bool isPAAvailableForAd; // @synthesize isPAAvailableForAd=_isPAAvailableForAd;
-@property(retain) NSString *journeyIdentifier; // @synthesize journeyIdentifier=_journeyIdentifier;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property unsigned long long minimumTimeBetweenPresentation; // @synthesize minimumTimeBetweenPresentation=_minimumTimeBetweenPresentation;
-@property(readonly) long long pricingModel;
-@property(retain, nonatomic) NSDate *receivedReferenceTime; // @synthesize receivedReferenceTime=_receivedReferenceTime;
-@property(retain) NSSet *representations; // @synthesize representations=_representations;
-@property(nonatomic) double serverResponseReceivedTimestamp; // @synthesize serverResponseReceivedTimestamp=_serverResponseReceivedTimestamp;
-@property long long serverUnfilledReason; // @synthesize serverUnfilledReason=_serverUnfilledReason;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain) NSString *targetingExpressionId; // @synthesize targetingExpressionId=_targetingExpressionId;
-@property(retain) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

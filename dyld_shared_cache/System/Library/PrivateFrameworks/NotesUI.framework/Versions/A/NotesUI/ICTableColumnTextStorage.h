@@ -6,19 +6,11 @@
 
 #import <NotesUI/ICTableTextStorage.h>
 
-@class ICTable, NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSString, NSUUID;
-@protocol ICTableUndoHelping;
+@class ICTable;
 
 @interface ICTableColumnTextStorage : ICTableTextStorage
 {
     _Bool _shouldPreventUndoCommands;
-    NSUUID *_columnID;
-    id <ICTableUndoHelping> _undoHelper;
-    ICTable *_table;
-    NSMutableArray *_rows;
-    NSMutableDictionary *_mergeableStringDelegates;
-    NSMutableIndexSet *_rowStartIndexes;
-    unsigned long long _preventEditingUpdatesCount;
 }
 
 - (_Bool);
@@ -43,18 +35,18 @@
 - (struct _NSRange);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (struct _NSRange);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -62,27 +54,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)attachmentBrickZoomFactor;
 - (id)y{ 8yM88y*N8GGS8yAF#M8GGG;
 
 // Remaining properties
-@property(readonly) NSUUID *columnID; // @synthesize columnID=_columnID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *mergeableStringDelegates; // @synthesize mergeableStringDelegates=_mergeableStringDelegates;
-@property(readonly, nonatomic) NSArray *populatedRows;
-@property(readonly, nonatomic) _Bool preventEditingUpdates;
-@property(nonatomic) unsigned long long preventEditingUpdatesCount; // @synthesize preventEditingUpdatesCount=_preventEditingUpdatesCount;
-@property(readonly, nonatomic) NSMutableIndexSet *rowStartIndexes; // @synthesize rowStartIndexes=_rowStartIndexes;
-@property(readonly, nonatomic) NSMutableArray *rows; // @synthesize rows=_rows;
-@property(nonatomic) _Bool shouldPreventUndoCommands; // @synthesize shouldPreventUndoCommands=_shouldPreventUndoCommands;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak ICTable *table; // @synthesize table=_table;
-@property(nonatomic) __weak id <ICTableUndoHelping> undoHelper; // @synthesize undoHelper=_undoHelper;
 
 @end
 

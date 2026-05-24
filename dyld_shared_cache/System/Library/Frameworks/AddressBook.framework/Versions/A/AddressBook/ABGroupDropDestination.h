@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, ABRecordContext;
+@class ABAddressBook;
 
 @interface ABGroupDropDestination
 {
     ABAddressBook *_addressBook;
-    ABAccount *_account;
-    ABRecordContext *_recordContext;
-    ABGroup *_group;
-    _Bool _acceptsOnlySearchResults;
 }
 
 - (id);
@@ -25,10 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) ABAccount *account; // @synthesize account=_account;
 @property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly) ABGroup *group; // @synthesize group=_group;
-@property(readonly) ABRecordContext *recordContext; // @synthesize recordContext=_recordContext;
 
 @end
 

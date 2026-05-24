@@ -10,9 +10,9 @@
 
 + (id);
 + (void);
-+ (void);
++ (void)7;
 + (unsigned long long);
-+ (id);
++ (id);
 + (id);
 
 @end

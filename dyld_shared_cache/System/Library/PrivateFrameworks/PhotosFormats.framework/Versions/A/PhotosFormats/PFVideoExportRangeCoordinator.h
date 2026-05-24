@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PFVideoExportRangeCoordinator
 {
     _Bool _cancelled;
-    NSMutableArray *_waitingCallers;
-    NSObject<OS_dispatch_queue> *_rangeCoordinatorStateQueue;
-    struct _NSRange _availableRange;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)zR;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)CKDAcceptSharesURLRequest;
 - (void);
 - (void);
-- (void);
+- (void)presentViewControllerAsPictureInPicture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property struct _NSRange availableRange; // @synthesize availableRange=_availableRange;
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain) NSObject<OS_dispatch_queue> *rangeCoordinatorStateQueue; // @synthesize rangeCoordinatorStateQueue=_rangeCoordinatorStateQueue;
-@property(retain) NSMutableArray *waitingCallers; // @synthesize waitingCallers=_waitingCallers;
 
 @end
 

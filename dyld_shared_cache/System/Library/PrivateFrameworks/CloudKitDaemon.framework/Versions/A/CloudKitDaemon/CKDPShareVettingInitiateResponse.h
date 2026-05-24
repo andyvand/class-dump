@@ -7,9 +7,6 @@
 @interface CKDPShareVettingInitiateResponse
 {
     int _vettingError;
-    struct {
-        unsigned int vettingError:1;
-    } _has;
 }
 
 - (id);
@@ -30,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasVettingError;
-@property(nonatomic) int vettingError; // @synthesize vettingError=_vettingError;
 
 @end
 

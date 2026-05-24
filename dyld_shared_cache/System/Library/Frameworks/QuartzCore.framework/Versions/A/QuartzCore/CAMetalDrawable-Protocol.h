@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer;
 @protocol MTLTexture;
 
 @protocol CAMetalDrawable
@@ -14,7 +13,6 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CAMetalLayer *layer;
 @property(readonly) id <MTLTexture> texture;
 @end
 

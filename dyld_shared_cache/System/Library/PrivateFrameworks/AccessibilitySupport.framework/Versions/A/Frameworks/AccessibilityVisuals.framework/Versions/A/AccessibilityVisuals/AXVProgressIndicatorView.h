@@ -6,44 +6,32 @@
 
 #import <AccessibilityVisuals/AXVHighlightView.h>
 
-@class CABackdropLayer, CAShapeLayer, NSColor, NSNumber;
-
 @interface AXVProgressIndicatorView : AXVHighlightView
 {
     _Bool _showCenterDot;
-    _Bool _showTrackLayer;
-    _Bool _showProgressLayer;
-    long long _displayStyle;
-    long long _quadrant;
-    NSColor *_primaryColor;
-    CAShapeLayer *__progressLayer;
-    CABackdropLayer *__trackLayer;
-    CAShapeLayer *__trackLayerMask;
-    CAShapeLayer *__dotLayer;
-    NSNumber *__cornerRadiusNum;
 }
 
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)<;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)A;
+- (void)q`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
@@ -53,7 +41,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGPath *);
@@ -63,24 +51,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)qA;
+- (void)h;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *_cornerRadiusNum; // @synthesize _cornerRadiusNum=__cornerRadiusNum;
-@property(nonatomic) __weak CAShapeLayer *_dotLayer; // @synthesize _dotLayer=__dotLayer;
-@property(nonatomic) __weak CAShapeLayer *_progressLayer; // @synthesize _progressLayer=__progressLayer;
-@property(nonatomic) __weak CABackdropLayer *_trackLayer; // @synthesize _trackLayer=__trackLayer;
-@property(nonatomic) __weak CAShapeLayer *_trackLayerMask; // @synthesize _trackLayerMask=__trackLayerMask;
 @property(nonatomic) long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(retain, nonatomic) NSColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(nonatomic) long long quadrant; // @synthesize quadrant=_quadrant;
-@property(nonatomic) _Bool showCenterDot; // @synthesize showCenterDot=_showCenterDot;
-@property(nonatomic) _Bool showProgressLayer; // @synthesize showProgressLayer=_showProgressLayer;
-@property(nonatomic) _Bool showTrackLayer; // @synthesize showTrackLayer=_showTrackLayer;
 
 @end
 

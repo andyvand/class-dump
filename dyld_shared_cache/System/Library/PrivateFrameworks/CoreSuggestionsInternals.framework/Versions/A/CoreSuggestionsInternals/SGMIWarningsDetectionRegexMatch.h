@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGMIWarningsDetectionRegexMatch
 {
     NSString *_signature;
-    NSArray *_wildcardsMatches;
-    struct _NSRange _range;
-    struct _NSRange _coreRange;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (void)¼¨«D®à®¨±;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange coreRange; // @synthesize coreRange=_coreRange;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) NSString *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) NSArray *wildcardsMatches; // @synthesize wildcardsMatches=_wildcardsMatches;
 
 @end
 

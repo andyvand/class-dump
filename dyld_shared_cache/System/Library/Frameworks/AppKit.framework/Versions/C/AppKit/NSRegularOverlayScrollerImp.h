@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)URLForDirectory:inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)ateAssetDownloadTask in a non-background session;
 - (double);
 - (unsigned long long);
 

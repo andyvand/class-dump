@@ -4,21 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, TRITaskRunResult;
+@class NSArray, NSString, TRIServerContext, TRITaskRunResult;
 @protocol TRITaskQueueStateProviding;
 
 @protocol TRITask
+- (id <TRITaskQueueStateProviding>)iIq}}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)utPixelBufferAdaptor";
+- (NSString *)ssing profile %{public}@ with version %{public}d and identity %{public}@;
+- (NSArray *);
+- (void)Node initWithImageSize:(TRIServerContext *)arg1 tileSize:borderSize:pixelFormat:colorSpace:headroom:input:] /* Error: Ran out of types for this method. */;
+- (void)c;
 - (NSArray *)ÜH;
 - (unsigned long long)the global path %{public}@;
-- (int)rExistingFactorPackSet;
+- (int)RolloutRecordNotFoundForExistingFactorPackSet;
 - (TRITaskRunResult *)names.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
 @property(readonly, nonatomic) int taskType;
 @end
 

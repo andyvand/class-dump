@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (void)Lùÿpùÿùÿ¸ùÿôùÿùÿTùÿxùÿ´ùÿ;
-- (id)ions;
+- (id)feedbackConnections;
 - (id)ÿ;
 - (id)K/¾!2L`;
 

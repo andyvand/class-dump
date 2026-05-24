@@ -4,72 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSDictionary, NSObject, NSString, TSDCanvas, TSDInteractiveCanvasController, TSDKnobTracker, TSDLayout, TSDLayoutGeometry, TSDTextureContext, TSDTextureSet, TSDTilingBackgroundQueue;
-@protocol OS_dispatch_queue, TSDContainerRep;
+@class TSDCanvas, TSDLayout;
 
 @interface TSDRep
 {
     TSDCanvas *mCanvas;
-    TSDRep<TSDContainerRep> *mParentRep;
-    NSArray *mKnobs;
-    _Bool mKnobPositionsInvalid;
-    _Bool mShowKnobsWhenManipulated;
-    _Bool mKnobsAreShowing;
-    TSDKnobTracker *mKnobTracker;
-    _Bool mSelectionHighlightLayerValid;
-    CALayer *mSelectionHighlightLayer;
-    unsigned long long mTextureDeliveryStyle;
-    int mTextureByGlyphStyle;
-    TSDTextureContext *mTextureContext;
-    unsigned long long mTextureStage;
-    _Bool mForceRasterization;
-    NSDictionary *mTextureActionAttributes;
-    NSDictionary *mTextureAnimationInfo;
-    _Bool mShowTemporaryHighlight;
-    CALayer *mTemporaryHighlightLayer;
-    _Bool mShowDragAndDropHighlight;
-    CALayer *mDragAndDropHighlightLayer;
-    unsigned long long mLayerUpdatesPausedCount;
-    TSDLayout *mTemporaryMixingLayout;
-    TSDLayout *mLayout;
-    TSDTextureSet *mTexture;
-    struct CGColor *mDefaultSelectionHighlightColor;
-    TSDLayoutGeometry *mLastGeometryInRoot;
-    struct CGRect mOriginalLayerFrameInScaledCanvas;
-    TSDTilingBackgroundQueue *mTileQueue;
-    long long mTileQueueOnce;
-    long long mTileProviderQueueLock;
-    NSObject<OS_dispatch_queue> *mTileProviderQueue;
-    _Bool mHasBeenRemoved;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) TSDCanvas *canvas; // @synthesize canvas=mCanvas;
-@property(nonatomic) TSDKnobTracker *currentKnobTracker; // @synthesize currentKnobTracker=mKnobTracker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool forceRasterization; // @synthesize forceRasterization=mForceRasterization;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *hyperlinkRegions;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) _Bool isEditingPath;
-@property(readonly, nonatomic) NSArray *knobs;
 @property(readonly, nonatomic) TSDLayout *layout; // @synthesize layout=mLayout;
-@property(nonatomic) TSDRep<TSDContainerRep> *parentRep; // @synthesize parentRep=mParentRep;
-@property(nonatomic) struct CGColor *selectionHighlightColor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSDLayout *temporaryMixingLayout; // @synthesize temporaryMixingLayout=mTemporaryMixingLayout;
-@property(retain, nonatomic) TSDTextureSet *texture; // @synthesize texture=mTexture;
-@property(retain, nonatomic) NSDictionary *textureActionAttributes; // @synthesize textureActionAttributes=mTextureActionAttributes;
-@property(readonly, nonatomic) double textureAngle;
-@property(retain, nonatomic) NSDictionary *textureAnimationInfo; // @synthesize textureAnimationInfo=mTextureAnimationInfo;
-@property(nonatomic) int textureByGlyphStyle; // @synthesize textureByGlyphStyle=mTextureByGlyphStyle;
-@property(copy, nonatomic) TSDTextureContext *textureContext; // @synthesize textureContext=mTextureContext;
-@property(nonatomic) unsigned long long textureDeliveryStyle; // @synthesize textureDeliveryStyle=mTextureDeliveryStyle;
-@property(nonatomic) unsigned long long textureStage; // @synthesize textureStage=mTextureStage;
 @end
 

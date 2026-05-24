@@ -7,8 +7,6 @@
 @interface BlastDoor._XPCDecoder__priv_7651D79394B76CF1E621D2253EB3CC23
 {
     id options;
-    id codingPath;
-    id container;
 }
 
 @end

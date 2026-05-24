@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MPMediaLibraryArtworkDataSourceCacheKey
 {
     id _catalogIdentifier;
-    struct CGSize _representationSize;
 }
 
 - (void);
@@ -16,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
-- (unsigned long long);
-- (_Bool);
-- (void)ountOfCollectionsForQueryCriteria: /* Error: Ran out of types for this method. */;
+- (unsigned long long){?="isMe"b1"isSignificant"b1};
+- (_Bool)W,;
+- (void)_countOfCollectionsForQueryCriteria: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) id catalogIdentifier; // @synthesize catalogIdentifier=_catalogIdentifier;
-@property(nonatomic) struct CGSize representationSize; // @synthesize representationSize=_representationSize;
 
 @end
 

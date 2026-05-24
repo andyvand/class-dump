@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCInterface, Protocol;
-@protocol OS_dispatch_queue;
+@class Protocol;
 
 @interface CKVXPCServiceBridge
 {
     Protocol *_serviceProtocol;
-    NSXPCInterface *_serviceInterface;
-    NSString *_machServiceName;
-    unsigned long long _options;
-    NSXPCConnection *_serviceConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _remoteObjectProxy;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)erated passwords limit of %@ minutes;
 - (void);
 - (id);
 - (void);

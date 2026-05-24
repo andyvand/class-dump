@@ -7,11 +7,6 @@
 @interface NewsUI2.TagHighlightsService
 {
     id headlineService;
-    id tagService;
-    id sportsEventController;
-    id subscriptionsController;
-    id sportsHeadlinesSorter;
-    id cloudContext;
 }
 
 @end

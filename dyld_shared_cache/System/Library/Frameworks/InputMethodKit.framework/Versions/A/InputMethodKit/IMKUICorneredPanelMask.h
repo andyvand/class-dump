@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (struct NSEdgeInsets);
-- (double);
+- (double)totalVideoFrameIncompleteNextTSRate;
 - (void);
 
 // Remaining properties

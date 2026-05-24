@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, OSActivityStream;
+@class OSActivityStream;
 @protocol MXMProbeableDevice;
 
 @interface MXMOSLogDeviceStore_Internal
 {
     OSActivityStream *_stream;
-    id <MXMProbeableDevice> _hostDevice;
-    NSMutableDictionary *_devices;
 }
 
 + (id);
@@ -19,18 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *devices; // @synthesize devices=_devices;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <MXMProbeableDevice> hostDevice; // @synthesize hostDevice=_hostDevice;
-@property(readonly) Class superclass;
 
 @end
 

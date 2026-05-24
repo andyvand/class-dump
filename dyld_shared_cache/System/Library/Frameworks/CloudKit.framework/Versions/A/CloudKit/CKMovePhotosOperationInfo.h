@@ -11,12 +11,11 @@
 @interface CKMovePhotosOperationInfo : CKModifyRecordsOperationInfo
 {
     NSArray *_moveChanges;
-    long long _sourceDatabaseScope;
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id));
+- (void)S);
 - (void);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *moveChanges; // @synthesize moveChanges=_moveChanges;
-@property(nonatomic) long long sourceDatabaseScope; // @synthesize sourceDatabaseScope=_sourceDatabaseScope;
 
 @end
 

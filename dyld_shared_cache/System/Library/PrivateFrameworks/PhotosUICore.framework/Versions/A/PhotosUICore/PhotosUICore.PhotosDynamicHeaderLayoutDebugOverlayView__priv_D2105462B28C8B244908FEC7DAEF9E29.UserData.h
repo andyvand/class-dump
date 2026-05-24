@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)fetchUpNextMemoriesWithError:(void *)arg1 sharingFilter: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

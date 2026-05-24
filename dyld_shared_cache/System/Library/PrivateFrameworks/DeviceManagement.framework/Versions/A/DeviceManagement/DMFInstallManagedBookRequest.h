@@ -6,26 +6,19 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface DMFInstallManagedBookRequest : DMFTaskRequest
 {
     NSString *_originator;
-    NSNumber *_iTunesStoreID;
-    NSString *_persistentID;
-    NSString *_author;
-    NSString *_title;
-    NSString *_version;
-    NSURL *_URL;
-    unsigned long long _type;
 }
 
 + (Class);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
-- (void);
++ (id);
+- (void)6+;
 - (void);
 - (id);
 - (id);
@@ -40,20 +33,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ge",R,N,V_image;
 - (id)moteTaskOperation";
 - (id).;
-- (void)ight;
+- (void)maxHeight;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(copy, nonatomic) NSNumber *iTunesStoreID; // @synthesize iTunesStoreID=_iTunesStoreID;
 @property(copy, nonatomic) NSString *originator; // @synthesize originator=_originator;
-@property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

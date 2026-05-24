@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TRIXPCInternalServiceProtocol
+- (void);
+- (void);
+- (void)@9?;
+- (void)handleInvalidSetupCodeAndRestart:(NSString *)arg1;
+- (void)isValidJSONObject:(void (^)(_Bool, NSError *))arg1;
+- (void)`b;
+- (void);
 @end
 

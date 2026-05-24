@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VN6Mb1ME89lyW3HpahkEygIG : VNImageBasedRequest
 {
 }
@@ -15,7 +13,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)868;
 - (_Bool)äP½z§T	;
 - (id)TN
 ;
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property unsigned long long imageCropAndScaleOption;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

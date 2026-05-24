@@ -6,36 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRPackage, NSData, NSString;
+@class ASRSchemaASRPackage;
 
 @interface ASRSchemaASRPackageGenerated : SISchemaInstrumentationMessage
 {
     ASRSchemaASRPackage *_package;
-    _Bool _isFinal;
-    NSString *_resultCandidateId;
-    NSString *_loggableSharedUserId;
-    NSString *_modelVersion;
-    NSString *_acousticModelVersion;
-    _Bool _hasVoiceCommandInExhaustiveParses;
-    _Bool _hasVoiceCommandParses;
-    _Bool _hasVoiceCommandEditIntent;
-    _Bool _hasVoiceCommandAfterReranking;
-    _Bool _hasNoVoiceCommandAfterRespeakCheck;
-    NSString *_loggableUserIdHash;
-    struct {
-        unsigned int isFinal:1;
-        unsigned int hasVoiceCommandInExhaustiveParses:1;
-        unsigned int hasVoiceCommandParses:1;
-        unsigned int hasVoiceCommandEditIntent:1;
-        unsigned int hasVoiceCommandAfterReranking:1;
-        unsigned int hasNoVoiceCommandAfterRespeakCheck:1;
-    } _has;
-    _Bool _hasPackage;
-    _Bool _hasResultCandidateId;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasModelVersion;
-    _Bool _hasAcousticModelVersion;
-    _Bool _hasLoggableUserIdHash;
 }
 
 - (void);
@@ -55,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -92,17 +67,17 @@
 - (void);
 - (id);
 - (id);
+- (void)iptor:(id)arg1 %{public}@;
+- (id);
+- (_Bool)ieldText:drivingSide:maneuverStepIndex:isSynthetic: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)meSinceAppContactLastLaunchedInSec;
+- (id)timeSinceAppContactLastLaunchedInSec;
 - (id)L+;
 - (id)lÚ2ÿ;
 - (void)!;
@@ -111,31 +86,7 @@
 - (id)4cjÿä0µ¸,;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *acousticModelVersion; // @synthesize acousticModelVersion=_acousticModelVersion;
-@property(nonatomic) _Bool hasAcousticModelVersion; // @synthesize hasAcousticModelVersion=_hasAcousticModelVersion;
-@property(nonatomic) _Bool hasHasNoVoiceCommandAfterRespeakCheck;
-@property(nonatomic) _Bool hasHasVoiceCommandAfterReranking;
-@property(nonatomic) _Bool hasHasVoiceCommandEditIntent;
-@property(nonatomic) _Bool hasHasVoiceCommandInExhaustiveParses;
-@property(nonatomic) _Bool hasHasVoiceCommandParses;
-@property(nonatomic) _Bool hasIsFinal;
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasLoggableUserIdHash; // @synthesize hasLoggableUserIdHash=_hasLoggableUserIdHash;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasNoVoiceCommandAfterRespeakCheck; // @synthesize hasNoVoiceCommandAfterRespeakCheck=_hasNoVoiceCommandAfterRespeakCheck;
-@property(nonatomic) _Bool hasPackage; // @synthesize hasPackage=_hasPackage;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasVoiceCommandAfterReranking; // @synthesize hasVoiceCommandAfterReranking=_hasVoiceCommandAfterReranking;
-@property(nonatomic) _Bool hasVoiceCommandEditIntent; // @synthesize hasVoiceCommandEditIntent=_hasVoiceCommandEditIntent;
-@property(nonatomic) _Bool hasVoiceCommandInExhaustiveParses; // @synthesize hasVoiceCommandInExhaustiveParses=_hasVoiceCommandInExhaustiveParses;
-@property(nonatomic) _Bool hasVoiceCommandParses; // @synthesize hasVoiceCommandParses=_hasVoiceCommandParses;
-@property(nonatomic) _Bool isFinal; // @synthesize isFinal=_isFinal;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 @property(retain, nonatomic) ASRSchemaASRPackage *package; // @synthesize package=_package;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

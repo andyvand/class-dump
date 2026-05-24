@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface ASFIAPItem
 {
     id _storage;
 }
 
+- (id)qA;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)kMDItemTopic_TermFrequencies_Sum_Word;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDate *originalPurchaseDate;
-@property(nonatomic, readonly) NSString *originalTransactionID;
-@property(nonatomic, readonly) NSString *productID;
-@property(nonatomic, readonly) NSDate *purchaseDate;
-@property(nonatomic, readonly) NSNumber *quantity;
-@property(nonatomic, readonly) NSString *transactionID;
 
 @end
 

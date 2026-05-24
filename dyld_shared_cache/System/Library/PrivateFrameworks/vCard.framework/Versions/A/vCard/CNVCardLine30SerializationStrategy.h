@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)2i*;
 - (void);
 
 @end

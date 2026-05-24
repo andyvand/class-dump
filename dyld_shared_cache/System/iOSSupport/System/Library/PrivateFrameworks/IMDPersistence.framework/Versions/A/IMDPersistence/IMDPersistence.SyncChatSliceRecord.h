@@ -7,10 +7,6 @@
 @interface IMDPersistence.SyncChatSliceRecord
 {
     id _serviceName;
-    id _ckRecordID;
-    id _chat;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

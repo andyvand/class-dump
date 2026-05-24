@@ -8,8 +8,6 @@
 {
     id _player;
     id _shouldOverrideWithSnapshots;
-    id _overrideVisibility;
-    id _$observationRegistrar;
 }
 
 @end

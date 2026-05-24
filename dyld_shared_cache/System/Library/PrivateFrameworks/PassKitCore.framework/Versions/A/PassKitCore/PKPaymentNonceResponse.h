@@ -13,8 +13,8 @@
     NSData *_nonceData;
 }
 
-- (void);
-- (id);
+- (void)q ;
+- (id);
 - (id);
 - (void)tion;
 

@@ -6,22 +6,13 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
-@protocol CKModifyRecordAccessOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDModifyRecordAccessOperation : CKDDatabaseOperation
 {
     int _numSaveAttempts;
-    CDUnknownBlockType _accessWasGrantedBlock;
-    CDUnknownBlockType _accessWasRevokedBlock;
-    NSArray *_recordIDsToGrant;
-    NSArray *_recordIDsToRevoke;
-    NSMutableSet *_fetchedRecordIDs;
-    NSMutableDictionary *_recordsToSaveByID;
 }
 
-+ (long long);
-+ (id);
++ (long long);
++ (id)setRxUcastFrames:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -33,31 +24,23 @@
 - (void);
 - (void);
 - (void);
-- (struct _PCSIdentityData *);
+- (struct _PCSIdentityData *)�H;
 - (int);
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)P;
 - (id);
 - (void);
+- (id)romLastRoamCacheToTDConfirmed;
+- (void)ices received request for watchdog for guid:(id)arg1 %@;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)e;
+- (void)scheme;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType accessWasGrantedBlock; // @synthesize accessWasGrantedBlock=_accessWasGrantedBlock;
-@property(copy, nonatomic) CDUnknownBlockType accessWasRevokedBlock; // @synthesize accessWasRevokedBlock=_accessWasRevokedBlock;
-@property(retain, nonatomic) id <CKModifyRecordAccessOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableSet *fetchedRecordIDs; // @synthesize fetchedRecordIDs=_fetchedRecordIDs;
-@property(nonatomic) int numSaveAttempts; // @synthesize numSaveAttempts=_numSaveAttempts;
-@property(retain, nonatomic) NSArray *recordIDsToGrant; // @synthesize recordIDsToGrant=_recordIDsToGrant;
-@property(retain, nonatomic) NSArray *recordIDsToRevoke; // @synthesize recordIDsToRevoke=_recordIDsToRevoke;
-@property(retain, nonatomic) NSMutableDictionary *recordsToSaveByID; // @synthesize recordsToSaveByID=_recordsToSaveByID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

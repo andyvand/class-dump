@@ -7,14 +7,12 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBDeleteEventIntent
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void);
+- (_INPBIntentMetadata *)ivate/var/spool/fax;
+- (_Bool)addPayloadLocationList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool deleteAllOccurrences;
-@property(nonatomic) _Bool hasDeleteAllOccurrences;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetEventIdentifier;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSString *targetEventIdentifier;
 @end
 

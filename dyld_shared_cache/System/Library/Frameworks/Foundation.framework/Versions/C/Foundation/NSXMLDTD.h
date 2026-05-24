@@ -6,26 +6,17 @@
 
 #import <Foundation/NSXMLNode.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface NSXMLDTD : NSXMLNode
 {
     NSString *_name;
-    NSString *_publicID;
-    NSString *_systemID;
-    NSArray *_children;
-    NSMutableDictionary *_entities;
-    NSMutableDictionary *_elements;
-    NSMutableDictionary *_notations;
-    NSMutableDictionary *_attributes;
-    NSString *_original;
-    _Bool _modified;
 }
 
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,7 +40,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
@@ -58,10 +49,10 @@
 - (id);
 - (void);
 - (id);
+- (id)"$;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)enderEventNode *, 248UL>="padding"[248C]"value"^{AURenderEventNode}}}"mHavePendingSetParameter"{atomic<bool>="__a_"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>="__a_value"AB}}"mScheduleHead"^(AURenderEvent)"mOwningAU"^v"mRenderBlock"@?"mPreviousRenderTime"{PreviousRenderTime="mSampleRate"d"mLastRender"{atomic<PreviousRenderTime::Snapshot>="__a_"{__cxx_atomic_impl<PreviousRenderTime::Snapshot, std::__cxx_atomic_base_impl<PreviousRenderTime::Snapshot>>="__a_value"A{Snapshot}}}}}"auv2GetParameterSynchronizer"{AUv2GetParameterSynchronizer="mSeqNums"{atomic<AUv2GetParameterSynchronizer::SeqNumPair>="__a_"{__cxx_atomic_impl<AUv2GetParameterSynchronizer::SeqNumPair, std::__cxx_atomic_base_impl<AUv2GetParameterSynchronizer::SeqNumPair>>="__a_value"A{SeqNumPair}}}"mSyncGetParamSema"{semaphore="mImpl"{semaphore="mMachSem"I"mOwned"B}"mCounter"{atomic<int>="__a_"{__cxx_atomic_impl<int, std::__cxx_atomic_base_impl<int>>="__a_value"Ai}}"mOriginalCounter"i}}"contextChangeGenerator"{optional<RenderContextChangeGenerator>=""(?="__null_state_"c"__val_"{RenderContextChangeGenerator="mLastWorkgroup"^v"mObserver"@?})"__engaged_"B}"renderBlockType"i"cachedMIDIProtocol"i} /* Error: Ran out of types for this method. */;
+- (id));
 - (id);
 - (unsigned long long);
 - (void)                	 
@@ -70,7 +61,6 @@
 
 // Remaining properties
 @property(copy) NSString *publicID;
-@property(copy) NSString *systemID;
 
 @end
 

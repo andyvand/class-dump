@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAudioCodecBitDepthWrapper, HAPAudioCodecSampleRateWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPAudioStreamTier
 {
     HAPTLVUnsignedNumberValue *_identifier;
-    HAPTLVUnsignedNumberValue *_targetAverageBitrate;
-    HAPAudioCodecSampleRateWrapper *_sampleRate;
-    HAPAudioCodecBitDepthWrapper *_bitDepth;
-    HAPTLVUnsignedNumberValue *_packetTime;
-    HAPTLVUnsignedNumberValue *_numberOfChannels;
 }
 
 + (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)T;
 - (id);
+- (id)D;
+- (id);
+- (id);
+- (_Bool)V_maxFileSize;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (id)";
 - (id);
 - (id);
-- (id);
-- (void)ic:type: /* Error: Ran out of types for this method. */;
+- (void)writeValue:forCharacteristic:type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HAPAudioCodecBitDepthWrapper *bitDepth; // @synthesize bitDepth=_bitDepth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *numberOfChannels; // @synthesize numberOfChannels=_numberOfChannels;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *packetTime; // @synthesize packetTime=_packetTime;
-@property(retain, nonatomic) HAPAudioCodecSampleRateWrapper *sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *targetAverageBitrate; // @synthesize targetAverageBitrate=_targetAverageBitrate;
 
 @end
 

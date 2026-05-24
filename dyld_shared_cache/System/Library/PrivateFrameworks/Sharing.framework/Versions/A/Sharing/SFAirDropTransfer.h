@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSProgress, NSString, NSURL, SFAirDropAction, SFAirDropTransferMetaData;
+@class NSURL, SFAirDropAction;
 
 @interface SFAirDropTransfer
 {
     SFAirDropAction *_cancelAction;
-    _Bool _usedByTransferManager;
-    _Bool _willOpenInMRQL;
-    NSString *_identifier;
-    SFAirDropTransferMetaData *_metaData;
-    NSError *_error;
-    NSProgress *_transferProgress;
-    NSString *_contentsTitle;
-    NSString *_contentsDescription;
-    SFAirDropAction *_selectedAction;
-    NSArray *_possibleActions;
-    NSArray *_completedURLs;
-    NSArray *_sensitiveURLs;
-    unsigned long long _userResponse;
-    unsigned long long _transferState;
-    unsigned long long _failureReason;
-    NSURL *_customDestinationURL;
-    id _progressToken;
 }
 
 + (id);
@@ -47,15 +30,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -71,10 +54,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id)6;
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -86,26 +69,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFAirDropAction *cancelAction; // @synthesize cancelAction=_cancelAction;
-@property(copy, nonatomic) NSArray *completedURLs; // @synthesize completedURLs=_completedURLs;
-@property(copy, nonatomic) NSString *contentsDescription; // @synthesize contentsDescription=_contentsDescription;
-@property(copy, nonatomic) NSString *contentsTitle; // @synthesize contentsTitle=_contentsTitle;
 @property(copy, nonatomic) NSURL *customDestinationURL; // @synthesize customDestinationURL=_customDestinationURL;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long failureReason; // @synthesize failureReason=_failureReason;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isJustFiles;
-@property(readonly, nonatomic) unsigned long long itemCount;
-@property(retain, nonatomic) SFAirDropTransferMetaData *metaData; // @synthesize metaData=_metaData;
-@property(readonly, nonatomic) _Bool needsAction;
-@property(retain, nonatomic) NSArray *possibleActions; // @synthesize possibleActions=_possibleActions;
-@property(retain, nonatomic) id progressToken; // @synthesize progressToken=_progressToken;
-@property(retain, nonatomic) SFAirDropAction *selectedAction; // @synthesize selectedAction=_selectedAction;
-@property(readonly, copy, nonatomic) NSArray *sensitiveURLs; // @synthesize sensitiveURLs=_sensitiveURLs;
-@property(retain, nonatomic) NSProgress *transferProgress; // @synthesize transferProgress=_transferProgress;
-@property(nonatomic) unsigned long long transferState; // @synthesize transferState=_transferState;
-@property(nonatomic) unsigned long long userResponse; // @synthesize userResponse=_userResponse;
-@property(nonatomic) _Bool willOpenInMRQL; // @synthesize willOpenInMRQL=_willOpenInMRQL;
 
 @end
 

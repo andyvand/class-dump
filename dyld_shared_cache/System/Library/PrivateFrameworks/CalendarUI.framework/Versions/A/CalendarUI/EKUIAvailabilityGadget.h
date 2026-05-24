@@ -11,17 +11,16 @@
 @interface EKUIAvailabilityGadget : EKUILabeledGadget
 {
     _Bool _showWorkingElsewhere;
-    EKUIPopUpButton *_availabilityPicker;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)b;
+- (void);
 - (id);
 - (unsigned long long);
 - (double);
@@ -42,7 +41,6 @@
 
 // Remaining properties
 @property(retain) EKUIPopUpButton *availabilityPicker; // @synthesize availabilityPicker=_availabilityPicker;
-@property _Bool showWorkingElsewhere; // @synthesize showWorkingElsewhere=_showWorkingElsewhere;
 
 @end
 

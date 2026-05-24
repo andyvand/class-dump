@@ -6,49 +6,28 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class HMDCameraClipManager, HMDCameraClipUserNotificationCenter, HMDCameraProfileSettingsManager, HMDCameraRecordingManager, HMDCameraRecordingReachabilityEventManager, HMDCameraSnapshotManager, HMDCameraStreamSnapshotHandler, HMDHAPAccessory, HMDHome, HMDPredicateUtilities, HMDService, HMFNetMonitor, HMFTimer, NSDictionary, NSMutableArray, NSNotificationCenter, NSSet, NSString, NSUUID, _HMCameraUserSettings;
-@protocol HMDCameraProfileSwiftExtensions, HMDFeaturesDataSource;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfile : HMDAccessoryProfile
 {
     _Bool _microphonePresent;
-    _Bool _speakerPresent;
-    HMDCameraClipManager *_clipManager;
-    HMDService *_recordingManagementService;
-    HMDHAPAccessory *_hapAccessory;
-    id <HMDCameraProfileSwiftExtensions> _swiftExtensions;
-    NSSet *_cameraStreamManagers;
-    HMDCameraSnapshotManager *_snapshotManager;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    NSMutableArray *_settingProactiveReaders;
-    HMFNetMonitor *_networkMonitor;
-    HMDCameraProfileSettingsManager *_cameraSettingsManager;
-    HMDCameraRecordingReachabilityEventManager *_reachabilityEventManager;
-    HMDCameraClipUserNotificationCenter *_clipUserNotificationCenter;
-    NSNotificationCenter *_notificationCenter;
-    HMFTimer *_recordingEventsCleanupTimer;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMDPredicateUtilities *_predicateUtilities;
-    HMDCameraRecordingManager *_cameraRecordingManager;
-    CDUnknownBlockType _recordingEventsCleanupTimerFactory;
-    CDUnknownBlockType _recordingManagerFactory;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)childHighlightNodeOfGroupHighlightNode:(id)arg1 withLocalIdentifier:(id)arg2;
 + (id);
 + (_Bool)ÄmÁ;
 + (id);
-- (void);
+- (void)_editCoalescingContexts;
+- (id)_alternateArtwork;
+- (id)hasFloorOrdinal;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)}@;
+- (void)e:(CDUnknownBlockType)arg1 %{private}@;
+- (void)%@ - LogDiscard for trigger %@;
+- (void)int:(id)arg1 %lu, reached %@, location %@, eta %@, (coords %@pt, routingPathLegs %@), traffic colors %@, muted %@, resumed %@;
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
@@ -56,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)b0;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -83,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -94,16 +73,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ghtTailorHighlightInfo"16;
+- (id)setDeniedSuggestions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)tring);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)yResolutionTextClient.resolveEntitiesSync
+took %f secs and returned GDEntityResolutionResult:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -111,10 +91,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)Aã°!ÌBùð1Â0@ù
 × ;
-- (id)meManager:context: /* Error: Ran out of types for this method. */;
+- (id)_homeManagerHomeWithModelID:homeManager:context: /* Error: Ran out of types for this method. */;
 - (id)unterThresholdTTRTrigger",R,N,V_cloudKitExportCountTTRTrigger;
 - (id){public}@[%{public}@] Successfully removed %lu persons;
-- (void)nimum;
+- (void)valueLowerThanMinimum;
 - (void);
 - (void);
 - (id)úÓ ý=;
@@ -123,42 +103,7 @@ __attribute__((visibility("hidden")))
 - (id)òÿ­	B;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *assistantObject;
 @property(nonatomic, readonly) NSUUID *cameraIdentifier;
-@property(retain) HMDCameraRecordingManager *cameraRecordingManager; // @synthesize cameraRecordingManager=_cameraRecordingManager;
-@property(readonly) HMDCameraProfileSettingsManager *cameraSettingsManager; // @synthesize cameraSettingsManager=_cameraSettingsManager;
-@property(readonly) NSSet *cameraStreamManagers; // @synthesize cameraStreamManagers=_cameraStreamManagers;
-@property(readonly) HMDCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;
-@property(readonly) HMDCameraClipUserNotificationCenter *clipUserNotificationCenter; // @synthesize clipUserNotificationCenter=_clipUserNotificationCenter;
-@property(nonatomic, readonly) long long cloudStorageVersion;
-@property(nonatomic, readonly) NSString *cloudZoneName;
-@property(readonly) _HMCameraUserSettings *currentSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, readonly) HMDHome *home;
-@property(readonly, nonatomic, getter=isMicrophonePresent) _Bool microphonePresent; // @synthesize microphonePresent=_microphonePresent;
-@property(readonly) HMFNetMonitor *networkMonitor; // @synthesize networkMonitor=_networkMonitor;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) HMDPredicateUtilities *predicateUtilities; // @synthesize predicateUtilities=_predicateUtilities;
-@property(readonly) HMDCameraRecordingReachabilityEventManager *reachabilityEventManager; // @synthesize reachabilityEventManager=_reachabilityEventManager;
-@property(retain) HMFTimer *recordingEventsCleanupTimer; // @synthesize recordingEventsCleanupTimer=_recordingEventsCleanupTimer;
-@property(copy) CDUnknownBlockType recordingEventsCleanupTimerFactory; // @synthesize recordingEventsCleanupTimerFactory=_recordingEventsCleanupTimerFactory;
-@property(readonly) HMDService *recordingManagementService; // @synthesize recordingManagementService=_recordingManagementService;
-@property(copy) CDUnknownBlockType recordingManagerFactory; // @synthesize recordingManagerFactory=_recordingManagerFactory;
-@property(readonly) NSMutableArray *settingProactiveReaders; // @synthesize settingProactiveReaders=_settingProactiveReaders;
-@property(readonly) HMDCameraSnapshotManager *snapshotManager; // @synthesize snapshotManager=_snapshotManager;
-@property(readonly, nonatomic, getter=isSpeakerPresent) _Bool speakerPresent; // @synthesize speakerPresent=_speakerPresent;
-@property(readonly) HMDCameraStreamSnapshotHandler *streamSnapshotHandler; // @synthesize streamSnapshotHandler=_streamSnapshotHandler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isCameraRecordingFeatureSupported) _Bool supportsCameraRecordingFeature;
-@property(retain) id <HMDCameraProfileSwiftExtensions> swiftExtensions; // @synthesize swiftExtensions=_swiftExtensions;
-@property(readonly, copy) NSString *urlString;
 
 @end
 

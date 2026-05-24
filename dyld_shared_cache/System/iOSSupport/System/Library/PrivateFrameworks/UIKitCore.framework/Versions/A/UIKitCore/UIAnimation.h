@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScreen;
-
 @interface UIAnimation
 {
     id _target;
-    SEL _action;
-    id _delegate;
-    CDUnknownBlockType _completion;
-    struct {
-        unsigned int curve:4;
-    } _animationFlags;
-    double _startTime;
-    double _duration;
-    int _state;
-    UIScreen *_screen;
-    NSString *_screenIdentifier;
 }
 
 - (void);
@@ -27,16 +14,16 @@
 - (float);
 - (id);
 - (void);
-- (id);
+- (id)setPayloadRfc822Name: /* Error: Ran out of types for this method. */;
 - (float);
-- (void);
+- (void)setShortEditorNotes:(CDUnknownBlockType)arg1;
 - (void);
 - (id)0@ù
 × ;
 - (id)CùQf1Â0@ù
 × ;
-- (void)rticalOverlapForView:(id)arg1 usingKeyboardInfo: /* Error: Ran out of types for this method. */;
-- (int)ctionRectsUpdate;
+- (void)verticalOverlapForView:(id)arg1 usingKeyboardInfo: /* Error: Ran out of types for this method. */;
+- (int)setNeedsAutocorrectionRectsUpdate;
 - (CDUnknownBlockType)(ÐðØ¸èd;
 - (SEL);
 - (void)X3^;

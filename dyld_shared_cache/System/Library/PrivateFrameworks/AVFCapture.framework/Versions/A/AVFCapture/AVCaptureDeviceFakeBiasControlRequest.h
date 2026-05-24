@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceFakeBiasControlRequest : AVCaptureDeviceControlRequest
 {
     float _fakeBias;
-    CDStruct_1b6d18a9 _fakeBiasCompletionTime;
 }
 
-- (void);
-- (void);
+- (void)PrivateFrameworks;
+- (void)System;
 - (CDStruct_1b6d18a9);
 - (float);
 
 // Remaining properties
 @property(nonatomic) float fakeBias; // @synthesize fakeBias=_fakeBias;
-@property(nonatomic) CDStruct_1b6d18a9 fakeBiasCompletionTime; // @synthesize fakeBiasCompletionTime=_fakeBiasCompletionTime;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallMetrics;
-
 @interface _INPBStartVideoCallIntentResponse
 {
     CDStruct_fbf2c6cd _has;
-    int _audioRoute;
-    _INPBCallMetrics *_metrics;
-    NSString *_status;
-    NSArray *_targetContacts;
 }
 
-+ (_Bool);
++ (_Bool)c;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,10 +25,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)es.framework/Versions/A/GraphicsServices;
 - (void);
 - (int);
 - (id);
@@ -46,20 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) int audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasMetrics;
-@property(readonly, nonatomic) _Bool hasStatus;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBCallMetrics *metrics; // @synthesize metrics=_metrics;
-@property(copy, nonatomic) NSString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *targetContacts; // @synthesize targetContacts=_targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
 
 @end
 

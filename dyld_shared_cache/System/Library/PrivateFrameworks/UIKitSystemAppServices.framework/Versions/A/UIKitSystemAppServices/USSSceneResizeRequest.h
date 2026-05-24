@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSAnimationFenceHandle, NSString;
+@class NSString;
 
 @interface USSSceneResizeRequest
 {
     NSString *_identifier;
-    double _scale;
-    long long _gamut;
-    BKSAnimationFenceHandle *_fence;
-    struct CGSize _size;
-    struct NSEdgeInsets _insets;
 }
 
 + (id);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKSAnimationFenceHandle *fence; // @synthesize fence=_fence;
-@property(nonatomic) long long gamut; // @synthesize gamut=_gamut;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) struct NSEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

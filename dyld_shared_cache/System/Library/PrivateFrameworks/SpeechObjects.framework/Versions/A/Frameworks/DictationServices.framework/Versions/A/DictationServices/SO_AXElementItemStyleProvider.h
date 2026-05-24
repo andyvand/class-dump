@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SO_AXElementItemStyleProvider
 {
     CDUnknownBlockType _itemBackgroundViewCreationHandler;
-    CDUnknownBlockType _itemFontCreationHandler;
-    CDUnknownBlockType _itemStrokeColorHandler;
-    CDUnknownBlockType _itemStrokeWidthHandler;
 }
 
 - (void);
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType itemBackgroundViewCreationHandler; // @synthesize itemBackgroundViewCreationHandler=_itemBackgroundViewCreationHandler;
-@property(copy, nonatomic) CDUnknownBlockType itemFontCreationHandler; // @synthesize itemFontCreationHandler=_itemFontCreationHandler;
-@property(copy, nonatomic) CDUnknownBlockType itemStrokeColorHandler; // @synthesize itemStrokeColorHandler=_itemStrokeColorHandler;
-@property(copy, nonatomic) CDUnknownBlockType itemStrokeWidthHandler; // @synthesize itemStrokeWidthHandler=_itemStrokeWidthHandler;
 
 @end
 

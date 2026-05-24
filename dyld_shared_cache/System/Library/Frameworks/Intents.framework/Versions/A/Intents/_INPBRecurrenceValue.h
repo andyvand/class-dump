@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBRecurrenceValue
 {
     CDStruct_95bda58d _weeklyRecurrenceDays;
-    struct {
-        unsigned int frequency:1;
-        unsigned int interval:1;
-        unsigned int ordinal:1;
-    } _has;
-    int _frequency;
-    unsigned long long _interval;
-    long long _ordinal;
 }
 
 + (_Bool);
@@ -25,8 +15,8 @@
 - (id);
 - (int *);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)|;
 - (id);
 - (void);
 - (void);
@@ -39,35 +29,21 @@
 - (long long);
 - (void);
 - (id);
+- (unsigned long long)_GCDevicePhysicalInputJoystickElement;
+- (void)ldRoots/4~COUiugCUeOdUPJKBmC2cje3Ex1DzGwiw5z-foFo/Library/Caches/com.apple.xbs/TemporaryDirectory.ecuqJw/Sources/backupd/TimeMachine-Framework/Configuration/TMConfiguration.m;
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int)Ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int frequency; // @synthesize frequency=_frequency;
-@property(nonatomic) _Bool hasFrequency;
-@property(nonatomic) _Bool hasInterval;
-@property(nonatomic) _Bool hasOrdinal;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long interval; // @synthesize interval=_interval;
-@property(nonatomic) long long ordinal; // @synthesize ordinal=_ordinal;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int *weeklyRecurrenceDays;
-@property(readonly, nonatomic) unsigned long long weeklyRecurrenceDaysCount;
 
 @end
 

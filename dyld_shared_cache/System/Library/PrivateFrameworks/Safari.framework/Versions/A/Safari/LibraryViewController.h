@@ -4,50 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LibraryItem, LibraryItemHeader, LibraryItemTabGroup, LibraryItemVerticalTab, LibraryOutlineView, LibraryTableCellView, NSArray, NSBox, NSLayoutConstraint, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, TabPreviewController, WBSFaviconRequestsController, WBSRecentsStore, WBTabGroupManager;
-@protocol LibraryViewControllerDelegate;
+@class LibraryOutlineView, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface LibraryViewController
 {
     NSMutableArray *_libraryItems;
-    WBTabGroupManager *_tabGroupManager;
-    NSMutableDictionary *_tabGroupToLibraryItemDictionary;
-    NSMutableArray *_libraryTabGroupItems;
-    LibraryItemHeader *_tabGroupsHeaderItem;
-    unsigned long long _numberOfTabGroupItems;
-    LibraryItemTabGroup *_localTabGroupItem;
-    NSMutableArray *_unnamedTabGroupItems;
-    _Bool _ignoreSelectionDidChangeNotification;
-    LibraryTableCellView *_fromFriendsLibraryTableCellView;
-    NSArray *_bottomLibraryItems;
-    WBSFaviconRequestsController *_requestsController;
-    _Bool _ignoreTabGroupChange;
-    _Bool _selectingMultipleTabs;
-    _Bool _previouslySelectedMultipleTabs;
-    _Bool _shouldUseCachedExpansionStates;
-    _Bool _cachedTabGroupHeaderExpansionState;
-    NSMutableSet *_cachedTabGroupsExpansionState;
-    NSMutableSet *_tabGroupsUpdatingTabs;
-    LibraryItem *_iCloudTabsLibraryItem;
-    LibraryItem *_sharedWithYouLibraryItem;
-    LibraryItemHeader *_bottomHeaderItem;
-    TabPreviewController *_tabPreviewController;
-    LibraryItemVerticalTab *_hoveredVerticalTabItem;
-    LibraryItemVerticalTab *_centerVerticalTabItemToPrefetch;
-    NSMapTable *_prefetchedTabPreviewDataSources;
-    _Bool _editingCellView;
-    _Bool _editNewTabGroupPending;
-    _Bool _tabGroupsUpdatePending;
-    WBSRecentsStore *_recentsStore;
-    NSArray *_cloudTabDevices;
-    NSString *_tabGroupUUIDToSelectAndEditAfterSidebarUpdate;
-    double _topMargin;
-    id <LibraryViewControllerDelegate> _delegate;
-    LibraryOutlineView *_outlineView;
-    LibraryOutlineView *_bottomOutlineView;
-    NSLayoutConstraint *_heightConstraint;
-    NSBox *_separator;
 }
 
 + (void);
@@ -58,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)Ti;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)(q;
 - (void);
 - (void);
 - (void);
@@ -110,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -120,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
@@ -128,7 +90,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@	;
 - (void);
 - (void);
 - (_Bool);
@@ -148,7 +110,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)hh8);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -199,20 +161,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)tionDialogViewDelegate;
+- (void)L<;
+- (void);
+- (id)startLocalFindableConnectionMaterialMonitoringWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)HTTPAuthenticationDialogViewDelegate;
 - (double);
 - (void)(¼;
 - (void);
@@ -224,25 +186,7 @@ __attribute__((visibility("hidden")))
 - (void)bí;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bookmarksTargetFrame;
-@property(nonatomic) __weak LibraryOutlineView *bottomOutlineView; // @synthesize bottomOutlineView=_bottomOutlineView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <LibraryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool expandedStateOfTabGroupHeader;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(readonly, nonatomic) _Bool isEditingSelectedGroupTitle;
-@property(readonly, nonatomic) _Bool isSelectedTabGroupTextFieldFirstResponder;
 @property __weak LibraryOutlineView *outlineView; // @synthesize outlineView=_outlineView;
-@property(readonly, nonatomic) struct CGRect readingListTargetFrame;
-@property(nonatomic) __weak NSBox *separator; // @synthesize separator=_separator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *tabGroupUUIDToSelectAndEditAfterSidebarUpdate; // @synthesize tabGroupUUIDToSelectAndEditAfterSidebarUpdate=_tabGroupUUIDToSelectAndEditAfterSidebarUpdate;
-@property(nonatomic) double topMargin; // @synthesize topMargin=_topMargin;
 
 @end
 

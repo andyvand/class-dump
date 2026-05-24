@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAbstractDefaultDomain, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BSAbstractDefaultDomain;
 
 @interface _BSDefaultObserver
 {
     BSAbstractDefaultDomain *_defaults;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_defaultsToObserve;
-    CDUnknownBlockType _fireBlock;
-    _Bool _invalidated;
-    _Atomic unsigned int _debounceCounter;
 }
 
 - (void);
@@ -23,13 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

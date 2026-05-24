@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SUCoreDownloadCheckpoint
 {
     double _timestamp;
-    long long _downloadedBytes;
 }
 
 - (id);
@@ -16,7 +15,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) long long downloadedBytes; // @synthesize downloadedBytes=_downloadedBytes;
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
++ (void)v;
 + (void);
-+ (void);
-+ (void);
++ (void)Bzj;
 
 @end
 

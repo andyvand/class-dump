@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
+@class UIScrollView;
 
 @interface UIScrollEdgeElementContainerInteraction
 {
     id implementation;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id)óÐôó";
-- (void)eractionCSg;
+- (void)So28UIWindowSceneDragInteractionCSg;
 - (void);
 - (id)Åa;
 - (void)09m;
@@ -24,9 +24,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long edge;
 @property(nonatomic) __weak UIScrollView *scrollView;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

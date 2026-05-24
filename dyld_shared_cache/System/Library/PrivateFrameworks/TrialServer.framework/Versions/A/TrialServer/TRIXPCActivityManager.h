@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TRIServerContext, TRITaskQueue;
+@class NSObject, TRIServerContext;
 @protocol OS_dispatch_queue;
 
 @interface TRIXPCActivityManager
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    TRIServerContext *_context;
-    TRITaskQueue *_taskQueue;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ssoryPairingRequest";
+- (void)ion key for accessory identifier [%@];
 - (void);
 - (void);
 - (void);
@@ -29,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)UserInfo:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -37,11 +35,10 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)asContainerOriginFields;
+- (void)hasContainerOriginFields;
 
 // Remaining properties
 @property(retain, nonatomic) TRIServerContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) TRITaskQueue *taskQueue; // @synthesize taskQueue=_taskQueue;
 
 @end
 

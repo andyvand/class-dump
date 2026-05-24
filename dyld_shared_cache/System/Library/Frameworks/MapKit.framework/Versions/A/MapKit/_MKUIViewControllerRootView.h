@@ -12,17 +12,17 @@
 }
 
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
-- (void);
+- (void)@;
+- (void)c#;
+- (id)o shot;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_updateSpaceBetweenImageAndPopUp;
 - (void)
 × ;
-- (void)Position: /* Error: Ran out of types for this method. */;
+- (void)setZPosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak _MKUIViewController *viewController; // @synthesize viewController=_viewController;

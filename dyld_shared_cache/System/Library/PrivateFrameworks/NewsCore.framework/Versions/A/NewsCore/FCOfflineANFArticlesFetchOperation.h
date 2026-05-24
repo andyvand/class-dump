@@ -6,30 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCOfflineDownloadsConfiguration, NSArray;
-@protocol FCANFHelper, FCContentContext;
-
 @interface FCOfflineANFArticlesFetchOperation : FCOperation
 {
     _Bool _cachedOnly;
-    unsigned long long _maxBatchSize;
-    unsigned long long _maxMissingArticles;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _archiveHandler;
-    CDUnknownBlockType _articleRecordHandler;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    FCOfflineDownloadsConfiguration *_config;
-    id <FCANFHelper> _ANFHelper;
-    NSArray *_articleIDs;
-    NSArray *_inputHeadlines;
 }
 
 - (void);
-- (void)ateImage;
+- (void)alternateImage;
 - (void)s:additionalHeadlines:subscribedTagIDs:scoresByArticleID:personalizer:tagNameProvider:personalizationTreatment:translationProvider:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)nfiguration;
+- (void)appConfiguration;
 - (_Bool);
 
 @end

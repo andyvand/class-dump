@@ -9,9 +9,6 @@
 @interface ITLibMediaItemData
 {
     _Bool _downloadable;
-    NSURL *_URL;
-    NSURL *_securityScopedURL;
-    unsigned long long _playlistCount;
 }
 
 - (void);
@@ -19,17 +16,14 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (id)controllerIdentifier;
+- (void)setRequestorID:(id)arg1;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)8;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) _Bool downloadable; // @synthesize downloadable=_downloadable;
-@property(nonatomic) unsigned long long playlistCount; // @synthesize playlistCount=_playlistCount;
-@property(retain, nonatomic) NSURL *securityScopedURL; // @synthesize securityScopedURL=_securityScopedURL;
 
 @end
 

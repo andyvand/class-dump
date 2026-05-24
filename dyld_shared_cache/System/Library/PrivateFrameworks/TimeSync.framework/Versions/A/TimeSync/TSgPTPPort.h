@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _TSF_TSDgPTPPort;
-@protocol OS_dispatch_queue;
+@class _TSF_TSDgPTPPort;
 
 @interface TSgPTPPort
 {
     _TSF_TSDgPTPPort *_impl;
-    CDUnknownBlockType _interruptionHandler;
 }
 
 + (id);
@@ -26,15 +24,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void))5;
+- (id)i;
 - (unsigned short);
 - (CDUnknownBlockType);
 - (void);
@@ -44,12 +42,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clockIdentifier; // @dynamic clockIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
 @property(readonly, nonatomic) unsigned short portNumber; // @dynamic portNumber;
-@property(readonly, nonatomic) int portRole; // @dynamic portRole;
-@property(readonly, nonatomic) int portType; // @dynamic portType;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @dynamic propertyUpdateQueue;
 
 @end
 

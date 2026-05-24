@@ -9,17 +9,15 @@
 @interface PPToken
 {
     NSString *_text;
-    NSString *_tag;
 }
 
 - (id);
-- (id);
+- (id)sfer/data (auxAssetPath %@);
 - (id);
 - (void)÷°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *tag; // @synthesize tag=_tag;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

@@ -9,7 +9,6 @@
 @interface CRKFilteredEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _filterBlock;
 }
 
 - (_Bool);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(readonly, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
 
 @end
 

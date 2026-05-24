@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDisplayLink, IMInternalAVAudioPlayer, NSString, NSURL;
-@protocol IMAudioPlayerDelegate;
+@class NSURL;
 
 @interface IMAudioPlayer
 {
     NSURL *_audioURL;
-    id <IMAudioPlayerDelegate> _delegate;
-    IMInternalAVAudioPlayer *_audioPlayer;
-    double _prevCurrentTime;
-    CDUnknownBlockType _block;
-    IMDisplayLink *_displayLink;
 }
 
 + (id);
@@ -25,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double);
+- (id)P;
+- (void)t;
+- (double);
 - (id);
 - (void);
 - (id);
@@ -43,33 +37,16 @@
 - (float);
 - (double);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (id)fyPlayerDidPrepareAudioURL:successfully: /* Error: Ran out of types for this method. */;
+- (id)_notifyPlayerDidPrepareAudioURL:successfully: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMInternalAVAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
 @property(copy, nonatomic) NSURL *audioURL; // @synthesize audioURL=_audioURL;
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMAudioPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMDisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly, nonatomic) double duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(nonatomic) double prevCurrentTime; // @synthesize prevCurrentTime=_prevCurrentTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesAVPlayer;
-@property(nonatomic) float volume;
 
 @end
 

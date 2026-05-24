@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DCArchiveReader
 {
     struct archive *_archive;
-    _Bool _overwrite;
-    _Bool _writesTemporaryFilesInsideDestination;
-    _Bool _skipsInvisibleHeaders;
-    NSString *_sourcePath;
-    NSString *_destinationPath;
 }
 
 - (_Bool);
@@ -22,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
-- (id);
+- (id)SArray"@"NSArray"@"NSArray"@"NSArray"@"NSError">16;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -36,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property(nonatomic) _Bool overwrite; // @synthesize overwrite=_overwrite;
-@property(nonatomic) _Bool skipsInvisibleHeaders; // @synthesize skipsInvisibleHeaders=_skipsInvisibleHeaders;
 @property(copy, nonatomic) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
-@property(nonatomic) _Bool writesTemporaryFilesInsideDestination; // @synthesize writesTemporaryFilesInsideDestination=_writesTemporaryFilesInsideDestination;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventMarcoLiteUsage
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_usageStates;
-    unsigned int _totalNavTime;
-    int _vioTrigger;
-    struct {
-        unsigned int has_totalNavTime:1;
-        unsigned int has_vioTrigger:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)setHasStartOffsetM:(id)arg1;
 - (id);
 - (int);
 - (unsigned long long);
@@ -29,14 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)localizedDescriptionForAddressingGrammars: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)r ‘timeProvider’ must be nonnull;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -44,22 +37,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)IOUSBHostCIMessageTypeEndpointCreate;
 - (_Bool);
 - (void);
-- (id)eFeatures:(struct _NSZone *)arg1;
-- (id)xt;
+- (id)setSupportClientRankingCompositeFeatures:(struct _NSZone *)arg1;
+- (id)context;
 - (id)r;
 - (id);
 - (void)^ô3;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTotalNavTime;
-@property(nonatomic) _Bool hasVioTrigger;
-@property(nonatomic) unsigned int totalNavTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *usageStates;
-@property(nonatomic) int vioTrigger;
 
 @end
 

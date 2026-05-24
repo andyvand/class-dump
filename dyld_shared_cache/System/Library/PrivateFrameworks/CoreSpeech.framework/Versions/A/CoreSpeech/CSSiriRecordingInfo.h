@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFAudioRecordDeviceInfo, NSDictionary, NSString;
-@protocol AFBluetoothDevice;
+@class NSString;
 
 @interface CSSiriRecordingInfo
 {
     NSString *_headsetAddress;
-    _Bool _isDictation;
-    _Bool _isFingerprintOnly;
-    _Bool _isSecureOfflineOnly;
-    _Bool _isDucking;
-    _Bool _isEndAlertInfo;
-    _Bool _triggeredTwoShotBorealis;
-    int _mhSource;
-    long long _audioAlertStyle;
-    NSString *_codec;
-    NSString *_source;
-    NSString *_destination;
-    NSString *_route;
-    CSFAudioRecordDeviceInfo *_deviceInfo;
-    NSString *_deviceIdentifier;
-    NSString *_modelName;
-    NSString *_dspStatus;
-    NSString *_headsetName;
-    NSDictionary *_voiceTriggerEventInfo;
-    double _activationAlertStartTimestamp;
-    double _startRecordingTimestamp;
-    double _firstBufferTimestamp;
-    unsigned long long _firstBufferHostTime;
-    unsigned long long _estimatedSpeechEndHostTime;
-    unsigned long long _audioSessionSetActiveEndHostTime;
-    id <AFBluetoothDevice> _bluetoothDevice;
-    long long _speechEvent;
 }
 
 - (id);
@@ -46,10 +19,10 @@
 - (void);
 - (int);
 - (_Bool);
+- (_Bool)@y	?)@qa;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (id);
 - (id);
@@ -65,51 +38,21 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (id);
+- (id)a;
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)regress_adjust;
 - (long long);
 - (id);
+- (id)! -;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ShotAnalyzerBestScore;
+- (void)hasResetShotAnalyzerBestScore;
 
 // Remaining properties
-@property(readonly, nonatomic) double activationAlertStartTimestamp; // @synthesize activationAlertStartTimestamp=_activationAlertStartTimestamp;
-@property(readonly, nonatomic) long long audioAlertStyle; // @synthesize audioAlertStyle=_audioAlertStyle;
-@property(nonatomic) unsigned long long audioSessionSetActiveEndHostTime; // @synthesize audioSessionSetActiveEndHostTime=_audioSessionSetActiveEndHostTime;
-@property(readonly, nonatomic) id <AFBluetoothDevice> bluetoothDevice; // @synthesize bluetoothDevice=_bluetoothDevice;
-@property(readonly, nonatomic) NSString *codec; // @synthesize codec=_codec;
-@property(readonly, nonatomic) _Bool codecIsNarrowband;
-@property(readonly, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) CSFAudioRecordDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) NSString *dspStatus; // @synthesize dspStatus=_dspStatus;
-@property(readonly, nonatomic) unsigned long long estimatedSpeechEndHostTime; // @synthesize estimatedSpeechEndHostTime=_estimatedSpeechEndHostTime;
-@property(readonly, nonatomic) unsigned long long firstBufferHostTime; // @synthesize firstBufferHostTime=_firstBufferHostTime;
-@property(readonly, nonatomic) double firstBufferTimestamp; // @synthesize firstBufferTimestamp=_firstBufferTimestamp;
-@property(readonly, nonatomic) NSString *headsetAddress;
-@property(readonly, nonatomic) NSString *headsetName; // @synthesize headsetName=_headsetName;
-@property(readonly, nonatomic) _Bool isBluetooth;
 @property(readonly, nonatomic) _Bool isDictation; // @synthesize isDictation=_isDictation;
-@property(readonly, nonatomic) _Bool isDucking; // @synthesize isDucking=_isDucking;
-@property(nonatomic) _Bool isEndAlertInfo; // @synthesize isEndAlertInfo=_isEndAlertInfo;
-@property(readonly, nonatomic) _Bool isFingerprintOnly; // @synthesize isFingerprintOnly=_isFingerprintOnly;
-@property(readonly, nonatomic) _Bool isSecureOfflineOnly; // @synthesize isSecureOfflineOnly=_isSecureOfflineOnly;
-@property(readonly, nonatomic) int mhSource; // @synthesize mhSource=_mhSource;
-@property(readonly, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly, nonatomic) NSString *productId;
-@property(readonly, nonatomic) NSString *route; // @synthesize route=_route;
-@property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
-@property(readonly, nonatomic) long long speechEvent; // @synthesize speechEvent=_speechEvent;
-@property(readonly, nonatomic) double startRecordingTimestamp; // @synthesize startRecordingTimestamp=_startRecordingTimestamp;
-@property(nonatomic) _Bool triggeredTwoShotBorealis; // @synthesize triggeredTwoShotBorealis=_triggeredTwoShotBorealis;
-@property(readonly, nonatomic) NSString *vendorId;
-@property(readonly, nonatomic) NSDictionary *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end
 

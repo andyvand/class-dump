@@ -7,12 +7,6 @@
 @interface NewsUI2.RecipeFilterRatingsSectionViewModel
 {
     id id;
-    id title;
-    id context;
-    id _selectedRatingLevel;
-    id _isTopRatedEnabled;
-    id _isUnratedEnabled;
-    id _$observationRegistrar;
 }
 
 @end

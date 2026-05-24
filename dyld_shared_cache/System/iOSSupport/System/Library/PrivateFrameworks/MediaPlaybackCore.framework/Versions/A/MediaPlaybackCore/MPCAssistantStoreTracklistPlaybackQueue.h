@@ -6,13 +6,11 @@
 
 #import <MediaPlaybackCore/MPCAssistantPlaybackQueue.h>
 
-@class MPIdentifierSet, NSArray;
+@class NSArray;
 
 @interface MPCAssistantStoreTracklistPlaybackQueue : MPCAssistantPlaybackQueue
 {
     NSArray *_storeItemIDs;
-    long long _shuffleType;
-    MPIdentifierSet *_collectionIdentifierSet;
 }
 
 + (id);
@@ -26,8 +24,6 @@
 - (void)Stopping processing audio queue;
 
 // Remaining properties
-@property(readonly, nonatomic) MPIdentifierSet *collectionIdentifierSet; // @synthesize collectionIdentifierSet=_collectionIdentifierSet;
-@property(nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
 @property(readonly, nonatomic) NSArray *storeItemIDs; // @synthesize storeItemIDs=_storeItemIDs;
 
 @end

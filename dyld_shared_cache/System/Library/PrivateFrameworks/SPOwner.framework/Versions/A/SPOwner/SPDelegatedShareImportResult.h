@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SPBeaconShare;
+@class SPBeaconShare;
 
 @interface SPDelegatedShareImportResult
 {
     SPBeaconShare *_share;
-    NSString *_authUrl;
 }
 
 + (_Bool);
@@ -18,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)kInternalEnablementGroupOverride;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *authUrl; // @synthesize authUrl=_authUrl;
 @property(readonly, copy, nonatomic) SPBeaconShare *share; // @synthesize share=_share;
 
 @end

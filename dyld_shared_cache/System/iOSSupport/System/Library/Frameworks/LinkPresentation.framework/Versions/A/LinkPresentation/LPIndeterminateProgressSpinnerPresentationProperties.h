@@ -11,7 +11,7 @@
     NSString *_text;
 }
 
-- (id);
+- (id)G;
 - (void);
 - (void);
 

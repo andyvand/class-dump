@@ -7,9 +7,6 @@
 @interface PhotosUICore.PXMapKitSuggester
 {
     id $__lazy_storage_$_searchCompleter;
-    id input;
-    id completion;
-    id coordinateRegion;
 }
 
 - (void);

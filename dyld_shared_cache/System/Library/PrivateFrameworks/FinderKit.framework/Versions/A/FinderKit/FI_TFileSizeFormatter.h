@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TFileSizeFormatter
 {
     NSString *_invalidSizeStr;
-    unsigned long long _options;
 }
 
 + (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)topLevelRecoveryMailbox;
 - (id);
 - (void);
 - (void);
@@ -30,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *invalidSizeStr; // @synthesize invalidSizeStr=_invalidSizeStr;
-@property(nonatomic) _Bool sizeInBytes; // @dynamic sizeInBytes;
-@property(nonatomic) _Bool specialZeroHandling; // @dynamic specialZeroHandling;
-@property(nonatomic) _Bool stableWidth; // @dynamic stableWidth;
 
 @end
 

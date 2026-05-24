@@ -7,12 +7,6 @@
 @interface ChronoServices.DefaultKeybagStateProvider
 {
     id _lockStatePublisher;
-    id _eventQueue_lockState;
-    id _hasUnlockedSinceBootPublisher;
-    id _eventQueue_hasUnlockedSinceBoot;
-    id _eventQueue;
-    id _publishQueue;
-    id _mkbEventRegistration;
 }
 
 @end

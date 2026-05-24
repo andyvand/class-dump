@@ -7,6 +7,7 @@
 @protocol NSSecureCoding><NSCopying;
 
 @protocol CRPayloadCommand
+- (id <NSSecureCoding><NSCopying>);
 
 // Remaining properties
 @property(retain, nonatomic) id <NSSecureCoding><NSCopying> payload;

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPOneToManyWeakMap, NSMapTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FPProgressManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_downloadProgressPerItemIDs;
-    NSMapTable *_uploadProgressPerItemIDs;
-    FPOneToManyWeakMap *_copyProgressPerItemIDs;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)M;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)J;
 - (void);
 - (id);
 - (void);

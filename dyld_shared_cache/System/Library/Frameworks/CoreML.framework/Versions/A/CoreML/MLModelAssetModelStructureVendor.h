@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelAssetResourceFactory, MLModelStructure;
+@class MLModelAssetResourceFactory;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetModelStructureVendor
 {
     MLModelAssetResourceFactory *_resourceFactory;
-    MLModelStructure *_modelStructure;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)32RGBA;
 
 // Remaining properties
-@property(retain) MLModelStructure *modelStructure; // @synthesize modelStructure=_modelStructure;
 @property(readonly, nonatomic) MLModelAssetResourceFactory *resourceFactory; // @synthesize resourceFactory=_resourceFactory;
 
 @end

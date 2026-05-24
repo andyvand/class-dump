@@ -7,8 +7,6 @@
 @interface NewsUI2.SavedFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

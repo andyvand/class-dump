@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOStopWaypoint
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    NSString *_name;
-    GEOLatLng *_position;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_name:1;
-        unsigned int read_position:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)el:(id)arg1;
++ (_Bool)setMatchedUsingLabel:(id)arg1;
+- (_Bool)initWithEntity:insertIntoManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)audioRecorderEndRecordInterruption:(id)arg1;
+- (id)intHintShouldBeAccepted:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -46,31 +30,23 @@
 - (void);
 - (void);
 - (_Bool);
+- (id):8@16Q24i32{CLLocationCoordinate2D=dd}36@52@60 /* Error: Ran out of types for this method. */;
+- (void)ilLocale;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)&};
 - (_Bool);
 - (id);
 - (void);
 - (id)uppressOnExistingRichData"b1"read_historicalMapsIds"b1"read_mapsId"b1"read_photoConstraints"b1"read_scorecardLayout"b1"wrote_anyField"b1};
-- (id);
-- (id)DPlaceSummaryLayoutUnitString;
-- (id)_DIRECTIONS;
+- (id)hasMapsSyncAttributes;
+- (id)GEOPDPlaceSummaryLayoutUnitString;
+- (id)PLACE_SUMMARY_LAYOUT_TRAILING_ENTITY_TYPE_DIRECTIONS;
 - (void);
 - (void)4¸;
 - (void)(FÌ±ýP@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMMiningTaskConfig, _CDInteractionStore;
+@class _CDInteractionStore;
 
 @interface BMInteractionProvider
 {
     _CDInteractionStore *_interactionStore;
-    id _contextKitClient;
-    BMMiningTaskConfig *_bmMiningTaskConfig;
 }
 
 - (void);
@@ -25,12 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)HOEK;
 
 // Remaining properties
-@property(retain) BMMiningTaskConfig *bmMiningTaskConfig; // @synthesize bmMiningTaskConfig=_bmMiningTaskConfig;
 @property(retain, nonatomic) id contextKitClient; // @synthesize contextKitClient=_contextKitClient;
-@property(readonly, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
 
 @end
 

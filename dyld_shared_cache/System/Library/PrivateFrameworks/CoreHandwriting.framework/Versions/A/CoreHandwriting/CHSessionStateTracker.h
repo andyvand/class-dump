@@ -9,12 +9,11 @@
 @interface CHSessionStateTracker
 {
     NSXPCConnection *__connection;
-    long long _state;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)on-DateInterval PHMemoryFeature, (got type %@, %@ of class %@);
 - (id);
 - (_Bool);
 - (void)7;

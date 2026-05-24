@@ -10,7 +10,6 @@
 @interface NSXPCListenerEndpoint
 {
     NSObject<OS_xpc_object> *_endpoint;
-    struct os_unfair_lock_s _lock;
 }
 
 @end

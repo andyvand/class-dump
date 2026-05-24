@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface APSSystemUser
 {
     NSString *_userID;
-    NSString *_status;
-    _Bool _daemonUser;
 }
 
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (unsigned int);
 - (id);
 - (id);
@@ -30,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *status;
 @property(readonly, nonatomic) unsigned int uid;
-@property(readonly, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

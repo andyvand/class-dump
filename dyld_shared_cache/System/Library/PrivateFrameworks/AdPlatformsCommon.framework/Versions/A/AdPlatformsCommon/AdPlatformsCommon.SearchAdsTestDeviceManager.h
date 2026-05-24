@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.SearchAdsTestDeviceManager
 {
     id routingInfoProvider;
-    id storage;
 }
 
 @end

@@ -6,39 +6,26 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISmartToneFilter : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputExposure;
-    NSNumber *inputContrast;
-    NSNumber *inputBrightness;
-    NSNumber *inputShadows;
-    NSNumber *inputHighlights;
-    NSNumber *inputBlack;
-    NSNumber *inputRawHighlights;
-    NSNumber *inputLocalLight;
-    NSData *_inputLightMap;
-    NSNumber *inputUseCube;
-    id inputUseCubeColorSpace;
-    CIImage *_cubeImage;
-    NSData *_cubeData;
 }
 
 + (id);
+- (void)߅;
+- (id);
+- (id)k ;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -50,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -91,18 +78,7 @@ kernel vec4 _hsvwheeldithered(vec4 params, float dither) {
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBlack; // @synthesize inputBlack;
-@property(retain, nonatomic) NSNumber *inputBrightness; // @synthesize inputBrightness;
-@property(retain, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast;
-@property(retain, nonatomic) NSNumber *inputExposure; // @synthesize inputExposure;
-@property(retain, nonatomic) NSNumber *inputHighlights; // @synthesize inputHighlights;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSData *inputLightMap; // @synthesize inputLightMap=_inputLightMap;
-@property(retain, nonatomic) NSNumber *inputLocalLight; // @synthesize inputLocalLight;
-@property(retain, nonatomic) NSNumber *inputRawHighlights; // @synthesize inputRawHighlights;
-@property(retain, nonatomic) NSNumber *inputShadows; // @synthesize inputShadows;
-@property(retain, nonatomic) NSNumber *inputUseCube; // @synthesize inputUseCube;
-@property(retain, nonatomic) id inputUseCubeColorSpace; // @synthesize inputUseCubeColorSpace;
 
 @end
 

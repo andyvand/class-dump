@@ -11,16 +11,6 @@
 @interface _UIFocusSwipeTest : _UIFocusTest
 {
     unsigned long long _eventCount;
-    const struct {
-        double _field1;
-        long long _field2;
-        double _field3;
-        double _field4;
-        double _field5;
-        double _field6;
-    } *_events;
-    UIWindow *_window;
-    unsigned long long _swipeAxis;
 }
 
 - (unsigned long long);
@@ -29,7 +19,7 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)s: /* Error: Ran out of types for this method. */;
+- (void)_runJavaScriptTextInputPanelWithTitle:prompt:defaultText:buttons: /* Error: Ran out of types for this method. */;
 - (void)sBarHiddenWhenVerticallyCompact;
 - (void)è[;
 

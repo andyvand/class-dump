@@ -6,30 +6,11 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDFetchRecordsOperation, CKDRecordCache, NSDictionary, NSMutableDictionary, NSObject, NSSet;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class CKDRecordCache;
 
 @interface CKDRecordFetchAggregator : CKDDatabaseOperation
 {
     CKDRecordCache *_recordCache;
-    _Bool _useRecordCache;
-    _Bool _fetchAssetContents;
-    _Bool _fetchMergeableValues;
-    _Bool _preserveOrdering;
-    _Bool _started;
-    _Bool _markedToFinishByParent;
-    _Bool _forceDecryptionAttempt;
-    CDUnknownBlockType _fetchAggregatorCompletionBlock;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSSet *_desiredKeys;
-    NSObject<OS_dispatch_source> *_recordReadySource;
-    NSObject<OS_dispatch_queue> *_fetchQueue;
-    NSObject<OS_dispatch_source> *_fetchSource;
-    NSObject<OS_dispatch_group> *_fetchGroup;
-    NSMutableDictionary *_fetchInfosByOrder;
-    unsigned long long _curFetchOrder;
-    unsigned long long _highestReturnedOrder;
-    CKDFetchRecordsOperation *_currentFetchOp;
 }
 
 - (void);
@@ -37,31 +18,31 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)8;
+- (void)AAEAPYYKAQEAAQO1hwABAwABAMmHAAIDAAEAU4cABAMAAQE9hwAFAwABAFSHCgIBAAEDsogKAgEAAQOziQoCAQABA7SKAAEBAAEDlYoKAQEAAQO2iwABAQABA5aLCgEBAAEDt4wAAQEAAQOXjAQBAQABAeWNAAEBAAEDmJkAAgEAAQT9mwAFAQABBQGcAAQBAAEFAJ0AAQEAAQURnwABAQABBUO5AQMBAAEDLroBAwEAAQMvvQEBAQABA1C+AQEBAAEDUcABAQEAAQNTwQECAQABA1XDAQIBAAEDVMUBBAEAAQNnxgEFAQABA2jPAQEBAAEDh9ABAQEAAQOI2QEBAQABA9HdAQEBAAED5eQBAQEAAQQT7wEBAQABBM3yAQEBAAEE0PgBAQEAAQUC;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)eam(FigEndpointRef, CFDictionaryRef);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)setHasDifferentIpv4DetailsThanPrevSession: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
+- (void)E;
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)cate data for URL:%{public}@ due to error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (id);
 - (void);
@@ -71,17 +52,17 @@
 - (int);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (_Bool)gPCSIdentity: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ptsType;
-- (void)ModifyRecordZonesURLRequest;
+- (_Bool)setRecordIDsToDeleteToSigningPCSIdentity: /* Error: Ran out of types for this method. */;
+- (unsigned long long)packagePutReceiptsType;
+- (void)CKDModifyRecordZonesURLRequest;
 - (void)f;
 - (_Bool)ì$è;
 - (void)ldn't create a diversified %@ identity;
@@ -91,24 +72,7 @@
 - (void)unwrapping of asset key for %@ because encryption is disabled;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property unsigned long long curFetchOrder; // @synthesize curFetchOrder=_curFetchOrder;
-@property(nonatomic) __weak CKDFetchRecordsOperation *currentFetchOp; // @synthesize currentFetchOp=_currentFetchOp;
-@property(retain, nonatomic) NSSet *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(copy, nonatomic) CDUnknownBlockType fetchAggregatorCompletionBlock; // @synthesize fetchAggregatorCompletionBlock=_fetchAggregatorCompletionBlock;
 @property(nonatomic) _Bool fetchAssetContents; // @synthesize fetchAssetContents=_fetchAssetContents;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchGroup; // @synthesize fetchGroup=_fetchGroup;
-@property(readonly, nonatomic) NSMutableDictionary *fetchInfosByOrder; // @synthesize fetchInfosByOrder=_fetchInfosByOrder;
-@property(nonatomic) _Bool fetchMergeableValues; // @synthesize fetchMergeableValues=_fetchMergeableValues;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *fetchSource; // @synthesize fetchSource=_fetchSource;
-@property(nonatomic) _Bool forceDecryptionAttempt; // @synthesize forceDecryptionAttempt=_forceDecryptionAttempt;
-@property unsigned long long highestReturnedOrder; // @synthesize highestReturnedOrder=_highestReturnedOrder;
-@property(getter=isMarkedToFinishByParent) _Bool markedToFinishByParent; // @synthesize markedToFinishByParent=_markedToFinishByParent;
-@property(nonatomic) _Bool preserveOrdering; // @synthesize preserveOrdering=_preserveOrdering;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *recordReadySource; // @synthesize recordReadySource=_recordReadySource;
-@property _Bool started; // @synthesize started=_started;
-@property(nonatomic) _Bool useRecordCache; // @synthesize useRecordCache=_useRecordCache;
 
 @end
 

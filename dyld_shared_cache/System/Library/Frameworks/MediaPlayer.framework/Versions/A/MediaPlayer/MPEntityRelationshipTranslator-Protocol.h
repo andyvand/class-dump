@@ -5,6 +5,7 @@
 //
 
 @protocol MPEntityRelationshipTranslator
+- (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) Class relatedMPModelClass;

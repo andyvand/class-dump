@@ -7,9 +7,6 @@
 @interface CoreUtilsSwift.CUXPCActorSystem.ActorMonitor
 {
     id actorID;
-    id monitorID;
-    id eventHandler;
-    id system;
 }
 
 @end

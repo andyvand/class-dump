@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCameraClipAddSignificantEventOperation, HMDCameraClipCreateClipOperation, HMDCameraClipCreateClipWithSignificantEventOperation, HMDCameraClipFinalizeClipOperation, HMDCameraClipUploadVideoSegmentOperation, NSUUID;
+
 @protocol HMDCameraClipUploaderFactory
+- (HMDCameraClipUploadVideoSegmentOperation *)ng didn't clear all destinations, forcing it now;
+- (HMDCameraClipFinalizeClipOperation *)vate}@:(NSUUID *)arg1 %{public}@/%{public}@;
+- (HMDCameraClipCreateClipWithSignificantEventOperation *)ck-off error, but still backing off, %#.1lfs to go;
+- (HMDCameraClipCreateClipOperation *)ry controller;
+- (HMDCameraClipAddSignificantEventOperation *)Batch delay timer fired;
 @end
 

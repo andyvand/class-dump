@@ -6,53 +6,45 @@
 
 #import <ChatKit/CKTranscriptLabelCell.h>
 
-@class CKTranscriptLegibilityButton, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKTranscriptStatusCell : CKTranscriptLabelCell
 {
     BOOL _buttonAlignmentRelativeToContent;
-    _Bool _previousBalloonIsReplyContextPreview;
-    CKTranscriptLegibilityButton *_statusButton;
-    double _prevBalloonWidth;
 }
 
 + (void);
-+ (id);
++ (id)placeholder;
 + (void);
 - (_Bool);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
+- (double)shadowOpacity;
+- (id)setWritingToolsSessionUUID: /* Error: Ran out of types for this method. */;
+- (_Bool)setAttachmentInsertionController: /* Error: Ran out of types for this method. */;
+- (void)prepareDocumentForSerializationWithAttachmentContentIDs:(id)arg1 withAttachmentPresentations:newPresentationProvider:leftoverPresentations: /* Error: Ran out of types for this method. */;
+- (void)newParagraphLinkAttachmentWithIdentifier:(_Bool)arg1 toNote:paragraphName:paragraphID:fromNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)newLinkAttachmentWithIdentifier:(double)arg1 toNote:fromNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)ic_blockQuoteMenuItemAttributedString;
+- (void)highlightingAttributedString:(id)arg1 withSurroundingAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)addSubview:positioned:relativeTo: /* Error: Ran out of types for this method. */;
+- (double)addCharactersInString: /* Error: Ran out of types for this method. */;
+- (void)_htmlStringToLoad;
+- (void)_hashtagsAndMentionsController;
+- (void)Identifier",R,C,N;
 - (struct UIEdgeInsets);
 - (void);
 - (BOOL);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)e;
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
+- (void)apple-msg-attachment" data="cid:(CDUnknownBlockType)arg1 %@";
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (void)Ø;
 - (void)onController Blackhole Status;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;
-@property(nonatomic) BOOL buttonAlignmentRelativeToContent; // @synthesize buttonAlignmentRelativeToContent=_buttonAlignmentRelativeToContent;
-@property(nonatomic) double prevBalloonWidth; // @synthesize prevBalloonWidth=_prevBalloonWidth;
-@property(nonatomic) _Bool previousBalloonIsReplyContextPreview; // @synthesize previousBalloonIsReplyContextPreview=_previousBalloonIsReplyContextPreview;
-@property(readonly, nonatomic) _Bool shouldHideDuringDarkFSM;
-@property(retain, nonatomic) CKTranscriptLegibilityButton *statusButton; // @synthesize statusButton=_statusButton;
 
 @end
 

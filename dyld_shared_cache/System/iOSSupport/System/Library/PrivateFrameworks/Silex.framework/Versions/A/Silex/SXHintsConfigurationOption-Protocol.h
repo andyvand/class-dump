@@ -5,9 +5,9 @@
 //
 
 @protocol SXHintsConfigurationOption
+- (_Bool)T?;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ignoreConditionHints;
-@property(readonly, nonatomic) _Bool ignoreConditionalHints;
 @end
 

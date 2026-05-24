@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)initWithCoreCryptoStatus:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

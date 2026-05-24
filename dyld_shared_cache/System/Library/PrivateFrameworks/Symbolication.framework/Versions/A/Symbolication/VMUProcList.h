@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 @interface VMUProcList
 {
     NSLock *procLock;
-    NSMutableDictionary *allProcs;
-    NSMutableDictionary *filteredProcs;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)qa@;
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -28,7 +26,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)ourButton;
 
 @end
 

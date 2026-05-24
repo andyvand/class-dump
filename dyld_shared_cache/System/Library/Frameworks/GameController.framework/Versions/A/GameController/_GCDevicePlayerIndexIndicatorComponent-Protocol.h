@@ -5,6 +5,7 @@
 //
 
 @protocol _GCDevicePlayerIndexIndicatorComponent
+- (long long)\;
 
 // Remaining properties
 @property long long indicatedPlayerIndex;

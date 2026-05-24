@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCMotion, NSString;
+@class NSString;
 
 @protocol GCNamedProfile
+- (void (^)(id, GCControllerElement *));
+- (NSString *);
+- (NSString *)e;
+
+@optional
+- (void);
+- (unsigned int)A;
 
 // Remaining properties
-@property(retain) GCMotion *_motion;
 @property(readonly) NSString *name;
 @end
 

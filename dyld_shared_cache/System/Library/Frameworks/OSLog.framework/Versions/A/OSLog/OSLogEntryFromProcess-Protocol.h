@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol OSLogEntryFromProcess
+- (NSString *);
+- (unsigned long long)_ProtobufMessageMap;
+- (unsigned long long)ext"8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activityIdentifier;
-@property(readonly, nonatomic) NSString *process;
-@property(readonly, nonatomic) int processIdentifier;
-@property(readonly, nonatomic) NSString *sender;
-@property(readonly, nonatomic) unsigned long long threadIdentifier;
 @end
 

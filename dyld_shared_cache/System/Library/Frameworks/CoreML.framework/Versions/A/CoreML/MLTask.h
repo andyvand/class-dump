@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MLTask
 {
     NSString *_taskIdentifier;
-    long long _state;
-    NSError *_error;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)splitFragmentsPrefixSumKernel;
+- (void)finishBuildIterationKernel;
+- (void)SamplerType;
 - (void);
 - (void);
 - (void);
@@ -39,10 +35,7 @@
 OS.á;
 
 // Remaining properties
-@property(copy) NSError *error; // @synthesize error=_error;
 @property long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(readonly, copy, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

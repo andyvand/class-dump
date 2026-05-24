@@ -9,13 +9,12 @@
 @interface IDSRegistrationEventTracingSMSValidationEvent
 {
     void name;
-    id mechanismType;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ype;
+- (void)_interfaceType;
 - (void).apple.private.alloy.addressbooksync;
 
 // Remaining properties

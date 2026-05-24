@@ -6,16 +6,14 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContact, NSString;
+@class CNContact;
 
 @interface CNUIAddContactCommand : CNUIUndoableCommand
 {
     _Bool _personInserted;
-    CNContact *_contact;
-    NSString *_accountIdentifier;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -27,12 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ts;
+- (void)toneRowViewConstraints;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool personInserted; // @synthesize personInserted=_personInserted;
 
 @end
 

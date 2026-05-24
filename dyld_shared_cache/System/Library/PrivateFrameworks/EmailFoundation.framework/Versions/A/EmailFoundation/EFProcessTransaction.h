@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)appLmNeedsRebuild:language:sandboxExtensions:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

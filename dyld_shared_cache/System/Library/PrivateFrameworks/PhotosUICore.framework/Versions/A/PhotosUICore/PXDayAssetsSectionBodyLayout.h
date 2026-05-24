@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXCuratedLibraryAssetsSectionGeneratedLayout.h>
 
-@class NSString, PXDayAssetsSectionBodyLayoutSpec;
+@class PXDayAssetsSectionBodyLayoutSpec;
 
 @interface PXDayAssetsSectionBodyLayout : PXCuratedLibraryAssetsSectionGeneratedLayout
 {
     PXDayAssetsSectionBodyLayoutSpec *_spec;
-    long long _style;
-    long long _numberOfPrecedingAssets;
-    struct CGSize _preferredReferenceSize;
 }
 
 + (struct CGSize);
@@ -40,33 +37,21 @@
 - (struct CGSize);
 - (id);
 - (long long);
-- (long long);
+- (long long))";
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (struct CGSize);
 - (long long);
 - (id);
-- (void);
+- (void)uColor * color; 
+		} 
+		;
 - (void);
 - (void)Ìöýþ;
 
 // Remaining properties
-@property(readonly, nonatomic) double buildingRowContentHeight;
-@property(readonly, nonatomic) double buildingRowSpacing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize minPlayableSpriteSize;
 @property(readonly, nonatomic) struct CGSize minimumItemSize;
-@property(nonatomic) long long numberOfPrecedingAssets; // @synthesize numberOfPrecedingAssets=_numberOfPrecedingAssets;
-@property(nonatomic) struct CGSize preferredReferenceSize; // @synthesize preferredReferenceSize=_preferredReferenceSize;
-@property(retain, nonatomic) PXDayAssetsSectionBodyLayoutSpec *spec; // @synthesize spec=_spec;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_pointsB;
 - (id);
 - (_Bool);
 - (id);

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatImageNodeContext
 {
     id size;
-    id scale;
-    id traitCollection;
-    id requestData;
 }
 
 @end

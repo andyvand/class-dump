@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, REMAlarmTrigger, REMObjectID;
+@class REMAlarmTrigger, REMObjectID;
 
 @interface REMAlarm
 {
     REMAlarmTrigger *_trigger;
-    REMObjectID *_objectID;
-    NSDate *_acknowledgedDate;
-    NSString *_alarmUID;
-    NSString *_originalAlarmUID;
 }
 
 + (id);
@@ -27,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (void);
@@ -35,24 +31,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)SError">32;
 - (void)
 × ;
-- (id)Affinity: /* Error: Ran out of types for this method. */;
-- (void)SharedCalendars;
+- (id)selectionForCharacterRanges:selectionAffinity: /* Error: Ran out of types for this method. */;
+- (void)daSupportsSharedCalendars;
 - (id)t"8@"NSError"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *acknowledgedDate; // @synthesize acknowledgedDate=_acknowledgedDate;
-@property(retain, nonatomic) NSString *alarmUID; // @synthesize alarmUID=_alarmUID;
 @property(retain, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) NSString *originalAlarmUID; // @synthesize originalAlarmUID=_originalAlarmUID;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(retain, nonatomic) REMAlarmTrigger *trigger; // @synthesize trigger=_trigger;
 
 @end
 

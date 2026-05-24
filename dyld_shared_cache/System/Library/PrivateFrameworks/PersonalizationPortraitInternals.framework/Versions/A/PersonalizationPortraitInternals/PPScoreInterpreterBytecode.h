@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PPScoreInterpreterBytecode
 {
     struct unique_ptr<std::vector<PPSubscoreIdentifier>, std::default_delete<std::vector<PPSubscoreIdentifier>>> _subscoreComputeOrder;
-    NSArray *_bytecodeDataBySubscoreTypeAndIndex;
-    NSArray *_bytecodeRetainedObjectSlots;
-    struct unique_ptr<std::vector<std::vector<std::unordered_set<PPSubscoreIdentifier>>>, std::default_delete<std::vector<std::vector<std::unordered_set<PPSubscoreIdentifier>>>>> _subscoreDependencies;
-    struct __CFBitVector *_scalarScoreInputsNeeded;
-    struct __CFBitVector *_arrayScoreInputsNeeded;
-    struct __CFBitVector *_objectScoreInputsNeeded;
 }
 
 + (id);
@@ -22,17 +14,15 @@
 + (id);
 - (void);
 - (struct __CFBitVector *);
+- (id)?;
+- (id)D;
 - (id);
-- (id);
-- (id);
-- (struct __CFBitVector *);
+- (struct __CFBitVector *)ing Report Junk;
 - (struct __CFBitVector *);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CFBitVector *arrayScoreInputsNeeded; // @synthesize arrayScoreInputsNeeded=_arrayScoreInputsNeeded;
-@property(readonly, nonatomic) struct __CFBitVector *objectScoreInputsNeeded; // @synthesize objectScoreInputsNeeded=_objectScoreInputsNeeded;
 @property(readonly, nonatomic) struct __CFBitVector *scalarScoreInputsNeeded; // @synthesize scalarScoreInputsNeeded=_scalarScoreInputsNeeded;
 
 @end

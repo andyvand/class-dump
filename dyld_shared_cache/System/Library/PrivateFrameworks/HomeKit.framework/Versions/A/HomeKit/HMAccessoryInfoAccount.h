@@ -9,9 +9,6 @@
 @interface HMAccessoryInfoAccount
 {
     _Bool _signedIn;
-    NSString *_username;
-    NSString *_aaAltDSID;
-    NSString *_amsAltDSID;
 }
 
 - (_Bool);
@@ -20,19 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)crucial;
 - (id)GùqY1Â0@ù
 × ;
 - (void)%u;
 
 // Remaining properties
-@property(readonly, copy) NSString *aaAltDSID; // @synthesize aaAltDSID=_aaAltDSID;
-@property(readonly, copy) NSString *amsAltDSID; // @synthesize amsAltDSID=_amsAltDSID;
-@property(readonly) _Bool signedIn; // @synthesize signedIn=_signedIn;
 @property(readonly, copy) NSString *username; // @synthesize username=_username;
 
 @end

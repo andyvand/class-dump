@@ -5,5 +5,6 @@
 //
 
 @protocol VCMacScreenCaptureSource
+- (int)C;
 @end
 

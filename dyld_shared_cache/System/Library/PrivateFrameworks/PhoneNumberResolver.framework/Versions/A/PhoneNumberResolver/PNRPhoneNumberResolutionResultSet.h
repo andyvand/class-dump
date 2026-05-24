@@ -9,15 +9,14 @@
 @interface PNRPhoneNumberResolutionResultSet
 {
     NSMutableDictionary *_results;
-    struct os_unfair_lock_s _resultsLock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)_dispatch_queue>";
 
 @end
 

@@ -9,13 +9,12 @@
 @interface PPScoredContactHandle
 {
     NSString *_contactHandle;
-    double _score;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)contextLookupResultsForPath:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactHandle; // @synthesize contactHandle=_contactHandle;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

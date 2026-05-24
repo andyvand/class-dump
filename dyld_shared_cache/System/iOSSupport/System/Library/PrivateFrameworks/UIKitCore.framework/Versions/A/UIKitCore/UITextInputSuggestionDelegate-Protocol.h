@@ -5,6 +5,7 @@
 //
 
 @protocol UITextInputSuggestionDelegate
+- (void)ITLibMediaItemPropertyStoreItemID;
 - (void);
 @end
 

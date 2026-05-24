@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString, NSURL;
+@class NSURL;
 
 @interface ICPDFGenerator
 {
     struct CGContext *_pdfContext;
-    NSURL *_fileURL;
-    NSString *_title;
-    NSMutableData *_data;
-    struct CGRect _pageRect;
 }
 
 - (void);
@@ -25,21 +21,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)ntifiers:(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)purgeMediaFilesForIdentifiers:(id)arg1 account: /* Error: Ran out of types for this method. */;
 - (void)ÌÇ;
 - (id)sing cached remote configuration;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
 @property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) struct CGRect pageRect; // @synthesize pageRect=_pageRect;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

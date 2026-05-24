@@ -6,31 +6,22 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class HMFWeakObject, NSObject, NSString;
-@protocol HMIVideoDecoderDelegate, OS_dispatch_queue;
+@protocol HMIVideoDecoderDelegate;
 
 @interface HMIVideoDecoder : HMIVideoProcessingNode
 {
     id <HMIVideoDecoderDelegate> _delegate;
-    NSString *_logIdentifier;
-    unsigned long long _reorderBufferSize;
-    struct opaqueCMBufferQueue *_buffer;
-    struct OpaqueVTDecompressionSession *_session;
-    HMFWeakObject *_weakDecoder;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDStruct_1b6d18a9 _lastSampleBufferPTS;
-    CDStruct_1b6d18a9 _lastSampleBufferDTS;
 }
 
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)	;
+- (void)o;
 - (unsigned long long);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,33 +31,18 @@
 - (struct OpaqueVTDecompressionSession *);
 - (id);
 - (id);
-- (id);
+- (id)I;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (struct opaqueCMBufferQueue *);
 
 // Remaining properties
-@property struct opaqueCMBufferQueue *buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMIVideoDecoderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property CDStruct_1b6d18a9 lastSampleBufferDTS; // @synthesize lastSampleBufferDTS=_lastSampleBufferDTS;
 @property CDStruct_1b6d18a9 lastSampleBufferPTS; // @synthesize lastSampleBufferPTS=_lastSampleBufferPTS;
-@property(retain) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) unsigned long long reorderBufferSize; // @synthesize reorderBufferSize=_reorderBufferSize;
-@property struct OpaqueVTDecompressionSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(readonly) HMFWeakObject *weakDecoder; // @synthesize weakDecoder=_weakDecoder;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

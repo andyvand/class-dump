@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXPhotosResultTuple
 {
     _Bool _fetchedWithReverseSortOrder;
-    PHFetchResult *_fetchResult;
-    PHFetchResult *_curatedFetchResult;
-    PHFetchResult *_keyAssetsFetchResult;
-    CDUnknownBlockType _curatedRefetchCondition;
-    NSPredicate *_filterPredicate;
 }
 
 - (id);
@@ -28,12 +23,7 @@
 - (void)ï";
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchResult *curatedFetchResult; // @synthesize curatedFetchResult=_curatedFetchResult;
-@property(readonly, nonatomic) CDUnknownBlockType curatedRefetchCondition; // @synthesize curatedRefetchCondition=_curatedRefetchCondition;
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(readonly, nonatomic) _Bool fetchedWithReverseSortOrder; // @synthesize fetchedWithReverseSortOrder=_fetchedWithReverseSortOrder;
-@property(readonly, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(readonly, nonatomic) PHFetchResult *keyAssetsFetchResult; // @synthesize keyAssetsFetchResult=_keyAssetsFetchResult;
 
 @end
 

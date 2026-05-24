@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SNFileCopyingResult
 {
@@ -15,12 +15,10 @@
 - (id);
 - (id);
 - (void);
-- (long long)ServerEnvironmentImpl;
+- (long long)AnalysisServerEnvironmentImpl;
 
 // Remaining properties
-@property(nonatomic, readonly) long long fileSize;
 @property(nonatomic, readonly) NSString *filename;
-@property(nonatomic, readonly) NSURL *itemURL;
 
 @end
 

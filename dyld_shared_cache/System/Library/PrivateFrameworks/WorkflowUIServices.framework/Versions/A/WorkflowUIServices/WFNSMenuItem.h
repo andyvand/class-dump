@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFMenuItem;
+@class WFMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface WFNSMenuItem
 {
     _Bool _shouldShowState;
-    WFMenuItem *_wfMenuItem;
-    NSString *_searchString;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)*T;
 - (_Bool);
 - (void);
 - (void);
-- (id)tion;
+- (id)_contextualAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(nonatomic) _Bool shouldShowState; // @synthesize shouldShowState=_shouldShowState;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WFMenuItem *wfMenuItem; // @synthesize wfMenuItem=_wfMenuItem;
 
 @end

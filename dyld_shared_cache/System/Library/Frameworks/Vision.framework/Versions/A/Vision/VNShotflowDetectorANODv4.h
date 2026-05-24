@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (Class);
 - (id);
-- (id);
+- (id)q!;
 - (id);
 - (id);
 

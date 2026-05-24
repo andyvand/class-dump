@@ -16,8 +16,8 @@
 + (id);
 + (id);
 + (id)ingRequired:%d> /* Error: Ran out of types for this method. */;
-- (id);
-- (void)Identifier;
+- (id)n;
+- (void)assetIdentifier;
 - (id)¸;
 
 // Remaining properties

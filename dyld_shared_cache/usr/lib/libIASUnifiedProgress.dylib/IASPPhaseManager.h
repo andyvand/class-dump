@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IASPPhase, NSMutableArray, NSObject;
+@class IASPPhase, NSObject;
 @protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface IASPPhaseManager
 {
     IASPPhase *_currentPhase;
-    float _prevPhaseProgress;
-    float _totalCompletedProgress;
-    NSObject<OS_dispatch_semaphore> *_phasesSemaphore;
-    NSMutableArray *_phases;
 }
 
 + (id);
@@ -32,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (float);
 - (float);
@@ -46,19 +42,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (void);
-- (float);
+- (float)signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)roxy is an outgoing chat, not notifying as invited:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *phases; // @synthesize phases=_phases;
 @property(retain) NSObject<OS_dispatch_semaphore> *phasesSemaphore; // @synthesize phasesSemaphore=_phasesSemaphore;
-@property float prevPhaseProgress; // @synthesize prevPhaseProgress=_prevPhaseProgress;
-@property float totalCompletedProgress; // @synthesize totalCompletedProgress=_totalCompletedProgress;
 
 @end
 

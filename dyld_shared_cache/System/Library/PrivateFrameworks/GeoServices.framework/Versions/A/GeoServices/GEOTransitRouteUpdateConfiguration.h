@@ -9,38 +9,32 @@
 @interface GEOTransitRouteUpdateConfiguration
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _ttlSeconds;
-    struct {
-        unsigned int has_ttlSeconds:1;
-    } _flags;
 }
 
-+ (_Bool)NameInfos:(id)arg1;
++ (_Bool)setNameInfos:(id)arg1;
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)v^;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)setValidationCallback:(id)arg1;
+- (void)isVoiceTriggerAssetOverridingEnabled;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)ublisher:provider: /* Error: Ran out of types for this method. */;
+- (id)initForPublisher:provider: /* Error: Ran out of types for this method. */;
 - (id)trollerDelegate>",W,N,V_delegate;
 - (id)SERVER_PUSH;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTtlSeconds;
-@property(nonatomic) unsigned long long ttlSeconds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

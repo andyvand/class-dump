@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)rks/OSAnalytics.framework/Versions/A/OSAnalytics;
++ (id)etwork;
++ (id)ry/Frameworks/Network.framework/Versions/A/Network;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)Thread isFinished];
 
 @end
 

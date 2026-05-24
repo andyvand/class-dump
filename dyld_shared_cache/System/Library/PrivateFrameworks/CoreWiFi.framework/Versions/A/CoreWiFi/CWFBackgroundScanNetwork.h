@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFChannel, NSString;
-
 @interface CWFBackgroundScanNetwork
 {
     _Bool _entry;
-    _Bool _exit;
-    NSString *_BSSID;
-    CWFChannel *_channel;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_transportSmoothedRttMillis;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)555;
 - (id);
 - (id)0@ù
 × ;
-- (void)entials;
-- (void)natesHeight;
+- (void)CWFWiFiNetworkSharingEAPCredentials;
+- (void)CoordinatesHeight;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *BSSID; // @synthesize BSSID=_BSSID;
-@property(copy, nonatomic) CWFChannel *channel; // @synthesize channel=_channel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool entry; // @synthesize entry=_entry;
-@property(nonatomic) _Bool exit; // @synthesize exit=_exit;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

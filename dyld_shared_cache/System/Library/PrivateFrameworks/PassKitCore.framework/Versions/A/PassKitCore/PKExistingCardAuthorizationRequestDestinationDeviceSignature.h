@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKSecureElementCertificateSet;
+@class NSString;
 
 @interface PKExistingCardAuthorizationRequestDestinationDeviceSignature
 {
     NSString *_migrationToken;
-    NSString *_secureElementIdentifier;
-    PKSecureElementCertificateSet *_signatureCertificateSet;
-    NSData *_signature;
 }
 
 - (id);
@@ -19,15 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isInterestingRegion;
 - (id)stantCoreProvisioningContext selectIndex:] - selected:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)promotionName;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *migrationToken; // @synthesize migrationToken=_migrationToken;
-@property(readonly, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) PKSecureElementCertificateSet *signatureCertificateSet; // @synthesize signatureCertificateSet=_signatureCertificateSet;
 
 @end
 

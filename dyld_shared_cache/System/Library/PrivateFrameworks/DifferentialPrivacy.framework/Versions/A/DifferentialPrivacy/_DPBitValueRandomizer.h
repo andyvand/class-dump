@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPBiasedCoin;
-
 @interface _DPBitValueRandomizer
 {
     unsigned long long _p;
-    double _epsilon;
-    _DPBiasedCoin *_epsilonCoin;
 }
 
 + (id);
@@ -21,21 +17,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void)could not identify a key window. Bailing.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) _DPBiasedCoin *epsilonCoin; // @synthesize epsilonCoin=_epsilonCoin;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long p; // @synthesize p=_p;
-@property(readonly) Class superclass;
 
 @end
 

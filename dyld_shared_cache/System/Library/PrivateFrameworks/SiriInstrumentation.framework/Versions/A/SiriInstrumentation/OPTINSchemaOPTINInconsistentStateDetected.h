@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface OPTINSchemaOPTINInconsistentStateDetected : SISchemaInstrumentationMessage
 {
     int _inconsistencyCondition;
-    int _inconsistencyTrigger;
-    struct {
-        unsigned int inconsistencyCondition:1;
-        unsigned int inconsistencyTrigger:1;
-    } _has;
 }
 
 - (void);
@@ -32,19 +25,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)x;
 - (id);
 - (id)1Þ1Â0@ù
 × ;
-- (id)onIdentifierName;
+- (id)_actionIdentifierName;
 - (id)ionallyUniqueId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInconsistencyCondition;
-@property(nonatomic) _Bool hasInconsistencyTrigger;
 @property(nonatomic) int inconsistencyCondition; // @synthesize inconsistencyCondition=_inconsistencyCondition;
-@property(nonatomic) int inconsistencyTrigger; // @synthesize inconsistencyTrigger=_inconsistencyTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsHomeResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsHomeSections;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1;
 - (id)ltFilterAddress";
-- (id)ionHandler: /* Error: Ran out of types for this method. */;
+- (id)_findTransitPointsOfType:nearCoordinate:radius:handler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ÈKL;
 - (void)/Ý$@ªñÒMbâ@;
 

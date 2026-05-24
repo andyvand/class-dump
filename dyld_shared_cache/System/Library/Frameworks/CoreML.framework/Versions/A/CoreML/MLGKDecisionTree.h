@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLTreeEnsembleClassifier, NSMutableArray, NSMutableOrderedSet;
+@class NSMutableArray;
 
 @interface MLGKDecisionTree
 {
     void *_trc;
-    MLTreeEnsembleClassifier *_treeClassifier;
-    NSMutableArray *__attributes;
-    NSMutableOrderedSet *__objectStore;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (void);
 - (id);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_attributes; // @synthesize _attributes=__attributes;
-@property(retain, nonatomic) NSMutableOrderedSet *_objectStore; // @synthesize _objectStore=__objectStore;
 
 @end
 

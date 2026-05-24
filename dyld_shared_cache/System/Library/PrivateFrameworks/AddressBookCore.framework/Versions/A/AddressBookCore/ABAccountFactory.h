@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABUserDefaults, NSString;
-@protocol ABACAccountStore, ABAccountFactoryDelegate;
+@class NSString;
+@protocol ABAccountFactoryDelegate;
 
 @interface ABAccountFactory
 {
     NSString *_basePath;
-    ABUserDefaults *_userDefaults;
-    NSString *_tag;
-    id <ABACAccountStore> _accountStore;
-    id <ABAccountFactoryDelegate> _delegate;
 }
 
 + (Class);
@@ -47,24 +43,22 @@
 - (id);
 - (id);
 - (id);
+- (id)�I;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)nUEFIInstaller:reply: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)mitiveIsSearchable;
+- (void)primitiveIsSearchable;
 
 // Remaining properties
-@property(readonly) NSString *basePath; // @synthesize basePath=_basePath;
 @property __weak id <ABAccountFactoryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

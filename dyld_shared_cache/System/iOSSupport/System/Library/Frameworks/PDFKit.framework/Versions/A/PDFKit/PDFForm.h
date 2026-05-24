@@ -31,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)hics;
 - (void)0@ù
 × ;
 

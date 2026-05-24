@@ -13,11 +13,11 @@
 
 + (id);
 - (void);
-- (void);
+- (void)julianday;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Q;
 - (id);
 - (void)angedObserver;
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, OSALogIdentity;
+@class OSALogIdentity;
 
 @interface OSALogWriteResult
 {
     OSALogIdentity *_identity;
-    NSString *_filePath;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 @property(readonly, nonatomic) OSALogIdentity *identity; // @synthesize identity=_identity;
 
 @end

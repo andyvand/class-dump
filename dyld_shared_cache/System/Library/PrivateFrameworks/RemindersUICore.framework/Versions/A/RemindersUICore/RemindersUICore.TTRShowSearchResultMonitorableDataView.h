@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRShowSearchResultMonitorableDataView
 {
     id store;
-    id objectIDs;
-    id sortingStyle;
-    id showCompleted;
-    id countCompleted;
 }
 
 @end

@@ -4,120 +4,78 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNTrace, MNTracePreparedStatement, NSDate, NSString;
+@class MNTrace, NSString;
 
 @interface MNTraceRecorder
 {
     MNTrace *_trace;
-    NSString *_tracePath;
-    long long _traceType;
-    NSDate *_recordingStartDate;
-    NSDate *_recordingCompassHeadingLastDate;
-    _Bool _corrupted;
-    _Bool _closed;
-    MNTracePreparedStatement *_updateRecordingStartTimeStatement;
-    MNTracePreparedStatement *_updateDirectionsStartTimeStatement;
-    MNTracePreparedStatement *_updateNavigationStartTimeStatement;
-    MNTracePreparedStatement *_updateNavigationEndTimeStatement;
-    MNTracePreparedStatement *_recordEnvironmentInfoStatement;
-    MNTracePreparedStatement *_recordDebugSettingStatement;
-    MNTracePreparedStatement *_recordAudioSettingStatement;
-    MNTracePreparedStatement *_recordStylesheetStatement;
-    MNTracePreparedStatement *_recordLocationStatement;
-    MNTracePreparedStatement *_recordLocationErrorStatement;
-    MNTracePreparedStatement *_recordMatchInfoStatement;
-    MNTracePreparedStatement *_recordDirectionsStatement;
-    MNTracePreparedStatement *_recordETAUStatement;
-    MNTracePreparedStatement *_recordRealtimeTransitUpdateRequest;
-    MNTracePreparedStatement *_recordRealtimeTransitUpdateResponse;
-    MNTracePreparedStatement *_recordRealtimeTransitUpdateResponseError;
-    MNTracePreparedStatement *_recordVehicleSpeed;
-    MNTracePreparedStatement *_recordVehicleHeading;
-    MNTracePreparedStatement *_recordMotionData;
-    MNTracePreparedStatement *_recordCompassHeading;
-    MNTracePreparedStatement *_recordVirtualGarageVehicleState;
-    MNTracePreparedStatement *_recordNavigationEvent;
-    MNTracePreparedStatement *_recordNavigationUpdate;
-    MNTracePreparedStatement *_recordRouteCreationActionStatement;
-    unsigned long long _routeRequestCount;
-    unsigned long long _etaTrafficUpdateCount;
-    CDUnknownBlockType _errorHandler;
-    _Bool _lastPauseSpokenAudio;
-    long long _lastVoiceGuidanceSetting;
-    unsigned long long _lastLaneEventHash;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double);!5Y7L3
+;
+- (void)LinearDashboardGaugeStyle;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Z7<J
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)EZ7M
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)SearchEnvironmentTransform;
+- (void);
+- (void)G4;
+- (void);
+- (_Bool)Header;
+- (void);
+- (void);
+- (void);
+- (void)Engine;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)&n;
 - (void)
 × ;
-- (id);
+- (id)NavdMaxNumberOfOfflineAttempts;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *recordingStartDate; // @synthesize recordingStartDate=_recordingStartDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MNTrace *trace; // @synthesize trace=_trace;
 @property(readonly, nonatomic) NSString *tracePath; // @synthesize tracePath=_tracePath;
 
 @end

@@ -4,93 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImageProperties, NSArray, NSData, NSItemProvider, NSObject, NSString, NSURL, UIImage;
-@protocol OS_dispatch_group;
+@class UIImage;
 
 @interface LPImage
 {
     UIImage *_originalPlatformImage;
-    UIImage *_decodedPlatformImage;
-    NSString *_MIMEType;
-    LPImageProperties *_properties;
-    LPImageProperties *_placeholderProperties;
-    NSItemProvider *_itemProvider;
-    LPImage *_imageLoadedFromItemProvider;
-    NSObject<OS_dispatch_group> *_itemProviderLoadGroup;
-    struct CGSize _pixelSize;
-    _Bool _isAnimated;
-    _Bool _hasComputedPixelSize;
-    long long _transparentRegions;
-    _Bool _hasComputedTransparentRegions;
-    _Bool _hasComputedIsAnimated;
-    _Bool _fallbackIcon;
-    _Bool _useLossyCompressionForEncodedData;
-    _Bool _isNonFallbackSymbolImage;
-    NSArray *_remoteURLsForEmailCompatibleOutput;
-    LPImage *_darkInterfaceAlternativeImage;
-    NSString *_symbolName;
-    UIImage *_platformImage;
-    NSURL *_fileURL;
-    NSObject<OS_dispatch_group> *__asynchronousLoadGroup;
-    NSData *__cachedAtomicData;
-    CDUnknownBlockType __alternateHTMLImageGenerator;
 }
 
++ (id)showBusinessChatNotSupportedAlert;
++ (id)shouldShowMoneyActionWithAmount:(id)arg1 currencies:(id)arg2;
++ (id)shouldLoadDefaultConversationViewingMessageCountOnAppear;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id):(id)arg1 completionHandler:(_Bool)arg2;
++ (id)setupFinalCompositionWithExistingComposition:(id)arg1 withPluginPayloadComposition:shareOptions:conversation:animated:navigationProvider: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
+- (void)targetWithScreenCoordinate:(_Bool)arg1 initialSize:scale:meshScaleFactor:rotation:associatedLayoutIntent:stickerIsRepositioning:stickerChatItem: /* Error: Ran out of types for this method. */;
+- (void)sociatedLayoutIntent:(id)arg1;
+- (void)targetTextContainerInsets;
+- (void)targetPreviewTransform;
+- (void)targetFrameForItemAtIndexPath:(id)arg1;
+- (void)targetForAction:(CDUnknownBlockType)arg1 withSender: /* Error: Ran out of types for this method. */;
+- (void)tapbackPickerBalloonParentView:(id)arg1 showCatalystEmojiKeyboardFromView: /* Error: Ran out of types for this method. */;
+- (_Bool)switcherViewControllerShouldShowIconAndTitleWhenCompact: /* Error: Ran out of types for this method. */;
+- (void)suppressAppearanceCallbacksBecauseOfFirstInitialization;
+- (id)suggestionsControllerWillBeginScroll:(id)arg1;
+- (id)suggestionFeedbackAction;
+- (id)suggestionCategoryComparatorForManager:(id)arg1;
+- (id)suggestionCategoryBackgroundVisualEffectView;
+- (_Bool)suggestedRepliesViewMaxWidth;
+- (void)stateDictionaryForDiagnosticsRequest;
+- (_Bool)startUpdatingCurrentLocationWithAuthorizedHandler:updateHandler: /* Error: Ran out of types for this method. */;
+- (void)startRecordingForRaiseGesture;
+- (id)startFetchingMetadataForURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)springAnimationWithMass:(id)arg1 stiffness:damping:duration: /* Error: Ran out of types for this method. */;
+- (id)splitViewControllerDidExpand: /* Error: Ran out of types for this method. */;
+- (struct CGSize)splitViewController:collapseSecondaryViewController:ontoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)sparseTileSizeInBytes;
+- (_Bool)sizeRestrictions;
+- (_Bool)sizeFullTranscriptIfNecessary;
+- (_Bool)sizeForScalingToFillWithImageSize:fillSize: /* Error: Ran out of types for this method. */;
+- (_Bool)sizeForInterfaceOrientation:(double)arg1 inputDelegate: /* Error: Ran out of types for this method. */;
+- (_Bool)sizeForInterfaceOrientation:ignoreInputView: /* Error: Ran out of types for this method. */;
+- (_Bool)sizeCache;
+- (id)simTypeCellForIndexPath:(CDUnknownBlockType)arg1;
+- (id)signpostIntervalEndForVFXLoad;
+- (id)signatureWithObjCTypes:(struct CGImage *)arg1;
+- (id):(struct CGImage *)arg1;
+- (_Bool)signInViewController:didAuthenticateWithResults:error: /* Error: Ran out of types for this method. */;
+- (_Bool)signInTitleBottomPadding;
 - (id);
+- (void)showsLocation;
+- (unsigned long long)showsLearnMoreLink;
+- (id)showingConversationFromOpenURL;
+- (void)showTranslationAlternateText;
+- (void)t:andCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)showOrHideAcceptedContactBannerIfNeeded;
+- (id)nimated:sendMessageHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)lies:animated: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)showKTContactVerificationUI;
 - (id);
 - (id);
 - (id);
@@ -99,52 +74,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)-;
+- (id)16@"NSEvent"24{CGPoint=dd}32@"NSPasteboard"48;
+- (id)shouldReportMissingIdentity;
+- (unsigned long long)
+;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void)1Â0@ù
 × ;
 - (id)Øö<÷;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType;
-@property(copy, nonatomic) CDUnknownBlockType _alternateHTMLImageGenerator; // @synthesize _alternateHTMLImageGenerator=__alternateHTMLImageGenerator;
-@property(readonly, nonatomic, getter=_isAnimated) _Bool _animated;
-@property(retain, setter=_setAsynchronousLoadGroup:) NSObject<OS_dispatch_group> *_asynchronousLoadGroup; // @synthesize _asynchronousLoadGroup=__asynchronousLoadGroup;
-@property(retain) NSData *_cachedAtomicData; // @synthesize _cachedAtomicData=__cachedAtomicData;
-@property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;
-@property(retain, nonatomic, setter=_setDarkInterfaceAlternativeImage:) LPImage *_darkInterfaceAlternativeImage; // @synthesize _darkInterfaceAlternativeImage;
-@property(readonly, nonatomic) unsigned long long _encodedSize;
-@property(nonatomic, getter=_isFallbackIcon) _Bool _fallbackIcon; // @synthesize _fallbackIcon;
-@property(readonly, nonatomic) _Bool _hasTransparency;
-@property(readonly, nonatomic) _Bool _hasTransparencyInCenter;
-@property(readonly, nonatomic) _Bool _isImperceptible;
 @property(nonatomic, readonly) _Bool _isLowResolutionAsImage;
-@property(nonatomic) _Bool _isNonFallbackSymbolImage; // @synthesize _isNonFallbackSymbolImage;
-@property(readonly, retain, nonatomic) NSItemProvider *_itemProvider;
-@property(readonly, nonatomic) struct CGSize _pixelSize;
-@property(retain, nonatomic) NSArray *_remoteURLsForEmailCompatibleOutput; // @synthesize _remoteURLsForEmailCompatibleOutput;
-@property(readonly, copy, nonatomic) NSString *_srcsetForRemoteURLs;
-@property(readonly, copy, nonatomic) NSString *_symbolName; // @synthesize _symbolName;
-@property(nonatomic) _Bool _useLossyCompressionForEncodedData; // @synthesize _useLossyCompressionForEncodedData;
-@property(copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *platformImage; // @synthesize platformImage=_platformImage;
-@property(readonly, copy, nonatomic) LPImageProperties *properties;
-@property(readonly) Class superclass;
 
 @end
 

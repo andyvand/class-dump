@@ -13,7 +13,7 @@
     NSString *_chatIdentifier;
 }
 
-- (id);
+- (id)tSessionID[%u] participantId:(id)arg1 [%@] participantUUID[%@] receives message:(id)arg2 %s;
 - (id);
 - (id);
 - (void)\O;

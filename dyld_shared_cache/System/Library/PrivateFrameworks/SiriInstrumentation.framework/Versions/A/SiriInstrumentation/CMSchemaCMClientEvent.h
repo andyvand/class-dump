@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CMSchemaCMClientEventMetadata, CMSchemaCMInsertContext, CMSchemaCMSearchContext, NSData, SISchemaInstrumentationMessage;
+@class CMSchemaCMClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CMSchemaCMClientEvent : SISchemaTopLevelUnionType
 {
     CMSchemaCMClientEventMetadata *_eventMetadata;
-    CMSchemaCMSearchContext *_searchContext;
-    CMSchemaCMInsertContext *_insertContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasSearchContext;
-    _Bool _hasInsertContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -31,40 +25,32 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)B;
 - (void);
-- (void);
+- (_Bool)ֿ(;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
-- (id);
-- (id);
+- (id)UI4EjYKEgmspLol3qpCQBExQKIJlIBewCIVChNBbWVyaWNhL0xvc19BbmdlbGVzMAA6BwoFMDYwODVKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiwgEIARAAIICangEoADABQiEKHwg5SABSFgoCZW4aEDEgQXBwbGUgUGFyayBXYXmYAQNKBWFwcGxlSgZmd2RnZW9KAlVTUAFabxJtcGxhY2VSZXF1ZXN0PUNnb0tDRzFoY0dsMFpXMXpPQUpDT0JJMkNqUXhJRUZ3Y0d4bElGQmhjbXNnVjJGNUxDQkRkWEJsY25ScGJtOHNJRU5CSURrMU1ERTBMQ0JWYm1sMFpXUWdVM1JoZEdWemACgX0hIsXKMNjAQSLsAQgFEAAggJqeASgAMAFCuwEquAEKswEKAmVuGqwBWhAxIEFwcGxlIFBhcmsgV2F5WhRDdXBlcnRpbm8sIENBICA5NTAxNFoNVW5pdGVkIFN0YXRlc3pzCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqC1NhbnRhIENsYXJhMglDdXBlcnRpbm86BTk1MDE0Ug5BcHBsZSBQYXJrIFdheVoBMWIQMSBBcHBsZSBQYXJrIFdheXIKQXBwbGUgUGFyayAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBItgECB8QACCAmp4BKAAwAUKnBPoBowQKoAQIAhIJNy4zLjUtZGV2GgoKAmVuEgJVUxoAIikKDnJldmdlby0xOC40NS45EKqogcALGgZjcmVhdGUiCTcuMy41LWRldqoG2AMKEDEgQXBwbGUgUGFyayBXYXkSrAFaEDEgQXBwbGUgUGFyayBXYXlaFEN1cGVydGlubywgQ0EgIDk1MDE0Wg1Vbml0ZWQgU3RhdGVzenMKDVVuaXRlZCBTdGF0ZXMSAlVTGgpDYWxpZm9ybmlhIgJDQSoLU2FudGEgQ2xhcmEyCUN1cGVydGlubzoFOTUwMTRSDkFwcGxlIFBhcmsgV2F5WgExYhAxIEFwcGxlIFBhcmsgV2F5cgpBcHBsZSBQYXJrIisbXHRuPWFkZHJlc3NcIDEgG1x0bj1ub3JtYWxcIEFwcGxlIFBhcmsgV2F5KrUBCg1Vbml0ZWQgU3RhdGVzEg1Vbml0ZWQgU3RhdGVzGgpDY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;
+- (id)9;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)";
-- (void)ndonCountInUsingAppInf;
-- (id)uggestionMetadata;
-- (unsigned long long)le;
-- (id)MEAssistantDeviceBirthday;
+- (void)hasTaskAbandonCountInUsingAppInf;
+- (id)domainSuggestionMetadata;
+- (unsigned long long)deleteRawLocale;
+- (id)HOMESchemaHOMEAssistantDeviceBirthday;
 - (id)¬ÀDð("$;
 - (int)lmentEndedTier1;
 - (void)@9²ÿ]%e'&;
 
 // Remaining properties
-@property(retain, nonatomic) CMSchemaCMClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasInsertContext; // @synthesize hasInsertContext=_hasInsertContext;
-@property(nonatomic) _Bool hasSearchContext; // @synthesize hasSearchContext=_hasSearchContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) CMSchemaCMInsertContext *insertContext; // @synthesize insertContext=_insertContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CMSchemaCMSearchContext *searchContext; // @synthesize searchContext=_searchContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

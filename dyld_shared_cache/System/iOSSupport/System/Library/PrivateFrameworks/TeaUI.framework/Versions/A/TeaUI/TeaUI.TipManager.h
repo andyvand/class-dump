@@ -7,13 +7,6 @@
 @interface TeaUI.TipManager
 {
     id presentationOperationManager;
-    id configs;
-    id placements;
-    id presentations;
-    id viewControllerFactory;
-    id keyboardObserver;
-    id isKeyboardVisible;
-    id tipStorageManager;
 }
 
 - (void);

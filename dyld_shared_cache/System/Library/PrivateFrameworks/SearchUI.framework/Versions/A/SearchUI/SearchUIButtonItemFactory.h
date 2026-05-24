@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMapTable, NSMutableArray, NSMutableSet;
-@protocol SearchUIButtonItemGeneratorViewDelegate, SearchUIFeedbackDelegate;
+@class NSMapTable;
 
 @interface SearchUIButtonItemFactory
 {
     _Bool _countMoreButtonTowardsMaxCount;
-    id <SearchUIButtonItemGeneratorViewDelegate> _delegate;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    double _timeLimitForSubsequentButtonGeneratorUpdates;
-    NSMapTable *_fetchedCommandButtonItemsForButtons;
-    NSMutableArray *_buttonItemGenerators;
-    NSMutableSet *_fullyGeneratedButtonItems;
-    NSDate *_startTime;
 }
 
 - (void);
@@ -32,23 +24,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void)P;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ock_s=I}16@0:(id)arg1 8;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buttonItemGenerators; // @synthesize buttonItemGenerators=_buttonItemGenerators;
-@property _Bool countMoreButtonTowardsMaxCount; // @synthesize countMoreButtonTowardsMaxCount=_countMoreButtonTowardsMaxCount;
-@property __weak id <SearchUIButtonItemGeneratorViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
 @property(retain, nonatomic) NSMapTable *fetchedCommandButtonItemsForButtons; // @synthesize fetchedCommandButtonItemsForButtons=_fetchedCommandButtonItemsForButtons;
-@property(retain, nonatomic) NSMutableSet *fullyGeneratedButtonItems; // @synthesize fullyGeneratedButtonItems=_fullyGeneratedButtonItems;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property double timeLimitForSubsequentButtonGeneratorUpdates; // @synthesize timeLimitForSubsequentButtonGeneratorUpdates=_timeLimitForSubsequentButtonGeneratorUpdates;
 
 @end
 

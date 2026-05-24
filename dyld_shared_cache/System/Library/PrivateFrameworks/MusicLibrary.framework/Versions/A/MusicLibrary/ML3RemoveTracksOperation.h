@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)neTimeAction;
+- (_Bool)performTransactionForSyndicationDeleteManager:(id *)arg1 name:transaction: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

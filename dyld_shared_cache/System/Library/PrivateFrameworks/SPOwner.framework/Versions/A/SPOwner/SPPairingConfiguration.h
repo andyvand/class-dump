@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SPPairingConfiguration
 {
     _Bool _isZeus;
-    NSString *_name;
-    long long _roleId;
-    NSString *_roleEmoji;
-    NSData *_collaborativeKeyC3;
-    NSData *_signatureS4;
-    NSData *_keyStatus;
-    long long _batteryLevel;
 }
 
 + (_Bool);
@@ -25,31 +18,24 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)P;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id):(struct _NSZone *)arg1 peerID:propertiesUpdated:) /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(copy, nonatomic) NSData *collaborativeKeyC3; // @synthesize collaborativeKeyC3=_collaborativeKeyC3;
-@property(nonatomic) _Bool isZeus; // @synthesize isZeus=_isZeus;
-@property(copy, nonatomic) NSData *keyStatus; // @synthesize keyStatus=_keyStatus;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *roleEmoji; // @synthesize roleEmoji=_roleEmoji;
-@property(nonatomic) long long roleId; // @synthesize roleId=_roleId;
-@property(copy, nonatomic) NSData *signatureS4; // @synthesize signatureS4=_signatureS4;
 
 @end
 

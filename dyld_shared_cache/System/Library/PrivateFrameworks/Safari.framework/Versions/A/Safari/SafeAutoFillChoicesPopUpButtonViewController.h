@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AutoFillDisplayData, NSArray, NSString, NSTextField, NSView, SafeAutoFillChoicesMenuItemView, SafeAutoFillChoicesPopUpButton;
+@class NSView;
 @protocol SafeAutoFillChoicesPopUpButtonViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SafeAutoFillChoicesPopUpButtonViewController
 {
     id <SafeAutoFillChoicesPopUpButtonViewControllerDelegate> _delegate;
-    NSTextField *_sectionTitleLabel;
-    NSTextField *_contentValueLabel;
-    NSArray *_arrayOfAutoFillDisplayData;
-    AutoFillDisplayData *_selectedDisplayData;
-    double _maximumContentValueLabelWidth;
-    double _maximumSectionTitleLabelWidth;
-    NSString *_menuItemViewNibFileName;
-    NSView *_popUpButtonContentView;
-    SafeAutoFillChoicesMenuItemView *_menuItemView;
 }
 
 - (void);
@@ -37,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,17 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arrayOfAutoFillDisplayData; // @synthesize arrayOfAutoFillDisplayData=_arrayOfAutoFillDisplayData;
-@property(nonatomic) __weak NSTextField *contentValueLabel; // @synthesize contentValueLabel=_contentValueLabel;
-@property(nonatomic) __weak id <SafeAutoFillChoicesPopUpButtonViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double maximumContentValueLabelWidth; // @synthesize maximumContentValueLabelWidth=_maximumContentValueLabelWidth;
-@property(nonatomic) double maximumSectionTitleLabelWidth; // @synthesize maximumSectionTitleLabelWidth=_maximumSectionTitleLabelWidth;
-@property(retain, nonatomic) SafeAutoFillChoicesMenuItemView *menuItemView; // @synthesize menuItemView=_menuItemView;
-@property(readonly, copy, nonatomic) NSString *menuItemViewNibFileName; // @synthesize menuItemViewNibFileName=_menuItemViewNibFileName;
-@property(readonly, nonatomic) SafeAutoFillChoicesPopUpButton *popUpButton;
 @property(retain, nonatomic) NSView *popUpButtonContentView; // @synthesize popUpButtonContentView=_popUpButtonContentView;
-@property(nonatomic) __weak NSTextField *sectionTitleLabel; // @synthesize sectionTitleLabel=_sectionTitleLabel;
-@property(retain, nonatomic) AutoFillDisplayData *selectedDisplayData; // @synthesize selectedDisplayData=_selectedDisplayData;
 
 @end
 

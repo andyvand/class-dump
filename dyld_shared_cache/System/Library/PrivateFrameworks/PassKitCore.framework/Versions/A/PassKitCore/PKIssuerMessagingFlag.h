@@ -9,17 +9,13 @@
 @interface PKIssuerMessagingFlag
 {
     NSString *_identifier;
-    NSString *_name;
-    unsigned long long _contextType;
-    NSString *_contextIdentifier;
-    unsigned long long _contextFeature;
 }
 
 + (id);
 + (id);
 + (_Bool)X"!øGùî%1Â0@ù
 × ;
-- (void);
+- (void).;
 - (id);
 - (_Bool);
 - (id);
@@ -29,14 +25,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long);
+- (_Bool)setAvgAggregatedMessageSendDuration:(id)arg1;
+- (void)priorLinkType;
 - (void);
 - (id);
 - (id);
@@ -45,11 +41,7 @@
 - (unsigned long long)$;
 
 // Remaining properties
-@property(nonatomic) unsigned long long contextFeature; // @synthesize contextFeature=_contextFeature;
-@property(copy, nonatomic) NSString *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;
-@property(nonatomic) unsigned long long contextType; // @synthesize contextType=_contextType;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

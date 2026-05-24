@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MessageProtection.GLTDiversifiedKey
 {
     struct __SecKey *diversifiedKey;
-    NSData *trackingPreventionSalt;
 }
 
-- (id);
+- (id);
 - (struct __SecKey *);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct __SecKey *diversifiedKey; // @synthesize diversifiedKey;
-@property(nonatomic, readonly) NSData *trackingPreventionSalt; // @synthesize trackingPreventionSalt;
 
 @end
 

@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int cachedDirection; // @synthesize cachedDirection=_cachedDirection;
-@property(readonly, nonatomic) int direction; // @dynamic direction;
-@property(readonly, nonatomic) double factor; // @dynamic factor;
 
 @end
 

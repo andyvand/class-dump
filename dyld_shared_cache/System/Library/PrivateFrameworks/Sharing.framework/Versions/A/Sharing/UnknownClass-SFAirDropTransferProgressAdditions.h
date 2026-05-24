@@ -8,10 +8,10 @@
 
 @interface UnknownClass (SFAirDropTransferProgressAdditions)
 + (id);
-+ (id);
++ (id);
 - (long long);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (unsigned int);
 - (id);
@@ -23,12 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *sf_bundleID;
-@property(readonly, nonatomic) NSString *sf_error;
-@property(nonatomic) unsigned int sf_initiator;
-@property(readonly, nonatomic) NSString *sf_personRealName;
 @property(readonly, nonatomic) NSString *sf_publishingKey;
-@property(readonly, nonatomic) NSString *sf_sessionID;
-@property(nonatomic) long long sf_transferState;
 @end
 

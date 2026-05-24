@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDHAPMetadataTupleCache
 {
     NSMutableSet *_set;
-    struct os_unfair_lock_s _lock;
 }
 
-- (id);
+- (id)q;
 - (_Bool);
 - (void)lic}@Characteristic Color Temperature:(id)arg1 %@ is not supported, available characteristics:%@ /* Error: Ran out of types for this method. */;
 - (void)mumBitrate = %@ ;

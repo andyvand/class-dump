@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIKBResizingKeyplanePanGestureRecognizer, UIView, _UIDynamicAnimationGroup;
-@protocol UIKBResizingKeyplaneCoordinatorCoordinatorDelegate;
+@class UIKBResizingKeyplanePanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface UIKBResizingKeyplaneCoordinator
 {
     double _prevResizingOffset;
-    double _resizingOffset;
-    double _foregroundOpacity;
-    _UIDynamicAnimationGroup *_resizingAnimationGroup;
-    UIView *_grabber;
-    UIColor *_grabberColor;
-    _Bool _isResizing;
-    id <UIKBResizingKeyplaneCoordinatorCoordinatorDelegate> _delegate;
-    UIKBResizingKeyplanePanGestureRecognizer *_gestureRecognizer;
 }
 
 + (double);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);;
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (void)!Bù[1Â0@ù
@@ -45,17 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIKBResizingKeyplaneCoordinatorCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UIKBResizingKeyplanePanGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isResizing;
-@property(readonly, nonatomic) double resizingOffset; // @synthesize resizingOffset=_resizingOffset;
-@property(readonly) Class superclass;
 
 @end
 

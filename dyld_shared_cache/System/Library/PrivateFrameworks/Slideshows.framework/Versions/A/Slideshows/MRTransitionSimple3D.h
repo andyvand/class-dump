@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)fc_zlibInflate;
 - (void);
 
 @end

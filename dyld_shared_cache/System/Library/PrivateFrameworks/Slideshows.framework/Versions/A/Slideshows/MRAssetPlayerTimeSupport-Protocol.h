@@ -7,9 +7,6 @@
 @protocol MRAssetPlayerTimeSupport
 
 // Remaining properties
-@property(nonatomic) double duration;
-@property(nonatomic) _Bool isPlaying;
 @property(nonatomic) double startTime;
-@property(nonatomic) double time;
 @end
 

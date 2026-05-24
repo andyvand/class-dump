@@ -6,19 +6,9 @@
 
 #import <AuthenticationServices/ASCredentialRequestPaneViewController.h>
 
-@class ASCABLELoginChoice, ASCSecurityKeyPublicKeyCredentialLoginChoice, NSObject, NSString;
-@protocol OS_os_activity;
-
 @interface ASCredentialRequestCABLEClientViewController : ASCredentialRequestPaneViewController
 {
     long long _mode;
-    NSString *_serviceName;
-    unsigned long long _serviceType;
-    NSString *_destinationSiteForCrossSiteAssertion;
-    long long _cableAuthenticatorRequirement;
-    ASCABLELoginChoice *_loginChoice;
-    ASCSecurityKeyPublicKeyCredentialLoginChoice *_securityKeyLoginChoice;
-    NSObject<OS_os_activity> *_authorizationActivity;
 }
 
 - (id);
@@ -33,7 +23,7 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)@;
 - (void);
 
 @end

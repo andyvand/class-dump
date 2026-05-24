@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDictionary;
+@class CNContact;
 
 @protocol PKPaymentOptionsProtocol
+- (_Bool);
+- (void)9;
+- (void)v;
+- (void);
+- (void).;
+- (CNContact *)k;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *defaultBillingAddresses;
-@property(retain, nonatomic) CNContact *defaultContactEmail;
-@property(retain, nonatomic) CNContact *defaultContactName;
-@property(retain, nonatomic) CNContact *defaultContactPhone;
 @property(retain, nonatomic) CNContact *defaultShippingAddress;
-@property(nonatomic) _Bool useHideMyEmail;
 @end
 

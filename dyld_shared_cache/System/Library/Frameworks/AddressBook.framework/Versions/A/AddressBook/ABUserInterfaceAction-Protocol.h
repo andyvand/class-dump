@@ -5,9 +5,9 @@
 //
 
 @protocol ABUserInterfaceAction
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool executionWasAuthorized;
 @property(readonly, nonatomic) _Bool requiresAuthorizationBeforeExecution;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLinkIdentity, NSDictionary, NSString;
+@class NSString;
 
 @interface ICSharedListeningItem
 {
     _Bool _isAutoPlayItem;
-    NSString *_identifier;
-    NSString *_mediaIdentifier;
-    ICLiveLinkIdentity *_contributorIdentity;
-    NSDictionary *_playParams;
 }
 
 + (id);
@@ -25,17 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)ayInfoRequest;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ICLiveLinkIdentity *contributorIdentity; // @synthesize contributorIdentity=_contributorIdentity;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isAutoPlayItem; // @synthesize isAutoPlayItem=_isAutoPlayItem;
-@property(readonly, copy, nonatomic) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *playParams; // @synthesize playParams=_playParams;
-@property(readonly, copy, nonatomic) NSString *shortDescription;
 
 @end
 

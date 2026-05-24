@@ -4,88 +4,71 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDActionSetEvent, HMDApplicationData, HMDHome, HMFMessage, HMFMessageDispatcher, HMFTimer, NSArray, NSDate, NSDictionary, NSMutableArray, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDActionSet
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_currentActions;
-    NSString *_name;
-    NSString *_type;
-    NSUUID *_uuid;
-    NSUUID *_spiClientIdentifier;
-    HMDHome *_home;
-    NSDate *_lastExecutionDate;
-    HMFTimer *_executionTimeoutTimer;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    NSDate *_executionStart;
-    HMFMessage *_executionMessage;
-    NSDictionary *_executionInitialStates;
-    HMDActionSetEvent *_executionActionSetEvent;
-    HMDApplicationData *_appData;
 }
 
-+ (id);
++ (id)enumerateInferredRelationshipsUsingBlock: /* Error: Ran out of types for this method. */;
 + (_Bool)¨Jm;
 + (id)C;
-- (id);
+- (id)OffSynchronously:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)t;
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -99,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -108,30 +91,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (id)deviceAttestionVersion;
+- (id)bidirectionalStreamingRequest:(id)arg1 streamingResponseHandler:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)equest that hasn't negotiated compression.;
+- (id)xt is closed.;
+- (id)eAuthenticating>"8;
+- (void)sortUsingComparator:(id)arg1;
+- (id)setAllowLongAOI: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)6@24@32@40@48@56;
+- (void)B32@0:(id)arg1 8@"CPMSClientDescription"16^@24;
+- (id);
+- (id)nside of scrollbar;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id)C;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)
@@ -160,40 +143,7 @@ __attribute__((visibility("hidden")))
 - (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions;
-@property(retain, nonatomic) HMDApplicationData *appData; // @synthesize appData=_appData;
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, copy) NSArray *associatedAccessories;
-@property(readonly, nonatomic) _Bool containsMediaPlaybackActions;
-@property(readonly, nonatomic) _Bool containsShortcutActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDActionSetEvent *executionActionSetEvent; // @synthesize executionActionSetEvent=_executionActionSetEvent;
-@property(retain, nonatomic) NSDictionary *executionInitialStates; // @synthesize executionInitialStates=_executionInitialStates;
-@property(retain, nonatomic) HMFMessage *executionMessage; // @synthesize executionMessage=_executionMessage;
-@property(retain, nonatomic) NSDate *executionStart; // @synthesize executionStart=_executionStart;
-@property(retain, nonatomic) HMFTimer *executionTimeoutTimer; // @synthesize executionTimeoutTimer=_executionTimeoutTimer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSDate *lastExecutionDate; // @synthesize lastExecutionDate=_lastExecutionDate;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSString *serializedIdentifier;
-@property(readonly, copy) NSUUID *spiClientIdentifier; // @synthesize spiClientIdentifier=_spiClientIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, copy) NSString *urlString;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

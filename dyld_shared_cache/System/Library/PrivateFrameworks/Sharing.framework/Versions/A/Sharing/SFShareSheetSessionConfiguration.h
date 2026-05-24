@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, SFCollaborationCloudSharingRequest, SFShareSheetSessionTestingDataDump;
+@class NSDictionary;
 
 @interface SFShareSheetSessionConfiguration
 {
     _Bool _onlyActionExtensions;
-    _Bool _allowDisabledExtensions;
-    _Bool _isCollaborative;
-    NSDictionary *_matchingRules;
-    NSNumber *_collaborationType;
-    NSNumber *_collaborationIsPostShare;
-    SFCollaborationCloudSharingRequest *_collaborationCloudSharingRequest;
-    SFShareSheetSessionTestingDataDump *_testingReferenceDataDump;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (id);
@@ -35,20 +28,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)6;
 - (id);
-- (id);
-- (void);
+- (void)>;
 - (void)âþÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDisabledExtensions; // @synthesize allowDisabledExtensions=_allowDisabledExtensions;
-@property(retain, nonatomic) SFCollaborationCloudSharingRequest *collaborationCloudSharingRequest; // @synthesize collaborationCloudSharingRequest=_collaborationCloudSharingRequest;
-@property(retain, nonatomic) NSNumber *collaborationIsPostShare; // @synthesize collaborationIsPostShare=_collaborationIsPostShare;
-@property(retain, nonatomic) NSNumber *collaborationType; // @synthesize collaborationType=_collaborationType;
-@property(nonatomic) _Bool isCollaborative; // @synthesize isCollaborative=_isCollaborative;
 @property(retain, nonatomic) NSDictionary *matchingRules; // @synthesize matchingRules=_matchingRules;
-@property(nonatomic) _Bool onlyActionExtensions; // @synthesize onlyActionExtensions=_onlyActionExtensions;
-@property(retain, nonatomic) SFShareSheetSessionTestingDataDump *testingReferenceDataDump; // @synthesize testingReferenceDataDump=_testingReferenceDataDump;
 
 @end
 

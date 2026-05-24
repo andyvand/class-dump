@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSWorkspaceAuthorization)
-+ (id);
++ (id)h;
 @end
 

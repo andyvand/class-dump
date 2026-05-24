@@ -9,9 +9,6 @@
 @interface MFDatabaseRecoverer
 {
     NSCondition *_analysisCondition;
-    NSString *_path;
-    long long _type;
-    long long _analysisResult;
 }
 
 + (id);
@@ -29,20 +26,15 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)(T;
 
 // Remaining properties
-@property(readonly) _Bool aRemoteApplicationIsAccessingTheDatabase;
-@property long long analysisResult; // @synthesize analysisResult=_analysisResult;
-@property(readonly) _Bool fileLocked;
-@property(readonly) _Bool lockFileFound;
 @property(copy) NSString *path; // @synthesize path=_path;
-@property long long type; // @synthesize type=_type;
 
 @end
 

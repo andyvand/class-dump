@@ -6,18 +6,17 @@
 
 #import <CoreImage/CIDetector.h>
 
-@class CIContext, NSMutableDictionary;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface CIRectangleDetector : CIDetector
 {
     CIContext *context;
-    NSMutableDictionary *featureOptions;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (void);
 - (id);
 - (void);

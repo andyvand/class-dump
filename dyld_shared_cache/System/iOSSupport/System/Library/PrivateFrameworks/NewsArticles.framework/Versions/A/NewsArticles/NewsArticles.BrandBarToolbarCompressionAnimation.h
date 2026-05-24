@@ -7,14 +7,11 @@
 @interface NewsArticles.BrandBarToolbarCompressionAnimation
 {
     _Bool shouldCompressAtTop;
-    double topOffset;
-    _Bool shouldCloseGapOnScroll;
-    id brandBar;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
@@ -24,9 +21,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;
 @property(nonatomic, readonly) _Bool shouldCompressAtTop; // @synthesize shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset; // @synthesize topOffset;
 
 @end
 

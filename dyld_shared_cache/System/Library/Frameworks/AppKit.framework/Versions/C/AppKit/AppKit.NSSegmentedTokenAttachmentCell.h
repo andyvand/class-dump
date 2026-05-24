@@ -9,24 +9,20 @@
 @interface AppKit.NSSegmentedTokenAttachmentCell : NSTokenAttachmentCell
 {
     id titlePrefix;
-    id _scopeSize;
-    id _popUpMenu;
-    id viewForMenu;
-    id isPressed;
 }
 
 - (_Bool);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)nHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (struct CGRect)reForKey - unable to determine path to file for unlink.;
 - (id);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)spatch_data>"8{?=qi}16B32;
+- (void)n];
+- (struct CGSize)kCFURLDownloadResumeEntityTag;
 - (void);
-- (struct CGSize);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)ansparent:(_Bool)arg1;
+- (void)setWindowSharingTitlebarAppearsTransparent:(_Bool)arg1;
 - (id)ntentOffsetAdjustment;
 - (void)©­;
 - (_Bool)HH;

@@ -5,5 +5,12 @@
 //
 
 @protocol WFSlotTemplateViewDelegate
+
+@optional
+- (void)P;
+- (_Bool);
+- (void)T;
+- (void)(T;
+- (void);
 @end
 

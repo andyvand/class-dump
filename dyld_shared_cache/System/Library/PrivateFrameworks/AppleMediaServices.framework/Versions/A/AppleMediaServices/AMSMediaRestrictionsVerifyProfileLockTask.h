@@ -7,27 +7,22 @@
 #import <AppleMediaServices/AMSTask.h>
 
 @class ACAccount;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
 
 @interface AMSMediaRestrictionsVerifyProfileLockTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlSessionDelegate;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)sting file urls.;
 - (void)æA%ãágË®4pL^\Á,º#!	Nôy)¬2X!KBãÃBòr&ý9W(IìlÄWð=W}è'µï[Ò:qà0P:½J*_/o2ú¹ÐTÈ]E$s¿ SÞõ# <hÑ±JjSà=B>5MùÜ_Qv3³PÝþX f2kç¬sM>N?üòNq'uõ¨·}ï}ÇÆ·ÂübhÙ$½©í×âî`U´»ÏÐÄ /* Error: Ran out of types for this method. */;
 - (id)¤º¨[¤º¨V¤º¨%¤º¨(¤º¨$¤º¨)¤º¨Z¤º¨W¤º¨¢¤º¨¯¤º¨Ü¤º¨Ñ¤º¨Ý¤º¨Ð¤º¨£¤º¨®¤º¨¹¤º¨´¤º¨Ç¤º¨Ê¤º¨Æ¤º¨Ë¤º¨¸¤º¨µ¤º¨e¤º¨h¤º¨¤º¨¤º¨¤º¨¤º¨d¤º¨i¤º¨~¤º¨s¤º¨;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate; // @synthesize urlSessionDelegate=_urlSessionDelegate;
 
 @end
 

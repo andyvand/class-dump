@@ -7,7 +7,6 @@
 @protocol PFPlaybackSettingsDefaultsProvider
 
 // Remaining properties
-@property(nonatomic) _Bool enhanceDialogueEnabledGlobalValue;
 @property(nonatomic) float playbackRateGlobalValue;
 @end
 

@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface DialogEngineSchemaDialogEngineNamedEntity : SISchemaInstrumentationMessage
 {
     int _catParameter;
-    NSString *_catParameterValue;
-    struct {
-        unsigned int catParameter:1;
-    } _has;
-    _Bool _hasCatParameterValue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (void);
 - (_Bool);
 - (void);
@@ -28,23 +21,19 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)IAPAccessoryEQSelectEqualizerAtIndex;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)istantDaemonAudioRecordingContext";
-- (id)ionOutcome;
+- (id)PLUSSchemaPLUSMediaSuggestionOutcome;
 - (id)ÐK;
 - (void)ìI­f%;
 
 // Remaining properties
 @property(nonatomic) int catParameter; // @synthesize catParameter=_catParameter;
-@property(copy, nonatomic) NSString *catParameterValue; // @synthesize catParameterValue=_catParameterValue;
-@property(nonatomic) _Bool hasCatParameter;
-@property(nonatomic) _Bool hasCatParameterValue; // @synthesize hasCatParameterValue=_hasCatParameterValue;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

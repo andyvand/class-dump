@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id);
+- (void)_TtCV20SiriOntologyProtobuf35Google_Protobuf_FileDescriptorProtoP33_B62C77B489B1F84E4650498C184D518013_StorageClass;
 @end
 

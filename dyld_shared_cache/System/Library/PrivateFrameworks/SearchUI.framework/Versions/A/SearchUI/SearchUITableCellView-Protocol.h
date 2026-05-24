@@ -5,6 +5,7 @@
 //
 
 @protocol SearchUITableCellView
+- (struct NSEdgeInsets):vectorizerStrategy:vectorNormalization:vocab: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct NSEdgeInsets customEdgeInsets;

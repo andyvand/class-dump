@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
 @protocol WBSHistoryImporterDelegate><NSXPCProxyCreating;
 
 @interface WBSHistoryImporterDelegateProxy
 {
     id <WBSHistoryImporterDelegate><NSXPCProxyCreating> _delegate;
-    NSMutableSet *_uniqueHighLevelDomains;
-    unsigned long long _numberOfVisitImported;
 }
 
 - (unsigned long long);

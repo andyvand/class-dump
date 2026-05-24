@@ -10,17 +10,6 @@ __attribute__((visibility("hidden")))
 @interface URLWindowPolicyDecider
 {
     _Bool _middleMouseButtonWasClicked;
-    _Bool _respectKeyEquivalents;
-    _Bool _forOpeningCloudTab;
-    _Bool _requireCommandKey;
-    _Bool _commandClickCreatesNewTabs;
-    _Bool _newTabsAndWindowsOpenInFront;
-    _Bool _disallowAddToReadingList;
-    unsigned int _navigationType;
-    NSEvent *_event;
-    unsigned long long _eventType;
-    unsigned long long _eventModifierFlags;
-    CDUnknownBlockType _shouldNavigateToFavoriteInResponseToKeyEventDecider;
 }
 
 + (void);
@@ -30,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -42,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)C;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -52,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (unsigned int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (void);
 - (void)q¥1Â0@ù
@@ -61,18 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)êÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool commandClickCreatesNewTabs; // @synthesize commandClickCreatesNewTabs=_commandClickCreatesNewTabs;
-@property(nonatomic) _Bool disallowAddToReadingList; // @synthesize disallowAddToReadingList=_disallowAddToReadingList;
 @property(retain, nonatomic) NSEvent *event; // @synthesize event=_event;
-@property(nonatomic) unsigned long long eventModifierFlags; // @synthesize eventModifierFlags=_eventModifierFlags;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(nonatomic, getter=isForOpeningCloudTab) _Bool forOpeningCloudTab; // @synthesize forOpeningCloudTab=_forOpeningCloudTab;
-@property(nonatomic) _Bool middleMouseButtonWasClicked; // @synthesize middleMouseButtonWasClicked=_middleMouseButtonWasClicked;
-@property(nonatomic) unsigned int navigationType; // @synthesize navigationType=_navigationType;
-@property(nonatomic) _Bool newTabsAndWindowsOpenInFront; // @synthesize newTabsAndWindowsOpenInFront=_newTabsAndWindowsOpenInFront;
-@property(nonatomic) _Bool requireCommandKey; // @synthesize requireCommandKey=_requireCommandKey;
-@property(nonatomic) _Bool respectKeyEquivalents; // @synthesize respectKeyEquivalents=_respectKeyEquivalents;
-@property(copy, nonatomic) CDUnknownBlockType shouldNavigateToFavoriteInResponseToKeyEventDecider; // @synthesize shouldNavigateToFavoriteInResponseToKeyEventDecider=_shouldNavigateToFavoriteInResponseToKeyEventDecider;
 
 @end
 

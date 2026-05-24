@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BUStarfieldTimelineLayer, NSString, NSView;
-
 __attribute__((visibility("hidden")))
 @interface BU_TMTimeline
 {
     _Bool fEnabled;
-    long long fValue;
-    long long fMin;
-    long long fMax;
-    NSString *fHelpString;
-    struct TString fTitle;
-    double fRedrawDuration;
-    NSView *fParent;
-    BUStarfieldTimelineLayer *fSuperLayer;
-    struct shared_ptr<TTimelineControl> fTimeline;
 }
 
 + (id);
@@ -32,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -47,23 +36,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)=;
+- (void)rce-write.system;
+- (void);
+- (id);
+- (void)F1D3y3;
 - (void);
+- (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (void *);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (void);

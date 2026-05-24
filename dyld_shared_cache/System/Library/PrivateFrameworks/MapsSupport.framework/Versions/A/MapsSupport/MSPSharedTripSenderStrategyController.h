@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPSenderLiveStrategy, MSPSenderVirtualLiveStrategy, MSPSharedTripGroupSession, NSMutableArray, NSMutableDictionary;
-@protocol MSPSenderMessageStrategyDelegate;
+@class MSPSharedTripGroupSession;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripSenderStrategyController
 {
     MSPSharedTripGroupSession *_groupSession;
-    id <MSPSenderMessageStrategyDelegate> _messageStrategyDelegate;
-    NSMutableDictionary *_senderStrategiesByServiceName;
-    MSPSenderLiveStrategy *_liveSender;
-    NSMutableDictionary *_virtualSenderStrategiesByServiceName;
-    MSPSenderVirtualLiveStrategy *_virtualLiveSender;
-    NSMutableArray *_nestedVirtualReceiverEnablement;
 }
 
 + (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)T;
+- (_Bool);
+- (void)l;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)8
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 @end

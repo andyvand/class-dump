@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
+- (id)generateDateSynonymsFromToken:(id)arg1 previousToken:(id)arg2 isOrdinalToken:(id)arg3;
 - (id);
+- (long long)//;
 - (id);
-- (long long);
-- (id);
-- (void)iver: /* Error: Ran out of types for this method. */;
+- (void)generateEndEventFromHCI:withTransceiver: /* Error: Ran out of types for this method. */;
 
 @end
 

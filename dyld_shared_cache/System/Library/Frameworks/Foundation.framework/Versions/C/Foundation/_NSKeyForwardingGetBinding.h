@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyForwardingGetBinding : NSKeyGetBinding
 {
     _Bool _isStored;
-    char _padding[3];
 }
 
 - (id);

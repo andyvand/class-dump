@@ -6,20 +6,18 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, NSDictionary, NSString;
+@class ICStoreRequestContext;
 
 __attribute__((visibility("hidden")))
 @interface ICInAppReportEventRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    NSString *_messageIdentifier;
-    NSDictionary *_params;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)henticationValidationRequest;
+- (void)ICUserAuthenticationValidationRequest;
 
 @end
 

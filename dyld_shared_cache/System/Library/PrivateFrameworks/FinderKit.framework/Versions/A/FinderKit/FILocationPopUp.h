@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FILocationMenuFactory, NSArray, NSURL;
 @protocol FILocationPopUpDelegate;
 
 @interface FILocationPopUp
 {
     id <FILocationPopUpDelegate> _delegate;
-    id <FILocationPopUpDelegate> _weakDelegate;
-    struct TFENode _targetNode;
-    NSArray *_recentPlaces;
-    NSArray *_ubiquityContainerURLs;
-    CDStruct_4c969caf _audit_token;
-    struct TFENode _alternateICloudContainer;
-    struct TString _alternateICloudContainerName;
-    _Bool _nodeObserversInitialized;
-    _Bool _darkBackground;
-    double _scaleFactor;
-    struct TNotificationCenterObserver _iCloudLoginChangeObserver;
-    FILocationMenuFactory *_menuFactory;
-    _Bool _shouldShowDevices;
-    _Bool _shouldShowFavorites;
-    _Bool _shouldShowCloud;
-    _Bool _shouldIncludeAncestors;
-    _Bool _shouldShowKeyEquivalents;
-    _Bool _shouldAllowTargetingCloud;
 }
 
 - (_Bool);
@@ -50,7 +31,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (struct TFENode);
 - (void);
 - (void);
@@ -63,19 +44,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__AUTH_CONST;
+- (void)rchSessionEngagementAction %ld to create SFResultEngagementFeedback;
+- (void)sion.m;
+- (void)messageBody;
 - (_Bool);
+- (void)setAccessibilityMinValue: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (_Bool);
+- (id)setArchiveMailbox:(id)arg1;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -86,14 +67,6 @@
 
 // Remaining properties
 @property __weak id <FILocationPopUpDelegate> delegate;
-@property(retain) NSURL *directoryURL;
-@property(nonatomic) _Bool shouldAllowTargetingCloud; // @synthesize shouldAllowTargetingCloud=_shouldAllowTargetingCloud;
-@property(nonatomic) _Bool shouldIncludeAncestors; // @synthesize shouldIncludeAncestors=_shouldIncludeAncestors;
-@property(nonatomic) _Bool shouldShowCloud; // @synthesize shouldShowCloud=_shouldShowCloud;
-@property(nonatomic) _Bool shouldShowDevices; // @synthesize shouldShowDevices=_shouldShowDevices;
-@property(nonatomic) _Bool shouldShowFavorites; // @synthesize shouldShowFavorites=_shouldShowFavorites;
-@property(nonatomic) _Bool shouldShowKeyEquivalents; // @synthesize shouldShowKeyEquivalents=_shouldShowKeyEquivalents;
-@property(copy, nonatomic) NSArray *ubiquityContainerURLs;
 
 @end
 

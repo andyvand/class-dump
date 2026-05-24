@@ -5,5 +5,23 @@
 //
 
 @protocol MKMapGestureControllerDelegate
+- (void)PLClientLoggingAdaptivePermissionWorkQueue;
+- (void)___sFilterByIntervalBufferSync___;
+- (void)___BatchCacheSync___;
+- (void)ClientLogging;
+- (void)_%@;
+- (void)REDUCEBRIGHTNESS_INFO_TEXT;
+- (void)AUTOBRIGHTNESS_INFO_TEXT;
+- (void)insightsAndSuggestionsSummaryKey;
+- (void)hasNoteworthyInformation;
+- (void)mber"8@"NSNumber"16;
+- (void)__lastTimestamp;
+- (void)r;
+- (void)PerfPowerServices;
+- (void)om.apple.PerfPowerServices;
+- (void)werTelemetryClientRegistrationService;
+- (void)LinkType;
+- (_Bool)=%f, taskID=%@;
+- (struct CGPoint), linkType=%d, overallBytes=%f, overallDuration=%f TotalEnergy=%f, taskID=%@;
 @end
 

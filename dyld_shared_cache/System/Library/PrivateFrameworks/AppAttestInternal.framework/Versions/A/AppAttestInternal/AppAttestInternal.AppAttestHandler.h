@@ -7,25 +7,15 @@
 @interface AppAttestInternal.AppAttestHandler
 {
     id auditToken;
-    id $__lazy_storage_$_identityManager;
-    id $__lazy_storage_$_keyDataManager;
-    id $__lazy_storage_$_appUUIDDataManager;
-    id $__lazy_storage_$_assertionDataManager;
-    id $__lazy_storage_$_authenticationManager;
-    id $__lazy_storage_$_attestationManager;
-    id $__lazy_storage_$_eligibilityManager;
-    id $__lazy_storage_$_attestationCborManager;
-    id $__lazy_storage_$_assertionCborManager;
-    id logger;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)connection:(CDStruct_6ad76789)arg1 didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 

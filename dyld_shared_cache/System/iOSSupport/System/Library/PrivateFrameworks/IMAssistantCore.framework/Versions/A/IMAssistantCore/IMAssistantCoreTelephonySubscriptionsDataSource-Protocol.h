@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, TUSenderIdentity;
+
 @protocol IMAssistantCoreTelephonySubscriptionsDataSource
+- (NSString *)R;
+- (TUSenderIdentity *);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: B16@0:8
+// Property attributes: @"TUSenderIdentity"24@0:8@"NSArray"16
+
 @property(readonly, nonatomic) _Bool deviceHasMultipleSubscriptions;
 @end
 

@@ -17,13 +17,11 @@
 - (void);
 - (double);
 - (void);
-- (double);
-- (double);
+- (double);
+- (double);
 
 // Remaining properties
-@property(nonatomic) double falloff;
 @property(nonatomic) double intensity;
-@property(nonatomic) double radius;
 
 @end
 

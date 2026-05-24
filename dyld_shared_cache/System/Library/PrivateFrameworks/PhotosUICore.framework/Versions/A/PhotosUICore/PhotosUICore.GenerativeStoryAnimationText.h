@@ -7,7 +7,6 @@
 @interface PhotosUICore.GenerativeStoryAnimationText
 {
     id word;
-    id confidence;
 }
 
 @end

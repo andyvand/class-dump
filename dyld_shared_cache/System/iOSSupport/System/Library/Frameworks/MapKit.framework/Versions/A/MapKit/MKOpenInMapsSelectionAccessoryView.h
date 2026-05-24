@@ -6,20 +6,19 @@
 
 #import <MapKit/MKSelectionAccessoryView.h>
 
-@class NSURL, UIColor;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MKOpenInMapsSelectionAccessoryView : MKSelectionAccessoryView
 {
     NSURL *_url;
-    UIColor *_bgColor;
 }
 
-- (void);
+- (void)H;
 - (id);
 - (void);
-- (id);
-- (void)cesResultsWithBundleIdentifiers:source:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)appleMediaServicesResultsWithBundleIdentifiers:source:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCImageRotationConverterBase : VCImageConverterBase
 {
     struct OpaqueVTPixelRotationSession *_rotationSession;
-    unsigned int _rotationAngle;
 }
 
 - (id);

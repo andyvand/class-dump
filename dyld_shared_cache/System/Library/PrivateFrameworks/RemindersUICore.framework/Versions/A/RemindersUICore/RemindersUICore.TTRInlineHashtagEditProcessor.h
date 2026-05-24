@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRInlineHashtagEditProcessor
 {
     id changeDetailAdjuster;
-    id maxTokenTextCharacterCount;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface SUOSUNotificationManagerController
 {
     CDUnknownBlockType _customInterruptionHandler;
-    NSXPCConnection *_serviceConnection;
-    NSLock *_serviceConnectionLock;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_restartCountdownDownloadProgressHandlers;
-    NSMutableArray *_restartCountdownDownloadCompletionHandlers;
-    NSMutableArray *_restartCountdownCompletionHandlers;
 }
 
 - (void);
@@ -64,18 +57,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
-- (id)ATE;
+- (id)ENABLE_AUTO_UPDATE;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(copy) CDUnknownBlockType customInterruptionHandler; // @synthesize customInterruptionHandler=_customInterruptionHandler;
-@property(retain) NSMutableArray *restartCountdownCompletionHandlers; // @synthesize restartCountdownCompletionHandlers=_restartCountdownCompletionHandlers;
-@property(retain) NSMutableArray *restartCountdownDownloadCompletionHandlers; // @synthesize restartCountdownDownloadCompletionHandlers=_restartCountdownDownloadCompletionHandlers;
-@property(retain) NSMutableArray *restartCountdownDownloadProgressHandlers; // @synthesize restartCountdownDownloadProgressHandlers=_restartCountdownDownloadProgressHandlers;
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain) NSLock *serviceConnectionLock; // @synthesize serviceConnectionLock=_serviceConnectionLock;
 
 @end
 

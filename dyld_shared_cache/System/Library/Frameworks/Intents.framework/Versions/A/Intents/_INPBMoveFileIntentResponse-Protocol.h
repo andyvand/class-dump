@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBString;
+@class _INPBString;
 
 @protocol _INPBMoveFileIntentResponse
+- (void);
 - (_Bool);
+- (_Bool)';
+- (void):(_Bool)arg1 no data in step!
+;
+- (_Bool)tvEpisodeEpisodeName;
 - (void)ch face;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(copy, nonatomic) NSArray *entityNames;
-@property(readonly, nonatomic) unsigned long long entityNamesCount;
-@property(readonly, nonatomic) int *entityTypes;
-@property(readonly, nonatomic) unsigned long long entityTypesCount;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasOverwrite;
-@property(readonly, nonatomic) _Bool hasSourceName;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool overwrite;
-@property(retain, nonatomic) _INPBString *sourceName;
-@property(nonatomic) _Bool success;
 @end
 

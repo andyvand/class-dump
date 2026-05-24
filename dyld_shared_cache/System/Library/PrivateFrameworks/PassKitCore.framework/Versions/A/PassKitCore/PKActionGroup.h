@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PKActionGroup
 {
     struct os_unfair_lock_s _lock;
-    _Bool _activated;
-    _Atomic unsigned short _count;
-    struct atomic_flag _actionsWereAdded;
-    CDUnknownBlockType _completion;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (CDUnknownBlockType);
@@ -24,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)tnote;
+- (void)footnote;
 
 @end
 

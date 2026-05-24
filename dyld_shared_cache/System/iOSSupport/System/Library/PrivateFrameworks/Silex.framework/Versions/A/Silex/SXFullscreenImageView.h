@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXImageView, UIActivityIndicatorView, UIScrollView, UITapGestureRecognizer;
-@protocol SXFullscreenImageViewDelegate;
+@class SXImageView;
 
 @interface SXFullscreenImageView
 {
     _Bool _isZooming;
-    id <SXFullscreenImageViewDelegate> _delegate;
-    SXImageView *_contentView;
-    UIScrollView *_scrollView;
-    UITapGestureRecognizer *_doubleTapGestureRecognizer;
-    unsigned long long _viewIndex;
-    unsigned long long _activeGestureCount;
-    double _currentScale;
-    UIActivityIndicatorView *_activityIndicator;
-    struct CGPoint _currentTranslation;
-    struct CGRect _contentViewFrame;
 }
 
 - (unsigned long long);
@@ -39,7 +28,7 @@
 - (struct CGPoint);
 - (double);
 - (void);
-- (id);
+- (id)A�;
 - (void);
 - (struct CGRect);
 - (void);
@@ -50,29 +39,12 @@
 - (id);
 - (id);
 - (void)16^d24^d32^d40;
-- (void)elegate;
-- (void)tyHyphenationModifier;
+- (void)UIToolTipInteractionDelegate;
+- (void)SXAccessibilityHyphenationModifier;
 - (id)<TFResolver>"8;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeGestureCount; // @synthesize activeGestureCount=_activeGestureCount;
-@property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
 @property(retain, nonatomic) SXImageView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) struct CGRect contentViewFrame; // @synthesize contentViewFrame=_contentViewFrame;
-@property(nonatomic) double currentScale; // @synthesize currentScale=_currentScale;
-@property(nonatomic) struct CGPoint currentTranslation; // @synthesize currentTranslation=_currentTranslation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXFullscreenImageViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITapGestureRecognizer *doubleTapGestureRecognizer; // @synthesize doubleTapGestureRecognizer=_doubleTapGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isZooming; // @synthesize isZooming=_isZooming;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long viewIndex; // @synthesize viewIndex=_viewIndex;
 
 @end
 

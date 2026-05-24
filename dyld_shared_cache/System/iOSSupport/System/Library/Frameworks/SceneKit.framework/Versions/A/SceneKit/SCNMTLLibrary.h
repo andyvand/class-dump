@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, SCNMTLLibraryManager;
+@class NSURL;
 @protocol MTLLibrary;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLLibrary
 {
     NSURL *_libraryURL;
-    SCNMTLLibraryManager *_manager;
-    id <MTLLibrary> _library;
 }
 
-- (id);
+- (id)q;
 - (void);
 - (id)ps</string>
 			<key>metalVertexShader</key>

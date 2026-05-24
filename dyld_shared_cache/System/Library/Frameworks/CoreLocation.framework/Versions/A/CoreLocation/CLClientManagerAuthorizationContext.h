@@ -7,25 +7,18 @@
 @interface CLClientManagerAuthorizationContext
 {
     _Bool _authorizedForWidgetUpdates;
-    int _transientAwareRegistrationResult;
-    int _registrationResult;
-    int _inUseLevel;
-    unsigned long long _diagnosticMask;
-    unsigned long long _staticServiceMask;
-    unsigned long long _effectiveServiceMask;
-    unsigned long long _provisionalServiceMask;
 }
 
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)TableHeadTiltAngle;
+- (_Bool)s;
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ql;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -36,14 +29,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool authorizedForWidgetUpdates; // @synthesize authorizedForWidgetUpdates=_authorizedForWidgetUpdates;
-@property(readonly, nonatomic) unsigned long long diagnosticMask; // @synthesize diagnosticMask=_diagnosticMask;
-@property(readonly, nonatomic) unsigned long long effectiveServiceMask; // @synthesize effectiveServiceMask=_effectiveServiceMask;
-@property(readonly, nonatomic) int inUseLevel; // @synthesize inUseLevel=_inUseLevel;
-@property(readonly, nonatomic) unsigned long long provisionalServiceMask; // @synthesize provisionalServiceMask=_provisionalServiceMask;
-@property(readonly, nonatomic) int registrationResult; // @synthesize registrationResult=_registrationResult;
 @property(readonly, nonatomic) unsigned long long staticServiceMask; // @synthesize staticServiceMask=_staticServiceMask;
-@property(readonly, nonatomic) int transientAwareRegistrationResult; // @synthesize transientAwareRegistrationResult=_transientAwareRegistrationResult;
 
 @end
 

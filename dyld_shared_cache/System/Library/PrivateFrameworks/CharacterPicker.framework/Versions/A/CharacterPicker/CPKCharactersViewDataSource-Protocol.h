@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol CPKCharacterEntity;
+
 @protocol CPKCharactersViewDataSource
 
 @optional
-- (long long)dowHeaderView;
+- (long long);
+- (NSString *)h;
+- (_Bool);
+- (id <CPKCharacterEntity>);
+- (unsigned long long);
+- (long long)CPKWindowHeaderView;
 @end
 

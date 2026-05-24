@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRFullPayloadCorrectionContext, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    ASRSchemaASRFullPayloadCorrectionContext *_fullPayloadCorrectionContext;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasFullPayloadCorrectionContext;
 }
 
 - (void);
@@ -26,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)deviceStates;
 - (id);
 - (void);
 - (unsigned long long);
@@ -34,15 +31,11 @@
 - (_Bool);
 - (id);
 - (id)Usage7Days"b1"nowPlayingUsage14Days"b1"isRawLastNowPlayingCoreDuet"b1"isRawMediaCategoryAudiobookSignal"b1"isRawMediaCategoryMusicSignal"b1"isRawMediaCategoryPodcastSignal"b1"isRawMediaCategoryRadioSignal"b1"isRawMediaCategoryVideoSignal"b1"rawMediaTypeUsageSignalBook"b1"rawMediaTypeUsageSignalMusic"b1"rawMediaTypeUsageSignalPodcast"b1"rawMediaTypeUsageSignalVideo"b1"rawNowPlayingCountCoreDuet10Min"b1"rawNowPlayingCountCoreDuet1Day"b1"rawNowPlayingCountCoreDuet1Hr"b1"rawNowPlayingCountCoreDuet28Day"b1"rawNowPlayingCountCoreDuet2Min"b1"rawNowPlayingCountCoreDuet6Hr"b1"rawNowPlayingCountCoreDuet7Day"b1"rawNowPlayingRecencyCD"b1"rawEntitySearchRecency"b1"usageScoreBooks"b1"usageScoreMusic"b1"usageScorePodcasts"b1"isAppFirstParty"b1"isRequestedApp"b1"isNowPlayingBundlePSE1"b1"isNowPlayingBundlePSE2"b1"vq21Score"b1"isSupportedFlag"b1"isUnicornFlag"b1"isSupportedUnicornMatchFlag"b1"isDisambiguationSelectedApp"b1"isModelPredictedApp"b1"usageScoreRadio"b1"usageScoreMusicWithoutRadio"b1"rawMediaTypeUsageSignalRadio"b1"rawMediaTypeUsageSignalMusicWithoutRadio"b1"subscriptionStatus"b1"isRawNowPlayingBundle"b1"rawNowPlayingTotal"b1"rawNowPlayingBundleScore"b1"isRawLastNowPlaying"b1"rawNowPlaying2Minutes"b1"rawNowPlaying10Minutes"b1"rawNowPlaying1Hour"b1"rawNowPlaying6Hours"b1"rawNowPlaying1Day"b1"rawNowPlaying7Days"b1"rawNowPlaying28Days"b1"rawLastNowPlayingRecency"b1"commonForegroundBundleApp"b1"isRawLastNowPlayingBoolean"b1"isCommonForegroundApp"b1"isBoltEnabled"b1"usageScoreMusicWithoutRadioRemote"b1"usageScoreBooksRemote"b1"usageScoreRadioRemote"b1"usageScorePodcastsRemote"b1"entitySearchBundleScoreRemote"b1"usageScoreMusicRemote"b1};
-- (id)tionCounts;
+- (id)ODDSiriSchemaODDDictationCounts;
 - (id)Pp;
 - (void)ÿ­ÿ±%;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRFullPayloadCorrectionContext *fullPayloadCorrectionContext; // @synthesize fullPayloadCorrectionContext=_fullPayloadCorrectionContext;
-@property(nonatomic) _Bool hasFullPayloadCorrectionContext; // @synthesize hasFullPayloadCorrectionContext=_hasFullPayloadCorrectionContext;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

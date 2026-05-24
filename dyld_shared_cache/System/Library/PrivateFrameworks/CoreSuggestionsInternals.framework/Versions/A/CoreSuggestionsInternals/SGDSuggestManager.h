@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSDictionary, NSLock, NSOperationQueue, NSString, NSXPCConnection, PETEventTracker2, SGCoalescingDropBox, SGDManagerForCTS, SGEKEventStoreProvider, SGFuture, SGSearchableItemIdTriple, SGServiceContext, SGSqlEntityStore, SGSuggestHistory, SGXpcTransaction, _PASLock, _PASNotificationToken;
+@class SGServiceContext, SGSqlEntityStore;
 
 @interface SGDSuggestManager
 {
     SGSqlEntityStore *_harvestStore;
-    NSXPCConnection *_connection;
-    SGSuggestHistory *_history;
-    _PASNotificationToken *_assetUpdateToken;
-    NSOperationQueue *_messageHarvestQueue;
-    SGDManagerForCTS *_ctsManager;
-    SGEKEventStoreProvider *_ekStoreProvider;
-    CNContactStore *_contactStore;
-    NSDictionary *_bundleIdToPET;
-    NSLock *_dirtyLock;
-    SGXpcTransaction *_dirtyTransaction;
-    SGSearchableItemIdTriple *_lastSuggestionsFromMessageRequest;
-    SGFuture *_lastSuggestionsFromMessageResponse;
-    NSLock *_lastSuggestionsFromMessageLock;
-    int _settingsChangeToken;
-    PETEventTracker2 *_pet2Tracker;
-    SGCoalescingDropBox *_purgeDeletionDropBox;
-    _PASLock *_recentlyHarvestedDetailLock;
-    _Bool _persistRealtimeExtractions;
-    _PASLock *_bufferedInteractionsForBundleLock;
-    SGServiceContext *_context;
-    NSString *_clientName;
 }
 
 + (_Bool);
@@ -39,20 +18,20 @@
 + (id);
 + (CDUnknownBlockType);
 + (id);
++ (id)readCharacterProperties:(id)arg1 specialInfo:(_Bool)arg2 state:(_Bool)arg3;
++ (void)mHasSecondaryMixedColumn;
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-- (void);
+- (void)L;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)܇;
 - (void);
 - (_Bool);
 - (void);
@@ -64,31 +43,31 @@
 - (void);
 - (void);
 - (void);
+- (void)applyChangesToContacts:(id)arg1;
+- (void);
+- (void)P;
+- (void);
+- (void);
+- (id)y, 02-13-2022);
+- (void);
+- (void)tacts.ViewingList;
+- (void)] default actions changed;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned short);
 - (void);
 - (void);
@@ -101,8 +80,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)tSize:garbageSymbol: /* Error: Ran out of types for this method. */;
+- (void)hj78-;
 - (id);
 - (void);
 - (void);
@@ -112,10 +91,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)
+;
 - (id);
-- (void);
-- (void);
+- (void)setTranslatesAutoresizingMaskIntoConstraints:(id)arg1;
+- (void)EVRoutingManifestKeyNameForIApDenylist;
 - (void);
 - (_Bool);
 - (void);
@@ -124,17 +104,17 @@
 - (id);
 - (id);
 - (id);
+- (void)ion;
+- (void)canConnectToMediaArtworkService;
+- (void);
+- (void);
+- (void);
+- (void)RedirectToRecipients;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)];
 - (id);
 - (_Bool);
 - (id);
@@ -146,9 +126,38 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)tadata:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)Transform=dddddd}16;
+- (void)writeFormulasFromGeometry:(id)arg1 toPath:(CDUnknownBlockType)arg2;
+- (void)URLForResource:(id)arg1 withExtension:(unsigned long long)arg2 subdirectory:(CDUnknownBlockType)arg3;
+- (void)mapWordProperties:(id)arg1 toProperties:(CDUnknownBlockType)arg2;
+- (_Bool)(;
+- (void);
+- (void)Mshtakan;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)33PptRoundTripContentMasterInfoAtom;
+- (void)FGHIPQU7777R77777777777	"#$%&'()*+,-.17871ST!6DE5=)*VWX;;R11115577777777777777:(id)arg1 57@A77JNFG71	77
+7	7777777775555555555555	:(CDUnknownBlockType)arg2 EKLMO77777776D !77A7N	E5W7X7777775MO77176DN7;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)`n;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -156,47 +165,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void));
 - (struct SGMContactDetailUsedApp_);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -210,46 +191,46 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void)ion:(id)arg1 supportsMultipleAccounts:(unsigned long long)arg2;
+- (void)m.apple.accounts.rdp-txn;
+- (void)(=;
 - (void);
+- (id);
+- (id);
+- (void)initWithDirectoryPath: /* Error: Ran out of types for this method. */;
+- (void)rity:(unsigned int)arg1 completionHandler:(CDUnknownBlockType)arg2 ]_block_invoke;
+- (void)itManager setupSubscription]_block_invoke;
 - (void);
-- (void);
+- (void)3;
 - (void)0@ù
 × ;
 - (id);
 - (void)ð1Â0@ù
 × ;
-- (void)andChunks:(long long)arg1;
-- (void):(id)arg1 rejectionUI:(CDUnknownBlockType)arg2 pet2Tracker: /* Error: Ran out of types for this method. */;
-- (void)rLanguage:(id)arg1;
-- (void)alization;
-- (void)thId:(long long)arg1 origin:(id)arg2;
+- (void)writeToPlistWithObject:(long long)arg1 andChunks:(id)arg2;
+- (void)recordRejectedContact:(id)arg1 inApp:(CDUnknownBlockType)arg2 rejectionUI:pet2Tracker: /* Error: Ran out of types for this method. */;
+- (void)newTransformerInstanceForLanguage:(id)arg1;
+- (void)activeAggregatedAccuracyLogSinceModelInitialization;
+- (void)convertToLocationWithId:(long long)arg1 origin:(id)arg2;
 - (void)ø´`;
 - (void)E confirmedFieldValues (entityId INTEGER PRIMARY KEY,fieldValues BLOB,maybeChanged BOOLEAN);
-- (void)t;
+- (void)test;
 - (void)d features);
 - (void)DMatchDate;
 - (void)yId > 0   AND e.masterEntityId NOT IN (SELECT id FROM %@);
 - (id)an Standard Time;
-- (void)essagesToRefreshWithCompletion;
+- (void)messagesToRefreshWithCompletion;
 - (void)ry_ctEmlSub_%lu;
-- (id)LE__HOTEL_RESTAURANT_NAME;
+- (id)TITLE__HOTEL_RESTAURANT_NAME;
 - (void)nds;
 - (void);
 - (void);
@@ -302,15 +283,7 @@ t
 - (void)ð&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
 @property(readonly, nonatomic) SGServiceContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,15 +7,10 @@
 @interface AppStoreKit.ImpressionsCalculator
 {
     id base;
-    id childCalculators;
-    id parentItemID;
-    id impressionIdCount;
-    id viewSafeAreaInsets;
-    id wasVisibleBeforeGoingIntoBackground;
 }
 
 - (void);
-- (void);
+- (void);
 
 @end
 

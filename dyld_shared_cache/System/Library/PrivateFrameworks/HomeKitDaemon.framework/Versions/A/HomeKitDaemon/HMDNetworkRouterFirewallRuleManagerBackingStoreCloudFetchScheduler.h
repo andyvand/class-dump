@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchScheduler
 {
     _Bool _running;
-    NSString *_identifier;
-    double _interval;
-    double _retryInterval;
-    id <HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate> _delegate;
-    NSObject<OS_xpc_object> *_runningActivity;
-    NSObject<OS_xpc_object> *_overrideCriteria;
-    double _currentInterval;
 }
 
 + (void);
 + (id)jB;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)shouldSyncMergeHistoryAfterCheckingOrCreatingMarkerFile;
+- (id)rver] Removed connection %@ from subscriptions for trip:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -47,21 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)hanged;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentInterval; // @synthesize currentInterval=_currentInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *overrideCriteria; // @synthesize overrideCriteria=_overrideCriteria;
-@property(readonly, nonatomic) double retryInterval; // @synthesize retryInterval=_retryInterval;
 @property(nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *runningActivity; // @synthesize runningActivity=_runningActivity;
-@property(readonly) Class superclass;
 
 @end
 

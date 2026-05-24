@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary;
-@protocol CIPlugInRegistration;
+@class NSBundle;
 
 @interface CIPlugIn
 {
@@ -36,16 +35,11 @@
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (long long)defaultAllocator;
+- (void)vR;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *descriptionDictionary;
-@property(readonly, retain, nonatomic) NSDictionary *filtersDictionary;
-@property(nonatomic) long long flags;
-@property(nonatomic) int loadStatus;
 @property(retain, nonatomic) NSBundle *plugInBundle;
-@property(retain, nonatomic) id <CIPlugInRegistration> pluginLoader;
 
 @end
 

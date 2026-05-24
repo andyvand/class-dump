@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatSourceMapCollection
 {
     id sourcePaths;
-    id sourceContext;
 }
 
 @end

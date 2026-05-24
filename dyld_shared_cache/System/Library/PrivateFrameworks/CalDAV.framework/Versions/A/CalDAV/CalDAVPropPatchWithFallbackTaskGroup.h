@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVResponseItem, NSSet, NSURL;
+@class CoreDAVResponseItem, NSURL;
 
 @interface CalDAVPropPatchWithFallbackTaskGroup
 {
     NSURL *_url;
-    NSSet *_primaryElements;
-    NSSet *_fallbackElements;
-    CoreDAVResponseItem *_responseItem;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)J	JJ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVResponseItem *responseItem; // @synthesize responseItem=_responseItem;

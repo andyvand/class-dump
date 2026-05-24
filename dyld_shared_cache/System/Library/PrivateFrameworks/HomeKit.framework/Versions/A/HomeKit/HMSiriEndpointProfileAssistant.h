@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface HMSiriEndpointProfileAssistant
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_identifier;
-    NSString *_name;
-    long long _active;
-    NSUUID *_uniqueIdentifier;
 }
 
 + (id);
@@ -22,41 +18,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)W;
 - (id);
 - (id);
 - (void);
-- (void)ettingsProtoBoolSettingEvent;
+- (id)bandage;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)HMImmutableSettingsProtoBoolSettingEvent;
 - (long long)e credential;
 
 // Remaining properties
-@property long long active; // @synthesize active=_active;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNumber *identifier; // @synthesize identifier=_identifier;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly, nonatomic, getter=isSiriAssistant) _Bool siriAssistant;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

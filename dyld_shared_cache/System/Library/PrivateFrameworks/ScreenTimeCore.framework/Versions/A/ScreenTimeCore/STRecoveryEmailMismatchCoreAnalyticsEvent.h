@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface STRecoveryEmailMismatchCoreAnalyticsEvent
 {
     _Bool _isRecoveryEmailMismatched;
 }
 
 + (id);
-- (_Bool);
-- (id);
+- (_Bool)play_order >= 59;
+- (id)ternal_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool isRecoveryEmailMismatched; // @synthesize isRecoveryEmailMismatched=_isRecoveryEmailMismatched;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 
 @end
 

@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
+- (void)Ra9;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

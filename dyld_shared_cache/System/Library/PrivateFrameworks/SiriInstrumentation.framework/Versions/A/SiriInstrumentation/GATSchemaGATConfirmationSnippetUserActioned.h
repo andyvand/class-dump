@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATConfirmationSnippetUserActioned : SISchemaInstrumentationMessage
 {
     int _outcome;
-    CDStruct_ed540088 _has;
 }
 
 - (void);
@@ -19,19 +16,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)_childrenToneClassicsPickerItems;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)orFollowup"b1"isAirPlay"b1"mediaType"b1"isSubscriber"b1};
 - (id)ted",&,N,V_aftmScore;
 - (id)S;
-- (int)DevicesMatchingCandidate;
+- (int)fractionOfCommunalDevicesMatchingCandidate;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int outcome; // @synthesize outcome=_outcome;
 
 @end

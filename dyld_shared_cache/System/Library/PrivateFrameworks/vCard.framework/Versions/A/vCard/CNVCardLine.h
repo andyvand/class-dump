@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface CNVCardLine
 {
     NSString *_name;
-    id _value;
-    NSMutableArray *_parameters;
-    NSString *_grouping;
-    NSMutableArray *_groupedLines;
-    NSString *_itemSeparator;
 }
 
++ (id)6;
 + (id);
 + (id);
 + (id);
-+ (id);
+- (void) ;
 - (void);
-- (void);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
@@ -37,19 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *groupedLines; // @synthesize groupedLines=_groupedLines;
-@property(readonly) NSString *groupingName; // @synthesize groupingName=_grouping;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *itemSeparator; // @synthesize itemSeparator=_itemSeparator;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

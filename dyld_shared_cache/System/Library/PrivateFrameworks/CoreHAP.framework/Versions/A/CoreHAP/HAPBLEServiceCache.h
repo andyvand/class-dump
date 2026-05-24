@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSUUID;
+@class NSUUID;
 
 @interface HAPBLEServiceCache
 {
     NSUUID *_serviceUUID;
-    NSNumber *_serviceInstanceId;
-    unsigned long long _serviceInstanceOrder;
-    unsigned long long _serviceProperties;
-    NSArray *_linkedServices;
-    NSMutableArray *_cachedCharacteristics;
 }
 
 + (_Bool);
@@ -30,20 +25,15 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)initWithMemoryCapacity:diskCapacity:diskPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_uniqueIdentifier;
 - (void);
 - (void);
 - (void)Queue";
 - (id)èÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cachedCharacteristics; // @synthesize cachedCharacteristics=_cachedCharacteristics;
-@property(retain, nonatomic) NSArray *linkedServices; // @synthesize linkedServices=_linkedServices;
-@property(readonly, nonatomic) NSNumber *serviceInstanceId; // @synthesize serviceInstanceId=_serviceInstanceId;
 @property(nonatomic) unsigned long long serviceInstanceOrder; // @synthesize serviceInstanceOrder=_serviceInstanceOrder;
-@property(nonatomic) unsigned long long serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(readonly, nonatomic) NSUUID *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
 
 @end
 

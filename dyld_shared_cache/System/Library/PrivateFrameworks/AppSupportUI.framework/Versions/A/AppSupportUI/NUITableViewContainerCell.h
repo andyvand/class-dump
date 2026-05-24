@@ -14,8 +14,8 @@
 + (Class);
 - (void);
 - (unsigned long long);
-- (struct CGSize);
-- (id);
+- (struct CGSize)ram:(struct CGSize)arg1 %s;
+- (id);
 - (_Bool);
 - (void);
 - (id);

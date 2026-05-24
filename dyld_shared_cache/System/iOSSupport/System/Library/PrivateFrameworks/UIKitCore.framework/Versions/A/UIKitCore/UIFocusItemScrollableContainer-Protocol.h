@@ -5,12 +5,12 @@
 //
 
 @protocol UIFocusItemScrollableContainer
-- (struct CGPoint)ngOnBackgroundViews: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (void)k;
+- (struct CGPoint)_setOverrideAllowsHitTestingOnBackgroundViews: /* Error: Ran out of types for this method. */;
 - (struct CGSize)kÑ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) struct CGSize visibleSize;
 @end
 

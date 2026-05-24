@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)Challenge must have init parameters;
+- (_Bool)s;
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (long long);
+- (id)_unfair_lock_opaque"I};
+- (long long)defaultFontSize;
 
 @end
 

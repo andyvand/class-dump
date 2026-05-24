@@ -9,8 +9,6 @@
 @interface RBSXPCServiceDefinition
 {
     NSString *_identifier;
-    long long _variant;
-    long long _scope;
 }
 
 + (_Bool);
@@ -19,26 +17,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)9;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long variant; // @synthesize variant=_variant;
 
 @end
 

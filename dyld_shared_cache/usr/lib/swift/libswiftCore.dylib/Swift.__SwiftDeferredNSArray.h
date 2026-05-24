@@ -9,10 +9,9 @@
 @interface Swift.__SwiftDeferredNSArray : Swift.__SwiftNativeNSArrayWithContiguousStorage
 {
     id _heapBufferBridged_DoNotUse;
-    id _nativeStorage;
 }
 
-- (long long);
+- (long long)P;
 
 // Remaining properties
 @property(nonatomic, readonly) long long count;

@@ -4,48 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOPDMapsIdentifier, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPMerchantLookupContext
 {
     PBDataReader *_reader;
-    NSString *_correlationId;
-    NSString *_merchantAdamId;
-    NSString *_merchantFormattedAddress;
-    GEOPDMapsIdentifier *_merchantId;
-    NSString *_merchantIndustryCategory;
-    long long _merchantIndustryCode;
-    NSString *_merchantName;
-    NSString *_merchantRawName;
-    NSString *_merchantUrl;
-    GEOLocation *_transactionLocation;
-    double _transactionTime;
-    NSString *_transactionType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestTransactionType;
-    _Bool _isAppleCard;
-    struct {
-        unsigned int has_merchantIndustryCode:1;
-        unsigned int has_transactionTime:1;
-        unsigned int has_requestTransactionType:1;
-        unsigned int has_isAppleCard:1;
-        unsigned int read_correlationId:1;
-        unsigned int read_merchantAdamId:1;
-        unsigned int read_merchantFormattedAddress:1;
-        unsigned int read_merchantId:1;
-        unsigned int read_merchantIndustryCategory:1;
-        unsigned int read_merchantName:1;
-        unsigned int read_merchantRawName:1;
-        unsigned int read_merchantUrl:1;
-        unsigned int read_transactionLocation:1;
-        unsigned int read_transactionType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)teRoamMaxRSSI:(id)arg1;
++ (_Bool)setLateRoamMaxRSSI:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -61,8 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
+- (void)notificationID;
+- (int)_persistenceBackend;
 - (id);
 - (id);
 - (long long);
@@ -70,6 +36,7 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)r (%{public}@) was returned while trying to save the managed object context after migrating legacy iOS identifiers.;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,8 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (double);
@@ -94,54 +60,27 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)i;
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
+- (id)<CSAudioStreamProviding>"16d24;
+- (void)CSBuiltInVoiceTrigger;
+- (void)ple.siridebug.command.fetch.voicegradingdata.csaudio;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)nitTransitShields";
-- (id)dvisorys;
+- (id)clearAdvisorys;
 - (id)Z¤ZD[Ä[ \¬\´]<^D_;
 - (id)make more than %u requests in %u seconds, will reset in %u seconds;
 - (void)ªöO@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *correlationId;
-@property(readonly, nonatomic) _Bool hasCorrelationId;
-@property(nonatomic) _Bool hasIsAppleCard;
-@property(readonly, nonatomic) _Bool hasMerchantAdamId;
-@property(readonly, nonatomic) _Bool hasMerchantFormattedAddress;
-@property(readonly, nonatomic) _Bool hasMerchantId;
-@property(readonly, nonatomic) _Bool hasMerchantIndustryCategory;
 @property(nonatomic) _Bool hasMerchantIndustryCode;
-@property(readonly, nonatomic) _Bool hasMerchantName;
-@property(readonly, nonatomic) _Bool hasMerchantRawName;
-@property(readonly, nonatomic) _Bool hasMerchantUrl;
-@property(nonatomic) _Bool hasRequestTransactionType;
-@property(readonly, nonatomic) _Bool hasTransactionLocation;
-@property(nonatomic) _Bool hasTransactionTime;
-@property(readonly, nonatomic) _Bool hasTransactionType;
-@property(nonatomic) _Bool isAppleCard;
-@property(retain, nonatomic) NSString *merchantAdamId;
-@property(retain, nonatomic) NSString *merchantFormattedAddress;
-@property(retain, nonatomic) GEOPDMapsIdentifier *merchantId;
-@property(retain, nonatomic) NSString *merchantIndustryCategory;
-@property(nonatomic) long long merchantIndustryCode;
-@property(retain, nonatomic) NSString *merchantName;
-@property(retain, nonatomic) NSString *merchantRawName;
-@property(retain, nonatomic) NSString *merchantUrl;
-@property(nonatomic) int requestTransactionType;
-@property(retain, nonatomic) GEOLocation *transactionLocation;
-@property(nonatomic) double transactionTime;
-@property(retain, nonatomic) NSString *transactionType;
 
 @end
 

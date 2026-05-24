@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, WDText;
+@class WDText;
 
 __attribute__((visibility("hidden")))
 @interface WDAnnotationData
 {
     WDText *mText;
-    NSDate *mDate;
-    NSString *mOwner;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

@@ -11,23 +11,17 @@
 @interface ConversationKit.RoundedImageButton : ConversationKit.CallControlsButton
 {
     id imageView;
-    id $__lazy_storage_$_badgeLayer;
-    id symbol;
-    id showBadge;
-    id badgeColor;
 }
 
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)detectSpecialCase:preferredLocales: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) NSImage *image;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic, retain) NSImage *symbolImage;
 
 @end

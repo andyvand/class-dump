@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)ks;
 + (void);
 - (void);
 - (id);

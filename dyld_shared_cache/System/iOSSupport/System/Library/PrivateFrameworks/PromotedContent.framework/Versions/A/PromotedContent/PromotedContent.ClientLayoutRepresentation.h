@@ -9,25 +9,6 @@
 @interface PromotedContent.ClientLayoutRepresentation : APPCContentRepresentation
 {
     id locale;
-    id headline;
-    id accessibilityHeadline;
-    id caption;
-    id accessibilityCaption;
-    id adCopy;
-    id accessibilityAdCopy;
-    id sponsoredBy;
-    id elements;
-    id adFormatType;
-    id sponsoredByAssetURL;
-    id sponsoredByAssetProxyURL;
-    id sponsoredByAssetURLForDarkModeProxyURL;
-    id button;
-    id actionURL;
-    id localizedHeadlines;
-    id targetingDimensions;
-    id style;
-    id journeyRelayCampaignID;
-    id skipThreshold;
 }
 
 - (void);

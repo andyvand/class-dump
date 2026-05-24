@@ -9,9 +9,6 @@
 @interface ChronoKit.MacOSSystemEnvironmentProvider : ChronoKit.EnvironmentProvider
 {
     id windowServerEventConnection;
-    id keybagStateProvider;
-    id subscriptions;
-    id _colorSchemeStringValue;
 }
 
 @end

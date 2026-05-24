@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSHashTable, NSMapTable, NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCListener, NSXPCListenerEndpoint, TKPowerMonitor, TKSlotParameters, TKSmartCardATR, TKSmartCardSessionEngine;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log, TKSmartCardSlotEngineDelegate;
+@protocol TKSmartCardSlotEngineDelegate;
 
 @interface TKSmartCardSlotEngine
 {
     unsigned long long _lastId;
-    long long _state;
-    long long _powerState;
-    long long _previousState;
-    double _cardReinsertionSimulationCallInterval;
-    NSDate *_lastCardReinsertionSimulationCallTime;
-    TKSmartCardATR *_atr;
-    unsigned long long _protocol;
-    NSObject<OS_dispatch_source> *_idlePowerDownSource;
-    NSXPCConnection *_registrationConnection;
-    NSXPCListener *_listener;
-    NSHashTable *_clients;
-    NSMutableArray *_sessionRequests;
-    NSMapTable *_stateRequests;
-    NSMapTable *_reservations;
-    TKPowerMonitor *_powerMonitor;
-    NSObject<OS_os_log> *_log;
-    _Bool _apduSentSinceLastReset;
-    double _powerDownIdleTimeout;
-    TKSlotParameters *_slotParameters;
-    NSXPCListenerEndpoint *_serverEndpoint;
-    id <TKSmartCardSlotEngineDelegate> _delegate;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_powerRequestsQueue;
-    TKSmartCardSessionEngine *_session;
 }
 
 + (void);
@@ -46,7 +20,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -65,7 +39,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -76,38 +50,23 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)MKBKeyBagKeyStashCommit;
 - (_Bool);
 
 // Remaining properties
-@property _Bool apduSentSinceLastReset; // @synthesize apduSentSinceLastReset=_apduSentSinceLastReset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <TKSmartCardSlotEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property double powerDownIdleTimeout; // @synthesize powerDownIdleTimeout=_powerDownIdleTimeout;
-@property(retain) NSObject<OS_dispatch_queue> *powerRequestsQueue; // @synthesize powerRequestsQueue=_powerRequestsQueue;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSXPCListenerEndpoint *serverEndpoint; // @synthesize serverEndpoint=_serverEndpoint;
-@property __weak TKSmartCardSessionEngine *session; // @synthesize session=_session;
-@property(readonly, copy) TKSlotParameters *slotParameters; // @synthesize slotParameters=_slotParameters;
-@property(readonly) Class superclass;
 
 @end
 

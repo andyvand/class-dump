@@ -13,13 +13,12 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id)initWithDecision:(struct _NSZone *)arg1 withLimiter:validityDuration:rationale: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)r:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFamilySuspended) _Bool familySuspended;
 @property(readonly, nonatomic, getter=isiCloudSuspended) _Bool iCloudSuspended;
 
 @end

@@ -10,7 +10,6 @@
 @interface RTNotifier
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_observersMap;
 }
 
 - (void);
@@ -19,13 +18,13 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id)5,;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)ToUnconcreteMap;
 - (void)Age,%{public}f,isZdrLocStale,%{public}d,isZdrSetupLoc,%{public}d;
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *observersMap; // @synthesize observersMap=_observersMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

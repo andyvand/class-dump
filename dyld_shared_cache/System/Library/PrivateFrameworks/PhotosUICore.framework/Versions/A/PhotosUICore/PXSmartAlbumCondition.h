@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PLSingleQuery, PXLabeledValue;
-@protocol PXSmartAlbumConditionDelegate, PXSmartAlbumEditingContext;
+@class NSArray;
 
 @interface PXSmartAlbumCondition
 {
     NSArray *_comparatorValues;
-    long long _conditionType;
-    id <PXSmartAlbumEditingContext> _editingContext;
-    PLSingleQuery *_singleQuery;
-    id <PXSmartAlbumConditionDelegate> _delegate;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (long long);
@@ -36,13 +31,7 @@
 - (long long)õµÀ½;
 
 // Remaining properties
-@property(readonly, nonatomic) long long comparatorParameterType;
-@property(retain, nonatomic) PXLabeledValue *comparatorValue;
-@property(readonly, nonatomic) NSArray *comparatorValues;
 @property(readonly, nonatomic) long long conditionType; // @synthesize conditionType=_conditionType;
-@property(nonatomic) __weak id <PXSmartAlbumConditionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) id <PXSmartAlbumEditingContext> editingContext; // @synthesize editingContext=_editingContext;
-@property(readonly, nonatomic) PLSingleQuery *singleQuery; // @synthesize singleQuery=_singleQuery;
 
 @end
 

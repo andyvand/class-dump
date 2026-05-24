@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface SFDynamicURLImageResource
 {
     struct {
@@ -13,11 +11,6 @@
         unsigned int pixelHeight:1;
         unsigned int supportsResizing:1;
     } _has;
-    _Bool _supportsResizing;
-    double _pixelWidth;
-    double _pixelHeight;
-    NSString *_formatURL;
-    NSArray *_imageOptions;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`B;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -36,33 +29,20 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)sectionFilterText;
 - (unsigned long long);
-- (id);
+- (id)letionQueue;
 - (double);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)tdown-Tick;
+- (id)t=dd}{CGSize=dd}}32o^d64;
+- (id)PHQueryForAssetInAlbumKind_VerticalPanoramasAlbum_block_invoke_51;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *formatURL; // @synthesize formatURL=_formatURL;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *imageOptions; // @synthesize imageOptions=_imageOptions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double pixelHeight; // @synthesize pixelHeight=_pixelHeight;
 @property(nonatomic) double pixelWidth; // @synthesize pixelWidth=_pixelWidth;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsResizing; // @synthesize supportsResizing=_supportsResizing;
 
 @end
 

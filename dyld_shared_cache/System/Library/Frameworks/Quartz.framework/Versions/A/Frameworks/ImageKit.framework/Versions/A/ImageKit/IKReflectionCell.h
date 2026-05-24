@@ -17,8 +17,8 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (unsigned long long);
-- (void);
+- (unsigned long long)e:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly) struct CGRect reflectionFrame;

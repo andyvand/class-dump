@@ -9,9 +9,6 @@
 @interface CNPhoneNumber
 {
     NSString *_initialCountryCode;
-    NSString *_stringValue;
-    struct os_unfair_lock_s _stateLock;
-    struct __CFPhoneNumber *_phoneNumberRef;
 }
 
 @end

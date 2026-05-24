@@ -4,23 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol SiriUIPresentationDataSource, SiriUIPresentationDelegate;
 
 @protocol SiriUIPresentation
 
 @optional
+- (void);
+- (_Bool)qa;
+- (_Bool)A9JC;
+- (void)A�);
+- (void)h&;
+- (void)ѻ;
+- (void);
+- (void);
+- (id <SiriUIPresentationDelegate>)G;
 - (void)];
-- (NSArray *);
 
 // Remaining properties
 @property(nonatomic) __weak id <SiriUIPresentationDataSource> dataSource;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<SiriUIPresentationDataSource>",?,W,N
-
-@property(nonatomic) __weak id <SiriUIPresentationDelegate> delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SiriUIPresentationDelegate>",?,W,N
 
 @end
 

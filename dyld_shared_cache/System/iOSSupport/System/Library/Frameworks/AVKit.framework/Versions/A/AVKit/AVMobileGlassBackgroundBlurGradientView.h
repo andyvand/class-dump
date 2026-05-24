@@ -6,27 +6,25 @@
 
 #import <AVKit/AVView.h>
 
-@class CAGradientLayer, UIVisualEffectView;
+@class UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassBackgroundBlurGradientView : AVView
 {
     UIVisualEffectView *_visualEffectView;
-    CAGradientLayer *_gradientLayer;
 }
 
 + (Class);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)entationProperties",&,N,V_leading;
 - (void)AÐ!Eùq[ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
 @property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end

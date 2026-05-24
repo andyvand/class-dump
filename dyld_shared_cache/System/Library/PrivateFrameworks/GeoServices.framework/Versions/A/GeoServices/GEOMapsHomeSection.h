@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCollectionSuggestionResult, NSString;
-
 @interface GEOMapsHomeSection
 {
     long long _sectionType;
-    NSString *_name;
-    GEOCollectionSuggestionResult *_collectionSuggestionResult;
 }
 
 - (id);
-- (id);
+- (id)_captureUserAction:onTarget:withAnalyticsMessageValues: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long)8;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOCollectionSuggestionResult *collectionSuggestionResult; // @synthesize collectionSuggestionResult=_collectionSuggestionResult;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) long long sectionType; // @synthesize sectionType=_sectionType;
 
 @end

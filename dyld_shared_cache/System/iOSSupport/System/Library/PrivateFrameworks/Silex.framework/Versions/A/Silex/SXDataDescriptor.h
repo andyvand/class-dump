@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXDataFormat, SXFormattedText;
+@class NSString;
 
 @interface SXDataDescriptor : SXJSONObject
 {
@@ -18,11 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataType; // @dynamic dataType;
-@property(readonly, nonatomic) SXDataFormat *format; // @dynamic format;
 @property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSString *key; // @dynamic key;
-@property(readonly, nonatomic) SXFormattedText *label; // @dynamic label;
 
 @end
 

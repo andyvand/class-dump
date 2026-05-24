@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString, TUContinuityHandleAnonym;
+@class CNContact;
 
 @interface TUContinuityFavorite
 {
     CNContact *_contact;
-    NSString *_contactIdentifier;
-    TUContinuityHandleAnonym *_anonym;
-    NSString *_actionType;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
@@ -26,15 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (void)cIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setAvcIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) TUContinuityHandleAnonym *anonym; // @synthesize anonym=_anonym;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *displayName;
 
 @end
 

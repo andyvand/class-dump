@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NSPPrivacyProxyTokenAttester
 {
     NSMutableArray *_associatedIssuers;
-    NSString *_attesterURL;
-    int _authType;
-    CDStruct_d24dfd21 _has;
 }
 
 + (Class);
@@ -26,24 +23,21 @@
 - (int);
 - (id);
 - (id);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int)";
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *associatedIssuers; // @synthesize associatedIssuers=_associatedIssuers;
-@property(retain, nonatomic) NSString *attesterURL; // @synthesize attesterURL=_attesterURL;
-@property(nonatomic) int authType; // @synthesize authType=_authType;
 @property(nonatomic) _Bool hasAuthType;
 
 @end

@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface CKUnreadCountLabelCell : CKTranscriptMultilineLabelCell
 {
     UIView *_leftSeparator;
-    UIView *_rightSeparator;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)ndexPathDictionaryV2Key;
+- (void)setReservedForTextContentStorage:(id)arg1;
+- (void)setAvatarContainerViews:(id)arg1;
+- (id)initWithAttachment:size:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock:queue: /* Error: Ran out of types for this method. */;
+- (id)_attachmentBrickZoomFactor;
+- (void)_account;
+- (id)}16;
+- (void)kCKBrowserSelectionControllerIndexPathDictionaryV2Key;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *leftSeparator; // @synthesize leftSeparator=_leftSeparator;
-@property(retain, nonatomic) UIView *rightSeparator; // @synthesize rightSeparator=_rightSeparator;
 
 @end
 

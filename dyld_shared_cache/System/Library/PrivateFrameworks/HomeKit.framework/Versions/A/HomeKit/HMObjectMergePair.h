@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMObjectMergePair
 {
     id <HMObjectMerge> _oldObject;
-    id <HMObjectMerge> _updatedObject;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id <HMObjectMerge> oldObject; // @synthesize oldObject=_oldObject;
-@property(readonly) id <HMObjectMerge> updatedObject; // @synthesize updatedObject=_updatedObject;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void)C;
+- (id)P;
 - (id);
 - (void);
 

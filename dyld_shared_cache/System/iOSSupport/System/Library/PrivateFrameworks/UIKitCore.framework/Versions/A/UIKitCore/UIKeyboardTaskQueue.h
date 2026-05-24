@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSConditionLock, NSMutableArray, UIKeyboardTaskEntry, UIKeyboardTaskExecutionContext;
+@class UIKeyboardTaskExecutionContext;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardTaskQueue
 {
     _Bool _executingOnMainThread;
-    NSConditionLock *_lock;
-    NSMutableArray *_tasks;
-    NSMutableArray *_deferredTasks;
-    UIKeyboardTaskExecutionContext *_executionContext;
-    UIKeyboardTaskEntry *_mainThreadContinuation;
-    NSArray *_activeOriginator;
-    CDUnknownBlockType _activeTaskBreadcrumb;
-    CDUnknownBlockType _diagnosticTrampoline;
 }
 
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)ies.framework/Versions/A/MetadataUtilities;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,14 +31,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)2@0:(CDUnknownBlockType)arg1 8@16{CGPoint=dd}24{CGVector=dd}40{CGVector=dd}56;
 - (void)0:(CDUnknownBlockType)arg1 8@16@24@32;
-- (id)roupCompletion: /* Error: Ran out of types for this method. */;
-- (void)KeyboardSuppressionAssertionsForReason:(CDUnknownBlockType)arg1;
-- (CDUnknownBlockType)Element;
-- (void)litiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
-- (id)ort;
+- (id)setAnimationGroupCompletion: /* Error: Ran out of types for this method. */;
+- (void)hasActiveKeyboardSuppressionAssertionsForReason:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)_selectedTabElement;
+- (void)_postInputResponderCapabilitiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
+- (id)SwiftSupport;
 - (void)7;
 - (void)¼;
-- (void)n;
+- (void)rootTransformOrientation;
 - (_Bool));
 - (void)corner (;
 - (void)7ySo31UIWindowSceneProminentPlacementCG;
@@ -60,9 +52,6 @@ __attribute__((visibility("hidden")))
 - (void)ZµÿbÜËPHi;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeOriginator; // @synthesize activeOriginator=_activeOriginator;
-@property(copy, nonatomic) CDUnknownBlockType activeTaskBreadcrumb; // @synthesize activeTaskBreadcrumb=_activeTaskBreadcrumb;
-@property(copy, nonatomic) CDUnknownBlockType diagnosticTrampoline; // @synthesize diagnosticTrampoline=_diagnosticTrampoline;
 @property(retain, nonatomic) UIKeyboardTaskExecutionContext *executionContext; // @synthesize executionContext=_executionContext;
 
 @end

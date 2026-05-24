@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PET2LoggingOutlet
 {
     NSObject<OS_dispatch_queue> *_loggingQueue;
-    NSDictionary *_pet1HistogramBuckets;
-    NSMutableDictionary *_addKeys;
-    NSMutableDictionary *_updateKeys;
-    NSObject<OS_os_transaction> *_batchTxn;
 }
 
 + (id);
@@ -23,17 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ary/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

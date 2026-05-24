@@ -6,32 +6,26 @@
 
 #import <CoreSuggestions/SGObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SGDelivery : SGObject
 {
     NSURL *_parentURL;
-    NSString *_externalIdentifier;
-    unsigned long long _provider;
-    NSString *_trackingNumber;
 }
 
 - (id);
-- (id);
+- (id)(areas:%{public}@, userId:%{public}@, canonicalAccountIdentifier:%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
 @property(readonly, nonatomic) NSURL *parentURL; // @synthesize parentURL=_parentURL;
-@property(readonly, nonatomic) unsigned long long provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSString *trackingNumber; // @synthesize trackingNumber=_trackingNumber;
 
 @end
 

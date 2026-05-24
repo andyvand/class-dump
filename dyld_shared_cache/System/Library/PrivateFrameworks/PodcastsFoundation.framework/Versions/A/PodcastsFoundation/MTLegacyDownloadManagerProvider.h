@@ -6,19 +6,17 @@
 
 #import <PodcastsFoundation/MTSingleton.h>
 
-@class MTLegacyDownloadNotifier;
 @protocol MTLegacyDownloadManagerProtocol><MTLegacyDownloadDataSource><MTBackgroundURLSessionEventsHandler><MTURLSessionInvalidator;
 
 @interface MTLegacyDownloadManagerProvider : MTSingleton
 {
     id <MTLegacyDownloadManagerProtocol><MTLegacyDownloadDataSource><MTBackgroundURLSessionEventsHandler><MTURLSessionInvalidator> _downloads;
-    MTLegacyDownloadNotifier *_notifier;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)%Ț;
 - (void);
 - (id);
 - (id);
@@ -27,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLegacyDownloadManagerProtocol><MTLegacyDownloadDataSource><MTBackgroundURLSessionEventsHandler><MTURLSessionInvalidator> downloads; // @synthesize downloads=_downloads;
-@property(retain, nonatomic) MTLegacyDownloadNotifier *notifier; // @synthesize notifier=_notifier;
 
 @end
 

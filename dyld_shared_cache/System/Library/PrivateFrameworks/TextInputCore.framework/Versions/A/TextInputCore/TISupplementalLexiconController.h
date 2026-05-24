@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, TISupplementalLexicon;
-@protocol OS_dispatch_source, TISupplementalLexiconControllerDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TISupplementalLexiconController
 {
     NSMutableDictionary *_lexicons;
-    NSMutableDictionary *_entityStores;
-    unsigned long long _activeLexiconIdentifier;
-    NSObject<OS_dispatch_source> *_processExitDispatchSource;
-    _Bool _needsAtSignSearchPrefixQuirk;
-    int _connectionIdentifier;
-    id <TISupplementalLexiconControllerDelegate> _delegate;
 }
 
-- (void);
+- (void)setNanoSynchronizeQueue:(unsigned long long)arg1;
+- (id)copyWithZone:(unsigned long long)arg1;
+- (id)continuityRTTIsSupported;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct _LXLexicon *);
-- (struct _LXLexicon *);
-- (id);
+- (void)for update messages:%@ /* Error: Ran out of types for this method. */;
+- (void)queue;
+- (struct _LXLexicon *)32@?0@"CTXPCServiceSubscriptionContext"8Q16^B24;
+- (struct _LXLexicon *)B24;
+- (id)2@?0@"CNLabeledValue"8Q16^B24;
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)d without error.;
 - (id);
-- (void);
+- (void)ccessibilityFoundation.framework/Versions/A/AccessibilityFoundation;
 
 // Remaining properties
-@property(readonly, nonatomic) TISupplementalLexicon *activeLexicon;
-@property(readonly, nonatomic) struct _LXLexicon *activePhraseLexicon;
-@property(readonly, nonatomic) struct _LXLexicon *activeWordLexicon;
 @property(readonly, nonatomic) int connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(nonatomic) __weak id <TISupplementalLexiconControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

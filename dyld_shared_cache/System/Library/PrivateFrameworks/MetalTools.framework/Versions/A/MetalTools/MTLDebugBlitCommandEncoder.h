@@ -6,45 +6,13 @@
 
 #import <MetalTools/MTLToolsBlitCommandEncoder.h>
 
-@class MTLDebugCommandBuffer;
-
 @interface MTLDebugBlitCommandEncoder : MTLToolsBlitCommandEncoder
 {
     _Bool canDealloc;
-    _Bool canEndEncoding;
-    _Bool hasEndEncoding;
-    struct deque<id, std::allocator<id>> updatedFences;
-    MTLDebugCommandBuffer *_commandBuffer;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)QI}S);
 - (void);
 - (void);
 - (void);
@@ -64,7 +32,33 @@
 - (void);
 - (void);
 - (void);
-- (void)tor;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void) ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)vertexFunctionDescriptor;
 
 @end
 

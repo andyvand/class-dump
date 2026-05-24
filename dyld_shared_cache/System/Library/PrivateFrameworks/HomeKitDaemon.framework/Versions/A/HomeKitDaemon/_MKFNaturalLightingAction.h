@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFNaturalLightingActionDatabaseID, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFActionSet, MKFHAPAccessory, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFNaturalLightingAction : _MKFAction
@@ -15,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (Class);
++ (Class);
 + (id);
 + (id);
 - (id);
@@ -24,30 +23,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFHAPAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
-@property(readonly, copy, nonatomic) MKFNaturalLightingActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSUUID *lightProfileUUID; // @dynamic lightProfileUUID;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSNumber *naturalLightingEnabledField; // @dynamic naturalLightingEnabledField;
-@property(retain, nonatomic) NSSet *serviceUUIDs; // @dynamic serviceUUIDs;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

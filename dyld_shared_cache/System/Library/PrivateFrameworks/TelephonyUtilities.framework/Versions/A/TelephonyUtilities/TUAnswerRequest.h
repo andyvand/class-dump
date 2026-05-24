@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDestination, NSDate, NSString;
+@class NSDate;
 
 @interface TUAnswerRequest
 {
     _Bool _wantsHoldMusic;
-    _Bool _pauseVideoToStart;
-    _Bool _downgradeToAudio;
-    _Bool _sendToScreening;
-    _Bool _screeningDueToUserInteraction;
-    _Bool _launchInBackground;
-    _Bool _allowBluetoothAnswerWithoutDowngrade;
-    NSString *_uniqueProxyIdentifier;
-    NSString *_sourceIdentifier;
-    IDSDestination *_endpointIDSDestination;
-    NSString *_endpointRapportMediaSystemIdentifier;
-    NSString *_endpointRapportEffectiveIdentifier;
-    long long _behavior;
-    long long _screeningType;
-    NSDate *_dateAnswered;
-    struct CGSize _localLandscapeAspectRatio;
-    struct CGSize _localPortraitAspectRatio;
 }
 
-+ (_Bool);
++ (_Bool)5;
 - (_Bool);
 - (id);
 - (void);
@@ -40,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -56,7 +40,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -65,36 +49,13 @@
 - (void);
 - (struct CGSize);
 - (struct CGSize);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void)okens;
+- (void)_valueForMatchingHostName:(long long)arg1 inRegisteredHostNames: /* Error: Ran out of types for this method. */;
+- (void)mediaTokens;
 
 // Remaining properties
-@property(nonatomic) _Bool allowBluetoothAnswerWithoutDowngrade; // @synthesize allowBluetoothAnswerWithoutDowngrade=_allowBluetoothAnswerWithoutDowngrade;
-@property(nonatomic) long long behavior; // @synthesize behavior=_behavior;
 @property(retain, nonatomic) NSDate *dateAnswered; // @synthesize dateAnswered=_dateAnswered;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool downgradeToAudio; // @synthesize downgradeToAudio=_downgradeToAudio;
-@property(retain, nonatomic) IDSDestination *endpointIDSDestination; // @synthesize endpointIDSDestination=_endpointIDSDestination;
-@property(retain, nonatomic) NSString *endpointRapportEffectiveIdentifier; // @synthesize endpointRapportEffectiveIdentifier=_endpointRapportEffectiveIdentifier;
-@property(retain, nonatomic) NSString *endpointRapportMediaSystemIdentifier; // @synthesize endpointRapportMediaSystemIdentifier=_endpointRapportMediaSystemIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool launchInBackground; // @synthesize launchInBackground=_launchInBackground;
-@property(nonatomic) struct CGSize localLandscapeAspectRatio; // @synthesize localLandscapeAspectRatio=_localLandscapeAspectRatio;
-@property(nonatomic) struct CGSize localPortraitAspectRatio; // @synthesize localPortraitAspectRatio=_localPortraitAspectRatio;
-@property(nonatomic) _Bool pauseVideoToStart; // @synthesize pauseVideoToStart=_pauseVideoToStart;
-@property(nonatomic) _Bool screeningDueToUserInteraction; // @synthesize screeningDueToUserInteraction=_screeningDueToUserInteraction;
-@property(nonatomic) long long screeningType; // @synthesize screeningType=_screeningType;
-@property(nonatomic) _Bool sendToScreening; // @synthesize sendToScreening=_sendToScreening;
-@property(copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *uniqueProxyIdentifier; // @synthesize uniqueProxyIdentifier=_uniqueProxyIdentifier;
-@property(nonatomic) _Bool wantsHoldMusic; // @synthesize wantsHoldMusic=_wantsHoldMusic;
 
 @end
 

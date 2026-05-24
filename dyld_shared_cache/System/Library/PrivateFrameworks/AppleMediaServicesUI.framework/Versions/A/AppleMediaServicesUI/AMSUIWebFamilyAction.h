@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFamilyAction : AMSUIWebAction
@@ -14,23 +14,15 @@ __attribute__((visibility("hidden")))
     ACAccount *_account;
 }
 
+- (id)dds-periodic-update-lock;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void)aymentAuthorizationController"16@"PKPaymentMethod"24@?<v@?@"PKPaymentRequestPaymentMethodUpdate">32;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

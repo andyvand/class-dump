@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface TMIOKitDisk
 {
     unsigned long long _traits;
-    NSString *_name;
-    NSString *_volumeUUID;
-    NSNumber *_volumeRole;
-    NSString *_volumeGroupUUID;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)storage_usage_by_media;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 @property(readonly) unsigned long long traits; // @synthesize traits=_traits;
-@property(readonly, copy) NSString *volumeGroupUUID; // @synthesize volumeGroupUUID=_volumeGroupUUID;
-@property(readonly, copy) NSNumber *volumeRole; // @synthesize volumeRole=_volumeRole;
-@property(readonly, copy) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

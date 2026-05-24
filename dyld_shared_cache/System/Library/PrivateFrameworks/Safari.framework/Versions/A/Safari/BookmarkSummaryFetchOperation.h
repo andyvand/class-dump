@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebKitPreferencesManager;
-
 __attribute__((visibility("hidden")))
 @interface BookmarkSummaryFetchOperation
 {
     CDUnknownBlockType _completionHandler;
-    struct Context _context;
-    WebKitPreferencesManager *_preferencesManager;
-    struct unique_ptr<Safari::ReadingListFetcher, std::default_delete<Safari::ReadingListFetcher>> _fetcher;
 }
 
 - (id);
@@ -22,19 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)setBlockList:account: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)¬;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,21 +6,9 @@
 
 #import <AudioServerDriver/ASDAudioDevice.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface ASDSRCAudioDevice : ASDAudioDevice
 {
     double _samplingRate;
-    NSArray *_samplingRates;
-    NSObject<OS_dispatch_queue> *_sampleRateQueue;
-    struct {
-        unsigned char valid;
-        double sampleTime;
-        unsigned long long hostTime;
-        unsigned long long seed;
-    } _lastTimestamp;
-    ASDAudioDevice *_underlyingDevice;
 }
 
 - (unsigned int);
@@ -29,18 +17,18 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)C;
 - (unsigned int);
 - (int);
 - (CDUnknownBlockType);
-- (_Bool);
-- (double);
+- (_Bool)t64 field '%s' to %lld;
+- (double);
 - (unsigned int);
 - (void);
 - (double);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -49,8 +37,8 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (CDUnknownBlockType);
-- (int);
+- (CDUnknownBlockType)@,lastsleep=%@,thissleep=%@;
+- (int)ext;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -60,31 +48,24 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (int);
+- (int)calendar shares is not supported on account ID %@. calendar ID:(unsigned int)arg1 %@;
 - (void);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)_selectedIdentitiesBlob;
 - (id);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (int)ampleRate;
 - (CDUnknownBlockType)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) ASDAudioDevice *underlyingDevice; // @synthesize underlyingDevice=_underlyingDevice;
 
 @end

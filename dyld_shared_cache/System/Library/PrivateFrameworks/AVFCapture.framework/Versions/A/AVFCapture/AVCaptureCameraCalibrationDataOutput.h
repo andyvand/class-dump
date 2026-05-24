@@ -6,50 +6,37 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, NSObject, NSString;
-@protocol AVCaptureCameraCalibrationDataOutputDelegate, OS_dispatch_queue;
+@class AVCaptureDataOutputDelegateCallbackHelper;
+@protocol AVCaptureCameraCalibrationDataOutputDelegate;
 
 @interface AVCaptureCameraCalibrationDataOutput : AVCaptureOutput
 {
     AVCaptureDataOutputDelegateCallbackHelper *_delegateCallbackHelper;
-    AVWeakReference *_weakReference;
-    _Bool _alwaysDiscardsLateCameraCalibrationData;
 }
 
 + (id);
 + (void)>>> Fig;
-- (void);
-- (void);
+- (void)eworks/DAAPKit.framework/DAAPKit;
+- (void)rts requests of type MSVArtworkServiceConversionRequest;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)P;
 - (id);
 - (void);
+- (id)ipelineStage:tailCompressorPipelineStage] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void)raLaunchTelemetry;
-- (id)eMetadataOutput_Tundra;
+- (void)AVCaptureVideoPreviewLayerCameraLaunchTelemetry;
+- (id)AVCaptureMetadataOutput_Tundra;
 - (id)|B;
 - (void)>>>> %s:(struct OpaqueFigCaptureSession *)arg1 [%{public}@] Supported frame duration range for %@ (%lld / %d - %lld / %d);
 - (void)t on qt file writer unit;
-- (_Bool)VGQCaptureDefaultDevicePrefersUnsuspendedAndAllowsAnyPosition;
+- (_Bool)AVGQCaptureDefaultDevicePrefersUnsuspendedAndAllowsAnyPosition;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLateCameraCalibrationData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <AVCaptureCameraCalibrationDataOutputDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

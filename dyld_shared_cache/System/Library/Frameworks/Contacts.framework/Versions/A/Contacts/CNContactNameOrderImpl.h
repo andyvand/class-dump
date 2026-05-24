@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)8Ԉ8;
 + (id);
 + (id);
 + (id);

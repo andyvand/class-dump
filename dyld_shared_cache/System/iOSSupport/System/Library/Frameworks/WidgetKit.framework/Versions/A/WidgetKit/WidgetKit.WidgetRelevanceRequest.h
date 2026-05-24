@@ -7,13 +7,12 @@
 @interface WidgetKit.WidgetRelevanceRequest
 {
     id kind;
-    id archiveFileHandle;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)B[;
+- (void)i;
 - (void)¸øåÿÿÿÿÿ;
 
 @end

@@ -6,22 +6,19 @@
 
 #import <Vision/VNCVMLObservation_LegacySupportDoNotChange.h>
 
-@class MPImageDescriptor_LegacySupportDoNotChange, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface VNCVMLImageprintObservation_LegacySupportDoNotChange : VNCVMLObservation_LegacySupportDoNotChange
 {
     NSUUID *_identifier;
-    MPImageDescriptor_LegacySupportDoNotChange *_imageprintDescriptor;
-    NSString *_imageprintType;
-    NSString *_imageprintVersion;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)P;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)_isEnterpriseDomain;
 - (id);
 - (void);
 - (id);

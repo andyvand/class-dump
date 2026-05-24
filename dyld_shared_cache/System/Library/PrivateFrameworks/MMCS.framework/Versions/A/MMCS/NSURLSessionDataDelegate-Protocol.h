@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)iMessageEnabledForReachabilityContext:(NSURLSession *)arg1;
+- (void)B;
 @end
 

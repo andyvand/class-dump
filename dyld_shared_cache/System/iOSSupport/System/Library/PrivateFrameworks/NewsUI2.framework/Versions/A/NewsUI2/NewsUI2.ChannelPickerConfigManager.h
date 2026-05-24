@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelPickerConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

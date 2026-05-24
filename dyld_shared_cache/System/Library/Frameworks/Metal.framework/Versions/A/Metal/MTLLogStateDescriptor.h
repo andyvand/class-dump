@@ -7,20 +7,18 @@
 @interface MTLLogStateDescriptor
 {
     long long _level;
-    long long _bufferSize;
 }
 
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)P;
+- (long long);
 - (_Bool);
 - (id);
 - (long long);
 
 // Remaining properties
-@property long long bufferSize; // @synthesize bufferSize=_bufferSize;
 @property long long level; // @synthesize level=_level;
 
 @end

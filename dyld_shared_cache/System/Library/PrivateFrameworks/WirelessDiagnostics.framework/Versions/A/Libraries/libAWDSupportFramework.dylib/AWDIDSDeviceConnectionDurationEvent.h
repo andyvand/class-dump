@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSDeviceConnectionDurationEvent
 {
     unsigned long long _clientInitToClientOpenSocketHandler;
-    unsigned long long _clientInitToDaemonOpenSocket;
-    unsigned long long _clientOpenSocketHandlerToIncomingFirstPacket;
-    unsigned long long _connectionInitToIncomingFirstPacket;
-    unsigned long long _daemonCompletionHandlerToClientOpenSocketCompletion;
-    unsigned long long _daemonCompletionHandlerToIncomingFirstPacket;
-    unsigned long long _daemonOpenSocketToDaemonCompletionHandler;
-    unsigned long long _timestamp;
-    NSString *_serviceName;
-    _Bool _success;
-    struct {
-        unsigned int clientInitToClientOpenSocketHandler:1;
-        unsigned int clientInitToDaemonOpenSocket:1;
-        unsigned int clientOpenSocketHandlerToIncomingFirstPacket:1;
-        unsigned int connectionInitToIncomingFirstPacket:1;
-        unsigned int daemonCompletionHandlerToClientOpenSocketCompletion:1;
-        unsigned int daemonCompletionHandlerToIncomingFirstPacket:1;
-        unsigned int daemonOpenSocketToDaemonCompletionHandler:1;
-        unsigned int timestamp:1;
-        unsigned int success:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@�*;
 - (void);
 - (void);
 - (void);
@@ -47,14 +25,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)"z;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -63,11 +41,12 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)(@9	;
 - (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)`
+;
 - (_Bool);
 - (void);
 - (void);
@@ -79,29 +58,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)p;
+- (void)hasChannelSwitchDuringHostSleep;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clientInitToClientOpenSocketHandler; // @synthesize clientInitToClientOpenSocketHandler=_clientInitToClientOpenSocketHandler;
-@property(nonatomic) unsigned long long clientInitToDaemonOpenSocket; // @synthesize clientInitToDaemonOpenSocket=_clientInitToDaemonOpenSocket;
-@property(nonatomic) unsigned long long clientOpenSocketHandlerToIncomingFirstPacket; // @synthesize clientOpenSocketHandlerToIncomingFirstPacket=_clientOpenSocketHandlerToIncomingFirstPacket;
-@property(nonatomic) unsigned long long connectionInitToIncomingFirstPacket; // @synthesize connectionInitToIncomingFirstPacket=_connectionInitToIncomingFirstPacket;
-@property(nonatomic) unsigned long long daemonCompletionHandlerToClientOpenSocketCompletion; // @synthesize daemonCompletionHandlerToClientOpenSocketCompletion=_daemonCompletionHandlerToClientOpenSocketCompletion;
-@property(nonatomic) unsigned long long daemonCompletionHandlerToIncomingFirstPacket; // @synthesize daemonCompletionHandlerToIncomingFirstPacket=_daemonCompletionHandlerToIncomingFirstPacket;
-@property(nonatomic) unsigned long long daemonOpenSocketToDaemonCompletionHandler; // @synthesize daemonOpenSocketToDaemonCompletionHandler=_daemonOpenSocketToDaemonCompletionHandler;
-@property(nonatomic) _Bool hasClientInitToClientOpenSocketHandler;
-@property(nonatomic) _Bool hasClientInitToDaemonOpenSocket;
-@property(nonatomic) _Bool hasClientOpenSocketHandlerToIncomingFirstPacket;
-@property(nonatomic) _Bool hasConnectionInitToIncomingFirstPacket;
-@property(nonatomic) _Bool hasDaemonCompletionHandlerToClientOpenSocketCompletion;
-@property(nonatomic) _Bool hasDaemonCompletionHandlerToIncomingFirstPacket;
-@property(nonatomic) _Bool hasDaemonOpenSocketToDaemonCompletionHandler;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

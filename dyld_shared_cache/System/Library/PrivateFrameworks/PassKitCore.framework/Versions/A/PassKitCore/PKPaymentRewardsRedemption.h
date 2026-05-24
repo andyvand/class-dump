@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PKPaymentRewardsRedemptionDetails;
+@class NSString;
 
 @interface PKPaymentRewardsRedemption
 {
     NSString *_identifier;
-    NSString *_balanceIdentifier;
-    unsigned long long _status;
-    NSURL *_statusLink;
-    NSString *_paymentHash;
-    NSDate *_createdAt;
-    NSDate *_updatedAt;
-    PKPaymentRewardsRedemptionDetails *_details;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,36 +23,29 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)k;
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setWasReversePushAttempted:(id)arg1;
+- (void)eParticipantBucket;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)deSetupOptional;
+- (id)expressModeSetupOptional;
 - (void).peerpayment.bubble.request.no-memo;
-- (id)AME;
+- (id)NETWORK_NAME_JCB_CARD_NAME;
 - (void)hÔ£;
 - (id)p;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *balanceIdentifier; // @synthesize balanceIdentifier=_balanceIdentifier;
-@property(copy, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(copy, nonatomic) PKPaymentRewardsRedemptionDetails *details; // @synthesize details=_details;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *paymentHash; // @synthesize paymentHash=_paymentHash;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSURL *statusLink; // @synthesize statusLink=_statusLink;
-@property(copy, nonatomic) NSDate *updatedAt; // @synthesize updatedAt=_updatedAt;
 
 @end
 

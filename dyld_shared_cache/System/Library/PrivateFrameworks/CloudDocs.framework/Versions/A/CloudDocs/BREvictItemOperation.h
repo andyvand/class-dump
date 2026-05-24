@@ -6,8 +6,6 @@
 
 #import <CloudDocs/BROperation.h>
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface BREvictItemOperation : BROperation
 {
@@ -17,8 +15,6 @@ __attribute__((visibility("hidden")))
         int line;
         _Bool ignorePersona;
     } _section;
-    NSURL *_url;
-    CDUnknownBlockType _evictionCompletionBlock;
 }
 
 - (void);

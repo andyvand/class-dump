@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)olariumSwipeActions;
++ (id)SolariumSwipeActions;
 + (long long)l8iþÜBÒÚf;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)sBook %p — no unsaved changes optimization;
 @end
 

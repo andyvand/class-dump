@@ -9,12 +9,12 @@
 }
 
 + (id);
-+ (void);
++ (void);
 + (void);
 + (struct CGRect);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (long long);
 + (struct CGRect);
 + (long long);

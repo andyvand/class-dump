@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabPersistentState, NSArray, NSDate, NSMutableArray, NSString, NSUUID;
+@class NSMutableArray, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface BrowserTabGroupPersistentState
 {
     NSMutableArray *_tabStates;
-    NSUUID *_selectedTabUUID;
-    NSUUID *_windowUUID;
-    NSDate *_dateClosed;
-    NSString *_profileIdentifier;
-    NSUUID *_tabGroupUUID;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
@@ -41,22 +36,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)òxÂ0;
 
 // Remaining properties
-@property(readonly, nonatomic) long long closedItemType;
-@property(readonly, copy, nonatomic) NSArray *closedTabs;
-@property(readonly, nonatomic) NSDate *dateClosed; // @synthesize dateClosed=_dateClosed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BrowserTabPersistentState *firstNonDisposableTab;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long numberOfNonDisposableTabs;
-@property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(readonly, copy, nonatomic) NSArray *tabUUIDs;
 
 @end
 

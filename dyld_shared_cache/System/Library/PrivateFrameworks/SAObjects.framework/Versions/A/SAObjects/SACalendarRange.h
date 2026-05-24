@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SACalendar;
+@class SACalendar;
 
 @interface SACalendarRange : AceObject
 {
@@ -16,21 +16,13 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)setTimeInSecondsSinceViewportChanged:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SACalendar *end;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SACalendar *start;
-@property(readonly) Class superclass;
 
 @end
 

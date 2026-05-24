@@ -11,7 +11,8 @@
 + (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)Internal error, start found in element
+;
 
 // Remaining properties
 @property(readonly) unsigned int serverPort;

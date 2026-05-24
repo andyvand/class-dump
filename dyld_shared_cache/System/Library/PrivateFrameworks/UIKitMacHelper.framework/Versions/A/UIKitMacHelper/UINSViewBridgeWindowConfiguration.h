@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface UINSViewBridgeWindowConfiguration
 {
     _Bool _requiresExtensionContext;
-    NSUUID *_extensionIdentifier;
-    long long _userInterfaceIdiom;
-    NSString *_viewControllerClassName;
-    NSString *_storyboardName;
-    CDUnknownBlockType _didCreateContentViewController;
-    CDUnknownBlockType _contextDidChangeHandler;
-    struct CGRect _contentRect;
 }
 
-- (id);
+- (id)JH;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)WebKitInputMethodUsesCorrectKeyEventOrder;
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)/A/ChunkingLibrary;
+- (struct CGRect);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(copy, nonatomic) CDUnknownBlockType contextDidChangeHandler; // @synthesize contextDidChangeHandler=_contextDidChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType didCreateContentViewController; // @synthesize didCreateContentViewController=_didCreateContentViewController;
-@property(retain, nonatomic) NSUUID *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(nonatomic) _Bool requiresExtensionContext; // @synthesize requiresExtensionContext=_requiresExtensionContext;
-@property(retain, nonatomic) NSString *storyboardName; // @synthesize storyboardName=_storyboardName;
-@property(nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
-@property(retain, nonatomic) NSString *viewControllerClassName; // @synthesize viewControllerClassName=_viewControllerClassName;
 
 @end
 

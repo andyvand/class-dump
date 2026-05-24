@@ -9,27 +9,25 @@
 @interface MNTraceMiscInfo
 {
     NSString *_key;
-    long long _intValue;
-    double _doubleValue;
-    NSString *_stringValue;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)q;
+- (double)ableView"16@"<NSDraggingInfo>"24q32Q40;
 - (id);
-- (double);
-- (id);
-- (long long);
+- (long long)ntext:%@ 
+    descriptor:%@ 
+    overrides:%@ 
+    error:%@ 
+<<<] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Q°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) long long intValue; // @synthesize intValue=_intValue;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

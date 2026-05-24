@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLSyncSession, CPLSyncThroughputReporter, NSArray, NSDate, NSString;
-@protocol CPLEngineStoreUserIdentifier, CPLEngineSyncTaskDelegate;
-
 @interface CPLEngineSyncTask
 {
     struct os_unfair_lock_s _phaseDescriptionLock;
-    NSDate *_lastChangeDateForPhaseDescription;
-    _Bool _hasFinishedTask;
-    struct os_unfair_lock_s _throughputReporterLock;
-    CPLSyncThroughputReporter *_throughputReporter;
-    _Bool _foreground;
-    _Bool _forceSync;
-    _Bool _cancelled;
-    NSString *_phaseDescription;
-    id <CPLEngineSyncTaskDelegate> _delegate;
-    CPLEngineLibrary *_engineLibrary;
-    CPLSyncSession *_session;
-    id <CPLEngineStoreUserIdentifier> _transportUserIdentifier;
 }
 
 + (id);
@@ -45,7 +30,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ÐÊP;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -57,15 +42,6 @@
 
 // Remaining properties
 @property(getter=isCancelled, setter=_setCancelled:) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain) id <CPLEngineSyncTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(nonatomic) _Bool forceSync; // @synthesize forceSync=_forceSync;
-@property(nonatomic) _Bool foreground; // @synthesize foreground=_foreground;
-@property(copy) NSString *phaseDescription; // @synthesize phaseDescription=_phaseDescription;
-@property(readonly, nonatomic) NSArray *scopesForTask;
-@property(readonly, nonatomic) CPLSyncSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSString *taskIdentifier;
-@property(retain, nonatomic) id <CPLEngineStoreUserIdentifier> transportUserIdentifier; // @synthesize transportUserIdentifier=_transportUserIdentifier;
 
 @end
 

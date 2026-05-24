@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)testRecipeDescription;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)h\;
+- (_Bool);
 - (id)asurementData"b1"read_numberData"b1"read_price"b1"read_stringSubstituteData"b1"read_timestampDatas"b1"read_token"b1"read_urlData"b1"read_valString"b1"wrote_anyField"b1};
-- (id)tionsRequest: /* Error: Ran out of types for this method. */;
+- (id)_populateRouteAttributesInDirectionsRequest: /* Error: Ran out of types for this method. */;
 - (id)H;
 - (void)±ÜÒjHnH@;
 

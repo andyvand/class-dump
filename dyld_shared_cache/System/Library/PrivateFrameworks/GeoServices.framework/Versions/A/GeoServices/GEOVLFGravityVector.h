@@ -9,13 +9,9 @@
 @interface GEOVLFGravityVector
 {
     PBUnknownFields *_unknownFields;
-    double _x;
-    double _y;
-    double _z;
-    CDStruct_ad44f281 _flags;
 }
 
-+ (_Bool)liers:(id)arg1;
++ (_Bool)setNumberOfInliers:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -24,14 +20,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)setAlertSoundFromURL:(id)arg1 forType:force: /* Error: Ran out of types for this method. */;
+- (id)ing:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)C;
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
+- (void)9:(_Bool)arg1 ';
 - (void);
 - (void);
 - (void)! Fù1·*1Â0@ù
@@ -39,8 +35,8 @@
 - (id);
 - (_Bool)2}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@?32@?40;
 - (void)?="read_dayOfMonths"b1"read_dayOfWeeks"b1"wrote_anyField"b1};
-- (id)tem: /* Error: Ran out of types for this method. */;
-- (id)oteProxy: /* Error: Ran out of types for this method. */;
+- (id)initWithPlaceCollectionItem: /* Error: Ran out of types for this method. */;
+- (id)externalRequestCounterForType:subtype:source:appId:remoteProxy: /* Error: Ran out of types for this method. */;
 - (id);
 - (double)ogging;
 - (void);
@@ -48,12 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZ;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double x;
-@property(nonatomic) double y;
-@property(nonatomic) double z;
 
 @end
 

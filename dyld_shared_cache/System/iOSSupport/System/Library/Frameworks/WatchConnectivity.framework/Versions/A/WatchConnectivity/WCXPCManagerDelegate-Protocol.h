@@ -5,5 +5,6 @@
 //
 
 @protocol WCXPCManagerDelegate
+- (_Bool)#;
 @end
 

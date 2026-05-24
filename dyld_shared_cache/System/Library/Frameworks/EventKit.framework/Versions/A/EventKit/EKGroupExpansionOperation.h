@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDirectoryGroup, EKDirectorySearchResultSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface EKGroupExpansionOperation
 {
     _Bool _isFinished;
-    _Bool _isExecuting;
-    NSString *_accountID;
-    EKDirectoryGroup *_group;
-    CDUnknownBlockType _completionBlock;
-    EKDirectorySearchResultSet *_resultsSet;
 }
 
 - (id);
-- (id);
+- (id)<%@> LoadRetryTimer is already scheduled to retry in %lf more seconds;
+- (void)r] %@ Enqueing playerPath invalidation to %@;
 - (void);
-- (void);
-- (void);
+- (void)p based predictor:%d /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)s;
 - (_Bool)0@ù
 × ;
 - (void)
 × ;
-- (_Bool)nTrigger;
+- (_Bool)REMAlarmLocationTrigger;
 
 @end
 

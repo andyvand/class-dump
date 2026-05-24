@@ -15,7 +15,7 @@
 
 + (void);
 + (id)´°-ÿ«Ö¼k;
-- (_Bool);
+- (_Bool)didUpdateSettingsKeys: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);

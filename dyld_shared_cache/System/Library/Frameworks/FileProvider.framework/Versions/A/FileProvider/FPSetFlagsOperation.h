@@ -11,7 +11,7 @@
     unsigned long long _flags;
 }
 
-- (unsigned long long);
+- (unsigned long long)AM;
 - (id);
 - (id);
 - (id);

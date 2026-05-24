@@ -9,10 +9,9 @@
 @interface WBSContactStoreManager
 {
     NSMutableDictionary *_temporaryContacts;
-    CNContactStore *_contactStore;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

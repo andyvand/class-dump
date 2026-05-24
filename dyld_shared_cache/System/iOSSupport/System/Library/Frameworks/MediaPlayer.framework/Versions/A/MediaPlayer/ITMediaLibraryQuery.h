@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITMediaLibrary, MPMediaQueryCriteria;
+@class ITMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface ITMediaLibraryQuery
 {
     int foo;
-    ITMediaLibrary *_library;
-    MPMediaQueryCriteria *_criteria;
 }
 
-- (id);
+- (id)_opresulttype;
 - (void);
 - (void)yStore";
-- (id)ItemIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setShuffleStartingItemIdentifier: /* Error: Ran out of types for this method. */;
 - (id)up: /* Error: Ran out of types for this method. */;
-- (void)emoved;
+- (void)removed;
 
 // Remaining properties
-@property(retain, nonatomic) MPMediaQueryCriteria *criteria; // @synthesize criteria=_criteria;
 @property(retain, nonatomic) ITMediaLibrary *library; // @synthesize library=_library;
 
 @end

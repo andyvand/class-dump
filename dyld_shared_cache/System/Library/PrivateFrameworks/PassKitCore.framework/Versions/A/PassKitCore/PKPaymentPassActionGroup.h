@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKPaymentPassActionExternalActionContent, PKPaymentPassActionRemoteConfiguration;
+@class NSString;
 
 @interface PKPaymentPassActionGroup
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_actionGroupDescription;
-    NSArray *_actionIdentifiers;
-    NSArray *_actions;
-    NSDictionary *_appletData;
-    PKPaymentPassActionExternalActionContent *_externalActionContent;
-    PKPaymentPassActionRemoteConfiguration *_remoteContentConfiguration;
 }
 
 + (_Bool);
@@ -28,12 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (void);
+- (void)btmDisassociationTimeout;
 - (void);
 - (void);
 - (void);
@@ -43,17 +36,7 @@
 - (void)e;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionGroupDescription; // @synthesize actionGroupDescription=_actionGroupDescription;
-@property(copy, nonatomic) NSArray *actionIdentifiers; // @synthesize actionIdentifiers=_actionIdentifiers;
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSDictionary *appletData; // @synthesize appletData=_appletData;
-@property(readonly, nonatomic) PKPaymentPassActionExternalActionContent *externalActionContent; // @synthesize externalActionContent=_externalActionContent;
-@property(readonly, nonatomic) _Bool hasExternalActionContent;
-@property(readonly, nonatomic) _Bool hasRemoteContent;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) PKPaymentPassActionRemoteConfiguration *remoteContentConfiguration; // @synthesize remoteContentConfiguration=_remoteContentConfiguration;
-@property(readonly, nonatomic) _Bool remoteContentRequiresAppletData;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

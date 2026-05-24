@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXParticipant, CXSandboxExtendedURL, NSString, NSURL, NSUUID;
-
 @interface CXChannelUpdate
 {
     _Bool _accessoryButtonEventsEnabled;
-    struct CXChannelUpdateHasSet _hasSet;
-    CXParticipant *_activeRemoteParticipant;
-    NSString *_name;
-    long long _serviceStatus;
-    long long _transmissionMode;
-    long long _audioBluetoothFormat;
-    NSString *_audioCategory;
-    long long _audioInterruptionOperationMode;
-    long long _audioInterruptionProvider;
-    NSString *_audioMode;
-    CXSandboxExtendedURL *_sandboxExtendedImageURL;
-    NSUUID *_UUID;
 }
 
 + (id);
-+ (id);
++ (id)ICPushNotificationsRegisterAPNSTokenRequest;
 + (_Bool);
 - (id);
 - (void);
@@ -35,13 +21,13 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)QMI_ERR_OP_DEVICE_UNSUPPORTED;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (struct CXChannelUpdateHasSet);
 - (id);
 - (id);
@@ -52,11 +38,11 @@
 - (id);
 - (id);
 - (id);
+- (id)g key '%{public}@' in profile '%{public}@:'%{public}@ (expected Number) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)he same route was enqueued.;
+- (void)esults:(id)arg1 | begin [];
 - (id);
 - (id);
 - (id);
@@ -67,20 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) _Bool accessoryButtonEventsEnabled; // @synthesize accessoryButtonEventsEnabled=_accessoryButtonEventsEnabled;
-@property(retain, nonatomic) CXParticipant *activeRemoteParticipant; // @synthesize activeRemoteParticipant=_activeRemoteParticipant;
 @property(nonatomic) long long audioBluetoothFormat; // @synthesize audioBluetoothFormat=_audioBluetoothFormat;
-@property(copy, nonatomic) NSString *audioCategory; // @synthesize audioCategory=_audioCategory;
-@property(nonatomic) long long audioInterruptionOperationMode; // @synthesize audioInterruptionOperationMode=_audioInterruptionOperationMode;
-@property(nonatomic) long long audioInterruptionProvider; // @synthesize audioInterruptionProvider=_audioInterruptionProvider;
-@property(copy, nonatomic) NSString *audioMode; // @synthesize audioMode=_audioMode;
-@property(readonly, nonatomic) struct CXChannelUpdateHasSet hasSet; // @synthesize hasSet=_hasSet;
-@property(copy, nonatomic) NSURL *imageURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) CXSandboxExtendedURL *sandboxExtendedImageURL; // @synthesize sandboxExtendedImageURL=_sandboxExtendedImageURL;
-@property(nonatomic) long long serviceStatus; // @synthesize serviceStatus=_serviceStatus;
-@property(nonatomic) long long transmissionMode; // @synthesize transmissionMode=_transmissionMode;
 
 @end
 

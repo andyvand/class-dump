@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSTextView;
+@class NSTextView;
 
 __attribute__((visibility("hidden")))
 @interface SLXShareWindowBackgroundView
 {
     NSTextView *_messageTextView;
-    NSTextField *_charactersCountTextField;
-    int _textureStyle;
 }
 
 - (int);

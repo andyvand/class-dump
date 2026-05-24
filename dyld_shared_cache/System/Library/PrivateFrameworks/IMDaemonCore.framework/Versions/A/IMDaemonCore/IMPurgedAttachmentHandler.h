@@ -9,19 +9,13 @@
 @interface IMPurgedAttachmentHandler
 {
     id currentBatch;
-    id batchSize;
-    id attachmentPaths;
-    id successfullyDeletedLivePhotoComponents;
-    id livePhotoComponentDeletionFailures;
-    id livePhotoBundleOrComponentPaths;
-    void delegate;
 }
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)T;
 - (void)T@"NSArray",&,N,V_currentParticipants;
 - (void):%s for sender:%s /* Error: Ran out of types for this method. */;
 

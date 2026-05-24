@@ -7,20 +7,17 @@
 #import <HomeKitDaemon/HMDHAPAccessoryTask.h>
 
 @class HMDDevice;
-@protocol HMDHAPAccessoryTask;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryParallelTaskBase : HMDHAPAccessoryTask
 {
     HMDDevice *_remoteTaskDelegateDevice;
-    id <HMDHAPAccessoryTask> _remoteTask;
-    id <HMDHAPAccessoryTask> _localTask;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)removeLiveParticipants:(id)arg1;
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)eave discard invalid %@;
+- (id)%@;
 - (id);
 - (id);
 - (id);
@@ -28,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)MAccessCodeAddRequestValue"8;
 
 // Remaining properties
-@property(retain) id <HMDHAPAccessoryTask> localTask; // @synthesize localTask=_localTask;
-@property(retain) id <HMDHAPAccessoryTask> remoteTask; // @synthesize remoteTask=_remoteTask;
 @property(readonly) HMDDevice *remoteTaskDelegateDevice; // @synthesize remoteTaskDelegateDevice=_remoteTaskDelegateDevice;
 
 @end

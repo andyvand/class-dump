@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)_descriptionForElementType:(id)arg1;
 
 @end
 

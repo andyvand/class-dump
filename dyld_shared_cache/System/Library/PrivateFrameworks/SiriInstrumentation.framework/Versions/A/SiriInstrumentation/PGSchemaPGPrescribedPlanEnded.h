@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGPrescribedPlanEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_transcriptEventId;
-    _Bool _hasTranscriptEventId;
 }
 
 - (id);
@@ -24,17 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)tted transation with error:(id)arg1 %@;
+- (id);
 - (id)!tDùÝÐ1Â0@ù
 × ;
 - (id)_hasPreviousAnswerReferenceStatementId;
 - (id)hasCirAlert;
-- (void)IGGER;
+- (void)CDASTATE_ADVERT_OUTPUT_TRIGGER;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end

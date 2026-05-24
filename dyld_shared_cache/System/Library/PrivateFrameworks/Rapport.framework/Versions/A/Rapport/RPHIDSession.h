@@ -10,16 +10,15 @@
 @interface RPHIDSession
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    id <RPMessageable> _messenger;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (void);
 
 // Remaining properties

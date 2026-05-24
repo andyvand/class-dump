@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSString;
+@class ASCredentialServiceIdentifier;
 
 @interface ASGeneratePasswordsRequest
 {
     ASCredentialServiceIdentifier *serviceIdentifier;
-    void passwordFieldPasswordRules;
-    void confirmPasswordFieldPasswordRules;
-    void passwordRulesFromQuirks;
 }
 
 + (_Bool);
@@ -29,10 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *confirmPasswordFieldPasswordRules;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *passwordFieldPasswordRules;
-@property(nonatomic, readonly) NSString *passwordRulesFromQuirks;
 @property(nonatomic, readonly) ASCredentialServiceIdentifier *serviceIdentifier; // @synthesize serviceIdentifier;
 
 @end

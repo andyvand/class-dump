@@ -18,13 +18,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)@0:(id)arg1 8C16@"NSData"20@"AAP"28;
+- (void)SessionFragmentLast;
 - (id);
 - (id);
 - (void)al flags.;

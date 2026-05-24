@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface VNRegionOfInterestTiling
 {
     unsigned long long _pixelOriginX;
-    unsigned long long _pixelOriginY;
-    unsigned long long _pixelWidth;
-    unsigned long long _pixelHeight;
-    struct CGRect _regionOfInterest;
-    struct CGRect _pixelRegionOfInterest;
-    unsigned long long _columnCount;
-    unsigned long long _rowCount;
-    NSArray *_tiles;
 }
 
 + (id);
@@ -31,22 +21,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)N3ctu8LoggableI8SDPModelNS_11OsLogLoggerEEE;
 - (unsigned long long);
 - (unsigned long long);
-- (void)Adjust;
+- (void)CIExposureAdjust;
 - (id);
 
 // Remaining properties
 @property(readonly) struct CGRect pixelBounds;
-@property(readonly) unsigned long long pixelHeight; // @synthesize pixelHeight=_pixelHeight;
-@property(readonly) struct CGRect pixelRegionOfInterest; // @synthesize pixelRegionOfInterest=_pixelRegionOfInterest;
-@property(readonly) unsigned long long pixelWidth; // @synthesize pixelWidth=_pixelWidth;
-@property(readonly) struct CGRect regionOfInterest; // @synthesize regionOfInterest=_regionOfInterest;
-@property(readonly) unsigned long long tileColumnsCount; // @synthesize tileColumnsCount=_columnCount;
-@property(readonly) unsigned long long tileCount;
-@property(readonly) unsigned long long tileRowsCount; // @synthesize tileRowsCount=_rowCount;
-@property(readonly, copy) NSArray *tiles; // @synthesize tiles=_tiles;
 
 @end
 

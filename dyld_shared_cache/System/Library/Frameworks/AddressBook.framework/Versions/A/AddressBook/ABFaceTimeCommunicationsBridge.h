@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ABFaceTimeCommunicationsBridgeDelegate, CNCancelable;
+@protocol CNCancelable;
 
 @interface ABFaceTimeCommunicationsBridge
 {
     _Bool _telephonySupported;
-    id <ABFaceTimeCommunicationsBridgeDelegate> _delegate;
-    id <CNCancelable> _messagingAvailabilityChangedToken;
-    id <CNCancelable> _faceTimeAvailabilityChangedToken;
-    id <CNCancelable> _telephonyAvailaibilityChangedToken;
 }
 
 + (id);
@@ -23,14 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)˿;
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
@@ -40,16 +36,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ntainerDescriptor",R,W,N;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ABFaceTimeCommunicationsBridgeDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id <CNCancelable> faceTimeAvailabilityChangedToken; // @synthesize faceTimeAvailabilityChangedToken=_faceTimeAvailabilityChangedToken;
 @property(retain, nonatomic) id <CNCancelable> messagingAvailabilityChangedToken; // @synthesize messagingAvailabilityChangedToken=_messagingAvailabilityChangedToken;
-@property(retain, nonatomic) id <CNCancelable> telephonyAvailaibilityChangedToken; // @synthesize telephonyAvailaibilityChangedToken=_telephonyAvailaibilityChangedToken;
-@property(readonly, nonatomic, getter=isTelephonySupported) _Bool telephonySupported; // @synthesize telephonySupported=_telephonySupported;
 
 @end
 

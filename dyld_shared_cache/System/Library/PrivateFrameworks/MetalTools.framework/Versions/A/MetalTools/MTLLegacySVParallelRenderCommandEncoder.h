@@ -11,7 +11,7 @@
     unsigned int _encoderID;
 }
 
-- (id);
+- (id)R;
 - (id);
 
 @end

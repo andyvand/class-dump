@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTInterest, NSNumber, NSSet, NSString;
-
 @interface MTCategory
 {
 }
@@ -17,17 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long adamID; // @dynamic adamID;
-@property(nonatomic, retain) NSNumber *artworkHeightNumber; // @dynamic artworkHeightNumber;
-@property(nonatomic, copy) NSString *artworkPrimaryColor; // @dynamic artworkPrimaryColor;
-@property(nonatomic, copy) NSString *artworkTemplateURL; // @dynamic artworkTemplateURL;
-@property(nonatomic, retain) NSNumber *artworkWidthNumber; // @dynamic artworkWidthNumber;
-@property(nonatomic, copy) NSSet *children; // @dynamic children;
-@property(nonatomic, copy) NSString *color; // @dynamic color;
-@property(nonatomic, retain) MTInterest *interest; // @dynamic interest;
-@property(nonatomic, copy) NSString *name; // @dynamic name;
-@property(nonatomic, retain) MTCategory *parent; // @dynamic parent;
-@property(nonatomic, copy) NSSet *podcasts; // @dynamic podcasts;
-@property(nonatomic, copy) NSString *url; // @dynamic url;
 
 @end
 

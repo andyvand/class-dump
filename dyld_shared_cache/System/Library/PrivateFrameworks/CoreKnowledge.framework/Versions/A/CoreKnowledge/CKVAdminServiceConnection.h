@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVTaskManager, CKVTaskSettings, NSObject, SEMAdministrator;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKVAdminServiceConnection
 {
     NSObject<OS_dispatch_queue> *_serviceQueue;
-    CKVTaskManager *_taskManager;
-    SEMAdministrator *_semAdministrator;
-    CKVTaskSettings *_settings;
 }
 
 - (oneway void);

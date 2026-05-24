@@ -6,12 +6,11 @@
 
 #import <PhotosFormats/PFImageMetadataChangePolicy.h>
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 @interface PFImageMetadataChangePolicySetCreationDate : PFImageMetadataChangePolicy
 {
     NSDate *_creationDate;
-    NSTimeZone *_timeZone;
 }
 
 + (id);
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)B;
+- (void)(L;
 - (void);
 - (id)+þÝ×;
 
 // Remaining properties
 @property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

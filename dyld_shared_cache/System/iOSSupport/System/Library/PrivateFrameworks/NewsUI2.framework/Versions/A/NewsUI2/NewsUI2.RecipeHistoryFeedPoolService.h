@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryFeedPoolService
 {
     id context;
-    id recipeService;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSMarketingItem
 {
@@ -27,27 +27,14 @@
 - (id);
 - (id);
 - (id);
-- (id)r;
+- (id)certificateCacher;
 - (id)ting to remove an observer from a completed observable.;
 - (void)Ð¢óÏÄ®+$·­òí;
 - (id)ûëïÿp`9Ã)Ó\¦L¶²H¢X×-Ç=¾h^Gq§»m[Bt¢2äÒËý+7á×Îø.Fp¦¿i_Cu£ºlZÊü*3åÓÏù/6;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *URLString;
 @property(readonly) NSDictionary *artworkDictionary;
-@property(readonly) NSString *badge;
-@property(readonly) NSString *campaignID;
-@property(readonly) NSArray *itemActions;
-@property(readonly) NSString *itemID;
-@property(readonly, copy) NSDictionary *rawValues; // @synthesize rawValues=_rawValues;
-@property(readonly) NSArray *relatedContent;
-@property(readonly) NSString *serviceType;
-@property(readonly) NSString *subtitle;
-@property(readonly) NSString *templateID;
-@property(readonly) NSString *title;
-@property(readonly) NSString *type;
-@property(readonly) NSArray *videos;
 
 @end
 

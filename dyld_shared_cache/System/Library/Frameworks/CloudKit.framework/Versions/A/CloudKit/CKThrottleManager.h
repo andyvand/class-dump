@@ -5,16 +5,13 @@
 //
 
 @class NSArray;
-@protocol CKThrottleObserver;
 
 @interface CKThrottleManager
 {
     NSArray *_throttleList;
-    id <CKThrottleObserver> _observer;
-    struct _opaque_pthread_mutex_t _throttleLock;
 }
 
-+ (id);
++ (id)BRPartialErrorsByContainerIDKey;
 - (void);
 - (id);
 - (void);
@@ -23,10 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void)nThrottlerMetadata;
+- (void)CKUploadRequestManagerResponseActionThrottlerMetadata;
 - (void)¤/Ð/0h0Ø0l1Ä1;
 - (id)do so;
-- (_Bool);
+- (_Bool)field;
 
 @end
 

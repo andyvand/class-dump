@@ -7,12 +7,6 @@
 @interface NewsAds.SponsorshipAdContentInfo
 {
     id identifier;
-    id metricsHelper;
-    id metricsView;
-    id promotedContentInfo;
-    id tracker;
-    id placementIdentifier;
-    id adFrame;
 }
 
 @end

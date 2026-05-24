@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GeneratedSignpostMetadata
 {
     _Bool _hasRelativeMcts;
-    NSString *_name;
-    NSNumber *_signpostId;
-    NSNumber *_beginMct;
-    NSNumber *_endMct;
-    NSNumber *_emitMct;
-    NSNumber *_baseMct;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)<;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -35,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *baseMct; // @synthesize baseMct=_baseMct;
-@property(retain, nonatomic) NSNumber *beginMct; // @synthesize beginMct=_beginMct;
-@property(retain, nonatomic) NSNumber *emitMct; // @synthesize emitMct=_emitMct;
-@property(retain, nonatomic) NSNumber *endMct; // @synthesize endMct=_endMct;
-@property(nonatomic) _Bool hasRelativeMcts; // @synthesize hasRelativeMcts=_hasRelativeMcts;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSNumber *signpostId; // @synthesize signpostId=_signpostId;
 
 @end
 

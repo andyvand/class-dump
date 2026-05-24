@@ -11,39 +11,31 @@
 @interface AVCaptureScreenInput : AVCaptureInput
 {
     AVCaptureScreenInputInternal *_internal;
-    _Bool removesDuplicateFrames;
-    CDStruct_1b6d18a9 _minFrameDuration;
-    struct CGRect _cropRect;
 }
 
 + (id);
 + (void)crsstpni#csstpninartbolgncsltpni#vedbolg;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_dataOpeningTagData;
+- (void)_activeRunLoopSource;
+- (void)ID;
+- (void)version;
+- (_Bool),&,N,V_lyricsLines;
 - (struct OpaqueCMClock *);
-- (_Bool);
-- (_Bool);
+- (_Bool)reading. err=%s;
+- (_Bool)iled to create tmp file for reading. err=%s;
 - (void);
 - (id);
-- (void);
+- (void)service:didCancelMessageWithSuccess:error:identifier: /* Error: Ran out of types for this method. */;
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)`;
 - (struct CGRect)ng from %{public}@ to %{public}@;
 
 // Remaining properties
-@property(nonatomic) _Bool capturesCursor;
-@property(nonatomic) _Bool capturesMouseClicks;
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
 @property(nonatomic) CDStruct_1b6d18a9 minFrameDuration; // @synthesize minFrameDuration=_minFrameDuration;
-@property(nonatomic) _Bool removesDuplicateFrames; // @synthesize removesDuplicateFrames;
-@property(nonatomic) double scaleFactor;
 
 @end
 

@@ -20,14 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)uityData;
+- (void)GenerativeStoryAmbiguityData;
 - (id);
 
 // Remaining properties

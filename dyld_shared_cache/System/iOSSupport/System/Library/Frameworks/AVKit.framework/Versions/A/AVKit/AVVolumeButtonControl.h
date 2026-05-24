@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVLayoutItemAttributes, AVMicaPackage, NSString, NSTimer, UIImageView, UISelectionFeedbackGenerator, UIView, UIViewPropertyAnimator;
+@class UIViewPropertyAnimator;
 
 __attribute__((visibility("hidden")))
 @interface AVVolumeButtonControl
 {
     long long _trackingState;
-    _Bool _included;
-    _Bool _collapsed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _removed;
-    _Bool _longPressEnabled;
-    _Bool _showsHighlightedAppearance;
-    AVLayoutItemAttributes *_layoutAttributes;
-    NSString *_micaPackageStateName;
-    UIViewPropertyAnimator *_highlightAnimator;
-    UISelectionFeedbackGenerator *_feedbackGenerator;
-    AVMicaPackage *_micaPackage;
-    UIImageView *_imageView;
-    UIView *_micaPackageContainerView;
-    NSTimer *_longPressTimer;
-    long long _volumeControllerType;
-    struct CGSize _extrinsicContentSize;
-    struct CGPoint _translationOfPanFromPreviousTouch;
-    struct CGPoint _cumulativeTranslationSincePanningBegan;
-    struct CGPoint _locationOfTouchInWindow;
-    struct CGPoint _initialPreciseLocationOfTouch;
-    struct NSDirectionalEdgeInsets _hitRectInsets;
 }
 
 - (long long);
@@ -56,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)operationGroupQuantity;
 - (void);
 - (void);
 - (struct CGSize);
@@ -66,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)deleteSessionsWithBundleID:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -80,7 +58,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)sions/A/_LocationEssentials;
 - (void);
 - (_Bool);
 - (struct NSDirectionalEdgeInsets);
@@ -89,52 +67,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)1;
 - (id)1Â0@ù
 × ;
 - (void)1[°1Â0@ù
 × ;
 - (id)CGSize=dd}}16q48;
-- (void)ictureControllerWillStopPictureInPicture:(id)arg1;
-- (id)ransitionToAttachedFullScreenAnimated:interactive:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ionWithContext:(_Bool)arg1;
-- (_Bool)nsportBarCustomMenuItems:(id)arg1;
+- (void)pictureInPictureControllerWillStopPictureInPicture:(id)arg1;
+- (id)_transitionToAttachedFullScreenAnimated:interactive:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_controlsViewController:(_Bool)arg1 willBeginContentTabTransitionWithContext: /* Error: Ran out of types for this method. */;
+- (_Bool)setTransportBarCustomMenuItems:(id)arg1;
 - (_Bool)AVContentOverlayView;
 - (void)eteTransition:(id)arg1 ];
-- (id);
+- (id)local;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property(nonatomic) struct CGPoint cumulativeTranslationSincePanningBegan; // @synthesize cumulativeTranslationSincePanningBegan=_cumulativeTranslationSincePanningBegan;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(readonly, nonatomic) UISelectionFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIViewPropertyAnimator *highlightAnimator; // @synthesize highlightAnimator=_highlightAnimator;
-@property(nonatomic) struct NSDirectionalEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(nonatomic) struct CGPoint initialPreciseLocationOfTouch; // @synthesize initialPreciseLocationOfTouch=_initialPreciseLocationOfTouch;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic) struct CGPoint locationOfTouchInWindow; // @synthesize locationOfTouchInWindow=_locationOfTouchInWindow;
-@property(nonatomic, getter=isLongPressEnabled) _Bool longPressEnabled; // @synthesize longPressEnabled=_longPressEnabled;
-@property(nonatomic) __weak NSTimer *longPressTimer; // @synthesize longPressTimer=_longPressTimer;
-@property(retain, nonatomic) AVMicaPackage *micaPackage; // @synthesize micaPackage=_micaPackage;
-@property(retain, nonatomic) UIView *micaPackageContainerView; // @synthesize micaPackageContainerView=_micaPackageContainerView;
-@property(retain, nonatomic) NSString *micaPackageStateName; // @synthesize micaPackageStateName=_micaPackageStateName;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) _Bool showsHighlightedAppearance; // @synthesize showsHighlightedAppearance=_showsHighlightedAppearance;
-@property(readonly) Class superclass;
-@property(nonatomic) long long trackingState; // @synthesize trackingState=_trackingState;
-@property(nonatomic) struct CGPoint translationOfPanFromPreviousTouch; // @synthesize translationOfPanFromPreviousTouch=_translationOfPanFromPreviousTouch;
-@property(nonatomic) long long volumeControllerType; // @synthesize volumeControllerType=_volumeControllerType;
 
 @end
 

@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface LPFetcherResponse
 {
     long long _state;
-    id _userData;
 }
 
-- (id);
-- (id);
+- (id)suggestedRepliesViewMaxWidth;
+- (id)lk;
 - (long long);
 - (void)á÷Ð!GùqÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, retain, nonatomic) id userData; // @synthesize userData=_userData;
 
 @end
 

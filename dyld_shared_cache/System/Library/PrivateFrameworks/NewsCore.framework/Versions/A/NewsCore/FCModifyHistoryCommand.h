@@ -11,7 +11,6 @@
 @interface FCModifyHistoryCommand : FCModifyRecordsCommand
 {
     NSArray *_historyItems;
-    NSArray *_recordItems;
 }
 
 + (id);
@@ -20,11 +19,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)warm;
+- (void)FeedPrewarm;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *historyItems; // @synthesize historyItems=_historyItems;
-@property(readonly, copy, nonatomic) NSArray *recordItems; // @synthesize recordItems=_recordItems;
 
 @end
 

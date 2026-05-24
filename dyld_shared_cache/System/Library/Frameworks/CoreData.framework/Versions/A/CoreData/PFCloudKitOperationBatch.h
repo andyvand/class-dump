@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitOperationBatch
 {
     NSMutableSet *_deletedRecordIDs;
-    NSMutableDictionary *_recordTypeToDeletedRecordID;
-    NSMutableArray *_records;
-    NSMutableSet *_recordIDs;
-    unsigned long long _sizeInBytes;
 }
 
 - (void);

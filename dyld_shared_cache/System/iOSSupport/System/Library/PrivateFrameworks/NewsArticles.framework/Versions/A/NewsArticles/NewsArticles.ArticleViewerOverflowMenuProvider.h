@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleViewerOverflowMenuProvider
 {
     id commandCenter;
-    id paidAccessChecker;
-    id featureAvailability;
 }
 
 @end

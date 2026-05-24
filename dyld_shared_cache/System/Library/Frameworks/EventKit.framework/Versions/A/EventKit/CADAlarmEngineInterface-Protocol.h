@@ -5,5 +5,7 @@
 //
 
 @protocol CADAlarmEngineInterface
+- (void)for %{public}@ %@;
+- (void)ed %{BOOL}u in %lf seconds.;
 @end
 

@@ -5,6 +5,17 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
+- (void);
+- (void);
+- (void)@;
+- (void));
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void)setCarKeyVehicleKeyTechnology: /* Error: Ran out of types for this method. */;
+- (void)?;
+- (void)valueLength;
 - (void)MActionDialEnriched;
 @end
 

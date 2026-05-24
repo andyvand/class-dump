@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDispatchTimer, MNNavigationSessionState, NSDictionary, NSString;
 @protocol MNIdleTimerUpdaterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNIdleTimerUpdater
 {
     _Bool _isStarted;
-    _Bool _isArrived;
-    MNDispatchTimer *_notMovingTimer;
-    _Bool _shouldEnableIdleTimer;
-    NSDictionary *_speedThresholdsToConsiderStopped;
-    id <MNIdleTimerUpdaterDelegate> _delegate;
-    MNNavigationSessionState *_navigationSessionState;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)_CustomAlternatingBackgroundColorTableView;
 - (void);
 - (double);
 - (_Bool);
@@ -33,15 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)NNavigationService"16q24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNIdleTimerUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MNNavigationSessionState *navigationSessionState; // @synthesize navigationSessionState=_navigationSessionState;
-@property(readonly) Class superclass;
 
 @end
 

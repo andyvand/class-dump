@@ -4,52 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSImage, NSSet, NSString, NSURL;
+@class NSImage, NSString;
 
 @protocol WBSWebExtensionDataForwarding
+- (NSImage *);
+- (_Bool)C;
+- (NSString *);
+- (_Bool);
+- (_Bool)(;
+- (_Bool)h;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundPageIsPersistent;
-@property(readonly, nonatomic) _Bool backgroundPageIsServiceWorker;
-@property(readonly, nonatomic) NSArray *commands;
-@property(readonly, nonatomic) NSDictionary *configuredPermissionOrigins;
-@property(readonly, nonatomic) NSDictionary *configuredPermissions;
-@property(readonly, nonatomic) NSSet *currentPermissionOrigins;
-@property(readonly, nonatomic) NSSet *currentPermissions;
-@property(readonly, nonatomic) NSString *displayDescription;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *displayShortName;
-@property(readonly, nonatomic) NSString *displayVersion;
-@property(copy, nonatomic) NSDictionary *grantedPermissionOrigins;
-@property(copy, nonatomic) NSDictionary *grantedPermissions;
-@property(readonly, nonatomic) _Bool hasAbilityToInjectContentIntoWebpages;
-@property(readonly, nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasBrowserAction;
-@property(readonly, nonatomic) _Bool hasCommands;
-@property(readonly, nonatomic) _Bool hasDeclarativeNetRequestHostAccessPermission;
-@property(readonly, nonatomic) _Bool hasDeclarativeNetRequestPermission;
-@property(readonly, nonatomic) _Bool hasDevTools;
-@property(readonly, nonatomic) _Bool hasPageAction;
-@property(readonly, nonatomic) _Bool hasStorage;
-@property(readonly, nonatomic) NSImage *icon;
-@property(readonly, nonatomic) NSSet *manifestAccessibleOrigins;
-@property(readonly, nonatomic) NSArray *manifestErrors;
-@property(readonly, nonatomic) NSSet *manifestOptionalPermissionOrigins;
-@property(readonly, nonatomic) NSSet *manifestOptionalPermissions;
-@property(readonly, nonatomic) NSSet *manifestPermissionOrigins;
-@property(readonly, nonatomic) NSSet *manifestPermissions;
-@property(readonly, nonatomic) long long manifestVersion;
-@property(readonly, nonatomic) NSURL *newTabOverridePageURL;
-@property(readonly, nonatomic) NSImage *preferencesIcon;
-@property(readonly, nonatomic) NSString *processDisplayName;
-@property(nonatomic) _Bool requestedOptionalAccessToAllHosts;
-@property(readonly, nonatomic) NSSet *requestedPermissionOriginsNotAlreadyConfigured;
-@property(readonly, nonatomic) NSSet *requestedPermissionsNotAlreadyConfigured;
-@property(readonly, nonatomic) _Bool requestsAccessToAllHosts;
-@property(copy, nonatomic) NSDictionary *revokedPermissionOrigins;
-@property(copy, nonatomic) NSDictionary *revokedPermissions;
-@property(readonly, nonatomic) NSImage *toolbarImage;
-@property(readonly, nonatomic) _Bool usesManifestVersion3;
-@property(readonly, nonatomic) NSString *version;
 @end
 

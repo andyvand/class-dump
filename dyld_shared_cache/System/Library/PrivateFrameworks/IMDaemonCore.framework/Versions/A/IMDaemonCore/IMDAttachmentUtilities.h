@@ -11,30 +11,30 @@
 + (_Bool);
 + (unsigned long long);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)  J(;
++ (_Bool)>;
++ (_Bool);
 + (unsigned long long);
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)Mb;
 + (void);
 + (unsigned long long);
 + (long long);
 + (_Bool);
 + (unsigned long long);
++ (id)qA;
 + (id);
-+ (id);
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)  ;
 + (void);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (_Bool);

@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeMemoriesEntryCardTimeSlotProvider
 {
     id _currentIndex;
-    id _validationDate;
 }
 
 @end

@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)$;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *redirectURL; // @synthesize redirectURL=_redirectURL;

@@ -10,14 +10,14 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)?;
 + (id)Á
 °
 ¾
 
 À
 ;
-- (_Bool);
+- (_Bool);
 - (long long);
 
 @end

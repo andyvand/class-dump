@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIDropAnimationHandlers
@@ -13,25 +13,17 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completionHandlers;
 }
 
-- (void);
-- (void);
+- (void)setCountryCodes: /* Error: Ran out of types for this method. */;
+- (void)enumerateBatchedChatsFilteredUsingPredicate:block: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)8{;
 - (void)"8Q16^B24;
 - (void)ÐK;
 - (void)^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alongsideAnimationHandlers;
-@property(readonly, nonatomic) NSArray *completionHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

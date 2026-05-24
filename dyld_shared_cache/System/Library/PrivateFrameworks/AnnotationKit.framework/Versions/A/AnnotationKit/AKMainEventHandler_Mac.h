@@ -6,16 +6,9 @@
 
 #import <AnnotationKit/AKMainEventHandler.h>
 
-@class AKPageController, NSString;
-
 @interface AKMainEventHandler_Mac : AKMainEventHandler
 {
     _Bool _shouldEatNextKeyUp;
-    _Bool _lastCursorWasInVisibleBounds;
-    _Bool _candidatePickerWasDismissed;
-    _Bool _isTornDown;
-    id _eventMonitor;
-    AKPageController *_lastPageControllerWithCropRollover;
 }
 
 - (void);
@@ -27,7 +20,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -48,27 +41,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void).;
 - (_Bool);
 - (id);
+- (void)collectionView:didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool)tocol;
+- (_Bool)conformsToAKTextAnnotationProtocol;
 
 // Remaining properties
-@property _Bool candidatePickerWasDismissed; // @synthesize candidatePickerWasDismissed=_candidatePickerWasDismissed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) id eventMonitor; // @synthesize eventMonitor=_eventMonitor;
-@property(readonly) unsigned long long hash;
-@property _Bool isTornDown; // @synthesize isTornDown=_isTornDown;
-@property _Bool lastCursorWasInVisibleBounds; // @synthesize lastCursorWasInVisibleBounds=_lastCursorWasInVisibleBounds;
-@property __weak AKPageController *lastPageControllerWithCropRollover; // @synthesize lastPageControllerWithCropRollover=_lastPageControllerWithCropRollover;
-@property _Bool shouldEatNextKeyUp; // @synthesize shouldEatNextKeyUp=_shouldEatNextKeyUp;
-@property(readonly) Class superclass;
 
 @end
 

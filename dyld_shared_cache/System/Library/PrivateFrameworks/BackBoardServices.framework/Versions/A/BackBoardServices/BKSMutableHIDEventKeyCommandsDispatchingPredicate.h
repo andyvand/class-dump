@@ -12,14 +12,13 @@
 {
 }
 
-+ (id);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_NOTIFICATION_INFORMATIVE;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *displays; // @dynamic displays;
 @property(copy, nonatomic) NSSet *senderDescriptors; // @dynamic senderDescriptors;
 
 @end

@@ -9,17 +9,15 @@
 @interface LinkPresentation.LPTextRange
 {
     id range;
-    id path;
 }
 
-- (id);
+- (id)_prefixText;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) UITextPosition *end;
 @property(nonatomic, readonly) UITextPosition *start;
 
 @end

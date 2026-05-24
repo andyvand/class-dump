@@ -5,5 +5,20 @@
 //
 
 @protocol AFClientService
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (void)9J;
+- (oneway void)i&;
+- (oneway void)(6<%;
+- (oneway void);
+- (oneway void)C9k;
+- (oneway void)2TJ!;
+- (oneway void)I$@y?m;
+- (oneway void)R;
+- (oneway void)+;
+- (oneway void)k;
+- (oneway void);
+- (oneway void)_coreRecentsKindForPreference: /* Error: Ran out of types for this method. */;
 @end
 

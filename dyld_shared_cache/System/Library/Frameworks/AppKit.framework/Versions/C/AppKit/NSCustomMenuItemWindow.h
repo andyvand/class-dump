@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSCustomMenuItemWindow : NSWindow
 {
     id view;
-    id menuItem;
-    id isHighlighted;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)setSharedContainerIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_receivedEof;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -32,20 +30,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)2Ns;
+- (_Bool):Gy /* Error: Ran out of types for this method. */;
 - (void);
 - (void)t¯E;
 - (_Bool)óþL;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _allowsActiveInputContextDuringMenuTracking;
-@property(nonatomic, readonly) _Bool _isConsideredForActivation;
-@property(nonatomic, readonly) _Bool _isScreenLayoutAware;
-@property(nonatomic, readonly) _Bool _windowManagerAware;
-@property(nonatomic, readonly) _Bool canBecomeKeyWindow;
-@property(nonatomic) _Bool canHide;
-@property(nonatomic, readonly) _Bool keyWindow;
 @property(nonatomic) unsigned long long styleMask;
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-- (_Bool);
-- (void);
++ (id)@;
+- (_Bool)ng",&,N,V_serviceUpdateType;
+- (void)de XPC interface or Objective C proxy for ;
 - (id);
 
 @end

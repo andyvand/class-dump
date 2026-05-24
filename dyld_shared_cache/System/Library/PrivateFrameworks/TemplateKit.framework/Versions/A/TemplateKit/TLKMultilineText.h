@@ -11,19 +11,17 @@
 @interface TLKMultilineText : TLKObject
 {
     NSString *_text;
-    unsigned long long _maxLines;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)objectForKey:(unsigned long long)arg1;
+- (unsigned long long)oudMail:withAllowCloudCalendar:withAllowCloudReminders:withAllowCloudAddressBook:withAllowCloudNotes:withAllowCloudDesktopAndDocuments:withAllowCloudKeychainSync: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxLines; // @synthesize maxLines=_maxLines;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

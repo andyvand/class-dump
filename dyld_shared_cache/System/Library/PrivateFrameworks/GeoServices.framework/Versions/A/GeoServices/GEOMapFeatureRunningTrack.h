@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSArray;
-
 @interface GEOMapFeatureRunningTrack
 {
     unsigned long long _trackId;
-    unsigned long long _type;
-    unsigned long long _features;
-    GEOMapRegion *_boundingBox;
-    GEOMapRegion *_orientedBoundingRegion;
-    NSArray *_lanes;
 }
 
 - (unsigned char);
@@ -23,18 +16,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)tableView:acceptDrop:row:dropOperation: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)\¾ÿ@³;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapRegion *boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) unsigned long long features; // @synthesize features=_features;
-@property(readonly, nonatomic) NSArray *lanes; // @synthesize lanes=_lanes;
-@property(readonly, nonatomic) GEOMapRegion *orientedBoundingRegion; // @synthesize orientedBoundingRegion=_orientedBoundingRegion;
-@property(readonly, nonatomic) unsigned char reliabilityScore;
 @property(readonly, nonatomic) unsigned long long trackId; // @synthesize trackId=_trackId;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

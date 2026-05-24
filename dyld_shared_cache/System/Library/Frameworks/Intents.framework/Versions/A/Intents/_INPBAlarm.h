@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTime, _INPBSleepAlarmAttribute;
-
 @interface _INPBAlarm
 {
     CDStruct_95bda58d _alarmRepeatScheduleOptions;
-    struct {
-        unsigned int enabled:1;
-        unsigned int firing:1;
-    } _has;
-    _Bool _enabled;
-    _Bool _firing;
-    _INPBDateTime *_dateTime;
-    NSString *_identifier;
-    _INPBDataString *_label;
-    _INPBSleepAlarmAttribute *_sleepAlarmAttribute;
 }
 
 + (_Bool);
@@ -27,63 +15,43 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (id);
 - (int *);
-- (void);
+- (void)c;
 - (void);
 - (unsigned long long);
 - (int);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)rverDelegate>";
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool);
+- (_Bool)supportsiAPOverWiFi;
+- (void)fi] FAILED to initialize private MAC manager;
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool)!%ð!DGùq¿(°1Â0@ù
 × ;
 - (void)$¥;
-- (void)icalFeatureType;
-- (_Bool)ionsForShowHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)geographicalFeatureType;
+- (_Bool)provideTimeOptionsForShowHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool)mbiguate for custom object:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int *alarmRepeatScheduleOptions;
-@property(readonly, nonatomic) unsigned long long alarmRepeatScheduleOptionsCount;
-@property(retain, nonatomic) _INPBDateTime *dateTime; // @synthesize dateTime=_dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool firing; // @synthesize firing=_firing;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasFiring;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasSleepAlarmAttribute;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDataString *label; // @synthesize label=_label;
-@property(retain, nonatomic) _INPBSleepAlarmAttribute *sleepAlarmAttribute; // @synthesize sleepAlarmAttribute=_sleepAlarmAttribute;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @end
 

@@ -7,7 +7,7 @@
 @protocol QLPreviewItem;
 
 @protocol QLPreviewPanelDataSource
-- (long long)oxy;
+- (long long)serviceContextMenuProxy;
 - (id <QLPreviewItem>)øë5$¡;
 @end
 

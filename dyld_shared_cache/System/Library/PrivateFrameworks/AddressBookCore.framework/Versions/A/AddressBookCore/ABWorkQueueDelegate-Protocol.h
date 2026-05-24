@@ -5,5 +5,6 @@
 //
 
 @protocol ABWorkQueueDelegate
+- (void);
 @end
 

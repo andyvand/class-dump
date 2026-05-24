@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)lineState>"40@0:8@"NSArray"16r^{?=BQ^{?}}24^@32 /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)9;
 - (_Bool);
 - (void);
 - (_Bool);

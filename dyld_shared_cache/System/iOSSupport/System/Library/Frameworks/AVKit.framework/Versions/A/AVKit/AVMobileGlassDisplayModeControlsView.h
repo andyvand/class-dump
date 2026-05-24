@@ -6,30 +6,12 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVButton, AVMobileGlassContainerView, AVMobileGlassControlsStyleSheet, AVRoutePickerView, AVRoutingConfiguration, NSArray, NSMapTable, NSString;
-@protocol AVMobileGlassDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate;
+@class AVButton, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassDisplayModeControlsView : AVGlassBackedView
 {
     NSMapTable *_viewToIdentifierMap;
-    _Bool _fullscreen;
-    _Bool _includesPictureInPictureControl;
-    _Bool _includesMultiviewControl;
-    _Bool _includesEnterFullscreenControl;
-    _Bool _includesExitFullscreenControl;
-    _Bool _includesRoutePickerControl;
-    AVButton *_fullScreenButton;
-    AVButton *_doneButton;
-    AVButton *_pictureInPictureButton;
-    AVButton *_multiviewButton;
-    AVRoutePickerView *_routePickerButton;
-    AVMobileGlassContainerView *_leftContainerView;
-    AVMobileGlassContainerView *_rightContainerView;
-    NSArray *_customActions;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    AVRoutingConfiguration *_routingConfiguration;
-    id <AVMobileGlassDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate> _delegate;
 }
 
 - (void);
@@ -47,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)dn't serialize zoneish PCS;
+- (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
@@ -66,9 +48,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)CUSTOM_RESPONSES_COMPATIBILITY_VERSION;
 - (id);
-- (id);
-- (void);
+- (void)T@"LPTextView",&,N,V_rightView;
 - (id);
 - (void);
 - (_Bool);
@@ -76,34 +58,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)eftAnchor;
+- (_Bool)leftAnchor;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *customActions; // @synthesize customActions=_customActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileGlassDisplayModeControlsViewDelegate><AVRoutePickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVButton *doneButton; // @synthesize doneButton=_doneButton;
 @property(readonly, nonatomic) AVButton *fullScreenButton; // @synthesize fullScreenButton=_fullScreenButton;
-@property(nonatomic, getter=isFullscreen) _Bool fullscreen; // @synthesize fullscreen=_fullscreen;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includesEnterFullscreenControl; // @synthesize includesEnterFullscreenControl=_includesEnterFullscreenControl;
-@property(nonatomic) _Bool includesExitFullscreenControl; // @synthesize includesExitFullscreenControl=_includesExitFullscreenControl;
-@property(nonatomic) _Bool includesMultiviewControl; // @synthesize includesMultiviewControl=_includesMultiviewControl;
-@property(nonatomic) _Bool includesPictureInPictureControl; // @synthesize includesPictureInPictureControl=_includesPictureInPictureControl;
-@property(nonatomic) _Bool includesRoutePickerControl; // @synthesize includesRoutePickerControl=_includesRoutePickerControl;
-@property(readonly, nonatomic) AVMobileGlassContainerView *leftContainerView; // @synthesize leftContainerView=_leftContainerView;
-@property(readonly, nonatomic) AVButton *multiviewButton; // @synthesize multiviewButton=_multiviewButton;
-@property(readonly, nonatomic) AVButton *pictureInPictureButton; // @synthesize pictureInPictureButton=_pictureInPictureButton;
-@property(readonly, nonatomic) AVMobileGlassContainerView *rightContainerView; // @synthesize rightContainerView=_rightContainerView;
-@property(retain, nonatomic) AVRoutePickerView *routePickerButton; // @synthesize routePickerButton=_routePickerButton;
-@property(readonly, nonatomic) AVRoutePickerView *routePickerView;
-@property(retain, nonatomic) AVRoutingConfiguration *routingConfiguration; // @synthesize routingConfiguration=_routingConfiguration;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
 
 @end
 

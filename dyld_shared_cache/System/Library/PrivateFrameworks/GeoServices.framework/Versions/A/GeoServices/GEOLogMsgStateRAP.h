@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateRAP
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _duration;
-    NSMutableArray *_feedbackFieldOptionKeys;
-    NSString *_rapAbBranchId;
-    NSString *_rapAbManifestVersion;
-    NSString *_rapServerManifestVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _entryPoint;
-    int _feedbackType;
-    struct {
-        unsigned int has_duration:1;
-        unsigned int has_entryPoint:1;
-        unsigned int has_feedbackType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackFieldOptionKeys:1;
-        unsigned int read_rapAbBranchId:1;
-        unsigned int read_rapAbManifestVersion:1;
-        unsigned int read_rapServerManifestVersion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)gestionZones:(id)arg1;
++ (_Bool)setHasSupportsCongestionZones:(id)arg1;
 - (void);
-- (void);
+- (void)RÏ;
 - (void);
 - (void);
 - (void);
@@ -46,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -54,9 +32,9 @@
 - (id);
 - (int);
 - (void);
-- (void);
-- (int);
-- (int);
+- (void)providerWithBackgroundConcurrencyLimit:(id)arg1;
+- (int)_CNHandleStringClassificationStrategy;
+- (int)CNMainRunLoopSchedulerCancelationToken;
 - (void);
 - (void);
 - (id);
@@ -64,11 +42,11 @@
 - (id);
 - (void);
 - (double);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)stopAudioStream;
+- (void)/u;
 - (id);
 - (unsigned long long);
 - (void);
@@ -76,9 +54,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)leType;
-- (_Bool)SpokenLanguage;
-- (id)laceData: /* Error: Ran out of types for this method. */;
+- (id)throttleType;
+- (_Bool)deviceSpokenLanguage;
+- (id)trackPlaceData: /* Error: Ran out of types for this method. */;
 - (id)complete;
 - (id);
 - (void);
@@ -86,20 +64,7 @@
 - (int)Ê6Èw5;
 
 // Remaining properties
-@property(nonatomic) double duration;
-@property(nonatomic) int entryPoint;
-@property(retain, nonatomic) NSMutableArray *feedbackFieldOptionKeys;
-@property(nonatomic) int feedbackType;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasEntryPoint;
-@property(nonatomic) _Bool hasFeedbackType;
-@property(readonly, nonatomic) _Bool hasRapAbBranchId;
-@property(readonly, nonatomic) _Bool hasRapAbManifestVersion;
-@property(readonly, nonatomic) _Bool hasRapServerManifestVersion;
-@property(retain, nonatomic) NSString *rapAbBranchId;
-@property(retain, nonatomic) NSString *rapAbManifestVersion;
-@property(retain, nonatomic) NSString *rapServerManifestVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

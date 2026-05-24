@@ -6,12 +6,11 @@
 
 #import <MPSNeuralNetwork/MPSNNFilterNode.h>
 
-@class MPSCNNLossDescriptor, MPSNNLabelsNode;
+@class MPSNNLabelsNode;
 
 @interface MPSCNNLossNode : MPSNNFilterNode
 {
     MPSNNLabelsNode *_labels;
-    MPSCNNLossDescriptor *_descriptor;
 }
 
 + (id);

@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HPDClient, NSDictionary, NSMapTable, NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class HPDClient, NSDictionary;
 
 @interface HPDSearchManager
 {
     NSDictionary *_cachedBooks;
-    HPDClient *_client;
-    NSMapTable *_clientMap;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
-+ (id);
++ (id)	;
 + (id);
 + (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
 - (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,15 +44,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)ictionaryFromAccessPage:(id)arg1 forBookType: /* Error: Ran out of types for this method. */;
+- (_Bool)_dictionaryFromAccessPage:(id)arg1 forBookType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *bookList;
-@property(retain) NSDictionary *cachedBooks; // @synthesize cachedBooks=_cachedBooks;
 @property(retain) HPDClient *client; // @synthesize client=_client;
-@property(retain) NSMapTable *clientMap; // @synthesize clientMap=_clientMap;
-@property(readonly) NSSet *indexedBookIDs;
-@property(retain) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

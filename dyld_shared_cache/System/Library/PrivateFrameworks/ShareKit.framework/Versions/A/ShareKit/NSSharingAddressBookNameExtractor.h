@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`f;
 - (id);
 - (id);
 - (id);
@@ -35,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)popoverDidDetach: /* Error: Ran out of types for this method. */;
 
 @end
 

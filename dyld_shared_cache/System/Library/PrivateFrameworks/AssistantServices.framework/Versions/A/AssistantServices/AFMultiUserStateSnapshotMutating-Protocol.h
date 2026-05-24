@@ -5,5 +5,6 @@
 //
 
 @protocol AFMultiUserStateSnapshotMutating
+- (void);
 @end
 

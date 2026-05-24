@@ -5,5 +5,7 @@
 //
 
 @protocol HAP2UnpairedAccessoryServerPairDelegate
+- (void);
+- (void);
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSActivityMonitor, HMFTimer, NSObject, NSString;
-@protocol HMDIDSActivityMonitorBroadcasterPushTokenDataSource, HMMXPCActivityInterface, OS_dispatch_queue;
+@class HMDIDSActivityMonitor, HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSActivityMonitorBroadcaster
 {
     HMFTimer *_debounceTimer;
-    _Bool _isBroadcasting;
-    HMDIDSActivityMonitor *_activityMonitor;
-    id <HMDIDSActivityMonitorBroadcasterPushTokenDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMMXPCActivityInterface> _xpcActivityInterface;
 }
 
-+ (id)lExitCount;
++ (id)processAbnormalExitCount;
 + (id)²sÿ;
+- (void)fType:fromID:context:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)layoutWithDictionaryRepresentation: /* Error: Ran out of types for this method. */;
+- (id)initWithComposition:sliderNetModel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id)Metadata";
-- (void)led;
+- (void)isEventLogEnabled;
 - (id)nager;
 - (id)	4p	°4Ôtì(;
 - (id)%@;
@@ -39,16 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMDIDSActivityMonitor *activityMonitor; // @synthesize activityMonitor=_activityMonitor;
-@property(retain) id <HMDIDSActivityMonitorBroadcasterPushTokenDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly) id <HMMXPCActivityInterface> xpcActivityInterface; // @synthesize xpcActivityInterface=_xpcActivityInterface;
 
 @end
 

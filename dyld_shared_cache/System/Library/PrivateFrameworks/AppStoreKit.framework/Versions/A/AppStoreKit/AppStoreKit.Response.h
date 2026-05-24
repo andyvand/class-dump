@@ -7,9 +7,6 @@
 @interface AppStoreKit.Response
 {
     id date;
-    id dateText;
-    id contents;
-    id id;
 }
 
 @end

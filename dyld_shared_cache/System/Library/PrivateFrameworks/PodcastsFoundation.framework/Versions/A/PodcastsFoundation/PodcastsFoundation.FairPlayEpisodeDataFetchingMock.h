@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.FairPlayEpisodeDataFetchingMock
 {
     id fetchEpisodeHandler;
-    id fetchAllDownloadedEpisodesHandler;
-    id fetchAllDownloadedEpisodeAssetURLsHandler;
-    id fetchMigrationDataForLegacyFairPlayKeysHandler;
 }
 
 @end

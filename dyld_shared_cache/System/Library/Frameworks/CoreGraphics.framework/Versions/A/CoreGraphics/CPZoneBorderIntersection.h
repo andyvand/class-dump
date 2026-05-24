@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPZoneBorder;
-
 __attribute__((visibility("hidden")))
 @interface CPZoneBorderIntersection
 {
     struct CGRect intersectionRect;
-    CPZoneBorder *intersectingBorder;
-    _Bool forwardVector;
-    _Bool backwardVector;
 }
 
 - (void);

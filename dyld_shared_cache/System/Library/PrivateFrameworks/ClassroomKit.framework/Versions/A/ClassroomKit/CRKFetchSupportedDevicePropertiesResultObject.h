@@ -9,20 +9,18 @@
 @interface CRKFetchSupportedDevicePropertiesResultObject
 {
     NSArray *_staticProperties;
-    NSArray *_liveProperties;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)4;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *liveProperties; // @synthesize liveProperties=_liveProperties;
 @property(retain, nonatomic) NSArray *staticProperties; // @synthesize staticProperties=_staticProperties;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSView;
-@protocol NSTextInputClient;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSInlinePredictionContext
 {
     NSView *_view;
-    id <NSTextInputClient> _client;
-    NSMutableDictionary *_resultDictionary;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -22,14 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)toryURL:newContentsURL:afterSuccess: /* Error: Ran out of types for this method. */;
+- (id)_finishWritingToURL:withTemporaryDirectoryURL:newContentsURL:afterSuccess: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)zationPreviewCollectionViewItem.m;
 - (void)üZD;
 
 // Remaining properties
-@property(nonatomic) id <NSTextInputClient> client; // @synthesize client=_client;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) NSMutableDictionary *resultDictionary; // @synthesize resultDictionary=_resultDictionary;
 @property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end

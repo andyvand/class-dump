@@ -9,18 +9,17 @@
 @interface CKDZoneShareCacheEntry
 {
     NSNumber *_zoneRowID;
-    NSNumber *_shareRowID;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)b;
+- (id)%3
+;
 - (void);
 - (void)¸<;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *shareRowID; // @synthesize shareRowID=_shareRowID;
 @property(retain, nonatomic) NSNumber *zoneRowID; // @synthesize zoneRowID=_zoneRowID;
 
 @end

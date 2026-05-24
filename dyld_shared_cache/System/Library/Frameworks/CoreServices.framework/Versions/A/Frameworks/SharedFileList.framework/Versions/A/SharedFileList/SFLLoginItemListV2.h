@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface SFLLoginItemListV2
 {
     id _internalObservers;
-    id _items;
-    unsigned long long _seed;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct os_unfair_lock_s _internalObserverLock;
-    NSObject<OS_dispatch_group> *_internalInitializeGroup;
-    _Bool _global;
-    _Bool _managed;
-    long long _type;
-    NSMutableDictionary *_btmItemsByUUID;
-    NSHashTable *_observers;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
+- (_Bool)8;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)TB,V_restrictNeuralNetworksToUseCPUOnly;
 - (_Bool);
 - (void);
 - (id);
@@ -47,11 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void)SString",C,N,V_titleLocalizationKey;
 - (void);
 - (id);
-- (id);
+- (id)verbose_resolve;
 - (void);
 - (id);
 - (_Bool);
@@ -61,22 +47,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)_itemsByIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allItems;
-@property(readonly) NSMutableDictionary *btmItemsByUUID; // @synthesize btmItemsByUUID=_btmItemsByUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool global; // @synthesize global=_global;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool managed; // @synthesize managed=_managed;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(copy) NSDictionary *properties;
-@property(readonly) unsigned long long seed;
-@property(readonly, copy) NSArray *snapshotItems;
-@property(readonly) Class superclass;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

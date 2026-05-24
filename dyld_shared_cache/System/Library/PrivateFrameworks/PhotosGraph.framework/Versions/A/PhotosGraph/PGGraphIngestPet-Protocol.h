@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection;
+@class NSString, PGGraphMomentNodeCollection;
 
 @protocol PGGraphIngestPet
+- (void)@"NSURL",R,N;
+- (NSString *);
 - (PGGraphMomentNodeCollection *)ns];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFavorite;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *ownerNodes;
-@property(readonly, nonatomic) unsigned long long species;
 @end
 

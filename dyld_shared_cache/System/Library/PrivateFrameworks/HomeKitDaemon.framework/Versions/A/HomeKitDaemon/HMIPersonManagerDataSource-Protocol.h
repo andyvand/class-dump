@@ -5,5 +5,8 @@
 //
 
 @protocol HMIPersonManagerDataSource
+- (void)MSPContainerErrorUnkownStorageIdentifierKey;
+- (void)(;
+- (void);
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICManagedObjectContextChangeController, NSManagedObjectContext, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
-@protocol ICThumbnailCaching, OS_dispatch_queue;
+@class ICManagedObjectContextChangeController, NSManagedObjectContext;
 
 @interface ICThumbnailService
 {
     NSManagedObjectContext *_workerContext;
-    NSManagedObjectContext *_viewContext;
-    id <ICThumbnailCaching> _cache;
-    ICManagedObjectContextChangeController *_managedObjectChangeController;
-    NSMutableDictionary *_callbacks;
-    NSObject<OS_dispatch_queue> *_schedulingSerialQueue;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    NSOperationQueue *_thumbnailGenerationQueue;
 }
 
 + (id);
@@ -31,7 +23,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,29 +32,15 @@
 - (void);
 - (id);
 - (void);
+- (id)boolValue;
 - (id);
-- (id);
-- (void);
-- (void)thContext:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)authenticateWithContext:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;
-@property(readonly, nonatomic) id <ICThumbnailCaching> cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSMutableDictionary *callbacks; // @synthesize callbacks=_callbacks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ICManagedObjectContextChangeController *managedObjectChangeController; // @synthesize managedObjectChangeController=_managedObjectChangeController;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *schedulingSerialQueue; // @synthesize schedulingSerialQueue=_schedulingSerialQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSOperationQueue *thumbnailGenerationQueue; // @synthesize thumbnailGenerationQueue=_thumbnailGenerationQueue;
-@property(readonly, nonatomic) NSManagedObjectContext *viewContext; // @synthesize viewContext=_viewContext;
-@property(readonly, nonatomic) NSManagedObjectContext *workerContext; // @synthesize workerContext=_workerContext;
 
 @end
 

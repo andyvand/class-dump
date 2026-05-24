@@ -10,8 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct ByteProvider;
-
 struct Connection;
 
 struct Database;
@@ -48,8 +46,6 @@ struct ServiceStatus {
     struct vector<SafeBrowsing::ServiceStatus::DatabaseUpdaterStatus, std::allocator<SafeBrowsing::ServiceStatus::DatabaseUpdaterStatus>> m_databaseUpdatersStatuses;
 };
 
-struct __shared_weak_count;
-
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     struct {
         union __rep {
@@ -66,11 +62,6 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
             } __l;
         } __rep_;
     } ;
-};
-
-struct shared_ptr<ByteProvider> {
-    struct ByteProvider *__ptr_;
-    struct __shared_weak_count *__cntrl_;
 };
 
 struct shared_ptr<SafeBrowsing::LookupContext> {

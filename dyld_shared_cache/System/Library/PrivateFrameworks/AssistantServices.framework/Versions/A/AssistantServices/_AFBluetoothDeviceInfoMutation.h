@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothDeviceInfo, AFBluetoothHeadGestureConfiguration, NSString, NSUUID;
+@class AFBluetoothDeviceInfo;
 
 @interface _AFBluetoothDeviceInfoMutation
 {
     AFBluetoothDeviceInfo *_base;
-    NSString *_address;
-    NSString *_name;
-    NSUUID *_deviceUID;
-    unsigned int _vendorID;
-    unsigned int _productID;
-    _Bool _isAdvancedAppleAudioDevice;
-    _Bool _supportsInEarDetection;
-    _Bool _supportsVoiceTrigger;
-    _Bool _supportsJustSiri;
-    _Bool _supportsSpokenNotification;
-    _Bool _supportsListeningModeANC;
-    _Bool _supportsListeningModeTransparency;
-    _Bool _supportsListeningModeAutomatic;
-    _Bool _supportsConversationAwareness;
-    _Bool _supportsPersonalVolume;
-    _Bool _supportsAnnounceCall;
-    AFBluetoothHeadGestureConfiguration *_headGestureConfiguration;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasAddress:1;
-        unsigned int hasName:1;
-        unsigned int hasDeviceUID:1;
-        unsigned int hasVendorID:1;
-        unsigned int hasProductID:1;
-        unsigned int hasIsAdvancedAppleAudioDevice:1;
-        unsigned int hasSupportsInEarDetection:1;
-        unsigned int hasSupportsVoiceTrigger:1;
-        unsigned int hasSupportsJustSiri:1;
-        unsigned int hasSupportsSpokenNotification:1;
-        unsigned int hasSupportsListeningModeANC:1;
-        unsigned int hasSupportsListeningModeTransparency:1;
-        unsigned int hasSupportsListeningModeAutomatic:1;
-        unsigned int hasSupportsConversationAwareness:1;
-        unsigned int hasSupportsPersonalVolume:1;
-        unsigned int hasSupportsAnnounceCall:1;
-        unsigned int hasHeadGestureConfiguration:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -53,26 +16,26 @@
 - (void);
 - (void);
 - (void);
+- (unsigned int)C9J;
+- (_Bool)6Y#;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
+- (_Bool)(;
+- (_Bool);
+- (_Bool)7H;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
+- (void)p0;
 - (void);
 - (id);
 - (void);
@@ -81,19 +44,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)rt;
-- (void)ount:asChildrenOfItemWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)shouldSuppressSiriDataSharingOptInAlert;
+- (void)_indexPathsForAddingItemsWithCount:asChildrenOfItemWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)restrictions, mdm:(unsigned int)arg1 %d, child:skipped /* Error: Ran out of types for this method. */;
 - (void)e.assistant.announcement_state;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,11 +6,11 @@
 
 @interface UnknownClass (EventKit)
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (CDStruct_79f9e052);
+- (CDStruct_79f9e052)n;
 @end
 

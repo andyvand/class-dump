@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSMutableArray, NSMutableDictionary, NSPredicate;
+@class NSManagedObjectContext;
 
 @interface ABContactFetcher
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSArray *_affectedStores;
-    NSPredicate *_fetchPredicate;
-    _Bool _includeGroups;
-    _Bool _includeLinkedContacts;
-    _Bool _unifyContacts;
-    NSMutableArray *_records;
-    NSMutableDictionary *_linkedContactsById;
 }
 
 + (id);
@@ -24,21 +17,21 @@
 - (id);
 - (void);
 - (id);
+- (_Bool)h&;
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)9 ;
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -51,13 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSArray *affectedStores; // @synthesize affectedStores=_affectedStores;
-@property(copy) NSPredicate *fetchPredicate; // @synthesize fetchPredicate=_fetchPredicate;
-@property _Bool includeGroups; // @synthesize includeGroups=_includeGroups;
-@property _Bool includeLinkedContacts; // @synthesize includeLinkedContacts=_includeLinkedContacts;
 @property(retain) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, copy) NSArray *resultRecords;
-@property _Bool unifyContacts; // @synthesize unifyContacts=_unifyContacts;
 
 @end
 

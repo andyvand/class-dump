@@ -11,22 +11,20 @@
 @interface PKTranscriptionQuery : PKQuery
 {
     NSString *_transcription;
-    CHTranscriptionQuery *_transcriptionQuery;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void)_shape;
 - (void)|;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
 @property(retain, nonatomic) CHTranscriptionQuery *transcriptionQuery; // @synthesize transcriptionQuery=_transcriptionQuery;
 
 @end

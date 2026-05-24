@@ -5,5 +5,6 @@
 //
 
 @protocol PKColorPickerCrosshairViewDelegate
+- (unsigned long long);
 @end
 

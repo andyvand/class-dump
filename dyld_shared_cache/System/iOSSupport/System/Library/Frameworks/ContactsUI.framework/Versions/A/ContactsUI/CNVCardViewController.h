@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactNavigationController, NSArray, NSString;
+@class NSArray;
 @protocol CNVCardViewControllerDelegate;
 
 @interface CNVCardViewController
 {
     id <CNVCardViewControllerDelegate> _delegate;
-    NSArray *_contacts;
 }
 
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (id);
@@ -23,19 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (void)rs: /* Error: Ran out of types for this method. */;
+- (void)avatarCacheDidUpdateForIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactNavigationController *contactNavigationController;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVCardViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

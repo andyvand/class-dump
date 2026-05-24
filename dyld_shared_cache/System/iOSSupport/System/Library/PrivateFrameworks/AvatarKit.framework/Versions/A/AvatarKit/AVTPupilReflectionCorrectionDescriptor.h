@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VFXMaterial, VFXMorpher;
+@class VFXMorpher;
 
 __attribute__((visibility("hidden")))
 @interface AVTPupilReflectionCorrectionDescriptor
 {
     VFXMorpher *_readMorpher;
-    VFXMaterial *_leftEyeMaterial;
-    VFXMaterial *_rightEyeMaterial;
-    long long _leftEyeTargetIndex;
-    long long _rightEyeTargetIndex;
 }
 
 - (void);

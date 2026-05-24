@@ -7,8 +7,6 @@
 @interface NewsArticles.ModalArticleViewerModule
 {
     id resolver;
-    id tracker;
-    id $__lazy_storage_$_contentContext;
 }
 
 @end

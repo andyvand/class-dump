@@ -6,20 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UICarTitleView : UIView
 {
     _Bool _largeText;
-    UIView *_view;
-    NSString *_text;
-    NSArray *_extraConstraints;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)otherPerson;
+- (_Bool)_hasAdministrativePrivilegesForHighlight:chatGUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -32,9 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)hv^;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *extraConstraints; // @synthesize extraConstraints=_extraConstraints;
-@property(nonatomic) _Bool largeText; // @synthesize largeText=_largeText;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

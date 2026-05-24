@@ -4,7 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol CNContactsLogger
+- (void)_?;
+- (void)kAutoAcceptGroupChatKey;
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void)@16B24^@28;
+- (void)inationItemKeysAllowList:(NSArray *)arg1 completionHandler:(NSString *)arg2;
+- (void);
+- (void)DADisk=%p=%@;
+- (void) ;
+- (void)˿;
 - (void)Ô ;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPStateController, NSObject, NSString, SFSession;
+@class CDPContext, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceOperationHandlerCDPSetup
 {
     CDPContext *_cdpContext;
-    CDPStateController *_cdpController;
-    _Bool _invalidateCalled;
-    CDUnknownBlockType _responseHandler;
-    _Bool _failIfCDPNotEnabled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_altDSIDNeedingRepair;
-    SFSession *_sfSession;
 }
 
 - (id);
@@ -35,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -44,17 +37,7 @@
 - (void)V¾ÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSIDNeedingRepair; // @synthesize altDSIDNeedingRepair=_altDSIDNeedingRepair;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool failIfCDPNotEnabled; // @synthesize failIfCDPNotEnabled=_failIfCDPNotEnabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SFSession *sfSession; // @synthesize sfSession=_sfSession;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AFExperimentState
 {
     _Bool _didEnd;
-    NSDate *_lastSyncDate;
-    NSString *_endingGroupIdentifier;
-    NSString *_version;
 }
 
-+ (id);
++ (id)M#;
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setLocalizedCallbackErrorTitle:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (_Bool);
+- (id)@0:8i16 /* Error: Ran out of types for this method. */;
+- (void));
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)dispatch_queue>",R,N,V_queue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didEnd; // @synthesize didEnd=_didEnd;
-@property(readonly, copy, nonatomic) NSString *endingGroupIdentifier; // @synthesize endingGroupIdentifier=_endingGroupIdentifier;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

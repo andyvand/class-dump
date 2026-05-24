@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BSDescriptionBuilder, NSString;
+
 @protocol _UIOrientationDebugDescriptionProviding
+- (NSString *)dictionaryRepresentationIncludingLastMessage;
+- (BSDescriptionBuilder *)dictionaryRepresentation;
+- (NSString *)dictionaryForHandlesToGUIDsFromHandleInfo: /* Error: Ran out of types for this method. */;
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSURL *_URL;
 }
 
-- (void);
-- (void);
+- (void)vate.ANEStorageMaintainer.allow;
+- (void)webViewDidChangeTypingStyle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

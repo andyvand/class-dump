@@ -7,7 +7,6 @@
 @interface AppleMediaServices.SuggestedRatingsConfiguration.BagValueCache__priv_CA15A9948F8FE6F763BFB83B377B7913
 {
     id $defaultActor;
-    id cachedModel;
 }
 
 @end

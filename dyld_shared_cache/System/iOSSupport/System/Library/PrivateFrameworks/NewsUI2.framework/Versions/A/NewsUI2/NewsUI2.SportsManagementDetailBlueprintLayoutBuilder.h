@@ -7,8 +7,6 @@
 @interface NewsUI2.SportsManagementDetailBlueprintLayoutBuilder
 {
     id layoutAttributesFactory;
-    id titleViewLayoutAttributesFactory;
-    id model;
 }
 
 @end

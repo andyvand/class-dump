@@ -9,12 +9,6 @@
 @interface Network.UDPProtocol.UDPInstance : Network.DefaultOneToOneProtocol
 {
     id localAddress;
-    id remoteAddress;
-    id transmitByteCount;
-    id receiveByteCount;
-    id trafficClass;
-    id maximumDatagramSize;
-    id flags;
 }
 
 @end

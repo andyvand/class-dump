@@ -6,21 +6,18 @@
 
 #import <authinstall/PS190SoCRestoreInfoHelperOS.h>
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PS190TatsuRequestCreatorOS : PS190SoCRestoreInfoHelperOS
 {
     NSArray *_deviceInfoArray;
-    NSData *_firmwareData;
-    NSDictionary *_apParameters;
-    NSDictionary *_requestDictionary;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool),&,N,V_persistence;
+- (id)_viewedMessages;
+- (_Bool)yticsLogger",&,N,V_analyticsLogger;
+- (id)Not Moving;
 - (void);
 
 // Remaining properties

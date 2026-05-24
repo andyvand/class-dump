@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IHSchemaIHModelEvaluationFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_endDistance;
 - (void);
 - (void);
 - (unsigned long long);
@@ -25,14 +22,12 @@
 - (id);
 - (id)ásð!;
 - (id)gationScoreThreshold;
-- (id)ked;
+- (id)IFPlatformRequestSchemaIFPlatformRequestInvoked;
 - (void)W$;
 - (int)¿;
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

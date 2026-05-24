@@ -7,12 +7,11 @@
 @interface _EARLanguageModel
 {
     struct vector<std::pair<id<_EARLanguageModelDataSource>, float>, std::allocator<std::pair<id<_EARLanguageModelDataSource>, float>>> _dataSources;
-    float _totalWeight;
 }
 
 - (float);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (void)ÐÌ3;
 

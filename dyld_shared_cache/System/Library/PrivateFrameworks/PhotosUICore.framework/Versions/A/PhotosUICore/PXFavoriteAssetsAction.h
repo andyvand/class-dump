@@ -15,13 +15,13 @@
 + (id);
 + (_Bool);
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
-- (void);
 - (id);
-- (_Bool)hResults;
+- (_Bool)_updateCollectionIndexMappingForFilteredFetchResults;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFavorite) _Bool favorite; // @synthesize favorite=_favorite;

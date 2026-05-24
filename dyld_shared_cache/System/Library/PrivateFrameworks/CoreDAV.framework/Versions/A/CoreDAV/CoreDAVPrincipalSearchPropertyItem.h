@@ -6,25 +6,21 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVLeafItem;
-
 @interface CoreDAVPrincipalSearchPropertyItem : CoreDAVItem
 {
     CoreDAVItem *_prop;
-    CoreDAVLeafItem *_descriptionItem;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
+- (id)activeCalendar;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)xmI/Library/Caches/com.apple.xbs/TemporaryDirectory.wuCyqo/Sources/YARA/libyara/modules/time/time.c;
+- (void)PF;
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVLeafItem *descriptionItem; // @synthesize descriptionItem=_descriptionItem;
 @property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;
 
 @end

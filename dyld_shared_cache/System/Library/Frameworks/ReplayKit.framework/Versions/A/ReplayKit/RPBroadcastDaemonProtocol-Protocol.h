@@ -5,5 +5,7 @@
 //
 
 @protocol RPBroadcastDaemonProtocol
+- (void)#;
+- (void);
 @end
 

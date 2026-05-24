@@ -5,5 +5,6 @@
 //
 
 @protocol ICNoteMergeObserver
+- (void);
 @end
 

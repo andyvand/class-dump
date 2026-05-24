@@ -7,29 +7,6 @@
 @interface IMAP2ConnectionControl.Engine
 {
     id workQueue;
-    id persistenceEventQueue;
-    id sendAction;
-    id logger;
-    id logName;
-    id tracingIDOwner;
-    id sourceApplicationKind;
-    id state;
-    id connections;
-    id betterPathEvaluator;
-    id didStart;
-    id isProcessingUpdates;
-    id pendingUpdates;
-    id externalState;
-    id activityTimer;
-    id inSyncMailboxesDidSyncTimer;
-    id checkForLongSyncsTimer;
-    id didTearDown;
-    id stateCapture;
-    id lastLoggedSyncRequestsAt;
-    id shouldLogForFirstConnection;
-    id powerTelemetry;
-    id pendingCredentialsRequests;
-    id pendingPushRegistrationRequests;
 }
 
 @end

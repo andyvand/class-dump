@@ -5,5 +5,7 @@
 //
 
 @protocol HMDSiriSecureAccessoryAccessControllerDataSource
+- (_Bool)bleDictionary",&,N,V_capabilitiesByParticipant;
+- (_Bool)es;
 @end
 

@@ -6,8 +6,7 @@
 
 #import <CoreNFC/NFCTag.h>
 
-@class NSData, NSString;
-@protocol NFCReaderSession;
+@class NSData;
 
 @interface NFCFeliCaTag : NFCTag
 {
@@ -28,18 +27,8 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
 @property(readonly, retain, nonatomic) NSData *currentIDm;
 @property(readonly, retain, nonatomic) NSData *currentSystemCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <NFCReaderSession> session;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _SFPBAudioData
 {
     int _formatFlags;
-    int _bitsPerChannel;
-    int _bytesPerFrame;
-    int _channelsPerFrame;
-    int _bytesPerPacket;
-    int _framesPerPacket;
-    int _reserved;
-    NSData *_audioBuffer;
-    NSString *_formatID;
-    double _sampleRate;
 }
 
 - (void);
@@ -43,33 +34,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)initWithPLImage:(id)arg1 backingData:uniformTypeIdentifier:auxiliaryImageRecords: /* Error: Ran out of types for this method. */;
+- (id)er for import:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
-- (void)Count;
+- (void)pattern_modelsCount;
 - (int)ðÿW¨S;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioBuffer; // @synthesize audioBuffer=_audioBuffer;
-@property(nonatomic) int bitsPerChannel; // @synthesize bitsPerChannel=_bitsPerChannel;
-@property(nonatomic) int bytesPerFrame; // @synthesize bytesPerFrame=_bytesPerFrame;
-@property(nonatomic) int bytesPerPacket; // @synthesize bytesPerPacket=_bytesPerPacket;
-@property(nonatomic) int channelsPerFrame; // @synthesize channelsPerFrame=_channelsPerFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int formatFlags; // @synthesize formatFlags=_formatFlags;
-@property(copy, nonatomic) NSString *formatID; // @synthesize formatID=_formatID;
-@property(nonatomic) int framesPerPacket; // @synthesize framesPerPacket=_framesPerPacket;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reserved; // @synthesize reserved=_reserved;
-@property(nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly) Class superclass;
 
 @end
 

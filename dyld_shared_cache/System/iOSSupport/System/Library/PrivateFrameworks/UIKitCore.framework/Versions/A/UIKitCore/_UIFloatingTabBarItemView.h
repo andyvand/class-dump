@@ -6,26 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImageView, UILabel, UITab, _UIBarBadgeView, _UITabSelectionView;
+@class _UITabSelectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarItemView : UIView
 {
     _Bool _highlighted;
-    _Bool _hasSelectionHighlight;
-    _Bool _editing;
-    _Bool _suppressEditing;
-    _Bool _suppressJiggleAnimation;
-    _Bool _dragged;
-    UITab *_item;
-    long long _preferredDisplayMode;
-    _UITabSelectionView *_backgroundView;
-    UILabel *_titleLabel;
-    UIImageView *_imageView;
-    _UIBarBadgeView *_badgeView;
 }
 
-+ (id);
++ (id)R;
 + (id);
 + (id);
 + (id);
@@ -39,41 +28,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)simulateMessageReceive:serviceName:groupID:handles:sender: /* Error: Ran out of types for this method. */;
+- (_Bool)ileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSender:time:body:attributes:fileTransferGUIDs:flags:error:guid:associatedMessageGUID:associatedMessageType:associatedMessageRange:associatedMessageEmoji:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)cachedUnreadReports;
+- (id);
+- (void)H;
+- (void)?@;
 - (_Bool);
-- (_Bool);
+- (_Bool)th for aux video source, bad transfer/data (assetPath %@ mimeType %@ utiType %@ guid %@);
+- (struct CGSize)ent %@ orphaned:not in message(nil:%{BOOL}d), bundle %@ /* Error: Ran out of types for this method. */;
+- (_Bool)ror reading low res wallpaperTag %@;
+- (id)s (chat:%@). /* Error: Ran out of types for this method. */;
+- (void)JSON %@. Posting operationGroupName %@ only.;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (struct CGSize);
-- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)ootnoteButton;
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)indexPathForPreferredFocusedViewInTableView: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long)1Â0@ù
 × ;
-- (void)aveOperation:(_Bool)arg1;
-- (void)iewControllersToSendViewWillTransitionToSize;
-- (id)tSize;
-- (double)sView;
+- (void)updateChangeCountWithToken:(_Bool)arg1 forSaveOperation: /* Error: Ran out of types for this method. */;
+- (void)_unspecifiedStyleChildViewControllersToSendViewWillTransitionToSize;
+- (id)_currentContentSize;
+- (double)_alternativesView;
 - (id)tion",R,N,V_timingFunction;
 - (void);
-- (id)FONT_SMALLER;
+- (id)MACMENUITEM_FORMAT_FONT_SMALLER;
 - (id)rstIndex >= _range.location && firstIndex <= maxIndex;
 - (long long);
 - (void);
@@ -86,29 +75,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UITabSelectionView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) _UIBarBadgeView *badgeView; // @synthesize badgeView=_badgeView;
-@property(readonly, nonatomic) double baselineOffsetFromTop;
-@property(readonly, nonatomic, getter=isCustomizableItem) _Bool customizableItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(nonatomic, getter=isDragged) _Bool dragged; // @synthesize dragged=_dragged;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(nonatomic) _Bool hasSelectionHighlight; // @synthesize hasSelectionHighlight=_hasSelectionHighlight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) _Bool isCustomizableItem;
-@property(retain, nonatomic) UITab *item; // @synthesize item=_item;
-@property(nonatomic) long long preferredDisplayMode; // @synthesize preferredDisplayMode=_preferredDisplayMode;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressEditing; // @synthesize suppressEditing=_suppressEditing;
-@property(nonatomic) _Bool suppressJiggleAnimation; // @synthesize suppressJiggleAnimation=_suppressJiggleAnimation;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) double titleOpacity;
 
 @end
 

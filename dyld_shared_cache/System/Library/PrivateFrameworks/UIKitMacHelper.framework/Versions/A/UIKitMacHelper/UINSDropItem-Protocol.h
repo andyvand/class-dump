@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSItemProvider;
+@class NSArray;
 
 @protocol UINSDropItem
 
 // Remaining properties
-@property(readonly, nonatomic) NSItemProvider *itemProvider;
 @property(readonly, copy, nonatomic) NSArray *typeIdentifiers;
 @end
 

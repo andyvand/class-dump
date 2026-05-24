@@ -7,10 +7,6 @@
 @interface NewsFeed.BundleCampaignConfigFetcher
 {
     id appConfigManager;
-    id resourceService;
-    id resourceTTL;
-    id cache;
-    id _ignoreCache;
 }
 
 @end

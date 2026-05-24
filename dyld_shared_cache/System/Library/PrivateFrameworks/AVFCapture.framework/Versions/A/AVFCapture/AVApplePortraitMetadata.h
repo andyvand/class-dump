@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVApplePortraitMetadataInternal, NSData, NSIndexSet;
+@class AVApplePortraitMetadataInternal;
 
 @interface AVApplePortraitMetadata
 {
@@ -22,23 +22,14 @@
 - (float);
 - (unsigned int);
 - (int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (float)mClick_block_invoke_2;
+- (void)X;
+- (id)romKVS copying legacy manatee salt %{private}@;
+- (id);
+- (void)sfer session;
+- (float)AVCaptureTemporarilySuppressShutterSoundForAirpodStemClick_block_invoke_2;
 
 // Remaining properties
-@property(readonly) unsigned int SDOFRenderingVersion;
 @property(readonly) float apertureFocalRatio;
-@property(readonly) NSData *faceObservationsData;
-@property(readonly) int faceOrientation;
-@property(readonly) struct CGRect focusRectangle;
-@property(readonly) NSIndexSet *indexesOfShallowDepthOfFieldObservations;
-@property(readonly) float luminanceNoiseAmplitude;
-@property(readonly) float maximumApertureFocalRatio;
-@property(readonly) float minimumApertureFocalRatio;
-@property(readonly) float portraitLightingEffectStrength;
 
 @end
 

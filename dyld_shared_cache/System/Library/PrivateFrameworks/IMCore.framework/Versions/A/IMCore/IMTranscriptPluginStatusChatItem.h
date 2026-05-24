@@ -13,9 +13,9 @@
     IMBalloonPluginDataSource *_dataSource;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)amp=%d dtx=%{bool}d sequenceNumber=%hu decodedCount=%d samples=%d decodedSamples=%d;
+- (id)eoClient-init (%p) streamToken=%ld;
+- (id)G;
 - (id);
 - (void)¶T·À·0¸;
 

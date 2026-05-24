@@ -6,26 +6,18 @@
 
 #import <PhotosGraph/PGMeWallpaperSuggester.h>
 
-@class NSString, PGPeopleWallpaperSuggesterFilteringContext;
+@class PGPeopleWallpaperSuggesterFilteringContext;
 
 @interface PGAmbientMeWallpaperSuggester : PGMeWallpaperSuggester
 {
 }
 
++ (id)Text;
 + (id);
-+ (id);
-- (void);
+- (void)colorWithColorSpace:components:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

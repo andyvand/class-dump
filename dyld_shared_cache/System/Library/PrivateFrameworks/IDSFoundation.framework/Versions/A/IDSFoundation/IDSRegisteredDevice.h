@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface IDSRegisteredDevice
 {
     NSString *_name;
-    NSString *_hardwareVersion;
-    NSData *_pushToken;
-    NSArray *_URIs;
-    NSArray *_linkedURIs;
-    NSData *_publicDeviceIdentity;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -27,7 +22,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool){IOBluetoothHCIEventNotificationMessage={BluetoothHCIUserClientNotificationDataInfo=QQ{BluetoothHCIRequestCallbackInfo=QQQQQ}IISCCCCCC}^v}24;
 - (void);
 - (id);
 - (void)context:%@ /* Error: Ran out of types for this method. */;
@@ -35,12 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *URIs; // @synthesize URIs=_URIs;
-@property(readonly, nonatomic) NSString *hardwareVersion; // @synthesize hardwareVersion=_hardwareVersion;
-@property(readonly, nonatomic) NSArray *linkedURIs; // @synthesize linkedURIs=_linkedURIs;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSData *publicDeviceIdentity; // @synthesize publicDeviceIdentity=_publicDeviceIdentity;
-@property(readonly, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 
 @end
 

@@ -4,89 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLUTMenu, NSCursor, NSMutableSet, NSOpenGLContext, NSTimer;
+@class NSOpenGLContext;
 
 __attribute__((visibility("hidden")))
 @interface GLUTView
 {
     NSOpenGLContext *_openGLContext;
-    struct _GLUTList _allChildrens;
-    struct _GLUTNode _siblings;
-    GLUTView *_visibilityNext;
-    GLUTView *_savedSuperview;
-    NSCursor *_nativeCursor;
-    GLUTMenu *_menu[3];
-    NSMutableSet *_viewStorage;
-    CDUnknownFunctionPointerType _keyDownFunc;
-    CDUnknownFunctionPointerType _keyUpFunc;
-    CDUnknownFunctionPointerType _mouseFunc;
-    CDUnknownFunctionPointerType _motionFunc;
-    CDUnknownFunctionPointerType _passiveMotionFunc;
-    CDUnknownFunctionPointerType _entryFunc;
-    CDUnknownFunctionPointerType _specialFunc;
-    CDUnknownFunctionPointerType _specialUpFunc;
-    CDUnknownFunctionPointerType _displayFunc;
-    CDUnknownFunctionPointerType _reshapeFunc;
-    CDUnknownFunctionPointerType _windowStatusFunc;
-    CDUnknownFunctionPointerType _visibilityFunc;
-    CDUnknownFunctionPointerType _wmCloseFunc;
-    CDUnknownFunctionPointerType _spaceballMotionFunc;
-    CDUnknownFunctionPointerType _spaceballRotateFunc;
-    CDUnknownFunctionPointerType _spaceballButtonFunc;
-    CDUnknownFunctionPointerType _buttonBoxFunc;
-    CDUnknownFunctionPointerType _dialFunc;
-    CDUnknownFunctionPointerType _tabletMotionFunc;
-    CDUnknownFunctionPointerType _tabletButtonFunc;
-    CDUnknownFunctionPointerType _joystickFunc;
-    CDUnknownFunctionPointerType _fdisplayFunc;
-    CDUnknownFunctionPointerType _fwmcloseFunc;
-    CDUnknownFunctionPointerType _fkeyDownFunc;
-    CDUnknownFunctionPointerType _fkeyUpFunc;
-    CDUnknownFunctionPointerType _fmouseFunc;
-    CDUnknownFunctionPointerType _fmotionFunc;
-    CDUnknownFunctionPointerType _fpassiveMotionFunc;
-    CDUnknownFunctionPointerType _fentryFunc;
-    CDUnknownFunctionPointerType _fspecialFunc;
-    CDUnknownFunctionPointerType _fspecialUpFunc;
-    CDUnknownFunctionPointerType _freshapeFunc;
-    CDUnknownFunctionPointerType _fwindowStatusFunc;
-    CDUnknownFunctionPointerType _fvisibilityFunc;
-    CDUnknownFunctionPointerType _fspaceballMotionFunc;
-    CDUnknownFunctionPointerType _fspaceballRotateFunc;
-    CDUnknownFunctionPointerType _fspaceballButtonFunc;
-    CDUnknownFunctionPointerType _fbuttonBoxFunc;
-    CDUnknownFunctionPointerType _fdialFunc;
-    CDUnknownFunctionPointerType _ftabletMotionFunc;
-    CDUnknownFunctionPointerType _ftabletButtonFunc;
-    CDUnknownFunctionPointerType _fjoystickFunc;
-    struct __vFlags {
-        unsigned int forceReshape:1;
-        unsigned int ignoreKeyRepeats:1;
-        unsigned int isVisibilityUpdateAllowed:1;
-        unsigned int isDamaged:1;
-        unsigned int isShown:1;
-        unsigned int isSubwindow:1;
-        unsigned int treatAsSingle:1;
-        unsigned int wasMouseInside:1;
-        unsigned int hadMouseDown:3;
-        unsigned int wasMouseEmulated:2;
-        unsigned int duplicateEmulatedMouseDown:1;
-        unsigned int reserved:2;
-    } _flags;
-    BOOL _visState;
-    BOOL _newVisState;
-    int _cursorID;
-    int _winid;
-    long long _trackingRectTag;
-    double _pollInterval;
-    NSTimer *_joyTimer;
-    NSTimer *_spaceballTimer;
-    int _iMouseLocX;
-    int _iMouseLocY;
-    int _eventMask;
-    int _curEventMask;
-    _Bool _inFullScreen;
-    int _isVBLSync;
 }
 
 + (void);
@@ -95,6 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -112,8 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -137,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -155,36 +78,36 @@ __attribute__((visibility("hidden")))
 - (CDUnknownFunctionPointerType);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)<;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_lazy_storage_$_forceResetPositionOnUpgradeExtensionIdentifiers;
+- (void)sionIdentifiers;
+- (void)menuActionContent;
+- (void)title;
+- (void)_entity;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)UG;
+- (void)filter by elements because secondary inbox filters are not supported;
+- (_Bool)CKMessageContentErrorNeedsiMessage;
+- (void)RECENTLY_DELETED_SINGULAR_PERMANENT_DELETION_ALERT_TITLE;
+- (void)BOOL);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -192,13 +115,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)rationDate"b1"usingExpirationDate"b1"usingHistory"b1"unused"b1"requiresSymbol"b1"noModifyPasswordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"origAccess"{PWGlobalAccessFeatures="hcHighBit"b1"passwordCannotBeName"b1"passwordIsHash"b1"requiresNumeric"b1"requiresAlpha"b1"usingHardExpirationDate"b1"usingExpirationDate"b1"usingHistory"b1"unused"b1"requiresSymbol"b1"noModifyPasswordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"weakAuthMethods"[25{AuthMethName="method"[21c]}]"origWeakAuthMethods"[25{AuthMethName="method"[21c]}]"publicKeyLen"I"publicKey"[1024C]"origPublicKey"[1024C]"privateKeyLen"I"privateKey"[2048C]"origPrivateKey"[2048C]"extraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}"origExtraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}};
 - (_Bool);
 - (struct CGSize)ZUB$B%QBwBwB_nBZUBÐó4BZUB÷AwB%ÑA%QB÷A¬m+B¡ç!B|aBGBMUBwB:äA$B|aA$B:dAwB|a@_nB /* Error: Ran out of types for this method. */;
 - (void)EntryCreateCFProperties failed to create usbProperties.;

@@ -9,16 +9,13 @@
 @interface CKActionMenuGestureRecognizer
 {
     CKActionMenuGestureVelocitySample *_velocitySample;
-    CKActionMenuGestureVelocitySample *_previousVelocitySample;
-    double _lastTouchTime;
-    struct CGPoint _lastScreenLocation;
 }
 
 + (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (id);
+- (struct CGPoint);
+- (void);
+- (void)6;
+- (id)P;
 - (void);
 - (void);
 - (void);

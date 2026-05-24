@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIGadget, NSColor, NSString;
+@class EKUIGadget;
 
 @interface EKUITokenField
 {
     _Bool _isExpanded;
-    _Bool _isInsideExpandableContainer;
-    EKUIGadget *_gadget;
-    NSColor *_tokenTextColor;
-    struct CGSize _intrinsicContentSize;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)�;
 - (_Bool);
 - (id);
 - (void);
@@ -29,28 +25,17 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
-- (void);
+- (_Bool)?>;
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak EKUIGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property struct CGSize intrinsicContentSize; // @synthesize intrinsicContentSize=_intrinsicContentSize;
-@property _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property _Bool isInsideExpandableContainer; // @synthesize isInsideExpandableContainer=_isInsideExpandableContainer;
-@property(readonly) Class superclass;
-@property(retain) NSColor *tokenTextColor; // @synthesize tokenTextColor=_tokenTextColor;
 
 @end
 

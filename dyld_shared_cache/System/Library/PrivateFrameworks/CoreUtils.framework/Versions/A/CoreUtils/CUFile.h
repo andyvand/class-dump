@@ -4,47 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUFile
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    int _fd;
-    NSMutableArray *_readQueue;
-    NSMutableArray *_writeQueue;
-    unsigned long long _totalLength;
-    NSURL *_url;
 }
 
-+ (id);
++ (id);
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)eventRestaurantReservationForTelephone;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ErrorMsg;
+- (void)cuErrorMsg;
 
 @end
 

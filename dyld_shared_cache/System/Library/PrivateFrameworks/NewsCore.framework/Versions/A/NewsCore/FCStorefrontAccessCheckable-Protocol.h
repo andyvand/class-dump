@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol FCStorefrontAccessCheckable
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;
-@property(readonly, copy, nonatomic) NSArray *blockedStorefrontIDs;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *sourceChannelID;
 @end
 

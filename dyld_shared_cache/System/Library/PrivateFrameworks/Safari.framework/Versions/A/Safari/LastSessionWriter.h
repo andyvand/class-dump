@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface LastSessionWriter
 {
     _Bool _scheduled;
-    _Bool _writing;
-    _Bool _pending;
-    CDUnknownBlockType _block;
 }
 
 - (void);

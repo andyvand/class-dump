@@ -5,5 +5,7 @@
 //
 
 @protocol TMLimitedXPCProtocol
+- (void);
+- (void)";
 @end
 

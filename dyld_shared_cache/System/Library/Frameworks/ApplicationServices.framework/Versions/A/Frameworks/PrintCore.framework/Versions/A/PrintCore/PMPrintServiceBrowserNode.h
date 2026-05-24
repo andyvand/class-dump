@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PMPrinterDestination;
+@class NSString;
 
 @interface PMPrintServiceBrowserNode
 {
     _Bool _isRoot;
-    NSString *_name;
-    NSString *_comment;
-    NSData *_iconData;
-    PMPrinterDestination *_printer;
-    NSString *_privateIdentifier;
 }
 
 + (id);
@@ -30,22 +25,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<;
 
 // Remaining properties
-@property(copy) NSString *comment; // @synthesize comment=_comment;
-@property(copy) NSData *iconData; // @synthesize iconData=_iconData;
-@property(readonly) _Bool isRoot; // @synthesize isRoot=_isRoot;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) PMPrinterDestination *printer; // @synthesize printer=_printer;
-@property(copy) NSString *privateIdentifier; // @synthesize privateIdentifier=_privateIdentifier;
 
 @end
 

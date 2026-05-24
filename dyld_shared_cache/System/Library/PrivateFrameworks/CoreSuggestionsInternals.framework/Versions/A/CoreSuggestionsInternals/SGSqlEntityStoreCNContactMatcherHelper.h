@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSSet, NSString;
+@class CNContact, NSString;
 
 @interface SGSqlEntityStoreCNContactMatcherHelper
 {
     CNContact *_contact;
-    NSSet *_nicks;
 }
 
 - (id);
@@ -22,18 +21,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)n;
+- (void)SGStructuredEventClassification;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addressTags;
-@property(readonly, nonatomic) NSArray *emailTags;
-@property(readonly, nonatomic) NSString *interactionContactIdentifier;
-@property(readonly, nonatomic) _Bool isMe;
-@property(readonly, nonatomic) NSArray *phoneTags;
 @property(readonly, nonatomic) NSString *prefilterNameMatchTerms;
-@property(readonly, nonatomic) NSArray *socialProfileTags;
-@property(readonly, nonatomic) NSArray *strongNamePatterns;
-@property(readonly, nonatomic) NSArray *weakNamePatterns;
 
 @end
 

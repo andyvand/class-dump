@@ -11,26 +11,22 @@
 @interface ICLinkSuggestionQuery : ICSearchQuery
 {
     _Bool _includeNotes;
-    _Bool _includeWebsites;
-    NSString *_queryString;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)recordWithRecordType:(id)arg1 name:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)recordWithRecordType:name:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)wing"16@"NSView<PKTextAttachmentView>"24;
 - (void);
 - (id);
 - (void)ú ûhû°û¼ü;
 
 // Remaining properties
-@property(nonatomic) _Bool includeNotes; // @synthesize includeNotes=_includeNotes;
-@property(nonatomic) _Bool includeWebsites; // @synthesize includeWebsites=_includeWebsites;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

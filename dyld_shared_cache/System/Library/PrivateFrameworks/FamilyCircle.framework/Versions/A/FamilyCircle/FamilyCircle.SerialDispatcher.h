@@ -7,7 +7,6 @@
 @interface FamilyCircle.SerialDispatcher
 {
     id currentTask;
-    id queue;
 }
 
 @end

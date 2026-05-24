@@ -5,5 +5,6 @@
 //
 
 @protocol FCArticleDownloadServiceType
+- (_Bool);
 @end
 

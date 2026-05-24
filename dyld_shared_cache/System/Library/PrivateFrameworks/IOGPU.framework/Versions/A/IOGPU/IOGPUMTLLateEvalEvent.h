@@ -7,8 +7,6 @@
 @interface IOGPUMTLLateEvalEvent
 {
     struct __IOGPUDevice *_deviceRef;
-    unsigned int _eventName;
-    unsigned long long _globalTraceObjectID;
 }
 
 - (unsigned long long);

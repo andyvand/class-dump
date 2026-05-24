@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class REMObjectID;
-
 @interface REMAccountTypeHost
 {
     long long _type;
-    REMObjectID *_accountObjectID;
 }
 
 - (_Bool);
@@ -18,9 +15,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Category;
 - (id);
-- (_Bool);
+- (_Bool)t journal history:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -33,7 +30,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

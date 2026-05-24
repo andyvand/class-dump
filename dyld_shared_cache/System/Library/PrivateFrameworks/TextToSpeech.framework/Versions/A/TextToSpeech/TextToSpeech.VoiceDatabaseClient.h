@@ -7,12 +7,6 @@
 @interface TextToSpeech.VoiceDatabaseClient
 {
     id $defaultActor;
-    id readOnly;
-    id $__lazy_storage_$_voiceDb;
-    id $__lazy_storage_$_voiceXpcClient;
-    id voiceQueryCache;
-    id cacheInvalidationTask;
-    id _cachedServiceReachable;
 }
 
 @end

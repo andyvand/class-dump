@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceHoursViewDelegate
+- (void);
 @end
 

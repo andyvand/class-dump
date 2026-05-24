@@ -9,7 +9,6 @@
 @interface TTSRegexCache
 {
     struct os_unfair_lock_s _regexCacheLock;
-    NSMutableDictionary *_cache;
 }
 
 + (id)¬	îÿÿÿÿÿè;

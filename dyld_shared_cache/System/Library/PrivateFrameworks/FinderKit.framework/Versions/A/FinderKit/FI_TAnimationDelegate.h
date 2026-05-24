@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CAAnimationDelegate;
 
 __attribute__((visibility("hidden")))
@@ -22,14 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)RNS8_IU8__strongP7NSArrayNS9_ISF_EEEEEENS3_IT_EEDpOT0_E19MakeInstanceEnablerNS9_ISO_EEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<CAAnimationDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

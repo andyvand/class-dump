@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSObject, NSString, NSUUID;
-@protocol HMDCameraClipFeedbackManagerDelegate, HMDCameraClipFeedbackUploader, OS_dispatch_queue;
+@class NSObject, NSUUID;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipFeedbackManager
 {
     NSUUID *_messageTargetUUID;
-    id <HMDCameraClipFeedbackManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHome *_home;
-    NSUUID *_cameraProfileUUID;
-    id <HMDCameraClipFeedbackUploader> _feedbackUploader;
 }
 
 + (id)ó,ÿÄåh'C;
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)odelReader:progressBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -39,22 +34,6 @@ __attribute__((visibility("hidden")))
 - (id)sDÿA;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *cameraProfileUUID; // @synthesize cameraProfileUUID=_cameraProfileUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraClipFeedbackManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDCameraClipFeedbackUploader> feedbackUploader; // @synthesize feedbackUploader=_feedbackUploader;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

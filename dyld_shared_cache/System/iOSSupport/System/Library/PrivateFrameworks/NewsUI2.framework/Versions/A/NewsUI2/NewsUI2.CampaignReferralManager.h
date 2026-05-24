@@ -7,7 +7,6 @@
 @interface NewsUI2.CampaignReferralManager
 {
     id subscriptionController;
-    id configurationManager;
 }
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXLivePhotoBadgeViewDelegate;
-
 @interface PXLivePhotoBadgeView
 {
     struct {
         _Bool wantsPlayback;
     } _delegateRespondsTo;
-    struct CGSize _size;
-    long long _trackingRectTag;
-    id <PXLivePhotoBadgeViewDelegate> _delegate;
-    struct CGRect _trackedRect;
 }
 
 - (struct CGRect);
@@ -27,12 +21,11 @@
 - (id);
 - (void);
 - (id)d}}^v}16o^Q24o^@32{PXTileIdentifier=Q[10Q]}40;
-- (void)aSource:(id)arg1;
+- (void)removeDataSource:(id)arg1;
 - (void)uê¶´ÝôþMê¶ÀÝôþê¶ÌÝôþ-ê¶ØÝôþ-ê¶äÝôþuê¶ðÝôþ­ê¶øÝôþ}ê¶Þôþ;
 - (void)¥Nr:(id)arg1 <;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXLivePhotoBadgeViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) struct CGRect trackedRect; // @synthesize trackedRect=_trackedRect;
 
 @end

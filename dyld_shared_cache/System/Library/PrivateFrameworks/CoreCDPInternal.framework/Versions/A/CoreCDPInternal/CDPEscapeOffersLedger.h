@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface CDPEscapeOffersLedger
 {
     id _escapeOffersPresented;
-    id expectedEscapeOffers;
-    id isWalrusEnabled;
-    id deviceHasPasscode;
-    id probationChecker;
-    id probationDuration;
-    id recoveryFlowContext;
-    id deviceIsVM;
-    id isICDPEnabled;
-    id isSingleICSCUser;
 }
 
+- (id)WKScriptMessageHandler;
+- (id)ReaderizedArticleFetcherNavigationDelegate;
+- (id)PopupWindowUnifiedFieldViewController;
+- (unsigned long long)NetworkConfigurationController;
+- (_Bool)InlineButtonRetitlerCell;
+- (void)P;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)`b;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canOfferRPD;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) unsigned long long escapeOffersPresented;
-@property(nonatomic, readonly) NSError *manateeRPDBlockingError;
-@property(nonatomic, readonly) NSError *rpdBlockingError;
 
 @end
 

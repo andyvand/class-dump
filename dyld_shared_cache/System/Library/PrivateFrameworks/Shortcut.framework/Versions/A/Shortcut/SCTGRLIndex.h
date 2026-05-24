@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SCTGRLIndex
 {
     NSMutableArray *mGRLs;
-    NSMutableArray *mSubIndices;
-    long long mUpdateLevel;
-    NSConditionLock *mSearchThreadLock;
-    NSConditionLock *mCustomSearchThreadLock;
-    unsigned long long mQuerySequenceNumber;
-    unsigned long long mSearchLimit;
-    _Bool mQueryResultsReceived;
-    NSMutableArray *mHelpItemResults;
-    NSDictionary *mKeyToLocalizedStringTable;
-    NSMutableDictionary *mLocalizedStringToKeysTable;
 }
 
 + (id);
@@ -54,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -63,16 +53,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)====;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

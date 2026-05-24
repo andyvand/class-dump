@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, FAFamilyMember, NSDate, NSNumber, NSSet, NSString;
+@class FAFamilyMember;
 
 @interface PKFamilyMember
 {
     FAFamilyMember *_member;
-    _Bool _me;
-    _Bool _parentalControlsEnabled;
-    _Bool _askToBuyEnabled;
-    _Bool _childAccount;
-    _Bool _parent;
-    _Bool _organizer;
-    long long _status;
-    NSString *_appleID;
-    NSSet *_appleIDAliases;
-    NSNumber *_dsid;
-    NSString *_altDSID;
-    NSString *_firstName;
-    NSString *_lastName;
-    CNContact *_contact;
-    unsigned long long _age;
-    NSDate *_dateOfBirth;
-    long long _memberType;
-    NSDate *_joinedDate;
-    NSString *_inviteEmail;
-    NSDate *_invitationDate;
 }
 
 + (_Bool);
@@ -37,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T8;
 - (id);
 - (_Bool);
-- (id);
+- (id)b;
 - (_Bool);
 - (void);
 - (void);
@@ -50,7 +30,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)l;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -59,15 +39,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (unsigned long long)q;
+- (void)6;
 - (void);
 - (void);
+- (_Bool)mptcpHeuristicFallbackFirstParty;
+- (void);
+- (void)I;
 - (_Bool);
 - (id);
 - (void);
@@ -77,35 +57,16 @@
 - (unsigned long long)Qï%Ð1Â0@ù
 × ;
 - (id)atformShareURL"@"NSError">32;
-- (id)Date: /* Error: Ran out of types for this method. */;
+- (id)setExecutionDate: /* Error: Ran out of types for this method. */;
 - (id)Clearing default salt:'%@' /* Error: Ran out of types for this method. */;
 - (void)esolveError but not in error or authenticate state;
 - (id)ficationÂ :%@ /* Error: Ran out of types for this method. */;
-- (void)ming;
+- (void)moreComing;
 - (id);
 - (void)¼ÿiÜ-;
 
 // Remaining properties
-@property(nonatomic) unsigned long long age; // @synthesize age=_age;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSSet *appleIDAliases; // @synthesize appleIDAliases=_appleIDAliases;
-@property(nonatomic) _Bool askToBuyEnabled; // @synthesize askToBuyEnabled=_askToBuyEnabled;
-@property(nonatomic, getter=isChildAccount) _Bool childAccount; // @synthesize childAccount=_childAccount;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSDate *dateOfBirth; // @synthesize dateOfBirth=_dateOfBirth;
-@property(copy, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSDate *invitationDate; // @synthesize invitationDate=_invitationDate;
-@property(copy, nonatomic) NSString *inviteEmail; // @synthesize inviteEmail=_inviteEmail;
-@property(copy, nonatomic) NSDate *joinedDate; // @synthesize joinedDate=_joinedDate;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 @property(nonatomic, getter=isMe) _Bool me; // @synthesize me=_me;
-@property(nonatomic) long long memberType; // @synthesize memberType=_memberType;
-@property(nonatomic, getter=isOrganizer) _Bool organizer; // @synthesize organizer=_organizer;
-@property(nonatomic, getter=isParent) _Bool parent; // @synthesize parent=_parent;
-@property(nonatomic) _Bool parentalControlsEnabled; // @synthesize parentalControlsEnabled=_parentalControlsEnabled;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

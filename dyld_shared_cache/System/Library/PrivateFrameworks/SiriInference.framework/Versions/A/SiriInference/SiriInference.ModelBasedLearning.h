@@ -7,7 +7,6 @@
 @interface SiriInference.ModelBasedLearning
 {
     id model;
-    id versionString;
 }
 
 @end

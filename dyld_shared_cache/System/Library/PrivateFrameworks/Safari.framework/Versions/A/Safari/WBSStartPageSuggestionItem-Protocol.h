@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSHistoryItem;
+@class NSString;
 
 @protocol WBSStartPageSuggestionItem
 - (NSString *);
 
 // Remaining properties
-@property(nonatomic) __weak WBSHistoryItem *historyItem;
 @property(readonly, copy, nonatomic) NSString *suggestionIdentifier;
 @end
 

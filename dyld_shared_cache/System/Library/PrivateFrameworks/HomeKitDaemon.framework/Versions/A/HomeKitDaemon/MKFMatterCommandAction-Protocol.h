@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMatterCommandActionDatabaseID, NSArray, NSNumber;
+@class NSArray, NSNumber;
 @protocol MKFHome;
 
 @protocol MKFMatterCommandAction
+- (void)more in-flight handles, resetting flags and clearing batch delay timer;
+- (void);
+- (NSNumber *);
 - (id <MKFHome>)1Â0@ù
 × ;
 - (void)åîþ îîþØôîþöîþ<þîþÌïþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *commands;
-@property(readonly, copy, nonatomic) MKFMatterCommandActionDatabaseID *databaseID;
-@property(copy, nonatomic) NSNumber *enforceExecutionOrder;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) NSArray *matterPaths;
 @end
 

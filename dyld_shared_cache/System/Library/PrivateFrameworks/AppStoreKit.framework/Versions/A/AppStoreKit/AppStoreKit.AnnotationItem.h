@@ -7,11 +7,6 @@
 @interface AppStoreKit.AnnotationItem
 {
     id headingArtworkItems;
-    id heading;
-    id text;
-    id listText;
-    id textPairs;
-    id id;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumberFormatter, NSString;
+@class NSString;
 
 @protocol ECMessageBodyStringAccumulator
 - (_Bool)c%c;
@@ -12,8 +12,6 @@
 - (void)ÓÿáYJ#ô½Óÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accumulatedString;
-@property(readonly, nonatomic) NSNumberFormatter *currencyFormatter;
 @property(readonly, nonatomic) _Bool isFull;
 @end
 

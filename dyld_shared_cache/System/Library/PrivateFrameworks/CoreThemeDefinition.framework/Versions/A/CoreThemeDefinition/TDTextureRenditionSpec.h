@@ -6,8 +6,6 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSSet, TDTexturePixelFormat, TDThemeCompressionType;
-
 @interface TDTextureRenditionSpec : TDRenditionSpec
 {
 }
@@ -16,10 +14,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) TDThemeCompressionType *compressionType; // @dynamic compressionType;
 @property(nonatomic) _Bool cubeMap; // @dynamic cubeMap;
-@property(retain, nonatomic) NSSet *mipLevels; // @dynamic mipLevels;
-@property(retain, nonatomic) TDTexturePixelFormat *pixelFormat; // @dynamic pixelFormat;
 
 @end
 

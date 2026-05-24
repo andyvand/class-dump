@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSDate, NSString, NSURL;
+@class NSDate, NSString, NSURL;
 
 @protocol FCHeadlineMetadata
 - (NSDate *)sFeed39FormatAuxiliaryViewRequirementProvidingP;
@@ -17,22 +17,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *displayDate;
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCHeadlineThumbnailMetadata",?,R,N
-
-@property(readonly, nonatomic) NSURL *routeURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
-@property(readonly, nonatomic) NSString *shortExcerpt;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *storyType;
-@property(readonly, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @end
 

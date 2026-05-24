@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, VNSceneprint;
-@protocol MLFeatureProvider;
+@class NSSet, VNSceneprint;
 
 __attribute__((visibility("hidden")))
 @interface VNSceneprintMLFeatureProvider
 {
     VNSceneprint *_sceneprint;
-    NSString *_sceneprintKey;
-    long long _sceneprintDataType;
-    id <MLFeatureProvider> _originalFeatureProvider;
 }
 
 - (id);
 - (id)ì ;
-- (void)LegacyFaceCoreProcessOption_ExtractSmile;
+- (void)VNTrackObjectPrivateRevisionLegacyFaceCoreProcessOption_ExtractSmile;
 - (id)TÂÿ;
 
 // Remaining properties

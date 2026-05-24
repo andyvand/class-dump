@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _UIGlyphPathBoundsIntersectionViewData
 {
     UIView *_clippingView;
-    struct CGRect _availableBounds;
-    struct CGRect _glyphPathBounds;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)%@;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (id);
 - (id);
-- (id)erShouldUpdateNotification;
+- (id)UICompatibilityInputViewControllerShouldUpdateNotification;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect availableBounds; // @synthesize availableBounds=_availableBounds;
-@property(nonatomic) __weak UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(nonatomic) struct CGRect glyphPathBounds; // @synthesize glyphPathBounds=_glyphPathBounds;
 
 @end
 

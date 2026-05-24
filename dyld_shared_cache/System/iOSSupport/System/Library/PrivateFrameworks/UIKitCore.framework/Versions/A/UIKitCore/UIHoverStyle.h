@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIShape;
-@protocol UIHoverEffect;
+@class NSString;
 
 @interface UIHoverStyle
 {
     id _cachedBridgedEffect;
-    id _effect;
-    id _cachedBridgedShape;
-    id _shape;
-    id _isEnabled;
-    id host;
-    id driverCoordinator;
-    id driverCoordinatorAccessLocked;
-    id driverCoordinatorQueuedActions;
 }
 
 - (id);
@@ -26,25 +17,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (_Bool)0@ù
 × ;
 - (id)!8Dù±fð1Â0@ù
 × ;
 - (void)0i48;
-- (_Bool)bEvent:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id)ctStyle;
+- (_Bool)handleKeyWebEvent:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)UIScrollEdgeEffectStyle;
 - (id)(R(S´T´U;
 - (id)xtension;
 - (void)@@­;
 - (void){ÿÄ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, retain) id <UIHoverEffect> effect;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic, retain) UIShape *shape;
 @property(nonatomic, readonly) NSString *verboseDescription;
 
 @end

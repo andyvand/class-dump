@@ -9,17 +9,11 @@
 @interface AppKit.NSScrollPocket.DebugView__priv_EC3F85FAB7755D56E669206D2B17725B : NSView
 {
     id overlays;
-    id hasCaptureColor;
-    id lumaLabel;
-    id luma;
-    id pocketMaskPortal;
-    id dashedOutlineRects;
-    id dashedOutlineRectViews;
 }
 
-- (id);
+- (id),;
 - (void);
-- (id)nailForConflict:(struct CGRect)arg1 force: /* Error: Ran out of types for this method. */;
+- (id)_startLoadingThumbnailForConflict:(struct CGRect)arg1 force: /* Error: Ran out of types for this method. */;
 - (void)tZA;
 - (void)C<]E;
 

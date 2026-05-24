@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGInferenceFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -24,26 +19,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long)NSMutableArray"16^B24;
 - (_Bool);
+- (void)d = 0 AND service_name = 'SMS';;
+- (_Bool)*);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)addScores:(id)arg1;
 - (id)onTimeSince1970;
 - (void)identityId;
 - (void)backParticipantCollectionReported.userFeedbackParticipants.siriSpeechId;
 - (_Bool)ç9Ä>;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

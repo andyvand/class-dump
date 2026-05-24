@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSLock, NSMutableDictionary, NSString;
-
 @interface MXSystemController
 {
     int mClientPID;
-    NSMutableDictionary *mNotificationsSubscribedTo;
-    NSLock *mNotificationsSubscribedToLock;
-    NSData *mAuditToken;
-    NSString *mBundleID;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void)code CPIO header;
 + (id);
-- (int);
-- (void);
+- (int)2;
+- (void)y12;
 - (int);
 - (int);
 - (int);

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PatternLoadResult
 {
     NSString *_patternId;
-    unsigned long long _patternType;
-    NSDictionary *_settings;
-    NSDictionary *_meta;
-    NSDictionary *_groups;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
@@ -29,11 +25,7 @@
 - (void)tate.familyMinsSinceLastUse;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *groups; // @synthesize groups=_groups;
-@property(retain, nonatomic) NSDictionary *meta; // @synthesize meta=_meta;
 @property(retain, nonatomic) NSString *patternId; // @synthesize patternId=_patternId;
-@property(nonatomic) unsigned long long patternType; // @synthesize patternType=_patternType;
-@property(retain, nonatomic) NSDictionary *settings; // @synthesize settings=_settings;
 
 @end
 

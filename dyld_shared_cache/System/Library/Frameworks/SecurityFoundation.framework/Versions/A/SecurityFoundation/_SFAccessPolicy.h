@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _SFAccessPolicy
 {
     CDStruct_9d0d652d _accessibility;
-    long long _sharingPolicy;
-    NSString *_accessGroup;
-    NSArray *_accessControlList;
 }
 
 + (id);
@@ -19,14 +14,14 @@
 - (struct __CFDictionary *);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)"%@*"cwd || kMDItemTextContent ="%@*"cwd;
+- (id)E;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void):(CDStruct_9d0d652d)arg1 dropout: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void);
 - (id);
 - (CDStruct_9d0d652d);
 - (void);
@@ -34,11 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessControlList; // @synthesize accessControlList=_accessControlList;
-@property(copy, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(nonatomic) CDStruct_9d0d652d accessibility; // @synthesize accessibility=_accessibility;
 @property(readonly, nonatomic) struct __CFDictionary *secAccessibilityAttributes;
-@property(nonatomic) long long sharingPolicy; // @synthesize sharingPolicy=_sharingPolicy;
 
 @end
 

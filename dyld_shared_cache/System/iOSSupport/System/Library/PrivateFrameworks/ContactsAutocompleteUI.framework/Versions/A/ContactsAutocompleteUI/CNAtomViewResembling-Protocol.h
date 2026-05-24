@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont;
-
 @protocol CNAtomViewResembling
+- (void)!;
+- (struct CGPoint);
+- (void)�;
 - (int)7;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint baselinePoint;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(nonatomic) _Bool hidesVIPIndicator;
 @property(nonatomic) _Bool isPrimaryAddressAtom;
-@property(nonatomic) unsigned long long presentationOptions;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool separatorHidden;
-@property(nonatomic) _Bool separatorIsLeftAligned;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) UIFont *titleFont;
 @end
 

@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     CALayer *_webLayer;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6;
+- (id)?@"NSNumber">16;
+- (void)notifyPeersWithScheduledMessageUpdate:(id)arg1 scheduleState: /* Error: Ran out of types for this method. */;
+- (void)_disableScreenTimeRestrictionsForMessageItem:(id)arg1 chat:watchSendsOverCellular:emergencyNumbersFoundInRecipients: /* Error: Ran out of types for this method. */;
+- (void)1;
+- (void)onComponent:(id)arg1 %@;
+- (void)gth;
 - (id);
 - (id)0@ù
 × ;

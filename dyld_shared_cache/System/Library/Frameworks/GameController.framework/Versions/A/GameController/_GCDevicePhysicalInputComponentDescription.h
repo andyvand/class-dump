@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCPhysicalInputProfile, NSArray, NSString;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class NSArray;
 
 @interface _GCDevicePhysicalInputComponentDescription
 {
     NSArray *_elementDescriptions;
-    NSArray *_bindingDescriptions;
-    GCPhysicalInputProfile *_materializedInputProfile;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 + (_Bool);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)\;
 - (id);
 - (id);
 - (void);
@@ -29,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSArray *elementDescriptions; // @synthesize elementDescriptions=_elementDescriptions;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

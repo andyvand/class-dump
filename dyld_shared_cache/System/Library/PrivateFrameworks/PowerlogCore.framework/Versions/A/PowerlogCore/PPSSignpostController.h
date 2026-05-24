@@ -14,14 +14,14 @@
 + (void);
 + (void);
 + (id);
-- (id);
+- (id)5;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)is nil;
 - (void);
 
 // Remaining properties

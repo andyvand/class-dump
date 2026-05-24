@@ -7,7 +7,6 @@
 @interface MenuTableSeparatorRowView
 {
     _Bool _ignoresHorizontalInset;
-    double _horizontalMargin;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) double horizontalMargin; // @synthesize horizontalMargin=_horizontalMargin;
-@property(nonatomic) _Bool ignoresHorizontalInset; // @synthesize ignoresHorizontalInset=_ignoresHorizontalInset;
 
 @end
 

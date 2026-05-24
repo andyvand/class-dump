@@ -24,13 +24,13 @@
 - (_Bool);
 - (long long);
 - (long long);
-- (unsigned int);
+- (unsigned int)};
 - (double);
 - (BOOL);
 - (unsigned short);
 - (_Bool);
-- (void);
-- (id)nitFromKilograms:(struct _NSZone *)arg1;
+- (void))A;
+- (id)targetUnitFromKilograms:(struct _NSZone *)arg1;
 - (float),;
 - (void);
 - (short)d long;

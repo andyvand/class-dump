@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKMapViewSuspendedEffectsToken
 {
     _Bool _invalidated;
-    MKMapView *_owner;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)ient: /* Error: Ran out of types for this method. */;
+- (void)setLenient: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFileProviderDomainVersion, NSString;
+@class NSFileProviderDomainVersion;
 
 @interface FPExtensionResponse
 {
     int _extensionPid;
-    NSFileProviderDomainVersion *_domainVersion;
-    NSDictionary *_domainUserInfo;
-    long long _sequenceNumber;
-    NSString *_callDescription;
 }
 
 + (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
+- (void)3x;
+- (id)P;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)RemoveForkOnTransactionDoesNotExist;
 - (long long);
 - (void);
 - (void);
@@ -32,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callDescription; // @synthesize callDescription=_callDescription;
-@property(retain, nonatomic) NSDictionary *domainUserInfo; // @synthesize domainUserInfo=_domainUserInfo;
 @property(retain, nonatomic) NSFileProviderDomainVersion *domainVersion; // @synthesize domainVersion=_domainVersion;
-@property(nonatomic) int extensionPid; // @synthesize extensionPid=_extensionPid;
-@property(nonatomic) long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

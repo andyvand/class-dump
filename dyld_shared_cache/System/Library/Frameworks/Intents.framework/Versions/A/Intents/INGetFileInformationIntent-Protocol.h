@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol INGetFileInformationIntent
+- (NSString *);
+- (void)lowups for account:(NSString *)arg1 %@;
 - (NSString *);
 
 // Remaining properties
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
-@property(copy) NSString *propertyName;
-@property(copy) NSString *qualifier;
 @end
 

@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface SPPairingSession
 {
     _Bool _ackSuccess;
-    _Bool _isZeus;
-    _Bool _pairingUsingTool;
-    NSUUID *_identifier;
-    NSData *_nonce;
-    NSUUID *_beaconId;
-    NSString *_name;
-    long long _roleId;
-    NSString *_roleEmoji;
-    NSString *_systemVersion;
-    long long _vendorId;
-    long long _productId;
-    NSData *_ecid;
-    NSData *_chipId;
-    NSString *_serialNumber;
-    NSData *_collaborativeKeyC1;
-    NSData *_payloadSignature;
-    NSData *_attestation;
-    NSData *_systemPublicKey;
-    NSData *_refKeyPublicKey;
-    NSData *_collaborativeKeyC2;
-    NSData *_serverSeed;
-    NSData *_serverSignature;
-    NSData *_serverPublicKey;
-    NSString *_maskedAppleID;
-    NSString *_userMessage;
-    NSData *_baaLeaftCert;
-    NSData *_baaIntermediateCert;
-    NSData *_collaborativeKeyC3;
-    NSData *_confirmSignature;
-    NSData *_keyGenerationStatus;
-    long long _batteryLevel;
-    CLLocation *_pairingLocation;
 }
 
 + (_Bool);
@@ -80,7 +48,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
@@ -95,7 +63,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R!;
 - (void);
 - (id);
 - (void);
@@ -108,13 +76,13 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)W;
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)@).;
 - (id);
 - (id);
 - (id);
@@ -125,39 +93,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool ackSuccess; // @synthesize ackSuccess=_ackSuccess;
-@property(copy, nonatomic) NSData *attestation; // @synthesize attestation=_attestation;
-@property(copy, nonatomic) NSData *baaIntermediateCert; // @synthesize baaIntermediateCert=_baaIntermediateCert;
-@property(copy, nonatomic) NSData *baaLeaftCert; // @synthesize baaLeaftCert=_baaLeaftCert;
-@property(nonatomic) long long batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(copy, nonatomic) NSUUID *beaconId; // @synthesize beaconId=_beaconId;
-@property(copy, nonatomic) NSData *chipId; // @synthesize chipId=_chipId;
-@property(copy, nonatomic) NSData *collaborativeKeyC1; // @synthesize collaborativeKeyC1=_collaborativeKeyC1;
-@property(copy, nonatomic) NSData *collaborativeKeyC2; // @synthesize collaborativeKeyC2=_collaborativeKeyC2;
-@property(copy, nonatomic) NSData *collaborativeKeyC3; // @synthesize collaborativeKeyC3=_collaborativeKeyC3;
-@property(copy, nonatomic) NSData *confirmSignature; // @synthesize confirmSignature=_confirmSignature;
-@property(copy, nonatomic) NSData *ecid; // @synthesize ecid=_ecid;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isZeus; // @synthesize isZeus=_isZeus;
-@property(copy, nonatomic) NSData *keyGenerationStatus; // @synthesize keyGenerationStatus=_keyGenerationStatus;
-@property(copy, nonatomic) NSString *maskedAppleID; // @synthesize maskedAppleID=_maskedAppleID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) CLLocation *pairingLocation; // @synthesize pairingLocation=_pairingLocation;
-@property(nonatomic) _Bool pairingUsingTool; // @synthesize pairingUsingTool=_pairingUsingTool;
-@property(copy, nonatomic) NSData *payloadSignature; // @synthesize payloadSignature=_payloadSignature;
-@property(nonatomic) long long productId; // @synthesize productId=_productId;
-@property(copy, nonatomic) NSData *refKeyPublicKey; // @synthesize refKeyPublicKey=_refKeyPublicKey;
-@property(copy, nonatomic) NSString *roleEmoji; // @synthesize roleEmoji=_roleEmoji;
-@property(nonatomic) long long roleId; // @synthesize roleId=_roleId;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSData *serverPublicKey; // @synthesize serverPublicKey=_serverPublicKey;
-@property(copy, nonatomic) NSData *serverSeed; // @synthesize serverSeed=_serverSeed;
-@property(copy, nonatomic) NSData *serverSignature; // @synthesize serverSignature=_serverSignature;
-@property(copy, nonatomic) NSData *systemPublicKey; // @synthesize systemPublicKey=_systemPublicKey;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(copy, nonatomic) NSString *userMessage; // @synthesize userMessage=_userMessage;
-@property(nonatomic) long long vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

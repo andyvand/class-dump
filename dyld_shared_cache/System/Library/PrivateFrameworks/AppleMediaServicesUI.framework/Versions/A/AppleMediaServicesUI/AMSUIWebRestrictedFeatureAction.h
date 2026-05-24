@@ -6,17 +6,16 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebRestrictedFeatureAction : AMSUIWebAction
 {
     NSString *_identifier;
-    NSNumber *_enabled;
 }
 
-- (id);
-- (id);
+- (id)loading assertion data.;
+- (id)ock;
 - (id);
 - (void);
 - (id);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)le>"16B24@"AMSDialogRequest"28;
 
 // Remaining properties
-@property(retain) NSNumber *enabled; // @synthesize enabled=_enabled;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

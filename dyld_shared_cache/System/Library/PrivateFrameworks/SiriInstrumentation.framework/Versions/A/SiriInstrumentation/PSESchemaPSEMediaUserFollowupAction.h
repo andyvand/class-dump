@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSEMediaEntitySimilarity;
-
 @interface PSESchemaPSEMediaUserFollowupAction : SISchemaInstrumentationMessage
 {
     int _state;
-    int _mediaContentDurationBucket;
-    _Bool _isSameAppUsed;
-    _Bool _isFirstPartyAppUsedForFollowup;
-    PSESchemaPSEMediaEntitySimilarity *_mediaEntitySimilarity;
-    _Bool _isAirPlay;
-    int _mediaType;
-    _Bool _isSubscriber;
-    struct {
-        unsigned int state:1;
-        unsigned int mediaContentDurationBucket:1;
-        unsigned int isSameAppUsed:1;
-        unsigned int isFirstPartyAppUsedForFollowup:1;
-        unsigned int isAirPlay:1;
-        unsigned int mediaType:1;
-        unsigned int isSubscriber:1;
-    } _has;
-    _Bool _hasMediaEntitySimilarity;
 }
 
 - (void);
@@ -36,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,43 +43,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)m.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:98 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)n;
 - (_Bool);
 - (id);
 - (id);
-- (id)eltaToDeviceUnlockInSec;
+- (id)_timeDeltaToDeviceUnlockInSec;
 - (id)d;
 - (void)ClientEvent;
-- (void)OT_RESOLUTION;
+- (void)FLOWSTATUSREASON_CANCEL_SLOT_RESOLUTION;
 - (void)";
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAirPlay;
-@property(nonatomic) _Bool hasIsFirstPartyAppUsedForFollowup;
-@property(nonatomic) _Bool hasIsSameAppUsed;
-@property(nonatomic) _Bool hasIsSubscriber;
-@property(nonatomic) _Bool hasMediaContentDurationBucket;
-@property(nonatomic) _Bool hasMediaEntitySimilarity; // @synthesize hasMediaEntitySimilarity=_hasMediaEntitySimilarity;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool isAirPlay; // @synthesize isAirPlay=_isAirPlay;
-@property(nonatomic) _Bool isFirstPartyAppUsedForFollowup; // @synthesize isFirstPartyAppUsedForFollowup=_isFirstPartyAppUsedForFollowup;
-@property(nonatomic) _Bool isSameAppUsed; // @synthesize isSameAppUsed=_isSameAppUsed;
-@property(nonatomic) _Bool isSubscriber; // @synthesize isSubscriber=_isSubscriber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaContentDurationBucket; // @synthesize mediaContentDurationBucket=_mediaContentDurationBucket;
-@property(retain, nonatomic) PSESchemaPSEMediaEntitySimilarity *mediaEntitySimilarity; // @synthesize mediaEntitySimilarity=_mediaEntitySimilarity;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

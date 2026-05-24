@@ -9,7 +9,6 @@
 @interface CPAnalyticsSystemProperties
 {
     NSMutableDictionary *_systemProperties;
-    NSMutableDictionary *_dynamicProperties;
 }
 
 + (id);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *dynamicProperties; // @synthesize dynamicProperties=_dynamicProperties;
 @property(retain, nonatomic) NSMutableDictionary *systemProperties; // @synthesize systemProperties=_systemProperties;
 
 @end

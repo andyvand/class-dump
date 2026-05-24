@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)SBAlertItemWindow;
++ (void)__objc_methlist;
 - (void);
 - (void);
 - (void);

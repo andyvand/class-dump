@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -15,7 +13,7 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct Atomic {
-    CDStruct_8837c899 _field1;
+    CDStruct_fcaf9308 _field1;
 };
 
 struct AveragePixelConstraints {
@@ -48,33 +46,33 @@ struct CABrightnessTransaction {
 };
 
 struct CAColorMatrix {
-    float m11;
-    float m12;
-    float m13;
-    float m14;
-    float m15;
-    float m21;
-    float m22;
-    float m23;
-    float m24;
-    float m25;
-    float m31;
-    float m32;
-    float m33;
-    float m34;
-    float m35;
-    float m41;
-    float m42;
-    float m43;
-    float m44;
-    float m45;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+    float _field13;
+    float _field14;
+    float _field15;
+    float _field16;
+    float _field17;
+    float _field18;
+    float _field19;
+    float _field20;
 };
 
 struct CACornerRadii {
-    struct CGSize minXMaxY;
-    struct CGSize maxXMaxY;
-    struct CGSize maxXMinY;
-    struct CGSize minXMinY;
+    struct CGSize _field1;
+    struct CGSize _field2;
+    struct CGSize _field3;
+    struct CGSize _field4;
 };
 
 struct CADisplayModeCriteriaPriv {
@@ -157,33 +155,33 @@ struct CAOpenGLLayerPrivate {
 };
 
 struct CAPoint3D {
-    double x;
-    double y;
-    double z;
+    double _field1;
+    double _field2;
+    double _field3;
 };
 
 struct CATimingFramePacingLatency {
-    double latency;
-    double frame_duration;
+    double _field1;
+    double _field2;
 };
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CAWindowServerDisplayImpl {
@@ -221,12 +219,12 @@ struct CA_content_stream_frame_info {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGColorSpace;
@@ -268,18 +266,18 @@ struct CGPathElement {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CVSMPTETime {
@@ -292,22 +290,6 @@ struct CVSMPTETime {
     short _field7;
     short _field8;
     short _field9;
-};
-
-struct ClientIPC {
-    unsigned int _port;
-    NSObject *_queue;
-    NSObject *_source;
-};
-
-struct ContentStreamClientFrame {
-    struct __IOSurface *iosurface;
-    unsigned int id;
-    unsigned int port;
-};
-
-struct DisplayManager {
-    struct __AppleDisplayManager *_field1;
 };
 
 struct DynamicFrameRateSource {
@@ -362,9 +344,9 @@ struct ModeSet {
 
 struct Mutex {
     struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _m;
+        long long _field1;
+        char _field2[56];
+    } _field1;
 };
 
 struct Object {
@@ -386,20 +368,7 @@ struct PerModeInfo {
 struct Server;
 
 struct SpinLock {
-    CDStruct_8837c899 _l;
-};
-
-struct Transition {
-    unsigned int _field1;
-    char *_field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    unsigned int _field5;
-    unsigned int _field6;
-    struct SpinLock _field7;
-    long long _field8;
-    CDUnknownBlockType _field9;
-    unsigned char _field10;
+    CDStruct_fcaf9308 _field1;
 };
 
 struct ValueInterpolator {
@@ -608,14 +577,6 @@ struct __CFSet;
 
 struct __CFString;
 
-struct __IOSurface;
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
 struct set<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>> {
     struct __tree<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsigned short, unsigned short>>, std::allocator<std::tuple<unsigned short, unsigned short>>> {
         void *_field1;
@@ -624,50 +585,17 @@ struct set<std::tuple<unsigned short, unsigned short>, std::less<std::tuple<unsi
                 void *_field1;
             } _field1;
         } _field2;
-        CDStruct_a7186859 _field3;
+        CDStruct_69d7cc99 _field3;
     } _field1;
-};
-
-struct small_vector<ContentStreamClientFrame, 8UL> {
-    struct ContentStreamClientFrame *_begin;
-    struct ContentStreamClientFrame *_end;
-    struct ContentStreamClientFrame *_fixedStorage;
-    unsigned long long _capacity;
-    union {
-        union type storage[8];
-        struct ContentStreamClientFrame flat_storage[0];
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *>*>*>>> {
     struct {
         void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *>*>*>> {
-            CDStruct_a7186859 _field1;
+            CDStruct_69d7cc99 _field1;
         } _field2;
     } _field1;
-};
-
-struct unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, unsigned int>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, unsigned int>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, unsigned int>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
 };
 
 struct unordered_map<unsigned long long, CA::Render::PerModeInfo, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, CA::Render::PerModeInfo>>> {
@@ -678,8 +606,10 @@ struct unordered_map<unsigned long long, CA::Render::PerModeInfo, std::hash<unsi
                 void *_field1;
             } _field1;
         } _field2;
-        CDStruct_a7186859 _field3;
-        CDStruct_717dde41 _field4;
+        CDStruct_69d7cc99 _field3;
+        struct {
+            float _field1;
+        } _field4;
     } _field1;
 };
 
@@ -704,14 +634,20 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
+
+typedef struct {
+    unsigned long long _field1;
     id *_field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
 
 typedef struct {
     float _field1[9];
@@ -723,12 +659,8 @@ typedef struct {
 } CDStruct_b2fbf00d;
 
 typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
-
-typedef struct {
-    int x;
-} CDStruct_8837c899;
+    int _field1;
+} CDStruct_fcaf9308;
 
 typedef struct {
     unsigned int _field1;
@@ -743,15 +675,14 @@ typedef struct {
 } CDStruct_e50ab651;
 
 typedef struct {
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
+
+typedef struct {
     CDStruct_b2fbf00d _field1;
     CDStruct_b2fbf00d _field2;
     CDStruct_b2fbf00d _field3;
     CDStruct_b2fbf00d _field4;
 } CDStruct_31cefc2d;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[16];
-};
 

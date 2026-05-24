@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _EARCommandTagging
 {
     struct unique_ptr<quasar::CommandTagging, std::default_delete<quasar::CommandTagging>> _tagging;
-    NSString *_commandId;
-    NSArray *_tagSequence;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setNotificationCategories: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ì;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *commandId; // @synthesize commandId=_commandId;
-@property(readonly, copy, nonatomic) NSArray *tagSequence; // @synthesize tagSequence=_tagSequence;
 
 @end
 

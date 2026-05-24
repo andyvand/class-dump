@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSNumber, NSOrderedSet, TDEffectComponent;
+@class NSNumber;
 
 @interface TDEffectRenditionSpec : TDRenditionSpec
 {
@@ -24,9 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) TDEffectComponent *CUIShapeEffectOutputOpacity;
-@property(readonly, retain, nonatomic) TDEffectComponent *CUIShapeEffectShapeOpacity;
-@property(retain, nonatomic) NSOrderedSet *components; // @dynamic components;
 @property(retain, nonatomic) NSNumber *effectScale; // @dynamic effectScale;
 
 @end

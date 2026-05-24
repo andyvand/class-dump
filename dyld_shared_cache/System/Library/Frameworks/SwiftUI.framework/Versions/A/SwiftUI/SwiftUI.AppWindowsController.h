@@ -7,21 +7,6 @@
 @interface SwiftUI.AppWindowsController
 {
     id makeWindow;
-    id mainWindowControllers;
-    id dismissedWindowControllers;
-    id windowCounts;
-    id cascadeNumbers;
-    id auxiliaryWindowControllers;
-    id auxiliaryCascadeNumber;
-    id settingsWindowController;
-    id singleWindowControllers;
-    id stageWindowController;
-    id remoteSceneWindowController;
-    id restorationCompletionHandlers;
-    id keyWindowObservation;
-    id mainWindowObservation;
-    id windowFocusedValues;
-    id windowFocusStores;
 }
 
 + (void);

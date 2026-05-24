@@ -9,8 +9,6 @@
 @interface _PXSimulatedMediaRequest
 {
     CDUnknownBlockType _originalProgressHandler;
-    CDUnknownBlockType _simulatedResultHandler;
-    id <_RequestOptions> _simulatedOptions;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void)gationPerformer;
+- (void)GenerativeStoryCreatedMemoryNavigationPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_RequestOptions> simulatedOptions; // @synthesize simulatedOptions=_simulatedOptions;

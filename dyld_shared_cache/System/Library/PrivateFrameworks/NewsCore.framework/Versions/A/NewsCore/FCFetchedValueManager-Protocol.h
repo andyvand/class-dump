@@ -7,6 +7,8 @@
 @protocol NFCopying;
 
 @protocol FCFetchedValueManager
+- (void)ingMetadata.bundldeID;
+- (id <NFCopying>)le to copy identity;
 - (void)ecipes;
 
 // Remaining properties

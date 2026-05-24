@@ -7,20 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)_attributionInfo;
+- (NSString *)Current locale:%@, supports trimming:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id)_addItemsForAceViews:withDialogPhase:fromCommandWithIdentifier:asChildrenOfItemWithIdentifier:isSupplemental:isImmersiveExperience:isPersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
+- (_Bool)D"b1"errorCode"b1};
 - (id)SString",&,V_updatedMethod;
 - (_Bool)C;
 - (struct _NSZone *)p%©4¤å>ÞÑìuä¾'Ej°3á¨:*jÄÅpKpV!}4MOÄx2|gn /* Error: Ran out of types for this method. */;
 
 @optional
-- (NSString *);
+- (Class);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

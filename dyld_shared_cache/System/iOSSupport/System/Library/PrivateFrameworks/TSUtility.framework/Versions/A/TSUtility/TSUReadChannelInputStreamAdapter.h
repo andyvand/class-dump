@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_dispatch_queue, TSUReadChannel, TSUStreamReadChannel;
+@protocol TSUReadChannel;
 
 @interface TSUReadChannelInputStreamAdapter
 {
     id <TSUReadChannel> _readChannel;
-    id <TSUStreamReadChannel> _streamReadChannel;
-    NSObject<OS_dispatch_data> *_leftoverData;
-    NSObject<OS_dispatch_queue> *_readQueue;
-    long long _offset;
 }
 
-- (id);
-- (id);
+- (id)tag;
+- (id)featurePromotionEnabled;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)i!ɚ;
 - (_Bool);
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

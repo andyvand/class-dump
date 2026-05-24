@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PHMediaFormatConversionContent
 {
     unsigned long long _length;
-    NSURL *_fileURL;
-    NSString *_fileSignature;
-    long long _mediaType;
 }
 
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (long long);
-- (id);
+- (id)ion despite disconnect-on-idle;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)xrReserved__::VtArray<double>::_DetachIfNotUnique() [T = double] /* Error: Ran out of types for this method. */;
+- (void)Tr;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)commute15MinWarningEntityRelevanceSpecificGeoHashAndDayOfWeekFeatures;
+- (id)P;
 
 // Remaining properties
 @property(readonly) NSString *fileSignature;
-@property(readonly) NSString *fileType;
-@property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) _Bool isVideo;
-@property(readonly) unsigned long long length;
-@property long long mediaType; // @synthesize mediaType=_mediaType;
 
 @end
 

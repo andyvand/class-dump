@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, STYHIDWakeEventFetcher, STYIOPMNotificationMonitor, SignpostSupportObjectExtractor;
+@class SignpostSupportObjectExtractor;
 @protocol STYWakeDataConsumer;
 
 @interface STYSystemWakeDataProvider
 {
     SignpostSupportObjectExtractor *_signpostExtractor;
-    NSDictionary *_signpostMap;
-    unsigned int _ioRegEntryForPM;
-    STYIOPMNotificationMonitor *_iopmNotificationMonitor;
-    STYHIDWakeEventFetcher *_hidWakeEventFetcher;
-    id <STYWakeDataConsumer> _consumer;
 }
 
 - (void);
@@ -29,19 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)String",&,N;
+- (id)xtract removability entries from deserialized removability plist:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property __weak id <STYWakeDataConsumer> consumer; // @synthesize consumer=_consumer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

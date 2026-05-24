@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface CNPropertyFaceTimeAction : CNPropertyAction
 {
     long long _type;
-    CNPropertyBestIDSValueQuery *_bestFaceTimeQuery;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -25,11 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void)dius;
+- (void)_sectionCornerRadius;
 
 // Remaining properties
 @property(retain, nonatomic) CNPropertyBestIDSValueQuery *bestFaceTimeQuery; // @synthesize bestFaceTimeQuery=_bestFaceTimeQuery;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

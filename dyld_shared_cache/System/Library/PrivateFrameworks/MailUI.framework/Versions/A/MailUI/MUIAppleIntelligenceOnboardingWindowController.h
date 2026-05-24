@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUIAppleIntelligenceOnboardingViewController, NSWindow;
+@class MUIAppleIntelligenceOnboardingViewController;
 
 @interface MUIAppleIntelligenceOnboardingWindowController
 {
     CDUnknownBlockType _completionHandler;
-    MUIAppleIntelligenceOnboardingViewController *_onboardingViewController;
-    NSWindow *_presentingWindow;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)Images;
-- (id)WillOpen: /* Error: Ran out of types for this method. */;
-- (void)yFilename;
+- (void)mutedImages;
+- (id)menuWillOpen: /* Error: Ran out of types for this method. */;
+- (void)accessibilityFilename;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) MUIAppleIntelligenceOnboardingViewController *onboardingViewController; // @synthesize onboardingViewController=_onboardingViewController;
-@property(nonatomic) __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
 
 @end
 

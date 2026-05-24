@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKScribbleInteraction, UIView;
-@protocol UIInteraction;
+@class PKScribbleInteraction, UIView;
 
 @interface PKScribbleInteractionWrapper
 {
@@ -31,25 +30,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id)uttonsVisibleInCompactSize;
-- (void)ment;
+- (void)_postEndedErasingAXAnnouncement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <UIInteraction> interaction;
-@property(readonly, nonatomic) UIView *interactionView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIView *view;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIView",?,R,N

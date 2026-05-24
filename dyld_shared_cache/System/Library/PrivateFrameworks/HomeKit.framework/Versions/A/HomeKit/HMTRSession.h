@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)ce;
+- (void)HMUserCloudShareManagerDataSource;
 - (id);
 
 // Remaining properties

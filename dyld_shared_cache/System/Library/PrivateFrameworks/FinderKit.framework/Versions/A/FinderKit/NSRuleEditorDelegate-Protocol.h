@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSRuleEditor;
+
 @protocol NSRuleEditorDelegate
+- (long long)Notifications removed:(NSRuleEditor *)arg1 %{public}@;
+- (id)ting change action failed with error:(NSRuleEditor *)arg1 %{public}@;
+- (id)rforming change action:(NSRuleEditor *)arg1 %{public}@ (%{public}@);
+
+@optional
+- (void)k;
+- (NSDictionary *);
 @end
 

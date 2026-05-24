@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, SFUCryptoKey, TIADocumentInfo, TSADocumentRoot, TSPObjectContext;
-@protocol NSFilePresenter, OS_dispatch_queue, TIADocumentPassphraseDelegate;
+@class TSPObjectContext;
 
 @interface TIADocument
 {
     int _hasPersistenceErrors;
-    TSADocumentRoot *_documentRootForDocumentDidLoad;
-    TSADocumentRoot *_suspendedDocumentRoot;
-    TSPObjectContext *_context;
-    NSObject<OS_dispatch_queue> *_ioQueue;
-    NSObject<OS_dispatch_queue> *_ioOperationQueue;
-    id _documentStateChangedObserver;
-    _Bool _passwordEntryWasAbandoned;
-    _Bool _isShowingConflictResolutionSheet;
-    _Bool _isClosingWithoutSaving;
-    _Bool _isReadOnly;
-    _Bool _documentNeedsDownloadOnRevert;
-    _Bool _documentRevertWasAbandoned;
-    TIADocumentInfo *_documentInfo;
-    id <TIADocumentPassphraseDelegate> _passphraseDelegate;
-    SFUCryptoKey *_encryptionKey;
-    NSString *_sourcePathForNondestructiveImport;
-    TSPObjectContext *_contextForRevert;
-    NSURL *_templateURL;
 }
 
 - (_Bool);
@@ -36,30 +17,30 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)BookmarkingConsumer;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)f;
+- (id);
+- (id)];;
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)& ;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void)#;
+- (id)#;
 - (void);
 - (id);
 - (_Bool);
@@ -70,73 +51,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void),;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (id)remainingComplicationUserInfoTransfers;
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void)romElement:(CDUnknownBlockType)arg1;
+- (void)gradientAt:(CDUnknownBlockType)arg1 fromElement: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areNewExternalReferencesToDataAllowed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(retain, nonatomic) TSPObjectContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) TSPObjectContext *contextForRevert; // @synthesize contextForRevert=_contextForRevert;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *defaultDraftName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *documentCachePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(retain, nonatomic) TIADocumentInfo *documentInfo; // @synthesize documentInfo=_documentInfo;
-@property(readonly) _Bool documentNeedsDownloadOnRevert; // @synthesize documentNeedsDownloadOnRevert=_documentNeedsDownloadOnRevert;
-@property(copy, nonatomic) NSString *documentPasswordHint;
-@property(readonly) _Bool documentRevertWasAbandoned; // @synthesize documentRevertWasAbandoned=_documentRevertWasAbandoned;
-@property(readonly, retain, nonatomic) TSADocumentRoot *documentRoot;
-@property(retain, nonatomic) SFUCryptoKey *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property(readonly, nonatomic) id <NSFilePresenter> filePresenter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSFilePresenter>",?,R,N
-
-@property(readonly) _Bool hasPersistenceErrors;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool ignoreDocumentSupport;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isClosed;
-@property _Bool isClosingWithoutSaving; // @synthesize isClosingWithoutSaving=_isClosingWithoutSaving;
-@property(readonly, nonatomic) _Bool isDocumentSupportTemporary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isPasswordProtected;
-@property _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly) _Bool isShowingConflictResolutionSheet; // @synthesize isShowingConflictResolutionSheet=_isShowingConflictResolutionSheet;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) id <TIADocumentPassphraseDelegate> passphraseDelegate; // @synthesize passphraseDelegate=_passphraseDelegate;
-@property(readonly) _Bool passwordEntryWasAbandoned; // @synthesize passwordEntryWasAbandoned=_passwordEntryWasAbandoned;
-@property(readonly) _Bool shouldHideForSnapshots;
-@property(retain, nonatomic) NSString *sourcePathForNondestructiveImport; // @synthesize sourcePathForNondestructiveImport=_sourcePathForNondestructiveImport;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *templateURL; // @synthesize templateURL=_templateURL;
 
 @end
 

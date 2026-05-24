@@ -6,26 +6,18 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCTagController, NSArray;
-@protocol FCContentContext, FCNewsAppConfigurationManager, FCSportsEventsFetchOperationDelegate;
+@class FCCachePolicy;
 
 @interface FCSportsEventsFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    FCTagController *_tagController;
-    NSArray *_sportsEventIDs;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
-    id <FCSportsEventsFetchOperationDelegate> _delegate;
-    NSArray *_resultSportsEvents;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void)ryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCTranslationMap.m;
-- (void)ceId;
+- (void)personalizationUrlMappingResourceId;
 - (void)pt;
 - (void);
 - (id);
@@ -33,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
 
 @end
 

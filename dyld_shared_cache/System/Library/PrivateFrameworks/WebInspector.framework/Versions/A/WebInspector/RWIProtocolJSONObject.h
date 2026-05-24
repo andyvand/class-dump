@@ -14,10 +14,10 @@
 - (RefPtr_2055800f);
 - (id);
 - (void);
+- (id);
+- (void)hB9;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPushToken, IDSURI;
+@class IDSURI;
 
 @interface IDSOffGridState
 {
     IDSURI *_uri;
-    IDSPushToken *_pushToken;
-    long long _offGridStatus;
 }
 
 + (_Bool);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;
@@ -25,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long offGridStatus; // @synthesize offGridStatus=_offGridStatus;
-@property(readonly, nonatomic) IDSPushToken *pushToken; // @synthesize pushToken=_pushToken;
 @property(readonly, nonatomic) IDSURI *uri; // @synthesize uri=_uri;
 
 @end

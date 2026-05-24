@@ -6,23 +6,13 @@
 
 #import <ContactsUI/CNPhotoPickerProviderItem.h>
 
-@class AVTAvatarRecordImageProvider, AVTRenderingScope, AVTStickerConfiguration, CNAvatarStickerGeneratorProvider, CNPhotoPickerColorVariant, NSData, UIImage;
+@class NSData;
 @protocol AVTAvatarRecord;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerAnimojiProviderItem : CNPhotoPickerProviderItem
 {
     id <AVTAvatarRecord> _avatarRecord;
-    AVTStickerConfiguration *_poseConfiguration;
-    CNPhotoPickerColorVariant *_backgroundColorVariant;
-    NSData *__originalImageData;
-    NSData *__generatedImageData;
-    UIImage *_loadingPlaceholderImage;
-    CNAvatarStickerGeneratorProvider *_stickerGeneratorProvider;
-    AVTRenderingScope *_renderingScope;
-    AVTAvatarRecordImageProvider *_imageProvider;
-    struct CGSize _originalImageSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 + (id)qt1Â0@ù
@@ -41,21 +31,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)(;
 - (id);
+- (id)7;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -64,34 +54,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (struct CGSize);
-- (id);
+- (id)�;
 - (struct UIEdgeInsets);
-- (id);
+- (id)r=?, propertydata=? where recordid=?;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (void);
-- (void)ntMessage;
+- (void)_importantMessage;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *_generatedImageData; // @synthesize _generatedImageData=__generatedImageData;
 @property(retain, nonatomic) NSData *_originalImageData; // @synthesize _originalImageData=__originalImageData;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) CNPhotoPickerColorVariant *backgroundColorVariant; // @synthesize backgroundColorVariant=_backgroundColorVariant;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(retain, nonatomic) AVTAvatarRecordImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(retain, nonatomic) UIImage *loadingPlaceholderImage; // @synthesize loadingPlaceholderImage=_loadingPlaceholderImage;
-@property(nonatomic) struct CGSize originalImageSize; // @synthesize originalImageSize=_originalImageSize;
-@property(retain, nonatomic) AVTStickerConfiguration *poseConfiguration; // @synthesize poseConfiguration=_poseConfiguration;
-@property(retain, nonatomic) AVTRenderingScope *renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(retain, nonatomic) CNAvatarStickerGeneratorProvider *stickerGeneratorProvider; // @synthesize stickerGeneratorProvider=_stickerGeneratorProvider;
-@property(retain, nonatomic) NSData *thumbnailImageData;
 
 @end
 

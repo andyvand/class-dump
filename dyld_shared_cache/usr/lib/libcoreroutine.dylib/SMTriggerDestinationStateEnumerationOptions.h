@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSUUID;
-
 @interface SMTriggerDestinationStateEnumerationOptions
 {
     unsigned long long _batchSize;
-    _Bool _sortByStateStartDate;
-    _Bool _ascending;
-    unsigned long long _fetchLimit;
-    NSUUID *_sessionIdentifier;
-    NSDateInterval *_dateInterval;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (_Bool);
 - (id);
 - (id);
@@ -30,11 +23,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
 @property(readonly, nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) _Bool sortByStateStartDate; // @synthesize sortByStateStartDate=_sortByStateStartDate;
 
 @end
 

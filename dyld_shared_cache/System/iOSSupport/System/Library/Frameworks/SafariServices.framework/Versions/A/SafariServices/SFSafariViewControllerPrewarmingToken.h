@@ -9,17 +9,15 @@
 @interface SFSafariViewControllerPrewarmingToken
 {
     _Bool _valid;
-    NSOrderedSet *_URLs;
-    unsigned long long _requestID;
 }
 
-+ (_Bool);
++ (_Bool)safari_highLevelDomainForPasswordManager;
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
-- (void);
+- (void)__cstring;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *URLs; // @synthesize URLs=_URLs;
-@property(readonly, nonatomic) unsigned long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

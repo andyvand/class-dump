@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetCustomURLAuthentication
 {
     struct OpaqueFigCustomURLHandler *_handler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (int);
 + (id);
 - (void);
 - (int);
-- (id);
+- (id);
 
 @end
 

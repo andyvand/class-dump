@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol NSFileProviderItem;
 
 @protocol NSFileProviderTestingIngestion
-- (NSString *)mulatedSquareDiffFromMean;
+- (NSString *)cumulatedSquareDiffFromMean;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSFileProviderItem> item;
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) unsigned long long side;
 @end
 

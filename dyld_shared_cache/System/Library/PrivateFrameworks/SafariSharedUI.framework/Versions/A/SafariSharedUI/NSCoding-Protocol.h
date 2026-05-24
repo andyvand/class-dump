@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)ils15callable_holderIZZ40-[FI_IAsyncNodeOperation startOperation]ENK3$_8clE16NodeSuboperationEUlvE_vJEEE;
 @end
 

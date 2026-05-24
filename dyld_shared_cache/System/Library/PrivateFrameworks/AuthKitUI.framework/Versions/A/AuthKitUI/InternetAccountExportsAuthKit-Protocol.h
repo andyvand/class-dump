@@ -7,11 +7,40 @@
 @class JSValue, NSDictionary;
 
 @protocol InternetAccountExportsAuthKit
+- (void)CFBundleVersion;
+- (void)NSError"16;
+- (void);
+- (void);
+- (void);
+- (void)SPPreferenceCustomRules;
+- (void)~Q;
+- (void)potlight-2418.5.9.101
+;
+- (void);
+- (void)0;
+- (void)\%;
+- (void)S;
+- (JSValue *),@;
+- (void)z[;
+- (void)T[;
+- (void)completion_event is NULL.;
+- (NSDictionary *)c;
+- (unsigned long long);
+
+@optional
+- (void):(JSValue *)arg1 %@ doNotFold:(id)arg2 %d blockId:%llu feedbackBlockId:%ld /* Error: Ran out of types for this method. */;
+- (void)Spotlight;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)SPParameterizedTool;
+- (void);
+- (void);
+- (void)pk;
 
 // Remaining properties
-@property(retain, nonatomic, getter=icaButtonBar, setter=icaSetButtonBar:) JSValue *buttonBar;
-@property(readonly, nonatomic) NSDictionary *environment;
 @property(readonly, nonatomic) unsigned long long protocolVersion;
-@property(readonly, nonatomic) NSDictionary *workflow;
 @end
 

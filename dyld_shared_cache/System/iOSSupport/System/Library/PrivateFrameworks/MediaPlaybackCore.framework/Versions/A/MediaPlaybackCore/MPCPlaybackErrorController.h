@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVItem, MPCPlaybackEngine, NSMutableSet;
-@protocol MFQueueItemTranslator, MPCPlaybackErrorControllerDelegate;
+@class MPCPlaybackEngine;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackErrorController
 {
     _Bool _itemsHavePlayed;
-    id <MPCPlaybackErrorControllerDelegate> _delegate;
-    MPCPlaybackEngine *_playbackEngine;
-    id <MFQueueItemTranslator> _translator;
-    NSMutableSet *_failedItemsIdentifiers;
-    MPAVItem *_lastItemUsedForErrorResolution;
-    long long _contiguousFailSilentlyResolutionCount;
 }
 
 - (void);
@@ -31,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)typeForTagClass:(id)arg1 tag: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -42,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)lic}@ô¥ RENDERING MODE CHANGED     %{public}@;
 
 // Remaining properties
-@property(nonatomic) long long contiguousFailSilentlyResolutionCount; // @synthesize contiguousFailSilentlyResolutionCount=_contiguousFailSilentlyResolutionCount;
-@property(nonatomic) __weak id <MPCPlaybackErrorControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableSet *failedItemsIdentifiers; // @synthesize failedItemsIdentifiers=_failedItemsIdentifiers;
-@property(nonatomic) _Bool itemsHavePlayed;
-@property(retain, nonatomic) MPAVItem *lastItemUsedForErrorResolution; // @synthesize lastItemUsedForErrorResolution=_lastItemUsedForErrorResolution;
 @property(nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic) id <MFQueueItemTranslator> translator; // @synthesize translator=_translator;
 
 @end
 

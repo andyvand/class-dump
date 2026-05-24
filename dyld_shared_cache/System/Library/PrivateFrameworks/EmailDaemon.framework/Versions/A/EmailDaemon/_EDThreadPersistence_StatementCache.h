@@ -9,7 +9,6 @@
 @interface _EDThreadPersistence_StatementCache
 {
     EDPersistenceDatabaseConnection *_connection;
-    NSMutableDictionary *_preparedStatements;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)sGatherer.swift;
 
 // Remaining properties
-@property(readonly, nonatomic) EDPersistenceDatabaseConnection *connection; // @synthesize connection=_connection;
 @property(readonly, nonatomic) NSMutableDictionary *preparedStatements; // @synthesize preparedStatements=_preparedStatements;
 
 @end

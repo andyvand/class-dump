@@ -10,33 +10,31 @@ __attribute__((visibility("hidden")))
 @interface NSInputAnalyticsProxy
 {
     NSIATextInputActionsContext *_textInputActionsContext;
-    IATextInputActionsAnalytics *_textInputActionsAnalytics;
 }
 
 - (id);
 - (id);
+- (void)_shouldPreserveBackgroundSessionDisposition;
+- (void)_setSubscribedDomainsForCookieChanges: /* Error: Ran out of types for this method. */;
+- (void)_setStartTimeoutDate: /* Error: Ran out of types for this method. */;
+- (void)_setPrivacyProxyFailClosedForUnreachableNonMainHosts:(id)arg1;
+- (void)_setPrivacyProxyFailClosed:(id)arg1;
+- (void)_sessionWithConfiguration:(unsigned long long)arg1 delegate:delegateQueue:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (void)_sessionForCacheLookups;
+- (void)_secureConnection;
+- (void)_reusedAfterAPSleepWake;
+- (void)_resumeInformation;
+- (void)_responseHeaderBytesReceived;
+- (void)_responseBodyBytesDecoded;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) IATextInputActionsAnalytics *textInputActionsAnalytics; // @synthesize textInputActionsAnalytics=_textInputActionsAnalytics;
-@property(readonly) NSIATextInputActionsContext *textInputActionsContext; // @synthesize textInputActionsContext=_textInputActionsContext;
 
 @end
 

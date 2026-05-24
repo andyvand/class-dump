@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RBDevice, RBLayerGroup;
+@class RBDevice;
 
 @interface RBLayer
 {
     struct spin_lock _lock;
-    struct objc_ptr<RBDevice *> _device;
-    struct refcounted_ptr<RB::Drawable> _drawable;
-    struct objc_ptr<RBImageQueueLayer *> _queueLayer;
-    struct objc_ptr<RBSurfaceContentsLayer *> _contentsLayer;
-    void *_pending_async_surface;
-    struct objc_ptr<RBLayerGroup *> _async_group;
-    struct SharedSubsurface _subsurface;
-    struct refcounted_ptr<RB::SharedSurfaceClient> _surface_client;
-    struct atomic<bool> _deallocating;
-    struct atomic<bool> _failed_before;
-    float _dpy_headroom;
-    float _content_headroom;
-    unsigned int _tracking_dpy_headroom:1;
-    unsigned int _visible:1;
-    unsigned int _needs_display_on_visible:1;
-    unsigned int _pending_visible_callback:1;
-    unsigned int _failed_to_render:1;
-    unsigned int _in_render_in_context:1;
-    unsigned int _pending_subsurface:1;
-    _Bool _rendersAsynchronously;
-    _Bool _needsSynchronousUpdate;
-    _Bool _promotesFramebuffer;
-    _Bool _clearsBackground;
-    _Bool _allowsPackedDrawable;
-    _Bool _allowsBottomLeftOrigin;
-    int _colorMode;
-    int _HDRMode;
-    float _displayHeadroomLimit;
-    unsigned long long _pixelFormat;
-    long long _maxDrawableCount;
-    CDStruct_0b1c536a _clearColor;
 }
 
 + (id);
@@ -48,32 +17,32 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)encodeWithCoder:(id)arg1;
 - (long long);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (_Bool)";
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)fakeFlightInformationWithAirlineCode:flightNumber:flightDate: /* Error: Ran out of types for this method. */;
 - (int);
-- (void);
+- (void)than %lu results for query. Giving up.;
 - (void);
 - (void);
 - (_Bool);
@@ -82,7 +51,7 @@
 - (id);
 - (void);
 - (void);
-- (CDStruct_0b1c536a);
+- (CDStruct_818bb265);
 - (void);
 - (void);
 - (void);
@@ -95,36 +64,13 @@
 - (int);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)cursorVisibility;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) int HDRMode; // @synthesize HDRMode=_HDRMode;
-@property(nonatomic) _Bool allowsBottomLeftOrigin; // @synthesize allowsBottomLeftOrigin=_allowsBottomLeftOrigin;
-@property(nonatomic) _Bool allowsPackedDrawable; // @synthesize allowsPackedDrawable=_allowsPackedDrawable;
-@property(retain, nonatomic) RBLayerGroup *asynchronousGroup;
-@property(nonatomic) CDStruct_0b1c536a clearColor; // @synthesize clearColor=_clearColor;
-@property(nonatomic) _Bool clearsBackground; // @synthesize clearsBackground=_clearsBackground;
-@property(nonatomic) int colorMode; // @synthesize colorMode=_colorMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) RBDevice *device;
-@property(nonatomic) float displayHeadroomLimit; // @synthesize displayHeadroomLimit=_displayHeadroomLimit;
-@property(readonly, nonatomic, getter=isDrawableAvailable) _Bool drawableAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long maxDrawableCount; // @synthesize maxDrawableCount=_maxDrawableCount;
-@property(nonatomic) _Bool needsSynchronousUpdate; // @synthesize needsSynchronousUpdate=_needsSynchronousUpdate;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) _Bool promotesFramebuffer; // @synthesize promotesFramebuffer=_promotesFramebuffer;
-@property(nonatomic) _Bool rendersAsynchronously; // @synthesize rendersAsynchronously=_rendersAsynchronously;
-@property(readonly, copy, nonatomic) NSDictionary *statistics;
-@property(copy, nonatomic) CDUnknownBlockType statisticsHandler;
-@property(readonly) Class superclass;
 
 @end
 

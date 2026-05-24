@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface PXStoryCurationChangeList
 {
     _Bool _hasAnyChange;
-    NSSet *_promotedIdentifiers;
-    NSSet *_demotedIdentifiers;
 }
 
 + (id);
-- (id);
+- (id)y;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -29,10 +25,7 @@
 - (void)(ÛÉ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *demotedIdentifiers; // @synthesize demotedIdentifiers=_demotedIdentifiers;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) _Bool hasAnyChange; // @synthesize hasAnyChange=_hasAnyChange;
-@property(readonly, nonatomic) NSSet *promotedIdentifiers; // @synthesize promotedIdentifiers=_promotedIdentifiers;
 
 @end
 

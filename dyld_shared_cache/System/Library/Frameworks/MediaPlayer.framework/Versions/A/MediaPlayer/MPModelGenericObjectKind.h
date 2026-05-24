@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id)@9	 ;
 + (_Bool);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)FRAction;
 - (void);
 - (void)_anyCommandHandlersRegistered;
 

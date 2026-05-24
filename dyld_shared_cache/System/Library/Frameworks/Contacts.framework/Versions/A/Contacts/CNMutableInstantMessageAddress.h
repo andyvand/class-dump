@@ -16,7 +16,6 @@
 - (id)gration (Temp File -> Main container);
 
 // Remaining properties
-@property(copy) NSString *service; // @dynamic service;
 @property(copy) NSString *username; // @dynamic username;
 
 @end

@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsEventTriggerExecutionSessionData
 {
     int _executionState;
-    int _resultErrorCode;
-    unsigned long long _timestamp;
-    NSString *_sessionID;
-    NSArray *_triggerEvents;
-    NSArray *_endEvents;
 }
 
-- (id);
+- (id)is NOT eligible for trip sharing;
+- (void)l notification subtitle;
 - (void);
-- (void);
-- (int);
-- (void);
-- (id);
+- (int)grpcRequestWithBaseURL: /* Error: Ran out of types for this method. */;
+- (void)smallCountryAOILevelModifier;
+- (id)passesFilteringWithAsset:curationContext:orientation:reason: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (unsigned long long);
-- (void)nRoutines:(id)arg1;
-- (void)itWithGroupName:(unsigned long long)arg1 homeUUID:date: /* Error: Ran out of types for this method. */;
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (void)setPowerOnCompletionRoutines:(id)arg1;
+- (void)initWithGroupName:(unsigned long long)arg1 homeUUID:date: /* Error: Ran out of types for this method. */;
+- (id)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *endEvents; // @synthesize endEvents=_endEvents;
-@property int executionState; // @synthesize executionState=_executionState;
-@property int resultErrorCode; // @synthesize resultErrorCode=_resultErrorCode;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 @property unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSArray *triggerEvents; // @synthesize triggerEvents=_triggerEvents;
 
 @end
 

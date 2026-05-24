@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentUIPreservedStateDirectory, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIRemoteStorageClient
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    NSPersistentUIPreservedStateDirectory *_stateDirectoryAtLaunch;
-    _Bool _fetchingStateDirectoryAtLaunch;
-    _Bool _elidingWrites;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)r;
+- (id)lib;
+- (void);
+- (void){private}s>;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Timeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
 - (void);
 - (id);
 - (void)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

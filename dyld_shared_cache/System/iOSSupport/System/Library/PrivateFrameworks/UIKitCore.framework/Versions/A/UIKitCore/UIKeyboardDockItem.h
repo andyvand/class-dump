@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAction, UIImage, UIKeyboardDockItemButton, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITouch;
+@class NSString, UIKeyboardDockItemButton;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardDockItem
 {
     NSString *_identifier;
-    NSString *_title;
-    UIImage *_image;
-    UIAction *_customAction;
-    UITouch *_lastTouchUp;
-    UIKeyboardDockItemButton *_button;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    struct CGPoint _touchDownPoint;
 }
 
 + (id)^ð1Â0@ù
@@ -25,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id)icHidingDelegate>";
 - (struct CGPoint);
 - (void);
-- (id);
+- (id)TLKAuxilliaryTextView;
 - (void);
 - (void);
 - (id)0@ù
@@ -36,7 +28,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!@ùf°1Â0@ù
 × ;
-- (_Bool)w:(id)arg1;
+- (_Bool)initWithTextInputView:(id)arg1;
 - (void)r;
 - (id)BèBAXDÈDEðFdGI,I´I;
 - (id)Ùïÿ;
@@ -53,18 +45,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)8èÒíj;
 
 // Remaining properties
-@property(nonatomic) _Bool active;
 @property(retain, nonatomic) UIKeyboardDockItemButton *button; // @synthesize button=_button;
-@property(retain, nonatomic) UIAction *customAction; // @synthesize customAction=_customAction;
-@property(nonatomic) _Bool enabled;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UITouch *lastTouchUp; // @synthesize lastTouchUp=_lastTouchUp;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(retain, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) struct CGPoint touchDownPoint; // @synthesize touchDownPoint=_touchDownPoint;
-@property(readonly, nonatomic) UIKeyboardDockItemButton *view;
 
 @end
 

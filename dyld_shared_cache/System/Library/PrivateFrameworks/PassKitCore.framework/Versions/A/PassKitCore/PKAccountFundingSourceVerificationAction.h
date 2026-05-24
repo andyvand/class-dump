@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKAccountFundingSourceVerificationAction
 {
     unsigned long long _type;
-    NSArray *_verificationOptions;
 }
 
 + (_Bool);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_stallProbability;
 - (void);
 - (id);
 - (void);
-- (id)ountry;
+- (id)_country;
 - (void)authorizationResultOrderDetails;
 
 // Remaining properties
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSArray *verificationOptions; // @synthesize verificationOptions=_verificationOptions;
 
 @end
 

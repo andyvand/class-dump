@@ -6,8 +6,6 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOMAResourceCalculateFreeableSizeReply : GEOXPCReply
 {
     unsigned long long _size;
@@ -16,18 +14,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)ildren:(id)arg1;
+- (void)unregisterScrollViewSeparatorTrackingAdapter:(unsigned long long)arg1;
+- (void)addChildren:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

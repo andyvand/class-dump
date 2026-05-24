@@ -5,18 +5,13 @@
 //
 
 @class PIReframeKeyframeSequence;
-@protocol NUVideoProperties;
 
 @interface PIVideoReframeNode
 {
     _Bool _shouldApplyWatermark;
-    PIReframeKeyframeSequence *_keyframeSequence;
-    id <NUVideoProperties> _inputVideoProperties;
-    CDStruct_1b6d18a9 _frameDuration;
-    CDStruct_996ac03c _stabCropRect;
 }
 
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (_Bool);
 - (void);
 - (void);
@@ -31,7 +26,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,11 +34,7 @@
 - (void)";
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 frameDuration; // @synthesize frameDuration=_frameDuration;
-@property(retain, nonatomic) id <NUVideoProperties> inputVideoProperties; // @synthesize inputVideoProperties=_inputVideoProperties;
 @property(retain, nonatomic) PIReframeKeyframeSequence *keyframeSequence; // @synthesize keyframeSequence=_keyframeSequence;
-@property(nonatomic) _Bool shouldApplyWatermark; // @synthesize shouldApplyWatermark=_shouldApplyWatermark;
-@property(nonatomic) CDStruct_996ac03c stabCropRect; // @synthesize stabCropRect=_stabCropRect;
 
 @end
 

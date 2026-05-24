@@ -7,6 +7,7 @@
 @class CRNormalizedQuad;
 
 @protocol CRRegion
+- (CRNormalizedQuad *);
 
 // Remaining properties
 @property(readonly) CRNormalizedQuad *boundingQuad;

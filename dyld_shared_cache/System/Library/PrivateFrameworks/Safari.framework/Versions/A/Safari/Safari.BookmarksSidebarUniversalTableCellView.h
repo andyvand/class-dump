@@ -6,25 +6,13 @@
 
 #import <Safari/BookmarksTableCellView.h>
 
-@class NSArray, NSImageView, NSTextField;
-
 @interface Safari.BookmarksSidebarUniversalTableCellView : BookmarksTableCellView
 {
     id cellStyle;
-    id originalTitle;
-    id thumbnailRequestToken;
-    id faviconRequestToken;
-    id leadingConstraint;
-    id trailingConstraint;
-    struct NSEdgeInsets contentInsets;
-    long long cellType;
-    id iconContainerView;
-    NSImageView *trailingImageView;
-    NSTextField *countLabel;
 }
 
 + (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -33,23 +21,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id) ;
+- (void)IMMetricsCollectorEventPNGCountSentPerMessage;
 - (struct NSEdgeInsets);
 - (double);
 - (id);
-- (long long)e: /* Error: Ran out of types for this method. */;
+- (long long)_setTargetUnderMouse: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cellType; // @synthesize cellType;
 @property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets;
-@property(nonatomic, readonly) NSTextField *countLabel; // @synthesize countLabel;
-@property(nonatomic, readonly) NSArray *requestTokens;
-@property(nonatomic, readonly) double rowHeight;
-@property(nonatomic, readonly) NSImageView *trailingImageView; // @synthesize trailingImageView;
 
 @end
 

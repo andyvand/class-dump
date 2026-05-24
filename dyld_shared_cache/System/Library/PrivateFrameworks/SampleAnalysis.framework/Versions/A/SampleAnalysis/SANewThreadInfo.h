@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SATimestamp;
-
 __attribute__((visibility("hidden")))
 @interface SANewThreadInfo
 {
     int _oldPid;
-    int _newPid;
-    SATimestamp *_timestamp;
-    unsigned long long _newTid;
 }
 
 - (id);

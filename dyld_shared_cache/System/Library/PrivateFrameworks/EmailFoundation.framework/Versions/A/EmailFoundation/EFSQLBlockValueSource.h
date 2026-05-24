@@ -6,14 +6,9 @@
 
 #import <EmailFoundation/EFSQLValueSource.h>
 
-@class NSString;
-@protocol EFSQLValueExpressable;
-
 @interface EFSQLBlockValueSource : EFSQLValueSource
 {
     CDUnknownBlockType _creationBlock;
-    id <EFSQLValueExpressable> _selectResultExpression;
-    NSString *_selectResultAlias;
 }
 
 - (id);

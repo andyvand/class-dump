@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NTPBCoverArticleWidgetView
 {
     int _coverArticleWidgetArticleCount;
-    NSData *_coverArticleWidgetViewingSessionId;
-    CDStruct_bb0d9f0d _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)axInfoSource;
+- (void)assetCollectionToObserve;
+- (void)assetCollectionSuggestionGroup:(int)arg1 extendedCuratedAssetsOnly:shouldReverseSortOrder: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateIncludeMeContact;
+- (_Bool)_updateInaccurateAssetCollectionsIfNeeded;
+- (id)_transitionDuration;
+- (int)_transitionDelegate;
 - (id);
-- (int);
-- (id);
-- (void);
+- (void)_18TranscoderMediatorEE3$_0FNS_4spanIKfLm18446744073709551615EEERNS2_13MontrealModelEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ClusterIDEntity;
 - (id);
 - (id);
-- (void)IDs;
+- (void)iAdSectionIDs;
 
 // Remaining properties
-@property(nonatomic) int coverArticleWidgetArticleCount; // @synthesize coverArticleWidgetArticleCount=_coverArticleWidgetArticleCount;
-@property(retain, nonatomic) NSData *coverArticleWidgetViewingSessionId; // @synthesize coverArticleWidgetViewingSessionId=_coverArticleWidgetViewingSessionId;
-@property(nonatomic) _Bool hasCoverArticleWidgetArticleCount;
 @property(readonly, nonatomic) _Bool hasCoverArticleWidgetViewingSessionId;
 
 @end

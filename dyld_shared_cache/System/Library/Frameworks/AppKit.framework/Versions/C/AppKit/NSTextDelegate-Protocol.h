@@ -7,6 +7,7 @@
 @protocol NSTextDelegate
 
 @optional
-- (void)enterInWindowSpace;
+- (_Bool)a;
+- (void)_visualCenterInWindowSpace;
 @end
 

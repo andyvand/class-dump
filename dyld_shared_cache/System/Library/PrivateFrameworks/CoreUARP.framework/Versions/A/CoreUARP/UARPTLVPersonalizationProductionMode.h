@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
-- (id);
++ (unsigned int)or is already being downloaded. Waiting on existing download.;
+- (id)T;
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)ationDelegate;
 
 // Remaining properties
 @property(readonly) unsigned int productionMode; // @synthesize productionMode=_productionMode;

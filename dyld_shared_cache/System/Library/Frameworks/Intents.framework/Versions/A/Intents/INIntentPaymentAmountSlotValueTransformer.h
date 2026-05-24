@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)oadTaskPriorities:count: /* Error: Ran out of types for this method. */;
++ (long long)setPayloadTaskPriorities:count: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)N,V_labeledValue;
 

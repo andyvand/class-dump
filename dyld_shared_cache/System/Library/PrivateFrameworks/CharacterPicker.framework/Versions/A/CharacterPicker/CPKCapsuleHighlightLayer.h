@@ -10,7 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
-- (id);
+- (id)K	h
+;
 - (id);
 
 @end

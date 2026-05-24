@@ -6,28 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@protocol MTLBuffer;
-
 @interface MPSImageSIFT : MPSUnaryImageKernel
 {
     float _sigma;
-    unsigned long long _layersPerOctave;
-    unsigned long long _octaves;
-    _Bool _upscale;
-    float _contrastThreshold;
-    unsigned long long _edgeThreshold;
-    float _initialSigma;
-    unsigned long long _imageBoundary;
-    float _orientationRadius;
-    float _orientationWeight;
-    unsigned long long _orientationBins;
-    float _orientationThreshold;
-    unsigned long long _maximumKeyPoints;
-    float *_sigmas;
-    id <MTLBuffer> _weights;
-    _Bool _fusedKeypointOrientation;
-    _Bool _useCompressedTexture;
-    unsigned long long _maxinumKernelWidth;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -37,12 +18,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool fusedKeypointOrientation; // @synthesize fusedKeypointOrientation=_fusedKeypointOrientation;
-@property(nonatomic) _Bool useCompressedTexture; // @synthesize useCompressedTexture=_useCompressedTexture;
 
 @end
 

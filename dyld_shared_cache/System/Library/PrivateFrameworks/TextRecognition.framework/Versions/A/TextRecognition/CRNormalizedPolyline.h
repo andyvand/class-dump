@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImageSpacePolyline, NSArray, NSString;
+@class CRImageSpacePolyline;
 
 @interface CRNormalizedPolyline
 {
     CRImageSpacePolyline *_denormalizedPolyline;
-    ObjectRef_52546fe6 __pathRef;
-    struct CGSize _normalizationSize;
 }
 
 + (_Bool);
@@ -29,16 +27,16 @@
 - (id);
 - (id);
 - (id);
-- (ObjectRef_52546fe6);
+- (ObjectRef_c40a8e1d)!;
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)trackSwipeEventWithOptions:dampenAmountThresholdMin:max:usingHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0@"NSUUID"8@"NSError"16;
 - (_Bool);
 - (void);
 - (id);
@@ -46,19 +44,7 @@
 - (void)eMerge}}}}16@112{vector<unsigned long, std::allocator<unsigned long>>=^Q^Q{?=^Q}}120 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property ObjectRef_52546fe6 _pathRef; // @synthesize _pathRef=__pathRef;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) CRImageSpacePolyline *denormalizedPolyline; // @synthesize denormalizedPolyline=_denormalizedPolyline;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property struct CGSize normalizationSize; // @synthesize normalizationSize=_normalizationSize;
-@property(readonly) struct CGPath *path;
-@property(readonly) unsigned long long pointCount;
-@property(readonly) NSArray *pointValues;
-@property(readonly) Class superclass;
 
 @end
 

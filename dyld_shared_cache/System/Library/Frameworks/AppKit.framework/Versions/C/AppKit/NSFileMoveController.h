@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSFileMoveController
 {
     _Bool _began;
-    NSURL *_initialURL;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)st">40;
 - (void);
 - (void);
 - (void);
@@ -28,19 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType)0@ù
 × ;
-- (id)iewer:(id)arg1;
+- (id)accessibilityHelperForToolbarItemViewer:(id)arg1;
 - (void)outMenuBarIfNeeded:(CDUnknownBlockType)arg1 logging final layout;
 - (void)q;
 - (id)`yC;
 
 // Remaining properties
-@property(readonly) _Bool began; // @synthesize began=_began;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain) NSURL *initialURL; // @synthesize initialURL=_initialURL;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

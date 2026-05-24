@@ -11,11 +11,10 @@
 @interface PGExcitingMomentsMemoryTitleGenerator : PGTitleGenerator
 {
     CLSServiceManager *_serviceManager;
-    PGGraphPersonNodeCollection *_personNodeAsCollection;
 }
 
-- (void);
-- (id);
+- (void)removeObjectsForKeys:(id)arg1;
+- (id)tElementController;
 - (id);
 - (void);
 - (void)s/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Syndication/PGSyndicationProcessor.m;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFAppIconImage, RFAvatarImage, RFBadgedImage, RFDefaultBrowserAppIconImage, RFMonogramImage, RFSymbolImage, RFUrlImage;
+@class RFUrlImage;
 
 @interface RFImageSource
 {
@@ -18,14 +18,6 @@
         unsigned int default_browser_app_icon:1;
         unsigned int do_not_show_loading_placeholder:1;
     } _has;
-    _Bool _do_not_show_loading_placeholder;
-    RFUrlImage *_url;
-    RFSymbolImage *_symbol;
-    RFAppIconImage *_app_icon;
-    RFAvatarImage *_avatar;
-    RFMonogramImage *_monogram;
-    RFBadgedImage *_badged_image;
-    RFDefaultBrowserAppIconImage *_default_browser_app_icon;
 }
 
 + (_Bool);
@@ -34,52 +26,36 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)b;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)2;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)isJ327Route;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)shouldUseSpotlightPrivateIndexForLibraryIdentifier:(id)arg1;
+- (id)animatedStickerRangeDurationValue;
+- (id)localizedGeoDescriptionCacheKey;
 - (id);
 - (id);
 - (id);
 - (void)sonParameterCommand;
 
 // Remaining properties
-@property(retain, nonatomic) RFAppIconImage *app_icon; // @synthesize app_icon=_app_icon;
-@property(retain, nonatomic) RFAvatarImage *avatar; // @synthesize avatar=_avatar;
-@property(retain, nonatomic) RFBadgedImage *badged_image; // @synthesize badged_image=_badged_image;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RFDefaultBrowserAppIconImage *default_browser_app_icon; // @synthesize default_browser_app_icon=_default_browser_app_icon;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool do_not_show_loading_placeholder; // @synthesize do_not_show_loading_placeholder=_do_not_show_loading_placeholder;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFMonogramImage *monogram; // @synthesize monogram=_monogram;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RFSymbolImage *symbol; // @synthesize symbol=_symbol;
 @property(retain, nonatomic) RFUrlImage *url; // @synthesize url=_url;
 
 @end

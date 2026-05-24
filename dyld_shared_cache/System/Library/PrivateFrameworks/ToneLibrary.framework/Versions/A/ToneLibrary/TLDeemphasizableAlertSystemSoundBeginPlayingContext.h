@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TLAlert, TLAlertSystemSoundContext, TLSystemSound;
+@class TLAlert;
 
 @interface TLDeemphasizableAlertSystemSoundBeginPlayingContext
 {
     TLAlert *_alert;
-    TLAlertSystemSoundContext *_alertSystemSoundContext;
-    NSString *_toneIdentifierForDeemphasizingAlert;
-    NSString *_vibrationIdentifierForDeemphasizingAlert;
-    TLSystemSound *_sound;
 }
 
 - (id);
@@ -22,14 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)&;
 
 // Remaining properties
 @property(readonly, nonatomic) TLAlert *alert; // @synthesize alert=_alert;
-@property(readonly, nonatomic) TLAlertSystemSoundContext *alertSystemSoundContext; // @synthesize alertSystemSoundContext=_alertSystemSoundContext;
-@property(retain, nonatomic) TLSystemSound *sound; // @synthesize sound=_sound;
-@property(readonly, copy, nonatomic) NSString *toneIdentifierForDeemphasizingAlert; // @synthesize toneIdentifierForDeemphasizingAlert=_toneIdentifierForDeemphasizingAlert;
-@property(readonly, copy, nonatomic) NSString *vibrationIdentifierForDeemphasizingAlert; // @synthesize vibrationIdentifierForDeemphasizingAlert=_vibrationIdentifierForDeemphasizingAlert;
 
 @end
 

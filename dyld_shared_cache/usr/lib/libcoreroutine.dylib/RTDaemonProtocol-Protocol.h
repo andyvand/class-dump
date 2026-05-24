@@ -4,13 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTStoredVehicleFetchOptions;
+@class GEOMapItemStorage, NSDate, RTStoredVehicleFetchOptions;
 
 @protocol RTDaemonProtocol
+- (void);
+- (void)SString",R,N,V_zoneName;
+- (void)H;
+- (void)t %@ class %@;
+- (void)m;
+- (void)EP엁;
+- (void)!;
+- (void);
+- (void);
+- (void)`;
+- (void)_fullIdenityForDataProtectionClass:(long long)arg1 error:(GEOMapItemStorage *)arg2;
+- (void)lector unselectSubscription:(void (^)(NSError *))arg1 withError:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ken;
+- (void)Remote proposal has invalid SPI;
+- (void)d stats report for %d flows;
 - (void)!àAùA,Ð1Â0@ù
 × ;
 - (void)× ;
-- (void);
 - (void)¡(ð!ÜCùQB,°1Â0@ù
 × ;
 - (void)setMagnetBreakTimer:(NSDate *)arg1;

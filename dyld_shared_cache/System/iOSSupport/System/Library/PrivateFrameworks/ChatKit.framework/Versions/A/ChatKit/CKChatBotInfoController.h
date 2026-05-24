@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, NSString;
+@class IMHandle;
 
 @interface CKChatBotInfoController
 {
     IMHandle *handle;
-    void fallbackHandle;
 }
 
+- (void)e;
+- (id);
+- (id);
+- (id);
+- (id)?;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)j;
 - (void)e#kÿ×;
 - (void)Ä^fÿÇh%3;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *fallbackHandle;
 @property(nonatomic, retain) IMHandle *handle; // @synthesize handle;
 
 @end

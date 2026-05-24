@@ -5,5 +5,6 @@
 //
 
 @protocol LSTemplateApplicationCreationInterface
+- (void);
 @end
 

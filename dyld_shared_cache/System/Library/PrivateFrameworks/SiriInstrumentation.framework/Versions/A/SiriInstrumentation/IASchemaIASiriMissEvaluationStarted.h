@@ -6,25 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IASchemaIASiriMissEvaluationStarted : SISchemaInstrumentationMessage
 {
     NSString *_assetVersion;
-    _Bool _hasAssetVersion;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)canGetLocationForHandle:groupId:callerId: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)vationEventId:(id)arg1;
+- (void)setActivationEventId:(id)arg1;
 - (id)"NSString",C,N,V_structuredSearchParameterName;
 - (id)ÀÐlÑðÑ<Ó´Ó(Ö;
 - (id)ÌÿøÒ¯¢#;
@@ -32,8 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

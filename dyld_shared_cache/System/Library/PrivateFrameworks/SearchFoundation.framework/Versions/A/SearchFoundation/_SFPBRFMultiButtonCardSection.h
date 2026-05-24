@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBRFMultiButtonCardSection
 {
     int _layoutType;
-    NSArray *_buttons;
 }
 
 - (void);
@@ -19,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)queryForType:(id)arg1 withBasePredicate:seedOIDs:inLibrary: /* Error: Ran out of types for this method. */;
+- (id)ublic}@ Suggestions for search query completed. Status:%{public}tu, Suggestions:%@ /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
@@ -33,15 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int layoutType; // @synthesize layoutType=_layoutType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,37 +7,30 @@
 #import <HomeKitDaemon/HMDHAPAccessoryTask.h>
 
 @class HMDDevice;
-@protocol HMDHAPAccessoryTask;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryRemoteOperationWithLocalFallbackTask : HMDHAPAccessoryTask
 {
     HMDDevice *_remoteTaskDelegateDevice;
-    id <HMDHAPAccessoryTask> _remoteTask;
-    id <HMDHAPAccessoryTask> _localTask;
-    id <HMDHAPAccessoryTask> _fallbackLocalTask;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)requestGuidanceState;
+- (void)encodeBool:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)_setNotificationCenter:(id)arg1;
+- (id)ate}@, none of the peer-requested handles have both statues yet;
+- (id)dles;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (CDUnknownBlockType)gistrationsRelationOfTypeAnalysisEventBulletinRegistrationWithModelID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)createBulletinRegistrationsRelationOfTypeAnalysisEventBulletinRegistrationWithModelID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)HomeKit.daemon.HMDAppleMediaAccessoryMatchingIdentifierEvent;
 
 // Remaining properties
-@property(retain) id <HMDHAPAccessoryTask> fallbackLocalTask; // @synthesize fallbackLocalTask=_fallbackLocalTask;
-@property(retain) id <HMDHAPAccessoryTask> localTask; // @synthesize localTask=_localTask;
-@property(retain) id <HMDHAPAccessoryTask> remoteTask; // @synthesize remoteTask=_remoteTask;
 @property(readonly) HMDDevice *remoteTaskDelegateDevice; // @synthesize remoteTaskDelegateDevice=_remoteTaskDelegateDevice;
 
 @end

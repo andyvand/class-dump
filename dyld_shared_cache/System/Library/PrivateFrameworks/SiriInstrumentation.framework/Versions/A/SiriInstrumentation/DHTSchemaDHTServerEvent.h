@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DHTSchemaDHTDeleteTrigger, NSData, SISchemaInstrumentationMessage;
+@class DHTSchemaDHTDeleteTrigger, SISchemaInstrumentationMessage;
 
 @interface DHTSchemaDHTServerEvent : SISchemaTopLevelUnionType
 {
     DHTSchemaDHTDeleteTrigger *_deleteTrigger;
-    _Bool _hasDeleteTrigger;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -29,21 +27,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (id)IFTEntityValue";
-- (id)vent;
+- (id)hasAppLaunchEvent;
 - (unsigned long long)eliabilityCounts;
-- (id)ed;
+- (id)MHSchemaMHVoiceProfileICloudSyncFinished;
 - (id)T¼T;
 - (void)¿;
 
 // Remaining properties
-@property(retain, nonatomic) DHTSchemaDHTDeleteTrigger *deleteTrigger; // @synthesize deleteTrigger=_deleteTrigger;
-@property(nonatomic) _Bool hasDeleteTrigger; // @synthesize hasDeleteTrigger=_hasDeleteTrigger;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -5,31 +5,29 @@
 //
 
 @class NSMutableArray;
-@protocol TIKeyboardInputManager, _UIIVCResponseDelegateImpl;
+@protocol TIKeyboardInputManager;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardInputManagerMux
 {
     NSMutableArray *_clients;
-    id <_UIIVCResponseDelegateImpl> _responseDelegate;
-    id <TIKeyboardInputManager> _systemInputManager;
 }
 
 + (_Bool)ectly;
 + (id)Àl;
-- (void);
+- (void)dingInMsg failed %d;
 - (id);
 - (void);
-- (_Bool)ion:(SEL)arg1;
-- (void)hTitle:(id)arg1 detail: /* Error: Ran out of types for this method. */;
-- (void)leRecordWithBundleIdentifier:(id)arg1 allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (_Bool)selectItemAtIndexPath:(SEL)arg1 animated:scrollPosition: /* Error: Ran out of types for this method. */;
+- (void)detailWithTitle:(id)arg1 detail: /* Error: Ran out of types for this method. */;
+- (void)bundleRecordWithBundleIdentifier:(id)arg1 allowPlaceholder:error: /* Error: Ran out of types for this method. */;
 - (_Bool)ÐâPã;
 - (_Bool)ÿ;
 - (id)!inputView %@, responderRequiresKeyboard %d);
 - (void)¨\eþÌùÿÿ4üÿÿÀC§ÿýÿÿÄýÿÿ;
 - (void);
-- (_Bool)resentedViewForGrabber;
-- (id)andleAppKitEvents;
+- (_Bool)_insetsPresentedViewForGrabber;
+- (id)UpdateCycleHandleAppKitEvents;
 - (_Bool)Ø=^;
 - (void)»Øàa;
 - (void)q;
@@ -37,8 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)Ðdäl;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSystemInputManager;
-@property(retain, nonatomic) id <_UIIVCResponseDelegateImpl> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
 @property(retain, nonatomic) id <TIKeyboardInputManager> systemInputManager; // @synthesize systemInputManager=_systemInputManager;
 
 @end

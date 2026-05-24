@@ -6,25 +6,24 @@
 
 #import <TSReading/TSDAbstractLayout.h>
 
-@class TSDLayoutController, TSUPointerKeyDictionary;
+@class TSDLayoutController;
 
 @interface TSDRootLayout : TSDAbstractLayout
 {
     TSDLayoutController *mLayoutController;
-    _Bool mSupportsAdaptiveLayout;
-    TSUPointerKeyDictionary *mShiftedObjects;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)3;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)\8
+;
 - (void);
 - (struct CGPoint);
-- (id);
+- (id)l(a!@e;
 - (void);
 
 @end

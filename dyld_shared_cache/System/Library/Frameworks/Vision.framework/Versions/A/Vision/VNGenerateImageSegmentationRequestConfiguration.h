@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned int _outputPixelFormat;
 }
 
-- (void);
-- (unsigned int);
+- (void)_leAdvName;
+- (unsigned int)ryTransaction"8;
 - (id);
 - (id)8N;
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SABinary, SASegment, SASourceInfo, SASymbol;
-
 @interface SAInstruction
 {
     id _symbolOrSymbols;
-    id _sourceInfoOrSourceInfos;
-    SABinary *_binary;
-    SASegment *_segment;
-    unsigned long long _offsetIntoSegment;
 }
 
 + (id);
-+ (id);
-- (unsigned long long);
++ (id)accessibilityDisclosedRows;
+- (unsigned long long)handleAudioInput:(CDUnknownBlockType)arg1;
 - (unsigned char);
 - (unsigned long long);
 - (unsigned long long);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)d8;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -33,26 +27,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)Foundation;
 - (void);
 - (void);
 - (id):%s and %s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) __weak SABinary *binary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) long long offsetIntoBinary;
-@property(readonly) unsigned long long offsetIntoSegment;
-@property(readonly) unsigned long long offsetIntoTextSegment;
-@property(readonly) __weak SASegment *segment;
-@property(readonly) SASourceInfo *sourceInfo;
-@property(readonly) Class superclass;
-@property(readonly) SASymbol *symbol;
 
 @end
 

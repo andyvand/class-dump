@@ -7,6 +7,7 @@
 @interface TextFormattingUI._UIAnimatedTextView__priv_765D2D84B42F2E34C8687CE391E4C01F
 {
     id shouldAnimate;
+    id __TFTypographySettingsContentViewController;
 }
 
 - (id);

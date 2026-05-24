@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @protocol CUIKSingleDayTimelineViewItem
-- (double)orPagingForEventGestureController: /* Error: Ran out of types for this method. */;
++ (double)e;
+- (struct CGRect)Al;
+- (NSDate *);
+- (struct CGRect)Jz;
+- (void);
+- (double)currentSyncSnapshot;
+- (double)horizontalOffsetForPagingForEventGestureController: /* Error: Ran out of types for this method. */;
+
+@optional
+- (double)e;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *end;
-@property(readonly, nonatomic) double enoughHeightForOneLine;
-@property(readonly, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) _Bool hideTravelTime;
-@property(readonly, nonatomic) NSDate *start;
 @property(readonly, nonatomic) NSDate *startWithTravelTime;
-@property struct CGRect unPinnedViewFrame;
-@property(readonly, nonatomic) double viewMaxNaturalTextHeight;
-@property(readonly) _Bool visibleHeightLocked;
 @end
 

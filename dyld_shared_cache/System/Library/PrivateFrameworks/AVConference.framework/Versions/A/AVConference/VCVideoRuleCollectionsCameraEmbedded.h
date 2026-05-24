@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)eConnection:] /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (struct _VCBitrateConfiguration *);
 - (double);
 - (void);
-- (id);
+- (id)u;
 
 @end
 

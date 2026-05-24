@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString, NSURL, SALocalSearchRating;
+@class NSNumber;
 
 @interface SALocalSearchBusiness : AceObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,38 +32,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)_-;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *businessId;
-@property(copy, nonatomic) NSDictionary *businessIds;
-@property(copy, nonatomic) NSURL *businessUrl;
-@property(copy, nonatomic) NSArray *categories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *extSessionGuid;
-@property(copy, nonatomic) NSDate *extSessionGuidCreatedTimestamp;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *openingHours;
-@property(copy, nonatomic) NSArray *phoneNumbers;
-@property(copy, nonatomic) NSURL *photo;
-@property(retain, nonatomic) SALocalSearchRating *rating;
-@property(copy, nonatomic) NSArray *reviews;
-@property(readonly) Class superclass;
-@property(nonatomic) long long totalNumberOfReviews;
 
 @end
 

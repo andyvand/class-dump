@@ -6,40 +6,29 @@
 
 #import <TSReading/TSDLayout.h>
 
-@class TSDImageLayout, TSDInfoGeometry, TSDPathSource;
-
 @interface TSDMaskLayout : TSDLayout
 {
     struct {
         unsigned int path:1;
         unsigned int tightPathBounds:1;
     } mMaskInvalidFlags;
-    struct CGPath *mCachedPath;
-    struct CGPath *mCachedPathNoScale;
-    struct CGRect mCachedTightPathBounds;
-    struct CGRect mCachedTightPathBoundsNoScale;
-    double mPathScale;
-    TSDInfoGeometry *mDynamicInfoGeometry;
-    TSDPathSource *mDynamicPathSource;
-    TSDPathSource *mPathSourceWithProvidedSize;
-    _Bool mScalingInMaskMode;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)privateListeningFocusFilterChangeDuration;
 - (void);
 - (void);
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)NAVPlayerRateDidChangeReason;
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGPath *);
-- (struct CGPath *);
+- (struct CGPath *);
 - (struct CGAffineTransform);
 - (unsigned long long);
 - (void);
@@ -49,10 +38,10 @@
 - (id);
 - (_Bool);
 - (struct CGPoint);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -60,19 +49,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (struct CGPath *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSmartPath;
-@property(readonly, nonatomic) TSDImageLayout *imageLayout;
 @property(nonatomic) double pathScale; // @synthesize pathScale=mPathScale;
 
 @end

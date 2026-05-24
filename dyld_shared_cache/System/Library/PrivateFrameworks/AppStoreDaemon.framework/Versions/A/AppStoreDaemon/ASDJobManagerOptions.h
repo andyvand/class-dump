@@ -9,23 +9,21 @@
 @interface ASDJobManagerOptions
 {
     _Bool _shouldFilterExternalOriginatedDownloads;
-    NSString *_persistenceIdentifier;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)h:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)alStrength:(struct _NSZone *)arg1 ];
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *persistenceIdentifier; // @synthesize persistenceIdentifier=_persistenceIdentifier;
-@property(nonatomic) _Bool shouldFilterExternalOriginatedDownloads; // @synthesize shouldFilterExternalOriginatedDownloads=_shouldFilterExternalOriginatedDownloads;
 
 @end
 

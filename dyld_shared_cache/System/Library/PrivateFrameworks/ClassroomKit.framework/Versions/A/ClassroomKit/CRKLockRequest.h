@@ -9,21 +9,19 @@
 @interface CRKLockRequest
 {
     NSString *_lockedByLabel;
-    NSString *_passcode;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *lockedByLabel; // @synthesize lockedByLabel=_lockedByLabel;
-@property(copy, nonatomic) NSString *passcode; // @synthesize passcode=_passcode;
 
 @end
 

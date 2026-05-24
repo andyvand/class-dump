@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 
 @interface LADecriptionBuilder
 {
     NSObject *_object;
-    NSMutableDictionary *_components;
 }
 
 - (void);

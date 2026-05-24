@@ -7,8 +7,6 @@
 @interface UsageHelperBinEdges
 {
     _Bool _lowerEdgeIncluded;
-    id _lowerEdge;
-    id _upperEdge;
 }
 
 + (id);
@@ -17,23 +15,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
-- (id);
+- (id)�H;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)caManager as saved {version:%llu, accountID:%@} /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) id lowerEdge; // @synthesize lowerEdge=_lowerEdge;
-@property _Bool lowerEdgeIncluded; // @synthesize lowerEdgeIncluded=_lowerEdgeIncluded;
-@property(retain) id upperEdge; // @synthesize upperEdge=_upperEdge;
 
 @end
 

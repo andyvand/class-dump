@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (oneway void);
 - (Class);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)%;
 - (_Bool);
-- (id)haiInitialsCreator;
+- (id)thaiInitialsCreator;
 - (_Bool)ü"ü"ü"ý"þ"ÿ"ÿ"ÿ"ÿ";
 - (long long);
 - (_Bool)B;

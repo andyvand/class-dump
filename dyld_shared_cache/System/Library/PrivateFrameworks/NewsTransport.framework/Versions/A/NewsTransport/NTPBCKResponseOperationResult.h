@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKResponseOperationResultError;
-
 @interface NTPBCKResponseOperationResult
 {
     int _code;
-    NTPBCKResponseOperationResultError *_error;
-    struct {
-        unsigned int code:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ed;
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (void)pressionValue;
-- (void)ataResourceID;
-- (_Bool)ue;
+- (void)hasSubscribeImpressionValue;
+- (void)dataResourceID;
+- (_Bool)unmute_click_value;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(retain, nonatomic) NTPBCKResponseOperationResultError *error; // @synthesize error=_error;
 @property(nonatomic) _Bool hasCode;
-@property(readonly, nonatomic) _Bool hasError;
 
 @end
 

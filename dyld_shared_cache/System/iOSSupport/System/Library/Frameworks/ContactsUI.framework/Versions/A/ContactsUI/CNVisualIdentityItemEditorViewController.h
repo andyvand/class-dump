@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerProviderItem, CNPhotoPickerVariantsManager, CNVisualIdentityEditablePrimaryAvatarViewController, CNVisualIdentityItemEditorSegmentedControl, NSArray, NSLayoutConstraint, NSString, UICollectionView, UIView;
-@protocol CNVisualIdentityItemEditorViewControllerDelegate;
+@class CNVisualIdentityEditablePrimaryAvatarViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNVisualIdentityItemEditorViewController
 {
     _Bool _canCancel;
-    _Bool _canBeginEditing;
-    id <CNVisualIdentityItemEditorViewControllerDelegate> _delegate;
-    NSString *_doneButtonTitle;
-    CNVisualIdentityEditablePrimaryAvatarViewController *_editableAvatarViewController;
-    CNVisualIdentityItemEditorSegmentedControl *_segmentedControl;
-    NSLayoutConstraint *_avatarViewSizeConstraint;
-    NSLayoutConstraint *_avatarViewTopConstraint;
-    NSLayoutConstraint *_segmentedControlHeightConstraint;
-    UICollectionView *_styleCollectionView;
-    UIView *_styleDividerView;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    NSArray *_variantProviderItems;
-    CNPhotoPickerProviderItem *_providerItem;
 }
 
 - (id);
@@ -51,22 +37,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)8;
 - (id);
 - (void);
 - (id);
+- (_Bool)Ѫ;
+- (id)	;
+- (void);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (double);
+- (double)(;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (double);
-- (double);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -74,16 +60,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)q";
+- (id)q�;
 - (_Bool);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -97,31 +83,11 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (long long);
 - (void);
-- (void)ckListNotificationToken;
+- (void)blockListNotificationToken;
 - (id)ler.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *avatarViewSizeConstraint; // @synthesize avatarViewSizeConstraint=_avatarViewSizeConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *avatarViewTopConstraint; // @synthesize avatarViewTopConstraint=_avatarViewTopConstraint;
-@property(nonatomic) _Bool canBeginEditing; // @synthesize canBeginEditing=_canBeginEditing;
-@property(nonatomic) _Bool canCancel; // @synthesize canCancel=_canCancel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityItemEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *doneButtonTitle; // @synthesize doneButtonTitle=_doneButtonTitle;
 @property(retain, nonatomic) CNVisualIdentityEditablePrimaryAvatarViewController *editableAvatarViewController; // @synthesize editableAvatarViewController=_editableAvatarViewController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *providerItem; // @synthesize providerItem=_providerItem;
-@property(retain, nonatomic) CNVisualIdentityItemEditorSegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(retain, nonatomic) NSLayoutConstraint *segmentedControlHeightConstraint; // @synthesize segmentedControlHeightConstraint=_segmentedControlHeightConstraint;
-@property(retain, nonatomic) UICollectionView *styleCollectionView; // @synthesize styleCollectionView=_styleCollectionView;
-@property(retain, nonatomic) UIView *styleDividerView; // @synthesize styleDividerView=_styleDividerView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *variantProviderItems; // @synthesize variantProviderItems=_variantProviderItems;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

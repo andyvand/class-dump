@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TPreviewOptionsGroup, NSArray, NSMutableSet, NSObject, NSSet;
-@protocol TPreviewOptionsGroupSettingsDelegate;
+@class FI_TPreviewOptionsGroup, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPreviewOptionsGroupSettings
 {
     NSMutableSet *_activeKeys;
-    struct TNSWeakPtr<NSObject<TPreviewOptionsGroupSettingsDelegate>> _weakDelegate;
-    FI_TPreviewOptionsGroup *_group;
 }
 
 - (void);
@@ -34,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)¤0à;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *activeKeys; // @synthesize activeKeys=_activeKeys;
-@property(readonly, nonatomic) _Bool allDisabled;
-@property(nonatomic) _Bool allEnabled;
-@property(nonatomic) __weak NSObject<TPreviewOptionsGroupSettingsDelegate> *delegate;
 @property(readonly, nonatomic) FI_TPreviewOptionsGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool isModifiedFromDefaults;
-@property(readonly, nonatomic) NSArray *orderedActiveKeys;
 
 @end
 

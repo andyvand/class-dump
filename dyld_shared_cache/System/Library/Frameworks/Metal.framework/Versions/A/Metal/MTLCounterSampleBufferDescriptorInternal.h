@@ -6,27 +6,23 @@
 
 #import <Metal/MTLCounterSampleBufferDescriptor.h>
 
-@class NSString;
 @protocol MTLCounterSet;
 
 @interface MTLCounterSampleBufferDescriptorInternal : MTLCounterSampleBufferDescriptor
 {
     id <MTLCounterSet> _counterSet;
-    unsigned long long _storageMode;
-    NSString *_label;
-    unsigned long long _sampleCount;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)FractionBasedRelationshipSequence;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void)r;
-- (unsigned long long)eFormatChar3Normalized;
+- (void)lastCommittedCommandBuffer;
+- (unsigned long long)MTLAttributeFormatChar3Normalized;
 - (unsigned long long)or has compressionType set to MTLTextureCompressionTypeLossy, but the pixel format %s does not support lossy compression;
 - (void)DÐ;
 

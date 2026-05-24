@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChipList, IMRichCardLayout, IMRichCardMedia, IMUrlToTransferMap, NSString;
+@class IMRichCardLayout;
 
 @interface IMRichCard
 {
     IMRichCardLayout *layout;
-    IMRichCardMedia *media;
-    void title;
-    void cardDescription;
-    IMChipList *chipList;
-    IMUrlToTransferMap *urlToTransferMap;
 }
 
 - (id);
@@ -29,19 +24,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (id)tionDialPhone;
+- (id)IMActionDialPhone;
 - (void)for untracked request %{public}s %@;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *cardDescription;
-@property(nonatomic, readonly) IMChipList *chipList; // @synthesize chipList;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMRichCardLayout *layout; // @synthesize layout;
-@property(nonatomic, readonly) IMRichCardMedia *media; // @synthesize media;
-@property(nonatomic, readonly) NSString *title;
-@property(nonatomic, retain) IMUrlToTransferMap *urlToTransferMap; // @synthesize urlToTransferMap;
 
 @end
 

@@ -34,8 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *clientToRemovabilityMetadataMap; // @synthesize clientToRemovabilityMetadataMap=_clientToRemovabilityMetadataMap;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) NSDictionary *propertyListRepresentation;
 
 @end
 

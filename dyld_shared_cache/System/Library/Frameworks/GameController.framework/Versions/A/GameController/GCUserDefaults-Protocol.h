@@ -5,6 +5,8 @@
 //
 
 @protocol GCUserDefaults
+- (void);
+- (id)ld",W,N,V_barTitleTextField;
 - (void)d controller:(_Bool)arg1 '%@';
 - (void)osting GCSpatialAccessoryDidConnectNotification for:(double)arg1 %@;
 @end

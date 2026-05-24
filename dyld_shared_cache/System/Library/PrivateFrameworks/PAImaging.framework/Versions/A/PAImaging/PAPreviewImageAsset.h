@@ -11,8 +11,6 @@
 @interface PAPreviewImageAsset : PAImageAsset
 {
     NUComposition *_composition;
-    long long _updateNumber;
-    CDStruct_19170857 _orientation;
 }
 
 - (long long);
@@ -24,8 +22,8 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (long long);
-- (void);
+- (long long):8 /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

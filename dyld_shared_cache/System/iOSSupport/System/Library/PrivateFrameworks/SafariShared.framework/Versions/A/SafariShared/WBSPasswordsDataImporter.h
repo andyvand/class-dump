@@ -11,11 +11,11 @@
     NSXPCConnection *_connectionToCredentialExtractionService;
 }
 
++ (long long);
 + (long long);
-+ (long long);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void)ted '%C' (0x%X), but got '%C' (0x%X);
 

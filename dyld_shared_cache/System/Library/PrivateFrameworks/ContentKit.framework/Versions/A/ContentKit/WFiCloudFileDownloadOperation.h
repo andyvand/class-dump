@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSFileCoordinator, NSProgress, NSURL;
-
 @interface WFiCloudFileDownloadOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    _Bool _retrieveFolderContents;
-    NSURL *_fileURL;
-    NSArray *_downloadedFiles;
-    NSError *_downloadError;
-    NSFileCoordinator *_fileCoordinator;
-    NSProgress *_progress;
 }
 
 - (_Bool);
@@ -27,24 +18,17 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
-- (void);
+- (void)BQ;
 - (id);
 - (void)",R,N,V_screen;
 - (id)urrencyAmount",R,C,N,V_currencyAmount;
 - (_Bool)ge soft_CMTimeRangeMake(CMTime, CMTime);
-- (void);
+- (void)displays;
 - (_Bool)melong;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *downloadError; // @synthesize downloadError=_downloadError;
-@property(readonly, nonatomic) NSArray *downloadedFiles; // @synthesize downloadedFiles=_downloadedFiles;
-@property(nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(readonly, nonatomic) NSFileCoordinator *fileCoordinator; // @synthesize fileCoordinator=_fileCoordinator;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 @property(readonly, nonatomic) _Bool retrieveFolderContents; // @synthesize retrieveFolderContents=_retrieveFolderContents;
 
 @end

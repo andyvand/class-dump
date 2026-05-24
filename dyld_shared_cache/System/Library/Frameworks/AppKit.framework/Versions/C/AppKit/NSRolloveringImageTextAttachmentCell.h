@@ -6,23 +6,19 @@
 
 #import <AppKit/NSViewTextAttachmentCell.h>
 
-@class NSLayoutManager, NSMenu, NSRolloveringImageTextAttachmentCellViewProvider, NSSharingServicePicker, NSString, NSTextView;
+@class NSLayoutManager, NSTextView;
 
 __attribute__((visibility("hidden")))
 @interface NSRolloveringImageTextAttachmentCell : NSViewTextAttachmentCell
 {
     NSLayoutManager *_layoutManager;
-    NSTextView *_textView;
-    unsigned long long _charIndex;
-    NSSharingServicePicker *_picker;
-    NSRolloveringImageTextAttachmentCellViewProvider *_activeTextAttachmentViewProvider;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
@@ -32,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (id);
 - (id);
-- (id);
+- (id)_	ki;
 - (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (void)selectEntriesWithRegistrableDomainStmt;
+- (void)resetHSTSHostsSinceDate:(id)arg1;
+- (id)initWithTask:connection:extraBytes:disavow: /* Error: Ran out of types for this method. */;
+- (struct CGRect)@;
 - (Class);
 - (id);
 - (void);
@@ -47,16 +43,6 @@ __attribute__((visibility("hidden")))
 - (id)B;
 
 // Remaining properties
-@property(readonly) NSTextView *_activeTextView;
-@property __weak NSRolloveringImageTextAttachmentCellViewProvider *activeTextAttachmentViewProvider; // @synthesize activeTextAttachmentViewProvider=_activeTextAttachmentViewProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMenu *menu; // @dynamic menu;
-@property(readonly) Class superclass;
 @property(readonly) __weak NSTextView *textView; // @dynamic textView;
 
 @end

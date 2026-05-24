@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)T@"NSString",C,N,V_name;
 
 @end
 

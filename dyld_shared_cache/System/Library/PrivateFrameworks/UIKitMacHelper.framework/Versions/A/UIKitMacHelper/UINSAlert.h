@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSAttributedString, NSImage, NSMutableArray, NSString, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface UINSAlert
 {
     NSWindow *_parentWindow;
-    NSAlert *_actualAlert;
-    NSString *_title;
-    NSString *_message;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedMessage;
-    NSImage *_icon;
-    unsigned long long _style;
-    _Bool _cancelButtonAdded;
-    NSMutableArray *_buttons;
-    NSMutableArray *_textFields;
-    NSImage *_accessoryImage;
 }
 
 - (void);
@@ -29,24 +18,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rB;
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)J*Kj8tJ(
+J;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)r;
+- (void)*;
+- (void)_uiKitBackgroundingController;
 
 @end
 

@@ -15,8 +15,8 @@
 
 + (id);
 + (id);
-+ (unsigned short);
-- (id);
++ (unsigned short)`;
+- (id)AMSPushParsable;
 - (void);
 
 @end

@@ -8,8 +8,6 @@
 {
     unsigned int _lasService;
     unsigned int _lasConn;
-    struct __IOHIDDevice *_hidDevice;
-    struct __IOHIDManager *_hidManager;
 }
 
 + (_Bool);
@@ -29,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -38,10 +36,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)];
 - (unsigned int);
 - (id);
 - (id);
@@ -49,15 +47,13 @@
 - (id);
 - (struct __IOHIDManager *);
 - (struct __IOHIDDevice *);
-- (void);
-- (id);
+- (void)H;
+- (id)`;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct __IOHIDDevice *hidDevice; // @synthesize hidDevice=_hidDevice;
 @property(nonatomic) struct __IOHIDManager *hidManager; // @synthesize hidManager=_hidManager;
-@property(nonatomic) unsigned int lasConn; // @synthesize lasConn=_lasConn;
-@property(nonatomic) unsigned int lasService; // @synthesize lasService=_lasService;
 
 @end
 

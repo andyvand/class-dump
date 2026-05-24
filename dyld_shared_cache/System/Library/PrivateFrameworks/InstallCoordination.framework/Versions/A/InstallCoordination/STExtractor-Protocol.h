@@ -7,12 +7,9 @@
 @protocol STExtractorDelegate;
 
 @protocol STExtractor
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doesConsumeExtractedData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) __weak id <STExtractorDelegate> extractorDelegate;
 @end
 

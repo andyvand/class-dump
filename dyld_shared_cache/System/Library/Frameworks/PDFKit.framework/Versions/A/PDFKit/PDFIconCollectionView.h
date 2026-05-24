@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSIndexPath, NSString, PDFThumbnailView;
+@class PDFThumbnailView;
 
 __attribute__((visibility("hidden")))
 @interface PDFIconCollectionView
 {
     PDFThumbnailView *_thumbnailView;
-    NSCollectionView *_collectionView;
-    NSIndexPath *_proposedDropIndexPath;
-    _Bool _needsLayout;
 }
 
 - (void);
@@ -22,13 +19,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)ryWithUUID:(id)arg1 completionHandler:(id)arg2 ];
+- (unsigned long long)thUUID:(id)arg1 completionHandler:(id)arg2 ];
+- (id)teOfAppDataUpdateForActionSet:(id)arg1 ];
+- (_Bool)thorizationUpdatedNotification:(id)arg1 ];
 - (void);
 - (id);
-- (void);
+- (void)= vec3(1.,.6,.2);
+    if( texture2D(depthBuffer, uv).x < depth-0.0000001 &&  texture2D(pickedColorBuffer, uv).r > 0.  )
+        gl_FragColor = mix( texture2D(colorBuffer, uv), vec4(outline,1.), .25);
+    else
+        gl_FragColor = mix( texture2D(colorBuffer, uv), vec4(outline,1.), min(magnitude/4.,1.) );
+}
+
+;
 - (id);
 - (long long);
 - (_Bool);
@@ -36,13 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

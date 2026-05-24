@@ -5,10 +5,10 @@
 //
 
 @protocol UXSourceList
+- (double);
+- (void)F;
 
 // Remaining properties
-@property(readonly, nonatomic) double sourceListMaximumWidth;
 @property(readonly, nonatomic) double sourceListMinimumWidth;
-@property(readonly, nonatomic) double sourceListPreferredWidthFraction;
 @end
 

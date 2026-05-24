@@ -6,21 +6,15 @@
 
 #import <LoginUIKit/LUIPopoverViewController.h>
 
-@class NSButton, NSLayoutConstraint, NSTextField;
+@class NSTextField;
 
 @interface LUIPasswordExpirationViewController : LUIPopoverViewController
 {
     double _days;
-    NSTextField *_titleTextField;
-    NSTextField *_expirationTextField;
-    NSButton *_continueButton;
-    NSButton *_changePasswordButton;
-    NSLayoutConstraint *_changeToContinueConstraint;
-    NSLayoutConstraint *_changeToContainerConstraint;
 }
 
 - (void);
-- (void);
+- (void)A9	;
 - (void);
 - (void);
 - (void);
@@ -28,26 +22,21 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)\G;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain) NSButton *changePasswordButton; // @synthesize changePasswordButton=_changePasswordButton;
-@property(retain) NSLayoutConstraint *changeToContainerConstraint; // @synthesize changeToContainerConstraint=_changeToContainerConstraint;
-@property(retain) NSLayoutConstraint *changeToContinueConstraint; // @synthesize changeToContinueConstraint=_changeToContinueConstraint;
-@property(retain) NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain) NSTextField *expirationTextField; // @synthesize expirationTextField=_expirationTextField;
 @property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

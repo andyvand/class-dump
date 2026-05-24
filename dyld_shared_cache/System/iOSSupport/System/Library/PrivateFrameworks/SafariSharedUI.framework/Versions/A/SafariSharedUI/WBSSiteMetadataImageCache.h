@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSURL, WBSCacheRetainReleasePolicy, WBSCoalescedAsynchronousWriter;
-@protocol OS_dispatch_queue, WBSSiteMetadataImageCacheDelegate;
+@class NSObject, NSURL;
+@protocol OS_dispatch_queue;
 
 @interface WBSSiteMetadataImageCache
 {
     NSObject<OS_dispatch_queue> *_diskAccessQueue;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct os_unfair_lock_s _cacheAccessLock;
-    struct atomic<bool> _terminating;
-    NSHashTable *_diskReadBlocks;
-    NSMutableDictionary *_imagesForKeyStrings;
-    NSMutableSet *_missingImageKeyStrings;
-    NSMutableDictionary *_keyStringRequestsToCompletionHandlers;
-    WBSCacheRetainReleasePolicy *_cachePolicy;
-    NSMutableDictionary *_cacheSettings;
-    WBSCoalescedAsynchronousWriter *_cacheSettingsWriter;
-    unsigned long long _fileProtectionOptions;
-    NSURL *_imageDirectoryURL;
-    long long _imageType;
-    id <WBSSiteMetadataImageCacheDelegate> _delegate;
 }
 
 - (void);
@@ -32,18 +18,18 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (id)kA;
 - (void);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (long long)P;
 - (_Bool);
 - (id);
 - (id);
@@ -60,10 +46,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (long long);
+- (long long)4;
 - (id);
 - (id);
 - (void);
@@ -76,14 +62,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void)L:error: /* Error: Ran out of types for this method. */;
+- (void)circlebadge.fill;
+- (void)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <WBSSiteMetadataImageCacheDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSURL *imageDirectoryURL; // @synthesize imageDirectoryURL=_imageDirectoryURL;
-@property(readonly, nonatomic) long long imageType; // @synthesize imageType=_imageType;
-@property(readonly, nonatomic, getter=isTerminating) _Bool terminating;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface IKImageRenderInfo
 {
     CIContext *_ciContext;
-    _Bool _usingSoftwareRenderer;
-    unsigned long long _bitsPerComponent;
-    struct CGColorSpace *_contextColorSpace;
-    struct CGColorSpace *_imageColorSpace;
-    _Bool _wantsExtendedDynamicRange;
-    double _imageMaxHeadRoom;
 }
 
 - (_Bool);
@@ -35,12 +29,6 @@
 
 // Remaining properties
 @property unsigned long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property(retain) CIContext *ciContext; // @synthesize ciContext=_ciContext;
-@property struct CGColorSpace *contextColorSpace;
-@property struct CGColorSpace *imageColorSpace;
-@property double imageMaxHeadRoom; // @synthesize imageMaxHeadRoom=_imageMaxHeadRoom;
-@property _Bool usingSoftwareRenderer; // @synthesize usingSoftwareRenderer=_usingSoftwareRenderer;
-@property _Bool wantsExtendedDynamicRange; // @synthesize wantsExtendedDynamicRange=_wantsExtendedDynamicRange;
 
 @end
 

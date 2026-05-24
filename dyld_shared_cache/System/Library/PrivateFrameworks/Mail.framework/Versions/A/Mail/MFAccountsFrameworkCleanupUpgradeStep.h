@@ -6,49 +6,41 @@
 
 #import <Mail/MFRemoveMessagesUpgradeStep.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface MFAccountsFrameworkCleanupUpgradeStep : MFRemoveMessagesUpgradeStep
 {
     NSArray *_systemAccountURLs;
-    NSDictionary *_systemAccountIdentifiersByV1V2PersistenceAccountUID;
-    NSDictionary *_systemAccountsURLByV1V2PersistenceAccountURL;
-    NSDictionary *_v1V2PersistenceAccountURLBySystemAccountURL;
-    NSDictionary *_syncableSystemAccountURLBySyncableV1V2PersistenceAccountURL;
-    NSDictionary *_connectionHostnameAccountURLBySystemAccountURL;
-    NSDictionary *_systemAccountURLByConnectionHostnameAccountURL;
-    NSDictionary *_syncableSystemAccountURLByConnectionHostnameAccountURL;
-    NSDictionary *_mailboxFileSystemURLByDatabaseURL;
 }
 
 + (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)(;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)Y)Q;
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -57,15 +49,7 @@
 - (void)ü>;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *connectionHostnameAccountURLBySystemAccountURL; // @synthesize connectionHostnameAccountURLBySystemAccountURL=_connectionHostnameAccountURLBySystemAccountURL;
-@property(copy, nonatomic) NSDictionary *mailboxFileSystemURLByDatabaseURL; // @synthesize mailboxFileSystemURLByDatabaseURL=_mailboxFileSystemURLByDatabaseURL;
-@property(copy, nonatomic) NSDictionary *syncableSystemAccountURLByConnectionHostnameAccountURL; // @synthesize syncableSystemAccountURLByConnectionHostnameAccountURL=_syncableSystemAccountURLByConnectionHostnameAccountURL;
-@property(copy, nonatomic) NSDictionary *syncableSystemAccountURLBySyncableV1V2PersistenceAccountURL; // @synthesize syncableSystemAccountURLBySyncableV1V2PersistenceAccountURL=_syncableSystemAccountURLBySyncableV1V2PersistenceAccountURL;
-@property(copy, nonatomic) NSDictionary *systemAccountIdentifiersByV1V2PersistenceAccountUID; // @synthesize systemAccountIdentifiersByV1V2PersistenceAccountUID=_systemAccountIdentifiersByV1V2PersistenceAccountUID;
-@property(copy, nonatomic) NSDictionary *systemAccountURLByConnectionHostnameAccountURL; // @synthesize systemAccountURLByConnectionHostnameAccountURL=_systemAccountURLByConnectionHostnameAccountURL;
 @property(copy, nonatomic) NSArray *systemAccountURLs; // @synthesize systemAccountURLs=_systemAccountURLs;
-@property(copy, nonatomic) NSDictionary *systemAccountsURLByV1V2PersistenceAccountURL; // @synthesize systemAccountsURLByV1V2PersistenceAccountURL=_systemAccountsURLByV1V2PersistenceAccountURL;
-@property(copy, nonatomic) NSDictionary *v1V2PersistenceAccountURLBySystemAccountURL; // @synthesize v1V2PersistenceAccountURLBySystemAccountURL=_v1V2PersistenceAccountURLBySystemAccountURL;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
+@class NSNumber;
 
 @interface PKCatalogGroup
 {
     _Bool _isUbiquitous;
-    NSNumber *_groupID;
-    NSMutableArray *_uniqueIDs;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -22,17 +20,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_	;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id)t;
-- (void)ssion;
+- (void)securePassSession;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) _Bool isUbiquitous; // @synthesize isUbiquitous=_isUbiquitous;
-@property(retain, nonatomic) NSMutableArray *uniqueIDs; // @synthesize uniqueIDs=_uniqueIDs;
 
 @end
 

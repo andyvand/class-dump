@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFBulletinTimeSpecification.h>
 
-@class MKFSunriseSunsetTimeSpecificationDatabaseID, NSDate, NSDateComponents, NSNumber, NSString, NSUUID;
-@protocol MKFTimePeriodBulletinCondition;
+@class NSDateComponents;
 
 __attribute__((visibility("hidden")))
 @interface _MKFSunriseSunsetTimeSpecification : _MKFBulletinTimeSpecification
@@ -16,25 +15,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFSunriseSunsetTimeSpecificationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> endCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
 @property(retain, nonatomic) NSDateComponents *offset; // @dynamic offset;
-@property(copy, nonatomic) NSNumber *offsetSeconds; // @dynamic offsetSeconds;
-@property(copy, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> startCondition;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

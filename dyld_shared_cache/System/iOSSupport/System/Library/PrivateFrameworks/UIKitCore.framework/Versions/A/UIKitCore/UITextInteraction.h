@@ -4,77 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, UILongPressGestureRecognizer, UIResponder, UITextCursorAssertionController, UITextInteractionInputDelegate, UIView, _UIStatesFeedbackGenerator;
-@protocol UITextInput, UITextInteractionDelegate, UITextInteraction_AssistantDelegate;
+@class UIView;
 
 @interface UITextInteraction
 {
     UITextInteraction *_parent;
-    NSMutableArray *_children;
-    NSMutableArray *_gestures;
-    NSMutableDictionary *_gestureMap;
-    _Bool _viewOverridesInteractivityState;
-    _Bool _inGesture;
-    _Bool _allowsSelectionCommands;
-    long long _textInteractionMode;
-    UILongPressGestureRecognizer *_customHighlighterGesture;
-    _UIStatesFeedbackGenerator *_feedbackBehaviour;
-    id <UITextInteractionDelegate> _delegate;
-    UIResponder<UITextInput> *_textInput;
-    UIView *_view;
-    UITextInteractionInputDelegate *_interactionInputDelegate;
-    id <UITextInteraction_AssistantDelegate> _assistantDelegate;
 }
 
-+ (id);
-+ (id);
-+ (double);
++ (id)batch ***;
++ (id)failed;
++ (double);
+- (void)myV1ReadReceiptsReceivedDuringStorageNoQOI;
+- (long long)indexOfObject: /* Error: Ran out of types for this method. */;
+- (long long)indexNextMessageBatchIfNeeded:reason:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)compressedProtobufDataForGroupActionItem;
 - (void);
-- (long long);
-- (long long);
-- (_Bool);
+- (void)_autoReplyMessageTextWithUrgentBreakthroughInstructions:(id)arg1;
+- (void)ne",R,N,V_chat1RecordZone;
+- (_Bool)IMPlayedReceiptPipelineParameter;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id)0;
+- (id)hashTable;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
 - (id);
 - (double);
+- (void){;
+- (id);
+- (id)nResult enabled, bypassing skip checks and allowing TrustKit decisioning.;
+- (_Bool)sage:(struct CGPoint)arg1 %s;
+- (_Bool)S resumed;
+- (void)ch salt due to error %@ aborting cleaning up MOC;
+- (id)xisting request instead of starting a new one.;
+- (void)ready scheduled with interval:(id)arg1 %f;
+- (void)ing check with interval:(id)arg1 %f;
+- (id)is is a coreduet sync at currentBatchCount %@, coreduet says to continue syncing;
+- (_Bool)fication (centralized cache delete) - enumerating purged files;
+- (_Bool)he Delete for %@;
+- (id)tivity result %d;
+- (_Bool)does not already exist on disk. Starting explicit download for local file url retrieval.;
+- (void)to path:(id)arg1 %@;
+- (void)Coordinator.swift;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)d;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -94,11 +79,11 @@
 - (void)¡
 ð!¼FùQgÐ1Â0@ù
 × ;
-- (_Bool)acement:(id)arg1;
-- (void)ng:(id)arg1;
-- (void)ibleItemsHandler;
-- (_Bool)city:verticalVelocity: /* Error: Ran out of types for this method. */;
-- (_Bool)uteValueForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_updatePlacementWithPlacement:(id)arg1;
+- (void)_targetedPreviewProviderForTextInRange:(id)arg1 dismissing:overrideLifting: /* Error: Ran out of types for this method. */;
+- (void)_numberOfSectionsWithTransformVisibleItemsHandler;
+- (_Bool)_handleDirectionalPageWithHorizontalVelocity:verticalVelocity: /* Error: Ran out of types for this method. */;
+- (_Bool)_UIKBStringWideAttributeValueForKey: /* Error: Ran out of types for this method. */;
 - (id)artUndoGroup;
 - (_Bool)@"UIView",W,N,G_hostView,S_setHostView:(id)arg1;
 - (void)FocusSystem;
@@ -106,9 +91,9 @@
 - (void)U;
 - (id)D`;
 - (void)eneration.m;
-- (void)arkUserInterfaceStyleDarkPrimaryTextColor;
+- (void)systemDarkUserInterfaceStyleDarkPrimaryTextColor;
 - (_Bool)and.arrow.down.right;
-- (id)uttonConfigurationShowsActivityIndicator;
+- (id)UIButtonConfigurationShowsActivityIndicator;
 - (id)yboardConfiguration"16@?<v@?>24;
 - (id);¡/3y¢/3ySi_GGG;
 - (id)¸b×þbí;
@@ -118,31 +103,6 @@
 - (id)þvTÑ©Èk;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsSelectionCommands:) _Bool _allowsSelectionCommands; // @synthesize _allowsSelectionCommands;
-@property(readonly, nonatomic) UITextCursorAssertionController *_assertionController;
-@property(retain, nonatomic) UILongPressGestureRecognizer *_customHighlighterGesture; // @synthesize _customHighlighterGesture;
-@property(nonatomic) __weak id <UITextInteraction_AssistantDelegate> assistantDelegate; // @synthesize assistantDelegate=_assistantDelegate;
-@property(readonly, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UITextInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackBehaviour; // @synthesize feedbackBehaviour=_feedbackBehaviour;
-@property(readonly, nonatomic) NSDictionary *gestureMap; // @synthesize gestureMap=_gestureMap;
-@property(readonly, nonatomic) UIView *gestureRecognizerHostView;
-@property(readonly, nonatomic) NSArray *gestures; // @synthesize gestures=_gestures;
-@property(readonly, nonatomic) NSArray *gesturesForFailureRequirements;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=setInGesture:) _Bool inGesture; // @synthesize inGesture=_inGesture;
-@property(retain, nonatomic) UITextInteractionInputDelegate *interactionInputDelegate; // @synthesize interactionInputDelegate=_interactionInputDelegate;
-@property(readonly) __weak UITextInteraction *parent;
-@property(readonly) __weak UITextInteraction *root;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIResponder<UITextInput> *textInput; // @synthesize textInput=_textInput;
-@property(readonly, nonatomic) long long textInteractionMode; // @synthesize textInteractionMode=_textInteractionMode;
-@property(readonly, nonatomic) long long textInteractionSet;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

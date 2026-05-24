@@ -6,29 +6,18 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSArray, NSDictionary;
 @protocol BWMetadataDetectedResultsObserver;
 
 @interface BWMRCNode : BWNode
 {
     CDUnknownFunctionPointerType _createSampleBufferProcessorFunction;
-    struct OpaqueFigSampleBufferProcessor *_sampleBufferProcessor;
-    NSArray *_symbologiesArray;
-    NSArray *_mrcIdentifiers;
-    long long _lastDetectedMRCCount;
-    struct CGRect _rectOfInterest;
-    struct os_unfair_lock_s _rectOfInterestLock;
-    _Bool _hasPendingRectOfInterestUpdate;
-    _Bool _lowPowerModeEnabled;
-    NSDictionary *_metadataIdentifierToSymbologyDictionary;
-    id <BWMetadataDetectedResultsObserver> _detectedResultsObserver;
 }
 
 + (void)ator should have been released already.;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)mEntity;
+- (_Bool)_;
 - (void);
 - (void);
 - (id);

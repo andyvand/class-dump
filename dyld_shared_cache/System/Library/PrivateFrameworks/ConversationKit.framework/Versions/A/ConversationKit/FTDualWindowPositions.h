@@ -7,22 +7,18 @@
 @interface FTDualWindowPositions
 {
     long long _alignment;
-    struct CGRect _windowRect;
-    struct CGRect _oppositeWindowRect;
 }
 
+- (void)iQr;
 - (void);
-- (void);
+- (struct CGRect)Qr;
+- (id)z;
 - (struct CGRect);
 - (id);
-- (struct CGRect);
-- (id);
-- (long long);
+- (long long)suffixColor;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) struct CGRect oppositeWindowRect; // @synthesize oppositeWindowRect=_oppositeWindowRect;
 @property(nonatomic) struct CGRect windowRect; // @synthesize windowRect=_windowRect;
 
 @end

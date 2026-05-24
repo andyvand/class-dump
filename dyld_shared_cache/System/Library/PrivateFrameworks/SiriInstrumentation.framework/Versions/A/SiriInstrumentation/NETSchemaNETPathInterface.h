@@ -6,29 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface NETSchemaNETPathInterface : SISchemaInstrumentationMessage
 {
     int _type;
-    NSString *_name;
-    unsigned int _index;
-    struct {
-        unsigned int type:1;
-        unsigned int index:1;
-    } _has;
-    _Bool _hasName;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_smsCountryPrefix;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)-SHA512;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -42,19 +33,13 @@
 - (unsigned int)ingUpDigestsReported;
 - (id)oothCarDigestReported;
 - (void)|x;
-- (_Bool);
+- (_Bool)comparatorResults;
 - (void)lue.entity.typeIdentifier.custom.bundleId;
-- (void)t;
+- (void)JRSchemaJRClientEvent;
 - (void)\
 »ÿo±ÓM%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

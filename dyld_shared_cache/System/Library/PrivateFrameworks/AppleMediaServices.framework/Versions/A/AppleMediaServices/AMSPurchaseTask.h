@@ -6,16 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSPurchaseInfo, AMSPurchaseRequestEncoder, AMSURLSession, NSNumber, NSString;
-@protocol AMSBagProtocol, AMSPurchaseDelegate;
+@class AMSPurchaseInfo;
 
 @interface AMSPurchaseTask : AMSTask
 {
     Class _paymentSheetTaskClass;
-    id <AMSBagProtocol> _bag;
-    AMSPurchaseInfo *_purchaseInfo;
-    AMSPurchaseRequestEncoder *_purchaseRequestEncoder;
-    AMSURLSession *_session;
 }
 
 + (_Bool);
@@ -29,7 +24,7 @@
 ¥YSò"{ãìWàñ§Hzæ|Nà§A¤^2 /* Error: Ran out of types for this method. */;
 + (id)w]9upÑZqoîKçj9×Ã;
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -48,15 +43,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)storeBTEvent:withQueue:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)_startObservingPineBoardSystemState;
 - (void);
 - (void);
 - (void);
@@ -69,20 +64,7 @@
 çö×~´HvÊ;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSPurchaseDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSNumber *hostProcessIdentifier;
-@property(retain) Class paymentSheetTaskClass; // @synthesize paymentSheetTaskClass=_paymentSheetTaskClass;
-@property(retain) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
-@property(retain) AMSPurchaseRequestEncoder *purchaseRequestEncoder; // @synthesize purchaseRequestEncoder=_purchaseRequestEncoder;
-@property(readonly) AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
+@property(readonly) AMSPurchaseInfo *purchaseInfo;
 
 @end
 

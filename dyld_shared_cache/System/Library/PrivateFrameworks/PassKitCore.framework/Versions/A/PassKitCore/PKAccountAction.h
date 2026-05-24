@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
-
 @interface PKAccountAction
 {
     unsigned long long _actionType;
-    NSString *_identifier;
-    NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    unsigned long long _redemptionType;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -30,15 +24,11 @@
 × ;
 - (void)ù
 × ;
-- (id)entOffersCatalog;
-- (void)gXwz_Xx;
+- (id)removePaymentOffersCatalog;
+- (void)SgXwz_Xx;
 
 // Remaining properties
 @property(nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long redemptionType; // @synthesize redemptionType=_redemptionType;
 
 @end
 

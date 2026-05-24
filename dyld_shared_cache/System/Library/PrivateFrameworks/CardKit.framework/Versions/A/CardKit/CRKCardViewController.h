@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKComposedStackView, NSMapTable, NSMutableArray, NSString;
-@protocol CRCard, CRKCardSectionViewSourcing, CRKCardViewControllerDelegate;
+@class CRKComposedStackView, NSMutableArray;
 
 @interface CRKCardViewController
 {
     NSMutableArray *_cardSectionViewControllers;
-    NSMapTable *_cardSectionsToCardSectionViewControllersMapTable;
-    NSMapTable *_handledParametersForInteraction;
-    NSMutableArray *_pendingDismissalCommands;
-    _Bool _loaded;
-    id <CRKCardSectionViewSourcing> _builtInCardSectionViewSource;
-    NSMutableArray *_loadingCardSections;
-    _Bool _indicatingActivity;
-    _Bool _loadBundles;
-    id <CRCard> _card;
-    id <CRKCardViewControllerDelegate> _cardViewControllerDelegate;
-    id <CRKCardSectionViewSourcing> _cardSectionViewSource;
-    long long _preferredPunchoutIndex;
 }
 
++ (void)t;
 + (void);
-+ (void);
-- (void);
+- (void)Mk;
 - (void);
 - (void);
 - (void);
@@ -41,7 +28,7 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id)o;
 - (id);
 - (void);
 - (void);
@@ -65,25 +52,25 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)d;
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)(;
 - (void);
 - (id);
+- (void);
+- (id)_rawFilterPredicate;
 - (id);
 - (id);
-- (id);
+- (id)_recentForAboveThresholdTopHit;
 - (void);
 - (struct CGSize);
 - (void);
@@ -92,29 +79,14 @@
 - (void);
 - (void);
 - (void);
+- (void)qc;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)7	;
 - (void)r"16;
-- (void)configureWithRequestedCard:(_Bool)arg1 animated:completion: /* Error: Ran out of types for this method. */;
+- (void)_configureWithRequestedCard:(_Bool)arg1 animated:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <CRCard> card; // @synthesize card=_card;
-@property(retain, nonatomic) id <CRKCardSectionViewSourcing> cardSectionViewSource; // @synthesize cardSectionViewSource=_cardSectionViewSource;
-@property(nonatomic) __weak id <CRKCardViewControllerDelegate> cardViewControllerDelegate; // @synthesize cardViewControllerDelegate=_cardViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKCardViewControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isIndicatingActivity) _Bool indicatingActivity; // @synthesize indicatingActivity=_indicatingActivity;
-@property(nonatomic) _Bool loadBundles; // @synthesize loadBundles=_loadBundles;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property long long preferredPunchoutIndex; // @synthesize preferredPunchoutIndex=_preferredPunchoutIndex;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CRKComposedStackView *view; // @dynamic view;
 
 @end

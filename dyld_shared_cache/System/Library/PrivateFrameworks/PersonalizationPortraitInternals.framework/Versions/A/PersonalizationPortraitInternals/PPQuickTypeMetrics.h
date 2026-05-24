@@ -13,9 +13,9 @@
 }
 
 + (void);
++ (void)";
 + (void);
-+ (void);
-- (id);
+- (id)T;
 - (void)0@ù
 × ;
 

@@ -4,62 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_array, OS_nw_error, OS_nw_group_descriptor, OS_nw_listener, OS_nw_parameters, OS_nw_path_evaluator;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_connection_group
 {
     NSObject<OS_dispatch_queue> *client_queue;
-    unsigned int client_qos_class;
-    NWConcrete_nw_connection_group *internally_retained_object;
-    CDUnknownBlockType state_changed_handler;
-    int state;
-    NSObject<OS_nw_error> *last_error;
-    NSObject<OS_nw_parameters> *parameters;
-    NSObject<OS_nw_group_descriptor> *group_descriptor;
-    NSObject<OS_nw_path_evaluator> *group_evaluator;
-    CDUnknownBlockType membership_change_handler;
-    CDUnknownBlockType has_completed_any_connection_handler;
-    NSObject<OS_nw_listener> *listener;
-    NSObject<OS_nw_listener> *unicast_listener;
-    NSObject<OS_nw_array> *connections;
-    NSObject<OS_nw_array> *send_requests;
-    unsigned char group_uuid[16];
-    CDUnknownBlockType receive_handler;
-    CDUnknownBlockType new_connection_handler;
-    char *description;
-    char *redacted_description;
-    unsigned int log_id;
-    struct mutex lock;
-    unsigned int maximum_message_size;
-    unsigned int connection_limit;
-    unsigned int new_connection_limit;
-    unsigned short initial_port;
-    unsigned int started:1;
-    unsigned int reject_oversized_messages:1;
-    unsigned int is_server:1;
-    unsigned int has_listener_started:1;
-    unsigned int is_listener_ready:1;
-    unsigned int is_unicast_listener_ready:1;
-    unsigned int is_first_connection_ready:1;
-    unsigned int has_user_cancelled:1;
 }
 
-- (void);
+- (void)election-Opaque;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

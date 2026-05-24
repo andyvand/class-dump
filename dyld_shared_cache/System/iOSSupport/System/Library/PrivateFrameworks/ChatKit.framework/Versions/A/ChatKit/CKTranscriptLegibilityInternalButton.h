@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptLegibilityInternalButton
 {
     _Bool _dimsOnHighlight;
-    id <CKTranscriptLegibilityInternalButtonDelegate> _legibilityButtonDelegate;
 }
 
-- (void);
-- (void);
+- (void)initWithModernNoteContext:(id)arg1 htmlNoteContext:options: /* Error: Ran out of types for this method. */;
+- (void)ic_drawingUUID;
 - (id);
-- (_Bool);
+- (_Bool)own;
 - (void);
-- (void)henticationUI:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_presentAuthenticationUI:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)Error"16;
 
 // Remaining properties
-@property(nonatomic) _Bool dimsOnHighlight; // @synthesize dimsOnHighlight=_dimsOnHighlight;
 @property(nonatomic) __weak id <CKTranscriptLegibilityInternalButtonDelegate> legibilityButtonDelegate; // @synthesize legibilityButtonDelegate=_legibilityButtonDelegate;
 
 @end

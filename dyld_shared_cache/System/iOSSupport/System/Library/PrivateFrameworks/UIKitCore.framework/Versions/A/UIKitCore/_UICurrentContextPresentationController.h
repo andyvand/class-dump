@@ -11,14 +11,14 @@
 }
 
 - (_Bool);
-- (struct CGRect);
-- (id);
+- (struct CGRect)ouldForceToSMS on chat %@ to YES;
+- (id)eduled;
 - (CDStruct_912cb5d2);
 - (_Bool)setCursorHideCount: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (_Bool);
-- (struct CGRect)ITextFormattingViewControllerHighlight;
+- (struct CGRect)NUITextFormattingViewControllerHighlight;
 - (void)Tq÷þMÖMc;
 
 @end

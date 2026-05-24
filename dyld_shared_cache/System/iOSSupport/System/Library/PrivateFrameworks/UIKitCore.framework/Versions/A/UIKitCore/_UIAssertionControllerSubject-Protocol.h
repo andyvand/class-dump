@@ -5,7 +5,7 @@
 //
 
 @protocol _UIAssertionControllerSubject
-- (_Bool)tion;
+- (_Bool)_UIClickPresentationTransition;
 - (void)pandableTextView;
 @end
 

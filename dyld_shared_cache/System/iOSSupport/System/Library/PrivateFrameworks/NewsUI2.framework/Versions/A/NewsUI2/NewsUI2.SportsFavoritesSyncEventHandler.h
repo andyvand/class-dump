@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsFavoritesSyncEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGInferenceEnded, RGSiriSchemaRGInferenceFailed, RGSiriSchemaRGInferenceStarted;
+@class RGSiriSchemaRGInferenceStarted;
 
 @interface RGSiriSchemaRGInferenceContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGInferenceStarted *_startedOrChanged;
-    RGSiriSchemaRGInferenceEnded *_ended;
-    RGSiriSchemaRGInferenceFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,31 +25,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)works/DesignLibrary.framework/Versions/A/DesignLibrary;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)raries/AppStoreDaemon/Stubs/ASDClaimApplicationsRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)ª;
+- (_Bool)id _IMDPerformBlockWithDelay(NSTimeInterval, dispatch_block_t, IMFileLocation_t *);
 - (id);
 - (id);
-- (id)ddRedactionWindows:(id)arg1;
+- (id)addRedactionWindows:(id)arg1;
 - (id)ificScore;
 - (void)apple.aiml.siri.identity.IDENTITYClientEvent.IDENTITYResultCandidateReceived;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGInferenceEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGInferenceFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGInferenceStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

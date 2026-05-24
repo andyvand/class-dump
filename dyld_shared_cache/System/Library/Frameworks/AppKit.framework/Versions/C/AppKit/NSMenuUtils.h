@@ -10,12 +10,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)sting a NSURLSessionDataTask from background transfer daemon:(unsigned int)arg1 %@;
++ (_Bool)scheme for background tasks:%@. Valid schemes are http or https /* Error: Ran out of types for this method. */;
 + (unsigned int);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned int);
++ (unsigned long long)p;
++ (unsigned long long)dStreamData.size() == 0;
++ (unsigned int)time_stamp DESC LIMIT 8192);
+END;;
 + (unsigned int);
 + (unsigned int);
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol TBScore;
+@class NSString;
 
 @interface WiFiAvailabilityNearbyCandidateNetwork
 {
     _Bool matched;
-    unsigned int venueType;
-    NSString *SSID;
-    NSString *password;
-    NSSet *attributes;
-    NSSet *accessPoints;
-    id <TBScore> qualityScore;
-    id <TBScore> popularityScore;
-    unsigned long long venueGroup;
-    unsigned long long type;
-    NSString *receivedFromDeviceName;
 }
 
 - (_Bool);
@@ -35,44 +24,14 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long):: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *SSID; // @synthesize SSID;
-@property(readonly, nonatomic) NSSet *accessPoints; // @synthesize accessPoints;
-@property(readonly, nonatomic) NSSet *attributes; // @synthesize attributes;
-@property(readonly, copy, nonatomic) NSString *captiveToken;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *captiveTokenAuthURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool matched; // @synthesize matched;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password;
-@property(readonly, nonatomic) id <TBScore> popularityScore; // @synthesize popularityScore;
-@property(readonly, nonatomic) id <TBScore> qualityScore; // @synthesize qualityScore;
 @property(copy, nonatomic) NSString *receivedFromDeviceName; // @synthesize receivedFromDeviceName;
-@property(readonly, nonatomic) long long source;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) unsigned long long venueGroup; // @synthesize venueGroup;
-@property(readonly, nonatomic) unsigned int venueType; // @synthesize venueType;
 
 @end
 

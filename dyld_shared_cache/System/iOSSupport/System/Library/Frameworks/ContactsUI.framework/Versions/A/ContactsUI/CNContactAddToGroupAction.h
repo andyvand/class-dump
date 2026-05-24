@@ -6,18 +6,12 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContactStore, CNGroup, CNManagedConfiguration, CNUIGroupsAndContainersSaveManager, NSArray, NSString, UINavigationController;
+@class CNContactStore, CNGroup;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddToGroupAction : CNContactAction
 {
     CNContactStore *_contactStore;
-    NSArray *_contactParentGroups;
-    CNGroup *_selectedGroup;
-    CNManagedConfiguration *_managedConfiguration;
-    NSArray *_contactParentGroupIdentifiers;
-    UINavigationController *_groupPickerNavigationViewController;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
 }
 
 + (id);
@@ -34,30 +28,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (id),V_contactItems;
 - (void)V_cardTopGroup;
 - (id)it Contact Card with %s, %{private}@;
-- (void)pe;
+- (void)CNActionType;
 - (void)×õÿg"$;
 - (id)C;
 - (void)B;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contactParentGroupIdentifiers; // @synthesize contactParentGroupIdentifiers=_contactParentGroupIdentifiers;
-@property(retain, nonatomic) NSArray *contactParentGroups; // @synthesize contactParentGroups=_contactParentGroups;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UINavigationController *groupPickerNavigationViewController; // @synthesize groupPickerNavigationViewController=_groupPickerNavigationViewController;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
 @property(retain, nonatomic) CNGroup *selectedGroup; // @synthesize selectedGroup=_selectedGroup;
-@property(readonly) Class superclass;
 
 @end
 

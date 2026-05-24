@@ -13,7 +13,7 @@
     NSArray *_columns;
 }
 
-- (id);
+- (id)B;
 - (void)24) = 1024) OR best_artwork_token.available_artwork_token IS NULL);
 - (id)en = '' AND fetchable_artwork_token = '';
 

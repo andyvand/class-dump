@@ -7,36 +7,28 @@
 @interface BMPBBacklightEvent
 {
     double _absoluteTimestamp;
-    unsigned long long _backlightLevel;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int backlightLevel:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)K;
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_customName;
+- (void)copyImagesFromDocInfoCollection:(id)arg1 imageCache: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)A;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(nonatomic) unsigned long long backlightLevel; // @synthesize backlightLevel=_backlightLevel;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasBacklightLevel;
 
 @end
 

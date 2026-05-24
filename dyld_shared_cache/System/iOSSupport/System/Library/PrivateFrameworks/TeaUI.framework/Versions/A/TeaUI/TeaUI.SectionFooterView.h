@@ -7,12 +7,10 @@
 @interface TeaUI.SectionFooterView
 {
     id separator;
-    id button;
-    id onButtonTap;
 }
 
 - (id);
-- (id);
+- (id)setThumbnailWidgetMetadata:(struct CGRect)arg1;
 - (void)èÿÿ;
 
 @end

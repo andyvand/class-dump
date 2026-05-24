@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNLSApplicationWorkspace, NSString;
+@class CNLSApplicationWorkspace;
 
 @interface _CNUIUserActionUserActivityOpener
 {
@@ -14,19 +14,12 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
+- (id)addGroupWithDisplayName:conversationIdentifier:recipients: /* Error: Ran out of types for this method. */;
 - (void)24@32@40B48;
 
 // Remaining properties
 @property(readonly, nonatomic) CNLSApplicationWorkspace *applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

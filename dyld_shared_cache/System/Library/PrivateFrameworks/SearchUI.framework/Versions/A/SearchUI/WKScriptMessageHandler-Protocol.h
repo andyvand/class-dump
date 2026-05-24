@@ -5,5 +5,6 @@
 //
 
 @protocol WKScriptMessageHandler
+- (void)r %s from %s;
 @end
 

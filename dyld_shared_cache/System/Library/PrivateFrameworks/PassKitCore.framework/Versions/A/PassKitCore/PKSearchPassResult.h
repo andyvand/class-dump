@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PKSearchPassResult
 {
     NSString *_passUniqueIdentifier;
-    NSData *_thumbnailData;
-    NSString *_displayName;
-    NSString *_contentDescription;
-    NSArray *_groupPassUniqueIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (void);
 - (void);
 - (id);
@@ -28,17 +24,13 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void)_DESCRIPTION_FORMAT;
+- (void)_numAbort;
+- (void)ACCOUNT_SERVICE_BANK_ACCOUNT_DISPLAY_DESCRIPTION_FORMAT;
 - (id)ary"16@?0@"PKPaymentTokenContext"8;
 - (void)Ü¡;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentDescription; // @synthesize contentDescription=_contentDescription;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSArray *groupPassUniqueIdentifiers; // @synthesize groupPassUniqueIdentifiers=_groupPassUniqueIdentifiers;
 @property(retain, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(retain, nonatomic) NSData *thumbnailData; // @synthesize thumbnailData=_thumbnailData;
 
 @end
 

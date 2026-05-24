@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)fallback image data because URL is nil {attachment:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *swiftui_focusGroupIdentifier;

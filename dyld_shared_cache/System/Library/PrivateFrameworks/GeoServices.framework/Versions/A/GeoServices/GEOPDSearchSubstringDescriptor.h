@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSubstringDescriptor
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_spanDatas;
-    int _beginIndex;
-    int _endIndex;
-    int _stringType;
 }
 
 - (id);
-- (void);
+- (void)T@"NSDictionary",&,N,V_childDefinitions;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)erStartZilchIndex"b1"has_maneuverType"b1"has_maneuverStartPointOffsetCm"b1"has_overrideDrivingSide"b1"has_overrideTransportType"b1"has_stepID"b1"has_zilchPathIndex"b1"has_endsOnFwy"b1"has_maneuverLaneGuidanceSuppressed"b1"has_shouldChainManeuver"b1"has_stayOn"b1"has_toFreeway"b1"has_tollAhead"b1"has_tollPrior"b1"read_unknownFields"b1"read_junctionElements"b1"read_artworkOverride"b1"read_chargingInfo"b1"read_evInfo"b1"read_evStateInfo"b1"read_exitNumber"b1"read_guidanceEvents"b1"read_instructionSet"b1"read_instructions"b1"read_maneuverNames"b1"read_notice"b1"read_roadDescriptions"b1"read_signposts"b1"read_stopWaypoint"b1"read_timeCheckpoints"b1"wrote_anyField"b1};
-- (id)tedSearchSuggestions;
+- (id)_relatedSearchSuggestions;
 - (id)ô;
 - (void)0Hú´VI@;
 

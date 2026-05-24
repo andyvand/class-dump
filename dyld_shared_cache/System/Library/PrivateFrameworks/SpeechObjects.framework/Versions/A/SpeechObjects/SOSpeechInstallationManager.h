@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CustomizeVoicesWindowController, SOCustomizeSRLanguagesWindowController;
+@class CustomizeVoicesWindowController;
 
 @interface SOSpeechInstallationManager
 {
     id _delegate;
-    CustomizeVoicesWindowController *_voiceSelectionWindowController;
-    SOCustomizeSRLanguagesWindowController *_srLanguagesSelectionWindowController;
-    struct __CFMessagePort *_serverPortRef;
 }
 
 + (id);
@@ -42,7 +39,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -66,8 +63,6 @@
 - (void);
 
 // Remaining properties
-@property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain) SOCustomizeSRLanguagesWindowController *srLanguagesSelectionWindowController; // @dynamic srLanguagesSelectionWindowController;
 @property(readonly, retain) CustomizeVoicesWindowController *voiceSelectionWindowController; // @dynamic voiceSelectionWindowController;
 
 @end

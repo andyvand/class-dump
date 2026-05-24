@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreTransactionOptions
 {
     _Bool _mustReplay;
-    _Bool _mustPush;
-    _Bool _mustSaveArchiveAtomically;
-    unsigned long long _destination;
-    unsigned long long _source;
-    NSString *_label;
-    unsigned long long _cdTransactionAuthor;
-    NSString *_clientIdentifier;
 }
 
 + (id);
@@ -26,12 +19,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)V;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)tInteractionsFromDateFailed;
 + (id);
 + (id);
 + (id);
@@ -49,40 +42,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (id)color;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#A�|;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id)!@ùQ°1Â0@ù
 × ;
-- (unsigned long long)thClassicMacAddress;
-- (void)meKit;
+- (unsigned long long)bluetoothClassicMacAddress;
+- (void)HomeKit;
 - (void)¨µ',;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cdTransactionAuthor; // @synthesize cdTransactionAuthor=_cdTransactionAuthor;
-@property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long destination; // @synthesize destination=_destination;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) _Bool mustPush; // @synthesize mustPush=_mustPush;
-@property(readonly, nonatomic) _Bool mustReplay; // @synthesize mustReplay=_mustReplay;
-@property(readonly, nonatomic) _Bool mustSaveArchiveAtomically; // @synthesize mustSaveArchiveAtomically=_mustSaveArchiveAtomically;
-@property(readonly, nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

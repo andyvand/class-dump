@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNPhotoPickerHeaderViewTextField, CNPhotoPickerProviderItem, CNVisualIdentity, CNVisualIdentityAvatarViewController, NSArray, NSString, UIButton, UIGestureRecognizer, UIView;
+@class CNVisualIdentity;
 @protocol CNPhotoPickerHeaderViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerHeaderView
 {
     id <CNPhotoPickerHeaderViewDelegate> _delegate;
-    CNPhotoPickerProviderItem *_placeholderProviderItem;
-    CNVisualIdentity *_visualIdentity;
-    NSArray *_subviewsConstraints;
-    CNVisualIdentityAvatarViewController *_avatarViewController;
-    UIButton *_clearAvatarImageButton;
-    UIView *_clearAvatarImageButtonBackground;
-    CAShapeLayer *_clearAvatarImageButtonClippingLayer;
-    CNPhotoPickerHeaderViewTextField *_identityNameTextField;
-    UIButton *_clearIdentityNameButton;
-    UIGestureRecognizer *_tapGestureRecognizer;
 }
 
 - (id);
+- (void);
+- (void)p@y	q;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -44,17 +34,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)j';
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)䬗;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -62,38 +52,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)PodcastsFoundation;
 - (id);
 - (void);
 - (void);
+- (_Bool)__strong;
+- (id);
+- (void)#;
+- (id)Sep;
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void)eContainerTopMargin;
-- (void)bleView: /* Error: Ran out of types for this method. */;
+- (void)styleContainerTopMargin;
+- (void)_itemAtIndexPath:forTableView: /* Error: Ran out of types for this method. */;
 - (void)friendshipservice to the entitlements and mach services in the app.;
 
 // Remaining properties
-@property(retain, nonatomic) CNVisualIdentityAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) UIButton *clearAvatarImageButton; // @synthesize clearAvatarImageButton=_clearAvatarImageButton;
-@property(retain, nonatomic) UIView *clearAvatarImageButtonBackground; // @synthesize clearAvatarImageButtonBackground=_clearAvatarImageButtonBackground;
-@property(retain, nonatomic) CAShapeLayer *clearAvatarImageButtonClippingLayer; // @synthesize clearAvatarImageButtonClippingLayer=_clearAvatarImageButtonClippingLayer;
-@property(retain, nonatomic) UIButton *clearIdentityNameButton; // @synthesize clearIdentityNameButton=_clearIdentityNameButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNPhotoPickerHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNPhotoPickerHeaderViewTextField *identityNameTextField; // @synthesize identityNameTextField=_identityNameTextField;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *placeholderProviderItem; // @synthesize placeholderProviderItem=_placeholderProviderItem;
-@property(retain, nonatomic) NSArray *subviewsConstraints; // @synthesize subviewsConstraints=_subviewsConstraints;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 @property(retain, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

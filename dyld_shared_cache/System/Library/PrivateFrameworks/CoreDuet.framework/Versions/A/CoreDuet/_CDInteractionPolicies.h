@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, _CDInteractionPolicy;
-
 @interface _CDInteractionPolicies
 {
     unsigned long long _maxNumberOfInteractions;
-    unsigned long long _maxNumberOfInteractionsDeletedInBatch;
-    double _maxLifespanInSeconds;
-    NSDictionary *_specialPoliciesForBundleIds;
-    NSDictionary *_specialPoliciesForMechanisms;
-    _CDInteractionPolicy *_defaultPolicy;
 }
 
++ (id)k~mv;
 + (id);
++ (id)\;
 + (id);
-+ (id);
-+ (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)s;
 - (unsigned long long);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id));
+- (id){;
 - (id);
 - (id);
 - (void)·/°!@ùª3°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSDate *dateOfOldestAllowedInteraction;
-@property(readonly) unsigned long long maxNumberOfInteractionsDeleted;
 @property(readonly) unsigned long long maxNumberOfInteractionsStored;
 
 @end

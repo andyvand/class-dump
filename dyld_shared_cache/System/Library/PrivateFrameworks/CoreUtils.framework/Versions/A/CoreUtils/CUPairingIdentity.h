@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData;
 
 @interface CUPairingIdentity
 {
     NSData *_altIRK;
-    NSUUID *_identifier;
-    NSData *_publicKey;
-    NSData *_secretKey;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *altIRK; // @synthesize altIRK=_altIRK;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(copy, nonatomic) NSData *secretKey; // @synthesize secretKey=_secretKey;
 
 @end
 

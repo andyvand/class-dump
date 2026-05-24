@@ -6,8 +6,6 @@
 
 #import <OfficeImport/OABFillPropertiesManager.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OABShapeBaseManager : OABFillPropertiesManager
 {
@@ -18,19 +16,19 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)O;
 - (int);
 - (id);
 - (unsigned int);
 - (struct EshBlip *);
-- (struct EshColor);
+- (struct EshColor)	;
 - (int);
 - (int);
 - (int);
 - (int);
 - (const void *);
 - (int);
-- (int);
+- (int)Q?	;
 - (struct EshColor);
 - (int);
 - (int);
@@ -40,18 +38,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (int);
-- (int);
+- (int)a;
 - (struct EshColor);
 - (int)formats.wordprocessingml.template.macroenabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

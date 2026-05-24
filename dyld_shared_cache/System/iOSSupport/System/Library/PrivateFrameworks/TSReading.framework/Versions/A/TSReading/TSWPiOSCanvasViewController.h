@@ -6,73 +6,62 @@
 
 #import <TSReading/TSDiOSCanvasViewController.h>
 
-@class NSMutableArray, NSString, TSUColor, TSWPHyperlinkField, TSWPInteractiveCanvasController, TSWPLongPressGestureRecognizer, TSWPRep, TSWPSwipeGestureRecognizer, TSWPTwoPartAction, UIGestureRecognizer, UITapGestureRecognizer, UITextInteraction;
+@class TSWPInteractiveCanvasController, UIGestureRecognizer;
 
 @interface TSWPiOSCanvasViewController : TSDiOSCanvasViewController
 {
     UIGestureRecognizer *_hyperlinkGestureRecognizer;
-    TSWPSwipeGestureRecognizer *_rightSwipeGestureRecognizer;
-    TSWPSwipeGestureRecognizer *_leftSwipeGestureRecognizer;
-    TSWPLongPressGestureRecognizer *_longPressGestureRecognizer;
-    TSWPTwoPartAction *_delayedTapAction;
-    NSMutableArray *_gestureRecognizers;
-    _Bool _isInteractingWithHyperLink;
-    _Bool _linkInteractionIsLongPress;
-    TSWPHyperlinkField *_interactionHyperlinkField;
-    TSWPRep *_interactionHyperLinkRep;
-    UITapGestureRecognizer *_secondarySingleTapGestureRecognizer;
-    UITextInteraction *_textInteraction;
 }
 
-- (id);
+- (id)without scanning;
+- (void)v24@?0@"MPModelResponse"8@"NSError"16;
+- (_Bool)edMessage=%@>;
+- (void)ndOfClass:[MPAVItem class]] /* Error: Ran out of types for this method. */;
+- (void)class]];
+- (void)PlayerItem"8@"NSError"16;
+- (id)istening queue;
+- (void)m was missing a media identifier while building shared queue tracklist:startingContentItemID=%@ identifiers=%@ /* Error: Ran out of types for this method. */;
+- (id)pe == MRAVOutputDeviceClusterTypeGenericAudio;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void)-	CoreMedia;
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
+- (void);
+- (_Bool)odayDataManager;
+- (_Bool)}@;
+- (void)d;
+- (_Bool)tem notifications button accept button;
+- (_Bool)ect button;
+- (void)NrbugCc7wn9rzpSpGsBvMbd49PVLiWAEKoO4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/RecipeCoordinator.swift;
 - (void);
 - (void);
 - (void);
@@ -82,29 +71,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void)0:(id)arg1 8@"TSKAVPlayerController"16;
-- (id)uteInfoGeometryFromLayoutGeometry:(id)arg1;
+- (id)computeInfoGeometryFromLayoutGeometry:(id)arg1;
 - (void)t±;
 
 // Remaining properties
-@property(readonly, nonatomic) TSUColor *backgroundColorForMagnifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIGestureRecognizer *hyperlinkGestureRecognizer; // @synthesize hyperlinkGestureRecognizer=_hyperlinkGestureRecognizer;
 @property(readonly) TSWPInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) TSWPLongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(readonly, nonatomic) UITapGestureRecognizer *secondarySingleTapGestureRecognizer; // @synthesize secondarySingleTapGestureRecognizer=_secondarySingleTapGestureRecognizer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITextInteraction *textInteraction; // @synthesize textInteraction=_textInteraction;
-@property(readonly, nonatomic) TSWPSwipeGestureRecognizer *textLeftSwipeGestureRecognizer; // @synthesize textLeftSwipeGestureRecognizer=_leftSwipeGestureRecognizer;
-@property(readonly, nonatomic) TSWPSwipeGestureRecognizer *textRightSwipeGestureRecognizer; // @synthesize textRightSwipeGestureRecognizer=_rightSwipeGestureRecognizer;
 
 @end
 

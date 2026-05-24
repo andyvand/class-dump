@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPMultipleMetadataPresentationTransformer;
+
 @protocol LPMultipleMetadataPresentationTransformer
+- (long long)unknownSendersOnboardingControllerDidEnableFiltering:(LPMultipleMetadataPresentationTransformer *)arg1;
 @end
 

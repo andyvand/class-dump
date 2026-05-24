@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSData;
 
 @protocol NFNdefMessage
+- (id)d after adding smart list;
+- (NSData *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *records;

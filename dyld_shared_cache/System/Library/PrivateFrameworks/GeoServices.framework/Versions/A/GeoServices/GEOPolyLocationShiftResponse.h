@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPolyLocationShiftResponse
 {
     PBDataReader *_reader;
-    CDStruct_82f37d05 _parameters;
-    GEOLatLng *_center;
-    double _radius;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int read_parameters:1;
-        unsigned int read_center:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)setIsFamiliarRoute:(id)arg1;
+- (void)setReadSharingACL:(double *)arg1;
 - (double);
 - (void);
 - (void);
@@ -34,23 +22,23 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)URLSession;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)playerItemFailedToPlayToEndTime: /* Error: Ran out of types for this method. */;
+- (void)quested;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)ffff}{?=ffff}{?=ffff}[4f]),N,V_diffuseColor;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)eCollectionFilter";
 - (double)32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16I24i28;
-- (int)ureFavoritesCount;
-- (id)late;
-- (double *)orted;
+- (int)mapFeatureFavoritesCount;
+- (id)_urlTemplate;
+- (double *)_snapToClosestStopSupported;
 - (id)Ü;
 - (id)equest because `.requireFamiliarRoute` was set and no familiar route was found.;
 - (void)3f meters, %.3f seconds};
@@ -59,12 +47,7 @@
 - (void)ÂøiÐK@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *center;
 @property(readonly, nonatomic) _Bool hasCenter;
-@property(readonly, nonatomic) double *parameters;
-@property(readonly, nonatomic) unsigned long long parametersCount;
-@property(nonatomic) double radius;
-@property(nonatomic) int status;
 
 @end
 

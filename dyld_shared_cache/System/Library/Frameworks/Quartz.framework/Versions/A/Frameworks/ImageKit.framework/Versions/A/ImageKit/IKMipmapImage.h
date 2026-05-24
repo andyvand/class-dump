@@ -9,13 +9,6 @@
 @interface IKMipmapImage
 {
     IKMipmapItem *_mipmaps[4];
-    IKMipmapItem *_originalMipmap;
-    IKMipmapItem *_varyingMipmap;
-    struct CGSize _originalImageSizeCache;
-    unsigned int _originalImageIsInvalid:1;
-    unsigned int _dirty:1;
-    unsigned int _mark:1;
-    unsigned int _isReference:1;
 }
 
 - (_Bool);
@@ -57,7 +50,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
@@ -73,15 +66,15 @@
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)ontentURL=%@;
 - (id);
-- (void);
+- (void)`B;
 - (id);
 - (_Bool);
-- (void);
+- (void)r">24;
 - (void);
 - (void);
 

@@ -5,5 +5,11 @@
 //
 
 @protocol MNLocationTrackerDelegate
+- (void);
+- (void);
+- (void);
+- (void)Z7TG
+;
+- (void);
 @end
 

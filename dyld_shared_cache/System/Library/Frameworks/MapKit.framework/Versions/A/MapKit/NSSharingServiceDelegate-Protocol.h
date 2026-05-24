@@ -5,5 +5,9 @@
 //
 
 @protocol NSSharingServiceDelegate
+
+@optional
+- (struct CGRect)";
+- (void);
 @end
 

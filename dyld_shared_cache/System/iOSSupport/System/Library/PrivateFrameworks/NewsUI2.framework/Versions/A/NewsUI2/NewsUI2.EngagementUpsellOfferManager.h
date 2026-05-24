@@ -7,9 +7,6 @@
 @interface NewsUI2.EngagementUpsellOfferManager
 {
     id offerEntry;
-    id store;
-    id bundleSubscriptionManager;
-    id offerManager;
 }
 
 - (void);

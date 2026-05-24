@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPEvent;
-
 __attribute__((visibility("hidden")))
 @interface LPFetcher
 {
     unsigned int _loggingID;
-    LPEvent *_event;
-    id _userData;
-    Class _responseClass;
 }
 
-- (void);
-- (void);
-- (unsigned int);
+- (void)tableViewDidEndMultipleSelectionInteraction:(id)arg1;
+- (void)stickerPreviewCache;
+- (unsigned int)showingInStandAloneWindow;
 - (id);
 - (void);
 - (void);
@@ -28,9 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPEvent *_event; // @synthesize _event;
-@property(readonly, nonatomic) unsigned int _loggingID; // @synthesize _loggingID;
-@property(retain, nonatomic) Class responseClass; // @synthesize responseClass=_responseClass;
 @property(retain, nonatomic) id userData; // @synthesize userData=_userData;
 
 @end

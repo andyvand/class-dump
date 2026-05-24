@@ -7,8 +7,6 @@
 @interface CalendarWidget.ListTimeline
 {
     id dataSource;
-    id events;
-    id eventsByDay;
 }
 
 @end

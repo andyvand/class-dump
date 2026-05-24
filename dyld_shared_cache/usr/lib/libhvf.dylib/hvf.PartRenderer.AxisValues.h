@@ -8,10 +8,6 @@
 {
     id base;
     id basePartIndex;
-    id treeAxisOffset;
-    id axisCount;
-    id isNested;
-    id startIndex;
 }
 
 @end

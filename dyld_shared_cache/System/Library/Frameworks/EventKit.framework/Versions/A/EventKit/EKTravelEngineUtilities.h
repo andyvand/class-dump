@@ -14,14 +14,14 @@
 + (id);
 + (unsigned long long);
 + (id);
-+ (_Bool);
++ (_Bool)is missing:(id)arg1 %@;
 + (int);
 + (_Bool);
-+ (double);
++ (double)setCharge_duration_var_at_charge_start_soc_curr_dynamic_bin_4: /* Error: Ran out of types for this method. */;
 + (id);
-+ (long long);
-+ (int);
-+ (double);
++ (long long)};
++ (int)sible;
++ (double)WebKitCSSURLModifiersEnabled;
 + (_Bool)
 × ;
 

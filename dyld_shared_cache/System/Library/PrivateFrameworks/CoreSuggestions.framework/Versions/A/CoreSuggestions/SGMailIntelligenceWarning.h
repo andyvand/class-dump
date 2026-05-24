@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SGMailIntelligenceWarning
 {
     _Bool _isIncomingMessage;
-    NSString *_snippet;
-    NSString *_core;
-    NSString *_signature;
-    NSString *_detectedLanguage;
-    NSNumber *_score;
 }
 
 + (id);
@@ -23,21 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id):8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *core; // @synthesize core=_core;
-@property(readonly, nonatomic) NSString *detectedLanguage; // @synthesize detectedLanguage=_detectedLanguage;
-@property(readonly, nonatomic) _Bool isIncomingMessage; // @synthesize isIncomingMessage=_isIncomingMessage;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSString *signature; // @synthesize signature=_signature;
 @property(readonly, nonatomic) NSString *snippet; // @synthesize snippet=_snippet;
 
 @end

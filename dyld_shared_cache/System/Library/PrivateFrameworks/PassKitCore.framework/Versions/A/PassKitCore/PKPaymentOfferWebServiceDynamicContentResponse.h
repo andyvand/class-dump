@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)eIdentifierCreatedAt;
+- (void)PaymentOffersMerchandisingEphemeralDeviceIdentifierCreatedAt;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;

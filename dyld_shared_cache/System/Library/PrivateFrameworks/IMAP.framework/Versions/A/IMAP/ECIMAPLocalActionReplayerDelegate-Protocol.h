@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol ECIMAPLocalActionReplayerDelegate
+- (NSDictionary *)T;
+- (_Bool);
 @end
 

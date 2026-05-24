@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MAAutoAssetInfoControl
 {
     _Bool _clearingAfter;
-    _Bool _forceUnlock;
-    int _cacheDeleteUrgency;
-    NSArray *_limitedToAssetTypes;
-    NSString *_volumeToReclaim;
-    long long _targetingPurgeAmount;
-    long long _simulateOperation;
-    long long _simulateEnd;
 }
 
 + (id);
@@ -35,21 +26,14 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id)initWithIdentifier:(id)arg1 url:machOUUIDs:name:appGroups: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int cacheDeleteUrgency; // @synthesize cacheDeleteUrgency=_cacheDeleteUrgency;
 @property(readonly, nonatomic) _Bool clearingAfter; // @synthesize clearingAfter=_clearingAfter;
-@property(readonly, nonatomic) _Bool forceUnlock; // @synthesize forceUnlock=_forceUnlock;
-@property(readonly, retain, nonatomic) NSArray *limitedToAssetTypes; // @synthesize limitedToAssetTypes=_limitedToAssetTypes;
-@property(readonly, nonatomic) long long simulateEnd; // @synthesize simulateEnd=_simulateEnd;
-@property(readonly, nonatomic) long long simulateOperation; // @synthesize simulateOperation=_simulateOperation;
-@property(readonly, nonatomic) long long targetingPurgeAmount; // @synthesize targetingPurgeAmount=_targetingPurgeAmount;
-@property(readonly, retain, nonatomic) NSString *volumeToReclaim; // @synthesize volumeToReclaim=_volumeToReclaim;
 
 @end
 

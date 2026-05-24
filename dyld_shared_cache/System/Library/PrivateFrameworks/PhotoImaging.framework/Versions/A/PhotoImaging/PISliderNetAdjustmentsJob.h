@@ -6,14 +6,11 @@
 
 #import <PhotoImaging/PISliderNetBaseJob.h>
 
-@class IHKFeatureVector, NSDictionary;
+@class NSDictionary;
 
 @interface PISliderNetAdjustmentsJob : PISliderNetBaseJob
 {
     NSDictionary *_adjustments;
-    float _similarityScore;
-    IHKFeatureVector *_sourceStyleFeatureVector;
-    IHKFeatureVector *_sourceContentFeatureVector;
 }
 
 - (_Bool);
@@ -24,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)ToTimeRange:usingScript: /* Error: Ran out of types for this method. */;
+- (void)trimToTimeRange:usingScript: /* Error: Ran out of types for this method. */;
 - (id)iq;
 
 @end

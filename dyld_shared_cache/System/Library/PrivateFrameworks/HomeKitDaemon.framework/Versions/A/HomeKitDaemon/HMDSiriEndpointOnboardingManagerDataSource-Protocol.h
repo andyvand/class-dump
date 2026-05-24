@@ -7,9 +7,10 @@
 @class HMDAccessory;
 
 @protocol HMDSiriEndpointOnboardingManagerDataSource
+- (void)R;
 - (void)QÐ1Â0@ù
 × ;
 - (void);
-- (HMDAccessory *)eferencesChangedNotification;
+- (HMDAccessory *)AppleLanguagePreferencesChangedNotification;
 @end
 

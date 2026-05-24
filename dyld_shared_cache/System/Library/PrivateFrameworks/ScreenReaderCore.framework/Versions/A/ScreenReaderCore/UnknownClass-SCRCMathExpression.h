@@ -9,8 +9,8 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
+- (id);
 - (id);
 - (struct _NSRange);
 - (id);
@@ -18,7 +18,7 @@
 - (unsigned char);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

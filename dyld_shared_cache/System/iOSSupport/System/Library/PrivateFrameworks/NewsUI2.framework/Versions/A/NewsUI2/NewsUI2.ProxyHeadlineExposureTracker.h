@@ -7,7 +7,6 @@
 @interface NewsUI2.ProxyHeadlineExposureTracker
 {
     id defaultTracker;
-    id sportsTracker;
 }
 
 @end

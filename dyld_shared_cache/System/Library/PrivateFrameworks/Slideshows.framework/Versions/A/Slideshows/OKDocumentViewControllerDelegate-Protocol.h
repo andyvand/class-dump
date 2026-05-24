@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, OKDocumentViewController;
+
 @protocol OKDocumentViewControllerDelegate
+
+@optional
+- (void)fc_dictionaryOfSortedObjectsWithKeyBlock:(NSString *)arg1;
+- (void)fc_dateWithMillisecondTimeIntervalSince1970:(NSString *)arg1;
+- (void)assetStore;
+- (void)appAnalyticsNotificationReceiptEndpointUrlForEnvironment:(OKDocumentViewController *)arg1;
+- (void);
+- (void)statusCode;
+- (void)wifi;
+- (void);
+- (void)DevicePlatform;
 @end
 

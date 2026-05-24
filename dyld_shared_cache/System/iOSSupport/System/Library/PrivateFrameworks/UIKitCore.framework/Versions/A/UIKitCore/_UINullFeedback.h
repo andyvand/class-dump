@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface _UINullFeedback : _UIFeedback
 {
@@ -16,24 +16,17 @@
 + (id);
 + (id)dd}}16@?0@"UIZoomTransitionAlignmentRectContext"8;
 + (_Bool)vious type/UUID = %@/%@, new type/UUID = %@/%@;
-- (unsigned long long);
+- (unsigned long long)edited message guid;
 - (_Bool);
-- (id);
+- (id)ntity:userIdentity:] /* Error: Ran out of types for this method. */;
 - (_Bool)8^B16;
 - (id)tion;
-- (id)ditions;
+- (id)UIResponderInputViewAdditions;
 - (id)om. The offending view is:(id)arg1 %@;
 - (void) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority;
-@property(readonly) Class superclass;
 
 @end
 

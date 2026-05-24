@@ -11,13 +11,12 @@
 }
 
 - (id);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double height;
 @property(nonatomic) double width;
 
 @end

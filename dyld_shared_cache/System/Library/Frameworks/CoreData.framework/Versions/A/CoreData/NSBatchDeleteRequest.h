@@ -6,25 +6,21 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSFetchRequest;
-
 @interface NSBatchDeleteRequest : NSPersistentStoreRequest
 {
     unsigned long long _resultType;
-    NSFetchRequest *_deleteTarget;
-    long long _flags;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
+- (void)`;
 - (void);
-- (void);
-- (id);
+- (id)o;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -33,7 +29,6 @@ storeOptions:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)rdsWorkItem applyAccumulatedChangesToStore:inManagedObjectContext:withStoreMonitor:madeChanges:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSFetchRequest *fetchRequest;
 @property unsigned long long resultType; // @synthesize resultType=_resultType;
 
 @end

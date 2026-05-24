@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)TzE;
 + (void);
 + (void);
 + (void);
@@ -29,7 +29,7 @@
 + (id);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)externalDestinationOptions;
 + (id);
 + (id)øÖÿÿgÔ;
 

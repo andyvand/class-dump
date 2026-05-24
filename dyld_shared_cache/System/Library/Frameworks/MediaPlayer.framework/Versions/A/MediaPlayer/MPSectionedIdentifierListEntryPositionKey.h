@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListEntryPositionKey
 {
     NSString *_deviceIdentifier;
-    NSString *_generation;
 }
 
 + (id);
@@ -22,11 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void)perties;
+- (void)_playlistEntryProperties;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(copy, nonatomic) NSString *generation; // @synthesize generation=_generation;
 
 @end
 

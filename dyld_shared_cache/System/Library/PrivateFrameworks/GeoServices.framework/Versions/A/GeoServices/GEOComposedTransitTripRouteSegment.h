@@ -6,69 +6,45 @@
 
 #import <GeoServices/GEOComposedTransitBaseRouteSegment.h>
 
-@class GEOComposedTransitTripRouteStep, NSArray, NSDate, NSTimeZone;
-@protocol GEOTransitLine, GEOTransitSystem;
+@protocol GEOTransitSystem;
 
 @interface GEOComposedTransitTripRouteSegment : GEOComposedTransitBaseRouteSegment
 {
     unsigned long long _boardStepIndex;
-    unsigned long long _alightStepIndex;
-    unsigned long long _blockTransferStepIndex;
-    unsigned long long _numberOfTransitStops;
-    unsigned long long _selectedRideOptionIndex;
-    NSArray *_actionSheetDescriptions;
-    NSArray *_routeDetailsOptionsArtwork;
-    NSArray *_actionSheetOptionsArtwork;
-    NSArray *_transitLineOptions;
-    NSArray *_alightNotifications;
 }
 
 + (_Bool)e at "%{public}@", it does not match resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)=QQ}32@0:8@16Q24 /* Error: Ran out of types for this method. */;
+- (_Bool)0:8q16q24q32q40q48q56@64 /* Error: Ran out of types for this method. */;
+- (id)supportsSecureCoding;
+- (id)filteredOpenInOriginatingAccounts:(id)arg1 targetAppBundleID:(id)arg2 targetAccountManagement:(id)arg3;
+- (id)atal error;
+- (id)on/RoundRobinScheduler.swift;
+- (id)terval already ended;
+- (double)String"8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
+- (double)<CNObservable>"8Q16^B24;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)_setShowsPointLabels: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedTransitTripRouteStep *alightStep;
-@property(readonly, nonatomic) GEOComposedTransitTripRouteStep *boardStep;
-@property(readonly, nonatomic) double departureFrequencyMax;
-@property(readonly, nonatomic) double departureFrequencyMin;
-@property(readonly, nonatomic) NSDate *departureTime;
-@property(readonly, nonatomic) NSTimeZone *departureTimeZone;
-@property(readonly, nonatomic) NSArray *departureTimes;
-@property(readonly, nonatomic) NSDate *lastStepArrivalDate;
-@property(readonly, nonatomic) _Bool notifyBeforeAlightStep;
-@property(readonly, nonatomic) unsigned long long rideOptionsCount;
-@property(readonly, nonatomic) NSArray *routeLineArtwork;
-@property(nonatomic) unsigned long long selectedRideOptionIndex; // @synthesize selectedRideOptionIndex=_selectedRideOptionIndex;
-@property(readonly, nonatomic) id <GEOTransitLine> transitLine;
-@property(readonly, nonatomic) NSArray *transitLineOptions; // @synthesize transitLineOptions=_transitLineOptions;
 @property(readonly, nonatomic) id <GEOTransitSystem> transitSystem;
 
 @end

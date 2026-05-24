@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface ACDManagedAccountType
 {
@@ -16,20 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessKeys; // @dynamic accessKeys;
-@property(retain, nonatomic) NSString *accountTypeDescription; // @dynamic accountTypeDescription;
-@property(retain, nonatomic) NSSet *accounts; // @dynamic accounts;
-@property(retain, nonatomic) NSString *credentialProtectionPolicy; // @dynamic credentialProtectionPolicy;
-@property(retain, nonatomic) NSString *credentialType; // @dynamic credentialType;
 @property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSNumber *obsolete; // @dynamic obsolete;
-@property(retain, nonatomic) NSString *owningBundleID; // @dynamic owningBundleID;
-@property(retain, nonatomic) NSSet *permission; // @dynamic permission;
-@property(retain, nonatomic) NSSet *supportedDataclasses; // @dynamic supportedDataclasses;
-@property(retain, nonatomic) NSNumber *supportsAuthentication; // @dynamic supportsAuthentication;
-@property(retain, nonatomic) NSNumber *supportsMultipleAccounts; // @dynamic supportsMultipleAccounts;
-@property(retain, nonatomic) NSSet *syncableDataclasses; // @dynamic syncableDataclasses;
-@property(retain, nonatomic) NSNumber *visibility; // @dynamic visibility;
 
 @end
 

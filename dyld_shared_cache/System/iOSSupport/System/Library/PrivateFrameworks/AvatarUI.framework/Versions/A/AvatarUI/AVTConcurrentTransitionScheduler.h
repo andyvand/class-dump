@@ -9,8 +9,6 @@
 @interface AVTConcurrentTransitionScheduler
 {
     CDUnknownBlockType _eventHandler;
-    NSTimer *_transitionTimer;
-    double _delay;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(readonly, copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(retain, nonatomic) NSTimer *transitionTimer; // @synthesize transitionTimer=_transitionTimer;
 
 @end

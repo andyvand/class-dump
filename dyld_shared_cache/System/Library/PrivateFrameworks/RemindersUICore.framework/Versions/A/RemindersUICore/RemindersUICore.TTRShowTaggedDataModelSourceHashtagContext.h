@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowTaggedDataModelSourceHashtagContext
 {
     id delegate;
-    id selection;
-    id allHashtagLabels;
 }
 
 @end

@@ -14,8 +14,8 @@
 × ;
 - (void)!PGùQ1Â0@ù
 × ;
-- (void)ionsOptionsPresentationInProgress:(UICollectionView *)arg1;
-- (void)tiateTUConversationWithScreenShareType:(UICollectionView *)arg1;
+- (void)messageEntryViewTextFormattingAnimationsOptionsPresentationInProgress:(UICollectionView *)arg1;
+- (void)initiateTUConversationWithScreenShareType:(UICollectionView *)arg1;
 - (NSIndexPath *)urf.;
 @end
 

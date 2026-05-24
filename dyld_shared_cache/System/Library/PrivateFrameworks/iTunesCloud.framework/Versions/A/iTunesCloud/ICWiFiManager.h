@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface ICWiFiManager
 {
     struct __SCPreferences *_wifiPreferences;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _wiFiEnabled;
-    _Bool _wiFiAssociated;
 }
 
-+ (id);
++ (id)"SCNNode"{SCNVector3=ddd}>20;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void)me;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isWiFiAssociated) _Bool wiFiAssociated; // @synthesize wiFiAssociated=_wiFiAssociated;
 @property(nonatomic, getter=isWiFiEnabled) _Bool wiFiEnabled; // @synthesize wiFiEnabled=_wiFiEnabled;
 
 @end

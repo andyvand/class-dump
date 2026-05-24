@@ -6,86 +6,60 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class CALayer, NSString, NSURL, UIButton, UIImageView, UILabel, UIView, UIVisualEffectView;
+@class UIView;
 @protocol CKObscurableBalloonViewDelegate;
 
 @interface CKObscurableBalloonView : CKBalloonView
 {
     id <CKObscurableBalloonViewDelegate> _obscurableBalloonDelegate;
-    UIButton *_warningButton;
-    UIButton *_showButton;
-    UIView *_obscuringView;
-    CALayer *_obscuringViewMaskLayer;
-    NSURL *_commSafetyTransferLocalURL;
-    NSString *_commSafetyTransferGUID;
-    UIVisualEffectView *_blurEffect;
-    UILabel *_sensitiveContentDescription;
-    UIImageView *_obscuredContentBadgeView;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)selectedTagCount;
+- (void)processPendingChanges;
+- (void)createSubattachmentForRecordingAndReturnError:(id)arg1;
+- (void)uiredFeatures:(id)arg1 consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void),N,GisImage,V_image;
+- (void)B,N,GisHandwritingRecognitionEnabled;
+- (id)initWithHTMLNoteContext:folder: /* Error: Ran out of types for this method. */;
+- (void)V_surroundingAttributes;
 - (id);
 - (id);
+- (id)ذ;
+- (void)؃;
+- (id)D;
+- (id);
+- (void)s;
+- (void);
+- (void)t;
+- (id)i;
+- (id):%ld /* Error: Ran out of types for this method. */;
+- (void)ICAttachmentDidFailFetchingMetadataNotification;
+- (void)zoomController == self.zoomController;
+- (void)r custom nor device authentication allowed while attempting primary authentication;
+- (void)while attempting secondary authentication;
+- (void)<%@:(id)arg1 %p, type:%@, parentIdentifier:%@, displayText:%@> /* Error: Ran out of types for this method. */;
+- (void)turned;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)Manager;
+- (id)throwSendAnimationManager;
 - (id);
 - (void);
 - (void)ÜÄDÿÜÄDÿÜÄDÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *blurEffect; // @synthesize blurEffect=_blurEffect;
-@property(retain, nonatomic) NSString *commSafetyTransferGUID; // @synthesize commSafetyTransferGUID=_commSafetyTransferGUID;
-@property(retain, nonatomic) NSURL *commSafetyTransferLocalURL; // @synthesize commSafetyTransferLocalURL=_commSafetyTransferLocalURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CKObscurableBalloonViewDelegate> obscurableBalloonDelegate; // @synthesize obscurableBalloonDelegate=_obscurableBalloonDelegate;
-@property(readonly, nonatomic, getter=isObscured) _Bool obscured;
-@property(retain, nonatomic) UIImageView *obscuredContentBadgeView; // @synthesize obscuredContentBadgeView=_obscuredContentBadgeView;
 @property(retain, nonatomic) UIView *obscuringView; // @synthesize obscuringView=_obscuringView;
-@property(retain, nonatomic) CALayer *obscuringViewMaskLayer; // @synthesize obscuringViewMaskLayer=_obscuringViewMaskLayer;
-@property(retain, nonatomic) UILabel *sensitiveContentDescription; // @synthesize sensitiveContentDescription=_sensitiveContentDescription;
-@property(retain, nonatomic) UIButton *showButton; // @synthesize showButton=_showButton;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIButton *warningButton; // @synthesize warningButton=_warningButton;
 
 @end
 

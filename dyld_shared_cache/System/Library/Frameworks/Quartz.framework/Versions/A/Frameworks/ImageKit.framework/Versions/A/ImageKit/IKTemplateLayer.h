@@ -7,13 +7,12 @@
 @interface IKTemplateLayer
 {
     struct CGRect *_templateRects;
-    long long _templateRectsCount;
 }
 
 - (struct CGRect *);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)settings.;
 - (void);
 - (void);
 

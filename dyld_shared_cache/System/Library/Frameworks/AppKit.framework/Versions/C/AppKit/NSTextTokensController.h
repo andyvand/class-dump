@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NSTextTokensController
 {
@@ -12,13 +12,12 @@
 
 - (void);
 - (void);
+- (id)y;
 - (id);
-- (id);
-- (void)tTrackedActionsCountDictionary:(id)arg1;
+- (void)setTrackedActionsCountDictionary:(id)arg1;
 
 // Remaining properties
 @property(copy) NSArray *tokens;
-@property(copy) NSString *untokenizedText;
 
 @end
 

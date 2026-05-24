@@ -6,29 +6,24 @@
 
 #import <UIKitCore/_UIBlurEffectImpl.h>
 
-@class NSBundle, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectCoreMaterialImpl : _UIBlurEffectImpl
 {
     long long _style;
-    NSString *_lightMaterial;
-    NSString *_darkMaterial;
-    NSBundle *_bundle;
 }
 
-- (long long);
+- (long long);
 - (unsigned long long);
 - (id);
 - (_Bool)
 × ;
-- (_Bool)AlignmentWithBaseWritingDirection:(id)arg1;
-- (void)Animation;
+- (_Bool)setResolvesNaturalAlignmentWithBaseWritingDirection:(id)arg1;
+- (void)performShowAnimation;
 - (id)gLabel;
 - (void)"<UIMovieScrubberDelegate>",N;
 - (_Bool)st be non-zero unless preferredFrameRateRange is CAFrameRateRangeDefault.;
 - (id);
-- (void);
+- (void)BadgeKey;
 - (_Bool);
 - (void)F2	;
 - (id)ôd\ÿ;

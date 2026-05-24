@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface HMFaceprint
 {
     NSUUID *_UUID;
-    NSData *_data;
-    NSUUID *_modelUUID;
-    NSUUID *_faceCropUUID;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSUUID *faceCropUUID; // @synthesize faceCropUUID=_faceCropUUID;
-@property(readonly, copy) NSUUID *modelUUID; // @synthesize modelUUID=_modelUUID;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol IMKXPCSupport
+- (void);
+- (void)P;
+- (void);
+- (void)9�H;
 @end
 

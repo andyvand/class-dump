@@ -9,26 +9,22 @@
 @interface CKOperationGroupSystemImposedInfo
 {
     NSDictionary *_networkServiceTypePerConfig;
-    long long _expectedSendSize;
-    long long _expectedReceiveSize;
 }
 
 + (_Bool);
-- (long long);
-- (id);
+- (long long)Qk}Sn;
+- (id)*A;
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)k;
 - (void);
 - (void)
 ;
 
 // Remaining properties
-@property long long expectedReceiveSize; // @synthesize expectedReceiveSize=_expectedReceiveSize;
-@property long long expectedSendSize; // @synthesize expectedSendSize=_expectedSendSize;
 @property(copy) NSDictionary *networkServiceTypePerConfig; // @synthesize networkServiceTypePerConfig=_networkServiceTypePerConfig;
 
 @end

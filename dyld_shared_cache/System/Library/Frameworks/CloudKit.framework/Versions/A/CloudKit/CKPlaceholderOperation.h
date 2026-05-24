@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 @interface CKPlaceholderOperation
 {
     NSObject<OS_dispatch_group> *_group;
-    int _executionState;
-    _Bool _finishInvoked;
-    NSDate *_startDate;
-    NSString *_operationID;
-    CDUnknownBlockType _daemonInvokeBlock;
 }
 
 - (id);
-- (void);
+- (void)atch the number of elements in `strides` (%tu);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool)eNotification;
+- (id);
+- (_Bool)CKRecordZoneNotification;
 - (void)	;
 - (_Bool);
 

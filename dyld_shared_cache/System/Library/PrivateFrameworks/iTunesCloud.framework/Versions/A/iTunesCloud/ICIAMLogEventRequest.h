@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface ICIAMLogEventRequest
 {
     long long _dSID;
-    NSString *_applicationMessageIdentifier;
-    NSString *_deviceID;
-    NSMutableArray *_eventParameters;
-    CDStruct_f07dd4d9 _has;
 }
 
 + (Class);
@@ -37,20 +31,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)\»t¼½<¿XÁøÃèÄ4Å;
 - (void)ZÿÕ£ZÿÕÄZÿÕYZÿÕ_ZÿÕ<ZÿÕÐZÿÕPZÿÕ¨ZÿÕ&ZÿÕõZÿÕÌZÿÕ0ZÿÕZÿÕTZÿÕµZÿÕZÿÕZÿÕOZÿÕçZÿÕ|ZÿÕ/ZÿÕÕZÿÕÝZÿÕöZÿÕZÿÕVZÿÕ]ZÿÕLZÿÕZÿÕZÿÕÙZÿÕZÿÕQZÿÕZÿÕCZÿÕÂZÿÕÚZÿÕäZÿÕZÿÕ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *applicationMessageIdentifier; // @synthesize applicationMessageIdentifier=_applicationMessageIdentifier;
-@property(nonatomic) long long dSID; // @synthesize dSID=_dSID;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain, nonatomic) NSMutableArray *eventParameters; // @synthesize eventParameters=_eventParameters;
 @property(readonly, nonatomic) _Bool hasApplicationMessageIdentifier;
-@property(nonatomic) _Bool hasDSID;
-@property(readonly, nonatomic) _Bool hasDeviceID;
 
 @end
 

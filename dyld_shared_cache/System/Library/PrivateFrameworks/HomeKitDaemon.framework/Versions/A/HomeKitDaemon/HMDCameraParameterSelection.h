@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, NSString;
+@class HMDCameraStreamSessionInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraParameterSelection
@@ -16,21 +16,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id)q;
-- (id);
+- (id)PContainerPersister",R,N,V_persister;
 - (id);
 - (id)
 × ;
 - (void)Y¢;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) Class superclass;
 
 @end
 

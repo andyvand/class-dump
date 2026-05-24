@@ -9,23 +9,21 @@
 @interface CKIntervalMap
 {
     _Bool _dirty;
-    CKIntervalMapRangeMapContainer *_rangeMap;
 }
 
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)¬Ì|;
 - (_Bool)empt to get process proxy for %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool dirty; // @synthesize dirty=_dirty;
 @property(readonly, nonatomic) CKIntervalMapRangeMapContainer *rangeMap; // @synthesize rangeMap=_rangeMap;
 
 @end

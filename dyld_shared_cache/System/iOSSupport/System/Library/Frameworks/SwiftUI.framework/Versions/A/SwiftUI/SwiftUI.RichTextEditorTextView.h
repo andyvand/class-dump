@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (_Bool)Kîùÿ;

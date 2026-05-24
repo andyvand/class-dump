@@ -7,8 +7,12 @@
 @class NSString;
 
 @protocol FCFeldsparIDProvider
+- (NSString *)_requestDeviceScoreIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *feldsparID;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@"<FCFeldsparIDProviderObserving>"16
+// Property attributes: @"NSString"16@0:8
+
 @end
 

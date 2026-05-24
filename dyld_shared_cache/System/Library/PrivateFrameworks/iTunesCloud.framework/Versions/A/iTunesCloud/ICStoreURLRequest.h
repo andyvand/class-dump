@@ -6,18 +6,11 @@
 
 #import <iTunesCloud/ICURLRequest.h>
 
-@class ICJSSignConfiguration, ICStoreRequestContext, NSArray, NSDictionary, NSString;
+@class ICStoreRequestContext;
 
 @interface ICStoreURLRequest : ICURLRequest
 {
     _Bool _shouldUseMescalSigning;
-    _Bool _shouldParseBodyData;
-    _Bool _shouldRequireURLBag;
-    long long _anisetteVersion;
-    NSString *_machineDataSyncState;
-    NSDictionary *_additionalHTTPCookies;
-    NSArray *_additionalQueryItems;
-    ICJSSignConfiguration *_JSSignConfiguration;
 }
 
 + (id);
@@ -42,25 +35,17 @@
 - (void);
 - (void);
 - (id);
+- (id)ensity"f"inverseProjectionTransform"{float4x4="columns"[4]}"inverseViewProjectionTransform"{float4x4="columns"[4]}"nearFar""viewportSize""inverseTransposeViewTransform"{float4x4="columns"[4]}"clusterScale"}];
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h";
+- (void)C3DIO_COLLADA_CopyGLSLParameterValue;
 - (void);
-- (void);
-- (id);
-- (void)WithItemIdentifiersInRange: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)copyWithItemIdentifiersInRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) ICJSSignConfiguration *JSSignConfiguration; // @synthesize JSSignConfiguration=_JSSignConfiguration;
-@property(copy, nonatomic) NSDictionary *additionalHTTPCookies; // @synthesize additionalHTTPCookies=_additionalHTTPCookies;
-@property(copy, nonatomic) NSArray *additionalQueryItems; // @synthesize additionalQueryItems=_additionalQueryItems;
-@property(nonatomic) long long anisetteVersion; // @synthesize anisetteVersion=_anisetteVersion;
-@property(copy, nonatomic) NSString *machineDataSyncState; // @synthesize machineDataSyncState=_machineDataSyncState;
-@property(nonatomic) _Bool shouldParseBodyData; // @synthesize shouldParseBodyData=_shouldParseBodyData;
-@property(nonatomic) _Bool shouldRequireURLBag; // @synthesize shouldRequireURLBag=_shouldRequireURLBag;
-@property(nonatomic) _Bool shouldUseMescalSigning; // @synthesize shouldUseMescalSigning=_shouldUseMescalSigning;
 @property(readonly, copy, nonatomic) ICStoreRequestContext *storeRequestContext;
 
 @end

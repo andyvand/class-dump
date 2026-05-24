@@ -6,29 +6,26 @@
 
 #import <IconServices/ISCodableIcon.h>
 
-@class ISGraphicIconConfiguration, ISGraphicSymbolDescriptor, ISImageCache, NSString;
+@class ISImageCache, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISSymbolIcon : ISCodableIcon
 {
     NSString *_symbolName;
-    ISGraphicIconConfiguration *_config;
-    ISGraphicSymbolDescriptor *_graphicSymbolDescriptor;
-    ISImageCache *_imageCache;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id),;
+- (id)NumberOfInter8x8Blocks;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)rSecond;
 - (id);
 - (id);
 - (id);
@@ -36,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ISGraphicIconConfiguration *config; // @synthesize config=_config;
-@property(readonly) ISGraphicSymbolDescriptor *graphicSymbolDescriptor; // @synthesize graphicSymbolDescriptor=_graphicSymbolDescriptor;
 @property(readonly) ISImageCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(readonly) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

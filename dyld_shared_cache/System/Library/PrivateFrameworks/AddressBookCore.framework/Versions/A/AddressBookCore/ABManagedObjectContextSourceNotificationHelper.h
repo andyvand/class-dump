@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSObject;
-@protocol OS_os_log;
+@class NSManagedObjectContext;
 
 @interface ABManagedObjectContextSourceNotificationHelper
 {
     NSManagedObjectContext *_context;
-    NSDictionary *_changes;
-    _Bool _meCardChanged;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);
@@ -37,10 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *changes; // @synthesize changes=_changes;
 @property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) _Bool meCardChanged; // @synthesize meCardChanged=_meCardChanged;
 
 @end
 

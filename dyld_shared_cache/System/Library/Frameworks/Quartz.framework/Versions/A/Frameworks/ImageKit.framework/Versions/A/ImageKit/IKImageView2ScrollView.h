@@ -11,7 +11,7 @@
 
 - (void);
 - (_Bool);
-- (void);
+- (void)_requestingUserDisplayName;
 - (void);
 
 // Remaining properties

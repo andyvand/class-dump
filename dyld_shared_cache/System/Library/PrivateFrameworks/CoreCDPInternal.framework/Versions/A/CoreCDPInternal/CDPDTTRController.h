@@ -11,19 +11,19 @@
     NSDictionary *_cachedTTRConfig;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)WindowFunctionBarProvider;
+- (void)WalletOrderDownloadSuppressionManager;
+- (void)VisualTabPickerWebViewThumbnailView;
+- (id)SeparatorRowItem;
+- (id)SafariNSCollectionView_StartPagePopoverExtras;
+- (void)StartPagePasswordBreachNotificationCollectionViewItemDelegate;
+- (id)StartPageSoftwareUpdateAwarenessItem;
+- (void)SiteMetadataFetcherClient;
+- (void)SegmentedControlWithDynamicWidth;
+- (id)SandboxExtensionStore;
+- (_Bool)SafariSandboxDownloadBundleToken;
+- (void)SafariNSErrorExtras;
+- (id)WindowControlShadowView;
 - (void);
 
 // Remaining properties

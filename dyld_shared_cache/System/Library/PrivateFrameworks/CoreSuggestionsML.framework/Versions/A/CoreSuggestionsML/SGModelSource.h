@@ -9,18 +9,16 @@
 @interface SGModelSource
 {
     PMLSessionDescriptor *_sessionDescriptor;
-    Class _modelClass;
 }
 
-- (void);
+- (void)_TtCC24AppletTranslationLibrary11ExpressModeP33_F6A5673F67A2A086B8B4649671CBFF8210PassConfig;
 - (id);
-- (id);
+- (id);
 - (void);
 - (Class);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) Class modelClass; // @synthesize modelClass=_modelClass;
 @property(retain, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
 
 @end

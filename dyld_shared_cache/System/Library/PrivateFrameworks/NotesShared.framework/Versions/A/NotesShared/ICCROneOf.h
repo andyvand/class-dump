@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRSet, NSMapTable, NSString;
+@class ICCRSet, NSMapTable;
 
 @interface ICCROneOf
 {
     ICCRSet *_set;
-    NSMapTable *_timestamps;
 }
 
+- (id);
+- (id)r from remote object proxy - %@;
+- (void);
+- (void)h8;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -33,15 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICCRSet *set; // @synthesize set=_set;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMapTable *timestamps; // @synthesize timestamps=_timestamps;
 
 @end

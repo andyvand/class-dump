@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineGridDataManager
 {
     id delegate;
-    id magazineGridModelLoader;
 }
 
 @end

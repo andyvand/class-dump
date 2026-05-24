@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray;
+@class NSDictionary;
 
 @interface CRTextDetectorResults
 {
     NSDictionary *_inputOptions;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSArray *_textFeatures;
-    NSArray *_pyramidPreIntraScaleNMSTextFeatures;
-    NSArray *_pyramidPostIntraScaleNMSTextFeatures;
-    NSArray *_pyramidPostInterScaleNMSTextFeatures;
-    NSMutableArray *_pyramidScaleSize;
-    NSMutableArray *_pyramidScaleName;
-    NSArray *_detectedTables;
 }
 
 - (id);
@@ -26,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -37,22 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void)0:8^{CGImage=}16 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *detectedTables; // @synthesize detectedTables=_detectedTables;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
 @property(retain, nonatomic) NSDictionary *inputOptions; // @synthesize inputOptions=_inputOptions;
-@property(retain, nonatomic) NSArray *pyramidPostInterScaleNMSTextFeatures; // @synthesize pyramidPostInterScaleNMSTextFeatures=_pyramidPostInterScaleNMSTextFeatures;
-@property(retain, nonatomic) NSArray *pyramidPostIntraScaleNMSTextFeatures; // @synthesize pyramidPostIntraScaleNMSTextFeatures=_pyramidPostIntraScaleNMSTextFeatures;
-@property(retain, nonatomic) NSArray *pyramidPreIntraScaleNMSTextFeatures; // @synthesize pyramidPreIntraScaleNMSTextFeatures=_pyramidPreIntraScaleNMSTextFeatures;
-@property(retain, nonatomic) NSMutableArray *pyramidScaleName; // @synthesize pyramidScaleName=_pyramidScaleName;
-@property(retain, nonatomic) NSMutableArray *pyramidScaleSize; // @synthesize pyramidScaleSize=_pyramidScaleSize;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSArray *textFeatures; // @synthesize textFeatures=_textFeatures;
 
 @end
 

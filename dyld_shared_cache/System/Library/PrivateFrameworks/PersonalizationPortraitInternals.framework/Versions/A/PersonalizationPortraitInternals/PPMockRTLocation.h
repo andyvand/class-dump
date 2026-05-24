@@ -7,7 +7,6 @@
 @interface PPMockRTLocation
 {
     double _latitude;
-    double _longitude;
 }
 
 - (void);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

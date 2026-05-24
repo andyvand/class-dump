@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id)m:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id)leID;
+- (id)AppBundleID;
 
 @end
 

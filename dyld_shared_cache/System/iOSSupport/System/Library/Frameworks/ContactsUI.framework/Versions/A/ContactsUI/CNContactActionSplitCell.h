@@ -12,25 +12,23 @@ __attribute__((visibility("hidden")))
 @interface CNContactActionSplitCell : CNLabeledCell
 {
     UIButton *_leftLabel;
-    UIButton *_rightLabel;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (void)T;
 - (void);
 - (id);
 - (id);
+- (double)ESA;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)initWithObjectsAndKeys:(long long)arg1;
 - (void)"CNAvatarCardActionsTableView",&,N,V_tableView;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *leftLabel; // @synthesize leftLabel=_leftLabel;
-@property(readonly, nonatomic) UIButton *rightLabel; // @synthesize rightLabel=_rightLabel;
 
 @end
 

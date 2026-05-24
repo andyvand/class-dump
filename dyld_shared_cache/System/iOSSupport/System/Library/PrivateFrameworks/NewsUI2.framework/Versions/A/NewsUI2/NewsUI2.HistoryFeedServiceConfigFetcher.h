@@ -7,8 +7,6 @@
 @interface NewsUI2.HistoryFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
 }
 
 @end

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SXOfferIdentifierProviding
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *offerIdentifier;

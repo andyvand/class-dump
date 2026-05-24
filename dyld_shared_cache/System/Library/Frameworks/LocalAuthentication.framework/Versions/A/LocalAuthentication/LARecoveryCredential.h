@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACSSecurePassword, NSUUID;
+@class LACSSecurePassword;
 
 @interface LARecoveryCredential
 {
     LACSSecurePassword *password;
-    id properties;
 }
 
 + (id);
@@ -20,15 +19,14 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id),C-;
+- (void);
+- (id)qL;
+- (id)LatencyDiagnosticReport;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) LACSSecurePassword *password; // @synthesize password;
-@property(nonatomic, readonly) NSUUID *uuid;
 
 @end
 

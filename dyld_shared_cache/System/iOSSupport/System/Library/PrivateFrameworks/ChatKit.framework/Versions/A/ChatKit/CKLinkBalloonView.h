@@ -6,32 +6,28 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class ChatKit.CKBalloonLayer, ChatKit.CKBalloonMaskLayer, LPLinkView, NSString;
+@class ChatKit.CKBalloonMaskLayer;
 
 @interface CKLinkBalloonView : CKImageBalloonView
 {
     _Bool _isIrisAsset;
-    LPLinkView *_linkView;
-    ChatKit.CKBalloonMaskLayer *_linkViewMaskLayer;
-    ChatKit.CKBalloonLayer *_linkViewBackgroundLayer;
-    ChatKit.CKBalloonLayer *_linkOverlayBalloonLayer;
 }
 
-+ (_Bool);
-- (void);
-- (struct CGSize);
++ (_Bool);
+- (void)ic_enumerateContentLineRangesInRange:usingBlock: /* Error: Ran out of types for this method. */;
+- (struct CGSize)addInlineAttachmentsObject:(struct CGSize)arg1;
+- (_Bool)_readOnlySharedSubObjectsInSource;
+- (void)V_name;
+- (void)tonTitle;
+- (void)&,N,V_mediaFilenameExtension;
+- (id);
+- (id)So7NSImageC;
+- (struct CKBalloonDescriptor_t);
+- (id)So25ICActivityStreamSelectionCSg;
+- (id)Sg;
+- (struct CKBalloonDescriptor_t);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (_Bool);
-- (struct CKBalloonDescriptor_t);
+- (struct CKBalloonDescriptor_t)STemporaryDirectory):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -40,22 +36,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2@40;
 - (id);
 - (void)°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *linkOverlayBalloonLayer; // @synthesize linkOverlayBalloonLayer=_linkOverlayBalloonLayer;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *linkViewBackgroundLayer; // @synthesize linkViewBackgroundLayer=_linkViewBackgroundLayer;
 @property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *linkViewMaskLayer; // @synthesize linkViewMaskLayer=_linkViewMaskLayer;
-@property(readonly) Class superclass;
 
 @end
 

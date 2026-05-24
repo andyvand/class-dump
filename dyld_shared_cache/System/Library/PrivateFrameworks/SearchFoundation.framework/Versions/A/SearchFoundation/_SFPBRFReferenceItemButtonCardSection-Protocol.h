@@ -7,9 +7,10 @@
 @class NSData, _SFPBButtonItem;
 
 @protocol _SFPBRFReferenceItemButtonCardSection
+- (void)_;
+- (NSData *)addVideoResult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBButtonItem *button_1;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

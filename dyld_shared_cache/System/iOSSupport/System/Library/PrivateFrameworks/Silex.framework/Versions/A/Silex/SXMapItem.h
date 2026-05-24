@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-
 @interface SXMapItem : SXJSONObject
 {
 }
@@ -15,7 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @dynamic coordinate;
-@property(readonly, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, nonatomic) long long type; // @dynamic type;
 @end
 

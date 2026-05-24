@@ -15,7 +15,7 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)sDatabase not migrating, too many attempts (%d);
 
 // Remaining properties
 @property(retain, nonatomic) TLKKeyValueView *contentView; // @dynamic contentView;

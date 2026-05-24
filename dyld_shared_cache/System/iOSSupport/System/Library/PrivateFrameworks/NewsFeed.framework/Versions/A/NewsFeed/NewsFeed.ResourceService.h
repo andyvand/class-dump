@@ -7,7 +7,6 @@
 @interface NewsFeed.ResourceService
 {
     id context;
-    id $__lazy_storage_$_ignoreCache;
 }
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol UIContextMenuInteractionCommitAnimating
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long preferredCommitStyle;

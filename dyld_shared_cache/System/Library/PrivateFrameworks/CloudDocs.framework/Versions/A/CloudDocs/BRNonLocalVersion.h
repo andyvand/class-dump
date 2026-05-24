@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSPermanentStorage, NSDate, NSPersonNameComponents, NSString, NSURL;
-@protocol NSCopying><NSSecureCoding;
+@class NSURL;
 
 @interface BRNonLocalVersion
 {
     NSURL *_url;
-    NSString *_displayName;
-    NSString *_etag;
-    unsigned long long _size;
-    NSDate *_modificationDate;
-    NSString *_lastEditorDeviceName;
-    NSPersonNameComponents *_lastEditorNameComponents;
-    _Bool _hasThumbnail;
-    GSPermanentStorage *_versionsStore;
-    long long _sandboxHandle;
-    NSURL *_physicalURL;
 }
 
 + (id);
@@ -31,27 +20,17 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)rVersion;
+- (id)iconGeneratorVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *etag; // @synthesize etag=_etag;
 @property(nonatomic) _Bool hasThumbnail; // @synthesize hasThumbnail=_hasThumbnail;
-@property(readonly, nonatomic) _Bool isLatestVersion;
-@property(readonly, nonatomic) NSString *lastEditorDeviceName; // @synthesize lastEditorDeviceName=_lastEditorDeviceName;
-@property(readonly, nonatomic) NSString *lastEditorFormattedName;
-@property(readonly, nonatomic) NSPersonNameComponents *lastEditorNameComponents; // @synthesize lastEditorNameComponents=_lastEditorNameComponents;
-@property(readonly, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly, nonatomic) id <NSCopying><NSSecureCoding> persistentIdentifier;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

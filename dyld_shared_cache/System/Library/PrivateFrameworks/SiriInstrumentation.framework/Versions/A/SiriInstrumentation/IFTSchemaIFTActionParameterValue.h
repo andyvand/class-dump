@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTActionParameterValue : SISchemaInstrumentationMessage
 {
     _Bool _confirmed;
-    long long _selectedInDisambiguation;
-    _Bool _denied;
-    _Bool _hasConfirmed;
-    _Bool _hasSelectedInDisambiguation;
-    _Bool _hasDenied;
-    unsigned long long _whichOneof_Promptselection;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)w;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -32,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (unsigned long long);
@@ -40,20 +32,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)rror">24;
 - (id);
-- (id);
-- (id)leWithAllowedType:(id)arg1;
+- (id)setHasHasHandleWithAllowedType:(id)arg1;
 - (id)Ø¸;
 
 // Remaining properties
 @property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(nonatomic) _Bool denied; // @synthesize denied=_denied;
-@property(nonatomic) _Bool hasConfirmed; // @synthesize hasConfirmed=_hasConfirmed;
-@property(nonatomic) _Bool hasDenied; // @synthesize hasDenied=_hasDenied;
-@property(nonatomic) _Bool hasSelectedInDisambiguation; // @synthesize hasSelectedInDisambiguation=_hasSelectedInDisambiguation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long selectedInDisambiguation; // @synthesize selectedInDisambiguation=_selectedInDisambiguation;
-@property(readonly, nonatomic) unsigned long long whichOneof_Promptselection; // @synthesize whichOneof_Promptselection=_whichOneof_Promptselection;
 
 @end
 

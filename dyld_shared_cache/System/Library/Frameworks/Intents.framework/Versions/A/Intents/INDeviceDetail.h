@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, INSpeakableString, NSString;
+@class NSString;
 
 @interface INDeviceDetail
 {
     NSString *_identifier;
-    INSpeakableString *_deviceName;
-    long long _deviceClass;
-    INSpeakableString *_productName;
-    INSpeakableString *_category;
-    INPerson *_deviceOwner;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)&,N,V_selectedProfile;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__privateMACEvaluationCompletedWithState:(id)arg1 knownNetwork:interfaceName: /* Error: Ran out of types for this method. */;
+- (void)721a4da-d474-11eb-a8c1-f45c89abb0d9;
 - (id);
 - (id);
 - (void);
@@ -32,26 +27,14 @@
 - (id);
 - (long long);
 - (id);
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (id)t;
-- (id)reSubProducerOne:subProducerTwo: /* Error: Ran out of types for this method. */;
-- (void)ectionForSearchCallHistory:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)handleRequestRide:completion: /* Error: Ran out of types for this method. */;
+- (id)_requiresAppLaunchPreflight;
+- (id)_compareSubProducerOne:subProducerTwo: /* Error: Ran out of types for this method. */;
+- (void)provideRecipientOptionsCollectionForSearchCallHistory:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)H±ÿ#.Nn;
 
 // Remaining properties
-@property(readonly, copy) INSpeakableString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, copy) INSpeakableString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, copy) INPerson *deviceOwner; // @synthesize deviceOwner=_deviceOwner;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) INSpeakableString *productName; // @synthesize productName=_productName;
-@property(readonly) Class superclass;
 
 @end
 

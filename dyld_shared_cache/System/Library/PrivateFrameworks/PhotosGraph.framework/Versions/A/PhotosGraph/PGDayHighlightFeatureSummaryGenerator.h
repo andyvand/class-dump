@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraph, PGGraphHighlightNode, PGHighlightTailorContext;
-@protocol OS_os_log;
+@class PGGraphHighlightNode;
 
 @interface PGDayHighlightFeatureSummaryGenerator
 {
     PGGraphHighlightNode *_highlightNode;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGHighlightTailorContext *_highlightTailorContext;
-    PGGraph *_graph;
 }
 
+- (id)stringByTrimmingCharactersInSet:(id)arg1;
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (double);
+- (double)2;
 - (void)itleFormatWithNumberOfYears %lu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,19 +14,20 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)D;
 + (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)�
+;
+- (void);
 - (_Bool);
 - (double);
 - (double);
 - (double);
 - (void);
 - (void *);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)mit:(id)arg1 wrappingDatabase:convenienceConfiguration:) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -34,10 +35,6 @@
 
 // Remaining properties
 @property(retain) CASDFEffect *effect;
-@property double effectOffset;
-@property double gaussianRadius;
-@property _Bool mergeElements;
-@property double smoothness;
 
 @end
 

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange;
 
 @interface INWellnessObjectResultValue
 {
     INDateComponentsRange *_recordDate;
-    NSString *_unit;
-    NSArray *_values;
-    long long _resultType;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)GCDeviceAdaptiveTriggersStatusPayload"16@0:(id)arg1 8;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setTLSCertificateRequired:(id)arg1;
+- (void)notification patterns/keys;
 - (id);
 - (id);
 - (id);
-- (long long)onfidence: /* Error: Ran out of types for this method. */;
+- (long long)initWithSharedUserID:speakerIDConfidence: /* Error: Ran out of types for this method. */;
 - (id)oom:(unsigned long long)arg1 home:group:zones: /* Error: Ran out of types for this method. */;
 - (void)INAppendToNoteIntentResponseCodeFailureRequiringAppLaunch;
 - (id)ïÿ;
 
 // Remaining properties
 @property(readonly, copy) INDateComponentsRange *recordDate; // @synthesize recordDate=_recordDate;
-@property(readonly) long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, copy) NSString *unit; // @synthesize unit=_unit;
-@property(readonly, copy) NSArray *values; // @synthesize values=_values;
 
 @end
 

@@ -7,15 +7,11 @@
 @interface HAPBTLETuple
 {
     int _maxHAPConnections;
-    float _minBandwidth;
-    float _maxBandwidth;
-    unsigned long long _atvState;
-    struct BTStatus _state;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 + (id);
@@ -28,15 +24,11 @@
 - (float);
 - (float);
 - (id);
-- (void);
+- (void);
 - (struct BTStatus);
 
 // Remaining properties
 @property(nonatomic) unsigned long long atvState; // @synthesize atvState=_atvState;
-@property(nonatomic) float maxBandwidth; // @synthesize maxBandwidth=_maxBandwidth;
-@property(nonatomic) int maxHAPConnections; // @synthesize maxHAPConnections=_maxHAPConnections;
-@property(nonatomic) float minBandwidth; // @synthesize minBandwidth=_minBandwidth;
-@property(nonatomic) struct BTStatus state; // @synthesize state=_state;
 
 @end
 

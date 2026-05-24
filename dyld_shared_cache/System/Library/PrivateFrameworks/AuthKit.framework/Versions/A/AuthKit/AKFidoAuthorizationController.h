@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKFidoContext, ASAuthorizationController, NSString;
 @protocol AKFidoUIProvider;
 
 @interface AKFidoAuthorizationController
 {
     id <AKFidoUIProvider> _uiProvider;
-    CDUnknownBlockType _registrationCompletion;
-    CDUnknownBlockType _authCompletion;
-    ASAuthorizationController *__authController;
-    AKFidoContext *_context;
 }
 
 + (_Bool);
@@ -24,13 +19,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id) ;
 - (id);
 - (void);
 - (void)ìö÷;
@@ -38,18 +33,7 @@
 - (id) 4nD§Ø£¯ß'$Ã¶éd'HÒÀ-0O%{ùö¾¢ºõÚEr§óìq<M°5	BÚ©¿¥òÑJAApü¦i!XFµÆp>@"ÃöÅëçkã¬ÝóËÔ(xuðPawaC×I;"túÒâCøõÐs;
 
 // Remaining properties
-@property(retain, nonatomic) ASAuthorizationController *_authController; // @synthesize _authController=__authController;
-@property(copy, nonatomic) CDUnknownBlockType authCompletion; // @synthesize authCompletion=_authCompletion;
-@property(retain, nonatomic) AKFidoContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType registrationCompletion; // @synthesize registrationCompletion=_registrationCompletion;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <AKFidoUIProvider> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

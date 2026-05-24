@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-@protocol PXMenuAction;
+@class NSString;
 
 @protocol PXMenuAction
+- (_Bool);
 - (NSString *)HG9¥GQo_0¥yú©¥y$¦yx=­­óf;
 - (unsigned long long)haredLibraryReplyAssistantReviewViewController initWithNibName:bundle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXMenuAction> alternateAction;
-@property(readonly, nonatomic) CDUnknownBlockType customMenuElementFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R,N
-
-@property(readonly, copy, nonatomic) NSImage *image;
-@property(readonly, nonatomic) unsigned long long role;
-@property(readonly, nonatomic) long long state;
-@property(readonly, copy, nonatomic) NSString *systemImageName;
 @property(readonly, copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool wantsDisclosureButton;
 @end
 

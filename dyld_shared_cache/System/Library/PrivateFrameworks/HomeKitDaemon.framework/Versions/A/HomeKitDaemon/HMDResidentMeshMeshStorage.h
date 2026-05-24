@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDResidentDevice, HMDResidentMesh, NSDictionary;
+@class HMDResidentMesh;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentMeshMeshStorage
 {
     _Bool _enabled;
-    HMDResidentMesh *_owner;
-    HMDResidentDevice *_residentDevice;
-    NSDictionary *_metrics;
-    unsigned long long _generationCount;
-    unsigned long long _nestedStatusRequests;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_fetchSharedTripsWithCompletion:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -30,16 +25,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)y state is unexpectedly unknown for this state. Event:(id)arg1 %@;
 - (_Bool)ions for camera:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)MDRVCCleanModeCurrentModeModeTagsMessageKey;
-- (void);
+- (unsigned long long)HMDRVCCleanModeCurrentModeModeTagsMessageKey;
+- (void)targetSupportsIDSPresence;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) unsigned long long generationCount; // @synthesize generationCount=_generationCount;
-@property(copy, nonatomic) NSDictionary *metrics; // @synthesize metrics=_metrics;
-@property(nonatomic) unsigned long long nestedStatusRequests; // @synthesize nestedStatusRequests=_nestedStatusRequests;
 @property(nonatomic) __weak HMDResidentMesh *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) HMDResidentDevice *residentDevice; // @synthesize residentDevice=_residentDevice;
 
 @end
 

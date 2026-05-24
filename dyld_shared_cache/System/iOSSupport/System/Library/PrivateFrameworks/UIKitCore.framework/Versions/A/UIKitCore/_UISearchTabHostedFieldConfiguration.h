@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAction, UIView;
-@protocol _UIAssertion, _UISearchTabHostedFieldHost;
+@protocol _UIAssertion;
 
 @interface _UISearchTabHostedFieldConfiguration
 {
     _Bool _showsCancelAction;
-    _Bool _automaticallyActivatesSearch;
-    UIView *_searchBarView;
-    UIAction *_cancelAction;
-    id <_UIAssertion> __borrowedAssertion;
-    id <_UISearchTabHostedFieldHost> __searchFieldHost;
-    NSString *_searchIconMatchedViewIdentifier;
 }
 
 - (_Bool);
 - (void);
+- (void)A;
 - (void);
 - (void);
-- (void);
+- (id)_suspendVideo: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)retrieveLocalFileURLForFileTransferWithGUIDs:options:completion: /* Error: Ran out of types for this method. */;
+- (void)_callerIDForRelayAccountID:(id)arg1;
+- (id)IDSDeviceSupportsIncomingSMSRelayFilteringForDeviceType: /* Error: Ran out of types for this method. */;
+- (id)e guid %@ ;
+- (id)e. FileTransferGuid:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIAssertion> _borrowedAssertion; // @synthesize _borrowedAssertion=__borrowedAssertion;
-@property(nonatomic, setter=_setSearchFieldHost:) __weak id <_UISearchTabHostedFieldHost> _searchFieldHost; // @synthesize _searchFieldHost=__searchFieldHost;
-@property(nonatomic) _Bool automaticallyActivatesSearch; // @synthesize automaticallyActivatesSearch=_automaticallyActivatesSearch;
-@property(readonly, nonatomic) UIAction *cancelAction; // @synthesize cancelAction=_cancelAction;
-@property(readonly, nonatomic) UIView *searchBarView; // @synthesize searchBarView=_searchBarView;
-@property(copy, nonatomic) NSString *searchIconMatchedViewIdentifier; // @synthesize searchIconMatchedViewIdentifier=_searchIconMatchedViewIdentifier;
-@property(nonatomic) _Bool showsCancelAction; // @synthesize showsCancelAction=_showsCancelAction;
 
 @end
 

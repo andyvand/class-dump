@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface IDSSignInServiceUserStatus
 {
     unsigned long long _serviceType;
-    NSArray *_serviceUserInfos;
 }
 
 - (id);
@@ -17,15 +14,12 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long appleIDUserStatus;
-@property(readonly, nonatomic) unsigned long long phoneUserStatus;
 @property(readonly, nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, nonatomic) NSArray *serviceUserInfos; // @synthesize serviceUserInfos=_serviceUserInfos;
 
 @end
 

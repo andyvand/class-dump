@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface MAPath
 {
     NSMutableArray *_edges;
-    NSMutableSet *_nodes;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -32,7 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0L
+;
 - (_Bool);
 - (id);
 - (id);

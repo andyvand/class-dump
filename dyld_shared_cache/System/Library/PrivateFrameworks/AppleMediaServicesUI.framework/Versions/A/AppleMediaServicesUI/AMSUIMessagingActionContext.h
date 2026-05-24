@@ -7,13 +7,11 @@
 @interface AMSUIMessagingActionContext
 {
     id bag;
-    id account;
-    id clientInfo;
 }
 
 - (id);
 - (id);
-- (void)dowRequest:purchaseQueue:error: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleWindowRequest:purchaseQueue:error: /* Error: Ran out of types for this method. */;
 
 @end
 

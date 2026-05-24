@@ -6,21 +6,17 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXFormattedText;
+@class NSString;
 
 @interface SXScalableImageComponent : SXComponent
 {
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
-@property(readonly, nonatomic) SXFormattedText *captionComponent; // @dynamic captionComponent;
 @property(readonly, nonatomic) NSString *imageIdentifier; // @dynamic imageIdentifier;
-@property(readonly, nonatomic) _Bool userControllable; // @dynamic userControllable;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NTPBCKResponseOperationResultErrorServer
 {
     int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
@@ -15,18 +14,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)liveActivityScheduleRetryCountMax;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool)!Bù±_	ð1Â0@ù
 × ;
-- (void)getUserId;
+- (void)widgetUserId;
 
 // Remaining properties
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

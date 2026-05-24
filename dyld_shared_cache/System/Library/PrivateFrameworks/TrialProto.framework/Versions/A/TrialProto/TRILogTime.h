@@ -7,45 +7,33 @@
 @interface TRILogTime
 {
     unsigned long long _secondsSince1970;
-    int _minutesDstOffset;
-    int _secondsFromUtc;
-    struct {
-        unsigned int secondsSince1970:1;
-        unsigned int minutesDstOffset:1;
-        unsigned int secondsFromUtc:1;
-    } _has;
 }
 
 + (id);
-- (int);
+- (int)didSubmitFormOfType:withFieldType:elementType:isAutoFilled:isManuallyFilledByUser:modificationType:autoFillOfferedType:webpageLocale: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (int);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)age sharing suggestion:(id)arg1 found several matching suggestions matching NLP Date Range - returning the most recent one %@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)T@"NSString",C,N,V_artistName;
+- (void)�c	;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)';
+- (id)P;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMinutesDstOffset;
-@property(nonatomic) _Bool hasSecondsFromUtc;
 @property(nonatomic) _Bool hasSecondsSince1970;
-@property(nonatomic) int minutesDstOffset; // @synthesize minutesDstOffset=_minutesDstOffset;
-@property(nonatomic) int secondsFromUtc; // @synthesize secondsFromUtc=_secondsFromUtc;
-@property(nonatomic) unsigned long long secondsSince1970; // @synthesize secondsSince1970=_secondsSince1970;
 
 @end
 

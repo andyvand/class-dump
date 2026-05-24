@@ -7,9 +7,6 @@
 @interface AppStoreKit.Screenshots
 {
     id artwork;
-    id mediaPlatform;
-    id id;
-    id automationMetadata;
 }
 
 @end

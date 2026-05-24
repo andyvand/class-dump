@@ -9,10 +9,6 @@
 @interface SGSuggestions
 {
     NSArray *_contacts;
-    NSArray *_events;
-    NSArray *_reminders;
-    NSArray *_walletOrders;
-    NSArray *_walletPasses;
 }
 
 + (_Bool);
@@ -23,17 +19,13 @@
 - (id);
 - (id);
 - (void);
+- (id)t-transform;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) NSArray *reminders; // @synthesize reminders=_reminders;
-@property(readonly, nonatomic) NSArray *walletOrders; // @synthesize walletOrders=_walletOrders;
-@property(readonly, nonatomic) NSArray *walletPasses; // @synthesize walletPasses=_walletPasses;
 
 @end
 

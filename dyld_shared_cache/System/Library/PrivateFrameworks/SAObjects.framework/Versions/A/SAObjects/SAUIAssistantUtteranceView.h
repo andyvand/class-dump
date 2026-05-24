@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAUIAssistantUtteranceView : SAAceView
 {
@@ -17,10 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialogCategory;
-@property(copy, nonatomic) NSString *dialogIdentifier;
-@property(copy, nonatomic) NSNumber *postDialogDelayInMilliseconds;
-@property(copy, nonatomic) NSString *redactedText;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

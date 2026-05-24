@@ -6,51 +6,35 @@
 
 #import <FinderKit/FI_TBaseCollectionViewController.h>
 
-@class FI_TBrowserImmediateActionGestureRecognizerDelegate, NSImmediateActionGestureRecognizer, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TIconOrGalleryCollectionViewController : FI_TBaseCollectionViewController
 {
     _Bool _doubleClickOnMouseUp;
-    _Bool _startEditingOnMouseUp;
-    struct CGPoint _initialClickAt;
-    struct TNotificationCenterObserver _clipViewBoundsDidChangeObserver;
-    struct TFENode _nodeClickedOnMouseDown;
-    FI_TBrowserImmediateActionGestureRecognizerDelegate *_immediateActionGestureRecognizerDelegate;
-    NSImmediateActionGestureRecognizer *_quickLookImmediateActionGestureRecognizer;
-    NSImmediateActionGestureRecognizer *_renameImmediateActionGestureRecognizer;
-    _Bool _immediateActionGestureRecognizerDidRecognize;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ka;
 - (_Bool);
 - (void);
 - (void);
 - (struct TFENode);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (const struct TFENode *);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

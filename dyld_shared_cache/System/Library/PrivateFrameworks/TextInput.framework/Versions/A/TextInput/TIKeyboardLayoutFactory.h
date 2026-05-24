@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface TIKeyboardLayoutFactory
 {
     void *_layoutsLibraryHandle;
-    NSMutableDictionary *_internalCache;
 }
 
 + (id);
@@ -24,7 +21,6 @@
 ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *internalCache; // @synthesize internalCache=_internalCache;
 @property(readonly, nonatomic) void *layoutsLibraryHandle; // @synthesize layoutsLibraryHandle=_layoutsLibraryHandle;
 
 @end

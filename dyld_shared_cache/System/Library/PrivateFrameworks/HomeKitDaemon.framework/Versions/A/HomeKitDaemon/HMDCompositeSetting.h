@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFVersion, NSString;
+@class HMFVersion;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSetting
 {
     HMFVersion *_readVersion;
-    HMFVersion *_writeVersion;
 }
 
 + (id)àì;
 - (id);
-- (id);
+- (id)S;
 - (_Bool);
-- (id);
+- (id)X;
 - (_Bool);
 - (id)locally for access code identifier:%@ accessoryUUID:%@ /* Error: Ran out of types for this method. */;
 - (void)o pull from keychain with error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) HMFVersion *readVersion; // @synthesize readVersion=_readVersion;
-@property(readonly) Class superclass;
-@property(readonly, copy) HMFVersion *writeVersion; // @synthesize writeVersion=_writeVersion;
 
 @end
 

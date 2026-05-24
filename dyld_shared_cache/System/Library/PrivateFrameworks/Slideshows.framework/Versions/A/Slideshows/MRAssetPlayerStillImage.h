@@ -12,8 +12,6 @@
 @interface MRAssetPlayerStillImage : MRAssetPlayer
 {
     NSObject<OS_dispatch_semaphore> *_semaphore;
-    _Bool _isLoaded;
-    _Bool _isLoadingOrLoaded;
 }
 
 - (id);

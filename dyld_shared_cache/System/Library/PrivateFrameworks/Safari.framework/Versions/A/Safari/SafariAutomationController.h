@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, WKPreferences, _WKAutomationSession;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface SafariAutomationController
 {
     NSMutableSet *_extensionsToBeRemoved;
-    _Bool _userInteractionAllowed;
-    _WKAutomationSession *_automationSession;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -52,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)oQ@;
 - (void);
 - (void);
 - (id);
@@ -60,16 +58,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool allowsRemoteAutomation;
-@property(readonly, nonatomic) _WKAutomationSession *automationSession; // @synthesize automationSession=_automationSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) WKPreferences *preferencesForAutomation;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInteractionAllowed; // @synthesize userInteractionAllowed=_userInteractionAllowed;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePeriodicReader
 {
     NSString *_timerID;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)g]ÿ;
-- (void);
+- (void)b/swift/libswiftIntents.dylib;
 - (void);
 - (void);
 - (void);
@@ -30,23 +27,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)0;
 - (id)0@ù
 × ;
 - (void)B24;
 - (void)è]?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *timerID; // @synthesize timerID=_timerID;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

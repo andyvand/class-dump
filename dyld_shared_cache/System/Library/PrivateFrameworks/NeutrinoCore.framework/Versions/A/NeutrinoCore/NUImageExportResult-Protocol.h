@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @protocol NUImageExportResult
 
 // Remaining properties
-@property(readonly) NSData *destinationData;
 @property(readonly) NSURL *destinationURL;
 @end
 

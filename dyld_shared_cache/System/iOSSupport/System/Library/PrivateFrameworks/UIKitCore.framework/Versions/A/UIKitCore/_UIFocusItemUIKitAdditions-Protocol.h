@@ -5,6 +5,8 @@
 //
 
 @protocol _UIFocusItemUIKitAdditions
+- (_Bool)_processesNetworkEvents;
+- (long long)moveMessageRecordsToRecoveryForChatRecordsWithGUIDs:deleteDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isFocusDirectionFlippedHorizontally) _Bool focusDirectionFlippedHorizontally;

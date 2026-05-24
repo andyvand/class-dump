@@ -7,12 +7,11 @@
 @class NSArray;
 
 @protocol INStopShareETAIntentResponseExport
-- (long long)bled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay: /* Error: Ran out of types for this method. */;
-- (NSArray *)conditionType;
+- (void)c;
+- (long long)initWithAppSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay: /* Error: Ran out of types for this method. */;
+- (NSArray *)_conditionType;
 
 // Remaining properties
 @property(readonly) long long code;
-@property unsigned long long mediums;
-@property(copy) NSArray *recipients;
 @end
 

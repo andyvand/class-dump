@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDDeviceAddress, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinNotificationRegistrationSource
 {
     NSUUID *_userUUID;
-    HMDDeviceAddress *_deviceAddress;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool)Å:@	© /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)A@9;
 - (id);
 - (void);
 - (id);
-- (id)spatcher:(struct _NSZone *)arg1;
+- (id)executorWithCommand:(struct _NSZone *)arg1 workQueue:messageDispatcher: /* Error: Ran out of types for this method. */;
 - (id)gure stream request;
 - (id)@ to operation:(id)arg1 %@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void)¨;
 
 // Remaining properties
-@property(readonly, copy) HMDDevice *device;
-@property(readonly, copy) HMDDeviceAddress *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
 @property(readonly, copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end

@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PIModelCatalog
 {
     void _cleanupModelBundleURLString;
-    void _metadataVersionInfo;
 }
 
-+ (id)me:responseQueue: /* Error: Ran out of types for this method. */;
++ (id)initWithName:responseQueue: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id)>;
 - (id);
 - (id);
 - (id);
@@ -23,18 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)l;
+- (void)inputRefinementModel;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *_cleanupModelBundleURLString;
-@property(nonatomic, copy) NSDictionary *_metadataVersionInfo;
 @property(nonatomic, readonly) NSString *cleanupVersion;
-@property(nonatomic, readonly) NSString *inpaintModelVersion;
-@property(nonatomic, readonly) NSString *refinementModelVersion;
-@property(nonatomic, readonly) NSString *segmentationModelVersion;
 
 @end
 

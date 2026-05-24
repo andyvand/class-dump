@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_nw_content_context, OS_nw_error;
+@class NSObject;
+@protocol OS_dispatch_data;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_flow_final_read
 {
     NSObject<OS_dispatch_data> *content;
-    NSObject<OS_nw_content_context> *content_context;
-    _Bool receive_single_message;
-    _Bool is_complete;
-    NSObject<OS_nw_error> *error;
 }
 
-- (void);
+- (void)ionsAtIndex: /* Error: Ran out of types for this method. */;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

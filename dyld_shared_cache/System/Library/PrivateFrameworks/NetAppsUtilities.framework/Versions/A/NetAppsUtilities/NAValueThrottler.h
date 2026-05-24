@@ -5,15 +5,10 @@
 //
 
 @class NSMutableSet;
-@protocol NACancelable, NAScheduler;
 
 @interface NAValueThrottler
 {
     double _throttleInterval;
-    id <NAScheduler> _updateScheduler;
-    id _value;
-    NSMutableSet *_observerBlocks;
-    id <NACancelable> _valueUpdateCancelationToken;
 }
 
 - (void);
@@ -25,10 +20,10 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)K;
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)$;
+- (double)== NSTAT_PROVIDER_UDP_USERLAND) || (provider == NSTAT_PROVIDER_QUIC_USERLAND) || (provider == NSTAT_PROVIDER_CONN_USERLAND) || (provider == NSTAT_PROVIDER_UDP_SUBFLOW);
 - (void);
 - (void);
 - (id);
@@ -37,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPendingValueChange;
 @property(readonly, nonatomic) NSMutableSet *observerBlocks; // @synthesize observerBlocks=_observerBlocks;
-@property(readonly, nonatomic) double throttleInterval; // @synthesize throttleInterval=_throttleInterval;
-@property(retain, nonatomic) id <NAScheduler> updateScheduler; // @synthesize updateScheduler=_updateScheduler;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
-@property(retain, nonatomic) id <NACancelable> valueUpdateCancelationToken; // @synthesize valueUpdateCancelationToken=_valueUpdateCancelationToken;
 
 @end
 

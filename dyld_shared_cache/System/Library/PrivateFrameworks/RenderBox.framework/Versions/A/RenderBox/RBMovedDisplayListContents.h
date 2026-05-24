@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RBMovedDisplayListContents
 {
     struct refcounted_ptr<RB::DisplayList::Contents> _contents;
-    struct unique_ptr<RB::XML::Document, std::default_delete<RB::XML::Document>> _xml_document;
 }
 
 + (id);
@@ -20,29 +17,17 @@ __attribute__((visibility("hidden")))
 - (float);
 - (const void *);
 - (const void *);
-- (struct CGRect);
+- (struct CGRect)t scanning with data:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void)ÔÁû °!Dù±$ð1Â0@ù
 × ;
-- (id)etionQueue:handler: /* Error: Ran out of types for this method. */;
+- (id)copyImageInRect:options:completionQueue:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) const void *_rb_contents;
-@property(readonly, nonatomic) const void *_rb_xml_document;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 
 @end
 

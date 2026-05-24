@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id feedItemSupplementaryRenderer;
 }
 
 @end

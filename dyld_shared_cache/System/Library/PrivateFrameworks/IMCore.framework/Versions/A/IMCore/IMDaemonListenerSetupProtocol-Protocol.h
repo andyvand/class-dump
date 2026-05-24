@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonListenerSetupProtocol
+- (void)H;
 @end
 

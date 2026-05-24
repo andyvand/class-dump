@@ -4,67 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, NSString, PCCEndpoint;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class PCCEndpoint;
 
 @interface PCCProxyingDevice
 {
     PCCEndpoint *_endpoint;
-    NSDate *_lastTouch;
-    NSObject<OS_dispatch_queue> *_request_queue;
-    NSMutableDictionary *_reqById;
-    NSMutableDictionary *_reqByTracker;
-    NSObject<OS_dispatch_source> *_expiryTimer;
-    NSObject<OS_os_transaction> *_txn;
-    NSMutableDictionary *_sync_summary;
-    NSMutableDictionary *_tasking_summary;
-    int file_count;
-    int msg_count;
-    int up_count;
-    int request_count;
-    int expire_count;
-    NSObject<OS_dispatch_queue> *_sync_proxy_queue;
-    double _requestTimeout;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)%?{end}=%1.64@;
+- (void)[%{ptr}] Created PWD key exchange sender session [%{ptr}]
+;
+- (void)tatus apsession_performPWDKeyExchange(APSenderSessionRef);
+- (void)nt.
+;
+- (void)ureInfoFetched(APSenderSessionRef, Boolean, CFDictionaryRef);
+- (void)}] Stage 2 %s%?{end}, error:(id)arg1 %#m
+;
+- (void)[%{ptr}] AirPlay session started on endpoint %@.
+;
+- (void)h error %#m - continuing without protection
+;
+- (void)] PWD key exchange failed with error %#m - continuing without protection
+;
+- (void)protectionBits;
+- (void)ot able to get `RemoteNetworkPort` from streamConnectedInfo (err=%m)
+;
+- (_Bool)TransportEventStream(APSenderSessionRef, FigTransportStreamRef);
+- (void)apsession_createTransportEventStream;
+- (void)apsession_ensureEventStreamCreated;
+- (void)rkClock(APSenderSessionRef);
+- (void)apsession_addPeerToNetworkClock;
+- (void)rk/Contents/MacOS/CrashReporterSupport;
+- (void)CRIsAutoSubmitEnabled;
+- (void)nding UGL-RCServer Info in session Setup request; port %@;
+- (void)fadeDurationSecs;
+- (void)groupUUID;
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)y.c;
 - (id);
 - (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property double requestTimeout; // @synthesize requestTimeout=_requestTimeout;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIInterfaceActionConcreteVisualStyle.h>
 
-@class NSString, UITraitCollection;
+@class UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionConcreteVisualStyle_iOS : UIInterfaceActionConcreteVisualStyle
@@ -15,36 +15,29 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)KRecord with GUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)MDHandle:%@ from IMDHandleRegistry /* Error: Ran out of types for this method. */;
+- (id)chCount [%@] and deviceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
+- (id)wid:(id)arg1 %lld, marking as failed to sync ***;
+- (id)ld, marking as synced ***;
+- (id)ileTransfer from IMDAttachmentRecordRef rowid:(id)arg1 %lld, marking as synced ***;
+- (double)mdh;
 - (id);
 - (double);
 - (id);
-- (double);
-- (id);
-- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)LL-SHA;
 - (void)*NÚdtg;
 - (id)àh;
 - (id)+Uì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end

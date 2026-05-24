@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SIRISETUPSchemaSIRISETUPCoreFollowUpPosted : SISchemaInstrumentationMessage
 {
     NSString *_actionURL;
-    _Bool _hasActionURL;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)eceived progress:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)oid);
+- (_Bool)at_message_join.chat_id  ;
 - (id);
-- (_Bool);
+- (_Bool)7;
 - (id);
-- (id)eses;
+- (id)clearQueryRewriteHypotheses;
 - (id)rison;
 - (id)t),;
-- (void)NCEFORCEPROMPTTYPE_UNKNOWN;
-- (void)EATURETAG_SEARCH_ACT;
+- (void)INFERENCEFORCEPROMPTTYPE_UNKNOWN;
+- (void)PNROD_REQUESTFEATURETAG_SEARCH_ACT;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionURL; // @synthesize actionURL=_actionURL;
-@property(nonatomic) _Bool hasActionURL; // @synthesize hasActionURL=_hasActionURL;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

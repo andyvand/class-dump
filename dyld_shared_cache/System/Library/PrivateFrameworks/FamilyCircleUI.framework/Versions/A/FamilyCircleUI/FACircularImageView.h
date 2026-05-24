@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface FACircularImageView
 {
     double _borderWidth;
-    NSColor *_borderColor;
 }
 
-- (void);
+- (void)ORCHSchemaORCHExecutionEnded;
 - (void);
 - (id);
 - (double);
 - (void);
 - (void)N;
-- (void)ilyCircleUI;
+- (void)FamilyCircleUI;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
 @property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
 
 @end

@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFSpeechAnalyzerOptionsLoggingInfo, SFSpeechAnalyzerOptionsPowerContext;
-
 @interface SFSpeechAnalyzerOptions
 {
     _Bool _highPriority;
-    unsigned long long _modelRetention;
-    SFSpeechAnalyzerOptionsLoggingInfo *_loggingInfo;
-    SFSpeechAnalyzerOptionsPowerContext *_powerContext;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)ayStr;
 - (id);
 - (void);
 - (_Bool)þÿ`þÿn/þÿ¤IþÿÎLþÿÎLþÿÎLþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly, copy, nonatomic) SFSpeechAnalyzerOptionsLoggingInfo *loggingInfo; // @synthesize loggingInfo=_loggingInfo;
-@property(readonly, nonatomic) unsigned long long modelRetention; // @synthesize modelRetention=_modelRetention;
-@property(readonly, copy, nonatomic) SFSpeechAnalyzerOptionsPowerContext *powerContext; // @synthesize powerContext=_powerContext;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MNArrivalRegionTimerDelegate
+- (void);
 @end
 

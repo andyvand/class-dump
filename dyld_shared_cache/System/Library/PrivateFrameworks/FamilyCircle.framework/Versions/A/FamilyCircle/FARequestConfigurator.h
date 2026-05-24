@@ -4,61 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAGrandSlamSigner, ACAccount, ACAccountStore, AIDAServiceOwnersManager, AKAppleIDAuthenticationContext, AKAppleIDServerResourceLoadDelegate, NSData, NSDictionary;
+@class ACAccount;
 @protocol FamilyCircle.FARequestSigner;
 
 @interface FARequestConfigurator
 {
     ACAccount *_account;
-    ACAccountStore *_accountStore;
-    ACAccount *_grandSlamAccount;
-    AAGrandSlamSigner *_grandSlamSigner;
-    AAGrandSlamSigner *_familyGrandSlamSigner;
-    AIDAServiceOwnersManager *_serviceOwnersManager;
-    AKAppleIDServerResourceLoadDelegate *_resourceLoadDelegate;
-    NSData *_pushToken;
-    _Bool _attachSetupHeader;
-    AKAppleIDAuthenticationContext *_authContext;
-    id <FamilyCircle.FARequestSigner> _signer;
-    NSDictionary *_ephemeralAuthResults;
 }
 
+- (id)textToSpeechIsMuted;
+- (void)streamingPlaybackBufferSize;
+- (void)parseOverrideQuery;
+- (void)routeResponse;
+- (void)request;
+- (id)MediaContentRatingRestrictions;
+- (_Bool)requestMethodType;
+- (void)calendarId;
+- (void)ExecuteCallbacks;
+- (void)LaunchAppWithUserActivity;
+- (void)HtmlView;
+- (void)Callout;
+- (id)efId:%@ /* Error: Ran out of types for this method. */;
+- (void)%@ refId:(CDUnknownBlockType)arg1 %@;
+- (id)"NSDictionary"16;
+- (id)tionary"8;
+- (id)ected %@, got %@) ... %@;
+- (id)AceObjectCodingKeyRefId;
+- (id)AceObjectCodingKeyPlistData;
+- (_Bool)handoffPayload;
+- (id)ShowWeatherLocations;
+- (void)DebugInfo;
+- (id)objectIds;
+- (void)matchingMetadataKeysAndStringValues;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)bundleWithIdentifier:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool attachSetupHeader; // @synthesize attachSetupHeader=_attachSetupHeader;
-@property(retain, nonatomic) AKAppleIDAuthenticationContext *authContext; // @synthesize authContext=_authContext;
-@property(retain, nonatomic) NSDictionary *ephemeralAuthResults; // @synthesize ephemeralAuthResults=_ephemeralAuthResults;
 @property(retain, nonatomic) id <FamilyCircle.FARequestSigner> signer; // @synthesize signer=_signer;
 
 @end

@@ -6,33 +6,22 @@
 
 #import <IMCore/IMTypingChatItem.h>
 
-@class IMBalloonPluginDataSource, NSData, NSString;
+@class IMBalloonPluginDataSource, NSData;
 
 @interface IMTypingPluginChatItem : IMTypingChatItem
 {
     NSData *_typingIndicatorIcon;
-    IMBalloonPluginDataSource *_dataSource;
 }
 
+- (id)for streamToken=%u doesn't exist;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)plotYLabel;
 - (void)H$|è';
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSString *type;
-@property(readonly, nonatomic) NSData *typingIndicatorIcon; // @synthesize typingIndicatorIcon=_typingIndicatorIcon;
 
 @end
 

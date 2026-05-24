@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.InMemoryPodcastStateDataSource
 {
     id delegate;
-    id inMemoryFollowStateStore;
-    id subscription;
 }
 
 @end

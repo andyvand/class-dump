@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)UPCOMING_INFORMATION_EVENT_SECTION_LABEL;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *prerequisiteIdentifier; // @synthesize prerequisiteIdentifier=_prerequisiteIdentifier;

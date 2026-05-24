@@ -9,7 +9,6 @@
 @interface BKSHIDEventAuthenticationOriginator
 {
     _BKSHIDEventAuthenticationKey *_key;
-    double _keyLastAccessTime;
 }
 
 - (long long);

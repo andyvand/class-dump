@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface PKPassShareTimeConfiguration
 {
     unsigned long long _support;
-    NSDate *_startDate;
-    NSDate *_expirationDate;
-    NSArray *_schedules;
 }
 
 + (_Bool);
@@ -19,28 +14,24 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setHasInternalerror:(id)arg1;
+- (void)enhancedSecurityType;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool)st:regenerate:completion: /* Error: Ran out of types for this method. */;
-- (id)ginTime;
-- (id);
+- (id)beginTime;
+- (id)_rewardsBalance;
 - (void);
-- (void)_REDEMPTION_ERROR_PASS_MERGE_UNAVAILABLE_DESCRIPTION;
+- (void)SHARE_REDEMPTION_ERROR_PASS_MERGE_UNAVAILABLE_DESCRIPTION;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(retain, nonatomic) NSArray *schedules; // @synthesize schedules=_schedules;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(nonatomic) unsigned long long support; // @synthesize support=_support;
 
 @end

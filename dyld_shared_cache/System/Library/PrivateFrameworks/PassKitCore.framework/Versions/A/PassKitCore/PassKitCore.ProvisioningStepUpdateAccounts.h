@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepUpdateAccounts
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMapTable, NSMutableArray, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_os_log, _GEORegionStoreCollator, _GEORegionStoreSearchManager;
+@protocol _GEORegionStoreSearchManager;
 
 @interface GEOSQLiteDB
 {
     struct sqlite3 *_db;
-    NSError *_lastError;
-    NSURL *_databaseFileURL;
-    NSDictionary *_pragmas;
-    CDUnknownBlockType _setupBlock;
-    CDUnknownBlockType _tearDownBlock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_preparedStatements;
-    NSMutableArray *_filesAddedDuringTransaction;
-    NSMutableArray *_filesDeletedDuringTransaction;
-    NSMutableArray *_currentTransactionPostCommitActions;
-    NSMapTable *_virtualTables;
-    NSMutableArray *_externalFilesActiveChannels;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_externalFilesQueue;
-    NSObject<OS_dispatch_group> *_externalFilesGroup;
-    struct atomic_flag _didTearDown;
-    _Bool _isInTransaction;
-    _Bool _isTemporaryInMemoryDatabase;
-    _Bool _didEncounterExternalResourceErrorInTransaction;
-    int _sqliteFlags;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)R,N,G_placeCollections;
 + (id)X	;
 + (_Bool)dv9;
 - (id);
@@ -44,7 +23,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -54,9 +33,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
-- (int);
+- (int)!;
 - (void);
 - (id);
 - (id);
@@ -65,30 +44,30 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)_stateModelScore;
+- (void)__gcc_except_tab__TEXT;
+- (id);
+- (_Bool)_consecutiveVTRejects;
+- (id)audio;
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (int);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool):(CDUnknownBlockType)arg1 8@"NSTableView"16@"NSCell"24@"NSTableColumn"32q40;
+- (id)mapView:(const char *)arg1 didChangeDisplayedFloorOrdinal:(id)arg2 forVenue:(id)arg3;
+- (int)initWithCLLocationManager: /* Error: Ran out of types for this method. */;
+- (_Bool)departureTimeDisplayStyle;
+- (id)componentsWithString: /* Error: Ran out of types for this method. */;
+- (_Bool)MKRESULTVIEW_AND_X_OTHERS;
 - (long long);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
@@ -100,7 +79,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id)Ð!PAù1·*ð1Â0@ù
@@ -116,16 +95,16 @@
 - (void)Stairs"b1"has_mapUiShownAqiShown"b1"has_mapUiShownWeatherShown"b1"has_mapViewIsAdvancedMap"b1"has_mapViewIsGlobeProjection"b1"has_mapViewLocationIsTourist"b1"has_mapViewLocationPuckInViewport"b1"has_placeCardIsPersonAddressAvailable"b1"has_placeCardIsPersonLocationShared"b1"has_placeCardIsPersonPlacecard"b1"has_placeCardTransitAdvisoryBanner"b1"has_rideBookingAppEnabled"b1"has_rideBookingAppInstalled"b1"has_suggestionsSiriEnabled"b1"has_tableBookingAppEnabled"b1"has_tableBookingAppInstalled"b1"has_venueExperienceShown"b1"read_placeCardPossibleActions"b1"read_placeCardUnactionableUiElements"b1"read_account"b1"read_actionButtonDetailsState"b1"read_carPlayInfo"b1"read_curatedCollectionState"b1"read_deviceInputLocale"b1"read_deviceOutputLocale"b1"read_impressionObjectState"b1"read_lookAroundLocation"b1"read_mapLaunchLaunchUri"b1"read_mapLaunchReferringWebsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
 - (_Bool)ack"b1"read_streetFeedback"b1"read_thirdPartyPhotoSharingPreferenceUpdate"b1"read_tileFeedback"b1"read_transitPoiFeedback"b1"wrote_anyField"b1};
 - (void)*> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std:(long long)arg1:(CDUnknownBlockType)arg2 allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (int)unt;
+- (int)searchSubstringsCount;
 - (_Bool)Roads;
 - (_Bool)p;
 - (void)vüx;
 - (int)rorType=%s,message=%s;
 - (id)ute position %.1f. requireWiFi is %d;
-- (_Bool)r;
+- (_Bool)place_data_requesting_app_identifier;
 - (void)ROAM;
-- (_Bool)G;
-- (id)tLocation;
+- (_Bool)SPATIAL_PLACE_LOOKUP_CATEGORY_HIKING;
+- (id)assetLocation;
 - (id)¬;
 - (struct sqlite3_stmt *)ÿ;
 - (_Bool);
@@ -141,19 +120,7 @@
 - (_Bool).4;
 
 // Remaining properties
-@property(retain, nonatomic) id <_GEORegionStoreCollator> collator;
-@property(readonly, nonatomic) NSURL *databaseFileURL; // @synthesize databaseFileURL=_databaseFileURL;
-@property(readonly, nonatomic) NSString *dbFilePath;
-@property(readonly, nonatomic) _Bool isDBReady;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_queue;
-@property(readonly, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) NSDictionary *pragmas;
 @property(retain, nonatomic) id <_GEORegionStoreSearchManager> searchMatcher;
-@property(readonly, nonatomic) struct sqlite3 *sqliteDB; // @synthesize sqliteDB=_db;
-@property(readonly, nonatomic) int sqliteFlags; // @synthesize sqliteFlags=_sqliteFlags;
-@property(nonatomic) long long temporaryStoreMode;
-@property(nonatomic) long long user_version;
 
 @end
 

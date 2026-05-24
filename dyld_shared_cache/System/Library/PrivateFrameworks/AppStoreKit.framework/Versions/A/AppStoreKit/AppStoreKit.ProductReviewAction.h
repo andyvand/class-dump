@@ -7,8 +7,6 @@
 @interface AppStoreKit.ProductReviewAction
 {
     id action;
-    id id;
-    id automationMetadata;
 }
 
 @end

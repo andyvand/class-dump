@@ -6,52 +6,41 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaViewContainer;
+@class SISchemaViewContainer;
 
 @interface SISchemaUUFRPresented : SISchemaInstrumentationMessage
 {
     SISchemaViewContainer *_viewContainer;
-    NSString *_errorDomain;
-    int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasViewContainer;
-    _Bool _hasErrorDomain;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!';
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_chsFinishBufferWithRootIntentReferenceBufOfs:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)hasUnknownDistributor;
+- (_Bool)@x  X ;
+- (_Bool)is_time_sensitive=1;
+- (id)group participant recovery migration...;
 - (id);
 - (id);
-- (id);
-- (id)atch;
-- (id)ainExecutionAppIntentBundleID;
-- (void)CESETUPATTEMPTFAILUREREASON_ERROR_DURING_SETUP;
-- (void)N_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONINFERENCE_TOKENGENERATIONSAMPLINGERROR;
+- (id)deleteHasPairedAppleWatch;
+- (id)_hasDomainExecutionAppIntentBundleID;
+- (void)CDMSERVICESETUPATTEMPTFAILUREREASON_ERROR_DURING_SETUP;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONINFERENCE_TOKENGENERATIONSAMPLINGERROR;
 - (int)´!;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasViewContainer; // @synthesize hasViewContainer=_hasViewContainer;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaViewContainer *viewContainer; // @synthesize viewContainer=_viewContainer;
 
 @end

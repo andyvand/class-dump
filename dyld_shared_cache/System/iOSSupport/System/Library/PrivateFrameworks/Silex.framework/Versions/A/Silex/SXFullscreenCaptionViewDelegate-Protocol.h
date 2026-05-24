@@ -5,5 +5,8 @@
 //
 
 @protocol SXFullscreenCaptionViewDelegate
+
+@optional
+- (_Bool);
 @end
 

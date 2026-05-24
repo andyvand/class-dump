@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SAWebWebResult : AceObject
 {
@@ -18,22 +18,13 @@
 - (id);
 - (id);
 - (id);
+- (void)wB;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *descriptionText;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSURL *url;
 
 @end
 

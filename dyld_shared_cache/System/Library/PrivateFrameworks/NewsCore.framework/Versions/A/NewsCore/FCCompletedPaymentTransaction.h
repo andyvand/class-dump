@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPaymentTransactionAuthorizationResponse, NSString;
+@class NSString;
 
 @interface FCCompletedPaymentTransaction
 {
     NSString *_receipt;
-    NSString *_productID;
-    FCPaymentTransactionAuthorizationResponse *_appleIDAccountDetails;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)ectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateDataController.m;
 - (id)intext length = %lu, key length = %lu);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCPaymentTransactionAuthorizationResponse *appleIDAccountDetails; // @synthesize appleIDAccountDetails=_appleIDAccountDetails;
-@property(readonly, copy, nonatomic) NSString *productID; // @synthesize productID=_productID;
 @property(readonly, copy, nonatomic) NSString *receipt; // @synthesize receipt=_receipt;
 
 @end

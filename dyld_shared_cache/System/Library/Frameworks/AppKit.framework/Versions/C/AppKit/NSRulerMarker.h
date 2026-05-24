@@ -5,34 +5,22 @@
 //
 
 @class NSImage, NSRulerView;
-@protocol NSCopying;
 
 @interface NSRulerMarker
 {
     NSImage *_image;
-    struct CGPoint _imageOrigin;
-    id _representedObject;
-    NSRulerView *_ruler;
-    double _location;
-    struct __rFlags {
-        unsigned int movable:1;
-        unsigned int removable:1;
-        unsigned int dragging:1;
-        unsigned int pinned:1;
-        unsigned int _reserved:28;
-    } _rFlags;
 }
 
 + (id);
++ (id)ependencyDescription;
++ (id)Configuration",R,W;
++ (id)ffectiveConfiguration;
++ (id)archive;
++ (id)ge with process/bundle identifier;
++ (id)ith default identifier;
++ (id)t;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)riteStream;
 + (void);
 + (id);
 + (id);
@@ -43,14 +31,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (double);
+- (id)q;
+- (double)h mmap <memory %zu nodes %zu maps %zu bytes %zu is_mmap %d>;
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
-- (double);
+- (double)>qpe_cur_streams_at_risk <= enc->qpe_max_risked_streams;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -60,22 +48,13 @@
 - (void);
 - (id);
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)_setDict:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool)F;
 
 // Remaining properties
-@property(readonly, getter=isDragging) _Bool dragging;
-@property(retain) NSImage *image;
-@property struct CGPoint imageOrigin;
-@property(readonly) struct CGRect imageRectInRuler;
-@property double markerLocation;
-@property(getter=isMovable) _Bool movable;
-@property(getter=isRemovable) _Bool removable;
-@property(retain) id <NSCopying> representedObject;
 @property(readonly) __weak NSRulerView *ruler;
-@property(readonly) double thicknessRequiredInRuler;
 
 @end
 

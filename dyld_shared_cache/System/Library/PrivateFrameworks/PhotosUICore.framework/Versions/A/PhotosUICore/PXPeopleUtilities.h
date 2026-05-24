@@ -9,12 +9,12 @@
 }
 
 + (void);
++ (void)C;
++ (id);
++ (id);
++ (id)R;
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
@@ -30,7 +30,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);;
 + (void);
 + (id);
 + (void);
@@ -54,7 +54,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)N�l�;
 + (id);
 + (id);
 + (struct CGRect);
@@ -66,12 +66,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 + (void);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (_Bool);
 + (_Bool);

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CW8021XProfile, NSNumber, NSString;
+@class NSString;
 
 @interface CWWirelessProfile
 {
     NSString *_ssid;
-    NSNumber *_securityMode;
 }
 
-+ (id);
++ (id)T@yV@y;
 - (id);
 - (void);
 - (void);
@@ -26,13 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (id)nsitionDisabledFlags;
+- (id)transitionDisabledFlags;
 
 // Remaining properties
-@property(copy) NSString *passphrase; // @dynamic passphrase;
-@property(retain) NSNumber *securityMode; // @synthesize securityMode=_securityMode;
 @property(copy) NSString *ssid; // @synthesize ssid=_ssid;
-@property(retain) CW8021XProfile *user8021XProfile; // @dynamic user8021XProfile;
 
 @end
 

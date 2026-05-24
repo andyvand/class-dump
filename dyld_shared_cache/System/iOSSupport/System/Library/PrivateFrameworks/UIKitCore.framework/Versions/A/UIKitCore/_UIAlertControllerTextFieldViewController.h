@@ -6,58 +6,48 @@
 
 #import <UIKitCore/UICollectionViewController.h>
 
-@class NSArray, NSMutableArray, UIAlertControllerVisualStyle, UICollectionViewFlowLayout;
+@class NSMutableArray;
 @protocol _UIAlertControllerTextFieldViewControllerContaining;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerTextFieldViewController : UICollectionViewController
 {
     NSMutableArray *textFieldViews;
-    NSMutableArray *textFields;
-    _Bool _textFieldsCanBecomeFirstResponder;
-    UIAlertControllerVisualStyle *_visualStyle;
-    UICollectionViewFlowLayout *_collectionViewLayout;
-    _Bool _hidden;
-    id <_UIAlertControllerTextFieldViewControllerContaining> _container;
 }
 
 - (void);
 - (_Bool);
+- (id)80;
+- (void)sendMessage:(_Bool)arg1 toChat:style:destinationHandles: /* Error: Ran out of types for this method. */;
+- (void)_spamExtensionCutoffTime;
+- (long long)_configureAccountInformationOnItem:withAccount: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)leted -- sending out of band nickname updates;
 - (double);
+- (void);
+- (id);
+- (id);
+- (_Bool)SNumber",C,N,V_statusIsActivationLockEnabled;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (_Bool)!Dùgð1Â0@ù
 × ;
 - (_Bool)Path: /* Error: Ran out of types for this method. */;
-- (void)ationUpdateHandler;
-- (long long)onImage:(id)arg1;
+- (void)_configurationUpdateHandler;
+- (long long)setButtonImage:(id)arg1;
 - (long long)h P;
-- (void)gXwz_Xx;
+- (void)SgXwz_Xx;
 - (_Bool);N?Ò$ñ æó?;
 - (id)Ø\;
 - (void)ÌÖ^;
 - (id);
 - (id)±þ.;
-- (void)Fe;
+- (void)pFe;
 - (void)5Õ.e;
 - (void)mÞþ :Ê /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIAlertControllerTextFieldViewControllerContaining> container; // @synthesize container=_container;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly) NSArray *textFields; // @synthesize textFields;
-@property(nonatomic) _Bool textFieldsCanBecomeFirstResponder;
-@property(nonatomic) UIAlertControllerVisualStyle *visualStyle;
 
 @end
 

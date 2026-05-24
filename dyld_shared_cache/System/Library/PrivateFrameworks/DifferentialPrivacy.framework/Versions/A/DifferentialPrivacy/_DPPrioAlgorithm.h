@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DPBiasedCoin;
-
 @interface _DPPrioAlgorithm
 {
     double _epsilon;
-    unsigned long long _dimension;
-    CDStruct_586f72be *_prioMemory;
-    _DPBiasedCoin *_coin;
 }
 
 + (id);
-- (id);
+- (id)=;
 - (id);
 - (CDStruct_586f72be *);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)requestViewControllerWithRemoteAppID:remoteLocalizedAppName:remoteUnlocalizedAppName:externallyVerifiedAndApprovedSharedWebCredentialsDomains:autoFillMode:explicitAutoFillMode:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)`R;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPBiasedCoin *coin; // @synthesize coin=_coin;
-@property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
 @property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) CDStruct_586f72be *prioMemory; // @synthesize prioMemory=_prioMemory;
 
 @end
 

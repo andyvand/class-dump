@@ -6,24 +6,17 @@
 
 #import <MailCore/MCActivity.h>
 
-@class MCDiscretionaryWorkScheduler, MCProgressGroup, NSCondition, NSMutableSet, NSString;
+@class NSCondition, NSMutableSet;
 
 @interface MCTask : MCActivity
 {
     NSMutableSet *_currentOperations;
-    MCDiscretionaryWorkScheduler *_workScheduler;
-    _Bool _isCancelled;
-    long long _networkPriority;
-    long long _persistencePriority;
-    MCProgressGroup *_progressGroup;
-    NSString *_logPrefix;
-    NSCondition *_finishedCondition;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (long long);
 - (unsigned long long);
 - (void);
@@ -32,28 +25,21 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id));
 - (void);
 - (void);
-- (void);
+- (void)workBlock;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void)tWithKeyOptions:(_Bool)arg1 valueOptions:capacity: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_processGeneratedSummaryAction: /* Error: Ran out of types for this method. */;
+- (void)initWithKeyOptions:(_Bool)arg1 valueOptions:capacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSCondition *finishedCondition; // @synthesize finishedCondition=_finishedCondition;
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(copy) NSString *logPrefix; // @synthesize logPrefix=_logPrefix;
-@property(nonatomic) long long networkPriority; // @synthesize networkPriority=_networkPriority;
-@property(readonly, nonatomic) unsigned long long numberOfOperationsInProgress;
-@property(nonatomic) long long persistencePriority; // @synthesize persistencePriority=_persistencePriority;
-@property(readonly, nonatomic) MCProgressGroup *progressGroup; // @synthesize progressGroup=_progressGroup;
-@property(retain, nonatomic) MCDiscretionaryWorkScheduler *workScheduler;
 
 @end
 

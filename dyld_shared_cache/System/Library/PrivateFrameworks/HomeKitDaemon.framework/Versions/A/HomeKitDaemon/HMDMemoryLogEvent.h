@@ -10,29 +10,20 @@ __attribute__((visibility("hidden")))
 @interface HMDMemoryLogEvent
 {
     long long _reason;
-    unsigned long long _currentMemoryUsage;
-    unsigned long long _intervalMaxMemoryUsage;
 }
 
 - (void);
-- (unsigned long long);
-- (id);
-- (long long);
+- (unsigned long long)expired blocked trip identifiers;
+- (id)muted %@;
+- (long long)curtainPromptCanceled;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long currentMemoryUsage; // @synthesize currentMemoryUsage=_currentMemoryUsage;
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSString *diagnosticReportEventType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
-@property(readonly) unsigned long long intervalMaxMemoryUsage; // @synthesize intervalMaxMemoryUsage=_intervalMaxMemoryUsage;
-@property(readonly) long long reason; // @synthesize reason=_reason;
 
 @end
 

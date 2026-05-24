@@ -9,11 +9,6 @@
 @interface PXVerticalFeedLayoutGenerator : PXFeedLayoutGenerator
 {
     struct CGPoint _origin;
-    struct PXTileInfo _enqueuedCaptionTileInfo;
-    struct PXTileInfo _enqueuedLikesTileInfo;
-    struct PXTileInfo _enqueuedCommentsTileInfo;
-    _Bool _shouldDisplayCaptionsBelowBatches;
-    double _referenceWidth;
 }
 
 - (void);
@@ -39,9 +34,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)9@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,9 +46,9 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,7 +56,6 @@
 
 // Remaining properties
 @property(nonatomic) double referenceWidth; // @synthesize referenceWidth=_referenceWidth;
-@property(nonatomic) _Bool shouldDisplayCaptionsBelowBatches; // @synthesize shouldDisplayCaptionsBelowBatches=_shouldDisplayCaptionsBelowBatches;
 
 @end
 

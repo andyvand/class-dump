@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface SAUIMenuItem : SAAceView
 {
@@ -16,23 +16,19 @@
 + (id);
 - (void);
 - (id);
+- (void)I;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSURL *icon;
-@property(copy, nonatomic) NSURL *ref;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol ASDMacDaemonManagedServiceProtocol
+- (void)9};
+- (void);
 @end
 

@@ -4,51 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCommandExecutionInfo, AFEndpointInfo, AFHomeInfo, AFInstanceInfo, AFPeerInfo, AFRequestHandlingContext, AFSpeechInfo, NSArray, NSDictionary, NSString, NSUUID;
+@class AFCommandExecutionInfo;
 
 @interface _AFCommandExecutionInfoMutation
 {
     AFCommandExecutionInfo *_base;
-    NSString *_executionID;
-    NSString *_requestID;
-    NSUUID *_turnId;
-    AFPeerInfo *_originPeerInfo;
-    AFHomeInfo *_currentHomeInfo;
-    AFEndpointInfo *_endpointInfo;
-    AFInstanceInfo *_instanceInfo;
-    AFSpeechInfo *_speechInfo;
-    AFRequestHandlingContext *_requestHandlingContextSnapshot;
-    NSArray *_deviceRestrictions;
-    NSDictionary *_userInfo;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasExecutionID:1;
-        unsigned int hasRequestID:1;
-        unsigned int hasTurnId:1;
-        unsigned int hasOriginPeerInfo:1;
-        unsigned int hasCurrentHomeInfo:1;
-        unsigned int hasEndpointInfo:1;
-        unsigned int hasInstanceInfo:1;
-        unsigned int hasSpeechInfo:1;
-        unsigned int hasRequestHandlingContextSnapshot:1;
-        unsigned int hasDeviceRestrictions:1;
-        unsigned int hasUserInfo:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -57,19 +32,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id)eechDidRecognizeMultilingualSpeech:(id)arg1;
-- (void)Device;
+- (void)sendEditedMessage:(id)arg1 previousMessage:partIndex:editType:toChatIdentifier:style:account:backwardCompatabilityText: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)speechDidRecognizeMultilingualSpeech:(id)arg1;
+- (void)_isLocationSharingDevice;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

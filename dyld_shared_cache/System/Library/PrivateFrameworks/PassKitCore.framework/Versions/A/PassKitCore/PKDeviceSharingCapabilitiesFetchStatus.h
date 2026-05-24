@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface PKDeviceSharingCapabilitiesFetchStatus
 {
     NSMutableArray *_fetchedCapabilities;
-    _Bool _deviceCountFetchInProgress;
-    NSString *_appleID;
-    long long _maximumPossibleDevices;
-    NSDate *_fetchStartDate;
-    NSError *_fetchError;
 }
 
 - (void);
@@ -30,16 +25,11 @@
 - (void);
 - (id);
 - (id);
-- (id)reementUpdated: /* Error: Ran out of types for this method. */;
-- (void)calizedSubtitle;
+- (id)setAgreementUpdated: /* Error: Ran out of types for this method. */;
+- (void)localizedSubtitle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(nonatomic) _Bool deviceCountFetchInProgress; // @synthesize deviceCountFetchInProgress=_deviceCountFetchInProgress;
-@property(copy, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
-@property(readonly, copy, nonatomic) NSDate *fetchStartDate; // @synthesize fetchStartDate=_fetchStartDate;
-@property(readonly, copy, nonatomic) NSArray *fetchedCapabilities;
-@property(nonatomic) long long maximumPossibleDevices; // @synthesize maximumPossibleDevices=_maximumPossibleDevices;
 
 @end
 

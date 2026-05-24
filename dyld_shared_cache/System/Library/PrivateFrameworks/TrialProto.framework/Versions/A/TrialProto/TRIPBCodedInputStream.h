@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TRIPBCodedInputStream
 {
     struct TRIPBCodedInputStreamState state_;
-    NSData *buffer_;
 }
 
 + (id);
-- (long long);
+- (long long)t"16;
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)B;
 - (long long);
 - (unsigned long long);
 - (int);
 - (void);
-- (void);
+- (void)TLAlertTopicAlarmGoToSleep;
 - (int);
 - (long long);
-- (unsigned long long);
-- (int);
+- (unsigned long long)creationRequestForMemoryWithTitle:subtitle:creationDate:category:subcategory:representativeAssets:curatedAssets:extendedCuratedAssets:keyAsset: /* Error: Ran out of types for this method. */;
+- (int)l;
 - (id);
 - (double);
 - (unsigned long long);

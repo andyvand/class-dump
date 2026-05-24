@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)xt.ended.userScores.loggableSharedUserId;
 + (id);
 
 @end

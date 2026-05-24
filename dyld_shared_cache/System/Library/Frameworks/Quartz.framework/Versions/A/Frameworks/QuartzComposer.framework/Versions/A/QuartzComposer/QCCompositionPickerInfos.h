@@ -4,49 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSDictionary;
-
 @interface QCCompositionPickerInfos
 {
     float _maxAnimationFrameRate;
-    _Bool _showsCompositionNames;
-    _Bool _animateCompositions;
-    _Bool _allowsEmptySelection;
-    _Bool _allowsLayoutAnimations;
-    _Bool _allowsIdentitySelection;
-    struct CGSize _compositionAspectRatio;
-    long long _selectionMode;
-    long long _selectedCompositionIndex;
-    unsigned long long _borderType;
-    NSColor *_backgroundColor;
-    NSColor *_cellBackgroundColor;
-    _Bool _drawsBackground;
-    _Bool _showsAttributeFilter;
-    unsigned long long _numberOfColumns;
-    unsigned long long _numberOfRows;
-    _Bool _fillsPicker;
-    NSArray *_compositions;
-    NSDictionary *_defaultValues;
-    NSDictionary *_options;
-    _Bool _flipCellsHorizontally;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (long long);
 - (float);
-- (id);
+- (id)@z`;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -60,45 +38,25 @@
 - (void);
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id){?=SS}I}^{?}^{__C3DGeometry}^{__C3DDeformerStack}f{?=}}8q16^B24;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)age;
-- (unsigned long long)taWithPointArray:count:bytesPerComponent: /* Error: Ran out of types for this method. */;
+- (id)inputImage;
+- (unsigned long long)dataWithPointArray:count:bytesPerComponent: /* Error: Ran out of types for this method. */;
 - (_Bool)Ì93;
-- (id)tionCallbacks;
+- (id)C3DAnimationGetAnimationCallbacks;
 - (unsigned long long)À;
 
 // Remaining properties
-@property _Bool allowsEmptySelection; // @synthesize allowsEmptySelection=_allowsEmptySelection;
-@property _Bool allowsIdentitySelection; // @synthesize allowsIdentitySelection=_allowsIdentitySelection;
-@property _Bool allowsLayoutAnimations; // @synthesize allowsLayoutAnimations=_allowsLayoutAnimations;
-@property _Bool animateCompositions; // @synthesize animateCompositions=_animateCompositions;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property unsigned long long borderType; // @synthesize borderType=_borderType;
-@property(retain) NSColor *cellBackgroundColor; // @synthesize cellBackgroundColor=_cellBackgroundColor;
-@property struct CGSize compositionAspectRatio; // @synthesize compositionAspectRatio=_compositionAspectRatio;
-@property(retain) NSArray *compositions;
-@property(retain) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property _Bool drawsBackground; // @synthesize drawsBackground=_drawsBackground;
-@property _Bool fillsPicker; // @synthesize fillsPicker=_fillsPicker;
-@property _Bool flipCellsHorizontally; // @synthesize flipCellsHorizontally=_flipCellsHorizontally;
 @property float maxAnimationFrameRate; // @synthesize maxAnimationFrameRate=_maxAnimationFrameRate;
-@property unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property long long selectedCompositionIndex; // @synthesize selectedCompositionIndex=_selectedCompositionIndex;
-@property long long selectionMode; // @synthesize selectionMode=_selectionMode;
-@property _Bool showsAttributeFilter; // @synthesize showsAttributeFilter=_showsAttributeFilter;
-@property _Bool showsCompositionNames; // @synthesize showsCompositionNames=_showsCompositionNames;
 
 @end
 

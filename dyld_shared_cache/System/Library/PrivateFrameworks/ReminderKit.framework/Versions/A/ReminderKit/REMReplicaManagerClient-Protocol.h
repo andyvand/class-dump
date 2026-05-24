@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @protocol REMReplicaManagerClient
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *crdtID;
-@property(readonly, nonatomic) NSUUID *replicaUUID;
 @end
 

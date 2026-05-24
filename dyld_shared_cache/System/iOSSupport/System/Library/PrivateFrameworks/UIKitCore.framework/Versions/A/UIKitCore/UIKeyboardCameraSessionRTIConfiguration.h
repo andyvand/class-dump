@@ -8,25 +8,21 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardCameraSessionRTIConfiguration
 {
     _Bool _isWebKitInteractionView;
-    _Bool _isSingleLineDocument;
-    _Bool _shouldSuppressKeyboard;
 }
 
 + (_Bool)called on a background scene;
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)l;
+- (void)-;
+- (void)ted.;
+- (_Bool)rized on iPhone. Received category:%ld and subCategory:%ld. /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool)qfÐ1Â0@ù
 × ;
-- (void)orderingShouldRevertOrdering;
+- (void)cancelReorderingShouldRevertOrdering;
 - (void)<âÿ<Íd8k;
 
 // Remaining properties
-@property(nonatomic) _Bool isSingleLineDocument; // @synthesize isSingleLineDocument=_isSingleLineDocument;
 @property(nonatomic) _Bool isWebKitInteractionView; // @synthesize isWebKitInteractionView=_isWebKitInteractionView;
-@property(nonatomic) _Bool shouldSuppressKeyboard; // @synthesize shouldSuppressKeyboard=_shouldSuppressKeyboard;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSWindow;
+
 @protocol AKICAUIDelegate
+- (void);
+- (void)JW;
+- (void);
+
+@optional
+- (NSWindow *)apple.Passwords;
+- (unsigned long long)_updateActiveTimeZone;
 @end
 

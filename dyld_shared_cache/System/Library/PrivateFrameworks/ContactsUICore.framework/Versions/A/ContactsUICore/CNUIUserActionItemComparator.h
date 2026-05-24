@@ -15,7 +15,7 @@
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)(;
 
 @end
 

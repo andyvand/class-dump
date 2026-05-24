@@ -7,17 +7,15 @@
 @interface AVKit._AVOOPInputViewController
 {
     id onTappingForDismissing;
-    id _kRSInputRoutingActivityBundleID;
-    id sceneHostingController;
 }
 
+- (id)L.G;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

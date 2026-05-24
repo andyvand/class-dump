@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MIPLibraryIdentifier
 {
     long long _libraryId;
-    NSString *_libraryName;
-    struct {
-        unsigned int libraryId:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void)syndicationSyncRangeDenominator;
+- (void)setSearchIndexLocaleIdentifier:(_Bool)arg1;
+- (id)initWithDonationCount:deletionCount:timestamp:sampleIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)ring",C,N,V_clientBundleID;
+- (_Bool)sets;
+- (_Bool)leArray",&,N,V_insertedAssets;
+- (void)loader",R;
 - (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)initWithName:(id)arg1 significantEvent:significantEventOffset:recurrences: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)initWithString:(struct _NSZone *)arg1;
+- (id)W;
 - (void)ork_token ON (best_artwork_token.entity_pid = album_pid AND best_artwork_token.entity_type = 4 AND best_artwork_token.artwork_type = 6 AND artwork_variant_type = 0);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLibraryId;
 @property(readonly, nonatomic) _Bool hasLibraryName;
-@property(nonatomic) long long libraryId; // @synthesize libraryId=_libraryId;
-@property(retain, nonatomic) NSString *libraryName; // @synthesize libraryName=_libraryName;
 
 @end
 

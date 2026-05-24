@@ -6,23 +6,19 @@
 
 #import <CoreDuet/_DKSyncCompositeOperation.h>
 
-@class _DKSync2Policy, _DKSyncPeer, _DKSyncType;
-@protocol _DKSyncLocalKnowledgeStorage, _DKSyncRemoteKnowledgeStorage;
+@protocol _DKSyncLocalKnowledgeStorage;
 
 @interface _DKPerformSyncUpHistoryOperation : _DKSyncCompositeOperation
 {
     id <_DKSyncLocalKnowledgeStorage> _localStorage;
-    id <_DKSyncRemoteKnowledgeStorage> _transport;
-    _DKSyncPeer *_me;
-    _DKSync2Policy *_policy;
-    _DKSyncType *_type;
 }
 
-- (void);
-- (void);
+- (void)t
+;
+- (void)@;
 - (void)1Â0@ù
 × ;
-- (_Bool)in;
+- (_Bool)Begin;
 
 @end
 

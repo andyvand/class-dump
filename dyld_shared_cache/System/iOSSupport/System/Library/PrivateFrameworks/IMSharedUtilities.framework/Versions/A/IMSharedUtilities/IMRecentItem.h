@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface IMRecentItem
 {
     NSNumber *_timestamp;
-    NSString *_GUID;
-    NSURL *_fileURL;
-    NSData *_payloadData;
-    NSDictionary *_messageItemInfo;
-    NSString *_accessibilityString;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -32,14 +27,9 @@
 - (void);
 - (void)sFromMe;
 - (id);
-- (id)entDownloadFailure;
+- (id)MessageAttachmentDownloadFailure;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *accessibilityString; // @synthesize accessibilityString=_accessibilityString;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain, nonatomic) NSDictionary *messageItemInfo; // @synthesize messageItemInfo=_messageItemInfo;
-@property(retain, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
 @property(retain, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

@@ -9,8 +9,6 @@
 @interface PromotedContentUI.PromotedModalAdView : APPCPromotedContentView
 {
     id modalAdView;
-    id videoPlaybackCompleted;
-    id modalAdDelegate;
 }
 
 - (void);

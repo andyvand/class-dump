@@ -5,5 +5,8 @@
 //
 
 @protocol PKPaymentAuthorizationCoordinatorPrivateDelegate
+
+@optional
+- (void)V;
 @end
 

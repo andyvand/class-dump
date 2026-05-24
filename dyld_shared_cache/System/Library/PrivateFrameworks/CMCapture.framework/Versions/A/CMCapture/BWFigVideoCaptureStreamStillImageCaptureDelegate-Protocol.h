@@ -5,6 +5,9 @@
 //
 
 @protocol BWFigVideoCaptureStreamStillImageCaptureDelegate
+- (void)extractedAppointment;
+- (void);
+- (void);
 - (void)_aeStabilityTuning;
 @end
 

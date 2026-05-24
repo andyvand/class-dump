@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool)mpletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)nsion;
+- (_Bool)getRoutePickerRemoteViewControllerForOutputContext:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

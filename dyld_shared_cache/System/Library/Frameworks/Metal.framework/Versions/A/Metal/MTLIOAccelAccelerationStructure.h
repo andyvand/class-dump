@@ -6,24 +6,21 @@
 
 #import <Metal/MTLIOAccelResource.h>
 
-@class MTLAccelerationStructureDescriptor, MTLIOAccelBuffer, NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
+@class MTLIOAccelBuffer;
+@protocol MTLBuffer;
 
 @interface MTLIOAccelAccelerationStructure : MTLIOAccelResource
 {
     MTLIOAccelBuffer<MTLBuffer> *_buffer;
-    unsigned long long _bufferOffset;
-    unsigned long long _resourceIndex;
-    MTLAccelerationStructureDescriptor *_descriptor;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)kA;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)B;
 - (unsigned long long);
 - (struct MTLResourceID);
 - (id);
@@ -32,30 +29,6 @@
 - (void)ÿ'º;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accelerationStructureUniqueIdentifier;
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, nonatomic) MTLIOAccelBuffer<MTLBuffer> *buffer;
-@property(readonly, nonatomic) unsigned long long bufferOffset;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MTLAccelerationStructureDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItemMetadataAudioRoute, NSString;
+@class MRContentItemMetadataAudioRoute;
 
 @interface MPNowPlayingInfoAudioRoute
 {
@@ -17,18 +17,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)facetedMesh;
 - (long long);
 - (void);
 - (void);
-- (void)IDsForAsset: /* Error: Ran out of types for this method. */;
+- (void)_imageChapterTrackIDsForAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MRContentItemMetadataAudioRoute *mediaRemoteAudioRoute; // @synthesize mediaRemoteAudioRoute=_mediaRemoteAudioRoute;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic, getter=isSpatializationEnabled) _Bool spatializationEnabled;
-@property(nonatomic) _Bool supportsSpatialization;
-@property(nonatomic) long long type;
 
 @end
 

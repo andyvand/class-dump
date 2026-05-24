@@ -7,11 +7,6 @@
 @interface NewsCore.SmarterFetchRequestFactory
 {
     id appConfigManager;
-    id bundleSubscriptionManager;
-    id purchaseProvider;
-    id subscriptionList;
-    id feedItemFactory;
-    id userInterestVectorProvider;
 }
 
 @end

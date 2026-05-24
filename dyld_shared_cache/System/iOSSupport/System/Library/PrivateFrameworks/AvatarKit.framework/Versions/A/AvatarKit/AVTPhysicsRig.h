@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VFXNode, VFXPhysicsBody, VFXPhysicsConeTwistJoint;
-
 __attribute__((visibility("hidden")))
 @interface AVTPhysicsRig
 {
     float _coneConstraintLength;
-    float _coneConstraintSinusAngularLimit;
-    VFXNode *_rig;
-    VFXNode *_chainRoot;
-    VFXPhysicsBody *_physicsBody;
-    VFXPhysicsConeTwistJoint *_physicsBehavior;
-    double _downForceFactor;
-    id _restPosition_chainRoot;
-    id _restGravityVector_chainRoot;
-    CDStruct_1fe29af2 _coneConstraintBasis_chainParent;
-    CDStruct_95fa7c00 _coneConstraintAnchorB;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView;
+@class UIView;
 @protocol _UIWindowSceneDragInteractionImpl;
 
 @interface UIWindowSceneDragInteraction
@@ -16,23 +16,14 @@
 - (id);
 - (id);
 - (void);
-- (id)ngColorAppearance;
+- (id)systemTraitsAffectingColorAppearance;
 - (id)rySymbolView;
 - (void)oupesize)]-padding-[modeLabel(>=labelsize)]-padding-|;
 - (void)nfo"8Q16^B24;
 - (void)}_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureForFailureRelationships;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <_UIWindowSceneDragInteractionImpl> impl; // @synthesize impl=_impl;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

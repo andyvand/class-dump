@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)__DATA_CONST;
 + (id);
 - (id);
 - (id);

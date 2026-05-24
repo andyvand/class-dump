@@ -5,49 +5,36 @@
 //
 
 @class AVPlayer;
-@protocol TSKAVPlayerControllerDelegate;
 
 @interface TSKAVPlayerController
 {
     AVPlayer *mPlayer;
-    id <TSKAVPlayerControllerDelegate> mDelegate;
-    long long mRepeatMode;
-    float mVolume;
-    float mRateBeforeScrubbing;
-    unsigned long long mScrubbingCount;
-    _Bool mCanPlay;
-    _Bool mPlaying;
-    _Bool mFastReversing;
-    _Bool mFastForwarding;
-    _Bool mIsObservingStatus;
-    unsigned long long mAdditionalReferences;
-    double _absoluteCurrentTime;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 - (void);
+- (void)prepareForPlayback:(_Bool)arg1;
+- (void)eout];
+- (void)k asset flag for: /* Error: Ran out of types for this method. */;
+- (void)emIDs=;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)PlayerItemTransitionStatus;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ks;
 - (void);
-- (void);
+- (void)UserEventCompletionStateHandling;
 - (_Bool);
 - (id);
 - (void);
@@ -56,7 +43,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (double);
@@ -66,37 +53,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (float);
 - (double);
 - (id);
 - (double);
 - (_Bool);
-- (_Bool)ew: /* Error: Ran out of types for this method. */;
-- (void)ldDismissAnnotations;
+- (_Bool)translateAndScaleToView: /* Error: Ran out of types for this method. */;
+- (void)textSelectionChangeShouldDismissAnnotations;
 - (_Bool)V_allowsLastLineTruncation;
 - (void);
 - (void)Z±;
 - (void)õ[o4;
 
 // Remaining properties
-@property(nonatomic) double absoluteCurrentTime; // @synthesize absoluteCurrentTime=_absoluteCurrentTime;
-@property(readonly, nonatomic) double absoluteDuration;
-@property(readonly, nonatomic) _Bool canPlay; // @synthesize canPlay=mCanPlay;
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, nonatomic) id <TSKAVPlayerControllerDelegate> delegate; // @synthesize delegate=mDelegate;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) double endTime;
-@property(nonatomic, getter=isFastForwarding) _Bool fastForwarding; // @synthesize fastForwarding=mFastForwarding;
-@property(nonatomic, getter=isFastReversing) _Bool fastReversing; // @synthesize fastReversing=mFastReversing;
 @property(readonly, nonatomic) AVPlayer *player; // @synthesize player=mPlayer;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=mPlaying;
-@property(readonly, nonatomic) double remainingTime;
-@property(nonatomic) long long repeatMode; // @synthesize repeatMode=mRepeatMode;
-@property(readonly, nonatomic, getter=isScrubbing) _Bool scrubbing;
-@property(nonatomic) double startTime;
-@property(nonatomic) float volume; // @synthesize volume=mVolume;
 
 @end
 

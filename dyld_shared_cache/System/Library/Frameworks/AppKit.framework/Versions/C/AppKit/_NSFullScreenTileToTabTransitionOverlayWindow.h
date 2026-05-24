@@ -6,16 +6,10 @@
 
 #import <AppKit/_NSFullScreenTileResizeCrossfadeOverlayWindow.h>
 
-@class CALayer;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileToTabTransitionOverlayWindow : _NSFullScreenTileResizeCrossfadeOverlayWindow
 {
     struct CGRect _startingTileFrame;
-    struct CGRect _finalTabFrame;
-    CALayer *_finalTabLayer;
-    CALayer *_finalTabBackgroundLayer;
-    CALayer *_realTabCoverLayer;
 }
 
 - (void);

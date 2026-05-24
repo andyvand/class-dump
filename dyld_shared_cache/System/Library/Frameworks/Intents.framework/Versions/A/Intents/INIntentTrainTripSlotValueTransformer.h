@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)pe: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAttributeType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)rrencyAmount;
+- (id)_currencyAmount;
 
 @end
 

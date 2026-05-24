@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInputPassDescription, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputPassDescriptionResponder
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    int _stoppedResponding;
-    NSObject<OS_dispatch_queue> *_serializationQueue;
-    _Bool _hasRespondedAtLeastOnce;
-    AVAssetWriterInputPassDescription *_mostRecentPassDescription;
-    CDUnknownBlockType _callbackBlock;
 }
 
 - (void);
-- (void);
+- (void)wxhx;
 - (id);
 - (void);
 - (_Bool);

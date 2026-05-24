@@ -7,8 +7,6 @@
 @interface NewsAnalytics.HeartbeatEventService
 {
     id cloudContext;
-    id agreedToTermsAndConditionsProvider;
-    id queue;
 }
 
 @end

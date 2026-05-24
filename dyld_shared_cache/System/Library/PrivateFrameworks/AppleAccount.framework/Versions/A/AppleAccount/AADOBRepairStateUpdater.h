@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)gent port %d;
 - (id);
 
 @end

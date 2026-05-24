@@ -11,25 +11,25 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (struct CGRect);
-- (struct CGRect);
++ (id)sound ID   errorResult:%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)conversationManager:(id)arg1 localVideoToggledForConversation:(double)arg2 fromOldConversation:(_Bool)arg3;
+- (struct CGRect)aa_primaryAppleAccountWithCompletion:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)C proxy was likely invalidated mid-flight;
+- (_Bool)entable messages; nil databaseQueryProvider. NSXPC proxy was likely invalidated mid-flight;
+- (id)quested to handle non-repeating task but was only expected to handle repeating tasks.;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (double)n:(long long)arg1 %@;
+- (id)ting:(long long)arg1 %@ on Environment:%@ /* Error: Ran out of types for this method. */;
+- (id)create record without a salt;
+- (_Bool)hats cache;
+- (_Bool)chats cache;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGSize)n;
 

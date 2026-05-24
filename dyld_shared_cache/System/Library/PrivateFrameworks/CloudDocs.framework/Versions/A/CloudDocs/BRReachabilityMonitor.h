@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@class NSHashTable;
 
 @interface BRReachabilityMonitor
 {
     NSHashTable *_reachabilityObservers;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isNetworkReachable;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    _Bool _isCellularNetwork;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)p*;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCellularNetwork;
 @property(readonly, nonatomic) _Bool isNetworkReachable;
 
 @end

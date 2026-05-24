@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface DeviceErrorNode
 {
     NSString *_message;
-    NSString *_explanation;
-    NSURL *_url;
-    DeviceErrorNode *_parentNode;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SYSTEM_TOKYO_Tokyo_Toei_Light_Rail;
 - (void);
 - (id);
 - (void);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
 @property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) __weak DeviceErrorNode *parentNode; // @synthesize parentNode=_parentNode;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

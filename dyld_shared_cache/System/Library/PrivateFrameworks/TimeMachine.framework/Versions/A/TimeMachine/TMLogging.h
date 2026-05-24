@@ -14,13 +14,13 @@
 + (_Bool);
 + (void);
 + (void);
-+ (id);
-+ (void);
++ (id)h;
++ (void);
 + (void);
 + (_Bool);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (long long);
 + (void);
 + (id);

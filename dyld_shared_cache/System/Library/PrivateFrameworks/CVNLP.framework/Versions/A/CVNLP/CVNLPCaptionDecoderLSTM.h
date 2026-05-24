@@ -6,35 +6,13 @@
 
 #import <CVNLP/CVNLPCaptionDecoder.h>
 
-@class NSDictionary;
-
 @interface CVNLPCaptionDecoderLSTM : CVNLPCaptionDecoder
 {
     int startID;
-    int endID;
-    int maxCaptionLen;
-    int beamSize;
-    int vocabSize;
-    NSDictionary *vocab;
-    void *_decoderPlan;
-    void *decoderCtx;
-    CDStruct_2bc666a5 decoderNet;
-    CDStruct_0a65202a meanFeatsPlaceholderBlob;
-    CDStruct_0a65202a attFeatsPlaceholderBlob;
-    CDStruct_0a65202a pAttFeatsPlaceholderBlob;
-    CDStruct_0a65202a lstmAttStateFeedBlob;
-    CDStruct_0a65202a lstmLangStateFeedBlob;
-    CDStruct_0a65202a inWordIDBlob;
-    CDStruct_0a65202a wordIDBlob;
-    CDStruct_0a65202a langProbBlob;
-    CDStruct_0a65202a newAttStateBlob;
-    CDStruct_0a65202a newLangStateBlob;
-    struct CVNLPBeamSearch *_beamSearch;
-    _Bool meanFeaturesPresent;
 }
 
-- (id);
-- (id);
+- (id)H1;
+- (id)'E;
 - (id);
 - (void);
 - (void);

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDisplay, NSArray, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 @interface MPDisplayMgr
 {
     NSMutableArray *_displays;
-    NSMutableArray *_independentOutputDisplays;
-    MPDisplay *_mainDisplay;
-    struct os_unfair_lock_s _hwChangeLock;
-    struct os_unfair_lock_s _dataLock;
-    struct os_unfair_lock_s _accessLock;
-    _Bool _hasBuiltinRetina;
-    _Bool _hasSmallBuiltinRetina;
-    _Bool _hwChanged;
-    _Bool _safeMode;
 }
 
 + (id);
@@ -25,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ɚ;
 - (void);
 - (void);
 - (void);
@@ -36,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -52,18 +43,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)initWithURL:(id)arg1 cgOptions:cacheHint:tileHint:sizePolicy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSArray *displays;
-@property(readonly) _Bool hasBuiltinRetina; // @synthesize hasBuiltinRetina=_hasBuiltinRetina;
-@property(readonly) _Bool hasNightShiftCabableDisplays;
-@property(readonly) _Bool hasNightShiftCapableDisplays;
-@property(readonly) _Bool hasSmallBuiltinRetina; // @synthesize hasSmallBuiltinRetina=_hasSmallBuiltinRetina;
-@property(readonly) NSArray *independentOutputDisplays;
-@property(readonly) MPDisplay *mainDisplay; // @synthesize mainDisplay=_mainDisplay;
-@property(readonly) _Bool runningInSafeMode; // @synthesize runningInSafeMode=_safeMode;
 
 @end
 

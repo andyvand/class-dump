@@ -6,20 +6,12 @@
 
 #import <Safari/BiometricPromptCellView.h>
 
-@class NSImageView, NSLayoutConstraint, NSStackView, NSTextField, WBSCreditCardData;
+@class NSImageView, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface CreditCardAutoFillCellView : BiometricPromptCellView
 {
     NSImageView *_biometricPromptView;
-    NSImageView *_walletIconView;
-    NSImageView *_checkmarkImageView;
-    WBSCreditCardData *_cardData;
-    NSTextField *_cardNameLabel;
-    NSTextField *_cardDescriptionLabel;
-    NSStackView *_topLevelHorizontalStackView;
-    NSStackView *_detailStackView;
-    NSLayoutConstraint *_stackViewTrailingConstraint;
 }
 
 + (struct CGSize);
@@ -38,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -49,12 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WBSCreditCardData *cardData; // @synthesize cardData=_cardData;
-@property(nonatomic) __weak NSTextField *cardDescriptionLabel; // @synthesize cardDescriptionLabel=_cardDescriptionLabel;
 @property(nonatomic) __weak NSTextField *cardNameLabel; // @synthesize cardNameLabel=_cardNameLabel;
-@property(nonatomic) __weak NSStackView *detailStackView; // @synthesize detailStackView=_detailStackView;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
-@property(nonatomic) __weak NSStackView *topLevelHorizontalStackView; // @synthesize topLevelHorizontalStackView=_topLevelHorizontalStackView;
 
 @end
 

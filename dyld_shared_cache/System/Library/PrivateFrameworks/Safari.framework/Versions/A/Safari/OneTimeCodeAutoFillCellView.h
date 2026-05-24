@@ -6,15 +6,11 @@
 
 #import <Safari/BiometricPromptCellView.h>
 
-@class NSLayoutConstraint, NSTextField, NSView, SFAutoFillOneTimeCode;
+@class NSView, SFAutoFillOneTimeCode;
 
 @interface OneTimeCodeAutoFillCellView : BiometricPromptCellView
 {
     NSView *_iconView;
-    NSTextField *_primaryLabelTextField;
-    NSTextField *_secondaryLabelTextField;
-    NSLayoutConstraint *_iconViewWidthContstraint;
-    SFAutoFillOneTimeCode *_oneTimeCode;
 }
 
 + (struct CGSize);
@@ -22,8 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)b;
+- (void);
 - (void);
 - (void)8¼;
 

@@ -6,24 +6,22 @@
 
 #import <AppKit/_NSServicesMenuUpdater.h>
 
-@class NSMenu, NSMenuItem;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface _NSServicesContextMenuUpdater : _NSServicesMenuUpdater
 {
     id _requestorChain;
-    NSMenuItem *_submenuItem;
-    NSMenu *_pluggingMenu;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (unsigned long long)ationOffline;
+- (void)o connect to service %s;
+- (id)GBYg;
+- (void)cW+7coMzO/hTtCCDcSvNOw;
+- (id)`;
+- (id);
 - (id);
 - (void);
 - (void);

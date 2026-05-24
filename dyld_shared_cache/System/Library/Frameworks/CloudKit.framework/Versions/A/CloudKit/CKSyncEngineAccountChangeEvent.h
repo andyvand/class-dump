@@ -6,27 +6,21 @@
 
 #import <CloudKit/CKSyncEngineEvent.h>
 
-@class CKRecordID;
-
 @interface CKSyncEngineAccountChangeEvent : CKSyncEngineEvent
 {
     long long _changeType;
-    CKRecordID *_previousUser;
-    CKRecordID *_currentUser;
 }
 
 - (id);
 - (id);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void)equest"28@?<v@?@"NSError">36;
+- (void)CKSuperscript;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(readonly, copy, nonatomic) CKRecordID *currentUser; // @synthesize currentUser=_currentUser;
-@property(readonly, copy, nonatomic) CKRecordID *previousUser; // @synthesize previousUser=_previousUser;
 
 @end
 

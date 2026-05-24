@@ -9,21 +9,19 @@
 @interface MapsSuggestions.MapsSuggestionsFakeFinanceKitConnector
 {
     void orderPickups;
-    void _callbackHandle;
 }
 
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)asses: /* Error: Ran out of types for this method. */;
+- (void)withSourceClasses: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType _callbackHandle;
 @property(nonatomic, copy) NSArray *orderPickups;
 
 @end

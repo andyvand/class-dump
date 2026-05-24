@@ -5,5 +5,8 @@
 //
 
 @protocol PKTiledViewDelegate
+
+@optional
+- (void);
 @end
 

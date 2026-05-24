@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSNumber, NSString, UIImage;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CRCameraReaderOutputInternal
 {
     NSString *_type;
     NSArray *_vertices;
-    NSString *_stringValue;
-    NSNumber *_yearValue;
-    NSNumber *_monthValue;
-    NSNumber *_dayValue;
-    UIImage *_imageValue;
-    NSAttributedString *overlayString;
-    struct CGRect boundingBox;
-    float rotation;
-    NSArray *_targetVertices;
-    NSString *_capturePath;
-    float _rotation;
-    NSString *_formattedStringValue;
-    NSAttributedString *_overlayString;
-    UIImage *_unpaddedImageValue;
-    struct CGRect _boundingBox;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)˩c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)C;
 - (id);
 - (id);
+- (id)(AA9	A;
+- (id);
+- (void);
+- (void)HFAnnounceNotificationSetting_Never;
+- (id)er error:Items must always return a valid future from -updateWithOptions, but this item returned nil:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)*;
 - (float);
 - (struct CGRect);
 - (id);
@@ -59,20 +44,8 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(retain) NSString *capturePath; // @synthesize capturePath=_capturePath;
-@property(retain) NSNumber *dayValue; // @synthesize dayValue=_dayValue;
-@property(retain) NSString *formattedStringValue; // @synthesize formattedStringValue=_formattedStringValue;
-@property(retain) UIImage *imageValue; // @synthesize imageValue=_imageValue;
-@property(retain) NSNumber *monthValue; // @synthesize monthValue=_monthValue;
-@property(retain) NSAttributedString *overlayString; // @synthesize overlayString=_overlayString;
-@property float rotation; // @synthesize rotation=_rotation;
-@property(retain) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(retain) NSArray *targetVertices; // @synthesize targetVertices=_targetVertices;
 @property(retain) NSString *type; // @synthesize type=_type;
-@property(retain) UIImage *unpaddedImageValue; // @synthesize unpaddedImageValue=_unpaddedImageValue;
 @property(retain) NSArray *vertices; // @synthesize vertices=_vertices;
-@property(retain) NSNumber *yearValue; // @synthesize yearValue=_yearValue;
 
 @end
 

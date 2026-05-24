@@ -11,29 +11,25 @@
 @interface PLTimeReferenceKernel : PLTimeReference
 {
     _Bool _rebootOccurred;
-    NSDate *_lastSystemTimeRecalibrated;
-    NSDate *_lastKernelTimeRecalibrated;
 }
 
 - (id);
 - (struct mach_timebase_info *);
 - (_Bool);
-- (void);
+- (void)+];
 - (void);
 - (double);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)cookieName;
+- (void)Rect={CGPoint=dd}{CGSize=dd}}64@0:(id)arg1 8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (id);
+- (void);
+- (id)SDictionary"32@?<v@?B@"NSError">40;
 - (void);
-- (id);
-- (void);
-- (void)_channelValueDiff;
+- (void)Pb9f_channelValueDiff;
 
 // Remaining properties
-@property(retain) NSDate *lastKernelTimeRecalibrated; // @synthesize lastKernelTimeRecalibrated=_lastKernelTimeRecalibrated;
 @property(retain) NSDate *lastSystemTimeRecalibrated; // @synthesize lastSystemTimeRecalibrated=_lastSystemTimeRecalibrated;
-@property _Bool rebootOccurred; // @synthesize rebootOccurred=_rebootOccurred;
 
 @end
 

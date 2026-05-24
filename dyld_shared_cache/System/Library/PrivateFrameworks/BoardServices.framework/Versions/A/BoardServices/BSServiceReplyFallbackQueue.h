@@ -11,7 +11,6 @@
 @interface BSServiceReplyFallbackQueue : BSServiceQueue
 {
     BSServiceDispatchQueue *_replyQueue;
-    BSServiceQueue *_serviceQueue;
 }
 
 - (void);

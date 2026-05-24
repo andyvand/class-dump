@@ -6,27 +6,25 @@
 
 #import <PhotosGraph/PGFacesFromAssetFeatureExtractor.h>
 
-@class MAFeatureExtractor, NSString;
+@class MAFeatureExtractor;
 
 @interface PGFeatureExtractorFacesFromAssetAverage : PGFacesFromAssetFeatureExtractor
 {
     MAFeatureExtractor *_faceFeatureExtractor;
-    NSString *_name;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id)uelyIdentifiableEdge;
-- (void)ki;
+- (id)replaceRange:inControl:withString:inFrame:webView:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)MAUniquelyIdentifiableEdge;
+- (void)jetski;
 
 // Remaining properties
 @property(readonly) MAFeatureExtractor *faceFeatureExtractor; // @synthesize faceFeatureExtractor=_faceFeatureExtractor;
-@property(readonly) NSString *name; // @synthesize name=_name;
 
 @end
 

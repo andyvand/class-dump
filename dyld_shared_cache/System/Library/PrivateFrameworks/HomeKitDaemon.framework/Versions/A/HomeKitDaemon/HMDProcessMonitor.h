@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSObject, NSString, RBSProcessMonitor;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDProcessMonitor
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_processInfos;
-    NSObject<OS_dispatch_queue> *_queue;
-    RBSProcessMonitor *_rbsProcessMonitor;
 }
 
 + (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id)~B;
 - (void);
 - (id);
-- (id);
+- (id)essageContext"48;
 - (id);
 - (void);
 - (void);
@@ -31,26 +28,15 @@ __attribute__((visibility("hidden")))
 - (id)ð!;
 - (void)ù
 × ;
-- (id)sSettingsModel;
+- (id)previousSettingsModel;
 - (id)iceIdentifier;
 - (id)D,,;
 - (id)ation about inserted faceprint:%@ /* Error: Ran out of types for this method. */;
-- (void)EventUserActivityAnalyzerInternalRequestedWriteEventCounter;
+- (void)HMDLogEventUserActivityAnalyzerInternalRequestedWriteEventCounter;
 - (void)eateUniqueIDForAccessoriesForUsersInHome(homeUUID:(id)arg1 );
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *foregroundProcesses;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *processInfos; // @synthesize processInfos=_processInfos;
-@property(readonly, copy) NSArray *processes;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RBSProcessMonitor *rbsProcessMonitor; // @synthesize rbsProcessMonitor=_rbsProcessMonitor;
-@property(readonly) Class superclass;
 
 @end
 

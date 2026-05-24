@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)u;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)04:00 /* Error: Ran out of types for this method. */;
+- (id)setBytes:length:atIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
@@ -27,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (id)°!DAùd°1Â0@ù
 × ;
 - (_Bool)@48;
-- (void)agController:(id)arg1 pendingDropTabDidChange: /* Error: Ran out of types for this method. */;
-- (void)Indexes;
+- (void)tabDragController:(id)arg1 pendingDropTabDidChange: /* Error: Ran out of types for this method. */;
+- (void)PINEntrySeparatorIndexes;
 - (void)cMessageP;
 - (void)«ªªªªª'@«ªªªªª(@;
 - (void);
@@ -43,8 +43,6 @@ __attribute__((visibility("hidden")))
 - (void)C<V;
 
 // Remaining properties
-@property(readonly, nonatomic) long long associatedBorderStyle;
-@property(readonly, nonatomic) _Bool drawsContent;
 @property(readonly, nonatomic) __weak UITextField *textField;
 
 @end

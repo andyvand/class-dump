@@ -5,5 +5,6 @@
 //
 
 @protocol _PASSqliteErrorHandlerProtocol
+- (_Bool);
 @end
 

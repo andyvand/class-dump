@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface CPLExpungeableResourceState
 {
     unsigned long long _resourceType;
-    unsigned long long _expungedState;
-    NSDate *_expungedDate;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)<;
+- (void)g",&,N,V_resultId;
+- (void)er;
+- (unsigned long long)"][thresholded] %@ item:%@ /* Error: Ran out of types for this method. */;
+- (id)le=%@][qid=%lu][query="%@"][thresholded] %@ item:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool)ô;
-- (void);
-- (id);
+- (_Bool);
+- (void)(;
+- (id);
 - (void);
 - (void)!Bùñð1Â0@ù
 × ;
 - (unsigned long long)ave less space on disk after compaction;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expungedDate; // @synthesize expungedDate=_expungedDate;
-@property(nonatomic) unsigned long long expungedState; // @synthesize expungedState=_expungedState;
 @property(nonatomic) unsigned long long resourceType; // @synthesize resourceType=_resourceType;
 
 @end

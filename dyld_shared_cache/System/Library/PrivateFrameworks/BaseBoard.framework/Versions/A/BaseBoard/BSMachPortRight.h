@@ -9,25 +9,18 @@
 @interface BSMachPortRight
 {
     NSString *_trace;
-    struct os_unfair_lock_s _invalidationLock;
-    struct os_unfair_lock_s _lock;
-    unsigned int _lock_port;
-    unsigned int _rawPort;
-    BOOL _type;
-    BOOL _owner;
-    unsigned char _lock_accessCount;
 }
 
 + (_Bool);
 + (BOOL);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (unsigned int);
@@ -40,13 +33,6 @@
 - (id)the encoding.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *trace; // @synthesize trace=_trace;
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface _DPBlacklistServerStorage
 {
     NSString *_storePath;
-    NSObject<OS_xpc_object> *_activity;
 }
 
+- (void);
+- (id)H;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (id);
@@ -30,14 +28,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)t be an NSText subclass;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) NSDate *lastUpdateDate; // @dynamic lastUpdateDate;
 @property(retain, nonatomic) NSString *storePath; // @synthesize storePath=_storePath;
 
 @end

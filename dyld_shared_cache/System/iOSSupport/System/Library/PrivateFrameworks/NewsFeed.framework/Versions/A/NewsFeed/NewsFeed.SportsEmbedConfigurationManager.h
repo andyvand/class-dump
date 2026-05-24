@@ -7,14 +7,6 @@
 @interface NewsFeed.SportsEmbedConfigurationManager
 {
     id sportsDataService;
-    id fetchDeduper;
-    id _boxScoresCache;
-    id _bracketsCache;
-    id _keyPlayersCache;
-    id _lineScoresCache;
-    id _injuryReportsCache;
-    id _standingsCache;
-    id _scoreCache;
 }
 
 @end

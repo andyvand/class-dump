@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionParameterDisambiguationEnded, FLOWLINKSchemaFLOWLINKActionParameterDisambiguationStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKActionParameterDisambiguationStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionParameterDisambiguationContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionParameterDisambiguationStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKActionParameterDisambiguationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,29 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)%s [%d];
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)holdPowerAssertion:(id)arg1 onBehalfOf:behaviourWhenSleepStarted: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)7L;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)pContext";
-- (id)tSetSubscription;
+- (id)UAFSchemaUAFAssetSetSubscription;
 - (id)àØ´Ù;
 - (void)Ó)%;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameterDisambiguationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameterDisambiguationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

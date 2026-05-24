@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceCrop, HMIFaceprint, NSString, NSUUID;
-
 @interface HMIFaceClassification
 {
     _Bool _fromTorsoClassification;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_personsModelIdentifier;
-    HMIFaceCrop *_faceCrop;
-    HMIFaceprint *_faceprint;
-    NSUUID *_personUUID;
-    NSUUID *_sourceUUID;
-    NSUUID *_sessionEntityUUID;
-    long long _familiarity;
-    double _confidence;
-    struct CGRect _faceBoundingBox;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Qh
+;
 - (id);
 - (id);
 - (id);
@@ -37,33 +25,22 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)j
+;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSUUID *UUID;
 @property(readonly) double confidence; // @synthesize confidence=_confidence;
-@property(readonly) struct CGRect faceBoundingBox; // @synthesize faceBoundingBox=_faceBoundingBox;
-@property(readonly) HMIFaceCrop *faceCrop; // @synthesize faceCrop=_faceCrop;
-@property(readonly) HMIFaceprint *faceprint; // @synthesize faceprint=_faceprint;
-@property(readonly) long long familiarity; // @synthesize familiarity=_familiarity;
-@property(readonly) _Bool fromTorsoClassification; // @synthesize fromTorsoClassification=_fromTorsoClassification;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property(readonly) NSString *personsModelIdentifier; // @synthesize personsModelIdentifier=_personsModelIdentifier;
-@property(readonly) NSUUID *sessionEntityUUID; // @synthesize sessionEntityUUID=_sessionEntityUUID;
-@property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol INStringResolutionResultExport
++ (id)K;
 @end
 

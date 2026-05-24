@@ -10,9 +10,9 @@
 
 - (id);
 - (id);
-- (long long);
-- (id);
-- (id)egacyLocationHelper;
+- (long long)F;
+- (id)requests;
+- (id)PGGraphLegacyLocationHelper;
 
 @end
 

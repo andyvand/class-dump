@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSString;
+@class CLLocation;
 
 @interface FMFMapImageRequest
 {
     _Bool _isShifted;
-    _Bool _cachingEnabled;
-    CLLocation *_location;
-    double _altitude;
-    double _pitch;
-    double _width;
-    double _height;
-    long long _priority;
-    double _radius;
 }
 
-+ (_Bool);
++ (_Bool)AttachmentStorageDirectoryLogger;
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -31,33 +23,24 @@
 - (double);
 - (id);
 - (double);
-- (void);
+- (void)initWithContact:(id)arg1 personMapper:field: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (double);
+- (double)emonUtils;
+- (void)oreSDB record;
+- (double)ntact cache:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) _Bool cachingEnabled; // @synthesize cachingEnabled=_cachingEnabled;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) _Bool isShifted; // @synthesize isShifted=_isShifted;
-@property(readonly, nonatomic) NSString *key;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic) double pitch; // @synthesize pitch=_pitch;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

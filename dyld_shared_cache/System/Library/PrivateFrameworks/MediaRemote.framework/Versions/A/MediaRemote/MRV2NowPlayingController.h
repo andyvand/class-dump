@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpointObserver, MRNowPlayingControllerConfiguration, MRNowPlayingControllerDestination, MRNowPlayingControllerHelper, MRV2NowPlayingControllerOperationQueue, MSVVariableIntervalTimer, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MRNowPlayingControllerDestination, MRNowPlayingControllerHelper;
 
 @interface MRV2NowPlayingController
 {
     MRNowPlayingControllerHelper *_helper;
-    _Bool _registeredForNotifications;
-    _Bool _registeredForEndpointChanges;
-    _Bool _registeredForEndpointInvalidations;
-    _Bool _registeredForPlayerPathInvalidations;
-    _Bool _updateLoadingEnabled;
-    _Bool _endpointChanged;
-    _Bool _endpointInvalidated;
-    _Bool _playerPathInvalidated;
-    _Bool _loading;
-    _Bool _requestingQueue;
-    int _incrementingRequestID;
-    MRNowPlayingControllerDestination *_destination;
-    MRNowPlayingControllerConfiguration *_configuration;
-    id _playerPathInvalidationObserver;
-    MRAVEndpointObserver *_endpointObserver;
-    NSMutableArray *_deferredContentItemsToMerge;
-    MRNowPlayingControllerDestination *_pendingDestination;
-    MSVVariableIntervalTimer *_loadRetryTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    MRV2NowPlayingControllerOperationQueue *_cancelableOperations;
-    NSString *_label;
 }
 
 - (void);
@@ -52,40 +30,25 @@
 - (int);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -93,6 +56,21 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)MScheduler>";
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)*24;
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -101,37 +79,10 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -140,46 +91,42 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)getImagePath;
+- (void);
+- (id):displayText:speakableText:expectedDelay:context:completion:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)`";
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)d;
 - (void)TB,N,V_onlyDiscoversBluetoothDevices;
 - (_Bool)ks;
 - (void)¼35;
 - (void){public}@> <%{public}@> event to <%@> <%{public}@>;
-- (_Bool)ON_NAME_KEY;
+- (_Bool)MRXPC_NOTIFICATION_NAME_KEY;
 - (void)g, NSError *__strong));
 
 // Remaining properties
-@property(retain, nonatomic) MRV2NowPlayingControllerOperationQueue *cancelableOperations; // @synthesize cancelableOperations=_cancelableOperations;
-@property(copy, nonatomic) MRNowPlayingControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *deferredContentItemsToMerge; // @synthesize deferredContentItemsToMerge=_deferredContentItemsToMerge;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) MRNowPlayingControllerDestination *destination; // @synthesize destination=_destination;
-@property(nonatomic) _Bool endpointChanged; // @synthesize endpointChanged=_endpointChanged;
-@property(nonatomic) _Bool endpointInvalidated; // @synthesize endpointInvalidated=_endpointInvalidated;
-@property(retain, nonatomic) MRAVEndpointObserver *endpointObserver; // @synthesize endpointObserver=_endpointObserver;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MRNowPlayingControllerHelper *helper;
-@property(nonatomic) int incrementingRequestID; // @synthesize incrementingRequestID=_incrementingRequestID;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) MSVVariableIntervalTimer *loadRetryTimer; // @synthesize loadRetryTimer=_loadRetryTimer;
-@property(nonatomic, getter=isLoading) _Bool loading; // @synthesize loading=_loading;
-@property(readonly, nonatomic) _Bool needsImmediateReload;
-@property(readonly, nonatomic) NSString *needsImmediateReloadReason;
-@property(copy, nonatomic) MRNowPlayingControllerDestination *pendingDestination; // @synthesize pendingDestination=_pendingDestination;
-@property(nonatomic) _Bool playerPathInvalidated; // @synthesize playerPathInvalidated=_playerPathInvalidated;
-@property(retain, nonatomic) id playerPathInvalidationObserver; // @synthesize playerPathInvalidationObserver=_playerPathInvalidationObserver;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool registeredForEndpointChanges; // @synthesize registeredForEndpointChanges=_registeredForEndpointChanges;
-@property(nonatomic) _Bool registeredForEndpointInvalidations; // @synthesize registeredForEndpointInvalidations=_registeredForEndpointInvalidations;
-@property(nonatomic) _Bool registeredForNotifications; // @synthesize registeredForNotifications=_registeredForNotifications;
-@property(nonatomic) _Bool registeredForPlayerPathInvalidations; // @synthesize registeredForPlayerPathInvalidations=_registeredForPlayerPathInvalidations;
-@property(nonatomic) _Bool requestingQueue; // @synthesize requestingQueue=_requestingQueue;
-@property(readonly, nonatomic) _Bool shouldObserveInvalidations;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool updateLoadingEnabled; // @synthesize updateLoadingEnabled=_updateLoadingEnabled;
 
 @end
 

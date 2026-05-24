@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKDiscoveryMediaRemoteAsset
 {
     NSString *_sha1Hex;
-    NSURL *_url;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)hasTxFail;
+- (void)Vr;
 - (id);
-- (id)umberBasedProvisioning;
-- (void)Credentials;
+- (id)_requiresTransferSerialNumberBasedProvisioning;
+- (void)ExpressEnabledCredentials;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *sha1Hex; // @synthesize sha1Hex=_sha1Hex;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

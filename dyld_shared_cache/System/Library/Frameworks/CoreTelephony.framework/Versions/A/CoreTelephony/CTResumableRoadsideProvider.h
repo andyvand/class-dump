@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CTResumableRoadsideProvider
 {
     _Bool _success;
-    NSNumber *_providerId;
 }
 
-+ (_Bool);
++ (_Bool)ing an AVAssetReaderOutput.Provider;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)initWithContextRef:(id)arg1;
+- (id)>w;
 - (_Bool);
 - (void)
 × ;
-- (void)codeWithCoder:(_Bool)arg1;
+- (void)encodeWithCoder:(_Bool)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *providerId; // @synthesize providerId=_providerId;
 @property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

@@ -24,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accessibilityIdentifier;
-@property(nonatomic, readonly) NSString *reuseIdentifier;
 
 @end
 

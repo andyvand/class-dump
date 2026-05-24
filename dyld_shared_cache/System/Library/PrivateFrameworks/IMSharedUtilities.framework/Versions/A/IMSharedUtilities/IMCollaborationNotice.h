@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCollaborationNoticeMetadata, NSDate, NSString;
+@class NSString;
 
 @interface IMCollaborationNotice
 {
     NSString *_guidString;
-    NSString *_senderHandle;
-    IMCollaborationNoticeMetadata *_metadata;
-    NSDate *_date;
-    NSDate *_dateViewed;
 }
 
 + (id);
-+ (id);
++ (id)�(;
 + (_Bool);
 
 @end

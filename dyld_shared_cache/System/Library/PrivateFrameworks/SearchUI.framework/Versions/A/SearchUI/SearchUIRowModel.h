@@ -4,77 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, NSUserActivity, SFCard, SFCardSection, SFColor, SFImage, SFSearchResult, WFContextualAction;
+@class NSURL;
 
 @interface SearchUIRowModel
 {
     _Bool _isTappable;
-    _Bool _isDraggable;
-    _Bool _supportsCustomUserReportRequestAfforance;
-    _Bool _hasLeadingImage;
-    _Bool _prefersNoSeparatorAbove;
-    _Bool _hasCustomCornerRounding;
-    _Bool _isTopHit;
-    _Bool _isBrowseSection;
-    _Bool _allowAdjustmentsForConcentricity;
-    _Bool _hasValidCommandHandler;
-    _Bool _fileProviderURLFetched;
-    _Bool _contextualActionLoaded;
-    NSArray *_results;
-    SFSearchResult *_identifyingResult;
-    SFCardSection *_cardSection;
-    NSArray *_punchouts;
-    NSArray *_contactIdentifiers;
-    NSString *_itemIdentifier;
-    Class _cellViewClass;
-    Class _collectionViewCellClass;
-    SFCard *_nextCard;
-    unsigned long long _queryId;
-    NSString *_dragTitle;
-    NSString *_dragSubtitle;
-    NSString *_dragText;
-    NSURL *_dragURL;
-    NSString *_dragAppBundleID;
-    NSURL *_fileProviderFetchedURL;
-    NSString *_previewItemTitle;
-    NSUserActivity *_launchActivity;
-    NSString *_launchActivityAppBundleId;
-    SFColor *_backgroundColor;
-    SFImage *_backgroundImage;
-    unsigned long long _cornerMask;
-    long long _sectionType;
-    WFContextualAction *_contextualAction;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -82,7 +47,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (Class);
 - (Class);
 - (_Bool);
@@ -93,31 +58,31 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id)0@?0Q8B16;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)runTaskWithLaunchPath:arguments:outputFilePath:launchHandler:didLaunch:error: /* Error: Ran out of types for this method. */;
+- (id)runTaskWithLaunchPath:arguments:outputFilePath:launchHandler:didLaunch:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)__objc_imageinfo__DATA_CONST;
+- (void)R,V_blockerStreaming;
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -127,72 +92,12 @@
 - (void);
 - (void);
 - (void);
-- (long long)nt;
-- (id)chUIAppIconImageOverride;
+- (long long)SearchUIBiomeEvent;
+- (id)SearchUIAppIconImageOverride;
 - (int)+;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityIdentifier;
-@property(readonly, nonatomic) _Bool adjustMarginsForConcentricity;
-@property(nonatomic) _Bool allowAdjustmentsForConcentricity; // @synthesize allowAdjustmentsForConcentricity=_allowAdjustmentsForConcentricity;
-@property(readonly, nonatomic) _Bool allowsAppEntityAnnotation;
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) SFImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) SFCardSection *cardSection; // @synthesize cardSection=_cardSection;
-@property(readonly, nonatomic) Class cellViewClass; // @synthesize cellViewClass=_cellViewClass;
-@property(readonly, nonatomic) Class collectionViewCellClass; // @synthesize collectionViewCellClass=_collectionViewCellClass;
-@property(readonly, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(retain, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;
-@property(nonatomic) _Bool contextualActionLoaded; // @synthesize contextualActionLoaded=_contextualActionLoaded;
-@property(readonly, nonatomic) NSString *coreSpotlightIdentifier;
-@property(nonatomic) unsigned long long cornerMask; // @synthesize cornerMask=_cornerMask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayTitle;
-@property(readonly, nonatomic) NSString *dragAppBundleID; // @synthesize dragAppBundleID=_dragAppBundleID;
-@property(readonly, nonatomic) NSString *dragSubtitle; // @synthesize dragSubtitle=_dragSubtitle;
-@property(readonly, nonatomic) NSString *dragText; // @synthesize dragText=_dragText;
-@property(readonly, nonatomic) NSString *dragTitle; // @synthesize dragTitle=_dragTitle;
-@property(readonly, nonatomic) NSURL *dragURL; // @synthesize dragURL=_dragURL;
-@property(retain, nonatomic) NSURL *fileProviderFetchedURL; // @synthesize fileProviderFetchedURL=_fileProviderFetchedURL;
-@property(readonly, nonatomic) NSString *fileProviderIdentifier;
-@property(nonatomic) _Bool fileProviderURLFetched; // @synthesize fileProviderURLFetched=_fileProviderURLFetched;
-@property(readonly, nonatomic) _Bool fillsBackgroundWithContent;
-@property(nonatomic) _Bool hasCustomCornerRounding; // @synthesize hasCustomCornerRounding=_hasCustomCornerRounding;
-@property(readonly, nonatomic) _Bool hasGridStyling;
-@property(readonly, nonatomic) _Bool hasLeadingImage; // @synthesize hasLeadingImage=_hasLeadingImage;
-@property(nonatomic) _Bool hasValidCommandHandler; // @synthesize hasValidCommandHandler=_hasValidCommandHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SFSearchResult *identifyingResult; // @synthesize identifyingResult=_identifyingResult;
-@property(nonatomic) _Bool isBrowseSection; // @synthesize isBrowseSection=_isBrowseSection;
-@property(readonly, nonatomic) _Bool isDraggable; // @synthesize isDraggable=_isDraggable;
-@property(readonly, nonatomic) _Bool isFocusable;
-@property(readonly, nonatomic) _Bool isQuerySuggestion;
-@property(readonly, nonatomic) _Bool isTappable; // @synthesize isTappable=_isTappable;
-@property(nonatomic) _Bool isTopHit; // @synthesize isTopHit=_isTopHit;
-@property(retain, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain, nonatomic) NSUserActivity *launchActivity; // @synthesize launchActivity=_launchActivity;
-@property(copy, nonatomic) NSString *launchActivityAppBundleId; // @synthesize launchActivityAppBundleId=_launchActivityAppBundleId;
-@property(readonly, nonatomic) SFCard *nextCard; // @synthesize nextCard=_nextCard;
-@property(readonly, nonatomic) _Bool prefersNoSeparatorAbove; // @synthesize prefersNoSeparatorAbove=_prefersNoSeparatorAbove;
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(copy, nonatomic) NSString *previewItemTitle; // @synthesize previewItemTitle=_previewItemTitle;
 @property(readonly) NSURL *previewItemURL;
-@property(readonly, nonatomic) NSArray *punchouts; // @synthesize punchouts=_punchouts;
-@property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) NSString *reuseIdentifier;
-@property(nonatomic) long long sectionType; // @synthesize sectionType=_sectionType;
-@property(readonly, nonatomic) int separatorStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCustomUserReportRequestAfforance; // @synthesize supportsCustomUserReportRequestAfforance=_supportsCustomUserReportRequestAfforance;
 
 @end
 

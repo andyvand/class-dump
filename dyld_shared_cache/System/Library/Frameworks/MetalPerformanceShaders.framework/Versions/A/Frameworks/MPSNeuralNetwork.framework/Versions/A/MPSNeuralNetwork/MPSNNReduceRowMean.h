@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id)nvolutionGradientOutputFeatureChannels;
+- (id)MPSCNNConvolutionGradientOutputFeatureChannels;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSString, PXSharedLibraryAssistantViewModel, PXSharedLibraryLegacyDevicesFallbackMonitor;
-@protocol PXAssistantViewControllerDelegate;
-
 @interface PXSharedLibraryReplyAssistantViewController : PXAssistantTemplateViewController
 {
     _Bool _wantsToStepForward;
-    PXSharedLibraryAssistantViewModel *_viewModel;
-    PXSharedLibraryLegacyDevicesFallbackMonitor *_legacyDevicesFallbackMonitor;
 }
 
 - (_Bool);
@@ -33,21 +28,11 @@
 - (id);
 - (id);
 - (void)stateNumber;
-- (void)ary_CurrentUser_Format;
-- (void)er;
+- (void)PXSharedLibrary_CurrentUser_Format;
+- (void)SectionsBlurController;
 - (id)(;;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSharedLibraryLegacyDevicesFallbackMonitor *legacyDevicesFallbackMonitor; // @synthesize legacyDevicesFallbackMonitor=_legacyDevicesFallbackMonitor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 @property(nonatomic) _Bool wantsToStepForward; // @synthesize wantsToStepForward=_wantsToStepForward;
 
 @end

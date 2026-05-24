@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCReadingHistory, NSString;
+@class FCReadingHistory;
 
 @interface FCFeedTransformationUnreadFirst
 {
@@ -18,14 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FCReadingHistory *history; // @synthesize history=_history;
-@property(readonly) Class superclass;
 
 @end
 

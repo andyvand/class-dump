@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, NSString, NSURL;
-@protocol ECEmailAddressConvertible;
+@class EMCategory;
 
 @interface MUIAvatarImageContext
 {
     _Bool _isAuthenticated;
-    _Bool _reducePlaceholderImage;
-    _Bool _isRTL;
-    EMCategory *_category;
-    id <ECEmailAddressConvertible> _emailAddress;
-    NSString *_businessLogoID;
-    NSURL *_brandIndicatorLocation;
-    double _scale;
 }
 
 - (_Bool);
@@ -30,36 +22,17 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)t;
+- (id)(;
+- (_Bool)H;
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void)tor;
+- (void)neverShowSeparator;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *brandIndicatorLocation; // @synthesize brandIndicatorLocation=_brandIndicatorLocation;
-@property(readonly, nonatomic) NSString *businessLogoID; // @synthesize businessLogoID=_businessLogoID;
 @property(readonly, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <ECEmailAddressConvertible> emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAuthenticated; // @synthesize isAuthenticated=_isAuthenticated;
-@property(readonly, nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(readonly) _Bool reducePlaceholderImage; // @synthesize reducePlaceholderImage=_reducePlaceholderImage;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

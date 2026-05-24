@@ -7,10 +7,6 @@
 @interface AFVoiceCommandDebugInfo
 {
     _Bool _hasVoiceCommandInExhaustiveParses;
-    _Bool _hasVoiceCommandParses;
-    _Bool _hasVoiceCommandEditIntent;
-    _Bool _hasVoiceCommandAfterReranking;
-    _Bool _hasNoVoiceCommandAfterRespeakCheck;
 }
 
 + (_Bool);
@@ -20,24 +16,20 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)R;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)(=;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNoVoiceCommandAfterRespeakCheck; // @synthesize hasNoVoiceCommandAfterRespeakCheck=_hasNoVoiceCommandAfterRespeakCheck;
-@property(nonatomic) _Bool hasVoiceCommandAfterReranking; // @synthesize hasVoiceCommandAfterReranking=_hasVoiceCommandAfterReranking;
-@property(nonatomic) _Bool hasVoiceCommandEditIntent; // @synthesize hasVoiceCommandEditIntent=_hasVoiceCommandEditIntent;
 @property(nonatomic) _Bool hasVoiceCommandInExhaustiveParses; // @synthesize hasVoiceCommandInExhaustiveParses=_hasVoiceCommandInExhaustiveParses;
-@property(nonatomic) _Bool hasVoiceCommandParses; // @synthesize hasVoiceCommandParses=_hasVoiceCommandParses;
 
 @end
 

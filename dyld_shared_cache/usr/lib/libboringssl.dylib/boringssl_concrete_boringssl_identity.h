@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_sec_array, OS_sec_identity;
-
 __attribute__((visibility("hidden")))
 @interface boringssl_concrete_boringssl_identity
 {
-    struct __SecKey *private_key;
-    NSObject<OS_sec_array> *certificates;
-    NSObject<OS_sec_identity> *identity;
-    CDUnknownBlockType sign_block;
-    CDUnknownBlockType decrypt_block;
-    NSObject<OS_dispatch_queue> *queue;
-    _Bool private_key_operation_complete;
-    NSObject<OS_dispatch_data> *signature_result;
-    NSObject<OS_dispatch_data> *decryption_result;
+    struct __SecKey {
+        struct __CFRuntimeBase {
+            unsigned long long _field1;
+            _Atomic unsigned long long _field2;
+        } _field1;
+        struct __SecKeyDescriptor *_field2;
+        void *_field3;
+    } *private_key;
 }
 
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

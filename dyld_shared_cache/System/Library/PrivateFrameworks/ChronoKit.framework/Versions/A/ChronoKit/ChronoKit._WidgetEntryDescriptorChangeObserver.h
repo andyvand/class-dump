@@ -7,10 +7,6 @@
 @interface ChronoKit._WidgetEntryDescriptorChangeObserver
 {
     id _label;
-    id _descriptorProvider;
-    id _widgetDescriptorSubscription;
-    id _lock;
-    id _lock_registeredWidgetEntries;
 }
 
 @end

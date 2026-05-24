@@ -7,6 +7,7 @@
 @protocol SCUIMoreHelpMenuDelegate
 
 @optional
+- (void);
 - (void)× ;
 @end
 

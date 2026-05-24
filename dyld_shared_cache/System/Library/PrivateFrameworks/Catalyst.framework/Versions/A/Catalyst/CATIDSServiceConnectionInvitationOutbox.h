@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol CATAssertionProviding, CATIDSServiceConnectionInvitationOutboxDelegate, OS_dispatch_queue;
+@protocol CATAssertionProviding, CATIDSServiceConnectionInvitationOutboxDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionInvitationOutbox
 {
     id <CATAssertionProviding> mAssertionProvider;
-    NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSMutableDictionary *mInFlightInvitationRequestsByInvitationID;
-    NSMutableArray *mInvitationRequestQueue;
-    _Bool mIsActive;
-    id <CATIDSServiceConnectionInvitationOutboxDelegate> _delegate;
 }
 
 - (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0B;
 - (void);
 - (id);
 - (void);

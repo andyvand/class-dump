@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, SUCoreDiagStats;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreDiag
 {
     _Bool _isSharedDiag;
-    NSMutableArray *_trackingHistory;
-    NSObject<OS_dispatch_queue> *_trackingQueue;
-    SUCoreDiagStats *_trackStats;
-    NSString *_uniqueInstanceName;
-    NSString *_appendingDumpFilename;
-    NSString *_lastReportedUUID;
 }
 
 + (id);
@@ -35,27 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -63,18 +37,32 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)KECHAINRECOVERY_SOFT_LIMIT_MESSAGE;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appendingDumpFilename; // @synthesize appendingDumpFilename=_appendingDumpFilename;
-@property(nonatomic) _Bool isSharedDiag; // @synthesize isSharedDiag=_isSharedDiag;
-@property(retain, nonatomic) NSString *lastReportedUUID; // @synthesize lastReportedUUID=_lastReportedUUID;
-@property(retain, nonatomic) SUCoreDiagStats *trackStats; // @synthesize trackStats=_trackStats;
-@property(retain, nonatomic) NSMutableArray *trackingHistory; // @synthesize trackingHistory=_trackingHistory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *trackingQueue; // @synthesize trackingQueue=_trackingQueue;
-@property(retain, nonatomic) NSString *uniqueInstanceName; // @synthesize uniqueInstanceName=_uniqueInstanceName;
 
 @end
 

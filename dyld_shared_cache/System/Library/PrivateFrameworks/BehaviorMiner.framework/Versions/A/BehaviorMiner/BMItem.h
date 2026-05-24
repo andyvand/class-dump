@@ -9,14 +9,12 @@
 @interface BMItem
 {
     BMItemType *_type;
-    NSString *_normalizedValue;
-    unsigned long long _absoluteSupport;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)t",&,N,V_headerPunchOut;
 - (id);
 - (void);
 - (id);
@@ -29,17 +27,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)drawRect:(struct _NSZone *)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void),	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long absoluteSupport; // @synthesize absoluteSupport=_absoluteSupport;
 @property(readonly, copy, nonatomic) NSString *normalizedValue; // @synthesize normalizedValue=_normalizedValue;
-@property(readonly, nonatomic) BMItemType *type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *uniformIdentifier;
-@property(readonly, copy, nonatomic) id value;
 
 @end
 

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, ODMSiriSchemaODMSiriCountsReported, ODMSiriSchemaODMSiriCountsReportedAll, ODMSiriSchemaODMSiriEventMetadata, ODMSiriSchemaODMSiriTaskCountsReported, ODMSiriSchemaODMSiriTurnRestatementScoresReported, SISchemaInstrumentationMessage;
+@class ODMSiriSchemaODMSiriEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ODMSiriSchemaODMSiriClientEvent : SISchemaTopLevelUnionType
 {
     ODMSiriSchemaODMSiriEventMetadata *_eventMetadata;
-    ODMSiriSchemaODMSiriTaskCountsReported *_taskCountsReported;
-    ODMSiriSchemaODMSiriCountsReported *_countsReported;
-    ODMSiriSchemaODMSiriCountsReportedAll *_countsReportedAll;
-    ODMSiriSchemaODMSiriTurnRestatementScoresReported *_turnRestatementScoresReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasTaskCountsReported;
-    _Bool _hasCountsReported;
-    _Bool _hasCountsReportedAll;
-    _Bool _hasTurnRestatementScoresReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -49,38 +39,26 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)updateServiceMainThread: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)<;
 - (id);
 - (id);
-- (id)rationTimestampMs;
-- (unsigned long long)rstandingReported;
+- (id)userAggregationIdExpirationTimestampMs;
+- (unsigned long long)_pegasusUtteranceUnderstandingReported;
 - (id)e;
-- (id)ount;
+- (id)dictionaryCount;
 - (void)on.plusClientEvent.usoGraphTier1.usoGraphTier1.linkedUsoGraphNodeDatas.linkedUsoEntitySpans.originAppId;
 
 // Remaining properties
-@property(retain, nonatomic) ODMSiriSchemaODMSiriCountsReported *countsReported; // @synthesize countsReported=_countsReported;
-@property(retain, nonatomic) ODMSiriSchemaODMSiriCountsReportedAll *countsReportedAll; // @synthesize countsReportedAll=_countsReportedAll;
-@property(retain, nonatomic) ODMSiriSchemaODMSiriEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCountsReported; // @synthesize hasCountsReported=_hasCountsReported;
-@property(nonatomic) _Bool hasCountsReportedAll; // @synthesize hasCountsReportedAll=_hasCountsReportedAll;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasTaskCountsReported; // @synthesize hasTaskCountsReported=_hasTaskCountsReported;
-@property(nonatomic) _Bool hasTurnRestatementScoresReported; // @synthesize hasTurnRestatementScoresReported=_hasTurnRestatementScoresReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODMSiriSchemaODMSiriTaskCountsReported *taskCountsReported; // @synthesize taskCountsReported=_taskCountsReported;
-@property(retain, nonatomic) ODMSiriSchemaODMSiriTurnRestatementScoresReported *turnRestatementScoresReported; // @synthesize turnRestatementScoresReported=_turnRestatementScoresReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

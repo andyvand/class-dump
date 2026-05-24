@@ -6,15 +6,10 @@
 
 #import <Foundation/NSString.h>
 
-@class NSFormatter;
-@protocol NSCopying><NSSecureCoding><NSObject;
-
 __attribute__((visibility("hidden")))
 @interface _NSStringProxyForContext : NSString
 {
     NSString *_string;
-    NSFormatter *_formatter;
-    id <NSCopying><NSSecureCoding><NSObject> _item;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)5s:(id)arg1 %-5d Host obtained render pipe %d;
 - (void);
 - (id);
 - (void);
@@ -31,12 +26,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (unsigned short)_create_with_remote_service;
+- (unsigned short)xpc_remote_connection_create_with_remote_service;
 - (id);
 
 // Remaining properties
-@property(copy) NSFormatter *formatter; // @synthesize formatter=_formatter;
-@property(copy) id item; // @synthesize item=_item;
 @property(copy) NSString *string; // @synthesize string=_string;
 
 @end

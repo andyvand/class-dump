@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITargetedPreview;
+@class NSArray, UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIGravityWellEffectDescriptor
@@ -15,25 +15,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)40;
+- (id)wasReportedAsJunk;
+- (id)cludingPinnedChatIdentifiers:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_availabilityVerificationRecipientChannelIDPrefix;
 - (id);
 - (void)èf[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *compatibleDescriptors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UITargetedPreview *primaryPreview; // @synthesize primaryPreview=_primaryPreview;
-@property(retain, nonatomic) NSArray *secondaryPreviews; // @synthesize secondaryPreviews=_secondaryPreviews;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview;
 
 @end
 

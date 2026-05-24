@@ -4,80 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue, NSTimer;
-@protocol ML3MediaLibraryWriterDelegate, OS_dispatch_queue;
+@class NSObject, NSTimer;
+@protocol OS_dispatch_queue;
 
 @interface ML3MediaLibraryWriter
 {
     NSTimer *_watchdogTimer;
-    _Bool _activeSiriIndexOperation;
-    _Bool _activeSpotlightIndexOperation;
-    NSOperationQueue *_updateSiriRevisionIndexQueue;
-    struct os_unfair_lock_s _lock;
-    _Bool _suspended;
-    id <ML3MediaLibraryWriterDelegate> _delegate;
-    double _transactionTimeout;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_transactionMap;
-    NSOperationQueue *_databaseOperationQueue;
-    NSOperationQueue *_databaseOperationSerialQueue;
-    NSOperationQueue *_lowPriorityDatabaseOperationQueue;
-    NSOperationQueue *_databaseOperationLimitedQueue;
 }
 
-+ (id);
-+ (id);
-- (double);
-- (id);
++ (id)d;
++ (id)V_isHidden;
+- (double)_assertAddress:isValidWithLength:buffer:bufferLength: /* Error: Ran out of types for this method. */;
+- (id)_arrangedMonthSymbols;
+- (void)_appendMediaTypesToAsset:(double)arg1 forAsset: /* Error: Ran out of types for this method. */;
+- (void)reNow;
+- (id)ius;
+- (_Bool)stringByAppendingPathExtension:(id)arg1;
+- (id)storeExternalResource:(id)arg1 forAsset:(id)arg2 options:(id)arg3 error:(id)arg4 resultingResource:(id *)arg5;
+- (id)statusForDebug:(id)arg1;
+- (id)LSceneprint",&,D,N;
+- (id),R,N,V_mapItem;
+- (id)meInfo;
+- (void)questionVersion;
+- (void)"PLFeatureProcessingSnapshot",R,N,V_processingSnapshot;
+- (void)ttributes",&,D,N;
+- (void)tributes",&,D,N;
+- (id)Source",R,&,N,V_editSource;
+- (void)minMatchPercentByCategoriesType;
+- (id)mergeResourcesFromSource:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)T@"NSURL",R,N;
+- (_Bool)String",R,V_interestingMemoryUUID;
+- (void),V_userFeedbackUUID;
+- (void)isMogul;
+- (void)contact;
+- (void)umProtocol>",R,N;
+- (id)helperQueue;
+- (id)async:identifyingBlock:library: /* Error: Ran out of types for this method. */;
+- (id)assetRecordsWithContainerChange;
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
-- (void);
+- (id)ing",R,V_matchedString;
+- (id)setHmModernMessagingOptionsByMessageName: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
 - (void);
+- (_Bool);
+- (id)isk arb disk, assuming not sparse.;
+- (void)requiredSerialNumbers;
 - (void)id=? AND (album_artist.liked_state=? OR in_my_library)) LIMIT 1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *databaseOperationLimitedQueue; // @synthesize databaseOperationLimitedQueue=_databaseOperationLimitedQueue;
-@property(readonly, nonatomic) NSOperationQueue *databaseOperationQueue; // @synthesize databaseOperationQueue=_databaseOperationQueue;
-@property(readonly, nonatomic) NSOperationQueue *databaseOperationSerialQueue; // @synthesize databaseOperationSerialQueue=_databaseOperationSerialQueue;
-@property(nonatomic) __weak id <ML3MediaLibraryWriterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSOperationQueue *lowPriorityDatabaseOperationQueue; // @synthesize lowPriorityDatabaseOperationQueue=_lowPriorityDatabaseOperationQueue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
-@property(readonly, nonatomic) NSMutableDictionary *transactionMap; // @synthesize transactionMap=_transactionMap;
-@property(nonatomic) double transactionTimeout; // @synthesize transactionTimeout=_transactionTimeout;
 
 @end
 

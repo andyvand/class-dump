@@ -4,72 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAudioPlayButtonStyle, LPButtonStyle, LPCaptionBarAccessoryStyle, LPCollaborationFooterStyle, LPIconBadgeStyle, LPImageViewStyle, LPPadding, LPPointUnit, LPVerticalTextStackViewStyle, UIColor;
+@class LPImageViewStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarStyle
 {
     _Bool _usesOutOfLineButton;
-    _Bool _canAddLineForButton;
-    _Bool _positionButtonRelativeToTextStack;
-    _Bool _buttonRespectsTextStackPadding;
-    _Bool _buttonIgnoresTextSafeAreaInsets;
-    _Bool _addFullWidthLineForButton;
-    _Bool _alignButtonWithCaptionTextLeadingEdge;
-    _Bool _expandButtonToCaptionEdge;
-    unsigned int _minimumNumberOfLinesToVerticallyCenter;
-    LPImageViewStyle *_leadingIcon;
-    LPImageViewStyle *_trailingIcon;
-    LPIconBadgeStyle *_leadingIconBadge;
-    LPIconBadgeStyle *_trailingIconBadge;
-    LPCaptionBarAccessoryStyle *_leadingAccessory;
-    LPCaptionBarAccessoryStyle *_trailingAccessory;
-    LPVerticalTextStackViewStyle *_textStack;
-    LPPointUnit *_minimumWidth;
-    LPPointUnit *_trailingPaddingForPresenceOfLeadingIcon;
-    LPAudioPlayButtonStyle *_playButton;
-    LPPadding *_playButtonPadding;
-    LPButtonStyle *_button;
-    LPButtonStyle *_secondaryButton;
-    UIColor *_backgroundColor;
-    LPCollaborationFooterStyle *_collaborationFooter;
 }
 
+- (_Bool)tapBackBubblePathForSize:tapbackBalloonFrame:flipHorizontally:flipVertically: /* Error: Ran out of types for this method. */;
+- (id)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (id)tableView:shouldUpdateFocusInContext: /* Error: Ran out of types for this method. */;
+- (id)tableView:shouldSpringLoadRowAtIndexPath:withContext: /* Error: Ran out of types for this method. */;
+- (void)systemDidLeaveFirstDataProtectionLock;
+- (void)systemApplicationDidSuspendForEventsOnly;
+- (void)switcherViewControllerDidSelectAppStore:(_Bool)arg1 shouldRestoreAppSwitcher: /* Error: Ran out of types for this method. */;
+- (void)switchToSenderIdentity:(unsigned int)arg1;
+- (void)supportsIndividualPreviewSummaries;
+- (void)supportsChatNameAndPhotoHeader;
+- (void)supportsAllowsTextAnimationChanges;
+- (void)supportsAlignmentWithOriginationSubAvatarFrame;
+- (void)supportsActivityItemViewContentScale;
+- (void)supplementaryColumnWidth;
+- (void)superFormatText:(_Bool)arg1 transferGUIDs:mediaObjects: /* Error: Ran out of types for this method. */;
+- (id)summaryFrameIfAccessoryIndicatorHidden;
+- (id)summaryBubbleActivityItem;
+- (_Bool)aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (id)suggestionCategoryComparatorForManager: /* Error: Ran out of types for this method. */;
+- (unsigned int)suggestedActionsMenuAdditionalHeightWithChatBotActionButton: /* Error: Ran out of types for this method. */;
+- (id)stringWithValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (id)stringIdentifier;
+- (id)stringFromNumber: /* Error: Ran out of types for this method. */;
+- (id)stickerInlinePreviewMaxDimension;
+- (_Bool)startEditingPayloadBypassingValidation:forPlugin:completion: /* Error: Ran out of types for this method. */;
+- (id)splitViewControllerDidEndResizingColumn: /* Error: Ran out of types for this method. */;
+- (_Bool)splitViewController:separateSecondaryViewControllerFromPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)splitViewController:popoverController:willPresentViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)snapshotOfPluginBeingReplacedByBreadcrumb;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)shouldShowPluginDividerLineWithPluginShelf;
+- (id)CKOrganicPendingMomentShareBalloonView;
+- (id)";
 - (id);
 - (id);
 - (void);
@@ -79,34 +56,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setAuthor: /* Error: Ran out of types for this method. */;
 - (id)$¦;
 
 // Remaining properties
-@property(nonatomic) _Bool addFullWidthLineForButton; // @synthesize addFullWidthLineForButton=_addFullWidthLineForButton;
-@property(nonatomic) _Bool alignButtonWithCaptionTextLeadingEdge; // @synthesize alignButtonWithCaptionTextLeadingEdge=_alignButtonWithCaptionTextLeadingEdge;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPButtonStyle *button; // @synthesize button=_button;
-@property(nonatomic) _Bool buttonIgnoresTextSafeAreaInsets; // @synthesize buttonIgnoresTextSafeAreaInsets=_buttonIgnoresTextSafeAreaInsets;
-@property(nonatomic) _Bool buttonRespectsTextStackPadding; // @synthesize buttonRespectsTextStackPadding=_buttonRespectsTextStackPadding;
-@property(nonatomic) _Bool canAddLineForButton; // @synthesize canAddLineForButton=_canAddLineForButton;
-@property(retain, nonatomic) LPCollaborationFooterStyle *collaborationFooter; // @synthesize collaborationFooter=_collaborationFooter;
-@property(nonatomic) _Bool expandButtonToCaptionEdge; // @synthesize expandButtonToCaptionEdge=_expandButtonToCaptionEdge;
-@property(readonly, nonatomic) LPCaptionBarAccessoryStyle *leadingAccessory; // @synthesize leadingAccessory=_leadingAccessory;
 @property(readonly, nonatomic) LPImageViewStyle *leadingIcon; // @synthesize leadingIcon=_leadingIcon;
-@property(readonly, nonatomic) LPIconBadgeStyle *leadingIconBadge; // @synthesize leadingIconBadge=_leadingIconBadge;
-@property(nonatomic) unsigned int minimumNumberOfLinesToVerticallyCenter; // @synthesize minimumNumberOfLinesToVerticallyCenter=_minimumNumberOfLinesToVerticallyCenter;
-@property(retain, nonatomic) LPPointUnit *minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(readonly, nonatomic) LPAudioPlayButtonStyle *playButton; // @synthesize playButton=_playButton;
-@property(readonly, retain, nonatomic) LPPadding *playButtonPadding; // @synthesize playButtonPadding=_playButtonPadding;
-@property(nonatomic) _Bool positionButtonRelativeToTextStack; // @synthesize positionButtonRelativeToTextStack=_positionButtonRelativeToTextStack;
-@property(retain, nonatomic) LPButtonStyle *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-@property(readonly, nonatomic) LPVerticalTextStackViewStyle *textStack; // @synthesize textStack=_textStack;
-@property(readonly, nonatomic) LPCaptionBarAccessoryStyle *trailingAccessory; // @synthesize trailingAccessory=_trailingAccessory;
-@property(readonly, nonatomic) LPImageViewStyle *trailingIcon; // @synthesize trailingIcon=_trailingIcon;
-@property(readonly, nonatomic) LPIconBadgeStyle *trailingIconBadge; // @synthesize trailingIconBadge=_trailingIconBadge;
-@property(retain, nonatomic) LPPointUnit *trailingPaddingForPresenceOfLeadingIcon; // @synthesize trailingPaddingForPresenceOfLeadingIcon=_trailingPaddingForPresenceOfLeadingIcon;
-@property(nonatomic) _Bool usesOutOfLineButton; // @synthesize usesOutOfLineButton=_usesOutOfLineButton;
 
 @end
 

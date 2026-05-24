@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface IDSQualifiedContactsMetric
 {
     NSNumber *_qualifiedHandlesCount;
-    NSNumber *_qualifiedHandlesIML;
-    NSNumber *_handlesCount;
-    NSNumber *_qualifiedEmergencyHandles;
-    NSNumber *_qualifiedEmergencyHandlesIML;
-    NSNumber *_emergencyHandlesCount;
-    NSNumber *_qualifiedPrimaryHandles;
-    NSNumber *_qualifiedPrimaryHandlesIML;
-    NSNumber *_primaryHandlesCount;
-    NSNumber *_familyHandlesCount;
-    NSNumber *_emergencyHandleMsgCount;
-    NSNumber *_primaryHandleMsgCount;
-    NSNumber *_qualifiedHandleMsgCount;
 }
 
 - (void);
@@ -38,14 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,32 +34,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)Z;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)\;
+- (_Bool)ress=[6C]}36C44C48;
 - (id);
 - (void)Updating keychain dict to current version (%d);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSNumber *emergencyHandleMsgCount; // @synthesize emergencyHandleMsgCount=_emergencyHandleMsgCount;
-@property(retain, nonatomic) NSNumber *emergencyHandlesCount; // @synthesize emergencyHandlesCount=_emergencyHandlesCount;
-@property(retain, nonatomic) NSNumber *familyHandlesCount; // @synthesize familyHandlesCount=_familyHandlesCount;
-@property(retain, nonatomic) NSNumber *handlesCount; // @synthesize handlesCount=_handlesCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(retain, nonatomic) NSNumber *primaryHandleMsgCount; // @synthesize primaryHandleMsgCount=_primaryHandleMsgCount;
-@property(retain, nonatomic) NSNumber *primaryHandlesCount; // @synthesize primaryHandlesCount=_primaryHandlesCount;
-@property(retain, nonatomic) NSNumber *qualifiedEmergencyHandles; // @synthesize qualifiedEmergencyHandles=_qualifiedEmergencyHandles;
-@property(retain, nonatomic) NSNumber *qualifiedEmergencyHandlesIML; // @synthesize qualifiedEmergencyHandlesIML=_qualifiedEmergencyHandlesIML;
-@property(retain, nonatomic) NSNumber *qualifiedHandleMsgCount; // @synthesize qualifiedHandleMsgCount=_qualifiedHandleMsgCount;
 @property(retain, nonatomic) NSNumber *qualifiedHandlesCount; // @synthesize qualifiedHandlesCount=_qualifiedHandlesCount;
-@property(retain, nonatomic) NSNumber *qualifiedHandlesIML; // @synthesize qualifiedHandlesIML=_qualifiedHandlesIML;
-@property(retain, nonatomic) NSNumber *qualifiedPrimaryHandles; // @synthesize qualifiedPrimaryHandles=_qualifiedPrimaryHandles;
-@property(retain, nonatomic) NSNumber *qualifiedPrimaryHandlesIML; // @synthesize qualifiedPrimaryHandlesIML=_qualifiedPrimaryHandlesIML;
-@property(readonly) Class superclass;
 
 @end
 

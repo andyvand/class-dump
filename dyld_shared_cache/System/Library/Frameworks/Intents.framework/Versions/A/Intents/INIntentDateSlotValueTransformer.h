@@ -13,7 +13,7 @@
 + (Class);
 + (long long),C,N,V_sentMessages;
 - (id);
-- (id)StatusIntentResponse;
+- (id)_INPBShareFocusStatusIntentResponse;
 
 @end
 

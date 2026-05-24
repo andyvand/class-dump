@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDChargerInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_availableChargerIds;
-    NSMutableArray *_totalChargerIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_availableChargerIds:1;
-        unsigned int read_totalChargerIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_bufferDuration;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)dbackRequestType"b1"read_unknownFields"b1"read_feedbackClientCapabilities"b1"read_abClientMetadata"b1"read_analyticMetadata"b1"read_clientCapabilities"b1"read_clientMetadata"b1"read_debugSettings"b1"read_displayLanguages"b1"read_feedbackRequestParameters"b1"read_userInfo"b1"wrote_anyField"b1};
-- (id)e;
+- (id)_canSupportTemplateModule;
 - (id)ØR´Ø$R´øØ4R´hÙDR´ÔÙTR´@ÚdR´°ÚtR´ÛR´ÛR´øÛ¤R´hÜ´R´ÔÜÄR´@ÝÔR´°ÝäR´ ÞôR´ÞS´üÞS´hß$S´Ôß4S´DàDS´°àTS´ádS´átS´øáS´dâS´Ôâ¤S´Dã´S´°ãÄS´äÔS´ääS´øäôS´håT´ÔåT´@æ$T´¬æ4T´çDT´çTT´øçdT´xètT´éT´|éT´ìé¤T´Xê´T´ÄêÄT´4ëÔT´ ëäT´ìôT´ìU´ðìU´`í$U´Ðí4U´<îDU´¨îTU´ïdU´ïtU´øïU´dðU´Ðð¤U´@ñ´U´°ñÄU´òÔU´òäU´ôòôU´dóV´ÔóV´@ô$V´¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)ûÿþÿýÿÿÿûÿüÿúÿýÿ÷ÿøÿöÿùÿ÷ÿøÿùÿýÿþÿüÿúÿýÿùÿøÿ÷ÿüÿúÿõÿûÿøÿýÿþÿüÿûÿâÿÿÿéÿÿÿçÿÿÿãÿÿÿåÿÿÿèÿÿÿêÿÿÿëÿÿÿìÿÿÿíÿÿÿ÷ÿúÿûÿüÿåÿÿÿäÿÿÿúÿøÿùÿ÷ÿýÿþÿÿÿüÿøÿùÿ÷ÿöÿ÷ÿúÿþÿùÿ;
 

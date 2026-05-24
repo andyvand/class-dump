@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGPPTStringsLayout, PXGStringTextureProvider;
+@class PXGStringTextureProvider;
 
 @interface PXGPPTTextRenderingTester
 {
     PXGStringTextureProvider *_stringTextureProvider;
-    PXGPPTStringsLayout *_stringsLayout;
-    CDUnknownBlockType _textureProviderDidProvideCGImageHandler;
 }
 
 - (void);
@@ -22,19 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)lection;
+- (void)PhotoKitAssetCollection;
 
 // Remaining properties
 @property(retain, nonatomic) PXGStringTextureProvider *stringTextureProvider; // @synthesize stringTextureProvider=_stringTextureProvider;
-@property(retain, nonatomic) PXGPPTStringsLayout *stringsLayout; // @synthesize stringsLayout=_stringsLayout;
-@property(copy, nonatomic) CDUnknownBlockType textureProviderDidProvideCGImageHandler; // @synthesize textureProviderDidProvideCGImageHandler=_textureProviderDidProvideCGImageHandler;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SSREnrollmentSamplingMetaData
 {
     NSNumber *_selectionStatus;
-    NSString *_voiceProfileId;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *selectionStatus; // @synthesize selectionStatus=_selectionStatus;
-@property(readonly, nonatomic) NSString *voiceProfileId; // @synthesize voiceProfileId=_voiceProfileId;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFEventID, CWFWiFiNetworkSharingClientID, NSData, NSDate, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CWFXPCEvent
 {
     NSUUID *_UUID;
-    long long _type;
-    long long _internalType;
-    CWFWiFiNetworkSharingClientID *_wifiNetworkSharingClientID;
-    NSData *_wifiNetworkSharingNetworkListUpdateEventPredicateData;
-    NSData *_wifiNetworkSharingConnectedAPUpdateEventPredicateData;
-    NSString *_interfaceName;
-    NSDictionary *_info;
-    NSDate *_timestamp;
-    unsigned long long _acknowledgementTimeout;
 }
 
 + (_Bool);
@@ -25,7 +16,7 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)24;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,7 +24,7 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -43,12 +34,12 @@
 - (id);
 - (void);
 - (id);
+- (id)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/x509/x509_obj.c;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)S.;
 - (void);
-- (void);
+- (void)changeSelectionPath:(id)arg1 target:basis:ignoreModalities: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -56,16 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) unsigned long long acknowledgementTimeout; // @synthesize acknowledgementTimeout=_acknowledgementTimeout;
-@property(readonly) CWFEventID *eventID;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) long long internalType; // @synthesize internalType=_internalType;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) CWFWiFiNetworkSharingClientID *wifiNetworkSharingClientID; // @synthesize wifiNetworkSharingClientID=_wifiNetworkSharingClientID;
-@property(copy, nonatomic) NSData *wifiNetworkSharingConnectedAPUpdateEventPredicateData; // @synthesize wifiNetworkSharingConnectedAPUpdateEventPredicateData=_wifiNetworkSharingConnectedAPUpdateEventPredicateData;
-@property(copy, nonatomic) NSData *wifiNetworkSharingNetworkListUpdateEventPredicateData; // @synthesize wifiNetworkSharingNetworkListUpdateEventPredicateData=_wifiNetworkSharingNetworkListUpdateEventPredicateData;
 
 @end
 

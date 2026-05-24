@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class)hostStartNavigationSessionForTrip:reply: /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)newBufferWithBytesNoCopy:length:options:deallocator: /* Error: Ran out of types for this method. */;
 
 @end
 

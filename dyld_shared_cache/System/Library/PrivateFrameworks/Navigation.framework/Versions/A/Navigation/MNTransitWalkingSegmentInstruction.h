@@ -13,7 +13,7 @@
     GEOComposedWalkingRouteSegment *_walkingSegment;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

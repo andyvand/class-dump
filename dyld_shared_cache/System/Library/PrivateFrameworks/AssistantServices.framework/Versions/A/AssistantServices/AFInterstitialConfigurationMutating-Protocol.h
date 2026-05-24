@@ -5,5 +5,8 @@
 //
 
 @protocol AFInterstitialConfigurationMutating
+- (void);
+- (void);
+- (void)_p;
 @end
 

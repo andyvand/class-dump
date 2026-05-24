@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSData *_imageData;
 }
 
-+ (_Bool);
++ (_Bool)!;
 - (id);
 - (id);
+- (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties

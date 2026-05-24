@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSString;
+@class CKContainer;
 
 @interface ICNotesInvernessClientObjc
 {
     CKContainer *container;
-    long long environment;
-    void localURLString;
 }
 
-- (void);
-- (void);
+- (void),V_downloader;
+- (void)n;
 - (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (id)ount: /* Error: Ran out of types for this method. */;
+- (id)cachedDevicesForAccount: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) CKContainer *container; // @synthesize container;
-@property(nonatomic, readonly) long long environment; // @synthesize environment;
-@property(nonatomic, readonly) NSString *localURLString;
 
 @end
 

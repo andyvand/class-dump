@@ -5,8 +5,8 @@
 //
 
 @protocol MTLIOCommandBufferSPI
-- (unsigned long long)dingCount: /* Error: Ran out of types for this method. */;
 - (void);
+- (unsigned long long)getBufferBindings:bindingCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;

@@ -7,15 +7,12 @@
 @interface TSDCapabilities
 {
     long long _platform;
-    long long _deviceType;
-    long long _device;
-    long long _renderer;
 }
 
 + (id);
-+ (id);
++ (id)@9?;
 + (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
@@ -25,25 +22,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)B2;
 - (long long);
 - (id);
 - (long long);
-- (long long);
+- (long long)app entering background but failed to check configuration to see if unload graph on background is enabled, doing nothing. Error=%{public}@;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long device; // @synthesize device=_device;
-@property(readonly, nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) _Bool hasLightningPort;
-@property(readonly, nonatomic) _Bool isMetalCapable;
-@property(readonly, nonatomic) _Bool isRendererH3OrBelow;
-@property(readonly, nonatomic) _Bool isRendererH4OrBelow;
-@property(readonly, nonatomic) _Bool isRendererH5OrBelow;
-@property(readonly, nonatomic) struct CGSize maximumHardcodedTextureSize;
-@property(readonly, nonatomic) struct CGSize maximumTextureSize;
 @property(readonly, nonatomic) long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) long long renderer; // @synthesize renderer=_renderer;
 
 @end
 

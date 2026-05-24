@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWCrossIntentRankerResponse : SISchemaInstrumentationMessage
 {
     NSArray *_crossDomainRankerScoreKeepers;
-    NSArray *_crossIntentRankerScoreKeepers;
 }
 
 - (void);
@@ -28,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)objc.A.dylib;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -41,8 +40,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *crossDomainRankerScoreKeepers; // @synthesize crossDomainRankerScoreKeepers=_crossDomainRankerScoreKeepers;
-@property(copy, nonatomic) NSArray *crossIntentRankerScoreKeepers; // @synthesize crossIntentRankerScoreKeepers=_crossIntentRankerScoreKeepers;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

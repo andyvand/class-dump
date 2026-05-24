@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void)netifRingSize:kernelPipeTxRingSize:kernelPipeRxRingSize: /* Error: Ran out of types for this method. */;
+- (void)initWithName:delegate:enableWithChannelCount:netifRingSize:kernelPipeTxRingSize:kernelPipeRxRingSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NetworkExtension.NEHotspotAuthenticationProviderHostExportedObject *exportedObject; // @synthesize exportedObject;

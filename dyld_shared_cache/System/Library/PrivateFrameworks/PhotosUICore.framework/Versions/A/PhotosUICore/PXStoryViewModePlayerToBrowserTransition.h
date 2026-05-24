@@ -6,17 +6,11 @@
 
 #import <PhotosUICore/PXStoryViewModeFocusedClipsViewTransition.h>
 
-@class PXGLayout, PXNumberAnimator, PXPointAnimator, PXSwipeDownTracker;
+@class PXNumberAnimator, PXSwipeDownTracker;
 
 @interface PXStoryViewModePlayerToBrowserTransition : PXStoryViewModeFocusedClipsViewTransition
 {
     PXNumberAnimator *_completionProgressAnimator;
-    PXPointAnimator *_centerOffsetAnimator;
-    PXGLayout *_referenceLayout;
-    _Bool _shouldFadeOutEverything;
-    float _fractionCompletedAtFadeOutStart;
-    double _lastSwipeDownDuration;
-    PXSwipeDownTracker *_swipeDownTracker;
 }
 
 - (id);
@@ -27,7 +21,7 @@
 - (_Bool);
 - (struct CGRect);
 - (CDStruct_fe8c0406);
-- (double);
+- (double);
 - (double);
 - (void)ºÉ°;
 

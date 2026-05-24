@@ -5,5 +5,8 @@
 //
 
 @protocol AVAssetWriterDelegate
+
+@optional
+- (void);
 @end
 

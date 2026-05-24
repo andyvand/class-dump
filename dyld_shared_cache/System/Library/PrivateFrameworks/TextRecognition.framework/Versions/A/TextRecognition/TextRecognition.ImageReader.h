@@ -7,9 +7,6 @@
 @interface TextRecognition.ImageReader
 {
     id $defaultActor;
-    id configuration;
-    id engine;
-    id uuid;
 }
 
 @end

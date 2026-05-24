@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKProximityMessageViewModel
 {
     _Bool _showHeaderView;
-    unsigned long long _type;
-    NSString *_titleText;
-    NSString *_detailedText;
-    NSString *_primaryButtonTitle;
-    NSString *_secondaryButtonTitle;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,15 +21,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detailedText; // @synthesize detailedText=_detailedText;
-@property(copy, nonatomic) NSString *primaryButtonTitle; // @synthesize primaryButtonTitle=_primaryButtonTitle;
-@property(copy, nonatomic) NSString *secondaryButtonTitle; // @synthesize secondaryButtonTitle=_secondaryButtonTitle;
-@property(nonatomic) _Bool showHeaderView; // @synthesize showHeaderView=_showHeaderView;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

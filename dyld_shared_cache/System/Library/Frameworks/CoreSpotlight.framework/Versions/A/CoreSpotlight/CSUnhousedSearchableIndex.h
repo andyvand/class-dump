@@ -6,15 +6,11 @@
 
 #import <CoreSpotlight/CSSearchableIndex.h>
 
-@class CSIndexConnection, NSString;
+@class NSString;
 
 @interface CSUnhousedSearchableIndex : CSSearchableIndex
 {
     NSString *_resolvedIndexPath;
-    CSIndexConnection *_savedConnection;
-    _Bool _attemptedIndexPathResolution;
-    int _resolvedIndexPathErrorCode;
-    NSString *_indexPath;
 }
 
 - (id);
@@ -26,24 +22,20 @@
 - (id);
 - (id);
 - (id);
+- (id)1~;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)(|�#;
 - (const char *);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)endString:(const char *)arg1;
+- (id)appendString:(const char *)arg1;
 
 // Remaining properties
 @property _Bool attemptedIndexPathResolution; // @synthesize attemptedIndexPathResolution=_attemptedIndexPathResolution;
-@property(retain, nonatomic) NSString *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) NSString *resolvedIndexPath;
-@property(nonatomic) int resolvedIndexPathErrorCode; // @synthesize resolvedIndexPathErrorCode=_resolvedIndexPathErrorCode;
-@property(retain, nonatomic) CSIndexConnection *savedConnection; // @synthesize savedConnection=_savedConnection;
 
 @end
 

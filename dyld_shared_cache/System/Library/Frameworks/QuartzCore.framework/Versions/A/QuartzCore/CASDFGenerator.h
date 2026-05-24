@@ -7,12 +7,11 @@
 @interface CASDFGenerator
 {
     void *_renderer;
-    void *_context;
 }
 
 - (struct CGImage *);
-- (void);
-- (id);
+- (void)`;
+- (id);
 
 @end
 

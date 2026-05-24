@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGGraphMomentNodeCollection, PGTitleGenerationContext, PGTitleTuple, PHAsset, PHAssetCollection;
+@class PGTitleGenerationContext;
 @protocol PGEventEnrichment;
 
 @interface PGHighlightTitleGenerator
 {
     PGTitleGenerationContext *_titleGenerationContext;
-    _Bool _createVerboseTitle;
-    id <PGEventEnrichment> _collection;
-    PGGraphMomentNodeCollection *_momentNodes;
-    PHAssetCollection *_curatedAssetCollection;
-    PHAsset *_keyAsset;
-    PGTitleTuple *_titleTuple;
 }
 
 + (id);
-+ (id);
++ (id);;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)currentLocation;
+- (id)dElementController;
+- (id)Mb;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void)rray"8@"NSArray"16@"NSArray"24f32d36;
-- (id)Person;
+- (id)SignalTopPerson;
 - (id);
-- (void)setCuration;
+- (void)assetCuration;
 
 // Remaining properties
 @property(retain, nonatomic) id <PGEventEnrichment> collection; // @synthesize collection=_collection;
-@property(nonatomic) _Bool createVerboseTitle; // @synthesize createVerboseTitle=_createVerboseTitle;
-@property(retain, nonatomic) PHAssetCollection *curatedAssetCollection; // @synthesize curatedAssetCollection=_curatedAssetCollection;
-@property(retain, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(retain, nonatomic) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(retain, nonatomic) PGTitleTuple *titleTuple; // @synthesize titleTuple=_titleTuple;
 
 @end
 

@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSArray, NSData, PETSchemaPETMetadata;
+@class PETSchemaPETMetadata;
 
 @interface PETSchemaPETUpload : SISchemaTopLevelUnionType
 {
     PETSchemaPETMetadata *_metadata;
-    NSArray *_aggregated_messages;
-    NSArray *_unaggregated_messages;
-    _Bool _is_compressed;
-    NSData *_compressed_messages;
-    NSArray *_trial_messages;
-    NSData *_compressed_data;
-    struct {
-        unsigned int is_compressed:1;
-    } _has;
-    _Bool _hasMetadata;
-    _Bool _hasCompressed_messages;
-    _Bool _hasCompressed_data;
 }
 
 - (unsigned long long);
@@ -42,16 +30,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)T6;
 - (void);
 - (void);
 - (void);
@@ -60,8 +48,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)?;
 - (void);
 - (id);
 - (int);
@@ -69,30 +57,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)| Failed to add chat entry to unsynced_removed_recoverable_messages:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (id)dOfWhitespace"b1"isQueryStrippedOfSymbols"b1"isAsrE3Signal"b1};
-- (void)oardDismissed;
-- (id)ounceEnabled;
+- (void)deleteKeyboardDismissed;
+- (id)_hasIsAnnounceEnabled;
 - (id)urrentlyRestricted;
-- (_Bool)ENT;
+- (_Bool)FLOW_SERVER_EVENT;
 - (void)hasVoiceCommandParses;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *aggregated_messages; // @synthesize aggregated_messages=_aggregated_messages;
-@property(copy, nonatomic) NSData *compressed_data; // @synthesize compressed_data=_compressed_data;
-@property(copy, nonatomic) NSData *compressed_messages; // @synthesize compressed_messages=_compressed_messages;
-@property(nonatomic) _Bool hasCompressed_data; // @synthesize hasCompressed_data=_hasCompressed_data;
-@property(nonatomic) _Bool hasCompressed_messages; // @synthesize hasCompressed_messages=_hasCompressed_messages;
-@property(nonatomic) _Bool hasIs_compressed;
-@property(nonatomic) _Bool hasMetadata; // @synthesize hasMetadata=_hasMetadata;
-@property(nonatomic) _Bool is_compressed; // @synthesize is_compressed=_is_compressed;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PETSchemaPETMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSArray *trial_messages; // @synthesize trial_messages=_trial_messages;
-@property(copy, nonatomic) NSArray *unaggregated_messages; // @synthesize unaggregated_messages=_unaggregated_messages;
 
 @end
 

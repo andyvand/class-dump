@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface PKPeerPaymentDeviceRegistrationData
 {
     _Bool _devSigned;
-    NSString *_authorizationHeader;
-    NSString *_signedAuthToken;
-    NSDictionary *_enrollmentData;
-    NSData *_signedEnrollmentDataSignature;
-    NSString *_companionSerialNumber;
 }
 
 + (_Bool)qî%°1Â0@ù
 × ;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)kAckRequest"b1"cFend"b1"cFendCFack"b1"cts"b1"psPoll"b1"rts"b1};
+- (void)setImpactedServersAtStudyStart:(id)arg1;
 - (void);
-- (void);
-- (void)cationUIFail;
+- (void)kSecUseAuthenticationUIFail;
 - (void)õÿÐ£i¼D;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authorizationHeader; // @synthesize authorizationHeader=_authorizationHeader;
-@property(copy, nonatomic) NSString *companionSerialNumber; // @synthesize companionSerialNumber=_companionSerialNumber;
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(copy, nonatomic) NSDictionary *enrollmentData; // @synthesize enrollmentData=_enrollmentData;
-@property(copy, nonatomic) NSString *signedAuthToken; // @synthesize signedAuthToken=_signedAuthToken;
-@property(copy, nonatomic) NSData *signedEnrollmentDataSignature; // @synthesize signedEnrollmentDataSignature=_signedEnrollmentDataSignature;
 
 @end
 

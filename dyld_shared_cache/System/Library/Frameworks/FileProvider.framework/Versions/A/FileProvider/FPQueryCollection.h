@@ -6,16 +6,11 @@
 
 #import <FileProvider/FPItemCollection.h>
 
-@class FPQueryEnumerationSettings, NSArray, NSNumber, NSPredicate, NSString;
+@class FPQueryEnumerationSettings;
 
 @interface FPQueryCollection : FPItemCollection
 {
     FPQueryEnumerationSettings *_settings;
-    Class _descriptorClass;
-    NSPredicate *_predicate;
-    _Bool _isFetchingAssertion;
-    unsigned long long _itemsOrigin;
-    NSString *_descriptionName;
 }
 
 + (void);
@@ -32,35 +27,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ties;
+- (id);
+- (id)TKTokenKeychainCertificate;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)userDefaultVoice;
+- (id);
+- (void);
+- (void);
+- (void)humanReadableCapabilities;
 
 // Remaining properties
-@property(copy) NSArray *allowedFileTypes;
-@property(copy) NSArray *allowedProviderIdentifiers;
-@property(copy) NSString *descriptionName; // @synthesize descriptionName=_descriptionName;
-@property(copy) NSNumber *desiredNumberOfItems;
-@property(copy) NSArray *excludedFileTypes;
-@property(copy) NSArray *excludedParentOIDs;
-@property(readonly, nonatomic) unsigned long long itemsOrigin; // @synthesize itemsOrigin=_itemsOrigin;
-@property(readonly) unsigned long long lastForcedUpdate;
-@property(readonly) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly) FPQueryEnumerationSettings *settings; // @synthesize settings=_settings;
-@property(copy) NSString *tagIdentifier;
 
 @end
 

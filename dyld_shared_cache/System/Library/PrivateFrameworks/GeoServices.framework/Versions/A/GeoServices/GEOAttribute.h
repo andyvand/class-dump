@@ -9,32 +9,29 @@
 @interface GEOAttribute
 {
     PBUnknownFields *_unknownFields;
-    int _key;
-    unsigned int _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
-+ (_Bool)dataTileBuildId:(id)arg1;
++ (_Bool)setHasMetadataTileBuildId:(id)arg1;
 - (void);
 - (id);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)audioChunkFrom:(id)arg1 to:channelIdx: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)HasScreenResolution:(_Bool)arg1;
-- (id)archProviderId;
-- (unsigned int)Data:forKey:edition:set:provider:etag:reason: /* Error: Ran out of types for this method. */;
+- (void)setHasScreenResolution:(_Bool)arg1;
+- (id)placeCardPlaceActionDetailsLocalSearchProviderId;
+- (unsigned int)addData:forKey:edition:set:provider:etag:reason: /* Error: Ran out of types for this method. */;
 - (id)³´;
 - (id)OfflineRequestMetadataReadAllFrom can only be called once per object;
 - (id);
@@ -44,10 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) int key;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int value;
 
 @end
 

@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSelectorDelayer, NSButton, NSProgressIndicator, NSString, NSTextField, NSWindow;
-@protocol ICMProgressWindowControllerDelegate;
-
 @interface ICMProgressWindowController
 {
     _Bool _isVisible;
-    _Bool _shouldShowSpinner;
-    _Bool _indeterminate;
-    _Bool _shouldHideStopButton;
-    NSString *_stopButtonTitle;
-    id <ICMProgressWindowControllerDelegate> _delegate;
-    double _showHideThreshold;
-    NSString *_progressText;
-    double _progressValue;
-    NSProgressIndicator *_progressIndicator;
-    NSTextField *_progressLabel;
-    NSButton *_stopButton;
-    NSWindow *_containingWindow;
-    ICSelectorDelayer *_showSelectorDelayer;
 }
 
 + (id);
@@ -47,39 +31,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_referencedArticleID;
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void)ingInsideFrame;
+- (void)ReabstractionThunkHelper;
+- (void)_snippetAttributedStringInsideFrame;
 - (void)ICSelectorDelayer",&,N,V_updateSelectorDelayer;
 - (_Bool)o;
 
 // Remaining properties
-@property(retain) NSWindow *containingWindow; // @synthesize containingWindow=_containingWindow;
-@property(nonatomic) __weak id <ICMProgressWindowControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
 @property(nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property __weak NSTextField *progressLabel; // @synthesize progressLabel=_progressLabel;
-@property(retain, nonatomic) NSString *progressText; // @synthesize progressText=_progressText;
-@property(nonatomic) double progressValue; // @synthesize progressValue=_progressValue;
-@property(nonatomic) _Bool shouldHideStopButton; // @synthesize shouldHideStopButton=_shouldHideStopButton;
-@property(nonatomic) _Bool shouldShowSpinner; // @synthesize shouldShowSpinner=_shouldShowSpinner;
-@property(nonatomic) double showHideThreshold; // @synthesize showHideThreshold=_showHideThreshold;
-@property(retain, nonatomic) ICSelectorDelayer *showSelectorDelayer; // @synthesize showSelectorDelayer=_showSelectorDelayer;
-@property __weak NSButton *stopButton; // @synthesize stopButton=_stopButton;
-@property(retain, nonatomic) NSString *stopButtonTitle; // @synthesize stopButtonTitle=_stopButtonTitle;
 
 @end
 

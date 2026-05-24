@@ -7,21 +7,13 @@
 @interface PXTrimScrubberLayoutHelper
 {
     _Bool _needsUpdate;
-    double _filmstripScale;
-    double _pivotAnchor;
-    CDStruct_1b6d18a9 _duration;
-    struct CGRect _viewportFrame;
-    struct CGRect _filmstripFrame;
-    struct CGRect _filmstripFrameInScrubberSpace;
-    struct CGRect _visibleFrameInFilmstripSpace;
-    struct NSEdgeInsets _horizontalTimelineInset;
 }
 
 - (struct CGRect);
 - (struct CGRect);
 - (CDStruct_1b6d18a9);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,24 +29,15 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (void), the lookup call specified a creation option;
+- (CDStruct_1b6d18a9)criticalStorageThreshold;
+- (void)ce for %{public}@ because the user has completed listening it;
 - (id);
 - (void);
-- (_Bool)SocialGroupActionTypeCustomize;
+- (_Bool)PhotoKitSocialGroupActionTypeCustomize;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) struct CGRect durationInsetFilmstripFrame;
 @property(nonatomic) struct CGRect filmstripFrame; // @synthesize filmstripFrame=_filmstripFrame;
-@property(nonatomic) struct CGRect filmstripFrameInScrubberSpace; // @synthesize filmstripFrameInScrubberSpace=_filmstripFrameInScrubberSpace;
-@property(nonatomic) double filmstripScale; // @synthesize filmstripScale=_filmstripScale;
-@property(nonatomic) struct NSEdgeInsets horizontalTimelineInset; // @synthesize horizontalTimelineInset=_horizontalTimelineInset;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(nonatomic) double pivotAnchor; // @synthesize pivotAnchor=_pivotAnchor;
-@property(nonatomic) struct CGRect viewportFrame; // @synthesize viewportFrame=_viewportFrame;
-@property(nonatomic) struct CGRect visibleFrameInFilmstripSpace; // @synthesize visibleFrameInFilmstripSpace=_visibleFrameInFilmstripSpace;
 
 @end
 

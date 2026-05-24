@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AAFPromise, FAFamilyCircleCacheResponse;
+
 @protocol FAFamilyCircleCacheProtocol
+- (FAFamilyCircleCacheResponse *)Removing expired delegate ;
+- (AAFPromise *)H;
 @end
 

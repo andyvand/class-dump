@@ -9,25 +9,23 @@
 @interface TSDConnectionLinePathSource : TSDBezierPathSource
 {
     int mType;
-    double mOutsetFrom;
-    double mOutsetTo;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
+- (void);
+- (long long)MPCSuntoryError;
+- (void);
 - (double);
 - (double);
 - (unsigned long long);
 - (struct CGPath *);
 - (_Bool);
 - (id);
-- (id);
-- (struct CGPoint);
+- (id)]Pk;
+- (struct CGPoint)\$i;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -40,9 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long numberOfControlKnobs;
-@property(nonatomic) double outsetFrom; // @synthesize outsetFrom=mOutsetFrom;
-@property(nonatomic) double outsetTo; // @synthesize outsetTo=mOutsetTo;
 @property(nonatomic) int type; // @synthesize type=mType;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol _UIDraggingSessionDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

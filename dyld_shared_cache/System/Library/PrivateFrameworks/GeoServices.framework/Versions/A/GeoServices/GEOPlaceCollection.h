@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceCollection, GEOPublisher, NSString;
-@protocol GEOCollectionPublisherAttribution;
+@class GEOPDPlaceCollection;
 
 @interface GEOPlaceCollection
 {
     GEOPDPlaceCollection *_collection;
-    GEOPublisher *_publisher;
-    id <GEOCollectionPublisherAttribution> _publisherAttribution;
-    NSString *_publisherAttributionIdentifierString;
 }
 
 @end

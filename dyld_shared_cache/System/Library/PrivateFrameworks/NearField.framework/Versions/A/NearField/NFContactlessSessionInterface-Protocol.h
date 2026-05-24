@@ -5,5 +5,10 @@
 //
 
 @protocol NFContactlessSessionInterface
+- (oneway void)extCheckingResult"8;
+- (oneway void)_datumLabelSuggestionTextColor;
+- (oneway void)e_unretained Class, __strong id);
+- (oneway void)ntents/MacOS/IntlPreferences;
+- (oneway void)os;
 @end
 

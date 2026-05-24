@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UIView;
-@protocol UIAutoscrollContainer;
-
 @interface UIAutoscroll
 {
     id m_target;
-    struct CGPoint m_point;
-    UIView<UIAutoscrollContainer> *m_scrollContainer;
-    int m_directions;
-    double m_repeatInterval;
-    NSTimer *m_timer;
-    unsigned long long m_count;
-    _Bool m_active;
-    _Bool m_disabled;
-    id _target;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)ervice session for replicated message with source service %@ replicating account %@ (email alias:(id)arg1 %@);
+- (void)ipeline for read receipt fromID:(id)arg1 %@, ;
 - (id);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)x;
 - (void);
 - (double);
 - (void)Ñ[ð1Â0@ù
@@ -42,17 +30,10 @@
 - (unsigned long long)3;
 - (void)\þi;
 - (_Bool)®ôn;
-- (_Bool)s;
+- (_Bool)gos;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=m_active;
-@property(nonatomic) unsigned long long count; // @synthesize count=m_count;
-@property(nonatomic) int directions; // @synthesize directions=m_directions;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=m_disabled;
-@property(nonatomic) struct CGPoint point; // @synthesize point=m_point;
-@property(nonatomic) double repeatInterval; // @synthesize repeatInterval=m_repeatInterval;
-@property(retain, nonatomic) UIView<UIAutoscrollContainer> *scrollContainer; // @synthesize scrollContainer=m_scrollContainer;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

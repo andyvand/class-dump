@@ -7,24 +7,6 @@
 @interface NewsFeed.FormatLayoutViewPoolManager
 {
     id viewPool;
-    id buttonPool;
-    id imagePool;
-    id labelPool;
-    id layoutViewPool;
-    id stateViewPool;
-    id layeredMediaViewPool;
-    id videoViewPool;
-    id micaViewPool;
-    id progressViewPool;
-    id progressPieViewPool;
-    id progressCircleViewPool;
-    id splitViewPool;
-    id gradientViewPool;
-    id sponsoredBannerPool;
-    id webEmbedImageViewPool;
-    id issueCoverViewWithImagePool;
-    id issueCoverViewWithLayeredMediaPool;
-    id canEnqueue;
 }
 
 - (void);

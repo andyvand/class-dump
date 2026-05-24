@@ -9,9 +9,6 @@
 @interface UIKit._UIEdgePanDismissSubInteraction
 {
     id parent;
-    void view;
-    id axis;
-    id gesture;
 }
 
 - (_Bool);
@@ -20,7 +17,7 @@
 - (void);
 - (_Bool)KitRequestedOverscanCompensation:(id)arg1 ,V_avkitRequestedOverscanCompensation;
 - (id);
-- (void)istLayoutSectionBackgroundColorDecorationElementKind;
+- (void)_UICollectionViewListLayoutSectionBackgroundColorDecorationElementKind;
 - (void)e.messages.stickerTapback;
 - (_Bool)%@ = %@;
 - (void),*_;

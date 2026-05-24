@@ -6,41 +6,27 @@
 
 #import <PhotosUICore/PXAsyncOperation.h>
 
-@class NSObject, NSProgress, NSString, PXAudioSession;
-@protocol OS_dispatch_queue, PXStorySongResource;
+@class NSProgress, PXAudioSession;
 
 @interface PXStorySongResourcePreloadingOperation : PXAsyncOperation
 {
     NSProgress *_progress;
-    id <PXStorySongResource> _resource;
-    PXAudioSession *_session;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
-- (id)lectionListSubtype;
+- (id)_collectionListSubtype;
 - (id)¬;
-- (void)eleteAssetActionPerformer_TitleSelection;
+- (void)PXPhotoKitDeleteAssetActionPerformer_TitleSelection;
 - (void)·;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) id <PXStorySongResource> resource; // @synthesize resource=_resource;
 @property(retain, nonatomic) PXAudioSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

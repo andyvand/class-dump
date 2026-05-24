@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMDeviceSetupOperationBase.h>
 
-@class HMTRSession, TRSession;
+@class HMTRSession;
 
 @interface HMDeviceSetupOperation : HMDeviceSetupOperationBase
 {
@@ -22,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) __weak TRSession *session;
 @property(readonly) HMTRSession *trSession; // @synthesize trSession=_trSession;
 
 @end

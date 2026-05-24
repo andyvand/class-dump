@@ -4,47 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface ICMusicSubscriptionLeaseController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMutableDictionary *_accountDSIDToFairPlayKeyStatus;
-    NSMutableDictionary *_cacheKeyToLeaseSession;
-    _Bool _hasReceivedUserInteractionEvent;
-    _Bool _isRemoteServerLikelyReachable;
-    _Bool _isServerReachable;
-    NSString *_lastKnownHouseholdID;
-    int _leaseDidEndNotificationToken;
-    NSOperationQueue *_leaseSessionPreparationOperationQueue;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)ode" :(id)arg1 "self",
+      "ignoreFloors" :(id)arg2 true,
+      "outputs" :(id)arg3 {
+        "depth" :(id)arg4 "SceneKit-CI-nodetree-depth",
+        "color" :(id)arg5 "SceneKit-CI-nodetree-color"
+      },
+      "colorStates" :(CDUnknownBlockType)arg6 {
+        "clear" :true
+      },
+      "depthStates" :{
+        "clear" :true
+      },
+      
+    }
+  }
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)ocationInWindow;
 - (void);
-- (void);
-- (void)n;
+- (void)_ICLLClientInfoAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *lastKnownHouseholdID;
-@property(readonly) Class superclass;
 
 @end
 

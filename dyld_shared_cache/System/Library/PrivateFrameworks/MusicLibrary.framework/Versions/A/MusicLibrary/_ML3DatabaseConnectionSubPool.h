@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface _ML3DatabaseConnectionSubPool
 {
     NSObject<OS_dispatch_queue> *_checkoutQueue;
-    NSObject<OS_dispatch_queue> *_checkinQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_semaphore> *_waitingSemaphore;
-    NSMutableSet *_availableConnections;
-    NSMutableSet *_busyConnections;
-    int _willDeleteDatabaseNotifyToken;
-    int _homeSharingCachesClearedNotifyToken;
-    _Bool _isSubPoolClosed;
-    _Bool _useReadOnlyConnections;
-    _Bool _useDistantConnections;
-    NSString *_databasePath;
-    unsigned long long _maxConcurrentConnections;
-    unsigned long long _connectionsJournalingMode;
 }
 
+- (void)T;
+- (_Bool)(M(F.A;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)$M;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)homeAccessCodeValueWithStringValue:(_Bool)arg1 removedUserInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)hiddenViewController;
 - (unsigned long long);
 - (_Bool);
 - (void)son entry for cloud ID '%{public}@' - skipping attribution;
@@ -53,11 +40,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectionsJournalingMode; // @synthesize connectionsJournalingMode=_connectionsJournalingMode;
 @property(readonly, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(readonly, nonatomic) unsigned long long maxConcurrentConnections; // @synthesize maxConcurrentConnections=_maxConcurrentConnections;
-@property(nonatomic) _Bool useDistantConnections; // @synthesize useDistantConnections=_useDistantConnections;
-@property(nonatomic) _Bool useReadOnlyConnections; // @synthesize useReadOnlyConnections=_useReadOnlyConnections;
 
 @end
 

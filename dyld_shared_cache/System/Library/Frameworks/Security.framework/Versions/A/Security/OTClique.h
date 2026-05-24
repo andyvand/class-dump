@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OTConfigurationContext;
+@class NSString;
 
 @interface OTClique
 {
     NSString *_cliqueMemberIdentifier;
-    OTConfigurationContext *_ctx;
 }
 
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cliqueMemberIdentifier; // @synthesize cliqueMemberIdentifier=_cliqueMemberIdentifier;
-@property(readonly, nonatomic) OTConfigurationContext *ctx; // @synthesize ctx=_ctx;
 @end
 

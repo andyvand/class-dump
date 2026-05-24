@@ -5,5 +5,10 @@
 //
 
 @protocol IDSLinkDelegate
+
+@optional
+- (void)i;
+- (void);
+- (void);
 @end
 

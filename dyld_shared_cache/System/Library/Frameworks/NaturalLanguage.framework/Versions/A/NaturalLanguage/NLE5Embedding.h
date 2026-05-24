@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NLE5Embedding
 {
     int _numInputs;
-    void *_subwordVocabRef;
-    unique_ptr_c0ff3a44 _programLibrary;
-    struct unique_ptr<E5RT::ExecutionStream, std::default_delete<E5RT::ExecutionStream>> _stream;
-    struct shared_ptr<E5RT::ExecutionStreamOperation> _main_esop;
-    struct unordered_map<std::string, std::shared_ptr<E5RT::BufferObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>>> _buffers;
-    NSString *_loadedFunction;
-    unsigned long long _dimension;
-    unsigned long long _maximumSequenceLength;
-    NSArray *_adapters;
 }
 
 + (_Bool);
@@ -49,15 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *adapters; // @synthesize adapters=_adapters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long dimension; // @synthesize dimension=_dimension;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long maximumSequenceLength; // @synthesize maximumSequenceLength=_maximumSequenceLength;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeWalletKey, NSArray, NSString;
+@class HMHomeWalletKey;
 
 @interface HMHomeWalletKeyDeviceState
 {
     _Bool _canAddWalletKey;
-    HMHomeWalletKey *_walletKey;
-    NSString *_expressEnablementConflictingPassDescription;
-    long long _canAddWalletKeyErrorCode;
 }
 
 + (id);
@@ -29,34 +26,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)humorously;
+- (id)cordial;
 - (void);
 - (id);
 - (id);
 - (void)äÔÔÕ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property _Bool canAddWalletKey; // @synthesize canAddWalletKey=_canAddWalletKey;
-@property long long canAddWalletKeyErrorCode; // @synthesize canAddWalletKeyErrorCode=_canAddWalletKeyErrorCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *expressEnablementConflictingPassDescription; // @synthesize expressEnablementConflictingPassDescription=_expressEnablementConflictingPassDescription;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(copy) HMHomeWalletKey *walletKey; // @synthesize walletKey=_walletKey;
 
 @end

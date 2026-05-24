@@ -7,14 +7,11 @@
 @interface _NSSecureCodableTextAttachment
 {
     id snapshotImage;
-    id cellBaselineOffset;
-    id snapshotImageKey;
-    id cellBaselineOffsetKey;
 }
 
 + (_Bool)Ì;
 - (id);
-- (id);
+- (id)ئ;
 - (void)
 × ;
 - (void)8*bÿG^;

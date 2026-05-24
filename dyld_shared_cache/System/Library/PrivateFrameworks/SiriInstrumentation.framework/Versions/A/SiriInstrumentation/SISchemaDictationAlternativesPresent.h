@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaLocaleIdentifier;
-
 @interface SISchemaDictationAlternativesPresent : SISchemaInstrumentationMessage
 {
     int _numberOfUnderlines;
-    int _countOfWordsUnderlined;
-    SISchemaLocaleIdentifier *_alternativesLocale;
-    _Bool _multilingualIsLowConfidence;
-    struct {
-        unsigned int numberOfUnderlines:1;
-        unsigned int countOfWordsUnderlined:1;
-        unsigned int multilingualIsLowConfidence:1;
-    } _has;
-    _Bool _hasAlternativesLocale;
 }
 
 - (void);
@@ -45,24 +34,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_executablePath;
+- (_Bool)IDSServiceNameFaceTime;
+- (_Bool)mime_type,   transfer_state ) SELECT   attachment_guid,   created_date,   start_date,   filename,   uti_type,   mime_type,   transfer_state FROM   madrid_attachment_legacy WHERE   ROWID = ?;
+- (id)|;
 - (id);
-- (id);
-- (id)eteAssistantDaemonAudioSessionSetInactiveContext;
-- (id)cirAlertRespectScoreOverrides;
-- (void)SocialScore;
+- (id)deleteAssistantDaemonAudioSessionSetInactiveContext;
+- (id)_cirAlertRespectScoreOverrides;
+- (void)anchorSocialScore;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaLocaleIdentifier *alternativesLocale; // @synthesize alternativesLocale=_alternativesLocale;
-@property(nonatomic) int countOfWordsUnderlined; // @synthesize countOfWordsUnderlined=_countOfWordsUnderlined;
-@property(nonatomic) _Bool hasAlternativesLocale; // @synthesize hasAlternativesLocale=_hasAlternativesLocale;
-@property(nonatomic) _Bool hasCountOfWordsUnderlined;
-@property(nonatomic) _Bool hasMultilingualIsLowConfidence;
-@property(nonatomic) _Bool hasNumberOfUnderlines;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool multilingualIsLowConfidence; // @synthesize multilingualIsLowConfidence=_multilingualIsLowConfidence;
 @property(nonatomic) int numberOfUnderlines; // @synthesize numberOfUnderlines=_numberOfUnderlines;
 
 @end

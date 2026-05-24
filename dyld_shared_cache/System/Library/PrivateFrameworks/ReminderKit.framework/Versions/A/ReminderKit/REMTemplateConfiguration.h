@@ -9,11 +9,10 @@
 @interface REMTemplateConfiguration
 {
     _Bool _shouldSaveCompleted;
-    REMObjectID *_sourceListID;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldSaveCompleted; // @synthesize shouldSaveCompleted=_shouldSaveCompleted;
 @property(readonly, nonatomic) REMObjectID *sourceListID; // @synthesize sourceListID=_sourceListID;
 
 @end

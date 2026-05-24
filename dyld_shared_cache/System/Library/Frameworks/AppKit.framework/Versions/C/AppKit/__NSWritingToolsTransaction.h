@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __NSWritingToolsTransaction
 {
     CDUnknownBlockType _block;
-    SEL _callingSelector;
-    long long _state;
 }
 
 - (id);

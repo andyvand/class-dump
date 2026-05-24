@@ -6,24 +6,23 @@
 
 #import <SAObjects/SAReminderTrigger.h>
 
-@class SAReminderDateTimeTrigger, SAReminderLocationTrigger;
+@class SAReminderDateTimeTrigger;
 
 @interface SAReminderCompositeTrigger : SAReminderTrigger
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)H+;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAReminderDateTimeTrigger *dateTimeTrigger;
-@property(retain, nonatomic) SAReminderLocationTrigger *locationTrigger;
 
 @end
 

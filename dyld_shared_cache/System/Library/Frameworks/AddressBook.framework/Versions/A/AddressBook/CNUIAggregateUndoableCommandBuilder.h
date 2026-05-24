@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSMutableArray, NSString;
+@class NSString;
 
 @interface CNUIAggregateUndoableCommandBuilder
 {
     _Bool _ignoresGuardianRestrictions;
-    NSString *_actionName;
-    CNContactStore *_contactStore;
-    NSMutableArray *_undoableCommands;
 }
 
 - (id);
@@ -20,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!ɚ;
 - (void);
 - (id);
 - (void);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
-@property(retain, nonatomic) NSMutableArray *undoableCommands; // @synthesize undoableCommands=_undoableCommands;
 
 @end
 

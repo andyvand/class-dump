@@ -11,12 +11,12 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)3;
 - (id);
 - (void);
+- (id)o;
 - (id);
-- (id);
-- (id);
+- (id)ICDocCamOCRDisabledDefaultsKey;
 - (id)l;
 - (id);
 

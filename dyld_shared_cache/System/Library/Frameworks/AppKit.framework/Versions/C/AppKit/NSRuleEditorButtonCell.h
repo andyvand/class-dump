@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (struct CGSize);
+- (struct CGSize)<OS_dispatch_semaphore>";
 - (_Bool);
 
 @end

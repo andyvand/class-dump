@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)rContext"8;
 + (void);
 - (unsigned long long);
 

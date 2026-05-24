@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol RTCReportingMessageSentNotifier;
-
 @interface _RTCReportingS
 {
     void messageLoggingBlock;
-    void messageSentDelegate;
-    id lock;
-    id session;
-    id configured;
-    id connectionManager;
-    id generatedSessionID;
-    id sessionInfo;
-    id userInfo;
-    id deprecatedPeriodic;
-    id legacyAVCSupport;
-    id earlyCachedEvents;
-    id completelyDisabled;
-    id extraFields;
-    id terminated;
-    id sentEventCount;
-    id activeTasks;
 }
 
 + (id);
@@ -32,14 +14,14 @@
 + (id);
 + (id);
 + (_Bool);
-+ (void);
++ (void)ic}@, reminderID=%{public}@, serverID=%@, error=%{public}@, stack=%@};
 + (id);
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -51,7 +33,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -65,7 +47,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType messageLoggingBlock;
-@property(nonatomic) __weak id <RTCReportingMessageSentNotifier> messageSentDelegate; // @synthesize messageSentDelegate;
 
 @end
 

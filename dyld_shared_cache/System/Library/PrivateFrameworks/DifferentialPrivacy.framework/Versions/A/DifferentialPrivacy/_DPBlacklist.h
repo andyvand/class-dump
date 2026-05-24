@@ -9,8 +9,6 @@
 @interface _DPBlacklist
 {
     NSSet *_blacklist;
-    long long _version;
-    NSString *_key;
 }
 
 + (id);
@@ -22,17 +20,15 @@
 + (id);
 + (id);
 + (void);
-- (id);
+- (id)ClearCommandShortcut;
 - (long long);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ers to text field. isUIKit:%d isSecure:%d %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *blacklist; // @synthesize blacklist=_blacklist;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

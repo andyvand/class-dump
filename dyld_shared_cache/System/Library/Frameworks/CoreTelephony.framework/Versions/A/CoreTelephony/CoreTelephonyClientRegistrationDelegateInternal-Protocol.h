@@ -5,5 +5,12 @@
 //
 
 @protocol CoreTelephonyClientRegistrationDelegateInternal
+
+@optional
+- (void);
+- (void)';
+- (void)b;
+- (void)h;
+- (void);
 @end
 

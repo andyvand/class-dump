@@ -7,11 +7,6 @@
 @interface UISpringTimingParameters
 {
     _Bool _implicitDuration;
-    double _dampingRatio;
-    double _mass;
-    double _stiffness;
-    double _damping;
-    struct CGVector _initialVelocity;
 }
 
 + (void);

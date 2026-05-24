@@ -6,29 +6,20 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString;
-
 @interface SMCMNoMovementMonitor : RTService
 {
     _Bool _isMonitoring;
 }
 
 - (void);
-- (void);
+- (void)addLengthHeader:(_Bool)arg1;
 - (id);
 - (_Bool);
 - (void)Index,%d/%d,returned false,tripStart,%@,tripEnd,%@;
 - (void)tyCache,Receiver,sessionID:(id)arg1 %@,%@,%@,missing invitation token;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(readonly) Class superclass;
 
 @end
 

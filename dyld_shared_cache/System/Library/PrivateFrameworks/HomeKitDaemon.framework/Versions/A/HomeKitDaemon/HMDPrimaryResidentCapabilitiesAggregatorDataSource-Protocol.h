@@ -9,7 +9,7 @@
 @protocol HMDPrimaryResidentCapabilitiesAggregatorDataSource
 - (_Bool)Ñ1Â0@ù
 × ;
-- (id <HMELastEventStoreReadHandle>)dNotify;
-- (id <HMEEventForwarder>)esponseRun;
+- (id <HMELastEventStoreReadHandle>)evaluateAndNotify;
+- (id <HMEEventForwarder>)HMDUserConfirmationResponseRun;
 @end
 

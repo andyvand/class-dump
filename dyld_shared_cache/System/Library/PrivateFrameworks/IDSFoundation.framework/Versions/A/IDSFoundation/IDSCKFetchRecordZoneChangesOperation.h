@@ -9,36 +9,27 @@
 @interface IDSCKFetchRecordZoneChangesOperation : IDSCKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    CDUnknownBlockType _recordChangedBlock;
-    CDUnknownBlockType _recordWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneChangeTokensUpdatedBlock;
-    CDUnknownBlockType _recordZoneFetchCompletionBlock;
-    CDUnknownBlockType _fetchRecordZoneChangesCompletionBlock;
 }
 
 + (Class);
 + (id)QX;
 - (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)C;
 - (CDUnknownBlockType);
 - (void);
+- (CDUnknownBlockType);
 - (void);
+- (void)ent listener.
+;
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)tD;
 - (void)e.alloy.mediaremoted;
 - (CDUnknownBlockType);
 - (void)Ws	;
 
 // Remaining properties
 @property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZoneChangesCompletionBlock; // @synthesize fetchRecordZoneChangesCompletionBlock=_fetchRecordZoneChangesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordChangedBlock; // @synthesize recordChangedBlock=_recordChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWithIDWasDeletedBlock; // @synthesize recordWithIDWasDeletedBlock=_recordWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneChangeTokensUpdatedBlock; // @synthesize recordZoneChangeTokensUpdatedBlock=_recordZoneChangeTokensUpdatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchCompletionBlock; // @synthesize recordZoneFetchCompletionBlock=_recordZoneFetchCompletionBlock;
 
 @end
 

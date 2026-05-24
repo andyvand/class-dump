@@ -9,36 +9,30 @@
 @interface ECSubject
 {
     unsigned long long _hasReplyPrefixState;
-    unsigned long long _hasForwardPrefixState;
-    _Bool _hasPrefix;
-    unsigned long long _length;
-    NSString *_prefix;
-    unsigned long long _prefixLength;
-    NSString *_subjectWithoutPrefix;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)moveToLocation:(id)arg1 delta:eventType:markupHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)bufferImage;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
-- (id);
+- (id)_omitSensitiveStrings;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)N;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)��;
 - (void);
 - (void);
 - (id);
@@ -46,29 +40,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)Library/Frameworks/Security.framework/Versions/A/Security;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool hasForwardPrefix;
-@property(readonly, nonatomic) _Bool hasPrefix; // @synthesize hasPrefix=_hasPrefix;
-@property(readonly, nonatomic) _Bool hasReplyPrefix;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) unsigned long long prefixLength; // @synthesize prefixLength=_prefixLength;
-@property(readonly, copy, nonatomic) NSString *subjectString;
 @property(copy, nonatomic) NSString *subjectWithoutPrefix; // @synthesize subjectWithoutPrefix=_subjectWithoutPrefix;
-@property(readonly) Class superclass;
 
 @end
 

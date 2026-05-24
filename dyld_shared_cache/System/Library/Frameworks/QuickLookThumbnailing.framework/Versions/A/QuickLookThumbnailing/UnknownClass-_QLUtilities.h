@@ -8,13 +8,13 @@
 + (id);
 + (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)3;
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);

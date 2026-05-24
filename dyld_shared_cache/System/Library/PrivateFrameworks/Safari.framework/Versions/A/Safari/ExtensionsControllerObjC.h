@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void *);
+- (void *);
 
 // Remaining properties
 @property(readonly, nonatomic) void *cpp;

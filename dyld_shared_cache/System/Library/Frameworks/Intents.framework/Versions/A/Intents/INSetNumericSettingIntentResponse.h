@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INNumericSettingValue, NSString;
-
 @interface INSetNumericSettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)16;
++ (int)prepareForSending;
++ (long long)mostRepresentativeThumbnail;
++ (_Bool)isAutomaticallyGenerated;
 + (_Bool);
 - (id);
 - (void);
@@ -28,13 +26,14 @@
 - (void);
 - (void);
 - (id);
+- (id)sessionEventQueue;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)ed but can no longer find it. 0x%08lX.
+;
+- (void);
+- (void)(%{public}s:(id)arg1 %u) read() failed, %d (%{public}s);
 - (id);
 - (id);
 - (long long)V_codableAttribute;
@@ -42,18 +41,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy) INNumericSettingValue *maxValue;
-@property(copy) INNumericSettingValue *minValue;
-@property(copy) INNumericSettingValue *oldValue;
-@property(readonly) Class superclass;
-@property(copy) INNumericSettingValue *updatedValue;
 
 @end
 

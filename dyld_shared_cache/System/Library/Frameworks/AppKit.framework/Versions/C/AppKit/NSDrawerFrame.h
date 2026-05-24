@@ -9,41 +9,38 @@
 @interface NSDrawerFrame : NSFrameView
 {
     long long trackingTag;
-    unsigned long long drawerEdge;
-    _Bool registeredForEdgeChanges;
-    _Bool _unused;
 }
 
-+ (double);
-+ (struct CGSize);
-+ (struct CGSize);
++ (double)e.;
++ (struct CGSize)st.;
++ (struct CGSize)est from Obj-C request.;
 + (struct CGRect);
 + (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (struct CGSize);
+- (id)privateStorage;
+- (void)q,V__companionProxyPreference;
+- (void)spectsAllowsCellularAccessForDiscretionaryTasks;
 - (id);
+- (void)headers=%@ req=%@;
+- (_Bool)nit the selectEntriesStmt statement for alt_services;
+- (void)FCachedURLResponse %p [%p]>;
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)_pasteboard:(id)arg1 item:provideDataForType:completionHandler: /* Error: Ran out of types for this method. */;
 - (struct CGRect)hùö;
 - (void)Tag:(id)arg1 %d
 ;

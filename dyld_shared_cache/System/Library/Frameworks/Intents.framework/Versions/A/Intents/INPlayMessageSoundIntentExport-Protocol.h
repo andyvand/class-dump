@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol INPlayMessageSoundIntentExport
+- (void)dictionaryWithObjects:(NSString *)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(copy) NSString *messageIdentifier;
 @property long long soundType;
 @end
 

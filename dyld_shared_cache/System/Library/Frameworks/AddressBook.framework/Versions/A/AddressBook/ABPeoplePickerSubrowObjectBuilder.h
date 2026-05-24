@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSPredicate, NSString;
+@class NSArray;
 
 @interface ABPeoplePickerSubrowObjectBuilder
 {
     NSArray *_coreDataRecords;
-    NSPredicate *_filterPredicate;
-    NSMutableArray *_peoplePickerSubrowObjects;
-    NSString *_property;
-    NSMutableDictionary *_valueIdentifierToRecordIdentifierMap;
-    long long _propertyType;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)Rh&;
 - (void);
 - (void);
 - (void);

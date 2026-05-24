@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)NSString"48@"IDSMessageContext"56;
 @end
 

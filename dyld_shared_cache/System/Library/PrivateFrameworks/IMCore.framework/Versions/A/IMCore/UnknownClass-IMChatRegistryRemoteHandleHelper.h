@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMChatRegistryRemoteHandleHelper)
-- (id);
+- (id)ent-init;
 @end
 

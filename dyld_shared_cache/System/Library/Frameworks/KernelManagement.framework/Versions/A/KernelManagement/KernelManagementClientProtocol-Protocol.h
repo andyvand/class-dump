@@ -4,6 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol KernelManagementClientProtocol
+- (void)SGraph:(NSArray *)arg1:(NSArray *)arg2 slice_kernel] unsupported:(unsigned long long)arg3 axis != 2 && axis != 3;
+- (void);
+- (void)inputs or outputs. ;
+- (void)blob:(NSString *)arg1 %s;
+- (void)s. Blob renaming not yet done.;
+- (void)conversion mode for output blob %s;
+- (void)specs for %s.;
+- (void)plit_kernel] unsupported:(NSArray *)arg1 nd_mode;
+- (void)] unsupported:(NSArray *)arg1 axis must be 2;
+- (void)_out_shape_ptr && conv_out_shape_ptr->rank() == 4;
+- (void)1;
+- (void)ph, add_0, gamma, beta, conv_out);
+- (void)0->output());
+- (void)ut()->name() == conv_out->name();
+- (void)== ELEMENTWISE_OPERATION_POW && square_0_p.alpha == 2.0f;
 @end
 

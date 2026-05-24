@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, CNCache, CNContactStore, CNContainer, NSObject;
-@protocol OS_dispatch_queue;
+@class CNContainer;
 
 __attribute__((visibility("hidden")))
 @interface CNContainerCache
 {
     CNContainer *_primaryiCloudContainer;
-    CNContactStore *_contactStore;
-    ACAccountStore *_accountStore;
-    CNCache *_cachedAccounts;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -31,21 +26,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (void)
 × ;
-- (void)uldPerformTransitionAnimation;
+- (void)shouldPerformTransitionAnimation;
 - (void)SSet"16@?0@"NSArray"8;
 - (id)ÿÿÈ;
 
 // Remaining properties
-@property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(retain, nonatomic) CNCache *cachedAccounts; // @synthesize cachedAccounts=_cachedAccounts;
-@property(nonatomic) __weak CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(retain, nonatomic) CNContainer *primaryiCloudContainer; // @synthesize primaryiCloudContainer=_primaryiCloudContainer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSFileManager, NSMutableDictionary, NSNumber, NSString, NSURL;
+@class NSData, NSFileManager;
 
 @interface CLConditionLedger
 {
     NSData *_encryptionKey;
-    NSMutableDictionary *_recordTable;
-    _Bool _readSucceeded;
-    NSString *_ledgerName;
-    NSNumber *_ledgerVersionNumber;
-    NSURL *_ledgerFile;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -26,26 +21,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (id)R;
+- (id);
+- (id);
 - (_Bool);
+- (void)romTwiddled is not supported
+;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, getter=defaultFileManager) NSFileManager *fileManager;
-@property(readonly, nonatomic) NSURL *ledgerFile; // @synthesize ledgerFile=_ledgerFile;
-@property(readonly, nonatomic) NSString *ledgerName; // @synthesize ledgerName=_ledgerName;
-@property(readonly, nonatomic) NSNumber *ledgerVersionNumber; // @synthesize ledgerVersionNumber=_ledgerVersionNumber;
-@property(readonly, getter=allMonitoringIdentifiers) NSArray *monitoredIdentifiers;
-@property(readonly, getter=allMonitoringRecordsByIdentifier) NSDictionary *monitoredRecordsByIdentifier;
 
 @end
 

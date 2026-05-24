@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface NFAssertion
 {
     _Bool _isReleased;
-    int _pid;
-    unsigned long long _assertionType;
-    NSDate *_assertionTime;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (int);
+- (int);
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *assertionTime; // @synthesize assertionTime=_assertionTime;
-@property(readonly) unsigned long long assertionType; // @synthesize assertionType=_assertionType;
 @property _Bool isReleased; // @synthesize isReleased=_isReleased;
-@property(readonly) int pid; // @synthesize pid=_pid;
 
 @end
 

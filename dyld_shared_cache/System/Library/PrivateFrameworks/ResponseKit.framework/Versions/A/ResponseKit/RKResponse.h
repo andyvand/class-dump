@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RKResponse
 {
     NSString *_string;
-    NSDictionary *_attributes;
-    NSString *_category;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)gistration message asynchronously to daemon. %s;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

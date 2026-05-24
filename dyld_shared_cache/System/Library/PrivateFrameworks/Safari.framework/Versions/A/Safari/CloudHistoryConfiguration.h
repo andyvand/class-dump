@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RemoteConfigurationsController;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CloudHistoryConfiguration
 {
     NSDictionary *_remoteConfiguration;
-    RemoteConfigurationsController *_remoteConfigurationsController;
-    _Bool _fullyConfigured;
-    double _historyModificationIdleDelayBeforeSyncAttempt;
-    double _historyRemovalIdleDelayBeforeSyncAttempt;
-    double _saveChangesBeforeTerminationTimeout;
 }
 
 + (id);
@@ -24,24 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (double);
+- (id)b;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isFullyConfigured) _Bool fullyConfigured; // @synthesize fullyConfigured=_fullyConfigured;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double historyModificationIdleDelayBeforeSyncAttempt; // @synthesize historyModificationIdleDelayBeforeSyncAttempt=_historyModificationIdleDelayBeforeSyncAttempt;
-@property(readonly, nonatomic) double historyRemovalIdleDelayBeforeSyncAttempt; // @synthesize historyRemovalIdleDelayBeforeSyncAttempt=_historyRemovalIdleDelayBeforeSyncAttempt;
-@property(readonly, nonatomic) double saveChangesBeforeTerminationTimeout; // @synthesize saveChangesBeforeTerminationTimeout=_saveChangesBeforeTerminationTimeout;
-@property(readonly) Class superclass;
 
 @end
 

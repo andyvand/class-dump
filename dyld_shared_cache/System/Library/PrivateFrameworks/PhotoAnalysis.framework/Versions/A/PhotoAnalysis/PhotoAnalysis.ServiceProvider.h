@@ -7,15 +7,6 @@
 @interface PhotoAnalysis.ServiceProvider
 {
     id $defaultActor;
-    id serviceCreationTaskByDescription;
-    id connection;
-    id executive;
-    id clientBundleID;
-    id clientDescription;
-    id client;
-    id identifier;
-    id logger;
-    id stateHolder;
 }
 
 - (void);

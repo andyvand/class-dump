@@ -9,7 +9,6 @@
 @interface _EAEmailAddressSetEnumerator
 {
     EAEmailAddressSet *_set;
-    CDStruct_58648341 _state;
 }
 
 - (id);

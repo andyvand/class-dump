@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionClient, NSDictionary, NSMutableDictionary, NSNumber;
+@class NSNumber;
 
 @interface CMIOExtensionStreamProperties
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_propertiesDictionary;
-    CMIOExtensionClient *_client;
 }
 
 + (id);
@@ -24,27 +22,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)釹;
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)9;
 - (id);
 - (void);
-- (id);
+- (id)T@"NSString",&,N,V_notes;
 - (id);
 
 // Remaining properties
 @property(retain) NSNumber *activeFormatIndex;
-@property(retain) NSDictionary *frameDuration;
-@property(retain) NSDictionary *maxFrameDuration;
-@property(copy) NSDictionary *propertiesDictionary;
-@property(retain) NSNumber *sinkBufferQueueSize;
-@property(retain) NSNumber *sinkBufferUnderrunCount;
-@property(retain) NSNumber *sinkBuffersRequiredForStartup;
-@property(retain) NSNumber *sinkEndOfData;
 
 @end
 

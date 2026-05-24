@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMShader, DolbyVisionDM4, HistBasedToneMapping, sceneLuxB2DItpMLModel;
-@protocol MTLBuffer, MTLDeviceSPI, MTLLibrary, MTLTexture;
+@protocol MTLDeviceSPI;
 
 @interface DolbyVisionDisplayManagement
 {
     id <MTLDeviceSPI> _device;
-    id <MTLLibrary> _defaultLibrary;
-    DMShader *_displayManagementKernel;
-    id <MTLBuffer> _config;
-    id <MTLTexture> _inputYTexture;
-    id <MTLTexture> _inputUVTexture;
-    id <MTLTexture> _outputTexture;
-    unsigned long long _inputProtectionOptions;
-    unsigned long long _outputProtectionOptions;
-    int _inputDmVersion;
-    DolbyVisionDM4 *_dm40;
-    HistBasedToneMapping *_histBasedToneMapping;
-    sceneLuxB2DItpMLModel *_dmSceneLuxB2D_IPTModel;
 }
 
 - (void);
@@ -29,20 +16,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void) ;
 - (void);
 - (id);
-- (id);
+- (id)qa;
 - (id);
 - (void);
 - (void);
@@ -56,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (id)ColorConfigStageB01_05:(id)arg1 Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext: /* Error: Ran out of types for this method. */;
+- (id)populateMSRColorConfigStageB01_05:(id)arg1 Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext: /* Error: Ran out of types for this method. */;
 
 @end
 

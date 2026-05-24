@@ -11,8 +11,6 @@
 @interface NEIKEv2EncryptedPayload : NEIKEv2Payload
 {
     NSData *_authenticatedHeaders;
-    NSData *_payloadData;
-    unsigned long long _nextPayload;
 }
 
 - (_Bool);

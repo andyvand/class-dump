@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (double);
-+ (_Bool);
-- (void);
++ (_Bool)elineDescriptor"16;
+- (void)I;
 - (id);
 - (unsigned long long);
 - (_Bool);

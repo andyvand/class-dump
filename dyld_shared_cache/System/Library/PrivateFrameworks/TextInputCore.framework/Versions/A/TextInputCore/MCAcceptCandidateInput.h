@@ -6,14 +6,11 @@
 
 #import <TextInputCore/MCKeyboardInput.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MCAcceptCandidateInput : MCKeyboardInput
 {
     NSString *_candidateText;
-    NSString *_convertedInput;
-    NSArray *_remainingMecabraInputs;
-    NSString *_remainingInputString;
 }
 
 - (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *candidateText; // @synthesize candidateText=_candidateText;
-@property(readonly, copy, nonatomic) NSString *convertedInput; // @synthesize convertedInput=_convertedInput;
-@property(copy) NSString *remainingInputString; // @synthesize remainingInputString=_remainingInputString;
-@property(copy) NSArray *remainingMecabraInputs; // @synthesize remainingMecabraInputs=_remainingMecabraInputs;
 
 @end
 

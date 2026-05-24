@@ -7,25 +7,20 @@
 @interface UIKit._UIDurationBounceAnimationSpec
 {
     double duration;
-    double bounce;
-    double delay;
 }
 
-+ (id);
++ (id);
 - (void);
 - (double);
 - (void);
 - (double);
-- (double)emitValueChanged;
-- (double)FirstBaseline: /* Error: Ran out of types for this method. */;
+- (double)_emitValueChanged;
+- (double)setSmallItemTopToFirstBaseline: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)6r;
 
 // Remaining properties
-@property(nonatomic) double bounce; // @synthesize bounce;
-@property(nonatomic) double delay; // @synthesize delay;
 @property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic, readonly) double totalDuration;
 
 @end
 

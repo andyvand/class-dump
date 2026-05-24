@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface UnknownClass (FCPersonalizationAggregate)
 - (double);
@@ -15,26 +15,11 @@
 - (double);
 - (double);
 - (id);
-- (double);
+- (double)";
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double clicks;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double ctr;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long eventCount;
 @property(readonly, nonatomic) NSString *featureKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double impressions;
-@property(readonly, nonatomic) NSDate *lastModified;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp;
 @end
 

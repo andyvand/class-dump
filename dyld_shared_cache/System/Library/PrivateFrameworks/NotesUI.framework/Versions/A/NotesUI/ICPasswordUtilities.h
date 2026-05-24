@@ -12,7 +12,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id)",&,N,V_currentAsset;
@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void)lSubmitFormValues:frameInfo:sourceFrameInfo:userObject:requestURL:method:submissionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:willSubmitFormValues:frameInfo:sourceFrameInfo:userObject:requestURL:method:submissionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id displayedSheet; // @synthesize displayedSheet=_displayedSheet;

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSArrayController, NSPredicate;
+@class NSArrayController;
 
 __attribute__((visibility("hidden")))
 @interface _NSArrayControllerExtensions
 {
     NSArrayController *_controller;
-    NSArray *_automaticRearrangementKeyPaths;
-    NSArray *_sortDescriptors;
-    NSPredicate *_filterPredicate;
-    id _suppressedContentObjectsObservingTracker;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id),V_alternatePort;
 - (id);
 - (void);
 - (void);

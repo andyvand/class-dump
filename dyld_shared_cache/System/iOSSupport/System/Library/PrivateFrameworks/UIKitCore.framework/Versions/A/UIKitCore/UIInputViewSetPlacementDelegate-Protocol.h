@@ -5,6 +5,6 @@
 //
 
 @protocol UIInputViewSetPlacementDelegate
-- (void)D;
+- (void)KeyShortcutHUD;
 @end
 

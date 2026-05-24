@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWKView, NSView, ReaderContainerView;
-@protocol PageWithHeaderViewDelegate;
+@class BrowserWKView;
 
 __attribute__((visibility("hidden")))
 @interface PageWithHeaderView
 {
     BrowserWKView *_browserWKView;
-    ReaderContainerView *_readerContainerView;
-    id <PageWithHeaderViewDelegate> _delegate;
-    NSView *_contentView;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)translator;
 - (void);
 - (id);
 - (void)0@ù
@@ -31,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak BrowserWKView *browserWKView; // @synthesize browserWKView=_browserWKView;
-@property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) __weak id <PageWithHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak ReaderContainerView *readerContainerView; // @synthesize readerContainerView=_readerContainerView;
 
 @end
 

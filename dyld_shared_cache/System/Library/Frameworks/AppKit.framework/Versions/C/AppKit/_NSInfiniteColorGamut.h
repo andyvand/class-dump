@@ -11,18 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)) on connectionID = %llu;
 + (void)ôG;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (id)]:(id)arg1 Exception while trying to convert JSON activity data to CFNetworkTaskMetrics:%@ (error %@) /* Error: Ran out of types for this method. */;
+- (_Bool)ement for alt_services;
+- (unsigned long long)g.framework/Versions/A/SoftLinking;
 - (double);
-- (id)rceWithinWindowBlending;
+- (id)forceWithinWindowBlending;
 - (_Bool),ü;
 
 @end

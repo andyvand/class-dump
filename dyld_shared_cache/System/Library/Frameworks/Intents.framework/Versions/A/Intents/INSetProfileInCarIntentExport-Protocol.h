@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSNumber, NSString;
+@class NSNumber;
 
 @protocol INSetProfileInCarIntentExport
+- (void);
 
 // Remaining properties
-@property(copy) INSpeakableString *carName;
-@property(copy) NSNumber *defaultProfile;
-@property(copy) NSString *profileName;
 @property(copy) NSNumber *profileNumber;
 @end
 

@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFApplicationContextSnapshot, NSArray, NSString;
+@class AFApplicationContextSnapshot;
 
 @interface _AFApplicationContextSnapshotMutation
 {
     AFApplicationContextSnapshot *_base;
-    NSArray *_applicationContexts;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasApplicationContexts:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id)ceContentVersion:(id)arg1;
-- (void)eRequest;
+- (id)setVoiceContentVersion:(id)arg1;
+- (void)_hasActiveRequest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

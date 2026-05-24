@@ -6,21 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioConfigureEnded, MHSchemaMHAssistantDaemonAudioConfigureStarted, NSData;
+@class MHSchemaMHAssistantDaemonAudioConfigureStarted;
 
 @interface MHSchemaMHAssistantDaemonAudioConfigureContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioConfigureStarted *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioConfigureEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)v;
 - (void);
 - (void);
 - (void);
@@ -30,10 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)D2I_ASN1_BIT_STRING;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!ÄEùß°1Â0@ù
 × ;
@@ -42,12 +38,7 @@
 - (void)®áÿ;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioConfigureEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioConfigureStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

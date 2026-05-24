@@ -6,39 +6,31 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, SFSearchResult;
+@class SFSearchResult;
 
 @interface SFResultRankingFeedback : SFFeedback
 {
     SFSearchResult *_result;
-    NSArray *_hiddenResults;
-    NSArray *_duplicateResults;
-    unsigned long long _localResultPosition;
-    double _personalizationScore;
 }
 
 + (_Bool);
-- (id);
+- (id)sortDescriptorWithRelatedProperties:(id)arg1 ascending: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (void)etUnattenuatedGlobalGainReduction;
+- (id)MoreSpaceRequired;
 - (void);
 - (id);
-- (void);
-- (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)t;
+- (void)cardDisappearEvent;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *duplicateResults; // @synthesize duplicateResults=_duplicateResults;
-@property(copy, nonatomic) NSArray *hiddenResults; // @synthesize hiddenResults=_hiddenResults;
-@property(nonatomic) unsigned long long localResultPosition; // @synthesize localResultPosition=_localResultPosition;
-@property(nonatomic) double personalizationScore; // @synthesize personalizationScore=_personalizationScore;
 @property(retain, nonatomic) SFSearchResult *result; // @synthesize result=_result;
 
 @end

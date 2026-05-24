@@ -7,19 +7,10 @@
 @interface NewsFeed.FormatProgressCircleView
 {
     id identifier;
-    id backgroundLayer;
-    id progressLayer;
-    id radius;
-    id clockwise;
-    id stepPercentage;
-    id minPercentage;
-    id maxPercentage;
-    id lineCap;
-    id layerDelegate;
 }
 
 - (id);
-- (void);
+- (void)ches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUZipWriter.m;
 - (id)!àGùÿ1Â0@ù
 × ;
 - (void)fyþ;

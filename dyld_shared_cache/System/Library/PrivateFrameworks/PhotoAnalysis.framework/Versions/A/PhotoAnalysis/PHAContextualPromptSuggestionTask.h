@@ -7,25 +7,10 @@
 @interface PHAContextualPromptSuggestionTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id priority;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id taskProductivityReporter;
-    id recordsInserted;
-    id staleEntryAge;
-    id logger;
-    id loggerEvents;
-    id photoLibrary;
-    id promptProvider;
-    id persister;
 }
 
 - (id);
-- (void)progressReporter: /* Error: Ran out of types for this method. */;
+- (void)_fetchLibrarySummaryForPhotoLibrary:loggingConnection:progressReporter: /* Error: Ran out of types for this method. */;
 
 @end
 

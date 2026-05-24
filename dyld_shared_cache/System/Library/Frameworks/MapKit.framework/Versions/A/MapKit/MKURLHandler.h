@@ -13,7 +13,7 @@
 
 + (unsigned char);
 + (_Bool);
-- (_Bool);
+- (_Bool)3;
 - (void);
 - (_Bool);
 - (void);
@@ -27,26 +27,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)Q8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool).\;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)\;
 - (id);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (void);
-- (void)travelTime:transportType:status: /* Error: Ran out of types for this method. */;
+- (void)routeETAWithDistance:travelTime:transportType:status: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <MKURLHandlerDelegate> delegate; // @synthesize delegate=_delegate;

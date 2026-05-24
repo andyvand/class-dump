@@ -9,8 +9,6 @@
 @interface PXStoryBufferingStatusView
 {
     PXStoryBufferingStatusViewConfiguration *_userData;
-    NSProgressIndicator *_spinnerView;
-    struct CGRect _clippingRect;
 }
 
 - (void);
@@ -27,21 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSProgressIndicator *spinnerView; // @synthesize spinnerView=_spinnerView;
-@property(copy, nonatomic) PXStoryBufferingStatusViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end
 

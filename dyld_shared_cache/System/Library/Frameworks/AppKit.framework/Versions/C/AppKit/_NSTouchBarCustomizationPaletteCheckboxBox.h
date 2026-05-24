@@ -10,34 +10,28 @@ __attribute__((visibility("hidden")))
 @interface _NSTouchBarCustomizationPaletteCheckboxBox : NSView
 {
     _Bool _isHighlighted;
-    _Bool _isChecked;
-    _Bool _hasAccessibilityAppearance;
-    double _paletteScaleFactor;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
+- (void)�i)8h&B�;
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)rMethod kAppleNVMeEANGetSize returned 0x%X);
+- (double)ound in apticket, fall back to use restoreOS trustobject digest property;
 - (_Bool);
 - (_Bool);
 - (double);
-- (double);
+- (double)ssl/crypto/bytestring/cbb.c;
 - (_Bool);
-- (void);
+- (void)timeIntervalSinceReferenceDate;
 - (struct CGSize);
 - (void)ÐÄ;
-- (_Bool)tepperAutorepeat;
+- (_Bool)NSStepperAutorepeat;
 
 // Remaining properties
-@property(getter=isChecked) _Bool checked; // @synthesize checked=_isChecked;
-@property _Bool hasAccessibilityAppearance; // @synthesize hasAccessibilityAppearance=_hasAccessibilityAppearance;
 @property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_isHighlighted;
-@property double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
 
 @end
 

@@ -6,17 +6,15 @@
 
 #import <NeutrinoCore/NUSingleSourceDefinition.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface NUFileSourceDefinition : NUSingleSourceDefinition
 {
     _Bool _useEmbeddedPreview;
-    NSURL *_url;
-    NSString *_uti;
 }
 
 - (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (long long);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool useEmbeddedPreview; // @synthesize useEmbeddedPreview=_useEmbeddedPreview;
-@property(readonly) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

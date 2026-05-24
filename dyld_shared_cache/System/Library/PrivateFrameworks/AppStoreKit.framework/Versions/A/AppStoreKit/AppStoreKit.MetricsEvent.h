@@ -7,7 +7,6 @@
 @interface AppStoreKit.MetricsEvent
 {
     id eventFields;
-    id invocationPoints;
 }
 
 @end

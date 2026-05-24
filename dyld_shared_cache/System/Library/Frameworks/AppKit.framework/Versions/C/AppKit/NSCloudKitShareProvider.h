@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)__NSURLSessionWebSocketTask;
+- (id)NSHTTPCookieStorageToCookie2Storage;
 
 @end
 

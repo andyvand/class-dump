@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ORCHSchemaORCHExecuteOnRemoteRequestStarted : SISchemaInstrumentationMessage
 {
     NSString *_aceCommandName;
-    int _aceCommandType;
-    CDStruct_f67dc06f _has;
-    _Bool _hasAceCommandName;
 }
 
 - (void);
@@ -29,21 +26,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)ippedNumSamples;
+- (id)_audioSkippedNumSamples;
 - (id)maORCHClientEventMetadata",&,N,V_eventMetadata;
 - (void)candidate.value.collection.typeIdentifier.custom.bundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceCommandName; // @synthesize aceCommandName=_aceCommandName;
-@property(nonatomic) int aceCommandType; // @synthesize aceCommandType=_aceCommandType;
-@property(nonatomic) _Bool hasAceCommandName; // @synthesize hasAceCommandName=_hasAceCommandName;
-@property(nonatomic) _Bool hasAceCommandType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

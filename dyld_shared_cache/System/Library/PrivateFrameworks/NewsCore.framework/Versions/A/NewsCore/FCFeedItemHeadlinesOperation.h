@@ -6,24 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCFeedItemHeadlinesOperationProperties, FCMapTable, NSArray, NSDictionary;
-@protocol FCContentContext, FCCoreConfiguration, FCFeedPersonalizing;
+@class NSArray;
 
 @interface FCFeedItemHeadlinesOperation : FCOperation
 {
     _Bool _shouldFilterHeadlinesWithoutSourceChannels;
-    _Bool _cachedOnly;
-    id <FCCoreConfiguration> _configuration;
-    id <FCContentContext> _context;
-    NSArray *_feedItems;
-    id <FCFeedPersonalizing> _personalizer;
-    long long _feedPersonalizationConfigurationSet;
-    CDUnknownBlockType _rapidUpdateRefreshTest;
-    NSDictionary *_feedContextByFeedID;
-    CDUnknownBlockType _headlinesCompletionHandler;
-    CDUnknownBlockType _headlinesMapCompletionHandler;
-    NSArray *_resultHeadlines;
-    FCFeedItemHeadlinesOperationProperties *_properties;
 }
 
 - (id);
@@ -36,9 +23,41 @@
 - (void);
 - (void);
 - (id);
+- (void)oat p, float lambda) __attribute__ ((preserves_opacity))
+{
+	vec4 s = t;
+	vec4 oneMinusT = 1.0 - t;
+	float p1 = p + 1.0;
+	vec4 tPart = lambda*p*t*( 1.0 - t*t)/(p1*p1);
+	s.g = pow (t.g, p1)  + tPart.g;
+	s.b = mix((1.0 - pow(oneMinusT.b, p1) - tPart.b), s.b, .5);
+	s.r = mix( (1.0 - pow(oneMinusT.r, p1) - tPart.r), s.r, .5);
+	return s;	}
+
+kernel vec4 correctGreener (sampler src, float param) __attribute__ ((preserves_opacity))	
+{
+	vec4 s;	
+	s = clamp(sample (src, samplerCoord (src)), 0.0, 1.0 );	
+	//s = sqrt(s);	
+	//s = clamp( rebalanceGreener(s, param, .6), 0.0, 1.0 );	
+	s = rebalanceGreener(s, param, .6);	
+	//s = s * s;	
+	return s; 
+ }	
+
+kernel vec4 correctLessGreen (sampler src, float param) __attribute__ ((preserves_opacity))
+{
+	vec4 s;
+	s = clamp( sample (src, samplerCoord (src)), 0.0, 1.0);	
+	//s = sqrt( s );	
+	//s = clamp( rebalanceLessGreen(s, -param, .6), 0.0, 1.0 );	
+	s = rebalanceLessGreen(s, -param, .6);	
+	//s = s*s;	
+	return s;	
+}
+;
 - (void);
-- (void);
-- (long long);
+- (long long),V_segmentedControl;
 - (id);
 - (void);
 - (id);
@@ -46,15 +65,15 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)le to create pending upload directory:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
-- (void)assingTest:(_Bool)arg1;
-- (id)nTertiaryScoringConfig;
+- (void)fc_isCKErrorWithCodePassingTest:(_Bool)arg1;
+- (id)_articleRecirculationTertiaryScoringConfig;
 - (CDUnknownBlockType)wSubscriptionRequiredText;
 - (void)ó;
 - (void)nt initWithName:(_Bool)arg1 urlString:] /* Error: Ran out of types for this method. */;
-- (void)ationController;
+- (void)_notificationController;
 - (id)n validateOperation];
 - (void)prewarm operation for key=%{public}@;
 - (void)alid Results record; will repair nextOrder to correspond to the last feed item instead of a greater value, feedID=%{public}@;
@@ -62,20 +81,7 @@
 - (_Bool)¤ýÓÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
-@property(copy, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) NSDictionary *feedContextByFeedID; // @synthesize feedContextByFeedID=_feedContextByFeedID;
-@property(copy, nonatomic) FCMapTable *feedItemScoreProfiles;
-@property(copy, nonatomic) NSArray *feedItems; // @synthesize feedItems=_feedItems;
-@property(nonatomic) long long feedPersonalizationConfigurationSet; // @synthesize feedPersonalizationConfigurationSet=_feedPersonalizationConfigurationSet;
-@property(copy, nonatomic) CDUnknownBlockType headlinesCompletionHandler; // @synthesize headlinesCompletionHandler=_headlinesCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType headlinesMapCompletionHandler; // @synthesize headlinesMapCompletionHandler=_headlinesMapCompletionHandler;
-@property(retain, nonatomic) id <FCFeedPersonalizing> personalizer; // @synthesize personalizer=_personalizer;
-@property(retain, nonatomic) FCFeedItemHeadlinesOperationProperties *properties; // @synthesize properties=_properties;
-@property(copy, nonatomic) CDUnknownBlockType rapidUpdateRefreshTest; // @synthesize rapidUpdateRefreshTest=_rapidUpdateRefreshTest;
 @property(retain, nonatomic) NSArray *resultHeadlines; // @synthesize resultHeadlines=_resultHeadlines;
-@property(nonatomic) _Bool shouldFilterHeadlinesWithoutSourceChannels; // @synthesize shouldFilterHeadlinesWithoutSourceChannels=_shouldFilterHeadlinesWithoutSourceChannels;
 
 @end
 

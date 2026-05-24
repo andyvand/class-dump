@@ -11,8 +11,6 @@
 @interface AXVHighlightPointView : AXVHighlightView
 {
     NSColor *_highlightPointColor;
-    CAShapeLayer *__circleLayer;
-    struct CGPoint _highlightPoint;
 }
 
 - (void);
@@ -21,14 +19,12 @@
 - (struct CGPoint);
 - (id);
 - (void);
-- (id);
+- (id)Y;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCircleLayer:) CAShapeLayer *_circleLayer; // @synthesize _circleLayer=__circleLayer;
-@property(nonatomic) struct CGPoint highlightPoint; // @synthesize highlightPoint=_highlightPoint;
-@property(retain, nonatomic) NSColor *highlightPointColor; // @synthesize highlightPointColor=_highlightPointColor;
 
 @end
 

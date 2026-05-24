@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _LimitingItemCollecter
 {
     NSMutableArray *_posters;
-    NSMutableArray *_images;
 }
 
 - (void);
@@ -21,14 +20,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *itemsToPersist;
-@property(readonly) Class superclass;
 
 @end
 

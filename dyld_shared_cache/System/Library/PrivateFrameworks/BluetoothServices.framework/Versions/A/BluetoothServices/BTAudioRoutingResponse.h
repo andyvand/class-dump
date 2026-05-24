@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
-
 @interface BTAudioRoutingResponse
 {
     int _action;
-    unsigned int _clientID;
-    NSString *_deviceAddress;
-    NSDictionary *_wxInfo;
-    NSError *_error;
-    NSString *_reason;
 }
 
 + (_Bool);
-- (id);
+- (id)wf_dateFromComponentsInCurrentTimeZone: /* Error: Ran out of types for this method. */;
+- (void)wfObjectOfClass:(id)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (void);
@@ -30,17 +23,12 @@
 - (void);
 - (void);
 - (unsigned int);
-- (int);
-- (void);
+- (int)";
+- (void)#;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSDictionary *wxInfo; // @synthesize wxInfo=_wxInfo;
 
 @end
 

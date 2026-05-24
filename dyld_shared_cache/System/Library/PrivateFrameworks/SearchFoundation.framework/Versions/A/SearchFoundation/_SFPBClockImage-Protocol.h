@@ -7,13 +7,12 @@
 @class NSData;
 
 @protocol _SFPBClockImage
+- (NSData *)PHCloudIdentifierLookup;
+- (void);
 - (void)numberOfColumns;
-- (int)er;
+- (int)catIdentifier;
 
 // Remaining properties
 @property(nonatomic) int hour;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int minute;
-@property(nonatomic) int second;
 @end
 

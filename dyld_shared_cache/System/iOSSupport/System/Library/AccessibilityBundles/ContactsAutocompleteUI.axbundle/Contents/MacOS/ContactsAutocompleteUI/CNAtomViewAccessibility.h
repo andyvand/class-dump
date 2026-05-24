@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__DATA_DIRTY;
 - (struct CGPoint);
 - (id);
 - (unsigned long long);

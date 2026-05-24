@@ -9,27 +9,23 @@
 @interface NSContentMaskingView : NSView
 {
     NSView *content;
-    float contentMaskEquivalencePriority;
-    id _contentConstraints;
-    id _maskConstraints;
 }
 
-- (void);
-- (float);
+- (void);
+- (float)tion %p
+;
 - (id);
 - (void);
 - (void)
 × ;
-- (id)nvalidateWhenInvalidatable;
-- (id)tError: /* Error: Ran out of types for this method. */;
-- (void)uchBar;
+- (id)_shouldInvalidateWhenInvalidatable;
+- (id)_accessibilityValueForAttribute:clientError: /* Error: Ran out of types for this method. */;
+- (void)NSTextInputContext_TouchBar;
 - (void)E¾ÈE;
 - (id)K;
 
 // Remaining properties
-@property(nonatomic) float contentMaskEquivalencePriority; // @synthesize contentMaskEquivalencePriority;
 @property(nonatomic, retain) NSView *contentView; // @synthesize contentView=content;
-@property(nonatomic, retain) NSView *maskView;
 
 @end
 

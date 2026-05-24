@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, CKDPRecordZoneIdentifier;
+@class CKDPIdentifier;
 
 @interface CKDPRecordIdentifier
 {
     CKDPIdentifier *_value;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *value; // @synthesize value=_value;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)@;
 + (id)ÐgÿÑÏ	èìI;
 - (_Bool);
 - (void);
@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (id);
 - (id);
-- (void);
-- (_Bool)le:ofType: /* Error: Ran out of types for this method. */;
+- (void)0^{CGContext=}56;
+- (_Bool)writeToFile:ofType: /* Error: Ran out of types for this method. */;
 
 @end
 

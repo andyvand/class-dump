@@ -9,7 +9,7 @@
     _Bool _isFilter;
 }
 
-+ (id);
++ (id)>;
 + (id);
 + (id);
 - (void);
@@ -18,12 +18,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
+- (id)sionEntityUUIDs:(struct CGRect)arg1 sessionEntityAssignment: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)postNotificationName:object:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool isFilter; // @synthesize isFilter=_isFilter;

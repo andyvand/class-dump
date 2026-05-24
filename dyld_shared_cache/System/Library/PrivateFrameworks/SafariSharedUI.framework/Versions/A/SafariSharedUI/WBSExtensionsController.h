@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSPointerArray, NSString, NSTimer, WBSDiagnosticStateCollector, WBSExtensionsAnalyticsEventCoalescer, WKUserContentController, _EXQueryController;
-@protocol OS_dispatch_queue, WBSExtensionsControllerDelegate;
+@protocol WBSExtensionsControllerDelegate;
 
 @interface WBSExtensionsController
 {
     id <WBSExtensionsControllerDelegate> _delegate;
-    NSMutableDictionary *_extensionUniqueIdentifierToExtensionDataMap;
-    NSMutableDictionary *_extensionIdentifierToStateMap;
-    NSMutableDictionary *_extensionIdentifierToBaseURIMap;
-    NSMutableDictionary *_baseURIHostToExtensionIdentifier;
-    _Bool _loadingEnabledExtensionsAtStartup;
-    NSMutableSet *_enabledExtensions;
-    NSMutableArray *_extensions;
-    NSArray *_allDiscoveredExtensions;
-    NSMutableSet *_unpackedExtensions;
-    NSMutableSet *_temporaryExtensionIdentifiers;
-    NSMutableSet *_composedIdentifiersOfReplacedExtensions;
-    NSMutableSet *_blockedExtensions;
-    NSObject<OS_dispatch_queue> *_appBundleValidationQueue;
-    NSString *_crashReporterMessage;
-    _Bool _allowUnsignedExtensions;
-    NSTimer *_deleteStateForRemovedExtensionsTimer;
-    NSPointerArray *_observers;
-    _Bool _loadingDiscoveredExtensions;
-    WKUserContentController *_userContentController;
-    _Bool _forceExtensionLoadingAfterDiscovery;
-    _EXQueryController *_extensionKitQueryController;
-    NSObject<OS_dispatch_queue> *_discoveryNotificationQueue;
-    WBSDiagnosticStateCollector *_diagnosticStateCollector;
-    _Bool _hasDiscoveredExtensions;
-    _Bool _loadEnabledExtensionsWasCalled;
-    _Bool _extensionsEnabled;
-    _Bool _hasPopulatedAllExtensionsFromExtensionDiscoveryAtLeastOnce;
-    NSString *_profileServerID;
-    WBSExtensionsAnalyticsEventCoalescer *_analyticsEventCoalescer;
-    NSArray *_composedIdentifiersOfExtensionsWithAutomaticallyGrantedPermissions;
 }
 
 @end

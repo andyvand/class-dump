@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSessionInternalState, NSDictionary, NSError, NSMutableArray, NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureSessionInternal_Tundra
 {
     NSString *sessionPreset;
-    int beginConfigRefCount;
-    NSMutableArray *inputs;
-    NSMutableArray *outputs;
-    NSMutableArray *connections;
-    NSMutableSet *activeConnections;
-    NSMutableSet *activeOutputs;
-    NSMutableSet *activeInputs;
-    struct __CFArray *videoPreviewLayers;
-    NSError *stopError;
-    _Bool running;
-    AVCaptureSessionInternalState *state;
-    struct OpaqueCMClock *synchronizationClock;
-    NSDictionary *commonAnalytics;
-    struct os_unfair_lock_s internalLock;
-    _Bool suppressVideoEffects;
 }
 
 @end

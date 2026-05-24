@@ -5,5 +5,6 @@
 //
 
 @protocol ECTransferActionReplayerSubclassMethods
+- (_Bool);
 @end
 

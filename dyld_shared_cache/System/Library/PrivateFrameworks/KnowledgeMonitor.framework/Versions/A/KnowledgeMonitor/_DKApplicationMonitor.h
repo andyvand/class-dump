@@ -6,18 +6,14 @@
 
 #import <KnowledgeMonitor/_DKApplicationMonitorBase.h>
 
-@class BMSource, NSString;
-
 @interface _DKApplicationMonitor : _DKApplicationMonitorBase
 {
     void *_launchServicesNotificationID;
-    BMSource *_appInFocusSource;
-    NSString *_lastFocalApplication;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)d}"_bottomShadowSize"d}"_rightRoadSignPartMetrics"{RoadSignPartMetrics="_type"C"_imageSize"{CGSize="width"d"height"d}"_signBaseRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_topEmptySpaceHeight"d"_bottomEmptySpaceHeight"d"_leftEmptySpaceWidth"d"_rightEmptySpaceWidth"d"_outsideImagePathExtension"d"_hasArrows"B"_arrowWingMin"{CGPoint="x"d"y"d}"_arrowWingMax"{CGPoint="x"d"y"d}"_arrowTip"{CGPoint="x"d"y"d}"_arrowAnchor"{CGPoint="x"d"y"d}"_bottomShadowSize"d}"_stretchedRoadSignPartMetrics"{RoadSignPartMetrics="_type"C"_imageSize"{CGSize="width"d"height"d}"_signBaseRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_topEmptySpaceHeight"d"_bottomEmptySpaceHeight"d"_leftEmptySpaceWidth"d"_rightEmptySpaceWidth"d"_outsideImagePathExtension"d"_hasArrows"B"_arrowWingMin"{CGPoint="x"d"y"d}"_arrowWingMax"{CGPoint="x"d"y"d}"_arrowTip"{CGPoint="x"d"y"d}"_arrowAnchor"{CGPoint="x"d"y"d}"_bottomShadowSize"d}"_middleRoadSignPartMetrics"{RoadSignPartMetrics="_type"C"_imageSize"{CGSize="width"d"height"d}"_signBaseRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_topEmptySpaceHeight"d"_bottomEmptySpaceHeight"d"_leftEmptySpaceWidth"d"_rightEmptySpaceWidth"d"_outsideImagePathExtension"d"_hasArrows"B"_arrowWingMin"{CGPoint="x"d"y"d}"_arrowWingMax"{CGPoint="x"d"y"d}"_arrowTip"{CGPoint="x"d"y"d}"_arrowAnchor"{CGPoint="x"d"y"d}"_bottomShadowSize"d}"_hasMiddleSignPart"B"_imageSize"{CGSize="width"d"height"d}"_signBaseRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_glyphRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_stretchedRoadSignPartWidth"d"_arrowTipPosition"{CGPoint="x"d"y"d}"_arrowAnchorPosition"{CGPoint="x"d"y"d}"_textPosition"{CGPoint="x"d"y"d}"_textBounds"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_leftPartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_rightPartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_stretchedPartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_middlePartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_middleLeftStretchedPartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_middleRightStretchedPartRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"_bottomShadowSize"d};
+- (void)<;
 - (void);
 - (void);
 - (void);

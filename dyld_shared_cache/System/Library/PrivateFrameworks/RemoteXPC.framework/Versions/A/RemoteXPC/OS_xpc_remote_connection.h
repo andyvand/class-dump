@@ -4,57 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, OS_remote_service, OS_xpc_remote_channel, OS_xpc_remote_listener, OS_xpc_remote_message, OS_xpc_remote_outstanding_reply, OS_xpc_remote_pending_stream, OS_xpc_remote_stream;
-@protocol OS_dispatch_queue, OS_nw_connection, OS_nw_listener, OS_sec_identity;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface OS_xpc_remote_connection
 {
     char *remote_service_name;
-    NSObject<OS_nw_connection> *root_connection;
-    NSObject<OS_nw_listener> *root_listener;
-    _Bool root_channel_helo_received;
-    OS_xpc_remote_channel *root_channel;
-    _Bool reply_channel_helo_received;
-    OS_xpc_remote_channel *reply_channel;
-    _Bool disable_adaptive_write_timeout;
-    _Bool server_mode;
-    unsigned char protocol_version_number;
-    unsigned long long protocol_feature_flags;
-    OS_xpc_remote_message *msgq_stqh_first;
-    OS_xpc_remote_message *msgq_stqh_last;
-    OS_xpc_remote_pending_stream *pending_streams_stqh_first;
-    OS_xpc_remote_pending_stream *pending_streams_stqh_last;
-    OS_xpc_remote_stream *streams_stqh_first;
-    OS_xpc_remote_stream *streams_stqh_last;
-    OS_xpc_remote_outstanding_reply *outstanding_replies_stqh_first;
-    OS_xpc_remote_outstanding_reply *outstanding_replies_stqh_last;
-    unsigned long long next_msg_id;
-    unsigned long long first_msg_id;
-    unsigned long long local_service_version;
-    unsigned long long remote_service_version;
-    unsigned int traffic_class;
-    int error;
-    OS_remote_service *remote_service;
-    int preexisting_socket;
-    NSObject<OS_nw_connection> *preexisting_connection;
-    _Bool requires_nw_listener_create_workaround;
-    _Bool _send_in_progress;
-    int _state;
-    int _type;
-    NSObject<OS_dispatch_queue> *_internal_queue;
-    NSObject<OS_dispatch_queue> *_target_queue;
-    CDUnknownBlockType _event_handler;
-    OS_xpc_remote_listener *_listener;
-    NSObject<OS_sec_identity> *_tls_identity;
-    CDUnknownBlockType _tls_verify;
-    NSObject<OS_dispatch_queue> *_tls_verify_queue;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)setErrorLabelCenterXConstraint:(id)arg1;
 - (void);
 - (void);
 - (int);
@@ -70,27 +32,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)0R;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType event_handler; // @synthesize event_handler=_event_handler;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *internal_queue; // @synthesize internal_queue=_internal_queue;
-@property(retain, nonatomic) OS_xpc_remote_listener *listener; // @synthesize listener=_listener;
-@property(nonatomic) _Bool send_in_progress; // @synthesize send_in_progress=_send_in_progress;
-@property int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *target_queue; // @synthesize target_queue=_target_queue;
-@property(retain, nonatomic) NSObject<OS_sec_identity> *tls_identity; // @synthesize tls_identity=_tls_identity;
-@property(copy, nonatomic) CDUnknownBlockType tls_verify; // @synthesize tls_verify=_tls_verify;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *tls_verify_queue; // @synthesize tls_verify_queue=_tls_verify_queue;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -6,18 +6,11 @@
 
 #import <CalendarUI/EKUILabeledGadget.h>
 
-@class EKAlarm, EKUIAlarmButton, EKUIAlarmCompositeGadget, EKUIAlarmContainerView, EKUIPopUpButton, NSArray;
+@class EKUIAlarmContainerView;
 
 @interface EKUIAlarmGadget : EKUILabeledGadget
 {
     _Bool _addButtonAvailable;
-    EKAlarm *_alarm;
-    EKUIAlarmContainerView *_container;
-    EKUIPopUpButton *_alarmPicker;
-    EKUIAlarmButton *_addButton;
-    unsigned long long _currentTrigger;
-    EKUIAlarmCompositeGadget *_alarmsContainer;
-    NSArray *_alarmConstraints;
 }
 
 - (id);
@@ -26,15 +19,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
@@ -55,25 +48,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)	kA;
+- (void)V;
 - (_Bool)a6 !ðFùqÄ#ð1Â0@ù
 × ;
 - (void)hAccuracy;
 - (void);
 
 // Remaining properties
-@property(retain) EKUIAlarmButton *addButton; // @synthesize addButton=_addButton;
-@property _Bool addButtonAvailable; // @synthesize addButtonAvailable=_addButtonAvailable;
-@property(retain) EKAlarm *alarm; // @synthesize alarm=_alarm;
-@property(retain) NSArray *alarmConstraints; // @synthesize alarmConstraints=_alarmConstraints;
-@property(retain) EKUIPopUpButton *alarmPicker; // @synthesize alarmPicker=_alarmPicker;
-@property __weak EKUIAlarmCompositeGadget *alarmsContainer; // @synthesize alarmsContainer=_alarmsContainer;
 @property(retain) EKUIAlarmContainerView *container; // @synthesize container=_container;
-@property unsigned long long currentTrigger; // @synthesize currentTrigger=_currentTrigger;
 
 @end
 

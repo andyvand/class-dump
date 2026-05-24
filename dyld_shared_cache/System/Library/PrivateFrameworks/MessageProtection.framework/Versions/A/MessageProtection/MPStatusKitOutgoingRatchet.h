@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)o;
 
 // Remaining properties
 @property(retain, nonatomic) MessageProtection.SKOutgoingRatchet *ratchet; // @synthesize ratchet=_ratchet;

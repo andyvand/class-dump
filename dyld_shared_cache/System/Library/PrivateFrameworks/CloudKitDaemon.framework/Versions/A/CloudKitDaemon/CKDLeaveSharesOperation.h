@@ -6,35 +6,28 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSMutableArray;
-@protocol CKLeaveSharesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDLeaveSharesOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _leaveCompletionBlock;
-    NSMutableArray *_shareIDsToLeave;
 }
 
-+ (id);
++ (id)setRxFrmTooLongOverDecodingErrors:(unsigned long long)arg1;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)$H;
+- (id)ServerMetadataKey;
 - (void);
-- (int);
+- (int)entThread;
 - (id);
 - (void)e parent zone PCS;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKLeaveSharesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType leaveCompletionBlock; // @synthesize leaveCompletionBlock=_leaveCompletionBlock;
-@property(retain, nonatomic) NSMutableArray *shareIDsToLeave; // @synthesize shareIDsToLeave=_shareIDsToLeave;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

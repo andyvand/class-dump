@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBShowScreenTimeRequestSheetCommand
+- (NSData *)pyOptions",C,N,S_setMetadataCopyOptions:,V_metadataCopyOptions /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requestIdentifier;
 @end
 

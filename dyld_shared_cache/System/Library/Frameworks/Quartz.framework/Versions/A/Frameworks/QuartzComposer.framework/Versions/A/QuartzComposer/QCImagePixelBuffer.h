@@ -9,8 +9,6 @@
 @interface QCImagePixelBuffer : QCImageBuffer
 {
     unsigned long long _rowBytes;
-    _Bool _purgeable;
-    void *_unused2[4];
 }
 
 - (id);

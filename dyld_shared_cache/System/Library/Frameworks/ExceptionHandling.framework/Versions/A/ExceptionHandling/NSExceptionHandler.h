@@ -7,15 +7,6 @@
 @interface NSExceptionHandler
 {
     id _delegate;
-    struct {
-        unsigned int exceptionHandlingMask:10;
-        unsigned int reserved:10;
-        unsigned int exceptionHangingMask:5;
-        unsigned int reserved1:5;
-        unsigned int drwh:1;
-        unsigned int drwl:1;
-    } _ehFlags;
-    void *_reserved;
 }
 
 + (id);
@@ -31,10 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 

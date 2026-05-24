@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture;
-
 __attribute__((visibility("hidden")))
 @interface HMBFutureOperation
 {
     CDUnknownBlockType _block;
-    NAFuture *_future;
 }
 
 + (id)v24@0:8@"NSCoder"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) NAFuture *future; // @synthesize future=_future;
 
 @end
 

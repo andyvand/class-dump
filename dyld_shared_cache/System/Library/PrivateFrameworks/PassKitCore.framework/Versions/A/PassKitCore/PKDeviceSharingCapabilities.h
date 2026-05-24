@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKOSVersionRequirement;
+@class NSString;
 
 @interface PKDeviceSharingCapabilities
 {
     _Bool _supportsManatee;
-    NSString *_handle;
-    NSString *_altDSID;
-    NSString *_deviceRegion;
-    PKOSVersionRequirement *_fromDeviceVersion;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (void);
+- (void);
+- (id);
+- (_Bool)-;
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasTVPMActiveDurationMS;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Ti;
 - (id);
 - (void)PassEntitlement"8;
 - (void)ÌP;
 - (id)É³ÿö4lpe;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *deviceRegion; // @synthesize deviceRegion=_deviceRegion;
-@property(retain, nonatomic) PKOSVersionRequirement *fromDeviceVersion; // @synthesize fromDeviceVersion=_fromDeviceVersion;
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool supportsManatee; // @synthesize supportsManatee=_supportsManatee;
 
 @end
 

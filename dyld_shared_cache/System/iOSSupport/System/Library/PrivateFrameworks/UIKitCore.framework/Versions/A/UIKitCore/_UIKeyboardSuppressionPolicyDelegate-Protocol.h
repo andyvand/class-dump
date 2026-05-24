@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIResponder;
+
 @protocol _UIKeyboardSuppressionPolicyDelegate
+- (_Bool)ger"16@"NSString"24;
+
+@optional
+- (_Bool)setIsPendingSatelliteSend:(UIResponder *)arg1;
 @end
 

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, PKRecognitionSessionManager;
-@protocol PKMathRecognitionControllerDelegate;
+@class NSSet, PKRecognitionSessionManager;
 
 @interface PKMathRecognitionController
 {
     NSSet *_currentItems;
-    NSDictionary *_changeMap;
-    NSDictionary *_stableIdentifierMap;
-    NSDictionary *_sortIndexMap;
-    NSDictionary *_expressionMap;
-    NSDictionary *_shouldSolveMap;
-    NSArray *_currentMathRecognitionItems;
-    NSArray *_delayedItems;
-    double _updateItemsDelay;
-    CDStruct_83ae4a4a _delegateFlags;
-    _Bool _isRTL;
-    id <PKMathRecognitionControllerDelegate> _delegate;
-    PKRecognitionSessionManager *__sessionManager;
 }
 
 - (void);
@@ -37,19 +24,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)safari_addObserver:(_Bool)arg1 selector:forUserDefaultKey: /* Error: Ran out of types for this method. */;
+- (void)registerConfigurationUpdateHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)bH;
 
 // Remaining properties
 @property(nonatomic) __weak PKRecognitionSessionManager *_sessionManager; // @synthesize _sessionManager=__sessionManager;
-@property(nonatomic) __weak id <PKMathRecognitionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

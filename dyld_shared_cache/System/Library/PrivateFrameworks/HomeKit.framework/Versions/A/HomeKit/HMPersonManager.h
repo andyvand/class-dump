@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSNotificationCenter, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class NSNotificationCenter;
 
 @interface HMPersonManager
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_UUID;
-    NSString *_zoneName;
-    NSNotificationCenter *_notificationCenter;
-    CDUnknownBlockType _fetchClientFactory;
-    _HMContext *_context;
-    NSHashTable *_observers;
 }
 
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,11 +37,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`";
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)(
+G
+$
+0
+9
+@
+#
+$
+>
+;
+- (void)routinely;
+- (id)chManager;
 - (id);
 - (void);
 - (id);
@@ -61,24 +63,7 @@
 - (id)eError;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType fetchClientFactory; // @synthesize fetchClientFactory=_fetchClientFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

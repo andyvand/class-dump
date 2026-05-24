@@ -7,25 +7,23 @@
 @interface NTPBChannelData
 {
     _Bool _isBundleChannel;
-    CDStruct_8fa617c1 _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)checkInTile:(_Bool)arg1;
+- (void)autocompleteFetch:(_Bool)arg1 shouldExpectSupplementalResultsForRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateHasUserExperiencedPlayback;
+- (_Bool)_songsConfiguration;
+- (id)`;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsBundleChannel;
-@property(nonatomic) _Bool isBundleChannel; // @synthesize isBundleChannel=_isBundleChannel;
 
 @end
 

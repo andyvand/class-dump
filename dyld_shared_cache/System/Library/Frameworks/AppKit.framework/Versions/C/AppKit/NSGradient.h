@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorSpace;
-
 @interface NSGradient
 {
     id _colors;
-    id _locations;
-    id _colorSpace;
 }
 
-+ (id);
++ (id)o allocate a mem-map deallocator.;
 + (_Bool);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)Q}}}};
+- (id)taskDependencyWithMainDocumentTask:(id)arg1;
+- (id)taskDependencyDescriptionWithURLPath:(id)arg1 parentURLPath:(const double *)arg2;
+- (void)initWithBytes:(id *)arg1 length:(double *)arg2 encoding:(long long)arg3;
+- (void)_onqueue_startSecureConnection;
+- (void)_onqueue_processWriteWork:(struct CGRect)arg1;
+- (void)_onqueue_needNewBodyStream:(id)arg1 fromOffset:(struct CGPoint)arg2 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_needNewBodyStream:(id)arg1 fromOffset:(double)arg2 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_errorOrCancelError;
+- (void)_onqueue_didSendBodyBytes:(struct CGPoint)arg1 totalBytesSent:(double)arg2 totalBytesExpectedToSend:(struct CGPoint)arg3;
 - (struct CGGradient *);
-- (id);
+- (id)MISSING_TMP_ECDH_KEY;
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)rs;
+- (id)_mouseMovedListeners;
 - (id)rent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.;
 - (void)Eqÿ*;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGGradient *CGGradient;
-@property(nonatomic, readonly) NSColorSpace *colorSpace;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long numberOfColorStops;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol _HMTelevisionProfileDelegate
+- (void)eId=?;
 @end
 

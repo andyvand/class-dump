@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UICollectionViewLayout.h>
 
-@class NSDictionary, NSMutableDictionary, _UIFlowLayoutInfo, _UIUpdateVisibleCellsContext;
-@protocol _UICollectionViewUpdateTranslating;
-
 @interface UICollectionViewFlowLayout : UICollectionViewLayout
 {
     struct {
@@ -30,35 +27,11 @@
         unsigned int fetchingItemsInfoForRect:1;
         unsigned int isInUpdateVisibleCellsPass:1;
     } _gridLayoutFlags;
-    double _interitemSpacing;
-    double _lineSpacing;
-    struct CGSize _itemSize;
-    struct CGSize _estimatedItemSize;
-    struct CGSize _headerReferenceSize;
-    struct CGSize _footerReferenceSize;
-    struct UIEdgeInsets _sectionInset;
-    _UIFlowLayoutInfo *_data;
-    struct CGSize _currentLayoutSize;
-    NSMutableDictionary *_insertedItemsAttributesDict;
-    NSMutableDictionary *_insertedSectionHeadersAttributesDict;
-    NSMutableDictionary *_insertedSectionFootersAttributesDict;
-    NSMutableDictionary *_deletedItemsAttributesDict;
-    NSMutableDictionary *_deletedSectionHeadersAttributesDict;
-    NSMutableDictionary *_deletedSectionFootersAttributesDict;
-    long long _scrollDirection;
-    NSDictionary *_rowAlignmentsOptionsDictionary;
-    struct CGPoint _contentOffsetAdjustment;
-    struct CGSize _contentSizeAdjustment;
-    NSMutableDictionary *_cachedItemAttributes;
-    NSMutableDictionary *_cachedItemFrames;
-    _UIUpdateVisibleCellsContext *_updateVisibleCellsContext;
-    id <_UICollectionViewUpdateTranslating> _currentUpdateTranslator;
-    long long _sectionInsetReference;
 }
 
 + (Class);
-- (void);
-- (long long);
+- (void)e is %@;
+- (long long)%@) rather than chat from participants (chat:%@). /* Error: Ran out of types for this method. */;
 - (void);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
@@ -75,7 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -93,8 +66,8 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)u;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -126,14 +99,14 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)C;
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)setLineFragmentPadding:(long long)arg1;
 - (_Bool);
 - (id);
-- (long long);
-- (_Bool);
-- (id);
+- (long long)manager setting up media remote endpoint.;
+- (_Bool)s missing mapping for MPModelRelationshipPlaylistEntryReactionSocialProfile;
+- (id)I;
 - (_Bool);
 - (long long);
 - (struct CGSize);
@@ -142,18 +115,18 @@
 - (id);
 - (void)ð!¼Eùñdð1Â0@ù
 × ;
-- (void)ssistantView:(id)arg1;
-- (id)assView:(struct CGRect)arg1;
+- (void)setSystemInputAssistantView:(id)arg1;
+- (id)setGlassView:(struct CGRect)arg1;
 - (void);
-- (void)ryType: /* Error: Ran out of types for this method. */;
-- (void)straintsIfNecessary;
-- (_Bool)nd:(struct UIEdgeInsets)arg1;
-- (void)StoryboardSegueTemplate;
+- (void)emojiCategoryStringForCategoryType: /* Error: Ran out of types for this method. */;
+- (void)_updateSafeAreaLayoutGuideConstraintsIfNecessary;
+- (_Bool)_client_fileRenameDidEnd:(struct UIEdgeInsets)arg1;
+- (void)___currentStoryboardSegueTemplate;
 - (long long)iewControllerPreviewingDelegate>",W,N,V_delegate;
 - (void);
 - (id)Ô;
 - (struct CGSize)eScene:%@ (self:%@) /* Error: Ran out of types for this method. */;
-- (_Bool)rComponentGroupCG;
+- (_Bool)SaySo44UITextFormattingViewControllerComponentGroupCG;
 - (id)33Ã?¹?Âõ(\Â¿Ù?É¿ÕÔÔÔÔÔä?«ªªªª*H@433333Ã?ÿÿÿÿÿÿïÿÿÿÿÿÿï=
 ×£p=Ú?ö(\Âõð?x:(struct CGRect)arg1 æÑx@ùªf pF@¢-¬¾VÚ?´<k¥@OÇw.j@\¹Ü~Æ?kvb'v@á¿×£p=
 ×Ó?/£Xniuø?333333Ó?333333ã?
@@ -165,18 +138,7 @@
 - (id)p;
 
 // Remaining properties
-@property(nonatomic) struct CGSize estimatedItemSize; // @synthesize estimatedItemSize=_estimatedItemSize;
 @property(readonly, nonatomic, getter=_estimatesSizes) _Bool estimatesSizes;
-@property(nonatomic) struct CGSize footerReferenceSize; // @synthesize footerReferenceSize=_footerReferenceSize;
-@property(nonatomic) struct CGSize headerReferenceSize; // @synthesize headerReferenceSize=_headerReferenceSize;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
-@property(nonatomic) double minimumInteritemSpacing; // @synthesize minimumInteritemSpacing=_interitemSpacing;
-@property(nonatomic) double minimumLineSpacing; // @synthesize minimumLineSpacing=_lineSpacing;
-@property(nonatomic) long long scrollDirection;
-@property(nonatomic) _Bool sectionFootersPinToVisibleBounds;
-@property(nonatomic) _Bool sectionHeadersPinToVisibleBounds;
-@property(nonatomic) struct UIEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
-@property(nonatomic) long long sectionInsetReference; // @synthesize sectionInsetReference=_sectionInsetReference;
 
 @end
 

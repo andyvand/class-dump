@@ -15,15 +15,15 @@
 
 + (id);
 + (_Bool)_' but it looks like you are not Safari. I mean... what did you expect to happen?;
+- (id)ringGetCString failed;
 - (id);
-- (id);
-- (void);
+- (void)tes);
 - (id);
 - (unsigned long long);
 - (_Bool)poverLayoutInfo";
-- (void)ont:(id)arg1 forWidth:lineBreakMode:letterSpacing: /* Error: Ran out of types for this method. */;
-- (id)er:inContext: /* Error: Ran out of types for this method. */;
-- (id)mands;
+- (void)sizeWithFont:(id)arg1 forWidth:lineBreakMode:letterSpacing: /* Error: Ran out of types for this method. */;
+- (id)drawSelectionLayer:inContext: /* Error: Ran out of types for this method. */;
+- (id)_allowsSelectionCommands;
 - (void)¤p=
 ×£Ð?q=
 ×£pÍ?ffffffÖ?Év¾/Í?ffffffÖ?¸ëQ¸¾¿¿Év¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;

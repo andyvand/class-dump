@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestPetProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    _Bool _petPrintClusteringEnabled;
 }
 
-+ (id);
-+ (unsigned long long);
++ (id)_focusDelegate;
++ (unsigned long long)Braille;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)set_listeners:(id)arg1;
+- (void)set_elementInfo:(id)arg1;
+- (id)__didRegisterWindowDidMiniaturizeNotification;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -29,13 +28,7 @@
 - (void)/photoanalysis/PhotosGraph/Framework/Graph/People Inferences/Relationship/Relationship Analyzers/PGRelationshipCalendarAnalyzer.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

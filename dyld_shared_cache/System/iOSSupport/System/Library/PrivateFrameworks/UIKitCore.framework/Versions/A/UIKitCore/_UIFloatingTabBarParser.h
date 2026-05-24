@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSOrderedSet, NSSet, UITab, _UITabModel;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarParser
 {
     NSArray *_fixedItems;
-    NSArray *_pinnedItems;
-    NSArray *_items;
-    NSSet *_itemIdentifiers;
-    NSOrderedSet *_currentFavoriteOrder;
-    NSOrderedSet *_sourceTabIdentifiers;
-    _UITabModel *_tabModel;
-    NSOrderedSet *_overrideFavoriteOrder;
-    UITab *_placeholderTab;
-    NSSet *_ignoredFavoriteOrderItems;
-    NSMutableArray *_fixedTabs;
-    NSMutableArray *_sourceTabs;
-    NSMutableArray *_pinnedTabs;
-    NSOrderedSet *_favoriteOrder;
 }
 
 - (id);
@@ -33,44 +20,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)sortedMessageItemsWithFallbackHash:inChat:limit: /* Error: Ran out of types for this method. */;
+- (id)sendIncomingRelayMessage:toChat:style: /* Error: Ran out of types for this method. */;
+- (id)sendFileToLocalPeers:metadata: /* Error: Ran out of types for this method. */;
+- (id)reportMOCDebuggingErrorWithString:internalOnly:initialSync: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID:messageTime: /* Error: Ran out of types for this method. */;
+- (id)combinedPayloadAttachmentDictionary;
+- (id)_updateRoutingForMessageGUID:chatGUID:error:account: /* Error: Ran out of types for this method. */;
+- (id)_updatePendingReviewForChatsWithGUIDsInBackground:pendingReview:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)DSID:fromIdentifier:toIdentifier:participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchContext:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)V_alreadyCapturedErrorWithAutoBugCapture;
+- (_Bool)howingFailure,V_showingFailure;
+- (void)onIdentifier:(id)arg1 %@;
+- (id)ntly:%@ /* Error: Ran out of types for this method. */;
+- (id)t metadata %@;
+- (id)oller | Deletion:(id)arg1 did not find any chats for chat metadata %@;
+- (void):(id)arg1 %@;
+- (_Bool)ForceEnableReparentingMonitor;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id)Orientation;
+- (id)deviceOrientation;
 - (void)VãÓ;
 - (id);
 - (id)0Íùþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *currentFavoriteOrder; // @synthesize currentFavoriteOrder=_currentFavoriteOrder;
-@property(readonly, nonatomic) NSOrderedSet *favoriteOrder; // @synthesize favoriteOrder=_favoriteOrder;
-@property(readonly, nonatomic) NSArray *fixedItems; // @synthesize fixedItems=_fixedItems;
 @property(readonly, nonatomic) NSMutableArray *fixedTabs; // @synthesize fixedTabs=_fixedTabs;
-@property(copy, nonatomic) NSSet *ignoredFavoriteOrderItems; // @synthesize ignoredFavoriteOrderItems=_ignoredFavoriteOrderItems;
-@property(readonly, nonatomic) NSSet *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSOrderedSet *overrideFavoriteOrder; // @synthesize overrideFavoriteOrder=_overrideFavoriteOrder;
-@property(readonly, nonatomic) NSArray *pinnedItems; // @synthesize pinnedItems=_pinnedItems;
-@property(readonly, nonatomic) NSMutableArray *pinnedTabs; // @synthesize pinnedTabs=_pinnedTabs;
-@property(retain, nonatomic) UITab *placeholderTab; // @synthesize placeholderTab=_placeholderTab;
-@property(readonly, nonatomic) NSOrderedSet *sourceTabIdentifiers; // @synthesize sourceTabIdentifiers=_sourceTabIdentifiers;
-@property(readonly, nonatomic) NSMutableArray *sourceTabs; // @synthesize sourceTabs=_sourceTabs;
-@property(retain, nonatomic) _UITabModel *tabModel; // @synthesize tabModel=_tabModel;
 
 @end
 

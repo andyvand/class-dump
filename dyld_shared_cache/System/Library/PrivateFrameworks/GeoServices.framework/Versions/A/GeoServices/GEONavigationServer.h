@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavdPeer, GEOPerformanceEventLogger, GeoServices.GEONavigationListenerDetails, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class GeoServices.GEONavigationListenerDetails;
 
 __attribute__((visibility("hidden")))
 @interface GEONavigationServer
 {
     GeoServices.GEONavigationListenerDetails *_details;
-    NSObject<OS_dispatch_queue> *_queue;
-    GEONavdPeer *_pushStatePeer;
-    NSMutableSet *_remoteClients;
-    NSMutableSet *_unEntitledClients;
-    _Bool _isListenerConnectionOpen;
-    int _listenerConnectionOpenToken;
-    GEOPerformanceEventLogger *_performanceEventLogger;
 }
 
 - (void);
@@ -31,29 +23,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)s not enabled;
+- (void)ld install/first unlock tasks got completed with error - %{public}@;
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
 - (void)"<GEOVenueIdentifier>";
-- (void)leteResultCellTypes;
-- (void);
-- (void)untry:(CDStruct_c3b9c2ee)arg1 newDevicePostureRegion:oldDevicePostureCountry:oldDevicePostureRegion: /* Error: Ran out of types for this method. */;
+- (void)_supportedAutocompleteResultCellTypes;
+- (void)_regionStore;
+- (void)_invalidateTileSetsForNewDevicePostureCountry:(CDStruct_c3b9c2ee)arg1 newDevicePostureRegion:oldDevicePostureCountry:oldDevicePostureRegion: /* Error: Ran out of types for this method. */;
 - (void)en cached. Ignoring new segments. Old cache range:(id)arg1 %{private}@. New segments range:%{private}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)S2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

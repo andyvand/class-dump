@@ -9,19 +9,17 @@
 @interface AppAttestCDHash
 {
     unsigned char _type;
-    NSData *_cdHash;
 }
 
 - (id);
 - (void);
-- (id);
+- (id).;
 - (unsigned char);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cdHash; // @synthesize cdHash=_cdHash;
-@property(nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

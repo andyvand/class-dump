@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PEGASUSSchemaPEGASUSMultistepGatingExecution, PEGASUSSchemaPEGASUSMultistepSubSearchExecution, PEGASUSSchemaPEGASUSMultiturnExecution;
+@class PEGASUSSchemaPEGASUSMultistepGatingExecution;
 
 @interface PEGASUSSchemaPEGASUSInfoDomainMultistepAndMultiturnExecutionReported : SISchemaInstrumentationMessage
 {
     PEGASUSSchemaPEGASUSMultistepGatingExecution *_multistepGatingExecution;
-    PEGASUSSchemaPEGASUSMultistepSubSearchExecution *_multistepSubSearchExecution;
-    PEGASUSSchemaPEGASUSMultiturnExecution *_multiturnExecution;
-    NSArray *_multistepSubSearchExecutions;
-    _Bool _hasMultistepGatingExecution;
-    _Bool _hasMultistepSubSearchExecution;
-    _Bool _hasMultiturnExecution;
 }
 
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -35,34 +29,27 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)?נ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)messages;
 - (id);
 - (id)
 × ;
-- (id)Id;
+- (id)_hasAsrPostItnLinkId;
 - (id)V_ueiDictationEuclidSpeechAlternativesSelected;
 - (void)systemResponseGenerated.interpretedStatementResults.outcome.valueDisambiguation.items.collection.values.primitive.app.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMultistepGatingExecution; // @synthesize hasMultistepGatingExecution=_hasMultistepGatingExecution;
-@property(nonatomic) _Bool hasMultistepSubSearchExecution; // @synthesize hasMultistepSubSearchExecution=_hasMultistepSubSearchExecution;
-@property(nonatomic) _Bool hasMultiturnExecution; // @synthesize hasMultiturnExecution=_hasMultiturnExecution;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PEGASUSSchemaPEGASUSMultistepGatingExecution *multistepGatingExecution; // @synthesize multistepGatingExecution=_multistepGatingExecution;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSMultistepSubSearchExecution *multistepSubSearchExecution; // @synthesize multistepSubSearchExecution=_multistepSubSearchExecution;
-@property(copy, nonatomic) NSArray *multistepSubSearchExecutions; // @synthesize multistepSubSearchExecutions=_multistepSubSearchExecutions;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSMultiturnExecution *multiturnExecution; // @synthesize multiturnExecution=_multiturnExecution;
 
 @end
 

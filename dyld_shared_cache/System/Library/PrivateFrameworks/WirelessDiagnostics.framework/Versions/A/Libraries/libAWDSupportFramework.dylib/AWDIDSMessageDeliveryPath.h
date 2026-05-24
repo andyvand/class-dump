@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSMessageDeliveryPath
 {
     unsigned long long _timestamp;
-    unsigned int _deliveryPathType;
-    NSString *_service;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deliveryPathType:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +14,7 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -32,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
@@ -40,12 +32,7 @@
 - (void).(;
 
 // Remaining properties
-@property(nonatomic) unsigned int deliveryPathType; // @synthesize deliveryPathType=_deliveryPathType;
-@property(nonatomic) _Bool hasDeliveryPathType;
-@property(readonly, nonatomic) _Bool hasService;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

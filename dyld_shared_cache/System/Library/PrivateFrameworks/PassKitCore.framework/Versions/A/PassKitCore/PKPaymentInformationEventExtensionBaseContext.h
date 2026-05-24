@@ -11,7 +11,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)setChangeDirection: /* Error: Ran out of types for this method. */;
 
 @end
 

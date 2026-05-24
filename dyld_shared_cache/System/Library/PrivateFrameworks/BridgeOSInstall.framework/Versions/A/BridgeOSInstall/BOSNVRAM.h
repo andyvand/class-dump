@@ -9,10 +9,10 @@
 }
 
 + (id);
-- (void);
+- (void)atusBarHidden];
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -22,9 +22,9 @@
 - (_Bool);
 - (unsigned int);
 - (id);
+- (_Bool)ager"24@0:(id)arg1 8@"NSWindow"16;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)apple.shortcuts.indexed-tool;
 - (id);
 
 @end

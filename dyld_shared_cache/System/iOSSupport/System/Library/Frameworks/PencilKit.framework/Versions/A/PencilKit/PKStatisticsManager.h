@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKInk;
+@class NSString;
 @protocol PKDrawingPaletteStatistics;
 
 @interface PKStatisticsManager
 {
     NSString *_recentShapeCreated;
-    double _latestShapeCreatedTimestamp;
-    NSDictionary *_recentTextLinesStraightened;
-    double _latestTextLinesStraightenedTimestamp;
-    PKInk *_recentRollStrokeInk;
-    double _recentStrokeRollAngleDelta;
-    _Bool _recentRollStrokeDidUndo;
-    id <PKDrawingPaletteStatistics> _drawingPaletteStatistics;
 }
 
 + (id);

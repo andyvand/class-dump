@@ -6,14 +6,11 @@
 
 #import <RunningBoardServices/RBSProcessIdentity.h>
 
-@class RBSProcessIdentifier;
 @protocol RBSExtensionIdentityProtocol;
 
 @interface RBSExtensionProcessIdentity : RBSProcessIdentity
 {
     id <RBSExtensionIdentityProtocol> _extensionIdentity;
-    RBSProcessIdentity *_hostIdentity;
-    RBSProcessIdentifier *_hostIdentifier;
 }
 
 + (id);
@@ -24,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (_Bool);
@@ -36,19 +33,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned char);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
+- (id)lback with success=%{BOOL}d errorRef=%{public}s);
+- (void)+;
 - (id);
 
 // Remaining properties
 @property(retain) id <RBSExtensionIdentityProtocol> extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
-@property(readonly) RBSProcessIdentifier *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
-@property(readonly) RBSProcessIdentity *hostIdentity; // @synthesize hostIdentity=_hostIdentity;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface JetEngine.ImpressionsTracking.DynamicChange
 {
     id changeTimeStamp;
-    id impressionMetrics;
-    id kindStorage;
-    id additionalMetricsFields;
 }
 
 @end

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SiriCoreSQLiteStatement;
-@protocol SiriCoreSQLiteRecordBuilder;
+@class NSString;
 
 @interface SiriCoreSQLiteQuery
 {
     NSString *_string;
-    SiriCoreSQLiteStatement *_statement;
-    NSArray *_parameters;
-    id <SiriCoreSQLiteRecordBuilder> _recordBuilder;
-    unsigned long long _options;
 }
 
 - (id);
-- (id);
+- (id)eCachedServerType;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)vT;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) id <SiriCoreSQLiteRecordBuilder> recordBuilder; // @synthesize recordBuilder=_recordBuilder;
-@property(readonly, nonatomic) SiriCoreSQLiteStatement *statement; // @synthesize statement=_statement;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

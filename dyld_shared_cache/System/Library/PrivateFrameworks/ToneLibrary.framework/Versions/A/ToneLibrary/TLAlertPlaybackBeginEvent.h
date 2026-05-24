@@ -7,7 +7,6 @@
 @interface TLAlertPlaybackBeginEvent
 {
     _Bool _forMusicPlayback;
-    long long _audioSessionReporterID;
 }
 
 - (_Bool);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long audioSessionReporterID; // @synthesize audioSessionReporterID=_audioSessionReporterID;
-@property(readonly, nonatomic, getter=isForMusicPlayback) _Bool forMusicPlayback; // @synthesize forMusicPlayback=_forMusicPlayback;
 
 @end
 

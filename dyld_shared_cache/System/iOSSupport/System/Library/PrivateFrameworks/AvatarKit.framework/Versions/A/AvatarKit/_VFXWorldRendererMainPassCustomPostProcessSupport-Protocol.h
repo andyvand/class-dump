@@ -5,5 +5,6 @@
 //
 
 @protocol _VFXWorldRendererMainPassCustomPostProcessSupport
+- (_Bool);
 @end
 

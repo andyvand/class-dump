@@ -6,23 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDepthEffectApplyBlurMap : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBlurMap;
-    CIImage *inputMatteImage;
-    CIImage *inputGainMap;
-    NSNumber *inputAperture;
-    NSNumber *inputLumaNoiseScale;
-    NSNumber *inputScale;
-    id inputAuxDataMetadata;
-    NSString *inputShape;
-    NSNumber *inputDraftMode;
-    NSNumber *inputBestHairQuality;
-    NSString *inputCaptureFolderMiscPath;
 }
 
 + (id);
@@ -38,6 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -47,26 +37,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)&;
+- (void)o;
 - (void);
 - (id);
 - (id)`nis~~~~{e}zo~|zzzzwwww]ngzpo}|zzzzSniy|¢¤xhpopbbZbVd_hyyyy^tsycd]jHYMe^hapj~|r~z~{~G]QlFZMh|zw|    YzyyyyyA[QhR_VgnnnnWidmmlfms|||¡ §²²²²µµµµ¬¬¬¬¤¤¤¤ks¢«¯³³ÃÃÃÃÈÈÈÈ½½½½¥¤¥¥e{w_xutzzzPebmghhh`fef\a[elrpsMcYrYh_q{eur}af_hXXUXDRGWghgh||||bup~~~~vwtz¢¢¢¢tzuq}z©©©©°°°°_pjw/J9[FQDX\\S\CRFYMUIXeeaep~~    ­­­­utmyOcWpu~}Zngy    Omg|crow||||zzzzJhdti{{{uutu^ibnyyyyg|{w¨¨¨¨¤¤¤¤vvqvnnknqrnr{{{{zwu}vxuyyyyy}}}}juq~oxwzzzz>TI^>PC\ppppwwwwllll__V_;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture;
-@property(retain, nonatomic) id inputAuxDataMetadata; // @synthesize inputAuxDataMetadata;
-@property(retain, nonatomic) NSNumber *inputBestHairQuality; // @synthesize inputBestHairQuality;
-@property(retain) CIImage *inputBlurMap; // @synthesize inputBlurMap;
-@property(retain, nonatomic) NSString *inputCaptureFolderMiscPath; // @synthesize inputCaptureFolderMiscPath;
-@property(retain, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
-@property(retain) CIImage *inputGainMap; // @synthesize inputGainMap;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseScale; // @synthesize inputLumaNoiseScale;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) NSString *inputShape; // @synthesize inputShape;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADRotation3D
 {
     float mLatitude;
-    float mLongitude;
-    float mRevolution;
 }
 
 - (float);

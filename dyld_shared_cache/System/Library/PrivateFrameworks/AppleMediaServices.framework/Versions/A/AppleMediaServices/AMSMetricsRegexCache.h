@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface AMSMetricsRegexCache
 {
     id cache;
-    unsigned int maxSize;
-    NSLock *lock;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)Îæ\òò³·ÖÝÈ9g:±^Í:Óc"3¼â¥?ûù¸]MÇ0±êvyÌß$e'·axÅ^¤ù_Ïæ;Yb~sY5b6·«GsE´ÑÑ"¡Û_	[¸ó
 Õ+Ð(xÔÖÂq:¼¬7öæ~>¼:ýÀ­úBØà×ðçw3]T-æ¾¾qÒðëß}äuAäª÷¥ñØUféþÎî³­îIHPGw%,ÃÕYêµSþïô®, /* Error: Ran out of types for this method. */;
 - (void)¥'-j&dáÊç×3ì;¹6ùu2tÜòGªn¤Ä¦ZkpÆÐk4jhó\´¼~ªBÉ4@ÞUÂWÿøßü TÝ{H'2MOÑ¥Ò9à°¦ëêC¯k»rb¬Î¬Õ
@@ -25,7 +21,6 @@
 - (unsigned int)#Í H<v1étFÑ;/ºh5²Ý·4U*úÇîÊÎ×WÄ+nVÃ_NÜÃCíKÙLS¸Y¢3÷²ã­Oý"Ø!@h´é»A¯\u¶²ÛQÁËúMJh_$.Ä±ÞD¿Ã¢©âõª&5¿ªÉ^|¼Qç¼RnZUZòSóÓõ`ïXì`£,gÀ¯L$Ýp²»ÄZó;
 
 // Remaining properties
-@property(nonatomic, readonly) NSLock *lock; // @synthesize lock;
 @property(nonatomic, readonly) unsigned int maxSize; // @synthesize maxSize;
 
 @end

@@ -7,15 +7,13 @@
 @interface _PASBigEndianUTF16String
 {
     unsigned long long _length;
-    const void *_swapped;
-    id _backingObject;
 }
 
-- (void);
-- (unsigned long long);
+- (void)shouldRecordObjectIDMap;
+- (unsigned long long)h#;
 - (id);
 - (unsigned short);
-- (void);
+- (void)setAlternateTimeProposal: /* Error: Ran out of types for this method. */;
 
 @end
 

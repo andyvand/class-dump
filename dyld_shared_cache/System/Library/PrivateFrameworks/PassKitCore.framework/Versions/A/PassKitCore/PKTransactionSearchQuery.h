@@ -13,7 +13,7 @@
     NSString *_passUniqueIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)0;
 - (void);
 - (id);
 - (id);
@@ -21,7 +21,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)addUsbEvent:(id)arg1;
 - (unsigned long long);
 - (void)humb/jn4Z3GeMK1r3fMOJW0ef0Q/258x258.png;
 

@@ -5,5 +5,8 @@
 //
 
 @protocol IDSPushHandlerDelegate
+
+@optional
+- (void)49;
 @end
 

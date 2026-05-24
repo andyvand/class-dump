@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNUIFamilyMemberDowntimeContactItem
 {
     _Bool _selected;
-    CNContact *_contact;
-    NSString *_label;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)B;
+- (id)RegionIdentifier.m;
 - (void);
-- (void)ramesWithDuration:delay:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)animateKeyframesWithDuration:delay:options:animations:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)øyC©øyAAyÂø¥ê÷GG_í£øQo_}øySbGG_SSAByACGQo_;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

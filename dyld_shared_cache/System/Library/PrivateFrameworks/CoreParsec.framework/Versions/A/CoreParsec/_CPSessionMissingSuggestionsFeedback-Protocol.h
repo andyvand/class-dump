@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class _CPSearchSuggestionForFeedback;
 
 @protocol _CPSessionMissingSuggestionsFeedback
+- (_CPSearchSuggestionForFeedback *)9;
+- (unsigned long long);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *suggestions;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

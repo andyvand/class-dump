@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (void);
++ (_Bool)	;
++ (void);
 + (id);
 + (unsigned long long);
 + (id);
 + (id);
-+ (void);
-+ (id);
++ (void)C;
++ (id))y	;
 + (void);
 + (void);
 + (void);

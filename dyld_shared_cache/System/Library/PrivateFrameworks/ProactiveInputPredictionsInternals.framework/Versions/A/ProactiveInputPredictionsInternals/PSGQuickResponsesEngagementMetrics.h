@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface PSGQuickResponsesEngagementMetrics
 {
     NSString *_lang;
-    NSString *_rolloutId;
-    NSString *_factorPackId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    NSMutableArray *_engagementDeltas;
 }
 
 + (_Bool);
@@ -21,23 +16,18 @@
 - (id);
 - (id);
 - (id);
+- (id)ioEngine_calculateWiFiMetrics(FigEndpointStreamAudioEngineRef, CFMutableDictionaryRef);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)iveModelFittingEvalMetrics"16@"AWDProactiveModelFittingMinibatchStats"24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *engagementDeltas; // @synthesize engagementDeltas=_engagementDeltas;
-@property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSString *factorPackId; // @synthesize factorPackId=_factorPackId;
 @property(readonly, nonatomic) NSString *lang; // @synthesize lang=_lang;
-@property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

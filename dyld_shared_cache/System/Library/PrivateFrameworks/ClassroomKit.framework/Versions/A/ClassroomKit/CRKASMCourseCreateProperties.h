@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCourseUpdateProperties;
 @protocol CRKASMLocation;
 
 @interface CRKASMCourseCreateProperties
 {
     id <CRKASMLocation> _location;
-    CRKASMCourseUpdateProperties *_updateProperties;
 }
 
 - (void);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <CRKASMLocation> location; // @synthesize location=_location;
-@property(copy, nonatomic) CRKASMCourseUpdateProperties *updateProperties; // @synthesize updateProperties=_updateProperties;
 
 @end
 

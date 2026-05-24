@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id);
-- (id);
+- (id)yInvitationSession _activateWithCompletion:(id)arg1 reactivate:] /* Error: Ran out of types for this method. */;
 
 @end
 

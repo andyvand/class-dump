@@ -10,17 +10,17 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (BOOL);
-- (_Bool);
-- (id);
+- (_Bool)updateHeightConstraint;
+- (_Bool)updateDivergedNotesWithConfiguration:completion: /* Error: Ran out of types for this method. */;
+- (id)sharedAppGroupDefaultsController;
+- (BOOL)setPostProcessingRequestIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)lineSpacing;
+- (id)y;
 - (struct CGSize);
+- (id)d;
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
+- (id)Presenting locked notes welcome migration prompt…;
+- (struct CGSize):(struct CGSize)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (struct UIEdgeInsets);
 - (Class);

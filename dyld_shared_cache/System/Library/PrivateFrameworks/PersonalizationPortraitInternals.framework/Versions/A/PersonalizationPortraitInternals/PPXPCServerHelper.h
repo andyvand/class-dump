@@ -8,9 +8,9 @@
 {
 }
 
++ (_Bool)ID %@, using groupID %@, could NOT find SMS chat, message may be lost on older devices;
 + (_Bool);
-+ (_Bool);
-+ (_Bool)ForSearchableItem:(id)arg1;
++ (_Bool)contactHandlesForSearchableItem:(id)arg1;
 
 @end
 

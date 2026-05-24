@@ -6,15 +6,14 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, NSString;
+@class FPItem;
 
 @interface FPRenameOperation : FPActionOperation
 {
     FPItem *_item;
-    NSString *_newName;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);

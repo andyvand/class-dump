@@ -9,13 +9,6 @@
 @interface PencilKit.StrokeInRenderer : PencilKit.TiledViewRenderer
 {
     id device;
-    id commandQueue;
-    id pipelineState;
-    id vertices;
-    id indices;
-    id indicesCount;
-    id texture;
-    id depth;
 }
 
 - (void);

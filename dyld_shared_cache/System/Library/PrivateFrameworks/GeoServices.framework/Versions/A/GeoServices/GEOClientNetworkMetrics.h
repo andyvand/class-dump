@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOClientNetworkMetrics
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _requestEnd;
-    double _requestStart;
-    NSString *_serviceIpAddress;
-    NSMutableArray *_transactionMetrics;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _httpResponseCode;
-    int _redirectCount;
-    int _requestDataSize;
-    int _responseDataSize;
-    _Bool _rnfTriggered;
-    struct {
-        unsigned int has_requestEnd:1;
-        unsigned int has_requestStart:1;
-        unsigned int has_httpResponseCode:1;
-        unsigned int has_redirectCount:1;
-        unsigned int has_requestDataSize:1;
-        unsigned int has_responseDataSize:1;
-        unsigned int has_rnfTriggered:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_serviceIpAddress:1;
-        unsigned int read_transactionMetrics:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tHasNextOptionsIndex:(id)arg1;
++ (_Bool)setHasNextOptionsIndex:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -50,11 +24,11 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)initWithBlock:(id)arg1 defaultValue: /* Error: Ran out of types for this method. */;
+- (id)SSVCADeviceSimple2OutputMinTargetDB;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -72,13 +46,13 @@
 × ;
 - (void)× ;
 - (unsigned long long)RoutePreloaderStatisticsInfo";
-- (id)PhotoSizes;
-- (_Bool)dances;
-- (int)ead;
+- (id)reviewUserPhotoSizes;
+- (_Bool)guidances;
+- (int)distanceAhead;
 - (id)¦`¦§Ð§ü¨@©ì©T«¬H­;
 - (_Bool)L;
 - (void);
-- (id)kup_location;
+- (id)moved_pickup_location;
 - (_Bool)object;
 - (id)ÿÿ;
 - (void);
@@ -98,23 +72,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasHttpResponseCode;
-@property(nonatomic) _Bool hasRedirectCount;
-@property(nonatomic) _Bool hasRequestDataSize;
-@property(nonatomic) _Bool hasRequestEnd;
-@property(nonatomic) _Bool hasRequestStart;
-@property(nonatomic) _Bool hasResponseDataSize;
-@property(nonatomic) _Bool hasRnfTriggered;
-@property(readonly, nonatomic) _Bool hasServiceIpAddress;
-@property(nonatomic) int httpResponseCode;
-@property(nonatomic) int redirectCount;
-@property(nonatomic) int requestDataSize;
-@property(nonatomic) double requestEnd;
-@property(nonatomic) double requestStart;
-@property(nonatomic) int responseDataSize;
-@property(nonatomic) _Bool rnfTriggered;
-@property(retain, nonatomic) NSString *serviceIpAddress;
-@property(retain, nonatomic) NSMutableArray *transactionMetrics;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

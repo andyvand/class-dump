@@ -13,16 +13,16 @@
 
 + (unsigned char);
 + (unsigned long long);
++ (_Bool)reset;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id)fe;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

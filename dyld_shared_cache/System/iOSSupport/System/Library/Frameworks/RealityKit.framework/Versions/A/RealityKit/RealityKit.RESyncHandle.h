@@ -7,6 +7,7 @@
 @interface RealityKit.RESyncHandle
 {
     id ref;
+    id;
 }
 
 @end

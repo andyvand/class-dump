@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDUserNotificationCenter, NAFuture, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol HMDDoorbellBulletinUtilities, HMDFeaturesDataSource, HMDFileManager, HMDUserNotificationCenterSettingsProviding, HMMLogEventSubmitting, OS_dispatch_queue;
+@class NAFuture, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinBoard
 {
     NAFuture *_isConfiguredFuture;
-    id <HMDDoorbellBulletinUtilities> _doorbellBulletinUtilities;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    id <HMDFileManager> _fileManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMDUserNotificationCenter *_notificationCenter;
-    NSMutableDictionary *_notificationRequestsByIdentifier;
-    NSMutableDictionary *_characteristicTuplesByKey;
-    Class _persistentStoreClass;
-    HMDHomeManager *_homeManager;
 }
 
 + (id);
@@ -39,8 +28,8 @@ __attribute__((visibility("hidden")))
 × ;
 + (_Bool)1Â0@ù
 × ;
-+ (_Bool)tureAutomationsDisclosureStatus:(id)arg1;
-+ (id)ict:(id)arg1 namespace:(id)arg2;
++ (_Bool)setAdaptiveTemperatureAutomationsDisclosureStatus:(id)arg1;
++ (id)checkForConflict:(id)arg1 namespace:(id)arg2;
 + (_Bool)@ÁXÂÃ,ÄtÅ;
 + (_Bool)H­:\¡ /* Error: Ran out of types for this method. */;
 + (id)for homes not yet migrated.;
@@ -62,37 +51,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)_;
+- (void)vignetteFalloff;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id)y;
 - (id);
-- (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (id);
@@ -116,16 +105,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ackingStoreResidentUpdateResult"44@0:(id)arg1 8@"NSNotification"16@"NSSet"24B32@"HMDDevice"36;
 - (void)Context"48;
-- (void)imePeriodCondition:(id)arg1;
-- (void);
-- (id)haredThreadResidentCommissioner;
+- (void)predicateFromTimePeriodCondition:(id)arg1;
+- (void)notifyMatterAccessoryThreadCapabilities:(id)arg1;
+- (id)getSharedThreadResidentCommissioner;
 - (id)text:(id)arg1;
-- (void)eOnboarding;
-- (void)fication;
-- (_Bool)SetMappings;
-- (id)udShareManager;
-- (_Bool)ionWithSharedUserRampDivisor;
-- (id)dleNetworkFirewallRemoveOverridesRequest: /* Error: Ran out of types for this method. */;
+- (void)dismissedWalletKeyExpressModeOnboarding;
+- (void)castIfTimeOfDayTimeSpecification;
+- (_Bool)actionSetMappings;
+- (id)_synchronizeHindsightCloudShareManager;
+- (_Bool)_hh2AutoMigrationWithSharedUserRampDivisor;
+- (id)_handleNetworkFirewallRemoveOverridesRequest: /* Error: Ran out of types for this method. */;
 - (void)SwiftExtensions",N,R;
 - (id)Ü ¤;
 - (void);
@@ -142,9 +131,9 @@ __attribute__((visibility("hidden")))
 - (void)z¥ÿÿ©Û;
 - (id)^_ÿÿ8Ø;
 - (void)tributionTuple"8;
-- (void)emoteLoginAuthenticationResponse;
-- (id)UD_SWITCH_INFO;
-- (void)onRequestKey;
+- (void)kHMDRemoteLoginAuthenticationResponse;
+- (id)ICLOUD_SWITCH_INFO;
+- (void)kStartRecordingSessionRequestKey;
 - (void)Q~&À;
 - (void);
 - (id)@;
@@ -152,27 +141,7 @@ __attribute__((visibility("hidden")))
 - (id)äóB;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *characteristicTuplesByKey; // @synthesize characteristicTuplesByKey=_characteristicTuplesByKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDDoorbellBulletinUtilities> doorbellBulletinUtilities; // @synthesize doorbellBulletinUtilities=_doorbellBulletinUtilities;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) NAFuture *isConfiguredFuture; // @synthesize isConfiguredFuture=_isConfiguredFuture;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) HMDUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) id <HMDUserNotificationCenterSettingsProviding> notificationCenterSettingsProvider;
-@property(readonly) NSMutableDictionary *notificationRequestsByIdentifier; // @synthesize notificationRequestsByIdentifier=_notificationRequestsByIdentifier;
-@property(readonly) NSArray *notificationRequestsSortedByDate;
-@property(retain) Class persistentStoreClass; // @synthesize persistentStoreClass=_persistentStoreClass;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *threadIdentifierForGroupingWithUnknownHome;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

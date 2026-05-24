@@ -13,13 +13,13 @@
 + (Class);
 + (void);
 + (void);
-+ (void);
++ (void)10 seconds;
 + (id)m;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (long long)ment: /* Error: Ran out of types for this method. */;
+- (long long)parserDidStartDocument: /* Error: Ran out of types for this method. */;
 - (void)el;
 
 // Remaining properties

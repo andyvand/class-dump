@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountHandle, HMDIDSMessageContext, NSMutableArray, NSString;
+@class HMDAccountHandle;
 @protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccountHandleResolveOperation
 {
     HMDAccountHandle *_handle;
-    id <HMDIDSService> _service;
-    HMDIDSMessageContext *_messageContext;
-    NSMutableArray *_resolveBlocks;
 }
 
-+ (double)ndpointAccessoryUUIDs;
++ (double)siriEndpointAccessoryUUIDs;
 + (id)Õÿ\áP&C;
 - (id);
 - (void);
-- (id);
+- (id)hin10mOfCenter:ratioAssetClustersWithin20mOfCenter:ratioAssetClustersWithin50mOfCenter:ratioAssetClustersWithin100mOfCenter:ratioAssetClusters100mPlusFromCenter: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -30,24 +27,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!ÄBùð1Â0@ù
 × ;
-- (id)ption;
+- (id)stateDescription;
 - (void)ding decline for invite (homeID:(id)arg1 %@) %@;
 - (void)8;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMDAccountHandle *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDIDSMessageContext *messageContext; // @synthesize messageContext=_messageContext;
-@property(readonly) NSMutableArray *resolveBlocks; // @synthesize resolveBlocks=_resolveBlocks;
 @property(readonly) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

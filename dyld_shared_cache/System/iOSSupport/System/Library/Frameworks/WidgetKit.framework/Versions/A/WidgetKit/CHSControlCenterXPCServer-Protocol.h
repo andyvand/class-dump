@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CHSControlCenterXPCServer
+- (oneway void)addRedactionFromRectangularSelectionWithRect:(NSString *)arg1;
+- (oneway void)addQuadPointsToDictionaryRef:(NSString *)arg1;
+- (oneway void)addContentsToDictionaryRef:(void (^)(NSData *, NSError *))arg1;
 @end
 

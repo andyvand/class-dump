@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)x-sampa;
 
 @end
 

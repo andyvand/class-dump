@@ -5,5 +5,7 @@
 //
 
 @protocol INPersonResolutionResultExport
++ (id);
++ (id);
 @end
 

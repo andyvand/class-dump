@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDMessageDispatcher, HMDResidentMeshMeshStorage, HMFTimer, NSHashTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentMesh
 {
     NSUUID *_uuid;
-    HMDHomeManager *_homeManager;
-    HMDMessageDispatcher *_messageDispatcher;
-    NSMutableArray *_residents;
-    HMDResidentMeshMeshStorage *_resident;
-    NSMutableArray *_reachableAccessories;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_devicesChangedTimer;
-    NSSet *_primaryResidentForHomes;
-    NSMutableDictionary *_loadMetrics;
-    NSHashTable *_observers;
-    NSMutableSet *_updatedOrAddedDevices;
 }
 
 + (id)ÕB;
@@ -36,23 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)shareWithContactValue:queue:completion: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)C;
 - (id);
 - (id);
 - (id);
@@ -62,7 +41,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -75,38 +63,13 @@ __attribute__((visibility("hidden")))
 - (void)n minimum value:(id)arg1 %@;
 - (void)essory.Messenger;
 - (id)Type=%hhu;
-- (id)nelPayloadManager;
+- (id)StatusChannelPayloadManager;
 - (id)=;
 - (id)T>;
 - (void)J·l[?;
 
 // Remaining properties
-@property(readonly, copy) NSSet *activeRecordingSessionCameraUUIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMFTimer *devicesChangedTimer; // @synthesize devicesChangedTimer=_devicesChangedTimer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) NSMutableDictionary *loadMetrics; // @synthesize loadMetrics=_loadMetrics;
-@property(nonatomic) __weak HMDMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSSet *primaryResidentForHomes; // @synthesize primaryResidentForHomes=_primaryResidentForHomes;
-@property(retain, nonatomic) NSMutableArray *reachableAccessories; // @synthesize reachableAccessories=_reachableAccessories;
-@property(nonatomic) __weak HMDResidentMeshMeshStorage *resident; // @synthesize resident=_resident;
-@property(retain, nonatomic) NSMutableArray *residents; // @synthesize residents=_residents;
-@property(readonly, copy) NSString *stateDump;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *updatedOrAddedDevices; // @synthesize updatedOrAddedDevices=_updatedOrAddedDevices;
 @property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol EGElement, EGInputHandler, EGPortInterface, EGSourcePort;
+@protocol EGPortInterface;
 
 @interface EGInput
 {
     NSString *_name;
-    id <EGInputHandler> _inputHandler;
-    id <EGSourcePort> _source;
-    id <EGPortInterface> _portInterface;
 }
 
 + (void)tion.avcapturedevice.built-in_video:0 /* Error: Ran out of types for this method. */;
@@ -23,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T@"NSString",C,N,V_defaultTableStyleId;
 - (id);
 - (id);
 - (id);
@@ -34,17 +31,7 @@ fÈÿgÈÿgÈÿgÇÿgÇÿ&gÇÿ-gÆÿ4hÆÿ<hÅÿDhÅÿKhÅÿSiÅÿ[iÅÿbi�
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
 @property(readonly, nonatomic) id <EGPortInterface> portInterface;
-@property(readonly, nonatomic) id <EGSourcePort> source;
-@property(readonly) Class superclass;
 
 @end
 

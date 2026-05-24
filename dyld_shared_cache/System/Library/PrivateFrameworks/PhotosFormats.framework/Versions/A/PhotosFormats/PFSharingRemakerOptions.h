@@ -4,33 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, NSURL;
-
 @interface PFSharingRemakerOptions
 {
     _Bool _shouldStripLocation;
-    _Bool _shouldStripAllMetadata;
-    _Bool _shouldConvertToSRGB;
-    _Bool _shouldStripCaption;
-    _Bool _shouldStripAccessibilityDescription;
-    CLLocation *_customLocation;
-    NSDate *_customDate;
-    NSString *_customCaption;
-    NSString *_customAccessibilityLabel;
-    NSURL *_outputDirectoryURL;
-    NSString *_outputFilename;
-    NSString *_exportPreset;
-    NSString *_exportFileType;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)framework/Versions/A/UserManagement;
+- (id)4;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -53,18 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customAccessibilityLabel; // @synthesize customAccessibilityLabel=_customAccessibilityLabel;
-@property(copy, nonatomic) NSString *customCaption; // @synthesize customCaption=_customCaption;
-@property(copy, nonatomic) NSDate *customDate; // @synthesize customDate=_customDate;
-@property(copy, nonatomic) CLLocation *customLocation; // @synthesize customLocation=_customLocation;
-@property(copy, nonatomic) NSString *exportFileType; // @synthesize exportFileType=_exportFileType;
-@property(copy, nonatomic) NSString *exportPreset; // @synthesize exportPreset=_exportPreset;
-@property(copy, nonatomic) NSURL *outputDirectoryURL; // @synthesize outputDirectoryURL=_outputDirectoryURL;
-@property(copy, nonatomic) NSString *outputFilename; // @synthesize outputFilename=_outputFilename;
-@property(nonatomic) _Bool shouldConvertToSRGB; // @synthesize shouldConvertToSRGB=_shouldConvertToSRGB;
-@property(nonatomic) _Bool shouldStripAccessibilityDescription; // @synthesize shouldStripAccessibilityDescription=_shouldStripAccessibilityDescription;
-@property(nonatomic) _Bool shouldStripAllMetadata; // @synthesize shouldStripAllMetadata=_shouldStripAllMetadata;
-@property(nonatomic) _Bool shouldStripCaption; // @synthesize shouldStripCaption=_shouldStripCaption;
 @property(nonatomic) _Bool shouldStripLocation; // @synthesize shouldStripLocation=_shouldStripLocation;
 
 @end

@@ -7,16 +7,6 @@
 @interface NewsUI2.FollowingNotificationsModifierFactory
 {
     id subscriptionService;
-    id tagService;
-    id notificationConfiguration;
-    id userInfo;
-    id bundleSubscriptionManager;
-    id featureAvailability;
-    id configurationManager;
-    id newsletterManager;
-    id emailSignupModelFactory;
-    id contentAvailabilityValidator;
-    id headerLabelTextProvider;
 }
 
 @end

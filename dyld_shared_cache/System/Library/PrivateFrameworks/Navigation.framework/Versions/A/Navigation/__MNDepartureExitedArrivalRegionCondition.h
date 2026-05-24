@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDepartureUpdater, NSArray, NSMutableArray, NSString;
+@class MNDepartureUpdater, NSString;
 
 __attribute__((visibility("hidden")))
 @interface __MNDepartureExitedArrivalRegionCondition
 {
     MNDepartureUpdater *_updater;
-    NSArray *_arrivalRegions;
-    double _closestDistanceToWaypoint;
-    double _threshold;
-    unsigned long long _numHistoricalLocations;
-    NSMutableArray *_regionDepartureHistory;
 }
 
 - (double);

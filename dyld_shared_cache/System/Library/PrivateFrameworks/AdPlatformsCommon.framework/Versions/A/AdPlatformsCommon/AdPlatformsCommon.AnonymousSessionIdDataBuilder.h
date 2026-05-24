@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.AnonymousSessionIdDataBuilder
 {
     id datasource;
-    id processId;
-    id dsidProvider;
 }
 
 @end

@@ -7,15 +7,14 @@
 @interface AppStoreKit.JSArcadeObject
 {
     id accounts;
-    id arcadeStore;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)ionaryCSg;
+- (void)So12NSDictionaryCSg;
 
 @end
 

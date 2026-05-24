@@ -6,7 +6,7 @@
 
 #import <SafariServices/_SFBookmark.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _SFBookmarkFolder : _SFBookmark
 {
@@ -16,20 +16,12 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>={?=^{LaTeXSyntaxHelper}}}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
 
 @end
 

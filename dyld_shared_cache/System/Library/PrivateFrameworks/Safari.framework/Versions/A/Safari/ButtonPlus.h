@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCursor;
-
 __attribute__((visibility("hidden")))
 @interface ButtonPlus
 {
     _Bool _ignoresFirstMouse;
-    _Bool _usesCustomAlignmentRectInsets;
-    double _horizontalContentInset;
-    double _verticalContentInset;
-    NSCursor *_customCursor;
-    struct NSEdgeInsets _customAlignmentRectInsets;
 }
 
 - (double);
@@ -31,16 +24,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)SafetyClient;
 - (void);
 - (struct NSEdgeInsets)ÿ;
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets customAlignmentRectInsets; // @synthesize customAlignmentRectInsets=_customAlignmentRectInsets;
-@property(retain, nonatomic) NSCursor *customCursor; // @synthesize customCursor=_customCursor;
 @property(nonatomic) double horizontalContentInset; // @synthesize horizontalContentInset=_horizontalContentInset;
-@property(nonatomic) _Bool usesCustomAlignmentRectInsets; // @synthesize usesCustomAlignmentRectInsets=_usesCustomAlignmentRectInsets;
-@property(nonatomic) double verticalContentInset; // @synthesize verticalContentInset=_verticalContentInset;
 
 @end
 

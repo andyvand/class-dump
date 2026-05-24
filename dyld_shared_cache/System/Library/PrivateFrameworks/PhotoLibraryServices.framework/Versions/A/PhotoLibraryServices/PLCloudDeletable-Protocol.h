@@ -5,5 +5,7 @@
 //
 
 @protocol PLCloudDeletable
++ (id);
+- (id)key_ssave;
 @end
 

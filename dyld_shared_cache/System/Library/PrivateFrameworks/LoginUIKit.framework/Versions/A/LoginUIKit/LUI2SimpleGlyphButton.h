@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id)9_;
 - (void);
 - (void);
 - (void);
@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tual cards.;
 - (id);
 - (void);
 

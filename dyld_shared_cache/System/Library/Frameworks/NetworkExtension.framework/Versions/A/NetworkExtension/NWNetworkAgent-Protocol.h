@@ -4,48 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSDictionary, NSString, NSUUID;
 
 @protocol NWNetworkAgent
++ (NSString *)_TtCO7Sharing20SFAirDropInvocations6Cancel;
+- (NSUUID *);
+
+@optional
+- (_Bool);
+- (_Bool);
+- (void)unts of Service Types info request:(NSDictionary *)arg1;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
 @property(copy, nonatomic) NSString *agentDescription;
-@property(copy, nonatomic) NSUUID *agentUUID;
-@property(nonatomic, getter=isKernelActivated) _Bool kernelActivated;
-@property(nonatomic, getter=isNetworkProvider) _Bool networkProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNetworkProvider
-
-@property(nonatomic, getter=isNexusProvider) _Bool nexusProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNexusProvider
-
-@property(nonatomic) _Bool requiresAssert;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isSpecificUseOnly) _Bool specificUseOnly;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSpecificUseOnly
-
-@property(nonatomic) _Bool supportsBrowseRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsListenRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsResolveRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool updateClientsImmediately;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isUserActivated) _Bool userActivated;
-@property(nonatomic, getter=isVoluntary) _Bool voluntary;
 @end
 

@@ -7,8 +7,6 @@
 @interface TextRecognition.CRSingleLocaleRecognizerProvider
 {
     id $defaultActor;
-    id neuralRecognizer;
-    id keepAllResourcesLoadedWhenNotInUse;
 }
 
 @end

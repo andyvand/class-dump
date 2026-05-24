@@ -7,11 +7,6 @@
 @interface PodcastsFoundation.CoreDataEpisodeAndShowStorage
 {
     id episodeChanges;
-    id showChanges;
-    id showPropertyLimiters;
-    id episodePropertyLimitiers;
-    id context;
-    id changeListener;
 }
 
 @end

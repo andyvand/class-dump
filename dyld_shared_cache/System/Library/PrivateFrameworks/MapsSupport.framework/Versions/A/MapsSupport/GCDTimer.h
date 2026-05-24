@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface GCDTimer
 {
     NSObject<OS_dispatch_source> *_source;
-    struct os_unfair_lock_s _lock;
-    _Bool _repeating;
-    NSDate *_fireDate;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -26,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
 @property(readonly, nonatomic, getter=isRepeating) _Bool repeating; // @synthesize repeating=_repeating;
 
 @end

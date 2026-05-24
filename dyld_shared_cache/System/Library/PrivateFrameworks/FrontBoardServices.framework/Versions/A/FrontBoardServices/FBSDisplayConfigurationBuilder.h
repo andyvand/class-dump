@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, FBSDisplayMode, NSSet, NSString;
+@class FBSDisplayConfiguration;
 
 @interface FBSDisplayConfigurationBuilder
 {
     FBSDisplayConfiguration *_configuration;
-    struct os_unfair_lock_s _lock;
-    NSString *_lock_uniqueIdentifier;
-    FBSDisplayMode *_lock_currentMode;
-    FBSDisplayMode *_lock_preferredMode;
-    NSSet *_lock_otherModes;
-    struct CGSize _lock_pixelSize;
-    struct CGRect _lock_nativeBounds;
-    struct CGRect _lock_bounds;
-    _Bool _lock_geometrySet;
-    _Bool _lock_secure;
-    _Bool _lock_mainLike;
-    _Bool _lock_cloningSupported;
-    _Bool _lock_cloningSet;
-    long long _lock_displayType;
-    _Bool _lock_displayTypeSet;
-    long long _lock_overscanCompensation;
-    struct CGSize _lock_safeOverscanRatio;
-    _Bool _lock_overscanned;
-    _Bool _lock_overscanSet;
 }
 
 - (void);

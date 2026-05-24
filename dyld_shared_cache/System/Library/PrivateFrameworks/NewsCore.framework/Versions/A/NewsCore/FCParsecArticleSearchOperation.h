@@ -6,22 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray, NSString, SFMoreResults, SFRankingFeedback;
-@protocol FCContentContext;
+@class NSArray, NSString;
 
 @interface FCParsecArticleSearchOperation : FCOperation
 {
     NSString *_query;
-    NSString *_keyboardInputMode;
-    double _scale;
-    id <FCContentContext> _contentContext;
-    SFRankingFeedback *_previousRankingFeedback;
-    CDUnknownBlockType _articleSearchCompletionHandler;
-    NSArray *_results;
-    unsigned long long _batchSize;
-    SFRankingFeedback *_rankingFeedback;
-    unsigned long long _parsecQueryID;
-    SFMoreResults *_moreResults;
 }
 
 - (void);
@@ -35,18 +24,18 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (double);
-- (id);
+- (id)initWithPredicate:sortDescriptors:range: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long)!´@ùñ(	Ð1Â0@ù
 × ;
 - (id);
-- (void);
-- (void)ticleLinkKeys:(id)arg1;
+- (void)_layeredCoverPrimaryColor;
+- (void)_constructQueryForRequests:(id)arg1 resultsLimit:queryPriority:articleLinkKeys: /* Error: Ran out of types for this method. */;
 - (void)BCKQueryFilterTypeForNSPredicateOperatorType(NSPredicateOperatorType);
 - (void)Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArrayStream.m;
 - (void)failed.;
@@ -55,17 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType articleSearchCompletionHandler; // @synthesize articleSearchCompletionHandler=_articleSearchCompletionHandler;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(copy, nonatomic) NSString *keyboardInputMode; // @synthesize keyboardInputMode=_keyboardInputMode;
-@property(retain, nonatomic) SFMoreResults *moreResults; // @synthesize moreResults=_moreResults;
-@property(nonatomic) unsigned long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(retain, nonatomic) SFRankingFeedback *previousRankingFeedback; // @synthesize previousRankingFeedback=_previousRankingFeedback;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) SFRankingFeedback *rankingFeedback; // @synthesize rankingFeedback=_rankingFeedback;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PTCinematographyTrack;
-@protocol NURenderStatistics;
+@class PTCinematographyTrack;
 
 @interface _PITapToTrackRenderResult
 {
@@ -13,19 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (void)ze=dd}}56@64B72o^@76;
 
 // Remaining properties
 @property(readonly, nonatomic) PTCinematographyTrack *completedTrack; // @synthesize completedTrack=_completedTrack;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

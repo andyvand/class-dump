@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFScreen, AXVCGFullscreenZoomController, NSLock, NSMutableDictionary;
+@class AXVCGFullscreenZoomController;
 
 @interface AXVFullscreenZoomController
 {
     _Bool _smoothImages;
-    unsigned long long _zoomPanningMode;
-    unsigned long long _displayStyle;
-    double _zoomFactor;
-    AXVCGFullscreenZoomController *__legacyCGFullscreenZoomController;
-    AXFScreen *__activeScreen;
-    NSMutableDictionary *__screenToZoomFactorMap;
-    NSLock *__ScreenToZoomFactorLock;
-    struct CGPoint __realMouseLocation;
 }
 
 + (id);
-+ (id);
++ (id)qa;
 + (_Bool);
 + (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint)qa;
 - (struct CGPoint);
 - (void);
 - (double);
 - (void);
 - (void);
+- (void)(	;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -48,37 +40,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (int);
+- (int)o;
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void)OnMenuItemView:(double)arg1 atRowIndex:forMenuTableView: /* Error: Ran out of types for this method. */;
-- (double)menuIndicator;
+- (void)mouseDownOnMenuItemView:(double)arg1 atRowIndex:forMenuTableView: /* Error: Ran out of types for this method. */;
+- (double)_reserveViewForSubmenuIndicator;
 
 // Remaining properties
-@property(retain, nonatomic) NSLock *_ScreenToZoomFactorLock; // @synthesize _ScreenToZoomFactorLock=__ScreenToZoomFactorLock;
-@property(retain, nonatomic) AXFScreen *_activeScreen; // @synthesize _activeScreen=__activeScreen;
 @property(retain, nonatomic) AXVCGFullscreenZoomController *_legacyCGFullscreenZoomController; // @synthesize _legacyCGFullscreenZoomController=__legacyCGFullscreenZoomController;
-@property(nonatomic) struct CGPoint _realMouseLocation; // @synthesize _realMouseLocation=__realMouseLocation;
-@property(retain) NSMutableDictionary *_screenToZoomFactorMap; // @synthesize _screenToZoomFactorMap=__screenToZoomFactorMap;
-@property(readonly, nonatomic) struct CGRect _zoomRegionFrame;
-@property(nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(readonly, nonatomic) _Bool isAnyMonitorZoomed;
-@property(readonly, nonatomic) _Bool isZoomDisplay;
-@property(readonly, nonatomic) _Bool isZoomed;
-@property(nonatomic) _Bool smoothImages; // @synthesize smoothImages=_smoothImages;
-@property(readonly, nonatomic) int zoomDisplayID;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
-@property(nonatomic) unsigned long long zoomPanningMode; // @synthesize zoomPanningMode=_zoomPanningMode;
-@property(readonly, nonatomic) struct CGPoint zoomRegionCenter;
 
 @end
 

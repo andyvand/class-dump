@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIUserSpeakingEnded, SISchemaUEIUserSpeakingStarted, SISchemaUUID;
+@class SISchemaUEIUserSpeakingStarted;
 
 @interface SISchemaUEIUserSpeakingContext : SISchemaInstrumentationMessage
 {
     SISchemaUEIUserSpeakingStarted *_startedOrChanged;
-    SISchemaUEIUserSpeakingEnded *_ended;
-    SISchemaUUID *_trpId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasTrpId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -38,24 +32,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getManagedAppServiceWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ation.Vacuum_Failure;
+- (id);
 - (id);
-- (id);
-- (id)ent;
-- (id)TrailingPacketLatency;
-- (void)FAILURECODE_COMMUNICATION;
+- (id)deleteGenAIAppIntent;
+- (id)_hasCoreSpeechTrailingPacketLatency;
+- (void)CDMREQUESTFAILURECODE_COMMUNICATION;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEIUserSpeakingEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEIUserSpeakingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

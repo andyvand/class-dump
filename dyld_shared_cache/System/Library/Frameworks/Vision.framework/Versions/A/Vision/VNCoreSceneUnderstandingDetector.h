@@ -6,25 +6,12 @@
 
 #import <Vision/VNDetector.h>
 
-@class CSUSceneNetV5, CSUSceneNetV5CustomClassifier, VNCoreSceneUnderstandingDetectorTaxonomy, VNRegionOfInterestTilingOptions;
+@class CSUSceneNetV5;
 
 __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingDetector : VNDetector
 {
     CSUSceneNetV5 *_sceneNet;
-    VNCoreSceneUnderstandingDetectorTaxonomy *_cachedSceneTaxonomy_DO_NOT_DIRECTLY_ACCESS;
-    VNCoreSceneUnderstandingDetectorTaxonomy *_cachedEntityNetTaxonomy_DO_NOT_DIRECTLY_ACCESS;
-    VNCoreSceneUnderstandingDetectorTaxonomy *_cachedDetectedObjectsTaxonomy_DO_NOT_DIRECTLY_ACCESS;
-    unsigned int _inputImagePixelFormat;
-    unsigned long long _inputImagePixelWidth;
-    unsigned long long _inputImagePixelHeight;
-    unsigned long long _inputImageMinimumDimension;
-    VNRegionOfInterestTilingOptions *_inputImageTilingOptions;
-    CSUSceneNetV5CustomClassifier *_junkLeafClassifier;
-    CSUSceneNetV5CustomClassifier *_junkHierarchicalClassifier;
-    CSUSceneNetV5CustomClassifier *_VN5kJNH3eYuyaLxNpZr5Z7ziCLassifier;
-    CSUSceneNetV5CustomClassifier *_significantEventClassifier;
-    CSUSceneNetV5CustomClassifier *_cityNatureClassifier;
 }
 
 + (id);
@@ -37,10 +24,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (id);
++ (void);
++ (id)CNChangeNotifierDistributedCenterWrapper;
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (long long);

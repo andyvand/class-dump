@@ -6,38 +6,24 @@
 
 #import <UIKitCore/_UIFindNavigatorViewLayout.h>
 
-@class NSLayoutConstraint, UIStackView, UIView;
+@class UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorViewLayout_iPhone : _UIFindNavigatorViewLayout
 {
     UIStackView *_horizontalStackView;
-    UIStackView *_verticalStackView;
-    UIStackView *_findStackView;
-    UIStackView *_replaceStackView;
-    UIStackView *_nextPrevStackView;
-    UIView *_nextPrevSpacerView;
-    UIView *_findAndReplacePlatter;
-    UIView *_horizontalSpacerView;
-    NSLayoutConstraint *_doneSpaceConstraint;
-    NSLayoutConstraint *_replaceButtonWidthConstraint;
-    NSLayoutConstraint *_replaceStackBottomAnchorConstraint;
-    NSLayoutConstraint *_verticalStackBottomAnchorConstraint;
-    NSLayoutConstraint *_verticalStackLeadingAnchorConstraint;
-    NSLayoutConstraint *_verticalStackHeightConstraint;
-    NSLayoutConstraint *_nextPrevStackTrailingAnchorConstraint;
 }
 
 - (_Bool);
 - (void);
+- (void)sendUpdatedCollaborationMetadata:toChatsWithIdentifiers:forMessageGUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (struct CGSize)Ôa°!tDù1dð1Â0@ù
 × ;
-- (id)ForCurrentTouchLevel;
+- (id)_createGestureRecognizersForCurrentTouchLevel;
 - (void);
 
 // Remaining properties

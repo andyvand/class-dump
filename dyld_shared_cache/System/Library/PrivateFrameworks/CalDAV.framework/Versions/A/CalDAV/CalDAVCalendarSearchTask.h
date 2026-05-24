@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @interface CalDAVCalendarSearchTask
 {
     NSArray *_languages;
-    NSString *_location;
-    NSString *_calendarType;
-    unsigned long long _limit;
-    NSDictionary *_additionalAuthenticationHeaders;
-    NSDictionary *_urlsToResults;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)asset to <DSID=%u> %@ <SN=%@> <UUID=%@> - No asset available;
 - (void);
 - (id);
 - (void);

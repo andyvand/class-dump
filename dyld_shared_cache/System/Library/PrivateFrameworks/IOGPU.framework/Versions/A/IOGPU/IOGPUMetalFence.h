@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMTLFence, IOGPUMetalDevice, NSString;
+@class IOGPUMetalDevice;
 @protocol MTLDevice;
 
 @interface IOGPUMetalFence
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    IOGPUMTLFence *_fence;
-    unsigned int _fenceIndex;
 }
 
 - (void);
@@ -19,15 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) Class superclass;
 
 @end
 

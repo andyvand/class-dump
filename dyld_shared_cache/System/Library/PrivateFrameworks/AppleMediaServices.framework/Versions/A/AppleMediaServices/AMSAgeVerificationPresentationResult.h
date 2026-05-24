@@ -10,7 +10,7 @@
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property unsigned long long successType; // @synthesize successType=_successType;

@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
+- (id)x;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)A;
 + (_Bool)dqnqmrWrnz££££­­­­cpkyggfgcccckkekp{    ¬¬¬¬±±±±¡¡¡¡Zkbt}ªªªª®®®®¤¤¤¤IZQd/@0N;LCSeeeemooohhhhJYSaQ_ZiquuuuuuuO^Wd<PD[ef_hzzzz¡¡¡¡}vsnv{{{{mmmmTTMTGG9G=F9GSSQS;
 
 @end

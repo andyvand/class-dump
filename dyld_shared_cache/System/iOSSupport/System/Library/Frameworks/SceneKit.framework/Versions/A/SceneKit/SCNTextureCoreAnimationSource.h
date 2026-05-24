@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureCoreAnimationSource : SCNTextureOffscreenRenderingSource
 {
     CALayer *_layer;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
-- (_Bool);
+- (_Bool)H;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -28,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (struct __C3DTexture *);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (double);
 - (struct __C3DTexture *);
 - (void);
 - (void);
-- (id)dexSizeOut: /* Error: Ran out of types for this method. */;
+- (id)deindexedToOriginalTableBufferWithBlitEncoder:indexSizeOut: /* Error: Ran out of types for this method. */;
 - (void)ilure in TopologyRefiner:(id)arg1:RefineUniform() -- previous refinements already applied. /* Error: Ran out of types for this method. */;
 
 // Remaining properties

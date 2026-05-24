@@ -9,8 +9,6 @@
 @interface WBSTabOrderInsertionHint
 {
     id <WBSOrderedTab> _tabToInsertAfter;
-    unsigned long long _insertionIndex;
-    unsigned long long _relationType;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long insertionIndex; // @synthesize insertionIndex=_insertionIndex;
-@property(readonly, nonatomic) unsigned long long relationType; // @synthesize relationType=_relationType;
 @property(readonly, nonatomic) id <WBSOrderedTab> tabToInsertAfter; // @synthesize tabToInsertAfter=_tabToInsertAfter;
 
 @end

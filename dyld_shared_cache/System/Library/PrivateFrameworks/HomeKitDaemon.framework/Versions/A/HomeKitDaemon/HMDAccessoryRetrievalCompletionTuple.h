@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDHome, HMFTimer, NSMutableArray, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryRetrievalCompletionTuple
 {
     HMDHome *_home;
-    HMDAccessory *_accessory;
-    NSMutableArray *_completions;
-    long long _linkType;
-    double _retrievalTimeout;
-    HMFTimer *_timer;
 }
 
 - (id);
 - (void);
 - (double);
+- (void);
+- (id)A;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)4k(83
+;
 - (id);
 - (void)
 × ;
@@ -39,19 +35,7 @@ __attribute__((visibility("hidden")))
 - (long long)°lC;
 
 // Remaining properties
-@property(nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(nonatomic) long long linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) double retrievalTimeout; // @synthesize retrievalTimeout=_retrievalTimeout;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
 
 @end
 

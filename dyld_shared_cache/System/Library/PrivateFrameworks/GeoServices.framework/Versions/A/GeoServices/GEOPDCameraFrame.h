@@ -7,20 +7,14 @@
 @interface GEOPDCameraFrame
 {
     double _altitude;
-    double _latitude;
-    double _longitude;
-    double _pitch;
-    double _roll;
-    double _yaw;
-    CDStruct_3c2347a5 _flags;
 }
 
-+ (_Bool)ectedIndex:(id)arg1;
++ (_Bool)setHasWithinSectionSelectedIndex:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_TtC6Vision27E5RTExecutionPrewarmedState;
 - (void);
 - (_Bool);
 - (void);
@@ -30,17 +24,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)SilentVibrationValueChange];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)eworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation;
 - (void)corecard"b1"wrote_anyField"b1};
 - (id)"read_directionsCorrections"b1"wrote_anyField"b1};
-- (double)nterface: /* Error: Ran out of types for this method. */;
-- (void)tBuildTableIndex:(double)arg1;
-- (id)pInfoFromStep:withPreviousStep:andNextStep:andDecoderData:andPointData: /* Error: Ran out of types for this method. */;
+- (double)setRemoteObjectInterface: /* Error: Ran out of types for this method. */;
+- (void)setBuildTableIndex:(double)arg1;
+- (id)_buildTransitStepInfoFromStep:withPreviousStep:andNextStep:andDecoderData:andPointData: /* Error: Ran out of types for this method. */;
 - (double)work",&,N,V_artwork;
 - (id)ø´ôjn´,tn$´àxn@´nT´Ünh´n|´àn´8 n¤´¥n¸´X§nÌ´©nà´lønô´0o´(o´øo4´ÀoP´4od´èox´Ð"o´Xcpè´|hpü´ñq´ òq$´ô<r8´>rL´,@r`´ÔArt´ ErÌ´ÐHr0´xJrD´@Lr\´ÜNr¨´Rr´0UrP´ZrÈ´ü\r´Øbr´tdr¬´frÀ´|kr< ´mrP ´Ôpr´ ´¸vr@!´(}rÐ!´r¨"´Lr#´rt#´r$´Ü¤r%´¦r$%´,¨r8%´Èªr%´l­rÐ%´°r&´À³r&´L¹r'´è»rT'´½rh'´4Ær(´ÜÎrÐ(´Ðrä(´,×r|)´¬ÚrØ)´HÜrì)´Þr*´°âr*´çrè*´|ér4+´Dñrä+´ìòrø+´ør|,´4ûrÈ,´Dýr-´;
 - (id)_timestamp);;
@@ -55,18 +49,7 @@
 - (double)Ùã;
 
 // Remaining properties
-@property(nonatomic) double altitude;
-@property(nonatomic) _Bool hasAltitude;
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) _Bool hasRoll;
-@property(nonatomic) _Bool hasYaw;
-@property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(nonatomic) double pitch;
-@property(nonatomic) double roll;
-@property(nonatomic) double yaw;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreHLSAssetInfo, ICStorePlatformMetadata, NSArray, NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface ICRadioStationTrack
 {
     NSDictionary *_responseDictionary;
-    long long _responseVersion;
-    NSDate *_expirationDate;
-    ICRadioStationTrack *_parentTrack;
 }
 
 + (id);
@@ -29,28 +26,14 @@
 - (long long);
 - (long long);
 - (double);
-- (id);
-- (id);
+- (id)automaticallyAdjustsShadowProjection;
+- (id)k;
 - (id);
 - (void)h;
 - (_Bool)fetch identity properties to process the response. err=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) ICRadioStationTrack *afterPromoContentTrack;
-@property(readonly, nonatomic) ICRadioStationTrack *beforePromoContentTrack;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSArray *fileAssets;
-@property(readonly, nonatomic) _Bool hasStartTime;
-@property(readonly, copy, nonatomic) ICStoreHLSAssetInfo *hlsAsset;
-@property(readonly, nonatomic) long long likeState;
-@property(readonly, nonatomic) ICRadioStationTrack *parentTrack; // @synthesize parentTrack=_parentTrack;
-@property(readonly, copy, nonatomic) NSArray *radioStreamAssets;
-@property(readonly, copy, nonatomic) NSDictionary *serverTrackInfo;
-@property(readonly, nonatomic, getter=isSkippable) _Bool skippable;
-@property(readonly, nonatomic) double startTime;
 @property(readonly, nonatomic) long long storeAdamID;
-@property(readonly, copy, nonatomic) ICStorePlatformMetadata *storePlatformMetadata;
-@property(readonly, nonatomic) long long trackType;
 
 @end
 

@@ -6,32 +6,22 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCAssetAudio, MCAudioPlaylist, MCSlide;
+@class MCAudioPlaylist;
 
 @interface MCSong : MCObject
 {
     _Bool mStartTimeIsDefined;
-    _Bool mDurationIsDefined;
-    float mVolume;
-    MCAssetAudio *mAsset;
-    double mFadeInDuration;
-    double mFadeOutDuration;
-    unsigned long long mIndex;
-    double mStartTime;
-    double mDuration;
-    MCAudioPlaylist *mAudioPlaylistIfAudioPlaylistSong;
-    MCSlide *mSlideIfSlideSong;
 }
 
-+ (id);
-- (void);
-- (void);
-- (_Bool);
++ (id);
+- (void)pConfiguration>"8@"NSError"16;
+- (void)ompletion:] /* Error: Ran out of types for this method. */;
+- (_Bool)o>"8@"NSError"16B24;
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)';
 - (void);
 - (id);
 - (void);
@@ -42,7 +32,7 @@
 - (double);
 - (id);
 - (double);
-- (double);
+- (double)!;
 - (void);
 - (id);
 - (void);
@@ -73,17 +63,7 @@
 		;
 
 // Remaining properties
-@property(retain) MCAssetAudio *asset; // @synthesize asset=mAsset;
 @property MCAudioPlaylist *audioPlaylistIfAudioPlaylistSong; // @synthesize audioPlaylistIfAudioPlaylistSong=mAudioPlaylistIfAudioPlaylistSong;
-@property(nonatomic) double duration; // @synthesize duration=mDuration;
-@property(readonly, nonatomic) _Bool durationIsDefined; // @synthesize durationIsDefined=mDurationIsDefined;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=mFadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=mFadeOutDuration;
-@property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
-@property MCSlide *slideIfSlideSong; // @synthesize slideIfSlideSong=mSlideIfSlideSong;
-@property(nonatomic) double startTime; // @synthesize startTime=mStartTime;
-@property(readonly, nonatomic) _Bool startTimeIsDefined; // @synthesize startTimeIsDefined=mStartTimeIsDefined;
-@property(nonatomic) float volume; // @synthesize volume=mVolume;
 
 @end
 

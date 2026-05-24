@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol HMIPersonManagerDataSource;
 
 @interface HMIRemoveFaceprintsOperation
 {
     id <HMIPersonManagerDataSource> _dataSource;
-    NSSet *_faceprintUUIDs;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)U;
 - (void);
 
 // Remaining properties
 @property(readonly) id <HMIPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) NSSet *faceprintUUIDs; // @synthesize faceprintUUIDs=_faceprintUUIDs;
 
 @end
 

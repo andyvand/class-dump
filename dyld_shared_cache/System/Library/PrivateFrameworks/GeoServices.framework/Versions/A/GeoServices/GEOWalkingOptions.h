@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWalkingUserPreferences, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWalkingOptions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _avoidedModes;
-    double _preferredSpeed;
-    GEOWalkingUserPreferences *_walkingUserPreferences;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_preferredSpeed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_avoidedModes:1;
-        unsigned int read_walkingUserPreferences:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)arkets:(id)arg1;
++ (_Bool)setOfflineMarkets:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -34,13 +20,13 @@
 - (id);
 - (int *);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void)setMediaPlayingObserverQueue:(id)arg1;
+- (void)addNumSamples:(int)arg1 hostTime: /* Error: Ran out of types for this method. */;
+- (id)e;
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -60,7 +46,7 @@
 - (double)an error creating the ETA route.;
 - (void)itle:(double)arg1 '%@'
 ;
-- (id)ghfare;
+- (id)subThoroughfare;
 - (void) (2 .google.protobuf.DescriptorProto7
 	enum_type (2$.google.protobuf.EnumDescriptorProto8
 service (2'.google.protobuf.ServiceDescriptorProto8
@@ -209,13 +195,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int *avoidedModes;
-@property(readonly, nonatomic) unsigned long long avoidedModesCount;
 @property(nonatomic) _Bool hasPreferredSpeed;
-@property(readonly, nonatomic) _Bool hasWalkingUserPreferences;
-@property(nonatomic) double preferredSpeed;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOWalkingUserPreferences *walkingUserPreferences;
 
 @end
 

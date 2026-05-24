@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol DESRecipeEvaluation
+
+@optional
+- (NSDictionary *)yload.outcome.toolDisambiguation.assistantSchemaKind;
+- (_Bool)ifier.custom.bundleId;
+- (NSDictionary *)mentResults.payload.outcome.parameterCandidatesNotFounds.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
+- (void)uest.statementResults.payload.outcome.parameterCandidatesNotFounds.value.value.enumeration.typeIdentifier.custom.bundleId;
+- (NSDictionary *)eId;
+- (NSDictionary *)collection.values.entity.typeIdentifier.custom.bundleId;
+- (NSDictionary *)t.statementResults.payload.outcome.parameterDisambiguation.items.collection.values.entity.typeIdentifier.custom.bundleId;
 @end
 

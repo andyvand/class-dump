@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray;
+@class CNContact;
 
 @interface CNUICoreFamilyInfo
 {
     CNContact *_meContact;
-    NSArray *_elements;
 }
 
+- (id)o;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ge:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
-- (id)pe;
+- (id);
+- (void)textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (id)recipe;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *elements; // @synthesize elements=_elements;
 @property(readonly, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
 
 @end

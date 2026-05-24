@@ -4,50 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSServicesMenuUpdater
 {
     unsigned long long _updateGeneration;
-    struct OpaqueMenuRef *_pluggedMenuRef;
-    NSMenu *_pluggedMenu;
-    int _servicesSeedChangeToken;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)ASL_DISABLE;
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)or %d;
+- (void)nternal/Library/BuildRoots/4~CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGBasebandSupport.c;
+- (void)Aln1I0f3g0K3w;
+- (void)eTree:(id)arg1 /product/facetime;
+- (void)G91h5IuJvXISeyngNFqEpg;
+- (void)wgqpOx6w;
+- (void)RLlZndRrTB3oIDuZEihtpQ;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
-- (_Bool);
+- (_Bool)tocols (o=%lu f=%lu);
 - (void);
 - (id);
-- (void)mnDidResize:(id)arg1;
+- (void)outlineViewColumnDidResize:(id)arg1;
 - (_Bool)A_hûw;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

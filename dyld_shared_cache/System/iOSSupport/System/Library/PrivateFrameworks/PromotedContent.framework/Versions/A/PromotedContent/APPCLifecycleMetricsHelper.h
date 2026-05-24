@@ -7,14 +7,12 @@
 @interface APPCLifecycleMetricsHelper
 {
     id metricsHelper;
-    id placeholder;
-    id wasOnScreen;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)drawInContextWithoutEffects: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

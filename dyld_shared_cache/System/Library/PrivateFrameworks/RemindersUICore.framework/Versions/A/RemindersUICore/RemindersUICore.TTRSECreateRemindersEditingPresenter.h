@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersEditingPresenter
 {
     id delegate;
-    id obtainInteractor;
-    id viewModelSource;
-    id undoContextProvider;
-    id displayUpdater;
-    id editingSessionProvider;
-    id inCellEditingPresenterHelper;
-    id state;
 }
 
 @end

@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAprioriPatternMiner, BMBasketExtractor, BMEventExtractor, BMMiningTaskConfig, BMRuleExtractor, NSDate, NSMutableDictionary, NSSet, NSString, NSURL;
-@protocol BMMiningTaskDelegate, BMPatternMiner;
+@class NSDate;
+@protocol BMMiningTaskDelegate;
 
 @interface BMMiningTask
 {
     id <BMMiningTaskDelegate> _delegate;
-    NSString *_domain;
-    NSMutableDictionary *_coreAnalyticsDict;
-    long long _completionStatus;
-    unsigned long long _rulePersistBatchSize;
-    unsigned long long _maxItemsetSize;
-    NSURL *_storageURL;
-    double _miningInterval;
-    NSDate *_start;
-    BMEventExtractor *_eventExtractor;
-    BMBasketExtractor *_basketExtractor;
-    BMAprioriPatternMiner<BMPatternMiner> *_patternMiner;
-    BMRuleExtractor *_ruleExtractor;
-    NSSet *_types;
-    NSSet *_targetTypes;
-    double _samplingInterval;
-    unsigned long long _absoluteSupport;
-    double _confidence;
-    BMMiningTaskConfig *_bmMiningTaskConfig;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -54,46 +36,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (unsigned long long);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (double);
 - (void);
 - (_Bool);
-- (id);
+- (id)k"32;
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long absoluteSupport; // @synthesize absoluteSupport=_absoluteSupport;
-@property(retain, nonatomic) BMBasketExtractor *basketExtractor; // @synthesize basketExtractor=_basketExtractor;
-@property(retain, nonatomic) BMMiningTaskConfig *bmMiningTaskConfig; // @synthesize bmMiningTaskConfig=_bmMiningTaskConfig;
-@property(nonatomic) long long completionStatus; // @synthesize completionStatus=_completionStatus;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) NSMutableDictionary *coreAnalyticsDict; // @synthesize coreAnalyticsDict=_coreAnalyticsDict;
-@property(nonatomic) __weak id <BMMiningTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) BMEventExtractor *eventExtractor; // @synthesize eventExtractor=_eventExtractor;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished;
-@property(nonatomic) unsigned long long maxItemsetSize; // @synthesize maxItemsetSize=_maxItemsetSize;
-@property(readonly, nonatomic) double miningInterval; // @synthesize miningInterval=_miningInterval;
-@property(retain, nonatomic) BMAprioriPatternMiner<BMPatternMiner> *patternMiner; // @synthesize patternMiner=_patternMiner;
-@property(retain, nonatomic) BMRuleExtractor *ruleExtractor; // @synthesize ruleExtractor=_ruleExtractor;
-@property(readonly, nonatomic) unsigned long long rulePersistBatchSize; // @synthesize rulePersistBatchSize=_rulePersistBatchSize;
-@property(readonly, nonatomic) double samplingInterval; // @synthesize samplingInterval=_samplingInterval;
 @property(copy, nonatomic) NSDate *start; // @synthesize start=_start;
-@property(readonly, copy, nonatomic) NSURL *storageURL; // @synthesize storageURL=_storageURL;
-@property(readonly, copy, nonatomic) NSSet *targetTypes; // @synthesize targetTypes=_targetTypes;
-@property(readonly, copy, nonatomic) NSSet *types; // @synthesize types=_types;
 
 @end
 

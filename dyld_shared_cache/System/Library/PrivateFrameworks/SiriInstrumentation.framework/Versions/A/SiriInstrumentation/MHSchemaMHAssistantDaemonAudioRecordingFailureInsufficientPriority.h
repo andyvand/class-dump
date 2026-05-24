@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface MHSchemaMHAssistantDaemonAudioRecordingFailureInsufficientPriority : SISchemaInstrumentationMessage
 {
     NSArray *_activeSessionDisplayIds;
-    int _audioSessionCategory;
-    int _audioSessionMode;
-    CDStruct_79cebb1e _has;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)?נ1;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -34,7 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)N %s-----
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,11 +45,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activeSessionDisplayIds; // @synthesize activeSessionDisplayIds=_activeSessionDisplayIds;
-@property(nonatomic) int audioSessionCategory; // @synthesize audioSessionCategory=_audioSessionCategory;
-@property(nonatomic) int audioSessionMode; // @synthesize audioSessionMode=_audioSessionMode;
-@property(nonatomic) _Bool hasAudioSessionCategory;
-@property(nonatomic) _Bool hasAudioSessionMode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

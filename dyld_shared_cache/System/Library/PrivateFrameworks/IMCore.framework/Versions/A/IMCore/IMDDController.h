@@ -12,17 +12,17 @@
     NSObject<OS_dispatch_queue> *_scannerQueue;
 }
 
-+ (id);
++ (id)allocate 1:1 video media control info generator /* Error: Ran out of types for this method. */;
 + (id)ôÿÿÿúÿlíÿi;
-- (struct __DDScanner *);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (struct __DDScanner *)@, width=%d height=%d frameRate=%u error=0x%x;
+- (void)ateConfiguration;
+- (id)audioPlayerChannelCount=%d;
+- (void)%s] %s:(id)arg1 %d Channel count mismatch! sampleBufferChannelCount=%hhu audioPlayerChannelCount=%d;
+- (void)crossfade. sampleCount=%d;
+- (_Bool)sage is nil;
+- (_Bool)ceived State Update:(id)arg1 mediaType=%@ mediaState=%@;
+- (void)ortSessionID[%u] participantId:(id)arg1 [%@] participantUUID[%@] receives message:(id)arg2 %s;
+- (void));
 - (id);
 - (void)Ø3;
 

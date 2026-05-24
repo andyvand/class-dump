@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerMultiDetectorEntityNetClassificationConfiguration : VNImageAnalyzerMultiDetectorAnalysisConfiguration
 {
     float _minimumConfidence;
-    VNDisallowedList *_disallowedList;
-    unsigned long long _maximumLabels;
 }
 
 - (void);
@@ -21,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned int);
 - (id);
-- (id);
-- (unsigned int);
+- (id)9;
+- (unsigned int).;
 - (void);
 - (float);
 - (id);
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property(nonatomic) unsigned long long maximumLabels; // @synthesize maximumLabels=_maximumLabels;
-@property(nonatomic) float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)@9;
 + (id);
 + (id)ter file with backupd;
 + (id);
@@ -30,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (double);
 - (BOOL);
 - (unsigned short);
-- (_Bool);
+- (_Bool)$};
 - (void);
-- (id);
+- (id);
 - (float);
 - (id);
 - (short);
-- (unsigned char);
+- (unsigned char);
 - (int);
 - (id);
 - (const char *);
-- (_Bool);
+- (_Bool)M;
 - (long long);
 - (id)D. Unable to find entity with id '%@' in store '%@';
 - (unsigned long long)p / %@

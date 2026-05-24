@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UILabelSynthesizedContent.h>
 
-@class NSTextEncapsulation, UIColor, _UILabelContent;
+@class _UILabelContent;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelMutableSynthesizedContent : _UILabelSynthesizedContent
@@ -25,12 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) _UILabelContent *content; // @dynamic content;
-@property(nonatomic) _Bool disableLinkHypenation; // @dynamic disableLinkHypenation;
-@property(nonatomic) _Bool eliminateShadows; // @dynamic eliminateShadows;
-@property(nonatomic) _Bool overallWritingDirectionFollowsLayoutDirection; // @dynamic overallWritingDirectionFollowsLayoutDirection;
-@property(retain, nonatomic) UIColor *overrideTextColor; // @dynamic overrideTextColor;
-@property(nonatomic) long long semanticContentAttribute; // @dynamic semanticContentAttribute;
-@property(copy, nonatomic) NSTextEncapsulation *textEncapsulation; // @dynamic textEncapsulation;
 
 @end
 

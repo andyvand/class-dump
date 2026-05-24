@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_participants;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);

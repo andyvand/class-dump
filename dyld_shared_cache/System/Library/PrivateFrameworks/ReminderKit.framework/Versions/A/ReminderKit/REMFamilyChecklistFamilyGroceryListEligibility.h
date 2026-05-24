@@ -7,7 +7,6 @@
 @interface REMFamilyChecklistFamilyGroceryListEligibility
 {
     _Bool _isEligible;
-    long long _ineligibilityReasons;
 }
 
 + (_Bool);
@@ -16,13 +15,12 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long ineligibilityReasons; // @synthesize ineligibilityReasons=_ineligibilityReasons;
 @property(readonly, nonatomic) _Bool isEligible; // @synthesize isEligible=_isEligible;
 
 @end

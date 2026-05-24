@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, KGTransactionToken;
+@class KGTransactionToken;
 
 @interface KGGraphChange
 {
     KGTransactionToken *_transactionToken;
-    KGElementIdentifierSet *_nodesInserted;
-    KGElementIdentifierSet *_edgesInserted;
-    KGElementIdentifierSet *_nodesUpdated;
-    KGElementIdentifierSet *_edgesUpdated;
-    KGElementIdentifierSet *_nodesDeleted;
-    KGElementIdentifierSet *_edgesDeleted;
 }
 
 - (id);
@@ -27,15 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)menuBarEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) KGElementIdentifierSet *edgesDeleted; // @synthesize edgesDeleted=_edgesDeleted;
-@property(readonly, nonatomic) KGElementIdentifierSet *edgesInserted; // @synthesize edgesInserted=_edgesInserted;
-@property(readonly, nonatomic) KGElementIdentifierSet *edgesUpdated; // @synthesize edgesUpdated=_edgesUpdated;
-@property(readonly, nonatomic) KGElementIdentifierSet *nodesDeleted; // @synthesize nodesDeleted=_nodesDeleted;
-@property(readonly, nonatomic) KGElementIdentifierSet *nodesInserted; // @synthesize nodesInserted=_nodesInserted;
-@property(readonly, nonatomic) KGElementIdentifierSet *nodesUpdated; // @synthesize nodesUpdated=_nodesUpdated;
 @property(readonly, nonatomic) KGTransactionToken *transactionToken; // @synthesize transactionToken=_transactionToken;
 
 @end

@@ -6,31 +6,23 @@
 
 #import <CoreMediaStream/MSDaemon.h>
 
-@class MSASDaemonModel, NSMutableDictionary, NSObject;
-@protocol MSAlbumSharingDaemonDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MSAlbumSharingDaemon : MSDaemon
 {
     _Bool _isRetryingOutstandingActivities;
-    int _busyCount;
-    id <MSAlbumSharingDaemonDelegate> _delegate;
-    NSMutableDictionary *_personIDToStateMachineMap;
-    NSMutableDictionary *_personIDToDelegateMap;
-    MSASDaemonModel *_daemonModel;
-    NSObject<OS_dispatch_queue> *_mapQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_nextUpdateDateByPersonID;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (_Bool);
@@ -40,30 +32,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)nalName:(id)arg1 %d;
+- (void)ابكن;
+- (void)oString] Calling ResolveValue for a 'toString' property returned somthing other than a VariableString (var:(int)arg1 [%s]);
+- (void)n;
+- (void)NSt3__120__shared_ptr_emplaceIN4siri12dialogengine4FileENS_9allocatorIS3_EEEE;
+- (void)9allocatorIcEEEEdSE_EUldE_FddEEE;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void):(id)arg1 c;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -72,13 +54,23 @@
 - (void);
 - (void);
 - (void);
+- (void)IA;
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -86,7 +78,11 @@
 - (void);
 - (void);
 - (id);
+- (void)setNitsAccum:(id)arg1;
+- (void)VehicularDetectionXPCListener;
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -94,10 +90,6 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -105,25 +97,11 @@
 - (void);
 - (void);
 - (void);
+- (void)sport internal;
+- (void)[;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)meSize %d passed to DSP prewarmInputDSPGraph exceeds ringbuffer capacity %d
+;
 - (void);
 - (void);
 - (void);
@@ -134,10 +112,25 @@
 - (void);
 - (void);
 - (void);
+- (id)e is has the wrong platform;
 - (void);
 - (void);
 - (void);
-- (void)sAssetCollectionGUID:(id)arg1 thumbnails:(id)arg2 maxCount:(id)arg3 isInflight: /* Error: Ran out of types for this method. */;
+- (_Bool)cateOidCheck.AB;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)nextItemsForDownloadFocusAlbumGUID:(id)arg1 focusAssetCollectionGUID:(id)arg2 thumbnails:(id)arg3 maxCount:isInflight: /* Error: Ran out of types for this method. */;
 - (_Bool)egister asset:%{public}@
 Error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)and at the head of the queue. sqlite error:%{public}s /* Error: Ran out of types for this method. */;
@@ -152,18 +145,10 @@ X;
   userInfo         blob
 );;
 - (_Bool)ivity (nextActivity asc);;
-- (void)FetchClientOrgKey;
+- (void)modelFetchClientOrgKey;
 
 // Remaining properties
-@property(nonatomic) int busyCount; // @synthesize busyCount=_busyCount;
-@property(retain, nonatomic) MSASDaemonModel *daemonModel; // @synthesize daemonModel=_daemonModel;
-@property(nonatomic) __weak id <MSAlbumSharingDaemonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isRetryingOutstandingActivities; // @synthesize isRetryingOutstandingActivities=_isRetryingOutstandingActivities;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *mapQueue; // @synthesize mapQueue=_mapQueue;
-@property(retain, nonatomic) NSMutableDictionary *nextUpdateDateByPersonID; // @synthesize nextUpdateDateByPersonID=_nextUpdateDateByPersonID;
-@property(retain, nonatomic) NSMutableDictionary *personIDToDelegateMap; // @synthesize personIDToDelegateMap=_personIDToDelegateMap;
-@property(retain, nonatomic) NSMutableDictionary *personIDToStateMachineMap; // @synthesize personIDToStateMachineMap=_personIDToStateMachineMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

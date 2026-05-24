@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestNextEdgesProcessor
 {
     PGGraphBuilder *_graphBuilder;
 }
 
-+ (unsigned long long);
++ (unsigned long long)AXScrollNextPage;
 - (_Bool);
-- (void);
-- (void);
+- (void)set_didRegisterWindowDidDeminiaturizeNotification:(id)arg1;
+- (void)fileURLWithPath:(id)arg1;
 - (id);
 - (void)urces/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestMemoryProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

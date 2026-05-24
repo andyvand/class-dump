@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OCXSStreamLevel
 {
     const char *mName;
-    int mDepth;
 }
 
 - (const char *);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(nonatomic) int depth; // @synthesize depth=mDepth;
 @property(nonatomic) const char *name; // @synthesize name=mName;
 
 @end

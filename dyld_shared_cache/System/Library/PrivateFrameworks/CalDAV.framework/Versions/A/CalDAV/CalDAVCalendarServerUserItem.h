@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerAccessItem, CoreDAVHrefItem, CoreDAVItemWithNoChildren, CoreDAVLeafItem, NSString, NSURL;
+@class CoreDAVHrefItem;
 
 @interface CalDAVCalendarServerUserItem
 {
     CoreDAVHrefItem *_href;
-    CoreDAVLeafItem *_commonName;
-    CoreDAVItemWithNoChildren *_inviteStatus;
-    CalDAVCalendarServerAccessItem *_access;
-    CoreDAVLeafItem *_summary;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSURL *_acceptedURL;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *acceptedURL; // @synthesize acceptedURL=_acceptedURL;
-@property(retain, nonatomic) CalDAVCalendarServerAccessItem *access; // @synthesize access=_access;
-@property(retain, nonatomic) CoreDAVLeafItem *commonName; // @synthesize commonName=_commonName;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
 @property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) CoreDAVLeafItem *summary; // @synthesize summary=_summary;
 @end
 

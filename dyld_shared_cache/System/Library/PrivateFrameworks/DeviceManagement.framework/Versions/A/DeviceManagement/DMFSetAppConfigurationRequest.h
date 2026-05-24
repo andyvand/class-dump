@@ -16,12 +16,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)collectionView:didEndDisplayingItem:forRepresentedObjectAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;

@@ -9,9 +9,9 @@
 }
 
 + (id);
-- (unsigned int);
+- (unsigned int);
 - (double);
-- (id);
+- (id)P;
 
 @end
 

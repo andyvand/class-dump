@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, RTDefaultsManager, RTTimer, RTTimerManager;
-@protocol OS_dispatch_queue;
+@class RTDefaultsManager;
 
 @interface RTIntermittentGNSSManagerMetrics
 {
     _Bool _currentSessionOngoing;
-    _Bool _currentStreakOngoing;
-    int _currentStreakNumSessions;
-    RTDefaultsManager *_defaultsManager;
-    RTTimerManager *_timerManager;
-    NSMutableDictionary *_powerLogEventDictionary;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _mostRecentSignalSwitch;
-    unsigned long long _currentSessionNumLocationsReceived;
-    double _currentSessionDuration;
-    double _currentSessionTimeSinceLastSession;
-    unsigned long long _currentSessionActivationCriteria;
-    unsigned long long _currentSessionDeactivationCriteria;
-    double _currentStreakDuration;
-    unsigned long long _currentStreakActivationCriteria;
-    unsigned long long _currentStreakDeactivationCriteria;
-    RTTimer *_streakMetricsTimer;
 }
 
 + (id);
@@ -50,36 +33,36 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id)a}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)alizedEscrowRecord;
+- (_Bool)ained ClassicContent with length of:%lu /* Error: Ran out of types for this method. */;
+- (int)r p_password from HSM:%@ /* Error: Ran out of types for this method. */;
+- (double)recovery;
+- (unsigned long long)ous iCloud Password, using that for p_password recovery;
+- (double)gKey recovered with p_recovery;
+- (_Bool)ith p_recovery:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)with p_recovery;
+- (double):%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)_token from hsm:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ing RT Record hsm contents;
+- (void)rapping with AES-SIV failed;
+- (void)rd hash mismatch;
+- (void)ord is terminal, needs repair;
+- (void)primary record state, can't setupIdentities!;
+- (id)ed public key;
+- (double)igning key;
 - (id);
 - (id);
-- (_Bool);
-- (int);
-- (double);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (double);
-- (_Bool);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)R;
+- (void)s;
 - (void);
 - (id)gestionsManager shouldShowTipKitSuggestionsForInitiator:receiver:handler:] /* Error: Ran out of types for this method. */;
 - (void)he,Initiator,sessionID:%@,%@,%@,activeSessionDetails record saved successfully /* Error: Ran out of types for this method. */;
@@ -87,23 +70,7 @@
 - (void)t,%lu;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentSessionActivationCriteria; // @synthesize currentSessionActivationCriteria=_currentSessionActivationCriteria;
-@property(nonatomic) unsigned long long currentSessionDeactivationCriteria; // @synthesize currentSessionDeactivationCriteria=_currentSessionDeactivationCriteria;
-@property(nonatomic) double currentSessionDuration; // @synthesize currentSessionDuration=_currentSessionDuration;
-@property(nonatomic) unsigned long long currentSessionNumLocationsReceived; // @synthesize currentSessionNumLocationsReceived=_currentSessionNumLocationsReceived;
-@property(nonatomic) _Bool currentSessionOngoing; // @synthesize currentSessionOngoing=_currentSessionOngoing;
-@property(nonatomic) double currentSessionTimeSinceLastSession; // @synthesize currentSessionTimeSinceLastSession=_currentSessionTimeSinceLastSession;
-@property(nonatomic) unsigned long long currentStreakActivationCriteria; // @synthesize currentStreakActivationCriteria=_currentStreakActivationCriteria;
-@property(nonatomic) unsigned long long currentStreakDeactivationCriteria; // @synthesize currentStreakDeactivationCriteria=_currentStreakDeactivationCriteria;
-@property(nonatomic) double currentStreakDuration; // @synthesize currentStreakDuration=_currentStreakDuration;
-@property(nonatomic) int currentStreakNumSessions; // @synthesize currentStreakNumSessions=_currentStreakNumSessions;
-@property(nonatomic) _Bool currentStreakOngoing; // @synthesize currentStreakOngoing=_currentStreakOngoing;
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) unsigned long long mostRecentSignalSwitch; // @synthesize mostRecentSignalSwitch=_mostRecentSignalSwitch;
-@property(retain, nonatomic) NSMutableDictionary *powerLogEventDictionary; // @synthesize powerLogEventDictionary=_powerLogEventDictionary;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTTimer *streakMetricsTimer; // @synthesize streakMetricsTimer=_streakMetricsTimer;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
 
 @end
 

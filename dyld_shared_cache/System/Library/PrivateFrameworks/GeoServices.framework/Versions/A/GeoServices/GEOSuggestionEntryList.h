@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOSuggestionEntryList
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_localizedSectionHeader;
-    NSMutableArray *_suggestionEntries;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _contentType;
-    _Bool _showSectionHeader;
-    struct {
-        unsigned int has_contentType:1;
-        unsigned int has_showSectionHeader:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_localizedSectionHeader:1;
-        unsigned int read_suggestionEntries:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -34,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)ctedTime"b1"has_stepID"b1"has_zilchPathIndex"b1"has_zilchPointIndex"b1"read_unknownFields"b1"read_evInfo"b1"read_evStateInfo"b1"read_timeCheckpoints"b1"wrote_anyField"b1};
-- (id)iginalValue;
-- (id)ge;
+- (id)hasOriginalValue;
+- (id)GEOURLExtraStorage;
 - (void)Osò"Q@;
 
 @end

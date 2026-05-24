@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSAlbumSharingDaemon, NSDictionary, NSString, NSURL;
+
 @protocol MSASPlatform
+- (MSAlbumSharingDaemon *)totalProcessPrivateSize;
+- (NSString *))yxx;
+- (NSURL *)ong>>, std:(NSString *)arg1:__unordered_map_equal<long long, std::pair<const long long, WBSHistoryVisit *__weak>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)undImage;
+- (_Bool);
+- (NSDictionary *)BHorizontalScrollCardSection",&,N;
+- (NSDictionary *);
+- (NSDictionary *)userEditedTextControlCountInArray:(NSString *)arg1 context:expectTextFieldsRatherThanTextAreas: /* Error: Ran out of types for this method. */;
 @end
 

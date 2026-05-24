@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSStackView, NSString, NSTextField, NSTimer, NSVisualEffectView;
+@class NSVisualEffectView;
 
 @interface AVStatusOverlayView
 {
     NSVisualEffectView *_backgroundView;
-    NSStackView *_stackView;
-    NSImageView *_imageView;
-    NSTextField *_textField;
-    NSImage *_persistentImage;
-    NSString *_persistentString;
-    NSTimer *_transientTimeoutTimer;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void):connectedAccessories (_cid:%lu)
+ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (id);
+- (id)compute_control_flow_predicate_g13;
 - (void);
 
 @end

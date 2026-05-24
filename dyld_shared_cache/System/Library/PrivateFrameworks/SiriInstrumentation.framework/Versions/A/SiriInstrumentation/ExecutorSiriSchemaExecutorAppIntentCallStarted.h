@@ -6,45 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorAppIntentCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    unsigned long long _appIntentSessionId;
-    struct {
-        unsigned int exists:1;
-        unsigned int appIntentSessionId:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)nectionID %u
+;
+- (id)em never went to sleep ! Ignoring will not sleep message.;
+- (void)responseStatus;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)el"b1"firstPassScore"b1"firstPassOnsetChannel"b1"firstPassOnsetScore"b1"firstPassChannelSelectionDelayNs"b1"firstPassMasterChannelScoreBoost"b1"firstPassStartSampleCount"b1"firstPassEndSampleCount"b1"firstPassFireSampleCount"b1"firstPassTriggerSource"b1"earlyDetectFiredTimeOffsetInNs"b1"earlyDetectFiredTime"b1"firstPassPrimaryChannelScoreBoost"b1"firstPassInfoDispatchTimeInNs"b1"firstPassInfoReceptionTimeInNs"b1};
-- (id)ompanionSyncPluginSyncObjectAcquisitionStarted;
+- (id)RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncObjectAcquisitionStarted;
 - (id)ÈÈÉ;
 - (_Bool)ÄLÎÿ!.°ù}#;
 - (_Bool)æ';
 - (void)å+;
 
 // Remaining properties
-@property(nonatomic) unsigned long long appIntentSessionId; // @synthesize appIntentSessionId=_appIntentSessionId;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasAppIntentSessionId;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

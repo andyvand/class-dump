@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TITypingSession;
+@class NSArray, TITypingSession;
 
 @protocol TITypingSessionMonitoringProtocol
-- (void)Word: /* Error: Ran out of types for this method. */;
+- (NSArray *), mailboxName = %{public}@).;
+- (void);
+- (void)_isStringStopWord: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) TITypingSession *currentTypingSession;

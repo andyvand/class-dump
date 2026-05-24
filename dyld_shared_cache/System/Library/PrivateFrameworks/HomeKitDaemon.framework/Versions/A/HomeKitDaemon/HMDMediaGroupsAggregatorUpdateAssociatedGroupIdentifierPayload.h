@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregatorUpdateAssociatedGroupIdentifierPayload
 {
     NSUUID *_groupIdentifier;
-    NSUUID *_associatedGroupIdentifier;
 }
 
 + (id);
-- (id);
+- (id)^�;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id)last stream snapshot:%@ /* Error: Ran out of types for this method. */;
 - (void)are the user preferred;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *associatedGroupIdentifier; // @synthesize associatedGroupIdentifier=_associatedGroupIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSUUID *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

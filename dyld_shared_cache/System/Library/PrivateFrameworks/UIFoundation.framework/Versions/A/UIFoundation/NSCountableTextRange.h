@@ -6,8 +6,6 @@
 
 #import <UIFoundation/NSTextRange.h>
 
-@class NSCountableTextLocation, NSString;
-
 @interface NSCountableTextRange : NSTextRange
 {
     struct _NSRange _range;
@@ -16,28 +14,24 @@
 + (void);
 + (_Bool);
 + (id);
-+ (void)llowedSecureCodingClasses;
++ (void)allowedSecureCodingClasses;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)__kCFStreamPropertyConnectionEstablishmentNWResolutionReport;
 - (id);
 - (struct _NSRange);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSCountableTextLocation *endLocation; // @dynamic endLocation;
-@property(readonly, getter=isEndingAtEOD) _Bool endingAtEOD;
-@property(readonly) NSCountableTextLocation *location; // @dynamic location;
 @property(readonly) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, copy) NSString *type;
 
 @end
 

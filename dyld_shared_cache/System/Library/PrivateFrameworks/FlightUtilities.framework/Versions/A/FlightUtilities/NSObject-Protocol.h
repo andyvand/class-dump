@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (Class);
+- (unsigned long long);
+- (id)"NSString",&,V_toolIdentifier;
+- (_Bool)storeAlignedSession:(Class)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (struct _NSZone *);
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

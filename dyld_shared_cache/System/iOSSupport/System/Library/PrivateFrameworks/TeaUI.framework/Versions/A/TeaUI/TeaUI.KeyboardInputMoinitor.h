@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)topicTagIDs;
 
 @end
 

@@ -6,18 +6,18 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SACFAbstractClientCommand : SADomainCommand
 {
 }
 
++ (id);
 + (id);
-+ (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,21 +28,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)G;
 - (id);
 - (id);
-- (id);
+- (id)RPNearbyInvitationDiscovery;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain;
-@property(copy, nonatomic) NSString *jsFileNameSuffix;
-@property(copy, nonatomic) NSArray *jsLibraries;
-@property(copy, nonatomic) NSString *jsParameters;
-@property(copy, nonatomic) NSString *jsScript;
-@property(nonatomic) _Bool shouldCacheBytecode;
-@property(nonatomic) _Bool shouldCacheScript;
-@property(nonatomic) _Bool shouldRestartContext;
 
 @end
 

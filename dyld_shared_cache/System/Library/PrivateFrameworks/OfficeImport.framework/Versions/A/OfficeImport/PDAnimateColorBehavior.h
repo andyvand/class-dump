@@ -6,27 +6,16 @@
 
 #import <OfficeImport/PDAnimateBehavior.h>
 
-@class OADColor;
-
 __attribute__((visibility("hidden")))
 @interface PDAnimateColorBehavior : PDAnimateBehavior
 {
     _Bool mHasBy;
-    double mBy[3];
-    _Bool mHasFrom;
-    OADColor *mFrom;
-    _Bool mHasTo;
-    OADColor *mTo;
-    _Bool mHasColorSpace;
-    int mColorSpace;
-    _Bool mHasColorDirection;
-    int mDirection;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double (*)[3]);
 - (_Bool);

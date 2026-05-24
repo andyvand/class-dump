@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber, NSString, SAUIAppPunchOut, SAUIImageResource;
+@class SAUIAppPunchOut;
 
 @interface SAUSGenericResult : SADomainObject
 {
@@ -18,30 +18,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)iled;
 - (id);
 - (id);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
-- (void)ithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)processIntentWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *actionButton;
-@property(nonatomic) _Bool centered;
-@property(copy, nonatomic) NSArray *descriptions;
-@property(copy, nonatomic) NSString *footnote;
-@property(copy, nonatomic) NSString *secondaryTitle;
-@property(retain, nonatomic) SAUIImageResource *thumbnail;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSNumber *titleMaxLines;
 
 @end
 

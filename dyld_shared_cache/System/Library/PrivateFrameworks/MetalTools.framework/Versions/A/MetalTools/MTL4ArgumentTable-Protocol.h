@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTL4ArgumentTable
+- (void)U;
+- (void);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) NSString *label;
 @end
 

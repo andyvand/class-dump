@@ -6,38 +6,30 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebVerifyCredentialsAction : AMSUIWebAction
 {
     _Bool _ephemeral;
-    _Bool _usernameEditable;
-    ACAccount *_account;
-    NSString *_authenticationType;
-    NSString *_buttonText;
-    long long _serviceType;
-    NSString *_serviceIdentifier;
-    NSString *_subtitle;
-    NSString *_title;
 }
 
 + (long long);
 + (id);
-- (id);
-- (id);
+- (id)ns for auto asset;
+- (id)Content successful for asset selector:(id)arg1 %@;
 - (_Bool);
+- (void)te];
+- (_Bool)%@;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
-- (long long);
 - (void);
 - (id);
+- (long long)setWithCandidates:initialSelectedIndex:defaultCandidate:sortMethods:sortMethodGroups:indexTitles:showExtensionCandidates:disambiguationCandidates:selectedDisambiguationCandidateIndex: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (id)ting under Settings > Accessibility > Voice Control > Overlay > Numbered Grid.;
 - (void);
 - (void);
 - (void);
@@ -48,22 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(retain) NSString *buttonText; // @synthesize buttonText=_buttonText;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool ephemeral; // @synthesize ephemeral=_ephemeral;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property long long serviceType; // @synthesize serviceType=_serviceType;
-@property(retain) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property _Bool usernameEditable; // @synthesize usernameEditable=_usernameEditable;
 
 @end
 

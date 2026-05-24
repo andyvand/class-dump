@@ -11,7 +11,7 @@
     NSString *_localeIdentifier;
 }
 
-- (void);
+- (void)P;
 - (id);
 - (void);
 

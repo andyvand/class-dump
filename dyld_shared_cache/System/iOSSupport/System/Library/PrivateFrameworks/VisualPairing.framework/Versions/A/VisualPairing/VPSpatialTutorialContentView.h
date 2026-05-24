@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, AVPlayerLayer, AVPlayerLooper, AVQueuePlayer;
+@class AVQueuePlayer;
 
 @interface VPSpatialTutorialContentView
 {
     int _mode;
     AVQueuePlayer *_playerStereo;
-    AVQueuePlayer *_playerSpatial;
-    AVPlayerLooper *_looperStereo;
-    AVPlayerLooper *_looperSpatial;
-    AVPlayerItem *_playerItemStereo;
-    AVPlayerItem *_playerItemSpatial;
-    AVPlayerLayer *_playerLayerStereo;
-    AVPlayerLayer *_playerLayerSpatial;
-    _Bool _playersPlaying;
-    _Bool _playersStartTriggered;
-    struct MediaContentStatus _spatialStatus;
-    struct MediaContentStatus _stereoStatus;
 }
 
 - (void);
@@ -31,9 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)call chain:(int)arg1;
 - (int);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 - (void);

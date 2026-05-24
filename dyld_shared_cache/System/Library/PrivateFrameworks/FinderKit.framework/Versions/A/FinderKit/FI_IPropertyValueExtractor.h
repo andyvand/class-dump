@@ -8,23 +8,21 @@ __attribute__((visibility("hidden")))
 @interface FI_IPropertyValueExtractor
 {
     _Bool _shouldPrefetchValue;
-    _Bool _forPreview;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)C@9;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool forPreview; // @synthesize forPreview=_forPreview;
 @property _Bool shouldPrefetchValue; // @synthesize shouldPrefetchValue=_shouldPrefetchValue;
 
 @end

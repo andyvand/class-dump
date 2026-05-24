@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLLanguageModel, NLLanguageModelSession, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRNLPLanguageModel
 {
     NSString *_localization;
-    long long _modelType;
-    NLLanguageModel *_model;
-    NLLanguageModelSession *_session;
-    NSMutableDictionary *_cachedStates;
-    NSMutableArray *_cachedContextsRecycleQueue;
 }
 
 + (id);
@@ -30,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localization; // @synthesize localization=_localization;
-@property(readonly) long long modelType; // @synthesize modelType=_modelType;
 
 @end
 

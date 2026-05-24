@@ -9,14 +9,12 @@
 @interface PAGLObject
 {
     PAOpenGLDevice *_device;
-    unsigned int _objectID;
-    NSString *_name;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SubscribedCountScoreConfigurationConditionProvider;
 - (void);
 - (id);
 - (id);
@@ -25,12 +23,10 @@
 - (unsigned int);
 - (void);
 - (void);
-- (id)name:(id)arg1 object: /* Error: Ran out of types for this method. */;
+- (id)removeObserver:(id)arg1 name:object: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PAOpenGLDevice *device;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int objectID; // @synthesize objectID=_objectID;
 
 @end
 

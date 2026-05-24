@@ -12,12 +12,12 @@
 }
 
 + (const struct MPSLibraryInfo *);
-- (CDStruct_1e3be3a8);
+- (CDStruct_1e3be3a8).;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithPath:(id)arg1 queryString:context:attributes: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

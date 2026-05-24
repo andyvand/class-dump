@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSMutableDictionary;
 
 @interface BKAssetMetadata
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_backingDictionary;
-    long long _assetType;
-    NSURL *_backingURL;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (_Bool);
@@ -24,7 +21,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)0;
 + (id);
 + (id);
 + (id);
@@ -38,7 +35,7 @@
 + (long long);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (CDUnknownBlockType);
 - (_Bool);
 - (id);
@@ -56,28 +53,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -87,6 +72,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)P;
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -115,8 +112,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id){CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}};
+- (_Bool)4;
 - (id);
 - (_Bool);
 - (id);
@@ -127,7 +124,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (id);
@@ -136,30 +133,30 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)colorWithCalibratedWhite:alpha: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)@;
 - (long long);
 - (double);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)OptionsWithError: /* Error: Ran out of types for this method. */;
+- (id)_sinfOptionsWithError: /* Error: Ran out of types for this method. */;
 - (id)BOOL}d;
 - (long long)­/üÎÛ,ýI
 FõóT%äw°ì)`ýÚ70³(È#ã:úÛ.L\7¬íéu3¹¬eN[H­Éµªr`4 gÈÚFý"òù¥GZ0ýåQ ìÀ`|BËÂØþbZZÍv¡#§øîï}H/îG[KÔ.»ñõ#©¡`¨Óo³Íñ7J<É´21-ócþÌCá15o&/û<) `É¾§äÀÚµ]ñ²{àü'öê\3Ü PâÎ¸sy´ÁîFà=C]s¢cìp	z;·ý_ªßË>à¦MÉß¹Þ@YêtÎ_ÓÕMÉSA<TÓÅÍú²î6k3-^H­¸Àá	:lk^i$ö1~¶¦nî7ª¨sÞC)
@@ -167,9 +164,7 @@ FõóT%äw°ì)`ýÚ70³(È#ã:úÛ.L\7¬íéu3¹¬eN[H­Éµ
 ÔX(,Ýer¡Þ!JÆ"uÆBu\Z@+Xú×ôJjtµ\ûËàúT/°Æw]óóàö9ÞF@DÌéhiÛV²¥ö°lH/¸¿§IÏ¯NºõïÉ´£±_ ÚÇBK6S0  MTÙÞG»-1,ë /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long assetType; // @synthesize assetType=_assetType;
 @property(retain, nonatomic) NSMutableDictionary *backingDictionary; // @synthesize backingDictionary=_backingDictionary;
-@property(retain, nonatomic) NSURL *backingURL; // @synthesize backingURL=_backingURL;
 
 @end
 

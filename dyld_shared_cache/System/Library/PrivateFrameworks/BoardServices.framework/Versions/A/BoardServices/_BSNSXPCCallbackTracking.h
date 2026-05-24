@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSZeroingWeakReference, NSXPCConnection;
-@protocol BSNSXPCConnectionEventObserver;
+@class BSZeroingWeakReference;
 
 @interface _BSNSXPCCallbackTracking
 {
     BSZeroingWeakReference *_lock_connectionReference;
-    NSXPCConnection *_lock_connection;
-    CDUnknownBlockType _lock_errorHandler;
-    id <BSNSXPCConnectionEventObserver> _lock_observer;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_invalidated;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

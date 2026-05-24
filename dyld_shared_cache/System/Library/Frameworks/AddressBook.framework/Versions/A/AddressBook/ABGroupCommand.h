@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSMutableArray;
+@class NSMutableArray;
 
 @interface ABGroupCommand
 {
     NSMutableArray *_records;
-    ABGroup *_group;
 }
 
 - (id);

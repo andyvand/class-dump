@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFVersion, NSSet;
+@class HMFVersion;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreModelObjectStorageInfo
 {
     _Bool _defaultValueSet;
-    Class _classObj;
-    unsigned long long _logging;
-    HMFVersion *_readOnly;
-    HMFVersion *_unavailable;
-    id _defaultValue;
-    NSSet *_decodeClasses;
 }
 
 + (id);
@@ -35,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id)°!äDùqÐ1Â0@ù
 × ;
-- (id)r;
+- (id)HMDDateCounterGroupSpecifier;
 - (id)for accessory %@ setting %@ as it matches stored;
 - (id)Configuration Update;
 - (id)lavender;
@@ -43,13 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)Ç¢ÿv0èì>;
 
 // Remaining properties
-@property(readonly, nonatomic) Class classObj; // @synthesize classObj=_classObj;
-@property(readonly, nonatomic) NSSet *decodeClasses; // @synthesize decodeClasses=_decodeClasses;
-@property(readonly, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, nonatomic) _Bool defaultValueSet; // @synthesize defaultValueSet=_defaultValueSet;
-@property(readonly, nonatomic) unsigned long long logging; // @synthesize logging=_logging;
 @property(retain, nonatomic) HMFVersion *readOnly; // @synthesize readOnly=_readOnly;
-@property(retain, nonatomic) HMFVersion *unavailable; // @synthesize unavailable=_unavailable;
 
 @end
 

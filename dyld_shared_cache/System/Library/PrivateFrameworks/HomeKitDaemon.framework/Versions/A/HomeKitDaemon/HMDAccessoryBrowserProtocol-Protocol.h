@@ -4,20 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryServer, HMDMediaBrowser, HMMTRAccessoryServerBrowser, NSArray, NSDictionary, NSString;
-@protocol HMDAccessoryBrowserHapProtocol;
+@class HAPAccessoryServer, HMDMediaBrowser, HMDUnpairedHAPAccessory, NSArray, NSDictionary, NSString;
+@protocol HMDAccessoryBrowserHapProtocol, NSObject;
 
 @protocol HMDAccessoryBrowserProtocol
+- (void);
+- (void);
+- (void)SSSessionViewSelectedScreenContext;
+- (HMDMediaBrowser *)rW;
+- (void)!;
+- (HMDUnpairedHAPAccessory *)RawValue;
+- (id <NSObject>);
 - (void)
 × ;
 - (void)ð!¸Dù±Ð1Â0@ù
 × ;
 - (void);
-- (void)awDatabase;
-- (void)reviousRecoveryType;
-- (void)rtisingForAccessory:(HAPAccessoryServer *)arg1;
-- (NSDictionary *);
-- (NSString *)sion;
+- (void)strongRawDatabase;
+- (void)previousRecoveryType;
+- (void)isAdvertisingForAccessory:(HAPAccessoryServer *)arg1;
+- (NSDictionary *)initWithType:name: /* Error: Ran out of types for this method. */;
+- (NSString *)_bulkSendSession;
 - (void)_currentHomeManagerStatus;
 - (void)e %@, calling the handle method.;
 - (void)ndling message to delete keychain item for nfc reader key;
@@ -25,15 +32,11 @@
 - (void)due to out-dated information;
 - (void)nt user;
 - (id <HMDAccessoryBrowserHapProtocol>)CHIPPluginStorageKey_;
-- (void)sagingHandler;
+- (void)HMDHomePrimaryResidentMessagingHandler;
 - (void)nia gold;
 - (_Bool)daptiveThermostatDriverSettingsMessage(_:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
-@property(readonly) HMMTRAccessoryServerBrowser *chipAccessoryServerBrowser;
-@property(readonly, nonatomic) _Bool hasActiveWACPairing;
-@property(readonly, nonatomic) HMDMediaBrowser *mediaBrowser;
 @property(readonly, copy) NSArray *unassociatedAccessories;
 @end
 

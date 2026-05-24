@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, PDFDocument;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFIconView
 {
     PDFDocument *_document;
-    int _pageIndex;
-    _Bool _needsUpdate;
-    CALayer *_imageSelectionLayer;
-    CALayer *_textSelectionLayer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)createContentView;
 - (void);
 - (void);
 

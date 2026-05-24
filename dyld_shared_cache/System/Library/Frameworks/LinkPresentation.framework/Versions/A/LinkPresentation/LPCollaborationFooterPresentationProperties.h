@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface LPCollaborationFooterPresentationProperties
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_initiatorName;
-    NSPersonNameComponents *_initiatorNameComponents;
-    NSImage *_glyphAttachmentImage;
-    CDUnknownBlockType _action;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)c{;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)3;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -32,11 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(copy, nonatomic) NSImage *glyphAttachmentImage; // @synthesize glyphAttachmentImage=_glyphAttachmentImage;
-@property(copy, nonatomic) NSString *initiatorName; // @synthesize initiatorName=_initiatorName;
-@property(copy, nonatomic) NSPersonNameComponents *initiatorNameComponents; // @synthesize initiatorNameComponents=_initiatorNameComponents;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

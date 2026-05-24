@@ -7,15 +7,6 @@
 @interface TeaUI.MotionData
 {
     id attitude;
-    id rotationRate;
-    id gravity;
-    id userAcceleration;
-    id deviceOrientation;
-    id interfaceOrientation;
-    id normalizedX;
-    id normalizedY;
-    id xTranslator;
-    id yTranslator;
 }
 
 @end

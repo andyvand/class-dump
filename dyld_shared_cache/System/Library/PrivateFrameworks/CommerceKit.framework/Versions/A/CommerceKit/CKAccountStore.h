@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDemoAccount, CKStoreAccount, CKStoreClient, ISStoreAccount, NSArray;
+@class CKStoreClient;
 
 @interface CKAccountStore
 {
@@ -27,13 +27,13 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)qA	;
 - (void);
-- (void);
+- (id)H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (id);
@@ -46,13 +46,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *accounts;
-@property(readonly) CKDemoAccount *demoAccount;
-@property(readonly) _Bool isDemoModeEnabled;
-@property(readonly) NSArray *knownAccounts;
-@property(readonly) ISStoreAccount *primaryAccount;
-@property(readonly) _Bool primaryAccountIsPresentAndSignedIn;
-@property(readonly) CKStoreAccount *primaryStoreAccount;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

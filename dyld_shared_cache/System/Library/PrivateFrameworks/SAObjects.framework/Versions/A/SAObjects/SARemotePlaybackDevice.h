@@ -6,7 +6,7 @@
 
 #import <SAObjects/SARemoteDevice.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SARemotePlaybackDevice : SARemoteDevice
 {
@@ -15,15 +15,15 @@
 + (id);
 + (id);
 - (void);
+- (void)Vb;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,18 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *airPlayRouteId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *entitlementKey;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hashedRouteId;
-@property(copy, nonatomic) NSString *storefront;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *userToken;
-@property(copy, nonatomic) NSDictionary *utsRequiredRequestKeyValuePairs;
 
 @end
 

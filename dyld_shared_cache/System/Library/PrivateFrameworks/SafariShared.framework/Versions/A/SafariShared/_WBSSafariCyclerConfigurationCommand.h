@@ -9,12 +9,6 @@
 @interface _WBSSafariCyclerConfigurationCommand
 {
     NSString *_name;
-    NSString *_help;
-    NSString *_usage;
-    unsigned long long _minimumArgumentCount;
-    unsigned long long _maximumArgumentCount;
-    id _target;
-    SEL _action;
 }
 
 - (void);
@@ -25,11 +19,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)CopyAll;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)for %@, not re-scanning;
 - (SEL);
 - (void);
 - (void)ô	;
@@ -37,13 +31,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSString *help; // @synthesize help=_help;
-@property(nonatomic) unsigned long long maximumArgumentCount; // @synthesize maximumArgumentCount=_maximumArgumentCount;
-@property(nonatomic) unsigned long long minimumArgumentCount; // @synthesize minimumArgumentCount=_minimumArgumentCount;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(copy, nonatomic) NSString *usage; // @synthesize usage=_usage;
 
 @end
 

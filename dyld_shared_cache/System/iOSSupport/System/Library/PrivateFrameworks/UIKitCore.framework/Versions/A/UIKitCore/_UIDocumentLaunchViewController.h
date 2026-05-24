@@ -6,57 +6,35 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class DOCAnimatableInfo, NSString, UIView, UIViewPropertyAnimator, _UIDocumentUnavailableBrowserContainerViewController, _UIDocumentUnavailableBrowserPresentationController, _UIDocumentUnavailableConfiguration, _UIDocumentUnavailablePageBackgroundAccessoryView, _UIDocumentUnavailableTitlePageView, _UIMagicMorphAnimation, _UISystemBackgroundView, _UITouchPassthroughView;
+@class _UIDocumentUnavailableConfiguration, _UISystemBackgroundView;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentLaunchViewController : UIViewController
 {
     _UISystemBackgroundView *_backgroundView;
-    _UIDocumentUnavailableTitlePageView *_titleView;
-    UIView *_backgroundAccessoryView;
-    UIView *_foregroundAccessoryView;
-    _UIDocumentUnavailablePageBackgroundAccessoryView *_defaultBackgroundAccessoryView;
-    _UIDocumentUnavailableBrowserContainerViewController *_browserContainerViewController;
-    _UIDocumentUnavailableBrowserPresentationController *_browserPresentationController;
-    _UITouchPassthroughView *_contentContainerView;
-    _UITouchPassthroughView *_pageContainerView;
-    _UITouchPassthroughView *_backgroundAccessoryContainerView;
-    _UITouchPassthroughView *_foregroundAccessoryContainerView;
-    _UIMagicMorphAnimation *_morphAnimation;
-    DOCAnimatableInfo *_documentAnimationInfo;
-    UIViewPropertyAnimator *_transitionAnimator;
-    UIView *_animationInteractionView;
-    struct {
-        unsigned int shouldPresentBrowserViewController:1;
-        unsigned int isPresentingBrowserViewController:1;
-        unsigned int isRecoveringBrowserViewController:1;
-        unsigned int isAnimatingTransition:1;
-        unsigned int needsContentConfigurationUpdate:1;
-    } _flags;
-    _UIDocumentUnavailableConfiguration *_configuration;
 }
 
 - (void);
-- (id);
+- (id)phoneAliasForDominentPhoneAlias:(id)arg1 registeredPhoneNumbers:(id)arg2 preferredCallerID:(id)arg3 CTPhoneNumber: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)- ;
+- (void)e has a legacy urgent trigger text, should ignore do not disturb;
+- (void)ge:(CDUnknownBlockType)arg1 %@ in chat:%@ was determined to be %@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)r unknown update type %@, rowID %lu;
+- (void)etime passcode:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)for chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)sageGUID:%@ numberOfMessagesBefore:%d, numberOfMessagesAfter:%d record count:%d /* Error: Ran out of types for this method. */;
+- (void)spam-message-size, using the default 50;
+- (void)has type %@;
 - (id);
 - (double);
 - (id);
@@ -65,11 +43,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)@24i32@36;
 - (id)>"16;
-- (void)ate;
-- (void)tems:(_Bool)arg1;
-- (void)gParameters;
+- (void)updatedSidebarItemForCurrentConfigurationState;
+- (void)setCancelBarButtonItems:(_Bool)arg1;
+- (void)_nonTrackingSpringParameters;
 - (void)ubtype;
-- (id)lingButtonHiddenWhenEmpty;
+- (id)trailingButtonHiddenWhenEmpty;
 - (id)@;
 - (void);
 - (void)°a;
@@ -78,13 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) _UIDocumentUnavailableConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

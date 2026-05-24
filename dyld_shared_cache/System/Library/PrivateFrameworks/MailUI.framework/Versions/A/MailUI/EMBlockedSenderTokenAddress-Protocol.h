@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class CNContact;
 
 @protocol EMBlockedSenderTokenAddress
+- (CNContact *)s/com.apple.xbs/TemporaryDirectory.8NqsAU/Sources/HomeAI/OpenCV/src/core/system.cpp;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact;
-@property(readonly, copy, nonatomic) NSString *currentRawAddress;
 @end
 

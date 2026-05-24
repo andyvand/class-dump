@@ -4,42 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMAccountRepository, EMActivityRegistry, EMBlockedSenderManager, EMClientState, EMDiagnosticInfoGatherer, EMFetchController, EMInteractionLogger, EMMailboxRepository, EMMessageRepository, EMOutgoingMessageRepository, EMSearchableIndex, EMSenderRepository, NSHashTable, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol EFCancelable, EMVIPManager, NSXPCProxyCreating, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EMDaemonInterface
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    _Bool _useNegotiatedConnection;
-    EFLocked *_negotiatedMailConnection;
-    NSXPCListenerEndpoint *_appEndpoint;
-    NSHashTable *_connections;
-    long long _connectionState;
-    id <EFCancelable> _daemonLaunchToken;
-    _Bool _allowsBackgroundResume;
-    struct os_unfair_lock_s _lock;
-    _Atomic _Bool _invalidated;
-    _Bool _wantsBlockedSenderManager;
-    EMBlockedSenderManager *_blockedSenderManager;
-    EMMessageRepository *_messageRepository;
-    EMOutgoingMessageRepository *_outgoingMessageRepository;
-    EMMailboxRepository *_mailboxRepository;
-    EMAccountRepository *_accountRepository;
-    EMSenderRepository *_senderRepository;
-    EMFetchController *_fetchController;
-    EMClientState *_clientState;
-    EMInteractionLogger *_interactionLogger;
-    EMActivityRegistry *_activityRegistry;
-    id <EMVIPManager> _vipManager;
-    EMDiagnosticInfoGatherer *_diagnosticInfoGatherer;
-    EMSearchableIndex *_searchableIndex;
 }
 
 + (void);
 + (_Bool);
 + (id);
-+ (id);
++ (id)the index, bundleID:%@, protectionClass:%@ /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
 - (void);
@@ -47,9 +23,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)MatterAccessoryWriteAttributeLogEvent;
 - (void);
 - (_Bool);
+- (id)J;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)	=;
+- (id);
+- (void)g2uB;
 - (id);
 - (void);
 - (id);
@@ -57,53 +41,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)for language ";
 - (void);
-- (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)!;
 - (id)essage">32;
 - (id)ùÿ;
 
 // Remaining properties
-@property(readonly) EMAccountRepository *accountRepository; // @synthesize accountRepository=_accountRepository;
-@property(readonly) EMActivityRegistry *activityRegistry; // @synthesize activityRegistry=_activityRegistry;
-@property _Bool allowsBackgroundResume;
-@property(readonly) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(readonly) EMClientState *clientState; // @synthesize clientState=_clientState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) EMDiagnosticInfoGatherer *diagnosticInfoGatherer; // @synthesize diagnosticInfoGatherer=_diagnosticInfoGatherer;
-@property(readonly) EMFetchController *fetchController; // @synthesize fetchController=_fetchController;
-@property(readonly) unsigned long long hash;
-@property(readonly) EMInteractionLogger *interactionLogger; // @synthesize interactionLogger=_interactionLogger;
-@property(readonly) EMMailboxRepository *mailboxRepository; // @synthesize mailboxRepository=_mailboxRepository;
-@property(readonly) EMMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;
-@property(readonly) EMOutgoingMessageRepository *outgoingMessageRepository; // @synthesize outgoingMessageRepository=_outgoingMessageRepository;
-@property(readonly) id <NSXPCProxyCreating> proxyCreator;
-@property(readonly) EMSearchableIndex *searchableIndex; // @synthesize searchableIndex=_searchableIndex;
-@property(readonly) EMSenderRepository *senderRepository; // @synthesize senderRepository=_senderRepository;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCConnection *test_connection;
-@property(readonly) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 @property(readonly, nonatomic) _Bool wantsBlockedSenderManager; // @synthesize wantsBlockedSenderManager=_wantsBlockedSenderManager;
 
 @end

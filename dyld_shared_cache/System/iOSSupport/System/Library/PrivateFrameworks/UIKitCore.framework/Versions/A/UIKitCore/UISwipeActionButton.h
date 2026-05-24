@@ -6,28 +6,22 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class UIColor, UIView;
-@protocol UISwipeActionVisualStyle, _UISwipeActionButtonDelegate;
+@protocol _UISwipeActionButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UISwipeActionButton : UIButton
 {
     _Bool _autosizes;
-    UIColor *_defaultBackgroundColor;
-    UIColor *_highlightedBackgroundColor;
-    id <UISwipeActionVisualStyle> _visualStyle;
-    id <_UISwipeActionButtonDelegate> _swipeActionButtonDelegate;
-    UIView *_backgroundView;
 }
 
-- (id);
-- (id);
+- (id)_removeFromList:(double)arg1 withKey: /* Error: Ran out of types for this method. */;
+- (id)_getNewFileTransferForStoredAttachmentPayloadDataWithTransferGUID:messageGUID: /* Error: Ran out of types for this method. */;
+- (void)serviceWithReplicationSourceID:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
-- (double);
-- (_Bool);
+- (id)xisting chat for conversation:%s /* Error: Ran out of types for this method. */;
+- (double)ewer chat based on participants and display name:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)max number of attempts to load dirty messages needing a T2 update. Bailing for now;
 - (long long);
 - (double);
 - (double);
@@ -35,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect)1;
 - (double);
 - (id);
 - (id);
 - (id);
-- (void)wWithTitle:(id)arg1 description:closeButtonAction: /* Error: Ran out of types for this method. */;
+- (void)configureTipViewWithTitle:(id)arg1 description:closeButtonAction: /* Error: Ran out of types for this method. */;
 - (id);
 - (double)stTintColor:,V__hostTintColor /* Error: Ran out of types for this method. */;
 - (void)UICollectionViewCell"32@?0@"UICollectionView"8@"NSIndexPath"16@"_UIFloatingTabBarListItem"24;
@@ -55,14 +49,7 @@ __attribute__((visibility("hidden")))
 - (void)"¹ÿ´×>_k;
 
 // Remaining properties
-@property(nonatomic) _Bool autosizes; // @synthesize autosizes=_autosizes;
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) double buttonWidth;
-@property(retain, nonatomic) UIColor *defaultBackgroundColor; // @synthesize defaultBackgroundColor=_defaultBackgroundColor;
-@property(retain, nonatomic) UIColor *highlightedBackgroundColor; // @synthesize highlightedBackgroundColor=_highlightedBackgroundColor;
-@property(readonly, nonatomic) UIView *sourceView;
 @property(nonatomic) __weak id <_UISwipeActionButtonDelegate> swipeActionButtonDelegate; // @synthesize swipeActionButtonDelegate=_swipeActionButtonDelegate;
-@property(retain, nonatomic) id <UISwipeActionVisualStyle> visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

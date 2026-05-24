@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSOutlineView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (void);
+- (void)(;
+- (_Bool);
+- (void)oking sync helper;
+- (void)database metadata valid but data store check failed with code:(NSOutlineView *)arg1 %{public}@; poking sync helper;
 @end
 

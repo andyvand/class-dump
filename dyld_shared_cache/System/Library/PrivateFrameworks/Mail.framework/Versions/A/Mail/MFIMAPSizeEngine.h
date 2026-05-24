@@ -6,16 +6,9 @@
 
 #import <Mail/MFRemoteStoreSizeEngine.h>
 
-@class MFIMAPAccount, NSArray, NSMutableDictionary, NSMutableSet;
-
 @interface MFIMAPSizeEngine : MFRemoteStoreSizeEngine
 {
     unsigned long long _workerThreadCount;
-    NSMutableDictionary *_mailboxesByQuotaRoot;
-    NSMutableSet *_quotasToFetch;
-    NSMutableSet *_observedIMAPMailboxes;
-    NSMutableSet *_observedIMAPQuotaRoots;
-    long long _quotaStatus;
 }
 
 - (id);
@@ -23,7 +16,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (void);
@@ -38,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFIMAPAccount *account; // @dynamic account;
-@property(readonly, copy) NSArray *quotaNames;
 @property(nonatomic) long long quotaStatus; // @synthesize quotaStatus=_quotaStatus;
 
 @end

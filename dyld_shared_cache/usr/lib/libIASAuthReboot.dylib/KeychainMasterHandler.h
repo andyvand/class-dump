@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KeychainMasterHandler
 {
     struct __SecKeychain *_keychainRef;
-    long long _moduleHandle;
-    int _errorStatus;
-    NSString *_errorString;
 }
 
 - (_Bool);

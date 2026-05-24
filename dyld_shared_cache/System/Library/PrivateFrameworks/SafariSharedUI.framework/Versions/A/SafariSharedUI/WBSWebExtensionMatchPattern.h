@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WKWebExtensionMatchPattern;
+@class WKWebExtensionMatchPattern;
 
 @interface WBSWebExtensionMatchPattern
 {
@@ -12,17 +12,19 @@
 }
 
 + (id);
-+ (id);
++ (id))@9
+@9)
+J	*);
 + (id);
 + (_Bool);
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -37,22 +39,16 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool)textFieldFirstBaselineOffsetFromTop;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)13TRenameActionC1ERNSt3__16vectorINS0_8functionIFvvEEENS0_9allocatorIS4_EEEERK13TFENodeVectorRKNS1_I7TStringNS5_ISC_EEEEbbP6NSData16VerifyAuditTokenbP19FI_TRenameOperationE3$_0;
+- (id)#;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)orRequest: /* Error: Ran out of types for this method. */;
+- (void)_addCachedResponse:forRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *expandedMatchPatternStrings;
-@property(readonly, nonatomic) NSString *host;
-@property(readonly, nonatomic) _Bool matchesAllHosts;
-@property(readonly, nonatomic) _Bool matchesAllURLs;
-@property(readonly, nonatomic) NSString *path;
-@property(readonly, nonatomic) NSString *scheme;
 @property(readonly, nonatomic) WKWebExtensionMatchPattern *webKitMatchPattern; // @synthesize webKitMatchPattern=_webKitMatchPattern;
 
 @end

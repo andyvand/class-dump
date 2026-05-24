@@ -7,11 +7,6 @@
 @interface AppleMediaServices.PassingMockAuthenticateTask
 {
     id accountMediaType;
-    id accountStore;
-    id altDSID;
-    id canMakeAccountActive;
-    id dsid;
-    id username;
 }
 
 @end

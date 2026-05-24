@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IHSchemaIHClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ihId;
-    _Bool _hasIhId;
 }
 
 - (void);
@@ -28,13 +27,11 @@
 - (id);
 - (id);
 - (id)_nowPlayingBundleRecencyS;
-- (id)SchemaIDENTITYFirstVoiceObservationSubmitted;
+- (id)IDENTITYSchemaIDENTITYFirstVoiceObservationSubmitted;
 - (void)òô";
 
 // Remaining properties
-@property(nonatomic) _Bool hasIhId; // @synthesize hasIhId=_hasIhId;
 @property(retain, nonatomic) SISchemaUUID *ihId; // @synthesize ihId=_ihId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

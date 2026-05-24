@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPickerBorderView, NSButton, NSStackView, NSString, NSView, NSViewController, NSVisualEffectView;
-@protocol CNFamilyMemberEditControlsViewControllerDelegate;
+@class NSView, NSViewController;
 
 @interface CNFamilyMemberEditControlsViewController
 {
     NSViewController *_containedViewController;
-    NSView *_buttonStackContainerView;
-    NSVisualEffectView *_visualEffectView;
-    NSView *_viewForButtonConstraints;
-    NSStackView *_stackView;
-    NSButton *_editControlButton;
-    NSButton *_cancelButton;
-    CNContactPickerBorderView *_bottomBorderView;
-    id <CNFamilyMemberEditControlsViewControllerDelegate> _delegate;
-    long long _style;
-    long long _size;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -36,17 +26,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)-~),;
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -54,37 +43,20 @@
 - (struct CGSize);
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void)B;
+- (id)_block;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)l";
 - (void);
 - (void)ñ#1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactPickerBorderView *bottomBorderView; // @synthesize bottomBorderView=_bottomBorderView;
 @property(retain, nonatomic) NSView *buttonStackContainerView; // @synthesize buttonStackContainerView=_buttonStackContainerView;
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, nonatomic) NSViewController *containedViewController; // @synthesize containedViewController=_containedViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CNFamilyMemberEditControlsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *editControlButton; // @synthesize editControlButton=_editControlButton;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long size; // @synthesize size=_size;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *viewForButtonConstraints; // @synthesize viewForButtonConstraints=_viewForButtonConstraints;
-@property(retain, nonatomic) NSVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end
 

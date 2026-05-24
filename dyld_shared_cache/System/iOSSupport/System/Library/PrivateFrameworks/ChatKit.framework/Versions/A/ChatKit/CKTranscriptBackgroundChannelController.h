@@ -14,33 +14,32 @@
 + (id);
 + (unsigned long long);
 + (_Bool);
-+ (void);
++ (void)ֶ%;
 + (id);
+- (void)updateRootRecordMapWithShare:(id)arg1;
+- (void)imageForActivityItem;
+- (void)_shadowOpacity;
+- (void)_contactsRequestQueue;
+- (id)ndVerifyDoNotMatchLabel;
 - (void);
+- (_Bool)G;
 - (void);
-- (void);
+- (void)LoopCGSo15NSManagedObjectCGSg;
+- (void)a;
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)le.mobilenotes.text;
+- (void)authenticateCustomPasswordWithPrompt:(id)arg1 displayWindow:(id)arg2 completionHandler:(CDUnknownBlockType)arg3 ];
+- (void)attachmentbrick_note_loading_audio;
+- (_Bool)erator:Failed get caches directory with error (falling back to NSTemporaryDirectory):%@ /* Error: Ran out of types for this method. */;
+- (void)u want to move these shared folders?;
 - (id);
 - (id);
 - (void)|;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isChannelControllerReady) _Bool channelControllerReady;
 @property(retain) PRUISPosterChannelController *pkChannelController; // @synthesize pkChannelController=_pkChannelController;
 
 @end

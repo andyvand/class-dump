@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol AFUtteranceSuggestionsDelegate, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface AFUtteranceSuggestions
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_suggestedUtterances;
-    NSString *_languageCode;
-    id <AFUtteranceSuggestionsDelegate> _delegate;
 }
 
 - (id);
@@ -21,10 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void)arInterval;
+- (void)_deviceInEarInterval;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <AFUtteranceSuggestionsDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 
 @end

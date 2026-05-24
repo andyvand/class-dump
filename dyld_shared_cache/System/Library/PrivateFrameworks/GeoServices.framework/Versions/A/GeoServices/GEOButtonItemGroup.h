@@ -6,14 +6,14 @@
 
 #import <GeoServices/GEOButtonItem.h>
 
-@class GEOPDGroupParams, NSArray;
+@class GEOPDGroupParams;
 
 @interface GEOButtonItemGroup : GEOButtonItem
 {
     GEOPDGroupParams *_params;
 }
 
-- (id);
+- (id)CNObservableTakeLastBlockObserver;
 - (id);
 - (unsigned long long);
 - (id);
@@ -23,8 +23,6 @@
 - (int)8­ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long actionDataIndex;
-@property(readonly, nonatomic) NSArray *buttonItems;
 @property(readonly, nonatomic) int groupType;
 
 @end

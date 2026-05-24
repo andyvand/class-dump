@@ -7,17 +7,9 @@
 @interface ConversationKit.ParticipantVideoView
 {
     id frontFacingCameraView;
-    id backFacingCameraView;
-    id previousViewModelHash;
-    id previousVideoSnapshot;
-    id hasPerformedFirstVideoTransform;
-    id shouldSkipTransformsForLayerHostMode;
-    id pendingRegisterVideoLayerForFrontVideoProvider;
-    id pendingRegisterVideoLayerForBackVideoProvider;
-    id isViewFrozen;
 }
 
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (void)!¨FùÑ°1Â0@ù

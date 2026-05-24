@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_group;
-
 @interface FCBalancedCounter
 {
     struct os_unfair_lock_s _lock;
-    long long _count;
-    NSObject<OS_dispatch_group> *_dispatchGroup;
 }
 
 - (id);
-- (void);
+- (void)estionsOrderStatusDeduper dedupeByEnrichingEntry:(_Bool)arg1 withEntry:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)sectsNode(e)&&(e=undefined),e},Range.prototype.mf_takeFocus=function(e){e===undefined&&(e=!0),e&&this.collapse(!0);let t=document.getSelection();t.removeAllRanges(),t.addRange(this)},Range.prototype.mf_lastNode=function(){let e;if(this.collapsed)return e;let t=this.endContainer,n=this.endOffset,i=!1;if(t instanceof Text)e=(i=n<t.length)?t.mf_traversePreviousNode():t;else{for(e=t.firstChild;--n>0;)e=e.nextSibling;e&&this.endOffset||(e=t.mf_traversePreviousNode())}return e&&!this.intersectsNode(e)&&(e=undefined),e};const IS_BLOCK_ELEMENT_NAME=function(e){const t=["HTML","BODY","BR","LI","OL","UL","TD","TH","HR","DD","DL","DT","PRE","BLOCKQUOTE","DIV","P","TR","H1","H2","H3","H4","H5","H6"];return e&&-1!==t.indexOf(e)},isBlockLevelNode=function(e){let t=!1;return t=!!IS_BLOCK_ELEMENT_NAME(e.nodeName)};Range.prototype.mf_getBlockBoundaryParentAndNextSibling=function(e){let t,n;if(e){let e=this.mf_firstNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t}}else{let e=this.mf_lastNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t.nextSibling}}let i,s,o;if(e?(i=this.startContainer,o=this.startOffset):(i=this.endContainer,o=this.endOffset),i instanceof Text)i=(s=i).parentNode;else for(s=i.firstChild;o-- >0;s=s.nextSibling);for(e&&(s=s?s.previousSibling:i.lastChild);!t&&i;){for(;!t&&s;)isBlockLevelNode(s)?(t=i,n=e||"BR"===s.nodeName.toUpperCase()?s.nextSibling:s):s=e?s.previousSibling:s.nextSibling;s||(isOrContainsBlockLevelNode(i)?(t=i,n=e?t.firstChild:undefined):(s=i,i=i.parentNode))}return{parent:t,nextSibling:n}};const isOrContainsBlockLevelNode=function(e){let t,n=!1;if(IS_BLOCK_ELEMENT_NAME(e.nodeName))n=!0;else for(t=e.firstChild;!n&&t;)n=isOrContainsBlockLevelNode(t),t=t.nextSibling;return n}; /* Error: Ran out of types for this method. */;
 - (void)ÁÐ!hFùÑ)	1Â0@ù
 × ;
-- (void)OntologyLevelConfig;
-- (long long)leURLWithPath: /* Error: Ran out of types for this method. */;
+- (void)magazineFeedIssueOntologyLevelConfig;
+- (long long)fileURLWithPath: /* Error: Ran out of types for this method. */;
 - (struct os_unfair_lock_s)ndaryHeadlineScoringOutputName:%@; /* Error: Ran out of types for this method. */;
-- (void)nGroup;
+- (void)LocalSectionGroup;
 - (void)scoring service configuration, storing empty configuration;
 - (void)êÿ¾;
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *dispatchGroup; // @synthesize dispatchGroup=_dispatchGroup;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end
 

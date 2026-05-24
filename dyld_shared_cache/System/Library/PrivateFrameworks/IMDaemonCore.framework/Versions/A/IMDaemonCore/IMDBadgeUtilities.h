@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDMessageStore, IMDefaults, NSMutableDictionary, NSObject, UNUserNotificationCenter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDBadgeUtilities
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _showingFailure;
-    _Bool _unexpectedlyLoggedOut;
-    _Bool _addedObserverForUnexpectedlyLoggedOut;
-    _Bool _isStewieActive;
-    unsigned long long _unreadCount;
-    long long _lastFailedMessageDate;
-    NSMutableDictionary *_pendingSatelliteMessagesPerService;
-    UNUserNotificationCenter *_notificationCenter;
-    IMDefaults *_sharedDefaultsInstance;
-    IMDMessageStore *_messageStore;
 }
 
 + (id)te new chat identifier for account %@;
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (_Bool);
@@ -34,39 +24,30 @@
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
+- (void)pg_query__transaction_stmt__pack_to_buffer;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (id)datedForChat:(id)arg1;
-- (void)atedMessageItem:(id)arg1;
-- (id)icesToAllowedSMSRelayList;
-- (id)Helpers;
+- (void);
+- (id)engroupParticipantsUpdatedForChat:(id)arg1;
+- (void)_messagePartMatchingAssociatedMessageGUID:(id)arg1 associatedMessageItem: /* Error: Ran out of types for this method. */;
+- (id)_addHSA2PairedDevicesToAllowedSMSRelayList;
+- (id)IMDHelpers;
 - (_Bool)ÿéÿ¨éÿÌ£éÿ@¦éÿ­éÿ|¹éÿT¼éÿT¾éÿ|Àéÿ0ÂéÿüÂéÿ¤ÃéÿÅéÿ\ÈéÿTÊéÿËéÿÈÍéÿLÏéÿ;
 - (void)nvoked but no notification;
-- (id)inIdentifiers;
+- (id)CKRecord_DomainIdentifiers;
 - (_Bool)SharedWithYou;
-- (void)e;
+- (void)FetchMomentShare;
 
 // Remaining properties
-@property(nonatomic) _Bool addedObserverForUnexpectedlyLoggedOut; // @synthesize addedObserverForUnexpectedlyLoggedOut=_addedObserverForUnexpectedlyLoggedOut;
-@property(nonatomic) _Bool isStewieActive; // @synthesize isStewieActive=_isStewieActive;
-@property(nonatomic) long long lastFailedMessageDate; // @synthesize lastFailedMessageDate=_lastFailedMessageDate;
-@property(nonatomic) __weak IMDMessageStore *messageStore; // @synthesize messageStore=_messageStore;
-@property(retain, nonatomic) UNUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSMutableDictionary *pendingSatelliteMessagesPerService; // @synthesize pendingSatelliteMessagesPerService=_pendingSatelliteMessagesPerService;
-@property(retain, nonatomic) IMDefaults *sharedDefaultsInstance; // @synthesize sharedDefaultsInstance=_sharedDefaultsInstance;
-@property(nonatomic, getter=isShowingFailure) _Bool showingFailure; // @synthesize showingFailure=_showingFailure;
-@property(nonatomic, getter=isUnexpectedlyLoggedOut) _Bool unexpectedlyLoggedOut; // @synthesize unexpectedlyLoggedOut=_unexpectedlyLoggedOut;
 @property(nonatomic) unsigned long long unreadCount; // @synthesize unreadCount=_unreadCount;
 
 @end

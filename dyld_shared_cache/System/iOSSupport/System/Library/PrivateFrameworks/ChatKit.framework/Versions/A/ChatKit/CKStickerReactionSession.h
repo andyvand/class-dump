@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKMessagePartChatItem, CKTranscriptBalloonCell;
+@class CKConversation;
 
 @interface CKStickerReactionSession
 {
     CKConversation *conversation;
-    CKMessagePartChatItem *chatItem;
-    CKTranscriptBalloonCell *cell;
-    id _didSendSticker;
 }
 
-- (void);
-- (void);
+- (void)o;
+- (void) %;
 - (id);
 - (_Bool);
 - (id);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) CKTranscriptBalloonCell *cell; // @synthesize cell;
-@property(nonatomic, retain) CKMessagePartChatItem *chatItem; // @synthesize chatItem;
 @property(nonatomic, retain) CKConversation *conversation; // @synthesize conversation;
-@property(nonatomic, readonly) _Bool didSendSticker;
 
 @end
 

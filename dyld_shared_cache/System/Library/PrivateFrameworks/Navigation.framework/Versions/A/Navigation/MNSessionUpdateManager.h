@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedETARoute, GEODataRequestThrottlerToken, GEOETATrafficUpdateRequest, GEOLatLng, GEOTransitRouteUpdater, NSDate, NSMutableDictionary, NSString, NSTimer;
 @protocol MNSessionUpdateManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNSessionUpdateManager
 {
     id <MNSessionUpdateManagerDelegate> _delegate;
-    NSString *_requestingAppIdentifier;
-    GEOApplicationAuditToken *_auditToken;
-    GEODataRequestThrottlerToken *_throttleToken;
-    GEOLatLng *_tripOrigin;
-    GEOTransitRouteUpdater *_transitUpdater;
-    NSMutableDictionary *_subscribers;
-    NSTimer *_etaTimer;
-    double _etaRequestInterval;
-    double _initialRequestDelay;
-    double _opportunisticRequestTimeWindow;
-    NSDate *_dateOfLastUpdate;
-    _Bool _lastRequestWasServerDriven;
-    unsigned long long _maxAlternateRoutesCount;
-    _Bool _isPaused;
-    GEOETATrafficUpdateRequest *_pendingETARequest;
-    GEOComposedETARoute *_pendingETARoute;
 }
 
 - (void);
@@ -35,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ExtractedRoot;
 - (void);
 - (void);
 - (int);
@@ -54,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,25 +51,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setContainerTitleLabel: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNSessionUpdateManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxAlternateRoutesCount; // @synthesize maxAlternateRoutesCount=_maxAlternateRoutesCount;
-@property(copy, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEODataRequestThrottlerToken *throttleToken; // @synthesize throttleToken=_throttleToken;
-@property(retain, nonatomic) GEOLatLng *tripOrigin; // @synthesize tripOrigin=_tripOrigin;
 
 @end
 

@@ -6,24 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIDictationInputModeSwitchEnded, SISchemaUEIDictationInputModeSwitchStarted;
+@class SISchemaUEIDictationInputModeSwitchStarted;
 
 @interface SISchemaUEIDictationInputModeSwitchContext : SISchemaInstrumentationMessage
 {
     SISchemaUEIDictationInputModeSwitchStarted *_startedOrChanged;
-    SISchemaUEIDictationInputModeSwitchEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -31,22 +27,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)canOpenGatewayWithReply: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)m.guid FROM chat_recoverable_message_join AS crmj JOIN chat AS c  ON crmj.chat_id = c.ROWID AND c.guid = ? JOIN message AS m  ON crmj.message_id = m.ROWID;;
 - (id);
 - (id);
-- (id)AppCount1Hr;
-- (id)BringUpErrorDescription;
-- (void)eTime;
+- (id)deleteEntityPartialAppCount1Hr;
+- (id)_hasAssetBringUpErrorDescription;
+- (void)firstByteTime;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEIDictationInputModeSwitchEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEIDictationInputModeSwitchStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

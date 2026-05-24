@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPPunchoutForFeedback;
+@class _CPPunchoutForFeedback;
 
 @interface _CPActionItemForFeedback
 {
@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -21,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
 @property(retain, nonatomic) _CPPunchoutForFeedback *punchout; // @synthesize punchout=_punchout;
-@property(readonly) Class superclass;
 
 @end
 

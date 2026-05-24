@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSPersonNameComponentsData
 {
     NSString *_givenName;
-    NSString *_familyName;
-    NSString *_middleName;
-    NSString *_namePrefix;
-    NSString *_nameSuffix;
-    NSString *_nickname;
-    NSPersonNameComponents *_phoneticRepresentation;
 }
 
 + (_Bool)u remoteUsesKeyedDO:%d **) /* Error: Ran out of types for this method. */;
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (id)1Â0@ù
 × ;
 - (void)ns);
@@ -41,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)È8;
 
 // Remaining properties
-@property(copy) NSString *familyName; // @synthesize familyName=_familyName;
 @property(copy) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy) NSString *middleName; // @synthesize middleName=_middleName;
-@property(copy) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(copy) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(copy) NSString *nickname; // @synthesize nickname=_nickname;
-@property(copy) NSPersonNameComponents *phoneticRepresentation; // @synthesize phoneticRepresentation=_phoneticRepresentation;
 
 @end
 

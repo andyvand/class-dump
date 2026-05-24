@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NTPBWidgetConfig;
+@class NTPBWidgetConfig;
 
 @interface FCWidgetConfig
 {
     NTPBWidgetConfig *_pbWidgetConfig;
-    NSDictionary *_configDictionary;
 }
 
 + (_Bool);
@@ -18,15 +17,15 @@
 - (id);
 - (long long);
 - (void);
-- (unsigned int);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (unsigned int)8r*16@?24;
+- (void)FMNHttpClient:(id)arg1 body requires signature;
+- (void)/;
+- (long long)Failed to contact installcoordinationd to register promise with UUID %@:%@ /* Error: Ran out of types for this method. */;
+- (id)_mergeSanitizedDataFromMessage:(struct _NSZone *)arg1;
 - (long long)brary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFaultableRecord.m;
 - (long long)m.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCTagFeedHeadlinesFetchOperation.m;
-- (void)_whats_new;
-- (long long)ogyLevelConfig;
+- (void)feldspar_needs_whats_new;
+- (long long)shadowArticleRecirculationSecondaryOntologyLevelConfig;
 - (long long)foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateDataContext.m;
 - (id)CCKMultiFeedQueryOperation _predicateForPerFeedFieldName:key:defaultValue:] /* Error: Ran out of types for this method. */;
 - (long long)asset cache failed to generate bookmark for copied asset %{public}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
@@ -38,21 +37,7 @@
 - (long long)©q;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configDictionary; // @synthesize configDictionary=_configDictionary;
-@property(readonly, nonatomic) long long forYouBackgroundMinimumUpdateInterval;
-@property(readonly, nonatomic) long long minimumArticleExposureDurationToBePreseen;
-@property(readonly, nonatomic) unsigned int minimumNumberOfTimesPreseenToBeSeen;
 @property(copy, nonatomic) NTPBWidgetConfig *pbWidgetConfig; // @synthesize pbWidgetConfig=_pbWidgetConfig;
-@property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;
-@property(readonly, nonatomic) long long smallWidgetSystemReloadInterval;
-@property(readonly, nonatomic) long long smallWidgetSystemReloadIntervalHoneymoon;
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMax;
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMaxHoneymoon;
-@property(readonly, nonatomic) long long widgetSystemHoneymoonDuration;
-@property(readonly, nonatomic) long long widgetSystemReloadInterval;
-@property(readonly, nonatomic) long long widgetSystemReloadIntervalHoneymoon;
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMax;
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMaxHoneymoon;
 
 @end
 

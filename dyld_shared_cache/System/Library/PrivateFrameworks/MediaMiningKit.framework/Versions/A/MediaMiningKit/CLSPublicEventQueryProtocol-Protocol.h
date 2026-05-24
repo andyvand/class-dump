@@ -9,7 +9,6 @@
 @protocol CLSPublicEventQueryProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *invalidationTokens;
 @property(readonly, nonatomic) NSDictionary *resolvedPublicEventsByTimeLocationTupleIdentifier;
 @end
 

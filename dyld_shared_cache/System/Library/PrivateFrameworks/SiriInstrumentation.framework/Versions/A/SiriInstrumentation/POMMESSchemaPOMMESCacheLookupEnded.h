@@ -6,23 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, POMMESSchemaPOMMESCacheEntry;
-
 @interface POMMESSchemaPOMMESCacheLookupEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    NSString *_resultDomain;
-    POMMESSchemaPOMMESCacheEntry *_result;
-    CDStruct_47fe53f2 _has;
-    _Bool _hasResultDomain;
-    _Bool _hasResult;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (_Bool);
 - (id);
@@ -31,27 +24,21 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)sociate attachment from empty message GUID;
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool)1"hasConversion"b1"secondsToConversion"b1"numberOfActionsBefore"b1"numberOfActionsAfter"b1"daysBucketType"b1"conversionMetricType"b1};
-- (void)tIsSelectedApp:(_Bool)arg1;
-- (id);
+- (void)setIsSelectedApp:(_Bool)arg1;
+- (id)_numSelectedAppDisambiguationsLastTwentyEightDays;
 - (id),N,V_hasStructuredSearch;
 - (_Bool)tcherEndedTier1;
 - (id)ÿÿÿÿd;
 - (void)¤>;
 - (void);
-- (void)LOWBRIEFINGTASKATTRIBUTE_CALENDAR;
+- (void)FLOWBRIEFINGTASKATTRIBUTE_CALENDAR;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResult; // @synthesize hasResult=_hasResult;
-@property(nonatomic) _Bool hasResultDomain; // @synthesize hasResultDomain=_hasResultDomain;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheEntry *result; // @synthesize result=_result;
-@property(copy, nonatomic) NSString *resultDomain; // @synthesize resultDomain=_resultDomain;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

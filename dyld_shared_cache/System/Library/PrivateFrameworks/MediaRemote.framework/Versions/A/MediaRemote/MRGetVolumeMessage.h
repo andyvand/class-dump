@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id)filterModeStringValue: /* Error: Ran out of types for this method. */;
+- (unsigned long long)RequestFrom:withMessage:) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

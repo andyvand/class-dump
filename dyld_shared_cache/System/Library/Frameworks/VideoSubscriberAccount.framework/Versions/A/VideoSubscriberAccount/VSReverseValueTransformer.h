@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (void);
+- (id)gressIndicator";
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (void);
 
 // Remaining properties

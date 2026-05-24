@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMICamera
 {
     _Bool _hasBattery;
-    NSUUID *_identifier;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_firmwareVersion;
-    NSString *_name;
 }
 
 + (_Bool);
-+ (id)ntNoise;
++ (id)measurementNoise;
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
@@ -35,19 +30,7 @@
 - (id)	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly) _Bool hasBattery; // @synthesize hasBattery=_hasBattery;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly) NSString *model; // @synthesize model=_model;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

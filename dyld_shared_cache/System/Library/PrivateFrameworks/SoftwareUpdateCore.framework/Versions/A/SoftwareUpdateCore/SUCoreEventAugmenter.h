@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SUCoreDescriptor, SUCorePolicy;
-@protocol OS_dispatch_queue;
+@class SUCorePolicy;
 
 @interface SUCoreEventAugmenter
 {
     SUCorePolicy *_policy;
-    SUCoreDescriptor *_primaryDescriptor;
-    SUCoreDescriptor *_alternateDescriptor;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
 + (void);
@@ -25,14 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreDescriptor *alternateDescriptor; // @synthesize alternateDescriptor=_alternateDescriptor;
 @property(retain, nonatomic) SUCorePolicy *policy; // @synthesize policy=_policy;
-@property(retain, nonatomic) SUCoreDescriptor *primaryDescriptor; // @synthesize primaryDescriptor=_primaryDescriptor;
 
 @end
 

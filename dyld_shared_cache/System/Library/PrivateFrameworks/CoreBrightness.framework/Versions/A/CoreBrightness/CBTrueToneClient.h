@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClientInternal, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class BrightnessSystemClientInternal;
 
 @interface CBTrueToneClient
 {
     BrightnessSystemClientInternal *_bsci;
-    CDUnknownBlockType _notificationBlock;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)F9;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)DSRangeMaxFactor;
+- (_Bool)CBDSRangeMaxFactor;
 
 @end
 

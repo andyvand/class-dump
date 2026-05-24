@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDCameraBulletinBoard, HMDFileManager, OS_dispatch_queue;
+@class NSString;
+@protocol HMDCameraBulletinBoard;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipUserNotificationCenter
 {
     NSString *_logIdentifier;
-    id <HMDCameraBulletinBoard> _bulletinBoard;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDFileManager> _fileManager;
 }
 
 + (id)ßÿ¶Ð
 ;
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (id);
@@ -36,16 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id <HMDCameraBulletinBoard> bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

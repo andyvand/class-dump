@@ -7,7 +7,6 @@
 @interface NewsArticles.OpenInSafariCommandHandler
 {
     id paidAccessChecker;
-    id urlHandler;
 }
 
 @end

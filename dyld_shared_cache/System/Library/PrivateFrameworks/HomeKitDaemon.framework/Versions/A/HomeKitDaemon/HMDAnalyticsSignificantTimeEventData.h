@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsSignificantTimeEventData
 {
     _Bool _offsetPresent;
-    NSString *_significantEvent;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool offsetPresent; // @synthesize offsetPresent=_offsetPresent;
 @property(copy, nonatomic) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
 
 @end

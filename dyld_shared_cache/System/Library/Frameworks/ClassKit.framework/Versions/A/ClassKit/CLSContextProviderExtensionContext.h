@@ -12,7 +12,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)InitInfo(ZinComputeProgramInitInfo *);
 
 @end
 

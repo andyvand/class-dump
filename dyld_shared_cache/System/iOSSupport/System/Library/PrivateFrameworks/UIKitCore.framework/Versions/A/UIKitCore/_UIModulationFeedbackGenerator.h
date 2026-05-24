@@ -17,10 +17,10 @@
 
 + (Class);
 - (void);
+- (void)_numberOfRepliesFor:(double)arg1 fallbackFilterCategory:(CDUnknownBlockType)arg2 fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
+- (id)};
 - (void);
-- (id);
-- (void);
-- (void)tion;
+- (void)isSupplementaryViewControllerVisibleAfterAnimation;
 - (id)rray",&,N,S_setInternalConstraints:,V_internalConstraints /* Error: Ran out of types for this method. */;
 - (void);
 - (void);

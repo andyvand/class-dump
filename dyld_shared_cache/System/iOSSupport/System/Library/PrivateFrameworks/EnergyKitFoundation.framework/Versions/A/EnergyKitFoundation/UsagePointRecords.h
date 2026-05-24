@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface UsagePointRecords
 {
@@ -13,15 +13,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *creationDate; // @dynamic creationDate;
 @property(nonatomic, copy) NSString *recordID; // @dynamic recordID;
-@property(nonatomic, copy) NSDate *sourceTime; // @dynamic sourceTime;
-@property(nonatomic, copy) NSString *subscriptionID; // @dynamic subscriptionID;
-@property(nonatomic, copy) NSData *tariffProfiles; // @dynamic tariffProfiles;
-@property(nonatomic, copy) NSData *tariffRiders; // @dynamic tariffRiders;
 @property(nonatomic, copy) NSString *usagePointID; // @dynamic usagePointID;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
-@property(nonatomic, copy) NSString *zoneName; // @dynamic zoneName;
 
 @end
 

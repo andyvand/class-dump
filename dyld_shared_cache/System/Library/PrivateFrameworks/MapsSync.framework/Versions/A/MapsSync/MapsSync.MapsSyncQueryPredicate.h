@@ -8,19 +8,19 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)B,N,V_shouldLimitMultiwayBandwidthWhenConstrained;
++ (id)Cleared=%d error=%@;
 + (Class);
 - (id);
 - (id);
-- (id);
-- (Class);
-- (id);
-- (id);
+- (id)terminateProcessServerDueToUnexpectedUse;
+- (Class)ared AirPlay Audio HAL plugin interface=%p;
 - (id);
 - (id);
 - (id);
+- (id)rencesStats];
 - (id);
+- (id)P;
 - (id);
 - (id);
 

@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
+@class NSData, NSString, NSURL;
 
 @protocol PHShare
-- (unsigned short)ources;
+- (short)@;
+- (unsigned long long);
+- (NSData *);
+- (NSURL *)_resolvedIPAddress;
+- (NSString *)B;
+- (short)_selector;
+- (unsigned short)mediaMetadataVirtualResources;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long assetCount;
-@property(readonly, nonatomic) NSData *ckShareData;
-@property(readonly, nonatomic) unsigned long long cloudItemCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, nonatomic) short publicPermission;
-@property(readonly, nonatomic) short publishState;
-@property(readonly, nonatomic) NSString *scopeIdentifier;
-@property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) unsigned short status;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) unsigned short trashedState;
-@property(readonly, nonatomic) unsigned long long videosCount;
 @end
 

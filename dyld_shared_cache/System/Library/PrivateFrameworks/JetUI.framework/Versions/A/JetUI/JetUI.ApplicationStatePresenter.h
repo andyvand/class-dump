@@ -7,12 +7,10 @@
 @interface JetUI.ApplicationStatePresenter
 {
     id isEnabled;
-    id delegate;
-    id onActiveDidChange;
 }
 
-- (void);
-- (void);
+- (void){;
+- (void)ity operation went away.  Returning early.;
 
 @end
 

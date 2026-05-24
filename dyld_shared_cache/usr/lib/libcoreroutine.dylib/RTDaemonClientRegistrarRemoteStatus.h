@@ -6,28 +6,23 @@
 
 #import <coreroutine/RTDaemonClientRegistrar.h>
 
-@class NSObject, RTIntermittentGNSSManager, RTInvocationDispatcher;
-@protocol OS_dispatch_queue, RTDaemonClientRegistrarRemoteStatusProtocol;
+@class RTIntermittentGNSSManager;
 
 @interface RTDaemonClientRegistrarRemoteStatus : RTDaemonClientRegistrar
 {
     _Bool _observingManager;
-    id <RTDaemonClientRegistrarRemoteStatusProtocol> _delegate;
-    RTIntermittentGNSSManager *_manager;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTInvocationDispatcher *_dispatcher;
 }
 
+- (void)!;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)sendMetricWithEvent:(id)arg1 success:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)forcedMnemonicForTesting;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)contactInfoUpdated: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)!ØDùQA,°1Â0@ù
 × ;
@@ -36,10 +31,7 @@
 - (_Bool)NC;
 
 // Remaining properties
-@property(nonatomic) __weak id <RTDaemonClientRegistrarRemoteStatusProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
 @property(retain, nonatomic) RTIntermittentGNSSManager *manager; // @synthesize manager=_manager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

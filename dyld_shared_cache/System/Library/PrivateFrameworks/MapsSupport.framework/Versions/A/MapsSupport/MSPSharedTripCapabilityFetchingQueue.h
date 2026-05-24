@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPCountedOrderedSet, NSMutableOrderedSet, NSObject, NSOrderedSet, NSString;
-@protocol MSPSharedTripCapabilityFetchingQueueDelegate, OS_dispatch_queue;
+@protocol MSPSharedTripCapabilityFetchingQueueDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripCapabilityFetchingQueue
 {
     struct os_unfair_lock_s *_lock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    MSPCountedOrderedSet *_requestedHandles;
-    NSMutableOrderedSet *_inflightHandles;
-    id <MSPSharedTripCapabilityFetchingQueueDelegate> _delegate;
-    NSString *_label;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)l;
+- (void)l;
 - (id);
 - (void);
 - (void);
@@ -31,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(nonatomic) __weak id <MSPSharedTripCapabilityFetchingQueueDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSOrderedSet *inflightHandles;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSOrderedSet *pendingHandles;
-@property(readonly, nonatomic) NSOrderedSet *requestedHandles;
 
 @end
 

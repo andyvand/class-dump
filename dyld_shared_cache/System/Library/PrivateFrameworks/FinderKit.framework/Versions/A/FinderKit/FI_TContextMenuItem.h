@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)rate html fragment for %{public}@, with error:(id)arg1 %{public}@;
 
 // Remaining properties
 @property(nonatomic) _Bool showMeAnyway; // @synthesize showMeAnyway=_showMeAnyway;

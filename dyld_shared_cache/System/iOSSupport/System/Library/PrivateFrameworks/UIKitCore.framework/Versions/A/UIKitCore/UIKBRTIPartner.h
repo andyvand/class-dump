@@ -4,42 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSString, NSUUID, RTIDocumentState, RTIDocumentTraits, RTIInputSourceState, RTIInputSystemClient, TIKeyboardOutput, UIKeyboardTaskExecutionContext, UIKeyboardTaskSubqueue, UITextRange;
-@protocol UIKBRTIPartnerDelegate;
+@class NSUUID, RTIDocumentTraits;
 
 __attribute__((visibility("hidden")))
 @interface UIKBRTIPartner
 {
     RTIDocumentTraits *_remoteDocumentTraits;
-    NSNumber *_cachedHasPreviousKeyResponder;
-    NSNumber *_cachedHasNextKeyResponder;
-    struct __CFStringTokenizer *_wkRectTokenizer;
-    struct os_unfair_lock_s _lock;
-    UIKeyboardTaskExecutionContext *_waitingRTIOutputOperationResponseContext;
-    UIKeyboardTaskSubqueue *_keyboardTaskSubqueue;
-    NSDictionary *_pendingDisableBecomeFirstResponderParameters;
-    _Bool _dontTakeKeyboardSnapshot;
-    _Bool _applicationDeactivationReasonAssistant;
-    long long _id;
-    _Bool _inputSystemClientEnabled;
-    _Bool _isNotifyingDelegateOfRemoteOutputOperation;
-    _Bool _applicationStateIsActiveForRTI;
-    _Bool _viewServiceStateIsActiveForRTI;
-    _Bool _isObservingGeometry;
-    id <UIKBRTIPartnerDelegate> _partnerDelegate;
-    RTIInputSystemClient *_rtiClient;
-    RTIDocumentTraits *_rtiDocumentTraits;
-    RTIDocumentState *_rtiDocumentState;
-    UITextRange *_extentRangeForDocumentState;
-    RTIInputSourceState *_rtiInputSourceState;
-    TIKeyboardOutput *_pendingOutputOperation;
-    NSUUID *_currentSessionIdentifier;
-    NSMutableDictionary *_rtiSessionMarkers;
-    NSMutableDictionary *_supplementalLexicons;
-    NSMutableDictionary *_textSuggestions;
-    NSMutableArray *_queuedSupplementalLexiconOperations;
-    NSUUID *_authenticatingSessionIdentifier;
-    CDUnknownBlockType _textOperationsFilter;
 }
 
 + (void)0@ù
@@ -49,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ework/Versions/A/AudioToolbox;
 - (void);
 - (void);
 - (void);
@@ -57,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)CEMDeviceListRestrictionsCommand_Status;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -78,11 +48,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (_Bool)sableAutomaticCanBeNowPlaying;
+- (id)initWithMediaRemoteContentItem: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)identifiers. Pushing new identifiers.;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -102,8 +72,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)/A/MediaExperience;
 - (void)Y°1Â0@ù
 × ;
 - (void)!@Fù±YÐ1Â0@ù
@@ -153,33 +123,33 @@ __attribute__((visibility("hidden")))
 - (id)};
 - (void)16;
 - (void)t21_UILiquidLensViewSpec";
-- (_Bool)pView;
-- (id)ield:editMenuForCharactersInRanges:suggestedActions: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 withTeardownBlock: /* Error: Ran out of types for this method. */;
-- (void)View:(id)arg1;
-- (id)InlineInactiveWidth;
-- (void)rFrontCharacterPalette:(id)arg1;
-- (void)tionInWindow;
+- (_Bool)topStripView;
+- (id)textField:editMenuForCharactersInRanges:suggestedActions: /* Error: Ran out of types for this method. */;
+- (id)stopAndReportResultsForTest:(id)arg1 extraResults:waitForNotification:withTeardownBlock: /* Error: Ran out of types for this method. */;
+- (void)setKeyboardView:(id)arg1;
+- (id)overrideInlineInactiveWidth;
+- (void)orderFrontCharacterPalette:(id)arg1;
+- (void)locationInWindow;
 - (void);
-- (id)PresentNumberpadPopover;
-- (void)AutocorrectionList:(CDUnknownBlockType)arg1;
-- (_Bool)BridgedTabBarItem: /* Error: Ran out of types for this method. */;
-- (void)orLeftMargin:(id)arg1;
+- (id)canPresentNumberpadPopover;
+- (void)autocorrectionController:(CDUnknownBlockType)arg1 didUpdateAutocorrectionList:(_Bool)arg2;
+- (_Bool)_setBridgedTabBarItem: /* Error: Ran out of types for this method. */;
+- (void)_setBackIndicatorLeftMargin:(id)arg1;
 - (id)_scrollHysteresis;
-- (void)PrimaryWidth;
-- (id)ShowingFullScreenPlugIn;
-- (id)handlingAlertActionShouldDismiss;
-- (_Bool):(id)arg1 actions:sceneSession: /* Error: Ran out of types for this method. */;
+- (void)_lastUserInitiatedPrimaryWidth;
+- (id)_isShowingFullScreenPlugIn;
+- (id)_handlingAlertActionShouldDismiss;
+- (_Bool)_connectionOptionsForScene:(id)arg1 withSpecification:transitionContext:actions:sceneSession: /* Error: Ran out of types for this method. */;
 - (_Bool)__constraints;
-- (void)ageKey;
+- (void)__accessibilityUndimmedTintColorHighContrastVariantStorageKey;
 - (void)henBottomAttached:(id)arg1;
 - (void)inerSize,S_setFreezeTextContainerSize:(id)arg1;
 - (id)cusSystem;
 - (unsigned int),N,V_frames;
 - (id),C;
-- (void)igurationSupporting;
-- (void)butedStringIntentResolver;
-- (void)onDelegate;
+- (void)UITextPasteConfigurationSupporting;
+- (void)_UIAttributedStringIntentResolver;
+- (void)_UITextChoiceInteractionDelegate;
 - (id)|y}À}@ÐP¸Ôà8;
 - (_Bool)4;
 - (void)X8;
@@ -192,26 +162,26 @@ __attribute__((visibility("hidden")))
 - (_Bool)×þÿì)îÿ;
 - (void);
 - (void);
-- (_Bool)nusEnabled;
-- (void);
+- (_Bool)minusEnabled;
+- (void)renderMode;
 - (void)Input Aggregate Cache, alignment=%u (valid=%u), %s;
 - (void)tViewControllerAdaptiveImpl _setVisibleToggleButtonRequiresPresentsWithGesture:(id)arg1 ];
 - (void)l;
-- (id)TS;
-- (void)FireDate;
+- (id)DataTypeUMTS;
+- (void)_UILocalNotificationFireDate;
 - (void);
 - (void)ed;
 - (void)Object"16^B24;
 - (void)ent != nil;
-- (void)entsEDRStrength;
+- (void)contentsEDRStrength;
 - (void)t?;
 - (void)_UISearchBarVisualProviderBase *__strong);
 - (id);
 - (_Bool);
 - (void)Å@0Úr.;
-- (void)essage;
+- (void)DidReceiveMemoryWarningMessage;
 - (id);
-- (void)lorSpaceRef;
+- (void)NCGColorSpaceRef;
 - (_Bool)´ÿà;
 - (_Bool)£];
 - (void)TwKÿ'¶ÏL¹];
@@ -232,33 +202,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ±%Õ^n;
 
 // Remaining properties
-@property(nonatomic) _Bool applicationStateIsActiveForRTI; // @synthesize applicationStateIsActiveForRTI=_applicationStateIsActiveForRTI;
-@property(copy, nonatomic) NSUUID *authenticatingSessionIdentifier; // @synthesize authenticatingSessionIdentifier=_authenticatingSessionIdentifier;
 @property(copy, nonatomic) NSUUID *currentSessionIdentifier; // @synthesize currentSessionIdentifier=_currentSessionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITextRange *extentRangeForDocumentState; // @synthesize extentRangeForDocumentState=_extentRangeForDocumentState;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inputSystemClientEnabled; // @synthesize inputSystemClientEnabled=_inputSystemClientEnabled;
-@property(readonly, nonatomic) _Bool isNotifyingDelegateOfRemoteOutputOperation; // @synthesize isNotifyingDelegateOfRemoteOutputOperation=_isNotifyingDelegateOfRemoteOutputOperation;
-@property(nonatomic) _Bool isObservingGeometry; // @synthesize isObservingGeometry=_isObservingGeometry;
-@property(retain, nonatomic) UIKeyboardTaskSubqueue *keyboardTaskSubqueue;
-@property(nonatomic) __weak id <UIKBRTIPartnerDelegate> partnerDelegate; // @synthesize partnerDelegate=_partnerDelegate;
-@property(retain, nonatomic) TIKeyboardOutput *pendingOutputOperation; // @synthesize pendingOutputOperation=_pendingOutputOperation;
-@property(retain, nonatomic) NSMutableArray *queuedSupplementalLexiconOperations; // @synthesize queuedSupplementalLexiconOperations=_queuedSupplementalLexiconOperations;
-@property(retain, nonatomic) RTIInputSystemClient *rtiClient; // @synthesize rtiClient=_rtiClient;
-@property(retain, nonatomic) RTIDocumentState *rtiDocumentState; // @synthesize rtiDocumentState=_rtiDocumentState;
-@property(retain, nonatomic) RTIDocumentTraits *rtiDocumentTraits; // @synthesize rtiDocumentTraits=_rtiDocumentTraits;
-@property(readonly, nonatomic) RTIInputSourceState *rtiInputSourceState; // @synthesize rtiInputSourceState=_rtiInputSourceState;
-@property(retain, nonatomic) NSMutableDictionary *rtiSessionMarkers; // @synthesize rtiSessionMarkers=_rtiSessionMarkers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *supplementalLexicons; // @synthesize supplementalLexicons=_supplementalLexicons;
-@property(copy, nonatomic) CDUnknownBlockType textOperationsFilter; // @synthesize textOperationsFilter=_textOperationsFilter;
-@property(retain, nonatomic) NSMutableDictionary *textSuggestions; // @synthesize textSuggestions=_textSuggestions;
-@property(nonatomic) _Bool viewServiceStateIsActiveForRTI; // @synthesize viewServiceStateIsActiveForRTI=_viewServiceStateIsActiveForRTI;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol SidebarStateRestorationContext
 
 // Remaining properties
 @property(copy, nonatomic) NSString *lastDisplayedSidebarBookmarkListUUID;
-@property(copy, nonatomic) NSArray *navigationStack;
 @end
 

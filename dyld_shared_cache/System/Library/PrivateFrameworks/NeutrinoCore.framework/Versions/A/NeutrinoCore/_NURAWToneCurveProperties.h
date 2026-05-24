@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIFilter, NSData, NSNumber;
+@class NSData;
 
 @interface _NURAWToneCurveProperties
 {
     NSData *_boostCurveData;
-    NSData *_localAverageCurveData;
-    NSData *_aggregateCurveData;
-    NSNumber *_gainMapExposure;
-    CIFilter *_rawTRCFilter;
-    CIFilter *_rawGainTableMapFilter;
 }
 
 - (id);
@@ -32,7 +27,6 @@
 
 // Remaining properties
 @property(readonly) float baselineExposure;
-@property(readonly) NSData *boostCurveData;
 
 @end
 

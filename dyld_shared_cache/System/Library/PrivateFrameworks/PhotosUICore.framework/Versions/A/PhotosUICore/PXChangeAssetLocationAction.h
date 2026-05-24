@@ -11,14 +11,11 @@
 @interface PXChangeAssetLocationAction : PXAssetLocationAction
 {
     CLLocation *_preciseLocation;
-    _Bool _shifted;
-    PXAnnotatedLocation *_annotatedLocation;
-    long long _sourceType;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXAnnotatedLocation *annotatedLocation; // @synthesize annotatedLocation=_annotatedLocation;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

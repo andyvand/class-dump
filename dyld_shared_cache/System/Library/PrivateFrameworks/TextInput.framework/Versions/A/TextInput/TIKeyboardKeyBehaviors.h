@@ -7,8 +7,6 @@
 @interface TIKeyboardKeyBehaviors
 {
     unsigned long long _spaceKeyBehavior;
-    unsigned long long _returnKeyBehavior;
-    unsigned long long _tabKeyBehavior;
 }
 
 + (id);
@@ -22,9 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long returnKeyBehavior; // @synthesize returnKeyBehavior=_returnKeyBehavior;
 @property(nonatomic) unsigned long long spaceKeyBehavior; // @synthesize spaceKeyBehavior=_spaceKeyBehavior;
-@property(nonatomic) unsigned long long tabKeyBehavior; // @synthesize tabKeyBehavior=_tabKeyBehavior;
 
 @end
 

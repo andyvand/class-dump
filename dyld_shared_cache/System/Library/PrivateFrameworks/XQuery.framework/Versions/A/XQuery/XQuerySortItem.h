@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface XQuerySortItem
 {
     id _value;
-    long long _position;
-    NSArray *_sortInfo;
 }
 
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)Vu;
+- (long long)nge:%@, alias name:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

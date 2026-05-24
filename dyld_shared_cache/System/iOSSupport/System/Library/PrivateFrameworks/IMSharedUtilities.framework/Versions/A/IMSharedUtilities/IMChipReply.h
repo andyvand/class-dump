@@ -18,11 +18,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)25CTDataConnectionAgentDataC;
+- (id)So25CTDataConnectionAgentDataC;
 - (void)ol}d;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMChipSuggestion *suggestion; // @synthesize suggestion;
 
 @end

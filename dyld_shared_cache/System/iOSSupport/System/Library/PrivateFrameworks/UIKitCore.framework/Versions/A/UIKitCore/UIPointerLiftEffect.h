@@ -12,7 +12,7 @@
 
 - (unsigned long long)1Â0@ù
 × ;
-- (id)w;
+- (id)viewToMaskWhenContentExtendsOverArrow;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, WBSOnDeviceSearchSuggestionsModel;
-@protocol OS_dispatch_queue, WBSOnDeviceSearchSuggestionsProviderDelegate;
+@class WBSOnDeviceSearchSuggestionsModel;
 
 @interface WBSOnDeviceSearchSuggestionsProvider
 {
     WBSOnDeviceSearchSuggestionsModel *_searchModel;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    struct os_unfair_lock_s _prefixLock;
-    NSString *_currentPrefix;
-    unsigned long long _maximumNumberOfSuggestions;
-    id <WBSOnDeviceSearchSuggestionsProviderDelegate> _delegate;
 }
 
 - (void);
@@ -25,12 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)feedback on named entities. Please use PPFeedback to create the feedback for named entities.;
 - (unsigned long long);
 - (void),l;
 
 // Remaining properties
-@property(nonatomic) __weak id <WBSOnDeviceSearchSuggestionsProviderDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) unsigned long long maximumNumberOfSuggestions; // @synthesize maximumNumberOfSuggestions=_maximumNumberOfSuggestions;
 
 @end

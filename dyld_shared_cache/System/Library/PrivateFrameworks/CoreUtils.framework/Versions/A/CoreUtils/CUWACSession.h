@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUWiFiDevice, EasyConfigDevice, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CUWACSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    struct LogCategory *_ucat;
-    int _saveOriginalWiFiState;
-    NSDictionary *_originalWiFiInfo;
-    int _joinSoftAPState;
-    double _joinSoftAPStartTime;
-    EasyConfigDevice *_easyConfigDevice;
-    int _easyConfigPreConfigState;
-    struct {
-        double startTime;
-        unsigned char userChangedFriendlyName;
-        unsigned char playPasswordSet;
-        unsigned char adminPasswordSet;
-        unsigned char destinationNetworkRecommendationUsed;
-        double secondsToGetLinkUpOnSWAP;
-        int wifiJoinSWAPError;
-        unsigned char hitJoiningTargetSWAPTimeout;
-        int rssiOfSWAP;
-        unsigned int snrOfSWAP;
-        unsigned int channelOfSWAP;
-    } _easyConfigPreConfigMetrics;
-    int _restoreOriginalWiFiState;
-    double _restoreStartTime;
-    int _easyConfigPostConfigState;
-    struct {
-        double secondsToGetLinkUpOnDestination;
-        int wifiJoinDestinationAPError;
-        unsigned char destinationNetworkPSKInKeychain;
-        unsigned char hitJoiningDestinationAPTimeout;
-        int rssiOfDestinationAP;
-        unsigned int snrOfDestinationAP;
-        unsigned int channelOfDestinationAP;
-    } _easyConfigPostConfigMetrics;
-    int _finishState;
-    NSDictionary *_configuration;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _promptForSetupCodeHandler;
-    CUWiFiDevice *_wacDevice;
 }
 
 - (id);
@@ -83,18 +42,13 @@
 - (void);
 - (void);
 - (void);
-- (void)eToLocation:fromLocation: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ocalPairingErrorDomain;
+- (void)locationManager:didUpdateToLocation:fromLocation: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)IDSLocalPairingErrorDomain;
 - (void)UG:(CDUnknownBlockType)arg1 unknown option type %d
 ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForSetupCodeHandler; // @synthesize promptForSetupCodeHandler=_promptForSetupCodeHandler;
-@property(retain, nonatomic) CUWiFiDevice *wacDevice; // @synthesize wacDevice=_wacDevice;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCArticleTagsExpiration
 {
     NSString *_tagID;
-    NSDate *_expireTime;
 }
 
 + (id);
+- (id)Ś�Ò�p;
 - (id);
 - (id);
-- (id);
-- (void)_date;
+- (void)entitlements_not_found_error_date;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expireTime; // @synthesize expireTime=_expireTime;
 @property(readonly, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
 
 @end

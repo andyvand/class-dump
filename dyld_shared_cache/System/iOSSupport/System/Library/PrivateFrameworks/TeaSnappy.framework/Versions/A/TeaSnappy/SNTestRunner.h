@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SNTestStore, UIApplication;
-@protocol SNTestCoordinating;
+@class UIApplication;
 
 @interface SNTestRunner
 {
     UIApplication *_application;
-    id <SNTestCoordinating> _testCoordinator;
-    SNTestStore *_testStore;
 }
 
 - (id);
@@ -26,15 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SNTestCoordinating> testCoordinator; // @synthesize testCoordinator=_testCoordinator;
-@property(readonly, nonatomic) SNTestStore *testStore; // @synthesize testStore=_testStore;
 
 @end
 

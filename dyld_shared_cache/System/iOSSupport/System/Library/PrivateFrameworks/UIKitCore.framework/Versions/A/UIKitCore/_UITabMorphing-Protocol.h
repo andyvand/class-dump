@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIViewSpringAnimationBehavior, UIVisualEffectView, _UIShadowProperties;
+@class NSString, UIVisualEffectView;
 
 @protocol _UITabMorphing
+- (struct CACornerRadii).framework/Versions/A/InstantMessage;
+- (void);
 - (UIVisualEffectView *)scene=%p;
-- (UIView *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIVisualEffectView *backgroundView;
 @property(readonly, copy, nonatomic) NSString *componentKey;
-@property(readonly, nonatomic) struct CACornerRadii contentCornerRadii;
-@property(readonly, nonatomic) UIView *contentView;
-@property(readonly, nonatomic) _Bool isInTransitionAnimation;
-@property(readonly, nonatomic) UIViewSpringAnimationBehavior *morphTargetSpringBehavior;
-@property(readonly, nonatomic) _UIShadowProperties *shadowProperties;
-@property(readonly, nonatomic) struct CGPoint sidebarButtonOrigin;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDecimalNumber, NSString;
+@class CNContact;
 
 @interface PKAccountBeneficiary
 {
     CNContact *_contact;
-    unsigned long long _relationshipType;
-    NSDecimalNumber *_allocation;
-    NSString *_identifier;
 }
 
 + (_Bool)0@ù
@@ -20,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)9IA;
 - (id);
 - (void);
 - (void);
@@ -28,14 +25,11 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)ken;
+- (id)_changeToken;
 - (void)ÿX NSg;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *allocation; // @synthesize allocation=_allocation;
 @property(copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long relationshipType; // @synthesize relationshipType=_relationshipType;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface TeaUI.PluginModel
 {
     id identifier;
-    id revision;
-    id contentSizeCategory;
-    id legibilityWeight;
-    id safeAreaInsets;
-    id size;
-    id shadowViewController;
 }
 
 @end

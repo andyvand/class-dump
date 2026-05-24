@@ -6,26 +6,17 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSMutableArray, NSString, NSThemeFrame, NSTrackingArea;
+@class NSArray;
 
 @interface NSTitlebarView : NSView
 {
     _Bool _transparent;
-    NSTrackingArea *_buttonGroupTrackingArea;
-    NSThemeFrame *_associatedThemeFrame;
-    NSMutableArray *_sectionBackgroundViews;
-    NSMutableArray *_sectionBackgroundViewGroupNames;
-    NSView *_captureBackdropHostingView;
-    _Bool _hasSidebar;
-    _Bool _hasTrailingSidebar;
-    long long _blendingMode;
-    NSString *_titleGroupName;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)n-location;
+- (void)value for kIOMediaSizeKey!;
+- (id)inLiSl5OQHJ1stAIvKH8wg;
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -37,59 +28,46 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (long long)it for %s;
+- (id)?;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)initWithBytes:length:encoding: /* Error: Ran out of types for this method. */;
+- (void)_timeoutIntervalForResource_ivar;
+- (id)upportedProtocolVersion;
+- (_Bool);
+- (_Bool);
+- (void)pen the file %s.  Errno:%{errno}d /* Error: Ran out of types for this method. */;
+- (id)alid content type!;
+- (void)TE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID);;
+- (id)data>"8@"NSObject<OS_nw_content_context>"16;
+- (void)explicitFlags;
+- (void)ECT * from alt_services WHERE host = ? AND partition = ? AND port = ? AND expires_time > strftime('%s','now');
+- (unsigned long long)new_cookie_storage;
 - (long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
-- (void);
-- (void);
+- (void)HANDSHAKE_FAILURE_ON_CLIENT_HELLO;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)DragInBounds:(struct CGRect)arg1;
-- (void)denciesOn_hidesTitlebarElements;
-- (void)t;
+- (id)setDragInBounds:(struct CGRect)arg1;
+- (void)automaticallyTracksDependenciesOn_hidesTitlebarElements;
+- (void)NSFolderSmart;
 - (void)com.apple.AppKit;
 - (void);
 - (void)ÔöC;
 
 // Remaining properties
 @property(readonly, copy) NSArray *_scrollPocketElements;
-@property __weak NSThemeFrame *associatedThemeFrame; // @synthesize associatedThemeFrame=_associatedThemeFrame;
-@property(nonatomic) long long blendingMode; // @synthesize blendingMode=_blendingMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSidebar; // @synthesize hasSidebar=_hasSidebar;
-@property(nonatomic) _Bool hasTrailingSidebar; // @synthesize hasTrailingSidebar=_hasTrailingSidebar;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleGroupName; // @synthesize titleGroupName=_titleGroupName;
-@property(getter=isTransparent) _Bool transparent;
 
 @end
 

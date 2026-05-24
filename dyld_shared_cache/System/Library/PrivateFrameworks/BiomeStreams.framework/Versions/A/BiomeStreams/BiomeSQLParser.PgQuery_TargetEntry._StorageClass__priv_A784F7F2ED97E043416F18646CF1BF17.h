@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_TargetEntry._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _expr;
-    id _resno;
-    id _resname;
-    id _ressortgroupref;
-    id _resorigtbl;
-    id _resorigcol;
-    id _resjunk;
 }
 
 @end

@@ -10,13 +10,10 @@
 {
 }
 
-+ (id);
++ (id)(|S	;
 
 // Remaining properties
 @property(nonatomic) long long currentSize; // @dynamic currentSize;
-@property(nonatomic) long long limit; // @dynamic limit;
-@property(nonatomic) _Bool needsPruning; // @dynamic needsPruning;
-@property(nonatomic) long long timeSinceLastPruning; // @dynamic timeSinceLastPruning;
 
 @end
 

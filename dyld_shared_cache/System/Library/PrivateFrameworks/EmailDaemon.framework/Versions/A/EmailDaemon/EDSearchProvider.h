@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EDLocalSearchProvider, EDRemoteSearchProvider;
 
 @interface EDSearchProvider
 {
     id <EDRemoteSearchProvider> _remoteSearchProvider;
-    id <EDLocalSearchProvider> _localSearchProvider;
 }
 
 - (id);
@@ -19,15 +17,7 @@
 - (void)d,   :newest_read_message,   :newest_message,   :display_message,   :date,   :display_date,   :read_later_date,   :read,   :flagged,   :has_Red_flag,   :has_Orange_flag,   :has_Yellow_flag,   :has_Green_flag,   :has_Blue_flag,   :has_Purple_flag,   :has_Gray_flag,   :draft,   :replied,   :forwarded,   :redirected,   :junk_level_set_by_user,   :junk_level,   :has_unflagged,   :has_attachments,   :count,   :journaled,   :is_icloud_cleanup ); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <EDLocalSearchProvider> localSearchProvider; // @synthesize localSearchProvider=_localSearchProvider;
-@property(readonly) id <EDRemoteSearchProvider> remoteSearchProvider; // @synthesize remoteSearchProvider=_remoteSearchProvider;
-@property(readonly) Class superclass;
 
 @end
 

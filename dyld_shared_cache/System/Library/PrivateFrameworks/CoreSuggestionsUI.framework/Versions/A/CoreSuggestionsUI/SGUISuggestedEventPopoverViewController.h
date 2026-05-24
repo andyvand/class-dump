@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIDayViewGadgetController, EKEventViewController, NSLayoutConstraint, NSStackView, NSString, NSView, SGRealtimeEvent, SGUISuggestedEventDayViewAppearanceDelegate;
-@protocol SuggestedEventPopoverControllerDelegate;
+@class EKEventViewController;
 
 @interface SGUISuggestedEventPopoverViewController
 {
     _Bool _showingDetails;
-    _Bool _isNewEvent;
-    EKEventViewController *_eventViewController;
-    CalUIDayViewGadgetController *_dayViewGadgedController;
-    EKEventViewController *_detailedViewController;
-    id <SuggestedEventPopoverControllerDelegate> _delegate;
-    SGUISuggestedEventDayViewAppearanceDelegate *_dayViewAppearanceDelegate;
-    NSStackView *_summaryStackView;
-    NSView *_divider;
-    NSView *_detailsContainer;
-    NSView *_detailsDivider;
-    NSLayoutConstraint *_stackWidthInitialConstraint;
-    NSView *_eventClipView;
-    NSStackView *_detailsStackView;
-    NSView *_summaryNavigationView;
-    NSView *_detailNavigationView;
-    NSLayoutConstraint *_detailsWidthConstraint;
-    NSLayoutConstraint *_eventHeaderHeightConstraint;
-    NSLayoutConstraint *_stackWidthFixedConstraint;
-    NSString *_ignoreTitle;
 }
 
 + (id);
@@ -43,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,69 +39,41 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)T ;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)TF:(id)arg1:ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)hes/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/WebProcess/WebProcess.cpp;
+- (void)System/iOSSupport/usr/local/include/wtf/WeakRef.h;
+- (void)m/Developer/SDKs/MacOSX26.5.Internal.sdk/System/iOSSupport/usr/local/include/wtf/WeakRef.h;
+- (id)Operation, Source = WebCore::TransformOperation, PtrTraits = WTF::RawPtrTraits<WebCore::TransformOperation>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::TransformOperation>] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)_displayNameWithAbbreviation;
+- (void)?;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SGUISuggestedEventDayViewAppearanceDelegate *dayViewAppearanceDelegate; // @synthesize dayViewAppearanceDelegate=_dayViewAppearanceDelegate;
-@property(readonly, nonatomic) CalUIDayViewGadgetController *dayViewGadgedController; // @synthesize dayViewGadgedController=_dayViewGadgedController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SuggestedEventPopoverControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSView *detailNavigationView; // @synthesize detailNavigationView=_detailNavigationView;
-@property(readonly, nonatomic) EKEventViewController *detailedViewController; // @synthesize detailedViewController=_detailedViewController;
-@property(retain, nonatomic) NSView *detailsContainer; // @synthesize detailsContainer=_detailsContainer;
-@property(nonatomic) __weak NSView *detailsDivider; // @synthesize detailsDivider=_detailsDivider;
-@property(nonatomic) __weak NSStackView *detailsStackView; // @synthesize detailsStackView=_detailsStackView;
-@property(readonly, nonatomic) NSLayoutConstraint *detailsWidthConstraint; // @synthesize detailsWidthConstraint=_detailsWidthConstraint;
-@property(nonatomic) __weak NSView *divider; // @synthesize divider=_divider;
-@property(nonatomic) __weak NSView *eventClipView; // @synthesize eventClipView=_eventClipView;
-@property(readonly, nonatomic) NSLayoutConstraint *eventHeaderHeightConstraint; // @synthesize eventHeaderHeightConstraint=_eventHeaderHeightConstraint;
 @property(readonly, nonatomic) EKEventViewController *eventViewController; // @synthesize eventViewController=_eventViewController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *ignoreTitle; // @synthesize ignoreTitle=_ignoreTitle;
-@property(readonly, nonatomic) _Bool isActionable;
-@property(nonatomic) _Bool isNewEvent; // @synthesize isNewEvent=_isNewEvent;
-@property(retain) SGRealtimeEvent *representedObject;
-@property(nonatomic) _Bool showingDetails; // @synthesize showingDetails=_showingDetails;
-@property(retain, nonatomic) NSLayoutConstraint *stackWidthFixedConstraint; // @synthesize stackWidthFixedConstraint=_stackWidthFixedConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *stackWidthInitialConstraint; // @synthesize stackWidthInitialConstraint=_stackWidthInitialConstraint;
-@property(nonatomic) __weak NSView *summaryNavigationView; // @synthesize summaryNavigationView=_summaryNavigationView;
-@property(nonatomic) __weak NSStackView *summaryStackView; // @synthesize summaryStackView=_summaryStackView;
-@property(readonly) Class superclass;
 
 @end
 

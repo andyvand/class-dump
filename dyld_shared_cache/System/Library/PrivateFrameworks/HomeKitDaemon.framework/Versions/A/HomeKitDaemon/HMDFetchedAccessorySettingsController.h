@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDFetchedAccessorySettingsControllerMutableKeyPathMap, NSMutableDictionary, NSMutableSet, NSNotificationCenter, NSObject, NSString;
-@protocol HMDFetchedAccessorySettingsControllerDataSource, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchedAccessorySettingsController
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_keyPathToSettingCache;
-    NSObject<OS_os_log> *_logger;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDFetchedAccessorySettingsControllerDataSource> _dataSource;
-    HMDFetchedAccessorySettingsControllerMutableKeyPathMap *_driverMap;
-    NSMutableSet *_pendingFetchKeyPaths;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id)GÎÿDQ;
 - (void);
+- (void)clearTrafficColors;
+- (id)ilable:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)redTexture;
 - (void);
 - (id)rkRouterIPAddress",&,N,V_hostIPStart;
-- (void)Kit_homeIdentifier;
+- (void)HomeKit_homeIdentifier;
 - (id)øÿNúC@;
 
 // Remaining properties
-@property(readonly) id <HMDFetchedAccessorySettingsControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDFetchedAccessorySettingsControllerMutableKeyPathMap *driverMap; // @synthesize driverMap=_driverMap;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) NSMutableSet *pendingFetchKeyPaths; // @synthesize pendingFetchKeyPaths=_pendingFetchKeyPaths;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

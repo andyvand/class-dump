@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, INPerson, NSString;
+@class INPerson, NSString;
 
 @protocol INSendPaymentIntentExport
+- (void)ntrollerDidStopBeingCurrentNotification:(NSString *)arg1 %@;
 
 // Remaining properties
-@property(copy) INCurrencyAmount *currencyAmount;
-@property(copy) NSString *note;
 @property(copy) INPerson *payee;
 @end
 

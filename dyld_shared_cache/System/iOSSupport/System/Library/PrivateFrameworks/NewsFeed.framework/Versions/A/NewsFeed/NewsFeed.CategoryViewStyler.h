@@ -7,7 +7,6 @@
 @interface NewsFeed.CategoryViewStyler
 {
     id defaultTitleFontSize;
-    id colorPaletteProvider;
 }
 
 @end

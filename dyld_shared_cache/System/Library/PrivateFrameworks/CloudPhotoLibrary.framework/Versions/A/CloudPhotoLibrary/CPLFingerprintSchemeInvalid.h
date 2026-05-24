@@ -14,15 +14,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)V_score;
+- (_Bool);
+- (id)S/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/Resources/WebsiteNamesForPasswordManager.sqlite;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)URL",C,N,V_URL;
+- (_Bool)?;
 - (id);
 
 @end

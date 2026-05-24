@@ -9,9 +9,6 @@
 @interface PXSnapStripViewIndicatorInfo
 {
     _Bool _disabled;
-    NSColor *_color;
-    double _offset;
-    unsigned long long _style;
 }
 
 - (_Bool);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly, nonatomic) double offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

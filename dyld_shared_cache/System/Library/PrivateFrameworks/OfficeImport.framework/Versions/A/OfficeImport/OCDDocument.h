@@ -4,57 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, OADBlipCollection, OADGraphicStyleCache, OADTableStyleCollection, OADTextListStyle, OADTheme, OCDReader, OCDSummary, OCDWriter, OITSUPointerKeyDictionary;
+@class OCDReader, OCDWriter;
 
 __attribute__((visibility("hidden")))
 @interface OCDDocument
 {
     OCDWriter *mWriter;
-    OCDSummary *mSummary;
-    OADBlipCollection *mBlips;
-    NSMutableArray *mCharts;
-    OADTableStyleCollection *mTableStyles;
-    OITSUPointerKeyDictionary *mDualDrawableMap;
-    OADTheme *mDocumentTheme;
-    OADTextListStyle *mDefaultTextStyle;
-    OADGraphicStyleCache *mGraphicStyleCache;
-    NSData *mEncryptionInfo;
-    OCDReader *mReader;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)Tk;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
+- (id)Event:suggestion: /* Error: Ran out of types for this method. */;
+- (id)alMetrics;
 - (id);
 - (void);
-- (id)rted;
+- (id);
+- (void);
+- (id)kCMTopExceptionDocumentIsUnsupported;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) OADBlipCollection *blips; // @synthesize blips=mBlips;
-@property(readonly, nonatomic) NSMutableArray *charts; // @synthesize charts=mCharts;
-@property(readonly, nonatomic) OADTextListStyle *defaultTextStyle; // @synthesize defaultTextStyle=mDefaultTextStyle;
-@property(readonly, nonatomic) OITSUPointerKeyDictionary *dualDrawableMap; // @synthesize dualDrawableMap=mDualDrawableMap;
-@property(retain, nonatomic) OADGraphicStyleCache *graphicStyleCache; // @synthesize graphicStyleCache=mGraphicStyleCache;
 @property(retain, nonatomic) OCDReader *reader; // @synthesize reader=mReader;
-@property(readonly, nonatomic) OCDSummary *summary; // @synthesize summary=mSummary;
-@property(readonly, nonatomic) OADTableStyleCollection *tableStyles; // @synthesize tableStyles=mTableStyles;
-@property(retain, nonatomic) OCDWriter *writer; // @synthesize writer=mWriter;
 
 @end
 

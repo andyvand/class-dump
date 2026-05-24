@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSPasswordBreachConfiguration, WBSPasswordBreachCryptographicOperations, WBSPasswordBreachStore;
+@class WBSPasswordBreachConfiguration;
 
 @interface WBSPasswordBreachContext
 {
     WBSPasswordBreachConfiguration *_configuration;
-    WBSPasswordBreachCryptographicOperations *_cryptographicOperations;
-    WBSPasswordBreachStore *_store;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)tUsesOrthographicProjection:] /* Error: Ran out of types for this method. */;
+- (id)c;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPasswordBreachConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) WBSPasswordBreachCryptographicOperations *cryptographicOperations; // @synthesize cryptographicOperations=_cryptographicOperations;
-@property(readonly, nonatomic) WBSPasswordBreachStore *store; // @synthesize store=_store;
 
 @end
 

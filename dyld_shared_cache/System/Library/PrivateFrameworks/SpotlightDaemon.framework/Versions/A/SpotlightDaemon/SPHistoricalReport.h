@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
-
 @interface SPHistoricalReport
 {
     unsigned int _type;
-    NSDate *_timestamp;
-    NSDictionary *_report;
 }
 
 - (void);
@@ -18,14 +14,12 @@
 - (unsigned int);
 - (void);
 - (void);
+- (id)%|;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)u;
 
 // Remaining properties
-@property(retain) NSDictionary *report; // @synthesize report=_report;
-@property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property unsigned int type; // @synthesize type=_type;
 
 @end

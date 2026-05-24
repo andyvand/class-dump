@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CPLSyncSessionThroughputMetrics
 {
     NSString *_metricsIdentifier;
-    NSDate *_startTime;
-    unsigned long long _totalCount;
 }
 
 - (id);
 - (id);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id)gs;
-- (void)store;
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *metricsIdentifier; // @synthesize metricsIdentifier=_metricsIdentifier;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) unsigned long long totalCount; // @synthesize totalCount=_totalCount;
 
 @end
 

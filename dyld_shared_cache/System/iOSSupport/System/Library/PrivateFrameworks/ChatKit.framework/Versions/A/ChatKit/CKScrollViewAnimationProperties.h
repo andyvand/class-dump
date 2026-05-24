@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation, UIViewPropertyAnimator;
-
 @interface CKScrollViewAnimationProperties
 {
     long long _animationType;
-    double _duration;
-    long long _animationCurve;
-    double _springMass;
-    double _springStiffness;
-    double _springDamping;
 }
 
 + (id);
 + (id);
++ (id)7;
++ (id)0@?0Q8Q16Q24^B32;
 + (id);
-+ (id);
-+ (id);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)matchesForToken:inDocument:checkPrefixBeforeFallingBack: /* Error: Ran out of types for this method. */;
+- (double)markerTextAttachment;
+- (void)ic_animateWithDuration:(double)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)ic_animateWithDuration:(double)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)ic_animateWithDuration:(double)arg1 animations: /* Error: Ran out of types for this method. */;
+- (void)@"NSString",R,N,V_searchString;
 - (_Bool);
 - (id);
 - (id);
@@ -35,21 +28,14 @@
 - (id);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (long long)_sendButtonCircle;
-- (long long)TION_PODCAST_HEADER;
+- (long long)WHATS_NEW_SYNDICATION_PODCAST_HEADER;
 
 // Remaining properties
-@property(nonatomic) long long animationCurve; // @synthesize animationCurve=_animationCurve;
-@property(readonly, nonatomic) long long animationType; // @synthesize animationType=_animationType;
-@property(readonly, nonatomic) CABasicAnimation *caBasicAnimation;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) UIViewPropertyAnimator *propertyAnimator;
-@property(nonatomic) double springDamping; // @synthesize springDamping=_springDamping;
-@property(nonatomic) double springMass; // @synthesize springMass=_springMass;
-@property(nonatomic) double springStiffness; // @synthesize springStiffness=_springStiffness;
 
 @end
 

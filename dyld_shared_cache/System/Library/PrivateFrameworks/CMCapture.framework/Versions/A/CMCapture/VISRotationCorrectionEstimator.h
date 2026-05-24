@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HighPassIIR2FilterFloat3;
-
 __attribute__((visibility("hidden")))
 @interface VISRotationCorrectionEstimator
 {
     float _timeScale;
-    _Bool _isInitialized;
-    double _prevTime;
-    CDStruct_da14d750 _prevRotation;
-    id _accumulatedCorrection;
-    HighPassIIR2FilterFloat3 *highPassFilter1;
-    HighPassIIR2FilterFloat3 *highPassFilter2;
-    id _estimatedCorrection;
 }
 
 - (void);

@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void)om.apple.MobileSMS.PluginPayload;
 

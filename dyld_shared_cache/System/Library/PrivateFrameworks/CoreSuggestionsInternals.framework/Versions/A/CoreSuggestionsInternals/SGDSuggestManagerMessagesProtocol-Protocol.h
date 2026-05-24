@@ -5,5 +5,7 @@
 //
 
 @protocol SGDSuggestManagerMessagesProtocol
+- (void);
+- (void)p\;
 @end
 

@@ -4,33 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache;
+@class NSCache;
 
 __attribute__((visibility("hidden")))
 @interface CKDateFormatterHelper
 {
     NSCache *_dateFormatterContainer;
-    NSArray *_lockList;
 }
 
 + (id);
 - (void);
 - (void);
+- (id)r;
+- (id)torage;
+- (id)ur notes, and you won’t need to remember a separate password for “%@” locked notes.;
+- (id)s=-
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)detailsViewController;
 - (void)ðgDÿðgDÿ;
 
 // Remaining properties
 @property(retain) NSCache *dateFormatterContainer; // @synthesize dateFormatterContainer=_dateFormatterContainer;
-@property(retain) NSArray *lockList; // @synthesize lockList=_lockList;
 
 @end
 

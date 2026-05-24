@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol AAOBBulletPointModelProtocol;
+
 @protocol AAOBBulletedWelcomeControllerModelProtocol
+- (void)DisableMailiCloudSetting;
+- (NSArray<AAOBBulletPointModelProtocol> *)sForFilteringPayload mdmType = %d;
 
 // Remaining properties
 @property(nonatomic) _Bool isWalrusEnabled;

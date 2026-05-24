@@ -6,46 +6,34 @@
 
 #import <UIKitCore/UIPageControlProgress.h>
 
-@class CADisplayLink, NSMutableDictionary;
-@protocol UIPageControlTimerProgressDelegate;
+@class NSMutableDictionary;
 
 @interface UIPageControlTimerProgress : UIPageControlProgress
 {
     double _previousTime;
-    double _currentDuration;
-    double _currentDurationProgress;
-    struct {
-        unsigned int progressDidChange:1;
-        unsigned int shouldAdvanceToPage:1;
-    } _delegateImplements;
-    _Bool _resetsToInitialPageAfterEnd;
-    _Bool _enableTimer;
-    double _preferredDuration;
-    NSMutableDictionary *_customDurationByPage;
-    CADisplayLink *_displayLink;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)T;
+- (id)d fetching %@ batches of messages during a full sync, setting fullPartialSyncFirstCompletedDate to %@;
+- (_Bool)d. Checking if current spam filter extension was deleted;
+- (double)@, %@;
+- (id)d;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)FetchValueOut failed %d;
+- (void)_payloadDiagnosticSubmission;
 - (void);
 - (void)ssOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
 - (double)rlay: /* Error: Ran out of types for this method. */;
@@ -56,12 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *customDurationByPage; // @synthesize customDurationByPage=_customDurationByPage;
-@property(nonatomic) __weak id <UIPageControlTimerProgressDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(nonatomic) _Bool enableTimer; // @synthesize enableTimer=_enableTimer;
-@property(nonatomic) double preferredDuration; // @synthesize preferredDuration=_preferredDuration;
-@property(nonatomic) _Bool resetsToInitialPageAfterEnd; // @synthesize resetsToInitialPageAfterEnd=_resetsToInitialPageAfterEnd;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 
 @end
 

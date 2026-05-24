@@ -7,37 +7,6 @@
 @interface SwiftUI.AppKitWindowController
 {
     id rootModifier;
-    id info;
-    id layout;
-    id toolbarBridge;
-    id inspectorBridge;
-    id barAppearanceBridge;
-    id printingBridge;
-    id windowPlacementBridge;
-    id hostingController;
-    id windowsController;
-    id managedWindow;
-    id sceneStorageValues;
-    id sceneBridge;
-    id scenePresentationBridge;
-    id windowBehaviorBridge;
-    id windowAppearanceBridge;
-    id windowAppearanceViewModel;
-    id colorSchemeSeed;
-    id dismissalDialogSeed;
-    id dismissalDialog;
-    id dockTileInvalidator;
-    id remoteSceneBridge;
-    id scenePhase;
-    id _visibilityState;
-    id onDismiss;
-    id defaultWindowIdentifier;
-    id toolbarNeedsUpdate;
-    id toolbarRunLoopObserverAdded;
-    id cascadeNumber;
-    id additionalSizingOptions;
-    id maximumFrameLength;
-    id _isWindowLoaded;
 }
 
 - (void);
@@ -49,15 +18,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)?k";
 - (_Bool);
-- (void);
+- (void)SFOneTimeCodeCredentialIdentity;
 - (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)nLinkPresentedView;
+- (void)AnyNavigationLinkPresentedView;
 - (void)øÑ¼þakZ7pp½þikZ7pp½þ;
 - (void);
 - (void);
@@ -65,7 +34,7 @@
 - (void)ê\7X~=ÿ%ê\70~=ÿEê\7L~=ÿÝé\7 ÿÍé\74ÿÕé\7Hÿõé\7T+<ÿ-ê\7x+<ÿ;
 - (void)akeList;
 - (unsigned long long)¢;
-- (void);
+- (void)CodingKeys;
 - (void)Ú_7ÈßïþÚ_7(vÅþÚ_7ÄõÁþÚ_7äßïþuÚ_7$àïþÚ_7TWÀþ;
 - (void);
 - (_Bool)

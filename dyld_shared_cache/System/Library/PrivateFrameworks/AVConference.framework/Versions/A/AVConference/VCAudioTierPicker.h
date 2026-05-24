@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BitrateLimits, NSDictionary, NSMutableDictionary, NSMutableSet, VCAudioTier;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioTierPicker
 {
     NSMutableDictionary *_tierTablesForRedNumPayloads;
-    VCAudioTier *_defaultTier;
-    VCAudioTier *_fallbackTier;
-    BitrateLimits *_bitrateLimits;
-    CDStruct_3bc25893 _config;
-    NSMutableDictionary *_tierTablePlist;
-    NSMutableSet *_audioPayloads;
-    NSDictionary *_plistFeatureFlagToEnablementMapping;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (int);
 + (_Bool);
 + (id);
@@ -41,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -65,13 +58,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDStruct_3bc25893)lections addRulesForU1ToCollection:] /* Error: Ran out of types for this method. */;
-- (id)ndOnePacketWithNWConnection;
+- (CDStruct_3d809c3d)lections addRulesForU1ToCollection:] /* Error: Ran out of types for this method. */;
+- (id)_VTP_SendOnePacketWithNWConnection;
 
 // Remaining properties
-@property(retain, nonatomic) BitrateLimits *bitrateLimits; // @synthesize bitrateLimits=_bitrateLimits;
-@property CDStruct_3bc25893 config; // @synthesize config=_config;
-@property(readonly) VCAudioTier *defaultTier; // @synthesize defaultTier=_defaultTier;
+@property CDStruct_3d809c3d config; // @synthesize config=_config;
 
 @end
 

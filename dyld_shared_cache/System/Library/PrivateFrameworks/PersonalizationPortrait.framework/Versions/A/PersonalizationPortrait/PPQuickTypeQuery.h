@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface PPQuickTypeQuery
 {
     unsigned char _type;
-    unsigned char _subtype;
-    unsigned char _semanticTag;
-    unsigned char _time;
-    unsigned char _options;
-    unsigned int _fields;
-    NSArray *_subFields;
-    NSString *_label;
-    NSArray *_people;
-    NSString *_localeIdentifier;
-    NSString *_bundleIdentifier;
-    NSArray *_recipients;
-    NSNumber *_timeoutSeconds;
 }
 
-+ (unsigned char);
++ (unsigned char)setBoundsOrigin:(id)arg1;
++ (id);
 + (id);
-+ (id);
++ (unsigned char)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}20;
 + (unsigned char);
-+ (unsigned char);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (unsigned int);
++ (unsigned int)hasPeriocularEnrollment;
 + (unsigned char);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned char);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (id)compositeOverShaderWithMode:(id)arg1 clipping:colorAttachmentIndex:renderMask:edgeMask:secondaryPaintEnabled:pipelineConfig: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (unsigned char);
+- (id);
+- (_Bool);
+- (void);
+- (unsigned long long)B;
 - (id);
 - (void);
 - (unsigned char);
@@ -55,38 +41,26 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)searchResultsCount;
+- (void)storeWithArchiveURL:(id)arg1 relativePaths: /* Error: Ran out of types for this method. */;
+- (id)e_s=QICC[2C]QQQ[16C][16C][0C]}[0C])}8{_NSRange=QQ}16;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)%@:(unsigned char)arg1 Got %s notification, disarming;
+- (void)updateState:(unsigned char)arg1 timed out;
 - (unsigned char);
 - (void);
 - (unsigned char);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)stringByAppendingString: /* Error: Ran out of types for this method. */;
+- (void)NumberOfInstances;
 - (void);
 - (id)ð!h@ùJ Ð1Â0@ù
 × ;
 - (void)0:(id)arg1 8C16C20C24I28C32@36@44@52@60@68@76;
-- (unsigned int)eHandler;
+- (unsigned int)_portraitChangeHandler;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) unsigned int fields; // @synthesize fields=_fields;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) unsigned char options; // @synthesize options=_options;
-@property(retain, nonatomic) NSArray *people; // @synthesize people=_people;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(nonatomic) unsigned char semanticTag; // @synthesize semanticTag=_semanticTag;
-@property(retain, nonatomic) NSArray *subFields; // @synthesize subFields=_subFields;
-@property(nonatomic) unsigned char subtype; // @synthesize subtype=_subtype;
-@property(nonatomic) unsigned char time; // @synthesize time=_time;
-@property(retain, nonatomic) NSNumber *timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
 @property(nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

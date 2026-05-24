@@ -5,5 +5,7 @@
 //
 
 @protocol ADAppTracking_XPC
+- (void);
+- (void)d,V_startLeftwardContentTransitionButtonEnabled;
 @end
 

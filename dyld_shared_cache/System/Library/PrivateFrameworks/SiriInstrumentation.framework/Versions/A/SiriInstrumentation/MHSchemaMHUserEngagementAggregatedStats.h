@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHUserEngagementAggregatedStats : SISchemaInstrumentationMessage
 {
     int _mitigationType;
-    int _requestCount;
-    int _intendedRequestCount;
-    int _unintendedRequestCount;
-    double _intendedRequestRatio;
-    double _triggeredMechanismRequestRatio;
-    NSString *_modelVersion;
-    struct {
-        unsigned int mitigationType:1;
-        unsigned int requestCount:1;
-        unsigned int intendedRequestCount:1;
-        unsigned int unintendedRequestCount:1;
-        unsigned int intendedRequestRatio:1;
-        unsigned int triggeredMechanismRequestRatio:1;
-    } _has;
-    _Bool _hasModelVersion;
 }
 
 - (int);
@@ -34,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)n;
 - (void);
 - (void);
 - (void);
@@ -59,8 +42,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void)ec_GFp_simple_set_compressed_coordinates;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -75,21 +58,7 @@
 - (int)«ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIntendedRequestCount;
-@property(nonatomic) _Bool hasIntendedRequestRatio;
-@property(nonatomic) _Bool hasMitigationType;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasRequestCount;
-@property(nonatomic) _Bool hasTriggeredMechanismRequestRatio;
-@property(nonatomic) _Bool hasUnintendedRequestCount;
-@property(nonatomic) int intendedRequestCount; // @synthesize intendedRequestCount=_intendedRequestCount;
-@property(nonatomic) double intendedRequestRatio; // @synthesize intendedRequestRatio=_intendedRequestRatio;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mitigationType; // @synthesize mitigationType=_mitigationType;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) int requestCount; // @synthesize requestCount=_requestCount;
-@property(nonatomic) double triggeredMechanismRequestRatio; // @synthesize triggeredMechanismRequestRatio=_triggeredMechanismRequestRatio;
-@property(nonatomic) int unintendedRequestCount; // @synthesize unintendedRequestCount=_unintendedRequestCount;
 
 @end
 

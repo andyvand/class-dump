@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddressObject, GEOComposedRoute, GEODirectionsError, NSArray, NSError;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MNRouteEditorConvertToNavigableRouteStepResult
 {
     NSArray *_waypoints;
-    GEOAddressObject *_address;
-    GEOComposedRoute *_finalizedRoute;
-    NSError *_stepError;
-    GEODirectionsError *_directionsError;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)AOSUIProfileViewUtility profileRemoteViewController_updateOverlayPrefPane:(id)arg1 prefPanesToHide:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Að!Eù1Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAddressObject *address; // @synthesize address=_address;
-@property(retain, nonatomic) GEODirectionsError *directionsError; // @synthesize directionsError=_directionsError;
-@property(retain, nonatomic) GEOComposedRoute *finalizedRoute; // @synthesize finalizedRoute=_finalizedRoute;
-@property(retain, nonatomic) NSError *stepError; // @synthesize stepError=_stepError;
 @property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end

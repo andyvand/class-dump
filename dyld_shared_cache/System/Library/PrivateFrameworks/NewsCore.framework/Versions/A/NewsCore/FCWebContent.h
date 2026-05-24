@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, NSString, NSURL;
+@class FCAssetHandle, NSString;
 
 @interface FCWebContent
 {
     FCAssetHandle *_excerptAssetHandle;
-    NSString *_articleID;
-    NSURL *_sourceURL;
 }
 
 - (void);
@@ -21,16 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id)nRecordSources;
-- (void)top_stories_at_top;
-- (id)urceId;
+- (id)_jsonRecordSources;
+- (void)keep_top_stories_at_top;
+- (id)recipeSearchFeedConfigurationResourceId;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
 @property(copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(readonly, nonatomic) NSURL *baseURL;
-@property(retain, nonatomic) FCAssetHandle *excerptAssetHandle; // @synthesize excerptAssetHandle=_excerptAssetHandle;
-@property(retain, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
 
 @end
 

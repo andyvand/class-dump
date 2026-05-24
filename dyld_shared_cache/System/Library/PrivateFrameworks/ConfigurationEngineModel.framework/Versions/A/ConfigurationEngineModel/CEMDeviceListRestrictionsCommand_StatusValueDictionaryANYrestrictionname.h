@@ -13,14 +13,14 @@
     NSNumber *_statusValue;
 }
 
-+ (id);
++ (id).framework/Versions/A/SymptomDiagnosticReporter;
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ty>premium|compact|Premium|Compact)$;
 - (void);
 - (id);
-- (id);
+- (id)ogMelSpectrogramProviderP;
 - (void);
 
 // Remaining properties

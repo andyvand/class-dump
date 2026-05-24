@@ -7,12 +7,6 @@
 @interface NewsFeed.PuzzleNotificationAutoEnableStartupTask
 {
     id executionPhase;
-    id notificationController;
-    id bundleSubscriptionManager;
-    id userInfo;
-    id featureAvailability;
-    id appConfigurationManager;
-    id puzzleHistoryService;
 }
 
 - (void);

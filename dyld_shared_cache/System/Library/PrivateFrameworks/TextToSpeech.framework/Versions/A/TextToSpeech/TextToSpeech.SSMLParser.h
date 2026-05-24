@@ -7,10 +7,6 @@
 @interface TextToSpeech.SSMLParser
 {
     id elementStack;
-    id currentUTF16Position;
-    id ssml;
-    id roots;
-    id preamble;
 }
 
 - (id);

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, SMSystem_Daemon, SMSystem_Daemon_Windows;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface SMWindowsAnalyzer
 {
     _Bool _finished;
-    _Bool _cancelled;
-    NSArray *_customPaths;
-    NSDictionary *_longTermSourceSystemIdentifier;
-    NSDictionary *_longTermComparisonSystemIdentifier;
-    NSObject<OS_dispatch_queue> *_analysisQueue;
-    unsigned long long _customSystemPathsSize;
-    unsigned long long _customSystemToUserPathsSize;
-    NSMutableDictionary *_customUserToUserPathSizes;
-    NSMutableDictionary *_customUserToSystemPathSizes;
-    NSMutableDictionary *_preliminaryComponentSizeDelegates;
-    NSMutableArray *_preliminaryCustomPathsSizeDelegates;
 }
 
 + (id);
@@ -32,10 +20,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -63,26 +51,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void)ypeAtPath:(_Bool)arg1;
+- (id)t xattr on %s:%i /* Error: Ran out of types for this method. */;
+- (void)__AUTH_CONST;
+- (void)databaseTypeAtPath:(_Bool)arg1;
 - (void)WITH %@;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *analysisQueue; // @synthesize analysisQueue=_analysisQueue;
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly) SMSystem_Daemon *comparisonSystem;
-@property(retain) NSArray *customPaths; // @synthesize customPaths=_customPaths;
-@property unsigned long long customSystemPathsSize; // @synthesize customSystemPathsSize=_customSystemPathsSize;
-@property unsigned long long customSystemToUserPathsSize; // @synthesize customSystemToUserPathsSize=_customSystemToUserPathsSize;
-@property(retain) NSMutableDictionary *customUserToSystemPathSizes; // @synthesize customUserToSystemPathSizes=_customUserToSystemPathSizes;
-@property(retain) NSMutableDictionary *customUserToUserPathSizes; // @synthesize customUserToUserPathSizes=_customUserToUserPathSizes;
-@property _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) NSDictionary *longTermComparisonSystemIdentifier; // @synthesize longTermComparisonSystemIdentifier=_longTermComparisonSystemIdentifier;
 @property(readonly, nonatomic) NSDictionary *longTermSourceSystemIdentifier; // @synthesize longTermSourceSystemIdentifier=_longTermSourceSystemIdentifier;
-@property(retain) NSMutableDictionary *preliminaryComponentSizeDelegates; // @synthesize preliminaryComponentSizeDelegates=_preliminaryComponentSizeDelegates;
-@property(retain) NSMutableArray *preliminaryCustomPathsSizeDelegates; // @synthesize preliminaryCustomPathsSizeDelegates=_preliminaryCustomPathsSizeDelegates;
-@property(readonly) SMSystem_Daemon_Windows *system;
 
 @end
 

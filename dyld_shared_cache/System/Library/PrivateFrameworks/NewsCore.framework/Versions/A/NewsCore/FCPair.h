@@ -7,7 +7,6 @@
 @interface FCPair
 {
     id mFirst;
-    id mSecond;
 }
 
 + (id);
@@ -18,14 +17,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)o=%@>, connectionMode=%ld, pairingMetadata=%@, multicastConfiguration=%@;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setManager: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)ration;
+- (id)_trainingConfiguration;
 - (void)rary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPredicateConversion.m;
 - (id)Configuration from configuration %{public}@;
 

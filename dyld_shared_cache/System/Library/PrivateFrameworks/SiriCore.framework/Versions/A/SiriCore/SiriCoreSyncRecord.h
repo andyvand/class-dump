@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SiriCoreSyncRecord
 {
     int _itemPriority;
-    NSString *_key;
-    NSString *_identifier;
-    NSString *_debugValue;
-    NSData *_dataValue;
-    NSData *_addedValue;
-    NSData *_metaValue;
-    double _updateTime;
-    NSData *_checkHash;
 }
 
-+ (id);
-+ (id);
++ (id)ail.EMUserDefaultsDidChangeNotification;
++ (id)EFPropertyKey_shouldStopDeletingMessages;
+- (void)time (e.g. 06:12:34). /* Error: Ran out of types for this method. */;
+- (void)ssage that gets displayed when there’s an error on the mail server that caused us to stop syncing. We will automatically try again at the specified time (e.g. 06:(id)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)able, e.g. when it is too busy, or down for service.;
+- (void)gets displayed when the mail server is temporarily unavailable, e.g. when it is too busy, or down for service. We will automatically try again at the specified time (e.g. 06:(id)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)etwork connection to the mail server drops.;
+- (void)ue with the network.;
+- (id)countConfigured];
+- (int)HideSearchIndexerResults;
+- (id)IndexingTurboMode;
+- (id)LogRemoteContentLinksUnredacted;
+- (id)BiomeSearchQuery;
+- (id)QueryComponentFreeText;
+- (void)R;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (double);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)DEDSeedingUploadItem;
 - (void);
 - (id)echnology:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *addedValue; // @synthesize addedValue=_addedValue;
-@property(retain, nonatomic) NSData *checkHash; // @synthesize checkHash=_checkHash;
-@property(retain, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(retain, nonatomic) NSString *debugValue; // @synthesize debugValue=_debugValue;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int itemPriority; // @synthesize itemPriority=_itemPriority;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSData *metaValue; // @synthesize metaValue=_metaValue;
-@property(nonatomic) double updateTime; // @synthesize updateTime=_updateTime;
 
 @end
 

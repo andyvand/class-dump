@@ -7,17 +7,15 @@
 @interface AVHapticParameterCurveValue
 {
     float _value;
-    double _time;
 }
 
-- (void);
+- (void)\;
 - (float);
 - (double);
-- (void);
+- (void);
 
 // Remaining properties
 @property double time; // @synthesize time=_time;
-@property float value; // @synthesize value=_value;
 
 @end
 

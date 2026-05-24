@@ -9,16 +9,14 @@
 @interface PKApplyVerificationPage : PKApplyRequiredFieldsPage
 {
     unsigned long long _verificationType;
-    unsigned long long _verificationCodeLength;
 }
 
-- (unsigned long long);
+- (unsigned long long)c;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long verificationCodeLength; // @synthesize verificationCodeLength=_verificationCodeLength;
 @property(readonly, nonatomic) unsigned long long verificationType; // @synthesize verificationType=_verificationType;
 
 @end

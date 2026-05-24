@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHeaderView
 {
     id titleLabel;
-    id bottomMarginView;
 }
 
 - (id);

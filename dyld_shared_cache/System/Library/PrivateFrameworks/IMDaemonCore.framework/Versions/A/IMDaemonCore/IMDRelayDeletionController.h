@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDService, IMMultiQueue, NSArray, NSString;
+@class IMMultiQueue;
 
 @interface IMDRelayDeletionController
 {
@@ -15,43 +15,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)h/;
 - (void);
 - (_Bool);
+- (_Bool);
 - (id);
+- (_Bool)H;
+- (id)h;
+- (id);
+- (void)(;
 - (void);
 - (id);
+- (void);
+- (_Bool)k;
 - (id);
+- (void)=h;
+- (id);
+- (id)`;
 - (void);
 - (id)fer:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) IMMultiQueue *incomingMessageMultiQueue; // @synthesize incomingMessageMultiQueue=_incomingMessageMultiQueue;
-@property(readonly, nonatomic) IMDService *service;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMDService",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

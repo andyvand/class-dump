@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, TTSSchemaTTSAudioInterface;
-
 @interface READSchemaREADPlaybackSessionStartedOrChanged : SISchemaInstrumentationMessage
 {
     float _customerPerceivedLatency;
-    TTSSchemaTTSAudioInterface *_audioInterface;
-    float _volume;
-    int _playbackStateChange;
-    struct {
-        unsigned int customerPerceivedLatency:1;
-        unsigned int volume:1;
-        unsigned int playbackStateChange:1;
-    } _has;
-    _Bool _hasAudioInterface;
 }
 
 - (void);
@@ -34,36 +23,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (float);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)BSqliteDatabase *, CSDBSqliteConnection *, int, int *, NSError **, MigratorBlock);
 - (float);
 - (id);
-- (id);
-- (void)ambiguationContext;
-- (id)asTupleDonated;
+- (id);
+- (void)deleteDisambiguationContext;
+- (id)_wasTupleDonated;
 - (id)dInSeconds;
-- (_Bool)TTON;
-- (void)ERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONCORE_GENERATIONERROR;
+- (_Bool)INVOCATIONSOURCE_MESSAGE_SEND_BUTTON;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONCORE_GENERATIONERROR;
 
 // Remaining properties
-@property(retain, nonatomic) TTSSchemaTTSAudioInterface *audioInterface; // @synthesize audioInterface=_audioInterface;
 @property(nonatomic) float customerPerceivedLatency; // @synthesize customerPerceivedLatency=_customerPerceivedLatency;
-@property(nonatomic) _Bool hasAudioInterface; // @synthesize hasAudioInterface=_hasAudioInterface;
-@property(nonatomic) _Bool hasCustomerPerceivedLatency;
-@property(nonatomic) _Bool hasPlaybackStateChange;
-@property(nonatomic) _Bool hasVolume;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int playbackStateChange; // @synthesize playbackStateChange=_playbackStateChange;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

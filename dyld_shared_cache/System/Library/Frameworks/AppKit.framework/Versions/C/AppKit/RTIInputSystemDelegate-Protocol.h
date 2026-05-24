@@ -7,11 +7,27 @@
 @class RTIInputSystemService, RTIInputSystemServiceSession;
 
 @protocol RTIInputSystemDelegate
-- (void)View;
+- (void)_assertOnlyOneOcclusionDetectionView;
 
 @optional
+- (void)e info;
+- (void)vmsjQ/68T7do2CJxUhMig;
+- (void)region sku;
+- (void)_CTServerConnectionCopyMobileSubscriberNetworkCode;
+- (void)name;
+- (void)ybDY9Um4z/T8K/Sg;
+- (void)RegionalBehaviorGB18030;
+- (void)al-buffer-compression-requires-plane-alignment-2048;
+- (void)n;
+- (void)versal-lossy-buffer-compression;
+- (void)on;
+- (void)Failed to get current SOC Generation string;
+- (void)vq2wpvLzyYLEApQs9cs52A;
+- (void)CRLF;
+- (void)';
+- (void);
 - (void)
 × ;
-- (void)tle:(RTIInputSystemService *)arg1 andMessage:(RTIInputSystemServiceSession *)arg2;
+- (void)setTitle:(RTIInputSystemService *)arg1 andMessage:(RTIInputSystemServiceSession *)arg2;
 @end
 

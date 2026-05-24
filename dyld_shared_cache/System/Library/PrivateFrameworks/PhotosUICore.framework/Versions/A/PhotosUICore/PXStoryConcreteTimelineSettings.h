@@ -9,17 +9,9 @@
 @interface PXStoryConcreteTimelineSettings : PXSettings
 {
     double _kenBurnsPanSpeed;
-    double _kenBurnsScaleSpeed;
-    double _kenBurnsRotationSpeed;
-    double _kenBurnsScaleSpeedDuringRotation;
-    long long _initialProductionCountLimit;
-    double _initialProductionTimeLimit;
-    long long _rotationInitialProductionCountLimit;
-    double _rotationInitialProductionTimeLimit;
-    double _subsequentProductionTimeLimit;
 }
 
-+ (id);
++ (id)_doneBarButtonItem;
 + (id)Yp¹ó½;
 - (double);
 - (void);
@@ -35,7 +27,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (long long);
 - (void);
@@ -43,15 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long initialProductionCountLimit; // @synthesize initialProductionCountLimit=_initialProductionCountLimit;
-@property(nonatomic) double initialProductionTimeLimit; // @synthesize initialProductionTimeLimit=_initialProductionTimeLimit;
 @property(nonatomic) double kenBurnsPanSpeed; // @synthesize kenBurnsPanSpeed=_kenBurnsPanSpeed;
-@property(nonatomic) double kenBurnsRotationSpeed; // @synthesize kenBurnsRotationSpeed=_kenBurnsRotationSpeed;
-@property(nonatomic) double kenBurnsScaleSpeed; // @synthesize kenBurnsScaleSpeed=_kenBurnsScaleSpeed;
-@property(nonatomic) double kenBurnsScaleSpeedDuringRotation; // @synthesize kenBurnsScaleSpeedDuringRotation=_kenBurnsScaleSpeedDuringRotation;
-@property(nonatomic) long long rotationInitialProductionCountLimit; // @synthesize rotationInitialProductionCountLimit=_rotationInitialProductionCountLimit;
-@property(nonatomic) double rotationInitialProductionTimeLimit; // @synthesize rotationInitialProductionTimeLimit=_rotationInitialProductionTimeLimit;
-@property(nonatomic) double subsequentProductionTimeLimit; // @synthesize subsequentProductionTimeLimit=_subsequentProductionTimeLimit;
 
 @end
 

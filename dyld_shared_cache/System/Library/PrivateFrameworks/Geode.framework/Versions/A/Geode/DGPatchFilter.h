@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSValue;
+@class CIImage;
 
 @interface DGPatchFilter
 {
     CIImage *inputImage;
-    NSValue *inputCenter;
-    NSNumber *inputRadius;
-    NSValue *inputPatch;
-    NSNumber *inputOpacity;
-    NSNumber *inputSoftness;
-    NSNumber *inputAngle;
-    NSNumber *inputDetail;
 }
 
 + (id);
-+ (void)eHolder;
++ (void)PFCopyOnWriteHolder;
 - (id);
 - (id);
 

@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface OADColorChangeEffect : OADBlipEffect
 {
     OADColor *mFromColor;
-    OADColor *mToColor;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);

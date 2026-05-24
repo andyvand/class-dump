@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatDockButtonItemContainerView
 {
     id items;
-    id buttonSize;
 }
 
 - (id);

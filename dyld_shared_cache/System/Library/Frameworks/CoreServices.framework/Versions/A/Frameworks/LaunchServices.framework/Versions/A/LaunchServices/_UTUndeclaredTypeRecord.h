@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
     NSString *_identifier;
 }
 
-+ (_Bool);
++ (_Bool)TLIntersectionFunctionDescriptor"16@?<v@?@"<MTLFunction>"@"NSError">24;
 - (id);
 - (void);
+- (_Bool)	;
+- (id)3;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)h;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)setVertexVisibleFunctionTable:atBufferIndex: /* Error: Ran out of types for this method. */;
 - (void)@Ð;
 
 @end

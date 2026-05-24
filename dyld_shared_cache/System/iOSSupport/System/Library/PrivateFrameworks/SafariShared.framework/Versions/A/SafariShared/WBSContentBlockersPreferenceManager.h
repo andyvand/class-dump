@@ -6,12 +6,11 @@
 
 #import <SafariShared/WBSPerSitePreferenceManager.h>
 
-@class NSString, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
+@class WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
 
 @interface WBSContentBlockersPreferenceManager : WBSPerSitePreferenceManager
 {
     WBSPerSitePreferencesSQLiteStore *_perSitePreferencesStore;
-    WBSPerSitePreference *_contentBlockersPreference;
 }
 
 - (id);
@@ -24,21 +23,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (void)¬;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreference *contentBlockersPreference; // @synthesize contentBlockersPreference=_contentBlockersPreference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

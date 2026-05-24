@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController, NSWindow;
+@class NSViewController;
 @protocol AMSBagProtocol;
 
 @interface AMSUIAuthenticateTask
 {
     NSViewController *_presentingViewController;
-    NSWindow *_presentingWindow;
 }
 
 - (id);
@@ -26,23 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)CloudFeedCommentsEntry;
+- (id)LEFT OUTER JOIN ZGENERICASSET AS ASSET ON MAP.%@ = ASSET.Z_PK                                     LEFT OUTER JOIN ZGENERICALBUM AS ALBUM ON MAP.%@ = ALBUM.Z_PK                                     LEFT OUTER JOIN Z_PRIMARYKEY AS PK ON ALBUM.Z_ENT = PK.Z_ENT                                 WHERE                                     ASSET.ZUUID IS NULL OR                                     ALBUM.ZUUID IS NULL OR                                     PK.Z_NAME IN ('FetchingAlbum'));
 - (id);
 - (id);
 - (void)setFooterButtonColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @dynamic bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
 @protocol CNGroupIdentityActionItemDelegate;
 
 @interface CNGroupIdentityActionItem
 {
     _Bool _shouldOverrideEnabledState;
-    _Bool _overrideEnabledState;
-    _Bool _shouldPresentDisambiguationUI;
-    NSString *_title;
-    NSString *_actionType;
-    UIImage *_image;
-    CDUnknownBlockType _actionBlock;
-    id <CNGroupIdentityActionItemDelegate> _delegate;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id)R;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ﲗH);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)q!
+;
 - (id);
 - (id);
 - (id);
@@ -42,14 +35,7 @@
 - (void)tactListIfNeeded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
 @property(nonatomic) __weak id <CNGroupIdentityActionItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool overrideEnabledState; // @synthesize overrideEnabledState=_overrideEnabledState;
-@property(nonatomic) _Bool shouldOverrideEnabledState; // @synthesize shouldOverrideEnabledState=_shouldOverrideEnabledState;
-@property(nonatomic) _Bool shouldPresentDisambiguationUI; // @synthesize shouldPresentDisambiguationUI=_shouldPresentDisambiguationUI;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

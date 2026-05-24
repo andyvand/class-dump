@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class INPerson, INSpeakableString, NSArray, NSNumber, NSString;
-
 @interface INSendMessageIntent : INIntent
 {
 }
@@ -16,25 +14,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSString *alternativeConversationIdentifier;
-@property(readonly, copy) NSArray *attachments;
-@property(readonly, copy) NSString *content;
-@property(readonly, copy) NSString *conversationIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long effect;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *notificationThreadIdentifier;
-@property(readonly) long long outgoingMessageType;
-@property(readonly, copy) NSArray *recipients;
-@property(readonly, copy) INPerson *sender;
-@property(readonly, copy) NSString *serviceName;
-@property(copy) NSNumber *shouldHideSiriAttribution;
-@property(readonly, copy) INSpeakableString *speakableGroupName;
-@property(readonly) Class superclass;
 
 @end
 

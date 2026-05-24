@@ -4,66 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OADTableBackground, OADTablePartStyle;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADTableStyle
 {
     NSString *mName;
-    NSString *mId;
-    OADTableBackground *mBackground;
-    OADTablePartStyle *mWholeTableStyle;
-    OADTablePartStyle *mBand1HorzStyle;
-    OADTablePartStyle *mBand2HorzStyle;
-    OADTablePartStyle *mBand1VertStyle;
-    OADTablePartStyle *mBand2VertStyle;
-    OADTablePartStyle *mFirstRowStyle;
-    OADTablePartStyle *mFirstColumnStyle;
-    OADTablePartStyle *mLastRowStyle;
-    OADTablePartStyle *mLastColumnStyle;
-    OADTablePartStyle *mNorthEastStyle;
-    OADTablePartStyle *mNorthWestStyle;
-    OADTablePartStyle *mSouthEastStyle;
-    OADTablePartStyle *mSouthWestStyle;
 }
 
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void))Q?	;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)Tk;
+- (id)w;
+- (id);
 - (id);
+- (id)qa;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)q,V_sourceCount;
 - (id);
 - (id);
 - (void)2;
 - (void)À
 ;
 - (void);
-- (id)r;
+- (id)15WrdBinaryReader;
 
 @end
 

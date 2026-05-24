@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PowerUIAnalyticsManager;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PowerUIBatteryMitigationManager
 {
     _Bool _mitigationsCurrentlyEnabled;
-    unsigned long long _decisionSignalID;
-    NSObject<OS_os_log> *_log;
-    PowerUIAnalyticsManager *_analyticsManager;
-    NSString *_defaultsDomain;
 }
 
 + (id);
@@ -33,11 +29,7 @@
 - (id)rge_start_secs_curr_dynamic_bin_2;
 
 // Remaining properties
-@property(retain, nonatomic) PowerUIAnalyticsManager *analyticsManager; // @synthesize analyticsManager=_analyticsManager;
-@property(readonly) unsigned long long decisionSignalID; // @synthesize decisionSignalID=_decisionSignalID;
-@property(retain, nonatomic) NSString *defaultsDomain; // @synthesize defaultsDomain=_defaultsDomain;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) _Bool mitigationsCurrentlyEnabled; // @synthesize mitigationsCurrentlyEnabled=_mitigationsCurrentlyEnabled;
 
 @end
 

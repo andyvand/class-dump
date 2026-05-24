@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, TUPageViewControllerScrollView, UIViewController;
-@protocol OS_dispatch_group, TUPageViewControllerDataSource, TUPageViewControllerDelegate;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface TUPageViewController
 {
     _Bool _cancelScrollViewDidScroll;
-    _Bool _isTransitioning;
-    _Bool _scrollViewStartedScrolling;
-    id <TUPageViewControllerDataSource> _dataSource;
-    id <TUPageViewControllerDelegate> _delegate;
-    UIViewController *_visibleViewController;
-    UIViewController *_secondaryVisibleViewController;
-    UIViewController *_previousViewController;
-    UIViewController *_nextViewController;
-    double _pageGutter;
-    TUPageViewControllerScrollView *_scrollView;
-    NSObject<OS_dispatch_group> *_idleDispatchGroup;
-    UIViewController *_managedForViewController;
-    UIViewController *_originalVisibleViewController;
-    UIViewController *_appearingViewController;
-    UIViewController *_disappearingViewController;
-    NSMutableArray *_replayViewTransitions;
-    struct CGSize _transitioningSize;
 }
 
 - (void);
@@ -92,10 +75,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)emScanner isLostSourceParentSameAs:(id)arg1 ];
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)presentation:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -105,7 +88,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)guration",&,N,V_userSegmentationApiConfiguration;
 - (void);
 - (void);
 - (id);
@@ -116,33 +99,7 @@
 - (void)NSToolbarSection;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *appearingViewController; // @synthesize appearingViewController=_appearingViewController;
-@property(nonatomic) _Bool cancelScrollViewDidScroll; // @synthesize cancelScrollViewDidScroll=_cancelScrollViewDidScroll;
-@property(nonatomic) __weak id <TUPageViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUPageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIViewController *disappearingViewController; // @synthesize disappearingViewController=_disappearingViewController;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_group> *idleDispatchGroup; // @synthesize idleDispatchGroup=_idleDispatchGroup;
-@property(readonly, nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
-@property(retain, nonatomic) UIViewController *managedForViewController; // @synthesize managedForViewController=_managedForViewController;
-@property(retain, nonatomic) UIViewController *nextViewController; // @synthesize nextViewController=_nextViewController;
-@property(retain, nonatomic) UIViewController *originalVisibleViewController; // @synthesize originalVisibleViewController=_originalVisibleViewController;
-@property(nonatomic) double pageGutter; // @synthesize pageGutter=_pageGutter;
-@property(readonly, nonatomic) struct CGSize pageSize;
-@property(nonatomic) _Bool pagingEnabled;
-@property(retain, nonatomic) UIViewController *previousViewController; // @synthesize previousViewController=_previousViewController;
-@property(retain, nonatomic) NSMutableArray *replayViewTransitions; // @synthesize replayViewTransitions=_replayViewTransitions;
-@property(readonly, nonatomic) TUPageViewControllerScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) _Bool scrollViewStartedScrolling; // @synthesize scrollViewStartedScrolling=_scrollViewStartedScrolling;
-@property(readonly, nonatomic) UIViewController *secondaryVisibleViewController; // @synthesize secondaryVisibleViewController=_secondaryVisibleViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize transitioningSize; // @synthesize transitioningSize=_transitioningSize;
-@property(retain, nonatomic) UIViewController *visibleViewController; // @synthesize visibleViewController=_visibleViewController;
 
 @end
 

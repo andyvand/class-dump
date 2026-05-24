@@ -7,6 +7,7 @@
 @class NSArray, NSNumber;
 
 @protocol TIPreferencesControllerActions
+- (void)C,N,V_payloadAllowWebDistributionAppInstallation;
 - (unsigned long long)Að!,Cù1\1Â0@ù
 × ;
 - (void)
@@ -16,18 +17,19 @@
 - (void);
 - (void)0@ù
 × ;
-- (_Bool)onContentOffsetForProposedContentOffset:keyItemIndexPath: /* Error: Ran out of types for this method. */;
-- (void)kgroundViewLayout;
-- (void)numerationPriority;
+- (_Bool)transitionContentOffsetForProposedContentOffset:keyItemIndexPath: /* Error: Ran out of types for this method. */;
+- (void)compactBackgroundViewLayout;
+- (void)_defaultEnumerationPriority;
 - (_Bool)_accumulatedMovement;
 - (void)",W,N,V_categoryView;
-- (void);
+- (void)_firstResponder;
 - (void)jiAnalyticsInstance;
 - (void)à
 ;
 - (void)d, placement:(NSNumber *)arg1 %@ (self:%@) /* Error: Ran out of types for this method. */;
 - (void)view:(struct CGPoint)arg1 %@;
 - (void).3q_So0aB4CellCSgIeggnno_;
+- (struct CGPoint);
 - (void);
 - (_Bool)P23´vþ;
 - (void)þ ;
@@ -36,13 +38,6 @@
 - (void)[;
 
 // Remaining properties
-@property(nonatomic) _Bool autocorrectionEnabled;
-@property(nonatomic) _Bool automaticMinimizationEnabled;
-@property(nonatomic) unsigned long long floatingKeyboardDockedEdge;
-@property(nonatomic) struct CGPoint floatingKeyboardPosition;
 @property(copy, nonatomic) NSArray *inputModeSelectionSequence;
-@property(nonatomic) struct CGPoint keyboardPosition;
-@property(nonatomic) _Bool keyboardShownByTouch;
-@property(nonatomic) _Bool predictionEnabled;
 @end
 

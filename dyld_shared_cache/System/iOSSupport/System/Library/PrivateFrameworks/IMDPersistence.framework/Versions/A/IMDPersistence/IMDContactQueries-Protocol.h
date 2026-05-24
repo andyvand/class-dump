@@ -5,5 +5,6 @@
 //
 
 @protocol IMDContactQueries
+- (void);
 @end
 

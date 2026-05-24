@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface __NSTextListTouchBarViewController : NSViewController
 {
     NSTextList *_textList;
-    id _target;
 }
 
 + (id);
@@ -20,14 +19,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)2qs;
 - (id);
 - (id);
 - (void);
-- (void)nThreshold;
+- (void)NSRotationThreshold;
 
 // Remaining properties
-@property __weak id target; // @synthesize target=_target;
 @property(retain) NSTextList *textList; // @dynamic textList;
 
 @end

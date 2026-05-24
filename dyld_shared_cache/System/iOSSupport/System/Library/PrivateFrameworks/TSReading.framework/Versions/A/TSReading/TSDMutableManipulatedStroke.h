@@ -6,16 +6,16 @@
 
 #import <TSReading/TSDManipulatedStroke.h>
 
-@class TSDStrokePattern, TSUColor;
+@class TSUColor;
 
 @interface TSDMutableManipulatedStroke : TSDManipulatedStroke
 {
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -24,20 +24,14 @@
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)Library/PrivateFrameworks/NewsFoundation.framework/Versions/A/NewsFoundation;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double actualWidth;
-@property(nonatomic) int cap;
 @property(copy, nonatomic) TSUColor *color;
-@property(nonatomic) int join;
-@property(nonatomic) double miterLimit;
-@property(copy, nonatomic) TSDStrokePattern *pattern;
-@property(nonatomic) double width;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface CKBrowserSwitcherFooterAccessoryCell
 {
     double _minHeight;
-    double _maxHeight;
-    UIView *_seperatorView;
 }
 
 + (id);
@@ -23,11 +21,9 @@
 - (void);
 - (void);
 - (id);
-- (void)ViewModel;
+- (void)PriorityRequestsViewModel;
 
 // Remaining properties
-@property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;
-@property(nonatomic) double minHeight; // @synthesize minHeight=_minHeight;
 @property(retain, nonatomic) UIView *seperatorView; // @synthesize seperatorView=_seperatorView;
 
 @end

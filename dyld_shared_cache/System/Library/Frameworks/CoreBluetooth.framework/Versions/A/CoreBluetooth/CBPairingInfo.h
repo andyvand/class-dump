@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDevice, NSError, NSString;
+@class CBDevice;
 
 @interface CBPairingInfo
 {
     unsigned int _flags;
-    CBDevice *_device;
-    NSError *_error;
-    long long _pairingType;
-    NSString *_pin;
 }
 
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)getDomainsForProviderIdentifier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (void);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CBDevice *device; // @synthesize device=_device;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) long long pairingType; // @synthesize pairingType=_pairingType;
-@property(copy, nonatomic) NSString *pin; // @synthesize pin=_pin;
 
 @end
 

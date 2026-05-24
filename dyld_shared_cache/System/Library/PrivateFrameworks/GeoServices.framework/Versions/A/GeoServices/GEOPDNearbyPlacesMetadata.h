@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDNearbyPlacesMetadata
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _encryptedNearbyPlacesMuids;
 }
 
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)`';
+- (unsigned long long);
+- (_Bool)�;
 - (_Bool);
 - (id)hKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32Q40;
-- (id)outeOnce;
+- (id)_hasBeenOnRouteOnce;
 - (id)Ð*¤+ä+-.T/@01ø1Ì2¸34x5L687809;
 - (void);
 

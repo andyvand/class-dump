@@ -5,5 +5,7 @@
 //
 
 @protocol MPAutomaticLayerSupport
+- (void)orks/NewsUI.framework/Versions/A/NewsUI;
+- (void)ary"Q@"NSError">16;
 @end
 

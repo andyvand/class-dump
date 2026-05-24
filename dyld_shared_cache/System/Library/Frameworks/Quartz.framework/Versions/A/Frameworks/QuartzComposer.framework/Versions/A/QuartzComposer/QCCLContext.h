@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, QCCache;
-
 @interface QCCLContext
 {
     struct _cl_context *_context;
-    unsigned long long *_deviceType;
-    struct _cl_device_id **_devices;
-    struct _cl_device_id *_bestDevice;
-    unsigned long long _deviceCount;
-    _Bool _isAccelerated;
-    _Bool _isAsynchronous;
-    QCCache *_programCache;
-    void *_unused[2];
 }
 
-+ (void)RotationResetToIdentity;
++ (void)C3DRotationResetToIdentity;
 - (struct _cl_program *);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (struct __CFArray *);
-- (unsigned int);
+- (unsigned int)@;
 - (unsigned int);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -47,38 +37,14 @@
 - (unsigned long long);
 - (void);
 - (struct _cl_device_id **);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (struct _cl_command_queue *)ame;
+- (struct _cl_command_queue *)_deviceName;
 - (_Bool)§t®F;
 
 // Remaining properties
-@property(readonly) struct _cl_device_id *bestDevice; // @synthesize bestDevice=_bestDevice;
-@property(readonly) struct _cl_command_queue *commandQueue;
-@property(readonly) struct _cl_context *context; // @synthesize context=_context;
-@property struct _cl_device_id *device;
-@property(readonly) unsigned long long deviceCount; // @synthesize deviceCount=_deviceCount;
-@property(readonly) unsigned long long deviceGlobalMemSize;
-@property(readonly) unsigned long long deviceImage2DMaxHeight;
-@property(readonly) unsigned long long deviceImage2DMaxWidth;
-@property(readonly) unsigned long long deviceLocalMemSize;
-@property(readonly) unsigned int deviceMaxComputeUnits;
-@property(readonly) unsigned long long deviceMaxConstantBufferSize;
-@property(readonly) unsigned int deviceMaxConstantsArgs;
-@property(readonly) unsigned int deviceMaxReadImageArgs;
-@property(readonly) unsigned int deviceMaxSamplers;
-@property(readonly) unsigned long long deviceMaxWorkGroupSize;
-@property(readonly) unsigned int deviceMaxWorkItemDimensions;
-@property(readonly) unsigned int deviceMaxWriteImageArgs;
-@property(readonly) NSString *deviceName;
-@property(readonly) struct __CFArray *deviceNames;
 @property(readonly) unsigned long long deviceType;
-@property(readonly) NSString *deviceVendor;
-@property(readonly) NSString *deviceVersion;
-@property(readonly) struct _cl_device_id **devices; // @synthesize devices=_devices;
-@property(readonly) _Bool isAccelerated; // @synthesize isAccelerated=_isAccelerated;
-@property(readonly) _Bool isAsynchronous; // @synthesize isAsynchronous=_isAsynchronous;
 
 @end
 

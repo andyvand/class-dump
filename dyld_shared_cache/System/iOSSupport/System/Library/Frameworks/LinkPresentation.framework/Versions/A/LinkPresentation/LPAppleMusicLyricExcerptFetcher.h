@@ -6,21 +6,19 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class MPStoreLyricsSnippetURLComponents, NSOperation;
+@class MPStoreLyricsSnippetURLComponents;
 
 __attribute__((visibility("hidden")))
 @interface LPAppleMusicLyricExcerptFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    NSOperation *_operation;
-    MPStoreLyricsSnippetURLComponents *_lyricComponents;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)suggestionList;
+- (void)spamInboxEnabled;
+- (void)skinnyReplyBalloonMaskSizeWithTailShape:(id)arg1;
+- (id)shouldEnableAddContactButton;
+- (id)pairEncryptionFailure;
 - (void);
 - (void);
 

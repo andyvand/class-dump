@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ña°1Â0@ù
 × ;
-- (int)w: /* Error: Ran out of types for this method. */;
-- (id)DynamicFailureRequirementForGestureRecognizer:(struct CGRect)arg1;
+- (int)addDrawingSurface:view: /* Error: Ran out of types for this method. */;
+- (id)_needsDynamicFailureRequirementForGestureRecognizer:(struct CGRect)arg1;
 
 // Remaining properties
 @property(nonatomic) id <_UITouchFallbackViewDelegate> delegate; // @synthesize delegate=_delegate;

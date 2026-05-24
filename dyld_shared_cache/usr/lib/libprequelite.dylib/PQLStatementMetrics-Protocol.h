@@ -7,9 +7,6 @@
 @protocol PQLStatementMetrics
 
 // Remaining properties
-@property(readonly, nonatomic) double executionTime;
-@property(readonly, nonatomic) double preparationTime;
-@property(readonly, nonatomic) unsigned long long returnedRows;
 @property(readonly, nonatomic) struct sqlite3_stmt *stmt;
 @end
 

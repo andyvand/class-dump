@@ -10,15 +10,15 @@
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)U;
 - (id);
-- (id);
-- (id);
+- (id)30CarrierBundleXMLCacheInterface;
 - (_Bool);
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol _UIDocumentPickerViewControllerExtensionHost
+- (void)IMDIDSAccount;
+- (void)IMSenderCapabilityParameter;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol TSSiriSuggestionStatusProvider
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isOptedInToSiriSuggestions;

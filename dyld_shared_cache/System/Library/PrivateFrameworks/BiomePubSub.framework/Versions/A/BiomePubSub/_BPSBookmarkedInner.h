@@ -6,17 +6,11 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscription, NSString;
-@protocol BMBookmark, BPSSubscriber;
+@protocol BPSSubscriber;
 
 @interface _BPSBookmarkedInner : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    id <BPSSubscriber> _downstream;
-    NSString *_upstreamClassName;
-    BPSSubscription *_subscription;
-    id <BMBookmark> _upstreamBookmark;
-    id _state;
 }
 
 - (id);
@@ -37,21 +31,10 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)tupleWithFirst:second: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id state; // @synthesize state=_state;
-@property(retain, nonatomic) BPSSubscription *subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <BMBookmark> upstreamBookmark; // @synthesize upstreamBookmark=_upstreamBookmark;
-@property(copy, nonatomic) NSString *upstreamClassName; // @synthesize upstreamClassName=_upstreamClassName;
 
 @end
 

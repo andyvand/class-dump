@@ -7,7 +7,6 @@
 @interface ChatKit.LoadingIndicatorCoverView__priv_BD78CF6CDE905E05AD6D455A82FAED4A
 {
     id spinner;
-    id textLabel;
 }
 
 - (id);

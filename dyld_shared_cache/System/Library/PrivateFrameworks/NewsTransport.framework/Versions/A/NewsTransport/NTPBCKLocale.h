@@ -4,50 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBCKLocale
 {
     NSString *_activeKeyboard;
-    NSMutableArray *_enabledKeyboards;
-    NSString *_languageCode;
-    NSString *_regionCode;
 }
 
-+ (Class);
++ (Class)_presentGenericFailureAlertAndCompleteBackgroundTaskWithError: /* Error: Ran out of types for this method. */;
+- (void)aggregatedDataSource;
+- (_Bool)_tabBarTransitionDelegate;
+- (unsigned long long)_styleSwitcherDistanceBetweenEditButtons;
+- (id)_styleSwitcherDistanceBetweenAlbumArtAndLabels;
+- (id)_styleSwitcherDistanceBetweenAlbumArtAndLabels;
+- (void)_startShowingProgress;
+- (void)_simpleBlurEdgeStretch;
 - (void);
-- (_Bool);
+- (id);
+- (id);
+- (id)_pushViewController:transition: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_newsTodayWidgetPresentationImpressionValue;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)ressivePersonalizationAllowed;
+- (void)hasProgressivePersonalizationAllowed;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeKeyboard; // @synthesize activeKeyboard=_activeKeyboard;
-@property(retain, nonatomic) NSMutableArray *enabledKeyboards; // @synthesize enabledKeyboards=_enabledKeyboards;
-@property(readonly, nonatomic) _Bool hasActiveKeyboard;
 @property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(readonly, nonatomic) _Bool hasRegionCode;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain, nonatomic) NSString *regionCode; // @synthesize regionCode=_regionCode;
 
 @end
 

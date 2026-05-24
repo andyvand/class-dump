@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     CDStruct_5ced785b *profile;
 }
 
-+ (id);
-- (id);
++ (id)+;
+- (id)�?;
 - (void);
 - (CDStruct_5ced785b *);
 

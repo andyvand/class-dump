@@ -16,13 +16,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)commute15MinWarningEntityRelevanceMicroLocationAndCoarseTimeOfDayFeatures;
 - (_Bool);
 
 // Remaining properties

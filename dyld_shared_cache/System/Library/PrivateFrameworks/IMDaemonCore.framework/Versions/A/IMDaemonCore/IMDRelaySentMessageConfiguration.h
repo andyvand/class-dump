@@ -9,26 +9,18 @@
 @interface IMDRelaySentMessageConfiguration
 {
     _Bool _wasInterworked;
-    _Bool _encrypted;
-    NSString *_messageID;
-    NSString *_service;
-    NSString *_compatibilityService;
 }
 
 - (id);
+- (id)w;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void)À¬¼ô¸;
-- (id)SFilteringSettingsDict;
+- (id)SMSFilteringSettingsDict;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *compatibilityService; // @synthesize compatibilityService=_compatibilityService;
-@property(readonly, nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(readonly, copy, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) _Bool wasInterworked; // @synthesize wasInterworked=_wasInterworked;
 
 @end
 

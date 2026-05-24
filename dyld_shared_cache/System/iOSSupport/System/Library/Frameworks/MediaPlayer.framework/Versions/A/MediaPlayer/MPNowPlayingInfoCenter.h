@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkResizeUtility, MPNowPlayingContentItem, MPNowPlayingInfoCenterArtworkContext, MRPlayerPath, MSVBloomFilter, MSVLRUDictionary, MSVTimer, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol MPNowPlayingInfoLyricsDelegate, MPNowPlayingPlaybackQueueDataSource, MPNowPlayingPlaybackQueueDelegate, OS_dispatch_queue;
+@class NSDictionary;
 
 @interface MPNowPlayingInfoCenter
 {
     NSDictionary *_nowPlayingInfo;
-    NSDictionary *_queuedNowPlayingInfo;
-    NSDictionary *_convertedNowPlayingInfo;
-    NSDate *_pushDate;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    MPNowPlayingInfoCenterArtworkContext *_publishedContext;
-    NSMutableDictionary *_mutatedContentItems;
-    NSMutableDictionary *_mutatedPlaybackQueueRequests;
-    struct _MSVSignedRange _loadedContentItemsRange;
-    struct _MSVSignedRange _requestedContentItemsRange;
-    NSMutableArray *_contentItemIdentifiers;
-    MSVLRUDictionary *_contentItems;
-    MPNowPlayingContentItem *_nowPlayingContentItem;
-    MSVBloomFilter *_contentItemBloomFilter;
-    unsigned long long _playbackState;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    MPArtworkResizeUtility *_artworkResizeUtility;
-    MSVTimer *_contentItemInvalidationTimer;
-    _Bool _isHighPriorityInvalidationTimer;
-    id <MPNowPlayingPlaybackQueueDataSource> _playbackQueueDataSource;
-    _Bool _supportsArtworkCatalogLoading;
-    id <MPNowPlayingInfoLyricsDelegate> _lyricsDelegate;
-    struct {
-        void *createPlaybackQueue;
-        void *createContentItem;
-        void *createChildItem;
-        void *metadata;
-        void *artwork;
-        void *formattedArtwork;
-        void *info;
-        void *transcriptAlignments;
-        void *languageOptions;
-        void *lyrics;
-    } _callbacks;
-    void *_fallbackActivity;
-    _Bool _invalidated;
-    unsigned long long _stateHandle;
-    id <MPNowPlayingPlaybackQueueDelegate> _playbackQueueDelegate;
-    MRPlayerPath *_playerPath;
-    NSString *_representedApplicationBundleIdentifier;
-    NSObject<OS_dispatch_queue> *_dataSourceQueue;
 }
 
 + (id);
@@ -58,7 +16,7 @@
 + (id);
 + (long long);
 + (id);
-+ (id);
++ (id)E;
 
 @end
 

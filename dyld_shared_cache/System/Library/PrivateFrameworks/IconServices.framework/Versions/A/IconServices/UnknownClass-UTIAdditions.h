@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (UTIAdditions)
-+ (id);
-+ (id);
-+ (unsigned int);
-+ (_Bool);
++ (id)dd_appendAttributedString: /* Error: Ran out of types for this method. */;
++ (id)URLPathAllowedCharacterSet;
++ (unsigned int)e=QQ};
++ (_Bool);
 - (id);
 - (id);
 - (id);

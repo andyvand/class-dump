@@ -8,17 +8,12 @@
 {
     id ª±Ð10@ù
 ?×é;
-    id 10@ù
-?×è;
 }
 
 
 // Remaining properties
 // Error: Property attributes should begin with the type ('T') attribute, property name: ªãªäªû$à/
 // Property attributes: ×©u©(@øªC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 9s/
-// Property attributes: @<àªáªR½àª¼QøáªBR¸ Tøáª´VøÚþ¶QøÈ@ø¨øàªáªñªàò	?×àR¡s©:®þù
 
 @end
 

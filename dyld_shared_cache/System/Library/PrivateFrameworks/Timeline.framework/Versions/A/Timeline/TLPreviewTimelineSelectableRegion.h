@@ -9,23 +9,21 @@
 @interface TLPreviewTimelineSelectableRegion
 {
     NSString *_path;
-    struct CGRect _rect;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (struct CGRect);
+- (struct CGRect)H;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end
 

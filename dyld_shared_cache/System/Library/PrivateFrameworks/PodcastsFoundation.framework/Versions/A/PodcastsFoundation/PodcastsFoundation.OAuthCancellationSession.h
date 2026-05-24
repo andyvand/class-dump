@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.OAuthCancellationSession
 {
     id oAuthAdamID;
-    id workQueue;
-    id sessionId;
 }
 
 @end

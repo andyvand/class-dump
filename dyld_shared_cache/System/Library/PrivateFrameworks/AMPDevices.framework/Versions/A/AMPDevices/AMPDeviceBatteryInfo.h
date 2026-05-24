@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BUIViewController, NSImage;
+@class BUIViewController;
 
 @interface AMPDeviceBatteryInfo
 {
     _Bool _batteryIsCharging;
-    _Bool _batteryIsFullyCharged;
-    _Bool _batteryGasGaugeCapability;
-    long long _batteryCurrentCapacity;
-    NSImage *_batteryImage;
-    BUIViewController *_buiViewController;
-    NSImage *_batteryBoltImage;
-    NSImage *_batteryBoltMaskImage;
 }
 
 + (_Bool);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -35,7 +28,7 @@
 - (id);
 - (id);
 - (struct CGImage *);
-- (id);
+- (id)_;
 - (void);
 - (id);
 - (_Bool);
@@ -44,19 +37,12 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)G?;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *batteryBoltImage; // @synthesize batteryBoltImage=_batteryBoltImage;
-@property(retain, nonatomic) NSImage *batteryBoltMaskImage; // @synthesize batteryBoltMaskImage=_batteryBoltMaskImage;
-@property(nonatomic) long long batteryCurrentCapacity; // @synthesize batteryCurrentCapacity=_batteryCurrentCapacity;
-@property(nonatomic) _Bool batteryGasGaugeCapability; // @synthesize batteryGasGaugeCapability=_batteryGasGaugeCapability;
-@property(retain, nonatomic) NSImage *batteryImage; // @synthesize batteryImage=_batteryImage;
-@property(nonatomic) _Bool batteryIsCharging; // @synthesize batteryIsCharging=_batteryIsCharging;
-@property(nonatomic) _Bool batteryIsFullyCharged; // @synthesize batteryIsFullyCharged=_batteryIsFullyCharged;
 @property(retain, nonatomic) BUIViewController *buiViewController; // @synthesize buiViewController=_buiViewController;
 
 @end

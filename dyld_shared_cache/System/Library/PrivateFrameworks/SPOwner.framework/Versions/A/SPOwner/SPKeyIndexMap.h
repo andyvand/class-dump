@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SPKeyIndexMap
 {
     CDStruct_e66c82b6 *_mapHandle;
-    unsigned char _sequence;
-    NSUUID *_beaconIdentifier;
 }
 
 - (void);
@@ -19,14 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned char);
-- (CDStruct_e66c82b6 *);
+- (CDStruct_e66c82b6 *);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly) CDStruct_e66c82b6 *mapHandle; // @synthesize mapHandle=_mapHandle;
-@property(readonly) unsigned char sequence; // @synthesize sequence=_sequence;
 
 @end
 

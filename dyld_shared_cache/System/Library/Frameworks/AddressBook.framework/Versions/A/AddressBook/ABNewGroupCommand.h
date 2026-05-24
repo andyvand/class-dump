@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSArray, NSDictionary;
+@class ABGroup;
 
 @interface ABNewGroupCommand
 {
     ABGroup *_newGroup;
-    NSDictionary *_groupProperties;
-    NSArray *_selectedRecords;
-    ABGroup *_parentGroup;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);

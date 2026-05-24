@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatScoreDataVisualization
 {
     id tagIdentifier;
-    id umcIdentifier;
-    id _selectors;
-    id _properties;
-    id _query;
-    id _traits;
 }
 
 @end

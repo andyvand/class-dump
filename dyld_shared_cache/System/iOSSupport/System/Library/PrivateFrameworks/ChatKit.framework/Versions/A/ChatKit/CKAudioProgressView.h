@@ -11,27 +11,23 @@
 @interface CKAudioProgressView : CKBalloonImageView
 {
     _Bool _playing;
-    _Bool _played;
-    BOOL _color;
-    float _progress;
-    IMManualUpdater *_displayUpdater;
 }
 
 + (id);
 + (id);
 + (float);
-+ (id);
++ (id);
+- (void)SbytIegnr_;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)';
+- (id)ActivityStream;
 - (void);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (BOOL);
 - (void);
-- (id);
+- (id)Ϊ;
 - (float)yADy[yAPãº[Á[G°[G¢¤[y\[GGSgGGAJyÎ[yADyADyADyúj[G<[GA_GGSgGG6¨[G_ADyADyADyº[yADyU¶[ ±[y"[GG_Qo_·©[yÑ¤[GGAWGAWGSgtGG;
 - (void)s scrolling to bottom;
 - (_Bool)e=Messages&ComponentVersion=Conversation List&Classification=Serious Bug&Description=;
@@ -39,11 +35,7 @@
 - (void)p50c3;
 
 // Remaining properties
-@property(nonatomic) BOOL color; // @synthesize color=_color;
 @property(retain, nonatomic) IMManualUpdater *displayUpdater; // @synthesize displayUpdater=_displayUpdater;
-@property(nonatomic, getter=isPlayed) _Bool played; // @synthesize played=_played;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
 
 @end
 

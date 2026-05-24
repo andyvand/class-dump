@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)O;
 + (id);
 + (void);
 - (id);

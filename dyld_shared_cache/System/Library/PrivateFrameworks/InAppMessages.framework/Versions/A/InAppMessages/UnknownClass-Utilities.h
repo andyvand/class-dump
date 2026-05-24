@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Utilities)
-- (_Bool);
+- (_Bool);
 @end
 

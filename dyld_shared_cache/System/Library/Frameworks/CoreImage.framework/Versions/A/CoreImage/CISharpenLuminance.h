@@ -6,21 +6,19 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISharpenLuminance : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSharpness;
-    NSNumber *inputRadius;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputSharpness; // @synthesize inputSharpness;
 
 @end
 

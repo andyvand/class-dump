@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSString;
+@class NSFont;
 
 @interface CalUIHyperlinkTextView
 {
     id _target;
-    SEL _action;
-    NSFont *_defaultFont;
-    long long _defaultAlignment;
 }
 
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)q;
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)B;
 - (SEL);
-- (id);
+- (id)BoundProfilePackageKey;
 - (void);
 - (void)5 °!ÐFùQÃ#ð1Â0@ù
 × ;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property long long defaultAlignment; // @synthesize defaultAlignment=_defaultAlignment;
 @property(retain) NSFont *defaultFont; // @synthesize defaultFont=_defaultFont;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

@@ -9,23 +9,21 @@
 @interface _CNAutocompleteResultsTableViewModel
 {
     NSMutableDictionary *_sections;
-    unsigned long long _numberOfSections;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)�;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfNonEmptySections;
 @property(nonatomic) unsigned long long numberOfSections; // @synthesize numberOfSections=_numberOfSections;
 
 @end

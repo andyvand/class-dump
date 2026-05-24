@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *categoryUuid; // @dynamic categoryUuid;
-@property(retain, nonatomic) NSString *podcastUuid; // @dynamic podcastUuid;
 @end
 

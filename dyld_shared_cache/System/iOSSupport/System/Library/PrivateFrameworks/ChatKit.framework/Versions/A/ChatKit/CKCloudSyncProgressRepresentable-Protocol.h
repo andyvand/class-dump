@@ -5,6 +5,11 @@
 //
 
 @protocol CKCloudSyncProgressRepresentable
+- (void)temporaryTextStorageWithAttributedString:(_Bool)arg1 replicaID:styler: /* Error: Ran out of types for this method. */;
+- (void)temporaryPaperBundleURL;
+- (void)needsUpdateManagedObjectIDsSerialQueue;
+- (_Bool)_markdown;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isProgressViewHidden) _Bool progressViewHidden;

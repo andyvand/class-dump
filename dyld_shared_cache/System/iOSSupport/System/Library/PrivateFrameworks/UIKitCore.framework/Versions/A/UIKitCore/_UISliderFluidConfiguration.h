@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBlurEffect, UIView, UIVisualEffect;
 @protocol _UISliderFluidInteractionDelegate;
 
 @interface _UISliderFluidConfiguration
 {
     _Bool _disableAllSliderVisuals;
-    _Bool _disableSliderRubberbandTransform;
-    id <_UISliderFluidInteractionDelegate> _delegate;
-    double _expansionFactor;
-    double _horizontalExpansionFactor;
-    double _stretchLimit;
-    UIView *_minimumValueView;
-    UIView *_maximumValueView;
-    UIVisualEffect *_minimumTrackEffect;
-    UIVisualEffect *_maximumTrackEffect;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -37,39 +27,21 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)q32@40;
+- (_Bool)44@"NSString"52@"NSString"60;
+- (void)tionToken:(id)arg1 availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_blastDoorProcessingWithIMMessageItem:(id)arg1 chat:account:fromToken:fromIDSID:fromIdentifier:toIdentifier:participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchContext:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
+- (id)_MPNowPlayingContentItemsDidChangeNotification;
 - (id);
 - (void);
 - (void);
 - (_Bool)UITouch"32;
-- (id)activePressesEvent;
+- (id)_activePressesEvent;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UISliderFluidInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAllSliderVisuals; // @synthesize disableAllSliderVisuals=_disableAllSliderVisuals;
-@property(nonatomic) _Bool disableSliderRubberbandTransform; // @synthesize disableSliderRubberbandTransform=_disableSliderRubberbandTransform;
-@property(nonatomic) double expansionFactor; // @synthesize expansionFactor=_expansionFactor;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalExpansionFactor; // @synthesize horizontalExpansionFactor=_horizontalExpansionFactor;
-@property(retain, nonatomic, setter=_setMaximumTrackBlurEffect:) UIBlurEffect *maximumTrackBlurEffect;
-@property(retain, nonatomic) UIVisualEffect *maximumTrackEffect; // @synthesize maximumTrackEffect=_maximumTrackEffect;
-@property(retain, nonatomic) UIView *maximumValueView; // @synthesize maximumValueView=_maximumValueView;
-@property(retain, nonatomic, setter=_setMinimumTrackBlurEffect:) UIBlurEffect *minimumTrackBlurEffect;
-@property(retain, nonatomic) UIVisualEffect *minimumTrackEffect; // @synthesize minimumTrackEffect=_minimumTrackEffect;
-@property(retain, nonatomic) UIView *minimumValueView; // @synthesize minimumValueView=_minimumValueView;
-@property(nonatomic) double stretchLimit; // @synthesize stretchLimit=_stretchLimit;
-@property(readonly) Class superclass;
 
 @end
 

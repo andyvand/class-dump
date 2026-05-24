@@ -27,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)TQ,N,V_preAssocScanChannelCount6GHz;
 
 @end

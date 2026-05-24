@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSFileWatcherObservations
 {
     _Bool _attributesChanged;
-    _Bool _contentsChanged;
-    _Bool _deleted;
-    _Bool _moved;
-    NSString *_lastObservedPath;
-    _Bool _didResetPath;
-    NSString *_path;
 }
 
 - (void);
 - (void);
+- (void);
+- (id)'()
+;
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)`Z;
 - (void);
 
 @end

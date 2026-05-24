@@ -6,35 +6,26 @@
 
 #import <Email/EMObject.h>
 
-@class EMMailDropMetadata, EMObjectID, NSArray, NSString, UTType;
+@class NSString;
 
 @interface _EMAttachmentContentItem : EMObject
 {
     _Bool _isAvailableLocally;
-    int _exchangeEventUID;
-    NSArray *_availableRepresentations;
-    NSString *_contentID;
-    long long _dataTransferByteCount;
-    NSString *_displayName;
-    CDUnknownBlockType _loaderBlock;
-    long long _storageByteCount;
-    NSString *_uniformTypeIdentifier;
-    EMMailDropMetadata *_mailDropMetadata;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ArrivalPredictionLogEventAnalyzer;
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)@;
 - (CDUnknownBlockType);
 - (id);
 - (long long);
@@ -49,36 +40,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)%@ (%@ %@);
 - (id);
 - (void);
-- (void);
+- (void)amework/Versions/A/IDS;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availableRepresentations; // @synthesize availableRepresentations=_availableRepresentations;
-@property(copy, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;
-@property(nonatomic) long long dataTransferByteCount; // @synthesize dataTransferByteCount=_dataTransferByteCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) int exchangeEventUID; // @synthesize exchangeEventUID=_exchangeEventUID;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAvailableLocally; // @synthesize isAvailableLocally=_isAvailableLocally;
-@property(copy, nonatomic) CDUnknownBlockType loaderBlock; // @synthesize loaderBlock=_loaderBlock;
-@property(copy, nonatomic) EMMailDropMetadata *mailDropMetadata; // @synthesize mailDropMetadata=_mailDropMetadata;
-@property(readonly, copy, nonatomic) EMObjectID *objectID;
-@property(nonatomic) long long storageByteCount; // @synthesize storageByteCount=_storageByteCount;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) UTType *type;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
 
 @end
 

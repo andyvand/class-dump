@@ -7,17 +7,11 @@
 @interface EventKit.EKRemoteUIObjectSerializer
 {
     id kEKIsPendingInsertKey;
-    id kEKChangeSetKey;
-    id kEKPersistentObjectKey;
-    id kEKCachedMeltedObjectsKey;
-    id kEKChangeSetSingleValueChangesKey;
-    id kEKChangeSetMultiValueAdditionsKey;
-    id kEKChangeSetMultiValueRemovalsKey;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)could not encode %{public}@;
+- (id)ty] unarchive failed with error:(id)arg1 %@;
+- (id)CreatePlaybackQueueForRequest(MRPlaybackQueueRequest *__strong, NSArray<MSVCallback *> *__strong);
 - (id);
 - (void)0@ù
 × ;

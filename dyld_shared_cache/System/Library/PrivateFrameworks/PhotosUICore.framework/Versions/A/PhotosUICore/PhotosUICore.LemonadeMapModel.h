@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeMapModel
 {
     id _item;
-    id _$observationRegistrar;
 }
 
 @end

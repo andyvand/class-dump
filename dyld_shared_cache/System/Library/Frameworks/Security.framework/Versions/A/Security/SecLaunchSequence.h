@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBlockOperation, NSMutableDictionary, NSString;
-
 @interface SecLaunchSequence
 {
     _Bool _firstLaunch;
-    _Bool _launched;
-    NSString *_name;
-    NSMutableDictionary *_events;
-    NSMutableDictionary *_attributes;
-    NSBlockOperation *_launchOperation;
-    NSMutableDictionary *_dependantLaunches;
 }
 
 - (void);
@@ -26,29 +18,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void)è;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSMutableDictionary *dependantLaunches; // @synthesize dependantLaunches=_dependantLaunches;
-@property(retain) NSMutableDictionary *events; // @synthesize events=_events;
-@property _Bool firstLaunch;
-@property(retain) NSBlockOperation *launchOperation; // @synthesize launchOperation=_launchOperation;
 @property _Bool launched; // @synthesize launched=_launched;
-@property(retain) NSString *name; // @synthesize name=_name;
 
 @end
 

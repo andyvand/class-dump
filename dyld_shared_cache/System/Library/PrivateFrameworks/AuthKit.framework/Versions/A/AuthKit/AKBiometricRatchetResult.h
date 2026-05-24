@@ -9,17 +9,15 @@
 @interface AKBiometricRatchetResult
 {
     AKRatchetState *_ratchetState;
-    unsigned long long _armingMethod;
 }
 
 - (void);
 - (id);
-- (id);
+- (id),;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long armingMethod; // @synthesize armingMethod=_armingMethod;
 @property(readonly, copy, nonatomic) AKRatchetState *ratchetState; // @synthesize ratchetState=_ratchetState;
 
 @end

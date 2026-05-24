@@ -11,22 +11,18 @@
 @interface IAMailAccountSetupInput : IAAccountSetupInput
 {
     NSString *_emailAddress;
-    NSString *_fullName;
-    _Bool _disableRecentsSync;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)0;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool disableRecentsSync; // @synthesize disableRecentsSync=_disableRecentsSync;
 @property(retain) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain) NSString *fullName; // @synthesize fullName=_fullName;
 
 @end
 

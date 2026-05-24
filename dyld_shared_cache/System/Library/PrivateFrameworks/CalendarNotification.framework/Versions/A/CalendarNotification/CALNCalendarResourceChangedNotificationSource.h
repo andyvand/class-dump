@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol CALNCalendarIconIdentifierProvider, CALNCalendarResourceChangedNotificationDataSource, CALNNotificationManager, CALNSourceEventRepresentationProvider, CalDateProvider;
+@protocol CALNCalendarResourceChangedNotificationDataSource;
 
 @interface CALNCalendarResourceChangedNotificationSource
 {
     id <CALNCalendarResourceChangedNotificationDataSource> _dataSource;
-    id <CALNNotificationManager> _notificationManager;
-    id <CALNCalendarIconIdentifierProvider> _iconIdentifierProvider;
-    id <CALNSourceEventRepresentationProvider> _sourceEventRepresentationProvider;
-    id <CalDateProvider> _dateProvider;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
@@ -32,20 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) id <CALNCalendarResourceChangedNotificationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) id <CalDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNCalendarIconIdentifierProvider> iconIdentifierProvider; // @synthesize iconIdentifierProvider=_iconIdentifierProvider;
-@property(readonly, nonatomic) __weak id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(readonly, nonatomic) id <CALNSourceEventRepresentationProvider> sourceEventRepresentationProvider; // @synthesize sourceEventRepresentationProvider=_sourceEventRepresentationProvider;
-@property(readonly, nonatomic) NSString *sourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

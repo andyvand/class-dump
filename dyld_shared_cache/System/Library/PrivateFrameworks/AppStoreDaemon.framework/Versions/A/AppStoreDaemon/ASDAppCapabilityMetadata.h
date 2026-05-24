@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASDAppCapabilityMetadata
 {
     _Bool _supportsFeatureA;
-    _Bool _supportsFeatureB;
-    _Bool _supportsFeatureC;
-    _Bool _supportsAlternativeAppDistribution;
-    _Bool _isCustomBrowserEngineApp;
-    _Bool _usesNonWebKitBrowserEngines;
-    _Bool _usesNonWebKitBrowserEnginesAsSteward;
-    long long _action;
-    NSString *_bundleID;
 }
 
 + (id);
@@ -39,20 +29,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)MNAssert;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long action; // @synthesize action=_action;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) _Bool isCustomBrowserEngineApp; // @synthesize isCustomBrowserEngineApp=_isCustomBrowserEngineApp;
-@property(nonatomic) _Bool supportsAlternativeAppDistribution; // @synthesize supportsAlternativeAppDistribution=_supportsAlternativeAppDistribution;
-@property(nonatomic) _Bool supportsFeatureA; // @synthesize supportsFeatureA=_supportsFeatureA;
-@property(nonatomic) _Bool supportsFeatureB; // @synthesize supportsFeatureB=_supportsFeatureB;
-@property(nonatomic) _Bool supportsFeatureC; // @synthesize supportsFeatureC=_supportsFeatureC;
-@property(nonatomic) _Bool usesNonWebKitBrowserEngines; // @synthesize usesNonWebKitBrowserEngines=_usesNonWebKitBrowserEngines;
-@property(nonatomic) _Bool usesNonWebKitBrowserEnginesAsSteward; // @synthesize usesNonWebKitBrowserEnginesAsSteward=_usesNonWebKitBrowserEnginesAsSteward;
 
 @end
 

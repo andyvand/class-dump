@@ -9,9 +9,6 @@
 @interface UIKit.NavigationBarLargeTitleReparentingHelper.TemporaryDonatedTitle
 {
     UIView *view;
-    struct CGRect frameInGlobalCoordinateSpace;
-    id parentID;
-    _Bool contributesToPocketContentRect;
 }
 
 - (void);
@@ -22,8 +19,6 @@
 - (void)ÈÑbþ3bÏ³Án;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool contributesToPocketContentRect; // @synthesize contributesToPocketContentRect;
-@property(nonatomic, readonly) struct CGRect frameInGlobalCoordinateSpace; // @synthesize frameInGlobalCoordinateSpace;
 @property(nonatomic, readonly) UIView *view; // @synthesize view;
 
 @end

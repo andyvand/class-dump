@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, PKOSVersionRequirementRange, PKPaymentHeroImageSet;
+@class NSData, NSString;
 
 @interface PKPaymentHeroImage
 {
     NSData *_imageData;
-    PKPaymentHeroImageSet *_images;
-    _Bool _isBeta;
-    NSString *_identifier;
-    PKOSVersionRequirementRange *_versionRequirement;
-    NSArray *_requiredDeviceFeatures;
-    long long _credentialType;
-    long long _cardType;
 }
 
 - (id);
@@ -30,21 +23,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (long long);
 - (id);
-- (id)reationDate;
+- (id)creationDate;
 - (void)g"8@"NSString"16;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(readonly, nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBeta; // @synthesize isBeta=_isBeta;
-@property(readonly, nonatomic) NSArray *requiredDeviceFeatures; // @synthesize requiredDeviceFeatures=_requiredDeviceFeatures;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *versionRequirement; // @synthesize versionRequirement=_versionRequirement;
 
 @end
 

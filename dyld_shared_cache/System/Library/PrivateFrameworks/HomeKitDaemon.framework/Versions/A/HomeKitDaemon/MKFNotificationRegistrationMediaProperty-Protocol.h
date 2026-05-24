@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFNotificationRegistrationMediaPropertyDatabaseID, NSString, NSUUID;
-@protocol MKFAccessory, MKFHome;
+@class NSUUID;
+@protocol MKFHome;
 
 @protocol MKFNotificationRegistrationMediaProperty
+- (NSUUID *);
 - (id <MKFHome>)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationMediaPropertyDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSUUID *mediaProfileIdentifier;
-@property(copy, nonatomic) NSString *mediaProperty;
 @end
 

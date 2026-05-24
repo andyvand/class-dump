@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDScanStatsPerSlice
 {
     CDStruct_9f2792e4 _numChanScanneds;
-    CDStruct_9f2792e4 _numScanBlankeds;
-    CDStruct_9f2792e4 _numScanModes;
-    unsigned long long _numAbort;
-    unsigned int _avgAgeScan;
-    unsigned int _numScanWifiCritical;
-    NSMutableArray *_scanObjects;
-    struct {
-        unsigned int numAbort:1;
-        unsigned int avgAgeScan:1;
-        unsigned int numScanWifiCritical:1;
-    } _has;
 }
 
 + (Class);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*	;
+- (void)@9;
 - (void);
 - (void);
 - (void);
@@ -35,7 +22,7 @@
 - (id);
 - (unsigned int);
 - (unsigned long long);
-- (unsigned int *);
+- (unsigned int *);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned int);
@@ -55,14 +42,14 @@
 - (void);
 - (void);
 - (void);
+- (unsigned int *)";
 - (unsigned int *);
-- (unsigned int *);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void);
-- (id);
+- (id)<;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -71,19 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int avgAgeScan; // @synthesize avgAgeScan=_avgAgeScan;
-@property(nonatomic) _Bool hasAvgAgeScan;
 @property(nonatomic) _Bool hasNumAbort;
-@property(nonatomic) _Bool hasNumScanWifiCritical;
-@property(nonatomic) unsigned long long numAbort; // @synthesize numAbort=_numAbort;
-@property(readonly, nonatomic) unsigned int *numChanScanneds;
-@property(readonly, nonatomic) unsigned long long numChanScannedsCount;
-@property(readonly, nonatomic) unsigned int *numScanBlankeds;
-@property(readonly, nonatomic) unsigned long long numScanBlankedsCount;
-@property(readonly, nonatomic) unsigned int *numScanModes;
-@property(readonly, nonatomic) unsigned long long numScanModesCount;
-@property(nonatomic) unsigned int numScanWifiCritical; // @synthesize numScanWifiCritical=_numScanWifiCritical;
-@property(retain, nonatomic) NSMutableArray *scanObjects; // @synthesize scanObjects=_scanObjects;
 
 @end
 

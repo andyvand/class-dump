@@ -5,5 +5,8 @@
 //
 
 @protocol TDragImageProtocol
+
+@optional
+- (_Bool);
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
-
 @interface SAPowerModeTransition
 {
     _Bool _lowPowerModeChanged;
-    _Bool _lowPowerMode;
-    SATimestamp *_timestamp;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (id);
++ (id)accessibilityLabelValue;
+- (_Bool)menu:updateItem:atIndex:shouldCancel: /* Error: Ran out of types for this method. */;
+- (id)HAPSecuritySessionDelegate;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -27,16 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool lowPowerMode; // @synthesize lowPowerMode=_lowPowerMode;
-@property(readonly) _Bool lowPowerModeChanged; // @synthesize lowPowerModeChanged=_lowPowerModeChanged;
-@property(readonly) Class superclass;
-@property(readonly) SATimestamp *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

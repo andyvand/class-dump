@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
+@class NSMenu, NSView;
+@protocol NSMenuItemViewProtocol;
 
 @protocol NSMenuRepresentationDelegate
-- (NSMenu *)RowHeaderUIElements;
+- (void);
+- (double)with error %d;
+- (_Bool)e data;
+- (NSView<NSMenuItemViewProtocol> *)eTree:(long long)arg1 /arm-io/marconi-wifi;
+- (double)4H26SkyfcrZOrMAtjC6Cfw;
+- (NSMenu *)AXRowHeaderUIElements;
 @end
 

@@ -6,25 +6,22 @@
 
 #import <Symbolication/VMUAbstractSerializer.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface VMUSimpleDeserializer : VMUAbstractSerializer
 {
     struct unordered_map<unsigned int, NSString *, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, NSString *>>> _stringCache;
-    NSData *_data;
 }
 
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id)A;
 - (id);
 - (const char *);
 - (unsigned int *);
 - (id);
 - (id);
-- (void);
+- (void)_bundleIdentifiersWithPendingRequests;
 
 @end
 

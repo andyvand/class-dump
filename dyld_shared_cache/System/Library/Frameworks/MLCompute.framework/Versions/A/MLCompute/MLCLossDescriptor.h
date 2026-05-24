@@ -7,12 +7,6 @@
 @interface MLCLossDescriptor
 {
     int _lossType;
-    int _reductionType;
-    float _weight;
-    float _labelSmoothing;
-    float _epsilon;
-    float _delta;
-    unsigned long long _classCount;
 }
 
 + (id);
@@ -34,13 +28,7 @@
 - (float)talElementsPerChannel;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long classCount; // @synthesize classCount=_classCount;
-@property(readonly, nonatomic) float delta; // @synthesize delta=_delta;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
 @property(readonly, nonatomic) int lossType; // @synthesize lossType=_lossType;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(readonly, nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

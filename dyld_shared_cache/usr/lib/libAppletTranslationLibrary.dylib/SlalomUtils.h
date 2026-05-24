@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (unsigned long long);
 + (int);
-+ (unsigned long long);
++ (unsigned long long)A;
 
 @end
 

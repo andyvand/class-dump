@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, NSArray, NSError;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface GEODirectionsServiceRequestBuilderResult
 {
     NSArray *_waypoints;
-    GEODirectionsRequest *_directionsRequest;
-    NSError *_error;
 }
 
-+ (id);
++ (id)omise was finished with a nil result;
 + (id);
 - (void){ü5;
 

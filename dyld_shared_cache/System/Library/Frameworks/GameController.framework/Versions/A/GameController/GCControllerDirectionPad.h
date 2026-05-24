@@ -6,16 +6,11 @@
 
 #import <GameController/GCControllerElement.h>
 
-@class GCControllerAxisInput, GCControllerButtonInput;
+@class GCControllerAxisInput;
 
 @interface GCControllerDirectionPad : GCControllerElement
 {
     _Bool _wasZeroed;
-    int _timesPressed;
-    _Bool _nonAnalog;
-    CDUnknownBlockType _valueChangedHandler;
-    GCControllerAxisInput *_xAxis;
-    GCControllerAxisInput *_yAxis;
 }
 
 - (CDUnknownBlockType);
@@ -28,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int) ;
 - (id);
 - (void);
 - (void);
@@ -38,21 +33,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)M;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCControllerButtonInput *down;
-@property(readonly, nonatomic) GCControllerButtonInput *left;
-@property _Bool nonAnalog; // @synthesize nonAnalog=_nonAnalog;
-@property(readonly, nonatomic) GCControllerButtonInput *right;
-@property(readonly, nonatomic) GCControllerButtonInput *up;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler; // @synthesize valueChangedHandler=_valueChangedHandler;
 @property(retain, nonatomic) GCControllerAxisInput *xAxis; // @synthesize xAxis=_xAxis;
-@property(retain, nonatomic) GCControllerAxisInput *yAxis; // @synthesize yAxis=_yAxis;
 
 @end
 

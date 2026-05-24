@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSCursor;
+@class AKController;
 
 @interface MUImageView
 {
     AKController *_annotationController;
-    NSCursor *_annotationCursor;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property __weak AKController *annotationController; // @synthesize annotationController=_annotationController;
-@property(retain) NSCursor *annotationCursor; // @synthesize annotationCursor=_annotationCursor;
 
 @end
 

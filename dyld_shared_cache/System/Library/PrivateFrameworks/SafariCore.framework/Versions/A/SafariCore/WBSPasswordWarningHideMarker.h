@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface WBSPasswordWarningHideMarker
 {
     unsigned long long _issueTypes;
@@ -15,11 +13,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)MPModelPropertySongExplicit;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) unsigned long long issueTypes; // @synthesize issueTypes=_issueTypes;
 
 @end

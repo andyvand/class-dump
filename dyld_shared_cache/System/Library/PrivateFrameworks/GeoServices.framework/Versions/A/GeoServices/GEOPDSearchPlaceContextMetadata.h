@@ -4,55 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDContextualPhotoMetadata, GEOPDNearbyPlacesMetadata, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchPlaceContextMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_alternateSearchableNames;
-    GEOPDContextualPhotoMetadata *_contextualPhotoMetadata;
-    NSString *_dataExperimentName;
-    NSString *_interpretedCategory;
-    NSString *_matchedDisplayNameLanguageCode;
-    NSString *_matchedDisplayName;
-    GEOPDNearbyPlacesMetadata *_nearbyPlacesMetadata;
-    NSString *_normalizedQuery;
-    NSString *_secondaryNameOverrideLanguage;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _taxonomyTypeForClientization;
-    _Bool _isDefaultName;
-    _Bool _shouldPartiallyClientizeResult;
-    struct {
-        unsigned int has_taxonomyTypeForClientization:1;
-        unsigned int has_isDefaultName:1;
-        unsigned int has_shouldPartiallyClientizeResult:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_alternateSearchableNames:1;
-        unsigned int read_contextualPhotoMetadata:1;
-        unsigned int read_dataExperimentName:1;
-        unsigned int read_interpretedCategory:1;
-        unsigned int read_matchedDisplayNameLanguageCode:1;
-        unsigned int read_matchedDisplayName:1;
-        unsigned int read_nearbyPlacesMetadata:1;
-        unsigned int read_normalizedQuery:1;
-        unsigned int read_secondaryNameOverrideLanguage:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ction interrupted, will reconnect after %.1gs;
+- (id)createAudioInjectionDeviceWithType:deviceName:deviceID:productID:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)_pathLeg"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)aryLaneStrings;
+- (id)_primaryLaneStrings;
 - (id);
 - (void)FÏ-t%¶H@;
 

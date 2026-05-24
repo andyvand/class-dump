@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface AMSMediaTokenServiceThrottler
 {
     struct os_unfair_lock_s _accessLock;
-    unsigned long long _attemptNumber;
-    NSDate *_throttleDate;
-    double _baseSleepInterval;
-    double _maxSleepInterval;
 }
 
-- (void);
+- (void)A;
 - (double);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)ve %llu bytes of custom data for name %{public}@;
 - (_Bool);
 - (double);
 - (void);
@@ -35,11 +29,7 @@ eé¬v×
 A}is:,tÙICÿ¡:.@ötþØÞ~¨b|÷åª#R§"µ©E¦hi*¦1]çmZØ:)bçr°¦j]¦qÇuM¡®æ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct os_unfair_lock_s accessLock; // @synthesize accessLock=_accessLock;
 @property unsigned long long attemptNumber; // @synthesize attemptNumber=_attemptNumber;
-@property(readonly, nonatomic) double baseSleepInterval; // @synthesize baseSleepInterval=_baseSleepInterval;
-@property(readonly, nonatomic) double maxSleepInterval; // @synthesize maxSleepInterval=_maxSleepInterval;
-@property(retain) NSDate *throttleDate; // @synthesize throttleDate=_throttleDate;
 
 @end
 

@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPhoneNumberContextInfo, AMSPromise, NSArray, NSData, NSNumber, NSString;
+@class AMSPhoneNumberContextInfo, NSArray, NSNumber, NSString;
 
 @protocol AMSDeviceInfo
+- (NSArray *);
+- (NSString *);
+- (NSString *)!;
+- (NSNumber *)coalescerWithLabel:target:buffer:queue:bufferDrainer:action: /* Error: Ran out of types for this method. */;
+- (NSString *)V_requiresCustomPairing;
+- (AMSPhoneNumberContextInfo *)isHidden,V_hidden;
 - (NSString *)1Â0@ù
 × ;
-- (NSString *)FromFollowUpItem: /* Error: Ran out of types for this method. */;
+- (NSString *)_createNotificationFromFollowUpItem: /* Error: Ran out of types for this method. */;
 - (NSNumber *)Ü;
 - (NSString *)c}@] Registration response received.;
 - (NSString *)ated;
@@ -18,34 +24,6 @@
 - (NSString *)]ÁIðkM;
 
 // Remaining properties
-@property(readonly) NSString *MLBSerialNumber;
-@property(readonly) NSString *ROMAddress;
 @property(readonly) NSString *buildVersion;
-@property(readonly) NSArray *carrierNames;
-@property(readonly) AMSPromise *carrierNamesPromise;
-@property(readonly) NSString *compatibleProductType;
-@property(readonly) NSString *deviceGUID;
-@property(readonly) _Bool deviceIsBundle;
-@property(readonly) NSString *deviceName;
-@property(readonly) NSString *hardwarePlatform;
-@property(readonly) NSString *localIPAddress;
-@property(readonly) NSString *macAddress;
-@property(readonly) NSData *macAddressData;
-@property(readonly) NSString *modelPartNumber;
-@property(readonly) NSString *name;
-@property(readonly) NSString *operatingSystem;
-@property(readonly) NSString *phoneNumber;
-@property(readonly) NSString *productType;
-@property(readonly) NSString *productVersion;
-@property(readonly) NSString *regionCode;
-@property(readonly, getter=isRunningInStoreDemoMode) _Bool runningInStoreDemoMode;
-@property(readonly) NSNumber *screenHeight;
-@property(readonly) NSNumber *screenScale;
-@property(readonly) NSNumber *screenWidth;
-@property(readonly, getter=isSecureElementAvailable) _Bool secureElementAvailable;
-@property(readonly) NSString *serialNumber;
-@property(readonly) NSString *uniqueDeviceId;
-@property(readonly) AMSPromise *voicePreferredPACToken;
-@property(readonly) AMSPhoneNumberContextInfo *voicePreferredPhoneNumberContextInfo;
 @end
 

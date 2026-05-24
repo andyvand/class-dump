@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol IPAAutoSettings
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool pending;
 @end
 

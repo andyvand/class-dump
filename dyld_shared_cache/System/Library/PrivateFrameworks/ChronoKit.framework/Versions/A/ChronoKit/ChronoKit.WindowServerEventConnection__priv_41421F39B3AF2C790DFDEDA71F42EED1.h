@@ -7,8 +7,6 @@
 @interface ChronoKit.WindowServerEventConnection__priv_41421F39B3AF2C790DFDEDA71F42EED1
 {
     id _cid;
-    id _eventSource;
-    id _queue;
 }
 
 @end

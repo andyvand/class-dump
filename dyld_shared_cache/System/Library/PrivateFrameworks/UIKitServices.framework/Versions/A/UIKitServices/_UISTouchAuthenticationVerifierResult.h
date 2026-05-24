@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISTouchAuthenticationVerifierResult
 {
     _Bool _passesSecurityAnalysis;
-    NSString *_failureReasons;
 }
 
 - (_Bool);
@@ -19,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *failureReasons; // @synthesize failureReasons=_failureReasons;
 @property(readonly, nonatomic) _Bool passesSecurityAnalysis; // @synthesize passesSecurityAnalysis=_passesSecurityAnalysis;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol MorphingDragImageControllerDragSource
+
+@optional
+- (_Bool);
 @end
 

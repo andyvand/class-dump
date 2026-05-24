@@ -6,24 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UIImageView;
+@class UIImageView;
 
 @interface UIMovieScrubberEditingView : UIView
 {
     UIImageView *_leftImageView;
-    UIImageView *_middleImageView;
-    UIImageView *_rightImageView;
-    NSArray *_activeImages;
-    NSArray *_activeNoEditImages;
-    NSArray *_inactiveImages;
-    _Bool _enabled;
-    _Bool _editing;
-    double _edgeInset;
 }
 
-- (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)Stopping cleanup timer;
+- (_Bool)@ result %@;
+- (int)k'ing and cleaning up:(struct CGPoint)arg1 %@, ;
 - (void);
 - (struct CGRect);
 - (id);
@@ -34,15 +26,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)rLaterCoordinatedFlush:(_Bool)arg1;
-- (void)dViewConstraints;
+- (void)nsli_isCollectingConstraintChangesForLaterCoordinatedFlush:(_Bool)arg1;
+- (void)_backgroundViewConstraints;
 - (id)extentRangeForDocumentState;
 - (_Bool)ôÿd;
 - (void)9e;
 
 // Remaining properties
-@property(nonatomic) double edgeInset; // @synthesize edgeInset=_edgeInset;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 
 @end

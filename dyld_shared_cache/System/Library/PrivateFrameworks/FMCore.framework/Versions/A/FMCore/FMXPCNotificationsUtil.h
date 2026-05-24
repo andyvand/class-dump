@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface FMXPCNotificationsUtil
 {
     NSMutableDictionary *_darwinNotificationHandlers;
-    NSMutableDictionary *_distributedNotificationHandlers;
-    NSObject<OS_dispatch_queue> *_modificationQueue;
 }
 
-+ (void);
++ (void)dispatchEventWithName:(id)arg1 inputMode:withCompletionHandler: /* Error: Ran out of types for this method. */;
 + (void);
 + (id);
-- (void);
+- (void)whiteBalance;
 - (void);
 - (_Bool);
 - (id);
@@ -27,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)5	8	>	3	>	;
 - (_Bool);
 - (void);
 - (void);
@@ -36,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *darwinNotificationHandlers; // @synthesize darwinNotificationHandlers=_darwinNotificationHandlers;
-@property(retain, nonatomic) NSMutableDictionary *distributedNotificationHandlers; // @synthesize distributedNotificationHandlers=_distributedNotificationHandlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *modificationQueue; // @synthesize modificationQueue=_modificationQueue;
 
 @end
 

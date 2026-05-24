@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPropertyGroupItem, NSString;
+@class CNPropertyGroupItem;
 
 @interface CNContactCardFieldItem
 {
     CNPropertyGroupItem *_groupItem;
-    NSString *_displayLabel;
-    NSString *_displayValue;
 }
 
 + (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)artworkTextSecondaryColor;
 - (void)Contact",&,N,V_meContact;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayLabel; // @synthesize displayLabel=_displayLabel;
-@property(readonly, nonatomic) NSString *displayValue; // @synthesize displayValue=_displayValue;
 @property(readonly, nonatomic) CNPropertyGroupItem *groupItem; // @synthesize groupItem=_groupItem;
 
 @end

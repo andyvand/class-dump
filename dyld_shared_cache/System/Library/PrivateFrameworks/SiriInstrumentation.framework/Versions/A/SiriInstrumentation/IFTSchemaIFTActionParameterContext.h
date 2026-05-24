@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTActionParameterContext : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    NSString *_toolId;
-    int _actionClass;
-    struct {
-        unsigned int actionClass:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasToolId;
 }
 
 - (id);
@@ -38,24 +31,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)24;
 - (id)!Bùqàð1Â0@ù
 × ;
-- (id)8Day:(id)arg1;
+- (id)setHasFreqSameGroup7DayTo28Day:(id)arg1;
 - (id)d¼¨ÊðÊÐËÌøÌ@ÍhÎ°ÎÏØÏHÑØÑ¸Ò;
 - (void)´íÌÿ;
 
 // Remaining properties
-@property(nonatomic) int actionClass; // @synthesize actionClass=_actionClass;
-@property(nonatomic) _Bool hasActionClass;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

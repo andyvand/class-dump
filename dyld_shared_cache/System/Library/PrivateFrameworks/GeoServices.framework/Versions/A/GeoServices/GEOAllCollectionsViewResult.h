@@ -9,19 +9,17 @@
 @interface GEOAllCollectionsViewResult
 {
     GEOPDAllCollectionsViewResult *_allCollectionsViewResult;
-    NSArray *_places;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)appendName:unsignedInteger: /* Error: Ran out of types for this method. */;
+- (id)(%lu pending, %lu active, %lu completed);
+- (id)ompleted);
 - (id)'Ð!@ù1º*ð1Â0@ù
 × ;
 - (void)p?ÿ¿Y:Î6 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collectionIdentifiers;
-@property(readonly, nonatomic) NSArray *resultFilters;
 
 @end
 

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)P;
 
 @end
 

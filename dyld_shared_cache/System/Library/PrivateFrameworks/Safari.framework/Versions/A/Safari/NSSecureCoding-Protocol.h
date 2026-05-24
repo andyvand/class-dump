@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)eBetweenImageAndTextConstraint;
++ (_Bool)spaceBetweenImageAndTextConstraint;
 @end
 

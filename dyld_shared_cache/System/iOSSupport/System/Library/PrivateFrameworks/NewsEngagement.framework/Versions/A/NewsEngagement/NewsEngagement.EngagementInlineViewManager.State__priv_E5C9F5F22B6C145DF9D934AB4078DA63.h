@@ -8,7 +8,6 @@
 {
     id lock;
     id placements;
-    id observers;
 }
 
 @end

@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty, SFButtonItem;
+@class NSData, RFTextProperty;
 
 @protocol RFSummaryItemPairNumberCardSection
+- (RFTextProperty *);
+- (RFTextProperty *);
+- (void)#;
+- (void)B;
+- (RFTextProperty *)_lastPasswordDismissModalResponse;
+- (NSData *);
 
 // Remaining properties
-@property(retain, nonatomic) SFButtonItem *button_1;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *number_1;
-@property(retain, nonatomic) RFTextProperty *number_2;
-@property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_10;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFTextProperty *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(copy, nonatomic) NSArray *text_5;
-@property(retain, nonatomic) RFTextProperty *text_6;
-@property(retain, nonatomic) RFTextProperty *text_7;
-@property(retain, nonatomic) RFTextProperty *text_8;
-@property(retain, nonatomic) RFTextProperty *text_9;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_1;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_2;
 @end
 

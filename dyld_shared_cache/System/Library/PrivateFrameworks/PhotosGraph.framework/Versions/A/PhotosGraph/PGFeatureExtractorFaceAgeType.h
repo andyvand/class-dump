@@ -12,10 +12,10 @@
 
 - (id);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)removeTouchIconMetadataForHosts:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGGraphIngestBusinessProcessor;
 
 @end
 

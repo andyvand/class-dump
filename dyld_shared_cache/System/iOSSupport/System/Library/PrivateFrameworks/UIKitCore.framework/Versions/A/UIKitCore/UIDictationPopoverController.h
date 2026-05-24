@@ -6,50 +6,33 @@
 
 #import <UIKitCore/UIKeyboardPopoverController.h>
 
-@class NSLayoutConstraint, NSMutableArray, NSString, UILabel, UIResponder, UITextView, UIView;
+@class UIResponder;
 @protocol UITextInput;
 
 __attribute__((visibility("hidden")))
 @interface UIDictationPopoverController : UIKeyboardPopoverController
 {
     UIResponder<UITextInput> *_inputDelegate;
-    NSMutableArray *_scrollViews;
-    struct CGRect _initCaretRectInView;
-    struct CGRect _sourceRect;
-    struct CGRect _editMenuFrame;
-    struct CGRect _clipBounds;
-    UIView *_inputAccessoryView;
-    UIView *_dictationView;
-    NSLayoutConstraint *_dictationViewTopConstraint;
-    NSLayoutConstraint *_dictationViewBottomConstraint;
-    UILabel *_title;
-    UITextView *_textView;
-    UIView *_bottomEdgeView;
-    _Bool _isVerticalText;
-    _Bool _needsRestoreArrowDirction;
-    struct CGRect _popoverFrame;
-    double _bottomMargin;
-    unsigned long long _arrowDirection;
 }
 
-- (struct CGRect);
+- (struct CGRect)uest to delete zones %@ for database %@;
+- (void)r query with alias:(id)arg1 %@, count:(id)arg2 %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).messages.spotlight-index-scheduling-resume;
+- (void)ages.spotlight-index-check;
+- (void)CurrentReparentingRowID;
+- (void)t.notification.mergecompleted;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)8@"NSError"16;
 - (void)ementsDidCancelHinting"b1"delegateImplementsShouldBegin"b1};
-- (struct CGRect)errideInputActionCountToZero:withLanguage: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_didDeleteBackwardText:shouldOverrideInputActionCountToZero:withLanguage: /* Error: Ran out of types for this method. */;
 - (void)IColor",C,N,V_arrowBackgroundColor;
 - (void)ô|¤}0
  Àp;
@@ -58,13 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)ý7;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCSandboxedURL;
 @protocol AVCMediaRecorderRequestDelegate;
 
 @interface AVCMomentsRequest
 {
     id _weakDelegate;
-    unsigned char _mode;
-    VCSandboxedURL *_directoryURL;
-    CDStruct_1b6d18a9 _movieFragmentInterval;
-    unsigned char _mediaType;
-    NSString *_transactionID;
-    NSString *_requesterID;
-    NSString *_requesteeID;
 }
 
 + (id);
@@ -30,7 +22,7 @@
 - (void);
 - (unsigned char);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -42,11 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <AVCMediaRecorderRequestDelegate> delegate;
-@property(readonly, nonatomic) _Bool hasDirectoryURL;
-@property(readonly, nonatomic) unsigned char mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSString *requesteeID; // @synthesize requesteeID=_requesteeID;
-@property(readonly, nonatomic) NSString *requesterID; // @synthesize requesterID=_requesterID;
-@property(readonly, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
 
 @end
 

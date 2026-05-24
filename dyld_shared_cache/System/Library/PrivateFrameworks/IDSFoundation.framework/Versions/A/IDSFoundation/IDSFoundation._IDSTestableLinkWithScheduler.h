@@ -7,7 +7,6 @@
 @interface IDSFoundation._IDSTestableLinkWithScheduler
 {
     id link;
-    id executor;
 }
 
 @end

@@ -9,8 +9,6 @@
 @interface DebugItem
 {
     NSString *_title;
-    id _target;
-    SEL _action;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, nonatomic) id target; // @synthesize target=_target;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

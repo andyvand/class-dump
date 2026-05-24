@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFColor
 {
     struct {
@@ -15,32 +13,12 @@
         unsigned int alphaComponent:1;
         unsigned int colorTintStyle:1;
     } _has;
-    int _colorTintStyle;
-    double _redComponent;
-    double _greenComponent;
-    double _blueComponent;
-    double _alphaComponent;
-    SFColor *_darkModeColor;
 }
 
-+ (_Bool);
++ (_Bool)�;
 
 // Remaining properties
-@property(nonatomic) double alphaComponent; // @synthesize alphaComponent=_alphaComponent;
-@property(nonatomic) double blueComponent; // @synthesize blueComponent=_blueComponent;
-@property(nonatomic) int colorTintStyle; // @synthesize colorTintStyle=_colorTintStyle;
-@property(retain, nonatomic) SFColor *darkModeColor; // @synthesize darkModeColor=_darkModeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double greenComponent; // @synthesize greenComponent=_greenComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double redComponent; // @synthesize redComponent=_redComponent;
-@property(readonly) Class superclass;
 
 @end
 

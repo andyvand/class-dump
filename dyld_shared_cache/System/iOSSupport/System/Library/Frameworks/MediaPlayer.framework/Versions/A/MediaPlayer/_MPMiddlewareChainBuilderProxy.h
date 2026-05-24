@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)lEntries:initialObjects:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_createTrackIdentifierListWithInitialEntries:initialObjects:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

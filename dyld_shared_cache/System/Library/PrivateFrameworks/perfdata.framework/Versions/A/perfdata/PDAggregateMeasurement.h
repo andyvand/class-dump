@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PDContainer, PDMeasurement;
+@class PDContainer;
 
 __attribute__((visibility("hidden")))
 @interface PDAggregateMeasurement
 {
     _Bool _validMin;
-    _Bool _validMax;
-    NSMutableDictionary *_labels;
-    PDContainer *_container;
-    NSString *_metric;
-    NSString *_unitString;
-    NSMutableDictionary *_variables;
-    struct running_mean *_values_mean;
-    struct pooled_mean *_stats_mean;
-    double _min;
-    double _max;
-    unsigned long long _samples;
 }
 
 - (struct running_mean *);
@@ -36,37 +25,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)atus-query;
+- (void)errorHeaders;
 - (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)_updatesRepoQueue;
 - (unsigned long long);
 - (void);
 - (double);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) PDContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSMutableDictionary *labels; // @synthesize labels=_labels;
-@property(nonatomic) double max; // @synthesize max=_max;
-@property(readonly, nonatomic) PDMeasurement *measurement;
-@property(retain, nonatomic) NSString *metric; // @synthesize metric=_metric;
-@property(nonatomic) double min; // @synthesize min=_min;
-@property(nonatomic) unsigned long long samples; // @synthesize samples=_samples;
-@property(nonatomic) struct pooled_mean *stats_mean; // @synthesize stats_mean=_stats_mean;
-@property(retain, nonatomic) NSString *unitString; // @synthesize unitString=_unitString;
-@property(nonatomic) _Bool validMax; // @synthesize validMax=_validMax;
-@property(nonatomic) _Bool validMin; // @synthesize validMin=_validMin;
-@property(nonatomic) struct running_mean *values_mean; // @synthesize values_mean=_values_mean;
-@property(retain, nonatomic) NSMutableDictionary *variables; // @synthesize variables=_variables;
 
 @end
 

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
-
 @interface NEPolicyResult
 {
     unsigned int _skipOrder;
-    unsigned int _passFlags;
-    unsigned int _dropFlags;
-    unsigned int _controlUnit;
-    unsigned int _effectiveType;
-    unsigned int _serviceData;
-    long long _resultType;
-    long long _secondaryResultType;
-    NSString *_interfaceName;
-    NSUUID *_agentUUID;
-    NSString *_agentDomain;
-    NSString *_agentType;
-    NSArray *_routeRules;
 }
 
 + (id);
 + (id);
++ (id)_adapterFamilyCode;
++ (id)ssNames;
 + (id);
 + (id);
 + (id);
@@ -34,9 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)requestVMData:requestID: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id)rDHk;

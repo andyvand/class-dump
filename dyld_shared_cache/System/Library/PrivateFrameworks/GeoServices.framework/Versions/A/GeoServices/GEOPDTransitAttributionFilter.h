@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)rootSettingsProxyDefinitionForDomainID:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"b1};
-- (id)ondaryLaneStrings;
+- (id)_secondaryLaneStrings;
 - (id)ð´;
 - (void)Ôc[5J@;
 

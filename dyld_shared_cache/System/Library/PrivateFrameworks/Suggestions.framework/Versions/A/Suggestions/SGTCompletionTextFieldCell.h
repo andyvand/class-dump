@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSImage, NSImageCell;
-
 __attribute__((visibility("hidden")))
 @interface SGTCompletionTextFieldCell
 {
     double _beforeMargin;
-    double _afterMargin;
-    NSFont *_baselineFont;
-    NSImage *_sgtImage;
-    NSImageCell *_imageCell;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (double);
 - (struct CGRect);
@@ -37,13 +31,10 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)MUContentViewControllerLiveTextProtocol;
 
 // Remaining properties
-@property double afterMargin; // @synthesize afterMargin=_afterMargin;
-@property(retain, nonatomic) NSFont *baselineFont; // @synthesize baselineFont=_baselineFont;
 @property double beforeMargin; // @synthesize beforeMargin=_beforeMargin;
-@property(retain, nonatomic) NSImage *sgtImage; // @synthesize sgtImage=_sgtImage;
 
 @end
 

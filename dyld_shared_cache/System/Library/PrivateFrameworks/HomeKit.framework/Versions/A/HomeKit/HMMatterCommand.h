@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSArray, NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface HMMatterCommand
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_commandID;
-    NSNumber *_clusterID;
-    NSNumber *_endpointID;
-    HMAccessory *_accessory;
-    NSDictionary *_commandFields;
-    NSArray *_expectedValues;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)Evaluation;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,27 +21,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id)FROM '%@';
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id)5	>	9	?		;
+- (_Bool)redevelopment;
 - (void);
 - (id);
 - (id);
 - (void)dQW;
 
 // Remaining properties
-@property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSNumber *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, copy, nonatomic) NSDictionary *commandFields; // @synthesize commandFields=_commandFields;
 @property(readonly, nonatomic) NSNumber *commandID; // @synthesize commandID=_commandID;
-@property(readonly, nonatomic) NSNumber *endpointID; // @synthesize endpointID=_endpointID;
-@property(readonly, nonatomic) NSArray *expectedValues; // @synthesize expectedValues=_expectedValues;
 
 @end
 

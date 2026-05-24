@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSArray, NSString;
+@class AVAsset;
 
 @interface AVAssetAnalysisReporter
 {
@@ -19,13 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 
 // Remaining properties
-@property(readonly) NSString *analysisType;
 @property(readonly) __weak AVAsset *asset;
-@property(readonly) NSArray *messages;
-@property(readonly, getter=isReporting) _Bool reporting;
 
 @end
 

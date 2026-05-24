@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TipsManager
 {
     id enhanceDialogueTip;
-    id tipObservationTask;
-    id tipDictionary;
-    id tipGroup;
-    void viewControllerNotificationInfoKey;
-    NSString *didPresentTipNotificationName;
 }
 
 + (id)tionConfiguration"40@0:8@"AVTransitionController"16@"UIViewController"24@"UIViewController"32 /* Error: Ran out of types for this method. */;
@@ -31,7 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)backDelegate>";
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *didPresentTipNotificationName; // @synthesize didPresentTipNotificationName;
 @property(nonatomic, readonly) NSString *viewControllerNotificationInfoKey;
 
 @end

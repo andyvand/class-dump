@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)_appContactFreqForPhoneCall28Day;
++ (id)_appContactFreqForPhoneCall1Hr;
++ (id)Ti,N,V_mediaEntityCount;
++ (_Bool)appUsageCountForEntity1Hr;
 
 @end
 

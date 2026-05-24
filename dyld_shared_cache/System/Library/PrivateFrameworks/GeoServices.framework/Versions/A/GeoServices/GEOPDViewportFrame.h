@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBoundingCube, GEOPDGeographicCoordinate, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDViewportFrame
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDGeographicCoordinate *_targetPoint;
-    GEOPDBoundingCube *_viewTargetBounds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _distance;
-    float _heading;
-    float _pitch;
-    struct {
-        unsigned int has_distance:1;
-        unsigned int has_heading:1;
-        unsigned int has_pitch:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_targetPoint:1;
-        unsigned int read_viewTargetBounds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)initWithTotalAudioRecorded:endpointBufferHostTime:featuresAtEndpoint:endpointerType:asrFeatureLatencyDistribution:additionalMetrics:trailingSilenceDurationAtEndpoint:requestId:osdFeatures:asrFeatures:isRequestTimeOut:assetConfigVersion:blkHepAudioOrigin:vtExtraAudioAtStartInMs:firstAudioSampleSensorTimestamp:isAnchorTimeBuffered:endpointHostTime:audioDeliveryHostTimeDelta:endpointerThreshold:endpointerScore: /* Error: Ran out of types for this method. */;
+- (unsigned long long)B;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)d"b1};
-- (id)signType;
+- (id)_signType;
 - (id)4Ù°âxï°ñdô°öðù	ÿx	ÌT Ø8l§ô§·°k$o¤o rö;
 - (void);
 

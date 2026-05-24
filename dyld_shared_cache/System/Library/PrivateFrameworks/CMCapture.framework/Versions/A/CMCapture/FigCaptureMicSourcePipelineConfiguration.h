@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFormat, BWZoomCommandHandler, FigCaptureSourceConfiguration, NSArray, NSString;
+@class FigCaptureSourceConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMicSourcePipelineConfiguration
 {
     FigCaptureSourceConfiguration *_micConfiguration;
-    NSArray *_micConnectionConfigurations;
-    FigCaptureSourceConfiguration *_cameraConfigurationForStereoAudioCapture;
-    BWZoomCommandHandler *_zoomCommandHandlerForStereoAudioCapture;
-    _Bool _flipStereoAudioCaptureChannels;
-    _Bool _windNoiseRemovalEnabled;
-    NSString *_sessionPreset;
-    _Bool _configuresAppAudioSession;
-    _Bool _configuresAppAudioSessionToMixWithOthers;
-    _Bool _configuresAppAudioSessionForBluetoothHighQualityRecording;
-    unsigned long long _clientSDKVersionToken;
-    _Bool _clientOSVersionSupportsDecoupledIO;
-    CDStruct_4c969caf _clientAuditToken;
-    _Bool _isAudioOnlyRecordingSession;
-    AVAudioFormat *_remoteIOOutputFormat;
-    unsigned long long clientSDKVersionToken;
 }
 
-- (void);
+- (void)mHasSlideNumber;
 
 @end
 

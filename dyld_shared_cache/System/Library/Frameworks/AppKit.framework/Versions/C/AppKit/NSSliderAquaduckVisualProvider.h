@@ -5,55 +5,46 @@
 //
 
 @class NSView;
-@protocol NSSliderTickMarksDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSSliderAquaduckVisualProvider
 {
     id sliderCell;
-    void controlView;
-    void tickMarkDelegate;
-    CDStruct_6717dab8 state;
-    id _hostingView;
 }
 
 + (id);
-+ (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
++ (id)k triggered;
+- (id)"NSDictionary">24;
+- (void)backgroundAVAssetDownloadTask:(id)arg1 didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (struct CGRect)%{public}@ Dark wake power assertion failed (result = %d);
+- (struct CGRect)orting;
+- (struct CGRect)@ on %{public}@ was not selected for reporting;
+- (struct CGRect)UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
+- (struct CGRect)4;
 - (struct CGRect);
 - (struct NSEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (void)pple.httpserver.bysocket;
+- (void)ent >= 0;
+- (void)privacyProxyStrictFailClosed;
+- (id)ger supported;
+- (struct CGSize)? AND port = ? AND type = ?);
 - (int);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (void):(id)arg1 ;p;
+- (struct CGRect)6Qh;
 - (double);
 - (id);
-- (id);
+- (id)";
 - (void);
-- (CDStruct_6717dab8);
+- (CDStruct_6717dab8);
 - (void)P8Ø~E;
 - (struct NSEdgeInsets)«G;
 
 // Remaining properties
-@property(nonatomic, readonly) int _vibrancyBlendMode;
 @property(nonatomic) __weak NSView *controlView; // @synthesize controlView;
-@property(nonatomic, readonly) NSView *designatedFocusRingView;
-@property(nonatomic) CDStruct_6717dab8 state; // @synthesize state;
-@property(nonatomic) __weak id <NSSliderTickMarksDelegate> tickMarkDelegate; // @synthesize tickMarkDelegate;
 
 @end
 

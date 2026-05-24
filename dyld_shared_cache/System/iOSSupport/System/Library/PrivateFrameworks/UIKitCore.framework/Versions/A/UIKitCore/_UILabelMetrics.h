@@ -4,57 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSStringDrawingContext, _UILabelConfiguration, _UILabelScaledMetrics, _UILabelSynthesizedContent;
+@class _UILabelConfiguration;
 
 @interface _UILabelMetrics
 {
     _UILabelConfiguration *_configuration;
-    NSStringDrawingContext *_stringDrawingContext;
-    struct CGRect _sourceRect;
-    _UILabelSynthesizedContent *_synthesizedContent;
-    _UILabelScaledMetrics *_scaledMetrics;
-    double _firstBaselineOffset;
-    double _lastBaselineOffset;
-    struct CGRect _drawingRect;
-    struct CGRect _bounds;
-    struct CGRect _idealBounds;
-    long long _numberOfLines;
-    double _scaleFactor;
-    id _textToUse;
-    NSDictionary *_attributesToUse;
-    id _layout;
-    _UILabelScaledMetrics *_associatedScaledMetrics;
-    struct {
-        unsigned int calculated:1;
-        unsigned int contentSynthesized:1;
-        unsigned int textToUseIsAttributed:1;
-        unsigned int forDrawing:1;
-        unsigned int intrinsicMeasurement:1;
-    } _metricsFlags;
 }
 
 + (id);
 + (id);
-+ (_Bool)ontext;
-- (double);
-- (double);
++ (_Bool)textWithContext;
+- (double)B52B56B60^@64@72;
+- (double)markAsSpamForIDs:style:onServices:chatID:conversationID:queryID:autoReport:isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
-- (double);
-- (double);
-- (CDStruct_a0add0ba);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (double)from client with route:%s id:%s selector:%s /* Error: Ran out of types for this method. */;
+- (double)to expire task request for %{public}s with error:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_3ae44ac1)DB at path %@ with error %@;
+- (struct CGSize)delete file at path %@ with error domain '%@' code:%ld /* Error: Ran out of types for this method. */;
+- (id)clearing tombstones for deletes only ;
+- (_Bool)u of %u max T2 updates to write up;
+- (void)elete at for GUID:%@ /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)lateCKRecordWithIMMessageItemFields called on object %@ %@;
+- (void)may be lost on older devices;
+- (struct CGRect)DS account based on parameters shouldFilter %@ requestProxy %@;
 - (struct CGRect);
 - (id);
 - (id);
@@ -62,29 +40,16 @@
 - (id);
 - (unsigned long long);
 - (struct CGRect);
-- (_Bool)mentariesUsingFilter:(id)arg1;
-- (void)teractionView:(id)arg1;
+- (_Bool)updateVisibleSupplementariesUsingFilter:(id)arg1;
+- (void)setInteractionView:(id)arg1;
 - (id)56c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}},R,N,V_localDataOverrides;
-- (void)leDataSourceSectionSnapshotHandlers;
+- (void)UICollectionViewDiffableDataSourceSectionSnapshotHandlers;
 - (double)¸nìÿ);
 - (void);
 - (long long)J;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize _intrinsicBaselineSize;
-@property(readonly, nonatomic) CDStruct_a0add0ba _intrinsicSizeBaselineInfo;
-@property(readonly, nonatomic) double _lastLineBaselineOffsetFromTop;
 @property(readonly, nonatomic) struct CGRect _sourceRect;
-@property(readonly, nonatomic) NSStringDrawingContext *_stringDrawingContext;
-@property(readonly, nonatomic) _UILabelSynthesizedContent *_synthesizedContent;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _UILabelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) struct CGRect drawingBounds;
-@property(readonly, nonatomic) double firstLineBaselineOffsetFromTop;
-@property(readonly, nonatomic) struct CGRect intrinsicBounds;
-@property(readonly, nonatomic) double lastLineBaselineOffsetFromBottom;
-@property(readonly, nonatomic) long long numberOfLines;
-@property(readonly, nonatomic) double scaleFactor;
 
 @end
 

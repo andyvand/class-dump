@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NURenderNodeCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_cache;
 }
 
-+ (id);
++ (id)rootPipeline;
 - (void);
 - (id);
-- (void);
+- (void)G;
 - (id);
 - (id);
-- (id);
+- (id)ableString";
 - (void);
 - (unsigned long long);
 - (id);

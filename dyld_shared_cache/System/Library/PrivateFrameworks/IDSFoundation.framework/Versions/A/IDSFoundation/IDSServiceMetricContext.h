@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface IDSServiceMetricContext
 {
     NSNumber *_timestamp;
-    NSDictionary *_timestampDictionary;
-    NSString *_identifier;
 }
 
 + (_Bool);
@@ -23,14 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void)Will not send register ack request due to invalid candidatePairToken!;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSDictionary *timestampDictionary; // @synthesize timestampDictionary=_timestampDictionary;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface MTLibraryEntityChanges
 {
     NSString *_entityName;
-    NSMutableSet *_insertedObjectIDs;
-    NSMutableSet *_deletedObjectIDs;
-    NSMutableSet *_updatedObjectIDs;
 }
 
 - (void);
@@ -21,23 +18,20 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)0;
 - (id);
 - (id);
-- (id);
+- (_Bool)*	;
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)_saturationWithSettings:(id)arg1;
 - (void)7·TSgSg;
 - (_Bool);
 - (id)¸jË[-;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *deletedObjectIDs; // @synthesize deletedObjectIDs=_deletedObjectIDs;
-@property(readonly, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
 @property(retain, nonatomic) NSMutableSet *insertedObjectIDs; // @synthesize insertedObjectIDs=_insertedObjectIDs;
-@property(retain, nonatomic) NSMutableSet *updatedObjectIDs; // @synthesize updatedObjectIDs=_updatedObjectIDs;
 
 @end
 

@@ -6,22 +6,18 @@
 
 #import <SceneKit/SCNGeometryDeformer.h>
 
-@class SCNGeometryWrapDeformerParameters, SCNNode;
+@class SCNNode;
 
 @interface SCNGeometryWrapDeformer : SCNGeometryDeformer
 {
     SCNNode *_innerLayerNode;
-    SCNNode *_outerLayerNode;
-    SCNGeometryWrapDeformerParameters *_parameters;
-    _Bool _isLegacySingleLayerDeformer;
-    SCNNode *_legacyDrivingNode;
 }
 
-+ (_Bool);
++ (_Bool)emailFieldLabelPatternMatchers;
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)w;
 - (id);
 - (id);
 - (_Bool);

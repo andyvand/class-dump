@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
+@class NSError;
+@protocol MTLAccelerationStructureCommandEncoder, MTLDevice, MTLLogContainer, MTLResourceStateCommandEncoder;
 
 @protocol MTLCommandBuffer
+- (NSError *)`;
+- (id <MTLResourceStateCommandEncoder>)P;
+- (id <MTLAccelerationStructureCommandEncoder>)A%;
+- (double);
+- (void)&;
 - (id <MTLLogContainer>)ª
 ;
 - (void)Ø
@@ -15,17 +20,6 @@
 - (void)ment size.;
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-@property(readonly) double GPUStartTime;
-@property(readonly) id <MTLCommandQueue> commandQueue;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) double kernelEndTime;
-@property(readonly) double kernelStartTime;
-@property(copy) NSString *label;
-@property(readonly) id <MTLLogContainer> logs;
-@property(readonly) _Bool retainedReferences;
-@property(readonly) unsigned long long status;
 @end
 

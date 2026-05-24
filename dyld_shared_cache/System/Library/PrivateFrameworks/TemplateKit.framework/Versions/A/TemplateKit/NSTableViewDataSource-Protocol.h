@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSTableColumn, NSTableView;
+@protocol NSPasteboardWriting;
+
 @protocol NSTableViewDataSource
+
+@optional
+- (_Bool)ons:(NSTableView *)arg1 %@ new permissions %@;
+- (unsigned long long)ifest failed on amfdrRemote;
+- (void)ping;
+- (void)late the local sealing manifest, skipping;
+- (void)ClassesAndInstances failed;
+- (id <NSPasteboardWriting>):(NSTableView *)arg1 %d, updateDataClasses :(long long)arg2 %@, updateProperties :%@, getIntraFactoryData :%d /* Error: Ran out of types for this method. */;
+- (id), forceSealing :(NSTableView *)arg1 %@, allowForbidden :(NSTableColumn *)arg2 %@, allowUnSeal :(long long)arg3 %d, updateDataClasses :%@, updateProperties :%@, getIntraFactoryData :%d /* Error: Ran out of types for this method. */;
+- (NSArray *)InstancesOverride;
+- (void)ataClassesOverride and dataInstancesOverride do not match;
+- (void)DataClassesOverride;
+- (_Bool);
 @end
 

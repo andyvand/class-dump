@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)	;
+- (void);
 - (id);
 - (id);
 - (int);
@@ -21,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int columnNumber;
-@property(nonatomic) int lineNumber;
 @property(copy, nonatomic) NSString *scriptId;
 
 @end

@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UICalendarSelectionSingleDate, UICalendarView, UIDatePicker, _UIDatePickerCalendarTimeView, _UIDatePickerDataModel, _UIDatePickerStyle;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarView : UIView
 {
@@ -16,44 +14,36 @@ __attribute__((visibility("hidden")))
         unsigned int animateUpdateDate:1;
         unsigned int isEnabled:1;
     } _flags;
-    _UIDatePickerStyle *_visualStyle;
-    UICalendarView *_calendarView;
-    UICalendarSelectionSingleDate *_selection;
-    _UIDatePickerCalendarTimeView *_timeView;
-    struct CGSize _lastSize;
-    unsigned long long _stateUpdatesInFlight;
-    UIDatePicker *_datePicker;
-    _UIDatePickerDataModel *_data;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)lowResWallpaperDataTag;
+- (_Bool)_expirable;
+- (void),V_type;
+- (void)lockMap;
 - (void);
+- (void),V_signaturesToRequestIDs;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)MutableDictionary",&,N,V_services;
+- (void)postNotificationWithTitle:body: /* Error: Ran out of types for this method. */;
+- (void)sageItemMap;
+- (void)tableDictionary",&,N,V_recordNameToMessageItemMap;
+- (void)performQueryRequest:completion: /* Error: Ran out of types for this method. */;
+- (void)RecordStoreDeleting;
+- (_Bool)IMDRecoverableMessageStore;
+- (id)IMDGroupConvergenceContext;
 - (struct UIEdgeInsets);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)So30IMDScheduledMessageCoordinatorCXDXMT;
+- (void)So24IMDPersistentTaskQueries_p;
+- (void)Gt;
+- (void)G;
+- (void)};
+- (void)h`;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,11 +54,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)chat.;
+- (void)xt auto reply to chat:%@ /* Error: Ran out of types for this method. */;
+- (void)ppear available to this user;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -80,36 +70,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)de: /* Error: Ran out of types for this method. */;
-- (id)Duration;
-- (void)ion;
-- (struct CGSize):sender: /* Error: Ran out of types for this method. */;
-- (id)ner;
-- (void)ctionGroup;
+- (void)textInteractionForMode: /* Error: Ran out of types for this method. */;
+- (id)shadowSelectionDuration;
+- (void)_resolvedTextAlignmentFollowsWritingDirection;
+- (struct CGSize)_resolvedTargetFromFirstTarget:sender: /* Error: Ran out of types for this method. */;
+- (id)_clearOwner;
+- (void)UIPreviewActionGroup;
 - (struct CGSize)ý¨ýþ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;
-@property(readonly, nonatomic) double contentWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) _UIDatePickerDataModel *data; // @synthesize data=_data;
-@property(nonatomic) __weak UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, nonatomic) long long datePickerStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
 
 @end
 

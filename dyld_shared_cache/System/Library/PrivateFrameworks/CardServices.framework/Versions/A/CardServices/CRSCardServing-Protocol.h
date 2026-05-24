@@ -5,5 +5,6 @@
 //
 
 @protocol CRSCardServing
+- (unsigned long long);
 @end
 

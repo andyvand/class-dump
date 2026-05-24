@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SOSiteCode
 {
     NSString *_code;
-    NSDate *_timeStamp;
-    NSString *_networkFingerprint;
 }
 
-+ (_Bool);
++ (_Bool)h %f;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *code; // @synthesize code=_code;
-@property(readonly, nonatomic) NSString *networkFingerprint; // @synthesize networkFingerprint=_networkFingerprint;
-@property(readonly, nonatomic) NSDate *timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

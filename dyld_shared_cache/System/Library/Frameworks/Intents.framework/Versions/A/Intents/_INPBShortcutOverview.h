@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBImageValue;
+@class _INPBDataString;
 
 @interface _INPBShortcutOverview
 {
     struct _has;
-    _INPBDataString *_descriptiveText;
-    _INPBImageValue *_icon;
-    _INPBDataString *_name;
-    NSArray *_steps;
-    _INPBDataString *_voiceCommand;
 }
 
-+ (Class);
++ (Class)SZExtractorCompressionLibErrorKey;
 + (_Bool);
 - (id);
 - (void);
@@ -25,13 +20,13 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)_startBlock;
 - (void);
 - (id);
 - (id);
@@ -39,31 +34,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)tSiriAirPlayReconnaissanceSessionSetTargetAudioSessionID;
+- (void)INSignpostSiriAirPlayReconnaissanceSessionSetTargetAudioSessionID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBDataString *descriptiveText; // @synthesize descriptiveText=_descriptiveText;
-@property(readonly, nonatomic) _Bool hasDescriptiveText;
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasVoiceCommand;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBImageValue *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _INPBDataString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly, nonatomic) unsigned long long stepsCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *voiceCommand; // @synthesize voiceCommand=_voiceCommand;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PGMeaningActionCriteria, PGMeaningCriteriaInfo, PGMeaningSceneCriteria;
+@class NSString, PGMeaningCriteriaInfo;
 
 @interface PGMeaningCriteriaEvaluator
 {
     NSString *_meaningLabel;
-    PGMeaningCriteriaInfo *_meaningCriteriaInfo;
-    PGMeaningSceneCriteria *_meaningSceneCriteria;
-    PGMeaningActionCriteria *_meaningActionCriteria;
-    NSArray *_allMeaningCriteriaArray;
 }
 
 + (id);
@@ -21,24 +17,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)set_confirmButton: /* Error: Ran out of types for this method. */;
+- (id)setSelectionEndLineIndex: /* Error: Ran out of types for this method. */;
+- (id)setSelected:exclusive: /* Error: Ran out of types for this method. */;
+- (id)__keyboardFocusedApplicationController;
+- (id)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void)PortraitPass;
+- (id)@;
+- (void)WSMePortraitPass;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allMeaningCriteriaArray; // @synthesize allMeaningCriteriaArray=_allMeaningCriteriaArray;
-@property(retain, nonatomic) PGMeaningActionCriteria *meaningActionCriteria; // @synthesize meaningActionCriteria=_meaningActionCriteria;
 @property(retain, nonatomic) PGMeaningCriteriaInfo *meaningCriteriaInfo; // @synthesize meaningCriteriaInfo=_meaningCriteriaInfo;
-@property(readonly, nonatomic) NSString *meaningLabel; // @synthesize meaningLabel=_meaningLabel;
-@property(retain, nonatomic) PGMeaningSceneCriteria *meaningSceneCriteria; // @synthesize meaningSceneCriteria=_meaningSceneCriteria;
 
 @end
 

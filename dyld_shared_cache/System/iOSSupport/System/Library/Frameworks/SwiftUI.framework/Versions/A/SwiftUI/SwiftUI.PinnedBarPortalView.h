@@ -7,9 +7,6 @@
 @interface SwiftUI.PinnedBarPortalView
 {
     id edge;
-    id sourceView;
-    id portalView;
-    id containerInteraction;
 }
 
 - (id);

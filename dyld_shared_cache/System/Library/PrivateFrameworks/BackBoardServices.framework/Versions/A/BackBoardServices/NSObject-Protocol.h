@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)`;
+- (id);
+- (_Bool)ta descriptor:%s /* Error: Ran out of types for this method. */;
+- (unsigned long long)T;
+- (id);
+- (_Bool)s;
+- (id)b;
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MTSXPCDeviceSetupClientProxyDelegate
+- (void)em",&,N,V_transitLineItem;
 @end
 

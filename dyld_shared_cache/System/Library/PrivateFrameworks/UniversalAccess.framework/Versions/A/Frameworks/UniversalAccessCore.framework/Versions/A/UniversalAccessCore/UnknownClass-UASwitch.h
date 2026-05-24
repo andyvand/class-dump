@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface UnknownClass (UASwitch)
 - (void);
@@ -19,43 +19,20 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=uaSwitch_setUUID:) NSUUID *uaSwitch_UUID;
-@property(copy, nonatomic, setter=uaSwitch_setActionURL:) NSString *uaSwitch_actionURL;
-@property(copy, nonatomic, setter=uaSwitch_setSwitchActions:) NSArray *uaSwitch_actions;
-@property(retain, nonatomic, setter=uaSwitch_setBuiltIn:) id uaSwitch_builtIn;
-@property(retain, nonatomic, setter=uaSwitch_setHidKind:) id uaSwitch_hidKind;
-@property(retain, nonatomic, setter=uaSwitch_setInterfaceID:) id uaSwitch_interfaceID;
-@property(retain, nonatomic, setter=uaSwitch_setLocationID:) id uaSwitch_locationID;
-@property(retain, nonatomic, setter=uaSwitch_setManufacturer:) id uaSwitch_manufacturer;
-@property(copy, nonatomic, setter=uaSwitch_setNameLocalizedKey:) NSString *uaSwitch_nameLocalizedKey;
-@property(copy, nonatomic, setter=uaSwitch_setNickname:) NSString *uaSwitch_nickname;
-@property(retain, nonatomic, setter=uaSwitch_setPressHoldOption:) NSNumber *uaSwitch_pressHoldOption;
-@property(retain, nonatomic, setter=uaSwitch_setPrimaryUsage:) id uaSwitch_primaryUsage;
-@property(retain, nonatomic, setter=uaSwitch_setPrimaryUsagePage:) id uaSwitch_primaryUsagePage;
-@property(retain, nonatomic, setter=uaSwitch_setProductID:) id uaSwitch_productID;
-@property(retain, nonatomic, setter=uaSwitch_setProductName:) id uaSwitch_productName;
-@property(retain, nonatomic, setter=uaSwitch_setSerialNumber:) id uaSwitch_serialNumber;
-@property(retain, nonatomic, setter=uaSwitch_setServiceID:) id uaSwitch_serviceID;
-@property(copy, nonatomic, setter=uaSwitch_setShortcutIdentifier:) NSString *uaSwitch_shortcutIdentifier;
-@property(retain, nonatomic, setter=uaSwitch_setSubInterfaceID:) id uaSwitch_subInterfaceID;
-@property(retain, nonatomic, setter=uaSwitch_setSwitchValue:) id uaSwitch_switchValue;
-@property(retain, nonatomic, setter=uaSwitch_setTransport:) id uaSwitch_transport;
-@property(retain, nonatomic, setter=uaSwitch_setTriggerType:) NSNumber *uaSwitch_triggerType;
-@property(retain, nonatomic, setter=uaSwitch_setVendorID:) id uaSwitch_vendorID;
-@property(retain, nonatomic, setter=uaSwitch_setVendorIDSource:) id uaSwitch_vendorIDSource;
 @end
 

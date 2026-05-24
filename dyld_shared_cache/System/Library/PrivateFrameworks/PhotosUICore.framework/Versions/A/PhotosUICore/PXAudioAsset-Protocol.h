@@ -5,32 +5,18 @@
 //
 
 @class NSArray, NSString;
-@protocol PXAudioAsset, PXDisplayAsset;
 
 @protocol PXAudioAsset
+- (CDStruct_1b6d18a9)`;
+- (NSArray *)˿;
+- (CDStruct_1b6d18a9)removeTarget:action:forControlEvents: /* Error: Ran out of types for this method. */;
 - (NSString *)!Bù±:1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
 - (unsigned long long)y;
 - (NSString *);
-- (NSString *)ntReceivedCuration;
+- (NSString *)StoryDefaultSongsProducerEventReceivedCuration;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *albumTitle;
-@property(readonly, copy, nonatomic) NSString *artistName;
-@property(readonly, nonatomic) id <PXDisplayAsset> artworkDisplayAsset;
-@property(readonly, copy, nonatomic) NSString *assetTagsDescription;
-@property(readonly, nonatomic) Class audioSessionClass;
-@property(readonly, nonatomic) long long catalog;
-@property(readonly, copy, nonatomic) NSString *colorGradeCategory;
-@property(readonly, nonatomic) Class defaultMediaProviderClass;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, copy, nonatomic) NSArray *entryPoints;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 exportableDuration;
-@property(readonly, nonatomic) unsigned long long flags;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long pace;
-@property(readonly, nonatomic) id <PXAudioAsset> previewAudioAsset;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *title;
 @end
 

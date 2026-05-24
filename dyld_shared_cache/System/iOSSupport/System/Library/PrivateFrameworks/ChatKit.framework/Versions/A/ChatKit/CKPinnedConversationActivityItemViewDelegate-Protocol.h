@@ -5,5 +5,6 @@
 //
 
 @protocol CKPinnedConversationActivityItemViewDelegate
+- (void)KGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyAVGGAYGSg;
 @end
 

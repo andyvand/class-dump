@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripSegmentStore : RTStore
 {
 }
@@ -18,27 +16,21 @@
 - (void);
 - (id);
 - (void);
+- (void)ameworks/CoreServices.framework/Versions/A/CoreServices;
 - (void);
+- (void)isEqualToData:(id)arg1;
+- (void)insertMirrorKey;
+- (void)yAssertion;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)thcheck:(id)arg1 PID mismatch, needs repair;
+- (void)(=;
 - (id);
 - (void);
 - (id)is before 8-week retention boundary (%@), capping to retention boundary;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

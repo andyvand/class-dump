@@ -11,43 +11,36 @@
     CalendarUIKit.EventEditViewControllerManagerImpl *_impl;
 }
 
-- (void)àª¾¬;
-- (void)!)¢;
-- (void)ªñªìòq
-?×;
-- (void)ªÑôòQ	?×èªCøéª	ìò©øàª!;
-- (void)10@ù
-?×è;
-- (void)ÁÚ"@ùéªÚ10@ù
-?×é;
 - (void);
-- (void)@ù
-?×é;
-- (void)0@ù
-?×é;
-- (void)ý_øñ;
-- (_Bool)Ì<Í<a­#Î<hB¡<Ç<È<É<b­Ê<b­;
-- (void)Ç<È<É<b­Ê<b­;
-- (id)©àªáªöýô;
-- (_Bool)(¾«Yø·øºø;
-- (void)ªáª";
-- (_Bool)
-ëæ;
-- (void)!Cùâªäªé»ô;
-- (void)ÿ	;
+- (void)hf;
 - (void);
-- (void)âªÔ
-?×;
-- (void)ªàªo¼h@øàªáªñªàò	?×éª*Møèª´Yøàªáªñ	ªQ9øòQ	?×¢uðB`;
-- (void)ÒÊ0@¹h@yÖØô;
 - (void);
-- (id);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)ualConferenceEmailHTMLRepresentation: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)B;
+- (_Bool);
+- (_Bool)	;
+- (void);
+- (id)createTmLutsEx:tLutS:sLutI:sLutS:tLutISize:tLutSSize:sLutISize:sLutSSize:config:TmParam:EdrAdaptationParam:AmbAdaptationParam:IsDoVi84:HlgOOTFCombined: /* Error: Ran out of types for this method. */;
+- (void)virtualConferenceEmailHTMLRepresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSViewController *viewController;

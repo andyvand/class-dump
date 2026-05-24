@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineDeletionStats
 {
     unsigned long long _timestamp;
-    unsigned int _deleteType;
-    NSMutableArray *_groups;
-    _Bool _syncEnabled;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deleteType:1;
-        unsigned int syncEnabled:1;
-    } _has;
 }
 
 + (Class);
@@ -27,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -36,7 +26,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)X;
 - (_Bool);
 - (void);
 - (void);
@@ -46,17 +36,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)TimeCallDeclineSent;
+- (id)AWDFaceTimeCallDeclineSent;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int deleteType; // @synthesize deleteType=_deleteType;
-@property(retain, nonatomic) NSMutableArray *groups; // @synthesize groups=_groups;
-@property(nonatomic) _Bool hasDeleteType;
-@property(nonatomic) _Bool hasSyncEnabled;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool syncEnabled; // @synthesize syncEnabled=_syncEnabled;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

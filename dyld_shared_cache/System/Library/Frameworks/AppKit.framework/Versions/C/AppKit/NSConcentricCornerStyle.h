@@ -11,23 +11,21 @@
 @interface NSConcentricCornerStyle : NSCornerStyle
 {
     _NSConcentricCornerRadius *_cornerRadius;
-    NSCornerStyle *_minimumRadiiStyle;
 }
 
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)-;
+- (id)sharedPersistentStore;
+- (id)_incompleteCurrentTaskTransactionMetrics;
 - (double);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)tedSectionFootersAttributesDict;
+- (id)_insertedSectionFootersAttributesDict;
 - (void)ÄÿiØmB;
 
 // Remaining properties
 @property(copy) _NSConcentricCornerRadius *_cornerRadius; // @synthesize _cornerRadius;
-@property(copy) NSCornerStyle *minimumRadiiStyle; // @synthesize minimumRadiiStyle=_minimumRadiiStyle;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AAPIntentsInfoSync)
-- (id);
+- (id)CE{;
 - (id);
 @end
 

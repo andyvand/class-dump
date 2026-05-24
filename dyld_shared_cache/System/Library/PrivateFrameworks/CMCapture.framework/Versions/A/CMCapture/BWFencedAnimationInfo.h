@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface BWFencedAnimationInfo
 {
     long long _fencePortGenerationCount;
-    FigCaptureMachPortSendRight *_fencePortSendRight;
 }
 
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) long long fencePortGenerationCount; // @synthesize fencePortGenerationCount=_fencePortGenerationCount;
 @property(readonly) FigCaptureMachPortSendRight *fencePortSendRight; // @synthesize fencePortSendRight=_fencePortSendRight;
 
 @end

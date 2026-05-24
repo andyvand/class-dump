@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriActivationListener, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFRemoteRequestWatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFSiriActivationListener *_siriActivationListener;
-    CDUnknownBlockType _prewarmHandler;
-    CDUnknownBlockType _requestHandler;
-    CDUnknownBlockType _dismissalHandler;
-    CDUnknownBlockType _intentHandler;
-    CDUnknownBlockType _intentForwardingActionHandler;
-    int _speechRequestToken;
-    CDUnknownBlockType _speechRequestHandler;
-    CDUnknownBlockType _buttonEventHandler;
-    CDUnknownBlockType _activationHandler;
 }
 
+- (void)(	;
 - (void);
 - (void);
 - (void);
@@ -36,22 +27,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)nt.contactlessinterface.presentation-source;
+- (void)c;
 - (void);
 - (void);
 - (id);
-- (void)ctor;
+- (void)sharedCollector;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

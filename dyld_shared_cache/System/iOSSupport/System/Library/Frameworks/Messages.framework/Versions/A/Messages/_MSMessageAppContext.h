@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSConversation, NSMapTable, NSString, UIViewController;
-@protocol _MSMessageComposeExtensionImplProtocol, _MSMessageComposeHostImplProtocol;
+@class MSConversation;
+@protocol _MSMessageComposeExtensionImplProtocol;
 
 @interface _MSMessageAppContext
 {
     id <_MSMessageComposeExtensionImplProtocol> _context;
-    id <_MSMessageComposeExtensionImplProtocol> _keepAliveContext;
-    NSMapTable *_conversationsByIdentifier;
-    _Bool _becomeActiveShouldDispatchAsyncMainQueue;
-    id <_MSMessageComposeExtensionImplProtocol> _containingContext;
-    MSConversation *_activeConversation;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
@@ -52,6 +47,24 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void)<;
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,65 +79,33 @@
 - (void);
 - (void);
 - (void);
+- (void)ostViewController"16@"SXScrollPosition"24;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)isFromBlockedStorefront;
+- (void)articleHostViewController:didScrollToPosition: /* Error: Ran out of types for this method. */;
+- (void)orkView",&,N,V_artworkView;
+- (void)chor>",R,N;
+- (void),V_delegate;
+- (void),W,N,V_delegate;
+- (void)darkStyleFeedBackgroundGradient;
+- (void)BlueprintArticleViewerTokenState;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)lUpdate];
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (id);
+- (void)oderSessionImpl31updateCondenseFormForCandidatesERNSt3__16vectorINS_20CTCSurfaceFormOutputENS1_9allocatorIS3_EEEE12ITTypingModeE3$_0;
+- (unsigned long long);
+- (void)s;
 
 // Remaining properties
 @property(readonly, nonatomic) MSConversation *activeConversation; // @synthesize activeConversation=_activeConversation;
-@property(nonatomic) _Bool becomeActiveShouldDispatchAsyncMainQueue; // @synthesize becomeActiveShouldDispatchAsyncMainQueue=_becomeActiveShouldDispatchAsyncMainQueue;
-@property(retain, nonatomic) id <_MSMessageComposeExtensionImplProtocol> containingContext; // @synthesize containingContext=_containingContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <_MSMessageComposeHostImplProtocol> hostContext;
-@property(nonatomic) unsigned long long presentationContext;
-@property(nonatomic) unsigned long long presentationStyle;
-@property(readonly, nonatomic) __weak UIViewController *stickerViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIViewController *viewController;
 
 @end
 

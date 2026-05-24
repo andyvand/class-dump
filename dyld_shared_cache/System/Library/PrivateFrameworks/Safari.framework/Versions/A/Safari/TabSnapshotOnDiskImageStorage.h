@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, TabSnapshotOnDiskImageStorageMetadataStore;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TabSnapshotOnDiskImageStorage
 {
     NSURL *_storagePath;
-    TabSnapshotOnDiskImageStorageMetadataStore *_metadataStore;
-    long long _initializationStatus;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_APIQueue;
-    NSObject<OS_dispatch_queue> *_diskAccessQueue;
-    NSObject<OS_dispatch_group> *_waitForAPIOperationCompletionBeforeFinalizingSynchronizationGroup;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);

@@ -9,11 +9,9 @@
 @interface _DPValueRange
 {
     NSNumber *_minPossible;
-    NSNumber *_maxPossible;
-    NSNumber *_range;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *maxPossible; // @synthesize maxPossible=_maxPossible;
 @property(readonly, nonatomic) NSNumber *minPossible; // @synthesize minPossible=_minPossible;
-@property(readonly, nonatomic) NSNumber *range; // @synthesize range=_range;
 
 @end
 

@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocument, NSError, NSString, NSURL, QLSeamlessDocumentOpener;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentControllerOpening
 {
     _Bool _documentWasAlreadyOpen;
-    NSURL *_url;
-    QLSeamlessDocumentOpener *_seamlessOpener;
-    NSDocument *_document;
-    NSString *_recentDocumentRecordsKey;
-    NSError *_error;
 }
 
-- (void);
+- (void)cket-options;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)checkOriginAllowedAsThirdParty: /* Error: Ran out of types for this method. */;
+- (id)6-q;
 - (void);
 - (void);
-- (id)sAtRow:count: /* Error: Ran out of types for this method. */;
+- (id)_accessibilityLoadBrowserCellsAtRow:count: /* Error: Ran out of types for this method. */;
 - (void)xB;
 - (id)|Õÿ¹yD;
 - (void)äD;
 
 // Remaining properties
-@property(retain) NSDocument *document; // @synthesize document=_document;
-@property _Bool documentWasAlreadyOpen; // @synthesize documentWasAlreadyOpen=_documentWasAlreadyOpen;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *recentDocumentRecordsKey; // @synthesize recentDocumentRecordsKey=_recentDocumentRecordsKey;
-@property(retain) QLSeamlessDocumentOpener *seamlessOpener; // @synthesize seamlessOpener=_seamlessOpener;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

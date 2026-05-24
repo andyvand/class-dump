@@ -7,33 +7,26 @@
 @class NSString;
 
 @protocol UIMutableTraits
+- (long long);
+- (long long);
+- (NSString *)Lv;
+- (long long);
+- (void)renderKey;
+- (void)quiescenceInterval;
+- (void)motionTransforms;
+- (void)observableLayoutBlueprint;
+- (void)G;
+- (void)8TipViewControllerFactoryTypeP;
+- (void)So12UIPickerViewC;
+- (long long)DelegateTypeP;
+- (void);
+- (double)6;
 - (void);
 - (long long)i_Ô=
 ;
-- (void);
 - (long long)tributes;
 
 // Remaining properties
-@property(nonatomic) long long accessibilityContrast;
-@property(nonatomic) long long activeAppearance;
-@property(nonatomic) long long displayGamut;
-@property(nonatomic) double displayScale;
-@property(nonatomic) long long forceTouchCapability;
-@property(nonatomic) long long horizontalSizeClass;
-@property(nonatomic) long long imageDynamicRange;
-@property(nonatomic) long long layoutDirection;
-@property(nonatomic) long long legibilityWeight;
-@property(nonatomic) long long listEnvironment;
-@property(copy, nonatomic) NSString *preferredContentSizeCategory;
-@property(nonatomic) _Bool resolvesNaturalAlignmentWithBaseWritingDirection;
-@property(nonatomic) long long sceneCaptureState;
-@property(nonatomic) long long splitViewControllerLayoutEnvironment;
-@property(nonatomic) long long tabAccessoryEnvironment;
-@property(nonatomic) long long toolbarItemPresentationSize;
-@property(copy, nonatomic) NSString *typesettingLanguage;
 @property(nonatomic) long long userInterfaceIdiom;
-@property(nonatomic) long long userInterfaceLevel;
-@property(nonatomic) long long userInterfaceStyle;
-@property(nonatomic) long long verticalSizeClass;
 @end
 

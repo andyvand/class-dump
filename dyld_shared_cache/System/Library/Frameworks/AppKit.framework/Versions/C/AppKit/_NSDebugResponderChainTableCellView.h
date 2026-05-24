@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id)ithSize:(struct CGRect)arg1 subitem:count: /* Error: Ran out of types for this method. */;
+- (id)verticalGroupWithSize:(struct CGRect)arg1 subitem:count: /* Error: Ran out of types for this method. */;
 - (id)"NSString",C,V_externalObjectPlaceholderIdentifier;
 - (void)SplitView.TrailingOverlayShadow.Leading;
 - (void)events);

@@ -9,17 +9,15 @@
 @interface PGMeaningfulEventLocationCollectionTrait : PGMeaningfulEventCollectionTrait
 {
     _Bool _useStrictNegativeNodesMatching;
-    _Bool _skipNegativeRequirementForMissingLocation;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)_started;
 
 // Remaining properties
-@property(nonatomic) _Bool skipNegativeRequirementForMissingLocation; // @synthesize skipNegativeRequirementForMissingLocation=_skipNegativeRequirementForMissingLocation;
 @property(nonatomic) _Bool useStrictNegativeNodesMatching; // @synthesize useStrictNegativeNodesMatching=_useStrictNegativeNodesMatching;
 
 @end

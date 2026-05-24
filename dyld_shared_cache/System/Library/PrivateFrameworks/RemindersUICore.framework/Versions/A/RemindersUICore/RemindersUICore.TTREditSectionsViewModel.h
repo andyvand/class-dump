@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTREditSectionsViewModel
 {
     id shouldHideEmptySections;
-    id shouldCategorizeGroceryItems;
-    id shouldAutoCategorizeItems;
-    id itemIdentifiers;
-    id sectionByID;
 }
 
 @end

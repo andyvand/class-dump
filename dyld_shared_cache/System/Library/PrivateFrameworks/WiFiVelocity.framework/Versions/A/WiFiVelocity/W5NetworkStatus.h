@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface W5NetworkStatus
 {
     unsigned int _isAppleReachable;
-    NSString *_primaryIPv4InterfaceName;
-    NSString *_primaryIPv4ServiceName;
-    NSString *_primaryIPv6InterfaceName;
-    NSString *_primaryIPv6ServiceName;
-    NSString *_primaryIPv4ServiceID;
-    NSString *_primaryIPv6ServiceID;
-    NSArray *_primaryIPv4Addresses;
-    NSArray *_primaryIPv6Addresses;
-    NSString *_primaryIPv4Router;
-    NSString *_primaryIPv6Router;
-    NSArray *_primaryDNSAddresses;
 }
 
 + (_Bool);

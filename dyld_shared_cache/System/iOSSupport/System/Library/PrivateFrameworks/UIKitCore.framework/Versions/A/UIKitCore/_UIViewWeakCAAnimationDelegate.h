@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CAAnimationDelegate;
 
 __attribute__((visibility("hidden")))
@@ -17,22 +16,15 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-+ (id);
++ (id)nothing to do here. Chat:(id)arg1 [%@];
 - (id);
 - (id);
-- (void)ewAlphaOverrideAssertionCGSg;
+- (void)SaySo29_UIViewAlphaOverrideAssertionCGSg;
 - (void);
 - (void)èã[;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CAAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

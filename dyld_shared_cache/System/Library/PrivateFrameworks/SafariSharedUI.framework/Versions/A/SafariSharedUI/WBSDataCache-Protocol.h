@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WBSDataCacheDelegate;
-
 @protocol WBSDataCache
+- (void);
+- (_Bool)NSt3__110__function6__baseIF13TFENodeVectorP13objc_selectorEEE;
 - (void)TF-8&fr=applep1;
 
 // Remaining properties
-@property(nonatomic) __weak id <WBSDataCacheDelegate> dataCacheDelegate;
 @property(readonly, nonatomic, getter=isTerminating) _Bool terminating;
 @end
 

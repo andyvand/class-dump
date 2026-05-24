@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVCallback, NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface MSVMultiCallback
 {
     NSMutableArray *_callbacks;
-    MSVCallback *_firstCallback;
-    MSVCallback *_lastCallback;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)8;
+- (void)_device;
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,10 +25,7 @@
 - (id)erateColorMaps() - Failed to create CG Image;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *callbacks;
 @property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) MSVCallback *firstCallback;
-@property(retain, nonatomic) MSVCallback *lastCallback;
 
 @end
 

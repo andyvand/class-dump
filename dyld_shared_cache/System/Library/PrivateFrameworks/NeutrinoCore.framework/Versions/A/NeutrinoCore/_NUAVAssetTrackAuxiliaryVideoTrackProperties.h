@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NUAVAssetTrackAuxiliaryVideoTrackProperties
 {
     int _trackID;
-    CDStruct_d58201db _size;
 }
 
 - (id);
 - (CDStruct_912cb5d2);
-- (void);
+- (void)and try to capture the corresponding crash report for wifivelocityd.;
 - (void);
 - (int)_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 @property(nonatomic) int trackID; // @synthesize trackID=_trackID;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface SPStandaloneBeacon
 {
     NSUUID *_identifier;
-    NSData *_macAddress;
-    NSData *_classicMacAddress;
-    NSString *_serialNumber;
-    NSDate *_pairingDate;
-    NSData *_productData;
 }
 
 + (_Bool);
@@ -27,24 +22,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)%;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)IncludeDevicePrefixInTitle;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *classicMacAddress; // @synthesize classicMacAddress=_classicMacAddress;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSDate *pairingDate; // @synthesize pairingDate=_pairingDate;
-@property(copy, nonatomic) NSData *productData; // @synthesize productData=_productData;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

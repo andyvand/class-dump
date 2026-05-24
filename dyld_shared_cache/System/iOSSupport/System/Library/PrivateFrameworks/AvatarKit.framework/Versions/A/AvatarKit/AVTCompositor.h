@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)plingFactorKey;
+- (void)AVTViewSnapshotDisableSuperSamplingFactorKey;
 
 @end
 

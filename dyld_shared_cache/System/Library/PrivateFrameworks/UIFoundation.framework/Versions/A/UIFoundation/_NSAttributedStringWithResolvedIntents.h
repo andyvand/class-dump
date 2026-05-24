@@ -9,7 +9,6 @@
 @interface _NSAttributedStringWithResolvedIntents
 {
     NSAttributedString *_string;
-    Class _resolver;
 }
 
 - (id);

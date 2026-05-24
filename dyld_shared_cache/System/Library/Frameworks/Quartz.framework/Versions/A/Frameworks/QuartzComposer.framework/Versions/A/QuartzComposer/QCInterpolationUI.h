@@ -6,15 +6,14 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSMatrix, QCInterpolationView;
+@class NSMatrix;
 
 @interface QCInterpolationUI : QCInspector
 {
     NSMatrix *interpolationMatrix;
-    QCInterpolationView *splineView;
 }
 
-+ (id);
++ (id)T	;
 - (void);
 - (void);
 - (void);

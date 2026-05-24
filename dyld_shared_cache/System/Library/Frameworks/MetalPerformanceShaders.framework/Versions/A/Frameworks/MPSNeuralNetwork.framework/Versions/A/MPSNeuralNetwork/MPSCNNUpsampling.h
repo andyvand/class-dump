@@ -9,9 +9,6 @@
 @interface MPSCNNUpsampling : MPSCNNKernel
 {
     unsigned long long _filterType;
-    double _scaleFactorX;
-    double _scaleFactorY;
-    _Bool _alignCorners;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -24,12 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (id)ne_2dArray_2d_2dArray_float;
+- (id)MPSRNNPNormCombine_2dArray_2d_2dArray_float;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alignCorners; // @synthesize alignCorners=_alignCorners;
 @property(readonly, nonatomic) double scaleFactorX; // @synthesize scaleFactorX=_scaleFactorX;
-@property(readonly, nonatomic) double scaleFactorY; // @synthesize scaleFactorY=_scaleFactorY;
 
 @end
 

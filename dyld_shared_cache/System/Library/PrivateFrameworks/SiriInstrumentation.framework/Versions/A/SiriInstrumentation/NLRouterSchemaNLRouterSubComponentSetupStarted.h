@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaVersion;
-
 @interface NLRouterSchemaNLRouterSubComponentSetupStarted : SISchemaInstrumentationMessage
 {
     int _nlRouterSubComponent;
-    SISchemaVersion *_assetVersion;
-    CDStruct_5c0d9b80 _has;
-    _Bool _hasAssetVersion;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)a	;
+- (void)essl-2.2/crypto/pem/pem_sign.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)nHardware:(id)arg1;
+- (void)setRecognitionHardware:(id)arg1;
 - (id),N,V_hasPrimaryActionCandidateId;
 - (id)ed",&,N,V_plusSuggesterQueried;
-- (id)PSchemaGroupedMessagesClientEvent;
+- (id)GRPSchemaGroupedMessagesClientEvent;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaVersion *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasNlRouterSubComponent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int nlRouterSubComponent; // @synthesize nlRouterSubComponent=_nlRouterSubComponent;
 
 @end

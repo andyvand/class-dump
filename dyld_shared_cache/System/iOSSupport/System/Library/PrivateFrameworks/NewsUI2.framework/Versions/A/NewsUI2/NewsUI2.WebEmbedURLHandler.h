@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

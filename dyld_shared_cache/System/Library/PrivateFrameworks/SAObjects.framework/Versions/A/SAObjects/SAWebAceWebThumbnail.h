@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *url;

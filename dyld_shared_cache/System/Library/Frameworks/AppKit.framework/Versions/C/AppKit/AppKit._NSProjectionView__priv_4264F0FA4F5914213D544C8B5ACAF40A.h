@@ -14,7 +14,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)ewItem;
+- (id)_splitViewItem;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool wantsUpdateLayer;

@@ -9,9 +9,13 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)t;
+- (void)opyValueToAddress unknown value:(NSURLSession *)arg1 %@ for type vec4;
+- (void)YCbCrMatrixKey not defined for buffer %@;
 - (void)
 × ;
-- (void)estWithCompletionHandler:(NSURLSession *)arg1;
+- (void)_sendPreflightRequestWithCompletionHandler:(NSURLSession *)arg1;
 - (void)õSà$YÈå/CIUc¨N¦4?¢joñ]'R~ÿ¹NpýÊ®0]½ ádjxH5ìM0oATæ¿8
 ãëë\ßnT¯Jòõâv8÷ÆÁ`¶gtuÌY´ùF«kÝJÚÌ-ð©°®ÐVInxQÙ´"*]îåÆÎKNvm> §×3ÂÙP¹¾Äd6[ëì*pAç\|¼Æ£ËËöNüÏAÅ´Å#"
 ,ü/Ä©º+ÖÖ;B[ÛP!îIÞ£ãrYW%ÏºVäwgyAFè@D3»Jóµ0KÊUÊm	åIÀ` ÙÊÙ­a§þ°a÷Ïq^ 2¨q9 [|µé­òÒè4áèÔ_ÝªMê`bP­u]£Föìå8RÛ<tá(¯$~t|nÈ`©ñ/þCèµÀûZì"ª;

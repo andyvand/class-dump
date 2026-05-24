@@ -7,6 +7,8 @@
 @class NSDictionary;
 
 @protocol CPLReference
+- (void)coreThreshold;
+- (NSDictionary *)enum_kMDItemPhotosDescription_n3_prefixlast;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *extraProperties;

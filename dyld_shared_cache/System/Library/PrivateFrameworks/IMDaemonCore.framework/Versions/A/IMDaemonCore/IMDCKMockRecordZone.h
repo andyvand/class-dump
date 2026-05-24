@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSKVStore, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface IMDCKMockRecordZone
 {
     NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    IDSKVStore *_recordStore;
 }
 
 - (id);
@@ -25,14 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)PG_QUERY__ALTER_TABLE_TYPE__AT_AddColumnToView;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) IDSKVStore *recordStore; // @synthesize recordStore=_recordStore;
 
 @end
 

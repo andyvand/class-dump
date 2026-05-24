@@ -6,12 +6,11 @@
 
 #import <Navigation/MNNavigationServiceCallbackParameters.h>
 
-@class MNTrafficIncidentAlert, NSString;
+@class MNTrafficIncidentAlert;
 
 @interface Navigation.MNNavigationServiceCallback_DidUpdateTrafficIncidentAlert : MNNavigationServiceCallbackParameters
 {
     MNTrafficIncidentAlert *trafficIncidentAlert;
-    long long updateType;
 }
 
 + (_Bool);
@@ -20,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (long long);
-- (void)edVehicles: /* Error: Ran out of types for this method. */;
+- (void)virtualGarage:didUpdateUnpairedVehicles: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) MNTrafficIncidentAlert *trafficIncidentAlert; // @synthesize trafficIncidentAlert;
-@property(nonatomic, readonly) unsigned long long type;
-@property(nonatomic, readonly) long long updateType; // @synthesize updateType;
-@property(nonatomic, readonly) NSString *updateTypeString;
 
 @end
 

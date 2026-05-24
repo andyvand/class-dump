@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLCollection, NSString;
+@class NSString;
 
 @interface DOMHTMLFormElement : DOMHTMLElement
 {
@@ -21,31 +21,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)tvRestrictionRatingSystem;
+- (id)dataTaskWithRequest:signpostID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)initWithRootElementNameSpace:name:parseClass:baseURL: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)initWithVirtualModel:(id)arg1;
+- (void)NEModel.ioSIDModelWeight=%u virtualANEModel.ioSIDKey=%u virtualANEModel.string_id=%lld virtualANEModel.programHandle=%lld virtualANEModel.intermediateBufferHandle=%lld virtualANEModel.queueDepth=%d virtualANEModel.ioSIDModelAttributes=%u virtualANEModel.perfStatsMask=%u virtualANEModel.qos=%u virtualANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u;
 - (id);
 - (id),GisEnabled;
 
 // Remaining properties
 @property(copy) NSString *acceptCharset;
-@property(copy) NSString *action;
-@property(readonly) DOMHTMLCollection *elements;
-@property(copy) NSString *encoding;
-@property(copy) NSString *enctype;
-@property(readonly) int length;
-@property(copy) NSString *method;
-@property(copy) NSString *name;
-@property(copy) NSString *target;
 
 @end
 

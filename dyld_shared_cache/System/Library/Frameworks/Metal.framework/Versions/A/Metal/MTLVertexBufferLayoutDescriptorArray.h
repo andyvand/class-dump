@@ -10,7 +10,7 @@
 
 + (id)ÿÿ;
 + (id)Àúÿ4;
-- (void)mandBufferGeneration;
+- (void)_lastCommittedCommandBufferGeneration;
 - (id)T;
 
 @end

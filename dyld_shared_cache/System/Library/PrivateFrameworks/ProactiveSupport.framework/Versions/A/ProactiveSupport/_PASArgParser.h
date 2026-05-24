@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface _PASArgParser
 {
     NSMutableArray *_registeredSubcommands;
-    NSMutableArray *_registeredOptions;
-    NSMutableSet *_requiredOptions;
-    CDUnknownBlockType _handler;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
-- (void);
-- (id);
-- (id);
++ (id)-[UARPControllerXPC getAttestationCertificates:(CDUnknownBlockType)arg1 ];
++ (id)lizationVectorForAccessory:(CDUnknownBlockType)arg1 assetTag:outVector:] /* Error: Ran out of types for this method. */;
++ (id)> ;
++ (id)partnerSerialNumbers;
++ (id)%d.%d.%d.%d, ;
+- (id)SB-C to 3.5 mm Headphone Jack Adapter;
+- (void)roller personalization;
+- (id)isterForSupplementalAssetAvailabilityNotification:] /* Error: Ran out of types for this method. */;
+- (id)osted:] /* Error: Ran out of types for this method. */;
+- (void)Controller supplementalAssetAvailabilityNotificationPosted:(id)arg1 ];
+- (id)ontroller availabilityNotificationForSupportedAccessoriesFilePosted:] /* Error: Ran out of types for this method. */;
+- (id)sted:(id)arg1 ];
+- (int)arp.supportedAccessoriesMetadataFileAvailable;
+- (id)alue = %u;
+- (void)u;
+- (id)Duo Charger;
+- (id)ePersonalizationResponse:(id)arg1 ];
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)recurrence_id;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) NSMutableArray *registeredOptions; // @synthesize registeredOptions=_registeredOptions;
 @property(readonly, nonatomic) NSMutableArray *registeredSubcommands; // @synthesize registeredSubcommands=_registeredSubcommands;
-@property(retain, nonatomic) NSMutableSet *requiredOptions; // @synthesize requiredOptions=_requiredOptions;
 
 @end
 

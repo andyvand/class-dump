@@ -5,12 +5,10 @@
 //
 
 @class PDScheduledActivityCriteria;
-@protocol NSObject><NSSecureCoding;
 
 @interface PDScheduledActivityRegistration
 {
     PDScheduledActivityCriteria *_activityCriteria;
-    id <NSObject><NSSecureCoding> _activityContext;
 }
 
 + (_Bool)±î%1Â0@ù
@@ -18,15 +16,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_percentageWcpsDisabled;
 - (void);
 - (id);
-- (id);
-- (_Bool)emoved:(id)arg1 passUniqueID: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (_Bool)selectedPaymentOfferRemoved:(id)arg1 passUniqueID: /* Error: Ran out of types for this method. */;
 - (void)yg NSay¦;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSObject><NSSecureCoding> activityContext; // @synthesize activityContext=_activityContext;
 @property(readonly, nonatomic) PDScheduledActivityCriteria *activityCriteria; // @synthesize activityCriteria=_activityCriteria;
 
 @end

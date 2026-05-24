@@ -9,9 +9,11 @@
 @protocol SFFeedbackListener
 
 @optional
-- (void)ct:(SFCardViewAppearFeedback *)arg1;
-- (void)tWithContentsOfRequest:(SFUserReportFeedback *)arg1 behind:display:browsingMode:isPopupWindow:inProfileIdentifier: /* Error: Ran out of types for this method. */;
+- (void)o;
 - (void);
+- (void)a;
+- (void)postNotificationName:(SFCardViewAppearFeedback *)arg1 object: /* Error: Ran out of types for this method. */;
+- (void)_openDocumentWithContentsOfRequest:(SFUserReportFeedback *)arg1 behind:display:browsingMode:isPopupWindow:inProfileIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Ü;
 - (void);

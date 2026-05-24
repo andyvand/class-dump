@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRValueProtobuf;
+@class NSString;
 
 @interface _MRKeyValuePairProtobuf
 {
     NSString *_key;
-    _MRValueProtobuf *_value;
 }
 
 - (void);
-- (id);
+- (id)j&;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ssagePartTranslation;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)nearbyDevicesRequestIdentifier;
+- (id)InstanceContext isCurrent];
 - (void)
 × ;
-- (void)fyDelegateOfUpdatedClientProperties: /* Error: Ran out of types for this method. */;
+- (void)_notifyDelegateOfUpdatedClientProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) _MRValueProtobuf *value; // @synthesize value=_value;
 
 @end
 

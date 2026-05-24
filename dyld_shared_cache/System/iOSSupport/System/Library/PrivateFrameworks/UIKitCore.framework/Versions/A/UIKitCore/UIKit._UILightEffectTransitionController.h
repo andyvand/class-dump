@@ -7,8 +7,6 @@
 @interface UIKit._UILightEffectTransitionController
 {
     id delegate;
-    id targetVisibility;
-    id states;
 }
 
 @end

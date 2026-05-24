@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIVideoAnalyzerDynamicConfiguration, HMIVideoAnalyzerResultOutcome, HMIVideoFragment, NSArray, NSSet, NSString;
+@class HMIVideoFragment;
 
 @interface HMIVideoAnalyzerFragmentResult
 {
     HMIVideoFragment *_fragment;
-    NSArray *_thumbnails;
-    HMIVideoAnalyzerResultOutcome *_outcome;
-    NSArray *_frameResults;
-    HMIVideoAnalyzerDynamicConfiguration *_configuration;
-    NSSet *_events;
 }
 
 + (_Bool);
@@ -31,23 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) HMIVideoAnalyzerDynamicConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSSet *events; // @synthesize events=_events;
 @property(readonly) HMIVideoFragment *fragment; // @synthesize fragment=_fragment;
-@property(readonly) NSArray *frameResults; // @synthesize frameResults=_frameResults;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMIVideoAnalyzerResultOutcome *outcome; // @synthesize outcome=_outcome;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *thumbnails; // @synthesize thumbnails=_thumbnails;
 
 @end
 

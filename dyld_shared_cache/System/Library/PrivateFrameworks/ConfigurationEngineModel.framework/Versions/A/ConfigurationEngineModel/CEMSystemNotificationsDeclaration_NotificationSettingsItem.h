@@ -6,21 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSystemNotificationsDeclaration_NotificationSettingsItem : CEMPayloadBase
 {
     NSString *_payloadBundleIdentifier;
-    NSNumber *_payloadNotificationsEnabled;
-    NSNumber *_payloadShowInNotificationCenter;
-    NSNumber *_payloadShowInLockScreen;
-    NSNumber *_payloadAlertType;
-    NSNumber *_payloadBadgesEnabled;
-    NSNumber *_payloadSoundsEnabled;
-    NSNumber *_payloadShowInCarPlay;
-    NSNumber *_payloadEmergencyEnabled;
-    NSNumber *_payloadCriticalAlertEnabled;
-    NSNumber *_payloadGroupingType;
 }
 
 + (id);
@@ -48,23 +38,13 @@
 - (id);
 - (void);
 - (void);
+- (id)`;
+- (_Bool)sibilityUtilities.framework/AccessibilityUtilities;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAlertType; // @synthesize payloadAlertType=_payloadAlertType;
-@property(copy, nonatomic) NSNumber *payloadBadgesEnabled; // @synthesize payloadBadgesEnabled=_payloadBadgesEnabled;
 @property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;
-@property(copy, nonatomic) NSNumber *payloadCriticalAlertEnabled; // @synthesize payloadCriticalAlertEnabled=_payloadCriticalAlertEnabled;
-@property(copy, nonatomic) NSNumber *payloadEmergencyEnabled; // @synthesize payloadEmergencyEnabled=_payloadEmergencyEnabled;
-@property(copy, nonatomic) NSNumber *payloadGroupingType; // @synthesize payloadGroupingType=_payloadGroupingType;
-@property(copy, nonatomic) NSNumber *payloadNotificationsEnabled; // @synthesize payloadNotificationsEnabled=_payloadNotificationsEnabled;
-@property(copy, nonatomic) NSNumber *payloadShowInCarPlay; // @synthesize payloadShowInCarPlay=_payloadShowInCarPlay;
-@property(copy, nonatomic) NSNumber *payloadShowInLockScreen; // @synthesize payloadShowInLockScreen=_payloadShowInLockScreen;
-@property(copy, nonatomic) NSNumber *payloadShowInNotificationCenter; // @synthesize payloadShowInNotificationCenter=_payloadShowInNotificationCenter;
-@property(copy, nonatomic) NSNumber *payloadSoundsEnabled; // @synthesize payloadSoundsEnabled=_payloadSoundsEnabled;
 
 @end
 

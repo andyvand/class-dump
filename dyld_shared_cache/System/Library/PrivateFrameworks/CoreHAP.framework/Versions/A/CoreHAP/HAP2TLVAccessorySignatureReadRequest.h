@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVParamAccessoryList, NSString;
+@class HAP2TLVParamAccessoryList;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVAccessorySignatureReadRequest
@@ -19,20 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)event with a timestamp in the future;
 - (_Bool);
 - (id);
-- (void)racteristicList: /* Error: Ran out of types for this method. */;
+- (void)setCharacteristicList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAP2TLVParamAccessoryList *accessoryList; // @synthesize accessoryList=_accessoryList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FCTopStoriesStyleConfiguration
 {
     NSDictionary *_configDict;
-    int _storyType;
-    NSString *_label;
-    FCColor *_foreground_color;
-    FCColor *_dark_style_foreground_color;
-    NSString *_stringType;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)268@276@284@292@300@308@316@324;
+- (id)_getBuildVersion;
 - (id);
-- (id);
-- (void)nBaselineClickValue;
-- (int)nEnabledLevel;
+- (void)premiumSubscriptionActivationBaselineClickValue;
+- (int)feedRedesignEnabledLevel;
 - (id)e base64 for certificate request;
 
 // Remaining properties
-@property(readonly, nonatomic) FCColor *dark_style_foreground_color; // @synthesize dark_style_foreground_color=_dark_style_foreground_color;
-@property(readonly, nonatomic) FCColor *foreground_color; // @synthesize foreground_color=_foreground_color;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 @property(readonly, nonatomic) int storyType; // @synthesize storyType=_storyType;
-@property(readonly, nonatomic) NSString *stringType; // @synthesize stringType=_stringType;
 
 @end
 

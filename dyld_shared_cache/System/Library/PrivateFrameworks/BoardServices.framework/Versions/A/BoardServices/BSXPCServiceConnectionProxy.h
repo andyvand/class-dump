@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCProtocol, BSServiceDispatchQueue, BSServiceQueue, BSXPCServiceConnection, NSArray, NSObject, RBSAssertion, RBSTarget;
-@protocol BSXPCServiceConnectionHandshake, OS_xpc_object;
+@class BSXPCServiceConnection;
 
 @interface BSXPCServiceConnectionProxy
 {
     BSXPCServiceConnection *_connection;
-    id <BSXPCServiceConnectionHandshake> _lock_handshake;
-    BSObjCProtocol *_remoteProtocol;
-    NSObject<OS_xpc_object> *_underlyingConnection;
-    BSServiceDispatchQueue *_targetQueue;
-    BSServiceQueue *_replyQueue;
-    RBSTarget *_target;
-    NSArray *_attributes;
-    CDUnknownBlockType _assertionProvider;
-    RBSAssertion *_lock_assertion;
-    struct os_unfair_lock_s _lock;
-    unsigned int _lock_messagesCount;
-    unsigned int _activationGeneration;
 }
 
 - (void);

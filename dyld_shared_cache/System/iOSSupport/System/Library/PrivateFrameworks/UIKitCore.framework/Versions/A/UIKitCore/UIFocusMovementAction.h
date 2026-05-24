@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFocusInputDeviceInfo, _UIFocusMovementInfo;
+@class _UIFocusMovementInfo;
 
 @interface UIFocusMovementAction
 {
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)is really bad!;
+- (id)isScheduledMessage;
+- (id)recoverableDeleteDate;
+- (id)deleteIncomingMessages;
 - (struct CGRect);
 - (id);
 - (id);
@@ -21,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusMovementInfo *focusMovementInfo;
-@property(readonly, nonatomic) struct CGRect focusedFrame;
-@property(readonly, nonatomic) _UIFocusInputDeviceInfo *inputDeviceInfo;
-@property(readonly, nonatomic) _Bool shouldPerformHapticFeedback;
 
 @end
 

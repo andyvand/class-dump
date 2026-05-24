@@ -9,13 +9,11 @@
 @interface TSDPathStroker
 {
     TSUColor *mColor;
-    double mWidth;
-    TSDPathStroker *mPrecedingStroker;
 }
 
-- (void);
+- (void)start:(struct CGPath *)arg1;
 - (id);
-- (void);
+- (void)h;
 - (double);
 - (void);
 

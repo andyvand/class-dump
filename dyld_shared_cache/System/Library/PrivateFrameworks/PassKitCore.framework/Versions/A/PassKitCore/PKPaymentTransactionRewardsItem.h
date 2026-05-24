@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPaymentTransactionRewardsItem
 {
     _Bool _hasEnhancedMerchantProgramIdentifier;
-    NSString *_identifier;
-    unsigned long long _type;
-    unsigned long long _state;
-    PKCurrencyAmount *_currencyAmount;
-    NSDecimalNumber *_eligibleValue;
-    unsigned long long _eligibleValueUnit;
-    NSString *_promotionName;
-    NSString *_promotionIdentifier;
-    NSString *_programIdentifier;
 }
 
 + (_Bool)0@ù
@@ -45,26 +36,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool)p"b1"numberOfRecipients"b1"remoteSessionEndReason"b1};
+- (void)_infraDutyCycle;
 - (void);
 - (id);
-- (id)nURL;
-- (void)imulateWalletDisabledForManagedAccountKey;
+- (void);
+- (id);
+- (id)hasTokenNotificationURL;
+- (void)PKSimulateWalletDisabledForManagedAccountKey;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) NSDecimalNumber *eligibleValue; // @synthesize eligibleValue=_eligibleValue;
-@property(nonatomic) unsigned long long eligibleValueUnit; // @synthesize eligibleValueUnit=_eligibleValueUnit;
-@property(nonatomic) _Bool hasEnhancedMerchantProgramIdentifier; // @synthesize hasEnhancedMerchantProgramIdentifier=_hasEnhancedMerchantProgramIdentifier;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *programIdentifier; // @synthesize programIdentifier=_programIdentifier;
-@property(retain, nonatomic) NSString *promotionIdentifier; // @synthesize promotionIdentifier=_promotionIdentifier;
-@property(retain, nonatomic) NSString *promotionName; // @synthesize promotionName=_promotionName;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

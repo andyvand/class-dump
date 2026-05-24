@@ -7,8 +7,6 @@
 @interface AppStoreKit.ShareSheetGenericMetadata
 {
     id text;
-    id subtitle;
-    id artwork;
 }
 
 @end

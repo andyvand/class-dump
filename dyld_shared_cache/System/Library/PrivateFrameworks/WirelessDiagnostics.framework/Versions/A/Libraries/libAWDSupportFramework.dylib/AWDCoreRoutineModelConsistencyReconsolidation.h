@@ -7,11 +7,6 @@
 @interface AWDCoreRoutineModelConsistencyReconsolidation
 {
     unsigned long long _timestamp;
-    int _countOfReconsolidatedLOIs;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int countOfReconsolidatedLOIs:1;
-    } _has;
 }
 
 - (void);
@@ -29,14 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int countOfReconsolidatedLOIs; // @synthesize countOfReconsolidatedLOIs=_countOfReconsolidatedLOIs;
-@property(nonatomic) _Bool hasCountOfReconsolidatedLOIs;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

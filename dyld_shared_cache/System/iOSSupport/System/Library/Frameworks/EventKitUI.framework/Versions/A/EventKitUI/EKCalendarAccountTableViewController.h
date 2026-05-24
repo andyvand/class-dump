@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore, NSMutableArray, NSString;
+@class EKEventStore;
 @protocol EKCalendarAccountTableViewControllerDelegate;
 
 @interface EKCalendarAccountTableViewController
 {
     id <EKCalendarAccountTableViewControllerDelegate> _delegate;
-    NSString *_currentSourceIdentifier;
-    EKEventStore *_eventStore;
-    EKCalendar *_calendar;
 }
 
-- (void);
+- (void)&s;
 - (void);
 - (id);
 - (id);
@@ -25,19 +22,15 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)__DATA_CONST;
+- (void)`;
 - (void);
 - (id);
-- (void)tDateDirty;
+- (void)isStartDateDirty;
 - (void);
 - (id)ÿH;
 
 // Remaining properties
-@property(readonly) NSMutableArray *accounts;
-@property __weak EKCalendar *calendar; // @synthesize calendar=_calendar;
-@property(retain) NSString *currentSourceIdentifier; // @synthesize currentSourceIdentifier=_currentSourceIdentifier;
-@property(nonatomic) __weak id <EKCalendarAccountTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property __weak EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
 
 @end

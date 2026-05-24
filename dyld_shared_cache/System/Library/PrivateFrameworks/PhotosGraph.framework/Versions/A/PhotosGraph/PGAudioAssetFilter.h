@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSIndexSet;
 
 @interface PGAudioAssetFilter
 {
     NSIndexSet *_audioClassifications;
 }
 
-+ (id);
++ (id)cationLevel: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (_Bool);
+- (_Bool).phJDKU/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void)erFilteringContextMinimumFaceQuality;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextMinimumFaceQuality;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *audioClassifications; // @synthesize audioClassifications=_audioClassifications;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

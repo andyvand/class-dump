@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RMManagedKeychainController
 {
     long long _scope;
-    NSString *_personaID;
 }
 
 + (_Bool);
@@ -19,14 +16,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)D;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
 - (id);
@@ -45,7 +42,6 @@
 - (void)blic}s;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
 @property(nonatomic) long long scope; // @synthesize scope=_scope;
 
 @end

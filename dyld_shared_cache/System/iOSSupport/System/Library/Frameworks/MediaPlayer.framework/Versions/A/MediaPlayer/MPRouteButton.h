@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, MPRouteLabel, NSArray, NSString, UIColor, UIFont, UIImage, UIImageSymbolConfiguration, UIImageView;
+@class MPRouteLabel, UIImage;
 
 @interface MPRouteButton
 {
     MPRouteLabel *_routeLabel;
-    double _alphaOverride;
-    _Bool _routeLabelHidden;
-    UIImage *_accessoryImage;
-    UIImageView *_accessoryImageView;
-    double _accessoryImageSpacing;
-    UIFont *_font;
-    MPAVRoute *_route;
-    NSString *_routeTitle;
-    UIColor *_overrideColor;
-    long long _routeLabelAxis;
-    struct UIEdgeInsets _hitRectInsets;
 }
 
 - (void);
@@ -31,20 +20,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)P;
 - (void);
 - (id);
-- (id);
+- (id)�@;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)name now forked;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)48@0:8@16@24@32@40 /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -57,22 +46,10 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void)isodeType__MAPPING_MISSING__;
+- (void)__MPModelPropertyTVEpisodeType__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *accessoryImage; // @synthesize accessoryImage=_accessoryImage;
-@property(nonatomic) double accessoryImageSpacing; // @synthesize accessoryImageSpacing=_accessoryImageSpacing;
-@property(retain, nonatomic) UIImageView *accessoryImageView; // @synthesize accessoryImageView=_accessoryImageView;
-@property(readonly, nonatomic) NSArray *contentViews;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) _Bool forcesUppercaseText;
-@property(nonatomic) struct UIEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(retain, nonatomic) UIColor *overrideColor; // @synthesize overrideColor=_overrideColor;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) MPAVRoute *route; // @synthesize route=_route;
-@property(nonatomic) long long routeLabelAxis; // @synthesize routeLabelAxis=_routeLabelAxis;
-@property(nonatomic, getter=isRouteLabelHidden) _Bool routeLabelHidden; // @synthesize routeLabelHidden=_routeLabelHidden;
-@property(readonly, copy, nonatomic) NSString *routeTitle; // @synthesize routeTitle=_routeTitle;
 
 @end
 

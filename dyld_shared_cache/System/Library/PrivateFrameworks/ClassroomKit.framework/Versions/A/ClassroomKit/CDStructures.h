@@ -11,18 +11,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _NSRange {
@@ -75,29 +75,29 @@ struct ifaddrs {
 struct sockaddr;
 
 struct stat {
-    int st_dev;
-    unsigned short st_mode;
-    unsigned short st_nlink;
-    unsigned long long st_ino;
-    unsigned int st_uid;
-    unsigned int st_gid;
-    int st_rdev;
-    struct timespec st_atimespec;
-    struct timespec st_mtimespec;
-    struct timespec st_ctimespec;
-    struct timespec st_birthtimespec;
-    long long st_size;
-    long long st_blocks;
-    int st_blksize;
-    unsigned int st_flags;
-    unsigned int st_gen;
-    int st_lspare;
-    long long st_qspare[2];
+    int _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+    unsigned long long _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    int _field7;
+    struct timespec _field8;
+    struct timespec _field9;
+    struct timespec _field10;
+    struct timespec _field11;
+    long long _field12;
+    long long _field13;
+    int _field14;
+    unsigned int _field15;
+    unsigned int _field16;
+    int _field17;
+    long long _field18[2];
 };
 
 struct timespec {
-    long long tv_sec;
-    long long tv_nsec;
+    long long _field1;
+    long long _field2;
 };
 
 #pragma mark Typedef'd Structures

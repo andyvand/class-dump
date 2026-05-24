@@ -13,16 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long depthPlane; // @dynamic depthPlane;
-@property(nonatomic) unsigned long long level; // @dynamic level;
-@property(nonatomic) unsigned long long loadAction; // @dynamic loadAction;
-@property(nonatomic) unsigned long long resolveDepthPlane; // @dynamic resolveDepthPlane;
-@property(nonatomic) unsigned long long resolveLevel; // @dynamic resolveLevel;
-@property(nonatomic) unsigned long long resolveSlice; // @dynamic resolveSlice;
-@property(retain, nonatomic) id <MTLTexture> resolveTexture; // @dynamic resolveTexture;
-@property(nonatomic) unsigned long long slice; // @dynamic slice;
-@property(nonatomic) unsigned long long storeAction; // @dynamic storeAction;
-@property(nonatomic) unsigned long long storeActionOptions; // @dynamic storeActionOptions;
 @property(retain, nonatomic) id <MTLTexture> texture; // @dynamic texture;
 
 @end

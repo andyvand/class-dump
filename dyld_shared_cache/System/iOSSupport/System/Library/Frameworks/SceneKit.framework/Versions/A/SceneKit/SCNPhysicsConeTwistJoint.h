@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsConeTwistJoint : SCNPhysicsBehavior
 {
@@ -19,13 +19,11 @@
         double maximumAngularLimit2;
         double maximumTwistAngle;
     } _definition;
-    struct btConeTwistConstraint *_constraint;
-    SCNPhysicsWorld *_world;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ScriptInjectionController showAutoFillButtonOfType:inControlIfFocused:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -37,24 +35,18 @@
 - (id);
 - (id);
 - (struct SCNMatrix4);
-- (struct SCNMatrix4);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct SCNMatrix4)hkv8i;
+- (id)A9?;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)EventSourceModel;
 
 // Remaining properties
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
-@property(nonatomic) struct SCNMatrix4 frameA;
-@property(nonatomic) struct SCNMatrix4 frameB;
-@property(nonatomic) double maximumAngularLimit1;
-@property(nonatomic) double maximumAngularLimit2;
-@property(nonatomic) double maximumTwistAngle;
 
 @end
 

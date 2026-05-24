@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SSRSpeakerRecognitionScorer
 {
     void *_novDetect;
-    unsigned long long _offsetsType;
-    _Bool _satModelAvailable;
-    NSString *_profileID;
-    NSURL *_configFilePath;
-    NSURL *_resourceFilePath;
-    NSURL *_modelFilePath;
 }
 
 + (id);
@@ -41,8 +35,8 @@
 - (float);
 - (float);
 - (float);
-- (float);
-- (float);
+- (float);
+- (float)6;
 - (float);
 - (id);
 - (id);
@@ -53,19 +47,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(retain, nonatomic) NSURL *modelFilePath; // @synthesize modelFilePath=_modelFilePath;
-@property(readonly, nonatomic) NSString *profileID; // @synthesize profileID=_profileID;
-@property(readonly, nonatomic) NSString *psrConfigFilePath;
-@property(readonly, nonatomic) NSString *psrConfigRoot;
-@property(retain, nonatomic) NSURL *resourceFilePath; // @synthesize resourceFilePath=_resourceFilePath;
-@property(readonly, nonatomic) _Bool satModelAvailable; // @synthesize satModelAvailable=_satModelAvailable;
-@property(readonly, nonatomic) NSString *sysConfigRoot;
 
 @end
 

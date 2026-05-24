@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)_destinationDeviceUIDs;
 + (id);
 + (id);
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKEventStream;
+@class NSString;
 
 @interface BMItemType
 {
     NSString *_identifier;
-    Class _valueClass;
-    long long _edge;
-    _DKEventStream *_eventStream;
-    CDUnknownBlockType _valueExtractBlock;
 }
 
 + (id);
 + (id);
 + (id);
 + (void);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)0;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -51,6 +47,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -68,12 +65,11 @@
 + (id);
 + (id);
 + (id);
++ (id)_orientation;
 + (id);
++ (_Bool)saeVoiceTrainingIntroController;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)ion:triggering transition to zero delegation /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -84,23 +80,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)P;
+- (_Bool)w;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)expressResetCardsWithCompletion:(struct _NSZone *)arg1;
+- (id)erUserEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (Class);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long edge; // @synthesize edge=_edge;
-@property(retain, nonatomic) _DKEventStream *eventStream; // @synthesize eventStream=_eventStream;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) Class valueClass; // @synthesize valueClass=_valueClass;
-@property(copy, nonatomic) CDUnknownBlockType valueExtractBlock; // @synthesize valueExtractBlock=_valueExtractBlock;
 
 @end
 

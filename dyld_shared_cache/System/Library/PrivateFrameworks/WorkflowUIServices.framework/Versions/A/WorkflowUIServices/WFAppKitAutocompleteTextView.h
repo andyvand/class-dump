@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
 @protocol WFAppKitAutocompleteScrubberProvider, WFAppKitAutocompleteTextViewDelegate;
 
 @interface WFAppKitAutocompleteTextView
 {
     id <WFAppKitAutocompleteScrubberProvider> _scrubberProvider;
-    NSAttributedString *_attributedPlaceholder;
 }
 
 + (void);
-- (void);
+- (void)T;
+- (id)zg;
 - (id);
-- (id);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (void);
@@ -27,16 +25,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedPlaceholder; // @synthesize attributedPlaceholder=_attributedPlaceholder;
 @property __weak id <WFAppKitAutocompleteTextViewDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) __weak id <WFAppKitAutocompleteScrubberProvider> scrubberProvider; // @synthesize scrubberProvider=_scrubberProvider;
 
 @end
 

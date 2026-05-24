@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommand, NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MPRemoteCommandEvent
 {
     NSDictionary *_mediaRemoteOptions;
-    NSString *_contextID;
-    NSString *_commandID;
-    MPRemoteCommand *_command;
-    double _timestamp;
-    double _timeout;
-    NSDate *_deliveryDate;
-    NSDate *_dispatchDate;
-    NSDate *_timeoutDate;
-    NSDate *_responseDate;
 }
 
 @end

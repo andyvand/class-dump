@@ -7,14 +7,13 @@
 @interface FCURLResponsePayload
 {
     id kind;
-    id _size;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)kIXUserPresentableNeedsSideLoadRestoreError;
 - (id)setRecentIssueIDs:(id)arg1;
-- (void)aseUrl;
+- (void)smarterFetchBaseUrl;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long size;

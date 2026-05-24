@@ -7,7 +7,6 @@
 @interface ChatKit.CKTypingIndicatorVibrancyLayer
 {
     id isVibrancyActive;
-    id userInterfaceStyle;
 }
 
 - (id);

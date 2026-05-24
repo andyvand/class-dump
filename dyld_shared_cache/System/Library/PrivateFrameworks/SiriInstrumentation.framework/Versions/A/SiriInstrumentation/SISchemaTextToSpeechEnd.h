@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaTextToSpeechEnd : SISchemaInstrumentationMessage
 {
     NSString *_aceID;
-    _Bool _hasAceID;
 }
 
 - (void);
@@ -19,21 +18,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_storeDownloadInfo;
+- (_Bool)ailed to Soft Link:(id)arg1 /System/Library/Framework/Contacts.framework/Contacts (%d);
+- (_Bool)import;
 - (id);
 - (id);
-- (id)tionTime;
-- (id)PressBehavior;
+- (id)deleteDnsResolutionTime;
+- (id)_hardwareButtonLongPressBehavior;
 - (void)nectionStateReadySnapshotCaptured;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceID; // @synthesize aceID=_aceID;
-@property(nonatomic) _Bool hasAceID; // @synthesize hasAceID=_hasAceID;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

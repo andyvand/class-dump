@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWColorLookupCache, NSMutableArray, NSMutableDictionary;
+@class BWColorLookupCache;
 
 __attribute__((visibility("hidden")))
 @interface BWSemanticStyleColorCubeCache
 {
     BWColorLookupCache *_colorLookupCache;
-    NSMutableDictionary *_cubeFilterCache;
-    NSMutableArray *_recentFilterCacheKeys;
-    _Bool _cachingEnabled;
-    unsigned long long _cacheMaxSize;
-    struct os_unfair_lock_s _filterCacheLock;
 }
 
 + (void)ker-note.97;
-- (void);
+- (void)OITSUCustomCallBackDictionary;
 - (id);
 - (id);
 

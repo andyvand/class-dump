@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCamPhysicalCaptureNotifier, CKConversation, IMBalloonPlugin, NSString, UIView, UIViewController;
-@protocol CKBrowserViewControllerProtocol, CKFunCameraViewControllerDelegate;
+@class UIView;
 
 @interface CKFunCameraViewController
 {
     _Bool _isDismissing;
-    id <CKFunCameraViewControllerDelegate> _delegate;
-    IMBalloonPlugin *_balloonPlugin;
-    UIView *_funCameraView;
-    UIViewController<CKBrowserViewControllerProtocol> *_funCameraAppViewController;
-    CKCamPhysicalCaptureNotifier *_physicalCaptureNotifier;
-    CKConversation *_conversation;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_readOnlySharedSubObjectsInSource;
+- (void)_progressWindowController;
+- (void)_paperIdentifier;
+- (void)ttributedString",&,N,V_highlightedClickableAttributedString;
 - (void);
 - (void);
 - (void);
@@ -31,32 +24,32 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)e;
+- (id)a;
+- (id)t;
+- (void)o;
+- (void)g text storage;
+- (void)storage;
+- (id)don’t have to create and remember a separate password, reducing the chances of losing access to your locked notes.;
+- (void)ppearance;
+- (void)nknown thumbnail type;
+- (_Bool)modificationDate;
+- (void)ICEditingTextViewWillSetMarkedTextNotificationMarkedTextKey;
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_retainedAlternativesByCombiningAlternatives:withAlternatives:andAddingAlternatives: /* Error: Ran out of types for this method. */;
 - (id)!TDùñ°1Â0@ù
 × ;
 - (void)pActivity image is nil;
@@ -66,20 +59,7 @@
 - (void)øû1;
 
 // Remaining properties
-@property(retain, nonatomic) IMBalloonPlugin *balloonPlugin; // @synthesize balloonPlugin=_balloonPlugin;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKFunCameraViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *funCameraAppViewController; // @synthesize funCameraAppViewController=_funCameraAppViewController;
 @property(retain, nonatomic) UIView *funCameraView; // @synthesize funCameraView=_funCameraView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDismissing; // @synthesize isDismissing=_isDismissing;
-@property(retain, nonatomic) CKCamPhysicalCaptureNotifier *physicalCaptureNotifier; // @synthesize physicalCaptureNotifier=_physicalCaptureNotifier;
-@property(readonly) Class superclass;
 
 @end
 

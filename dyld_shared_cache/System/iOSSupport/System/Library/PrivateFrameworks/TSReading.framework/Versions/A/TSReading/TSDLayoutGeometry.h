@@ -7,11 +7,10 @@
 @interface TSDLayoutGeometry
 {
     struct CGSize mSize;
-    struct CGAffineTransform mTransform;
 }
 
 + (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)mplete silent playback failure [No longer in ErrorResolutionState];
 - (id);
 - (id);
 - (id);
@@ -28,13 +27,12 @@
 - (struct CGSize);
 - (struct CGPoint);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)";
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=mSize;
-@property(readonly, nonatomic) struct CGAffineTransform transform; // @synthesize transform=mTransform;
 
 @end
 

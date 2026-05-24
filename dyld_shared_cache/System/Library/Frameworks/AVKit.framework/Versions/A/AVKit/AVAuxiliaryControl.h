@@ -11,11 +11,6 @@ __attribute__((visibility("hidden")))
 @interface AVAuxiliaryControl
 {
     _Bool _canOnlyAppearInOverflowMenu;
-    _Bool _displayed;
-    _Bool _animating;
-    float _displayPriority;
-    NSView<AVAuxiliaryControlsViewItem> *_controlView;
-    struct CGSize _preferredSize;
 }
 
 + (id);
@@ -27,21 +22,15 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (id);
+- (id)elling us to %@ the call, and that the call was %@;
 - (float);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)utton;
+- (_Bool)_updatePickerButton;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) _Bool canOnlyAppearInOverflowMenu; // @synthesize canOnlyAppearInOverflowMenu=_canOnlyAppearInOverflowMenu;
 @property(readonly, nonatomic) NSView<AVAuxiliaryControlsViewItem> *controlView; // @synthesize controlView=_controlView;
-@property(readonly, nonatomic) float displayPriority; // @synthesize displayPriority=_displayPriority;
-@property(nonatomic, getter=isDisplayed) _Bool displayed; // @synthesize displayed=_displayed;
-@property(readonly, nonatomic, getter=isIncluded) _Bool included;
-@property(readonly, nonatomic) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
 
 @end
 

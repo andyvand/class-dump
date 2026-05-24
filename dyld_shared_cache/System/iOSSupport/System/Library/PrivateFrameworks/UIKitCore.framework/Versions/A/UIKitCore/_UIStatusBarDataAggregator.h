@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSSet, _UIStatusBarData;
+@class _UIStatusBarData;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarDataAggregator
 {
     _UIStatusBarData *_overlayData;
-    CDUnknownBlockType _updateBlock;
-    Class _dataClass;
-    NSCountedSet *_delayedKeys;
-    NSMutableDictionary *_pendingUpdates;
-    NSMutableDictionary *_coalescedKeys;
-    NSMutableDictionary *_coalescedTimers;
 }
 
 + (void)%Õ¼Ln;
@@ -25,23 +19,23 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (Class);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)k;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (void)Ð!Eù`ð1Â0@ù
 × ;
-- (void)sponder:(CDUnknownBlockType)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)InputModesPreference:(id)arg1;
-- (void)ForDate:(id)arg1;
-- (void)rrangementItemsForRTL:(id)arg1;
-- (void)isBackgroundSuppressed;
-- (id)h:toView:bounds: /* Error: Ran out of types for this method. */;
+- (void)updateEventSource:(CDUnknownBlockType)arg1 options:responder: /* Error: Ran out of types for this method. */;
+- (id)textViewDidBeginEditing: /* Error: Ran out of types for this method. */;
+- (void)saveInputModesPreference:(id)arg1;
+- (void)dateInRangeForDate:(id)arg1;
+- (void)_transformGroupArrangementItemsForRTL:(id)arg1;
+- (void)_isBackgroundSuppressed;
+- (id)_applyMaskPath:toView:bounds: /* Error: Ran out of types for this method. */;
 - (id)PointerShape",C,N,V_shape;
-- (id)sentationControllerClientConfiguration;
+- (id)_UISheetPresentationControllerClientConfiguration;
 - (id)ü¬;
 - (void)ä;
 - (void);
@@ -51,14 +45,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *coalescedEntryKeys;
-@property(retain, nonatomic) NSMutableDictionary *coalescedKeys; // @synthesize coalescedKeys=_coalescedKeys;
-@property(retain, nonatomic) NSMutableDictionary *coalescedTimers; // @synthesize coalescedTimers=_coalescedTimers;
-@property(copy, nonatomic) Class dataClass; // @synthesize dataClass=_dataClass;
-@property(readonly, copy, nonatomic) NSSet *delayedEntryKeys;
-@property(retain, nonatomic) NSCountedSet *delayedKeys; // @synthesize delayedKeys=_delayedKeys;
-@property(copy, nonatomic) _UIStatusBarData *overlayData; // @synthesize overlayData=_overlayData;
-@property(retain, nonatomic) NSMutableDictionary *pendingUpdates; // @synthesize pendingUpdates=_pendingUpdates;
 @property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end

@@ -11,8 +11,8 @@
     IMSharedUtilitiesHelloWorldClass_Impl *_swiftImpl;
 }
 
-- (void);
-- (id);
+- (void)x{;
+- (id)wallet_savings_unavailablefundingsource;
 - (void)¾mÿÿÔ/ÿÿ;
 
 @end

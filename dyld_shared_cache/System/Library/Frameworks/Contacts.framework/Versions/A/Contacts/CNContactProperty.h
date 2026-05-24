@@ -9,16 +9,10 @@
 @interface CNContactProperty
 {
     NSString *_key;
-    NSString *_identifier;
-    CNContact *_internalContact;
 }
 
 
 // Remaining properties
 @property(readonly, copy) CNContact *contact;
-@property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *key;
-@property(readonly, copy) NSString *label;
-@property(readonly) id value;
 @end
 

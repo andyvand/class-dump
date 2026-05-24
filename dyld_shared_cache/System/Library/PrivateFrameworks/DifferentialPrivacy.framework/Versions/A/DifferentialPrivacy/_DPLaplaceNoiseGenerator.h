@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)initWithSavedAccount:(double)arg1 passkeyCredentialID:exportedPasskeyData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double b; // @synthesize b=_b;

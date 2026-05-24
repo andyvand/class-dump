@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)exportSlideshowItem:(id)arg1 toApplication: /* Error: Ran out of types for this method. */;
+- (id)setByAddingObject:(id)arg1;
 - (id);
 - (void)(ä;
 

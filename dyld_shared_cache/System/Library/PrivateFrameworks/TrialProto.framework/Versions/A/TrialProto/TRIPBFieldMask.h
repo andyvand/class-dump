@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *pathsArray; // @dynamic pathsArray;
-@property(readonly, nonatomic) unsigned long long pathsArray_Count; // @dynamic pathsArray_Count;
 
 @end
 

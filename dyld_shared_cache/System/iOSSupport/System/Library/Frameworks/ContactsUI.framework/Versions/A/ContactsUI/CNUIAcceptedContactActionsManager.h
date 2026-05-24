@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIAcceptedContactActionsMetricsEvent, CNUIAcceptedContactConfiguration, NSString;
+@class CNUIAcceptedContactConfiguration;
 @protocol CNUIAcceptedContactActionsManagerDelegate;
 
 @interface CNUIAcceptedContactActionsManager
 {
     id <CNUIAcceptedContactActionsManagerDelegate> _delegate;
-    CNUIAcceptedContactConfiguration *_configuration;
-    CNUIAcceptedContactActionsMetricsEvent *_metricsEvent;
 }
 
 + (id)ÁD°!ÄCùQtð1Â0@ù
@@ -23,19 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void)tainer: /* Error: Ran out of types for this method. */;
+- (void)addContainer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNUIAcceptedContactConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIAcceptedContactActionsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNUIAcceptedContactActionsMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(readonly) Class superclass;
 
 @end
 

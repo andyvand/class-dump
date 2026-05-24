@@ -24,9 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *callFrames;
-@property(retain, nonatomic) RWIProtocolConsoleStackTrace *parentStackTrace;
-@property(nonatomic) _Bool topCallFrameIsBoundary;
-@property(nonatomic) _Bool truncated;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CBPreset
@@ -22,19 +22,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (float);
 - (void);
-- (id);
+- (id)'*;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool autoBrighnessDisabled;
-@property(readonly) _Bool brightnessDisabled;
-@property(readonly) NSData *identifier;
-@property(readonly) NSNumber *maxAutobrightnessSDRLuminance;
-@property(readonly) float maxSDRLuminance;
-@property(readonly) _Bool nightShiftDisabled;
-@property(readonly) _Bool referenceMode;
 @property(readonly) _Bool trueToneDisabled;
 
 @end

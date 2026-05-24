@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIFocusInputDeviceInfo
 {
     unsigned long long _senderID;
 }
 
-+ (id);
++ (id);
 + (_Bool)er(_UISticker *__strong);
+- (id)with guid:(unsigned long long)arg1 %@;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)tBackgroundShape:(id)arg1;
-- (unsigned long long)tentCount:view:indirectFeedbackPlayer: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setBackgroundShape:(id)arg1;
+- (unsigned long long)initWithDetentCount:view:indirectFeedbackPlayer: /* Error: Ran out of types for this method. */;
 - (id)efersLargeSize:(struct _NSZone *)arg1 ,V_prefersLargeSize;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long senderID; // @synthesize senderID=_senderID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,29 +6,12 @@
 
 #import <AVKit/AVGlassBackedButton.h>
 
-@class AVMicaPackage, AVMobileGlassControlsStyleSheet, NSString, UIView;
+@class AVMicaPackage;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassPlaybackControlButton : AVGlassBackedButton
 {
     unsigned long long _playbackControlButtonType;
-    _Bool _isPreparingMicaPackage;
-    _Bool _prefersMicaPackage;
-    _Bool _imageUpdateInProgress;
-    CDStruct_1b6d18a9 _skipInterval5;
-    CDStruct_1b6d18a9 _skipInterval10;
-    CDStruct_1b6d18a9 _skipInterval15;
-    CDStruct_1b6d18a9 _skipInterval30;
-    CDStruct_1b6d18a9 _skipInterval45;
-    CDStruct_1b6d18a9 _skipInterval60;
-    CDStruct_1b6d18a9 _skipInterval75;
-    CDStruct_1b6d18a9 _skipInterval90;
-    _Bool _fullscreen;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    NSString *_playbackControlButtonIconState;
-    AVMicaPackage *_buttonMicaPackage;
-    UIView *_buttonMicaPackageContainerView;
-    CDStruct_1b6d18a9 _skipInterval;
 }
 
 + (id);
@@ -42,28 +25,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
-- (void);
+- (void)to decrypt zone PCS data for zone %@;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)ties",R,C,N;
 - (void);
 - (_Bool);
 - (id);
 - (void)!XGùq[Ð1Â0@ù
 × ;
-- (id)gueOptions;
+- (id)_enhanceDialogueOptions;
 
 // Remaining properties
 @property(retain, nonatomic) AVMicaPackage *buttonMicaPackage; // @synthesize buttonMicaPackage=_buttonMicaPackage;
-@property(retain, nonatomic) UIView *buttonMicaPackageContainerView; // @synthesize buttonMicaPackageContainerView=_buttonMicaPackageContainerView;
-@property(nonatomic, getter=isFullscreen) _Bool fullscreen; // @synthesize fullscreen=_fullscreen;
-@property(retain, nonatomic) NSString *playbackControlButtonIconState; // @synthesize playbackControlButtonIconState=_playbackControlButtonIconState;
-@property(nonatomic) CDStruct_1b6d18a9 skipInterval; // @synthesize skipInterval=_skipInterval;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IMMessageNotificationTimeManager
 {
     NSMutableDictionary *_chatsStartTimeDictionary;
-    NSString *_latestIDSTokenURI;
 }
 
 + (id)Failed to return a common path for %s because the base user vault directory was not found.;
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)"8i#	`C(c`x`ha;
 - (void);
 - (id);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *chatsStartTimeDictionary; // @synthesize chatsStartTimeDictionary=_chatsStartTimeDictionary;
-@property(retain, nonatomic) NSString *latestIDSTokenURI; // @synthesize latestIDSTokenURI=_latestIDSTokenURI;
 
 @end
 

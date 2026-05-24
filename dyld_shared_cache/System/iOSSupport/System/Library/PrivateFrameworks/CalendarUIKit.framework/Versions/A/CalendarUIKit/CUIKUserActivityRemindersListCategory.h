@@ -11,18 +11,16 @@
 @interface CUIKUserActivityRemindersListCategory : CUIKUserActivityWithSource
 {
     NSString *_title;
-    NSString *_externalID;
-    _Bool _predictable;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (id)_destinationCallerID;
 - (id);
-- (id);
-- (void)eAbbreviatedFormats:lowerCase: /* Error: Ran out of types for this method. */;
+- (void)stringForDate:withLongFormatString:useAbbreviatedFormats:lowerCase: /* Error: Ran out of types for this method. */;
 
 @end
 

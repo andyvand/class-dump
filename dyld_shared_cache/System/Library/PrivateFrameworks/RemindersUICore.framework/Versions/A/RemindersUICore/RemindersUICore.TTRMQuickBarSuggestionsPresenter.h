@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarSuggestionsPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id suggestionMenuUtils;
-    id suggestions;
-    id reminderColor;
 }
 
 @end

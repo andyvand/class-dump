@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CallDBMetaInfo
@@ -16,20 +16,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)latedFrame;
 - (id);
-- (void);
+- (void)@?<v@?@"NSError">56;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *dbInfoPrefFile; // @synthesize dbInfoPrefFile=_dbInfoPrefFile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

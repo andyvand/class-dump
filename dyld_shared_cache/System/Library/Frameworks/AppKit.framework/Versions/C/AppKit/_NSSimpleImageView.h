@@ -6,23 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSImage, RBSymbolLayer, SLSIconAppearanceConfiguration;
-@protocol NSContentStyle;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface _NSSimpleImageView : NSView
 {
     struct CGRect _alignmentRectFrame;
-    _Bool _shouldUseRBSymbolLayer;
-    RBSymbolLayer *_symbolLayer;
-    _Bool _hasRegisteredForActivationNotifications;
-    double _imageMaximumEDRHeadroom;
 }
 
-- (_Bool);
+- (_Bool)f;
 - (void);
 - (void);
-- (void);
+- (void)p/RqeQ08VzA;
 - (id);
 - (id);
 - (struct CGRect);
@@ -32,26 +27,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (_Bool);
+- (void)startTime;
+- (void)_countOfBytesReceivedEncoded;
+- (void)_cookieForSetCookieString:(long long)arg1 forURL:(_Bool)arg2 partition: /* Error: Ran out of types for this method. */;
+- (void)_connectionCacheMinimumFastLanePriority;
+- (void);
+- (void)allbacks;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)addSubscriberForFileURL:withPublishingHandler: /* Error: Ran out of types for this method. */;
+- (void)#;
 - (id)howsProgress"b1"showsJiggleEffect"b1"_reserved"b20};
 - (void)_setAlternateTitleWithMinimalSideEffects:(id)arg1;
 - (void)ue;
-- (void)Scene;
+- (void)NSStatusItemHostLocalScene;
 
 // Remaining properties
-@property(nonatomic) struct CGRect alignmentRectFrame;
-@property(readonly, copy, nonatomic) SLSIconAppearanceConfiguration *iconAppearanceConfiguration;
 @property(readonly, nonatomic) NSImage *image; // @dynamic image;
-@property(readonly, copy, nonatomic) id <NSContentStyle> imageContentStyle;
 
 @end
 

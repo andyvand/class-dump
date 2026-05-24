@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface AXBaseSettings_Legacy
 {
     struct os_unfair_lock_s _domainNamesToSynchronizeLock;
-    NSMutableSet *_registeredPreferenceKeys;
-    NSMutableDictionary *_preferenceKeysByDomainNameToSynchronize;
-    NSMutableDictionary *_updateBlocks;
 }
 
 - (void);
@@ -31,17 +28,17 @@
 - (id);
 - (void);
 - (void);
-- (float);
+- (float)	;
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)P;
 - (long long);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,13 +46,11 @@
 - (void);
 - (void);
 - (id);
-- (void)tOfClass:(id)arg1 forKey:(id)arg2;
+- (void)decodeObjectOfClass:(id)arg1 forKey:(id)arg2;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *preferenceKeysByDomainNameToSynchronize; // @synthesize preferenceKeysByDomainNameToSynchronize=_preferenceKeysByDomainNameToSynchronize;
 @property(retain, nonatomic) NSMutableSet *registeredPreferenceKeys; // @synthesize registeredPreferenceKeys=_registeredPreferenceKeys;
-@property(retain, nonatomic) NSMutableDictionary *updateBlocks; // @synthesize updateBlocks=_updateBlocks;
 
 @end
 

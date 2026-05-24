@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol IMDAutoReplyDelegate, OS_dispatch_queue;
 
 @interface IMDAvailabilityAutoReplier
 {
     id <IMDAutoReplyDelegate> _replyDelegate;
-    NSObject<OS_dispatch_queue> *_privateWorkQueue;
 }
 
-- (void);
+- (void)9`@ya;
 - (id);
 - (void);
-- (void);
+- (void)TH;
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,23 +27,23 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id).;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -52,15 +51,7 @@
 - (void)ning skipped because chat is a self chat.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateWorkQueue; // @synthesize privateWorkQueue=_privateWorkQueue;
-@property(nonatomic) __weak id <IMDAutoReplyDelegate> replyDelegate; // @synthesize replyDelegate=_replyDelegate;
-@property(readonly) Class superclass;
 
 @end
 

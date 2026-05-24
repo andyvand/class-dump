@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLAudioAgent;
+@class PLAudioAgent;
 
 @interface AudioDevice
 {
     _Bool _isInput;
-    _Bool _isRunning;
-    _Bool _isDirty;
-    unsigned int _deviceID;
-    unsigned int _sourceID;
-    unsigned int _transType;
-    float _volume;
-    PLAudioAgent *_ctx;
-    CDUnknownBlockType _audioPropertyHandlerBlock;
-    NSDate *_lastUpdateTime;
 }
 
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (id);
@@ -34,7 +25,7 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -49,24 +40,15 @@
 - (_Bool);
 - (unsigned int);
 - (float);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (id)ing;
+- (id)tracking;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType audioPropertyHandlerBlock; // @synthesize audioPropertyHandlerBlock=_audioPropertyHandlerBlock;
 @property(nonatomic) __weak PLAudioAgent *ctx; // @synthesize ctx=_ctx;
-@property(nonatomic) unsigned int deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(nonatomic) _Bool isInput; // @synthesize isInput=_isInput;
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(retain) NSDate *lastUpdateTime; // @synthesize lastUpdateTime=_lastUpdateTime;
-@property(nonatomic) unsigned int sourceID; // @synthesize sourceID=_sourceID;
-@property(nonatomic) unsigned int transType; // @synthesize transType=_transType;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

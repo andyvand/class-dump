@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRPotentiallyLongOperationPerformer
 {
     id longOperationDurationThreshold;
-    id debugForceShowActivityUI;
-    id showActivityUI;
-    id hideActivityUI;
 }
 
 @end

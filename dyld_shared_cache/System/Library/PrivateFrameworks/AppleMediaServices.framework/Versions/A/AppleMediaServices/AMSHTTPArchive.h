@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface AMSHTTPArchive
 {
     _Bool _compressed;
-    NSString *_urlString;
-    NSData *_backingJSONData;
-    NSData *_JSONData;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)#;
 + (id);
 + (id);
 + (id);
@@ -35,7 +32,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)colorForGrayWindowStatusImagePressed;
 - (id);
 - (void);
 - (id);
@@ -48,10 +45,7 @@
 j¡qj¡|j¡j¡Ñj¡;j¡Xj¡wj¡´j¡àj¡¡j¡Tj¡\j¡#j¡âj¡Zj¡j /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSData *JSONData; // @synthesize JSONData=_JSONData;
 @property(retain) NSData *backingJSONData; // @synthesize backingJSONData=_backingJSONData;
-@property(getter=isCompressed) _Bool compressed; // @synthesize compressed=_compressed;
-@property(retain) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

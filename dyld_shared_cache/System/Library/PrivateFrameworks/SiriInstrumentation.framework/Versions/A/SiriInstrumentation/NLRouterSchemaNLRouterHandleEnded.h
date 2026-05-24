@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterDecisionGenAIMetadata, NLRouterSchemaNLRouterOverrideMetadata, NSData;
-
 @interface NLRouterSchemaNLRouterHandleEnded : SISchemaInstrumentationMessage
 {
     int _routingDecisionType;
-    int _routingDecisionSource;
-    unsigned int _rewrittenUtteranceCount;
-    NLRouterSchemaNLRouterDecisionGenAIMetadata *_genAIMetadata;
-    NLRouterSchemaNLRouterOverrideMetadata *_overrideMetadata;
-    struct {
-        unsigned int routingDecisionType:1;
-        unsigned int routingDecisionSource:1;
-        unsigned int rewrittenUtteranceCount:1;
-    } _has;
-    _Bool _hasGenAIMetadata;
-    _Bool _hasOverrideMetadata;
 }
 
 - (void);
@@ -53,26 +40,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (id);
 - (id)!`DùñÞÐ1Â0@ù
 × ;
 - (id)omainFallback;
-- (id)BluetoothPermissionRequired: /* Error: Ran out of types for this method. */;
+- (id)setBluetoothPermissionRequired: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLRouterSchemaNLRouterDecisionGenAIMetadata *genAIMetadata; // @synthesize genAIMetadata=_genAIMetadata;
-@property(nonatomic) _Bool hasGenAIMetadata; // @synthesize hasGenAIMetadata=_hasGenAIMetadata;
-@property(nonatomic) _Bool hasOverrideMetadata; // @synthesize hasOverrideMetadata=_hasOverrideMetadata;
-@property(nonatomic) _Bool hasRewrittenUtteranceCount;
-@property(nonatomic) _Bool hasRoutingDecisionSource;
-@property(nonatomic) _Bool hasRoutingDecisionType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterOverrideMetadata *overrideMetadata; // @synthesize overrideMetadata=_overrideMetadata;
-@property(nonatomic) unsigned int rewrittenUtteranceCount; // @synthesize rewrittenUtteranceCount=_rewrittenUtteranceCount;
-@property(nonatomic) int routingDecisionSource; // @synthesize routingDecisionSource=_routingDecisionSource;
 @property(nonatomic) int routingDecisionType; // @synthesize routingDecisionType=_routingDecisionType;
 
 @end

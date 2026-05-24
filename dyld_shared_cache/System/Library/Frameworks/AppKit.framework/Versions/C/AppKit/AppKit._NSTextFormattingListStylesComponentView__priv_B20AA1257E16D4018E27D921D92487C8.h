@@ -9,15 +9,14 @@
 @interface AppKit._NSTextFormattingListStylesComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : AppKit._NSTextFormattingBaseSegmentedControl__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id discDecimalOnly;
-    id listStylesMenuItems;
 }
 
 - (void);
-- (void);
+- (void)2k1;
 - (id);
 - (void)¡ì/Ð!Aùñá3°1Â0@ù
 × ;
-- (id)er;
+- (id)_standardLocalizer;
 - (void)Ô	dE;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol NSTextDelegate
+
+@optional
+- (_Bool);
+- (void)(;
 @end
 

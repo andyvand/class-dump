@@ -6,14 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class REMObjectID, REMReminderFetchOptions;
+@class REMObjectID;
 
 @interface REMRemindersDataViewInvocation_fetchByParentReminderID : REMStoreInvocation
 {
     REMObjectID *_parentReminderID;
-    REMObjectID *_accountID;
-    long long _subtaskFetchOption;
-    REMReminderFetchOptions *_reminderFetchOptions;
 }
 
 + (_Bool);
@@ -22,19 +19,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)Ñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
 @property(readonly, nonatomic) REMObjectID *parentReminderID; // @synthesize parentReminderID=_parentReminderID;
-@property(readonly, nonatomic) REMReminderFetchOptions *reminderFetchOptions; // @synthesize reminderFetchOptions=_reminderFetchOptions;
-@property(readonly, nonatomic) long long subtaskFetchOption; // @synthesize subtaskFetchOption=_subtaskFetchOption;
 
 @end
 

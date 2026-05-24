@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDMapsIdentifier, GEOTimezone, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSpatialEventLookupResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _categorys;
-    GEOLatLng *_center;
-    NSMutableArray *_eventDateTimes;
-    GEOPDMapsIdentifier *_eventId;
-    GEOPDMapsIdentifier *_poiId;
-    GEOTimezone *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_categorys:1;
-        unsigned int read_center:1;
-        unsigned int read_eventDateTimes:1;
-        unsigned int read_eventId:1;
-        unsigned int read_poiId:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ZilchPoints:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIncludeZilchPoints:(id)arg1;
+- (void)entStoreCoordinator",R,N,V_coordinator;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -44,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (id);
 - (int *);
@@ -60,11 +40,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (void)_queue_removeClient:(id)arg1;
+- (id)getASVUserIntent: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)2;
+- (id)Ҧ;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -73,27 +53,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)elds"b1"read_currentUserLocation"b1"read_deviceHistoricalLocations"b1"read_lastKnownRoadLocation"b1"wrote_anyField"b1};
-- (id)tributes;
+- (id)_responseAttributes;
 - (id)ð-(.;
-- (void)r;
-- (id)ENT_TYPE_TEXT_BLOCK;
-- (id)TE_DOWNLOAD_OFFLINE_MAPS;
+- (void)categorized_photos_filter;
+- (id)COMPONENT_TYPE_TEXT_BLOCK;
+- (id)COMPLETE_DOWNLOAD_OFFLINE_MAPS;
 - (void) I@;
 - (void)j¼tÜ?J+Çnµ@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *categorys;
-@property(readonly, nonatomic) unsigned long long categorysCount;
-@property(retain, nonatomic) GEOLatLng *center;
-@property(retain, nonatomic) NSMutableArray *eventDateTimes;
-@property(retain, nonatomic) GEOPDMapsIdentifier *eventId;
-@property(readonly, nonatomic) _Bool hasCenter;
 @property(readonly, nonatomic) _Bool hasEventId;
-@property(readonly, nonatomic) _Bool hasPoiId;
-@property(readonly, nonatomic) _Bool hasTimezone;
-@property(retain, nonatomic) GEOPDMapsIdentifier *poiId;
-@property(retain, nonatomic) GEOTimezone *timezone;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

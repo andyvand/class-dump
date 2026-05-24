@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener, _ASAgentCredentialExchangeOperation;
+@class NSXPCListener;
 
 @interface _ASAgentCredentialExchangeListener
 {
     NSXPCListener *_listener;
-    struct os_unfair_lock_s _internalLock;
-    _ASAgentCredentialExchangeOperation *_currentOperation;
 }
 
 - (void);
@@ -30,17 +28,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)com_apple_mobilesms_highlightedContentServerDate;
+- (void));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

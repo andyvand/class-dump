@@ -9,8 +9,6 @@
 @interface PhotosUICore.PhotosDynamicTitleOverlayController
 {
     id model;
-    void containerViewController;
-    id computedEffectiveContentSize;
 }
 
 - (void);
@@ -19,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSViewController *containerViewController; // @synthesize containerViewController;
-@property(nonatomic, readonly) struct CGSize effectiveContentSize;
 
 @end
 

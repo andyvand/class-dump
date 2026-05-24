@@ -7,11 +7,9 @@
 @class NSData;
 
 @protocol _SFPBPerformContactActionCommand
+- (NSData *)ortDateDescriptionShared;
 
 // Remaining properties
 @property(nonatomic) int contactActionType;
-@property(nonatomic) _Bool didDisplayHandleOptions;
-@property(nonatomic) _Bool didSelectFromOptionsMenu;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

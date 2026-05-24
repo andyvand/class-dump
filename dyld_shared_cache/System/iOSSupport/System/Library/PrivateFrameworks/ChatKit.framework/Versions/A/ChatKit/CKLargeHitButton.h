@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _ck_hitTestInsets;
 }
 
-- (void);
-- (struct UIEdgeInsets);
-- (_Bool)ipNextAdjustingOfTypingAttributes;
+- (void)ICDidMoveToWindowHandler;
+- (struct UIEdgeInsets)ked notes means you don’t have to create and remember a separate password, reducing the chances of losing access to your locked notes.;
+- (_Bool)shouldSkipNextAdjustingOfTypingAttributes;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets ck_hitTestInsets; // @synthesize ck_hitTestInsets=_ck_hitTestInsets;

@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 
 - (_Bool)1Â0@ù
 × ;
-- (void)dImage:(id)arg1 forState:(id)arg2 isMini: /* Error: Ran out of types for this method. */;
-- (void)ceptsFailureRequirements;
-- (void)ntationSuperview:(id)arg1 inWindow:(id)arg2;
+- (void)setBackButtonBackgroundImage:(id)arg1 forState:(id)arg2 isMini: /* Error: Ran out of types for this method. */;
+- (void)acceptsFailureRequirements;
+- (void)_initViewHierarchyForPresentationSuperview:(id)arg1 inWindow:(id)arg2;
 - (void);
 - (void)tainer.;
 - (void)d class for topLayoutGuide and bottomLayoutGuide. This is an application bug. topLayoutGuide = %@, bottomlayoutGuide = %@;
 - (void)%d inserted, %d deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out). Collection view:(id)arg1 %@;
 - (void);
-- (void)FormattingViewControllerTextList;
+- (void)NUITextFormattingViewControllerTextList;
 
 // Remaining properties
 @property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;

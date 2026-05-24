@@ -6,39 +6,28 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, NSUUID, STKRemoteStickerEffectEditorViewController, UIKBBackdropView, UIVisualEffectView;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardStickerEditorViewController : UIViewController
 {
     NSUUID *_stickerIdentifier;
-    struct CGRect _sourceRect;
-    STKRemoteStickerEffectEditorViewController *_editorViewController;
-    UIKBBackdropView *_backdropView;
-    UIVisualEffectView *_visualEffectView;
-    _Bool _shown;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)eSelectionWithFragment:selectReplacement:smartReplace:matchStyle: /* Error: Ran out of types for this method. */;
+- (id)updates into a temporary map until we leave first unlock;
+- (void)total;
+- (void)ed syncing Messages %@, please file a radar;
+- (void)r beginUserInitiatedSync];
+- (void)iptor;
+- (void)_replaceSelectionWithFragment:selectReplacement:smartReplace:matchStyle: /* Error: Ran out of types for this method. */;
 - (void)°;
 - (void)ÿu$ÝD^;
 - (void)X²e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

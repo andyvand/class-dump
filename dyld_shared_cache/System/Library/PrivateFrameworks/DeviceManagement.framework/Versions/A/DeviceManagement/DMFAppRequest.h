@@ -6,15 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface DMFAppRequest : DMFTaskRequest
 {
     NSString *_bundleIdentifier;
-    NSNumber *_storeItemIdentifier;
-    NSURL *_manifestURL;
-    NSString *_personaIdentifier;
-    NSString *_sourceIdentifier;
 }
 
 + (_Bool);
@@ -23,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hB;
 - (void);
-- (void);
+- (void)(0@yh2;
 - (id);
 - (void);
 - (id);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSURL *manifestURL; // @synthesize manifestURL=_manifestURL;
-@property(copy, nonatomic) NSString *personaIdentifier; // @synthesize personaIdentifier=_personaIdentifier;
-@property(copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(copy, nonatomic) NSNumber *storeItemIdentifier; // @synthesize storeItemIdentifier=_storeItemIdentifier;
 
 @end
 

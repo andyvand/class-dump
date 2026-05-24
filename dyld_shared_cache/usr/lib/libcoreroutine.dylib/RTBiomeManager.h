@@ -6,53 +6,45 @@
 
 #import <coreroutine/RTService.h>
 
-@class BMBiomeScheduler, BPSSink, RTAuthorizationManager, RTDataProtectionManager, RTDefaultsManager, RTLearnedLocationManager, RTPlatform;
+@class BMBiomeScheduler;
 
 @interface RTBiomeManager : RTService
 {
     _Bool _routineEnabled;
-    BMBiomeScheduler *_scheduler;
-    BPSSink *_sink;
-    RTAuthorizationManager *_authorizationManager;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTDefaultsManager *_defaultsManager;
-    long long _encryptedDataAvailability;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTPlatform *_platform;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void)glory;
+- (void)eexisting LooseLeaves identity %@;
+- (int)WN-BUILD;
+- (int)addNameService;
+- (int)g;
+- (int)get public identity for %@;
+- (int)lu);
+- (int)t for verification:(unsigned long long)arg1 %@;
+- (int)ng signature;
+- (id)ManateeFlags;
+- (id)such service identity %lu;
+- (void)oZMSbwKlGRubuRTsR8EKAA6pKDTo=;
 - (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)u7;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void)failed -- regenerating {error:(id)arg1 %@ };
+- (id);
 - (id);
 - (id);
 - (void);
@@ -65,7 +57,7 @@
 - (id);
 - (void)1A,°1Â0@ù
 × ;
-- (id)cation: /* Error: Ran out of types for this method. */;
+- (id)_onLeechedLocationNotification: /* Error: Ran out of types for this method. */;
 - (void)oLois;
 - (id)stCarPlayNotificationForNotificationType:sessionManagerState:handler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)t type, %@, in low confidence visit, %@, in high confidence visit, %@;
@@ -73,15 +65,7 @@
 - (void)Èÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;
-@property(readonly, copy, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, copy, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
 @property(retain, nonatomic) BMBiomeScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(retain, nonatomic) BPSSink *sink; // @synthesize sink=_sink;
 
 @end
 

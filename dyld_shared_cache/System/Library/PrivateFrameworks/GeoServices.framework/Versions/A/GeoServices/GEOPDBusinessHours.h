@@ -4,46 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, GEOPDHoursThreshold, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBusinessHours
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    unsigned long long _end;
-    GEOPDHoursThreshold *_hoursThreshold;
-    GEOLocalizedString *_message;
-    GEOLocalizedString *_shortMessage;
-    unsigned long long _start;
-    NSMutableArray *_weeklyHours;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _hoursType;
-    struct {
-        unsigned int has_end:1;
-        unsigned int has_start:1;
-        unsigned int has_hoursType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_hoursThreshold:1;
-        unsigned int read_message:1;
-        unsigned int read_shortMessage:1;
-        unsigned int read_weeklyHours:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)N,V_spatialSpectrumData;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nonymousUserId"b1"read_assertion"b1"read_attestation"b1"read_keyId"b1"wrote_anyField"b1};
-- (id)oints:andArrivalParameters:andCreateLegs: /* Error: Ran out of types for this method. */;
+- (id)_buildCoordinatesForData:andStepInfos:andCustodian:withWaypoints:andArrivalParameters:andCreateLegs: /* Error: Ran out of types for this method. */;
 - (id)YdX´ädÀ´@ídÔ´ôdì´ùd´he´(e0´àeD´eX´\el´e´|e´<e¨´`2e¼´ÄFe ´ÄMe4´ìRed´¼Sex´¨Ve¬´XaeÀ´ eÔ´eè´Üe	´¸eH	´üe\	´´ep	´Ä e	´°e	´`´e¬	´P¸eØ	´Ðºe
 ´Æe 
 ´àÇe4

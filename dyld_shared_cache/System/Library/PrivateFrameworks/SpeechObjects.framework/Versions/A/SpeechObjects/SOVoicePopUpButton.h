@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSProgressIndicator, NSString, NSTextField, NSTimer, SODownloadDisplayManager;
+@class NSDictionary;
 
 @interface SOVoicePopUpButton
 {
     NSDictionary *_fixedRateVoiceIdentifiers;
-    NSString *_previouslyChosenVoiceIdentifier;
-    NSString *_systemVoiceLocalizedText;
-    long long _systemVoiceMenuItemTag;
-    _Bool _allowSystemVoiceChoice;
-    _Bool _showIndividualVoiceQualities;
-    NSTextField *_downloadStatusTextField;
-    NSProgressIndicator *_downloadStatusProgressIndicator;
-    NSTimer *_downloadStatusUpdateTimer;
-    SODownloadDisplayManager *_downloadDisplayManager;
 }
 
 + (_Bool);
@@ -29,9 +20,9 @@
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
-+ (void);
-+ (_Bool);
++ (_Bool)setConfigurationBackgroundColor:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -46,8 +37,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)E;
 - (id);
 
 @end

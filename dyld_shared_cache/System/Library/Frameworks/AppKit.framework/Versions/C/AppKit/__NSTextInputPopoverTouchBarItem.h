@@ -12,24 +12,20 @@ __attribute__((visibility("hidden")))
 @interface __NSTextInputPopoverTouchBarItem : NSPopoverTouchBarItem
 {
     NSTextInputContext *_inputContext;
-    _Bool _postsESCOnClose;
-    _Bool _postESCOnNextClose;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)C;
+- (_Bool)kSimultaneousCallAndDataCurrentlySupported;
 - (id);
-- (_Bool);
+- (_Bool)t<OS_nw_establishment_report>",R,&;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property NSTextInputContext *inputContext; // @synthesize inputContext=_inputContext;
-@property _Bool postESCOnNextClose; // @synthesize postESCOnNextClose=_postESCOnNextClose;
-@property _Bool postsESCOnClose; // @dynamic postsESCOnClose;
 
 @end
 

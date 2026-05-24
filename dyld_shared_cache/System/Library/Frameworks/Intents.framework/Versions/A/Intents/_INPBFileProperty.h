@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBFilePropertyValue;
-
 @interface _INPBFileProperty
 {
     struct {
         unsigned int name:1;
         unsigned int qualifier:1;
     } _has;
-    int _name;
-    int _qualifier;
-    _INPBFilePropertyValue *_value;
 }
 
 + (_Bool);
@@ -25,18 +20,18 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)";
+- (_Bool)N;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ifi] [wifi-network-sharing] Accessory is not using secure transport for device access (clientID=%{public}@);
 - (id);
 - (id);
 - (id);
@@ -44,19 +39,7 @@
 - (void)eShortcutCenter _initWithVoiceShortcutClient:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasQualifier;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int name; // @synthesize name=_name;
-@property(nonatomic) int qualifier; // @synthesize qualifier=_qualifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBFilePropertyValue *value; // @synthesize value=_value;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <CoreData/NSSQLIntermediate.h>
 
-@class NSSQLEntity, NSSQLLimitIntermediate, NSSQLOrderIntermediate, NSSQLWhereIntermediate, NSString;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLStatementIntermediate : NSSQLIntermediate
 {
     NSSQLEntity *_governingEntity;
-    NSString *_governingAlias;
-    NSString *_correlationToken;
-    NSSQLWhereIntermediate *_whereClause;
-    NSSQLLimitIntermediate *_limitClause;
-    NSSQLOrderIntermediate *_orderIntermediate;
 }
 
 - (void);
@@ -25,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tmpsqlitetruncatedbXXXXXX;
+- (id)9;
 - (_Bool);
 
 @end

@@ -9,6 +9,9 @@
 
 @protocol PKSelectionRenderingDelegate
 
+@optional
+- (void);
+
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *selectionHullQueue;
 @end

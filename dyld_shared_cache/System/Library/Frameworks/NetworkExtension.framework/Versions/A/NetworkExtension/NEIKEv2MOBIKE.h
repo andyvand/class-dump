@@ -4,37 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2PacketTunnelProvider, NSObject, NSString, NWInterface;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface NEIKEv2MOBIKE
 {
     _Bool _mobikeInProgress;
-    _Bool _mobikePending;
-    _Bool _mobikeReasserting;
-    _Bool _mobikeEarlyDisconnect;
-    NSString *_overrideServerPortString;
-    NEIKEv2PacketTunnelProvider *_tunnelProvider;
-    NSObject<OS_dispatch_source> *_mobikeWaitTimer;
-    NSObject<OS_dispatch_queue> *_mobikeQueue;
-    NWInterface *_mobikeInterface;
-    NWInterface *_mobikeTransportInterface;
-    long long _mobikePathStatus;
-    unsigned long long _mobikeTries;
-    NSString *_mobikeServer;
 }
 
 - (void);
-- (void)sers;
+- (void)sharedManagerForAllUsers;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface ConversationKit.InCallControlsViewConstraintManager
 {
     id leadingConstraint;
-    id bottomConstraint;
-    id widthConstraint;
-    id expandedTopPortraitAnchorConstraint;
-    id expandedTopLandscapeAnchorConstraint;
-    id visibleTopAnchorConstraint;
-    id constraints;
-    id type;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMDDaemonPropertyManager
 {
     NSMutableDictionary *_mutableProperties;
-    NSMutableDictionary *_mutablePersistentProperties;
 }
 
 + (id);
@@ -18,19 +17,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)8f;
 - (id)ing"16@"NSString"24C32@"IMItem"36;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *mutablePersistentProperties; // @synthesize mutablePersistentProperties=_mutablePersistentProperties;
 @property(retain, nonatomic) NSMutableDictionary *mutableProperties; // @synthesize mutableProperties=_mutableProperties;
-@property(readonly, copy, nonatomic) NSDictionary *persistentProperties;
-@property(readonly, copy, nonatomic) NSDictionary *properties;
 
 @end
 

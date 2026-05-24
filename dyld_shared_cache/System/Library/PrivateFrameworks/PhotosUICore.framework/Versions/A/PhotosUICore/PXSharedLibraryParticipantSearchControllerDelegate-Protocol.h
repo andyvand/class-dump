@@ -5,5 +5,6 @@
 //
 
 @protocol PXSharedLibraryParticipantSearchControllerDelegate
+- (void);
 @end
 

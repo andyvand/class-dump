@@ -9,15 +9,13 @@
 @interface MCAnimationKeyframe2D : MCAnimationKeyframe
 {
     struct CGPoint mPoint;
-    struct CGPoint mC1;
-    struct CGPoint mC2;
 }
 
 + (id);
 + (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,8 +26,6 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint c1; // @synthesize c1=mC1;
-@property(nonatomic) struct CGPoint c2; // @synthesize c2=mC2;
 @property(nonatomic) struct CGPoint point; // @synthesize point=mPoint;
 
 @end

@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface _UIViewControllerTransitionInteractionContext
 {
     _Bool _proposedBeginState;
-    struct CGPoint _location;
-    struct CGVector _velocity;
 }
 
 - (void);
 - (_Bool);
 - (struct CGVector)1Â0@ù
 × ;
-- (struct CGPoint)int;
+- (struct CGPoint)dualCellularTopBarConstraint;
 - (void)derFooterContentView.m;
 - (void)c];
 
 // Remaining properties
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) _Bool proposedBeginState; // @synthesize proposedBeginState=_proposedBeginState;
-@property(nonatomic) struct CGVector velocity; // @synthesize velocity=_velocity;
 
 @end
 

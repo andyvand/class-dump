@@ -6,20 +6,15 @@
 
 #import <IMSharedUtilities/IMItem.h>
 
-@class NSDictionary;
-
 @interface IMTUConversationItem : IMItem
 {
     unsigned long long _flags;
-    unsigned long long _avMode;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long avMode; // @synthesize avMode=_avMode;
 @property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSDictionary *messageSummaryInfo;
 
 @end
 

@@ -9,27 +9,23 @@
 @interface HMFObjectObserver : HMFObject
 {
     id _observedObject;
-    CDUnknownBlockType _deallocationBlock;
-    unsigned long long _cachedHash;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)$	$	H	/	>	;
 - (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType)Triple press side button;
+- (_Bool)};
 - (void);
 
 // Remaining properties
 @property(readonly) unsigned long long cachedHash; // @synthesize cachedHash=_cachedHash;
-@property(copy) CDUnknownBlockType deallocationBlock; // @synthesize deallocationBlock=_deallocationBlock;
-@property(readonly) __weak id observedObject; // @synthesize observedObject=_observedObject;
 
 @end
 

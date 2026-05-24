@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSDictionary, NSNumber, NSObject, NSString, NSXPCConnection, TKToken;
-@protocol OS_dispatch_queue, TKTokenSessionDelegate, TKTokenSessionPrivateDelegate;
+@class NSObject, TKToken;
+@protocol OS_dispatch_queue;
 
 @interface TKTokenSession
 {
     TKToken *_token;
-    id <TKTokenSessionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _keepAlive;
-    LAContext *_LAContext;
-    NSDictionary *_parameters;
-    NSXPCConnection *_caller;
-    NSNumber *_callerPID;
-    CDStruct_4c969caf _creatorAuditToken;
 }
 
 + (id);
@@ -36,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (void);
 - (void);
 - (_Bool);
@@ -59,24 +51,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)@;
+- (void)Secret finished %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) LAContext *LAContext; // @synthesize LAContext=_LAContext;
-@property(readonly, nonatomic) NSXPCConnection *caller; // @synthesize caller=_caller;
-@property(retain, nonatomic) NSNumber *callerPID; // @synthesize callerPID=_callerPID;
-@property(nonatomic) CDStruct_4c969caf creatorAuditToken; // @synthesize creatorAuditToken=_creatorAuditToken;
-@property __weak id <TKTokenSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id keepAlive; // @synthesize keepAlive=_keepAlive;
-@property(readonly, nonatomic) NSString *name;
-@property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) id <TKTokenSessionPrivateDelegate> privateDelegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) TKToken *token; // @synthesize token=_token;
 
 @end
 

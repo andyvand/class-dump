@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CPXConnectionManaging;
-
 __attribute__((visibility("hidden")))
 @interface CPXProcessManager
 {
     struct CGXSession *_session;
-    struct CGXSessionProcessData *_sessionData;
-    id <CPXConnectionManaging> _connectionManager;
 }
 
-- (unsigned char);
-- (void);
-- (struct CPSProcessRec *);
-- (struct CPSProcessRec *);
-- (struct CPSProcessRec *);
-- (struct CPSProcessRec *);
-- (struct CPSProcessRec *);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CPSProcessRec *);
+- (unsigned char)nator.;
+- (void)pd;
+- (struct CPSProcessRec *)pragma page_count;
+- (struct CPSProcessRec *)forceVacuum;
+- (struct CPSProcessRec *)han prune threshold;
+- (struct CPSProcessRec *)eMaintenance:(struct CGXConnection *)arg1 fileSize %lld greater than prune threshold;
+- (struct CPSProcessRec *)ble.;
+- (_Bool)igration statements;
+- (_Bool)nsert migration statements;
+- (id)formatted UUID parameter with type %@, expected NSUUID or well-formed NSString;
+- (struct CPSProcessRec *)st;
 - (struct CPSProcessRec *);
 - (void)¸<À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CPSProcessRec *processPendingKill;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarEscapeKeyView : NSView
 {
     NSView *_itemView;
-    struct CGSize _preferredSize;
-    _Bool _isSystemCloseButton;
 }
 
 - (void);
@@ -21,12 +19,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id)derImage:(struct CGRect)arg1;
+- (id)setRatingPlaceholderImage:(struct CGRect)arg1;
 
 // Remaining properties
-@property _Bool isSystemCloseButton; // @synthesize isSystemCloseButton=_isSystemCloseButton;
 @property(retain) NSView *itemView;
-@property(readonly) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
 
 @end
 

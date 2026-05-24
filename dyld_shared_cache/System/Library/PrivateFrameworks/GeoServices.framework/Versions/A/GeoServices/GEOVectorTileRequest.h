@@ -4,53 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOVectorTileRequest
 {
     PBDataReader *_reader;
-    NSString *_accessKey;
-    NSString *_countryCode;
-    NSString *_languageCode;
-    unsigned long long _lineId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _latitudeHint;
-    float _longitudeHint;
-    unsigned int _scale;
-    unsigned int _size;
-    unsigned int _style;
-    unsigned int _version;
-    unsigned int _x;
-    unsigned int _y;
-    unsigned int _z;
-    _Bool _preflight;
-    _Bool _venuesPreflight;
-    _Bool _vloc;
-    struct {
-        unsigned int has_lineId:1;
-        unsigned int has_latitudeHint:1;
-        unsigned int has_longitudeHint:1;
-        unsigned int has_scale:1;
-        unsigned int has_size:1;
-        unsigned int has_style:1;
-        unsigned int has_version:1;
-        unsigned int has_x:1;
-        unsigned int has_y:1;
-        unsigned int has_z:1;
-        unsigned int has_preflight:1;
-        unsigned int has_venuesPreflight:1;
-        unsigned int has_vloc:1;
-        unsigned int read_accessKey:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_languageCode:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Identifier:(id)arg1;
++ (_Bool)setObjectIdentifier:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -75,9 +37,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)__DATA_CONST;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)on database:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -93,21 +55,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)setHasNonVoiceTriggerStreamsOrStreamHoldersActive:(id)arg1;
 - (unsigned long long);
 - (unsigned int);
 - (void);
-- (_Bool);
-- (unsigned int);
+- (_Bool)P;
+- (unsigned int)h|;
 - (void);
 - (unsigned int);
 - (void);
+- (_Bool)addRepresentationsForAnnotations: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)hh8?k@;
 - (void);
 - (id);
 - (void);
@@ -117,13 +79,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool);
 - (void)"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_realtimeTrafficProbeURL"b1"read_regionalResources"b1"read_releaseInfo"b1"read_resourcesURL"b1"read_resources"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileGroups"b1"read_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)thSessionEntityString: /* Error: Ran out of types for this method. */;
-- (void)gEvents;
-- (id)tialInformation;
+- (id)initWithSessionEntityString: /* Error: Ran out of types for this method. */;
+- (void)_logMsgEvents;
+- (id)hasResolvablePartialInformation;
 - (id)ØÖ?;
 - (_Bool)led:index < self.pointCount /* Error: Ran out of types for this method. */;
-- (id)ION;
-- (unsigned int)IBBON_ITEM_TYPE_CALL_TO_ACTION;
+- (id)FEEDBACK_LAYOUT_CURATED_COLLECTION_BAD_DESCRIPTION;
+- (unsigned int)RIBBON_ITEM_TYPE_CALL_TO_ACTION;
 - (void);
 - (_Bool);
 - (void)Ä;
@@ -132,38 +94,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int)Û2àPM@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessKey;
-@property(retain, nonatomic) NSString *countryCode;
-@property(readonly, nonatomic) _Bool hasAccessKey;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(nonatomic) _Bool hasLatitudeHint;
-@property(nonatomic) _Bool hasLineId;
-@property(nonatomic) _Bool hasLongitudeHint;
-@property(nonatomic) _Bool hasPreflight;
-@property(nonatomic) _Bool hasScale;
-@property(nonatomic) _Bool hasSize;
-@property(nonatomic) _Bool hasStyle;
-@property(nonatomic) _Bool hasVenuesPreflight;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool hasVloc;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZ;
-@property(retain, nonatomic) NSString *languageCode;
-@property(nonatomic) float latitudeHint;
-@property(nonatomic) unsigned long long lineId;
-@property(nonatomic) float longitudeHint;
-@property(nonatomic) _Bool preflight;
-@property(nonatomic) unsigned int scale;
-@property(nonatomic) unsigned int size;
-@property(nonatomic) unsigned int style;
-@property(nonatomic) _Bool venuesPreflight;
-@property(nonatomic) unsigned int version;
-@property(nonatomic) _Bool vloc;
-@property(nonatomic) unsigned int x;
-@property(nonatomic) unsigned int y;
-@property(nonatomic) unsigned int z;
 
 @end
 

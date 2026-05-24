@@ -7,31 +7,23 @@
 @interface SCRCRawImage
 {
     struct CGImage *_imageRef;
-    char *_data;
-    long long _width;
-    long long _height;
-    long long _bytesPerPixel;
 }
 
 + (id);
+- (void);
+- (long long);
+- (void)f<{;
 - (void);
 - (long long);
-- (void);
-- (void);
-- (long long);
 - (long long);
 - (void);
-- (char *);
+- (char *);
 - (void);
 - (void);
 - (struct CGImage *);
 
 // Remaining properties
-@property(nonatomic) long long bytesPerPixel; // @synthesize bytesPerPixel=_bytesPerPixel;
 @property(nonatomic) char *data; // @synthesize data=_data;
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(retain, nonatomic) struct CGImage *imageRef; // @synthesize imageRef=_imageRef;
-@property(nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

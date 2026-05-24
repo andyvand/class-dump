@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView;
-@protocol UIViewControllerPreviewingDelegate;
+@class UIGestureRecognizer, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIInertPreviewingContext
 {
     UIGestureRecognizer *_failureRelationshipGestureRecognizer;
-    id <UIViewControllerPreviewingDelegate> _delegate;
-    UIView *_customViewForInteractiveHighlight;
-    UIView *_sourceView;
-    struct CGRect _sourceRect;
 }
 
 - (void);
+- (id)6@20B28;
+- (struct CGRect)icationCenter"16@"UNNotification"24@?<v@?Q>32;
+- (id)_updateActiveNicknameRecordsListIfNeeded: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGRect);
-- (id);
+- (void)!;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect)llBeginSystemProvidedPresentationOfAlertController: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_willBeginSystemProvidedPresentationOfAlertController: /* Error: Ran out of types for this method. */;
 - (void)lAngle;
 - (id);
-- (void)er;
+- (void)Identifier;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *customViewForInteractiveHighlight; // @synthesize customViewForInteractiveHighlight=_customViewForInteractiveHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIViewControllerPreviewingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIGestureRecognizer *previewingGestureRecognizerForFailureRelationship;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
 @property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
 
 @end
 

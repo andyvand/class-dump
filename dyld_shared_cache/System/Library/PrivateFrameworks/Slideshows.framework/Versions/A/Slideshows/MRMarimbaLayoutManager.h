@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPText, MRMarimbaLayer, MRMarimbaView, MRTextRenderer;
+@class MRMarimbaView, MRTextRenderer;
 
 @interface MRMarimbaLayoutManager
 {
     MRTextRenderer *_textRenderer;
-    MRMarimbaView *_marimbaView;
-    MRMarimbaLayer *_marimbaLayer;
-    MPText *_text;
 }
 
 - (void);
-- (id);
-- (id);
-- (struct CGRect);
+- (id)destruct;
+- (id)erationQueue",&,N,V_backgroundSessionQueue;
+- (struct CGRect)ches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
 - (void);
 - (id);
 - (id);
@@ -33,9 +30,7 @@
 - (struct CGPoint)V_vertexAttributes;
 
 // Remaining properties
-@property(retain, nonatomic) MRMarimbaLayer *marimbaLayer; // @synthesize marimbaLayer=_marimbaLayer;
 @property(retain, nonatomic) MRMarimbaView *marimbaView; // @synthesize marimbaView=_marimbaView;
-@property(retain, nonatomic) MPText *text; // @synthesize text=_text;
 
 @end
 

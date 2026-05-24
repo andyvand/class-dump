@@ -7,10 +7,6 @@
 @interface NewsUI2.SportsManagementRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id navigator;
-    id sportsOnboardingFlowManager;
 }
 
 @end

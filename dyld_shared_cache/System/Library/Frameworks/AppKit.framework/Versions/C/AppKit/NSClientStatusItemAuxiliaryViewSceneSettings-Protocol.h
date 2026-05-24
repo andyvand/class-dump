@@ -7,10 +7,13 @@
 @class NSString;
 
 @protocol NSClientStatusItemAuxiliaryViewSceneSettings
+- (NSString *);
+- (NSString *)__cfstring;
+- (NSString *);
+- (void);
+- (void)m;
 
 // Remaining properties
-@property(copy) NSString *stataux_itemIdentifier;
 @property(copy) NSString *stataux_name;
-@property(copy) NSString *stataux_parentIdentifier;
 @end
 

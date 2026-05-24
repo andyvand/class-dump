@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NURenderJobStatisticsHistogram;
+@class NSString;
 
 @interface NURenderJobStatisticsHistory
 {
     double _prevCreatedTime;
-    unsigned long long _creationsHead;
-    unsigned long long _creationsSize;
-    double _prevDeliveredTime;
-    unsigned long long _deliveriesHead;
-    unsigned long long _deliveriesSize;
-    NSString *_jobRequestName;
-    NURenderJobStatisticsHistogram *_histogram;
-    double _totalTimeExecutingPrepare;
-    double _totalTimeExecutingRender;
-    double _totalTimeExecutingComplete;
-    double _totalTimeExecuting;
-    unsigned long long _rollingHistoryMaxSize;
-    double *_timeBetweenJobCreations;
-    double *_timeBetweenJobDeliveries;
-    unsigned long long _canceledJobsCount;
-    unsigned long long _deliveredJobsCount;
-    unsigned long long _jobCount;
 }
 
 + (double);
-+ (double);
++ (double)8	;
 + (double);
 + (double);
 + (unsigned long long);
@@ -63,18 +46,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) unsigned long long canceledJobsCount; // @synthesize canceledJobsCount=_canceledJobsCount;
-@property(readonly) unsigned long long deliveredJobsCount; // @synthesize deliveredJobsCount=_deliveredJobsCount;
-@property(readonly) NURenderJobStatisticsHistogram *histogram; // @synthesize histogram=_histogram;
-@property(readonly) unsigned long long jobCount; // @synthesize jobCount=_jobCount;
 @property(readonly) NSString *jobRequestName; // @synthesize jobRequestName=_jobRequestName;
-@property(readonly) unsigned long long rollingHistoryMaxSize; // @synthesize rollingHistoryMaxSize=_rollingHistoryMaxSize;
-@property(readonly) double *timeBetweenJobCreations; // @synthesize timeBetweenJobCreations=_timeBetweenJobCreations;
-@property(readonly) double *timeBetweenJobDeliveries; // @synthesize timeBetweenJobDeliveries=_timeBetweenJobDeliveries;
-@property(readonly) double totalTimeExecuting; // @synthesize totalTimeExecuting=_totalTimeExecuting;
-@property(readonly) double totalTimeExecutingComplete; // @synthesize totalTimeExecutingComplete=_totalTimeExecutingComplete;
-@property(readonly) double totalTimeExecutingPrepare; // @synthesize totalTimeExecutingPrepare=_totalTimeExecutingPrepare;
-@property(readonly) double totalTimeExecutingRender; // @synthesize totalTimeExecutingRender=_totalTimeExecutingRender;
 
 @end
 

@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKContainerOptions, NSArray, NSNumber, NSObject, NSString;
-@protocol NSCloudKitMirroringDelegateProgressProvider;
-
 @interface NSPersistentCloudKitContainerOptions
 {
     _Bool _useDeviceToDeviceEncryption;
-    _Bool _automaticallyDownloadFileBackedFutures;
-    NSString *_containerIdentifier;
-    NSString *_apsConnectionMachServiceName;
-    long long _databaseScope;
-    NSObject<NSCloudKitMirroringDelegateProgressProvider> *_progressProvider;
-    CKContainer *_testContainerOverride;
-    CKContainerOptions *_containerOptions;
-    NSNumber *_operationMemoryThresholdBytes;
-    NSNumber *_ckAssetThresholdBytes;
-    NSArray *_activityVouchers;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -54,17 +41,6 @@
 - (id)D Z%@%lu BLOB;;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityVouchers; // @synthesize activityVouchers=_activityVouchers;
-@property(retain, nonatomic) NSString *apsConnectionMachServiceName; // @synthesize apsConnectionMachServiceName=_apsConnectionMachServiceName;
-@property(nonatomic) _Bool automaticallyDownloadFileBackedFutures; // @synthesize automaticallyDownloadFileBackedFutures=_automaticallyDownloadFileBackedFutures;
-@property(retain, nonatomic) NSNumber *ckAssetThresholdBytes; // @synthesize ckAssetThresholdBytes=_ckAssetThresholdBytes;
-@property(readonly, copy) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(retain, nonatomic) CKContainerOptions *containerOptions; // @synthesize containerOptions=_containerOptions;
-@property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(retain, nonatomic) NSNumber *operationMemoryThresholdBytes; // @synthesize operationMemoryThresholdBytes=_operationMemoryThresholdBytes;
-@property(nonatomic) __weak NSObject<NSCloudKitMirroringDelegateProgressProvider> *progressProvider; // @synthesize progressProvider=_progressProvider;
-@property(retain, nonatomic) CKContainer *testContainerOverride; // @synthesize testContainerOverride=_testContainerOverride;
-@property _Bool useDeviceToDeviceEncryption; // @synthesize useDeviceToDeviceEncryption=_useDeviceToDeviceEncryption;
 @property _Bool useEncryptedStorage;
 
 @end

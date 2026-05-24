@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
-
 @interface RWIProtocolDOMNode : RWIProtocolJSONObject
 {
 }
@@ -16,9 +14,9 @@
 - (long long);
 - (void);
 - (void);
+- (void)k;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,10 +26,20 @@
 - (void);
 - (long long);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (int);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (long long);
+- (void);
+- (void);
 - (id);
+- (void);
 - (int);
 - (void);
 - (id);
@@ -42,22 +50,12 @@
 - (void);
 - (id);
 - (void);
-- (int);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)	;
 - (void);
 - (id);
 - (void);
@@ -65,31 +63,7 @@
 - (id)$x¤ð\|¤@¤ÐPP` ¬D¡¼¢\£ £ì£`¤¸¤|¥ü¥¦;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributes;
-@property(copy, nonatomic) NSString *baseURL;
-@property(nonatomic) int childNodeCount;
-@property(copy, nonatomic) NSArray *children;
-@property(retain, nonatomic) RWIProtocolDOMNode *contentDocument;
-@property(copy, nonatomic) NSString *contentSecurityPolicyHash;
-@property(nonatomic) long long customElementState;
-@property(copy, nonatomic) NSString *documentURL;
-@property(copy, nonatomic) NSString *frameId;
-@property(copy, nonatomic) NSArray *layoutFlags;
-@property(copy, nonatomic) NSString *localName;
-@property(copy, nonatomic) NSString *name;
 @property(nonatomic) int nodeId;
-@property(copy, nonatomic) NSString *nodeName;
-@property(nonatomic) int nodeType;
-@property(copy, nonatomic) NSString *nodeValue;
-@property(copy, nonatomic) NSArray *pseudoElements;
-@property(nonatomic) long long pseudoType;
-@property(copy, nonatomic) NSString *publicId;
-@property(nonatomic) long long shadowRootType;
-@property(copy, nonatomic) NSArray *shadowRoots;
-@property(copy, nonatomic) NSString *systemId;
-@property(retain, nonatomic) RWIProtocolDOMNode *templateContent;
-@property(copy, nonatomic) NSString *value;
-@property(copy, nonatomic) NSString *xmlVersion;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURL;
+@class NSString;
 
 @interface NSFileCoordinator
 {
     id _accessArbiter;
-    id _fileReactor;
-    id _purposeID;
-    NSURL *_recentFilePresenterURL;
-    id _accessClaimIDOrIDs;
-    NSMutableDictionary *_movedItems;
-    _Bool _isCancelled;
 }
 
 

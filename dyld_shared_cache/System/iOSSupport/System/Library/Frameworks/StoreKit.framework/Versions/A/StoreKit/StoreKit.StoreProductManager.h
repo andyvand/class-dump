@@ -7,16 +7,6 @@
 @interface StoreKit.StoreProductManager
 {
     id $defaultActor;
-    id products;
-    id subscriptionGroups;
-    id purgableIDs;
-    id stagingIDs;
-    id loadingIDs;
-    id storefrontTask;
-    id lowMemoryTask;
-    id throttleTask;
-    id loadingTasks;
-    id log;
 }
 
 @end

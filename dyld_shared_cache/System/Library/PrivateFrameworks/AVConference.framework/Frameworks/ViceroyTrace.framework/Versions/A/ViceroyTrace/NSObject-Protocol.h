@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (id)q!;
+- (id);
+- (Class);
+- (unsigned long long)mediaStreamDirection;
+- (id)Could not get sample attachments array from input sample buffer;
+- (_Bool);
+- (_Bool)`;
 - (struct _NSZone *)dþ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)Ho;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

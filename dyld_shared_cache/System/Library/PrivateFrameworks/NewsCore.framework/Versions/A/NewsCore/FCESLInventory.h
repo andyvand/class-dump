@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol FCFeedItemInventoryType;
 
 @interface FCESLInventory
 {
     id <FCFeedItemInventoryType> _globalInventory;
-    id <FCFeedItemInventoryType> _tagInventory;
 }
 
 - (id);
@@ -27,10 +25,7 @@
 - (void)ices/feldsparcore/Classes/FCUserInfo.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFeedItems;
-@property(readonly, nonatomic) NSArray *allNetworkEvents;
 @property(readonly, nonatomic) id <FCFeedItemInventoryType> globalInventory; // @synthesize globalInventory=_globalInventory;
-@property(readonly, nonatomic) id <FCFeedItemInventoryType> tagInventory; // @synthesize tagInventory=_tagInventory;
 
 @end
 

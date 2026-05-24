@@ -7,6 +7,7 @@
 @interface HomeServices.AppleAccountManager
 {
     id accountStore;
+    id;
 }
 
 @end

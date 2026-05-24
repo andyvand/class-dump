@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)iles;
+- (_Bool)showsHiddenFiles;
 - (void);
 
 // Remaining properties

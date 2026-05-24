@@ -11,10 +11,6 @@
 @interface CEMPredicateCompositeBudget_Monitors : CEMPayloadBase
 {
     NSArray *_payloadApps;
-    NSArray *_payloadWebSites;
-    NSArray *_payloadCategories;
-    NSArray *_payloadCategoriesVersion2;
-    NSArray *_payloadExemptApps;
 }
 
 + (id);
@@ -22,27 +18,23 @@
 + (id);
 + (id);
 + (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)y sample at url %s;
+- (void)at url %s failed;
+- (void)iled;
+- (id);
+- (id)MobileAssetProperties;
+- (id)ew-asset-installed;
+- (_Bool)boot time, errno:(id)arg1;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (id)gnrzo_;
+- (void)unable to extract public key;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *payloadApps; // @synthesize payloadApps=_payloadApps;
-@property(copy, nonatomic) NSArray *payloadCategories; // @synthesize payloadCategories=_payloadCategories;
-@property(copy, nonatomic) NSArray *payloadCategoriesVersion2; // @synthesize payloadCategoriesVersion2=_payloadCategoriesVersion2;
-@property(copy, nonatomic) NSArray *payloadExemptApps; // @synthesize payloadExemptApps=_payloadExemptApps;
-@property(copy, nonatomic) NSArray *payloadWebSites; // @synthesize payloadWebSites=_payloadWebSites;
 
 @end
 

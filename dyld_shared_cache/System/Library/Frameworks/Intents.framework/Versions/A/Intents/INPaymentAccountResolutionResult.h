@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)__objc_arrayobj;
 + (id);
 - (id);
 - (id);

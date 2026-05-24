@@ -10,20 +10,17 @@
 @interface _AFAudioPowerXPCSharedMemory
 {
     NSObject<OS_xpc_object> *_xpcObject;
-    unsigned long long _mappedLength;
-    void *_sharedRegion;
 }
 
 - (void);
-- (void);
+- (void)PKProvisioningSecurityEnhancementsDisableDeviceScore;
 - (float);
 - (float);
 - (id);
-- (void)eAnnouncementRecency;
+- (void)_homeAnnouncementRecency;
 
 // Remaining properties
 @property(readonly, nonatomic) float averagePower;
-@property(readonly, nonatomic) float peakPower;
 
 @end
 

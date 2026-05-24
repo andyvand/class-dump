@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface FigFlatToNSDictionaryWrapperKeyEnumerator
 {
     struct **_keys;
-    int _keysCount;
-    int _counter;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ing",R,V_formatScientificStringWithParens;
+- (id);
 - (id);
 
 @end

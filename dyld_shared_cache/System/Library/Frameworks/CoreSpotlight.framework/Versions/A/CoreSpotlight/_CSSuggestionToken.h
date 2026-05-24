@@ -4,61 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSItemSummary, CSSearchableItem, NSArray, NSAttributedString, NSDictionary, NSMutableDictionary, NSNumber, NSString;
-
 @interface _CSSuggestionToken
 {
     long long _internalType;
-    long long _bundleType;
-    struct _NSRange _replacementRange;
-    NSNumber *_score;
-    NSArray *_scopes;
-    unsigned long long _selectedScope;
-    NSString *_displayString;
-    NSString *_searchString;
-    NSString *_spotlightQueryString;
-    NSAttributedString *_suggestionDisplayText;
-    NSArray *_filterQueries;
-    _Bool _personIsUser;
-    _Bool _personIsImportant;
-    _Bool _personIsMailingList;
-    _Bool _shouldDisplayNameAndEmail;
-    _Bool _personNameIsMissing;
-    _Bool _isMailIntent;
-    _Bool _hasRecentActivity;
-    _Bool _hasUsedDate;
-    double _age;
-    NSString *_personIdentifier;
-    CSSearchableItem *_personItem;
-    double _megadomeCompositeScore;
-    _Bool _isMegadomeToken;
-    int _suggestionTokenDataSources;
-    NSString *_nlpCompletionType;
-    NSDictionary *_nlpCompletionAttributes;
-    long long _localCompletionType;
-    NSArray *_localCompletionAttributes;
-    NSArray *_localCompletionAttributesStrings;
-    NSAttributedString *_displayText;
-    NSMutableDictionary *_features;
-    long long _nlpKind;
-    _Bool _isTopHit;
-    CSItemSummary *_itemSummary;
-    long long _type;
-    NSArray *_tokenScopes;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *displayText;
-@property(retain, nonatomic) NSDictionary *features; // @synthesize features=_features;
-@property(retain, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
-@property(nonatomic) _Bool isTopHit; // @synthesize isTopHit=_isTopHit;
-@property(retain, nonatomic) CSItemSummary *itemSummary; // @synthesize itemSummary=_itemSummary;
-@property(readonly, nonatomic) struct _NSRange replacementRange;
-@property(readonly, nonatomic) NSArray *scopes;
-@property(retain, nonatomic) NSNumber *score;
-@property(nonatomic) unsigned long long selectedScope; // @synthesize selectedScope=_selectedScope;
-@property(retain, nonatomic) NSArray *tokenScopes; // @synthesize tokenScopes=_tokenScopes;
 @property(nonatomic) long long type; // @synthesize type=_type;
 @end
 

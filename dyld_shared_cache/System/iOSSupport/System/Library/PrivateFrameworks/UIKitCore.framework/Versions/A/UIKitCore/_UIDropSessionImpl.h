@@ -4,62 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgress, NSString, _UIInternalDraggingSessionDestination;
-@protocol UIDragSession;
+@class NSArray, _UIInternalDraggingSessionDestination;
 
 __attribute__((visibility("hidden")))
 @interface _UIDropSessionImpl
 {
     NSArray *_items;
-    id <UIDragSession> _localDragSession;
-    unsigned long long _progressIndicatorStyle;
-    _UIInternalDraggingSessionDestination *_sessionDestination;
 }
 
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (struct CGPoint);
-- (unsigned long long);
-- (void);
-- (id);
+- (void)setContainsWarnState:(CDUnknownBlockType)arg1;
+- (unsigned long long)reportMessageDictionaryToApple:forChat:isJunk:context: /* Error: Ran out of types for this method. */;
+- (id)initWithChatStatus:chat:style:account: /* Error: Ran out of types for this method. */;
+- (id)initWithBundleIdentifier:(Class)arg1;
+- (id)sion:(id)arg1;
+- (struct CGSize)to %@;
+- (struct CGPoint)is %@. Transfer:(id)arg1 %@;
+- (unsigned long long)d;
+- (void)should be dropped;
+- (id)a %@;
 - (long long);
-- (id);
+- (id)ror:(Class)arg1 %@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct CGPoint)lView;
-- (id)ighlightColor;
+- (struct CGPoint)mainScrollView;
+- (id)darkOpaqueSelectionHighlightColor;
 - (id)_animationFlags;
 - (id);
 - (void)±¡^;
 - (unsigned int)¶ÿ,ØÒFc;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;
-@property(readonly, nonatomic) long long _dataOwner;
-@property(readonly, nonatomic) unsigned int _sessionIdentifier;
-@property(readonly, nonatomic) _Bool allowsMoveOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) id <UIDragSession> localDragSession; // @synthesize localDragSession=_localDragSession;
-@property(readonly, nonatomic, getter=_operationMask) unsigned long long operationMask;
-@property(readonly) NSProgress *progress;
-@property(nonatomic) unsigned long long progressIndicatorStyle; // @synthesize progressIndicatorStyle=_progressIndicatorStyle;
-@property(readonly, nonatomic, getter=isRestrictedToDraggingApplication) _Bool restrictedToDraggingApplication;
 @property(readonly, nonatomic) _UIInternalDraggingSessionDestination *sessionDestination; // @synthesize sessionDestination=_sessionDestination;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIDatePickerWeekMonthDayView : UIView
@@ -14,18 +14,14 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int weekdayLast:1;
     } _datePickerWeekMonthDayViewFlags;
-    UILabel *_dateLabel;
-    UILabel *_weekdayLabel;
-    NSString *_formattedDateString;
-    double _weekdayWidth;
 }
 
-- (double);
+- (double)l$;
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)known contact.;
+- (void)cknames - We had a problem writing a handle list update with key %@ -  %@;
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -35,10 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(copy, nonatomic) NSString *formattedDateString; // @synthesize formattedDateString=_formattedDateString;
-@property(readonly, nonatomic) UILabel *weekdayLabel; // @synthesize weekdayLabel=_weekdayLabel;
-@property(nonatomic) _Bool weekdayLast;
-@property(nonatomic) double weekdayWidth; // @synthesize weekdayWidth=_weekdayWidth;
 
 @end
 

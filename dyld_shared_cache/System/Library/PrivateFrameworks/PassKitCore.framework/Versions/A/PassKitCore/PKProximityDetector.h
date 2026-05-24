@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, SFDeviceDiscovery;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSUUID, SFDeviceDiscovery;
 
 @interface PKProximityDetector
 {
     SFDeviceDiscovery *_nearbyInfoDiscovery;
-    _Bool _advertisingDeviceNearby;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_dispatch_queue> *_discoveryQueue;
-    unsigned int _powerAssertionIdentifier;
-    _Bool _isDetecting;
-    NSUUID *_advertisingDeviceUUID;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -38,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *advertisingDeviceUUID; // @synthesize advertisingDeviceUUID=_advertisingDeviceUUID;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) _Bool isDetecting; // @synthesize isDetecting=_isDetecting;
 
 @end
 

@@ -4,39 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIAccordionViewController, NSCalendar, NSDate, NSEvent, NSLayoutConstraint, NSLayoutGuide, NSString, NSTouchBarRangeBackdropView, NSTouchBarRangeView, NSView;
-@protocol CalUIEventTimeViewControllerDelegate;
+@class CalUIAccordionViewController;
 
 @interface CalUIEventTimeViewController
 {
     _Bool _allDay;
-    id <CalUIEventTimeViewControllerDelegate> _delegate;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    CalUIAccordionViewController *_accordionViewController;
-    NSView *_leadingScrollHandle;
-    NSView *_trailingScrollHandle;
-    NSTouchBarRangeView *_rangeView;
-    NSTouchBarRangeBackdropView *_rangeBackdropView;
-    unsigned long long _currentTouchType;
-    NSEvent *_currentTouchEvent;
-    double _distanceOfInitialTouchFromStartPosition;
-    NSLayoutConstraint *_startIndexConstraint;
-    NSLayoutConstraint *_endIndexConstraint;
-    NSLayoutGuide *_startIndexOffsetGuide;
-    NSLayoutGuide *_endIndexOffsetGuide;
-    NSLayoutConstraint *_selectorWidthConstraint;
-    NSCalendar *_calendar;
-    NSDate *_zeroIndexDate;
-    id _eventMontitor;
 }
 
 + (id);
 + (id);
++ (id)9;
 + (id);
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (void);
@@ -48,6 +28,7 @@
 - (double);
 - (void);
 - (void);
+- (void)IC9	;
 - (void);
 - (void);
 - (void);
@@ -55,46 +36,45 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)`h;
 - (id);
 - (double);
+- (double);
+- (long long);
 - (double);
 - (long long);
-- (double);
-- (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (double);
 - (double);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)B;
 - (id);
 - (id);
 - (void);
 - (id);
-- (double);
-- (_Bool);
-- (long long);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (double)(;
 - (_Bool);
 - (long long);
 - (double);
+- (double)h&;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (double);
 - (double);
 - (long long);
 - (void);
@@ -102,60 +82,32 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)";
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)D;
 - (void);
 - (void);
 - (void)qÃ#1Â0@ù
 × ;
 - (void)Ü;
 - (void)äàÈá#ã|ä;
-- (id)sswordPanel;
+- (id)passwordPanel;
 - (void)~;
 
 // Remaining properties
 @property(retain) CalUIAccordionViewController *accordionViewController; // @synthesize accordionViewController=_accordionViewController;
-@property _Bool allDay; // @synthesize allDay=_allDay;
-@property(retain) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(retain) NSEvent *currentTouchEvent; // @synthesize currentTouchEvent=_currentTouchEvent;
-@property unsigned long long currentTouchType; // @synthesize currentTouchType=_currentTouchType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CalUIEventTimeViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property double distanceOfInitialTouchFromStartPosition; // @synthesize distanceOfInitialTouchFromStartPosition=_distanceOfInitialTouchFromStartPosition;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) double endIndexAndOffset;
-@property(retain) NSLayoutConstraint *endIndexConstraint; // @synthesize endIndexConstraint=_endIndexConstraint;
-@property(retain) NSLayoutGuide *endIndexOffsetGuide; // @synthesize endIndexOffsetGuide=_endIndexOffsetGuide;
-@property(retain) id eventMontitor; // @synthesize eventMontitor=_eventMontitor;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *leadingScrollHandle; // @synthesize leadingScrollHandle=_leadingScrollHandle;
-@property(retain) NSTouchBarRangeBackdropView *rangeBackdropView; // @synthesize rangeBackdropView=_rangeBackdropView;
-@property(retain) NSTouchBarRangeView *rangeView; // @synthesize rangeView=_rangeView;
-@property(retain) NSLayoutConstraint *selectorWidthConstraint; // @synthesize selectorWidthConstraint=_selectorWidthConstraint;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) double startIndexAndOffset;
-@property(retain) NSLayoutConstraint *startIndexConstraint; // @synthesize startIndexConstraint=_startIndexConstraint;
-@property(retain) NSLayoutGuide *startIndexOffsetGuide; // @synthesize startIndexOffsetGuide=_startIndexOffsetGuide;
-@property(readonly) Class superclass;
-@property(retain) NSView *trailingScrollHandle; // @synthesize trailingScrollHandle=_trailingScrollHandle;
-@property(retain) NSDate *zeroIndexDate; // @synthesize zeroIndexDate=_zeroIndexDate;
 
 @end
 

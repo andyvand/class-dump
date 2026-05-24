@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListItemPruningData
 {
     NSURL *_folderURL;
-    NSDate *_dateLastViewed;
-    NSDate *_dateAdded;
-    unsigned long long _size;
 }
 
 - (id);
@@ -24,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, nonatomic) NSDate *dateLastViewed; // @synthesize dateLastViewed=_dateLastViewed;
 @property(readonly, nonatomic) NSURL *folderURL; // @synthesize folderURL=_folderURL;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

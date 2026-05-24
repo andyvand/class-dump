@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLBuffer;
-
 @interface MTLAccelerationStructureGeometryDescriptor
 {
     _Bool _opaque;
-    _Bool _allowDuplicateIntersectionFunctionInvocation;
-    unsigned long long _intersectionFunctionTableOffset;
-    NSString *_label;
-    id <MTLBuffer> _primitiveDataBuffer;
-    unsigned long long _primitiveDataBufferOffset;
-    unsigned long long _primitiveDataStride;
-    unsigned long long _primitiveDataElementSize;
 }
 
 - (void);
@@ -24,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)|�(;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -34,23 +24,16 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)x;
 - (_Bool);
-- (void)ferResidencySet;
+- (void)initLogBufferResidencySet;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDuplicateIntersectionFunctionInvocation; // @synthesize allowDuplicateIntersectionFunctionInvocation=_allowDuplicateIntersectionFunctionInvocation;
 @property(nonatomic) unsigned long long intersectionFunctionTableOffset; // @synthesize intersectionFunctionTableOffset=_intersectionFunctionTableOffset;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(retain, nonatomic) id <MTLBuffer> primitiveDataBuffer; // @synthesize primitiveDataBuffer=_primitiveDataBuffer;
-@property(nonatomic) unsigned long long primitiveDataBufferOffset; // @synthesize primitiveDataBufferOffset=_primitiveDataBufferOffset;
-@property(nonatomic) unsigned long long primitiveDataElementSize; // @synthesize primitiveDataElementSize=_primitiveDataElementSize;
-@property(nonatomic) unsigned long long primitiveDataStride; // @synthesize primitiveDataStride=_primitiveDataStride;
 
 @end
 

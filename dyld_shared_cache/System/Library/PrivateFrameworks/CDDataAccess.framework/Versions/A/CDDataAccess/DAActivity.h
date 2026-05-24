@@ -11,7 +11,7 @@
     DAAccount *_account;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

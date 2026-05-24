@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)threadgroupSizeMatchesTileSize;
+- (void)tableView:(id)arg1 canPerformPrimaryActionForRowAtIndexPath:(id)arg2;
 
 @end
 

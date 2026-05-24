@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCFrontmostApplicationObserver, NSString;
+@class GCFrontmostApplicationObserver;
 
 __attribute__((visibility("hidden")))
 @interface _GCHIDEventDeliveryMonitor
 {
     GCFrontmostApplicationObserver *_frontmostObserver;
-    unsigned long long _state;
-    int _deferringTarget;
 }
 
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) int deferringTarget; // @synthesize deferringTarget=_deferringTarget;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface PhotosUICore.PhotosViewCurationModel
 {
     id _defaultCurationKind;
-    id _currentCurationKind;
-    id _availableCurationKinds;
-    id _allCurationKinds;
-    id observable;
-    id photosViewModel;
-    id photosViewModelObservation;
-    id _photosDataSourceIdentifier;
-    id needsUpdateAvailableCurations;
-    id hasUpdatedAvailableCurations;
 }
 
 @end

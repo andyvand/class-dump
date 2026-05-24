@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSMutableArray, NSSortDescriptor;
 @protocol PHResourceChooserAsset;
 
 @interface PHResourceChooserList
 {
     id <PHResourceChooserAsset> _asset;
-    CDUnknownBlockType _itemHandler;
-    CDUnknownBlockType _endOfListHandler;
-    NSArray *_nonHintResourceInfos;
-    long long _hintDataCurrentOffset;
-    long long _hintDataNextItemOffset;
-    _Bool _finishedPresentingFromHints;
-    _Bool _didObserveThumbnailStoreKey;
-    NSSortDescriptor *_sortDescriptor;
-    NSManagedObjectContext *_context;
-    NSArray *_unvisitedNonHintResourcesInfos;
-    unsigned long long _lastPresentedFullResourceIndex;
-    _Bool _finishedPresentingFromFetchedResources;
-    NSMutableArray *_visitedKeys;
-    unsigned long long _enumerationDirection;
 }
 
 - (void);

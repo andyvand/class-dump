@@ -6,28 +6,16 @@
 
 #import <PhotosPlayer/ISBasePlayerUIView.h>
 
-@class CAMeshTransform, ISLivePhotoPlayer, ISTouchLivePhotoPlaybackFilter, NSString, UIGestureRecognizer, UIImpactFeedbackGenerator, UILabel;
-@protocol ISLivePhotoUIViewDelegate;
+@class ISTouchLivePhotoPlaybackFilter, UIImpactFeedbackGenerator;
 
 @interface ISLivePhotoUIView : ISBasePlayerUIView
 {
     UIImpactFeedbackGenerator *_feedbackGenerator;
-    struct {
-        _Bool canBeginInteractivePlayback;
-        _Bool extraMinimumTouchDuration;
-    } _delegateRespondsTo;
-    _Bool __playingVitality;
-    UIGestureRecognizer *_playbackGestureRecognizer;
-    CAMeshTransform *_vitalityTransform;
-    id <ISLivePhotoUIViewDelegate> _delegate;
-    ISTouchLivePhotoPlaybackFilter *__playbackFilter;
-    UILabel *__overlayLabel;
-    long long __overlayDismissalID;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)^;
 - (void);
 - (void);
 - (void);
@@ -40,43 +28,32 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)<%@ (address = %p)
+	name:(id)arg1 "%@", size = (%lu, %lu),
+	bufferSize = %zu, bufferPointer = %p,
+	textureID = %d, opaque = %d>;
+- (void)indexPathOfItemBelow: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)MapsSuggestionsEngineBuilder;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)3;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ˢ;
+- (void);
+- (void)t;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setOverlayDismissalID:) long long _overlayDismissalID; // @synthesize _overlayDismissalID=__overlayDismissalID;
-@property(readonly, nonatomic) UILabel *_overlayLabel; // @synthesize _overlayLabel=__overlayLabel;
 @property(retain, nonatomic, setter=_setPlaybackFilter:) ISTouchLivePhotoPlaybackFilter *_playbackFilter; // @synthesize _playbackFilter=__playbackFilter;
-@property(nonatomic, setter=_setPlayingVitality:) _Bool _playingVitality; // @synthesize _playingVitality=__playingVitality;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ISLivePhotoUIViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIGestureRecognizer *playbackGestureRecognizer; // @synthesize playbackGestureRecognizer=_playbackGestureRecognizer;
-@property(retain, nonatomic) ISLivePhotoPlayer *player; // @dynamic player;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CAMeshTransform *vitalityTransform; // @synthesize vitalityTransform=_vitalityTransform;
 
 @end
 

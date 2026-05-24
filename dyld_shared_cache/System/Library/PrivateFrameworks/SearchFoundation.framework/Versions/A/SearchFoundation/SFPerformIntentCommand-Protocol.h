@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFPerformIntentCommand
+- (void);
+- (NSString *)cancelMotionScoreRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *biomeStreamIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSData *intentMessageData;
 @property(copy, nonatomic) NSString *intentMessageName;
-@property(nonatomic) _Bool isRunnableWorkflow;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -4,8 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NUArticleDataProvider;
+
 @protocol NUArticlePrefetcherType
-- (void);
-- (void)tsManagementDataManager;
+- (id <NUArticleDataProvider>);
+- (void)SportsManagementDataManager;
 @end
 

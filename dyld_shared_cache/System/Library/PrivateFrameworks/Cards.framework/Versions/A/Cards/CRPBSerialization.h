@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)nItem",R,N;
 + (id);
 
 @end

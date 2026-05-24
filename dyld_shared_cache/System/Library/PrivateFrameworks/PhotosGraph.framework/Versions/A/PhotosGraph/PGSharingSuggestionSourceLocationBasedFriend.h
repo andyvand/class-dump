@@ -10,9 +10,9 @@
 {
 }
 
+- (id)@;
 - (id);
-- (id);
-- (double);
+- (double)o;
 - (id).MomentIngestCLIPFeatureVectorExtractor;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSString, PHPhotoLibrary;
+@class NSCache;
 
 @interface PXPhotoKitThumbnailCache
 {
     NSCache *_cache;
-    PHPhotoLibrary *_photoLibrary;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lock_cachedThumbnailIndexByObjectID;
-    unsigned long long _sizeLimit;
-    NSString *_label;
 }
 
 - (id);
@@ -24,23 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id)rubberContentLayout;
+- (id)PXStoryScrubberContentLayout;
 - (void);
-- (void)omeShouldStartHiddenEnvironmentKey;
+- (void)StoryChromeShouldStartHiddenEnvironmentKey;
 - (id);
 - (void)¤>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(readonly, nonatomic) unsigned long long sizeLimit; // @synthesize sizeLimit=_sizeLimit;
-@property(readonly) Class superclass;
 
 @end
 

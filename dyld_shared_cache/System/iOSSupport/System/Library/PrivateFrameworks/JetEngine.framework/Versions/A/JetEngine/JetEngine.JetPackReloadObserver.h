@@ -7,7 +7,6 @@
 @interface JetEngine.JetPackReloadObserver
 {
     id state;
-    id notificationQueue;
 }
 
 @end

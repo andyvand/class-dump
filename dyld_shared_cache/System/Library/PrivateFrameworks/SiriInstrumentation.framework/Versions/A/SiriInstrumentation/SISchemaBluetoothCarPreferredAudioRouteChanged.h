@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaBluetoothCarPreferredAudioRouteChanged : SISchemaInstrumentationMessage
 {
     int _before;
-    int _after;
-    struct {
-        unsigned int before:1;
-        unsigned int after:1;
-    } _has;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -27,23 +20,20 @@
 - (void);
 - (void);
 - (int);
-- (int);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ionInMs;
-- (id)ndleIds;
+- (int);
+- (id)z;
+- (void)u;
+- (unsigned long long)ASDManagedRequestStatus;
+- (_Bool)ABLabelsAndProperties;
+- (_Bool).messages.chatbot'  LIMIT ?;;
+- (id)";
+- (id)ailed:unable to rescale image mask to image dimensions
+ /* Error: Ran out of types for this method. */;
+- (id)dataFilteringDurationInMs;
+- (id)_appBundleIds;
 
 // Remaining properties
-@property(nonatomic) int after; // @synthesize after=_after;
 @property(nonatomic) int before; // @synthesize before=_before;
-@property(nonatomic) _Bool hasAfter;
-@property(nonatomic) _Bool hasBefore;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

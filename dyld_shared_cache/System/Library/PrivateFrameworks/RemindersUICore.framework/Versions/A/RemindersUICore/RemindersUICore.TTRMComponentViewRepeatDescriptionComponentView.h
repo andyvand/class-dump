@@ -9,12 +9,11 @@
 @interface RemindersUICore.TTRMComponentViewRepeatDescriptionComponentView
 {
     id accessibilityAdditionalDescription;
-    void descriptionLabel;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void)T£;
 

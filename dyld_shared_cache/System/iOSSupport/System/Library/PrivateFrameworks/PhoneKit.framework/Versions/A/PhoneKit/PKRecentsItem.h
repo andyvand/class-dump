@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UIImage;
+@class NSString, UIImage;
 
 @interface PKRecentsItem
 {
     _Bool _verified;
     _Bool _isBlocked;
-    UIImage *_image;
-    NSString *_localizedCount;
-    NSString *_localizedSubtitle;
-    NSString *_localizedTitle;
-    NSString *_localizedValidHandlesTitle;
-    NSString *_localizedSenderIdentityTitle;
-    NSDate *_date;
 }
 
-+ (_Bool);
++ (_Bool)B;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,14 +24,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_creationDate;
 - (id);
 - (void);
 - (void);
@@ -46,15 +39,8 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isBlocked; // @synthesize isBlocked=_isBlocked;
 @property(copy, nonatomic) NSString *localizedCount; // @synthesize localizedCount=_localizedCount;
-@property(copy, nonatomic) NSString *localizedSenderIdentityTitle; // @synthesize localizedSenderIdentityTitle=_localizedSenderIdentityTitle;
-@property(copy, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) NSString *localizedValidHandlesTitle; // @synthesize localizedValidHandlesTitle=_localizedValidHandlesTitle;
-@property(nonatomic) _Bool verified; // @synthesize verified=_verified;
 
 @end
 

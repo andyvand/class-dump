@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ASDTaskScheduler;
-
 __attribute__((visibility("hidden")))
 @interface ASDPromiseObserver
 {
     CDUnknownBlockType _valueBlock;
-    CDUnknownBlockType _errorBlock;
-    id <ASDTaskScheduler> _scheduler;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)neuver;
 - (void);
 
 @end

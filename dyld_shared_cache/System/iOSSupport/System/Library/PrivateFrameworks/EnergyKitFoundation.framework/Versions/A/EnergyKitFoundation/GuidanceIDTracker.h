@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface GuidanceIDTracker
 {
@@ -13,11 +13,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *createdAt; // @dynamic createdAt;
 @property(nonatomic, copy) NSString *gridID; // @dynamic gridID;
-@property(nonatomic) _Bool isVenueToken; // @dynamic isVenueToken;
 @property(nonatomic, copy) NSUUID *siteID; // @dynamic siteID;
-@property(nonatomic, copy) NSUUID *token; // @dynamic token;
 
 @end
 

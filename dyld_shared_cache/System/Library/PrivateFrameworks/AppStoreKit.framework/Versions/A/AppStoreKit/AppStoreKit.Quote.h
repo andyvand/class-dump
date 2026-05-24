@@ -7,12 +7,6 @@
 @interface AppStoreKit.Quote
 {
     id text;
-    id credit;
-    id artwork;
-    id isFullWidthArtwork;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

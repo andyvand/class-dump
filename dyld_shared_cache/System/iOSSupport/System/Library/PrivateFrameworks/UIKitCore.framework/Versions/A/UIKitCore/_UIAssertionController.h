@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id)MPModelPropertyMovieLibraryAddedDate;
 - (id)! Eù1Yð1Â0@ù
 × ;
 - (void)!ôBù±Z1Â0@ù
@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)1Â0@ù
 × ;
 - (void)8Q16B24;
-- (id)sition;
-- (id)on;
-- (id)cation;
+- (id)_UIImageSymbolReplaceTransition;
+- (id)FocusAnimationDefaultMinimumFocusDuration;
+- (id)UINavigationControllerDidCollapseNavigationViewNotification;
 - (void)Ïr;
 - (id)øb;
 - (void);

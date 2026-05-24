@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaSSUUserRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)ch;
 - (id)rlyingErrorDomain;
-- (_Bool)onForFinalResultInNs;
+- (_Bool)inverseTextNormalizationDurationForFinalResultInNs;
 - (_Bool)$±mR";
 - (void)½³Áb&;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

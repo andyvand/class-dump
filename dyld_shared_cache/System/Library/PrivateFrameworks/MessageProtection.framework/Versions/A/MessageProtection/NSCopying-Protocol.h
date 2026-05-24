@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)ddressesFromSelectStatement:(struct _NSZone *)arg1 additionalRowHandling:] /* Error: Ran out of types for this method. */;
 @end
 

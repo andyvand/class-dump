@@ -6,14 +6,9 @@
 
 #import <EmbeddedAcousticRecognition/_EARArtifact.h>
 
-@class NSString;
-
 @interface _EARAppLmArtifact : _EARArtifact
 {
     shared_ptr_f52c68bb _cachedLmData;
-    NSString *_cachedConfigFilepath;
-    NSString *_cachedNcsRoot;
-    NSString *_cachedDataRoot;
 }
 
 + (_Bool);
@@ -35,7 +30,7 @@
 - (id);
 - (unsigned long long);
 - (shared_ptr_f52c68bb);
-- (shared_ptr_f52c68bb);
+- (shared_ptr_f52c68bb)t;
 - (void);
 - (id);
 - (id);

@@ -4,57 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemClientAttributes, GEOMapItemInitialRequestData, GEOPDPlaceRefinementParameters, PBDataReader;
+@class PBDataReader;
 
 @interface GEOMapItemHandle
 {
     PBDataReader *_reader;
-    GEOMapItemClientAttributes *_clientAttributes;
-    GEOPDPlaceRefinementParameters *_placeRefinementParameters;
-    GEOMapItemInitialRequestData *_placeRequestData;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _handleType;
-    struct {
-        unsigned int has_handleType:1;
-        unsigned int read_clientAttributes:1;
-        unsigned int read_placeRefinementParameters:1;
-        unsigned int read_placeRequestData:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)meRanges:(id)arg1;
++ (_Bool)setHasSupportsRouteNameRanges:(id)arg1;
 + (id)y¨4;
 - (id);
 - (void);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)profile.;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)SLWebTokenHandlerResponse;
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)em.B.dylib;
 - (void)"read_statusNotificationId"b1"read_userCredentials"b1"wrote_anyField"b1};
-- (id)ID;
+- (id)uniqueWaypointID;
 - (id),N,V_waypointCaption;
 - (_Bool)ôúHûÔûdüèý¸þ<;
 - (id),9);
-- (id)n;
+- (id)win_distance_km_mean;
 - (_Bool)le.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/dynamic_message.cc;
 - (id);
 - (_Bool)ÝAA;
@@ -63,14 +49,7 @@
 - (void)À9;
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapItemClientAttributes *clientAttributes;
-@property(nonatomic) int handleType;
-@property(readonly, nonatomic) _Bool hasClientAttributes;
 @property(nonatomic) _Bool hasHandleType;
-@property(readonly, nonatomic) _Bool hasPlaceRefinementParameters;
-@property(readonly, nonatomic) _Bool hasPlaceRequestData;
-@property(retain, nonatomic) GEOPDPlaceRefinementParameters *placeRefinementParameters;
-@property(retain, nonatomic) GEOMapItemInitialRequestData *placeRequestData;
 
 @end
 

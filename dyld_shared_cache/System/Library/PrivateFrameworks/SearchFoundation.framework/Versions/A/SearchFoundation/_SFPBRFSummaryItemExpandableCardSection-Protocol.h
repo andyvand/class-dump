@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFSummaryItemAttribution, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSArray, NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemExpandableCardSection
+- (NSArray *)$;
+- (_Bool)R;
+- (_SFPBRFTextProperty *){CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48 /* Error: Ran out of types for this method. */;
+- (NSData *)deleteProjects: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFSummaryItemAttribution *attribution;
-@property(retain, nonatomic) _SFPBRFTextProperty *attribution_caveat;
-@property(nonatomic) _Bool attribution_ignores_expansion;
-@property(copy, nonatomic) NSArray *expanding_component_contents;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

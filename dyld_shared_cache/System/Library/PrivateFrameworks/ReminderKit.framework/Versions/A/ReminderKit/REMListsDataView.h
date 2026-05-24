@@ -13,8 +13,10 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)to startInstallingMDMMajorOSUpdateWithBundleId;
++ (id)ControlIsSecureTextField;
+- (id);
+- (id)transcriptionWithPath:(id *)arg1 columnRange:filterLowConfidence:allowPrecedingSeparator: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -22,21 +24,19 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ET title = ?1 WHERE id = ?2;
 - (id);
 - (id);
 - (id);
 - (void)ë!@ùñr Ð1Â0@ù
 × ;
 - (id)q56@64;
-- (id);
+- (id)allDay;
 
 // Remaining properties
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;

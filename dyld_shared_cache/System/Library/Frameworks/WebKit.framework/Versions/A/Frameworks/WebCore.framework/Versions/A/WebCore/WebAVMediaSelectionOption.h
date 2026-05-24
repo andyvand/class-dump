@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface WebAVMediaSelectionOption
 {
     struct RetainPtr<NSString> _localizedDisplayName;
-    struct RetainPtr<NSString *> _mediaType;
-    struct RetainPtr<NSString> _extendedLanguageTag;
-    struct RetainPtr<NSLocale> _locale;
-    long long _tag;
 }
 
 - (id);
 - (id);
+- (id)B;
 - (id);
+- (id);
+- (_Bool)@�;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)oint to a defined variable or function;
 - (long long);
 - (id);
 - (id);
@@ -68,10 +64,6 @@ m/Pc2ÈàS;ôocá/~sô	a4Iï¶æðÝÕïï½áïå§wiåðò	@@ñ_
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *extendedLanguageTag;
-@property(readonly, nonatomic) NSString *localizedDisplayName;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(nonatomic) long long tag; // @synthesize tag=_tag;
 
 @end
 

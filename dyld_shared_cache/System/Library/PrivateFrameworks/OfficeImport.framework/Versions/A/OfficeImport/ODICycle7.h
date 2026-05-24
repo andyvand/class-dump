@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
++ (void)	;
 + (void);
-+ (void);
-+ (struct CGRect);
++ (struct CGRect);
 + (_Bool);
 + (_Bool);
 + (void);

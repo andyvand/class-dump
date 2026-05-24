@@ -7,11 +7,6 @@
 @interface FamilyCircleUI.ChildRepairFlowViewModel
 {
     id _currentScreen;
-    id _showGenericAlert;
-    id _isLoading;
-    id _dismissSheet;
-    id childMember;
-    id flowOrigin;
 }
 
 @end

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @protocol PKDynamicTemplateLayoutAsset
+- (NSString *);
 - (void)CurrencyAmount",&,N,V_peerPaymentBalanceForAccountPayment;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration;
 @property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange;
 @end
 

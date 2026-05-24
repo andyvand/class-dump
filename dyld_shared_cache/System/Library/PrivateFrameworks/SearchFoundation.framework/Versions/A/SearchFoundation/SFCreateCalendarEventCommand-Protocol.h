@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFCalendarEvent;
+@class NSData, SFCalendarEvent;
 
 @protocol SFCreateCalendarEventCommand
-- (void);
+- (SFCalendarEvent *)4;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) SFCalendarEvent *event;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

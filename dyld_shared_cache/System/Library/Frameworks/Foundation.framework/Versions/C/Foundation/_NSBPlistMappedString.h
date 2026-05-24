@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 - (const char *);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)e;
 - (id)1z5Ð1Â0@ù
 × ;
-- (unsigned short)reementConcept;
+- (unsigned short)NSInflectionAgreementConcept;
 - (const char *)hÛ%g;
 
 @end

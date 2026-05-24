@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntry;
 @protocol NSDraggingInfo;
 
 @interface ABGroupDropScope
 {
     id <NSDraggingInfo> _draggingInfo;
-    ABGroupEntry *_droppedEntry;
-    long long _childIndex;
-    ABGroupEntry *_selectedEntry;
 }
 
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)Á@°!Gùª1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) long long childIndex; // @synthesize childIndex=_childIndex;
 @property(readonly) id <NSDraggingInfo> draggingInfo; // @synthesize draggingInfo=_draggingInfo;
-@property(readonly) ABGroupEntry *droppedEntry; // @synthesize droppedEntry=_droppedEntry;
-@property(readonly) ABGroupEntry *selectedEntry; // @synthesize selectedEntry=_selectedEntry;
 
 @end
 

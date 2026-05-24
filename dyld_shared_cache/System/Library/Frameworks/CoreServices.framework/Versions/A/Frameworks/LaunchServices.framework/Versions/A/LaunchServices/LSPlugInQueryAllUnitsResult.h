@@ -6,25 +6,23 @@
 
 #import <LaunchServices/_LSQueryResult.h>
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LSPlugInQueryAllUnitsResult : _LSQueryResult
 {
     NSArray *_pluginUnits;
-    NSUUID *_dbUUID;
 }
 
-+ (_Bool);
++ (_Bool)DeadlineProfile>"24@0:8Q16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void)ø	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *dbUUID; // @synthesize dbUUID=_dbUUID;
 @property(readonly, nonatomic) NSArray *pluginUnits; // @synthesize pluginUnits=_pluginUnits;
 
 @end

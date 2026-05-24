@@ -9,7 +9,7 @@
     long long _temperatureUnits;
 }
 
-+ (_Bool);
++ (_Bool)xlg;
 - (id);
 - (long long);
 - (id);

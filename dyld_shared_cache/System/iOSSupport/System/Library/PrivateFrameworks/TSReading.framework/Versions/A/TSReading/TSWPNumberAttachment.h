@@ -11,13 +11,12 @@
 @interface TSWPNumberAttachment : TSWPTextualAttachment
 {
     int _numberFormat;
-    NSString *_stringValue;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)iption lease request timed out;
+- (id)ayback;
+- (id)load local file of specified quality;
+- (id);
 - (void);
 - (int);
 - (void);
@@ -25,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int numberFormat; // @synthesize numberFormat=_numberFormat;
 @property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end

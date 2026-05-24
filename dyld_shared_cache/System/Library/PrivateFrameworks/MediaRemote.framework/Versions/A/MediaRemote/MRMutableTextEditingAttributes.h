@@ -17,8 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _MRTextInputTraits inputTraits; // @dynamic inputTraits;
-@property(copy, nonatomic) NSString *prompt; // @dynamic prompt;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

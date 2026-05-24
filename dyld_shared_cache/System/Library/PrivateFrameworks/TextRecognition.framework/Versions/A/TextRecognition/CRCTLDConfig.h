@@ -7,19 +7,6 @@
 @interface CRCTLDConfig
 {
     _Bool _flatMergeJumps;
-    float _allowedOverlap;
-    float _minWhitespaceWidth;
-    float _minWhitespaceHeight;
-    float _qualityHeightFactor;
-    float _qualityWidthFactor;
-    float _minSubRectangleSize;
-    float _minQuadrilateralRotation;
-    float _minWhitespaceHeightForReadingOrder;
-    int _maxRegions;
-    int _maxQueueCapacity;
-    int _numLookupElements;
-    int _numPointsForSegmentsIntersection;
-    float _angleThresholdForRotationCorrection;
 }
 
 - (float);
@@ -33,39 +20,26 @@
 - (float);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
 - (float);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_trailingTopBorderView;
+- (void)_trailingImageView;
+- (void)_trackingPreventionDisabledViewCenteredConstraint;
+- (void)_trackingMouseDown;
+- (void)_trackMouseEventsUntilMouseUp:(float)arg1 withBlock: /* Error: Ran out of types for this method. */;
+- (void)_trackMouseEventsForEvent:(float)arg1 inStackingRegion: /* Error: Ran out of types for this method. */;
+- (void)_touchIconsCacheWillPurge:(float)arg1;
+- (void)_touchIconResponse;
+- (void)_touchIDStatusForError:(float)arg1;
+- (void)_touchBarWillEnterCustomization:(int)arg1;
+- (void)_touchBarProvider;
+- (void)_topInset;
+- (void)_toolbarItemForWebAppTitle:(float)arg1;
+- (void)_toolbarItemForUnifiedFieldContainer:(float)arg1;
 
 // Remaining properties
 @property float allowedOverlap; // @synthesize allowedOverlap=_allowedOverlap;
-@property float angleThresholdForRotationCorrection; // @synthesize angleThresholdForRotationCorrection=_angleThresholdForRotationCorrection;
-@property _Bool flatMergeJumps; // @synthesize flatMergeJumps=_flatMergeJumps;
-@property int maxQueueCapacity; // @synthesize maxQueueCapacity=_maxQueueCapacity;
-@property int maxRegions; // @synthesize maxRegions=_maxRegions;
-@property float minQuadrilateralRotation; // @synthesize minQuadrilateralRotation=_minQuadrilateralRotation;
-@property float minSubRectangleSize; // @synthesize minSubRectangleSize=_minSubRectangleSize;
-@property float minWhitespaceHeight; // @synthesize minWhitespaceHeight=_minWhitespaceHeight;
-@property float minWhitespaceHeightForReadingOrder; // @synthesize minWhitespaceHeightForReadingOrder=_minWhitespaceHeightForReadingOrder;
-@property float minWhitespaceWidth; // @synthesize minWhitespaceWidth=_minWhitespaceWidth;
-@property int numLookupElements; // @synthesize numLookupElements=_numLookupElements;
-@property int numPointsForSegmentsIntersection; // @synthesize numPointsForSegmentsIntersection=_numPointsForSegmentsIntersection;
-@property float qualityHeightFactor; // @synthesize qualityHeightFactor=_qualityHeightFactor;
-@property float qualityWidthFactor; // @synthesize qualityWidthFactor=_qualityWidthFactor;
 
 @end
 

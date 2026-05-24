@@ -10,45 +10,33 @@ __attribute__((visibility("hidden")))
 @interface _UIPageIndicatorStoreObject
 {
     UIImage *_customImage;
-    UIImage *_activeImage;
-    long long _startIndex;
-    long long _endIndex;
-    struct CGSize _indicatorSize;
-    struct CGSize _activeIndicatorSize;
 }
 
 - (id);
 - (long long);
-- (id);
+- (id)PasscodeLockGracePeriod;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (struct CGSize);
-- (id);
+- (_Bool)initWithBoundsSize:(long long)arg1 requestHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (id))A;
 - (void);
 - (void)0@ù
 × ;
-- (void)ndNavigator;
-- (long long)zes;
-- (struct CGSize)eNavigationBar;
+- (void)dismissFindNavigator;
+- (long long)auxillaryHostPreferredSizes;
+- (struct CGSize)_hideNavigationBar;
 - (void)TQ,N,V_currentDirection;
 - (void),R,N;
 - (struct CGSize)side effects on UICollectionView that cause a new cell to be requested while an existing item is being reconfigured is not allowed. Check the backtrace to see what's causing this. Collection view:%@ /* Error: Ran out of types for this method. */;
-- (void)erParentingMode;
+- (void)ViewControllerParentingMode;
 - (_Bool)(`;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *activeImage; // @synthesize activeImage=_activeImage;
-@property(nonatomic) struct CGSize activeIndicatorSize; // @synthesize activeIndicatorSize=_activeIndicatorSize;
 @property(retain, nonatomic) UIImage *customImage; // @synthesize customImage=_customImage;
-@property(nonatomic) long long endIndex; // @synthesize endIndex=_endIndex;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(nonatomic) struct CGSize indicatorSize; // @synthesize indicatorSize=_indicatorSize;
-@property(readonly, nonatomic) struct CGSize resolvedSize;
-@property(nonatomic) long long startIndex; // @synthesize startIndex=_startIndex;
 
 @end
 

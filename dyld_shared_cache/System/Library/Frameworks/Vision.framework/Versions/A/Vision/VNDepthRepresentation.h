@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDepthData, NSData;
+@class AVDepthData;
 
 __attribute__((visibility("hidden")))
 @interface VNDepthRepresentation
 {
     AVDepthData *_depthData;
-    unsigned int _orientation;
 }
 
 + (id);
-+ (id);
++ (id)I9;
 - (id);
 - (struct __CVBuffer *);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (CDStruct_1fe29af2);
 - (unsigned int);
 - (void)egmentation(;
 
 // Remaining properties
-@property(readonly) _Bool absoluteAccuracy;
-@property(readonly) CDStruct_1fe29af2 cameraIntrinsics;
 @property(readonly) struct __CVBuffer *depthBuffer;
-@property(readonly) _Bool highQuality;
-@property(readonly) NSData *lensDistortionData;
-@property(readonly) unsigned int orientation; // @synthesize orientation=_orientation;
 
 @end
 

@@ -13,30 +13,24 @@ __attribute__((visibility("hidden")))
     NSMutableIndexSet *_indexSet;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)stickerPackRemoved: /* Error: Ran out of types for this method. */;
+- (unsigned long long)isRecoverablyDeletedMessageGUID:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchOldestMessageDateForChatIdentifiers:chatStyle:services:reply: /* Error: Ran out of types for this method. */;
+- (unsigned long long)essagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`D;
 - (id);
-- (void)edScrollView;
-- (void)emAtEndWithEnumerationOptions:(unsigned long long)arg1;
-- (id)Suggestion;
-- (unsigned long long)nterRevealMode;
+- (void)adjustedScrollView;
+- (void)_visibleItemAtEndWithEnumerationOptions:(unsigned long long)arg1;
+- (id)TIKeyboardCandidateSuggestion;
+- (unsigned long long)notificationCenterRevealMode;
 - (void);
 - (void)\ØR0±43[;
 - (void)D=Òÿ#;
 
 // Remaining properties
-@property(readonly) unsigned long long beginningIndex;
-@property(readonly) unsigned long long count;
-@property(readonly) unsigned long long endingIndex;
-@property(readonly) unsigned long long highestIndex;
 @property(readonly, nonatomic) NSMutableIndexSet *indexSet; // @synthesize indexSet=_indexSet;
-@property(readonly) unsigned long long lowestIndex;
-@property(nonatomic) _Bool reversed; // @synthesize reversed=_reversed;
 
 @end
 

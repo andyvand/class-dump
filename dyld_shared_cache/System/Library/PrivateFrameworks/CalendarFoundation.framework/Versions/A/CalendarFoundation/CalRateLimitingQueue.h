@@ -10,15 +10,10 @@
 @interface CalRateLimitingQueue
 {
     CDUnknownBlockType _block;
-    unsigned long long _minimumInterval;
-    struct os_unfair_lock_s _lock;
-    _Bool _executionPending;
-    unsigned long long _lastExecutionTimestamp;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

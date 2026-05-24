@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWBufferometerTracker
 {
     long long _trackedSize;
-    unsigned long long _trackingSerialNumber;
-    void *_buffer;
-    NSString *_tag;
-    NSString *_bufferType;
 }
 
 - (void);

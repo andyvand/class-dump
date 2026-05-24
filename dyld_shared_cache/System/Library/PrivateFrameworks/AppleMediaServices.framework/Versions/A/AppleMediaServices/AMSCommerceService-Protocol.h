@@ -5,5 +5,6 @@
 //
 
 @protocol AMSCommerceService
+- (void);
 @end
 

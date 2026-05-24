@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageCloudKitSyncFailed
 {
     unsigned long long _timestamp;
-    int _linkQuality;
-    int _nestedErrorCode;
-    NSString *_nestedErrorDomain;
-    NSString *_syncType;
-    int _topLevelErrorCode;
-    NSString *_topLevelErrorDomain;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int linkQuality:1;
-        unsigned int nestedErrorCode:1;
-        unsigned int topLevelErrorCode:1;
-    } _has;
 }
 
 - (id);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)J;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (int);
-- (void);
+- (void)Tq;
 - (id);
 - (void);
 - (id);
@@ -54,26 +40,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasNestedErrorCode;
-@property(readonly, nonatomic) _Bool hasNestedErrorDomain;
-@property(readonly, nonatomic) _Bool hasSyncType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTopLevelErrorCode;
-@property(readonly, nonatomic) _Bool hasTopLevelErrorDomain;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) int nestedErrorCode; // @synthesize nestedErrorCode=_nestedErrorCode;
-@property(retain, nonatomic) NSString *nestedErrorDomain; // @synthesize nestedErrorDomain=_nestedErrorDomain;
-@property(retain, nonatomic) NSString *syncType; // @synthesize syncType=_syncType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int topLevelErrorCode; // @synthesize topLevelErrorCode=_topLevelErrorCode;
-@property(retain, nonatomic) NSString *topLevelErrorDomain; // @synthesize topLevelErrorDomain=_topLevelErrorDomain;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface TeaUI.TipStorageManager
 {
     id $defaultActor;
-    id fileManager;
-    id loadState;
-    id migrationTasks;
-    id groupLastPresentedDate;
 }
 
 @end

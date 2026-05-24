@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtension, NSImage, NSObject, NSRemoteViewController, NSString, NSView, NSXPCConnection, NSXPCListener;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSXPCListener;
 
 @interface PPSpecifierExtensionItem
 {
     _Bool _editable;
-    NSArray *_searchKeywords;
-    _Bool _extenionDidLoad;
-    NSXPCListener *_listener;
-    NSXPCConnection *_commConnection;
-    NSRemoteViewController *_remoteViewController;
-    NSExtension *_extension;
-    NSView *_extensionViewHost;
-    NSObject<OS_dispatch_semaphore> *_commConnectionQueueSema;
-    NSObject<OS_dispatch_queue> *_commConnectionQueue;
-    CDUnknownBlockType _viewDidLoadCompleteBlock;
 }
 
 + (id);
@@ -38,52 +27,32 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)J;
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
+- (void)(;
+- (void)Th;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ramework/AppSSOCore;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)s allowed blockPage for %{public}@;
 - (_Bool);
 - (void)ù
 × ;
 
 // Remaining properties
-@property(retain) NSXPCConnection *commConnection; // @synthesize commConnection=_commConnection;
-@property(retain) NSObject<OS_dispatch_queue> *commConnectionQueue; // @synthesize commConnectionQueue=_commConnectionQueue;
-@property(retain) NSObject<OS_dispatch_semaphore> *commConnectionQueueSema; // @synthesize commConnectionQueueSema=_commConnectionQueueSema;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEditable) _Bool editable; // @dynamic editable;
-@property _Bool extenionDidLoad; // @synthesize extenionDidLoad=_extenionDidLoad;
-@property(retain) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) NSString *extensionIdentifier;
-@property(retain) NSView *extensionViewHost; // @synthesize extensionViewHost=_extensionViewHost;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSImage *icon; // @dynamic icon;
 @property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) NSString *name; // @dynamic name;
-@property(retain) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) Class superclass;
-@property(readonly) NSView *view; // @dynamic view;
-@property(copy) CDUnknownBlockType viewDidLoadCompleteBlock; // @synthesize viewDidLoadCompleteBlock=_viewDidLoadCompleteBlock;
 
 @end
 

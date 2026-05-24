@@ -6,13 +6,11 @@
 
 #import <EmailFoundation/EFObservable.h>
 
-@protocol EFObservable, EFScheduler;
+@protocol EFObservable;
 
 @interface _EFIdealTimerObservable : EFObservable
 {
     id <EFObservable> _input;
-    id <EFScheduler> _scheduler;
-    double _interval;
 }
 
 - (id);

@@ -5,5 +5,6 @@
 //
 
 @protocol AUPBServing
+- (void)apple.ctk.pair;
 @end
 

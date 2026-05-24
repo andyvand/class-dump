@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)initWithImage:(id)arg1 frame:zPosition:identifier: /* Error: Ran out of types for this method. */;
++ (void)ongAssetIdentifier:(id)arg1 isCustomized: /* Error: Ran out of types for this method. */;
++ (void)initWithIdentifier:category:subcategory:catalog:songID:title:subtitle: /* Error: Ran out of types for this method. */;
 
 @end
 

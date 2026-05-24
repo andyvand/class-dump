@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SUCoreActivityOptions;
+@class NSString;
 
 @interface SUCoreXPCActivity
 {
     _Bool _isRegisteredWithXPC;
-    NSString *_activityName;
-    SUCoreActivityOptions *_activityOptions;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_migrateStandaloneTabBarToolbarIfNecessaryForConfigKey:fromCompactTabBarToolbarConfigKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activityName; // @synthesize activityName=_activityName;
-@property(retain, nonatomic) SUCoreActivityOptions *activityOptions; // @synthesize activityOptions=_activityOptions;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) _Bool isRegisteredWithXPC; // @synthesize isRegisteredWithXPC=_isRegisteredWithXPC;
 
 @end
 

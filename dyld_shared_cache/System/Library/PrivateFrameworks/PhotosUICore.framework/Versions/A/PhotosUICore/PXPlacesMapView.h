@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXObservable;
-@protocol PXPlacesMapViewDelegate;
-
 @interface PXPlacesMapView
 {
     double _currentScale;
-    _Bool _userInteractionEnabled;
-    _Bool _registeredWithWindowSectionController;
-    id <PXPlacesMapViewDelegate> _mapViewDelegate;
-    PXObservable *_observable;
 }
 
 + (id);
-+ (CDStruct_02837cd9);
-+ (CDStruct_02837cd9);
-+ (CDStruct_02837cd9);
++ (CDStruct_90e2a262);
++ (CDStruct_90e2a262);
++ (CDStruct_90e2a262);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool)!;
+- (CDUnknownBlockType)=;
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (double);
 - (double);
 - (double);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -51,7 +44,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)3N;
 - (void);
 - (_Bool);
 - (id);
@@ -65,44 +58,13 @@
 - (void)t an error:(double)arg1;
 - (_Bool);
 - (void)«;
-- (void)r;
+- (void)LemonadeDestinationRootViewController;
 - (void);
 - (void);
 - (id)$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasHeader;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool hasScrolledContentsUnderTitlebar;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPlacesMapViewDelegate> mapViewDelegate; // @synthesize mapViewDelegate=_mapViewDelegate;
-@property(readonly, nonatomic) PXObservable *observable; // @synthesize observable=_observable;
-@property(nonatomic) long long panningGestureMinimumNumberOfTouches;
-@property(nonatomic) double pitch;
-@property(readonly, nonatomic) _Bool px_isPitched;
 @property(nonatomic) _Bool registeredWithWindowSectionController; // @synthesize registeredWithWindowSectionController=_registeredWithWindowSectionController;
-@property(readonly) _Bool relaxRegistrationRequirements;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGRect scrollViewFrame;
-@property(readonly) double separatorOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) Class superclass;
-@property long long titlebarBackgroundStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property(nonatomic) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 
 @end
 

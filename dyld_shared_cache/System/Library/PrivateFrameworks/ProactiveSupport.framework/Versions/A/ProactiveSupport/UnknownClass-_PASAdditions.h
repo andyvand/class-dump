@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (_PASAdditions)
-+ (id);
-- (id);
++ (id)CrashLogKey;
+- (id)nName:decoderId:inputDictionary:] /* Error: Ran out of types for this method. */;
 @end
 

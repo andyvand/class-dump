@@ -7,9 +7,10 @@
 @class SOAuthorizationRequestParameters;
 
 @protocol SOQueueItem
+- (SOAuthorizationRequestParameters *)D;
+- (void)!;
 
 // Remaining properties
 @property _Bool isRunning;
-@property(readonly, nonatomic) SOAuthorizationRequestParameters *requestParameters;
 @end
 

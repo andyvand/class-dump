@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSPointerFunctions, NSString;
+@class NSMapTable, NSPointerFunctions;
 
 @interface FCMapTable
 {
     NSMapTable *_mapTable;
-    NSString *_keyClassName;
-    NSString *_valueClassName;
 }
 
 + (id);
-+ (id);
++ (id)MapsSuggestionsDestinationMaxRadiusInMetersKey;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -33,18 +31,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)gL;
 - (void);
 - (id);
 - (unsigned long long)eActionType:postPurchaseURL:landingPageArticleID:dismissLandingPagePostPurchase: /* Error: Ran out of types for this method. */;
-- (void)zleTypeSettingsSecure;
+- (void)PuzzleTypeSettingsSecure;
 - (id)caches because the config hasn't changed;
 - (unsigned long long)x;
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(readonly, copy) NSPointerFunctions *keyPointerFunctions;
-@property(readonly, copy) NSPointerFunctions *valuePointerFunctions;
 
 @end
 

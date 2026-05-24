@@ -9,10 +9,10 @@
     id registrar;
 }
 
+- (void)-;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void)ction: /* Error: Ran out of types for this method. */;
 
 @end

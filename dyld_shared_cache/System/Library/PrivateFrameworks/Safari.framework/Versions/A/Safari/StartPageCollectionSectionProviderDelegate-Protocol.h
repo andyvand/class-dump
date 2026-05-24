@@ -7,6 +7,8 @@
 @protocol StartPageCollectionSectionProviderDelegate;
 
 @protocol StartPageCollectionSectionProviderDelegate
+- (void)A;
+- (void);
 - (id <StartPageCollectionSectionProviderDelegate>)]Àä{,;
 @end
 

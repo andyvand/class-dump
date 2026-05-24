@@ -6,22 +6,12 @@
 
 #import <UIKitCore/_UIBarAppearanceData.h>
 
-@class NSDictionary, NSObject, _UINavigationBarTitleFontProvider;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UINavTitleAppearanceData : _UIBarAppearanceData
 {
     NSDictionary *_titleTextAttributes;
-    NSDictionary *_largeTitleTextAttributes;
-    struct UIOffset _titlePositionAdjustment;
-    _UINavigationBarTitleFontProvider *_titleFontProvider;
-    long long _titleFontProviderIdiom;
-    _Bool _titleControlHidden;
-    NSDictionary *_titleTextWithSubtitleAttributes;
-    NSDictionary *_largeTitleTextWithSubtitleAttributes;
-    NSDictionary *_subtitleTextAttributes;
-    NSDictionary *_largeSubtitleTextAttributes;
-    NSObject *__largeSubtitleTextAttributesForSwift;
 }
 
 + (id);
@@ -32,15 +22,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (void){?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std:(id)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)Rects;
+- (id)_toolsDebugAlignmentRects;
 - (id)Groups;
 - (id)viewController;
-- (void)tLayoutView;
+- (void)_UITextLayoutView;
 - (id)8;
 - (long long)é3hPíÿ¶SíÿB;
 - (_Bool);
-- (void)on;
-- (void)tAcceptedCandidate;
+- (void)RTIInputSessionDidEndUnexpectedlyNotification;
+- (void)learningFlagsForLastAcceptedCandidate;
 - (id)or a search bar without a search controller are not supported. This is an internal UIKit bug.;
 - (struct UIOffset);
 - (void)¶"ÿÿ;
@@ -52,16 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)ÐPLa;
 
 // Remaining properties
-@property(copy, nonatomic) NSObject *_largeSubtitleTextAttributesForSwift; // @synthesize _largeSubtitleTextAttributesForSwift=__largeSubtitleTextAttributesForSwift;
-@property(readonly, nonatomic) NSObject *_subtitleTextAttributesForSwift;
-@property(copy, nonatomic) NSDictionary *largeSubtitleTextAttributes;
-@property(copy, nonatomic) NSDictionary *largeTitleTextAttributes;
-@property(readonly, copy, nonatomic) NSDictionary *largeTitleTextWithSubtitleAttributes;
-@property(copy, nonatomic) NSDictionary *subtitleTextAttributes;
-@property(nonatomic) _Bool titleControlHidden;
-@property(nonatomic) struct UIOffset titlePositionAdjustment;
 @property(copy, nonatomic) NSDictionary *titleTextAttributes;
-@property(readonly, copy, nonatomic) NSDictionary *titleTextWithSubtitleAttributes;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceCapabilities, HMDHomeKitVersion, HMFProductInfo;
+@class HMFProductInfo;
 
 @interface UnknownClass (HMDAccounts)
 + (id);
@@ -14,8 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDeviceCapabilities *hmd_capabilities;
 @property(readonly, nonatomic) HMFProductInfo *hmd_productInfo;
-@property(readonly, nonatomic) HMDHomeKitVersion *hmd_version;
 @end
 

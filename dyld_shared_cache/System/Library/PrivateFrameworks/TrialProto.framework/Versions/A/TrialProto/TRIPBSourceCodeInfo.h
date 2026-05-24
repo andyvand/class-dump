@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *locationArray; // @dynamic locationArray;
-@property(readonly, nonatomic) unsigned long long locationArray_Count; // @dynamic locationArray_Count;
 
 @end
 

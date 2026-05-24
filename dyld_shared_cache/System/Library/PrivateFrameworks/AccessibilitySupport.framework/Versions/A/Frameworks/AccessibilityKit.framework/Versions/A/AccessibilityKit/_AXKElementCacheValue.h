@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     id _value;
 }
 
-- (void);
+- (void)Z;
 - (id);
-- (void);
+- (void)set_slowerButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id value; // @synthesize value=_value;

@@ -5,6 +5,9 @@
 //
 
 @protocol SDXPCClientInterface
+- (void);
+- (void);
+- (void);
 - (void)gResult;
 @end
 

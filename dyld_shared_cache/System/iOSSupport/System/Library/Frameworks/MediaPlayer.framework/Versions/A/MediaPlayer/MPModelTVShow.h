@@ -6,26 +6,17 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelTVShowCreator, NSString;
+@class NSString;
 
 @interface MPModelTVShow : MPModelObject
 {
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) MPModelTVShowCreator *creator; // @dynamic creator;
-@property(copy, nonatomic) NSString *editorNotes; // @dynamic editorNotes;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
-@property(nonatomic) long long episodesCount; // @dynamic episodesCount;
-@property(copy, nonatomic) NSString *shortEditorNotes; // @dynamic shortEditorNotes;
-@property(copy, nonatomic) NSString *shortTitle; // @dynamic shortTitle;
-@property(copy, nonatomic) NSString *storeCanonicalID; // @dynamic storeCanonicalID;
-@property(copy, nonatomic) NSString *tagline; // @dynamic tagline;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

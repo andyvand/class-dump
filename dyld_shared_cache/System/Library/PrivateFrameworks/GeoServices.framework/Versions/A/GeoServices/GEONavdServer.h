@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavigationServer, NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface GEONavdServer
 {
     NSXPCListener *_pushNavigationStateListener;
-    NSXPCListener *_getNavigationStateListener;
-    NSXPCListener *_monitorDestinationListener;
-    GEONavigationServer *_navigationServer;
 }
 
 - (void);
-- (id);
-- (_Bool)cheKey;
+- (id)RecordBufferHandleBegin;
+- (_Bool)_placeCacheKey;
 - (void)ðh2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

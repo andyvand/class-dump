@@ -6,17 +6,12 @@
 
 #import <PreferencePanes/NSPreferencePane.h>
 
-@class NSObject, NSPrefPaneBundle, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject, NSString;
+@protocol OS_dispatch_semaphore;
 
 @interface NSProxyPreferencePane : NSPreferencePane
 {
     NSString *path;
-    NSString *bundleIdentifier;
-    NSPrefPaneBundle *ppBundle;
-    NSXPCConnection *connection;
-    NSObject<OS_dispatch_queue> *_commConnectionQueue;
-    NSObject<OS_dispatch_semaphore> *_commConnectionQueueSema;
 }
 
 + (_Bool);
@@ -54,25 +49,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)'llu Thread 0x%llx sched info (cpu time %lld (%lld + %lld), state 0x%x, priority %d (%d), qos %d, rqos %d, qoso %d, qosp %d) backfilled to all (%d) thread states (indexes %lu-%lu)
+;
+- (void)tion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void),V_feedbackBlockId;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier;
-@property(retain) NSObject<OS_dispatch_queue> *commConnectionQueue; // @synthesize commConnectionQueue=_commConnectionQueue;
 @property(retain) NSObject<OS_dispatch_semaphore> *commConnectionQueueSema; // @synthesize commConnectionQueueSema=_commConnectionQueueSema;
-@property(retain) NSXPCConnection *connection; // @synthesize connection;
-@property(readonly) _Bool hasConnection; // @dynamic hasConnection;
-@property(retain) NSString *path; // @synthesize path;
-@property(retain) NSPrefPaneBundle *ppBundle; // @synthesize ppBundle;
 
 @end
 

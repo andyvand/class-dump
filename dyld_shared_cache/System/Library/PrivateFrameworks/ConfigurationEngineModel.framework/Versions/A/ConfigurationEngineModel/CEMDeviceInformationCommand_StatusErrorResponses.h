@@ -15,12 +15,12 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)s";
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

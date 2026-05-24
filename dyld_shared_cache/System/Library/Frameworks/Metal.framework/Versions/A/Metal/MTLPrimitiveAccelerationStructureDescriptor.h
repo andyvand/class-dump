@@ -11,11 +11,6 @@
 @interface MTLPrimitiveAccelerationStructureDescriptor : MTLAccelerationStructureDescriptor
 {
     unsigned int _motionStartBorderMode;
-    unsigned int _motionEndBorderMode;
-    float _motionStartTime;
-    float _motionEndTime;
-    NSArray *_geometryDescriptors;
-    unsigned long long _motionKeyframeCount;
 }
 
 + (id);
@@ -33,18 +28,13 @@
 - (float);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *geometryDescriptors; // @synthesize geometryDescriptors=_geometryDescriptors;
-@property(nonatomic) unsigned int motionEndBorderMode; // @synthesize motionEndBorderMode=_motionEndBorderMode;
-@property(nonatomic) float motionEndTime; // @synthesize motionEndTime=_motionEndTime;
-@property(nonatomic) unsigned long long motionKeyframeCount; // @synthesize motionKeyframeCount=_motionKeyframeCount;
-@property(nonatomic) unsigned int motionStartBorderMode; // @synthesize motionStartBorderMode=_motionStartBorderMode;
-@property(nonatomic) float motionStartTime; // @synthesize motionStartTime=_motionStartTime;
 
 @end
 

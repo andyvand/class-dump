@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol GCControllerComponent, GCControllerComponent><NSSecureCoding, NSObject><NSCopying><NSSecureCoding;
+@protocol GCControllerComponent><NSSecureCoding, NSObject><NSCopying><NSSecureCoding;
 
 @interface _GCControllerComponentDescription
 {
     id <GCControllerComponent><NSSecureCoding> _component;
-    NSArray *_bindingDescriptions;
-    id <GCControllerComponent> _materializedComponent;
 }
 
 + (_Bool);
@@ -21,23 +18,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!	J;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier;
-@property(readonly) Class superclass;
 
 @end
 

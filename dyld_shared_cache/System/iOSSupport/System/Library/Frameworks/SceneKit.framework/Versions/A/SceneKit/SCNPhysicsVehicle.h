@@ -6,23 +6,19 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class NSArray, SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsVehicle : SCNPhysicsBehavior
 {
     SCNPhysicsBody *_chassisBody;
-    NSArray *_wheels;
-    SCNPhysicsWorld *_world;
-    void *_vehicle;
-    double _speedKmHour;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool):inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -40,14 +36,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rdCopyNewestUnreadIncomingMessagesToLimitAfterRowID limit:(id)arg1 %lld  rowID:%lld /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SCNPhysicsBody *chassisBody;
 @property(readonly, nonatomic) double speedInKilometersPerHour;
-@property(readonly, nonatomic) NSArray *wheels;
 
 @end
 

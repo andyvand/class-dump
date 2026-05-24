@@ -4,52 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumberFormatter, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface StockDataFormatter
 {
     _Bool _localeUsesASCII;
-    NSObject<OS_dispatch_queue> *_decimalFormatterQueue;
-    NSNumberFormatter *_decimalFormatter;
-    NSObject<OS_dispatch_queue> *_percentFormatterQueue;
-    NSNumberFormatter *_percentFormatter;
 }
 
-+ (id);
++ (id);
+- (void)m|;
 - (void);
 - (void);
-- (void);
+- (id);
+- (id)xl;
+- (id);
+- (id)l;
+- (id)Hl;
+- (id)l;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)-u;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)8Ѷm;
+- (void)m;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void)setBool:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumberFormatter *decimalFormatter; // @synthesize decimalFormatter=_decimalFormatter;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *decimalFormatterQueue; // @synthesize decimalFormatterQueue=_decimalFormatterQueue;
-@property(readonly, nonatomic, getter=doesLocaleUseASCII) _Bool localeUsesASCII; // @synthesize localeUsesASCII=_localeUsesASCII;
-@property(retain, nonatomic) NSNumberFormatter *percentFormatter; // @synthesize percentFormatter=_percentFormatter;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *percentFormatterQueue; // @synthesize percentFormatterQueue=_percentFormatterQueue;
-@property(readonly, nonatomic) NSString *percentSymbol;
 
 @end
 

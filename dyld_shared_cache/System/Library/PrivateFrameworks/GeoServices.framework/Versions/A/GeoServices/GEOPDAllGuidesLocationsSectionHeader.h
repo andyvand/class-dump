@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllGuidesLocationsSectionHeader
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_headerString;
-    GEOPDMapsIdentifier *_placeId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _sectionHeaderType;
-    struct {
-        unsigned int has_sectionHeaderType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_headerString:1;
-        unsigned int read_placeId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)CSContinuousVoiceTrigger;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

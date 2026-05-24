@@ -7,7 +7,12 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)gnatureTitle;
+- (void);
+- (void)ceRegionStorefrontEnabled flag is %{public}@.;
+- (void);
+- (void)˿;
+- (void)a;
+- (void)SMIMEBadSignatureTitle;
 - (void)ue(&inputBuffer, maxInput, &(header.versionNum), swap);
 @end
 

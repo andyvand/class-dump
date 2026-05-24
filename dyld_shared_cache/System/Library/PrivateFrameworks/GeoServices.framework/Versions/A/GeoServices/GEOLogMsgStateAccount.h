@@ -9,14 +9,9 @@
 @interface GEOLogMsgStateAccount
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _possibleActions;
-    _Bool _signedIntoIcloud;
-    struct {
-        unsigned int has_signedIntoIcloud:1;
-    } _flags;
 }
 
-+ (_Bool)nsAcType:(id)arg1;
++ (_Bool)setHasSuggestionsAcType:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -25,23 +20,23 @@
 - (id);
 - (int);
 - (_Bool);
-- (void);
-- (void);
-- (int);
+- (void)stringWithValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
+- (void)implWithSchedulerProvider:(int)arg1 block: /* Error: Ran out of types for this method. */;
+- (int)_CNGeneratorObservableCancelationToken;
 - (int *);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)artCoordinateIndex;
+- (void)x;
+- (id)startCoordinateIndex;
 - (id)eAtOrigin;
 - (id)private,geo:coordinate}.*P zoom %{private}d and radius %d will require %{private}d tile(s) /* Error: Ran out of types for this method. */;
 - (id)È;
@@ -49,10 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSignedIntoIcloud;
-@property(readonly, nonatomic) int *possibleActions;
-@property(readonly, nonatomic) unsigned long long possibleActionsCount;
-@property(nonatomic) _Bool signedIntoIcloud;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

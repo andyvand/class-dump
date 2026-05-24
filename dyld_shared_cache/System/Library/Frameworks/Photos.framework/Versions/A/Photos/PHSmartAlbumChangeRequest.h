@@ -6,7 +6,7 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSString, PHObjectPlaceholder, PLQuery;
+@class PLQuery;
 
 @interface PHSmartAlbumChangeRequest : PHChangeRequest
 {
@@ -25,13 +25,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)W;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -39,15 +39,11 @@
 - (void);
 - (id);
 - (id);
-- (void)onType;
-- (void)e_L2;
+- (void)_assetCollectionType;
+- (void)rankingScore_L2;
 - (id)nternalAssetExportRequest.m;
 
 // Remaining properties
-@property(nonatomic) _Bool customSortAscending;
-@property(nonatomic) unsigned int customSortKey;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedSmartAlbum;
-@property(retain, nonatomic) NSString *title;
 @property(copy, nonatomic) PLQuery *userQuery; // @synthesize userQuery=_userQuery;
 
 @end

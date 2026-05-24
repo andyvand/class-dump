@@ -12,7 +12,7 @@
 
 + (Class);
 - (id);
-- (id)erver;
+- (id)UIStatusBarStateObserver;
 
 @end
 

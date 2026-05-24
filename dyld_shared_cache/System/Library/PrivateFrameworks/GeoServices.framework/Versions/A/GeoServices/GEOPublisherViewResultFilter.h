@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPublisherViewResultFilter, GEOPublisherViewResultFilterAddress, GEOPublisherViewResultFilterKeyword, NSArray;
+@class GEOPDPublisherViewResultFilter;
 
 @interface GEOPublisherViewResultFilter
 {
     GEOPDPublisherViewResultFilter *_resultFilter;
-    NSArray *_places;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long)MapItem:withOptions: /* Error: Ran out of types for this method. */;
+- (long long)urlToPresentDirectionsFromCurrentLocationToMapItem:withOptions: /* Error: Ran out of types for this method. */;
 - (void)vL@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPublisherViewResultFilterAddress *addressFilter;
 @property(readonly, nonatomic) long long filterType;
-@property(readonly, nonatomic) GEOPublisherViewResultFilterKeyword *keywordFilter;
 
 @end
 

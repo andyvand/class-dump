@@ -7,10 +7,6 @@
 @interface TextToSpeech.SSELoaderManager.Store
 {
     id _$loaders_Storage;
-    id _$lock_loaders;
-    id encoder;
-    id decoder;
-    id store;
 }
 
 @end

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSResponder;
+
 @protocol WebUIDelegate
+
+@optional
+- (void)˟;
+- (_Bool);
+- (NSResponder *);
+- (void);
+- (void)I	;
 @end
 

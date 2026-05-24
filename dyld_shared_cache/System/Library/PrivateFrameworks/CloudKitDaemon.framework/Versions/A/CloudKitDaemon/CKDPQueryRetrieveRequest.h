@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAssetsToDownload, CKDPQuery, CKDPRecordZoneIdentifier, CKDPRequestedFields, NSData;
+@class CKDPAssetsToDownload;
 
 @interface CKDPQueryRetrieveRequest
 {
     CKDPAssetsToDownload *_assetsToDownload;
-    NSData *_continuationMarker;
-    unsigned int _limit;
-    CKDPQuery *_query;
-    CKDPRequestedFields *_requestedFields;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    struct {
-        unsigned int limit:1;
-    } _has;
 }
 
 + (id);
@@ -29,10 +21,10 @@
 - (id);
 - (id);
 - (void);
+- (void)ionary";
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)endpoint_setupAudioStream;
+- (unsigned long long)bufferedAudioEngine_pruneMessageRingToCurrentRemoteMediaTimeWithForwardMargin;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -40,32 +32,32 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)erPersistence moveSender:(_Bool)arg1 toCategory:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int)9DCCAZqgAwIBAgIUfK8gpf3d6f7acICzvf5MBWnAVEYwCgYIKoZIzj0EAwIw
+VzErMCkGA1UEAwwiQXBwbGUgQWNjZXNzb3J5IFJvb3QgQ0EgLSAwMDAwMDAwMTET
+MBEGA1UECgwKQXBwbGUgSW5jLjETMBEGA1UECAwKQ2FsaWZvcm5pYTAgFw0yMDA5
+MTYxODI5MzRaGA8yMDUwMDkxNDAwMDAwMFowVzErMCkGA1UEAwwiQXBwbGUgQWNj
+ZXNzb3J5IFJvb3QgQ0EgLSAwMDAwMDAwMTETMBEGA1UECgwKQXBwbGUgSW5jLjET
+MBEGA1UECAwKQ2FsaWZvcm5pYTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMGo
+QSB6dmrLAhjkTUVAoAC1RwaOmEmEk7SYEnnm6aBw9HZZQt5pkncuTXxvL6NDvx4D
+8Wn3frxp+UOTgEalb0ajQjBAMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFAZD
+Zup+SdTmXls49aokHuK+fHKjMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAgNI
+ADBFAiEA4HcCYv5+W+1/HOy1v1cYVozNEW4+2WvR84Japg8rabkCIDP9zynWiR60
+O06J60wrt0rQfBOPnoeY1+ydbP2g8Tiy
+-----END CERTIFICATE-----;
 - (id);
 - (id)0@ù
 × ;
-- (Class)CSItemByItemID: /* Error: Ran out of types for this method. */;
-- (void)nfigurationOperation;
+- (Class)findTrackedMMCSItemByItemID: /* Error: Ran out of types for this method. */;
+- (void)CKDGlobalConfigurationOperation;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAssetsToDownload *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasAssetsToDownload;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
-@property(nonatomic) _Bool hasLimit;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) unsigned int limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) CKDPQuery *query; // @synthesize query=_query;
-@property(retain, nonatomic) CKDPRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

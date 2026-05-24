@@ -9,6 +9,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)osingRegionRect:(UIPopoverPresentationController *)arg1;
+- (void)setEnclosingRegionRect:(UIPopoverPresentationController *)arg1;
 @end
 

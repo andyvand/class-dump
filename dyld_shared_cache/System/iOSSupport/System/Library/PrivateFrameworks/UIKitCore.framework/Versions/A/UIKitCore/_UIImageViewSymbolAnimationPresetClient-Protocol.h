@@ -5,5 +5,7 @@
 //
 
 @protocol _UIImageViewSymbolAnimationPresetClient
+- (void);
+- (void);
 @end
 

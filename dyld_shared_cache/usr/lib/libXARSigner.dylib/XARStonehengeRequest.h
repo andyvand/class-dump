@@ -11,11 +11,10 @@ __attribute__((visibility("hidden")))
 {
     NSURLSession *_session;
     NSString *_apiKey;
-    NSString *_apiSecret;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol EMVIPManagerInterface
+- (void);
+- (void);
 @end
 

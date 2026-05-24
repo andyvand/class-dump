@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)book.closed.fill;
 + (void);
 - (_Bool);
 - (_Bool);

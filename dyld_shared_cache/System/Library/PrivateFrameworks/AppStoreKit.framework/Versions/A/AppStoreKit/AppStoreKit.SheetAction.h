@@ -9,13 +9,6 @@
 @interface AppStoreKit.SheetAction : AppStoreKit.Action
 {
     id actions;
-    id isCancelable;
-    id cancelTitle;
-    id message;
-    id checkedIndex;
-    id destructiveActionIndex;
-    id isCustom;
-    id style;
 }
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVCAudioSessionDelegate
 {
     weak_ptr_2e2fba51 owner;
-    shared_ptr_954fe6d6 stackController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (shared_ptr_954fe6d6);
+- (shared_ptr_774b78e2);
 - (void);
 - (id);
 - (weak_ptr_2e2fba51);
@@ -34,15 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ôì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) weak_ptr_2e2fba51 owner; // @synthesize owner;
-@property(nonatomic) shared_ptr_954fe6d6 stackController; // @synthesize stackController;
-@property(readonly) Class superclass;
 
 @end
 

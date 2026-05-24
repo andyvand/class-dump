@@ -12,6 +12,5 @@ f\îN|ê	F7wØnOÁ?Ýî4Ûõ<ÄØ}»ì Ë\_>¸wy_Ú,iélËAH/ò0/È
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *_identifier;
-@property(copy, nonatomic) NSString *altDSID;
 @end
 

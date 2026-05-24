@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface TUExternalParticipant
 {
     NSNumber *identifier;
-    void displayName;
-    void info;
-    long long status;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,14 +21,10 @@
 - (long long);
 - (id);
 - (id);
-- (void)L;
+- (void)isFaceTimeOpenLinkURL;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *displayName;
 @property(nonatomic, readonly) NSNumber *identifier; // @synthesize identifier;
-@property(nonatomic, readonly) NSData *info;
-@property(nonatomic, readonly) long long status; // @synthesize status;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVPlayer, ISWrappedAVPlayer;
+
 @protocol ISBasePlayerDelegate
+
+@optional
+- (ISWrappedAVPlayer *)_scrubbingEnabled;
+- (AVPlayer *)_restoreScrollPositionOnNextLayout;
+- (void)_mediaExposureEvent;
 @end
 

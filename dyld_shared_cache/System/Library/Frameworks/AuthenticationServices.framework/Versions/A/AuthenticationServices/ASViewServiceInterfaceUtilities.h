@@ -26,7 +26,7 @@
 + (id);
 + (double);
 + (double);
-+ (id);
++ (id);
 + (id);
 + (double);
 + (struct CGSize);

@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMPolicyAppDeclaration : CEMConfigurationBase
 {
     NSString *_payloadMode;
-    NSArray *_payloadApps;
-    NSArray *_payloadExemptApps;
 }
 
 + (id);
@@ -25,16 +23,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadApps; // @synthesize payloadApps=_payloadApps;
-@property(copy, nonatomic) NSArray *payloadExemptApps; // @synthesize payloadExemptApps=_payloadExemptApps;
 @property(copy, nonatomic) NSString *payloadMode; // @synthesize payloadMode=_payloadMode;
-@property(readonly) Class superclass;
 
 @end
 

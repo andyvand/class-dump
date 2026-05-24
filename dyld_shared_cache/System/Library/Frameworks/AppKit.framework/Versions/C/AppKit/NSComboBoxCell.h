@@ -6,35 +6,12 @@
 
 #import <AppKit/NSTextFieldCell.h>
 
-@class NSArray, NSButtonCell, NSMutableArray, NSScrollView, NSTableView, NSWindow;
-@protocol NSComboBoxCellDataSource;
-
 @interface NSComboBoxCell : NSTextFieldCell
 {
     id _delegate;
-    id _dataSource;
-    NSMutableArray *_popUpList;
-    struct CGRect *_cellFrame;
-    struct __cbcFlags {
-        unsigned int usesDataSource:1;
-        unsigned int completes:1;
-        unsigned int buttonBordered:1;
-        unsigned int popUpIsUp:1;
-        unsigned int reserved:1;
-        unsigned int drawing:1;
-        unsigned int synchronizingSelection:1;
-        unsigned int _needsUpdatedTextInsets:1;
-        unsigned int reserved1:8;
-        unsigned int visibleItems:16;
-    } _cbcFlags;
-    NSButtonCell *_buttonCell;
-    NSTableView *_tableView;
-    NSScrollView *_scrollView;
-    NSWindow *_popUp;
-    struct NSEdgeInsets _previousContentInsets;
 }
 
-+ (_Bool);
++ (_Bool)supported in background sessions. Attempted to use a request of class %@;
 + (Class);
 + (Class);
 + (Class);
@@ -51,6 +28,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,25 +41,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (struct CGSize);
-- (void);
-- (id);
-- (long long);
-- (unsigned long long);
-- (_Bool);
+- (void)on=}16;
+- (void)esponse"24@"__CFN_TransactionMetrics"32;
+- (id)onConnection"16i24;
+- (id)16q24;
+- (long long)@0:8@"__NSCFURLSessionConnection"16@"NSURLRequest"24q32@?<v@?@"NSInputStream">40 /* Error: Ran out of types for this method. */;
+- (long long)24;
+- (void)URLSessionDataTask"24@"NSData"32@?<v@?>40;
+- (id)er:(long long)arg1 reply: /* Error: Ran out of types for this method. */;
+- (double)download:willSendRequest:redirectResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)canResumeDownloadDecodedWithEncodingMIMEType: /* Error: Ran out of types for this method. */;
+- (_Bool)canInitWithTask: /* Error: Ran out of types for this method. */;
+- (long long)accept__connectionEstablished;
+- (struct CGSize)accept__alternatePathAvailable;
+- (void)_shouldSkipCancelOnRelease;
+- (id)yCount;
+- (long long)evice;
+- (unsigned long long)ionary",C,V_DuetActivityProperties;
+- (_Bool)rained;
 - (struct CGRect);
 - (void);
 - (void);
@@ -90,14 +67,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
+- (_Bool)nEvent:getMetricsQueue failed /* Error: Ran out of types for this method. */;
+- (id)cktrace}.*P;
+- (id)ot supported. Please reduce the file protection class.;
+- (struct CGRect)o NSURLSessionTask creation, reconnect=%c, invalid=%c;
+- (struct CGRect)ackground transfer daemon prior to NSURLSessionTask creation, reconnect=%c, invalid=%c;
+- (void)\;
 - (void);
-- (void);
-- (id);
+- (id)*;
 - (void);
 - (id);
 - (id);
@@ -115,19 +92,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (void)lsqpack_enc_encode;
+- (double)_readHeadersStart;
+- (double)dRequest;
+- (_Bool)];
+- (_Bool)own msg %d (0x%x) - encrypted?;
+- (unsigned long long)RLCredential=}8B16;
+- (_Bool)ersion=203;
+- (void)Connection;
+- (void)__nsurlrequest_proto_prop_obj_1;
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -135,7 +112,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (struct CGRect);
@@ -145,7 +122,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (id);
@@ -154,49 +131,38 @@
 - (double);
 - (id);
 - (void);
-- (struct NSEdgeInsets);
-- (id);
+- (struct NSEdgeInsets)=;
+- (id);
 - (struct CGRect);
 - (void);
+- (void)@;
+- (void)?;
+- (void)2br;
+- (long long)i;
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)ext_early_data_add_clienthello;
+- (id)C;
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)8;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)StreamCoder_NSComboBoxCell:(struct _NSZone *)arg1;
-- (long long);
+- (id)_initWithTypedStreamCoder_NSComboBoxCell:(struct _NSZone *)arg1;
+- (long long)NSHiddenInRepresentation;
 - (void)4Rh¤
 ;
 - (void)ý$E;
 - (void);
 
 // Remaining properties
-@property(getter=isButtonBordered) _Bool buttonBordered;
-@property _Bool completes;
-@property id <NSComboBoxCellDataSource> dataSource;
 @property _Bool hasVerticalScroller;
-@property(readonly) long long indexOfSelectedItem;
-@property struct CGSize intercellSpacing;
-@property double itemHeight;
-@property(readonly) long long numberOfItems;
-@property long long numberOfVisibleItems;
-@property(readonly) id objectValueOfSelectedItem;
-@property(readonly, copy) NSArray *objectValues;
-@property _Bool usesDataSource;
 
 @end
 

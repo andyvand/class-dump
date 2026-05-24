@@ -6,31 +6,22 @@
 
 #import <IMCore/IMMessageChatItem.h>
 
-@class NSString;
-
 @interface IMMessagePartHighlightChatItem : IMMessageChatItem
 {
     _Bool _highlightedMessageIsFromMe;
-    unsigned long long _highlightedMessagePartIndex;
-    NSString *_highlightedMessagePartGUID;
-    struct _NSRange _highlightedMessagePartRange;
 }
 
-- (struct _NSRange);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (struct IMAssociatedMessageGeometryDescriptor);
-- (id);
+- (struct _NSRange)or table ########### ;
+- (unsigned long long)] %s:%d %@(%p) downlink bandwidth alloctor table ###########  /* Error: Ran out of types for this method. */;
+- (id)dwidth alloctor table ########### ;
+- (_Bool)oesn't support;
+- (struct IMAssociatedMessageGeometryDescriptor)meInterval=%.3f, elapsedTime(s)=%.2f, encIndex=%d, currentTargetBitrate(Mbps)=%.2f, longTermAverageBitrate(Mbps)=%.2f, predictedBitrate(Mbps)=%.2f, delta=%.2f, newRecommendedBitrate(Mbps)=%.2f, appliedBitrate(Mbps)=%.2f;
+- (id)iled to allocate pending uplink streams dictionary;
 - (id);
 - (void)CE;
 
 // Remaining properties
 @property(readonly, nonatomic) struct IMAssociatedMessageGeometryDescriptor geometryDescriptor;
-@property(readonly, nonatomic) _Bool highlightedMessageIsFromMe; // @synthesize highlightedMessageIsFromMe=_highlightedMessageIsFromMe;
-@property(readonly, nonatomic) NSString *highlightedMessagePartGUID; // @synthesize highlightedMessagePartGUID=_highlightedMessagePartGUID;
-@property(readonly, nonatomic) unsigned long long highlightedMessagePartIndex; // @synthesize highlightedMessagePartIndex=_highlightedMessagePartIndex;
-@property(readonly, nonatomic) struct _NSRange highlightedMessagePartRange; // @synthesize highlightedMessagePartRange=_highlightedMessagePartRange;
 
 @end
 

@@ -15,10 +15,10 @@
 
 + (void)bolg;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)side <translations>;
+- (id)rray for a key if the current parent is a dictionary;
+- (id)/PrivateFrameworks/MediaPlaybackCore.framework/MediaPlaybackCore;
+- (void)ror">32;
 
 // Remaining properties
 @property(readonly) NSArray *metadataObjects;

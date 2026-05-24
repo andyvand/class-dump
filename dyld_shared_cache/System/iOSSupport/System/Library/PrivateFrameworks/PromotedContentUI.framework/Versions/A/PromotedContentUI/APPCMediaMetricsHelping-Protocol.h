@@ -5,9 +5,11 @@
 //
 
 @protocol APPCMediaMetricsHelping
+- (void);
+- (void);
+- (void)Array"24@?<v@?@"NSDictionary"@"NSError">32;
 
 // Remaining properties
 @property(nonatomic) long long visiblePercentage;
-@property(nonatomic, copy) CDUnknownBlockType visiblePercentageChanged;
 @end
 

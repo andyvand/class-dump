@@ -6,28 +6,25 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSGetItemResponseType, NSArray, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 @interface MFEWSGetItemsResponseOperation : MFEWSResponseOperation
 {
     NSMutableArray *_EWSItems;
-    NSArray *_EWSItemIdsRequested;
 }
 
 - (void);
 - (void);
+- (void)Y;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)Ì;
 
 // Remaining properties
 @property(retain) NSArray *EWSItemIdsRequested; // @synthesize EWSItemIdsRequested=_EWSItemIdsRequested;
-@property(retain) NSMutableArray *EWSItems; // @synthesize EWSItems=_EWSItems;
-@property(retain) EWSGetItemResponseType *response;
 
 @end
 

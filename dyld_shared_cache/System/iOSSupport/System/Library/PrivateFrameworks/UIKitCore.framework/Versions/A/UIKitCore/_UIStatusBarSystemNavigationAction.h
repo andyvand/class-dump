@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     unsigned long long _destination;
 }
 
-+ (id);
++ (id)_serverValidated;
 + (id)× ;
 + (id);
 - (unsigned long long)!ì@ùqc°1Â0@ù
 × ;
-- (void)mMetrics;
+- (void)_UIFloatingTabBarPlatformMetrics;
 
 // Remaining properties
 @property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;

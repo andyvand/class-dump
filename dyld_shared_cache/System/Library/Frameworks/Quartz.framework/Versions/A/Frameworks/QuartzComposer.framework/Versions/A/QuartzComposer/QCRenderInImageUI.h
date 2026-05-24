@@ -6,17 +6,15 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSPopUpButton;
+@class NSPopUpButton;
 
 @interface QCRenderInImageUI : QCInspector
 {
     NSPopUpButton *formatMenu;
-    NSButton *depthButton;
-    NSButton *feedbackButton;
 }
 
 + (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);

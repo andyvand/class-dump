@@ -9,21 +9,18 @@
 @interface UIKey
 {
     long long _modifierFlags;
-    long long _keyCode;
-    NSString *_unmodifiedInput;
-    NSString *_modifiedInput;
 }
 
-- (_Bool);
-- (long long);
-- (_Bool);
+- (_Bool)gCSo12NSDictionaryCSo7NSArrayCA3cGIeyByyyyyyya_;
+- (long long)andle future nickname changes.;
+- (_Bool), chat:(long long)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -33,18 +30,13 @@
 - (long long);
 - (void)Dù]ð1Â0@ù
 × ;
-- (_Bool)entifier:(id)arg1 systemPolicy: /* Error: Ran out of types for this method. */;
-- (void)LayoutUpdateLocalizedKeys;
-- (id)ent: /* Error: Ran out of types for this method. */;
-- (id)tionPickerCell;
+- (_Bool)initWithSessionIdentifier:(id)arg1 systemPolicy: /* Error: Ran out of types for this method. */;
+- (void)callLayoutUpdateLocalizedKeys;
+- (id)_handlePresses:withEvent: /* Error: Ran out of types for this method. */;
+- (id)UIDOMHTMLOptionPickerCell;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *characters;
-@property(readonly, nonatomic) NSString *charactersIgnoringModifiers;
-@property(nonatomic, setter=_setKeyCode:) long long keyCode; // @synthesize keyCode=_keyCode;
-@property(retain, nonatomic, setter=_setModifiedInput:) NSString *modifiedInput; // @synthesize modifiedInput=_modifiedInput;
-@property(nonatomic, setter=_setModifierFlags:) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
 @property(retain, nonatomic, setter=_setUnmodifiedInput:) NSString *unmodifiedInput; // @synthesize unmodifiedInput=_unmodifiedInput;
 
 @end

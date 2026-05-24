@@ -7,7 +7,6 @@
 @interface ACZeroingString
 {
     unsigned short *_characters;
-    unsigned long long _length;
 }
 
 + (_Bool);
@@ -16,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (Class);
 - (id);
 - (id);
@@ -24,16 +23,15 @@
 - (unsigned short *);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned short);
-- (id);
+- (id)Q;
+- (unsigned short));
+- (id)_kTCCAccessRequestOptionPreflight;
 - (id);
 - (Class);
 - (id);
 
 // Remaining properties
 @property(readonly) unsigned short *characters; // @synthesize characters=_characters;
-@property(readonly) unsigned long long length;
 
 @end
 

@@ -9,16 +9,6 @@
 @interface RemindersUICore.TTRShowTodayGroupsDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id smartList;
-    id grouped;
-    id locationSearchMinRadius;
-    id store;
-    id countCompleted;
-    id showCompletedContextInstance;
-    id tipKitContextInstance;
-    id dataViewMonitor;
-    id locationChangeSubscription;
-    id $__lazy_storage_$_locationMonitor;
 }
 
 @end

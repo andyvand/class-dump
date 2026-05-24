@@ -11,7 +11,7 @@
     id <AKAuthenticationRVSServiceDelegate> _remoteViewServiceDelegate;
 }
 
-+ (void);
++ (void);
 - (void);
 - (id);
 - (id);

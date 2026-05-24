@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionInfo
 {
     NSUUID *_preferredResidentIDSIdentifier;
-    unsigned long long _currentModeType;
-    NSDate *_selectionTimestamp;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)pe;
+- (id)edPinFloorOrdinal;
 - (unsigned long long);
 - (id);
 - (void)com.apple.private.alloy.home.invite;
 
 // Remaining properties
-@property(readonly) unsigned long long currentModeType; // @synthesize currentModeType=_currentModeType;
 @property(retain) NSUUID *preferredResidentIDSIdentifier; // @synthesize preferredResidentIDSIdentifier=_preferredResidentIDSIdentifier;
-@property(readonly) NSDate *selectionTimestamp; // @synthesize selectionTimestamp=_selectionTimestamp;
 
 @end
 

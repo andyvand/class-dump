@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface TTSAudioEffectConfiguration
 {
     _Bool _enabled;
-    NSUUID *_identifier;
-    NSString *_effectName;
-    NSDictionary *_parameters;
-    NSDictionary *_properties;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)initWithTransportSessionID:localSSRC:streamToken:logPrefix: /* Error: Ran out of types for this method. */;
+- (void)stream config doesn't exist;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)};
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *effectName; // @synthesize effectName=_effectName;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

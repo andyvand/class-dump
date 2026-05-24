@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MDLMeshBufferAllocator;
-
 @interface MDLMeshBufferZoneDefault
 {
     unsigned long long _usedCapacity;
-    unsigned long long _capacity;
-    id <MDLMeshBufferAllocator> _allocator;
 }
 
 - (_Bool);
@@ -19,18 +14,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id)VerticalAperture: /* Error: Ran out of types for this method. */;
+- (id)setSensorVerticalAperture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator; // @synthesize allocator=_allocator;
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

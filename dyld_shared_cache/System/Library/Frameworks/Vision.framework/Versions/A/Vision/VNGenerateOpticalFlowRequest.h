@@ -6,13 +6,11 @@
 
 #import <Vision/VNTargetedImageRequest.h>
 
-@class NSArray;
-
 @interface VNGenerateOpticalFlowRequest : VNTargetedImageRequest
 {
 }
 
-+ (Class);
++ (Class)&;
 + (const CDStruct_3a02d5a8 *);
 - (void);
 - (void);
@@ -21,20 +19,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned int);
-- (void);
+- (void)N,V_model;
+- (_Bool)contactFromLDAPResultTransform;
+- (id)Timeout).;
+- (unsigned int)linkedRecordIdentifiersString;
+- (void)gedObjectContext"8;
 - (_Bool)¦T%;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long computationAccuracy;
-@property(nonatomic) _Bool keepNetworkOutput;
-@property(nonatomic) unsigned int outputPixelFormat;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

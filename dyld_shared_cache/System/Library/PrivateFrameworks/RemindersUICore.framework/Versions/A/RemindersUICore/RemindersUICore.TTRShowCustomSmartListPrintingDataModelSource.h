@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowCustomSmartListPrintingDataModelSource
 {
     id smartList;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

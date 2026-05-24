@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIKBScreenTraits *_screenTraits;
 }
 
+- (void)}d), bundle %@;
 - (void);
-- (void);
-- (id);
+- (id)_installSelectGestureRecognizer;
 - (id)ion whilst an existing session was active. Collection view:%@ /* Error: Ran out of types for this method. */;
 - (void)ÛÆ;
 - (void)ëÿÁ;

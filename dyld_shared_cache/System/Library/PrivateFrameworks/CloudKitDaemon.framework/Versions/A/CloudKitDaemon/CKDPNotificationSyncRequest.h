@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKDPNotificationSyncRequest
 {
     unsigned int _maxChanges;
-    NSData *_serverChangeToken;
-    _Bool _wantsChanges;
-    struct {
-        unsigned int maxChanges:1;
-        unsigned int wantsChanges:1;
-    } _has;
 }
 
 + (id);
@@ -22,14 +14,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)parseUnreliable1ECities:(id)arg1 file1E:file1A:ctx:state:into: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ean *);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -37,18 +29,13 @@
 - (void);
 - (id);
 - (id);
-- (Class)t: /* Error: Ran out of types for this method. */;
+- (Class)errorWithDomain:code:path:format: /* Error: Ran out of types for this method. */;
 - (unsigned int)¨S;
 - (void)iceURL=%@, publicCodeServiceURL=%@, publicMetricsServiceURL=%@, containerScopedUserID=%@, orgAdminUserID=%@, environment=%@;
 - (id)[ ×;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxChanges;
 @property(readonly, nonatomic) _Bool hasServerChangeToken;
-@property(nonatomic) _Bool hasWantsChanges;
-@property(nonatomic) unsigned int maxChanges; // @synthesize maxChanges=_maxChanges;
-@property(retain, nonatomic) NSData *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
-@property(nonatomic) _Bool wantsChanges; // @synthesize wantsChanges=_wantsChanges;
 
 @end
 

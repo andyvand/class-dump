@@ -7,6 +7,6 @@
 @class NSSet, NSString;
 
 @protocol HMEMemoryEventBusDataSource
-- (NSSet *)cActions:(NSString *)arg1 message: /* Error: Ran out of types for this method. */;
+- (NSSet *)_executeGenericActions:(NSString *)arg1 message: /* Error: Ran out of types for this method. */;
 @end
 

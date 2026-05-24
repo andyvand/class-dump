@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DRSProtoRequestDescription
 {
     unsigned long long _requestTime;
-    NSString *_build;
-    NSData *_contextDictionaryData;
-    NSString *_issueCategory;
-    NSString *_teamId;
-    struct {
-        unsigned int requestTime:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -40,23 +31,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)selectedObjects;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(retain, nonatomic) NSData *contextDictionaryData; // @synthesize contextDictionaryData=_contextDictionaryData;
-@property(readonly, nonatomic) _Bool hasBuild;
-@property(readonly, nonatomic) _Bool hasContextDictionaryData;
-@property(readonly, nonatomic) _Bool hasIssueCategory;
-@property(nonatomic) _Bool hasRequestTime;
 @property(readonly, nonatomic) _Bool hasTeamId;
-@property(retain, nonatomic) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
-@property(nonatomic) unsigned long long requestTime; // @synthesize requestTime=_requestTime;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

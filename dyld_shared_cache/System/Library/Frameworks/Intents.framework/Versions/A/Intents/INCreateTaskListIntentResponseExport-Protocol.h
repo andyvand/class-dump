@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTaskList;
-
 @protocol INCreateTaskListIntentResponseExport
-- (long long)mpletion: /* Error: Ran out of types for this method. */;
+- (long long)handleRetrieveParkingLocation:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTaskList *createdTaskList;
 @end
 

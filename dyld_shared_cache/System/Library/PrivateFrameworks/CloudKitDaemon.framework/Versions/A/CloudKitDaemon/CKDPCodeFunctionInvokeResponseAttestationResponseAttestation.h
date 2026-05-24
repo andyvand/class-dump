@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDPCodeFunctionInvokeResponseAttestationResponseAttestation
 {
     NSData *_appQuote;
-    NSData *_aqeQuote;
-    NSString *_pckCertificate;
-    NSData *_routingToken;
 }
 
 - (void);
@@ -21,15 +18,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)@�H;
 - (_Bool);
 - (id);
+- (id)h;
+- (_Bool);
+- (id);
+- (void)dateWithYear:(id)arg1 month:day:hour:minute:second: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)riorityCheck(FigEndpointStreamAudioEngineRef, int, int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,14 +35,7 @@
 - (void)server share participants;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *appQuote; // @synthesize appQuote=_appQuote;
-@property(retain, nonatomic) NSData *aqeQuote; // @synthesize aqeQuote=_aqeQuote;
 @property(readonly, nonatomic) _Bool hasAppQuote;
-@property(readonly, nonatomic) _Bool hasAqeQuote;
-@property(readonly, nonatomic) _Bool hasPckCertificate;
-@property(readonly, nonatomic) _Bool hasRoutingToken;
-@property(retain, nonatomic) NSString *pckCertificate; // @synthesize pckCertificate=_pckCertificate;
-@property(retain, nonatomic) NSData *routingToken; // @synthesize routingToken=_routingToken;
 
 @end
 

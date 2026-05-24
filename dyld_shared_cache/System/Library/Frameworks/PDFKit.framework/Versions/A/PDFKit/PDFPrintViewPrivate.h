@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFDocument;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFPrintViewPrivate
 {
     PDFDocument *document;
-    NSString *printJobTitle;
-    int pageIndex;
-    _Bool autoRotate;
-    _Bool rotateRight;
-    long long scaleMode;
 }
 
 - (void);

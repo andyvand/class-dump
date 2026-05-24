@@ -13,11 +13,10 @@
 }
 
 - (id);
-- (id);
+- (id)	?׀;
 - (id);
 
 // Remaining properties
-@property(readonly) NSNumber *dayValue;
 @property(readonly) NSNumber *monthValue;
 @property(readonly) NSNumber *yearValue;
 

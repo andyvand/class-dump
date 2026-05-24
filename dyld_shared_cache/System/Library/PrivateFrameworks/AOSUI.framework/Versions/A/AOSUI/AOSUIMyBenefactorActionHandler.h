@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, ACAccount, NSString, NSWindow;
+@class AALocalContactInfo, ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIMyBenefactorActionHandler
 {
     AALocalContactInfo *_contactInfo;
-    ACAccount *_appleAccount;
-    NSWindow *_modalWindow;
 }
 
-- (id);
+- (id))
+i;
 - (void);
-- (void);
+- (void)k(3;
 - (id);
 - (void);
 - (void);
@@ -27,15 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly) AALocalContactInfo *contactInfo; // @synthesize contactInfo=_contactInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(readonly) Class superclass;
 
 @end
 

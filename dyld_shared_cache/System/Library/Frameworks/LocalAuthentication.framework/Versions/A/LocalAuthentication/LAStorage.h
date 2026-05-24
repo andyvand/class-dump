@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSXPCConnection;
-@protocol LACSecureStorageService;
+@class NSXPCConnection;
 
 @interface LAStorage
 {
     unsigned int _instanceId;
-    long long _domain;
-    LAContext *_authenticationContext;
-    NSXPCConnection *_connection;
-    id <LACSecureStorageService> _remoteObjectProxy;
 }
 
 + (id);
@@ -37,10 +32,10 @@
 - (void);
 - (void);
 - (void);
+- (void)kA;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -56,16 +51,12 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)hW;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) LAContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) unsigned int instanceId; // @synthesize instanceId=_instanceId;
-@property(readonly, nonatomic) id <LACSecureStorageService> remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
 
 @end
 

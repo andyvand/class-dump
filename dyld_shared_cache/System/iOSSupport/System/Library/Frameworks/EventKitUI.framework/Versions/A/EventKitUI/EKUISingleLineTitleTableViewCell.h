@@ -6,7 +6,6 @@
 
 #import <EventKitUI/EKUITableViewCell.h>
 
-@class NSString;
 @protocol EKUITitleTableViewCellDelegate;
 
 @interface EKUISingleLineTitleTableViewCell : EKUITableViewCell
@@ -14,27 +13,20 @@
     id <EKUITitleTableViewCellDelegate> _delegate;
 }
 
-- (double);
+- (double);
 - (void);
-- (void);
+- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void){;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)nalChooser;
+- (id)CorrectionsProfilesPersistedState;
+- (id)%M;
+- (void)yearlyOrdinalChooser;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

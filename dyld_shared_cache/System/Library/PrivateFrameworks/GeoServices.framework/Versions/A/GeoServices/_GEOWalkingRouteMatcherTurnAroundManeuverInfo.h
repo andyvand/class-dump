@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     GEOComposedRouteStep *_step;
 }
 
-- (id);
+- (id);
 - (void)þÿÿÿ;
 
 @end

@@ -6,23 +6,19 @@
 
 #import <IMAP/IMAPNetworkTaskOperation.h>
 
-@class IMAPDownloadCache, IMAPTaskManager, NSOrderedSet;
-@protocol IMAPMessageDataSource, IMAPSyncBodiesOperationDelegate;
+@class NSOrderedSet;
+@protocol IMAPMessageDataSource;
 
 @interface IMAPSyncBodiesOperation : IMAPNetworkTaskOperation
 {
     NSOrderedSet *_messages;
-    id <IMAPMessageDataSource> _dataSource;
-    IMAPTaskManager *_taskManager;
-    id <IMAPSyncBodiesOperationDelegate> _delegate;
-    IMAPDownloadCache *_downloadCache;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)I;
 - (id);
 - (id);
 - (void);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMAPMessageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) __weak id <IMAPSyncBodiesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) IMAPDownloadCache *downloadCache; // @synthesize downloadCache=_downloadCache;
-@property(readonly, copy, nonatomic) NSOrderedSet *messages; // @synthesize messages=_messages;
-@property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
 
 @end
 

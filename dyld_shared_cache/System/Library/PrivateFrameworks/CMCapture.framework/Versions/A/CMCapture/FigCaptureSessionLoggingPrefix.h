@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionLoggingPrefix
 {
     CDStruct_4c969caf _clientAuditToken;
-    int _clientPID;
-    int _clientPIDUsedForLoggingPrefix;
-    struct OpaqueFigCaptureSession *_captureSession;
-    struct _opaque_pthread_rwlock_t _stringValueLock;
-    NSString *_stringValue;
 }
 
 - (void);
-- (void);
+- (void)fLastEntry;
 - (id);
 
 @end

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VTFrameProcessorFrame;
+@class VTFrameProcessorFrame;
 
 @interface VTTemporalNoiseFilterParameters
 {
     _Bool _hasDiscontinuity;
-    float _filterStrength;
-    VTFrameProcessorFrame *_sourceFrame;
-    NSArray *_nextFrames;
-    NSArray *_previousFrames;
-    VTFrameProcessorFrame *_destinationFrame;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (float);
 - (id);
@@ -28,23 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) VTFrameProcessorFrame *destinationFrame; // @synthesize destinationFrame=_destinationFrame;
-@property(readonly, nonatomic) NSArray *destinationFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(nonatomic) float filterStrength; // @synthesize filterStrength=_filterStrength;
-@property(nonatomic) _Bool hasDiscontinuity; // @synthesize hasDiscontinuity=_hasDiscontinuity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *nextFrames; // @synthesize nextFrames=_nextFrames;
-@property(readonly, nonatomic) NSArray *previousFrames; // @synthesize previousFrames=_previousFrames;
 @property(readonly, nonatomic) VTFrameProcessorFrame *sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(readonly) Class superclass;
 
 @end
 

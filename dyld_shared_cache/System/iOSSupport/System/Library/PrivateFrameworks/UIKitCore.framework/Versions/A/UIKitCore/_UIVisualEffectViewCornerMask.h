@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIVisualEffectViewCornerMask
 {
     UIImage *_image;
-    struct CGRect _imageCenter;
-    unsigned long long _appliedCorners;
-    struct CACornerRadii _cornerRadii;
-    _Bool _continuous;
-    _Bool _effectsEdges;
-    _Bool _useCornerRadii;
-    double _radius;
 }
 
 + (id);
@@ -27,16 +20,16 @@ __attribute__((visibility("hidden")))
 × ;
 + (id)ractionDelegate>";
 + (id)ÁÄÁ¼Â;
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)MPSetPriorityForPlaybackSessionCommand;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)or was missing mapping for MPModelPropertyFileAssetHLSKeyCertificateURL;
 - (id)TCùÑc1Â0@ù
 × ;
 - (_Bool)teAllowsPanHorizontally"b1"queriedDelegateAllowsPanVertically"b1"failsPastMaxTouches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
 - (id)tPoint:(struct _NSZone *)arg1;
-- (double)ysAllowsSystemPreferredContentSize;
+- (double)__alwaysAllowsSystemPreferredContentSize;
 - (void)efaultPreview;
 - (unsigned long long)ing",R,C,N,V_textWithContext;
 - (void)ÿÒX¾þ;

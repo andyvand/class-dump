@@ -23,7 +23,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)subjects;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MANodeFilter *nodeFilter; // @synthesize nodeFilter=_nodeFilter;

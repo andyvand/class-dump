@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerAudioFormat, NSDictionary, NSString;
+@class MPCPlayerAudioFormat;
 
 @interface MPCPlayerAudioFormatSelection
 {
     MPCPlayerAudioFormat *_format;
-    NSString *_explanation;
-    NSDictionary *_justification;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)A;
+- (id)=;
+- (id)0;
 - (void)EGIN  %{public}@;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
 @property(retain, nonatomic) MPCPlayerAudioFormat *format; // @synthesize format=_format;
-@property(copy, nonatomic) NSDictionary *justification; // @synthesize justification=_justification;
 
 @end
 

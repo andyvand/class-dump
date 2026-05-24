@@ -9,30 +9,6 @@
 @interface PromotedContentUI.CarouselAdView : APPCPromotedContentView
 {
     id style;
-    id $__lazy_storage_$_backgroundCollectionController;
-    id $__lazy_storage_$_backgroundCollectionView;
-    id $__lazy_storage_$_blurView;
-    id filterView;
-    id $__lazy_storage_$_headlineLabel;
-    id $__lazy_storage_$_advertiserContainerView;
-    id $__lazy_storage_$_advertiserLabel;
-    id $__lazy_storage_$_collectionView;
-    id $__lazy_storage_$_logoImageView;
-    id $__lazy_storage_$_actionButton;
-    id $__lazy_storage_$__adSize;
-    id $__lazy_storage_$_adSizeWidth;
-    id elements;
-    id dataRepresentation;
-    id topMargin;
-    id advertiserViewHorizontalMargin;
-    id headlineHorizontalMargin;
-    id logoImageViewHeight;
-    id logoImageViewMaxWidth;
-    id logoImageViewLeadingMargin;
-    id collectionViewTopMargin;
-    id actionButtonHeight;
-    id actionButtonHorizontalMargin;
-    id actionButtonMinimumWidth;
 }
 
 - (void);
@@ -41,7 +17,7 @@
 - (struct CGSize);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)twork type cellular] underlyingError=%{public}@;
 - (void);
 - (void);
 - (long long);

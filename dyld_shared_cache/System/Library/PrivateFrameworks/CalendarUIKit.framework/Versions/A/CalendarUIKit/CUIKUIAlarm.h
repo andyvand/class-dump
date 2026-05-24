@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAlarm;
-
 @interface CUIKUIAlarm
 {
     _Bool _isLeaveNowAlarm;
-    _Bool _isDefaultAlarm;
-    EKAlarm *_alarm;
 }
 
-- (id)ý(Bøáªâªñªéò	?×{¦Aù|ªAù`Âáª¸ñýô;
-- (_Bool)ñÒ0ÁÚáª0;
-- (id)ù	;
-- (id)ªáªñªïò1	?×;
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id)SYSTEM_GREAT_BRITAIN_Salisbury_Reds;
 - (id);
 - (_Bool);
 - (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) EKAlarm *alarm; // @synthesize alarm=_alarm;
-@property(readonly, nonatomic) _Bool isDefaultAlarm; // @synthesize isDefaultAlarm=_isDefaultAlarm;
 @property(readonly, nonatomic) _Bool isLeaveNowAlarm; // @synthesize isLeaveNowAlarm=_isLeaveNowAlarm;
 
 @end

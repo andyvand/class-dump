@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiUsageSoftApStateInfo
 {
     _Bool _active;
-    _Bool _isHidden;
-    _Bool _isInfraConnected;
-    _Bool _isAwdlUp;
-    _Bool _compatibilityMode;
-    NSString *_requester;
-    NSString *_status;
-    NSString *_changeReason;
-    unsigned long long _channelNumber;
-    unsigned long long _countryCode;
-    double _lowPowerModeDurationSec;
-    double _dynamicPowerModeDurationSec;
-    double _requestToUpLatency;
-    double _idleTimeBeforeTeardownSec;
-    double _idleTimeAfterLastClientDisconnectedSec;
 }
 
 - (void);
@@ -33,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)truncateKernel;
 - (id);
 - (void);
 - (id);
@@ -43,13 +27,13 @@
 - (void);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
-- (double);
+- (double)˟;
+- (double)(%;
 - (id);
 - (id);
 - (void);
@@ -61,20 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) NSString *changeReason; // @synthesize changeReason=_changeReason;
-@property(nonatomic) unsigned long long channelNumber; // @synthesize channelNumber=_channelNumber;
-@property(nonatomic) _Bool compatibilityMode; // @synthesize compatibilityMode=_compatibilityMode;
-@property(nonatomic) unsigned long long countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) double dynamicPowerModeDurationSec; // @synthesize dynamicPowerModeDurationSec=_dynamicPowerModeDurationSec;
-@property(nonatomic) double idleTimeAfterLastClientDisconnectedSec; // @synthesize idleTimeAfterLastClientDisconnectedSec=_idleTimeAfterLastClientDisconnectedSec;
-@property(nonatomic) double idleTimeBeforeTeardownSec; // @synthesize idleTimeBeforeTeardownSec=_idleTimeBeforeTeardownSec;
-@property(nonatomic) _Bool isAwdlUp; // @synthesize isAwdlUp=_isAwdlUp;
-@property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(nonatomic) _Bool isInfraConnected; // @synthesize isInfraConnected=_isInfraConnected;
-@property(nonatomic) double lowPowerModeDurationSec; // @synthesize lowPowerModeDurationSec=_lowPowerModeDurationSec;
-@property(nonatomic) double requestToUpLatency; // @synthesize requestToUpLatency=_requestToUpLatency;
-@property(retain, nonatomic) NSString *requester; // @synthesize requester=_requester;
-@property(retain, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end
 

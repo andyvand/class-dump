@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNUIToolbarItem
 {
     _Bool _isDefault;
-    _Bool _isCancel;
-    NSString *_title;
-    CDUnknownBlockType _actionBlock;
 }
 
 - (void);
@@ -23,13 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)acts;
+- (void)autoUpdateContacts;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(nonatomic) _Bool isCancel; // @synthesize isCancel=_isCancel;
 @property(nonatomic) _Bool isDefault; // @synthesize isDefault=_isDefault;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

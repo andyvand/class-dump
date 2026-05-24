@@ -9,7 +9,6 @@
 @interface CRKFetchClassroomConfigurationResultObject
 {
     NSDictionary *_configuration;
-    NSDictionary *_configurationsByType;
 }
 
 + (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSDictionary *configurationsByType; // @synthesize configurationsByType=_configurationsByType;
 
 @end
 

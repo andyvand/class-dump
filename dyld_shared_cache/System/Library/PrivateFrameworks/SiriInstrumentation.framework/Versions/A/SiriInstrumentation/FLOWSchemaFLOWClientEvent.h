@@ -6,33 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class FLOWSchemaFLOWAppleMusicVoicePreviewOfferNotShown, FLOWSchemaFLOWContactTier1, FLOWSchemaFLOWDomainExecutionContext, FLOWSchemaFLOWEntityContextTier1, FLOWSchemaFLOWEventMetadata, FLOWSchemaFLOWLocationAccessPermissionPromptContext, FLOWSchemaFLOWMediaPlayerPlaybackContextTier1, FLOWSchemaFLOWMediaPlayerRadioStationContextTier1, FLOWSchemaFLOWPegasusContextTier1, FLOWSchemaFLOWSmsAttachmentMetadataTier1, FLOWSchemaFLOWStep, NSData, SISchemaInstrumentationMessage;
+@class FLOWSchemaFLOWEventMetadata, SISchemaInstrumentationMessage;
 
 @interface FLOWSchemaFLOWClientEvent : SISchemaTopLevelUnionType
 {
     FLOWSchemaFLOWEventMetadata *_eventMetadata;
-    FLOWSchemaFLOWStep *_flowStep;
-    FLOWSchemaFLOWEntityContextTier1 *_flowEntityContextTier1;
-    FLOWSchemaFLOWSmsAttachmentMetadataTier1 *_smsAttachmentMetadataTier1;
-    FLOWSchemaFLOWAppleMusicVoicePreviewOfferNotShown *_appleMusicVoicePreviewOfferNotShown;
-    FLOWSchemaFLOWPegasusContextTier1 *_pegasusContextTier1;
-    FLOWSchemaFLOWMediaPlayerPlaybackContextTier1 *_mediaPlayerPlaybackContextTier1;
-    FLOWSchemaFLOWMediaPlayerRadioStationContextTier1 *_mediaPlayerRadioStationContextTier1;
-    FLOWSchemaFLOWDomainExecutionContext *_flowDomainExecutionContext;
-    FLOWSchemaFLOWLocationAccessPermissionPromptContext *_locationAccessPermissionPromptContext;
-    FLOWSchemaFLOWContactTier1 *_flowContactTier1;
-    _Bool _hasEventMetadata;
-    _Bool _hasFlowStep;
-    _Bool _hasFlowEntityContextTier1;
-    _Bool _hasSmsAttachmentMetadataTier1;
-    _Bool _hasAppleMusicVoicePreviewOfferNotShown;
-    _Bool _hasPegasusContextTier1;
-    _Bool _hasMediaPlayerPlaybackContextTier1;
-    _Bool _hasMediaPlayerRadioStationContextTier1;
-    _Bool _hasFlowDomainExecutionContext;
-    _Bool _hasLocationAccessPermissionPromptContext;
-    _Bool _hasFlowContactTier1;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -57,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)҂;
 - (void);
 - (id);
 - (id);
@@ -76,7 +54,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -94,49 +72,25 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)/;
+- (id)__data;
 - (int);
-- (id);
+- (id)unsignedLongLongValue;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`B;
 - (_Bool);
 - (id);
 - (id)stampMs"b1"userAggregationIdExpirationTimestampMs"b1"eventOrigin"b1"isLongLivedIDUploadDisabled"b1};
-- (id)lEnrollmentContext;
+- (id)hasLanguageModelEnrollmentContext;
 - (unsigned long long)ed;
 - (id)eProcessed;
 - (id)©;
-- (int)OWDOMAINEXECUTIONTYPE_TIMER_ALARM_MOBILE_TIMER_WAIT;
+- (int)FLOWDOMAINEXECUTIONTYPE_TIMER_ALARM_MOBILE_TIMER_WAIT;
 - (void)Hx½ÿ"	oY%;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWAppleMusicVoicePreviewOfferNotShown *appleMusicVoicePreviewOfferNotShown; // @synthesize appleMusicVoicePreviewOfferNotShown=_appleMusicVoicePreviewOfferNotShown;
-@property(retain, nonatomic) FLOWSchemaFLOWEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) FLOWSchemaFLOWContactTier1 *flowContactTier1; // @synthesize flowContactTier1=_flowContactTier1;
-@property(retain, nonatomic) FLOWSchemaFLOWDomainExecutionContext *flowDomainExecutionContext; // @synthesize flowDomainExecutionContext=_flowDomainExecutionContext;
-@property(retain, nonatomic) FLOWSchemaFLOWEntityContextTier1 *flowEntityContextTier1; // @synthesize flowEntityContextTier1=_flowEntityContextTier1;
-@property(retain, nonatomic) FLOWSchemaFLOWStep *flowStep; // @synthesize flowStep=_flowStep;
-@property(nonatomic) _Bool hasAppleMusicVoicePreviewOfferNotShown; // @synthesize hasAppleMusicVoicePreviewOfferNotShown=_hasAppleMusicVoicePreviewOfferNotShown;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFlowContactTier1; // @synthesize hasFlowContactTier1=_hasFlowContactTier1;
-@property(nonatomic) _Bool hasFlowDomainExecutionContext; // @synthesize hasFlowDomainExecutionContext=_hasFlowDomainExecutionContext;
-@property(nonatomic) _Bool hasFlowEntityContextTier1; // @synthesize hasFlowEntityContextTier1=_hasFlowEntityContextTier1;
-@property(nonatomic) _Bool hasFlowStep; // @synthesize hasFlowStep=_hasFlowStep;
-@property(nonatomic) _Bool hasLocationAccessPermissionPromptContext; // @synthesize hasLocationAccessPermissionPromptContext=_hasLocationAccessPermissionPromptContext;
-@property(nonatomic) _Bool hasMediaPlayerPlaybackContextTier1; // @synthesize hasMediaPlayerPlaybackContextTier1=_hasMediaPlayerPlaybackContextTier1;
-@property(nonatomic) _Bool hasMediaPlayerRadioStationContextTier1; // @synthesize hasMediaPlayerRadioStationContextTier1=_hasMediaPlayerRadioStationContextTier1;
-@property(nonatomic) _Bool hasPegasusContextTier1; // @synthesize hasPegasusContextTier1=_hasPegasusContextTier1;
-@property(nonatomic) _Bool hasSmsAttachmentMetadataTier1; // @synthesize hasSmsAttachmentMetadataTier1=_hasSmsAttachmentMetadataTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWSchemaFLOWLocationAccessPermissionPromptContext *locationAccessPermissionPromptContext; // @synthesize locationAccessPermissionPromptContext=_locationAccessPermissionPromptContext;
-@property(retain, nonatomic) FLOWSchemaFLOWMediaPlayerPlaybackContextTier1 *mediaPlayerPlaybackContextTier1; // @synthesize mediaPlayerPlaybackContextTier1=_mediaPlayerPlaybackContextTier1;
-@property(retain, nonatomic) FLOWSchemaFLOWMediaPlayerRadioStationContextTier1 *mediaPlayerRadioStationContextTier1; // @synthesize mediaPlayerRadioStationContextTier1=_mediaPlayerRadioStationContextTier1;
-@property(retain, nonatomic) FLOWSchemaFLOWPegasusContextTier1 *pegasusContextTier1; // @synthesize pegasusContextTier1=_pegasusContextTier1;
-@property(retain, nonatomic) FLOWSchemaFLOWSmsAttachmentMetadataTier1 *smsAttachmentMetadataTier1; // @synthesize smsAttachmentMetadataTier1=_smsAttachmentMetadataTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

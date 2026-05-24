@@ -7,9 +7,6 @@
 @interface SoundAnalysis.SNAOPUtils.Analytics
 {
     id lock;
-    id telemetryWriter;
-    id clients;
-    id currentFlushStateSnapshotID;
 }
 
 @end

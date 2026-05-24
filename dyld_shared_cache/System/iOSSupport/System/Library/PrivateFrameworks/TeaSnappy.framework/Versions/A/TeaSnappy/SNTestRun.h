@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SNTestSuite;
 @protocol SNTestCase;
 
 @interface SNTestRun
 {
     id <SNTestCase> _testCase;
-    SNTestSuite *_testSuite;
 }
 
 - (id);
@@ -24,17 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long orientation;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <SNTestCase> testCase; // @synthesize testCase=_testCase;
-@property(readonly, nonatomic) SNTestSuite *testSuite; // @synthesize testSuite=_testSuite;
-@property(readonly, nonatomic) _Bool waitForCommitToFinish;
 
 @end
 

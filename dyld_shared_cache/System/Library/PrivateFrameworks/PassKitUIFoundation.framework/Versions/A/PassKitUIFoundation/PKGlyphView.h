@@ -4,52 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, LAUICheckmarkLayer, NSColor, NSMutableArray, NSObject, NSString, PKFingerprintGlyphView, PKMicaLayer, PKPhoneGlyphLayer;
-@protocol OS_dispatch_group, PKGlyphViewDelegate;
-
 @interface PKGlyphView
 {
     long long _style;
-    _Bool _isPad;
-    unsigned long long _transitionIndex;
-    _Bool _transitioning;
-    _Bool _transitioningAnimated;
-    long long _priorState;
-    NSMutableArray *_transitionCompletionHandlers;
-    NSObject<OS_dispatch_group> *_lastAnimationGroup;
-    double _lastAnimationWillFinish;
-    _Bool _phoneWiggling;
-    NSString *_phoneWiggleAnimationKey;
-    struct {
-        unsigned int showingPhone:1;
-        unsigned int phoneRotated:1;
-        unsigned int showingUserIntentPhone:1;
-        unsigned int showingUserIntentArrow:1;
-    } _layoutFlags;
-    PKFingerprintGlyphView *_fingerprintView;
-    PKPhoneGlyphLayer *_phoneLayer;
-    double _checkScale;
-    LAUICheckmarkLayer *_checkLayer;
-    CALayer *_userIntentLayer;
-    PKMicaLayer *_userIntentArrowLayer;
-    PKMicaLayer *_userIntentDeviceLayer;
-    double _phoneAspectRatio;
-    CALayer *_customImageLayer;
-    NSColor *_secondaryColor;
-    NSColor *_primaryHighlightColor;
-    NSColor *_intentPrimaryHighlightColor;
-    NSColor *_secondaryHighlightColor;
-    _Bool _showQRCode;
-    unsigned int _userIntentEdge;
-    long long _colorMode;
-    NSColor *_primaryColor;
-    struct CGImage *_customImage;
-    long long _state;
-    id <PKGlyphViewDelegate> _delegate;
-    struct NSEdgeInsets _customImageAlignmentEdgeInsets;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (void);
 - (unsigned int);
@@ -60,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (_Bool);
 - (struct NSEdgeInsets);
 - (id);
@@ -74,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (id);
 - (struct CATransform3D);
@@ -91,10 +51,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGImage *);
-- (id);
-- (id);
+- (void)ientSettings"16;
+- (struct CGImage *)_showMadridRegistrationViewIfNecessary;
+- (id);
+- (id)index:%@, visiblePlugins:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -109,21 +69,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long colorMode; // @synthesize colorMode=_colorMode;
-@property(readonly, nonatomic) struct CGImage *customImage; // @synthesize customImage=_customImage;
-@property(readonly, nonatomic) struct NSEdgeInsets customImageAlignmentEdgeInsets; // @synthesize customImageAlignmentEdgeInsets=_customImageAlignmentEdgeInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKGlyphViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fadeOnRecognized;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(nonatomic) _Bool showQRCode; // @synthesize showQRCode=_showQRCode;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int userIntentEdge; // @synthesize userIntentEdge=_userIntentEdge;
 
 @end
 

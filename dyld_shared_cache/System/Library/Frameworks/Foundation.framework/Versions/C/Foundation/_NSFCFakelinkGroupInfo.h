@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSFCFakelinkGroupInfo
 {
     struct _fakelink_group *group;
-    struct __DADisk *systemDisk;
-    struct __DADisk *dataDisk;
-    struct __CFURL *systemURL;
-    struct __CFURL *dataURL;
-    NSArray *destinationNodes;
 }
 
 - (void);

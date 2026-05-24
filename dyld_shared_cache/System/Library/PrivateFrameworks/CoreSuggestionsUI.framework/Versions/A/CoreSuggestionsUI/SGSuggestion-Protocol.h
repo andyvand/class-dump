@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SGSuggestionAction;
 @protocol SGSuggestionDelegate;
 
 @protocol SGSuggestion
+
+@optional
+- (SGSuggestionAction *);
 
 // Remaining properties
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate;

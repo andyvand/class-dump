@@ -6,26 +6,24 @@
 
 #import <IMAP/IMAPFetchResult.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMAPBodyFetchResult : IMAPFetchResult
 {
     unsigned int _startOffset;
-    NSData *_fetchData;
 }
 
 - (void);
 - (unsigned int);
-- (id);
+- (id)B
+;
 - (id);
 - (void);
-- (id);
+- (id)p;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *fetchData; // @synthesize fetchData=_fetchData;
 @property(readonly, copy, nonatomic) NSString *section;
-@property(nonatomic) unsigned int startOffset; // @synthesize startOffset=_startOffset;
 
 @end
 

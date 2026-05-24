@@ -6,34 +6,30 @@
 
 #import <CloudPhotoLibrary/CPLScopeChange.h>
 
-@class NSData, NSDate, NSString;
+@class NSDate;
 
 @interface CPLMomentShareScopeChange : CPLScopeChange
 {
     _Bool _hasEPPAssets;
-    NSDate *_creationDate;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSDate *_expiryDate;
-    long long _promisedAssetCount;
-    long long _promisedPhotosCount;
-    long long _promisedVideosCount;
-    NSData *_thumbnailImageData;
-    NSData *_previewImageData;
-    NSString *_originatingScopeIdentifier;
 }
 
 - (void);
 - (void);
+- (void)tring",&,N,V_meContactIdentifier;
+- (void)MessageHeader;
+- (void)scoreResultType;
+- (void)",&,N,V_isPQA;
+- (long long)PRSRankingItemRelativeFeatureContext;
+- (long long)MatchScore;
+- (long long)SSDataCollectible;
+- (_Bool)ng] <Model> preparing %lu items for L1 Ranking with bundle %@;
 - (void);
 - (void);
+- (id);
+- (id)P;
+- (id);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -41,28 +37,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/shared/objectparser.cpp;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(nonatomic) _Bool hasEPPAssets; // @synthesize hasEPPAssets=_hasEPPAssets;
-@property(copy, nonatomic) NSString *originatingScopeIdentifier; // @synthesize originatingScopeIdentifier=_originatingScopeIdentifier;
-@property(copy, nonatomic) NSData *previewImageData; // @synthesize previewImageData=_previewImageData;
-@property(nonatomic) long long promisedAssetCount; // @synthesize promisedAssetCount=_promisedAssetCount;
-@property(nonatomic) long long promisedPhotosCount; // @synthesize promisedPhotosCount=_promisedPhotosCount;
-@property(nonatomic) long long promisedVideosCount; // @synthesize promisedVideosCount=_promisedVideosCount;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
 
 @end
 

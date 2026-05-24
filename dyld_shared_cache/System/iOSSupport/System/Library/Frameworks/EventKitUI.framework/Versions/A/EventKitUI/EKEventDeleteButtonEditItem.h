@@ -11,16 +11,14 @@
 @interface EKEventDeleteButtonEditItem : EKEventEditItem
 {
     UITableViewCell *_cell;
-    id _deleteButtonTarget;
-    SEL _deleteButtonAction;
 }
 
 - (_Bool);
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void)crollPosition: /* Error: Ran out of types for this method. */;
+- (void)selectRowAtIndexPath:animated:scrollPosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *sourceViewForPopover;

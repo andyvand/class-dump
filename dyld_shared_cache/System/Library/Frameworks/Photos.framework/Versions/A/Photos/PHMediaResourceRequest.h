@@ -6,20 +6,9 @@
 
 #import <Photos/PHMediaRequest.h>
 
-@class NSMutableData, NSString, PHAssetResource, PHAssetResourceRequest, PHMediaResourceResult;
-
 @interface PHMediaResourceRequest : PHMediaRequest
 {
     _Bool _networkAccessAllowed;
-    long long _downloadIntent;
-    long long _downloadPriority;
-    _Bool _synchronous;
-    PHAssetResourceRequest *_internalRequest;
-    NSMutableData *_compositeData;
-    PHMediaResourceResult *_dataResult;
-    _Bool _wantsURLOnly;
-    CDUnknownBlockType _progressHandler;
-    PHAssetResource *_resource;
 }
 
 - (_Bool);
@@ -34,25 +23,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void)ssfully.;
 - (void)andler;
-- (long long)ingDictionary;
-- (CDUnknownBlockType);
+- (long long)contactMatchingDictionary;
+- (CDUnknownBlockType)Country;
 - (void)Â;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly, nonatomic) PHAssetResource *resource; // @synthesize resource=_resource;
-@property(readonly, nonatomic) long long resourceType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsURLOnly; // @synthesize wantsURLOnly=_wantsURLOnly;
 
 @end
 

@@ -9,73 +9,56 @@
 @interface NSPredicateEditorRowTemplate
 {
     long long _templateType;
-    unsigned long long _predicateOptions;
-    unsigned long long _predicateModifier;
-    unsigned long long _leftAttributeType;
-    unsigned long long _rightAttributeType;
-    NSArray *_views;
-    struct {
-        unsigned int leftIsWildcard:1;
-        unsigned int rightIsWildcard:1;
-        unsigned int reserved:30;
-    } _ptFlags;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)g the cache failed:%d /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ed_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)ationDate;
+- (id)_immediateError;
+- (id)N,V_newerThanExpirationDate;
+- (id)e",&,D;
+- (id)NSData",R,C;
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e by now;
+- (void)Valid schemes are http or https;
+- (void):(id)arg1 failed to release assertion(%d), result(%d);
+- (void)orcing Stream I/O;
+- (void)valid;
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)additionalProperties;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)drawingBounds;
 - (void)
 × ;
-- (void)ocalizedDisplayName;
-- (id)ForMaxHeight;
+- (void)localizedDisplayName;
+- (id)_screenForMaxHeight;
 - (void)ief;
 
 // Remaining properties
-@property(readonly, copy) NSArray *compoundTypes;
-@property(readonly, copy) NSArray *leftExpressions;
-@property(readonly) unsigned long long modifier;
-@property(readonly, copy) NSArray *operators;
-@property(readonly) unsigned long long options;
-@property(readonly) unsigned long long rightExpressionAttributeType;
-@property(readonly, copy) NSArray *rightExpressions;
 @property(readonly, copy) NSArray *templateViews;
 
 @end

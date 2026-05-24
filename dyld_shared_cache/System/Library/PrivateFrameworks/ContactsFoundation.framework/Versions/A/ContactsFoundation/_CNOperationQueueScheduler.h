@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 @interface _CNOperationQueueScheduler
 {
     NSOperationQueue *_queue;
-    _Bool _isQualityOfServiceSpecified;
 }
 
 + (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (double);
+- (void)ts=%d inDMToolInstance=%p;
+- (id)updateWithXPCSubscriberInfo:(double)arg1;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)EX-BusinessHomePage>!$_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) double timestamp;
 
 @end

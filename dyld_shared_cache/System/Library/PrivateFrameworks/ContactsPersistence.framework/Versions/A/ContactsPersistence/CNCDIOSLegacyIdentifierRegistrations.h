@@ -9,15 +9,11 @@
 @interface CNCDIOSLegacyIdentifierRegistrations
 {
     NSIndexSet *_contactIdentifierSet;
-    NSIndexSet *_groupIdentifierSet;
-    NSIndexSet *_containerIdentifierSet;
-    NSIndexSet *_infoIdentifierSet;
-    NSIndexSet *_multivalueIdentifierSet;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,10 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *contactIdentifierSet; // @synthesize contactIdentifierSet=_contactIdentifierSet;
-@property(readonly, nonatomic) NSIndexSet *containerIdentifierSet; // @synthesize containerIdentifierSet=_containerIdentifierSet;
-@property(readonly, nonatomic) NSIndexSet *groupIdentifierSet; // @synthesize groupIdentifierSet=_groupIdentifierSet;
-@property(readonly, nonatomic) NSIndexSet *infoIdentifierSet; // @synthesize infoIdentifierSet=_infoIdentifierSet;
-@property(readonly, nonatomic) NSIndexSet *multivalueIdentifierSet; // @synthesize multivalueIdentifierSet=_multivalueIdentifierSet;
 
 @end
 

@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
-
 @interface GEOComposedStringReplacementResult
 {
     _Bool success;
-    NSString *string;
-    NSAttributedString *attributedString;
-    NSArray *attributedComponentStrings;
-    NSArray *attributedSeparatorStrings;
-    NSArray *tokenReplacementResults;
-    NSArray *styleReplacementResults;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)A*g;
 - (id);
 - (id);
 - (id)¬ì¬®\®¯Ì¯x°à±²Ô³;
@@ -27,13 +19,7 @@
 - (void)¡5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributedComponentStrings;
-@property(readonly, nonatomic) NSArray *attributedSeparatorStrings;
-@property(readonly, nonatomic) NSAttributedString *attributedString;
-@property(readonly, nonatomic) NSString *string;
-@property(readonly, nonatomic) NSArray *styleReplacementResults;
 @property(readonly, nonatomic) _Bool success;
-@property(readonly, nonatomic) NSArray *tokenReplacementResults;
 
 @end
 

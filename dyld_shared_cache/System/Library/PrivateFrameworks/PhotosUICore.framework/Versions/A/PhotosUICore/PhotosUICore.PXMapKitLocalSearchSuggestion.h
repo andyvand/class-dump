@@ -7,9 +7,6 @@
 @interface PhotosUICore.PXMapKitLocalSearchSuggestion
 {
     id uuid;
-    id title;
-    id subtitle;
-    id location;
 }
 
 @end

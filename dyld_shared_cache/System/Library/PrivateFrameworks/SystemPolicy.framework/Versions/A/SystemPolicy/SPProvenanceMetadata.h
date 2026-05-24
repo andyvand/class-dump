@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface SPProvenanceMetadata
 {
     NSNumber *uniqueID;
-    NSNumber *rootID;
-    NSURL *url;
-    NSString *bundleID;
-    NSString *teamID;
-    NSString *signingID;
-    NSString *cdhash;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,13 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID;
-@property(retain, nonatomic) NSString *cdhash; // @synthesize cdhash;
-@property(retain, nonatomic) NSNumber *rootID; // @synthesize rootID;
-@property(retain, nonatomic) NSString *signingID; // @synthesize signingID;
-@property(retain, nonatomic) NSString *teamID; // @synthesize teamID;
 @property(retain, nonatomic) NSNumber *uniqueID; // @synthesize uniqueID;
-@property(retain, nonatomic) NSURL *url; // @synthesize url;
 
 @end
 

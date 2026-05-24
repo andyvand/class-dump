@@ -5,5 +5,6 @@
 //
 
 @protocol CWFDeviceDiscoveryManagerDelegate
+- (void);
 @end
 

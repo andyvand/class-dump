@@ -6,26 +6,23 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString;
-@protocol TRITask, TRITaskQueueStateProviding;
+@protocol TRITask;
 
 @interface TRISequenceTask : TRIBaseTask
 {
     id <TRITask> _task;
-    id <TRITask> _dependentTask;
-    _Bool wasDeferred;
 }
 
 + (id);
 + (_Bool);
 + (id);
 + (_Bool);
+- (id)setAllowedClockStretch: /* Error: Ran out of types for this method. */;
+- (id)serializationQueue;
+- (void)motionStyle;
+- (id)read enough data from file: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ce;
 - (id);
 - (id);
 - (unsigned long long);
@@ -35,7 +32,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)|(;
 - (void)0@ù
 × ;
 - (id)!ÜFù1!°1Â0@ù
@@ -49,22 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <TRITask> lastTask;
-@property(nonatomic) int retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

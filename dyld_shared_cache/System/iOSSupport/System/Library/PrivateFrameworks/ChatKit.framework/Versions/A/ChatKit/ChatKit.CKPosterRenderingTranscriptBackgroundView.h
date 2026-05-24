@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ChatKit.CKPosterRenderingTranscriptBackgroundViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) struct UIEdgeInsets safeAreaInsets;
 
 @end
 

@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPTextViewStyle, UIColor;
+@class LPPadding;
 
 __attribute__((visibility("hidden")))
 @interface LPCollaborationFooterStyle
 {
     _Bool _showSeparator;
-    _Bool _useFullWidth;
-    _Bool _useInlineIndicator;
-    _Bool _useFullWidthDuringSizing;
-    _Bool _ignoreSafeAreaInset;
-    _Bool _useSafeAreaInsetWithPadding;
-    LPPadding *_margin;
-    LPPadding *_separatorMargin;
-    LPPadding *_padding;
-    LPPointUnit *_indicatorSpacing;
-    LPPointUnit *_cornerRadius;
-    LPTextViewStyle *_options;
-    LPTextViewStyle *_handle;
-    UIColor *_backgroundColor;
 }
 
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)tapbackPickerCancel;
+- (_Bool)tapbackPickerCanOverflowPresentationBounds;
+- (_Bool)tapbackPickerBalloonParentViewTapbackTintableMessageBalloon: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:viewForFooterInSection: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 didBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 contextMenuConfigurationForRowAtIndexPath:point: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 commitEditingStyle:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)systemUIFontExcessiveLineHeightCharacterSet;
+- (void)syncProgressBarStyle;
+- (id)stopSuppressingSoundsForBulletinMessagesWithChatItems:(long long)arg1;
+- (_Bool)stickerGUIDsHiddenDuringStickerAddAnimation;
+- (void)shouldStopWhenBackgrounded;
 - (id);
 - (id);
 - (void);
@@ -52,20 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)È±ðÿ8c« ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPPointUnit *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) LPTextViewStyle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool ignoreSafeAreaInset; // @synthesize ignoreSafeAreaInset=_ignoreSafeAreaInset;
-@property(retain, nonatomic) LPPointUnit *indicatorSpacing; // @synthesize indicatorSpacing=_indicatorSpacing;
 @property(readonly, retain, nonatomic) LPPadding *margin; // @synthesize margin=_margin;
-@property(readonly, nonatomic) LPTextViewStyle *options; // @synthesize options=_options;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(readonly, retain, nonatomic) LPPadding *separatorMargin; // @synthesize separatorMargin=_separatorMargin;
-@property(nonatomic) _Bool showSeparator; // @synthesize showSeparator=_showSeparator;
-@property(nonatomic) _Bool useFullWidth; // @synthesize useFullWidth=_useFullWidth;
-@property(nonatomic) _Bool useFullWidthDuringSizing; // @synthesize useFullWidthDuringSizing=_useFullWidthDuringSizing;
-@property(nonatomic) _Bool useInlineIndicator; // @synthesize useInlineIndicator=_useInlineIndicator;
-@property(nonatomic) _Bool useSafeAreaInsetWithPadding; // @synthesize useSafeAreaInsetWithPadding=_useSafeAreaInsetWithPadding;
 
 @end
 

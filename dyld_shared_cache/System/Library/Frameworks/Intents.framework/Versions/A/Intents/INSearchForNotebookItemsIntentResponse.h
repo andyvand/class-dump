@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForNotebookItemsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)@16{CGSize=dd}24;
++ (int)isEqualToFormat:(long long)arg1;
++ (long long)initWithModificationDate:(int)arg1 fileSize:(int)arg2 filenameExtension:(_Bool)arg3 versionIdentifier:ino:generatorID:generatorVersion: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithData:(long long)arg1 contentType:size:scale:representationTypes: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -27,12 +25,12 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)peripheral:(id)arg1 didModifyServices: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tics event (timeout=%dms);
 - (id);
 - (id);
 - (void);
@@ -40,17 +38,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *notes;
-@property long long sortType;
-@property(readonly) Class superclass;
-@property(copy) NSArray *taskLists;
-@property(copy) NSArray *tasks;
 
 @end
 

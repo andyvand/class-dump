@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACUIAuthenticationViewModel, LAContext, LAUILockImageView, LAUIShakeAnimation, NSColor, NSImage, NSLayoutConstraint, NSString, NSTextField, NSTextView;
-@protocol LAUIAuthenticationViewControllerDelegate, _LAUIAuthenticationPasswordField;
+@class LAUILockImageView;
 
 @interface LAUIAuthenticationViewController
 {
     LAUILockImageView *_lockImageView;
-    NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
-    id <_LAUIAuthenticationPasswordField> _passwordField;
-    NSTextView *_hintTextView;
-    NSLayoutConstraint *_hintTextViewHeightConstraint;
-    NSLayoutConstraint *_lockImageCenterX;
-    CDUnknownBlockType _resultHandler;
-    CDUnknownBlockType _appPasswordHandler;
-    LACUIAuthenticationViewModel *_viewModel;
-    _Bool _touchIDMatch;
-    LAUIShakeAnimation *_shakeAnimation;
-    LAContext *_lastAuthenticatedContext;
-    _Bool _supportsConcurrentEvaluations;
-    _Bool _shouldAutoFocusPasswordField;
-    NSString *_authTitle;
-    NSString *_authHint;
-    NSString *_authDFRPrompt;
-    NSColor *_authTitleColor;
-    NSColor *_authSubTitleColor;
-    NSString *_callerIconPath;
-    NSString *_callerIconBundlePath;
-    NSImage *_customIcon;
-    NSString *_localizedCallerName;
-    id <LAUIAuthenticationViewControllerDelegate> _delegate;
-    unsigned long long _enabledMechanisms;
-    unsigned long long _activeMechanisms;
-    unsigned long long _runningMechanisms;
-    struct CGPoint _badgeOffset;
 }
 
 - (void);
@@ -67,11 +38,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)qO;
+- (void)A;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (id);
@@ -80,18 +51,18 @@
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)=MA;
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (void);
@@ -105,7 +76,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
 - (void);
@@ -116,42 +87,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)exportedObject;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)rival state;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeMechanisms; // @synthesize activeMechanisms=_activeMechanisms;
-@property(copy, nonatomic) CDUnknownBlockType appPasswordHandler; // @synthesize appPasswordHandler=_appPasswordHandler;
-@property(retain, nonatomic) NSString *authDFRPrompt; // @synthesize authDFRPrompt=_authDFRPrompt;
-@property(retain, nonatomic) NSString *authHint; // @synthesize authHint=_authHint;
-@property(retain, nonatomic) NSColor *authSubTitleColor; // @synthesize authSubTitleColor=_authSubTitleColor;
-@property(retain, nonatomic) NSString *authTitle; // @synthesize authTitle=_authTitle;
-@property(retain, nonatomic) NSColor *authTitleColor; // @synthesize authTitleColor=_authTitleColor;
-@property(nonatomic) struct CGPoint badgeOffset; // @synthesize badgeOffset=_badgeOffset;
-@property(copy, nonatomic) NSString *callerIconBundlePath; // @synthesize callerIconBundlePath=_callerIconBundlePath;
-@property(copy, nonatomic) NSString *callerIconPath; // @synthesize callerIconPath=_callerIconPath;
-@property(readonly, nonatomic) LAContext *context;
-@property(retain, nonatomic) NSImage *customIcon; // @synthesize customIcon=_customIcon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <LAUIAuthenticationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long enabledMechanisms; // @synthesize enabledMechanisms=_enabledMechanisms;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localizedCallerName; // @synthesize localizedCallerName=_localizedCallerName;
-@property(copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(nonatomic) unsigned long long runningMechanisms; // @synthesize runningMechanisms=_runningMechanisms;
-@property(nonatomic) _Bool shouldAutoFocusPasswordField; // @synthesize shouldAutoFocusPasswordField=_shouldAutoFocusPasswordField;
-@property(readonly) Class superclass;
 
 @end
 

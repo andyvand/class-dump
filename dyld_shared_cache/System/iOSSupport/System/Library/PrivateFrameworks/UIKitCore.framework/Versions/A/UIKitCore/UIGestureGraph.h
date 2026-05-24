@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSSet;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureGraph
@@ -14,48 +14,45 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
+- (void)sgHdr) for QueryOut message failed;
+- (void)"MTLLogStateDescriptor"16^@24;
+- (id);
+- (void)setPayloadAllowPredictiveKeyboard:(id)arg1;
+- (id)payloadAllowList;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id)að1Â0@ù
 × ;
 - (id)Ô ;
 - (id)}16@0:(id)arg1 8;
-- (id);
-- (id)PredictionEnabled: /* Error: Ran out of types for this method. */;
-- (void)calToRepresentationView:(id)arg1;
-- (void)Mode;
-- (id)dlers;
-- (void)text:(CDUnknownBlockType)arg1;
+- (id)setContext:(id)arg1;
+- (id)setCandidateSelectionPredictionEnabled: /* Error: Ran out of types for this method. */;
+- (void)hasLayoutHeightConstraintsIdenticalToRepresentationView:(id)arg1;
+- (void)_systemReferenceAngleMode;
+- (id)_sectionSnapshotHandlers;
+- (void)_connectUISceneFromFBSScene:(CDUnknownBlockType)arg1 transitionContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long)nappedFeedback;
 - (id)Layer;
 - (id)¤²´ô´XµD·H´º;
 - (void);
 - (void);
-- (void);
-- (void)licationSupportsMultipleScenes;
+- (void)Dirty;
+- (void)UIApplicationSupportsMultipleScenes;
 - (void)ü¥ÿÁH;
 - (unsigned long long)H°k;
 - (unsigned long long)`Åÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long edgeCount;
-@property(readonly, nonatomic) NSSet *edgeLabels;
 @property(readonly, nonatomic) unsigned long long nodeCount;
-@property(readonly, nonatomic) NSSet *nodeLabels;
 
 @end
 

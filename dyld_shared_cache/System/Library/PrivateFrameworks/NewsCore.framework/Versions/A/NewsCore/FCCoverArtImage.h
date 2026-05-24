@@ -9,7 +9,6 @@
 @interface FCCoverArtImage
 {
     NSURL *_URL;
-    struct CGSize _dimensions;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)ionController hasSubscriptionToTag:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) struct CGSize dimensions; // @synthesize dimensions=_dimensions;
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHGrammar, CHNonTerminal, NSNumberFormatter;
+@class CHGrammar;
 
 @interface CHParseTree
 {
     _Bool __caseSensitive;
-    CHGrammar *_grammar;
-    CHNonTerminal *_root;
-    NSNumberFormatter *_formatter;
-    struct _NSRange _inputRange;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (_Bool);
 - (id);
@@ -33,18 +29,15 @@
 - (id);
 - (void);
 - (struct _NSRange);
-- (void);
+- (void)setDeviceOperationQueue:(id)arg1;
 - (id);
 - (void);
-- (id)ales: /* Error: Ran out of types for this method. */;
+- (id)newRemoteRecognizerWithMode:locales: /* Error: Ran out of types for this method. */;
 - (id)h;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumberFormatter *formatter; // @synthesize formatter=_formatter;
 @property(retain, nonatomic) CHGrammar *grammar; // @synthesize grammar=_grammar;
-@property(nonatomic) struct _NSRange inputRange; // @synthesize inputRange=_inputRange;
-@property(retain, nonatomic) CHNonTerminal *root; // @synthesize root=_root;
 
 @end
 

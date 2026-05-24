@@ -6,77 +6,48 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSAttributedString, NSDictionary, NSLayoutConstraint, NSString, UIDocumentProperties, UIImageView, UILabel, UILayoutGuide, UIView, _UITAMICAdaptorView;
-@protocol _UINavigationBarTitleControlVisualProvider;
+@class NSString, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarTitleControl : UIControl
 {
     UIView *_backgroundView;
-    UILabel *_inlineTitleView;
-    _UITAMICAdaptorView *_wrapperView;
-    NSDictionary *_resolvedAttributes;
-    UIImageView *_chevron;
-    UILayoutGuide *_chevronGuide;
-    NSLayoutConstraint *_sosConstraint;
-    NSArray *_backgroundViewConstraints;
-    NSArray *_titleConstraints;
-    NSArray *_inlineTitleConstraints;
-    NSArray *_chevronConstraints;
-    struct {
-        unsigned int supportsTwoLineTitles:1;
-        unsigned int adjustedTitleAttributesForTitleLength:1;
-        unsigned int isUpdatingConstraints:1;
-    } _titleControlFlags;
-    float _titleViewCompressionResistancePriority;
-    NSAttributedString *_attributedTitle;
-    NSDictionary *_titleAttributes;
-    UIView *_titleView;
-    double _contentAlpha;
-    double _controlAlpha;
-    UIView *_effectiveTitleView;
-    CDUnknownBlockType _titleMenuProvider;
-    UIDocumentProperties *_documentProperties;
-    UILayoutGuide *_titleLayoutGuide;
-    id <_UINavigationBarTitleControlVisualProvider> _visualProvider;
-    CDUnknownBlockType _intrinsicContentSizeInvalidationHandler;
-    struct UIEdgeInsets _menuAlignmentInsets;
 }
 
-+ (id);
++ (id)%lu/%lu transfers, too many for one message;
 - (float);
-- (id);
+- (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)R;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (CDUnknownBlockType);
-- (id);
-- (double);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)B32@0:8@"NSString"16@?<v@?@"NSArray"@"NSArray"@"NSError">24 /* Error: Ran out of types for this method. */;
+- (id)populateCacheWithAvailabilityVerificationTokensForHandleID: /* Error: Ran out of types for this method. */;
+- (double)handleForPredicate:error: /* Error: Ran out of types for this method. */;
+- (struct CGSize)chatRecordsWithIdentifier:(id)arg1;
+- (void)_availabilityOffGridRecipientEncryptionValidationToken;
+- (void)_automationCompletionBlock;
+- (void)hat;
+- (void)isListening;
 - (_Bool);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (_Bool)conversation %@ since the remoteMember %s isn't iMessage-able;
+- (void)d;
+- (id)%@;
+- (void)with error:%@ /* Error: Ran out of types for this method. */;
+- (id)n %@ currentPendingNicknameUpdatesVersion %@;
+- (id)o, not trying again;
 - (double);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)0@ù
@@ -85,9 +56,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (double);
 - (void)IMenuElement";
-- (void)oryView:forAxis: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)imatedChanges;
+- (void)setAccessoryView:forAxis: /* Error: Ran out of types for this method. */;
+- (void)_preparePrefetchContext;
+- (id)_flushConstraintsPendingAnimatedChanges;
 - (void)øüð0@ Ü (¡¡¼¡;
 - (void)´;
 - (void)view is not in a window. Split view controller:(_Bool)arg1 %@;
@@ -101,8 +72,8 @@ __attribute__((visibility("hidden")))
 - (id).left=%g;
 - (id)d scaleFactor=%f>;
 - (_Bool);
-- (id)ansition;
-- (struct CGPoint)ePhonePresentationController;
+- (id)_UILightEffectTransition;
+- (struct CGPoint)_UIKeyboardSubstitutePhonePresentationController;
 - (void);
 - (void);
 - (id)33!;
@@ -120,31 +91,7 @@ __attribute__((visibility("hidden")))
 - (void)a;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(nonatomic) double contentAlpha; // @synthesize contentAlpha=_contentAlpha;
-@property(nonatomic) double controlAlpha; // @synthesize controlAlpha=_controlAlpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDocumentProperties *documentProperties; // @synthesize documentProperties=_documentProperties;
-@property(readonly, nonatomic) UIView *effectiveTitleView; // @synthesize effectiveTitleView=_effectiveTitleView;
-@property(readonly, nonatomic) _Bool hasBaseline;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType intrinsicContentSizeInvalidationHandler; // @synthesize intrinsicContentSizeInvalidationHandler=_intrinsicContentSizeInvalidationHandler;
-@property(readonly, nonatomic) _Bool isInteractive;
-@property(nonatomic) struct UIEdgeInsets menuAlignmentInsets; // @synthesize menuAlignmentInsets=_menuAlignmentInsets;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
-@property(readonly, nonatomic) UILabel *titleLabel;
-@property(retain, nonatomic) UILayoutGuide *titleLayoutGuide; // @synthesize titleLayoutGuide=_titleLayoutGuide;
-@property(copy, nonatomic) CDUnknownBlockType titleMenuProvider; // @synthesize titleMenuProvider=_titleMenuProvider;
-@property(retain, nonatomic) UIView *titleView; // @synthesize titleView=_titleView;
-@property(nonatomic) float titleViewCompressionResistancePriority; // @synthesize titleViewCompressionResistancePriority=_titleViewCompressionResistancePriority;
-@property(readonly, nonatomic) double trailingPadding;
-@property(retain, nonatomic) id <_UINavigationBarTitleControlVisualProvider> visualProvider; // @synthesize visualProvider=_visualProvider;
 
 @end
 

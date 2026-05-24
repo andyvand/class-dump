@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, ICTTTextEditFilter, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ICTTTextEditGrouper
 {
     _Bool _includesTableEdits;
-    _Bool _includesCheckmarkEdits;
-    _Bool _joinsTextGaps;
-    _Bool _joinsWhitespaceAndNewlineGaps;
-    NSMutableDictionary *_userIDForReplicaID;
-    NSMutableDictionary *_trustsTimestampsFromReplicaID;
-    ICNote *_note;
-    ICTTTextEditFilter *_filter;
-    NSMutableDictionary *_checkmarkReplicaIDForUserID;
 }
 
 - (id);
@@ -30,9 +22,11 @@
 - (struct _NSRange);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)$;
+- (_Bool)nodeWithSession:name:error: /* Error: Ran out of types for this method. */;
+- (_Bool)name;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,21 +36,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ation;
+- (void)transcriptionContinuation;
 - (void)	
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *checkmarkReplicaIDForUserID; // @synthesize checkmarkReplicaIDForUserID=_checkmarkReplicaIDForUserID;
-@property(copy, nonatomic) ICTTTextEditFilter *filter; // @synthesize filter=_filter;
-@property(nonatomic) _Bool includesCheckmarkEdits; // @synthesize includesCheckmarkEdits=_includesCheckmarkEdits;
-@property(nonatomic) _Bool includesTableEdits; // @synthesize includesTableEdits=_includesTableEdits;
-@property(nonatomic) _Bool joinsTextGaps; // @synthesize joinsTextGaps=_joinsTextGaps;
-@property(nonatomic) _Bool joinsWhitespaceAndNewlineGaps; // @synthesize joinsWhitespaceAndNewlineGaps=_joinsWhitespaceAndNewlineGaps;
-@property(readonly, nonatomic) ICNote *note; // @synthesize note=_note;
-@property(readonly, nonatomic) NSMutableDictionary *trustsTimestampsFromReplicaID; // @synthesize trustsTimestampsFromReplicaID=_trustsTimestampsFromReplicaID;
 @property(readonly, nonatomic) NSMutableDictionary *userIDForReplicaID; // @synthesize userIDForReplicaID=_userIDForReplicaID;
 
 @end

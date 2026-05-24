@@ -8,6 +8,9 @@
 
 @protocol AccordionHostable
 
+@optional
+- (void);
+
 // Remaining properties
 @property(nonatomic) __weak id <AccordionHostableExpansionRequestHandler> expansionRequestHandler;
 // Preceding property had unknown attributes: ?

@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PPSFlatStorage, PPSSQLStorage;
+@class PPSSQLStorage;
 
 @interface PPSCoreStorage
 {
     PPSSQLStorage *_sqlStorage;
-    PPSFlatStorage *_flatStorage;
-    NSDictionary *_storageMap;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)!-;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)1;
 - (id);
 - (void);
 - (void);
+- (id)mSorter created;
 - (void);
+- (void);
+- (void)@;
 
 // Remaining properties
-@property(retain) PPSFlatStorage *flatStorage; // @synthesize flatStorage=_flatStorage;
 @property(retain) PPSSQLStorage *sqlStorage; // @synthesize sqlStorage=_sqlStorage;
-@property(retain) NSDictionary *storageMap; // @synthesize storageMap=_storageMap;
 
 @end
 

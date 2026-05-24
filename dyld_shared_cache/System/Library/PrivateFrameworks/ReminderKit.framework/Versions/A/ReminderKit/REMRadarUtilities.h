@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)createJPEGCopyFrom:(id)arg1 compressionQuality:(id)arg2;
 
 @end
 

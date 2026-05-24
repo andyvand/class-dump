@@ -5,5 +5,8 @@
 //
 
 @protocol SUUpdateClient
+
+@optional
+- (void);
 @end
 

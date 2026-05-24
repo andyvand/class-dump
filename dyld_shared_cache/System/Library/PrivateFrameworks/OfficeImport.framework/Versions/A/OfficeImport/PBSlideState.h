@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBSlideState
 {
     NSMutableDictionary *mBuildOrderMap;
-    unsigned int mCurrentGroupId;
 }
 
 - (id);

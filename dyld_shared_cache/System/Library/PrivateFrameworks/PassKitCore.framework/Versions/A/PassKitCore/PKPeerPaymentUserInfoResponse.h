@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)o;
+- (id);
 - (void)Response"8@"NSError"16;
 
 // Remaining properties

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber;
+@class NSMutableDictionary;
 
 @interface _DASPriorityQueue
 {
     unsigned long long _count;
-    NSMutableDictionary *_objects;
-    NSNumber *_lowestPriority;
-    NSNumber *_highestPriority;
 }
 
 + (id);
 - (id);
 - (void);
+- (id)rt_is_dynamicE3$_0;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -33,9 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSNumber *highestPriority; // @synthesize highestPriority=_highestPriority;
-@property(retain, nonatomic) NSNumber *lowestPriority; // @synthesize lowestPriority=_lowestPriority;
 @property(retain, nonatomic) NSMutableDictionary *objects; // @synthesize objects=_objects;
 
 @end

@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (IMDaemonCore)
-- (id);
+- (id)3;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

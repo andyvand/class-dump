@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateFormatter, NSMenu, NSMenuItem, NSString, WBSHistorySessionController;
+@class WBSHistorySessionController;
 
 __attribute__((visibility("hidden")))
 @interface HistoryMenuController
 {
     _Bool _isMenuUpToDate;
-    NSMenu *_historyMenu;
-    long long _builtInHistoryMenuItemsCount;
-    NSMenuItem *_recentlyClosedSubmenuMenuItem;
-    NSMenuItem *_reopenRecentlyClosedTabsMenuItem;
-    NSArray *_sessions;
-    NSDate *_oldestDateLoaded;
-    NSDateFormatter *_dateFormatter;
-    WBSHistorySessionController *_historySessionController;
 }
 
 - (_Bool);
@@ -34,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (void);
@@ -48,14 +40,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) WBSHistorySessionController *historySessionController; // @synthesize historySessionController=_historySessionController;
-@property(readonly) Class superclass;
 
 @end
 

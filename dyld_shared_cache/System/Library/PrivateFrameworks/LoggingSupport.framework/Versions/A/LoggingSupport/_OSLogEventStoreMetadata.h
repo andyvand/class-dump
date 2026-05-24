@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _OSLogEventStoreTimeRef;
+@class _OSLogEventStoreTimeRef;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogEventStoreMetadata
 {
     _OSLogEventStoreTimeRef *_ttls[5];
-    _OSLogEventStoreTimeRef *_oldestPersist;
-    _OSLogEventStoreTimeRef *_oldestSpecial;
-    _OSLogEventStoreTimeRef *_oldestSignpost;
-    _OSLogEventStoreTimeRef *_oldestHighVolume;
-    _OSLogEventStoreTimeRef *_oldestLive;
-    _OSLogEventStoreTimeRef *_end;
-    NSUUID *_archiveUUID;
-    NSUUID *_sourceUUID;
 }
 
 - (id);
@@ -34,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *archiveUUID; // @synthesize archiveUUID=_archiveUUID;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *end; // @synthesize end=_end;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestHighVolume; // @synthesize oldestHighVolume=_oldestHighVolume;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestLive; // @synthesize oldestLive=_oldestLive;
 @property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestPersist; // @synthesize oldestPersist=_oldestPersist;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestSignpost; // @synthesize oldestSignpost=_oldestSignpost;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestSpecial; // @synthesize oldestSpecial=_oldestSpecial;
-@property(readonly, nonatomic) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end
 

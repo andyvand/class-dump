@@ -9,15 +9,14 @@
 @interface ChatKit.CKNavBarPersistentMenuManager
 {
     ChatKit.CKPersistentMenuButton *button;
-    id delegate;
 }
 
-- (void);
-- (id);
+- (void)tIegnnr_;
+- (id)d document attachment;
 - (id);
 - (id);
 - (void)ýÿP;
-- (void)rContainerProtocol;
+- (void)TapbackPickerContainerProtocol;
 - (id)ø¦¾ÿÄð5r@1;
 
 // Remaining properties

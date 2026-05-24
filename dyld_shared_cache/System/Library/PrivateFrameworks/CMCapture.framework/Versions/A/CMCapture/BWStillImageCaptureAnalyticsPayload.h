@@ -6,132 +6,75 @@
 
 #import <CMCapture/BWStillImageAnalyticsPayloadCommon.h>
 
-@class BWStillImageFocusPixelBlurScoreResult, NSDictionary;
-
 @interface BWStillImageCaptureAnalyticsPayload : BWStillImageAnalyticsPayloadCommon
 {
     int _deviceType;
-    unsigned int _processingFlags;
-    int _shutterLag;
-    float _zoom;
-    float _uiZoom;
-    int _numberOfFacesWithVisionFaceDetection;
-    float _largestFaceHeight;
-    float _smallestFaceHeight;
-    int _numberOfFacesAtEdge;
-    int _numberOfFacesAtCenter;
-    NSDictionary *_oisRecenteringLoggingData;
-    int _intelligentDistortionCorrectionStatusCode;
-    int _intelligentDistortionCorrectionGainMapProcessingStatusCode;
-    int _intelligentDistortionCorrectionCorrectionType;
-    int _ispMotionHighPassFilterConvergenceFlags;
-    unsigned int _bitDepth;
-    unsigned int _dngFileSize;
-    unsigned int _photoFileSize;
-    unsigned int _thumbnailImageSize;
-    unsigned int _auxiliaryImagesSize;
-    unsigned int _depthFormatDimensionWidth;
-    unsigned int _depthFormatDimensionHeight;
-    unsigned int _depthPixelFormat;
-    _Bool _depthDataFiltered;
-    BWStillImageFocusPixelBlurScoreResult *_focusPixelBlurScoreResult;
-    int _stillImageFusionMode;
-    unsigned int _dngCodecType;
-    float _dngCodecQuality;
-    int _fusionMode;
 }
 
 - (float);
-- (unsigned int);
+- (unsigned int)n;
 - (unsigned int);
 - (void);
 - (void);
+- (float)privateNonMutableClass;
+- (void)ODDAlgorithm;
+- (void)($p;
+- (float);
+- (int);
+- (int);
+- (void);
+- (int);
+- (int);
+- (void);
+- (void);
+- (void);
+- (int);
+- (id);
+- (void);
+- (id);
+- (int)R;
+- (int);
+- (unsigned int);
+- (void);
+- (int);
 - (float);
 - (void);
 - (void);
-- (float);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
-- (int);
-- (int);
-- (unsigned int);
-- (void);
-- (int);
-- (float);
-- (void);
-- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
+- (void)#;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id):%@ /* Error: Ran out of types for this method. */;
+- (id)FindMyActionExtendedRangeTransient;
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (unsigned int)SmartcamDiagnostics"16@?<v@?B>24;
 - (unsigned int)postColorProcessingThumbnailEnabled:weightSegmentMapEnabled:numberOfSecondaryFramesToSkip: /* Error: Ran out of types for this method. */;
-- (int)nsTemperature;
-- (void)ds_BE;
+- (int)lensTemperature;
+- (void)_localIDsForDetectedCatHeads_BE;
 - (void)eÿnÿwÿÿÿÿÿÿ¢ÿ© ÿ°¢ÿ·¥ÿ¾ §ÿÅ ¨ÿÍ¡ªÿÓ¡¬ÿÚ¡­ÿá¢¯ÿé¢±ÿ¤ªÿ¤ªÿ!¤ªÿ$¤©ÿ)¤©ÿ.¤¨ÿ4¤§ÿ:(float)arg1 ¤¦ÿA¤¥ÿH¥¤ÿP¥£ÿW¥¡ÿ_¥ ÿg¥ÿp¥ÿx¥ÿ¥ÿ¥ÿ¥ÿ¦ÿ¦ÿ£¦ÿª§ ÿ±§¢ÿ¸¨¤ÿ¿¨¦ÿÆ¨¨ÿÍ©ªÿÔ©¬ÿÛ©­ÿâª¯ÿêª°ÿ#¬ªÿ%¬ªÿ'¬©ÿ*¬©ÿ.¬©ÿ3¬¨ÿ8¬§ÿ>­¦ÿE­¥ÿL­¤ÿS­£ÿZ­¢ÿb­¡ÿi­ ÿr­ÿz­ÿ­ÿ­ÿ­ÿ®ÿ®ÿ¤®ÿ«¯¡ÿ²¯£ÿ¹°¥ÿÀ°¦ÿÇ°¨ÿÎ±ªÿÕ±¬ÿÜ±­ÿã²¯ÿë²°ÿ)´ªÿ+´©ÿ-´©ÿ0´©ÿ4µ¨ÿ8µ¨ÿ=µ§ÿCµ§ÿIµ¦ÿPµ¥ÿVµ¤ÿ]µ£ÿdµ¢ÿlµ¡ÿtµ ÿ{µÿµÿµÿµÿ¶ÿ¶ÿ¥¶ ÿ¬·¢ÿ³·£ÿº¸¥ÿÁ¸§ÿÇ¸¨ÿÏ¹ªÿÖ¹¬ÿÝ¹­ÿä¹¯ÿëº°ÿ1¾©ÿ3¾©ÿ4¾©ÿ7¾©ÿ:¾©ÿ>¾¨ÿC¾¨ÿH¾§ÿM¾¦ÿT¾¥ÿZ¾¥ÿa¾¤ÿh¾£ÿo¾¢ÿv¾¢ÿ~¾¡ÿ¾ ÿ¿ ÿ¿ ÿ¿¡ÿ¡¿¡ÿ§¿¢ÿ­À£ÿµÀ¥ÿ»Á¦ÿÂÁ§ÿÈÁ©ÿÐÂªÿ×Â¬ÿÞÂ­ÿäÂ¯ÿìÃ°ÿ7Æ©ÿ9Æ©ÿ:Æ©ÿ=Æ©ÿ?Æ©ÿCÆ¨ÿHÆ¨ÿLÆ§ÿQÆ§ÿXÆ¦ÿ^Æ¥ÿdÆ¥ÿjÆ¤ÿqÆ¤ÿyÆ£ÿÇ¢ÿÇ¢ÿÇ¢ÿÇ¢ÿÇ¢ÿ¢Ç£ÿ¨Ç£ÿ¯È¤ÿ¶È¦ÿ¼È§ÿÃÉ¨ÿÉÉ©ÿÑÉ«ÿØÊ¬ÿÞÊ®ÿåÊ¯ÿíÊ°ÿ=Îªÿ?Îªÿ@Î©ÿBÎ©ÿEÎ©ÿIÎ©ÿLÎ¨ÿQÎ¨ÿVÎ§ÿ\Î§ÿaÎ¦ÿgÎ¦ÿmÎ¥ÿtÏ¥ÿ{Ï¤ÿÏ¤ÿÏ¤ÿÏ¤ÿÏ¤ÿÏ¤ÿ£Ï¤ÿªÏ¥ÿ°Ð¦ÿ·Ð§ÿ¾Ð¨ÿÄÑ©ÿÊÑªÿÒÑ«ÿØÒ­ÿßÒ®ÿæÒ¯ÿîÒ°ÿCÖªÿEÖªÿFÖªÿHÖªÿJÖ©ÿNÖ©ÿQÖ©ÿUÖ©ÿZÖ¨ÿ`Ö¨ÿeÖ§ÿjÖ§ÿp×¦ÿv×¦ÿ~×¦ÿ×¥ÿ×¥ÿ×¥ÿ×¥ÿ×¥ÿ¥×¦ÿ«×¦ÿ²Ø§ÿ¹Ø¨ÿ¿Ø©ÿÅÙªÿÌÙ«ÿÓÙ¬ÿÙÙ­ÿàÚ®ÿçÚ¯ÿîÚ°ÿJßªÿKßªÿLßªÿNßªÿPßªÿSßªÿWßªÿZß©ÿ_ß©ÿdß©ÿiß¨ÿnß¨ÿtà¨ÿzà§ÿà§ÿà§ÿà§ÿà§ÿà§ÿ¡à§ÿ§à§ÿ­à¨ÿ³á¨ÿºá©ÿÁáªÿÇá«ÿÍâ¬ÿÔâ­ÿÛâ®ÿáâ¯ÿèâ°ÿïã±ÿOç«ÿPç«ÿRç«ÿSç«ÿUç«ÿXç«ÿ[çªÿ_çªÿcçªÿhçªÿmç©ÿrç©ÿwè©ÿ}è¨ÿè¨ÿè¨ÿè¨ÿè¨ÿè¨ÿ¢è¨ÿ©è©ÿ¯è©ÿµè©ÿ¼éªÿÂé«ÿÈé¬ÿÎé­ÿÕê®ÿÜê®ÿâê¯ÿèê°ÿðê±ÿUï¬ÿVï¬ÿWï¬ÿXï«ÿZï«ÿ]ï«ÿ`ï«ÿcï«ÿgï«ÿlï«ÿpïªÿuïªÿzðªÿðªÿð©ÿð©ÿð©ÿð©ÿð©ÿ¤ð©ÿªðªÿ°ðªÿ·ð«ÿ½ñ«ÿÃñ¬ÿÊñ­ÿÐñ­ÿ×ñ®ÿÝñ¯ÿãò°ÿéò±ÿñò±ÿZ÷¬ÿ[÷¬ÿ\÷¬ÿ]÷¬ÿ_÷¬ÿb÷¬ÿd÷¬ÿh÷¬ÿk÷¬ÿp÷«ÿt÷«ÿy÷«ÿ}÷«ÿ÷«ÿø«ÿøªÿøªÿøªÿ ø«ÿ¦ø«ÿ¬ø«ÿ²ø«ÿ¸ø¬ÿ¿ø¬ÿÅø­ÿËù­ÿÑù®ÿØù¯ÿÞù°ÿäù±ÿêù±ÿñù²ÿ`ÿ­ÿaÿ­ÿbÿ­ÿcÿ­ÿeÿ­ÿgÿ­ÿjÿ­ÿlÿ­ÿpÿ­ÿtÿ¬ÿxÿ¬ÿ|ÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿ£ÿ¬ÿ©ÿ¬ÿ®ÿ¬ÿ´ÿ¬ÿºÿ­ÿÁÿ­ÿÇÿ®ÿÍÿ®ÿÓÿ¯ÿÙÿ°ÿßÿ°ÿåÿ±ÿìÿ²ÿðÿ²ÿ /* Error: Ran out of types for this method. */;
 - (int)(ÿ,ÿ1ÿ6ÿ=ÿCÿJÿQ ÿX¡ÿ_¢ÿf£ÿm¥ÿt¦ÿ|¨ÿ©ÿ©ÿ©ÿ§ÿ¥¤ÿ°¢ÿºÿÃÿÎÿØÿáÿêÿôÿýÿÿÿÿÿÿÿ(ÿ,ÿ/ÿ4ÿ9ÿ@ÿFÿMÿTÿ[ÿbÿi ÿp¢ÿw£ÿ¥ÿ§ÿ©ÿªÿ«ÿ¤©ÿ®¥ÿ¸¢ÿÂ ÿÍÿ×ÿàÿêÿôÿýÿÿÿÿÿÿÿ,ÿ0ÿ3ÿ7ÿ=ÿCÿIÿPÿWÿ_ÿfÿmÿt ÿz ÿ¡¡ÿ¡£ÿ¢¤ÿ£§ÿ£ªÿ¢¤¬ÿ«¥ªÿ¶¤¥ÿÁ¤¢ÿÌ£ ÿÖ£ÿà£ÿé£ÿó£ÿü£ÿÿ£ÿÿ£ÿÿ£ÿ0¤ÿ3¤ÿ7¤ÿ;¤ÿ@¤ÿF¥ÿM¥ÿS¥ÿZ¥ÿb¦ÿi¦ÿp§ÿw§ÿ~¨ÿ¨ÿ©ÿ© ÿª¡ÿ¢«£ÿ¨«¥ÿ®¬§ÿ¯¯®ÿ¿¬¥ÿË¬¢ÿÕ«¡ÿß«ÿè«ÿó«ÿü«ÿÿ«ÿÿ«ÿÿ«ÿ4¬ÿ7¬ÿ:¬ÿ>¬ÿC¬ÿI¬ÿO­ÿV­ÿ]­ÿd®ÿk®ÿr®ÿy¯ÿ¯ÿ°ÿ°ÿ±ÿ±ÿ¥² ÿ­³ ÿ³´£ÿ¸´¦ÿ¿µ§ÿÊ´¤ÿÕ´¢ÿÞ³¡ÿè³ÿò³ÿü³ÿÿ³ÿÿ³ÿÿ³ÿ7µÿ:µÿ=µÿAµÿFµÿLµÿRµÿY¶ÿ_¶ÿg¶ÿn·ÿu·ÿ|¸ÿ¸ÿ¹ÿ¹ÿºÿ¢ºÿ©»ÿ°¼ÿ·¼ ÿ½½£ÿÃ½¥ÿË½¥ÿÕ½¤ÿÞ½¢ÿè¼¡ÿò¼ÿû¼ÿÿ¼ÿÿ¼ÿÿ»ÿ;½ÿ=½ÿ@½ÿD½ÿI½ÿO½ÿU½ÿ[¾ÿa¾ÿi¾ÿs¿ÿzÀÿÀÿÀÿÁÿÁÿÂÿ¥Âÿ­Ãÿ³ÃÿºÄÿÀÄ¡ÿÇÄ£ÿÎÅ¤ÿÖÅ¤ÿÞÅ£ÿèÄ¢ÿòÄ ÿûÄÿÿÄÿÿÄÿÿÃÿGÅÿJÅÿLÅÿOÅÿSÆÿXÆÿ^ÆÿcÆÿiÇÿpÇÿwÇÿ~ÈÿÈÿÈÿÉÿÉÿ¡Êÿ¨Êÿ°Êÿ·Ëÿ½ËÿÄËÿÊÌ¡ÿÑÌ£ÿØÌ£ÿàÌ£ÿèÌ¢ÿòÌ¡ÿûÌ ÿÿÌÿÿËÿÿËÿOÍÿQÍÿSÍÿVÎÿYÎÿ^ÎÿcÎÿhÎÿnÏÿuÏÿ{ÏÿÐÿÐÿÐÿÑÿÑÿ¤Ñÿ«Òÿ³ÒÿºÒÿÀÓÿÇÓÿÍÓ ÿÔÓ¡ÿÛÔ¢ÿâÔ¢ÿêÔ¢ÿóÔ¡ÿûÔ ÿÿÔ ÿÿÓÿÿÓÿWÖÿY×ÿ[×ÿ]×ÿa×ÿe×ÿj×ÿo×ÿtØÿzØÿØÿØÿÙÿÙÿÙÿ¢Úÿ¨Úÿ¯Úÿ·Ûÿ½ÛÿÄÛÿÊÛÿÑÜÿØÜ ÿÞÜ¡ÿåÜ¡ÿìÜ¡ÿõÜ¡ÿüÜ¡ÿÿÜ ÿÿÜÿÿÜÿ_Þÿaßÿbßÿeßÿgßÿkßÿpßÿtßÿyßÿàÿàÿàÿáÿáÿáÿ¥áÿ¬âÿ²âÿºâÿÀãÿÇãÿÍãÿÔãÿÛãÿáã ÿèä ÿîä¡ÿöä¡ÿþä¡ÿÿä ÿÿäÿÿãÿgæÿhæÿjæÿlçÿnçÿrçÿvçÿzçÿçÿèÿèÿèÿèÿéÿ£éÿ©éÿ¯éÿ¶êÿ½êÿÃêÿÊêÿÐêÿ×ëÿÞëÿäëÿêëÿñë ÿùë ÿÿë ÿÿë ÿÿëÿÿëÿnîÿoîÿqîÿsîÿuîÿxïÿ|ïÿïÿïÿïÿðÿðÿðÿ ðÿ§ñÿ­ñÿ³ñÿ¹ñÿÀñÿÆòÿÍòÿÓòÿÙòÿàòÿçòÿíòÿóòÿûòÿÿò ÿÿòÿÿòÿÿòÿv÷ÿw÷ÿx÷ÿz÷ÿ|÷ÿ÷ÿ÷ÿøÿøÿøÿøÿøÿùÿ¤ùÿ«ùÿ±ùÿ·úÿ½úÿÄúÿÊúÿÐúÿÖúÿÜúÿãûÿéûÿðûÿöûÿýûÿÿûÿÿûÿÿúÿÿúÿ /* Error: Ran out of types for this method. */;
 - (float)þþÿÿÿûÿÿ;
 - (void)ÿÊ;
 - (void);
 - (void)Axÿ?wÿ¦<vÿ¬9uÿ³6sÿ¹3rÿ¿0qÿÄ.pÿÇ-oÿÉ,oÿÊ-oÿO{ÿOzÿOzÿOzÿNyÿNyÿ&Nyÿ/Nyÿ8NyÿAOyÿHOyÿPPyÿWPyÿ^QyÿfRyÿmRzÿtS{ÿ|S|ÿQ|ÿN{ÿLzÿJyÿGxÿ§Dwÿ®Auÿ´>tÿº;sÿÀ8qÿÅ6pÿÈ5oÿÊ4oÿË5oÿY~ÿY}ÿY}ÿY}ÿX|ÿX|ÿ(X|ÿ1X|ÿ:(int)arg1 X|ÿCX|ÿJX|ÿRY|ÿZZ|ÿaZ{ÿi[|ÿp\|ÿw\}ÿ~\~ÿZ}ÿX}ÿU|ÿSzÿ¡Pyÿ¨Mxÿ¯Jvÿ¶Guÿ¼DsÿÂArÿÆ?qÿÊ=pÿË=oÿÌ=oÿ'cÿ'cÿ'cÿ'cÿ&bÿ&b~ÿ,b~ÿ4b~ÿ<b~ÿEbÿMbÿTbÿ\c~ÿcc~ÿkd~ÿre~ÿyeÿfÿcÿaÿ_}ÿ\|ÿ¢Y{ÿªVyÿ±Swÿ·Puÿ½MtÿÃJrÿÈHqÿËFpÿÍEoÿÍEoÿ0nÿ0nÿ0nÿ0nÿ0nÿ0mÿ2mÿ:mÿAmÿImÿPmÿXmÿ_mÿfnÿooÿupÿ|pÿpÿnÿlÿiÿg~ÿ¤d|ÿ¬azÿ²^xÿ¹[vÿ¿XuÿÅUsÿÊSqÿÍQpÿÎPpÿÎPoÿ9xÿ9xÿ9xÿ9xÿ9wÿ9wÿ9vÿ@vÿGvÿNwÿUwÿ\wÿcwÿjwÿrxÿyyÿzÿzÿxÿvÿsÿqÿ¦n~ÿ­k|ÿ´hzÿºewÿÁbuÿÇ_sÿË]rÿÏ[qÿÐZpÿÐYpÿCÿCÿCÿCÿCÿBÿBÿGÿNÿUÿ[ÿbÿhÿoÿvÿ|ÿÿÿÿÿ}ÿ¡{ÿ§xÿ¯u}ÿ¶r{ÿ¼oyÿÂlvÿÉjtÿÍgrÿÐfqÿÒdpÿÒdpÿLÿLÿLÿKÿKÿKÿKÿNÿTÿ[ÿaÿhÿnÿtÿ|ÿÿÿÿÿÿÿ£ÿ©ÿ±ÿ·||ÿ¾zzÿÄwwÿËtuÿÏrsÿÓqrÿÔoqÿÔnpÿRÿRÿRÿRÿRÿRÿRÿRÿXÿ_ÿeÿkÿqÿxÿÿÿÿÿÿÿÿ¥ÿ¬ÿ³ÿº~ÿÀ|ÿÆyÿÍvÿÒtÿÕ}rÿÖ|qÿÖ{pÿWÿWÿWÿWÿWÿWÿWÿVÿZÿ`ÿgÿmÿqÿwÿ~ÿÿÿÿÿÿ¢ÿ¨ÿ®ÿµÿ¼ÿÂ}ÿÈzÿÏwÿÔuÿ×sÿØrÿØqÿW¤ÿW¤ÿW¤ÿW¤ÿW£ÿW£ÿW£ÿV¢ÿW¢ÿ^¢ÿd¢ÿk£ÿq£ÿw£ÿ£ÿ£ÿ¤ÿ¤ÿ¥ÿ¥ÿ¦¦ÿ«¤ÿ±¢ÿ· ÿ¾ÿÄÿË|ÿÑyÿÖwÿÚuÿÛsÿÛrÿY¬ÿY¬ÿY¬ÿY¬ÿY¬ÿY¬ÿY«ÿY«ÿX«ÿ\«ÿc«ÿj«ÿq«ÿw¬ÿ¬ÿ¬ÿ­ÿ­ÿ­ÿ ®ÿ§®ÿ¯¯ÿ´­ÿ»ªÿÁ©ÿÇ§ÿÍ¥ÿÔ¤{ÿÙ£yÿÜ¡wÿÞ uÿÝtÿ\µÿ\µÿ\µÿ[´ÿ[´ÿ[´ÿ[´ÿ[´ÿ[³ÿ[³ÿb³ÿi´ÿp´ÿwµÿµÿµÿ¶ÿ¶ÿ·ÿ¢·ÿ©¸ÿ°¸ÿ¸¸ÿ¿¶ÿÅ´ÿÊ²ÿÐ±ÿ×°~ÿÛ¯{ÿß®yÿà­wÿà¬vÿ_¾ÿ_¾ÿ_¾ÿ_¾ÿ^¾ÿ^¾ÿ^½ÿ^½ÿ^½ÿ^½ÿ`½ÿh½ÿp¾ÿx¿ÿ¿ÿÀÿÀÿÁÿÁÿ¥Âÿ¬Âÿ³ÃÿºÃÿÃÃÿÉÁÿÎ¿ÿÔ¾ÿÚ½ÿÞ¼}ÿá»{ÿãºyÿâ¹wÿbÆÿbÆÿbÆÿbÆÿaÆÿaÆÿaÆÿaÅÿaÅÿaÅÿ`ÅÿgÅÿoÆÿxÇÿÈÿÈÿÉÿÉÿ Êÿ§Êÿ®ËÿµËÿ¼ÌÿÅÌÿÌÌÿÒÊÿ×ÉÿÝÈÿáÇ~ÿäÆ|ÿåÆzÿåÅxÿeÍÿeÍÿeÍÿeÍÿdÍÿdÍÿdÍÿdÌÿdÌÿdÌÿdÌÿfÌÿoÍÿwÎÿÏÿÐÿÐÿÑÿ¢Òÿ©Òÿ°Óÿ·Óÿ¾ÔÿÆÔÿÎÔÿÕÕÿÚÓÿàÒÿäÒ~ÿçÑ|ÿèÑzÿèÐyÿgÓÿgÓÿgÓÿgÓÿgÓÿgÓÿgÒÿgÒÿgÒÿgÒÿfÒÿfÒÿnÓÿwÔÿÕÿÖÿÖÿ×ÿ£Øÿ«Ùÿ²Ùÿ¹ÚÿÀÛÿÈÛÿÏÜÿÖÜÿÝÜÿâÜÿçÛ~ÿêÛ|ÿëÚ{ÿêÚyÿjØ ÿjØ ÿjØ ÿjØ ÿjØÿjØÿiØÿiØÿiØÿiØÿi×ÿi×ÿlØÿuÙÿÚÿÛÿÜÿÜÿ¤Ýÿ¬Þÿ³ßÿ»àÿÂáÿÉáÿÐâÿ×ãÿÞäÿääÿéä~ÿìä}ÿíä{ÿíãyÿlÛ¡ÿlÛ¡ÿlÛ¡ÿkÛ ÿkÛ ÿkÛ ÿkÛ ÿkÛÿkÛÿkÛÿkÛÿjÛÿjÛÿtÜÿÝÿÞÿßÿàÿ¤áÿ¬áÿ´âÿ»ãÿÂäÿÊåÿÑæÿØçÿßèÿåéÿêêÿíê}ÿîê{ÿîêzÿmÝ¡ÿmÝ¡ÿmÝ¡ÿmÝ¡ÿmÝ¡ÿmÝ¡ÿmÝ ÿlÝ ÿlÝ ÿlÝÿlÝÿlÝÿlÝÿsÞÿ~ßÿàÿáÿâÿ¤ãÿ¬äÿ´äÿ»æÿÃçÿËèÿÒéÿØêÿßëÿæíÿêí~ÿîî}ÿïî{ÿïîzÿnÞ¢ÿnÞ¢ÿnÞ¢ÿnÞ¢ÿnÞ¢ÿnÞ¡ÿmÞ¡ÿmÞ¡ÿmÞ ÿmÞ ÿmÞÿmÞÿlÞÿrßÿ}àÿáÿâÿãÿ¤äÿ¬åÿ´æÿ»çÿÂèÿÊéÿÑêÿØìÿßíÿæîÿëï~ÿîð|ÿïð{ÿïðzÿnß£ÿnß£ÿnß£ÿnß£ÿnß£ÿnß¢ÿnß¢ÿnß¢ÿnß¡ÿnß ÿmß ÿmßÿmßÿrßÿ}àÿáÿâÿãÿ£äÿ«åÿ³æÿ»çÿÂèÿÊéÿÑêÿØìÿßíÿåîÿêï}ÿîð{ÿïðzÿïðyÿ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)VibeMitigation;
 - (void)rivateFrameworks/Vision.framework/Vision;
-- (unsigned int)pertyValue;
-- (_Bool)bly;
-- (void)ockBail;
+- (unsigned int)NewPropertyValue;
+- (_Bool)coreRepairStatusRearCameraAssembly;
+- (void)lockBail;
 - (void)chingFormatIndexSIFRNonBinned );
 - (void)Ü3%;
 - (unsigned int)F6t÷%;
 - (void)è;
 
 // Remaining properties
-@property(nonatomic) unsigned int auxiliaryImagesSize; // @synthesize auxiliaryImagesSize=_auxiliaryImagesSize;
-@property(nonatomic) unsigned int bitDepth; // @synthesize bitDepth=_bitDepth;
-@property(nonatomic) _Bool depthDataFiltered; // @synthesize depthDataFiltered=_depthDataFiltered;
-@property(nonatomic) unsigned int depthFormatDimensionHeight; // @synthesize depthFormatDimensionHeight=_depthFormatDimensionHeight;
-@property(nonatomic) unsigned int depthFormatDimensionWidth; // @synthesize depthFormatDimensionWidth=_depthFormatDimensionWidth;
-@property(nonatomic) unsigned int depthPixelFormat; // @synthesize depthPixelFormat=_depthPixelFormat;
 @property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) float dngCodecQuality; // @synthesize dngCodecQuality=_dngCodecQuality;
-@property(nonatomic) unsigned int dngCodecType; // @synthesize dngCodecType=_dngCodecType;
-@property(nonatomic) unsigned int dngFileSize; // @synthesize dngFileSize=_dngFileSize;
-@property(retain, nonatomic) BWStillImageFocusPixelBlurScoreResult *focusPixelBlurScoreResult; // @synthesize focusPixelBlurScoreResult=_focusPixelBlurScoreResult;
-@property(nonatomic) int fusionMode; // @synthesize fusionMode=_fusionMode;
-@property(nonatomic) int intelligentDistortionCorrectionCorrectionType; // @synthesize intelligentDistortionCorrectionCorrectionType=_intelligentDistortionCorrectionCorrectionType;
-@property(nonatomic) int intelligentDistortionCorrectionGainMapProcessingStatusCode; // @synthesize intelligentDistortionCorrectionGainMapProcessingStatusCode=_intelligentDistortionCorrectionGainMapProcessingStatusCode;
-@property(nonatomic) int intelligentDistortionCorrectionStatusCode; // @synthesize intelligentDistortionCorrectionStatusCode=_intelligentDistortionCorrectionStatusCode;
-@property(nonatomic) int ispMotionHighPassFilterConvergenceFlags; // @synthesize ispMotionHighPassFilterConvergenceFlags=_ispMotionHighPassFilterConvergenceFlags;
-@property(nonatomic) float largestFaceHeight; // @synthesize largestFaceHeight=_largestFaceHeight;
-@property(nonatomic) int numberOfFacesAtCenter; // @synthesize numberOfFacesAtCenter=_numberOfFacesAtCenter;
-@property(nonatomic) int numberOfFacesAtEdge; // @synthesize numberOfFacesAtEdge=_numberOfFacesAtEdge;
-@property(nonatomic) int numberOfFacesWithVisionFaceDetection; // @synthesize numberOfFacesWithVisionFaceDetection=_numberOfFacesWithVisionFaceDetection;
-@property(retain, nonatomic) NSDictionary *oisRecenteringLoggingData; // @synthesize oisRecenteringLoggingData=_oisRecenteringLoggingData;
-@property(nonatomic) unsigned int photoFileSize; // @synthesize photoFileSize=_photoFileSize;
-@property(nonatomic) unsigned int processingFlags; // @synthesize processingFlags=_processingFlags;
-@property(nonatomic) int shutterLag; // @synthesize shutterLag=_shutterLag;
-@property(nonatomic) float smallestFaceHeight; // @synthesize smallestFaceHeight=_smallestFaceHeight;
-@property(nonatomic) unsigned int thumbnailImageSize; // @synthesize thumbnailImageSize=_thumbnailImageSize;
-@property(nonatomic) float uiZoom; // @synthesize uiZoom=_uiZoom;
-@property(nonatomic) float zoom; // @synthesize zoom=_zoom;
 
 @end
 

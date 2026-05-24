@@ -7,12 +7,6 @@
 @interface Vision.VNDetectorPerformingOperation
 {
     id detectorClass;
-    id detectorInitializationOptions;
-    id detectorProcessingOptions;
-    id regionOfInterest;
-    id imageCropAndScaleOption;
-    id requests;
-    id dependencyError;
 }
 
 @end

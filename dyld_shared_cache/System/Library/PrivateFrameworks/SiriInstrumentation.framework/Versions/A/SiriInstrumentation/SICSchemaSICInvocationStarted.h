@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SICSchemaSICInvocationStarted : SISchemaInstrumentationMessage
 {
     _Bool _isMuted;
-    int _callType;
-    int _callState;
-    int _callAppType;
-    int _participantCountBucket;
-    struct {
-        unsigned int isMuted:1;
-        unsigned int callType:1;
-        unsigned int callState:1;
-        unsigned int callAppType:1;
-        unsigned int participantCountBucket:1;
-    } _has;
 }
 
 - (void);
@@ -36,41 +23,31 @@
 - (void);
 - (void);
 - (void);
+- (int)@;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (int)String",C,N,V_location;
+- (void)(;
+- (id)φ;
 - (int);
 - (void);
-- (void);
-- (void);
+- (unsigned long long)uery]:Failed to resume:%{public}@ error:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (int);
-- (void);
-- (id);
-- (int);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)update_message_date_after_update_on_message;
 - (id);
 - (id);
-- (id)ence;
+- (id)clearLidConfidence;
 - (id)veAppUsage7Day;
-- (void)ntTaskClassificationEnded;
-- (_Bool)TE_THIRD_PARTY_WIRED;
+- (void)CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded;
+- (_Bool)TTSAUDIOOUTPUTROUTE_THIRD_PARTY_WIRED;
 
 // Remaining properties
-@property(nonatomic) int callAppType; // @synthesize callAppType=_callAppType;
-@property(nonatomic) int callState; // @synthesize callState=_callState;
-@property(nonatomic) int callType; // @synthesize callType=_callType;
-@property(nonatomic) _Bool hasCallAppType;
-@property(nonatomic) _Bool hasCallState;
-@property(nonatomic) _Bool hasCallType;
-@property(nonatomic) _Bool hasIsMuted;
-@property(nonatomic) _Bool hasParticipantCountBucket;
 @property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int participantCountBucket; // @synthesize participantCountBucket=_participantCountBucket;
 
 @end
 

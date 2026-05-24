@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (const struct MTLResourceStatePassDescriptorPrivate *)formArg;
+- (const struct MTLResourceStatePassDescriptorPrivate *)ObjectToWorldTransformArg;
 
 @end
 

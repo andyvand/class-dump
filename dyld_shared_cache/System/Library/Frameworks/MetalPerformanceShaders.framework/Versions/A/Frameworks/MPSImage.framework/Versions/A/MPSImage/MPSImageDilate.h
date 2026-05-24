@@ -6,23 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageAreaMax;
-@protocol MTLBuffer;
-
 @interface MPSImageDilate : MPSUnaryImageKernel
 {
     const struct RLERow *_rleValues;
-    id <MTLBuffer> _rleBuf;
-    MPSImageAreaMax *_outerMax;
-    MPSImageAreaMax *_innerMax;
-    unsigned int kernel;
-    Class _maxClass;
-    unsigned int headerSize;
-    unsigned int valuesOffset;
-    unsigned short centerWidth;
-    unsigned short centerHeight;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -33,7 +19,7 @@
 - (id);
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)initForKeys:(id)arg1;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -41,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end
 

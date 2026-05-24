@@ -7,12 +7,6 @@
 @interface AppStoreKit.AdvertRotationControllerProvider
 {
     id advertControllers;
-    id supportsAdvertRotation;
-    id advertLifecycleMetricsReporter;
-    id viewControllerState;
-    id onWillRotateAdvert;
-    id onDidRotateAdvert;
-    id scrollObserverTokens;
 }
 
 @end

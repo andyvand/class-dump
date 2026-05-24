@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSRegularExpression;
-
 @interface AXMLElementCoagulation
 {
     _Bool _isRTL;
-    _Bool _isiPad;
-    double _screenScale;
-    long long _appOrientation;
-    NSArray *_clickableTextKeywords;
-    NSRegularExpression *_nonAlphaCharactersRegex;
-    struct CGSize _canvasSize;
-    struct CGRect _appFrame;
 }
 
-+ (id);
++ (id)~5;
 - (void);
-- (void);
-- (void);
+- (void)[|;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (struct CGRect);
-- (id);
+- (id)|;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)k[|;
 - (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)i[|;
+- (_Bool)\|;
 - (id);
 - (id);
 - (double);
 - (double);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -58,25 +50,24 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ܬm;
+- (id);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`o;
 - (void);
 - (struct CGSize);
 - (id);
@@ -88,14 +79,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) struct CGRect appFrame; // @synthesize appFrame=_appFrame;
-@property(nonatomic) long long appOrientation; // @synthesize appOrientation=_appOrientation;
-@property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;
-@property(retain, nonatomic) NSArray *clickableTextKeywords; // @synthesize clickableTextKeywords=_clickableTextKeywords;
 @property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(nonatomic) _Bool isiPad; // @synthesize isiPad=_isiPad;
-@property(retain, nonatomic) NSRegularExpression *nonAlphaCharactersRegex; // @synthesize nonAlphaCharactersRegex=_nonAlphaCharactersRegex;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
 
 @end
 

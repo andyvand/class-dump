@@ -5,5 +5,6 @@
 //
 
 @protocol _CVCCollectionUpdateItem
+- (id)shortSubheadFont;
 @end
 

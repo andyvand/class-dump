@@ -9,9 +9,6 @@
 @interface ICSearchQuerySegment
 {
     _Bool _isExpandable;
-    NSString *_segmentString;
-    unsigned long long _type;
-    struct _NSRange _segmentRange;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)4;
 - (struct _NSRange);
 - (id);
 - (unsigned long long);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isExpandable; // @synthesize isExpandable=_isExpandable;
-@property(nonatomic) struct _NSRange segmentRange; // @synthesize segmentRange=_segmentRange;
 @property(retain, nonatomic) NSString *segmentString; // @synthesize segmentString=_segmentString;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

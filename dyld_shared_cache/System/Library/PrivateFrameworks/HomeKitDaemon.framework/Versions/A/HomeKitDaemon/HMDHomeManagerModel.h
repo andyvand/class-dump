@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeManagerModel : HMDBackingStoreModelObject
 {
@@ -20,16 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *cloudZoneInformation; // @dynamic cloudZoneInformation;
-@property(retain, nonatomic) NSString *controllerKeyIdentifier; // @dynamic controllerKeyIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *primaryHomeUUID; // @dynamic primaryHomeUUID;
-@property(readonly) Class superclass;
 
 @end
 

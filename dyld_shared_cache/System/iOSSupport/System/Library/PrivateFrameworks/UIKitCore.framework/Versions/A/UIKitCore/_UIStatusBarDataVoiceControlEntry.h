@@ -17,8 +17,8 @@
 - (long long);
 - (_Bool)@0:(id)arg1 8@"<UITraitEnvironment>"16;
 - (void)skipNextFrame;
-- (id)unds:context: /* Error: Ran out of types for this method. */;
-- (id)wsTextAnimations;
+- (id)drawTextParagraphAnchoredAttachment:bounds:context: /* Error: Ran out of types for this method. */;
+- (id)_allowsTextAnimations;
 - (void)gBarConfiguration",&,N,S_setSuspendedConfiguration:(long long)arg1 ,V__suspendedConfiguration;
 
 // Remaining properties

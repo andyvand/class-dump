@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNFileInjectOperator
 {
     id format;
-    id inputFile;
-    id offsetInInputfile;
 }
 
 @end

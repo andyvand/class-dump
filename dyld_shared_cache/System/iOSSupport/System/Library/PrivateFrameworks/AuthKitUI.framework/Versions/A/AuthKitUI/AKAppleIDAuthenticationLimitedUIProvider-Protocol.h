@@ -5,5 +5,7 @@
 //
 
 @protocol AKAppleIDAuthenticationLimitedUIProvider
+- (void);
+- (void);
 @end
 

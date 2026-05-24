@@ -9,7 +9,6 @@
 @interface IMHandleStatusManager
 {
     NSMapTable *_observers;
-    NSMapTable *_handlesForObserver;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *handlesForObserver; // @synthesize handlesForObserver=_handlesForObserver;
 @property(readonly, nonatomic) NSMapTable *observers; // @synthesize observers=_observers;
 
 @end

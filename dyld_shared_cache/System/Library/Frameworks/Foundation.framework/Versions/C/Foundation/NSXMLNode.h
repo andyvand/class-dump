@@ -4,38 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSXMLDocument;
-
 @interface NSXMLNode
 {
     NSXMLNode *_parent;
-    id _objectValue;
-    unsigned int _kind:4;
-    unsigned int _index:28;
-    int _private;
 }
 
 
 // Remaining properties
-@property(copy) NSString *URI;
-@property(readonly, copy) NSString *XMLString;
-@property(readonly, copy) NSString *XPath;
-@property(readonly) unsigned long long childCount;
-@property(readonly, copy) NSArray *children;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long index;
 @property(readonly) unsigned long long kind;
-@property(readonly) unsigned long long level;
-@property(readonly, copy) NSString *localName;
-@property(copy) NSString *name;
-@property(readonly, copy) NSXMLNode *nextNode;
-@property(readonly, copy) NSXMLNode *nextSibling;
-@property(retain) id objectValue;
-@property(readonly, copy) NSXMLNode *parent;
-@property(readonly, copy) NSString *prefix;
-@property(readonly, copy) NSXMLNode *previousNode;
-@property(readonly, copy) NSXMLNode *previousSibling;
-@property(readonly, retain) NSXMLDocument *rootDocument;
-@property(copy) NSString *stringValue;
 @end
 

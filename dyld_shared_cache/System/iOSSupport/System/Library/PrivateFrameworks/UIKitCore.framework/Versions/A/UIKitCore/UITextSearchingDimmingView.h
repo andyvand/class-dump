@@ -6,23 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, CAShapeLayer, NSArray;
+@class CAShapeLayer, NSArray;
 
 @interface UITextSearchingDimmingView : UIView
 {
     CAShapeLayer *_brighteningLayer;
-    CALayer *_dimmingLayer;
-    CAShapeLayer *_punchoutLayer;
-    _Bool _punchoutPathIsValid;
-    NSArray *_textRects;
-    struct UIEdgeInsets _contentInset;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void)appendAttributedString:(id)arg1;
+- (_Bool)ssage for played receipt:%@ /* Error: Ran out of types for this method. */;
+- (void)ity message command processing;
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id)CenterY;

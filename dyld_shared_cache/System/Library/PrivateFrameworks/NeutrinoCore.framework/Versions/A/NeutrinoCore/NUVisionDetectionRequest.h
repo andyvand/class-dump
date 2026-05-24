@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSArray, NSString;
 @protocol NUScalePolicy;
 
 @interface NUVisionDetectionRequest : NURenderRequest
 {
     id <NUScalePolicy> _scalePolicy;
-    NSArray *_visionRequests;
 }
 
 + (void);
@@ -31,16 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
-@property(copy, nonatomic) NSArray *visionRequests; // @synthesize visionRequests=_visionRequests;
 
 @end
 

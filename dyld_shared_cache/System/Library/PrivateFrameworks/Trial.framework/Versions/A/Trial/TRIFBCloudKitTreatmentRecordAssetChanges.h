@@ -7,17 +7,10 @@
 @interface TRIFBCloudKitTreatmentRecordAssetChanges
 {
     unsigned char _changeTypeContainer;
-    unsigned char _replacementContainer;
-    unsigned char _changeTypeTreatmentId;
-    unsigned int _replacementTreatmentId;
-    unsigned char _changeTypeAssetIndex;
-    unsigned int _replacementAssetIndex;
-    unsigned char _changeTypeHasCkIndex;
-    _Bool _replacementHasCkIndex;
 }
 
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);

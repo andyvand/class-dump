@@ -5,5 +5,6 @@
 //
 
 @protocol EKICSPreviewListDelegate
+- (void);
 @end
 

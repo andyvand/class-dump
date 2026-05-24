@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CIImage *inputImage;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id)sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSliderKnob, NSSliderTickMarks, NSSliderTrack, NSString, NSView;
-@protocol NSSliderCellMetricsStrategy, NSSliderTickMarksDelegate;
+@class NSSliderTrack, NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSAppearanceLinearSliderVisualProvider
 {
     NSView *_controlView;
-    id <NSSliderCellMetricsStrategy> _metricsStrategy;
-    NSSliderTrack *_trackView;
-    NSSliderTickMarks *_tickMarksView;
-    NSSliderKnob *_knobView;
-    CDStruct_6717dab8 _state;
-    id <NSSliderTickMarksDelegate> _tickMarkDelegate;
-    _Bool _usesModernStyle;
 }
 
 + (id);
@@ -27,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)_initWithIdentifier:(double)arg1 memoryCapacity:(struct CGRect)arg2 diskCapacity:(struct CGRect)arg3 private: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_initWithCFURLProtectionSpace:(_Bool)arg1;
+- (struct CGRect)_initWithCFURLCredential:(_Bool)arg1;
+- (struct CGRect)taskDescription;
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -39,17 +31,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (int);
+- (struct CGSize);
+- (int)opTimer=}8;
 - (void);
+- (_Bool)~@;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (double);
@@ -62,21 +54,6 @@ D;
 wF;
 
 // Remaining properties
-@property(readonly) int _vibrancyBlendMode;
-@property __weak NSView *controlView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSView *designatedFocusRingView;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSliderKnob *knobView;
-@property(readonly) id <NSSliderCellMetricsStrategy> metricsStrategy;
-@property CDStruct_6717dab8 state;
-@property(readonly) Class superclass;
-@property __weak id <NSSliderTickMarksDelegate> tickMarkDelegate;
-@property(readonly) NSSliderTickMarks *tickMarksView;
 @property(readonly) NSSliderTrack *trackView;
 
 @end

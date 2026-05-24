@@ -11,16 +11,6 @@
 @interface MTLAccelerationStructureTriangleGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     id <MTLBuffer> _vertexBuffer;
-    unsigned long long _vertexBufferOffset;
-    unsigned long long _vertexStride;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _triangleCount;
-    unsigned long long _vertexFormat;
-    id <MTLBuffer> _transformationMatrixBuffer;
-    unsigned long long _transformationMatrixBufferOffset;
-    long long _transformationMatrixLayout;
 }
 
 + (id);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (unsigned long long);
@@ -50,21 +40,11 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id)_=;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(retain, nonatomic) id <MTLBuffer> transformationMatrixBuffer; // @synthesize transformationMatrixBuffer=_transformationMatrixBuffer;
-@property(nonatomic) unsigned long long transformationMatrixBufferOffset; // @synthesize transformationMatrixBufferOffset=_transformationMatrixBufferOffset;
-@property(nonatomic) long long transformationMatrixLayout; // @synthesize transformationMatrixLayout=_transformationMatrixLayout;
-@property(nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
 @property(retain, nonatomic) id <MTLBuffer> vertexBuffer; // @synthesize vertexBuffer=_vertexBuffer;
-@property(nonatomic) unsigned long long vertexBufferOffset; // @synthesize vertexBufferOffset=_vertexBufferOffset;
-@property(nonatomic) unsigned long long vertexFormat; // @synthesize vertexFormat=_vertexFormat;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

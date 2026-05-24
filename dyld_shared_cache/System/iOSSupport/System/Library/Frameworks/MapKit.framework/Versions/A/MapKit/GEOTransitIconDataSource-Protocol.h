@@ -8,27 +8,10 @@
 
 @protocol GEOTransitIconDataSource
 
+@optional
+- (GEOStyleAttributes *)h";
+
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cartoID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int defaultTransitType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
 @property(readonly, nonatomic) int iconType;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"GEOStyleAttributes",?,R,N
-
 @end
 

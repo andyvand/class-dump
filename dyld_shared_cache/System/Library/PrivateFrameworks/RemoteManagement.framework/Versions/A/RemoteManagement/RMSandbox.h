@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
++ (id)x;
 + (void);
-+ (long long);
++ (long long);
 + (_Bool);
 
 @end

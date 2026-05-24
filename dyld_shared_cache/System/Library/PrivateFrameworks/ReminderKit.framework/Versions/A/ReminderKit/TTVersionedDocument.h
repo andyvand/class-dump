@@ -21,18 +21,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void *);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (id);
 
 // Remaining properties
 @property(nonatomic) void *documentArchive; // @synthesize documentArchive=_documentArchive;
-@property(readonly, nonatomic) unsigned long long futureVersionCount;
 
 @end
 

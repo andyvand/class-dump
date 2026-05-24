@@ -7,7 +7,9 @@
 @class NSString;
 
 @protocol SGDSuggestManagerRemindersProtocol
-- (void)mpletion:(NSString *)arg1;
+- (void)nabled;
+- (void)i;
+- (void)confirmRealtimeReminder:(NSString *)arg1 completion:(void (^)(SGXPCResponse *))arg2;
 - (void));
 @end
 

@@ -9,7 +9,6 @@
 @interface ChatKit.TapbackPickerCellSelectionPlatter__priv_F9B6E841E8DE6EE361333F7360F8ABF3 : ChatKit.TapbackPickerCircleView__priv_F9B6E841E8DE6EE361333F7360F8ABF3
 {
     id isSelected;
-    id selectionColor;
 }
 
 - (id);

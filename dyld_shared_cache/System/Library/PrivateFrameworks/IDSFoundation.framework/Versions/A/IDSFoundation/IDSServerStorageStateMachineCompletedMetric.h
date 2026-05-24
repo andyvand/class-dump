@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSServerStorageStateMachineCompletedMetric
 {
     _Bool _wasPrimary;
-    NSString *_service;
-    long long _linkType;
-    double _timeTaken;
-    long long _messagesProcessed;
-    long long _roundsProcessed;
-    long long _serverTimeoutCount;
-    long long _clientTimeoutCount;
-    long long _terminationReason;
-    NSNumber *_storageCheckVersion;
 }
 
 - (_Bool);
-- (double);
-- (id);
+- (double);
+- (id);
 - (long long);
 - (long long);
 - (id);
@@ -36,25 +27,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long clientTimeoutCount; // @synthesize clientTimeoutCount=_clientTimeoutCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, nonatomic) long long messagesProcessed; // @synthesize messagesProcessed=_messagesProcessed;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) long long roundsProcessed; // @synthesize roundsProcessed=_roundsProcessed;
-@property(readonly, nonatomic) long long serverTimeoutCount; // @synthesize serverTimeoutCount=_serverTimeoutCount;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSNumber *storageCheckVersion; // @synthesize storageCheckVersion=_storageCheckVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long terminationReason; // @synthesize terminationReason=_terminationReason;
-@property(readonly, nonatomic) double timeTaken; // @synthesize timeTaken=_timeTaken;
-@property(readonly, nonatomic) _Bool wasPrimary; // @synthesize wasPrimary=_wasPrimary;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface NewsFeed.DebugFormatBezelView
 {
     id scale;
-    id bezelLayer;
-    id layerDelegate;
 }
 
 - (id);
-- (void);
+- (void)yDirectory];
 - (id)!°Fùÿ1Â0@ù
 × ;
 - (void);

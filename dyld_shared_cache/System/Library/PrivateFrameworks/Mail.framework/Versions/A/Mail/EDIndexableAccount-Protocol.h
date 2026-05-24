@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAccount;
+@class NSString;
 
 @protocol EDIndexableAccount
++ (NSString *)	;
 - (_Bool)Dîÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) ECAccount *baseAccount;
 @property(readonly, nonatomic, getter=isManaged) _Bool managed;
 @end
 

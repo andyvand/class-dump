@@ -7,17 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskExecutor
 {
     id $defaultActor;
-    id lane;
-    id groupID;
-    id request;
-    id scheduler;
-    id delegate;
-    id task;
-    id currentTask;
-    id runLock;
-    id wasManuallySuspended;
-    id lastSchedulingStatus;
-    id taskIdentifier;
 }
 
 @end

@@ -4,7 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ChatKit.DetailsViewCoordinator;
+
 @protocol CKDetailsViewCoordinatorDelegate
+- (void)@"ICTagDetailItemIdentifier",R,N;
+- (void)yticsTracker",&,N,V_collaborationAnalyticsTracker;
+- (void)achment;
+- (void)el;
+- (void)eld",W,N,V_oldPasswordLabel;
+- (void)itleCheckingResult;
+- (void)Attachment";
+- (void)typeUTIIsImage:(ChatKit.DetailsViewCoordinator *)arg1;
+- (void)typeDescriptionForAccessibility;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldPresentDetailsInInspector;

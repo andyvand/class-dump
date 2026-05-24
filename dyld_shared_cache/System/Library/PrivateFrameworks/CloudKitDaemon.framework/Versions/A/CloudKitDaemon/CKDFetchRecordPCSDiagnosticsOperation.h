@@ -6,39 +6,34 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface CKDFetchRecordPCSDiagnosticsOperation : CKDDatabaseOperation
 {
     NSArray *_zoneIDs;
-    NSMutableArray *_fetchedZones;
-    NSMutableArray *_mutableCorruptRecords;
 }
 
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
++ (id)setRxBarOverRxAmpdu:(unsigned long long)arg1;
+- (void)`b;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
+- (void);
+- (id)aptiveStatus;
+- (void)returns NULL
+;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void)edChainPCSPrivateKey=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *corruptRecords;
-@property(retain, nonatomic) NSMutableArray *fetchedZones; // @synthesize fetchedZones=_fetchedZones;
-@property(retain, nonatomic) NSMutableArray *mutableCorruptRecords; // @synthesize mutableCorruptRecords=_mutableCorruptRecords;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end
 

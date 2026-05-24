@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSError *_error;
 }
 
-- (id);
+- (id)stringByExpandingTildeInPath;
 - (id);
 - (void);
 

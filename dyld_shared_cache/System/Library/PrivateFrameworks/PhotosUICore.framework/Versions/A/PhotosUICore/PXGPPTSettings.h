@@ -9,12 +9,6 @@
 @interface PXGPPTSettings : PXSettings
 {
     _Bool _useAssetBadgeDecoration;
-    _Bool _useMultipleScrollableRows;
-    _Bool _shouldTestNestedScrollView;
-    long long _numberOfItems;
-    long long _numberOfSections;
-    long long _numberOfColumns;
-    long long _selectionDecorationStlye;
 }
 
 + (id);
@@ -26,27 +20,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)l;
 - (void);
 - (void);
-- (long long)tions:resultHandler: /* Error: Ran out of types for this method. */;
+- (long long)requestChapterCollectionForKeyAsset:curatedAssets:options:resultHandler: /* Error: Ran out of types for this method. */;
 - (long long)ilityDescription(PXGFocusableViewFocusability);
 - (void)ØÞÿÒ³Q|<;
 - (long long)|?;
 
 // Remaining properties
-@property(nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 @property(nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(nonatomic) long long numberOfSections; // @synthesize numberOfSections=_numberOfSections;
-@property(nonatomic) long long selectionDecorationStlye; // @synthesize selectionDecorationStlye=_selectionDecorationStlye;
-@property(nonatomic) _Bool shouldTestNestedScrollView; // @synthesize shouldTestNestedScrollView=_shouldTestNestedScrollView;
-@property(nonatomic) _Bool useAssetBadgeDecoration; // @synthesize useAssetBadgeDecoration=_useAssetBadgeDecoration;
-@property(nonatomic) _Bool useMultipleScrollableRows; // @synthesize useMultipleScrollableRows=_useMultipleScrollableRows;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSDate;
 
 @interface RTPlaceInferenceMetrics
 {
     NSDate *_startDate;
-    NSMutableDictionary *_metrics;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)eivedRemoteDeviceVersion = %@;
 - (void);
 - (id);
 - (double);
@@ -23,12 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_allowPostQuantumKeyExchangeFallbackForAnalytics;
 - (void);
 - (void)%{sensitive}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

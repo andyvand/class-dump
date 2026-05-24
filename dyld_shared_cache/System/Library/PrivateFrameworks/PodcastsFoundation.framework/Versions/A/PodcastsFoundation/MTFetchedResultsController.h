@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFetchRequest, NSFetchedResultsController, NSManagedObjectContext, NSMutableArray, NSMutableDictionary, NSString;
-@protocol NSFetchedResultsControllerDelegate;
+@class NSFetchRequest, NSFetchedResultsController;
 
 @interface MTFetchedResultsController
 {
     NSFetchedResultsController *_frc;
-    NSMutableDictionary *_propertyCache;
-    NSMutableArray *_changes;
-    NSArray *_propertyKeys;
-    id <NSFetchedResultsControllerDelegate> _delegate;
 }
 
 - (void);
@@ -22,12 +17,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (id));
+- (id)7
+;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,19 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSFetchedResultsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSFetchRequest *fetchRequest;
-@property(readonly, nonatomic) NSArray *fetchedObjects;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(copy, nonatomic) NSArray *propertyKeys; // @synthesize propertyKeys=_propertyKeys;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly) Class superclass;
 
 @end
 

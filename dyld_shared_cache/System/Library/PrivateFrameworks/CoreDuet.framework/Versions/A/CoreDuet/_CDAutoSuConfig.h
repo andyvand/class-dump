@@ -7,57 +7,37 @@
 @interface _CDAutoSuConfig
 {
     _Bool _alwaysFallBackToDefault;
-    _Bool _alwaysReturnUnlockNow;
-    _Bool _allowUnlockBeforeNow;
-    int _restrictionStartInSlot;
-    int _restrictionEndInSlot;
-    int _suStartDefaultTime;
-    int _suEndDefaultTimeOffsetFromSuStart;
-    int _unlockMarginInSlot;
-    double _unlockThreshold;
-    double _startThreshold;
-    double _endThreshold;
 }
 
 + (id);
 - (_Bool);
-- (int);
-- (int);
-- (int);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
+- (int)5;
+- (int)ve;
 - (int);
 - (double);
+- (void);
+- (void)~.;
+- (void);
+- (void)e;
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void)k$;
+- (void)lt;
+- (void)b;
+- (void);
+- (int)V;
+- (int);
+- (int);
+- (double)t;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool);
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool allowUnlockBeforeNow; // @synthesize allowUnlockBeforeNow=_allowUnlockBeforeNow;
-@property(nonatomic) _Bool alwaysFallBackToDefault; // @synthesize alwaysFallBackToDefault=_alwaysFallBackToDefault;
-@property(nonatomic) _Bool alwaysReturnUnlockNow; // @synthesize alwaysReturnUnlockNow=_alwaysReturnUnlockNow;
-@property(nonatomic) double endThreshold; // @synthesize endThreshold=_endThreshold;
-@property(nonatomic) int restrictionEndInSlot; // @synthesize restrictionEndInSlot=_restrictionEndInSlot;
 @property(nonatomic) int restrictionStartInSlot; // @synthesize restrictionStartInSlot=_restrictionStartInSlot;
-@property(nonatomic) double startThreshold; // @synthesize startThreshold=_startThreshold;
-@property(nonatomic) int suEndDefaultTimeOffsetFromSuStart; // @synthesize suEndDefaultTimeOffsetFromSuStart=_suEndDefaultTimeOffsetFromSuStart;
-@property(nonatomic) int suStartDefaultTime; // @synthesize suStartDefaultTime=_suStartDefaultTime;
-@property(nonatomic) int unlockMarginInSlot; // @synthesize unlockMarginInSlot=_unlockMarginInSlot;
-@property(nonatomic) double unlockThreshold; // @synthesize unlockThreshold=_unlockThreshold;
 
 @end
 

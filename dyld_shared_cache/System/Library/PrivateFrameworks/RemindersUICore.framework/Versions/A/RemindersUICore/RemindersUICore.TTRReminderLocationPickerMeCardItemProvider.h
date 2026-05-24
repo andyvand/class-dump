@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerMeCardItemProvider
 {
     id meCardProvider;
-    id mq_cachedModelItems;
-    id ignoresSeachText;
 }
 
 @end

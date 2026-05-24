@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_os_log, RadiosPreferencesDelegate;
-
 @interface RadiosPreferences
 {
     struct __SCPreferences *_prefs;
-    int _applySkipCount;
-    id <RadiosPreferencesDelegate> _delegate;
-    _Bool _isCachedAirplaneModeValid;
-    _Bool _cachedAirplaneMode;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_os_log> *radios_prefs_log;
-    _Bool notifyForExternalChangeOnly;
 }
 
 - (void);
@@ -35,7 +25,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void *);
 - (void);
 - (_Bool);
@@ -44,8 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool airplaneMode;
-@property(nonatomic) id <RadiosPreferencesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool notifyForExternalChangeOnly; // @synthesize notifyForExternalChangeOnly;
 
 @end
 

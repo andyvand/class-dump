@@ -6,8 +6,6 @@
 
 #import <DialogEngine/DENode.h>
 
-@class DESpeakableString, NSString;
-
 @interface DEDialog : DENode
 {
     shared_ptr_bd7e2fee _This;
@@ -33,9 +31,6 @@
 
 // Remaining properties
 @property shared_ptr_bd7e2fee This; // @synthesize This=_This;
-@property DESpeakableString *caption;
-@property DESpeakableString *content;
-@property(retain) NSString *id;
 
 @end
 

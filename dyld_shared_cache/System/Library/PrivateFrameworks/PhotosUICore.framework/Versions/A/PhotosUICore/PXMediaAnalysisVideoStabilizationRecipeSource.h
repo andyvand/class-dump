@@ -11,7 +11,6 @@
 @interface PXMediaAnalysisVideoStabilizationRecipeSource : PXVideoStabilizationRecipeSource
 {
     PHAsset *_asset;
-    struct CGSize _videoDimensions;
 }
 
 + (id);

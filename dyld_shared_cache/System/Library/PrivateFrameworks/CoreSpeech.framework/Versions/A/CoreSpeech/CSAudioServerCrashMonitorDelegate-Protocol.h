@@ -7,6 +7,6 @@
 @protocol CSAudioServerCrashMonitorDelegate
 
 @optional
-- (void)ignedIntegerValue;
+- (void)unsignedIntegerValue;
 @end
 

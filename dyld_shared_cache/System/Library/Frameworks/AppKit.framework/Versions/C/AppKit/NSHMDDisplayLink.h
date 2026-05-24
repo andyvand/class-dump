@@ -8,17 +8,16 @@
 {
 }
 
-+ (double);
++ (double)O Logging;
+- (void)) failed %s;
+- (_Bool)callbackQueue;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void)dCalendarAdvanceMonth;
+- (void)_clockAndCalendarAdvanceMonth;
 
 // Remaining properties
 @property _Bool executesConcurrently;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

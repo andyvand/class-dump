@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TUAnimationFloatFunction, TUNavigationBarCompressibleTitleView, UINavigationBar, UITabBarController;
+@class TUNavigationBarCompressibleTitleView;
 
 @interface TUNavigationBarDefaultCompressionAnimation
 {
     _Bool shouldCompressAtTop;
-    _Bool shouldCloseGapOnScroll;
-    _Bool _hideTitleOnTop;
-    _Bool _compressTitleView;
-    double topOffset;
-    double _translationOffset;
-    TUNavigationBarCompressibleTitleView *_compressibleTitleView;
-    NSArray *_barButtonItemViews;
-    UINavigationBar *_navigationBar;
-    UITabBarController *_tabBarController;
-    TUAnimationFloatFunction *_opacityFunction;
-    TUAnimationFloatFunction *_scaleFunction;
-    TUAnimationFloatFunction *_translateFunction;
 }
 
 - (void);
@@ -57,23 +45,7 @@
 - (id)öÜG;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *barButtonItemViews; // @synthesize barButtonItemViews=_barButtonItemViews;
-@property(nonatomic) _Bool compressTitleView; // @synthesize compressTitleView=_compressTitleView;
 @property(retain, nonatomic) TUNavigationBarCompressibleTitleView *compressibleTitleView; // @synthesize compressibleTitleView=_compressibleTitleView;
-@property(nonatomic) _Bool hideTitleOnTop; // @synthesize hideTitleOnTop=_hideTitleOnTop;
-@property(readonly, nonatomic) UINavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain, nonatomic) TUAnimationFloatFunction *opacityFunction; // @synthesize opacityFunction=_opacityFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *scaleFunction; // @synthesize scaleFunction=_scaleFunction;
-@property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;
-@property(readonly, nonatomic) _Bool shouldCompressAtTop; // @synthesize shouldCompressAtTop;
-@property(readonly, nonatomic) UITabBarController *tabBarController; // @synthesize tabBarController=_tabBarController;
-@property(readonly, nonatomic) double topOffset; // @synthesize topOffset;
-@property(retain, nonatomic) TUAnimationFloatFunction *translateFunction; // @synthesize translateFunction=_translateFunction;
-@property(nonatomic) double translationOffset; // @synthesize translationOffset=_translationOffset;
 
 @end
 

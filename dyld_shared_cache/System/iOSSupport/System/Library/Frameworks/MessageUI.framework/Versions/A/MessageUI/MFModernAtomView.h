@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFModernAtomBackgroundView, MFModernAtomIconView, NSString, UIActivityIndicatorView, UIColor, UIFont, UILabel, UIView;
+@class MFModernAtomBackgroundView, MFModernAtomIconView;
 
 @interface MFModernAtomView
 {
     MFModernAtomIconView *_badgeIconView;
-    MFModernAtomIconView *_accessoryIconView;
-    UIColor *_effectiveTintColor;
-    unsigned long long _disabledPresentationOptions;
-    UIView *_baselineView;
-    MFModernAtomBackgroundView *_background;
-    UIView *_compositingView;
-    UIView *_titleLabelFillView;
-    UILabel *_label;
-    UIActivityIndicatorView *_activityIndicator;
-    double _scalingFactor;
-    _Bool _wrappingSupported;
-    _Bool _cachedIsWrappingEnabled;
-    _Bool _isPrimaryAddressAtom;
-    _Bool _separatorHidden;
-    _Bool _separatorIsLeftAligned;
-    _Bool _selected;
-    NSString *_title;
-    UIFont *_titleFont;
-    unsigned long long _presentationOptions;
-    double _firstLineIndent;
 }
 
 + (_Bool);
@@ -38,11 +18,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)׿;
 + (id);
 + (double);
 + (double);
-+ (id);
++ (id)prepareInterfaceForGeneratePasswordsRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -81,7 +61,7 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (double);
+- (double)ScreenSaverPreview;
 - (void);
 - (void);
 - (void);
@@ -94,14 +74,14 @@
 - (void);
 - (void);
 - (double);
-- (struct CGSize);
-- (unsigned long long);
+- (struct CGSize)onGestureRecognizer";
+- (unsigned long long)P;
 - (double);
-- (void);
-- (void);
-- (id);
+- (void)chat =  ? ;
 - (void);
 - (id);
+- (void)NSXPCListenerDelegate;
+- (id)(void)_block_invoke;
 - (id);
 - (void);
 - (id);
@@ -109,34 +89,7 @@
 - (long long)HC;
 
 // Remaining properties
-@property(readonly, nonatomic) MFModernAtomIconView *accessoryIconView; // @synthesize accessoryIconView=_accessoryIconView;
-@property(readonly, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
 @property(readonly, nonatomic) MFModernAtomBackgroundView *backgroundView;
-@property(readonly, nonatomic) MFModernAtomIconView *badgeIconView; // @synthesize badgeIconView=_badgeIconView;
-@property(readonly, nonatomic) struct CGPoint baselinePoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(readonly, nonatomic) unsigned long long effectivePresentationOptions;
-@property(readonly, nonatomic) UIColor *effectiveTintColor;
-@property(nonatomic) double firstLineIndent; // @synthesize firstLineIndent=_firstLineIndent;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesVIPIndicator;
-@property(nonatomic) _Bool isPrimaryAddressAtom; // @synthesize isPrimaryAddressAtom=_isPrimaryAddressAtom;
-@property(nonatomic) unsigned long long presentationOptions; // @synthesize presentationOptions=_presentationOptions;
-@property(nonatomic) double scale; // @synthesize scale=_scalingFactor;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) struct CGRect selectionFrame;
-@property(nonatomic) _Bool separatorHidden; // @synthesize separatorHidden=_separatorHidden;
-@property(nonatomic) _Bool separatorIsLeftAligned; // @synthesize separatorIsLeftAligned=_separatorIsLeftAligned;
-@property(nonatomic) long long separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UIFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_label;
 
 @end
 

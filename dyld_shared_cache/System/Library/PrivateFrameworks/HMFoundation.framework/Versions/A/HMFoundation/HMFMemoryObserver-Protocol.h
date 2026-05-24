@@ -5,5 +5,6 @@
 //
 
 @protocol HMFMemoryObserver
+- (void)hasSupportsMatterTTU;
 @end
 

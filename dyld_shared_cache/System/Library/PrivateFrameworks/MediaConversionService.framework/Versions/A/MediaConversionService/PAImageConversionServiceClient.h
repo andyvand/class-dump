@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)bluetoothDeviceEntityRelevanceWiFiAndTimeOfDayFeatures;
 - (id)-r|--preset <preset>] [-c|--count <count>] [-v|--verbose] [--wait] [-p|--progress] [--pause] [--launch] [--launch-and-pause] [--next];
 
 // Remaining properties

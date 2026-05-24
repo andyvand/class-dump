@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIStatusBarRegionAxisAligningLayout
 {
     long long _alignment;
@@ -14,19 +12,11 @@
 + (id);
 - (long long);
 - (id);
-- (void)ted;
+- (void)Unimplemented;
 - (_Bool)^Ù¶[;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSDTileStorage, TSKAccessController;
-@protocol NSObject, OS_dispatch_queue;
+@protocol NSObject;
 
 @interface TSDTileProvider
 {
     id <NSObject> mTarget;
-    TSDTileStorage *mTileStorage;
-    TSKAccessController *mAccessController;
-    NSObject<OS_dispatch_queue> *mQueue;
-    CDStruct_2d1207dd mVisibleTileRect;
 }
 
-- (void);
+- (void)essionController:(CDStruct_7470134b)arg1 -[AVAudioSession setActive:false] failed with error  /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (CDStruct_2d1207dd);
+- (_Bool);
+- (CDStruct_7470134b);
 - (id);
 - (void);
 - (void);
@@ -32,14 +27,7 @@
 - (id)ÖÿS^ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property CDStruct_2d1207dd visibleTileRect; // @synthesize visibleTileRect=mVisibleTileRect;
+@property CDStruct_7470134b visibleTileRect; // @synthesize visibleTileRect=mVisibleTileRect;
 
 @end
 

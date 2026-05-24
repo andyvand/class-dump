@@ -7,8 +7,6 @@
 @interface EventKitUI._AppExtensionEventGenericDetailHostView.HostCoordinator
 {
     id parent;
-    id identity;
-    id conn;
 }
 
 - (void);
@@ -16,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)Date:overriddenEventEndDate: /* Error: Ran out of types for this method. */;
+- (void)initWithDate:event:overriddenEventStartDate:overriddenEventEndDate: /* Error: Ran out of types for this method. */;
 
 @end
 

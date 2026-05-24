@@ -4,53 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MPWeighterConstraint
 {
     long long numOfImages;
-    NSDictionary *nextConstraints;
-    NSString *presetID;
-    long long movieCount;
-    _Bool moviesOnly;
-    _Bool ignoreMovies;
-    long long wideLandscape;
-    long long square;
-    long long landscape;
-    long long portrait;
-    long long hPanoramas;
-    long long vPanoramas;
-    long long supportsHPanoramas;
-    long long supportsVPanoramas;
-    long long supportsAllPanoramas;
-    long long allPanoramas;
-    _Bool hasPanorama;
-    NSArray *maxAspectRatios;
-    NSArray *minAspectRatios;
-    NSArray *tags;
-    _Bool tagsOnSourceOnly;
-    _Bool shelf;
 }
 
 - (void);
 - (void);
+- (void),!;
+- (void)*T(;
+- (id)B24;
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)layingSlides;
+- (id)}(;
+- (void)mPlayingSlides;
 - (id),ûü$ýÌÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *maxAspectRatios; // @synthesize maxAspectRatios;
-@property(retain, nonatomic) NSArray *minAspectRatios; // @synthesize minAspectRatios;
 @property(retain, nonatomic) NSDictionary *nextConstraints; // @synthesize nextConstraints;
-@property(retain, nonatomic) NSString *presetID; // @synthesize presetID;
-@property(retain, nonatomic) NSArray *tags; // @synthesize tags;
 
 @end
 

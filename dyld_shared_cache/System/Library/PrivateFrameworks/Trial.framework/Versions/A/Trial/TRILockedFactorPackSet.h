@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIReferenceManagedDirReaderLock;
+@class NSString;
 @protocol TRIFactorPackSetId;
 
 @interface TRILockedFactorPackSet
 {
     NSString<TRIFactorPackSetId> *_factorPackSetId;
-    NSString *_path;
-    TRIReferenceManagedDirReaderLock *_lock;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id));
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)nigramPrefixMatchInAuthors;
 - (id);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly, nonatomic) TRIReferenceManagedDirReaderLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

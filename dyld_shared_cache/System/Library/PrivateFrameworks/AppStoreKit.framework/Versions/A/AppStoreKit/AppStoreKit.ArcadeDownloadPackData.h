@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AppStoreKit.ArcadeDownloadPackData
 {
     void apps;
-    void subscriptionStatus;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *apps;
-@property(nonatomic, readonly) NSString *subscriptionStatus;
 
 @end
 

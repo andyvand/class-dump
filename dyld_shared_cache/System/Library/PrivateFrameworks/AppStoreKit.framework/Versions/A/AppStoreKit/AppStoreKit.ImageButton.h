@@ -7,11 +7,6 @@
 @interface AppStoreKit.ImageButton
 {
     id title;
-    id artwork;
-    id clickAction;
-    id clickSender;
-    id reloadOnClick;
-    id id;
 }
 
 @end

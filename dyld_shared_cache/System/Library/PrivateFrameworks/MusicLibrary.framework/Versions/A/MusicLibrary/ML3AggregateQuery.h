@@ -6,26 +6,23 @@
 
 #import <MusicLibrary/ML3Query.h>
 
-@class NSString;
-
 @interface ML3AggregateQuery : ML3Query
 {
     Class _aggregateEntityClass;
-    NSString *_foreignPersistentIDProperty;
-    _Bool _isFastCountable;
 }
 
 + (_Bool);
-- (void);
+- (void)@
+;
 - (id);
-- (_Bool);
+- (_Bool)to %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (Class);
 - (void);
+- (id)ontext";
 - (id);
 - (id);
-- (id);
-- (Class)otalSizeForTracksPredicate: /* Error: Ran out of types for this method. */;
+- (Class)_totalSizeForTracksPredicate: /* Error: Ran out of types for this method. */;
 - (id)kMetadataIdentifiers;
 - (void)ort keys are ascending;
 - (_Bool)tertiary_text_color) > 0 OR length(quaternary_text_color) > 0 OR length(background_color) > 0 OR length(gradient_text_color) > 0) OR length(gradient_color) > 0);
@@ -35,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) Class aggregateEntityClass; // @synthesize aggregateEntityClass=_aggregateEntityClass;
-@property(readonly, nonatomic) NSString *foreignPersistentIDProperty; // @synthesize foreignPersistentIDProperty=_foreignPersistentIDProperty;
-@property(nonatomic) _Bool isFastCountable; // @synthesize isFastCountable=_isFastCountable;
 
 @end
 

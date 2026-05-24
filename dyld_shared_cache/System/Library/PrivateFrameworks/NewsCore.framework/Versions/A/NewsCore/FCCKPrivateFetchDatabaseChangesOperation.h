@@ -6,16 +6,11 @@
 
 #import <NewsCore/FCCKPrivateDatabaseOperation.h>
 
-@class FCCKPrivateDatabaseServerChangeToken, NSArray;
+@class NSArray;
 
 @interface FCCKPrivateFetchDatabaseChangesOperation : FCCKPrivateDatabaseOperation
 {
     _Bool _resultMoreComing;
-    FCCKPrivateDatabaseServerChangeToken *_previousServerChangeToken;
-    CDUnknownBlockType _fetchDatabaseChangesCompletionBlock;
-    NSArray *_resultChangedZoneIDs;
-    NSArray *_resultDeletedZoneIDs;
-    FCCKPrivateDatabaseServerChangeToken *_resultServerChangeToken;
 }
 
 - (void);
@@ -25,10 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void):(id)arg1 %d, %{public}s forbids:%{public}s. Requires a current place label /* Error: Ran out of types for this method. */;
+- (void);
+- (CDUnknownBlockType)ess;
+- (id)undation;
 - (_Bool);
 - (void)arServices/feldsparcore/Classes/FCCKPrivateFetchRecordZoneChangesOperation.m;
 - (void);
@@ -36,12 +31,7 @@
 - (_Bool)éÿIÄD;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchDatabaseChangesCompletionBlock; // @synthesize fetchDatabaseChangesCompletionBlock=_fetchDatabaseChangesCompletionBlock;
-@property(copy, nonatomic) FCCKPrivateDatabaseServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
 @property(retain, nonatomic) NSArray *resultChangedZoneIDs; // @synthesize resultChangedZoneIDs=_resultChangedZoneIDs;
-@property(retain, nonatomic) NSArray *resultDeletedZoneIDs; // @synthesize resultDeletedZoneIDs=_resultDeletedZoneIDs;
-@property(nonatomic) _Bool resultMoreComing; // @synthesize resultMoreComing=_resultMoreComing;
-@property(retain, nonatomic) FCCKPrivateDatabaseServerChangeToken *resultServerChangeToken; // @synthesize resultServerChangeToken=_resultServerChangeToken;
 
 @end
 

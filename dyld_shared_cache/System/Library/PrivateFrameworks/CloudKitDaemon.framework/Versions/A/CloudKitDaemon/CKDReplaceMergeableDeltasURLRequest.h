@@ -6,25 +6,22 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDReplaceMergeableDeltasURLRequest : CKDURLRequest
 {
     _Bool _ignoreMissingDeltas;
-    NSArray *_replaceDeltasRequests;
-    CDUnknownBlockType _perReplacementCompletionBlock;
-    NSMutableDictionary *_replacementRequestsByRequestID;
 }
 
-+ (id);
++ (id)getBinRetries:(id)arg1 As:(id)arg2;
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (id);;
+- (CDUnknownBlockType);
 - (void);
 - (int);
 - (id);
@@ -40,10 +37,7 @@
 - (_Bool)TrafficLogChunkedMessage;
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreMissingDeltas; // @synthesize ignoreMissingDeltas=_ignoreMissingDeltas;
-@property(copy, nonatomic) CDUnknownBlockType perReplacementCompletionBlock; // @synthesize perReplacementCompletionBlock=_perReplacementCompletionBlock;
 @property(retain, nonatomic) NSArray *replaceDeltasRequests; // @synthesize replaceDeltasRequests=_replaceDeltasRequests;
-@property(retain, nonatomic) NSMutableDictionary *replacementRequestsByRequestID; // @synthesize replacementRequestsByRequestID=_replacementRequestsByRequestID;
 
 @end
 

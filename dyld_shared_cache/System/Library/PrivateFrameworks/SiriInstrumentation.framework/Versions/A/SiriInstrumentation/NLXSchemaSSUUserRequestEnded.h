@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaSSUUserRequestEnded : SISchemaInstrumentationMessage
 {
@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (id);
 - (id);
 - (void);
@@ -31,10 +31,9 @@
 × ;
 - (id)unt;
 - (id)leResultTier1",&,N,V_audioFileResultTier1;
-- (void)ERSONTYPE_PHONE_NUMBER;
+- (void)FLOWPERSONTYPE_PHONE_NUMBER;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *triggeredCacheEntryInfos; // @synthesize triggeredCacheEntryInfos=_triggeredCacheEntryInfos;
 
 @end

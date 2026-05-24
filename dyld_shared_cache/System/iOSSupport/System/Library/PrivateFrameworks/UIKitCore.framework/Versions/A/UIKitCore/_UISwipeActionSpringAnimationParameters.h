@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void);
-+ (double);
-+ (double);
++ (void)DServiceSession_Chat_Private) storeMessage:(double)arg1 context:didReplaceBlock:shouldStoreBlock:didStoreBlock:block:] /* Error: Ran out of types for this method. */;
++ (double);
++ (double){;
 
 @end
 

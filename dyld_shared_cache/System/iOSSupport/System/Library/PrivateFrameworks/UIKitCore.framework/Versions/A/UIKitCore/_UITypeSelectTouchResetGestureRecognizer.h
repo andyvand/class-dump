@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)isAccountRegistered:(id)arg1;
 - (_Bool);
 - (_Bool)0@ù
 × ;
 - (_Bool)0:(id)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24d56B64B68;
-- (void)ing:(id)arg1 searchString:(id)arg2;
-- (void)kgroundBlurEffectStyle;
-- (void)g;
-- (_Bool)elligenceCollectContentIn:(id)arg1 collector:(id)arg2;
+- (void)setInlineCompletionAsMarkedText:(id)arg1 selectedRange:(id)arg2 inputString:searchString: /* Error: Ran out of types for this method. */;
+- (void)backgroundBlurEffectStyle;
+- (void)_lastSectionStartString;
+- (_Bool)_intelligenceCollectContentIn:(id)arg1 collector:(id)arg2;
 - (_Bool)er;
 - (_Bool)`dxþ ¬þÿ@0íÿ;
 - (void)index %lu with an action whose identifier is the same as the segment at index %lu (action=%@). Identifiers are required to be unique.;

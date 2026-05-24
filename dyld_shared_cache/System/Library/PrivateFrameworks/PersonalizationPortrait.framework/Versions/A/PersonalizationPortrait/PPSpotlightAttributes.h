@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
-
 @interface PPSpotlightAttributes
 {
     double _staticScore;
-    NSData *_featureVector;
-    NSNumber *_featureVectorVersion;
-    NSDictionary *_namedEntityScores;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (void);
 - (void);
@@ -23,9 +18,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
-- (id);
+- (id)dataDetectorItemAllItems:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -34,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *featureVector; // @synthesize featureVector=_featureVector;
-@property(retain, nonatomic) NSNumber *featureVectorVersion; // @synthesize featureVectorVersion=_featureVectorVersion;
-@property(retain, nonatomic) NSDictionary *namedEntityScores; // @synthesize namedEntityScores=_namedEntityScores;
 @property(nonatomic) double staticScore; // @synthesize staticScore=_staticScore;
 
 @end

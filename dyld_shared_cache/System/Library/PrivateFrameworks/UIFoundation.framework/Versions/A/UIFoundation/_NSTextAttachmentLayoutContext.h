@@ -4,76 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, NSTextContainer, NSTextLayoutFragment;
-@protocol NSTextLocation, _NSTextLayoutAttachmentLayoutContextDelegate;
+@protocol _NSTextLayoutAttachmentLayoutContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextAttachmentLayoutContext
 {
     id <_NSTextLayoutAttachmentLayoutContextDelegate> _delegate;
-    NSMapTable *_textAttachmentInfoTable;
-    NSArray *_sortedKeys;
-    NSArray *_textAttachmentViewProviders;
-    id <NSTextLocation> _baseLocation;
-    _Bool _allowsFontOverridingTextAttachmentVerticalMetrics;
-    _Bool _usesFontLeading;
-    _Bool _hasViewProvider;
-    _Bool _hasResolvedAttachmentFrame;
-    long long _applicationFrameworkContext;
-    NSTextContainer *_textContainer;
-    NSTextLayoutFragment *_textLayoutFragment;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
+- (void)oning state:(_Bool)arg1 %s;
+- (void)ne_parse_necp_drop_dest_entry;
 - (_Bool);
-- (id);
+- (id)2gl;
 - (void);
 - (void);
+- (id)P;
+- (void);
+- (void)ework/Versions/A/Security;
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)u  Stream=%{signpost.telemetry:(id)arg1 string2,public}@ ;
 - (void);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)STextViewDidChangeTypingAttributesNotification;
+- (void)NSTextViewDidChangeTypingAttributesNotification;
 
 // Remaining properties
-@property _Bool allowsFontOverridingTextAttachmentVerticalMetrics; // @synthesize allowsFontOverridingTextAttachmentVerticalMetrics=_allowsFontOverridingTextAttachmentVerticalMetrics;
-@property long long applicationFrameworkContext; // @synthesize applicationFrameworkContext=_applicationFrameworkContext;
-@property(readonly) id <NSTextLocation> baseLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <_NSTextLayoutAttachmentLayoutContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool hasResolvedAttachmentFrame; // @synthesize hasResolvedAttachmentFrame=_hasResolvedAttachmentFrame;
 @property _Bool hasViewProvider; // @synthesize hasViewProvider=_hasViewProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *textAttachmentViewProviders;
-@property NSTextContainer *textContainer; // @synthesize textContainer=_textContainer;
-@property __weak NSTextLayoutFragment *textLayoutFragment; // @synthesize textLayoutFragment=_textLayoutFragment;
-@property _Bool usesFontLeading; // @synthesize usesFontLeading=_usesFontLeading;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface CoreML.IOSurfaceAllocator
 {
     id cacheKeyAlignment;
-    id cache;
-    id cacheSize;
 }
 
 @end

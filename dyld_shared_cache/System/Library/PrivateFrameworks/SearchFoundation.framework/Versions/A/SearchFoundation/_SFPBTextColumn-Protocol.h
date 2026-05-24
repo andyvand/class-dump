@@ -7,9 +7,11 @@
 @class NSArray, NSData;
 
 @protocol _SFPBTextColumn
+- (NSData *)fidenceHelper;
+- (NSArray *)collectionShareAssets;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sections;
 @end
 

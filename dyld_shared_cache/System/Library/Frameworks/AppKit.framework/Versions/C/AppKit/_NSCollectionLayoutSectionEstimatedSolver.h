@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, NSIndexSet, NSObject, NSString, _NSCollectionLayoutAuxiliaryItemSolver, _NSCollectionLayoutSolutionState, _NSCollectionLayoutSupplementaryRegistrar;
-@protocol NSCollectionLayoutContainer, _NSCollectionPreferredSizes;
+@protocol _NSCollectionPreferredSizes;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSectionEstimatedSolver
 {
     _Bool _layoutRTL;
-    _Bool _shouldAdjustContentSizeForPartialLastGroupSolution;
-    int _layoutAxis;
-    int _containerLayoutAxis;
-    NSCollectionLayoutSection *_layoutSection;
-    id <NSCollectionLayoutContainer> _container;
-    NSObject *_traitCollection;
-    long long _frameCount;
-    id <_NSCollectionPreferredSizes> _preferredSizes;
-    _NSCollectionLayoutAuxiliaryItemSolver *_sectionSupplementarySolution;
-    _NSCollectionLayoutSupplementaryRegistrar *_sectionSupplementaryRegistrar;
-    id <NSCollectionLayoutContainer> _memoizedSupplementaryHostContainer;
-    _NSCollectionLayoutSolutionState *_solutionState;
-    struct CGPoint _orthogonalOffset;
-    struct CGVector _orthogonalScrollingPrefetchingUnitVector;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (id)J;
+- (void)DERDecode the buffer with status:(id)arg1 %d;
+- (void)%s sysconfig version (0X%08X) did not match manifest version (0X%08X;
+- (id)4qfpxrvLtWillIHpIsVgMA;
+- (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
@@ -41,22 +26,22 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (id);
+- (id)reason;
 - (struct CGSize);
 - (id);
 - (id);
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
 - (void);
-- (struct CGRect);
-- (struct CGPoint);
-- (void);
-- (void);
+- (void)^;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSt3__120__shared_ptr_pointerIP18TNodeOperationTaskNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
 - (void);
 - (long long);
 - (void);
@@ -68,12 +53,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (int);
 - (struct CGVector)elegateReturnsValidRequestor"b1"_deactPending"b1"_invalidState"b1"_invalidEvent"b1"_postedWindowsNeedUpdateNote"b1"_isSiriActive"b1"_doingHide"b1"_dontSendShouldTerminate"b1"_ignoresFullScreen"b1"_finishedLaunching"b1"_hasEventDelegate"b1"_inTerminate"b1"_inTerminatePastPointOfNoReturn"b1"_didNSOpenOrPrint"b1"_inDealloc"b1"_pendingDidFinish"b1"_hasKeyFocus"b1"_panelsNonactivating"b1"_hiddenOnLaunch"b1"_openStatus"b2"_batchOrdering"b1"_waitingForTerminationReply"b1"_isSpotlightActive"b1"_enumeratingMemoryPressureHandlers"b1"_didTryRestoringPersistentState"b1"_windowDragging"b1"_mightBeSwitching"b1};
-- (void)hy:(_Bool)arg1;
-- (id)iveArrangement;
-- (id);
-- (void)oundColor;
-- (struct CGRect)artTextInsertion_SPI;
-- (id)tionValidation;
+- (void)checkGrammarInRange:(_Bool)arg1 types:options:orthography: /* Error: Ran out of types for this method. */;
+- (id)baselineRelativeArrangement;
+- (id)_effectiveParentWindow;
+- (void)_backgroundColor;
+- (struct CGRect)SmartTextInsertion_SPI;
+- (id)_NSLegacyServiceQuickActionValidation;
 - (void)<];
 - (double);
 - (id);
@@ -91,31 +76,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSCollectionLayoutContainer> container; // @synthesize container=_container;
-@property(nonatomic) int containerLayoutAxis; // @synthesize containerLayoutAxis=_containerLayoutAxis;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect effectiveContentFrame;
-@property(readonly, nonatomic) long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(readonly, nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(readonly, nonatomic) NSCollectionLayoutSection *layoutSection; // @synthesize layoutSection=_layoutSection;
-@property(retain, nonatomic) id <NSCollectionLayoutContainer> memoizedSupplementaryHostContainer; // @synthesize memoizedSupplementaryHostContainer=_memoizedSupplementaryHostContainer;
-@property(nonatomic) struct CGPoint orthogonalOffset; // @synthesize orthogonalOffset=_orthogonalOffset;
-@property(nonatomic) struct CGVector orthogonalScrollingPrefetchingUnitVector; // @synthesize orthogonalScrollingPrefetchingUnitVector=_orthogonalScrollingPrefetchingUnitVector;
-@property(readonly, nonatomic) NSIndexSet *pinnedSupplementaryIndexes;
 @property(readonly, nonatomic) id <_NSCollectionPreferredSizes> preferredSizes; // @synthesize preferredSizes=_preferredSizes;
-@property(retain, nonatomic) _NSCollectionLayoutSupplementaryRegistrar *sectionSupplementaryRegistrar; // @synthesize sectionSupplementaryRegistrar=_sectionSupplementaryRegistrar;
-@property(retain, nonatomic) _NSCollectionLayoutAuxiliaryItemSolver *sectionSupplementarySolution; // @synthesize sectionSupplementarySolution=_sectionSupplementarySolution;
-@property(nonatomic) _Bool shouldAdjustContentSizeForPartialLastGroupSolution; // @synthesize shouldAdjustContentSizeForPartialLastGroupSolution=_shouldAdjustContentSizeForPartialLastGroupSolution;
-@property(retain, nonatomic) _NSCollectionLayoutSolutionState *solutionState; // @synthesize solutionState=_solutionState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

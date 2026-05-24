@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTimer, PXAssetCollectionReference, PXCuratedLibraryAssetCollectionSkimmingModel;
-@protocol PXCuratedLibrarySkimmingControllerDelegate;
+@class PXAssetCollectionReference;
 
 @interface PXCuratedLibrarySkimmingController
 {
     double _slideshowTriggerDelay;
-    double _slideshowIntervalDelay;
-    _Bool _skimmingSlideshowEnabled;
-    PXCuratedLibraryAssetCollectionSkimmingModel *_skimmingModel;
-    id <PXCuratedLibrarySkimmingControllerDelegate> _delegate;
-    long long _state;
-    PXAssetCollectionReference *_preSkimmedAssetCollectionReference;
-    double _lastPanningTranslation;
-    long long _currentSkimmingIndex;
-    NSArray *_skimmingIndexes;
-    long long _skimmingDataSourceIdentifier;
-    NSTimer *_slideshowTimer;
 }
 
 + (id);
@@ -36,17 +24,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (double);
+- (double)u
+;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)�;
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -55,41 +47,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void)¤¿ÉZ²;
 - (void)cþþ
 ¸@cþþý	¸`cþþ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canStartSkimming;
-@property(nonatomic) long long currentSkimmingIndex; // @synthesize currentSkimmingIndex=_currentSkimmingIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXCuratedLibrarySkimmingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTouching;
-@property(nonatomic) double lastPanningTranslation; // @synthesize lastPanningTranslation=_lastPanningTranslation;
 @property(retain, nonatomic) PXAssetCollectionReference *preSkimmedAssetCollectionReference; // @synthesize preSkimmedAssetCollectionReference=_preSkimmedAssetCollectionReference;
-@property(nonatomic) long long skimmingDataSourceIdentifier; // @synthesize skimmingDataSourceIdentifier=_skimmingDataSourceIdentifier;
-@property(retain, nonatomic) NSArray *skimmingIndexes; // @synthesize skimmingIndexes=_skimmingIndexes;
-@property(readonly, nonatomic) PXCuratedLibraryAssetCollectionSkimmingModel *skimmingModel; // @synthesize skimmingModel=_skimmingModel;
-@property(nonatomic) _Bool skimmingSlideshowEnabled; // @synthesize skimmingSlideshowEnabled=_skimmingSlideshowEnabled;
-@property(retain, nonatomic) NSTimer *slideshowTimer; // @synthesize slideshowTimer=_slideshowTimer;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

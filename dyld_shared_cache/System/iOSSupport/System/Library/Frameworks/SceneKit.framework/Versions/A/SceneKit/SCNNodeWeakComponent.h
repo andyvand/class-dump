@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNodeComponent;
-
 __attribute__((visibility("hidden")))
 @interface SCNNodeWeakComponent
 {
     long long type;
-    id component;
-    SCNNodeComponent *next;
 }
 
 - (id);
@@ -127,8 +123,6 @@ __attribute__((visibility("hidden")))
 - (id)À?	¨T?ô?pì¡¾[|?ð¦W?Aa?½û¾ff?LªZ??Ö¾{ý>®]?òï?õL¾ßþì>TÅ`?Eð?[¾Ý>QÞc?V?N¾yWÍ>¾Ýf?ÃE?ÛÝs¾*å½>TÈi?£?jd¾e®>j¡l?.É}?¤áT¾Ô)>µOo?Þuz?Ä³D¾ºM>oÕq?oHw?l@4¾½Ç>Ã,t?	t?ÉÆ#¾J&g>jNv?n¤p?Ê¾¤K>}<x?ö|m?~;
 
 // Remaining properties
-@property(nonatomic) __weak id component; // @synthesize component;
-@property(retain, nonatomic) SCNNodeComponent *next; // @synthesize next;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

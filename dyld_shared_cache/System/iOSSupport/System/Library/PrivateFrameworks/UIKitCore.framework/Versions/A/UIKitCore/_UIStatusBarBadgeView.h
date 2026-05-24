@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIAccessibilityHUDItem, UILabel;
+@class NSArray, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarBadgeView : UIView
@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)56@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
 - (id);
 - (id);
-- (id);
-- (id)eOverrideProvider;
+- (id)_itemColoredSymbolImageUserInterfaceStyleOverrideProvider;
 - (void)D;
 - (id)thout a valid screen is not supported! Please file a bug report for UIKit with the following log messages: /* Error: Ran out of types for this method. */;
 - (void)ft;
@@ -27,36 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)4ì;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(retain, nonatomic) NSArray *constraintsWithConstant; // @synthesize constraintsWithConstant=_constraintsWithConstant;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

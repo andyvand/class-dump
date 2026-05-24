@@ -9,13 +9,13 @@
 }
 
 + (id);
++ (id)N3ims14SharedLoggableI19SharedImsResultItemEE;
++ (id)v;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)3.302:(id)arg1 1999;
++ (id)enableMrc:(long long)arg1 options: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -15,18 +15,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 struct CGImage;
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct FigCaptionRendererAvoidanceOptions {
@@ -37,16 +37,16 @@ struct FigCaptionRendererAvoidanceOptions {
 };
 
 struct FigGeometryDimension {
-    double value;
-    unsigned int units;
-    unsigned int flags;
+    double _field1;
+    unsigned int _field2;
+    unsigned int _field3;
 };
 
 struct FigGeometryMargins {
-    struct FigGeometryDimension left;
-    struct FigGeometryDimension right;
-    struct FigGeometryDimension top;
-    struct FigGeometryDimension bottom;
+    struct FigGeometryDimension _field1;
+    struct FigGeometryDimension _field2;
+    struct FigGeometryDimension _field3;
+    struct FigGeometryDimension _field4;
 };
 
 struct OpaqueFigCaptionRendererCALayerInternal {
@@ -214,11 +214,11 @@ struct __CFString;
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
     id _field1;

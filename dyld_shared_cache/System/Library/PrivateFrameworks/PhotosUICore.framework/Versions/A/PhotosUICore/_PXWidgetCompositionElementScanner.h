@@ -9,13 +9,6 @@
 @interface _PXWidgetCompositionElementScanner
 {
     long long _scanLocation;
-    struct _NSRange _scannedRowRange;
-    NSArray *_elements;
-    CDUnknownBlockType _wantsEdgeToEdgeLayoutBlock;
-    double _referenceWidth;
-    double _interColumnSpacing;
-    long long _maximumNumberOfColumns;
-    long long _orientation;
 }
 
 - (CDUnknownBlockType);
@@ -40,14 +33,7 @@ _¥GG;
 - (long long)¡: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAtEnd) _Bool atEnd;
 @property(copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;
-@property(nonatomic) double interColumnSpacing; // @synthesize interColumnSpacing=_interColumnSpacing;
-@property(nonatomic) long long maximumNumberOfColumns; // @synthesize maximumNumberOfColumns=_maximumNumberOfColumns;
-@property(readonly, nonatomic) long long numberOfColumns;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double referenceWidth; // @synthesize referenceWidth=_referenceWidth;
-@property(copy, nonatomic) CDUnknownBlockType wantsEdgeToEdgeLayoutBlock; // @synthesize wantsEdgeToEdgeLayoutBlock=_wantsEdgeToEdgeLayoutBlock;
 
 @end
 

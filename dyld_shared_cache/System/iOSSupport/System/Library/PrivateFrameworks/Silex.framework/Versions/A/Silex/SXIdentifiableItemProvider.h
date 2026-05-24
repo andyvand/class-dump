@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (void)d}}56;
 
 // Remaining properties

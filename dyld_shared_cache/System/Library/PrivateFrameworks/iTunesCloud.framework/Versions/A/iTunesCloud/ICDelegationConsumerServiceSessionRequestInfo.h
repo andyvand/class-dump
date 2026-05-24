@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICDelegationConsumerServiceSessionRequestInfo
 {
     unsigned long long _accountID;
-    unsigned long long _fairPlaySessionID;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) unsigned long long fairPlaySessionID; // @synthesize fairPlaySessionID=_fairPlaySessionID;
 
 @end
 

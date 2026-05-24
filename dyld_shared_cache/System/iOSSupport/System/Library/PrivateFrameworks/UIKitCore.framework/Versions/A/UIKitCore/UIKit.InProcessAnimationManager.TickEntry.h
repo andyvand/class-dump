@@ -7,10 +7,6 @@
 @interface UIKit.InProcessAnimationManager.TickEntry
 {
     id preferredFrameRateRange;
-    id updateReason;
-    id velocityUsableForVFD;
-    id flushesWithTransaction;
-    id callback;
 }
 
 @end

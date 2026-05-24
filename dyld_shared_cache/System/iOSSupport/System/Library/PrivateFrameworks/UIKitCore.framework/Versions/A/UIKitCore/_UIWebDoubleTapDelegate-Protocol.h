@@ -7,6 +7,7 @@
 @class UIScrollView, UIView;
 
 @protocol _UIWebDoubleTapDelegate
+- (double);
 - (UIScrollView *)3©;
 - (UIView *)D¹;
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalSQLQueryTable, HMBModel, NSData;
+@class HMBModel;
 
 @interface HMBMirrorOutputTuple
 {
     HMBModel *_model;
-    NSData *_externalID;
-    NSData *_externalData;
-    HMBLocalSQLQueryTable *_queryTable;
-    unsigned long long _recordRow;
-    unsigned long long _outputBlockRow;
 }
 
 - (id);
@@ -21,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -29,11 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *externalData; // @synthesize externalData=_externalData;
-@property(copy, nonatomic) NSData *externalID; // @synthesize externalID=_externalID;
-@property(readonly, nonatomic) HMBModel *model; // @synthesize model=_model;
-@property(readonly) unsigned long long outputBlockRow; // @synthesize outputBlockRow=_outputBlockRow;
-@property(readonly, nonatomic) HMBLocalSQLQueryTable *queryTable; // @synthesize queryTable=_queryTable;
 @property(readonly) unsigned long long recordRow; // @synthesize recordRow=_recordRow;
 
 @end

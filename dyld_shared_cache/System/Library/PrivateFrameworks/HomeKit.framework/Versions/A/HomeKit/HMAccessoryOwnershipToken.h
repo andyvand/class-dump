@@ -14,9 +14,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)emanationism;
 - (void);
-- (id);
+- (id)NextVersion;
 - (id);
 - (void)ublic}@Failed to validate asset with error:%@ /* Error: Ran out of types for this method. */;
 

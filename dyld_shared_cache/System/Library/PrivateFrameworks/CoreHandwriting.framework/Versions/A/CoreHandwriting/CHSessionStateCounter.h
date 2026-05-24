@@ -13,7 +13,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int counter; // @synthesize counter=_counter;

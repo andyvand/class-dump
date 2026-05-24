@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioHeadlineConverter
 {
     id feedConfigManager;
-    id paidAccessChecker;
-    id paidBundleConfigManager;
-    id avAssetFactory;
 }
 
 @end

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDMediaProfile, HMMediaSystemRole, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDMediaProfile;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaSystemComponent
 {
     struct os_unfair_lock_s _lock;
-    HMMediaSystemRole *_role;
-    NSUUID *_uuid;
-    HMDAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
 }
 
 + (id);
-+ (id);
++ (id)maximumNumberOfItemsToElectWithTotalNumberOfItems:(id)arg1 spanningNumberOfDays:(id)arg2 options: /* Error: Ran out of types for this method. */;
 + (_Bool)\g;
 + (id)ÒB;
+- (id)as recorded blocked, record expired, but handle still blocked, will update record;
 - (id);
-- (id);
-- (id);
+- (id)notPrivate;
 - (id);
 - (id);
 - (id);
@@ -34,22 +29,11 @@ __attribute__((visibility("hidden")))
 - (id)ror %@;
 - (id)n %@:%tu (%d,%d) /* Error: Ran out of types for this method. */;
 - (id)ArrivalPredictionExcessiveDurationLogEvent %@ -- no excessive duration;
-- (void)OM_MOPPED;
+- (void)RVC_ROOM_MOPPED;
 - (void)Éã~&Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMDMediaProfile *mediaProfile;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *propertyQueue; // @synthesize propertyQueue=_propertyQueue;
-@property(readonly, nonatomic) HMMediaSystemRole *role; // @synthesize role=_role;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

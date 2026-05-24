@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSPointerArray, NURenderNode;
-@protocol OS_dispatch_queue;
+@class NSArray, NSPointerArray;
 
 @interface NURenderContext
 {
     NSPointerArray *_jobs;
-    NSMutableArray *_rateLimitedJobs;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _shouldCoalesceUpdates;
-    double _minimumRenderInterval;
-    long long _purpose;
-    NURenderNode *_lastPrepareNode;
-    NURenderNode *_lastRenderNode;
-    unsigned long long _nextRenderTime;
 }
 
 - (void);
@@ -39,27 +30,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)score delay - %ldms;
 - (id);
 - (void);
+- (void);
+- (void)h;
+- (id);
+- (id);
+- (void);
 - (long long);
 - (void)âð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) long long jobCount;
 @property(readonly) NSArray *jobs;
-@property(retain) NURenderNode *lastPrepareNode; // @synthesize lastPrepareNode=_lastPrepareNode;
-@property(retain) NURenderNode *lastRenderNode; // @synthesize lastRenderNode=_lastRenderNode;
-@property double minimumRenderInterval; // @synthesize minimumRenderInterval=_minimumRenderInterval;
-@property unsigned long long nextRenderTime; // @synthesize nextRenderTime=_nextRenderTime;
-@property(readonly, nonatomic) long long purpose; // @synthesize purpose=_purpose;
-@property _Bool shouldCoalesceUpdates; // @synthesize shouldCoalesceUpdates=_shouldCoalesceUpdates;
 
 @end
 

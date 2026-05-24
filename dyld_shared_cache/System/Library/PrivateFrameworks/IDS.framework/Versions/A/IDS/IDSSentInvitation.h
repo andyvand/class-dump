@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)%@ isLightweight:(id)arg1 %@>;
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

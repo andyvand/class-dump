@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol CRTextRegion
+- (unsigned long long)_userContentController;
 
 // Remaining properties
 @property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
 @end
 

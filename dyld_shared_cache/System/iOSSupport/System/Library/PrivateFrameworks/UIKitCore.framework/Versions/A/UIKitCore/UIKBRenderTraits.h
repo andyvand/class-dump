@@ -4,48 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIKBGradient, UIKBRenderGeometry, UIKBTextStyle;
+@class NSMutableArray, UIKBRenderGeometry;
 
 @interface UIKBRenderTraits
 {
     NSMutableArray *_renderEffects;
-    NSMutableArray *_foregroundRenderEffects;
-    _Bool _honorControlOpacity;
-    _Bool _controlOpacities;
-    _Bool _blurBlending;
-    _Bool _renderSecondarySymbolsSeparately;
-    _Bool _usesDarkAppearance;
-    UIKBRenderGeometry *_geometry;
-    UIKBGradient *_backgroundGradient;
-    UIKBGradient *_layeredBackgroundGradient;
-    UIKBGradient *_layeredForegroundGradient;
-    UIKBTextStyle *_symbolStyle;
-    UIKBTextStyle *_fallbackSymbolStyle;
-    NSArray *_secondarySymbolStyles;
-    NSArray *_variantGeometries;
-    UIKBRenderTraits *_variantTraits;
-    UIKBRenderTraits *_highlightedVariantTraits;
-    long long _blendForm;
-    NSArray *_renderFlags;
-    long long _renderFlagsForAboveEffects;
-    NSString *_hashString;
-    double _floatingContentViewCornerRadius;
-    double _floatingContentViewControlFocusedIncreaseSize;
-    double _floatingContentViewShadowVerticalOffset;
-    double _floatingContentViewShadowRadius;
-    double _floatingContentViewShadowOpacity;
-    struct CGSize _floatingContentViewFocusedIncreaseSize;
-    struct CGSize _floatingContentViewControlFocusedBaseSize;
 }
 
 + (id)FùqbÐ1Â0@ù
 × ;
-+ (id)eBreakMode;
-+ (id)nModifierGroupCIegg_;
-- (void);
-- (void);
++ (id)UILineBreakMode;
++ (id)So27CAPresentationModifierGroupCIegg_;
+- (void)H;
+- (void);
 - (double);
-- (void);
+- (void)ecrypt error;
 - (long long);
 - (id);
 - (double);
@@ -53,9 +26,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@24;
 - (id);
-- (void);
+- (void)bscription:(_Bool)arg1 %{bool}d => %{bool}d;
 - (id);
 - (void);
 - (id);
@@ -79,27 +52,27 @@
 - (void)0:(_Bool)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16^{CGContext=}48d56;
 - (id)ingSwipeActions"b1"trailingSwipeActions"b1"contextMenuConfiguration"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"itemsForBeginningSession"b1"itemsForAddingToSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1};
 - (id)CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48 /* Error: Ran out of types for this method. */;
-- (void)utSubviews;
-- (_Bool)edSuggestion:(id)arg1;
-- (id)ectorsWithWebLock;
-- (void);
-- (id)lSetupNewDelegate;
-- (void)imateTransitions;
-- (id)icationToken;
+- (void)someViewDidLayoutSubviews;
+- (_Bool)initWithLocalizedAttributedSuggestion:(id)arg1;
+- (id)cancelDataDetectorsWithWebLock;
+- (void)addSelectedFocusRingForItem:(double)arg1 forClient: /* Error: Ran out of types for this method. */;
+- (id)_willSetupNewDelegate;
+- (void)_shouldAnimateTransitions;
+- (id)_scrollViewDidEndDeceleratingNotificationToken;
 - (void)_bundleID;
-- (double)tionBarTraits;
+- (double)_augmentedTitleNavigationBarTraits;
 - (double)itTestResponder>",W,N,V_hitTestResponder;
-- (void)f:(id)arg1;
+- (void)platterPanControllerDidTearOff:(id)arg1;
 - (void)setCellHandler:(id)arg1;
 - (void)ndexPath;
-- (id)orView;
+- (id)_UIBarCustomizationChicletAnchorView;
 - (id)?;
 - (_Bool);
 - (_Bool)	;
 - (void)nvoke;
 - (void)tantBarButtonItemStyleDictationMicOn is not supported on this platform.;
-- (double)onSemanticContext;
-- (void)entHighlight;
+- (double)_UITraitNamePresentationSemanticContext;
+- (void)UIKBColorCandidateTransparentHighlight;
 - (void)iew than %@;
 - (_Bool)®þÿ;
 - (id)Ñÿ·ÿÜ@^;
@@ -110,33 +83,7 @@
 - (void)@^k;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBGradient *backgroundGradient; // @synthesize backgroundGradient=_backgroundGradient;
-@property(nonatomic) long long blendForm; // @synthesize blendForm=_blendForm;
-@property(nonatomic) _Bool blurBlending; // @synthesize blurBlending=_blurBlending;
-@property(nonatomic) _Bool controlOpacities; // @synthesize controlOpacities=_controlOpacities;
-@property(retain, nonatomic) UIKBTextStyle *fallbackSymbolStyle; // @synthesize fallbackSymbolStyle=_fallbackSymbolStyle;
-@property(nonatomic) struct CGSize floatingContentViewControlFocusedBaseSize; // @synthesize floatingContentViewControlFocusedBaseSize=_floatingContentViewControlFocusedBaseSize;
-@property(nonatomic) double floatingContentViewControlFocusedIncreaseSize; // @synthesize floatingContentViewControlFocusedIncreaseSize=_floatingContentViewControlFocusedIncreaseSize;
-@property(nonatomic) double floatingContentViewCornerRadius; // @synthesize floatingContentViewCornerRadius=_floatingContentViewCornerRadius;
-@property(nonatomic) struct CGSize floatingContentViewFocusedIncreaseSize; // @synthesize floatingContentViewFocusedIncreaseSize=_floatingContentViewFocusedIncreaseSize;
-@property(nonatomic) double floatingContentViewShadowOpacity; // @synthesize floatingContentViewShadowOpacity=_floatingContentViewShadowOpacity;
-@property(nonatomic) double floatingContentViewShadowRadius; // @synthesize floatingContentViewShadowRadius=_floatingContentViewShadowRadius;
-@property(nonatomic) double floatingContentViewShadowVerticalOffset; // @synthesize floatingContentViewShadowVerticalOffset=_floatingContentViewShadowVerticalOffset;
-@property(readonly, nonatomic) NSArray *foregroundRenderEffects; // @synthesize foregroundRenderEffects=_foregroundRenderEffects;
 @property(retain, nonatomic) UIKBRenderGeometry *geometry; // @synthesize geometry=_geometry;
-@property(retain, nonatomic) NSString *hashString; // @synthesize hashString=_hashString;
-@property(retain, nonatomic) UIKBRenderTraits *highlightedVariantTraits; // @synthesize highlightedVariantTraits=_highlightedVariantTraits;
-@property(retain, nonatomic) UIKBGradient *layeredBackgroundGradient; // @synthesize layeredBackgroundGradient=_layeredBackgroundGradient;
-@property(retain, nonatomic) UIKBGradient *layeredForegroundGradient; // @synthesize layeredForegroundGradient=_layeredForegroundGradient;
-@property(readonly, nonatomic) NSArray *renderEffects; // @synthesize renderEffects=_renderEffects;
-@property(retain, nonatomic) NSArray *renderFlags; // @synthesize renderFlags=_renderFlags;
-@property(nonatomic) long long renderFlagsForAboveEffects; // @synthesize renderFlagsForAboveEffects=_renderFlagsForAboveEffects;
-@property(nonatomic) _Bool renderSecondarySymbolsSeparately; // @synthesize renderSecondarySymbolsSeparately=_renderSecondarySymbolsSeparately;
-@property(retain, nonatomic) NSArray *secondarySymbolStyles; // @synthesize secondarySymbolStyles=_secondarySymbolStyles;
-@property(retain, nonatomic) UIKBTextStyle *symbolStyle; // @synthesize symbolStyle=_symbolStyle;
-@property(nonatomic) _Bool usesDarkAppearance; // @synthesize usesDarkAppearance=_usesDarkAppearance;
-@property(retain, nonatomic) NSArray *variantGeometries; // @synthesize variantGeometries=_variantGeometries;
-@property(retain, nonatomic) UIKBRenderTraits *variantTraits; // @synthesize variantTraits=_variantTraits;
 
 @end
 

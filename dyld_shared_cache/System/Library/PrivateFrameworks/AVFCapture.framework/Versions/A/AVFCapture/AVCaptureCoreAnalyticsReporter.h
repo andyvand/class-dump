@@ -8,7 +8,7 @@
 {
 }
 
-+ (int);
++ (int)orDetail;
 + (void)Matrix;
 
 @end

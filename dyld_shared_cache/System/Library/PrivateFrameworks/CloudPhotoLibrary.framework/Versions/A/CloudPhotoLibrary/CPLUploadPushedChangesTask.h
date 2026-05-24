@@ -6,91 +6,35 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLBatchExtractionStrategy, CPLBeforeUploadCheckItems, CPLChangeBatch, CPLDerivativesFilter, CPLEnginePushRepository, CPLEngineScheduler, CPLEngineScope, CPLEngineScopeStorage, CPLEngineStoreTransaction, CPLEngineTransport, CPLRecordChange, CPLRecordTargetMapping, CPLTransportScopeMapping, NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSProgress, NSString;
-@protocol CPLBatchExtractionStrategyStorage, CPLEngineAcquireReschedulerTask, CPLEngineTransportFetchRecordsTask, CPLEngineTransportGroup, CPLEngineTransportUploadBatchTask, CPLUploadPushedChangesTaskDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol CPLUploadPushedChangesTaskDelegate, OS_dispatch_queue;
 
 @interface CPLUploadPushedChangesTask : CPLEngineScopedTask
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSString *_scopeIdentifier;
-    CPLEngineScopeStorage *_scopes;
-    CPLEngineTransport *_transport;
-    CPLEngineScheduler *_scheduler;
-    id <CPLBatchExtractionStrategyStorage> _batchStorage;
-    CPLBatchExtractionStrategy *_currentStrategy;
-    CPLChangeBatch *_diffedBatch;
-    CPLChangeBatch *_batchToCommit;
-    _Bool _mustConsiderOtherPriorities;
-    CPLDerivativesFilter *_derivativesFilter;
-    NSArray *_uploadResourceTasks;
-    NSMutableDictionary *_cloudScopedIdentifiersToUploadResourceTaskErrors;
-    CPLEngineScope *_sharedScope;
-    long long _ruleGroup;
-    CPLBeforeUploadCheckItems *_checkItems;
-    CPLEngineStoreTransaction *_transactionDuringItemsPreparation;
-    NSMutableArray *_preparedUploadResourceTasks;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    CPLRecordTargetMapping *_targetMapping;
-    NSMutableDictionary *_invalidTransportScopes;
-    id <CPLEngineTransportFetchRecordsTask> _fetchRecordsTask;
-    id <CPLEngineAcquireReschedulerTask> _acquireReschedulerTask;
-    id <CPLEngineTransportUploadBatchTask> _uploadTask;
-    id _generateDerivativesDeferredHandler;
-    CDUnknownBlockType _generateDerivativesCancellationHandler;
-    NSProgress *_generateDerivativesProgress;
-    CPLRecordChange *_generateDerivativesChange;
-    unsigned long long _generateDerivativesTotalSize;
-    double _generateDerivativesLastFractionCompleted;
-    unsigned long long _derivativesSizeToReport;
-    NSObject<OS_dispatch_source> *_derivativesSizeReportTimer;
-    unsigned long long _lastReportedProgress;
-    unsigned long long _countOfPushedChanges;
-    double _startOfIteration;
-    double _startOfDerivativesGeneration;
-    _Bool _deferredCancel;
-    _Bool _hasCachedShouldCheckResourcesAhead;
-    _Bool _shouldCheckResourcesAhead;
-    _Bool _shouldSetupEstimatedSize;
-    id <CPLEngineTransportGroup> _transportGroup;
-    long long _taskItem;
-    _Bool _hasPushedSomeChanges;
-    _Bool _isUsingOverQuotaStrategy;
-    _Bool _resetStrategy;
-    NSString *_currentTaskKey;
-    NSDate *_taskStartDate;
-    unsigned long long _recordCount;
-    _Bool _didExtractOneBatch;
-    _Bool _wasBusy;
-    _Bool _hasUploadedOneBatch;
-    _Bool _shouldCheckAssetsWithServerWhenOverQuota;
-    _Bool _highPriority;
-    id <CPLEngineTransportGroup> _storedTransportGroup;
-    unsigned long long _maxBatchSize;
-    unsigned long long _pushRepositoryPriority;
-    CPLEnginePushRepository *_pushRepository;
 }
 
 + (void);
 + (void);
 + (_Bool);
+- (id)commute25MinWarningEntityRelevanceTimeOfDayFeatures;
+- (_Bool)commute25MinWarningEntityRelevanceSpecificGeoHashFeatures;
+- (id)commute20MinWarningEntityRelevanceWiFiAndCoarseTimeOfDayFeatures;
+- (id)commute20MinWarningEntityRelevanceCoarseGeoHashFeatures;
+- (id)commute1Hr15MinWarningEntityRelevanceCoarseGeoHashAndDayOfWeekFeatures;
+- (long long)bluetoothDeviceEntityRelevanceCoarseGeoHashAndTimeOfDayFeatures;
+- (unsigned long long)ion;
+- (id);
+- (_Bool)�;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (void);
 - (void);
 - (void);
@@ -117,7 +61,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void)!ðCù±Ð1Â0@ù
@@ -127,23 +71,7 @@
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) id <CPLUploadPushedChangesTaskDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didUseOverQuotaStrategy;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly, nonatomic) unsigned long long maxBatchSize; // @synthesize maxBatchSize=_maxBatchSize;
-@property(readonly, nonatomic) CPLEnginePushRepository *pushRepository; // @synthesize pushRepository=_pushRepository;
-@property(readonly, nonatomic) unsigned long long pushRepositoryPriority; // @synthesize pushRepositoryPriority=_pushRepositoryPriority;
-@property(readonly, nonatomic) long long ruleGroup; // @synthesize ruleGroup=_ruleGroup;
-@property(readonly, nonatomic) CPLEngineScope *sharedScope; // @synthesize sharedScope=_sharedScope;
-@property(readonly, nonatomic) id <CPLEngineTransportGroup> storedTransportGroup; // @synthesize storedTransportGroup=_storedTransportGroup;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CPLTransportScopeMapping *transportScopeMapping; // @synthesize transportScopeMapping=_transportScopeMapping;
 
 @end
 

@@ -12,14 +12,13 @@
 @interface CKTranscriptPhotoStackCell : CKTranscriptBalloonCell
 {
     id <CKTranscriptPhotoStackCellDelegate> _delegate;
-    UIPinchGestureRecognizer *_pinchGestureRecognizer;
 }
 
+- (void)readIntoBuffer:(_Bool)arg1 frameCount:error: /* Error: Ran out of types for this method. */;
+- (id)_currentRecordingManager;
+- (void)_appearanceInfo;
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 - (void)@"NSTextRange"24^B32;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKTranscriptPhotoStackCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UIPinchGestureRecognizer *pinchGestureRecognizer; // @synthesize pinchGestureRecognizer=_pinchGestureRecognizer;
 
 @end

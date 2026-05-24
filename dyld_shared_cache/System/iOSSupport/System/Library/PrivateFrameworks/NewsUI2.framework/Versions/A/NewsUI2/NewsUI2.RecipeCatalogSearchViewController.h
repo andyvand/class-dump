@@ -7,10 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchViewController
 {
     id delegate;
-    id styler;
-    id eventHandler;
-    id searchHomeContainerController;
-    id recipeFilterSelectionManager;
 }
 
 - (void);
@@ -18,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)fetchWindow;
 - (void);
 - (void)k;
 

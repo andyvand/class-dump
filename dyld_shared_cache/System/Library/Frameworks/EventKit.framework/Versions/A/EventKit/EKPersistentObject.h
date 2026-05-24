@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADGenerationStampedObjectID, EKEventStore, EKObjectID, NSHashTable, NSMutableDictionary, NSString;
-
 @interface EKPersistentObject
 {
     struct _opaque_pthread_mutex_t {
         long long __sig;
         char __opaque[56];
     } _lock;
-    EKEventStore *_eventStore;
-    EKObjectID *_objectID;
-    int _databaseRestoreGeneration;
-    unsigned int _flags;
-    NSHashTable *_coCommitObjects;
-    NSMutableDictionary *_loadedProperties;
-    NSMutableDictionary *_updatedProperties;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)yptoPairingSession(CoreUtils)] Enabling ACL for device:%{public}@ /* Error: Ran out of types for this method. */;
++ (id)n(CoreUtils)] Pairing flags are:%u /* Error: Ran out of types for this method. */;
++ (id)ueServiceClient.m;
++ (void)MRGroupSessionEventOptionEventType;
++ (_Bool)wPlayingInfoRequest(MRPlaybackQueueRequestRef);
++ (id)MRActiveRoutesObserver.fetchActiveRouteIDsWithCompletion;
++ (id)MRActivityAttributesKeyUIContext;
 + (Class);
 + (Class);
 + (Class);
@@ -40,14 +31,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id):H; /* Error: Ran out of types for this method. */;
+- (id)Le;
 - (void);
+- (void)U;
 - (void);
+- (void)L0;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -57,68 +48,68 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)tX;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)ls.framework/CoreUtils;
+- (id)ftlink:(id)arg1 r:(_Bool *)arg2 path:/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (id);
+- (id)DT;
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (id);
+- (_Bool)availableOutputDevices took %lf seconds;
+- (_Bool)ChangeNotification.;
+- (void)Session] [tokenForJoinURLString] No payload encoded in URL:(id)arg1 %{public}@;
+- (void)@> %@;
+- (void)%@ at %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)oller][C] <%p> XPC invalidated.;
+- (void)ssertion.;
+- (void)[C] <%p> Deallocated while still holding route recommendation assertion.;
+- (void)ing assertion.;
+- (void)ile still holding screen mirroring assertion.;
+- (void)troller][C] <%p> Deallocated while still holding screen mirroring assertion.;
+- (void)while still holding quick controls assertion.;
+- (void)oller] %@ NotifyInvalidated %@;
+- (void)<%@> Error loading data %@.;
+- (void)1NowPlayingController] <%@> Error creating player path %@. %@;
+- (id)alling back to %{public}@ for system app since none specified in deviceInfo;
+- (void)ion] %@ received %@ for playerPath %@;
+- (id)ed;
+- (id)edConfigDeviceID, %{public}@, allowed;
+- (id)blic}@;
+- (_Bool)ervice %{public}@;
+- (void)emoving service %{public}@;
+- (void)with includesPeerToPeer = %@;
+- (_Bool)Configuring external device net service browser with includesPeerToPeer = %@;
+- (_Bool)or completion;
+- (_Bool)as called and still waiting for completion;
+- (_Bool)since commandHandler=%@<%@> was called and still waiting for completion;
+- (_Bool)format application:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)on(CoreUtils)] Enabling ACL for device:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)changed since we requested to resolve it. Ignoring incoming playerPath:%@ /* Error: Ran out of types for this method. */;
+- (void)nded [not found];
+- (id)because configuration needs other data;
+- (id)nection error %@ sending data to %{public}@;
+- (void){public}@;
+- (_Bool)lic}@;
+- (id)ontrolAvailable to %{BOOL}u for context:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)work] Failed to determine dimensions for provided image data.;
+- (void)ayingPlayer %{public}@ ;
+- (void)ndpoint registered to receive message:(id)arg1 %@;
+- (void)nt client message %lu not handled;
+- (_Bool)%{public}@> reloading due to player path invalidation.;
+- (void)he with %{public}@.;
 - (void);
 - (_Bool);
 - (id);
@@ -137,8 +128,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)o;
+- (id)setCharge_duration_mean_at_charge_start_soc_curr_dynamic_bin_1: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -147,22 +138,7 @@
 - (id)oreSuggestionsLibrary(void);
 
 // Remaining properties
-@property(readonly, nonatomic) CADGenerationStampedObjectID *CADObjectID;
 @property(readonly, nonatomic) int databaseRestoreGeneration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int entityType;
-@property(readonly, nonatomic) EKEventStore *eventStore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFrozen;
-@property(readonly, nonatomic) _Bool isPartialObject;
-@property(readonly, nonatomic) EKObjectID *objectID;
-@property(readonly, nonatomic) NSString *semanticIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
 
 @end
 

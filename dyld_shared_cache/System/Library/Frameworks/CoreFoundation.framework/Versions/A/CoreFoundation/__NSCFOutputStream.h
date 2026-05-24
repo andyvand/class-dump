@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h_node<std:(id)arg1:(id)arg2 __hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_device"@"MTLLegacySVDevice"} /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id)"NSString"16@?<v@?@"DCCredentialCryptoKey"@"NSError">24;
-- (void)erializer;
+- (void)ABVCardFileSerializer;
 - (_Bool)FILENAME_MULTIPLE_CARDS_WITH_CONFLICT;
-- (id)CRuntimeAPI;
+- (id)CNObjCRuntimeAPI;
 - (void)TW^°;
 - (id);
 - (long long)FQHQhQ;

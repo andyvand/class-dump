@@ -6,13 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSString;
 @protocol NSLocking;
 
 @interface HAP2Lock : HAP2LoggingObject
 {
     _Atomic unsigned long long _lockCount;
-    id <NSLocking> _internalLock;
 }
 
 + (id);
@@ -20,15 +18,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_trailingAccessoryType;
 - (id);
 - (id);
-- (void)ice: /* Error: Ran out of types for this method. */;
+- (void)setCBService: /* Error: Ran out of types for this method. */;
 - (void)\;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSLocking> internalLock; // @synthesize internalLock=_internalLock;
-@property(readonly, nonatomic) NSString *name;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface _PhotosUI_SwiftUI._PresentationViewController__priv_3BA943E6D7A29AC315168BE52F028B99
 {
     id _presentationViewController;
+    id ons:replyBlock:;
 }
 
 - (id);
@@ -14,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ide;
+- (void)__sheetSizeOverride;
 
 @end
 

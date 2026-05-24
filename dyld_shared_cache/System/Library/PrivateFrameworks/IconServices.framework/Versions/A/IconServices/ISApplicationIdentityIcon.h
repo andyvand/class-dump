@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)getDomesticIdentifier:(unsigned long long)arg1 type:countryCode: /* Error: Ran out of types for this method. */;
+- (unsigned long long)extractStartDate:startTimezone:endDate:endTimezone:allDayRef:referenceDate:referenceTimezone: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);

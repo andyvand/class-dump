@@ -7,16 +7,12 @@
 @class NSString;
 
 @protocol MKAnnotation
+- (struct CLLocationCoordinate2D)prepareSoundLevelBufferFromSamples:soundType:firedVoiceTriggerEvent:triggerStartTimeSampleOffset:triggerEndTimeSampleOffset: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)textureTarget;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @end
 

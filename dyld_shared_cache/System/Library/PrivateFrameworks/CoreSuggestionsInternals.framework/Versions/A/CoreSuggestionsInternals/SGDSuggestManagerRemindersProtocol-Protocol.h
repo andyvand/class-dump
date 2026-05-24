@@ -7,8 +7,10 @@
 @class SGReminder;
 
 @protocol SGDSuggestManagerRemindersProtocol
+- (void){_xmlDoc}^{_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS}16B24@28;
+- (void)#;
 - (void)40@0:(SGReminder *)arg1 8@16@?24@?32;
-- (void)a;
+- (void)Oriya;
 - (void)Ñ;
 @end
 

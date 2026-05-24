@@ -7,17 +7,11 @@
 @interface AccessibilitySharedSupport._VoiceOverManager__priv_272DEF11F95BBBDF88AA9BD21F2C7DEB
 {
     id _delegate;
-    id _remoteId;
-    id _coder;
-    id _visualsManager;
-    id _state;
-    id _pollScheduled;
-    id _connectionTime;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 @end

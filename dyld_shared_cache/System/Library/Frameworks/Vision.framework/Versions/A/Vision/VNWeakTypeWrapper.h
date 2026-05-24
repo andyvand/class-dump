@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id _weakObject;
 }
 
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id)recognizeText;

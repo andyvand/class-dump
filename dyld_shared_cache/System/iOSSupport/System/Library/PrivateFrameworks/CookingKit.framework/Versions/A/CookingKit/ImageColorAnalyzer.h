@@ -9,6 +9,7 @@
 @interface ImageColorAnalyzer
 {
     struct AnalyzedImageColors _analyzedColors;
+    id backgroundColor;
 }
 
 + (id);

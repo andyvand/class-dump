@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, HMFVersion, NSManagedObject, NSMutableDictionary, NSSet, NSString, NSUUID;
-@protocol HMDBackingStoreObjectProtocol, HMDNSManagedObjectBackingStoreModelObjectRepresentable;
+@class NSManagedObject, NSMutableDictionary;
+@protocol HMDNSManagedObjectBackingStoreModelObjectRepresentable;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreModelObject
 {
     NSMutableDictionary *_reserved;
-    _Bool _bsoDataVersionOverride;
-    NSUUID *_uuid;
-    NSUUID *_parentUUID;
-    id <HMDBackingStoreObjectProtocol> _bsoDelegate;
-    NSString *_bsoType;
-    unsigned long long _bsoLogRowID;
-    HMFVersion *_bsoDataVersion;
-    unsigned long long _objectChangeType;
-    CKRecord *_bsoRecord;
-    NSManagedObject<HMDNSManagedObjectBackingStoreModelObjectRepresentable> *_managedObject;
 }
 
 + (id);
@@ -31,28 +21,28 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (Class);
++ (Class);
 + (id);
 + (id);
-+ (id);
++ (id)iInference20RestartableOperationP;
 + (_Bool);
-+ (id)etweenStartingComingHomeAndActualArrivalTime;
++ (id)durationsBetweenStartingComingHomeAndActualArrivalTime;
 + (id)yC;
 - (id);
+- (void)Snapshot>"8@"NSSet"16@"NSError"24;
+- (void)MSPSenderMinimalStrategyETAUpdateNearArrivalIntervalThrottleKey;
+- (void)GEOTransitArtworkUseTypeBrand;
+- (void)VNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)Uz;
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -79,41 +69,41 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)n);
+- (unsigned long long);
+- (id)a!@e;
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id)T;
+- (_Bool);
+- (void)7;
+- (_Bool);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool)L;
+- (void);
+- (id);
+- (id);
+- (void)OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIFalseColorHDRDebug.m;
+- (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id)Q°1Â0@ù
 × ;
-- (id)rFromHMDCKAccountStatus:(struct _NSZone *)arg1;
-- (_Bool)shouldEncodeNFCReaderKey;
+- (id)errorFromHMDCKAccountStatus:(struct _NSZone *)arg1;
+- (_Bool)_shouldEncodeNFCReaderKey;
 - (id)est:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)	ð	D
 Ü;
@@ -125,29 +115,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMFVersion *bsoDataVersion; // @synthesize bsoDataVersion=_bsoDataVersion;
-@property _Bool bsoDataVersionOverride; // @synthesize bsoDataVersionOverride=_bsoDataVersionOverride;
-@property(nonatomic) __weak id <HMDBackingStoreObjectProtocol> bsoDelegate; // @synthesize bsoDelegate=_bsoDelegate;
-@property(readonly, nonatomic) _Bool bsoIgnoreModel;
-@property(copy, nonatomic) HMFVersion *bsoIgnoredBefore;
-@property(readonly) unsigned long long bsoLogRowID; // @synthesize bsoLogRowID=_bsoLogRowID;
-@property(retain, nonatomic) CKRecord *bsoRecord; // @synthesize bsoRecord=_bsoRecord;
-@property(retain, nonatomic) NSString *bsoType; // @synthesize bsoType=_bsoType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSSet *dependentUUIDs; // @dynamic dependentUUIDs;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isGenericRepresentation) _Bool isGenericRepresentation; // @dynamic isGenericRepresentation;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool isReadOnly; // @dynamic isReadOnly;
-@property(retain, nonatomic) NSManagedObject<HMDNSManagedObjectBackingStoreModelObjectRepresentable> *managedObject; // @synthesize managedObject=_managedObject;
-@property(nonatomic) unsigned long long objectChangeType; // @synthesize objectChangeType=_objectChangeType;
-@property(retain, nonatomic) NSUUID *parentUUID; // @synthesize parentUUID=_parentUUID;
-@property(readonly, nonatomic, getter=isReplayable) _Bool replayable;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
+@property(readonly, nonatomic) NSManagedObject<HMDNSManagedObjectBackingStoreModelObjectRepresentable> *managedObject;
 
 @end
 

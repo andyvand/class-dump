@@ -6,19 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString;
+@class IMHandle;
 
 @interface IMSMSFallbackStatusChatItem : IMTranscriptChatItem
 {
     _Bool _canSMSReply;
-    IMHandle *_handle;
-    NSString *_previousServiceName;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canSMSReply; // @synthesize canSMSReply=_canSMSReply;
 @property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) NSString *previousServiceName; // @synthesize previousServiceName=_previousServiceName;
 @end
 

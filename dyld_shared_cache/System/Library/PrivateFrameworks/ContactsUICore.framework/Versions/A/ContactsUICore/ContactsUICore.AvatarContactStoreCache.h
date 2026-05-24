@@ -7,11 +7,6 @@
 @interface ContactsUICore.AvatarContactStoreCache
 {
     id store;
-    id requiredKeys;
-    id persistedCacheLock;
-    id nonPersistedCacheLock;
-    id stateHandle;
-    id historyObserver;
 }
 
 @end

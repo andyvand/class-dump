@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _MRUpdateOutputDevicesMessageProtobuf
 {
     NSMutableArray *_clusterAwareOutputDevices;
-    NSString *_endpointUID;
-    NSMutableArray *_outputDevices;
 }
 
 + (Class);
@@ -20,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -36,15 +34,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void)ge;
+- (id)ction;
+- (id)nnection.opened;
+- (void)clientPropertiesDidChange;
 - (void)amework/Contents/MacOS/AirPlaySupport;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clusterAwareOutputDevices; // @synthesize clusterAwareOutputDevices=_clusterAwareOutputDevices;
-@property(retain, nonatomic) NSString *endpointUID; // @synthesize endpointUID=_endpointUID;
-@property(readonly, nonatomic) _Bool hasEndpointUID;
 @property(retain, nonatomic) NSMutableArray *outputDevices; // @synthesize outputDevices=_outputDevices;
 
 @end

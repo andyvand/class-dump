@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSWeakObjectValue : NSValue
 {
     void *_value;
-    id _object;
-    _Bool _useFallback;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)b;
 - (id)}1°!èEùQz51Â0@ù
 × ;
 - (void)LÐ;

@@ -11,9 +11,9 @@
     CalendarUIKit.CUIKCreateFamilyCalendarFlowControllerManagerImpl *_impl;
 }
 
-- (id);
-- (id);
-- (void)odaysEventsInCalendars:filterOptions:sortMethod:eventStore: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (id)_unequalSpacingTmLutMode;
+- (void)todaysEventsInCalendars:filterOptions:sortMethod:eventStore: /* Error: Ran out of types for this method. */;
 
 @end
 

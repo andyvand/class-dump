@@ -6,25 +6,23 @@
 
 #import <UIKitCore/_UIFieldEditorHost.h>
 
-@class UISystemInputViewController, UIVisualEffectView, _UIFieldEditorSystemInputHostView;
+@class UISystemInputViewController, _UIFieldEditorSystemInputHostView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFieldEditorSystemInputHost : _UIFieldEditorHost
 {
     _UIFieldEditorSystemInputHostView *_containerView;
-    UIVisualEffectView *_backgroundEffectView;
-    UISystemInputViewController *_systemInputViewController;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)setRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (double);
 - (void);
+- (id);
+- (_Bool)g path as eligible for cachedelete, last path component matches group photo file name. path:%@ /* Error: Ran out of types for this method. */;
+- (double)8&;
 - (void);
+- (void)P;
 - (id);
 - (void)ÌØp\;
 - (void);

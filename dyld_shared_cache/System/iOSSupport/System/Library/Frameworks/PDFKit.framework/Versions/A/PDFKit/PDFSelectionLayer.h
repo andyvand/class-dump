@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFSelectionLayer
 {
     PDFSelection *selection;
-    long long styleMask;
 }
 
 - (void);

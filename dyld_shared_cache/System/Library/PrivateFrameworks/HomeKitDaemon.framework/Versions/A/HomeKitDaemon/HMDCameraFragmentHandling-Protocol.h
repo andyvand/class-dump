@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingSessionTimelineManager, NSDictionary, NSUUID;
+@class NSDictionary, NSError, NSUUID;
 @protocol HMDCameraFragmentHandlingDelegate;
 
 @protocol HMDCameraFragmentHandling
-- (NSUUID *)dling;
+- (void)initWithQueue:(NSError *)arg1 wantsRoutes: /* Error: Ran out of types for this method. */;
+- (void)initWithMerchantIndustryCode:(_Bool)arg1 mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
+- (double)blocked;
+- (NSUUID *)HMDCameraFragmentHandling;
 - (void)@will add %@ to %@;
 - (NSDictionary *)niqueIDForAccessories. Try again.;
 
 // Remaining properties
-@property(readonly) double configuredFragmentDuration;
 @property __weak id <HMDCameraFragmentHandlingDelegate> delegate;
-@property(readonly, copy) NSUUID *identifier;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMDCameraRecordingSessionTimelineManager *timelineManager;
 @end
 

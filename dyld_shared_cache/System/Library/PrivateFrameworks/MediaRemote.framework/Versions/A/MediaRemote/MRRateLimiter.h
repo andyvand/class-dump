@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface MRRateLimiter
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    NSDate *_lastNotificationDate;
-    _Bool _wasUpdatedDuringInterval;
-    double _interval;
-    NSString *_name;
 }
 
 - (id);
@@ -27,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

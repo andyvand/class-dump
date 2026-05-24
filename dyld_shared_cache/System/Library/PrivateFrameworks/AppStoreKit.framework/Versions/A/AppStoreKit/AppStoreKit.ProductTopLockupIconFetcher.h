@@ -7,13 +7,6 @@
 @interface AppStoreKit.ProductTopLockupIconFetcher
 {
     id iconRecipients;
-    id artworkLoader;
-    id hasFetchedArtwork;
-    id iconFetchHandlerKey;
-    id iconImage;
-    id iconImageSize;
-    id iconStyle;
-    id iconBackgroundColor;
 }
 
 @end

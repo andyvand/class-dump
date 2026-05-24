@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXFollowingCondition
 {
     _Bool _following;
-    NSString *_tagIdentifier;
 }
 
 - (id);
-- (id);
+- (id)C;
 - (void)"SXTangierTextRenderCollector";
-- (_Bool)ze:documentLayout:safeAreaInsets: /* Error: Ran out of types for this method. */;
+- (_Bool)columnLayoutWithConstrainedViewportSize:viewportSize:documentLayout:safeAreaInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool following; // @synthesize following=_following;
-@property(readonly, nonatomic) NSString *tagIdentifier; // @synthesize tagIdentifier=_tagIdentifier;
 
 @end
 

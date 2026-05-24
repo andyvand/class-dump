@@ -7,9 +7,6 @@
 @interface PhotosUICore.UserPromptCoordinator
 {
     id handledIdentifiers;
-    id scheduledPrompts;
-    id performedPrompt;
-    id isUpdateScheduled;
 }
 
 @end

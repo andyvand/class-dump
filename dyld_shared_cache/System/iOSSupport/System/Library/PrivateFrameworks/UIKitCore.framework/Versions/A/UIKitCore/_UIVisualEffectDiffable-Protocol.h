@@ -7,7 +7,7 @@
 @protocol _UIVisualEffectDiffable
 - (id)!ð!FùQaÐ1Â0@ù
 × ;
-- (_Bool)nerView;
+- (_Bool)_UIBannerContainerView;
 - (id)lledHideDelay;
 @end
 

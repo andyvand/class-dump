@@ -5,6 +5,7 @@
 //
 
 @protocol UIDragSession
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id localContext;

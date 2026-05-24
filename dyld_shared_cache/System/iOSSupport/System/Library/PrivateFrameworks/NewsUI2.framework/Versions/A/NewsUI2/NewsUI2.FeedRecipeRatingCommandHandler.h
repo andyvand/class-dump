@@ -7,11 +7,6 @@
 @interface NewsUI2.FeedRecipeRatingCommandHandler
 {
     id recipeUserFeedDataRepository;
-    id commandCenter;
-    id recipeAccessProvider;
-    id featureAvailability;
-    id ratingsSubmissionManager;
-    id recipeUserDataManager;
 }
 
 - (id);

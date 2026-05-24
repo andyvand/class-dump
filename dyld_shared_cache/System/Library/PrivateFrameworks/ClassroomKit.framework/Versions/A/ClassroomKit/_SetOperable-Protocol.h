@@ -7,9 +7,11 @@
 @class NSArray;
 
 @protocol _SetOperable
++ (id)I;
+- (NSArray *);
+- (long long)ecord>"12@"NSError"20;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allObjects;
 @property(readonly, nonatomic) long long count;
 @end
 

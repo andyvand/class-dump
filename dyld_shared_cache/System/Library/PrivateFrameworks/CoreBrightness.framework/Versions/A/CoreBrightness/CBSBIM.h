@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDisplayModuleiOS, CBEDR, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CBSBIM
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_os_log> *_log;
-    CBDisplayModuleiOS *_displayModule;
-    _Bool _sbimEnabled;
-    _Bool _isMonitoring;
-    CBEDR *_edr;
-    _Bool _edrOn;
-    struct __IOMobileFramebuffer *_iomfb;
-    unsigned int _iomfbService;
-    NSObject<OS_dispatch_source> *_dataTimer;
-    NSObject<OS_dispatch_source> *_mitigationTimer;
-    const float (*_limits)[3];
-    unsigned int _limitsSize;
-    struct MitigationState mitigation;
-    float _sdrBrightness;
-    float _currentHeadroom;
-    float _currentHeadroomRequest;
-    float _cap;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (void);
-- (const char *);
+- (const char *)9I;
 - (float);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -59,9 +41,6 @@ __attribute__((visibility("hidden")))
 - (void)rriden from capabilities:%f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float cap; // @synthesize cap=_cap;
-@property float currentHeadroom; // @synthesize currentHeadroom=_currentHeadroom;
-@property float currentHeadroomRequest; // @synthesize currentHeadroomRequest=_currentHeadroomRequest;
 @property float sdrBrightness; // @synthesize sdrBrightness=_sdrBrightness;
 
 @end

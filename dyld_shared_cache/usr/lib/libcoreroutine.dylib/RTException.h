@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)w;
++ (void)Data failed, NULL classicContent;
++ (void)non-primary persona;
 
 @end
 

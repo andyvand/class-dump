@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOUserPreferences
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_evChargingPreferences;
-    _Bool _avoidHighways;
-    _Bool _avoidTolls;
-    struct {
-        unsigned int has_avoidHighways:1;
-        unsigned int has_avoidTolls:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)hLatE7:(id)arg1;
++ (_Bool)setNorthLatE7:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -27,8 +20,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)removeLastObject;
+- (id)ion:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -40,12 +33,12 @@
 - (id)pokenLocale"b1"read_displayRegion"b1"read_evChargingPorts"b1"read_hardwareIdentifier"b1"read_historicalLocations"b1"read_mapRegion"b1"read_photoSizes"b1"read_previousSearchViewport"b1"read_privacyMetadata"b1"read_providerID"b1"read_recentAutocompleteSessionData"b1"read_resultRefinementQuery"b1"read_reviewUserPhotoSizes"b1"read_searchEnrichmentClientRequestId"b1"read_searchEnrichmentRoutingInfoData"b1"read_searchImplicitFilterInfo"b1"read_searchOriginationPreviousLatlng"b1"read_spotlightSearchPunchinEncodedString"b1"read_transitOptions"b1"read_transitScheduleFilter"b1"read_transitTripStopTimeFilter"b1"read_userActionMetadata"b1"read_venueIdentifier"b1"read_walkingOptions"b1"wrote_anyField"b1};
 - (_Bool)rote_anyField"b1};
 - (void)idesLookupParameters";
-- (id)ultIndex:targetID:transitCardCategory:transitSystem:transitDepartureSequence:transitIncident: /* Error: Ran out of types for this method. */;
+- (id)initWithMapItem:childPlace:relativeTimestamp:resultIndex:targetID:transitCardCategory:transitSystem:transitDepartureSequence:transitIncident: /* Error: Ran out of types for this method. */;
 - (void)EODirectionsError",&,N,V_directionsError;
-- (id)s;
-- (_Bool)ilEventEnd;
-- (id)licy;
-- (_Bool);
+- (id)clearTerritorys;
+- (_Bool)durationUntilEventEnd;
+- (id)cachePolicy;
+- (_Bool)modelId;
 - (_Bool);
 - (void)|Ì;
 - (void);
@@ -53,12 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool avoidHighways;
-@property(nonatomic) _Bool avoidTolls;
-@property(retain, nonatomic) NSMutableArray *evChargingPreferences;
-@property(nonatomic) _Bool hasAvoidHighways;
 @property(nonatomic) _Bool hasAvoidTolls;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

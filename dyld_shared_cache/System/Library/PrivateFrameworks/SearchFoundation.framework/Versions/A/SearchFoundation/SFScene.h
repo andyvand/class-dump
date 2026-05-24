@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFScene
 {
     struct {
         unsigned int sceneIdentifier:1;
         unsigned int sceneType:1;
     } _has;
-    int _sceneType;
-    unsigned long long _sceneIdentifier;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id)strongToStrongObjectsMapTable;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_ensureDirectoryExistsAtPath:(id)arg1;
 - (id);
-- (id);
+- (id)didSetAutomaticOrder;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(nonatomic) int sceneType; // @synthesize sceneType=_sceneType;
-@property(readonly) Class superclass;
 
 @end
 

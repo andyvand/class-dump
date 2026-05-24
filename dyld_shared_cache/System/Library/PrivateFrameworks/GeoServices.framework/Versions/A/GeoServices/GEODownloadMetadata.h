@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEODownloadMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_environment;
-    NSString *_etag;
-    double _timestamp;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_environment:1;
-        unsigned int read_etag:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setHasProblemType:(id)arg1;
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setVoiceTriggerEnabled:(id)arg1;
+- (id)espeech.rchandling.xpc.connection;
 - (void);
 - (id);
 - (unsigned long long);
@@ -47,25 +32,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)7;
 - (void)b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24^@32;
-- (id)ed:(struct _NSZone *)arg1;
-- (id)g: /* Error: Ran out of types for this method. */;
-- (id)nRecord;
-- (id)ENT_MARKERPOICAT_SEARCH_COUNT;
+- (id)setHasIsRerankerTriggered:(struct _NSZone *)arg1;
+- (id)failureReasonAsString: /* Error: Ran out of types for this method. */;
+- (id)_GEOResourceManifestUpdateAssertionRecord;
+- (id)MSL_MIXEDINTENT_MARKERPOICAT_SEARCH_COUNT;
 - (id);
 - (id)ôQQ@;
 - (void)ß6J7;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *environment;
-@property(retain, nonatomic) NSString *etag;
-@property(readonly, nonatomic) _Bool hasEnvironment;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasUrl;
 @property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

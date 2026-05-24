@@ -13,10 +13,10 @@
     NSSet *_validHolidaysNames;
 }
 
+- (id)ameworks/AccessibilityFoundation.framework/Versions/A/AccessibilityFoundation;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)_windowMiniaturizedNotification:(id)arg1;
+- (unsigned long long)m Found In (Reminders);
 - (void);
 
 @end

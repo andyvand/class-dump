@@ -7,14 +7,6 @@
 @interface UIKit.NavigationButtonBar.ItemLayout
 {
     id barButtonItem;
-    id metrics;
-    id itemViewGenerator;
-    id isDirty;
-    id itemView;
-    id itemViewWrapper;
-    id targetAction;
-    id isOnlyItemInSection;
-    id systemItemWhenLastUpdated;
 }
 
 @end

@@ -13,13 +13,13 @@
     NSDictionary *_adjustments;
 }
 
-+ (_Bool);
++ (_Bool)B;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_cumulatedTime;
 - (id);
 - (unsigned long long);
 - (_Bool);

@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, NSArray, NSObject, NSString, geo_isolater;
+@class GEOApplicationAuditToken, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface GEOPathMatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    GEOComposedRoute *_route;
-    GEOApplicationAuditToken *_auditToken;
-    double _preloadDistance;
-    _Bool _shouldDropDivergingSegments;
-    _Bool _forceSync;
-    NSArray *_matchedSegments;
-    geo_isolater *_matchedSegmentsIsolater;
-    struct vector<GEOPolylineCoordinateRange, std::allocator<GEOPolylineCoordinateRange>> _failedRanges;
-    NSString *_loggingIdentifier;
-    _Bool _shouldSaveInternalInfo;
-    NSArray *_internalInfos;
-    geo_isolater *_internalInfosIsolater;
 }
 
 - (_Bool);
 - (_Bool);
+- (void)phoneticLastName;
+- (void):(double)arg1 iOSLegacyIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_defaultNameOrder;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Ț	;
 - (id);
 - (id);
 - (id);
@@ -43,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -61,9 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(nonatomic) _Bool forceSync; // @synthesize forceSync=_forceSync;
-@property(nonatomic) double preloadDistance; // @synthesize preloadDistance=_preloadDistance;
-@property(nonatomic) _Bool shouldDropDivergingSegments; // @synthesize shouldDropDivergingSegments=_shouldDropDivergingSegments;
 
 @end
 

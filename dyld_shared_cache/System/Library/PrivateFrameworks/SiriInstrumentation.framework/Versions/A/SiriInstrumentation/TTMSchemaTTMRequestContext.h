@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, TTMSchemaTTMRequestEnded, TTMSchemaTTMRequestFailed, TTMSchemaTTMRequestStarted;
+@class TTMSchemaTTMRequestStarted;
 
 @interface TTMSchemaTTMRequestContext : SISchemaInstrumentationMessage
 {
     TTMSchemaTTMRequestStarted *_startedOrChanged;
-    TTMSchemaTTMRequestEnded *_ended;
-    TTMSchemaTTMRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -33,29 +27,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sPercents];
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)irectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_lib.c;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)personUidsExistingInDestination;
+- (_Bool)ssage, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated, is_audio_message, is_played, date_played, item_type, other_handle, group_title, group_action_type, share_status, share_direction, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID IN (SELECT message_id FROM chat_message_join WHERE message_id < ?) AND item_type = 0 ORDER BY ROWID DESC LIMIT ?;
 - (id);
-- (id);
-- (id)me;
-- (id)yloadMultilingual;
-- (void)s;
+- (id);
+- (id)deleteQueryDecorationToolRetrievalContextTime;
+- (id)_isPayloadMultilingual;
+- (void)nlRerunTimeInMs;
 
 // Remaining properties
-@property(retain, nonatomic) TTMSchemaTTMRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) TTMSchemaTTMRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) TTMSchemaTTMRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

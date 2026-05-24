@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableDictionary, NSMutableSet, PHPersistentChangeEnumerationContext, PHPersistentChangeFetchOptions, PHPersistentChangeToken, PHPhotoLibrary;
+@class NSManagedObjectContext;
 
 @interface PHChangeBuilder
 {
     NSManagedObjectContext *_context;
-    PHPhotoLibrary *_library;
-    PHPersistentChangeToken *_changeToken;
-    PHPersistentChangeFetchOptions *_fetchOptions;
-    PHPersistentChangeEnumerationContext *_enumerationContext;
-    NSMutableSet *_insertedObjectIDs;
-    NSMutableSet *_updatedObjectIDs;
-    NSMutableSet *_deletedObjectIDs;
-    NSMutableDictionary *_deletedUuidsByObjectId;
-    NSMutableDictionary *_attributesByOID;
-    NSMutableDictionary *_relationshipsByOID;
-    NSMutableDictionary *_deletedPrimaryLabelCodesByObjectId;
-    _Bool _unknownMergeEvent;
 }
 
 + (id);

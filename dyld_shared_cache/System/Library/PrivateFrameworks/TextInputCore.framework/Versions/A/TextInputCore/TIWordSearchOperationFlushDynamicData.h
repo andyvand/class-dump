@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     TIMecabraWrapper *_mecabraWrapper;
 }
 
-- (id);
+- (id)performSelector:(id)arg1 withObject:afterDelay: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)indMy.item;
 - (void);
 
 // Remaining properties

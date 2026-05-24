@@ -9,16 +9,6 @@
 @interface QCOpenGLRenderState : QCGraphicsRenderState
 {
     long long currentVirtualScreen;
-    float currentFieldOfView;
-    float saveFieldOfView;
-    _Bool saveFlipped;
-    _Bool saveResetMatrices;
-    int saveFace;
-    int saveMode;
-    double saveModelView[16];
-    double saveProjection[16];
-    int saveScissorFrame[4];
-    _Bool saveScissorEnabled;
 }
 
 - (id);

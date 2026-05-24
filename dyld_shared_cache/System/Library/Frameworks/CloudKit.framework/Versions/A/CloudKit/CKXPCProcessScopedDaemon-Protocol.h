@@ -5,5 +5,6 @@
 //
 
 @protocol CKXPCProcessScopedDaemon
+- (void)A;
 @end
 

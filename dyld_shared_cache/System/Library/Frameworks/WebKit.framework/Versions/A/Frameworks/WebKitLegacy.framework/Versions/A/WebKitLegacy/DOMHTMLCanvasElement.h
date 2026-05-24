@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property int height;
 @property int width;
 
 @end

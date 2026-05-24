@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MLPData
 {
     unsigned int _label;
-    NSData *_oneHot;
-    NSData *_pixels;
-    NSData *_classDist;
 }
 
 - (void);
-- (void);
+- (void)'q;
 - (void);
 - (id);
-- (id);
+- (id)e;
 - (id);
 - (unsigned int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSData *classDist; // @synthesize classDist=_classDist;
 @property unsigned int label; // @synthesize label=_label;
-@property(retain) NSData *oneHot; // @synthesize oneHot=_oneHot;
-@property(retain) NSData *pixels; // @synthesize pixels=_pixels;
 
 @end
 

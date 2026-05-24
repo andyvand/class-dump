@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AAAppleIDLoginPlugin
+- (NSDictionary *);
+- (NSDictionary *)r ____________________________________________________;
+- (void)ne path from audit token. pid:(NSDictionary *)arg1 %u path:(void (^)(_Bool, NSError *))arg2 %s;
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)hwtrace_recording_save_to_ktrace;
 + (id);
 
 @end

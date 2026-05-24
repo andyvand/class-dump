@@ -7,9 +7,6 @@
 @interface IMDPersistence.StorageInspectorScheduler
 {
     id inspectors;
-    id inspectorQueue;
-    id executingInspector;
-    id inspectionCount;
 }
 
 @end

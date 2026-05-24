@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMSenderContext_Impl
 {
     id isKnownSender;
-    _Bool isFromMe;
-    void serviceName;
 }
 
 + (id);
@@ -22,19 +18,17 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`@�bB@9=;
 - (void)manifestDidEvictGUID:%s with files:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isFromMe; // @synthesize isFromMe;
-@property(nonatomic, readonly) _Bool isTrustedSender;
-@property(nonatomic, readonly) NSString *serviceName;
 
 @end
 

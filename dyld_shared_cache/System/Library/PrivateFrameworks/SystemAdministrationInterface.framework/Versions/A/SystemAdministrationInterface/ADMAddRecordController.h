@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMLoginPrefs, IndicatorSecureTextField, IndicatorTextField, NSButton, NSDictionary, NSLayoutConstraint, NSPopUpButton, NSPopover, NSProgressIndicator, NSStackView, NSString, NSTextField, NSTextView, NSView, NSWindow, SFPasswordAssistantInspectorController;
+@class NSWindow;
 
 @interface ADMAddRecordController
 {
     NSWindow *mNewUserSheet;
-    NSView *mVendedAddUserView;
-    NSPopUpButton *mAccountType;
-    NSLayoutConstraint *mAccountTypeViewHeightConstraint;
-    double mAccountTypeViewHeight;
-    NSTextField *mAccountTypeCaption;
-    IndicatorTextField *mNewUserFullName;
-    NSTextField *mNewUserFullNameCaption;
-    NSStackView *mStackView;
-    NSButton *mCreateButton;
-    NSButton *mCancelButton;
-    NSView *mAccountNameView;
-    NSTextField *mNewUserNameCaption;
-    IndicatorTextField *mNewUserName;
-    NSTextField *mNewUserNameSubLabel;
-    NSView *mPasswordView;
-    NSTextField *mPasswordViewFirstLabel;
-    IndicatorSecureTextField *mNewUserPassword;
-    IndicatorSecureTextField *mNewUserPasswordVerify;
-    NSTextField *mNewUserHint;
-    NSProgressIndicator *mNewUserProgressIndicator;
-    NSProgressIndicator *mNewUserProgressIndicatorTM;
-    NSWindow *mFVTMWarning;
-    ADMLoginPrefs *mLoginPrefs;
-    NSTextView *mUserTextEditor;
-    SFPasswordAssistantInspectorController *mPasswordAssistant;
-    NSButton *mNewUserPasswordAssistantButton;
-    NSWindow *_hostWindow;
-    NSPopover *_passwordPolicyPopover;
-    NSDictionary *_createAccountOptions;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
@@ -56,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -71,28 +41,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)selectRowIndexes:(CDUnknownBlockType)arg1 byExtendingSelection: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain) NSDictionary *createAccountOptions; // @synthesize createAccountOptions=_createAccountOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain) NSPopover *passwordPolicyPopover; // @synthesize passwordPolicyPopover=_passwordPolicyPopover;
-@property(readonly) Class superclass;
 
 @end
 

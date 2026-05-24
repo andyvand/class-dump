@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKColor, PKImage;
+@class NSString;
 
 @interface PKPassFieldImage
 {
     _Bool _allowInternalSymbols;
-    NSString *_symbolName;
-    long long _tintColor;
-    PKImage *_image;
-    NSData *_imageHash;
-    PKColor *_backgroundColor;
-    NSString *_imageName;
 }
 
-+ (id);
++ (id)@9m;
 + (_Bool)X"°!$Aùî%1Â0@ù
 × ;
 - (_Bool);
@@ -27,22 +21,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (long long);
+- (_Bool)setHasCoreRoutineTransitionMotionTypeCycling:(id)arg1;
+- (void)txchanrej;
+- (long long)\;
 - (id);
 - (id)signChallenge:forAID:sigInfo:error: /* Error: Ran out of types for this method. */;
-- (id)orRegion: /* Error: Ran out of types for this method. */;
-- (void)AuthorizationStateContinuitySend;
+- (id)deviceUpgradeTaskEnablementPercentageForRegion: /* Error: Ran out of types for this method. */;
+- (void)PKPaymentAuthorizationStateContinuitySend;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowInternalSymbols; // @synthesize allowInternalSymbols=_allowInternalSymbols;
-@property(readonly, nonatomic) PKColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) PKImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSData *imageHash; // @synthesize imageHash=_imageHash;
 @property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(readonly, nonatomic) long long tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

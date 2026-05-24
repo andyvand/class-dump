@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface WBSCache
 {
     NSCache *_cache;
-    NSMapTable *_weakObjectsTable;
-    NSObject<OS_dispatch_queue> *_cacheQueue;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)LP;
 - (void)¸h;
 
 @end

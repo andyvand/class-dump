@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRGameControllerPropertiesProtobuf
 {
     int _buttonAUpDelay;
-    unsigned int _playerIndex;
-    int _profile;
-    NSString *_vendorName;
-    _Bool _supportsExtendedMotion;
-    struct {
-        unsigned int buttonAUpDelay:1;
-        unsigned int playerIndex:1;
-        unsigned int profile:1;
-        unsigned int supportsExtendedMotion:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
@@ -47,23 +35,14 @@
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)initFAFetchFamilyCircleRequest_block_invoke;
 - (void);
 - (void)ouldNotPauseIfLastDeviceRemoved"b1"shouldWaitForUpdatedOutputDevices"b1"suppressErrorDialog"b1};
-- (void)ithCompletion: /* Error: Ran out of types for this method. */;
+- (void)_initializeHostedRoutingConnectionWithCompletion: /* Error: Ran out of types for this method. */;
 - (id)ËÔÿac¸ò	;
 
 // Remaining properties
-@property(nonatomic) int buttonAUpDelay; // @synthesize buttonAUpDelay=_buttonAUpDelay;
-@property(nonatomic) _Bool hasButtonAUpDelay;
 @property(nonatomic) _Bool hasPlayerIndex;
-@property(nonatomic) _Bool hasProfile;
-@property(nonatomic) _Bool hasSupportsExtendedMotion;
-@property(readonly, nonatomic) _Bool hasVendorName;
-@property(nonatomic) unsigned int playerIndex; // @synthesize playerIndex=_playerIndex;
-@property(nonatomic) int profile; // @synthesize profile=_profile;
-@property(nonatomic) _Bool supportsExtendedMotion; // @synthesize supportsExtendedMotion=_supportsExtendedMotion;
-@property(retain, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)testRecipeInfoByID;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)adius"b1"read_location"b1"read_tiles"b1"wrote_anyField"b1};
-- (id)rMapItem: /* Error: Ran out of types for this method. */;
+- (id)_setElevationIfNecessaryForMapItem: /* Error: Ran out of types for this method. */;
 - (id)X,;
 - (void)ËKþ'mJ@;
 

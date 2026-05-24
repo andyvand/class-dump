@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
-
 @interface PKAccountPromotionCompletionStep
 {
     _Bool _completed;
-    unsigned long long _progressType;
-    long long _index;
-    NSString *_currencyCode;
-    NSDecimalNumber *_endValue;
-    NSDecimalNumber *_currentValue;
 }
 
-+ (id);
++ (id)q@V;
 + (_Bool);
-- (void);
+- (void)�;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (id);
-- (void);
+- (void)q;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_tokenError;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id)reset;
-- (long long)vel;
+- (long long)_accountUserAccessLevel;
 - (_Bool)hÓK;
 - (void)ed to exit lost mode and unsuspend applets;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSDecimalNumber *currentValue; // @synthesize currentValue=_currentValue;
-@property(retain, nonatomic) NSDecimalNumber *endValue; // @synthesize endValue=_endValue;
-@property(nonatomic) long long index; // @synthesize index=_index;
 @property(nonatomic) unsigned long long progressType; // @synthesize progressType=_progressType;
 
 @end

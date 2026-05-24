@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface TSUHTMLTable
 {
     NSMutableDictionary *_columnAttributes;
-    NSMutableDictionary *_rowClasses;
-    NSMutableDictionary *_cellAttributes;
-    NSMutableArray *_columnHeaders;
-    NSMutableArray *_rows;
-    unsigned long long _rowClassStride;
 }
 
 + (id);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,13 +30,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) unsigned long long lastRowIndex;
-@property(nonatomic) unsigned long long rowClassStride; // @synthesize rowClassStride=_rowClassStride;
 
 @end
 

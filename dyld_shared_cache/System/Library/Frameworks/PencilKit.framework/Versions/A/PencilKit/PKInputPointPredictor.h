@@ -7,12 +7,11 @@
 @interface PKInputPointPredictor
 {
     CDStruct_4cc01785 _points[4];
-    long long _numPoints;
 }
 
 - (CDStruct_4cc01785);
 - (CDStruct_4cc01785);
-- (void);
+- (void)logEngagementForResponseId:result:rank:inputLength:completionLength:requestType:logType: /* Error: Ran out of types for this method. */;
 
 @end
 

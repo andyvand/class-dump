@@ -5,7 +5,7 @@
 //
 
 @protocol _UIPopoverDimmingViewDelegate
-- (_Bool)s;
+- (_Bool)__ViewHierarchyCaptureInProgress;
 - (_Bool)LÊ¥þ5·13HÊ¥þ·13ì¦þ·13ì¦þ·13Ê¥þ·13Ê¥þÕ¶13Ê¥þ;
 @end
 

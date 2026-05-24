@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFPunchout, SearchUILabel, SearchUIMovieCardSectionView, SearchUIOfferButtonView;
+@class SearchUILabel;
 
 @interface SearchUIMovieCardSectionBuyButtonView
 {
     SearchUILabel *_subtitleLabel;
-    SearchUIOfferButtonView *_button;
-    SFPunchout *_punchout;
-    SearchUIMovieCardSectionView *_cardSectionView;
 }
 
 - (id);
@@ -27,20 +24,10 @@
 - (void);
 - (id);
 - (void);
-- (id)sRowModel: /* Error: Ran out of types for this method. */;
+- (id)supportsRowModel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIOfferButtonView *button; // @synthesize button=_button;
-@property(nonatomic) __weak SearchUIMovieCardSectionView *cardSectionView; // @synthesize cardSectionView=_cardSectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
 @property(retain, nonatomic) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
 
 @end
 

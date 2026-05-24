@@ -7,19 +7,17 @@
 @interface _PKStrokeClipPlane
 {
     struct CGPoint _origin;
-    struct CGPoint _normal;
 }
 
 - (_Bool);
 - (id);
-- (double);
-- (struct CGPoint);
+- (double)b494BRoute;
+- (struct CGPoint)existingObjectWithID:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint normal; // @synthesize normal=_normal;
 @property(readonly, nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
 
 @end

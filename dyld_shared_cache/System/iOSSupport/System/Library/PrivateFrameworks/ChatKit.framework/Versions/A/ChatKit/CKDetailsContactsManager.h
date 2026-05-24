@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSArray, NSDictionary, NSString;
-@protocol CKDetailsContactsManagerDelegate;
+@class CKConversation, NSArray;
 
 @interface CKDetailsContactsManager
 {
     NSArray *_contactsViewModels;
-    id <CKDetailsContactsManagerDelegate> _delegate;
-    CKConversation *_conversation;
-    NSString *_serviceAvailabilityKey;
-    NSDictionary *_facetimeIDStatuses;
-    NSDictionary *_facetimeAudioIDStatuses;
-    NSDictionary *_screenSharingIDSStatuses;
-    NSDictionary *_modernScreenSharingCapabilities;
 }
 
-- (id);
+- (id)containsOnlyStyle:(_Bool)arg1 inRange:(_Bool)arg2 inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)setAssociatedObjectIdentifiers:(id)arg1;
+- (void)setAccountsOfHTMLSourceObjects:(id)arg1;
+- (void)V_ckShareIDToRootRecordID;
+- (void)tableArray",R,N,V_deletedRanges;
+- (_Bool)",&,N,V_participantHighlightRegexMatchFinder;
+- (_Bool)color;
+- (void)_attachmentsToLoad;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)4;
+- (void)L;
 - (void);
 - (void);
 - (void);
@@ -38,17 +30,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)i;
+- (_Bool)U;
+- (_Bool)a;
+- (_Bool)g;
+- (id)e:%@ /* Error: Ran out of types for this method. */;
+- (id)rom metadata %@:%@ /* Error: Ran out of types for this method. */;
+- (id)ng;
+- (id)letionHandler:(id)arg1 ];
+- (id)oValue:(id)arg1 %@, color:(id)arg2 %@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
+- (id)<%@:(id)arg1 %p, duration:(id)arg2 %@, fromValue:%@, toValue:%@, color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
+- (id)te with %lu people;
 - (void);
 - (id);
 - (id);
@@ -59,13 +51,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)q;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -79,8 +71,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -92,22 +84,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *contacts;
-@property(copy, nonatomic) NSArray *contactsViewModels; // @synthesize contactsViewModels=_contactsViewModels;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKDetailsContactsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *facetimeAudioIDStatuses; // @synthesize facetimeAudioIDStatuses=_facetimeAudioIDStatuses;
-@property(retain, nonatomic) NSDictionary *facetimeIDStatuses; // @synthesize facetimeIDStatuses=_facetimeIDStatuses;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *modernScreenSharingCapabilities; // @synthesize modernScreenSharingCapabilities=_modernScreenSharingCapabilities;
-@property(retain, nonatomic) NSDictionary *screenSharingIDSStatuses; // @synthesize screenSharingIDSStatuses=_screenSharingIDSStatuses;
-@property(retain, nonatomic) NSString *serviceAvailabilityKey; // @synthesize serviceAvailabilityKey=_serviceAvailabilityKey;
-@property(readonly) Class superclass;
 
 @end
 

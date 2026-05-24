@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SymbolCandidate
 {
     unsigned short _symbol;
-    double _probability;
-    double _logProbability;
 }
 
 - (void);
@@ -19,12 +15,9 @@
 - (double);
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short)work/IDS;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *description;
-@property(nonatomic) double logProbability; // @synthesize logProbability=_logProbability;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
 @property(nonatomic) unsigned short symbol; // @synthesize symbol=_symbol;
 
 @end

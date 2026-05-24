@@ -9,10 +9,6 @@
 @interface VCSParserInputStream
 {
     NSData *_dataStream;
-    _Bool _discardBuffer;
-    struct _NSRange _buffer;
-    int _currentLineNum;
-    unsigned int _seek;
 }
 
 - (unsigned long long);
@@ -20,7 +16,7 @@
 - (unsigned long long);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 
 @end

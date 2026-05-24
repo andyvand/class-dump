@@ -6,43 +6,36 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUIWebAppearance, AMSUIWebClientContext, AMSUIWebPageModel, AMSUIWebView, AMSURLResult, NSString, NSURL;
+@class AMSUIWebAppearance;
 @protocol AMSUIWebPageViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebPageViewController : AMSUICommonViewController
 {
     id <AMSUIWebPageViewControllerDelegate> _delegate;
-    AMSUIWebView *_webView;
-    NSURL *_URL;
-    AMSURLResult *_htmlRequestResult;
-    AMSUIWebAppearance *_appearance;
-    AMSUIWebClientContext *_context;
-    AMSUIWebPageModel *_model;
-    struct CGSize _contentSize;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)DDSAnalytics;
+- (void)}@;
+- (id)atestOnly:(id)arg1 %d, cacheOnly:(id)arg2 %d)>;
+- (id)DDSAutoAssetPreferences;
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void)templatesForSearchIndexCategory:secondIndexCategory: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)finishInstall;
 - (void);
 - (void)"NSData">24;
 - (struct CGSize)<R;
@@ -50,21 +43,7 @@ __attribute__((visibility("hidden")))
 - (id)=Üûïÿ;
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly) __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIWebPageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSURLResult *htmlRequestResult; // @synthesize htmlRequestResult=_htmlRequestResult;
-@property(retain) AMSUIWebPageModel *model; // @synthesize model=_model;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebView *webView; // @synthesize webView=_webView;
 
 @end
 

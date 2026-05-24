@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVTStickerShaderModifierProperty
 {
     NSString *_name;
-    NSString *_type;
-    id _value;
-    id _originalValue;
-    id _effectiveValue;
 }
 
 + (id);
@@ -24,16 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id effectiveValue; // @synthesize effectiveValue=_effectiveValue;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) id originalValue; // @synthesize originalValue=_originalValue;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

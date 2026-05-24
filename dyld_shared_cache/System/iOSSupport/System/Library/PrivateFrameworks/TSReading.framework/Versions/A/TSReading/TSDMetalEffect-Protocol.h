@@ -9,8 +9,11 @@
 @protocol TSDMetalEffect
 - (TSDTexturedRectangle *);
 
+@optional
+- (void)eningToken'];
+- (void)e for SharePlay behavior [options did not contain 'sharedListeningToken'];
+
 // Remaining properties
-@property(nonatomic) double opacity;
 @property(nonatomic) TSDTexturedRectangle *texture;
 @end
 

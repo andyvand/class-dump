@@ -6,18 +6,15 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class NSObject, UIButton, UILabel;
-@protocol EKReminderUneditableButtonDelegate;
+@class UILabel;
 
 @interface EKReminderUneditableButtonDetailCell : EKEventDetailCell
 {
     UILabel *_line;
-    UIButton *_button;
-    NSObject<EKReminderUneditableButtonDelegate> *_uneditableButtonCellDelegate;
 }
 
-- (id);
-- (void)hareeWithName:url: /* Error: Ran out of types for this method. */;
+- (id)X%s;
+- (void)shareeWithName:url: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ConversationKit.ParticipantView, NSString;
+@class ConversationKit.ParticipantView;
 
 @interface ConversationKit.ParticipantCell
 {
     id participantIdentifier;
-    ConversationKit.ParticipantView *participantView;
-    void accessibilityDisplayName;
 }
 
 - (void);
@@ -19,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_numberOfTitleLines;
 - (void)rüÿF:ÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityDisplayName;
 @property(nonatomic, readonly) ConversationKit.ParticipantView *participantView; // @synthesize participantView;
 
 @end

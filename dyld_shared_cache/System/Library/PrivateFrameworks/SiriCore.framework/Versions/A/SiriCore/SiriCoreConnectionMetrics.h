@@ -4,198 +4,135 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SiriCoreConnectionMetrics
 {
     NSNumber *_timeUntilOpen;
-    NSNumber *_timeUntilFirstByteRead;
-    NSNumber *_attemptCount;
-    NSNumber *_metricsCount;
-    NSNumber *_meanPing;
-    NSNumber *_pingCount;
-    NSNumber *_unacknowledgedPingCount;
-    NSDictionary *_tcpInfoMetricsByInterfaceName;
-    NSNumber *_subflowCount;
-    NSNumber *_connectedSubflowCount;
-    NSString *_primarySubflowInterfaceName;
-    NSDictionary *_subflowSwitchCounts;
-    SiriCoreConnectionMetrics *_remoteMetrics;
-    NSString *_connectionMethod;
-    NSString *_connectionEdgeID;
-    NSArray *_connectionMethodHistory;
-    NSString *_connectionEdgeType;
-    NSNumber *_connectionFallbackReason;
-    NSNumber *_connectionDelay;
-    NSNumber *_firstTxByteDelay;
-    NSString *_carrierName;
-    NSNumber *_signalStrengthBars;
-    NSString *_providerStyle;
-    NSString *_policyId;
-    NSDictionary *_flowNetworkInterfaceType;
-    NSString *_wifiPhyMode;
-    NSString *_wifiChannelInfo;
-    NSNumber *_rssi;
-    NSNumber *_snr;
-    NSNumber *_cca;
-    NSNumber *_isCaptive;
-    NSDictionary *_symptomsBasedNetworkQuality;
-    NSNumber *_dnsResolutionTime;
-    NSNumber *_connectionStartTimeToDNSResolutionTimeMsec;
-    NSNumber *_connectionEstablishmentTimeMsec;
-    NSNumber *_connectionStartTimeToConnectionEstablishmentTimeMsec;
-    NSNumber *_tlsHandshakeTimeMsec;
-    NSNumber *_connectionStartTimeToTLSHandshakeTimeMsec;
-    NSNumber *_idsLastMessageDelay;
-    NSNumber *_idsLastSocketDelay;
-    NSNumber *_idsLastSocketOpenError;
-    NSString *_tlsVersion;
-    NSNumber *_simSubscriptions;
 }
 
+- (id)TimeSensitivePromotionsDescription;
+- (id)TimeSensitiveUpdatesDescription;
+- (id)TimeSensitiveTransactionsDescription;
+- (id)ForceCollapsedSenderHeader;
+- (id)ShouldIgnoreBlackPearlRestrictions;
+- (id)DisableCategorizationOnboardingAllMail;
+- (id)DisableCategorizationOnboardingAllMail;
+- (id)EMMailSearchUIBiomeLoggerRotatingUUID;
+- (void)QueryComponentFlagColor;
+- (void)QueryComponentAttachment;
+- (void)QueryComponentFreeText;
+- (void)QueryComponentCm;
+- (void)QueryComponentCP;
+- (void)QueryComponentPeople;
+- (void)QueryComponentSenderContains;
+- (void)onIdReset-ended;
+- (void)raction type:(id)arg1 %ld;
+- (void)d sections:(id)arg1 %lu;
+- (void)t:(id)arg1 inputDetected isZKW:%@ tokens:%lu /* Error: Ran out of types for this method. */;
+- (void)iewDisappeared reason:(id)arg1 %ld;
+- (void)@16@?0@8;
+- (void)EFPropertyKey_messageDatabaseIDs;
+- (void)EFPropertyKey_actionType;
+- (void)NSUbiquitousKeyValueStoreQuotaViolationChange;
+- (void);
+- (void)ring"8@"NSDictionary"16^B24;
+- (void)> 0 && keyString.length <= self.kvStore.maximumKeyLength;
+- (void)isKindOfClass:(id)arg1 [NSString class]];
+- (void)apple.email.EMUbiquitouslyPersistedDictionary.delegateScheduler;
+- (void)list;
+- (void)updatedAt;
+- (void)EFPropertyKey_filterPredicate;
+- (void)jectID.m;
+- (void)versationID:(double)arg1 ];
+- (void)0@"<EMThreadBuilder>"8;
+- (void)e:(id)arg1 %@;
+- (void)Count:(id)arg1 %lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)ed:(id)arg1 %@
+	UnsubscribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)ionNotificationLevel:(id)arg1 %ld
+	IsBlocked:%@
+	UnsubscribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (id)cause it doesn't need to deal with protected data. Uses EMMessages instead.;
+- (id)%p> Name:%@ /* Error: Ran out of types for this method. */;
+- (id)class="x-apple-maildrop" data-url="%@" data-filename="%@" data-size="%lu" data-expiration="%f" style="margin:15px; border:1px solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (id)ry performQuery:withObserver:] /* Error: Ran out of types for this method. */;
+- (id).email.%@.observer;
+- (id)erface];
+- (id)image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5;
+- (id)v32@?0@"NSNumber"8@16^B24;
+- (id)ggestion:%@ 
+	queryOptions:%lu
+	limit:%ld /* Error: Ran out of types for this method. */;
+- (id)p> %@ 
+	result class:%@ 
+	predicate:%@ 
+	sort descriptors:%@ 
+	suggestion:%@ 
+	queryOptions:%lu
+	limit:%ld /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)MailDirectoryNameSuffix;
+- (id)to get mail directory;
+- (id)stenceLayoutManager.m;
+- (void)EMContentCorruptError;
+- (void)EMItemTemporarilyUnavailableError;
+- (id)0@"EMMailbox"8;
+- (void)ilAddressConvertible>"8;
+- (id)ilbox scope must have either mailbox object IDs or mailbox types;
+- (id)impleAddress;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)TONIGHT;
+- (void)common_SearchQualifier_Personalized;
+- (id);
+- (id)UsoTaskBuilder_read_common_Message;
+- (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)�;
+- (id);
+- (void)(;
 - (id)
 × ;
 - (id)ntIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *attemptCount; // @synthesize attemptCount=_attemptCount;
-@property(copy, nonatomic) NSString *carrierName; // @synthesize carrierName=_carrierName;
-@property(copy, nonatomic) NSNumber *cca; // @synthesize cca=_cca;
-@property(copy, nonatomic) NSNumber *connectedSubflowCount; // @synthesize connectedSubflowCount=_connectedSubflowCount;
-@property(copy, nonatomic) NSNumber *connectionDelay; // @synthesize connectionDelay=_connectionDelay;
-@property(copy, nonatomic) NSString *connectionEdgeID; // @synthesize connectionEdgeID=_connectionEdgeID;
-@property(copy, nonatomic) NSString *connectionEdgeType; // @synthesize connectionEdgeType=_connectionEdgeType;
-@property(copy, nonatomic) NSNumber *connectionEstablishmentTimeMsec; // @synthesize connectionEstablishmentTimeMsec=_connectionEstablishmentTimeMsec;
-@property(copy, nonatomic) NSNumber *connectionFallbackReason; // @synthesize connectionFallbackReason=_connectionFallbackReason;
-@property(copy, nonatomic) NSString *connectionMethod; // @synthesize connectionMethod=_connectionMethod;
-@property(copy, nonatomic) NSArray *connectionMethodHistory; // @synthesize connectionMethodHistory=_connectionMethodHistory;
-@property(copy, nonatomic) NSNumber *connectionStartTimeToConnectionEstablishmentTimeMsec; // @synthesize connectionStartTimeToConnectionEstablishmentTimeMsec=_connectionStartTimeToConnectionEstablishmentTimeMsec;
-@property(copy, nonatomic) NSNumber *connectionStartTimeToDNSResolutionTimeMsec; // @synthesize connectionStartTimeToDNSResolutionTimeMsec=_connectionStartTimeToDNSResolutionTimeMsec;
-@property(copy, nonatomic) NSNumber *connectionStartTimeToTLSHandshakeTimeMsec; // @synthesize connectionStartTimeToTLSHandshakeTimeMsec=_connectionStartTimeToTLSHandshakeTimeMsec;
-@property(copy, nonatomic) NSNumber *dnsResolutionTime; // @synthesize dnsResolutionTime=_dnsResolutionTime;
-@property(copy, nonatomic) NSNumber *firstTxByteDelay; // @synthesize firstTxByteDelay=_firstTxByteDelay;
-@property(copy, nonatomic) NSDictionary *flowNetworkInterfaceType; // @synthesize flowNetworkInterfaceType=_flowNetworkInterfaceType;
-@property(copy, nonatomic) NSNumber *idsLastMessageDelay; // @synthesize idsLastMessageDelay=_idsLastMessageDelay;
-@property(copy, nonatomic) NSNumber *idsLastSocketDelay; // @synthesize idsLastSocketDelay=_idsLastSocketDelay;
-@property(copy, nonatomic) NSNumber *idsLastSocketOpenError; // @synthesize idsLastSocketOpenError=_idsLastSocketOpenError;
-@property(copy, nonatomic) NSNumber *isCaptive; // @synthesize isCaptive=_isCaptive;
-@property(copy, nonatomic) NSNumber *meanPing; // @synthesize meanPing=_meanPing;
-@property(copy, nonatomic) NSNumber *metricsCount; // @synthesize metricsCount=_metricsCount;
-@property(copy, nonatomic) NSNumber *pingCount; // @synthesize pingCount=_pingCount;
-@property(copy, nonatomic) NSString *policyId; // @synthesize policyId=_policyId;
-@property(copy, nonatomic) NSString *primarySubflowInterfaceName; // @synthesize primarySubflowInterfaceName=_primarySubflowInterfaceName;
-@property(copy, nonatomic) NSString *providerStyle; // @synthesize providerStyle=_providerStyle;
-@property(retain, nonatomic) SiriCoreConnectionMetrics *remoteMetrics; // @synthesize remoteMetrics=_remoteMetrics;
-@property(copy, nonatomic) NSNumber *rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSNumber *signalStrengthBars; // @synthesize signalStrengthBars=_signalStrengthBars;
-@property(copy, nonatomic) NSNumber *simSubscriptions; // @synthesize simSubscriptions=_simSubscriptions;
-@property(copy, nonatomic) NSNumber *snr; // @synthesize snr=_snr;
-@property(copy, nonatomic) NSNumber *subflowCount; // @synthesize subflowCount=_subflowCount;
-@property(copy, nonatomic) NSDictionary *subflowSwitchCounts; // @synthesize subflowSwitchCounts=_subflowSwitchCounts;
-@property(copy, nonatomic) NSDictionary *symptomsBasedNetworkQuality; // @synthesize symptomsBasedNetworkQuality=_symptomsBasedNetworkQuality;
-@property(copy, nonatomic, setter=setTCPInfoMetricsByInterfaceName:) NSDictionary *tcpInfoMetricsByInterfaceName; // @synthesize tcpInfoMetricsByInterfaceName=_tcpInfoMetricsByInterfaceName;
-@property(copy, nonatomic) NSNumber *timeUntilFirstByteRead; // @synthesize timeUntilFirstByteRead=_timeUntilFirstByteRead;
 @property(copy, nonatomic) NSNumber *timeUntilOpen; // @synthesize timeUntilOpen=_timeUntilOpen;
-@property(copy, nonatomic) NSNumber *tlsHandshakeTimeMsec; // @synthesize tlsHandshakeTimeMsec=_tlsHandshakeTimeMsec;
-@property(copy, nonatomic) NSString *tlsVersion; // @synthesize tlsVersion=_tlsVersion;
-@property(copy, nonatomic) NSNumber *unacknowledgedPingCount; // @synthesize unacknowledgedPingCount=_unacknowledgedPingCount;
-@property(copy, nonatomic) NSString *wifiChannelInfo; // @synthesize wifiChannelInfo=_wifiChannelInfo;
-@property(copy, nonatomic) NSString *wifiPhyMode; // @synthesize wifiPhyMode=_wifiPhyMode;
 
 @end
 

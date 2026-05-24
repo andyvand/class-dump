@@ -7,19 +7,17 @@
 @interface GEORouteHypothesisTravelSection
 {
     int _transportType;
-    double _estimatedTravelTime;
 }
 
 + (_Bool)ate of next path.;
 - (void);
-- (id);
-- (double);
+- (id)setMiddleName:(int)arg1;
+- (double);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) double estimatedTravelTime; // @synthesize estimatedTravelTime=_estimatedTravelTime;
 @property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end

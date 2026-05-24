@@ -5,5 +5,10 @@
 //
 
 @protocol NSFileManagerDelegate
+
+@optional
+- (_Bool)Ti;
+- (_Bool);
+- (_Bool);
 @end
 

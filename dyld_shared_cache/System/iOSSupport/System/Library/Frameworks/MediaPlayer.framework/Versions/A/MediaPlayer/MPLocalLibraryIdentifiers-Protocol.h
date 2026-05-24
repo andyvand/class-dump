@@ -9,9 +9,6 @@
 @protocol MPLocalLibraryIdentifiers
 
 // Remaining properties
-@property(readonly, nonatomic) long long containedPersistentID;
 @property(readonly, nonatomic) NSString *databaseID;
-@property(readonly, nonatomic) long long persistentID;
-@property(readonly, nonatomic) long long syncID;
 @end
 

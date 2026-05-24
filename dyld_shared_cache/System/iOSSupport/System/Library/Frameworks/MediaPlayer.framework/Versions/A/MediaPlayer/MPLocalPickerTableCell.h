@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItem, UIImageView, UILabel;
+@class MPMediaItem;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerTableCell
 {
     MPMediaItem *_mMediaItem;
-    UILabel *_titleLabel;
-    UIImageView *_addRemoveButton;
 }
 
 - (void);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)",C,N,V_informalStaticAssetID;
 
 // Remaining properties
-@property(nonatomic) __weak UIImageView *addRemoveButton; // @synthesize addRemoveButton=_addRemoveButton;
 @property(retain, nonatomic) MPMediaItem *mMediaItem; // @synthesize mMediaItem=_mMediaItem;
-@property(nonatomic) __weak UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

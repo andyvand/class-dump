@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, HMDAccountRegistry, HMDAppleAccountManager, HMDCoreData, HMDHomeData, HMDIdentityRegistry, HMDRemoteAccountManager, HMDUserDefaults, HMDWidgetConfigurationReader, NSArray, NSNotificationCenter, NSUserDefaults;
-@protocol HMDDemoModeManagerDataSource, HMDarwinNotificationProvider;
+@class HMDAccountRegistry, HMDAppleAccountManager, HMDBackingStore, HMDHomeManager, HMDIdentityRegistry, HMDRemoteAccountManager, HMDUserDefaults, NSNotificationCenter, NSUserDefaults;
+@protocol HMDarwinNotificationProvider;
 
 @protocol HMDHomeManagerDataSource
+- (HMDBackingStore *)[%{public}@] mark handle inflight:(HMDHomeManager *)arg1 %{private}@;
 - (HMDUserDefaults *)ublic}@User preferred resident Reachability Bulletin Timer fired;
 - (HMDRemoteAccountManager *)oryUUID:%@ /* Error: Ran out of types for this method. */;
 - (HMDAccountRegistry *)lic}@Unable to find MKFDevice for accessory %@;
@@ -18,22 +19,6 @@
 - (id <HMDarwinNotificationProvider>)Sÿ ;
 
 // Remaining properties
-@property(readonly) HMDAccountRegistry *accountRegistry;
-@property(readonly) id acwgKeyManager;
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly) CKContainer *cloudKitContainer;
-@property(readonly) HMDCoreData *coreData;
-@property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider;
-@property(readonly) id <HMDDemoModeManagerDataSource> demoModeDataSource;
-@property(readonly) HMDUserDefaults *hmdUserDefaults;
-@property(readonly) HMDHomeData *homeData;
 @property(readonly) HMDIdentityRegistry *identityRegistry;
-@property(readonly) _Bool localDataDecryptionFailed;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) HMDRemoteAccountManager *remoteAccountManager;
-@property(readonly) CDUnknownBlockType threadClientFactory;
-@property(readonly) NSArray *uncommittedTransactions;
-@property(readonly) NSUserDefaults *userDefaults;
-@property(readonly) HMDWidgetConfigurationReader *widgetConfigurationReader;
 @end
 

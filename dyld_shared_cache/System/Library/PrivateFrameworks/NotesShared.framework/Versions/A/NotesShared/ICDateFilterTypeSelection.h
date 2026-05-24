@@ -6,20 +6,14 @@
 
 #import <NotesShared/ICFilterTypeSelection.h>
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSDate;
 
 @interface ICDateFilterTypeSelection : ICFilterTypeSelection
 {
     NSDate *_primaryDate;
-    NSDate *_secondaryDate;
-    unsigned long long _selectionType;
-    NSNumber *_relativeRangeAmount;
-    unsigned long long _relativeRangeSelectionType;
-    double _relativeRangeTimeInterval;
-    NSString *_relativeRangeDateSummary;
 }
 
-+ (id);
++ (id)Ԫ;
 + (id);
 + (id);
 + (id);
@@ -27,8 +21,8 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,35 +37,24 @@
 - (id);
 - (id);
 - (id);
+- (id)setObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)setName: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)ight;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
+- (void)tes:(unsigned long long)arg1 %@;
+- (id)i;
 - (long long);
 - (_Bool);
 - (id);
 - (void)@LLðM;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *primaryDate; // @synthesize primaryDate=_primaryDate;
-@property(readonly, nonatomic) NSString *primaryDateSummary;
-@property(retain, nonatomic) NSNumber *relativeRangeAmount; // @synthesize relativeRangeAmount=_relativeRangeAmount;
-@property(readonly, nonatomic) NSString *relativeRangeAmountAndTimeInterval;
-@property(readonly, nonatomic) NSString *relativeRangeDateSummary; // @synthesize relativeRangeDateSummary=_relativeRangeDateSummary;
-@property(readonly, nonatomic) NSString *relativeRangeLabel;
-@property(nonatomic) unsigned long long relativeRangeSelectionType; // @synthesize relativeRangeSelectionType=_relativeRangeSelectionType;
-@property(readonly, nonatomic) double relativeRangeTimeInterval; // @synthesize relativeRangeTimeInterval=_relativeRangeTimeInterval;
-@property(readonly, nonatomic) NSDictionary *relativeRangeTimeIntervalOptions;
-@property(retain, nonatomic) NSDate *secondaryDate; // @synthesize secondaryDate=_secondaryDate;
-@property(readonly, nonatomic) NSString *secondaryDateSummary;
 @property(nonatomic) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
 
 @end

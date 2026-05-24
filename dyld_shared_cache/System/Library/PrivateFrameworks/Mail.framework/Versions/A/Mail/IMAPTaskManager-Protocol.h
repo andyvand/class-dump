@@ -7,11 +7,18 @@
 @class NSString;
 
 @protocol IMAPTaskManager
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (unsigned int)`;
+- (NSString *);
+- (_Bool)B;
+- (void)rialized:%@{public} /* Error: Ran out of types for this method. */;
+- (_Bool)r=}16f24@28@36;
+- (_Bool)xH;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
 @property(copy) NSString *defaultIdleMailboxName;
-@property(nonatomic) unsigned int firstNewInboxUID;
-@property(copy) NSString *secondaryIdleMailboxName;
 @end
 

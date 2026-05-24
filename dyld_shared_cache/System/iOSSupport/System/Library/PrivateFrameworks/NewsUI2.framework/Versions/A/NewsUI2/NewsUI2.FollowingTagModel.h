@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingTagModel
 {
     id group;
-    id tagModel;
-    id contentShortcutData;
-    id allowsUserInteraction;
 }
 
 @end

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureOutput;
+
 @protocol AVCaptureVideoDataOutputSampleBufferDelegate
+
+@optional
+- (void)lic}@[%{public}@] Failed to fetch devices:(AVCaptureOutput *)arg1 %@;
+- (void)rce-fetching home configuration after homeManager status is good;
 @end
 

@@ -8,15 +8,12 @@
 {
     id titleStackView;
     id titleLabel;
-    id seeAllButton;
-    id $__lazy_storage_$_nonAXConstraints;
-    id seeAllTapHandler;
 }
 
+- (void)6;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 
 @end

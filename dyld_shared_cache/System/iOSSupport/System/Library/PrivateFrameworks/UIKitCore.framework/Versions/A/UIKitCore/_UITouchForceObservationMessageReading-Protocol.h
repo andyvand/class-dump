@@ -10,9 +10,6 @@
 - (double)ng;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint centroid;
-@property(readonly, nonatomic) _Bool shouldFilterDueToSystemGestures;
-@property(readonly, nonatomic) double timestamp;
 @property(readonly, nonatomic) double touchForce;
 @end
 

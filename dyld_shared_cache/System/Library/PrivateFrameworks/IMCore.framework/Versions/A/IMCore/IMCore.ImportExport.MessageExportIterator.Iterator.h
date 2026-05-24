@@ -7,12 +7,6 @@
 @interface IMCore.ImportExport.MessageExportIterator.Iterator
 {
     id exportOptions;
-    id exportStatistics;
-    id exportConfiguration;
-    id filteredCounts;
-    id iterationState;
-    id chatRowIDs;
-    id databaseOnly;
 }
 
 @end

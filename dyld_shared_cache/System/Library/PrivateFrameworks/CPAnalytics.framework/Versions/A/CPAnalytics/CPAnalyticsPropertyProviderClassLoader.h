@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)NSt3__120__shared_ptr_emplaceI15SipPrackHandlerNS_9allocatorIS1_EEEE;
 + (id);
 
 @end

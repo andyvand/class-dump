@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)_processDeviceInfo:(id)arg1;
 - (id);
 
 @end

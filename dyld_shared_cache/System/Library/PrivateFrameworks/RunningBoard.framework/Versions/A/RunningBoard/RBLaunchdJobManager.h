@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSObject, RBContainerManager, RBPersonaManager;
-@protocol OS_dispatch_queue, RBBundlePropertiesManaging, RBLaunchdInterfacing;
+@class NSMutableDictionary;
 
 @interface RBLaunchdJobManager
 {
     NSMutableDictionary *_lock_jobsByIdentifier;
-    NSMutableDictionary *_lock_monitoredJobsByIdentifier;
-    struct os_unfair_lock_s _lock;
-    id <RBLaunchdInterfacing> _launchdInterface;
-    RBPersonaManager *_personaManager;
-    RBContainerManager *_containerManager;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    NSMutableOrderedSet *_lock_reslideIdentities;
-    NSObject<OS_dispatch_queue> *_logQueue;
 }
 
 + (id);
@@ -26,24 +17,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)fetchExperimentWithLatestDeploymentForExperimentId:(id)arg1 options:(CDUnknownBlockType)arg2 completion:(id)arg3;
+- (_Bool)t.;
+- (void)ctivation for namespaces %{public}@;
+- (void);
+- (void)c;
+- (unsigned long long)P;
+- (id)kMDItemRecipientsExact;
+- (id);
+- (id);
+- (void)lp;
 - (void);
+- (id);
 - (_Bool);
+- (id)TIAddressBookFindRecordsMatchingRecipientsOnMainThread_block_invoke;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 
 @end
 

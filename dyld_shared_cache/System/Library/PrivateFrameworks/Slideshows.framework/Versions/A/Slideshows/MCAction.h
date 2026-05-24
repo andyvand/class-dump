@@ -11,10 +11,9 @@
 @interface MCAction : MCObjectLight
 {
     unsigned int _flags;
-    NSString *_targetObjectID;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(copy) NSString *targetObjectID; // @synthesize targetObjectID=_targetObjectID;
-@property(nonatomic) _Bool tracksInParent;
 
 @end
 

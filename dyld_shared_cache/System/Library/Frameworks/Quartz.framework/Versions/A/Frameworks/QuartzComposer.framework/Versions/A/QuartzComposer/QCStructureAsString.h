@@ -6,18 +6,17 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCStringPort, QCStructurePort;
+@class QCStructurePort;
 
 @interface QCStructureAsString : QCPatch
 {
     QCStructurePort *inputStructure;
-    QCStringPort *outputString;
 }
 
 + (_Bool);
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)0	K	+	<	K	(	;
 
 @end
 

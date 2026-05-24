@@ -13,9 +13,9 @@
     NSString *_name;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)l;
+- (id)rterFetchRecordsWorkItem fetchFinishedForRecord:(unsigned long long)arg1 withID:error:] /* Error: Ran out of types for this method. */;
+- (id)NqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringRequestManager.m;
 - (id);
 - (id);
 - (id);

@@ -5,5 +5,6 @@
 //
 
 @protocol MPCCriticalSectionTaskCancellable
+- (void);
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WBSReaderFontManager
 {
     NSArray *_validatedFonts;
-    NSString *_languageTag;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id);
 - (void)r allElements = adoptableArticle.getElementsByTagName('*');var numberOfElements = allElements.length;for (var i = 0; i < numberOfElements; ++i) {var element = allElements[i];element.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);}adoptableArticle.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);var articleHTML = adoptableArticle.outerHTML;var subhead = this.articleSubhead();var subheadHTML = '';if (subhead) {var subheadNode = document.createElement('h2');subheadNode.className = 'subhead';subheadNode.textContent = this.articleSubhead();subheadHTML = subheadNode.outerHTML}var metadataElement = this.adoptableMetadataBlock();if (metadataElement) {var allMetadataElements = metadataElement.getElementsByTagName('*');var numberOfMetadataElements = allMetadataElements.length;for (var i = 0; i < numberOfMetadataElements; ++i) {var element = allMetadataElements[i];element.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);}}var metadataHTML = '';if (metadataElement && metadataElement.innerText) {metadataElement.className = 'metadata';metadataHTML = metadataElement.outerHTML;}articleHTML = subheadHTML + metadataHTML + articleHTML;articleHTML;;
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *fonts;
-@property(readonly, copy, nonatomic) NSString *languageTag; // @synthesize languageTag=_languageTag;
-@property(readonly, nonatomic) NSArray *possibleFonts;
 
 @end
 

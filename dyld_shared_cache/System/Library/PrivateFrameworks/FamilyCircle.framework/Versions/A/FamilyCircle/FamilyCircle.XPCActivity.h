@@ -7,13 +7,6 @@
 @interface FamilyCircle.XPCActivity
 {
     id queue;
-    id name;
-    id criteriaBlock;
-    id block;
-    id activity;
-    id checkedInAtLeastOnce;
-    id registrationBlock;
-    id logger;
 }
 
 @end

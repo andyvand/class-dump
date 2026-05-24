@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_dispatch_queue;
 
 @interface CSVoiceIdXPCConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 - (void);
@@ -21,13 +20,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)ls:completion: /* Error: Ran out of types for this method. */;
+- (void)predictWithCVPixelBuffer:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)5;
+- (void)injectAudio:toDeviceWithUUID:withNumChannels:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

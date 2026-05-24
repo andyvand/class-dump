@@ -9,20 +9,13 @@
 @interface SCNPhysicsContact
 {
     SCNNode *_nodeA;
-    SCNNode *_nodeB;
-    struct SCNVector3 _contactPoint;
-    struct SCNVector3 _contactNormal;
-    double _collisionImpulse;
-    double _distance;
-    double _fraction;
-    long long _updateCount;
 }
 
 + (id);
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)H;
 - (struct SCNVector3);
 - (double);
 - (void);
@@ -35,13 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double collisionImpulse;
-@property(readonly, nonatomic) struct SCNVector3 contactNormal;
-@property(readonly, nonatomic) struct SCNVector3 contactPoint;
 @property(readonly, nonatomic) SCNNode *nodeA;
-@property(readonly, nonatomic) SCNNode *nodeB;
-@property(readonly, nonatomic) double penetrationDistance;
-@property(readonly, nonatomic) double sweepTestFraction;
 
 @end
 

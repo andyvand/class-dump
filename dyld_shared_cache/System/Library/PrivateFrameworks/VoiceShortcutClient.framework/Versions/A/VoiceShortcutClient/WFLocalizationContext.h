@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INStringLocalizer, NSLocale, NSString;
+@class INStringLocalizer, NSLocale;
 
 @interface WFLocalizationContext
 {
     INStringLocalizer *_stringLocalizer;
-    NSLocale *_locale;
-    NSString *_localizationUsage;
 }
 
-+ (id);
++ (id)H;
+- (id)f2|;
+- (id)z;
+- (id)3|;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9{2|;
+- (id)z;
+- (id)sharedHelper;
 - (void)!UÐ!EùÑ^Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *localizationUsage; // @synthesize localizationUsage=_localizationUsage;
-@property(readonly, nonatomic) INStringLocalizer *stringLocalizer;
 
 @end
 

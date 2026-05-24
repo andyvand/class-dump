@@ -9,7 +9,7 @@
     id impl;
 }
 
-+ (_Bool);
++ (_Bool)^;
 - (id);
 - (id);
 - (long long);

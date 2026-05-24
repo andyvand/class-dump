@@ -6,13 +6,9 @@
 
 #import <InputMethodKit/IMKAbstractTextDocument.h>
 
-@class NSMutableString;
-
 @interface IMKTextDocument : IMKAbstractTextDocument
 {
     IMKTextDocument *_composingTextInternal;
-    NSMutableString *_committedText;
-    struct _NSRange _selectedRange;
 }
 
 + (id);
@@ -45,32 +41,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)signalStrengthDisplayBars;
+- (void)';
 - (_Bool);
 - (struct _NSRange);
 - (void);
 - (void);
 - (unsigned long long)CandidateAccessibilityElement",&,N,V_selectedCandidateAccessibilityElement;
-- (void)MKTruncatedTextField;
+- (void)IMKTruncatedTextField;
 - (id)à°;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableString *committedText; // @synthesize committedText=_committedText;
-@property(readonly, nonatomic) IMKTextDocument *composingText;
-@property(readonly, nonatomic) unsigned long long composingTextEndPosition;
-@property(readonly, nonatomic) IMKTextDocument *composingTextInternal; // @synthesize composingTextInternal=_composingTextInternal;
-@property(readonly, nonatomic) struct _NSRange composingTextRange;
-@property(readonly, nonatomic) unsigned long long composingTextStartPosition;
 @property(nonatomic) unsigned long long cursorPosition;
-@property(readonly, nonatomic) unsigned long long length;
-@property(nonatomic) struct _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(readonly, nonatomic) unsigned long long selectedTextEndPosition;
 
 @end
 

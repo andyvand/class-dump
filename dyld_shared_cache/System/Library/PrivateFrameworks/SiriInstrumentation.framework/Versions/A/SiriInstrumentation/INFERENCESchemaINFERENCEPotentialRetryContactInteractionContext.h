@@ -6,43 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEPotentialRetryContactInteractionContext : SISchemaInstrumentationMessage
 {
     _Bool _isExactMatchPriorSiriContactGivenName;
-    _Bool _isExactMatchPriorSiriContactFamilyName;
-    _Bool _isExactMatchPriorSiriContactDisplayName;
-    _Bool _isExactMatchPriorSiriContactId;
-    _Bool _isExactMatchPriorSiriContactHandleValue;
-    unsigned int _interactionDurationInSecBucket;
-    unsigned int _potentialRetryIntervalInSecBucket;
-    struct {
-        unsigned int isExactMatchPriorSiriContactGivenName:1;
-        unsigned int isExactMatchPriorSiriContactFamilyName:1;
-        unsigned int isExactMatchPriorSiriContactDisplayName:1;
-        unsigned int isExactMatchPriorSiriContactId:1;
-        unsigned int isExactMatchPriorSiriContactHandleValue:1;
-        unsigned int interactionDurationInSecBucket:1;
-        unsigned int potentialRetryIntervalInSecBucket:1;
-    } _has;
 }
 
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ki;
+- (void);
+- (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,9 +33,9 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,24 +54,10 @@
 - (id);
 - (id);
 - (id)T@"NSArray",C,N,V_domains;
-- (id);
+- (id)PEGASUSSchemaPEGASUSServerEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInteractionDurationInSecBucket;
-@property(nonatomic) _Bool hasIsExactMatchPriorSiriContactDisplayName;
-@property(nonatomic) _Bool hasIsExactMatchPriorSiriContactFamilyName;
-@property(nonatomic) _Bool hasIsExactMatchPriorSiriContactGivenName;
-@property(nonatomic) _Bool hasIsExactMatchPriorSiriContactHandleValue;
-@property(nonatomic) _Bool hasIsExactMatchPriorSiriContactId;
-@property(nonatomic) _Bool hasPotentialRetryIntervalInSecBucket;
-@property(nonatomic) unsigned int interactionDurationInSecBucket; // @synthesize interactionDurationInSecBucket=_interactionDurationInSecBucket;
-@property(nonatomic) _Bool isExactMatchPriorSiriContactDisplayName; // @synthesize isExactMatchPriorSiriContactDisplayName=_isExactMatchPriorSiriContactDisplayName;
-@property(nonatomic) _Bool isExactMatchPriorSiriContactFamilyName; // @synthesize isExactMatchPriorSiriContactFamilyName=_isExactMatchPriorSiriContactFamilyName;
 @property(nonatomic) _Bool isExactMatchPriorSiriContactGivenName; // @synthesize isExactMatchPriorSiriContactGivenName=_isExactMatchPriorSiriContactGivenName;
-@property(nonatomic) _Bool isExactMatchPriorSiriContactHandleValue; // @synthesize isExactMatchPriorSiriContactHandleValue=_isExactMatchPriorSiriContactHandleValue;
-@property(nonatomic) _Bool isExactMatchPriorSiriContactId; // @synthesize isExactMatchPriorSiriContactId=_isExactMatchPriorSiriContactId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int potentialRetryIntervalInSecBucket; // @synthesize potentialRetryIntervalInSecBucket=_potentialRetryIntervalInSecBucket;
 
 @end
 

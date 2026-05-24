@@ -5,5 +5,8 @@
 //
 
 @protocol MNTrafficIncidentAlertUpdaterDelegate
+- (void);
+- (void);
+- (void)7%];
 @end
 

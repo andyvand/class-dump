@@ -7,12 +7,11 @@
 @interface FLItemChangeObserver
 {
     int _notifyToken;
-    CDUnknownBlockType _itemChangeObserver;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFReferenceStandardCardSection
 {
     _Bool _addTint;
-    _SFPBRFTextProperty *_text_1;
 }
 
 - (void);
-- (void);
+- (void)_;
 - (_Bool);
+- (id)InterpolationQuality;
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)rejectMergeCandidatePersons:(id)arg1;
+- (id)extension for path:%@, error; %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)16;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint; // @synthesize addTint=_addTint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
 
 @end

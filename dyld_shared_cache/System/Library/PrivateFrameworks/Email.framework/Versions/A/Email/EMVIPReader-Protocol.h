@@ -5,6 +5,8 @@
 //
 
 @protocol EMVIPReader
+- (_Bool)%}S;
+- (_Bool)rying to retrieve more network bitmaps;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasVIPs;

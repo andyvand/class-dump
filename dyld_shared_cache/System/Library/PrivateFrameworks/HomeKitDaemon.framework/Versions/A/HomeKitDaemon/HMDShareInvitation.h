@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, HMDCloudZoneID, HMDShareInvitationContext, NSDate, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMDShareInvitation
 {
     NSURL *_shareURL;
-    CKDeviceToDeviceShareInvitationToken *_token;
-    HMDShareInvitationContext *_context;
-    HMDCloudZoneID *_cloudZoneID;
-    NSDate *_dateCreated;
 }
 
 - (id);
+- (id)markHandlesInflight:(id)arg1;
+- (id)_mapsIdentifiers;
+- (id)batchQueryController:(id)arg1 updatedDestinationsStatus:onService:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)preferredCredentials;
 - (unsigned long long);
-- (id);
+- (id)_TtC13SiriInference32MessagesAppSelectionModelManager;
 - (id);
 - (_Bool);
 - (id)
 × ;
-- (id)g;
+- (id)multiUserSettingsValueString;
 - (id)an urgent sync notification after first HH2 cloudkit import;
 - (void)@ (step:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) HMDCloudZoneID *cloudZoneID; // @synthesize cloudZoneID=_cloudZoneID;
-@property(readonly) HMDShareInvitationContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
 @property(readonly, copy) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly, copy) CKDeviceToDeviceShareInvitationToken *token; // @synthesize token=_token;
 
 @end
 

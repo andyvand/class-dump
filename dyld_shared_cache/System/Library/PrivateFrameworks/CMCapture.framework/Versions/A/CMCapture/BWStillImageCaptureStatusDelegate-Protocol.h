@@ -5,6 +5,7 @@
 //
 
 @protocol BWStillImageCaptureStatusDelegate
+- (void);
 - (void)0@ù
 × ;
 @end

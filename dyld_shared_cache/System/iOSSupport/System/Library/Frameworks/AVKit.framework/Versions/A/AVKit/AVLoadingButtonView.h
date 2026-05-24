@@ -4,70 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVButton, AVLayoutItemAttributes, NSString, UIActivityIndicatorView;
+@class UIActivityIndicatorView;
 
 __attribute__((visibility("hidden")))
 @interface AVLoadingButtonView
 {
     _Bool _removed;
-    _Bool _included;
-    _Bool _hasFullScreenAppearance;
-    _Bool _hasAlternateAppearance;
-    _Bool _collapsedOrExcluded;
-    _Bool _collapsed;
-    _Bool _showsLoadingIndicator;
-    AVLayoutItemAttributes *_layoutAttributes;
-    AVButton *_button;
-    UIActivityIndicatorView *_loadingIndicator;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)cloudDatabase:(_Bool)arg1 didChangeManateeKeysForZoneWithID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)v;
 - (void)á°!AùñZ°1Â0@ù
 × ;
 - (void)
 × ;
 - (id)N,GisPresentingDetachedFullScreen;
-- (void)erver:(_Bool)arg1;
+- (void)_addBoundingPathChangeObserver:(_Bool)arg1;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) AVButton *button; // @synthesize button=_button;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded; // @synthesize collapsedOrExcluded=_collapsedOrExcluded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
 @property(retain, nonatomic) UIActivityIndicatorView *loadingIndicator; // @synthesize loadingIndicator=_loadingIndicator;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) _Bool showsLoadingIndicator; // @synthesize showsLoadingIndicator=_showsLoadingIndicator;
-@property(readonly) Class superclass;
 
 @end
 

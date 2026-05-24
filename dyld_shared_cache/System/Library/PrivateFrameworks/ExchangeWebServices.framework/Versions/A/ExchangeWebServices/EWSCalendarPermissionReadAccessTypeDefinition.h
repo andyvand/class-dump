@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)ons:(id)arg1 %lu… | opening database for creation [failed readonly open] result=%d;
 
 @end
 

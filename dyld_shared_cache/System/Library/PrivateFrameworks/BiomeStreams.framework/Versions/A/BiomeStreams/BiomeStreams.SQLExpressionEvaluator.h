@@ -7,9 +7,6 @@
 @interface BiomeStreams.SQLExpressionEvaluator
 {
     id isDbInternal;
-    id db;
-    id registry;
-    id truthyStmt;
 }
 
 @end

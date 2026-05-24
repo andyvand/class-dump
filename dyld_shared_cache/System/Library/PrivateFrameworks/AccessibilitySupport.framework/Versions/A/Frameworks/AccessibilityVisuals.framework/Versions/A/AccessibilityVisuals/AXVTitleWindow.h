@@ -6,18 +6,15 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVTextField, NSString;
-@protocol AXVTitleWindowMouseEventDelegate;
+@class AXVTextField;
 
 @interface AXVTitleWindow : AXVVoiceOverStyleWindow
 {
     double _baseFontSize;
-    id <AXVTitleWindowMouseEventDelegate> _mouseEventDelegate;
-    AXVTextField *__titleTextField;
 }
 
 - (id);
-- (void);
+- (void)C;
 - (struct CGSize);
 - (struct CGSize);
 - (id);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (id);
@@ -34,20 +31,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setTitleTextField:) AXVTextField *_titleTextField; // @synthesize _titleTextField=__titleTextField;
-@property(nonatomic) double baseFontSize; // @synthesize baseFontSize=_baseFontSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AXVTitleWindowMouseEventDelegate> mouseEventDelegate; // @synthesize mouseEventDelegate=_mouseEventDelegate;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *visualTitle;
 
 @end
 

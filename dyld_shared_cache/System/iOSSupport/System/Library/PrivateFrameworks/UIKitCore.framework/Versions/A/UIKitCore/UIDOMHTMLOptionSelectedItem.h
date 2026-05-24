@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     DOMHTMLOptionElement *_node;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)received message played on linked device:(id)arg1 %@;
+- (id)IMDCollaborationClearNoticeRateLimiter;
+- (void)H;
 - (id);
 - (void);
 - (_Bool)

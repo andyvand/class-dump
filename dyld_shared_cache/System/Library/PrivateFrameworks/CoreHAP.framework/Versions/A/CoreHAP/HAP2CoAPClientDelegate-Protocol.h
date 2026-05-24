@@ -5,5 +5,9 @@
 //
 
 @protocol HAP2CoAPClientDelegate
+- (void)ActiveObjectINS4_33GnssPreprocessedMeasurementsEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+
+@optional
+- (void);
 @end
 

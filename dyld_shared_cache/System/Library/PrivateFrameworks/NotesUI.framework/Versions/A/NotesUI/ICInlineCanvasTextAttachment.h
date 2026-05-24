@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachmentViews;
 @property(readonly, nonatomic) NSArray *inlineViews;
 @end
 

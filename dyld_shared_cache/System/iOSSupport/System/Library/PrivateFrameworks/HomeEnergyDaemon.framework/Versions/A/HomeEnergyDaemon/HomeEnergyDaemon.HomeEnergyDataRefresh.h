@@ -8,9 +8,6 @@
 {
     id $defaultActor;
     id reachable;
-    id reachabilityStatus;
-    id nextPollDate;
-    id missedCacheRefresh;
 }
 
 @end

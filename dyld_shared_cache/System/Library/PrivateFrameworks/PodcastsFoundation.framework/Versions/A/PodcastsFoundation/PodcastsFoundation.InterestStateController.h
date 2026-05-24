@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.InterestStateController
 {
     id dataSource;
-    id stateMachines;
-    id startedObserving;
 }
 
 @end

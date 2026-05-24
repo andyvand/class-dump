@@ -9,19 +9,17 @@
 @interface ADWatchDog
 {
     NSString *_reason;
-    unsigned long long _delayTime;
 }
 
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long delayTime; // @synthesize delayTime=_delayTime;
 @property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)longitude;
++ (id)ar;
++ (id)results;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface Foundation.__PlistDictionaryEncoder
 {
     id storage;
-    id options;
-    id encoderCodingPathNode;
-    id codingPathDepth;
 }
 
 @end

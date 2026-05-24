@@ -9,19 +9,16 @@
 @interface CNVCardFilteredPersonScope
 {
     NSSet *_excludedFields;
-    unsigned long long _filterOptions;
 }
 
-- (unsigned long long);
+- (unsigned long long)?;
+- (id)qh;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isEmpty) _Bool empty;
 @property(readonly) NSSet *excludedFields; // @synthesize excludedFields=_excludedFields;
-@property(readonly) unsigned long long filterOptions; // @synthesize filterOptions=_filterOptions;
 
 @end
 

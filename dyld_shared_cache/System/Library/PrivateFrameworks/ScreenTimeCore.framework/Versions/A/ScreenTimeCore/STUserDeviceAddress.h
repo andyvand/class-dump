@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, STCoreDevice, STCoreUser;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface STUserDeviceAddress
 {
 }
 
-+ (id);
++ (id)IN base_location USING(base_location_id) WHERE path = '/var/mobile/Media/Podcasts');
 
 // Remaining properties
-@property(retain, nonatomic) STCoreDevice *device; // @dynamic device;
 @property(retain, nonatomic) NSString *idsURI; // @dynamic idsURI;
-@property(retain, nonatomic) STCoreUser *user; // @dynamic user;
 
 @end
 

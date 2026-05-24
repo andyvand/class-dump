@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCaptionedPhoto, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuideLocationImage
 {
     PBUnknownFields *_unknownFields;
-    GEOPDCaptionedPhoto *_image;
-    int _imageType;
-    struct {
-        unsigned int has_imageType:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)kingListInstruction;
+- (id)_drivingWalkingListInstruction;
 - (id)È§<¨¨$­?®¯0°À°±;
 - (void);
 

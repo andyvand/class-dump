@@ -7,11 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBShowAppStoreSheetCommand
-- (NSString *)minent;
+- (NSString *)nload:isHintBased:uti:store:key:localAvailabilityTarget: /* Error: Ran out of types for this method. */;
+- (NSData *)ata",&;
+- (NSString *)hasIs_prominent;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *storeIdentifier;
 @end
 

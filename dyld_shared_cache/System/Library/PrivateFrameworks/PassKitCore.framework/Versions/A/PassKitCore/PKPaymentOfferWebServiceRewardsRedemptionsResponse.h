@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceResponse.h>
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface PKPaymentOfferWebServiceRewardsRedemptionsResponse : PKPaymentOfferWebServiceResponse
 {
     _Bool _moreComing;
-    NSArray *_rewardsRedemptions;
-    NSDate *_lastUpdated;
 }
 
 - (void);
@@ -23,11 +21,9 @@
 - (id);
 - (void)
 × ;
-- (void)ber;
+- (void)vehicleNumber;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(nonatomic) _Bool moreComing; // @synthesize moreComing=_moreComing;
 @property(retain, nonatomic) NSArray *rewardsRedemptions; // @synthesize rewardsRedemptions=_rewardsRedemptions;
 
 @end

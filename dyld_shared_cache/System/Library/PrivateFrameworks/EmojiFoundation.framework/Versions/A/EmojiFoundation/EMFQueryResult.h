@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFQuery, EMFQueryResultOverride, NSArray, NSDictionary, NSOrderedSet;
+@class EMFQuery, NSOrderedSet;
 
 @interface EMFQueryResult
 {
     NSOrderedSet *_sortedResultSet;
-    NSArray *_documentMatches;
-    EMFQueryResultOverride *_resultOverride;
-    EMFQuery *_query;
-    NSDictionary *_matchingDocumentWeights;
 }
 
 + (struct __EmojiTokenWrapper *);
 + (id);
+- (id)uItem"8;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)appleEventSaysPreserveState;
+- (id)excludePrivateWindowsSetting;
+- (id)ller.sandboxFileExtensionMaintenanceScheduler;
+- (id)y;
+- (id)LeakAuditorConfig;
+- (_Bool)ompt asking the user if they want to allow a website to show a wallet order;
+- (id)a website to initiate a print;
+- (id)an in-tab prompt asking the user if they want to allow a website to initiate a print;
+- (id)t. Do you want to print this webpage?;
+- (id)osiing an email;
+- (id)ey want to allow a website to automatically start composiing an email;
+- (id)lly start composing an email.;
+- (id)e Watch to confirm your payment.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *documentMatches; // @synthesize documentMatches=_documentMatches;
-@property(readonly, nonatomic) NSDictionary *matchingDocumentWeights; // @synthesize matchingDocumentWeights=_matchingDocumentWeights;
 @property(readonly, nonatomic) EMFQuery *query; // @synthesize query=_query;
-@property(readonly, copy, nonatomic) EMFQueryResultOverride *resultOverride; // @synthesize resultOverride=_resultOverride;
 
 @end
 

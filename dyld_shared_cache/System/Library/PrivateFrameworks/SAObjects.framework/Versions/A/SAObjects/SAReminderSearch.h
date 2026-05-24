@@ -6,14 +6,14 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface SAReminderSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)okBlock': /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -21,22 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�;
+- (id));
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id)acteristics;
+- (id)characteristics;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *completionStatus;
-@property(copy, nonatomic) NSDate *dueAfter;
-@property(copy, nonatomic) NSDate *dueBefore;
-@property(copy, nonatomic) NSString *listName;
-@property(copy, nonatomic) NSString *subject;
-@property(copy, nonatomic) NSString *timeZoneId;
 
 @end
 

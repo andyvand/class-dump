@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSXMLElement;
+@class NSDate;
 
 @interface TSTAIUTCValue
 {
     NSDate *_utcDate;
-    NSDate *_taiDate;
-    unsigned long long _modifiedJulianDay;
-    double _constant;
-    double _coefficient;
-    unsigned long long _offset;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,14 +32,7 @@
 - (double)Ô ;
 
 // Remaining properties
-@property(nonatomic) double coefficient; // @synthesize coefficient=_coefficient;
-@property(nonatomic) double constant; // @synthesize constant=_constant;
-@property(readonly, nonatomic) NSDictionary *dictionary; // @dynamic dictionary;
-@property(nonatomic) unsigned long long modifiedJulianDay; // @synthesize modifiedJulianDay=_modifiedJulianDay;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(retain, nonatomic) NSDate *taiDate; // @synthesize taiDate=_taiDate;
 @property(retain, nonatomic) NSDate *utcDate; // @synthesize utcDate=_utcDate;
-@property(readonly, nonatomic) NSXMLElement *xmlElement; // @dynamic xmlElement;
 
 @end
 

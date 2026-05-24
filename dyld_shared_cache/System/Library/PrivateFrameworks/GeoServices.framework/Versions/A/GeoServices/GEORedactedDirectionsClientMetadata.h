@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORedactedDirectionsClientMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSString *_destinationHash;
-    int _predictedDepartureTimeDelta;
-    struct {
-        unsigned int has_predictedDepartureTimeDelta:1;
-    } _flags;
 }
 
-+ (_Bool)tLocationContext:(id)arg1;
++ (_Bool)setLocationContext:(id)arg1;
+- (void)vateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis;
 - (void);
-- (void);
-- (int);
+- (int)prepareBootSessionUUID;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,24 +24,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dispatch_queue>",&,N,V_xpcReplyQueue;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ead_appMinorVersion"b1"read_autocompleteOriginationPreviousLatlng"b1"read_automobileOptions"b1"read_carHeadunitManufacturer"b1"read_carHeadunitModel"b1"read_currentLocaleCurrencySymbol"b1"read_cyclingOptions"b1"read_deviceLocation"b1"read_deviceDisplayLanguages"b1"read_deviceKeyboardLocale"b1"read_deviceSpokenLocale"b1"read_displayRegion"b1"read_evChargingPorts"b1"read_hardwareIdentifier"b1"read_historicalLocations"b1"read_mapRegion"b1"read_photoSizes"b1"read_previousSearchViewport"b1"read_privacyMetadata"b1"read_providerID"b1"read_recentAutocompleteSessionData"b1"read_resultRefinementQuery"b1"read_reviewUserPhotoSizes"b1"read_searchEnrichmentClientRequestId"b1"read_searchEnrichmentRoutingInfoData"b1"read_searchImplicitFilterInfo"b1"read_searchOriginationPreviousLatlng"b1"read_spotlightSearchPunchinEncodedString"b1"read_transitOptions"b1"read_transitScheduleFilter"b1"read_transitTripStopTimeFilter"b1"read_userActionMetadata"b1"read_venueIdentifier"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)ilityForCoordinate:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)determineAvailabilityForCoordinate:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)±`²H³´µÜµÈ¶·Ô·;
 - (id)rizedPhotosFilterReadAllFrom can only be called once per object;
 - (void)Lã^IP@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationHash;
 @property(readonly, nonatomic) _Bool hasDestinationHash;
-@property(nonatomic) _Bool hasPredictedDepartureTimeDelta;
-@property(nonatomic) int predictedDepartureTimeDelta;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

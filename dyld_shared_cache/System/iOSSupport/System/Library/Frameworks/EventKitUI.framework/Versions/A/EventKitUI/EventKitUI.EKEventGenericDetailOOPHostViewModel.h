@@ -7,12 +7,10 @@
 @interface EventKitUI.EKEventGenericDetailOOPHostViewModel
 {
     id remoteUIConfigured;
-    id _configuration;
-    id _backgroundColor;
 }
 
 - (id);
-- (void)ns: /* Error: Ran out of types for this method. */;
+- (void)initWithContact:placement:options: /* Error: Ran out of types for this method. */;
 
 @end
 

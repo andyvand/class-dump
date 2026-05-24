@@ -9,17 +9,14 @@
 @interface PXPasteboardAssetSettings : PXSettings
 {
     _Bool _fileURLEnabled;
-    _Bool _imageDataEnabled;
-    _Bool _alwaysUseDataProviderForObjectReference;
-    _Bool _synchronousFullSizePreviewEnabled;
 }
 
-+ (id);
++ (id)yout;
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@9?;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysUseDataProviderForObjectReference; // @synthesize alwaysUseDataProviderForObjectReference=_alwaysUseDataProviderForObjectReference;
 @property(nonatomic) _Bool fileURLEnabled; // @synthesize fileURLEnabled=_fileURLEnabled;
-@property(nonatomic) _Bool imageDataEnabled; // @synthesize imageDataEnabled=_imageDataEnabled;
-@property(nonatomic) _Bool synchronousFullSizePreviewEnabled; // @synthesize synchronousFullSizePreviewEnabled=_synchronousFullSizePreviewEnabled;
 
 @end
 

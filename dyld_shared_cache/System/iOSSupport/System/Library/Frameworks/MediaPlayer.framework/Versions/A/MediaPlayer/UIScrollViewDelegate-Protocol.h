@@ -9,6 +9,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (_Bool)T;
 - (UIView *)!(@ù1@Ð1Â0@ù
 × ;
 - (void)nID setting target session ID = %{public}d;

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsed : SISchemaInstrumentationMessage
 {
     NSString *_autoshortcutTemplate;
-    _Bool _hasAutoshortcutTemplate;
 }
 
 - (void);
@@ -23,7 +22,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ensions";
 - (id)",&,N,V_backgroundContent;
@@ -32,8 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *autoshortcutTemplate; // @synthesize autoshortcutTemplate=_autoshortcutTemplate;
-@property(nonatomic) _Bool hasAutoshortcutTemplate; // @synthesize hasAutoshortcutTemplate=_hasAutoshortcutTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,40 +6,23 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class NSNumber, NSString;
-
 @interface MontrealNNModelOptimizerParam : MontrealNNDescription
 {
     float _learningRate;
-    float _momentum;
-    unsigned long long _optimizerType;
-    NSNumber *_gradientClipMin;
-    NSNumber *_gradientClipMax;
 }
 
 - (unsigned long long);
-- (float);
+- (float)3;
 - (id);
 - (void);
 - (id);
 - (id);
 - (float);
 - (id);
-- (void);
+- (void)u^@9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *gradientClipMax; // @synthesize gradientClipMax=_gradientClipMax;
-@property(readonly) NSNumber *gradientClipMin; // @synthesize gradientClipMin=_gradientClipMin;
-@property(readonly) unsigned long long hash;
-@property(readonly) float learningRate; // @synthesize learningRate=_learningRate;
-@property(readonly) float momentum; // @synthesize momentum=_momentum;
 @property(readonly) unsigned long long optimizerType; // @synthesize optimizerType=_optimizerType;
-@property(readonly) Class superclass;
 
 @end
 

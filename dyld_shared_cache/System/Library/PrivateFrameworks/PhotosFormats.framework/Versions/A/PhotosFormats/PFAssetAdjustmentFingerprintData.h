@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PFAssetAdjustmentFingerprintData
 {
     NSString *_adjustmentType;
-    NSString *_adjustmentCompoundVersion;
-    NSString *_adjustmentCreatorCode;
-    unsigned long long _adjustmentSourceType;
-    NSData *_simpleAdjustmentData;
-    NSData *_baseImage;
-    NSString *_baseImageFingerprint;
-    NSData *_largeAdjustmentData;
-    NSString *_largeAdjustmentDataFingerprint;
-    NSData *_secondaryAdjustmentData;
 }
 
-- (void);
+- (void)R;
 - (id);
-- (id);
-- (id);
+- (id)Y;
+- (id)W;
 - (id);
 - (id);
 - (void);
@@ -39,20 +30,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setTrafficClassVOSucceededLarge: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *adjustmentCompoundVersion; // @synthesize adjustmentCompoundVersion=_adjustmentCompoundVersion;
-@property(copy, nonatomic) NSString *adjustmentCreatorCode; // @synthesize adjustmentCreatorCode=_adjustmentCreatorCode;
-@property(nonatomic) unsigned long long adjustmentSourceType; // @synthesize adjustmentSourceType=_adjustmentSourceType;
 @property(copy, nonatomic) NSString *adjustmentType; // @synthesize adjustmentType=_adjustmentType;
-@property(copy, nonatomic) NSData *baseImage; // @synthesize baseImage=_baseImage;
-@property(copy, nonatomic) NSString *baseImageFingerprint; // @synthesize baseImageFingerprint=_baseImageFingerprint;
-@property(copy, nonatomic) NSData *largeAdjustmentData; // @synthesize largeAdjustmentData=_largeAdjustmentData;
-@property(copy, nonatomic) NSString *largeAdjustmentDataFingerprint; // @synthesize largeAdjustmentDataFingerprint=_largeAdjustmentDataFingerprint;
-@property(copy, nonatomic) NSData *secondaryAdjustmentData; // @synthesize secondaryAdjustmentData=_secondaryAdjustmentData;
-@property(copy, nonatomic) NSData *simpleAdjustmentData; // @synthesize simpleAdjustmentData=_simpleAdjustmentData;
 
 @end
 

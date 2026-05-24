@@ -9,18 +9,16 @@
 @interface CNPolicyDescription
 {
     _Bool _ignoresGuardianRestrictions;
-    NSString *_containerIdentifier;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id)gument;
-- (void)dates;
+- (void)updates;
 
 // Remaining properties
 @property(copy) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
 
 @end
 

@@ -9,18 +9,16 @@
 @interface FCIssueOverrides
 {
     NSString *_title;
-    NSString *_issueDescription;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)DataContext:networkBehaviorMonitor:networkReachability:options: /* Error: Ran out of types for this method. */;
-- (void)edByArticleListIDs;
+- (id);
+- (id)initWithContentContext:privateDataContext:networkBehaviorMonitor:networkReachability:options: /* Error: Ran out of types for this method. */;
+- (void)surfacedByArticleListIDs;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

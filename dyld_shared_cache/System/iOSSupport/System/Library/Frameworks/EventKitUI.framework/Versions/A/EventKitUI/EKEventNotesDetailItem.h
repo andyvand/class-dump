@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
++ (id)-(s;
 + (id);
 + (CDUnknownBlockType);
+- (id)q,;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)? ;
 
 @end
 

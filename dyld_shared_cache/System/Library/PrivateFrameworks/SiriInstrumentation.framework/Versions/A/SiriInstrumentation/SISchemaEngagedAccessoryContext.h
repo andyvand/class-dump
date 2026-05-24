@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaEngagedAccessoryContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_accessoryId;
-    int _homeKitAccessoryType;
-    NSString *_accessoryBrand;
-    NSString *_accessoryModel;
-    _Bool _isAudioPlaybackCapable;
-    _Bool _isThirdPartyMusicEnabled;
-    struct {
-        unsigned int homeKitAccessoryType:1;
-        unsigned int isAudioPlaybackCapable:1;
-        unsigned int isThirdPartyMusicEnabled:1;
-    } _has;
-    _Bool _hasAccessoryId;
-    _Bool _hasAccessoryBrand;
-    _Bool _hasAccessoryModel;
 }
 
 - (void);
@@ -31,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,46 +29,34 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)r;
+- (_Bool)mpanyRow(AB_NAMEVIEW_COMPANYCHECKBOX_HEIGHT)];
+- (_Bool)onIterateRow(IMDSqlOperation *, __strong IMDSqlOperationColumnIterator);
 - (id);
 - (id);
-- (id)OfDay;
-- (id)Triggered;
-- (void)ejectBeforeActivationCount;
+- (id)deleteCalendarHourOfDay;
+- (id)_contextualEntityCollectionTriggered;
+- (void)checkerHSRejectBeforeActivationCount;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessoryBrand; // @synthesize accessoryBrand=_accessoryBrand;
 @property(retain, nonatomic) SISchemaUUID *accessoryId; // @synthesize accessoryId=_accessoryId;
-@property(copy, nonatomic) NSString *accessoryModel; // @synthesize accessoryModel=_accessoryModel;
-@property(nonatomic) _Bool hasAccessoryBrand; // @synthesize hasAccessoryBrand=_hasAccessoryBrand;
-@property(nonatomic) _Bool hasAccessoryId; // @synthesize hasAccessoryId=_hasAccessoryId;
-@property(nonatomic) _Bool hasAccessoryModel; // @synthesize hasAccessoryModel=_hasAccessoryModel;
-@property(nonatomic) _Bool hasHomeKitAccessoryType;
-@property(nonatomic) _Bool hasIsAudioPlaybackCapable;
-@property(nonatomic) _Bool hasIsThirdPartyMusicEnabled;
-@property(nonatomic) int homeKitAccessoryType; // @synthesize homeKitAccessoryType=_homeKitAccessoryType;
-@property(nonatomic) _Bool isAudioPlaybackCapable; // @synthesize isAudioPlaybackCapable=_isAudioPlaybackCapable;
-@property(nonatomic) _Bool isThirdPartyMusicEnabled; // @synthesize isThirdPartyMusicEnabled=_isThirdPartyMusicEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

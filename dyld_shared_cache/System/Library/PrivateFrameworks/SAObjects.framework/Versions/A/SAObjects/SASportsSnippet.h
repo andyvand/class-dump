@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class SASportsLeague, SAUIAppPunchOut;
+@class SASportsLeague;
 
 @interface SASportsSnippet : SAUISnippet
 {
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SASportsLeague *league;
-@property(retain, nonatomic) SAUIAppPunchOut *leagueAppPunchOut;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
 
 @end
 

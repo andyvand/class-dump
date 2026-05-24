@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStoryMovieHighlight;
-
 @protocol PXStoryVisualDiagnosticsCropRectsConfiguration
+- (CDStruct_6bc7ba05);
 
 // Remaining properties
-@property(nonatomic) struct CGSize TVPreviewSize;
-@property(nonatomic) CDStruct_24e54195 kenBurnsAnimationInfo;
-@property(retain, nonatomic) id <PXStoryMovieHighlight> movieHighlight;
+@property(nonatomic) CDStruct_6bc7ba05 kenBurnsAnimationInfo;
 @end
 

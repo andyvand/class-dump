@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSString;
-@protocol HMFStagedValueDelegate;
-
 @interface HMFStagedValue
 {
     struct os_unfair_lock_s _lock;
-    id _stagedValue;
-    _Bool _isStaged;
-    id _committedValue;
-    HMFTimer *_timer;
-    id <HMFStagedValueDelegate> _delegate;
-    CDUnknownBlockType _timerFactory;
 }
 
 + (id)ý!;
 - (void);
 - (void);
-- (void);
+- (void)ԁ_;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -41,18 +32,6 @@
 
 // Remaining properties
 @property(retain) id committedValue; // @synthesize committedValue=_committedValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFStagedValueDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isStaged) _Bool staged;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *timer; // @synthesize timer=_timer;
-@property(copy) CDUnknownBlockType timerFactory; // @synthesize timerFactory=_timerFactory;
-@property(readonly) id value;
 
 @end
 

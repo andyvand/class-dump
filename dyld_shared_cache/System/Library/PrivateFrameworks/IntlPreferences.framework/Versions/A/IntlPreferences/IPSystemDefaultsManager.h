@@ -11,11 +11,11 @@
     SFAuthorization *_authorization;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
++ (id)characterAtIndex: /* Error: Ran out of types for this method. */;
++ (_Bool)appendImage:withPresentationTime:usingAdaptor: /* Error: Ran out of types for this method. */;
+- (void)cylinderWithRadius:height:options: /* Error: Ran out of types for this method. */;
+- (void)customMaterialPropertyNames;
+- (void)correctiveInBetweenWeights;
 - (void);
 - (void);
 - (void);

@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol GEOFeaturesControllerDelegate;
+@class NSArray;
 
 @interface GEOFeaturesController
 {
     NSArray *_features;
-    id <GEOFeaturesControllerDelegate> _delegate;
 }
 
-- (void);
-- (void);
+- (void)ate(%@);
+- (void)!;
+- (id)UserSpeakingStartedHostTime];
 - (id);
+- (void)_externalLeftView;
 - (id);
-- (void);
-- (id);
-- (void)configuration_value;
+- (void)module_configuration_value;
 - (void)<$;
 - (void)Í74Å4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GEOFeaturesControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *features; // @synthesize features=_features;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

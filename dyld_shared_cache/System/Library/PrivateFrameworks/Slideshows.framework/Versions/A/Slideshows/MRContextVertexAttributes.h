@@ -7,8 +7,6 @@
 @interface MRContextVertexAttributes
 {
     const void *pointer;
-    unsigned long long size;
-    _Bool enabled;
 }
 
 @end

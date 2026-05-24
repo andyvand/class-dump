@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)datasUpToLimit:(id)arg1 deleteContext:error: /* Error: Ran out of types for this method. */;
 
 @end
 

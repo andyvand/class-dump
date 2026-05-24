@@ -11,26 +11,22 @@
 @interface SSSystemPreferenceResultBuilder : SSResultBuilder
 {
     NSString *_bundleId;
-    NSString *_name;
-    NSString *_preferenceDescription;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)unarchiver:didDecodeObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)TopHitSection:queryContext:ranker: /* Error: Ran out of types for this method. */;
+- (void)initWithQueryId:categoryToResultMapping:currentTopHitSection:queryContext:ranker: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *preferenceDescription; // @synthesize preferenceDescription=_preferenceDescription;
 
 @end
 

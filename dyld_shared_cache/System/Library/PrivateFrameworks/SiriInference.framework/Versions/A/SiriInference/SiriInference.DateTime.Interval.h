@@ -7,8 +7,6 @@
 @interface SiriInference.DateTime.Interval
 {
     id quantity;
-    id timeUnit;
-    id qualifier;
 }
 
 @end

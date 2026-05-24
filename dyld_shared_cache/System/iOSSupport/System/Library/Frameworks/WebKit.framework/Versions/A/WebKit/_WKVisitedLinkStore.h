@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _WKVisitedLinkStore
 {
     struct AlignedStorage<WebKit::VisitedLinkStore, 8UL> _visitedLinkStore;
@@ -17,18 +15,11 @@
 - (void);
 - (struct Object *);
 - (void);
-- (id);
-- (void)xportedContentConfiguration;
+- (id);
+- (void)ExportedContentConfiguration;
 
 // Remaining properties
 @property(readonly) struct Object *_apiObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

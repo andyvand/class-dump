@@ -5,5 +5,6 @@
 //
 
 @protocol NFSecureElementAndHostCardEmulationSessionInterface
+- (oneway void)left;
 @end
 

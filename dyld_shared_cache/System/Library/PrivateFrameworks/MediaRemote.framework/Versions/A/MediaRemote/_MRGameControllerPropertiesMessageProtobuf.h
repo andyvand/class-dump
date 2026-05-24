@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRGameControllerPropertiesProtobuf;
-
 @interface _MRGameControllerPropertiesMessageProtobuf
 {
     unsigned long long _controllerID;
-    _MRGameControllerPropertiesProtobuf *_properties;
-    CDStruct_669c4a63 _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -23,19 +19,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)FMXPCActivity;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void)er;
+- (id)countStatusWithCompletion:] /* Error: Ran out of types for this method. */;
+- (void)_incomingMessageHandler;
 
 // Remaining properties
-@property(nonatomic) unsigned long long controllerID; // @synthesize controllerID=_controllerID;
 @property(nonatomic) _Bool hasControllerID;
-@property(readonly, nonatomic) _Bool hasProperties;
-@property(retain, nonatomic) _MRGameControllerPropertiesProtobuf *properties; // @synthesize properties=_properties;
 
 @end
 

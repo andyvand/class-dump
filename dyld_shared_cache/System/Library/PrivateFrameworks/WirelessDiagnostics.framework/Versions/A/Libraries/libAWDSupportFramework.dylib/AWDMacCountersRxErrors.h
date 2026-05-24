@@ -7,21 +7,6 @@
 @interface AWDMacCountersRxErrors
 {
     unsigned long long _rxbadfcs;
-    unsigned long long _rxbadplcp;
-    unsigned long long _rxcrsglitch;
-    unsigned long long _rxfrmtoolong;
-    unsigned long long _rxfrmtooshrt;
-    unsigned long long _rxinvmachdr;
-    unsigned long long _rxstrt;
-    struct {
-        unsigned int rxbadfcs:1;
-        unsigned int rxbadplcp:1;
-        unsigned int rxcrsglitch:1;
-        unsigned int rxfrmtoolong:1;
-        unsigned int rxfrmtooshrt:1;
-        unsigned int rxinvmachdr:1;
-        unsigned int rxstrt:1;
-    } _has;
 }
 
 - (void);
@@ -29,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)bj+` 	j(!`	i;
 - (void);
 - (void);
 - (void);
@@ -45,8 +30,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)&;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -54,7 +39,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)9;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -63,20 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRxbadfcs;
-@property(nonatomic) _Bool hasRxbadplcp;
-@property(nonatomic) _Bool hasRxcrsglitch;
 @property(nonatomic) _Bool hasRxfrmtoolong;
-@property(nonatomic) _Bool hasRxfrmtooshrt;
-@property(nonatomic) _Bool hasRxinvmachdr;
-@property(nonatomic) _Bool hasRxstrt;
-@property(nonatomic) unsigned long long rxbadfcs; // @synthesize rxbadfcs=_rxbadfcs;
-@property(nonatomic) unsigned long long rxbadplcp; // @synthesize rxbadplcp=_rxbadplcp;
-@property(nonatomic) unsigned long long rxcrsglitch; // @synthesize rxcrsglitch=_rxcrsglitch;
-@property(nonatomic) unsigned long long rxfrmtoolong; // @synthesize rxfrmtoolong=_rxfrmtoolong;
-@property(nonatomic) unsigned long long rxfrmtooshrt; // @synthesize rxfrmtooshrt=_rxfrmtooshrt;
-@property(nonatomic) unsigned long long rxinvmachdr; // @synthesize rxinvmachdr=_rxinvmachdr;
-@property(nonatomic) unsigned long long rxstrt; // @synthesize rxstrt=_rxstrt;
 
 @end
 

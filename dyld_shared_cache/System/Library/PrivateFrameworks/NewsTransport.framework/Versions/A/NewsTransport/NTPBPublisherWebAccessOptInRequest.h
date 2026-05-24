@@ -9,54 +9,38 @@
 @interface NTPBPublisherWebAccessOptInRequest
 {
     NSString *_channelId;
-    NSString *_country;
-    NSString *_email;
-    NSString *_iapId;
-    NSString *_language;
-    NSString *_purchaseReceipt;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)forcedKenBurnsScaleDirection;
+- (void)fetchKeyAssetBySuggestionUUIDForSuggestions:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)createCuratedLibraryLayoutSkimmingSlideshowAnimationFromSectionIndexPath:toSectionIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)configureBackgroundOfToastContentView: /* Error: Ran out of types for this method. */;
+- (_Bool)clipWithResourceKind:afterClipIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)chapterHeaderPadding;
+- (id)applyStyleAtIndex:fromDataSource: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)__objc_protorefs__DATA_CONST;
 - (void);
 - (unsigned long long);
+- (_Bool)rned nil, error %@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)atestIssueIDs: /* Error: Ran out of types for this method. */;
-- (void)nTitles;
+- (void)setLatestIssueIDs: /* Error: Ran out of types for this method. */;
+- (void)allowSectionTitles;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
 @property(readonly, nonatomic) _Bool hasChannelId;
-@property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasEmail;
-@property(readonly, nonatomic) _Bool hasIapId;
-@property(readonly, nonatomic) _Bool hasLanguage;
-@property(readonly, nonatomic) _Bool hasPurchaseReceipt;
-@property(retain, nonatomic) NSString *iapId; // @synthesize iapId=_iapId;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *purchaseReceipt; // @synthesize purchaseReceipt=_purchaseReceipt;
 
 @end
 

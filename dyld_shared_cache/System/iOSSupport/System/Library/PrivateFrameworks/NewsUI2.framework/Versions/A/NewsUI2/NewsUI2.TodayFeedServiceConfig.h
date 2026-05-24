@@ -7,17 +7,6 @@
 @interface NewsUI2.TodayFeedServiceConfig
 {
     id context;
-    id contentConfig;
-    id contentConfigData;
-    id paidBundleConfig;
-    id appConfig;
-    id cachePolicy;
-    id subscriptionController;
-    id refreshInterval;
-    id cacheKey;
-    id canCache;
-    id sportsOnboardingState;
-    id featureAvailability;
 }
 
 @end

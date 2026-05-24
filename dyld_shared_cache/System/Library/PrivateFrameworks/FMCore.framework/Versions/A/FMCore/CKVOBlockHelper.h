@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CKVOBlockHelper
 {
     id _observedObject;
-    NSMutableDictionary *_tokensByContext;
-    long long _nextIdentifier;
 }
 
-- (id);
+- (id)ublic}@;
 - (void);
 - (id);
 - (id);
@@ -29,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long nextIdentifier; // @synthesize nextIdentifier=_nextIdentifier;
 @property(readonly, nonatomic) __weak id observedObject; // @synthesize observedObject=_observedObject;
-@property(readonly, nonatomic) NSMutableDictionary *tokensByContext; // @synthesize tokensByContext=_tokensByContext;
 
 @end
 

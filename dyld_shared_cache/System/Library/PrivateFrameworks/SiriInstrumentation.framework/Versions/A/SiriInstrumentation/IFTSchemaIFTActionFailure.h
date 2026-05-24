@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionFailureFailure, NSData;
-
 @interface IFTSchemaIFTActionFailure : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTActionFailureFailure *_failure;
-    CDStruct_b33ad018 _has;
-    _Bool _hasFailure;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)SImage",&,N,V_icon;
+- (_Bool)/PreferencePanes/AppleIDPrefPane.prefPane;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)code;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)24;
 - (id)!tð! Aùqàð1Â0@ù
 × ;
-- (id)ceOs:(id)arg1;
+- (id)setHasDeviceOs:(id)arg1;
 - (id)4;
 - (_Bool);
 - (void);
@@ -41,10 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(retain, nonatomic) IFTSchemaIFTActionFailureFailure *failure; // @synthesize failure=_failure;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasFailure; // @synthesize hasFailure=_hasFailure;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

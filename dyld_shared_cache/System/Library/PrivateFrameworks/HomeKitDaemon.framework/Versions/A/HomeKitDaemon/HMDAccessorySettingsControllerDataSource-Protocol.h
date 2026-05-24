@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySetupMetricDispatcher, HMDBackingStore, HMDCurrentAccessorySetupMetricDispatcher, HMDHome, HMFActivity;
+@class HMDBackingStore, HMDCurrentAccessorySetupMetricDispatcher, HMDHome, HMFActivity;
 
 @protocol HMDAccessorySettingsControllerDataSource
 - (HMDHome *)0@ù
 × ;
-- (void)E_PARTIAL_SUCCESS;
+- (void)TRIGGER_EXECUTION_ERROR_TITLE_PARTIAL_SUCCESS;
 - (HMDCurrentAccessorySetupMetricDispatcher *)"8;
 - (HMFActivity *);
 
 // Remaining properties
-@property(readonly) HMDAccessorySetupMetricDispatcher *accessorySetupMetricDispatcher;
 @property(readonly) HMDBackingStore *backingStore;
-@property(readonly) HMDCurrentAccessorySetupMetricDispatcher *currentAccessorySetupMetricDispatcher;
-@property __weak HMDHome *home;
-@property(retain) HMFActivity *setupActivity;
-@property double setupStartTimestamp;
-@property(readonly) _Bool supportsUserMediaSettings;
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)geMSNInstant;
+- (void)InstantMessageMSNInstant;
 
 // Remaining properties
 @property(retain) NSArray *firstLine; // @synthesize firstLine=_firstLine;

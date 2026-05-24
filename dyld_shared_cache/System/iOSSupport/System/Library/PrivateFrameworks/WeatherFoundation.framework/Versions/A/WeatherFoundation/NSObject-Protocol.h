@@ -7,16 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (id)@;
+- (Class)#;
+- (oneway void)o: /* Error: Ran out of types for this method. */;
+- (NSString *)lugin.transcriptGuidKey;
 - (struct _NSZone *)Ð1Â0@ù
 × ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

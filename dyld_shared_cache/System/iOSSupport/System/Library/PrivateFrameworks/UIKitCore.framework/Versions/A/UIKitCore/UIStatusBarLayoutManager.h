@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, UIStatusBarForegroundView, UIStatusBarItemView;
+@class UIStatusBarForegroundView;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarLayoutManager
 {
     int _region;
-    UIStatusBarItemView *_itemViews[52];
-    _Bool _persistentAnimationsEnabled;
-    _Bool _usesVerticalLayout;
-    UIStatusBarForegroundView *_foregroundView;
-    NSNumber *_assignedStartPosition;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
+- (id)blackholedChatsExist;
+- (_Bool)alternativeSpeakableMatches;
+- (_Bool)_updateNetworkMonitorFromAccountDefaultsIgnoringProxy:(id)arg1;
+- (_Bool)_tryToReuploadPersonalNicknameWithRetryCount:reuploadVersion: /* Error: Ran out of types for this method. */;
+- (double)_FTCopyOptionallyGzippedData;
+- (double)_FTCopyGzippedData;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)updateTemporaryFileTransferGUIDsWithPermanentFileTransferGUIDs:(id)arg1;
+- (void)tHTML;
+- (void);
 - (void);
 - (double);
 - (void);
@@ -34,24 +29,24 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (double);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (double);
+- (double)e period start window %@;
+- (void)int message is a user scheduled message;
+- (id)tiny mode before attempting to load data from disk. Will delete existing data.;
+- (id)the file at path:%@ for transfer:%@ /* Error: Ran out of types for this method. */;
+- (id)to download;
+- (_Bool)mponent> Started processing;
+- (double)idth="%ld" height="%ld" datasize="%llu";
+- (double)timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
@@ -62,15 +57,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)sure:(_Bool)arg1;
+- (void)colorWithRed:(_Bool)arg1 green:blue:alpha:linearExposure: /* Error: Ran out of types for this method. */;
 - (id)ount;
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *assignedStartPosition; // @synthesize assignedStartPosition=_assignedStartPosition;
 @property(nonatomic) __weak UIStatusBarForegroundView *foregroundView; // @synthesize foregroundView=_foregroundView;
-@property(nonatomic) _Bool persistentAnimationsEnabled; // @synthesize persistentAnimationsEnabled=_persistentAnimationsEnabled;
-@property(readonly, nonatomic) _Bool usesVerticalLayout; // @synthesize usesVerticalLayout=_usesVerticalLayout;
 
 @end
 

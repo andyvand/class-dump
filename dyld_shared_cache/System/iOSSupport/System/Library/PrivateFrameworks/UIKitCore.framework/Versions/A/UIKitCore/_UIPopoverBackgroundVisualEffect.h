@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (id)t_subterraneanViewContainer: /* Error: Ran out of types for this method. */;
+- (id)set_subterraneanViewContainer: /* Error: Ran out of types for this method. */;
 - (id)CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}d@},R,N;
 
 // Remaining properties

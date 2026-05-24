@@ -4,63 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, GEOMapRegion, GEOTextLink, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPDisplayDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_body;
-    GEOMapRegion *_displayRegion;
-    GEOTextLink *_outreachLink;
-    NSMutableArray *_places;
-    GEOLocalizedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _displayStyle;
-    int _mapType;
-    struct {
-        unsigned int has_displayStyle:1;
-        unsigned int has_mapType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_body:1;
-        unsigned int read_displayRegion:1;
-        unsigned int read_outreachLink:1;
-        unsigned int read_places:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)pFillRequest:(id)arg1;
++ (_Bool)setIsRoutePlanningEditStopFillRequest:(id)arg1;
 + (Class)þø;
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)rsistence.CNCDContactVCardParsedResultBuilderFactory;
+- (id)"NSPersistentStore"8;
+- (id)CNCustomPropertyMigrationTask;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)T@"NSArray",C,N,V_smartCamprints;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setHasReceivedNDEAPIResult: /* Error: Ran out of types for this method. */;
+- (void)%s Request to create audio injection device bundlePath :(id)arg1 %@, deviceName :%@, deviceId :%@, productId :%@ /* Error: Ran out of types for this method. */;
+- (id)h;
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (void);
@@ -70,9 +48,9 @@
 - (void);
 - (_Bool)× ;
 - (id)DChargerInfo";
-- (id)n: /* Error: Ran out of types for this method. */;
+- (id)addPredictedDestination: /* Error: Ran out of types for this method. */;
 - (id)ÆÔÇ	`Ë8Í Ð;
-- (int)ureAccessStaleCacheEnabled;
+- (int)MapFeatureAccessStaleCacheEnabled;
 - (id)sReadAllFrom can only be called once per object;
 - (_Bool)etTotalBytesLimit() in google/protobuf/io/coded_stream.h.;
 - (id)OìX;
@@ -86,20 +64,7 @@
 - (void)t8nf3;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocalizedString *body;
-@property(retain, nonatomic) GEOMapRegion *displayRegion;
-@property(nonatomic) int displayStyle;
-@property(readonly, nonatomic) _Bool hasBody;
-@property(readonly, nonatomic) _Bool hasDisplayRegion;
 @property(nonatomic) _Bool hasDisplayStyle;
-@property(nonatomic) _Bool hasMapType;
-@property(readonly, nonatomic) _Bool hasOutreachLink;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) int mapType;
-@property(retain, nonatomic) GEOTextLink *outreachLink;
-@property(retain, nonatomic) NSMutableArray *places;
-@property(retain, nonatomic) GEOLocalizedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

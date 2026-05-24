@@ -12,11 +12,11 @@
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
 
 // Remaining properties

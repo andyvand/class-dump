@@ -21,7 +21,7 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void)ionCaching;
+- (void)_sessionCaching;
 
 // Remaining properties
 @property(readonly, retain) NSNumber *strokeProviderVersion;

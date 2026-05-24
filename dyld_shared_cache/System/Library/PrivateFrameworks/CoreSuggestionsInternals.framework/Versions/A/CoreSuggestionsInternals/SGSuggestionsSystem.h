@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)addObserverForName:object:queue:usingBlock: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

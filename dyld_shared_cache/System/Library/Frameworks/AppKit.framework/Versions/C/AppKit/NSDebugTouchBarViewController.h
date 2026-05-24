@@ -6,35 +6,27 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSString, NSTableView;
+@class NSArray, NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTouchBarViewController : NSViewController
 {
     NSTableView *_tableView;
-    NSArray *_displayedItems;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)emporaryTextInRange: /* Error: Ran out of types for this method. */;
+- (void)_restoreTemporaryTextInRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *displayedItems; // @synthesize displayedItems=_displayedItems;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

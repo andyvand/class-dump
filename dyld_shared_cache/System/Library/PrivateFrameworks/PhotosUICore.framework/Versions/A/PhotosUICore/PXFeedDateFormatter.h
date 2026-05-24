@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSDateFormatter, NSLocale, NSString;
-
 @interface PXFeedDateFormatter
 {
     _Bool _prepared;
-    NSLocale *_locale;
-    _Bool _ignoreWhitelist;
-    NSCalendar *_calendar;
-    NSDate *_today;
-    NSDate *_yesterday;
-    NSString *_todayString;
-    NSString *_yesterdayString;
-    NSDateFormatter *_dateFormatterForCurrentYear;
-    NSDateFormatter *_dateFormatterForNoncurrentYears;
 }
 
 + (id);
@@ -30,7 +19,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)leftWithValue:withType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)t"8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (void);

@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSiriEndpointOnboardingSelections, NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMSiriEndpointApplyOnboardingSelectionsPayload
 {
     NSUUID *_accessoryUUID;
-    HMSiriEndpointOnboardingSelections *_onboardingSelections;
 }
 
 + (id);
 + (id)ProfileOnboarding;
-- (id);
+- (id)8;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)stormy;
+- (id)antisyzygy;
 - (id);
 - (id);
 - (void);
@@ -29,24 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMSiriEndpointOnboardingSelections *onboardingSelections; // @synthesize onboardingSelections=_onboardingSelections;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

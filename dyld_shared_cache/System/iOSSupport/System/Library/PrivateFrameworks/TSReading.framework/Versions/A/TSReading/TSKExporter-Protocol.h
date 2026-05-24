@@ -4,7 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, TSKDocumentRoot;
+
 @protocol TSKExporter
-- (_Bool)d: /* Error: Ran out of types for this method. */;
+- (id)ge:(TSKDocumentRoot *)arg1 identifier:) /* Error: Ran out of types for this method. */;
+- (_Bool)setLocked: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)IDEnumeratorStartingAfterContentItemID returned the same contentItemID:(_Bool)arg1 %@;
+- (void)laybackCore.MPCModelRadioQueueFeeder.loadingOperationQueue;
+- (void)- userIdentity=%@ - properties%@;
+- (void)st not have both response and error;
+- (NSString *)ricAVItemTimedMetadataRequest.m;
+- (_Bool);
+- (_Bool)iled to find targetContentItemID ;
+- (NSString *);
+- (void)=;
 @end
 

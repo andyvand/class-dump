@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)PrivateFrameworks/SafariCore.framework/Versions/A/SafariCore;
 @end
 

@@ -6,19 +6,11 @@
 
 #import <Accounts/ACAccountStore.h>
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSSet;
-@protocol NSObject;
+@class NSArray, NSSet;
 
 @interface ACMonitoredAccountStore : ACAccountStore
 {
     NSSet *_accountTypesToMonitor;
-    NSSet *_monitoringReaders;
-    NSArray *_propertiesToPrefetch;
-    NSMutableDictionary *_accountsByID;
-    NSHashTable *_delegates;
-    id <NSObject> _credentialsDidChangeObserver;
-    id <NSObject> _didBecomeActiveObserver;
-    struct os_unfair_lock_s _monitoredAccountsCacheLock;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -39,13 +31,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?%;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(readonly) NSArray *monitoredAccounts;

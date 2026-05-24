@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SFVoiceAnalytics;
+@class NSArray;
 
 @interface SFTranscriptionSegment
 {
     float _confidence;
-    NSString *_substring;
-    double _timestamp;
-    double _duration;
-    NSArray *_alternativeSubstrings;
-    SFVoiceAnalytics *_voiceAnalytics;
-    NSArray *_alternativeConfidences;
-    NSString *_phoneSequence;
-    NSString *_ipaPhoneSequence;
-    struct _NSRange _substringRange;
 }
 
 + (_Bool);
@@ -25,16 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)setSleepPowerStatsUnassociatedDuration: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (double);
 - (unsigned long long);
 - (double);
-- (id);
-- (_Bool);
+- (id)setGestureRecognizers: /* Error: Ran out of types for this method. */;
+- (_Bool)_newCorrectiveInBetweenWeights;
 - (void);
 - (id);
 - (float);
@@ -42,15 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alternativeConfidences; // @synthesize alternativeConfidences=_alternativeConfidences;
-@property(readonly, nonatomic) NSArray *alternativeSubstrings; // @synthesize alternativeSubstrings=_alternativeSubstrings;
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) NSString *ipaPhoneSequence; // @synthesize ipaPhoneSequence=_ipaPhoneSequence;
-@property(readonly, nonatomic) NSString *phoneSequence; // @synthesize phoneSequence=_phoneSequence;
-@property(readonly, copy, nonatomic) NSString *substring; // @synthesize substring=_substring;
-@property(readonly, nonatomic) struct _NSRange substringRange; // @synthesize substringRange=_substringRange;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) SFVoiceAnalytics *voiceAnalytics; // @synthesize voiceAnalytics=_voiceAnalytics;
 
 @end
 

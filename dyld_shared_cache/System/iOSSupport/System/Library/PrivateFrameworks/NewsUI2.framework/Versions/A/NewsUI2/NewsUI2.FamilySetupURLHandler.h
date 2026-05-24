@@ -7,8 +7,6 @@
 @interface NewsUI2.FamilySetupURLHandler
 {
     id patterns;
-    id navigator;
-    id familySharingStatusManager;
 }
 
 @end

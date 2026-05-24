@@ -4,73 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID, NSValue;
+@class NSNumber;
 
 @interface CXScreenShareAttributes
 {
     _Bool _windowed;
-    NSNumber *_frameRate;
-    NSNumber *_displayID;
-    NSUUID *_windowUUID;
-    long long _deviceFamily;
-    long long _deviceHomeButtonType;
-    long long _style;
-    NSNumber *_displayScale;
-    NSNumber *_cornerRadius;
-    NSNumber *_scaleFactor;
-    NSNumber *_systemRootLayerScale;
-    NSValue *_systemRootLayerTransform;
-    NSValue *_originalResolution;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
+- (void)CM_CALL_CMD_ERR_NUM_LEN_P;
+- (void)QMI_ERR_INVALID_SESSION_TYPE;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void):(long long)arg1;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)netServiceBrowser:didFindDomain:moreComing: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)doublePredicateValue;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SecurityScopedURLWrapper"32@?<v@?@"NSError">40;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) long long deviceFamily; // @synthesize deviceFamily=_deviceFamily;
-@property(nonatomic) long long deviceHomeButtonType; // @synthesize deviceHomeButtonType=_deviceHomeButtonType;
-@property(retain, nonatomic) NSNumber *displayID; // @synthesize displayID=_displayID;
-@property(retain, nonatomic) NSNumber *displayScale; // @synthesize displayScale=_displayScale;
 @property(retain, nonatomic) NSNumber *frameRate; // @synthesize frameRate=_frameRate;
-@property(copy, nonatomic) NSValue *originalResolution; // @synthesize originalResolution=_originalResolution;
-@property(retain, nonatomic) NSNumber *scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) NSNumber *systemRootLayerScale; // @synthesize systemRootLayerScale=_systemRootLayerScale;
-@property(retain, nonatomic) NSValue *systemRootLayerTransform; // @synthesize systemRootLayerTransform=_systemRootLayerTransform;
-@property(retain, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
-@property(nonatomic, getter=isWindowed) _Bool windowed; // @synthesize windowed=_windowed;
 
 @end
 

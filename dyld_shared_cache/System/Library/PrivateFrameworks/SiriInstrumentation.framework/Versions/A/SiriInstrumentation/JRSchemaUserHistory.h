@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface JRSchemaUserHistory : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_toolId;
-    NSArray *_historicalContexts;
-    float _historicalFeedback;
-    NSArray *_historicalLocationContexts;
-    struct {
-        unsigned int historicalFeedback:1;
-    } _has;
-    _Bool _hasToolId;
 }
 
 - (id);
@@ -46,7 +39,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)E;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -54,16 +47,10 @@
 - (id)!ÌEù±ß°1Â0@ù
 × ;
 - (id)ODDBluetoothCarCounts",&,N,V_counts;
-- (id)gagementReported;
+- (id)SUGSchemaSUGEngagementReported;
 - (void)û";
 
 // Remaining properties
-@property(nonatomic) _Bool hasHistoricalFeedback;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(copy, nonatomic) NSArray *historicalContexts; // @synthesize historicalContexts=_historicalContexts;
-@property(nonatomic) float historicalFeedback; // @synthesize historicalFeedback=_historicalFeedback;
-@property(copy, nonatomic) NSArray *historicalLocationContexts; // @synthesize historicalLocationContexts=_historicalLocationContexts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *toolId; // @synthesize toolId=_toolId;
 
 @end

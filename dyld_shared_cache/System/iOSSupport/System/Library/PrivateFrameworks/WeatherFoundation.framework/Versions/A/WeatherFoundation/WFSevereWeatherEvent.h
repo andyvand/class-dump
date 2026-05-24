@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface WFSevereWeatherEvent
 {
     NSString *_identifier;
-    NSString *_areaName;
-    NSString *_eventDescription;
-    NSString *_source;
-    NSDate *_expirationDate;
-    NSURL *_URL;
-    unsigned long long _importance;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy, nonatomic) NSString *areaName; // @synthesize areaName=_areaName;
-@property(readonly, copy, nonatomic) NSString *eventDescription; // @synthesize eventDescription=_eventDescription;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long importance; // @synthesize importance=_importance;
-@property(readonly, copy, nonatomic) NSString *source; // @synthesize source=_source;
 
 @end
 

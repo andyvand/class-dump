@@ -5,6 +5,9 @@
 //
 
 @protocol PLCollectionShareSyncBackend
-- (id)Type: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)iji8);
+- (id)updateAdjustmentRenderTypes:withDepthType: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,24 +6,22 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class ISIcon, ISImageStyleDescriptor, NSArray;
+@class ISIcon, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ISDecoratedIcon : ISConcreteIcon
 {
     NSArray *_decorations;
-    ISIcon *_icon;
-    ISImageStyleDescriptor *_styleDescriptor;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)arrayWithObject: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ParavirtualizedVideoDecoder_Invalidate;
 - (void);
 - (id);
 - (id);
@@ -31,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *decorations;
 @property(readonly) ISIcon *icon; // @synthesize icon=_icon;
-@property(readonly) ISImageStyleDescriptor *styleDescriptor; // @synthesize styleDescriptor=_styleDescriptor;
 
 @end
 

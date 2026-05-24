@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIPreviewItemController;
+@class NSDictionary, UIPreviewItemController, UIViewController;
 
 @protocol UIPreviewItemDelegate
 - (NSDictionary *)bleViewAutomaticDimension.;
 
 @optional
+- (void)_uploadToMMCSForItem:(UIPreviewItemController *)arg1 transfer:(UIViewController *)arg2 completionBlock:(struct CGPoint)arg3;
+- (UIViewController *)%@;
+- (void)artistLikedStateChangedDate;
 - (struct CGRect);
-- (_Bool)ardOutput:(UIPreviewItemController *)arg1 withInputForSmartPunctuation:(struct CGPoint)arg2 keyboardConfiguration: /* Error: Ran out of types for this method. */;
-- (void)ndowScenes;
+- (_Bool)updateKeyboardOutput:(UIPreviewItemController *)arg1 withInputForSmartPunctuation:(struct CGPoint)arg2 keyboardConfiguration: /* Error: Ran out of types for this method. */;
+- (void)applicationConnectedWindowScenes;
 @end
 

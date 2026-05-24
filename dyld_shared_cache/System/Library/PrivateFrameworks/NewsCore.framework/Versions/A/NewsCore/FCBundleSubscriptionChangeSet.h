@@ -9,19 +9,17 @@
 @interface FCBundleSubscriptionChangeSet
 {
     NSArray *_tagIDsAdded;
-    NSArray *_tagIDsRemoved;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)4˟;
 - (void)ValueStoreOption:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *tagIDsAdded; // @synthesize tagIDsAdded=_tagIDsAdded;
-@property(copy, nonatomic) NSArray *tagIDsRemoved; // @synthesize tagIDsRemoved=_tagIDsRemoved;
 
 @end
 

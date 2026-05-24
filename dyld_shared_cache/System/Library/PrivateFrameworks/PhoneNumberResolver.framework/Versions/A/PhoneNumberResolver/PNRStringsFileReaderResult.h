@@ -9,31 +9,26 @@
 @interface PNRStringsFileReaderResult
 {
     NSString *_country;
-    NSString *_region;
-    NSString *_city;
 }
 
 + (long long);
-- (_Bool);
+- (_Bool)z;
+- (id);
+- (_Bool)z;
+- (id)*{;
+- (id)i&{;
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)ror">24;
+- (long long)c;
+- (void)8@16^@24;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @synthesize city=_city;
 @property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *region; // @synthesize region=_region;
-@property(readonly, nonatomic) long long score;
 
 @end
 

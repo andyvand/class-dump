@@ -10,7 +10,7 @@
 {
 }
 
-+ (struct CGPath *);
++ (struct CGPath *)@;
 + (struct CGPath *);
 + (struct CGRect);
 + (void);

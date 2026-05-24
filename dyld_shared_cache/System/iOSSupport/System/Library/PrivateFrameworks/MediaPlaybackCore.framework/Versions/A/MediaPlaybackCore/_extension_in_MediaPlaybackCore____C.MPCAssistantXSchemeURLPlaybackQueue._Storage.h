@@ -7,8 +7,6 @@
 @interface (extension in MediaPlaybackCore):__C.MPCAssistantXSchemeURLPlaybackQueue._Storage
 {
     id tag;
-    id url;
-    id itemURLs;
 }
 
 @end

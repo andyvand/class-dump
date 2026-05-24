@@ -10,7 +10,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)ct(for:) /* Error: Ran out of types for this method. */;
 
 @end
 

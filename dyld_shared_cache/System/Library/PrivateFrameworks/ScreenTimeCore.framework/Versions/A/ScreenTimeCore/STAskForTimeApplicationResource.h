@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)ork_token, artwork_source_type));
+- (id)ntal_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (id), rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
 
 @end
 

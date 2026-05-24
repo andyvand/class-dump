@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIKeyboardInputManagerBase;
-@protocol TIClientProxy, TIKeyboardInputManagerLogging;
+@class TIKeyboardInputManagerBase;
 
 @interface TIKeyboardInputManagerWrapper
 {
     TIKeyboardInputManagerBase *_inputManager;
-    id <TIClientProxy> _clientProxy;
-    NSString *_cachedContextChangeTrigger;
 }
 
-- (void);
-- (void);
+- (void)nanoSynchronizeQueue;
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -40,6 +27,16 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -47,6 +44,8 @@
 - (void);
 - (void);
 - (void);
+- (void)__AUTH_CONST;
+- (void)initWithFilterTitle:(id)arg1 thumbnailType:symbolName:keywords:filterQueries:folderScopeURLs:enabledDomains:searchBarButtonItems:contentTypes:allowedTypes:blockedTypes:parentType:appBundleId:appURL:filterSubtitle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -55,20 +54,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)eyboardInput;
-- (void)ceKeyTaps;
+- (id)_keyboardInput;
+- (void)_backspaceKeyTaps;
 - (void)XW¬W;
 - (void)ß;
 - (id)yEntitlementForConnection:] /* Error: Ran out of types for this method. */;
 - (void)VQ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cachedContextChangeTrigger; // @synthesize cachedContextChangeTrigger=_cachedContextChangeTrigger;
-@property(retain, nonatomic) id <TIClientProxy> clientProxy; // @synthesize clientProxy=_clientProxy;
 @property(retain, nonatomic) TIKeyboardInputManagerBase *inputManager; // @synthesize inputManager=_inputManager;
-@property(retain, nonatomic) id <TIKeyboardInputManagerLogging> logger;
 
 @end
 

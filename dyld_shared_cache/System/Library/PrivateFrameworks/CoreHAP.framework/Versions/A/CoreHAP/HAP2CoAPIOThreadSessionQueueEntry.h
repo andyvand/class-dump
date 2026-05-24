@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HAP2CoAPIOThreadSessionQueueEntry
 {
     struct coap_session_t *_session;
-    NSDate *_startTime;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)@;
+- (id);
+- (id)sformer"16;
 - (struct coap_session_t *);
-- (void)iatedService: /* Error: Ran out of types for this method. */;
+- (void)setAllowAssociatedService: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct coap_session_t *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

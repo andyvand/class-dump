@@ -12,15 +12,12 @@ __attribute__((visibility("hidden")))
 @interface CIDesaturateShadows : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
-    NSNumber *inputThreshold;
-    NSNumber *inputSoftness;
 }
 
-+ (id);
++ (id)qA;
 - (void);
 - (void);
-- (void);
+- (void)8h;
 - (id);
 - (id);
 - (id);
@@ -28,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity;
-@property(retain, nonatomic) NSNumber *inputSoftness; // @synthesize inputSoftness;
-@property(retain, nonatomic) NSNumber *inputThreshold; // @synthesize inputThreshold;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <QuickLookThumbnailing/QLTThumbnailRequest.h>
 
-@class FPItem, FPSandboxingURLWrapper, QLCacheBasicVersionedFileIdentifier;
+@class FPSandboxingURLWrapper;
 
 @interface QLTFileThumbnailRequest : QLTThumbnailRequest
 {
     FPSandboxingURLWrapper *_genericSandboxWrapper;
-    FPItem *_item;
 }
 
 + (_Bool);
@@ -31,9 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) QLCacheBasicVersionedFileIdentifier *fileIdentifier; // @dynamic fileIdentifier;
-@property(readonly, nonatomic) FPSandboxingURLWrapper *genericSandboxWrapper; // @synthesize genericSandboxWrapper=_genericSandboxWrapper;
-@property(retain) FPItem *item; // @synthesize item=_item;
 @property(readonly, nonatomic) FPSandboxingURLWrapper *quicklookSandboxWrapper;
 
 @end

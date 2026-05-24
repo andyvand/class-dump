@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol TSSPresetSource
++ (NSSet *)n-outgoing-item-source-time;
 @end
 

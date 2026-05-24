@@ -7,6 +7,6 @@
 @class NSSet;
 
 @protocol RBStateCaptureManaging
-- (NSSet *)ibuteContext;
+- (NSSet *)_attributeContext;
 @end
 

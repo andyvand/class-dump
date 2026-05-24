@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSURLMetricsLoadURLHandler
 {
@@ -13,24 +11,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (Class);
-- (id);
+- (id)A;
 - (void);
 - (id);
-- (void);
-- (id)ideU13Identifier;
+- (void);
+- (id)_provideU13Identifier;
 - (void)[30itÉ|U|Ûå0P­ ­Kíe8G;ÁòIø7"m*úºpÍÛ+oORdK0ÈwY¤ÅøÆîüº"=Wp*Ý§'(Ê)Vº/ÛvrÔïsNÐ|§ù
 ¢?êúÞ·ñ7)¡a`1¥HªXXj\Tã#q×zópàD~BsèîlÎ@NËÚp¯R¶Åb|7cl¸Õ\îr\HmÒÁ$*
 ù}ô¬päGtµ{÷OpÎ¿ý/ÌUü;fwMèfÛ7Ps¸tT¡D¡¸%t&)'à]üÔ:§XúZÝ:Ò /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) Class metricsClass; // @synthesize metricsClass=_metricsClass;
-@property(readonly) Class superclass;
 
 @end
 

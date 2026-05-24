@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface NWGenericNetworkAgent
 {
     struct netagent *_internalNetagent;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (struct netagent *);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
+- (_Bool)b;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)2;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)kCRThemeAppearanceName;
+- (id)kCADisplaySkippedFrameCount;
+- (id)~;
+- (id)  a';
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) unsigned int agentDataSize;
-@property(readonly, nonatomic) NSString *agentDescription;
-@property(readonly, nonatomic) NSString *agentDomain;
-@property(readonly, nonatomic) NSString *agentType;
-@property(readonly, nonatomic) NSUUID *agentUUID;
 @property struct netagent *internalNetagent; // @synthesize internalNetagent=_internalNetagent;
-@property(readonly, nonatomic, getter=isKernelActivated) _Bool kernelActivated;
-@property(readonly, nonatomic, getter=isNetworkProvider) _Bool networkProvider;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
-@property(readonly, nonatomic, getter=isSpecificUseOnly) _Bool specificUseOnly;
-@property(readonly, nonatomic, getter=isUserActivated) _Bool userActivated;
-@property(readonly, nonatomic, getter=isVoluntary) _Bool voluntary;
 
 @end
 

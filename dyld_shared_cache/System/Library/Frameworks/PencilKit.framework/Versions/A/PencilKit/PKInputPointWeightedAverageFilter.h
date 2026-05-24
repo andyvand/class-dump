@@ -9,9 +9,6 @@
 @interface PKInputPointWeightedAverageFilter : PKInputPointBaseFilter
 {
     double _xyPositionSmoothingFactor;
-    double _zPositionSmoothingFactor;
-    double _altitudeSmoothingFactor;
-    double _azimuthSmoothingFactor;
 }
 
 - (double);
@@ -19,16 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) double altitudeSmoothingFactor; // @synthesize altitudeSmoothingFactor=_altitudeSmoothingFactor;
-@property(nonatomic) double azimuthSmoothingFactor; // @synthesize azimuthSmoothingFactor=_azimuthSmoothingFactor;
 @property(nonatomic) double xyPositionSmoothingFactor; // @synthesize xyPositionSmoothingFactor=_xyPositionSmoothingFactor;
-@property(nonatomic) double zPositionSmoothingFactor; // @synthesize zPositionSmoothingFactor=_zPositionSmoothingFactor;
 
 @end
 

@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char);
 
 @end
 

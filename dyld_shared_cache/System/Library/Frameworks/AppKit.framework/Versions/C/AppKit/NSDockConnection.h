@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSDockConnection
 {
     _Bool _started;
-    NSString *_serviceName;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _pid;
-    CDUnknownBlockType _receiveHandler;
 }
 
++ (id)AVAssetDownloadChildDownloadSessionIdentifier;
 + (id);
-+ (id);
-+ (id);
++ (id)273;
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)encodeValueOfObjCType:(id)arg1 at:(CDUnknownBlockType)arg2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)_;
+- (void)*;
 - (id);
 - (void);
 

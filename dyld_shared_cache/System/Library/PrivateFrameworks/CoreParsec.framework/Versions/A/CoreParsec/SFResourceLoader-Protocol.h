@@ -5,5 +5,8 @@
 //
 
 @protocol SFResourceLoader
+
+@optional
+- (_Bool);
 @end
 

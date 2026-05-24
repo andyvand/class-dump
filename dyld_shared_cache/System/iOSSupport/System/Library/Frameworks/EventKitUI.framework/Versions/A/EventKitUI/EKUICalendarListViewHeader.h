@@ -11,11 +11,11 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)s;
 - (void);
-- (id);
-- (id);
+- (id)X%s;
+- (id)0;f;
 
 @end
 

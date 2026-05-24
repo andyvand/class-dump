@@ -7,8 +7,6 @@
 @interface ChatKit.Gallery.Analytics.ImagePlayground.SuggestionContext
 {
     id generationStatus;
-    id interactionStatus;
-    id measuredLatency;
 }
 
 @end

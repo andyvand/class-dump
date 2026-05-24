@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface _DKSyncChanges
 {
     NSArray *_additionChangeSets;
-    NSArray *_deletionChangeSets;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (id);
-- (id);
+- (id)O_;
 - (id);
 - (id);
 - (void)á¶/°!$Cùñ©31Â0@ù
@@ -23,9 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additionChangeSets; // @synthesize additionChangeSets=_additionChangeSets;
-@property(readonly, nonatomic) NSArray *deletionChangeSets; // @synthesize deletionChangeSets=_deletionChangeSets;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

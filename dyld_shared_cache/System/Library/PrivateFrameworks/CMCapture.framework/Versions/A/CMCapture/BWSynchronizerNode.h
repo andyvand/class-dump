@@ -9,17 +9,6 @@
 @interface BWSynchronizerNode : BWNode
 {
     struct OpaqueCMClock *_sourceClock;
-    struct OpaqueCMClock *_masterClock;
-    CDStruct_1b6d18a9 _quantizationFrameDuration;
-    unsigned long long _maxFramesToDropWhileTimeSyncClockStarts;
-    struct {
-        CDStruct_1b6d18a9 sourceTime;
-        CDStruct_1b6d18a9 syncedTime;
-    } _ptsSyncHistory[16];
-    int _oldestPTSSyncHistoryElement;
-    int _newestPTSSyncHistoryElement;
-    int _timeSyncMSGClockConversionFailureCount;
-    struct OpaqueCMClock *_hostTimeClock;
 }
 
 + (void)rties;
@@ -29,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id)ageByApplyingTransform:(unsigned int)arg1 highQualityDownsample: /* Error: Ran out of types for this method. */;
+- (id)imageByApplyingTransform:(unsigned int)arg1 highQualityDownsample: /* Error: Ran out of types for this method. */;
 - (CDStruct_1b6d18a9)ed;
 - (id)>> %s:%{public}@ Committing configuration:%@ /* Error: Ran out of types for this method. */;
 - (void)&£òÿ+¤ñÿ1¤ñÿ6¤ñÿ=¤ðÿC¤ðÿK¤ïÿR¥îÿZ¥íÿa¥ìÿi¥ëÿr¥êÿy¦éÿ¦éÿ¦èÿ§èÿ§éÿ §éÿ§§ëÿ®¨íÿµ¨ïÿ¼¨òÿÃ©ôÿÉ©öÿÑ©ùÿØ©ûÿÞªýÿåªþÿíªÿÿ¬ôÿ!¬ôÿ$¬ôÿ'¬ôÿ,¬ôÿ2¬ôÿ7¬óÿ=¬óÿD­òÿL­ñÿS­ðÿZ­ïÿb­îÿi­íÿr®ìÿz®ëÿ®êÿ®éÿ¯èÿ¯èÿ¡¯èÿ©¯éÿ°°êÿ·°íÿ¾°ïÿÄ±òÿË±õÿÒ±÷ÿÙ±ùÿß±ûÿæ²ýÿî²ÿÿ ´÷ÿ#´÷ÿ%´÷ÿ)´÷ÿ-´÷ÿ2´÷ÿ8µöÿ>µöÿDµõÿLµôÿSµóÿZµòÿb¶ñÿi¶ðÿr¶îÿz¶íÿ¶ìÿ¶êÿ·éÿ·èÿ£·çÿª·çÿ±¸èÿ¹¸êÿ¿¸ìÿÆ¹ïÿÌ¹òÿÓ¹õÿÚ¹øÿá¹úÿç¹ûÿïºýÿ"½úÿ$½úÿ'¾úÿ*¾ûÿ.¾ûÿ3¾úÿ9¾úÿ?¾úÿE¾ùÿL¾øÿS¿÷ÿZ¿öÿa¿õÿi¿ôÿr¿òÿy¿ñÿÀïÿÀíÿÀëÿÀéÿ£Àèÿ«Àæÿ³Àæÿ»ÁçÿÂÁéÿÈÁìÿÎÂïÿÕÂóÿÛÂõÿâÂøÿèÂúÿðÂüÿ#Æýÿ&Æýÿ(Æþÿ+Æþÿ/Æþÿ4Æþÿ9Æþÿ?ÇýÿEÇýÿLÇüÿSÇûÿZÇúÿaÇùÿhÇøÿqÈ÷ÿyÈõÿÈôÿÈòÿÈðÿÈíÿ£Èëÿ«Èèÿ´Èæÿ½ÉäÿÄÉåÿÊÉèÿÐÉìÿÖÊðÿÝÊóÿãÊöÿéÊøÿñÊúÿ%Îÿÿ'Îÿÿ)Îÿÿ,Îÿÿ0Îÿÿ5Ïÿÿ:(id)arg1 Ïÿÿ?ÏÿÿEÏÿÿLÏÿÿSÏÿÿZÐþÿaÐýÿhÐüÿpÐûÿxÐúÿÐøÿÐ÷ÿÑõÿÑóÿ¡Ñðÿ©Ñîÿ²Ñëÿ¼ÑçÿÆÑãÿÍÑâÿÒÑçÿØÑíÿÞÒñÿäÒôÿêÒöÿòÒøÿ'Öÿÿ)×ÿÿ+×ÿÿ-×ÿÿ1×ÿÿ6×ÿÿ;×ÿÿ@×ÿÿF×ÿÿMØÿÿSØÿÿZØÿÿaØÿÿhØÿÿpØÿÿwØýÿÙüÿÙûÿÙùÿÙ÷ÿÙöÿ§Ùôÿ°Ùñÿ¹ÙîÿÂÙëÿËÙçÿÙÙÙÿÚÙéÿßÙîÿåÙòÿëÙõÿóÙ÷ÿ)àÿÿ*àÿÿ,àÿÿ/àÿÿ2àÿÿ7àÿÿ<àÿÿAàÿÿGáÿÿMáÿÿSáÿÿZáÿÿaáÿÿháÿÿpâÿÿwâÿÿ~âÿÿâÿÿâýÿâüÿâúÿ¦âøÿ®âöÿ·âôÿÀãðÿÊâìÿÓâèÿÛâçÿáâìÿæâïÿìâóÿôâõÿ*èÿÿ,èÿÿ.èÿÿ1èÿÿ4èÿÿ8èÿÿ=èÿÿBéÿÿGéÿÿNéÿÿTéÿÿZéÿÿaéÿÿhêÿÿpêÿÿwêÿÿ~êÿÿêÿÿêÿÿêþÿêýÿ¦ëúÿ¯ë÷ÿ¸ëõÿÁêòÿÊêïÿÓêìÿÛêëÿáêìÿçêîÿíêñÿôêôÿ,ðÿÿ.ðÿÿ0ðÿÿ2ðÿÿ5ðÿÿ:(id)arg2 ðÿÿ>ñÿÿCñÿÿHñÿÿOñÿÿUñÿÿ[ñÿÿbñÿÿhòÿÿpòÿÿwòÿÿ~òÿÿóÿÿóÿÿóþÿóüÿ¨óúÿ°óøÿ¹òöÿÂòóÿÊòñÿÓòïÿÛñîÿâñîÿèñïÿîññÿõñóÿ.øÿÿ0øÿÿ2øÿÿ4øÿÿ7øÿÿ;øÿÿ@ùÿÿDùÿÿJùÿÿPùÿÿYúÿÿ_úÿÿeúÿÿlûÿÿtûÿÿ{ûÿÿûÿÿûÿÿûÿÿûþÿ¡ûýÿ©ûûÿ±úùÿºú÷ÿÃúõÿËúóÿÓùñÿÛùðÿâùðÿèùðÿîùñÿõùóÿ:ÿÿÿ;ÿÿÿ<ÿÿÿ>ÿÿÿAÿÿÿEÿÿÿIÿÿÿMÿÿÿRÿÿÿWÿÿÿ]ÿÿÿcÿÿÿiÿÿÿoÿÿÿwÿÿÿ~ÿÿÿÿÿÿÿÿÿÿÿÿÿþÿ£ÿüÿ«ÿûÿ³ÿùÿ¼ÿ÷ÿÄÿõÿÌÿôÿÓÿóÿÜÿòÿâÿñÿéÿñÿïÿòÿõÿóÿ /* Error: Ran out of types for this method. */;

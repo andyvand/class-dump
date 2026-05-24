@@ -9,7 +9,6 @@
 @interface CNMutableContact : CNContact
 {
     _Bool _hasChanges;
-    unsigned long long _availableKeyEncodingStrategy;
 }
 
 @end

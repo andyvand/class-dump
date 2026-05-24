@@ -5,5 +5,7 @@
 //
 
 @protocol SecuritydXPCProtocol
+- (void);
+- (void)`;
 @end
 

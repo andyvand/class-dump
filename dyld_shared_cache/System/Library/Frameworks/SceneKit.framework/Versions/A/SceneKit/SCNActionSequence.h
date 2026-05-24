@@ -6,13 +6,10 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SCNActionSequence : SCNAction
 {
     void *_mycaction;
-    NSArray *_actions;
 }
 
 + (id);

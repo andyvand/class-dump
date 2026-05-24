@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize)R#;
 - (id);
 - (id);
-- (struct CGRect);
-- (void):object:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)st end editing reminder notes {item:(id)arg1 %@};
+- (void)addObserverForName:object:queue:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ICTTTodo *todo; // @synthesize todo=_todo;

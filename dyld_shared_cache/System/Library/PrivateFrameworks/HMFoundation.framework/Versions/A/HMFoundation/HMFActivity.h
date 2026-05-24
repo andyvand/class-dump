@@ -6,23 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol OS_os_activity, OS_voucher;
+@class NSObject;
+@protocol OS_os_activity;
 
 @interface HMFActivity : HMFObject
 {
     NSObject<OS_os_activity> *_internal;
-    NSObject<OS_voucher> *_voucher;
-    NSMutableSet *_threadContexts;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_associatedObjects;
-    _Bool _valid;
-    NSUUID *_identifier;
-    HMFActivity *_parent;
-    NSString *_name;
-    unsigned long long _options;
-    NSArray *_internalAssertions;
-    unsigned long long _startMachTime;
 }
 
 @end

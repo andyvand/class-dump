@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICQInAppMessage, ICQInAppMessaging;
+@class ICQInAppMessage;
 
 __attribute__((visibility("hidden")))
 @interface FI_TICloudQuotaObserver
 {
     struct TNotificationCenterObserver _iCloudOverQuotaChangedObserver;
-    ICQInAppMessaging *_icqObserver;
-    int _iCloudFlavor;
-    ICQInAppMessage *_latestICQMessage;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -31,12 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasStatusThatOverridesProgressDisplay;
-@property(readonly, nonatomic) _Bool hasWarning;
-@property(readonly, nonatomic) int iCloudFlavor; // @synthesize iCloudFlavor=_iCloudFlavor;
 @property(readonly, nonatomic) ICQInAppMessage *latestICQMessage; // @synthesize latestICQMessage=_latestICQMessage;
-@property(readonly, nonatomic) _Bool offline;
-@property(readonly, nonatomic) _Bool outOfQuota;
 
 @end
 

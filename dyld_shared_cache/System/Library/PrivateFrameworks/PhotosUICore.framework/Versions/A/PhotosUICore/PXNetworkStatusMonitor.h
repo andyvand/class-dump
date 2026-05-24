@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@class NSObject;
+@protocol OS_nw_path_monitor;
 
 @interface PXNetworkStatusMonitor
 {
     NSObject<OS_nw_path_monitor> *_defaultPathMonitor;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_queue_observers;
-    CDStruct_857573eb queue_bestAvailableNetworkType;
 }
 
 + (id);
-- (CDStruct_857573eb);
+- (CDStruct_f362805f);
 - (void);
 - (void);
 - (id);
@@ -24,7 +21,7 @@
 - (void)1¶ëCÿ;
 
 // Remaining properties
-@property(readonly) CDStruct_857573eb bestAvailableNetworkType;
+@property(readonly) CDStruct_f362805f bestAvailableNetworkType;
 
 @end
 

@@ -5,10 +5,9 @@
 //
 
 @protocol PDFThumbnailIconsViewProtocol
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType iconConfigurationHandler;
 @property(nonatomic) double iconScale;
-@property(nonatomic) _Bool prefersIconOverlaySelection;
 @end
 

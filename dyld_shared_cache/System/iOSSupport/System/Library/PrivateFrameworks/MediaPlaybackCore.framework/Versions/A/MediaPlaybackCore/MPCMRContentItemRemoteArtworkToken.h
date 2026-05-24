@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkCatalog, NSArray, NSDictionary, NSString;
+@class MPArtworkCatalog, NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCMRContentItemRemoteArtworkToken
 {
     NSString *_identifier;
-    NSString *_artworkIdentifier;
-    NSArray *_supportedRemoteArtworkFormats;
-    NSDictionary *_remoteArtworks;
-    MPArtworkCatalog *_storeArtworkCatalog;
 }
 
 - (id);
 - (void);
+- (id)K;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)gStartTimeForTransitionEvent:- could not find Incoming Item start time in ItemTransitionParameters event=%{public}@ /* Error: Ran out of types for this method. */;
 - (id)áÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *remoteArtworks; // @synthesize remoteArtworks=_remoteArtworks;
 @property(retain, nonatomic) MPArtworkCatalog *storeArtworkCatalog; // @synthesize storeArtworkCatalog=_storeArtworkCatalog;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *supportedRemoteArtworkFormats; // @synthesize supportedRemoteArtworkFormats=_supportedRemoteArtworkFormats;
 
 @end
 

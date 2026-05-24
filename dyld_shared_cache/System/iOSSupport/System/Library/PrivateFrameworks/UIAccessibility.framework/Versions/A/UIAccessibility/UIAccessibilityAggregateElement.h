@@ -14,9 +14,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (struct CGRect);
+- (void)_beginObservingPhotoLibraryDefaults;
+- (id);
+- (struct CGRect)representedSegments;
 - (void);
 - (id);
 

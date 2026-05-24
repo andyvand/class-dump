@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface KCContainer
 {
     unsigned int _type;
-    int _pid;
-    int _unindexed_frames;
-    int _invalid_images;
-    unsigned long long _tag;
-    NSMutableDictionary *_data;
-    NSMutableDictionary *_truncated_threads;
 }
 
+- (int)ed;
+- (id)ed;
+- (void)se",&,N,V_response;
+- (void)tualActionIcon",&,N,V_icon;
+- (void)nLabel;
 - (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
+- (id)View;
 - (int);
 - (unsigned long long);
 - (unsigned int);
@@ -32,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *data; // @synthesize data=_data;
-@property(nonatomic) int invalid_images; // @synthesize invalid_images=_invalid_images;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) unsigned long long tag; // @synthesize tag=_tag;
-@property(readonly, nonatomic) NSMutableDictionary *truncated_threads; // @synthesize truncated_threads=_truncated_threads;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) int unindexed_frames; // @synthesize unindexed_frames=_unindexed_frames;
 
 @end
 

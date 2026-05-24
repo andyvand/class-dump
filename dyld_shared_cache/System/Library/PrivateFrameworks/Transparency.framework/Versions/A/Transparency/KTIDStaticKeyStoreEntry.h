@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTAccountPublicID, NSArray, NSMutableDictionary, NSString;
+@class KTAccountPublicID;
 
 @interface KTIDStaticKeyStoreEntry
 {
     KTAccountPublicID *publicKeyID;
-    NSMutableDictionary *handles;
-    NSString *contactExternalURI;
-    NSString *contactIdentifier;
 }
 
 + (_Bool);
@@ -22,26 +19,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)performIntent:withBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)16{CGSize=dd}24;
+- (_Bool)analyzerForUserModel:revisionRateAnalysisSummary: /* Error: Ran out of types for this method. */;
+- (id)uageLocales:(struct _NSZone *)arg1 ];
 - (id);
-- (id);
-- (id);
+- (id)_assertionCount;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *contactExternalURI; // @synthesize contactExternalURI;
-@property(copy) NSString *contactIdentifier; // @synthesize contactIdentifier;
-@property(copy) NSString *contactServerPath;
-@property(retain) NSMutableDictionary *handles; // @synthesize handles;
-@property(copy) NSArray *mappings;
 @property(copy) KTAccountPublicID *publicKeyID; // @synthesize publicKeyID;
-@property(readonly) _Bool valid;
 
 @end
 

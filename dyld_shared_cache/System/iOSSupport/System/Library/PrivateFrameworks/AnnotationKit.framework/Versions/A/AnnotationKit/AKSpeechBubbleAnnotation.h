@@ -13,10 +13,10 @@
 
 + (id);
 + (_Bool);
-- (void);
+- (void)SString"8;
 - (double);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);

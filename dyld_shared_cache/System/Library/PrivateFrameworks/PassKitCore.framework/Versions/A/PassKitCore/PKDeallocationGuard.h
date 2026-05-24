@@ -7,7 +7,6 @@
 @interface PKDeallocationGuard
 {
     struct atomic_flag _invalidated;
-    CDUnknownBlockType _block;
 }
 
 - (void);

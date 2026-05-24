@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKNStatusView, NSView;
+@class IKNStatusView;
 
 @interface IKScannerNoDeviceView
 {
     IKNStatusView *_statusView;
-    NSView *_simpleView;
-    NSView *_advancedView;
-    long long _mode;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)__DATA_DIRTY;
 - (long long);
 - (id);
 - (void);

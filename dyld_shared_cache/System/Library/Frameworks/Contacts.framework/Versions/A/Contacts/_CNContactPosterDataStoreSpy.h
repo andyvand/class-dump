@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol CNContactPosterDataStore;
 
 __attribute__((visibility("hidden")))
 @interface _CNContactPosterDataStoreSpy
 {
     id <CNContactPosterDataStore> _store;
-    NSMutableArray *_fetchRequests;
-    NSMutableArray *_countRequests;
-    NSMutableArray *_createRequests;
-    NSMutableArray *_deleteRequests;
 }
 
 - (id);
@@ -24,24 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ItemIsShared(void);
 - (long long);
 - (void)!ÌDùñ*ð1Â0@ù
 × ;
 - (id)blic}@;
 
 // Remaining properties
-@property(readonly) NSMutableArray *countRequests; // @synthesize countRequests=_countRequests;
-@property(readonly) NSMutableArray *createRequests; // @synthesize createRequests=_createRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSMutableArray *deleteRequests; // @synthesize deleteRequests=_deleteRequests;
-@property(readonly, copy) NSString *description;
 @property(readonly) NSMutableArray *fetchRequests; // @synthesize fetchRequests=_fetchRequests;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

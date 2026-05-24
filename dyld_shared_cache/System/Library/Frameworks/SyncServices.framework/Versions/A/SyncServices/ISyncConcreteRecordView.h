@@ -6,16 +6,11 @@
 
 #import <SyncServices/ISyncRecordView.h>
 
-@class ISDConflictManager, ISDRecordStore, ISyncRecordSnapshot, NSDictionary, NSMutableDictionary;
+@class ISDRecordStore;
 
 @interface ISyncConcreteRecordView : ISyncRecordView
 {
     ISDRecordStore *_recordStore;
-    ISyncRecordSnapshot *_snapshot;
-    NSDictionary *_clientStoreIdToTruthIdMap;
-    NSDictionary *_truthIdToClientStoreIdMap;
-    NSMutableDictionary *_cachedRecords;
-    ISDConflictManager *_conflictManager;
 }
 
 - (id);

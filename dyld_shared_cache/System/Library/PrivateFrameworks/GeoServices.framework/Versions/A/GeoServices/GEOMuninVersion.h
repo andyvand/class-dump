@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOMuninVersion
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_coverages;
-    unsigned int _version;
-    struct {
-        unsigned int has_version:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)sTransitId:(id)arg1;
++ (_Bool)setHasTransitId:(id)arg1;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -28,13 +23,13 @@
 - (id);
 - (unsigned int);
 - (id);
+- (void)asyncSecurelyRemoveDirectoryWithFileDescriptor:(_Bool)arg1 expectedUID:withOptions:delegate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)letion:(id)arg1 ];
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (void);
 - (void);
@@ -42,14 +37,11 @@
 - (id)T@"GEOVectorTile",R,N;
 - (id)§;
 - (_Bool)ader.Transit;
-- (id):(id)arg1 SetStringValue;
+- (id)MapValueRef:(id)arg1:SetStringValue /* Error: Ran out of types for this method. */;
 - (void)¸z|ÿø;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *coverages;
 @property(nonatomic) _Bool hasVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int version;
 
 @end
 

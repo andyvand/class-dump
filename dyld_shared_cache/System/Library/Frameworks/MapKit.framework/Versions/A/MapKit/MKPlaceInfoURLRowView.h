@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (id);
-- (int);
+- (int)snapshotWithSignature:delay:events:payload:actions:reply: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)eSpeakListnerTestService receiveOpportuneSpeakListenerStart]_block_invoke;
 
 @end
 

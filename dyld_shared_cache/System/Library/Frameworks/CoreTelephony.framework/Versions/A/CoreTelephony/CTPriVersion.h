@@ -9,17 +9,15 @@
 @interface CTPriVersion
 {
     NSNumber *_majorVersion;
-    NSNumber *_minorVersion;
-    NSNumber *_releaseVersion;
 }
 
-+ (_Bool);
++ (_Bool)media data;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fetchKeyWithIdentifier:(id)arg1 domain:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(retain, nonatomic) NSNumber *minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(retain, nonatomic) NSNumber *releaseVersion; // @synthesize releaseVersion=_releaseVersion;
 
 @end
 

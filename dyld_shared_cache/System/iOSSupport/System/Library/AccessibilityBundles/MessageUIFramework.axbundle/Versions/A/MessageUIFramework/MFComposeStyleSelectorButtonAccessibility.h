@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)__UILongPressGestureRecognizerAccessibility_super;
++ (void)UITableViewCell;
 - (long long);
 - (id);
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RWIProtocolCSSDomainEventDispatcher, RWIProtocolConsoleDomainEventDispatcher, RWIProtocolDOMDomainEventDispatcher, RWIProtocolDOMStorageDomainEventDispatcher, RWIProtocolNetworkDomainEventDispatcher, RWIProtocolPageDomainEventDispatcher;
-@protocol RWIProtocolCSSDomainHandler, RWIProtocolDOMDomainHandler, RWIProtocolDOMStorageDomainHandler, RWIProtocolNetworkDomainHandler, RWIProtocolPageDomainHandler;
+@protocol RWIProtocolCSSDomainHandler;
 
 @interface RWIProtocolConfiguration
 {
     struct AugmentableInspectorController *_controller;
-    struct RetainPtr<id<RWIProtocolCSSDomainHandler>> _cssHandler;
-    struct RetainPtr<RWIProtocolCSSDomainEventDispatcher> _cssEventDispatcher;
-    struct RetainPtr<RWIProtocolConsoleDomainEventDispatcher> _consoleEventDispatcher;
-    struct RetainPtr<id<RWIProtocolDOMDomainHandler>> _domHandler;
-    struct RetainPtr<RWIProtocolDOMDomainEventDispatcher> _domEventDispatcher;
-    struct RetainPtr<id<RWIProtocolDOMStorageDomainHandler>> _domStorageHandler;
-    struct RetainPtr<RWIProtocolDOMStorageDomainEventDispatcher> _domStorageEventDispatcher;
-    struct RetainPtr<id<RWIProtocolNetworkDomainHandler>> _networkHandler;
-    struct RetainPtr<RWIProtocolNetworkDomainEventDispatcher> _networkEventDispatcher;
-    struct RetainPtr<id<RWIProtocolPageDomainHandler>> _pageHandler;
-    struct RetainPtr<RWIProtocolPageDomainEventDispatcher> _pageEventDispatcher;
 }
 
 - (void);
@@ -32,29 +20,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hB@y	?%@q!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) RWIProtocolConsoleDomainEventDispatcher *consoleEventDispatcher;
-@property(readonly, nonatomic) RWIProtocolCSSDomainEventDispatcher *cssEventDispatcher;
 @property(retain, nonatomic, setter=setCSSHandler:) id <RWIProtocolCSSDomainHandler> cssHandler;
-@property(readonly, nonatomic) RWIProtocolDOMDomainEventDispatcher *domEventDispatcher;
-@property(retain, nonatomic, setter=setDOMHandler:) id <RWIProtocolDOMDomainHandler> domHandler;
-@property(readonly, nonatomic) RWIProtocolDOMStorageDomainEventDispatcher *domStorageEventDispatcher;
-@property(retain, nonatomic, setter=setDOMStorageHandler:) id <RWIProtocolDOMStorageDomainHandler> domStorageHandler;
-@property(readonly, nonatomic) RWIProtocolNetworkDomainEventDispatcher *networkEventDispatcher;
-@property(retain, nonatomic, setter=setNetworkHandler:) id <RWIProtocolNetworkDomainHandler> networkHandler;
-@property(readonly, nonatomic) RWIProtocolPageDomainEventDispatcher *pageEventDispatcher;
-@property(retain, nonatomic, setter=setPageHandler:) id <RWIProtocolPageDomainHandler> pageHandler;
 
 @end
 

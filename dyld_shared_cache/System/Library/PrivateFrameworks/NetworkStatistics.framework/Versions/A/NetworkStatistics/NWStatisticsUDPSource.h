@@ -9,12 +9,11 @@
 @interface NWStatisticsUDPSource : NWStatisticsSource
 {
     struct nstat_udp_descriptor _descriptor;
-    unsigned long long _eventFlags;
 }
 
 - (id);
-- (id);
-- (int);
+- (id)TRIActivateTreatmentBaseTask;
+- (int);
 - (id);
 
 @end

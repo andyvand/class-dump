@@ -7,24 +7,18 @@
 @interface RTTrustedTimeCache
 {
     double _cachedTrustedTimeCfatSeconds;
-    double _cachedTrustedTimeMachContSeconds;
-    double _cachedReferenceTimeCfatSeconds;
-    double _cachedReferenceTimeMachContSeconds;
-    double _minBoundReferenceTimeCfatSeconds;
-    double _maxBoundReferenceTimeCfatSeconds;
-    double _machContSecondsWhenReferenceTimeBoundsSet;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -33,17 +27,11 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)cketType:outSynchronousConnectionCompleteResults: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) double cachedReferenceTimeCfatSeconds; // @synthesize cachedReferenceTimeCfatSeconds=_cachedReferenceTimeCfatSeconds;
-@property(nonatomic) double cachedReferenceTimeMachContSeconds; // @synthesize cachedReferenceTimeMachContSeconds=_cachedReferenceTimeMachContSeconds;
 @property(nonatomic) double cachedTrustedTimeCfatSeconds; // @synthesize cachedTrustedTimeCfatSeconds=_cachedTrustedTimeCfatSeconds;
-@property(nonatomic) double cachedTrustedTimeMachContSeconds; // @synthesize cachedTrustedTimeMachContSeconds=_cachedTrustedTimeMachContSeconds;
-@property(nonatomic) double machContSecondsWhenReferenceTimeBoundsSet; // @synthesize machContSecondsWhenReferenceTimeBoundsSet=_machContSecondsWhenReferenceTimeBoundsSet;
-@property(nonatomic) double maxBoundReferenceTimeCfatSeconds; // @synthesize maxBoundReferenceTimeCfatSeconds=_maxBoundReferenceTimeCfatSeconds;
-@property(nonatomic) double minBoundReferenceTimeCfatSeconds; // @synthesize minBoundReferenceTimeCfatSeconds=_minBoundReferenceTimeCfatSeconds;
 
 @end
 

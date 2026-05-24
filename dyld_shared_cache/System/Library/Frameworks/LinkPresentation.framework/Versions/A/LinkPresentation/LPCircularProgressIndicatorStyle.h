@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface LPCircularProgressIndicatorStyle
 {
     double _borderWidth;
-    NSColor *_borderColor;
-    NSColor *_fillColor;
 }
 
+- (void)Container";
+- (id);
+- (id)?;
+- (id)r PRIMARY KEY AUTOINCREMENT NOT NULL, sessionId integer NOT NULL, itemIdentifier char(128) NOT NULL, bundleIdentifier char(128), lastUsed real NOT NULL DEFAULT 0, timesAccessed integer NOT NULL DEFAULT 0, FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double);
+- (double)ze;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
 @property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(retain, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
 
 @end
 

@@ -12,10 +12,10 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
-- (void);
-- (void)SearchPath;
+- (void)?;
+- (void)linkedModelSearchPath;
 
 // Remaining properties
 @property(retain) NSArray *outputFiles; // @synthesize outputFiles=_outputFiles;

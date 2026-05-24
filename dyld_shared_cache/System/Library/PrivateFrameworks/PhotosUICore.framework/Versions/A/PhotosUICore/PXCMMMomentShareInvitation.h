@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PHFetchResult, PHMomentShare, PXAssetCollectionActionManager, PXMomentShareStatusPresentation, PXPhotosViewConfiguration;
-@protocol PXCMMInvitationParticipant, PXDisplayAsset, PXDisplayAssetCollection, PXUIImageProvider;
-
 @interface PXCMMMomentShareInvitation
 {
     long long _shareType;
-    NSString *_title;
-    NSString *_subtitle;
-    id <PXCMMInvitationParticipant> _owner;
-    id <PXDisplayAsset> _posterAsset;
-    id <PXUIImageProvider> _posterMediaProvider;
-    PHMomentShare *_momentShare;
-    PHFetchResult *_participantsFetchResult;
-    PHFetchResult *_previewAssetsFetchResult;
 }
 
-+ (_Bool);
++ (_Bool)Ғґ
+?נ
+;
 + (void);
 + (id);
 + (id);
@@ -33,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,50 +39,22 @@
 - (id);
 - (long long);
 - (id);
+- (id)WМ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ct;
 - (id)
 × ;
 - (id)ssetsEdit:(struct _NSZone *)arg1;
 - (id)²;
 - (unsigned long long)setSectionLayout:] /* Error: Ran out of types for this method. */;
-- (id)nchronousDeliveryRequired;
+- (id)InitialSynchronousDeliveryRequired;
 - (void)h9Ê;
 
 // Remaining properties
-@property(readonly, nonatomic) long long aggregateMediaType; // @dynamic aggregateMediaType;
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection;
-@property(readonly, nonatomic) PXAssetCollectionActionManager *assetCollectionActionManager;
-@property(readonly, nonatomic) PXPhotosViewConfiguration *assetViewConfiguration;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(readonly, nonatomic) id <PXCMMInvitationParticipant> owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) PHFetchResult *participantsFetchResult; // @synthesize participantsFetchResult=_participantsFetchResult;
-@property(readonly, nonatomic) id <PXDisplayAsset> posterAsset; // @synthesize posterAsset=_posterAsset;
-@property(readonly, nonatomic) id <PXUIImageProvider> posterMediaProvider; // @synthesize posterMediaProvider=_posterMediaProvider;
-@property(readonly, nonatomic) PHFetchResult *previewAssetsFetchResult; // @synthesize previewAssetsFetchResult=_previewAssetsFetchResult;
-@property(readonly, nonatomic) _Bool px_canPerformFavoriteAction;
 @property(readonly, nonatomic) _Bool px_isEmpty;
-@property(readonly, nonatomic) _Bool px_isFavorite;
-@property(readonly, nonatomic) long long shareType; // @synthesize shareType=_shareType;
-@property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) PXMomentShareStatusPresentation *statusPresentation;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <CoreData/NSCloudKitMirroringImportRequest.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface NSCloudKitMirroringFetchRecordsRequest : NSCloudKitMirroringImportRequest
 {
     NSArray *_objectIDsToFetch;
-    NSDictionary *_entityNameToAttributesToFetch;
-    NSDictionary *_entityNameToAttributeNamesToFetch;
-    _Bool _editable;
-    unsigned long long _perOperationObjectThreshold;
 }
 
 - (void);
@@ -23,12 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)__auth_got;
+- (id)a;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *entityNameToAttributesToFetch;
 @property(copy, nonatomic) NSArray *objectIDsToFetch; // @synthesize objectIDsToFetch=_objectIDsToFetch;
 
 @end

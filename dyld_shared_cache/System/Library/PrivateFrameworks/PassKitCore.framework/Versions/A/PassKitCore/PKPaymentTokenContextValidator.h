@@ -9,7 +9,6 @@
 @interface PKPaymentTokenContextValidator
 {
     NSString *_currencyCode;
-    PKPaymentTokenContext *_context;
 }
 
 + (id);
@@ -20,18 +19,10 @@
 - (id);
 - (id)16i48@52B60;
 - (_Bool)aign Attribution session is expired and needs to be restarted.;
-- (void)nnels;
+- (void)PKShowFakeVerificationChannels;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentTokenContext *context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PGKeywordBasedFeatureExtractor
 {
     id weightByKeyword;
-    id $__lazy_storage_$_consistentHash;
 }
 
 - (id);

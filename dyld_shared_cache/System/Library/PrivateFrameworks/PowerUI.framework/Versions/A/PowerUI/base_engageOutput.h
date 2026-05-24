@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface base_engageOutput
 {
     long long _engage;
-    NSDictionary *_classProbability;
 }
 
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (id);
 - (long long);
@@ -24,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (id)erDelegate callback.;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
 @property(nonatomic) long long engage; // @synthesize engage=_engage;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

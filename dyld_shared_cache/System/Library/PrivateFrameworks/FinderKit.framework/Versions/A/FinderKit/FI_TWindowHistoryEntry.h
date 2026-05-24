@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface FI_TWindowHistoryEntry
 {
     NSDictionary *_windowState;
-    NSDictionary *_searchState;
-    struct TFENodeVector _targetPath;
 }
 
-+ (id);
++ (id)A;
 - (void);
 - (id);
 - (void);
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)S_9allocatorIcEEEEESA_EE;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *searchState; // @synthesize searchState=_searchState;
 @property(nonatomic) struct TFENodeVector targetPath; // @synthesize targetPath=_targetPath;
-@property(retain, nonatomic) NSDictionary *windowState; // @synthesize windowState=_windowState;
 
 @end
 

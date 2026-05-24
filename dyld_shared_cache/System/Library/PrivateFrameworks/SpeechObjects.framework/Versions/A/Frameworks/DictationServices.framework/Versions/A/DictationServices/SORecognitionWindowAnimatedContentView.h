@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSString;
+@class CAStateController;
 
 @interface SORecognitionWindowAnimatedContentView
 {
     CAStateController *_stateController;
-    CALayer *_microphoneLayer;
-    CALayer *_microphoneRootLayer;
 }
 
 - (void);
@@ -27,13 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) long long contentState; // @dynamic contentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     id <_UIFocusRegionContainer> _contentFocusRegionContainer;
 }
 
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)activeAccountsAreEligibleForHawking;
+- (id)_automation_sendDictionary:options:toHandles: /* Error: Ran out of types for this method. */;
+- (unsigned long long)s;
+- (id):(struct CGRect)arg1 %lu;
+- (id)ceived purge notification (centralized cache delete) - enumerating purged files;
 - (void);
 - (void);
-- (_Bool)TitleWidthForHeaderInSection:(id)arg1;
+- (_Bool)tableView:(id)arg1 maxTitleWidthForHeaderInSection: /* Error: Ran out of types for this method. */;
 - (void)²;
 
 // Remaining properties

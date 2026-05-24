@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSNumberFormatter, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVTimeFormatterInternal
 {
     long long style;
-    double formatTemplate;
-    _Bool isFullWidth;
-    NSLocale *locale;
-    _Bool isRightToLeft;
-    NSString *cachedDateFormatterFormat;
-    NSString *cachedDateFormatterTemplate;
-    NSNumberFormatter *numberFormatterWithOneMinimumIntegerDigits;
-    NSNumberFormatter *numberFormatterWithTwoMinimumIntegerDigits;
 }
 
 @end

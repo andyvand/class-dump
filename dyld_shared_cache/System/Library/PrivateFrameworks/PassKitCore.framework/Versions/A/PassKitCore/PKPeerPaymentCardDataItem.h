@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class PKPaymentPass, PKPeerPaymentQuote;
+@class PKPaymentPass;
 
 @interface PKPeerPaymentCardDataItem : PKPaymentDataItem
 {
@@ -15,8 +15,8 @@
 
 + (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentPass *pass;
-@property(readonly, nonatomic) PKPeerPaymentQuote *quote;
 
 @end
 

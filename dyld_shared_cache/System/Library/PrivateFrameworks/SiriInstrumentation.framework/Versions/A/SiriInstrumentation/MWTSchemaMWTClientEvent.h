@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class MWTSchemaMWTCheckpointReported, MWTSchemaMWTEventMetadata, MWTSchemaMWTMusicMetadataReported, MWTSchemaMWTVMCPUStatsReported, NSData, SISchemaInstrumentationMessage;
+@class MWTSchemaMWTEventMetadata, SISchemaInstrumentationMessage;
 
 @interface MWTSchemaMWTClientEvent : SISchemaTopLevelUnionType
 {
     MWTSchemaMWTEventMetadata *_eventMetadata;
-    MWTSchemaMWTCheckpointReported *_mwtCheckpointReported;
-    MWTSchemaMWTMusicMetadataReported *_mwtMusicMetadataReported;
-    MWTSchemaMWTVMCPUStatsReported *_mwtVMCpuStatsReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasMwtCheckpointReported;
-    _Bool _hasMwtMusicMetadataReported;
-    _Bool _hasMwtVMCpuStatsReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -40,41 +32,31 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_handleAlreadyPending:secureBackupEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)e;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)ameterName: /* Error: Ran out of types for this method. */;
-- (unsigned long long)r;
+- (id)setHasStructuredSearchParameterName: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_appContactFreqForMessages1Hr;
 - (id)hasDodmlClientEvent;
 - (id);
 - (int)ngContext;
-- (void)maFLOWMediaPlayerEndpoint;
+- (void)FLOWSchemaFLOWMediaPlayerEndpoint;
 
 // Remaining properties
-@property(retain, nonatomic) MWTSchemaMWTEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasMwtCheckpointReported; // @synthesize hasMwtCheckpointReported=_hasMwtCheckpointReported;
-@property(nonatomic) _Bool hasMwtMusicMetadataReported; // @synthesize hasMwtMusicMetadataReported=_hasMwtMusicMetadataReported;
-@property(nonatomic) _Bool hasMwtVMCpuStatsReported; // @synthesize hasMwtVMCpuStatsReported=_hasMwtVMCpuStatsReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MWTSchemaMWTCheckpointReported *mwtCheckpointReported; // @synthesize mwtCheckpointReported=_mwtCheckpointReported;
-@property(retain, nonatomic) MWTSchemaMWTMusicMetadataReported *mwtMusicMetadataReported; // @synthesize mwtMusicMetadataReported=_mwtMusicMetadataReported;
-@property(retain, nonatomic) MWTSchemaMWTVMCPUStatsReported *mwtVMCpuStatsReported; // @synthesize mwtVMCpuStatsReported=_mwtVMCpuStatsReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

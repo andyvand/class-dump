@@ -12,10 +12,6 @@
 @interface MIDICIMutableDevice : MIDICIDevice
 {
     struct unique_ptr<MIDICI::SysexCollector, std::default_delete<MIDICI::SysexCollector>> _sysexCollector;
-    struct unique_ptr<caulk::concurrent::messenger, std::default_delete<caulk::concurrent::messenger>> _messenger;
-    CDUnknownBlockType _profileSpecificDataCallback;
-    CDUnknownBlockType _messageCallback;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (id);
@@ -23,32 +19,32 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h8h;
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)kMRMediaRemoteApplicationDidReportPlaybackErrorNotification;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)downstreamID"S"activeFirmwareVersion"{UARPVersion="major"I"minor"I"release"I"build"I}"stagedFirmwareVersion"{UARPVersion="major"I"minor"I"release"I"build"I}"pUpstreamEP"^{uarpPlatformRemoteEndpoint}};
 - (void);
 
 // Remaining properties

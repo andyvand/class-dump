@@ -9,7 +9,6 @@
 @interface IDSCKQueryOperation : IDSCKDatabaseOperation
 {
     CDUnknownBlockType _recordFetchedBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (Class);
@@ -21,7 +20,6 @@
 - (void)ñTaràWã;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
 
 @end

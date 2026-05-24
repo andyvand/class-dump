@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)stopAnimation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned char provisioning; // @synthesize provisioning=_provisioning;

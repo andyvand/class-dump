@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlAlgorithmLayeredContinuousTier : VCRateControlAlgorithmStabilizedNOWRD
 {
     double _bandwidthWall;
-    int _bandwidthWallConfidence;
-    double _speedFactor;
-    double _previousRateControlTime;
-    double _congestionSeverity;
-    _Bool _shouldRampUp;
-    _Bool _shouldRampDown;
 }
 
 - (_Bool);

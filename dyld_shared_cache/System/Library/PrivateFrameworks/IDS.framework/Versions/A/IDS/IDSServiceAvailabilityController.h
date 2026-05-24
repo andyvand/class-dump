@@ -15,10 +15,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)estimatorWithEnter:(id)arg1 exit:(id)arg2;
+- (id)_cdpSetupSecs;
 - (long long);
-- (id);
+- (id)@9;
 - (void);
 - (void);
 - (void);

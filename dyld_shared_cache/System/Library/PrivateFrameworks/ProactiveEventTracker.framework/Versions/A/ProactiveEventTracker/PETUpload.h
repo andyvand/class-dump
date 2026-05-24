@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PETMetadata;
+@class NSMutableArray;
 
 @interface PETUpload
 {
     NSMutableArray *_aggregatedMessages;
-    NSData *_compressedData;
-    NSData *_compressedMessages;
-    PETMetadata *_metadata;
-    NSMutableArray *_unaggregatedMessages;
-    _Bool _isCompressed;
-    struct {
-        unsigned int isCompressed:1;
-    } _has;
 }
 
 + (Class);
@@ -31,7 +23,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -40,11 +32,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)q`;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -54,20 +46,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)\;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *aggregatedMessages; // @synthesize aggregatedMessages=_aggregatedMessages;
-@property(retain, nonatomic) NSData *compressedData; // @synthesize compressedData=_compressedData;
-@property(retain, nonatomic) NSData *compressedMessages; // @synthesize compressedMessages=_compressedMessages;
-@property(readonly, nonatomic) _Bool hasCompressedData;
-@property(readonly, nonatomic) _Bool hasCompressedMessages;
-@property(nonatomic) _Bool hasIsCompressed;
 @property(readonly, nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool isCompressed; // @synthesize isCompressed=_isCompressed;
-@property(retain, nonatomic) PETMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSMutableArray *unaggregatedMessages; // @synthesize unaggregatedMessages=_unaggregatedMessages;
 
 @end
 

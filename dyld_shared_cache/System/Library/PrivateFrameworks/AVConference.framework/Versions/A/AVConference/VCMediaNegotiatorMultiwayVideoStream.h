@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorMultiwayVideoStream : VCMediaNegotiatorMultiwayMediaStream
 {
     struct CGSize _size;
-    unsigned int _frameRate;
-    unsigned int _keyFrameInterval;
-    int _payload;
 }
 
-- (void);
-- (unsigned int);
+- (void)iew:(unsigned int)arg1 %p] Map display style debug override disabled, setting time of day to:%s /* Error: Ran out of types for this method. */;
+- (unsigned int)neuver LabelFeature for external feature %@;
 - (void);
 - (id);
 - (unsigned int);
 - (struct CGSize);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿÿÿÿÿªªªªÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªª;
 
 // Remaining properties
-@property(nonatomic) unsigned int frameRate; // @synthesize frameRate=_frameRate;
-@property(nonatomic) unsigned int keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(nonatomic) int payload; // @synthesize payload=_payload;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

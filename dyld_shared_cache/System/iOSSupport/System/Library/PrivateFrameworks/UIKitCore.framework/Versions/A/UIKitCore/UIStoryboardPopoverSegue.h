@@ -6,20 +6,15 @@
 
 #import <UIKitCore/UIStoryboardSegue.h>
 
-@class NSArray, UIBarButtonItem, UIPopoverController, UIView;
+@class NSArray, UIPopoverController;
 
 @interface UIStoryboardPopoverSegue : UIStoryboardSegue
 {
     UIPopoverController *_popoverController;
-    NSArray *_passthroughViews;
-    unsigned long long _permittedArrowDirections;
-    UIView *_anchorView;
-    UIBarButtonItem *_anchorBarButtonItem;
-    struct CGRect _anchorRect;
 }
 
-- (void);
-- (void);
+- (void)AKAppleIDSecurityLevelStandard;
+- (void);
 - (unsigned long long);
 - (id);
 - (struct CGRect);
@@ -28,17 +23,12 @@
 - (void);
 - (void);
 - (id)rdCandidateResultSet"16i24@"NSString"28{CGRect={CGPoint=dd}{CGSize=dd}}36d68B76;
-- (void)figureSubviews;
+- (void)_configureSubviews;
 - (void)^(ÿ¹ò;
 - (id)È·ÿ5Ø(d;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAnchorBarButtonItem:) UIBarButtonItem *_anchorBarButtonItem; // @synthesize _anchorBarButtonItem;
-@property(nonatomic, setter=_setAnchorRect:) struct CGRect _anchorRect; // @synthesize _anchorRect;
-@property(retain, nonatomic, setter=_setAnchorView:) UIView *_anchorView; // @synthesize _anchorView;
 @property(copy, nonatomic, setter=_setPassthroughViews:) NSArray *_passthroughViews; // @synthesize _passthroughViews;
-@property(nonatomic, setter=_setPermittedArrowDirections:) unsigned long long _permittedArrowDirections; // @synthesize _permittedArrowDirections;
-@property(readonly, nonatomic) UIPopoverController *popoverController; // @synthesize popoverController=_popoverController;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSString;
+@class ASCredentialServiceIdentifier;
 
 @protocol ASCredentialIdentity
 
 // Remaining properties
-@property(nonatomic) long long rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier;
 @property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier;
-@property(readonly, copy, nonatomic) NSString *user;
 @end
 

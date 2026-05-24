@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTripLink
 {
     PBUnknownFields *_unknownFields;
-    NSData *_linkGeometry;
-    unsigned long long _linkId;
-    struct {
-        unsigned int has_linkId:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)visitPredicateOperator:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ad_locationResults"b1"read_networkResults"b1"wrote_anyField"b1};
-- (id)setUsesLearnedRoute: /* Error: Ran out of types for this method. */;
+- (id)_setUsesLearnedRoute: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÁÒ¨ÀwJ@;
 

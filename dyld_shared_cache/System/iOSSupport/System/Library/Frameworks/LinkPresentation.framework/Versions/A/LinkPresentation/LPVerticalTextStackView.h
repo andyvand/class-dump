@@ -6,25 +6,22 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPVerticalTextStackViewStyle, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface LPVerticalTextStackView : LPComponentView
 {
     NSMutableArray *_items;
-    _Bool _hasEverBuilt;
-    struct UIEdgeInsets _contentInset;
-    LPVerticalTextStackViewStyle *_style;
 }
 
-- (void);
-- (id);
+- (void)tintColor;
+- (id)textView:(id)arg1 shouldChangeTextInRanges:(id)arg2 replacementText: /* Error: Ran out of types for this method. */;
 - (long long);
-- (struct CGSize);
+- (struct CGSize)supportsEncryption;
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)DecodingConfiguration;
 - (void);
 
 @end

@@ -6,43 +6,27 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface PKWebServiceSharingFeature : PKWebServiceRegionFeature
 {
     NSString *_relayServerHost;
-    NSArray *_allowedRelayServerHosts;
-    _Bool _enabled;
-    NSArray *_activationCodeConfigurations;
-    unsigned long long _relayServerPasswordLength;
-    NSArray *_relayServerHostsToHandleUniversalLinks;
-    NSArray *_relayServerHostsToUseThirdPartyPushTopic;
-    NSURL *_staticContentBaseURL;
-    NSDictionary *_openGraphPreviewUrls;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
+- (id)h.;
+- (id);
+- (id)tcpECNInterfaceReportsCount;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)othAddress;
+- (_Bool)_bluetoothAddress;
 - (id)Ì;
-- (void)oregroundParallaxCrossDissolveImage;
+- (void)foregroundParallaxCrossDissolveImage;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activationCodeConfigurations; // @synthesize activationCodeConfigurations=_activationCodeConfigurations;
-@property(readonly, nonatomic) NSArray *allowedRelayServerHosts; // @synthesize allowedRelayServerHosts=_allowedRelayServerHosts;
-@property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSDictionary *openGraphPreviewUrls; // @synthesize openGraphPreviewUrls=_openGraphPreviewUrls;
-@property(readonly, nonatomic) NSString *relayServerHost; // @synthesize relayServerHost=_relayServerHost;
-@property(readonly, nonatomic) NSArray *relayServerHostsToHandleUniversalLinks; // @synthesize relayServerHostsToHandleUniversalLinks=_relayServerHostsToHandleUniversalLinks;
-@property(readonly, nonatomic) NSArray *relayServerHostsToUseThirdPartyPushTopic; // @synthesize relayServerHostsToUseThirdPartyPushTopic=_relayServerHostsToUseThirdPartyPushTopic;
-@property(readonly, nonatomic) unsigned long long relayServerPasswordLength; // @synthesize relayServerPasswordLength=_relayServerPasswordLength;
-@property(readonly, nonatomic) NSURL *staticContentBaseURL; // @synthesize staticContentBaseURL=_staticContentBaseURL;
 
 @end
 

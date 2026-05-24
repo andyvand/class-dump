@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface VMUAnalyticsEvent
 {
     _Bool _eventSent;
-    unsigned long long _startTime;
-    unsigned long long _graphNodeCount;
-    unsigned long long _graphEdgeCount;
-    unsigned long long _graphClassCount;
-    long long _respawnReason;
-    long long _targetType;
-    long long _targetMSLStatus;
-    unsigned int _targetPlatform;
-    _Bool _targetIsDebuggable;
-    _Bool _targetIsGetTaskAllow;
-    _Bool _targetIsTranslated;
-    _Bool _targetIsApp;
-    NSMutableDictionary *_enabledOptions;
-    int _exitStatus;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)K;
 - (id);
 - (int);
-- (void);
+- (void);
 - (void)OT LEAK|CYCLE):(VM:.*)  0x.* /* Error: Ran out of types for this method. */;
 
 // Remaining properties

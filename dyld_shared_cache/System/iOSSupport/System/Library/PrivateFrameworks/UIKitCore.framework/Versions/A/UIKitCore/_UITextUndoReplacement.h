@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _UITextUndoReplacement
 {
     NSAttributedString *_attributedString;
-    struct _NSRange _affectedRange;
-    struct _NSRange _replacementTextRange;
 }
 
 - (struct _NSRange);
 - (id);
 - (struct _NSRange);
 - (id);
-- (id)boardInteraction;
+- (id)UITextIndirectKeyboardInteraction;
 - (void)_liftDelay] instead.;
 - (void)iding33_FE53B1CE385CEEC5B789D2CA9BD7C0EBLLP;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
 @property(copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) struct _NSRange replacementTextRange; // @synthesize replacementTextRange=_replacementTextRange;
 
 @end
 

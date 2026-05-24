@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_os_transaction;
+@class NSMutableDictionary;
 
 @interface _CDSpotlightCoalescedDeletionOperation
 {
     NSMutableDictionary *_bundleIdToItemIdentifiers;
-    NSMutableDictionary *_bundleIdToItemCompletionBlocks;
-    NSMutableDictionary *_bundleIdToDomainIdentifiers;
-    NSMutableDictionary *_bundleIdToDomainCompletionBlocks;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (id);
+- (id)>;
 - (void);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (void)á¶/ð!PDùñ©3ð1Â0@ù
 × ;

@@ -5,5 +5,6 @@
 //
 
 @protocol CKFetchShareMetadataOperationCallbacks
+- (void)!;
 @end
 

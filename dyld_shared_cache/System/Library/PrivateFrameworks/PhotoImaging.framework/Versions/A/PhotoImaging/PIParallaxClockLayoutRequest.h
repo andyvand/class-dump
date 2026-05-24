@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFPosterOrientedLayout;
 @protocol PISegmentationItem;
 
 @interface PIParallaxClockLayoutRequest
 {
     id <PISegmentationItem> _segmentationItem;
-    PFPosterOrientedLayout *_layout;
 }
 
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)lorSpace: /* Error: Ran out of types for this method. */;
+- (id)Z;
+- (void)setInputColorSpace: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) id <PISegmentationItem> segmentationItem; // @synthesize segmentationItem=_segmentationItem;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSView, ReaderContainerView, ReaderViewController;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface ReaderContainerViewController
 {
     NSView *_backgroundView;
-    double _amountOfContinuousReadingViewBannerThatIsVisible;
-    long long _animationState;
-    _Bool _deactivationIsAnimated;
-    long long _theme;
-    ReaderViewController *_readerViewController;
-    CDUnknownBlockType _deactivationAnimationDidFinishBlock;
 }
 
 + (id);
@@ -44,13 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isAnimatingActivation) _Bool animatingActivation;
-@property(readonly, getter=isAnimatingDeactivation) _Bool animatingDeactivation;
-@property(readonly) NSColor *backgroundColor;
 @property(copy) CDUnknownBlockType deactivationAnimationDidFinishBlock; // @synthesize deactivationAnimationDidFinishBlock=_deactivationAnimationDidFinishBlock;
-@property(retain, nonatomic) ReaderViewController *readerViewController; // @synthesize readerViewController=_readerViewController;
-@property(nonatomic) long long theme; // @synthesize theme=_theme;
-@property(retain) ReaderContainerView *view; // @dynamic view;
 
 @end
 

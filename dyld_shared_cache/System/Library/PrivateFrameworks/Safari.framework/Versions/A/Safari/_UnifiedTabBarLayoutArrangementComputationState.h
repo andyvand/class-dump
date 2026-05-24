@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableOrderedSet, NSMutableSet, UnifiedTabBarItem;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UnifiedTabBarLayoutArrangementComputationState
 {
     NSMutableOrderedSet *_arrangedTabBarItems;
-    NSMutableOrderedSet *_arrangedPinnedTabBarItems;
-    NSMutableOrderedSet *_containerIdentifiers;
-    NSMapTable *_tabBarItemsToContainerIdentifiers;
-    NSMutableSet *_currentNoiseGroup;
-    UnifiedTabBarItem *_firstItemInCurrentNoiseGroup;
-    UnifiedTabBarItem *_lastItemInCurrentNoiseGroup;
-    _Bool _didFindUnpinnedTab;
 }
 
 - (id);

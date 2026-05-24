@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OSLogPreferencesSubsystem;
+@class NSString;
 
 @interface OSLogPreferencesCategory
 {
     NSString *_name;
-    OSLogPreferencesSubsystem *_subsystem;
 }
 
 - (_Bool);
@@ -38,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long effectiveEnabledLevel;
-@property(readonly, nonatomic) long long effectivePersistedLevel;
-@property(nonatomic) long long enabledLevel;
-@property(readonly, nonatomic) _Bool isLocked;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool oversizeMessagesEnabled;
-@property(nonatomic) long long persistedLevel;
-@property(nonatomic) _Bool signpostAllowStreaming;
-@property(nonatomic) _Bool signpostBacktracesEnabled;
-@property(nonatomic) _Bool signpostEnabled;
-@property(nonatomic) _Bool signpostPersisted;
-@property(readonly, nonatomic) OSLogPreferencesSubsystem *subsystem; // @synthesize subsystem=_subsystem;
 
 @end
 

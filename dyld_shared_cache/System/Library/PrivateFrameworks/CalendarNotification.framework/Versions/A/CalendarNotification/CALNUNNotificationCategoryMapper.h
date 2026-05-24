@@ -9,10 +9,10 @@
 }
 
 + (id);
-+ (id);
++ (id)A;
 + (unsigned long long);
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
 
 @end

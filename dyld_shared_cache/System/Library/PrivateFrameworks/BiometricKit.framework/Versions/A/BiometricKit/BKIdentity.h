@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAccessory, BKAccessoryGroup, BKDevice, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface BKIdentity
 {
     _Bool _placeholderIdentity;
-    _Bool _hasPeriocularEnrollment;
-    _Bool _hasPeriocularEnrollmentWithGlasses;
-    _Bool _canAddPeriocularEnrollment;
-    unsigned int _userID;
-    NSUUID *_uuid;
-    long long _type;
-    NSString *_name;
-    NSDate *_creationTime;
-    BKDevice *_device;
-    BKAccessory *_accessory;
-    BKAccessoryGroup *_accessoryGroup;
-    long long _secondaryPeriocularEnrollments;
 }
 
 + (id);
@@ -33,17 +21,17 @@
 - (id);
 - (long long);
 - (_Bool);
+- (id);
+- (_Bool)C;
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)tsDetail",&,N;
 - (void);
-- (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (long long);
+- (long long)setCachedRecognitionResultsFromPostProcessing: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -53,23 +41,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)rval;
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) BKAccessoryGroup *accessoryGroup; // @synthesize accessoryGroup=_accessoryGroup;
-@property(nonatomic) _Bool canAddPeriocularEnrollment; // @synthesize canAddPeriocularEnrollment=_canAddPeriocularEnrollment;
-@property(retain, nonatomic) NSDate *creationTime; // @synthesize creationTime=_creationTime;
-@property(retain, nonatomic) BKDevice *device; // @synthesize device=_device;
-@property(nonatomic) _Bool hasPeriocularEnrollment; // @synthesize hasPeriocularEnrollment=_hasPeriocularEnrollment;
-@property(nonatomic) _Bool hasPeriocularEnrollmentWithGlasses; // @synthesize hasPeriocularEnrollmentWithGlasses=_hasPeriocularEnrollmentWithGlasses;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool placeholderIdentity; // @synthesize placeholderIdentity=_placeholderIdentity;
-@property(nonatomic) long long secondaryPeriocularEnrollments; // @synthesize secondaryPeriocularEnrollments=_secondaryPeriocularEnrollments;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned int userID; // @synthesize userID=_userID;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

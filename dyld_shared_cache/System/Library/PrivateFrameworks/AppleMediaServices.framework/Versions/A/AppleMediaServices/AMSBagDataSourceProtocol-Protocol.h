@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
+@class AMSProcessInfo, NSDate, NSDictionary, NSString;
 @protocol NSObject;
 
 @protocol AMSBagDataSourceProtocol
-- (_Bool)ame;
+- (NSString *)P;
+- (_Bool)acAccountName;
 - (void)Library/PrivateFrameworks/AuthKitUI.framework/Contents/MacOS/AuthKitUI;
 - (id <NSObject>)n fraud score report response body differs from sent rs value;
 - (void)y;
@@ -20,26 +21,12 @@ jÅi89p°P 7vDÔíBåÁmÛOË;
 - (NSString *)7;
 
 @optional
+- (void (^)(NSString *, NSString *))colorForGrayWindowStatusImagePressed;
+- (void (^)(AMSBagDataSourceChange *));
+- (NSDictionary *);
 - (void)_AMSRequestBody;
 
 // Remaining properties
-@property(readonly, copy) NSString *bagLoadingPartialIdentifier;
-@property(copy) CDUnknownBlockType dataSourceChangedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(copy) CDUnknownBlockType dataSourceDataInvalidatedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(retain) NSString *descriptionExtended;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&
-
 @property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(readonly, copy) AMSProcessInfo *processInfo;
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @end
 

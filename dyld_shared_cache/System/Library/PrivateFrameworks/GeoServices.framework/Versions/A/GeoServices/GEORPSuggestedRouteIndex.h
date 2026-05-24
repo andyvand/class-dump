@@ -7,15 +7,9 @@
 @interface GEORPSuggestedRouteIndex
 {
     CDStruct_9f2792e4 _clusteredRouteRideSelections;
-    unsigned int _directionsResponseIndex;
-    unsigned int _directionsResponseSuggestedRoutesIndex;
-    struct {
-        unsigned int has_directionsResponseIndex:1;
-        unsigned int has_directionsResponseSuggestedRoutesIndex:1;
-    } _flags;
 }
 
-+ (_Bool)etLocale:(id)arg1;
++ (_Bool)setLocale:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -32,26 +26,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)J;
 - (id);
 - (void);
-- (void);
+- (void),N,V_exclaveClient;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)has_isStrictMapRegion"b1"has_isPopularNearbyRequest"b1"has_structuredSearch"b1"has_suppressResultsRequiringAttribution"b1"read_unknownFields"b1"read_additionalPlaceTypes"b1"read_businessIDs"b1"read_optionalSuppressionReasons"b1"read_additionalEnabledMarkets"b1"read_address"b1"read_businessOptions"b1"read_clientCapabilities"b1"read_deviceCountryCode"b1"read_deviceLocation"b1"read_deviceTimeZone"b1"read_deviceLocationCountryCode"b1"read_filterByBusinessCategorys"b1"read_indexFilter"b1"read_inputLanguage"b1"read_knownLocation"b1"read_limitToCountryCodeIso2s"b1"read_location"b1"read_mapRegion"b1"read_phoneticLocaleIdentifier"b1"read_preserveFields"b1"read_searchContextSubstring"b1"read_searchContext"b1"read_searchLocation"b1"read_searchSubstrings"b1"read_search"b1"read_serviceTags"b1"read_suggestionsOptions"b1"read_suggestionsPrefix"b1"read_viewportCenterCountryCode"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)erPhotos;
+- (id)coverPhotos;
 - (id)xulv<x;
-- (id)RANSIT_SYSTEM;
+- (id)TRANSIT_SYSTEM;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *clusteredRouteRideSelections;
-@property(readonly, nonatomic) unsigned long long clusteredRouteRideSelectionsCount;
-@property(nonatomic) unsigned int directionsResponseIndex;
-@property(nonatomic) unsigned int directionsResponseSuggestedRoutesIndex;
 @property(nonatomic) _Bool hasDirectionsResponseIndex;
-@property(nonatomic) _Bool hasDirectionsResponseSuggestedRoutesIndex;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface CKShareAccessRequestOperation : CKShareRequestAccessOperation
 {
     CDUnknownBlockType _perShareAccessRequestCompletionBlock;
-    CDUnknownBlockType _shareAccessRequestCompletionBlock;
 }
 
 - (id);
@@ -24,13 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)ampClockVector;
+- (_Bool)CKDistributedTimestampClockVector;
 - (void)	
 ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType perShareAccessRequestCompletionBlock; // @synthesize perShareAccessRequestCompletionBlock=_perShareAccessRequestCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType shareAccessRequestCompletionBlock; // @synthesize shareAccessRequestCompletionBlock=_shareAccessRequestCompletionBlock;
 @property(copy, nonatomic) NSArray *shareURLs;
 
 @end

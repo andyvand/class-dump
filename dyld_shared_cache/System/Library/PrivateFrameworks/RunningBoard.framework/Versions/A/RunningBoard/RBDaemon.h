@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBAssertionDescriptorValidator, RBAssertionManager, RBAssertionOriginatorPidStore, RBBundlePropertiesManager, RBCoalitionManager, RBConnectionListener, RBDomainAttributeManager, RBEntitlementManager, RBHistoricalStatistics, RBJetsamPropertyManager, RBPowerAssertionManager, RBProcess, RBProcessManager, RBProcessMonitor, RBProcessReconnectManager, RBStateCaptureManager, RBThermalResponseManager, RBThrottleBestEffortNetworkingManager;
-@protocol RBAssertionManaging, RBAssertionOriginatorPidPersisting, RBDomainAttributeManaging, RBEntitlementManaging, RBExtensionDataProviding, RBHistoricalStatisticsMaintaining, RBJetsamPropertyManaging, RBProcessManaging, RBProcessMonitoring, RBRequestManaging, RBStateCaptureManaging;
+@class RBAssertionDescriptorValidator;
 
 @interface RBDaemon
 {
     RBAssertionDescriptorValidator *_assertionDescriptorValidator;
-    RBAssertionManager *_assertionManager;
-    RBAssertionOriginatorPidStore *_assertionOriginatorPidStore;
-    RBDomainAttributeManager *_domainAttributeManager;
-    RBBundlePropertiesManager *_bundlePropertiesManager;
-    RBEntitlementManager *_entitlementManager;
-    RBJetsamPropertyManager *_jetsamPropertyManager;
-    RBConnectionListener *_listener;
-    RBPowerAssertionManager *_powerAssertionManager;
-    RBProcessManager *_processManager;
-    RBProcessMonitor *_processMonitor;
-    RBProcessReconnectManager *_reconnectManager;
-    RBStateCaptureManager *_stateCaptureManager;
-    RBThrottleBestEffortNetworkingManager *_throttleBestEffortNetworkingManager;
-    RBThermalResponseManager *_thermalResponseManager;
-    RBHistoricalStatistics *_historicalStatistics;
-    RBCoalitionManager *_coalitionManager;
-    id <RBExtensionDataProviding> _extensionDataProvider;
-    id <RBRequestManaging> _requestManager;
 }
 
 + (void);
@@ -42,21 +23,21 @@
 - (id);
 - (void);
 - (void);
+- (id)NSNumber",R,N,V_synchronousMetalShaderCompileCount;
+- (void);
+- (void)@0:(id)arg1 8@16@24B32B36;
+- (void)he %{public}@ population;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)race_chunk}*Q@?@?@?qqBBBBBB}8^{__CFDictionary=}16;
 - (id);
 - (void);
 - (void);
@@ -67,25 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <RBAssertionManaging> assertionManager; // @synthesize assertionManager=_assertionManager;
-@property(readonly, nonatomic) id <RBAssertionOriginatorPidPersisting> assertionOriginatorPidStore; // @synthesize assertionOriginatorPidStore=_assertionOriginatorPidStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <RBDomainAttributeManaging> domainAttributeManager; // @synthesize domainAttributeManager=_domainAttributeManager;
-@property(readonly, nonatomic) id <RBEntitlementManaging> entitlementManager; // @synthesize entitlementManager=_entitlementManager;
-@property(readonly, nonatomic) id <RBExtensionDataProviding> extensionDataProvider; // @synthesize extensionDataProvider=_extensionDataProvider;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <RBHistoricalStatisticsMaintaining> historicalStatistics; // @synthesize historicalStatistics=_historicalStatistics;
-@property(readonly, nonatomic) id <RBJetsamPropertyManaging> jetsamPropertyManager; // @synthesize jetsamPropertyManager=_jetsamPropertyManager;
-@property(readonly, nonatomic) RBProcess *process;
-@property(readonly, nonatomic) id <RBProcessManaging> processManager; // @synthesize processManager=_processManager;
-@property(readonly, nonatomic) id <RBProcessMonitoring> processMonitor; // @synthesize processMonitor=_processMonitor;
-@property(readonly, nonatomic) id <RBRequestManaging> requestManager; // @synthesize requestManager=_requestManager;
-@property(readonly, nonatomic) id <RBStateCaptureManaging> stateCaptureManager; // @synthesize stateCaptureManager=_stateCaptureManager;
-@property(readonly) Class superclass;
 
 @end
 

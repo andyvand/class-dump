@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSProgress, NSString, PHAsset;
+@class NSMutableDictionary;
 
 @interface PHResourceLocalAvailabilityRequest
 {
     NSMutableDictionary *_progressByRequestIdentifier;
-    CDUnknownBlockType _downloadCompletionHandler;
-    _Bool __downloadCancelled;
-    PHAsset *_asset;
-    long long _requestType;
-    double _progressFraction;
-    NSProgress *_progress;
-    CDUnknownBlockType _progressChangeHandler;
-    unsigned long long _requestLogIdentifier;
-    NSArray *__assetResources;
-    NSMutableArray *__activeAssetResourcesRequest;
 }
 
-+ (id);
++ (id)+;
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (_Bool);
++ (id)));
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
 - (long long);
 - (unsigned long long);
-- (double);
-- (CDUnknownBlockType);
+- (double);
+- (CDUnknownBlockType).;
 - (id);
 - (void);
 - (void);
@@ -54,7 +44,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!N;
 - (void);
 - (void);
 - (void);
@@ -68,22 +58,7 @@
 - (long long)ge data for %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *_activeAssetResourcesRequest; // @synthesize _activeAssetResourcesRequest=__activeAssetResourcesRequest;
-@property(retain, nonatomic, setter=_setAssetResources:) NSArray *_assetResources; // @synthesize _assetResources=__assetResources;
-@property(nonatomic, getter=_isDownloadCancelled, setter=_setDownloadCancelled:) _Bool _downloadCancelled; // @synthesize _downloadCancelled=__downloadCancelled;
-@property(readonly) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) CDUnknownBlockType progressChangeHandler; // @synthesize progressChangeHandler=_progressChangeHandler;
-@property(nonatomic, setter=_setProgressFraction:) double progressFraction; // @synthesize progressFraction=_progressFraction;
 @property(readonly, nonatomic) unsigned long long requestLogIdentifier; // @synthesize requestLogIdentifier=_requestLogIdentifier;
-@property(readonly) long long requestType; // @synthesize requestType=_requestType;
-@property(readonly) Class superclass;
 
 @end
 

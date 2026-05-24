@@ -9,46 +9,33 @@
 @interface NTPBNotificationSettingsScreenView
 {
     NSString *_campaignId;
-    NSString *_campaignType;
-    NSString *_creativeId;
-    int _notificationSettingsScreenViewPresentationReason;
-    struct {
-        unsigned int notificationSettingsScreenViewPresentationReason:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void)emphasized;
+- (void)dataSourceUpdateSubscription;
+- (void)containerTapToRadarDiagnosticsProvider;
+- (void)configureWithFormat:(id)arg1;
+- (int)cloudOwnerDisplayNameIncludingEmail:allowsEmail: /* Error: Ran out of types for this method. */;
+- (_Bool)bannerView;
+- (_Bool)aspectRatioForCompactPortraitYears;
+- (_Bool)applySourceChangesToCompositionSynchronously:source:withBlock: /* Error: Ran out of types for this method. */;
+- (id)alignmentRectInsets;
+- (id)addLocalItemWithType:atColumn:row:columnSpan:rowSpan: /* Error: Ran out of types for this method. */;
+- (_Bool)_weightByAssetCache;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)igration Queue:(id)arg1 Not archiving request (Request was invalid/not loaded);
 - (_Bool);
 - (id);
-- (id);
-- (void)tureType: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setHasGestureType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSString *campaignType; // @synthesize campaignType=_campaignType;
-@property(retain, nonatomic) NSString *creativeId; // @synthesize creativeId=_creativeId;
-@property(readonly, nonatomic) _Bool hasCampaignId;
-@property(readonly, nonatomic) _Bool hasCampaignType;
-@property(readonly, nonatomic) _Bool hasCreativeId;
 @property(nonatomic) _Bool hasNotificationSettingsScreenViewPresentationReason;
-@property(nonatomic) int notificationSettingsScreenViewPresentationReason; // @synthesize notificationSettingsScreenViewPresentationReason=_notificationSettingsScreenViewPresentationReason;
 
 @end
 

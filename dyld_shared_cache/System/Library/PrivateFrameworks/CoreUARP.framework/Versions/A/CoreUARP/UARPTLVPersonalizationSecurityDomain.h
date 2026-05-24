@@ -11,16 +11,16 @@
     unsigned int _securityDomain;
 }
 
++ (id)};
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int)cheduling a retry.;
 - (id);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)seRequestEncoder",&;
 
 // Remaining properties
 @property(readonly) unsigned int securityDomain; // @synthesize securityDomain=_securityDomain;

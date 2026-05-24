@@ -5,5 +5,6 @@
 //
 
 @protocol EKEventDetailAttendeesCellModelDelegate
+- (void);
 @end
 

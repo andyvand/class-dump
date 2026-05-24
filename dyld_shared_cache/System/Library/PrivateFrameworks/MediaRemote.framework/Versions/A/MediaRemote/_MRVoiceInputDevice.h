@@ -9,12 +9,6 @@
 @interface _MRVoiceInputDevice
 {
     _MRVoiceInputDeviceDescriptorProtobuf *_descriptor;
-    unsigned int _deviceID;
-    int _recordingState;
-    struct {
-        unsigned int deviceID:1;
-        unsigned int recordingState:1;
-    } _has;
 }
 
 - (void);
@@ -26,28 +20,23 @@
 - (void);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
-- (id);
+- (id)componentsJoinedByString:(struct _NSZone *)arg1;
+- (id).transcript-item.did-disappear;
 - (void);
 - (id);
-- (void)ExternalDeviceWithOptions:userInfo:completion: /* Error: Ran out of types for this method. */;
+- (void)connectToExternalDeviceWithOptions:userInfo:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _MRVoiceInputDeviceDescriptorProtobuf *descriptor; // @synthesize descriptor=_descriptor;
-@property(nonatomic) unsigned int deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) _Bool hasDescriptor;
 @property(nonatomic) _Bool hasDeviceID;
-@property(nonatomic) _Bool hasRecordingState;
-@property(nonatomic) int recordingState; // @synthesize recordingState=_recordingState;
 
 @end
 

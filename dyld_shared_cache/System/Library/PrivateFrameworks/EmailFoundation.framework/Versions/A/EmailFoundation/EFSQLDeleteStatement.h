@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
 @protocol EFSQLValueExpressable;
 
 @interface EFSQLDeleteStatement
 {
     id <EFSQLValueExpressable> _where;
-    unsigned long long _limit;
-    NSString *_table;
-    NSMutableArray *_orderExpressions;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)windowInformationRequestFromRecognitionWindowController:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)b;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, copy, nonatomic) NSString *queryString;
 @property(retain, nonatomic) id <EFSQLValueExpressable> where; // @synthesize where=_where;
 
 @end

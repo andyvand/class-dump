@@ -9,8 +9,6 @@
 @interface TRIExperimentIdentifiers
 {
     int _deploymentId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
 - (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

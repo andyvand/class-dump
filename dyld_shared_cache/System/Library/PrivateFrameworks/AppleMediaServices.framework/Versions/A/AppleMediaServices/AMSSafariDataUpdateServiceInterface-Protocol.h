@@ -5,5 +5,6 @@
 //
 
 @protocol AMSSafariDataUpdateServiceInterface
+- (void)";
 @end
 

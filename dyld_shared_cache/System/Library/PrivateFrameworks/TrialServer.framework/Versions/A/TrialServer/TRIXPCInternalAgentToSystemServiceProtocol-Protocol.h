@@ -5,5 +5,6 @@
 //
 
 @protocol TRIXPCInternalAgentToSystemServiceProtocol
+- (void);
 @end
 

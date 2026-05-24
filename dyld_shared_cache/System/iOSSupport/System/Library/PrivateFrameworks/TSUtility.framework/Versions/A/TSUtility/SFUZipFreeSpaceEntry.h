@@ -7,7 +7,6 @@
 @interface SFUZipFreeSpaceEntry
 {
     unsigned long long offset;
-    unsigned long long length;
 }
 
 - (long long);

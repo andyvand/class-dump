@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureFlatPlistSet
 {
     FigCaptureFlatPlist *_flatPlist;
-    const CDStruct_e993e376 *_bplist;
-    unsigned long long _offset;
-    unsigned long long _count;
 }
 
-- (id);
-- (void);
+- (id)C;
+- (void)nsIntegerToken;
 - (id);
 - (unsigned long long);
-- (id)atorAddAttachmentsToSampleBuffer;
+- (id)BWStillImageCoordinatorAddAttachmentsToSampleBuffer;
 
 @end
 

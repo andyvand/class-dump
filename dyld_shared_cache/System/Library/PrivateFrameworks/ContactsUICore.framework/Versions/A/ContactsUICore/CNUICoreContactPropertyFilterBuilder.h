@@ -7,9 +7,6 @@
 @interface CNUICoreContactPropertyFilterBuilder
 {
     _Bool _excludeNickname;
-    _Bool _excludePhoto;
-    _Bool _excludeNote;
-    _Bool _excludeRelationships;
 }
 
 + (id);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool excludeNickname; // @synthesize excludeNickname=_excludeNickname;
-@property(nonatomic) _Bool excludeNote; // @synthesize excludeNote=_excludeNote;
-@property(nonatomic) _Bool excludePhoto; // @synthesize excludePhoto=_excludePhoto;
-@property(nonatomic) _Bool excludeRelationships; // @synthesize excludeRelationships=_excludeRelationships;
 
 @end
 

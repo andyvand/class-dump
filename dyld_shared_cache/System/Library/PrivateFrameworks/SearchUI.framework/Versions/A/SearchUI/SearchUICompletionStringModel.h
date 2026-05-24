@@ -9,24 +9,18 @@
 @interface SearchUICompletionStringModel
 {
     _Bool _searchFieldHasTokens;
-    _Bool _hasMarkedText;
-    NSAttributedString *_displayedText;
-    unsigned long long _queryId;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool)ContinuationEntityQuery;
+- (_Bool)SearchUIContinuationEntityQuery;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *displayedText; // @synthesize displayedText=_displayedText;
-@property(readonly, nonatomic) _Bool hasMarkedText; // @synthesize hasMarkedText=_hasMarkedText;
-@property(readonly, nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(readonly, nonatomic) _Bool searchFieldHasTokens; // @synthesize searchFieldHasTokens=_searchFieldHasTokens;
 
 @end
 

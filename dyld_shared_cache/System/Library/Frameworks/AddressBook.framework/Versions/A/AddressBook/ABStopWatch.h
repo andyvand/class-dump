@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol ABStopWatchTimeIntervalProvider;
 
 @interface ABStopWatch
 {
     id <ABStopWatchTimeIntervalProvider> _provider;
-    double _start;
-    double _end;
-    NSMutableArray *_laps;
 }
 
 + (id);

@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSUUID;
-
 @interface DRConfig
 {
     _Bool _skippedHysteresis;
-    _Bool _payloadIsJSON;
-    NSString *_teamID;
-    NSString *_build;
-    NSString *_configDescription;
-    NSUUID *_configUUID;
-    NSDate *_receivedDate;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSData *_payload;
-    NSDictionary *_payloadDictionaryRepresentation;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) NSString *configDescription; // @synthesize configDescription=_configDescription;
-@property(readonly, nonatomic) NSUUID *configUUID; // @synthesize configUUID=_configUUID;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) NSDictionary *payloadDictionaryRepresentation; // @synthesize payloadDictionaryRepresentation=_payloadDictionaryRepresentation;
 @property(readonly, nonatomic) _Bool payloadIsJSON; // @synthesize payloadIsJSON=_payloadIsJSON;
-@property(readonly, nonatomic) NSDate *receivedDate; // @synthesize receivedDate=_receivedDate;
-@property(readonly, nonatomic) _Bool skippedHysteresis; // @synthesize skippedHysteresis=_skippedHysteresis;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

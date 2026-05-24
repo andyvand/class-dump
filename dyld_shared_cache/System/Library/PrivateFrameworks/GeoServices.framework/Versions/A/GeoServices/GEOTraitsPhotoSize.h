@@ -9,18 +9,15 @@
 @interface GEOTraitsPhotoSize
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _height;
-    unsigned int _width;
-    CDStruct_a1cdbaa7 _flags;
 }
 
-+ (_Bool)etMetadataType:(id)arg1;
++ (_Bool)setMetadataType:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithDescription:(id)arg1 timeout: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,9 +27,9 @@
 - (void);
 - (void);
 - (id)ingsCyclingPrefs";
-- (void):(unsigned int)arg1;
-- (id)endations;
-- (id)serActionModuleInfo;
+- (void)setCacheMiss:(unsigned int)arg1;
+- (id)hasUgcUserSubmittedRecommendations;
+- (id)GEOLogMsgEventUserActionModuleInfo;
 - (_Bool)ò;
 - (id)knownLocation;
 - (void)ÃBAå*¿)WQ@;
@@ -41,11 +38,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
 @property(nonatomic) _Bool hasWidth;
-@property(nonatomic) unsigned int height;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int width;
 
 @end
 

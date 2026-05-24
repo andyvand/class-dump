@@ -10,22 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _UIVisualEffectDifferenceEngine
 {
     long long _sourceCount;
-    long long _destinationCount;
-    long long _prefixCount;
-    long long _suffixCount;
-    long long _innerSourceCount;
-    long long _innerDestinationCount;
-    long long *_mergeTable;
-    NSArray *_merged;
-    NSArray *_source;
-    NSArray *_destination;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_thenPredicate;
 - (void);
 - (id);
 - (id);
@@ -34,14 +25,12 @@ __attribute__((visibility("hidden")))
 - (id)
 × ;
 - (void)pickerView:transform: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)bBar;
+- (void)hitTestResponder;
+- (id)_adjustForTabBar;
 - (void)inGesture;
 - (void)ViewType/Ã;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *destination; // @synthesize destination=_destination;
-@property(readonly, copy, nonatomic) NSArray *merged;
 @property(copy, nonatomic) NSArray *source; // @synthesize source=_source;
 
 @end

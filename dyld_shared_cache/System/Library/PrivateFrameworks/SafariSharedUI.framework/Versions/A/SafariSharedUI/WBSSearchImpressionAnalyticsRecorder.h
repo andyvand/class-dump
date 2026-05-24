@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSSearchProvider;
+@class NSArray;
 
 @interface WBSSearchImpressionAnalyticsRecorder
 {
     NSArray *_searchProviders;
-    WBSSearchProvider *_defaultSearchProvider;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void)y",R,C,N,V_privateBrowsingExplanationItems;
 
 // Remaining properties
-@property(retain, nonatomic) WBSSearchProvider *defaultSearchProvider; // @synthesize defaultSearchProvider=_defaultSearchProvider;
 @property(copy, nonatomic) NSArray *searchProviders; // @synthesize searchProviders=_searchProviders;
 
 @end

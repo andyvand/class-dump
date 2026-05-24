@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSDictionary;
+@class AVWeakReference, NSDictionary;
 
 @interface AVCustomMediaSelectionScheme
 {
     AVWeakReference *_weakReferenceToGroup;
-    NSArray *_options;
-    NSArray *_mediaPresentationSelectors;
-    NSArray *_availableLanguageTags;
-    NSDictionary *_decorationCharacteristicsForLanguages;
-    NSDictionary *_languageDecorationDisplayNames;
-    _Bool _shouldOfferLanguageSelection;
 }
 
 - (_Bool);
-- (id);
+- (id)lm;
 - (id);
 - (id);
 - (id);
@@ -31,14 +25,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)brary applicationsDidFailToUninstall:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *availableLanguages;
 @property(readonly, nonatomic) NSDictionary *decorationCharacteristicsForLanguages;
-@property(readonly, nonatomic) NSDictionary *languageDecorationDisplayNames;
-@property(readonly) NSArray *selectors;
-@property(readonly) _Bool shouldOfferLanguageSelection;
 
 @end
 

@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IFPlistParser
 {
     _Bool _captureAccentColorInfo;
-    NSDictionary *_infoDictionary;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)/'1;
+- (unsigned long long)F3H;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (void);
+- (void)3y;
 - (id);
-- (id);
+- (id)�3;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)E4F1H'4�;
+- (id)DE;
 - (_Bool);
-- (id);
-- (id);
+- (id)EA*'-;
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool captureAccentColorInfo; // @synthesize captureAccentColorInfo=_captureAccentColorInfo;
-@property(readonly, copy) NSString *catalogAssetName;
-@property(readonly, copy) NSDictionary *iconContent;
-@property(readonly, copy) NSDictionary *iconDictionary;
-@property(readonly) unsigned long long iconPlatform;
 @property(readonly, copy) NSDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
-@property(readonly) NSString *minimumOSVersion;
-@property(readonly) unsigned long long supportedPlatform;
-@property(readonly) unsigned long long uiDeviceFamily;
 
 @end
 

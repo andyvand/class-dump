@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewSpringAnimationBehavior, _UIHyperInteractor, _UISpringParameters;
-@protocol UIViewSpringAnimationBehaviorDescribing;
+@class UIViewSpringAnimationBehavior;
 
 @interface _UIHyperInProcessViewAnimator
 {
     unsigned long long __dimensions;
-    _UIHyperInteractor *__interactor;
-    _UISpringParameters *__trackingSpringParameters;
-    _UISpringParameters *__nonTrackingSpringParameters;
-    UIViewSpringAnimationBehavior *__springAnimationBehavior;
-    id <UIViewSpringAnimationBehaviorDescribing> __overrideSpringAnimationBehavior;
 }
 
 + (_Bool)cc-additional-name;
@@ -23,38 +17,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)nread count:%ld /* Error: Ran out of types for this method. */;
+- (id)ouldn't add transcript background to CKRecord. Returning nil.;
+- (void)@;
+- (void)";
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void)1"respondsToDidRecognizeDoubleTap"b1};
-- (_Bool)terIndexes;
-- (void)ents:(id)arg1;
-- (id)rentWhenNotCollapsed;
+- (_Bool)tokenCharacterIndexes;
+- (void)setControllerForTrackingElements:(id)arg1;
+- (id)_backgroundTransparentWhenNotCollapsed;
 - (id)lation;
 - (void)8[;
 - (id)ãX;
 - (void)b;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(nonatomic, setter=_setInteractor:) __weak _UIHyperInteractor *_interactor; // @synthesize _interactor=__interactor;
-@property(copy, nonatomic, setter=_setNonTrackingSpringParameters:) _UISpringParameters *_nonTrackingSpringParameters; // @synthesize _nonTrackingSpringParameters=__nonTrackingSpringParameters;
-@property(retain, nonatomic, setter=_setOverrideSpringAnimationBehavior:) id <UIViewSpringAnimationBehaviorDescribing> _overrideSpringAnimationBehavior; // @synthesize _overrideSpringAnimationBehavior=__overrideSpringAnimationBehavior;
 @property(readonly, nonatomic) UIViewSpringAnimationBehavior *_springAnimationBehavior; // @synthesize _springAnimationBehavior=__springAnimationBehavior;
-@property(copy, nonatomic, setter=_setTrackingSpringParameters:) _UISpringParameters *_trackingSpringParameters; // @synthesize _trackingSpringParameters=__trackingSpringParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

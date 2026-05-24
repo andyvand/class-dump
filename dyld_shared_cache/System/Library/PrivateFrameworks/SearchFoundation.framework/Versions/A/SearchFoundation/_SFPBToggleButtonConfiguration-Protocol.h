@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage;
+@class NSData, NSString;
 
 @protocol _SFPBToggleButtonConfiguration
+- (id);
+- (NSData *)R;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBImage *toggledImage;
-@property(copy, nonatomic) NSString *toggledTitle;
-@property(retain, nonatomic) _SFPBImage *untoggledImage;
 @property(copy, nonatomic) NSString *untoggledTitle;
 @end
 

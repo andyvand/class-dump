@@ -4,51 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 @interface CRRecentContact
 {
     NSMutableArray *_recentDates;
-    long long _contactID;
-    NSString *_recentsDomain;
-    NSString *_displayName;
-    NSString *_kind;
-    NSString *_address;
-    NSString *_lastSendingAddress;
-    NSString *_originalSource;
-    NSDictionary *_metadata;
-    NSNumber *_weight;
-    NSNumber *_decayedWeight;
-    NSArray *_members;
-    unsigned long long _groupKind;
-    long long _recentID;
-    NSString *_groupName;
-    NSString *_rawAddress;
 }
 
-+ (_Bool);
++ (_Bool)xtIDsInSceneWithSceneIdentifierCallback;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
 @property(nonatomic) long long contactID; // @synthesize contactID=_contactID;
-@property(readonly, nonatomic) unsigned long long countOfRecents;
-@property(retain, nonatomic) NSNumber *decayedWeight; // @synthesize decayedWeight=_decayedWeight;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic, getter=isGroup) _Bool group;
-@property(nonatomic) unsigned long long groupKind; // @synthesize groupKind=_groupKind;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *lastSendingAddress; // @synthesize lastSendingAddress=_lastSendingAddress;
-@property(readonly, copy, nonatomic) NSDate *leastRecentDate;
-@property(copy, nonatomic) NSArray *members; // @synthesize members=_members;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSDate *mostRecentDate;
-@property(copy, nonatomic) NSString *originalSource; // @synthesize originalSource=_originalSource;
-@property(copy, nonatomic) NSString *rawAddress; // @synthesize rawAddress=_rawAddress;
-@property(copy, nonatomic) NSArray *recentDates;
-@property(nonatomic) long long recentID; // @synthesize recentID=_recentID;
-@property(copy, nonatomic) NSString *recentsDomain; // @synthesize recentsDomain=_recentsDomain;
-@property(retain, nonatomic) NSNumber *weight; // @synthesize weight=_weight;
 
 @end
 

@@ -6,20 +6,12 @@
 
 #import <ShareKit/SHKMetric.h>
 
-@class NSNumber, NSString, SHKLatencyMeasurement;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface SHKUIServiceLatencyMetric : SHKMetric
 {
     _Bool _isIOSMac;
-    NSNumber *_launchCount;
-    NSNumber *_sharedItemsCount;
-    NSString *_serviceIdentifier;
-    SHKLatencyMeasurement *_beginExtensionRequestMeasurement;
-    SHKLatencyMeasurement *_convertToExtensionItemMeasurement;
-    SHKLatencyMeasurement *_sendOptionsRequestMeasurement;
-    SHKLatencyMeasurement *_remoteViewControllerRequestMeasurement;
-    SHKLatencyMeasurement *_totalLatencyMeasurement;
 }
 
 - (id);
@@ -37,24 +29,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ib;
 
 // Remaining properties
-@property(retain) SHKLatencyMeasurement *beginExtensionRequestMeasurement; // @synthesize beginExtensionRequestMeasurement=_beginExtensionRequestMeasurement;
-@property(retain) SHKLatencyMeasurement *convertToExtensionItemMeasurement; // @synthesize convertToExtensionItemMeasurement=_convertToExtensionItemMeasurement;
-@property _Bool isIOSMac; // @synthesize isIOSMac=_isIOSMac;
 @property(retain) NSNumber *launchCount; // @synthesize launchCount=_launchCount;
-@property(retain) SHKLatencyMeasurement *remoteViewControllerRequestMeasurement; // @synthesize remoteViewControllerRequestMeasurement=_remoteViewControllerRequestMeasurement;
-@property(retain) SHKLatencyMeasurement *sendOptionsRequestMeasurement; // @synthesize sendOptionsRequestMeasurement=_sendOptionsRequestMeasurement;
-@property(retain) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(retain) NSNumber *sharedItemsCount; // @synthesize sharedItemsCount=_sharedItemsCount;
-@property(retain) SHKLatencyMeasurement *totalLatencyMeasurement; // @synthesize totalLatencyMeasurement=_totalLatencyMeasurement;
 
 @end
 

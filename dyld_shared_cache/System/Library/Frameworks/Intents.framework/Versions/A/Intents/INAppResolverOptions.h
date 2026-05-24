@@ -16,15 +16,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)expirationDate=%@, ;
 - (id);
-- (_Bool)rameterArraySizes;
-- (void)mentIntent;
+- (_Bool)INIntentParameterArraySizes;
+- (void)SendAnnouncementIntent;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) _Bool includeUserActivityTypes;
-@property(readonly, nonatomic) _Bool skipSupportedIntentsCheck;
 
 @end
 

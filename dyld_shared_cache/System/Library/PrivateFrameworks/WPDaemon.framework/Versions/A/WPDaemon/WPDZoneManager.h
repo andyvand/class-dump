@@ -6,41 +6,34 @@
 
 #import <WPDaemon/WPDManager.h>
 
-@class CBCentralManager, NSDate, NSMutableDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSMutableDictionary;
 
 @interface WPDZoneManager : WPDManager
 {
     _Bool _scanAllowlisted;
-    NSMutableDictionary *_trackRequests;
-    NSMutableDictionary *_trackedZones;
-    CBCentralManager *_centralManager;
-    NSObject<OS_dispatch_source> *_exitTimer;
-    NSNumber *_zoneExitTimeout;
-    NSDate *_lastTimeScannerStarted;
 }
 
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)˟;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -50,25 +43,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SeparationAlerts;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_dispatch_source> *exitTimer; // @synthesize exitTimer=_exitTimer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastTimeScannerStarted; // @synthesize lastTimeScannerStarted=_lastTimeScannerStarted;
-@property(readonly, nonatomic) _Bool scanAllowlisted; // @synthesize scanAllowlisted=_scanAllowlisted;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableDictionary *trackRequests; // @synthesize trackRequests=_trackRequests;
-@property(retain, nonatomic) NSMutableDictionary *trackedZones; // @synthesize trackedZones=_trackedZones;
-@property(retain, nonatomic) NSNumber *zoneExitTimeout; // @synthesize zoneExitTimeout=_zoneExitTimeout;
 
 @end
 

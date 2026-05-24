@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _PMLPreNoiseScaleFactorAndNoiseSampler {
@@ -39,18 +39,12 @@ typedef struct {
 } CDStruct_62a50c50;
 
 typedef struct {
-    float *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_fae3dc92;
-
-typedef struct {
     void *plan;
     int network_index;
 } CDStruct_2bc666a5;
 
 typedef struct {
-    float gaussianScaleFactor;
-    float laplaceScaleFactor;
-} CDStruct_cd4a7bf5;
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 

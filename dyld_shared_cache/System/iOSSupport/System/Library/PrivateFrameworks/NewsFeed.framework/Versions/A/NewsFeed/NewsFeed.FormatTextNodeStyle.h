@@ -7,21 +7,6 @@
 @interface NewsFeed.FormatTextNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id font;
-    id fill;
-    id borders;
-    id shadow;
-    id transforms;
-    id paragraphStyle;
-    id tracking;
-    id alpha;
-    id strikethrough;
-    id underline;
-    id ignoresSmartInvertColors;
-    id baselineOffset;
-    id encapsulation;
 }
 
 @end

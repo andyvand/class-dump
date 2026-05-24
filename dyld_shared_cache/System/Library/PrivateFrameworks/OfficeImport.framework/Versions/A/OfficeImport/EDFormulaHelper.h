@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMappingContext, EDWorkbook, EDWorksheet, NSString;
+@class EDWorkbook;
 
 __attribute__((visibility("hidden")))
 @interface EDFormulaHelper
 {
     EDWorkbook *mWorkbook;
-    EDWorksheet *mWorksheet;
-    int mRowNumber;
-    int mColumnNumber;
-    ECMappingContext *mMappingContext;
 }
 
 - (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

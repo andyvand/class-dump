@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBUncompressFileIntentResponse
 {
     CDStruct_f2ecb737 _has;
-    _Bool _success;
-    _INPBString *_entityName;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)l %d
+;
 - (id);
 - (_Bool);
 - (void);
@@ -26,23 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)loadTaskPriorityAtIndex: /* Error: Ran out of types for this method. */;
-- (void)ason;
-- (void)tDefrosterSettingsInCarIntentResponseCodeInProgress;
+- (_Bool)payloadTaskPriorityAtIndex: /* Error: Ran out of types for this method. */;
+- (void)INGetSettingIntentResponseCodeFailureOtherWithReason;
+- (void)INSetDefrosterSettingsInCarIntentResponseCodeInProgress;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

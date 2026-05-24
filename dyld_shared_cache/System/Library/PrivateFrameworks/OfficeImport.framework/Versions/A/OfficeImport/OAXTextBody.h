@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)) ;
++ (id);
++ (id)Y;
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);

@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, TSDBitmapImageProvider, TSDFrame;
+@class TSDFrame;
 
 @interface TSDFrameRep
 {
     TSDFrame *mFrame;
-    NSArray *mImages;
-    NSArray *mMasks;
-    TSDBitmapImageProvider *mAdornment;
-    CALayer *mMaskLayer;
-    _Bool mShouldEnableBlendMode;
 }
 
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)OpenExternalURLOptionsKey;
+- (void)MPCPlaybackEngineEventPlaybackBehaviorMetadataKey;
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)!;
 
 @end
 

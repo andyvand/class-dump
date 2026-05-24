@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, VNImageBuffer, VNObservationsCache, VNRequestForensics, VNRequestPerformer, VNSession;
-
 __attribute__((visibility("hidden")))
 @interface VNRequestPerformingContext
 {
     unsigned long long _serialNumber;
-    VNSession *_session;
-    unsigned int _qosClass;
-    VNRequestPerformer *_weakRequestPerformer;
-    VNImageBuffer *_imageBuffer_DO_NOT_DIRECTLY_ACCESS;
-    NSMapTable *_requestToObservationsCacheKeyMap;
-    VNObservationsCache *_observationsCache;
-    struct os_unfair_lock_s _observationsCacheLock;
-    VNRequestForensics *_requestForensics;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)";
+- (id);
+- (id)R;
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (unsigned int);
 - (id);
 - (unsigned long long);
@@ -37,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long serialNumber;
-@property(readonly) VNSession *session;
 
 @end
 

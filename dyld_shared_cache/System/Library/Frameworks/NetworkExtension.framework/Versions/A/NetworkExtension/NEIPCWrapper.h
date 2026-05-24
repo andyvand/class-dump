@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIPC, NSObject, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NEIPCWrapper
 {
     NSObject<OS_dispatch_queue> *_sendQueue;
-    NSObject<OS_dispatch_queue> *_ipcQueue;
-    NEIPC *_ipc;
-    NSUUID *_identifier;
 }
 
-- (void)eInternalIPSubnet;
+- (void)useConfigurationAttributeInternalIPSubnet;
 
 @end
 

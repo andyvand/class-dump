@@ -6,18 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKAcceptSharesOperationInfo, NSArray, NSMutableDictionary, NSString;
-@protocol CKAcceptSharesOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKAcceptSharesOperation : CKOperation
 {
     CDUnknownBlockType _perShareCompletionBlock;
-    CDUnknownBlockType _acceptSharesCompletionBlock;
-    NSArray *_shareMetadatas;
-    NSMutableDictionary *_errorsByShareURL;
-    NSMutableDictionary *_shareMetadatasByShareURL;
-    CDUnknownBlockType _perShareCompletionBlock_wrapper;
-    CDUnknownBlockType _acceptSharesCompletionBlock_wrapper;
 }
 
 + (SEL);
@@ -36,7 +29,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -51,22 +44,7 @@
 - (void)Yíÿs¿;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType acceptSharesCompletionBlock; // @synthesize acceptSharesCompletionBlock=_acceptSharesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType acceptSharesCompletionBlock_wrapper; // @synthesize acceptSharesCompletionBlock_wrapper=_acceptSharesCompletionBlock_wrapper;
-@property(readonly, nonatomic) id <CKAcceptSharesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *errorsByShareURL; // @synthesize errorsByShareURL=_errorsByShareURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKAcceptSharesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock; // @synthesize perShareCompletionBlock=_perShareCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock_wrapper; // @synthesize perShareCompletionBlock_wrapper=_perShareCompletionBlock_wrapper;
-@property(copy, nonatomic) NSArray *shareMetadatas; // @synthesize shareMetadatas=_shareMetadatas;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadatasByShareURL; // @synthesize shareMetadatasByShareURL=_shareMetadatasByShareURL;
-@property(readonly) Class superclass;
 
 @end
 

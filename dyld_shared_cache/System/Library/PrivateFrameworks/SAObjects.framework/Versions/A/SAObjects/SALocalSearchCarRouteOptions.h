@@ -6,15 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SALocalSearchCarRouteOptions : AceObject
 {
 }
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -23,14 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool avoidHighways;
-@property(nonatomic) _Bool avoidTolls;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

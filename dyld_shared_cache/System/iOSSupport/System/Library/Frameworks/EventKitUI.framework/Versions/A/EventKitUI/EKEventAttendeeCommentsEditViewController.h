@@ -4,64 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSDateFormatter, NSMutableArray, NSString, UITableView;
-@protocol EKEditItemViewControllerDelegate, EKUIViewControllerNavigationDelegate;
+@class EKEvent;
+@protocol EKUIViewControllerNavigationDelegate;
 
 @interface EKEventAttendeeCommentsEditViewController
 {
     EKEvent *_event;
-    UITableView *_tableView;
-    NSDateFormatter *_headerDateFormatter;
-    NSMutableArray *_tableData;
-    id <EKUIViewControllerNavigationDelegate> _navigationDelegate;
 }
 
 - (void);
+- (void)*s;
+- (void);
 - (void);
+- (_Bool)1%s;
 - (void);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void)letionHandler: /* Error: Ran out of types for this method. */;
+- (void)saveAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate; // @synthesize navigationDelegate=_navigationDelegate;
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 
 @end
 

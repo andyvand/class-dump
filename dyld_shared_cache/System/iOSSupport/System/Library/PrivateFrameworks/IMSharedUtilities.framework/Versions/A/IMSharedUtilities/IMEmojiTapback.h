@@ -17,10 +17,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *associatedMessageEmoji;
-@property(nonatomic, readonly) IMEmojiTapback *counterpart;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) IMEmojiTapback *removedTapbackCounterpart;
-@property(nonatomic, readonly) IMEmojiTapback *visibleTapbackCounterpart;
 
 @end
 

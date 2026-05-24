@@ -11,7 +11,6 @@
 @interface CEMAssetBaseDescriptor : CEMPayloadBase
 {
     NSString *_payloadTitle;
-    NSString *_payloadDescription;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadDescription; // @synthesize payloadDescription=_payloadDescription;
 @property(copy, nonatomic) NSString *payloadTitle; // @synthesize payloadTitle=_payloadTitle;
 
 @end

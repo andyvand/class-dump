@@ -7,6 +7,7 @@
 @protocol GEOServerFormattedString;
 
 @protocol GEOTransitTextDataSource
+- (id <GEOServerFormattedString>)A;
 
 // Remaining properties
 @property(readonly, nonatomic) id <GEOServerFormattedString> text;

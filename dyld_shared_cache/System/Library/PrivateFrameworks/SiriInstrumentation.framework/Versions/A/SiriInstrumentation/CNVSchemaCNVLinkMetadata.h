@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVLinkMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_linkActionId;
-    int _systemProtocol;
-    struct {
-        unsigned int systemProtocol:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasLinkActionId;
 }
 
 - (int);
@@ -35,27 +28,21 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)1;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)A;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)hemaIFTPrefixExpression";
-- (id)cordingInterruptionStartedTier1;
+- (id)MHSchemaMHAssistantDaemonAudioRecordingInterruptionStartedTier1;
 - (id)¨@TAØA KìN
 \a;
 - (void)l ´ÿG«>Dì%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkActionId; // @synthesize hasLinkActionId=_hasLinkActionId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSystemProtocol;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *linkActionId; // @synthesize linkActionId=_linkActionId;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int systemProtocol; // @synthesize systemProtocol=_systemProtocol;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _SFPBAppEntityAnnotation
 
 // Remaining properties
-@property(copy, nonatomic) NSString *entityIdentifer;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *typeIdentifer;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol BSErrorConfiguring
+- (void);
+- (void);
 @end
 

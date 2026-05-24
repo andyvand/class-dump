@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemAccessLog, NSArray, NSData;
+@class AVPlayerItemAccessLog, NSData;
 
 @interface MPMovieAccessLog
 {
@@ -19,9 +19,7 @@
 - (void)R,N,V_volumeWarningState;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *events;
 @property(readonly, nonatomic) NSData *extendedLogData;
-@property(readonly, nonatomic) unsigned long long extendedLogDataStringEncoding;
 
 @end
 

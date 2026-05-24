@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSMutableArray, NSProgress;
+@class NSMutableArray;
 
 @interface IMAPDownload
 {
     NSMutableArray *_pendingFetchResults;
-    unsigned int _uid;
-    NSProgress *_downloadProgress;
 }
 
 - (void);
@@ -22,11 +20,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)nsChanged;
 - (unsigned int);
 - (void);
 - (id);
@@ -35,11 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bytesFetched;
-@property(readonly) unsigned long long countOfPendingFetchResults;
-@property(readonly, copy) NSData *data;
-@property(retain) NSProgress *downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(copy) NSError *error;
 @property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end

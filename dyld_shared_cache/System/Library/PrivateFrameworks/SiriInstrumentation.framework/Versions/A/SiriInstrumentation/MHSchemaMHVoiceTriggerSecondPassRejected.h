@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHVoiceTriggerEventInfo, NSData;
+@class MHSchemaMHVoiceTriggerEventInfo;
 
 @interface MHSchemaMHVoiceTriggerSecondPassRejected : SISchemaInstrumentationMessage
 {
     MHSchemaMHVoiceTriggerEventInfo *_voiceTriggerEventInfo;
-    int _reason;
-    CDStruct_6555f803 _has;
-    _Bool _hasVoiceTriggerEventInfo;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)atpusEditValue;
 - (id);
 - (int);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)uildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/encode.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id)Artist;
 - (id),N,V_customerPerceivedLatencyInSecs;
-- (void)INGTRANSFORM_CONTACT_HYPOCORISM;
-- (void)tionCandidateType;
+- (void)QDMATCHINGTRANSFORM_CONTACT_HYPOCORISM;
+- (void)PEGASUSSchemaPEGASUSAlternateQuerySuggestionCandidateType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasVoiceTriggerEventInfo; // @synthesize hasVoiceTriggerEventInfo=_hasVoiceTriggerEventInfo;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) MHSchemaMHVoiceTriggerEventInfo *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end

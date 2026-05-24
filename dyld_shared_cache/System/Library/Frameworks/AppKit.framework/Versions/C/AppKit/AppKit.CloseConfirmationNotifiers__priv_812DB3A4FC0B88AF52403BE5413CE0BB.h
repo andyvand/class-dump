@@ -7,7 +7,6 @@
 @interface AppKit.CloseConfirmationNotifiers__priv_812DB3A4FC0B88AF52403BE5413CE0BB
 {
     id notifiers;
-    id currentToken;
 }
 
 @end

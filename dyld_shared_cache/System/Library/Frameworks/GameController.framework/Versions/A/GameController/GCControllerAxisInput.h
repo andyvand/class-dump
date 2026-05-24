@@ -6,17 +6,9 @@
 
 #import <GameController/GCControllerElement.h>
 
-@class GCControllerButtonInput;
-
 @interface GCControllerAxisInput : GCControllerElement
 {
     float _minValue;
-    float _maxValue;
-    _Bool _horizontal;
-    float _value;
-    CDUnknownBlockType _valueChangedHandler;
-    GCControllerButtonInput *_positive;
-    GCControllerButtonInput *_negative;
 }
 
 - (CDUnknownBlockType);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (_Bool);
@@ -35,7 +27,7 @@
 - (id);
 - (float);
 - (void);
-- (id);
+- (id)hasOptionsTimeoutIntervalForRequest;
 - (float);
 - (void);
 - (id);
@@ -46,11 +38,7 @@
 - (id)?;
 
 // Remaining properties
-@property(nonatomic, getter=isHorizontal) _Bool horizontal; // @synthesize horizontal=_horizontal;
-@property(retain, nonatomic) GCControllerButtonInput *negative; // @synthesize negative=_negative;
-@property(retain, nonatomic) GCControllerButtonInput *positive; // @synthesize positive=_positive;
 @property(nonatomic) float value; // @synthesize value=_value;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler; // @synthesize valueChangedHandler=_valueChangedHandler;
 
 @end
 

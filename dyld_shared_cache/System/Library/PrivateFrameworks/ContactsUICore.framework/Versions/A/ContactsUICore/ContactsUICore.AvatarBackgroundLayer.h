@@ -7,14 +7,13 @@
 @interface ContactsUICore.AvatarBackgroundLayer
 {
     id spec;
-    id gradientLayer;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)le: /* Error: Ran out of types for this method. */;
+- (void)roundedRectPlaceholderImageForSize:backgroundStyle:scale: /* Error: Ran out of types for this method. */;
 
 @end
 

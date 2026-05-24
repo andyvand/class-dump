@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface PCSDBRRecordChangeBlob
 {
     NSData *_currentMetadata;
-    NSData *_hsmBlob;
-    NSData *_oldMetadata;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,19 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
+- (id)`);
 - (id);
-- (id);
-- (void);
+- (void)l use what we currently have;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *currentMetadata; // @synthesize currentMetadata=_currentMetadata;
-@property(readonly, nonatomic) _Bool hasCurrentMetadata;
-@property(readonly, nonatomic) _Bool hasHsmBlob;
 @property(readonly, nonatomic) _Bool hasOldMetadata;
-@property(retain, nonatomic) NSData *hsmBlob; // @synthesize hsmBlob=_hsmBlob;
-@property(retain, nonatomic) NSData *oldMetadata; // @synthesize oldMetadata=_oldMetadata;
 
 @end
 

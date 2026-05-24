@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface TKPowerMonitor
 {
     struct IONotificationPort *_portRef;
-    unsigned int _handle;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _awaken;
-    unsigned int _kernelPort;
 }
 
 + (id);
@@ -23,10 +16,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (id);
-- (void);
+- (void)"<LAKeyStoreGenericPassword>"8@"NSError"16;
 
 // Remaining properties
-@property _Bool awaken; // @synthesize awaken=_awaken;
 @property unsigned int kernelPort; // @synthesize kernelPort=_kernelPort;
 
 @end

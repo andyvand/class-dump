@@ -6,7 +6,7 @@
 
 #import <LinkPresentation/LPFetcherResponse.h>
 
-@class LPImage, NSString;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherImageResponse : LPFetcherResponse
@@ -24,14 +24,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray, NSMutableDictionary, NSUUID, PDFAnnotation, PDFPageLayerEffect, PDFScannerResult;
 @protocol PDFPageLayerInterface;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageLayerEffectPrivate
 {
     id <PDFPageLayerInterface> pageLayer;
-    NSUUID *uuid;
-    struct CGRect pageFrame;
-    _Bool shouldRotateContent;
-    PDFAnnotation *annotation;
-    NSMutableDictionary *markupEffectLayers;
-    NSMutableArray *selections;
-    NSMutableDictionary *selectionEffectLayers;
-    unsigned long long lastFocusState;
-    PDFScannerResult *pdfResult;
-    CALayer *blendedSelectionLayer;
-    CALayer *opaqueSelectionLayer;
-    PDFPageLayerEffect *noteLayer;
 }
 
 - (void);

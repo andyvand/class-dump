@@ -4,44 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPCNetworkReachabilityPrediction
 {
     long long _impact;
-    NSDate *_predictedStartTime;
-    double _predictedInterval;
-    long long _predictionConfidence;
-    long long _startTimeConfidence;
-    long long _durationConfidence;
 }
 
 + (id);
-- (long long);
+- (long long)q;
 - (long long);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)__DATA_CONST;
 - (long long);
-- (long long);
+- (long long)3;
 - (void)c}@ %{public}@ %2i %{public}@ â²â­ activeFormat:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long durationConfidence; // @synthesize durationConfidence=_durationConfidence;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long impact; // @synthesize impact=_impact;
-@property(readonly, nonatomic) double predictedInterval; // @synthesize predictedInterval=_predictedInterval;
-@property(readonly, copy, nonatomic) NSDate *predictedStartTime; // @synthesize predictedStartTime=_predictedStartTime;
-@property(readonly, nonatomic) long long predictionConfidence; // @synthesize predictionConfidence=_predictionConfidence;
-@property(readonly, nonatomic) long long startTimeConfidence; // @synthesize startTimeConfidence=_startTimeConfidence;
-@property(readonly) Class superclass;
 
 @end
 

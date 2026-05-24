@@ -9,16 +9,6 @@
 @interface PKPaymentTransactionPresentationInformation
 {
     _Bool _destructiveSecondaryString;
-    _Bool _shouldGrayValue;
-    _Bool _shouldStrikeValue;
-    _Bool _shouldShowDisclosure;
-    NSString *_primaryString;
-    NSString *_secondaryString;
-    NSString *_tertiaryString;
-    NSString *_badgeString;
-    NSString *_valueString;
-    NSString *_secondaryBadgeSymbol;
-    long long _preferredTransactionCategory;
 }
 
 - (id);
@@ -26,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
@@ -41,23 +31,13 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ncryptionCount"b1"iDQueryDuration"b1"iDQueryStart"b1"messageOnQueueDuration"b1"messageOnQueueStart"b1"priority"b1"sendToDaemonDuration"b1"sendToDaemonStart"b1"storeInDatabaseDuration"b1"storeInDatabaseStart"b1};
 - (id);
-- (id);
-- (void)opExpressUpgradeLimitsKey;
+- (id)8;
+- (void)PKIgnoreOpenLoopExpressUpgradeLimitsKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *badgeString; // @synthesize badgeString=_badgeString;
-@property(nonatomic) _Bool destructiveSecondaryString; // @synthesize destructiveSecondaryString=_destructiveSecondaryString;
-@property(nonatomic) long long preferredTransactionCategory; // @synthesize preferredTransactionCategory=_preferredTransactionCategory;
 @property(retain, nonatomic) NSString *primaryString; // @synthesize primaryString=_primaryString;
-@property(retain, nonatomic) NSString *secondaryBadgeSymbol; // @synthesize secondaryBadgeSymbol=_secondaryBadgeSymbol;
-@property(retain, nonatomic) NSString *secondaryString; // @synthesize secondaryString=_secondaryString;
-@property(nonatomic) _Bool shouldGrayValue; // @synthesize shouldGrayValue=_shouldGrayValue;
-@property(nonatomic) _Bool shouldShowDisclosure; // @synthesize shouldShowDisclosure=_shouldShowDisclosure;
-@property(nonatomic) _Bool shouldStrikeValue; // @synthesize shouldStrikeValue=_shouldStrikeValue;
-@property(retain, nonatomic) NSString *tertiaryString; // @synthesize tertiaryString=_tertiaryString;
-@property(retain, nonatomic) NSString *valueString; // @synthesize valueString=_valueString;
 
 @end
 

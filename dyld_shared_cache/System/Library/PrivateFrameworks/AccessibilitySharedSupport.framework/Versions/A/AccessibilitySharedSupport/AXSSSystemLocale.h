@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;

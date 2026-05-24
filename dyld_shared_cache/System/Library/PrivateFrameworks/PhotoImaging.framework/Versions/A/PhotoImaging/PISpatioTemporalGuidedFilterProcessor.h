@@ -10,11 +10,11 @@
 
 + (_Bool);
 + (_Bool);
-+ (int);
++ (int)_pointOfInterestTypeStringsFromBusinessItems:withOriginalCoordinate: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)keepAliveDeviceInfoThread;
 
 @end
 

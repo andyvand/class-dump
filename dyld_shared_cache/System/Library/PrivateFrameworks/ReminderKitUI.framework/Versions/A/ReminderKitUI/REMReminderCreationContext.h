@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSAttributedString, NSData, NSDateComponents, NSString, NSURL, NSUserActivity, REMObjectID;
+@class REMObjectID;
 
 @interface REMReminderCreationContext
 {
     _Bool _wantsExtendedDetailOnlyView;
-    _Bool _titleIsGeneratedSuggestion;
-    REMObjectID *_reminderID;
-    NSAttributedString *_title;
-    NSAttributedString *_notes;
-    NSDateComponents *_dueDateComponents;
-    CLLocation *_location;
-    NSString *_locationString;
-    long long _locationProximity;
-    NSURL *_url;
-    NSData *_siriFoundInAppsData;
-    NSUserActivity *_userActivity;
 }
 
 + (_Bool);
@@ -37,12 +26,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SaySi6offset_So14CKConversationC7elementtG;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)publishedColorLayers;
 - (id);
 - (id);
 - (id);
@@ -50,21 +39,10 @@
 - (id);
 - (id);
 - (void);
-- (void)er;
+- (void)viewServiceViewController;
 
 // Remaining properties
-@property(copy, nonatomic) NSDateComponents *dueDateComponents; // @synthesize dueDateComponents=_dueDateComponents;
-@property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic) long long locationProximity; // @synthesize locationProximity=_locationProximity;
-@property(copy, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(copy, nonatomic) NSAttributedString *notes; // @synthesize notes=_notes;
 @property(retain, nonatomic) REMObjectID *reminderID; // @synthesize reminderID=_reminderID;
-@property(copy, nonatomic) NSData *siriFoundInAppsData; // @synthesize siriFoundInAppsData=_siriFoundInAppsData;
-@property(copy, nonatomic) NSAttributedString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool titleIsGeneratedSuggestion; // @synthesize titleIsGeneratedSuggestion=_titleIsGeneratedSuggestion;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
-@property(nonatomic) _Bool wantsExtendedDetailOnlyView; // @synthesize wantsExtendedDetailOnlyView=_wantsExtendedDetailOnlyView;
 
 @end
 

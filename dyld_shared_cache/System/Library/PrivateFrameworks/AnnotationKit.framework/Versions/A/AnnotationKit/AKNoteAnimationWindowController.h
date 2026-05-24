@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotationTheme, AKNoteMarginView, NSString;
+@class AKNoteMarginView;
 
 @interface AKNoteAnimationWindowController
 {
     AKNoteMarginView *_marginView;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id)er.chapter_data;
+- (void)醹;
 
 // Remaining properties
 @property(retain, nonatomic) AKNoteMarginView *marginView; // @synthesize marginView=_marginView;
-@property(retain, nonatomic) NSString *noteText;
-@property(retain, nonatomic) AKAnnotationTheme *theme;
 
 @end
 

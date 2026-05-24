@@ -4,6 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CTDataConnectionStatus, CTDataStatus, CTDataStatusBasic, CTServiceDescriptor, CTTetheringStatus, CTXPCServiceSubscriptionContext, NSArray, NSNumber, NSString;
+
 @protocol CoreTelephonyClientDataDelegate
+
+@optional
+- (void)_registerTranscoders;
+- (void)_randomTemporaryPathWithSuffix:(CTXPCServiceSubscriptionContext *)arg1 fileName: /* Error: Ran out of types for this method. */;
+- (void)_previewGenerationQueue;
+- (void)_normalizedInputFactorForUTI:(CTXPCServiceSubscriptionContext *)arg1 bytesPerPixel:(int)arg2;
+- (void)_normalizedInputFactor;
+- (void)_newSizeForMaximumDimension:(NSString *)arg1 originalSize:(_Bool)arg2;
+- (void)es:(CTDataStatusBasic *)arg1 subsampling:shouldSkipAuxillaryData: /* Error: Ran out of types for this method. */;
+- (void)ithCompressionQuality:(CTDataStatus *)arg1 enforceMaxes:subsampling:shouldSkipAuxillaryData: /* Error: Ran out of types for this method. */;
+- (void)nFormat:(int)arg1 fromFormat:withMaxLength:withMaxCount:withCompressionQuality:enforceMaxes:subsampling:shouldSkipAuxillaryData: /* Error: Ran out of types for this method. */;
+- (void)_newGeneratedImage:(CTXPCServiceSubscriptionContext *)arg1 sourceWidth:(CTDataStatus *)arg2 sourceHeight:sourceLength:sourceProps:target:hardwareEncoder:inFormat:fromFormat:withMaxLength:withMaxCount:withCompressionQuality:enforceMaxes:subsampling:shouldSkipAuxillaryData: /* Error: Ran out of types for this method. */;
+- (void)_isWebPImageFormat:(CTServiceDescriptor *)arg1;
+- (void)_imageContainsTranslucentPixels:(CTServiceDescriptor *)arg1;
+- (void)atures:(CTXPCServiceSubscriptionContext *)arg1 metricsDict:(NSArray *)arg2;
+- (void)_imMetricsCollectorForLQMQualityEstimatorModeImageTypeHEIC:(CTXPCServiceSubscriptionContext *)arg1 shouldUseQualityEstimatorModel:(int)arg2 inputImageFeatures:(int)arg3 metricsDict: /* Error: Ran out of types for this method. */;
+- (void)_getScaleFactorArray:(CTXPCServiceSubscriptionContext *)arg1 transferURL:(NSNumber *)arg2 outputURLs:(int)arg3;
+- (void)_findTranscoderForUTI:(CTXPCServiceSubscriptionContext *)arg1;
+- (void)_findPluginFallbackEncoder:(CTTetheringStatus *)arg1 withBalloonBundleID:(int)arg2;
+- (void)_fallbackTranscoders;
+- (void)_failWithOSStatusErrorCode:(CTDataConnectionStatus *)arg1 description:completion: /* Error: Ran out of types for this method. */;
+- (void)_estimatedBytesPerPixelForJPEGQuality:(_Bool)arg1;
+- (void)8^@56;
 @end
 

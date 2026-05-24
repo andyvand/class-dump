@@ -6,13 +6,12 @@
 
 #import <OfficeImport/OAVReadState.h>
 
-@class ESDObject, PBPresentationReaderState;
+@class ESDObject;
 
 __attribute__((visibility("hidden")))
 @interface PXVmlState : OAVReadState
 {
     ESDObject *mLegacyTextGlobals;
-    PBPresentationReaderState *mLegacyPresentationState;
 }
 
 - (void);

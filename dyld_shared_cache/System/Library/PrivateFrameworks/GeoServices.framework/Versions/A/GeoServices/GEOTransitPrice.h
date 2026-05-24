@@ -4,58 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTransitPrice
 {
     PBUnknownFields *_unknownFields;
-    NSString *_currencyCode;
-    int _amountInCents;
-    unsigned int _subunit;
-    struct {
-        unsigned int has_amountInCents:1;
-        unsigned int has_subunit:1;
-    } _flags;
 }
 
-+ (_Bool)nth:(id)arg1;
++ (_Bool)setMonth:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)schedulerProvider;
+- (int)ortIsValid result. The current process sandbox may require updating. Falling back to filesystem access.;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void);
+- (void)isContinuousConversationSupported;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id)!¤EùQº*°1Â0@ù
 × ;
-- (id)fsetType;
-- (id)onmentManifestUrls;
+- (id)indexAndOffsetType;
+- (id)_currentEnvironmentManifestUrls;
 - (id)üÁÿ;
-- (id)data;
+- (id)userActionMetadata;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int amountInCents;
-@property(retain, nonatomic) NSString *currencyCode;
 @property(nonatomic) _Bool hasAmountInCents;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(nonatomic) _Bool hasSubunit;
-@property(nonatomic) unsigned int subunit;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -6,61 +6,45 @@
 
 #import <CloudKitDaemon/CKDPCSData.h>
 
-@class CKDSharePCSData, CKRecordID, CKRecordZoneID, NSData, NSDate;
+@class CKRecordID;
 
 @interface CKDZonePCSData : CKDPCSData
 {
     struct _OpaquePCSShareProtection *_zoneishPCS;
-    CKRecordZoneID *_zoneID;
-    NSData *_zoneishPCSData;
-    NSData *_zoneishPublicKeyID;
-    CKDSharePCSData *_sharePCSData;
-    CKRecordID *_shareID;
-    NSDate *_zonePCSModificationDate;
-    CKRecordZoneID *_parentID;
-    CKDZonePCSData *_parentPCSData;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)core_Quantifier_All;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct _OpaquePCSShareProtection *);
-- (id);
-- (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
+- (struct _OpaquePCSShareProtection *)eBrowserAddOrUpdate create RC for local device, discoveryID %@;
 - (id);
+- (id)setRoamReasonBeaconLostCount: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_indexingScheduler;
+- (id);
+- (id)I;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)copy;
+- (id)`;
 - (void);
 - (id);
 - (void)! Bù1Ü1Â0@ù
 × ;
 - (void)t@	P¬\(H¨ d¡Ì¦;
-- (void)tyForShareUsage;
+- (void)SimulateMissingSigningIdentityForShareUsage;
 - (void):(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKRecordZoneID *parentID; // @synthesize parentID=_parentID;
-@property(retain, nonatomic) CKDZonePCSData *parentPCSData; // @synthesize parentPCSData=_parentPCSData;
 @property(retain, nonatomic) CKRecordID *shareID; // @synthesize shareID=_shareID;
-@property(retain, nonatomic) CKDSharePCSData *sharePCSData; // @synthesize sharePCSData=_sharePCSData;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
-@property(retain, nonatomic) NSDate *zonePCSModificationDate; // @synthesize zonePCSModificationDate=_zonePCSModificationDate;
-@property(nonatomic) struct _OpaquePCSShareProtection *zoneishPCS;
-@property(copy, nonatomic) NSData *zoneishPCSData; // @synthesize zoneishPCSData=_zoneishPCSData;
-@property(retain, nonatomic) NSData *zoneishPublicKeyID; // @synthesize zoneishPublicKeyID=_zoneishPublicKeyID;
 
 @end
 

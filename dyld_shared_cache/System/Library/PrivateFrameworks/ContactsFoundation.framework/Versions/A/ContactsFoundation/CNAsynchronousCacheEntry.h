@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNWeakArray;
 @protocol CNSchedulerProvider;
 
 @interface CNAsynchronousCacheEntry
 {
     id _currentValue;
-    double _timestampOfCurrentValue;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNWeakArray *_delegates;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -33,10 +29,7 @@
 × ;
 
 // Remaining properties
-@property(retain) id currentValue; // @synthesize currentValue=_currentValue;
-@property(readonly) CNWeakArray *delegates; // @synthesize delegates=_delegates;
 @property(readonly) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) double timestampOfCurrentValue; // @synthesize timestampOfCurrentValue=_timestampOfCurrentValue;
 
 @end
 

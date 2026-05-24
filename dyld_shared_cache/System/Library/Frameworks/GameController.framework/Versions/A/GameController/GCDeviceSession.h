@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceCollection, GCDeviceSessionConfiguration, GCHIDEventSystemClient, NSArray, NSObject, NSSet, NSString, _GCCurrentApplicationAlertManager, _GCCurrentApplicationForegroundMonitor, _GCGameOverlayMonitor, _GCHIDEventSubject;
-@protocol OS_dispatch_queue;
+@class GCDeviceSessionConfiguration, NSArray;
 
 @interface GCDeviceSession
 {
     GCDeviceSessionConfiguration *_configuration;
-    NSArray *_deviceProviderTypes;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSObject<OS_dispatch_queue> *_sessionEventQueue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    NSObject<OS_dispatch_queue> *_targetEventQueue;
-    _Atomic unsigned int _state;
-    _GCCurrentApplicationForegroundMonitor *_foregroundMonitor;
-    _GCCurrentApplicationAlertManager *_alertManager;
-    _GCGameOverlayMonitor *_gameOverlayMonitor;
-    GCHIDEventSystemClient *_hidEventSystemClient;
-    _GCHIDEventSubject *_hidEventSource;
-    NSSet *_providers;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _eventHandlerPrivate;
-    CDUnknownBlockType _swift_eventHandler;
-    NSSet *_devices;
-    GCDeviceCollection *_devicesCollection;
-    GCDeviceCollection *_keyboardsCollection;
-    GCDeviceCollection *_miceCollection;
-    GCDeviceCollection *_controllersCollection;
-    GCDeviceCollection *_racingWheelsCollection;
-    GCDeviceCollection *_spatialAccessoriesCollection;
-    GCDeviceCollection *_stylusesCollection;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id)*;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -56,15 +32,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)H;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)`;
 - (id);
 - (void);
 - (void);
@@ -72,36 +48,15 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)remote_fetchSurveyAnswer:responderIDs:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id)edCallback:target:context: /* Error: Ran out of types for this method. */;
+- (id)setServicesChangedCallback:target:context: /* Error: Ran out of types for this method. */;
 - (id)DÚòÿ;
 
 // Remaining properties
-@property(readonly, copy) GCDeviceCollection *allDevices;
-@property(readonly, copy) GCDeviceSessionConfiguration *configuration;
-@property(readonly, copy) GCDeviceCollection *controllers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *deviceProviderTypes; // @synthesize deviceProviderTypes=_deviceProviderTypes;
-@property(readonly) NSSet *deviceProviders; // @synthesize deviceProviders=_providers;
-@property(copy) CDUnknownBlockType eventHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) _GCHIDEventSubject *hidEventSource; // @synthesize hidEventSource=_hidEventSource;
-@property(readonly, copy) GCDeviceCollection *keyboards;
-@property(readonly, copy) GCDeviceCollection *mice;
-@property(readonly, copy) GCDeviceCollection *racingWheels;
-@property(readonly) NSObject<OS_dispatch_queue> *sessionEventQueue; // @synthesize sessionEventQueue=_sessionEventQueue;
-@property(readonly) NSObject<OS_dispatch_queue> *sessionQueue; // @synthesize sessionQueue=_sessionQueue;
-@property(readonly, copy) GCDeviceCollection *spatialAccessories;
-@property(readonly, copy) GCDeviceCollection *styluses;
-@property(readonly) Class superclass;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue;
 
 @end
 

@@ -12,16 +12,10 @@
 
 - (id);
 - (void);
-- (id);
+- (id)k!;
 
 // Remaining properties
-@property(readonly) unsigned long long dirtySize; // @dynamic dirtySize;
 @property(readonly) NSString *memoryPool; // @dynamic memoryPool;
-@property(readonly) _Bool pageoffRequired; // @dynamic pageoffRequired;
-@property(readonly) _Bool purgeable; // @dynamic purgeable;
-@property(readonly) unsigned long long residentSize; // @dynamic residentSize;
-@property(readonly) unsigned long long uniqueIdentifier; // @dynamic uniqueIdentifier;
-@property(readonly) unsigned long long virtualSize; // @dynamic virtualSize;
 
 @end
 

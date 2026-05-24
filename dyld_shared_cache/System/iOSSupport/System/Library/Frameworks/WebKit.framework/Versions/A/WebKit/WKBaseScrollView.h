@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WKBaseScrollView
 {
     struct RetainPtr<UIPanGestureRecognizer> _axisLockingPanGestureRecognizer;
-    unsigned long long _axesToPreventMomentumScrolling;
-    _Bool _isBeingRemovedFromSuperview;
-    struct ScrollingDeltaWindow<3UL> _scrollingDeltaWindow;
-    id <WKBaseScrollViewDelegate> _baseScrollViewDelegate;
 }
 
 + (void);
@@ -26,18 +22,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)athAutoEnabled;
+- (_Bool)CSSTextTransformMathAutoEnabled;
 - (void)e, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::StorageAreaMap>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaMapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaMapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::StorageAreaMap>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaMapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)oteRenderingBackend::moveToSerializedBuffer(RenderingResourceIdentifier, RemoteSerializedImageBufferIdentifier) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long axesToPreventMomentumScrolling; // @synthesize axesToPreventMomentumScrolling=_axesToPreventMomentumScrolling;
 @property(nonatomic) __weak id <WKBaseScrollViewDelegate> baseScrollViewDelegate; // @synthesize baseScrollViewDelegate=_baseScrollViewDelegate;
-@property(readonly, nonatomic) struct CGSize interactiveScrollVelocityInPointsPerSecond;
 
 @end
 

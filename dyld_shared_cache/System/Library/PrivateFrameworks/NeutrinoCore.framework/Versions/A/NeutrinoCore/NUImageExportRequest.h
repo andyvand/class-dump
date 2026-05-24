@@ -6,18 +6,11 @@
 
 #import <NeutrinoCore/NUExportRequest.h>
 
-@class NSArray, NSDictionary, NSString, NUColorSpace, NUImageExportFormat;
+@class NUColorSpace;
 
 @interface NUImageExportRequest : NUExportRequest
 {
     _Bool _renderToData;
-    _Bool _renderWithIOSurface;
-    _Bool _applyOrientationAsMetadata;
-    NUColorSpace *_colorSpace;
-    NUImageExportFormat *_format;
-    NSDictionary *_imageProperties;
-    NSArray *_auxiliaryImageTypes;
-    NSDictionary *_auxImages;
 }
 
 + (id);
@@ -39,9 +32,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id){;
 - (void);
 - (id);
 - (void)!Eùqá°1Â0@ù
@@ -51,22 +44,7 @@
 - (void)úÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool applyOrientationAsMetadata; // @synthesize applyOrientationAsMetadata=_applyOrientationAsMetadata;
-@property(copy, nonatomic) NSDictionary *auxImages; // @synthesize auxImages=_auxImages;
-@property(copy, nonatomic) NSArray *auxiliaryImageTypes; // @synthesize auxiliaryImageTypes=_auxiliaryImageTypes;
 @property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NUImageExportFormat *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(copy) NSDictionary *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(nonatomic) _Bool renderToData; // @synthesize renderToData=_renderToData;
-@property(nonatomic) _Bool renderWithIOSurface; // @synthesize renderWithIOSurface=_renderWithIOSurface;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

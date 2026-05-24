@@ -6,28 +6,9 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString;
-
 @interface SSPhotosResultBuilder : SSResultBuilder
 {
     _Bool _isSyndicated;
-    NSArray *_scenePhotoIdentifiers;
-    NSArray *_photoSceneTypes;
-    NSArray *_sceneSynonymsIndex;
-    NSArray *_sceneSynonymsCounts;
-    NSArray *_sceneLabelsIndex;
-    NSDate *_dateCreated;
-    NSString *_photosDescription;
-    NSString *_photoIdentifier;
-    NSArray *_classificationLabels;
-    NSArray *_classificationLabelSynonyms;
-    NSArray *_locationKeywords;
-    NSArray *_classificationLabelIndices;
-    NSArray *_classificationLabelSynonymIndices;
-    NSArray *_locationKeywordIndices;
-    NSArray *_peopleInPhoto;
-    NSArray *_matchedPeople;
-    NSString *_entityType;
 }
 
 + (_Bool);
@@ -53,57 +34,40 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ize=dd}16@0:(id)arg1 8;
+- (id)trailingAccessoryType;
+- (id)setVideoGravity: /* Error: Ran out of types for this method. */;
+- (id)setVerticallyResizable: /* Error: Ran out of types for this method. */;
+- (id)setVerticalAlignment: /* Error: Ran out of types for this method. */;
+- (id)setValue:forKey: /* Error: Ran out of types for this method. */;
+- (id)setSourceContextIcon: /* Error: Ran out of types for this method. */;
+- (id)setShouldAlignToBaselines: /* Error: Ran out of types for this method. */;
+- (id)setShadowOpacity: /* Error: Ran out of types for this method. */;
+- (id)setScale: /* Error: Ran out of types for this method. */;
+- (id)setRemovedOnCompletion: /* Error: Ran out of types for this method. */;
+- (id)setProgress: /* Error: Ran out of types for this method. */;
+- (id)setPreviewVideo: /* Error: Ran out of types for this method. */;
+- (id)setAutomaticallyWaitsToMinimizeStalling: /* Error: Ran out of types for this method. */;
+- (void)rectValue;
+- (void);
+- (void);
+- (void)6@"APSURLToken"24@"APSURLTokenInfo"32;
+- (id)handleSuccessfulJingleSegmentResponse:dsidRecord:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteRecords: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)aracterAtIndex:ofString: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)getWhitespaceCharacterAtIndex:ofString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *classificationLabelIndices; // @synthesize classificationLabelIndices=_classificationLabelIndices;
-@property(retain, nonatomic) NSArray *classificationLabelSynonymIndices; // @synthesize classificationLabelSynonymIndices=_classificationLabelSynonymIndices;
-@property(retain, nonatomic) NSArray *classificationLabelSynonyms; // @synthesize classificationLabelSynonyms=_classificationLabelSynonyms;
-@property(retain, nonatomic) NSArray *classificationLabels; // @synthesize classificationLabels=_classificationLabels;
-@property(retain, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(retain, nonatomic) NSString *entityType; // @synthesize entityType=_entityType;
 @property(nonatomic) _Bool isSyndicated; // @synthesize isSyndicated=_isSyndicated;
-@property(retain, nonatomic) NSArray *locationKeywordIndices; // @synthesize locationKeywordIndices=_locationKeywordIndices;
-@property(retain, nonatomic) NSArray *locationKeywords; // @synthesize locationKeywords=_locationKeywords;
-@property(retain, nonatomic) NSArray *matchedPeople; // @synthesize matchedPeople=_matchedPeople;
-@property(retain, nonatomic) NSArray *peopleInPhoto; // @synthesize peopleInPhoto=_peopleInPhoto;
-@property(retain, nonatomic) NSString *photoIdentifier; // @synthesize photoIdentifier=_photoIdentifier;
-@property(retain, nonatomic) NSArray *photoSceneTypes; // @synthesize photoSceneTypes=_photoSceneTypes;
-@property(retain, nonatomic) NSString *photosDescription; // @synthesize photosDescription=_photosDescription;
-@property(retain, nonatomic) NSArray *sceneLabelsIndex; // @synthesize sceneLabelsIndex=_sceneLabelsIndex;
-@property(retain, nonatomic) NSArray *scenePhotoIdentifiers; // @synthesize scenePhotoIdentifiers=_scenePhotoIdentifiers;
-@property(retain, nonatomic) NSArray *sceneSynonymsCounts; // @synthesize sceneSynonymsCounts=_sceneSynonymsCounts;
-@property(retain, nonatomic) NSArray *sceneSynonymsIndex; // @synthesize sceneSynonymsIndex=_sceneSynonymsIndex;
 
 @end
 

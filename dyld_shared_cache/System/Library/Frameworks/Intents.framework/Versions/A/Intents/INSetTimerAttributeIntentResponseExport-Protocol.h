@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTimer;
-
 @protocol INSetTimerAttributeIntentResponseExport
-- (long long)elyStartPlayback;
+- (void);
+- (long long)immediatelyStartPlayback;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTimer *updatedTimer;
 @end
 

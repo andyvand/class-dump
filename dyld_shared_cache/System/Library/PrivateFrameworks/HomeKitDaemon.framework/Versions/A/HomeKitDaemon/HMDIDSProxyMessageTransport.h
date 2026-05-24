@@ -6,20 +6,19 @@
 
 #import <HomeKitDaemon/HMDIDSMessageTransport.h>
 
-@class HMDCompanionManager, HMDWatchManager;
+@class HMDWatchManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSProxyMessageTransport : HMDIDSMessageTransport
 {
     HMDWatchManager *_watchManager;
-    HMDCompanionManager *_companionManager;
 }
 
 + (_Bool);
 + (unsigned long long);
-+ (long long);
++ (long long)SSo8NSNumberCG;
 + (id)Îf;
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (_Bool)esidentsInHome;
@@ -31,12 +30,11 @@ __attribute__((visibility("hidden")))
 - (id)ic}@[ChildFlow:%@ Parent:%@] Performing access code modification request Matter:%@ /* Error: Ran out of types for this method. */;
 - (id)¼Ú;
 - (_Bool)updating settings;
-- (void)Quality;
+- (void)kAccessoryLinkQuality;
 - (int)leCharacteristicsChangedNotification(from:characteristics:) /* Error: Ran out of types for this method. */;
 - (id)p9ô*@;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDCompanionManager *companionManager; // @synthesize companionManager=_companionManager;
 @property(readonly, nonatomic) HMDWatchManager *watchManager; // @synthesize watchManager=_watchManager;
 
 @end

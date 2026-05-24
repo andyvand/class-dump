@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKTool.h>
 
-@class NSString, PKInk, UIColor;
+@class NSString;
 
 @interface PKInkingTool : PKTool
 {
@@ -21,10 +21,10 @@
 + (id);
 + (id);
 + (id);
-+ (double);
++ (double)6;
 + (void *);
 + (double);
-+ (CDStruct_2da3c04e);
++ (CDStruct_0762bd03);
 + (void);
 + (double);
 + (double);
@@ -44,13 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double azimuth;
-@property(readonly, nonatomic) UIColor *color;
-@property(readonly, nonatomic) PKInk *ink; // @dynamic ink;
-@property(readonly, nonatomic) NSString *inkType;
 @property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) double width;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKObjCType, NSString;
+@class CKObjCType;
 
 @interface CKObjCProperty
 {
     Class _classHandle;
-    CKObjCType *_type;
-    NSString *_name;
-    unsigned long long _flags;
-    SEL _getterSelector;
-    SEL _setterSelector;
-    NSString *_instanceVariableName;
 }
 
 - (SEL);
@@ -26,9 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SEL getterSelector; // @synthesize getterSelector=_getterSelector;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) SEL setterSelector; // @synthesize setterSelector=_setterSelector;
 @property(readonly, nonatomic) CKObjCType *type; // @synthesize type=_type;
 
 @end

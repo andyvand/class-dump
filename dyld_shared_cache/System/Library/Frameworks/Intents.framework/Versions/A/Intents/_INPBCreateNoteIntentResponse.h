@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBNote;
+@class _INPBNote;
 
 @interface _INPBCreateNoteIntentResponse
 {
     struct _has;
-    _INPBNote *_createdNote;
 }
 
 + (_Bool);
@@ -18,24 +17,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(errno:(id)arg1 %d);
 - (id);
 - (id);
-- (void)espiratoryRate;
+- (void)respiratoryRate;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNote *createdNote; // @synthesize createdNote=_createdNote;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCreatedNote;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol AKICAWebKitViewControllerDelegate
+- (void)D%;
+
+@optional
+- (void);
+- (void)q;
+- (void);
 @end
 

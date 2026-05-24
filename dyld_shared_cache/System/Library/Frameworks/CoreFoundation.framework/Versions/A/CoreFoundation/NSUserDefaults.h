@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSUserDefaults
 {
     id _kvo_;
-    struct __CFString *_identifier_;
-    struct __CFString *_container_;
-    NSArray *_volatileDomainNames;
 }
 
 @end

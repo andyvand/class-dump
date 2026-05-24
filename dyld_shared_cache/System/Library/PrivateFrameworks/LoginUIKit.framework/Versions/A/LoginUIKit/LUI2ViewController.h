@@ -9,7 +9,7 @@
     _Bool _enabled;
 }
 
-- (long long);
+- (long long)T?q";
 - (void);
 - (id);
 - (_Bool);
@@ -17,9 +17,7 @@
 - (_Bool)× ;
 
 // Remaining properties
-@property(readonly) long long blendingMode;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) _Bool isVisible;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AppKit._NSSoftOutlineView.Layer__priv_E9104E1A89E05794AEB274C40004D8C8
 {
 }
@@ -15,15 +13,13 @@
 - (id);
 - (id);
 - (void);
-- (double)esktopTemplate;
+- (double)NSTouchBarDesktopTemplate;
 - (void)R;
 - (void)F;
 - (id)@_I;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *cornerCurve;
 @property(nonatomic) double cornerRadius;
-@property(nonatomic) unsigned long long maskedCorners;
 
 @end
 

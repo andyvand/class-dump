@@ -9,14 +9,13 @@
 @interface FigCaptureSinkConfiguration
 {
     NSString *_sinkID;
-    _Bool _deferredStartEnabled;
 }
 
 + (id);
 + (_Bool)!!Ð!L@ù$Ð1Â0@ù
 × ;
 - (_Bool);
-- (void);
+- (void)_checkPointForValidity: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,22 +25,13 @@
 - (void);
 - (void);
 - (id)c]};
-- (id)ordingAlreadyInProgress;
+- (id)_panoRecordingAlreadyInProgress;
 - (int)²;
 - (id)mÿlÿkÿ jÿ¨hÿ®eÿ´cÿºaÿÀ_ÿÇ]
 ÿÎ\ÿÕ[ÿÜ[ÿå]ÿë_ÿíaÿíaÿíbÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deferredStartEnabled; // @synthesize deferredStartEnabled=_deferredStartEnabled;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *sinkID; // @synthesize sinkID=_sinkID;
-@property(readonly, nonatomic) int sinkType;
-@property(readonly) Class superclass;
 
 @end
 

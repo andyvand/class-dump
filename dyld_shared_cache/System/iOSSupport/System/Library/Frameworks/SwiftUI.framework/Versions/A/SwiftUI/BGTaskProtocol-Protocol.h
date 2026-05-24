@@ -5,6 +5,7 @@
 //
 
 @protocol BGTaskProtocol
+- (void (^)(void));
 
 // Remaining properties
 @property(copy) CDUnknownBlockType expirationHandler;

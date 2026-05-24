@@ -6,53 +6,38 @@
 
 #import <MediaExperience/MXCoreSessionBase.h>
 
-@class NSArray, NSNumber, NSObject, NSPointerArray, NSString;
-@protocol OS_os_transaction;
-
 __attribute__((visibility("hidden")))
 @interface MXCoreSession : MXCoreSessionBase
 {
     _Bool _canBeNowPlayingApp;
-    _Bool _modeSetByClient;
-    _Bool _isTryingToGoActive;
-    _Bool _hasEntitlementToSetPreferredOutputAudioScoreForSmartRouting;
-    unsigned int _priorityScore;
-    MXCoreSession *_interruptingSession;
-    NSArray *_deviceUUIDs;
-    NSString *_remoteDeviceID;
-    struct __SecTask *_secTask;
-    NSObject<OS_os_transaction> *_playingOSTransaction;
-    NSObject<OS_os_transaction> *_recordingOSTransaction;
-    NSPointerArray *_interruptedSessionList;
-    NSNumber *_preferredOutputAudioScoreForSmartRouting;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)F;
 - (void);
 - (id);
-- (void);
+- (void)F/1;
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)ki;
 - (int);
-- (void);
+- (void)+;
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (id);
+- (void);
+- (_Bool)much image data;
 - (int);
-- (int);
+- (int)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)+;
 - (_Bool);
 - (struct __SecTask *);
 - (void);
@@ -62,18 +47,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (int);
+- (_Bool);
+- (id);
+- (int);
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)C;
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (unsigned int);
+- (unsigned int)in free_binding;
 - (int);
 - (void);
 - (int);
@@ -84,19 +69,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool canBeNowPlayingApp; // @synthesize canBeNowPlayingApp=_canBeNowPlayingApp;
-@property(retain) NSArray *deviceUUIDs; // @synthesize deviceUUIDs=_deviceUUIDs;
-@property(nonatomic) _Bool hasEntitlementToSetPreferredOutputAudioScoreForSmartRouting; // @synthesize hasEntitlementToSetPreferredOutputAudioScoreForSmartRouting=_hasEntitlementToSetPreferredOutputAudioScoreForSmartRouting;
-@property(retain, nonatomic) NSPointerArray *interruptedSessionList; // @synthesize interruptedSessionList=_interruptedSessionList;
 @property(nonatomic) __weak MXCoreSession *interruptingSession; // @synthesize interruptingSession=_interruptingSession;
-@property(nonatomic) _Bool isTryingToGoActive; // @synthesize isTryingToGoActive=_isTryingToGoActive;
-@property(nonatomic) _Bool modeSetByClient; // @synthesize modeSetByClient=_modeSetByClient;
-@property(nonatomic) NSObject<OS_os_transaction> *playingOSTransaction; // @synthesize playingOSTransaction=_playingOSTransaction;
-@property(retain) NSNumber *preferredOutputAudioScoreForSmartRouting; // @synthesize preferredOutputAudioScoreForSmartRouting=_preferredOutputAudioScoreForSmartRouting;
-@property(nonatomic) unsigned int priorityScore; // @synthesize priorityScore=_priorityScore;
-@property(nonatomic) NSObject<OS_os_transaction> *recordingOSTransaction; // @synthesize recordingOSTransaction=_recordingOSTransaction;
-@property(readonly) NSString *remoteDeviceID; // @synthesize remoteDeviceID=_remoteDeviceID;
-@property(nonatomic) struct __SecTask *secTask; // @synthesize secTask=_secTask;
 
 @end
 

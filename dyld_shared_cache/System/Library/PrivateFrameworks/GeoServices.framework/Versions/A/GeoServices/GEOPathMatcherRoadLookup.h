@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapFeatureAccess, NSCache;
+@class GEOMapFeatureAccess;
 
 __attribute__((visibility("hidden")))
 @interface GEOPathMatcherRoadLookup
 {
     GEOMapFeatureAccess *_mapFeatureAccess;
-    NSCache *_roadsCache;
-    unsigned long long _cacheMissCount;
-    unsigned long long _mapFeatureRoadsCount;
 }
 
 - (id);
-- (struct GEOPathMatcherRoadKey);
+- (struct GEOPathMatcherRoadKey);
 - (struct GEOPathMatcherRoadKey);
 - (id);
 - (id);

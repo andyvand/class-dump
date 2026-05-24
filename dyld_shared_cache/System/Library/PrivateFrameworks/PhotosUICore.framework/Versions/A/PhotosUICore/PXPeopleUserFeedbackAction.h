@@ -6,14 +6,12 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSDictionary, PHUserFeedback;
+@class PHUserFeedback;
 @protocol PXFastEnumeration;
 
 @interface PXPeopleUserFeedbackAction : PXPhotosAction
 {
     id <PXFastEnumeration> _collections;
-    PHUserFeedback *_userFeedback;
-    NSDictionary *_undoUserFeedbacks;
 }
 
 - (id);
@@ -25,11 +23,10 @@
 - (void);
 - (void);
 - (id);
-- (void)ller;
+- (void)PhotosViewPersonBannerController;
 - (id)û;;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *undoUserFeedbacks; // @synthesize undoUserFeedbacks=_undoUserFeedbacks;
 @property(readonly, nonatomic) PHUserFeedback *userFeedback; // @synthesize userFeedback=_userFeedback;
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserContainerController, FI_TWindowHistoryEntry, NSMutableArray, NSString;
+@class FI_TBrowserContainerController, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TWindowHistory
 {
     NSMutableArray *_historyList;
-    long long _historyPosition;
-    struct shared_ptr<TNodeObserverCocoaBridge> _nodeObserver;
-    struct TNSWeakPtr<FI_TBrowserContainerController> _weakController;
 }
 
 - (void);
@@ -23,40 +20,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (long long);
+- (id)?%@q;
 - (id);
 - (_Bool);
+- (void);
+- (long long);
+- (id);
+- (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)ersistence9namespace9mimeCache13skipNonUnique6loggerADSo13MFIMAPAccountC_AA0O7AdaptorC0bO0V13IMAP2Protocol9NamespaceVSg0Y4MIME0R0CSbAO6LoggerVtKFZ21AccountHasNilChildrenL_V;
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (id)lSTFEditorIntoView;
+- (id)scrollSTFEditorIntoView;
 - (void);
 - (id)std16callable_details15callable_holderIZ63-[FIFinderSyncExtensionHost_Badging registerForDirectoryAtURL:]E4$_18vJEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool atBeginning;
-@property(readonly, nonatomic) _Bool atEnd;
 @property(nonatomic) __weak FI_TBrowserContainerController *controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long historyPosition; // @synthesize historyPosition=_historyPosition;
-@property(readonly, nonatomic) FI_TWindowHistoryEntry *next;
-@property(readonly, nonatomic) FI_TWindowHistoryEntry *previous;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,12 +9,12 @@
 }
 
 + (id);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (id);

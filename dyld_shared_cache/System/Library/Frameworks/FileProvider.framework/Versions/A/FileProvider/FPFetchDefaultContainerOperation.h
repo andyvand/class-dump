@@ -6,14 +6,12 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class LSApplicationRecord, NSString;
+@class LSApplicationRecord;
 
 __attribute__((visibility("hidden")))
 @interface FPFetchDefaultContainerOperation : FPActionOperation
 {
     LSApplicationRecord *_requestedRecord;
-    NSString *_domainIdentifier;
-    CDUnknownBlockType _fetchCompletionBlock;
 }
 
 - (id);

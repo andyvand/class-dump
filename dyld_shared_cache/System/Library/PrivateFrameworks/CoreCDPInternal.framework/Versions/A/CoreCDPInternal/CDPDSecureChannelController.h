@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDSecureChannelContext, NSObject;
-@protocol OS_dispatch_queue;
+@class CDPDSecureChannelContext;
 
 @interface CDPDSecureChannelController
 {
     CDPDSecureChannelContext *_secureChannelContext;
-    NSObject<OS_dispatch_queue> *_secureChannelProcessingQueue;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)NSViewLayerContentScaleDelegate;
+- (void)StartPageTouchIconViewItem;
+- (void)StartPageContentViewController;
+- (void)StartPageCollectionSectionProviderDelegate;
+- (void)SandboxExtensionPanelDelegate;
+- (void)SafariNotificationAgentPrivate;
+- (id)K;
 - (void);
 
 @end

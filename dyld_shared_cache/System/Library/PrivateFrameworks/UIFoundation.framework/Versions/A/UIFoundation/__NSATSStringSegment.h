@@ -7,15 +7,11 @@
 @interface __NSATSStringSegment
 {
     struct __CFString *_originalString;
-    long long _originalStringLength;
-    CDStruct_627e0f85 _range;
-    const unsigned short *_characters;
-    unsigned short _buffer[128];
 }
 
 + (id)Ä;
-- (void);
-- (void);
+- (void)H6;
+- (void));
 - (oneway void);
 - (unsigned long long);
 - (unsigned short);

@@ -7,14 +7,6 @@
 @interface MapsSuggestions.MapsSuggestionsOrderPickup
 {
     id orderTypeIdentifier;
-    id orderIdentifier;
-    id pickupIdentifier;
-    id pickupLocationDisplayName;
-    id pickupStartDate;
-    id pickupEndDate;
-    id pickupAddress;
-    id pickupLocation;
-    id merchantDisplayName;
 }
 
 - (id);

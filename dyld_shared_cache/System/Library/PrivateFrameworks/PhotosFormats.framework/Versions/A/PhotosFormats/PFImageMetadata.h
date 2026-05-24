@@ -11,24 +11,24 @@
 + (id);
 + (_Bool);
 + (_Bool);
++ (_Bool)SPersistentHistoryTransaction"8^B16;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)S;
++ (id)a;
 + (id);
-+ (id);
-+ (id);
++ (id)(%s:(id)arg1 %u)CLOUD --> LOCAL:(double)arg2 <%@> more recently added on cloud KVS, update local KVS;
 + (_Bool);
-+ (struct __CVBuffer *);
++ (struct __CVBuffer *)tion deallocated while creating zone PCS;
 + (id);
++ (_Bool)P;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id)be configured. Configuration of ionosphere estimator failed;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *);
 
 @end
 

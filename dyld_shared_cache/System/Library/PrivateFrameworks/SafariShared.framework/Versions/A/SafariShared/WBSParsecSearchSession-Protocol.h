@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WBSParsecFeedbackDispatcher;
-
 @protocol WBSParsecSearchSession
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <WBSParsecFeedbackDispatcher> feedbackDispatcher;
 @property(nonatomic, setter=setUIScale:) double uiScale;
 @end
 

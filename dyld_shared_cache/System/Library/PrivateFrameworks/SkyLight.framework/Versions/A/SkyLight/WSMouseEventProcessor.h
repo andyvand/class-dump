@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (void);
+- (_Bool)URL"8@"CKShareMetadata"16@"NSError"24;
+- (void)IF NOT EXISTS %@ AFTER DELETE ON %@ FOR EACH ROW WHEN %@;
+- (void)@ WHERE %@ = OLD.%@;;
+- (_Bool)mostRecentRecordModificationDate;
+- (int)NSCKMirroredRelationship;
+- (void)ty;
 
 @end
 

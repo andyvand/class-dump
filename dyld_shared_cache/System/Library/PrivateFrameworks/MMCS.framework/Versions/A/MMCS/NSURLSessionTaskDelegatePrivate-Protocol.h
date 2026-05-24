@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionTaskDelegatePrivate
+
+@optional
+- (void)FormattedAddressLines;
 @end
 

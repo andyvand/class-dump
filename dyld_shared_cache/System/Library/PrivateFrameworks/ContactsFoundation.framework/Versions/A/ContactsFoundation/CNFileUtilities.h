@@ -19,7 +19,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,9 +31,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *addressBookFolderURL;
-@property(readonly) NSURL *cachesFolderURL;
-@property(readonly) NSURL *libraryFolderURL;
-@property(readonly) NSURL *sharedLockDirectoryUrl;
 
 @end
 

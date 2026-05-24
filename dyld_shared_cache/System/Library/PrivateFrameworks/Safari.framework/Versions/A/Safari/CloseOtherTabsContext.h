@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, NSSet, NSString;
+@class BrowserTabViewItem;
 
 __attribute__((visibility("hidden")))
 @interface CloseOtherTabsContext
 {
     BrowserTabViewItem *_tabToActivate;
-    NSSet *_tabsToKeepOpen;
 }
 
 - (id);
@@ -28,19 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long pageUnloadReason;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) BrowserTabViewItem *tabToActivate; // @synthesize tabToActivate=_tabToActivate;
-@property(readonly, nonatomic) NSSet *tabsToKeepOpen; // @synthesize tabsToKeepOpen=_tabsToKeepOpen;
-@property(readonly, copy, nonatomic) NSString *undoActionName;
-@property(readonly, copy, nonatomic) NSString *unsavedEditedTextConfirmationPromptActionButtonLabel;
-@property(readonly, copy, nonatomic) NSString *unsavedEditedTextConfirmationPromptTitle;
 
 @end
 

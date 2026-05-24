@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface APSSignDataWithIdentityResponse
 {
     NSData *_signature;
-    NSArray *_certificates;
-    NSData *_nonce;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)parameterContainerFor:(id)arg1 descriptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 @property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end

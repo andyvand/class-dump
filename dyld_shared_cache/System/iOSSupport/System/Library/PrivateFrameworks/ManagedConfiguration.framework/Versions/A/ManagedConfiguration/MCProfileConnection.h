@@ -14,10 +14,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)AKAnnotationEditorDelegate;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ber"16@"NSString"24@?<v@?@"NSError">32;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,6 +32,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)TypeStationaryCycling;
+- (id);
+- (_Bool)View:contentRuleListWithIdentifier:performedAction:forURL:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -44,20 +57,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties

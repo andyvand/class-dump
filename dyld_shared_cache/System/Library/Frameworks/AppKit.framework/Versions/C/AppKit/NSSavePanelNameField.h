@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)chRequest, fetchLimit %lu object(s),elapsed %f(sec), returned %lu object(s), Predicate:(id)arg1 %@ ;
 - (_Bool);
 - (void)Ô¡ÿeh@¡ÿ;
 

@@ -5,8 +5,12 @@
 //
 
 @class NSArray;
+@protocol NUPipeline;
 
 @protocol NUMutablePipeline
+- (_Bool);
+- (_Bool)(;
+- (id <NUPipeline>)C;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *subpipelines;

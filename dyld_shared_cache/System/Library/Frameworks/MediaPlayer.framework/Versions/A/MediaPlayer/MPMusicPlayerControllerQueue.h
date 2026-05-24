@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void)rainInFrames;
+- (void)_encodingDrainInFrames;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items;

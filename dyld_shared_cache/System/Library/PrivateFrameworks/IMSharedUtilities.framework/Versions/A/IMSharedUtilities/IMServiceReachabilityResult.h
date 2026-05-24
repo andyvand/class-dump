@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSIDInfoResult, NSDictionary, NSString;
+@class IDSIDInfoResult;
 
 @interface IMServiceReachabilityResult
 {
     _Bool _final;
-    _Bool _allAreReachable;
-    _Bool _allSupportEncryption;
-    _Bool _didCheckServer;
-    _Bool _reachabilityOverriddenToSuccessByPolicy;
-    NSString *_service;
-    long long _error;
-    NSDictionary *_handleResults;
-    IDSIDInfoResult *_selfKTData;
-    NSDictionary *_ktData;
 }
 
-+ (id);
++ (id)v;
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allAreReachable; // @synthesize allAreReachable=_allAreReachable;
-@property(nonatomic) _Bool allSupportEncryption; // @synthesize allSupportEncryption=_allSupportEncryption;
-@property(nonatomic) _Bool didCheckServer; // @synthesize didCheckServer=_didCheckServer;
-@property(nonatomic) long long error; // @synthesize error=_error;
-@property(nonatomic, getter=isFinal, setter=setFinal:) _Bool final; // @synthesize final=_final;
-@property(retain, nonatomic) NSDictionary *handleResults; // @synthesize handleResults=_handleResults;
-@property(retain, nonatomic) NSDictionary *ktData; // @synthesize ktData=_ktData;
-@property(nonatomic) _Bool reachabilityOverriddenToSuccessByPolicy; // @synthesize reachabilityOverriddenToSuccessByPolicy=_reachabilityOverriddenToSuccessByPolicy;
 @property(retain, nonatomic) IDSIDInfoResult *selfKTData; // @synthesize selfKTData=_selfKTData;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end
 

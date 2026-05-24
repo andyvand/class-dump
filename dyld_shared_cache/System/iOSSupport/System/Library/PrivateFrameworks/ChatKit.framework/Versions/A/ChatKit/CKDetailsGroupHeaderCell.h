@@ -6,23 +6,20 @@
 
 #import <ChatKit/CKDetailsShowMoreContactsCell.h>
 
-@class CKDetailsAvatarPancakeView, NSArray, UILabel;
+@class CKDetailsAvatarPancakeView, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsGroupHeaderCell : CKDetailsShowMoreContactsCell
 {
     UILabel *_titleLabel;
-    UILabel *_subTitleLabel;
-    NSArray *_avatarViews;
-    CKDetailsAvatarPancakeView *_avatarView;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)de;
+- (id)ing;
+- (id)g;
+- (id)rd?;
+- (void)RemoveLock;
 - (id);
 - (void);
 - (double);
@@ -32,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (void)ý°!¨Gùq1Â0@ù
 × ;
@@ -41,9 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKDetailsAvatarPancakeView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) NSArray *avatarViews; // @synthesize avatarViews=_avatarViews;
-@property(retain, nonatomic) UILabel *subTitleLabel; // @synthesize subTitleLabel=_subTitleLabel;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

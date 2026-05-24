@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PodcastEpisodeAttributes.AvailabilityDates
 {
     id storage;
-    id dateCache;
 }
 
 @end

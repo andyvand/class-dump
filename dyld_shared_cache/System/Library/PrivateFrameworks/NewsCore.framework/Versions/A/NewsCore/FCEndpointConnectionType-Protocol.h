@@ -5,6 +5,9 @@
 //
 
 @protocol FCEndpointConnectionType
-- (void)hape;
+- (void);
+- (void);
+- (void)P;
+- (void)shape;
 @end
 

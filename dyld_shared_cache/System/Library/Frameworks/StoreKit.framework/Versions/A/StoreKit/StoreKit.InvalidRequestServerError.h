@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)importPreferredLanguages_macOS_10_9_forPreferences: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

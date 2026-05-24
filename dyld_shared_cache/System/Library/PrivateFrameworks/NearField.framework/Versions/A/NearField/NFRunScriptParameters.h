@@ -4,48 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NFRunScriptParameters
 {
     _Bool _checkAIDAllowList;
-    _Bool _initialSelectBeforeRun;
-    _Bool _includeAPDUDuration;
-    _Bool _deactivateAllApps;
-    _Bool _toSystemOS;
-    _Bool _disableCompletionNotification;
-    _Bool _outIncompleteExecution;
-    _Bool _outFailureResponseDetected;
-    NSString *_seid;
-    NSArray *_AIDAllowList;
-    double _outTotalAPDUExecutionDuration;
-    unsigned long long _outFinalSWStatus;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Value"8@"NSValue"16;
+- (void)ndo Action Name;
+- (void)ountryCodeKey(void);
+- (void)CNPostalAddressCountryKey;
+- (void)ntryKey(void);
+- (void)CNPostalAddressPostalCodeKey;
+- (void)dressCityKey(void);
+- (void)CNPostalAddressSubLocalityKey;
+- (void)kABMembersSelectionChangedNotification;
+- (void)kABGroupsSelectionChangedNotification;
+- (void)kABConverterUpdateNotification;
+- (void)stants.m;
+- (double)ze=dd}}8;
+- (_Bool)d}8;
+- (unsigned long long)?0d8;
+- (_Bool)CGSize=dd}};
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -53,18 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *AIDAllowList; // @synthesize AIDAllowList=_AIDAllowList;
-@property(nonatomic) _Bool checkAIDAllowList; // @synthesize checkAIDAllowList=_checkAIDAllowList;
-@property(nonatomic) _Bool deactivateAllApps; // @synthesize deactivateAllApps=_deactivateAllApps;
-@property(nonatomic) _Bool disableCompletionNotification; // @synthesize disableCompletionNotification=_disableCompletionNotification;
-@property(nonatomic) _Bool includeAPDUDuration; // @synthesize includeAPDUDuration=_includeAPDUDuration;
-@property(nonatomic) _Bool initialSelectBeforeRun; // @synthesize initialSelectBeforeRun=_initialSelectBeforeRun;
-@property(nonatomic) _Bool outFailureResponseDetected; // @synthesize outFailureResponseDetected=_outFailureResponseDetected;
-@property(nonatomic) unsigned long long outFinalSWStatus; // @synthesize outFinalSWStatus=_outFinalSWStatus;
-@property(nonatomic) _Bool outIncompleteExecution; // @synthesize outIncompleteExecution=_outIncompleteExecution;
-@property(nonatomic) double outTotalAPDUExecutionDuration; // @synthesize outTotalAPDUExecutionDuration=_outTotalAPDUExecutionDuration;
 @property(retain, nonatomic) NSString *seid; // @synthesize seid=_seid;
-@property(nonatomic) _Bool toSystemOS; // @synthesize toSystemOS=_toSystemOS;
 
 @end
 

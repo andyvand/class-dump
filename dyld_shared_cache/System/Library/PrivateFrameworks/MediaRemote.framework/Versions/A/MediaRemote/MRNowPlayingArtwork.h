@@ -10,10 +10,9 @@
 
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)isSatelliteMessageRetry;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasArtworkData;
 @property(readonly, nonatomic) unsigned int type;
 
 @end

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASDDSPGraphBox
 {
     void *_box;
-    shared_ptr_f6ac7592 _graph;
 }
 
 - (_Bool);
@@ -19,10 +16,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)__handleStagedFirmwareVersionUpdate:(void *)arg1;
 - (void *);
 - (id);
 - (id);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) void *box; // @synthesize box=_box;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long numInputs;
-@property(readonly, nonatomic) long long numOutputs;
 
 @end
 

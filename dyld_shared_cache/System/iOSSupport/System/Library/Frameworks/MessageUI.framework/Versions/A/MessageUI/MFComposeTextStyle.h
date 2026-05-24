@@ -9,9 +9,6 @@
 @interface MFComposeTextStyle
 {
     NSString *_imageName;
-    NSString *_accessibilityIdenitifier;
-    SEL _editSelector;
-    long long _styleType;
 }
 
 + (_Bool);
@@ -23,14 +20,11 @@
 - (SEL);
 - (id);
 - (long long);
-- (id);
+- (id));
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityIdenitifier; // @synthesize accessibilityIdenitifier=_accessibilityIdenitifier;
-@property(readonly, nonatomic) SEL editSelector; // @synthesize editSelector=_editSelector;
 @property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, nonatomic) long long styleType; // @synthesize styleType=_styleType;
 
 @end
 

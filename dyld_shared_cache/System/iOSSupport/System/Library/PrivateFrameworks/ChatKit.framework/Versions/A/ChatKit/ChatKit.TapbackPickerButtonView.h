@@ -15,7 +15,7 @@
 - (void);
 - (_Bool)!ÔCùñ°1Â0@ù
 × ;
-- (void)ntView;
+- (void)MacContentView;
 
 @end
 

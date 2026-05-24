@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, WFServicesRunnerClient;
-@protocol OS_dispatch_queue;
+@class WFServicesRunnerClient;
 
 __attribute__((visibility("hidden")))
 @interface _NSServicesShortcutRunner
 {
     WFServicesRunnerClient *_runnerClient;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _serviceCompleted;
-    _Bool _serviceCancelled;
-    NSError *_shortcutsError;
 }
 
-- (long long);
+- (long long)\fcharset0 Menlo-Regular;}
+;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

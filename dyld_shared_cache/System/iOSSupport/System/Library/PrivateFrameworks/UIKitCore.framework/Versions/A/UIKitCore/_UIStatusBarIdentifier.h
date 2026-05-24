@@ -13,22 +13,20 @@ __attribute__((visibility("hidden")))
     NSString *_string;
 }
 
-+ (id);
++ (id)EmailDomains;
 + (id);
 + (id)abled;
+- (id)__swift5_assocty__TEXT;
 - (id);
-- (id);
-- (id);
+- (id)�;
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)ouchDrifting:(id)arg1 fingerIDFortouchIdentifier: /* Error: Ran out of types for this method. */;
-- (id)les;
+- (void)_uikbrtTouchDrifting:(id)arg1 fingerIDFortouchIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_alternateTitles;
 - (void)ßOnÛ?j¼t¶?NbX9´ä?¢E¶óýÔä?ï§ÆK7å?ppppppà?ú~j¼tà?V-²á?;
 
 // Remaining properties
-@property(copy, nonatomic) id object; // @synthesize object=_object;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 @property(readonly, copy, nonatomic) NSString *stringRepresentation;
 
 @end

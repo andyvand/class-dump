@@ -4,62 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VNCIContextManager, VNCVPixelBufferPoolManager, VNDetectorCache, VNFrameworkManager, VNRPNTrackerEspressoResourcesCache, VNTrackerManager, VNVTSessionManager, VisionCoreObjectCache;
+@class VNFrameworkManager;
 
 @interface VNSession
 {
     VNFrameworkManager *_frameworkManager;
-    VisionCoreObjectCache *_resourceObjectsCache_onlyAccessWithSessionResourcesAccessingLock;
-    VNDetectorCache *_detectorCache_onlyAccessWithDetectorAccessingLock;
-    VNRPNTrackerEspressoResourcesCache *_trackerResourceCache;
-    VNVTSessionManager *_vtSessionManager;
-    VNCIContextManager *_ciContextManager;
-    VNCVPixelBufferPoolManager *_cvPixelBufferPoolManager;
-    VNTrackerManager *_trackerManager;
 }
 
-+ (Class);
++ (Class)`:(id)arg1;
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)Preferences;
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)ck sequence error;
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)tic Venezuela;
 - (id);
 - (id);
 - (id)4;
-- (id)ndler:(id)arg1;
-- (void)tion_FastRecognition;
+- (id)observationsAcceptedByRequest:(id)arg1 testedKeyHandler:(id *)arg2;
+- (void)VNCRImageReaderDetectorCreationOption_FastRecognition;
 - (void)CodingKeys;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

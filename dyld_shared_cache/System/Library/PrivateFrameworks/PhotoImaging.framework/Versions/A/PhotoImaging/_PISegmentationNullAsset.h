@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface _PISegmentationNullAsset
 {
     NSArray *faceRegions;
-    NSArray *petRegions;
-    struct CGRect preferredCropRect;
-    struct CGRect acceptableCropRect;
-    struct CGRect gazeAreaRect;
 }
 
 - (void);
@@ -38,21 +34,7 @@
 - (void){CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect acceptableCropRect; // @synthesize acceptableCropRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *faceRegions; // @synthesize faceRegions;
-@property(readonly, nonatomic) struct CGRect gazeAreaRect; // @synthesize gazeAreaRect;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSArray *petRegions; // @synthesize petRegions;
-@property(readonly, nonatomic) struct CGRect preferredCropRect; // @synthesize preferredCropRect;
-@property(readonly, nonatomic) NSURL *segmentationResourceURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSegmentationResourceCaching;
 
 @end
 

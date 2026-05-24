@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICIAMTriggerCondition, NSMutableArray, NSString;
+@class NSString;
 
 @interface ICIAMMessageRule
 {
     NSString *_identifier;
-    NSString *_requiredApplicationContextBundleIdentifier;
-    int _ruleOperator;
-    NSMutableArray *_subrules;
-    ICIAMTriggerCondition *_triggerCondition;
-    NSString *_triggerEventName;
-    int _type;
-    struct {
-        unsigned int ruleOperator:1;
-        unsigned int type:1;
-    } _has;
 }
 
 + (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasRequiredApplicationContextBundleIdentifier;
-@property(nonatomic) _Bool hasRuleOperator;
-@property(readonly, nonatomic) _Bool hasTriggerCondition;
-@property(readonly, nonatomic) _Bool hasTriggerEventName;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *requiredApplicationContextBundleIdentifier; // @synthesize requiredApplicationContextBundleIdentifier=_requiredApplicationContextBundleIdentifier;
-@property(nonatomic) int ruleOperator; // @synthesize ruleOperator=_ruleOperator;
-@property(retain, nonatomic) NSMutableArray *subrules; // @synthesize subrules=_subrules;
-@property(retain, nonatomic) ICIAMTriggerCondition *triggerCondition; // @synthesize triggerCondition=_triggerCondition;
-@property(retain, nonatomic) NSString *triggerEventName; // @synthesize triggerEventName=_triggerEventName;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

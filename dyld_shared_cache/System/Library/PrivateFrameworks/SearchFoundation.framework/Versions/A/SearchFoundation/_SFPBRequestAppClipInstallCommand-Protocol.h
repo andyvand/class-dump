@@ -7,10 +7,12 @@
 @class NSData, NSString, _SFPBURL;
 
 @protocol _SFPBRequestAppClipInstallCommand
+- (id);
+- (NSString *)initWithMessages:participantsFromContacts:photoLibrary: /* Error: Ran out of types for this method. */;
+- (NSData *)photoLibraryURL;
+- (_SFPBURL *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *url;
 @end
 

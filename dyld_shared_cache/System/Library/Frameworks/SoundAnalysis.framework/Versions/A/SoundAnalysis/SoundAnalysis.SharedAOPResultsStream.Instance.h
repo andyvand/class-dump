@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SharedAOPResultsStream.Instance
 {
     id unsafePublisher;
-    id flushSubject;
-    id queue;
 }
 
 @end

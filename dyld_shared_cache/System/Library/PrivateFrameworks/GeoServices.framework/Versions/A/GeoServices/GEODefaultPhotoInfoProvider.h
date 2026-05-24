@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface GEODefaultPhotoInfoProvider
@@ -12,22 +12,16 @@ __attribute__((visibility("hidden")))
     NSArray *_sortedPhotoInfos;
 }
 
-+ (id);
++ (id)tokenNameForScannerResultType:(id)arg1;
 - (double);
-- (id);
-- (id);
+- (id)v32@0:8@"NSString"16@?<v@?@"CNApplicationProxy"@"NSError">24 /* Error: Ran out of types for this method. */;
+- (id)setPrimitiveObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
+- (id)Leone;
 - (void)r]5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

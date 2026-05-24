@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3Query, ML3QueryResultSet_BackingStore, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class ML3Query, ML3QueryResultSet_BackingStore;
 
 @interface ML3QueryResultSet
 {
     ML3QueryResultSet_BackingStore *_backingStore;
-    ML3Query *_query;
-    long long _revision;
-    long long _localRevision;
-    _Bool _supportsIncrementalUpdate;
-    NSMutableArray *_updateToLibraryCurrentRevisionCompletionBlocks;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_fixedPriorityQueue;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)icateAsset",&,V_targetAsset;
+- (void)predicateForKeyAssetsCandidates;
+- (void)Entry",R,N;
+- (id)eRegistration;
+- (_Bool)"NSString",C,N,V_organizationName;
+- (void)initWithLibraryBundle:(CDUnknownBlockType)arg1 uploader: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
-- (long long);
-- (long long);
-- (unsigned long long);
+- (long long)tles for %zu year highlights.;
+- (long long)error after processing object %{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)%@);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)eworks/FeedbackLogger.framework/Versions/A/FeedbackLogger;
 - (void):(CDUnknownBlockType)arg1 hasValue called with unknown property key %x;
 - (void)ctive session;
 - (long long)album_artist;;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) long long localRevision; // @synthesize localRevision=_localRevision;
 @property(readonly, nonatomic) ML3Query *query; // @synthesize query=_query;
-@property(readonly, nonatomic) long long revision; // @synthesize revision=_revision;
 
 @end
 

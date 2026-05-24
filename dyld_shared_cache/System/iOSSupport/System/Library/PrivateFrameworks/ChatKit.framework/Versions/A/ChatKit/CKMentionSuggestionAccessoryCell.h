@@ -11,7 +11,7 @@
     UIView *_separatorView;
 }
 
-+ (id);
++ (id)pressedItem;
 + (id);
 - (void);
 - (id);

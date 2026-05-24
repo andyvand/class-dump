@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVDisambiguationFollowupHandled : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_actionCandidateId;
-    _Bool _hasActionCandidateId;
 }
 
 - (void);
@@ -27,14 +26,12 @@
 - (_Bool);
 - (id);
 - (id)nt";
-- (id)ationRequest;
+- (id)IFTSchemaIFTSystemRequirementAuthenticationRequest;
 - (id)<Q;
 - (void)&;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *actionCandidateId; // @synthesize actionCandidateId=_actionCandidateId;
-@property(nonatomic) _Bool hasActionCandidateId; // @synthesize hasActionCandidateId=_hasActionCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

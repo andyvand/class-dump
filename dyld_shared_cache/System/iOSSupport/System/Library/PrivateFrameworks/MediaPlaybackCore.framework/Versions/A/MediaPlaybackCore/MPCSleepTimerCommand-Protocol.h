@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlayerCommandRequest;
+
 @protocol MPCSleepTimerCommand
-- (void)Rate:(double)arg1;
+- (MPCPlayerCommandRequest *);
+- (void)_createProcessTapWithNumberOfFrames:(double)arg1 sampleRate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double fireDate;
-@property(nonatomic) long long stopMode;
 @property(nonatomic) double time;
 @end
 

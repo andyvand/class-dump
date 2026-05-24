@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NSLinguisticTagger
 {
     NSArray *_schemes;
-    unsigned long long _options;
-    NSString *_string;
-    id _orthographyArray;
-    id _tokenArray;
-    void *_reserved;
 }
 
 + (id);
@@ -25,8 +20,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *dominantLanguage;
-@property(retain) NSString *string;
 @property(readonly, copy) NSArray *tagSchemes;
 
 @end

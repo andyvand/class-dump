@@ -5,5 +5,8 @@
 //
 
 @protocol SiriSuggestionsStartPageLinkRecommendationDelegate
+
+@optional
+- (void);
 @end
 

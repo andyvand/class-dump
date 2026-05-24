@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)proxy information. Will attempt to use a proxy.;
 
 @end
 

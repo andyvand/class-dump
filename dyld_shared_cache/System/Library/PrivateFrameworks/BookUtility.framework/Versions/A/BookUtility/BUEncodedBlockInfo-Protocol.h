@@ -7,7 +7,6 @@
 @protocol BUEncodedBlockInfo
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long decodedLength;
 @property(readonly, nonatomic) unsigned long long encodedLength;
 @end
 

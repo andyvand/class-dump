@@ -7,10 +7,6 @@
 @interface NewsUI2.ModernMastheadViewLayoutAttributesFactory
 {
     id styler;
-    id featureAvailability;
-    id baseMastheadHeight;
-    id baseMastheadHeightSafeAreaPadding;
-    id engagementBannerContentSpacing;
 }
 
 @end

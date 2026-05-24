@@ -6,41 +6,34 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSFileManager, NSMutableDictionary, NSString, RTBluePOIDailyMetrics, RTBluePOITileStore, RTDefaultsManager, RTDistanceCalculator;
+@class RTBluePOITileStore;
 
 @interface RTBluePOIMetricManager : RTService
 {
     _Bool _collectingEventMetrics;
-    RTBluePOIDailyMetrics *_dailyMetrics;
-    RTBluePOITileStore *_bluePOITileStore;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    NSFileManager *_fileManager;
-    NSString *_bluePOIModelPath;
-    NSMutableDictionary *_eventMetrics;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool)FlagBadStashedKeychainRecoveryToken;
+- (id)StoreLRCHSM;
+- (id)ValidateRegistry;
+- (void);
+- (void)kPCSRPDDBROnly;
+- (void)om.apple.energykit.ami.LimitedPeers;
+- (_Bool));
 - (void);
 - (id);
-- (void);
+- (void)setValue:(id)arg1 forKey:(id)arg2;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id)fidenceEqualsBestConfidencePOI;
+- (id)earlyStopConfidenceEqualsBestConfidencePOI;
 - (void)place inference already published, skipping place inference, %{sensitive}@;
 - (void)mentLocError,%@;
 - (void)able (in %s:(id)arg1 %d);
@@ -48,14 +41,7 @@
 - (id)|;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bluePOIModelPath; // @synthesize bluePOIModelPath=_bluePOIModelPath;
 @property(readonly, nonatomic) RTBluePOITileStore *bluePOITileStore; // @synthesize bluePOITileStore=_bluePOITileStore;
-@property(nonatomic) _Bool collectingEventMetrics; // @synthesize collectingEventMetrics=_collectingEventMetrics;
-@property(readonly, nonatomic) RTBluePOIDailyMetrics *dailyMetrics; // @synthesize dailyMetrics=_dailyMetrics;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) NSMutableDictionary *eventMetrics; // @synthesize eventMetrics=_eventMetrics;
-@property(readonly, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
 
 @end
 

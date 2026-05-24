@@ -6,13 +6,11 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSMutableDictionary;
 @protocol WPTestDelegate;
 
 @interface WPTest : WPClient
 {
     id <WPTestDelegate> _delegate;
-    NSMutableDictionary *_transfers;
 }
 
 + (long long);
@@ -20,39 +18,38 @@
 - (void);
 - (void);
 - (void);
+- (id)ntext>"24;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)failedToStartScanningWithError:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)orks/Foundation.framework/Versions/C/Foundation;
+- (void)magicSwitch:(id)arg1 failedToStartScanningWithError: /* Error: Ran out of types for this method. */;
 - (void)dvertising;
 - (void)send data:(id)arg1 %{public}@, peripheral:(id)arg2 %{public}@, central:(_Bool)arg3 %{public}@, self:%p /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WPTestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableDictionary *transfers; // @synthesize transfers=_transfers;
 
 @end
 

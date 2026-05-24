@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMessageContent, BlastDoorMetadata, NSString;
+@class NSString;
 
 @interface BlastDoorEditMessageCommand
 {
@@ -27,16 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long editType;
-@property(nonatomic, readonly) NSString *editedMessageGUID;
-@property(nonatomic, readonly) BlastDoorMessageContent *editedMessagePartBody;
-@property(nonatomic, readonly) long long editedMessagePartIndex;
-@property(nonatomic, readonly) BlastDoorMessageContent *editedMessagePartTranslation;
-@property(nonatomic, readonly) _Bool has_editedMessagePartIndex;
-@property(nonatomic, readonly) _Bool has_shouldRetractSubject;
-@property(nonatomic, readonly) BlastDoorMessageContent *messageContent;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) _Bool shouldRetractSubject;
 
 @end
 

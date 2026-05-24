@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCountryConfiguration, GEOObserverHashTable, GEOResourceManifestManager, GEOSQLiteDB, NSLocale, NSMutableDictionary, NSString, NSURL, _GEOTileDBWriteQueue, geo_isolater;
+@class GEOSQLiteDB, NSString;
 
 @interface GEOTileDB
 {
     GEOSQLiteDB *_db;
-    _GEOTileDBWriteQueue *_writeQueue;
-    unsigned long long _maxDatabaseSize;
-    unsigned long long _tileDataSize;
-    _Bool _tileDataSizeIsValid;
-    GEOCountryConfiguration *_countryConfiguration;
-    GEOResourceManifestManager *_manifestManager;
-    geo_isolater *_infrequentlyChangingMetadataIsolater;
-    CDStruct_4e27301a *_expirationRecords;
-    unsigned long long _expirationRecordsCount;
-    _Bool _preloading;
-    NSString *_devicePostureLocale;
-    NSString *_devicePostureCountry;
-    NSString *_devicePostureRegion;
-    NSMutableDictionary *_editionsMap;
-    NSURL *_dbDirectory;
-    NSURL *_externalDataDirectory;
-    geo_isolater *_createdExternalDataDirectoryIsolater;
-    GEOObserverHashTable *_observers;
-    double _timestampDeltaWriteThreshold;
-    id _timestampDeltaWriteThresholdConfigListener;
-    id _tileElevationConfigListener;
-    NSLocale *_overrideLocale;
-    _Bool _createdExternalDataDirectory;
 }
 
 + (void);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -53,71 +30,71 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void));
+- (_Bool)authenticateUsingAuthorizationSync:(CDUnion_20bcf645)arg1;
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)sendVoiceProfileUpdatedMessageToNearbyPeerForLocale: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (void)rdDetector speechManagerLPCMRecordBufferAvailable:(unsigned long long)arg1 chunk:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)\;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)setVerticalScrollElasticity:(id)arg1;
+- (void)setRefreshing: /* Error: Ran out of types for this method. */;
+- (void)imageNamed:(id)arg1;
+- (void)_setUserTrackingButtonBackgroundStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)ide;
+- (void)MiniBrowseCategories",R,N,G_miniBrowseCategories;
+- (void);
+- (void)MKMapItemGEOPlace;
+- (void)de;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)t;
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)eMemoryError;
 - (_Bool)1Â0@ù
 × ;
 - (void)
@@ -125,23 +102,23 @@
 - (void)°!(Cù1º*Ð1Â0@ù
 × ;
 - (_Bool)oupItemVerticalDisplayOrder"b1"has_highlightDistance"b1"has_objectGroupId"b1"has_priority"b1"has_type"b1"has_zilchPathIndex"b1"read_unknownFields"b1"read_guidances"b1"read_objectIdentifier"b1"read_routeAnnotation"b1"wrote_anyField"b1};
-- (void)acheInfo:(id)arg1;
-- (void)asValidStartAndEndDates;
-- (void)ntifier;
-- (unsigned long long)scription;
-- (void)tLocale;
+- (void)initWithCacheInfo:(id)arg1;
+- (void)hasValidStartAndEndDates;
+- (void)hasRequestIdentifier;
+- (unsigned long long)hasModuleDebugDescription;
+- (void)hasDeviceInputLocale;
 - (void)_stepIndexs;
-- (void)teHandle;
-- (void)onIndices:(id)arg1 options:(id)arg2;
+- (void)_routeHandle;
+- (void)_mapItemsFromPresentAction:(id)arg1 currentLocationIndices:(id)arg2 options:(CDUnknownBlockType)arg3;
 - (void)",&,N,V_tilesToLoad;
-- (void)leteTileSet:(id)arg1;
+- (void)_deleteTileSet:(id)arg1;
 - (void);
 - (void);
 - (_Bool)¹ºüºÌ»¼;
 - (void)_fetchAllAvailableExperiments:(long long)arg1 ]_block_invoke;
 - (void)led once per object;
-- (void)rites;
-- (id)ER;
+- (void)spellRewrites;
+- (id)DIRECTIONS_TRANSIT_LATER;
 - (void);
 - (long long)ðÜØ;
 - (void);
@@ -154,7 +131,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *devicePostureCountry;
-@property(readonly, nonatomic) NSString *devicePostureRegion;
 
 @end
 

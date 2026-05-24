@@ -7,14 +7,12 @@
 @class NSString, _INPBString;
 
 @protocol _INPBSupportedTrafficIncidentType
-- (NSString *)ggerMethod:(int)arg1;
-- (_Bool)ingMetadata;
+- (int)(;
+- (NSString *)setHasTriggerMethod:(int)arg1;
+- (_Bool)_settingMetadata;
 - (void)__INCodableBooleanAttributeMetadataFalseDisplayNameIDKey;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocalizedDisplayString;
-@property(nonatomic) _Bool hasType;
 @property(retain, nonatomic) _INPBString *localizedDisplayString;
-@property(nonatomic) int type;
 @end
 

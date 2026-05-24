@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)oardLayout;
+- (void)IconKeyboardLayout;
 - (void)333?;
 
 @end

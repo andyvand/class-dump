@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)Entry.PrivateData.WifiNotification;
 - (void);
 
 @end

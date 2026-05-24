@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)c;
+- (id);
 - (id);
 - (void)ardMask_%@;
 

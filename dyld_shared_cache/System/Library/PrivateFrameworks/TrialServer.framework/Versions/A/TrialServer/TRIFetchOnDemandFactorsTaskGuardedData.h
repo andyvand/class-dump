@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface TRIFetchOnDemandFactorsTaskGuardedData
 {
     NSMutableArray *fetchOperations;
-    int overallStatus;
-    NSDate *earliestRetryDate;
-    NSError *fetchError;
-    NSMutableSet *downloadableFactorNames;
 }
 
 - (id);

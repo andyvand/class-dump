@@ -9,28 +9,24 @@
 @interface TUConversationActivitySceneAssociationBehavior
 {
     _Bool _shouldAssociateScene;
-    NSString *_targetContentIdentifier;
-    NSString *_preferredSceneSessionRole;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (void)allbackModeEnabled: /* Error: Ran out of types for this method. */;
+- (void)setEmergencyCallbackModeEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *preferredSceneSessionRole; // @synthesize preferredSceneSessionRole=_preferredSceneSessionRole;
-@property(readonly, nonatomic) _Bool shouldAssociateScene; // @synthesize shouldAssociateScene=_shouldAssociateScene;
 @property(readonly, copy, nonatomic) NSString *targetContentIdentifier; // @synthesize targetContentIdentifier=_targetContentIdentifier;
 
 @end

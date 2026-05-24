@@ -7,8 +7,6 @@
 @interface _IPMDEventStateModern
 {
     unsigned int _theEventClass;
-    unsigned short _theEventKind;
-    _Bool _eventState;
 }
 
 - (unsigned short);

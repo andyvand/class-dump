@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AACustodianController, CDPContext, NSString;
+@class CDPContext;
 
 @interface CDPCustodianRecoveryController
 {
     CDPContext *_context;
-    NSString *_recoverySession;
-    AACustodianController *_custodianController;
 }
 
 - (void);

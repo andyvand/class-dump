@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIImage;
+@class NSArray, NSString;
 
 @interface UIPreviewActionGroup
 {
     NSString *_title;
-    UIImage *_image;
-    NSString *_identifier;
-    UIColor *_color;
-    long long _style;
-    NSArray *_actions;
 }
 
 + (id);
@@ -23,36 +18,24 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)J;
 - (void);
 - (id)ù
 × ;
 - (void)A
 ð!È@ùÑf°1Â0@ù
 × ;
-- (void)ion;
+- (void)_interfaceOrientation;
 - (void)__highlightBackgroundViewNeedsUpdate;
 - (id)ider;
 - (id)H%ÿÿ<LêÿTþ0þÿ;
-- (void);
+- (void)PulseFrameRate;
 - (id);
 - (void);
 - (id)H f;
 
 // Remaining properties
 @property(copy, nonatomic, getter=_actions, setter=_setActions:) NSArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

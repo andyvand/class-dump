@@ -6,44 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHVisionPowerState : SISchemaInstrumentationMessage
 {
     int _blackboardUseCaseProfile;
-    int _thermalMitigationLevel;
-    struct {
-        unsigned int blackboardUseCaseProfile:1;
-        unsigned int thermalMitigationLevel:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)T(;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (int);
 - (void);
-- (int);
+- (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)nd with handle:(id)arg1 %@ matching body with for chatidentifiers:%@ on services:%@  skipping:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)_eventType;
 - (id)d;
 
 // Remaining properties
 @property(nonatomic) int blackboardUseCaseProfile; // @synthesize blackboardUseCaseProfile=_blackboardUseCaseProfile;
-@property(nonatomic) _Bool hasBlackboardUseCaseProfile;
-@property(nonatomic) _Bool hasThermalMitigationLevel;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int thermalMitigationLevel; // @synthesize thermalMitigationLevel=_thermalMitigationLevel;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistorySearchItem : MapsSyncManagedHistoryItem
@@ -18,9 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSData *geoMapRegion; // @dynamic geoMapRegion;
-@property(nonatomic, copy) NSString *language; // @dynamic language;
-@property(nonatomic, copy) NSString *locationDisplay; // @dynamic locationDisplay;
-@property(nonatomic, copy) NSString *query; // @dynamic query;
 
 @end
 

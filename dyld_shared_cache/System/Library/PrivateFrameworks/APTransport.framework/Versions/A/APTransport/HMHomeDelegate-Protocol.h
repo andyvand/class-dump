@@ -5,5 +5,9 @@
 //
 
 @protocol HMHomeDelegate
+
+@optional
+- (void);
+- (void)R ;
 @end
 

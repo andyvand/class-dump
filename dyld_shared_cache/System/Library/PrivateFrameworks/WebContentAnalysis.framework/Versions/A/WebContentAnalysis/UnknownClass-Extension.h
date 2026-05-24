@@ -17,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)isBadgeOnLeadingEdge;
 - (_Bool);
 @end
 

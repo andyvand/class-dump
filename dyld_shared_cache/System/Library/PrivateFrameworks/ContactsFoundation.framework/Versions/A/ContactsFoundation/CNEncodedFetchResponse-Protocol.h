@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet;
+@class NSData, NSSet;
 
 @protocol CNEncodedFetchResponse
+- (NSSet *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSSet *identifierAccountingData;
-@property(readonly, nonatomic) NSDictionary *matchInfo;
 @end
 

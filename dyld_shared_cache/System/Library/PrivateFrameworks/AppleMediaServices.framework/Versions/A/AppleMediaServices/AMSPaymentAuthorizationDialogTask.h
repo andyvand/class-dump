@@ -6,28 +6,24 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSPaymentAuthorizationDialogRequest, AMSPurchaseInfo, NSDictionary, NSString;
+@class NSDictionary;
 @protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSPaymentAuthorizationDialogTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    AMSPurchaseInfo *_purchaseInfo;
-    NSDictionary *_idmsToken;
-    NSString *_passwordEquivalentToken;
-    AMSPaymentAuthorizationDialogRequest *_request;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)AVLessSharePlayEnabled;
 - (id);
-- (id);
-- (id);
+- (id)_presentationTransitionWatchdogTimer;
 - (void);
-- (id)te;
+- (id)deviceState;
 - (void);
 - (void);
 - (id)Ä§zØíËsÜ½ø
@@ -38,11 +34,7 @@ $äåô^]L]ösì(k
 lvc&D}b!¥éY?1ÄþüÇ#±²Û8_E>åÊ[~.L WYYcÓèâ°Óú	 í'°·éè¼I°ÙMW®ø#BïW¯Þ'ö­'K7$×Ö§"%!{Uô|ÜêØKM1|äÉÙnqëÚp8z¾o_]DBEBKéÕÌp}ÜãòÏ±×¨ë"%±>/8â;5Zö_ÈHÿu²Uÿõv÷ã >$-ÔñiÔx¢Aò-²µfÏ^'9]§ôÉV¢Æ;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain) NSDictionary *idmsToken; // @synthesize idmsToken=_idmsToken;
-@property(retain) NSString *passwordEquivalentToken; // @synthesize passwordEquivalentToken=_passwordEquivalentToken;
-@property(retain) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
-@property(retain) AMSPaymentAuthorizationDialogRequest *request; // @synthesize request=_request;
 
 @end
 

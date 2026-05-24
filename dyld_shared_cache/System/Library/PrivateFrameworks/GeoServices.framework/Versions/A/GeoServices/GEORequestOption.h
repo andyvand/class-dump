@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSString, PBUnknownFields;
-@protocol GEOServerFormattedString;
+@class PBUnknownFields;
 
 @interface GEORequestOption
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_name;
-    int _enumValue;
-    struct {
-        unsigned int has_enumValue:1;
-    } _flags;
 }
 
-+ (_Bool)ddingIdentifier:(id)arg1;
++ (_Bool)setLogoWithoutPaddingIdentifier:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -28,8 +22,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)V_isTimerPlaying;
+- (id)arwinVoiceTrigger:deviceId:myriadPHash:myriadLateActivationExpirationTime:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -38,26 +32,13 @@
 - (void);
 - (id)emeColorLightMode"b1"wrote_anyField"b1};
 - (int)uteAttributes";
-- (id)tweenRouteCoordinate:andRouteCoordinate: /* Error: Ran out of types for this method. */;
+- (id)distanceBetweenRouteCoordinate:andRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (id)@y;
-- (id)t_trip_geometry;
+- (id)transit_trip_geometry;
 - (void)à;
 - (void)ü4îÍo%P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int enumValue;
-@property(readonly, nonatomic) id <GEOServerFormattedString> formattedName;
-@property(nonatomic) _Bool hasEnumValue;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOFormattedString *name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(readonly, nonatomic) int value;
 
 @end

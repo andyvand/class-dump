@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexThrottlingController, NSArray, NSLock, NSMapTable, NSString;
+@class NSLock;
 
 @interface IMDIndexingController
 {
     _Bool _indexingDisabled;
-    NSArray *_integrations;
-    NSLock *_indexingDisabledLock;
-    NSLock *_integrationsBySelectorLock;
-    NSMapTable *_integrationsBySelector;
-    IMDIndexThrottlingController *_throttlingController;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id).xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -58,8 +53,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
@@ -74,19 +69,7 @@
 WHERE c.ROWID >  ? ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIndexingDisabled) _Bool indexingDisabled; // @synthesize indexingDisabled=_indexingDisabled;
 @property(readonly, nonatomic) NSLock *indexingDisabledLock; // @synthesize indexingDisabledLock=_indexingDisabledLock;
-@property(readonly, nonatomic) NSArray *integrations; // @synthesize integrations=_integrations;
-@property(readonly, nonatomic) NSMapTable *integrationsBySelector; // @synthesize integrationsBySelector=_integrationsBySelector;
-@property(readonly, nonatomic) NSLock *integrationsBySelectorLock; // @synthesize integrationsBySelectorLock=_integrationsBySelectorLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMDIndexThrottlingController *throttlingController; // @synthesize throttlingController=_throttlingController;
 
 @end
 

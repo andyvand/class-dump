@@ -5,5 +5,6 @@
 //
 
 @protocol ProximityReaderCore.PaymentTerminalServiceDelegate
+- (void)˿;
 @end
 

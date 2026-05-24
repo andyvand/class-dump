@@ -4,75 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOrderedSet, NSUbiquitousKeyValueStore;
-
 @interface IMPinnedConversationsController
 {
     _Bool _hasCompletedInitialization;
-    _Bool _hasDefferedPinnedConversationsDidChangeNotification;
-    long long _numberOfPendingForceSyncs;
-    NSUbiquitousKeyValueStore *_dataStore;
-    NSOrderedSet *_pinnedConversationIdentifierSet;
-    NSDictionary *_chatMetadata;
 }
 
-+ (_Bool);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (long long);
++ (_Bool)%d %@(%p) Failed to create new fence;
++ (id)ded. Processing without dialog;
++ (unsigned long long)s:%d Failed to create audio buffer list /* Error: Ran out of types for this method. */;
++ (id)t for type audio error=%@;
++ (long long):stopActiveProbing failed:Invalid linkID list /* Error: Ran out of types for this method. */;
++ (id)rate limits for NACK;
++ (id)d;
++ (long long)_SpatialMetadata) failed(%d);
 + (id);
-+ (id)stryMessageSendIsReplicatingKey;
++ (id)__kIMChatRegistryMessageSendIsReplicatingKey;
+- (void)d Failed to get remoteNetworkAddress;
+- (void)n't exist;
+- (_Bool)%s;
+- (_Bool)annel connected;
+- (void)s:(id)arg1 %d Changing participant screenEnabled to %d;
+- (void)nt %s. Entering state participant %s.;
+- (void)ctionary;
+- (void)o allocate output dictionary;
+- (void)ia blob missing in the participant info;
+- (_Bool)%s:(id)arg1 %d received callback for shouldReconnect;
+- (id)ived callback for didChangeDownlinkRateAdaptationInfo:(id)arg1 %@;
+- (id)eAdaptationInfo:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long):(id)arg1 %@;
+- (_Bool):(id)arg1 %d %@(%p) received callback for didChangeUplinkRateAdaptationInfo:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)r didChangeUplinkRateAdaptationInfo:(id)arg1 %@;
+- (_Bool)didDetectError:(id)arg1 %@;
+- (void)removeParticipantDidSucceed;
+- (long long)error=%@;
+- (id)on info updated:(id)arg1 %@;
+- (id)led[%d];
+- (id)lready configure with oneToOneMode Enabled[%d];
+- (void)nQsize=%0.5f, minQSzSamples=%d, desiredQSzSamples=%d, jitterIsLow=%d, firstSpeechPktLifetime=%d, minQSzBldThresh=%d;
+- (_Bool)CAudioPlayer [%s] %s:%d Warning:Protecting minimum queue. packetLifetimeIsLow=%d, packetLifeTime5Perc=%f threshold=%f
+ /* Error: Ran out of types for this method. */;
+- (_Bool)Timestamp did not increment, timestamp=%d;
+- (void)t filePath=%@;
+- (void)%s] %s:(CDUnknownBlockType)arg1 %d Successfully deleted filePath=%@;
+- (id)t;
+- (void)ed when rate controller proceed!;
+- (void)not existing in linkSSRC array= 0x%x;
+- (id)ngth=%u;
+- (void)r [%s] %s:(id)arg1 %d Bad padding length paddingLength:(CDUnknownBlockType)arg2 %zu;
+- (_Bool)ioReceiver [%s] %s:(id)arg1 %d AudioReceiver[%p] PullAudioSamples count:%u /* Error: Ran out of types for this method. */;
+- (id)l size:(id)arg1 %llu;
+- (void), activeVideoMode=%d;
+- (void)I:message='%@' is too long (%d > %d) /* Error: Ran out of types for this method. */;
+- (void)ocessMessage:Sent confirmation for _sessionID='%d', participantID='%@', transactionID='%@' /* Error: Ran out of types for this method. */;
+- (id)ffer resolution=%zux%zu;
+- (id)_screenStream=%@, _contentFilter=%@;
+- (void):(id)arg1 %d Failed to setup the stream controller;
+- (void)ediaRecorderRequest-rejectWithError;
+- (id)ntry for mediaType=%@ mediaState=%@. Value is nil.;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool)umForCellularTapType (%p) type=%u;
+- (id)ctive probing because connection for duplication was last updated using probing results %f seconds ago, and duplication is still active.;
+- (id)ues linkProbingInterval=%d linkProbingTimeout=%d linkProbingQueryResultsInterval=%d exponentialMovingMeanFactor=%f plrEnvelopeAttackFactor=%f plrEnvelopeDecayFactor=%f plrBuckets=%@ minSentRequestCountThreshold=%d _linkProbingDuplicationWaitTimeout=%d _consecutiveIdenticalQueryResultMax=%d _linkProbingLockdownPeriod=%f _linkProbingQRStatFrequency=%d _linkProbingQRStatRequestMaxCount=%d _inkProbingQRStatRequestMaxRTT=%f;
+- (void)LinkProbing:QR link ID=%@ /* Error: Ran out of types for this method. */;
+- (void)ng=%d;
 - (void);
 - (id);
 - (id);
@@ -83,12 +77,7 @@
 ÄDd;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *chatMetadata; // @synthesize chatMetadata=_chatMetadata;
-@property(retain, nonatomic) NSUbiquitousKeyValueStore *dataStore; // @synthesize dataStore=_dataStore;
 @property(nonatomic) _Bool hasCompletedInitialization; // @synthesize hasCompletedInitialization=_hasCompletedInitialization;
-@property(nonatomic) _Bool hasDefferedPinnedConversationsDidChangeNotification; // @synthesize hasDefferedPinnedConversationsDidChangeNotification=_hasDefferedPinnedConversationsDidChangeNotification;
-@property(nonatomic) long long numberOfPendingForceSyncs; // @synthesize numberOfPendingForceSyncs=_numberOfPendingForceSyncs;
-@property(retain, nonatomic) NSOrderedSet *pinnedConversationIdentifierSet; // @synthesize pinnedConversationIdentifierSet=_pinnedConversationIdentifierSet;
 
 @end
 

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLTableSchema, NSArray, NSDictionary;
+@class EFSQLTableSchema;
 
 @interface EFSQLObjectPropertyMapper
 {
     EFSQLTableSchema *_mainTable;
-    NSDictionary *_keyPathMappers;
-    NSDictionary *_tableRelationships;
-    NSArray *_additionalColumns;
-    NSDictionary *_additionalSelectExpressions;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalColumns; // @synthesize additionalColumns=_additionalColumns;
-@property(readonly, nonatomic) NSDictionary *additionalSelectExpressions; // @synthesize additionalSelectExpressions=_additionalSelectExpressions;
-@property(readonly, nonatomic) NSDictionary *keyPathMappers; // @synthesize keyPathMappers=_keyPathMappers;
 @property(readonly, nonatomic) EFSQLTableSchema *mainTable; // @synthesize mainTable=_mainTable;
-@property(readonly, nonatomic) NSDictionary *tableRelationships; // @synthesize tableRelationships=_tableRelationships;
 
 @end
 

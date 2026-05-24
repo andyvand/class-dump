@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAudioData, _SFPBMediaMetadata;
+@class NSData, _SFPBMediaMetadata;
 
 @protocol _SFPBPlayMediaCommand
+- (_Bool)*;
+- (NSData *)Complement",R,V_videoComplementBundle;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAudioData *audioData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata;
-@property(nonatomic) int playbackLocation;
-@property(nonatomic) _Bool shouldPause;
 @end
 

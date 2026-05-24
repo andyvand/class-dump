@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)_isSemanticMatch;
 - (void);
 
 @end

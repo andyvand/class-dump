@@ -7,7 +7,7 @@
 @interface UnknownClass (DataHashingAdditions)
 + (id);
 - (id);
-- (id);
+- (id)I;
 - (id);
 @end
 

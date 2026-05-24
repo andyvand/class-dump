@@ -7,6 +7,7 @@
 @protocol HMDCompositeSettingControllerManagerStateTransitionDelegate
 
 @optional
+- (void)trialConfigProviderMessages;
 - (void);
 @end
 

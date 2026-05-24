@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProviderDomain, FPSpotlightIndexer, FPXExtensionContext, NSDictionary, NSFileProviderDomain, NSFileProviderDomainVersion, NSFileProviderExtension, NSObject;
-@protocol NSFileProviderReplicatedExtension, OS_os_log;
+@class FPXExtensionContext, NSFileProviderDomainVersion;
 
 __attribute__((visibility("hidden")))
 @interface FPXDomainContext
 {
     NSFileProviderDomainVersion *_lastKnownDomainVersion;
-    NSDictionary *_lastKnownUserInfo;
-    long long _sequenceNumber;
-    int _selfPid;
-    _Bool _usesFPFS;
-    unsigned long long _extensionCapabilities;
-    FPXExtensionContext *_extensionContext;
-    NSObject<NSFileProviderReplicatedExtension> *_vendorInstance;
-    NSFileProviderDomain *_domain;
-    FPProviderDomain *_providerDomain;
-    NSObject<OS_os_log> *_log;
-    FPSpotlightIndexer *_spotlightIndexer;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool))2	;
+- (_Bool)c;
 - (id);
-- (void);
+- (void)AVSynchronousBlockScheduler;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
+- (id)SipStack}^{__shared_weak_count}}32i48{queue={object=^{dispatch_object_s}}}52;
+- (id)]_block_invoke;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -55,17 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)"FPItemCollection"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileProviderDomain *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic) unsigned long long extensionCapabilities; // @synthesize extensionCapabilities=_extensionCapabilities;
 @property(readonly, nonatomic) __weak FPXExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) FPProviderDomain *providerDomain; // @synthesize providerDomain=_providerDomain;
-@property(readonly, nonatomic) FPSpotlightIndexer *spotlightIndexer; // @synthesize spotlightIndexer=_spotlightIndexer;
-@property(readonly, nonatomic) NSDictionary *userInfo;
-@property(readonly, nonatomic) _Bool usesFPFS; // @synthesize usesFPFS=_usesFPFS;
-@property(readonly, nonatomic) NSFileProviderExtension *v2Instance;
-@property(readonly, nonatomic) NSObject<NSFileProviderReplicatedExtension> *vendorInstance; // @synthesize vendorInstance=_vendorInstance;
 
 @end
 

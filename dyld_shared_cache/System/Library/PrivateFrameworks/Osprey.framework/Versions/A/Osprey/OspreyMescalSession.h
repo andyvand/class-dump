@@ -7,8 +7,6 @@
 @interface OspreyMescalSession
 {
     struct FPSAPContextOpaque_ *_fairplayContext;
-    struct FairPlayHWInfo_ _hardwareInfo;
-    unsigned long long _state;
 }
 
 - (id);

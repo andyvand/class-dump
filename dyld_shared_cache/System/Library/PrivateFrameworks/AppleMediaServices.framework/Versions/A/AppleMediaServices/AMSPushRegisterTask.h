@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSData, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSPushRegisterTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_environment;
-    NSData *_token;
 }
 
 - (id);
@@ -29,9 +25,6 @@
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *environment; // @synthesize environment=_environment;
-@property(readonly, copy) NSData *token; // @synthesize token=_token;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeBookmarkItemListManager
 {
     id photoLibraryContext;
-    id parentItemListManager;
-    id bookmarksManager;
-    id bookmarksManagerObserver;
 }
 
 @end

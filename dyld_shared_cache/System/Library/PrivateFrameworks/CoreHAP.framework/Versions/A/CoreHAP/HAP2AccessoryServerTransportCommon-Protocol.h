@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol HAP2AccessoryServerTransportCommon;
 
 @protocol HAP2AccessoryServerTransportCommon
+- (id <HAP2AccessoryServerTransportCommon>);
+- (NSString *);
+- (unsigned long long)otalSamples:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double maxRequestTimeout;
 @property(readonly, nonatomic) unsigned long long state;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransportCommon> underlyingTransport;
 @end
 

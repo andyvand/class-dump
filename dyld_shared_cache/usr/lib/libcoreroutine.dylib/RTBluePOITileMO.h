@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSUUID;
+@class NSDate;
 
 @interface RTBluePOITileMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_queryEscrowKeysAll;
++ (id)allocbind_request;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *apToModelMapping; // @dynamic apToModelMapping;
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSData *downloadKey; // @dynamic downloadKey;
-@property(copy, nonatomic) NSData *geoCacheInfo; // @dynamic geoCacheInfo;
-@property(copy, nonatomic) NSData *hashSalt; // @dynamic hashSalt;
-@property(retain, nonatomic) NSDictionary *hashedApToModelMapping; // @dynamic hashedApToModelMapping;
-@property(copy, nonatomic) NSString *hashedApToModelMappingDataURL; // @dynamic hashedApToModelMappingDataURL;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSDictionary *modelCalibrationParameters; // @dynamic modelCalibrationParameters;
-@property(retain, nonatomic) NSArray *modelURLs; // @dynamic modelURLs;
-@property(retain, nonatomic) NSSet *models; // @dynamic models;
-@property(retain, nonatomic) NSSet *pointsOfInterest; // @dynamic pointsOfInterest;
-@property(copy, nonatomic) NSNumber *singlePOIMuid; // @dynamic singlePOIMuid;
-@property(copy, nonatomic) NSNumber *size; // @dynamic size;
-@property(copy, nonatomic) NSNumber *tileKey; // @dynamic tileKey;
 
 @end
 

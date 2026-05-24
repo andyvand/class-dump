@@ -6,16 +6,10 @@
 
 #import <NetAppsUtilities/NAFuture.h>
 
-@class NSObject;
-@protocol NAScheduler, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _NALazyFuture : NAFuture
 {
     _Bool _started;
-    CDUnknownBlockType _block;
-    id <NAScheduler> _scheduler;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (id);
@@ -31,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain, nonatomic) id <NAScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
 
 @end
 

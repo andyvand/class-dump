@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INStartCallRequestMetadata, NSArray;
-
 @protocol INStartAudioCallIntentExport
+- (long long)_passcodePlaceholderView;
+- (void)(;
+- (long long);
 
 // Remaining properties
 @property long long audioRoute;
-@property(copy) INStartCallRequestMetadata *callRequestMetadata;
-@property(copy) NSArray *contacts;
-@property long long destinationType;
-@property long long preferredCallProvider;
-@property long long recordTypeForRedialing;
-@property(setter=setTTYType:) long long ttyType;
 @end
 

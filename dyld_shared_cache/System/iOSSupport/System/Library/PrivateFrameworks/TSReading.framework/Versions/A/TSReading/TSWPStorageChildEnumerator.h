@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSWPStorage;
+@class TSWPStorage;
 
 @interface TSWPStorageChildEnumerator
 {
     TSWPStorage *_storage;
-    struct _NSRange _charRange;
-    unsigned int _index;
-    NSArray *_charOffsetArray;
 }
 
 - (id);

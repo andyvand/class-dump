@@ -9,12 +9,6 @@
 @interface _CNLazyArrayFastEnumerationSource
 {
     id <NSFastEnumeration> _fastEnumeration;
-    CDStruct_58648341 _state;
-    _Bool _firstCall;
-    long long _mutationsPtrValue;
-    unsigned long long _count;
-    unsigned long long _index;
-    id _stackbuf[16];
 }
 
 - (id);

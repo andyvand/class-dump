@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextField, SOBalloonEffectPickerViewController, SOEffectPickerUnsentMessage, SOFullScreenEffectPickerViewController;
+@class NSButton;
 @protocol SOTranscriptEffectPickerDelegate;
 
 @interface SOTranscriptEffectPicker
 {
     id <SOTranscriptEffectPickerDelegate> _delegate;
-    NSButton *_balloonButton;
-    NSButton *_momentButton;
-    NSButton *_cancelButton;
-    NSButton *_sendButton;
-    NSTextField *_titleView;
-    SOFullScreenEffectPickerViewController *_momentsViewController;
-    SOBalloonEffectPickerViewController *_balloonsViewController;
-    NSString *_chosenEffect;
-    SOEffectPickerUnsentMessage *_unsentMessage;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -41,16 +32,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)e;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)4;
 - (void);
 - (id);
 - (void);
@@ -58,22 +49,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSButton *balloonButton; // @synthesize balloonButton=_balloonButton;
-@property(retain, nonatomic) SOBalloonEffectPickerViewController *balloonsViewController; // @synthesize balloonsViewController=_balloonsViewController;
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) NSString *chosenEffect; // @synthesize chosenEffect=_chosenEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SOTranscriptEffectPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSButton *momentButton; // @synthesize momentButton=_momentButton;
-@property(retain, nonatomic) SOFullScreenEffectPickerViewController *momentsViewController; // @synthesize momentsViewController=_momentsViewController;
-@property(nonatomic) __weak NSButton *sendButton; // @synthesize sendButton=_sendButton;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *titleView; // @synthesize titleView=_titleView;
-@property(retain) SOEffectPickerUnsentMessage *unsentMessage; // @synthesize unsentMessage=_unsentMessage;
 
 @end
 

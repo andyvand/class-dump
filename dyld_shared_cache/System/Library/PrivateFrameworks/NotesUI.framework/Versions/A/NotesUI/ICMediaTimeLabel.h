@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)OutlinedAssignWithTake;
 
 // Remaining properties
 @property(copy, nonatomic) ICMediaTime *mediaTimeValue; // @dynamic mediaTimeValue;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CNAutocompleteContactsOnVisionSuggestionsControllerDelegate;
 
 @interface CNAutocompleteContactsOnVisionSuggestionsController
 {
     id <CNAutocompleteContactsOnVisionSuggestionsControllerDelegate> _delegate;
-    NSArray *_suggestions;
 }
 
 - (double);
@@ -22,11 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNAutocompleteContactsOnVisionSuggestionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

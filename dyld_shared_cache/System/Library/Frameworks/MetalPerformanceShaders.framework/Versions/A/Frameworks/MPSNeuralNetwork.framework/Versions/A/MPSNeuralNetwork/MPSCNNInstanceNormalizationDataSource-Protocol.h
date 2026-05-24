@@ -7,7 +7,8 @@
 @protocol MPSCNNInstanceNormalizationDataSource
 
 @optional
-- (_Bool)tex2d_AFCL_CHNorm_fw5;
+- (float *);
+- (_Bool)MPSCNNNormalization_tex2d_tex2d_AFCL_CHNorm_fw5;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfFeatureChannels;

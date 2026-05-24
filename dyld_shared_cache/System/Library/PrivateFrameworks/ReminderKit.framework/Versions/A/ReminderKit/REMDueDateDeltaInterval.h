@@ -7,7 +7,6 @@
 @interface REMDueDateDeltaInterval
 {
     long long _unit;
-    long long _count;
 }
 
 + (_Bool);
@@ -21,12 +20,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)ctionDelegate>",R,N,V_delegate;
 - (long long)etedRecurrenceClone:Started advanceForwardRecurrenceAndCreateCompletedCloneWithoutRecurrenceRulesAndSubtasksAfterDate /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) _Bool isEmpty;
 @property(readonly, nonatomic) long long unit; // @synthesize unit=_unit;
 
 @end

@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id)monochromaticVCM.;
 - (long long);
-- (long long)ne;
+- (long long)BIB_Bottom_Baseline;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface TPVoucher
 {
     unsigned long long _reason;
-    NSString *_beneficiaryID;
-    NSString *_sponsorID;
-    NSData *_data;
-    NSData *_sig;
 }
 
 + (id);
@@ -21,28 +15,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (void);
 - (_Bool);
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *beneficiaryID; // @synthesize beneficiaryID=_beneficiaryID;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSData *sig; // @synthesize sig=_sig;
-@property(retain, nonatomic) NSString *sponsorID; // @synthesize sponsorID=_sponsorID;
 
 @end
 

@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTodaySectionConfigWebEmbed
 {
     unsigned long long _preferredSlotAllocation;
-    NSString *_urlString;
-    struct {
-        unsigned int preferredSlotAllocation:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)initWithDetailedSaliencyProducer:(unsigned long long)arg1;
+- (void)importController;
+- (unsigned long long)feedHeroImagePaddingBottom;
+- (_Bool)distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setMaxVitalityDelay: /* Error: Ran out of types for this method. */;
+- (_Bool)sername path;
+- (_Bool)ic}@; unfetched competitor tags=%{public}@;
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id)openChangeGroupDeltasCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPreferredSlotAllocation;
 @property(readonly, nonatomic) _Bool hasUrlString;
-@property(nonatomic) unsigned long long preferredSlotAllocation; // @synthesize preferredSlotAllocation=_preferredSlotAllocation;
-@property(retain, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

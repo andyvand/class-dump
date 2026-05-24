@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDispatchTimer, NSObject, NSString, VGVirtualGarage, geo_isolater;
-@protocol MNVirtualGarageProviderDelegate, OS_dispatch_queue;
+@protocol MNVirtualGarageProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNVirtualGarageStandardProvider
 {
     id <MNVirtualGarageProviderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    MNDispatchTimer *_forceUpdateTimer;
-    double _forcePeriodicUpdateInterval;
-    VGVirtualGarage *_garage;
-    unsigned long long _vehiclesCount;
-    _Bool _assumesFullCharge;
-    geo_isolater *_garageIsolater;
-    _Bool _isStarted;
 }
 
 - (id);
@@ -27,30 +18,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ResolvedSectionStyle;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assumesFullCharge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long vehiclesCount;
 @property(nonatomic) __weak id <MNVirtualGarageProviderDelegate> virtualGarageDelegate; // @synthesize virtualGarageDelegate=_delegate;
 
 @end

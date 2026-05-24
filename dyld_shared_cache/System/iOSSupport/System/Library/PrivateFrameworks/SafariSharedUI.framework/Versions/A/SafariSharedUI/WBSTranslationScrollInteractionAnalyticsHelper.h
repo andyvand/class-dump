@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WBSTranslationScrollInteractionAnalyticsHelper
 {
     struct os_unfair_lock_s _synchronousIvarLock;
-    NSDate *_translationStartTime;
-    double _firstInteractionDelayFromTranslation;
-    _Bool _webViewHasInteraction;
-    double _maxVisibleHeightPercentage;
-    CDUnknownBlockType _submissionHandler;
 }
 
 - (void);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)lectionMethod:collectionOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)safari_saveWebpageCompleteToURL:withCollectionMethod:collectionOptions:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType submissionHandler; // @synthesize submissionHandler=_submissionHandler;

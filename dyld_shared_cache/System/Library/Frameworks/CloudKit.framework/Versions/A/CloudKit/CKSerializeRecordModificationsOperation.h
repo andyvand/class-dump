@@ -6,54 +6,38 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKSerializeRecordModificationsOperationInfo, NSArray, NSData, NSString;
-@protocol CKSerializeRecordModificationsOperationCallbacks;
+@class NSData;
 
 @interface CKSerializeRecordModificationsOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _serializeCompletionBlock;
-    NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
-    NSData *_serializedModifications;
 }
 
 + (SEL);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)SCopying><NSSecureCoding>",R,N;
 - (void);
 - (_Bool);
-- (_Bool)ject;
+- (_Bool)NSObject;
 - (void)ü;
 - (void)pending;
-- (id)ty;
+- (id)fetchPriority;
 - (id)0CKRecordIDCr¦byytÒ¥b_pGytIegnnr_;
 - (void)So10CKRecordIDCÀ­bySo0A0C­b_pGG;
 - (void);
 - (void)zbxuÏÿqzb@QÐÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKSerializeRecordModificationsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKSerializeRecordModificationsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(retain, nonatomic) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
-@property(copy, nonatomic) CDUnknownBlockType serializeCompletionBlock; // @synthesize serializeCompletionBlock=_serializeCompletionBlock;
 @property(copy, nonatomic) NSData *serializedModifications; // @synthesize serializedModifications=_serializedModifications;
-@property(readonly) Class superclass;
 
 @end
 

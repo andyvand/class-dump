@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet, NSUUID, SFDevice, SFSession;
+@class NSSet, NSUUID;
 
 @interface SFMessage
 {
     NSUUID *_identifier;
-    SFDevice *_peerDevice;
-    _Bool _expectsResponse;
-    NSData *_bodyData;
-    CDUnknownBlockType _completionHandler;
-    NSDictionary *_headerFields;
-    SFSession *_session;
-    NSSet *_deviceIDs;
 }
 
 + (_Bool);
@@ -27,12 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
+- (void)*;
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -42,14 +35,7 @@
 - (id)y %@ :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *bodyData; // @synthesize bodyData=_bodyData;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) NSSet *deviceIDs; // @synthesize deviceIDs=_deviceIDs;
-@property(nonatomic) _Bool expectsResponse; // @synthesize expectsResponse=_expectsResponse;
-@property(copy, nonatomic) NSDictionary *headerFields; // @synthesize headerFields=_headerFields;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(retain, nonatomic) SFSession *session; // @synthesize session=_session;
 
 @end
 

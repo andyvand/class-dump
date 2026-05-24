@@ -6,12 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, NSError, NSString;
+@class HAP2PropertyLock, NSError;
 
 @interface HAP2CancelableObject : HAP2LoggingObject
 {
     NSError *_cancelError;
-    HAP2PropertyLock *_propertyLock;
 }
 
 - (void);
@@ -19,18 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)serviceTypeFromUTI: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly) Class superclass;
 
 @end
 

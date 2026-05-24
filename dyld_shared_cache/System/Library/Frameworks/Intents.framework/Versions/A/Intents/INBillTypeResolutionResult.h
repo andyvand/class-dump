@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)dd}}16;
++ (id)userInfo;
 - (void);
-- (id);
+- (id)erate.framework/Versions/A/Accelerate;
 - (id);
 
 @end

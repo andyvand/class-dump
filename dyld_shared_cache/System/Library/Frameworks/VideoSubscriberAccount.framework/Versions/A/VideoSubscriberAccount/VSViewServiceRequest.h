@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VSAccountMetadataRequest, VSOptional;
+@class VSOptional;
 
 __attribute__((visibility("hidden")))
 @interface VSViewServiceRequest
 {
     _Bool _allowsPrivacyUI;
-    _Bool _requiresPrivacyUI;
-    _Bool _canVetoAuthentication;
-    _Bool _shouldInferFeaturedProviders;
-    _Bool _shouldReturnErrorOnTVProviderFeatureUnsupportedByStorefront;
-    VSAccountMetadataRequest *_accountMetadataRequest;
-    VSOptional *_requestingAppDisplayName;
-    NSString *_requestingAppAdamID;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)	?נ;
+- (_Bool)qA;
 - (void);
 - (void);
 - (void);
@@ -32,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -42,34 +35,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)`;
+- (void)_shouldMakePageScrollableAndInteractable;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) VSAccountMetadataRequest *accountMetadataRequest; // @synthesize accountMetadataRequest=_accountMetadataRequest;
-@property(readonly, copy, nonatomic) NSString *accountProviderAuthenticationToken;
-@property(readonly, nonatomic) _Bool allowsAuthenticationUI;
-@property(nonatomic) _Bool allowsPrivacyUI; // @synthesize allowsPrivacyUI=_allowsPrivacyUI;
-@property(readonly, copy, nonatomic) NSArray *applicationAccountProviders;
-@property(nonatomic) _Bool canVetoAuthentication; // @synthesize canVetoAuthentication=_canVetoAuthentication;
-@property(readonly, copy, nonatomic) NSArray *featuredIdentityProviderIdentifiers;
-@property(readonly, copy, nonatomic) NSString *localizedVideoTitle;
-@property(readonly, nonatomic, getter=isPreAuthRequest) _Bool preAuthRequest;
-@property(retain, nonatomic) NSString *requestingAppAdamID; // @synthesize requestingAppAdamID=_requestingAppAdamID;
 @property(retain, nonatomic) VSOptional *requestingAppDisplayName; // @synthesize requestingAppDisplayName=_requestingAppDisplayName;
-@property(nonatomic) _Bool requiresPrivacyUI; // @synthesize requiresPrivacyUI=_requiresPrivacyUI;
-@property(nonatomic) _Bool shouldInferFeaturedProviders; // @synthesize shouldInferFeaturedProviders=_shouldInferFeaturedProviders;
-@property(nonatomic) _Bool shouldReturnErrorOnTVProviderFeatureUnsupportedByStorefront; // @synthesize shouldReturnErrorOnTVProviderFeatureUnsupportedByStorefront=_shouldReturnErrorOnTVProviderFeatureUnsupportedByStorefront;
-@property(readonly, copy, nonatomic) NSArray *supportedAccountProviderAuthenticationSchemes;
-@property(readonly, copy, nonatomic) NSArray *supportedIdentityProviderIdentifiers;
 
 @end
 

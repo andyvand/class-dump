@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SAKCDataExclaveTextLayout
 {
     const struct exclave_textlayout_info *_exclave_textlayout_info;
-    NSArray *_textSegments;
 }
 
 - (void);

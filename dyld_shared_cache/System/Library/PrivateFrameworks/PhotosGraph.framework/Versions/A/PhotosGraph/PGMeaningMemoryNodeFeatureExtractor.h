@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)initWithCapacity: /* Error: Ran out of types for this method. */;
++ (id)N,V_viewServiceHostViewController;
+- (id)applicationQueue;
 - (id);
 
 @end

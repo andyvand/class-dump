@@ -15,11 +15,11 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)operationThrottler:(double)arg1 performAsyncOperationWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)fc_containsObjectPassingTest:(id)arg1;
 - (void);
-- (void);
-- (void)uments: /* Error: Ran out of types for this method. */;
+- (void)v;
+- (void)_computeImageSizeInContext:withArguments: /* Error: Ran out of types for this method. */;
 
 @end
 

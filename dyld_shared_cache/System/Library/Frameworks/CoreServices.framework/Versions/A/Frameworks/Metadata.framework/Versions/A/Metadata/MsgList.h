@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     struct __CFArray *msgs;
 }
 
-- (_Bool);
+- (_Bool)}@;
 - (void);
 - (id);
-- (void);
+- (void)?;
 
 @end
 

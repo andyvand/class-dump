@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBCohortMembership
 {
     double _score;
-    NSString *_tagID;
-    CDStruct_4b1634df _has;
 }
 
 - (void);
@@ -28,13 +24,10 @@
 - (void);
 - (void)notificationItemIDsAtIndex:(id)arg1;
 - (_Bool)sportsTheme;
-- (id)ation_mappings;
+- (id)location_mappings;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
 @property(readonly, nonatomic) _Bool hasTagID;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
 
 @end
 

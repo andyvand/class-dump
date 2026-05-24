@@ -4,16 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController, _UIPresentationControllerVisualStyle, _UISheetPresentationMetrics;
-@protocol _UISearchPresentationControllerVisualStyling, _UISheetPresentationControllerVisualStyling;
+@class UIPopoverPresentationController, UIPresentationController, _UIPresentationControllerVisualStyle, _UISheetPresentationMetrics;
+@protocol _UIPopoverPresentationControllerVisualStyling, _UISearchPresentationControllerVisualStyling, _UISheetPresentationControllerVisualStyling;
 
 @protocol _UIPresentationControllerVisualStyleProviding
-- (_UIPresentationControllerVisualStyle *)esolvedSourceBounds;
-- (_UIPresentationControllerVisualStyle *)hPreview:(UIPresentationController *)arg1 forSegment:selected: /* Error: Ran out of types for this method. */;
-- (_UIPresentationControllerVisualStyle<_UISearchPresentationControllerVisualStyling> *)ectionsFromAvailableSpace;
+- (_UIPresentationControllerVisualStyle<_UIPopoverPresentationControllerVisualStyling> *)containsString:(UIPopoverPresentationController *)arg1;
+- (_UIPresentationControllerVisualStyle *)resolvedSourceBounds;
+- (_UIPresentationControllerVisualStyle *)_pointerEffectWithPreview:(UIPresentationController *)arg1 forSegment:selected: /* Error: Ran out of types for this method. */;
+- (_UIPresentationControllerVisualStyle<_UISearchPresentationControllerVisualStyling> *)_derivesAutomaticArrowDirectionsFromAvailableSpace;
 - (_UIPresentationControllerVisualStyle<_UISheetPresentationControllerVisualStyling> *)D;
 
 @optional
+- (Class)ueue>"24@0:(long long)arg1 8Q16;
 - (long long);
 - (UIPresentationController *)× ;
 - (long long)amentDelegate>",W,N,V__ornamentDelegate;

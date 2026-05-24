@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, RPCompanionLinkDevice;
+@class HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface RapportOverBLEDeviceContext
 {
     HMFTimer *_idleTimer;
-    RPCompanionLinkDevice *_device;
 }
 
 - (void);
 - (id);
 - (id);
-- (void)ble;
+- (void)Enable;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak RPCompanionLinkDevice *device; // @synthesize device=_device;
 @property(copy, nonatomic) HMFTimer *idleTimer; // @synthesize idleTimer=_idleTimer;
 
 @end

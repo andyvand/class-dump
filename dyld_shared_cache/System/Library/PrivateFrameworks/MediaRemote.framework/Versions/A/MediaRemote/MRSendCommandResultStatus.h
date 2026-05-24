@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRSendCommandHandlerDialog, NSData, NSError, NSString, _MRSendCommandResultStatusProtobuf;
+@class _MRSendCommandResultStatusProtobuf;
 
 @interface MRSendCommandResultStatus
 {
     unsigned int _statusCode;
-    long long _statusType;
-    MRSendCommandHandlerDialog *_dialog;
-    NSError *_commandError;
-    NSData *_customData;
-    NSString *_customDataType;
 }
 
 + (id);
@@ -36,13 +31,7 @@
 - (unsigned int)0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *commandError; // @synthesize commandError=_commandError;
-@property(readonly, copy, nonatomic) NSData *customData; // @synthesize customData=_customData;
-@property(readonly, copy, nonatomic) NSString *customDataType; // @synthesize customDataType=_customDataType;
-@property(readonly, nonatomic) MRSendCommandHandlerDialog *dialog; // @synthesize dialog=_dialog;
 @property(readonly, copy, nonatomic) _MRSendCommandResultStatusProtobuf *protobuf;
-@property(readonly, nonatomic) unsigned int statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly, nonatomic) long long statusType; // @synthesize statusType=_statusType;
 
 @end
 

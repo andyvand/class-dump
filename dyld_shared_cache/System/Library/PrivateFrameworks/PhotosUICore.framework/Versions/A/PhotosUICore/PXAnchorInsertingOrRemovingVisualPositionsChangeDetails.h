@@ -9,7 +9,6 @@
 @interface PXAnchorInsertingOrRemovingVisualPositionsChangeDetails : PXVisualPositionsChangeDetails
 {
     _Bool _anchorInserted;
-    long long _anchorRelativePosition;
 }
 
 - (id);

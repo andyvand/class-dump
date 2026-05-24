@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VSFileReadOperation : VSAsyncOperation
 {
     NSURL *_source;
-    VSOptional *_result;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
-@property(copy, nonatomic) NSURL *source; // @synthesize source=_source;
 
 @end
 

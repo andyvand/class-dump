@@ -6,23 +6,17 @@
 
 #import <UIKitCore/UIButtonConfigurationVisualProvider.h>
 
-@class NSMutableDictionary, UIView;
-@protocol _UIButtonConfigurationShim;
-
 __attribute__((visibility("hidden")))
 @interface _UIAnimatedImageTransitionButtonConfigurationVisualProvider : UIButtonConfigurationVisualProvider
 {
     _Bool _inViewHierarchy;
-    id <_UIButtonConfigurationShim> _fromConfiguration;
-    UIView *_contentAnimationContainerView;
-    NSMutableDictionary *_imageViewsByConfiguration;
 }
 
-- (id);
+- (id)ailed to cancel task request;
 - (_Bool)!
 °!@ùf°1Â0@ù
 × ;
-- (id)tentScrollView;
+- (id)UIViewControllerContainersShouldForwardContentScrollView;
 - (void)ÿÿÿÿÿÿï;á;BBñï¿^-³®?;
 - (id);
 - (void)àÊ^;

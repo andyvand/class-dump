@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIMaterial
 {
     _Bool _vibrant;
-    NSArray *_backgroundEffects;
-    NSArray *_contentEffects;
 }
 
 + (id);
-+ (id);
++ (id)RadioIdentifiers>">16;
 + (id);
 + (id);
 + (id)Á!ìFù±dÐ1Â0@ù
 × ;
-+ (id)redMenuElementOrder;
-+ (id)implifiedDisplayString;
++ (id)_preferredMenuElementOrder;
++ (id)_lp_simplifiedDisplayString;
 + (id)iewDefaultButtonConfiguration;
 + (id)Core/UITextFormattingViewController+FormattingStyle.swift;
 - (id);
 - (id);
-- (id);
+- (id)_setPriorityForPlaybackSessionCommand;
 - (id)Ð1Â0@ù
 × ;
-- (_Bool)gerProportions;
-- (id)lProvider;
+- (_Bool)triggerProportions;
+- (id)implProvider;
 - (id)e=dd}},R,N,V_inputAssistantViewBounds;
 - (id);
 - (id)ÜÁ¨ÂÃÃ\Ä;
-- (void)imationState;
+- (void)CompoundSpringAnimationState;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;
-@property(readonly, nonatomic) NSArray *contentEffects; // @synthesize contentEffects=_contentEffects;
 @property(readonly, nonatomic, getter=isVibrant) _Bool vibrant; // @synthesize vibrant=_vibrant;
 
 @end

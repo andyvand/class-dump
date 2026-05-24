@@ -12,7 +12,7 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint fixedAnchorPoint; // @synthesize fixedAnchorPoint=_fixedAnchorPoint;

@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FMSystemVersionNumber
 {
     long long _baseNumber;
-    NSString *_baseLetter;
-    long long _buildNumber;
-    NSString *_suffix;
 }
 
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)_voucher;
+- (void)_vasTransactionInProgress;
+- (long long)_startHostCardEmulation: /* Error: Ran out of types for this method. */;
+- (id)_startFieldDetectSession:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (void);
+- (id);
+- (long long)A;
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *baseLetter; // @synthesize baseLetter=_baseLetter;
 @property(nonatomic) long long baseNumber; // @synthesize baseNumber=_baseNumber;
-@property(nonatomic) long long buildNumber; // @synthesize buildNumber=_buildNumber;
-@property(copy, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end
 

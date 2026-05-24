@@ -7,29 +7,28 @@
 @interface TeaUI.MultiCollectionViewDelegate
 {
     id respondsToSelectorCache;
-    id delegates;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)appAssetPromiseWithError:(id)arg1;
+- (void);
+- (_Bool)@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64@?72;
+- (void)interfaceWithProtocol:(id)arg1;
+- (void);
+- (void)erged-1.sucatalog.gz;
+- (_Bool);
+- (id)6Q24;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)isPublic;
+- (id)blockedStorefrontIDsCount;
+- (void)rdance;
 - (_Bool);
 - (void);
 - (void);
@@ -37,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);

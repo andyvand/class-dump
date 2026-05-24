@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface PPAttendee
 {
     NSArray *_backingPlists;
-    unsigned long long _indexInBackingPlists;
 }
 
-+ (_Bool);
++ (_Bool)$;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_shouldClearOriginalBackFramebuffer;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
-- (id);
+- (id)jJ;
 - (id);
 - (unsigned char);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *emailAddress;
-@property(readonly, nonatomic) _Bool isCurrentUser;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned char status;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

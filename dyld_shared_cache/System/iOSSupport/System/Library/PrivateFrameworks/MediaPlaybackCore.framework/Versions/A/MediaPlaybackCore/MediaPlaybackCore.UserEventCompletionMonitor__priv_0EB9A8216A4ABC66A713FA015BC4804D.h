@@ -7,12 +7,6 @@
 @interface MediaPlaybackCore.UserEventCompletionMonitor__priv_0EB9A8216A4ABC66A713FA015BC4804D
 {
     id delegate;
-    id monitoredUserEvent;
-    id monitoredUserEventOverride;
-    id timeout;
-    id timer;
-    id reporter;
-    id itemErrors;
 }
 
 @end

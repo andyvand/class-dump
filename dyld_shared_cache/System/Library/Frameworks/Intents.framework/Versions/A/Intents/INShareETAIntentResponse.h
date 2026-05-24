@@ -6,18 +6,16 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INShareETAIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
++ (int)removeSpacesFromString:(long long)arg1;
++ (long long)preFPFSDownloadThumbnailAtTaggedURL:(int)arg1 completionHandler:(int)arg2;
++ (_Bool)noteThumbnailGenerationQueuedExternallyForDocumentAtURL:(long long)arg1;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void)TS;
 - (void);
 - (id);
 - (long long);
@@ -25,26 +23,17 @@
 - (long long);
 - (unsigned long long);
 - (id);
+- (id)setEventHandler:(id)arg1;
 - (id);
+- (void)fi-PH] %{public}s (%{public}s:(id)arg1 %u) (Request %@) Companion link is invalid; error '%@';
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (long long)nPrefixWithString:options: /* Error: Ran out of types for this method. */;
+- (long long)commonPrefixWithString:options: /* Error: Ran out of types for this method. */;
 - (id);?;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long mediums;
-@property(copy) NSArray *recipients;
-@property(readonly) Class superclass;
 
 @end
 

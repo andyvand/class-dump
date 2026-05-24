@@ -6,33 +6,18 @@
 
 #import <SearchFoundation/SFCollectionStyle.h>
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFCollectionStyleGrid : SFCollectionStyle
 {
     struct {
         unsigned int numberOfColumns:1;
         unsigned int gridStyle:1;
     } _has;
-    int _gridStyle;
-    unsigned long long _numberOfColumns;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int gridStyle; // @synthesize gridStyle=_gridStyle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long initiallyVisibleCardSectionCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly) Class superclass;
 
 @end
 

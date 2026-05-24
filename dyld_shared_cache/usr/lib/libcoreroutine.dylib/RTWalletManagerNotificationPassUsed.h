@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RTWalletManagerNotificationPassUsed : RTNotification
 {
     NSString *_passTypeIdentifier;
-    long long _source;
-    NSArray *_storeIDs;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
-@property(readonly, copy, nonatomic) NSArray *storeIDs; // @synthesize storeIDs=_storeIDs;
 
 @end
 

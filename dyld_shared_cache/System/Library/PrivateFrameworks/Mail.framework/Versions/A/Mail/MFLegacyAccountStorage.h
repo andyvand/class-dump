@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUserDefaults;
+@class NSDictionary;
 
 @interface MFLegacyAccountStorage
 {
     NSDictionary *_accountsPlistContents;
-    NSUserDefaults *_mailUserDefaults;
 }
 
 + (id);
 + (id);
 + (id) :#yI#,).,)Gyc /* Error: Ran out of types for this method. */;
-- (void);
+- (void)@qa;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)h;
+- (id)setSummaryControllerFuture:(id)arg1;
 - (id);
 - (id)È	H (AàA4BB;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *accountsPlistContents; // @synthesize accountsPlistContents=_accountsPlistContents;
-@property(readonly, nonatomic) NSUserDefaults *mailUserDefaults; // @synthesize mailUserDefaults=_mailUserDefaults;
 
 @end
 

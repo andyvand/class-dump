@@ -6,17 +6,11 @@
 
 #import <PhotosUICore/PXCollectionsDataSection.h>
 
-@class NSString;
 @protocol PXDisplayCollection;
 
 @interface _PXSingleCollectionDataSection : PXCollectionsDataSection
 {
     unsigned long long _enumerationMutations;
-    id <PXDisplayCollection> _collectionArray[1];
-    long long _count;
-    id <PXDisplayCollection> _displayCollection;
-    unsigned long long _lockState;
-    NSString *_accessoryTitle;
 }
 
 - (unsigned long long);
@@ -32,9 +26,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessoryTitle; // @synthesize accessoryTitle=_accessoryTitle;
 @property(readonly, nonatomic) id <PXDisplayCollection> displayCollection; // @synthesize displayCollection=_displayCollection;
-@property(readonly, nonatomic) unsigned long long lockState; // @synthesize lockState=_lockState;
 
 @end
 

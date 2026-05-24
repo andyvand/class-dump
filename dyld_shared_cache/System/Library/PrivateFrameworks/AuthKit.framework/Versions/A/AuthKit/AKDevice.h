@@ -4,47 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSLocale, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface AKDevice
 {
     struct os_unfair_lock_s _unfairLock;
-    _Bool _shouldUpdateUniqueDeviceIdentifier;
-    _Bool _shouldUpdateServerFriendlyDescription;
-    _Bool _shouldUpdateColor;
-    _Bool _shouldUpdateEnclosureColor;
-    _Bool _shouldUpdateCoverGlassColor;
-    _Bool _shouldUpdateHousingColor;
-    _Bool _shouldUpdateBackingColor;
-    _Bool _shouldUpdateLocale;
-    _Bool _shouldUpdateROMAddress;
-    _Bool _shouldUpdateMLBSerialNumber;
-    _Bool _shouldUpdateModelNumber;
-    _Bool _shouldUpdateProvisioningDeviceIdentifier;
-    NSData *_sfrManifest;
-    _Bool _isInRestrictedSharingMode;
-    NSString *_uniqueDeviceIdentifier;
-    NSString *_serverFriendlyDescription;
-    NSString *_color;
-    NSString *_enclosureColor;
-    NSNumber *_coverGlassColor;
-    NSNumber *_housingColor;
-    NSNumber *_backingColor;
-    NSLocale *_locale;
-    NSString *_ROMAddress;
-    NSString *_MLBSerialNumber;
-    NSString *_modelNumber;
-    NSString *_provisioningDeviceIdentifier;
-    unsigned long long _linkType;
-    NSString *_effectiveUserIdentifier;
 }
 
 + (_Bool);
 + (long long);
 + (id);
++ (id)l~;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (long long);
 + (id);
 + (id);
@@ -56,18 +28,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)s;
 + (_Bool);
 + (id);
 + (id);
 + (long long);
-+ (id)rentLocale;
++ (id)autoupdatingCurrentLocale;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (_Bool);
 - (id);
@@ -78,7 +50,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id);
@@ -93,7 +65,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)H ;
 - (id);
 - (void);
 - (_Bool);
@@ -104,7 +76,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (void);
 - (void);
 - (void);
@@ -113,16 +85,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)3;
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)setProviderIdentifier: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (void);
@@ -143,50 +115,7 @@ y2µvá÷'§ê~çqf{-Í¿ ¬6^Å»Ü³Ó|±©<°;¹!´8N
 - (id)ÁÜ{wØ"Å;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MLBSerialNumber; // @synthesize MLBSerialNumber=_MLBSerialNumber;
-@property(copy, nonatomic) NSString *ROMAddress; // @synthesize ROMAddress=_ROMAddress;
-@property(copy, nonatomic) NSNumber *backingColor; // @synthesize backingColor=_backingColor;
-@property(readonly, nonatomic) long long biometryType;
-@property(readonly, nonatomic) NSUUID *bootSessionUUID;
-@property(copy, nonatomic) NSString *color; // @synthesize color=_color;
-@property(copy, nonatomic) NSNumber *coverGlassColor; // @synthesize coverGlassColor=_coverGlassColor;
-@property(copy, nonatomic) NSString *effectiveUserIdentifier; // @synthesize effectiveUserIdentifier=_effectiveUserIdentifier;
-@property(copy, nonatomic) NSString *enclosureColor; // @synthesize enclosureColor=_enclosureColor;
-@property(copy, nonatomic) NSNumber *housingColor; // @synthesize housingColor=_housingColor;
-@property(readonly, nonatomic) NSString *integratedCircuitCardIdentifier;
-@property(readonly, nonatomic) NSString *internationalMobileEquipmentIdentity;
-@property(readonly, nonatomic) NSString *internationalMobileEquipmentIdentity2;
-@property(readonly, nonatomic) _Bool isBiometricAuthCapable;
-@property(readonly, nonatomic) _Bool isBiometricIDCapable;
-@property(readonly, nonatomic) _Bool isFaceIDCapable;
-@property(readonly, nonatomic) _Bool isInCircle;
-@property(readonly, nonatomic) _Bool isInRecoveryPartition;
-@property(readonly, nonatomic) _Bool isInRestrictedSharingMode; // @synthesize isInRestrictedSharingMode=_isInRestrictedSharingMode;
-@property(readonly, nonatomic) _Bool isInternalBuild;
-@property(readonly, nonatomic) _Bool isMultiUserMode;
-@property(readonly, nonatomic) _Bool isProtectedWithPasscode;
-@property(readonly, nonatomic) _Bool isSeedBuild;
-@property(readonly, nonatomic) _Bool isStrongDeviceIdentitySupported;
-@property(readonly, nonatomic) _Bool isUnlocked;
-@property(readonly, nonatomic) _Bool isVirtualMachine;
-@property(nonatomic, setter=setLinkType:) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, copy, nonatomic) NSString *localDeviceUserId;
-@property(readonly, nonatomic) NSString *localUserUUID;
-@property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *mobileEquipmentIdentifier;
-@property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(readonly, nonatomic) NSString *phoneNumber;
-@property(copy, nonatomic) NSString *provisioningDeviceIdentifier; // @synthesize provisioningDeviceIdentifier=_provisioningDeviceIdentifier;
-@property(readonly, copy, nonatomic) NSString *secureDeviceId;
 @property(readonly, nonatomic) NSString *serialNumber;
-@property(readonly, nonatomic) NSData *serializedData;
-@property(copy, nonatomic) NSString *serverFriendlyDescription; // @synthesize serverFriendlyDescription=_serverFriendlyDescription;
-@property(readonly, nonatomic) NSData *sfrManifest;
-@property(readonly, copy, nonatomic) NSString *stableId;
-@property(copy, nonatomic) NSString *uniqueDeviceIdentifier; // @synthesize uniqueDeviceIdentifier=_uniqueDeviceIdentifier;
-@property(readonly, nonatomic) NSString *userChosenName;
-@property(readonly, nonatomic) NSString *userFullName;
-@property(readonly, nonatomic) _Bool usesTouchID;
 
 @end
 

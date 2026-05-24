@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPURLSessionTask, NSString;
+@class HLPURLSessionTask;
 
 @interface HLPURLSessionItem
 {
     _Bool _cancelled;
     HLPURLSessionTask *_sessionTask;
-    CDUnknownBlockType _completionHanlder;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -29,16 +28,7 @@
 
 // Remaining properties
 @property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, nonatomic) CDUnknownBlockType completionHanlder; // @synthesize completionHanlder=_completionHanlder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HLPURLSessionTask *sessionTask; // @synthesize sessionTask=_sessionTask;
 @property(readonly, nonatomic) long long state; // @dynamic state;
-@property(readonly) Class superclass;
 
 @end
 

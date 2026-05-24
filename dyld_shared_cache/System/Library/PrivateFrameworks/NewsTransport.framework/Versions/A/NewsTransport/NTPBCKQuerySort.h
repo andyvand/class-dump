@@ -9,32 +9,27 @@
 @interface NTPBCKQuerySort
 {
     NTPBCKRecordFieldIdentifier *_fieldName;
-    int _order;
-    CDStruct_6432192c _has;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)cF;
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (void);
 - (id);
 - (id);
 - (int);
-- (void);
-- (_Bool);
-- (void)FeedClickValueBaseline;
-- (id)TPBOptInButtonExposure;
-- (void)adata;
+- (void)isEligibleElement;
+- (_Bool)eyboard.key.fallback;
+- (void)hasRecommendationPresentationFeedClickValueBaseline;
+- (id)NTPBOptInButtonExposure;
+- (void)thumbnail_widget_metadata;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBCKRecordFieldIdentifier *fieldName; // @synthesize fieldName=_fieldName;
 @property(readonly, nonatomic) _Bool hasFieldName;
-@property(nonatomic) _Bool hasOrder;
-@property(nonatomic) int order; // @synthesize order=_order;
 
 @end
 

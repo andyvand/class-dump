@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)tory.aLAJrA/Sources/Persistence/NSCKEvent.m;
-- (id);
+- (id)Zh;
 
 @end
 

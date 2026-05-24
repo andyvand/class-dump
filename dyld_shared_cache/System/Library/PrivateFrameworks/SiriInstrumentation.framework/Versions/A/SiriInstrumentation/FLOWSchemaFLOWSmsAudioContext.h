@@ -6,19 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWSmsAudioContext : SISchemaInstrumentationMessage
 {
     unsigned int _messageDurationMs;
-    struct {
-        unsigned int messageDurationMs:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)?;
 - (_Bool);
 - (void);
 - (id);
@@ -32,8 +27,6 @@
 - (id)(ô öL÷Ð÷ú;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMessageDurationMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int messageDurationMs; // @synthesize messageDurationMs=_messageDurationMs;
 
 @end

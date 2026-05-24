@@ -7,18 +7,16 @@
 @interface TodayCirclePulseBackground
 {
     _Bool _usesRoundedRectInsteadOfCircle;
-    double _roundedRectCornerRadius;
 }
 
-- (_Bool);
+- (_Bool)&s;
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)on";
 - (id);
 
 // Remaining properties
-@property(nonatomic) double roundedRectCornerRadius; // @synthesize roundedRectCornerRadius=_roundedRectCornerRadius;
 @property(nonatomic) _Bool usesRoundedRectInsteadOfCircle; // @synthesize usesRoundedRectInsteadOfCircle=_usesRoundedRectInsteadOfCircle;
 
 @end

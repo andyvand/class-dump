@@ -4,50 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonPresentationProperties, NSAttributedString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface LPConcretePresentationPropertiesParameters
 {
     _Bool _usesComputedPresentationProperties;
-    _Bool _inComposeContext;
-    _Bool _inSenderContext;
-    _Bool _allowsTapping;
-    unsigned long long _effectiveSizeClass;
-    UIColor *_overrideSubtitleButtonColor;
-    UIColor *_overrideActionButtonColor;
-    NSAttributedString *_overrideSubtitle;
-    LPCaptionButtonPresentationProperties *_captionButton;
-    LPCaptionButtonPresentationProperties *_captionTextButton;
-    LPCaptionButtonPresentationProperties *_secondaryCaptionButton;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)tapbackView;
+- (id)supportsRasterizationRateMapWithLayerCount: /* Error: Ran out of types for this method. */;
+- (id)supplementaryViewForElementKind:atIndexPath: /* Error: Ran out of types for this method. */;
+- (id)supplementaryKindToChatItemMap;
+- (id)subitems;
+- (_Bool)stickerRepositionedForAssociatedChatItem: /* Error: Ran out of types for this method. */;
+- (unsigned long long)statusCommSafetySensitiveReceiveMultiButtonTranscriptText;
+- (id)startDownloadingTranslationAssetsForLanguageCodes:completion: /* Error: Ran out of types for this method. */;
+- (id)startDeferredEditingPayload:forConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)spotlightSearchBarBackgroundColor;
+- (_Bool)nContextForScenes: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsTapping; // @synthesize allowsTapping=_allowsTapping;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *captionButton; // @synthesize captionButton=_captionButton;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *captionTextButton; // @synthesize captionTextButton=_captionTextButton;
-@property(readonly, nonatomic) unsigned long long effectiveSizeClass; // @synthesize effectiveSizeClass=_effectiveSizeClass;
-@property(readonly, nonatomic) _Bool inComposeContext; // @synthesize inComposeContext=_inComposeContext;
-@property(readonly, nonatomic) _Bool inSenderContext; // @synthesize inSenderContext=_inSenderContext;
-@property(readonly, nonatomic) UIColor *overrideActionButtonColor; // @synthesize overrideActionButtonColor=_overrideActionButtonColor;
-@property(readonly, nonatomic) NSAttributedString *overrideSubtitle; // @synthesize overrideSubtitle=_overrideSubtitle;
-@property(readonly, nonatomic) UIColor *overrideSubtitleButtonColor; // @synthesize overrideSubtitleButtonColor=_overrideSubtitleButtonColor;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *secondaryCaptionButton; // @synthesize secondaryCaptionButton=_secondaryCaptionButton;
 @property(readonly, nonatomic) _Bool usesComputedPresentationProperties; // @synthesize usesComputedPresentationProperties=_usesComputedPresentationProperties;
 
 @end

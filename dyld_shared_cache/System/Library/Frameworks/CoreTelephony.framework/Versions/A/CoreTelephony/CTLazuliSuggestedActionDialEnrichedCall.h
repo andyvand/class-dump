@@ -9,11 +9,9 @@
 @interface CTLazuliSuggestedActionDialEnrichedCall
 {
     NSString *_phoneNumber;
-    NSString *_fallbackUrl;
-    NSString *_subject;
 }
 
-+ (_Bool);
++ (_Bool)timeWeightedPeakBitrate;
 - (_Bool);
 - (id);
 - (id);
@@ -23,7 +21,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)addVerifierWithIdentifier:(id)arg1 data:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)1Â0@ù
@@ -31,9 +29,7 @@
 - (id)en %u > remaining %u;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fallbackUrl; // @synthesize fallbackUrl=_fallbackUrl;
 @property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) NSString *subject; // @synthesize subject=_subject;
 
 @end
 

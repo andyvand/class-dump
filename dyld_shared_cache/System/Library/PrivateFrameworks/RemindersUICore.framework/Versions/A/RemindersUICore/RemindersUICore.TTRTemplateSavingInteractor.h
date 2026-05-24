@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRTemplateSavingInteractor
 {
     id delegate;
-    id sourceList;
-    id templateConfiguration;
-    id templateName;
-    id undoManager;
-    id undoObservationToken;
-    id initialConfiguration;
-    id completedReminderCountState;
 }
 
 @end

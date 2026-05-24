@@ -10,24 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _UIWTCUndoRoller
 {
     NSMutableAttributedString *_rolledReplacement;
-    unsigned long long _offset;
-    _Bool _hasFouled;
-    NSAttributedString *_evaluatedText;
 }
 
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
 - (void)0@ù
 × ;
-- (void)onStateCIeyByy_;
+- (void)So023UITableViewHeaderFooterB0CSo24UIViewConfigurationStateCIeyByy_;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *evaluatedText; // @synthesize evaluatedText=_evaluatedText;
-@property(readonly, nonatomic) _Bool hasFouled; // @synthesize hasFouled=_hasFouled;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) NSAttributedString *rolledReplacement;
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithDevice:(id)arg1 descriptor:placementSparseBytes:placementSparsePageSize:placementSparseMetaDataBytes:placementSparseResidencyBytes:args:argsSize:] /* Error: Ran out of types for this method. */;
 - (void)g",R,N,VmName;
 
 @end

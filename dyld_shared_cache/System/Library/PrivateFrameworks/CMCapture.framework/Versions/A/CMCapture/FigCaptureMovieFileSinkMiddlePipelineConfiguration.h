@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPipelineStage, FigCaptureMovieFileSinkPipelineConfiguration;
+@class FigCaptureMovieFileSinkPipelineConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkMiddlePipelineConfiguration
 {
     FigCaptureMovieFileSinkPipelineConfiguration *_movieFileSinkPipelineConfiguration;
-    BWPipelineStage *_movieFilePipelineStage;
 }
 
-- (void);
+- (void)idden;
 - (void);
 - (id);
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)sbp_MotionAttachments ___|;
 
 // Remaining properties
-@property(retain, nonatomic) BWPipelineStage *movieFilePipelineStage; // @synthesize movieFilePipelineStage=_movieFilePipelineStage;
 @property(retain, nonatomic) FigCaptureMovieFileSinkPipelineConfiguration *movieFileSinkPipelineConfiguration; // @synthesize movieFileSinkPipelineConfiguration=_movieFileSinkPipelineConfiguration;
 
 @end

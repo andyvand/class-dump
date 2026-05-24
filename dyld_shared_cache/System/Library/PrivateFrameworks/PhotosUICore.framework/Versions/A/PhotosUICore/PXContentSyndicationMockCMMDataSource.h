@@ -23,9 +23,9 @@
 - (id);
 - (long long);
 - (id);
-- (long long)imit;
+- (long long)peopleFetchLimit;
 - (long long)Ô©«ð«8¬(´µ¼¶;
-- (long long)osCollectionTitleModelProviding;
+- (long long)PhotosCollectionTitleModelProviding;
 - (void);
 
 // Remaining properties

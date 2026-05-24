@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBSpotlightEmbeddingState
 {
     int _embeddedPhotosAssetsCount;
-    int _totalPhotosAssetsCount;
-    int _embeddedPhotosAssetsPercentage;
 }
 
 - (int);
@@ -21,26 +17,19 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setCharacterRecognitionData:(id)arg1 machineReadableCodeData:algorithmVersion:adjustmentVersion: /* Error: Ran out of types for this method. */;
+- (id)alid config:%{public}@, library:%{public}@ %@
+	error:%@
+	psc error:%@
+	self:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int embeddedPhotosAssetsCount; // @synthesize embeddedPhotosAssetsCount=_embeddedPhotosAssetsCount;
-@property(nonatomic) int embeddedPhotosAssetsPercentage; // @synthesize embeddedPhotosAssetsPercentage=_embeddedPhotosAssetsPercentage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalPhotosAssetsCount; // @synthesize totalPhotosAssetsCount=_totalPhotosAssetsCount;
 
 @end
 

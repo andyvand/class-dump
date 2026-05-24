@@ -6,7 +6,7 @@
 
 #import <FrontBoardServices/FBSSceneUpdate.h>
 
-@class FBSSceneTransitionContext, FBSSettings, FBSSettingsDiff;
+@class FBSSettings;
 @protocol FBSMutableSettings;
 
 @interface FBSMutableSceneUpdate : FBSSceneUpdate
@@ -16,13 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)TKSmartCardATR;
 
 // Remaining properties
-@property(copy, nonatomic) FBSSettings<FBSMutableSettings> *previousSettings; // @dynamic previousSettings;
 @property(copy, nonatomic) FBSSettings<FBSMutableSettings> *settings; // @dynamic settings;
-@property(copy, nonatomic) FBSSettingsDiff *settingsDiff; // @dynamic settingsDiff;
-@property(copy, nonatomic) FBSSceneTransitionContext *transitionContext; // @dynamic transitionContext;
 
 @end
 

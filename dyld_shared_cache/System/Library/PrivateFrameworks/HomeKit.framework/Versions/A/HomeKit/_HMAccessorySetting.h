@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettings, NSArray, NSMutableOrderedSet, NSObject, NSString, NSUUID, _HMContext;
-@protocol NSCopying><NSSecureCoding, OS_dispatch_queue, _HMAccessorySettingDelegate;
+@class HMAccessorySettings;
 
 @interface _HMAccessorySetting
 {
     struct os_unfair_lock_s _lock;
-    NSMutableOrderedSet *_constraints;
-    _Bool _reflected;
-    id <NSCopying><NSSecureCoding> _value;
-    id <_HMAccessorySettingDelegate> _delegate;
-    NSUUID *_identifier;
-    long long _type;
-    unsigned long long _properties;
-    NSString *_name;
-    HMAccessorySettings *_accessorySettings;
-    _HMContext *_context;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -48,9 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ndidate %@ from initial suggestions because it was already used today.;
+- (void)invalidState;
+- (void)oveUntrackedPersonMetadataInStore:(id)arg1 ];
 - (unsigned long long);
 - (void);
 - (id);
@@ -64,42 +53,21 @@
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ashbin;
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)N3fst10MemoryPoolINS_13PoolAllocatorINS_10ReverseArcINS_6ArcTplINS_17TropicalWeightTplIfEEEEEEE2TNILi32EEEEE;
 - (id);
 - (id);
-- (id);
-- (_Bool)lFiles:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)ekDaySchedulesPerUserCapacity;
+- (_Bool)clearMobileAssetsLocalInfoAndPurgeLocalFiles:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)weekDaySchedulesPerUserCapacity;
 - (void),N,V_manufacturer;
 - (id)eLoggedInAccount:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessorySettings *accessorySettings; // @synthesize accessorySettings=_accessorySettings;
-@property(readonly, copy) NSArray *constraints;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMAccessorySettingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) unsigned long long properties; // @synthesize properties=_properties;
-@property(readonly, getter=isReflected) _Bool reflected; // @synthesize reflected=_reflected;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(copy) id <NSCopying><NSSecureCoding> value; // @synthesize value=_value;
 
 @end
 

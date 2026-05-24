@@ -9,9 +9,6 @@
 @interface SiriUIObjectPickerButtonView
 {
     SiriUIKeyline *_topKeyline;
-    SiriUIKeyline *_bottomKeyline;
-    _Bool _showsTopKeyline;
-    NSButton *_button;
 }
 
 + (double);
@@ -21,11 +18,10 @@
 - (void);
 - (void)
 × ;
-- (id)gingSessionWithItems:event:source: /* Error: Ran out of types for this method. */;
+- (id)beginDraggingSessionWithItems:event:source: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSButton *button; // @synthesize button=_button;
-@property(nonatomic) _Bool showsTopKeyline; // @synthesize showsTopKeyline=_showsTopKeyline;
 
 @end
 

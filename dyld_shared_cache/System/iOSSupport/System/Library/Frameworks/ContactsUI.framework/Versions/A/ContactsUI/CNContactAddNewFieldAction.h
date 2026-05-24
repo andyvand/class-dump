@@ -7,16 +7,14 @@
 #import <ContactsUI/CNContactAction.h>
 
 @class NSArray;
-@protocol CNContactGroupPickerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddNewFieldAction : CNContactAction
 {
     NSArray *_prohibitedPropertyKeys;
-    id <CNContactGroupPickerDelegate> _groupPickerDelegate;
 }
 
-- (void);
+- (void)B1;
 - (id);
 - (void);
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)NCardGroup",&,N,V_cardForgetSharingPairedContactGroup;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNContactGroupPickerDelegate> groupPickerDelegate; // @synthesize groupPickerDelegate=_groupPickerDelegate;
 @property(retain, nonatomic) NSArray *prohibitedPropertyKeys; // @synthesize prohibitedPropertyKeys=_prohibitedPropertyKeys;
 
 @end

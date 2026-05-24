@@ -7,10 +7,6 @@
 @interface PhotosGraph.PublicEventGeoQuery
 {
     id $defaultActor;
-    id radius;
-    id timeAndLocations;
-    id geoQueue;
-    id nextStartIndex;
 }
 
 @end

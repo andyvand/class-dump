@@ -6,58 +6,35 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, NSArray, NSMutableDictionary, NSString, UIImage, UIKBRenderConfig, _UIInputViewContent;
+@class UIImage;
 
 @interface UIInputView : UIView
 {
     long long _style;
-    UIKBRenderConfig *_renderConfig;
-    _Bool _suppressBackgroundStyling;
-    _Bool _disableSplitSupport;
-    _UIInputViewContent *_leftContentView;
-    _UIInputViewContent *_rightContentView;
-    double _contentRatio;
-    struct CGSize _leftContentSize;
-    struct CGSize _rightContentSize;
-    double _gapWidth;
-    double _leftOffset;
-    _Bool _isTransitioning;
-    double _transitionGap;
-    double _transitionLeftOffset;
-    double _transitionRatio;
-    UIImage *_mergedImage;
-    UIImage *_splitImage;
-    NSMutableDictionary *_mergedSliceMap;
-    NSMutableDictionary *_splitSliceMap;
-    NSArray *_visibleLayers;
-    CALayer *_transitionLayer;
-    _Bool _allowsSelfSizing;
-    _Bool _assertSizingWithPredictionBar;
-    struct UIEdgeInsets _backgroundEdgeInsets;
 }
 
-+ (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
++ (void)#;
+- (void)isting:(id)arg1 %f vs requested:%f /* Error: Ran out of types for this method. */;
+- (void)s for Chat %s changed. Added:(id)arg1 %s Removed:%s. Updating scheduled messages accordingly /* Error: Ran out of types for this method. */;
+- (void)cipants are empty;
+- (void)okens for handle handleID:(struct CGSize)arg1 %@ Error:%@ /* Error: Ran out of types for this method. */;
+- (void)d urgent messages in the last %ld minutes.;
+- (void)et chat guid from local chat %@;
+- (void)read request %@;
+- (void)d item that is incompatible with the current device version:(struct UIEdgeInsets)arg1 %@;
+- (void)date routing, expire and watch dog after first unlock;
+- (void)) for chat %@ and broadcasting the update to clients.;
+- (id)g bundle:%@ /* Error: Ran out of types for this method. */;
+- (long long)ived a notice for an untracked URL (may not have received the highlight yet), dropping notice.;
+- (id):(struct CGRect)arg1 %@, timestamp:(long long)arg2 %@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)&;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id);
@@ -78,15 +55,15 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void)16@24@32{UIEdgeInsets=dddd}40q72d80;
-- (void)oll;
-- (void)longEdge:(struct CGSize)arg1;
-- (void)af:(struct CGRect)arg1;
+- (void)textSelectionWillScroll;
+- (void)setRecognizeAlongEdge:(struct CGSize)arg1;
+- (void)_alternateWithMenuLeaf:(struct CGRect)arg1;
 - (void)ed;
 - (void)segueResponsibleForModalPresentation;
 - (id)dinatorDelegate>",W,N,V_delegate;
 - (void)y;
-- (void);
-- (id)onSmallLoupeVariantSpec;
+- (void)UIInputContextHistory;
+- (id)_TtC5UIKit39_UIFlexInteractionSmallLoupeVariantSpec;
 - (void);
 - (_Bool)evContext:(struct CGPoint)arg1 %@, newContext:(id)arg2 %@,  prevDefaultContext:%@, newDefaultContext:%@ /* Error: Ran out of types for this method. */;
 - (void)úîÿ¾ûîÿ;
@@ -99,25 +76,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *_mergedImage; // @synthesize _mergedImage;
-@property(retain, nonatomic) NSMutableDictionary *_mergedSliceMap; // @synthesize _mergedSliceMap;
-@property(retain, nonatomic) UIImage *_splitImage; // @synthesize _splitImage;
-@property(retain, nonatomic) NSMutableDictionary *_splitSliceMap; // @synthesize _splitSliceMap;
-@property(nonatomic) _Bool allowsSelfSizing; // @synthesize allowsSelfSizing=_allowsSelfSizing;
-@property(nonatomic) _Bool assertSizingWithPredictionBar; // @synthesize assertSizingWithPredictionBar=_assertSizingWithPredictionBar;
-@property(nonatomic) struct UIEdgeInsets backgroundEdgeInsets; // @synthesize backgroundEdgeInsets=_backgroundEdgeInsets;
-@property(nonatomic) double contentRatio; // @synthesize contentRatio=_contentRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long inputViewStyle; // @synthesize inputViewStyle=_style;
-@property(readonly, nonatomic) UIView *leftContentView; // @synthesize leftContentView=_leftContentView;
-@property(nonatomic) struct CGSize leftContentViewSize; // @synthesize leftContentViewSize=_leftContentSize;
-@property(readonly, nonatomic) UIView *rightContentView; // @synthesize rightContentView=_rightContentView;
-@property(nonatomic) struct CGSize rightContentViewSize; // @synthesize rightContentViewSize=_rightContentSize;
-@property(readonly) Class superclass;
 
 @end
 

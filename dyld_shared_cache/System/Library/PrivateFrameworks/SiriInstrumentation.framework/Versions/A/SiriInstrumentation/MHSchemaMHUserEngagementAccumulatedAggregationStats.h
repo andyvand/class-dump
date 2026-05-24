@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface MHSchemaMHUserEngagementAccumulatedAggregationStats : SISchemaInstrumentationMessage
 {
     double _aggregationStartTimestamp;
-    int _numberOfDaysAggregation;
-    NSArray *_aggregationStats;
-    NSString *_cohortType;
-    double _intendedRequestRatio;
-    struct {
-        unsigned int aggregationStartTimestamp:1;
-        unsigned int numberOfDaysAggregation:1;
-        unsigned int intendedRequestRatio:1;
-    } _has;
-    _Bool _hasCohortType;
 }
 
 - (void);
@@ -31,19 +19,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (int);
 - (double);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)˩#;
 - (void);
-- (void);
+- (void)T0;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -52,10 +40,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ec_GFp_nistp521_point_get_affine_coordinates;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id)!ÈEùQß°1Â0@ù
 × ;
@@ -65,15 +53,6 @@
 
 // Remaining properties
 @property(nonatomic) double aggregationStartTimestamp; // @synthesize aggregationStartTimestamp=_aggregationStartTimestamp;
-@property(copy, nonatomic) NSArray *aggregationStats; // @synthesize aggregationStats=_aggregationStats;
-@property(copy, nonatomic) NSString *cohortType; // @synthesize cohortType=_cohortType;
-@property(nonatomic) _Bool hasAggregationStartTimestamp;
-@property(nonatomic) _Bool hasCohortType; // @synthesize hasCohortType=_hasCohortType;
-@property(nonatomic) _Bool hasIntendedRequestRatio;
-@property(nonatomic) _Bool hasNumberOfDaysAggregation;
-@property(nonatomic) double intendedRequestRatio; // @synthesize intendedRequestRatio=_intendedRequestRatio;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int numberOfDaysAggregation; // @synthesize numberOfDaysAggregation=_numberOfDaysAggregation;
 
 @end
 

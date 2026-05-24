@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, UnifiedTabBarFilterView;
+@class NSString, NSView;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBarContainerView
 {
     NSString *_backgroundGroupName;
-    NSView *_contentClipView;
-    UnifiedTabBarFilterView *_filterView;
-    NSView *_accessibilityBorderView;
-    NSView *_contentView;
 }
 
 - (void);
@@ -27,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)¸;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *backgroundGroupName;
 @property(readonly, nonatomic) NSView *contentView;
-@property(readonly, copy, nonatomic) NSString *contentViewGroupName;
 
 @end
 

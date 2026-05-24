@@ -7,12 +7,6 @@
 @interface Network.Timer
 {
     id backend;
-    id nextId;
-    id timerCancelled;
-    id avoidRecalculate;
-    id entries;
-    id extraDebugging;
-    id nextDeadline;
 }
 
 @end

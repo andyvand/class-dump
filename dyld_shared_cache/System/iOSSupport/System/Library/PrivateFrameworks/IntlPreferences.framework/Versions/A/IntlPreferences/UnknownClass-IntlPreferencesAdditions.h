@@ -7,7 +7,7 @@
 @class NSArray;
 
 @interface UnknownClass (IntlPreferencesAdditions)
-- (id);
+- (id)x;
 
 // Remaining properties
 @property(readonly, copy) NSArray *normalizedLocalizations;

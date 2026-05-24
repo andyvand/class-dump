@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_data;
 
 @interface EDPreviouslyDownloadedMessageData
 {
     _Bool _hasFullMessageData;
-    _Bool _hasPartialMessageData;
-    NSObject<OS_dispatch_data> *_headersOnlyData;
-    NSObject<OS_dispatch_data> *_partialMessageData;
-    NSArray *_mimeParts;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -25,11 +21,7 @@
 - (void)exactly two types;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasFullMessageData; // @synthesize hasFullMessageData=_hasFullMessageData;
-@property(readonly, nonatomic) _Bool hasPartialMessageData; // @synthesize hasPartialMessageData=_hasPartialMessageData;
 @property(readonly, nonatomic) NSObject<OS_dispatch_data> *headersOnlyData; // @synthesize headersOnlyData=_headersOnlyData;
-@property(readonly, nonatomic) NSArray *mimeParts; // @synthesize mimeParts=_mimeParts;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *partialMessageData; // @synthesize partialMessageData=_partialMessageData;
 
 @end
 

@@ -11,7 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *expectedOrCurrentURL;
-@property(readonly, nonatomic) NSURL *openerURL;
-@property(readonly, nonatomic) SearchableWKView *webView;
 @end
 

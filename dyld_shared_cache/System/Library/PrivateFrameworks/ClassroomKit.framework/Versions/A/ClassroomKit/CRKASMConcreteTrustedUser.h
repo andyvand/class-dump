@@ -6,8 +6,7 @@
 
 #import <ClassroomKit/CRKASMConcreteUser.h>
 
-@class CRKASMCertificateVendor, NSSet, NSString;
-@protocol CRKASMNameComponents;
+@class CRKASMCertificateVendor;
 
 @interface CRKASMConcreteTrustedUser : CRKASMConcreteUser
 {
@@ -24,21 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAccountATOLocked) _Bool accountATOLocked;
-@property(readonly, nonatomic, getter=isAccountLockedDueToFailedLoginAttempts) _Bool accountLockedDueToFailedLoginAttempts;
-@property(readonly, copy, nonatomic) NSString *appleID;
 @property(readonly, nonatomic) CRKASMCertificateVendor *certificateVendor; // @synthesize certificateVendor=_certificateVendor;
-@property(readonly, copy, nonatomic) NSSet *certificates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFederated) _Bool federated;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <CRKASMNameComponents> nameComponents;
-@property(readonly) Class superclass;
 
 @end
 

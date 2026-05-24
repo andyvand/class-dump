@@ -6,28 +6,22 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class NSButton, NSLayoutConstraint, NSMutableArray, NSSegmentedControl, NSString, _MKPlaceReservationInfo;
+@class NSSegmentedControl, _MKPlaceReservationInfo;
 
 @interface MKPlaceReservationRowView : MKPlaceSectionRowView
 {
     NSSegmentedControl *_openTimesControl;
-    NSButton *_buttonMakeReservation;
-    NSButton *_buttonAttribution;
-    NSMutableArray *_mutableConstraints;
-    NSLayoutConstraint *_constraintButtonTopMargin;
-    NSLayoutConstraint *_constraintButtonBottomMargin;
-    _MKPlaceReservationInfo *_reservationInfo;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -36,14 +30,12 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)numberOfRowsInSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _MKPlaceReservationInfo *reservationInfo; // @synthesize reservationInfo=_reservationInfo;
-@property(nonatomic) unsigned long long selectedTimeIndex;
-@property(retain, nonatomic) NSString *selectedTimeString;
 
 @end
 

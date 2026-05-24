@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSHTTPURLResponse, SOAuthorizationResult;
+@class SOAuthorizationResult;
 
 @interface ASAuthorizationProviderExtensionAuthorizationResult
 {
@@ -18,19 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)message_idx_is_scheduled_message;
 - (void);
 - (id);
+- (void));
 - (void);
-- (void);
-- (id)taControllerDelegate;
+- (id)WBSRemotelyUpdatableDataControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) SOAuthorizationResult *authorizationResult; // @synthesize authorizationResult=_authorizationResult;
-@property(retain, nonatomic) NSDictionary *httpAuthorizationHeaders;
-@property(retain, nonatomic) NSData *httpBody;
-@property(copy, nonatomic) NSHTTPURLResponse *httpResponse;
-@property(retain, nonatomic) NSArray *privateKeys;
 
 @end
 

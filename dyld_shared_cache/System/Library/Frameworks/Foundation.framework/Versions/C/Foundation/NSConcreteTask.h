@@ -6,21 +6,10 @@
 
 #import <Foundation/NSTask.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface NSConcreteTask : NSTask
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_dictionary;
-    CDUnknownBlockType _terminationHandler;
-    NSObject<OS_dispatch_source> *_dsrc;
-    long long _suspendCount;
-    int _pid;
-    _Atomic unsigned long long __exitRunningInfo;
-    BOOL _qos;
-    _Atomic _Bool _isSpawnedProcessDisclaimed;
 }
 
 - (_Bool);
@@ -30,14 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)setPrefersEmojiImageTextAttachment:(id *)arg1;
+- (void):(id)arg1 glyph = %s, string index = %ld, origin = { %g, %g }, base advance = { %g, %g } },
+;
 - (void);
 - (long long);
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)N3D_ACN_27;
 - (void);
 - (id);
 - (void);
@@ -47,14 +37,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (CDUnknownBlockType);
+- (id)es red:%f ... %f ... %f /* Error: Ran out of types for this method. */;
+- (_Bool)J;
+- (void)1E9;
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)ntID;
+- (_Bool)eventID;
 - (id);
 - (_Bool)e same run loop spin;
 - (void);
@@ -69,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?;
-- (void)g;
+- (void)PredicateCodableKeyPathProviding;
 
 @end
 

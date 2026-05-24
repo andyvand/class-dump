@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientNetworkMetrics, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOClientMetrics
 {
     PBUnknownFields *_unknownFields;
-    GEOClientNetworkMetrics *_networkMetrics;
-    double _queuedTime;
-    int _responseSource;
-    struct {
-        unsigned int has_queuedTime:1;
-        unsigned int has_responseSource:1;
-    } _flags;
 }
 
-+ (_Bool)e:(id)arg1;
++ (_Bool)setHasNetworkType:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (void);
-- (void);
+- (void)steningType:(id)arg1 pauseDurationThreshold:maxPauseDelay: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)r;
+- (void)estFilter:(int)arg1 maxResultCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (int);
 - (void);
 - (void)6b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@"NSError"32Q40;
-- (id)andle:(struct _NSZone *)arg1;
-- (id)nds;
-- (_Bool)lts;
+- (id)resumeRouteHandleStorageFromResumeRouteHandle:(struct _NSZone *)arg1;
+- (id)hasTtlSeconds;
+- (_Bool)_numberOfResults;
 - (id);
 - (id)led once per object;
 - (double);
@@ -50,13 +43,7 @@
 - (void)j)6;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNetworkMetrics;
-@property(nonatomic) _Bool hasQueuedTime;
 @property(nonatomic) _Bool hasResponseSource;
-@property(retain, nonatomic) GEOClientNetworkMetrics *networkMetrics;
-@property(nonatomic) double queuedTime;
-@property(nonatomic) int responseSource;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

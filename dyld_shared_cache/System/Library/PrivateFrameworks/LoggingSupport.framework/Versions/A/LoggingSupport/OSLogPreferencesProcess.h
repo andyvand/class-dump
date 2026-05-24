@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface OSLogPreferencesProcess
 {
     NSString *_systemPrefsFile;
-    NSDictionary *_systemPrefs;
-    NSString *_internalPrefsFile;
-    NSDictionary *_internalPrefs;
-    NSString *_prefsFile;
-    NSMutableDictionary *_prefs;
-    NSString *_bundleID;
 }
 
 - (long long);
@@ -29,16 +23,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)processingENS_9allocatorIS3_EEEE;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) long long effectiveEnabledLevel;
-@property(readonly, nonatomic) long long effectivePersistedLevel;
-@property(nonatomic) long long enabledLevel;
-@property(readonly, nonatomic) _Bool isLocked;
-@property(nonatomic) long long persistedLevel;
 
 @end
 

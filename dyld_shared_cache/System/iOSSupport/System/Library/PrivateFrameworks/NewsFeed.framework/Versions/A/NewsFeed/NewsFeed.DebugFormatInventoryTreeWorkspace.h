@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatInventoryTreeWorkspace
 {
     id id;
-    id _model;
 }
 
 @end

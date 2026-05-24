@@ -7,15 +7,12 @@
 @interface TeaUI.CardViewTitleView
 {
     id titleLabel;
-    id separatorView;
-    id closeAffordanceButton;
-    id contentView;
 }
 
 - (id);
-- (void);
+- (void)sportsRecommendationMappings;
 - (id);
-- (id);
+- (id)setThumbnailPrimaryColor:(struct CGRect)arg1;
 - (void);
 
 @end

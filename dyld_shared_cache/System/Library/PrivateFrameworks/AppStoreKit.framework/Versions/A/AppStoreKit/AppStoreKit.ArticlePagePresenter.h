@@ -9,17 +9,6 @@
 @interface AppStoreKit.ArticlePagePresenter : AppStoreKit.BaseShelfPresenter
 {
     id pageUrl;
-    id touchMode;
-    id shouldTerminateOnClose;
-    id view;
-    id hasData;
-    id initialContentTypes;
-    id card;
-    id shelves;
-    id footerLockup;
-    id arcadeFooterLockup;
-    id shareAction;
-    id isPreparingNextPage;
 }
 
 @end

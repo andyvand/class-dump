@@ -7,9 +7,6 @@
 @interface AppleMediaServices.KeepAlive.Internal__priv_8D5EA5EE57B6E86A66C300315FB99416
 {
     id logKey;
-    id identifier;
-    id components;
-    id rbsAssertionAcquired;
 }
 
 @end

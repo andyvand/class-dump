@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol ICMutableMusicUserStateCookies
+- (void)_outputPort;
+- (NSString *)R;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *itfe;
 @property(copy, nonatomic) NSString *xpab;
 @end
 

@@ -17,18 +17,16 @@ __attribute__((visibility("hidden")))
         unsigned int touchDragged:1;
         unsigned int deliveredCancel:1;
     } _flags;
-    UITouch *_activeTouch;
-    id <_UIControlEventsGestureRecognizerDelegate> _controlEventsDelegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)owActionWithStyle:(unsigned long long)arg1 title:(id)arg2 handler: /* Error: Ran out of types for this method. */;
-- (void)tionName:(id)arg1;
-- (void)tionGrouping:(id)arg1 considerNextCellGrouping:(id)arg2 interactionState: /* Error: Ran out of types for this method. */;
-- (void)iewControllerContainerViewConstraints;
+- (void)rowActionWithStyle:(unsigned long long)arg1 title:(id)arg2 handler: /* Error: Ran out of types for this method. */;
+- (void)initWithTextLayoutManager:(id)arg1 textRanges:(id)arg2 animationName: /* Error: Ran out of types for this method. */;
+- (void)_separatorConfigurationForItemAtIndexPath:(id)arg1 withSelectionGrouping:(id)arg2 considerNextCellGrouping:interactionState: /* Error: Ran out of types for this method. */;
+- (void)_applyTextFieldViewControllerContainerViewConstraints;
 - (id)àgüh8iüi;
 - (void)oþ;
 - (void);

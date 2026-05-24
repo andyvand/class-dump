@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedParticipantChange
 {
     long long _participantChangeType;
-    NSString *_otherHandle;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int participantChangeType:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (void);
@@ -25,13 +16,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)imumPayments;
+- (void)empt to set the shared peer payment web service context to nil. Ignoring.;
+- (void)foregroundParallaxCrossDissolve;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -39,19 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Resolved symlink url:%{public}s -> %{public}s /* Error: Ran out of types for this method. */;
 - (id)Fetch;
-- (void)oupsMergeDisplayNames;
+- (void)GroupsMergeDisplayNames;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOtherHandle;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(nonatomic) _Bool hasParticipantChangeType;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) long long participantChangeType; // @synthesize participantChangeType=_participantChangeType;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

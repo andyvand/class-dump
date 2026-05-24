@@ -4,11 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
+@class UIApplication, UIWindow;
 
 @protocol UIApplicationDelegate
 
 @optional
+- (void);
+- (_Bool)C;
+- (void);
+- (_Bool)=;
+- (void);
+- (void)';
+- (_Bool);
+- (void)ed with invalid or unsupported parameters.;
+- (void)c;
+- (void)with %lu changes and %lu deletions, operation ID %{public}@, total time:(UIApplication *)arg1 %f;
+- (UIWindow *)P;
+- (void)deviceProtocolVersion;
 - (void);
 
 // Remaining properties

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PXTilingControllerCompositionInput
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets contentInset;
-@property(readonly, nonatomic) NSArray *invalidationContexts;
 @property(readonly, nonatomic) struct CGSize referenceSize;
-@property(readonly, nonatomic) NSArray *tilingControllersRequestingFocus;
 @end
 

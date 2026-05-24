@@ -6,20 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PSESchemaPSEAlarm : SISchemaInstrumentationMessage
 {
     _Bool _isSiriResultUseful;
-    int _followUpType;
-    struct {
-        unsigned int isSiriResultUseful:1;
-        unsigned int followUpType:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -30,20 +23,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)YUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ry:(id)arg1 '%s';
 - (id);
 - (id);
-- (id)ourceDomain;
+- (id)_sourceDomain;
 - (id)B,N,V_minutesSinceLastDisambiguationSameActions;
 
 // Remaining properties
-@property(nonatomic) int followUpType; // @synthesize followUpType=_followUpType;
-@property(nonatomic) _Bool hasFollowUpType;
-@property(nonatomic) _Bool hasIsSiriResultUseful;
 @property(nonatomic) _Bool isSiriResultUseful; // @synthesize isSiriResultUseful=_isSiriResultUseful;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

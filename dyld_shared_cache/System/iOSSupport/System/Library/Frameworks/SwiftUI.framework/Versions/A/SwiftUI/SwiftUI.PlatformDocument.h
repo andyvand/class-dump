@@ -10,7 +10,7 @@
     id notificationObserver;
 }
 
-- (void);
+- (void)r;
 - (id)So26UIContextMenuConfigurationC;
 - (void);
 

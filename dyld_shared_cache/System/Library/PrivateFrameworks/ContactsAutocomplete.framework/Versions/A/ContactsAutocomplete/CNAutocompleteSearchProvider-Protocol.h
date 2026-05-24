@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CNAutocompleteSearch;
+
 @protocol CNAutocompleteSearchProvider
+- (id <CNAutocompleteSearch>)(;
+- (id <CNAutocompleteSearch>)A;
+- (id <CNAutocompleteSearch>)d;
 @end
 

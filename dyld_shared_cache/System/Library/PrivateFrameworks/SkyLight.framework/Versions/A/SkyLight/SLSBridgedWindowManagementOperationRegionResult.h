@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (struct CGSRegionObject *);
+- (struct CGSRegionObject *)Log size:%d checkpointed:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

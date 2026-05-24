@@ -6,55 +6,47 @@
 
 #import <QuartzCore/CALayer.h>
 
-@protocol CATiledLayerDelegate><CALayerDelegate;
-
 @interface CATiledLayer : CALayer
 {
 }
 
 + (_Bool);
-+ (double);
++ (double);
 + (unsigned int);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 - (void);
-- (void);
-- (void);
+- (void)G;
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
+- (unsigned long long)S(;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (void);
 - (void);
 - (void);
+- (void)from a CloudCoreSession;
 - (void);
+- (struct CGSize)@;
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (void)I:Error while decoding CSIData for key %@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (struct CGColor *);
 - (void);
 - (void)Á¨-Ð!DDùñ1ð1Â0@ù
 × ;
-- (void)b3a8Xm_TcimA2Xhfcx_Icir;
+- (void)Pb3a8Xm_TcimA2Xhfcx_Icir;
 - (void);
 
 // Remaining properties
-@property __weak id <CATiledLayerDelegate><CALayerDelegate> delegate;
-@property(getter=isDrawingEnabled) _Bool drawingEnabled;
 @property struct CGColor *fillColor;
-@property unsigned long long levelsOfDetail;
-@property unsigned long long levelsOfDetailBias;
-@property double maximumTileScale;
-@property struct CGSize tileSize;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)isInteractiveElement:(unsigned long long)arg1;
 - (void);
 
 @end

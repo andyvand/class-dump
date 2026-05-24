@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKTexturePacker, NSPopUpButton, NSTextField, NSTimer;
+@class NSPopUpButton;
 
 @interface IKTexturePackerView
 {
     NSPopUpButton *_packerIndex;
-    NSTextField *_koUsed;
-    NSTextField *_koFree;
-    IKTexturePacker *_packer;
-    NSTimer *_autoupdate;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)PHPersistentChange;
 
 @end
 

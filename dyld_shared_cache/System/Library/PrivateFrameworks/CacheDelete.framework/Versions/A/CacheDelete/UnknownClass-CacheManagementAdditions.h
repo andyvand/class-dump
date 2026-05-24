@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CacheManagementAdditions)
 + (id);
-+ (id);
++ (id)(;
 @end
 

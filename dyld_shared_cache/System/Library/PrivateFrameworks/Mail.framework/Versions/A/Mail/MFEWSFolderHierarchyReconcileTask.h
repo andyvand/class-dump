@@ -6,30 +6,25 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class MFEWSPersistFolderHierarchyTaskOperation, MFEWSPruneFolderHierarchyTaskOperation, MFEWSSyncFolderHierarchyTaskOperation, NSMutableArray, NSMutableSet, NSString;
+@class MFEWSSyncFolderHierarchyTaskOperation, NSString;
 
 @interface MFEWSFolderHierarchyReconcileTask : MFEWSTask
 {
     MFEWSSyncFolderHierarchyTaskOperation *_syncFolderHierarchyTaskOperation;
-    MFEWSPersistFolderHierarchyTaskOperation *_persistFolderHierarchyTaskOperation;
-    NSMutableArray *_pendingBatchesToPersist;
-    NSMutableSet *_foundFolderIdStrings;
-    NSString *_syncStateToReconcile;
-    MFEWSPruneFolderHierarchyTaskOperation *_pruneFolderHierarchyTaskOperation;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -37,16 +32,6 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MFEWSPersistFolderHierarchyTaskOperation *persistFolderHierarchyTaskOperation;
-@property(retain, nonatomic) MFEWSPruneFolderHierarchyTaskOperation *pruneFolderHierarchyTaskOperation; // @synthesize pruneFolderHierarchyTaskOperation=_pruneFolderHierarchyTaskOperation;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MFEWSSyncFolderHierarchyTaskOperation *syncFolderHierarchyTaskOperation;
 @property(copy, nonatomic) NSString *syncStateToReconcile; // @synthesize syncStateToReconcile=_syncStateToReconcile;
 
 @end

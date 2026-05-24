@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (long long);

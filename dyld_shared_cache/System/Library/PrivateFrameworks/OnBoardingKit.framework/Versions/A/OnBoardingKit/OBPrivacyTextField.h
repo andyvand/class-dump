@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (id);
+- (id)cryptographicOperations;
 
 // Remaining properties
 @property _Bool shouldBlockContextMenu; // @synthesize shouldBlockContextMenu=_shouldBlockContextMenu;

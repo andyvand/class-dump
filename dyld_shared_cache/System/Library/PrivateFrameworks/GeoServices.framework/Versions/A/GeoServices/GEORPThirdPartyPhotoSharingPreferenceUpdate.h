@@ -11,28 +11,27 @@
     GEORPThirdPartyPhotoSharingPreference *_preference;
 }
 
-+ (_Bool)zedAddress:(id)arg1;
++ (_Bool)setLocalizedAddress:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)packets;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)dedOfflineRegionState"b1"has_waypointLocationSource"b1"has_waypointStatus"b1"has_waypointType"b1"has_isCurrentLocation"b1"has_isLocationOfInterest"b1"read_unknownFields"b1"read_uniqueWaypointId"b1"read_waypointId"b1"read_waypointLocation"b1"read_waypointNameProperties"b1"read_waypointPlace"b1"wrote_anyField"b1};
-- (id)ngPrefs;
+- (id)cyclingPrefs;
 - (id)ÄRS W(XZ<]	\a8d;
-- (id)st_Manifest_SetManifestTokenBEGIN;
+- (id)GEOPPTTest_Manifest_SetManifestTokenBEGIN;
 - (void)aP@;
 - (id)©z@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPreference;
-@property(retain, nonatomic) GEORPThirdPartyPhotoSharingPreference *preference;
 
 @end
 

@@ -9,26 +9,24 @@
 @interface IMHandleStatusManager
 {
     NSMapTable *_observers;
-    NSMapTable *_handlesForObserver;
 }
 
 + (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)Not adding streamQualityIndex=%d;
+- (id)] %s:%d Cannot not call connect from for the output queue! /* Error: Ran out of types for this method. */;
+- (void)tier picker;
+- (void)Setting tierPickerMode=%s. Resetting the audio tier picker;
+- (void)hanged to %s;
+- (void)atistics history receives out of order statistics for totalByteReceived!;
+- (void)[current:(id)arg1 %llu, previous:%llu] /* Error: Ran out of types for this method. */;
+- (void)%s:(id)arg1 %d Statistics history receives out of order statistics for totalByteSent! [current:%llu, previous:%llu] /* Error: Ran out of types for this method. */;
+- (id)ode:(id)arg1 %d;
+- (void)ate controller already configured;
 - (id);
 - (id);
 - (void)tîüîñ´ñàó@õàö`ø$ûû;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *handlesForObserver; // @synthesize handlesForObserver=_handlesForObserver;
 @property(readonly, nonatomic) NSMapTable *observers; // @synthesize observers=_observers;
 
 @end

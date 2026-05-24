@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUISecureURLHerder
 {
     NSMutableDictionary *_urlsStashedInLSToSharedFileListItemRefs;
-    void *_lsSharedFileList;
-    NSString *_bundleID;
 }
 
 - (void);

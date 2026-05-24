@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)processResponseDictionary:withStorefrontIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol SSRSpeakerAnalyzerPSRDelegate
+
+@optional
+- (void);
 @end
 

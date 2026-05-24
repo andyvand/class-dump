@@ -5,5 +5,9 @@
 //
 
 @protocol WelcomeViewControllerDelegate
+- (void)nsCount"b1};
+- (void)tendLatencyMillis"b1"outputTokensCount"b1"inputTokensCount"b1};
+- (void)etrics";
+- (void)Used"b1};
 @end
 

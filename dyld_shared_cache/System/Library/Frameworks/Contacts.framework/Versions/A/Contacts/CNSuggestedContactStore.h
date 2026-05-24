@@ -6,15 +6,14 @@
 
 #import <Contacts/CNContactStore.h>
 
-@protocol CNSiriIntelligenceSettingsProtocol, SGSuggestionsServiceContactsProtocol;
+@protocol SGSuggestionsServiceContactsProtocol;
 
 @interface CNSuggestedContactStore : CNContactStore
 {
     id <SGSuggestionsServiceContactsProtocol> _suggestionService;
-    id <CNSiriIntelligenceSettingsProtocol> _siriIntelligenceSettings;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -33,11 +32,10 @@
 - (void)!ìAù*1Â0@ù
 × ;
 - (_Bool)ndleIdentifiers:(id)arg1;
-- (_Bool)ingTransform;
+- (_Bool)relatedContactToStringTransform;
 - (_Bool)È5´7;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNSiriIntelligenceSettingsProtocol> siriIntelligenceSettings; // @synthesize siriIntelligenceSettings=_siriIntelligenceSettings;
 @property(retain, nonatomic) id <SGSuggestionsServiceContactsProtocol> suggestionService; // @synthesize suggestionService=_suggestionService;
 
 @end

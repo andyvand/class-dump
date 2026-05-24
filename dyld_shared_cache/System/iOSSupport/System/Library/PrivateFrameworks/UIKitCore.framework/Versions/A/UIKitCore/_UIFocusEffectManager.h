@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id <UIFocusItem> _focusedItem;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)removeParticipant:(id)arg1;
+- (id)checkForSentTranslationForMessage: /* Error: Ran out of types for this method. */;
+- (void)pple.messages.SMSReceivedRelayMessage;
+- (void)rkoutAlwaysPrompt;
 - (id);
 - (void);
 - (void)Ö¬ì[;

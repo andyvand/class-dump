@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TITypingSession, TITypingSessionAligned;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIAsteriskCorrectionMessageEvent
 {
     int _wordsEnteredCount;
-    int _finalWordsEnteredCount;
-    NSString *_messageText;
-    NSString *_asteriskCorrectionType;
-    NSString *_wordCountType;
-    unsigned long long _prevMsgAutocorrectionType;
-    NSString *_bundleId;
-    TITypingSession *_messageSession;
-    TITypingSessionAligned *_messageAlignedSession;
 }
 
-- (int);
-- (id);
-- (void);
-- (void);
-- (void);
+- (int)es for:%@ /* Error: Ran out of types for this method. */;
+- (id)equesting server to toggle view visibility:%d %@ /* Error: Ran out of types for this method. */;
+- (void)RTTCannedMessageSure;
+- (void)incomingTTYCallCount;
+- (void)ryOSX;
 - (void);
 - (void);
 - (unsigned long long);
@@ -37,27 +29,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (id);
+- (id)hStroke{;
 - (void);
 - (void);
-- (void);
+- (void)_metricForEvent:(id)arg1;
 - (id);
 - (void)i°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *asteriskCorrectionType; // @synthesize asteriskCorrectionType=_asteriskCorrectionType;
-@property(readonly) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property int finalWordsEnteredCount; // @synthesize finalWordsEnteredCount=_finalWordsEnteredCount;
-@property(retain) TITypingSessionAligned *messageAlignedSession; // @synthesize messageAlignedSession=_messageAlignedSession;
-@property(retain) TITypingSession *messageSession; // @synthesize messageSession=_messageSession;
 @property(retain, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;
-@property(readonly) unsigned long long prevMsgAutocorrectionType; // @synthesize prevMsgAutocorrectionType=_prevMsgAutocorrectionType;
-@property(retain, nonatomic) NSString *wordCountType; // @synthesize wordCountType=_wordCountType;
-@property int wordsEnteredCount; // @synthesize wordsEnteredCount=_wordsEnteredCount;
 
 @end
 

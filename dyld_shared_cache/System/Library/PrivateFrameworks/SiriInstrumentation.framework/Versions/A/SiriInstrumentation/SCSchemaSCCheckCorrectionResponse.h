@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SCSchemaSCCheckCorrectionResponse : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    unsigned int _candidateCount;
-    struct {
-        unsigned int candidateCount:1;
-    } _has;
 }
 
 - (void);
@@ -26,25 +22,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)age_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1) AND OLD.message_id NOT IN (SELECT chat_recoverable_message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
+- (id)IMCoreSpotlightIndexReason;
 - (id);
 - (unsigned long long);
 - (id);
 - (void)?="name"b1};
-- (id)tToAssetDeliveryInMs;
+- (id)clearBootToAssetDeliveryInMs;
 - (id)ayingAbsoluteCount7Day;
 - (void)SISchemaAnnounceEnabledStatus",&,N,V_announceEnabledStatus;
-- (void)llowedType;
+- (void)hasHandleWithAllowedType;
 
 // Remaining properties
-@property(nonatomic) unsigned int candidateCount; // @synthesize candidateCount=_candidateCount;
-@property(nonatomic) _Bool hasCandidateCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

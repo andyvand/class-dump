@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, SDAutoFillAgent;
-@protocol OS_dispatch_queue;
+@class SDAutoFillAgent;
 
 @interface SFRemoteAutoFillSessionHelper
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _dismissUserNotificationHandler;
-    CDUnknownBlockType _pairingResponseHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    SDAutoFillAgent *_agent;
 }
 
 + (_Bool);
@@ -32,7 +21,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,11 +38,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)o2;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -61,12 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SDAutoFillAgent *agent; // @synthesize agent=_agent;
-@property(copy, nonatomic) CDUnknownBlockType dismissUserNotificationHandler; // @synthesize dismissUserNotificationHandler=_dismissUserNotificationHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairingResponseHandler; // @synthesize pairingResponseHandler=_pairingResponseHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
 
 @end
 

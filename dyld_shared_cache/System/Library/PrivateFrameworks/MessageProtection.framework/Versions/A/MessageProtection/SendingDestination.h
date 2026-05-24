@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SendingDestination
@@ -15,8 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *destinationHash; // @dynamic destinationHash;
-@property(copy, nonatomic) NSDate *registrationDate; // @dynamic registrationDate;
-@property(nonatomic) int validOutgoingCounter; // @dynamic validOutgoingCounter;
 
 @end
 

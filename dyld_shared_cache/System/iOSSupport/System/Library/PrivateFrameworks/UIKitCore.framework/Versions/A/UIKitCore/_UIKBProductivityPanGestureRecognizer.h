@@ -6,17 +6,9 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class NSMutableDictionary, NSMutableSet, _UIGestureRecognizerTransformAnalyzer;
-
 @interface _UIKBProductivityPanGestureRecognizer : UIPanGestureRecognizer
 {
     _Bool _tooMuchSingleMovement;
-    double _beginPanTimestamp;
-    NSMutableSet *_activeTouches;
-    NSMutableSet *_shiftTouches;
-    _UIGestureRecognizerTransformAnalyzer *_transformAnalyzer;
-    NSMutableDictionary *_beginTouchLocations;
-    struct CGPoint _beginPanCentroid;
 }
 
 + (id);
@@ -24,35 +16,29 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)itemIndexPathToOverridePropertySet;
+- (id)getITLibMediaItemPropertySortTitle();
 - (void);
 - (_Bool);
 - (struct CGPoint);
 - (id)nteraction"16@"UIContextMenuConfiguration"24@"_UIContextMenuStyle"32;
-- (_Bool)fromView:toView: /* Error: Ran out of types for this method. */;
-- (void)arch;
-- (void)dFromEmojiKeyboardSearch:(id)arg1 inputModeIdentifier:resultIndex:query:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)eractionEventsOnly;
-- (void)sInContext:(id)arg1;
-- (void)ResizeMaskIntoConstraints;
-- (void)DisplayMode:(struct CGPoint)arg1 mainScreen:actualDisplayScale: /* Error: Ran out of types for this method. */;
-- (void)n;
-- (struct CGPoint)orTransformer;
-- (double)emHighlightMotionEffect;
-- (void)tionItems;
+- (_Bool)transition:fromView:toView: /* Error: Ran out of types for this method. */;
+- (void)navigationBarWantsFlexibleInlineSearch;
+- (void)emojiUsedFromEmojiKeyboardSearch:(id)arg1 inputModeIdentifier:resultIndex:query:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)configuredForInactiveInteractionEventsOnly;
+- (void)_super_shouldUpdateFocusInContext:(id)arg1;
+- (void)_sizeTrackingViewShouldTranslateAutoResizeMaskIntoConstraints;
+- (void)_screenModeForDisplayMode:(struct CGPoint)arg1 mainScreen:actualDisplayScale: /* Error: Ran out of types for this method. */;
+- (void)_isFakeScreen;
+- (struct CGPoint)_indicatorColorTransformer;
+- (double)_focusedItemHighlightMotionEffect;
+- (void)_currentPreviewActionItems;
 - (void);
 - (void)sBackground.inputBleedDistance0;
 - (void)i43ôtþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;
-@property(nonatomic) struct CGPoint beginPanCentroid; // @synthesize beginPanCentroid=_beginPanCentroid;
 @property(nonatomic) double beginPanTimestamp; // @synthesize beginPanTimestamp=_beginPanTimestamp;
-@property(retain, nonatomic) NSMutableDictionary *beginTouchLocations; // @synthesize beginTouchLocations=_beginTouchLocations;
-@property(retain, nonatomic) NSMutableSet *shiftTouches; // @synthesize shiftTouches=_shiftTouches;
-@property(nonatomic) _Bool tooMuchSingleMovement; // @synthesize tooMuchSingleMovement=_tooMuchSingleMovement;
-@property(retain, nonatomic) _UIGestureRecognizerTransformAnalyzer *transformAnalyzer; // @synthesize transformAnalyzer=_transformAnalyzer;
 
 @end
 

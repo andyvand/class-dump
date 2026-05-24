@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSEncodingDetectionPlaceholder
 {
     unsigned long long nsEncoding;
-    unsigned int cfEncoding;
-    NSString *string;
-    char *bytes;
-    unsigned long long bytesLength;
-    char *bytesStart;
 }
 
-+ (id);
++ (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (void);
 - (id);
-- (char *);
+- (char *)?;
 - (id)r#s#t#t#t#u#u#v#v#v#v#w#x#x#y#y#z#{#{#|#}#~########################################################################### # #¡#¢#¢#£#¤#¤#¤#¥#¥#¦#¦#§#¨#¨#©#ª#ª#ª#ª#«#«#«#«#«#«#«#¬#¬#¬#¬#¬#¬#­#­#®#¯#°#±#±#²#³#´#´#´#´#´#µ#µ#µ#µ#¶#¶#¶#¶#·#·#¸#¹#º#º#º#»#»#¼#¼#¼#½#¾#¿#¿#À#Á#Á#Á#Â#Â#Ã#Ä#Å#Å#Å#Å#Æ#Æ#Æ#Æ#Æ#Æ#Ç#Ç#È#È#É#É#Ê#Ê#Ë#Ë#Ë#Ë#Ì#Í#Î#Î#Î#Î#Î#Î#Î#Î#Î#Î#Ï#Ð#Ñ#Ò#Ò#Ò#Ò#Ò#Ó#Ó#Ô#Ô#Õ#Õ#Õ#Ö#×#×#Ø#Ø#Ù#Ù#Ú#Ú#Û#Û#Ü#Ý#Þ#Þ#ß#ß#à#à#à#á#á#á#â#ã#ã#ä#å#æ#ç#ç#ç#è#è#è#è#è#é#é#ê#ê#ë#ì#í#í#î#ï#ð#ð#ð#ð#ð#ð#ñ#ò#ò#ò#ò#ò#ó#ó#ó#ó#ô#ô#õ#ö#ö#÷#÷#÷#÷#÷#÷#÷#÷#÷#ø#ø#ø#ø#ù#ù#ú#û#û#û#ü#ü#ý#þ#ÿ#;
 
 // Remaining properties
-@property(readonly) char *bytes;
-@property(readonly) unsigned long long bytesLength;
-@property(readonly) unsigned int cfEncoding;
 @property(readonly) unsigned long long nsEncoding;
-@property(readonly) NSString *string;
 
 @end
 

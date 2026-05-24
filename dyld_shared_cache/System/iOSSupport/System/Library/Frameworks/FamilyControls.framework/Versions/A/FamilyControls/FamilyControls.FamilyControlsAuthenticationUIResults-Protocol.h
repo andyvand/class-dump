@@ -5,5 +5,6 @@
 //
 
 @protocol FamilyControls.FamilyControlsAuthenticationUIResults
+- (void);
 @end
 

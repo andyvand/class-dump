@@ -6,65 +6,52 @@
 
 #import <UIKitCore/UITableViewController.h>
 
-@class NSLayoutConstraint, NSString, UILexicon, UIView, UIViewController;
-@protocol UIRecentsInputViewControllerDelegate;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIRecentsInputViewController : UITableViewController
 {
     _Bool _canManageList;
-    id <UIRecentsInputViewControllerDelegate> _recentInputDelegate;
-    UILexicon *_recentInputs;
-    long long _containingEffectStyle;
-    UIView *_customHeaderView;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    NSString *_previouslyUsedString;
-    NSString *_clearAllString;
-    NSString *_enterNewString;
-    UIView *_headerView;
-    UIView *_headerContainerView;
-    UIViewController *_headerContainerViewController;
 }
 
-- (void);
-- (id);
-- (double);
+- (void)messageSummaryInfo;
+- (id)IMAudioMessageProcessingPipelineComponent;
+- (double)_IMDRelayPendingServiceReachabilityRequest;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)IMSpamFilterHelper;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)=.;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)l;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)s ID, moving on;
+- (id)nd moving on;
+- (id)s too big. Marking it as clean and moving on;
+- (id)is in the past. Not setting syndication type %ld for chat:%@ /* Error: Ran out of types for this method. */;
+- (void)nfo with autoDonationBehavior:%ld /* Error: Ran out of types for this method. */;
+- (void)sonal nickname update, but it was not from one of our own devices From:(id)arg1 %@, ID:%@ /* Error: Ran out of types for this method. */;
+- (id)e an iMessage account that is not backed by an ids account ---- please file a radar;
+- (long long)se %lu dirty attachments, looks like there's nothing left to do;
+- (id)or:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)atches!;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)__position_KEY;
 - (void);
 - (long long);
 - (void)á
@@ -78,18 +65,6 @@ __attribute__((visibility("hidden")))
 - (id)äÕpk;
 
 // Remaining properties
-@property(nonatomic) _Bool canManageList; // @synthesize canManageList=_canManageList;
-@property(retain, nonatomic) NSString *clearAllString; // @synthesize clearAllString=_clearAllString;
-@property(nonatomic) long long containingEffectStyle; // @synthesize containingEffectStyle=_containingEffectStyle;
-@property(retain, nonatomic) UIView *customHeaderView; // @synthesize customHeaderView=_customHeaderView;
-@property(retain, nonatomic) NSString *enterNewString; // @synthesize enterNewString=_enterNewString;
-@property(retain, nonatomic) UIView *headerContainerView; // @synthesize headerContainerView=_headerContainerView;
-@property(retain, nonatomic) UIViewController *headerContainerViewController; // @synthesize headerContainerViewController=_headerContainerViewController;
-@property(retain, nonatomic) UIView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(retain, nonatomic) NSString *previouslyUsedString; // @synthesize previouslyUsedString=_previouslyUsedString;
-@property(nonatomic) __weak id <UIRecentsInputViewControllerDelegate> recentInputDelegate; // @synthesize recentInputDelegate=_recentInputDelegate;
-@property(retain, nonatomic) UILexicon *recentInputs; // @synthesize recentInputs=_recentInputs;
 @property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end

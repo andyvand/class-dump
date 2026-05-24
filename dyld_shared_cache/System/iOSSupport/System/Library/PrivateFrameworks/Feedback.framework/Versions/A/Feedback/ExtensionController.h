@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     id contentViewController;
 }
 
-- (id);
-- (id);
+- (id)setUniqueServiceGroupName:(id)arg1;
+- (id)ricAccessoryItemProvider init];
 - (_Bool);
 - (void);
-- (void);
+- (void)';
 
 @end
 

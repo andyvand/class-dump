@@ -6,24 +6,18 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSDictionary, NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiCloudSharingMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_applicationBundleIdenfier;
-    NSString *_application;
-    NSString *_kind;
-    NSString *_title;
-    _BlastDoorLPImage *_icon;
-    _BlastDoorLPImage *_thumbnail;
-    NSDictionary *_encodedTokens;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
@@ -35,25 +29,19 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)titleTextField;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)URLAction;
+- (id)chatbot_URLAction;
 - (id)class %s;
 - (void)ôÓÌÿÌO!C6¸;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *application; // @synthesize application=_application;
 @property(copy, nonatomic) NSString *applicationBundleIdenfier; // @synthesize applicationBundleIdenfier=_applicationBundleIdenfier;
-@property(retain, nonatomic) NSDictionary *encodedTokens; // @synthesize encodedTokens=_encodedTokens;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) _BlastDoorLPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

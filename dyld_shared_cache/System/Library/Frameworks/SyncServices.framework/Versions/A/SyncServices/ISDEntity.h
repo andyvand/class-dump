@@ -6,23 +6,11 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDDataClass, ISDFileReference, NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSString;
 
 @interface ISDEntity : ISDDataObject
 {
     NSString *_name;
-    NSString *_parentName;
-    ISDDataClass *_dataClass;
-    ISDFileReference *_bundleRef;
-    NSArray *_attributes;
-    NSArray *_relationships;
-    NSMutableArray *_propertyDependencies;
-    NSString *_uiHelperClassName;
-    _Bool _excludeFromAirbagCount;
-    int _idNumber;
-    NSDictionary *_propertiesByName;
-    int _hasPropertiesWithLastModifiedResolutionPolicy;
-    NSMutableArray *_versionInfo;
 }
 
 + (void);
@@ -66,27 +54,27 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (int);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	j!;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id));
 - (id);
 - (_Bool);
 - (void);
+- (void)l;
 - (void);
-- (void);
-- (id);
+- (id)#;
 
 @end
 

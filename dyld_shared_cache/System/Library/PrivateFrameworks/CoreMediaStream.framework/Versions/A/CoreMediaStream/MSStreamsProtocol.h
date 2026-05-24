@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
 @protocol MSStreamsProtocolDelegate;
 
 @interface MSStreamsProtocol
 {
     id <MSStreamsProtocolDelegate> _delegate;
-    NSString *_personID;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)publish:%@, skipping /* Error: Ran out of types for this method. */;
+- (id)DataStream Socket write error (%@);
+- (id)@Connect called on an already-connecting transport;
+- (id)because message from source:%lu does not have sufficient entitlements /* Error: Ran out of types for this method. */;
+- (id)update (%{public}@ is ourself);
+- (id)omponent with %@;
+- (id)ntUUID is nil - cannot create mediaSystemComponent with %@;
+- (void)n UUID:(struct __MSSPCContext *)arg1 %{public}@;
+- (void)apshotRemoteStreamReceiver:(id)arg1 accessory reference is nil;
+- (void)Creating a snapshot session with HMDCameraSnapshotRemoteStreamReceiver;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)H
+;
 - (void);
 
 // Remaining properties
 @property(nonatomic) id <MSStreamsProtocolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) __weak NSURL *deleteURL;
-@property(readonly, nonatomic) __weak NSURL *getURL;
-@property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly, nonatomic) __weak NSURL *putURL;
-@property(readonly, nonatomic) __weak NSURL *reauthorizeURL;
-@property(readonly, nonatomic) __weak NSURL *resetURL;
-@property(readonly, nonatomic) __weak NSURL *uploadCompleteURL;
 
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKTextInputElement, UITouch;
-@protocol PKDrawingGestureTarget, PKTextInputDrawingGestureRecognizerDelegate;
+@class UITouch;
 
 @interface PKTextInputDrawingGestureRecognizer
 {
     _Bool _waitingForTargetElementSearch;
-    _Bool _requiresTargetElementToBegin;
-    _Bool _requiresPastTapToBegin;
-    double _drawStartTime;
-    double _touchesBeganTimestamp;
-    struct CGPoint _drawTouchStartPoint;
-    CDUnknownBlockType _timeoutBlock;
-    CDUnknownBlockType _longPressTentativeBlock;
-    CDUnknownBlockType _longPressSuccessBlock;
-    CDUnknownBlockType _notMovingCancelBlock;
-    CDUnknownBlockType _gestureEnvironmentResetTimeoutBlock;
-    _Bool _drawingTargetIsDrawing;
-    _Bool _isReplaying;
-    unsigned long long _activeInputProperties;
-    id <PKDrawingGestureTarget> drawingTarget;
-    long long _strokeAcceptanceState;
-    long long _longPressState;
-    PKTextInputElement *_targetElement;
-    UITouch *_drawingTouch;
-    long long _panState;
-    long long _panDirection;
 }
 
 + (id);
@@ -104,28 +83,11 @@
 - (void);
 - (void);
 - (void)ICoordinateSpace>";
-- (void)Active:(id)arg1;
-- (void)oveToParentViewController: /* Error: Ran out of types for this method. */;
+- (void)setScribbleIBeamActive:(id)arg1;
+- (void)willMoveToParentViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeInputProperties; // @synthesize activeInputProperties=_activeInputProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputDrawingGestureRecognizerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PKDrawingGestureTarget> drawingTarget; // @synthesize drawingTarget;
-@property(nonatomic, setter=_setDrawingTargetIsDrawing:) _Bool drawingTargetIsDrawing; // @synthesize drawingTargetIsDrawing=_drawingTargetIsDrawing;
 @property(retain, nonatomic) UITouch *drawingTouch; // @synthesize drawingTouch=_drawingTouch;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isReplaying; // @synthesize isReplaying=_isReplaying;
-@property(nonatomic, setter=_setLongPressState:) long long longPressState; // @synthesize longPressState=_longPressState;
-@property(nonatomic, setter=_setPanDirection:) long long panDirection; // @synthesize panDirection=_panDirection;
-@property(nonatomic, setter=_setPanState:) long long panState; // @synthesize panState=_panState;
-@property(nonatomic, setter=_setStrokeAcceptanceState:) long long strokeAcceptanceState; // @synthesize strokeAcceptanceState=_strokeAcceptanceState;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PKTextInputElement *targetElement; // @synthesize targetElement=_targetElement;
 
 @end
 

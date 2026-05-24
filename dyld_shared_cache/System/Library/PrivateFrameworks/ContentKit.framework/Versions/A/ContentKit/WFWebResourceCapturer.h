@@ -7,23 +7,21 @@
 @interface WFWebResourceCapturer
 {
     WFWebResourceCapturer *_retainedSelf;
-    CDUnknownBlockType _generatePDFCompletion;
 }
 
 + (void);
 + (void);
 - (void);
 - (id);
-- (void);
+- (void)Ԝ;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)L;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType generatePDFCompletion; // @synthesize generatePDFCompletion=_generatePDFCompletion;
 @property(retain, nonatomic) WFWebResourceCapturer *retainedSelf; // @synthesize retainedSelf=_retainedSelf;
 
 @end

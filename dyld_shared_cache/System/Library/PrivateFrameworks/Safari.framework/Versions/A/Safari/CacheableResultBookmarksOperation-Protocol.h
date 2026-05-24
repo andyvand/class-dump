@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCopying> cacheKey;
-@property(retain, nonatomic) id result;
 @end
 

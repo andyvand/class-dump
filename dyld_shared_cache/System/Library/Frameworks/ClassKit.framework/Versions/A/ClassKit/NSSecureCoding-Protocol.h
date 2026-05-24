@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)fetchCachedLoginResponseForAccount:completion: /* Error: Ran out of types for this method. */;
 @end
 

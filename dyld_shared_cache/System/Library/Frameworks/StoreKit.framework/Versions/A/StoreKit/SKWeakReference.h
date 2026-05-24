@@ -10,11 +10,41 @@ __attribute__((visibility("hidden")))
     id _object;
 }
 
-- (id);
-- (unsigned long long);
+- (id)tryPoint:"%d" flags:%x
+ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ey>C3D-viewProjectionInverseTransform-symbol</key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>VELOCITY</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba16f</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+		</dict>
+		<key>blur-target</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+			<key>scaleFactor</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (void);
 - (_Bool);
-- (id);
+- (id)FinderTagsUser;
 - (void);
 
 // Remaining properties

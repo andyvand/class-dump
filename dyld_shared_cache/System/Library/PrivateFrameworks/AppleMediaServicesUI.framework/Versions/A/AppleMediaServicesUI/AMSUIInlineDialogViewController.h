@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSBinaryPromise, AMSDialogRequest, AMSEngagement, AMSUIAppearance, NSDictionary, NSString, NSViewController;
-@protocol AMSBagProtocol, AMSUIMessageViewController, AMSUIMessageViewControllerDelegate;
+@class ACAccount;
 
 @interface AMSUIInlineDialogViewController
 {
     _Bool _shouldAutomaticallyReportMetrics;
-    unsigned long long _impressionsReportingFrequency;
-    AMSBinaryPromise *_loadPromise;
-    id <AMSUIMessageViewControllerDelegate> _delegate;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSEngagement *_engagement;
-    AMSDialogRequest *_dialogRequest;
-    NSString *_placement;
-    NSString *_serviceType;
-    NSDictionary *_context;
-    NSViewController<AMSUIMessageViewController> *_childContentController;
-    struct CGPoint _anchorPoint;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -54,60 +41,39 @@
 - (id);
 - (void);
 - (void);
+- (id)?ס;
+- (void);
+- (void)tage > Local(%zu), StageDecision:(id)arg1 YES;
+- (void)many failed attempts to create activity indicator file;
+- (void)cloudphotolibrary.userPausedStateChanged;
+- (void)apple.icloudphotolibrary.pausedStateChanged;
+- (void)synonyms;
+- (id)PLSearchHomeItemTypeSocialGroup;
+- (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)inputModesToRemoveForInputModes: /* Error: Ran out of types for this method. */;
+- (void)discardable;
+- (id);
+- (void)0;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)t;
 - (void);
-- (id);
-- (void)ctionID;
-- (id)stResult: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)transactionID;
+- (id)setHtmlRequestResult: /* Error: Ran out of types for this method. */;
 - (void)t_ÿÿ´_ÿÿÌ_ÿÿ`ÿÿL`ÿÿ`ÿÿØ`ÿÿ$aÿÿHaÿÿ`aÿÿxaÿÿ0bÿÿpbÿÿ°bÿÿdÿÿ,dÿÿDdÿÿdÿÿ´dÿÿôdÿÿ@eÿÿ¼fÿÿÔfÿÿ$gÿÿ@hÿÿ hÿÿ¸hÿÿpjÿÿÜjÿÿÜkÿÿDlÿÿ°lÿÿÔlÿÿølÿÿmÿÿ¤mÿÿoÿÿ¨oÿÿpÿÿ pÿÿppÿÿpÿÿ pÿÿ¸pÿÿÐpÿÿôpÿÿ4qÿÿXqÿÿôqÿÿrÿÿLrÿÿtrÿÿ´rÿÿôrÿÿ4sÿÿtsÿÿ´sÿÿôsÿÿ4tÿÿLtÿÿtÿÿtÿÿ´tÿÿÔtÿÿìtÿÿuÿÿØuÿÿðuÿÿ(vÿÿPvÿÿhvÿÿÀvÿÿwÿÿ0wÿÿwÿÿxÿÿ$xÿÿ¬xÿÿ¸zÿÿøzÿÿ{ÿÿ@{ÿÿt&ìÿÄ+ìÿÜ¡ìÿð£ìÿÆìÿÉìÿtÎìÿÐìÿXáìÿXåìÿðìÿ íÿ íÿìíÿXÍîÿ8&ïÿ ðÿÜÅðÿ0ÖðÿXëðÿ°ÿðÿ Cñÿ´VñÿÄcñÿÐñÿtñÿ°ñÿLòÿÄòÿÌòÿDóÿ¨¤óÿTµóÿÄÞóÿìïóÿôÿXôÿ°FôÿÈJôÿTôÿðYôÿ¼`ôÿaôÿðyôÿlôÿFôÿlôÿX°ôÿü²ôÿ|Óôÿ(õÿpöÿhöÿ·öÿòöÿ0÷ÿ|÷ÿd÷ÿh"÷ÿðP÷ÿT÷ÿäT÷ÿY÷ÿTv÷ÿ|÷ÿÄ­÷ÿèÎ÷ÿÓ÷ÿ¼Ö÷ÿ(ß÷ÿhã÷ÿñ÷ÿd*øÿ(~øÿx¾øÿÙøÿùÿX¶ùÿ½ùÿ8Åùÿ¼Æùÿ¼þðÿÔùÿLûùÿ0úÿh1úÿü8úÿ úÿxúÿ0úÿh&ìÿÄ+ìÿ £ìÿÐÅìÿPÉìÿ£ìÿ@áìÿäìÿd÷ìÿlíÿdíÿPííÿ'ïÿ¤ðÿ«ðÿÄ¬ðÿ®ðÿÐ±ðÿ³ðÿt·ðÿÎðÿäÑðÿøáðÿÈãðÿ¬ñðÿ,ÿðÿÈHñÿÔJñÿl]ñÿxhñÿÌñÿñÿD¢ñÿ4òÿäòÿ0&òÿèóÿ¤óÿ(¬óÿÀ¹óÿ°ÞóÿÜ÷óÿÈÿóÿ|ôÿ ôÿLôÿøSôÿÜYôÿhôÿLzôÿôÿÔ¯ôÿp¸ôÿØºôÿ;
 - (void)AAyÒ=ÓÈ=yÕÌ=SgGG4t=Gn£=GANG_Qo__ =Qo_GGN©=y¡=yAAyoÑ=*Å=y8x;
-- (id)p;
+- (id)So27AKCredentialRequestProtocol_p;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSViewController<AMSUIMessageViewController> *childContentController; // @synthesize childContentController=_childContentController;
-@property(retain) NSDictionary *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIMessageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) AMSDialogRequest *dialogRequest; // @synthesize dialogRequest=_dialogRequest;
-@property(retain) AMSEngagement *engagement; // @synthesize engagement=_engagement;
-@property unsigned long long engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency; // @synthesize impressionsReportingFrequency=_impressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise; // @synthesize loadPromise=_loadPromise;
-@property(retain) NSString *placement; // @synthesize placement=_placement;
-@property(retain) AMSUIAppearance *preferredAppearance; // @dynamic preferredAppearance;
-@property(retain) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property _Bool shouldAutomaticallyReportMetrics; // @synthesize shouldAutomaticallyReportMetrics=_shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

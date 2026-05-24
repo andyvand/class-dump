@@ -16,8 +16,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void)compiledComputePipelineStateWithDescriptor:(id)arg1 options:pipelineCache:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)newPrecompiledComputePipelineStateWithDescriptor:(id)arg1 options:pipelineCache:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

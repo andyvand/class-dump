@@ -9,13 +9,11 @@
 @interface CDPQuotaStorageRequestConfigurator
 {
     ACAccount *_account;
-    unsigned long long _appList;
-    _Bool _specifyE2EE;
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)u;
+- (_Bool);
 - (void);
 
 @end

@@ -7,8 +7,6 @@
 @interface MFDimmableButton
 {
     _Bool _hidesWhenDimmedIfNotSelected;
-    _Bool _dimmed;
-    _Bool _stickyHiddenValue;
 }
 
 - (_Bool);
@@ -19,15 +17,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)P;
+- (void)t_id_index ON madrid_chat(account_id);
 - (void);
-- (void);
-- (void);
+- (void)ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long autohidePreference;
-@property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(nonatomic) _Bool hidesWhenDimmedIfNotSelected; // @synthesize hidesWhenDimmedIfNotSelected=_hidesWhenDimmedIfNotSelected;
 @property(nonatomic) _Bool stickyHiddenValue; // @synthesize stickyHiddenValue=_stickyHiddenValue;
 
 @end

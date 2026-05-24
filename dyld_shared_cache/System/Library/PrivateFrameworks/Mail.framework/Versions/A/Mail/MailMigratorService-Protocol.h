@@ -5,5 +5,6 @@
 //
 
 @protocol MailMigratorService
+- (void);
 @end
 

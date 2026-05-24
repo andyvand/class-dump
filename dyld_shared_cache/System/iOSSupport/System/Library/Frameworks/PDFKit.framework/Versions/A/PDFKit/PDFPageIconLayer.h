@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, PDFDocument;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageIconLayer
 {
     PDFDocument *_document;
-    int _pageIndex;
-    struct CGSize _frameSize;
-    _Bool _needsUpdate;
-    CALayer *_overlay;
-    _Bool _selected;
-    _Bool _prefersOverlaySelection;
 }
 
 - (void);
@@ -24,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
+- (id)@;
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
@@ -35,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak PDFDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) int pageIndex;
-@property(nonatomic) _Bool prefersOverlaySelection; // @synthesize prefersOverlaySelection=_prefersOverlaySelection;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

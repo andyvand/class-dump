@@ -9,14 +9,13 @@
 @interface DADataHandler
 {
     void *_container;
-    NSString *_changeTrackingID;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (int);
 - (id);
 - (id);
@@ -36,7 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *changeTrackingID; // @synthesize changeTrackingID=_changeTrackingID;
-@property(nonatomic) void *container; // @synthesize container=_container;
 
 @end
 

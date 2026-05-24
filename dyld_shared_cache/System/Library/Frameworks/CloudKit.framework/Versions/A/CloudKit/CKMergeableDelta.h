@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAsset, CKMergeableDeltaMetadata, CKMergeableValueID, NSData, NSURL;
+@class NSURL;
 
 @interface CKMergeableDelta
 {
     NSURL *_fileURL;
-    CKMergeableDeltaMetadata *_metadata;
-    CKMergeableValueID *_valueID;
-    NSData *__data;
-    CKAsset *_asset;
-    long long _encryptMetadataTernary;
-    NSData *_encryptedData;
 }
 
 + (unsigned long long);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface SFSpeechAnalyzerOptionsLoggingInfo
 {
     NSUUID *_asrID;
-    NSUUID *_requestID;
-    NSString *_dictationUIInteractionID;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *asrID; // @synthesize asrID=_asrID;
-@property(readonly, copy, nonatomic) NSString *dictationUIInteractionID; // @synthesize dictationUIInteractionID=_dictationUIInteractionID;
-@property(readonly, copy, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
 
 @end
 

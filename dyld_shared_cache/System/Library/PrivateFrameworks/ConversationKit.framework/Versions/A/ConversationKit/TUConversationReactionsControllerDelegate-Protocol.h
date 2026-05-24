@@ -5,5 +5,8 @@
 //
 
 @protocol TUConversationReactionsControllerDelegate
+
+@optional
+- (void);
 @end
 

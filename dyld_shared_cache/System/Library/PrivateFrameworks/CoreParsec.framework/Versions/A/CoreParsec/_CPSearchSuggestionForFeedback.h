@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _CPSearchSuggestionForFeedback
 {
     int _type;
-    NSString *_identifier;
-    NSString *_suggestion;
-    NSString *_query;
-    double _score;
-    NSString *_fbr;
-    NSString *_topicIdentifier;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)tr<WebKit:(id)arg1:WebPageProxy>, unsigned int>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebPageProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ension context is not loaded.;
+- (id)equest` ruleset with id "%s" is invalid. Ruleset id must be unique.;
+- (id)ntry.;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)tu_authorizationStatus;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fbr; // @synthesize fbr=_fbr;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *topicIdentifier; // @synthesize topicIdentifier=_topicIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableOrderedSet, WFCoercionOptions, WFContentCoercionNode, WFType;
+@class NSMutableOrderedSet, WFCoercionOptions;
 
 @interface WFContentCoercionSearch
 {
     WFCoercionOptions *_options;
-    WFContentCoercionNode *_startNode;
-    NSArray *_goalItemClasses;
-    WFType *_goalType;
-    NSMutableOrderedSet *_visitedStates;
-    NSMutableArray *_agenda;
 }
 
 + (id);
@@ -38,11 +33,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *agenda; // @synthesize agenda=_agenda;
-@property(readonly, nonatomic) NSArray *goalItemClasses; // @synthesize goalItemClasses=_goalItemClasses;
-@property(readonly, nonatomic) WFType *goalType; // @synthesize goalType=_goalType;
-@property(readonly, nonatomic) WFCoercionOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) WFContentCoercionNode *startNode; // @synthesize startNode=_startNode;
 @property(readonly, nonatomic) NSMutableOrderedSet *visitedStates; // @synthesize visitedStates=_visitedStates;
 
 @end

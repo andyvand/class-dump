@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNGenerateOpticalFlowRequestConfiguration : VNTargetedImageRequestConfiguration
 {
     _Bool _keepNetworkOutput;
-    unsigned int _outputPixelFormat;
-    unsigned long long _computationAccuracy;
 }
 
 - (id);

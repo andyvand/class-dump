@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MailUI.FeedbackViewModelHelper
 {
     long long selectedBucket;
-    void selectedMailboxes;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (void)lterColor;
+- (void)mailVIPFilterColor;
 
 // Remaining properties
 @property(nonatomic) long long selectedBucket; // @synthesize selectedBucket;
-@property(nonatomic, copy) NSArray *selectedMailboxes;
 
 @end
 

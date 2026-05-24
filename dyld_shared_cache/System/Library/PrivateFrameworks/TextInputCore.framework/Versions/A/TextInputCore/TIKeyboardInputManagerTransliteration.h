@@ -6,46 +6,37 @@
 
 #import <TextInputCore/TIKeyboardInputManagerTransliterationBase.h>
 
-@class NSArray, NSMapTable, NSMutableArray, TIDictionaryLookup, TIKeyboardInputManager, TLTransliterator;
+@class TLTransliterator;
 
 @interface TIKeyboardInputManagerTransliteration : TIKeyboardInputManagerTransliterationBase
 {
     _Bool _prioritizeLatinCandidates;
-    _Bool _hasCandidates;
-    TLTransliterator *_transliterator;
-    TLTransliterator *_exactStringTransliterator;
-    TLTransliterator *_autocorrectionTransliterator;
-    TIDictionaryLookup *_dictionaryLookup;
-    NSArray *_currentCandidates;
-    TIKeyboardInputManager *_nativeModelManager;
-    NSMapTable *_transliteratorCandidateByMecabraCandidatePointerValue;
-    NSMutableArray *_committedCandidates;
 }
 
 + (id);
+- (id)isEmergencyRTTSupportedForContext:excludeRelay: /* Error: Ran out of types for this method. */;
+- (id)isEmergencyRTTSupportedForContext:excludeRelay: /* Error: Ran out of types for this method. */;
+- (void)handleRTTTranslationLocaleMessage:(id)arg1;
+- (id)didAddCapabilitiesForSenderIdentityWithUUID:(id)arg1;
+- (void)_updateConversationControllerWithTranscription:(id)arg1 type:callUUID: /* Error: Ran out of types for this method. */;
+- (void)_ttyMode;
+- (void)_garbageCharacterStripperTimer;
+- (void)_activeContextCount;
+- (void)V_isMe;
+- (void)@"NSString",&,N,V_currentTranscription;
+- (void)phonyUpdateQueue;
+- (void)NSMutableDictionary",&,N,V_phoneNumberInfoCache;
+- (void)RTTNanoSettings;
 - (id);
-- (id);
+- (void)transcribing:(id)arg1 %@;
+- (_Bool)ed character on non-endpoint device. Replying with re-pair request;
+- (id)ce RTT support;
+- (id)d not retrieve default voice context:(id)arg1 %@;
+- (shared_ptr_5685c32f)context %@ for caching;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (shared_ptr_e9f752ce);
-- (void);
-- (id);
-- (Class);
-- (_Bool);
+- (id)%d;
+- (Class)call:%@[%@] /* Error: Ran out of types for this method. */;
+- (_Bool)@ from call:%@ /* Error: Ran out of types for this method. */;
 - (void *);
 - (void);
 - (_Bool);
@@ -69,7 +60,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -78,16 +69,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) TLTransliterator *autocorrectionTransliterator; // @synthesize autocorrectionTransliterator=_autocorrectionTransliterator;
-@property(retain, nonatomic) NSMutableArray *committedCandidates; // @synthesize committedCandidates=_committedCandidates;
-@property(retain, nonatomic) NSArray *currentCandidates; // @synthesize currentCandidates=_currentCandidates;
-@property(retain, nonatomic) TIDictionaryLookup *dictionaryLookup; // @synthesize dictionaryLookup=_dictionaryLookup;
-@property(retain, nonatomic) TLTransliterator *exactStringTransliterator; // @synthesize exactStringTransliterator=_exactStringTransliterator;
-@property(nonatomic) _Bool hasCandidates; // @synthesize hasCandidates=_hasCandidates;
-@property(retain, nonatomic) TIKeyboardInputManager *nativeModelManager; // @synthesize nativeModelManager=_nativeModelManager;
-@property(nonatomic) _Bool prioritizeLatinCandidates; // @synthesize prioritizeLatinCandidates=_prioritizeLatinCandidates;
 @property(retain, nonatomic) TLTransliterator *transliterator; // @synthesize transliterator=_transliterator;
-@property(retain, nonatomic) NSMapTable *transliteratorCandidateByMecabraCandidatePointerValue; // @synthesize transliteratorCandidateByMecabraCandidatePointerValue=_transliteratorCandidateByMecabraCandidatePointerValue;
 
 @end
 

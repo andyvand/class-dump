@@ -5,5 +5,12 @@
 //
 
 @protocol TUCallCenterXPCServer
+- (oneway void);
+- (oneway void)Q;
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void):(_Bool)arg1 %lu;
 @end
 

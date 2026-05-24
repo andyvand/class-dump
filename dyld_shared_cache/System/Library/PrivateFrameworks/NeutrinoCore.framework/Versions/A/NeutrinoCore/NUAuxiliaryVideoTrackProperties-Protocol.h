@@ -8,7 +8,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @property(readonly, nonatomic) int trackID;
 @end
 

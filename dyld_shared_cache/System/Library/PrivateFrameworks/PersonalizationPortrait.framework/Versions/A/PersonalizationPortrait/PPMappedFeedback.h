@@ -15,9 +15,10 @@
 - (id);
 - (id);
 - (id);
+- (id)N15CoreHandwriting9synthesis21CHDiffusionPipelineKoE;
 - (id);
-- (id);
-- (id);
+- (id)nstruct valid stack logging path
+;
 
 @end
 

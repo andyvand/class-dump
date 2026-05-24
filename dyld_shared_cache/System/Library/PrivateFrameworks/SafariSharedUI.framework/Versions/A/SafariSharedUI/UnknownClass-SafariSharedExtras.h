@@ -7,20 +7,14 @@
 @class NSString;
 
 @interface UnknownClass (SafariSharedExtras)
++ (void)`;
 + (void);
-+ (void);
++ (id)*;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
 + (id);
 + (id);
 + (id);
@@ -28,13 +22,19 @@
 + (id);
 + (void);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id)#;
 + (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)7l;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *safari_profileIdentifier;

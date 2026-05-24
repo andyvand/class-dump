@@ -14,10 +14,10 @@
     NSObject<OS_dispatch_queue> *_cacheQueue;
 }
 
++ (id)P;
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)CMBaseObjectRef);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -51,10 +51,10 @@
 - (void);
 - (void);
 - (id)× ;
-- (void)CoreAnalyticsEventOperationFinished;
+- (void)sendCoreAnalyticsEventOperationFinished;
 - (id)Keys:(id)arg1 requestorOperationID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)nternalBuild;
+- (void)internalBuild;
 - (void)ess for share with URL %@:(id)arg1 %{public}@;
 
 // Remaining properties

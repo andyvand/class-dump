@@ -4,6 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol transparencyd_protocol
+- (void);
+- (void)V;
+- (void)-;
+- (void);
+- (void);
+- (void)g;
+- (void);
+- (void);
+- (void)>;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void){;
+- (void)RE;
+- (void)-;
+- (void)setNextRotationTimestamp:(void (^)(NSError *))arg1;
+- (void)ranker;
+- (void)N,V_freshnessDecayRate;
+- (void);
+- (void)tus = "%@";
+- (void)qA;
+- (void)targetWithProcessIdentity:(NSUUID *)arg1;
+- (void)n't get exec path for pid that exists, %d;
 @end
 

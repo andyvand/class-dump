@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PHFetchResult, PHPerson, PHSocialGroup, PXPhotoKitAssetsDataSourceManager, PXPhotoKitImportStatusManager, PXPhotosDataSource, PXSectionedObjectReference;
-@protocol PXRadarConfigurationProvider;
+@class PXPhotosDataSource;
 
 @interface PXPhotoKitAssetActionPerformer
 {
     _Bool _shouldSkipUserConfirmation;
-    _Bool _supportsAirPlay;
-    PHFetchResult *_assetsFetchResult;
-    NSArray *_assets;
-    NSDictionary *_assetsByAssetCollection;
-    PXPhotoKitAssetsDataSourceManager *_photoKitDataSourceManager;
-    PHPerson *_person;
-    PHSocialGroup *_socialGroup;
-    PXSectionedObjectReference *_objectReference;
-    PXPhotoKitImportStatusManager *_importStatusManager;
-    NSString *_importSessionID;
-    unsigned long long _presentationSource;
-    id <PXRadarConfigurationProvider> _radarConfigurationProvider;
 }
 
 + (_Bool);
 + (long long);
 + (long long);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -42,8 +29,8 @@
 + (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -52,7 +39,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
@@ -76,21 +63,7 @@
 - (void)TCCStatusProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSDictionary *assetsByAssetCollection; // @synthesize assetsByAssetCollection=_assetsByAssetCollection;
-@property(readonly, nonatomic) PHFetchResult *assetsFetchResult; // @synthesize assetsFetchResult=_assetsFetchResult;
-@property(readonly, nonatomic) NSDictionary *dataSourceUserInfo;
-@property(retain, nonatomic) NSString *importSessionID; // @synthesize importSessionID=_importSessionID;
-@property(retain, nonatomic) PXPhotoKitImportStatusManager *importStatusManager; // @synthesize importStatusManager=_importStatusManager;
-@property(retain, nonatomic) PXSectionedObjectReference *objectReference; // @synthesize objectReference=_objectReference;
-@property(retain, nonatomic) PHPerson *person; // @synthesize person=_person;
-@property(retain, nonatomic) PXPhotoKitAssetsDataSourceManager *photoKitDataSourceManager; // @synthesize photoKitDataSourceManager=_photoKitDataSourceManager;
 @property(readonly, nonatomic) PXPhotosDataSource *photosDataSourceSnapshot;
-@property(nonatomic) unsigned long long presentationSource; // @synthesize presentationSource=_presentationSource;
-@property(retain, nonatomic) id <PXRadarConfigurationProvider> radarConfigurationProvider; // @synthesize radarConfigurationProvider=_radarConfigurationProvider;
-@property(nonatomic) _Bool shouldSkipUserConfirmation; // @synthesize shouldSkipUserConfirmation=_shouldSkipUserConfirmation;
-@property(retain, nonatomic) PHSocialGroup *socialGroup; // @synthesize socialGroup=_socialGroup;
-@property(nonatomic) _Bool supportsAirPlay; // @synthesize supportsAirPlay=_supportsAirPlay;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AMSRequestPresentationDelegate
+- (void)ht client state;
 @end
 

@@ -11,19 +11,18 @@
 @interface TRIExperimentBaseTask : TRIBaseTask
 {
     _PASLock *_lock;
-    TRIExperimentDeployment *_experiment;
 }
 
-- (id);
-- (id);
+- (id)isInvalid;
+- (id)indexLabel;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)pth:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)ctionary";
+- (id);
 - (void)×°!LCù1!ð1Â0@ù
 × ;
 - (id)0;

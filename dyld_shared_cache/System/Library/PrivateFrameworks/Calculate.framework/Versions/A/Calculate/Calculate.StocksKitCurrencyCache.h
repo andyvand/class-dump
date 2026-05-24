@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface Calculate.StocksKitCurrencyCache
 {
 }
 
-+ (_Bool);
++ (_Bool)	;
 + (id)NéÓ÷k±s®«±;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *currencyData;
 @property(nonatomic, readonly) _Bool needsRefresh;
 
 @end

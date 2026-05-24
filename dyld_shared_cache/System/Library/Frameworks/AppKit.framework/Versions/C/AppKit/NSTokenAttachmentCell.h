@@ -9,18 +9,6 @@
 @interface NSTokenAttachmentCell : NSTextAttachmentCell
 {
     id _representedObject;
-    id _textColor;
-    id _view;
-    struct {
-        unsigned int _selected:1;
-        unsigned int _inSelection:1;
-        unsigned int _edgeStyle:2;
-        unsigned int _style:4;
-        unsigned int _useTintColor:1;
-        unsigned int _needsSeparator:1;
-        unsigned int _subclassOverridesTextAttributes:2;
-        unsigned int _reserved:20;
-    } _tacFlags;
 }
 
 + (_Bool);
@@ -28,12 +16,12 @@
 + (_Bool);
 + (_Bool);
 + (void)4¡ÿz_H;
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (struct CGRect);
+- (_Bool)Lrs7l5cKWJ1Gk5ZzgMAKyQ;
+- (_Bool)juE6wCsjVG4bfAhgHcUVcQ;
+- (id)Ty4lICNS1jQh45sB3wQd7A;
+- (unsigned long long)E+scKXscg;
+- (id)Nhm02nvVOaQPimpOshlO1g;
+- (struct CGRect)ji56BO1mUeT7Qg9RO7Er9w;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,7 +32,7 @@
 - (_Bool);
 - (long long);
 - (id);
-- (struct CGRect);
+- (struct CGRect)C;
 - (void);
 - (void);
 - (void);
@@ -63,34 +51,31 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)orLoader}@^^?^^?@@q^{RedirectionRecorder}CCC@CddC^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (void)checked__conditionalRequirementsChanged;
+- (long long)___ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask_block_invoke;
+- (id)s not done?;
+- (_Bool)t with uuid %@;
+- (long long)_allowsIndefiniteConnections;
+- (long long)is currently active.;
+- (id)4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (_Bool)__nsurlrequest_proto_prop_obj_29;
 - (void);
 - (void);
-- (long long);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (long long);
-- (long long);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id)cessibilityIsFocusedWindowAttributeSettable;
-- (id)ansforms;
+- (id)accessibilityIsFocusedWindowAttributeSettable;
+- (id)_transforms;
 - (void);
 - (CDStruct_ac6c7d7a *)dler(_menuEventHandler);
 - (_Bool)¬ÞÿåFh¨ÞÿGh;
-- (id)ionKey;
+- (id)NNSFontTextStyleOptionKey;
 - (void)Ð¤?;
 
 // Remaining properties
-@property(readonly) _Bool alwaysShowBackground;
-@property(readonly) _Bool neverShowSeparator;
-@property(readonly, getter=isSelected) _Bool selected;
 @property unsigned long long tokenStyle;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
-
 @interface _BlastDoorLPArtworkMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSDictionary *_colors;
 }
 
 + (_Bool);
@@ -28,8 +24,6 @@
 - (void)¸Ãÿå¬Éÿå¨ÉÿÅ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDictionary *colors; // @synthesize colors=_colors;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

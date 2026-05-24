@@ -7,12 +7,9 @@
 @interface AFMyriadMetricsAdditionalContext
 {
     unsigned char _rawGoodnessScore;
-    unsigned char _goodnessScore;
-    unsigned char _deviceClass;
-    unsigned char _deviceProductType;
 }
 
-- (unsigned char);
+- (unsigned char)<;
 - (id);
 - (unsigned char);
 - (id);
@@ -20,9 +17,6 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, nonatomic) unsigned char deviceProductType; // @synthesize deviceProductType=_deviceProductType;
-@property(readonly, nonatomic) unsigned char goodnessScore; // @synthesize goodnessScore=_goodnessScore;
 @property(readonly, nonatomic) unsigned char rawGoodnessScore; // @synthesize rawGoodnessScore=_rawGoodnessScore;
 
 @end

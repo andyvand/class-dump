@@ -6,15 +6,12 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSError, NSString;
-
 @interface MTLToolsIOCommandBuffer : MTLToolsObject
 {
     struct os_unfair_lock_s _handlerLock;
-    struct vector<void (^)(id<MTLIOCommandBuffer>), std::allocator<void (^)(id<MTLIOCommandBuffer>)>> _completedHandlers;
-    _Bool _didInvokeCompletedHandlers;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,8 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)b;
 - (id);
 - (void);
 - (void);
@@ -43,22 +39,12 @@
 - (void);
 - (void)};
 - (unsigned long long)"MTLAccelerationStructureAllocationDescriptor"24;
-- (void)t;
+- (void)maxKernelBufferBindCount;
 - (void)height(%lu) (full image) for %s.;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error;
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
 
 @end
 

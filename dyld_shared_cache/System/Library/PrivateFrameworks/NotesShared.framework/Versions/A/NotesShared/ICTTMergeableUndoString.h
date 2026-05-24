@@ -12,7 +12,7 @@
 
 - (void);
 - (struct TopoIDRange);
-- (void);
+- (void)';
 - (void);
 - (void);
 

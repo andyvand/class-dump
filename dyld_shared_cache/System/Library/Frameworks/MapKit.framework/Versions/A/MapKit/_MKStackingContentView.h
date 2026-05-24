@@ -12,25 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _MKStackingContentView : _MKUIViewControllerRootView
 {
     NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_middleConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSView *_topView;
-    NSView *_bottomView;
 }
 
-- (id);
+- (id)__TEXT;
 - (void);
-- (void);
+- (void)batchDropMessages;
 - (id);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (void);
-- (void)tStationCodes: /* Error: Ran out of types for this method. */;
+- (void)?;
+- (void)setStationCodes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSLayoutConstraint *bottomConstraint;
-@property(retain, nonatomic) NSView *bottomView; // @synthesize bottomView=_bottomView;
 @property(retain, nonatomic) NSView *topView; // @synthesize topView=_topView;
 
 @end

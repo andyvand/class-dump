@@ -6,32 +6,21 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAUISize : AceObject
 {
 }
 
 - (double);
-- (id);
+- (id)v>;
 - (long long);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long) ;
+- (void)XK;
+- (void);
+- (void)[Y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long height;
-@property(nonatomic) double scale;
-@property(readonly) Class superclass;
-@property(nonatomic) long long width;
 
 @end
 

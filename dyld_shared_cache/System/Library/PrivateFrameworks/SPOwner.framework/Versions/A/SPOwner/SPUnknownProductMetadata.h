@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface SPUnknownProductMetadata
 {
     NSString *_title;
-    NSArray *_moreDescription;
-    double _percentageX;
-    double _percentageY;
-    NSURL *_image;
-    NSURL *_image2x;
-    NSURL *_image3x;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (id);
+- (double)ir@9	k;
+- (double);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,18 +28,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)genericCSSTemplateURL;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSURL *image2x; // @synthesize image2x=_image2x;
-@property(copy, nonatomic) NSURL *image3x; // @synthesize image3x=_image3x;
-@property(copy, nonatomic) NSArray *moreDescription; // @synthesize moreDescription=_moreDescription;
-@property(nonatomic) double percentageX; // @synthesize percentageX=_percentageX;
-@property(nonatomic) double percentageY; // @synthesize percentageY=_percentageY;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

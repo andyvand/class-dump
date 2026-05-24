@@ -9,7 +9,6 @@
 @interface MFTimezoneCollectionViewCell
 {
     NSString *_currentCityName;
-    UICellAccessoryLabel *_timeZoneLabel;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentCityName; // @synthesize currentCityName=_currentCityName;
 @property(retain, nonatomic) UICellAccessoryLabel *timeZoneLabel; // @synthesize timeZoneLabel=_timeZoneLabel;
 
 @end

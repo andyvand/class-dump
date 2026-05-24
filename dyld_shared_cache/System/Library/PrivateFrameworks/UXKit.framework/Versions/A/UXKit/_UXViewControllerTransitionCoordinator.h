@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _UXViewControllerTransitionContext;
+@class _UXViewControllerTransitionContext;
 
 @interface _UXViewControllerTransitionCoordinator
 {
     _UXViewControllerTransitionContext *__mainContext;
-    NSMutableArray *__alongsideAnimations;
-    NSMutableArray *__alongsideAnimationViews;
-    NSMutableArray *__alongsideCompletions;
-    NSMutableArray *__interactiveChangeHandlers;
 }
 
 - (id);
@@ -28,40 +24,29 @@
 - (_Bool);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)A;
+- (_Bool)$;
 - (_Bool);
 - (id);
-- (double);
+- (_Bool);
+- (id);
+- (double)__bss;
 - (double);
 - (void)ÔaÚ°!È@ùñï1Â0@ù
 × ;
 - (long long)Ú°!dEùðÐ1Â0@ù
 × ;
-- (id):(_Bool)arg1;
-- (id)olbarPosition;
+- (id)setInteractor:(_Bool)arg1;
+- (id)__toolbarPosition;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAlongsideAnimationViews:) NSMutableArray *_alongsideAnimationViews; // @synthesize _alongsideAnimationViews=__alongsideAnimationViews;
-@property(retain, nonatomic, setter=_setAlongsideAnimations:) NSMutableArray *_alongsideAnimations; // @synthesize _alongsideAnimations=__alongsideAnimations;
-@property(retain, nonatomic, setter=_setAlongsideCompletions:) NSMutableArray *_alongsideCompletions; // @synthesize _alongsideCompletions=__alongsideCompletions;
-@property(retain, nonatomic, setter=_setInteractiveChangeHandlers:) NSMutableArray *_interactiveChangeHandlers; // @synthesize _interactiveChangeHandlers=__interactiveChangeHandlers;
 @property(nonatomic, setter=_setMainContext:) _UXViewControllerTransitionContext *_mainContext; // @synthesize _mainContext=__mainContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

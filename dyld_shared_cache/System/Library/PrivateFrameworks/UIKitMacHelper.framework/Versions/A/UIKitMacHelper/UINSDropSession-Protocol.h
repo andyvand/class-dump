@@ -7,10 +7,9 @@
 @class NSArray;
 
 @protocol UINSDropSession
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, nonatomic) unsigned long long operationMask;
-@property(readonly, nonatomic) unsigned int sessionID;
 @end
 

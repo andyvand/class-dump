@@ -7,9 +7,6 @@
 @interface PodcastsFoundation._UserDefaultsObserver
 {
     id state;
-    id key;
-    id userDefaults;
-    id notify;
 }
 
 - (void);

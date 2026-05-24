@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSString;
 
 @interface AXMTranslatedText
 {
     _Bool _lowConfidence;
-    NSString *_text;
-    double _confidence;
-    NSLocale *_targetLocale;
 }
 
-+ (id);
-+ (_Bool);
++ (id)\|;
++ (_Bool)supportsSecureCoding;
 - (void);
+- (id){;
+- (void);
+- (_Bool)o;
+- (id)h=m;
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (double);
+- (double)emCopyMatching status %d;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic, getter=isLowConfidence) _Bool lowConfidence; // @synthesize lowConfidence=_lowConfidence;
-@property(retain, nonatomic) NSLocale *targetLocale; // @synthesize targetLocale=_targetLocale;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

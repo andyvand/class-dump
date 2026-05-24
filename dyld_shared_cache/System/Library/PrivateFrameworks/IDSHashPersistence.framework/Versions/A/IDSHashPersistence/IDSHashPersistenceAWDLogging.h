@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDServerConnection, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSHashPersistenceAWDLogging
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AWDServerConnection *_AWDServerConnection;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_IsMeeting;
 - (void);
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol NSStatusItemDelegate
+
+@optional
+- (void);
+- (void)iF;
 @end
 

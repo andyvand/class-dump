@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKTrigger.h>
 
-@class NSArray, NSPredicate, NSSet;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKEventTrigger : MKFCKTrigger
@@ -14,21 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)etaController:(id)arg1 didUpdateReachedDestinationForSharedTrip:(id)arg2;
+- (_Bool)AY] incomingMessage URL %@ from %@ to %@;
 - (id);
-- (id);
+- (id)w;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessories; // @dynamic accessories;
 @property(retain, nonatomic) NSPredicate *condition; // @dynamic condition;
-@property(retain, nonatomic) NSArray *events; // @dynamic events;
-@property(retain, nonatomic) NSArray *guestEvents; // @dynamic guestEvents;
-@property(retain, nonatomic) NSSet *guests; // @dynamic guests;
-@property(nonatomic) long long recurrencesInt; // @dynamic recurrencesInt;
-@property(retain, nonatomic) NSSet *users; // @dynamic users;
 
 @end
 

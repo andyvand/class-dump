@@ -4,40 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAMImpressionManager, IAMMessageEntryManager, IAMModalTarget, IAMStorageCoordinator, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol IAMApplicationContextProvider, IAMMessageMetricsDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol IAMMessageMetricsDelegate, OS_dispatch_queue;
 
 @interface IAMMessageCoordinator
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    id <IAMApplicationContextProvider> _applicationContext;
-    NSMutableDictionary *_messageTargetsByTargetIdentifier;
-    NSMutableDictionary *_messageTargetsRequiringNilPriorityMessageNotificationAfterRegistrationByTargetIdentifier;
-    NSMutableDictionary *_priorityMessageEntryByTargetIdentifier;
-    IAMImpressionManager *_impressionManager;
-    NSMutableArray *_pendingTriggerContexts;
-    IAMStorageCoordinator *_storageCoordinator;
-    NSDictionary *_metadataEntryByMessageIdentifier;
-    NSDate *_lastDisplayTimeGlobalPresentationPolicyGroupNormal;
-    NSDate *_lastDisplayTimeGlobalPresentationPolicyGroupRestricted;
-    IAMMessageEntryManager *_messageEntryManager;
-    _Bool _isReadyToEvaluateMessages;
-    NSString *_modalTargetIdentifier;
-    IAMModalTarget *_modalTarget;
-    NSDictionary *_messageGroupsByGroupIdentifier;
-    NSMutableDictionary *_completionHandlersForObservedEvents;
-    id <IAMMessageMetricsDelegate> _metricsDelegate;
 }
 
 + (id);
 + (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -52,22 +49,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)K)k;
 - (void);
 - (void);
 - (void);
@@ -79,23 +62,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)fAVAsset will return nil.;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <IAMApplicationContextProvider> applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <IAMMessageMetricsDelegate> metricsDelegate; // @synthesize metricsDelegate=_metricsDelegate;
-@property(readonly) Class superclass;
 
 @end
 

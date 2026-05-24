@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CorrectionsProfilesLastState, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary;
 
 @interface CorrectionsProfilesSyncHandler
 {
     NSDictionary *_correctionProfiles;
-    NSMutableArray *_correctionProfileKeysToSync;
-    NSMutableArray *_correctionProfileKeysToDelete;
-    CorrectionsProfilesLastState *_lastState;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

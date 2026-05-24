@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkCredential
 {
     NSUUID *_networkRouterUUID;
-    NSNumber *_clientIdentifier;
-    NSData *_wiFiPSK;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (void)²êÔC=;
 
 // Remaining properties
-@property(readonly) NSNumber *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(readonly) NSUUID *networkRouterUUID; // @synthesize networkRouterUUID=_networkRouterUUID;
-@property(readonly) NSData *wiFiPSK; // @synthesize wiFiPSK=_wiFiPSK;
 
 @end
 

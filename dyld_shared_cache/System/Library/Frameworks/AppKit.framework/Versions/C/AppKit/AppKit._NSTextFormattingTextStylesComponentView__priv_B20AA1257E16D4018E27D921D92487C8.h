@@ -9,13 +9,12 @@
 @interface AppKit._NSTextFormattingTextStylesComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : AppKit._NSTextFormattingBasePopUpButton__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id $__lazy_storage_$_defaultItem;
-    id $__lazy_storage_$_stylesItem;
 }
 
-- (void);
+- (void)2k2;
+- (id);
 - (id);
-- (id);
-- (id)rchical:(struct CGRect)arg1;
+- (id)_standardMenuItemImageWithName:(struct CGRect)arg1 hierarchical: /* Error: Ran out of types for this method. */;
 - (void)(pE;
 
 @end

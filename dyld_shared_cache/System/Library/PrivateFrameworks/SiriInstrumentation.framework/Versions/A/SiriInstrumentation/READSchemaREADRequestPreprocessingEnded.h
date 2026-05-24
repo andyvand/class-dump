@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface READSchemaREADRequestPreprocessingEnded : SISchemaInstrumentationMessage
 {
     unsigned int _articleTextLength;
-    unsigned int _utteranceCount;
-    float _estimatedDuration;
-    struct {
-        unsigned int articleTextLength:1;
-        unsigned int utteranceCount:1;
-        unsigned int estimatedDuration:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -37,22 +28,18 @@
 - (unsigned int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nimplemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAccountLookupResponse_macOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)s newer than expected version. This may have occurred due to a software downgrade.
+
+No data has been removed but Messages may not behave as expected.;
+- (id);
 - (id);
-- (id);
-- (id)whichOneof_Actionrequirement;
+- (id)_whichOneof_Actionrequirement;
 - (id)cknowledgedPingCount;
 
 // Remaining properties
 @property(nonatomic) unsigned int articleTextLength; // @synthesize articleTextLength=_articleTextLength;
-@property(nonatomic) float estimatedDuration; // @synthesize estimatedDuration=_estimatedDuration;
-@property(nonatomic) _Bool hasArticleTextLength;
-@property(nonatomic) _Bool hasEstimatedDuration;
-@property(nonatomic) _Bool hasUtteranceCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int utteranceCount; // @synthesize utteranceCount=_utteranceCount;
 
 @end
 

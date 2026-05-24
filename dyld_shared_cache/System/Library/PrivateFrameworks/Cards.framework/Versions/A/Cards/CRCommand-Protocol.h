@@ -7,9 +7,9 @@
 @class NSDictionary;
 
 @protocol CRCommand
+- (void)(;
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandDirection;
 @property(copy, nonatomic) NSDictionary *userInfo;
 @end
 

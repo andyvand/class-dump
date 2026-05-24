@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHCarplayLanguageMismatch : SISchemaInstrumentationMessage
 {
     NSString *_carHeadUnitSelectedLocale;
-    int _carplayTriggerMode;
-    struct {
-        unsigned int carplayTriggerMode:1;
-    } _has;
-    _Bool _hasCarHeadUnitSelectedLocale;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (int);
+- (int)#;
 - (id);
 - (void);
 - (void);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)gB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/x_info.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,10 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *carHeadUnitSelectedLocale; // @synthesize carHeadUnitSelectedLocale=_carHeadUnitSelectedLocale;
-@property(nonatomic) int carplayTriggerMode; // @synthesize carplayTriggerMode=_carplayTriggerMode;
-@property(nonatomic) _Bool hasCarHeadUnitSelectedLocale; // @synthesize hasCarHeadUnitSelectedLocale=_hasCarHeadUnitSelectedLocale;
-@property(nonatomic) _Bool hasCarplayTriggerMode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBError
 {
     int _errorCode;
-    NSString *_errorMessage;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)NSt3__118__weak_result_typeIPF7CGPointS1_RN15InputTranscoder14KeyboardLayoutEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void)Limit;
+- (id);
+- (void)localNotificationReceived;
+- (void)_numberOfScreenfulsScrolledToBypassWidgetTimeLimit;
 - (int)k;
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) _Bool hasErrorMessage;
 
 @end
 

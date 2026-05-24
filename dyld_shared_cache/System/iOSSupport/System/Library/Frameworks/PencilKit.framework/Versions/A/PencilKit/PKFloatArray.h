@@ -7,11 +7,10 @@
 @interface PKFloatArray
 {
     vector_3f2cadd7 _vfloats;
-    unsigned long long _capacity;
 }
 
 - (double);
-- (void);
+- (void)_durationGradientImage;
 - (double);
 - (void);
 - (id);

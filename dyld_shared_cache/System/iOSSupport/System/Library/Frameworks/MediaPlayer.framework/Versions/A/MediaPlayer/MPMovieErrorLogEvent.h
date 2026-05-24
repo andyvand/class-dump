@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemErrorLogEvent, NSDate, NSString;
+@class AVPlayerItemErrorLogEvent, NSDate;
 
 @interface MPMovieErrorLogEvent
 {
@@ -12,24 +12,18 @@
 }
 
 - (id);
-- (id);
+- (id)';
 - (id);
 - (long long);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)8;
 - (void)ignmentRectInsets;
-- (id)nID;
+- (id)MPIdentifierSetCodingKeyPersonID;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URI;
 @property(readonly, nonatomic) NSDate *date;
-@property(readonly, nonatomic) NSString *errorComment;
-@property(readonly, nonatomic) NSString *errorDomain;
-@property(readonly, nonatomic) long long errorStatusCode;
-@property(readonly, nonatomic) NSString *playbackSessionID;
-@property(readonly, nonatomic) NSString *serverAddress;
 
 @end
 

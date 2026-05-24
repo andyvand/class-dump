@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DESpeakableString
 {
     void *_This;
@@ -16,7 +14,7 @@
 - (void *);
 - (id);
 - (void);
-- (void);
+- (void)d1;
 - (void);
 - (id);
 - (_Bool);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property void *This; // @synthesize This=_This;
-@property(retain) NSString *print;
-@property(retain) NSString *speak;
 
 @end
 

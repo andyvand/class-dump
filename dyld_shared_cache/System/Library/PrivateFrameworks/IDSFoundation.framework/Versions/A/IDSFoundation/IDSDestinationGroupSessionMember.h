@@ -6,33 +6,30 @@
 
 #import <IDSFoundation/IDSDestination.h>
 
-@class IDSURI, NSString;
+@class NSString;
 
 @interface IDSDestinationGroupSessionMember : IDSDestination
 {
     _Bool _isLightWeight;
-    IDSURI *_URIObject;
 }
 
 + (_Bool);
+- (id)J;
 - (id);
+- (id)$;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)hL;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)kerPhone;
+- (void)TinkerPhone;
 - (id)connected with linkID 0 for %@.;
 - (id);
 - (id)À¨·ÿÿ0©!;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSURI *URIObject; // @synthesize URIObject=_URIObject;
-@property(readonly, nonatomic) _Bool isLightWeight; // @synthesize isLightWeight=_isLightWeight;
 @property(readonly, nonatomic) NSString *uri;
 
 @end

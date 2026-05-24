@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCImageTextSelectionView_iOS;
 + (void);
 - (void);
 

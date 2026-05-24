@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementToggle
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _evChargingConnectorType;
-    unsigned int _selectionSequenceNumber;
-    int _toggleType;
-    _Bool _isSelected;
-    _Bool _selectionFromView;
-    _Bool _showAsSelected;
-    struct {
-        unsigned int has_evChargingConnectorType:1;
-        unsigned int has_selectionSequenceNumber:1;
-        unsigned int has_toggleType:1;
-        unsigned int has_isSelected:1;
-        unsigned int has_selectionFromView:1;
-        unsigned int has_showAsSelected:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_metadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)n:forAccessory: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id);
 - (id)sition={?=ddd}fff}16@0:(struct _NSZone *)arg1 8;
-- (id)gionSearch;
+- (id)_offlineRegionSearch;
 - (id)ÔË;
 - (void);
 

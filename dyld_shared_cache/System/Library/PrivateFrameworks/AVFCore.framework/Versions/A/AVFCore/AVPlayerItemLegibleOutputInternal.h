@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSArray, NSObject, NSString;
-@protocol AVPlayerItemLegibleOutputDependencyFactory, OS_dispatch_queue;
+@protocol AVPlayerItemLegibleOutputDependencyFactory;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerItemLegibleOutputInternal
 {
     id <AVPlayerItemLegibleOutputDependencyFactory> dependencyFactory;
-    NSArray *nativeRepresentationSubtypes;
-    AVWeakReferencingDelegateStorage *delegateStorage;
-    NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    AVWeakReference *weakReferenceToHost;
-    _Bool suppressesPlayerRendering;
-    double advanceInterval;
-    NSString *textStylingResolution;
 }
 
 @end

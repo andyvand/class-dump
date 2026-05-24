@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface NSObtainingEndpointState
 {
     struct os_unfair_lock_s lock;
-    NSMutableArray *errors;
-    NSObject<OS_xpc_object> *connection;
-    NSObject<OS_xpc_object> *listenerName;
-    NSObject<OS_xpc_object> *message;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)}qm&;
 
 @end
 

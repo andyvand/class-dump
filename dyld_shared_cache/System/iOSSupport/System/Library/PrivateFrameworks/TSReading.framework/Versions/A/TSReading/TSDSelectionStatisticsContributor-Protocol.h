@@ -5,5 +5,6 @@
 //
 
 @protocol TSDSelectionStatisticsContributor
+- (void)cate URL;
 @end
 

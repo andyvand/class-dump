@@ -7,28 +7,10 @@
 @interface PromotedContentUI.ModalAdView
 {
     id delegate;
-    id videoDelegate;
-    id adCardDelegate;
-    id adCardView;
-    id scrimView;
-    id backgroundImageView;
-    id blurView;
-    id scrollView;
-    id backgroundPlayerLayer;
-    id textLabel;
-    id button;
-    id advertiserLockup;
-    id textAndLockupContainer;
-    id configuration;
-    id adCardViewTopConstraint;
-    id adCardViewWidthContraint;
-    id textLabelTopConstraint;
-    id advertiserLockupBottomContraint;
-    id lastLayoutWidth;
 }
 
 - (void);
-- (id);
+- (id)Q;
 - (void);
 - (struct CGSize);
 - (id);

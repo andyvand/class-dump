@@ -6,67 +6,10 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class HIDDevice, HIDElement, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface KeyboardBacklight : CBModule
 {
     _Bool _muted;
-    _Bool _keyboardAvailable;
-    _Bool _manualAdjust;
-    _Bool _saturated;
-    _Bool _dimmed;
-    _Bool _suspend;
-    _Bool _suspendDimming;
-    _Bool _userActive;
-    _Bool _displayOn;
-    _Bool _clamshellClosed;
-    float _previousLevelPercentage;
-    int _numOfBacklightUpdateRetries;
-    int _currentFadeSpeed;
-    _Bool _currentEnableState;
-    float _currentLevel;
-    float _currentBrightness;
-    HIDDevice *_device;
-    HIDElement *_levelElement;
-    HIDElement *_levelFadeSpeedElement;
-    HIDElement *_enableElement;
-    HIDElement *_enableFadeSpeedElement;
-    NSMutableArray *_alsServiceClients;
-    unsigned long long _activityNotificationHandle;
-    NSMutableDictionary *_properties;
-    NSObject<OS_dispatch_source> *_forceLuxUpdateTimer;
-    NSObject<OS_dispatch_source> *_backlightUpdateTimer;
-    HIDElement *_enableAuthenticationElement;
-    _Bool _backlightUpdateInProgress;
-    struct mach_timebase_info _clockInfo;
-    int _backlightUpdateFrequency;
-    unsigned long long _lastBacklightUpdate;
-    unsigned long long _backlightUpdateType;
-    int _turnOnBacklightDelayMS;
-    _Bool _forceDelayToTurnOnBacklight;
-    NSObject<OS_dispatch_source> *_rampTimer;
-    struct Ramp _ramp;
-    _Bool _builtIn;
-    _Bool _autoAdjust;
-    _Bool _hysteresisOn;
-    int _dimTime;
-    float _ambientOffset;
-    float _ambientHighThreshold;
-    float _ambientLowThreshold;
-    float _levelPercentage;
-    float _levelMin;
-    float _levelMax;
-    float _levelOff;
-    int _color;
-    unsigned int _levelUnit;
-    unsigned int _unitExponent;
-    float _ambientSlope;
-    float _currentLux;
-    float _previousLevel;
-    unsigned long long _keyboardID;
-    NSMutableDictionary *_keyboardSpecificPreferences;
 }
 
 + (unsigned long long);
@@ -74,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (unsigned int);
 - (void);
@@ -82,6 +25,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -89,6 +33,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)+;
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -96,10 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)	k;
 - (void);
 - (void);
 - (float);
@@ -118,10 +61,10 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (float);
 - (float);
-- (float);
+- (float);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (_Bool);
@@ -146,48 +89,48 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (void);
+- (int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)�5;
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool)+ik8k;
+- (void);
+- (void);
+- (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (int);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool)1Â0@ù
 × ;
@@ -206,45 +149,7 @@ __attribute__((visibility("hidden")))
 NBÑK0B7¥;BË)aB^<B÷LBm+tBâLB#Ã^BÇBÈ]BSqBy¨B9oBæÛB·B×VB?mB ñ¡BSBÈ4BôV¬B{B21Bºå¶BÍBBa©BÉÁB«H¥BÔÃ³B{ÌB·ë®BÕW¾Bw×BÐµ¸BDÉB ©âB¦ÂB,ÔB"÷íB²»ÌBB·ßB¨hùBáõÖBÍUðBs~CåSáBË;
 
 // Remaining properties
-@property(readonly) float ambientHighThreshold; // @synthesize ambientHighThreshold=_ambientHighThreshold;
-@property(readonly) float ambientLowThreshold; // @synthesize ambientLowThreshold=_ambientLowThreshold;
-@property float ambientOffset; // @synthesize ambientOffset=_ambientOffset;
-@property(readonly) float ambientSlope; // @synthesize ambientSlope=_ambientSlope;
-@property _Bool autoAdjust; // @synthesize autoAdjust=_autoAdjust;
-@property float brightness;
-@property _Bool builtIn; // @synthesize builtIn=_builtIn;
-@property _Bool clamshellClosed;
-@property int color; // @synthesize color=_color;
-@property float currentLux; // @synthesize currentLux=_currentLux;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property HIDDevice *device; // @synthesize device=_device;
 @property int dimTime; // @synthesize dimTime=_dimTime;
-@property _Bool dimmed;
-@property(readonly) unsigned long long hash;
-@property _Bool hysteresisOn; // @synthesize hysteresisOn=_hysteresisOn;
-@property _Bool keyboardAvailable;
-@property unsigned long long keyboardID; // @synthesize keyboardID=_keyboardID;
-@property(retain) NSMutableDictionary *keyboardSpecificPreferences; // @synthesize keyboardSpecificPreferences=_keyboardSpecificPreferences;
-@property float levelMax; // @synthesize levelMax=_levelMax;
-@property float levelMin; // @synthesize levelMin=_levelMin;
-@property float levelOff; // @synthesize levelOff=_levelOff;
-@property float levelPercentage; // @synthesize levelPercentage=_levelPercentage;
-@property unsigned int levelUnit; // @synthesize levelUnit=_levelUnit;
-@property _Bool manualAdjust;
-@property(readonly) float maxUserLevel;
-@property _Bool muted;
-@property float previousLevel; // @synthesize previousLevel=_previousLevel;
-@property _Bool saturated;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAuthentication;
-@property(readonly) _Bool suppressed;
-@property _Bool suspend;
-@property unsigned int unitExponent; // @synthesize unitExponent=_unitExponent;
-@property _Bool userActive;
 
 @end
 

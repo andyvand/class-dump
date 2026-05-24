@@ -7,7 +7,7 @@
 @interface UnknownClass (MapKitAccessoryButtonAdditions)
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)_H;
+- (id)N;
 @end
 

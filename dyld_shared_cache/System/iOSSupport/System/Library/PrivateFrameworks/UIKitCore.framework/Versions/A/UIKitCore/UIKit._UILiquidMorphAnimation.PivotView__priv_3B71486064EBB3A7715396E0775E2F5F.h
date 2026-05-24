@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id)ckInteractionDriver;
+- (id)_UISecondaryClickClickInteractionDriver;
 - (double),^;
 - (void)ÓÎtl;
 

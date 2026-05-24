@@ -7,9 +7,6 @@
 @interface TIKeyboardSecureCandidateRGBColor
 {
     double _colorR;
-    double _colorG;
-    double _colorB;
-    double _colorA;
 }
 
 + (id);
@@ -18,25 +15,22 @@
 + (id);
 + (_Bool);
 + (id);
-- (double);
+- (double)C;
 - (id);
 - (double);
-- (id);
-- (void);
-- (id);
+- (id)predicateToIncludeOnlyAllowedForAnalysisAndProcessedToLatestFaceVersionWithNoindex: /* Error: Ran out of types for this method. */;
+- (void)initWithPhotoLibrary:(double)arg1 trustedCallerBundleID:clientConnection: /* Error: Ran out of types for this method. */;
+- (id)d to batch update people:(double)arg1 %@;
 - (double);
 - (double);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)°Í¤¾¿;
 
 // Remaining properties
-@property(nonatomic) double colorA; // @synthesize colorA=_colorA;
-@property(nonatomic) double colorB; // @synthesize colorB=_colorB;
-@property(nonatomic) double colorG; // @synthesize colorG=_colorG;
 @property(nonatomic) double colorR; // @synthesize colorR=_colorR;
 
 @end

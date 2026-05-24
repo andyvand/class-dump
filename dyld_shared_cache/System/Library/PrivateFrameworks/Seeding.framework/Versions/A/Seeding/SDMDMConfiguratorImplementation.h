@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (long long);
-+ (void);
-+ (long long);
-+ (long long);
++ (_Bool)o"40@?<v@?@"NSDictionary"@"NSArray"@"NSError">48;
++ (_Bool)afetyBlock";
++ (long long)meAnnouncementRecency"b1"hasNearbyDevicesRequestIdentifier"b1"hasTargetedResult"b1"hasContextIdentifier"b1};
++ (void)SZone=}16@0:(id)arg1 8;
++ (long long)writeToURL:(id)arg1 options:(id)arg2 error: /* Error: Ran out of types for this method. */;
++ (long long)willPresentUIWithReply:(id)arg1;
 
 @end
 

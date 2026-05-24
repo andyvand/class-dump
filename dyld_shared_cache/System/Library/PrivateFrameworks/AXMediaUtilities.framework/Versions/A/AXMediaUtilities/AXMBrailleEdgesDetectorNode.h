@@ -10,11 +10,11 @@
 {
 }
 
++ (_Bool)finishedState;
++ (id)A;
 + (_Bool);
-+ (id);
-+ (_Bool);
-- (void);
-- (unsigned char);
+- (void);
+- (unsigned char)Ƭm;
 - (id);
 - (id);
 

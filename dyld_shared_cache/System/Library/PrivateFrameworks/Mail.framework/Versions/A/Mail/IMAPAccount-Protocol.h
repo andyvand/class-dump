@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSError, NSString;
+@class NSError;
 
 @protocol IMAPAccount
+- (_Bool);
+- (void)@9 ;
+- (NSError *)deleteToMark: /* Error: Ran out of types for this method. */;
+
+@optional
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allBackgroundMailboxNames;
-@property(readonly) _Bool allowsPartialDownloads;
-@property(readonly) _Bool compactWhenClosingMailboxes;
-@property(retain) NSError *connectionError;
-@property(readonly) NSDate *credentialExpiryDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R
-
 @property(readonly) _Bool isOffline;
-@property(copy) NSDictionary *serverID;
-@property(copy) NSString *serverPathPrefix;
-@property(readonly) _Bool shouldMoveDeletedMessagesToTrash;
-@property(readonly, nonatomic) _Bool supportsAppleRemoteLinks;
-@property(readonly, nonatomic) _Bool supportsMove;
-@property _Bool supportsQuickResynchronization;
 @end
 

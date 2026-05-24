@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOperationQueue, NSString, NSURL, NSURLConnection, NSURLRequest;
+@class NSURLConnection;
 
 __attribute__((visibility("hidden")))
 @interface NSURLConnectionInternal
 {
     NSURLConnection *_connection;
-    NSOperationQueue *_delegateQueue;
-    NSURL *_url;
-    NSURLRequest *_originalRequest;
-    NSURLRequest *_currentRequest;
-    id _delegate;
-    NSDictionary *_connectionProperties;
-    _Bool _connectionActive;
 }
 
-- (void);
+- (void)icodeTable.c;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

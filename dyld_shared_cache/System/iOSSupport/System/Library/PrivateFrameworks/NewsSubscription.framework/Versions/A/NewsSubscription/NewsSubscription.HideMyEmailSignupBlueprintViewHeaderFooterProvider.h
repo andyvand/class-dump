@@ -7,12 +7,10 @@
 @interface NewsSubscription.HideMyEmailSignupBlueprintViewHeaderFooterProvider
 {
     id headerRenderer;
-    id footerRenderer;
-    id delegate;
 }
 
 - (_Bool);
-- (id);
+- (id)nodeChildArray;
 - (void);
 
 @end

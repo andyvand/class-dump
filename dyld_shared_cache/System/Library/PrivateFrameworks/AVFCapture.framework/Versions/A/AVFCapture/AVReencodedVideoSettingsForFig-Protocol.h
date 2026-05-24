@@ -7,11 +7,13 @@
 @class NSDictionary;
 
 @protocol AVReencodedVideoSettingsForFig
+- (NSDictionary *)0:8@16@24Q32^@40 /* Error: Ran out of types for this method. */;
+- (NSDictionary *)i24@28@?36;
+- (unsigned int)xt_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
+- (_Bool)<SFUOutputStream>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)8@16Q24^{_NSRange=QQ}32;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldPrepareEncodedSampleBuffersForPaddedWrites;
 @property(readonly, nonatomic) unsigned int videoCodecType;
-@property(readonly, nonatomic) NSDictionary *videoCompressionProperties;
-@property(readonly, nonatomic) NSDictionary *videoEncoderSpecification;
 @end
 

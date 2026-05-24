@@ -6,19 +6,14 @@
 
 #import <Montreal/MLPMatrixLayer.h>
 
-@class MLPOptimizer, MPSMatrix, MPSVector, NSArray, NSString;
+@class MPSMatrix;
 
 @interface MLPDenseLayer : MLPMatrixLayer
 {
     MPSMatrix *_weights;
-    MPSVector *_biasVector;
-    MLPOptimizer *_optimizerWeights;
-    MLPOptimizer *_optimizerBiases;
-    const void *_initialWeights;
-    const void *_initialBias;
 }
 
-- (void);
+- (void)9E;
 - (void);
 - (void);
 - (void);
@@ -34,30 +29,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)4he;
 - (id);
 - (void);
+- (id);
+- (void)$;
 
 // Remaining properties
-@property(retain) MPSVector *biasVector; // @synthesize biasVector=_biasVector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property const void *initialBias; // @synthesize initialBias=_initialBias;
-@property const void *initialWeights; // @synthesize initialWeights=_initialWeights;
-@property(readonly) NSArray *mlpOptimizers;
-@property(retain) MLPOptimizer *optimizerBiases; // @synthesize optimizerBiases=_optimizerBiases;
-@property(retain) MLPOptimizer *optimizerWeights; // @synthesize optimizerWeights=_optimizerWeights;
-@property(readonly) Class superclass;
 @property(retain) MPSMatrix *weights; // @synthesize weights=_weights;
 
 @end

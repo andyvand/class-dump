@@ -7,12 +7,6 @@
 @interface ConversationKit.EffectsBrowserViewConstraintManager
 {
     id layoutIdiom;
-    id containingGuide;
-    id effectsBrowserView;
-    id localParticipantView;
-    id constantConstraints;
-    id effectsBrowserViewHeightAnchor;
-    id effectsBrowserViewTopAnchor;
 }
 
 @end

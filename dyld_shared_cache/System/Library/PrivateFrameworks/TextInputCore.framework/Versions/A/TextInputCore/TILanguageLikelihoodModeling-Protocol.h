@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol TILanguageLikelihoodModeling
+- (void)dateWithTimeIntervalSinceReferenceDate:(NSString *)arg1;
+- (NSArray *)_TtC8SPSharedP33_4DFE191C45A702EAD1213F8D530A798030_XPCListenerDelegateTrampoline;
+- (void)"24;
 @end
 

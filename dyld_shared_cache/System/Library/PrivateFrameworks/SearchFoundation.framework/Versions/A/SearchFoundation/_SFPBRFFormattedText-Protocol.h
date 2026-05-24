@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFColor, _SFPBRFEngageable, _SFPBRFFont, _SFPBRFImageElement, _SFPBRFOptionalBool, _SFPBRFTextEncapsulation;
+@class NSData, NSString, _SFPBRFFont;
 
 @protocol _SFPBRFFormattedText
-- (int);
+- (unsigned long long);
+- (void);
+- (NSData *)_cplDownloadStatusNotification: /* Error: Ran out of types for this method. */;
+- (_SFPBRFFont *)v;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributions;
-@property(retain, nonatomic) _SFPBRFColor *background_color;
-@property(retain, nonatomic) _SFPBRFColor *color;
-@property(nonatomic) int design;
-@property(retain, nonatomic) _SFPBRFEngageable *engageable;
-@property(retain, nonatomic) _SFPBRFFont *font;
-@property(copy, nonatomic) NSArray *highlighted_substrings;
-@property(retain, nonatomic) _SFPBRFImageElement *inline_image_element;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_bold;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_highlighted;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_italic;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_underlined;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text;
-@property(retain, nonatomic) _SFPBRFTextEncapsulation *text_encapsulation;
-@property(nonatomic) int weight;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

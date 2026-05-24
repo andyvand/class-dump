@@ -7,17 +7,9 @@
 @interface IDSQRProtoSubscribedStream
 {
     CDStruct_9f2792e4 _peerStreamIds;
-    unsigned long long _peerParticipantId;
-    _Bool _isSeamlessTransition;
-    _Bool _wildcardSubscription;
-    struct {
-        unsigned int peerParticipantId:1;
-        unsigned int isSeamlessTransition:1;
-        unsigned int wildcardSubscription:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)@9;
 - (void);
 - (void);
 - (void);
@@ -40,21 +32,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)Ikj8	;
+- (_Bool)ePairingOOBData=[16C]}32;
+- (void)];
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSeamlessTransition;
-@property(nonatomic) _Bool hasPeerParticipantId;
 @property(nonatomic) _Bool hasWildcardSubscription;
-@property(nonatomic) _Bool isSeamlessTransition; // @synthesize isSeamlessTransition=_isSeamlessTransition;
-@property(nonatomic) unsigned long long peerParticipantId; // @synthesize peerParticipantId=_peerParticipantId;
-@property(readonly, nonatomic) unsigned int *peerStreamIds;
-@property(readonly, nonatomic) unsigned long long peerStreamIdsCount;
-@property(nonatomic) _Bool wildcardSubscription; // @synthesize wildcardSubscription=_wildcardSubscription;
 
 @end
 

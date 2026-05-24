@@ -6,12 +6,9 @@
 
 #import <MailUI/MUISearchAtomSuggestion.h>
 
-@class MUISearchSuggestionCategoryScope, NSPredicate;
-
 @interface MUISearchScopedSuggestion : MUISearchAtomSuggestion
 {
     MUISearchAtomSuggestion *_suggestion;
-    unsigned long long _selectedScopeIndex;
 }
 
 + (id);
@@ -24,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,14 +30,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)eHandler;
-- (void)dal: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)updateHandler;
+- (void)setAccessibilityModal: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *predicate;
-@property(readonly, nonatomic) MUISearchSuggestionCategoryScope *selectedScope;
-@property(nonatomic) unsigned long long selectedScopeIndex; // @synthesize selectedScopeIndex=_selectedScopeIndex;
 @property(readonly, nonatomic) MUISearchAtomSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end

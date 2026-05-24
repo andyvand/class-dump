@@ -5,6 +5,7 @@
 //
 
 @protocol AKPenDetectionGestureRecognizerProtocol
+- (_Bool)ator;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool penGestureDetected;

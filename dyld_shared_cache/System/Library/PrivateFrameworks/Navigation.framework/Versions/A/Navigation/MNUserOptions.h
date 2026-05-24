@@ -10,8 +10,8 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)aB;
+- (void)_buttonDictionary;
 - (id);
 
 @end

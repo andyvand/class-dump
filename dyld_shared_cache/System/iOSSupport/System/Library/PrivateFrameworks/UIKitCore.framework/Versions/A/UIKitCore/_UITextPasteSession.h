@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString, UITextPasteController, UITextPasteCoordinator, UITextRange;
-@protocol UITextPasteSessionDelegate, _UITextPasteProgressSupport;
+@class UITextPasteController;
 
 __attribute__((visibility("hidden")))
 @interface _UITextPasteSession
 {
     _Bool _animating;
-    id <UITextPasteSessionDelegate> _delegate;
-    UITextPasteController *_controller;
-    UITextPasteCoordinator *_coordinator;
-    UITextRange *_range;
-    id <_UITextPasteProgressSupport> _progressSupport;
-    NSAttributedString *_pasteResult;
-    NSArray *_originalItems;
-    UITextRange *_hiddenRange;
 }
 
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)String"16@"NSString"24C32@"NSDictionary"36@"NSString"44@"NSString"52@"NSArray"60@"NSArray"68B76;
+- (void)MessageAttachmentSendableUTIs got dict %@ from %@;
+- (void)d %lu of %u max T1 updates to write up;
+- (id)tion State to:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)0@ù
@@ -38,30 +29,15 @@ __attribute__((visibility("hidden")))
 - (void)!´Dùñað1Â0@ù
 × ;
 - (id);
-- (void)xible;
+- (void)searchFieldWidthShouldBeFlexible;
 - (id)IKeyboardScheduledTask",R,N,Vm_autoDeleteTask;
-- (_Bool)EventSessionTouchEventDetail;
-- (id)r;
+- (_Bool)UIEventSessionTouchEventDetail;
+- (id)darkModeCompositingFiler;
 - (void)×;
-- (void)eenC;
+- (void)So8UIScreenC;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
 @property(nonatomic) __weak UITextPasteController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) UITextPasteCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UITextPasteSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UITextRange *hiddenRange; // @synthesize hiddenRange=_hiddenRange;
-@property(copy, nonatomic) NSArray *originalItems; // @synthesize originalItems=_originalItems;
-@property(retain, nonatomic) NSAttributedString *pasteResult; // @synthesize pasteResult=_pasteResult;
-@property(retain, nonatomic) id <_UITextPasteProgressSupport> progressSupport; // @synthesize progressSupport=_progressSupport;
-@property(retain, nonatomic) UITextRange *range; // @synthesize range=_range;
-@property(readonly) Class superclass;
 
 @end
 

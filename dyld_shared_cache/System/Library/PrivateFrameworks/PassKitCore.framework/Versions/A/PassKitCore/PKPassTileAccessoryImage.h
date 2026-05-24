@@ -23,9 +23,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void)gible;
+- (id)( `	;
+- (void)wpsModelNumber;
+- (void)userIneligible;
 
 // Remaining properties
 @property(retain, nonatomic) PKPassTileImage *image; // @synthesize image=_image;

@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKCloudRecordObject.h>
 
-@class NSData;
-
 @interface PKCloudRecordAssetURL : PKCloudRecordObject
 {
     int _fd;
-    NSData *_data;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -23,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (long long)nimumPayment;
-- (void)sting;
+- (long long)_remainingMinimumPayment;
+- (void)reuseExisting;
 - (id)Ýÿ÷Ik¬<!;
 
 @end

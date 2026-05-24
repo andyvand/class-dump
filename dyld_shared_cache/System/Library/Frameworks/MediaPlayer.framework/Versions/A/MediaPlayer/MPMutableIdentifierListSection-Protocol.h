@@ -7,10 +7,10 @@
 @class NSArray, NSString;
 
 @protocol MPMutableIdentifierListSection
-- (NSArray *)_MPModelPropertyPlaylistIsOwner__MAPPING_MISSING__;
+- (void);
+- (NSArray *)__MPModelPropertyPlaylistIsOwner__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *itemIdentifiers;
 @property(readonly, copy, nonatomic) NSString *sectionIdentifier;
 @end
 

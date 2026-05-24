@@ -7,18 +7,6 @@
 @interface BlastDoor.CSDMProtoConversationRelayMessage._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _version;
-    id _type;
-    id _state;
-    id _uuidstring;
-    id _groupUuidstring;
-    id _messagesGroupUuidstring;
-    id _locallyCreated;
-    id _initiator;
-    id _localMember;
-    id _remoteMembers;
-    id _activeParticipants;
-    id _avMode;
-    id _reportData;
 }
 
 @end

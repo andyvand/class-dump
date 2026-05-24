@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface _PSMLFeatureProvider
 {
     NSMutableDictionary *_featureValues;
-    NSMutableSet *_featureNames;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)_hasAvAudioSessionInterruptionType;
+- (void)_hasAudioFirstBufferRecorded;
+- (void)_hasAppleNeuralEngineModelInitializationContext;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)sToShareExtensionBundleIdsMapping;
+- (id)_appBundleIdsToShareExtensionBundleIdsMapping;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames; // @synthesize featureNames=_featureNames;

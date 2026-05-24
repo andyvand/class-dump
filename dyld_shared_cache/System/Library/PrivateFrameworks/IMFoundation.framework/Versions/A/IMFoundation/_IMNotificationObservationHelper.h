@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _IMNotificationObservationHelper
 {
     id _observer;
-    id _object;
-    CDUnknownBlockType _block;
-    NSString *_name;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)J;
 
 @end
 

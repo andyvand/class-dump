@@ -6,73 +6,56 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface SUGSchemaSUGSuggestionsUIActivity : SISchemaInstrumentationMessage
 {
     NSArray *_suggestionIds;
-    int _deliveryVehicle;
-    int _uiActivity;
-    NSArray *_suggestions;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int deliveryVehicle:1;
-        unsigned int uiActivity:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (int);
+- (unsigned long long)q;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (int);
+- (void)webClientIsReady;
+- (void)urlRequestForAppleIDPagesInfo:(_Bool)arg1 forAccountID: /* Error: Ran out of types for this method. */;
+- (id)setTitleField: /* Error: Ran out of types for this method. */;
+- (_Bool)reloadAccountView:withSigninError: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)>48;
+- (_Bool)ndColor;
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)_id, subject, country, attributedBody, version, type, service, account, account_guid, error, date, date_read, date_delivered, is_delivered, is_finished, is_emote, is_from_me, is_empty, is_delayed, is_auto_reply, is_prepared, is_read, is_system_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated, is_audio_message, is_played, date_played, item_type, other_handle, group_title, group_action_type, share_status, share_direction, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE associated_message_guid = ? ORDER BY message.ROWID ASC;;
+- (void)TemporaryParticipantExportTable;
 - (void);
 - (id);
 - (id);
-- (id)dingTier1: /* Error: Ran out of types for this method. */;
-- (id)teOtherProviders;
-- (id)VoiceTriggerConfigVersion;
+- (id)setHasAudioUnderstandingTier1: /* Error: Ran out of types for this method. */;
+- (id)deleteOtherProviders;
+- (id)_hasVoiceTriggerConfigVersion;
 - (id)N,V_queryDecorationSpanRetrievalTime;
-- (void);
-- (void)MISMATCHED;
+- (void)requestCounts;
+- (void)MHBIOMETRICMATCHRESULT_MISMATCHED;
 
 // Remaining properties
-@property(nonatomic) int deliveryVehicle; // @synthesize deliveryVehicle=_deliveryVehicle;
-@property(nonatomic) _Bool hasDeliveryVehicle;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasUiActivity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(copy, nonatomic) NSArray *suggestionIds; // @synthesize suggestionIds=_suggestionIds;
-@property(copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
-@property(nonatomic) int uiActivity; // @synthesize uiActivity=_uiActivity;
 
 @end
 

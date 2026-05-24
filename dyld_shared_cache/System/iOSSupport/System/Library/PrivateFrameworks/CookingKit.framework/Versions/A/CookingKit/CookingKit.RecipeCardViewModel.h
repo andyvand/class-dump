@@ -8,28 +8,6 @@
 {
     id loggingID;
     id _currentRegion;
-    id ignoreScrollPositionChanges;
-    id _scrollToRegion;
-    id _scrollToStep;
-    id _lastScrollOffsets;
-    id _scrollPosition;
-    id _currentStep;
-    id _id;
-    id _isThumbnailLight;
-    id _recipeTheme;
-    id _titleInfo;
-    id _condensedHeaderInfo;
-    id _excerpt;
-    id _appEntityIdentifier;
-    id _hasHardPaywall;
-    id _isFocusable;
-    id _thumbnailImage;
-    id _wasEverPrimary;
-    id _isPresentingCookMode;
-    id _fullScreenSheet;
-    id _sheet;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

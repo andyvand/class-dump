@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPNowPlayingInfoTransportableSessionRequest
 {
     _Bool _isPreflight;
-    NSString *_identifier;
-    NSString *_preferredSessionType;
-    MRPlayerPath *_destinationPlayerPath;
-    NSDictionary *_destinationCommandInfo;
 }
 
 + (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)eadOfSection: /* Error: Ran out of types for this method. */;
+- (void)addDataSource:section:afterHeadOfSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *destinationCommandInfo; // @synthesize destinationCommandInfo=_destinationCommandInfo;
-@property(readonly, nonatomic) MRPlayerPath *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPreflight; // @synthesize isPreflight=_isPreflight;
-@property(readonly, nonatomic) NSString *preferredSessionType; // @synthesize preferredSessionType=_preferredSessionType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSMutableIndexSet;
-
 @interface CHCornerDetector
 {
     _Bool _shouldUseDynamicSampling;
-    double _minimumSignificantSegmentLength;
-    CHDrawing *_drawing;
-    CHDrawing *_resampledDrawing;
-    unsigned long long _directionChangeCount;
-    unsigned long long _highestDirectionChangeCount;
-    unsigned long long __strawSize;
-    NSMutableIndexSet *__cornerIndexSet;
-    NSMutableIndexSet *__directionChangeCornerIndexes;
-    struct vector<std::map<long, long>, std::allocator<std::map<long, long>>> __resampledDrawingPointMap;
 }
 
 - (id);

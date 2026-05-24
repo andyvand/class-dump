@@ -12,11 +12,11 @@
 
 + (id);
 + (id);
++ (_Bool)NumChatsMarkedRead;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)kAFAccountInfoNeedsDestructionKey;
++ (_Bool)IIIII{?=qq}BB[10q]Q},D,N;
 + (id);
 + (id);
 + (_Bool);

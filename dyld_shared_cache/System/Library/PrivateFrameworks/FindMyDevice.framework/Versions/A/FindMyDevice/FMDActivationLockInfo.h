@@ -9,49 +9,33 @@
 @interface FMDActivationLockInfo
 {
     _Bool _isActivationLocked;
-    _Bool _isOfflineFindingEnabled;
-    _Bool _supportsDeviceAuth;
-    NSString *_title;
-    NSString *_maskedAppleID;
-    NSString *_maskedOrganizationID;
-    NSString *_messageICloudAuth;
-    NSString *_messageOSAuth;
-    NSString *_helpURL;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)0:8{CGPoint=dd}16{CGPoint=dd}32B48@?52 /* Error: Ran out of types for this method. */;
+- (void)gnitionItemAttributes";
+- (void)48;
+- (void)8@16@24@32@40;
+- (void)6d32;
+- (void)@24@32@?40;
+- (void)d48;
+- (void)8{CGRect={CGPoint=dd}{CGSize=dd}}16d48;
+- (id)eak_count}};
+- (id)_ptr_"^v"__cntrl_"^{__shared_weak_count}};
+- (id)shared_ptr<std::vector<PKMetalSDFStrokeVertex>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}} /* Error: Ran out of types for this method. */;
+- (id)"^{__shared_weak_count}};
+- (_Bool)aintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}};
+- (_Bool)trokePaintStrokePoint>>="__begin_"^{PKMetalLiveStrokePaintStrokePoint}"__end_"^{PKMetalLiveStrokePaintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}};
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id),N,V_biometryEnabled;
+- (id)_association;
+- (void)confidenceScore;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *helpURL; // @synthesize helpURL=_helpURL;
-@property(nonatomic) _Bool isActivationLocked; // @synthesize isActivationLocked=_isActivationLocked;
-@property(nonatomic) _Bool isOfflineFindingEnabled; // @synthesize isOfflineFindingEnabled=_isOfflineFindingEnabled;
-@property(retain, nonatomic) NSString *maskedAppleID; // @synthesize maskedAppleID=_maskedAppleID;
-@property(retain, nonatomic) NSString *maskedOrganizationID; // @synthesize maskedOrganizationID=_maskedOrganizationID;
-@property(retain, nonatomic) NSString *messageICloudAuth; // @synthesize messageICloudAuth=_messageICloudAuth;
-@property(retain, nonatomic) NSString *messageOSAuth; // @synthesize messageOSAuth=_messageOSAuth;
-@property(nonatomic) _Bool supportsDeviceAuth; // @synthesize supportsDeviceAuth=_supportsDeviceAuth;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

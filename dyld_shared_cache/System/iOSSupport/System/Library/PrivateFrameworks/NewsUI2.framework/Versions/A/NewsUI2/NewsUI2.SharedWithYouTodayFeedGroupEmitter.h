@@ -7,12 +7,6 @@
 @interface NewsUI2.SharedWithYouTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id cloudContext;
-    id headlineService;
-    id sharedItemManager;
-    id name;
 }
 
 @end

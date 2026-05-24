@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     _UIAfterCACommitBlock *_last;
 }
 
-- (void);
+- (void)ublic}@. Invalid preview image dimensions:(CDUnknownBlockType)arg1 %{public}@;
 - (id);
 - (void);
 - (void);
-- (_Bool)astKnownInterfaceOrientation;
+- (_Bool)_clearLastKnownInterfaceOrientation;
 - (void)lAÿ6
 Ð;
 

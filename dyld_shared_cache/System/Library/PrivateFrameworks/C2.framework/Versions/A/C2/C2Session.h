@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2RequestOptions, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString, NSURLSession;
-@protocol C2SessionDelegate;
+@class NSString;
 
 @interface C2Session
 {
     _Bool _isComplete;
-    NSString *_sessionConfigurationName;
-    NSURLSession *_session;
-    C2RequestOptions *_options;
-    long long _emptyTimestamp;
-    NSString *_originalHost;
-    NSString *_routeHost;
-    double _routeLastUpdated;
-    NSMutableSet *_didCompleteWithErrorRunningTasks;
-    id <C2SessionDelegate> _sessionDelegate;
-    NSMutableDictionary *_wrappedTaskByTaskIdentifier;
-    NSOperationQueue *_queue;
-    CDUnknownBlockType _testBehavior_sessionInvalidated_cfnetwork;
-    CDUnknownBlockType _testBehavior_sessionInvalidated_shouldInvalidate;
-    CDUnknownBlockType _testBehavior_cleanupRetainCycle;
-    CDUnknownBlockType _testBehavior_callbackHung;
 }
 
 + (id);
@@ -34,24 +18,24 @@
 - (void);
 - (void);
 - (void);
+- (id)4;
 - (id);
 - (id);
-- (id);
+- (void)N8Espresso16ANERuntimeEngine34mix_non_maximum_suppression_kernelE;
+- (void)NSt3__120__shared_ptr_emplaceIN8Espresso16MPSBuffersEngine13concat_kernelENS_9allocatorIS3_EEEE;
+- (void)St3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEENS3_8functionIFbRKNS4_IPNS0_6node_tENS8_ISH_EEEEEEEE3$_0;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (double);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (double)B;
+- (void);
+- (void)TB;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -80,36 +64,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void)PííTðäð;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *didCompleteWithErrorRunningTasks; // @synthesize didCompleteWithErrorRunningTasks=_didCompleteWithErrorRunningTasks;
-@property(nonatomic) long long emptyTimestamp; // @synthesize emptyTimestamp=_emptyTimestamp;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, copy, nonatomic) C2RequestOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSString *originalHost; // @synthesize originalHost=_originalHost;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *routeHost; // @synthesize routeHost=_routeHost;
-@property(nonatomic) double routeLastUpdated; // @synthesize routeLastUpdated=_routeLastUpdated;
-@property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSString *sessionConfigurationName; // @synthesize sessionConfigurationName=_sessionConfigurationName;
-@property(retain, nonatomic) id <C2SessionDelegate> sessionDelegate; // @synthesize sessionDelegate=_sessionDelegate;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType testBehavior_callbackHung; // @synthesize testBehavior_callbackHung=_testBehavior_callbackHung;
-@property(copy, nonatomic) CDUnknownBlockType testBehavior_cleanupRetainCycle; // @synthesize testBehavior_cleanupRetainCycle=_testBehavior_cleanupRetainCycle;
-@property(copy, nonatomic) CDUnknownBlockType testBehavior_sessionInvalidated_cfnetwork; // @synthesize testBehavior_sessionInvalidated_cfnetwork=_testBehavior_sessionInvalidated_cfnetwork;
-@property(copy, nonatomic) CDUnknownBlockType testBehavior_sessionInvalidated_shouldInvalidate; // @synthesize testBehavior_sessionInvalidated_shouldInvalidate=_testBehavior_sessionInvalidated_shouldInvalidate;
-@property(readonly, nonatomic) NSMutableDictionary *wrappedTaskByTaskIdentifier; // @synthesize wrappedTaskByTaskIdentifier=_wrappedTaskByTaskIdentifier;
 
 @end
 

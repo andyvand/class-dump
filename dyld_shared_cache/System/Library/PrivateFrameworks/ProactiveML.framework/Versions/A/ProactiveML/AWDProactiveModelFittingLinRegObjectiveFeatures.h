@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo, AWDProactiveModelFittingQuantizedSparseVector, AWDProactiveModelFittingSparseFloatVector;
-
 @interface AWDProactiveModelFittingLinRegObjectiveFeatures
 {
     unsigned long long _timestamp;
-    float _featuresL2norm;
-    float _featuresScaleFactor;
-    AWDProactiveModelFittingMinibatchStats *_minibatchStats;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingSparseFloatVector *_sparseFloatFeatures;
-    AWDProactiveModelFittingQuantizedSparseVector *_sparseQuantizedFeatures;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int featuresL2norm:1;
-        unsigned int featuresScaleFactor:1;
-    } _has;
 }
 
 - (id);
@@ -42,12 +29,12 @@
 - (_Bool);
 - (float);
 - (float);
-- (unsigned long long);
+- (unsigned long long);
 - (float);
 - (id);
-- (id);
+- (id)sourceRecordID;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -56,25 +43,12 @@
 - (void);
 - (void);
 - (void);
+- (id)d;
 - (id);
-- (id);
-- (void);
+- (void)L"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float featuresL2norm; // @synthesize featuresL2norm=_featuresL2norm;
-@property(nonatomic) float featuresScaleFactor; // @synthesize featuresScaleFactor=_featuresScaleFactor;
-@property(nonatomic) _Bool hasFeaturesL2norm;
-@property(nonatomic) _Bool hasFeaturesScaleFactor;
-@property(readonly, nonatomic) _Bool hasMinibatchStats;
-@property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasSparseFloatFeatures;
-@property(readonly, nonatomic) _Bool hasSparseQuantizedFeatures;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *minibatchStats; // @synthesize minibatchStats=_minibatchStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingSparseFloatVector *sparseFloatFeatures; // @synthesize sparseFloatFeatures=_sparseFloatFeatures;
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedSparseVector *sparseQuantizedFeatures; // @synthesize sparseQuantizedFeatures=_sparseQuantizedFeatures;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

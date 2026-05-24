@@ -11,24 +11,22 @@
 @interface INGetIntentParameterOptionsForwardingAction : INIntentForwardingAction
 {
     NSString *_parameterName;
-    NSString *_searchTerm;
 }
 
 + (_Bool);
 + (Class);
 - (id);
-- (id);
+- (id)_scroll;
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (void);
+- (void)Date"24;
 - (void);
 - (id), initialize a subclass instead.;
 - (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *parameterName; // @synthesize parameterName=_parameterName;
-@property(readonly, nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
 
 @end
 

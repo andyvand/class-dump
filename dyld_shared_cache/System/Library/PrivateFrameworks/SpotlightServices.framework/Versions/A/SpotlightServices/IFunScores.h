@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface IFunScores
 {
     NSNumber *_serverScore;
-    NSNumber *_localScore;
-    NSDictionary *_domainScores;
 }
 
-- (void);
+- (void)ionDataTask"24@"NSURLResponse"32@?<v@?q>40;
+- (id)encodeFloat:forKey: /* Error: Ran out of types for this method. */;
+- (void)D zone %@ with error %@.;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)n;
+- (void)_podcastDescription;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *domainScores; // @synthesize domainScores=_domainScores;
-@property(retain, nonatomic) NSNumber *localScore; // @synthesize localScore=_localScore;
 @property(retain, nonatomic) NSNumber *serverScore; // @synthesize serverScore=_serverScore;
 
 @end

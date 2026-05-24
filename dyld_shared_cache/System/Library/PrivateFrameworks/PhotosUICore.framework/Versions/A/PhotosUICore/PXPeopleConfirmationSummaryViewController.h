@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, PXPeopleScalableAvatarView, UXLabel;
-@protocol PXPeopleSummaryDelegate, PXPerson;
+@class NSLayoutConstraint;
+@protocol PXPeopleSummaryDelegate;
 
 @interface PXPeopleConfirmationSummaryViewController
 {
     id <PXPeopleSummaryDelegate> _delegate;
-    NSLayoutConstraint *_labelSpacingConstraint;
-    UXLabel *_summaryLabel;
-    PXPeopleScalableAvatarView *_avatarView;
-    id <PXPerson> _person;
 }
 
 - (id);
@@ -29,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXPeopleScalableAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(readonly, nonatomic) __weak id <PXPeopleSummaryDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSLayoutConstraint *labelSpacingConstraint; // @synthesize labelSpacingConstraint=_labelSpacingConstraint;
-@property(readonly, nonatomic) id <PXPerson> person; // @synthesize person=_person;
-@property(readonly, nonatomic) UXLabel *summaryLabel; // @synthesize summaryLabel=_summaryLabel;
 
 @end
 

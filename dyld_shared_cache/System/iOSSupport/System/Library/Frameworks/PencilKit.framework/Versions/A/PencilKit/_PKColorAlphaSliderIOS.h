@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSString, UIColor, UIView, _PKCheckerGridView;
-@protocol _PKColorAlphaSliderDelegate;
+@class UIColor, UIView;
 
 @interface _PKColorAlphaSliderIOS
 {
     UIColor *_color;
-    long long _colorUserInterfaceStyle;
-    id <_PKColorAlphaSliderDelegate> delegate;
-    double _maxAlpha;
-    double _minAlpha;
-    UIView *_colorView;
-    CAGradientLayer *_colorViewMaskLayer;
-    _PKCheckerGridView *_alphaGridView;
-    CAGradientLayer *_alphaGridViewMaskLayer;
-    UIView *_sliderKnobView;
 }
 
 + (id);
@@ -44,9 +34,9 @@
 - (void);
 - (struct CGRect);
 - (void);
+- (void)ributedString",C,N,V_pendingMessageCountAttributedText;
 - (void);
-- (void);
-- (id);
+- (id)3l1;
 - (double);
 - (double);
 - (void);
@@ -60,23 +50,7 @@
 - (void)tInputWritingSession",W,N,V__writingSession;
 
 // Remaining properties
-@property(retain, nonatomic) _PKCheckerGridView *alphaGridView; // @synthesize alphaGridView=_alphaGridView;
-@property(retain, nonatomic) CAGradientLayer *alphaGridViewMaskLayer; // @synthesize alphaGridViewMaskLayer=_alphaGridViewMaskLayer;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
 @property(retain, nonatomic) UIView *colorView; // @synthesize colorView=_colorView;
-@property(retain, nonatomic) CAGradientLayer *colorViewMaskLayer; // @synthesize colorViewMaskLayer=_colorViewMaskLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_PKColorAlphaSliderDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxAlpha; // @synthesize maxAlpha=_maxAlpha;
-@property(nonatomic) double minAlpha; // @synthesize minAlpha=_minAlpha;
-@property(retain, nonatomic) UIView *sliderKnobView; // @synthesize sliderKnobView=_sliderKnobView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface PKEngagementPropertyRequest
 {
     unsigned long long _propertySource;
-    NSString *_propertyName;
-    NSDictionary *_parameters;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)OnCount"b1"remoteBgEntryCount"b1"remotePeerRssi24G"b1"remotePeerRssi5G"b1"selfBgEntryCount"b1"selfPeerRssi24G"b1"selfPeerRssi5G"b1"remotefIsSDB"b1"selfIsSDB"b1};
 + (_Bool);
 - (void);
 - (unsigned long long);
@@ -24,17 +20,15 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)hybridStateOff;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id)ptor;
-- (void)rtualCardIdentifier;
+- (void)_virtualCardIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
 @property(nonatomic) unsigned long long propertySource; // @synthesize propertySource=_propertySource;
 
 @end

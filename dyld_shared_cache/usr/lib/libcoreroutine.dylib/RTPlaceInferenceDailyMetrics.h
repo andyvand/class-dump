@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface RTPlaceInferenceDailyMetrics
 {
     RTDefaultsManager *_defaultsManager;
-    NSMutableDictionary *_metrics;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)return;
 - (id);
 - (id);
 - (_Bool);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

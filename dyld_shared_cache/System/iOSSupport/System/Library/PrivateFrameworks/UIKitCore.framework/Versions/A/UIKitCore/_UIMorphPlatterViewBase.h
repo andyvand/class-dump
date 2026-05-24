@@ -6,35 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDictionary, UITargetedPreview, _UIShadowProperties;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIMorphPlatterViewBase : UIView
 {
     _Bool _expanded;
-    _Bool _hideChromeWhenCollapsed;
-    _Bool _alwaysCompact;
-    _Bool _allowsUserInteractionInExpandedPreview;
-    _Bool _preventPreviewRasterization;
-    _Bool _hidesCollapsedSourceView;
-    _Bool _wantsEdgeAntialiasing;
-    _Bool _shouldMorphContents;
-    UITargetedPreview *_collapsedPreview;
-    UITargetedPreview *_expandedPreview;
-    unsigned long long _preferredMorphingAxis;
-    double _collapsedShadowIntensity;
-    double _expandedShadowIntensity;
-    long long _collapsedShadowStyle;
-    long long _expandedShadowStyle;
-    _UIShadowProperties *_shadowSettings;
-    NSDictionary *_separatedOptions;
-    CDUnknownBlockType _shouldApplyClippingHandler;
 }
 
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
+- (id),;
 - (void);
 - (void);
 - (void);
@@ -52,48 +35,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (double);
-- (void);
-- (long long);
-- (double);
+- (_Bool)resetLastSyncDate;
+- (_Bool)requestTranscriptBackgroundIfNecessary:toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
+- (void)ock: /* Error: Ran out of types for this method. */;
+- (long long)moveMessagesInChatsWithGUIDsToRecentlyDeleted:deleteDate:queryID: /* Error: Ran out of types for this method. */;
+- (double)moveMessagesInChatsWithGUIDsToRecentlyDeleted:deleteDate:queryID: /* Error: Ran out of types for this method. */;
+- (void)initWithMessageBodyWithNativeAttributes:fileTransferGuids: /* Error: Ran out of types for this method. */;
+- (long long)conversationManager:collaborationChanged:forConversation:collaborationState: /* Error: Ran out of types for this method. */;
+- (double)conversationManager:changedActivityAuthorizationForBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)fromOldConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)_serviceNameOrCompatibilityServiceNameFromDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)_serverAllowsRemovalFromBackUp;
+- (void)dForMOCAndSafeForCacheDelete call;
+- (id)sSMSEnabled %{BOOL}d Does not have phone number to send with %{BOOL}d;
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)#;
 - (void)a°!CùñZ1Â0@ù
 × ;
 - (_Bool)× ;
-- (id)eftCommand;
+- (id)_extendToCellLeftCommand;
 - (void)\¬;
 - (void)ResolverElements;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUserInteractionInExpandedPreview; // @synthesize allowsUserInteractionInExpandedPreview=_allowsUserInteractionInExpandedPreview;
-@property(nonatomic) _Bool alwaysCompact; // @synthesize alwaysCompact=_alwaysCompact;
 @property(retain, nonatomic) UITargetedPreview *collapsedPreview; // @synthesize collapsedPreview=_collapsedPreview;
-@property(nonatomic) double collapsedShadowIntensity; // @synthesize collapsedShadowIntensity=_collapsedShadowIntensity;
-@property(nonatomic) long long collapsedShadowStyle; // @synthesize collapsedShadowStyle=_collapsedShadowStyle;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(retain, nonatomic) UITargetedPreview *expandedPreview; // @synthesize expandedPreview=_expandedPreview;
-@property(nonatomic) double expandedShadowIntensity; // @synthesize expandedShadowIntensity=_expandedShadowIntensity;
-@property(nonatomic) long long expandedShadowStyle; // @synthesize expandedShadowStyle=_expandedShadowStyle;
-@property(nonatomic) _Bool hideChromeWhenCollapsed; // @synthesize hideChromeWhenCollapsed=_hideChromeWhenCollapsed;
-@property(nonatomic) _Bool hidesCollapsedSourceView; // @synthesize hidesCollapsedSourceView=_hidesCollapsedSourceView;
-@property(nonatomic) unsigned long long preferredMorphingAxis; // @synthesize preferredMorphingAxis=_preferredMorphingAxis;
-@property(nonatomic) _Bool preventPreviewRasterization; // @synthesize preventPreviewRasterization=_preventPreviewRasterization;
-@property(retain, nonatomic) NSDictionary *separatedOptions; // @synthesize separatedOptions=_separatedOptions;
-@property(retain, nonatomic) _UIShadowProperties *shadowSettings; // @synthesize shadowSettings=_shadowSettings;
-@property(copy, nonatomic) CDUnknownBlockType shouldApplyClippingHandler; // @synthesize shouldApplyClippingHandler=_shouldApplyClippingHandler;
-@property(nonatomic) _Bool shouldMorphContents; // @synthesize shouldMorphContents=_shouldMorphContents;
-@property(nonatomic) _Bool wantsEdgeAntialiasing; // @synthesize wantsEdgeAntialiasing=_wantsEdgeAntialiasing;
 
 @end
 

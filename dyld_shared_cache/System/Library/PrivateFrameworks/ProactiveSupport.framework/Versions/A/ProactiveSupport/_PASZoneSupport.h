@@ -15,6 +15,7 @@
 + (id);
 + (id);
 + (id);
++ (id)addConstraint:(id)arg1;
 + (id);
 + (id);
 + (id);
@@ -23,12 +24,11 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)$;
 + (id);
 + (id);
 + (id);

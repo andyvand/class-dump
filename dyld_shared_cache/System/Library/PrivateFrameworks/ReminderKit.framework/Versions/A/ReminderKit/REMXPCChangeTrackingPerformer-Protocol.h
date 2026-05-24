@@ -5,5 +5,6 @@
 //
 
 @protocol REMXPCChangeTrackingPerformer
+- (void);
 @end
 

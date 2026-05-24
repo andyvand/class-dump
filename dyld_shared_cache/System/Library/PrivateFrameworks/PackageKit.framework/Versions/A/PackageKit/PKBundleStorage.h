@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKBundleStorage
 {
     NSString *_path;
-    NSString *_storageType;
-    NSString *_identifier;
-    NSDictionary *_versionAttributes;
 }
 
 + (id);
@@ -25,9 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *identifier;
 @property(readonly) NSString *storageType;
-@property(readonly) NSDictionary *versionAttributes;
 
 @end
 

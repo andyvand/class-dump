@@ -11,10 +11,10 @@
     NSDistributedNotificationCenter *_broadcaster;
 }
 
++ (void)LibrarySidebarNavigationViewController;
++ (void)LibraryItemTabGroup;
 + (void);
-+ (void);
-+ (void);
-- (void);
+- (void)SafariNSViewControllerExtras;
 - (id);
 - (id);
 - (void);

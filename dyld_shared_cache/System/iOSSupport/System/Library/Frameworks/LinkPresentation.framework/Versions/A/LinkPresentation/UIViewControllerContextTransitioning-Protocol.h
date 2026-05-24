@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (_Bool)URL: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (_Bool);
+- (UIViewController *);
+- (_Bool)isTweetURL: /* Error: Ran out of types for this method. */;
 - (UIView *),N,V_endTime;
 - (void)meworks/MediaPlayer.framework/MediaPlayer;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
 @property(readonly, nonatomic) UIView *containerView;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) _Bool transitionWasCancelled;
 @end
 

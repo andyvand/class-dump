@@ -9,12 +9,10 @@
 @interface MKTransitItemReferenceDateUpdater
 {
     struct os_unfair_lock_s _lock;
-    _Bool _active;
-    id <MKTransitItemReferenceDateUpdaterDelegate> _delegate;
 }
 
 + (double);
-+ (unsigned long long);
++ (unsigned long long);
 + (void);
 + (void);
 + (void);
@@ -24,16 +22,15 @@
 + (void);
 + (void);
 + (id);
-+ (void)redictorConnectionTimeoutInSecondsKey;
-- (id);
++ (void)MapsSuggestionsPredictorConnectionTimeoutInSecondsKey;
+- (id)`;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)ctCombiningEffects: /* Error: Ran out of types for this method. */;
+- (void)effectCombiningEffects: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(nonatomic) __weak id <MKTransitItemReferenceDateUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

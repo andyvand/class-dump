@@ -31,17 +31,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)T;
 + (id);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)CGPoint=dd}{CGSize=dd}}24d56@64@72@?80;
++ (_Bool)16@?0@"WBSSVGImageRenderingResponse"8;
 + (id)ùI9?É Ï¾­K?<¡¿>W8?*TÏ¾¦_?f½È>§8?oÏ¾zÅ?¤oÒ>Zg8?Ï¾Xr?¥Ü>Eg9?×Ï¾mªz?¹mç>ê;?0GÏ¾;
 - (void);
 - (void);
@@ -53,7 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (double);
@@ -66,7 +66,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (double);
+- (double)a;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -232,15 +232,12 @@ inline float pbr_area_light_eval_line(float2x3 cornerDirections)
     return M_1_PI_F * I;
 }
  /* Error: Ran out of types for this method. */;
-- (id)ignSmoothLimitMask;
+- (id)assignSmoothLimitMask;
 - (void)iled to load json named %@;
 - (void)e image inside %@;
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) double speed;
-@property(nonatomic) CDUnknownBlockType timingFunction;
-@property(nonatomic) long long timingMode;
 
 @end
 

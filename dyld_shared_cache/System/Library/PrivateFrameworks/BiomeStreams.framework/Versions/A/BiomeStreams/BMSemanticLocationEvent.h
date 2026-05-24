@@ -6,18 +6,13 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMSemanticLocationEvent : BMEventBase
 {
     _Bool _starting;
-    unsigned long long _userSpecificPlaceType;
-    unsigned long long _placeType;
-    NSString *_loiIdentifier;
 }
 
 + (id);
-- (id);
+- (id)E痃;
 - (id);
 - (unsigned int);
 - (id);
@@ -25,28 +20,17 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)A;
+- (unsigned long long)setCandidate: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
+- (_Bool)A\B;
 - (_Bool);
-- (_Bool);
-- (void)size;
-- (id)_to_buffer;
+- (void)pg_query__create_stats_stmt__get_packed_size;
+- (id)pg_query__create_op_family_stmt__pack_to_buffer;
 - (void);
 - (unsigned long long)©ª«ðñ­ò¯°±;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *loiIdentifier; // @synthesize loiIdentifier=_loiIdentifier;
-@property(readonly, nonatomic) unsigned long long placeType; // @synthesize placeType=_placeType;
-@property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long userSpecificPlaceType; // @synthesize userSpecificPlaceType=_userSpecificPlaceType;
 
 @end

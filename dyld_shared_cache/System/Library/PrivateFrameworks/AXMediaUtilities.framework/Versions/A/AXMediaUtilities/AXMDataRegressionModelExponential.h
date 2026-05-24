@@ -10,10 +10,10 @@
 {
 }
 
-- (id);
+- (id)z;
 - (int);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)\|;
 - (void);
 - (_Bool);
 - (id);

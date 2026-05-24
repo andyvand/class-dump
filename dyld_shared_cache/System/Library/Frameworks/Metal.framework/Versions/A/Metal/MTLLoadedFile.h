@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MTLLoadedFile
 {
     NSData *_fileData;
-    void *_parent;
-    long long _modifiedTimeWhenCached;
-    struct FileIdentifier _identity;
-    _Bool _isCached;
 }
 
 - (id);

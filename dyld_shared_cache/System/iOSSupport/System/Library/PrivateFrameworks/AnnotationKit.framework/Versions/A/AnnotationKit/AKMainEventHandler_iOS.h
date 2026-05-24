@@ -6,16 +6,11 @@
 
 #import <AnnotationKit/AKMainEventHandler.h>
 
-@class AKPanGestureRecognizer, AKRotationGestureRecognizer, NSString, UILongPressGestureRecognizer, UITapGestureRecognizer;
+@class UITapGestureRecognizer;
 
 @interface AKMainEventHandler_iOS : AKMainEventHandler
 {
     UITapGestureRecognizer *_tapRecognizer;
-    UITapGestureRecognizer *_doubleTapRecognizer;
-    UILongPressGestureRecognizer *_pressRecognizer;
-    AKPanGestureRecognizer *_panRecognizer;
-    AKRotationGestureRecognizer *_rotationRecognizer;
-    double _lastRotationAngleInRotationGesture;
 }
 
 - (void);
@@ -33,29 +28,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool)recentlyBreachedSavedAccountsIfAvailable;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) UITapGestureRecognizer *doubleTapRecognizer; // @synthesize doubleTapRecognizer=_doubleTapRecognizer;
-@property(readonly) unsigned long long hash;
-@property double lastRotationAngleInRotationGesture; // @synthesize lastRotationAngleInRotationGesture=_lastRotationAngleInRotationGesture;
-@property(retain) AKPanGestureRecognizer *panRecognizer; // @synthesize panRecognizer=_panRecognizer;
-@property(retain) UILongPressGestureRecognizer *pressRecognizer; // @synthesize pressRecognizer=_pressRecognizer;
-@property(retain) AKRotationGestureRecognizer *rotationRecognizer; // @synthesize rotationRecognizer=_rotationRecognizer;
-@property(readonly) Class superclass;
 @property(retain) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
 
 @end

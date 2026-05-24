@@ -6,17 +6,11 @@
 
 #import <ExchangeWebServices/EWSItemType.h>
 
-@class EWSSingleRecipientType, NSDateComponents, NSString;
+@class NSString;
 
 @interface EWSPostItemType : EWSItemType
 {
     _Bool _IsRead;
-    NSString *_ConversationTopic;
-    EWSSingleRecipientType *_From;
-    NSString *_InternetMessageId;
-    NSDateComponents *_PostedTime;
-    NSString *_References;
-    EWSSingleRecipientType *_Sender;
 }
 
 + (id);
@@ -38,12 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ConversationTopic; // @synthesize ConversationTopic=_ConversationTopic;
-@property(retain, nonatomic) EWSSingleRecipientType *From; // @synthesize From=_From;
-@property(copy, nonatomic) NSString *InternetMessageId; // @synthesize InternetMessageId=_InternetMessageId;
-@property(nonatomic) _Bool IsRead; // @synthesize IsRead=_IsRead;
-@property(retain, nonatomic) NSDateComponents *PostedTime; // @synthesize PostedTime=_PostedTime;
-@property(copy, nonatomic) NSString *References; // @synthesize References=_References;
-@property(retain, nonatomic) EWSSingleRecipientType *Sender; // @synthesize Sender=_Sender;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol ECMailAccount
-- (void)oxChangeHookResponder;
+- (NSArray *)iPAThreadCounter;
+- (NSString *)!;
+- (NSString *)device %@ invalidated;
+- (void)EDMailboxChangeHookResponder;
 - (NSString *);
 - (void)Ô¸;
 
 // Remaining properties
 @property(readonly, copy) NSArray *emailAddressStrings;
-@property(copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(copy) NSString *password;
-@property(readonly) ACAccount *systemAccount;
 @end
 

@@ -6,37 +6,27 @@
 
 #import <QuartzComposer/QCCompositionLayer.h>
 
-@class NSMutableDictionary, NSMutableSet;
-
 @interface QCCompositionCellLayer : QCCompositionLayer
 {
     double _pausedTime;
-    double _delayTime;
-    _Bool _paused;
-    _Bool _wasAsynchronous;
-    id _controller;
-    NSMutableSet *_updatedKeys;
-    NSMutableDictionary *_cachedDefaultInputParameters;
-    NSMutableDictionary *_updatedCompositionValues;
-    float _expectedFrameRate;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)	�H;
 - (void);
-- (void);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)led:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -48,7 +38,7 @@
 - (void);
 - (void);
 - (void),äü;
-- (void)emoveMaterialAtIndex;
+- (void)C3DGeometryRemoveMaterialAtIndex;
 
 @end
 

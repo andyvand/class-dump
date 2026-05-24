@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineFeedGroupTitleViewRenderer
 {
     id styler;
-    id moreActionsButtonRenderer;
 }
 
 @end

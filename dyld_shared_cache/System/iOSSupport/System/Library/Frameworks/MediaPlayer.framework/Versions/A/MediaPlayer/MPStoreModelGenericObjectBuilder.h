@@ -6,30 +6,19 @@
 
 #import <MediaPlayer/MPStoreModelObjectBuilder.h>
 
-@class MPStoreModelAlbumBuilder, MPStoreModelArtistBuilder, MPStoreModelMovieBuilder, MPStoreModelPlaylistBuilder, MPStoreModelRadioStationBuilder, MPStoreModelRecordLabelBuilder, MPStoreModelSongBuilder, MPStoreModelTVEpisodeBuilder, MPStoreModelTVSeasonBuilder, MPStoreModelTVShowBuilder, NSCountedSet;
+@class NSCountedSet;
 
 @interface MPStoreModelGenericObjectBuilder : MPStoreModelObjectBuilder
 {
     NSCountedSet *_baseContentItemIDToOccurrenceCount;
-    MPStoreModelAlbumBuilder *_albumBuilder;
-    MPStoreModelArtistBuilder *_artistBuilder;
-    MPStoreModelMovieBuilder *_movieBuilder;
-    MPStoreModelPlaylistBuilder *_playlistBuilder;
-    MPStoreModelSongBuilder *_songBuilder;
-    MPStoreModelTVEpisodeBuilder *_tvEpisodeBuilder;
-    MPStoreModelTVSeasonBuilder *_tvSeasonBuilder;
-    MPStoreModelTVShowBuilder *_tvShowBuilder;
-    MPStoreModelRecordLabelBuilder *_recordLabelBuilder;
-    MPStoreModelRadioStationBuilder *_radioStationBuilder;
-    _Bool _shouldUsePlaylistEntry;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)allowsNowPlayingApplicationLaunch;
+- (void)_allowsNowPlayingApplicationLaunch;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldUsePlaylistEntry; // @synthesize shouldUsePlaylistEntry=_shouldUsePlaylistEntry;

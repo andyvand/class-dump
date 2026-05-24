@@ -6,19 +6,14 @@
 
 #import <HomeKit/HMAccessControl.h>
 
-@class NSArray, NSSet;
-
 @interface HMAssistantAccessControl : HMAccessControl
 {
     _Bool _enabled;
-    unsigned long long _options;
-    NSSet *_accessories;
-    _Bool _activityNotificationsEnabledForPersonalRequests;
 }
 
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id)B;
++ (_Bool)ocaleIdentifier:]E3$_0 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -26,20 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)historiography;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)availableUpdates;
 - (id)Du4w¼w,xz¤z;
 - (void)´;
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessories;
-@property(readonly, getter=areActivityNotificationsEnabledForPersonalRequests) _Bool activityNotificationsEnabledForPersonalRequests;
-@property(readonly) _Bool allowUnauthenticatedRequests;
 @property(readonly, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 
 @end

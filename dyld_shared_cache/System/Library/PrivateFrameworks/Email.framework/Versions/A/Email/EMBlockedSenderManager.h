@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, EFLocked, NSString;
-@protocol EFScheduler;
+@class EFLocked;
 
 @interface EMBlockedSenderManager
 {
     struct atomic_flag _didRemoveObservers;
-    EFLocked *_blockedSenderCache;
-    id <EFScheduler> _notificationScheduler;
 }
 
++ (_Bool)PresencePayloadStateSyncPayload;
 + (_Bool);
-+ (_Bool);
-+ (void);
-- (void);
++ (void)_identifier;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)erging;
 - (void);
 - (void);
 - (id);
@@ -30,18 +27,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)RequiresUnconstrainedNetworking;
+- (void)LanesEng_27;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)M9;
+- (void)RateRanges from %lu rates;
+- (id)ZNK3adm5graph8HostNode22createHandlerFunction_ILNS0_11HandlerTypeE0EEENS0_7HandlerIXT_EE8FunctionEvEUlDpOT_E_;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
 - (_Bool);
 - (void);
 - (void);
@@ -50,21 +47,10 @@
 - (_Bool);
 - (void)!àGù1=1Â0@ù
 × ;
-- (_Bool)r:(id)arg1;
+- (_Bool)calendarWithIdentifier:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) EFLocked *blockedSenderCache; // @synthesize blockedSenderCache=_blockedSenderCache;
-@property(readonly, copy, nonatomic) EAEmailAddressSet *blockedSenderEmailAddresses;
-@property(nonatomic, getter=isBlockedSenderEnabled) _Bool blockedSenderEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMoveToTrashEnabled) _Bool moveToTrashEnabled;
-@property(retain, nonatomic) id <EFScheduler> notificationScheduler; // @synthesize notificationScheduler=_notificationScheduler;
-@property(readonly) Class superclass;
 
 @end
 

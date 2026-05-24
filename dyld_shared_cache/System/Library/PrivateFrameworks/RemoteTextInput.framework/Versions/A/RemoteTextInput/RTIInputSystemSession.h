@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSUUID, RTIDocumentState, RTIDocumentTraits, RTISessionOptions, RTITextOperations;
-@protocol RTIInputSystemSessionDelegate;
+@class NSHashTable, NSUUID;
 
 @interface RTIInputSystemSession
 {
     NSUUID *_uuid;
-    RTISessionOptions *_beginOptions;
-    RTIDocumentTraits *_documentTraits;
-    RTIDocumentState *_documentState;
-    RTITextOperations *_textOperations;
-    NSHashTable *_extraSessionDelegates;
-    id <RTIInputSystemSessionDelegate> _sessionDelegate;
 }
 
 - (void);
@@ -25,25 +18,26 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)r<ܽMɗ;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)`;
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)(;
+- (void);
+- (id);
+- (void)_ְ
+;
+- (id)liant;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -52,14 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) RTITextOperations *_textOperations;
-@property(retain, nonatomic) RTISessionOptions *beginOptions; // @synthesize beginOptions=_beginOptions;
-@property(retain, nonatomic) RTIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(retain, nonatomic) RTIDocumentTraits *documentTraits; // @synthesize documentTraits=_documentTraits;
 @property(retain, nonatomic) NSHashTable *extraSessionDelegates; // @synthesize extraSessionDelegates=_extraSessionDelegates;
-@property(nonatomic) __weak id <RTIInputSystemSessionDelegate> sessionDelegate; // @synthesize sessionDelegate=_sessionDelegate;
-@property(retain, nonatomic) RTITextOperations *textOperations; // @synthesize textOperations=_textOperations;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

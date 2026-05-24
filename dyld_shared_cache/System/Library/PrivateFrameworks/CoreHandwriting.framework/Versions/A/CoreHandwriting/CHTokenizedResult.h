@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSIndexSet;
 
 @interface CHTokenizedResult
 {
     _Bool _isMinimalDrawingResult;
-    double _score;
-    NSString *_recognizerDebugDescription;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_invalidateGStatesForTree;
 - (id);
-- (id);
+- (id).B#.B`B!.B%.B`B;
 - (id);
 - (id);
 - (_Bool);
@@ -27,19 +25,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (void);
-- (id);
-- (id);
-- (double);
+- (id)saveToDataArchive: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (double)message;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMinimalDrawingResult; // @synthesize isMinimalDrawingResult=_isMinimalDrawingResult;
-@property(readonly, nonatomic) NSString *recognizerDebugDescription; // @synthesize recognizerDebugDescription=_recognizerDebugDescription;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 @property(readonly, nonatomic) NSIndexSet *strokeIndexes;
-@property(readonly, copy, nonatomic) NSString *topTranscription;
 
 @end
 

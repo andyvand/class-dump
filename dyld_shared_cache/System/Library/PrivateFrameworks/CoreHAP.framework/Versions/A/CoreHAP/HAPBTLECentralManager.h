@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HAPBTLECentralManager
 {
     NSObject<OS_dispatch_queue> *workQueue;
-    CBCentralManager *centralManager;
-    NSMutableSet *delegates;
-    long long state;
 }
 
 + (id);
@@ -25,22 +22,12 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id);
+- (void)updateToMaxOfTotalFramesAnd:(id)arg1;
+- (id)sharedAudioDeviceManager;
 - (id);
 - (void)@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableSet *delegates; // @synthesize delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long state; // @synthesize state;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue;
 
 @end

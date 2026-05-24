@@ -5,13 +5,10 @@
 //
 
 @protocol CUIKSingleDayTimelineGeometryDelegate
-- (struct CGPoint)aderContentContainer;
+- (double)button being clicked or body being clicked:%ld /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_headerContentContainer;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect displayedRect;
-@property(readonly, nonatomic) double hourHeight;
-@property(readonly, nonatomic) _Bool originIsUpperLeft;
-@property(readonly, nonatomic) double timeWidth;
-@property(readonly, nonatomic) double topPadding;
 @end
 

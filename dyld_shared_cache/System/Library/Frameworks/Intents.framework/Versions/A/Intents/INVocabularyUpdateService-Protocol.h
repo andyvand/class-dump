@@ -5,5 +5,8 @@
 //
 
 @protocol INVocabularyUpdateService
+- (oneway void);
+- (oneway void)j;
+- (oneway void)$4;
 @end
 

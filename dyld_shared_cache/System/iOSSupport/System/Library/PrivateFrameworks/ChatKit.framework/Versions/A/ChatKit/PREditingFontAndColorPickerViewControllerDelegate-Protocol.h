@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, PREditingFontAndColorPickerViewController, PRTimeFontConfiguration;
+
 @protocol PREditingFontAndColorPickerViewControllerDelegate
+
+@optional
+- (void)ld",W,N,V_verifyLabel;
+- (_Bool)usesSmallSizeForAttachment:(PREditingFontAndColorPickerViewController *)arg1 withMetadata:(PRTimeFontConfiguration *)arg2 type:insideSystemPaper: /* Error: Ran out of types for this method. */;
+- (void)rdAndVerifyDoNotMatchLabel;
+- (NSArray *);
 @end
 

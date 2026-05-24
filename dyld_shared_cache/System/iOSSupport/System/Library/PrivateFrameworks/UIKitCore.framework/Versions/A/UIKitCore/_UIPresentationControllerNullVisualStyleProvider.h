@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UISheetPresentationMetrics;
+@class _UISheetPresentationMetrics;
 
 __attribute__((visibility("hidden")))
 @interface _UIPresentationControllerNullVisualStyleProvider
@@ -14,29 +14,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (id);
-- (id);
+- (id)UID:(id)arg1 creationMetadata:completionHandler:] /* Error: Ran out of types for this method. */;
 - (long long)!@Aùñ_°1Â0@ù
 × ;
 - (id);
-- (id)roppedItem:(id)arg1 dropContainerView:defaultAnimation:sourceAnimation:delegate: /* Error: Ran out of types for this method. */;
-- (id)sStyle;
+- (id)initWithDragItem:(id)arg1 droppedItem:dropContainerView:defaultAnimation:sourceAnimation:delegate: /* Error: Ran out of types for this method. */;
+- (id)_enableFloatingFocusStyle;
 - (id)V_dataOwner;
 - (long long)`g;
 - (id)for edge value, %ld, not containing NSDirectionalRectEdgeTop or NSDirectionalRectEdgeBottom;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) _UISheetPresentationMetrics *defaultSheetMetrics;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"_UISheetPresentationMetrics",?,R,N
 
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

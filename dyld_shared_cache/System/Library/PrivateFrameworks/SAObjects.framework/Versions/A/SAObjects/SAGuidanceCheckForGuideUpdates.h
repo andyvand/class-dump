@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface SAGuidanceCheckForGuideUpdates : SABaseCommand
 {
@@ -16,24 +16,14 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)Y;
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSNumber *currentGuideTag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedFeatures;
 
 @end
 

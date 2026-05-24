@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PSCalendarEventPredictor;
+@class _PSCalendarEventPredictor;
 
 @interface _PSCalendarEventPredictorDelegateWrapper
 {
     _PSCalendarEventPredictor *_calendarEventPredictor;
-    double _startSecondsFromQuery;
-    double _endSecondsFromQuery;
-    unsigned long long _maxParticipants;
-    _Bool _isEnabled;
-    long long _defaultConfidenceCategory;
 }
 
-- (id);
-- (id);
+- (id)_assistantDaemonLoadedTimestampInNs;
+- (id)_assistantDaemonAudioTwoShotTransitionContext;
 - (id);
 - (id);
 - (void);
@@ -26,13 +21,7 @@
 - (void)tion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

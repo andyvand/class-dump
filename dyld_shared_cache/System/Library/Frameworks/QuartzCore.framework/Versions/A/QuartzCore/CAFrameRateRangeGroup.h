@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (void);
+- (void)!;
 - (const unsigned int *);
 - (_Bool);
 - (struct CAFrameIntervalRange);

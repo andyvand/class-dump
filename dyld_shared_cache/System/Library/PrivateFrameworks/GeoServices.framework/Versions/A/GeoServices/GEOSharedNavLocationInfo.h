@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSharedNavLocationInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_coordinate;
-    unsigned int _matchedCoordinateIndex;
-    float _matchedCoordinateOffset;
-    struct {
-        unsigned int has_matchedCoordinateIndex:1;
-        unsigned int has_matchedCoordinateOffset:1;
-    } _flags;
 }
 
-+ (_Bool)ngagement:(id)arg1;
++ (_Bool)setMapsEngagement:(id)arg1;
 
 @end
 

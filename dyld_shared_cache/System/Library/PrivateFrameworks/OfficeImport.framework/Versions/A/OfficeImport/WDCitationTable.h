@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WDCitationTable
 {
     NSMutableDictionary *mCitations;
-    WDDocument *mDocument;
 }
 
 - (id);

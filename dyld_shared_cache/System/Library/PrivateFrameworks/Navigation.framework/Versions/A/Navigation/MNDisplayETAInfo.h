@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID;
+@class NSArray;
 
 @interface MNDisplayETAInfo
 {
     NSArray *_legInfos;
-    NSUUID *_routeID;
-    _Bool _isUsingServerDisplayETA;
 }
 
 + (_Bool);
@@ -19,34 +17,25 @@
 + (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)HoverEffectPhaseOverride;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ListSubviewSizingHandlingForUniform;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
-- (void);
+- (void)AOSUIOBWelcomeControllerViewModelProtocol;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *displayETAToEndOfLeg;
-@property(readonly, nonatomic) NSDate *displayETAToEndOfRoute;
-@property(readonly, nonatomic) unsigned long long displayRemainingMinutesToEndOfLeg;
 @property(readonly, nonatomic) unsigned long long displayRemainingMinutesToEndOfRoute;
-@property(readonly, nonatomic) NSDate *etaToEndOfRoute;
-@property(readonly, nonatomic) _Bool isUsingServerDisplayETA; // @synthesize isUsingServerDisplayETA=_isUsingServerDisplayETA;
-@property(readonly, nonatomic) unsigned long long legIndex;
-@property(retain, nonatomic) NSArray *legInfos; // @synthesize legInfos=_legInfos;
-@property(readonly, nonatomic) unsigned long long remainingMinutesToEndOfRoute;
-@property(retain, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
 
 @end
 

@@ -6,18 +6,13 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray;
-
 @interface CLSRole : CLSObject
 {
     _Bool _isEditable;
-    long long _type;
-    NSArray *_privileges;
-    long long _sourceType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_delegate_presentGenericTermsUIforAccount:authResults:serverError:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -28,14 +23,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)J1;
 - (void);
-- (long long)s: /* Error: Ran out of types for this method. */;
+- (long long)setAdditionalReportItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool isEditable; // @synthesize isEditable=_isEditable;
-@property(copy, nonatomic) NSArray *privileges; // @synthesize privileges=_privileges;
-@property(nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

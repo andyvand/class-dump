@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface MPPThreadKeyExclusiveAccessToken
 {
     unsigned long long _key;
-    id _owner;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)setAllowsContextMenuPlugIns: /* Error: Ran out of types for this method. */;
 
 @end
 

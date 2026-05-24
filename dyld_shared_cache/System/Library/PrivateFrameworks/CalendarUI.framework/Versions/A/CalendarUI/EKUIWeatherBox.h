@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak EKUIMapGadget *gadget; // @synthesize gadget=_gadget;

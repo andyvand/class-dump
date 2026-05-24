@@ -20,27 +20,29 @@
 - (unsigned long long);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (_Bool);
 - (double);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)phoneCallStateMonitor;
+- (unsigned long long)_startFeedbackForTwoShotAtTime: /* Error: Ran out of types for this method. */;
+- (double)P$P;
+- (double)ent succeed;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (unsigned long long);
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
 - (double);
 - (double);
+- (double);
+- (unsigned long long);
+- (double)
+
+|;
+- (double)%lld out %lld/%lld) last (in %lld/%lld out %lld/%lld)]no %sbound pending bytes to filter;
 - (double);
 - (double);
 - (double);
@@ -54,67 +56,17 @@
 × ;
 - (double)0@ù
 × ;
-- (double)indRoadsNear:radius: /* Error: Ran out of types for this method. */;
-- (unsigned long long)cantLocationsCount;
-- (double)ateIndex:trimRange: /* Error: Ran out of types for this method. */;
-- (_Bool)Option;
-- (double)WED_REPORT;
+- (double)synchronousFindRoadsNear:radius: /* Error: Ran out of types for this method. */;
+- (unsigned long long)significantLocationsCount;
+- (double)_roadPolylineCoordinateForCoordinate:segmentCoordinateIndex:trimRange: /* Error: Ran out of types for this method. */;
+- (_Bool)GEORequestOption;
+- (double)RAP_OUTREACH_REVIEWED_REPORT;
 - (double);
 - (double)À;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accessValueThresholdToUpdateCacheEntries;
-@property(readonly, nonatomic) double averageWalkingSpeed;
-@property(readonly, nonatomic) double defaultExpirationOffset;
-@property(readonly, nonatomic) double exitRegionSize;
-@property(readonly, nonatomic) double extraLocationWaitTimeInterval;
-@property(readonly, nonatomic) double fastWalkingSpeed;
-@property(readonly, nonatomic) double hypothesisResponseStaleToPurgeFromDiskThresholdInSeconds;
-@property(readonly, nonatomic) double hypothesisResponseStaleToRefreshThresholdInSeconds;
-@property(readonly, nonatomic) double hypothesisShouldPersistThresholdInSeconds;
-@property(readonly, nonatomic) unsigned long long initialClientInitiatedHypothesisCacheAccessValue;
-@property(readonly, nonatomic) unsigned long long initialSelfInitiatedHypothesisCacheAccessValue;
-@property(readonly, nonatomic) double locationFreshnessThreshold;
-@property(readonly, nonatomic) double locationReuseThreshold;
-@property(readonly, nonatomic) double locationUpdateTimerInterval;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyForDriving;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyForTransit;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyForWalking;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyWhileStationaryForDriving;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyWhileStationaryForTransit;
-@property(readonly, nonatomic) double locationUpdatesDesiredAccuracyWhileStationaryForWalking;
-@property(readonly, nonatomic) unsigned long long maxRandomJitterForHypothesisWakeup;
-@property(readonly, nonatomic) long long maximumNumberOfDestinationsToMonitor;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfEntriesInTheCacheUnderMemoryPressure;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfLeechedLocations;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfProcessingLoopRepeats;
-@property(readonly, nonatomic) double maximumRefreshIntervalLeeway;
-@property(readonly, nonatomic) double maximumTimeBetweenConsecutiveHypothesisUpdatesInSeconds;
-@property(readonly, nonatomic) unsigned long long maximumTraceFileCount;
-@property(readonly, nonatomic) double maximumUserRoutingPreferencesAge;
-@property(readonly, nonatomic) unsigned long long minRandomJitterForHypothesisWakeup;
-@property(readonly, nonatomic) double minimumDistanceToCompareAgainstLocationAccuracy;
-@property(readonly, nonatomic) double minimumDistanceToConsiderLeechedLocationInMeters;
 @property(readonly, nonatomic) double minimumDistanceToGetLocationUpdatesInMeters;
-@property(readonly, nonatomic) double minimumExpirationOffset;
-@property(readonly, nonatomic) double minimumTimeBetweenConsecutiveLocationUpdatesInSeconds;
-@property(readonly, nonatomic) double minimumTimeIntervalToConsiderLeechedLocationInSeconds;
-@property(readonly, nonatomic) double minimumTimerTimeStampFudge;
-@property(readonly, nonatomic) double pendingStopTimeToLive;
-@property(readonly, nonatomic) double predictionsWatchdogInterval;
-@property(readonly, nonatomic) unsigned long long refreshEquationHighestFrequency;
-@property(readonly, nonatomic) unsigned long long refreshEquationLowestFrequency;
-@property(readonly, nonatomic) unsigned long long refreshEquationLowestFrequencyTransit;
-@property(readonly, nonatomic) double refreshTimeIntervalBackoffBase;
-@property(readonly, nonatomic) double refreshTimeIntervalBackoffMax;
-@property(readonly, nonatomic) double refreshTimeIntervalToUseIfError;
-@property(readonly, nonatomic) _Bool shouldUseServerSideETAs;
-@property(readonly, nonatomic) double slowWalkingSpeed;
-@property(readonly, nonatomic) double staleLocationUseTimerInterval;
-@property(readonly, nonatomic) _Bool transitTTLSupported;
-@property(readonly, nonatomic) double updateTimeout;
-@property(readonly, nonatomic) _Bool useConservativeDepartureForRefreshTimer;
 
 @end
 

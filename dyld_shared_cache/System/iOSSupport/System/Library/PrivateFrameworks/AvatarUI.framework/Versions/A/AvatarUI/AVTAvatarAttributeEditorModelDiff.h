@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface AVTAvatarAttributeEditorModelDiff
 {
     NSArray *_sectionDiffs;
-    NSDictionary *_sectionItemDiffs;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *sectionDiffs; // @synthesize sectionDiffs=_sectionDiffs;
-@property(readonly, nonatomic) NSDictionary *sectionItemDiffs; // @synthesize sectionItemDiffs=_sectionItemDiffs;
 
 @end
 

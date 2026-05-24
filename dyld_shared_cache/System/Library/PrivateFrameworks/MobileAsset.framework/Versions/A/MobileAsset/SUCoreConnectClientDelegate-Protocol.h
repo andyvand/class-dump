@@ -5,5 +5,9 @@
 //
 
 @protocol SUCoreConnectClientDelegate
+
+@optional
+- (void)GroupSessionError;
+- (void)ikeInterfaceName;
 @end
 

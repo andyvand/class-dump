@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDataDetector, NSString;
+@class NSDataDetector;
 
 @interface SGEntityMappingTransformer
 {
     NSDataDetector *_dataDetector;
-    NSString *_emailMapping;
-    NSString *_linkMapping;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)verifyCredentialsForAccount:(id)arg1 options:completion: /* Error: Ran out of types for this method. */;
+- (id)!= NULL && parent->type == OBJECT_TYPE_STRUCTURE;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void)&4;
 
 // Remaining properties
 @property(retain) NSDataDetector *dataDetector; // @synthesize dataDetector=_dataDetector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *emailMapping; // @synthesize emailMapping=_emailMapping;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *linkMapping; // @synthesize linkMapping=_linkMapping;
-@property(readonly) Class superclass;
 
 @end
 

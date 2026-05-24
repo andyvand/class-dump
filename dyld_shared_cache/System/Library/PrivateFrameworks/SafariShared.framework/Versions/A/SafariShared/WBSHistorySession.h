@@ -14,14 +14,13 @@
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)hM;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)AppQuitting;
 - (void)Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCurrentSession;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

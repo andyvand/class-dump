@@ -9,15 +9,14 @@
 @interface MFMessageContext
 {
     NSOperationQueue *_filesystemQueue;
-    NSOperationQueue *_waitingQueue;
 }
 
-+ (id);
++ (id)l;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,7 +29,6 @@
 - (void)´;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *filesystemQueue; // @synthesize filesystemQueue=_filesystemQueue;
 @property(readonly, nonatomic) NSOperationQueue *waitingQueue; // @synthesize waitingQueue=_waitingQueue;
 
 @end

@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol OS_dispatch_queue;
 
 @interface CalNWideQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
 - (id);

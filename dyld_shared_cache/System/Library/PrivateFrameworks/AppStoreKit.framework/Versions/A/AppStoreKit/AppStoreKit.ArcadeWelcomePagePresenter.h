@@ -9,9 +9,6 @@
 @interface AppStoreKit.ArcadeWelcomePagePresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id url;
-    id contentType;
-    id welcomePage;
 }
 
 @end

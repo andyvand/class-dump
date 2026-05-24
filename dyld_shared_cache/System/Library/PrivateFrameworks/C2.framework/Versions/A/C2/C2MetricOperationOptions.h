@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MetricOperationGroupOptions, NSString;
+@class C2MetricOperationGroupOptions;
 
 @interface C2MetricOperationOptions
 {
     C2MetricOperationGroupOptions *_operationGroup;
-    NSString *_operationId;
-    NSString *_operationType;
 }
 
-+ (_Bool);
++ (_Bool)h";
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -21,16 +19,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (id);
-- (void);
+- (void)h";
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) C2MetricOperationGroupOptions *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(copy, nonatomic) NSString *operationId; // @synthesize operationId=_operationId;
-@property(copy, nonatomic) NSString *operationType; // @synthesize operationType=_operationType;
 
 @end
 

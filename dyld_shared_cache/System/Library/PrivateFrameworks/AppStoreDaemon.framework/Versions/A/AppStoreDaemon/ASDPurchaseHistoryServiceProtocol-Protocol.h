@@ -5,5 +5,8 @@
 //
 
 @protocol ASDPurchaseHistoryServiceProtocol
+- (void);
+- (void)k8;
+- (void);
 @end
 

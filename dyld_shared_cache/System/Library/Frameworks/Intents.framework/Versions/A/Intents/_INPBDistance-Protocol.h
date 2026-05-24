@@ -7,11 +7,12 @@
 @class NSArray, _INPBDistanceValue;
 
 @protocol _INPBDistance
++ (Class)s =====
+;
 - (void)Image Proxy;
 - (_INPBDistanceValue *)sg;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

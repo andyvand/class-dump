@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
++ (void)6@0:8 /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
+- (id),I;
 - (void);
 
 @end

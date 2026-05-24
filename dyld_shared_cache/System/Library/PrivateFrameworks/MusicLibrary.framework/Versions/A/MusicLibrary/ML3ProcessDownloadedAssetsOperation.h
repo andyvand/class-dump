@@ -10,15 +10,15 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (double);
+- (id)s,N,V_featuredState;
+- (_Bool)@"PLImageFormat",R,N,V_imageFormat;
+- (_Bool)T@"PLFrequentLocationManager",&,N,V_frequentLocationManager;
+- (_Bool)processWorkItemObjectID:(id)arg1 sourceLibrary:(int)arg2 targetLibrary:(id *)arg3 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)ce",R,&,N,V_editSource;
+- (_Bool)preferredOrFallbackFilenameExtensionForType:(id)arg1 fallbackIdentifier:(int)arg2;
+- (_Bool)makeInnerLibraryInternalService;
+- (long long)initWithUniversalDate:(int)arg1 calendar: /* Error: Ran out of types for this method. */;
+- (double)geometryRequestWithComposition:(unsigned int)arg1;
 - (unsigned long long);
 
 @end

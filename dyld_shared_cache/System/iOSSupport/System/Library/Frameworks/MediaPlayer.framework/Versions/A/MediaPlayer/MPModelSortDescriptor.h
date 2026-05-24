@@ -13,12 +13,12 @@
 
 + (id);
 + (_Bool);
+- (id)m"16^B24;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)navigationListener:didUpdateRouteSummary: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void)q,N,V_storePurchasedAdamID;
 
 // Remaining properties

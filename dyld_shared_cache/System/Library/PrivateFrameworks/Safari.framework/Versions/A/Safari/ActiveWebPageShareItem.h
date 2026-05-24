@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSData, NSImage, NSString, NSURL, WKWebView;
+@class LPLinkMetadata, WKWebView;
 
 __attribute__((visibility("hidden")))
 @interface ActiveWebPageShareItem
 {
     LPLinkMetadata *_linkMetadata;
-    WKWebView *_webView;
-    NSURL *_url;
 }
 
 + (id);
@@ -27,31 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)ÿw¹Èôj1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSData *shareItemData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,&
-
-@property(readonly, retain) NSImage *shareItemImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R,&
-
-@property(readonly, retain) NSString *shareItemString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,&
-
-@property(readonly, retain) NSString *shareItemType;
-@property(readonly, retain) NSURL *shareItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,&
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

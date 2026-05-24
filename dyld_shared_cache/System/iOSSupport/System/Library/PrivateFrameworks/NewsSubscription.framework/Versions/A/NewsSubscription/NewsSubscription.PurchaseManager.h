@@ -7,25 +7,16 @@
 @interface NewsSubscription.PurchaseManager
 {
     id purchaseObservers;
-    id transactionObservers;
-    id internalPurchaseManager;
-    id purchaseController;
-    id purchaseContextEntriesManager;
-    id metricsBuilder;
-    id bundleSubscriptionManager;
-    id activeWindowScene;
-    id offerConfigMatcher;
-    id configurableOffersConfigFetcher;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)rary/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDGroupLayout.m;
 - (void);
 
 @end

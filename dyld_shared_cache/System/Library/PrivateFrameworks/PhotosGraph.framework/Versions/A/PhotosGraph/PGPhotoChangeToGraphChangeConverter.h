@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_os_log;
+@class NSMutableDictionary;
 
 @interface PGPhotoChangeToGraphChangeConverter
 {
     NSMutableDictionary *_entityTranslatorByEntityClassName;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
-- (void)moryTypeFormat;
+- (id);
+- (void)PGExcitingMomentsWithPersonMemoryTypeFormat;
 
 @end
 

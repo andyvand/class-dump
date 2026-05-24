@@ -6,34 +6,21 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class DOMNode, NSArray, NSObject, NSString, UIDocumentMenuViewController, UIImagePickerController, UIPopoverController, UIWebDocumentView;
-@protocol UIWebFileUploadPanelDelegate, WebOpenPanelResultListener;
+@class NSArray, UIDocumentMenuViewController;
 
 @interface UIWebFileUploadPanel : UIViewController
 {
     UIDocumentMenuViewController *_documentMenuController;
-    UIImagePickerController *_imagePicker;
-    UIViewController *_presentationViewController;
-    UIPopoverController *_presentationPopover;
-    struct CGPoint _interactionPoint;
-    DOMNode *_interactionElement;
-    _Bool _allowMultipleFiles;
-    _Bool _isUsingCamera;
-    NSArray *_mimeTypes;
-    UIWebDocumentView *_documentView;
-    NSObject<WebOpenPanelResultListener> *_resultListener;
-    id <UIWebFileUploadPanelDelegate> _delegate;
-    long long _mediaCaptureType;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)s:(id)arg1 state:style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)engramID;
+- (void)downloadAttachmentAssetsWithActivity:(long long)arg1 restoringAttachments:completion: /* Error: Ran out of types for this method. */;
+- (void)dateLastCallEnded;
+- (void)_removeOriginatedMessage:(_Bool)arg1;
+- (id)_generateLocationSharingItemWithHandleID:direction:action: /* Error: Ran out of types for this method. */;
+- (void)C,N,V_date;
+- (id)ServiceDelegate;
 - (long long);
 - (_Bool);
 - (id);
@@ -41,59 +28,46 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool)ferredLocalization:%s /* Error: Ran out of types for this method. */;
+- (void)lete;
+- (void)ng chat tombstones for recordIDs:(id)arg1 %s;
+- (void)returning nil for batchOfRecordIDsToDelete for DeletedChatStore.;
+- (_Bool)ing for SMS relay with requesting device:(id)arg1 %@;
+- (void)to fetch from archived zone. Kicking off another batch of fetching;
+- (_Bool)omCloud transfer %@;
+- (void)h handles:(id)arg1 %@ chats:(CDUnknownBlockType)arg2 %@;
+- (void)p ID %@ for chat metadata:(id)arg1 %@;
+- (void)** This is my email (via proxy), ignoring;
+- (void)Part %@;
+- (void)Parts = %@;
+- (id)exit record state:(long long)arg1 %@, error (%@);
+- (id);
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)SSL_PARSE_CLIENTHELLO_RENEGOTIATE_EXT;
+- (id)#;
 - (void)!`@ùf°1Â0@ù
 × ;
-- (void)ts;
+- (void)_verticallyCentersContents;
 - (void)pdate layout information was detected while already in the process of computing the layout (i.e. reentrant call). This will result in unexpected behaviour or a crash. This may happen if a layout pass is triggered while calling out to a delegate. UICollectionViewFlowLayout instance is (%@);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowMultipleFiles; // @synthesize allowMultipleFiles=_allowMultipleFiles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <UIWebFileUploadPanelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) UIWebDocumentView *documentView; // @synthesize documentView=_documentView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isUsingCamera; // @synthesize isUsingCamera=_isUsingCamera;
-@property(nonatomic) long long mediaCaptureType; // @synthesize mediaCaptureType=_mediaCaptureType;
 @property(copy, nonatomic) NSArray *mimeTypes; // @synthesize mimeTypes=_mimeTypes;
-@property(retain, nonatomic) NSObject<WebOpenPanelResultListener> *resultListener; // @synthesize resultListener=_resultListener;
-@property(readonly) Class superclass;
 
 @end
 

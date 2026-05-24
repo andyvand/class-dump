@@ -6,46 +6,36 @@
 
 #import <UIKitCore/UIScrollView.h>
 
-@class CALayer, DOMNode, UIWebBrowserView, UIWebOverflowContentView, UIWebOverflowScrollListener;
+@class UIWebBrowserView;
 
 __attribute__((visibility("hidden")))
 @interface UIWebOverflowScrollView : UIScrollView
 {
     _Bool _beingRemoved;
-    UIWebBrowserView *_webBrowserView;
-    UIWebOverflowScrollListener *_scrollListener;
-    UIWebOverflowContentView *_overflowContentView;
-    DOMNode *_node;
-    CALayer *_webLayer;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)"NSString"40;
+- (id)4;
+- (id)?<v@?@"NSError">32;
+- (void)numberForKey:(id)arg1;
+- (void)numReadReceiptsV1WithQOINoChat;
+- (void):(id)arg1;
+- (void)fileURLWithPath:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (void)_subscriptionValidationToken;
+- (id)_messageDictionaryToRelayWithIncomingMessageDictionary:smsMessage: /* Error: Ran out of types for this method. */;
+- (void)_donateReadEventForChat:(id)arg1;
+- (id)ackHash;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)e is different;
 - (void);
 - (id)Ô ;
 - (id)¶¤;
 
 // Remaining properties
-@property(nonatomic, getter=isBeingRemoved) _Bool beingRemoved; // @synthesize beingRemoved=_beingRemoved;
-@property(retain, nonatomic) DOMNode *node; // @synthesize node=_node;
-@property(retain, nonatomic) UIWebOverflowContentView *overflowContentView; // @synthesize overflowContentView=_overflowContentView;
-@property(retain, nonatomic) UIWebOverflowScrollListener *scrollListener; // @synthesize scrollListener=_scrollListener;
 @property(nonatomic) UIWebBrowserView *webBrowserView; // @synthesize webBrowserView=_webBrowserView;
-@property(retain, nonatomic) CALayer *webLayer; // @synthesize webLayer=_webLayer;
 
 @end
 

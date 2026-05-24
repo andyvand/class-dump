@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSDictionary, NSString;
+@class MRPlayerPath, NSString;
 
 @protocol MPNowPlayingInfoTransportableSessionRequest
+- (MRPlayerPath *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *destinationCommandInfo;
-@property(readonly, nonatomic) MRPlayerPath *destinationPlayerPath;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isPreflight;
-@property(readonly, nonatomic) NSString *preferredSessionType;
 @end
 

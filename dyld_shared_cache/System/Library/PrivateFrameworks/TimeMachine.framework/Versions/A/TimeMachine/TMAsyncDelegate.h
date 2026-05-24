@@ -9,11 +9,6 @@
 @interface TMAsyncDelegate
 {
     DMManager *_manager;
-    CDUnknownBlockType _startBlock;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _messageBlock;
-    CDUnknownBlockType _errorBlock;
-    CDUnknownBlockType _finishBlock;
 }
 
 - (void);
@@ -21,12 +16,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)4a;
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void))!;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -35,10 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;
-@property(copy) CDUnknownBlockType finishBlock; // @synthesize finishBlock=_finishBlock;
-@property(copy) CDUnknownBlockType messageBlock; // @synthesize messageBlock=_messageBlock;
-@property(copy) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
 @property(copy) CDUnknownBlockType startBlock; // @synthesize startBlock=_startBlock;
 
 @end

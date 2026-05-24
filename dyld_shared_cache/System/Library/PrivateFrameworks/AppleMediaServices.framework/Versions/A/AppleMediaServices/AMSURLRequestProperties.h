@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSKeychainOptions, AMSMetricsLoadURLOverlay, AMSProcessInfo, AMSPurchaseInfo, NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSResponseDecoding;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSURLRequestProperties
 {
     _Bool _disableBiometricsResponseHandling;
-    _Bool _disableLoadURLMetrics;
-    _Bool _disableResponseDecoding;
-    _Bool _excludeIdentifierHeadersForAccount;
-    _Bool _knownToBeTrusted;
-    _Bool _remoteSecuritySigningEnabled;
-    _Bool _shouldSetCookiesFromResponse;
-    _Bool _shouldSetStorefrontFromResponse;
-    ACAccount *_account;
-    AMSMetricsLoadURLOverlay *_loadURLOverlay;
-    long long _anisetteType;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    long long _dialogOptions;
-    NSString *_gsTokenIdentifier;
-    AMSKeychainOptions *_keychainOptions;
-    NSString *_logUUID;
-    long long _maxRetryCount;
-    long long _mescalType;
-    AMSPurchaseInfo *_purchaseInfo;
-    id <AMSResponseDecoding> _responseDecoder;
-    long long _reversePushType;
-    NSDictionary *_userInfo;
-    Class _paymentSheetTaskClass;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -51,19 +27,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)getMetricsContext;
+- (id)af_speechToken;
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)alTouchEventMessageProtobuf";
+- (void)iked,V_liked;
+- (id)_MRTransactionPacketProtobuf;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ta;
+- (void)_retrieveData;
 - (id)Bd%¥.¨@P0w:9(X`²;´,âvÂÐ~x3k^÷A8ªuÿnQ£rî¾û-¤«1'gícRÚÅÛ<¯O=aÞËë2æ®ÓK¼üØï$¸ÍÄ)ÒèÖò*HM|E·Êé\ÆFÙhiáø]lã"#åµÔCõÌ¬4ÇeÀ!bmÁ{GÜW»½}qDç¶ðù§IÈ+SºV?U6×	o5°_ì>àÏêf©sÑz­ÉyäJ¿Nt /* Error: Ran out of types for this method. */;
 - (id)(SR_îíYä½k"°Ë IhY|qØ¸ü.ÚQ*ÃèOFQ}ª¯Ë$Ða:¤®X /* Error: Ran out of types for this method. */;
 - (void){ÊfÐ,ù eÉ|ú+Ï7îÓa$½Á(]×ò3Ë/öÅià¥	<ºkVw®R¡äHýDèN²sZo¶@©ÜµpYÛª?çCt±MQ­xþGã¢;
@@ -106,29 +82,6 @@ OÀÖyêIÖ~²badè%RÇlD>UV85ÚÚr=}_WåzÙ«î»äËxS0
 
 // Remaining properties
 @property(copy) ACAccount *account; // @synthesize account=_account;
-@property long long anisetteType; // @synthesize anisetteType=_anisetteType;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property long long dialogOptions; // @synthesize dialogOptions=_dialogOptions;
-@property _Bool disableBiometricsResponseHandling; // @synthesize disableBiometricsResponseHandling=_disableBiometricsResponseHandling;
-@property _Bool disableLoadURLMetrics; // @synthesize disableLoadURLMetrics=_disableLoadURLMetrics;
-@property _Bool disableResponseDecoding; // @synthesize disableResponseDecoding=_disableResponseDecoding;
-@property _Bool excludeIdentifierHeadersForAccount; // @synthesize excludeIdentifierHeadersForAccount=_excludeIdentifierHeadersForAccount;
-@property(copy) NSString *gsTokenIdentifier; // @synthesize gsTokenIdentifier=_gsTokenIdentifier;
-@property(copy) AMSKeychainOptions *keychainOptions; // @synthesize keychainOptions=_keychainOptions;
-@property _Bool knownToBeTrusted; // @synthesize knownToBeTrusted=_knownToBeTrusted;
-@property(retain) AMSMetricsLoadURLOverlay *loadURLOverlay; // @synthesize loadURLOverlay=_loadURLOverlay;
-@property(copy) NSString *logUUID; // @synthesize logUUID=_logUUID;
-@property long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property long long mescalType; // @synthesize mescalType=_mescalType;
-@property(retain) Class paymentSheetTaskClass; // @synthesize paymentSheetTaskClass=_paymentSheetTaskClass;
-@property(retain) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
-@property _Bool remoteSecuritySigningEnabled; // @synthesize remoteSecuritySigningEnabled=_remoteSecuritySigningEnabled;
-@property(retain) id <AMSResponseDecoding> responseDecoder; // @synthesize responseDecoder=_responseDecoder;
-@property long long reversePushType; // @synthesize reversePushType=_reversePushType;
-@property _Bool shouldSetCookiesFromResponse; // @synthesize shouldSetCookiesFromResponse=_shouldSetCookiesFromResponse;
-@property _Bool shouldSetStorefrontFromResponse; // @synthesize shouldSetStorefrontFromResponse=_shouldSetStorefrontFromResponse;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

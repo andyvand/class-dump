@@ -5,5 +5,9 @@
 //
 
 @protocol APPCMetricsViewReadyDelegate
+- (void)the user is not signed in.;
+
+@optional
+- (void)played in an alert when email newsletter signup is unavailable in the user's region.;
 @end
 

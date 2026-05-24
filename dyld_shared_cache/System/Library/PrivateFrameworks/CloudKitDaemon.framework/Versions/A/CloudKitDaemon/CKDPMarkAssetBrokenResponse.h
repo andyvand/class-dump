@@ -15,19 +15,19 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)initWithBytesNoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ts / %u ms)
+;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (void)usesCloudKitAuthToken to the same value;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMissingAssetStatusRecord;
-@property(retain, nonatomic) CKDPRecordIdentifier *missingAssetStatusRecord; // @synthesize missingAssetStatusRecord=_missingAssetStatusRecord;
 
 @end
 

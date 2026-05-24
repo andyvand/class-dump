@@ -11,7 +11,7 @@
     CPLEngineStore *_store;
 }
 
-+ (id);
++ (id)o;
 + (id);
 - (_Bool);
 - (id);

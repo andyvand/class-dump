@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface MPArtworkGradientInfo
 {
     double _y1;
-    double _y2;
-    NSColor *_color;
 }
 
-- (double);
-- (double);
+- (double)藟;
+- (double);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)_MPModelPropertyPlaylistIsOwner__MAPPING_MISSING__;
+- (void)setGroupSessionIdentifier:(id)arg1;
+- (void)__MPModelPropertyPlaylistIsOwner__MAPPING_MISSING__;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) double y1; // @synthesize y1=_y1;
-@property(nonatomic) double y2; // @synthesize y2=_y2;
 
 @end
 

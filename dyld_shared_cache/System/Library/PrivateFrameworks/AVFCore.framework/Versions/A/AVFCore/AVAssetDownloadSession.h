@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetDownloadSessionInternal, AVMediaSelection, NSArray, NSError, NSURL;
+@class AVAssetDownloadSessionInternal;
 
 @interface AVAssetDownloadSession
 {
@@ -28,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)l"�;
 - (id);
 - (void);
 - (int);
@@ -58,14 +58,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (struct OpaqueFigAsset *);
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct OpaqueFigPlaybackItem *);
+- (void);
+- (struct OpaqueFigPlaybackItem *);
 - (long long);
 - (void);
 - (id)0@ù
@@ -78,16 +78,6 @@
 - (unsigned long long)[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) unsigned long long availableFileSize;
-@property(readonly, nonatomic) unsigned long long countOfBytesReceived;
-@property(readonly, nonatomic) NSURL *destinationURL;
-@property(readonly, nonatomic) unsigned long long downloadToken;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) unsigned long long fileSize;
-@property(readonly, nonatomic) NSArray *loadedTimeRanges;
-@property(readonly, nonatomic) long long priority;
-@property(readonly, nonatomic) AVMediaSelection *resolvedMediaSelection;
 @property(readonly, nonatomic) long long status;
 
 @end

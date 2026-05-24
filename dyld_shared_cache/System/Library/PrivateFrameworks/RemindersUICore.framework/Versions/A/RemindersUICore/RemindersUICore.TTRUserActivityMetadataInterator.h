@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRUserActivityMetadataInterator
 {
     id contactsProvider;
-    id contactKeys;
-    id asyncOperationManager;
-    id blankAppIconEntries;
 }
 
 @end

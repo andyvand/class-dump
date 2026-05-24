@@ -6,19 +6,15 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class UIImage;
-
 __attribute__((visibility("hidden")))
 @interface UIStatusBarBluetoothBatteryItemView : UIStatusBarItemView
 {
     int _capacity;
-    int _accessibilityCachedHUDCapacity;
-    UIImage *_accessibilityCachedHUDImage;
 }
 
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)_shouldReportNewUserIfCreatedChatZones:(id)arg1 deletedZones:(int)arg2;
+- (double)upPhotoGuid %@, leaving as is.;
+- (id)rn val in storeAttachment for Aux transfer %@;
 - (double);
 - (struct UIEdgeInsets);
 - (void)DÛb;

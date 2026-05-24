@@ -5,5 +5,9 @@
 //
 
 @protocol NSComboBoxDataSource
+
+@optional
+- (long long)estUniqueID;
+- (unsigned long long);
 @end
 

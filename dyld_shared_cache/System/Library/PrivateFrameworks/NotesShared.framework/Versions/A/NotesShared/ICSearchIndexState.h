@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICSearchIndexState
 {
     short stateValue;
-    NSString *identifier;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (short);
 - (void)P»ßÿÿÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(nonatomic) unsigned long long progressState;
 @property(nonatomic) short stateValue; // @synthesize stateValue;
 
 @end

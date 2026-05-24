@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPBody, CPZone;
+@class CPBody;
 
 __attribute__((visibility("hidden")))
 @interface CPTextBoxMaker
 {
     CPBody *bodyZone;
-    CPZone *mainZone;
 }
 
 + (void);
 + (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);

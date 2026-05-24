@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCompoundAssertion, CALayer, NSMutableArray, NSMutableSet, NSString, UIVisualEffectBackingHost;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewBackingAux
 {
     CALayer *_intermediateLayer;
-    CALayer *_intermediateLayerRetained;
-    NSMutableSet *_privateSubviews;
-    NSMutableArray *_allSubviewsCache;
-    UIVisualEffectBackingHost *_effectHost;
-    NSString *_captureGroupName;
-    BSCompoundAssertion *_multiLayerAssertion;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id)_contents;
+- (id)playPauseButton;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)32@0:8@"NSString"16@?<v@?q>24 /* Error: Ran out of types for this method. */;
+- (id)ession:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)_SDys©;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allSubviewsCache; // @synthesize allSubviewsCache=_allSubviewsCache;
-@property(retain, nonatomic) NSString *captureGroupName; // @synthesize captureGroupName=_captureGroupName;
-@property(retain, nonatomic) UIVisualEffectBackingHost *effectHost; // @synthesize effectHost=_effectHost;
 @property(nonatomic) CALayer *intermediateLayer; // @synthesize intermediateLayer=_intermediateLayer;
-@property(retain, nonatomic) CALayer *intermediateLayerRetained; // @synthesize intermediateLayerRetained=_intermediateLayerRetained;
-@property(retain, nonatomic) BSCompoundAssertion *multiLayerAssertion; // @synthesize multiLayerAssertion=_multiLayerAssertion;
-@property(retain, nonatomic) NSMutableSet *privateSubviews; // @synthesize privateSubviews=_privateSubviews;
 
 @end
 

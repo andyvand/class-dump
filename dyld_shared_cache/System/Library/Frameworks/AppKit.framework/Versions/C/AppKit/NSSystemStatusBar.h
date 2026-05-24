@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (struct CGSize);
-- (id);
+- (id)esSinceDate:(id)arg1 dbConnection=%p DB=%@ Commit transaction failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

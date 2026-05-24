@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonListenerChatDatabaseProtocol
+- (void)]P;
 @end
 

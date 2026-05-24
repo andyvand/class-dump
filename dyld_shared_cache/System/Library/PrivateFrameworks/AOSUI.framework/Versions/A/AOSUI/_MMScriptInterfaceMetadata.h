@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _MMScriptInterfaceMetadata
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_selectorMetadata;
-    _Bool __cachingEnabledByDefault;
 }
 
 - (void);
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)q)3;
+- (void)	k(3;
 - (id);
 - (void)ñXð1Â0@ù
 × ;

@@ -5,8 +5,12 @@
 //
 
 @protocol AMSSQLiteBinding
+- (void);
+- (void)_storedRecognitionLanguageCode;
+- (void)n] Matching UIDs set:(int)arg1 %{public}@;
+- (void)FCSafariWriteUserBookmarksToBookmarksFile;
 - (void)rror">48;
-- (void):(long long)arg1 delegateAuthenticationRequired:(int)arg2 biometricSignatureRequired:taskInfo: /* Error: Ran out of types for this method. */;
+- (void)initWithResponseDictionary:(long long)arg1 confirmationOnly:(int)arg2 delegateAuthenticationRequired:biometricSignatureRequired:taskInfo: /* Error: Ran out of types for this method. */;
 - (void),»"Û\cÏbÀFó ¾íºØhd,æ£âO¬ÃÒÊm03@0O4í"ä«Å{!ËàÖö8åÎ·hü¹'±X°04¿¶é8^¦%	·í8ôTéêhÍì]ÏSªwú0B]LþmC´ìdÆxÒV¡æ~%£\¿BW=ØØvç"Þâ:(float)arg1 ­`¹Ål?ÝE¤qxÀý~Ö{¹AagÉ£QõecP¨ô	6°vßlNSÎ¾Èø©%tÆAß£#F<U¢«N]+ð¥)a;
 - (int)lM<D;
 @end

@@ -13,11 +13,10 @@
 
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriui_enumeratePropertyRangesUsingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFMediaPlaybackActionDatabaseID, MPPlaybackArchive, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFActionSet, MKFHome;
+@class MPPlaybackArchive;
 
 __attribute__((visibility("hidden")))
 @interface _MKFMediaPlaybackAction : _MKFAction
@@ -27,31 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)HindsightDigestController;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accessories;
-@property(retain, nonatomic) NSSet *accessories_; // @dynamic accessories_;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
-@property(readonly, copy, nonatomic) MKFMediaPlaybackActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) MPPlaybackArchive *encodedPlaybackArchive; // @dynamic encodedPlaybackArchive;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSNumber *state; // @dynamic state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *volume; // @dynamic volume;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

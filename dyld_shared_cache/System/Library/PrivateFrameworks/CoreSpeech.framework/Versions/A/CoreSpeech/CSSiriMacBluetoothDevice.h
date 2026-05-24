@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothDeviceInfo, IOBluetoothDevice, NSHashTable, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriMacBluetoothDevice
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_address;
-    NSUUID *_deviceUID;
-    IOBluetoothDevice *_device;
-    AFBluetoothDeviceInfo *_deviceInfo;
-    CDUnknownBlockType _connectionCompletion;
-    NSHashTable *_observers;
 }
 
 - (void);
@@ -28,15 +22,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)D;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)rResult;
+- (void)_sendWillRestoreDefaults;
+- (void)hasAcceptedEagerResult;
 - (void)iggerFirstPassJarvisAP start]_block_invoke_2;
 
 @end

@@ -6,20 +6,15 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSArray, NSMutableDictionary;
 @protocol WPNearbyDelegate;
 
 @interface WPNearby : WPClient
 {
     unsigned long long _nearbySignPostID;
-    long long _btBandwidthState;
-    id <WPNearbyDelegate> _delegate;
-    NSMutableDictionary *_transfers;
-    NSArray *_leCapablePeers;
 }
 
 + (unsigned char);
-+ (long long);
++ (long long)P;
 + (long long);
 - (void);
 - (void);
@@ -32,36 +27,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@"MTLIntersectionFunctionTableDescriptor"16;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)byteSize;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);;
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,20 +59,25 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (id);
+- (void);
+- (void)dressing;
 - (void)× ;
 - (void)°!àCùQ$Ð1Â0@ù
 × ;
-- (void)TestMode;
+- (void)enableTestMode;
 - (void)PClient can't reach bluetoothd to stop tracking all zones. ERROR:(id)arg1 %@;
 - (void)TVSetup failed to start ATV Setup advertising with error:(id)arg1 %@;
 
 // Remaining properties
-@property long long btBandwidthState; // @synthesize btBandwidthState=_btBandwidthState;
-@property long long connectionUseCase; // @dynamic connectionUseCase;
 @property(nonatomic) __weak id <WPNearbyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSArray *leCapablePeers; // @synthesize leCapablePeers=_leCapablePeers;
-@property long long maxAllowedConnectionDelayMs; // @dynamic maxAllowedConnectionDelayMs;
-@property(retain) NSMutableDictionary *transfers; // @synthesize transfers=_transfers;
 
 @end
 

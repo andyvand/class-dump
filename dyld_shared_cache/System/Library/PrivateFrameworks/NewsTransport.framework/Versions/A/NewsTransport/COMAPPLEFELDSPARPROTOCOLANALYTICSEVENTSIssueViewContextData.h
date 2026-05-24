@@ -7,16 +7,15 @@
 @interface COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSIssueViewContextData
 {
     int _issueViewContext;
-    CDStruct_830620d8 _has;
 }
 
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (int);
-- (id);
+- (void)addButtonWithTitle:(int)arg1;
+- (void)_updateStatusForIsReadyForAnalysis:(_Bool)arg1 progress:processCount: /* Error: Ran out of types for this method. */;
+- (id)_statusProviderMonitor;
+- (int)_statusProviderDidChange;
+- (_Bool)_setPasteboardItemURLForImageWithURL:pasteboard:item:type: /* Error: Ran out of types for this method. */;
+- (int)_playbackEndButtonSystemImagePointSize;
+- (id)c	;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIssueViewContext;
-@property(nonatomic) int issueViewContext; // @synthesize issueViewContext=_issueViewContext;
 
 @end
 

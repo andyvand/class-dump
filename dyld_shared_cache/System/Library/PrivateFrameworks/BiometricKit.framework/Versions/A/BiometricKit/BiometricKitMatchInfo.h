@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface BiometricKitMatchInfo
 {
     NSArray *_topology;
-    NSDictionary *_details;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *details; // @synthesize details=_details;
 @property(retain, nonatomic) NSArray *topology; // @synthesize topology=_topology;
 
 @end

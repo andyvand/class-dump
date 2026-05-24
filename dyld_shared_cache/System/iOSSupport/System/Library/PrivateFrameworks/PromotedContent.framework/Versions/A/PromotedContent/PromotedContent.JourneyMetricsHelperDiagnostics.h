@@ -7,9 +7,6 @@
 @interface PromotedContent.JourneyMetricsHelperDiagnostics
 {
     id helper;
-    id history;
-    id createdDate;
-    id lastReadyIdentifier;
 }
 
 - (id);

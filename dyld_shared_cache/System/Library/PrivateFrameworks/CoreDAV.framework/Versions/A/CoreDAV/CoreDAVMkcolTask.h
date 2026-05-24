@@ -6,15 +6,11 @@
 
 #import <CoreDAV/CoreDAVActionBackedTask.h>
 
-@class NSSet, NSURL;
-@protocol CoreDAVTaskDelegate;
+@class NSSet;
 
 @interface CoreDAVMkcolTask : CoreDAVActionBackedTask
 {
     NSSet *_propertiesToSet;
-    _Bool _sendOrder;
-    int _absoluteOrder;
-    NSURL *_priorOrderedURL;
 }
 
 - (void);
@@ -23,20 +19,17 @@
 - (int);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)D9	;
+- (id)_virtualRoomResults;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)vdv;
 
 // Remaining properties
-@property(nonatomic) int absoluteOrder; // @synthesize absoluteOrder=_absoluteOrder;
-@property(nonatomic) __weak id <CoreDAVTaskDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSURL *priorOrderedURL; // @synthesize priorOrderedURL=_priorOrderedURL;
 @property(retain, nonatomic) NSSet *propertiesToSet; // @synthesize propertiesToSet=_propertiesToSet;
 
 @end

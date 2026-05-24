@@ -9,11 +9,6 @@
 @interface SSGestureScrollEvent : SSGestureEvent
 {
     double mDeltaX;
-    double mDeltaY;
-    double mDeltaZ;
-    _Bool mIsNaturalScrolling;
-    long long mGesturePhase;
-    long long mGestureMask;
 }
 
 + (id);
@@ -27,11 +22,6 @@
 
 // Remaining properties
 @property(readonly) double deltaX; // @synthesize deltaX=mDeltaX;
-@property(readonly) double deltaY; // @synthesize deltaY=mDeltaY;
-@property(readonly) double deltaZ; // @synthesize deltaZ=mDeltaZ;
-@property(readonly) long long gestureMask; // @synthesize gestureMask=mGestureMask;
-@property(readonly) long long gesturePhase; // @synthesize gesturePhase=mGesturePhase;
-@property(readonly) _Bool isNaturalScrolling; // @synthesize isNaturalScrolling=mIsNaturalScrolling;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _UIPackedRegion
 {
@@ -23,22 +23,14 @@
 - (void);
 - (id)× ;
 - (_Bool)ractionSubInteractionSettings";
-- (void)redResultOptions:(id)arg1;
-- (id)s;
+- (void)setPreferredResultOptions:(id)arg1;
+- (id)_currentItems;
 - (id),N,S_setUserInterfaceStyleForGrid:(struct _NSZone *)arg1;
 - (void)ested for range overflowing beyond length of text. Please file a radar on UIKit if you have repro steps;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
 @property(copy, nonatomic, setter=_setRegions:) NSArray *_regions; // @synthesize _regions=__regions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

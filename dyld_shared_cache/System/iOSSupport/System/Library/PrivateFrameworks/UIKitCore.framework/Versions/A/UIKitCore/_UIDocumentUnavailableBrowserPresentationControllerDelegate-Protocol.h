@@ -5,5 +5,7 @@
 //
 
 @protocol _UIDocumentUnavailableBrowserPresentationControllerDelegate
+- (void);
+- (void);
 @end
 

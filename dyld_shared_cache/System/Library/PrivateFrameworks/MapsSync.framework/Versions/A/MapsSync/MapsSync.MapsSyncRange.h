@@ -15,7 +15,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) long long limit;
 @property(nonatomic, readonly) long long offset;
 
 @end

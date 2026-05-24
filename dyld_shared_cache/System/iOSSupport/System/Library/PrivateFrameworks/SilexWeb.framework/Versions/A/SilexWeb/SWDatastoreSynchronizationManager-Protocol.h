@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SWDatastoreManager> datastoreManager;
-@property(nonatomic) __weak id <SWDatastoreManager> localDatastoreManager;
 @end
 

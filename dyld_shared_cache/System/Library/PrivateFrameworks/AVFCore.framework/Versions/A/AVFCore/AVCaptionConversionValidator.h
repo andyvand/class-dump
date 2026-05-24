@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AVCaptionConversionValidator
 {
     void *_validatorInternal;
@@ -22,14 +20,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly) NSArray *captions;
 @property(readonly) long long status;
-@property(readonly) CDStruct_e83c9415 timeRange;
-@property(readonly) NSArray *warnings;
 
 @end
 

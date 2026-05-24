@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol IAMEventProtocol
+- (long long)factorPackIdForRolloutWithNamespaceName: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)commonPrefixWithString:options: /* Error: Ran out of types for this method. */;
+- (id)enum_kMDItemPhotosDescription_ordered_word_field_coverage;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSDictionary *payload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *source;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long type;
-@property(readonly, copy, nonatomic) id value;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,C,N
-
 @end
 

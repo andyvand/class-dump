@@ -6,30 +6,13 @@
 
 #import <AVFCapture/AVCaptureDevice.h>
 
-@class AVWeakReference, NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureFigAudioDevice : AVCaptureDevice
 {
     NSObject<OS_dispatch_queue> *_fcsQueue;
-    struct OpaqueFigCaptureSource *_fcs;
-    NSDictionary *_attributes;
-    _Bool _levelMeteringEnabled;
-    struct os_unfair_lock_s _isConnectedLock;
-    _Bool _isConnected;
-    _Bool _isSoonToBeDisconnected;
-    struct os_unfair_lock_s _localizedNameLock;
-    NSString *_localizedName;
-    NSObject<OS_dispatch_queue> *_audioRoutesInfoUpdateQueue;
-    struct os_unfair_lock_s _audioRoutesInfoLock;
-    NSObject<OS_dispatch_group> *_audioRoutesInfoFirstQueryGroup;
-    _Bool _audioInputRouteIsBuiltInMic;
-    AVWeakReference *_weakReference;
-    NSString *_clientAudioClockDeviceUID;
-    struct OpaqueCMClock *_sharedAVAudioSessionClock;
-    NSNumber *_preferredIOBufferDuration;
-    _Bool _allowsBluetoothHighQualityRecording;
 }
 
 + (void);
@@ -40,9 +23,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void)abled cannot be set on the base AVCaptureDevice class.;
 - (_Bool);
+- (void)_managedObjectContextModificationDescription;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -52,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)_clientThumbnailPixelConverter;
 - (id);
 - (_Bool);
 - (id);
@@ -62,10 +45,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (struct OpaqueCMClock *)posureBias:maxExposureBias: /* Error: Ran out of types for this method. */;
-- (_Bool)cription:(id)arg1;
+- (void)_thresholdPipelineState;
+- (id)ib;
+- (struct OpaqueCMClock *)initWithMinExposureBias:maxExposureBias: /* Error: Ran out of types for this method. */;
+- (_Bool)handleFailureInFunction:(id)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (_Bool)ureMovieMetadata;
 - (struct OpaqueFigCaptureSource *)6;
 - (void);

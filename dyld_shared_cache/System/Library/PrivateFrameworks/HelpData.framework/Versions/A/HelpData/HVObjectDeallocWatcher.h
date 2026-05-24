@@ -7,7 +7,6 @@
 @interface HVObjectDeallocWatcher
 {
     id _watchedObj;
-    CDUnknownBlockType _block;
 }
 
 + (id);

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactsEnvironment, NSArray, NSString;
-@protocol CNCoreRecentsLibraryProviding;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCoreRecentsMapper
 {
     NSArray *_domains;
-    CNContactsEnvironment *_environment;
-    id <CNCoreRecentsLibraryProviding> _recentsLibrary;
 }
 
 + (id);
@@ -21,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)Media Tag - ;
+- (id)%;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (void)Aq&Ð!@ùQ*°1Â0@ù
 × ;
 - (id)rm: /* Error: Ran out of types for this method. */;
-- (_Bool)atarRecord:(id)arg1;
-- (id)dentifier;
+- (_Bool)dataFromAvatarRecord:(id)arg1;
+- (id)_labeledValueIdentifier;
 - (id)String",R,C,V_propertyKey;
 - (id)ggestionsServiceContactsProtocol>",&,V_suggestionsService;
 - (_Bool);
@@ -45,33 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *domains; // @synthesize domains=_domains;
-@property(readonly, nonatomic) CNContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *legacyTetheredSyncComputerAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *legacyTetheredSyncDeviceAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(readonly, nonatomic) id <CNCoreRecentsLibraryProviding> recentsLibrary; // @synthesize recentsLibrary=_recentsLibrary;
-@property(readonly) _Bool shouldLogContactsAccess;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly) _Bool userMightHaveUnconfiguredPersistenceStack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MKCAExtrasAdditions)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -21,12 +21,11 @@
 - (struct CGAffineTransform);
 - (struct CLLocationCoordinate2D);
 - (struct CGPoint);
-- (CDStruct_02837cd9);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_2f492f29);
+- (CDStruct_2c43369c);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly) CDStruct_c3b9c2ee MKCoordinateSpanValue;
 @property(readonly) struct CLLocationCoordinate2D MKCoordinateValue;
 @end
 

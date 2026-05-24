@@ -7,8 +7,10 @@
 @class SGRecordId;
 
 @protocol _SGSuggestionsServiceContactsConfirmRejectProtocol
-- (_Bool)tWithLabel:(SGRecordId *)arg1 extractionInfo:(id *)arg2 recordId: /* Error: Ran out of types for this method. */;
-- (_Bool)rsLimitedTo:(SGRecordId *)arg1 withCompletion:(int)arg2;
+- (_Bool)@9?	;
+- (_Bool);
+- (_Bool)initWithLabel:(SGRecordId *)arg1 extractionInfo:(id *)arg2 recordId: /* Error: Ran out of types for this method. */;
+- (_Bool)allRemindersLimitedTo:(SGRecordId *)arg1 withCompletion:(int)arg2;
 - (_Bool)zone;
 - (void)inite(quality);
 @end

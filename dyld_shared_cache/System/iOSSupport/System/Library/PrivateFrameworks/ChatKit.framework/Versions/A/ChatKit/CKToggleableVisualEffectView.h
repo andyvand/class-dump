@@ -7,10 +7,9 @@
 @interface CKToggleableVisualEffectView
 {
     id toggleableEffect;
-    _Bool isEffectActive;
 }
 
-- (void);
+- (void)t;
 - (_Bool);
 - (id);
 - (id);

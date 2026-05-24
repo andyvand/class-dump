@@ -6,50 +6,39 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, NSNumber, SFSearchResult;
+@class NSArray;
 
 @interface SFVisibleResultsFeedback : SFFeedback
 {
     _Bool _isFilterBarShown;
-    NSArray *_results;
-    unsigned long long _triggerEvent;
-    SFSearchResult *_goTakeoverResult;
-    NSArray *_uniqueIdsOfVisibleButtons;
-    NSArray *_uniqueIdentifiersOfVisibleCardSections;
-    NSNumber *_inputToResultShownMs;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)_next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
 - (id);
 - (id);
+- (void);
 - (id);
+- (void)transaction request:(id)arg1 %@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)stringWithString:(id)arg1;
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)_uncommittedDeletes;
+- (void)e:(id)arg1 %@.
+PSI:creationDate & %lld >= %lld AND creationDate & %lld <= %lld /* Error: Ran out of types for this method. */;
+- (id)PHResourceLocalAvailabilityRequestErrorDomain;
 - (_Bool);
 - (void);
-- (id)more_on_tap;
-- (void)nt: /* Error: Ran out of types for this method. */;
+- (id)show_more_on_tap;
+- (void)initWithInput:endpoint: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)ï);
 
 // Remaining properties
-@property(retain, nonatomic) SFSearchResult *goTakeoverResult; // @synthesize goTakeoverResult=_goTakeoverResult;
-@property(retain, nonatomic) NSNumber *inputToResultShownMs; // @synthesize inputToResultShownMs=_inputToResultShownMs;
-@property(nonatomic) _Bool isFilterBarShown; // @synthesize isFilterBarShown=_isFilterBarShown;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
-@property(retain, nonatomic) NSArray *uniqueIdentifiersOfVisibleCardSections; // @synthesize uniqueIdentifiersOfVisibleCardSections=_uniqueIdentifiersOfVisibleCardSections;
-@property(retain, nonatomic) NSArray *uniqueIdsOfVisibleButtons; // @synthesize uniqueIdsOfVisibleButtons=_uniqueIdsOfVisibleButtons;
 
 @end
 

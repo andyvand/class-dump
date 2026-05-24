@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSManagedObjectID, NSString, PXPeopleFaceCropFetchOptions;
+@class NSImage;
 
 @interface PXPeopleFaceCropFetchResult
 {
     _Bool _isCropped;
-    _Bool _isDegraded;
-    NSImage *_image;
-    NSManagedObjectID *_assetObjectID;
-    NSString *_assetLocalIdentifier;
-    PXPeopleFaceCropFetchOptions *_options;
-    struct CGRect _faceRect;
 }
 
 - (id);
@@ -25,17 +19,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)$8;
 - (void)PhotosShelfCollapsedStateKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetLocalIdentifier; // @synthesize assetLocalIdentifier=_assetLocalIdentifier;
-@property(readonly, nonatomic) NSManagedObjectID *assetObjectID; // @synthesize assetObjectID=_assetObjectID;
-@property(readonly, nonatomic) struct CGRect faceRect; // @synthesize faceRect=_faceRect;
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isCropped; // @synthesize isCropped=_isCropped;
-@property(readonly, nonatomic) _Bool isDegraded; // @synthesize isDegraded=_isDegraded;
-@property(readonly, nonatomic) PXPeopleFaceCropFetchOptions *options; // @synthesize options=_options;
 
 @end
 

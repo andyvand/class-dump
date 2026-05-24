@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSString, PDFDocument, PDFView;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKPageOverlayViewProvider
 {
     PDFDocument *_pdfDocument;
-    AKController *_akController;
-    PDFView *_pdfView;
 }
 
 - (_Bool);
@@ -22,20 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool shouldVerticallyFlipOverlayViews;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
-@property(readonly) Class superclass;
 
 @end
 

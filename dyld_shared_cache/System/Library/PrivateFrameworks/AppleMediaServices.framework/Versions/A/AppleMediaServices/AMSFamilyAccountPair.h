@@ -7,19 +7,15 @@
 @interface AMSFamilyAccountPair
 {
     unsigned long long _downloaderAccountID;
-    unsigned long long _familyID;
-    unsigned long long _purchaserAccountID;
 }
 
 - (unsigned long long);
-- (id);
+- (id)`;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)_defaultFilterModeUpdated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long downloaderAccountID; // @synthesize downloaderAccountID=_downloaderAccountID;
-@property(readonly, nonatomic) unsigned long long familyID; // @synthesize familyID=_familyID;
-@property(readonly, nonatomic) unsigned long long purchaserAccountID; // @synthesize purchaserAccountID=_purchaserAccountID;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol BlockableScrollViewDelegate
+- (void);
+- (_Bool);
 @end
 

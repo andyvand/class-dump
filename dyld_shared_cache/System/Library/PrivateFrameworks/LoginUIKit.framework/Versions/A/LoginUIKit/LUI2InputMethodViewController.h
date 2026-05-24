@@ -6,12 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class AppleTextInputMenu, NSButton, NSString;
+@class AppleTextInputMenu;
 
 @interface LUI2InputMethodViewController : LUI2ViewController
 {
     AppleTextInputMenu *_textInputMenu;
-    NSButton *_textInputButton;
 }
 
 - (id);
@@ -30,14 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSButton *textInputButton; // @synthesize textInputButton=_textInputButton;
 @property(retain) AppleTextInputMenu *textInputMenu; // @synthesize textInputMenu=_textInputMenu;
 
 @end

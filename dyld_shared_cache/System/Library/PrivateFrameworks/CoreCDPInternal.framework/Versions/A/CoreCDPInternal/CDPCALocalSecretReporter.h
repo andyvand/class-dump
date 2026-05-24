@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)PerSitePreferencePopUpButtonCell;
+- (void)PerSitePreferencesPopoverItem;
 - (id);
 
 @end

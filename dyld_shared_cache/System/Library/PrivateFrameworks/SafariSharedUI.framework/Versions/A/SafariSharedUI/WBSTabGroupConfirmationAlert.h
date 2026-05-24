@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSString, WBTabGroup, WBTabGroupManager;
-@protocol WBSTabGroupConfirmationAlertDelegate;
+@class NSAlert, WBTabGroup;
 
 @interface WBSTabGroupConfirmationAlert
 {
     NSAlert *_alert;
-    _Bool _automaticallyConfirm;
-    NSString *_confirmButtonTitle;
-    NSString *_message;
-    CDUnknownBlockType _resultHandler;
-    NSString *_title;
-    WBTabGroup *_tabGroup;
-    WBTabGroupManager *_tabGroupManager;
-    long long _role;
-    id <WBSTabGroupConfirmationAlertDelegate> _delegate;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (long long);
-- (void)AdditionalSimplificationOptions: /* Error: Ran out of types for this method. */;
+- (void)safari_stringForListDisplayWithAdditionalSimplificationOptions: /* Error: Ran out of types for this method. */;
 - (void),ä;
 
 // Remaining properties
-@property(nonatomic) __weak id <WBSTabGroupConfirmationAlertDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long role; // @synthesize role=_role;
 @property(readonly, nonatomic) WBTabGroup *tabGroup; // @synthesize tabGroup=_tabGroup;
-@property(readonly, nonatomic) WBTabGroupManager *tabGroupManager; // @synthesize tabGroupManager=_tabGroupManager;
 
 @end
 

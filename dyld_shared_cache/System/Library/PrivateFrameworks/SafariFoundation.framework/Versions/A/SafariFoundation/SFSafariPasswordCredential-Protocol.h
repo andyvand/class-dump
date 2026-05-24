@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol SFSafariPasswordCredential
+- (NSString *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic, getter=isExternal) _Bool external;
-@property(readonly, nonatomic) NSString *externalProviderBundleID;
-@property(readonly, nonatomic) NSString *externalProviderExtensionBundleID;
-@property(readonly, copy, nonatomic) NSString *password;
-@property(readonly, copy, nonatomic) NSString *site;
-@property(readonly, nonatomic) long long type;
 @property(readonly, copy, nonatomic) NSString *user;
 @end
 

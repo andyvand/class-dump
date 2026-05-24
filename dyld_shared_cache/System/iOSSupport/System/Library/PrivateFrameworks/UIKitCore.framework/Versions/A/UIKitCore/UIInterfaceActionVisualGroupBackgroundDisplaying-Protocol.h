@@ -5,6 +5,6 @@
 //
 
 @protocol UIInterfaceActionVisualGroupBackgroundDisplaying
-- (void)ValueKeyboardTypeWebSearchStr;
+- (void)UIKBAttributeValueKeyboardTypeWebSearchStr;
 @end
 

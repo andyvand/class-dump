@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBDrillDownMetadata, _SFPBImage, _SFPBURL;
+@class NSString;
 
 @interface _SFPBCard
 {
     _Bool _flexibleSectionOrder;
-    int _type;
-    int _source;
-    NSString *_title;
-    NSArray *_cardSections;
-    NSData *_intentMessageData;
-    NSString *_intentMessageName;
-    NSData *_intentResponseMessageData;
-    NSString *_intentResponseMessageName;
-    NSArray *_dismissalCommands;
-    NSString *_cardId;
-    NSString *_contextReferenceIdentifier;
-    _SFPBURL *_urlValue;
-    NSData *_entityIdentifier;
-    NSString *_resultIdentifier;
-    unsigned long long _queryId;
-    NSString *_fbr;
-    NSArray *_entityProtobufMessages;
-    _SFPBImage *_titleImage;
-    _SFPBColor *_backgroundColor;
-    _SFPBDrillDownMetadata *_metadata;
-    _SFPBDrillDownMetadata *_drilldownMetadata;
-    _SFPBImage *_backgroundImage;
 }
 
 - (void);
@@ -55,8 +33,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)+;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,7 +43,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -81,18 +59,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)lite3=};
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)sImageVersion:(id)arg1 captionGenerationVersion:imageEmbeddingVersion:videoEmbeddingVersion:videoSensitivityAnalysisVersion: /* Error: Ran out of types for this method. */;
+- (id)ate a library import source with more than on URL:%@ /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (void);
@@ -100,40 +78,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)rfSecondaryHeaderEmphasizedCardSection;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) _SFPBImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(copy, nonatomic) NSString *cardId; // @synthesize cardId=_cardId;
-@property(copy) NSArray *cardSections; // @synthesize cardSections=_cardSections;
-@property(copy, nonatomic) NSString *contextReferenceIdentifier; // @synthesize contextReferenceIdentifier=_contextReferenceIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *dismissalCommands; // @synthesize dismissalCommands=_dismissalCommands;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *drilldownMetadata; // @synthesize drilldownMetadata=_drilldownMetadata;
-@property(copy, nonatomic) NSData *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(copy, nonatomic) NSArray *entityProtobufMessages; // @synthesize entityProtobufMessages=_entityProtobufMessages;
-@property(copy, nonatomic) NSString *fbr; // @synthesize fbr=_fbr;
-@property(nonatomic) _Bool flexibleSectionOrder; // @synthesize flexibleSectionOrder=_flexibleSectionOrder;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *intentMessageData; // @synthesize intentMessageData=_intentMessageData;
-@property(copy, nonatomic) NSString *intentMessageName; // @synthesize intentMessageName=_intentMessageName;
-@property(copy, nonatomic) NSData *intentResponseMessageData; // @synthesize intentResponseMessageData=_intentResponseMessageData;
-@property(copy, nonatomic) NSString *intentResponseMessageName; // @synthesize intentResponseMessageName=_intentResponseMessageName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) _SFPBImage *titleImage; // @synthesize titleImage=_titleImage;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _SFPBURL *urlValue; // @synthesize urlValue=_urlValue;
 
 @end
 

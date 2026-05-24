@@ -7,12 +7,6 @@
 @interface NewsUI2.MagazineGridRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id magazineMoreActionsFactory;
-    id magazineGridModelLoader;
 }
 
 @end

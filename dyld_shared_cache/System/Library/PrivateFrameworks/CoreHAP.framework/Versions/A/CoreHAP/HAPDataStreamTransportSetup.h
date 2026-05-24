@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPDataStreamTransportCommandWrapper, HAPDataStreamTransportProtocolWrapper, NSData, NSString;
+@class HAPDataStreamTransportCommandWrapper;
 
 @interface HAPDataStreamTransportSetup
 {
     HAPDataStreamTransportCommandWrapper *_command;
-    HAPDataStreamTransportProtocolWrapper *_transportType;
-    NSData *_controllerKeySalt;
 }
 
 + (id);
@@ -20,26 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)segmentWithFilename:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void)SError"24;
-- (id)eValidConstraints: /* Error: Ran out of types for this method. */;
+- (id)_generateValidConstraints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAPDataStreamTransportCommandWrapper *command; // @synthesize command=_command;
-@property(retain, nonatomic) NSData *controllerKeySalt; // @synthesize controllerKeySalt=_controllerKeySalt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPDataStreamTransportProtocolWrapper *transportType; // @synthesize transportType=_transportType;
 
 @end
 

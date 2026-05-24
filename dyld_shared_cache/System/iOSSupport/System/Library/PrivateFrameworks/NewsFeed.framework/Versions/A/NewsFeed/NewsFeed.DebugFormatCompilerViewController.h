@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatCompilerViewController
 {
     id editor;
-    id sections;
-    id tableView;
-    id throttler;
 }
 
 - (id);
@@ -18,9 +15,9 @@
 - (id);
 - (id);
 - (long long);
+- (void)	;
 - (void);
-- (void);
-- (long long);
+- (long long)T;
 - (void)à1;
 - (void);
 

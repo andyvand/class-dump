@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)Ð;
 + (id);
 - (void);
 - (void);
@@ -18,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);

@@ -9,8 +9,6 @@
 @protocol REMAuxiliaryReminderChangeInfo
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *oldExternalIdentifier;
-@property(readonly, nonatomic) NSString *oldListIdentifier;
 @property(readonly, nonatomic) NSString *reminderIdentifier;
 @end
 

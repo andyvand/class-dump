@@ -6,30 +6,28 @@
 
 #import <ProactiveSupport/_PASSqliteRowIdCursor.h>
 
-@class NSIndexSet, NSMutableIndexSet;
+@class NSMutableIndexSet;
 
 @interface _PASSqliteRowIdIndexSetCursor : _PASSqliteRowIdCursor
 {
     unsigned long long _currentIndex;
-    NSIndexSet *_indexSet;
-    NSMutableIndexSet *_mutableIndexSet;
-    _Bool _isDescending;
 }
 
-+ (double);
-+ (_Bool);
-+ (id);
++ (double)TokenForAssetID:] /* Error: Ran out of types for this method. */;
++ (_Bool)ictionary"8;
++ (id)s
+;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (void)cted_nlp_result_category;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_menuName;
+- (void)UINSBlockTextInputDelegate;
+- (void)zalloc"^?"zfree"^?"opaque"^v"data_type"i"adler"Q"reserved"Q};
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableIndexSet *mutableIndexSet;

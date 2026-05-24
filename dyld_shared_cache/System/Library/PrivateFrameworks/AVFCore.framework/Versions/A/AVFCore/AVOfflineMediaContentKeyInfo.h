@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AVOfflineMediaContentKeyInfo
 {
     NSString *_keyIdentifier;
-    long long _keySystem;
-    long long _encryptionMethod;
-    NSData *_initializationVector;
 }
 
 - (long long);
 - (id);
-- (long long);
+- (long long)\};
 - (id);
 - (void);
-- (id);
+- (id)LinkClient companionLinkAuthCompleted:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long encryptionMethod; // @synthesize encryptionMethod=_encryptionMethod;
-@property(readonly, nonatomic) NSData *initializationVector; // @synthesize initializationVector=_initializationVector;
 @property(readonly, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, nonatomic) long long keySystem; // @synthesize keySystem=_keySystem;
 
 @end
 

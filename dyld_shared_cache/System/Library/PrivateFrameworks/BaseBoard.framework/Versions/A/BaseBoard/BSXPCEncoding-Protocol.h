@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol BSXPCEncoding
+- (void);
 - (void)HH:(_Bool)arg1 mm:(NSString *)arg2 ss.SSS Z;
 - (void)ì;
 - (void)D;

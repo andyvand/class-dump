@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MSPContainerAdditions)
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 @end

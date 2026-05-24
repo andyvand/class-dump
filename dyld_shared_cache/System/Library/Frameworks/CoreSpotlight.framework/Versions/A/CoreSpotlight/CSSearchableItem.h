@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, NSString;
+@class NSString;
 
 @interface CSSearchableItem
 {
     NSString *_filePath;
-    int _device;
-    _Bool _shouldSetSpotlightMailMessageAttributes;
-    _Bool _isFile;
-    CSSearchableItemAttributeSet *_attributeSet;
-    unsigned long long _machTime;
-    struct __MDItem *_mdItem;
-    id _score;
 }
 
 @end

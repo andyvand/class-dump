@@ -9,30 +9,26 @@
 @interface CTLazuliDestinationUpdate
 {
     _Bool _isBot;
-    CTLazuliDestination *_previous;
-    CTLazuliDestination *_discovered;
 }
 
-+ (_Bool);
++ (_Bool)nitialLikelyToKeepUpEvent:%p %@ playlistRequestEvents:%@ mediaSegmentRequestEvents:%@ contentKeyRequestEvents:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)4Z;
 - (void);
 - (_Bool);
-- (void);
+- (void)_TtCE19LocalAuthenticationCSo14LARecoveryDataP33_7680695A0C9C8A05728F9A94E6DB6BA710Properties;
 - (id);
 - (id);
 - (void)&Ð!Fùª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliDestination *discovered; // @synthesize discovered=_discovered;
-@property(nonatomic) _Bool isBot; // @synthesize isBot=_isBot;
 @property(retain, nonatomic) CTLazuliDestination *previous; // @synthesize previous=_previous;
 
 @end

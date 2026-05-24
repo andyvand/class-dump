@@ -4,37 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString, PDFPage, PDFRenderingProperties, PDFTimer;
-@protocol PDFPageLayerGeometryInterface;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageLayer
 {
     PDFPage *_page;
-    NSObject<PDFPageLayerGeometryInterface> *_geometryInterface;
-    PDFRenderingProperties *_renderingProperties;
-    long long _oldPageRotation;
-    struct CGRect _oldBoundsForBox;
-    CALayer *_contentLayer;
-    CALayer *_tilesLayer;
-    CALayer *_effectsLayer;
-    CALayer *_shadowLayer1;
-    CALayer *_shadowLayer2;
-    int _generationCount;
-    double _lastLayoutZoomFactor;
-    struct CGRect _lastLayerFrameInRootView;
-    NSDate *_lastZoomChange;
-    _Bool _zoomChangeScheduled;
-    double _zoomGenerationDelay;
-    unsigned long long _visibilityDelegateIndex;
-    _Bool _tileLayerHidden;
-    NSMutableArray *_tiles;
-    _Bool _allowUpdate;
-    PDFTimer *_forcedUpdateTimer;
-    _Bool _isForcingUpdate;
-    _Atomic _Bool _isTiling;
-    _Atomic _Bool _requestedTiling;
-    NSMutableDictionary *_pageLayerEffects;
 }
 
 + (id);
@@ -58,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)B=;
 - (void);
 - (id);
 - (void);
@@ -71,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -82,22 +57,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@24B32@?36;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)P;
+- (void)A;
 - (_Bool)nt=dd}16Q32@"AKController"40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

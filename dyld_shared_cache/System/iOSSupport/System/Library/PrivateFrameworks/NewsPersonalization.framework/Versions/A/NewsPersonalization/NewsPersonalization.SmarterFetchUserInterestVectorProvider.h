@@ -7,8 +7,6 @@
 @interface NewsPersonalization.SmarterFetchUserInterestVectorProvider
 {
     id bundleSubscriptionManager;
-    id computeService;
-    id _cache;
 }
 
 @end

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol IAMTriggerContext
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier;

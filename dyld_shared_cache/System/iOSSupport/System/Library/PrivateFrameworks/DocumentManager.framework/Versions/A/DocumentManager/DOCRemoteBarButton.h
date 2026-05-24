@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, UIBarButtonItem;
+@class UIBarButtonItem;
 
 @interface DOCRemoteBarButton
 {
     UIBarButtonItem *_barButton;
-    NSUUID *_uuid;
 }
 
 + (_Bool);
 - (id);
+- (void)i;
+- (void)k!;
+- (id)T;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)_triggerRedraw;
+- (void)_ASAgentCredentialExchangeOperation;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) UIBarButtonItem *barButton; // @synthesize barButton=_barButton;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

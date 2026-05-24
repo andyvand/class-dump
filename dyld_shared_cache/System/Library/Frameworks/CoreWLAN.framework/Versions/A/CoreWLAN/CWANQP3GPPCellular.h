@@ -13,14 +13,14 @@
     NSArray *_cellularInfoList;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)S;
+- (void)xu;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (id);
 
 // Remaining properties

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, NSUUID;
+@class NSUUID;
 
 @protocol HMAutomationBuilderInternal
 
 // Remaining properties
-@property(readonly, nonatomic) HMHome *home;
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 @end
 

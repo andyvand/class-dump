@@ -4,57 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, WFDispatchSourceTimer;
-@protocol OS_dispatch_queue, OS_os_activity, WFState;
+@protocol WFState;
 
 @interface WFStateMachine
 {
     _Bool _blocksTransitionsOnInvalidation;
-    _Bool _silentlyDropInvalidTransitions;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _transitionLock;
-    id <WFState> _currentState;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_os_activity> *_activity;
-    WFDispatchSourceTimer *_timer;
-    NSMutableArray *_mutableStateHistory;
 }
 
-- (_Bool);
+- (_Bool)l;
 - (struct os_unfair_lock_s);
-- (_Bool);
+- (_Bool)s;
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id){;
+- (id)"{;
+- (_Bool)&{;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)"{;
 - (_Bool);
 - (id);
+- (void);
+- (id)ing";
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id)i;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(nonatomic) _Bool blocksTransitionsOnInvalidation; // @synthesize blocksTransitionsOnInvalidation=_blocksTransitionsOnInvalidation;
 @property(retain) id <WFState> currentState; // @synthesize currentState=_currentState;
-@property(nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, copy, nonatomic) NSMutableArray *mutableStateHistory; // @synthesize mutableStateHistory=_mutableStateHistory;
-@property(nonatomic) _Bool silentlyDropInvalidTransitions; // @synthesize silentlyDropInvalidTransitions=_silentlyDropInvalidTransitions;
-@property(readonly, copy, nonatomic) NSArray *stateHistory;
-@property(retain, nonatomic) WFDispatchSourceTimer *timer; // @synthesize timer=_timer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *timerQueue; // @synthesize timerQueue=_timerQueue;
-@property(readonly, nonatomic) struct os_unfair_lock_s transitionLock; // @synthesize transitionLock=_transitionLock;
 
 @end
 

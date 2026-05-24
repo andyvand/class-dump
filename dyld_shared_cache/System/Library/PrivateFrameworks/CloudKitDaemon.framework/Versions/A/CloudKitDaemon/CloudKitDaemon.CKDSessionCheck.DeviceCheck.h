@@ -7,8 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.DeviceCheck
 {
     id sessionConfiguration;
-    id testDeviceReferenceProtocol;
-    id actor;
 }
 
 @end

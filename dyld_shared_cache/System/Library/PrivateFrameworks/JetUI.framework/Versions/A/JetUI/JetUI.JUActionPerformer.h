@@ -7,11 +7,9 @@
 @interface JetUI.JUActionPerformer
 {
     id action;
-    id metricsContext;
-    id objectGraph;
 }
 
-- (void);
+- (void){;
 
 @end
 

@@ -9,15 +9,6 @@
 @interface EKChangeSet
 {
     _Bool _skipsPersistentObjectCopy;
-    _Bool _isNew;
-    _Bool _isModified;
-    _Bool _isSaved;
-    _Bool _isDeleted;
-    _Bool _isUndeleted;
-    _Bool _isUndetached;
-    NSMutableDictionary *_singleValueChanges;
-    NSMutableDictionary *_multiValueAdditions;
-    NSMutableDictionary *_multiValueRemovals;
 }
 
 - (_Bool);
@@ -37,7 +28,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)`);
 - (void);
 - (void);
 - (id);
@@ -47,7 +38,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h*A9?	;
 - (void);
 - (id);
 - (id);
@@ -68,8 +59,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)_securityMode;
+- (id)unreachable %@;
 - (void);
 - (id);
 - (_Bool);
@@ -77,8 +68,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)_shouldAutomaticSpellingCorrectionBeEnabled;
+- (id)WebPreferences;
 - (void);
 - (void);
 - (id);
@@ -92,14 +83,6 @@
 - (_Bool)a year, a month, and a day;
 
 // Remaining properties
-@property(nonatomic) _Bool isDeleted; // @synthesize isDeleted=_isDeleted;
-@property(nonatomic) _Bool isModified; // @synthesize isModified=_isModified;
-@property(nonatomic) _Bool isNew; // @synthesize isNew=_isNew;
-@property(nonatomic) _Bool isSaved; // @synthesize isSaved=_isSaved;
-@property(nonatomic) _Bool isUndeleted; // @synthesize isUndeleted=_isUndeleted;
-@property(nonatomic) _Bool isUndetached; // @synthesize isUndetached=_isUndetached;
-@property(retain, nonatomic) NSMutableDictionary *multiValueAdditions; // @synthesize multiValueAdditions=_multiValueAdditions;
-@property(retain, nonatomic) NSMutableDictionary *multiValueRemovals; // @synthesize multiValueRemovals=_multiValueRemovals;
 @property(retain, nonatomic) NSMutableDictionary *singleValueChanges; // @synthesize singleValueChanges=_singleValueChanges;
 
 @end

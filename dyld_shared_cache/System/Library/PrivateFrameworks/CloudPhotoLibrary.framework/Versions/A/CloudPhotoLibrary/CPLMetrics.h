@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface CPLMetrics
 {
     NSURL *_metricsFileURL;
-    NSMutableDictionary *_metrics;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
@@ -18,9 +16,9 @@
 - (void);
 - (void);
 - (long long);
-- (id)ÿCÑø_©öW©ôO©ý{©ýóªõªöªô;
-- (void);
 - (id);
+- (void);
+- (id);
 - (void)1Â0@ù
 × ;
 - (void)ñ°1Â0@ù

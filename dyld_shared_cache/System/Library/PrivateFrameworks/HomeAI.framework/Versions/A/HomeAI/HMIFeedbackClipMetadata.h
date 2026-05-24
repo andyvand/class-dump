@@ -9,8 +9,6 @@
 @interface HMIFeedbackClipMetadata
 {
     NSDictionary *_clipMetadata;
-    NSDictionary *_cameraMetadata;
-    NSDictionary *_homeMetadata;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *cameraMetadata; // @synthesize cameraMetadata=_cameraMetadata;
 @property(readonly) NSDictionary *clipMetadata; // @synthesize clipMetadata=_clipMetadata;
-@property(readonly) NSDictionary *homeMetadata; // @synthesize homeMetadata=_homeMetadata;
 
 @end
 

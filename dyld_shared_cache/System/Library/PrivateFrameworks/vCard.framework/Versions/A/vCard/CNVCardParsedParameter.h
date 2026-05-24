@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNVCardParsedParameter
 {
     NSString *_name;
-    NSArray *_values;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *values; // @synthesize values=_values;
 
 @end
 

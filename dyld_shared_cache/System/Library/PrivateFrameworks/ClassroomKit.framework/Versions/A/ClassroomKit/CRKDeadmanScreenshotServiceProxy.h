@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
 @protocol CRKScreenshotServiceInterface;
 
 @interface CRKDeadmanScreenshotServiceProxy
 {
     id <CRKScreenshotServiceInterface> _underlyingProxy;
-    double _timeout;
-    unsigned long long _countOfInFlightRequests;
-    NSTimer *_timer;
 }
 
 - (void);
@@ -23,17 +19,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)sourceBundleID;
 
 // Remaining properties
-@property(nonatomic) unsigned long long countOfInFlightRequests; // @synthesize countOfInFlightRequests=_countOfInFlightRequests;
 @property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
-@property(retain, nonatomic) id <CRKScreenshotServiceInterface> underlyingProxy; // @synthesize underlyingProxy=_underlyingProxy;
 
 @end
 

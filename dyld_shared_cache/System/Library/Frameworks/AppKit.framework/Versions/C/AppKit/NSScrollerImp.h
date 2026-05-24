@@ -4,56 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor, NSScroller, NSString;
-@protocol NSScrollerImpDelegate;
+@class NSScroller;
 
 @interface NSScrollerImp
 {
     NSScroller *_scroller;
-    double _doubleValue;
-    double _knobLength;
-    id <NSScrollerImpDelegate> _delegate;
-    double _trackAlpha;
-    double _knobAlpha;
-    _Bool *_outstandingRolloverAnimationCancelledPtr;
-    struct {
-        unsigned int partsUsable:2;
-        unsigned int overlayScrollerState:2;
-        unsigned int enabled:1;
-        unsigned int tracking:1;
-        unsigned int knobStyle:2;
-        unsigned int shouldDrawRolloverState:1;
-        unsigned int useCoreUILayerContents:1;
-        unsigned int userInterfaceLayoutDirection:1;
-        unsigned int invalid:1;
-        unsigned int :20;
-        unsigned int :32;
-    } _sFlags;
-    CALayer *_layer;
-    CALayer *_trackLayer;
-    double _presentationValue;
-    unsigned int _usePresentationValue:1;
-    CALayer *_knobLayer;
-    struct CGSize _boundsSize;
-    double _knobProportion;
-    unsigned int _isHorizontal:1;
-    unsigned int _avoidingOtherScrollerThumb:1;
-    NSColor *_trackColor;
-    NSColor *_knobColor;
 }
 
-+ (double);
-+ (double);
-+ (id);
-+ (Class);
++ (double)URLSession:(unsigned long long)arg1 task:(long long)arg2 _willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
++ (double)URLSession:task:_schemeUpgraded:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)URLSession:(long long)arg1 streamTask:(unsigned long long)arg2 didBecomeInputStream:(_Bool)arg3 outputStream:(id)arg4;
++ (Class)URLSession:(long long)arg1 downloadTask:(unsigned long long)arg2 didResumeAtOffset:expectedTotalBytes: /* Error: Ran out of types for this method. */;
 - (long long);
 - (unsigned long long);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)ҍ;
 - (id);
-- (double);
+- (double);
 - (id);
 - (double);
 - (double);
@@ -72,13 +41,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (struct CGRect);
@@ -87,23 +56,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)*;
 - (double);
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)_֮;
 - (double);
 - (double);
-- (id);
-- (double);
+- (id)*I;
+- (double)B;
+- (_Bool)ion UUID (%s) does not equal the cache boot session UUID (%s);
+- (_Bool)-data;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct __CFDictionary *);
@@ -111,36 +80,36 @@
 - (struct __CFDictionary *);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)^{__CFDictionary=}40@48;
+- (_Bool)backgroundAVAssetDownloadTask:didReceiveDownloadToken: /* Error: Ran out of types for this method. */;
+- (int)_syncCookies;
+- (_Bool)_requestIsUncacheable;
+- (_Bool)_overridesBackgroundSessionAutoRedirect;
+- (void)_createAuthenticationChallengeForCFAuthChallenge:sender: /* Error: Ran out of types for this method. */;
+- (void)_connectionWorkQueueSuspensionCount;
+- (void)P;
+- (void);
+- (struct CGRect)session:%@ /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (struct CGRect);
 - (id);
 - (double);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)16^{__CFData=}24^{__CFString=}32;
+- (_Bool)kConditionalConnectionRequirementTimeWindowDuration;
+- (double)__CFNetworkCopyProxiesForAutoConfigurationScript_privatemode__;
+- (double)__CFNetworkCopyProxiesForAutoConfigurationScript_privatemode__;
+- (double)hared_ptr<__CFError>=^{__CFError}^{__shared_weak_count}}40;
+- (id)UIApplicationWillEnterForegroundNotification;
+- (id)NSErrorClientCertificateChainKey;
+- (void):(id)arg1 memory: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)4;
 - (unsigned long long);
 - (void);
 - (id);
@@ -152,15 +121,15 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)enumerateHighlightShapesForRunClusterWithRanges:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)NSBackgroundColor;
 - (_Bool);
 - (double);
 - (SEL)$
 ÿ§;
 - (void)tionTouchBarItemDataSource"8^B16;
 - (id)ld %ld %ld %ld;
-- (void)SConcurrentEventMonitorStartup;
+- (void)NSConcurrentEventMonitorStartup;
 - (_Bool)ttingViewControllerTextList_{decimal});
 - (void);
 - (void);
@@ -169,54 +138,7 @@
 - (id)F;
 
 // Remaining properties
-@property(readonly, copy) NSColor *_effectiveKnobColor;
-@property(readonly, copy) NSColor *_effectiveTrackColor;
-@property SEL action;
-@property(getter=isAvoidingOtherScrollerThumb) _Bool avoidingOtherScrollerThumb;
-@property struct CGSize boundsSize;
-@property(readonly) unsigned long long controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSScrollerImpDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property double doubleValue;
-@property(getter=isEnabled) _Bool enabled;
-@property(getter=isExpanded) _Bool expanded;
-@property double expansionTransitionProgress;
-@property(readonly) unsigned long long hash;
-@property(getter=isHorizontal) _Bool horizontal;
-@property double knobAlpha;
-@property(copy) NSColor *knobColor;
-@property(readonly) double knobEndInset;
-@property(retain) CALayer *knobLayer;
-@property(readonly) double knobLength; // @synthesize knobLength=_knobLength;
-@property(readonly) double knobMinLength;
-@property(readonly) double knobOverlapEndInset;
-@property double knobProportion;
-@property long long knobStyle;
-@property(retain) CALayer *layer;
-@property double presentationValue;
-@property double rangeIndicatorAlpha;
-@property __weak NSScroller *scroller;
-@property(readonly) long long scrollerStyle;
-@property _Bool shouldDrawRolloverState;
-@property(readonly) Class superclass;
-@property __weak id target;
-@property double trackAlpha;
-@property(readonly) double trackBoxWidth;
-@property(copy) NSColor *trackColor;
-@property(readonly) double trackEndInset;
-@property(retain) CALayer *trackLayer;
-@property(readonly) double trackOverlapEndInset;
-@property(readonly) double trackSideInset;
-@property(readonly) double trackWidth;
 @property(getter=isTracking) _Bool tracking;
-@property double uiStateTransitionProgress;
-@property(readonly) unsigned long long usableParts;
-@property(getter=shouldUsePresentationValue) _Bool usePresentationValue;
-@property long long userInterfaceLayoutDirection;
 
 @end
 

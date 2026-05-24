@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSLock, NSString, NSTask;
+@class NSTask;
 
 @interface PKInstallTask
 {
     NSTask *_task;
-    NSString *_logPrefix;
-    NSFileHandle *_outputReadHandle;
-    NSString *_partialLine;
-    _Bool _logOnlyStandardError;
-    _Bool _logTaskOutput;
-    NSLock *_logLock;
-    unsigned long long _timeoutInSeconds;
 }
 
 + (id);
-+ (id);
++ (id)	;
 - (void);
 - (_Bool);
 - (id);

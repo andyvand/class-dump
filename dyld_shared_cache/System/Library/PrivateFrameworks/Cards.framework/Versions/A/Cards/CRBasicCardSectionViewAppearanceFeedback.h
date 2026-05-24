@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFFeedback;
 @protocol CRCardSection;
 
 @interface CRBasicCardSectionViewAppearanceFeedback
@@ -17,18 +16,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SFFeedback *backingFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFFeedback",?,R,N
-
 @property(retain, nonatomic) id <CRCardSection> cardSection; // @synthesize cardSection=_cardSection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

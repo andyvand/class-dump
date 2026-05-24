@@ -7,7 +7,7 @@
 @protocol NUImageBuffer;
 
 @protocol NUImageBufferRenderResult
-- (id <NUImageBuffer>);
+- (id <NUImageBuffer>)initWithScheduledTime:queue:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <NUImageBuffer> buffer;

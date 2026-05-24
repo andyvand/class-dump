@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol GEOConfigStorageReadOnly;
-
 __attribute__((visibility("hidden")))
 @interface GEOConfigStorageCached
 {
     long long _source;
-    unsigned long long _options;
-    struct os_unfair_recursive_lock_s _cacheLock;
-    struct atomic_flag _isResyncing;
-    NSDictionary *_cachedValues;
-    id <GEOConfigStorageReadOnly> _direct;
 }
 
 - (id);
-- (id)raits:(long long)arg1;
+- (id)_cl_ticketForForwardGeocodeString:(long long)arg1 maxResults:traits: /* Error: Ran out of types for this method. */;
 - (void)Ð	 ;
 - (void)xy:(id)arg1 WXJ@;
 - (void)Ø5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

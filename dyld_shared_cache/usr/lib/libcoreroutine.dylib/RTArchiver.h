@@ -7,14 +7,12 @@
 @interface RTArchiver
 {
     struct archive *_archive;
-    int _archive_fd;
-    _Bool _valid;
 }
 
-+ (_Bool);
-- (id);
-- (void);
-- (void);
++ (_Bool)anatee service:(id)arg1 %@;
+- (id)ger;
+- (void)T:(id)arg1 %@ %@>;
+- (void)signature;
 - (void);
 - (id);
 - (void);

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDaemonConnection, CDPStateUIProviderProxy;
-@protocol CDPAuthProvider, CDPStateUIProvider;
+@class CDPContext, CDPDaemonConnection;
 
 @interface CDPController
 {
     CDPContext *_context;
-    id <CDPStateUIProvider> _uiProvider;
-    id <CDPAuthProvider> _authProvider;
-    CDPDaemonConnection *_daemonConn;
-    CDPStateUIProviderProxy *_uiProviderProxy;
 }
 
-- (id);
+- (id)r:consumeMailContentWithContext /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)n;
+- (id)h;
+- (void)alFilterNode >>>> %s:%@:output pool size:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -34,11 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPAuthProvider> authProvider; // @synthesize authProvider=_authProvider;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) CDPDaemonConnection *daemonConn; // @synthesize daemonConn=_daemonConn;
-@property(retain, nonatomic) id <CDPStateUIProvider> uiProvider; // @synthesize uiProvider=_uiProvider;
-@property(retain, nonatomic) CDPStateUIProviderProxy *uiProviderProxy; // @synthesize uiProviderProxy=_uiProviderProxy;
 
 @end
 

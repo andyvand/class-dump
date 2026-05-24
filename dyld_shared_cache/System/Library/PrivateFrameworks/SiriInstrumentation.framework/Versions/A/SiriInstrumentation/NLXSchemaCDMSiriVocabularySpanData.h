@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSiriVocabularySpanData : SISchemaInstrumentationMessage
 {
     double _matchScore;
-    struct {
-        unsigned int matchScore:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)RIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ui/ui_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +28,6 @@
 - (id)rsion;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMatchScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double matchScore; // @synthesize matchScore=_matchScore;
 
 @end

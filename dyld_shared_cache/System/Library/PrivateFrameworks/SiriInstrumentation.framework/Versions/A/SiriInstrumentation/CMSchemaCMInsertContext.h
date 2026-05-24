@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CMSchemaCMInsertEnded, CMSchemaCMInsertFailed, CMSchemaCMInsertStarted, NSData;
+@class CMSchemaCMInsertStarted;
 
 @interface CMSchemaCMInsertContext : SISchemaInstrumentationMessage
 {
     CMSchemaCMInsertStarted *_startedOrChanged;
-    CMSchemaCMInsertEnded *_ended;
-    CMSchemaCMInsertFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,30 +26,23 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)U;
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`b;
 - (_Bool);
 - (id);
 - (id)ype"b1};
-- (id)YSchemaIDENTITYIdentityRequestContext;
+- (id)IDENTITYSchemaIDENTITYIdentityRequestContext;
 - (id),[;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CMSchemaCMInsertEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CMSchemaCMInsertFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CMSchemaCMInsertStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

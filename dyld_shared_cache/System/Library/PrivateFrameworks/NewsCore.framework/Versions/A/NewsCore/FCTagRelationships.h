@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)or;
+- (void)featureImpressionPrior;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *relatedChannelsForOnboarding; // @synthesize relatedChannelsForOnboarding=_relatedChannelsForOnboarding;

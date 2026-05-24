@@ -6,18 +6,14 @@
 
 #import <PhotosUICore/PXPeopleConfirmationViewController.h>
 
-@class NSArray, UXBarButtonItem;
+@class UXBarButtonItem;
 
 @interface PXPeopleFullscreenConfirmationViewController : PXPeopleConfirmationViewController
 {
     UXBarButtonItem *_confirmButton;
-    UXBarButtonItem *_denyButton;
-    UXBarButtonItem *_doneButtonItem;
-    NSArray *_cachedConfirmationToolbarItems;
-    NSArray *_cachedLoadingToolbarItems;
 }
 
-- (void);
+- (void)˪C;
 - (void);
 - (void);
 - (void);
@@ -34,20 +30,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)4EFE9365DB3CDF6996492F95ABEFLl7PreviewfMf0_15PreviewRegistryfMu_;
 
 // Remaining properties
-@property(retain) NSArray *cachedConfirmationToolbarItems; // @synthesize cachedConfirmationToolbarItems=_cachedConfirmationToolbarItems;
-@property(retain) NSArray *cachedLoadingToolbarItems; // @synthesize cachedLoadingToolbarItems=_cachedLoadingToolbarItems;
 @property(retain) UXBarButtonItem *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(retain) UXBarButtonItem *denyButton; // @synthesize denyButton=_denyButton;
-@property(retain) UXBarButtonItem *doneButtonItem; // @synthesize doneButtonItem=_doneButtonItem;
 
 @end
 

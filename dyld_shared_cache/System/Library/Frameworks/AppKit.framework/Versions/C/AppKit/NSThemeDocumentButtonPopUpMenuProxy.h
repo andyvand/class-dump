@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPathControl, NSThemeDocumentButton;
-
 __attribute__((visibility("hidden")))
 @interface NSThemeDocumentButtonPopUpMenuProxy
 {
     id realObject;
-    NSThemeDocumentButton *documentButton;
-    NSPathControl *pathControl;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)¼X;
 

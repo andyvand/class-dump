@@ -6,12 +6,9 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSArray;
-
 @interface SCNActionGroup : SCNAction
 {
     void *_mycaction;
-    NSArray *_actions;
 }
 
 + (id);

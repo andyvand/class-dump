@@ -7,7 +7,6 @@
 @interface AppStoreKit.LegacyAppStoreInstallStateMonitor
 {
     id appStoreInstalled;
-    id onAppStoreInstallStateChange;
 }
 
 @end

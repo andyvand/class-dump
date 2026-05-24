@@ -6,25 +6,17 @@
 
 #import <NetworkExtension/NEExtensionProviderHostContext.h>
 
-@class NSString;
-
 @interface NEFilterExtensionProviderHostContext : NEExtensionProviderHostContext
 {
 }
 
 + (id);
-+ (id);
++ (id)v60@0:8@16I24d28d36@?44@?52 /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

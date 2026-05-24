@@ -6,12 +6,11 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCNewsletterSubscribeCommand : FCCommand
 {
     NSString *_newsletter;
-    NSArray *_includeArray;
 }
 
 + (_Bool);
@@ -22,11 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)/;
 - (void)t have an item identifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *includeArray; // @synthesize includeArray=_includeArray;
 @property(copy, nonatomic) NSString *newsletter; // @synthesize newsletter=_newsletter;
 
 @end

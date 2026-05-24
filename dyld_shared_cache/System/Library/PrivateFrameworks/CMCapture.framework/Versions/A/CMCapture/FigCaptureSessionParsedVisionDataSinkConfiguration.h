@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigVideoCaptureConnectionConfiguration, FigVisionDataCaptureConnectionConfiguration;
+@class FigVisionDataCaptureConnectionConfiguration;
 
 @interface FigCaptureSessionParsedVisionDataSinkConfiguration
 {
     FigVisionDataCaptureConnectionConfiguration *_visionDataConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_videoDataConnectionConfiguration;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)_CRCToMatch;
+- (id)M/Sources/OfficeImport/OfficeParser/shared/utility/TSUDateParser.m;
 
 // Remaining properties
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoDataConnectionConfiguration; // @synthesize videoDataConnectionConfiguration=_videoDataConnectionConfiguration;
 @property(readonly, nonatomic) FigVisionDataCaptureConnectionConfiguration *visionDataConnectionConfiguration; // @synthesize visionDataConnectionConfiguration=_visionDataConnectionConfiguration;
 
 @end

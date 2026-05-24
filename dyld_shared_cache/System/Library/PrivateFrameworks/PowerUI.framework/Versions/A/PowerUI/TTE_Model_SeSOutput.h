@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface TTE_Model_SeSOutput
 {
@@ -19,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (id)ediction check:(id)arg1 Device does not seem like a legitimate carry device;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) double prediction; // @synthesize prediction=_prediction;
 
 @end

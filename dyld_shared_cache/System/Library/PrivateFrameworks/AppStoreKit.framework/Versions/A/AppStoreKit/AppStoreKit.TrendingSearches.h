@@ -7,9 +7,6 @@
 @interface AppStoreKit.TrendingSearches
 {
     id title;
-    id searches;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
-+ (void)try;
-- (id);
++ (void)geometry;
+- (id)R,V_playbackState;
 - (id)ing:(id)arg1 value unsupported %d of member %@;
 
 @end

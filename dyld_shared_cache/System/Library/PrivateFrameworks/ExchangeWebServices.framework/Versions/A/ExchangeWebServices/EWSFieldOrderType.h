@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSBasePathToElementType, NSString;
+@class EWSBasePathToElementType;
 
 @interface EWSFieldOrderType
 {
     EWSBasePathToElementType *_Path;
-    long long _Order;
 }
 
 + (id);
@@ -21,15 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long Order; // @synthesize Order=_Order;
 @property(retain, nonatomic) EWSBasePathToElementType *Path; // @synthesize Path=_Path;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

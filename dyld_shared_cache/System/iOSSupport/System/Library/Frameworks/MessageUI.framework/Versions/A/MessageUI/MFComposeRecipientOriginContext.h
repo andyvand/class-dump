@@ -9,7 +9,6 @@
 @interface MFComposeRecipientOriginContext
 {
     NSString *_searchTerm;
-    unsigned long long _resultType;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;
 @property(retain, nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
 
 @end

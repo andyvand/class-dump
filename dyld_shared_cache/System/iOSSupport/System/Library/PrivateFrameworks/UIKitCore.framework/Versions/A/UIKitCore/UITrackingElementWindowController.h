@@ -6,84 +6,28 @@
 
 #import <UIKitCore/UIInputWindowController.h>
 
-@class NSDate, NSMutableArray, NSString, UIInputViewController, UIInputViewSet, UIInputViewSetNotificationInfo, UIInputViewSetPlacement, UIInputWindowControllerHosting, UIKeyboardFloatingTransitionController, UITrackingElementPlacementTransition, UITraitCollection, UIView, _UIKeyboardPasscodeObscuringInteraction;
+@class NSMutableArray, UIInputViewSetPlacement;
 
 __attribute__((visibility("hidden")))
 @interface UITrackingElementWindowController : UIInputWindowController
 {
     NSMutableArray *_animationStyleStack;
-    int _suppressedCallbacks;
-    int _suppressedNotifications;
-    _Bool _isChangingPlacement;
-    _Bool _isChangingInputViews;
-    _Bool _isSnapshotting;
-    int _hiddenCount;
-    _Bool _inhibitingHiding;
-    unsigned long long _rotationState;
-    _Bool _disablePlacementChanges;
-    _Bool _disableInRotating;
-    _Bool _suppressUpdateVisibilityConstraints;
-    _Bool _suppressUpdateViewConstraints;
-    _Bool _animatedLayoutFromCoordinator;
-    CDUnknownBlockType _pendingTransitionActivity;
-    UIInputWindowControllerHosting *_hosting;
-    UIView *_preRotationSnapshot;
-    struct CGSize _preRotationInputViewSize;
-    struct CGSize _preRotationInputAssistantViewSize;
-    struct CGSize _preRotationInputAccessoryViewSize;
-    struct CGAffineTransform _preRotationInputViewTransform;
-    struct CGAffineTransform _preRotationInputAssistantViewTransform;
-    struct CGAffineTransform _preRotationInputAccessoryViewTransform;
-    UIInputViewSetNotificationInfo *_rotationInfo;
-    _Bool _needsNotificationUpdate;
-    struct CGRect _preLayoutHostViewFrame;
-    struct CGRect _previousAccessoryViewBounds;
-    _Bool _didOverridePreLayoutHostViewFrame;
-    UIInputViewSetNotificationInfo *_keyboardHeightChangeNotificationInfo;
-    _Bool _wasOnScreen;
-    NSString *_lastKeyboardID;
-    NSDate *_keyboardShowTimestamp;
-    _Bool _keyboardWindowSnapshotOn;
-    CDUnknownBlockType _pendingCompleteAnimation;
-    _Bool _supportsDockViewController;
-    UIKeyboardFloatingTransitionController *_floatingTransitionController;
-    _UIKeyboardPasscodeObscuringInteraction *_passcodeObscuringInteraction;
-    UIView *_keyboardSnapshot;
-    _Bool _trackingElementsNeedUpdate;
-    _Bool _externalTrackingUpdateInProgress;
-    UIInputViewSet *_inputViewSet;
-    UIInputViewSetPlacement *_placement;
-    UIInputViewController *_inputViewController;
-    UIInputViewController *_inputAssistantViewController;
-    UIInputViewController *_inputAccessoryViewController;
-    UIInputViewSetPlacement *_postRotationPlacement;
-    UIInputViewSet *_postRotationInputViewSet;
-    CDUnknownBlockType _postRotationPendingBlock;
-    UIInputViewSetNotificationInfo *_postRotationInputViewNotificationInfo;
-    UIInputViewSetNotificationInfo *_templateNotificationInfo;
-    UITrackingElementPlacementTransition *_currentTransition;
-    UIInputViewSetNotificationInfo *_notificationInfoWaitingForInputUI;
-    UIInputViewSet *_transientInputViewSet;
-    UIInputViewSetPlacement *_placementBeforeAnimation;
-    UIInputViewSetPlacement *_placementDuringAnimation;
-    UIInputViewSetNotificationInfo *_externalTrackingInfo;
-    UITraitCollection *_sizeClassCollectionOverride;
 }
 
 + (_Bool)
 × ;
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)toolTipAtPoint:boundingRect: /* Error: Ran out of types for this method. */;
+- (void)sendReachabilityRequest:(long long)arg1 requestID: /* Error: Ran out of types for this method. */;
+- (void)sendProtobuf:(struct CGRect)arg1 toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (void)scheduleTransactionLogTask: /* Error: Ran out of types for this method. */;
+- (void)_urlForPasswordsIcon;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)lock;
 - (id);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (id);
@@ -92,19 +36,19 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (id)t;
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)ons/A/SoundAnalysis;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)`;
+- (_Bool)setPayloadFilterSockets: /* Error: Ran out of types for this method. */;
+- (void)Closed;
 - (void);
 - (_Bool);
 - (void);
@@ -112,9 +56,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)D;
 - (struct CGSize);
 - (void);
 - (void);
@@ -132,20 +76,20 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)ITMediaItem";
+- (id)leepTimerCommand",R,N,V_setSleepTimerCommand;
+- (unsigned long long)ry",&,N,V_mediaLibrary;
+- (id)DI;
+- (struct CGRect)[tracks]:%{public}@ -> %{public}@ /* Error: Ran out of types for this method. */;
+- (void)pertySongIsPinned;
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
-- (struct CGRect);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
@@ -166,7 +110,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)ary/PrivateFrameworks/SonicFoundation.framework/Versions/A/SonicFoundation;
 - (id)ñX°1Â0@ù
 × ;
 - (struct CGRect);
@@ -200,40 +144,40 @@ __attribute__((visibility("hidden")))
 - (void)ocity"b1"presentationPoint"b1};
 - (struct CGRect)D=ddd}{CGPoint=dd}{CGAffineTransform=dddddd}d}16@0:(struct CGRect)arg1 8;
 - (_Bool);
-- (void)dContentSizeWhenEdgeAttached;
-- (void)rantSettingsWithReferenceColor:referenceContrast:legibilitySettings: /* Error: Ran out of types for this method. */;
+- (void)widthFollowsPreferredContentSizeWhenEdgeAttached;
+- (void)vibrantSettingsWithReferenceColor:referenceContrast:legibilitySettings: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)or;
-- (void)layTraitsForKey: /* Error: Ran out of types for this method. */;
-- (void)s:(_Bool)arg1 withOriginalAttributes: /* Error: Ran out of types for this method. */;
-- (int)rePrimary:(unsigned long long)arg1;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)difierType:(id)arg1;
-- (_Bool)vity:options:errorHandler: /* Error: Ran out of types for this method. */;
-- (void)textMenuWithItemsFromUIMenu:context: /* Error: Ran out of types for this method. */;
-- (void)ntationModifier;
-- (id)Geometry: /* Error: Ran out of types for this method. */;
-- (void)ermitted:(id)arg1;
-- (void)balSearchController;
-- (void)y:(id)arg1;
-- (void)dChange:(double)arg1;
+- (void)shouldUseLegacyBehavior;
+- (void)shouldOverlayTraitsForKey: /* Error: Ran out of types for this method. */;
+- (void)shouldInvalidateLayoutForPreferredLayoutAttributes:(_Bool)arg1 withOriginalAttributes: /* Error: Ran out of types for this method. */;
+- (int)setSecondaryActionsArePrimary:(unsigned long long)arg1;
+- (void)setSceneSettingsPointerLockedDiffInspector: /* Error: Ran out of types for this method. */;
+- (void)setModifierType:(id)arg1;
+- (_Bool)requestSceneSessionActivation:userActivity:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (void)replaceItemsInCurrentContextMenuWithItemsFromUIMenu:context: /* Error: Ran out of types for this method. */;
+- (void)presentationModifier;
+- (id)overrideGeometry: /* Error: Ran out of types for this method. */;
+- (void)handleError:(id)arg1 userInteractionPermitted:(CDUnknownBlockType)arg2;
+- (void)globalSearchController;
+- (void)encodeUIOffset:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)dragStateDidChange:(double)arg1;
 - (void);
-- (id)erUpdate: /* Error: Ran out of types for this method. */;
-- (void)FromValue:(_Bool)arg1 toValue:pressed: /* Error: Ran out of types for this method. */;
-- (void)ion:(id)arg1;
-- (struct UIEdgeInsets)crolling;
-- (_Bool)Count;
-- (_Bool)entXOffsetVariable;
-- (void)ackgroundStyle;
-- (_Bool)ceneItemProviders;
+- (id)_systemInputViewControllerAfterUpdate: /* Error: Ran out of types for this method. */;
+- (void)_switchKnobWidthSpringAnimationFromValue:(_Bool)arg1 toValue:pressed: /* Error: Ran out of types for this method. */;
+- (void)_prepareForFocusAnimation:(id)arg1;
+- (struct UIEdgeInsets)_isAutoscrolling;
+- (_Bool)_hiddenCount;
+- (_Bool)_contentXOffsetVariable;
+- (void)_childViewControllerForPreferredContainerBackgroundStyle;
+- (_Bool)_appSupportsSceneItemProviders;
 - (void)CGRect={CGPoint=dd}{CGSize=dd}},V_pageBounds;
 - (id)GSize=dd}},N,V_previousCollapsedFrame;
 - (void)teractiveTransition:(id)arg1 ,V__interactiveTransition;
 - (void)oreScrollDirectionUserPreference,S_setiOSMacIgnoreScrollDirectionUserPreference:(CDUnknownBlockType)arg1 ,V_iOSMacIgnoreScrollDirectionUserPreference;
 - (void)w;
 - (void)eyboardSession",N,R;
-- (id)tionBSActionsHandler;
-- (_Bool)aranceStorage;
+- (id)_UISceneRemoteNotificationBSActionsHandler;
+- (_Bool)_UINavigationBarAppearanceStorage;
 - (_Bool)ÿÿÿÿ¸;
 - (void)	
 ;
@@ -247,19 +191,19 @@ __attribute__((visibility("hidden")))
 - (void)frame set before -beginDropAnimation is called the first time:(CDUnknownBlockType)arg1 %@;
 - (_Bool)x}þÿ;
 - (void);
-- (id)erRadii;
+- (id)overrideCornerRadii;
 - (void)WebKit - HTML media element showing AirPlay route picker;
 - (void)ons Provider;
 - (_Bool)ller.;
-- (void)Accessory;
+- (void)cursorAccessory;
 - (void)f;
-- (int)ss;
+- (int)_UITraitNameHorizontalSizeClass;
 - (_Bool)TouchHistoryInfo"8Q16^B24;
-- (id)leWildcatPasscode;
+- (id)UIKBVisualStyleWildcatPasscode;
 - (void)16@?0@"_UIAppearanceCustomizableClassInfo"8;
 - (_Bool)from %@... %@;
 - (void)llectionViewLayoutAttributes"16^B24;
-- (void)ngRatioSmoothing;
+- (void)dampingRatioSmoothing;
 - (void)NSDateComponents * _Nonnull __strong, NSDateComponents * _Nonnull __strong);
 - (void)ontrollerVisualStyle_Phone.swift;
 - (void)úþÿ;
@@ -275,7 +219,7 @@ __attribute__((visibility("hidden")))
 - (void)Õ;
 - (void);
 - (void)CustomAnimationProperties;
-- (_Bool)tResponseContext;
+- (_Bool)UITransitionComponentResponseContext;
 - (void);
 - (void)¤h[;
 - (void)|,Û,s[;
@@ -323,33 +267,7 @@ __attribute__((visibility("hidden")))
 - (void)@öçÿ·V	 Æg;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *bottomEdgeView;
-@property(retain, nonatomic) UITrackingElementPlacementTransition *currentTransition; // @synthesize currentTransition=_currentTransition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *externalTrackingInfo; // @synthesize externalTrackingInfo=_externalTrackingInfo;
-@property(nonatomic) _Bool externalTrackingUpdateInProgress; // @synthesize externalTrackingUpdateInProgress=_externalTrackingUpdateInProgress;
-@property(nonatomic) _Bool forceAccessoryViewToBottomOfHostView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIInputViewSet *inputViewSet; // @synthesize inputViewSet=_inputViewSet;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *notificationInfoWaitingForInputUI; // @synthesize notificationInfoWaitingForInputUI=_notificationInfoWaitingForInputUI;
-@property(retain, nonatomic) UIInputViewSetPlacement *placement; // @synthesize placement=_placement;
-@property(retain, nonatomic) UIInputViewSetPlacement *placementBeforeAnimation; // @synthesize placementBeforeAnimation=_placementBeforeAnimation;
-@property(retain, nonatomic) UIInputViewSetPlacement *placementDuringAnimation; // @synthesize placementDuringAnimation=_placementDuringAnimation;
-@property(readonly, nonatomic) UIInputViewSetPlacement *placementIgnoringRotation;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *postRotationInputViewNotificationInfo; // @synthesize postRotationInputViewNotificationInfo=_postRotationInputViewNotificationInfo;
-@property(retain, nonatomic) UIInputViewSet *postRotationInputViewSet; // @synthesize postRotationInputViewSet=_postRotationInputViewSet;
-@property(copy, nonatomic) CDUnknownBlockType postRotationPendingBlock; // @synthesize postRotationPendingBlock=_postRotationPendingBlock;
 @property(retain, nonatomic) UIInputViewSetPlacement *postRotationPlacement; // @synthesize postRotationPlacement=_postRotationPlacement;
-@property(nonatomic) _Bool shouldNotifyRemoteKeyboards;
-@property(retain, nonatomic) UITraitCollection *sizeClassCollectionOverride; // @synthesize sizeClassCollectionOverride=_sizeClassCollectionOverride;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *templateNotificationInfo; // @synthesize templateNotificationInfo=_templateNotificationInfo;
-@property(nonatomic) _Bool trackingElementsNeedUpdate; // @synthesize trackingElementsNeedUpdate=_trackingElementsNeedUpdate;
-@property(retain, nonatomic) UIInputViewSet *transientInputViewSet; // @synthesize transientInputViewSet=_transientInputViewSet;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ISPrefsCache
 {
     NSNumber *_focusRingTint;
-    NSNumber *_shouldDrawObviousPlaceholders;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -20,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly) int focusRingTint; // @dynamic focusRingTint;
-@property(readonly) _Bool shouldDrawObviousPlaceholders;
 
 @end
 

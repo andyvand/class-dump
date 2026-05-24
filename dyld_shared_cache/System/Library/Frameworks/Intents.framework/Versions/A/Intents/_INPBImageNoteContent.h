@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBImageValue;
+@class _INPBImageValue;
 
 @interface _INPBImageNoteContent
 {
     struct _has;
-    _INPBImageValue *_image;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ing %s key.
+;
 - (_Bool);
-- (void);
+- (void)(%{public}s:(id)arg1 %u) HomeKit determines %@ is HOME;
 - (id);
-- (id);
-- (void)ied;
+- (id)b;
+- (void)INSetCarLockStatusIntentResponseCodeUnspecified;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBImageValue *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

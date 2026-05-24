@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSDictionary, NSURL;
 
 @interface MSMailPersistenceInfo
 {
     NSURL *_mailLibraryDirectory;
-    NSDictionary *_persistenceInfo;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)�?;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)f;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allVersionDirectoryNames;
-@property(readonly, copy, nonatomic) NSString *lastUsedVersionDirectoryName;
-@property(readonly, nonatomic) NSURL *mailLibraryDirectory; // @synthesize mailLibraryDirectory=_mailLibraryDirectory;
 @property(readonly, copy, nonatomic) NSDictionary *persistenceInfo; // @synthesize persistenceInfo=_persistenceInfo;
-@property(readonly, copy, nonatomic) NSDictionary *v4MigratedAccountDirectories;
 
 @end
 

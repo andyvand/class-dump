@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageDeduplicated
 {
     unsigned long long _timestamp;
-    unsigned int _deduplicationInterval;
-    NSString *_guid;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deduplicationInterval:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)2*;
 - (unsigned int);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,18 +26,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Tu;
 - (_Bool);
 - (id)rtSymptom"b1"nWifiNotInit"b1"nWifiNotReady"b1};
 - (void)é	;
 
 // Remaining properties
-@property(nonatomic) unsigned int deduplicationInterval; // @synthesize deduplicationInterval=_deduplicationInterval;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasDeduplicationInterval;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

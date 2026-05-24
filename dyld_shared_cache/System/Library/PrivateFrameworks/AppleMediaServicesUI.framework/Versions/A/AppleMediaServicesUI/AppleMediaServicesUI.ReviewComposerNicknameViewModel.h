@@ -7,13 +7,6 @@
 @interface AppleMediaServicesUI.ReviewComposerNicknameViewModel
 {
     id _nickname;
-    id _state;
-    id _actionState;
-    id _activeError;
-    id id;
-    id accentColor;
-    id nicknameUpdateHandler;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,40 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, MKMapView, MKModernControlAppearanceHelper, NSClickGestureRecognizer, NSCursor, NSObject, NSPanGestureRecognizer, NSString, NSView;
-@protocol OS_dispatch_source;
+@class MKModernControlAppearanceHelper;
 
 @interface MKPitchControl
 {
     MKModernControlAppearanceHelper *_appearanceHelper;
-    NSPanGestureRecognizer *_dragRecognizer;
-    NSClickGestureRecognizer *_tapRecognizer;
-    NSCursor *_currentCursor;
-    _Bool _userInteractionEnabled;
-    NSObject<OS_dispatch_source> *_scrollMomentumTimer;
-    double _scrollTranslation;
-    NSView *_effectiveAppearanceObserved;
-    struct CGRect _sliderFrame;
-    CALayer *_backgroundLayer;
-    CAShapeLayer *_sliderLayerTop;
-    CAShapeLayer *_sliderLayerHandle;
-    CAShapeLayer *_sliderLayerBottom;
-    struct CGPoint _dragMapScreenPoint;
-    double _scrollingResistance;
-    double _lastSliderPosition;
-    _Bool _hovering;
-    _Bool _hoveringOnSlider;
-    _Bool _scrolling;
-    _Bool _dragging;
-    _Bool _maybeDragging;
-    MKMapView *_mapView;
-    double _sliderPercent;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)PLXPCBatchedMessageDropCounts;
+- (void)ice.xpc;
+- (void)udgetingdebug.lastPowerlogTimestamp;
 - (double);
 - (double);
 - (void);
@@ -46,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)H;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -56,9 +33,9 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
-- (void);
-- (_Bool);
+- (void)valuesForAuditToken:(id)arg1 forEntitlements:error: /* Error: Ran out of types for this method. */;
+- (void)initWithAccountIdentifider:(id)arg1;
+- (_Bool);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
@@ -66,31 +43,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ctHardEndpointAtTime:(struct CGRect)arg1 withMetrics:eventType:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)dChange:building: /* Error: Ran out of types for this method. */;
-- (id)ationsForVendorID: /* Error: Ran out of types for this method. */;
+- (void)mapLayer:venueWithFocusDidChange:building: /* Error: Ran out of types for this method. */;
+- (id)applicationsForVendorID: /* Error: Ran out of types for this method. */;
 - (void)entData",R,N,G_enrichmentData;
 - (void)sDelegate;
 - (void)¸»ü¼¾#À,Á;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dragging; // @synthesize dragging=_dragging;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hovering; // @synthesize hovering=_hovering;
-@property(nonatomic) _Bool hoveringOnSlider; // @synthesize hoveringOnSlider=_hoveringOnSlider;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool maybeDragging; // @synthesize maybeDragging=_maybeDragging;
-@property(nonatomic) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(nonatomic) double sliderPercent; // @synthesize sliderPercent=_sliderPercent;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool userInteractionEnabled;
 
 @end

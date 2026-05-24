@@ -4,40 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDiffableDataSourceSectionSnapshot, NSOrderedSet, NSString, __UIDiffableDataSourceSnapshot;
-
 __attribute__((visibility("hidden")))
 @interface _UIDiffableDataSourceExpandCollapseAnimationContext
 {
     long long _sectionIndex;
-    __UIDiffableDataSourceSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSectionSnapshot *_initialSectionSnapshot;
-    NSDiffableDataSourceSectionSnapshot *_finalSectionSnapshot;
-    NSOrderedSet *_initialIdentifiers;
-    NSOrderedSet *_finalIdentifiers;
-    NSOrderedSet *_initialVisibleIdentifiers;
-    NSOrderedSet *_finalVisibleIdentifiers;
-    NSArray *_identifiersOfExpandedItems;
-    NSArray *_identifiersOfCollapsedItems;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)bestCandidateGroupChatWithFromIdentifier:(long long)arg1 toIdentifier:(id)arg2 displayName:(id)arg3 participants:(id)arg4 updatingToLatestiMessageGroupID:sortedIdentifiers:serviceName: /* Error: Ran out of types for this method. */;
+- (id)_sendDeliveredQuietelyForMessages:forIncomingMessageFromIDSID:inChat: /* Error: Ran out of types for this method. */;
+- (id)_sendDeliveredQuietelyForMessages:forIncomingMessageFromIDSID:inChat: /* Error: Ran out of types for this method. */;
+- (id)_sendCurrentResult;
+- (id)_sendAttachmentToPeerDevice:(id)arg1 fileTransferGUID:messageGuid:fileURL:useLocalPeersFileAPI:error: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
+- (long long)e-state:(id)arg1 %d balloon-bundle-id:(id)arg2 %@ expressive-send-style-id:(id)arg3 %@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

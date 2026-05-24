@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UnknownClass (CLSDeepLinks)
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contextIdentifierPath;
 @property(readonly, nonatomic) _Bool isClassKitDeepLink;
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)PartBody:editedMessagePartTranslation:editedMessagePartFileTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (double)initWithIdsTrustedData:GUID:timestamp:isFromStorage:isLastFromStorage:isFromDefaultPairedDevice: /* Error: Ran out of types for this method. */;
+- (id)IMDServiceReachabilityDelegate;
 - (_Bool);
 - (double);
 - (double);

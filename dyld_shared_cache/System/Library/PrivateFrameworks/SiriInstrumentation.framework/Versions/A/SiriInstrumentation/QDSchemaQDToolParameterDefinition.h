@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, QDSchemaQDEntityType;
+@class NSString;
 
 @interface QDSchemaQDToolParameterDefinition : SISchemaInstrumentationMessage
 {
     NSString *_key;
-    NSString *_name;
-    QDSchemaQDEntityType *_entityType;
-    NSString *_description;
-    _Bool _hasKey;
-    _Bool _hasName;
-    _Bool _hasEntityType;
-    _Bool _hasDescription;
 }
 
 - (void);
@@ -39,29 +32,21 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nted at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCompleteCoordinatorsRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)is Nil;
+- (_Bool)ERT OR REPLACE INTO chat_recoverable_message_join (chat_id, message_id, delete_date) SELECT chat_id, message_id, message_date FROM chat_message_join WHERE message_date < ? AND chat_id IN (;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)pMs;
+- (id)_userSamplingIdRotationTimestampMs;
 - (id)I,N,V_profileSwitchDurationInMs;
 - (void)"OPTINSchemaOPTINInconsistentStateDetected",&,N,V_inconsistentStateDetected;
 - (_Bool)k;
-- (void)TRANSITIONREASON_PINNED;
-- (void)nseCharactersCount;
+- (void)SRSTSTATETRANSITIONREASON_PINNED;
+- (void)responseCharactersCount;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
-@property(retain, nonatomic) QDSchemaQDEntityType *entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) _Bool hasDescription; // @synthesize hasDescription=_hasDescription;
-@property(nonatomic) _Bool hasEntityType; // @synthesize hasEntityType=_hasEntityType;
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

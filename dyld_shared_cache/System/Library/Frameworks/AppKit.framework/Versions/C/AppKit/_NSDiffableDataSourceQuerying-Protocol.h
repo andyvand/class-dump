@@ -7,24 +7,21 @@
 @class NSArray, NSIndexPath;
 
 @protocol _NSDiffableDataSourceQuerying
-- (long long)EncryptionKey;
+- (long long)refreshEncryptionKey;
 - (long long)2³üÿ;
-- (NSArray *)trollerSendLoadWindowWhenLoadingNib;
-- (id)t;
+- (NSArray *)NSWindowControllerSendLoadWindowWhenLoadingNib;
+- (id)horizontalAlignment;
 - (id)Kind:(id)arg1 %@ atIndexPath:%@ was not retrieved by calling -makeSupplementaryViewOfKind:withIdentifier:forIndexPath:or is nil (%@) /* Error: Ran out of types for this method. */;
 - (long long)tle bounds:(id)arg1 origin %g; width %g; right %g | Label bounds:origin %g; width %g; right %g /* Error: Ran out of types for this method. */;
-- (long long)0SecondsTemplate;
+- (long long)NSTouchBarSkipAhead30SecondsTemplate;
 - (long long), CGFloat, CGFloat, CGFloat, NSEventGestureAxis, Class, void (^)(CGFloat, CGFloat, NSEventPhase, BOOL, BOOL *))_block_invoke_3;
 - (NSArray *)readsheet;
-- (NSIndexPath *)dowTabBarFillColor;
+- (NSIndexPath *)_NSTabBarOffscreenNonMainWindowTabBarFillColor;
 - (id)Index:(NSIndexPath *)arg1 didChangeTitleFrom:to:] /* Error: Ran out of types for this method. */;
 - (long long)ingStyle.swift;
 - (NSArray *)Ih4ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
 @property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
 @end
 

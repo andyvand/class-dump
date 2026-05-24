@@ -6,19 +6,15 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class DMFReportingRequirements, NSString, NSXPCListenerEndpoint;
+@class NSString;
 
 @interface DMFRegisterConfigurationSourceRequest : DMFTaskRequest
 {
     NSString *_configurationSourceName;
-    NSString *_organizationIdentifier;
-    NSString *_machServiceName;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    DMFReportingRequirements *_reportingRequirements;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)P;
 + (_Bool);
 + (id);
 - (void);
@@ -26,21 +22,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)addressType;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *configurationSourceName; // @synthesize configurationSourceName=_configurationSourceName;
-@property(retain, nonatomic) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
-@property(copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) DMFReportingRequirements *reportingRequirements; // @synthesize reportingRequirements=_reportingRequirements;
 
 @end
 

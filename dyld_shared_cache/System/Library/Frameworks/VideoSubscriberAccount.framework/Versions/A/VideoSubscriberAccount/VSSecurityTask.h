@@ -9,22 +9,16 @@
 @interface VSSecurityTask
 {
     unsigned long long _kind;
-    CDStruct_4c969caf _auditToken;
-    CDUnknownFunctionPointerType _createWithAuditToken;
-    CDUnknownFunctionPointerType _createFromSelf;
-    CDUnknownFunctionPointerType _copyValueForEntitlement;
-    CDUnknownFunctionPointerType _copySigningIdentifier;
-    struct __SecTask *_taskRef;
 }
 
-+ (id);
++ (id)	?׵";
 + (id);
 + (void);
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType)y;
 - (id);
 - (id);
 - (_Bool);

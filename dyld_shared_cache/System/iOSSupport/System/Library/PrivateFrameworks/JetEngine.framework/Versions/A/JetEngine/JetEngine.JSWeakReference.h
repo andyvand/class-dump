@@ -7,7 +7,6 @@
 @interface JetEngine.JSWeakReference
 {
     id context;
-    id weakValue;
 }
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSSet, NSString, SMNNetworkSession;
-@protocol OS_dispatch_queue;
+@class NSSet, SMNNetworkSession;
 
 @interface SMNetworkSourceProxy
 {
     NSSet *_errorCodes;
-    _Bool _cancelled;
-    _Bool _started;
-    _Bool _disconnected;
-    CDUnknownBlockType _usernameConversionBlock;
-    CDUnknownBlockType _groupnameConversionBlock;
-    NSDictionary *_lastProgressUpdate;
-    SMNNetworkSession *_session;
-    NSObject<OS_dispatch_queue> *_actionQueue;
-    NSObject<OS_dispatch_queue> *_statusActionQueue;
-    NSMutableDictionary *_bundleInformation;
 }
 
 - (_Bool);
@@ -31,7 +20,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,15 +49,15 @@
 - (id);
 - (void);
 - (id);
+- (void)DGFusionOperation;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*!;
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)recordWithRecordType:(_Bool)arg1 name:attributes:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_connectionLock;
 - (void);
 - (_Bool)0@ù
 × ;
@@ -76,24 +65,7 @@
 - (id)ÿq;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *actionQueue; // @synthesize actionQueue=_actionQueue;
-@property(retain) NSMutableDictionary *bundleInformation; // @synthesize bundleInformation=_bundleInformation;
-@property(getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isDisconnected) _Bool disconnected; // @synthesize disconnected=_disconnected;
-@property(copy) CDUnknownBlockType groupnameConversionBlock; // @synthesize groupnameConversionBlock=_groupnameConversionBlock;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *lastProgressUpdate; // @synthesize lastProgressUpdate=_lastProgressUpdate;
-@property(readonly) unsigned long long protocolVersion;
 @property(retain) SMNNetworkSession *session; // @synthesize session=_session;
-@property _Bool started; // @synthesize started=_started;
-@property(retain) NSObject<OS_dispatch_queue> *statusActionQueue; // @synthesize statusActionQueue=_statusActionQueue;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType usernameConversionBlock; // @synthesize usernameConversionBlock=_usernameConversionBlock;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKApplePayTrustSignatureRequest
 {
     NSString *_keyIdentifier;
-    NSData *_nonce;
-    NSData *_manifestHash;
 }
 
 + (_Bool);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, copy, nonatomic) NSData *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(readonly, copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 
 @end
 

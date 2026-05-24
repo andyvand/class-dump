@@ -6,35 +6,33 @@
 
 #import <CloudKitDaemon/CKDSQLiteCache.h>
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDOperationInfoCache : CKDSQLiteCache
 {
     NSObject<OS_dispatch_queue> *_cacheQueue;
-    NSObject<OS_dispatch_queue> *_cacheDelegateQueue;
-    NSMutableDictionary *_delegateWrappersByOperationID;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)capitalizedString;
 - (id);
 - (id);
 - (void);
@@ -42,15 +40,13 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)ckageRepairRecordID:(id)arg1 sizes:putReceipts: /* Error: Ran out of types for this method. */;
+- (void)initWithOperation:(id)arg1 recoveredPackageRepairRecordID:sizes:putReceipts: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)";
-- (void)eMissingAssetStatusResponse;
+- (void)updateMissingAssetStatusResponse;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cacheDelegateQueue; // @synthesize cacheDelegateQueue=_cacheDelegateQueue;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *cacheQueue; // @synthesize cacheQueue=_cacheQueue;
-@property(retain, nonatomic) NSMutableDictionary *delegateWrappersByOperationID; // @synthesize delegateWrappersByOperationID=_delegateWrappersByOperationID;
 
 @end
 

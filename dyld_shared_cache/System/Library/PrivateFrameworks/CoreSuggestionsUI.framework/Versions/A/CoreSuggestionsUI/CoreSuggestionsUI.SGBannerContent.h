@@ -4,42 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSColor, NSString, NSVisualEffectView, SGBannerDividerParameter, SGSuggestionAction;
-@protocol SGSuggestion, SGSuggestionDelegate;
+@class NSString;
 
 @interface CoreSuggestionsUI.SGBannerContent
 {
     id bannerForVisionDevice;
-    void title;
-    NSAttributedString *attributedTitle;
-    void subtitle;
-    NSAttributedString *attributedSubtitle;
-    long long accessoryType;
-    void images;
-    void actionTitle;
-    id <SGSuggestion> suggestion;
-    void delegate;
-    double primaryActionButtonWidth;
-    double closeButtonWidth;
-    long long actionButtonType;
-    NSVisualEffectView *backgroundVisualEffectView;
-    NSColor *backgroundColor;
-    SGBannerDividerParameter *bannerDivider;
-    _Bool suggestionCategorySupportsBatchDismissal;
-    SGSuggestionAction *primaryAction;
-    SGSuggestionAction *dismissAction;
-    double closeButtonXAnchorOffset;
-    _Bool prominentActionButton;
-    void iconSFSymbols;
-    _Bool disableGlassPlatter;
-    SGSuggestionAction *feedbackAction;
-    _Bool ignoreSafeAreaInsets;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
@@ -48,7 +23,7 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (double);
@@ -59,7 +34,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)F:(long long)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::WebPageGroupProxy>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::WebPageGroupProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::WebPageGroupProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::WebPageGroupProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PageGroupIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -70,12 +45,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_isCombined;
+- (void)_chat_loadAttachments:(id)arg1 queryID:loadImmediately: /* Error: Ran out of types for this method. */;
+- (void)rentItem;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_handleMapItems:(id)arg1 requestType:error:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -88,29 +63,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long accessoryType; // @synthesize accessoryType;
-@property(nonatomic) long long actionButtonType; // @synthesize actionButtonType;
-@property(nonatomic, copy) NSString *actionTitle;
-@property(nonatomic, retain) NSAttributedString *attributedSubtitle; // @synthesize attributedSubtitle;
-@property(nonatomic, retain) NSAttributedString *attributedTitle; // @synthesize attributedTitle;
-@property(nonatomic, retain) NSColor *backgroundColor; // @synthesize backgroundColor;
-@property(nonatomic, retain) NSVisualEffectView *backgroundVisualEffectView; // @synthesize backgroundVisualEffectView;
-@property(nonatomic, retain) SGBannerDividerParameter *bannerDivider; // @synthesize bannerDivider;
-@property(nonatomic) double closeButtonWidth; // @synthesize closeButtonWidth;
-@property(nonatomic) double closeButtonXAnchorOffset; // @synthesize closeButtonXAnchorOffset;
-@property(nonatomic) __weak id <SGSuggestionDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool disableGlassPlatter; // @synthesize disableGlassPlatter;
-@property(nonatomic, retain) SGSuggestionAction *dismissAction; // @synthesize dismissAction;
-@property(nonatomic, retain) SGSuggestionAction *feedbackAction; // @synthesize feedbackAction;
-@property(nonatomic, copy) NSArray *iconSFSymbols;
-@property(nonatomic) _Bool ignoreSafeAreaInsets; // @synthesize ignoreSafeAreaInsets;
-@property(nonatomic, copy) NSArray *images;
-@property(nonatomic, retain) SGSuggestionAction *primaryAction; // @synthesize primaryAction;
-@property(nonatomic) double primaryActionButtonWidth; // @synthesize primaryActionButtonWidth;
-@property(nonatomic) _Bool prominentActionButton; // @synthesize prominentActionButton;
-@property(nonatomic, copy) NSString *subtitle;
-@property(nonatomic, retain) id <SGSuggestion> suggestion; // @synthesize suggestion;
-@property(nonatomic) _Bool suggestionCategorySupportsBatchDismissal; // @synthesize suggestionCategorySupportsBatchDismissal;
 @property(nonatomic, copy) NSString *title;
 
 @end

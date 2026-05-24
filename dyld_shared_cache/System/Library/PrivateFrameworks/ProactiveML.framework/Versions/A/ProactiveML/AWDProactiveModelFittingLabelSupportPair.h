@@ -7,11 +7,6 @@
 @interface AWDProactiveModelFittingLabelSupportPair
 {
     unsigned long long _label;
-    float _support;
-    struct {
-        unsigned int label:1;
-        unsigned int support:1;
-    } _has;
 }
 
 - (void);
@@ -19,24 +14,21 @@
 - (void);
 - (float);
 - (void);
-- (id);
+- (id)simulatorOnly;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)connectionEstablishmentProxyConfiguration;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasSupport;
-@property(nonatomic) unsigned long long label; // @synthesize label=_label;
-@property(nonatomic) float support; // @synthesize support=_support;
 
 @end
 

@@ -6,33 +6,15 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSMenuWindowManagerBackgroundView, NSMutableDictionary, NSView, NSVisualEffectView;
+@class NSMenuWindowManagerBackgroundView, NSVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuWindowManagerWindow : NSWindow
 {
     NSMenuWindowManagerBackgroundView *_backgroundView;
-    NSView *_menuItemsContainerView;
-    NSMutableDictionary *_trackingRectDictionary;
-    struct OpaqueEventHandlerRef *_windowEventHandler;
-    struct OpaqueEventHandlerRef *_controlEventHandler;
-    struct {
-        unsigned int windowRefIsDeallocated:1;
-        unsigned int unhandledKey:1;
-        unsigned int blockInputContext:1;
-        unsigned int keyWindowProperties:2;
-        unsigned int ignoresMulticolorAccent:1;
-        unsigned int reserved:26;
-    } _flags;
-    id _rememberedKeyWindow;
-    const long long *_rememberedWindowOrdering;
-    unsigned long long _rememberedWindowOrderingCount;
-    struct OpaqueWindowPtr *_windowRef;
-    _Bool _managesContainerViewFrame;
-    struct CGRect _flippedContainerViewFrame;
 }
 
-+ (id);
++ (id);
 - (struct OpaqueWindowPtr *);
 - (void);
 - (void);
@@ -47,31 +29,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
+- (void)id *;
+- (Class)nEvent:getExceptionString failed /* Error: Ran out of types for this method. */;
+- (void *)ceptionEvent:(long long)arg1 createATSExceptionEventMetadata failed;
+- (void)undSession <%{public}@> Storing work to do when ready to wake app for uuid %@ for session %@ with identifier %@;
+- (id)oxySession <%{public}@> failed to create a background AVAssetDownloadTask, as URLAsset PropertyList could not be serialized.;
+- (void)`;
+- (void);
+- (void);
 - (void);
-- (Class);
-- (void *);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)_xpcActivityBudgeted;
+- (struct CGRect)NSAllowsArbitraryLoadsInWebContent;
+- (void)_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB);;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (void);
@@ -84,11 +66,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) struct CGRect flippedContainerViewFrame; // @synthesize flippedContainerViewFrame=_flippedContainerViewFrame;
-@property(nonatomic) _Bool ignoresMulticolorAccent;
-@property(nonatomic) _Bool managesContainerViewFrame; // @synthesize managesContainerViewFrame=_managesContainerViewFrame;
-@property(readonly) NSView *menuItemsContainerView; // @synthesize menuItemsContainerView=_menuItemsContainerView;
-@property(nonatomic) struct OpaqueWindowPtr *windowRef;
 
 @end
 

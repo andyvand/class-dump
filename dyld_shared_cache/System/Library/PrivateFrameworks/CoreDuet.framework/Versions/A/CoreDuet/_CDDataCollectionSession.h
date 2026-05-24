@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface _CDDataCollectionSession
 {
     NSString *_identifier;
-    NSData *_salt;
-    NSDate *_latestStartDate;
-    NSDate *_lastCollectionDate;
-    unsigned long long _batchNumber;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

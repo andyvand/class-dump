@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIWindowSceneActivationPrewarmAction
 {
 }
@@ -15,21 +13,14 @@
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);
-- (id)t;
+- (id)isSourceList;
 - (_Bool)ncrete subclass;
 - (id)l constraint (%@);
 - (long long);
 - (_Bool)½;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long deparentingPortalAlphaSourceLayerRenderId;
-@property(readonly, nonatomic) NSString *interactionIdentifier;
-@property(readonly, nonatomic) unsigned long long morphContainerRenderId;
-@property(readonly, nonatomic) _Bool requestCenterSlot;
-@property(readonly, nonatomic) _Bool requestFullscreen;
-@property(readonly, nonatomic) NSString *sourceAppBundleIdentifier;
 @property(readonly, nonatomic) unsigned int sourceLayerContextId;
-@property(readonly, nonatomic) NSString *sourceSceneIdentifier;
 
 @end
 

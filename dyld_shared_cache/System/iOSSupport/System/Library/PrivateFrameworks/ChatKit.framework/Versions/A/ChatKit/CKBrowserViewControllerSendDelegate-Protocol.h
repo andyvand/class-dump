@@ -4,6 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSURL;
+@protocol CKBrowserDragControllerTranscriptDelegate;
+
 @protocol CKBrowserViewControllerSendDelegate
+- (void);
+- (void)lastAccessibilityAnnouncementDate;
+- (void)ic_makeCircularImageWithColor:(NSString *)arg1 diameter:(NSString *)arg2;
+- (void)extendedSelectionRangeForCollapsedSectionHeadingWithRange:(NSURL *)arg1 textView:(NSString *)arg2;
+- (void)extendHighlightsForRange:(NSURL *)arg1 inTextStorage:(NSString *)arg2;
+- (id <CKBrowserDragControllerTranscriptDelegate>)P;
+
+@optional
+- (void);
+- (void)superscriptDelta:(_Bool)arg1 range:inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)rememberCustomPasswordInfoAlertWithAccount:(NSString *)arg1;
+- (void)reloadData:(NSString *)arg1;
+- (void)registerShareForObject:(_Bool)arg1 itemProvider:(NSString *)arg2 generateThumbnails:sharePreparationHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)TableAttributes;
+- (void)backButtonTitle;
+- (void)eFailedSketches;
+- (void)ObjectsInSource;
+- (void)deletePDFForAttachmentIfExists:(_Bool)arg1;
+- (void)defaultAvatarImageViewWithSize: /* Error: Ran out of types for this method. */;
+- (void)xtAttachment;
+- (void)_encryptionDelegateCRContextURL;
+- (_Bool)ving System Paper notes for changes…;
 @end
 

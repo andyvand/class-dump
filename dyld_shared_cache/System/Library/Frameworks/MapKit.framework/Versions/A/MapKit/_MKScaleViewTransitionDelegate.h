@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKScaleViewTransitionDelegate
 {
@@ -14,18 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (CDUnknownBlockType);
-- (void)etShowsTraffic: /* Error: Ran out of types for this method. */;
-- (void)apticFeedbackManager;
+- (void)setShowsTraffic: /* Error: Ran out of types for this method. */;
+- (void)NSHapticFeedbackManager;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

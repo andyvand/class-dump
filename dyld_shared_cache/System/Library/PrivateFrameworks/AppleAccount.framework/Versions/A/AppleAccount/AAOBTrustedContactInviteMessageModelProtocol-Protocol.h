@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol AAOBTrustedContactInviteMessageModelProtocol
+- (void)CP_ProfileInstalledFromUserApprovedManagementService;
+- (NSString *)d not be NULL;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bubbleText;

@@ -6,19 +6,17 @@
 
 #import <HomeKit/HMMediaDestinationControllerData.h>
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface HMMutableMediaDestinationControllerData : HMMediaDestinationControllerData
 {
 }
 
-+ (id)Key;
-- (id);
++ (id)kVendorIDKey;
+- (id)Ȧ�;
 
 // Remaining properties
-@property(copy) NSArray *availableDestinationIdentifiers; // @dynamic availableDestinationIdentifiers;
 @property(copy) NSUUID *destinationIdentifier; // @dynamic destinationIdentifier;
-@property unsigned long long supportedOptions; // @dynamic supportedOptions;
 
 @end
 

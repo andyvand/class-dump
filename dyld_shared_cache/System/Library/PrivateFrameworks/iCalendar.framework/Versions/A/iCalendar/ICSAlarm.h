@@ -6,18 +6,16 @@
 
 #import <iCalendar/ICSComponent.h>
 
-@class ICSDateTimeUTCValue, ICSStructuredLocation, ICSTrigger, NSArray, NSData, NSString;
-
 @interface ICSAlarm : ICSComponent
 {
 }
 
 + (id);
 + (id);
-+ (int);
++ (int)_extensionContextForUUID:(id)arg1;
 + (id);
-+ (id);
-+ (id);
++ (id)%d;
++ (id)TokenWithOptions ignoring options because MCXTools is too old;
 - (_Bool);
 - (void);
 - (void);
@@ -33,29 +31,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)activationLockBypassCodeHash;
 - (void);
-- (void);
+- (void)r;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) ICSDateTimeUTCValue *acknowledged;
 @property(nonatomic) int action;
-@property(retain) NSArray *attach; // @dynamic attach;
-@property(retain) NSArray *attendee; // @dynamic attendee;
-@property(retain, nonatomic) NSData *bookmark; // @dynamic bookmark;
-@property(retain) NSString *description; // @dynamic description;
-@property(retain, nonatomic) NSString *relatedTo;
-@property(retain) NSString *summary; // @dynamic summary;
-@property(retain) ICSTrigger *trigger; // @dynamic trigger;
-@property(retain) NSString *uid; // @dynamic uid;
-@property(nonatomic) _Bool x_apple_default_alarm;
-@property(nonatomic) _Bool x_apple_local_default_alarm;
-@property(retain, nonatomic) NSString *x_apple_proximity;
-@property(retain) ICSStructuredLocation *x_apple_structured_location; // @dynamic x_apple_structured_location;
-@property(nonatomic) _Bool x_apple_travel_default_alarm;
-@property(retain, nonatomic) NSString *x_wr_alarmuid;
 
 @end
 

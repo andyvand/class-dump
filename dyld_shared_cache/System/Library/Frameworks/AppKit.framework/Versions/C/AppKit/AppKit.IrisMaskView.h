@@ -9,23 +9,18 @@
 @interface AppKit.IrisMaskView : NSView
 {
     id mode;
-    id maskPosition;
-    id additionalOutset;
-    id blurRadius;
-    id circleLayer;
 }
 
 - (id);
-- (void);
+- (void)to register a nil node;
 - (_Bool);
 - (_Bool)1Â0@ù
 × ;
-- (id)izeForProposedSize:(struct CGRect)arg1 resizeEdges: /* Error: Ran out of types for this method. */;
+- (id)_sizeForProposedSize:(struct CGRect)arg1 resizeEdges: /* Error: Ran out of types for this method. */;
 - (void)A@X¤A;
 - (void)ØE;
 
 // Remaining properties
-@property(nonatomic) _Bool clipsToBounds;
 @property(nonatomic, readonly) _Bool flipped;
 
 @end

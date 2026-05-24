@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SKScene;
+@class SKScene;
 
 __attribute__((visibility("hidden")))
 @interface SCNSpriteKitEventHandler
 {
     SKScene *_scene;
-    NSMutableDictionary *_touchMap;
-    _Bool _mouseIsDown;
-    _Bool _rightMouseIsDown;
 }
 
 - (_Bool);
@@ -22,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)e.keybagd.lock_status;
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (_Bool)htIndices[2] ];

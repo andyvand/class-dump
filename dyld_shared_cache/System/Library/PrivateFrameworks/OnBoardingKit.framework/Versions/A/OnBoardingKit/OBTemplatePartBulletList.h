@@ -9,12 +9,6 @@
 @interface OBTemplatePartBulletList
 {
     _Bool _needsExtraWideContent;
-    _Bool _bulletsHaveBackgrounds;
-    long long _bulletListSpacing;
-    NSStackView *_stack;
-    double _itemWidth;
-    double _itemInset;
-    unsigned long long _templateType;
 }
 
 - (void);
@@ -39,22 +33,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (double);
+- (double)ified that channel with UUID %@ disconnected at date %@ disconnectedReason:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long bulletListSpacing; // @synthesize bulletListSpacing=_bulletListSpacing;
-@property(nonatomic) _Bool bulletsHaveBackgrounds; // @synthesize bulletsHaveBackgrounds=_bulletsHaveBackgrounds;
-@property double itemInset; // @synthesize itemInset=_itemInset;
-@property double itemWidth; // @synthesize itemWidth=_itemWidth;
-@property(nonatomic) _Bool needsExtraWideContent; // @synthesize needsExtraWideContent=_needsExtraWideContent;
 @property(retain) NSStackView *stack; // @synthesize stack=_stack;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
 
 @end
 

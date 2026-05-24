@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @protocol GEOServerFormatTokenCountdownValue
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *alternativeFormatStringsByType;
 @property(readonly, nonatomic) long long countdownType;
-@property(readonly, nonatomic) NSString *separator;
-@property(readonly, nonatomic) NSArray *timestamps;
 @end
 

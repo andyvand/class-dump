@@ -13,20 +13,21 @@
     NSMutableDictionary *_queries;
 }
 
++ (id).;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)j
+*E;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void);
+- (void)e!;
 - (id);
 - (id);
 - (void);

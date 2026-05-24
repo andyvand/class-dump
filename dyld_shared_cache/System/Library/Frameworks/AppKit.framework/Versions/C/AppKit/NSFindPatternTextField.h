@@ -6,14 +6,12 @@
 
 #import <AppKit/NSTextFinderBarTextField.h>
 
-@class NSFindPatternAttachmentCell, NSString;
 @protocol NSFindPatternManager;
 
 __attribute__((visibility("hidden")))
 @interface NSFindPatternTextField : NSTextFinderBarTextField
 {
     id <NSFindPatternManager> findPatternManager;
-    NSFindPatternAttachmentCell *selectedAttachment;
 }
 
 - (id);
@@ -29,39 +27,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (void)RLConnectionLoader=^^?^{__CFAllocator}^^?CC^{InterfaceRequiredForLoader}@^^?^^?@@q^{RedirectionRecorder}CCC@CddC^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (_Bool)currentProcessShouldUseOpaqueProxying;
+- (id)_requestHeaderBytesSent;
+- (id)_requestCachePolicy;
+- (id)_request;
+- (id)_releasePreventIdleSleepAssertionIfAppropriate;
 - (void);
+- (void);
+- (void);
+- (void)WHERE entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (id)anonymous;
+- (_Bool)@;
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)HasOwnTargetAction;
+- (void)_accessibilityMenuFormRepresentationHasOwnTargetAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property id <NSFindPatternManager> findPatternManager; // @synthesize findPatternManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

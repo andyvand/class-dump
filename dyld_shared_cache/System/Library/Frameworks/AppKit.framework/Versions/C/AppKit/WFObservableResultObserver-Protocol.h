@@ -5,5 +5,6 @@
 //
 
 @protocol WFObservableResultObserver
+- (void);
 @end
 

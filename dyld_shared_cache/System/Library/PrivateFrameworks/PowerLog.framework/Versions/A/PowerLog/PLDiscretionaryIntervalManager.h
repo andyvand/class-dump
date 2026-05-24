@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PLDiscretionaryEnergyMonitor;
-@protocol OS_dispatch_source;
+@class NSMutableDictionary;
 
 @interface PLDiscretionaryIntervalManager
 {
     _Bool _quickEnergyEnabled;
-    NSMutableDictionary *_identifierToDiscretionaryIntervals;
-    NSMutableDictionary *_activityNameToInvolvedIdentifiers;
-    NSObject<OS_dispatch_source> *_openIntervalTimer;
-    NSObject<OS_dispatch_source> *_powerlogReportTimer;
-    PLDiscretionaryEnergyMonitor *_discretionaryEnergyMonitor;
-    NSMutableDictionary *_mockData;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithTrustedPixelBufferAttributes: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -29,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,18 +37,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_DMdiskForVolumeUUID;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *activityNameToInvolvedIdentifiers; // @synthesize activityNameToInvolvedIdentifiers=_activityNameToInvolvedIdentifiers;
-@property(nonatomic) __weak PLDiscretionaryEnergyMonitor *discretionaryEnergyMonitor; // @synthesize discretionaryEnergyMonitor=_discretionaryEnergyMonitor;
 @property(retain) NSMutableDictionary *identifierToDiscretionaryIntervals; // @synthesize identifierToDiscretionaryIntervals=_identifierToDiscretionaryIntervals;
-@property(retain) NSMutableDictionary *mockData; // @synthesize mockData=_mockData;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *openIntervalTimer; // @synthesize openIntervalTimer=_openIntervalTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *powerlogReportTimer; // @synthesize powerlogReportTimer=_powerlogReportTimer;
-@property(nonatomic) _Bool quickEnergyEnabled; // @synthesize quickEnergyEnabled=_quickEnergyEnabled;
 
 @end
 

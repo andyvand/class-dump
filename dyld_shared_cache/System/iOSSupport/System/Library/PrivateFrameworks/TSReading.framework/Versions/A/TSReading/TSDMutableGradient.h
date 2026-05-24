@@ -6,23 +6,23 @@
 
 #import <TSReading/TSDGradient.h>
 
-@class NSArray, NSString, TSUColor;
+@class NSArray;
 
 @interface TSDMutableGradient : TSDGradient
 {
 }
 
+- (void)AVPlayerItemOverlappedPlaybackCompleteReason;
+- (void)UnifiedPlayer;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)QueuePlayerManaging;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,19 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TSUColor *firstColor;
 @property(retain, nonatomic) NSArray *gradientStops; // @dynamic gradientStops;
-@property(nonatomic) unsigned long long gradientType; // @dynamic gradientType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAdvancedGradient; // @dynamic isAdvancedGradient;
-@property(retain, nonatomic) TSUColor *lastColor;
-@property(nonatomic) double opacity; // @dynamic opacity;
-@property(readonly) Class superclass;
 
 @end
 

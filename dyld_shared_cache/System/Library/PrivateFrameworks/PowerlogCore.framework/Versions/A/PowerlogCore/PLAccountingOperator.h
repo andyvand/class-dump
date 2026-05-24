@@ -6,12 +6,11 @@
 
 #import <PowerlogCore/PLOperator.h>
 
-@class NSMutableDictionary, NSSet;
+@class NSSet;
 
 @interface PLAccountingOperator : PLOperator
 {
     NSSet *_rules;
-    NSMutableDictionary *_ruleIDToPendingJobs;
 }
 
 + (id);
@@ -32,26 +31,26 @@
 + (id);
 + (id);
 + (id);
++ (id)tificate;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)o;
 + (void)PLL;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)apple.Family.DeclaredAgeRange.Settings.AgeRangeForAppsAppSelected;
+- (void)queueAssertionWithParams:completion: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)D9J('K
+;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)pID;
+- (void)AriGroupID;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *ruleIDToPendingJobs; // @synthesize ruleIDToPendingJobs=_ruleIDToPendingJobs;
 @property(retain, nonatomic) NSSet *rules; // @synthesize rules=_rules;
 
 @end

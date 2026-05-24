@@ -14,9 +14,9 @@
 }
 
 + (id);
-+ (id);
++ (id)P;
 + (unsigned short);
-- (id);
+- (id)AMSUserNotificationStrategy;
 - (void);
 
 @end

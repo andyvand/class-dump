@@ -6,14 +6,12 @@
 
 #import <CoreWiFi/CWFEventID.h>
 
-@class CWFWiFiNetworkSharingClientID, NSData;
+@class CWFWiFiNetworkSharingClientID;
 
 __attribute__((visibility("hidden")))
 @interface CWFWiFiNetworkSharingEventID : CWFEventID
 {
     CWFWiFiNetworkSharingClientID *_clientID;
-    NSData *_networkListUpdateEventPredicateData;
-    NSData *_connectedAPUpdateEventPredicateData;
 }
 
 + (_Bool);
@@ -22,20 +20,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)B;
 - (id);
-- (void);
+- (void)،;
 - (id);
 - (void)lyBSS;
 
 // Remaining properties
 @property(copy) CWFWiFiNetworkSharingClientID *clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) NSData *connectedAPUpdateEventPredicateData; // @synthesize connectedAPUpdateEventPredicateData=_connectedAPUpdateEventPredicateData;
-@property(copy, nonatomic) NSData *networkListUpdateEventPredicateData; // @synthesize networkListUpdateEventPredicateData=_networkListUpdateEventPredicateData;
 
 @end
 

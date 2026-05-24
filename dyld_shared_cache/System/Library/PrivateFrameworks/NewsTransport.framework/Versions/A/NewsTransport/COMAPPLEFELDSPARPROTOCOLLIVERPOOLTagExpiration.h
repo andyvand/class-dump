@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagExpiration
 {
     long long _expireUtcTime;
-    NSString *_tagId;
-    CDStruct_b50c6a10 _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (void)_updateSpecDependentUI;
+- (void)_updateFailedAudioAssets;
+- (_Bool)_spriteSnapshotsCapacity;
+- (_Bool)_setHasEnteredRetentionThreshold: /* Error: Ran out of types for this method. */;
+- (long long)_reviewProcessingValuesScope;
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -29,13 +25,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ersion;
+- (void)clientVersion;
 
 // Remaining properties
-@property(nonatomic) long long expireUtcTime; // @synthesize expireUtcTime=_expireUtcTime;
-@property(nonatomic) _Bool hasExpireUtcTime;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

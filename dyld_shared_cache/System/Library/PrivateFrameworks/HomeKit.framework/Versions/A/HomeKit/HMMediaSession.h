@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAudioControl, HMMediaProfile, NSString, NSUUID, _HMMediaSession;
-@protocol HMMediaSessionDelegate;
+@class NSUUID, _HMMediaSession;
 
 @interface HMMediaSession
 {
     NSUUID *_uuid;
-    HMAudioControl *_audioControl;
-    NSString *_mediaUniqueIdentifier;
-    NSString *_routeUID;
-    id <HMMediaSessionDelegate> _delegate;
-    _HMMediaSession *_mediaSession;
-    HMMediaProfile *_mediaProfile;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)MatchingFlags;
+- (void)˟;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,47 +29,29 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id):deletionEntries: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)7;
 - (void);
 - (id);
+- (void)setAssertDefaultKeyPlane:(id)arg1;
+- (_Bool)anatomical;
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ssionIdentifier;
+- (void)setupSessionIdentifier;
 - (void)¸|ô}Ì¼4ôüÄ;
 
 // Remaining properties
-@property(readonly) HMAudioControl *audioControl; // @synthesize audioControl=_audioControl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMMediaSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMMediaProfile *mediaProfile; // @synthesize mediaProfile=_mediaProfile;
 @property(retain, nonatomic) _HMMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(readonly, copy) NSString *mediaUniqueIdentifier; // @synthesize mediaUniqueIdentifier=_mediaUniqueIdentifier;
-@property(readonly) long long playbackState;
-@property(readonly) long long repeatState;
-@property(readonly, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(readonly) long long shuffleState;
-@property(readonly) unsigned long long sleepWakeState;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAElectionAdvertisingEndStarted : SISchemaInstrumentationMessage
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
@@ -22,16 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)j.attachment_id LIMIT 1) IS NULL;
 - (_Bool);
 - (id);
 - (id)tionCandidatesCollated";
-- (id)PNLv4SampleEvaluationFailed;
+- (id)CLPInstSchemaCLPNLv4SampleEvaluationFailed;
 - (id)D;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

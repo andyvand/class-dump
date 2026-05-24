@@ -9,23 +9,21 @@
 @interface TSTMergeRegionMap : TSPObject
 {
     struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowCoordinate, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowCoordinate>>> mCellIDToMergeRegionTopLeft;
-    struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowSize, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>>> mMergeRegionTopLeftToMergeRegionSize;
-    CDStruct_5f1f7aa9 mUnionedMergeRange;
 }
 
 + (id);
-- (CDStruct_5f1f7aa9);
-- (_Bool);
-- (_Bool);
-- (CDStruct_5f1f7aa9);
+- (CDStruct_f5d1269f)expiration=%@>;
+- (_Bool)k cancelled after track retrieval - ;
+- (_Bool)ime is past crossfade start;
+- (CDStruct_f5d1269f);
 - (id);
 - (id);
-- (id);
+- (id)PodcastsPlaybackRateHelper;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id)>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std:(id)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_charIndex"Q"_validThroughCharIndex"Q"_styleProvider"@"NSObject<TSWPStyleProvider>"} /* Error: Ran out of types for this method. */;

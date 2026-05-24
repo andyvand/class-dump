@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGlassView, NSImageView, NSVisualEffectView;
+@class NSVisualEffectView;
 
 @interface SOLabeledBadgeWindowController
 {
     NSVisualEffectView *_badgeView;
-    NSGlassView *_glassBadgeView;
-    long long _arrowOrientation;
-    long long _badgePresentation;
-    NSImageView *_colorFillView;
 }
 
 + (id);
@@ -38,10 +34,6 @@
 
 // Remaining properties
 @property long long arrowOrientation; // @synthesize arrowOrientation=_arrowOrientation;
-@property long long badgePresentation; // @synthesize badgePresentation=_badgePresentation;
-@property(readonly) NSVisualEffectView *badgeView; // @synthesize badgeView=_badgeView;
-@property NSImageView *colorFillView; // @synthesize colorFillView=_colorFillView;
-@property(readonly) NSGlassView *glassBadgeView; // @synthesize glassBadgeView=_glassBadgeView;
 
 @end
 

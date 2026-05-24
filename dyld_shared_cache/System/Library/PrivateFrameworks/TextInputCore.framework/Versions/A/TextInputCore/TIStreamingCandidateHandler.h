@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TICandidateRequestToken, TIKeyboardInputManagerBase, TIKeyboardState;
-@protocol TIClientProxy, TIKeyboardInputManagerLogging;
+@class TIKeyboardState;
 
 __attribute__((visibility("hidden")))
 @interface TIStreamingCandidateHandler
 {
     unsigned long long _status;
-    _Bool _didCallHandler;
-    TIKeyboardInputManagerBase *_inputManager;
-    TICandidateRequestToken *_requestToken;
-    id <TIClientProxy> _clientProxy;
-    CDUnknownBlockType _candidateHandler;
-    CDUnknownBlockType _candidateResultSetHandler;
-    TIKeyboardState *_keyboardState;
-    id <TIKeyboardInputManagerLogging> _logger;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)resetCannedResponses;
+- (id)tions;
+- (id)callDidConnect:(id)arg1;
+- (id)additionalInfoForPrefenceUpdate;
+- (id)or:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)on;
+- (CDUnknownBlockType)use RTTController was inited;
 - (void);
 - (_Bool);
-- (id);
+- (id)NUStyleTransferProcessor processWithInputs:arguments:output:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id):copyItems: /* Error: Ran out of types for this method. */;
-- (void)ompletionHandler;
+- (void)ccessibilityEvents.framework/Versions/A/AccessibilityEvents;
+- (id)initWithArray:copyItems: /* Error: Ran out of types for this method. */;
+- (void)geocodeCompletionHandler;
 - (id)candidate;
 - (void)û	;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous;
-@property(readonly, copy, nonatomic) CDUnknownBlockType candidateHandler; // @synthesize candidateHandler=_candidateHandler;
-@property(readonly, copy, nonatomic) CDUnknownBlockType candidateResultSetHandler; // @synthesize candidateResultSetHandler=_candidateResultSetHandler;
-@property(readonly, nonatomic) id <TIClientProxy> clientProxy; // @synthesize clientProxy=_clientProxy;
 @property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(nonatomic) __weak id <TIKeyboardInputManagerLogging> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) TICandidateRequestToken *requestToken; // @synthesize requestToken=_requestToken;
 
 @end
 

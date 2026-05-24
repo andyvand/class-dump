@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMNetworkCellularDeclaration_AttachAPN, NSArray, NSString;
+@class CEMNetworkCellularDeclaration_AttachAPN;
 
 @interface CEMNetworkCellularDeclaration : CEMConfigurationBase
 {
     CEMNetworkCellularDeclaration_AttachAPN *_payloadAttachAPN;
-    NSArray *_payloadAPNs;
 }
 
 + (id);
@@ -30,20 +29,12 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)MacinTalkVoiceAssets;
 - (id);
-- (void);
+- (void)RC4-MD5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadAPNs; // @synthesize payloadAPNs=_payloadAPNs;
 @property(copy, nonatomic) CEMNetworkCellularDeclaration_AttachAPN *payloadAttachAPN; // @synthesize payloadAttachAPN=_payloadAttachAPN;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
+- (_Bool)o device %@ message guid %@;
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)y;
+- (id)R|z;
 - (id);
 - (id);
 - (long long);

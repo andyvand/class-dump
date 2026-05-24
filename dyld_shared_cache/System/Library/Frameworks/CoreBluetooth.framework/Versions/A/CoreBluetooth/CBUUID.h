@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CBUUID
 {
     unsigned char _bytes[16];
-    BOOL _type;
 }
 
 + (id);
@@ -19,17 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)RegistrationRetryBaseTimeSeconds;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)`;
+- (id)shouldSendSampleWithRate:(id)arg1;
+- (id)A;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUIDString;
 @property(readonly, nonatomic) NSData *data;
 
 @end

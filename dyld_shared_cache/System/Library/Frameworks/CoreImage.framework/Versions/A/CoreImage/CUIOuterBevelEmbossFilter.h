@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIOuterBevelEmbossFilter : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSize;
-    NSNumber *inputSoften;
-    NSNumber *inputAngle;
-    CIColor *inputHighlightColor;
-    CIColor *inputShadowColor;
 }
 
 + (id);
@@ -37,12 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)Pc[pzwuz    kxtk}{ctoxrrmrxxsx¤¤¤¤««««££££}}}}vvvvZc^i<QE^XkgoUpnLVIdXUIX[[[[``^`N^VbRbZennnnw}|}YoiYlfz{{z{||{|{yw{zywzbtqyyyyywwwwfzx~¥¥¥¥£¢££]}xisk|PjdvSbZmyyyy~~~~ssss\d\lwwtws{wyn_|z~w~~~vvvvtrot~k|wo{§£§§·¼½½¾¿ÀÀ¦©®µ¢¥±¶¶¶¶°°°°r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIColor *inputHighlightColor; // @synthesize inputHighlightColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIColor *inputShadowColor; // @synthesize inputShadowColor;
-@property(retain, nonatomic) NSNumber *inputSize; // @synthesize inputSize;
-@property(retain, nonatomic) NSNumber *inputSoften; // @synthesize inputSoften;
 
 @end
 

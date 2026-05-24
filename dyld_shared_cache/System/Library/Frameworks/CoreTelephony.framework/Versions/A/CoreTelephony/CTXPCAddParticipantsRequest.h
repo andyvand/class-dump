@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliGroupChatParticipantList, CTLazuliGroupChatUri, CTLazuliOperationID;
+@class CTLazuliGroupChatUri;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCAddParticipantsRequest : CTXPCSubscriptionContextRequest
@@ -20,13 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):[ /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
-@property(readonly, nonatomic) CTLazuliOperationID *operationID;
-@property(readonly, nonatomic) CTLazuliGroupChatParticipantList *participants;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface EMTTranslator
 {
     struct shared_ptr<quasar::TranslatorFactory> _translatorFactory;
-    shared_ptr_712e6641 _translator;
-    NSLocale *_sourceLocale;
-    NSLocale *_targetLocale;
-    struct vector<quasar::SystemConfig, std::allocator<quasar::SystemConfig>> _configs;
-    _Bool _skipNonFinalToCatchup;
-    NSOperationQueue *_translationRequestsQueue;
-    NSObject<OS_dispatch_queue> *_translationQueue;
-    _Bool _useGlobalTranslationQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (void)¯;
@@ -38,7 +29,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (id);
@@ -46,11 +37,12 @@
 - (id);
 - (id);
 - (void);
-- (vector_64acebbd);
+- (vector_64acebbd)%@", %@);;
 - (void);
-- (shared_ptr_712e6641);
+- (shared_ptr_97c082d8);
 - (id);
-- (void);
+- (void)@9*ij8
+;
 - (id);
 - (id);
 - (id)Ô?;

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteView, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSFakeServiceResponder
 {
     SEL _action;
-    unsigned int _rtsInProgress;
-    NSRemoteView *_remoteView;
-    CDStruct_d0f1eb59 _validateMenuItem;
-    CDStruct_d0f1eb59 _validateUserInterfaceItem;
-    NSString *_targetIdentifier;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 - (struct os_unfair_lock_s *);
 - (_Bool);
-- (id);
+- (id)G;
 - (void);
 - (void);
-- (void);
+- (void)@v;
 - (oneway void);
 - (id);
-- (_Bool);
+- (_Bool)pGIeghg_;
 - (void);
-- (id);
+- (id);
 - (_Bool)escription];
 - (_Bool)bogus viewFrameInScreenCoords length %u;
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKeyCommand, UIMenuElement, UIResponder;
+@class UIMenuElement, UIResponder;
 @protocol _UIMenuLeaf;
 
 __attribute__((visibility("hidden")))
@@ -14,16 +14,14 @@ __attribute__((visibility("hidden")))
     UIResponder *_originatingResponder;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)numberFromString: /* Error: Ran out of types for this method. */;
+- (id)initWithChatStatus:chat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
+- (id)indexNextMessageBatchIfNeeded:reason:completion: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:(id)arg1 conversation:(id)arg2 participant:addedCollaborationNotice: /* Error: Ran out of types for this method. */;
 - (void)ÿdX¬<\;
 
 // Remaining properties
-@property(readonly, nonatomic) UIKeyCommand *keyCommand;
 @property(readonly, nonatomic) UIMenuElement<_UIMenuLeaf> *keyboardShortcutLeaf; // @synthesize keyboardShortcutLeaf=_keyboardShortcutLeaf;
-@property(readonly, nonatomic) __weak UIResponder *originatingResponder; // @synthesize originatingResponder=_originatingResponder;
 
 @end
 

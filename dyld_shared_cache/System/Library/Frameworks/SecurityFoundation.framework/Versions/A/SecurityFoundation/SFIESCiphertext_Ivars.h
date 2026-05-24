@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFECPublicKey;
+@class _SFECPublicKey;
 
 __attribute__((visibility("hidden")))
 @interface SFIESCiphertext_Ivars
 {
     _SFECPublicKey *ephemeralSenderPublicKey;
-    NSData *authenticationCode;
 }
 
 - (void);

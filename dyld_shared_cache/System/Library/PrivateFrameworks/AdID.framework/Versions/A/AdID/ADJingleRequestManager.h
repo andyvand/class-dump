@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface ADJingleRequestManager
 {
     _Bool _jingleRequestInProgress;
-    NSMutableDictionary *_pendingJingleRequests;
 }
 
 + (id);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property _Bool jingleRequestInProgress; // @synthesize jingleRequestInProgress=_jingleRequestInProgress;
-@property(retain, nonatomic) NSMutableDictionary *pendingJingleRequests; // @synthesize pendingJingleRequests=_pendingJingleRequests;
 
 @end
 

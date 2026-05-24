@@ -9,8 +9,8 @@
     CDUnknownBlockType _sendEventHandler;
 }
 
-- (id);
-- (id);
+- (id)c;
+- (id);
 - (void);
 - (void)°;
 

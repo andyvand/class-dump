@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VBXPCConnection
 {
     VBXPCConnectionTransport *_transport;
-    double _replyPatience;
 }
 
 - (double);

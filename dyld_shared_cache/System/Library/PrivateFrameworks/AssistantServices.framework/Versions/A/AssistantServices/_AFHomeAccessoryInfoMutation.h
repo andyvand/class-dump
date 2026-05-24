@@ -4,42 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAccessoryInfo, NSString, NSUUID;
+@class AFHomeAccessoryInfo;
 
 @interface _AFHomeAccessoryInfoMutation
 {
     AFHomeAccessoryInfo *_base;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_loggingUniqueIdentifier;
-    NSString *_name;
-    NSString *_model;
-    NSString *_roomName;
-    NSString *_assistantIdentifier;
-    _Bool _isSpeaker;
-    _Bool _hasActiveThirdPartyMusicSubscription;
-    NSString *_manufacturer;
-    NSString *_categoryType;
-    long long _schemaCategoryType;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasUniqueIdentifier:1;
-        unsigned int hasLoggingUniqueIdentifier:1;
-        unsigned int hasName:1;
-        unsigned int hasModel:1;
-        unsigned int hasRoomName:1;
-        unsigned int hasAssistantIdentifier:1;
-        unsigned int hasIsSpeaker:1;
-        unsigned int hasHasActiveThirdPartyMusicSubscription:1;
-        unsigned int hasManufacturer:1;
-        unsigned int hasCategoryType:1;
-        unsigned int hasSchemaCategoryType:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9);
 - (id);
 - (long long);
 - (id);
@@ -49,27 +24,21 @@
 - (id);
 - (id);
 - (void);
+- (void)Error %@ identifier:(id)arg1 %@;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)s:(id)arg1 reply: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)t;
+- (id)startAudioPlaybackRequest:(id)arg1 options:reply: /* Error: Ran out of types for this method. */;
+- (void)_lostObserver;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

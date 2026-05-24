@@ -9,8 +9,6 @@
 @interface MPSNNReshape : MPSCNNKernel
 {
     unsigned long long _reshapedWidth;
-    unsigned long long _reshapedHeight;
-    unsigned long long _reshapedFeatureChannels;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol FCPurchaseProviderType
+- (NSSet *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *purchasedTagIDs;

@@ -9,7 +9,7 @@
     id localizerFactory;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

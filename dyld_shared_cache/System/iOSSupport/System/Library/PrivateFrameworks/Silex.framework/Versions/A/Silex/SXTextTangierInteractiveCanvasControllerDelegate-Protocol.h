@@ -5,5 +5,8 @@
 //
 
 @protocol SXTextTangierInteractiveCanvasControllerDelegate
+
+@optional
+- (void);
 @end
 

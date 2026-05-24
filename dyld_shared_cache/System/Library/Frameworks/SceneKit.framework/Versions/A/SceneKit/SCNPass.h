@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNTechnique;
-
 @interface SCNPass
 {
     struct __C3DFXPass *_fxPass;
-    SCNTechnique *_technique;
 }
 
 - (id);
@@ -18,12 +15,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)P;
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType executionHandler;
 @property(copy, nonatomic) CDUnknownBlockType initializationHandler;
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsArticles.ArticleNavigationBarPaletteContent
 {
     id opaqueBar;
-    id horizontalScrollOffset;
-    id bottomPaletteButtonLocation;
-    id parallaxX;
-    id isPinned;
-    id contentSafeAreaFrame;
 }
 
 + (double);

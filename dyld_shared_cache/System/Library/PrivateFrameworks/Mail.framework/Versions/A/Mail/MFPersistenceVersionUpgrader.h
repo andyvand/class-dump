@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCActivityAggregate, MCActivityMonitor, NSString;
+@class MCActivityMonitor;
 @protocol MFPersistenceVersionUpgraderDelegate;
 
 @interface MFPersistenceVersionUpgrader
 {
     id <MFPersistenceVersionUpgraderDelegate> _delegate;
-    MCActivityMonitor *_monitor;
-    MCActivityAggregate *_activity;
 }
 
 + (_Bool);
@@ -24,9 +22,9 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)_enteredDataInteraction:(id)arg1 client:global:operation: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)¨;
@@ -34,21 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MCActivityAggregate *activity; // @synthesize activity=_activity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFPersistenceVersionUpgraderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MCActivityMonitor *monitor; // @synthesize monitor=_monitor;
-@property(readonly) _Bool requiresVersionMigration;
-@property(readonly) Class superclass;
 
 @end
 

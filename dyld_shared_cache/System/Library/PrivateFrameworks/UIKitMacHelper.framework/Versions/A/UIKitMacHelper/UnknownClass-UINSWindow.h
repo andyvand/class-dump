@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol UINSWindow;
 
 @interface UnknownClass (UINSWindow)
 - (void);
 - (void);
+- (void)rB;
 - (void);
-- (void);
-- (void);
+- (void)K;
 - (void);
 - (_Bool);
 - (id);
@@ -24,12 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool UINS_didDetermineWindowType;
-@property(nonatomic) _Bool UINS_isTrackedByInternalScene;
-@property(copy, nonatomic) NSString *UINS_systemSceneIdentifier;
-@property(copy, nonatomic) NSString *UINS_systemScenePersistentIdentifier;
-@property(nonatomic) _Bool UINS_wasRestorable;
 @property(retain) id <UINSWindow> UINS_windowProxyForContentView;
-@property(nonatomic) _Bool UINS_windowTypeIsSceneHosting;
 @end
 

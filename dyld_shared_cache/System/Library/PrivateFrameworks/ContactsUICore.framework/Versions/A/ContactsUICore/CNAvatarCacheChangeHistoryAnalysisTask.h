@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryFetchRequest, CNContactStore, CNResult, NSArray, NSData;
+@class CNContactStore;
 
 @interface CNAvatarCacheChangeHistoryAnalysisTask
 {
     CNContactStore *_store;
-    NSData *_startingToken;
-    CNChangeHistoryFetchRequest *_request;
-    CNResult *_enumerator;
-    NSData *_finalToken;
-    NSArray *_identifiers;
 }
 
 - (void);
@@ -24,21 +19,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)setUserInfo: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNResult *enumerator; // @synthesize enumerator=_enumerator;
-@property(retain, nonatomic) NSData *finalToken; // @synthesize finalToken=_finalToken;
-@property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) CNChangeHistoryFetchRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) NSData *startingToken; // @synthesize startingToken=_startingToken;
 @property(readonly, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end

@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, RTLocationManager, RTSignalGeneratorOptions;
+@class NSMutableArray, RTSignalGeneratorOptions;
 
 @interface RTSignalGenerator
 {
     RTSignalGeneratorOptions *_signalGeneratorOptions;
-    RTLocationManager *_locationManager;
-    unsigned long long _totalVisitLocationsGeneratedCount;
-    unsigned long long _totalTransitionLocationsGeneratedCount;
-    NSMutableArray *_generatedLocations;
 }
 
 + (double);
 + (id);
-+ (double);
-+ (double);
-+ (void);
-+ (struct CLLocationCoordinate2D);
-+ (id);
-+ (id);
-+ (struct CLLocationCoordinate2D);
-+ (double);
-+ (double);
-+ (double);
++ (double)0@0:8B16 /* Error: Ran out of types for this method. */;
++ (double)createDirectoryAtPath:(struct CLLocationCoordinate2D)arg1 withIntermediateDirectories:(struct CLLocationCoordinate2D)arg2 attributes:error: /* Error: Ran out of types for this method. */;
++ (void)userDBBackupRecordIDsWithReply:(id)arg1;
++ (struct CLLocationCoordinate2D)fallbackRecordAttemptsRemaining;
++ (id)tore service %@ to local keychain:(double)arg1 %@;
++ (id)stored identity %@ with pref %@ to current;
++ (struct CLLocationCoordinate2D)d %u of service %d
+;
++ (double)ZONE SHARE PROTECTION;
++ (double)IDServicesEngram;
++ (double)BluetoothCloudPairing;
 + (double);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -39,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Options;
 - (id);
 - (void)@;
 

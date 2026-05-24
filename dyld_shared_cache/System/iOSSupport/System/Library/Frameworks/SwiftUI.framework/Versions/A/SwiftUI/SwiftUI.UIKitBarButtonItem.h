@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SwiftUI.UIKitBarButtonItem
 {
     id item;
-    id listView;
-    id edge;
-    id host;
-    id menuDelegate;
-    id platformItem;
-    id hasOwnMenuSection;
-    id tintTracker;
-    id cachedMenuRepresentation;
-    id cachedMenuChildren;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
++ (_Bool);
+- (id)(=;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)0:8@16q24Q32@40^Q48 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)itive}s};
+- (id)(=;
 - (unsigned long long);
 - (void);
 - (void)¤µóÿ"óÿJ¸óÿ@óÿ;
@@ -39,12 +30,7 @@
 - (id)Ñü	;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

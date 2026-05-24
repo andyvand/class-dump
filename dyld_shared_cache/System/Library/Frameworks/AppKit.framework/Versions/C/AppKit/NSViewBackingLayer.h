@@ -8,27 +8,26 @@ __attribute__((visibility("hidden")))
 @interface NSViewBackingLayer
 {
     unsigned int _isPresentationLayer:1;
-    unsigned int _isDisplaying:1;
 }
 
 + (id);
+- (void)yMmSdMRKEHRTCQ72ltCH1w;
 - (void);
+- (void)accept__isWaitingForConnection_withoutError;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_kCFNTimingDataConnectionStartTimeCounts;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)lineColumnDataCell:forDisplayAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)Event:(_Bool)arg1;
-- (void)aw;
+- (void)updateOutlineColumnDataCell:forDisplayAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)performWindowDragWithEvent:(_Bool)arg1;
+- (void)_previousDraw;
 - (void)X8;
 - (void)var (bug!):(double)arg1 %p>;
 - (void)p; representedObject=%@; attributedTitle=%@ attributedSecondaryTitle=%@; toolTip=%@; image:(struct CGRect)arg1 %@>;
-- (void)eference;
+- (void)_ObjectReference;
 
 @end
 

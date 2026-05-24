@@ -9,23 +9,19 @@
 @interface EMTAlternative
 {
     EMTAlternativeDescription *_alternativeDescription;
-    unsigned long long _translationPhraseIndex;
-    unsigned long long _selectionSpanIndex;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)(;
+- (_Bool);
 - (id);
 - (void)O;
 
 // Remaining properties
 @property(readonly, nonatomic) EMTAlternativeDescription *alternativeDescription; // @synthesize alternativeDescription=_alternativeDescription;
-@property(readonly, nonatomic) unsigned long long selectionSpanIndex; // @synthesize selectionSpanIndex=_selectionSpanIndex;
-@property(readonly, nonatomic) unsigned long long translationPhraseIndex; // @synthesize translationPhraseIndex=_translationPhraseIndex;
 
 @end
 

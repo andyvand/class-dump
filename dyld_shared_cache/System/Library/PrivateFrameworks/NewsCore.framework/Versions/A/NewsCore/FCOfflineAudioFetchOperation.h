@@ -6,27 +6,61 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCThreadSafeMutableArray, NSObject, NSString;
-@protocol FCContentContext, OS_dispatch_queue;
-
 @interface FCOfflineAudioFetchOperation : FCOperation
 {
     _Bool cachedOnly;
-    CDUnknownBlockType archiveHandler;
-    NSObject<OS_dispatch_queue> *archiveQueue;
-    CDUnknownBlockType fetchCompletionHandler;
-    NSObject<OS_dispatch_queue> *fetchCompletionQueue;
-    CDUnknownBlockType progressHandler;
-    NSObject<OS_dispatch_queue> *progressQueue;
-    id <FCContentContext> _context;
-    NSString *_articleID;
-    FCThreadSafeMutableArray *_resultInterestTokens;
 }
 
-- (id);
+- (id)@;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)0, ivec3(1, 0, 1));
+vec4 t011 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 1, 1));
+vec4 t111 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 1, 1));
+vec3 a = fract(pos);
+vec4 t00 = mix(t000, t001, a.z);
+vec4 t10 = mix(t100, t101, a.z);
+vec4 t01 = mix(t010, t011, a.z);
+vec4 t11 = mix(t110, t111, a.z);
+vec4 t0 = mix(t00, t01, a.y);
+vec4 t1 = mix(t10, t11, a.y);
+return mix(t0, t1, a.x);
+}
+vec4 tileSample(sampler2DRect tex, vec2 pos, vec2 zInv, vec4 validRect)
+{
+return linearSample2DRect(tex, pos, zInv, validRect);
+}
+vec4 colorMatch(vec4 color, sampler3D lut)
+{
+vec4 outColor = linearSample3D(lut, color.bgr);
+return outColor;
+}
+uniform sampler2DRect fgTexture;
+uniform vec2 fgScaleInv;
+uniform sampler3D fgColorLUT;
+uniform vec4 fgDebugColor;
+uniform vec4 fgTextureValidRect;
+uniform sampler2DRect bgTexture;
+uniform vec2 bgScaleInv;
+uniform sampler3D bgColorLUT;
+uniform vec4 bgDebugColor;
+uniform vec4 bgTextureValidRect;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 fgTexCoord;
+noperspective centroid varying vec2 bgTexCoord;
+uniform float fgRatio;
+void main()
+{
+vec4 fgTexColor = linearSample2DRect(fgTexture, fgTexCoord, fgScaleInv, fgTextureValidRect);
+vec4 bgTexColor = linearSample2DRect(bgTexture, bgTexCoord, bgScaleInv, bgTextureValidRect);
+vec4 fgColor = colorMatch(fgTexColor, fgColorLUT);
+vec4 bgColor = colorMatch(bgTexColor, bgColorLUT);
+vec4 fgOutColor = fgColor + fgDebugColor;
+vec4 bgOutColor = bgColor + bgDebugColor;
+vec4 outColor = mix(fgOutColor, bgOutColor, fgRatio);
+gl_FragColor = outColor * channelMask;
+}
+;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -38,19 +72,13 @@
 - (void)ches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNewsVersionAccessChecker.m;
 - (void)l orderTopicsWithClusteredHeadlines:additionalHeadlines:subscribedTagIDs:scoresByArticleID:personalizer:tagNameProvider:personalizationTreatment:translationProvider:] /* Error: Ran out of types for this method. */;
 - (void):(id)arg1 readingHistory:cursor:] /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool)modifiedAt;
+- (CDUnknownBlockType)6T_;
 - (_Bool)(Aýÿì;
 - (void)éÿiá;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *archiveQueue; // @synthesize archiveQueue;
 @property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchCompletionQueue; // @synthesize fetchCompletionQueue;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressQueue; // @synthesize progressQueue;
 
 @end
 

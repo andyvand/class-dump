@@ -5,5 +5,8 @@
 //
 
 @protocol NUArticleHostViewControllerDelegate
+
+@optional
+- (void);
 @end
 

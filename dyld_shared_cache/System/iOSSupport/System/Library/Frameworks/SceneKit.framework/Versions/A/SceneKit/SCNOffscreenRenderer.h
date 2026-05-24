@@ -11,16 +11,15 @@
 @interface SCNOffscreenRenderer : SCNRenderer
 {
     id <_SCNSceneRendererDelegate><_SCNSceneRendererDelegateSPI> _sceneRendererDelegate;
-    CDStruct_8da4f401 _sceneRendererDelegateDelegationConformance;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(=;
 - (void);
 - (void);
 - (id);
@@ -31,13 +30,11 @@
 - (void);
 - (void);
 - (unsigned int);
-- (struct CGSize);
-- (void);
+- (struct CGSize)markedTextStyle;
+- (void)_delayedModelBaseScaleFactorCalculation;
 - (id)¢´g?î;
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(nonatomic) struct CGSize size;
 @property(readonly, nonatomic) unsigned int textureID;
 
 @end

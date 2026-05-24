@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISpringTimingParameters, _UIViewCubicTimingFunction;
+@class _UIViewCubicTimingFunction;
 
 @interface UICubicTimingParameters
 {
     long long _timingCurveType;
-    _UIViewCubicTimingFunction *_timingFunction;
-    long long _animationCurve;
-    UISpringTimingParameters *_springTimingParameters;
 }
 
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)setPayloadAllowEnablingRestrictions: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)payloadConfigurationIdentifier;
 - (id);
 - (id);
 - (id);
 - (id)× ;
-- (_Bool)extLayoutFragmentsFromLocation:(id)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
-- (void)ariantsOfCurrencyKey:(id)arg1 language: /* Error: Ran out of types for this method. */;
-- (void)tearOffActivity;
+- (_Bool)enumerateTextLayoutFragmentsFromLocation:(id)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_variantsOfCurrencyKey:(id)arg1 language: /* Error: Ran out of types for this method. */;
+- (void)_tearOffActivity;
 - (id)ateDuringDecoding:,V__useCurrentDateDuringDecoding /* Error: Ran out of types for this method. */;
-- (id)ttachment;
-- (id)ataIntegerEntry;
+- (id)_UILabelViewTextAttachment;
+- (id)_UIStatusBarDataIntegerEntry;
 - (id)H;
 - (id)«;
-- (id)ished;
-- (long long)deBackgroundColor;
-- (id)esults;
+- (id)isFinished;
+- (long long)UIKBMicOnDarkModeBackgroundColor;
+- (id)Results;
 - (id);
-- (long long)ec;
+- (long long)_UIDurationBounceAnimationSpec;
 - (void)`Õh;
 
 // Remaining properties
-@property(readonly, nonatomic) long long animationCurve; // @synthesize animationCurve=_animationCurve;
-@property(readonly, nonatomic) struct CGPoint controlPoint1;
-@property(readonly, nonatomic) struct CGPoint controlPoint2;
-@property(readonly, nonatomic) UICubicTimingParameters *cubicTimingParameters;
-@property(retain, nonatomic) UISpringTimingParameters *springTimingParameters; // @synthesize springTimingParameters=_springTimingParameters;
-@property(readonly, nonatomic) long long timingCurveType; // @synthesize timingCurveType=_timingCurveType;
 @property(readonly, nonatomic) _UIViewCubicTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface SPSamplingTasking
 {
     NSUUID *uuid;
-    NSString *name;
-    NSDate *expiration;
-    NSNumber *samplingRate;
-    NSData *publicKey;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -33,10 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *expiration; // @synthesize expiration;
-@property(retain, nonatomic) NSString *name; // @synthesize name;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey;
-@property(retain, nonatomic) NSNumber *samplingRate; // @synthesize samplingRate;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid;
 
 @end

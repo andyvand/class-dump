@@ -7,8 +7,9 @@
 @class UIDragEvent;
 
 @protocol _UIDragEventRespondable
-- (void)yActionPreviewingSegueTemplateStorage:(UIDragEvent *)arg1;
-- (void)utomaticArrowDirectionsFromAvailableSpace;
-- (void)iveRules;
+- (void)ID AND flavor = @flavor;
+- (void)setAccessoryActionPreviewingSegueTemplateStorage:(UIDragEvent *)arg1;
+- (void)derivesAutomaticArrowDirectionsFromAvailableSpace;
+- (void)definitiveRules;
 @end
 

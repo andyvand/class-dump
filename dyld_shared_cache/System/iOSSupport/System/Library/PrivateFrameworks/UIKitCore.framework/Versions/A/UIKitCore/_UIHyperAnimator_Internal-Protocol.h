@@ -7,6 +7,8 @@
 @class _UIHyperInteractor;
 
 @protocol _UIHyperAnimator_Internal
+- (void);
+- (unsigned long long);
 - (void)@ù
 × ;
 - (_UIHyperInteractor *)Ù33Hþ;

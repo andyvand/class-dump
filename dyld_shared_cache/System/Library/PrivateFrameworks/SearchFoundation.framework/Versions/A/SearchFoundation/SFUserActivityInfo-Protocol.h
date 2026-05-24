@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
-
 @protocol SFUserActivityInfo
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *stringValue;
-@property(copy, nonatomic) NSURL *urlValue;
 @property(nonatomic) int valueType;
 @end
 

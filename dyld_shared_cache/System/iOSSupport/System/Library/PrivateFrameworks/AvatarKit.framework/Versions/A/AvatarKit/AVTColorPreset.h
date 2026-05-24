@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMaterial, AVTVaryingColor, NSDictionary, NSString, UIImage;
+@class NSString;
 
 @interface AVTColorPreset
 {
     NSString *_name;
-    long long _category;
-    NSDictionary *_propertyColors;
-    NSDictionary *_derivedColors;
-    AVTVaryingColor *_previewColor;
-    AVTVaryingColor *_previewAccentColor;
-    unsigned long long _previewAccentType;
-    float _variation;
-    AVTMaterial *_material;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)3;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
++ (id)essages_searchable_message_deleted_index;;
++ (id)d_message_index;
+- (_Bool)C;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Rb;
 - (id);
 - (id);
 - (id);
@@ -42,23 +33,19 @@
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)SData",&,V_routingToken;
 - (id);
-- (id);
+- (id)utionChecker:est, %u. A PassThrough solution has not yet been received to check against. Marking the RavenSolution as unhealthy. Exiting with check passed return value. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)shouldAcceptConnection:serviceName:whitelistedServerInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) long long category;
-@property(readonly) NSString *localizedName;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) UIImage *thumbnail;
-@property(readonly) float variation;
 
 @end
 

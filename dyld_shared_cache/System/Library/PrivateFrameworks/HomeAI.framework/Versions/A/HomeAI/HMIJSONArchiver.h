@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMIJSONArchiver
 {
     id _container;
-    long long _options;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id))A;
+- (_Bool)3;
+- (void)?%@q;
 - (void);
 - (id);
 - (void);
@@ -31,14 +28,12 @@
 - (_Bool);
 - (void);
 - (void)4;
-- (void)Created;
+- (void)dateCreated;
 - (void);
 - (void);
 - (void)ôÿàc ¥©;
 
 // Remaining properties
-@property(readonly) NSString *objectJSON;
-@property(readonly) NSString *objectPrettyJSON;
 @property long long options; // @synthesize options=_options;
 
 @end

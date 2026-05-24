@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)@0:8@16@24@32^v40 /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);
@@ -25,11 +25,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}24;
+- (id)dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}24;
+- (id)_TtC12PhotosUICore39LemonadeAssetsRecoveryNotificationModel;
+- (id)_TtC12PhotosUICore31LemonadeMockBookmarksDataSource;
+- (id)_TtCV12PhotosUICore27TTRWorkflowSheetHostingView9ViewModel;
 - (id);
 - (id);
 - (id);
@@ -41,11 +41,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)N;
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)`;
 - (_Bool);
 - (long long);
 - (id);
@@ -56,7 +56,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (_Bool);
 - (id);
@@ -66,7 +66,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)finishWaitingForPlugin;
 - (void);
 - (void);
 - (id);

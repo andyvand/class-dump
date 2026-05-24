@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAlignmentInfo, EDProtection, EDString;
+@class EDString;
 
 __attribute__((visibility("hidden")))
 @interface EDTextBox
 {
     EDString *mText;
-    EDAlignmentInfo *mAlignmentInfo;
-    EDProtection *mProtection;
 }
 
-+ (id);
++ (id);
+- (void);
+- (id)B;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)cannot be NULL;
+- (void)supportsDeviceCoherency;
 - (void)´;
 
 @end

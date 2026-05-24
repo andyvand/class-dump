@@ -9,47 +9,39 @@
 @interface GEOLogMsgEventStateTiming
 {
     PBUnknownFields *_unknownFields;
-    double _durationInOldState;
-    NSMutableArray *_stateTransitionFeedbacks;
-    struct {
-        unsigned int has_durationInOldState:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)thPointIndex:(id)arg1;
++ (Class)@16:24 /* Error: Ran out of types for this method. */;
++ (_Bool)setHasStepEndPathPointIndex:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)ntilSignalObserverDelegate>";
+- (void)resourceLock;
+- (void)clientBundleIdentifierCachedValue;
+- (id)CNDescriptionBuilder;
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)ioSourceDescriptorsWithOption:(id)arg1;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id)cleArguments:(struct _NSZone *)arg1;
-- (id)ichmentQueryParameters;
+- (id)setVehicleArguments:(struct _NSZone *)arg1;
+- (id)hasPoiEnrichmentQueryParameters;
 - (id)sertion failed:class != nil /* Error: Ran out of types for this method. */;
 - (id);
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) double durationInOldState;
-@property(nonatomic) _Bool hasDurationInOldState;
 @property(retain, nonatomic) NSMutableArray *stateTransitionFeedbacks;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

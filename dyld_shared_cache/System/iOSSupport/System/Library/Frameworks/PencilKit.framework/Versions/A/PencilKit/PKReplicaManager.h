@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKReplicaManager
 {
     NSObject<OS_dispatch_queue> *_uuidAccessQueue;
-    NSMutableOrderedSet *_replicaUUIDs;
-    NSMutableDictionary *_replicaEntries;
-    NSMutableArray *_replicaManagerErrors;
-    CDUnknownBlockType _saveStateBlock;
-    _Bool _dirtyTokenSet;
-    _Bool _shouldPersist;
-    _Bool _testMode;
 }
 
 + (id);
@@ -26,20 +19,19 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)kA;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)achedRendering:(_Bool)arg1 activeInputProperties:inputType: /* Error: Ran out of types for this method. */;
+- (void)_drawingBegan:(_Bool)arg1 inputPoint:locationInView:forPreview:disableDetachedRendering:activeInputProperties:inputType: /* Error: Ran out of types for this method. */;
 - (void)HandwritingPrefixQueryItem;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *replicaManagerErrors;
 @property(nonatomic) _Bool testMode; // @synthesize testMode=_testMode;
 
 @end

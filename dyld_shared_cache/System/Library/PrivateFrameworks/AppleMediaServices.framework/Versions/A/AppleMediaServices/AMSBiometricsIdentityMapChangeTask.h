@@ -6,20 +6,18 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSURLSession, NSURLSessionTask;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSBiometricsIdentityMapChangeTask : AMSTask
 {
     ACAccount *_account;
-    AMSURLSession *_session;
-    NSURLSessionTask *_task;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)_isReportTimeSensitive:(id)arg1;
+- (id)NO, removing from dicitonary;
 - (id);
 - (id);
 - (void);
@@ -31,8 +29,6 @@ Hxn£tWàj¹Ã@ßdØ&vXs¡×hÚX®Æ|Èo@9F¦w ±øæP¶ºlÿ
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property(retain) NSURLSessionTask *task; // @synthesize task=_task;
 
 @end
 

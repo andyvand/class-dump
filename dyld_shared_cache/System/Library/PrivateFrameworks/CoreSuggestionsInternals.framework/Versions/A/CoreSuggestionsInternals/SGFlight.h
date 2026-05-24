@@ -9,12 +9,9 @@
 @interface SGFlight
 {
     NSString *_flightno;
-    NSString *_airline;
-    NSString *_departureAirportDescription;
-    NSString *_arrivalAirportDescription;
 }
 
-- (id);
+- (id)__TEXT;
 - (id);
 - (id);
 - (id);
@@ -23,9 +20,6 @@
 - (void)üd4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *airline; // @synthesize airline=_airline;
-@property(readonly, nonatomic) NSString *arrivalAirportDescription; // @synthesize arrivalAirportDescription=_arrivalAirportDescription;
-@property(readonly, nonatomic) NSString *departureAirportDescription; // @synthesize departureAirportDescription=_departureAirportDescription;
 @property(readonly, nonatomic) NSString *flightno; // @synthesize flightno=_flightno;
 
 @end

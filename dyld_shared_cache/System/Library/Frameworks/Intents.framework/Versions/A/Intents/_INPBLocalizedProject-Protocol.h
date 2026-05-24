@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBAppNames, _INPBIntentVocabulary, _INPBLanguageTag;
+@class _INPBAppNames, _INPBIntentVocabulary;
 
 @protocol _INPBLocalizedProject
-- (void)imeValue;
+- (_INPBIntentVocabulary *);
+- (void)_payloadDateTimeValue;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppNames *appNames;
-@property(readonly, nonatomic) _Bool hasAppNames;
-@property(readonly, nonatomic) _Bool hasIntentVocabulary;
-@property(readonly, nonatomic) _Bool hasLanguage;
-@property(retain, nonatomic) _INPBIntentVocabulary *intentVocabulary;
-@property(retain, nonatomic) _INPBLanguageTag *language;
 @end
 

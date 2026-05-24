@@ -4,16 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDCanvasEditorHelper, TSDInteractiveCanvasController, TSKSelection, TSPObject;
-@protocol TSDCanvasSelection;
+@class NSObject, TSDInteractiveCanvasController, TSKSelection, TSPObject;
+@protocol TSDCanvasSelection, TSDEditor;
 
 @protocol TSDCanvasEditor
++ (id <TSDCanvasSelection>)Unimplemented;
++ (id <TSDCanvasSelection>);
+- (_Bool)MPCReportingPlaybackObserver.recordEventOperationQueue;
+- (_Bool)ppending contexts.;
+- (void)tem"8Q16^B24;
+- (void)layback queue.;
+- (void)ext';
+- (void)context:(TSKSelection *)arg1 %@;
+- (void)UnplayableObjectInSOD;
+- (TSPObject *)nternalPlayerController - Item duration changed - item: /* Error: Ran out of types for this method. */;
+- (_Bool)STEM EVENT IGNORED    〔;
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void)SKProductSubscriptionPeriod;
 - (void)&) const;
 
+@optional
+- (void)actionAfterQueueLoad;
+- (void)MPCNullPlaybackContextCodingKeyLabel;
+- (NSObject<TSDEditor> *);
+
 // Remaining properties
-@property(readonly, nonatomic) TSDCanvasEditorHelper *canvasEditorHelper;
-@property(readonly, nonatomic) TSKSelection<TSDCanvasSelection> *canvasSelection;
 @property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) TSPObject *modelForSelection;
 @end
 

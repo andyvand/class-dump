@@ -7,10 +7,6 @@
 @interface NewsUI2.OfflineIssuePruner
 {
     id offlineList;
-    id issueService;
-    id storageLevelProvider;
-    id ruleProvider;
-    id pruneDeduper;
 }
 
 @end

@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSArray, NSDictionary, NSString, TKClientToken;
+@class LAContext;
 
 @interface TKClientTokenSession
 {
     _Bool _authenticateWhenNeeded;
-    _Bool __testing_AuthenticateInternally;
-    _Bool __testing_ForceAuthenticationNeeded;
-    LAContext *_LAContext;
-    NSDictionary *_parameters;
-    TKClientToken *_token;
-    NSArray *_keys;
-    NSArray *_certificates;
-    NSArray *_identities;
-    NSString *_slotName;
-    id __testing_AuthContextUsed;
 }
 
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -29,14 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)M;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)FuncResultElem:(id)arg1 ret == NULL
+;
+- (_Bool)countByEnumeratingWithState:(id)arg1 objects:(id *)arg2 count: /* Error: Ran out of types for this method. */;
+- (id)KeyboardInputSeparator;
 - (void);
 - (void);
 - (void);
@@ -50,16 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) LAContext *LAContext; // @synthesize LAContext=_LAContext;
-@property(retain, nonatomic) id _testing_AuthContextUsed; // @synthesize _testing_AuthContextUsed=__testing_AuthContextUsed;
-@property(nonatomic) _Bool _testing_AuthenticateInternally; // @synthesize _testing_AuthenticateInternally=__testing_AuthenticateInternally;
-@property(nonatomic) _Bool _testing_ForceAuthenticationNeeded; // @synthesize _testing_ForceAuthenticationNeeded=__testing_ForceAuthenticationNeeded;
-@property(nonatomic) _Bool authenticateWhenNeeded; // @synthesize authenticateWhenNeeded=_authenticateWhenNeeded;
-@property(readonly, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(readonly, nonatomic) NSArray *identities; // @synthesize identities=_identities;
-@property(readonly, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSString *slotName; // @synthesize slotName=_slotName;
-@property(readonly, nonatomic) TKClientToken *token; // @synthesize token=_token;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNQuickActionButtonDelegate
+- (_Bool)A;
 @end
 

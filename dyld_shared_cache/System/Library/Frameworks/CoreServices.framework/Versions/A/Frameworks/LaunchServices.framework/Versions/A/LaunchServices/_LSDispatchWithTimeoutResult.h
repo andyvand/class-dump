@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface _LSDispatchWithTimeoutResult
 {
     id _result;
-    NSError *_error;
 }
 
 - (id);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) id result; // @synthesize result=_result;
 
 @end

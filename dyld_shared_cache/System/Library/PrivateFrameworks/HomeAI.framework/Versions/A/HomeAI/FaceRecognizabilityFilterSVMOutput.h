@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface FaceRecognizabilityFilterSVMOutput
 {
     long long _classLabel;
-    NSDictionary *_classProbability;
 }
 
 - (id);
@@ -24,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long classLabel; // @synthesize classLabel=_classLabel;
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

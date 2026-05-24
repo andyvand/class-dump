@@ -9,25 +9,13 @@
 @interface UIKit.GlassGroupLayerView__priv_0A8B4DB961B57EBA158E8356A5AC0B1F : UIView
 {
     id views;
-    id delegate;
-    id $__lazy_storage_$_containerRegistry;
-    id smoothnessOverride;
-    id state;
-    id pendingLuma;
-    id addBackdropCaptureGroup;
-    id captureGroupName;
-    id usesForeground;
-    id applySmoothnessViaGaussianRadius;
-    id glassView;
-    id viewTagMapping;
-    id materializeAnimations;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
-- (id)SceneHostingEventDeferringFocusRequestActionToHost;
+- (id)_UISceneHostingEventDeferringFocusRequestActionToHost;
 - (void){þ&Ó8l;
 
 @end

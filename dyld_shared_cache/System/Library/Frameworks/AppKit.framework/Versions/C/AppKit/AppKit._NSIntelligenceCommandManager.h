@@ -7,8 +7,6 @@
 @interface AppKit._NSIntelligenceCommandManager
 {
     id _lastFetchedCommands;
-    id _commandIdentifierToMenuLeafMap;
-    id _commandOptions;
 }
 
 @end

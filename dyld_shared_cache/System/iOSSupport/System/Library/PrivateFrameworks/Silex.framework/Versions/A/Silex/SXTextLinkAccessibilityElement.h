@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SXTextTangierFlowRep;
+@class SXTextTangierFlowRep;
 
 @interface SXTextLinkAccessibilityElement
 {
     SXTextTangierFlowRep *_parentRep;
-    NSURL *_url;
-    NSString *_displayText;
-    struct _NSRange _rangeInParentRep;
 }
 
 - (void);
@@ -29,10 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
 @property(nonatomic) __weak SXTextTangierFlowRep *parentRep; // @synthesize parentRep=_parentRep;
-@property(readonly, nonatomic) struct _NSRange rangeInParentRep; // @synthesize rangeInParentRep=_rangeInParentRep;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

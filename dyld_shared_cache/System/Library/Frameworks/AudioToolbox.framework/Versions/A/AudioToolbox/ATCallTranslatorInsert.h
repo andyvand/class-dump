@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id)qhI;
 - (void);
 - (void);
 - (_Bool);
@@ -25,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType inPlaceProcessBlock;
-@property(readonly, nonatomic) CDUnknownBlockType injectLocalFeedbackOfInputTranslationProcessingBlock;
-@property(readonly, nonatomic) CDUnknownBlockType injectRemoteFeedbackOfOutputTranslationProcessingBlock;
 @property(nonatomic, getter=isInputMuted) _Bool inputMuted;
-@property(readonly, nonatomic) CDUnknownBlockType processBlock;
 
 @end
 

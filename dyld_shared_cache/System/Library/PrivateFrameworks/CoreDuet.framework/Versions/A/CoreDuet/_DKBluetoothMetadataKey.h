@@ -14,9 +14,9 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id)ssoryControl__clientName;
++ (id)_DKMetadataHomeKitAccessoryControl__clientName;
 
 @end
 

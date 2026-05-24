@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, UIPreviewInteraction;
+@class UIPreviewInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionFailureRelationshipGestureRecognizer : UIGestureRecognizer
@@ -18,21 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rror">24;
 - (void)¡Ð!äAùQc1Â0@ù
 × ;
-- (void)k_invoke_3;
+- (void)_UIApplicationSceneDisconnectionHandler_block_invoke_3;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIPreviewInteraction *previewInteraction; // @synthesize previewInteraction=_previewInteraction;
-@property(readonly) Class superclass;
 
 @end
 

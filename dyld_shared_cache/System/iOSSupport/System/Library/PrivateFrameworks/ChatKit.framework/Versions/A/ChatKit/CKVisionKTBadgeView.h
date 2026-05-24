@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, UIImageView;
+@class UIImageView;
 
 @interface CKVisionKTBadgeView
 {
     UIImageView *_badgeImageView;
-    CKConversation *_conversation;
 }
 
-- (id);
+- (id).;
+- (void);
+- (id)P;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void)InvertPluginSnapshots;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
 
 @end
 

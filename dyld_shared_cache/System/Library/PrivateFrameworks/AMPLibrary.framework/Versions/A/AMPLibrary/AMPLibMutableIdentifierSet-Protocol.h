@@ -5,5 +5,6 @@
 //
 
 @protocol AMPLibMutableIdentifierSet
+- (void)ae+;
 @end
 

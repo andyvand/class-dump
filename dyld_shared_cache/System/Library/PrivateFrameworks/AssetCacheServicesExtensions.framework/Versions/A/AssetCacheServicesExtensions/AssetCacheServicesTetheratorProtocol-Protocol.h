@@ -5,5 +5,7 @@
 //
 
 @protocol AssetCacheServicesTetheratorProtocol
+- (void)(g;
+- (void);
 @end
 

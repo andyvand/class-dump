@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDExtensionIdentifier, NSString;
-
 @interface DEDExtension
 {
     _Bool _requiresDataClassBAccessToRun;
-    NSString *_identifier;
-    DEDExtensionIdentifier *_dedExtensionIdentifier;
-    NSString *_name;
-    NSString *_localizedConsentText;
-    NSString *_localizedCustomerConsentText;
-    NSString *_localizedDataCollectedExplanation;
-    NSString *_localizedDataCollectedSummary;
 }
 
++ (id)p;
 + (id);
-+ (id);
-+ (id);
++ (id)ntHandlerForActiveObjectINS1_13TimeMarkEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CKDModifySubscriptionsURLRequest;
 - (id);
 - (id);
 - (id);
@@ -38,26 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)hasUserAuth;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) DEDExtensionIdentifier *dedExtensionIdentifier; // @synthesize dedExtensionIdentifier=_dedExtensionIdentifier;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *localizedConsentText; // @synthesize localizedConsentText=_localizedConsentText;
-@property(retain) NSString *localizedCustomerConsentText; // @synthesize localizedCustomerConsentText=_localizedCustomerConsentText;
-@property(retain) NSString *localizedDataCollectedExplanation; // @synthesize localizedDataCollectedExplanation=_localizedDataCollectedExplanation;
-@property(retain) NSString *localizedDataCollectedSummary; // @synthesize localizedDataCollectedSummary=_localizedDataCollectedSummary;
-@property(retain) NSString *name; // @synthesize name=_name;
 @property(nonatomic) _Bool requiresDataClassBAccessToRun; // @synthesize requiresDataClassBAccessToRun=_requiresDataClassBAccessToRun;
-@property(readonly) Class superclass;
 
 @end
 

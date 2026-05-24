@@ -6,26 +6,24 @@
 
 #import <NearField/NFTrustObject.h>
 
-@class NFECommercePaymentResponse, NFTrustSignResponse;
+@class NFTrustSignResponse;
 
 @interface NFTrustPaymentSignResponse : NFTrustObject
 {
     NFTrustSignResponse *_signResponse;
-    NFECommercePaymentResponse *_paymentResponse;
 }
 
-+ (id);
++ (id);
 + (_Bool);
+- (id)(__unsafe_unretained Class, __strong id);
+- (void)tem"8Q16^B24;
+- (void)IN-[displayView]|;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)0;
+- (void)brary/Managed Preferences;
 
 // Remaining properties
-@property(retain, nonatomic) NFECommercePaymentResponse *paymentResponse; // @synthesize paymentResponse=_paymentResponse;
 @property(retain, nonatomic) NFTrustSignResponse *signResponse; // @synthesize signResponse=_signResponse;
 
 @end

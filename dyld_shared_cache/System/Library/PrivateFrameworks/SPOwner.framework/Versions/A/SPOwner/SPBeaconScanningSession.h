@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue, SPBeaconScanningXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SPBeaconScanningSession
 {
     CDUnknownBlockType _sessionInvalidatedCallback;
-    CDUnknownBlockType _beaconDiscoveredCallback;
-    CDUnknownBlockType _discoveryFinishedCallback;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPBeaconScanningXPCProtocol> _proxy;
 }
 
++ (id)%;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (id);
 - (id);
+- (void)(;
+- (void);
+- (void)4;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)P;
+- (id)�#;
 - (void);
 - (id);
 - (void);
@@ -48,21 +41,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType beaconDiscoveredCallback; // @synthesize beaconDiscoveredCallback=_beaconDiscoveredCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discoveryFinishedCallback; // @synthesize discoveryFinishedCallback=_discoveryFinishedCallback;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPBeaconScanningXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidatedCallback; // @synthesize sessionInvalidatedCallback=_sessionInvalidatedCallback;
-@property(readonly) Class superclass;
 
 @end
 

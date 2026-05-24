@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, PFMetadataMovie;
-@protocol OS_dispatch_queue;
+@class PFMetadataMovie;
 
 @interface PFMetadataStateHandler
 {
     PFMetadataMovie *_metadata;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _stateHandle;
-    NSMutableArray *_breadcrumbs;
 }
 
 - (id);
 - (void);
 - (struct os_state_data_s *);
 - (id);
-- (void);
-- (void);
+- (void)setMinRxRetriesOverRxFrames:(id)arg1;
+- (void)_processRefreshRequestWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)®ê;
 

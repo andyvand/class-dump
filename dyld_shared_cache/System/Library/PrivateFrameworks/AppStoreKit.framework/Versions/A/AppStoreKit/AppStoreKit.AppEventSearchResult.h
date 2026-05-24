@@ -9,10 +9,6 @@
 @interface AppStoreKit.AppEventSearchResult : AppStoreKit.SearchResult
 {
     id lockup;
-    id appEvent;
-    id shouldDisplayAppEvent;
-    id alwaysShowAppEvent;
-    id clickAction;
 }
 
 @end

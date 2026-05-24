@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, PKFileDescriptorXPCContainer;
+@class NSURL;
 
 @interface PKPassesXPCContainer
 {
     struct os_unfair_lock_s _lock;
-    _Bool _invalidated;
-    PKFileDescriptorXPCContainer *_fd;
-    NSDictionary *_passFDs;
-    long long _status;
-    NSURL *_temporaryOutputDirectory;
 }
 
 + (_Bool)X"! Bùqî%ð1Â0@ù
@@ -22,28 +17,20 @@
 - (CDStruct_1dee9796);
 - (id);
 - (void);
-- (void);
+- (void)5?;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool)ownloadRecordForRecordName: /* Error: Ran out of types for this method. */;
+- (void)8 @  a;
+- (void)rxLatencyTID5;
+- (_Bool)removeBackgroundDownloadRecordForRecordName: /* Error: Ran out of types for this method. */;
 - (id)automaticReloadPaymentSummaryItem;
-- (id)aAndSecurityUpdates;
+- (id)automaticallyInstallConfigDataAndSecurityUpdates;
 - (void)entContentItem"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURL *temporaryOutputDirectory; // @synthesize temporaryOutputDirectory=_temporaryOutputDirectory;
 
 @end

@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SOProfile
 {
     NSMutableDictionary *_urlPredicates;
-    NSMutableDictionary *_urlNoWildCards;
-    long long _type;
-    NSArray *_URLPrefix;
-    NSArray *_hosts;
-    NSString *_extensionBundleIdentifier;
-    NSString *_realm;
-    NSArray *_deniedBundleIdentifiers;
-    long long _screenLockedBehavior;
-    long long _pssoAuthenticationMethod;
 }
 
-+ (id);
-+ (_Bool);
++ (id)C;
++ (_Bool)nderlay Material;
 + (id);
 + (id);
 - (void);
 - (id);
+- (long long)$cxM;
 - (long long);
-- (long long);
 - (void);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ize' attribute, with instance index ;
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -50,13 +41,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *URLPrefix; // @synthesize URLPrefix=_URLPrefix;
-@property(retain, nonatomic) NSArray *deniedBundleIdentifiers; // @synthesize deniedBundleIdentifiers=_deniedBundleIdentifiers;
-@property(retain, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(retain, nonatomic) NSArray *hosts; // @synthesize hosts=_hosts;
-@property(nonatomic) long long pssoAuthenticationMethod; // @synthesize pssoAuthenticationMethod=_pssoAuthenticationMethod;
-@property(retain, nonatomic) NSString *realm; // @synthesize realm=_realm;
-@property(nonatomic) long long screenLockedBehavior; // @synthesize screenLockedBehavior=_screenLockedBehavior;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

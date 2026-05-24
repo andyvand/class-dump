@@ -8,19 +8,19 @@
 {
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (CDUnknownBlockType);
-+ (id);
-+ (void);
++ (id)supportsExtendedCalendarQuery;
 + (id);
 + (CDUnknownBlockType);
 + (id);
 + (void);
-+ (id);
++ (id);
++ (CDUnknownBlockType);
++ (id)�;
++ (void);
++ (id);
 + (id);
 + (id);
 + (id);

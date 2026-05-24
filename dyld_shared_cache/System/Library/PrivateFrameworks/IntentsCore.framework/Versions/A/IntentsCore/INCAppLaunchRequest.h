@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUserActivity;
+@class NSString;
 
 @interface INCAppLaunchRequest
 {
     _Bool _retainsSiri;
-    _Bool _supportedInCarPlay;
-    NSString *_bundleIdentifier;
-    NSDictionary *_options;
-    NSURL *_URL;
-    NSUserActivity *_userActivity;
 }
 
 + (id);
@@ -26,30 +21,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) _Bool retainsSiri; // @synthesize retainsSiri=_retainsSiri;
-@property(readonly, nonatomic, getter=isSupportedInCarPlay) _Bool supportedInCarPlay; // @synthesize supportedInCarPlay=_supportedInCarPlay;
-@property(readonly, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
 
 @end
 

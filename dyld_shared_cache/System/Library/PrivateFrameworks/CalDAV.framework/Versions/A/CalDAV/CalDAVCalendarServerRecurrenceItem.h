@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerChangesItem, CoreDAVItemWithNoChildren, CoreDAVLeafItem;
+@class CoreDAVItemWithNoChildren;
 
 @interface CalDAVCalendarServerRecurrenceItem
 {
     CoreDAVItemWithNoChildren *_master;
-    CoreDAVLeafItem *_recurrenceID;
-    CalDAVCalendarServerChangesItem *_changes;
 }
 
 - (void);
@@ -19,16 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)userSpecifiedCustomTracePlanArguments;
+- (id)charge_duration_p_1_00_at_charge_start_secs_curr_dynamic_bin_8;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVCalendarServerChangesItem *changes; // @synthesize changes=_changes;
-@property(readonly, nonatomic) _Bool isMaster;
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *master; // @synthesize master=_master;
-@property(retain, nonatomic) CoreDAVLeafItem *recurrenceID; // @synthesize recurrenceID=_recurrenceID;
 
 @end
 

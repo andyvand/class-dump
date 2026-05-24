@@ -6,13 +6,13 @@
 
 #import <ScreenTimeCore/STCoreOrganization.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface STFamilyOrganization : STCoreOrganization
 {
 }
 
-+ (id);
++ (id)T NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0, is_video INTEGER NOT NULL DEFAULT 0, is_podcast INTEGER NOT NULL DEFAULT 0, is_itunes_u INTEGER NOT NULL DEFAULT 0;
 + (id);
 + (id);
 + (id);
@@ -22,14 +22,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSSet *settings; // @dynamic settings;
-@property(readonly) Class superclass;
 
 @end
 

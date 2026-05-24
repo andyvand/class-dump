@@ -11,11 +11,10 @@
 @interface PKSetupProductMethodAppExtension : PKSetupProductMethod
 {
     _Bool _requiresAuthorization;
-    NSExtension *_provisioningExtension;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSExtension *provisioningExtension; // @synthesize provisioningExtension=_provisioningExtension;
-@property(nonatomic) _Bool requiresAuthorization; // @synthesize requiresAuthorization=_requiresAuthorization;
 
 @end
 

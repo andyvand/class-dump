@@ -13,9 +13,9 @@
 + (id);
 + (unsigned long long);
 + (void);
++ (void)R;
 + (void);
-+ (void);
-+ (id);
++ (id)h;
 + (_Bool);
 + (id);
 + (id);

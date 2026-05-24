@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @interface TSCardContainerController
 {
     id delegate;
-    id transitionManager;
-    id cardViewLayoutOptions;
-    id rootViewController;
-    id dimmingColor;
-    id dimmingAlpha;
-    id cardItemStack;
-    id dimmingView;
-    id eventManager;
 }
 
 - (void);
@@ -27,22 +17,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setTotalFileCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)9;
 - (void)êSýÿ;
 - (id);
-- (void);
+- (void)NUIMenuIdentifier;
 - (void)¨VÊQ;
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 @property(nonatomic, readonly) _Bool shouldAutomaticallyForwardAppearanceMethods;
 
 @end

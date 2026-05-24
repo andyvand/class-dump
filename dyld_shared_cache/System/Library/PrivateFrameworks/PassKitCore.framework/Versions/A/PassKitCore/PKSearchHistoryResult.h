@@ -12,25 +12,18 @@
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)entSubType;
+- (void)_networkServiceType;
+- (void)peerPaymentSubType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *searchHistory; // @synthesize searchHistory=_searchHistory;
-@property(readonly) Class superclass;
 
 @end
 

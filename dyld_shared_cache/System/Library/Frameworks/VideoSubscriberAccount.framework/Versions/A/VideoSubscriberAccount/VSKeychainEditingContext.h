@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSUndoManager, VSKeychainStore;
+@class NSMutableSet, VSKeychainStore;
 
 __attribute__((visibility("hidden")))
 @interface VSKeychainEditingContext
 {
     VSKeychainStore *_keychainStore;
-    NSUndoManager *_undoManager;
-    NSMutableSet *_items;
 }
 
-- (void);
+- (void)l	
+J;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (id);
@@ -37,16 +36,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id)er;
+- (id)developerSettingsRemoteNotifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *deletedItems;
-@property(readonly, nonatomic) NSSet *insertedItems;
 @property(retain, nonatomic) NSMutableSet *items; // @synthesize items=_items;
-@property(retain, nonatomic) VSKeychainStore *keychainStore; // @synthesize keychainStore=_keychainStore;
-@property(readonly, nonatomic) NSSet *registeredItems;
-@property(retain, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property(readonly, nonatomic) NSSet *updatedItems;
 
 @end
 

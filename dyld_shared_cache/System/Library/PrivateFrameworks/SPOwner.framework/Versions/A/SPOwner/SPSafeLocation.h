@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSString, NSUUID;
+@class NSUUID;
 
 @interface SPSafeLocation
 {
     NSUUID *_identifier;
-    long long _type;
-    NSString *_name;
-    CLLocation *_location;
-    long long _approvalState;
 }
 
 + (_Bool);
@@ -25,17 +21,17 @@
 - (double);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (double);
-- (double);
+- (id)seFromDevice:(struct _NSZone *)arg1 wasCancelled:) /* Error: Ran out of types for this method. */;
+- (double)IMCoreSpotlightIndexReasonContactsChanged;
+- (double)MessageUpdatedForAccountWithPropertiesBroadcastToBeRemoved;
 - (void);
 - (id);
-- (double);
+- (double)@;
 - (double);
 - (id);
 - (id);
@@ -43,24 +39,11 @@
 - (void);
 - (void);
 - (double);
-- (double)opAndKeyroll: /* Error: Ran out of types for this method. */;
+- (double)setSurfaceImmediatelyBetweenBackstopAndKeyroll: /* Error: Ran out of types for this method. */;
 - (void)ÉlÅ;
 
 // Remaining properties
-@property(readonly, nonatomic) double altitude;
-@property(nonatomic) long long approvalState; // @synthesize approvalState=_approvalState;
-@property(readonly, nonatomic) double course;
-@property(readonly, nonatomic) double courseAccuracy;
-@property(readonly, nonatomic) double horizontalAccuracy;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double latitude;
-@property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) double longitude;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) double speed;
-@property(readonly, nonatomic) double speedAccuracy;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) double verticalAccuracy;
 
 @end
 

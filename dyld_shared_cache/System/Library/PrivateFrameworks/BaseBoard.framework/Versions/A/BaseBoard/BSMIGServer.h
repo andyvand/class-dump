@@ -9,15 +9,6 @@
 @interface BSMIGServer
 {
     NSString *_portName;
-    unsigned int _port;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_thread;
-    struct mig_subsystem *_subsystem;
-    struct __CFRunLoopObserver *_entryObserver;
-    struct __CFRunLoopObserver *_exitObserver;
 }
 
 - (id);
@@ -25,10 +16,9 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *threadName;
 @property(nonatomic) int threadPriority;
 
 @end

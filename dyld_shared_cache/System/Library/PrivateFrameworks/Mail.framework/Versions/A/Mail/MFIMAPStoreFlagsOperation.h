@@ -16,10 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *flagsToClear;
 @property(readonly, copy, nonatomic) NSArray *flagsToSet;
 
 @end

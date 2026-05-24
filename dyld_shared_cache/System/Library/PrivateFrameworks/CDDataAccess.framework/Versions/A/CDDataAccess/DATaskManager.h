@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DAAccount, DAActivity, DATransaction, NSArray, NSMutableArray, NSMutableSet, NSString, NSTimer;
-@protocol DATask;
+@class DATransaction, NSMutableArray;
 
 @interface DATaskManager
 {
     DATransaction *_transaction;
-    DAActivity *_daActivity;
-    DAAccount *_account;
-    int _state;
-    id <DATask> _activeModalTask;
-    id <DATask> _activeQueuedTask;
-    NSString *_powerAssertionGroupID;
-    NSMutableArray *_queuedExclusiveTasks;
-    id <DATask> _activeExclusiveTask;
-    NSMutableSet *_independentTasks;
-    NSMutableSet *_heldIndependentTasks;
-    NSMutableSet *_modalHeldIndependentTasks;
-    NSMutableArray *_mQueuedTasks;
-    id <DATask> _modalHeldActiveQueuedTask;
-    NSMutableArray *_queuedModalTasks;
-    NSTimer *_managerIdleTimer;
-    NSTimer *_userInitiatedSyncTimer;
-    NSTimer *_xpcTransactionTimer;
 }
 
 - (id);
@@ -50,8 +32,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,34 +63,35 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)g;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (int);
 - (_Bool);
-- (long long);
 - (id);
 - (id);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)_9allocatorIcEEEENS5_31VisualComponentsCombinationListELNS1_14WireFormatLite9FieldTypeE9ELSG_11ELi0EEE;
+- (int)"
+;
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id)_AttentionServiceXPCListener;
 - (void);
 - (id);
 - (id);
@@ -116,28 +99,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)isEqualToDAContactSearchResultElement: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak DAAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) id <DATask> activeExclusiveTask; // @synthesize activeExclusiveTask=_activeExclusiveTask;
-@property(retain, nonatomic) id <DATask> activeModalTask; // @synthesize activeModalTask=_activeModalTask;
-@property(retain, nonatomic) id <DATask> activeQueuedTask; // @synthesize activeQueuedTask=_activeQueuedTask;
-@property(readonly, nonatomic) NSArray *allTasks;
-@property(retain, nonatomic) NSMutableSet *heldIndependentTasks; // @synthesize heldIndependentTasks=_heldIndependentTasks;
-@property(retain, nonatomic) NSMutableSet *independentTasks; // @synthesize independentTasks=_independentTasks;
-@property(retain, nonatomic) NSMutableArray *mQueuedTasks; // @synthesize mQueuedTasks=_mQueuedTasks;
-@property(retain, nonatomic) NSTimer *managerIdleTimer; // @synthesize managerIdleTimer=_managerIdleTimer;
-@property(retain, nonatomic) id <DATask> modalHeldActiveQueuedTask; // @synthesize modalHeldActiveQueuedTask=_modalHeldActiveQueuedTask;
-@property(retain, nonatomic) NSMutableSet *modalHeldIndependentTasks; // @synthesize modalHeldIndependentTasks=_modalHeldIndependentTasks;
-@property(copy, nonatomic) NSString *powerAssertionGroupID; // @synthesize powerAssertionGroupID=_powerAssertionGroupID;
 @property(retain, nonatomic) NSMutableArray *queuedExclusiveTasks; // @synthesize queuedExclusiveTasks=_queuedExclusiveTasks;
-@property(retain, nonatomic) NSMutableArray *queuedModalTasks; // @synthesize queuedModalTasks=_queuedModalTasks;
-@property(readonly, nonatomic) NSArray *queuedTasks;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(retain, nonatomic) NSTimer *userInitiatedSyncTimer; // @synthesize userInitiatedSyncTimer=_userInitiatedSyncTimer;
-@property(retain, nonatomic) NSTimer *xpcTransactionTimer; // @synthesize xpcTransactionTimer=_xpcTransactionTimer;
 
 @end
 

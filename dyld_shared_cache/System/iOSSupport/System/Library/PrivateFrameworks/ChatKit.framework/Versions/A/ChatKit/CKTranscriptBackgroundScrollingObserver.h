@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptBackgroundScrollingObserver
 {
     _Bool _scrolling;
-    _Bool _shouldSendStartScrolling;
-    _Bool _shouldSendStopScrolling;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)participantForUserID: /* Error: Ran out of types for this method. */;
+- (_Bool)participantCache;
+- (void)insertImage:(_Bool)arg1;
+- (void)insertDashedList:(_Bool)arg1;
 - (_Bool);
 - (void);
 - (void)yÒb]yä\]_Îñ]y0W]Gâñ]ñ]yAHGAEyAJ_AljHtGSgtGG_ê]Qo_GùD]y[ê]GG;
 
 // Remaining properties
 @property(nonatomic) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(nonatomic) _Bool shouldSendStartScrolling; // @synthesize shouldSendStartScrolling=_shouldSendStartScrolling;
-@property(nonatomic) _Bool shouldSendStopScrolling; // @synthesize shouldSendStopScrolling=_shouldSendStopScrolling;
 
 @end
 

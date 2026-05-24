@@ -5,5 +5,7 @@
 //
 
 @protocol EMMailboxRepositoryInterface
+- (void);
+- (void)@;
 @end
 

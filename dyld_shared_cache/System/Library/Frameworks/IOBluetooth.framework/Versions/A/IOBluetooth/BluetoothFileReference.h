@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString;
+@class NSString;
 
 @interface BluetoothFileReference
 {
     NSString *mPathAndName;
-    NSString *mName;
-    NSString *mPreArchiveName;
-    NSString *mTempDirPathAndName;
-    NSFileHandle *mHandle;
-    unsigned long long mSize;
-    unsigned long long mSizeReceived;
-    _Bool mIsArchived;
-    unsigned long long mArchiveSize;
-    _Bool mIsPreProcessed;
-    _Bool mIsPostProcessed;
-    _Bool mAllDataIsReceived;
-    _Bool mIsOutputFile;
-    _Bool mDLToTempDir;
-    _Bool mTargetIsAMac;
-    _Bool mDeleteOnRelease;
-    _Bool mWasFolder;
-    _Bool mFlag1;
-    _Bool mFlag2;
-    _Bool mFlag3;
 }
 
 + (id);
@@ -65,7 +46,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -76,7 +57,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ser_getRapportMode(APBrowserRef, APBrowserRapportMode *);
 - (void);
 
 @end

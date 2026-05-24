@@ -4,44 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, CALayer, NSString, PXGainMapAnimationDurationFilter;
-
 @interface PXImageLayerModulator
 {
     _Bool _isPerformingChanges;
-    _Bool _isPerformingUpdates;
-    struct {
-        _Bool filterInput;
-        _Bool filter;
-        _Bool filteredLayer;
-        _Bool displayingVideoComplement;
-        _Bool filterIntensity;
-        _Bool gainMapVisibility;
-        _Bool gainMapAppearance;
-    } _needsUpdateFlags;
-    _Bool _displayingVideoComplement;
-    _Bool _displayingOpaqueContent;
-    _Bool _revealsGainMapImage;
-    _Bool _animateGainMapAppearance;
-    _Bool _enabled;
-    float _gainMapValue;
-    float _hdrGain;
-    CALayer *_layer;
-    struct CGImage *_gainMapImage;
-    long long _filterType;
-    CAFilter *_filter;
-    NSString *_layerFilterIntensityKeyPath;
-    CALayer *_filteredLayer;
-    CALayer *_gainMapLayer;
-    PXGainMapAnimationDurationFilter *_gainMapAnimationDurationFilter;
-    double _intensityAnimationDuration;
-    double _intensity;
-    CDStruct_0b45e515 _options;
 }
 
 + (struct CGImage *);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -78,23 +48,53 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)are identical to a previous request, options=%{public}@;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
+- (float);
 - (void);
-- (id);
-- (_Bool);
-- (float);
+- (_Bool)_fixPointForUnprojectionForOrientation: /* Error: Ran out of types for this method. */;
+- (CDStruct_93820064)nFragmentCoordinates, mediump vec2 inInverseRadii) 
+		{ 
+			mediump vec2 sf1 = (.5 - abs(inFragmentCoordinates - .5)) * inInverseRadii; 
+			sf1 = clamp(sf1, 0., 1.); 
+			return sf1.x * sf1.y; 
+		} 
+				lowp vec4 SpriteEdgeSoftener(mediump vec2 inFragmentCoordinates, mediump vec2 inInverseRadii) 
+		{ 
+			return vec4(vec3(1.), SpriteEdgeSoftenerScalar(inFragmentCoordinates, inInverseRadii)); 
+		} 
+				lowp vec4 SpriteEdgeSoftenerPremultipliedHigh(highp vec2 inFragmentCoordinates, highp vec2 inInverseRadii) 
+		{ 
+			return vec4(SpriteEdgeSoftenerScalarHigh(inFragmentCoordinates, inInverseRadii)); 
+		} 
+				lowp vec4 SpriteEdgeSoftenerPremultiplied(mediump vec2 inFragmentCoordinates, mediump vec2 inInverseRadii) 
+		{ 
+			return vec4(SpriteEdgeSoftenerScalar(inFragmentCoordinates, inInverseRadii)); 
+		} 
+				bool FragmentInTexture(mediump vec2 inTextureCoordinates, mediump vec2 inTextureSize) 
+		{ 
+			mediump vec4 compVector = vec4(vec2(0.), inTextureSize-.01); 
+			mediump vec4 posVector = vec4(-inTextureCoordinates, inTextureCoordinates); 
+			return all(lessThan(posVector, compVector)); 
+		} 
+				lowp float MaskForTextureBorder(mediump vec2 inFragmentCoordinates) 
+		{ 
+			lowp vec2 sf1 = (.5 - abs(inFragmentCoordinates - .5)) * 1000.; 
+			sf1 = clamp(sf1, 0., 1.); 
+			return sf1.x * sf1.y; 
+		} 
+				;
 - (void);
-- (_Bool);
-- (CDStruct_0b45e515);
-- (void);
-- (double);
+- (double)`@9;
 - (void)0@ù
 × ;
 - (long long)_selectionHandler;
@@ -106,31 +106,7 @@
 - (void)X«1ÿ4·;
 
 // Remaining properties
-@property(nonatomic) _Bool animateGainMapAppearance; // @synthesize animateGainMapAppearance=_animateGainMapAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayingOpaqueContent) _Bool displayingOpaqueContent; // @synthesize displayingOpaqueContent=_displayingOpaqueContent;
-@property(readonly, nonatomic, getter=isDisplayingVideoComplement) _Bool displayingVideoComplement; // @synthesize displayingVideoComplement=_displayingVideoComplement;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) CAFilter *filter; // @synthesize filter=_filter;
-@property(readonly, nonatomic) long long filterType; // @synthesize filterType=_filterType;
-@property(retain, nonatomic) CALayer *filteredLayer; // @synthesize filteredLayer=_filteredLayer;
-@property(retain, nonatomic) PXGainMapAnimationDurationFilter *gainMapAnimationDurationFilter; // @synthesize gainMapAnimationDurationFilter=_gainMapAnimationDurationFilter;
-@property(readonly, nonatomic) struct CGImage *gainMapImage; // @synthesize gainMapImage=_gainMapImage;
-@property(retain, nonatomic) CALayer *gainMapLayer; // @synthesize gainMapLayer=_gainMapLayer;
-@property(readonly, nonatomic) float gainMapValue; // @synthesize gainMapValue=_gainMapValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float hdrGain; // @synthesize hdrGain=_hdrGain;
-@property(readonly, nonatomic) double intensity; // @synthesize intensity=_intensity;
-@property(nonatomic) double intensityAnimationDuration; // @synthesize intensityAnimationDuration=_intensityAnimationDuration;
-@property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(retain, nonatomic) NSString *layerFilterIntensityKeyPath; // @synthesize layerFilterIntensityKeyPath=_layerFilterIntensityKeyPath;
-@property(readonly, nonatomic) CDStruct_0b45e515 options; // @synthesize options=_options;
-@property(readonly, nonatomic) _Bool revealsGainMapImage; // @synthesize revealsGainMapImage=_revealsGainMapImage;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) CDStruct_93820064 options; // @synthesize options=_options;
 
 @end
 

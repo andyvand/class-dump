@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXDispatchTimer, NSMutableArray, NSMutableDictionary, NSObject, NSString, RTTTranscriptionController;
-@protocol HCHeardControllerProtocol, OS_dispatch_queue;
+@class NSObject, RTTTranscriptionController;
+@protocol OS_dispatch_queue;
 
 @interface RTTController
 {
     NSObject<OS_dispatch_queue> *_workerQueue;
-    NSMutableDictionary *_localSettingsCache;
-    AXDispatchTimer *_preferredRelayCoalescer;
-    AXDispatchTimer *_callUpdateCoalescer;
-    NSMutableArray *_rttCalls;
-    id <HCHeardControllerProtocol> _delegate;
-    CDUnknownBlockType _serverInvalidateCallback;
-    RTTTranscriptionController *_transcriber;
 }
 
-+ (id);
++ (id)_pushUpdatedShare:participantRecord: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -34,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id);
@@ -66,16 +59,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HCHeardControllerProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *rttCalls; // @synthesize rttCalls=_rttCalls;
-@property(copy, nonatomic) CDUnknownBlockType serverInvalidateCallback; // @synthesize serverInvalidateCallback=_serverInvalidateCallback;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RTTTranscriptionController *transcriber; // @synthesize transcriber=_transcriber;
 
 @end

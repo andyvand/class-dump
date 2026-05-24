@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIClientRollout, TRIPBTimestamp, TRIPBUInt32Array;
+@class TRIClientRollout;
 
 @interface TRIPersistedClientRolloutArtifact
 {
 }
 
-+ (id);
++ (id)SignpostAggregationGroupDuration;
 
 // Remaining properties
-@property(retain, nonatomic) TRIPBTimestamp *deploymentDate; // @dynamic deploymentDate;
-@property(nonatomic) unsigned long long downloadSize; // @dynamic downloadSize;
-@property(nonatomic) unsigned long long forLaunchDaemon; // @dynamic forLaunchDaemon;
-@property(nonatomic) _Bool hasDeploymentDate; // @dynamic hasDeploymentDate;
-@property(nonatomic) _Bool hasDownloadSize; // @dynamic hasDownloadSize;
-@property(nonatomic) _Bool hasForLaunchDaemon; // @dynamic hasForLaunchDaemon;
-@property(nonatomic) _Bool hasRollout; // @dynamic hasRollout;
-@property(retain, nonatomic) TRIPBUInt32Array *populationsArray; // @dynamic populationsArray;
-@property(readonly, nonatomic) unsigned long long populationsArray_Count; // @dynamic populationsArray_Count;
 @property(retain, nonatomic) TRIClientRollout *rollout; // @dynamic rollout;
 
 @end

@@ -6,25 +6,17 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSTimeZone, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceExportTransactionDataRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    unsigned long long _type;
-    unsigned long long _trigger;
-    NSString *_fileFormat;
-    NSDate *_beginDate;
-    NSDate *_endDate;
-    NSString *_statementIdentifier;
-    NSTimeZone *_productTimeZone;
 }
 
 - (id);
+- (void)B;
 - (void);
-- (void);
-- (id);
+- (id)?낉;
 - (void);
 - (id);
 - (id);
@@ -37,21 +29,13 @@
 - (id)[%s] ProvisioningStepLostMode:Applets suspended, waiting for device to exit lost mode /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (void)ovisioningRequirement;
+- (void)ProvisioningRequirement;
 - (void)äÔ;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSString *fileFormat; // @synthesize fileFormat=_fileFormat;
-@property(copy, nonatomic) NSTimeZone *productTimeZone; // @synthesize productTimeZone=_productTimeZone;
-@property(copy, nonatomic) NSString *statementIdentifier; // @synthesize statementIdentifier=_statementIdentifier;
-@property(nonatomic) unsigned long long trigger; // @synthesize trigger=_trigger;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

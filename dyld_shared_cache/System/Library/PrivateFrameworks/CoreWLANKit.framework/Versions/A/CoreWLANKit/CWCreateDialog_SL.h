@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWInterface, NSButton, NSError, NSImageView, NSPopUpButton, NSProgressIndicator, NSSecureTextField, NSString, NSTextField, NSView;
+@class CWInterface;
 
 @interface CWCreateDialog_SL
 {
     CWInterface *interface_;
-    id delegate_;
-    _Bool _showingOpen;
-    _Bool _showingPassword;
-    _Bool _showingManual;
-    NSTextField *windowTitleLabel;
-    NSTextField *windowDescriptionLabel;
-    NSButton *okButton;
-    NSButton *cancelButton;
-    NSView *securityTypeView;
-    NSPopUpButton *securityTypePopupButton;
-    NSView *channelSelectorView;
-    NSPopUpButton *channelSelectorPopupButton;
-    NSView *networkNameView;
-    NSTextField *networkNameField;
-    NSView *passwordView;
-    NSSecureTextField *passwordField;
-    NSSecureTextField *confirmPasswordField;
-    NSTextField *securityText;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSButton *helpButton;
-    NSImageView *imageView;
-    NSError *_previousError;
 }
 
 + (id);
@@ -53,15 +29,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)98A;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)B;
+- (void)|;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (void);
@@ -69,16 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id delegate; // @synthesize delegate=delegate_;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) CWInterface *interface; // @synthesize interface=interface_;
-@property(copy) NSError *previousError; // @synthesize previousError=_previousError;
-@property(readonly) Class superclass;
 
 @end
 

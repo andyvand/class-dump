@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, RWIProtocolCSSStyle;
+@class NSArray;
 
 @interface RWIProtocolCSSInheritedStyleEntry : RWIProtocolJSONObject
 {
@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolCSSStyle *inlineStyle;
 @property(copy, nonatomic) NSArray *matchedCSSRules;
 
 @end

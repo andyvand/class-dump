@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface STWeatherCurrentConditions
 {
     long long _conditionCode;
-    NSNumber *_temperature;
-    NSNumber *_highTemperature;
-    NSNumber *_lowTemperature;
 }
 
-+ (_Bool);
++ (_Bool)lg;
 - (id);
-- (id);
+- (id)R&;
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id):: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

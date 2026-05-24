@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriTask, NSMutableDictionary, NSString, STGenericIntentRequest;
+@class NSMutableDictionary;
 
 @interface STGenericIntent
 {
     _Bool _appInForeground;
-    _Bool _isLaunch;
-    _Bool _handled;
-    _Bool _finishedState;
-    NSString *_name;
-    NSString *_utterance;
-    NSString *_attributes;
-    NSMutableDictionary *_parameters;
-    AFSiriTask *_siriTask;
-    STGenericIntentRequest *_intentRequest;
 }
 
 + (_Bool);
@@ -25,28 +16,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)/;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)c?;
+- (id);
 - (void);
 - (id);
 - (id);
+- (void)xѷz;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -55,16 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool appInForeground; // @synthesize appInForeground=_appInForeground;
-@property(copy, nonatomic) NSString *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) _Bool finishedState; // @synthesize finishedState=_finishedState;
-@property(nonatomic) _Bool handled; // @synthesize handled=_handled;
-@property(retain, nonatomic) STGenericIntentRequest *intentRequest; // @synthesize intentRequest=_intentRequest;
-@property(nonatomic) _Bool isLaunch; // @synthesize isLaunch=_isLaunch;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSMutableDictionary *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) AFSiriTask *siriTask; // @synthesize siriTask=_siriTask;
-@property(copy, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
 
 @end
 

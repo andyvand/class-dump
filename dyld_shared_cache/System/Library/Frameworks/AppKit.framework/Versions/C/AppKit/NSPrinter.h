@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NSPrinter
 {
     NSString *_printerName;
-    void *_printer;
-    NSDictionary *_cachedDeviceDescription;
-    int _ppdCreationNum;
-    void *_ppdNodes;
-    void *_ppdPriv;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (void);
 + (_Bool);
 - (id);
@@ -37,36 +32,36 @@
 - (int);
 - (struct CGRect);
 - (float);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)set_shouldSkipPreferredClientCertificateLookup:(id)arg1;
+- (_Bool)_disableAppSSO;
+- (id)ublic}@ in invalid state when supplying credential %p for challenge %p %d:(char *)arg1 %@;
+- (id)adTask, as URLAsset PropertyList could not be serialized.;
 - (struct OpaquePMPrinter *);
-- (CDStruct_d48118a8 *);
-- (CDStruct_d48118a8 *);
-- (id);
-- (CDStruct_d48118a8 *);
-- (id);
-- (id);
-- (CDStruct_d48118a8 *);
-- (id);
-- (id);
+- (CDStruct_d48118a8 *)m %llu needs more bytes;
+- (CDStruct_d48118a8 *)init_with_task_with_socket_streams;
+- (id)sessionDescription;
+- (CDStruct_d48118a8 *)send;
+- (id)basePrioritySetExplicitly;
+- (id)proposed;
+- (CDStruct_d48118a8 *)services (		partition text NOT NULL,		host text NOT NULL,		alternateHost text NOT NULL,		port int NOT NULL,		alternatePort int NOT NULL,		type int NOT NULL,		creation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
+- (id)AppleLanguages;
+- (id)=;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (char *);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id)2W1;
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ath path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ê/°!Bùß3°1Â0@ù
 × ;
@@ -74,10 +69,7 @@
 - (id)u$v;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *deviceDescription;
-@property(readonly) long long languageLevel;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSString *type;
 
 @end
 

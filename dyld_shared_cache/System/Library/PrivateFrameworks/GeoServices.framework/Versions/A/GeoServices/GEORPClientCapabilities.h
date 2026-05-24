@@ -7,34 +7,23 @@
 @interface GEORPClientCapabilities
 {
     int _transitMarketSupport;
-    _Bool _hasConstrainedProblemStatusSize;
-    _Bool _hasFeatureHandle;
-    _Bool _hasNoOptInRequest;
-    _Bool _hasSupportForIdsBasedNotifications;
-    struct {
-        unsigned int has_transitMarketSupport:1;
-        unsigned int has_hasConstrainedProblemStatusSize:1;
-        unsigned int has_hasFeatureHandle:1;
-        unsigned int has_hasNoOptInRequest:1;
-        unsigned int has_hasSupportForIdsBasedNotifications:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setIsOfflineResponse:(id)arg1;
 - (id);
 - (int);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)optionsForPersistentStoreWithOptions:(_Bool)arg1 url:fileUtilities: /* Error: Ran out of types for this method. */;
+- (void)makeAccountIdentifiers;
+- (void)enumeratorAtURL:(_Bool)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (void)_showPhonetic;
+- (void)_shouldAddAsReadOnly;
+- (void)_resourceLock;
+- (void)_requestedGroupIdentifierCount;
+- (void)_infoIdentifierSet;
+- (void)er;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,30 +33,21 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)ch logging.;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)te_anyField"b1};
-- (id)o: /* Error: Ran out of types for this method. */;
+- (id)addActiveScenario: /* Error: Ran out of types for this method. */;
 - (id)i0k$l´m	äpruàu°v¨y;
-- (id)ODULE_TYPE_PLACE_QUESTIONNAIRE;
+- (id)MODULE_TYPE_PLACE_QUESTIONNAIRE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasConstrainedProblemStatusSize;
-@property(nonatomic) _Bool hasFeatureHandle;
 @property(nonatomic) _Bool hasHasConstrainedProblemStatusSize;
-@property(nonatomic) _Bool hasHasFeatureHandle;
-@property(nonatomic) _Bool hasHasNoOptInRequest;
-@property(nonatomic) _Bool hasHasSupportForIdsBasedNotifications;
-@property(nonatomic) _Bool hasNoOptInRequest;
-@property(nonatomic) _Bool hasSupportForIdsBasedNotifications;
-@property(nonatomic) _Bool hasTransitMarketSupport;
-@property(nonatomic) int transitMarketSupport;
 
 @end
 

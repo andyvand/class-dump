@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionConversionAdjustment, NSString;
+@class NSString;
 
 @interface AVCaptionConversionWarning
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (id);
+- (id)\;
 - (id);
 - (id);
 - (struct _NSRange);
@@ -20,8 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) AVCaptionConversionAdjustment *adjustment;
-@property(readonly) struct _NSRange rangeOfCaptions;
 @property(readonly) NSString *warningType;
 
 @end

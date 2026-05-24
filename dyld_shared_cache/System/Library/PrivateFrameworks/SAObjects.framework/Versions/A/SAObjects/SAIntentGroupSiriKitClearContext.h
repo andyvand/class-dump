@@ -15,13 +15,13 @@
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
+- (id)b;
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)C;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reason;

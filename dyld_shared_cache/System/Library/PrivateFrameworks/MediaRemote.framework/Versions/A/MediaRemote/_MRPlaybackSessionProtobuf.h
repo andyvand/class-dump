@@ -4,55 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _MRPlaybackSessionProtobuf
 {
     NSString *_identifier;
-    NSData *_metadata;
-    NSData *_playbackSessionData;
-    NSString *_revision;
-    NSString *_type;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)cannot replace message part, bailing;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)ner handleIntent:(id)arg1 inBackgroundAppWithBundleId:reply:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)leIntelligence;
+- (id)P;
 - (_Bool);
 - (void);
 - (_Bool)&Ð1Â0@ù
 × ;
 - (_Bool)ate"b1"reportingAdamID"b1"startTime"b1"activeFormatJustification"b1"albumTraits"b1"artworkDataHeightDeprecated"b1"artworkDataWidthDeprecated"b1"chapterCount"b1"defaultPlaybackRate"b1"discNumber"b1"downloadProgress"b1"downloadState"b1"editingStyleFlags"b1"episodeNumber"b1"episodeType"b1"formatTierPreference"b1"mediaSubType"b1"mediaType"b1"numberOfSections"b1"playCount"b1"playbackProgress"b1"playbackRate"b1"playlistTraits"b1"playlistType"b1"radioStationType"b1"seasonNumber"b1"songTraits"b1"totalDiscCount"b1"totalTrackCount"b1"trackNumber"b1"artworkAvailable"b1"excludeFromSuggestions"b1"hasAlternativeFormats"b1"infoAvailable"b1"isAdvertisement"b1"isAlwaysLive"b1"isContainer"b1"isCurrentlyPlaying"b1"isExplicitItem"b1"isInTransition"b1"isInWishList"b1"isLiked"b1"isLoading"b1"isPlayable"b1"isResolvableParticipant"b1"isSharable"b1"isSteerable"b1"isStreamingContent"b1"languageOptionsAvailable"b1"lyricsAvailable"b1"transcriptAlignmentsAvailable"b1};
-- (void)ionDetection;
-- (id)fication: /* Error: Ran out of types for this method. */;
+- (void)_supportsConversationDetection;
+- (id)_handleApplicationDidRegisterNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(readonly, nonatomic) _Bool hasPlaybackSessionData;
-@property(readonly, nonatomic) _Bool hasRevision;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSData *playbackSessionData; // @synthesize playbackSessionData=_playbackSessionData;
-@property(retain, nonatomic) NSString *revision; // @synthesize revision=_revision;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

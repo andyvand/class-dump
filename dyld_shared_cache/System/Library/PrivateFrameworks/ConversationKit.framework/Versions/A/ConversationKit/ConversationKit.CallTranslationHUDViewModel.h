@@ -7,10 +7,6 @@
 @interface ConversationKit.CallTranslationHUDViewModel
 {
     id _isTranslationStarted;
-    id _displayTranscripts;
-    id completedTranscripts;
-    id _stop;
-    id _$observationRegistrar;
 }
 
 @end

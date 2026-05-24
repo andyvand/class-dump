@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface AFAccount
 {
     _Bool _peerSiriEnabled;
-    _Bool _isActive;
-    NSString *_identifier;
-    NSString *_label;
-    NSString *_assistantIdentifier;
-    NSString *_loggingAssistantIdentifier;
-    NSString *_speechIdentifier;
-    NSString *_hostname;
-    NSString *_peerAssistantIdentifier;
-    NSString *_peerLoggingAssistantIdentifier;
-    NSString *_peerSpeechIdentifier;
-    NSString *_peerUserAgentString;
-    NSString *_peerLanguageCode;
-    NSString *_peerHostname;
-    NSString *_predefinedServer;
-    NSString *_aceHost;
-    NSDictionary *_connectionPolicy;
-    NSDate *_connectionPolicyDate;
-    NSString *_connectionPolicyHostname;
-    NSString *_group;
-    NSDictionary *_lastSyncDates;
-    NSString *_localeIdentifier;
-    NSDate *_connectionPolicyFirstFailureDate;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -55,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,14 +52,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)showWindow:(id)arg1 makeKey:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (void)ansferDataURL:(id)arg1 ,V_transferDataURL;
+- (id);
 - (id);
 - (id);
 - (void)overrideOption;
-- (void);
+- (void)AFSpeakableUtteranceParser;
 - (id)nguageSelection.LanguageOverridden;
 - (id)ground Content When Active;
 - (id)nil;
@@ -90,29 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceHost; // @synthesize aceHost=_aceHost;
-@property(copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(copy, nonatomic) NSDictionary *connectionPolicy; // @synthesize connectionPolicy=_connectionPolicy;
-@property(copy, nonatomic) NSDate *connectionPolicyDate; // @synthesize connectionPolicyDate=_connectionPolicyDate;
-@property(copy, nonatomic) NSDate *connectionPolicyFirstFailureDate; // @synthesize connectionPolicyFirstFailureDate=_connectionPolicyFirstFailureDate;
-@property(copy, nonatomic) NSString *connectionPolicyHostname; // @synthesize connectionPolicyHostname=_connectionPolicyHostname;
-@property(copy, nonatomic) NSString *group; // @synthesize group=_group;
-@property(copy, nonatomic) NSString *hostname; // @synthesize hostname=_hostname;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSDictionary *lastSyncDates; // @synthesize lastSyncDates=_lastSyncDates;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(copy, nonatomic) NSString *loggingAssistantIdentifier; // @synthesize loggingAssistantIdentifier=_loggingAssistantIdentifier;
-@property(copy, nonatomic) NSString *peerAssistantIdentifier; // @synthesize peerAssistantIdentifier=_peerAssistantIdentifier;
-@property(copy, nonatomic) NSString *peerHostname; // @synthesize peerHostname=_peerHostname;
-@property(copy, nonatomic) NSString *peerLanguageCode; // @synthesize peerLanguageCode=_peerLanguageCode;
-@property(copy, nonatomic) NSString *peerLoggingAssistantIdentifier; // @synthesize peerLoggingAssistantIdentifier=_peerLoggingAssistantIdentifier;
-@property(nonatomic) _Bool peerSiriEnabled; // @synthesize peerSiriEnabled=_peerSiriEnabled;
-@property(copy, nonatomic) NSString *peerSpeechIdentifier; // @synthesize peerSpeechIdentifier=_peerSpeechIdentifier;
-@property(copy, nonatomic) NSString *peerUserAgentString; // @synthesize peerUserAgentString=_peerUserAgentString;
-@property(copy, nonatomic) NSString *predefinedServer; // @synthesize predefinedServer=_predefinedServer;
-@property(copy, nonatomic) NSString *speechIdentifier; // @synthesize speechIdentifier=_speechIdentifier;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 @interface SGMicrodataDocument
 {
     NSMutableDictionary *_htmlIds;
-    NSMutableArray *_items;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)$ì¬À ü ¬!;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *htmlIds; // @synthesize htmlIds=_htmlIds;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 
 @end
 

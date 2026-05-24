@@ -5,9 +5,13 @@
 //
 
 @protocol _PLImageLoadingAsset
+- (id);
 - (id);
+- (id)6;
+- (BOOL)1*J
+;
 - (id);
-- (id)lientStateValidationError:library: /* Error: Ran out of types for this method. */;
+- (id)_inq_handleClientStateValidationError:library: /* Error: Ran out of types for this method. */;
 - (id)ðíøí¤îHðüñò°÷´úðüüýþ
 $<;
 @end

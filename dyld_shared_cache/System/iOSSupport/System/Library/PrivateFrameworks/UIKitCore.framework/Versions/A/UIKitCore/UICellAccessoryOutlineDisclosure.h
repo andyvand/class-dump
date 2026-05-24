@@ -6,27 +6,23 @@
 
 #import <UIKitCore/UICellAccessory.h>
 
-@class UIImage;
-
 @interface UICellAccessoryOutlineDisclosure : UICellAccessory
 {
     long long _style;
-    CDUnknownBlockType _actionHandler;
-    UIImage *__customImage;
 }
 
 + (_Bool)ust register a nib or a class for the identifier or connect a prototype cell in a storyboard;
 - (void);
 - (id);
 - (double);
-- (long long);
+- (long long)CEMCredentialSCEPDeclaration;
 - (id);
 - (id);
 - (void)ect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}20@0:(long long)arg1 8B16;
 - (CDUnknownBlockType)ddd}48{UIEdgeInsets=dddd}80{UIEdgeInsets=dddd}112;
-- (void)nKeyboardFrame:(CDUnknownBlockType)arg1;
-- (_Bool)eFromArray:(id)arg1;
-- (void)aitCollection:(id)arg1 withTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (void)setLastKnownKeyboardFrame:(CDUnknownBlockType)arg1;
+- (_Bool)differenceFromArray:(id)arg1;
+- (void)_updateForTraitCollection:(id)arg1 oldTraitCollection:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
 - (long long)y",R,N,G_effectiveFeedbackData;
 - (id)CCFÜHDQdRW(Z;
 - (_Bool)-%{public}@-not hosting because scene is not foreground or other conditions aren't met to allow hosting (foreground:(id)arg1 %d, allowsHostingWithLayersAndHasLayers:%d, allowsHostingWithoutLayers:%d). /* Error: Ran out of types for this method. */;
@@ -35,10 +31,7 @@
 - (void)TÇ´ÿ8ÌÈi;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_customImage, setter=_setCustomImage:) UIImage *_customImage; // @synthesize _customImage=__customImage;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
 @property(readonly, nonatomic) double rotationAngle;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

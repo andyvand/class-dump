@@ -6,18 +6,16 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface PHAssetPhotoAnalysisWallpaperProperties : PHAssetPropertySet
 {
     NSData *_wallpaperPropertiesData;
-    NSDate *_wallpaperPropertiesTimestamp;
-    unsigned long long _wallpaperPropertiesVersion;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)elfPID;
 + (id)haring_metadata.plist;
 + (id);
 - (unsigned long long);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *wallpaperPropertiesData; // @synthesize wallpaperPropertiesData=_wallpaperPropertiesData;
-@property(readonly, nonatomic) NSDate *wallpaperPropertiesTimestamp; // @synthesize wallpaperPropertiesTimestamp=_wallpaperPropertiesTimestamp;
-@property(readonly, nonatomic) unsigned long long wallpaperPropertiesVersion; // @synthesize wallpaperPropertiesVersion=_wallpaperPropertiesVersion;
 
 @end
 

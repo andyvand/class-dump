@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SDLegalDoc
 {
     long long _legal_id;
-    NSString *_title;
-    NSString *_content;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
++ (id)elegate>";
++ (_Bool);
+- (void)dexSet";
+- (long long)lFeedback";
+- (id)nquishableAssertion>"32@0:(long long)arg1 8@"AFAssertionContext"16@?<v@?@"AFAssertionContext"@"NSError">24;
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)@:ANEVirtualClient validateNetworkCreate failed to call IOConnectCallMethod with kernResult :0x%x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *content; // @synthesize content=_content;
 @property long long legal_id; // @synthesize legal_id=_legal_id;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

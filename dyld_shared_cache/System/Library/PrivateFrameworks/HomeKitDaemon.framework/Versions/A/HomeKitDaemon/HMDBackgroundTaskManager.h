@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundTaskLogger, NSMutableDictionary, NSNotificationCenter, NSString;
-@protocol HMFDateProvider;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundTaskManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_tasksByIdentifier;
-    NSMutableDictionary *_pendingTaskDateByIdentifier;
-    HMDBackgroundTaskLogger *_logger;
-    NSNotificationCenter *_notificationCenter;
-    id <HMFDateProvider> _dateProvider;
 }
 
 + (id)s due to no completion;
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,17 +36,6 @@ __attribute__((visibility("hidden")))
 - (id)Æ?¸TC;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMFDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDBackgroundTaskLogger *logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSMutableDictionary *pendingTaskDateByIdentifier; // @synthesize pendingTaskDateByIdentifier=_pendingTaskDateByIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableDictionary *tasksByIdentifier; // @synthesize tasksByIdentifier=_tasksByIdentifier;
 
 @end

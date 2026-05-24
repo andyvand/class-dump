@@ -18,11 +18,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Library/Frameworks/DiskArbitration.framework/DiskArbitration;
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *serialOperationQueue; // @synthesize serialOperationQueue=_serialOperationQueue;
-@property(getter=isSuspended) _Bool suspended;
 
 @end
 

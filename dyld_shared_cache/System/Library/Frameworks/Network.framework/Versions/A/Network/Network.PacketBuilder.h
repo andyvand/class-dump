@@ -7,8 +7,6 @@
 @interface Network.PacketBuilder
 {
     id version;
-    id token;
-    id frameQueue;
 }
 
 @end

@@ -7,15 +7,9 @@
 @interface MPSNNOptimizerDescriptor
 {
     float _learningRate;
-    float _gradientRescale;
-    _Bool _applyGradientClipping;
-    float _gradientClipMax;
-    float _gradientClipMin;
-    unsigned long long _regularizationType;
-    float _regularizationScale;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -35,13 +29,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) _Bool applyGradientClipping; // @synthesize applyGradientClipping=_applyGradientClipping;
-@property(nonatomic) float gradientClipMax; // @synthesize gradientClipMax=_gradientClipMax;
-@property(nonatomic) float gradientClipMin; // @synthesize gradientClipMin=_gradientClipMin;
-@property(nonatomic) float gradientRescale; // @synthesize gradientRescale=_gradientRescale;
 @property(nonatomic) float learningRate; // @synthesize learningRate=_learningRate;
-@property(nonatomic) float regularizationScale; // @synthesize regularizationScale=_regularizationScale;
-@property(nonatomic) unsigned long long regularizationType; // @synthesize regularizationType=_regularizationType;
 
 @end
 

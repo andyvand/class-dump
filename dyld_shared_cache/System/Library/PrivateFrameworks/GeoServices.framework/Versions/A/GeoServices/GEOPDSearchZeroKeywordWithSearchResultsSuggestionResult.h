@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchZeroKeywordWithSearchResultsSuggestionResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_searchResultsForCategoryEntrys;
 }
 
 - (id);
-- (void);
+- (void)_childDefinitions;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)as_highlightDistance"b1"has_type"b1"read_unknownFields"b1"read_identifier"b1"read_infoCard"b1"read_position"b1"read_speedLimitText"b1"read_speedingCard"b1"wrote_anyField"b1};
-- (id)ey: /* Error: Ran out of types for this method. */;
+- (id)_requester:removeTileKey: /* Error: Ran out of types for this method. */;
 - (id)|p;
 - (void)ExI@;
 

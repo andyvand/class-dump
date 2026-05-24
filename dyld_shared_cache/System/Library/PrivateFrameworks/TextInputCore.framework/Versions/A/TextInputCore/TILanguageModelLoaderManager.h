@@ -8,24 +8,24 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (shared_ptr_e9f752ce);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
++ (void)RTTContinuityRTTIsSupportedPreference;
++ (void)ClientPriority;
++ (shared_ptr_5685c32f);
 + (void);
 + (id);
-+ (id);
-+ (shared_ptr_e9f752ce);
-+ (void);
-+ (void);
 + (void);
 + (void);
 + (void);
 + (id);
++ (id);
++ (shared_ptr_5685c32f)7	;
++ (void)E;
 + (void);
++ (void);
++ (void);
++ (void);
++ (id);
++ (void)beginTimezone:(id)arg1;
 + (void);
 
 @end

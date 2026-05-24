@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WiFiAnalyticsAWDWiFiNWActivityAssoc, WiFiAnalyticsAWDWiFiRxDataStallStats;
+@class WiFiAnalyticsAWDWiFiNWActivityAssoc;
 
 @interface WiFiAnalyticsAWDWiFiNWActivityInterfaceStats
 {
     WiFiAnalyticsAWDWiFiNWActivityAssoc *_assoc;
-    NSMutableArray *_awdlModes;
-    NSMutableArray *_bytes;
-    unsigned int _consecutivedps;
-    unsigned int _dps;
-    NSMutableArray *_enableStates;
-    unsigned int _enabled;
-    NSMutableArray *_nss;
-    NSMutableArray *_packets;
-    NSMutableArray *_peers;
-    NSMutableArray *_phymodes;
-    NSString *_role;
-    WiFiAnalyticsAWDWiFiRxDataStallStats *_rxStall;
-    struct {
-        unsigned int consecutivedps:1;
-        unsigned int dps:1;
-        unsigned int enabled:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-+ (Class);
++ (Class)1
+;
 + (Class);
 + (Class);
 + (Class);
@@ -49,9 +33,9 @@
 - (id);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (id);
 - (void);
@@ -62,9 +46,9 @@
 - (id);
 - (id);
 - (void);
+- (void)odd number;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -72,13 +56,13 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (void)G;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (unsigned long long);
@@ -86,49 +70,31 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)internalErrorWithMessage: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)ing subscription because there was an error fetching the phone number:(id)arg1 %{public}@;
 - (id);
 - (void);
-- (id);
+- (id)le trying to carsh daemon {error:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool));
+- (void)h;
+- (id)kCLConnectionMessageVehicleStateIsVehicle;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)h;
 - (unsigned int);
 - (id);
 - (void);
 - (_Bool)D"16q24@?<v@?@@"NSError">32;
-- (void)RxUnicastRTStoOther;
+- (void)kMACRxUnicastRTStoOther;
 
 // Remaining properties
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityAssoc *assoc; // @synthesize assoc=_assoc;
-@property(retain, nonatomic) NSMutableArray *awdlModes; // @synthesize awdlModes=_awdlModes;
-@property(retain, nonatomic) NSMutableArray *bytes; // @synthesize bytes=_bytes;
-@property(nonatomic) unsigned int consecutivedps; // @synthesize consecutivedps=_consecutivedps;
-@property(nonatomic) unsigned int dps; // @synthesize dps=_dps;
-@property(retain, nonatomic) NSMutableArray *enableStates; // @synthesize enableStates=_enableStates;
-@property(nonatomic) unsigned int enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool hasAssoc;
-@property(nonatomic) _Bool hasConsecutivedps;
-@property(nonatomic) _Bool hasDps;
-@property(nonatomic) _Bool hasEnabled;
 @property(readonly, nonatomic) _Bool hasRole;
-@property(readonly, nonatomic) _Bool hasRxStall;
-@property(retain, nonatomic) NSMutableArray *nss; // @synthesize nss=_nss;
-@property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;
-@property(retain, nonatomic) NSMutableArray *peers; // @synthesize peers=_peers;
-@property(retain, nonatomic) NSMutableArray *phymodes; // @synthesize phymodes=_phymodes;
-@property(retain, nonatomic) NSString *role; // @synthesize role=_role;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiRxDataStallStats *rxStall; // @synthesize rxStall=_rxStall;
 
 @end
 

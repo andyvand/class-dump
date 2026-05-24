@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)0@0:8@"NSDraggingSession"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

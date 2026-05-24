@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ML3SpotlightMatchingNameCache
 {
     struct unordered_set<long long, std::hash<long long>, std::equal_to<long long>, std::allocator<long long>> _matchingSet;
-    NSString *_matchString;
-    _Bool _idle;
-    ML3MusicLibrary *_library;
 }
 
-+ (void);
++ (void)ceProgress;
 + (void)DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, extras_url TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
-- (id);
+- (id)prepareForReuse;
 - (void);
 - (id);
 - (void)ation_id = 0 AND item.keep_local_status = 1);

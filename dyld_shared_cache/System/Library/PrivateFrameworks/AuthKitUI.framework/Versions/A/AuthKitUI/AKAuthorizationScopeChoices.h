@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationLoginChoice, AKAuthorizationUserResponse, AKUserInformation, NSArray, NSString;
-@protocol AKCredentialRequestProtocol;
+@class NSArray;
 
 @interface AKAuthorizationScopeChoices
 {
     _Bool _wantsPrivateEmail;
-    NSArray *_scopes;
-    AKUserInformation *_userInformation;
-    id <AKCredentialRequestProtocol> _selectedRequest;
-    unsigned long long _indexOfChosenEmail;
-    unsigned long long _indexOfChosenLogin;
-    AKAuthorizationLoginChoice *_loginChoice;
-    unsigned long long _emailCount;
 }
 
 + (id);
-+ (id);
++ (id)a;
 + (id);
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)�_;
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,36 +29,23 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)setNumberStyle:(id)arg1;
+- (void)"CalUMCalendarDataContainerProvider",R,N;
 - (id);
+- (void)CALAbbrevDateFormat;
+- (id)CALHourWithoutAMPMFormat;
+- (id)r alerts;
+- (id)pple.private.calendar;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)meworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *chosenEmail;
-@property(readonly, nonatomic) unsigned long long emailCount; // @synthesize emailCount=_emailCount;
-@property(readonly, nonatomic) NSString *forwardingEmail;
-@property(nonatomic) unsigned long long indexOfChosenEmail; // @synthesize indexOfChosenEmail=_indexOfChosenEmail;
-@property(nonatomic) unsigned long long indexOfChosenLogin; // @synthesize indexOfChosenLogin=_indexOfChosenLogin;
-@property(readonly, nonatomic) NSString *localizedChosenEmail;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(retain, nonatomic) AKAuthorizationLoginChoice *loginChoice; // @synthesize loginChoice=_loginChoice;
-@property(readonly, nonatomic) unsigned long long personNameComponentsOrder;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(retain, nonatomic) id <AKCredentialRequestProtocol> selectedRequest; // @synthesize selectedRequest=_selectedRequest;
-@property(copy, nonatomic) AKUserInformation *userInformation; // @synthesize userInformation=_userInformation;
-@property(readonly, nonatomic) AKAuthorizationUserResponse *userResponse;
-@property(nonatomic) _Bool wantsPrivateEmail; // @synthesize wantsPrivateEmail=_wantsPrivateEmail;
 
 @end
 

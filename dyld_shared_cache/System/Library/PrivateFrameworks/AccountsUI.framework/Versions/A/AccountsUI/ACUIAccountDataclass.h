@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSImage, NSObject, NSString;
-@protocol ACUIAccountDataclassDelegate;
+@class NSImage;
 
 @interface ACUIAccountDataclass
 {
     NSImage *_icon;
-    NSString *_localizedName;
-    NSString *_identifier;
-    ACAccount *_account;
-    NSObject<ACUIAccountDataclassDelegate> *_delegate;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (_Bool);
@@ -35,20 +30,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak ACAccount *account; // @synthesize account=_account;
 @property(readonly, nonatomic, getter=isConfiguring) _Bool configuring;
-@property __weak NSObject<ACUIAccountDataclassDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isGreyMode) _Bool greyMode;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSString *optionButtonTitle;
-@property(readonly, nonatomic) NSString *statusString;
 
 @end
 

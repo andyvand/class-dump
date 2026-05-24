@@ -7,10 +7,6 @@
 @interface NewsFeed.SportsTaxonomyGraphSectionNode
 {
     id isHidden;
-    id isChildrenOrderCurated;
-    id header;
-    id privateChildren;
-    id weakParents;
 }
 
 @end

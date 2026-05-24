@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDMLTokenType, NSString;
+@class DDMLTokenType;
 
 __attribute__((visibility("hidden")))
 @interface DDMLToken
 {
     float _confidence;
-    DDMLTokenType *_tokenType;
-    NSString *_string;
-    struct _NSRange _range;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct _NSRange);
 - (void);
+- (void)T;
+- (float)(;
 - (void);
-- (float);
-- (void);
-- (void);
+- (void)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property float confidence; // @synthesize confidence=_confidence;
-@property struct _NSRange range; // @synthesize range=_range;
-@property(copy) NSString *string; // @synthesize string=_string;
 @property(retain) DDMLTokenType *tokenType; // @synthesize tokenType=_tokenType;
 
 @end

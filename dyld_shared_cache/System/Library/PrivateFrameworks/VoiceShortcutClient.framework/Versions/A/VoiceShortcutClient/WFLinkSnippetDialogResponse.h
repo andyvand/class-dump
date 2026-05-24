@@ -6,22 +6,19 @@
 
 #import <VoiceShortcutClient/WFDialogResponse.h>
 
-@class NSURL;
-
 @interface WFLinkSnippetDialogResponse : WFDialogResponse
 {
     unsigned long long _snippetResponseCode;
-    NSURL *_requestedOpenURL;
 }
 
 + (_Bool);
 + (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)2|;
 - (id);
 - (id);
 - (void);
@@ -30,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *requestedOpenURL; // @synthesize requestedOpenURL=_requestedOpenURL;
 @property(readonly, nonatomic) unsigned long long snippetResponseCode; // @synthesize snippetResponseCode=_snippetResponseCode;
 
 @end

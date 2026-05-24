@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEditMenuConfiguration, UIMenu, UIView, _UIEditMenuPresentationAnimator;
-@protocol _UIEditMenuPresentationDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuPresentation
 {
     _Bool _enforcesMenuControllerLifecycle;
-    UIView *_sourceView;
-    id <_UIEditMenuPresentationDelegate> _delegate;
-    UIMenu *_displayedMenu;
-    UIEditMenuConfiguration *_activeConfiguration;
-    UIEditMenuConfiguration *_dismissingConfiguration;
-    unsigned long long _currentState;
-    _UIEditMenuPresentationAnimator *_presentAnimator;
-    _UIEditMenuPresentationAnimator *_dismissAnimator;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)6q44q52@60@68@76;
+- (void)B40;
+- (void)@0:(id)arg1 8q16@"NSError"24;
+- (void)exingContext"24@?<v@?@"NSError">32;
+- (long long)setScheduleType: /* Error: Ran out of types for this method. */;
+- (void)setLoginStatus:(id)arg1 message:(long long)arg2 reason:properties: /* Error: Ran out of types for this method. */;
+- (id)sageBody:(id)arg1 foundChat:(id)arg2 service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (void)_updateNicknameInArchivedMap:(long long)arg1;
+- (void)_registrationInfo;
+- (void)_registerTransfersWithGUIDs:forMessageGUID: /* Error: Ran out of types for this method. */;
+- (id)_didReceiveMessageDeliveryReceiptForMessageID:attempts:date:account: /* Error: Ran out of types for this method. */;
+- (void)_deviceConditionsAllowsMessageSyncIgnoreFeatureEnabled:(id)arg1 activity:(id)arg2;
+- (id)_deleteHandleIDFromHandledMap: /* Error: Ran out of types for this method. */;
+- (void)_clearIgnoredNicknameRecords;
 - (void);
 - (void);
 - (void);
@@ -57,15 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)K\;
 
 // Remaining properties
-@property(retain, nonatomic) UIEditMenuConfiguration *activeConfiguration; // @synthesize activeConfiguration=_activeConfiguration;
 @property(nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) __weak id <_UIEditMenuPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _UIEditMenuPresentationAnimator *dismissAnimator; // @synthesize dismissAnimator=_dismissAnimator;
-@property(retain, nonatomic) UIEditMenuConfiguration *dismissingConfiguration; // @synthesize dismissingConfiguration=_dismissingConfiguration;
-@property(retain, nonatomic) UIMenu *displayedMenu; // @synthesize displayedMenu=_displayedMenu;
-@property(nonatomic) _Bool enforcesMenuControllerLifecycle; // @synthesize enforcesMenuControllerLifecycle=_enforcesMenuControllerLifecycle;
-@property(retain, nonatomic) _UIEditMenuPresentationAnimator *presentAnimator; // @synthesize presentAnimator=_presentAnimator;
-@property(readonly, nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, CLSServiceManager, CPAnalytics, NSObject, PGCurationManager, PGManager, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGManager, PHPhotoLibrary;
 
 @interface PGManagerWorkingContext
 {
     PGManager *_manager;
-    NSObject<OS_os_log> *_loggingConnection;
-    CPAnalytics *_analytics;
-    CLSLocationCache *_locationCache;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id)1Â0@ù
 × ;
 - (id)eCollection"16^B24;
-- (void)ureLandscapePass;
+- (void)WSTopNatureLandscapePass;
 - (void)/photoanalysis/PhotosGraph/Framework/Core/PGManager+Consistency.m;
-- (id)nningOfSeason;
-- (id)formance;
+- (id)PGMemoryTriggerTypeBeginningOfSeason;
+- (id)MusicCacheReadPerformance;
 - (id);
-- (id)ionParameters;
+- (id)EventLabelingConfigurationParameters;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) CPAnalytics *analytics; // @synthesize analytics=_analytics;
-@property(readonly) PGCurationManager *curationManager;
-@property(readonly) CLSLocationCache *locationCache; // @synthesize locationCache=_locationCache;
-@property(readonly) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
 @property(readonly) PHPhotoLibrary *photoLibrary;
-@property(readonly) CLSServiceManager *serviceManager;
 
 @end
 

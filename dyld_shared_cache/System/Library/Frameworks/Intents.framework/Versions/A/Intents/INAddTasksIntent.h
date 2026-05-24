@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INContactEventTrigger, INSpatialEventTrigger, INTaskList, INTemporalEventTrigger, NSArray, NSString;
+@class NSArray;
 
 @interface INAddTasksIntent : INIntent
 {
@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -39,35 +39,19 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)y">24;
 - (void);
 - (id);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)HDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/dsa/dsa_prn.c;
 - (id);
 - (id);
 - (long long)tæõÿ;
 
 // Remaining properties
-@property(copy) INContactEventTrigger *contactEventTrigger;
 @property(copy) NSArray *contactEventTriggers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INIntent *intent;
-@property(readonly) long long priority;
-@property(readonly, copy) INSpatialEventTrigger *spatialEventTrigger;
-@property(readonly) Class superclass;
-@property(readonly, copy) INTaskList *targetTaskList;
-@property(copy) NSArray *targetTaskListMembers;
-@property long long taskReference;
-@property(readonly, copy) NSArray *taskTitles;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger;
 
 @end
 

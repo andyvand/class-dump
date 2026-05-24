@@ -17,13 +17,10 @@
 - (int);
 - (double);
 - (void);
-- (void);
+- (void)	;
 - (int);
 
 // Remaining properties
-@property(nonatomic) double a;
-@property(nonatomic) int b;
-@property(nonatomic) int g;
 @property(nonatomic) int r;
 
 @end

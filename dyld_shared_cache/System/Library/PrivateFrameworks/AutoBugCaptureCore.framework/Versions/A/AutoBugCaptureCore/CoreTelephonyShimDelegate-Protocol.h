@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyShimDelegate
+
+@optional
+- (void)h;
+- (void);
 @end
 

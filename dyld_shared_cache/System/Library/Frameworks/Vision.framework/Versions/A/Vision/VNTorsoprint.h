@@ -6,7 +6,7 @@
 
 #import <Vision/VNEspressoModelImageprint.h>
 
-@class NSData, NSString, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 @interface VNTorsoprint : VNEspressoModelImageprint
 {
@@ -32,30 +32,18 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (id)initWithQuery:(id)arg1 domainIDs:desiredNumberOfResults: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (float);
+- (float)replaceObjectsInRange:withObjectsFromArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintByteLength;
-@property(readonly) NSData *VNEntityIdentificationModelPrintData;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementCount;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementType;
 @property(readonly, copy) VNRequestSpecifier *VNEntityIdentificationModelPrintOriginatingRequestSpecifier;
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

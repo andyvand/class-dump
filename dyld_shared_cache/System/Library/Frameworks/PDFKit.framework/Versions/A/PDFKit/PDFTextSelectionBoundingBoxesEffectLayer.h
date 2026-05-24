@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDFPage;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFTextSelectionBoundingBoxesEffectLayer
 {
     PDFPage *_page;
-    long long _displayBox;
-    struct CGRect _cropBox;
-    NSMutableArray *_addedSublayers;
 }
 
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (id);
+- (id)setNumberOfTimesPrimaryResidentChangedHH2:(id)arg1;
 - (void);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)setAllowsContentAccessibilityIndicator: /* Error: Ran out of types for this method. */;
 
 @end
 

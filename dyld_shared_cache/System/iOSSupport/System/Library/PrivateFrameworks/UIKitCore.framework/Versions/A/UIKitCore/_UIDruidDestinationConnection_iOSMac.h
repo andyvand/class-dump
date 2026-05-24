@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DUIPotentialDrop;
 @protocol UINSDropSession;
 
 __attribute__((visibility("hidden")))
 @interface _UIDruidDestinationConnection_iOSMac
 {
     id <UINSDropSession> _externalSession;
-    _DUIPotentialDrop *_lastPotentialDrop;
-    unsigned long long _requestedDropOperation;
-    unsigned int _sessionIdentifier;
-    CDUnknownBlockType _connectionBlock;
-    CDUnknownBlockType _dragEndBlock;
-    CDUnknownBlockType _dropPerformBlock;
-    CDUnknownBlockType _handOffDroppedItemsBlock;
-    CDUnknownBlockType _dragPreviewProviderBlock;
-    CDUnknownBlockType _itemsAddedBlock;
-    CDUnknownBlockType _updatedPresentationBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
+- (void)ay"8q16@"NSError"24;
+- (void)imulatedEntryConfiguration"24@?<v@?@"NSError">32;
+- (void)@0:(CDUnknownBlockType)arg1 8@16@24C32@36@44@52@60@68;
+- (void)28@36@?44;
+- (void)Impl";
+- (void)ispatch_queue>";
+- (void)setCurrentParticipants:(CDUnknownBlockType)arg1;
+- (void)setCurrentGroupName:(CDUnknownBlockType)arg1;
+- (void)setCKOperationFactory:(unsigned long long)arg1;
+- (id)conversationManager:(unsigned int)arg1 conversation:(_Bool)arg2 receivedActivitySessionEvent: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_relayMessageToPairedDevice:messageID:hasAttachments: /* Error: Ran out of types for this method. */;
+- (void)_findChatWinnerInDuplicateChatArray:fixDisplayName: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_deviceAllowedToDisableRelay: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_convergeChat:fromValidationError:recipients:groupID:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_constructRecoverableMessageRecordIDUsingTombStoneDictionary: /* Error: Ran out of types for this method. */;
+- (void)_automation_updateAlternateHandle:(id)arg1 forChatBotHandle:refreshUI: /* Error: Ran out of types for this method. */;
+- (id)o token data found {key:%@} /* Error: Ran out of types for this method. */;
+- (id)For Local Devices that are nearby;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -55,21 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ\;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionBlock; // @synthesize connectionBlock=_connectionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dragEndBlock; // @synthesize dragEndBlock=_dragEndBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragPreviewProviderBlock; // @synthesize dragPreviewProviderBlock=_dragPreviewProviderBlock;
-@property(copy, nonatomic) CDUnknownBlockType dropPerformBlock; // @synthesize dropPerformBlock=_dropPerformBlock;
-@property(copy, nonatomic) CDUnknownBlockType handOffDroppedItemsBlock; // @synthesize handOffDroppedItemsBlock=_handOffDroppedItemsBlock;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType itemsAddedBlock; // @synthesize itemsAddedBlock=_itemsAddedBlock;
 @property(readonly, nonatomic) unsigned int sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updatedPresentationBlock; // @synthesize updatedPresentationBlock=_updatedPresentationBlock;
 
 @end
 

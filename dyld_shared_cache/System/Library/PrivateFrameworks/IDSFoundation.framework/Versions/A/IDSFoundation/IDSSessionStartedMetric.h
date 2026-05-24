@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSSessionStartedMetric
 {
     unsigned int _clientType;
-    NSString *_guid;
-    NSNumber *_protocolVersionNumber;
-    NSString *_serviceName;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (id)ÿþNðÿ;
 - (void)nding SKE data %p, ignore.;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int clientType; // @synthesize clientType=_clientType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *protocolVersionNumber; // @synthesize protocolVersionNumber=_protocolVersionNumber;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

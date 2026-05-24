@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class CNContactStore;
 
 @interface TUSearchController
 {
     struct os_unfair_lock_s _searchModulesLock;
-    NSMutableSet *_idsDestinations;
-    CNContactStore *_contactStore;
-    NSMutableDictionary *_searchModules;
-    NSMutableArray *_recentsModules;
-    NSObject<OS_dispatch_queue> *_searchQueue;
 }
 
-+ (id)on;
++ (id)isConversation;
 - (void);
 - (void);
 - (id);
@@ -40,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSMutableArray *recentsModules; // @synthesize recentsModules=_recentsModules;
-@property(retain, nonatomic) NSMutableDictionary *searchModules; // @synthesize searchModules=_searchModules;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *searchQueue; // @synthesize searchQueue=_searchQueue;
 
 @end
 

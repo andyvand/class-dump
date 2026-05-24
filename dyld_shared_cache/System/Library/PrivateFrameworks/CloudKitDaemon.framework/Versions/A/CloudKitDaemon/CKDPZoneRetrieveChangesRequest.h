@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKDPZoneRetrieveChangesRequest
 {
     unsigned int _maxChangedZones;
-    NSData *_syncContinuationToken;
-    struct {
-        unsigned int maxChangedZones:1;
-    } _has;
 }
 
 + (id);
@@ -24,23 +18,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)interruptibleStreamWrapper_bufferedClientUpdateNotificationCallback;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
-- (Class)pe:container:config:reportingCompletionBlock: /* Error: Ran out of types for this method. */;
+- (Class)metricOptionsForEventMetric:metricType:container:config:reportingCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxChangedZones;
 @property(readonly, nonatomic) _Bool hasSyncContinuationToken;
-@property(nonatomic) unsigned int maxChangedZones; // @synthesize maxChangedZones=_maxChangedZones;
-@property(retain, nonatomic) NSData *syncContinuationToken; // @synthesize syncContinuationToken=_syncContinuationToken;
 
 @end
 

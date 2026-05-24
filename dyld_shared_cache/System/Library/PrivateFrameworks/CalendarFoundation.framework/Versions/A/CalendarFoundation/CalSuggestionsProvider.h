@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol SGSuggestionsServiceEventsProtocol;
-
 @interface CalSuggestionsProvider
 {
     _Bool _suggestionsFrameworkAvailable;
-    NSObject<SGSuggestionsServiceEventsProtocol> *_service;
 }
 
-+ (id);
++ (id)h;
 - (_Bool);
 - (id);
 - (id);
@@ -31,7 +27,6 @@
 - (void)com.apple.private.calendar.syncclient;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<SGSuggestionsServiceEventsProtocol> *service; // @synthesize service=_service;
 @property(nonatomic) _Bool suggestionsFrameworkAvailable; // @synthesize suggestionsFrameworkAvailable=_suggestionsFrameworkAvailable;
 
 @end

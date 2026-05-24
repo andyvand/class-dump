@@ -9,42 +9,28 @@
 @interface ISDRecordIdMapDatabase : ISDDatabase
 {
     struct sqlite3_stmt *_addMappingStatement;
-    struct sqlite3_stmt *_allMappingsStatement;
-    struct sqlite3_stmt *_allGlobalIdsStatement;
-    struct sqlite3_stmt *_allLocalIdsStatement;
-    struct sqlite3_stmt *_countMappingsStatement;
-    struct sqlite3_stmt *_getMappingForGlobalIdStatement;
-    struct sqlite3_stmt *_getMappingForLocalIdStatement;
-    struct sqlite3_stmt *_removeMappingsForEntityNamesStatement;
-    struct sqlite3_stmt *_removeMappingsForGlobalIdsStatement;
-    struct sqlite3_stmt *_removeOneMappingForGlobalIdStatement;
-    struct sqlite3_stmt *_addUnknownRecordTypeStatement;
-    struct sqlite3_stmt *_getUnknownRecordIdsStatement;
-    struct sqlite3_stmt *_getUnknownTypeForRecordIdStatement;
-    struct sqlite3_stmt *_removeUnknownRecordTypeStatement;
-    struct sqlite3_stmt *_removeAllUnknownRecordsTypeStatement;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (unsigned int);
 - (id);
+- (id);
 - (id);
+- (id)?;
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 
 @end

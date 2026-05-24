@@ -11,8 +11,6 @@
 @interface PHImportAvchdAsset : PHImportAsset
 {
     NSString *_fileName;
-    NSString *_clipIndex;
-    id _avchdAssetId;
 }
 
 + (void);
@@ -20,11 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (_Bool);

@@ -7,13 +7,16 @@
 @class HAPAccessoryServer;
 
 @protocol HAPAccessoryServerDelegate
+- (void);
+- (void)e#loadAssets loading model;
 - (void)
 × ;
-- (void)oNotifyForCameraReachabilityForAccessory:(HAPAccessoryServer *)arg1;
+- (void)devicesToNotifyForCameraReachabilityForAccessory:(HAPAccessoryServer *)arg1;
 - (void)°×Ë;
 - (void)th invalid home UUID string:(HAPAccessoryServer *)arg1 %@;
 
 @optional
-- (void)error:(HAPAccessoryServer *)arg1;
+- (void)/;
+- (void)unarchivedObjectOfClasses:(HAPAccessoryServer *)arg1 fromData:(_Bool)arg2 error:(long long)arg3;
 @end
 

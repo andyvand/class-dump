@@ -11,13 +11,13 @@
     NSArray *_results;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)xE7g;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;

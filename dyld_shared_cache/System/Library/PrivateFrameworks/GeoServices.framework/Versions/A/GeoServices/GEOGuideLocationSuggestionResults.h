@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)initWithAccountStore: /* Error: Ran out of types for this method. */;
 - (void)3Þ4;
 
 // Remaining properties

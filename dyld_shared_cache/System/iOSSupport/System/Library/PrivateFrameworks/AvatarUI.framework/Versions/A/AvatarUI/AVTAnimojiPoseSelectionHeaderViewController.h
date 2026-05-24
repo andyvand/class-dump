@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerConfiguration, AVTView, AVTViewUpdater, UIColor;
+@class UIColor;
 @protocol AVTAvatarRecord;
 
 @interface AVTAnimojiPoseSelectionHeaderViewController
 {
     UIColor *_captureBackgroundColorOverride;
-    id <AVTAvatarRecord> _avatarRecord;
-    AVTView *_avtView;
-    AVTStickerConfiguration *_displayedConfiguration;
-    AVTViewUpdater *_viewUpdater;
-    UIColor *_avtCaptureBackgroundColor;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -35,16 +30,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)rScheduler;
+- (void)unionSet: /* Error: Ran out of types for this method. */;
+- (id)_stickerScheduler;
 - (void)onStyle;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) UIColor *avtCaptureBackgroundColor; // @synthesize avtCaptureBackgroundColor=_avtCaptureBackgroundColor;
-@property(retain, nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
-@property(retain, nonatomic) AVTStickerConfiguration *displayedConfiguration; // @synthesize displayedConfiguration=_displayedConfiguration;
-@property(retain, nonatomic) AVTViewUpdater *viewUpdater; // @synthesize viewUpdater=_viewUpdater;
 
 @end
 

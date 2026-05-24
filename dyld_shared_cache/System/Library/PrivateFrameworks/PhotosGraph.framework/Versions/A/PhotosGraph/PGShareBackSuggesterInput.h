@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, NSTimeZone, PHAsset;
+@class NSDate;
 
 @interface PGShareBackSuggesterInput
 {
     NSDate *_creationDate;
-    NSTimeZone *_timeZone;
-    double _latitude;
-    double _longitude;
-    double _horizontalAccuracy;
-    NSString *_localIdentifier;
 }
 
-+ (id);
-+ (id);
++ (id)performDefaultAction;
++ (id)focusedElementControllerForApplication:(id)arg1;
 + (id);
 - (id);
-- (id);
+- (id)__function6__funcIZ44-[FIAirDropListViewController configureView]E3$_4FvvEEE;
 - (id);
 - (id);
 - (double)0@ù
 × ;
-- (id)pensPartiallyAtHomeOrWorkOfPersonNodes: /* Error: Ran out of types for this method. */;
-- (id)mileType: /* Error: Ran out of types for this method. */;
+- (id)happensPartiallyAtHomeOrWorkOfPersonNodes: /* Error: Ran out of types for this method. */;
+- (id)_floatVectorForFaceSmileType: /* Error: Ran out of types for this method. */;
 - (void)s:%@ /* Error: Ran out of types for this method. */;
 - (double)üÿ¨üÿÌüÿðüÿüÿ8üÿ\üÿüÿ¤üÿÈüÿìüÿüÿ4üÿXüÿ|üÿ üÿÄüÿèüÿüÿ0üÿTüÿxüÿüÿÀüÿäüÿüÿ,üÿPüÿtüÿüÿ¼üÿàüÿüÿ(üÿLüÿpüÿüÿ¸üÿÜüÿ;
-- (double)eueC;
+- (double)So17OS_dispatch_queueC;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
 @property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) NSDate *localCreationDate;
-@property(readonly, nonatomic) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

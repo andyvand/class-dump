@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSSQLCore, PFCloudKitMetadataMigrationContext, PFMetricsClient;
+@class NSSQLCore;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitMetadataModelMigrator
 {
     NSSQLCore *_store;
-    NSManagedObjectContext *_metadataContext;
-    PFCloudKitMetadataMigrationContext *_context;
-    long long _databaseScope;
-    PFMetricsClient *_metricsClient;
 }
 
 - (void);
-- (id);
+- (id)1;
 
 @end
 

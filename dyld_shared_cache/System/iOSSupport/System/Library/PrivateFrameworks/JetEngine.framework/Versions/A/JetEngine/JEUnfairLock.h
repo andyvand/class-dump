@@ -11,7 +11,7 @@
 
 + (void)
 &;
-- (id);
+- (id)searchFocusPage;
 - (void)ne;
 - (void)!ms
 2;

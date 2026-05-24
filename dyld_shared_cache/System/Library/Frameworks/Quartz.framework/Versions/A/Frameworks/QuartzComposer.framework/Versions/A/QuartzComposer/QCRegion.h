@@ -7,8 +7,6 @@
 @interface QCRegion
 {
     struct CGRect _bounds;
-    void *_region;
-    void *_unused[4];
 }
 
 + (id);
@@ -24,16 +22,16 @@
 - (id);
 - (id);
 - (id);
+- (id)@ykA;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void *);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (struct CGSRegionObject *);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -46,12 +44,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setWithObject:(struct CGRect)arg1;
 - (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)hasBackgroundImage;
 
 @end
 

@@ -6,35 +6,25 @@
 
 #import <PhotosFormats/PFCachingArchiveIndex.h>
 
-@class NSString;
-
 @interface PFTimeZoneLookup : PFCachingArchiveIndex
 {
     struct unique_ptr<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>, std::default_delete<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>> _backingFile;
-    const void *_timezones;
-    const void *_rtree;
 }
 
 - (_Bool);
 - (unique_ptr_70a5b3c4);
-- (unsigned long long);
+- (unsigned long long)setScheme: /* Error: Ran out of types for this method. */;
 - (const char *);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ZN11cnframework12ActiveObjectIN5raven37RavenConvergenceEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_26AccessoryVehicleSpeedEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (struct CLLocationCoordinate2D);
-- (void);
+- (void)initWithContentRect:styleMask:backing:defer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

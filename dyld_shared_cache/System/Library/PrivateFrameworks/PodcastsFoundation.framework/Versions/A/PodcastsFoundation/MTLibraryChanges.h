@@ -9,7 +9,6 @@
 @interface MTLibraryChanges
 {
     NSString *_contextName;
-    NSMutableDictionary *_changesByEntityName;
 }
 
 - (void);
@@ -31,12 +30,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)g;
+- (void)Sg;
 - (_Bool)èÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *changesByEntityName; // @synthesize changesByEntityName=_changesByEntityName;
-@property(readonly, nonatomic) NSString *contextName; // @synthesize contextName=_contextName;
 
 @end
 

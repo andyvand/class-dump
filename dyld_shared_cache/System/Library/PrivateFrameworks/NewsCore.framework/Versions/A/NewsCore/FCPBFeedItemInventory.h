@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBDate;
-
 @interface FCPBFeedItemInventory
 {
     unsigned int _feedItemVersion;
-    NSMutableArray *_feedItems;
-    unsigned int _inventoryVersion;
-    unsigned long long _scoringVersion;
-    NSString *_tabiVersion;
-    NTPBDate *_lastRefreshed;
-    struct {
-        unsigned int feedItemVersion:1;
-        unsigned int inventoryVersion:1;
-        unsigned int scoringVersion:1;
-    } _has;
 }
 
 - (id);
@@ -36,20 +24,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Render/DGDescription+Geometry.m;
 - (_Bool);
-- (_Bool);
+- (_Bool).;
 - (id);
-- (id);
-- (id)recordData;
+- (id)ws client version is too new:%@ /* Error: Ran out of types for this method. */;
+- (id)_recordData;
 
 // Remaining properties
-@property(nonatomic) unsigned int feedItemVersion; // @synthesize feedItemVersion=_feedItemVersion;
-@property(retain, nonatomic) NSMutableArray *feedItems; // @synthesize feedItems=_feedItems;
 @property(nonatomic) unsigned int inventoryVersion; // @synthesize inventoryVersion=_inventoryVersion;
-@property(retain, nonatomic) NTPBDate *lastRefreshed; // @synthesize lastRefreshed=_lastRefreshed;
-@property(nonatomic) unsigned long long scoringVersion; // @synthesize scoringVersion=_scoringVersion;
-@property(retain, nonatomic) NSString *tabiVersion; // @synthesize tabiVersion=_tabiVersion;
 
 @end
 

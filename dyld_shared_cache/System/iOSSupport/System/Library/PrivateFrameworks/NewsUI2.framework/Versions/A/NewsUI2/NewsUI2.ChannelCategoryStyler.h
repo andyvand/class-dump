@@ -7,10 +7,6 @@
 @interface NewsUI2.ChannelCategoryStyler
 {
     id baseStyler;
-    id feedNavImageStyler;
-    id colorPaletteProvider;
-    id headlineFontMetrics;
-    id subtitleFontMetrics;
 }
 
 @end

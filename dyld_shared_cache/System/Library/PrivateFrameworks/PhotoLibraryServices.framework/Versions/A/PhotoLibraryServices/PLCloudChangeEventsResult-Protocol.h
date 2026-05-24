@@ -5,7 +5,7 @@
 //
 
 @protocol PLCloudChangeEventsResult
-- (id)hasChangesForCloudShared: /* Error: Ran out of types for this method. */;
+- (id)_hasChangesForCloudShared: /* Error: Ran out of types for this method. */;
 - (id)è;
 @end
 

@@ -6,34 +6,28 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CLSAdminRequest : CLSObject
 {
     NSString *_organizationID;
-    long long _type;
-    long long _status;
-    long long _approval;
-    NSString *_requestorID;
-    NSString *_bundleIdentifier;
-    NSDate *_dateCompleted;
-    NSString *_responderNote;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)@9;
 + (long long);
 + (id);
 + (id);
 + (long long);
 + (long long);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
++ (_Bool)_appleAccountInfo;
+- (void)re than what's available in the pool. Buf size = %ld;
+- (void)overrun;
+- (void)processDramLogStatsBuffer;
+- (void)ANEDebugWorkProcessor:(long long)arg1:startReceive /* Error: Ran out of types for this method. */;
+- (id)l pending requests back from kernel. remaining:%d.
+ /* Error: Ran out of types for this method. */;
+- (id)ANEClientLoggerThread;
 - (id);
 - (void);
 - (id);
@@ -41,29 +35,22 @@
 - (long long);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)JA;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (long long);
+- (long long)(ƅRƥr;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long approval; // @synthesize approval=_approval;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSDate *dateCompleted; // @synthesize dateCompleted=_dateCompleted;
 @property(copy, nonatomic) NSString *organizationID; // @synthesize organizationID=_organizationID;
-@property(copy, nonatomic) NSString *requestorID; // @synthesize requestorID=_requestorID;
-@property(copy, nonatomic) NSString *responderNote; // @synthesize responderNote=_responderNote;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

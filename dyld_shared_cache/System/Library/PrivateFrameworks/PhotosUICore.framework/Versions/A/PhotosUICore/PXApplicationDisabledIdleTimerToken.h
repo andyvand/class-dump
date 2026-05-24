@@ -9,19 +9,17 @@
 @interface PXApplicationDisabledIdleTimerToken
 {
     unsigned int _powerAssertionID;
-    NSString *_reason;
 }
 
 - (unsigned int);
 - (id);
-- (id);
+- (id)etterSubscriptionStatus; ;
 - (id);
 - (id);
 - (void)É
 ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int powerAssertionID; // @synthesize powerAssertionID=_powerAssertionID;
 @property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

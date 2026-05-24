@@ -10,8 +10,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTime *bedtime;
-@property(readonly, nonatomic) _Bool hasBedtime;
-@property(nonatomic) _Bool hasOverride;
-@property(nonatomic) _Bool override;
 @end
 

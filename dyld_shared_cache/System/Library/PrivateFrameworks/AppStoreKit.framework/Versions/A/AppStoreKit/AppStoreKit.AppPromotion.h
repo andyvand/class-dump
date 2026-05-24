@@ -7,10 +7,6 @@
 @interface AppStoreKit.AppPromotion
 {
     id promotionType;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
-    id clickAction;
 }
 
 @end

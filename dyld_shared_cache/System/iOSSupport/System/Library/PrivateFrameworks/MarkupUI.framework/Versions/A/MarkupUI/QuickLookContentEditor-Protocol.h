@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFindInteraction, UIView;
+@class UIView;
 @protocol QuickLookContentEditorDelegate;
 
 @protocol QuickLookContentEditor
-- (UIView *)nary:toDictionary: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)@@@@@@@;
+- (void)!;
+- (unsigned long long)safari_substringFromPrefix: /* Error: Ran out of types for this method. */;
+- (UIView *)readQuaddingFromPDFDictionary:toDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canEncryptDocument;
 @property(nonatomic) __weak id <QuickLookContentEditorDelegate> delegate;
-@property(readonly, nonatomic) _Bool documentIsLocked;
-@property(readonly, nonatomic) NSString *filledInfoButtonGlyphName;
-@property(readonly, nonatomic) UIFindInteraction *findInteraction;
-@property(readonly, nonatomic) NSString *infoButtonGlyphName;
-@property(nonatomic) unsigned long long presentationMode;
-@property(nonatomic) _Bool shouldEnterVisualSearchAfterNextAnalysis;
-@property(nonatomic) _Bool shouldHighlightTextAndDDAfterNextAnalysis;
-@property(nonatomic) _Bool shouldUpliftSubjectAfterNextAnalysis;
-@property(readonly, nonatomic) UIView *transitioningView;
 @end
 

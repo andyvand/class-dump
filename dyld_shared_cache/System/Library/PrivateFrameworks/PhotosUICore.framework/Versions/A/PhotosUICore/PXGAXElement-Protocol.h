@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect axFrame;
-@property(readonly, nonatomic) _Bool axIsSelected;
 @end
 

@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPShareIdentifier, NSData, NSString;
+@class NSString;
 
 @interface CKDPShareVettingInitiateRequest
 {
     NSString *_baseToken;
-    NSData *_encryptedKey;
-    NSString *_participantId;
-    CKDPShareIdentifier *_shareId;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
+- (void),N,Vdelegate;
+- (id);
+- (_Bool)apple.Animoji.Analytics.FunCamApp.;
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)X;
+- (void);
+- (unsigned long long)lume fade request:skipping hose [%{ptr}] isLocal (%s)
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -37,18 +35,11 @@
 - (void);
 - (id);
 - (void);
-- (Class)WithObjects: /* Error: Ran out of types for this method. */;
+- (Class)initWithObjects: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *baseToken; // @synthesize baseToken=_baseToken;
-@property(retain, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(readonly, nonatomic) _Bool hasBaseToken;
-@property(readonly, nonatomic) _Bool hasEncryptedKey;
-@property(readonly, nonatomic) _Bool hasParticipantId;
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(retain, nonatomic) NSString *participantId; // @synthesize participantId=_participantId;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
 
 @end
 

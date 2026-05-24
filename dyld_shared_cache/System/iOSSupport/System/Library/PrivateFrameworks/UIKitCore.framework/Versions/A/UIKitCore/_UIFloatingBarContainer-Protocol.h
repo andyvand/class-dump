@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIScrollPocketCollectorInteraction;
-@protocol _UIFloatingBarContainerDelegate;
-
 @protocol _UIFloatingBarContainer
+- (void)service:(unsigned long long)arg1 account:incomingTopLevelMessage:fromID:messageContext: /* Error: Ran out of types for this method. */;
+- (void)removeFailedEditsFrom:(unsigned long long)arg1;
+- (unsigned long long)Managing>",&,N,V_syncedSettingsManager;
+- (unsigned long long)ndleCG;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setAdjacentBarEdges:) unsigned long long _adjacentBarEdges;
-@property(nonatomic, setter=_setEdgesRequiringContentMargin:) unsigned long long _edgesRequiringContentMargin;
-@property(nonatomic) __weak id <_UIFloatingBarContainerDelegate> delegate;
-@property(retain, nonatomic) _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
 @property(readonly) double toolbarOverlayInset;
 @end
 

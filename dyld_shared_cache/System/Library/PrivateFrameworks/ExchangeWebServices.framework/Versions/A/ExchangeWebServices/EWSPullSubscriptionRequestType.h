@@ -9,18 +9,16 @@
 @interface EWSPullSubscriptionRequestType : EWSBaseSubscriptionRequestType
 {
     _Bool _TimeoutIsSpecified;
-    long long _Timeout;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long Timeout; // @synthesize Timeout=_Timeout;
-@property(nonatomic) _Bool TimeoutIsSpecified; // @synthesize TimeoutIsSpecified=_TimeoutIsSpecified;
 
 @end
 

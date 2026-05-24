@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAttachmentPersistenceManager, EDBIMIManager, EDBusinessCloudStorage, EDBusinessPersistence, EDCategorizationSyncManager, EDCategoryPersistence, EDConversationPersistence, EDDataDetectionPersistence, EDGmailLabelPersistence, EDLocalActionPersistence, EDMailboxActionPersistence, EDMailboxPersistence, EDMessageChangeManager, EDMessagePersistence, EDPersistenceDatabase, EDReadLaterPersistence, EDRemindMeNotificationController, EDRemoteContentCacheConfiguration, EDRemoteContentManager, EDRemoteContentPersistence, EDRichLinkPersistence, EDSearchableIndexDiagnosticsController, EDSearchableIndexManager, EDSenderPersistence, EDServerMessagePersistenceFactory, EDVIPManager, EMRemoteContentURLCache, EMRemoteContentURLSession, MEContentRuleListManager;
-@protocol EDAccountsProvider, EDSearchProvider;
+@protocol EDAccountsProvider;
 
 @interface MFPersistence_macOS
 {
     id <EDAccountsProvider> _accountsProvider;
-    EDAttachmentPersistenceManager *_attachmentPersistenceManager;
-    EDConversationPersistence *_conversationPersistence;
-    EDPersistenceDatabase *_database;
-    EDGmailLabelPersistence *_gmailLabelPersistence;
-    EDLocalActionPersistence *_localActionPersistence;
-    EDMailboxPersistence *_mailboxPersistence;
-    EDMessageChangeManager *_messageChangeManager;
-    EDMessagePersistence *_messagePersistence;
-    EDSenderPersistence *_senderPersistence;
-    EDSearchableIndexManager *_searchableIndexManager;
-    EDServerMessagePersistenceFactory *_serverMessagePersistenceFactory;
-    EDRemoteContentManager *_remoteContentManager;
-    EDRemoteContentPersistence *_remoteContentPersistence;
-    EDRemoteContentCacheConfiguration *_remoteContentCacheConfiguration;
-    EMRemoteContentURLCache *_remoteContentURLCache;
-    EMRemoteContentURLSession *_remoteContentURLSession;
-    EDRichLinkPersistence *_richLinkPersistence;
-    MEContentRuleListManager *_contentRuleListManager;
-    EDReadLaterPersistence *_readLaterPersistence;
-    EDDataDetectionPersistence *_dataDetectionPersistence;
-    EDMailboxActionPersistence *_mailboxActionPersistence;
-    EDBIMIManager *_bimiManager;
-    EDRemindMeNotificationController *_remindMeNotificationController;
-    EDVIPManager *_vipManager;
-    id <EDSearchProvider> _searchProvider;
-    EDBusinessPersistence *_businessPersistence;
-    EDBusinessCloudStorage *_businessCloudStorage;
-    EDSearchableIndexDiagnosticsController *_diagnosticsController;
-    EDCategorizationSyncManager *_categorizationSyncManager;
-    EDCategoryPersistence *_categoryPersistence;
 }
 
 + (id))_Í,)tG;
@@ -49,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)) $@!,E;
 - (id);
 - (id);
 - (id);
@@ -67,22 +36,23 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)};
+- (void);
+- (id)hread_pool_start) pool %p orphaning ctbl
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)';
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)ailboxName: /* Error: Ran out of types for this method. */;
-- (id)o0abC4ItemCt;
+- (id)_pathComponentForMailboxName: /* Error: Ran out of types for this method. */;
+- (id)So23ECTransferMessageActionC_So0abC4ItemCt;
 - (id)ID %lld;
 - (void);
 

@@ -20,32 +20,32 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)h;
++ (id)Q(_;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (void)E;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)c;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)p;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)handleBackTabInTextEditorForAnnotation:forAnnotationController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSDictionary *imagesForTags; // @synthesize imagesForTags=_imagesForTags;

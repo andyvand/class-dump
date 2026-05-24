@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessoryTaskContext, NSArray, NSDate, NSMapTable, NSNumber, NSString;
+@class HMDHAPAccessoryTaskContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryTask
 {
     HMDHAPAccessoryTaskContext *_context;
-    NSArray *_requests;
-    NSMapTable *_requestToResponseMap;
-    CDUnknownBlockType _completion;
-    NSDate *_executionTime;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)captureUserAction:(id)arg1 target:(CDUnknownBlockType)arg2 value: /* Error: Ran out of types for this method. */;
+- (void)EntryStorage",R,N,V_storage;
+- (id)ing validation;
 - (id);
 - (id);
 - (void);
@@ -35,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)nephewOrCousin;
 - (id);
 - (id);
 - (id);
@@ -50,23 +46,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)È<ÿ`!Ä!A;
 
 // Remaining properties
-@property(readonly) NSArray *characteristicResponses;
-@property(readonly) unsigned long long completedRequestsCount;
-@property(readonly) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly) HMDHAPAccessoryTaskContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDate *executionTime; // @synthesize executionTime=_executionTime;
-@property(readonly) double executionTimeInterval;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNumber *identifier;
-@property(readonly) NSMapTable *requestToResponseMap; // @synthesize requestToResponseMap=_requestToResponseMap;
-@property(readonly) NSArray *requests; // @synthesize requests=_requests;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long taskType;
 
 @end
 

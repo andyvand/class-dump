@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSObject;
+@class NSError, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDResponseBodyParser
 {
     NSObject<OS_dispatch_queue> *_parseQueue;
-    NSData *_parserData;
-    _Bool _testRepeatedParseResults;
-    NSError *_parserError;
-    CDUnknownBlockType _objectParsedBlock;
-    long long _qualityOfService;
 }
 
 - (_Bool);
@@ -22,9 +17,9 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (CDUnknownBlockType)4hR;
+- (id)dex:%p, suspended:%s, readOnly:%d /* Error: Ran out of types for this method. */;
+- (void)CheckClause:(id)arg1 %@;
 - (void);
 - (long long);
 - (id);
@@ -34,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType objectParsedBlock; // @synthesize objectParsedBlock=_objectParsedBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *parseQueue;
-@property(retain, nonatomic) NSData *parserData;
 @property(retain, nonatomic) NSError *parserError; // @synthesize parserError=_parserError;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) _Bool testRepeatedParseResults; // @synthesize testRepeatedParseResults=_testRepeatedParseResults;
 
 @end
 

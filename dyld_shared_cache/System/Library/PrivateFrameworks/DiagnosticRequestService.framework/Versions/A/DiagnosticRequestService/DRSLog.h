@@ -9,34 +9,28 @@
 @interface DRSLog
 {
     _Bool _transferOwnership;
-    NSString *_path;
-    unsigned long long _size;
 }
 
 + (Class);
-+ (id)WithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)J;
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAvailableOnDisk;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly, nonatomic) _Bool transferOwnership; // @synthesize transferOwnership=_transferOwnership;
 
 @end
 

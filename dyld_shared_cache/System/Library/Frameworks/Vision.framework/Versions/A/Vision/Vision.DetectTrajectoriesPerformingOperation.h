@@ -7,11 +7,6 @@
 @interface Vision.DetectTrajectoriesPerformingOperation
 {
     id requests;
-    id options;
-    id regionOfInterest;
-    id processor;
-    id uuid;
-    id descriptor;
 }
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface PLAggregateEntry
 {
     short _aggregateFunction;
-    NSString *_entryKey;
-    NSMutableDictionary *_matchingKeyToValue;
-    NSArray *_otherAggregateKeys;
-    NSString *_aggregateKey;
-    double _aggregateValue;
 }
 
 - (id);
@@ -31,17 +26,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)e;
+- (id)t;
 - (void);
 
 // Remaining properties
-@property short aggregateFunction; // @synthesize aggregateFunction=_aggregateFunction;
-@property(retain) NSString *aggregateKey; // @synthesize aggregateKey=_aggregateKey;
-@property double aggregateValue; // @synthesize aggregateValue=_aggregateValue;
 @property(retain) NSString *entryKey; // @synthesize entryKey=_entryKey;
-@property(retain, nonatomic) NSMutableDictionary *matchingKeyToValue; // @synthesize matchingKeyToValue=_matchingKeyToValue;
-@property(retain) NSArray *otherAggregateKeys; // @synthesize otherAggregateKeys=_otherAggregateKeys;
 
 @end
 

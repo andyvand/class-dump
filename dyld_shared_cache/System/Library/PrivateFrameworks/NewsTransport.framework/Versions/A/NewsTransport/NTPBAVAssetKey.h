@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBDate;
+@class NTPBDate;
 
 @interface NTPBAVAssetKey
 {
     NTPBDate *_createdAt;
-    NTPBDate *_expiresAt;
-    NSString *_identifier;
-    NSData *_keyData;
 }
 
 @end

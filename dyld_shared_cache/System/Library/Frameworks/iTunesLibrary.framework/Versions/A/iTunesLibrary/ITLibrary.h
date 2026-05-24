@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPArtworkClient, AMPLFrameworkClient, NSArray, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString, NSURL;
+@class AMPLFrameworkClient;
 
 @interface ITLibrary
 {
     _Bool _libraryLoaded;
-    AMPLFrameworkClient *_libraryClient;
-    AMPArtworkClient *_artworkClient;
-    unsigned long long _mediaDomains;
-    unsigned long long _initOptions;
-    NSString *_libraryFilePath;
-    unsigned long long _loadedMediaDomains;
-    NSDictionary *_mediaDomainResultsInfo;
-    NSNumber *_persistentID;
-    NSArray *_cachedMediaItems;
-    NSArray *_cachedPlaylists;
-    NSArray *_cachedArtists;
-    NSArray *_cachedAlbums;
-    NSArray *_cachedGenres;
-    NSDictionary *_cachedItemMap;
-    NSMutableDictionary *_cachedPlayableItemMap;
-    NSDictionary *_cachedMigratedPodcastSettings;
-    NSDate *_lastModifiedDate;
 }
 
 + (id);
@@ -34,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -51,8 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -71,7 +54,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -102,8 +85,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -133,7 +116,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -150,7 +133,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)copyFramePropertiesFrom:(id)arg1 index:inFormat:outFormat: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -159,45 +142,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)|;
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (id);
+- (id);
+- (unsigned long long)4@0:8@"Protocol"16 /* Error: Ran out of types for this method. */;
+- (void)needsGmailLablesCleanup;
+- (void)eSecurity.framework/Versions/A/MessageSecurity;
 - (id);
 - (_Bool)llptr;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *allMediaItems;
-@property(readonly, retain, nonatomic) NSArray *allPlaylists;
-@property(readonly, nonatomic) unsigned long long apiMajorVersion;
-@property(readonly, nonatomic) unsigned long long apiMinorVersion;
-@property(readonly, copy, nonatomic) NSString *applicationVersion;
-@property(retain, nonatomic) AMPArtworkClient *artworkClient; // @synthesize artworkClient=_artworkClient;
-@property(retain, nonatomic) NSArray *cachedAlbums; // @synthesize cachedAlbums=_cachedAlbums;
-@property(retain, nonatomic) NSArray *cachedArtists; // @synthesize cachedArtists=_cachedArtists;
-@property(retain, nonatomic) NSArray *cachedGenres; // @synthesize cachedGenres=_cachedGenres;
-@property(retain, nonatomic) NSDictionary *cachedItemMap; // @synthesize cachedItemMap=_cachedItemMap;
-@property(retain, nonatomic) NSArray *cachedMediaItems; // @synthesize cachedMediaItems=_cachedMediaItems;
-@property(retain, nonatomic) NSDictionary *cachedMigratedPodcastSettings; // @synthesize cachedMigratedPodcastSettings=_cachedMigratedPodcastSettings;
-@property(retain, nonatomic) NSMutableDictionary *cachedPlayableItemMap; // @synthesize cachedPlayableItemMap=_cachedPlayableItemMap;
-@property(retain, nonatomic) NSArray *cachedPlaylists; // @synthesize cachedPlaylists=_cachedPlaylists;
-@property(readonly, nonatomic) unsigned long long features;
-@property(nonatomic) unsigned long long initOptions; // @synthesize initOptions=_initOptions;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 @property(retain, nonatomic) AMPLFrameworkClient *libraryClient; // @synthesize libraryClient=_libraryClient;
-@property(retain, nonatomic) NSString *libraryFilePath; // @synthesize libraryFilePath=_libraryFilePath;
-@property(nonatomic) _Bool libraryLoaded; // @synthesize libraryLoaded=_libraryLoaded;
-@property(nonatomic) unsigned long long loadedMediaDomains; // @synthesize loadedMediaDomains=_loadedMediaDomains;
-@property(retain, nonatomic) NSDictionary *mediaDomainResultsInfo; // @synthesize mediaDomainResultsInfo=_mediaDomainResultsInfo;
-@property(nonatomic) unsigned long long mediaDomains; // @synthesize mediaDomains=_mediaDomains;
-@property(readonly, copy, nonatomic) NSURL *mediaFolderLocation;
-@property(readonly, copy, nonatomic) NSURL *musicFolderLocation;
-@property(retain, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic, getter=shouldShowContentRating) _Bool showContentRating;
 
 @end
 

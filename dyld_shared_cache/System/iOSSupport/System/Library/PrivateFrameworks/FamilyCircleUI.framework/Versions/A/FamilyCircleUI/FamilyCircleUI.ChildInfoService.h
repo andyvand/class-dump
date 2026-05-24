@@ -7,6 +7,7 @@
 @interface FamilyCircleUI.ChildInfoService
 {
     id altDSIDList;
+    id;
 }
 
 @end

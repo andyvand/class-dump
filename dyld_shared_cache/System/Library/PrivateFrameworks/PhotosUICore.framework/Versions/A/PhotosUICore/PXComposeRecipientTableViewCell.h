@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextField, PXComposeRecipientTableCellModel, PXRoundImageView;
-@protocol PXComposeRecipientTableViewCellDelegate;
+@class PXComposeRecipientTableCellModel, PXRoundImageView;
 
 @interface PXComposeRecipientTableViewCell
 {
     PXRoundImageView *_imageView;
-    NSTextField *_nameLabel;
-    NSTextField *_addressLabel;
-    NSButton *_checkbox;
-    PXComposeRecipientTableCellModel *_cellModel;
-    id <PXComposeRecipientTableViewCellDelegate> _delegate;
 }
 
 - (id);
@@ -33,14 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXComposeRecipientTableCellModel *cellModel; // @synthesize cellModel=_cellModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXComposeRecipientTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

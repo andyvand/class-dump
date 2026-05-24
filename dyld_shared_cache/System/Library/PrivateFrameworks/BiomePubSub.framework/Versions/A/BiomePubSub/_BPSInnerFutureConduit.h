@@ -7,29 +7,22 @@
 #import <BiomePubSub/BPSSubscription.h>
 
 @class BPSFuture;
-@protocol BPSSubscriber;
 
 @interface _BPSInnerFutureConduit : BPSSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _hasAnyDemand;
-    _Bool _released;
-    BPSFuture *_parent;
-    id <BPSSubscriber> _downstream;
-    long long _identifity;
 }
 
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (void);
@@ -39,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool hasAnyDemand; // @synthesize hasAnyDemand=_hasAnyDemand;
-@property(nonatomic) long long identifity; // @synthesize identifity=_identifity;
 @property(retain, nonatomic) BPSFuture *parent; // @synthesize parent=_parent;
-@property(nonatomic) _Bool released; // @synthesize released=_released;
 
 @end
 

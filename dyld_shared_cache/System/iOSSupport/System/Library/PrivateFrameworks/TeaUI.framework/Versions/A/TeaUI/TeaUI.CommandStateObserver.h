@@ -7,7 +7,6 @@
 @interface TeaUI.CommandStateObserver
 {
     id closure;
-    id keepAliveObject;
 }
 
 @end

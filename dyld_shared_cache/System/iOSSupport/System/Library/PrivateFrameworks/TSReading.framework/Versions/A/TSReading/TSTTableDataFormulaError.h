@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ICCloudServiceStatusCapabilitiesDidChangeNotification;
 
 @end
 

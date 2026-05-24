@@ -6,21 +6,12 @@
 
 #import <WPDaemon/WPDManager.h>
 
-@class CBPeripheralManager, NSDictionary, NSObject, NSString, NSUUID, WPAdvertisingRequest;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WPDObjectDiscoveryManager : WPDManager
 {
     _Bool _scanning;
-    _Bool _scanningDisabled;
-    _Bool _advertising;
-    _Bool _advAllowlisted;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    CBPeripheralManager *_peripheralManager;
-    WPAdvertisingRequest *_advertRequest;
-    NSUUID *_advertClientUUID;
-    NSDictionary *_advertOptions;
-    unsigned long long _advertHash;
 }
 
 - (id);
@@ -37,15 +28,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (id);
 - (_Bool);
@@ -60,23 +51,7 @@
 - (_Bool)%@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool advAllowlisted; // @synthesize advAllowlisted=_advAllowlisted;
-@property __weak NSUUID *advertClientUUID; // @synthesize advertClientUUID=_advertClientUUID;
-@property unsigned long long advertHash; // @synthesize advertHash=_advertHash;
-@property(retain) NSDictionary *advertOptions; // @synthesize advertOptions=_advertOptions;
-@property(retain) WPAdvertisingRequest *advertRequest; // @synthesize advertRequest=_advertRequest;
-@property _Bool advertising; // @synthesize advertising=_advertising;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) CBPeripheralManager *peripheralManager; // @synthesize peripheralManager=_peripheralManager;
-@property(readonly) _Bool scanning; // @synthesize scanning=_scanning;
-@property _Bool scanningDisabled; // @synthesize scanningDisabled=_scanningDisabled;
 @property(readonly) __weak NSObject<OS_dispatch_queue> *serverQueue; // @synthesize serverQueue=_serverQueue;
-@property(readonly) Class superclass;
 
 @end
 

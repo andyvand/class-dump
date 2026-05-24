@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIViewController;
-@protocol CKAppCardPresentationOverseerDelegate, CKBrowserViewControllerProtocol;
-
 @interface CKAppCardPresentationOverseer
 {
     _Bool isKeyboardAnimatingIn;
-    _Bool isAppCardAnimatingIn;
-    id pluginContext;
-    void delegate;
-    double appCardDismissPadding;
-    id container;
-    _Bool presentationBegan;
-    _Bool isPreventingKeyboardPresentation;
-    id presentingViewController;
-    id sendDelegate;
-    id tracker;
-    id failsafeKeyboardAnimationStateTimer;
-    void keyboardNotificationObservers;
 }
 
 - (void);
@@ -29,27 +14,27 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)So6ICNoteCSgXwz_Xx;
+- (void)So20ICPaperSearchIndexerCSgXwz_Xx;
+- (void)So13AVAudioEngineC;
+- (void)ScPSg;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)";
+- (_Bool)a;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)d;
+- (void)a;
+- (id)1.0, maximum-scale=1.0" />        <style>            %@        </style>    </head>    <body id="editor">    </body></html>;
+- (_Bool)tication authenticateBiometricsWithPrompt:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)Window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)hentication authenticateWithPrompt:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)CustomPassword;
+- (_Bool)ResetPassword;
+- (_Bool)ICCalculateDocumentControllerRemoved;
+- (_Bool)otificationController coalesceMentions:] /* Error: Ran out of types for this method. */;
+- (id)ppearance"8;
 - (void);
 - (void);
 - (void);
@@ -74,22 +59,7 @@
 - (void)B603;
 
 // Remaining properties
-@property(nonatomic) double appCardDismissPadding; // @synthesize appCardDismissPadding;
-@property(nonatomic, readonly) UIViewController<CKBrowserViewControllerProtocol> *browserViewController;
-@property(nonatomic, readonly) UIViewController *containerViewController;
-@property(nonatomic) __weak id <CKAppCardPresentationOverseerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isAppCardAnimatingIn; // @synthesize isAppCardAnimatingIn;
-@property(nonatomic, readonly) _Bool isExpanded;
-@property(nonatomic) _Bool isKeyboardAnimatingIn; // @synthesize isKeyboardAnimatingIn;
 @property(nonatomic, readonly) _Bool isPresentingBarelyVisibleAppCard;
-@property(nonatomic, readonly) _Bool isPresentingCard;
-@property(nonatomic, readonly) _Bool isPresentingInSendMenuPopover;
-@property(nonatomic, readonly) _Bool isPresentingInSheetController;
-@property(nonatomic) _Bool isPreventingKeyboardPresentation; // @synthesize isPreventingKeyboardPresentation;
-@property(nonatomic, copy) NSArray *keyboardNotificationObservers;
-@property(nonatomic) _Bool presentationBegan; // @synthesize presentationBegan;
-@property(nonatomic, readonly) _Bool presentedAppBypassesSendMenu;
-@property(nonatomic, readonly) _Bool shouldAnimateDismissal;
 
 @end
 

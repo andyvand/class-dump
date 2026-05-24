@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPSectionedCollection, NSError, NSOperationQueue;
+@class NSOperationQueue;
 
 @protocol MPCModelStorePlaybackItemsRequestAccumulator
+- (void)__DATA_CONST;
+- (unsigned int);
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
+- (long long)canSaveAccount:inStore:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (NSOperationQueue *)1Â0@ù
 × ;
 - (struct MPCModelStorePlaybackItemsRequestAccumulatorResult)rDefaults";
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *accumulationError;
-@property(readonly, nonatomic) struct MPCModelStorePlaybackItemsRequestAccumulatorResult accumulatorResult;
-@property(readonly, nonatomic) long long failedIDsCount;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue;
-@property(readonly, nonatomic) long long pendingIDsCount;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics;
 @property(readonly, nonatomic) unsigned int piaTag;
-@property(readonly, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors;
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImage;
+@class NSArray;
 @protocol DOCItemActivityPerformer;
 
 @interface DOCActivity
 {
     id <DOCItemActivityPerformer> _actionPerformerProxy;
-    NSArray *_items;
-    NSString *_identifier;
-    NSString *_imageName;
-    UIImage *_image;
-    NSString *_localizedTitle;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,18 +25,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
+- (id)ilename TEXT, uti TEXT, mime_type TEXT, transfer_state INTEGER DEFAULT 0, is_outgoing INTEGER DEFAULT 0, user_info BLOB, transfer_name TEXT, total_bytes INTEGER DEFAULT -1);;
+- (void)?;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)string missing for first-day-of-month string for calendar:'%@', locale:'%@' /* Error: Ran out of types for this method. */;
+- (void)%@;
 - (id);
 - (void);
 - (void);
@@ -49,12 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) id <DOCItemActivityPerformer> actionPerformerProxy; // @synthesize actionPerformerProxy=_actionPerformerProxy;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

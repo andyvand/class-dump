@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSessionProvider, CMIOExtensionStreamCustomClockConfiguration, NSArray, NSMutableDictionary, NSSet, NSString, NSUUID;
-@protocol CMIOExtensionSessionStreamDelegate;
+@class CMIOExtensionSessionProvider;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSessionStream
 {
     struct os_unfair_lock_s _lock;
-    id <CMIOExtensionSessionStreamDelegate> _delegate;
-    NSMutableDictionary *_propertyStates;
-    NSSet *_availableProperties;
-    CMIOExtensionStreamCustomClockConfiguration *_customClockConfiguration;
-    NSArray *_formats;
-    _Bool _streaming;
-    NSUUID *_streamID;
-    NSString *_description;
-    _Bool _invalidated;
-    unsigned int _activeFormatMediaType;
-    NSString *_localizedName;
-    long long _direction;
-    long long _clockType;
-    unsigned long long _activeFormatIndex;
-    CMIOExtensionSessionProvider *_provider;
 }
 
 + (id);
@@ -36,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)4;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -51,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)alAccessPointCount;
 - (id);
 - (id);
 - (void);
@@ -64,18 +48,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeFormatIndex; // @synthesize activeFormatIndex=_activeFormatIndex;
-@property(readonly, nonatomic) unsigned int activeFormatMediaType; // @synthesize activeFormatMediaType=_activeFormatMediaType;
-@property(readonly, copy, nonatomic) NSSet *availableProperties;
-@property(readonly, nonatomic) long long clockType; // @synthesize clockType=_clockType;
-@property(readonly, copy, nonatomic) CMIOExtensionStreamCustomClockConfiguration *customClockConfiguration; // @synthesize customClockConfiguration=_customClockConfiguration;
-@property(nonatomic) __weak id <CMIOExtensionSessionStreamDelegate> delegate;
-@property(readonly, nonatomic) long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) NSArray *formats;
-@property(nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 @property(readonly, nonatomic) __weak CMIOExtensionSessionProvider *provider; // @synthesize provider=_provider;
-@property(readonly, copy, nonatomic) NSUUID *streamID; // @synthesize streamID=_streamID;
 
 @end
 

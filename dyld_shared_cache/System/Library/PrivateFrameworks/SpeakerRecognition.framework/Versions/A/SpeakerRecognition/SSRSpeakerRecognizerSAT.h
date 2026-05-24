@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SSRSpeakerAnalyzerSAT, SSRSpeakerRecognitionContext;
-@protocol SSRSpeakerRecognizerDelegate;
+@class SSRSpeakerRecognitionContext;
 
 @interface SSRSpeakerRecognizerSAT
 {
     _Bool _processingEnded;
-    SSRSpeakerRecognitionContext *_spIdCtx;
-    NSString *_sessionId;
-    NSDictionary *_lastSpeakerInfo;
-    id <SSRSpeakerRecognizerDelegate> _delegate;
-    NSString *_invocationStyleStr;
-    unsigned long long _extraSamplesAtStart;
-    unsigned long long _tdEndInSampleCount;
-    unsigned long long _totalNumSamplesReceived;
-    unsigned long long _numTdTiSamplesProcessed;
-    SSRSpeakerAnalyzerSAT *_satAnalyzer;
 }
 
 - (void);
@@ -43,38 +32,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)O;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRSpeakerRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long extraSamplesAtStart; // @synthesize extraSamplesAtStart=_extraSamplesAtStart;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *invocationStyleStr; // @synthesize invocationStyleStr=_invocationStyleStr;
-@property(readonly, nonatomic) NSDictionary *lastScoreCard;
-@property(retain, nonatomic) NSDictionary *lastSpeakerInfo; // @synthesize lastSpeakerInfo=_lastSpeakerInfo;
-@property(nonatomic) unsigned long long numTdTiSamplesProcessed; // @synthesize numTdTiSamplesProcessed=_numTdTiSamplesProcessed;
-@property(nonatomic) _Bool processingEnded; // @synthesize processingEnded=_processingEnded;
-@property(retain, nonatomic) SSRSpeakerAnalyzerSAT *satAnalyzer; // @synthesize satAnalyzer=_satAnalyzer;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
 @property(retain, nonatomic) SSRSpeakerRecognitionContext *spIdCtx; // @synthesize spIdCtx=_spIdCtx;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tdEndInSampleCount; // @synthesize tdEndInSampleCount=_tdEndInSampleCount;
-@property(nonatomic) unsigned long long totalNumSamplesReceived; // @synthesize totalNumSamplesReceived=_totalNumSamplesReceived;
 
 @end
 

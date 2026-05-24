@@ -6,28 +6,12 @@
 
 #import <UIKitCore/UIMenuElement.h>
 
-@class BKSHIDEventDeferringEnvironment, NSArray, NSAttributedString, NSPointerArray, NSString, UIImage, UISPasteVariant, _UIMenuLeafKeyboardShortcut;
-@protocol UIPopoverPresentationControllerSourceItem;
-
 @interface UIAction : UIMenuElement
 {
     _Bool _allowsGlobeKeyModifier;
-    NSPointerArray *stateObservers;
-    id _sender;
-    UIImage *_selectedImage;
-    long long _repeatBehavior;
-    NSArray *_leafAlternates;
-    _UIMenuLeafKeyboardShortcut *_keyboardShortcut;
-    long long _enumerationPriority;
-    long long _systemBehaviorsToOutPrioritize;
-    NSString *_discoverabilityTitle;
-    NSString *_identifier;
-    unsigned long long _attributes;
-    long long _state;
-    CDUnknownBlockType _handler;
 }
 
-- (void);
+- (void)pdated activity result %d;
 - (id);
 - (void);
 - (void);
@@ -35,18 +19,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)u%s
+;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)clusterCompositionForOutputDevice: /* Error: Ran out of types for this method. */;
+- (void)braryView",C,N,V_libraryView;
+- (id)Cloud library enabled state did change [%{BOOL}u -> %{BOOL}u] - Posting notifications [MPCloudControllerIsCloudEnabledDidChangeNotification];
 - (_Bool);
 - (id);
 - (void);
@@ -63,20 +48,20 @@
 × ;
 - (id)GùgÐ1Â0@ù
 × ;
-- (void)lientSettings;
-- (long long)etMaintainsFixedSize: /* Error: Ran out of types for this method. */;
-- (unsigned long long)HeaderData:forSection: /* Error: Ran out of types for this method. */;
-- (_Bool)thContextIds:(id)arg1 count:frame:baseTransform: /* Error: Ran out of types for this method. */;
-- (void)IfPossible;
-- (id)art: /* Error: Ran out of types for this method. */;
-- (long long)tion;
-- (void)wableSeparation;
-- (id)kgroundMaterial:(id)arg1;
-- (id)ilineContextWidth: /* Error: Ran out of types for this method. */;
-- (id)or:(id)arg1;
-- (id)butes: /* Error: Ran out of types for this method. */;
-- (void)eCoordinatorSceneComponent;
-- (void)nt;
+- (void)uiClientSettings;
+- (long long)setMaintainsFixedSize: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setHeaderData:forSection: /* Error: Ran out of types for this method. */;
+- (_Bool)createIOSurfaceOnScreen:(id)arg1 withContextIds:count:frame:baseTransform: /* Error: Ran out of types for this method. */;
+- (void)addRootViewControllerViewIfPossible;
+- (id)addAnimations:withDuration:start: /* Error: Ran out of types for this method. */;
+- (long long)_transitionViewForCurrentTransition;
+- (void)_touchesExceedAllowableSeparation;
+- (id)_setWantsDynamicBackgroundMaterial:(id)arg1;
+- (id)_setMultilineContextWidth: /* Error: Ran out of types for this method. */;
+- (id)_setImpactFeedbackGenerator:(id)arg1;
+- (id)_originalAttributesForView:comparedToIdleModeAttributes: /* Error: Ran out of types for this method. */;
+- (void)_hdrUsageCoordinatorSceneComponent;
+- (void)preBackdropTint;
 - (CDUnknownBlockType)ôðô;
 - (id)Ä$&	';
 - (void)x5;
@@ -89,35 +74,7 @@
 - (void)¨jj;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier; // @synthesize _allowsGlobeKeyModifier;
-@property(nonatomic, setter=_setEnumerationPriority:) long long _enumerationPriority; // @synthesize _enumerationPriority;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *_eventDeferringEnvironment;
-@property(retain, nonatomic, setter=_setKeyboardShortcut:) _UIMenuLeafKeyboardShortcut *_keyboardShortcut; // @synthesize _keyboardShortcut;
-@property(copy, nonatomic, setter=_setLeafAlternates:) NSArray *_leafAlternates; // @synthesize _leafAlternates;
-@property(readonly, nonatomic) UISPasteVariant *_pasteVariant;
-@property(nonatomic) long long _systemBehaviorsToOutPrioritize; // @synthesize _systemBehaviorsToOutPrioritize;
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
-@property(nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *discoverabilityTitle; // @synthesize discoverabilityTitle=_discoverabilityTitle;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) UIImage *image; // @dynamic image;
-@property(readonly, nonatomic) _Bool keepsMenuPresented;
-@property(readonly, nonatomic) id <UIPopoverPresentationControllerSourceItem> presentationSourceItem;
-@property(nonatomic) long long repeatBehavior; // @synthesize repeatBehavior=_repeatBehavior;
-@property(copy, nonatomic) UIImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(readonly, nonatomic) id sender; // @synthesize sender=_sender;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic, getter=_getStateObservers, setter=_setStateObservers:) NSPointerArray *stateObservers; // @synthesize stateObservers;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

@@ -8,8 +8,6 @@
 {
     id _cMaterialSegmentationProvider;
     id _cMaterialSegmentationConfiguration;
-    id materialSegmentationDataContinuations;
-    id updateQueue;
 }
 
 @end

@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
     } _matrixPluginFlags;
 }
 
-+ (_Bool);
++ (_Bool)or output (TFO), suppressing connected event;
 - (Class);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)7l0BaQsNxJCanoeHMJ2huA;
+- (id);
 - (id);
 - (void);
 - (unsigned long long);

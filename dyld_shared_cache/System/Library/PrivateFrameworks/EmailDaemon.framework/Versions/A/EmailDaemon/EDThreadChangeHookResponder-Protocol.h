@@ -5,5 +5,9 @@
 //
 
 @protocol EDThreadChangeHookResponder
+
+@optional
+- (void)$;
+- (void)s;
 @end
 

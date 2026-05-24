@@ -6,28 +6,17 @@
 
 #import <Safari/KeyLoopSplicingContainerView.h>
 
-@class CABackdropLayer, NSString, NSView, ViewActionForwardingLayerDelegate;
+@class ViewActionForwardingLayerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TabBarViewButton : KeyLoopSplicingContainerView
 {
     ViewActionForwardingLayerDelegate *_layerDelegate;
-    NSView *_backgroundView;
-    NSView *_topBorderView;
-    NSView *_leadingTopBorderView;
-    NSView *_trailingTopBorderView;
-    NSView *_leftBorderView;
-    NSView *_rightBorderView;
-    CABackdropLayer *_backdropLayer;
-    _Bool _active;
-    _Bool _usesOffscreenRendering;
-    _Bool _forcesActiveWindowState;
-    unsigned long long _tabButtonState;
 }
 
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,10 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSString *backdropGroupName;
-@property(nonatomic) _Bool forcesActiveWindowState; // @synthesize forcesActiveWindowState=_forcesActiveWindowState;
-@property(nonatomic) unsigned long long tabButtonState; // @synthesize tabButtonState=_tabButtonState;
-@property(nonatomic) _Bool usesOffscreenRendering; // @synthesize usesOffscreenRendering=_usesOffscreenRendering;
 
 @end
 

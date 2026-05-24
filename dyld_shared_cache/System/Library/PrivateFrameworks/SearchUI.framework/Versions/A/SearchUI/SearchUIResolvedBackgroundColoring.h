@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SearchUIColorRequest, TLKAppearance;
+@class NSArray;
 
 @interface SearchUIResolvedBackgroundColoring
 {
     _Bool _preferKeylineForShadowBasedViews;
-    int _tintStyle;
-    NSArray *_tintedUIColors;
-    NSArray *_originalUIColors;
-    TLKAppearance *_bestForegroundAppearanceForBackgroundColors;
-    SearchUIColorRequest *_colorRequest;
 }
 
 - (id);
@@ -27,15 +22,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)HH;
 - (void);
 
 // Remaining properties
-@property(retain) TLKAppearance *bestForegroundAppearanceForBackgroundColors; // @synthesize bestForegroundAppearanceForBackgroundColors=_bestForegroundAppearanceForBackgroundColors;
-@property(retain) SearchUIColorRequest *colorRequest; // @synthesize colorRequest=_colorRequest;
-@property(retain) NSArray *originalUIColors; // @synthesize originalUIColors=_originalUIColors;
-@property _Bool preferKeylineForShadowBasedViews; // @synthesize preferKeylineForShadowBasedViews=_preferKeylineForShadowBasedViews;
-@property int tintStyle; // @synthesize tintStyle=_tintStyle;
 @property(retain) NSArray *tintedUIColors; // @synthesize tintedUIColors=_tintedUIColors;
 
 @end

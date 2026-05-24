@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void)%@;
+- (void)ObjectID"8@"NSManagedObjectID"16^B24;
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

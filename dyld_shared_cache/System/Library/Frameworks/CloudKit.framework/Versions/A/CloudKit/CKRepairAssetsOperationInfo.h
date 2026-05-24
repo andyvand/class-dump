@@ -6,20 +6,14 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class CKUploadRequestConfiguration, NSArray;
+@class CKUploadRequestConfiguration;
 
 @interface CKRepairAssetsOperationInfo : CKDatabaseOperationInfo
 {
     CKUploadRequestConfiguration *_uploadRequestConfiguration;
-    NSArray *_assets;
-    NSArray *_packages;
-    NSArray *_assetMetadata;
-    NSArray *_packageMetadata;
-    NSArray *_unavailableAssets;
-    NSArray *_unavailablePackages;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -40,12 +34,6 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetMetadata; // @synthesize assetMetadata=_assetMetadata;
-@property(retain, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(retain, nonatomic) NSArray *packageMetadata; // @synthesize packageMetadata=_packageMetadata;
-@property(retain, nonatomic) NSArray *packages; // @synthesize packages=_packages;
-@property(retain, nonatomic) NSArray *unavailableAssets; // @synthesize unavailableAssets=_unavailableAssets;
-@property(retain, nonatomic) NSArray *unavailablePackages; // @synthesize unavailablePackages=_unavailablePackages;
 @property(retain, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
 
 @end

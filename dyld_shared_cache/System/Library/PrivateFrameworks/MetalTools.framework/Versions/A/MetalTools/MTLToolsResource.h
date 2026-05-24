@@ -6,13 +6,9 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLToolsHeap, NSString;
-@protocol MTLDevice, MTLHeap;
-
 @interface MTLToolsResource : MTLToolsObject
 {
     unsigned long long _options;
-    MTLToolsHeap *_heap;
 }
 
 - (void);
@@ -32,7 +28,7 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (int);
 - (unsigned long long);
@@ -48,27 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

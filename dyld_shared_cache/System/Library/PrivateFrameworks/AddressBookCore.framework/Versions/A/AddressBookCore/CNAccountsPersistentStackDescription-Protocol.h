@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol CNAccountsPersistentStackDescription
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSArray *stores;

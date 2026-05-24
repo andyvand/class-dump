@@ -6,19 +6,12 @@
 
 #import <NearField/NFConnectionHandoverController.h>
 
-@class NFConnectionHandoverRequest, NFReaderSession, NFTag, NFTimer, NSData, NSObject, NSString;
+@class NSObject;
 @protocol NFConnectionHandoverInitiatorDelegate;
 
 @interface NFConnectionHandoverInitiator : NFConnectionHandoverController
 {
     NSObject<NFConnectionHandoverInitiatorDelegate> *_delegate;
-    NFReaderSession *_readerSession;
-    NFTag *_connectedTag;
-    NFConnectionHandoverRequest *_delayRequest;
-    CDUnknownBlockType _delayRequestCompletion;
-    NFTimer *_delayRequestTimer;
-    NFTimer *_tagConnectionTimer;
-    NSData *_ecpFrame;
 }
 
 + (id);
@@ -36,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,14 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<NFConnectionHandoverInitiatorDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

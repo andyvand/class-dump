@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface PKReceipt
 {
     NSMutableDictionary *_receiptDictionary;
-    NSString *_bomPath;
-    void *_cachedBOM;
-    NSString *_bundlePath;
-    _Bool _isSecure;
 }
 
 + (id);
@@ -50,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)93;
 - (void);
 - (void);
 - (_Bool);
@@ -63,7 +59,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (id);

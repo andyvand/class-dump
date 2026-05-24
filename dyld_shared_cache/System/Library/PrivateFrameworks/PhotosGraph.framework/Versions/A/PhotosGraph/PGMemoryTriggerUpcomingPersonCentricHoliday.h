@@ -11,16 +11,13 @@
 @interface PGMemoryTriggerUpcomingPersonCentricHoliday : PGHolidayMemoryTrigger
 {
     PGGraphMemoryNodeCollection *_allSingleMomentMemoryNodes;
-    PGGraphMemoryNodeCollection *_singleMomentMemoryNodesWithPartner;
-    PGGraphMemoryNodeCollection *_singleMomentMemoryNodesWithMother;
-    PGGraphMemoryNodeCollection *_singleMomentMemoryNodesWithFather;
 }
 
 - (id);
+- (id)ation;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)L;
+- (unsigned long long)lecal;
 - (void);
 
 @end

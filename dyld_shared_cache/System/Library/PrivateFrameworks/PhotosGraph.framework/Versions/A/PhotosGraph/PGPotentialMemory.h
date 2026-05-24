@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSDictionary, NSSet, NSString, PGGraphMomentNode, PGGraphMomentNodeCollection, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PGPotentialMemory
 {
     _Bool _generatedWithFallbackRequirements;
-    PHAssetCollection *_assetCollection;
-    PGGraphMomentNode *_momentNode;
-    NSSet *_momentNodes;
-    long long _sourceType;
-    unsigned long long _category;
-    unsigned long long _subcategory;
-    double _score;
-    NSDate *_localDate;
-    CLLocation *_location;
-    NSSet *_peopleUUIDs;
-    NSString *_eventName;
-    double _contentScore;
-    NSDate *_localStartDate;
-    NSDate *_localEndDate;
-    NSDate *_universalStartDate;
-    NSDate *_universalEndDate;
-    NSSet *_features;
-    unsigned long long _memoryCategorySubcategory;
-    NSSet *_momentIDs;
-    NSDictionary *_numberOfAssetsByMomentIDs;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -42,72 +22,43 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)initWithString:(unsigned long long)arg1 tokenizerUnit:(unsigned long long)arg2 locale:(id)arg3;
+- (id)initWithString:(unsigned long long)arg1 tokenizerUnit:(unsigned long long)arg2;
+- (id)initWithStartPosition:(unsigned long long)arg1 endPosition:(unsigned long long)arg2;
+- (_Bool)_selectedRowsChanged: /* Error: Ran out of types for this method. */;
 - (double);
+- (double);
+- (id)ary/BuildRoots/4~CNpfugCqAkKaPhovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c;
+- (void);
+- (void);
+- (void);
+- (void)H;
+- (void);
+- (unsigned long long)_9	kC;
+- (id);
+- (id)6;
+- (id);
+- (unsigned long long);
+- (void);
+- (id)8t;
+- (id);
+- (void)userDefinedContentBlockerManager;
+- (id);
+- (id);
+- (unsigned long long);
 - (double);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (double);
-- (void);
-- (void)edupingWithOptions:(id)arg1;
-- (id)rForAgeCategories:includingMe: /* Error: Ran out of types for this method. */;
+- (void)useFaceprintsForIdenticalDedupingWithOptions:(id)arg1;
+- (id)filterForAgeCategories:includingMe: /* Error: Ran out of types for this method. */;
 - (void)@"PHShareParticipant",&,N,V_shareParticipant;
 - (void)QIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerPersonAnniversary.m;
 - (id)ts passed to PGUpNextComputer;
-- (void)tosGraph;
+- (void)photosGraph;
 - (long long);
 - (void)ÀëóÿNå~-;
 
 // Remaining properties
 @property(retain) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property unsigned long long category; // @synthesize category=_category;
-@property double contentScore; // @synthesize contentScore=_contentScore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *eventName; // @synthesize eventName=_eventName;
-@property(retain, nonatomic) NSSet *features; // @synthesize features=_features;
-@property(readonly, nonatomic) _Bool generatedWithFallbackRequirements; // @synthesize generatedWithFallbackRequirements=_generatedWithFallbackRequirements;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *localDate; // @synthesize localDate=_localDate;
-@property(readonly) NSDate *localEndDate; // @synthesize localEndDate=_localEndDate;
-@property(readonly) NSDate *localStartDate; // @synthesize localStartDate=_localStartDate;
-@property(retain) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) unsigned long long memoryCategory;
-@property(readonly, nonatomic) unsigned long long memoryCategorySubcategory; // @synthesize memoryCategorySubcategory=_memoryCategorySubcategory;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *memoryMomentNodes;
-@property(readonly) NSSet *momentIDs; // @synthesize momentIDs=_momentIDs;
-@property(retain) PGGraphMomentNode *momentNode; // @synthesize momentNode=_momentNode;
-@property(retain, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(readonly) NSDictionary *numberOfAssetsByMomentIDs; // @synthesize numberOfAssetsByMomentIDs=_numberOfAssetsByMomentIDs;
-@property(retain) NSSet *peopleUUIDs; // @synthesize peopleUUIDs=_peopleUUIDs;
-@property double score; // @synthesize score=_score;
-@property long long sourceType; // @synthesize sourceType=_sourceType;
-@property unsigned long long subcategory; // @synthesize subcategory=_subcategory;
-@property(readonly) Class superclass;
-@property(readonly) NSDate *universalEndDate; // @synthesize universalEndDate=_universalEndDate;
-@property(readonly) NSDate *universalStartDate; // @synthesize universalStartDate=_universalStartDate;
 
 @end
 

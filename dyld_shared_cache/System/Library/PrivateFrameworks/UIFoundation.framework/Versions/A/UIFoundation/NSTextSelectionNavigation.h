@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class __NSTextSelectionLineFragmentInfo;
-@protocol NSTextSelectionDataSource, NSTextSelectionDataSourcePrivate;
+@protocol NSTextSelectionDataSource;
 
 @interface NSTextSelectionNavigation
 {
     id <NSTextSelectionDataSource> _textSelectionDataSource;
-    __NSTextSelectionLineFragmentInfo *_lineFragmentInfoCache[8];
-    long long _multipleSelectionAnchor;
-    _Bool _supportsLayoutOrientation;
-    _Bool _supportsContainer;
-    _Bool _allowsNonContiguousRanges;
-    _Bool _rotatesCoordinateSystemForLayoutOrientation;
-    _Bool _prefersVisuallyContiguousNavigation;
 }
 
 + (id);
 + (void);
-+ (void)lineOffsetInLayoutManager:glyphIndex: /* Error: Ran out of types for this method. */;
++ (void)baselineOffsetInLayoutManager:glyphIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -38,15 +30,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
-- (id);
+- (id)of %zu instead of %zu.;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)2No;
 - (id);
 - (_Bool);
 - (id);
@@ -58,10 +50,10 @@
 - (id);
 - (unsigned char);
 - (id);
-- (double);
+- (double)ode for container %@;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -69,12 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool _isVisuallyContiguousNavigation; // @dynamic _isVisuallyContiguousNavigation;
-@property _Bool allowsNonContiguousRanges; // @synthesize allowsNonContiguousRanges=_allowsNonContiguousRanges;
-@property _Bool prefersVisuallyContiguousNavigation; // @synthesize prefersVisuallyContiguousNavigation=_prefersVisuallyContiguousNavigation;
-@property _Bool rotatesCoordinateSystemForLayoutOrientation; // @synthesize rotatesCoordinateSystemForLayoutOrientation=_rotatesCoordinateSystemForLayoutOrientation;
 @property __weak id <NSTextSelectionDataSource> textSelectionDataSource; // @synthesize textSelectionDataSource=_textSelectionDataSource;
-@property(readonly) __weak id <NSTextSelectionDataSourcePrivate> textSelectionDataSourcePrivate;
 
 @end
 

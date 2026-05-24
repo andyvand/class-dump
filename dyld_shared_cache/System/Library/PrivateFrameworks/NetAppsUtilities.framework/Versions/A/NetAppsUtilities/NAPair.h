@@ -7,18 +7,16 @@
 @interface NAPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(readonly) id first; // @synthesize first=_first;
-@property(readonly) id second; // @synthesize second=_second;
 
 @end
 

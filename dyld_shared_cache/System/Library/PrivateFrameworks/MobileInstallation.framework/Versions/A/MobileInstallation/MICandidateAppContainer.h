@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *appURL; // @synthesize appURL=_appURL;
-@property(readonly, nonatomic) _Bool isPlaceholder;
 
 @end
 

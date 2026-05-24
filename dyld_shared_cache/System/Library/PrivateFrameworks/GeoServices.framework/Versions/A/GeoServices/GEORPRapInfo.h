@@ -4,54 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPRapResponse, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPRapInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_rapId;
-    GEORPRapResponse *_rapResponse;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _rapDisplayMenu;
-    _Bool _isReviewed;
-    struct {
-        unsigned int has_rapDisplayMenu:1;
-        unsigned int has_isReviewed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_rapId:1;
-        unsigned int read_rapResponse:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setLineShapeIncorrect:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)fullNameIncludingPrefix:suffix:nickname:company: /* Error: Ran out of types for this method. */;
+- (id)floatValue;
+- (id)fixupToOneRelationshipToOwnerByDeletingAllButOneForCustomProperty:(int)arg1;
+- (int)fixupToOneRelationshipToOwnerByDeletingAllButOneForCustomProperty: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)t";
+- (void)CSSiriClientBehaviorMonitor",&,N,V_siriClientBehaviorMonitor;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -66,14 +50,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsReviewed;
-@property(nonatomic) _Bool hasRapDisplayMenu;
-@property(readonly, nonatomic) _Bool hasRapId;
-@property(readonly, nonatomic) _Bool hasRapResponse;
-@property(nonatomic) _Bool isReviewed;
-@property(nonatomic) int rapDisplayMenu;
-@property(retain, nonatomic) NSString *rapId;
-@property(retain, nonatomic) GEORPRapResponse *rapResponse;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

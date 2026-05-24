@@ -6,32 +6,16 @@
 
 #import <MailUI/MessageItemViewModel.h>
 
-@class EMFollowUp, MUIAvatarImageContext, MUIAvatarImageGenerator, NSArray, NSAttributedString, NSDate, NSDictionary, NSIndexSet, NSString;
-@protocol EMCollectionItemID;
+@class NSDictionary;
 
 @interface MessageListCellViewModel : MessageItemViewModel
 {
     _Bool _subjectIsPresent;
-    _Bool _addressIsPresent;
-    _Bool _hideFollowUp;
-    _Bool _allowAuthenticationWarning;
-    NSDictionary *_hintsBySnippetZone;
-    long long _style;
-    long long _recipientType;
-    NSString *_subject;
-    NSString *_address;
-    NSAttributedString *_attributedAddress;
-    NSArray *_addressList;
-    NSArray *_emailAddresses;
-    NSString *_categorizationState;
-    MUIAvatarImageContext *_avatarContext;
-    MUIAvatarImageGenerator *_avatarGenerator;
-    id <EMCollectionItemID> _itemID;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)@qa;
 - (void);
 - (void);
 - (void);
@@ -47,8 +31,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)!;
 - (_Bool);
 - (id);
 - (long long);
@@ -56,57 +40,17 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)e1;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)eCachedMetadataJSON: /* Error: Ran out of types for this method. */;
+- (void)setIncludeCachedMetadataJSON: /* Error: Ran out of types for this method. */;
 - (id)àÿÿÿìµþÿäcóÿÐK;
 - (id)AyN;
 
 // Remaining properties
-@property(nonatomic, getter=isVIP) _Bool VIP;
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(nonatomic) _Bool addressIsPresent; // @synthesize addressIsPresent=_addressIsPresent;
-@property(copy, nonatomic) NSArray *addressList; // @synthesize addressList=_addressList;
-@property(nonatomic) _Bool allowAuthenticationWarning; // @synthesize allowAuthenticationWarning=_allowAuthenticationWarning;
-@property(copy, nonatomic) NSAttributedString *attributedAddress; // @synthesize attributedAddress=_attributedAddress;
-@property(retain, nonatomic) MUIAvatarImageContext *avatarContext; // @synthesize avatarContext=_avatarContext;
-@property(retain, nonatomic) MUIAvatarImageGenerator *avatarGenerator; // @synthesize avatarGenerator=_avatarGenerator;
-@property(nonatomic, getter=isBlockedSender) _Bool blockedSender;
-@property(copy, nonatomic) NSString *categorizationState; // @synthesize categorizationState=_categorizationState;
-@property(copy, nonatomic) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *displayDate;
-@property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(copy, nonatomic) NSIndexSet *flagColors;
-@property(nonatomic, getter=isFlagged) _Bool flagged;
-@property(copy, nonatomic) EMFollowUp *followUp;
-@property(nonatomic, getter=isForwarded) _Bool forwarded;
-@property(nonatomic) _Bool hasAttachments;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideFollowUp; // @synthesize hideFollowUp=_hideFollowUp;
 @property(copy, nonatomic) NSDictionary *hintsBySnippetZone; // @synthesize hintsBySnippetZone=_hintsBySnippetZone;
-@property(retain, nonatomic) id <EMCollectionItemID> itemID; // @synthesize itemID=_itemID;
-@property(nonatomic, getter=isJunk) _Bool junk;
-@property(nonatomic, getter=isMute) _Bool mute;
-@property(nonatomic, getter=isNotify) _Bool notify;
-@property(nonatomic, getter=isRead) _Bool read;
-@property(copy, nonatomic) NSDate *readLaterDate;
-@property(nonatomic) long long recipientType; // @synthesize recipientType=_recipientType;
-@property(nonatomic, getter=isRedirected) _Bool redirected;
-@property(nonatomic, getter=isReplied) _Bool replied;
-@property(copy, nonatomic) NSDate *sendLaterDate;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(nonatomic) _Bool subjectIsPresent; // @synthesize subjectIsPresent=_subjectIsPresent;
-@property(readonly) Class superclass;
-@property(nonatomic) long long unsubscribeType;
 
 @end
 

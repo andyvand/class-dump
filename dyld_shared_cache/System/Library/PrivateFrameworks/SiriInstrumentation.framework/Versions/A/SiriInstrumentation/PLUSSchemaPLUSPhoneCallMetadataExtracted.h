@@ -6,42 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSPhoneCallMetadataExtracted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalPlusId;
-    _Bool _hasSiriResolvedContact;
-    _Bool _hasSiriInitiatedCall;
-    _Bool _hasUserMadeFollowupCallWithinDetectionWindow;
-    _Bool _hasUserMadeFollowupCallWithinEvaluationWindow;
-    int _siriAndFollowupContactComparison;
-    int _siriCallDuration;
-    int _siriCallTimeToHangup;
-    int _userTimeToFollowup;
-    _Bool _isSameCallRouteForSiriAndFollowup;
-    _Bool _isSameCallCapabilityForFollowup;
-    int _followupNameSimilarity;
-    struct {
-        unsigned int hasSiriResolvedContact:1;
-        unsigned int hasSiriInitiatedCall:1;
-        unsigned int hasUserMadeFollowupCallWithinDetectionWindow:1;
-        unsigned int hasUserMadeFollowupCallWithinEvaluationWindow:1;
-        unsigned int siriAndFollowupContactComparison:1;
-        unsigned int siriCallDuration:1;
-        unsigned int siriCallTimeToHangup:1;
-        unsigned int userTimeToFollowup:1;
-        unsigned int isSameCallRouteForSiriAndFollowup:1;
-        unsigned int isSameCallCapabilityForFollowup:1;
-        unsigned int followupNameSimilarity:1;
-    } _has;
-    _Bool _hasOriginalPlusId;
 }
 
+- (int);
 - (int);
 - (int);
 - (int);
-- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -49,21 +31,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)RB;
 - (void);
 - (void);
 - (id);
@@ -81,13 +56,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)0t;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (int);
 - (void);
-- (void);
-- (void);
+- (void))˪#;
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -100,43 +75,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)at v%d, upgrading to v%d.;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)enceGenerated;
+- (id)_hasUserAlignmentInferenceGenerated;
 - (id)sHostPlatformViewAppearContext;
-- (void)MEDIAINTENT__PLAYFIRSTPREDICTION__ARTIST;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAYFIRSTPREDICTION__ARTIST;
 
 // Remaining properties
-@property(nonatomic) int followupNameSimilarity; // @synthesize followupNameSimilarity=_followupNameSimilarity;
-@property(nonatomic) _Bool hasFollowupNameSimilarity;
-@property(nonatomic) _Bool hasHasSiriInitiatedCall;
-@property(nonatomic) _Bool hasHasSiriResolvedContact;
-@property(nonatomic) _Bool hasHasUserMadeFollowupCallWithinDetectionWindow;
-@property(nonatomic) _Bool hasHasUserMadeFollowupCallWithinEvaluationWindow;
-@property(nonatomic) _Bool hasIsSameCallCapabilityForFollowup;
-@property(nonatomic) _Bool hasIsSameCallRouteForSiriAndFollowup;
-@property(nonatomic) _Bool hasOriginalPlusId; // @synthesize hasOriginalPlusId=_hasOriginalPlusId;
-@property(nonatomic) _Bool hasSiriAndFollowupContactComparison;
-@property(nonatomic) _Bool hasSiriCallDuration;
-@property(nonatomic) _Bool hasSiriCallTimeToHangup;
-@property(nonatomic) _Bool hasSiriInitiatedCall; // @synthesize hasSiriInitiatedCall=_hasSiriInitiatedCall;
-@property(nonatomic) _Bool hasSiriResolvedContact; // @synthesize hasSiriResolvedContact=_hasSiriResolvedContact;
-@property(nonatomic) _Bool hasUserMadeFollowupCallWithinDetectionWindow; // @synthesize hasUserMadeFollowupCallWithinDetectionWindow=_hasUserMadeFollowupCallWithinDetectionWindow;
-@property(nonatomic) _Bool hasUserMadeFollowupCallWithinEvaluationWindow; // @synthesize hasUserMadeFollowupCallWithinEvaluationWindow=_hasUserMadeFollowupCallWithinEvaluationWindow;
-@property(nonatomic) _Bool hasUserTimeToFollowup;
-@property(nonatomic) _Bool isSameCallCapabilityForFollowup; // @synthesize isSameCallCapabilityForFollowup=_isSameCallCapabilityForFollowup;
-@property(nonatomic) _Bool isSameCallRouteForSiriAndFollowup; // @synthesize isSameCallRouteForSiriAndFollowup=_isSameCallRouteForSiriAndFollowup;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalPlusId; // @synthesize originalPlusId=_originalPlusId;
-@property(nonatomic) int siriAndFollowupContactComparison; // @synthesize siriAndFollowupContactComparison=_siriAndFollowupContactComparison;
-@property(nonatomic) int siriCallDuration; // @synthesize siriCallDuration=_siriCallDuration;
-@property(nonatomic) int siriCallTimeToHangup; // @synthesize siriCallTimeToHangup=_siriCallTimeToHangup;
-@property(nonatomic) int userTimeToFollowup; // @synthesize userTimeToFollowup=_userTimeToFollowup;
 
 @end
 

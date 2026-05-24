@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatTag
 {
     id identifier;
-    id _selectors;
-    id _properties;
 }
 
 @end

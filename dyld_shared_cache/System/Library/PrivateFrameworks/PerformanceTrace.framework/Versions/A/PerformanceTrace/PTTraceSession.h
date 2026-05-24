@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, PTTraceConfig;
-@protocol OS_dispatch_queue, PTTraceSessionDelegate;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface PTTraceSession
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isValid;
-    PTTraceConfig *_config;
-    id <PTTraceSessionDelegate> _delegate;
-    NSXPCConnection *_connection;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Deprecated;
+- (void)IMEventListenerList;
+- (void)IMKeyValueCollectionStorage;
+- (void)IMKeyValueCollectionUserDefaultsStorage;
+- (void)Tapbacks;
+- (void)IMDeviceUtilities;
+- (void)IMNicknameEncryptionPlainRecordField;
+- (void)CNChangeHistoryEventVisitor;
+- (id)IMContactStoreChangeHistoryEventsHandler;
+- (void)IMContactStoreChangeHistoryEventsHandler;
+- (void)IMMessagePartGUID;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)serverTimeFromTimeInterval: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -39,10 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PTTraceConfig *config; // @synthesize config=_config;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) id <PTTraceSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end
 

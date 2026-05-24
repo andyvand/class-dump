@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAddressObject
 {
     PBUnknownFields *_unknownFields;
-    NSData *_addressObject;
 }
 
 - (id);

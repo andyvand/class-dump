@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData;
 
 @interface RTTripClusterRoadTransitionsData2MO
 {
 }
 
-+ (id);
-+ (id);
++ (id)8@16^{_PCSIdentitySetData=}24^@32;
++ (id)for h2 channeldata connection;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
 @property(copy, nonatomic) NSData *roadTransitions; // @dynamic roadTransitions;
 
 @end

@@ -6,39 +6,18 @@
 
 #import <LoginUIKit/LUIPopoverViewController.h>
 
-@class LUIPasswordPolicyDetailsPopover, LUISimplePopover, NSButton, NSImageView, NSLayoutConstraint, NSMutableArray, NSSecureTextField, NSString, NSTextField, ODRecord;
+@class NSLayoutConstraint, NSTextField;
 
 @interface LUIPasswordChangeViewController : LUIPopoverViewController
 {
     NSLayoutConstraint *_secondPasswordConstraint;
-    NSImageView *_errorImageView;
-    NSMutableArray *_errorImageViewConstraints;
-    int _mode;
-    long long _subMode;
-    LUISimplePopover *_errorPopover;
-    LUIPasswordPolicyDetailsPopover *_detailsPopover;
-    _Bool _canShowDetailsPopover;
-    ODRecord *_userRecord;
-    _Bool _observing;
-    NSTextField *_titleTextField;
-    NSTextField *_instructionsTextField;
-    NSTextField *_firstPasswordLabel;
-    NSSecureTextField *_firstPasswordTextField;
-    NSTextField *_secondPasswordLabel;
-    NSSecureTextField *_secondPasswordTextField;
-    NSTextField *_verifyLabel;
-    NSSecureTextField *_verifyTextField;
-    NSTextField *_passwordHintLabel;
-    NSTextField *_recommendedLabel;
-    NSTextField *_hintTextField;
-    NSButton *_cancelButton;
-    NSButton *_changePasswordButton;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -48,40 +27,39 @@
 - (void);
 - (void);
 - (void);
+- (void)$�p;
+- (void)$�@;
 - (void);
 - (void);
+- (void)Q?A;
+- (id);
+- (id);
+- (id);
+- (id)(I;
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (long long);
-- (void);
+- (id)@y));
+- (long long)N;
+- (void)|;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)';
 - (void);
 - (void);
 - (void);
@@ -93,28 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) NSButton *changePasswordButton; // @synthesize changePasswordButton=_changePasswordButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSTextField *firstPasswordLabel; // @synthesize firstPasswordLabel=_firstPasswordLabel;
-@property(retain) NSSecureTextField *firstPasswordTextField; // @synthesize firstPasswordTextField=_firstPasswordTextField;
-@property(readonly) unsigned long long hash;
-@property(retain) NSTextField *hintTextField; // @synthesize hintTextField=_hintTextField;
-@property(retain) NSTextField *instructionsTextField; // @synthesize instructionsTextField=_instructionsTextField;
-@property(retain) NSTextField *passwordHintLabel; // @synthesize passwordHintLabel=_passwordHintLabel;
-@property(retain) NSTextField *recommendedLabel; // @synthesize recommendedLabel=_recommendedLabel;
-@property(retain) NSLayoutConstraint *secondPasswordConstraint; // @synthesize secondPasswordConstraint=_secondPasswordConstraint;
-@property(retain) NSTextField *secondPasswordLabel; // @synthesize secondPasswordLabel=_secondPasswordLabel;
-@property(retain) NSSecureTextField *secondPasswordTextField; // @synthesize secondPasswordTextField=_secondPasswordTextField;
-@property long long subMode; // @synthesize subMode=_subMode;
-@property(readonly) Class superclass;
 @property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(retain) NSTextField *verifyLabel; // @synthesize verifyLabel=_verifyLabel;
-@property(retain) NSSecureTextField *verifyTextField; // @synthesize verifyTextField=_verifyTextField;
 
 @end
 

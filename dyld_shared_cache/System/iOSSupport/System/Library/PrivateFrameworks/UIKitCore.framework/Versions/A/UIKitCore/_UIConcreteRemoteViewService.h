@@ -6,22 +6,20 @@
 
 #import <UIKitCore/_UIRemoteViewService.h>
 
-@class NSExtension, NSUUID;
+@class NSExtension;
 @protocol PKPlugIn;
 
 __attribute__((visibility("hidden")))
 @interface _UIConcreteRemoteViewService : _UIRemoteViewService
 {
     _Bool _overridesHostAppearance;
-    NSUUID *_contextToken;
-    NSExtension *_extension;
 }
 
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)currentStorageOnDeviceWithReply: /* Error: Ran out of types for this method. */;
+- (_Bool)cloudkitRecordsKVStore;
+- (id)_createJunkMessageDictionaryForItem:(id)arg1 senderURI:(id)arg2 chat:conversationID:receiverURI:notifyInternalSecurity:reportReason:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -29,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (void)tingsWithBlock:(id)arg1;
-- (void)rominentItem:(CDUnknownBlockType)arg1;
+- (void)updateUIClientSettingsWithBlock:(id)arg1;
+- (void)_setProminentItem:(CDUnknownBlockType)arg1;
 - (id)ayoutWithinSafeArea;
 - (id);
 - (int)fill-proportionally;

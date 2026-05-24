@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)n a JavaScript confirm dialog;
++ (id)AccountDetailTOTPSecretEntryViewController;
 
 @end
 

@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)nager"8;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)MobileTimerUIApplicationAccessibility;
 
 @end
 

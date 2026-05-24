@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPromise, NSDictionary, NSNumber, NSSet;
-
 @interface CNContactMatchInfo
 {
     _Bool _matchedNameProperty;
-    NSNumber *_relevanceScore;
-    NSDictionary *_matchedProperties;
-    NSSet *_matchedTerms;
-    CNPromise *_excerpt;
 }
 
 + (_Bool);
@@ -28,15 +22,11 @@
 - (id);
 - (id);
 - (void)@24@?32;
-- (void)ntriesWithoutObservers;
+- (void)removeEntriesWithoutObservers;
 - (id)ic}@;
 
 // Remaining properties
-@property(retain) CNPromise *excerpt; // @synthesize excerpt=_excerpt;
 @property _Bool matchedNameProperty; // @synthesize matchedNameProperty=_matchedNameProperty;
-@property(copy) NSDictionary *matchedProperties; // @synthesize matchedProperties=_matchedProperties;
-@property(retain) NSSet *matchedTerms; // @synthesize matchedTerms=_matchedTerms;
-@property(copy) NSNumber *relevanceScore; // @synthesize relevanceScore=_relevanceScore;
 
 @end
 

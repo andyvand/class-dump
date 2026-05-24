@@ -6,19 +6,11 @@
 
 #import <Symbolication/VMUAnalyzerBase.h>
 
-@class NSMutableArray, NSMutableSet, VMULeakDetector;
+@class NSMutableSet;
 
 @interface VMUAutoreleasePoolsAnalyzer : VMUAnalyzerBase
 {
     NSMutableSet *_unreferencedAutoreleasePoolNodes;
-    VMULeakDetector *_detector;
-    unsigned int *_autoreleasePoolNodesByThreadIndex;
-    unsigned int *_autoreleasePoolChain;
-    void *_reachableOutsideOfAutoreleasePoolsMap;
-    NSMutableArray *_threadNamesByThreadIndex;
-    CDStruct_0c3cdf2c _offsets;
-    CDStruct_ed25daea _options;
-    CDStruct_e3b42702 _autoreleasePoolsStatsInfo;
 }
 
 - (id);
@@ -26,37 +18,30 @@
 - (void);
 - (void);
 - (void);
+- (void)RH3
+_	;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (void *);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
-- (CDStruct_e3b42702);
+- (CDStruct_840911e9);
 - (unsigned int *);
 - (unsigned int *);
 - (id);
 - (void);
 - (const char *);
-- (CDStruct_0c3cdf2c);
+- (CDStruct_32a7f38a);
 - (void);
 - (void);
-- (CDStruct_ed25daea);
+- (CDStruct_fc103fe1);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int *autoreleasePoolChain; // @synthesize autoreleasePoolChain=_autoreleasePoolChain;
-@property(nonatomic) unsigned int *autoreleasePoolNodesByThreadIndex; // @synthesize autoreleasePoolNodesByThreadIndex=_autoreleasePoolNodesByThreadIndex;
-@property(readonly, nonatomic) CDStruct_e3b42702 autoreleasePoolsStatsInfo; // @synthesize autoreleasePoolsStatsInfo=_autoreleasePoolsStatsInfo;
-@property(readonly, nonatomic) VMULeakDetector *detector; // @synthesize detector=_detector;
-@property(readonly, nonatomic) CDStruct_0c3cdf2c offsets; // @synthesize offsets=_offsets;
-@property(nonatomic) CDStruct_ed25daea options; // @synthesize options=_options;
-@property(nonatomic) void *reachableOutsideOfAutoreleasePoolsMap; // @synthesize reachableOutsideOfAutoreleasePoolsMap=_reachableOutsideOfAutoreleasePoolsMap;
-@property(retain, nonatomic) NSMutableArray *threadNamesByThreadIndex; // @synthesize threadNamesByThreadIndex=_threadNamesByThreadIndex;
 @property(retain, nonatomic) NSMutableSet *unreferencedAutoreleasePoolNodes; // @synthesize unreferencedAutoreleasePoolNodes=_unreferencedAutoreleasePoolNodes;
 
 @end

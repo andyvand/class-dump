@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSSecureTextField, NSString, NSTextField, PDFDocument;
+@class NSString;
 
 @interface PDFEncryptionOptionsEditor
 {
     NSString *_userPassword;
-    NSString *_ownerPassword;
-    _Bool _viewHasAppeared;
-    _Bool _savedRequiresPasswordToOpen;
-    NSString *_savedUserPassword;
-    NSString *_savedOwnerPassword;
-    unsigned long long _savedAccessPermissions;
-    _Bool _showsOKCancelButtons;
-    _Bool _requiresPasswordToOpen;
-    _Bool _userPasswordValid;
-    _Bool _ownerPasswordValid;
-    _Bool _allowsPrinting;
-    _Bool _allowsCopying;
-    _Bool _allowsDocumentChanges;
-    _Bool _allowsDocumentAssembly;
-    _Bool _allowsContentAccessibility;
-    _Bool _allowsCommenting;
-    _Bool _allowsFormFieldEntry;
-    PDFDocument *_document;
-    NSSecureTextField *_userPasswordField1;
-    NSSecureTextField *_userPasswordField2;
-    NSTextField *_userPasswordErrorMsg;
-    NSSecureTextField *_ownerPasswordField1;
-    NSSecureTextField *_ownerPasswordField2;
-    NSTextField *_ownerPasswordErrorMsg;
-    NSButton *_resetButton;
 }
 
 - (id);
@@ -47,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -63,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -84,7 +59,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ClassManager",R;
 - (id);
 - (void);
 - (void);
@@ -94,28 +69,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessPermissions;
-@property _Bool allowsCommenting; // @synthesize allowsCommenting=_allowsCommenting;
-@property _Bool allowsContentAccessibility; // @synthesize allowsContentAccessibility=_allowsContentAccessibility;
-@property _Bool allowsCopying; // @synthesize allowsCopying=_allowsCopying;
-@property _Bool allowsDocumentAssembly; // @synthesize allowsDocumentAssembly=_allowsDocumentAssembly;
-@property _Bool allowsDocumentChanges; // @synthesize allowsDocumentChanges=_allowsDocumentChanges;
-@property _Bool allowsFormFieldEntry; // @synthesize allowsFormFieldEntry=_allowsFormFieldEntry;
-@property _Bool allowsPrinting; // @synthesize allowsPrinting=_allowsPrinting;
-@property(retain, nonatomic) PDFDocument *document; // @synthesize document=_document;
-@property(copy, nonatomic) NSString *ownerPassword;
-@property(retain) NSTextField *ownerPasswordErrorMsg; // @synthesize ownerPasswordErrorMsg=_ownerPasswordErrorMsg;
-@property(retain) NSSecureTextField *ownerPasswordField1; // @synthesize ownerPasswordField1=_ownerPasswordField1;
-@property(retain) NSSecureTextField *ownerPasswordField2; // @synthesize ownerPasswordField2=_ownerPasswordField2;
-@property(getter=isOwnerPasswordValid) _Bool ownerPasswordValid; // @synthesize ownerPasswordValid=_ownerPasswordValid;
 @property(nonatomic) _Bool requiresPasswordToOpen; // @synthesize requiresPasswordToOpen=_requiresPasswordToOpen;
-@property(retain) NSButton *resetButton; // @synthesize resetButton=_resetButton;
-@property _Bool showsOKCancelButtons; // @synthesize showsOKCancelButtons=_showsOKCancelButtons;
-@property(copy, nonatomic) NSString *userPassword;
-@property(retain) NSTextField *userPasswordErrorMsg; // @synthesize userPasswordErrorMsg=_userPasswordErrorMsg;
-@property(retain) NSSecureTextField *userPasswordField1; // @synthesize userPasswordField1=_userPasswordField1;
-@property(retain) NSSecureTextField *userPasswordField2; // @synthesize userPasswordField2=_userPasswordField2;
-@property(getter=isUserPasswordValid) _Bool userPasswordValid; // @synthesize userPasswordValid=_userPasswordValid;
 
 @end
 

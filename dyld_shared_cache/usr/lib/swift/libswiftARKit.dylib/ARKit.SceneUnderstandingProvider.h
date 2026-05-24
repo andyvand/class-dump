@@ -8,8 +8,6 @@
 {
     id _cSceneUnderstandingProvider;
     id _cSceneUnderstandingConfiguration;
-    id sceneUnderstandingDataContinuations;
-    id anchorQueue;
 }
 
 @end

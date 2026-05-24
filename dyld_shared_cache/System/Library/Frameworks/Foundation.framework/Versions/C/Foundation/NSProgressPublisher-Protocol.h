@@ -5,7 +5,7 @@
 //
 
 @protocol NSProgressPublisher
-- (oneway void)Exhaustively;
+- (oneway void)collectExhaustively;
 - (oneway void);
 @end
 

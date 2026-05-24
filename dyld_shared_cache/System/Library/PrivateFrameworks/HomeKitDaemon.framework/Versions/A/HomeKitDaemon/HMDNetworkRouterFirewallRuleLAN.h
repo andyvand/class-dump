@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleLAN : HMDNetworkRouterFirewallRule
 {
     _Bool _allowInterAccessoryConnections;
-    unsigned char _direction;
-    _Bool _requiredForHAPFunctionality;
-    unsigned long long _purpose;
 }
 
 + (id);
@@ -22,9 +19,9 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)RTVehicleEvent"16@"RTVehicleEvent"24;
+- (_Bool)"NSData",&,N,V_contents;
+- (id)e %@;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -33,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ory or it is empty:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=areConnectionsWithOtherAccessoriesAllowed) _Bool allowInterAccessoryConnections; // @synthesize allowInterAccessoryConnections=_allowInterAccessoryConnections;
-@property(readonly, nonatomic) unsigned char direction; // @synthesize direction=_direction;
 @property(readonly, nonatomic) unsigned long long purpose; // @synthesize purpose=_purpose;
-@property(readonly, nonatomic, getter=isRequiredForHAPFunctionality) _Bool requiredForHAPFunctionality; // @synthesize requiredForHAPFunctionality=_requiredForHAPFunctionality;
 
 @end
 

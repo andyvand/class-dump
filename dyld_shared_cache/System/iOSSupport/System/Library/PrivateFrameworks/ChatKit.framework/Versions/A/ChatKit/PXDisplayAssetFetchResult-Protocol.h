@@ -8,13 +8,12 @@
 @protocol PXDisplayAsset;
 
 @protocol PXDisplayAssetFetchResult
-- (id <PXDisplayAsset>)nFromTranscript;
+- (id <PXDisplayAsset>)userDeletedJunkConversationFromTranscript;
 - (id <PXDisplayAsset>)ewTextEffectsDelegate>",W,N,V_textEffectsDelegate;
 - (id <PXDisplayAsset>)List _handleChatsDidRemergeNotification:(unsigned long long)arg1 ];
 - (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastObject;
 @end
 

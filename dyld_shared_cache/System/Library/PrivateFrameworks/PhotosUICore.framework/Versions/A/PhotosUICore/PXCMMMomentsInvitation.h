@@ -4,86 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PHAssetCollection, PHFetchResult, PXAssetCollectionActionManager, PXMomentShareStatusPresentation, PXPhotosViewConfiguration;
-@protocol PXCMMInvitationParticipant, PXDisplayAsset, PXUIImageProvider;
+@class PHAssetCollection;
 
 @interface PXCMMMomentsInvitation
 {
     long long _shareType;
-    NSString *_title;
-    NSString *_subtitle;
-    id <PXCMMInvitationParticipant> _owner;
-    id <PXDisplayAsset> _posterAsset;
-    id <PXUIImageProvider> _posterMediaProvider;
-    PHAssetCollection *_assetCollection;
-    PHFetchResult *_previewAssetsFetchResult;
-    PHFetchResult *_participantsFetchResult;
 }
 
 + (_Bool);
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void)&;
 + (id);
 + (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)�;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id){CGSize=dd},R,VmRequestedSize;
 - (id)1Â0@ù
 × ;
-- (id)Kind:(struct _NSZone *)arg1 extendedTraitCollection: /* Error: Ran out of types for this method. */;
+- (id)initWithLayoutKind:(struct _NSZone *)arg1 extendedTraitCollection: /* Error: Ran out of types for this method. */;
 - (id)øe0gg`hØikXm,n;
 - (unsigned long long)SubtitleFontSizeForFontSetSpecSetVariant(PXMemoryFontSet, PXMemorySpecSet, PXMemorySpecVariant);
 - (id)mageOffset > 0;
 - (void)x¹;
 
 // Remaining properties
-@property(readonly, nonatomic) long long aggregateMediaType; // @dynamic aggregateMediaType;
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PXAssetCollectionActionManager *assetCollectionActionManager;
-@property(readonly, nonatomic) PXPhotosViewConfiguration *assetViewConfiguration;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <PXCMMInvitationParticipant> owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) PHFetchResult *participantsFetchResult; // @synthesize participantsFetchResult=_participantsFetchResult;
-@property(readonly, nonatomic) id <PXDisplayAsset> posterAsset; // @synthesize posterAsset=_posterAsset;
-@property(readonly, nonatomic) id <PXUIImageProvider> posterMediaProvider; // @synthesize posterMediaProvider=_posterMediaProvider;
-@property(readonly, nonatomic) PHFetchResult *previewAssetsFetchResult; // @synthesize previewAssetsFetchResult=_previewAssetsFetchResult;
-@property(readonly, nonatomic) long long shareType; // @synthesize shareType=_shareType;
-@property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) PXMomentShareStatusPresentation *statusPresentation;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

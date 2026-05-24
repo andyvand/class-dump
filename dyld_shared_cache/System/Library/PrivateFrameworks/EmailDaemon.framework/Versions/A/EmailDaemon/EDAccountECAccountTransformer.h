@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)s;
+- (id)bytes;
 
 @end
 

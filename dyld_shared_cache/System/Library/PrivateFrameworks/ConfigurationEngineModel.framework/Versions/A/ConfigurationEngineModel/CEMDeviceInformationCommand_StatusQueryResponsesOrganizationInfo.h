@@ -11,16 +11,12 @@
 @interface CEMDeviceInformationCommand_StatusQueryResponsesOrganizationInfo : CEMPayloadBase
 {
     NSString *_statusOrganizationName;
-    NSString *_statusOrganizationAddress;
-    NSString *_statusOrganizationPhone;
-    NSString *_statusOrganizationEmail;
-    NSString *_statusOrganizationMagic;
 }
 
++ (id)_;
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -31,16 +27,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)eech.synthesis.voice.princess;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *statusOrganizationAddress; // @synthesize statusOrganizationAddress=_statusOrganizationAddress;
-@property(copy, nonatomic) NSString *statusOrganizationEmail; // @synthesize statusOrganizationEmail=_statusOrganizationEmail;
-@property(copy, nonatomic) NSString *statusOrganizationMagic; // @synthesize statusOrganizationMagic=_statusOrganizationMagic;
 @property(copy, nonatomic) NSString *statusOrganizationName; // @synthesize statusOrganizationName=_statusOrganizationName;
-@property(copy, nonatomic) NSString *statusOrganizationPhone; // @synthesize statusOrganizationPhone=_statusOrganizationPhone;
 
 @end
 

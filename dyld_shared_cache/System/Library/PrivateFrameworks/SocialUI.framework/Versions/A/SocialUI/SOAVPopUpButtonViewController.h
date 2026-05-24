@@ -9,7 +9,6 @@
 @interface SOAVPopUpButtonViewController
 {
     unsigned long long _avOptions;
-    NSMenu *_avPopUpMenu;
 }
 
 - (void);
@@ -22,8 +21,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,7 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long avOptions; // @synthesize avOptions=_avOptions;
 @property(retain, setter=setAVPopUpMenu:) NSMenu *avPopUpMenu; // @synthesize avPopUpMenu=_avPopUpMenu;
 
 @end

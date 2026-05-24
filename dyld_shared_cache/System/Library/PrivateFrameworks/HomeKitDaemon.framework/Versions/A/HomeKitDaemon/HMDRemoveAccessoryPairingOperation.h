@@ -15,23 +15,15 @@ __attribute__((visibility("hidden")))
 
 + (id)¨B;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)setFireDate:(id *)arg1;
+- (id)cessaryForGroup %{public}@ (updateLongerAgoThanExpiryInterval %#.1lfs %{public}@, arrived %{public}@, closed %{public}@ for reason %lu, etaInPast %{public}@);
+- (id)eanUpNecessaryForGroup cleaning group %@ as abandoned;
+- (id)teNotification skipping notification, rules:(id)arg1 %@ currentState:(id)arg2 %@;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isOwnerIdentity;
 @property(readonly, nonatomic) NSString *pairingIdentifierToRemove;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSMutableArray, NSProgressIndicator, NSTextField, NSTimer, NSView, OBTemplatePartBackButton, OBTemplateView;
+@class NSView;
 
 @interface OBTemplateContainerViewController
 {
     _Bool _spinnerVisible;
-    OBTemplateView *_templateView;
-    NSButton *_primaryButton;
-    NSButton *_secondaryButton;
-    OBTemplatePartBackButton *_backButton;
-    NSButton *_cancelButton;
-    NSView *_templateContainerView;
-    NSView *_buttonTray;
-    NSBox *_divider;
-    NSProgressIndicator *_spinner;
-    NSTextField *_statusMessage;
-    NSTimer *_spinnerDisplayTimer;
-    NSMutableArray *_buttonConstraints;
 }
 
 - (void);
@@ -30,40 +18,40 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)isPrivacySensitiveAlbum;
+- (void)canUseCoordinate:(id)arg1;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -71,22 +59,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) OBTemplatePartBackButton *backButton; // @synthesize backButton=_backButton;
-@property(retain, nonatomic) NSMutableArray *buttonConstraints; // @synthesize buttonConstraints=_buttonConstraints;
-@property(retain, nonatomic) NSView *buttonTray; // @synthesize buttonTray=_buttonTray;
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) NSBox *divider; // @synthesize divider=_divider;
-@property(readonly, nonatomic) NSButton *firstButton;
-@property(readonly, nonatomic) NSButton *linkButton;
-@property(retain, nonatomic) NSButton *primaryButton; // @synthesize primaryButton=_primaryButton;
-@property(readonly, nonatomic) NSButton *secondButton;
-@property(retain, nonatomic) NSButton *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-@property(retain, nonatomic) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain, nonatomic) NSTimer *spinnerDisplayTimer; // @synthesize spinnerDisplayTimer=_spinnerDisplayTimer;
-@property(nonatomic, setter=setSpinnerVisible:) _Bool spinnerVisible; // @synthesize spinnerVisible=_spinnerVisible;
-@property(retain, nonatomic) NSTextField *statusMessage; // @synthesize statusMessage=_statusMessage;
 @property(retain, nonatomic) NSView *templateContainerView; // @synthesize templateContainerView=_templateContainerView;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

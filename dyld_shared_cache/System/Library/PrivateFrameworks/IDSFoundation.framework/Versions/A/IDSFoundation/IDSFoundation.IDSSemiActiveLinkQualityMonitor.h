@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSSemiActiveLinkQualityMonitor
 {
     id _syntheticPacketSender;
-    id state;
-    id linkUniqueName;
-    id timeSource;
 }
 
 @end

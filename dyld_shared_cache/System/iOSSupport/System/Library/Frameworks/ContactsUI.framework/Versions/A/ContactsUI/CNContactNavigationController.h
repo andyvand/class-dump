@@ -4,50 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsDataSource, CNAccountsAndGroupsViewController, CNContact, CNContactListStyleApplier, CNContactListViewController, CNContactStore, CNContactStoreDataSource, CNContactStyle, CNContactViewController, CNContactViewSharedNavigationBar, CNManagedConfiguration, CNUIGroupsAndContainersSaveManager, CNUIUserActivityManager, NSArray, NSNumber, NSString, UIAlertController, UIBarButtonItem, UIKeyCommand;
-@protocol CNContactDataSource, CNContactNavigationControllerDelegate, CNScheduler;
+@class CNContactListViewController, CNContactStore;
 
 @interface CNContactNavigationController
 {
     CNContactListViewController *_contactListViewController;
-    _Bool _allowsCardEditing;
-    _Bool _allowsCardDeletion;
-    _Bool _allowsCanceling;
-    _Bool _allowsDone;
-    _Bool _allowsContactBlocking;
-    _Bool _allowsContactBlockingAndReporting;
-    _Bool _hasPendingShowCard;
-    _Bool _allowsLargeTitles;
-    _Bool _ignoresMapsData;
-    _Bool _hideGroupsButton;
-    _Bool _hideMailToGroupButton;
-    int _limitedAccessPickerType;
-    CNContactStyle *_contactStyle;
-    CNContactStore *_contactStore;
-    CNContactViewController *_reusableContactViewController;
-    NSNumber *_shouldShowAccountsAndGroupsCachedValue;
-    CNAccountsAndGroupsViewController *_accountsAndGroupsViewController;
-    CNAccountsAndGroupsDataSource *_accountsAndGroupsDataSource;
-    long long _leftButtonBehavior;
-    long long _rightButtonBehavior;
-    CNContactStoreDataSource *_nonServerDataSource;
-    UIKeyCommand *_addKeyCommand;
-    UIAlertController *_facebookContactsAlertController;
-    id <CNScheduler> _backgroundScheduler;
-    id <CNScheduler> _mainThreadScheduler;
-    CNUIUserActivityManager *_activityManager;
-    UIBarButtonItem *_mailButtonItem;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
-    CNContactListStyleApplier *_contactListStyleApplier;
-    CNContactViewSharedNavigationBar *_sharedNavigationBar;
-    CNContact *_selectedContact;
-    unsigned long long _limitedAccessContactCaption;
-    NSArray *_prohibitedPropertyKeys;
-    UIBarButtonItem *_addContactBarButtonItem;
-    NSString *_contactPickerTargetGroupIdentifier;
-    CNManagedConfiguration *_managedConfiguration;
-    long long _hostIdiom;
-    CNContactViewController *_presentedContactViewController;
 }
 
 + (id);
@@ -59,47 +20,47 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)9;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)d;
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (_Bool)	k!;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)@?<v@?Q>16;
+- (id)ollment:offeringRemoteApproval is set to NO /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)_cancelSyncing;
+- (void)rom some clients:(id)arg1 %@ %@;
+- (void)elationship for relationship %@ on entity %@:(id)arg1 the inverse relationships value is an unexpected type:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -109,25 +70,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool){;
+- (_Bool)4;
+- (id)nfulfilled promise;
+- (void)Y=;
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (id)setAllowsTruncation: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
+- (void)iptionEntitlementsObserverDelegate>";
+- (_Bool)$;
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool)l duration;
+- (void)PlaybackQueueContext:(id)arg1 %@;
+- (void);
+- (void)feedUpdateParser;
 - (void);
 - (id);
 - (id);
@@ -144,11 +105,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)Ѩc;
 - (void);
 - (id);
 - (void);
@@ -163,7 +124,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -186,65 +147,65 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)B;
+- (void);
+- (void)tentative PID? %ld;
+- (void);
+- (void);
+- (_Bool);
+- (void)initWithBytes:(id)arg1 length:(id)arg2 encoding: /* Error: Ran out of types for this method. */;
+- (void)8;
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)W;
+- (_Bool)R;
+- (void)H=;
+- (void);
+- (void)value;
+- (void)_loggingDidChange:(id)arg1;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void)!Gùt°1Â0@ù
 × ;
-- (void)tEditMenuWithAnimator:(id)arg1;
-- (void)dentifierForImageSource:(id)arg1;
-- (void)wControllerViewInSuperview;
+- (void)textField:(id)arg1 willPresentEditMenuWithAnimator:(_Bool)arg2;
+- (void)imageTypeStringIdentifierForImageSource:(id)arg1;
+- (void)_frameOfPresentedViewControllerViewInSuperview;
 - (void)cesTransparentBackground;
 - (void)IColor",&,N,V_selectedCellBackgroundColor;
 - (void)V_userActionContext;
 - (void)oPickerProviderItem",R,N,V_providerItem;
-- (void)meContactSection;
+- (void)CNUIFamilyMemberDowntimeContactSection;
 - (void)Db;
-- (id)IED_MESSAGE;
-- (void)ifier;
+- (id)ACCESS_DENIED_MESSAGE;
+- (void)kPrivateAccessEntryBundleIdentifier;
 - (void)predicateForEnablingContact;
-- (id)RD_UNMERGED_MESSAGE;
-- (id)ION_DELETE_CARD_MULTIPLE;
-- (id)llowsConferencing;
+- (id)VCARD_UNMERGED_MESSAGE;
+- (id)CARD_ACTION_DELETE_CARD_MULTIPLE;
+- (id)allowsConferencing;
 - (_Bool)e to find class %s;
-- (void)ctNameEmphasis;
+- (void)contactNameEmphasis;
 - (id)n discovering requests for contact %@.;
 - (void)ess Update] Contact wallpaper modified, will save edits;
 - (void)d not set new me contact:(int)arg1 %{private}@;
 - (void)sual identity picker for duplicate candidate;
-- (void);
+- (void)contact;
 - (void)ÿ;
 - (void)yAAy¯¦øy£øy¦øy%ø¨øG_iøQo_G`øy2øSgGGARGQo_;
-- (id)16CNVisualIdentityCSgc;
+- (id)ySo16CNVisualIdentityCSgc;
 - (void)ADy*ÎøyADy¹ÌøyÑøyåÂøywÍøyü÷y[@øy,%_,%tGG_Qo_G_Qo__SiQo_Ø%øG_PùQo_é/øycý÷GG
 øGÎøGGA__G;
 - (_Bool)G_So9CNContactCQo_,%yABy°ÆÿÿADG_AGQo_G;
@@ -270,54 +231,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) CNAccountsAndGroupsDataSource *accountsAndGroupsDataSource; // @synthesize accountsAndGroupsDataSource=_accountsAndGroupsDataSource;
-@property(retain, nonatomic) CNAccountsAndGroupsViewController *accountsAndGroupsViewController; // @synthesize accountsAndGroupsViewController=_accountsAndGroupsViewController;
-@property(retain, nonatomic) CNUIUserActivityManager *activityManager; // @synthesize activityManager=_activityManager;
-@property(retain, nonatomic) UIBarButtonItem *addContactBarButtonItem; // @synthesize addContactBarButtonItem=_addContactBarButtonItem;
-@property(retain, nonatomic) UIKeyCommand *addKeyCommand; // @synthesize addKeyCommand=_addKeyCommand;
-@property(nonatomic) _Bool allowsCanceling; // @synthesize allowsCanceling=_allowsCanceling;
-@property(nonatomic) _Bool allowsCardDeletion; // @synthesize allowsCardDeletion=_allowsCardDeletion;
-@property(nonatomic) _Bool allowsCardEditing; // @synthesize allowsCardEditing=_allowsCardEditing;
-@property(nonatomic) _Bool allowsContactBlocking; // @synthesize allowsContactBlocking=_allowsContactBlocking;
-@property(nonatomic) _Bool allowsContactBlockingAndReporting; // @synthesize allowsContactBlockingAndReporting=_allowsContactBlockingAndReporting;
-@property(nonatomic) _Bool allowsDone; // @synthesize allowsDone=_allowsDone;
-@property(nonatomic) _Bool allowsLargeTitles; // @synthesize allowsLargeTitles=_allowsLargeTitles;
-@property(readonly, nonatomic) id <CNScheduler> backgroundScheduler; // @synthesize backgroundScheduler=_backgroundScheduler;
-@property(retain, nonatomic) CNContactListStyleApplier *contactListStyleApplier; // @synthesize contactListStyleApplier=_contactListStyleApplier;
-@property(retain, nonatomic) NSString *contactPickerTargetGroupIdentifier; // @synthesize contactPickerTargetGroupIdentifier=_contactPickerTargetGroupIdentifier;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNContactStyle *contactStyle; // @synthesize contactStyle=_contactStyle;
-@property(readonly, nonatomic) id <CNContactDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CNContactNavigationControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIAlertController *facebookContactsAlertController; // @synthesize facebookContactsAlertController=_facebookContactsAlertController;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(nonatomic) _Bool hasPendingShowCard; // @synthesize hasPendingShowCard=_hasPendingShowCard;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideGroupsButton; // @synthesize hideGroupsButton=_hideGroupsButton;
-@property(nonatomic) _Bool hideMailToGroupButton; // @synthesize hideMailToGroupButton=_hideMailToGroupButton;
-@property(nonatomic) _Bool hidesSearchableSources;
-@property(nonatomic) long long hostIdiom; // @synthesize hostIdiom=_hostIdiom;
-@property(nonatomic) _Bool ignoresMapsData; // @synthesize ignoresMapsData=_ignoresMapsData;
-@property(nonatomic) long long leftButtonBehavior; // @synthesize leftButtonBehavior=_leftButtonBehavior;
-@property(nonatomic) unsigned long long limitedAccessContactCaption; // @synthesize limitedAccessContactCaption=_limitedAccessContactCaption;
-@property(nonatomic) int limitedAccessPickerType; // @synthesize limitedAccessPickerType=_limitedAccessPickerType;
-@property(retain, nonatomic) UIBarButtonItem *mailButtonItem; // @synthesize mailButtonItem=_mailButtonItem;
-@property(readonly, nonatomic) id <CNScheduler> mainThreadScheduler; // @synthesize mainThreadScheduler=_mainThreadScheduler;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
-@property(retain, nonatomic) CNContactStoreDataSource *nonServerDataSource; // @synthesize nonServerDataSource=_nonServerDataSource;
-@property(nonatomic) __weak CNContactViewController *presentedContactViewController; // @synthesize presentedContactViewController=_presentedContactViewController;
-@property(retain, nonatomic) NSArray *prohibitedPropertyKeys; // @synthesize prohibitedPropertyKeys=_prohibitedPropertyKeys;
-@property(retain, nonatomic) CNContactViewController *reusableContactViewController; // @synthesize reusableContactViewController=_reusableContactViewController;
-@property(nonatomic) long long rightButtonBehavior; // @synthesize rightButtonBehavior=_rightButtonBehavior;
-@property(retain, nonatomic) CNContact *selectedContact; // @synthesize selectedContact=_selectedContact;
-@property(retain, nonatomic) CNContactViewSharedNavigationBar *sharedNavigationBar; // @synthesize sharedNavigationBar=_sharedNavigationBar;
-@property(retain, nonatomic) NSNumber *shouldShowAccountsAndGroupsCachedValue; // @synthesize shouldShowAccountsAndGroupsCachedValue=_shouldShowAccountsAndGroupsCachedValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UICollectionView;
+
 @protocol UICollectionViewDelegate
 
 @optional
+- (void);
+- (NSIndexPath *)0:(UICollectionView *)arg1 8@"NSURLSession"16@"NSURLSessionTask"24@?<v@?@"NSInputStream">32;
+- (void);
+- (void)k;
 - (_Bool)!P@ù1IÐ1Â0@ù
 × ;
 - (_Bool)AVTCollectionViewLayout;

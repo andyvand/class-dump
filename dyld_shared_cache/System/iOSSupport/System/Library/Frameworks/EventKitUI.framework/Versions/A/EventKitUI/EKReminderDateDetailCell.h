@@ -11,7 +11,6 @@
 @interface EKReminderDateDetailCell : EKReminderDetailCell
 {
     UILabel *_line;
-    _Bool _hideBottomCellSeparator;
 }
 
 - (id);

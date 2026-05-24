@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 + (struct UIEdgeInsets);
 + (_Bool)ractionDriving>"16@"UIGestureRecognizer"24;
 - (void);
-- (double);
-- (void);
+- (double)%@;
+- (void)A;
 - (struct CGRect);
 - (void);
 - (id)nge={%lu, %lu};

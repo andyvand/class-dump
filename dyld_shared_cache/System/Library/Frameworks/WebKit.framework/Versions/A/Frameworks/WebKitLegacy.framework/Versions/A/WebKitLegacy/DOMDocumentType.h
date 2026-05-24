@@ -6,27 +6,22 @@
 
 #import <WebKitLegacy/DOMNode.h>
 
-@class DOMNamedNodeMap, NSString;
+@class NSString;
 
 @interface DOMDocumentType : DOMNode
 {
 }
 
+- (id)>X;
+- (id)^;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)el;
 - (id)d::default_delete<WTF::Detail::CallableWrapperBase<void, WebCore::NotificationPermission>>>=""{?="__ptr_"^v}}}} /* Error: Ran out of types for this method. */;
 - (id)\L;
 
 // Remaining properties
-@property(readonly) DOMNamedNodeMap *entities;
-@property(readonly, copy) NSString *internalSubset;
 @property(readonly, copy) NSString *name;
-@property(readonly) DOMNamedNodeMap *notations;
-@property(readonly, copy) NSString *publicId;
-@property(readonly, copy) NSString *systemId;
 
 @end
 

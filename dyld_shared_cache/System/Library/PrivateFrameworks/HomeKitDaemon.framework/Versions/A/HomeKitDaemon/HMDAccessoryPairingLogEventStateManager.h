@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryPairingEvent, NSDate, NSMutableDictionary, NSNotificationCenter, NSObject, NSString;
-@protocol HMMLogEventSubmitting, OS_dispatch_queue;
+@protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryPairingLogEventStateManager
 {
     struct os_unfair_lock_s _accessoryPairingRetryMapLock;
-    struct os_unfair_lock_s _accessoryPairingProgressStateTrackerLock;
-    struct os_unfair_lock_s _matterAccessoryPairingMetricLock;
-    unsigned long long _pairingUIState;
-    unsigned long long _recoveryType;
-    unsigned long long _previousRecoveryType;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSDate *_lastPairingEndTime;
-    NSMutableDictionary *_retryCountMap;
-    NSMutableDictionary *_pairingProgressStateTracker;
-    NSNotificationCenter *_notificationCenter;
-    HMDAccessoryPairingEvent *_pairingEvent;
 }
 
 + (id)ant event:%{public}@ /* Error: Ran out of types for this method. */;
 + (id)oÅÿ;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)waiting for response.;
+- (void)tate;
+- (void)to resolve handles to contacts, but Maps is not authorised for Contacts;
+- (void)ory.mapsdata;
 - (void);
 - (void);
 - (void);
@@ -41,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)#;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -51,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)x;
 - (void);
 - (void);
 - (void);
@@ -69,24 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)¨îC;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConfigured) _Bool configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastPairingEndTime; // @synthesize lastPairingEndTime=_lastPairingEndTime;
 @property(retain, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(nonatomic) __weak HMDAccessoryPairingEvent *pairingEvent; // @synthesize pairingEvent=_pairingEvent;
-@property(readonly, nonatomic) NSMutableDictionary *pairingProgressStateTracker; // @synthesize pairingProgressStateTracker=_pairingProgressStateTracker;
-@property(nonatomic) unsigned long long pairingUIState; // @synthesize pairingUIState=_pairingUIState;
-@property(nonatomic) unsigned long long previousRecoveryType; // @synthesize previousRecoveryType=_previousRecoveryType;
-@property(nonatomic) unsigned long long recoveryType; // @synthesize recoveryType=_recoveryType;
-@property(readonly, nonatomic) NSMutableDictionary *retryCountMap; // @synthesize retryCountMap=_retryCountMap;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

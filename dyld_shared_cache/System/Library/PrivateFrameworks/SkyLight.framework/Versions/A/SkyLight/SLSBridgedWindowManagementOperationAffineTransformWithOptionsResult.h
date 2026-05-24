@@ -9,19 +9,17 @@
 @interface SLSBridgedWindowManagementOperationAffineTransformWithOptionsResult : SLSBridgedWindowManagementOperationResult
 {
     unsigned int _options;
-    struct CGAffineTransform _affineTransform;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool));
+- (id)Percentage History:(struct CGAffineTransform)arg1 total pages - %lld, free pages - %lld, historyPages - %lld;
 - (struct CGAffineTransform);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 
 // Remaining properties
 @property(readonly) struct CGAffineTransform affineTransform; // @synthesize affineTransform=_affineTransform;
-@property(readonly) unsigned int options; // @synthesize options=_options;
 
 @end
 

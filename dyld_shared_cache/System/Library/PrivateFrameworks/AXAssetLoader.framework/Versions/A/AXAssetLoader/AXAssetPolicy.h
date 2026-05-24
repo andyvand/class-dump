@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AXAssetPolicy
 {
     _Bool _daemonShouldDownloadInBackgroundIfNeeded;
-    NSNumber *_minSupportedFormatVersion;
-    NSNumber *_maxSupportedFormatVersion;
-    NSNumber *_compatibilityVersion;
-    double _downloadResourceTimeout;
-    double _updateCatalogTimeout;
-    double _refreshRetryInterval;
-    double _downloadRetryInterval;
-    NSString *_launchActivityIdentifier;
-    double _updateInterval;
 }
 
-+ (id);
++ (id)_initWithSegments:formattedString:speakingRate:averagePauseDuration: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (_Bool);
@@ -44,14 +35,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)dataTaskWithRequest:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)HAP2TLVParamAccessoryList;
 - (void);
 - (_Bool);
 - (id);
@@ -63,19 +54,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetType;
-@property(readonly, nonatomic) NSString *assetTypeSuffix;
-@property(retain, nonatomic) NSNumber *compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(nonatomic) _Bool daemonShouldDownloadInBackgroundIfNeeded; // @synthesize daemonShouldDownloadInBackgroundIfNeeded=_daemonShouldDownloadInBackgroundIfNeeded;
-@property(nonatomic) double downloadResourceTimeout; // @synthesize downloadResourceTimeout=_downloadResourceTimeout;
-@property(nonatomic) double downloadRetryInterval; // @synthesize downloadRetryInterval=_downloadRetryInterval;
-@property(retain, nonatomic) NSString *launchActivityIdentifier; // @synthesize launchActivityIdentifier=_launchActivityIdentifier;
-@property(retain, nonatomic) NSNumber *maxSupportedFormatVersion; // @synthesize maxSupportedFormatVersion=_maxSupportedFormatVersion;
-@property(retain, nonatomic) NSNumber *minSupportedFormatVersion; // @synthesize minSupportedFormatVersion=_minSupportedFormatVersion;
-@property(nonatomic) double refreshRetryInterval; // @synthesize refreshRetryInterval=_refreshRetryInterval;
-@property(readonly, nonatomic) _Bool shouldCopyLocally;
-@property(readonly, nonatomic) _Bool shouldUseProductionServerForInternalBuilds;
-@property(nonatomic) double updateCatalogTimeout; // @synthesize updateCatalogTimeout=_updateCatalogTimeout;
-@property(nonatomic) double updateInterval; // @synthesize updateInterval=_updateInterval;
 
 @end
 

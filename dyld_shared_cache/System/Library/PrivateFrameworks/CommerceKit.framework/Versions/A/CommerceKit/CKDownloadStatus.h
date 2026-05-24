@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDownloadAsset, NSError;
-
 @interface CKDownloadStatus
 {
     unsigned char _state;
-    _Bool _isAssetCached;
-    unsigned long long _bytesDownloaded;
-    unsigned long long _bytesExpected;
-    double _estimatedTimeRemaining;
-    NSError *_error;
-    CKDownloadAsset *_downloadedAsset;
 }
 
 + (_Bool);
@@ -24,13 +16,13 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
-- (double);
+- (void)led to remove orphaned asset copy at %@:(double)arg1 %@;
+- (double)rson delete records to recordstodelete.plist:%@ /* Error: Ran out of types for this method. */;
+- (id)}@ using payload helper error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned char);
 - (void);
 - (void);
@@ -40,12 +32,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;
-@property unsigned long long bytesExpected; // @synthesize bytesExpected=_bytesExpected;
-@property(retain) CKDownloadAsset *downloadedAsset; // @synthesize downloadedAsset=_downloadedAsset;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property _Bool isAssetCached; // @synthesize isAssetCached=_isAssetCached;
 @property unsigned char state; // @synthesize state=_state;
 
 @end

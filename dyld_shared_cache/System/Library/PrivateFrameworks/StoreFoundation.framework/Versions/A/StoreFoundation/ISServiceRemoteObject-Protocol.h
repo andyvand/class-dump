@@ -5,5 +5,7 @@
 //
 
 @protocol ISServiceRemoteObject
+- (void);
+- (void)t;
 @end
 

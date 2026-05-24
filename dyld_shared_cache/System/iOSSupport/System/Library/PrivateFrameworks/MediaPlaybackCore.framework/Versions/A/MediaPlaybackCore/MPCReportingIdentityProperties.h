@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICPlayActivityEnqueuerProperties, NSString;
+@class NSString;
 
 @interface MPCReportingIdentityProperties
 {
     _Bool _hasSubscriptionPlaybackCapability;
-    NSString *_householdID;
-    unsigned long long _storeAccountID;
-    NSString *_storeFrontID;
-    ICPlayActivityEnqueuerProperties *_enqueuerProperties;
 }
 
-- (void);
-- (_Bool);
+- (void)DisableMailiCloudSetting;
+- (_Bool)ion.framework/Versions/C/Foundation;
 - (void);
 - (void);
 - (void);
@@ -28,11 +24,7 @@
 - (void)@ error=%{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) ICPlayActivityEnqueuerProperties *enqueuerProperties; // @synthesize enqueuerProperties=_enqueuerProperties;
-@property(nonatomic) _Bool hasSubscriptionPlaybackCapability; // @synthesize hasSubscriptionPlaybackCapability=_hasSubscriptionPlaybackCapability;
 @property(copy, nonatomic) NSString *householdID; // @synthesize householdID=_householdID;
-@property(nonatomic) unsigned long long storeAccountID; // @synthesize storeAccountID=_storeAccountID;
-@property(copy, nonatomic) NSString *storeFrontID; // @synthesize storeFrontID=_storeFrontID;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelPlaylist, MPModelSocialPerson;
+@class MPModelPlaylist;
 
 @interface MPModelPlaylistAuthor : MPModelObject
 {
@@ -21,15 +21,11 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPendingApproval; // @dynamic isPendingApproval;
 @property(retain, nonatomic) MPModelPlaylist *playlist; // @dynamic playlist;
-@property(nonatomic) int position; // @dynamic position;
-@property(nonatomic) unsigned long long role; // @dynamic role;
-@property(retain, nonatomic) MPModelSocialPerson *socialProfile; // @dynamic socialProfile;
 
 @end
 

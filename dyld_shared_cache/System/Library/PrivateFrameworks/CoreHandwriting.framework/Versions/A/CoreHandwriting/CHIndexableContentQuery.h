@@ -13,7 +13,7 @@
     CHRecognitionSessionIndexableContent *_indexableContent;
 }
 
-- (void);
+- (void)J;
 - (_Bool);
 - (id);
 - (id);

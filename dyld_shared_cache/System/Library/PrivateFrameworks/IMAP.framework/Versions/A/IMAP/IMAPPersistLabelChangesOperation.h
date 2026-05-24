@@ -6,26 +6,23 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class NSDictionary;
 @protocol IMAPPersistLabelChangesOperationDelegate;
 
 @interface IMAPPersistLabelChangesOperation : IMAPPersistenceTaskOperation
 {
     id <IMAPPersistLabelChangesOperationDelegate> _delegate;
-    NSDictionary *_labelChangesByServerMessages;
 }
 
+- (id)A;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)reCGG;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPPersistLabelChangesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *labelChangesByServerMessages; // @synthesize labelChangesByServerMessages=_labelChangesByServerMessages;
 
 @end
 

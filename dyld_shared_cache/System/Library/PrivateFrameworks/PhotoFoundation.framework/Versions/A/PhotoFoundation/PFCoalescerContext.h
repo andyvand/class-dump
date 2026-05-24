@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSObject, PFCoalescer;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class PFCoalescer;
 
 @interface PFCoalescerContext
 {
     unsigned long long _coalescedUpdatesCount;
-    PFCoalescer *_coalescer;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSObject<OS_dispatch_group> *_group;
-    NSHashTable *_pendingActivityTokens;
 }
 
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)ring"16@"NSDictionary"24@"NSDictionary"32;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long coalescedUpdatesCount; // @synthesize coalescedUpdatesCount=_coalescedUpdatesCount;
 @property __weak PFCoalescer *coalescer; // @synthesize coalescer=_coalescer;
-@property(retain) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_isolationQueue;
-@property(retain) NSHashTable *pendingActivityTokens; // @synthesize pendingActivityTokens=_pendingActivityTokens;
-@property(readonly) NSArray *pendingActivityTokensSnapshot;
 
 @end
 

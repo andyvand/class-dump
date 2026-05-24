@@ -9,72 +9,49 @@
 @interface PKProtobufShareableCredential
 {
     NSString *_cardConfigurationIdentifier;
-    NSString *_credentialIdentifier;
-    NSString *_credentialIdentifierHash;
-    NSString *_encryptedPushProvisioningTarget;
-    NSString *_nonce;
-    NSString *_ownerDisplayName;
-    NSString *_sharingInstanceIdentifier;
-    int _status;
-    CDStruct_47fe53f2 _has;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)1;
+- (_Bool)T;
 - (id);
+- (id)A�h;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)i;
 - (int);
-- (id);
+- (id){;
 - (id)@ù
 × ;
-- (_Bool);
+- (_Bool)_receivedTransactions;
 - (void)n file (provisioning method check);
 - (int);
-- (void)nDuration;
-- (id)pleCardBankVerificationMessageKey;
+- (void)sessionDuration;
+- (id)PKSavingsHasDismissedAppleCardBankVerificationMessageKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cardConfigurationIdentifier; // @synthesize cardConfigurationIdentifier=_cardConfigurationIdentifier;
-@property(retain, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(retain, nonatomic) NSString *credentialIdentifierHash; // @synthesize credentialIdentifierHash=_credentialIdentifierHash;
-@property(retain, nonatomic) NSString *encryptedPushProvisioningTarget; // @synthesize encryptedPushProvisioningTarget=_encryptedPushProvisioningTarget;
-@property(readonly, nonatomic) _Bool hasCardConfigurationIdentifier;
-@property(readonly, nonatomic) _Bool hasCredentialIdentifier;
-@property(readonly, nonatomic) _Bool hasCredentialIdentifierHash;
 @property(readonly, nonatomic) _Bool hasEncryptedPushProvisioningTarget;
-@property(readonly, nonatomic) _Bool hasNonce;
-@property(readonly, nonatomic) _Bool hasOwnerDisplayName;
-@property(readonly, nonatomic) _Bool hasSharingInstanceIdentifier;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) NSString *ownerDisplayName; // @synthesize ownerDisplayName=_ownerDisplayName;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

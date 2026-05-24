@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AXVViewMouseEventDelegate;
-
 @interface AXVView
 {
     _Bool __isMouseInBounds;
-    id <AXVViewMouseEventDelegate> _mouseEventDelegate;
 }
 
 - (void);
@@ -19,20 +15,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)setLastFlushedFramePresentationTimeStamp:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool _isMouseInBounds; // @synthesize _isMouseInBounds=__isMouseInBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AXVViewMouseEventDelegate> mouseEventDelegate; // @synthesize mouseEventDelegate=_mouseEventDelegate;
-@property(readonly) Class superclass;
 
 @end
 

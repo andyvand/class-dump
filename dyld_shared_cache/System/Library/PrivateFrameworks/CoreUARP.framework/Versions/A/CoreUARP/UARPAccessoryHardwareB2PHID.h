@@ -9,18 +9,16 @@
 @interface UARPAccessoryHardwareB2PHID : UARPAccessoryHardwareID
 {
     unsigned short _vendorID;
-    unsigned short _productID;
 }
 
 - (id);
-- (id);
+- (id)AppleMediaServices;
 - (id);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)B;
 - (unsigned short);
 
 // Remaining properties
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
 @property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 
 @end

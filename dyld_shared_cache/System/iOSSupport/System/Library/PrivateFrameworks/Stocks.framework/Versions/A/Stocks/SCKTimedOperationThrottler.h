@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCKOperationThrottler;
-@protocol SCKOperationThrottlerDelegate;
+@class SCKOperationThrottler;
 
 @interface SCKTimedOperationThrottler
 {
     double _cooldownTime;
-    SCKOperationThrottler *_operationThrottler;
-    id <SCKOperationThrottlerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
@@ -23,23 +20,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)createProfileCannotRemoveOtherProfile:(double)arg1;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property double cooldownTime; // @synthesize cooldownTime=_cooldownTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SCKOperationThrottlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SCKOperationThrottler *operationThrottler; // @synthesize operationThrottler=_operationThrottler;
-@property(readonly) Class superclass;
-@property _Bool suspended;
 
 @end
 

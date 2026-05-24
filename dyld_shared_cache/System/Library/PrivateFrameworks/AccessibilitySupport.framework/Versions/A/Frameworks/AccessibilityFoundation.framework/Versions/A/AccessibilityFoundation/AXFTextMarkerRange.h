@@ -9,32 +9,31 @@
 @interface AXFTextMarkerRange
 {
     AXFTextMarker *_startMarker;
-    AXFTextMarker *_endMarker;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)fileURLWithPath:(id)arg1 isDirectory:(id)arg2;
++ (id)fileSystemRepresentation;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct __AXTextMarkerRange *);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)interModuleTransitionTable;
+- (id)initWithImageURL:contentType:timeZoneLookup: /* Error: Ran out of types for this method. */;
+- (id)<;
+- (unsigned long long)!;
 - (struct _NSRange);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)GKSCommNATServerCohortName;
 
 @end
 

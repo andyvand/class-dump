@@ -11,21 +11,17 @@
 @interface SignpostFrameOverrunInterval : SignpostAnimationSubInterval
 {
     SignpostFrameLifetimeInterval *_frameLifetime;
-    unsigned long long _overrunType;
-    unsigned long long _overrunClass;
 }
 
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)*%;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SignpostFrameLifetimeInterval *frameLifetime; // @synthesize frameLifetime=_frameLifetime;
-@property(nonatomic) unsigned long long overrunClass; // @synthesize overrunClass=_overrunClass;
 @property(nonatomic) unsigned long long overrunType; // @synthesize overrunType=_overrunType;
 
 @end

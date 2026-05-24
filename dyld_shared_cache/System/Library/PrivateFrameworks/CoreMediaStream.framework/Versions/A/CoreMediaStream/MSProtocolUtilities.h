@@ -12,10 +12,10 @@
 + (id);
 + (id);
 + (void);
++ (id)C;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)yte aligned;
 
 @end
 

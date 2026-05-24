@@ -10,7 +10,8 @@
 {
 }
 
-- (id);
+- (id)	
+;
 - (id);
 - (id)ed by convolution %lu are not available in image with %lu feature channels;
 

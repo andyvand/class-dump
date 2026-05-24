@@ -9,16 +9,12 @@
 @interface UIKit.UIDirectionalLightEffectView : UIView
 {
     id configuration;
-    id idleTimer;
-    id _isPaused;
-    id fillView;
-    id idleTimerImpl;
 }
 
 - (id);
 - (void);
-- (void)ection;
-- (id)ViewControllerContainer;
+- (void)forceAutomaticSelection;
+- (id)__wantsUnclippedHeaderContentViewControllerContainer;
 - (void)	_;
 
 @end

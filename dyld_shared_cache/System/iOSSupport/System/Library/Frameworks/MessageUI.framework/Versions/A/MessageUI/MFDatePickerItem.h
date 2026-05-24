@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFCity, MFDatePickerItemIdentifier, NSDate;
+@class MFDatePickerItemIdentifier;
 
 @interface MFDatePickerItem
 {
     _Bool _timeSwitchEnabled;
-    _Bool _isInvalid;
-    MFDatePickerItemIdentifier *_identifier;
-    NSDate *_selectedDate;
-    NSDate *_selectedTime;
-    MFCity *_selectedCity;
-    long long _datePickerComponentType;
 }
 
 - (_Bool);
@@ -26,24 +20,18 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long datePickerComponentType; // @synthesize datePickerComponentType=_datePickerComponentType;
 @property(readonly, nonatomic) MFDatePickerItemIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isInvalid; // @synthesize isInvalid=_isInvalid;
-@property(retain, nonatomic) MFCity *selectedCity; // @synthesize selectedCity=_selectedCity;
-@property(retain, nonatomic) NSDate *selectedDate; // @synthesize selectedDate=_selectedDate;
-@property(retain, nonatomic) NSDate *selectedTime; // @synthesize selectedTime=_selectedTime;
-@property(nonatomic) _Bool timeSwitchEnabled; // @synthesize timeSwitchEnabled=_timeSwitchEnabled;
 
 @end
 

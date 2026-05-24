@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSIndexSet;
 
 @interface CRKOrderedOneToManyKVOAccumulatorResults
 {
     NSIndexSet *_insertions;
-    NSIndexSet *_deletions;
-    NSIndexSet *_replacements;
-    NSArray *_moves;
 }
 
 - (void);
@@ -29,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexSet *deletions; // @synthesize deletions=_deletions;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 @property(retain, nonatomic) NSIndexSet *insertions; // @synthesize insertions=_insertions;
-@property(retain, nonatomic) NSArray *moves; // @synthesize moves=_moves;
-@property(readonly, nonatomic) long long netCountChange;
-@property(retain, nonatomic) NSIndexSet *replacements; // @synthesize replacements=_replacements;
 
 @end
 

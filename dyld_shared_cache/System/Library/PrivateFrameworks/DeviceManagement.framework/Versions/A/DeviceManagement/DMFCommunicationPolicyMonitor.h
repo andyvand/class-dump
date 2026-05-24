@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSDictionary;
 
 @interface DMFCommunicationPolicyMonitor
 {
     _Bool _didFetchInitialPolicies;
-    NSDictionary *_policiesByBundleIdentifier;
-    NSUUID *_identifier;
 }
 
 + (unsigned long long);
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)v;
 
 // Remaining properties
-@property(nonatomic) _Bool didFetchInitialPolicies; // @synthesize didFetchInitialPolicies=_didFetchInitialPolicies;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(copy) NSDictionary *policiesByBundleIdentifier; // @synthesize policiesByBundleIdentifier=_policiesByBundleIdentifier;
 
 @end

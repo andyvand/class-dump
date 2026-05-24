@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface SRCSSpokenCommandUtilities
 {
     NSDictionary *_commandAttributes;
-    NSMutableDictionary *_commandStringsTablesByLocaleIdentifier;
 }
 
 + (struct __CFStringTokenizer *);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (id);

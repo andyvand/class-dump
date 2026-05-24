@@ -9,23 +9,22 @@
 @interface NSConstantData : NSData
 {
     unsigned long long _length;
-    const char *_bytes;
 }
 
 + (id);
 + (_Bool);
 + (id)iU;
-- (unsigned long long);
-- (void);
+- (unsigned long long)H ;
+- (void)_;
 - (oneway void);
 - (unsigned long long);
 - (id);
 - (id);
 - (const void *);
-- (id);
+- (id)y:(void *)arg1 %{public}@;
 - (id);
 - (_Bool);
-- (id);
+- (id)d;
 - (id)12;
 - (_Bool);
 - (id);

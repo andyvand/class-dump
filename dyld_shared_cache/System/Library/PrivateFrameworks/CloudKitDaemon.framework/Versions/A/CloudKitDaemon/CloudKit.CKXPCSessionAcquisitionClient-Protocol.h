@@ -5,5 +5,6 @@
 //
 
 @protocol CloudKit.CKXPCSessionAcquisitionClient
+- (void);
 @end
 

@@ -7,8 +7,6 @@
 @interface Safari.RWINotificationHandler
 {
     id modelsState;
-    id delegate;
-    id rwiManager;
 }
 
 @end

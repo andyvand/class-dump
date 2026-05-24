@@ -9,13 +9,12 @@
 @interface SOElementClickFlashOverlayController
 {
     SOElementClickFlashOverlayBackgroundView *_backgroundView;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 
 @end
 

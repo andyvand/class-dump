@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFObservable, NSString;
-@protocol EFCancelable, EFObserver;
+@class EFObservable;
+@protocol EFObserver;
 
 @interface EFDebouncer
 {
     EFObservable<EFObserver> *_observable;
-    id <EFCancelable> _cancelable;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -23,15 +22,7 @@
 - (id)X;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFCancelable> cancelable; // @synthesize cancelable=_cancelable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EFObservable<EFObserver> *observable; // @synthesize observable=_observable;
-@property(readonly) Class superclass;
 
 @end
 

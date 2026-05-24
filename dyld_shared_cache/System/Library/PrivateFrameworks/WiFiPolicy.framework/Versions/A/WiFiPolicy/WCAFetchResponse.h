@@ -11,10 +11,10 @@
     NSError *_error;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)APSenderSessionUtilityFetchInitialVolume;
++ (id);
 - (id);
-- (id);
+- (id)_delegate;
 - (void);
 - (void);
 - (void)1¥1Â0@ù

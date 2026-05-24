@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPSCNNNormalizationGammaAndBetaState;
+
 @protocol MPSCNNGroupNormalizationDataSource
+
+@optional
+- (MPSCNNNormalizationGammaAndBetaState *){;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfFeatureChannels;
-@property(nonatomic) unsigned long long numberOfGroups;
 @end
 

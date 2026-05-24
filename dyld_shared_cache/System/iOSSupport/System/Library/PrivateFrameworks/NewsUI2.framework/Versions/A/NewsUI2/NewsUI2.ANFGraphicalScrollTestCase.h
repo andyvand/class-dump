@@ -9,17 +9,12 @@
 @interface NewsUI2.ANFGraphicalScrollTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
-    long long iterations;
-    long long offset;
-    long long numberOfScreens;
 }
 
-- (long long);
+- (long long);
 - (id);
 - (double);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (void);
@@ -27,12 +22,7 @@
 - (long long)Xð;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
-@property(nonatomic, readonly) long long iterations; // @synthesize iterations;
-@property(nonatomic, readonly) long long numberOfScreens; // @synthesize numberOfScreens;
-@property(nonatomic, readonly) long long offset; // @synthesize offset;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

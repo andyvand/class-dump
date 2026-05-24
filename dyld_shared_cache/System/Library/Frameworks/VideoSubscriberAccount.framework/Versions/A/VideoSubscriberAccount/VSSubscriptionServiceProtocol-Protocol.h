@@ -5,5 +5,6 @@
 //
 
 @protocol VSSubscriptionServiceProtocol
+- (void)+;
 @end
 

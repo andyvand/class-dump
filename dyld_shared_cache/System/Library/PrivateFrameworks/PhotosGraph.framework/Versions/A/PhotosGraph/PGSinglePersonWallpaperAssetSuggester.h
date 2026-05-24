@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSArray, NSEnumerator, NSObject, NSSet, PGSinglePersonWallpaperAssetSuggesterDistancingContext, PGSinglePersonWallpaperAssetSuggesterFilteringContext, PGSinglePersonWallpaperAssetSuggesterScoringContext;
-@protocol OS_os_log;
+@class NSSet, PGSinglePersonWallpaperAssetSuggesterFilteringContext;
 
 @interface PGSinglePersonWallpaperAssetSuggester
 {
     NSSet *_personLocalIdentifiers;
-    CLSCurationContext *_curationContext;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSEnumerator *_suggestedAssetEnumerator;
-    unsigned long long _numberOfSuggestedAssets;
-    PGSinglePersonWallpaperAssetSuggesterFilteringContext *_primaryFilteringContext;
-    PGSinglePersonWallpaperAssetSuggesterFilteringContext *_secondaryFilteringContext;
-    PGSinglePersonWallpaperAssetSuggesterScoringContext *_scoringContext;
-    PGSinglePersonWallpaperAssetSuggesterDistancingContext *_distancingContext;
-    NSArray *_assetFetchPropertySets;
-    NSSet *_forbiddenAssetUUIDs;
 }
 
-+ (id);
-+ (id);
++ (id)LibCall_ACMContextCredentialGetProperty;
++ (id)LibCall_ACMSecContextCopyCredentialsArrayEx;
++ (_Bool)le.AccessibilityKit.AXKKeyboardFocusTracker.DelegateQueue;
 + (_Bool);
-+ (_Bool);
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)currentSentenceRange;
+- (id)_attachmentDescriptionForAttributedString:forContainingElement:type:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (void)onElement;
 - (id);
 - (id);
 - (unsigned long long);
@@ -49,12 +38,7 @@
 - (void)llection"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetFetchPropertySets; // @synthesize assetFetchPropertySets=_assetFetchPropertySets;
-@property(retain, nonatomic) PGSinglePersonWallpaperAssetSuggesterDistancingContext *distancingContext; // @synthesize distancingContext=_distancingContext;
-@property(retain, nonatomic) NSSet *forbiddenAssetUUIDs; // @synthesize forbiddenAssetUUIDs=_forbiddenAssetUUIDs;
 @property(retain, nonatomic) PGSinglePersonWallpaperAssetSuggesterFilteringContext *primaryFilteringContext; // @synthesize primaryFilteringContext=_primaryFilteringContext;
-@property(retain, nonatomic) PGSinglePersonWallpaperAssetSuggesterScoringContext *scoringContext; // @synthesize scoringContext=_scoringContext;
-@property(retain, nonatomic) PGSinglePersonWallpaperAssetSuggesterFilteringContext *secondaryFilteringContext; // @synthesize secondaryFilteringContext=_secondaryFilteringContext;
 
 @end
 

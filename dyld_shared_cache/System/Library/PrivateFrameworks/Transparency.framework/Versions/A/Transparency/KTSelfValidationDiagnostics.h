@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface KTSelfValidationDiagnostics
 {
     NSString *_rawAccountKey;
-    NSString *_accountKey;
-    NSString *_pushToken;
-    NSDictionary *_uriToDiagnostics;
-    NSDictionary *_ktSelfVerificationInfoDiagnosticsJson;
 }
 
 + (id);
@@ -26,21 +22,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)sionServiceClient",&,V_imageConversionServiceClient;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)ent"24;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *accountKey; // @synthesize accountKey=_accountKey;
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property(retain) NSDictionary *ktSelfVerificationInfoDiagnosticsJson; // @synthesize ktSelfVerificationInfoDiagnosticsJson=_ktSelfVerificationInfoDiagnosticsJson;
-@property(retain) NSString *pushToken; // @synthesize pushToken=_pushToken;
 @property(retain) NSString *rawAccountKey; // @synthesize rawAccountKey=_rawAccountKey;
-@property(retain) NSDictionary *uriToDiagnostics; // @synthesize uriToDiagnostics=_uriToDiagnostics;
 
 @end
 

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)__connectionTiming;
+- (void)L;
 - (void)ctionTouchBarPicker.m;
-- (id)tesCapable;
+- (id)_NSTypingAttributesCapable;
 
 @end
 

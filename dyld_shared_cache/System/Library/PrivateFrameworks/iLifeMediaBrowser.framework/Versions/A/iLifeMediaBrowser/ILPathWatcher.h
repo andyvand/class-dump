@@ -14,11 +14,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)locationManager:didStartMonitoringForRegion: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

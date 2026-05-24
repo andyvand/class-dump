@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SHKShareSheetSuggestionRequest
 {
     _Bool _isRestricted;
-    _Bool _isRTS;
-    NSString *_identifier;
-    NSUUID *_sessionID;
 }
 
 - (id);
@@ -24,9 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isRTS; // @synthesize isRTS=_isRTS;
-@property(readonly, nonatomic) _Bool isRestricted; // @synthesize isRestricted=_isRestricted;
-@property(readonly, copy, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

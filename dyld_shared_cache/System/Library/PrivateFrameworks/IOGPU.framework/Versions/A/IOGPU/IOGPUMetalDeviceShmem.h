@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice;
-
 @interface IOGPUMetalDeviceShmem
 {
     struct _IOGPUMetalDeviceShmemPrivate _priv;
-    IOGPUMetalDevice *_device;
-    unsigned int _shmemID;
-    unsigned int _shmemSize;
-    void *_virtualAddress;
-    _Bool purgeable;
 }
 
 - (void);
 - (void *);
 - (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int);
+- (id)
+;
 
 // Remaining properties
-@property(readonly) unsigned int shmemID; // @synthesize shmemID=_shmemID;
-@property(readonly) unsigned int shmemSize; // @synthesize shmemSize=_shmemSize;
 @property(readonly) void *virtualAddress; // @synthesize virtualAddress=_virtualAddress;
 
 @end

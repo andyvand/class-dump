@@ -7,8 +7,6 @@
 @interface NewsArticles.EndOfArticleFeedGroupEmitterFactory
 {
     id formatService;
-    id issueManager;
-    id historyService;
 }
 
 @end

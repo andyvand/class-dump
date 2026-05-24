@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AVAnalysisVisualLookupControl;
 - (void)isionSegmentationRequest";
 
 // Remaining properties

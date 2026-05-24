@@ -7,15 +7,12 @@
 @class NSData;
 
 @protocol _SFPBIndexState
+- (void);
+- (int)";
+- (void);
+- (NSData *),N;
 
 // Remaining properties
-@property(nonatomic) int embeddedMessageCount;
-@property(nonatomic) int embeddedMessagePercentage;
-@property(nonatomic) int indexedMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int percentAttachmentsIndexed;
 @property(nonatomic) int percentMessagesIndexed;
-@property(nonatomic) int searchIndex;
-@property(nonatomic) int totalMessageCount;
 @end
 

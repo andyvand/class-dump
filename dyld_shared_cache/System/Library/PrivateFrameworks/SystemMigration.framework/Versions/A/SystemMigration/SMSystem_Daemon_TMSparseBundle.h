@@ -6,23 +6,11 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSDictionary, NSMutableSet, NSObject, NSString, NSURL, TMDiskImage;
-@protocol OS_dispatch_queue;
+@class TMDiskImage;
 
 @interface SMSystem_Daemon_TMSparseBundle : SMSystem_Daemon
 {
     _Bool encryptedBundle;
-    NSMutableSet *timeMachineSystems;
-    NSURL *volume;
-    NSURL *sparseBundleURL;
-    unsigned long long foundSystems;
-    NSMutableSet *mountPoints;
-    NSString *systemName;
-    NSObject<OS_dispatch_queue> *timeMachineSystemsQueue;
-    NSObject<OS_dispatch_queue> *mountPointsQueue;
-    NSDictionary *_parentLongTermIdentifier;
-    unsigned long long _totalSystems;
-    TMDiskImage *_tmSparseBundle;
 }
 
 + (id);
@@ -34,9 +22,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,34 +48,23 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)b;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool);
+- (void)!;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)>= 1 && size.height >= 1;
 - (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool encryptedBundle; // @synthesize encryptedBundle;
-@property unsigned long long foundSystems; // @synthesize foundSystems;
-@property(retain) NSMutableSet *mountPoints; // @synthesize mountPoints;
-@property(retain) NSObject<OS_dispatch_queue> *mountPointsQueue; // @synthesize mountPointsQueue;
-@property(retain) NSDictionary *parentLongTermIdentifier; // @synthesize parentLongTermIdentifier=_parentLongTermIdentifier;
-@property(retain) NSURL *sparseBundleURL; // @synthesize sparseBundleURL;
-@property(retain) NSString *systemName; // @synthesize systemName;
-@property(retain) NSMutableSet *timeMachineSystems; // @synthesize timeMachineSystems;
-@property(retain) NSObject<OS_dispatch_queue> *timeMachineSystemsQueue; // @synthesize timeMachineSystemsQueue;
 @property(retain) TMDiskImage *tmSparseBundle; // @synthesize tmSparseBundle=_tmSparseBundle;
-@property unsigned long long totalSystems; // @synthesize totalSystems=_totalSystems;
-@property(retain) NSURL *volume; // @synthesize volume;
 
 @end
 

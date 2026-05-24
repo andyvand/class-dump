@@ -8,10 +8,9 @@
 {
     id activeProviderListener;
     id useConfirmationPromptsListener;
-    id subscribers;
 }
 
-- (id);
+- (id)h];
 - (void);
 
 @end

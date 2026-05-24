@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMFTimer, NSMutableDictionary, NSMutableSet, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHomeManager, HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeThreadExperimentManager
 {
     HMDHomeManager *_homeManager;
-    NSNotificationCenter *_notificationCenter;
-    NSMutableSet *_notificationSet;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    long long _experimentMode;
-    NSMutableDictionary *_experiments;
-    HMFTimer *_experimentTimer;
 }
 
 + (id)%ÿ;
@@ -24,17 +17,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)sharedTripService:didUpdateETAForSharedTrip: /* Error: Ran out of types for this method. */;
+- (void)_reloadBlockedIdentifiersFromSync;
+- (void)_destinations;
+- (void)@"<MSPSharedTripGroupSessionDelegate>",W,N,V_delegate;
+- (_Bool):]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (_Bool)loaded (memory pressure?). Perform an initial load and postpone the access.;
+- (void)Trip] Notification's subtitle when resuming sharing;
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,27 +42,13 @@ __attribute__((visibility("hidden")))
 - (void)no need to cleanup memory objects;
 - (void)lic}@Run update supported options transaction completed;
 - (void)low:(id)arg1 %@] Failed to read access codes with error:%@ /* Error: Ran out of types for this method. */;
-- (void)tDataV2;
+- (void)productDataV2;
 - (id)\;
 - (void)DÕÿ½ÂPA?;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long experimentMode; // @synthesize experimentMode=_experimentMode;
 @property(retain, nonatomic) HMFTimer *experimentTimer; // @synthesize experimentTimer=_experimentTimer;
-@property(retain, nonatomic) NSMutableDictionary *experiments; // @synthesize experiments=_experiments;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) _Bool isManualExperiment;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSMutableSet *notificationSet; // @synthesize notificationSet=_notificationSet;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

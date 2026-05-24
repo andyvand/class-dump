@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioFeedConfigManager
 {
     id observableConfiguration;
-    id service;
-    id fetchDeduper;
 }
 
 @end

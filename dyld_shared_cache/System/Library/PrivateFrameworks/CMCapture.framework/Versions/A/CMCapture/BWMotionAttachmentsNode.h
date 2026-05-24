@@ -6,28 +6,22 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWLimitedGMErrorLogger, BWNodeOutput, NSDictionary;
+@class BWNodeOutput;
 
 @interface BWMotionAttachmentsNode : BWNode
 {
     struct OpaqueFigSampleBufferProcessor *_sampleBufferProcessor;
-    NSDictionary *_optionsDict;
-    BWNodeOutput *_sourceVideoWithMotionAttachmentsOutput;
-    BWNodeOutput *_offlineVISMotionDataOutput;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    _Bool _adjustsValidBufferRectForDarkShade;
-    _Bool _emitMotionAttachmentsSBufForOfflineProResRawVIS;
 }
 
 + (void)alid track reference list for %@ inputs;
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id)× ;
-- (id)icAspectRatioChangeSource;
+- (id)BWDynamicAspectRatioChangeSource;
 - (id)requests while inactive;
 - (void)»¨ÿÃ¤ÿÌ ÿÓÿÚÿá;
 - (_Bool)~?~ÿ=}ÿ<}ÿ:}ÿ8|ÿ6{ÿ¥4zÿª2yÿ­0xÿ°0xÿ /* Error: Ran out of types for this method. */;
@@ -35,8 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsValidBufferRectForDarkShade; // @synthesize adjustsValidBufferRectForDarkShade=_adjustsValidBufferRectForDarkShade;
-@property(readonly, nonatomic) BWNodeOutput *offlineVISMotionDataOutput; // @synthesize offlineVISMotionDataOutput=_offlineVISMotionDataOutput;
 @property(readonly, nonatomic) BWNodeOutput *sourceVideoWithMotionAttachmentsOutput; // @synthesize sourceVideoWithMotionAttachmentsOutput=_sourceVideoWithMotionAttachmentsOutput;
 
 @end

@@ -11,14 +11,12 @@
 @interface HMMatterCommandAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    _Bool _enforceExecutionOrder;
-    NSArray *_commands;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (_Bool);
@@ -30,14 +28,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)removal;
 - (id);
 - (id);
 - (void)ÀÀÁäÃ`Ä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *commands; // @synthesize commands=_commands;
-@property(readonly, nonatomic) _Bool enforceExecutionOrder; // @synthesize enforceExecutionOrder=_enforceExecutionOrder;
 
 @end
 

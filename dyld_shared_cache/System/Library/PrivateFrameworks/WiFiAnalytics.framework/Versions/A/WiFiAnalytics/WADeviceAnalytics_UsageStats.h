@@ -7,9 +7,6 @@
 @interface WADeviceAnalytics_UsageStats
 {
     short _latestCompleteWeekUsageCumulativePercentage;
-    short _latestCompleteWeekUsagePercentage;
-    long long _latestCompleteWeekUsageCumulativeSeconds;
-    long long _latestCompleteWeekUsageSeconds;
 }
 
 - (void);
@@ -21,13 +18,10 @@
 - (long long);
 - (short);
 - (id);
-- (id);
+- (id)hile updating accounts {error:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) short latestCompleteWeekUsageCumulativePercentage; // @synthesize latestCompleteWeekUsageCumulativePercentage=_latestCompleteWeekUsageCumulativePercentage;
-@property(nonatomic) long long latestCompleteWeekUsageCumulativeSeconds; // @synthesize latestCompleteWeekUsageCumulativeSeconds=_latestCompleteWeekUsageCumulativeSeconds;
-@property(nonatomic) short latestCompleteWeekUsagePercentage; // @synthesize latestCompleteWeekUsagePercentage=_latestCompleteWeekUsagePercentage;
-@property(nonatomic) long long latestCompleteWeekUsageSeconds; // @synthesize latestCompleteWeekUsageSeconds=_latestCompleteWeekUsageSeconds;
 
 @end
 

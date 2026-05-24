@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiMetricsManagerBTCoexModeChange, AWDWiFiMetricsManagerBTCoexStats, AWDWiFiMetricsManagerChipCounters, NSMutableArray;
-
 @interface AWDWiFiMetricsManagerOneStatsAssociationInfo
 {
     unsigned long long _timestamp;
-    AWDWiFiMetricsManagerBTCoexModeChange *_btCoexModeChange;
-    AWDWiFiMetricsManagerBTCoexStats *_btCoexStats;
-    AWDWiFiMetricsManagerChipCounters *_chipCounters;
-    NSMutableArray *_chipCountersPerSlices;
-    CDStruct_b5306035 _has;
 }
 
-+ (Class);
++ (Class)q;
 - (void);
 - (void);
 - (void);
@@ -24,9 +17,9 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (id)v;
 - (id);
-- (id);
-- (id);
+- (id)QJ`-J1;
 - (id);
 - (id);
 - (void);
@@ -41,22 +34,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)?	;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiMetricsManagerBTCoexModeChange *btCoexModeChange; // @synthesize btCoexModeChange=_btCoexModeChange;
-@property(retain, nonatomic) AWDWiFiMetricsManagerBTCoexStats *btCoexStats; // @synthesize btCoexStats=_btCoexStats;
-@property(retain, nonatomic) AWDWiFiMetricsManagerChipCounters *chipCounters; // @synthesize chipCounters=_chipCounters;
-@property(retain, nonatomic) NSMutableArray *chipCountersPerSlices; // @synthesize chipCountersPerSlices=_chipCountersPerSlices;
-@property(readonly, nonatomic) _Bool hasBtCoexModeChange;
-@property(readonly, nonatomic) _Bool hasBtCoexStats;
-@property(readonly, nonatomic) _Bool hasChipCounters;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

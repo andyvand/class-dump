@@ -10,7 +10,6 @@
 
 
 // Remaining properties
-@property(readonly) struct _NSRange range;
 @property(readonly) unsigned long long resultType;
 @end
 

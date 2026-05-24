@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSComboBox, NSString, UAModifiersEditor;
+@class NSComboBox, UAModifiersEditor;
 
 @interface UAModifiersController
 {
     UAModifiersEditor *_modifiersFieldEditor;
-    NSComboBox *__modifiersComboBox;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)adataCaptured";
+- (id)se"b1"isSportsWatchFaceRequest"b1"isSnippetNextCardRequest"b1"isMachineUtterance"b1"isDisambiguation"b1"isLiveScoreRequest"b1};
+- (id)aFLOWSmsAudioContext";
+- (void)aFLOWholeHouseAudioDestinationContext";
+- (id)Usecase"b1"isDisputedResponse"b1"isWebExtractedFact"b1};
 - (long long);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setClass:debugEnabled:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSComboBox *_modifiersComboBox; // @synthesize _modifiersComboBox=__modifiersComboBox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UAModifiersEditor *modifiersFieldEditor; // @synthesize modifiersFieldEditor=_modifiersFieldEditor;
-@property(readonly) Class superclass;
 
 @end
 

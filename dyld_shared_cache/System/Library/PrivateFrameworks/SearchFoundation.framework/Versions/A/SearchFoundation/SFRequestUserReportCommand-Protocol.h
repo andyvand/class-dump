@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFUserReportRequest;
+@class NSData, SFUserReportRequest;
 
 @protocol SFRequestUserReportCommand
+- (NSData *)$F;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 @end
 

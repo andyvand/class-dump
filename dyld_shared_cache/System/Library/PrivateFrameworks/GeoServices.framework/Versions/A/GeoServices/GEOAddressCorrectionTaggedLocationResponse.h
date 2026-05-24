@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)tHasMapsWidgetType:(id)arg1;
++ (_Bool)setHasMapsWidgetType:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)_secondPassLatencyMetrics;
+- (void)w9hn;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)1·*ð1Â0@ù
 × ;
-- (id)ategoryType;
+- (id)modernLocalizedCategoryType;
 - (id)ô;
-- (id)gger;
+- (id)EnableGEOPerformanceEventLogger;
 - (id);
 
 @end

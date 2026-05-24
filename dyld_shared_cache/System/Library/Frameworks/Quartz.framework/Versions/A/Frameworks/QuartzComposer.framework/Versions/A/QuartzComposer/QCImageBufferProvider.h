@@ -6,24 +6,22 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class QCImageBuffer, QCRegion;
+@class QCImageBuffer;
 
 @interface QCImageBufferProvider : QCImageProvider
 {
     QCImageBuffer *_buffer;
-    QCRegion *_domainOfDefinition;
-    void *_unused2[4];
 }
 
 + (_Bool);
 + (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (id);

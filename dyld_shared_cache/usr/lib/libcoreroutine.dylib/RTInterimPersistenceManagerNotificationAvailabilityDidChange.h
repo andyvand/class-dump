@@ -11,8 +11,8 @@
     unsigned long long _availability;
 }
 
-- (id);
-- (unsigned long long);
+- (id)checkForBackupStateChange;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long availability; // @synthesize availability=_availability;

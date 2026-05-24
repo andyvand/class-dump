@@ -6,16 +6,14 @@
 
 #import <Catalyst/CATMessage.h>
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CATNotificationMessage : CATMessage
 {
     NSUUID *_taskUUID;
-    NSString *_name;
-    NSDictionary *_userInfo;
 }
 
-+ (_Bool);
++ (_Bool)_signpostEnabledForCategory: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSUUID *taskUUID; // @synthesize taskUUID=_taskUUID;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

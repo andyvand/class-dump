@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)!;
 
 // Remaining properties
 @property(readonly) _Bool isInstalled;

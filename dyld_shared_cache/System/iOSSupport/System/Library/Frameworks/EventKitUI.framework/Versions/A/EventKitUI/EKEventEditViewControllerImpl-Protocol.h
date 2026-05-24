@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventStore, NSString, UIColor;
+@class EKEventEditor, NSString;
 @protocol EKEventEditViewDelegate;
 
 @protocol EKEventEditViewControllerImpl
+- (_Bool);
+- (_Bool);
+- (void)D%s;
+- (void)%s;
+- (void)s;
+- (void)&s;
+- (void)X%s;
+- (EKEventEditor *)*s;
+- (NSString *);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool createdOwnEKEvent;
 @property(nonatomic) __weak id <EKEventEditViewDelegate> editViewDelegate;
-@property(retain, nonatomic) UIColor *editorBackgroundColor;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) unsigned long long eventCreationMethod;
-@property(nonatomic) unsigned long long eventCreationViewStart;
-@property(retain, nonatomic) EKEventStore *eventStore;
-@property(nonatomic) _Bool ignoreUnsavedChanges;
-@property(readonly, nonatomic) id precommitSerializedEvent;
-@property(nonatomic) _Bool shouldRecordPrecommitEvent;
-@property(retain, nonatomic) NSString *suggestionKey;
-@property(nonatomic) _Bool timeImplicitlySet;
 @end
 

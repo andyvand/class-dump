@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TTSFirstPartyAudioUnit;
-
 @interface TTSAUMessagingAU
 {
     CDUnknownBlockType _hostBlock;
-    TTSFirstPartyAudioUnit *_owningAudioUnit;
 }
 
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -22,12 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType callHostBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
 @property(copy, nonatomic) CDUnknownBlockType hostBlock; // @synthesize hostBlock=_hostBlock;
-@property(nonatomic) __weak TTSFirstPartyAudioUnit *owningAudioUnit; // @synthesize owningAudioUnit=_owningAudioUnit;
 
 @end
 

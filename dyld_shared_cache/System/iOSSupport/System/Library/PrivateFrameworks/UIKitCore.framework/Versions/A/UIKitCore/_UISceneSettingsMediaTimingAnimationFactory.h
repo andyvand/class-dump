@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSString;
+@class CAMediaTimingFunction;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneSettingsMediaTimingAnimationFactory
@@ -12,21 +12,14 @@ __attribute__((visibility("hidden")))
     CAMediaTimingFunction *__timingFunctionForAnimation;
 }
 
-- (void);
+- (void)Attempting to init chat with invalid guid %@;
 - (id);
-- (id)Attributes;
+- (id)DCSDictionaryCreateWithAssetAttributes;
 - (void);
-- (_Bool)t;
+- (_Bool)St;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_timingFunctionForAnimation) CAMediaTimingFunction *_timingFunctionForAnimation; // @synthesize _timingFunctionForAnimation=__timingFunctionForAnimation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

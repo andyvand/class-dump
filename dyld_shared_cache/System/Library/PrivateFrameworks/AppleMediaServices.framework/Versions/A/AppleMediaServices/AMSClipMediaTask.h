@@ -6,17 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSProcessInfo, NSNumber, NSString, NSURL;
 @protocol AMSBagProtocol;
 
 @interface AMSClipMediaTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    NSString *_bundleID;
-    NSString *_clientID;
-    AMSProcessInfo *_clientInfo;
-    NSNumber *_externalVersionID;
-    NSURL *_URL;
 }
 
 + (id);
@@ -37,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (id)icateChallenge;
+- (id)_delegateAuthenticateChallenge;
 - (id)CO*)ÙðaÔ6`Îõ?»Þ}Mô7Wï7(ÐERÖvuFÌ¬=Áj<©cç!¨k³ÞkÀtÙ	H-.Þ÷fÓ1gÉò8¼ÙzJó0Pè0/×BFÂbaRØ¸)Õ~(½wó5¼§ÊÔ`ÍÂ§¤T}ìY»íCx²6SðÀyºÚbº¥]ÈN+(Øñ`Õ7aÏô>ºß|Lõ6Vî6)ÑDÛ¾½Mdõ	@¢ôZa«/JéÙ`£Ã{£¼DÑ á$´>w^Ï3zÎ`[pÓãZùA,2~ë+¹ø=­'nGÖ*c×yBiÊúCàX5+gò2:{¾.¤íÄU©àTúÁêIyÀcÛ¶¨äq±Ã¦¥U|íXºìBy³7RñÁx»Ûc»¤\É	RÖvuFÌ¬=Áj<©cç!¨k³ÞkÀtÙ\9:ÊãrÇ%sÝæ,¨Ín^ç$Dü$;ÃV;z¿/¥ìÅT¨áUûÀ
 ëHxÁbÚ·©åp°½ü9©#jCÒ.gÓ}FmÎþGä\1/cö6ÁEåæÕ_?®Rù¯:ðt²;ø MøSçJ!`¥5¿ößN²ûOáÚñRbÛxÀ­³ÿjªX=>ÎçvÃ!wÙâ(¬ÉjZã @ø ?ÇRÄ@àãÐZ:«Wüª?õq·>ý%HýVâO÷¶sÓÐãi 	d-Ï7ÆB'´Î®{ÎeÑ)¼|ÒVöõÆL,½Aê¼)ãg¡(ë3^ë@ôYf'âBArø±	õ¼^¦WÓ¶%_?ê_ô@¸-í.oª
 	:°ùÐA½ô@îÕþ]mÔwÏ¢¼ðe¥'f£ /* Error: Ran out of types for this method. */;
@@ -49,19 +43,7 @@ EÊ<Æu¸Õ+6j-0×f}Ó­ãCi`Â?®RNï3Xºøº?"òU`[�
 ±=.ØsE	îé,NÀûc~Y»AËm)@£Æ?°!UëÚÕ$Q{ÝãT;
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *externalVersionID; // @synthesize externalVersionID=_externalVersionID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

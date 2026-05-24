@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPortraitBlur : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBlurmapImage;
-    CIImage *inputMatteImage;
-    NSNumber *inputLumaNoiseScale;
-    NSNumber *inputScale;
-    NSNumber *inputAperture;
-    NSDictionary *inputTuningParameters;
-    NSString *inputShape;
-    NSNumber *inputDraftMode;
 }
 
 + (id);
@@ -35,33 +27,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (id)yyyy]]]]PPIP[[[[mmmm_pmw_oi~j}{Viay{{{{s|smth~|;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture;
-@property(retain) CIImage *inputBlurmapImage; // @synthesize inputBlurmapImage;
-@property(retain, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseScale; // @synthesize inputLumaNoiseScale;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
-@property(copy, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) NSString *inputShape; // @synthesize inputShape;
-@property(retain, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

@@ -5,8 +5,10 @@
 //
 
 @protocol CBCentralManagerDelegate
+- (void)`;
 
 @optional
-- (void)ifiers;
+- (void)create AVC media stream delegate;
+- (void)_identifiers;
 @end
 

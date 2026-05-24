@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol _UIClickInteractionDriving;
 
 __attribute__((visibility("hidden")))
 @interface _UIGestureStudyClickInteraction
 {
     _Bool _usesForce;
-    UIView *_view;
-    id <_UIClickInteractionDriving> _driver;
-    id _target;
-    SEL _action;
-    double _startTimestamp;
-    struct CGPoint _originalCentroid;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (double);
+- (id);
+- (double)SbG;
 - (void);
-- (id);
+- (id)g7;
 - (id);
 - (struct CGPoint);
-- (id);
+- (id)h;
 - (double);
 - (void);
 - (void);
@@ -36,34 +29,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Ôa!`Aù1d°1Â0@ù
 × ;
-- (id)terization;
+- (id)preventPreviewRasterization;
 - (id)utContainer",&,N,V_container;
 - (void);
 - (void)com.apple.UIKit.LoggingPreferences;
 - (SEL)state:%@> /* Error: Ran out of types for this method. */;
-- (double)ttingViewControllerSetStrikethroughToggleChange;
-- (void)tion;
-- (void)mStyle;
+- (double)UITextFormattingViewControllerSetStrikethroughToggleChange;
+- (void)FocusAnimationDefaultFocusingBaseDuration;
+- (void)NUIButtonConfigurationMacIdiomStyle;
 - (void)1ÚWTu[;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <_UIClickInteractionDriving> driver; // @synthesize driver=_driver;
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) NSString *eventName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double movement;
-@property(nonatomic) struct CGPoint originalCentroid; // @synthesize originalCentroid=_originalCentroid;
-@property(nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(nonatomic) _Bool usesForce; // @synthesize usesForce=_usesForce;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -11,8 +11,8 @@
 + (_Bool);
 + (long long);
 + (long long);
-+ (id);
-+ (long long);
++ (id);
++ (long long),;
 + (void);
 
 @end

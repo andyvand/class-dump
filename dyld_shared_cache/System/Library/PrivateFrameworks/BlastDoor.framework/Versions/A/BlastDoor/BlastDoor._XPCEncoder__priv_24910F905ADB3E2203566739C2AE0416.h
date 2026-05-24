@@ -7,10 +7,6 @@
 @interface BlastDoor._XPCEncoder__priv_24910F905ADB3E2203566739C2AE0416
 {
     id codingPath;
-    id userInfo;
-    id issuer;
-    id container;
-    id options;
 }
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreAVFMovieObserver
 {
     struct ThreadSafeWeakPtr<WebCore::MediaPlayerPrivateAVFoundationObjC, WTF::NoTaggingTraits<WebCore::MediaPlayerPrivateAVFoundationObjC>> m_player;
-    int m_delayCallbacks;
-    struct RefPtr<WTF::WorkQueue, WTF::RawPtrTraits<WTF::WorkQueue>, WTF::DefaultRefDerefTraits<WTF::WorkQueue>> m_backgroundQueue;
 }
 
 - (void);
@@ -32,13 +28,7 @@ kÜ'dSxà±ç
 - (id)ñL¾¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

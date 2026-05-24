@@ -7,16 +7,6 @@
 @interface NewsUI2.AudioFeedDataManager
 {
     id delegate;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedManager;
-    id feedPluginManager;
-    id accessQueue;
-    id subscriptionService;
-    id tagService;
-    id offlineManager;
-    id offlineFeedPrimer;
-    id offlineFeatures;
 }
 
 - (void);
@@ -24,8 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)nager;
+- (id)`j;
+- (void)SearchMoreDataManager;
 
 @end
 

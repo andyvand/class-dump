@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, SSSearchToolModelConfig;
+@class NSCondition;
 
 @interface SSUniversalSearchRankerModel
 {
     NSCondition *_condition;
-    _Bool _loaded;
-    SSSearchToolModelConfig *_modelConfig;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -26,11 +24,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)ltsRanked: /* Error: Ran out of types for this method. */;
+- (void)initWithSessionId:queryId:resultsRanked: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) SSSearchToolModelConfig *modelConfig; // @synthesize modelConfig=_modelConfig;
 
 @end
 

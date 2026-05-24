@@ -7,8 +7,6 @@
 @interface ICSDateValue
 {
     long long _year;
-    long long _month;
-    long long _day;
 }
 
 + (id);
@@ -20,18 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (long long)ÌÐ;
 - (long long)Êýÿ;
 
 // Remaining properties
-@property(readonly) long long day; // @synthesize day=_day;
-@property(readonly) long long month; // @synthesize month=_month;
 @property(readonly) long long year; // @synthesize year=_year;
 
 @end

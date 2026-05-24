@@ -9,26 +9,22 @@
 @interface CBServiceUUIDParamInfo
 {
     NSData *_serviceUUID;
-    NSData *_blobData;
-    NSData *_maskData;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ll;
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)initWithIndexer:(id)arg1 index:indexName:spotlightDomainIdentifier:reason:supportURL: /* Error: Ran out of types for this method. */;
+- (void)BatteryIntelligence::BatteryHealthDelta /* Error: Ran out of types for this method. */;
 - (id)SupportsNAN;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *blobData; // @synthesize blobData=_blobData;
-@property(copy, nonatomic) NSData *maskData; // @synthesize maskData=_maskData;
 @property(copy, nonatomic) NSData *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
 
 @end

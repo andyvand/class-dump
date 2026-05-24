@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface MTStoreIdentifier
 {
     NSNumber *_storeIdentifier;
-    NSString *_feedUrl;
 }
 
 + (id);
@@ -21,17 +20,16 @@
 + (id);
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)T*;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)äÿ;
 - (id)|;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedUrl; // @synthesize feedUrl=_feedUrl;
 @property(retain, nonatomic) NSNumber *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end

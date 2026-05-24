@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSSAdditions)
-+ (id);
++ (id)CodingKeys;
 @end
 

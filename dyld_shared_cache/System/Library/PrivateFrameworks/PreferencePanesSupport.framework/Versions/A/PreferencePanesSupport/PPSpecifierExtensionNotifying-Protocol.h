@@ -5,6 +5,7 @@
 //
 
 @protocol PPSpecifierExtensionNotifying
+- (void)(;
 - (void)ù
 × ;
 @end

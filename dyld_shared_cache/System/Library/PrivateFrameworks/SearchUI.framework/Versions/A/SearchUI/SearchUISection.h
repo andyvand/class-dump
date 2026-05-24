@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFCollectionCardSection, SFResultSection;
+@class SFResultSection;
 
 @interface SearchUISection
 {
     SFResultSection *_resultSection;
-    SFCollectionCardSection *_collectionSection;
-    NSString *_sectionIdentifier;
-    NSString *_reuseIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)HAP2EncodedRequestTypeProtocolConfiguration;
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -27,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) SFCollectionCardSection *collectionSection; // @synthesize collectionSection=_collectionSection;
-@property(readonly) _Bool isBrowseSection;
 @property(readonly) SFResultSection *resultSection; // @synthesize resultSection=_resultSection;
-@property(readonly) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
-@property(readonly) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end
 

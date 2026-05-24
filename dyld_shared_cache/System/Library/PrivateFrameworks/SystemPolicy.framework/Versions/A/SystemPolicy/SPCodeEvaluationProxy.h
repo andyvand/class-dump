@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface SPCodeEvaluationProxy
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)B;
 
 @end
 

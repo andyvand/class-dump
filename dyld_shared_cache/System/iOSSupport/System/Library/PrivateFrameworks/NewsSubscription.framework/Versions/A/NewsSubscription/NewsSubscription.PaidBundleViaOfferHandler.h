@@ -7,12 +7,9 @@
 @interface NewsSubscription.PaidBundleViaOfferHandler
 {
     id appConfigurationManager;
-    id store;
-    id featureAvailability;
-    id $__lazy_storage_$_paidBundleViaOfferConfig;
 }
 
-- (id);
+- (id)DGPUVoronoiTriangleData p_setupDataWithPointCount:clippedToRect:percentOfCellsToSplit:randomGenerator:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSParagraphStyle, NSSet, NSString;
+@class NSDictionary, NSParagraphStyle;
 
 @interface UITextFormattingViewControllerFormattingDescriptor
 {
     NSDictionary *_attributes;
-    _Bool _underlinePresent;
-    _Bool _strikethroughPresent;
-    _Bool __canToggleBold;
-    _Bool __canToggleItalic;
-    long long _underline;
-    long long _strikethrough;
-    long long _listStyle;
-    NSArray *_fonts;
-    NSArray *_textColors;
-    double _lineHeight;
-    NSSet *_textAlignments;
-    NSSet *_textLists;
-    NSSet *_highlights;
-    NSString *_formattingStyleKey;
-    NSParagraphStyle *__paragraphStyle;
-    NSSet *__customComponentKeys;
-    NSString *__emphasisStyleKey;
-    long long __blockquote;
 }
 
-+ (_Bool);
++ (_Bool)@9;
 + (_Bool);
 + (_Bool)t.;
+- (long long)currentBatch;
+- (void)account:(id)arg1 defaults:blockList:allowList:blockingMode:blockIdleStatus:status:capabilities:serviceLoginStatus:loginStatusMessage: /* Error: Ran out of types for this method. */;
+- (void)account:(id)arg1 chat:style:notifySentMessage:sendTime:isReplicating: /* Error: Ran out of types for this method. */;
+- (void)_relayMessageToPeers:(long long)arg1 forChat:serviceName:requiredCapabilities:reflectOnly:excludesWatch:onlyWatch:overridingAttachmentData:skipServiceForSending: /* Error: Ran out of types for this method. */;
+- (void)setBroadcaster:(id)arg1;
+- (void)rray",&,N,V_handleInfo;
+- (id);
+- (id);
+- (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -69,34 +51,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)tivate:(id)arg1;
-- (void)or:(id)arg1 endColor: /* Error: Ran out of types for this method. */;
+- (_Bool)selectionDisplayInteractionDidDeactivate:(id)arg1;
+- (void)initWithStartColor:(id)arg1 endColor: /* Error: Ran out of types for this method. */;
 - (id)ings",N,&,VpositionX;
-- (id)ollerOnly;
+- (id)UIAlertControllerOnly;
 - (id)Õ%13Çx;
 - (void)4I²ÿ¼¸Ha;
 - (void)£ÿT;
 - (id)g;
 
 // Remaining properties
-@property(nonatomic) long long _blockquote; // @synthesize _blockquote=__blockquote;
-@property(nonatomic) _Bool _canToggleBold; // @synthesize _canToggleBold=__canToggleBold;
-@property(nonatomic) _Bool _canToggleItalic; // @synthesize _canToggleItalic=__canToggleItalic;
-@property(copy, nonatomic) NSSet *_customComponentKeys; // @synthesize _customComponentKeys=__customComponentKeys;
-@property(copy, nonatomic) NSString *_emphasisStyleKey; // @synthesize _emphasisStyleKey=__emphasisStyleKey;
 @property(copy, nonatomic) NSParagraphStyle *_paragraphStyle; // @synthesize _paragraphStyle=__paragraphStyle;
-@property(copy, nonatomic) NSArray *fonts; // @synthesize fonts=_fonts;
-@property(copy, nonatomic) NSString *formattingStyleKey; // @synthesize formattingStyleKey=_formattingStyleKey;
-@property(copy, nonatomic) NSSet *highlights; // @synthesize highlights=_highlights;
-@property(nonatomic) double lineHeight; // @synthesize lineHeight=_lineHeight;
-@property(nonatomic) long long listStyle; // @synthesize listStyle=_listStyle;
-@property(nonatomic) long long strikethrough; // @synthesize strikethrough=_strikethrough;
-@property(nonatomic) _Bool strikethroughPresent; // @synthesize strikethroughPresent=_strikethroughPresent;
-@property(copy, nonatomic) NSSet *textAlignments; // @synthesize textAlignments=_textAlignments;
-@property(copy, nonatomic) NSArray *textColors; // @synthesize textColors=_textColors;
-@property(copy, nonatomic) NSSet *textLists; // @synthesize textLists=_textLists;
-@property(nonatomic) long long underline; // @synthesize underline=_underline;
-@property(nonatomic) _Bool underlinePresent; // @synthesize underlinePresent=_underlinePresent;
 
 @end
 

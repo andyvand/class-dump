@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface CRKBook
 {
     _Bool _hasChapters;
-    NSString *_title;
-    NSString *_author;
-    NSString *_path;
-    NSData *_image;
-    NSURL *_webURL;
-    long long _type;
 }
 
 + (_Bool);
@@ -22,9 +16,9 @@
 - (void);
 - (id);
 - (void);
+- (id)N4siri12dialogengine14MeCardProviderE;
 - (id);
-- (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (id);
@@ -33,20 +27,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)headerUnsubscribeTypes;
 - (id);
 - (id);
 - (void);
 - (id)À;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(nonatomic) _Bool hasChapters; // @synthesize hasChapters=_hasChapters;
-@property(copy, nonatomic) NSData *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *path; // @synthesize path=_path;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSURL *webURL; // @synthesize webURL=_webURL;
 
 @end
 

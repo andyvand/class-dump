@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APDeviceCapabilityEngine, NSString;
-
 @interface APLegacyFeatureFlags
 {
 }
@@ -14,33 +12,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool actionStoreEnabled;
-@property(readonly, nonatomic) _Bool attributionV2Enabled;
-@property(readonly, nonatomic) _Bool attributionV3Enabled;
-@property(readonly, nonatomic) APDeviceCapabilityEngine *capabilityEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool devicePipelinesEnabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool odcaP0;
-@property(readonly, nonatomic) _Bool odcaP0u1;
-@property(readonly, nonatomic) _Bool odcaP1;
-@property(readonly, nonatomic) _Bool policyEnforcement;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool toroIDPartialSuppression;
-@property(readonly, nonatomic) _Bool unifiedRegulatedAppAdFilter;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSString, NSUUID;
-
 @interface CHLineWrappableGroup
 {
     _Bool _canWrapToNextGroup;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSArray *_subregions;
-    NSString *_text;
-    unsigned long long _textRegionType;
-    NSUUID *_uuid;
 }
 
-+ (_Bool);
++ (_Bool)_filterConfigurationArray;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -25,26 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ed out after %@s waiting for migration to be %@;
 - (id);
 - (void)Ð;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
 @property(readonly) _Bool canWrapToNextGroup; // @synthesize canWrapToNextGroup=_canWrapToNextGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(readonly) NSArray *subregions; // @synthesize subregions=_subregions;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text; // @synthesize text=_text;
-@property(readonly) unsigned long long textRegionType; // @synthesize textRegionType=_textRegionType;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

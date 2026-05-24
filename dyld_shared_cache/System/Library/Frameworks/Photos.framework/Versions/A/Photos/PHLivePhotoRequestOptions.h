@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHLivePhotoRequestOptions
 {
     _Bool _networkAccessAllowed;
-    _Bool _liveRenderVideoIfNeeded;
-    _Bool _includeImage;
-    _Bool _preferHDR;
-    long long _version;
-    long long _deliveryMode;
-    CDUnknownBlockType _progressHandler;
-    long long _downloadIntent;
-    long long _downloadPriority;
 }
 
 - (void);
 - (void);
 - (id);
+- (_Bool)#e;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long)lish cloud playlist failed with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -39,30 +29,15 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (void)aded:(long long)arg1;
+- (id)unarchivedObjectOfClasses:(struct _NSZone *)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)mediaRequest:(long long)arg1 didFindLocallyAvailableResult:isDegraded: /* Error: Ran out of types for this method. */;
 - (void)sionWrapper",R,N,V_videoURLSandboxExtensionWrapper;
-- (CDUnknownBlockType)on;
+- (CDUnknownBlockType)duration;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long downloadIntent; // @synthesize downloadIntent=_downloadIntent;
-@property(nonatomic) long long downloadPriority; // @synthesize downloadPriority=_downloadPriority;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeImage; // @synthesize includeImage=_includeImage;
-@property(nonatomic) _Bool liveRenderVideoIfNeeded; // @synthesize liveRenderVideoIfNeeded=_liveRenderVideoIfNeeded;
-@property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic) _Bool preferHDR; // @synthesize preferHDR=_preferHDR;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly) Class superclass;
-@property(nonatomic) long long version; // @synthesize version=_version;
+@property(readonly, copy, nonatomic) CDUnknownBlockType progressHandler;
 
 @end
 

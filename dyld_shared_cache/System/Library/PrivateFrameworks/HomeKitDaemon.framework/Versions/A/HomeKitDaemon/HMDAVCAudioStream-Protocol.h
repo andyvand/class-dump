@@ -5,24 +5,20 @@
 //
 
 @class NSDictionary;
-@protocol HMDAVCAudioStreamDelegate;
 
 @protocol HMDAVCAudioStream
+- (long long);
+- (void)ing/Render/PIPortraitVideoRenderNode.m;
+- (void);
 - (float)!ÄAù1Â0@ù
 × ;
-- (void)thCountersManager:dateProvider: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)guration:completion: /* Error: Ran out of types for this method. */;
+- (void)initWithCountersManager:dateProvider: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)addClientConfiguration:completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)ntrol accessories %@;
-- (void)gEventStatusChannelAnalyzerRequestGroup;
+- (void)HMDLogEventStatusChannelAnalyzerRequestGroup;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *capabilities;
-@property(nonatomic) __weak id <HMDAVCAudioStreamDelegate> delegate;
-@property(nonatomic) long long direction;
-@property(readonly, nonatomic) long long downlinkToken;
-@property(readonly, nonatomic) long long streamToken;
-@property(readonly, nonatomic) long long uplinkToken;
-@property(nonatomic) float volume;
 @end
 

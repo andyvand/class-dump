@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     OITSUBezierPath *mPath;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

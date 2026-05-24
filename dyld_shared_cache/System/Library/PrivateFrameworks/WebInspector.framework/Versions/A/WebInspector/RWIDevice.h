@@ -6,32 +6,19 @@
 
 #import <WebInspector/RWIMobileDeviceTargetBase.h>
 
-@class NSImage, NSObject, NSString;
-@protocol OS_dispatch_source, RWIDeviceDelegate, RWIPairableDelegate;
+@class NSObject;
+@protocol OS_dispatch_source, RWIDeviceDelegate;
 
 @interface RWIDevice : RWIMobileDeviceTargetBase
 {
     NSObject<OS_dispatch_source> *_deviceAccessQueuePairingTimer;
-    NSString *_loggingIdentifier;
-    _Bool _hasBuildVersion;
-    _Bool _wirelessEnabled;
-    _Bool _attemptedPair;
-    long long _automationAvailability;
-    NSImage *_icon;
-    NSImage *_symbolImage;
-    _Bool _remoteInspectionEnabled;
-    _Bool _passcodeLocked;
-    long long _deviceClass;
-    id <RWIPairableDelegate> _pairingDelegate;
-    id <RWIDeviceDelegate> _deviceDelegate;
-    long long _pairingProgress;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -42,7 +29,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -55,22 +42,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id)p;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Z;
 - (void);
-- (long long);
+- (long long)n a shared Web process;
 - (_Bool);
 - (void);
 - (long long);
@@ -78,22 +65,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysAllowsNetworkDebugging;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <RWIDeviceDelegate> deviceDelegate; // @synthesize deviceDelegate=_deviceDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired;
-@property(nonatomic) __weak id <RWIPairableDelegate> pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
-@property(readonly, nonatomic) long long pairingProgress; // @synthesize pairingProgress=_pairingProgress;
-@property(readonly, nonatomic) long long pairingState;
-@property(readonly, nonatomic, getter=isPasscodeLocked) _Bool passcodeLocked; // @synthesize passcodeLocked=_passcodeLocked;
-@property(readonly, nonatomic, getter=isRemoteInspectionEnabled) _Bool remoteInspectionEnabled; // @synthesize remoteInspectionEnabled=_remoteInspectionEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isWirelessEnabled) _Bool wirelessEnabled;
 
 @end
 

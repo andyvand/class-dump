@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSMutableArray, NSString;
+@class CRNormalizedQuad, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PDFCRGroupRegion
 {
     NSMutableArray *_children;
-    unsigned int _type;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSArray *_subregions;
-    PDFCRGroupRegion *_parent;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)foreignKeys;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -34,18 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly) NSArray *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property __weak PDFCRGroupRegion *parent; // @synthesize parent=_parent;
-@property(readonly) NSArray *subregions; // @synthesize subregions=_subregions;
-@property(readonly) Class superclass;
-@property unsigned int type; // @synthesize type=_type;
 
 @end
 

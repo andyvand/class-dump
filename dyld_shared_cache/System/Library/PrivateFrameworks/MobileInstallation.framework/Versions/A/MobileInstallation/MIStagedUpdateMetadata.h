@@ -9,7 +9,6 @@
 @interface MIStagedUpdateMetadata
 {
     NSString *_stagedIdentifier;
-    unsigned long long _stagedDiskUsage;
 }
 
 + (_Bool);
@@ -18,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)saveCachedIsReadyForAnalysis:(id)arg1 libraryServicesManager: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long stagedDiskUsage; // @synthesize stagedDiskUsage=_stagedDiskUsage;
 @property(copy, nonatomic) NSString *stagedIdentifier; // @synthesize stagedIdentifier=_stagedIdentifier;
 
 @end

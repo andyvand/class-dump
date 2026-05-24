@@ -12,20 +12,17 @@ __attribute__((visibility("hidden")))
     NSString *_name;
 }
 
-- (void);
+- (void)_multivalueIdentifierSet;
 - (id);
 - (struct sqlite3_module *);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)teMonitor _stopMonitoring];
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *columnDefinitions;
-@property(readonly, nonatomic) struct sqlite3_module *module;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long rowCount;
 
 @end
 

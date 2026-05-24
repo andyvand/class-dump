@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id _weakObject;
 }
 
-+ (id);
++ (id)ge notified command, no messages found for guid:(id)arg1 %@;
 - (void)5UIKit27UIViewTypedAnimatableVectorP;
 - (void);
 - (id);

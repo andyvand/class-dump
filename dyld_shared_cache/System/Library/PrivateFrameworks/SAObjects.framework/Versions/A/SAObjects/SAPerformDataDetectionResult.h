@@ -6,34 +6,24 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAPerformDataDetectionResult : SABaseCommand
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)	ka;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *detectionTarget;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *matches;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

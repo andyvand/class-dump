@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PKImageGenerationController, PKSelectionGestureView, PKSelectionInteraction, PKSelectionView, PKSpaceInsertionController, PKStrokeSelection, PKTiledView, PKTranscriptionController, UIDropInteraction, UIPasteboard;
-@protocol OS_dispatch_queue, PKDrawingUUID;
+@class PKSpaceInsertionController;
 
 @interface PKSelectionController
 {
     struct CGPoint _dropPosition;
-    id <PKDrawingUUID> _previousDrawingUUIDForSelection;
-    int _selectionViewCount;
-    long long _currentIntersectionAlgorithm;
-    PKTranscriptionController *_transcriptionController;
-    NSObject<OS_dispatch_queue> *_intersectionQueue;
-    NSObject<OS_dispatch_queue> *_selectionHullQueue;
-    CDUnknownBlockType _intersectStrokesBetweenLollipopBlock;
-    UIDropInteraction *_dropInteraction;
-    _Bool _isChangingColor;
-    CDUnknownBlockType _deferredChangingColorBlock;
-    PKImageGenerationController *_imageGenerationController;
-    _Bool _isClearingSelection;
-    _Bool _shouldClampInputPoints;
-    _Bool _insertSpaceEnabled;
-    _Bool _isCurrentlyAddingSpace;
-    PKTiledView *_tiledView;
-    PKStrokeSelection *_currentStrokeSelection;
-    UIPasteboard *_currentPasteboard;
-    PKSpaceInsertionController *_spaceInsertionController;
-    PKSelectionView *_selectionView;
-    PKSelectionGestureView *_selectionGestureView;
-    struct CGAffineTransform _selectionTransform;
 }
 
 + (id);
@@ -94,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (void);
@@ -229,12 +206,12 @@
 - (void);
 - (id);
 - (void);
+- (void)*;
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGColor *);
 - (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -249,36 +226,14 @@
 - (void)!AùÑ'1Â0@ù
 × ;
 - (id)}^{?}{?=^{?}}}16;
-- (void)RequestArtificialDelay;
-- (void)eBuffer;
+- (void)debugRecognitionRequestArtificialDelay;
+- (void)_resourceBuffer;
 - (void)	
 HIJK;
 - (long long)	;
 
 // Remaining properties
-@property(retain, nonatomic) UIPasteboard *currentPasteboard; // @synthesize currentPasteboard=_currentPasteboard;
-@property(readonly, nonatomic) long long currentSelectionType;
-@property(retain, nonatomic) PKStrokeSelection *currentStrokeSelection; // @synthesize currentStrokeSelection=_currentStrokeSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCurrentSelection;
-@property(readonly, nonatomic) _Bool hasStrokesOrElementsSelection;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool insertSpaceEnabled; // @synthesize insertSpaceEnabled=_insertSpaceEnabled;
-@property(readonly, nonatomic) _Bool isClearingSelection; // @synthesize isClearingSelection=_isClearingSelection;
-@property(nonatomic) _Bool isCurrentlyAddingSpace; // @synthesize isCurrentlyAddingSpace=_isCurrentlyAddingSpace;
-@property(readonly, nonatomic) PKSelectionGestureView *selectionGestureView; // @synthesize selectionGestureView=_selectionGestureView;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *selectionHullQueue; // @dynamic selectionHullQueue;
-@property(readonly, nonatomic) PKSelectionInteraction *selectionInteraction;
-@property(nonatomic) struct CGAffineTransform selectionTransform; // @synthesize selectionTransform=_selectionTransform;
-@property(retain, nonatomic) PKSelectionView *selectionView; // @synthesize selectionView=_selectionView;
-@property(readonly, nonatomic) _Bool shouldClampInputPoints; // @synthesize shouldClampInputPoints=_shouldClampInputPoints;
 @property(retain, nonatomic) PKSpaceInsertionController *spaceInsertionController; // @synthesize spaceInsertionController=_spaceInsertionController;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak PKTiledView *tiledView; // @synthesize tiledView=_tiledView;
 
 @end
 

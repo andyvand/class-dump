@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (_Bool)7;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)1g;
 - (id);
-- (void)dentifier:forContainerIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)unregisterChangeHistoryClientIdentifier:forContainerIdentifier:error: /* Error: Ran out of types for this method. */;
 - (id)DÜ;
 
 // Remaining properties

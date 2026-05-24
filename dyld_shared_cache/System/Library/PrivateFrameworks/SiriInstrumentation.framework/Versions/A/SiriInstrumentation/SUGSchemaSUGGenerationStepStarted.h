@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGGenerationStepStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)sForPeer(APSNetworkClockRef, CFDictionaryRef, uint16_t *);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)"NSError">16;
+- (_Bool)ntriesByIdentifier;
+- (_Bool)iled to add column message_source to the message table.;
 - (id);
 - (id);
-- (id)initeStateTransducerArcs;
-- (id)slationTask;
-- (_Bool)UESTTYPE_START_SPEECH_PRONUNCIATION_REQUEST;
-- (_Bool)ATYPE_PREVIOUS_ARTIST;
-- (void)sPermission;
+- (id)deleteNumFiniteStateTransducerArcs;
+- (id)_hasTranslationTask;
+- (_Bool)UEIREQUESTTYPE_START_SPEECH_PRONUNCIATION_REQUEST;
+- (_Bool)FLOWMEDIATYPE_PREVIOUS_ARTIST;
+- (void)SISchemaLocationAccessPermission;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

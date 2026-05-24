@@ -5,5 +5,6 @@
 //
 
 @protocol APPolicyInstrumenting
+- (_Bool);
 @end
 

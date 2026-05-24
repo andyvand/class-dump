@@ -5,5 +5,8 @@
 //
 
 @protocol LACUIAuthenticationViewModelDelegate
+
+@optional
+- (void);
 @end
 

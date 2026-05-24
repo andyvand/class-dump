@@ -5,5 +5,6 @@
 //
 
 @protocol ScribbleUnifiedFieldOverlayControllerDelegate
+- (void)9kA;
 @end
 

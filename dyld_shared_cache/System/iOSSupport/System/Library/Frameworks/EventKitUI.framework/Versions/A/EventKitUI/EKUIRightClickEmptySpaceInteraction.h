@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIContextMenuInteraction, UIView;
-@protocol EKUIRightClickEmptySpaceInteractionDelegate;
+@class UIContextMenuInteraction;
 
 @interface EKUIRightClickEmptySpaceInteraction
 {
     UIContextMenuInteraction *_interaction;
-    id <EKUIRightClickEmptySpaceInteractionDelegate> _delegate;
 }
 
 + (id);
 - (id);
+- (id)_initWithModifications: /* Error: Ran out of types for this method. */;
+- (void)h
+A9H;
+- (id)ble to decode data:(id)arg1 %@;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)kdayLabel;
+- (void)weekdayLabel;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKUIRightClickEmptySpaceInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIContextMenuInteraction *interaction; // @synthesize interaction=_interaction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

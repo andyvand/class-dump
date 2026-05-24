@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MTLSamplerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) struct MTLResourceID gpuResourceID;
 
 @end
 

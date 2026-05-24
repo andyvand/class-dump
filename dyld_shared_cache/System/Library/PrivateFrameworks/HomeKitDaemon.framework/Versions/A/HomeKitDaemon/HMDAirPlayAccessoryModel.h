@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDMediaAccessoryModel.h>
 
-@class HMFPairingIdentity, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAirPlayAccessoryModel : HMDMediaAccessoryModel
 {
@@ -19,16 +17,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *minimumUserPriviledge; // @dynamic minimumUserPriviledge;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(retain, nonatomic) NSString *password; // @dynamic password;
-@property(readonly) Class superclass;
 
 @end
 

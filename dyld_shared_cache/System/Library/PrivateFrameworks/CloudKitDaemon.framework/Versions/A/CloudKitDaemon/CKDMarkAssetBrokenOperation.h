@@ -6,35 +6,15 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDFetchRecordZonesOperation, CKDFetchRecordsOperation, CKDMarkAssetBrokenURLRequestWrapperOperation, CKDModifyRecordZonesOperation, CKDModifyRecordsOperation, CKRecord, CKRecordID, CKRecordZone, CKUploadRequestConfiguration, NSError, NSString;
-@protocol CKMarkAssetBrokenOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDMarkAssetBrokenOperation : CKDDatabaseOperation
 {
     _Bool _touchRepairZone;
-    _Bool _bypassPCSEncryptionForTouchRepairZone;
-    _Bool _simulateCorruptAsset;
-    _Bool _writeRepairRecord;
-    CDUnknownBlockType _assetOrPackageMarkedBrokenBlock;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
-    CKRecordID *_recordID;
-    NSString *_field;
-    long long _listIndex;
-    CKDFetchRecordsOperation *_fetchOperation;
-    CKDFetchRecordZonesOperation *_zoneFetchOperation;
-    CKDModifyRecordZonesOperation *_zoneCreateOperation;
-    CKDModifyRecordsOperation *_corruptOperation;
-    CKDMarkAssetBrokenURLRequestWrapperOperation *_wrapperOperation;
-    CKRecordZone *_repairZone;
-    CKRecord *_record;
-    unsigned long long _numMarkAssetBrokenFailures;
-    NSError *_markAssetBrokenError;
 }
 
-+ (id);
++ (id)setRxUcastCTSOverRxCtrlFrmsPercentage:(unsigned long long)arg1;
+- (id)h;
 - (id);
-- (id);
-- (id);
+- (id)9h;
 - (void);
 - (void);
 - (void);
@@ -43,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -57,54 +37,35 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (_Bool)c;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool)C;
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void)__kIMDMessageServicesUpdateDowngradePropertiesKey;
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (int);
 - (void);
 - (id);
-- (id)leLocalizationKey: /* Error: Ran out of types for this method. */;
-- (void)InProcess;
+- (id)setSubtitleLocalizationKey: /* Error: Ran out of types for this method. */;
+- (void)CreatedInProcess;
 - (id)tUsingClientProxy is NO;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType assetOrPackageMarkedBrokenBlock; // @synthesize assetOrPackageMarkedBrokenBlock=_assetOrPackageMarkedBrokenBlock;
-@property(nonatomic) _Bool bypassPCSEncryptionForTouchRepairZone; // @synthesize bypassPCSEncryptionForTouchRepairZone=_bypassPCSEncryptionForTouchRepairZone;
-@property(retain, nonatomic) id <CKMarkAssetBrokenOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) CKDModifyRecordsOperation *corruptOperation; // @synthesize corruptOperation=_corruptOperation;
-@property(retain, nonatomic) CKDFetchRecordsOperation *fetchOperation; // @synthesize fetchOperation=_fetchOperation;
-@property(retain, nonatomic) NSString *field; // @synthesize field=_field;
-@property(nonatomic) long long listIndex; // @synthesize listIndex=_listIndex;
-@property(retain, nonatomic) NSError *markAssetBrokenError; // @synthesize markAssetBrokenError=_markAssetBrokenError;
-@property(nonatomic) unsigned long long numMarkAssetBrokenFailures; // @synthesize numMarkAssetBrokenFailures=_numMarkAssetBrokenFailures;
-@property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) CKRecordZone *repairZone; // @synthesize repairZone=_repairZone;
-@property(nonatomic) _Bool simulateCorruptAsset; // @synthesize simulateCorruptAsset=_simulateCorruptAsset;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(nonatomic) _Bool touchRepairZone; // @synthesize touchRepairZone=_touchRepairZone;
-@property(retain, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
-@property(retain, nonatomic) CKDMarkAssetBrokenURLRequestWrapperOperation *wrapperOperation; // @synthesize wrapperOperation=_wrapperOperation;
-@property(nonatomic) _Bool writeRepairRecord; // @synthesize writeRepairRecord=_writeRepairRecord;
-@property(retain, nonatomic) CKDModifyRecordZonesOperation *zoneCreateOperation; // @synthesize zoneCreateOperation=_zoneCreateOperation;
-@property(retain, nonatomic) CKDFetchRecordZonesOperation *zoneFetchOperation; // @synthesize zoneFetchOperation=_zoneFetchOperation;
 
 @end
 

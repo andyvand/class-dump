@@ -8,8 +8,6 @@
 {
     id _show;
     id _sheet;
-    id _step;
-    id _$observationRegistrar;
 }
 
 @end

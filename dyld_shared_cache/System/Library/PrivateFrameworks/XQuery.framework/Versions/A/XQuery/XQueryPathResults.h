@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface XQueryPathResults
 {
     id _firstResult;
-    NSMutableArray *_array;
-    struct __CFSet *_unique;
-    _Bool _isReversed;
-    long long _type;
 }
 
 + (id);

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSArray, NSButton, NSImageView, NSTextField;
+@class CWDisplayedScanResult;
 
 @interface CWLimitedNetworkOptionDialog
 {
     CWDisplayedScanResult *_scanResult;
-    NSArray *_candidates;
-    NSTextField *_title;
-    NSTextField *_description;
-    NSButton *_joinButton;
-    NSButton *_notNowButton;
-    NSImageView *_imageView;
-    id _delegate;
 }
 
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
@@ -31,9 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *candidates; // @synthesize candidates=_candidates;
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SPLostModeInfo
 {
     NSDate *_timestamp;
-    NSString *_message;
-    NSString *_phoneNumber;
-    NSString *_email;
 }
 
 + (_Bool);
@@ -23,16 +20,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)GUID:(id)arg1 %s with files:%s /* Error: Ran out of types for this method. */;
+- (id)creatorHandle;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

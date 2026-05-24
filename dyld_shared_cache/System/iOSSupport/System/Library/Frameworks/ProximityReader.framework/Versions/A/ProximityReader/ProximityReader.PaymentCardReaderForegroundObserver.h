@@ -7,6 +7,7 @@
 @interface ProximityReader.PaymentCardReaderForegroundObserver
 {
     id id;
+    id;
 }
 
 @end

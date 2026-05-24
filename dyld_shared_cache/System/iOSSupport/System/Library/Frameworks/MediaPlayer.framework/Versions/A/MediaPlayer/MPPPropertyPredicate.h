@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPMediaPredicateValue, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPPPropertyPredicate
 {
     int _comparisonType;
-    NSString *_property;
-    MPPMediaPredicateValue *_value;
-    struct {
-        unsigned int comparisonType:1;
-    } _has;
 }
 
 - (_Bool);
@@ -22,29 +15,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)sendLinkExpiredMessagesForFeedbackCountsByHighlightId:tvFeedbackCountsByHighlightId:highlights: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)$l;
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)g:%s rsig:%s roff:%lld rlen:%lld wrap ref:%@ unwrap ref:%@ chunks:%lld /* Error: Ran out of types for this method. */;
 - (id);
-- (void)eedURL__MAPPING_MISSING__;
-- (void)ionPropertiesToFetch:(id)arg1;
+- (void)__MPModelPropertyPodcastEpisodeFeedURL__MAPPING_MISSING__;
+- (void)setCollectionPropertiesToFetch:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) int comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(nonatomic) _Bool hasComparisonType;
 @property(readonly, nonatomic) _Bool hasProperty;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *property; // @synthesize property=_property;
-@property(retain, nonatomic) MPPMediaPredicateValue *value; // @synthesize value=_value;
 
 @end
 

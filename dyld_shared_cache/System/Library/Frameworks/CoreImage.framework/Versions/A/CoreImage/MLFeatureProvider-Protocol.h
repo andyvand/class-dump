@@ -8,7 +8,7 @@
 
 @protocol MLFeatureProvider
 - (NSSet *);
-- (MLFeatureValue *)g;
+- (MLFeatureValue *)kCIContextEnableBlending;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

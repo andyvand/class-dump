@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufCloudStoreZoneInvitation;
-
 @interface PKProtobufCloudStoreZoneInvitationRequest
 {
     unsigned int _errorCode;
-    NSString *_errorDescription;
-    NSString *_errorDomain;
-    PKProtobufCloudStoreZoneInvitation *_invitation;
-    unsigned int _version;
-    struct {
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (_Bool);
@@ -23,36 +14,28 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)1"cntVoGoodPeriods"b1"durationBucket"b1"endCca"b1"endLinkState"b1"endRssi"b1"endRxRetry"b1"endSnr"b1"endTxAirLatency"b1"endTxPacketLoss"b1"endTxRetrans"b1"maxCca"b1"maxRssi"b1"maxRxRetry"b1"maxTxAirLatency"b1"maxTxPacketLoss"b1"maxTxRetrans"b1"maxnSnr"b1"minCca"b1"minRssi"b1"minRxRetry"b1"minSnr"b1"minTxAirLatency"b1"minTxPacketLoss"b1"minTxRetrans"b1"percentageActive"b1"percentagePowerSave"b1"percentageWcpsDisabled"b1"percentageWcpsEnabled"b1"percentageWcpsReduced"b1"timestamp"b1};
+- (id)setHasTargetEnhancedSecurityType: /* Error: Ran out of types for this method. */;
+- (void)SSI;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)CONDITIONS_MISSING_ERROR_TITLE;
-- (void)RECT_MESSAGE;
+- (id)ACCOUNT_SERVICE_TERMS_AND_CONDITIONS_MISSING_ERROR_TITLE;
+- (void)PROVISIONING_ERROR_PIN_INCORRECT_MESSAGE;
 - (_Bool)SD-ECC;
 - (void)ary-assessment;
 - (void);
 - (unsigned int)q;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) _Bool hasInvitation;
-@property(retain, nonatomic) PKProtobufCloudStoreZoneInvitation *invitation; // @synthesize invitation=_invitation;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

@@ -17,9 +17,9 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool isIncomingCallActive;
-    _Bool usesReceiverRoute;
-} CDStruct_13aec295;
+    _Bool _field1;
+    _Bool _field2;
+} CDStruct_3d581f42;
 
 typedef struct {
     long long _field1;

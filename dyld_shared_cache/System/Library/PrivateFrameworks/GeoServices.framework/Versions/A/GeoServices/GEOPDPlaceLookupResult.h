@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)`;
 - (_Bool);
 - (id)lds"b1"read_preferredBrands"b1"read_networks"b1"read_ports"b1"wrote_anyField"b1};
-- (id)ctions;
+- (id)_initialRideSelections;
 - (id)H°, ô Ä!#ü$ä%l'(|(;
 - (void);
 

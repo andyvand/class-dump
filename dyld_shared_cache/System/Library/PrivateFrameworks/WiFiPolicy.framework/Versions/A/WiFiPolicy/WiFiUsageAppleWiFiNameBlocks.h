@@ -9,22 +9,17 @@
 @interface WiFiUsageAppleWiFiNameBlocks
 {
     NSString *_name;
-    NSString *_building;
-    NSString *_section;
-    NSString *_floor;
-    NSString *_pod;
-    NSString *_other;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -33,12 +28,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *building; // @synthesize building=_building;
-@property(retain, nonatomic) NSString *floor; // @synthesize floor=_floor;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *other; // @synthesize other=_other;
-@property(retain, nonatomic) NSString *pod; // @synthesize pod=_pod;
-@property(retain, nonatomic) NSString *section; // @synthesize section=_section;
 
 @end
 

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsMacProtocol> _hardwareSettings;
 }
 
-+ (id)MOTE;
-- (id);
++ (id)REMOTE;
+- (id)x;
 - (_Bool);
 - (void);
 

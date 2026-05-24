@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebClientContext, NSArray, NSString;
+@class AMSMetricsEvent, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAction
 {
     NSArray *_acceptedResponseVersions;
-    AMSUIWebClientContext *_context;
-    NSString *_presentingSceneBundleIdentifier;
-    NSString *_presentingSceneIdentifier;
-    AMSMetricsEvent *_actionEvent;
 }
 
 - (void);
@@ -26,22 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)untpoint (--volume) requires root;
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *acceptedResponseVersions; // @synthesize acceptedResponseVersions=_acceptedResponseVersions;
 @property(readonly) AMSMetricsEvent *actionEvent; // @synthesize actionEvent=_actionEvent;
-@property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *presentingSceneBundleIdentifier; // @synthesize presentingSceneBundleIdentifier=_presentingSceneBundleIdentifier;
-@property(readonly, nonatomic) NSString *presentingSceneIdentifier; // @synthesize presentingSceneIdentifier=_presentingSceneIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

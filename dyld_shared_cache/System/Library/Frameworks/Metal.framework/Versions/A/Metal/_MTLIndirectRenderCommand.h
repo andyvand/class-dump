@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MTLIndirectRenderCommand
 {
 }
@@ -72,17 +70,36 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)sampler noise, vec2 cellSize, vec2 noiseOffset, vec2 cellOffset, vec2 dc) {
+  float o;
+  float tSize = 256.0;
+  float _randomFactor = 6.500000e-01;
+  float _radiusFactor = 7.100000e-01;
+  float _colorRandom = 0.1;
+  vec2 noiseLoc = floor((dc * cellSize.y) + 0.5) + noiseOffset;
+  vec4 np = sample(noise, samplerTransform(noise, mod(noiseLoc, tSize)));
+  vec2 cellLoc = (((floor((dc * cellSize.y) - 0.5) + 0.5) * cellSize.x) + 0.5) + cellOffset;
+  cellLoc += ((np.xy - 0.5) * cellSize.x) * _randomFactor;
+  o = distance(dc, cellLoc);
+  o = clamp((1.0 - ((o * cellSize.y) / _radiusFactor)) * 3.0, 0.0, 1.0);
+  o = ((3.0 - (2.0 * o)) * o) * o;
+  vec4 p1 = sample(src, samplerTransform(src, cellLoc));
+  p1.rgb += (vec3(np.b - 0.5) * _colorRandom) * p1.a;
+  return mix(background, p1, o);
+}
+kernel vec4 _pointillize(sampler src, sampler noise, vec4 parms) {
+  vec4 background = sample(src, samplerCoord(src)).aaaa;
+  background = _pointillizeStep(src, background, noise, parms.zw, parms.xy + vec2(0.5, 0.5), vec2(parms.z, parms.z), destCoord());
+  background = _pointillizeStep(src, background, noise, parms.zw, parms.xy + vec2(-0.5, 0.5), vec2(0, parms.z), destCoord());
+  background = _pointillizeStep(src, background, noise, parms.zw, parms.xy + vec2(0.5, -0.5), vec2(parms.z, 0), destCoord());
+  background = _pointillizeStep(src, background, noise, parms.zw, parms.xy + vec2(-0.5, -0.5), vec2(0, 0), destCoord());
+  return background;
+}
+;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

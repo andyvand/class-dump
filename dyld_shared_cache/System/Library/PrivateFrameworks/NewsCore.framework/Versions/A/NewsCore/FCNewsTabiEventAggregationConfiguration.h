@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationConditions, FCNewsTabiEventAggregationOutputsConfiguration, NSArray, NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface FCNewsTabiEventAggregationConfiguration
 {
     NSDictionary *_dictionary;
-    long long _maxTopicIds;
-    long long _maxSessionEvents;
-    long long _titleEmbeddingDimension;
-    long long _fullBodyEmbeddingDimension;
-    FCNewsTabiEventAggregationOutputsConfiguration *_outputs;
-    FCNewsTabiEventAggregationConditions *_eventConditions;
-    NSDictionary *_maxEventsByType;
-    NSArray *_enabledFeatureKeys;
-    NSSet *_groupDenyList;
 }
 
 - (long long);
@@ -49,15 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) NSArray *enabledFeatureKeys; // @synthesize enabledFeatureKeys=_enabledFeatureKeys;
-@property(retain, nonatomic) FCNewsTabiEventAggregationConditions *eventConditions; // @synthesize eventConditions=_eventConditions;
-@property(nonatomic) long long fullBodyEmbeddingDimension; // @synthesize fullBodyEmbeddingDimension=_fullBodyEmbeddingDimension;
-@property(copy, nonatomic) NSSet *groupDenyList; // @synthesize groupDenyList=_groupDenyList;
-@property(retain, nonatomic) NSDictionary *maxEventsByType; // @synthesize maxEventsByType=_maxEventsByType;
-@property(nonatomic) long long maxSessionEvents; // @synthesize maxSessionEvents=_maxSessionEvents;
-@property(nonatomic) long long maxTopicIds; // @synthesize maxTopicIds=_maxTopicIds;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *outputs; // @synthesize outputs=_outputs;
-@property(nonatomic) long long titleEmbeddingDimension; // @synthesize titleEmbeddingDimension=_titleEmbeddingDimension;
 
 @end
 

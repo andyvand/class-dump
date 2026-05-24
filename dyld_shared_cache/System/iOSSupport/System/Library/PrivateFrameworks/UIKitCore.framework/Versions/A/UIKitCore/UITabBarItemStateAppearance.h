@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIColor, UITabBarItemAppearance, _UITabBarItemData;
+@class UITabBarItemAppearance, _UITabBarItemData;
 
 @interface UITabBarItemStateAppearance
 {
     UITabBarItemAppearance *_owner;
-    long long _state;
-    _UITabBarItemData *_data;
-    NSArray *_itemEffects;
 }
 
 - (void);
-- (void);
+- (void)r;
 - (void);
 - (id);
-- (struct UIOffset);
-- (id);
-- (struct UIOffset);
+- (struct UIOffset)ssetPath %@;
+- (id)ror %@;
+- (struct UIOffset)etPath %@);
 - (id);
 - (void);
 - (void);
@@ -31,24 +28,16 @@
 - (id);
 - (void)Ñ^°1Â0@ù
 × ;
-- (void)nges;
+- (void)adjustsTargetsOnContentOffsetChanges;
 - (id);
 - (void)ípíî	Ðî;
 - (id)03y0¿7G;
-- (void)ration;
+- (void)UIContentConfiguration;
 - (struct UIOffset);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setData:) _UITabBarItemData *_data; // @synthesize _data;
-@property(copy, nonatomic) UIColor *badgeBackgroundColor;
-@property(nonatomic) struct UIOffset badgePositionAdjustment;
-@property(copy, nonatomic) NSDictionary *badgeTextAttributes;
-@property(nonatomic) struct UIOffset badgeTitlePositionAdjustment;
-@property(copy, nonatomic) UIColor *iconColor;
-@property(copy, nonatomic) NSArray *itemEffects; // @synthesize itemEffects=_itemEffects;
-@property(nonatomic) struct UIOffset titlePositionAdjustment;
-@property(copy, nonatomic) NSDictionary *titleTextAttributes;
 
 @end
 

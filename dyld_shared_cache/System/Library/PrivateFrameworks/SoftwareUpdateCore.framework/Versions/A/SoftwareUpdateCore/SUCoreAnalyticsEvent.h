@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SUCoreAnalyticsEvent
 {
     NSString *_eventName;
-    NSMutableDictionary *_mutableEventPayload;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSString *_eventUUID;
 }
 
 - (void);
 - (void);
+- (id)_isApplicationExpanded;
 - (id);
-- (id);
+- (void)0;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -54,8 +50,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly, retain, nonatomic) NSDictionary *eventPayload;
-@property(retain, nonatomic) NSString *eventUUID; // @synthesize eventUUID=_eventUUID;
 
 @end
 

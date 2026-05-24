@@ -6,21 +6,11 @@
 
 #import <AOSUI/AOSUIAccountContactsViewController.h>
 
-@class AAAccountRecoveryManagementViewModel, AAUICustodianRepairHelper, ACAccount, AOSUIAccountContactSetupFlowController, AOSUIAccountContactsRecoveryKeyViewController, AOSUIAccountContactsTableViewController, AOSUIAccountContactsTopContentViewController, AOSUIAccountRecoveryContext, AOSUIContactsProvider, NSString;
+@class AOSUIAccountRecoveryContext;
 
 @interface AOSUIAccountRecoveryViewController : AOSUIAccountContactsViewController
 {
     AOSUIAccountRecoveryContext *_context;
-    AAAccountRecoveryManagementViewModel *_viewModel;
-    AOSUIAccountContactsTopContentViewController *_topContentViewController;
-    AOSUIAccountContactsTableViewController *_custodianTableViewController;
-    AOSUIAccountContactsTableViewController *_custodianshipTableViewController;
-    AOSUIAccountContactsRecoveryKeyViewController *_recoveryKeyViewController;
-    AOSUIContactsProvider *_contactProvider;
-    AOSUIAccountContactSetupFlowController *setupFlowController;
-    ACAccount *_idmsAccount;
-    _Bool _isWalrusEnabled;
-    AAUICustodianRepairHelper *_repairHelper;
 }
 
 - (void);
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T2;
 - (void);
 - (void);
 - (void);
@@ -47,8 +37,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)";
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -58,13 +48,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

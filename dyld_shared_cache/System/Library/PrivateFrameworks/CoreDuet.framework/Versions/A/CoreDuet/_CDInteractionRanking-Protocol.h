@@ -5,6 +5,8 @@
 //
 
 @protocol _CDInteractionRanking
+- (unsigned long long)A;
+- (_Bool)#;
 
 // Remaining properties
 @property(nonatomic) unsigned long long rankAggregationMethod;

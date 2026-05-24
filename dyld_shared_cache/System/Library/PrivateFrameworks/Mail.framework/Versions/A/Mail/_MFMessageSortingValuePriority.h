@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)_clearCredentials;
 - (long long);
 
 // Remaining properties

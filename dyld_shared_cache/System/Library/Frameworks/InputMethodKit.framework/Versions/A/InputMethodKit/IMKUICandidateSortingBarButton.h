@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateSortingBarView;
-
 @interface IMKUICandidateSortingBarButton
 {
     _Bool _mousePointerInside;
-    IMKUICandidateSortingBarView *_sortingBarView;
-    long long _trackingRectTag;
 }
 
 + (id);
@@ -24,17 +20,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)eDestinationInfo:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)@;
+- (id)aggregatedSegmentReportInternal: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool mousePointerInside; // @synthesize mousePointerInside=_mousePointerInside;
-@property(nonatomic) __weak IMKUICandidateSortingBarView *sortingBarView; // @synthesize sortingBarView=_sortingBarView;
-@property(nonatomic) long long trackingRectTag; // @synthesize trackingRectTag=_trackingRectTag;
 
 @end
 

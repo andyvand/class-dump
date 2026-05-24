@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_string;
 }
 
-+ (Class);
++ (Class)_mediaLibrary;
+- (void)setCallHistoryManager:(double)arg1;
+- (void):(id)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void)xt: /* Error: Ran out of types for this method. */;
-- (void)sets;
-- (id)addUpdateToShadowControllerIfNeeded:(struct CGRect)arg1;
+- (void)handleEvent:withContext: /* Error: Ran out of types for this method. */;
+- (void)_miniImageInsets;
+- (id)_addUpdateToShadowControllerIfNeeded:(struct CGRect)arg1;
 - (void)¤£;
 
 @end

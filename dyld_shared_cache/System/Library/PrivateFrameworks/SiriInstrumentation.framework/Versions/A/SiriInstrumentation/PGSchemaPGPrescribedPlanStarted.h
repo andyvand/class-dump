@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PGSchemaPGPrescribedPlanStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ThanDays:(id)arg1 date modified %@;
 - (id);
 - (id);
-- (id)equired;
+- (id)_hasProtectedAppApprovalRequired;
 - (id)V_hasClientActionCreated;
-- (_Bool)OLUTIONTYPE_KNOWN_CONTACT;
+- (_Bool)INFERENCECONTACTRESOLUTIONTYPE_KNOWN_CONTACT;
 - (_Bool)Ëæ9¼Ú>;
 - (void)7­+U$;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

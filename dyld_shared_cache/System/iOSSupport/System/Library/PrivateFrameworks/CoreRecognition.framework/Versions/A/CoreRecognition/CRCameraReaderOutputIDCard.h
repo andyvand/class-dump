@@ -6,24 +6,21 @@
 
 #import <CoreRecognition/CRCameraReaderOutput.h>
 
-@class NSArray, NSString, UIImage;
+@class UIImage;
 
 @interface CRCameraReaderOutputIDCard : CRCameraReaderOutput
 {
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Started %{public}@:%{public}@ for sender:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *capturePath;
 @property(readonly) UIImage *imageValue;
-@property(readonly) NSArray *targetVertices;
 @property(readonly) UIImage *unpaddedImageValue;
-@property(readonly) NSArray *vertices;
 
 @end
 

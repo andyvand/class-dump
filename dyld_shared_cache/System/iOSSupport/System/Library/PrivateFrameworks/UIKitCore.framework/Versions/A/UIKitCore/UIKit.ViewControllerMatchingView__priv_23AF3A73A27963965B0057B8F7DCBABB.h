@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id)ontextMenuCascadedHierarchyLayout;
+- (id)_UIContextMenuCascadedHierarchyLayout;
 - (void)cmÕöl;
 
 @end

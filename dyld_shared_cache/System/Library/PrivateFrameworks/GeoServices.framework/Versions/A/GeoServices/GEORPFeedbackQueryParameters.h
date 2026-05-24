@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackComponentQueryParameters, GEORPFilter, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackQueryParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _feedbackComponentTypes;
-    GEORPFeedbackComponentQueryParameters *_componentQueryParameters;
-    GEORPFilter *_filter;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackComponentTypes:1;
-        unsigned int read_componentQueryParameters:1;
-        unsigned int read_filter:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)nAccuracy:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setKnownAccuracy:(id)arg1;
+- (void)initWithIdentifier:(int *)arg1 name:(unsigned long long)arg2 type:persistentStoreURL:persistentStoreIdentifier:permissions:guardianRestricted:lastSyncDate:iOSLegacyIdentifier:externalIdentifier:providerIdentifier:providerMetadata: /* Error: Ran out of types for this method. */;
+- (void)consolidateDuplicateContainersInContext:(id)arg1 store: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (int *);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -43,8 +29,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)A;
+- (id)speechCapturingDidStopRecordingWithError:endpointMode:totalPacketCount:endpointerMetrics: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -53,21 +39,15 @@
 - (id);
 - (void);
 - (id)hKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16r^v24B32;
-- (id)ancer;
+- (id)balancer;
 - (id)l;
 - (id)called once per object;
-- (id)y_name;
+- (id)section_sub_header_display_name;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPFeedbackComponentQueryParameters *componentQueryParameters;
-@property(readonly, nonatomic) int *feedbackComponentTypes;
 @property(readonly, nonatomic) unsigned long long feedbackComponentTypesCount;
-@property(retain, nonatomic) GEORPFilter *filter;
-@property(readonly, nonatomic) _Bool hasComponentQueryParameters;
-@property(readonly, nonatomic) _Bool hasFilter;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

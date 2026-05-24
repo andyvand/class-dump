@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class NSSet;
 
 @interface ACDAccessPluginManager
 {
     NSSet *_accessPlugins;
-    NSObject<OS_dispatch_queue> *_accessPluginQueue;
 }
 
 - (void);
 - (id);
+- (void)ge/gif;
 - (void);
-- (void);
-- (id);
+- (id)C;
 - (void);
 - (void);
 

@@ -15,9 +15,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (double);
++ (id)ccess group for %@;
++ (id):(id)arg1 %lld
+;
++ (double);
 
 @end
 

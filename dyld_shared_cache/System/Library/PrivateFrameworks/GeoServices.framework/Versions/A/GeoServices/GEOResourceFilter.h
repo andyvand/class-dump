@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOResourceFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _scales;
-    CDStruct_95bda58d _scenarios;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_scales:1;
-        unsigned int read_scenarios:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Heading:(id)arg1;
++ (_Bool)setLookAroundHeading:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
 - (void);
@@ -37,7 +25,7 @@
 - (int *);
 - (void);
 - (id);
-- (void);
+- (void)NumberOfSamplesPerChunk;
 - (id);
 - (int);
 - (unsigned long long);
@@ -49,23 +37,19 @@
 - (void);
 - (unsigned long long);
 - (id)b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32B40@44@?52;
-- (int)etadataClass:(unsigned long long)arg1 dataClass:log: /* Error: Ran out of types for this method. */;
-- (id);
-- (unsigned long long)ttpStatus;
+- (int)initWithFileURL:(unsigned long long)arg1 rootQuadKey:metadataClass:dataClass:log: /* Error: Ran out of types for this method. */;
+- (id)dropAllTables;
+- (unsigned long long)_httpStatus;
 - (id)àÇxÈèÈ;
 - (void)½p½;
 - (void),E:(int)arg1 %.6f,S:%d,V:%d,M:%d /* Error: Ran out of types for this method. */;
-- (id)ncy;
-- (int)r;
+- (id)display_departure_frequency;
+- (int)GEOPlaceCardRequester;
 - (int *)( ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *scales;
 @property(readonly, nonatomic) unsigned long long scalesCount;
-@property(readonly, nonatomic) int *scenarios;
-@property(readonly, nonatomic) unsigned long long scenariosCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

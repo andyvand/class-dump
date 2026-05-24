@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXCoreSession, NSRecursiveLock, NSString;
+@class NSRecursiveLock;
 
 @interface MXSession
 {
     NSRecursiveLock *mRecursiveLock;
-    unsigned long long mCoreSessionID;
-    NSString *mDescription;
-    unsigned long long mID;
-    int mClientType;
-    MXCoreSession *mCoreSession;
 }
 
 - (id);
-- (void);
+- (void)D~'&F;
 - (int);
 - (void);
 - (id);
@@ -26,12 +21,12 @@
 - (id);
 - (id);
 - (int);
-- (int);
+- (int)t read ciphertext:(id)arg1 %s;
 - (id);
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (void)utingManager_macOSCoreAudio-;
 

@@ -9,24 +9,23 @@
 @interface QCPatchEditorView : GFGraphEditorView
 {
     _Bool _visualDebugging;
-    void *_unused2[4];
 }
 
 + (id);
-+ (void)Radius;
-- (_Bool);
++ (void)ringRadius;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (Class);
-- (void);
+- (void)M	2	H		,	K	0	M	!	;
+- (Class);
+- (void);
 
 @end
 

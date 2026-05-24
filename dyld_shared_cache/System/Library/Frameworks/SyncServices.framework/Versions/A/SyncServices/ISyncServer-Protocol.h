@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class ISDSyncPlan, NSArray, NSString;
 
 @protocol ISyncServer
+- (bycopy NSString *)(;
+- (void)";
+- (bycopy ISDSyncPlan *);
+- (void);
 - (bycopy NSArray *)entifier %@;
 @end
 

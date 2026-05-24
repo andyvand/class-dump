@@ -5,6 +5,7 @@
 //
 
 @protocol UIToolTipProvider
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;

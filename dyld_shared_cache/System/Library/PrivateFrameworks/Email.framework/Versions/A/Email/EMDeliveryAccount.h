@@ -6,28 +6,22 @@
 
 #import <Email/EMAccount.h>
 
-@class NSString;
-
 @interface EMDeliveryAccount : EMAccount
 {
     _Bool _primaryiCloudAccount;
-    NSString *_name;
-    NSString *_username;
-    NSString *_hostname;
-    unsigned long long _maximumMessageBytes;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
+- (void)T@;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)willDoMixOutputBlockUnretainedPtr;
+- (id);
 - (void);
 - (void)=ð1Â0@ù
 × ;
@@ -35,17 +29,7 @@
 - (void)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *hostname; // @synthesize hostname=_hostname;
 @property unsigned long long maximumMessageBytes; // @synthesize maximumMessageBytes=_maximumMessageBytes;
-@property(getter=isPrimaryiCloudAccount) _Bool primaryiCloudAccount; // @synthesize primaryiCloudAccount=_primaryiCloudAccount;
-@property(readonly) Class superclass;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

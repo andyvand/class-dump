@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSUCustomFormatData;
-
 __attribute__((visibility("hidden")))
 @interface OITSUCustomFormatCondition
 {
     int _conditionType;
-    double _conditionValue;
-    OITSUCustomFormatData *_data;
 }
 
 - (id);
@@ -26,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) int conditionType; // @synthesize conditionType=_conditionType;
-@property(readonly, nonatomic) double conditionValue; // @synthesize conditionValue=_conditionValue;
-@property(readonly, nonatomic) OITSUCustomFormatData *data; // @synthesize data=_data;
 
 @end
 

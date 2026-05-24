@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedItemDebugColors
 {
     id debugColors;
-    id $__lazy_storage_$_availableColors;
 }
 
 @end

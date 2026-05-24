@@ -11,14 +11,14 @@
 + (void);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)c;
 + (_Bool);
 + (long long);
 + (long long);
 + (id);
 + (id);
-+ (unsigned long long);
-+ (_Bool);
++ (unsigned long long)B;
++ (_Bool);
 + (id);
 
 @end

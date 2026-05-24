@@ -9,8 +9,6 @@
 @interface WebPanelAuthenticationHandler
 {
     NSMapTable *windowToPanel;
-    NSMapTable *challengeToWindow;
-    NSMapTable *windowToChallengeQueue;
 }
 
 + (id);
@@ -18,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ic}@;
 - (id);
 
 @end

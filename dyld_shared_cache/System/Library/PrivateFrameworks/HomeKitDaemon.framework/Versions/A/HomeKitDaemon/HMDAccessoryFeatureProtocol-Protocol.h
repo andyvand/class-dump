@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoard;
-@protocol HMDMessageRouter;
-
 @protocol HMDAccessoryFeatureProtocol
 
 // Remaining properties
-@property(retain, nonatomic) HMDBulletinBoard *bulletinBoard;
-@property(nonatomic) long long communicationProtocol;
-@property(retain, nonatomic) id <HMDMessageRouter> primaryResidentMessageRouter;
 @property(readonly) _Bool supportsWalletKey;
 @end
 

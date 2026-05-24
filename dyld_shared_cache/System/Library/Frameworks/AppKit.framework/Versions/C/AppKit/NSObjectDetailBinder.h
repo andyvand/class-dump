@@ -12,32 +12,27 @@ __attribute__((visibility("hidden")))
 @interface NSObjectDetailBinder : NSEditorBinder
 {
     NSResponder *_errorPresenter;
-    struct __objectDetailBinderFlags {
-        unsigned int _handlesContentAsCompoundValue:1;
-        unsigned int _deletesObjectsOnRemove:1;
-        unsigned int _reservedObjectDetailBinder:30;
-    } _objectDetailBinderFlags;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)6;
++ (_Bool)c}@> backgroundSessionDidFinishAppWake block not invoked for UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
++ (id)mediaserverd;
 + (id);
 + (void)PüÕÿ;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)omains (Nodes used = %d, child maps used = %d, bytes used = %d);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)leArray";
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id)_offqueue_openCompleted;
+- (void)_currentResponse;
+- (void)kCFHTTPAuthenticationOAuth1Account;
 - (void);
 - (void);
 - (void);

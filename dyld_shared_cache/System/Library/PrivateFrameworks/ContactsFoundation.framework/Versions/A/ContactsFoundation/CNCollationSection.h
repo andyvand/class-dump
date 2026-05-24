@@ -9,17 +9,15 @@
 @interface CNCollationSection
 {
     NSString *_key;
-    NSString *_localizedName;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`B;
 
 // Remaining properties
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end
 

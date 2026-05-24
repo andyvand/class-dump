@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)set_floatingKeyboardController: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

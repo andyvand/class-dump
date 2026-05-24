@@ -5,5 +5,8 @@
 //
 
 @protocol ASDAppQueryResultsObserver
+
+@optional
+- (void)}@;
 @end
 

@@ -9,11 +9,11 @@
     id _connector;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)ateGraphWithHandler: /* Error: Ran out of types for this method. */;
+- (void)updateGraphWithHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

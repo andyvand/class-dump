@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long)initWithURL:orientation:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -24,10 +24,7 @@
 - (void)¬9;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

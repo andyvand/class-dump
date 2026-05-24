@@ -7,6 +7,8 @@
 @class FI_TListHeaderRowView;
 
 @protocol TListHeaderRowViewDelegate
+- (void)@@y	?%@qa;
+- (FI_TListHeaderRowView *)WebKitOmitPDFSupport;
 
 // Remaining properties
 @property(retain, nonatomic) FI_TListHeaderRowView *headerRowView;

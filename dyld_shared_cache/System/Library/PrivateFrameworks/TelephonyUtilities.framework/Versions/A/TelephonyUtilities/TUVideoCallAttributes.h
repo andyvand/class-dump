@@ -7,8 +7,6 @@
 @interface TUVideoCallAttributes
 {
     long long _remoteCameraOrientation;
-    long long _localVideoContextSlotIdentifier;
-    long long _remoteVideoContextSlotIdentifier;
 }
 
 + (_Bool);
@@ -19,16 +17,14 @@
 - (long long);
 - (_Bool);
 - (long long);
-- (id);
+- (id)W;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long localVideoContextSlotIdentifier; // @synthesize localVideoContextSlotIdentifier=_localVideoContextSlotIdentifier;
 @property(nonatomic) long long remoteCameraOrientation; // @synthesize remoteCameraOrientation=_remoteCameraOrientation;
-@property(nonatomic) long long remoteVideoContextSlotIdentifier; // @synthesize remoteVideoContextSlotIdentifier=_remoteVideoContextSlotIdentifier;
 
 @end
 

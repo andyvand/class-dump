@@ -6,18 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableDictionary, UIVisualEffectView, _UIWTCHighlightContainerView, _UIWTCProofreadingDecorationInfo;
+@class NSArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIWTCProofreadingDecorationView : UIView
 {
     NSMutableDictionary *_underlineDecorations;
-    NSMutableDictionary *_underlineSubviews;
-    _UIWTCProofreadingDecorationInfo *_highlightInfo;
-    _Bool _needsLayoutForUnderlines;
-    UIVisualEffectView *_underlineEffectView;
-    _UIWTCHighlightContainerView *_highlightContainer;
-    NSArray *_decorationInformation;
 }
 
 - (void);
@@ -29,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)ders;
-- (void)ViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
+- (id)_paddingAboveSectionHeaders;
+- (void)So16UICollectionViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *decorationInformation; // @synthesize decorationInformation=_decorationInformation;

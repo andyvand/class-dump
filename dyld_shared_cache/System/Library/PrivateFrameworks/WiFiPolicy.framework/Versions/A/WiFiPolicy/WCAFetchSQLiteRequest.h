@@ -6,36 +6,31 @@
 
 #import <WiFiPolicy/WCAFetchRequest.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface WCAFetchSQLiteRequest : WCAFetchRequest
 {
     NSDictionary *_parameters;
-    NSString *_tableName;
-    NSArray *_columnNames;
-    long long _limit;
 }
 
-+ (_Bool);
++ (_Bool)APSenderSessionUtilityFetchInitialVolume;
 - (void);
+- (id)N;
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (long long);
+- (long long)back;
 - (id);
-- (id);
+- (id)
+;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *columnNames; // @synthesize columnNames=_columnNames;
-@property(nonatomic) long long limit; // @synthesize limit=_limit;
 @property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

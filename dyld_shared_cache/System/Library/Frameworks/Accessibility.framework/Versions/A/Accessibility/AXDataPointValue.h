@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXDataPointValue
 {
     double _number;
-    NSString *_category;
 }
 
-+ (id);
-+ (id);
++ (id)IsLocked;
++ (id)IsPartiallyOrFullyEncrypted;
 - (void);
-- (id);
+- (id)u,;
 - (id);
 - (double);
 - (id);
@@ -23,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
 @property(nonatomic) double number; // @synthesize number=_number;
 
 @end

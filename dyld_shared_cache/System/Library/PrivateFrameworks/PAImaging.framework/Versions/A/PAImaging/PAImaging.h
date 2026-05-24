@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)sectionedFeedTabBarItemSpacing;
 + (void)aÍÐ!dAùqâð1Â0@ù
 × ;
 

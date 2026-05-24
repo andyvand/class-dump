@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKExistingCardAuthorizationResponseGroup.h>
 
-@class NSString, PKSharingCarKeyInvitation;
+@class NSString;
 
 @interface PKExistingCardAuthorizationResponseCarKeyGroup : PKExistingCardAuthorizationResponseGroup
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_sessionIdentifier;
-    PKSharingCarKeyInvitation *_invitation;
 }
 
 + (_Bool)0@ù
@@ -21,22 +18,19 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)Q_%;
+- (id);
+- (id)H;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)isiCloudSignedIn;
 - (void);
 - (id);
 - (void)ported. Use encodeWithCloudStoreCoder:codingType:property: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PKSharingCarKeyInvitation *invitation; // @synthesize invitation=_invitation;
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

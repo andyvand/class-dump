@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface AKToolbarSeparatorItem_Mac
 {
     unsigned long long _displayMode;
-    NSColor *_color;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -22,7 +19,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
 
 @end

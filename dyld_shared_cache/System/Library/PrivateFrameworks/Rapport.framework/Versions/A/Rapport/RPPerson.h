@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CURangingMeasurement, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface RPPerson
 {
     int _activityLevel;
-    unsigned int _flags;
-    int _proximity;
-    NSString *_contactID;
-    NSArray *_devices;
-    NSString *_identifier;
-    NSString *_name;
-    CURangingMeasurement *_relativeLocation;
-    NSMutableDictionary *_deviceDict;
 }
 
 + (_Bool);
@@ -28,11 +20,11 @@
 - (unsigned int);
 - (id);
 - (id);
+- (id)bination snuck through:(id)arg1 %@ / %@.;
+- (id)ess paramset value is not valid.;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void));
 - (void);
 - (int);
 - (unsigned int);
@@ -41,15 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int activityLevel; // @synthesize activityLevel=_activityLevel;
-@property(readonly, copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
 @property(retain, nonatomic) NSMutableDictionary *deviceDict; // @synthesize deviceDict=_deviceDict;
-@property(readonly, copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) int proximity; // @synthesize proximity=_proximity;
-@property(readonly) CURangingMeasurement *relativeLocation; // @synthesize relativeLocation=_relativeLocation;
 
 @end
 

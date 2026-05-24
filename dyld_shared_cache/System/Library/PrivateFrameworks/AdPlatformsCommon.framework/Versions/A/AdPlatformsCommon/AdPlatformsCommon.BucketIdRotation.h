@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.BucketIdRotation
 {
     id identifierStorage;
-    id source;
 }
 
 @end

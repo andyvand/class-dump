@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)}h;
 - (void);
-- (unsigned long long);
+- (unsigned long long)GPUDeviceNewCommandQueueArgs);
 - (unsigned long long)Storage";
-- (void)etCap:(id)arg1;
+- (void)setCap:(id)arg1;
 - (id)text-decoration:(id)arg1 line-through;;
 - (void);
 - (unsigned long long)»bw×¦;

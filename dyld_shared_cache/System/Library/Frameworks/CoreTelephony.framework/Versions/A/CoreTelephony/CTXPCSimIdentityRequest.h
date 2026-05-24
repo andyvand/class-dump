@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)uld not convert "%@" to an integer;
 - (int);
 
 @end

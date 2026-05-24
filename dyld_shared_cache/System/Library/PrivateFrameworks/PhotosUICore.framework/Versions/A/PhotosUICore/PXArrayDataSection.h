@@ -14,7 +14,7 @@
 }
 
 - (long long);
-- (id);
+- (id)s";
 - (id);
 - (id);
 - (id);

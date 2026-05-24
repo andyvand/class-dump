@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_group;
+@class NSMapTable;
 
 @interface PipelineStatePromise
 {
     NSMapTable *pipelineStates;
-    NSMapTable *errors;
-    NSObject<OS_dispatch_group> *group;
-    _Atomic _Bool initialization_completed;
 }
 
 - (_Bool);

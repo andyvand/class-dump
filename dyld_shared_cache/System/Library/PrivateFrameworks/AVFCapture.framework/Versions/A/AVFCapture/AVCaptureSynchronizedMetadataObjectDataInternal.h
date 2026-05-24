@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedMetadataObjectDataInternal
 {
     NSArray *metadataObjects;
-    NSSet *handledMetadataObjectTypes;
 }
 
 @end

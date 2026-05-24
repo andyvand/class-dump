@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _flipped;
 }
 
-- (id);
+- (id)resourceValuesForKeys:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

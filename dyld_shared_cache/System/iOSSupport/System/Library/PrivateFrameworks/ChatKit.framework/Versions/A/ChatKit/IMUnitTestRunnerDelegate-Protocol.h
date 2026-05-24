@@ -5,5 +5,8 @@
 //
 
 @protocol IMUnitTestRunnerDelegate
+
+@optional
+- (void)@�*;
 @end
 

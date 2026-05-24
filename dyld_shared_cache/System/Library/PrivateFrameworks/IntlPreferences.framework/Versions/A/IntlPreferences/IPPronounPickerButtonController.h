@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPCustomPronounSheetController, NSPopUpButton;
+@class NSPopUpButton;
 @protocol IPPronounPickerButtonControllerDelegate;
 
 @interface IPPronounPickerButtonController
 {
     id <IPPronounPickerButtonControllerDelegate> _delegate;
-    NSPopUpButton *_popUpButton;
-    IPCustomPronounSheetController *_customPronounSheet;
 }
 
++ (_Bool)_viewport;
 + (_Bool);
-+ (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)consumeExtensions:(id)arg1;
+- (id)cameraAutomaticTargetPoint;
+- (id)authoringEnvironmentForSceneRenderer:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)authoringEnvironment:(id)arg1 selectionDidUpdateWithProposedSelection: /* Error: Ran out of types for this method. */;
+- (void)audioFile;
 - (id);
 - (void);
 - (id);
@@ -29,8 +27,6 @@
 - (void)guages or AppleLocale is nil/empty; skipping migration;
 
 // Remaining properties
-@property(retain, nonatomic) IPCustomPronounSheetController *customPronounSheet; // @synthesize customPronounSheet=_customPronounSheet;
-@property(nonatomic) __weak id <IPPronounPickerButtonControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSPopUpButton *popUpButton; // @synthesize popUpButton=_popUpButton;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)boolSettingForKey:defaultValue: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);

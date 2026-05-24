@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSAccessibilityStringIndexPathPair
 {
     NSString *string;
-    NSIndexPath *indexPath;
 }
 
-+ (id);
++ (id)error;
 - (id);
-- (unsigned long long);
+- (unsigned long long)44;
 - (id);
 - (_Bool);
-- (void)tObject:(id)arg1 forProperty:error: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)veCollapse;
+- (void)setObject:(id)arg1 forProperty:error: /* Error: Ran out of types for this method. */;
+- (id)_detachSheetWindow:(struct _NSZone *)arg1;
+- (void)_canLiveCollapse;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath;
 @property(copy, nonatomic) NSString *string; // @synthesize string;
 
 @end

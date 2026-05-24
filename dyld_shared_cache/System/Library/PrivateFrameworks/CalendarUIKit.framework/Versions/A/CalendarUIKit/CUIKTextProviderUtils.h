@@ -7,39 +7,26 @@
 @interface CUIKTextProviderUtils
 {
     _Bool _designatorRequiresWhitespace;
-    _Bool _dropLeftRedundantDesignator;
-    _Bool _keepRedundantDesignator;
-    _Bool _keepZeroMinutes;
-    _Bool _smallCapsAllowed;
 }
 
-+ (id)ª	Føô;
++ (id);
 + (_Bool);
-+ (_Bool)áªâªÀ¾àª6Íèu¹Bùt¡cÑàª"R;
-+ (_Bool)ª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Öh@øàªáªñªàò	?×TBø¸Røàªáª³[øâªñªéò
-?×¶Søàªáªâªñªéò
-?× ãÑõ	þ Uøáªâªñªéò
-?× Sø×ÿÿ#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÃ;
++ (_Bool);
++ (_Bool);
 - (_Bool);
-- (void)?×á;
-- (void)R";
-- (void)üò	?×èªCøéª)ôòªc;
-- (void)éªÚ10@ù
-?×é;
-- (_Bool)ÚÐ10@ù
-?×é;
-- (_Bool)b-;
-- (_Bool)­Æ<;
-- (_Bool)g@ eè `è` aàÀ_Ö(J@òè_;
-- (void)à·üPÓ4üPÓè·Bà¶hì@;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool designatorRequiresWhitespace; // @synthesize designatorRequiresWhitespace=_designatorRequiresWhitespace;
-@property(nonatomic) _Bool dropLeftRedundantDesignator; // @synthesize dropLeftRedundantDesignator=_dropLeftRedundantDesignator;
-@property(nonatomic) _Bool keepRedundantDesignator; // @synthesize keepRedundantDesignator=_keepRedundantDesignator;
-@property(nonatomic) _Bool keepZeroMinutes; // @synthesize keepZeroMinutes=_keepZeroMinutes;
-@property(nonatomic) _Bool smallCapsAllowed; // @synthesize smallCapsAllowed=_smallCapsAllowed;
 
 @end
 

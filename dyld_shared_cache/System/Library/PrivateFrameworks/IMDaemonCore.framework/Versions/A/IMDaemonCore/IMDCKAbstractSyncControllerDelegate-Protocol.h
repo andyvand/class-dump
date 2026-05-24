@@ -5,5 +5,8 @@
 //
 
 @protocol IMDCKAbstractSyncControllerDelegate
+
+@optional
+- (void);
 @end
 

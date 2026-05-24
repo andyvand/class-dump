@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface TMOtherIODisk
 {
     unsigned long long _traits;
-    NSNumber *_containerBytesFree;
-    unsigned long long _snapshotXID;
 }
 
 + (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSNumber *containerBytesFree; // @synthesize containerBytesFree=_containerBytesFree;
-@property(readonly) unsigned long long snapshotXID; // @synthesize snapshotXID=_snapshotXID;
 @property(readonly) unsigned long long traits; // @synthesize traits=_traits;
 
 @end

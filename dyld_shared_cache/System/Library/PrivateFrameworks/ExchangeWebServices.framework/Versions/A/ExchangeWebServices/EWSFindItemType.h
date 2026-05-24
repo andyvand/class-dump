@@ -6,22 +6,15 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSBasePagingType, EWSIndexedPageViewType, EWSItemResponseShapeType, EWSRestrictionType, NSArray;
+@class EWSItemResponseShapeType;
 
 @interface EWSFindItemType : EWSBaseRequestType
 {
     _Bool _IndexedPageItemViewSpecified;
-    EWSItemResponseShapeType *_ItemShape;
-    EWSBasePagingType *_Paging;
-    EWSRestrictionType *_Restriction;
-    NSArray *_SortOrder;
-    NSArray *_ParentFolderIds;
-    long long _Traversal;
-    EWSIndexedPageViewType *_IndexedPageItemView;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,19 +28,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)tificationDataStorage>",R,N,V_notificationDataStorage;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSIndexedPageViewType *IndexedPageItemView; // @synthesize IndexedPageItemView=_IndexedPageItemView;
-@property(nonatomic) _Bool IndexedPageItemViewSpecified; // @synthesize IndexedPageItemViewSpecified=_IndexedPageItemViewSpecified;
 @property(retain, nonatomic) EWSItemResponseShapeType *ItemShape; // @synthesize ItemShape=_ItemShape;
-@property(retain, nonatomic) EWSBasePagingType *Paging; // @synthesize Paging=_Paging;
-@property(copy, nonatomic) NSArray *ParentFolderIds; // @synthesize ParentFolderIds=_ParentFolderIds;
-@property(retain, nonatomic) EWSRestrictionType *Restriction; // @synthesize Restriction=_Restriction;
-@property(copy, nonatomic) NSArray *SortOrder; // @synthesize SortOrder=_SortOrder;
-@property(nonatomic) long long Traversal; // @synthesize Traversal=_Traversal;
 
 @end
 

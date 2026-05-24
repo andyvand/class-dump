@@ -7,14 +7,12 @@
 @interface DRSCKConfig
 {
     unsigned char _rapidEnvironment;
-    unsigned char _containerEnvironment;
-    _Bool _overridesDefault;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
@@ -26,10 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long ckContainerEnvironment;
-@property(readonly, nonatomic) long long ckRapidEnvironment;
-@property(readonly, nonatomic) unsigned char containerEnvironment; // @synthesize containerEnvironment=_containerEnvironment;
-@property(readonly, nonatomic) _Bool overridesDefault; // @synthesize overridesDefault=_overridesDefault;
 @property(readonly, nonatomic) unsigned char rapidEnvironment; // @synthesize rapidEnvironment=_rapidEnvironment;
 
 @end

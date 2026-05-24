@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBMediaDestination, _INPBMediaSearch, _INPBPrivateAddMediaIntentData;
+@class _INPBIntentMetadata;
 
 @interface _INPBAddMediaIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBMediaDestination *_mediaDestination;
-    NSArray *_mediaItems;
-    _INPBMediaSearch *_mediaSearch;
-    _INPBPrivateAddMediaIntentData *_privateAddMediaIntentData;
 }
 
 + (Class);
@@ -25,45 +20,29 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)0 ;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)LCacheBasicFileIdentifier",R,D;
+- (id)Minus"b1"dialRight"b1"dialLeft"b1"buttonReturn"b1"buttonLogo"b1"unused"b3"wheel"S"pedalGas"b8"pedalBrake"b8"pedalClutch"b8"vendor1"[2C]"vendor2"C}"raw"[64C]);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)startPingingToHost:(id)arg1 withNumberOfPings:completion: /* Error: Ran out of types for this method. */;
+- (void)rbysync] Received OS eligibility event (not eligible);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)xtensionContextWithContext;
+- (void)_INExtensionContextWithContext;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaDestination;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateAddMediaIntentData;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBMediaDestination *mediaDestination; // @synthesize mediaDestination=_mediaDestination;
-@property(copy, nonatomic) NSArray *mediaItems; // @synthesize mediaItems=_mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch; // @synthesize mediaSearch=_mediaSearch;
-@property(retain, nonatomic) _INPBPrivateAddMediaIntentData *privateAddMediaIntentData; // @synthesize privateAddMediaIntentData=_privateAddMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

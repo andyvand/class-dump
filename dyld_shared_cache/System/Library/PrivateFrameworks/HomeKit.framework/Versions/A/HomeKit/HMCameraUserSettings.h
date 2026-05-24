@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMCameraBulletinBoardSmartNotification, HMCharacteristic, NSArray, NSObject, NSSet, NSString, NSUUID, _HMCameraUserSettings, _HMContext;
-@protocol HMCameraUserSettingsDelegate, OS_dispatch_queue;
+@class _HMCameraUserSettings;
 
 @interface HMCameraUserSettings
 {
     struct os_unfair_lock_s _lock;
-    _Bool _snapshotsAllowed;
-    _Bool _accessModeIndicatorEnabled;
-    _Bool _nightVisionModeEnabled;
-    _Bool _recordingAudioEnabled;
-    _HMCameraUserSettings *_cameraUserSettings;
-    HMCameraBulletinBoardSmartNotification *_smartNotificationBulletin;
-    id <HMCameraUserSettingsDelegate> _delegate;
-    _HMContext *_context;
-    HMAccessory *_accessory;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,15 +55,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_legacyServiceInterface;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (void)config;
+- (id)M	5	>	8	;
+- (id)$	M	/	;
+- (id)otalOnScreenDisplayCount;
+- (id)predicateForCallsWithRemoteParticipantHandleValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -83,50 +73,7 @@
 - (id)er != nil;
 
 // Remaining properties
-@property(readonly, getter=isAccessModeChangeNotificationEnabled) _Bool accessModeChangeNotificationEnabled;
-@property(readonly, getter=isAccessModeIndicatorEnabled) _Bool accessModeIndicatorEnabled; // @synthesize accessModeIndicatorEnabled=_accessModeIndicatorEnabled;
-@property(readonly) HMCharacteristic *accessModeIndicatorEnabledCharacteristic;
-@property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, getter=activityZones) NSSet *activityZones;
-@property(readonly, getter=areActivityZonesIncludedForSignificantEventDetection) _Bool activityZonesIncludedForSignificantEventDetection;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, getter=isCameraManuallyDisabled) _Bool cameraManuallyDisabled;
 @property(copy) _HMCameraUserSettings *cameraUserSettings; // @synthesize cameraUserSettings=_cameraUserSettings;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly) unsigned long long currentAccessMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMCameraUserSettingsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, getter=isNightVisionModeEnabled) _Bool nightVisionModeEnabled; // @synthesize nightVisionModeEnabled=_nightVisionModeEnabled;
-@property(readonly) HMCharacteristic *nightVisionModeEnabledCharacteristic;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, getter=isReachabilityEventNotificationEnabled) _Bool reachabilityEventNotificationEnabled;
-@property(readonly, getter=isRecordingAudioEnabled) _Bool recordingAudioEnabled; // @synthesize recordingAudioEnabled=_recordingAudioEnabled;
-@property(readonly) HMCharacteristic *recordingAudioEnabledCharacteristic;
-@property(readonly) unsigned long long recordingEventTriggers;
-@property(readonly, copy) NSString *shortDescription;
-@property(retain) HMCameraBulletinBoardSmartNotification *smartNotificationBulletin; // @synthesize smartNotificationBulletin=_smartNotificationBulletin;
-@property(readonly, getter=areSnapshotsAllowed) _Bool snapshotsAllowed; // @synthesize snapshotsAllowed=_snapshotsAllowed;
-@property(readonly) HMCharacteristic *snapshotsAllowedCharacteristic;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long supportedFeatures;
-@property(readonly) NSUUID *uniqueIdentifier;
 
 @end
 

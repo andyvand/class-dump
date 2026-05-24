@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaymentMerchantSession;
-
 @interface PKPaymentRequestMerchantSessionUpdate
 {
     long long _status;
-    PKPaymentMerchantSession *_session;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)de;
 - (long long);
 - (void)ple.passbook.peerpayment.pay.split-credit;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentMerchantSession *session; // @synthesize session=_session;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

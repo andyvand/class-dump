@@ -4,69 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteEntryAddress, GEOPDAutocompleteEntryBrandProfile, GEOPDAutocompleteEntryBusiness, GEOPDAutocompleteEntryCategory, GEOPDAutocompleteEntryClientResolved, GEOPDAutocompleteEntryCollection, GEOPDAutocompleteEntryDirectionIntent, GEOPDAutocompleteEntryHighlightLine, GEOPDAutocompleteEntryOfflineArea, GEOPDAutocompleteEntryPublisher, GEOPDAutocompleteEntryQuery, GEOPDParsecRankingFeatures, GEOPDRetainedSearchMetadata, GEOPDServerResultScoreMetadata, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteEntry
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAutocompleteEntryAddress *_address;
-    GEOPDAutocompleteEntryBrandProfile *_brandProfile;
-    GEOPDAutocompleteEntryBusiness *_business;
-    GEOPDAutocompleteEntryCategory *_category;
-    GEOPDAutocompleteEntryClientResolved *_clientResolved;
-    GEOPDAutocompleteEntryCollection *_collection;
-    GEOPDAutocompleteEntryDirectionIntent *_directionIntent;
-    GEOPDAutocompleteEntryHighlightLine *_highlightExtra;
-    GEOPDAutocompleteEntryHighlightLine *_highlightMain;
-    GEOPDAutocompleteEntryOfflineArea *_offlineArea;
-    GEOPDParsecRankingFeatures *_parsecRankingFeatures;
-    GEOPDAutocompleteEntryPublisher *_publisher;
-    NSString *_queryAcceleratorCompletionString;
-    GEOPDAutocompleteEntryQuery *_query;
-    GEOPDRetainedSearchMetadata *_retainSearch;
-    GEOPDServerResultScoreMetadata *_serverResultScoreMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _autocompleteOriginationTypeNumber;
-    int _autocompleteResultCellType;
-    int _sortPriority;
-    int _type;
-    _Bool _enableQueryAcceleratorAffordance;
-    struct {
-        unsigned int has_autocompleteOriginationTypeNumber:1;
-        unsigned int has_autocompleteResultCellType:1;
-        unsigned int has_sortPriority:1;
-        unsigned int has_type:1;
-        unsigned int has_enableQueryAcceleratorAffordance:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_brandProfile:1;
-        unsigned int read_business:1;
-        unsigned int read_category:1;
-        unsigned int read_clientResolved:1;
-        unsigned int read_collection:1;
-        unsigned int read_directionIntent:1;
-        unsigned int read_highlightExtra:1;
-        unsigned int read_highlightMain:1;
-        unsigned int read_offlineArea:1;
-        unsigned int read_parsecRankingFeatures:1;
-        unsigned int read_publisher:1;
-        unsigned int read_queryAcceleratorCompletionString:1;
-        unsigned int read_query:1;
-        unsigned int read_retainSearch:1;
-        unsigned int read_serverResultScoreMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Direction:(id)arg1;
-- (int);
++ (_Bool)setHasWalkingDirection:(id)arg1;
+- (int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H2;
 - (void);
 - (void);
 - (void);
@@ -116,7 +66,8 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h
+;
 - (void);
 - (void);
 - (id);
@@ -124,27 +75,27 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)CSBluetoothWirelessSplitterMonitor;
+- (void)MyriadPHash decodeWithMyriadPHash:(id)arg1 ];
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)d}24d40@48B56;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id)37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24Q32;
-- (_Bool)ode;
-- (void)ss;
-- (id)tingLastPathComponent;
+- (_Bool)mapUiShownActiveNavMode;
+- (void)_originalProgress;
+- (id)URLByDeletingLastPathComponent;
 - (int)L[\ä\ä`¬a;
 - (id)Äh²ÀØh²xìh²|,;
-- (void)upMaxParametersCount;
+- (void)GEOBatchSpatialPlaceLookupMaxParametersCount;
 - (id)@data_types)    RETURNING rowid, identifier, originating_bundle_id, data_types, policy, expiration_timestamp, map_region, display_name, insert_timestamp, update_interval;;
 - (id)cL@ÎQÚHi@;
 - (id);
@@ -217,49 +168,7 @@ VenueField
 - (void){^5$·5;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAutocompleteEntryAddress *address;
-@property(nonatomic) unsigned int autocompleteOriginationTypeNumber;
-@property(nonatomic) int autocompleteResultCellType;
-@property(retain, nonatomic) GEOPDAutocompleteEntryBrandProfile *brandProfile;
-@property(retain, nonatomic) GEOPDAutocompleteEntryBusiness *business;
-@property(retain, nonatomic) GEOPDAutocompleteEntryCategory *category;
-@property(retain, nonatomic) GEOPDAutocompleteEntryClientResolved *clientResolved;
-@property(retain, nonatomic) GEOPDAutocompleteEntryCollection *collection;
-@property(retain, nonatomic) GEOPDAutocompleteEntryDirectionIntent *directionIntent;
-@property(nonatomic) _Bool enableQueryAcceleratorAffordance;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(nonatomic) _Bool hasAutocompleteOriginationTypeNumber;
-@property(nonatomic) _Bool hasAutocompleteResultCellType;
-@property(readonly, nonatomic) _Bool hasBrandProfile;
-@property(readonly, nonatomic) _Bool hasBusiness;
-@property(readonly, nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasClientResolved;
-@property(readonly, nonatomic) _Bool hasCollection;
-@property(readonly, nonatomic) _Bool hasDirectionIntent;
-@property(nonatomic) _Bool hasEnableQueryAcceleratorAffordance;
-@property(readonly, nonatomic) _Bool hasHighlightExtra;
 @property(readonly, nonatomic) _Bool hasHighlightMain;
-@property(readonly, nonatomic) _Bool hasOfflineArea;
-@property(readonly, nonatomic) _Bool hasParsecRankingFeatures;
-@property(readonly, nonatomic) _Bool hasPublisher;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasQueryAcceleratorCompletionString;
-@property(readonly, nonatomic) _Bool hasRetainSearch;
-@property(readonly, nonatomic) _Bool hasServerResultScoreMetadata;
-@property(nonatomic) _Bool hasSortPriority;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEOPDAutocompleteEntryHighlightLine *highlightExtra;
-@property(retain, nonatomic) GEOPDAutocompleteEntryHighlightLine *highlightMain;
-@property(retain, nonatomic) GEOPDAutocompleteEntryOfflineArea *offlineArea;
-@property(retain, nonatomic) GEOPDParsecRankingFeatures *parsecRankingFeatures;
-@property(retain, nonatomic) GEOPDAutocompleteEntryPublisher *publisher;
-@property(retain, nonatomic) GEOPDAutocompleteEntryQuery *query;
-@property(retain, nonatomic) NSString *queryAcceleratorCompletionString;
-@property(retain, nonatomic) GEOPDRetainedSearchMetadata *retainSearch;
-@property(retain, nonatomic) GEOPDServerResultScoreMetadata *serverResultScoreMetadata;
-@property(nonatomic) int sortPriority;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLStageInputOutputDescriptor, MTLVertexDescriptor, NSArray;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLMesh
 {
     long long _mutabilityTimestamp;
-    MTLVertexDescriptor *_vertexDescriptor;
-    MTLVertexDescriptor *_tessellationVertexDescriptor;
-    unsigned long long _vertexDescriptorHash;
-    unsigned long long _tessellationVertexDescriptorHash;
-    NSArray *_buffers;
-    NSArray *_elements;
-    MTLStageInputOutputDescriptor *_stageDescriptor;
-    id <MTLBuffer> _volatileBuffer;
-    unsigned long long volatileOffset;
-    unsigned long long volatileStride;
-    unsigned long long volatileSize;
-    long long verticesCount;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)__im_filePathWithVariant: /* Error: Ran out of types for this method. */;
 
 @end
 

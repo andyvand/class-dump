@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateResult, NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface CalculateRequest
 {
     _Bool _isCanceled;
-    NSString *_expression;
-    NSDictionary *_options;
-    CalculateResult *_result;
-    NSError *_error;
-    CDUnknownBlockType _resultHandler;
 }
 
 + (void);
 + (id);
 + (void)Ç2½WÊF¦a­:\P-ìÎXÞü[ý5QÞÖÒß«XB^ÿP;§H/)EÊìùgmáÃ.Ð/ÃJ5%Å9Çx¯àå,¯d<¾¶öu®ù)QÖØ³æu8ÀFÇ¦Ó%Þët³AÈ°ÚÆî÷¹×î[n#£êÑÀ£+Sax4èus¼ÇDÚr­î14EðÒýäÄS¯å:mTOb_*3e´?Í³à(	\Ê%­|ÆRó	´bYª9êñl­EÙøLDLé×¹Ë¤ÿQ÷}Ç-´ZæèyÃBÝÀ;cÛ}ý¤@&sAÆ¸|¸«úgBõoü3©wâ,<Æ÷Ç}ÿ#Ã¢¤UãSêæq~¾7ß4®Ê!ç_Ü¬ØÀY¾­Ï%çnû^[nVW{ÞF)s@ñúq-¸¬ÌêQEðÍ»N¾voÉzEQÒ+­Þ1ËL`iÑ°Ä3~lÍ©oÆ1§¸þ+3I²bVól£T[ÞÅJ²,7¶ÃªòÉóÿÂ.è®÷;î,=¢\Àñ6ó·ÿÛöÚq\Õ´~AbN¯>³ëö¾'¥¡zãÿ)ÍÕ¬W*LÁc>TqO!/ý¤rUóÖýÛr /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)TJA;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)
+;
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -42,12 +38,7 @@ NñC¡ÕÇêU|<Iú
 - (void)È§c4J;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSString *expression; // @synthesize expression=_expression;
-@property(nonatomic) _Bool isCanceled; // @synthesize isCanceled=_isCanceled;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(retain, nonatomic) CalculateResult *result; // @synthesize result=_result;
-@property(copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end
 

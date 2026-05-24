@@ -6,13 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2TextField, NSImageView, NSStackView;
+@class NSImageView, NSStackView;
 
 @interface LUI2ImageViewController : LUI2ViewController
 {
     NSImageView *_imageView;
-    LUI2TextField *_captionTextField;
-    NSStackView *_stackView;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) LUI2TextField *captionTextField; // @synthesize captionTextField=_captionTextField;
-@property(readonly) NSImageView *imageView; // @synthesize imageView=_imageView;
 @property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface PGSchemaPGGeneratePlanFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    _Bool _hasCriticalError;
 }
 
 - (void);
@@ -23,18 +22,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)l;
+- (_Bool)to create handle row with uncanonid[%@] canonid[%@] service[%@] country[%@];
 - (id);
 - (id);
-- (id)PlanTime;
+- (id)_hasPgPrescribedPlanTime;
 - (id)WaitTime;
-- (void)ance;
+- (void)isAppInTopFiveRelevance;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

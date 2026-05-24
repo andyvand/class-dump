@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)VKKeyboardCameraGuidanceViewAccessibility;
 + (void);
-- (id);
+- (id)e&;
 - (_Bool);
 - (id);
 

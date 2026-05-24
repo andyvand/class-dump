@@ -7,18 +7,17 @@
 @interface HMSoftwareUpdateProgress
 {
     float _percentageComplete;
-    double _estimatedTimeRemaining;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (float);
+- (float)'D*J
+;
 - (double);
 
 // Remaining properties
-@property(readonly) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
 @property(readonly) float percentageComplete; // @synthesize percentageComplete=_percentageComplete;
 
 @end

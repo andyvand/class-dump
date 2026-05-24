@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSString, SYDTestConfiguration;
+@class CKContainerID, NSString;
 
 @interface SYDStoreID
 {
     CKContainerID *_containerID;
-    NSString *_identifier;
-    long long _type;
-    SYDTestConfiguration *_testConfiguration;
-    NSString *_personaUniqueString;
 }
 
 + (_Bool);
@@ -22,9 +18,9 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (long long);
+- (id)avatarViewSihlouetteBackgroundColor;
+- (void)ouchBarDelegate>",W,V_delegate;
+- (long long)emojiDataSource;
 - (_Bool);
 - (void);
 - (void);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CKContainerID *containerID;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *personaUniqueString; // @synthesize personaUniqueString=_personaUniqueString;
-@property(copy, nonatomic) SYDTestConfiguration *testConfiguration; // @synthesize testConfiguration=_testConfiguration;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

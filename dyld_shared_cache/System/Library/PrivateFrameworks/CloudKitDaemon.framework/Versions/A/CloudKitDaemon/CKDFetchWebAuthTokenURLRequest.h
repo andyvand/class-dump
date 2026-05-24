@@ -11,7 +11,6 @@
 @interface CKDFetchWebAuthTokenURLRequest : CKDURLRequest
 {
     NSString *_APIToken;
-    CDUnknownBlockType _tokenFetchedBlock;
 }
 
 - (CDUnknownBlockType);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *APIToken; // @synthesize APIToken=_APIToken;
-@property(copy, nonatomic) CDUnknownBlockType tokenFetchedBlock; // @synthesize tokenFetchedBlock=_tokenFetchedBlock;
 
 @end
 

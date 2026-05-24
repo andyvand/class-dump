@@ -6,26 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, CAShapeLayer, UIBezierPath;
+@class UIBezierPath;
 
 __attribute__((visibility("hidden")))
 @interface _UITextHighlightBackgroundView : UIView
 {
     UIBezierPath *_visiblePath;
-    CALayer *_shadowLayer;
-    CAShapeLayer *_highlightLayer;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)mary;
-- (void)server_p;
+- (void)ation initiator handle value %@;
+- (id)_menuIsPrimary;
+- (void)So40_UIContextMenuModifierKeyServiceObserver_p;
 
 // Remaining properties
-@property(readonly, nonatomic) CAShapeLayer *highlightLayer; // @synthesize highlightLayer=_highlightLayer;
-@property(readonly, nonatomic) CALayer *shadowLayer; // @synthesize shadowLayer=_shadowLayer;
 @property(copy, nonatomic) UIBezierPath *visiblePath; // @synthesize visiblePath=_visiblePath;
 
 @end

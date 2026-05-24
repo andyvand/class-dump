@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _FBSDisplayLayoutEndpointServices
 {
     _FBSDisplayLayoutService *_sharedLock_services[3];
-    unsigned long long _sharedLock_servicesRefCnt[3];
 }
 
-+ (id);
++ (id)Azi;
 + (void);
-- (void);
+- (void)A;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSIndexSet;
+@class NSDictionary;
 
 @interface IMDMessageRecordExporterState
 {
     NSDictionary *_batchIterationKeys;
-    NSIndexSet *_prematureExportSuppressions;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *batchIterationKeys; // @synthesize batchIterationKeys=_batchIterationKeys;
-@property(readonly, nonatomic) NSIndexSet *prematureExportSuppressions; // @synthesize prematureExportSuppressions=_prematureExportSuppressions;
 
 @end
 

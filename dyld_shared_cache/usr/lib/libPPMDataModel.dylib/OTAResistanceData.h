@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)s`;
 - (id);
 - (void);
 - (void);
@@ -22,22 +22,20 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (float);
+- (float);
 - (void);
 - (float *);
-- (_Bool);
+- (_Bool)` ae;
 - (float);
 - (void);
 - (id);
 - (id);
-- (void);
-- (float *);
+- (void)9;
+- (float *)retryWithBackoff;
 
 // Remaining properties
 @property(readonly, nonatomic) float *resistance25Cs;
 @property(readonly, nonatomic) unsigned long long resistance25CsCount;
-@property(readonly, nonatomic) float *temperatureCoeffs;
-@property(readonly, nonatomic) unsigned long long temperatureCoeffsCount;
 
 @end
 

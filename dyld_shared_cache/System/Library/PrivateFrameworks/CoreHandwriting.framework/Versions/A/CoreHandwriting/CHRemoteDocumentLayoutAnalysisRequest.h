@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSArray, NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface CHRemoteDocumentLayoutAnalysisRequest
 {
     _Bool _hasBeenSubmitted;
-    NSDictionary *_options;
-    CHDrawing *_drawing;
-    NSArray *_strokeIdentifiers;
-    NSSet *_contextStrokeIdentifiers;
-    long long _priority;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_headerOffset;
 - (id);
 - (id);
 - (void);
@@ -32,21 +27,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ggleButtonConfiguration;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long)the strokeIdentifiers.;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *contextStrokeIdentifiers; // @synthesize contextStrokeIdentifiers=_contextStrokeIdentifiers;
-@property(copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) _Bool hasBeenSubmitted; // @synthesize hasBeenSubmitted=_hasBeenSubmitted;
 @property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end
 

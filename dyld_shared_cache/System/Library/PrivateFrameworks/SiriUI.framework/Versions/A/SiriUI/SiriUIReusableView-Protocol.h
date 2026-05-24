@@ -8,6 +8,9 @@
 
 @protocol SiriUIReusableView
 
+@optional
+- (struct NSEdgeInsets)2;
+
 // Remaining properties
 @property(nonatomic) __weak SiriUISnippetViewController *snippetViewController;
 // Preceding property had unknown attributes: ?

@@ -4,95 +4,72 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDLinkQualityMeasurements, AWDWiFiNWActivityControllerStats, NSMutableArray, NSString;
-
 @interface AWDWiFiNWActivity
 {
     unsigned long long _timestamp;
-    NSMutableArray *_activities;
-    NSString *_apProfile;
-    NSMutableArray *_btleConnections;
-    AWDWiFiNWActivityControllerStats *_controllerStats;
-    NSMutableArray *_interfaceStats;
-    AWDLinkQualityMeasurements *_linkQualSample;
-    NSMutableArray *_peerStats;
-    NSMutableArray *_scores;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
++ (Class)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)"+;
+- (unsigned long long);
+- (id)(;
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)i(;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (void);
+- (void)c;
+- (void);
+- (unsigned long long)H;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (void)/;
+- (void)E;
+- (void)R;
+- (id)S	k);
+- (id);
+- (void);
+- (void)@4;
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (id)?="timestamp"b1"ajScansPerformedWithLocation"b1"ajScansPerformedWithoutLocation"b1"bandScanCount24"b1"bandScanCount5"b1"ccaBitmap"b1"didAssocTo5GHzAfterBroadcastPeriodicAllBandScanCount"b1"rssiBitmap"b1"userChoseToAssociateToAJBlacklistedCount"b1};
-- (void)ResultFound:(id)arg1;
-- (id)workUsed;
+- (void)setScanResultFound:(id)arg1;
+- (id)_networkUsed;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activities; // @synthesize activities=_activities;
-@property(retain, nonatomic) NSString *apProfile; // @synthesize apProfile=_apProfile;
-@property(retain, nonatomic) NSMutableArray *btleConnections; // @synthesize btleConnections=_btleConnections;
-@property(retain, nonatomic) AWDWiFiNWActivityControllerStats *controllerStats; // @synthesize controllerStats=_controllerStats;
-@property(readonly, nonatomic) _Bool hasApProfile;
-@property(readonly, nonatomic) _Bool hasControllerStats;
-@property(readonly, nonatomic) _Bool hasLinkQualSample;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *interfaceStats; // @synthesize interfaceStats=_interfaceStats;
-@property(retain, nonatomic) AWDLinkQualityMeasurements *linkQualSample; // @synthesize linkQualSample=_linkQualSample;
-@property(retain, nonatomic) NSMutableArray *peerStats; // @synthesize peerStats=_peerStats;
-@property(retain, nonatomic) NSMutableArray *scores; // @synthesize scores=_scores;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

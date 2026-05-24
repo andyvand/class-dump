@@ -6,13 +6,11 @@
 
 #import <Intents/INIntent.h>
 
-@class INCurrencyAmount, NSNumber, NSString;
+@class NSString;
 
 @interface INSendRideFeedbackIntent : INIntent
 {
     NSString *_rideIdentifier;
-    NSNumber *_rating;
-    INCurrencyAmount *_tip;
 }
 
 + (_Bool);
@@ -22,17 +20,15 @@
 - (void);
 - (id);
 - (void);
+- (id)registerForLocalNotificationsWithObserver:(id)arg1;
+- (void)ed scan for SSID '%@' on interface %@ failed after retry with error:(id)arg1 %@;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)ListRideOptions:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDropOffLocationOptionsForListRideOptions:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSNumber *rating; // @synthesize rating=_rating;
 @property(readonly, copy) NSString *rideIdentifier; // @synthesize rideIdentifier=_rideIdentifier;
-@property(copy) INCurrencyAmount *tip; // @synthesize tip=_tip;
 
 @end
 

@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface GEOLocationShiftingCacheItem
 {
     NSDate *_addDate;
-    double _radiusMeters;
-    CDStruct_2c43369c _coordinate;
 }
 
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)ic Ukraine;
 - (void);
 - (id);
 - (CDStruct_c3b9c2ee)'°!ÜGù±¸*ð1Â0@ù
 × ;
-- (void)tworksWithDecoderData:(id)arg1;
+- (void)_populateArtworksWithDecoderData:(id)arg1;
 - (void)[f4is4;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *addDate; // @synthesize addDate=_addDate;
-@property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double radiusMeters; // @synthesize radiusMeters=_radiusMeters;
-@property(readonly) Class superclass;
 
 @end
 

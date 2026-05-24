@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMIndex, BMSQLDatabase, NSArray;
+@class BMIndex;
 
 @interface BMIndexSearch
 {
     BMIndex *_index;
-    NSArray *_startFields;
-    NSArray *_endFields;
-    BMSQLDatabase *_database;
 }
 
 - (id);
@@ -20,16 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)K;;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BMSQLDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) NSArray *endFields; // @synthesize endFields=_endFields;
 @property(readonly, nonatomic) BMIndex *index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSArray *startFields; // @synthesize startFields=_startFields;
 
 @end
 

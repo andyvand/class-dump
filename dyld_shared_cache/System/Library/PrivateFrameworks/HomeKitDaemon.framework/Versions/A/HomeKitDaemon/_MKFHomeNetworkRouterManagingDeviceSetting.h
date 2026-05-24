@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeSetting.h>
 
-@class MKFHomeNetworkRouterManagingDeviceSettingDatabaseID, NSDate, NSString, NSUUID;
-@protocol MKFDevice, MKFHome;
+@class _MKFDevice;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeNetworkRouterManagingDeviceSetting : _MKFHomeSetting
@@ -17,31 +16,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeNetworkRouterManagingDeviceSettingDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFDevice> device; // @dynamic device;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
+@property(retain, nonatomic) _MKFDevice *device; // @dynamic device;
 
 @end
 

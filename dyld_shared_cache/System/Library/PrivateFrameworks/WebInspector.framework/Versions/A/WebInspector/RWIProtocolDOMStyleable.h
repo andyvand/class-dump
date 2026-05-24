@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) int nodeId;
-@property(nonatomic) long long pseudoId;
 
 @end
 

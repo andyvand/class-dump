@@ -4,40 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface VGVehicleStateStorage
 {
     double _batteryPercentage;
-    double _currentBatteryCapacity;
-    double _currentEVRange;
-    double _dateOfUpdate;
-    double _maxBatteryCapacity;
-    double _maxEVRange;
-    double _minBatteryCapacity;
-    int _activeConnector;
-    NSString *_chargingArguments;
-    NSString *_consumptionArguments;
-    NSString *_identifier;
-    int _origin;
-    NSString *_pairedAppInstallDeviceIdentifier;
-    NSData *_pairedAppInstallSessionIdentifier;
-    _Bool _isCharging;
-    struct {
-        unsigned int batteryPercentage:1;
-        unsigned int currentBatteryCapacity:1;
-        unsigned int currentEVRange:1;
-        unsigned int dateOfUpdate:1;
-        unsigned int maxBatteryCapacity:1;
-        unsigned int maxEVRange:1;
-        unsigned int minBatteryCapacity:1;
-        unsigned int activeConnector:1;
-        unsigned int origin:1;
-        unsigned int isCharging:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,10 +32,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
+- (double)h;
 - (double);
 - (_Bool);
 - (void);
@@ -86,7 +60,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)rubber"16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -94,48 +68,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void),N,V_forwardingLikenessesToObserverDisabled;
 - (double);
 - (void);
 - (id);
-- (int);
-- (void);
+- (int)Specification;
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int activeConnector; // @synthesize activeConnector=_activeConnector;
-@property(nonatomic) double batteryPercentage; // @synthesize batteryPercentage=_batteryPercentage;
-@property(retain, nonatomic) NSString *chargingArguments; // @synthesize chargingArguments=_chargingArguments;
-@property(retain, nonatomic) NSString *consumptionArguments; // @synthesize consumptionArguments=_consumptionArguments;
-@property(nonatomic) double currentBatteryCapacity; // @synthesize currentBatteryCapacity=_currentBatteryCapacity;
-@property(nonatomic) double currentEVRange; // @synthesize currentEVRange=_currentEVRange;
-@property(nonatomic) double dateOfUpdate; // @synthesize dateOfUpdate=_dateOfUpdate;
-@property(nonatomic) _Bool hasActiveConnector;
-@property(nonatomic) _Bool hasBatteryPercentage;
-@property(readonly, nonatomic) _Bool hasChargingArguments;
-@property(readonly, nonatomic) _Bool hasConsumptionArguments;
-@property(nonatomic) _Bool hasCurrentBatteryCapacity;
-@property(nonatomic) _Bool hasCurrentEVRange;
-@property(nonatomic) _Bool hasDateOfUpdate;
-@property(nonatomic) _Bool hasIsCharging;
-@property(nonatomic) _Bool hasMaxBatteryCapacity;
-@property(nonatomic) _Bool hasMaxEVRange;
-@property(nonatomic) _Bool hasMinBatteryCapacity;
-@property(nonatomic) _Bool hasOrigin;
-@property(readonly, nonatomic) _Bool hasPairedAppInstallDeviceIdentifier;
-@property(readonly, nonatomic) _Bool hasPairedAppInstallSessionIdentifier;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isCharging; // @synthesize isCharging=_isCharging;
-@property(nonatomic) double maxBatteryCapacity; // @synthesize maxBatteryCapacity=_maxBatteryCapacity;
-@property(nonatomic) double maxEVRange; // @synthesize maxEVRange=_maxEVRange;
-@property(nonatomic) double minBatteryCapacity; // @synthesize minBatteryCapacity=_minBatteryCapacity;
-@property(nonatomic) int origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *pairedAppInstallDeviceIdentifier; // @synthesize pairedAppInstallDeviceIdentifier=_pairedAppInstallDeviceIdentifier;
-@property(retain, nonatomic) NSData *pairedAppInstallSessionIdentifier; // @synthesize pairedAppInstallSessionIdentifier=_pairedAppInstallSessionIdentifier;
 
 @end
 

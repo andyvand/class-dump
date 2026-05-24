@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol MKMapsSuggestionsSignalPackCacheInterface, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol MKMapsSuggestionsSignalPackCacheInterface, OS_dispatch_queue;
 
 @interface MKMapsSuggestionsPredictor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_source> *_closeTimer;
-    id <MKMapsSuggestionsSignalPackCacheInterface> _signalPackCacheInterface;
 }
 
 + (id);
@@ -21,24 +18,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void)tations;
+- (void)allAnnotations;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <MKMapsSuggestionsSignalPackCacheInterface> signalPackCacheInterface; // @synthesize signalPackCacheInterface=_signalPackCacheInterface;
-@property(readonly) Class superclass;
 
 @end
 

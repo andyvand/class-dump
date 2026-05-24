@@ -7,7 +7,7 @@
 @class NSKeyValueDependencyInfo, NSObject;
 
 @protocol NSDynamicPropertyContainer
-- (void)PageForPoint:(NSObject *)arg1;
+- (void)_screenPageForPoint:(NSObject *)arg1;
 - (void)ers %@];
 
 // Remaining properties

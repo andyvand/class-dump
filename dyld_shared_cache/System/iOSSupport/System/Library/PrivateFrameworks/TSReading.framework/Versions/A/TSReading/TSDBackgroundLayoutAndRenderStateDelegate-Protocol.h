@@ -5,5 +5,7 @@
 //
 
 @protocol TSDBackgroundLayoutAndRenderStateDelegate
+- (void);
+- (_Bool);
 @end
 

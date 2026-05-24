@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSArray;
 
 @protocol HMMediaDestinationInternal
 
 // Remaining properties
-@property(readonly, copy) NSUUID *audioDestinationGroupIdentifier;
 @property(readonly, copy) NSArray *audioDestinationMediaProfiles;
-@property(readonly, copy) NSString *audioDestinationParentIdentifier;
 @end
 

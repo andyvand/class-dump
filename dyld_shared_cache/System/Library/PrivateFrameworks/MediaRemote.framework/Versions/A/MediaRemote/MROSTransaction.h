@@ -10,7 +10,6 @@
 @interface MROSTransaction
 {
     NSObject<OS_os_transaction> *_containedTransaction;
-    NSString *_transactionName;
 }
 
 - (void);

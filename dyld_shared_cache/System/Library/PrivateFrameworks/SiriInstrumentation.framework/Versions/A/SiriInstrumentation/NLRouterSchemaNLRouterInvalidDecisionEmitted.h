@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterInvalidDecisionEmitted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_traceId;
-    _Bool _isSuppressed;
-    int _nlRouterInvalidDecisionReason;
-    struct {
-        unsigned int isSuppressed:1;
-        unsigned int nlRouterInvalidDecisionReason:1;
-    } _has;
-    _Bool _hasTraceId;
 }
 
 - (void);
@@ -35,26 +28,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Response Status:(id)arg1 %s (0x%lx)
+;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ñÞÐ1Â0@ù
 × ;
 - (id),V_hasPhoneticMatchDecoderName;
-- (id)ntTime: /* Error: Ran out of types for this method. */;
+- (id)setConnectionEstablishmentTime: /* Error: Ran out of types for this method. */;
 - (void)>;
 - (id)';
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSuppressed;
-@property(nonatomic) _Bool hasNlRouterInvalidDecisionReason;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(nonatomic) _Bool isSuppressed; // @synthesize isSuppressed=_isSuppressed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int nlRouterInvalidDecisionReason; // @synthesize nlRouterInvalidDecisionReason=_nlRouterInvalidDecisionReason;
 @property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
 
 @end

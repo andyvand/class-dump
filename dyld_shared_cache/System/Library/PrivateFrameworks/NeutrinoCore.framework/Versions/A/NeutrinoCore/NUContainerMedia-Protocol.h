@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NUChannelContainerMediaFormat;
+@class NUChannelContainerMediaFormat;
 
 @protocol NUContainerMedia
+- (NUChannelContainerMediaFormat *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *components;
 @property(readonly, nonatomic) NUChannelContainerMediaFormat *containerFormat;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface WBSSiriIntelligenceDonorQuickWebsiteSearchProviderData
 {
     NSString *_title;
-    NSString *_sourcePageURLString;
-    NSString *_searchURLTemplateString;
-    NSData *_faviconData;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *faviconData; // @synthesize faviconData=_faviconData;
-@property(copy, nonatomic) NSString *searchURLTemplateString; // @synthesize searchURLTemplateString=_searchURLTemplateString;
-@property(copy, nonatomic) NSString *sourcePageURLString; // @synthesize sourcePageURLString=_sourcePageURLString;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

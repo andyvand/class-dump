@@ -5,5 +5,6 @@
 //
 
 @protocol NUArticleHardPaywallPresentationReporting
+- (_Bool);
 @end
 

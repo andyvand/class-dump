@@ -7,7 +7,6 @@
 @interface ETDataPointDictionary
 {
     map_cbeaf817 _image_buffers;
-    map_db1875bf _float_buffers;
 }
 
 - (void);
@@ -15,14 +14,13 @@
 - (void);
 - (_Bool);
 - (map_cbeaf817);
-- (map_db1875bf);
+- (map_3f4fe2ef)4;
 - (id);
 - (id);
 - (float *);
 - (void);
 
 // Remaining properties
-@property map_db1875bf float_buffers; // @synthesize float_buffers=_float_buffers;
 @property map_cbeaf817 image_buffers; // @synthesize image_buffers=_image_buffers;
 
 @end

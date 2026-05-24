@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void)}^{coap_resource_t}^{coap_async_state_t}Q^{coap_queue_t}^{coap_endpoint_t}^{coap_session_t}^?^?^?^?^?^?^?^?^?^?^v*Q*QIIIII^v}16;
-- (id)r: /* Error: Ran out of types for this method. */;
+- (id)executeWriteRequestForCharacteristics:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *field; // @synthesize field=_field;

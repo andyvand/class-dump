@@ -7,14 +7,11 @@
 @interface _MPCPodcastsPlaybackRateHelper
 {
     id currentRate;
-    id playerState;
-    id defaults;
-    id rateMigrator;
 }
 
 + (id);
-+ (_Bool);
-+ (float);
++ (_Bool);
++ (float)remoteAppLocalizedName;
 + (id);
 + (id);
 - (float);
@@ -22,10 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (float);
-- (float);
-- (_Bool);
-- (id);
+- (float)updateAccountInformationCacheForAppleAccount:(float)arg1;
+- (float)countByEnumeratingWithState:(id)arg1 objects:(_Bool)arg2 count: /* Error: Ran out of types for this method. */;
+- (_Bool)_doHSADeviceProvisioningWithDSID:(id)arg1 data:(_Bool)arg2;
+- (id);
 - (void)ommandResult:%@ /* Error: Ran out of types for this method. */;
 
 @end

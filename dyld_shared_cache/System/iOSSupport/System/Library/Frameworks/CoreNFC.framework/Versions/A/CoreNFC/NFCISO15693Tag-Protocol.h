@@ -7,10 +7,12 @@
 @class NSData;
 
 @protocol NFCISO15693Tag
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long icManufacturerCode;
-@property(readonly, copy, nonatomic) NSData *icSerialNumber;
 @property(readonly, copy, nonatomic) NSData *identifier;
 @end
 

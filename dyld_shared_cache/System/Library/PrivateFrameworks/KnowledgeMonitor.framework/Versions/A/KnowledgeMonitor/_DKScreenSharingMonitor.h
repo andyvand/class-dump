@@ -6,13 +6,11 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class AVOutputContext, BMScreenSharingStream;
+@class AVOutputContext;
 
 @interface _DKScreenSharingMonitor : _DKMonitor
 {
     AVOutputContext *_outputContext;
-    BMScreenSharingStream *_screenSharingStream;
-    long long _currentMirroringDeviceCount;
 }
 
 + (id);
@@ -22,19 +20,17 @@
 - (id);
 - (long long);
 - (void);
+- (id)A<;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)tQueue:(id)arg1;
+- (void)setQueue:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) long long currentMirroringDeviceCount; // @synthesize currentMirroringDeviceCount=_currentMirroringDeviceCount;
 @property(retain, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
-@property(retain, nonatomic) BMScreenSharingStream *screenSharingStream; // @synthesize screenSharingStream=_screenSharingStream;
 
 @end
 

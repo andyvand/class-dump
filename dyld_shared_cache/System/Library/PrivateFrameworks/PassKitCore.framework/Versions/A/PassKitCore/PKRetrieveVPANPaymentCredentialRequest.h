@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSString, PKSecureElementPass, PKVirtualCardEncryptionFields;
+@class NSArray, PKSecureElementPass;
 
 @interface PKRetrieveVPANPaymentCredentialRequest : PKPaymentWebServiceRequest
 {
     PKSecureElementPass *_paymentPass;
-    NSString *_vpanIdentifier;
-    NSString *_deviceIdentifier;
-    NSString *_nonce;
-    PKVirtualCardEncryptionFields *_encryptionFields;
-    NSString *_merchantHost;
 }
 
 - (id);
@@ -24,25 +19,19 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ypes: /* Error: Ran out of types for this method. */;
+- (id)canFitAppletTypes: /* Error: Ran out of types for this method. */;
 - (void)wered:'%@';  /* Error: Ran out of types for this method. */;
-- (id)2;
+- (id)PaymentSetupPrimaryFeaturedNetworkV2;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) PKVirtualCardEncryptionFields *encryptionFields; // @synthesize encryptionFields=_encryptionFields;
 @property(readonly, copy, nonatomic) NSArray *endpointComponents;
-@property(copy, nonatomic) NSString *merchantHost; // @synthesize merchantHost=_merchantHost;
-@property(copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) PKSecureElementPass *paymentPass; // @synthesize paymentPass=_paymentPass;
-@property(copy, nonatomic) NSString *vpanIdentifier; // @synthesize vpanIdentifier=_vpanIdentifier;
 
 @end
 

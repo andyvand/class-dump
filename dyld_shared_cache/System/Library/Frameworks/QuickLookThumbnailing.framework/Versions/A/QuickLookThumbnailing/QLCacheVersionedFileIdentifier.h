@@ -9,25 +9,23 @@
 @interface QLCacheVersionedFileIdentifier
 {
     QLThumbnailVersion *_version;
-    QLCacheFileIdentifier *_fileIdentifier;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)	;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) QLCacheFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property(readonly) QLThumbnailVersion *version; // @synthesize version=_version;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol BWPreviewRegistrationProvider
+- (CDStruct_4e035876)}(e;
+
+@optional
+- (struct CGPoint)H
+;
 @end
 

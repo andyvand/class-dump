@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventRouterSendRemoteEventLogEvent
 {
     _Bool _isCachedEvent;
-    NSString *_topic;
-    unsigned long long _sourceDeviceType;
-    unsigned long long _destinationDeviceType;
-    unsigned long long _responseMessageType;
 }
 
-- (unsigned long long);
+- (unsigned long long)sent command messageUUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -28,32 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)unableToCreateAutomation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long destinationDeviceType; // @synthesize destinationDeviceType=_destinationDeviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool isCachedEvent; // @synthesize isCachedEvent=_isCachedEvent;
-@property(readonly, nonatomic) unsigned long long responseMessageType; // @synthesize responseMessageType=_responseMessageType;
-@property(readonly, nonatomic) unsigned long long sourceDeviceType; // @synthesize sourceDeviceType=_sourceDeviceType;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end

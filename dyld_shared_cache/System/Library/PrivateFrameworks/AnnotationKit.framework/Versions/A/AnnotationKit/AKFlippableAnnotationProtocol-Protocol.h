@@ -7,10 +7,6 @@
 @protocol AKFlippableAnnotationProtocol
 
 // Remaining properties
-@property _Bool horizontallyFlipped;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 @property _Bool verticallyFlipped;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?

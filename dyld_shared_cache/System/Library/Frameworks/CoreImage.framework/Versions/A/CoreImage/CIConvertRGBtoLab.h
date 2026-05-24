@@ -6,25 +6,23 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIConvertRGBtoLab : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputNormalize;
 }
 
 + (id);
 - (void);
+- (id)R;
 - (id);
-- (id);
-- (void);
+- (void) ;
 - (id)kqoquuuu©©©©¨¨¨¨k|ywpyarltoqkwgzx\ojz]ibnL]Sd>WLdiqnt~}}}}nnnnO[P^ZXM\Vb\eYc]jb`YgR\Sdjicm~~~~  w~{s|zzzzzqqnqF`Ut_yw¡¡¡¡££££~Urlvpxv`mgw¡¡¡¨¦¨¨­­­­££££n}v££££³³³³¹¹¹¹¥±³³¡¡¡¡{~D_Tu\jduzzzzuuuuSfbpttttuuuuN`XnG]Rqqupzrqjw¢¢¢¢¦¦¦\mfyASF]DL>LKL?MO]V_xxxx}gawtxxxxooooB[OjLf]|««««| zu¨¨¨¨­­­­    }  ££>RBa5LY[T[nnnnnnnnee^eecYeblfw|¤¤¤¤Rg^tHWIgttrt||||ilfp:TGbO^Ueppmp||z|¦¦¦¦­­­­mzwqm~}m||||kkkk7L>W'A.RRXKaYqlvszwQmf}~¤®®¸¸¸¸£«««ooooE[QeNidri||DcY}b|{x¥¥¥¥««««¦¦j~~iy{5O@cSWKallllP`YhGTJ[HUJW /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputNormalize; // @synthesize inputNormalize;
 
 @end
 

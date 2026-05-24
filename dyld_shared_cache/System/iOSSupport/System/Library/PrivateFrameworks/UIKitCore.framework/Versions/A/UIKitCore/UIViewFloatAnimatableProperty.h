@@ -21,9 +21,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double presentationValue;
 @property(nonatomic) double value;
-@property(nonatomic) double velocity;
 
 @end
 

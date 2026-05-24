@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface NSPasteboard
 {
     id _pboard;
-    int _gen;
-    id _owners;
-    long long _cachedTypeNameChangeCount;
-    id _cachedTypeNames;
-    NSMutableDictionary *_promiseTypeNamesByIdentifier;
-    id _support;
-    id _pasteboardItems;
-    void *_reserved[3];
 }
 
 @end

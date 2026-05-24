@@ -5,6 +5,7 @@
 //
 
 @protocol EMExtendedContentItem
+- (NSProgress * (^)(EMContentRequestOptions *, id <EMContentItemRequestDelegate>, void (^)(EMContentRepresentation *, NSError *)))TJ@;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType loaderBlock;

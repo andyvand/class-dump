@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (void)m;
++ (_Bool)ICCoreDataIndexerStopIndexingNotification;
++ (_Bool)sFontNoSingleLineA;
++ (_Bool)ound for namedStyle %ld;
 + (void);
 + (_Bool);
 + (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol ICTTMergeableStringDelegate
+- (_Bool);
+- (void)I;
+- (void)?;
 @end
 

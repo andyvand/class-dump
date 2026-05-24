@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOMapItemPhoto;
 
 @interface GEOPictureItem
 {
     id <GEOMapItemPhoto> _photo;
-    int _pictureItemPhotoType;
-    NSString *_primaryText;
-    NSString *_secondaryText;
 }
 
 @end

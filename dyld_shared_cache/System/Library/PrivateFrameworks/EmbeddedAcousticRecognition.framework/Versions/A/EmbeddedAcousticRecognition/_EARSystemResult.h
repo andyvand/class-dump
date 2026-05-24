@@ -9,8 +9,6 @@
 @interface _EARSystemResult
 {
     NSArray *_sausage;
-    NSArray *_nBestIndexes;
-    NSArray *_confidences;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 - (void)°;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *confidences; // @synthesize confidences=_confidences;
-@property(copy, nonatomic) NSArray *nBestIndexes; // @synthesize nBestIndexes=_nBestIndexes;
 @property(copy, nonatomic) NSArray *sausage; // @synthesize sausage=_sausage;
 
 @end

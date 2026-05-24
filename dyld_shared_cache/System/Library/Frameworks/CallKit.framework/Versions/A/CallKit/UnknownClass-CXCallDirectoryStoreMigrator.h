@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSPlugInKitProxy, NSString, NSURL;
-
 @interface UnknownClass (CXCallDirectoryStoreMigrator)
 - (id);
 - (id);
@@ -14,17 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *containingAppURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isEnabledViaPlugInKit) _Bool enabledViaPlugInKit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedContainingAppName;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) LSPlugInKitProxy *plugInKitProxy;
-@property(readonly) Class superclass;
 @end
 

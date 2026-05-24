@@ -5,6 +5,7 @@
 //
 
 @protocol PILTransportProtocol
+- (id)1'*;
 
 // Remaining properties
 @property(readonly) unsigned int dutyCycle;

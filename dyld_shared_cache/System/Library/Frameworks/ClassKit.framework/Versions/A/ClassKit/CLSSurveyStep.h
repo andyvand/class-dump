@@ -9,16 +9,15 @@
 @interface CLSSurveyStep : CLSAbstractSurveyStep
 {
     long long _version;
-    long long _type;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)_destination;
+- (_Bool)esCheckPrivilegedVMAccess();
 - (long long);
-- (id);
+- (id);
 - (long long);
-- (void);
-- (void);
+- (void)das.bgongoingprocessing.internal;
+- (void)ty"8;
 - (void);
 
 @end

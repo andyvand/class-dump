@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)allowLongPressDDActivationOnly;
 + (void);
-- (void);
+- (void)rk/Versions/C/Foundation;
 
 @end
 

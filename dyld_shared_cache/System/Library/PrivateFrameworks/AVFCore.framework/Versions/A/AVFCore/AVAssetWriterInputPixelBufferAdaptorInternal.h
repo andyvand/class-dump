@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInput, AVKeyPathDependencyManager;
+@class AVAssetWriterInput;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputPixelBufferAdaptorInternal
 {
     AVAssetWriterInput *input;
-    AVKeyPathDependencyManager *keyPathDependencyManager;
 }
 
 @end

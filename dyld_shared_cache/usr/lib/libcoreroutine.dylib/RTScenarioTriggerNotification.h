@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)UserDB;
 - (void)ypassing WiFi check;
 
 // Remaining properties

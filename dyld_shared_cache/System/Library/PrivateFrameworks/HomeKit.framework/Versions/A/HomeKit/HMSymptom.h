@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface HMSymptom
 {
     long long _type;
-    NSDictionary *_infoDictionary;
 }
 
 + (_Bool);
@@ -19,13 +16,12 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)phototropic;
 - (void);
 - (id);
-- (void)ce;
+- (void)HMMediaGroupStagingManagerDataSource;
 
 // Remaining properties
-@property(readonly) NSDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

@@ -6,20 +6,9 @@
 
 #import <Geode/DGSmartOperation.h>
 
-@class PASmartColorAutoSettings;
-
 @interface DGSmartColorOperation : DGSmartOperation
 {
     double _inputColor;
-    struct {
-        double sat;
-        double contrast;
-        double cast;
-    } _smartSettings;
-    PASmartColorAutoSettings *_stats;
-    double _offsetSaturation;
-    double _offsetContrast;
-    double _offsetCast;
 }
 
 + (_Bool);
@@ -43,28 +32,22 @@
 - (double);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)kPXFeedbackUserDislikedDetailViewReasonNotSoInterestingSelectionOfPhotos;
+- (void)LemonadeMapCollectionConfiguration;
 - (void);
 - (double);
 - (double);
 - (void);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)9	A;
 - (id);
 - (void);
 - (void);
 - (id)$]3Ñ¿;
 
 // Remaining properties
-@property(nonatomic) double inputCast;
 @property(nonatomic) double inputColor; // @synthesize inputColor=_inputColor;
-@property(nonatomic) double inputContrast;
-@property(nonatomic) double inputSaturation;
-@property(nonatomic) double offsetCast; // @synthesize offsetCast=_offsetCast;
-@property(nonatomic) double offsetContrast; // @synthesize offsetContrast=_offsetContrast;
-@property(nonatomic) double offsetSaturation; // @synthesize offsetSaturation=_offsetSaturation;
 
 @end
 

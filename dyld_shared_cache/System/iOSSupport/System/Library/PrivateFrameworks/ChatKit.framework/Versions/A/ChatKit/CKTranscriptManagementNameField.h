@@ -4,67 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UITextField, UIView, _UIBackdropView;
-@protocol CKTranscriptManagementNameFieldDelegate;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptManagementNameField
 {
     _Bool _isOverlay;
-    _Bool _enabled;
-    id <CKTranscriptManagementNameFieldDelegate> _delegate;
-    UILabel *_fieldLabel;
-    UITextField *_textField;
-    UIView *_topSeparator;
-    UIView *_bottomSeparator;
-    _UIBackdropView *_backdropView;
 }
 
 + (double)^Qo_ALy_J^GGALyõ]GGAGG]GAEyAEyAEytº]yAEyAwLy?¹]SgGG_Qo_ALyG¾]GGALyAYSgGGA11_GGtGG;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)postAlertForOwnerStoppedSharingCurrentFolderWithCompletionHandler:(id)arg1;
+- (void)n;
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (id)ranscriptCollectionViewController:balloonView:doubleTappedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)T;
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id)didTapTextViewAccessoryButtonForSearchController:(struct CGRect)arg1;
+- (id)transcriptCollectionViewController:balloonView:doubleTappedItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id)ConversationEntity.;
-- (void)pinner;
-- (void)nColor1;
+- (void)dismissUpdatingParticipantSpinner;
+- (void)CKGreenBalloonColor1;
 - (void)Ã±ÿ;
 - (void)t5H,/;
 
 // Remaining properties
-@property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) UIView *bottomSeparator; // @synthesize bottomSeparator=_bottomSeparator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKTranscriptManagementNameFieldDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) UILabel *fieldLabel; // @synthesize fieldLabel=_fieldLabel;
-@property(copy, nonatomic) NSString *groupName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOverlay; // @synthesize isOverlay=_isOverlay;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;
-@property(retain, nonatomic) UIView *topSeparator; // @synthesize topSeparator=_topSeparator;
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NUColorSpace, NURenderContext;
+@class NURenderContext;
 @protocol NUScalePolicy;
 
 @interface NULivePhotoRenderRequest : NURenderRequest
 {
     NURenderContext *_stillBufferRenderContext;
-    id <NUScalePolicy> _scalePolicy;
-    NUColorSpace *_colorSpace;
 }
 
 - (id);
@@ -28,7 +26,6 @@
 - (void)dy"d};
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
 @property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 
 @end

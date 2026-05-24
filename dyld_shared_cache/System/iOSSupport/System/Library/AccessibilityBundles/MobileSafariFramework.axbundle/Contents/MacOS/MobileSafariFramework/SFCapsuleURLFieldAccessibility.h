@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)sName: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (long long);

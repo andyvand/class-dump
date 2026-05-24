@@ -5,5 +5,6 @@
 //
 
 @protocol AKAppleIDAuthenticationInAppContextPasswordDelegate
+- (void);
 @end
 

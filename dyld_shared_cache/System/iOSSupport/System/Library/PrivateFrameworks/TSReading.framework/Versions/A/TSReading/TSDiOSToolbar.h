@@ -9,15 +9,10 @@
 @interface TSDiOSToolbar
 {
     UIImage *mBackgroundImage;
-    _Bool mDrawsBackground;
-    double mShadowOpacity;
-    struct CGSize mShadowOffset;
-    double mShadowRadius;
-    double mShadowX;
 }
 
-- (void);
-- (void);
+- (void)OverrideHEAACPrimingEditList;
+- (void);
 - (double);
 - (void);
 - (void);
@@ -29,19 +24,14 @@
 - (id);
 - (void);
 - (void)RootNode>";
-- (_Bool)alVisibleInfosForCanvas: /* Error: Ran out of types for this method. */;
-- (struct CGSize)roperty;
+- (_Bool)additionalVisibleInfosForCanvas: /* Error: Ran out of types for this method. */;
+- (struct CGSize)TSCHChartSeriesDefaultErrorBarCustomNegativeDataScatterXProperty;
 - (double)ì-;
 - (void)½WVæ;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=mBackgroundImage;
-@property(nonatomic) _Bool drawsBackground; // @synthesize drawsBackground=mDrawsBackground;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=mShadowOffset;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=mShadowOpacity;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=mShadowRadius;
-@property(nonatomic) double shadowX; // @synthesize shadowX=mShadowX;
 
 @end
 

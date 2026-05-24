@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 {
     NSMutableArray *_capduRecord;
     NSMutableArray *_rapduRecord;
-    shared_ptr_cb233480 _fSeController;
 }
 
 - (void);
@@ -21,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (shared_ptr_cb233480);
+- (shared_ptr_dcdad3b6);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (long long);
@@ -40,8 +39,7 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *capduRecord; // @synthesize capduRecord=_capduRecord;
-@property(nonatomic) shared_ptr_cb233480 fSeController; // @synthesize fSeController=_fSeController;
-@property(retain, nonatomic) NSMutableArray *rapduRecord; // @synthesize rapduRecord=_rapduRecord;
+@property(nonatomic) shared_ptr_dcdad3b6 fSeController; // @synthesize fSeController=_fSeController;
 
 @end
 

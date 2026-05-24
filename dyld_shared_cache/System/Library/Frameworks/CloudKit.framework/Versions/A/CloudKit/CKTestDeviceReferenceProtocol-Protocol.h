@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol CKTestServerReferenceProtocol;
 
 @protocol CKTestDeviceReferenceProtocol
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *deviceID;
-@property(readonly, nonatomic) id <CKTestServerReferenceProtocol> serverReferenceProtocol;
 @end
 

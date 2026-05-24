@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)asMessagesAfter: /* Error: Ran out of types for this method. */;
+- (void)setLatestSyncToken:(id)arg1 forSyncType: /* Error: Ran out of types for this method. */;
+- (void)t steps for SMS Relay;
+- (void)D;
 - (_Bool)1Â0@ù
 × ;
-- (id)ew_TV;
+- (id)_UITabBarContainerView_TV;
 
 @end
 

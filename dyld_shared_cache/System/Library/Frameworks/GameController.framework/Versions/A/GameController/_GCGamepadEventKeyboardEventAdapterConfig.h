@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

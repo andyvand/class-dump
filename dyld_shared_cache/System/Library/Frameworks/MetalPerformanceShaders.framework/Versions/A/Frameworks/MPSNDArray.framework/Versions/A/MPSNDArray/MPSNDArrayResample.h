@@ -9,14 +9,10 @@
 @interface MPSNDArrayResample : MPSNDArrayUnaryKernel
 {
     struct MPSScaleTransform _transformStorage;
-    struct MPSScaleTransform *_scaleTransform;
-    unsigned int _resampleMode;
-    unsigned int _dataFormat;
-    unsigned int _nearestMode;
 }
 
-+ (const struct MPSLibraryInfo *);
-- (void);
++ (const struct MPSLibraryInfo *);
+- (void);
 - (void);
 - (const struct MPSScaleTransform *);
 - (unsigned int);
@@ -31,9 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) unsigned int nearestMode; // @synthesize nearestMode=_nearestMode;
-@property(nonatomic) unsigned int resampleMode; // @synthesize resampleMode=_resampleMode;
 @property(nonatomic) const struct MPSScaleTransform *scaleTransform; // @synthesize scaleTransform=_scaleTransform;
 
 @end

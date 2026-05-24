@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (BridgeOSSoftwareUpdateStateAdditions)
-- (id);
+- (id)itTransitionProvider>";
 @end
 

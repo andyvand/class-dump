@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFontMetrics;
+@class UIFontMetrics;
 
 @interface AXDynamicTypeImageView
 {
     UIFontMetrics *_fontMetrics;
-    NSString *_minimumContentSizeCategory;
-    NSString *_maximumContentSizeCategory;
 }
 
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (void)q;
+- (id)#o;
+- (id)#o;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id)__objc_protolist__DATA_CONST;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIFontMetrics *fontMetrics; // @synthesize fontMetrics=_fontMetrics;
-@property(copy, nonatomic) NSString *maximumContentSizeCategory; // @synthesize maximumContentSizeCategory=_maximumContentSizeCategory;
-@property(copy, nonatomic) NSString *minimumContentSizeCategory; // @synthesize minimumContentSizeCategory=_minimumContentSizeCategory;
 
 @end
 

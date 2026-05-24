@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAttributeValueView, NSString, UIView;
+@class UIView;
 
 @interface AVTAttributeCollectionViewCell
 {
     CDUnknownBlockType discardableContentHandler;
-    UIView *_attributeView;
 }
 
 + (id);
@@ -21,19 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)16@24@32;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *attributeView; // @synthesize attributeView=_attributeView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discardableContentHandler; // @synthesize discardableContentHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVTAttributeValueView *valueView;
 
 @end
 

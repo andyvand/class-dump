@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UIPlatterContainerView : UIView
 {
     UIView *_updatedTargetWrapper;
-    _UIPlatterView *_source;
-    _UIPlatterView *_target;
-    _UIPlatterView *_updatedTarget;
-    UIView *_platterContentView;
 }
 
 - (id);
@@ -23,23 +19,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)downloadAttachmentAssetsWithActivity:(struct CGAffineTransform)arg1 restoringAttachments:(struct CGSize)arg2;
+- (void)displayNameWithCNNickNameOrFullNameOrCompanyNameOrAbbreviatedForContact:(double)arg1;
+- (void)_shouldEarlyReturnForWrongItemType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)ithTitle:(id)arg1 image:action:propertyList: /* Error: Ran out of types for this method. */;
-- (void)systemPointerStyle;
-- (id)dgeBarButtonItem:(struct CGRect)arg1;
+- (void)commandWithTitle:(id)arg1 image:action:propertyList: /* Error: Ran out of types for this method. */;
+- (void)_systemPointerStyle;
+- (id)_handleSecondaryEdgeBarButtonItem:(struct CGRect)arg1;
 - (id)nEditingBegins;
-- (void)ssoryViewController:(struct CGRect)arg1;
+- (void)_removeAccessoryViewController:(struct CGRect)arg1;
 - (void)S;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *platterContentView; // @synthesize platterContentView=_platterContentView;
 @property(retain, nonatomic) _UIPlatterView *source; // @synthesize source=_source;
-@property(retain, nonatomic) _UIPlatterView *target; // @synthesize target=_target;
-@property(retain, nonatomic) _UIPlatterView *updatedTarget; // @synthesize updatedTarget=_updatedTarget;
 
 @end
 

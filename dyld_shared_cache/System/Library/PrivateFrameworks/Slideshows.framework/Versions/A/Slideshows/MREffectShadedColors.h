@@ -11,14 +11,12 @@
 @interface MREffectShadedColors : MREffect
 {
     MRCroppingSprite *_sprite;
-    float _primaryColor[4];
-    float _secondaryColor[4];
 }
 
 + (void)\";
-- (void);
+- (void)FCNewsAppConfigurationManager;
 - (_Bool);
-- (_Bool);
+- (_Bool)uildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (id);
 - (void);
 - (void);

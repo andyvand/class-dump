@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDClientRankingFeatureUnit, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVariableExponentPair
 {
     PBUnknownFields *_unknownFields;
-    GEOPDClientRankingFeatureUnit *_variable;
-    unsigned int _exponent;
-    struct {
-        unsigned int has_exponent:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)tocol"16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)@24@32I40@44@52;
-- (id)ortTrafficString;
+- (id)_shortTrafficString;
 - (id)=8>Ô>?L@0F¬F;
 - (void);
 

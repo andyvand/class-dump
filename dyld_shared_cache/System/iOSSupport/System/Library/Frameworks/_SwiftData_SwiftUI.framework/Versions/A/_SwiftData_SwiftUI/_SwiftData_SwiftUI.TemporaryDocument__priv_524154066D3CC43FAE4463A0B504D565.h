@@ -8,11 +8,6 @@
 {
     id tempDirectory;
     id document;
-    id $__lazy_storage_$_project;
-    id databaseName;
-    id removed;
-    id fileManager;
-    id documentName;
 }
 
 @end

@@ -6,17 +6,15 @@
 
 #import <ReminderKit/_REMFetchExecutor.h>
 
-@class NSArray, REMListPredicateDescriptor;
+@class REMListPredicateDescriptor;
 
 @interface REMListFetchExecutor : _REMFetchExecutor
 {
     REMListPredicateDescriptor *_predicateDescriptor;
-    NSArray *_sortDescriptors;
-    unsigned long long _options;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -32,9 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(retain, nonatomic) REMListPredicateDescriptor *predicateDescriptor; // @synthesize predicateDescriptor=_predicateDescriptor;
-@property(retain, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

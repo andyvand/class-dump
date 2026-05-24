@@ -11,7 +11,6 @@
 @interface FCNewsTabiTagCohortMembershipConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiTagCohortMembershipOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiTagCohortMembershipOutputConfiguration *_nonBundleOutputConfiguration;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiTagCohortMembershipOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiTagCohortMembershipOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

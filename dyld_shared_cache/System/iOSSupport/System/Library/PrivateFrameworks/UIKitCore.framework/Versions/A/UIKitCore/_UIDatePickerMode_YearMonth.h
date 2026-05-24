@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)holdBuddyUpdatesAccount:(unsigned long long)arg1;
+- (unsigned long long)historyQuery:(unsigned long long)arg1 chatID:services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
+- (id)?;
 
 @end
 

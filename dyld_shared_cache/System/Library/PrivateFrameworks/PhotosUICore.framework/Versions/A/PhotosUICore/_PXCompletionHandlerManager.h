@@ -10,10 +10,9 @@
 @interface _PXCompletionHandlerManager
 {
     NSMutableArray *_completionHandlers;
-    id <_PXCompletionHandlerManagerDelegate> _delegate;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);

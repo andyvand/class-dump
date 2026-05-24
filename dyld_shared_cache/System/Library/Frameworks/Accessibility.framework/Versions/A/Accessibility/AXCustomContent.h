@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface AXCustomContent
 {
     NSString *_label;
-    NSAttributedString *_attributedLabel;
-    NSString *_value;
-    NSAttributedString *_attributedValue;
-    unsigned long long _importance;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
++ (id)DisallowedCoreStorageOperationsForLogicalVolumeDisk:(id)arg1 error:(id)arg2 ];
++ (id)RootVolume=%d;
++ (_Bool)_processGradingDataFetchCommandWithRequest:ofLogType:fromSenderID:withReply: /* Error: Ran out of types for this method. */;
+- (void)of %s blocked by dissenter PID=%d (%s) PPID=%d (%s) status=0x%08x (%@);
+- (void)Error=%d;
+- (void)(Info) isAPFSVolumeDisk:(id)arg1 error:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)PasswdReqToUnlock=%d;
+- (id)t all, so no error, and result, and stop;
+- (id)ven UUID not related to CS at all, so no error, and result, and stop;
+- (void)ngerBrotherInLaw>!$_;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)T*;
 - (id);
 - (id);
 - (_Bool);
@@ -34,14 +30,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)dnBԥNn%;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedLabel; // @synthesize attributedLabel=_attributedLabel;
-@property(copy, nonatomic) NSAttributedString *attributedValue; // @synthesize attributedValue=_attributedValue;
-@property(nonatomic) unsigned long long importance; // @synthesize importance=_importance;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

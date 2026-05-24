@@ -9,9 +9,6 @@
 @interface MSServerEvaluationStatus : MapsSync.MapsSyncObject
 {
     id _arpStatus;
-    id _positionIndex;
-    id _rapStatus;
-    id _reliabilityStatus;
 }
 
 + (Class);
@@ -22,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool arpStatus;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic) _Bool rapStatus;
-@property(nonatomic) _Bool reliabilityStatus;
 
 @end
 

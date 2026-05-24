@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCTaskHandlerOperation, NSDate, NSOperationQueue;
-@protocol MCHandlerDelegate;
+@class MCTaskHandlerOperation;
 
 @interface MCTaskHandler
 {
     MCTaskHandlerOperation *_operation;
-    _Bool _isCleaningUp;
-    id <MCHandlerDelegate> _delegate;
-    long long _priority;
-    NSDate *_cancelTime;
-    NSOperationQueue *_queue;
 }
 
 + (id);
@@ -27,28 +21,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)(6;
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)@;
 - (id);
 - (void);
+- (void);
 - (id);
-- (long long)tactWithPersonNameComponents: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (void);
+- (id);
+- (long long)em_contactWithPersonNameComponents: /* Error: Ran out of types for this method. */;
+- (void)disallowUsersToLoadRemoteContent;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *cancelTime; // @synthesize cancelTime=_cancelTime;
-@property(nonatomic) __weak id <MCHandlerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool isCleaningUp; // @synthesize isCleaningUp=_isCleaningUp;
-@property(retain, nonatomic) MCTaskHandlerOperation *operation;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) long long qualityOfService;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSOperationQueue *serializationQueue;
 
 @end
 

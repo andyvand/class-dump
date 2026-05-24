@@ -9,7 +9,6 @@
 @interface FCCurrentAudioContent
 {
     NSArray *_recentHeadlines;
-    NSArray *_featuredHeadlines;
 }
 
 - (id);

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBusTrip, _INPBReservation, _INPBSeat;
+@class _INPBBusTrip;
 
 @interface _INPBBusReservation
 {
     struct _has;
-    _INPBBusTrip *_busTrip;
-    _INPBReservation *_reservation;
-    _INPBSeat *_reservedSeat;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,30 +21,18 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)eTriggersComponent>";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)AutoAssetSelector";
+- (void)orewifi] [bbh] Broken backhaul indicated (state=%{public}@) for '%{public}@', triggering auto-join;
 - (id);
 - (id);
-- (void)gWorkout;
+- (void)INEndWorkoutIntentResponseCodeFailureNoMatchingWorkout;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBusTrip *busTrip; // @synthesize busTrip=_busTrip;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBusTrip;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly) Class superclass;
 
 @end
 

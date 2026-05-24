@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSNumber, PLEntry, PLEntryNotificationOperatorComposition, PLStateTrackingComposition, PLTimer;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLSMCAgent
 {
     PLEntryNotificationOperatorComposition *_sbc;
-    PLEntryNotificationOperatorComposition *_screenStateNotification;
-    PLStateTrackingComposition *_stateTracker;
-    NSDictionary *_lastAccumlatedKeysSample;
-    NSDictionary *_lastAccumlatedKeysSampleCA;
-    NSDictionary *_lastDisplayAccumlatedSample;
-    NSDate *_lastDisplayAccumulatedSampleEndDate;
-    NSDictionary *_lastThermalAccumlatedSample;
-    NSNumber *_lastThermalPressureValue;
-    NSNumber *_lastFanNoiseValue;
-    PLTimer *_powerDeliveryTimer;
-    PLEntryNotificationOperatorComposition *_focalAppSwitch;
-    NSDate *_lastFocalSampleDate;
-    PLTimer *_focalSwitchFilterTimer;
-    PLTimer *_thermalAggregationTimer;
-    PLTimer *_thermalMonitorTimer;
-    PLTimer *_thermalLoggingTimer;
-    PLEntry *_lastThermalInstantEntry;
-    NSDictionary *_lastPowerAccumlatedSample;
-    NSDictionary *_lastPowerAccumlatedSampleCA;
-    NSMutableDictionary *_lastAccumValueDict;
-    NSMutableDictionary *_lastAccumCycleCountDict;
-    CDStruct_0d88ef11 *_smcConnection;
-    PLEntryNotificationOperatorComposition *_luxEntryNotification;
-    NSNumber *_currentLux;
 }
 
 + (id);
@@ -43,17 +19,17 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)$;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void)ns;
++ (void)FTOUCH_INRT_Transitions;
 - (_Bool);
 - (id);
 - (id);
@@ -70,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,25 +60,25 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -111,7 +87,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -126,7 +102,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (const struct SMCAccumChannelInfo *);
 - (_Bool);
@@ -137,37 +113,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void),&,V_lastDCPScanoutHistLogTime;
 - (void)context;
 
 // Remaining properties
-@property(retain) NSNumber *currentLux; // @synthesize currentLux=_currentLux;
-@property(retain) PLEntryNotificationOperatorComposition *focalAppSwitch; // @synthesize focalAppSwitch=_focalAppSwitch;
-@property(retain) PLTimer *focalSwitchFilterTimer; // @synthesize focalSwitchFilterTimer=_focalSwitchFilterTimer;
-@property(retain) NSMutableDictionary *lastAccumCycleCountDict; // @synthesize lastAccumCycleCountDict=_lastAccumCycleCountDict;
-@property(retain) NSMutableDictionary *lastAccumValueDict; // @synthesize lastAccumValueDict=_lastAccumValueDict;
-@property(retain) NSDictionary *lastAccumlatedKeysSample; // @synthesize lastAccumlatedKeysSample=_lastAccumlatedKeysSample;
-@property(retain) NSDictionary *lastAccumlatedKeysSampleCA; // @synthesize lastAccumlatedKeysSampleCA=_lastAccumlatedKeysSampleCA;
-@property(retain) NSDictionary *lastDisplayAccumlatedSample; // @synthesize lastDisplayAccumlatedSample=_lastDisplayAccumlatedSample;
-@property(retain) NSDate *lastDisplayAccumulatedSampleEndDate; // @synthesize lastDisplayAccumulatedSampleEndDate=_lastDisplayAccumulatedSampleEndDate;
-@property(retain) NSNumber *lastFanNoiseValue; // @synthesize lastFanNoiseValue=_lastFanNoiseValue;
-@property(retain) NSDate *lastFocalSampleDate; // @synthesize lastFocalSampleDate=_lastFocalSampleDate;
-@property(retain) NSDictionary *lastPowerAccumlatedSample; // @synthesize lastPowerAccumlatedSample=_lastPowerAccumlatedSample;
-@property(retain) NSDictionary *lastPowerAccumlatedSampleCA; // @synthesize lastPowerAccumlatedSampleCA=_lastPowerAccumlatedSampleCA;
-@property(retain) NSDictionary *lastThermalAccumlatedSample; // @synthesize lastThermalAccumlatedSample=_lastThermalAccumlatedSample;
-@property(retain) PLEntry *lastThermalInstantEntry; // @synthesize lastThermalInstantEntry=_lastThermalInstantEntry;
-@property(retain) NSNumber *lastThermalPressureValue; // @synthesize lastThermalPressureValue=_lastThermalPressureValue;
-@property(retain) PLEntryNotificationOperatorComposition *luxEntryNotification; // @synthesize luxEntryNotification=_luxEntryNotification;
-@property(retain) PLTimer *powerDeliveryTimer; // @synthesize powerDeliveryTimer=_powerDeliveryTimer;
 @property(retain) PLEntryNotificationOperatorComposition *sbc; // @synthesize sbc=_sbc;
-@property(retain) PLEntryNotificationOperatorComposition *screenStateNotification; // @synthesize screenStateNotification=_screenStateNotification;
-@property CDStruct_0d88ef11 *smcConnection; // @synthesize smcConnection=_smcConnection;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
-@property(retain) PLTimer *thermalAggregationTimer; // @synthesize thermalAggregationTimer=_thermalAggregationTimer;
-@property(retain) PLTimer *thermalLoggingTimer; // @synthesize thermalLoggingTimer=_thermalLoggingTimer;
-@property(retain) PLTimer *thermalMonitorTimer; // @synthesize thermalMonitorTimer=_thermalMonitorTimer;
 
 @end
 

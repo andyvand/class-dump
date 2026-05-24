@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSString;
 
 @interface ASDAudioDeviceDSPConfiguration
 {
     NSString *_name;
-    NSSet *_underlyingDeviceProperties;
-    NSSet *_dspDeviceProperties;
-    NSArray *_inputDSP;
-    NSArray *_outputDSP;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,11 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *dspDeviceProperties; // @synthesize dspDeviceProperties=_dspDeviceProperties;
-@property(readonly, nonatomic) NSArray *inputDSP; // @synthesize inputDSP=_inputDSP;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *outputDSP; // @synthesize outputDSP=_outputDSP;
-@property(readonly, nonatomic) NSSet *underlyingDeviceProperties; // @synthesize underlyingDeviceProperties=_underlyingDeviceProperties;
 
 @end
 

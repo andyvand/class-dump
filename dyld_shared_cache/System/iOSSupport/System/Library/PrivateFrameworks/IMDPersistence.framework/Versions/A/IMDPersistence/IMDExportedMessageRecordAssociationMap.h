@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface IMDExportedMessageRecordAssociationMap
 {
     id guid;
-    id associatedMessageID;
-    id threadOriginatorMessageID;
-    id chatID;
-    id handleID;
-    id attachmentIDs;
 }
 
 + (_Bool);
@@ -26,16 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id)tQueriesGroupNameAndPhotoHelper;
+- (id)_TtC14IMDPersistence37IMDChatQueriesGroupNameAndPhotoHelper;
 - (void), we found attachment guid:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *associatedMessageID;
-@property(nonatomic, readonly) NSArray *attachmentIDs;
-@property(nonatomic, readonly) NSNumber *chatID;
 @property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) NSNumber *handleID;
-@property(nonatomic, readonly) NSNumber *threadOriginatorMessageID;
 
 @end
 

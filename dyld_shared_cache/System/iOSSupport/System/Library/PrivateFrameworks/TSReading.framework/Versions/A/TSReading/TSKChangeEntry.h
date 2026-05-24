@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface TSKChangeEntry
 {
     id mChangeSource;
-    NSMutableArray *mChanges;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id changeSource; // @synthesize changeSource=mChangeSource;
-@property(readonly, nonatomic) NSMutableArray *changes; // @synthesize changes=mChanges;
 
 @end
 

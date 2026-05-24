@@ -11,19 +11,19 @@
     NSMutableDictionary *_dictionary;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)initWithSubtype:(id)arg1 deviceProvisioningDataExpected: /* Error: Ran out of types for this method. */;
++ (id)initWithStartDate:endDate:currencyCode:onePercentTotal:twoPercentTotal:threePercentTotal:specialTotal: /* Error: Ran out of types for this method. */;
++ (id)initWithSessionIdentifier:(id)arg1 group: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)MultiPart;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ctivation.handle.begin;
 - (id);
 - (id);
 - (long long);

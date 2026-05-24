@@ -9,22 +9,20 @@
 @interface MPSPredicate
 {
     id <MTLBuffer> _predicateBuffer;
-    unsigned long long _predicateOffset;
 }
 
-+ (id);
++ (id)Lb;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)j;
 - (void);
 - (id);
-- (id);
+- (id)/libSystem.B.dylib;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <MTLBuffer> predicateBuffer; // @synthesize predicateBuffer=_predicateBuffer;
-@property(readonly, nonatomic) unsigned long long predicateOffset; // @synthesize predicateOffset=_predicateOffset;
 
 @end
 

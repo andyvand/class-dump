@@ -6,12 +6,11 @@
 
 #import <CommerceKit/CKServiceInterface.h>
 
-@class CKSoftwareMapObserver, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CKSoftwareMap : CKServiceInterface
 {
     NSMutableDictionary *_productsObservers;
-    CKSoftwareMapObserver *_sharedObserver;
 }
 
 + (id);
@@ -26,21 +25,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)blic}@;
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *productsObservers; // @synthesize productsObservers=_productsObservers;
-@property(retain, nonatomic) CKSoftwareMapObserver *sharedObserver; // @synthesize sharedObserver=_sharedObserver;
 
 @end
 

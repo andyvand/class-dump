@@ -17,10 +17,10 @@
 + (struct CGRect);
 + (struct CGSize);
 + (double);
-+ (struct CGRect);
++ (struct CGRect)fetchQueue;
 + (double);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize)gnss_use_beidou_b2a_measurements;
 + (struct CGRect);
 + (double);
 + (double);

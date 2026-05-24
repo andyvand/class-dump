@@ -7,6 +7,7 @@
 @protocol CALNTravelEngineDelegate;
 
 @protocol CALNTravelEngine
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CALNTravelEngineDelegate> delegate;

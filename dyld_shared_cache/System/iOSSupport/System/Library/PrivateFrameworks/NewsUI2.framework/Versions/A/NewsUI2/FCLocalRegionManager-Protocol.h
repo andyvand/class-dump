@@ -5,6 +5,7 @@
 //
 
 @protocol FCLocalRegionManager
+- (void);
 - (void)vity educational alert;
 @end
 

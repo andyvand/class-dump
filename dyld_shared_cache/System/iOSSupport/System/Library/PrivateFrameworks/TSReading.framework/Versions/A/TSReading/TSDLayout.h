@@ -6,40 +6,25 @@
 
 #import <TSReading/TSDAbstractLayout.h>
 
-@class NSMutableSet, NSObject, NSSet, NSString, TSDLayoutGeometry;
+@class NSObject;
 @protocol TSDInfo;
 
 @interface TSDLayout : TSDAbstractLayout
 {
     NSObject<TSDInfo> *mInfo;
-    int mLayoutState;
-    struct CGPoint mBaseAlignmentFrameOriginForFixingInterimPosition;
-    struct CGPoint mBaseCapturedAlignmentFrameOriginForInline;
-    struct CGRect mDirtyRect;
-    struct {
-        unsigned int position:1;
-        unsigned int size:1;
-    } mInvalidFlags;
-    TSDLayoutGeometry *mBaseGeometry;
-    struct CGRect mInitialBoundsForStandardKnobs;
-    struct CGPoint mCapturedInfoGeometryPositionForInline;
-    struct CGPoint mCapturedAlignmentFrameOriginForInline;
-    NSMutableSet *mConnectedLayouts;
-    _Bool mHasFinishedIterativePositioning;
-    id mIterativePositioningState;
 }
 
-+ (id);
++ (id);
+- (void)r resetting all tasks - ;
+- (void)[AVAudioSession setCategory:(id)arg1;
+- (void)ive:(id)arg1 false] completed activationToken: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)OverrideHEAACPrimingEditList;
+- (void)AVPlayerItemTimeJumpedReasonChangeInCoordinatedPlaybackTiming;
+- (void)tems keepCurrentItem=;
+- (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)}=;
 - (void);
 - (void);
 - (void);
@@ -50,25 +35,25 @@
 - (void);
 - (struct CGRect);
 - (struct CGAffineTransform);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (id);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
-- (struct CGAffineTransform);
-- (void);
+- (struct CGAffineTransform);
+- (void)N;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -81,14 +66,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (struct CGPoint);
@@ -119,7 +104,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (Class);
@@ -129,7 +114,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)uu;
 - (id);
 - (id);
 - (id);
@@ -137,19 +122,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)ӳ;
 - (id);
 - (id);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)ScrollANFArticleLongreadAdsDisabled;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)paymentQueue:shouldContinueTransaction:inStorefront: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (id);
@@ -158,25 +143,7 @@
 - (void)Õ[;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool attachmentLayoutDisplacedByDropCap;
-@property(readonly, nonatomic) _Bool canAspectRatioLockBeChangedByUser;
-@property(readonly, nonatomic) NSSet *connectedLayouts; // @synthesize connectedLayouts=mConnectedLayouts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) TSDLayoutGeometry *dynamicGeometry;
-@property(readonly, nonatomic) _Bool hasFinishedIterativePositioning; // @synthesize hasFinishedIterativePositioning=mHasFinishedIterativePositioning;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<TSDInfo> *info; // @synthesize info=mInfo;
-@property(readonly, nonatomic) _Bool invalidGeometry;
-@property(readonly, nonatomic) _Bool isStrokeBeingManipulated;
-@property(retain, nonatomic) id iterativePositioningState; // @synthesize iterativePositioningState=mIterativePositioningState;
-@property(readonly, nonatomic) int layoutState; // @synthesize layoutState=mLayoutState;
-@property(readonly, nonatomic) TSDLayoutGeometry *originalGeometry; // @synthesize originalGeometry=mBaseGeometry;
-@property(readonly, nonatomic) _Bool resizeMayChangeAspectRatio;
-@property(readonly) Class superclass;
 
 @end
 

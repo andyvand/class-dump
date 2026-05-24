@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionClient, NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CMIOExtensionProviderProperties
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_propertiesDictionary;
-    CMIOExtensionClient *_client;
 }
 
 + (id);
 - (void);
 - (id);
+- (void)directMessageConnection;
 - (void);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)Mibps;
 - (void);
 - (id)s_drawn_in_frame_buffer;
 
 // Remaining properties
-@property(retain) NSString *manufacturer;
 @property(retain) NSString *name;
-@property(copy) NSDictionary *propertiesDictionary;
 
 @end
 

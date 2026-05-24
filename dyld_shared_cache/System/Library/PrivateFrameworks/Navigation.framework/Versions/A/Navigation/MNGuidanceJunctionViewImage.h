@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MNGuidanceJunctionViewImage
 {
     unsigned long long _imageID;
-    NSData *_imageData;
 }
 
 + (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)allocate tailspin connection;
 - (id);
-- (void);
+- (void)MMCSCPinSetupViewController;
 - (void)y"32i40@"NSString"44i52Q56B64;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(readonly, nonatomic) unsigned long long imageID; // @synthesize imageID=_imageID;
 
 @end

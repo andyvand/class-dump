@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AFHomeAccessoryInfo
 {
     _Bool _isSpeaker;
-    _Bool _hasActiveThirdPartyMusicSubscription;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_loggingUniqueIdentifier;
-    NSString *_name;
-    NSString *_model;
-    NSString *_roomName;
-    NSString *_assistantIdentifier;
-    NSString *_manufacturer;
-    NSString *_categoryType;
-    long long _schemaCategoryType;
 }
 
-+ (id);
++ (id)=#;
 + (_Bool);
 - (long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ring",&,N,V_network;
 - (id);
 - (id);
 - (id);
@@ -40,35 +30,18 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)om.apple.Messages.IMMetricsCollectorEventPhotoStackSelected;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)itWithObject: /* Error: Ran out of types for this method. */;
-- (id)RL;
+- (void)initWithObject: /* Error: Ran out of types for this method. */;
+- (id)AFClockAlarm::alarmURL /* Error: Ran out of types for this method. */;
 - (id)eIf
 ;
 - (id)°Mêÿ41dxû
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(readonly, copy, nonatomic) NSString *categoryType; // @synthesize categoryType=_categoryType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasActiveThirdPartyMusicSubscription; // @synthesize hasActiveThirdPartyMusicSubscription=_hasActiveThirdPartyMusicSubscription;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSpeaker; // @synthesize isSpeaker=_isSpeaker;
-@property(readonly, copy, nonatomic) NSUUID *loggingUniqueIdentifier; // @synthesize loggingUniqueIdentifier=_loggingUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(readonly, nonatomic) long long schemaCategoryType; // @synthesize schemaCategoryType=_schemaCategoryType;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

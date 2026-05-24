@@ -9,8 +9,6 @@
 @interface HMIPersonsModelsSummary
 {
     NSSet *_modelSummaries;
-    unsigned long long _homeToExternalEquivalencies;
-    unsigned long long _externalToExternalEquivalencies;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long externalToExternalEquivalencies; // @synthesize externalToExternalEquivalencies=_externalToExternalEquivalencies;
-@property(readonly) unsigned long long homeToExternalEquivalencies; // @synthesize homeToExternalEquivalencies=_homeToExternalEquivalencies;
 @property(readonly) NSSet *modelSummaries; // @synthesize modelSummaries=_modelSummaries;
 
 @end

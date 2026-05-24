@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)"16;
 + (void);
-- (_Bool);
+- (_Bool)_INIntentClass;
 - (unsigned long long);
 - (id);
 

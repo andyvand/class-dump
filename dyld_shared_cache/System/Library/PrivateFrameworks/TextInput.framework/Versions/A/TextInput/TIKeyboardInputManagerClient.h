@@ -14,12 +14,12 @@
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)led;
 - (id);
 - (_Bool);
+- (void)E;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)12length_error;
 - (id);
 - (id);
 - (_Bool)(K@8A;

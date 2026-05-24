@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol _INPBIntentType
-- (_Bool)nunciationHintKey;
+- (NSString *);
+- (_Bool)__INCodableEnumPronunciationHintKey;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasType;
 @property(copy, nonatomic) NSString *type;
 @end
 

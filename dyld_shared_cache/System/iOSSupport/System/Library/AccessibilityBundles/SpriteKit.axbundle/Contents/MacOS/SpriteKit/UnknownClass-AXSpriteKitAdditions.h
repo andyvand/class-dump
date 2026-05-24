@@ -12,6 +12,9 @@
 - (id);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: AXSpriteKitAdditions
+// Property attributes: (null)
+
 @property(retain, nonatomic) NSArray *accessibilitySpriteKitChildElements;
 @end
 

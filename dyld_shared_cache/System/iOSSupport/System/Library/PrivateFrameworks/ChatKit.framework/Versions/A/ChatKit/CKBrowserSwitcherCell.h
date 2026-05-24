@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSnapshotCacheKey, IMBalloonPlugin, UIView;
+@class UIView;
 
 @interface CKBrowserSwitcherCell
 {
     _Bool _usingFallbackSnapshot;
-    IMBalloonPlugin *_plugin;
-    UIView *_browserSnapshotView;
-    UIView *_extensionInterruptedView;
-    CKSnapshotCacheKey *_snapshotCacheKey;
 }
 
 - (id);
+- (void)a;
 - (void);
+- (void)_currentRecordingManager;
+- (void)teCGGSo0aB2IDCG;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)ableData;
+- (id)[ICAirDropDocument(LegacyUI) webArchiveFromLegacyNoteDocument];
 - (id);
 - (id);
 - (void);
@@ -37,10 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIView *browserSnapshotView; // @synthesize browserSnapshotView=_browserSnapshotView;
-@property(retain, nonatomic) UIView *extensionInterruptedView; // @synthesize extensionInterruptedView=_extensionInterruptedView;
-@property(retain, nonatomic) IMBalloonPlugin *plugin; // @synthesize plugin=_plugin;
-@property(retain, nonatomic) CKSnapshotCacheKey *snapshotCacheKey; // @synthesize snapshotCacheKey=_snapshotCacheKey;
-@property(nonatomic, getter=isUsingFallbackSnapshot) _Bool usingFallbackSnapshot; // @synthesize usingFallbackSnapshot=_usingFallbackSnapshot;
 
 @end
 

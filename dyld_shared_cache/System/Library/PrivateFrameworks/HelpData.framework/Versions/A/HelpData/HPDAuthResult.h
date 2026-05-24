@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface HPDAuthResult
 {
     NSString *_username;
-    NSString *_acSSOToken;
-    NSString *_oidcToken;
-    NSError *_error;
 }
 
 + (id);
@@ -25,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *acSSOToken; // @synthesize acSSOToken=_acSSOToken;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSString *oidcToken; // @synthesize oidcToken=_oidcToken;
 @property(readonly) NSString *username; // @synthesize username=_username;
 
 @end

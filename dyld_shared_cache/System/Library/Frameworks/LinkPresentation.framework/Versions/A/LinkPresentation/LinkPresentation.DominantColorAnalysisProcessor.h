@@ -7,15 +7,6 @@
 @interface LinkPresentation.DominantColorAnalysisProcessor
 {
     id imageHSVMap;
-    id averageLuminance;
-    id colorCounts;
-    id sortedColorCounts;
-    id context;
-    id numberOfSlicesForAnalysis;
-    id $__lazy_storage_$_outerEdgeCutoff;
-    id $__lazy_storage_$_slicesIterationCount;
-    id dominantColors;
-    id backgroundColor;
 }
 
 @end

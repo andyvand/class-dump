@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceDispatchQueue, BSServiceQueue, FBSSceneHostHandle, FBSWorkspace, FBSWorkspaceScenesClientIdentifier, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol FBSWorkspaceDelegate, FBSWorkspaceServiceClientInterface, NSCopying;
+@class FBSWorkspace, NSObject;
+@protocol NSCopying;
 
 @interface FBSWorkspaceScenesClient
 {
     FBSWorkspace *_workspace;
-    id <FBSWorkspaceDelegate> _workspaceDelegate;
-    BSServiceDispatchQueue *_queue;
-    BSServiceQueue *_callOutQueue;
-    BSServiceConnection *_connection;
-    FBSWorkspaceScenesClientIdentifier *_identifier;
-    NSMutableDictionary *_scenesByIdentity;
-    NSMutableDictionary *_clientSettingsByIdentity;
-    NSHashTable *_reconnectingScenes;
-    NSMutableArray *_pendedSendBlocks;
-    NSMutableArray *_hostEvent_pendingEvents;
-    FBSSceneHostHandle *_hostHandle;
-    id <FBSWorkspaceServiceClientInterface> _handshakeLock_remoteTarget;
-    NSMutableDictionary *_reportingLock_scenesByIdentity;
-    struct os_unfair_lock_s _handshakeLock;
-    struct os_unfair_lock_s _reportingLock;
-    struct os_unfair_lock_s _hostEventLock;
-    _Bool _activated;
-    _Bool _invalidated;
 }
 
 - (void);
+- (oneway void)h;
+- (void);
 - (oneway void);
 - (void);
-- (oneway void);
 - (void);
 - (void);
-- (void);
-- (oneway void);
+- (oneway void)[;
 - (id);
 - (oneway void);
 - (oneway void);
@@ -48,26 +30,19 @@
 - (void);
 - (void);
 - (id);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)Ĝ;
 - (id)
 × ;
-- (id)linePrefix;
+- (id)activeMultilinePrefix;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<NSCopying> *identifier;
-@property(readonly) Class superclass;
 
 @end
 

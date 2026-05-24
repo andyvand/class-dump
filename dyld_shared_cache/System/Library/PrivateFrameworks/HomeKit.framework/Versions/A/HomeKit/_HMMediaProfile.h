@@ -6,18 +6,15 @@
 
 #import <HomeKit/_HMAccessoryProfile.h>
 
-@class HMMediaSession, NSString;
+@class HMMediaSession;
 @protocol _HMMediaProfileDelegate;
 
 @interface _HMMediaProfile : _HMAccessoryProfile
 {
     HMMediaSession *_mediaSession;
-    NSString *_routeUID;
-    unsigned long long _capability;
-    id <_HMMediaProfileDelegate> _delegate;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
@@ -34,10 +31,7 @@
 - (void)nfo",&,N,V_primaryResidentDiagnosticInfo;
 
 // Remaining properties
-@property(nonatomic) unsigned long long capability; // @synthesize capability=_capability;
 @property __weak id <_HMMediaProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) HMMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(readonly) NSString *routeUID; // @synthesize routeUID=_routeUID;
 
 @end
 

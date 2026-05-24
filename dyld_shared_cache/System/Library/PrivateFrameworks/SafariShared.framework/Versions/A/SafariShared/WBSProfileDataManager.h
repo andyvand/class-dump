@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSIgnoredSiriSuggestedSitesController, WBSSiriIntelligenceDonor;
+@class WBSSiriIntelligenceDonor;
 
 @interface WBSProfileDataManager
 {
     WBSSiriIntelligenceDonor *_siriIntelligenceDonor;
-    WBSIgnoredSiriSuggestedSitesController *_ignoredSiriSuggestedSitesController;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WBSIgnoredSiriSuggestedSitesController *ignoredSiriSuggestedSitesController; // @synthesize ignoredSiriSuggestedSitesController=_ignoredSiriSuggestedSitesController;
 @property(readonly, nonatomic) WBSSiriIntelligenceDonor *siriIntelligenceDonor; // @synthesize siriIntelligenceDonor=_siriIntelligenceDonor;
 
 @end

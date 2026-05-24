@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (PKURLAdditions)
-- (_Bool);
+- (_Bool)?q;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetResourceLoadingContentInformationRequestInternal, NSArray, NSDate, NSString;
+@class AVAssetResourceLoadingContentInformationRequestInternal, NSString;
 
 @interface AVAssetResourceLoadingContentInformationRequest
 {
@@ -26,17 +26,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)viceConfigurationRetrieval;
-- (_Bool)Event;
-- (void)eSelectorSettings;
+- (id)AVOutputDeviceConfigurationRetrieval;
+- (_Bool)AVMetricPlayerItemSeekDidCompleteEvent;
+- (void)CustomMediaSelectionSchemeSelectorSettings;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedContentTypes;
-@property(nonatomic, getter=isByteRangeAccessSupported) _Bool byteRangeAccessSupported;
-@property(nonatomic) long long contentLength;
 @property(copy, nonatomic) NSString *contentType;
-@property(nonatomic, getter=isEntireLengthAvailableOnDemand) _Bool entireLengthAvailableOnDemand;
-@property(copy, nonatomic) NSDate *renewalDate;
 
 @end
 

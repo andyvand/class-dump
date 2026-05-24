@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)Delete;
+- (id)with cache delete upon launch;
+- (id)roundRequest;
 - (double);
 - (double);
 

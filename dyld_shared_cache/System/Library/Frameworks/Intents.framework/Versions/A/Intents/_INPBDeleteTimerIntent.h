@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBTimer;
-
 @interface _INPBDeleteTimerIntent
 {
     struct {
         unsigned int deleteMultiple:1;
     } _has;
-    _Bool _deleteMultiple;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBTimer *_targetTimer;
 }
 
 + (_Bool);
@@ -30,27 +25,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)Extending appex runtime (clientID=%{public}@);
+- (id);
+- (id);
 - (void);
 - (_Bool)DataString",&,N,V_label;
-- (void)Progress;
+- (void)INListRideOptionsIntentResponseCodeInProgress;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) _Bool deleteMultiple; // @synthesize deleteMultiple=_deleteMultiple;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDeleteMultiple;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTimer *targetTimer; // @synthesize targetTimer=_targetTimer;
 
 @end
 

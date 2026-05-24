@@ -11,7 +11,7 @@
     NSArray *_sections;
 }
 
-- (id)etHasMapUiNumberOfTabsOpen: /* Error: Ran out of types for this method. */;
+- (id)setHasMapUiNumberOfTabsOpen: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)î>;
 

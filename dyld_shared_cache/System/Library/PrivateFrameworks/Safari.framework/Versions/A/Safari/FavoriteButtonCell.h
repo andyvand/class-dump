@@ -6,18 +6,10 @@
 
 #import <Safari/RolloverTextButtonCell.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface FavoriteButtonCell : RolloverTextButtonCell
 {
     int _indicator;
-    _Bool _shouldDrawDragged;
-    _Bool _isTrackingMouseDown;
-    NSArray *_accessibilityAttributes;
-    NSArray *_accessibilityActions;
-    _Bool _hasLeadingEmoji;
-    long long _buttonStyle;
 }
 
 + (id);
@@ -33,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (long long);
-- (_Bool);
+- (_Bool)%;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -42,14 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)@ from zone %{public}@;
 - (id)orkInterfacesEnabled;
 - (void);
 - (void)Ë-;
 - (int)ÝÿXi.;
 
 // Remaining properties
-@property(nonatomic) long long buttonStyle; // @synthesize buttonStyle=_buttonStyle;
 @property(nonatomic) _Bool hasLeadingEmoji; // @synthesize hasLeadingEmoji=_hasLeadingEmoji;
 
 @end

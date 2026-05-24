@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CSPowerLog
 {
     _Bool _onBattery;
-    NSMutableDictionary *_operationsByBundleID;
-    NSMutableDictionary *_reasonedOperationsByBundleID;
-    NSDate *_startFlushDate;
-    NSDate *_endFlushDate;
-    unsigned long long _cachedCount;
 }
 
 + (id);
@@ -25,29 +20,24 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)*;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)openpam_dispatch;
+- (void)/BuildRoots/4~CNptugACN3W_4k-DtasoCXqs57ewYWDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/grimoire/trie/header.h:(long long)arg1 21:(id)arg2 MARISA_FORMAT_ERROR:(unsigned long long)arg3 !test_header(ptr);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cachedCount; // @synthesize cachedCount=_cachedCount;
-@property(retain, nonatomic) NSDate *endFlushDate; // @synthesize endFlushDate=_endFlushDate;
-@property(nonatomic) _Bool onBattery; // @synthesize onBattery=_onBattery;
 @property(retain, nonatomic) NSMutableDictionary *operationsByBundleID; // @synthesize operationsByBundleID=_operationsByBundleID;
-@property(retain, nonatomic) NSMutableDictionary *reasonedOperationsByBundleID; // @synthesize reasonedOperationsByBundleID=_reasonedOperationsByBundleID;
-@property(retain, nonatomic) NSDate *startFlushDate; // @synthesize startFlushDate=_startFlushDate;
 
 @end
 

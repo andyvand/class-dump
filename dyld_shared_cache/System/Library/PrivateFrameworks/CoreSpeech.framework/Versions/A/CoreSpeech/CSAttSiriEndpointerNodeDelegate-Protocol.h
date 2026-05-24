@@ -5,5 +5,8 @@
 //
 
 @protocol CSAttSiriEndpointerNodeDelegate
+
+@optional
+- (void);
 @end
 

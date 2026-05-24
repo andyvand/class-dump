@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFColor, RFMapMarkerIdentifier, RFMapMarkerImage, RFMapMarkerText;
+@class NSDictionary, RFMapMarkerIdentifier;
 
 @protocol RFMapMarker
+- (void)eNotification [Jalisco];
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) RFMapMarkerIdentifier *identifier;
-@property(retain, nonatomic) RFMapMarkerImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFMapMarkerText *text;
-@property(retain, nonatomic) RFColor *tint;
 @end
 

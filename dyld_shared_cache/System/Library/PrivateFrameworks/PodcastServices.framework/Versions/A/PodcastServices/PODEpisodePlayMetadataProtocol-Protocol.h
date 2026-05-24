@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @protocol PODEpisodePlayMetadataProtocol
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastDatePlayed;
-@property(readonly, nonatomic) unsigned long long playCount;
-@property(readonly, nonatomic) long long playedStatus;
-@property(readonly, nonatomic) double playheadPosition;
 @property(readonly, nonatomic) long long syncID;
 @end
 

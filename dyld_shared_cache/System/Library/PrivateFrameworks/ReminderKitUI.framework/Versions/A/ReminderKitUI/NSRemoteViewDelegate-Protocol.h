@@ -4,7 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSRemoteView, NSXPCInterface;
+
 @protocol NSRemoteViewDelegate
+
+@optional
+- (_Bool)ySbGG;
+- (void)So28UILongPressGestureRecognizerCSg;
+- (_Bool);
+- (void)tGG;
+- (void)G;
+- (_Bool)qu;
+- (NSXPCInterface *)Encountered error retrieving metadata for syndication identifiers. %@;
+- (void)init(frame:(NSRemoteView *)arg1 textContainer:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool shouldRetainExportedObject;

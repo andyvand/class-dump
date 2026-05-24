@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSRecursiveLock;
-@protocol OS_dispatch_queue;
+@class NSObject;
 
 @interface IOUSBHostInterestNotifier
 {
     _Bool _destroyed;
-    unsigned int _service;
-    unsigned int _notifier;
-    unsigned int _matchingIterator;
-    NSObject *_owner;
-    NSRecursiveLock *_lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct IONotificationPort *_notificationPortRef;
-    CDUnknownFunctionPointerType _callback;
 }
 
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
 - (struct IONotificationPort *);
 - (unsigned int);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)PlayListDaylightSavingTimeFlag;
+- (id);
 - (void);
 - (unsigned int);
 - (void);
@@ -40,21 +31,13 @@
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
+- (void)];
 - (void);
 - (void);
-- (void);
-- (void):(unsigned int)arg1 data:completionTimeout:error:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)enqueueControlRequest:(unsigned int)arg1 data:completionTimeout:error:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDUnknownFunctionPointerType callback; // @synthesize callback=_callback;
-@property(nonatomic) _Bool destroyed; // @synthesize destroyed=_destroyed;
-@property(retain, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned int matchingIterator; // @synthesize matchingIterator=_matchingIterator;
-@property(nonatomic) struct IONotificationPort *notificationPortRef; // @synthesize notificationPortRef=_notificationPortRef;
-@property(nonatomic) unsigned int notifier; // @synthesize notifier=_notifier;
 @property(nonatomic) __weak NSObject *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned int service; // @synthesize service=_service;
 
 @end
 

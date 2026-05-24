@@ -8,6 +8,7 @@
 @protocol OS_xpc_object;
 
 @protocol BSXPCServerClient
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection;

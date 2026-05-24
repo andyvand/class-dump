@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBalloonView, UIVisualEffectView;
+@class CKBalloonView;
 @protocol CKBalloonVibrancy;
 
 @interface CKVibrantBalloonContainerView
 {
     CKBalloonView<CKBalloonVibrancy> *_vibrantBalloonView;
-    UIVisualEffectView *_blurView;
-    UIVisualEffectView *_vibrantView;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
+- (void)textRangeForSearchRange:(id)arg1 inSearchableString: /* Error: Ran out of types for this method. */;
+- (void)pageAtIndex:(id)arg1;
+- (id)addUndoCommand:(id)arg1;
+- (id)ic_copyTitleToGeneralPasteboard;
+- (void)ary, class:(id)arg1 %@;
 - (void);
 - (struct CGSize);
-- (void)stalledPluginsKey;
+- (void);
+- (struct CGSize);
+- (void)CKBrowserSelectionControllerInstalledPluginsKey;
 - (void);
 
 @end

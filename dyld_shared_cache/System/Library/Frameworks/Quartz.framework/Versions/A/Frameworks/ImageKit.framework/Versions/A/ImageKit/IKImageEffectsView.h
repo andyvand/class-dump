@@ -11,16 +11,6 @@
 @interface IKImageEffectsView : IKImageEditView
 {
     IKSingleImageEffect *_effect1;
-    IKSingleImageEffect *_effect2;
-    IKSingleImageEffect *_effect3;
-    IKSingleImageEffect *_effect4;
-    IKSingleImageEffect *_effect5;
-    IKSingleImageEffect *_effect6;
-    IKSingleImageEffect *_effect7;
-    IKSingleImageEffect *_effect8;
-    IKSingleImageEffect *_effect9;
-    IKSingleImageEffect *_effect[9];
-    struct CGImage *_image;
 }
 
 + (id);

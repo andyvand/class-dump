@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
-
 @interface _INPBHomeAutomationFromEntity
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBString *_value;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (id);
 - (void);
@@ -22,29 +18,19 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)] Silenced ask-to-share notification (clientID=%{public}@, network=%{public}@);
 - (id);
 - (id);
 - (void);
 - (id);
 - (int);
-- (id)inalLocation;
+- (id)_departureBoatTerminalLocation;
 - (_Bool)@@dDàFÀH;
 - (void)ü¨;
-- (void)ponseCodeReady;
+- (void)INSetTaskAttributeIntentResponseCodeReady;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBString *value; // @synthesize value=_value;
 
 @end
 

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSImage, NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView, OBTemplatePartBulletList;
+@class NSImageView;
 
 @interface OBTemplatePartDisclosingListView
 {
     _Bool _needsExtraWideContent;
-    NSString *_title;
-    NSString *_bodyText;
-    NSImage *_iconImage;
-    NSString *_iconSymbol;
-    OBTemplatePartBulletList *_bulletList;
-    NSImageView *_imageView;
-    NSStackView *_topStackView;
-    NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    NSImageView *_disclosureIndicator;
-    NSStackView *_textStackView;
-    NSView *_topArea;
-    NSView *_bottomArea;
-    NSImage *_forwardChevron;
-    NSImage *_downChevron;
-    NSLayoutConstraint *_topStackToBottomConstraint;
-    NSLayoutConstraint *_topStackToDividerConstraint;
-    NSBox *_divider;
-    unsigned long long _templateType;
 }
 
 - (id);
@@ -47,59 +28,40 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)decodeArrayOfObjectsOfClass:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)TRIPBBoolObjectDictionary;
+- (void)B;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(retain, nonatomic) NSView *bottomArea; // @synthesize bottomArea=_bottomArea;
-@property(retain, nonatomic) OBTemplatePartBulletList *bulletList; // @synthesize bulletList=_bulletList;
-@property(retain, nonatomic) NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) NSImageView *disclosureIndicator; // @synthesize disclosureIndicator=_disclosureIndicator;
-@property(retain, nonatomic) NSBox *divider; // @synthesize divider=_divider;
-@property(retain, nonatomic) NSImage *downChevron; // @synthesize downChevron=_downChevron;
-@property(retain, nonatomic) NSImage *forwardChevron; // @synthesize forwardChevron=_forwardChevron;
-@property(retain, nonatomic) NSImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(retain, nonatomic) NSString *iconSymbol; // @synthesize iconSymbol=_iconSymbol;
 @property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property _Bool needsExtraWideContent; // @synthesize needsExtraWideContent=_needsExtraWideContent;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
-@property(retain, nonatomic) NSStackView *textStackView; // @synthesize textStackView=_textStackView;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSView *topArea; // @synthesize topArea=_topArea;
-@property(retain, nonatomic) NSLayoutConstraint *topStackToBottomConstraint; // @synthesize topStackToBottomConstraint=_topStackToBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *topStackToDividerConstraint; // @synthesize topStackToDividerConstraint=_topStackToDividerConstraint;
-@property(retain, nonatomic) NSStackView *topStackView; // @synthesize topStackView=_topStackView;
 
 @end
 

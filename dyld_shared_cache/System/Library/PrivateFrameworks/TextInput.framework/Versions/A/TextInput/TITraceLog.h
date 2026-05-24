@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TITraceLog
 {
     NSMutableDictionary *_recordEntryCache;
-    NSString *_logContents;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (void)µ
@@ -31,7 +30,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *logContents; // @synthesize logContents=_logContents;
 @property(retain, nonatomic) NSMutableDictionary *recordEntryCache; // @synthesize recordEntryCache=_recordEntryCache;
 
 @end

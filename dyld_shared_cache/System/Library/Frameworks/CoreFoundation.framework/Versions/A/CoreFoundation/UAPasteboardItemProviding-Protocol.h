@@ -7,12 +7,12 @@
 @class NSString, NSUUID;
 
 @protocol UAPasteboardItemProviding
+- (NSString *);
 - (void)ents"8;
 - (NSUUID *)ahoo.com;
 - (void)-°.°/°0°1°2°3°4°5°6°7°8°9°:(NSUUID *)arg1 °;°<°=°>°?°@°A°B°C°F°G°I°K°M°O°P°ÁQ°R°V°X°Z°[°\°^°_°`°a°b°c°d°e°f°g°h°i°j°k°l°m°n°o°p°q°r°s°t°u°v°w°x°y°z°{°~°°°°°°°°°°°°°°°°°°°°°°°£°¤°;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *type;
 @property(copy, nonatomic) NSUUID *uuid;
 @end
 

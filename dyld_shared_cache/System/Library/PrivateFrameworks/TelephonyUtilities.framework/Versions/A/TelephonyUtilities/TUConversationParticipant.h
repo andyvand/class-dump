@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TUConversationParticipantAssociation, TUConversationParticipantCapabilities, TUConversationParticipantCluster, TUHandle;
-
 @interface TUConversationParticipant
 {
     _Bool _muted;
-    _Bool _audioEnabled;
-    _Bool _videoEnabled;
-    _Bool _screenEnabled;
-    _Bool _audioPaused;
-    _Bool _lightweight;
-    _Bool _localAccountHandle;
-    _Bool _guestModeEnabled;
-    _Bool _spatialPersonaEnabled;
-    _Bool _cameraMixedWithScreen;
-    _Bool _isNearbySharePlay;
-    unsigned long long _identifier;
-    TUHandle *_handle;
-    unsigned long long _audioVideoMode;
-    TUConversationParticipantCapabilities *_capabilities;
-    long long _streamToken;
-    long long _screenToken;
-    long long _captionsToken;
-    long long _audioPriority;
-    long long _videoPriority;
-    NSString *_avcIdentifier;
-    NSString *_activeIDSDestination;
-    TUConversationParticipantAssociation *_association;
-    unsigned long long _presentationMode;
-    NSString *_senderCorrelationIdentifier;
-    TUConversationParticipantCluster *_cluster;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (long long);
 - (void);
 - (void);
@@ -47,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A9;
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -59,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (long long);
@@ -73,17 +46,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)A;
+- (void)initWithAuthenticationChallenge:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (_Bool)WebKit:(id)arg1:RemoteAnimationStack>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::Ref<WebKit::RemoteAnimationStack>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::Ref<WebKit::RemoteAnimationStack>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::Ref<WebKit::RemoteAnimationStack>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -94,38 +67,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (_Bool);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)setPosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activeIDSDestination; // @synthesize activeIDSDestination=_activeIDSDestination;
-@property(copy, nonatomic) TUConversationParticipantAssociation *association; // @synthesize association=_association;
-@property(nonatomic, getter=isAudioEnabled) _Bool audioEnabled; // @synthesize audioEnabled=_audioEnabled;
-@property(nonatomic, getter=isAudioPaused) _Bool audioPaused; // @synthesize audioPaused=_audioPaused;
-@property(nonatomic) long long audioPriority; // @synthesize audioPriority=_audioPriority;
-@property(nonatomic) unsigned long long audioVideoMode; // @synthesize audioVideoMode=_audioVideoMode;
-@property(copy, nonatomic) NSString *avcIdentifier; // @synthesize avcIdentifier=_avcIdentifier;
-@property(nonatomic, getter=isCameraMixedWithScreen) _Bool cameraMixedWithScreen; // @synthesize cameraMixedWithScreen=_cameraMixedWithScreen;
-@property(copy, nonatomic) TUConversationParticipantCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) long long captionsToken; // @synthesize captionsToken=_captionsToken;
-@property(copy, nonatomic) TUConversationParticipantCluster *cluster; // @synthesize cluster=_cluster;
-@property(nonatomic, getter=isGuestModeEnabled) _Bool guestModeEnabled; // @synthesize guestModeEnabled=_guestModeEnabled;
-@property(readonly, copy, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isNearbySharePlay) _Bool isNearbySharePlay; // @synthesize isNearbySharePlay=_isNearbySharePlay;
-@property(nonatomic, getter=isLightweight) _Bool lightweight; // @synthesize lightweight=_lightweight;
-@property(nonatomic, getter=isLocalAccountHandle) _Bool localAccountHandle; // @synthesize localAccountHandle=_localAccountHandle;
 @property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic) unsigned long long presentationMode; // @synthesize presentationMode=_presentationMode;
-@property(nonatomic, getter=isScreenEnabled) _Bool screenEnabled; // @synthesize screenEnabled=_screenEnabled;
-@property(nonatomic) long long screenToken; // @synthesize screenToken=_screenToken;
-@property(readonly, copy, nonatomic) NSString *senderCorrelationIdentifier; // @synthesize senderCorrelationIdentifier=_senderCorrelationIdentifier;
-@property(nonatomic, getter=isSpatialPersonaEnabled) _Bool spatialPersonaEnabled; // @synthesize spatialPersonaEnabled=_spatialPersonaEnabled;
-@property(nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled; // @synthesize videoEnabled=_videoEnabled;
-@property(nonatomic) long long videoPriority; // @synthesize videoPriority=_videoPriority;
 
 @end
 

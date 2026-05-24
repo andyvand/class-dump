@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SBFilePathAppLocator : SBAppLocator
 {
     NSString *_filePath;
-    _Bool _isApplication;
 }
 
 - (const struct AEDesc *);

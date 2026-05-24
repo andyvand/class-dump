@@ -6,18 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioConfigureStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)BrainDescriptor:(_Bool)arg1 %@
+;
 - (id);
 - (void);
-- (void);
+- (void)OID_MODULE_INIT;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,14 +23,12 @@
 - (id);
 - (id)nnerBlockingTime;
 - (id)asOther;
-- (_Bool)USER_INTENT_RECOGNITION_ERROR;
+- (_Bool)CHUSERALIGNMENTISSUECATEGORY_USER_INTENT_RECOGNITION_ERROR;
 - (_Bool)©³Õ;$;
 - (void)B®:(_Bool)arg1 K(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

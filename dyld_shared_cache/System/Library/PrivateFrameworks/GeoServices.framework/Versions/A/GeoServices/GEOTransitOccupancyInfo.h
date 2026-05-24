@@ -9,25 +9,21 @@
 @interface GEOTransitOccupancyInfo
 {
     PBUnknownFields *_unknownFields;
-    int _occupancyStatus;
-    struct {
-        unsigned int has_occupancyStatus:1;
-    } _flags;
 }
 
-+ (_Bool)ModuleConfigurationIndex:(id)arg1;
++ (_Bool)setModuleConfigurationIndex:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (int);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)displayEDRFactor;
+- (void)interfaceProductID;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -35,15 +31,13 @@
 - (void);
 - (id)Qº*°1Â0@ù
 × ;
-- (id)identsOnRouteLegsType;
-- (id)rIsReady;
-- (id)evice_in_vehicle;
+- (id)incidentsOnRouteLegsType;
+- (id)_barrierIsReady;
+- (id)device_in_vehicle;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasOccupancyStatus;
-@property(nonatomic) int occupancyStatus;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface GEOArchiveFileInfo
 {
     NSString *_filePath;
-    unsigned long long _offset;
-    unsigned long long _length;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end
 

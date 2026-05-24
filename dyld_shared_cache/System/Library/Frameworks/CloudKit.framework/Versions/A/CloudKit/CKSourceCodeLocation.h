@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CKSourceCodeLocation
 {
     NSURL *_fileURL;
-    unsigned long long _lineNumber;
 }
 
 + (_Bool);
@@ -17,27 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)0:8Q16Q24^@32 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)NSDictionary"@"NSError">48;
 - (void);
 - (id)Changes for %@ due to retryable record-level error;
-- (id)ey;
+- (id)SystemFieldKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long lineNumber; // @synthesize lineNumber=_lineNumber;
-@property(readonly) Class superclass;
 
 @end
 

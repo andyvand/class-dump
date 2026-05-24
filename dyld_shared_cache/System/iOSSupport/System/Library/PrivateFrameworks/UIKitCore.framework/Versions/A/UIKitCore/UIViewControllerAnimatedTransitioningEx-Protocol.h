@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPercentDrivenInteractiveTransition;
+
 @protocol UIViewControllerAnimatedTransitioningEx
+- (UIPercentDrivenInteractiveTransition *);
 - (void)supportsTabbedWindows;
 - (long long)13H²®þ5"134¹þ;
+
+@optional
 - (void);
 @end
 

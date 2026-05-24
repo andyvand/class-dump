@@ -4,58 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
-
 @interface ACDAccountCache
 {
     struct os_unfair_lock_s _cachesLock;
-    struct os_unfair_lock_s _expirersLock;
-    NSObject<OS_dispatch_source> *_memoryNotificationSource;
-    unsigned int _cacheValidityDuration;
-    NSMutableDictionary *_cachedAccountsByID;
-    NSMutableDictionary *_cachedAccountIDsByType;
-    NSMutableDictionary *_cachedAccountTypesByID;
-    NSMutableDictionary *_expirersByID;
-    NSMutableDictionary *_generationWritersByKey;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)ng",R,N,V_conversionEvent;
+- (void);
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void)<{;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)meworks/DiskManagement.framework/Versions/A/DiskManagement;
+- (id);
+- (void);
 - (void);
 - (void);
+- (id)device is write locked;
+- (void);
+- (void);
+- (void);
+- (id)replaceStrokeAndFillInEmptyMarker:withSeriesGraphicProperties: /* Error: Ran out of types for this method. */;
+- (id)convertXlVertAlignEnumToED:(id)arg1;
+- (void)ngRuleOverridden;
+- (id)za7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUColorUtils.m;
+- (void);
+- (void));
 - (void);
 - (void);
 - (id);
@@ -65,11 +54,6 @@
 
 // Remaining properties
 @property unsigned int cacheValidityDuration; // @synthesize cacheValidityDuration=_cacheValidityDuration;
-@property(retain) NSMutableDictionary *cachedAccountIDsByType; // @synthesize cachedAccountIDsByType=_cachedAccountIDsByType;
-@property(retain) NSMutableDictionary *cachedAccountTypesByID; // @synthesize cachedAccountTypesByID=_cachedAccountTypesByID;
-@property(retain) NSMutableDictionary *cachedAccountsByID; // @synthesize cachedAccountsByID=_cachedAccountsByID;
-@property(retain) NSMutableDictionary *expirersByID; // @synthesize expirersByID=_expirersByID;
-@property(retain) NSMutableDictionary *generationWritersByKey; // @synthesize generationWritersByKey=_generationWritersByKey;
 
 @end
 

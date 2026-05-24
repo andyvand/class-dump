@@ -13,7 +13,7 @@
     NSData *mReadData;
 }
 
-- (id);
+- (id)mit:(unsigned long long)arg1 completion:(unsigned char)arg2;
 - (id);
 - (void);
 - (id);

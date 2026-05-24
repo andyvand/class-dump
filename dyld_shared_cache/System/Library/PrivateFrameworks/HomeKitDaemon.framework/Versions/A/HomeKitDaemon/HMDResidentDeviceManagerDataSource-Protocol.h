@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, NSNotificationCenter, NSObject;
+@class HMDAppleAccountManager, NSNotificationCenter, NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @protocol HMDResidentDeviceManagerDataSource
+- (NSString *);
 - (NSObject<OS_dispatch_queue> *)_candidateDestinations;
 - (HMDAppleAccountManager *)edly received update resident notification but the resident is nil;
 - (NSNotificationCenter *)%@;
-- (_Bool);
 
 // Remaining properties
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly) _Bool isResidentCapable;
-@property(readonly) NSNotificationCenter *notificationCenter;
 @property(readonly) NSObject<OS_dispatch_queue> *queue;
 @end
 

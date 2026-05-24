@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MTLNamedConstantValue
 {
     NSString *_name;
-    unsigned long long _dataType;
-    char *_data;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void *);
-- (unsigned long long);
+- (unsigned long long)LegacyInitialVolume;
 
 // Remaining properties
-@property(readonly) void *data; // @synthesize data=_data;
-@property(readonly) unsigned long long dataType; // @synthesize dataType=_dataType;
 @property(readonly) NSString *name; // @synthesize name=_name;
 
 @end

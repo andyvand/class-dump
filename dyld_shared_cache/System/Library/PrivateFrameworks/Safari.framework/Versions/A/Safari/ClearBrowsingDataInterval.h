@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ClearBrowsingDataInterval
 {
     NSString *_descriptionOfInterval;
-    NSString *_identifier;
-    CDUnknownBlockType _dateAfterWhichDataShouldBeClearedBlock;
 }
 
 - (void);
@@ -20,13 +18,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id)electedAutoFillData:menuItemViewNibFileName:popUpButtonNibFileName: /* Error: Ran out of types for this method. */;
+- (id)initWithArrayOfAutoFillDisplayData:initiallySelectedAutoFillData:menuItemViewNibFileName:popUpButtonNibFileName: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType dateAfterWhichDataShouldBeClearedBlock; // @synthesize dateAfterWhichDataShouldBeClearedBlock=_dateAfterWhichDataShouldBeClearedBlock;
 @property(readonly) NSString *descriptionOfInterval; // @synthesize descriptionOfInterval=_descriptionOfInterval;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

@@ -11,8 +11,8 @@
     TRIServerContext *_context;
 }
 
-- (id);
-- (_Bool);
+- (id)layerStackByRemovingLayersWithOptions:(id)arg1;
+- (_Bool)interModuleTransitionTable;
 - (void);
 
 @end

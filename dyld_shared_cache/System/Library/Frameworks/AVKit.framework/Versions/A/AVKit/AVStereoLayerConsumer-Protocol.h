@@ -7,10 +7,11 @@
 @class AVPlayer, AVSampleBufferDisplayLayer;
 
 @protocol AVStereoLayerConsumer
+- (AVSampleBufferDisplayLayer *);
+- (AVPlayer *);
+- (void)+;
 
 // Remaining properties
-@property(readonly, nonatomic) AVSampleBufferDisplayLayer *leftLayer;
 @property(nonatomic) __weak AVPlayer *player;
-@property(readonly, nonatomic) AVSampleBufferDisplayLayer *rightLayer;
 @end
 

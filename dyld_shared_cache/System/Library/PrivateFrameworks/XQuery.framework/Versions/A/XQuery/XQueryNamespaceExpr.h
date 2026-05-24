@@ -6,32 +6,23 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface XQueryNamespaceExpr : XQueryExpr
 {
     id _name;
-    id _value;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)%;
 - (id);
-- (id);
-- (void);
+- (id)st uint8_t *, ssize_t, const void *) [DATA_ID_T = unsigned long long, EXT = false, STORE_HASH = true, USE_ACTIVITY_JOURNAL = false];
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

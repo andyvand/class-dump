@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue, SPFinderStateXPCProtocol;
+@class FMXPCServiceDescription;
 
 @interface SPFinderStateManager
 {
     CDUnknownBlockType stateInfoChangedBlock;
-    CDUnknownBlockType _stateChangedBlock;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPFinderStateXPCProtocol> _proxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -34,27 +28,15 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)b;
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPFinderStateXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedBlock; // @synthesize stateChangedBlock=_stateChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType stateInfoChangedBlock; // @synthesize stateInfoChangedBlock;
-@property(readonly) Class superclass;
 
 @end
 

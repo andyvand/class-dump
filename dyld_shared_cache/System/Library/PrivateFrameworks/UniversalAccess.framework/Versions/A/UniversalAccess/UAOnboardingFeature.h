@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UAOnboardingAccessibilitySettingsManager;
+@class NSString;
 
 @interface UAOnboardingFeature
 {
     NSString *_identifier;
-    NSString *_buddyTitle;
-    NSString *_buddyDescription;
-    UAOnboardingAccessibilitySettingsManager *_accessibilitySettingsManager;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)esult"b1};
+- (void)emaFLTaskOutcome";
+- (id){?="statusReason"b1};
+- (id)Context";
+- (id)yContext";
+- (id)ype"b1};
+- (id)er1";
+- (void)mationRequestOutcome"b1"homeAutomationRequestDuration"b1};
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UAOnboardingAccessibilitySettingsManager *accessibilitySettingsManager; // @synthesize accessibilitySettingsManager=_accessibilitySettingsManager;
-@property(copy, nonatomic) NSString *buddyDescription; // @synthesize buddyDescription=_buddyDescription;
-@property(readonly, copy, nonatomic) NSString *buddyTitle; // @synthesize buddyTitle=_buddyTitle;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

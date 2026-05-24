@@ -11,15 +11,15 @@
     NSMutableDictionary *_uiStateMap;
 }
 
-+ (id);
++ (id)autocorrectionContext;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)>;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *uiStateMap; // @synthesize uiStateMap=_uiStateMap;

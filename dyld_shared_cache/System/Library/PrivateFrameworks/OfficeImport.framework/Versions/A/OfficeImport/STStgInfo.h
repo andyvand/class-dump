@@ -10,23 +10,16 @@ __attribute__((visibility("hidden")))
 @interface STStgInfo
 {
     NSString *m_pstrName;
-    int m_type;
-    unsigned int m_userFlags;
-    unsigned int m_size;
-    long long m_creationTime;
-    long long m_modificationTime;
-    int m_accessMode;
-    CDStruct_214f2dba m_clsid;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)h;
 - (long long);
-- (CDStruct_214f2dba);
-- (int);
+- (CDStruct_d05f240b)";
+- (int)	;
 - (long long);
 - (unsigned int);
 - (void);

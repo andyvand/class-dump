@@ -9,11 +9,6 @@
 @interface WBSCertificateWarningPageContext
 {
     NSString *_expiredCertificateDescription;
-    _Bool _canGoBack;
-    NSURL *_failingURL;
-    long long _warningCategory;
-    long long _numberOfDaysInvalid;
-    double _clockSkew;
 }
 
 + (id);
@@ -39,12 +34,7 @@
 - (void)È;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canGoBack; // @synthesize canGoBack=_canGoBack;
-@property(readonly, nonatomic) double clockSkew; // @synthesize clockSkew=_clockSkew;
-@property(readonly, nonatomic) NSString *expiredCerticateDescription;
 @property(readonly, nonatomic) NSURL *failingURL; // @synthesize failingURL=_failingURL;
-@property(readonly, nonatomic) long long numberOfDaysInvalid; // @synthesize numberOfDaysInvalid=_numberOfDaysInvalid;
-@property(readonly, nonatomic) long long warningCategory; // @synthesize warningCategory=_warningCategory;
 
 @end
 

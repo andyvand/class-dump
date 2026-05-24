@@ -6,36 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHASRCallFailed : SISchemaInstrumentationMessage
 {
     int _error;
-    struct {
-        unsigned int error:1;
-    } _has;
 }
 
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)W;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ook up message for guid:(int)arg1 %@ error:%d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id)1Þ1Â0@ù
 × ;
-- (id)Assets;
-- (id)erlyingDomain;
-- (void);
+- (id)_allAssets;
+- (id)hasSampledErrorUnderlyingDomain;
+- (void)SISchemaEventJoinability;
 - (_Bool)|ðÐÿÍ¶:# /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

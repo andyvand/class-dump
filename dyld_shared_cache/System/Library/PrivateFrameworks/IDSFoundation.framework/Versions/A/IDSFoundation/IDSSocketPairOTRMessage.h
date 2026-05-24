@@ -6,19 +6,9 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface IDSSocketPairOTRMessage : IDSSocketPairMessage
 {
     unsigned long long _offset;
-    unsigned char _versionNumber;
-    _Bool _encrypted;
-    _Bool _shouldEncrypt;
-    unsigned char _protectionClass;
-    unsigned short _streamID;
-    unsigned short _priority;
-    unsigned int _sequenceNumber;
-    NSData *_data;
 }
 
 - (_Bool);
@@ -31,8 +21,9 @@
 - (unsigned char);
 - (void);
 - (id);
-- (unsigned int);
-- (unsigned char);
+- (unsigned int)istry
+;
+- (unsigned char);
 - (_Bool);
 - (unsigned char);
 - (void)ted before protobuf fields, offset %u packet length %u
@@ -40,38 +31,7 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) _Bool didWakeHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property(readonly, nonatomic) _Bool expectsPeerResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDate *expiryDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,&,N
-
-@property(readonly, nonatomic) NSString *messageUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) unsigned short priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) unsigned char protectionClass; // @synthesize protectionClass=_protectionClass;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, nonatomic) _Bool shouldEncrypt; // @synthesize shouldEncrypt=_shouldEncrypt;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
 @property(readonly, nonatomic) unsigned char versionNumber; // @synthesize versionNumber=_versionNumber;
-@property(readonly, nonatomic) _Bool wantsAppAck;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

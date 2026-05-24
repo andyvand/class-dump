@@ -6,33 +6,24 @@
 
 #import <OfficeImport/EDProcessor.h>
 
-@class EDFormula, EDName, EDRowBlocks, EDSheet, NSMutableDictionary, OITSUPointerKeyDictionary;
+@class EDSheet;
 
 __attribute__((visibility("hidden")))
 @interface EPFormulaCleaner : EDProcessor
 {
     EDSheet *mCurrentSheet;
-    EDFormula *mFormula;
-    EDFormula *mTokensToClean;
-    EDName *mParentName;
-    int mRowOffset;
-    int mColumnOffset;
-    EDRowBlocks *mBaseFormulaRowBlocks;
-    NSMutableDictionary *mNameArrayedTestCache;
-    NSMutableDictionary *mNameCircularReferenceTestCache;
-    OITSUPointerKeyDictionary *mContentOutOfLassoBoundsCache;
 }
 
 - (id);
-- (id);
+- (id)	;
 - (int);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,30 +34,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)#;
+- (_Bool);
+- (_Bool)B;
+- (_Bool);
+- (_Bool);
+- (_Bool)	;
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)timeLineHeightConstraint;
 - (void);
 
 @end

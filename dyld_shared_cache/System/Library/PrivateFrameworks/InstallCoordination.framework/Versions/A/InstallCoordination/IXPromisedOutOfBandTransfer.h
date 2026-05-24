@@ -15,13 +15,11 @@
 + (_Bool);
 - (Class);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isComplete) _Bool complete; // @dynamic complete;
-@property(nonatomic) double percentComplete; // @dynamic percentComplete;
 @property(retain, nonatomic) IXPromisedOutOfBandTransferSeed *seed; // @dynamic seed;
 
 @end

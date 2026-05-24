@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PKApplicationMessageKey;
+@class PKApplicationMessageKey;
 
 @interface PKApplicationMessageRegistration
 {
     _Bool _badge;
-    PKApplicationMessageKey *_key;
-    NSDate *_createdDate;
-    unsigned long long _priority;
 }
 
 + (id);
@@ -22,18 +19,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)failedConnections;
 - (void);
 - (id);
-- (void)QUIRED_ALERT_MESSAGE;
+- (void)ACCOUNT_REQUIRED_ALERT_MESSAGE;
 - (unsigned long long);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool badge; // @synthesize badge=_badge;
-@property(readonly, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
 @property(readonly, nonatomic) PKApplicationMessageKey *key; // @synthesize key=_key;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 
 @end
 

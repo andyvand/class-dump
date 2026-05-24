@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface VNCVMLFaceprint_LegacySupportDoNotChange
 {
     unsigned int _platform;
-    unsigned int _profile;
-    NSData *_faceprint;
-    NSString *_key;
-    NSString *_faceprintInputPath;
 }
 
 + (_Bool);
@@ -21,22 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)_isContainerIDPermitted:(id)arg1;
 - (id);
-- (id);
 - (void);
 - (void);
+- (unsigned int)igrations %{public}@;
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (void)gJ;
 - (void);
 - (void)tential issue! We got `nil` from the URL!;
 
 // Remaining properties
 @property(retain) NSData *faceprint; // @synthesize faceprint=_faceprint;
-@property(copy) NSString *faceprintInputPath; // @synthesize faceprintInputPath=_faceprintInputPath;
-@property(copy) NSString *key; // @synthesize key=_key;
-@property unsigned int platform; // @synthesize platform=_platform;
-@property unsigned int profile; // @synthesize profile=_profile;
 
 @end
 

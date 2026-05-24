@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PLCameraDeviceMetadata
 {
     unsigned int _deviceId;
-    unsigned int _deviceLocation;
-    NSString *_deviceGUId;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)6{;
+- (void)a%;
 - (unsigned int);
 - (void)\Ð;
 
 // Remaining properties
-@property(retain) NSString *deviceGUId; // @synthesize deviceGUId=_deviceGUId;
 @property unsigned int deviceId; // @synthesize deviceId=_deviceId;
-@property unsigned int deviceLocation; // @synthesize deviceLocation=_deviceLocation;
 
 @end
 

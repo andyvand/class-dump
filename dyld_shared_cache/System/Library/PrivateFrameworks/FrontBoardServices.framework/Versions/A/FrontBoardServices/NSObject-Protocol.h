@@ -4,18 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
-- (struct _NSZone *)el:keyboardOwner: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)4;
+- (_Bool);
+- (_Bool)addPreferredEncoding:(Protocol *)arg1 toEncodings: /* Error: Ran out of types for this method. */;
+- (struct _NSZone *)initWithLevel:keyboardOwner: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

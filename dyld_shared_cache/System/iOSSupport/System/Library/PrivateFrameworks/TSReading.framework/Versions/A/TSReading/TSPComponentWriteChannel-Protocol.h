@@ -5,6 +5,6 @@
 //
 
 @protocol TSPComponentWriteChannel
-- (void)aledCanvas;
+- (void)frameInUnscaledCanvas;
 @end
 

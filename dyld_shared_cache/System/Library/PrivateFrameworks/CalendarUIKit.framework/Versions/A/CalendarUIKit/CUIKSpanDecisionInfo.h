@@ -7,23 +7,18 @@
 @interface CUIKSpanDecisionInfo
 {
     _Bool _shouldRequestSpan;
-    _Bool _proposeFuture;
-    long long _recurringEventCount;
 }
 
-+ (id)6´îA©àªáª÷ýâ;
-+ (_Bool)à;
++ (id);
++ (_Bool);
 - (_Bool);
 - (void);
-- (void)ªµVø¶Wø¶
-?×;
-- (void)àªâªãªëýàª!;
-- (long long)âª+ôÿô;
+- (void);
+- (void);
+- (long long);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool proposeFuture; // @synthesize proposeFuture=_proposeFuture;
-@property(nonatomic) long long recurringEventCount; // @synthesize recurringEventCount=_recurringEventCount;
 @property(nonatomic) _Bool shouldRequestSpan; // @synthesize shouldRequestSpan=_shouldRequestSpan;
 
 @end

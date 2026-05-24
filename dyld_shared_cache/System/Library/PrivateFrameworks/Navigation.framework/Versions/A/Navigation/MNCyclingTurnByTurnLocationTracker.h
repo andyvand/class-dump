@@ -6,24 +6,20 @@
 
 #import <Navigation/MNTurnByTurnLocationTracker.h>
 
-@class MNAlternateRoutesUpdater, MNTunnelLocationProjector, NSMutableArray, NSString;
+@class MNTunnelLocationProjector;
 
 @interface MNCyclingTurnByTurnLocationTracker : MNTurnByTurnLocationTracker
 {
     MNTunnelLocationProjector *_tunnelLocationProjector;
-    MNAlternateRoutesUpdater *_alternateRoutesUpdater;
-    NSMutableArray *_etauPositions;
-    double _lastKnownCourse;
-    double _consecutiveValidCourseCount;
 }
 
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)G4;
 - (id);
 - (void);
-- (void);
+- (void)ToolbarCustomizationVisibilityKey;
 - (void);
 - (void);
 - (void);
@@ -34,16 +30,10 @@
 - (_Bool);
 - (void);
 - (void)nceEvent"24;
-- (int)on_formattedStringForFloat:useIncreasedPrecision: /* Error: Ran out of types for this method. */;
+- (int)_navigation_formattedStringForFloat:useIncreasedPrecision: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,14 +9,10 @@
 @interface GEORPButton
 {
     NSString *_localizedText;
-    int _buttonAction;
-    struct {
-        unsigned int has_buttonAction:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
++ (_Bool)setIsNearCurrentlyDisplayedStep:(id)arg1;
+- (void)mponents",&,D,N;
 - (void);
 - (_Bool);
 - (id);
@@ -28,23 +24,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)z;
+- (void)rOperationMode:(id)arg1 %@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1"read_showcaseId"b1"read_showcaseImageUrls"b1"read_showcaseTitles"b1"read_sourceId"b1"read_sourceName"b1"read_vendorId"b1"wrote_anyField"b1};
-- (id)nSheetArtworkIndexs;
+- (id)actionSheetArtworkIndexs;
 - (id)4£;
 - (id)rdModuleReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int buttonAction;
-@property(nonatomic) _Bool hasButtonAction;
 @property(readonly, nonatomic) _Bool hasLocalizedText;
-@property(retain, nonatomic) NSString *localizedText;
 
 @end
 

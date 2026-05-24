@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ML3MatcherAuxData
 {
     CPSearchMatcher *_searchMatcher;
-    char *_searchUTF8String;
 }
 
 - (void);

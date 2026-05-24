@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSURL, UARPSuperBinaryAsset;
+@class NSURL;
 
 @interface UARPDynamicAssetAnalyticsEvent
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSMutableArray *_events;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)8;
 - (id);
+- (id)AMSAutomaticDownloadKindsSetTask;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void):Modified Pending TSS request is %@ /* Error: Ran out of types for this method. */;
 
 @end

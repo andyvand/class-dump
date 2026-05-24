@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHomeSectionTitleView
 {
     id titleLabel;
-    id actionButton;
 }
 
 - (id);

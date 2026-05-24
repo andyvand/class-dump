@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPRankableSocialHighlight;
-
 @interface PPSocialHighlightFeedback
 {
     double _feedbackCreationSecondsSinceReferenceDate;
-    NSString *_clientIdentifier;
-    int _feedbackType;
-    PPRankableSocialHighlight *_highlight;
-    NSString *_variant;
-    struct {
-        unsigned int feedbackCreationSecondsSinceReferenceDate:1;
-        unsigned int feedbackType:1;
-    } _has;
 }
 
 - (void);
@@ -24,19 +14,19 @@
 - (_Bool);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)archivedDataWithRootObject:requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)autoReplier:(id)arg1 sendDeliveredQuietlyReceiptForMessages:forIncomingMessageFromIDSID:inChat:withWillSendToDestinationsHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -46,20 +36,11 @@
 - (id);
 - (id);
 - (void);
-- (id)inerIdentifiers:groupIdentifiers: /* Error: Ran out of types for this method. */;
-- (int)orLifetimeOfObject:block: /* Error: Ran out of types for this method. */;
+- (id)predicateForContactsMatchingFullTextSearch:containerIdentifiers:groupIdentifiers: /* Error: Ran out of types for this method. */;
+- (int)addEventKitObserverForLifetimeOfObject:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(nonatomic) double feedbackCreationSecondsSinceReferenceDate; // @synthesize feedbackCreationSecondsSinceReferenceDate=_feedbackCreationSecondsSinceReferenceDate;
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(readonly, nonatomic) _Bool hasClientIdentifier;
-@property(nonatomic) _Bool hasFeedbackCreationSecondsSinceReferenceDate;
-@property(nonatomic) _Bool hasFeedbackType;
-@property(readonly, nonatomic) _Bool hasHighlight;
-@property(readonly, nonatomic) _Bool hasVariant;
-@property(retain, nonatomic) PPRankableSocialHighlight *highlight; // @synthesize highlight=_highlight;
-@property(retain, nonatomic) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

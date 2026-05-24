@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIKeyboardSecureCandidateTextTraits;
-
 @interface TIKeyboardSecureCandidateLayoutTraits
 {
     _Bool _forceSingleLineLayout;
-    unsigned int _headerInliningBehavior;
-    TIKeyboardSecureCandidateTextTraits *_headerTraitsInOnlyLine;
-    TIKeyboardSecureCandidateTextTraits *_headerTraitsInFirstLine;
-    TIKeyboardSecureCandidateTextTraits *_inputTraitsInOnlyLine;
-    TIKeyboardSecureCandidateTextTraits *_inputTraitsInFirstAndSecondLines;
-    TIKeyboardSecureCandidateTextTraits *_inputTraitsInSecondLine;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,7 +25,7 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (id);
+- (id)predicateToIncludeOnlyAllowedForAnalysisAndProcessedAssetsToLatestFaceVersion;
 - (_Bool);
 - (void);
 - (id);
@@ -43,12 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool forceSingleLineLayout; // @synthesize forceSingleLineLayout=_forceSingleLineLayout;
-@property(nonatomic) unsigned int headerInliningBehavior; // @synthesize headerInliningBehavior=_headerInliningBehavior;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *headerTraitsInFirstLine; // @synthesize headerTraitsInFirstLine=_headerTraitsInFirstLine;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *headerTraitsInOnlyLine; // @synthesize headerTraitsInOnlyLine=_headerTraitsInOnlyLine;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *inputTraitsInFirstAndSecondLines; // @synthesize inputTraitsInFirstAndSecondLines=_inputTraitsInFirstAndSecondLines;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *inputTraitsInOnlyLine; // @synthesize inputTraitsInOnlyLine=_inputTraitsInOnlyLine;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *inputTraitsInSecondLine; // @synthesize inputTraitsInSecondLine=_inputTraitsInSecondLine;
 
 @end
 

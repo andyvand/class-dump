@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAlarm;
+@class NSArray;
 
 @interface _INPBUpdateAlarmIntentResponse
 {
     struct _has;
-    NSArray *_conflictAlarms;
-    _INPBAlarm *_updatedAlarm;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 - (id);
 - (void);
@@ -27,25 +25,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)gIntentResponseCodeFailure;
+- (void)INSetLabeledSettingIntentResponseCodeFailure;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *conflictAlarms; // @synthesize conflictAlarms=_conflictAlarms;
-@property(readonly, nonatomic) unsigned long long conflictAlarmsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasUpdatedAlarm;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBAlarm *updatedAlarm; // @synthesize updatedAlarm=_updatedAlarm;
 
 @end
 

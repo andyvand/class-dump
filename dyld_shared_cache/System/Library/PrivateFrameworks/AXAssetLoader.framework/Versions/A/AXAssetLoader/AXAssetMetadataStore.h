@@ -9,7 +9,6 @@
 @interface AXAssetMetadataStore
 {
     struct os_unfair_lock_s _lock;
-    NSUserDefaults *_defaults;
 }
 
 + (id);
@@ -18,22 +17,23 @@
 - (void);
 - (void);
 - (void);
+- (void)qEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/x509/x509_obj.c;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)__DATA_CONST;
 - (void);
+- (void)SGG;
+- (id)&;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)no firmware in restore options
+;
 - (void);
 - (void);
 - (id);

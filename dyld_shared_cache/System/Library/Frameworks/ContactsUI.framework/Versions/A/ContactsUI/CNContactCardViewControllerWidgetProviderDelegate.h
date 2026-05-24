@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContainer, CNUIEditingPolicy, CNUIUserActionListDataSource, NSString;
 @protocol CNSchedulerProvider;
 
 @interface CNContactCardViewControllerWidgetProviderDelegate
 {
     _Bool _isEditing;
-    CNUIUserActionListDataSource *_userActionListDataSource;
-    CNContact *_displayedContact;
-    CNContainer *_containerOfDisplayedContact;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNUIEditingPolicy *_editingPolicy;
 }
 
 - (void);
@@ -32,19 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNContainer *containerOfDisplayedContact; // @synthesize containerOfDisplayedContact=_containerOfDisplayedContact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContact *displayedContact; // @synthesize displayedContact=_displayedContact;
-@property(readonly, nonatomic) CNUIEditingPolicy *editingPolicy; // @synthesize editingPolicy=_editingPolicy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;
 @property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNUIUserActionListDataSource *userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
 
 @end
 

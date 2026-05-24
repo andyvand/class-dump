@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)setMeContact:(id)arg1 forContainer:withReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)ForMapItem:(id)arg1;
+- (void)ratingStringProviderForMapItem:(id)arg1;
 - (void);
 
 @end

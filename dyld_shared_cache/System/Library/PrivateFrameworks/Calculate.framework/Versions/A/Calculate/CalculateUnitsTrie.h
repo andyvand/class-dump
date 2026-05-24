@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateUnitsTrieNode, NSArray, NSSet, Trie;
+@class CalculateUnitsTrieNode, Trie;
 
 @interface CalculateUnitsTrie
 {
     CalculateUnitsTrieNode *_root;
-    Trie *_trie;
-    NSArray *_locales;
-    NSSet *_conversionVerbs;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
+- (id)0;
 - (id);
 - (id);
 - (id)W~H"Å~çòô¬´Û-Ì¿ÝÛ´g%\{c5sÂNm5{¯Ðìð2©ßj	ñ¼àÏ(M»Ór¢ÈÚÚÚÄ]'­Ó×=ÅK-ìØóü_`jÃÇCËz65çp_ÈdM¶8'ÏÄ/üwx"Ú\ìé¾,RúúÊAF¿;ý^P2cxÛýJK«tgì£î·æ¸¹=¡4¯¼vdþ;¤ÖÁQ½^ÖQçLêe '(ÍöÉAÞZ­kýEþJML2¦F,¥u­Ò°p²?t9@:éÊXLÃ|¾ëÞN°oß'¬;IGXÝO^GÐÈe£ýnô®¦bK×1
@@ -31,9 +28,6 @@
 - (void)Nü-ª;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *conversionVerbs; // @synthesize conversionVerbs=_conversionVerbs;
-@property(retain, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(readonly, nonatomic) CalculateUnitsTrieNode *root; // @synthesize root=_root;
 @property(retain, nonatomic) Trie *trie; // @synthesize trie=_trie;
 
 @end

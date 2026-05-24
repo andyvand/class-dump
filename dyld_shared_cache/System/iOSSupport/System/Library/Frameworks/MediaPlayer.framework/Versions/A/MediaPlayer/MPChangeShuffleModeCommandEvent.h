@@ -9,7 +9,6 @@
 @interface MPChangeShuffleModeCommandEvent : MPRemoteCommandEvent
 {
     _Bool _preservesShuffleMode;
-    long long _shuffleType;
 }
 
 - (long long);
@@ -17,7 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool preservesShuffleMode; // @synthesize preservesShuffleMode=_preservesShuffleMode;
 @property(readonly, nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
 
 @end

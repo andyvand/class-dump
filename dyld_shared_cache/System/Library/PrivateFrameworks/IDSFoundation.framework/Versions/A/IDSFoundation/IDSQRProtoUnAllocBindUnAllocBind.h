@@ -13,10 +13,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)0:(id)arg1 8^{BluetoothHCISupportedFeatures=[8C]}16;
+- (void)Player invalidate]_block_invoke;
 - (id);
-- (id);
+- (id)?;
 
 @end
 

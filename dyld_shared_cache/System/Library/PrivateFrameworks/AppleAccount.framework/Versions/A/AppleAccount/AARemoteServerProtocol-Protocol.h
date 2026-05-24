@@ -5,5 +5,6 @@
 //
 
 @protocol AARemoteServerProtocol
+- (void)1;
 @end
 

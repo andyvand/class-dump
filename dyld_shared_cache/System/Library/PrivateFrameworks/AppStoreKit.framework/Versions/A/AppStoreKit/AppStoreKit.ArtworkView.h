@@ -6,22 +6,11 @@
 
 #import <AppStoreKit/AppStoreKit.BaseView.h>
 
-@class NSColor, NSImage, NSImageSymbolConfiguration, NSString;
+@class NSColor;
 
 @interface AppStoreKit.ArtworkView : AppStoreKit.BaseView
 {
     id imageLayer;
-    id highlightLayer;
-    id isStyleInvalid;
-    id style;
-    NSColor *artworkTintColor;
-    struct CGSize imageSize;
-    _Bool frameUpdatesImageSize;
-    id isCornerRadiusInvalid;
-    NSImageSymbolConfiguration *preferredSymbolConfiguration;
-    NSImage *image;
-    _Bool isHighlighted;
-    void accessibilityDescription;
 }
 
 + (double);
@@ -32,12 +21,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (id);
 - (id);
@@ -51,7 +40,7 @@
 - (struct CGSize);
 - (id);
 - (void)N;
-- (void)dedRectPrerendered;
+- (void)roundedRectPrerendered;
 - (void)ewP;
 - (id);
 - (void);
@@ -59,16 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityDescription;
 @property(nonatomic, retain) NSColor *artworkTintColor; // @synthesize artworkTintColor;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic) _Bool frameUpdatesImageSize; // @synthesize frameUpdatesImageSize;
-@property(nonatomic, retain) NSImage *image; // @synthesize image;
-@property(nonatomic) struct CGSize imageSize; // @synthesize imageSize;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted;
-@property(nonatomic, copy) NSString *magnificationFilter;
-@property(nonatomic, copy) NSString *minificationFilter;
-@property(nonatomic, retain) NSImageSymbolConfiguration *preferredSymbolConfiguration; // @synthesize preferredSymbolConfiguration;
 
 @end
 

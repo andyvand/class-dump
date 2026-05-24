@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKCancelable;
-
 @interface CRKCancelableServer
 {
     CDUnknownBlockType _generator;
-    id <CRKCancelable> _cachedCancelable;
-    long long _clientCount;
 }
 
 - (void);
@@ -20,13 +16,11 @@
 - (void);
 - (id);
 - (long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CRKCancelable> cachedCancelable; // @synthesize cachedCancelable=_cachedCancelable;
-@property(nonatomic) long long clientCount; // @synthesize clientCount=_clientCount;
 @property(readonly, copy, nonatomic) CDUnknownBlockType generator; // @synthesize generator=_generator;
 
 @end

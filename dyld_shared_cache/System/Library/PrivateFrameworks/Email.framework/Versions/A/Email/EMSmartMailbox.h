@@ -11,8 +11,6 @@
 @interface EMSmartMailbox : EMMailbox
 {
     CDUnknownBlockType _predicateGenerator;
-    EMMailboxScope *_mailboxScope;
-    long long _smartMailboxType;
 }
 
 + (id);
@@ -22,47 +20,46 @@
 + (id);
 + (id);
 + (id);
++ (id)P;
++ (id);
++ (id);
++ (id)PresencePayloadContainerSerializer;
++ (id);
++ (id);
++ (id)SELECTION;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)HMDHomeActivityStateContributorType;
++ (id)HMMediaRepeatState;
++ (id);
++ (id);
++ (id)Kit.framework/WorkflowKit;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
++ (id)-:(long long)arg1;
+- (_Bool)ThermostatSuggestedPresetLogEventFactory;
 - (long long);
+- (_Bool);
+- (_Bool)LogEventAnalyzerDataSource;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)ActionSetTriggerDeletionLogEventAnalyzer;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(readonly, nonatomic) long long smartMailboxType; // @synthesize smartMailboxType=_smartMailboxType;
 
 @end
 

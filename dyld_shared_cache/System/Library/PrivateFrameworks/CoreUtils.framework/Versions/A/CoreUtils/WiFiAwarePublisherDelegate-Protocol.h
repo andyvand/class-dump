@@ -5,5 +5,11 @@
 //
 
 @protocol WiFiAwarePublisherDelegate
+- (void)__TEXT;
+
+@optional
+- (void);
+- (void)T;
+- (void);
 @end
 

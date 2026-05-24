@@ -6,15 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface SAUIConfirmationOption : AceObject
 {
 }
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -24,37 +22,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)E;
 - (id);
-- (id);
 - (void);
+- (void)__bss;
 - (void);
-- (void);
-- (_Bool)bjectArrayWithDictionaryArray:baseClass: /* Error: Ran out of types for this method. */;
+- (_Bool)aceObjectArrayWithDictionaryArray:baseClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool active;
-@property(copy, nonatomic) NSNumber *automaticConfirmationThreshold;
-@property(copy, nonatomic) NSString *buttonRole;
-@property(copy, nonatomic) NSArray *commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *delayExpiryCommands;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *iconLabel;
-@property(copy, nonatomic) NSString *iconType;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *speechDuration;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

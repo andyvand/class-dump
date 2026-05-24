@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSAttributedString, NSImage, NSString, PHAsset, PXContentSyndicationPhotoKitSocialLayerHighlightProvider, SLHighlight;
-@protocol PXContentSyndicationAttributionInfoChangeDelegate;
+@class NSString;
 
 @interface PXContentSyndicationAttributionInfo
 {
     _Bool _syndicationAttributionInfoIsLoading;
-    _Bool _hasSyndicationAttributionInfo;
-    NSString *_syndicationSenderDisplayName;
-    NSString *_senderAppName;
-    NSAttributedString *_syndicationSharedWithInMessagesAttributedTitle;
-    NSAttributedString *_savedFromTitle;
-    id <PXContentSyndicationAttributionInfoChangeDelegate> _changeDelegate;
-    NSImage *_senderThumbnailImage;
-    NSString *_syndicationAttributionIdentifier;
-    NSString *_axDescriptionForSyndicationLoadingIndicator;
-    NSString *_axDescriptionForSyndicationContactImage;
-    NSString *_axDescriptionForSyndicationReplyButton;
-    NSString *_axHintForSyndicationButton;
-    SLHighlight *_highlight;
-    CNContact *_contact;
-    PHAsset *_asset;
-    NSString *_receivingGroupDisplayName;
-    PXContentSyndicationPhotoKitSocialLayerHighlightProvider *_highlightProvider;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)˿;
 - (_Bool);
 - (id);
 - (void);
@@ -45,10 +27,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)iV;
 - (void);
 - (void);
 - (void);
@@ -76,31 +58,14 @@
 - (void);
 - (id);
 - (void);
-- (id)ssetRows: /* Error: Ran out of types for this method. */;
+- (id)setStandardNumberOfTopAssetRows: /* Error: Ran out of types for this method. */;
 - (void)del.m;
 - (id)CMMFeedActionPerformer.m;
 - (void)°rÿ¨3Ê;
 - (id)ZMÌ.@;
 
 // Remaining properties
-@property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) NSString *axDescriptionForSyndicationContactImage; // @synthesize axDescriptionForSyndicationContactImage=_axDescriptionForSyndicationContactImage;
-@property(readonly, copy, nonatomic) NSString *axDescriptionForSyndicationLoadingIndicator; // @synthesize axDescriptionForSyndicationLoadingIndicator=_axDescriptionForSyndicationLoadingIndicator;
-@property(copy, nonatomic) NSString *axDescriptionForSyndicationReplyButton; // @synthesize axDescriptionForSyndicationReplyButton=_axDescriptionForSyndicationReplyButton;
-@property(copy, nonatomic) NSString *axHintForSyndicationButton; // @synthesize axHintForSyndicationButton=_axHintForSyndicationButton;
-@property(nonatomic) __weak id <PXContentSyndicationAttributionInfoChangeDelegate> changeDelegate; // @synthesize changeDelegate=_changeDelegate;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool hasSyndicationAttributionInfo; // @synthesize hasSyndicationAttributionInfo=_hasSyndicationAttributionInfo;
-@property(retain, nonatomic) SLHighlight *highlight; // @synthesize highlight=_highlight;
-@property(retain, nonatomic) PXContentSyndicationPhotoKitSocialLayerHighlightProvider *highlightProvider; // @synthesize highlightProvider=_highlightProvider;
-@property(copy, nonatomic) NSString *receivingGroupDisplayName; // @synthesize receivingGroupDisplayName=_receivingGroupDisplayName;
-@property(copy, nonatomic) NSAttributedString *savedFromTitle; // @synthesize savedFromTitle=_savedFromTitle;
-@property(copy, nonatomic) NSString *senderAppName; // @synthesize senderAppName=_senderAppName;
-@property(retain, nonatomic) NSImage *senderThumbnailImage; // @synthesize senderThumbnailImage=_senderThumbnailImage;
-@property(retain, nonatomic) NSString *syndicationAttributionIdentifier; // @synthesize syndicationAttributionIdentifier=_syndicationAttributionIdentifier;
-@property(nonatomic) _Bool syndicationAttributionInfoIsLoading; // @synthesize syndicationAttributionInfoIsLoading=_syndicationAttributionInfoIsLoading;
 @property(copy, nonatomic) NSString *syndicationSenderDisplayName; // @synthesize syndicationSenderDisplayName=_syndicationSenderDisplayName;
-@property(copy, nonatomic) NSAttributedString *syndicationSharedWithInMessagesAttributedTitle; // @synthesize syndicationSharedWithInMessagesAttributedTitle=_syndicationSharedWithInMessagesAttributedTitle;
 
 @end
 

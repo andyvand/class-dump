@@ -13,7 +13,7 @@
 @optional
 - (long long)1Â0@ù
 × ;
-- (_Bool)ldSendImmediately;
+- (_Bool)ckShouldSendImmediately;
 - (NSArray *)Ä\hs;
 - (NSIndexPath *)s for string %s;
 - (void);

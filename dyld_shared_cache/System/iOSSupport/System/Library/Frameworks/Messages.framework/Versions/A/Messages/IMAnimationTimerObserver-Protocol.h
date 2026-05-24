@@ -5,5 +5,7 @@
 //
 
 @protocol IMAnimationTimerObserver
+- (void)t=dd}{CGSize=dd}}24@0:(double)arg1 8@"UIView"16;
+- (_Bool)Q24@?32@?40;
 @end
 

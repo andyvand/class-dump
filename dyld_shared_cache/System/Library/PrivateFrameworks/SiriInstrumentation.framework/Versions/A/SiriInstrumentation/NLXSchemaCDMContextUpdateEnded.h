@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMContextUpdateEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NSArray *_reformedTurnInputBundles;
-    _Bool _hasContextId;
 }
 
 - (void);
@@ -22,29 +20,26 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)w8(	;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)upported on this type;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Ļ;
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)er;
-- (id)ersonalDomainsEnabled: /* Error: Ran out of types for this method. */;
+- (id)setHasIsPersonalDomainsEnabled: /* Error: Ran out of types for this method. */;
 - (void)îæ9|ö>;
 - (void);
 - (id)ÚL';
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *reformedTurnInputBundles; // @synthesize reformedTurnInputBundles=_reformedTurnInputBundles;
 
 @end
 

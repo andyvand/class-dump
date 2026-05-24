@@ -11,24 +11,24 @@
     VKLabelMarker *_labelMarker;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)additionalCharacters;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (CDStruct_c3b9c2ee);
+- (id)' to value less than or equal to 0 - setting to 1 (key:%@) /* Error: Ran out of types for this method. */;
+- (CDStruct_2c43369c)initWithXpcListener:withMachService:withServiceInterface:withServiceObject:withDelegateInterface:queue: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (int);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)tion = %@; startDate = %@; endDate = %@; allDay = %u; recurrenceRule=%@; attendees = %@};
+- (id);
 - (id);
-- (id);
-- (void)tHandler: /* Error: Ran out of types for this method. */;
+- (void)setHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

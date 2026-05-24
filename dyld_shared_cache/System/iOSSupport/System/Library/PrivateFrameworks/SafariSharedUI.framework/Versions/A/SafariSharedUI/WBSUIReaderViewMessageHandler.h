@@ -9,7 +9,7 @@
     id readerViewToArticleViewMap;
 }
 
-+ (id)adataForAllForms:isInitialCollectionAtPageLoad: /* Error: Ran out of types for this method. */;
++ (id)didCollectMetadataForPrefillingFormInFrames:metadataForAllForms:isInitialCollectionAtPageLoad: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INEditMessageIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)_pendingCancelledRequests;
++ (int)CGImageForProposedRect:(long long)arg1 context:hints: /* Error: Ran out of types for this method. */;
++ (long long)QLThumbnailGenerator;
 + (_Bool);
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
+- (id)heelElement",R;
+- (id);
+- (void)Swisscom_Wingo_ch.4e45c46c-d474-11eb-8c7c-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)esponse;
+- (long long)_INPBSearchForNotebookItemsIntentResponse;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

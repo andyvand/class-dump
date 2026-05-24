@@ -7,8 +7,6 @@
 @interface NewsCore.CacheInvalidationConfigProvider
 {
     id contentContext;
-    id configurationManager;
-    id inFlightRefreshTask;
 }
 
 @end

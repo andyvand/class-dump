@@ -7,10 +7,6 @@
 @interface TSWPTextMagnifierTimeWeightedPoint
 {
     long long m_index;
-    struct {
-        struct CGPoint point;
-        double time;
-    } m_points[16];
 }
 
 - (struct CGPoint);
@@ -19,7 +15,7 @@
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (void);
+- (void)PCStatusConditionsImpl;
 - (struct CGSize);
 
 // Remaining properties

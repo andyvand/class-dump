@@ -10,12 +10,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (BOOL);
++ (BOOL)
+;
 + (id);
 + (unsigned char);
 + (unsigned char);
-+ (unsigned char);
-+ (void);
++ (unsigned char)jjQ_	;
++ (void)";
 + (id);
 + (void);
 + (void);

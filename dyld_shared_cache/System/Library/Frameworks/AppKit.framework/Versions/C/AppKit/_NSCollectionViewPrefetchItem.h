@@ -4,32 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionViewItem, NSCollectionViewLayoutAttributes;
+@class NSCollectionViewLayoutAttributes;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewPrefetchItem
 {
     NSCollectionViewLayoutAttributes *_attributes;
-    _Bool _hasPrefetchedData;
-    NSCollectionViewItem *_collectionViewItem;
 }
 
-- (void);
-- (void);
+- (void)lse == typeValCacheAsPrimitive(key->funcType);
+- (void)rties:(id)arg1 {
+	faus:%s
+	fsca:%s
+	esca:%s
+	trustObject:%@
+} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)ToChangedToolbar:(id)arg1 toolbarModeChanged: /* Error: Ran out of types for this method. */;
+- (void)_syncToChangedToolbar:(id)arg1 toolbarModeChanged: /* Error: Ran out of types for this method. */;
 - (id)e %@ was unable to resolve symbolic constant %@ in constraint %@;
 - (void)k:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSCollectionViewLayoutAttributes *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSCollectionViewItem *collectionViewItem; // @synthesize collectionViewItem=_collectionViewItem;
-@property(readonly) _Bool hasItemView;
-@property(nonatomic) _Bool hasPrefetchedData; // @synthesize hasPrefetchedData=_hasPrefetchedData;
 
 @end
 

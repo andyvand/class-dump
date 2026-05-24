@@ -9,8 +9,6 @@
 @interface TRIMLRuntimeDimensions
 {
     NSString *_crashPrefixHash;
-    NSString *_pluginId;
-    NSString *_underlyingDomainCode;
 }
 
 - (id);
@@ -24,22 +22,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)7;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)eady computed for asset:(id)arg1 %{public}@, score:%.2f /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *crashPrefixHash; // @synthesize crashPrefixHash=_crashPrefixHash;
-@property(readonly, nonatomic) _Bool hasCrashPrefixHash;
-@property(readonly, nonatomic) _Bool hasPluginId;
 @property(readonly, nonatomic) _Bool hasUnderlyingDomainCode;
-@property(retain, nonatomic) NSString *pluginId; // @synthesize pluginId=_pluginId;
-@property(retain, nonatomic) NSString *underlyingDomainCode; // @synthesize underlyingDomainCode=_underlyingDomainCode;
 
 @end
 

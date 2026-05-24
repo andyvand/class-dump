@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NPNameParser, NSLocale;
-
 __attribute__((visibility("hidden")))
 @interface _NSPersonNameComponentsFormatterData
 {
     long long _style;
-    _Bool _phonetic;
-    _Bool _forceFamilyNameFirst;
-    _Bool _forceGivenNameFirst;
-    _Bool _ignoresFallbacks;
-    NSLocale *_locale;
-    NPNameParser *_nameParser;
 }
 
 + (_Bool)**);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)
+kC;
 - (void);
 - (void);
 - (void);
@@ -36,14 +29,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)
 × ;
-- (_Bool)omponentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (_Bool)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool forceFamilyNameFirst; // @synthesize forceFamilyNameFirst=_forceFamilyNameFirst;
-@property _Bool forceGivenNameFirst; // @synthesize forceGivenNameFirst=_forceGivenNameFirst;
-@property _Bool ignoresFallbacks; // @synthesize ignoresFallbacks=_ignoresFallbacks;
-@property(copy) NSLocale *locale; // @synthesize locale=_locale;
-@property _Bool phonetic; // @synthesize phonetic=_phonetic;
 @property long long style; // @synthesize style=_style;
 
 @end

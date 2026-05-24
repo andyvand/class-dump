@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)p~þw Í?;
-- (Class);
+- (Class)tyFilters;
 - (_Bool);
 - (_Bool);
-- (void)formanceType;
-- (double)dius: /* Error: Ran out of types for this method. */;
+- (void)m_delegateConformanceType;
+- (double)_setSelectionHighlightContinuousCornerRadius: /* Error: Ran out of types for this method. */;
 - (void)eraction;
 - (_Bool),&,V_contentScrollViewMaximumWidthConstraint;
 - (_Bool)$Ù;

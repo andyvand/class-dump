@@ -11,15 +11,15 @@
     NSXPCConnection *_connection;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)i;
 
 @end
 

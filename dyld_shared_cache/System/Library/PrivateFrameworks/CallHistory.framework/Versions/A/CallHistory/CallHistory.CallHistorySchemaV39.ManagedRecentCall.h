@@ -7,47 +7,6 @@
 @interface CallHistory.CallHistorySchemaV39.ManagedRecentCall
 {
     id _uniqueID;
-    id _conversationID;
-    id _localParticipantUUID;
-    id _outgoingLocalParticipantUUID;
-    id _participantGroupUUID;
-    id _ttyType;
-    id _bytesOfDataUsed;
-    id _callerIDAvailability;
-    id _callerIDLocation;
-    id _date;
-    id _disconnectedCause;
-    id _duration;
-    id _filteredOutReason;
-    id _imageURL;
-    id _isoCountryCode;
-    id _junkConfidence;
-    id _junkIdentificationCategory;
-    id _callerNetworkName;
-    id _isRead;
-    id _verificationStatus;
-    id _hasMessage;
-    id _autoAnsweredReason;
-    id _usedEmergencyVideoStreaming;
-    id _wasEmergencyCall;
-    id _blockedByExtension;
-    id _blockedByExtensionName;
-    id _identityExtension;
-    id _callDirectoryIdentityType;
-    id _screenSharingType;
-    id _reminderUUID;
-    id _neededSCAnnouncement;
-    id _managedEmergencyMediaItems;
-    id _managedInitiator;
-    id _managedRemoteParticipantHandles;
-    id _communicationTrustScore;
-    id _originatingUIType;
-    id _originatingDeviceName;
-    id __mediaType;
-    id __callStatus;
-    id __serviceProvider;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

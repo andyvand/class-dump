@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     NSArray *_contributors;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)opedicInfo>"16@0:(id)arg1 8;
+- (id)pt to match %lu handles for contact %{private}@ (%{private}@);
+- (id)ot authorised for Contacts;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)ralLightingDidChangeNotification;
+- (void)HMDAccessorySupportsNaturalLightingDidChangeNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contributors; // @synthesize contributors=_contributors;

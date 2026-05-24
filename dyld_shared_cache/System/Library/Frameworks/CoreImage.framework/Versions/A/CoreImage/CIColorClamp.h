@@ -6,20 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorClamp : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputMinComponents;
-    CIVector *inputMaxComponents;
 }
 
 + (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputMaxComponents; // @synthesize inputMaxComponents;
-@property(retain, nonatomic) CIVector *inputMinComponents; // @synthesize inputMinComponents;
 
 @end
 

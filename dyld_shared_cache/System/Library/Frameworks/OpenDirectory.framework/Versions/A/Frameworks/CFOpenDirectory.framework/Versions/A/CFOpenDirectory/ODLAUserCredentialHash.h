@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)y for Float16 or Int8 currently.;
 - (id);
 
 // Remaining properties

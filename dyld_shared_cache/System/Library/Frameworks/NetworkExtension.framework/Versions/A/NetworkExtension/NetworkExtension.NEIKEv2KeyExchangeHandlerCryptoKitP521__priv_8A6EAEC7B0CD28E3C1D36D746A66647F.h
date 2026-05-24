@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)erver:pirPrivacyPassIssuerURL:pirAuthenticationToken:controlProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithPIRServer:pirPrivacyPassIssuerURL:pirAuthenticationToken:controlProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

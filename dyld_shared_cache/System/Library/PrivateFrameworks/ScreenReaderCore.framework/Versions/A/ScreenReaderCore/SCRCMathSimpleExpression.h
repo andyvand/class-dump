@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathSimpleExpression : SCRCMathExpression
 {
     NSString *_content;
-    _Bool _isImplicit;
 }
 
-- (id);
+- (id)z;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
@@ -33,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) _Bool isImplicit; // @synthesize isImplicit=_isImplicit;
-@property(readonly, nonatomic) _Bool isNumberOverride;
 
 @end
 

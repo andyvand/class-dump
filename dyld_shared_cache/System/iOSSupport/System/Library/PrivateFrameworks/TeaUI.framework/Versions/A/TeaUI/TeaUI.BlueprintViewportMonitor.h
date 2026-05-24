@@ -7,10 +7,9 @@
 @interface TeaUI.BlueprintViewportMonitor
 {
     id observers;
-    id options;
 }
 
-- (id);
+- (id)q16q24d32d40q48q56q64q72q80q88@96@104;
 - (void);
 - (void)iüÿ<iüÿiüÿ iüÿ¸iüÿøiüÿ<jüÿjüÿ;
 

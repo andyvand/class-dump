@@ -9,15 +9,6 @@
 @interface PKMetalView
 {
     CABackdropLayer *_backdropLayer;
-    CAMetalLayer *_metalLayer;
-    CAMetalLayer *_metalMultiplyLayer;
-    _Bool _isFixedPixelSize;
-    _Bool _doubleBuffered;
-    _Bool _sixChannelBlending;
-    _Bool _useLuminanceColorFilter;
-    _Bool _wantsExtendedDynamicRangeContent;
-    unsigned long long _pixelFormat;
-    struct CGSize _fixedPixelSize;
 }
 
 + (struct CGImage *);
@@ -41,10 +32,10 @@
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)!H*AH*;
 - (_Bool);
-- (void);
+- (void)_mvsc;
 - (void);
 - (void)ÉÿÿÿÿÿÀ;
 - (unsigned long long);
@@ -53,18 +44,7 @@
 - (struct CGSize)	;
 
 // Remaining properties
-@property(nonatomic) _Bool doubleBuffered; // @synthesize doubleBuffered=_doubleBuffered;
-@property(readonly, nonatomic) struct CGSize drawableSize;
-@property(readonly, nonatomic) struct CGSize fixedPixelSize; // @synthesize fixedPixelSize=_fixedPixelSize;
-@property(readonly, nonatomic) _Bool isDrawableAvailable;
-@property(readonly, nonatomic) _Bool isFixedPixelSize; // @synthesize isFixedPixelSize=_isFixedPixelSize;
 @property(readonly, nonatomic) CAMetalLayer *metalLayer;
-@property(readonly, nonatomic) CAMetalLayer *metalMultiplyLayer;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) _Bool presentsWithTransaction;
-@property(nonatomic) _Bool sixChannelBlending; // @synthesize sixChannelBlending=_sixChannelBlending;
-@property(nonatomic) _Bool useLuminanceColorFilter; // @synthesize useLuminanceColorFilter=_useLuminanceColorFilter;
-@property(nonatomic) _Bool wantsExtendedDynamicRangeContent; // @synthesize wantsExtendedDynamicRangeContent=_wantsExtendedDynamicRangeContent;
 
 @end
 

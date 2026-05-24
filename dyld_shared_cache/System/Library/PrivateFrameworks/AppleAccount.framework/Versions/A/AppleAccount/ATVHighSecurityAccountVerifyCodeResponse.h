@@ -6,8 +6,6 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSString;
-
 @interface ATVHighSecurityAccountVerifyCodeResponse : AAResponse
 {
 }
@@ -18,9 +16,6 @@
 - (long long)-MY-MY-MÙY-MY-M4Y-MY-M|Y-MÈY-MY-M"Y-M+Y-MNY-MCY-MY-MY-MñY-M>Y-MxY-M¼Y-MY-MzY-MîY-M1Y-MY-MéY-MY-M¾Y-M2Y-M§Y-MýY-M¶Y-MuY-MËY-MÇY-M½Y-M#Y-M$Y-MòY-MVY-MàY-MJY-MY-MY-MY-M/Y-MïY-MfY-M Y-MÂY-MöY-MoY-MyY-MðY-MY-MèY-MIY-MbY-MGY-M]Y-MYY-MªY-MÛY-M¤Y-MÏY-MµY-MåY-MY-M;
 
 // Remaining properties
-@property(readonly, nonatomic) long long errorCode;
-@property(readonly, nonatomic) NSString *errorMessage;
-@property(readonly, nonatomic) NSString *errorTitle;
 @property(readonly, nonatomic) _Bool success;
 
 @end

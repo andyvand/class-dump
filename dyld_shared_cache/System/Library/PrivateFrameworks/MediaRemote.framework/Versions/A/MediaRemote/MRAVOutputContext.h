@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVOutputDevice, NSArray, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSArray;
 
 @interface MRAVOutputContext
 {
     NSArray *_outputDevices;
-    NSArray *_outputDevicesSnapshot;
-    NSObject<OS_dispatch_source> *_reloadCoalescingSource;
 }
 
 + (id);
@@ -19,16 +16,16 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
+- (id)isScreenshot;
+- (void)CommunicationLimitManager",R,N;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned int);
+- (void)dex %ld not found in message, cannot remove message part, bailing;
+- (unsigned int)e.Messages.IMMetricsCollectorEventiMessageAppStickerPackOnlyCount;
 - (void);
 - (void);
 - (void);
@@ -37,60 +34,44 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)P;
 - (id);
 - (void);
 - (float);
 - (void);
+- (id);
 - (id);
+- (void);
+- (_Bool)initWithRecognition:unfilteredRecognition:rawRecognition:audioAnalytics:isFinal:utteranceStart:latticeMitigatorResult:recognitionPaused:speechProfileUsed:resultCandidateId:endOfSentenceLikelihood:modelVersion:acousticModelVersion:potentialCommandPrecedingUtterance:potentialCommandUtterance:numOneBestTokensExcludingTriggerPhrase: /* Error: Ran out of types for this method. */;
+- (void)_usageResultHandlerConnection;
+- (void)hanges, but we're not observing any of them.;
+- (void)8;
+- (_Bool)set;
+- (_Bool)ublisher _getState:withToken:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 - (void);
 - (void)b1"validTextRangeLocation"b1"autocapitalizationType"b1"keyboardType"b1"returnKeyType"b1"autocorrection"b1"enablesReturnKeyAutomatically"b1"secureTextEntry"b1"spellchecking"b1};
-- (_Bool)dDisplay;
-- (void)nt;
-- (_Bool)temAppDidSkipTrackNotification;
+- (_Bool)isIntegratedDisplay;
+- (void)_client;
+- (_Bool)kMRMediaRemoteSystemAppDidSkipTrackNotification;
 - (void)¯;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsLocalDevice;
-@property(readonly, nonatomic) NSString *contextID;
-@property(readonly, nonatomic) NSArray *outputDeviceUIDs;
 @property(retain, nonatomic) NSArray *outputDevices;
-@property(readonly, nonatomic) NSArray *outputDevicesSnapshot;
-@property(readonly, nonatomic) NSArray *personalDeviceUIDs;
-@property(readonly, nonatomic) NSArray *personalDevices;
-@property(readonly, nonatomic) MRAVOutputDevice *predictedOutputDevice;
-@property(readonly, nonatomic) NSArray *predictedOutputDeviceUIDs;
-@property(readonly, nonatomic) _Bool supportsMultipleBluetoothOutputDevices;
-@property(readonly, nonatomic) _Bool supportsVolumeControl;
-@property(readonly, nonatomic) unsigned int type;
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
-@property(nonatomic) float volume;
-@property(readonly, nonatomic, getter=isVolumeControlAvailable) _Bool volumeControlAvailable;
-@property(readonly, nonatomic) unsigned int volumeControlCapabilities;
-@property(nonatomic, getter=isVolumeMuted) _Bool volumeMuted;
 
 @end
 

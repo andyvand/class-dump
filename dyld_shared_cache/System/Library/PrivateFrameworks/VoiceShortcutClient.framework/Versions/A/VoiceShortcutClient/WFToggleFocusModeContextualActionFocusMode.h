@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFColor;
+@class NSString;
 
 @interface WFToggleFocusModeContextualActionFocusMode
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_symbolName;
-    NSString *_colorName;
 }
 
 + (_Bool);
+- (id)y^z;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ion"@"NSError">;
+- (id)ay";
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,11 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFColor *color;
-@property(readonly, copy, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

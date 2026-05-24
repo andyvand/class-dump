@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool _useTextItemCornerRadius;
 }
 
-+ (id);
++ (id)^2;
 - (void);
 - (void);
 

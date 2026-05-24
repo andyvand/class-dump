@@ -7,49 +7,32 @@
 @interface WidgetKit._WidgetExtensionSession
 {
     id _exExtensionIdentity;
-    id _exExtensionProcess;
-    id sessionUUID;
-    id $__lazy_storage_$_loggingIdentifier;
-    id lock;
-    id subscriptions;
-    id watchdogTimeoutQueue;
-    id watchdogTimeoutProvider;
-    id rbsInterface;
-    id suspensionObserver;
-    id shouldTakeExtensionAssertion;
-    id widgetExtensionAssertion;
-    id boostedWidgetExtensionAssertion;
-    id schedulingPriority;
-    _Bool boostToForegroundPriority;
-    id lock_invalidated;
-    id connection;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (int);
+- (void)nts_provisioning_cache VALUES (NULL, @uuid, @predicate, @wildcard);
+- (void)(%lu,@p%lu);
+- (void)ate_provisioning_cache JOIN certificates ON certificates.pk = leaf_pk WHERE certificates.leaf = @cert;
+- (void)tes(idx, predicate) AS (VALUES %@), filteredProfileUUIDs(uuid) AS (%@) SELECT * FROM (SELECT profiles.uuid, profiles.team_id, profiles.name, profiles.expires, profiles.is_for_all_devices, profiles.is_apple_internal, profiles.is_local, profiles.is_beta, profiles.is_der, COUNT(DISTINCT predicates.idx) as matchCount FROM filteredProfileUUIDs JOIN profiles ON profiles.uuid = filteredProfileUUIDs.uuid JOIN entitlements_provisioning_cache ON entitlements_provisioning_cache.uuid = filteredProfileUUIDs.uuid CROSS JOIN predicates WHERE profiles.is_apple_internal OR ((entitlements_provisioning_cache.wildcard = 0 AND entitlements_provisioning_cache.predicate = predicates.predicate) OR (entitlements_provisioning_cache.wildcard = 1 AND glob(entitlements_provisioning_cache.predicate, predicates.predicate) )) GROUP BY profiles.uuid, profiles.is_apple_internal) AS aggregated WHERE aggregated.matchCount = @totalPredicates OR aggregated.is_apple_internal ORDER BY  aggregated.is_der DESC, aggregated.is_local ASC, aggregated.is_for_all_devices ASC;
+- (void)_internal, is_local, is_beta FROM profiles;
+- (void)uuid, team_id, name, expires, is_for_all_devices, is_apple_internal, is_local, is_beta FROM profiles;
+- (void)profile_cms_blob;
+- (void)T cms_blob FROM profiles WHERE is_der = 0;
+- (void)EFERENCES profiles(uuid)    ON DELETE CASCADE );
+- (void)NT fk_legacy_profile_grace_period_uuid    FOREIGN KEY (uuid)    REFERENCES profiles(uuid)    ON DELETE CASCADE );
+- (void)KEY,  grace_period INT NOT NULL,  CONSTRAINT fk_legacy_profile_grace_period_uuid    FOREIGN KEY (uuid)    REFERENCES profiles(uuid)    ON DELETE CASCADE );
+- (void)file_grace_periods (  uuid TEXT NOT NULL PRIMARY KEY,  grace_period INT NOT NULL,  CONSTRAINT fk_legacy_profile_grace_period_uuid    FOREIGN KEY (uuid)    REFERENCES profiles(uuid)    ON DELETE CASCADE );
+- (void)VALUES (?1, ?2, 1);
+- (void)entitlements_provisioning_cache (uuid, predicate, wildcard) VALUES (?1, ?2, 1);
+- (void)wildcard = 1;
+- (void)WHERE predicate LIKE 'string%' || x'1f' || '*' AND wildcard = 1;
+- (void)uuid TEXT NOT NULL );
+- (_Bool)CREATE TABLE IF NOT EXISTS banned_profile_uuids (  uuid TEXT NOT NULL );
+- (void), cdhash),  CONSTRAINT fk_online_auth_profile_uuid    FOREIGN KEY (uuid)    REFERENCES profiles(uuid)    ON DELETE CASCADE );
+- (int)archivedDictionaryDataWithError: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority; // @synthesize boostToForegroundPriority;
-@property(nonatomic, readonly) int pid;
 
 @end
 

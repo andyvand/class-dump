@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordRetrieveChangesResponseZoneAttributesChange, NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPRecordRetrieveChangesResponse
 {
     NSMutableArray *_changedDeltas;
-    NSMutableArray *_changedRecords;
-    NSMutableArray *_changedShares;
-    NSData *_clientChangeToken;
-    int _status;
-    NSData *_syncContinuationToken;
-    NSMutableArray *_syncObligations;
-    CKDPRecordRetrieveChangesResponseZoneAttributesChange *_zoneAttributesChange;
-    _Bool _pendingArchivedRecords;
-    struct {
-        unsigned int status:1;
-        unsigned int pendingArchivedRecords:1;
-    } _has;
 }
 
++ (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-- (void);
+- (void)B;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -48,16 +36,16 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ndpointStreamAudioEngineRef);
 - (void);
 - (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)ld the database write connection for %0.05f seconds;
 - (void);
 - (id);
 - (void);
@@ -72,30 +60,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)W;
 - (_Bool);
-- (void)rchiveRecordsResponse;
-- (void)tPermission;
+- (void)hasArchiveRecordsResponse;
+- (void)_myParticipantPermission;
 - (int)2;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *changedDeltas; // @synthesize changedDeltas=_changedDeltas;
 @property(retain, nonatomic) NSMutableArray *changedRecords; // @synthesize changedRecords=_changedRecords;
-@property(retain, nonatomic) NSMutableArray *changedShares; // @synthesize changedShares=_changedShares;
-@property(retain, nonatomic) NSData *clientChangeToken; // @synthesize clientChangeToken=_clientChangeToken;
-@property(readonly, nonatomic) _Bool hasClientChangeToken;
-@property(nonatomic) _Bool hasPendingArchivedRecords;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasSyncContinuationToken;
-@property(readonly, nonatomic) _Bool hasZoneAttributesChange;
-@property(nonatomic) _Bool pendingArchivedRecords; // @synthesize pendingArchivedRecords=_pendingArchivedRecords;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSData *syncContinuationToken; // @synthesize syncContinuationToken=_syncContinuationToken;
-@property(retain, nonatomic) NSMutableArray *syncObligations; // @synthesize syncObligations=_syncObligations;
-@property(retain, nonatomic) CKDPRecordRetrieveChangesResponseZoneAttributesChange *zoneAttributesChange; // @synthesize zoneAttributesChange=_zoneAttributesChange;
 
 @end
 

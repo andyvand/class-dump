@@ -7,9 +7,6 @@
 @interface SOAudioMessageWaveForm
 {
     unsigned long long _maxPowerLevelsCount;
-    unsigned long long _powerLevelsCount;
-    double *_powerLevels;
-    double _duration;
 }
 
 + (double);
@@ -20,13 +17,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (double *);
-- (void);
+- (void)U;
 - (void);
 - (double);
 - (void);
@@ -34,10 +31,7 @@
 - (id);
 
 // Remaining properties
-@property double duration; // @synthesize duration=_duration;
 @property(nonatomic) unsigned long long maxPowerLevelsCount; // @synthesize maxPowerLevelsCount=_maxPowerLevelsCount;
-@property(nonatomic) double *powerLevels; // @synthesize powerLevels=_powerLevels;
-@property(nonatomic) unsigned long long powerLevelsCount; // @synthesize powerLevelsCount=_powerLevelsCount;
 
 @end
 

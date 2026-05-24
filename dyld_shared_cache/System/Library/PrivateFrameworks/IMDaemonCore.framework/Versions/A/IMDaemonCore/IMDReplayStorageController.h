@@ -9,7 +9,6 @@
 @interface IMDReplayStorageController
 {
     NSString *_filePath;
-    IDSKVStore *_store;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 @property(retain, nonatomic) IDSKVStore *store; // @synthesize store=_store;
 
 @end

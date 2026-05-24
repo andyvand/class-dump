@@ -9,13 +9,6 @@
 @interface _DASContinuedProcessingWrapper
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_iconUTI;
-    NSString *_linkToBundleIdentifier;
-    long long _resources;
-    long long _submissionStrategy;
-    long long _executionContext;
-    CDStruct_4c969caf _hostAppAuditToken;
 }
 
 + (_Bool);
@@ -26,10 +19,10 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)S;
+- (id)	*i;
 - (id);
-- (id);
-- (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789)locationPrecisionForBundleIdentifier:bundle: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -37,24 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id)Ô¡$°!ÐEù±*(Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long executionContext; // @synthesize executionContext=_executionContext;
-@property(nonatomic) CDStruct_4c969caf hostAppAuditToken; // @synthesize hostAppAuditToken=_hostAppAuditToken;
-@property(copy, nonatomic) NSString *iconUTI; // @synthesize iconUTI=_iconUTI;
-@property(readonly, nonatomic) _Bool isForegroundAppProxy;
-@property(copy, nonatomic) NSString *linkToBundleIdentifier; // @synthesize linkToBundleIdentifier=_linkToBundleIdentifier;
-@property(nonatomic) long long resources; // @synthesize resources=_resources;
-@property(nonatomic) long long submissionStrategy; // @synthesize submissionStrategy=_submissionStrategy;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

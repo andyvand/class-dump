@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol EspressoBrick
+- (NSArray *)tDataAtIndex:(NSArray *)arg1 ];
+- (id)T;
+
+@optional
+- (void)MTLPixelFormatASTC_4x2_HDR;
+- (_Bool)outputs
+ New:(unsigned long long)arg1;
+- (void)orks/MTLCompiler.framework/Versions/32024/MTLCompiler;
+- (_Bool);
 @end
 

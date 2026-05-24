@@ -6,16 +6,12 @@
 
 #import <UIKitMacHelper/UINSPreferencesModule.h>
 
-@class NSArray, NSPopUpButton, NSStackView, NSTextField, UINSInputAlternativesEducationViewController;
+@class NSStackView, UINSInputAlternativesEducationViewController;
 
 __attribute__((visibility("hidden")))
 @interface UINSTouchPreferencesModule : UINSPreferencesModule
 {
     UINSInputAlternativesEducationViewController *_educationViewController;
-    NSArray *_filteredOnboardingClasses;
-    NSStackView *_taStackView;
-    NSTextField *_showFilteredLabel;
-    NSPopUpButton *_showFilteredButton;
 }
 
 - (void);
@@ -27,14 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setDrain_depth_mean_at_charge_start_secs_curr_dynamic_bin_8: /* Error: Ran out of types for this method. */;
+- (void)r^v16;
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak NSPopUpButton *showFilteredButton; // @synthesize showFilteredButton=_showFilteredButton;
-@property __weak NSTextField *showFilteredLabel; // @synthesize showFilteredLabel=_showFilteredLabel;
 @property __weak NSStackView *taStackView; // @synthesize taStackView=_taStackView;
 
 @end

@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SFRevocationPolicy, SFTrustPolicy;
+@class SFTrustPolicy;
 
 __attribute__((visibility("hidden")))
 @interface SFTrustEvaluator
 {
     id _trustEvaluatorInternal;
-    _Bool _allowCertificateFetching;
-    _Bool _trustSystemAnchorCertificates;
-    SFTrustPolicy *_trustPolicy;
-    SFRevocationPolicy *_revocationPolicy;
-    NSArray *_applicationAnchorCertificates;
 }
 
-+ (_Bool);
++ (_Bool)I;
+- (_Bool)( ;
+- (id)( ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)( ;
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)rl ;
+- (id)hotosKeywords="%@"cwd || kMDItemTitle="%@"cwd || kMDItemKeywords="%@"cwd);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowCertificateFetching; // @synthesize allowCertificateFetching=_allowCertificateFetching;
-@property(copy, nonatomic) NSArray *applicationAnchorCertificates; // @synthesize applicationAnchorCertificates=_applicationAnchorCertificates;
-@property(copy, nonatomic) SFRevocationPolicy *revocationPolicy; // @synthesize revocationPolicy=_revocationPolicy;
 @property(copy, nonatomic) SFTrustPolicy *trustPolicy; // @synthesize trustPolicy=_trustPolicy;
-@property(nonatomic) _Bool trustSystemAnchorCertificates; // @synthesize trustSystemAnchorCertificates=_trustSystemAnchorCertificates;
 
 @end
 

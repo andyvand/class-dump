@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface QLVideoScrubberViewAccessibility
+#import <QuickLook/__QLVideoScrubberViewAccessibility_super.h>
+
+@interface QLVideoScrubberViewAccessibility : __QLVideoScrubberViewAccessibility_super
 {
 }
 

@@ -9,10 +9,6 @@
 @interface AppStoreKit.ArcadeAction : AppStoreKit.Action
 {
     id productId;
-    id appAdamId;
-    id postSubscribeAction;
-    id subscriptionToken;
-    id paymentMetricsOverlay;
 }
 
 @end

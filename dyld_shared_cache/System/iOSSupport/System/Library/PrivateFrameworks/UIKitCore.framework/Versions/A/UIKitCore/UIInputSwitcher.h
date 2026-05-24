@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UIInputSwitcher
 {
     UIDelayedAction *m_showSwitcherDelay;
-    UIDelayedAction *m_hideSwitcherDelay;
-    int m_state;
-    double m_lastGlobeKeyUpTime;
-    NSString *_newMode;
-    _Bool _usingCapsLockLanguageSwitch;
-    _Bool _dismissingEmojiPopover;
-    _Bool _showsLanguageIndicatorOnly;
-    NSString *_loadedIdentifier;
 }
 
 + (id)üYa;
@@ -31,6 +23,32 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)L;
+- (void);
+- (void)er when trying report _PCSBackupStateDidChange;
+- (void)periodic sync metric.;
+- (void), identifier:(id)arg1 %@;
+- (void)o reply becuase it does not support CoreTelephony subscriptions;
+- (void)%@ as clean;
+- (id)in edited message %@;
+- (void)%@ isMainThread:%@ /* Error: Ran out of types for this method. */;
+- (id)MessageLegacyProcessingPipelineComponent> Started processing for Message:%@ /* Error: Ran out of types for this method. */;
+- (id)for peer relay;
+- (_Bool)%@;
+- (id)error handling.;
+- (_Bool)Codes | Presenting Delete Verification Codes notification with title:"%@" message:"%@" /* Error: Ran out of types for this method. */;
+- (id));
+- (void)ditedMessageGUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (void); editCommandGUID = %@; editedMessageGUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (_Bool)ready has synced state;
+- (_Bool)ChatToSyncHasSyncedState;
+- (_Bool)IMDChat for IMDChatRecordRef;
+- (void)d to find chats to sync; fetched chats failed to encode as CKRecord;
+- (_Bool)o create CKRecord for message;
+- (_Bool)UID;
+- (_Bool)String"8@"IMPendingReplicatedMessage"16^B24;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,42 +58,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void)4VÐ;Th;
 - (_Bool)n;
 
 // Remaining properties
-@property(nonatomic) _Bool dismissingEmojiPopover; // @synthesize dismissingEmojiPopover=_dismissingEmojiPopover;
 @property(copy, nonatomic) NSString *loadedIdentifier; // @synthesize loadedIdentifier=_loadedIdentifier;
-@property(nonatomic) _Bool showsLanguageIndicatorOnly; // @synthesize showsLanguageIndicatorOnly=_showsLanguageIndicatorOnly;
-@property(nonatomic) _Bool usingCapsLockLanguageSwitch; // @synthesize usingCapsLockLanguageSwitch=_usingCapsLockLanguageSwitch;
 
 @end
 

@@ -7,13 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBSearchInAppCommand
-- (void)_entity_types;
+- (NSString *)s:humanActionIdentifiers:ocrAssetUUIDS: /* Error: Ran out of types for this method. */;
+- (NSData *)setInfo:forKey: /* Error: Ran out of types for this method. */;
+- (void)sba_entity_types;
 - (NSString *)ommand",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int searchInAppType;
 @property(copy, nonatomic) NSString *searchString;
 @end
 

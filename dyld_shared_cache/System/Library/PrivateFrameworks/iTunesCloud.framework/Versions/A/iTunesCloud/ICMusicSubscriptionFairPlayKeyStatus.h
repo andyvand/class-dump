@@ -7,8 +7,6 @@
 @interface ICMusicSubscriptionFairPlayKeyStatus
 {
     _Bool _hasOnlinePlaybackKeys;
-    _Bool _hasOfflinePlaybackKeys;
-    unsigned long long _accountUniqueIdentifier;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long accountUniqueIdentifier; // @synthesize accountUniqueIdentifier=_accountUniqueIdentifier;
-@property(nonatomic) _Bool hasOfflinePlaybackKeys; // @synthesize hasOfflinePlaybackKeys=_hasOfflinePlaybackKeys;
-@property(nonatomic) _Bool hasOnlinePlaybackKeys; // @synthesize hasOnlinePlaybackKeys=_hasOnlinePlaybackKeys;
 
 @end
 

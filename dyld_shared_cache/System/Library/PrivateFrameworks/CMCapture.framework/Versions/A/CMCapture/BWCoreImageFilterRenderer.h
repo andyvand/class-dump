@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSObject, NSString;
-@protocol MTLCommandQueue, OS_dispatch_queue;
-
 @interface BWCoreImageFilterRenderer
 {
     _Bool _usingDepth;
-    int _portraitRenderQuality;
-    float _inputRenderQuality;
-    NSObject<OS_dispatch_queue> *_renderingQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CIContext *_renderingQueueContext;
-    id <MTLCommandQueue> _metalCommandQueue;
-    _Bool _hairnetEnabled;
 }
 
-+ (void);
++ (void)J;
 + (void);
 + (id)!Cùñ$1Â0@ù
 × ;
@@ -38,18 +28,6 @@
 - (_Bool)ent.allow;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CIContext *renderingQueueContext; // @synthesize renderingQueueContext=_renderingQueueContext;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 @property(readonly, nonatomic) _Bool usingDepth; // @synthesize usingDepth=_usingDepth;
 
 @end

@@ -7,30 +7,6 @@
 @interface PhotosUICore.LemonadeRootViewModel
 {
     id photoLibrary;
-    id imageProvider;
-    id subtitleModel;
-    id sharedLibraryBannerViewModel;
-    id searchViewModel;
-    id accountViewModel;
-    id shelvesViewModel;
-    id curatedLibraryViewModel;
-    id fallbackNavigator;
-    id viewResetCoordinator;
-    id photoLibraryContext;
-    id cellSpecs;
-    id _zoomLevel;
-    id _wantsSidebarToggleButton;
-    id _scrollToTopSignal;
-    id _scrollToTopAnimationDuration;
-    id _scrollRequest;
-    id verticalMargin;
-    id __containerSafeAreaInsets;
-    id __containerSize;
-    id __horizontalSizeClass;
-    id __verticalSizeClass;
-    id __orientation;
-    id _displayStateChangedHandler;
-    id _$observationRegistrar;
 }
 
 @end

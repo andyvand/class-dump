@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_centerForIdentifier:(id)arg1 type:(id)arg2;
++ (id)_centerBundleIdentifier;
++ (_Bool)_callSelector:(id)arg1 onBagContract:(id)arg2;
++ (void)_cachedCookiePropertiesForAccount:(unsigned long long)arg1;
++ (id)_buyProductURLKeysForProductType:(id)arg1 prefix:(id)arg2;
++ (id)_buildRequestTask;
++ (id)_brokerURL;
++ (id)_boolFromDatabaseForKey:(id)arg1 defaultValue:domain:error: /* Error: Ran out of types for this method. */;
 
 @end
 

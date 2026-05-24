@@ -7,10 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.HandleSelection.ViewModel
 {
     id _handles;
-    id _handleToSenderIdentityMapping;
-    id conversation;
-    id handleImageCache;
-    id _$observationRegistrar;
 }
 
 @end

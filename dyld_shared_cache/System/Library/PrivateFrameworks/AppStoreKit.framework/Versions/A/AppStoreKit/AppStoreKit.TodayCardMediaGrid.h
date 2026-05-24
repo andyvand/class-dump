@@ -9,8 +9,6 @@
 @interface AppStoreKit.TodayCardMediaGrid : AppStoreKit.TodayCardMedia
 {
     id lockups;
-    id artworkGridType;
-    id lockupImpressionLimit;
 }
 
 @end

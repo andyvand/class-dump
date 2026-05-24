@@ -6,70 +6,42 @@
 
 #import <UIKitCore/_UITransitionState.h>
 
-@class NSString, UIView, _UIPageCurl;
+@class _UIPageCurl;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageCurlState : _UITransitionState
 {
     _UIPageCurl *_pageCurl;
-    long long _curlType;
-    struct CGPoint _initialLocation;
-    struct CGPoint _referenceLocation;
-    UIView *_frontPageView;
-    UIView *_backPageView;
-    UIView *_frontView;
-    UIView *_backView;
-    long long _completionCount;
-    long long _curlState;
-    _Bool _finished;
-    _Bool _willComplete;
-    CDUnknownBlockType _finally;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)@"NSError"24;
+- (void)8@"IMDRelayPushHandler"16@"NSString"24B32@"NSNumber"36@"NSString"44@"NSString"52@"NSData"60B68@"NSNumber"72;
+- (id)@0:(id)arg1 8^@16q24;
+- (void)uniqueIDOverride;
+- (id)setOriginalUnformattedID: /* Error: Ran out of types for this method. */;
+- (id)setOriginalTextRangesByPartIndex: /* Error: Ran out of types for this method. */;
+- (long long)loadChatWithGUID:queryID: /* Error: Ran out of types for this method. */;
+- (long long)loadChatWithChatIdentifier: /* Error: Ran out of types for this method. */;
+- (void)handler:(_Bool)arg1 messageIDDelivered:(_Bool)arg2 toIdentifier:fromIdentifier:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
+- (id)digitalTouchBalloon;
+- (void)characterIsMember: /* Error: Ran out of types for this method. */;
+- (void)categorizeIncomingMessage:deviceID:category:subCategory:messageGUID:sender:wasRelayed:chatIdentifier:participants:checkingForSpam:trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (long long);
-- (void);
+- (long long)@  (serviceLoginStatus:%lu) /* Error: Ran out of types for this method. */;
+- (void)descending vs current (%@ vs %@);
 - (_Bool);
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id);
+- (struct CGPoint)estrictionsCommand_StatusProfileRestrictions",C,N,V_statusProfileRestrictions;
+- (struct CGPoint)equest:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void)àÄ7;
 - (void)K;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *backPageView;
-@property(readonly, nonatomic) UIView *backView; // @synthesize backView=_backView;
-@property(readonly, nonatomic) long long curlState; // @synthesize curlState=_curlState;
-@property(readonly, nonatomic) long long curlType; // @synthesize curlType=_curlType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIView *frontPageView;
-@property(readonly, nonatomic) UIView *frontView; // @synthesize frontView=_frontView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPoint initialLocation; // @synthesize initialLocation=_initialLocation;
 @property(readonly, nonatomic) _UIPageCurl *pageCurl; // @synthesize pageCurl=_pageCurl;
-@property(readonly, nonatomic, getter=hasPendingAnimations) _Bool pendingAnimations;
-@property(readonly, nonatomic) struct CGPoint referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(readonly) Class superclass;
 
 @end
 

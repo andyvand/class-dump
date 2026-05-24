@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface DDURLAction : DDMacAction
 {
     NSString *_replacementForSpaces;
-    NSString *_url;
 }
 
 + (id);

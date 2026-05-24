@@ -4,65 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, AVTAvatar, AVTAvatarEnvironment, AVTPresentationConfiguration, AVTViewTransitionHelper, MTLRenderPassDescriptor, NSArray, NSRecursiveLock, NSString, SCNNode, SCNScene, SKScene, VFXNode, VFXRenderGraph, VFXWorld;
-@protocol AVTRendererTechnique, MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, SCNSceneRendererDelegate;
+@class AVTAvatarEnvironment;
 
 @interface AVTView
 {
     AVTAvatarEnvironment *_environment;
-    AVTPresentationConfiguration *_presentationConfiguration;
-    AVTAvatar *_avatar;
-    VFXNode *_avatarNode;
-    _Bool _avtRendersContinuously;
-    id <AVTRendererTechnique> _avtRendererTechnique;
-    id <AVTRendererTechnique> _avtRendererTechniquePresentationTree;
-    id _backgroundContentsBehindDrawable;
-    AVTViewTransitionHelper *_transitionHelper;
-    NSRecursiveLock *_lock;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool additiveWritesToAlpha;
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(readonly, nonatomic) AVAudioEngine *audioEngine;
-@property(readonly, nonatomic) AVAudioEnvironmentNode *audioEnvironmentNode;
-@property(retain, nonatomic) SCNNode *audioListener;
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(retain, nonatomic) AVTAvatar *avatar;
-@property(retain, nonatomic) id <AVTRendererTechnique> avtRendererTechnique;
-@property(copy, nonatomic) NSArray *binaryArchives;
-@property(readonly, nonatomic) unsigned long long colorPixelFormat;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> currentRenderCommandEncoder;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(readonly, nonatomic) struct CGRect currentViewport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long debugOptions;
-@property(nonatomic) __weak id <SCNSceneRendererDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long depthPixelFormat;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <MTLDevice> device;
 @property(readonly) AVTAvatarEnvironment *environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(retain, nonatomic) SKScene *overlaySKScene;
-@property(getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
-@property(retain, nonatomic) VFXRenderGraph *renderGraph;
-@property(readonly, nonatomic) unsigned long long renderingAPI;
-@property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) double sceneTime;
-@property(nonatomic) _Bool showsStatistics;
-@property(readonly, nonatomic) unsigned long long stencilPixelFormat;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;
-@property(nonatomic) _Bool usesReverseZ;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
-@property(retain, nonatomic) VFXWorld *world;
 @end
 

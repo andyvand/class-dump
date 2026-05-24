@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PABuffer, PAMutableBuffer;
+@class PABuffer;
 
 @interface PA2DBufferBackingTile
 {
     PABuffer *_buffer;
-    PAMutableBuffer *_mutableBuffer;
-    struct CGRect _tileRect;
 }
 
 - (_Bool);
@@ -29,15 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) PABuffer *buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) PAMutableBuffer *mutableBuffer; // @synthesize mutableBuffer=_mutableBuffer;
-@property(readonly) Class superclass;
 @property struct CGRect tileRect; // @synthesize tileRect=_tileRect;
 
 @end

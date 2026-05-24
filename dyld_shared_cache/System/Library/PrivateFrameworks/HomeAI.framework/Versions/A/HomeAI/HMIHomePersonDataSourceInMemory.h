@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMIHomePersonDataSourceInMemory
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_personToFaceCrops;
-    NSMutableSet *_unassociatedFaceCrops;
-    NSSet *_removedPersonFaceCrops;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
 + (id)Å;
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void)hj9 ;
 - (void);
 - (void);
 - (void);
+- (void)9;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -47,17 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly) NSMutableDictionary *personToFaceCrops; // @synthesize personToFaceCrops=_personToFaceCrops;
-@property(readonly) NSSet *removedPersonFaceCrops; // @synthesize removedPersonFaceCrops=_removedPersonFaceCrops;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableSet *unassociatedFaceCrops; // @synthesize unassociatedFaceCrops=_unassociatedFaceCrops;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

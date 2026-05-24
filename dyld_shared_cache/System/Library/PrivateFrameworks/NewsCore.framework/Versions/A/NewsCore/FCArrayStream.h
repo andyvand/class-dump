@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCArrayStream
 {
     NSArray *_array;
-    unsigned long long _index;
 }
 
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void)rdingCustomizeSearchText;
+- (_Bool)sortStepsAccordingToOrder: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)localOnboardingCustomizeSearchText;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

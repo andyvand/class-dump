@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol MPSuggestedSearch;
 
 @interface MPSuggestionsSearchTableViewController
 {
     void suggestionsDelegate;
     void suggestions;
-    void searchText;
 }
 
 - (id);
 - (void);
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)r;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *searchText;
 @property(nonatomic, copy) NSArray *suggestions;
 @property(nonatomic) __weak id <MPSuggestedSearch> suggestionsDelegate; // @synthesize suggestionsDelegate;
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEConfigurationManager, NSMutableArray, NSString;
+@class NSString;
 
 @interface NEProfileIngestion
 {
     NSString *_clientName;
-    NSString *_payloadType;
-    NEConfigurationManager *_manager;
-    struct AuthorizationOpaqueRef *_authorization;
-    NSMutableArray *_currentConfigurations;
-    NEConfiguration *_ingestedConfiguration;
 }
 
 + (void);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)<˟;
 - (id);
 - (id);
 - (id);
@@ -53,18 +48,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void)24^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}32;
 - (struct AuthorizationOpaqueRef *)sPayload:empty payload atom /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct AuthorizationOpaqueRef *authorization; // @synthesize authorization=_authorization;
 @property(readonly) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain) NSMutableArray *currentConfigurations; // @synthesize currentConfigurations=_currentConfigurations;
-@property(retain) NEConfiguration *ingestedConfiguration; // @synthesize ingestedConfiguration=_ingestedConfiguration;
-@property(readonly) NEConfigurationManager *manager; // @synthesize manager=_manager;
-@property(readonly) NSString *payloadType; // @synthesize payloadType=_payloadType;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCoreSpotlightShareItem, _SFPBURLShareItem;
+@class NSData, _SFPBURLShareItem;
 
 @protocol _SFPBShareItem
+- (NSData *)shouldPromptUserToIgnoreBudgets;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBCoreSpotlightShareItem *spotlightShareItem;
 @property(retain, nonatomic) _SFPBURLShareItem *urlShareItem;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

@@ -4,63 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSPointerArray, NSString, NSTrackingSeparatorToolbarItem, NSWindow;
-@protocol NSScrollViewSeparatorTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter, NSWindowSectionContentControllerDelegate;
+@class NSObject;
+@protocol NSScrollViewSeparatorTrackingAdapter;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowSectionContentController
 {
     NSObject<NSScrollViewSeparatorTrackingAdapter> *_scrollViewTrackingAdapter;
-    NSObject<NSScrollViewSeparatorTrackingAdapter> *_pendingScrollViewTrackingAdapter;
-    NSPointerArray *_intersectingScrollViewTrackingAdapters;
-    NSObject<NSSplitViewItemSeparatorTrackingAdapter> *_splitViewItemTrackingAdapter;
-    NSPointerArray *_intersectingSplitViewItemTrackingAdapters;
-    long long _dividerStyle;
-    unsigned long long _seamlessStyle;
-    NSTrackingSeparatorToolbarItem *_leadingItem;
-    NSTrackingSeparatorToolbarItem *_trailingItem;
-    NSString *_groupName;
-    long long _accessoryMaterial;
-    _Bool _fullHeightDividersDisabled;
-    _Bool _fullHeightSidebarDividersDisabled;
-    _Bool _splitTrackingAdapterRespondsToIsTrailingSidebar;
-    _Bool _alignmentSatisfied;
-    NSWindow *_window;
-    _Bool _splitAdapterCanHostSeparator;
-    _Bool _materialShouldBeHidden;
-    _Bool _softPocketEnabled;
-    NSObject<NSWindowSectionContentControllerDelegate> *_delegate;
-    double _separatorOffset;
-    double _leadingNeighborSidebarWidth;
-    struct CGRect _dividerExtentRect;
-    struct CGRect _splitAdapterFrame;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-- (id);
++ (id)y have gotten here once as a SocketStream client;
++ (id)k Completed;
++ (_Bool)s, path:%s, value:%s, session:%c, secure:%c, httponly? %c, expires:%@, created:%@, accessed:%@ } /* Error: Ran out of types for this method. */;
++ (_Bool)r=}24;
++ (_Bool)seMessage}^{__shared_weak_count}}8@"NSObject<OS_dispatch_data>"24B32{?=qi}36;
++ (_Bool)esponseMessage>=^{HTTPResponseMessage}^{__shared_weak_count}}8;
+- (id)ses (%d) earlyKeyBagsAllowUnsealed (%d);
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
+- (void)torpedo;
+- (void)DeviceSupportsHypertensivePatternMeasurements;
+- (void)DeviceSupportsHandwritingSynthesisModel;
+- (void)DeviceSupportsHDRPhotoDisplay;
+- (void)DeviceSupportsContextualVolume;
+- (void)ice:(double)arg1 %@;
+- (void)icket_s *, CFDataRef, CFDataRef, CFDataRef);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)FuR7SfqQmxpRW5MyqMm7FQ;
+- (void)nternal;
+- (void)dz7F2FFseAysXoUZqaANZw;
+- (void)5YVEwERRin1v+reUNjJ5w;
+- (void)PP4pVJ24g;
+- (void)Nhm02nvVOaQPimpOshlO1g;
 - (void);
 - (unsigned long long);
 - (id);
@@ -78,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct NSEdgeInsets);
 - (long long);
-- (struct CGRect);
+- (struct CGRect)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,18 +63,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)connection:waitingWithReason: /* Error: Ran out of types for this method. */;
+- (void),G8HDN;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)$7;
+- (id)p/wake;
+- (void)to the select statement;
+- (void)statement;
+- (void)elect statement;
 - (void);
 - (double);
 - (_Bool);
@@ -106,43 +83,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)leURLWithPath:(id)arg1;
+- (void){;
+- (void)v56@0:(id)arg1 8{CGSize=dd}16{CGSize=dd}32d48;
+- (void)fileURLWithPath:(id)arg1;
 - (id)tackLayer",&,V_layer;
 - (id)eîÿDeîÿ¸fîÿÜfîÿ;
-- (void)ePreferencesChangedNotification;
-- (void)lA;
+- (void)AppleLanguagePreferencesChangedNotification;
+- (void)TlA;
 
 // Remaining properties
-@property(readonly) struct CGRect accessoryExtentRect;
-@property _Bool alignmentSatisfied;
-@property(readonly) _Bool allowsFloatingLayout;
-@property(readonly) _Bool allowsFullHeightLayout;
-@property(readonly) _Bool containsSidebar;
-@property(readonly) _Bool containsTrailingSidebar;
-@property __weak NSObject<NSWindowSectionContentControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property struct CGRect dividerExtentRect; // @synthesize dividerExtentRect=_dividerExtentRect;
 @property long long dividerStyle; // @synthesize dividerStyle=_dividerStyle;
-@property(readonly) struct NSEdgeInsets floatingSidebarInsets;
-@property _Bool fullHeightDividersDisabled;
-@property _Bool fullHeightSidebarDividersDisabled;
-@property(copy) NSString *groupName;
-@property(readonly, copy) NSArray *intersectingScrollViewTrackingAdapters;
-@property(readonly, copy) NSArray *intersectingSplitViewItemTrackingAdapters;
-@property(retain) NSTrackingSeparatorToolbarItem *leadingItem;
-@property double leadingNeighborSidebarWidth; // @synthesize leadingNeighborSidebarWidth=_leadingNeighborSidebarWidth;
-@property long long material;
-@property _Bool materialShouldBeHidden; // @synthesize materialShouldBeHidden=_materialShouldBeHidden;
-@property(retain) NSObject<NSScrollViewSeparatorTrackingAdapter> *scrollViewTrackingAdapter;
-@property unsigned long long seamlessStyle; // @synthesize seamlessStyle=_seamlessStyle;
-@property double separatorOffset; // @synthesize separatorOffset=_separatorOffset;
-@property _Bool softPocketEnabled; // @synthesize softPocketEnabled=_softPocketEnabled;
-@property _Bool splitAdapterCanHostSeparator; // @synthesize splitAdapterCanHostSeparator=_splitAdapterCanHostSeparator;
-@property struct CGRect splitAdapterFrame; // @synthesize splitAdapterFrame=_splitAdapterFrame;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *splitViewItemTrackingAdapter;
-@property(retain) NSTrackingSeparatorToolbarItem *trailingItem;
-@property __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

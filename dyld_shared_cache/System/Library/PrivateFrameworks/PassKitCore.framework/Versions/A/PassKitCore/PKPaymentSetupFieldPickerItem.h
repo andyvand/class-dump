@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentSetupFieldPicker;
+@class NSString;
 
 @interface PKPaymentSetupFieldPickerItem
 {
     NSString *_localizedDisplayName;
-    NSString *_submissionValue;
-    NSString *_submissionConfirmationTitle;
-    NSString *_submissionConfirmationDescription;
-    PKPaymentSetupFieldPicker *_nextLevelPicker;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)8;
+- (_Bool)txchanrej;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)thPassCertificate:(id)arg1 appleWWDRCertificate:certificatePassword:error: /* Error: Ran out of types for this method. */;
-- (void)lling;
+- (id)generateAndSignPassWithPassCertificate:(id)arg1 appleWWDRCertificate:certificatePassword:error: /* Error: Ran out of types for this method. */;
+- (void)billing;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly, copy, nonatomic) PKPaymentSetupFieldPicker *nextLevelPicker; // @synthesize nextLevelPicker=_nextLevelPicker;
-@property(readonly, copy, nonatomic) NSString *submissionConfirmationDescription; // @synthesize submissionConfirmationDescription=_submissionConfirmationDescription;
-@property(readonly, copy, nonatomic) NSString *submissionConfirmationTitle; // @synthesize submissionConfirmationTitle=_submissionConfirmationTitle;
-@property(readonly, copy, nonatomic) NSString *submissionValue; // @synthesize submissionValue=_submissionValue;
 
 @end
 

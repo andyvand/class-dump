@@ -9,10 +9,9 @@
 @interface IdentityLookup.ExtensionUpdate
 {
     id identifier;
-    id isAppStoreVendable;
 }
 
-- (id);
+- (id)`";
 - (id);
 - (void);
 

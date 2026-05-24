@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsResource.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
+@protocol MTLBuffer;
 
 @interface MTLToolsBuffer : MTLToolsResource
 {
@@ -23,13 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (struct __IOSurface *);
+- (id)?;
+- (void);
+- (struct __IOSurface *)d;
 - (id);
 - (unsigned long long);
 - (id);
@@ -41,43 +40,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(readonly) struct __IOSurface *iosurface;
-@property(copy) NSString *label;
-@property(readonly) unsigned long long length;
-@property(nonatomic) unsigned long long parentGPUAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) unsigned long long parentGPUSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly) unsigned long long protectionOptions;
 @property(retain) id <MTLBuffer> remoteStorageBuffer; // @synthesize remoteStorageBuffer=_remoteStorageBuffer;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) long long sparseBufferTier;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

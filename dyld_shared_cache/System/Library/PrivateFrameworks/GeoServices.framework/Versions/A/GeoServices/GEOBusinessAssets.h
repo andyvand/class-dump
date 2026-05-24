@@ -5,13 +5,10 @@
 //
 
 @class GEOPDBusinessAssets, NSArray;
-@protocol GEOMapItemPhoto;
 
 @interface GEOBusinessAssets
 {
     GEOPDBusinessAssets *_businessAssets;
-    NSArray *_coverPhotos;
-    NSArray *_croppedPhotos;
 }
 
 + (id);
@@ -19,14 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)bÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOMapItemPhoto> coverPhoto;
 @property(readonly, nonatomic) NSArray *coverPhotos; // @synthesize coverPhotos=_coverPhotos;
-@property(readonly, nonatomic) id <GEOMapItemPhoto> croppedPhoto;
-@property(readonly, nonatomic) NSArray *croppedPhotos; // @synthesize croppedPhotos=_croppedPhotos;
 
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface LAACLBuilderCustomACLParams
 {
     long long _authType;
-    long long _fallbackAuthType;
-    NSDictionary *_apConstraints;
-    NSDictionary *_credentials;
 }
 
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -27,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *apConstraints; // @synthesize apConstraints=_apConstraints;
 @property(nonatomic) long long authType; // @synthesize authType=_authType;
-@property(retain, nonatomic) NSDictionary *credentials; // @synthesize credentials=_credentials;
-@property(nonatomic) long long fallbackAuthType; // @synthesize fallbackAuthType=_fallbackAuthType;
 
 @end
 

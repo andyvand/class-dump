@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPodcastFeed, NSDateFormatter, NSError, NSMutableString, NSString;
+@class IMPodcastFeed;
 
 @interface IMPodcastParser
 {
     long long _feedType;
-    IMPodcastFeed *_parsedFeed;
-    NSDateFormatter *_rssDateFormatter;
-    _Bool _shouldBufferElementChars;
-    NSMutableString *_elementCharBuffer;
-    unsigned long long _itemElementNestCount;
-    _Bool _inAuthorElement;
-    NSString *_feedDescriptionSourceElement;
-    _Bool _preferredFeedCategoryFound;
-    _Bool _preferredItemCategoryFound;
-    NSError *_parseError;
-    _Bool _inGlobalImageElement;
 }
 
 + (_Bool);
@@ -43,7 +32,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -61,7 +50,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)q�;
 - (void);
 - (void);
 - (id);
@@ -71,25 +60,7 @@
 - (void)PVyShySSGíHV_p_G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableString *elementCharBuffer; // @synthesize elementCharBuffer=_elementCharBuffer;
-@property(retain, nonatomic) NSString *feedDescriptionSourceElement; // @synthesize feedDescriptionSourceElement=_feedDescriptionSourceElement;
-@property(nonatomic) long long feedType; // @synthesize feedType=_feedType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inAuthorElement; // @synthesize inAuthorElement=_inAuthorElement;
-@property(nonatomic) _Bool inGlobalImageElement; // @synthesize inGlobalImageElement=_inGlobalImageElement;
-@property(nonatomic) unsigned long long itemElementNestCount; // @synthesize itemElementNestCount=_itemElementNestCount;
-@property(retain, nonatomic) NSError *parseError; // @synthesize parseError=_parseError;
 @property(retain, nonatomic) IMPodcastFeed *parsedFeed; // @synthesize parsedFeed=_parsedFeed;
-@property(nonatomic) _Bool preferredFeedCategoryFound; // @synthesize preferredFeedCategoryFound=_preferredFeedCategoryFound;
-@property(nonatomic) _Bool preferredItemCategoryFound; // @synthesize preferredItemCategoryFound=_preferredItemCategoryFound;
-@property(retain, nonatomic) NSDateFormatter *rssDateFormatter; // @synthesize rssDateFormatter=_rssDateFormatter;
-@property(nonatomic) _Bool shouldBufferElementChars; // @synthesize shouldBufferElementChars=_shouldBufferElementChars;
-@property(readonly) Class superclass;
 
 @end
 

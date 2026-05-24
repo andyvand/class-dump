@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPLaplaceNoiseGenerator;
-
 @interface _DPNumberRandomizer
 {
     unsigned long long _range;
-    double _epsilon;
-    _DPLaplaceNoiseGenerator *_generator;
 }
 
 + (id);
@@ -18,25 +14,16 @@
 - (id);
 - (id);
 - (id);
+- (id)*!;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (double);
-- (void);
+- (void)bundleIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) _DPLaplaceNoiseGenerator *generator; // @synthesize generator=_generator;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long range; // @synthesize range=_range;
-@property(readonly) Class superclass;
 
 @end
 

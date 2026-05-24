@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVTransportControlsView;
+
 @protocol AVTransportControlsViewDelegate
+- (void):(AVTransportControlsView *)arg1 L.G;
 @end
 

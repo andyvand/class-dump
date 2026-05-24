@@ -7,7 +7,6 @@
 @interface TeaCharts.SparklineCoordinateProvider
 {
     id valueCoordinateCalculator;
-    id categoryCoordinateCalculator;
 }
 
 @end

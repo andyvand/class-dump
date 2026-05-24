@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXFlexMusicMediaProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_queue_requestByID;
-    NSMutableDictionary *_queue_requestIDsByAsset;
-    NSMutableDictionary *_queue_downloaderByAsset;
-    _Atomic int _requestIDCounter;
 }
 
 + (id);
@@ -30,13 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

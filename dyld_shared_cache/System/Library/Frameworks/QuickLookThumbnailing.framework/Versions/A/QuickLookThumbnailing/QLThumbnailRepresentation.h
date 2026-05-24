@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, QLThumbnailMetadata, UIImage;
-
 @interface QLThumbnailRepresentation
 {
     int _flavor;
-    long long _type;
-    UIImage *_UIImageThumbnail;
-    NSImage *_NSImageThumbnail;
-    NSArray *_images;
-    double _scale;
-    QLThumbnailMetadata *_generatedProperties;
-    struct CGRect _contentRect;
 }
 
 - (void);
@@ -31,28 +22,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)x;
 - (double);
 - (int);
 - (long long);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)+;
 - (void);
 - (struct CGImage *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage;
-@property(readonly, nonatomic) NSImage *NSImage;
-@property(retain, nonatomic) NSImage *NSImageThumbnail; // @synthesize NSImageThumbnail=_NSImageThumbnail;
-@property(readonly, nonatomic) UIImage *UIImage; // @dynamic UIImage;
-@property(retain, nonatomic) UIImage *UIImageThumbnail; // @synthesize UIImageThumbnail=_UIImageThumbnail;
-@property(nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property int flavor; // @synthesize flavor=_flavor;
-@property(retain) QLThumbnailMetadata *generatedProperties; // @synthesize generatedProperties=_generatedProperties;
-@property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

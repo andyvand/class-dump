@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCameraRecordingBulkSendSessionReader;
+
 @protocol HMDCameraRecordingBulkSendSessionReaderDelegate
+- (void)test:(HMDCameraRecordingBulkSendSessionReader *)arg1;
+- (void)originatingAddressString;
 @end
 

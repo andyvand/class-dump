@@ -5,5 +5,6 @@
 //
 
 @protocol UnifiedTabBarButtonDelegate
+- (_Bool);
 @end
 

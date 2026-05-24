@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSArray, NSString;
+@class CAAnimation;
 
 @interface MDLTransform
 {
     struct MDLAffineTransform _transform;
 }
 
-+ (CDStruct_95fa7c00);
-+ (CDStruct_95fa7c00);
++ (CDStruct_34f00414);
++ (CDStruct_34f00414);
 - (id);
 - (id);
 - (id);
@@ -26,27 +26,27 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_95fa7c00);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
+- (CDStruct_34f00414);
 - (id);
-- (id);
+- (id)O;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)umber of labels (%lu);
 - (double);
 - (double);
 - (id);
 - (void);
 - (id);
-- (void);
-- (CDStruct_95fa7c00);
-- (void);
-- (id);
+- (void)",&,N,V_psrScorer;
+- (CDStruct_34f00414);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)s request:%0.4f sec /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -54,23 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *keyTimes;
-@property(nonatomic) CDStruct_95fa7c00 matrix;
-@property(readonly, nonatomic) double maximumTime;
-@property(readonly, nonatomic) double minimumTime;
-@property(nonatomic) _Bool resetsTransform;
-@property(nonatomic) id rotation;
-@property(nonatomic) id scale;
-@property(nonatomic) id shear;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CAAnimation *transformAnimation;
-@property(nonatomic) id translation;
 
 @end
 

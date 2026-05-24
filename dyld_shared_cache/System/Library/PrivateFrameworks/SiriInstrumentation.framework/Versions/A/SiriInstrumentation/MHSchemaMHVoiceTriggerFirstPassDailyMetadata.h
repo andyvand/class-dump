@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHVoiceTriggerFirstPassDailyMetadata : SISchemaInstrumentationMessage
 {
     NSString *_configVersion;
-    int _hardwareSampleRate;
-    NSString *_mitigationAssetVersion;
-    struct {
-        unsigned int hardwareSampleRate:1;
-    } _has;
-    _Bool _hasConfigVersion;
-    _Bool _hasMitigationAssetVersion;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)W;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)dentifier routines;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,12 +42,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(nonatomic) int hardwareSampleRate; // @synthesize hardwareSampleRate=_hardwareSampleRate;
-@property(nonatomic) _Bool hasConfigVersion; // @synthesize hasConfigVersion=_hasConfigVersion;
-@property(nonatomic) _Bool hasHardwareSampleRate;
-@property(nonatomic) _Bool hasMitigationAssetVersion; // @synthesize hasMitigationAssetVersion=_hasMitigationAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mitigationAssetVersion; // @synthesize mitigationAssetVersion=_mitigationAssetVersion;
 
 @end
 

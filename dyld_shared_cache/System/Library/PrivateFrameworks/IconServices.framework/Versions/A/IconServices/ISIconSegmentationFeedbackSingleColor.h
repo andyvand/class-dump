@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISIconSegmentationFeedbackSingleColor
 {
@@ -14,19 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (struct CGColor *);
 - (void);
-- (id);
+- (id)Caches/com.apple.xbs/TemporaryDirectory.2ICmsN/Sources/PrintingCore/PJCPrintSettings.cp;
 - (struct CGColor *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGColor *meanColor;
-@property(readonly) Class superclass;
 
 @end
 

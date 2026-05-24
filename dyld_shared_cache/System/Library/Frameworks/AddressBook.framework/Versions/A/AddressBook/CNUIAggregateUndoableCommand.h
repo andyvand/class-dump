@@ -6,12 +6,11 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNUIAggregateUndoableCommand : CNUIUndoableCommand
 {
     NSString *_actionName;
-    NSArray *_undoableCommands;
 }
 
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(retain, nonatomic) NSArray *undoableCommands; // @synthesize undoableCommands=_undoableCommands;
 
 @end
 

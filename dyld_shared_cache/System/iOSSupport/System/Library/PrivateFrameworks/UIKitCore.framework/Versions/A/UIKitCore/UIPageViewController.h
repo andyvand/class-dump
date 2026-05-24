@@ -6,61 +6,19 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSDictionary, NSHashTable, NSMutableArray, NSMutableDictionary, UIPanGestureRecognizer, UITapGestureRecognizer, _UIPageCurl;
-@protocol UIPageViewControllerDataSource, UIPageViewControllerDelegate;
+@protocol UIPageViewControllerDelegate;
 
 @interface UIPageViewController : UIViewController
 {
     id <UIPageViewControllerDelegate> _delegate;
-    id <UIPageViewControllerDataSource> _dataSource;
-    long long _transitionStyle;
-    long long _navigationOrientation;
-    long long _spineLocation;
-    _Bool _doubleSided;
-    _Bool _pageControlRequiresValidation;
-    NSArray *_viewControllers;
-    _UIPageCurl *_pageCurl;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    _Bool _stashingViewControllersForRotation;
-    NSArray *_viewControllersStashedForRotation;
-    _Bool _interfaceRotating;
-    NSMutableArray *_rotationSnapshotViews;
-    long long _spineLocationPriorToInterfaceRotation;
-    struct UIEdgeInsets _tapRegionInsets;
-    struct CGSize _tapRegionBreadths;
-    struct UIEdgeInsets _effectiveTapRegionInsets;
-    struct CGSize _effectiveTapRegionBreadths;
-    struct CGRect *_tapRegions;
-    double _pageSpacing;
-    NSMutableDictionary *_cachedViewControllersForCurl;
-    NSHashTable *_cachedViewControllersForScroll;
-    NSDictionary *_incomingAndOutgoingViewControllersForManualTransition;
-    long long _lastKnownNavigationDirection;
-    long long _disableAutorotationCount;
-    struct {
-        unsigned int delegateWantsTransitionWillBegin:1;
-        unsigned int delegateWantsTransitionCompleted:1;
-        unsigned int delegateWantsTransitionsFinished:1;
-        unsigned int delegateWantsScrollProgress:1;
-        unsigned int delegateCustomizesSpineLocationForInterfaceOrientation:1;
-        unsigned int delegateSupportedInterfaceOrientations:1;
-        unsigned int delegatePreferredInterfaceOrientationForPresentation:1;
-        unsigned int dataSourceSuppliesBeforeViewController:1;
-        unsigned int dataSourceSuppliesAfterViewController:1;
-        unsigned int dataSourceSuppliesPageCount:1;
-        unsigned int dataSourceSuppliesPageNumber:1;
-    } _delegateFlags;
-    id <UIPageViewControllerDataSource> _unsafeUnretainedDataSource;
-    id <UIPageViewControllerDelegate> _unsafeUnretainedDelegate;
 }
 
++ (id)t;
 + (id);
-+ (id);
-+ (_Bool)wsFullScreen;
-+ (_Bool)ngTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
++ (_Bool)keyPathsForValuesAffectingAllowsFullScreen;
++ (_Bool)_collectExistingTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
 + (_Bool)ngInterfaceAutorotation. Ignoring.;
-+ (_Bool)card;
++ (_Bool)creditcard;
 + (id)ÿúÖ(j;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol CSSmartSiriVolumeService
+- (void);
 @end
 

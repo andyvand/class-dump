@@ -6,39 +6,33 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemWebDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadForceLimitAdTracking;
-    NSNumber *_payloadSafariAllowAutoFill;
-    NSNumber *_payloadSafariForceFraudWarning;
-    NSNumber *_payloadSafariAllowJavaScript;
-    NSNumber *_payloadSafariAllowPopups;
-    NSNumber *_payloadSafariAcceptCookies;
-    NSNumber *_payloadForceAuthenticationBeforeAutoFill;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,23 +41,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadForceAuthenticationBeforeAutoFill; // @synthesize payloadForceAuthenticationBeforeAutoFill=_payloadForceAuthenticationBeforeAutoFill;
 @property(copy, nonatomic) NSNumber *payloadForceLimitAdTracking; // @synthesize payloadForceLimitAdTracking=_payloadForceLimitAdTracking;
-@property(copy, nonatomic) NSNumber *payloadSafariAcceptCookies; // @synthesize payloadSafariAcceptCookies=_payloadSafariAcceptCookies;
-@property(copy, nonatomic) NSNumber *payloadSafariAllowAutoFill; // @synthesize payloadSafariAllowAutoFill=_payloadSafariAllowAutoFill;
-@property(copy, nonatomic) NSNumber *payloadSafariAllowJavaScript; // @synthesize payloadSafariAllowJavaScript=_payloadSafariAllowJavaScript;
-@property(copy, nonatomic) NSNumber *payloadSafariAllowPopups; // @synthesize payloadSafariAllowPopups=_payloadSafariAllowPopups;
-@property(copy, nonatomic) NSNumber *payloadSafariForceFraudWarning; // @synthesize payloadSafariForceFraudWarning=_payloadSafariForceFraudWarning;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIStraightenFilter : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputAngle;
 }
 
 + (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (id)uuuu||||txqn{~~~~~}}}}zzzzjsqwk~rw;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

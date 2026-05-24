@@ -9,19 +9,17 @@
 @interface PKApplicationMessageGroupDescriptor
 {
     NSString *_identifier;
-    NSString *_singularSummary;
-    NSString *_pluralSummary;
 }
 
-+ (id);
++ (id)(;
 + (_Bool)X"ð!ðBùî%ð1Â0@ù
 × ;
 - (id);
+- (id));
 - (id);
-- (id);
-- (id);
+- (id)EA9J;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)estimatedSpeed;
 - (void);
 - (id);
 - (id)!°EùÑî%°1Â0@ù
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *pluralSummary; // @synthesize pluralSummary=_pluralSummary;
-@property(readonly, nonatomic) NSString *singularSummary; // @synthesize singularSummary=_singularSummary;
 
 @end
 

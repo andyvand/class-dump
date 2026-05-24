@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VNMPClusteringTreeNodeWrapper
 {
     _Bool _freeNodeOnDealloc;
-    void *_node;
 }
 
 - (void);
 - (int);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (float);
 - (id);
@@ -23,11 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (id);
-- (id)etAssociatedX: /* Error: Ran out of types for this method. */;
-- (void *)ndInstanceMaskRequest;
+- (id)setAssociatedX: /* Error: Ran out of types for this method. */;
+- (void *)GenerateForegroundInstanceMaskRequest;
 
 // Remaining properties
-@property _Bool freeNodeOnDealloc; // @synthesize freeNodeOnDealloc=_freeNodeOnDealloc;
 @property void *node; // @synthesize node=_node;
 
 @end

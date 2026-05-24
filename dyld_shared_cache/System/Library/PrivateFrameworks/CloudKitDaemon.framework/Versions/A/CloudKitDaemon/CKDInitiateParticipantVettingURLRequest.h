@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKRecordID, NSData, NSString;
+@class CKRecordID;
 
 @interface CKDInitiateParticipantVettingURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _vettingInitiationRequestCompletionBlock;
-    CKRecordID *_shareRecordID;
-    NSData *_encryptedKey;
-    NSString *_participantID;
-    NSString *_baseToken;
 }
 
 - (CDUnknownBlockType);
@@ -28,9 +24,9 @@
 - (id);
 - (id);
 - (void);
-- (id)moveRequest;
+- (id)shareSelfRemoveRequest;
 - (void)ry key of PCS;
-- (id)igationInUnitTests;
+- (id)doErrorRateMitigationInUnitTests;
 - (id)key %{public}@, which should have been caught earlier;
 - (id)ublic}@:(id)arg1 %p; %{public}@> completed repair zone touch;
 - (void)item %@;
@@ -38,11 +34,7 @@
 - (void)('îÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *baseToken; // @synthesize baseToken=_baseToken;
-@property(copy, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
 @property(copy, nonatomic) CKRecordID *shareRecordID; // @synthesize shareRecordID=_shareRecordID;
-@property(copy, nonatomic) CDUnknownBlockType vettingInitiationRequestCompletionBlock; // @synthesize vettingInitiationRequestCompletionBlock=_vettingInitiationRequestCompletionBlock;
 
 @end
 

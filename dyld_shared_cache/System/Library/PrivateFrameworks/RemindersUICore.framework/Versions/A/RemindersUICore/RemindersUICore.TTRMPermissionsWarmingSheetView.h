@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMPermissionsWarmingSheetView
 {
     id $__lazy_storage_$_imageView;
-    id $__lazy_storage_$_titleLabel;
-    id $__lazy_storage_$_subtitleLabel;
-    id $__lazy_storage_$_primaryButton;
-    id $__lazy_storage_$_secondaryButton;
-    id isImageSymbol;
 }
 
 - (id);

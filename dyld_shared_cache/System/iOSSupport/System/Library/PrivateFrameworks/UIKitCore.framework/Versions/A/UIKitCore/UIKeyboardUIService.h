@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, CAContext, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BSServiceConnectionListener, CAContext;
 
 @interface UIKeyboardUIService
 {
     BSServiceConnectionListener *_bsConnectionlistener;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CAContext *_context;
-    NSMutableArray *_slots;
 }
 
-+ (id)Text;
-+ (id)tionC;
-- (int);
-- (void);
-- (void);
++ (id)attributedText;
++ (id)So38NSDiffableDataSourceSectionTransactionC;
+- (int)ring power notifications are on;
+- (void)CoreDuet;
+- (void)kcd;
 - (id);
-- (id);
-- (void):(id)arg1 shouldBeginAtPoint:(id)arg2;
+- (id)trackingCoordinatorForScene: /* Error: Ran out of types for this method. */;
+- (void)textRangeAdjustmentInteraction:(id)arg1 shouldBeginAtPoint:(id)arg2;
 - (void)Wæþõ(;
 - (void)0¨oþ: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CAContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

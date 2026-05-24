@@ -7,13 +7,6 @@
 @interface SCRCComposedCharacter
 {
     unsigned long long _originalRepresentationLength;
-    unsigned long long _normalFormDRepresentationLength;
-    unsigned long long _normalFormKCRepresentationLength;
-    int *_originalRepresentation;
-    int *_normalFormDRepresentation;
-    int *_normalFormKCRepresentation;
-    long long _originalCombinedCharacterLength;
-    struct __CFString *_originalCombinedCharacter;
 }
 
 - (int);
@@ -25,19 +18,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)z;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (struct __CFString *);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)q;
 - (int);
 - (struct __CFString *);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)}Ņ;
+- (unsigned long long)Jn;
+- (_Bool)Xïe;
 
 @end
 

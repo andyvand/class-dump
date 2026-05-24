@@ -12,7 +12,7 @@
 
 + (void)de date '%@';
 - (_Bool);
-- (id);
+- (id)ew;
 
 @end
 

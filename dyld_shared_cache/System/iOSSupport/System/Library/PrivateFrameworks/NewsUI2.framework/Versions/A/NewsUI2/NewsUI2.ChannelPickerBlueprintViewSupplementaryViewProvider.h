@@ -7,9 +7,6 @@
 @interface NewsUI2.ChannelPickerBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id titleViewRenderer;
-    id channelPickerFooterViewRenderer;
-    id pickerType;
 }
 
 @end

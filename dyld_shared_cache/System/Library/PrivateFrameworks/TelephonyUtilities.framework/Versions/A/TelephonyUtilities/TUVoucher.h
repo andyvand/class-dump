@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, TUHandle;
+@class NSData, TUHandle;
 
 @interface TUVoucher
 {
     TUHandle *_handle;
-    NSString *_tokenPrefixedURI;
-    NSData *_encryptedData;
-    NSData *_unsafeData;
 }
 
 + (id);
@@ -23,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -34,11 +31,7 @@
 - (void)ntroller"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
 @property(readonly, copy, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
-@property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy, nonatomic) NSString *tokenPrefixedURI; // @synthesize tokenPrefixedURI=_tokenPrefixedURI;
-@property(readonly, copy, nonatomic) NSData *unsafeData; // @synthesize unsafeData=_unsafeData;
 
 @end
 

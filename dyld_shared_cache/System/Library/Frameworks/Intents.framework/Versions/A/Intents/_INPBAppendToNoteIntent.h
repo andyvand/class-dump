@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBNote, _INPBNoteContent;
+@class _INPBNoteContent;
 
 @interface _INPBAppendToNoteIntent
 {
     struct _has;
-    _INPBNoteContent *_content;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBNote *_targetNote;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)itch"d"yaw"d"roll"d};
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)walletIdentifier;
+- (void){public}s:(id)arg1 %u) Unexpected event payload length for APPLE80211_M_STA_ARRIVE (expected=%lu, actual=%lu);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id)opertiesCount;
-- (_Bool)eTransformer;
-- (void)ntResponseCodeInProgress;
+- (id)propertiesCount;
+- (_Bool)INIntentHomeFilterSlotValueTransformer;
+- (void)INTransferMoneyIntentResponseCodeInProgress;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNoteContent *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetNote;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBNote *targetNote; // @synthesize targetNote=_targetNote;
 
 @end
 

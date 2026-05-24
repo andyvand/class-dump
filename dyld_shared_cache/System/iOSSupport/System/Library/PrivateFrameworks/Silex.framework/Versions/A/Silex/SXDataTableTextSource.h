@@ -11,22 +11,18 @@
 @interface SXDataTableTextSource : SXTextSource
 {
     SXFormattedText *_formattedText;
-    unsigned long long _defaultTextAlignment;
-    CDStruct_2fea82da _indexPath;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (CDStruct_2fea82da);
+- (CDStruct_4bcfbbae);
 - (id);
 - (void)=dd}32d48;
 
 // Remaining properties
-@property(nonatomic) unsigned long long defaultTextAlignment; // @synthesize defaultTextAlignment=_defaultTextAlignment;
 @property(readonly, nonatomic) SXFormattedText *formattedText; // @synthesize formattedText=_formattedText;
-@property(readonly, nonatomic) CDStruct_2fea82da indexPath; // @synthesize indexPath=_indexPath;
 
 @end
 

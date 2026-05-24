@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, PXModelDeliveryProgressObjCViewController, UXLabel;
+@class PXModelDeliveryProgressObjCViewController;
 
 @interface PXModelDeliveryModalDownloadViewController
 {
     _Bool _allowForRevert;
-    PXModelDeliveryProgressObjCViewController *_progressController;
-    UXLabel *_descriptionLabel;
-    NSLayoutConstraint *_descriptionAndProgressBind;
-    CDUnknownBlockType _cancelBlock;
-    CDUnknownBlockType _revertBlock;
 }
 
 - (void);
@@ -35,15 +30,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)veStoryEventAmbiguityAssetFetcher;
+- (void)GenerativeStoryEventAmbiguityAssetFetcher;
 
 // Remaining properties
-@property(nonatomic) _Bool allowForRevert; // @synthesize allowForRevert=_allowForRevert;
-@property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(retain, nonatomic) NSLayoutConstraint *descriptionAndProgressBind; // @synthesize descriptionAndProgressBind=_descriptionAndProgressBind;
-@property(retain, nonatomic) UXLabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
 @property(retain, nonatomic) PXModelDeliveryProgressObjCViewController *progressController; // @synthesize progressController=_progressController;
-@property(copy, nonatomic) CDUnknownBlockType revertBlock; // @synthesize revertBlock=_revertBlock;
 
 @end
 

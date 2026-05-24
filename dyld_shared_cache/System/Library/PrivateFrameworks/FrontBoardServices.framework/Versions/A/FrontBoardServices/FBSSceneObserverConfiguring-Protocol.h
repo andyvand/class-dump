@@ -5,5 +5,7 @@
 //
 
 @protocol FBSSceneObserverConfiguring
+- (void);
+- (void) ;
 @end
 

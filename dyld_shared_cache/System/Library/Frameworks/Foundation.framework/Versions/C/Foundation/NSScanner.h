@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSString;
+@class NSString;
 
 @interface NSScanner
 {
@@ -15,10 +15,6 @@
 + (id)3°ô;
 
 // Remaining properties
-@property _Bool caseSensitive;
-@property(copy) NSCharacterSet *charactersToBeSkipped;
-@property(retain) id locale;
-@property unsigned long long scanLocation;
 @property(readonly, copy) NSString *string;
 
 @end

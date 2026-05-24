@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFTextEncapsulation
 {
     int _style;
@@ -17,22 +15,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)`;
+- (id)requestTitleForPersonLocalIdentifiers:(id)arg1 format:title:subtitle:error: /* Error: Ran out of types for this method. */;
+- (id)ion] Found curation/aesthetics overlap candidates:%lu /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

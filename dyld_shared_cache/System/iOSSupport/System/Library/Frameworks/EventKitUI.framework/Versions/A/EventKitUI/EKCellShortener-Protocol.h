@@ -5,5 +5,6 @@
 //
 
 @protocol EKCellShortener
+- (void)_type;
 @end
 

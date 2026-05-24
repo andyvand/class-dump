@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AMSUIContentImageFetchOperation : AMSUIAssetFetchOperation
 {
     CDUnknownBlockType _fallbackBlock;
-    NSURL *_imageURL;
 }
 
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)R$;
 - (void);
 - (void);
 - (id);
-- (void)nt: /* Error: Ran out of types for this method. */;
+- (void)setTitlebarAppearsTransparent: /* Error: Ran out of types for this method. */;
 - (id)lþÿ;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType fallbackBlock; // @synthesize fallbackBlock=_fallbackBlock;
 @property(retain) NSURL *imageURL; // @synthesize imageURL=_imageURL;
 
 @end

@@ -7,20 +7,10 @@
 @interface PHAPublicEventCacheInvalidationTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id periodicity;
-    id priority;
-    id incrementalKey;
-    id worker;
-    id publicEventManager;
-    id analytics;
-    id logger;
 }
 
-- (id);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (id)#;
+- (void)_fetchObjectsForFingerprintVersion:options:error: /* Error: Ran out of types for this method. */;
 
 @end
 

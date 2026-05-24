@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSTrackingArea, PKCanvasView, PKDrawing, PKTool;
+@class PKCanvasView;
 
 @interface AKInkSignatureView
 {
     _Bool _hasStrokes;
-    NSColor *_strokeColor;
-    PKCanvasView *_canvasView;
-    PKTool *_tool;
-    PKDrawing *_latestDrawing;
-    NSTrackingArea *_trackingArea;
 }
 
 - (void);
@@ -30,22 +25,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)arrayByAddingObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) PKCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property _Bool hasStrokes; // @synthesize hasStrokes=_hasStrokes;
-@property(retain) PKDrawing *latestDrawing; // @synthesize latestDrawing=_latestDrawing;
-@property(retain, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(copy) PKTool *tool; // @synthesize tool=_tool;
-@property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end
 

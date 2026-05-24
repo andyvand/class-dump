@@ -11,7 +11,6 @@
 @interface WBSLPLinkMetadataResponse : WBSSiteMetadataResponse
 {
     _Bool _canAttemptFetchNow;
-    LPLinkMetadata *_metadata;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void),V_resourcesDirectoryURL;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAttemptFetchNow; // @synthesize canAttemptFetchNow=_canAttemptFetchNow;
 @property(readonly, copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

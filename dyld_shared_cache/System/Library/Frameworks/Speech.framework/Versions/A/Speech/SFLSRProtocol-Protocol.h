@@ -5,5 +5,10 @@
 //
 
 @protocol SFLSRProtocol
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void)7;
 @end
 

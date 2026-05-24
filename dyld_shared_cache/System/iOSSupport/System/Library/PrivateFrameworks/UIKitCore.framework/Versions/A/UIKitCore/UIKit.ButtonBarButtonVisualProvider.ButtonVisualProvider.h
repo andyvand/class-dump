@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id),C,N,V_payloadWakeOnLAN;
+- (id)+;
 - (void);
 - (id)\ð1Â0@ù
 × ;

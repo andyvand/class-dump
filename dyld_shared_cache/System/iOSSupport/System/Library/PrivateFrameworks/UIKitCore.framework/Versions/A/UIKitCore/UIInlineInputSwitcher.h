@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIInputSwitcher.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIInlineInputSwitcher : UIInputSwitcher
@@ -16,22 +16,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (_Bool)rustKit decisioning skipped because chat is from a known sender and FUS is enabled.;
+- (void)bstones for deletes only ;
+- (void)s;
+- (void)y name was zero length, chat:(id)arg1 %@;
+- (id)es:%@  /* Error: Ran out of types for this method. */;
+- (void)Name. Resetting category and subCategory to None;
+- (id)previous override;
+- (id)tchTrack:Batch Set complete for account %@, and all other accounts /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ðRtÿ`·Í³g;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableInputModes; // @synthesize availableInputModes=_availableInputModes;
-@property(retain, nonatomic) NSString *selectedInputMode;
-@property(nonatomic) _Bool showingCapsLockSwitcher; // @synthesize showingCapsLockSwitcher=_showingCapsLockSwitcher;
 
 @end
 

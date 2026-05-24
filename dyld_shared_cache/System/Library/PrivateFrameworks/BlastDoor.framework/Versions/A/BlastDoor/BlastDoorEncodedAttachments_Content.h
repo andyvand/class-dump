@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorEncodedAttachmentsEncodedContentWrapper, NSString;
+@class NSString;
 
 @interface BlastDoorEncodedAttachments_Content
 {
@@ -17,7 +17,6 @@
 - (void)le;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorEncodedAttachmentsEncodedContentWrapper *content;
 @property(nonatomic, readonly) NSString *description;
 
 @end

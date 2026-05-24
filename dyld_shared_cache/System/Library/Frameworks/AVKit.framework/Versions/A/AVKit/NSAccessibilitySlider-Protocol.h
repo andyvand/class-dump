@@ -5,5 +5,6 @@
 //
 
 @protocol NSAccessibilitySlider
+- (_Bool);
 @end
 

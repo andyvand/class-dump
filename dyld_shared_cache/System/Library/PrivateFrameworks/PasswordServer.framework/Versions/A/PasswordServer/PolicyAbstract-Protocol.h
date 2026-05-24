@@ -5,5 +5,6 @@
 //
 
 @protocol PolicyAbstract
+- (struct __CFDictionary *);
 @end
 

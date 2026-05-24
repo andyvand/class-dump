@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASDatabaseMigrator, _PASLock;
+@class _PASLock;
 
 @interface SGMIFeatureStore
 {
     _PASLock *_lock;
-    CDUnknownBlockType _dbGetter;
-    _PASDatabaseMigrator *_migrator;
-    id _lockStateRegistration;
-    NSString *_journalPath;
 }
 
 + (id);
++ (id)T;
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)Q;
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
@@ -33,12 +29,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)scheme;
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (void);
@@ -80,32 +76,32 @@
 - (unsigned char);
 - (id);
 - (id);
+- (void)iewController",&,V_buddyControlsViewController;
 - (void);
+- (void);
+- (id)performAction:forContactIdentifier:sourceView: /* Error: Ran out of types for this method. */;
+- (void)�e;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)setCornerRadius: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)READ:onError: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 failed to save records with error:%@ /* Error: Ran out of types for this method. */;
+- (id)_handle_SQLITE_IOERR_SHORT_READ:onError: /* Error: Ran out of types for this method. */;
 - (void)	;
 - (id)count > 0;
 - (id)0;
@@ -113,13 +109,7 @@
 - (id)W;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

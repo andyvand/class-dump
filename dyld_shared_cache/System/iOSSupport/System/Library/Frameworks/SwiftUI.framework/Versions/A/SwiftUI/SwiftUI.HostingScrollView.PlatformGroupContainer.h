@@ -9,12 +9,6 @@
 @interface SwiftUI.HostingScrollView.PlatformGroupContainer
 {
     id scrollView;
-    id _focusableBounds;
-    id _focusableFillerBounds;
-    id _focusableBorder;
-    id _environmentPixelLength;
-    id fillerItems;
-    id requestedFocusItem;
 }
 
 + (_Bool);
@@ -24,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)ssDisabled;
+- (_Bool)1;
+- (void)lastInteractiveDismissDisabled;
 - (void);
 
 // Remaining properties

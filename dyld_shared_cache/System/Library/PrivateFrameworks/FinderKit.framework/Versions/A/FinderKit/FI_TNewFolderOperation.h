@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (int);
+- (int)@9;
 - (shared_ptr_97e1bdf3);
 - (struct TString);
 

@@ -4,52 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDate, NSString, NSTimeZone, UIImage, _UNNotificationCommunicationContext;
+@class NSString;
 
 @interface NCNotificationContent
 {
     NSString *_contentType;
     NSString *_customHeader;
-    NSString *_defaultHeader;
-    NSString *_title;
-    NSString *_subtitle;
-    NSAttributedString *_attributedMessage;
-    NSAttributedString *_summary;
-    NSAttributedString *_threadSummary;
-    NSString *_spotlightIdentifier;
-    NSString *_footer;
-    NSString *_hiddenPreviewsBodyPlaceholder;
-    NSString *_categorySummaryFormat;
-    NSString *_summaryArgument;
-    unsigned long long _summaryArgumentCount;
-    _UNNotificationCommunicationContext *_communicationContext;
-    NSArray *_icons;
-    UIImage *_attachmentImage;
-    NSDate *_date;
-    _Bool _dateAllDay;
-    NSTimeZone *_timeZone;
-    NSString *_topic;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)WFLeakDetectionEnabled;
+- (_Bool)WFShortcutsDrawerVisibilityLevelKey;
+- (_Bool)WFShortcutsDrawerHideInternalSwitches;
+- (_Bool)WFAllowActionsFromAllBundles;
+- (id)WFShortcutsAllowHighRiskOperationEnabled;
+- (id)uest readMessageFromData:error:] /* Error: Ran out of types for this method. */;
+- (id)[WFRemoteExecutionStopRequest readMessageFromData:error:] /* Error: Ran out of types for this method. */;
+- (id)completion;
+- (_Bool)Value"8Q16;
+- (id)block_invoke_3;
+- (id)#N)	k;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
 - (id);
+- (id)s;
 - (id);
 - (id);
 - (id);
@@ -76,41 +74,8 @@
 - (id)edDeliveryTimes;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *attachmentImage; // @synthesize attachmentImage=_attachmentImage;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedMessage; // @synthesize attributedMessage=_attributedMessage;
-@property(readonly, nonatomic, getter=isCallType) _Bool callType;
-@property(readonly, nonatomic) NSArray *carPlayIcons;
-@property(readonly, copy, nonatomic) NSString *categorySummaryFormat; // @synthesize categorySummaryFormat=_categorySummaryFormat;
-@property(readonly, nonatomic) _UNNotificationCommunicationContext *communicationContext; // @synthesize communicationContext=_communicationContext;
-@property(readonly, nonatomic, getter=isCommunicationType) _Bool communicationType;
-@property(readonly, copy, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(readonly, copy, nonatomic) NSString *customHeader; // @synthesize customHeader=_customHeader;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic, getter=isDateAllDay) _Bool dateAllDay; // @synthesize dateAllDay=_dateAllDay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *defaultHeader; // @synthesize defaultHeader=_defaultHeader;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *footer; // @synthesize footer=_footer;
-@property(readonly, nonatomic) NSArray *fullScreenIcons;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *header;
-@property(readonly, copy, nonatomic) NSString *hiddenPreviewsBodyPlaceholder; // @synthesize hiddenPreviewsBodyPlaceholder=_hiddenPreviewsBodyPlaceholder;
-@property(readonly, nonatomic) NSArray *icons; // @synthesize icons=_icons;
-@property(readonly, copy, nonatomic) NSString *message; // @dynamic message;
-@property(readonly, nonatomic, getter=isMessagingType) _Bool messagingType;
-@property(readonly, copy, nonatomic) NSString *spotlightIdentifier; // @synthesize spotlightIdentifier=_spotlightIdentifier;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSAttributedString *summary; // @synthesize summary=_summary;
 @property(readonly, copy, nonatomic) NSString *summaryArgument;
-@property(readonly, nonatomic) unsigned long long summaryArgumentCount;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSAttributedString *threadSummary; // @synthesize threadSummary=_threadSummary;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

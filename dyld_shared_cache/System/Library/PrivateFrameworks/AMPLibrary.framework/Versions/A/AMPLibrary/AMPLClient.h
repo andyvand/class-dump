@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-@protocol AMPLClientProtocol, AMPLMediaAppClientEventsProtocol;
+@protocol AMPLClientProtocol;
 
 @interface AMPLClient
 {
     _Bool _registered;
-    _Bool _mediaDomainsOpened;
-    _Bool _lostConnection;
-    unsigned int _clientID;
-    NSString *_clientName;
-    unsigned long long _mediaDomains;
-    unsigned long long _mediaDomainsPersistentID;
-    unsigned long long _persistentMachineID;
-    id <AMPLClientProtocol> _reconnectionDelegate;
-    id <AMPLMediaAppClientEventsProtocol> _libraryEventsDelegate;
-    NSXPCConnection *_connectionToService;
-    unsigned long long _clientType;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)l
+;
+- (void)I;
 - (void);
 - (void);
 - (id);
@@ -37,8 +26,8 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id),;
+- (_Bool),;
 - (id);
 - (id);
 - (void);
@@ -53,22 +42,11 @@
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)__DATA_DIRTY;
 - (unsigned long long)Delegate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(nonatomic) unsigned long long clientType; // @synthesize clientType=_clientType;
-@property(retain, nonatomic) NSXPCConnection *connectionToService; // @synthesize connectionToService=_connectionToService;
-@property(nonatomic) __weak id <AMPLMediaAppClientEventsProtocol> libraryEventsDelegate; // @synthesize libraryEventsDelegate=_libraryEventsDelegate;
-@property(nonatomic) _Bool lostConnection; // @synthesize lostConnection=_lostConnection;
-@property(readonly, nonatomic) unsigned long long mediaDomains; // @synthesize mediaDomains=_mediaDomains;
-@property(nonatomic) _Bool mediaDomainsOpened; // @synthesize mediaDomainsOpened=_mediaDomainsOpened;
-@property(readonly, nonatomic) unsigned long long mediaDomainsPersistentID; // @synthesize mediaDomainsPersistentID=_mediaDomainsPersistentID;
-@property(readonly, nonatomic) unsigned long long persistentMachineID; // @synthesize persistentMachineID=_persistentMachineID;
 @property(nonatomic) __weak id <AMPLClientProtocol> reconnectionDelegate; // @synthesize reconnectionDelegate=_reconnectionDelegate;
-@property(readonly, nonatomic) _Bool registered; // @synthesize registered=_registered;
 
 @end
 

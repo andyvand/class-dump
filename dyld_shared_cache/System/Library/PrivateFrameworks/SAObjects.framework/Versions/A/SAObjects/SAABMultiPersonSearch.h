@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SAABMultiPersonSearch : SADomainCommand
 {
@@ -17,15 +17,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Z;
 - (id)ìE;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *personSearches;
-@property(copy, nonatomic) NSNumber *resultsLimit;
 
 @end
 

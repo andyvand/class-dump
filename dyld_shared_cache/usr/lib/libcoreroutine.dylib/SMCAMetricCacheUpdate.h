@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SMCAMetricCacheUpdate
 {
     double _averageDistanceBetweenLocationsInTrace;
-    double _averageHuncForLocationsInTrace;
-    double _averageTimeBetweenLocationsInTrace;
-    double _maxDistanceBetweenLocationsInTrace;
-    double _maxHuncForLocationsInTrace;
-    double _maxTimeBetweenLocationsInTrace;
-    double _minDistanceBetweenLocationsInTrace;
-    double _minHuncForLocationsInTrace;
-    double _minTimeBetweenLocationsInTrace;
-    long long _numLocationsInTrace;
-    double _cacheSize;
 }
 
 - (void);
@@ -25,20 +15,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (double);
+- (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)__const;
+- (double)__AUTH_CONST;
 - (double);
 - (id);
 - (double)required minimum interval, %.2f;
@@ -46,16 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double averageDistanceBetweenLocationsInTrace; // @synthesize averageDistanceBetweenLocationsInTrace=_averageDistanceBetweenLocationsInTrace;
-@property(nonatomic) double averageHuncForLocationsInTrace; // @synthesize averageHuncForLocationsInTrace=_averageHuncForLocationsInTrace;
-@property(nonatomic) double averageTimeBetweenLocationsInTrace; // @synthesize averageTimeBetweenLocationsInTrace=_averageTimeBetweenLocationsInTrace;
-@property(nonatomic) double cacheSize; // @synthesize cacheSize=_cacheSize;
-@property(nonatomic) double maxDistanceBetweenLocationsInTrace; // @synthesize maxDistanceBetweenLocationsInTrace=_maxDistanceBetweenLocationsInTrace;
-@property(nonatomic) double maxHuncForLocationsInTrace; // @synthesize maxHuncForLocationsInTrace=_maxHuncForLocationsInTrace;
-@property(nonatomic) double maxTimeBetweenLocationsInTrace; // @synthesize maxTimeBetweenLocationsInTrace=_maxTimeBetweenLocationsInTrace;
-@property(nonatomic) double minDistanceBetweenLocationsInTrace; // @synthesize minDistanceBetweenLocationsInTrace=_minDistanceBetweenLocationsInTrace;
-@property(nonatomic) double minHuncForLocationsInTrace; // @synthesize minHuncForLocationsInTrace=_minHuncForLocationsInTrace;
-@property(nonatomic) double minTimeBetweenLocationsInTrace; // @synthesize minTimeBetweenLocationsInTrace=_minTimeBetweenLocationsInTrace;
-@property(nonatomic) long long numLocationsInTrace; // @synthesize numLocationsInTrace=_numLocationsInTrace;
 
 @end
 

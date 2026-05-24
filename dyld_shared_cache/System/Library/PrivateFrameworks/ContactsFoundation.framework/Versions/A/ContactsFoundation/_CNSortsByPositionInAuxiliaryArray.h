@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface _CNSortsByPositionInAuxiliaryArray
 {
     NSDictionary *_ranks;
-    NSArray *_auxiliaryValues;
-    CDUnknownBlockType _transform;
 }
 
 + (CDUnknownBlockType);
-- (id);
+- (id);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)_numberOfBrokenFilesInBackupManifestCheck;
+- (id)not have email address;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *auxiliaryValues; // @synthesize auxiliaryValues=_auxiliaryValues;
-@property(readonly, copy, nonatomic) NSDictionary *ranks; // @synthesize ranks=_ranks;
 @property(readonly, copy, nonatomic) CDUnknownBlockType transform; // @synthesize transform=_transform;
 
 @end

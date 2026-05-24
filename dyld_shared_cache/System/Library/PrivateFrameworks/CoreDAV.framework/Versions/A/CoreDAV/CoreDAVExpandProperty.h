@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CoreDAVExpandProperty
 {
     NSSet *_propertiesToFind;
-    NSString *_expandedName;
-    NSString *_expandedNameSpace;
 }
 
 - (void);
 - (void);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *expandedName; // @synthesize expandedName=_expandedName;
-@property(retain, nonatomic) NSString *expandedNameSpace; // @synthesize expandedNameSpace=_expandedNameSpace;
 @property(retain, nonatomic) NSSet *propertiesToFind; // @synthesize propertiesToFind=_propertiesToFind;
 
 @end

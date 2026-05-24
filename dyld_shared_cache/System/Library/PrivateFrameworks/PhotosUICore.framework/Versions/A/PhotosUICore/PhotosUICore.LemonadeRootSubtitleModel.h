@@ -7,19 +7,6 @@
 @interface PhotosUICore.LemonadeRootSubtitleModel
 {
     id _photoLibrary;
-    id tabIdentifier;
-    id _delegate;
-    id _canPresentCloudStatus;
-    id _subtitle;
-    id _imageName;
-    id _systemImageColor;
-    id _action;
-    id cplStatusProviderChanges;
-    id cplUIStatusProvider;
-    id cplStatusObservation;
-    id $__lazy_storage_$_cloudQuotaConciseSource;
-    id cloudQuotaConciseSourceObservation;
-    id _$observationRegistrar;
 }
 
 - (void);

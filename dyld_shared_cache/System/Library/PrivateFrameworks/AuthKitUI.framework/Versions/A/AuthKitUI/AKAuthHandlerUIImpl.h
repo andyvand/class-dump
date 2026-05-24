@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)DEFAULT_TASK_CALENDAR_NAME;
 
 @end
 

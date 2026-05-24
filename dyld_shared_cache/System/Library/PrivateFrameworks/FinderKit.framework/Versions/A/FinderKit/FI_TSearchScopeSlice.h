@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TButton, FI_TPopUpButton, FI_TScopeBarRadioGroupView, FI_TTextField, NSLayoutConstraint, NSObject, NSStackView, NSString;
+@class NSObject, NSStackView;
 @protocol TSearchScopeSliceControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSearchScopeSlice
 {
     NSStackView *_stackView;
-    FI_TTextField *_searchTextField;
-    FI_TScopeBarRadioGroupView *_axScopeRadioGroupView;
-    FI_TButton *_saveButton;
-    FI_TButton *_plusMinusButton;
-    FI_TPopUpButton *_scopeDropdown;
-    NSLayoutConstraint *_scopeDropdownMaxWidthConstraint;
-    NSLayoutConstraint *_scopeDropdownMinWidthConstraint;
-    FI_TButton *_genericRadioButton;
-    FI_TButton *_genericRadioButtonRetainer;
-    struct TNSWeakPtr<NSObject<TSearchScopeSliceControllerDelegate>> _weakDelegate;
 }
 
 - (void);
@@ -39,23 +29,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)4@0:8@"NSCollectionViewLayoutAttributes"16 /* Error: Ran out of types for this method. */;
+- (_Bool)ID:messageList: /* Error: Ran out of types for this method. */;
+- (id)setTokenValue:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void)\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<TSearchScopeSliceControllerDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

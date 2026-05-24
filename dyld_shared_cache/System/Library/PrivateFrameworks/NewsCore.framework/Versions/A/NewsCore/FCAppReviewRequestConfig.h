@@ -7,11 +7,6 @@
 @interface FCAppReviewRequestConfig
 {
     long long _quiescenceInterval;
-    long long _minNumberOfLikedArticles;
-    long long _minNumberOfSavedArticles;
-    long long _minNumberOfSharedArticles;
-    long long _minNumberOfEndOfArticleReads;
-    long long _minNumberOfCombinedActions;
 }
 
 - (long long);
@@ -19,16 +14,11 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)tClient imageOrientation];
 - (id)ñ(	Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long minNumberOfCombinedActions; // @synthesize minNumberOfCombinedActions=_minNumberOfCombinedActions;
-@property(readonly, nonatomic) long long minNumberOfEndOfArticleReads; // @synthesize minNumberOfEndOfArticleReads=_minNumberOfEndOfArticleReads;
-@property(readonly, nonatomic) long long minNumberOfLikedArticles; // @synthesize minNumberOfLikedArticles=_minNumberOfLikedArticles;
-@property(readonly, nonatomic) long long minNumberOfSavedArticles; // @synthesize minNumberOfSavedArticles=_minNumberOfSavedArticles;
-@property(readonly, nonatomic) long long minNumberOfSharedArticles; // @synthesize minNumberOfSharedArticles=_minNumberOfSharedArticles;
 @property(readonly, nonatomic) long long quiescenceInterval; // @synthesize quiescenceInterval=_quiescenceInterval;
 
 @end

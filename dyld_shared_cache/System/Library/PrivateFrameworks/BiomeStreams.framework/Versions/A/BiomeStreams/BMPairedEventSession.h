@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BMStoreEvent *endEvent;
 @property(readonly, nonatomic) BMStoreEvent *startEvent;
 
 @end

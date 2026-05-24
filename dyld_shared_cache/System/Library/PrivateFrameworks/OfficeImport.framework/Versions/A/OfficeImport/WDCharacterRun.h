@@ -12,22 +12,21 @@ __attribute__((visibility("hidden")))
 @interface WDCharacterRun : WDRunWithCharacterProperties
 {
     NSMutableString *mString;
-    _Bool mBinaryWriterContentFlag;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)unique viewports, scissor rectangles or depth-bias values to support memoryless render pass attachments.;
 - (void)gits:separator:digitString:locale:] /* Error: Ran out of types for this method. */;
 - (void)< ;
 

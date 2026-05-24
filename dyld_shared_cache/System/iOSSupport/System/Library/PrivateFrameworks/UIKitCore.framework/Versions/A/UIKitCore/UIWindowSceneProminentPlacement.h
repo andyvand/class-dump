@@ -14,14 +14,14 @@
 + (id);
 + (unsigned long long);
 + (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)r chat:(_Bool)arg1 %@ to:%d /* Error: Ran out of types for this method. */;
+- (_Bool)bytes;
+- (_Bool)D from a transfer; transfer sync state %@, non-empty salt %@;
+- (_Bool)ng message;
 - (id);
 - (id);
-- (id);
-- (_Bool)etLaunchStickersButton:(id)arg1;
+- (id)ibrary=%{public}@;
+- (_Bool)setLaunchStickersButton:(id)arg1;
 - (id)eyboardCandidate",&,N,V_candidate;
 
 // Remaining properties

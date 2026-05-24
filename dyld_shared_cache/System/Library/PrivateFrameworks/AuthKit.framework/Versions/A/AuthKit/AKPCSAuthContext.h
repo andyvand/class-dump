@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface AKPCSAuthContext
 {
     NSString *_webSessionIdentifier;
-    NSUUID *_webSessionID;
-    NSDate *_expiryDate;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)HE;
 - (id);
 - (id);
 - (_Bool);
@@ -30,10 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
-@property(readonly, copy, nonatomic) NSUUID *webSessionID; // @synthesize webSessionID=_webSessionID;
 @property(readonly, copy, nonatomic) NSString *webSessionIdentifier; // @synthesize webSessionIdentifier=_webSessionIdentifier;
 
 @end

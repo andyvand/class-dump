@@ -6,18 +6,15 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSArray;
-
 @interface SLSBridgedSpaceAddWindowsAndRemoveFromSpacesOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _options;
-    unsigned long long _spaceID;
-    NSArray *_windows;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)onnection %p created snapshot:ss %@ value:pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
+- (id)@;
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int options; // @synthesize options=_options;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly, copy) NSArray *windows; // @synthesize windows=_windows;
 
 @end
 

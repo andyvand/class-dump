@@ -6,20 +6,17 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSString;
-
 @interface CLSClassMember : CLSObject
 {
     _Bool _markedForDeletion;
-    NSString *_personID;
-    unsigned long long _roles;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-- (void);
-- (_Bool);
++ (_Bool)_childAccountPrompt;
+- (void)is NULL
+;
+- (_Bool)pe;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,21 +24,12 @@
 - (id);
 - (void);
 - (void);
+- (id)J;
 - (id);
-- (id);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool markedForDeletion; // @synthesize markedForDeletion=_markedForDeletion;
-@property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(nonatomic) unsigned long long roles; // @synthesize roles=_roles;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface NewsUI2.ReplicaAdvertisementCoordinator
 {
     id delegate;
-    id advertisement;
-    id issue;
-    id tracker;
-    id issueSessionManager;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id articleDataFactory;
 }
 
 @end

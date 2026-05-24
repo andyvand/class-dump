@@ -23,13 +23,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)mTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *feature;
-@property(retain, nonatomic) NSString *info;
-@property(retain, nonatomic) NSString *language;
-@property(retain, nonatomic) NSString *region;
 
 @end
 

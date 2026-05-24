@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnalyticsTurnBasedInstrumentationContext, NSObject, SAUIAssistantUtteranceView;
+@class AFAnalyticsTurnBasedInstrumentationContext, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SiriInstrumentationManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _currentInvocationSource;
-    int _lastSiriUIStateSnapShot;
-    AFAnalyticsTurnBasedInstrumentationContext *_currentInstrumentationTurnContext;
-    SAUIAssistantUtteranceView *_assistantUtteranceViewSnapShot;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -55,10 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) SAUIAssistantUtteranceView *assistantUtteranceViewSnapShot; // @synthesize assistantUtteranceViewSnapShot=_assistantUtteranceViewSnapShot;
 @property(retain) AFAnalyticsTurnBasedInstrumentationContext *currentInstrumentationTurnContext; // @synthesize currentInstrumentationTurnContext=_currentInstrumentationTurnContext;
-@property int currentInvocationSource; // @synthesize currentInvocationSource=_currentInvocationSource;
-@property int lastSiriUIStateSnapShot; // @synthesize lastSiriUIStateSnapShot=_lastSiriUIStateSnapShot;
 
 @end
 

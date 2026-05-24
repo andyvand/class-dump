@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat, NSArray, NSIndexSet;
+@class IMChat;
 
 @interface SOTranscriptItemUpdateContext
 {
     IMChat *_chat;
-    NSIndexSet *_addedIndexes;
-    NSIndexSet *_updatedIndexes;
-    NSIndexSet *_removedIndexes;
-    NSArray *_oldItems;
 }
 
 - (void);
@@ -21,18 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSIndexSet *addedIndexes; // @synthesize addedIndexes=_addedIndexes;
 @property(readonly, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(copy, nonatomic) NSArray *oldItems; // @synthesize oldItems=_oldItems;
-@property(copy, nonatomic) NSIndexSet *removedIndexes; // @synthesize removedIndexes=_removedIndexes;
-@property(copy, nonatomic) NSIndexSet *updatedIndexes; // @synthesize updatedIndexes=_updatedIndexes;
 
 @end
 

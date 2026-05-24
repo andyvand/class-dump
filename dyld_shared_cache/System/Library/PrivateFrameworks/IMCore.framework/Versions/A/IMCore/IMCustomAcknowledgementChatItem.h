@@ -6,35 +6,24 @@
 
 #import <IMCore/IMAssociatedMessageChatItem.h>
 
-@class IMBalloonPluginDataSource, IMMessage, NSString;
+@class IMBalloonPluginDataSource, IMMessage;
 
 @interface IMCustomAcknowledgementChatItem : IMAssociatedMessageChatItem
 {
     IMMessage *_message;
-    IMBalloonPluginDataSource *_dataSource;
 }
 
-- (id);
+- (id)e flag=%d);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void),V_ipv4Address;
 - (id);
 - (id);
 - (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, copy, nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSString *type;
 
 @end
 

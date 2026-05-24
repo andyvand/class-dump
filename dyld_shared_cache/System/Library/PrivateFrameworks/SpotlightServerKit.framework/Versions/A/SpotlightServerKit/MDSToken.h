@@ -7,14 +7,13 @@
 @interface MDSToken
 {
     unsigned int _retainCount;
-    unsigned int _tokenID;
 }
 
 + (void);
 - (void);
 - (id);
-- (id);
-- (unsigned int);
+- (id)setCompressionAlgorithm:(struct _NSZone *)arg1;
+- (unsigned int)lure;
 
 @end
 

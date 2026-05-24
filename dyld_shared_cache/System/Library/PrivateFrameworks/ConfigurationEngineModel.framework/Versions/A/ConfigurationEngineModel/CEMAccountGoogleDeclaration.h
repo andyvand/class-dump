@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMAccountGoogleDeclaration_CommunicationServiceRules, NSString;
+@class NSString;
 
 @interface CEMAccountGoogleDeclaration : CEMConfigurationBase
 {
     NSString *_payloadAccountDescription;
-    NSString *_payloadAccountName;
-    NSString *_payloadEmailAddress;
-    CEMAccountGoogleDeclaration_CommunicationServiceRules *_payloadCommunicationServiceRules;
 }
 
 + (id);
@@ -41,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadAccountDescription; // @synthesize payloadAccountDescription=_payloadAccountDescription;
-@property(copy, nonatomic) NSString *payloadAccountName; // @synthesize payloadAccountName=_payloadAccountName;
-@property(copy, nonatomic) CEMAccountGoogleDeclaration_CommunicationServiceRules *payloadCommunicationServiceRules; // @synthesize payloadCommunicationServiceRules=_payloadCommunicationServiceRules;
-@property(copy, nonatomic) NSString *payloadEmailAddress; // @synthesize payloadEmailAddress=_payloadEmailAddress;
-@property(readonly) Class superclass;
 
 @end
 

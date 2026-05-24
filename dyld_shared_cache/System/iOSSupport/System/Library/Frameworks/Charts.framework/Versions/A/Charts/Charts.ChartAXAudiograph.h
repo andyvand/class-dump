@@ -7,6 +7,7 @@
 @interface Charts.ChartAXAudiograph
 {
     id descriptor;
+    id;
 }
 
 @end

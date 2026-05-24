@@ -7,11 +7,11 @@
 @class NSData, NSString;
 
 @protocol MPCTrackInfoDataProvider
+- (void);
+- (NSString *)ionPlugin;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *jingleTimedMetadata;
-@property(copy, nonatomic) NSString *previousQueueItemID;
-@property(readonly, nonatomic) _Bool shouldReportPlayEvents;
 @property(readonly, nonatomic) NSData *trackInfoData;
 @end
 

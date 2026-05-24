@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, STCoreUser;
-@protocol OS_dispatch_source;
+@class NSDate, STCoreUser;
 
 @interface STPINController
 {
     NSDate *_timeoutEndDate;
-    STCoreUser *_user;
-    NSObject<OS_dispatch_source> *_backoffTimer;
 }
 
-+ (void);
-+ (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
++ (void)on, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
++ (unsigned long long)L DEFAULT 0);
+- (void)platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, extras_url TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
+- (id), store_composer_id INTEGER NOT NULL DEFAULT 0, store_genre_id INTEGER NOT NULL DEFAULT 0, store_playlist_id INTEGER NOT NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, cloud_status INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, downloader_account_id INTEGER NOT NULL DEFAULT 0, family_account_id INTEGER NOT NULL DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, extras_url TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
+- (void)m_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void)tore_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
+- (void)pe_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (_Bool)_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (_Bool)enshot_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE screenshot_cache_id IS NOT NULL AND screenshot_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND screenshot_cache_id < 10001;
+- (void)m_pid, sync_screenshot_token) SELECT item_pid, screenshot_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE screenshot_cache_id IS NOT NULL AND screenshot_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND screenshot_cache_id < 10001;
+- (void)hot_cache_id != 0 AND store_saga_id != 0;
+- (id)ra.location FROM item JOIN item_extra USING(item_pid) JOIN base_location USING(base_location_id) WHERE item.base_location_id != 0 AND item_extra.file_size = 0;
+- (_Bool)history_id != 0 THEN 100 ELSE 0 END) END) END FROM item_store WHERE item.item_pid = item_store.item_pid);
+- (void)ASE WHEN IFNULL(purchase_history_redownload_params, '') != '' AND purchase_history_id != 0 THEN 100 ELSE 0 END) END) END FROM item_store WHERE item.item_pid = item_store.item_pid);
+- (_Bool)CASE WHEN IFNULL(match_redownload_params, '') != '' THEN 200 ELSE (CASE WHEN IFNULL(purchase_history_redownload_params, '') != '' AND purchase_history_id != 0 THEN 100 ELSE 0 END) END) END FROM item_store WHERE item.item_pid = item_store.item_pid);
+- (_Bool)NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
+- (void)m_pid in (select sync_id from item_store where sync_id != 0) and sync_id = 0;
+- (_Bool)tal_time_ms from item_store join item_extra using (item_pid) where item_pid in (select sync_id from item_store where sync_id != 0) and sync_id = 0;
 - (void);
 - (id);
 - (id);
@@ -39,9 +36,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_source> *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
-@property(readonly) _Bool canRecoveryAuthenticate;
-@property(copy) NSDate *timeoutEndDate; // @synthesize timeoutEndDate=_timeoutEndDate;
 @property(readonly, nonatomic) STCoreUser *user; // @synthesize user=_user;
 
 @end

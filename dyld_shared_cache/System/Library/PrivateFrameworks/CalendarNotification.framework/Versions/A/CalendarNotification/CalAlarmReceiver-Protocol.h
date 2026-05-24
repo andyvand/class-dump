@@ -5,5 +5,6 @@
 //
 
 @protocol CalAlarmReceiver
+- (void)6;
 @end
 

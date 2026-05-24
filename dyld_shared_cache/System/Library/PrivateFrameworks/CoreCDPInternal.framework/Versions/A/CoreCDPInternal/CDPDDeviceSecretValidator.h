@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDevice, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CDPDDeviceSecretValidatorDelegate;
-
 @interface CDPDDeviceSecretValidator
 {
     _Bool _isAttemptingRecovery;
-    unsigned long long _failedAttempts;
-    NSMutableDictionary *_failedSecrets;
-    NSMutableSet *_failedRecoveryKeys;
-    NSMutableSet *_failedSingleICSCs;
-    NSMutableDictionary *_recoveryErrors;
-    _Bool _depletedRemainingAttempts;
-    CDPDevice *_currentDevice;
-    _Bool _isUsingMultipleICSC;
-    unsigned long long supportedEscapeOfferMask;
-    CDUnknownBlockType _validSecretHandler;
-    id <CDPDDeviceSecretValidatorDelegate> _delegate;
-    CDPContext *_context;
 }
 
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)StressView;
+- (void)StartPagePasswordBreachWarningCollectionViewItem;
+- (void)StartPageFeatureAvailabilityBrowseInSafariCollectionViewItem;
+- (_Bool)SafariNSWorkspaceExtras;
+- (_Bool)SafariAccessibilityExtras;
+- (void)BookmarksSidebarViewControllerDelegate;
+- (_Bool)HomepageHostViewControllerDelegate;
+- (_Bool)GeneralPreferences;
+- (void)FormCompletionDelegate;
+- (void)CompletionUIPresentationControllerDelegate;
+- (id)SFAppAutoFillOneTimeCodeProviderObserver;
+- (id)FilteredCollectionHelper;
+- (id)FileFormatAccessoryViewController;
+- (void)DevelopMenuController;
+- (void)DetachedTabDraggingImageToWindowTransitionController;
+- (void)ContinuousBrowserPageViewController;
 - (void);
 - (void);
 - (void);
@@ -51,8 +36,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_titleStringForAlertToDeleteVerificationCodeFromSavedAccount:(id)arg1;
+- (void)_titleStringForAlertToDeletePasswordFromSavedAccount:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -61,18 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CDPDDeviceSecretValidatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isUsingMultipleICSC; // @synthesize isUsingMultipleICSC=_isUsingMultipleICSC;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long supportedEscapeOfferMask; // @synthesize supportedEscapeOfferMask;
-@property(copy, nonatomic) CDUnknownBlockType validSecretHandler; // @synthesize validSecretHandler=_validSecretHandler;
 
 @end
 

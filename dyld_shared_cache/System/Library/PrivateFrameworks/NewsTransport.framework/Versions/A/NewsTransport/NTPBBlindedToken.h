@@ -9,13 +9,12 @@
 @interface NTPBBlindedToken
 {
     unsigned int _keyId;
-    NSData *_token;
 }
 
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -23,11 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)ncrementUnitIPad;
+- (id);
+- (void)hasOptimizedLayoutIncrementUnitIPad;
 
 // Remaining properties
-@property(nonatomic) unsigned int keyId; // @synthesize keyId=_keyId;
 @property(retain, nonatomic) NSData *token; // @synthesize token=_token;
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NewsUI)
-- (id);
+- (id);
 @end
 

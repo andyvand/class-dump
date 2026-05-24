@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction, PXStoryWipeTransitionConfiguration;
+@class PXStoryWipeTransitionConfiguration;
 
 @interface PXStoryTransitionWipe : PXStoryConcreteTransition
 {
     PXStoryWipeTransitionConfiguration *_configuration;
-    CAMediaTimingFunction *_animationCurve;
-    double _dividerAnimationDurationFraction;
-    double _reverseDividerAnimationDurationFraction;
 }
 
 - (void);

@@ -9,12 +9,12 @@
 }
 
 + (void);
-+ (id);
++ (id);
 + (void);
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)arted: /* Error: Ran out of types for this method. */;
 
 @end
 

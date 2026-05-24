@@ -12,16 +12,10 @@ __attribute__((visibility("hidden")))
 @interface NSSharedKeyDictionary : NSMutableDictionary
 {
     NSSharedKeySet *_keyMap;
-    unsigned long long _count;
-    id *_values;
-    CDUnknownFunctionPointerType _ifkIMP;
-    NSMutableDictionary *_sideDic;
-    unsigned long long _mutations;
-    _Bool _doKVO;
 }
 
 + (_Bool);
-+ (id);
++ (id)i;
 + (_Bool)ionTemplateParameter"16@?<v@?@"NSArray"@"NSError">24;
 - (void);
 - (id);
@@ -30,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)2f, countLodMaxClamp=%u, minLodAvg=%u, maxLodAvg=%u, avgLodAvg=%f, totalLodAvg=%llu, countLodAvg=%u;
+- (void)aceTime.app;
 - (id);
 - (id);
 - (id)ror"16;
 - (void)">24;
 - (void);
-- (void)tRequests;
+- (void)QLSupportsConcurrentRequests;
 - (unsigned long long);
 - (unsigned long long)kÌ;
 

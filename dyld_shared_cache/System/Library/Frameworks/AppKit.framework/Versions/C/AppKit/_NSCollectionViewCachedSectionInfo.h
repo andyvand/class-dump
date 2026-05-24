@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBulkPointerArray, NSIndexSet, NSMutableIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewCachedSectionInfo
 {
     id _representedObject;
-    long long _itemCount;
-    NSBulkPointerArray *_itemPointers;
-    NSMutableIndexSet *_invalidIndexes;
-    NSMutableIndexSet *_queuedDeletedItemIndexes;
 }
 
-- (void);
+- (void)HhLXszMhK6bb9TP4sqVQWQ;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -37,15 +31,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ateItem:(id)arg1 value:(long long)arg2 inRow: /* Error: Ran out of types for this method. */;
-- (id)dTerminate:YES /* Error: Ran out of types for this method. */;
+- (void)4;
+- (id)b;
+- (void)_validateItem:(id)arg1 value:(long long)arg2 inRow: /* Error: Ran out of types for this method. */;
+- (id)replyToApplicationShouldTerminate:YES /* Error: Ran out of types for this method. */;
 - (long long)service.;
 
 // Remaining properties
-@property long long itemCount;
-@property(readonly) NSIndexSet *itemIndexesQueuedForDeletion;
 @property(retain) id representedObject; // @synthesize representedObject=_representedObject;
 
 @end

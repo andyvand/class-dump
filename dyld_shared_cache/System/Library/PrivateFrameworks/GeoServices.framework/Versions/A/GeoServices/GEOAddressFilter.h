@@ -7,20 +7,18 @@
 @interface GEOAddressFilter
 {
     unsigned long long _optionsToInclude;
-    unsigned long long _optionsToExclude;
 }
 
 + (id);
 + (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)dmyFormatString;
+- (unsigned long long)ck",&,N,V_handlersLock;
+- (id)`;
 - (_Bool);
 - (_Bool);
-- (_Bool)etArtworkIndexs;
+- (_Bool)clearActionSheetArtworkIndexs;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long optionsToExclude; // @synthesize optionsToExclude=_optionsToExclude;
 @property(readonly, nonatomic) unsigned long long optionsToInclude; // @synthesize optionsToInclude=_optionsToInclude;
 
 @end

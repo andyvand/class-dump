@@ -5,5 +5,7 @@
 //
 
 @protocol PLJournalManager
+- (id);
+- (id)e %ld:%{public}s /* Error: Ran out of types for this method. */;
 @end
 

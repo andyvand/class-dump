@@ -7,8 +7,6 @@
 @interface SwiftUI.__DictionaryDecoder__priv_2462DFFC835A6F4511AFEB231EB4B8C2
 {
     id storage;
-    id options;
-    id codingPath;
 }
 
 @end

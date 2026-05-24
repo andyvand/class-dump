@@ -6,28 +6,26 @@
 
 #import <SoftwareUpdate/SUTelemetryPreferencesEvent.h>
 
-@class SUBootPolicyUtil, SUSharedPrefs;
+@class SUSharedPrefs;
 
 @interface SUTelemetryAdvancedPreferencesEvent : SUTelemetryPreferencesEvent
 {
     SUSharedPrefs *_sharedPrefs;
-    SUBootPolicyUtil *_bootPolicyUtil;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)2;
 - (_Bool);
 - (unsigned char);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property SUBootPolicyUtil *bootPolicyUtil; // @synthesize bootPolicyUtil=_bootPolicyUtil;
 @property SUSharedPrefs *sharedPrefs; // @synthesize sharedPrefs=_sharedPrefs;
 
 @end

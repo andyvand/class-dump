@@ -11,7 +11,6 @@
 @interface QCStreamProvider_QCArray : QCStreamProvider
 {
     QCArray *_provider;
-    unsigned long long _elementSize;
 }
 
 + (_Bool);
@@ -23,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (int);
+- (int).device);
 - (unsigned long long);
 - (unsigned long long);
 - (id)¼ ¸¨´ÄÐØäìø¤¬°´¬¼¨Ä¤Ì Øàèôü0;

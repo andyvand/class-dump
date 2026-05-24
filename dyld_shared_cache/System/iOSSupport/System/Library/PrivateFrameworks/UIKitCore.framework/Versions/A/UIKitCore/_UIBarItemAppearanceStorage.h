@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *textAttributesForState;
 }
 
-- (id);
+- (id)"24C32@"IMDAccount"36@"NSDate"44B52;
+- (void)setTranscriptBackground:(id)arg1 andSendToChatIdentifier:(id)arg2 chatStyle:(unsigned long long)arg3 transferID:isRefresh: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id)customInputView:(unsigned long long)arg1 accessoryView:assistantView:isKeyboard: /* Error: Ran out of types for this method. */;
+- (id)initWithInputView:(unsigned long long)arg1 customInputView:accessoryView:assistantView:isKeyboard: /* Error: Ran out of types for this method. */;
 - (void)¬Í¤ÿ*;
 
 @end

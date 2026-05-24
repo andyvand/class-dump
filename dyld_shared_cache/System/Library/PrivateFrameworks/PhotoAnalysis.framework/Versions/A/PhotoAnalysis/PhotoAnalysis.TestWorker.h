@@ -7,10 +7,6 @@
 @interface PhotoAnalysis.TestWorker
 {
     id $defaultActor;
-    id taskRecorder;
-    id changeReader;
-    id requirements;
-    id isReady;
 }
 
 @end

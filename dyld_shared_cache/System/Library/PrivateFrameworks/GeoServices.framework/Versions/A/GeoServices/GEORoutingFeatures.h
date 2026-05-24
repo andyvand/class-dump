@@ -11,27 +11,27 @@
     NSMutableArray *_routingFeaturesInfos;
 }
 
-+ (Class);
-+ (_Bool)SpeedLimitEnabled:(id)arg1;
++ (Class)CNDebugHelper;
++ (_Bool)setMapSettingsSpeedLimitEnabled:(id)arg1;
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ns/A/CoreFoundation;
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)_numberOfOccurrences;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24@32Q40@?48@?56;
-- (id)asCca;
-- (id)tion;
-- (id)enceUsage;
+- (id)hasCca;
+- (id)GEOJunction;
+- (id)transitDepartureSequenceUsage;
 - (void);
 
 // Remaining properties

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBLocationValue;
-
 @protocol _INPBSpatialEventTrigger
+- (void);
+- (void)userVisibleName;
+- (int)b;
 - (_Bool);
 - (void)ýMöW;
 
 // Remaining properties
 @property(nonatomic) int event;
-@property(nonatomic) _Bool hasEvent;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasMobileSpace;
-@property(retain, nonatomic) _INPBLocationValue *location;
-@property(nonatomic) int mobileSpace;
-@property(copy, nonatomic) NSArray *suggestedValues;
-@property(readonly, nonatomic) unsigned long long suggestedValuesCount;
 @end
 

@@ -6,12 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INRestaurantGuest, INRestaurantGuestDisplayPreferences, NSString;
+@class INRestaurantGuest;
 
 @interface INGetRestaurantGuestIntentResponse : INIntentResponse
 {
     INRestaurantGuest *_guest;
-    INRestaurantGuestDisplayPreferences *_guestDisplayPreferences;
 }
 
 + (_Bool);
@@ -20,28 +19,19 @@
 - (id);
 - (id);
 - (id);
+- (id)touchpadPrimary;
+- (void);
+- (_Bool)_alwaysIncludeRemainingNon2GHzChannels;
+- (void)voke;
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)T;
+- (id);
 - (void);
 - (long long);
-- (void)imateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableClimateControlOptionsCollectionForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) INRestaurantGuest *guest; // @synthesize guest=_guest;
-@property(copy) INRestaurantGuestDisplayPreferences *guestDisplayPreferences; // @synthesize guestDisplayPreferences=_guestDisplayPreferences;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

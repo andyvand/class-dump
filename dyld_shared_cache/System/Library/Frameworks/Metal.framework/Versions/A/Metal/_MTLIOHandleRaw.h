@@ -6,14 +6,11 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface _MTLIOHandleRaw : _MTLObjectWithLabel
 {
     id <MTLDevice> _device;
-    int _fd;
-    unsigned long long _labelTraceID;
 }
 
 - (id);
@@ -26,22 +23,10 @@
 - (long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long)IOAccelDeviceShmemPool;
+- (unsigned long long)MTLIOAccelDeviceShmemPool;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int vnioID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R
-
 
 @end
 

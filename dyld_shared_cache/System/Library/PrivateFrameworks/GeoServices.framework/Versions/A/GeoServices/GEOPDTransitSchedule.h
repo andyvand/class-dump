@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDeparturePredicate, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitSchedule
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDDeparturePredicate *_departurePredicateCountdown;
-    GEOPDDeparturePredicate *_departurePredicateStamp;
-    NSMutableArray *_departureSequenceContainers;
-    NSMutableArray *_departureSequences;
-    struct GEOPDTimeRange _operatingHoursRange;
-    unsigned long long _ttlSeconds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_operatingHoursRange:1;
-        unsigned int has_ttlSeconds:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_departurePredicateCountdown:1;
-        unsigned int read_departurePredicateStamp:1;
-        unsigned int read_departureSequenceContainers:1;
-        unsigned int read_departureSequences:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)setValueStringFormatter:(id)arg1;
+- (id)initWithEndpointId:xpcClientFactory:endpointAnalyzer:continuousVoiceTrigger:siriVolumeController:mediaPlayingMonitor:alarmMonitor:timerMonitor:audioSessionController:supportPhatic:supportHearstVoiceTrigger:supportTriagleModeSessionActivationRetry:supportSessionActivateDelay:supportsDuckingOnSpeakerEvaluator: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ebModuleConfiguration";
-- (id)alytics;
+- (id)_serverLegIDForAnalytics;
 - (id)mdopøp(sÜu;
 - (void)èäg#YJ@;
 

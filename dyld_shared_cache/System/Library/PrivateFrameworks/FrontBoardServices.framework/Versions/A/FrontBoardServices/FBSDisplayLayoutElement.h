@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableSettings, NSString;
+@class NSString;
 
 @interface FBSDisplayLayoutElement
 {
     NSString *_identifier;
-    NSString *_bundleIdentifier;
-    struct CGRect _frame;
-    struct CGRect _referenceFrame;
-    long long _level;
-    _Bool _fillsDisplayBounds;
-    _Bool _application;
-    _Bool _keyboardFocus;
-    BSMutableSettings *_otherSettings;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,21 +24,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id)attachmentExpressionWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)ack done for client 0x%x;
 - (struct CGRect);
 - (id);
 - (Class);
@@ -55,22 +47,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, getter=isUIApplicationElement) _Bool UIApplicationElement; // @synthesize UIApplicationElement=_application;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fillsDisplayBounds; // @synthesize fillsDisplayBounds=_fillsDisplayBounds;
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool hasKeyboardFocus; // @synthesize hasKeyboardFocus=_keyboardFocus;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, copy, nonatomic) BSMutableSettings *otherSettings; // @synthesize otherSettings=_otherSettings;
-@property(nonatomic) struct CGRect referenceFrame; // @synthesize referenceFrame=_referenceFrame;
-@property(readonly) Class superclass;
 
 @end
 

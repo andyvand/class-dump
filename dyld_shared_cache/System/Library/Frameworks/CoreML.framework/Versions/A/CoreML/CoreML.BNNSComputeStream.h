@@ -7,7 +7,6 @@
 @interface CoreML.BNNSComputeStream
 {
     id device;
-    id scheduler;
 }
 
 @end

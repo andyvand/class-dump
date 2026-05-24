@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol INRideDriverExport
+- (void)setAuthKitDataValue:(NSString *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (NSString *)compareAssetVersion:withVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *phoneNumber;
 @property(copy) NSString *rating;
 @end
 

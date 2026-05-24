@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id)nPairing:(unsigned char)arg1 ]_block_invoke;
 
 @end
 

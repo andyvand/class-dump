@@ -9,7 +9,7 @@
     id action;
 }
 
-- (void);
+- (void)_useRelativePersonalizationValue;
 - (id);
 - (void)issing editingSessionID;
 

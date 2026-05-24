@@ -10,6 +10,7 @@
 - (UICollectionViewCell *)¼;
 
 @optional
+- (long long);
 - (NSArray *)!Dùq(ð1Â0@ù
 × ;
 - (NSIndexPath *)v@?>96;

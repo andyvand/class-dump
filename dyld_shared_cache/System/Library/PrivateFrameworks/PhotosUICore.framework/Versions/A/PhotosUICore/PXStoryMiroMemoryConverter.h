@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHMemory;
-@protocol PXDisplayAsset, PXDisplayAssetFetchResult;
+@class PHMemory;
+@protocol PXDisplayAsset;
 
 @interface PXStoryMiroMemoryConverter
 {
     PHMemory *_memory;
-    id <PXDisplayAssetFetchResult> _curatedAssets;
-    NSString *_flexMusicID;
-    id <PXDisplayAsset> _keyAsset;
 }
 
 - (id);
@@ -24,16 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsAnyData;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> curatedAssets; // @synthesize curatedAssets=_curatedAssets;
-@property(readonly, nonatomic) NSString *flexMusicID; // @synthesize flexMusicID=_flexMusicID;
 @property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
 
 @end
 

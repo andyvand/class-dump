@@ -4,41 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetVariant, FigAssetVariantQualifierObjC;
+@class AVAssetVariant;
 
 @interface AVAssetVariantQualifier
 {
     AVAssetVariant *_variant;
-    FigAssetVariantQualifierObjC *_figAssetVariantQualifier;
-    long long _environmentalConditions;
 }
 
++ (id)x1;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)Tulx\y;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)½;
 + (id);
 + (_Bool);
-- (void);
+- (void)\.;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (void);
-- (id);
+- (id)(;
 
 // Remaining properties
 @property(nonatomic) long long environmentalConditions;

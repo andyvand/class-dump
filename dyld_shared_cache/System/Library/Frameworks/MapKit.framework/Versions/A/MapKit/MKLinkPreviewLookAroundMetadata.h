@@ -6,16 +6,9 @@
 
 #import <MapKit/MKLinkPreviewMetadata.h>
 
-@class CNPostalAddress, NSString;
-
 @interface MKLinkPreviewLookAroundMetadata : MKLinkPreviewMetadata
 {
     _Bool _isPointOfInterest;
-    NSString *_name;
-    NSString *_address;
-    CNPostalAddress *_addressComponents;
-    NSString *_category;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 - (void);
@@ -25,29 +18,17 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)_handlerMap;
 - (void);
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)sDeviceKeyboardLocale;
+- (void)hasDeviceKeyboardLocale;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(copy, nonatomic) CNPostalAddress *addressComponents; // @synthesize addressComponents=_addressComponents;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isPointOfInterest; // @synthesize isPointOfInterest=_isPointOfInterest;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

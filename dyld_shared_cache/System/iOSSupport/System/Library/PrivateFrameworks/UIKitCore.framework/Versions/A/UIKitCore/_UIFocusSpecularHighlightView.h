@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_representationCacheKeyForArtworkCatalog:forAnyRevision: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

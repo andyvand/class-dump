@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     OADBackground *mBackground;
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (void)Flush:, returning /* Error: Ran out of types for this method. */;

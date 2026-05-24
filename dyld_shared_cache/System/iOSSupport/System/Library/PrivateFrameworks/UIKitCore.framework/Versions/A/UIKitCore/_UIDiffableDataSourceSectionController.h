@@ -4,54 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSSet, _UIDiffableDataSourceExpandCollapseAnimationContext, _UIDiffableDataSourceSectionControllerHandlers, __UIDiffableDataSource;
+@class __UIDiffableDataSource;
 @protocol _UIDiffableDataSourceSectionControllerDelegate;
 
 @interface _UIDiffableDataSourceSectionController
 {
     __UIDiffableDataSource *_dataSource;
-    NSMapTable *_snapshotsMap;
-    NSSet *_associatedSectionIdentifiers;
-    id <_UIDiffableDataSourceSectionControllerDelegate> _delegate;
-    _UIDiffableDataSourceExpandCollapseAnimationContext *_expandCollapseAnimationContext;
-    NSArray *_itemRenderers;
-    _UIDiffableDataSourceSectionControllerHandlers *_handlers;
 }
 
 - (id);
+- (id)disableCacheGrowth;
+- (id)accountRegionsEligibleForJunkFiltering;
+- (id)accountRegionIsCandidateForHawking:(id)arg1;
+- (id)accountNeedsPassword;
+- (void)IMMessageFromStoragePipelineComponent;
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)@Z;
 - (void);
+- (void);
+- (void)aliasToCNIDMapUnavailable;
+- (void)F;
 - (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)o process junk chat for user report for message:(id)arg1 %s;
+- (void)Deletion:(id)arg1 Dropping delete as IDS syncs it real time. ***;
+- (void)@ for zone %@ limit %@;
+- (id)to op lock Not doing ABC %@;
+- (_Bool)******** LOCK RECORD IS NOT PRESENT ******;
+- (_Bool)led ;
+- (_Bool)iceUUIDs count:(unsigned long long)arg1 %d;
+- (id)d chat:(id)arg1 %@;
+- (id)@;
+- (void)nd;
+- (void)junk command;
+- (void)v16@?0^{_IMDChatRecordStruct=}8;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id)!Gù1`Ð1Â0@ù
@@ -60,7 +54,7 @@
 × ;
 - (void)±e1Â0@ù
 × ;
-- (void)ontainer:(id)arg1;
+- (void)_frameForPullView:(id)arg1 inSwipedItem:(id)arg2 withContainer:(_Bool)arg3;
 - (id)idth;
 - (id)UITextSelectionRangeView",R,N,V_highlightSubview;
 - (id);
@@ -68,10 +62,7 @@
 - (void)ÿ:(id)arg1 ÍXc;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *associatedSectionIdentifiers; // @synthesize associatedSectionIdentifiers=_associatedSectionIdentifiers;
 @property(nonatomic) __weak id <_UIDiffableDataSourceSectionControllerDelegate> delegate;
-@property(copy, nonatomic) _UIDiffableDataSourceSectionControllerHandlers *handlers; // @synthesize handlers=_handlers;
-@property(readonly, nonatomic) NSArray *itemRenderers; // @synthesize itemRenderers=_itemRenderers;
 
 @end
 

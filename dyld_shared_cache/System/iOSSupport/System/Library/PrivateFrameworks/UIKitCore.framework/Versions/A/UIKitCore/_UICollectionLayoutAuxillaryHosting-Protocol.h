@@ -7,18 +7,19 @@
 @class NSArray, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutSupplementaryEnroller, _UICollectionPreferredSizes;
 
 @protocol _UICollectionLayoutAuxillaryHosting
-- (UITraitCollection *)CurrentState;
-- (unsigned long long)View;
+- (struct CGSize)payloadFilterType;
+- (UITraitCollection *)_shouldBeginFromCurrentState;
+- (unsigned long long)DimmingView;
 - (long long);
 - (_UICollectionLayoutContainer *);
 - (_UICollectionPreferredSizes *);
 - (_UICollectionLayoutSupplementaryEnroller *)þ­43T'tþ;
-- (NSArray *)tionSceneInterfaceOrientationMode;
+- (NSArray *)UIApplicationSceneInterfaceOrientationMode;
 - (_Bool)Á;
 - (struct CGRect)¤Ü[;
 
 @optional
-- (struct CGPoint);
+- (_Bool);
 - (double)behavior, as this property is managed by the owning UITableViewHeaderFooterView. View:%@ /* Error: Ran out of types for this method. */;
 @end
 

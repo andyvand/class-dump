@@ -8,5 +8,8 @@
 
 @protocol NSAccessibilityStepper
 - (NSString *)allRef:axElement:] /* Error: Ran out of types for this method. */;
+
+@optional
+- (id);
 @end
 

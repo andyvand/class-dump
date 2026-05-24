@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBIntentSlotResolutionMulticardinalResult
+- (void))	;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *resolutionResults;
-@property(readonly, nonatomic) unsigned long long resolutionResultsCount;
 @end
 

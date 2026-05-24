@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBUserStatusChangeEvent
 {
     NSString *_idsHandle;
-    NSMutableArray *_idsHandles;
-    NSString *_statusChangeType;
 }
 
 + (Class);
@@ -21,15 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)>;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)y ;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)C>;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,10 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdsHandle;
-@property(readonly, nonatomic) _Bool hasStatusChangeType;
-@property(retain, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(retain, nonatomic) NSMutableArray *idsHandles; // @synthesize idsHandles=_idsHandles;
-@property(retain, nonatomic) NSString *statusChangeType; // @synthesize statusChangeType=_statusChangeType;
 
 @end
 

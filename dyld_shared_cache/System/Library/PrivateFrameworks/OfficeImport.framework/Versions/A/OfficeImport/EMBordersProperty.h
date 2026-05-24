@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EMBordersProperty : CMProperty
 {
     OITSUColor *mBorderColor;
-    OITSUColor *mBorderTopColor;
-    OITSUColor *mBorderLeftColor;
-    OITSUColor *mBorderBottomColor;
-    OITSUColor *mBorderRightColor;
-    int mBorderStyle[5];
-    int mBorderWidth[5];
 }
 
 - (id);
@@ -29,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)q ;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)User;
 - (void);
 
 @end

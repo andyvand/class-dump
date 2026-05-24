@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, VMUVMRegionTracker;
+@class NSSet, NSString;
 
 @protocol VMUStackLogReader
-- (struct _CSTypeRef)stCnt:error: /* Error: Ran out of types for this method. */;
+- (NSString *)C;
+- (NSSet *);
+- (long long);
+- (long long)descendantWithNativeFocus;
+- (struct _CSTypeRef)taskThreadsWithList:listCnt:error: /* Error: Ran out of types for this method. */;
 - (_Bool)¹;
 
 // Remaining properties
-@property(readonly) _Bool coldestFrameIsNotThreadId;
-@property(retain, nonatomic) NSSet *excludedFrames;
-@property(readonly) _Bool inspectingLiveProcess;
-@property(readonly) _Bool is64bit;
-@property(readonly) unsigned long long nodesInUniquingTable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) VMUVMRegionTracker *regionTracker;
-@property(readonly) struct _CSTypeRef symbolicator;
 @property(readonly) unsigned int task;
-@property(readonly) _Bool usesCoreFile;
-@property(readonly) _Bool usesLiteMode;
 @end
 

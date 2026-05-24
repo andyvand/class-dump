@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSBoundKeyPath
 {
     id _rootObject;
-    NSString *_keyPath;
 }
 
++ (id)=;
 + (id);
-+ (id);
-+ (_Bool)e;
-- (_Bool);
++ (_Bool)WritingDirectionAttribute;
+- (_Bool)#;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)i;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *keyPath;
 @property id rootObject;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol CRKShareTargetCollectorDelegate
+- (void);
 @end
 

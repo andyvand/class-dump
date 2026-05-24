@@ -20,7 +20,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 
 @end
 

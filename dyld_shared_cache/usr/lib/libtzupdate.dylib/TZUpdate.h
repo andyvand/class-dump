@@ -13,20 +13,20 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (_Bool)T;
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)hdr.object_id == link->hdr.object_id;
 
 // Remaining properties
 @property(retain) NSXPCConnection *connectionToService; // @synthesize connectionToService=_connectionToService;

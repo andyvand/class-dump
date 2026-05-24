@@ -6,16 +6,15 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKEncryptedPushProvisioningTarget;
+@class PKEncryptedPushProvisioningTarget;
 
 @interface PKPaymentPushProvisioningProvideEncryptedPushProvisioningTargetRequest : PKPaymentWebServiceRequest
 {
     PKEncryptedPushProvisioningTarget *_encryptedPushProvisioningTarget;
-    NSString *_sharingInstanceIdentifier;
 }
 
-- (id);
-- (void);
+- (id)b;
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) PKEncryptedPushProvisioningTarget *encryptedPushProvisioningTarget; // @synthesize encryptedPushProvisioningTarget=_encryptedPushProvisioningTarget;
-@property(copy, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end
 

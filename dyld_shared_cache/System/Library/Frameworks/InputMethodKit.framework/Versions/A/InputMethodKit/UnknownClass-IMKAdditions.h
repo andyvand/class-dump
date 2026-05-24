@@ -6,7 +6,7 @@
 
 @interface UnknownClass (IMKAdditions)
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 @end

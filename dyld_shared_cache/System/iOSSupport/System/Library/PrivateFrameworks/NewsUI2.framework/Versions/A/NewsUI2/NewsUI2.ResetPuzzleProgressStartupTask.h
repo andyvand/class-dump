@@ -7,8 +7,6 @@
 @interface NewsUI2.ResetPuzzleProgressStartupTask
 {
     id executionPhase;
-    id puzzleHistoryService;
-    id puzzleStatsStateStore;
 }
 
 @end

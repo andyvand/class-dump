@@ -6,18 +6,11 @@
 
 #import <CryptoTokenKit/TKTokenKeychainItem.h>
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface TKTokenKeychainCertificate : TKTokenKeychainItem
 {
     NSData *_data;
-    NSData *_subject;
-    NSData *_issuer;
-    NSData *_serialNumber;
-    NSData *_subjectKeyID;
-    NSData *_publicKeyHash;
-    NSNumber *_certificateType;
-    NSNumber *_certificateEncoding;
 }
 
 - (id);
@@ -26,30 +19,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)}@ checkCanAuthorizeWithCompletion started;
+- (id)P;
 
 // Remaining properties
-@property(retain) NSNumber *certificateEncoding; // @synthesize certificateEncoding=_certificateEncoding;
-@property(retain) NSNumber *certificateType; // @synthesize certificateType=_certificateType;
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(retain) NSData *issuer; // @synthesize issuer=_issuer;
-@property(retain) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(retain) NSData *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(retain) NSData *subject; // @synthesize subject=_subject;
-@property(retain) NSData *subjectKeyID; // @synthesize subjectKeyID=_subjectKeyID;
 
 @end
 

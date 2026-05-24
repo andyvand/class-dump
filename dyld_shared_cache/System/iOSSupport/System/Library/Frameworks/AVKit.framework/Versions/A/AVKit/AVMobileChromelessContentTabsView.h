@@ -6,33 +6,26 @@
 
 #import <AVKit/AVView.h>
 
-@class AVMobileChromelessContentTabsContentView, AVMobileContentTab, AVMobileContentTabSelectionView, NSArray, NSString;
-@protocol AVMobileChromelessContentTabsViewDelegate, AVMobileControlsStyleFontsSheet, UIScrollViewDelegate;
+@class NSArray;
+@protocol AVMobileControlsStyleFontsSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessContentTabsView : AVView
 {
     id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    AVMobileContentTabSelectionView *_contentTabSelectionView;
-    AVMobileChromelessContentTabsContentView *_contentView;
-    NSArray *_contentTabs;
-    id <UIScrollViewDelegate> _contentViewDelegate;
-    double _fadeDistance;
-    id <AVMobileChromelessContentTabsViewDelegate> _delegate;
-    struct AVMobileChromelessContentTabsTransitionState _transitionState;
 }
 
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct AVMobileChromelessContentTabsTransitionState);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (struct CGSize);
@@ -47,18 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentTabs; // @synthesize contentTabs=_contentTabs;
-@property(nonatomic) __weak id <UIScrollViewDelegate> contentViewDelegate; // @synthesize contentViewDelegate=_contentViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileChromelessContentTabsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fadeDistance; // @synthesize fadeDistance=_fadeDistance;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVMobileContentTab *selectedContentTab;
-@property(readonly) Class superclass;
-@property(nonatomic) struct AVMobileChromelessContentTabsTransitionState transitionState; // @synthesize transitionState=_transitionState;
 
 @end
 

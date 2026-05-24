@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVTStickerPropAdjustTransformProperty
 {
     long long _presetCategory;
-    id _presetValue;
-    id _position;
-    id _rotation;
-    id _scale;
 }
 
 - (id);
@@ -21,14 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id position; // @synthesize position=_position;
 @property(readonly, nonatomic) long long presetCategory; // @synthesize presetCategory=_presetCategory;
-@property(readonly, nonatomic) id presetValue; // @synthesize presetValue=_presetValue;
-@property(readonly, nonatomic) id rotation; // @synthesize rotation=_rotation;
-@property(readonly, nonatomic) id scale; // @synthesize scale=_scale;
 
 @end
 

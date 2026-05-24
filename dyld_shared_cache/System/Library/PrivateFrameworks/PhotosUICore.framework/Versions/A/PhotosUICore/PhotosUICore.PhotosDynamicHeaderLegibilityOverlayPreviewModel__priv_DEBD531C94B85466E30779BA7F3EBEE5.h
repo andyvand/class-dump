@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderLegibilityOverlayPreviewModel__priv_DEBD531C94B85466E30779BA7F3EBEE5
 {
     id _geometryModel;
-    id _bottomInset;
-    id _fractionFloating;
-    id _$observationRegistrar;
 }
 
 @end

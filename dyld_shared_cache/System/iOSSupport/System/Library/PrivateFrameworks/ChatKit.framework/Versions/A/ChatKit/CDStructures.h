@@ -17,22 +17,22 @@ struct CAFrameRateRange {
 };
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CGAffineTransform {
@@ -90,16 +90,16 @@ struct CKCatchUpScrollTarget {
 };
 
 struct CKMessageSearchResultVisibilityContext {
-    _Bool isGroupedResult;
-    _Bool isFirstResultCell;
-    _Bool isLastResultCell;
-    _Bool isLastResultInGroupCell;
-    _Bool shouldShowConversationName;
-    _Bool shouldShowSenderName;
-    _Bool shouldShowDate;
-    _Bool shouldShowSeparator;
-    double topSpacing;
-    double bottomSpacing;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+    _Bool _field7;
+    _Bool _field8;
+    double _field9;
+    double _field10;
 };
 
 struct CLLocationCoordinate2D {
@@ -108,20 +108,20 @@ struct CLLocationCoordinate2D {
 };
 
 struct IMAssociatedMessageGeometryDescriptor {
-    unsigned long long layoutIntent;
-    unsigned long long associatedLayoutIntent;
-    double parentPreviewWidth;
-    double xScalar;
-    double yScalar;
-    double scale;
-    double rotation;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
 };
 
 struct IMColorComponents {
-    double red;
-    double green;
-    double blue;
-    double alpha;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct IMPreviewConstraints {
@@ -178,8 +178,8 @@ struct UIEdgeInsets {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _Spec {
@@ -204,10 +204,10 @@ typedef struct {
 } CDStruct_a06f635e;
 
 typedef struct {
-    unsigned long long photosCount;
-    unsigned long long videosCount;
-    unsigned long long othersCount;
-} CDStruct_aa0b146f;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
 
 typedef struct {
     unsigned long long _field1;
@@ -223,17 +223,17 @@ typedef struct {
 } CDStruct_4bcfbbae;
 
 typedef struct {
-    unsigned long long count;
-    long long type;
-} CDStruct_15189878;
+    unsigned long long _field1;
+    long long _field2;
+} CDStruct_3f164e09;
 
 typedef struct {
-    double currentDragDistance;
-    double previousProposedWidth;
-    _Bool proposedPreviouslyIncreasing;
-    _Bool previouslyAtSnap;
-    _Bool previouslyAtMin;
-} CDStruct_644752d7;
+    double _field1;
+    double _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+} CDStruct_cc5867a2;
 
 typedef struct {
     float _field1;

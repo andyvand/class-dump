@@ -9,6 +9,8 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)	;
+- (void);
 - (void)riant<WebCore:(CLLocationManager *)arg1:(CLRegion *)arg2 Style::MoveCommand, WebCore::Style::LineCommand, WebCore::Style::HLineCommand, WebCore::Style::VLineCommand, WebCore::Style::CurveCommand, WebCore::Style::SmoothCommand, WebCore::Style::ArcCommand, WebCore::Constant<WebCore::CSSValueClose>> &, const Variant<WebCore::Style::MoveCommand, WebCore::Style::LineCommand, WebCore::Style::HLineCommand, WebCore::Style::VLineCommand, WebCore::Style::CurveCommand, WebCore::Style::SmoothCommand, WebCore::Style::ArcCommand, WebCore::Constant<WebCore::CSSValueClose>> &, const WebCore::BlendingContext &)::(anonymous class)::operator()(const auto &, const auto &) const [auto:1 = WebCore::Style::HLineCommand, auto:2 = WebCore::Style::ArcCommand] /* Error: Ran out of types for this method. */;
 - (void)arô´.avpop.töª°m.iî¢7jameó®flibusta.ióabvshka.com@;
 - (void)àíügonåávãÕXbatôá:(CLLocationManager *)arg1 áóàóâáD¬æÀæázÊstreamstöàü	åa¨eÀ|tôa¢Åvãoáálitysïá­alïAãa@MàVÔwild÷áZtraceäáÂistiìàÕiòá6«umâàí·íàèbillfoläáRçáaOàO¶-bïá«%áàtÃå5"òsôá;ïà'-káàÀÑgeòliches-gesetzbucèáN­àÇcõÀîosaireó`¤(àR;ávistáádstaòá£lløá¤ehneîbeòà.k-hááácheòa×eien.wieîàR'ä@<aÓÑwiçá}LöàkãujemyäÛesguîá/ ïà«&îáVéá+deyáágeô

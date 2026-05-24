@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigVideoCaptureStream, NSArray, NSObject;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface BWStreamStartStopState
 {
     int _state;
-    BWFigVideoCaptureStream *_stream;
-    NSObject<OS_dispatch_group> *_hasStartedGroup;
-    _Bool _hasEnteredStartedGroup;
-    NSObject<OS_dispatch_group> *_dependentsHaveStoppedGroup;
-    BWStreamStartStopState *_blockingMasterState;
-    NSArray *_blockingSlaveStates;
-    float _timeoutInSeconds;
-    _Bool _waitForMasterAEToSettle;
 }
 
-- (void);
+- (void)EDWorksheet;
 - (id);
 
 @end

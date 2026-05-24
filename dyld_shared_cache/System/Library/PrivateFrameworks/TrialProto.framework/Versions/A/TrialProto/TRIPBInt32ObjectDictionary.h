@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32ObjectDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (id);
@@ -22,7 +21,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)eRate"b1};
 - (void);
 - (id);
 - (id);
@@ -32,8 +31,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool)onAtIndex: /* Error: Ran out of types for this method. */;
-- (void)udioAppSelection;
+- (_Bool)userDimensionAtIndex: /* Error: Ran out of types for this method. */;
+- (void)SiriAudioAppSelection;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

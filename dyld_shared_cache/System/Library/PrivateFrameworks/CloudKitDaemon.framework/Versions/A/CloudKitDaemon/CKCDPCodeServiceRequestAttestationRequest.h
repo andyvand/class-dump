@@ -12,13 +12,13 @@
 }
 
 - (_Bool);
-- (void);
+- (void)|;
 - (id);
+- (void)debug.hcievent.logging;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)CodecQualityMode_Max;
 - (_Bool);
-- (_Bool);
+- (_Bool)updateBeforeDisplayForMessagesMatchingQuery:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -26,7 +26,6 @@
 - (void)nknown error when saving record for record access;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *entropy; // @synthesize entropy=_entropy;
 @property(readonly, nonatomic) _Bool hasEntropy;
 
 @end

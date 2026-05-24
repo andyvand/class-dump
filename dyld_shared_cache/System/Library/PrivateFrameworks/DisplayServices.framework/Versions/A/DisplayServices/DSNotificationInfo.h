@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSNotificationInfo
 {
     void *_observer;
-    CDUnknownFunctionPointerType _callback;
-    NSString *_desc;
 }
 
 - (id);
@@ -22,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void *);
 
 // Remaining properties
-@property(readonly) CDUnknownFunctionPointerType callback; // @synthesize callback=_callback;
 @property(readonly) void *observer; // @synthesize observer=_observer;
 
 @end

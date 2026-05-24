@@ -7,11 +7,9 @@
 @interface AWDSiriVoiceSendEnd
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    CDStruct_9b5766a4 _has;
 }
 
-- (id);
+- (id)1;
 - (unsigned long long);
 - (void);
 - (void);
@@ -21,19 +19,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

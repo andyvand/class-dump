@@ -6,35 +6,29 @@
 
 #import <AuthKit/AKAppleIDAuthenticationContext.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AKBasicServerRequest : AKAppleIDAuthenticationContext
 {
     NSString *_urlBagKey;
-    NSDictionary *_requestBody;
-    unsigned long long _expectedResponseFormat;
-    unsigned long long _requestBodyFormat;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)6;
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (void)Ø(À;
 
 // Remaining properties
-@property(nonatomic) unsigned long long expectedResponseFormat; // @synthesize expectedResponseFormat=_expectedResponseFormat;
-@property(copy, nonatomic) NSDictionary *requestBody; // @synthesize requestBody=_requestBody;
-@property(nonatomic) unsigned long long requestBodyFormat; // @synthesize requestBodyFormat=_requestBodyFormat;
 @property(copy, nonatomic) NSString *urlBagKey; // @synthesize urlBagKey=_urlBagKey;
 
 @end

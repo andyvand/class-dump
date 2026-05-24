@@ -7,7 +7,6 @@
 @interface RemindersUICore.GenerativeSuggestionContext__priv_A3BA6000D8428A992F3ECBE4ED9D1F98
 {
     id extractionInput;
-    id store;
 }
 
 @end

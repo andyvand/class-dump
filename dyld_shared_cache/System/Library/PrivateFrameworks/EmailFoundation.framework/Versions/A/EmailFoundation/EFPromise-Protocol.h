@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EFObserver;
-
 @protocol EFPromise
+- (_Bool)aired accessory %@;
+- (void (^)(NSError *))-v;
 - (_Bool)AùQÍÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType boolErrorCompletionHandlerAdapter;
 @property(readonly) CDUnknownBlockType completionHandlerAdapter;
-@property(readonly) CDUnknownBlockType errorOnlyCompletionHandlerAdapter;
-@property(readonly) id <EFObserver> firstResultObserverAdapter;
-@property(readonly) id <EFObserver> resultsObserverAdapter;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface TXRAssetCatalogSet
 {
     unsigned long long _interpretation;
-    unsigned long long _origin;
-    NSString *_name;
-    _Bool _cubemap;
-    NSMutableArray *_configs;
 }
 
 - (void);
@@ -22,19 +18,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void)';
+- (void)1E1*(;
 
 // Remaining properties
-@property(readonly) NSArray *configs; // @synthesize configs=_configs;
-@property(readonly, nonatomic) _Bool cubemap; // @synthesize cubemap=_cubemap;
-@property(nonatomic) unsigned long long interpretation; // @synthesize interpretation=_interpretation;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long origin; // @synthesize origin=_origin;
 
 @end
 

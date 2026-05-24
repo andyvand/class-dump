@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID;
+@class CKRecordID;
 
 @interface HMBCloudZoneRecordPushConflict
 {
     CKRecordID *_recordID;
-    CKRecord *_clientRecord;
-    CKRecord *_serverRecord;
-    CKRecord *_ancestorRecord;
 }
 
 - (id);
@@ -21,15 +18,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)dd}{CGSize=dd}}40@0:8@16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) CKRecord *ancestorRecord; // @synthesize ancestorRecord=_ancestorRecord;
-@property(readonly) CKRecord *clientRecord; // @synthesize clientRecord=_clientRecord;
 @property(readonly) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly) CKRecord *serverRecord; // @synthesize serverRecord=_serverRecord;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatAttributedStringAnnotator.AnnotationBuilder__priv_A0079CFB2883644F486C15BD944B7FE6
 {
     id value;
-    id attributes;
 }
 
 @end

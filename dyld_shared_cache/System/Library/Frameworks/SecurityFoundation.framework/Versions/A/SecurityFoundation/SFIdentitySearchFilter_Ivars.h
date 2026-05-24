@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFIdentitySearchFilter_Ivars
 {
     NSArray *certificateSerialNumbers;
-    NSArray *certificateTypes;
-    NSArray *keySpecifiers;
 }
 
 - (void);

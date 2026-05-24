@@ -6,7 +6,7 @@
 
 @interface UnknownClass (MessageUIAdditions)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

@@ -7,37 +7,31 @@
 @interface CLFindMyAccessoryFindingCapabilities
 {
     _Bool _supportsFC1ND;
-    _Bool _supportsNBAMMS;
-    _Bool _supportsUnii5;
-    _Bool _supportsSimultaneousRanging;
-    unsigned int _capabilities;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)i;
+- (_Bool)z >_;
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (unsigned int);
+- (void);
+- (void)ry from xpc_object_t - decoding XMPData...
+;
+- (void)hunks err = %d
+;
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id)removeComputePipelineFunctionsWithDescriptor:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (unsigned int)scriptor uses compressionFootprint %d, but the pixel format %s does not support that lossy compression mode on this device;
 
 // Remaining properties
 @property unsigned int capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) _Bool supportsFC1ND; // @synthesize supportsFC1ND=_supportsFC1ND;
-@property(nonatomic) _Bool supportsNBAMMS; // @synthesize supportsNBAMMS=_supportsNBAMMS;
-@property(nonatomic) _Bool supportsSimultaneousRanging; // @synthesize supportsSimultaneousRanging=_supportsSimultaneousRanging;
-@property(readonly) _Bool supportsUnii5; // @synthesize supportsUnii5=_supportsUnii5;
 
 @end
 

@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPPeopleDiscovery
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_discoveredPeople;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    unsigned int _changeFlags;
-    unsigned int _discoveryFlags;
-    int _discoveryMode;
-    int _peopleDensity;
-    unsigned int _scanRate;
-    unsigned int _statusFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _peopleDensityChangedHandler;
-    CDUnknownBlockType _personFoundHandler;
-    CDUnknownBlockType _personLostHandler;
-    CDUnknownBlockType _personChangedHandler;
-    CDUnknownBlockType _statusChangedHandler;
 }
 
 + (_Bool);
@@ -53,15 +33,15 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id)@ which has no effective bundleID;
 - (id);
-- (unsigned int);
+- (void)dit-score-threshold;
+- (id)N3fst22DeterminizeFstImplBaseINS_6ArcTplINS_17TropicalWeightTplIfEEiEEEE;
+- (unsigned int)n;
 - (id);
 - (void);
 - (void);
@@ -82,26 +62,11 @@
 - (void);
 - (int);
 - (unsigned int)× ;
-- (unsigned int)s;
+- (unsigned int)finishedFiles;
 - (_Bool)ect<OS_nw_framer>"8;
 
 // Remaining properties
-@property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(readonly, copy, nonatomic) NSArray *discoveredPeople;
-@property(nonatomic) unsigned int discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
-@property(nonatomic) int discoveryMode; // @synthesize discoveryMode=_discoveryMode;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) int peopleDensity; // @synthesize peopleDensity=_peopleDensity;
-@property(copy, nonatomic) CDUnknownBlockType peopleDensityChangedHandler; // @synthesize peopleDensityChangedHandler=_peopleDensityChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType personChangedHandler; // @synthesize personChangedHandler=_personChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType personFoundHandler; // @synthesize personFoundHandler=_personFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType personLostHandler; // @synthesize personLostHandler=_personLostHandler;
-@property(nonatomic) unsigned int scanRate; // @synthesize scanRate=_scanRate;
-@property(copy, nonatomic) CDUnknownBlockType statusChangedHandler; // @synthesize statusChangedHandler=_statusChangedHandler;
-@property(readonly, nonatomic) unsigned int statusFlags; // @synthesize statusFlags=_statusFlags;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
 
 @end
 

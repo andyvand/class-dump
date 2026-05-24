@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFNotificationRegistrationActionSetDatabaseID;
 @protocol MKFActionSet, MKFHome;
 
 @protocol MKFNotificationRegistrationActionSet
@@ -13,7 +12,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MKFActionSet> actionSet;
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationActionSetDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @end
 

@@ -4,65 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXDataPointValue, NSArray, NSAttributedString, NSNumber, NSString;
+@class AXDataPointValue, NSNumber;
 
 @interface AXDataPoint
 {
     AXDataPointValue *_xValue;
-    AXDataPointValue *_yValue;
-    NSArray *_additionalValues;
-    NSAttributedString *_attributedLabel;
-    NSNumber *_timeEncodingValue;
-    NSNumber *_pitchEncodingValue;
-    NSNumber *_volumeEncodingValue;
-    NSNumber *_durationEncodingValue;
-    NSString *_categoryEncodingValue;
-    NSString *_valueDescription;
 }
 
+- (id). SKIP because this child has no filesystem (is not a volume);
+- (id)s child is an Apple_Boot;
+- (id)e child's IOContent;
+- (id)erate for all children) mode;
+- (void)ents;
+- (void)str**=%p;
+- (void)ts dadr=%@ path=%@ opts=%u cb=%p ctx=%p argscfstr**=%p;
+- (void)ADR representing same disk as input;
+- (void)ssion %p;
+- (void)d;
+- (void)tor=now=%@;
+- (void)tus=0x%04X;
+- (void)waitForDACallBack;
+- (void)x (%@);
+- (id)apshotDisk:error:] /* Error: Ran out of types for this method. */;
+- (id)nerReferenceDisk:(id)arg1 error:(id)arg2 ];
+- (id)retDict=%@;
+- (id)IsSparse;
+- (id)lannedCrypto:ENorDE=%d /* Error: Ran out of types for this method. */;
+- (id)ecure=%d;
+- (id)sLV=%d;
+- (id)ding:CONVERT is in progress, so short-circuit:setting some outputs in totality (no others except what we set here) and exit /* Error: Ran out of types for this method. */;
+- (id)ThePV=%d;
+- (id)to get PV as disk regardless of how PV was given;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)c"<@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalValues; // @synthesize additionalValues=_additionalValues;
-@property(copy, nonatomic) NSAttributedString *attributedLabel; // @synthesize attributedLabel=_attributedLabel;
-@property(copy, nonatomic) NSString *categoryEncodingValue; // @synthesize categoryEncodingValue=_categoryEncodingValue;
-@property(copy, nonatomic) NSNumber *durationEncodingValue; // @synthesize durationEncodingValue=_durationEncodingValue;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *pitchEncodingValue; // @synthesize pitchEncodingValue=_pitchEncodingValue;
 @property(copy, nonatomic) NSNumber *timeEncodingValue; // @synthesize timeEncodingValue=_timeEncodingValue;
-@property(copy, nonatomic) NSString *valueDescription; // @synthesize valueDescription=_valueDescription;
-@property(copy, nonatomic) NSNumber *volumeEncodingValue; // @synthesize volumeEncodingValue=_volumeEncodingValue;
-@property(copy, nonatomic) AXDataPointValue *xValue; // @synthesize xValue=_xValue;
-@property(copy, nonatomic) AXDataPointValue *yValue; // @synthesize yValue=_yValue;
 
 @end
 

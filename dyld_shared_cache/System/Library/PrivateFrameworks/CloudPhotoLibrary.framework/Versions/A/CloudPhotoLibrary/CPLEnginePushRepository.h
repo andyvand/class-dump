@@ -6,27 +6,18 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLBatchExtractionStrategy, CPLPlatformObject, NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CPLBatchExtractionStrategy, NSMutableDictionary;
 
 @interface CPLEnginePushRepository : CPLEngineStorage
 {
     NSMutableDictionary *_propertiesPerClass;
-    CPLBatchExtractionStrategy *_extractionStrategy;
-    NSString *_lastStrategyName;
-    NSObject<OS_dispatch_queue> *_uploadRateQueue;
-    NSObject<OS_dispatch_queue> *_timingStatisticQueue;
-    NSDate *_lastUploadRateUpdateDate;
-    NSMutableDictionary *_timingStatistics;
-    double _lastApproximativeUploadRate;
-    NSMutableDictionary *_pushObservers;
 }
 
-- (_Bool);
+- (_Bool)ed_user_info ON ;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,26 +25,25 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)EùÐ1Â0@ù
-× ;
-- (_Bool)4@0:(id)arg1 8^?16;
-- (_Bool)ý{M©ôOL©öWK©é#Jmÿÿ_Öó;
+- (void);
 - (_Bool);
-- (id)Hè@ùyuøàª³ýª~ú;
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)|*;
+- (void)7;
 - (id);
 - (_Bool);
 - (void);
@@ -67,18 +57,10 @@
 - (_Bool);
 - (void)
 × ;
-- (void)sion;
+- (void)version;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CPLBatchExtractionStrategy *extractionStrategy;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PDCommentAuthor
 {
     unsigned int mId;
-    NSString *mName;
-    NSString *mInitials;
-    unsigned int mLastCommentIndex;
-    unsigned int mColorIndex;
 }
 
 - (void);
@@ -23,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)candidateListTouchBarItem:changeSelectionFromCandidateAtIndex:toIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void)UID=ISS[8C]}}16;
 - (void);

@@ -6,17 +6,13 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSArray;
-
 @interface RTWiFiManager : RTService
 {
     unsigned long long _powerStatus;
-    unsigned long long _linkStatus;
-    NSArray *_accessPoints;
 }
 
 + (id);
-+ (id);
++ (id)missingFromRegistry;
 + (_Bool)Ô(°!LFùqA,1Â0@ù
 × ;
 + (id)Á+é;
@@ -26,11 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
+- (void)ble";
+- (void)ta=};
+- (void)hasSigningPrivateKey;
+- (void)fetchDeviceSessionIDFromAuthKit:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -43,8 +39,6 @@
 - (void)teUpdateNotification (in %s:(id)arg1 %d);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(readonly, nonatomic) unsigned long long linkStatus; // @synthesize linkStatus=_linkStatus;
 @property(nonatomic) unsigned long long powerStatus; // @synthesize powerStatus=_powerStatus;
 
 @end

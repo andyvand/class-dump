@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, STManagementState;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FeatureAvailability
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    STManagementState *_managementState;
-    NSObject<OS_dispatch_queue> *_screenTimeUserStateQueue;
-    _Bool _threadUnsafeUserSignedIntoICloud;
-    _Bool _threadUnsafeSafariSyncEnabled;
-    _Bool _threadUnsafeUserUsingManagedAppleID;
-    _Bool _applePayAvailable;
-    _Bool _cloudAccountIsHSA2;
-    long long _cachedScreenTimeUserState;
 }
 
 + (_Bool);
@@ -56,7 +48,7 @@
 + (id);
 + (_Bool)pLayer";
 + (_Bool)rememberPrivateRelayFailClosedExceptionForURL: /* Error: Ran out of types for this method. */;
-+ (_Bool)youtBlockRequestIdentifier;
++ (_Bool)_postVisuallyNonEmptyLayoutBlockRequestIdentifier;
 - (void);
 - (void);
 - (void);
@@ -74,18 +66,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)mage data to path %@ with error %@ (imageExists will be NO);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(getter=isApplePayAvailable) _Bool applePayAvailable; // @synthesize applePayAvailable=_applePayAvailable;
-@property long long cachedScreenTimeUserState; // @synthesize cachedScreenTimeUserState=_cachedScreenTimeUserState;
-@property(getter=isCloudAccountHSA2) _Bool cloudAccountIsHSA2; // @synthesize cloudAccountIsHSA2=_cloudAccountIsHSA2;
-@property(getter=isSafariSyncEnabled) _Bool safariSyncEnabled; // @synthesize safariSyncEnabled=_threadUnsafeSafariSyncEnabled;
 @property(getter=isUserSignedIntoICloud) _Bool userSignedIntoICloud; // @synthesize userSignedIntoICloud=_threadUnsafeUserSignedIntoICloud;
-@property(getter=isUserUsingManagedAppleID) _Bool userUsingManagedAppleID; // @synthesize userUsingManagedAppleID=_threadUnsafeUserUsingManagedAppleID;
 
 @end
 

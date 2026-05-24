@@ -7,10 +7,6 @@
 @interface CoreSuggestionsUI.SGContactViewController
 {
     id contact;
-    id delegate;
-    id contactSuggestion;
-    id curatedContact;
-    id realtimeContact;
 }
 
 - (id);

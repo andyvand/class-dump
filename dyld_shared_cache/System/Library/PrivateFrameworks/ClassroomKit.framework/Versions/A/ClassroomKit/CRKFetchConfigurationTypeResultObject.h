@@ -7,12 +7,11 @@
 @interface CRKFetchConfigurationTypeResultObject
 {
     _Bool _signedInToStudentMAID;
-    unsigned long long _configurationType;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long configurationType; // @synthesize configurationType=_configurationType;
-@property(nonatomic, getter=isSignedInToStudentMAID) _Bool signedInToStudentMAID; // @synthesize signedInToStudentMAID=_signedInToStudentMAID;
 
 @end
 

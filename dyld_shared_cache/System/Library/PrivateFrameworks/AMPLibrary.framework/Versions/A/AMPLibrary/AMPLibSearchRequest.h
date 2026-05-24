@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AMPLibSearchRequest
 {
     unsigned int _maximumResultsPerScope;
-    NSArray *_scopes;
-    unsigned long long _mediaDomains;
-    unsigned long long _mediaKinds;
-    unsigned long long _deviceCapabilities;
-    NSString *_searchString;
 }
 
 + (_Bool);
@@ -31,16 +26,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)}d, err_string:(id)arg1 %{public}s;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long deviceCapabilities; // @synthesize deviceCapabilities=_deviceCapabilities;
-@property(nonatomic) unsigned int maximumResultsPerScope; // @synthesize maximumResultsPerScope=_maximumResultsPerScope;
-@property(nonatomic) unsigned long long mediaDomains; // @synthesize mediaDomains=_mediaDomains;
-@property(nonatomic) unsigned long long mediaKinds; // @synthesize mediaKinds=_mediaKinds;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

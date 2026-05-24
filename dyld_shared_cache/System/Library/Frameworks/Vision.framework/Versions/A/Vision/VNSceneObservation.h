@@ -6,18 +6,17 @@
 
 #import <Vision/VNFeaturePrintObservation.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNSceneObservation : VNFeaturePrintObservation
 {
     NSArray *_sceneprints;
-    NSString *_sceneprintVersion;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)o;
 - (id);
 - (id);
 - (id);
@@ -35,7 +34,6 @@
 - (void)e is not supported for these pair of                                                                  prints produced with request revisions:from = %lu; to = %lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *sceneprintVersion; // @synthesize sceneprintVersion=_sceneprintVersion;
 @property(readonly, nonatomic) NSArray *sceneprints; // @synthesize sceneprints=_sceneprints;
 
 @end

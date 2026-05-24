@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIfaddrs;
-
 @interface CRKIfaddrsEnumerator
 {
     struct ifaddrs *mInterfaces;
-    CRKIfaddrs *mCurrentInterface;
 }
 
 + (id);
 + (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

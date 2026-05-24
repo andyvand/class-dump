@@ -5,5 +5,6 @@
 //
 
 @protocol AVTRendererTechnique
+- (void)8h;
 @end
 

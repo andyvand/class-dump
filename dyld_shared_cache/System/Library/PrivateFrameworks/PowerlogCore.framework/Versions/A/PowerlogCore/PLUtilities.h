@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)?;
 + (id);
 + (unsigned int);
 + (id);
@@ -19,13 +19,13 @@
 + (_Bool);
 + (void);
 + (void);
-+ (double);
++ (double);
 + (id);
 + (id);
 + (_Bool);
 + (long long);
 + (void);
-+ (int);
++ (int);
 + (void);
 + (void);
 + (id);
@@ -34,7 +34,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)T;
 + (unsigned long long);
 + (short);
 + (id);
@@ -54,9 +54,9 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (long long);
-+ (int);
++ (int);
 + (id);
 + (struct process_memory_limit_info);
 + (id);
@@ -69,8 +69,8 @@
 + (id);
 + (unsigned int);
 + (id);
-+ (double);
-+ (void);
++ (double)K;
++ (void);
 + (unsigned long long);
 + (id);
 + (id);
@@ -78,7 +78,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -95,9 +95,9 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
-+ (short);
++ (short)O;
 + (int);
 + (_Bool);
 + (long long);
@@ -110,7 +110,7 @@
 + (id);
 + (id);
 + (long long);
-+ (id);
++ (id)WP;
 + (_Bool);
 + (id);
 + (id);
@@ -140,8 +140,9 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id)withTrimDate:withCount:withStartDateKey: /* Error: Ran out of types for this method. */;
++ (id)'F
+;
++ (id)trimConditionsWithEntryKey:withTrimDate:withCount:withStartDateKey: /* Error: Ran out of types for this method. */;
 + (id)ueue>",R;
 + (id)heartbeat.ServiceStart;
 

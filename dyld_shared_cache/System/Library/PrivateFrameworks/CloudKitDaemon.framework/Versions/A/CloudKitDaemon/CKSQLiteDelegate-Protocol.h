@@ -5,6 +5,7 @@
 //
 
 @protocol CKSQLiteDelegate
+- (_Bool);
 - (int)for item %@;
 
 // Remaining properties

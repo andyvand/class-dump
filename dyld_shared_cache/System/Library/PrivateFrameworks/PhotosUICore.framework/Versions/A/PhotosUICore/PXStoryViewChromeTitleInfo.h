@@ -9,14 +9,6 @@
 @interface PXStoryViewChromeTitleInfo
 {
     NSString *_collectionTitle;
-    NSString *_collectionSubtitle;
-    NSString *_locationName;
-    NSString *_dateName;
-    NSString *_songName;
-    NSString *_artistName;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_subtitleSymbolName;
 }
 
 - (id);
@@ -24,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -35,15 +27,7 @@
 - (id)8v;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artistName; // @synthesize artistName=_artistName;
-@property(readonly, nonatomic) NSString *collectionSubtitle; // @synthesize collectionSubtitle=_collectionSubtitle;
 @property(readonly, nonatomic) NSString *collectionTitle; // @synthesize collectionTitle=_collectionTitle;
-@property(readonly, nonatomic) NSString *dateName; // @synthesize dateName=_dateName;
-@property(readonly, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
-@property(readonly, nonatomic) NSString *songName; // @synthesize songName=_songName;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *subtitleSymbolName; // @synthesize subtitleSymbolName=_subtitleSymbolName;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

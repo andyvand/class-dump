@@ -6,19 +6,16 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class NSArray, NSProgress, NSString;
+@class NSProgress;
 
 @interface FPVendorDefinedActionOperation : FPActionOperation
 {
     NSProgress *_remoteProgress;
-    NSString *_actionIdentifier;
-    NSArray *_itemIdentifiers;
-    NSString *_domainIdentifier;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)NSt3__123enable_shared_from_thisI15SipAuthResponseEE;
 - (void)!>&°! Cù±ç)Ð1Â0@ù
 × ;
 

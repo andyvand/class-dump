@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface TKSlotParameters
 {
     _Bool _securePINVerificationSupported;
-    _Bool _securePINChangeSupported;
-    _Bool _delegateWithControlMethod;
-    _Bool _delegateWithEscapeMethod;
-    long long _maxInputLength;
-    long long _maxOutputLength;
-    NSNumber *_productID;
-    NSNumber *_vendorID;
-    NSString *_firmwareVersion;
-    NSNumber *_displayMaxCharacters;
-    NSNumber *_displayMaxLines;
-    NSNumber *_pinValidationCondition;
-    double _interactionTimeout;
-    NSNumber *_minPINLength;
-    NSNumber *_maxPINLength;
 }
 
 - (void);
@@ -37,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)$;
 - (_Bool);
 - (id);
 - (id);
@@ -53,30 +37,16 @@
 - (long long);
 - (id);
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void)CoreAuthentication.daemon.libxpc;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool delegateWithControlMethod; // @synthesize delegateWithControlMethod=_delegateWithControlMethod;
-@property _Bool delegateWithEscapeMethod; // @synthesize delegateWithEscapeMethod=_delegateWithEscapeMethod;
-@property(retain) NSNumber *displayMaxCharacters; // @synthesize displayMaxCharacters=_displayMaxCharacters;
-@property(retain) NSNumber *displayMaxLines; // @synthesize displayMaxLines=_displayMaxLines;
-@property(retain) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property double interactionTimeout; // @synthesize interactionTimeout=_interactionTimeout;
 @property long long maxInputLength; // @synthesize maxInputLength=_maxInputLength;
-@property long long maxOutputLength; // @synthesize maxOutputLength=_maxOutputLength;
-@property(retain) NSNumber *maxPINLength; // @synthesize maxPINLength=_maxPINLength;
-@property(retain) NSNumber *minPINLength; // @synthesize minPINLength=_minPINLength;
-@property(retain) NSNumber *pinValidationCondition; // @synthesize pinValidationCondition=_pinValidationCondition;
-@property(retain) NSNumber *productID; // @synthesize productID=_productID;
-@property _Bool securePINChangeSupported; // @synthesize securePINChangeSupported=_securePINChangeSupported;
-@property _Bool securePINVerificationSupported; // @synthesize securePINVerificationSupported=_securePINVerificationSupported;
-@property(retain) NSNumber *vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

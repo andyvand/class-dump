@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface CKSQLiteTableGroupEntry
 {
     NSString *_name;
-    NSDate *_lastUsed;
-    NSNumber *_groupID;
-    NSString *_creatingClass;
-    NSDate *_creationDate;
-    NSDictionary *_groupData;
-    NSNumber *_flags;
 }
 
 + (double);
@@ -23,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)TS;
 - (id);
 - (id);
 - (id);
@@ -38,17 +32,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Q;
 - (void)¸;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *creatingClass; // @synthesize creatingClass=_creatingClass;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSNumber *flags; // @synthesize flags=_flags;
-@property(copy, nonatomic) NSDictionary *groupData; // @synthesize groupData=_groupData;
 @property(retain, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSDate *lastUsed; // @synthesize lastUsed=_lastUsed;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

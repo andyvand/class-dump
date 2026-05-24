@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)as IPv4 or IPv6 address.;
+- (void)h:(id)arg1;
 - (void)OLUMN subscription_data BLOB;;
 
 // Remaining properties

@@ -7,10 +7,6 @@
 @interface SwiftUI.UIKitContentScrollViewBridge
 {
     id viewController;
-    id lastSeed;
-    id bridgeSetEdges;
-    id pendingScrollViews;
-    id pixelLength;
 }
 
 @end

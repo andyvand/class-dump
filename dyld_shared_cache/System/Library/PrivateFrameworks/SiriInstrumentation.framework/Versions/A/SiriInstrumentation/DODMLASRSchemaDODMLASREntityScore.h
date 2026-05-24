@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DODMLASRSchemaDODMLASREntityScore : SISchemaInstrumentationMessage
 {
     int _entityTaggerCategory;
-    unsigned int _numTotalEntities;
-    unsigned int _numEntityErrors;
-    struct {
-        unsigned int entityTaggerCategory:1;
-        unsigned int numTotalEntities:1;
-        unsigned int numEntityErrors:1;
-    } _has;
 }
 
 - (void);
@@ -30,29 +21,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (unsigned int);
-- (int);
-- (id);
+- (int)@;
+- (id)ItemPropertyRequest;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)n"b1"isQueryStrippedOfWhitespace"b1"isQueryStrippedOfSymbols"b1"isAsrE3Signal"b1};
-- (id)ssistantThirdPartyGenAICounts;
+- (id)ODDSiriSchemaODDAssistantThirdPartyGenAICounts;
 - (id)8ÝÝ;
 
 // Remaining properties
 @property(nonatomic) int entityTaggerCategory; // @synthesize entityTaggerCategory=_entityTaggerCategory;
-@property(nonatomic) _Bool hasEntityTaggerCategory;
-@property(nonatomic) _Bool hasNumEntityErrors;
-@property(nonatomic) _Bool hasNumTotalEntities;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numEntityErrors; // @synthesize numEntityErrors=_numEntityErrors;
-@property(nonatomic) unsigned int numTotalEntities; // @synthesize numTotalEntities=_numTotalEntities;
 
 @end
 

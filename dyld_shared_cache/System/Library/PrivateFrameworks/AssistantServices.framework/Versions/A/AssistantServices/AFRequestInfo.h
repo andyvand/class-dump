@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnnouncementContext, AFExplicitRequestContext, AFRequestCompletionOptions, AFSpeechRequestOptions, AFTestRequestOptions, NSData, NSDictionary, NSNumber, NSString, NSUUID, SAStartLocalRequest, SAStartRequest;
-@protocol AFIntelligenceFlowActionDescriptor;
+@class NSUUID;
 
 @interface AFRequestInfo
 {
     _Bool _isAlwaysAllowedWhileDeviceLocked;
-    _Bool _handoffRequiresUserInteraction;
-    _Bool _isATVHandoff;
-    _Bool _isSiriXRequest;
-    unsigned long long _timestamp;
-    NSUUID *_turnIdentifier;
-    NSUUID *_requestIdentifier;
-    NSString *_handoffOriginDeviceName;
-    long long _activationEvent;
-    AFSpeechRequestOptions *_speechRequestOptions;
-    SAStartLocalRequest *_startLocalRequest;
-    NSString *_legacyDirectActionIdentifier;
-    long long _suggestionRequestType;
-    id <AFIntelligenceFlowActionDescriptor> _intelligenceFlowActionDescriptor;
-    AFRequestCompletionOptions *_requestCompletionOptions;
-    AFExplicitRequestContext *_explicitRequestContext;
-    AFAnnouncementContext *_announcementContext;
-    NSUUID *_uuid;
-    unsigned long long _options;
-    NSNumber *_notifyState;
-    NSString *_text;
-    NSData *_handoffRequestData;
-    NSString *_handoffURLString;
-    NSString *_handoffNotification;
-    NSString *_correctedSpeech;
-    NSDictionary *_correctedSpeechContext;
-    SAStartRequest *_startRequest;
-    NSString *_directActionAppId;
-    long long _directActionEvent;
-    AFTestRequestOptions *_testRequestOptions;
-    NSNumber *_combinedRank;
-    NSNumber *_combinedScore;
-    NSString *_interactionId;
-    NSNumber *_onDeviceUtterancesPresent;
-    NSNumber *_originalRank;
-    NSNumber *_originalScore;
-    NSString *_previousUtterance;
-    NSString *_sessionId;
-    NSString *_utteranceSource;
-    NSString *_expectedSpeakerSharedUserID;
-    unsigned long long _expectedSpeakerConfidenceScore;
-    NSDictionary *_nonspeakerConfidenceScores;
 }
 
 + (id);
@@ -67,13 +25,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)CT)!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -93,7 +51,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -118,7 +76,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -139,7 +97,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -150,47 +108,6 @@
 - (void)_turnContext;
 
 // Remaining properties
-@property(nonatomic) long long activationEvent; // @synthesize activationEvent=_activationEvent;
-@property(copy, nonatomic) AFAnnouncementContext *announcementContext; // @synthesize announcementContext=_announcementContext;
-@property(copy, nonatomic) NSNumber *combinedRank; // @synthesize combinedRank=_combinedRank;
-@property(copy, nonatomic) NSNumber *combinedScore; // @synthesize combinedScore=_combinedScore;
-@property(copy, nonatomic) NSString *correctedSpeech; // @synthesize correctedSpeech=_correctedSpeech;
-@property(copy, nonatomic) NSDictionary *correctedSpeechContext; // @synthesize correctedSpeechContext=_correctedSpeechContext;
-@property(copy, nonatomic) NSString *directActionAppId; // @synthesize directActionAppId=_directActionAppId;
-@property(nonatomic) long long directActionEvent; // @synthesize directActionEvent=_directActionEvent;
-@property(nonatomic) unsigned long long expectedSpeakerConfidenceScore; // @synthesize expectedSpeakerConfidenceScore=_expectedSpeakerConfidenceScore;
-@property(copy, nonatomic) NSString *expectedSpeakerSharedUserID; // @synthesize expectedSpeakerSharedUserID=_expectedSpeakerSharedUserID;
-@property(copy, nonatomic) AFExplicitRequestContext *explicitRequestContext; // @synthesize explicitRequestContext=_explicitRequestContext;
-@property(copy, nonatomic) NSString *handoffNotification; // @synthesize handoffNotification=_handoffNotification;
-@property(copy, nonatomic) NSString *handoffOriginDeviceName; // @synthesize handoffOriginDeviceName=_handoffOriginDeviceName;
-@property(copy, nonatomic) NSData *handoffRequestData; // @synthesize handoffRequestData=_handoffRequestData;
-@property(nonatomic) _Bool handoffRequiresUserInteraction; // @synthesize handoffRequiresUserInteraction=_handoffRequiresUserInteraction;
-@property(copy, nonatomic) NSString *handoffURLString; // @synthesize handoffURLString=_handoffURLString;
-@property(retain, nonatomic) id <AFIntelligenceFlowActionDescriptor> intelligenceFlowActionDescriptor; // @synthesize intelligenceFlowActionDescriptor=_intelligenceFlowActionDescriptor;
-@property(copy, nonatomic) NSString *interactionId; // @synthesize interactionId=_interactionId;
-@property(nonatomic) _Bool isATVHandoff; // @synthesize isATVHandoff=_isATVHandoff;
-@property(nonatomic) _Bool isAlwaysAllowedWhileDeviceLocked; // @synthesize isAlwaysAllowedWhileDeviceLocked=_isAlwaysAllowedWhileDeviceLocked;
-@property(nonatomic) _Bool isSiriXRequest; // @synthesize isSiriXRequest=_isSiriXRequest;
-@property(copy, nonatomic) NSString *legacyDirectActionIdentifier; // @synthesize legacyDirectActionIdentifier=_legacyDirectActionIdentifier;
-@property(copy, nonatomic) NSDictionary *nonspeakerConfidenceScores; // @synthesize nonspeakerConfidenceScores=_nonspeakerConfidenceScores;
-@property(copy, nonatomic) NSNumber *notifyState; // @synthesize notifyState=_notifyState;
-@property(copy, nonatomic) NSNumber *onDeviceUtterancesPresent; // @synthesize onDeviceUtterancesPresent=_onDeviceUtterancesPresent;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSNumber *originalRank; // @synthesize originalRank=_originalRank;
-@property(copy, nonatomic) NSNumber *originalScore; // @synthesize originalScore=_originalScore;
-@property(copy, nonatomic) NSString *previousUtterance; // @synthesize previousUtterance=_previousUtterance;
-@property(copy, nonatomic) AFRequestCompletionOptions *requestCompletionOptions; // @synthesize requestCompletionOptions=_requestCompletionOptions;
-@property(copy, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(copy, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(copy, nonatomic) AFSpeechRequestOptions *speechRequestOptions; // @synthesize speechRequestOptions=_speechRequestOptions;
-@property(copy, nonatomic) SAStartLocalRequest *startLocalRequest; // @synthesize startLocalRequest=_startLocalRequest;
-@property(copy, nonatomic) SAStartRequest *startRequest; // @synthesize startRequest=_startRequest;
-@property(nonatomic) long long suggestionRequestType; // @synthesize suggestionRequestType=_suggestionRequestType;
-@property(copy, nonatomic) AFTestRequestOptions *testRequestOptions; // @synthesize testRequestOptions=_testRequestOptions;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSUUID *turnIdentifier; // @synthesize turnIdentifier=_turnIdentifier;
-@property(copy, nonatomic) NSString *utteranceSource; // @synthesize utteranceSource=_utteranceSource;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

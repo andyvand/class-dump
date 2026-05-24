@@ -5,5 +5,7 @@
 //
 
 @protocol SMSuggestionsProtocol
+- (void);
+- (void);
 @end
 

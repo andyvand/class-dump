@@ -8,21 +8,16 @@ __attribute__((visibility("hidden")))
 @interface NSVB_ViewAnimationAttributes
 {
     unsigned int _windowFrameAnimationInProgress:1;
-    unsigned int _allowsImplicitAnimation:1;
-    unsigned int _hasTimingFunctionControlPoints:1;
-    CDStruct_119a7730 _c1;
-    CDStruct_119a7730 _c2;
-    double _duration;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool);
+- (_Bool)נ;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_119a7730);
-- (CDStruct_119a7730);
+- (CDStruct_b20e86b3);
+- (CDStruct_b20e86b3);
 - (void);
 - (_Bool);
 - (id);
@@ -32,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool allowsImplicitAnimation;
-@property(nonatomic) CDStruct_119a7730 c1; // @synthesize c1=_c1;
-@property(nonatomic) CDStruct_119a7730 c2; // @synthesize c2=_c2;
-@property double duration; // @synthesize duration=_duration;
 @property(readonly) _Bool hasTimingFunctionControlPoints;
-@property _Bool windowFrameAnimationInProgress;
 
 @end
 

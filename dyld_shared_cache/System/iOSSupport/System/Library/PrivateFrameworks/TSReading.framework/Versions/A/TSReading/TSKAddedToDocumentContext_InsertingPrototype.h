@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)com.apple.MediaPlayer.MPCRTCEventConsumer;
+- (_Bool)okenA missing from delegate info: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);

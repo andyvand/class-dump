@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionRowModel.h>
 
-@class NSString, SFColor;
+@class SFColor;
 
 __attribute__((visibility("hidden")))
 @interface SearchUIArchivedRowModel : SearchUICardSectionRowModel
@@ -28,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accessibilityIdentifier;
 @property(nonatomic, retain) SFColor *backgroundColor;
-@property(nonatomic, readonly) NSString *reuseIdentifier;
 
 @end
 

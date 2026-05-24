@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBMediaSearch, _INPBPrivateUpdateMediaAffinityIntentData;
-
 @interface _INPBUpdateMediaAffinityIntent
 {
     struct {
         unsigned int affinityType:1;
     } _has;
-    int _affinityType;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_mediaItems;
-    _INPBMediaSearch *_mediaSearch;
-    _INPBPrivateUpdateMediaAffinityIntentData *_privateUpdateMediaAffinityIntentData;
 }
 
 + (Class);
@@ -23,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)j1;
 - (id);
 - (int);
 - (void);
@@ -35,9 +28,9 @@
 - (int);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)h;
+- (void)B;
+- (id)o;
 - (id);
 - (id);
 - (void);
@@ -46,29 +39,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)(	;
 - (void);
-- (_Bool)CodeFormatStringLanguageCodeKey;
+- (_Bool)__INIntentResponseCodableCodeFormatStringLanguageCodeKey;
 - (void)works/MediaRemote.framework/Contents/MacOS/MediaRemote;
 
 // Remaining properties
 @property(nonatomic) int affinityType; // @synthesize affinityType=_affinityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAffinityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateUpdateMediaAffinityIntentData;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *mediaItems; // @synthesize mediaItems=_mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch; // @synthesize mediaSearch=_mediaSearch;
-@property(retain, nonatomic) _INPBPrivateUpdateMediaAffinityIntentData *privateUpdateMediaAffinityIntentData; // @synthesize privateUpdateMediaAffinityIntentData=_privateUpdateMediaAffinityIntentData;
-@property(readonly) Class superclass;
 
 @end
 

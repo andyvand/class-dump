@@ -6,16 +6,15 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICAccount, ICCROrderedSet, ICFolderCustomNoteSortType, ICTTOrderedSetVersionedDocument, NSArray, NSData, NSManagedObjectContext, NSString;
+@class ICAccount;
 
 @interface ICNoteContainer : ICCloudSyncingObject
 {
     _Bool _subFolderOrderMergeableDataDirty;
-    ICTTOrderedSetVersionedDocument *_subFolderIdentifiersOrderedSetDocument;
 }
 
 + (id);
-- (void);
+- (void)arse principal name %s;
 - (id);
 - (id);
 - (void);
@@ -45,13 +44,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)A;
+- (void)k;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)pload Service Enabled' setting;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)applicationDocumentsURLForAccountIdentifier: /* Error: Ran out of types for this method. */;
 - (void)8';
 - (void)Ù;
 - (_Bool)FmyFmyËlGG;
@@ -60,44 +59,7 @@
 - (id)Pë;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountName;
-@property(retain, nonatomic) NSString *accountNameForAccountListSorting; // @dynamic accountNameForAccountListSorting;
-@property(readonly, copy, nonatomic) NSString *cacheKey;
-@property(readonly, nonatomic) _Bool canBeSharedViaICloud;
-@property(readonly, nonatomic) NSString *containerIdentifier;
-@property(readonly, nonatomic) ICFolderCustomNoteSortType *customNoteSortType;
-@property(nonatomic) long long dateHeadersType; // @dynamic dateHeadersType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDeleted) _Bool deleted;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAllNotesContainer;
-@property(nonatomic) _Bool isHiddenNoteContainer; // @dynamic isHiddenNoteContainer;
-@property(readonly, nonatomic) _Bool isModernCustomFolder;
-@property(readonly, nonatomic) _Bool isSharedReadOnly;
-@property(readonly, nonatomic) _Bool isSharedViaICloud;
-@property(readonly, nonatomic) _Bool isShowingDateHeaders;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(readonly) NSManagedObjectContext *managedObjectContext;
-@property(retain, nonatomic) NSString *nestedTitleForSorting; // @dynamic nestedTitleForSorting;
-@property(readonly, nonatomic) ICAccount *noteContainerAccount;
 @property(retain, nonatomic) ICAccount *owner; // @dynamic owner;
-@property(nonatomic) int sortOrder; // @dynamic sortOrder;
-@property(readonly, nonatomic) ICCROrderedSet *subFolderIdentifiersOrderedSet;
-@property(retain, nonatomic) ICTTOrderedSetVersionedDocument *subFolderIdentifiersOrderedSetDocument; // @synthesize subFolderIdentifiersOrderedSetDocument=_subFolderIdentifiersOrderedSetDocument;
-@property(copy, nonatomic) NSData *subFolderOrderMergeableData;
-@property(nonatomic, getter=isSubFolderOrderMergeableDataDirty) _Bool subFolderOrderMergeableDataDirty; // @synthesize subFolderOrderMergeableDataDirty=_subFolderOrderMergeableDataDirty;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDateHeaders;
-@property(readonly, nonatomic) _Bool supportsEditingNotes;
-@property(readonly, copy, nonatomic) NSString *titleForNavigationBar;
-@property(readonly, copy, nonatomic) NSString *titleForTableViewCell;
-@property(readonly, nonatomic) NSArray *visibleNotes;
-@property(readonly, nonatomic) unsigned long long visibleNotesCount;
-@property(readonly, nonatomic) NSArray *visibleSubFolders;
 
 @end
 

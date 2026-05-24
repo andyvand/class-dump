@@ -10,14 +10,14 @@
 {
 }
 
-+ (Class);
++ (Class)een"16@"UIScreen"24;
 + (id);
-+ (void);
++ (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)NSXPCConnection"24@0:8^@16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);

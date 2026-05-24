@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSObject, NSString, NSURL, UARPDynamicAssetCmapDatabase, UARPSuperBinaryAsset;
-@protocol OS_os_log;
+@class NSString, NSURL;
 
 @interface UARPDynamicAssetCrashLogEvent
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSObject<OS_os_log> *_log;
-    NSMutableDictionary *_preProcessedCrashLogs;
-    unsigned int _productId;
-    _Bool _testMode;
-    NSData *_processedCrashInstanceData;
-    NSDictionary *_processedCrashInstance;
-    UARPDynamicAssetCmapDatabase *_cmapDatabase;
-    NSString *_appleModelNumber;
 }
 
 + (id);
+- (_Bool)O;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (id)AMSBiometricsPresentationProxy;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void).;
 
 // Remaining properties
 @property(readonly) NSString *appleModelNumber; // @synthesize appleModelNumber=_appleModelNumber;

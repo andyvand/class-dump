@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, PHAssetCollection, PHPhotoLibrary, PXDataSectionManager, PXNavigationListItemDataSectionManager, PXOutlineDataSectionManager, PXPhotoLibraryLocalDefaults, PXSidebarDataContext, PXSidebarImageLoader;
-@protocol PXSidebarDataSourceControllerDelegate;
+@class PXOutlineDataSectionManager, PXPhotoLibraryLocalDefaults;
 
 @interface PXSidebarDataController
 {
     PXOutlineDataSectionManager *_rootDataSectionManager;
-    NSMutableDictionary *_dataSectionManagers;
-    NSMutableDictionary *_dataSectionObjectsByItemIdentifier;
-    NSMutableDictionary *_dataSectionObjectsByCollectionIdentifier;
-    NSArray *_arrangedObjectIdentifiers;
-    PXDataSectionManager *_mediaTypesSectionManager;
-    PXNavigationListItemDataSectionManager *_mediaTypesItemManager;
-    PHPhotoLibrary *_photoLibrary;
-    unsigned long long _options;
-    PXSidebarImageLoader *_imageLoader;
-    PHAssetCollection *_pickerAllPhotosVirtualCollection;
-    id <PXSidebarDataSourceControllerDelegate> _delegate;
-    PXPhotoLibraryLocalDefaults *_localDefaults;
-    PXSidebarDataContext *_context;
 }
 
 + (id);
@@ -41,7 +27,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -65,7 +51,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)6:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -81,34 +67,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_dataHeight;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)gainBoostEnabled;
 - (id);
-- (void)tConfirmationButton_Title;
+- (void)PXSharedLibrary_RestoreInvitationAlertConfirmationButton_Title;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PXSidebarDataContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSidebarDataSourceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSidebarImageLoader *imageLoader; // @synthesize imageLoader=_imageLoader;
-@property(readonly, nonatomic) _Bool isChangeProcessingPaused;
 @property(readonly, nonatomic) PXPhotoLibraryLocalDefaults *localDefaults; // @synthesize localDefaults=_localDefaults;
-@property(readonly, nonatomic) PXNavigationListItemDataSectionManager *mediaTypesItemManager; // @synthesize mediaTypesItemManager=_mediaTypesItemManager;
-@property(readonly, nonatomic) PXDataSectionManager *mediaTypesSectionManager; // @synthesize mediaTypesSectionManager=_mediaTypesSectionManager;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PHAssetCollection *pickerAllPhotosVirtualCollection; // @synthesize pickerAllPhotosVirtualCollection=_pickerAllPhotosVirtualCollection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NSPPrivacyProxyCost
 {
     double _limit;
-    double _remaining;
-    struct {
-        unsigned int limit:1;
-        unsigned int remaining:1;
-    } _has;
 }
 
 - (void);
@@ -24,19 +19,16 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)L;
 - (void);
 - (void);
 - (double);
 - (id);
 - (id);
-- (double);
+- (double)/;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLimit;
-@property(nonatomic) _Bool hasRemaining;
-@property(nonatomic) double limit; // @synthesize limit=_limit;
-@property(nonatomic) double remaining; // @synthesize remaining=_remaining;
 
 @end
 

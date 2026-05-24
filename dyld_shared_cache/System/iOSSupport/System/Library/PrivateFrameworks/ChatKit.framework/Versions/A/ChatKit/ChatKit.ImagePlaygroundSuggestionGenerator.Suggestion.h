@@ -7,13 +7,6 @@
 @interface ChatKit.ImagePlaygroundSuggestionGenerator.Suggestion
 {
     id id;
-    id prompt;
-    id state;
-    id image;
-    id conversationId;
-    id promptGenerationDuration;
-    id imageGenerationDuration;
-    id index;
 }
 
 @end

@@ -13,9 +13,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)x;
 - (id)ITab",&,N;
-- (id)13UIMenuElementC;
+- (id)So13UIMenuElementC;
 - (id)ÿ;
 - (id)ÊÄns;
 

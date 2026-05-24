@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileManager, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BMSimpleKeyValueStorage
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_url;
-    BMFileManager *_fileManager;
 }
 
 - (void);
@@ -29,9 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BMFileManager *fileManager; // @synthesize fileManager=_fileManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

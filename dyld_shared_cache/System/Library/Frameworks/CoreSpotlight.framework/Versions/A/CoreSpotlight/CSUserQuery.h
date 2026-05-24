@@ -6,36 +6,11 @@
 
 #import <CoreSpotlight/CSSearchQuery.h>
 
-@class CSQueryRankingConfiguration, CSSuggestionsRanker, CSUserQueryContext, NSArray, NSDictionary, NSMutableArray, NSObject, NSString, _CSContactSearch, _CSMultiQuery;
-@protocol OS_dispatch_semaphore;
+@class CSUserQueryContext;
 
 @interface CSUserQuery : CSSearchQuery
 {
     CSUserQueryContext *_clientContext;
-    CSQueryRankingConfiguration *_rankingConfig;
-    CSSuggestionsRanker *_suggestionsRanker;
-    NSDictionary *_parserOptions;
-    NSString *_searchString;
-    NSMutableArray *_nlpSuggestions;
-    NSMutableArray *_templateSuggestions;
-    NSMutableArray *_suggestions;
-    NSMutableArray *_completions;
-    NSMutableArray *_instantAnswers;
-    _CSContactSearch *_contactSearch;
-    _CSMultiQuery *_contactCountingQuerySearchFrom;
-    _CSMultiQuery *_contactCountingQuerySearchTo;
-    long long _foundSuggestionCount;
-    long long _tokenCount;
-    _Bool _queryRewritten;
-    _Bool _queryIsTopHit;
-    long long _currentTokenKind;
-    long long _currentTokenScope;
-    CDUnknownBlockType _foundSuggestionsHandler;
-    CDUnknownBlockType _foundInstantAnswersHandler;
-    CDUnknownBlockType _attributedQueryHandler;
-    NSArray *_contactSearchResults;
-    NSObject<OS_dispatch_semaphore> *_contactSearchSemaphore;
-    unsigned long long _contactSearchSemaphoreWaitTime;
 }
 
 + (id);
@@ -72,7 +47,7 @@
 + (id);
 + (id);
 + (void);
-+ (id)xtSelected;
++ (id)textSelected;
 + (void)s3;
 - (id);
 - (id);
@@ -92,14 +67,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)'
+;
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -109,40 +85,34 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)r;
 - (id);
-- (void);
+- (void);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
 - (id);
+- (CDUnknownBlockType)for %s %s <%s>;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void)
 × ;
-- (id)oReindex;
+- (id)identifiersToReindex;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType attributedQueryHandler; // @synthesize attributedQueryHandler=_attributedQueryHandler;
-@property(copy, nonatomic) NSArray *contactSearchResults; // @synthesize contactSearchResults=_contactSearchResults;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *contactSearchSemaphore; // @synthesize contactSearchSemaphore=_contactSearchSemaphore;
-@property(readonly, nonatomic) unsigned long long contactSearchSemaphoreWaitTime; // @synthesize contactSearchSemaphoreWaitTime=_contactSearchSemaphoreWaitTime;
 @property(copy) CDUnknownBlockType foundInstantAnswersHandler; // @synthesize foundInstantAnswersHandler=_foundInstantAnswersHandler;
-@property(readonly) long long foundSuggestionCount;
-@property(copy) CDUnknownBlockType foundSuggestionsHandler; // @synthesize foundSuggestionsHandler=_foundSuggestionsHandler;
 
 @end
 

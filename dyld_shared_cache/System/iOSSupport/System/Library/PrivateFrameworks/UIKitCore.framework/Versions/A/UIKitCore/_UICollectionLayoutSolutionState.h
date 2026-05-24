@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, _UICollectionLayoutSectionGeometryTranslator, _UIOrderedRangeIndexer, _UIRTree;
+@class NSArray, _UICollectionLayoutSectionGeometryTranslator;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSolutionState
 {
     _UICollectionLayoutSectionGeometryTranslator *_sectionGeometryTranslator;
-    NSArray *_bookmarks;
-    _UIRTree *_geometricIndexer;
-    _UIOrderedRangeIndexer *_itemRangeIndexer;
-    _UIOrderedRangeIndexer *_preferredSizeGroupingIndexer;
-    NSDictionary *_auxillaryRangeIndexerKindDict;
 }
 
 - (id);
@@ -25,18 +20,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)^Ð1Â0@ù
 × ;
-- (id)pearanceCallbacksFor:(id)arg1;
+- (id)_shouldCallAppearanceCallbacksFor:(id)arg1;
 - (id)æÒþ­°j];
 - (void)Ìô];
 - (id)(^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxillaryRangeIndexerKindDict; // @synthesize auxillaryRangeIndexerKindDict=_auxillaryRangeIndexerKindDict;
 @property(readonly, nonatomic) NSArray *bookmarks; // @synthesize bookmarks=_bookmarks;
-@property(readonly, nonatomic) _UIRTree *geometricIndexer; // @synthesize geometricIndexer=_geometricIndexer;
-@property(readonly, nonatomic) _UIOrderedRangeIndexer *itemRangeIndexer; // @synthesize itemRangeIndexer=_itemRangeIndexer;
-@property(readonly, nonatomic) _UIOrderedRangeIndexer *preferredSizeGroupingIndexer; // @synthesize preferredSizeGroupingIndexer=_preferredSizeGroupingIndexer;
-@property(retain, nonatomic) _UICollectionLayoutSectionGeometryTranslator *sectionGeometryTranslator; // @synthesize sectionGeometryTranslator=_sectionGeometryTranslator;
 
 @end
 

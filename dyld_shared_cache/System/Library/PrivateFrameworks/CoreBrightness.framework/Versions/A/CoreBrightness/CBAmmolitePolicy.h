@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBChromaticCorrectionParams, NSString;
+@class CBChromaticCorrectionParams;
 
 __attribute__((visibility("hidden")))
 @interface CBAmmolitePolicy
@@ -18,27 +18,19 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (float);
-- (float);
+- (float)7;
 - (_Bool);
 - (_Bool);
 - (id);
 - (float);
 - (float);
 - (void);
-- (const char *);
+- (const char *)!;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) float rampDownDuration;
-@property(readonly) float rampUpDuration;
-@property(readonly) Class superclass;
 
 @end
 

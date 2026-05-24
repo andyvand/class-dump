@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 @protocol IMTypingIndicatorLayerProtocol;
 
 @interface SOTypingIndicatorView
 {
     _Bool _hasDarkBackground;
-    _Bool _flipForRTLLayout;
-    _Bool _isDarkAqua;
-    CALayer<IMTypingIndicatorLayerProtocol> *_typingLayer;
-    NSString *_balloonPlugInBundleID;
 }
 
 - (void);
@@ -34,7 +30,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)removeDenyDeleteACLFromPath:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -43,10 +39,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *balloonPlugInBundleID; // @synthesize balloonPlugInBundleID=_balloonPlugInBundleID;
-@property(nonatomic) _Bool flipForRTLLayout; // @synthesize flipForRTLLayout=_flipForRTLLayout;
-@property(nonatomic) _Bool hasDarkBackground; // @synthesize hasDarkBackground=_hasDarkBackground;
-@property(nonatomic) _Bool isDarkAqua; // @synthesize isDarkAqua=_isDarkAqua;
 @property(retain, nonatomic) CALayer<IMTypingIndicatorLayerProtocol> *typingLayer; // @synthesize typingLayer=_typingLayer;
 
 @end

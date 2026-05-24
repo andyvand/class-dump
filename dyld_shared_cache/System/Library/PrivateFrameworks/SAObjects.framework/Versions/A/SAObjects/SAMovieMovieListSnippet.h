@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)[;
 - (void);
 - (void);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *movies;
-@property(nonatomic) _Bool shouldShowRottenTomatoesRating;
 
 @end
 

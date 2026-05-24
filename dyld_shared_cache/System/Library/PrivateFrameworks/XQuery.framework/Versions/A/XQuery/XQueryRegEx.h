@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface XQueryRegEx
 {
     unsigned long long _flags;
-    void *_compiled;
 }
 
 + (id);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKAppleIDProviding, CRKCertificateExchangeBroadcastHandlerDelegate, CRKIDSPrimitives;
+@protocol CRKCertificateExchangeBroadcastHandlerDelegate, CRKIDSPrimitives;
 
 @interface CRKCertificateExchangeBroadcastHandler
 {
     id <CRKCertificateExchangeBroadcastHandlerDelegate> _delegate;
-    id <CRKIDSPrimitives> _IDSPrimitives;
-    id <CRKAppleIDProviding> _appleIDProvider;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)h8;
 - (void);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) id <CRKAppleIDProviding> appleIDProvider; // @synthesize appleIDProvider=_appleIDProvider;
-@property(nonatomic) __weak id <CRKCertificateExchangeBroadcastHandlerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

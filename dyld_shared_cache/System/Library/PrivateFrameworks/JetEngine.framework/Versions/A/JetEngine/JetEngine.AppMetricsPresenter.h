@@ -7,10 +7,6 @@
 @interface JetEngine.AppMetricsPresenter
 {
     id pipeline;
-    id canSendEnter;
-    id flushedEvents;
-    id onAppStateEvent;
-    id topic;
 }
 
 @end

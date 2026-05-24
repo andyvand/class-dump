@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, NSIndexSet, NSString, UITraitCollection, _UICollectionLayoutAuxillaryItemSolver, _UICollectionLayoutContainer, _UICollectionLayoutItemSolver, _UICollectionLayoutSectionGeometryTranslator, _UICollectionLayoutSupplementaryEnroller;
+@class _UICollectionLayoutItemSolver;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSectionFixedSolver
 {
     _Bool _shouldAdjustContentSizeForPartialLastGroupSolution;
-    _Bool _layoutRTL;
-    NSString *_errorDescription;
-    _UICollectionLayoutItemSolver *_solution;
-    _UICollectionLayoutAuxillaryItemSolver *_sectionAuxillarySolution;
-    _UICollectionLayoutSupplementaryEnroller *_sectionSupplementaryEnroller;
-    _UICollectionLayoutSectionGeometryTranslator *_sectionGeometryTranslator;
-    _UICollectionLayoutContainer *_memoizedAuxillaryHostContainer;
-    NSCollectionLayoutSection *_layoutSection;
-    _UICollectionLayoutContainer *_container;
-    _UICollectionLayoutContainer *_supplementaryContainer;
-    UITraitCollection *_traitCollection;
-    unsigned long long _layoutAxis;
-    unsigned long long _containerLayoutAxis;
-    long long _frameCount;
-    struct CGPoint _orthogonalOffset;
-    struct CGVector _orthogonalScrollingPrefetchingUnitVector;
-    struct CGRect _overrideContentRectForPinning;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)lient key exchange A;
 - (struct _NSRange);
-- (id);
+- (id)_payloadTLSMinimumVersion;
 - (_Bool);
 - (struct CGSize);
 - (struct CGRect);
+- (struct CGRect)&,N,V_currentListOfViews;
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint)Nq;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)getQueryCriteriaAlbumPersistentID:(struct CGPoint)arg1;
 - (id);
 - (void);
 - (id);
@@ -68,20 +51,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (id)ControllerAdaptiveLayoutDelegate>"24;
-- (id)sCancelButton:(struct CGRect)arg1;
-- (unsigned long long)ation;
-- (void)utMode;
-- (id)arySourcePreviews;
-- (void)ViewLocation;
-- (id)ndTransitioning;
+- (id)setSearchDisplayControllerShowsCancelButton:(struct CGRect)arg1;
+- (unsigned long long)_supportsAbortingDeactivation;
+- (void)_skipRecomputeInputMode;
+- (id)_secondarySourcePreviews;
+- (void)_navBarTitleViewLocation;
+- (id)_draggingAndTransitioning;
 - (struct CGVector)tainingScrollViewBounds: /* Error: Ran out of types for this method. */;
-- (void)Stability;
+- (void)_confidenceFactorsForDerivativeStability;
 - (void)onImage;
 - (id)ntBehavior",&,N,V_platterMenuSlidingAttachmentBehavior;
 - (void)|ÈðÈ<ÊËìË;
 - (double)nstraint isKindOfClass:[NSLayoutConstraint class]] /* Error: Ran out of types for this method. */;
 - (double)pointless;
-- (id)BLegacyCandidateGridGroupBarBackgroundGradient;
+- (id)UIKBLegacyCandidateGridGroupBarBackgroundGradient;
 - (void)7UIColorCG;
 - (_Bool);
 - (void),ê23383;
@@ -108,35 +91,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)e;
 
 // Remaining properties
-@property(retain, nonatomic) _UICollectionLayoutContainer *container; // @synthesize container=_container;
-@property(nonatomic) unsigned long long containerLayoutAxis; // @synthesize containerLayoutAxis=_containerLayoutAxis;
-@property(readonly, nonatomic) unsigned long long containerSizeDependentAxes;
-@property(readonly, nonatomic) struct CGRect contentFrameIncludingAuxiliaries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(nonatomic) long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(retain, nonatomic) NSCollectionLayoutSection *layoutSection; // @synthesize layoutSection=_layoutSection;
-@property(retain, nonatomic) _UICollectionLayoutContainer *memoizedAuxillaryHostContainer; // @synthesize memoizedAuxillaryHostContainer=_memoizedAuxillaryHostContainer;
-@property(nonatomic) struct CGPoint orthogonalOffset; // @synthesize orthogonalOffset=_orthogonalOffset;
-@property(nonatomic) struct CGVector orthogonalScrollingPrefetchingUnitVector; // @synthesize orthogonalScrollingPrefetchingUnitVector=_orthogonalScrollingPrefetchingUnitVector;
-@property(nonatomic) struct CGRect overrideContentRectForPinning; // @synthesize overrideContentRectForPinning=_overrideContentRectForPinning;
-@property(readonly, nonatomic) NSIndexSet *pinnedSupplementaryIndexes;
-@property(readonly, nonatomic) struct CGRect primaryContentFrame;
-@property(retain, nonatomic) _UICollectionLayoutAuxillaryItemSolver *sectionAuxillarySolution; // @synthesize sectionAuxillarySolution=_sectionAuxillarySolution;
-@property(retain, nonatomic) _UICollectionLayoutSectionGeometryTranslator *sectionGeometryTranslator; // @synthesize sectionGeometryTranslator=_sectionGeometryTranslator;
-@property(retain, nonatomic) _UICollectionLayoutSupplementaryEnroller *sectionSupplementaryEnroller; // @synthesize sectionSupplementaryEnroller=_sectionSupplementaryEnroller;
-@property(nonatomic) _Bool shouldAdjustContentSizeForPartialLastGroupSolution; // @synthesize shouldAdjustContentSizeForPartialLastGroupSolution=_shouldAdjustContentSizeForPartialLastGroupSolution;
 @property(retain, nonatomic) _UICollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UICollectionLayoutContainer *supplementaryContainer; // @synthesize supplementaryContainer=_supplementaryContainer;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

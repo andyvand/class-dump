@@ -7,10 +7,11 @@
 @class INContactCard;
 
 @protocol INSetNicknameIntentResponseExport
-- (long long)Index: /* Error: Ran out of types for this method. */;
+- (void)dly formatted EPSV reply;
+- (INContactCard *);
+- (long long)identifierAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INContactCard *meCard;
 @end
 

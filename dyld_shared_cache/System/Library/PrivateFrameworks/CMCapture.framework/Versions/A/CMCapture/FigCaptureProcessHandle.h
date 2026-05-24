@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSBundleRecord, NSString, RBSProcessHandle;
+@class RBSProcessHandle;
 
 @interface FigCaptureProcessHandle
 {
     RBSProcessHandle *_rbsProcessHandle;
-    LSBundleRecord *_bundleRecord;
 }
 
 + (id);
 + (id);
-+ (void)AutoFocusWindowSize;
++ (void)DefaultContinuousAutoFocusWindowSize;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (int);
+- (void)am;
+- (int)etGeometryWithShapeType:] /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_4c969caf);
 - (id);
 - (id)¦2 ÿ¯/ÿ·+ÿÀ'ÿÉ#ÿÒÿÚÿáÿæÿéÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSString *extensionContainingAppBundleIdentifier;
-@property(readonly, nonatomic) NSString *extensionPointIdentifier;
-@property(readonly, nonatomic) FigCaptureProcessHandle *nonRootSourceProcessHandleForVisibilityEndowment;
-@property(readonly, nonatomic) int pid;
 @property(readonly, nonatomic) RBSProcessHandle *rbsProcessHandle;
 
 @end

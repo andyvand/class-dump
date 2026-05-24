@@ -6,40 +6,26 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSObject, NSString;
-@protocol HMFSystemInfoNameDataSourceDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface __HMFSystemConfigurationDataSource : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    id <HMFSystemInfoNameDataSourceDelegate> _delegate;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct __SCDynamicStore *_store;
 }
 
+- (void)P;
+- (id);
+- (id)y ;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct __SCDynamicStore *);
+- (struct __SCDynamicStore *)fetchIconForItemIdentifier:atURL:replyBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFSystemInfoNameDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) struct __SCDynamicStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

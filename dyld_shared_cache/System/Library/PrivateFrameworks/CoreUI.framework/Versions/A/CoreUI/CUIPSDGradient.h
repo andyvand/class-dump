@@ -9,8 +9,6 @@
 @interface CUIPSDGradient
 {
     CUIPSDGradientEvaluator *evaluator;
-    double drawingAngle;
-    unsigned int gradientStyle;
 }
 
 + (id);
@@ -18,17 +16,15 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
 - (double);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)= %f, errorInterval = %f;
 
 // Remaining properties
-@property double drawingAngle; // @synthesize drawingAngle;
 @property(retain) CUIPSDGradientEvaluator *evaluator; // @synthesize evaluator;
-@property unsigned int gradientStyle; // @synthesize gradientStyle;
 
 @end
 

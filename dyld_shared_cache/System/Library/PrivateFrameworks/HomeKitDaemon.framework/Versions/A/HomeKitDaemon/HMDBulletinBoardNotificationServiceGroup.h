@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoardNotification, NSArray, NSHashTable, NSObject, NSSet, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinBoardNotificationServiceGroup
 {
     struct os_unfair_lock_s _lock;
-    NSSet *_cameraProfileUUIDs;
-    NSSet *_associatedServiceUUIDs;
-    NSHashTable *_cameraProfilesTable;
-    NSHashTable *_associatedServicesTable;
-    HMDBulletinBoardNotification *_bulletinBoardNotification;
-    NSArray *_associatedServices;
-    NSArray *_cameraProfiles;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (_Bool)lJ¤;
 + (id)ÑB;
 - (void);
-- (void);
-- (void);
+- (void)uc;
+- (void)e;
 - (void);
 - (void);
 - (void);
@@ -37,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h8);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -51,11 +43,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)ratioOfMomentsAtAFrequentLocation;
+- (id)rangeOfString:options: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
+- (id)DQ;
+- (id)__AUTH_CONST;
 - (void);
 - (id);
 - (id)!TAùQ1Â0@ù
@@ -63,20 +55,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *associatedServiceUUIDs; // @synthesize associatedServiceUUIDs=_associatedServiceUUIDs;
-@property(retain, nonatomic) NSArray *associatedServices; // @synthesize associatedServices=_associatedServices;
-@property(readonly, copy, nonatomic) NSHashTable *associatedServicesTable; // @synthesize associatedServicesTable=_associatedServicesTable;
-@property __weak HMDBulletinBoardNotification *bulletinBoardNotification; // @synthesize bulletinBoardNotification=_bulletinBoardNotification;
-@property(retain, nonatomic) NSSet *cameraProfileUUIDs; // @synthesize cameraProfileUUIDs=_cameraProfileUUIDs;
-@property(retain, nonatomic) NSArray *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;
-@property(readonly, copy, nonatomic) NSHashTable *cameraProfilesTable; // @synthesize cameraProfilesTable=_cameraProfilesTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

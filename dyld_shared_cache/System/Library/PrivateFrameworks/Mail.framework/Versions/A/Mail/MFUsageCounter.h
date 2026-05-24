@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSMutableDictionary;
+@class NSCalendar, NSMutableDictionary;
 
 @interface MFUsageCounter
 {
     NSMutableDictionary *_counts;
-    _Bool _isDirty;
-    NSCalendar *_gregorianCalendar;
-    NSDate *_referenceDate;
 }
 
 + (void);
@@ -23,7 +20,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -34,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSCalendar *gregorianCalendar; // @synthesize gregorianCalendar=_gregorianCalendar;
-@property(readonly, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
 
 @end
 

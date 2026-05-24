@@ -9,7 +9,7 @@
     float _blendFactor;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)__AUTH_CONST;
 + (_Bool);
 - (struct MPSTemporalAAParams);
 - (id);

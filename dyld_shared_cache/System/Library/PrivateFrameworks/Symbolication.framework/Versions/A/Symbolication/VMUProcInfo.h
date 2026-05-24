@@ -4,50 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VMUTask;
-
 @interface VMUProcInfo
 {
     unsigned int _task;
-    VMUTask *_vmuTask;
-    NSString *_name;
-    NSArray *_arguments;
-    NSArray *_envVars;
-    NSString *_procTableName;
-    NSString *_realAppName;
-    NSString *_requestedAppName;
-    NSString *_firstArg;
-    int _pid;
-    int _ppid;
-    struct timeval _startTime;
-    _Bool _isZombie;
 }
 
 + (int);
-+ (id);
++ (id),;
 - (_Bool);
 - (unsigned int);
 - (void);
 - (int);
-- (struct timeval);
+- (struct timeval)?ka;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)*;
 - (void);
 - (id);
+- (long long)being vacuumed;
+- (_Bool)perty %@;
 - (long long);
-- (_Bool);
-- (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)oq;
 - (int);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (unsigned int);
 - (_Bool);
@@ -55,21 +41,19 @@
 - (_Bool);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)e";
 - (_Bool);
-- (void);
+- (void)T@"<MOCancellable>",&,V_effectiveSettingsSubscription;
 - (id);
 - (_Bool)Ð1Â0@ù
 × ;
 - (id)i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq};
-- (_Bool)aceForStackID:options: /* Error: Ran out of types for this method. */;
+- (_Bool)symbolicatedBacktraceForStackID:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSemiCriticalProcess;
-@property(readonly, nonatomic) _Bool isSemiCriticalProcessWithNoTimeLimit;
 @property(readonly, nonatomic) _Bool shouldAnalyzeWithCorpse;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPScoreDict, PPScoreInterpreter;
+@class PPScoreInterpreter;
 
 @interface PPStreamingLocationScorer
 {
     PPScoreInterpreter *_aggregationScorer;
-    PPScoreInterpreter *_finalScorer;
-    PPScoreDict *_aggregationScoreInputs;
-    PPScoreDict *_currentAggResult;
 }
 
 - (void)÷°1Â0@ù

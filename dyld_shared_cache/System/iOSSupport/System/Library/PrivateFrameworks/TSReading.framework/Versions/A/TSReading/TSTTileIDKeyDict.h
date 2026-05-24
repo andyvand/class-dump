@@ -11,12 +11,12 @@
     void *mMap;
 }
 
-- (id);
+- (id)ID;
+- (void)expensive;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Bubble tip overlay message to display when a user follows a tag that is not a channel, section or topic.;
 - (void);
 - (id);
 - (long long)0@ù

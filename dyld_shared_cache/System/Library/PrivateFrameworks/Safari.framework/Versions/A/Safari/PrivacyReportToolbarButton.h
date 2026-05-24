@@ -20,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(readonly, nonatomic) struct CGRect popoverAnchorRect;
 
 @end
 

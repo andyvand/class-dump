@@ -9,20 +9,18 @@
 @interface IDSCKNotificationInfo
 {
     _Bool _shouldSendContentAvailable;
-    NSString *_alertLocalizationKey;
 }
 
 + (Class);
 + (id)`;
-- (void);
-- (id);
+- (void)b;
+- (id)`;
 - (_Bool)Data",R,V_softwareData;
-- (void)anoMediaSync;
+- (void)NanoMediaSync;
 - (void)ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alertLocalizationKey; // @synthesize alertLocalizationKey=_alertLocalizationKey;
-@property(nonatomic) _Bool shouldSendContentAvailable; // @synthesize shouldSendContentAvailable=_shouldSendContentAvailable;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void)t;
+- (void)hn@y	;
+- (void)MobileCountryCodeEN3xpc10auto_replyEE3$_0Fv3MCCEEE;
 @end
 

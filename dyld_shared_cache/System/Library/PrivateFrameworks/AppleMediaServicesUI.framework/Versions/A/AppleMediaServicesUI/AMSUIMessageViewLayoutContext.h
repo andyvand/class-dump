@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIMessageView, NSArray, NSBezierPath, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIMessageViewLayoutContext
 {
     _Bool _shouldUseStackedLayout;
-    _Bool _isDirty;
-    double _accessorySpacing;
-    NSArray *_buttonFrames;
-    NSMutableArray *_separatorViewFrames;
-    NSMutableArray *_footerButtonFrames;
-    NSMutableArray *_footerButtonFramesPreFlatten;
-    AMSUIMessageView *_messageView;
-    NSBezierPath *_textViewExclusionPath;
-    struct CGSize _contentSize;
-    struct CGSize _lastFittingSize;
-    struct CGSize _lastSize;
-    struct CGSize _textViewContentHuggingSize;
-    struct NSDirectionalEdgeInsets _contentLayoutMargins;
-    struct CGRect _accessoryViewFrame;
-    struct CGRect _accessorySecondaryViewFrame;
-    struct CGRect _imageViewFrame;
-    struct CGRect _maskViewFrame;
-    struct CGRect _textViewFrame;
-    struct CGRect _footerContainerViewFrame;
-    struct CGRect _lastMessageViewFrame;
-    struct CGRect _mainContentFrame;
 }
 
 - (struct CGRect);
-- (id);
-- (struct CGSize);
+- (id)status as catalog update is failed;
+- (struct CGSize)d for query;
 - (_Bool);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#x;
 - (void);
 - (void);
 - (void);
@@ -57,14 +34,14 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect)֭;
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
-- (double);
+- (struct CGRect)ѿO7�(;
+- (double)L;
 - (struct CGRect);
 - (struct CGSize);
 - (void);
@@ -74,34 +51,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (_Bool);
+- (_Bool)er;
 - (void);
-- (void)ack:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:shouldGoToBackForwardListItem:willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
 - (struct CGSize)óÃ;
 
 // Remaining properties
-@property struct CGRect accessorySecondaryViewFrame; // @synthesize accessorySecondaryViewFrame=_accessorySecondaryViewFrame;
-@property(readonly) double accessorySpacing; // @synthesize accessorySpacing=_accessorySpacing;
 @property struct CGRect accessoryViewFrame; // @synthesize accessoryViewFrame=_accessoryViewFrame;
-@property(readonly) NSArray *buttonFrames; // @synthesize buttonFrames=_buttonFrames;
-@property(readonly) struct NSDirectionalEdgeInsets contentLayoutMargins; // @synthesize contentLayoutMargins=_contentLayoutMargins;
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain) NSMutableArray *footerButtonFrames; // @synthesize footerButtonFrames=_footerButtonFrames;
-@property(retain) NSMutableArray *footerButtonFramesPreFlatten; // @synthesize footerButtonFramesPreFlatten=_footerButtonFramesPreFlatten;
-@property struct CGRect footerContainerViewFrame; // @synthesize footerContainerViewFrame=_footerContainerViewFrame;
-@property struct CGRect imageViewFrame; // @synthesize imageViewFrame=_imageViewFrame;
-@property _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property struct CGSize lastFittingSize; // @synthesize lastFittingSize=_lastFittingSize;
-@property struct CGRect lastMessageViewFrame; // @synthesize lastMessageViewFrame=_lastMessageViewFrame;
-@property struct CGSize lastSize; // @synthesize lastSize=_lastSize;
-@property struct CGRect mainContentFrame; // @synthesize mainContentFrame=_mainContentFrame;
-@property struct CGRect maskViewFrame; // @synthesize maskViewFrame=_maskViewFrame;
-@property __weak AMSUIMessageView *messageView; // @synthesize messageView=_messageView;
-@property(retain) NSMutableArray *separatorViewFrames; // @synthesize separatorViewFrames=_separatorViewFrames;
-@property(readonly) _Bool shouldUseStackedLayout; // @synthesize shouldUseStackedLayout=_shouldUseStackedLayout;
-@property struct CGSize textViewContentHuggingSize; // @synthesize textViewContentHuggingSize=_textViewContentHuggingSize;
-@property(retain) NSBezierPath *textViewExclusionPath; // @synthesize textViewExclusionPath=_textViewExclusionPath;
-@property struct CGRect textViewFrame; // @synthesize textViewFrame=_textViewFrame;
 
 @end
 

@@ -7,34 +7,24 @@
 @interface _UIContextMenuGradientMaskingConfiguration
 {
     _Bool _embedBackgroundForCompositing;
-    _Bool _backgroundMasksCorners;
-    CDUnknownBlockType _platterHairlineColorProvider;
-    double _spacerHeaderFooterHeight;
-    struct UIEdgeInsets _gradientMaskEdgeInsets;
-    struct UIEdgeInsets _gradientMaskLengths;
 }
 
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (_Bool);
+- (void)PSConnection";
+- (void)setTranscriptBackgroundAndSendToChat:(struct UIEdgeInsets)arg1 toChatID:identifier:style:transferID:account:completion: /* Error: Ran out of types for this method. */;
+- (void):(struct UIEdgeInsets)arg1;
+- (void)setNumReadReceipts:(_Bool)arg1;
+- (void)requestWatchdogWithCompletion:(_Bool)arg1;
+- (CDUnknownBlockType)fetchTransitionedNicknameHandlesWithReply: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)r",R,N,V_highlightCenter;
+- (struct UIEdgeInsets)criptionService;
+- (_Bool)originalUTIType;
 - (_Bool);
 - (void)0];
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundMasksCorners; // @synthesize backgroundMasksCorners=_backgroundMasksCorners;
-@property(nonatomic) _Bool embedBackgroundForCompositing; // @synthesize embedBackgroundForCompositing=_embedBackgroundForCompositing;
 @property(nonatomic) struct UIEdgeInsets gradientMaskEdgeInsets; // @synthesize gradientMaskEdgeInsets=_gradientMaskEdgeInsets;
-@property(nonatomic) struct UIEdgeInsets gradientMaskLengths; // @synthesize gradientMaskLengths=_gradientMaskLengths;
-@property(copy, nonatomic) CDUnknownBlockType platterHairlineColorProvider; // @synthesize platterHairlineColorProvider=_platterHairlineColorProvider;
-@property(nonatomic) double spacerHeaderFooterHeight; // @synthesize spacerHeaderFooterHeight=_spacerHeaderFooterHeight;
 
 @end
 

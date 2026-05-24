@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SIRINLUReferenceContext, SIRINLURewriteMessage;
-
 @interface SIRINLUDelegatedUserDialogAct
 {
     int _asrHypothesisIndex;
-    NSString *_externalParserId;
-    SIRINLURewriteMessage *_rewrite;
-    NSString *_rewrittenUtterance;
-    NSArray *_rewrites;
-    NSArray *_spans;
-    SIRINLUReferenceContext *_referenceContext;
 }
 
 + (_Bool);
@@ -44,12 +36,6 @@
 
 // Remaining properties
 @property int asrHypothesisIndex; // @synthesize asrHypothesisIndex=_asrHypothesisIndex;
-@property(retain, nonatomic) NSString *externalParserId; // @synthesize externalParserId=_externalParserId;
-@property(retain, nonatomic) SIRINLUReferenceContext *referenceContext; // @synthesize referenceContext=_referenceContext;
-@property(retain, nonatomic) SIRINLURewriteMessage *rewrite; // @synthesize rewrite=_rewrite;
-@property(retain, nonatomic) NSArray *rewrites; // @synthesize rewrites=_rewrites;
-@property(retain, nonatomic) NSString *rewrittenUtterance; // @synthesize rewrittenUtterance=_rewrittenUtterance;
-@property(retain, nonatomic) NSArray *spans; // @synthesize spans=_spans;
 
 @end
 

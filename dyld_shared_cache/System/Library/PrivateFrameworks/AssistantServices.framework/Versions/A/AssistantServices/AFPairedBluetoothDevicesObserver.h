@@ -9,13 +9,12 @@
 @interface AFPairedBluetoothDevicesObserver
 {
     NSArray *_pairedDevices;
-    struct os_unfair_lock_s _pairedDevicesLock;
 }
 
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)b9k;
+- (id);
 - (void)queue>",R,N,V_observerQueue;
 
 @end

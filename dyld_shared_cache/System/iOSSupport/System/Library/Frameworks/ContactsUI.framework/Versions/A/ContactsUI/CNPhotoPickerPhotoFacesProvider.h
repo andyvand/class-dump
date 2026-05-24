@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNPhotoPickerPhotoFacesProvider
 {
     NSString *_identifier;
-    CNVisualIdentity *_visualIdentity;
 }
 
 + (id)0@ù
@@ -22,17 +21,9 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (id);
-- (void)ingSnapshot;
+- (void)_loadingSnapshot;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

@@ -7,22 +7,6 @@
 @interface PhotosUICore.StoryAsyncPlayer
 {
     id id;
-    id hostingController;
-    id aspectRatio;
-    id backgroundColor;
-    id displayScaleFactor;
-    id desiredInlinePlayState;
-    id onPlaybackFinished;
-    id storyConfiguration;
-    id sessionState;
-    id mainPresenter;
-    id referenceSize;
-    id lastReferenceSize;
-    id storyQueue;
-    id storyQueue_traitCollection;
-    id storyQueue_sessionState;
-    id storyQueue_session;
-    id storyQueue_onSessionLoad;
 }
 
 - (void);

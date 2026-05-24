@@ -6,13 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSString, REMObjectID;
+@class NSString;
 
 @interface REMSmartListsDataViewInvocation_fetchSmartList : REMStoreInvocation
 {
     _Bool _createIfNeeded;
-    NSString *_smartListType;
-    REMObjectID *_objectID;
 }
 
 + (_Bool);
@@ -23,15 +21,13 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (void)áê!pBùÑr °1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool createIfNeeded; // @synthesize createIfNeeded=_createIfNeeded;
-@property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
 @property(readonly, nonatomic) NSString *smartListType; // @synthesize smartListType=_smartListType;
 
 @end

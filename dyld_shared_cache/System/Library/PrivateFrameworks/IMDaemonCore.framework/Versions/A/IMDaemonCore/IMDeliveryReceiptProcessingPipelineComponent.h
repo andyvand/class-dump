@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id)tras:(id)arg1;
+- (id)messageFailedToSend:(id)arg1 messageExtras: /* Error: Ran out of types for this method. */;
 - (void)>;
 
 @end

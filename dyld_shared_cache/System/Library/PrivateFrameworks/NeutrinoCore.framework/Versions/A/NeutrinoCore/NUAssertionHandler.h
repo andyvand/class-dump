@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)submitGenericRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) id <NUAssertionPolicyHandler> policy; // @synthesize policy=_policy;

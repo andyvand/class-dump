@@ -15,8 +15,8 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)E;
+- (id)uteIndex:(struct _NSZone *)arg1 %d;
 - (id);
 
 // Remaining properties

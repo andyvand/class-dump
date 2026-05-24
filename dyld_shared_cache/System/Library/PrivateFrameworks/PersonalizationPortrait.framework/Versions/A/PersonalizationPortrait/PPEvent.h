@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, EKObjectID, NSArray, NSDate, NSString, NSURL, PPCalendar;
+@class NSArray, NSString;
 
 @interface PPEvent
 {
     NSArray *_backingPlists;
-    unsigned long long _indexInBackingPlists;
-    PPCalendar *_calendar;
 }
 
 + (unsigned char);
@@ -33,23 +31,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SFRunVoiceShortcutCommand;
 - (long long);
 - (id);
-- (id);
+- (id)_uniformsBufferOffset;
 - (id);
 - (id);
 - (id);
 - (BOOL);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id)B;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)CATIDSServiceTransport;
 - (id);
 - (id);
 - (unsigned char);
@@ -58,24 +56,7 @@
 - (id)¤Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attendees;
-@property(readonly, nonatomic) BOOL availability;
-@property(readonly, nonatomic) PPCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) unsigned char eventFlags;
 @property(readonly, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) NSURL *externalURI;
-@property(readonly, nonatomic) NSString *location;
-@property(readonly, nonatomic) NSString *notes;
-@property(readonly, nonatomic) EKObjectID *objectID;
-@property(readonly, nonatomic) NSString *organizerName;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) NSString *structuredLocationAddress;
-@property(readonly, nonatomic) CLLocation *structuredLocationCoordinates;
-@property(readonly, nonatomic) NSString *structuredLocationTitle;
-@property(readonly, nonatomic) unsigned char suggestedEventCategory;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

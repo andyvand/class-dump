@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatServiceMergeContext
 {
     id theme;
-    id feedDescriptor;
-    id groupTag;
 }
 
 @end

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SICSchemaSICClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sicId;
-    SISchemaUUID *_requestId;
-    _Bool _hasSicId;
-    _Bool _hasRequestId;
 }
 
 - (id);
@@ -22,27 +19,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)_tableViewContainer;
+- (_Bool),N,V_recoveryKeyStatus;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s refreshed notification;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)HERE attachment.ROWID = OLD.attachment_id     AND         (SELECT 1 from message_attachment_join WHERE attachment_id = OLD.attachment_id LIMIT 1) IS NULL; END;
 - (id);
 - (id);
-- (id)s;
+- (id)clearHomeAutomationRequests;
 - (id)_rawNowPlaying28Days;
-- (void)rs;
+- (void)rawNowPlaying6Hours;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSicId; // @synthesize hasSicId=_hasSicId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 @property(retain, nonatomic) SISchemaUUID *sicId; // @synthesize sicId=_sicId;
 
 @end

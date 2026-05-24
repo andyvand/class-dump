@@ -5,5 +5,9 @@
 //
 
 @protocol _EXQueryControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

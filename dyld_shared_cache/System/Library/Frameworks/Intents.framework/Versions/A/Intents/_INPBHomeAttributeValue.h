@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeAttributeRange;
-
 @interface _INPBHomeAttributeValue
 {
     struct {
@@ -16,17 +14,9 @@
         unsigned int unit:1;
         unsigned int valueType:1;
     } _has;
-    _Bool _booleanValue;
-    int _limitValue;
-    int _unit;
-    int _valueType;
-    double _doubleValue;
-    long long _integerValue;
-    _INPBHomeAttributeRange *_rangeValue;
-    NSString *_stringValue;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (id);
 - (void);
@@ -36,7 +26,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (_Bool);
@@ -53,50 +43,28 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (_Bool);
 - (int);
 - (void);
 - (long long);
 - (_Bool);
-- (double);
-- (void);
-- (_Bool);
+- (double)ached_local_records_inquiry>",&,N,V_mrcInquiry;
+- (void)network does not support PH BBH fallback (%{public}@);
+- (_Bool)list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var activeElement = document.activeElement; if (activeElement && activeElement.type.toLowerCase() != 'password'){ getSelectorPathForElement(activeElement); } /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)NameID;
+- (void)displayNameID;
 - (int)ÉÿIîN{;
 
 // Remaining properties
 @property(nonatomic) _Bool booleanValue; // @synthesize booleanValue=_booleanValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasBooleanValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntegerValue;
-@property(nonatomic) _Bool hasLimitValue;
-@property(readonly, nonatomic) _Bool hasRangeValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasUnit;
-@property(nonatomic) _Bool hasValueType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(nonatomic) int limitValue; // @synthesize limitValue=_limitValue;
-@property(retain, nonatomic) _INPBHomeAttributeRange *rangeValue; // @synthesize rangeValue=_rangeValue;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(nonatomic) int unit; // @synthesize unit=_unit;
-@property(nonatomic) int valueType; // @synthesize valueType=_valueType;
 
 @end
 

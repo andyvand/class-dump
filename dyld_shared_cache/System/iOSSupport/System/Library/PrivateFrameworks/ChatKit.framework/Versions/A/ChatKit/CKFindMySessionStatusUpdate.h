@@ -9,18 +9,16 @@
 @interface CKFindMySessionStatusUpdate
 {
     _Bool _isLocationAvailableForDisplay;
-    NSString *_locationText;
 }
 
 + (id);
-- (void);
+- (void)ICTableAdditions;
 - (void);
 - (id);
-- (_Bool);
-- (void)tRepresentation;
+- (_Bool)a;
+- (void)FetchConversationIdentifierIntentRepresentation;
 
 // Remaining properties
-@property(nonatomic) _Bool isLocationAvailableForDisplay; // @synthesize isLocationAvailableForDisplay=_isLocationAvailableForDisplay;
 @property(retain, nonatomic) NSString *locationText; // @synthesize locationText=_locationText;
 
 @end

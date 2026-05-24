@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone;
+@class HMBLocalZone;
 
 __attribute__((visibility("hidden")))
 @interface HMDDatabaseFetchZonesResult
 {
     HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
 }
 
-- (id);
+- (id);
 - (id)lure record due to an error:[%@] /* Error: Ran out of types for this method. */;
 - (id)%@] expeditedTransactionSupportedVersions:%@, bleUWBSupportedVersions:%@, bleAdvertisingVersion:%@ /* Error: Ran out of types for this method. */;
 - (void)dTransactionSupportedVersions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
 @property(readonly) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QCPixelFormat;
-
 @interface QCStreamProvider
 {
     unsigned long long _identifier;
-    unsigned long long _defaultWidth;
-    unsigned long long _defaultHeight;
-    unsigned long long _defaultDepth;
-    void *_unused[4];
 }
 
 + (_Bool);
@@ -20,31 +14,24 @@
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (int);
+- (id)TEXT NOT NULL DEFAULT '');
+- (int)enableExposure;
 - (unsigned long long);
 - (unsigned long long);
 - (id)°ø;
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly) unsigned long long elementSize;
-@property(readonly) QCPixelFormat *pixelFormat;
-@property(readonly) unsigned long long pixelsDeep;
-@property(readonly) unsigned long long pixelsHigh;
-@property(readonly) unsigned long long pixelsWide;
-@property(readonly) _Bool supportsConversion;
-@property(readonly) int type;
 
 @end
 

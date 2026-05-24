@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)= %@;
+- (id)an 2GB;
 - (id);
 - (void);
 - (void)ÿÿ;

@@ -7,7 +7,6 @@
 @interface NewsUI2.MastheadTitleViewStyler__priv_40459F828962B2D00232170432F6EDA0
 {
     id renderer;
-    id traitCollection;
 }
 
 - (id);

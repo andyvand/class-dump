@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NLGSchemaNLGClientEventMetadata, NLGSchemaNLGScoredDialogSelected, NSData, SISchemaInstrumentationMessage;
+@class NLGSchemaNLGClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface NLGSchemaNLGClientEvent : SISchemaTopLevelUnionType
 {
     NLGSchemaNLGClientEventMetadata *_eventMetadata;
-    NLGSchemaNLGScoredDialogSelected *_scoredDialogSelected;
-    _Bool _hasEventMetadata;
-    _Bool _hasScoredDialogSelected;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (void);
 - (void);
@@ -29,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_showDesktopAndDocumentsAlertForAccount:window:withActions:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -41,21 +37,15 @@
 - (_Bool);
 - (id);
 - (id)sð!;
-- (id)raction: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ndentSignals;
+- (id)setHasUserViewRegionInteraction: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_contactDependentSignals;
 - (id)lationEvent;
 - (id)SchemaORCHAssetsReported",&,N,V_availableAssets;
-- (int)roundAppBundleId;
+- (int)backgroundAppBundleId;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLGSchemaNLGClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasScoredDialogSelected; // @synthesize hasScoredDialogSelected=_hasScoredDialogSelected;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLGSchemaNLGScoredDialogSelected *scoredDialogSelected; // @synthesize scoredDialogSelected=_scoredDialogSelected;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

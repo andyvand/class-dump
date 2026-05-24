@@ -8,21 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _UISignalViewCacheKey
 {
     Class _classType;
-    struct CGSize _size;
-    struct CGRect _rect;
-    double _radius;
-    double _lineWidth;
-    struct CGSize _secondarySize;
-    struct CGRect _secondaryRect;
-    _Bool _alternate;
-    double _scale;
 }
 
 - (unsigned long long);
 - (_Bool)ueToSPIOutlineDisclosureAccessory"b1"selectionStyle"b1"expanded"b1"needsUpdateAccessories"b1"hasCustomIndentationLevel"b1"hasCustomIndentationWidth"b1"cellSelectionTogglesExpansionState"b1"indentsAccessories"b1"indentationMarginIsBasedOnCustomMargin"b1"isNextSelectionUpdateUserInitiated"b1"separatorLayoutGuideLeadingReferencesPrimaryText"b1"subclassOverridesSeparatorInsetsSPI"b1};
-- (_Bool)ussianSmoothing:(id)arg1 radius: /* Error: Ran out of types for this method. */;
-- (id)activeCompositingFilter;
-- (id)honeTruffleReachable;
+- (_Bool)gaussianSmoothing:(id)arg1 radius: /* Error: Ran out of types for this method. */;
+- (id)_activeCompositingFilter;
+- (id)UIKBRenderFactory_iPhoneTruffleReachable;
 - (id)X;
 
 @end

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface FI_FinderURLResolver
 {
     struct TSpinLock _lock;
-    NSMutableDictionary *_resolvedURLMap;
-    TNSWeakPtr_db0eab6c _resolutionCompletedToken;
-    _Bool _tornDown;
 }
 
 + (id);

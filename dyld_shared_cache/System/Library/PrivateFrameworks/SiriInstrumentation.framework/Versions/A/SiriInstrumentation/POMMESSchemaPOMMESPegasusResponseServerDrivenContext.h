@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface POMMESSchemaPOMMESPegasusResponseServerDrivenContext : SISchemaInstrumentationMessage
 {
@@ -22,19 +22,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long).apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)UID [%@];
 - (id);
 - (id);
-- (id)dactionSummaryReported;
+- (id)_redactionSummaryReported;
 - (id),N,V_isEnhancedSiriRequest;
-- (void)E_TV_SHOW;
+- (void)FLOWMEDIATYPE_TV_SHOW;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *catIds; // @synthesize catIds=_catIds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

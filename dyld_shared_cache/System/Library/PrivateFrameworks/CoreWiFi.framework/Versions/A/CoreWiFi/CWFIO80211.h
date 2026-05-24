@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CWFIO80211
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct IONotificationPort *_portRef;
-    struct IONotificationPort *_portRefVirtual;
-    unsigned int _publishIO80211SkywalkInterface;
-    unsigned int _terminatedIO80211SkywalkInterface;
-    NSMutableDictionary *_publishIO80211VirtualInterfaceMap;
-    NSMutableDictionary *_terminatedIO80211VirtualInterfaceMap;
-    _Bool _isMonitoringEvents;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)eSessionWithServer;
+- (void){taskDescription:%@}> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)hannel;
+- (void)channel;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;

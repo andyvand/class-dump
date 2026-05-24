@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURLAuthenticationChallengeInternal, NSURLCredential, NSURLProtectionSpace, NSURLResponse;
-@protocol NSURLAuthenticationChallengeSender;
+@class NSURLAuthenticationChallengeInternal, NSURLProtectionSpace;
 
 @interface NSURLAuthenticationChallenge
 {
@@ -16,12 +15,12 @@
 + (_Bool);
 + (id);
 - (id);
-- (void);
+- (void)shading;
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)%;
+- (id)(";
 - (id);
 - (id);
 - (id);
@@ -29,15 +28,10 @@
 - (struct _CFURLAuthChallenge *);
 - (id);
 - (id);
-- (void)ompletion:(id)arg1;
+- (void)_redirectRequest:(id)arg1 redirectResponse:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSError *error;
-@property(readonly, copy) NSURLResponse *failureResponse;
-@property(readonly) long long previousFailureCount;
-@property(readonly, copy) NSURLCredential *proposedCredential;
 @property(readonly, copy) NSURLProtectionSpace *protectionSpace;
-@property(readonly, retain) id <NSURLAuthenticationChallengeSender> sender;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalPreferences, NSString;
+@class CalPreferences;
 
 @interface EKDebugPreferences
 {
@@ -26,26 +26,27 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
+- (void);
+- (_Bool)started;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)hModel ioSurfaceRef ID=%u
+;
 - (void);
 - (void);
+- (void)CSS3DTransformBackfaceVisibilityInteroperabilityEnabled;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -54,23 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) double availabilityFreshnessWindow;
-@property(nonatomic) _Bool forceDisplayOfNewTravelAdvisoryHypotheses;
-@property(nonatomic) double overriddenTravelAdvisoryHypothesisAggressiveTravelTime;
-@property(nonatomic) double overriddenTravelAdvisoryHypothesisConservativeTravelTime;
-@property(retain, nonatomic) NSString *overriddenTravelAdvisoryHypothesisCurrentTrafficDensity;
-@property(nonatomic) double overriddenTravelAdvisoryHypothesisEstimatedTravelTime;
-@property(retain, nonatomic) NSString *overriddenTravelAdvisoryHypothesisRouteName;
-@property(nonatomic) _Bool overriddenTravelAdvisoryHypothesisSupportsLiveTraffic;
-@property(retain, nonatomic) NSString *overriddenTravelAdvisoryHypothesisTransportType;
-@property(retain, nonatomic) NSString *overriddenTravelAdvisoryHypothesisTravelState;
-@property(nonatomic) _Bool overrideTravelAdvisoryHypothesis;
-@property(nonatomic) _Bool performAgendaEntryEqualityChecksInTravelEngine;
-@property(nonatomic) _Bool preventMarkingTravelAdvisoryEntriesAsDismissed;
-@property(nonatomic) _Bool saveGeocodedLocationsInTravelEngine;
-@property(nonatomic) _Bool shouldBypassTravelEngineThrottle;
-@property(nonatomic) _Bool showDepartureDateForTransitTimeToLeave;
-@property(nonatomic) _Bool syntheticTravelAdvisoriesEnabled;
-@property(nonatomic) _Bool verifyIntegrityOfAvailabilityTimeSearchTimelines;
 
 @end
 

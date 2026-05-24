@@ -9,7 +9,8 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool)P;
 - (void)tFieldCell";
-- (_Bool)orWithCode:(NSControl *)arg1;
+- (_Bool)cdp_isCDPErrorWithCode:(NSControl *)arg1;
 @end
 

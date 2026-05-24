@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRTransactionKeyProtobuf;
-
 @interface _MRTransactionPacketProtobuf
 {
     unsigned long long _totalLength;
-    unsigned long long _totalWritePosition;
-    NSString *_identifier;
-    _MRTransactionKeyProtobuf *_key;
-    NSData *_packetData;
-    struct {
-        unsigned int totalLength:1;
-        unsigned int totalWritePosition:1;
-    } _has;
 }
 
 + (void)viceClient _callInvalidationHandler:] /* Error: Ran out of types for this method. */;
@@ -37,29 +27,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)_attributesToPreserve;
+- (_Bool)B;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)to EINVAL;
+- (id)ion.first-assertion.activate;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)ume:action:outputDeviceUIDs:timeout:details:completion: /* Error: Ran out of types for this method. */;
+- (void)changeVolume:action:outputDeviceUIDs:timeout:details:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasPacketData;
-@property(nonatomic) _Bool hasTotalLength;
-@property(nonatomic) _Bool hasTotalWritePosition;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRTransactionKeyProtobuf *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSData *packetData; // @synthesize packetData=_packetData;
-@property(nonatomic) unsigned long long totalLength; // @synthesize totalLength=_totalLength;
-@property(nonatomic) unsigned long long totalWritePosition; // @synthesize totalWritePosition=_totalWritePosition;
 
 @end
 

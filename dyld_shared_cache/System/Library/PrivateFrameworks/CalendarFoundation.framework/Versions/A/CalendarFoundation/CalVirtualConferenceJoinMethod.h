@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CalVirtualConferenceJoinMethod
 {
     _Bool _isBroadcast;
-    NSString *_title;
-    NSURL *_URL;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) _Bool isBroadcast; // @synthesize isBroadcast=_isBroadcast;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

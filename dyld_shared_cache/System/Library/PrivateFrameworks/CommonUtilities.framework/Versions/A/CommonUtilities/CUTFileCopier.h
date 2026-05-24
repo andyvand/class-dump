@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-@protocol CUTFileCopierDelegate;
-
 @interface CUTFileCopier
 {
     _Bool _shouldCancel;
-    _Bool _didErrorOccur;
-    _Bool _inProgress;
-    unsigned int _operation;
-    id <CUTFileCopierDelegate> _delegate;
-    NSURL *_inputURL;
-    NSURL *_outputURL;
-    id _identifier;
-    void *_BOMCopier;
 }
 
 - (void);
@@ -42,18 +31,10 @@
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property void *_BOMCopier; // @synthesize _BOMCopier;
-@property __weak id <CUTFileCopierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool didErrorOccur; // @synthesize didErrorOccur=_didErrorOccur;
-@property(readonly) id identifier; // @synthesize identifier=_identifier;
-@property _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property(readonly, copy) NSURL *inputURL; // @synthesize inputURL=_inputURL;
-@property unsigned int operation; // @synthesize operation=_operation;
-@property(readonly, copy) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(readonly, nonatomic) _Bool wasCancelled; // @synthesize wasCancelled=_shouldCancel;
 
 @end
 

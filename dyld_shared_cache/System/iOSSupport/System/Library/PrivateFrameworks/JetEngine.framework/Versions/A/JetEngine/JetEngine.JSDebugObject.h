@@ -7,12 +7,10 @@
 @interface JetEngine.JSDebugObject
 {
     id isDebugPointsEnabled;
-    id newPoints;
-    id encoder;
 }
 
 - (id);
-- (id);
+- (id)artworkTintColor;
 - (void);
 - (void)cM;
 

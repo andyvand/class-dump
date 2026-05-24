@@ -7,11 +7,11 @@
 @protocol MTLDevice;
 
 @protocol MTLIOCommandQueueSPI
+- (id <MTLDevice>)kekatakanahalfwidth;
 - (unsigned long long)ptor",C,N,V_meshFunctionDescriptor;
 - (void);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
 @end
 

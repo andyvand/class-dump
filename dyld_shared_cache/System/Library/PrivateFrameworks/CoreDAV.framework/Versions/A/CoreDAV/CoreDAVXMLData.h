@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVXMLData_Impl, NSData, NSMutableArray, NSMutableDictionary;
-
 @interface CoreDAVXMLData
 {
     _Bool _shouldAddFormattingSpaces;
-    CoreDAVXMLData_Impl *_dataImpl;
-    _Bool _docHasEnded;
-    NSMutableDictionary *_seenURIsToPrefixes;
-    NSMutableDictionary *_seenURIsToDepth;
-    NSMutableArray *_elementStack;
 }
 
 + (_Bool);
@@ -26,14 +19,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)l not include directory server contacts:(id)arg1 %@ is NO;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)EWSExtendedPropertyType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
 @property(nonatomic) _Bool shouldAddFormattingSpaces; // @synthesize shouldAddFormattingSpaces=_shouldAddFormattingSpaces;
 
 @end

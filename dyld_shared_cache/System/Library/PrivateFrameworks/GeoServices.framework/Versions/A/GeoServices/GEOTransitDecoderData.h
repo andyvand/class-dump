@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOTransitDecoderData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_accessPoints;
-    NSMutableArray *_artworks;
-    NSMutableArray *_halls;
-    NSMutableArray *_lines;
-    NSMutableArray *_paymentMethods;
-    NSMutableArray *_stations;
-    NSMutableArray *_steps;
-    NSMutableArray *_stops;
-    NSMutableArray *_systems;
-    NSMutableArray *_transitIncidentMessages;
-    NSMutableArray *_transitIncidents;
-    NSMutableArray *_walkings;
-    NSMutableArray *_zilchPoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_accessPoints:1;
-        unsigned int read_artworks:1;
-        unsigned int read_halls:1;
-        unsigned int read_lines:1;
-        unsigned int read_paymentMethods:1;
-        unsigned int read_stations:1;
-        unsigned int read_steps:1;
-        unsigned int read_stops:1;
-        unsigned int read_systems:1;
-        unsigned int read_transitIncidentMessages:1;
-        unsigned int read_transitIncidents:1;
-        unsigned int read_walkings:1;
-        unsigned int read_zilchPoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
@@ -52,13 +18,13 @@
 + (Class);
 + (Class);
 + (Class);
++ (Class);
++ (Class)be of type %{public}@;
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)mumVisibleElevationRange:(id)arg1;
++ (_Bool)setMinimumVisibleElevationRange:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -81,27 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (void);
@@ -110,17 +56,37 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (unsigned long long)localDateWithHour:occurringOnSameCalendarDayAsDateInLocalTimeZone: /* Error: Ran out of types for this method. */;
+- (id)localDateWithHour:occurringOnSameCalendarDayAsDateInLocalTimeZone: /* Error: Ran out of types for this method. */;
+- (id)localDateWithHour:(unsigned long long)arg1 occurringOnSameCalendarDayAsDate:inTimeZoneSecondsFromGMT: /* Error: Ran out of types for this method. */;
+- (void)CNTestAccountDescription;
+- (void)CNCDDatabaseRemovalRequest;
+- (void);
+- (void);
+- (void)Q;
+- (void)i;
+- (void)(S;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)ter migrating legacy iOS identifiers.;
+- (id)he iOS legacy identifier namespace from the registrar (%{public}@) does not match that in our database (%{public}@). Rebuilding all legacy identifiers in the registrar's namespace.;
+- (void)ation"8;
+- (void)e an in-memory store;
+- (void)re"16;
+- (void)r;
+- (void)$_;
+- (void)<EX-AssistantPhone>!$_;
+- (void)AX>!$_;
+- (void)tabase-preparation;
+- (void)maidenName;
+- (void)ackend>"8@?0;
+- (void)ABPerson;
 - (unsigned long long);
 - (id);
 - (id);
@@ -138,11 +104,11 @@
 - (id);
 - (void);
 - (void);
+- (id)t;
+- (void)lStateMonitor:(id)arg1 otherAppRecordingStateMonitor:audioRouteChangeMonitor: /* Error: Ran out of types for this method. */;
+- (id)ndler triggerAssetRefresh]_block_invoke;
 - (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (_Bool);
 - (id);
@@ -152,27 +118,14 @@
 - (id);
 - (void);
 - (id)yle"b1"has_uiTarget"b1};
-- (id)tionMagnitude;
+- (id)headingCorrectionMagnitude;
 - (id)t",R,N;
 - (void)¿;
 - (id)ata;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPoints;
-@property(retain, nonatomic) NSMutableArray *artworks;
-@property(retain, nonatomic) NSMutableArray *halls;
-@property(retain, nonatomic) NSMutableArray *lines;
-@property(retain, nonatomic) NSMutableArray *paymentMethods;
 @property(retain, nonatomic) NSMutableArray *stations;
-@property(retain, nonatomic) NSMutableArray *steps;
-@property(retain, nonatomic) NSMutableArray *stops;
-@property(retain, nonatomic) NSMutableArray *systems;
-@property(retain, nonatomic) NSMutableArray *transitIncidentMessages;
-@property(retain, nonatomic) NSMutableArray *transitIncidents;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *walkings;
-@property(retain, nonatomic) NSMutableArray *zilchPoints;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIStackView.h>
 
-@class NSString, _UIButtonBar;
+@class _UIButtonBar;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarStackView : UIStackView
@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
     _UIButtonBar *_buttonBar;
 }
 
-+ (Class);
++ (Class)_nextEmittableEnumerationResults;
 - (id);
-- (id);
+- (id)_sync_aggregateByteCount;
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (void)foreSection: /* Error: Ran out of types for this method. */;
+- (void)numberOfRowsBeforeSection: /* Error: Ran out of types for this method. */;
 - (id)ring:(id)arg1 %@;
 - (id)ary/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation;
 - (void)°Ô,;^;
@@ -33,13 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak _UIButtonBar *buttonBar; // @synthesize buttonBar=_buttonBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

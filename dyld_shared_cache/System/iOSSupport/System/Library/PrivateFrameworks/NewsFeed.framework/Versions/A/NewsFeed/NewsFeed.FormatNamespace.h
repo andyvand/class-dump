@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatNamespace
 {
     id namespace;
-    id layoutNamespace;
-    id sourcePath;
-    id debugData;
 }
 
 @end

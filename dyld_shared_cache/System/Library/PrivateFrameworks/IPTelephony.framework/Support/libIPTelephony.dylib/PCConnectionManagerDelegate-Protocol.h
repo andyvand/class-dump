@@ -5,5 +5,8 @@
 //
 
 @protocol PCConnectionManagerDelegate
+
+@optional
+- (void);
 @end
 

@@ -8,20 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchSpanScore
 {
     double _score;
-    int _intentType;
-    struct {
-        unsigned int has_score:1;
-        unsigned int has_intentType:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)PTParameterRecordsPersistenceManager;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"wrote_anyField"b1};
-- (id)cordNetworkEventDataForTask;
+- (id)_recordNetworkEventDataForTask;
 - (id)Øu;
 
 @end

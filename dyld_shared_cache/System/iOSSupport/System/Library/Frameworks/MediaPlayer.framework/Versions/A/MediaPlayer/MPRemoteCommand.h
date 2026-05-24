@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommandCenter, NSArray, NSMutableDictionary, NSString;
+@class MPRemoteCommandCenter;
 
 @interface MPRemoteCommand
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_handlers;
-    _Bool _enabled;
-    _Bool _forceDisabled;
-    _Bool _skipSerializedEventDelivery;
-    unsigned int _mediaRemoteCommandType;
-    MPRemoteCommandCenter *_commandCenter;
-    long long _disabledReason;
-    NSArray *_disabledReasons;
-    NSArray *_unsupportedReasons;
-    double _timeout;
 }
 
-- (_Bool);
+- (_Bool));
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (unsigned int);
@@ -51,15 +41,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@"NSString"24;
 - (id);
-- (_Bool);
+- (_Bool)PPQuickTypeFormatter;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (double)Q?Ð1Â0@ù
 × ;
-- (void)tySongGrouping__MAPPING_MISSING__;
+- (void)__MPModelPropertySongGrouping__MAPPING_MISSING__;
 - (void)ÇJÑÒú	Ý8J£hh5 TD¯À­Æ¿;UÆP¶¸¾Û@i¦`EA v÷¶« ¬ÀË
 uUK·þú1"\zf·çá§º#VXWÐ¦+éAÈ¹ç}ÔÉ«ÙÉ8HðJÉ1}ÌÉ`ÙÕ ?¿ÎJ¸åäd
 _"Ãt4Ù|à7÷iæß¨=âÔ-·duçüõ6­+µ$¤÷@Òuæ¿×{hÙ¥G²à]×=Jù^üvIÆL$[P¼#Á¹LØÔrÊT]&ú|ÉÐWØ>s1²4ÂWsÀõã³j s7Ô
@@ -69,24 +59,6 @@ uUK·þú1"\zf·çá§º#VXWÐ¦+éAÈ¹ç}ÔÉ«ÙÉ8HðJÉ1}ÌÉ`Ù�
 
 // Remaining properties
 @property(nonatomic) __weak MPRemoteCommandCenter *commandCenter; // @synthesize commandCenter=_commandCenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long disabledReason; // @synthesize disabledReason=_disabledReason;
-@property(copy, nonatomic) NSArray *disabledReasons; // @synthesize disabledReasons=_disabledReasons;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isForceDisabled) _Bool forceDisabled; // @synthesize forceDisabled=_forceDisabled;
-@property(readonly, nonatomic) _Bool hasTargets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int mediaRemoteCommandType; // @synthesize mediaRemoteCommandType=_mediaRemoteCommandType;
-@property(nonatomic) _Bool skipSerializedEventDelivery; // @synthesize skipSerializedEventDelivery=_skipSerializedEventDelivery;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported;
-@property(readonly, nonatomic, getter=isSupportedAndEnabled) _Bool supportedAndEnabled;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(copy, nonatomic) NSArray *unsupportedReasons; // @synthesize unsupportedReasons=_unsupportedReasons;
 
 @end
 

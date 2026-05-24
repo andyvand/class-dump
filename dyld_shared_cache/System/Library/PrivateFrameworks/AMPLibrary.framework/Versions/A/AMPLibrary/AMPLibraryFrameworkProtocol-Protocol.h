@@ -5,5 +5,6 @@
 //
 
 @protocol AMPLibraryFrameworkProtocol
+- (void);
 @end
 

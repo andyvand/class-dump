@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMimePart, NSString;
+@class MCMimePart;
 
 @interface MCMimePartAttachmentDataSource
 {
     MCMimePart *_mimePart;
-    unsigned long long _approximateSize;
 }
 
+- (id)Rp;
 - (id);
-- (id);
-- (void);
+- (void)�;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -22,21 +21,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)y;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long approximateSize; // @synthesize approximateSize=_approximateSize;
-@property(readonly, nonatomic) _Bool canResultsBeCached;
-@property(readonly, nonatomic) _Bool dataIsLocallyAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDirectory;
 @property(readonly, nonatomic) MCMimePart *mimePart; // @synthesize mimePart=_mimePart;
-@property(readonly) Class superclass;
 
 @end
 

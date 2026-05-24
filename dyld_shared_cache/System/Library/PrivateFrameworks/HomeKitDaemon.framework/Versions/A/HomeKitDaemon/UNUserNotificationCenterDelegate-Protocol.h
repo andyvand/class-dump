@@ -7,6 +7,7 @@
 @protocol UNUserNotificationCenterDelegate
 
 @optional
+- (void);
 - (void)ls;
 - (void)ring accessories;
 @end

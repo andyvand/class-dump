@@ -7,7 +7,6 @@
 @interface NewsUI2.InterludeAnimator
 {
     id sceneStateManager;
-    id completionHandler;
 }
 
 @end

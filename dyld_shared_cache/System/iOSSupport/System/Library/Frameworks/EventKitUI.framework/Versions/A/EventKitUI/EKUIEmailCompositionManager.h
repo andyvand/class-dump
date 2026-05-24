@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSString, UIViewController;
+@class EKEvent, NSArray;
 
 @interface EKUIEmailCompositionManager
 {
     NSArray *_participantRecipients;
-    NSString *_subjectPrefix;
-    NSString *_bodyPrefix;
-    CDUnknownBlockType _messageSendingComplete;
-    UIViewController *_viewController;
-    EKEvent *_event;
 }
 
 + (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)s;
+- (id);
+- (id)Lm;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)leView;
+- (void)tableView;
 - (void)_ D;
 
 // Remaining properties
 @property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(copy) CDUnknownBlockType messageSendingComplete; // @synthesize messageSendingComplete=_messageSendingComplete;
-@property(readonly) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

@@ -9,20 +9,18 @@
 @interface PIInpaintAdjustmentDelta
 {
     NSArray *_operations;
-    NSArray *_masks;
 }
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void)owedLayoutStrategies: /* Error: Ran out of types for this method. */;
+- (void)_uniqueIdentifierForKeychainItem:(id)arg1;
+- (id)4;
+- (_Bool)ver;
+- (void)setAllowedLayoutStrategies: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *masks; // @synthesize masks=_masks;
 @property(copy, nonatomic) NSArray *operations; // @synthesize operations=_operations;
 
 @end

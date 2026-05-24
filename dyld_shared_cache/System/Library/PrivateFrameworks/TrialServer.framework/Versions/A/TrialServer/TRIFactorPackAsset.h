@@ -5,20 +5,16 @@
 //
 
 @class NSString;
-@protocol TRIAssetId, TRIFactorPackId;
 
 @interface TRIFactorPackAsset
 {
     NSString *_factorName;
-    NSString<TRIAssetId> *_assetId;
-    NSString *_filePath;
-    NSString<TRIFactorPackId> *_factorPackId;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)burstUuid;
+- (id)isEqualToNumber:(id)arg1;
+- (id)ation:(id)arg1 detectedObjectsInfoHumanFaces:detectedObjectsInfoHumanBodies:detectedObjectsInfoCatBodies:detectedObjectsInfoDogBodies:detectedObjectsSalientObjects:smartCamInfo:stitchConfidence:horizonLinePresent:horizonLineAngleInDegrees:captureFolderPath:semanticDevelopmentGatingObservations:faceObservations:torsoprints:foodAndDrinkObservations:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (id)initWithJunkImageClassificationObservations:(id)arg1 imageAestheticsObservation:saliencyObservation:scenePrintObservation:detectedObjectsInfoHumanFaces:detectedObjectsInfoHumanBodies:detectedObjectsInfoCatBodies:detectedObjectsInfoDogBodies:detectedObjectsSalientObjects:smartCamInfo:stitchConfidence:horizonLinePresent:horizonLineAngleInDegrees:captureFolderPath:semanticDevelopmentGatingObservations:faceObservations:torsoprints:foodAndDrinkObservations:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -27,17 +23,14 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)initWithMainDisplayContext:launchDisplayContext:deviceContext:persistedSceneIdentifiers:supportAppSceneRequests: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_lateFrameCount;
+- (id)commute30MinWarningEntityRelevanceLargeGeoHashAndDayOfWeekFeatures;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString<TRIAssetId> *assetId; // @synthesize assetId=_assetId;
 @property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
-@property(readonly, nonatomic) NSString<TRIFactorPackId> *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 
 @end
 

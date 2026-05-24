@@ -9,7 +9,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);

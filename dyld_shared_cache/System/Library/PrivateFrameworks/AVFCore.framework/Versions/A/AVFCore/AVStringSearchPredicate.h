@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface AVStringSearchPredicate : AVSearchPredicate
 {
     NSString *_string;
-    unsigned long long _comparisonOptions;
 }
 
-- (id);
+- (id)gerCandidates;
 - (unsigned long long);
-- (void);
-- (id);
+- (void)@;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)A;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long comparisonOptions; // @synthesize comparisonOptions=_comparisonOptions;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

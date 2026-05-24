@@ -7,10 +7,6 @@
 @interface UIKit.GlassElementBridge__priv_F83AB3ECBB2C378B4FCEB681A4D7DB74
 {
     id proxy;
-    id glass;
-    id cornerRadii;
-    id contentView;
-    id isGlassSuppressed;
 }
 
 @end

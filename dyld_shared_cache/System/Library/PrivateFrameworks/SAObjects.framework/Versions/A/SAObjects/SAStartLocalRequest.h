@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAStartLocalRequest : SABaseClientBoundCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *clientBoundCommands;
-@property(copy, nonatomic) NSString *inputOrigin;
 
 @end
 

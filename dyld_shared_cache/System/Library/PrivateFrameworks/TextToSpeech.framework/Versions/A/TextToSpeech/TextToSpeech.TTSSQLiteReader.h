@@ -7,8 +7,6 @@
 @interface TextToSpeech.TTSSQLiteReader
 {
     id orderFetchQuery;
-    id rulesetFetchQuery;
-    id ruleFetchQuery;
 }
 
 @end

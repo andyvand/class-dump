@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface PDSQueueProxy
 {
     id _target;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _mode;
 }
 
-- (id);
+- (id)Failed to delete asset collection %{public}@. Error:(id)arg1 %{public}@. Reset-syncing album.;
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) id target; // @synthesize target=_target;
 
 @end

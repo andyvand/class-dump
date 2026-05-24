@@ -7,8 +7,6 @@
 @interface AppStoreKit.ModernAppStateMachine.Observation__priv_3A209BCB3C459126ADF7544B8D079C00
 {
     id observer;
-    id action;
-    id stateMachine;
 }
 
 @end

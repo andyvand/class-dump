@@ -9,27 +9,25 @@
 @interface TRIFactorNamespaceRecord
 {
     NSString *_factorName;
-    NSString *_namespaceName;
 }
 
-+ (id);
-- (_Bool);
-- (id);
-- (id);
++ (id)createKeychainEntryReturningKeyData:(id)arg1 keyInfo:(id)arg2;
+- (_Bool)layers;
+- (id)isEqualToLibrary:(id)arg1;
+- (id)ontroller"16@?<v@?B>24;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)N,V_longTransactionLifetimes;
+- (id)commute30MinWarningEntityRelevanceDayOfWeekFeatures;
 - (void)×!àDù1!Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
-@property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
 
 @end
 

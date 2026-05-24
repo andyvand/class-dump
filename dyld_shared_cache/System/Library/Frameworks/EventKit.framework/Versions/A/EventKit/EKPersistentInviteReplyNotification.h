@@ -15,19 +15,22 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id)yer path invalidation.;
+- (id)blic}@> reloading due to player path invalidation.;
+- (void)ontentItemRef, CFStringRef);
+- (id)%@
+   response=           %@
+}>
+;
 - (_Bool);
 - (id);
 - (void);

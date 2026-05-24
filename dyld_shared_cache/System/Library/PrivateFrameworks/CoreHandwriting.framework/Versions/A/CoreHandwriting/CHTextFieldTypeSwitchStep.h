@@ -11,13 +11,6 @@
 @interface CHTextFieldTypeSwitchStep : CHPostprocessingStepModifyingOriginalTokens
 {
     CHPostProcessingManager *_digitProcessor;
-    CHPostProcessingManager *_phoneProcessor;
-    CHPostProcessingManager *_usernameProcessor;
-    CHPostProcessingManager *_emailProcessor;
-    CHPostProcessingManager *_urlProcessor;
-    CHPostProcessingManager *_asciiProcessor;
-    CHPostProcessingManager *_equationProcessor;
-    CHPostProcessingManager *_defaultProcessor;
 }
 
 - (void);

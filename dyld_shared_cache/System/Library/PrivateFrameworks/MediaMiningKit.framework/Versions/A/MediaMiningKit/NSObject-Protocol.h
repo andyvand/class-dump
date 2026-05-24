@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)eLocationTuple: /* Error: Ran out of types for this method. */;
+- (Class)"JL;
+- (_Bool)cache:transactionBegin is not reentrant /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ing localizable string for template:(Class)arg1 %s;
+- (struct _NSZone *)numberOftimeLocationTuplesForTimeLocationTuple: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

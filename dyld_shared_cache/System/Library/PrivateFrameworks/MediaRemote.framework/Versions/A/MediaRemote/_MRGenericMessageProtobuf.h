@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRGenericMessageProtobuf
 {
     NSData *_data;
-    NSString *_key;
 }
 
 - (id);
@@ -18,23 +17,20 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)oC3Enabled;
 - (_Bool);
-- (id);
+- (id)h;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)meworks/Accounts.framework/Accounts;
 - (_Bool);
 - (void)!dDù±&ð1Â0@ù
 × ;
-- (void)onalStandardRecordingCode;
+- (void)_internationalStandardRecordingCode;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool hasData;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

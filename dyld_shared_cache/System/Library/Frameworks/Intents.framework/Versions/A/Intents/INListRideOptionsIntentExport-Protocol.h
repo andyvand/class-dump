@@ -9,7 +9,6 @@
 @protocol INListRideOptionsIntentExport
 
 // Remaining properties
-@property(copy) CLPlacemark *dropOffLocation;
 @property(copy) CLPlacemark *pickupLocation;
 @end
 

@@ -6,22 +6,20 @@
 
 #import <CloudPhotoLibrary/CPLChangeStorage.h>
 
-@class CPLEnginePushRepository, CPLEngineScopeStorage;
+@class CPLEnginePushRepository;
 
 @interface CPLPushRepositoryStorage : CPLChangeStorage
 {
     unsigned long long _storageScopeType;
-    CPLEngineScopeStorage *_scopes;
-    CPLEnginePushRepository *_pushRepository;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)c$;
 - (id);
-- (id)øRè[yè'@ùâ;
-- (id)ªJà/@ùHàªFý{H©ôOG©é#FmÿCÿ_Ö#ÕÿÑý{©ýÃ;
+- (id);
+- (id);
 - (id);
 - (void)Ñð1Â0@ù
 × ;

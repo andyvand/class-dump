@@ -6,19 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSChangeDataCaptureMetadata, PLUSSchemaPLUSSuggestion, PLUSSchemaPLUSSuggestionDomainMetadata;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggestionGenerated : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    PLUSSchemaPLUSSuggestion *_generatedSuggestion;
-    PLUSSchemaPLUSChangeDataCaptureMetadata *_suggestionChangeDataCaptureMetadata;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasGeneratedSuggestion;
-    _Bool _hasSuggestionChangeDataCaptureMetadata;
 }
 
-- (id);
+- (id)A�h;
 - (id);
 - (void);
 - (void);
@@ -38,20 +33,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)essages from CoreRecents.;
 - (id);
 - (id);
-- (id)ntSignals;
+- (id)_inferenceWorkoutsAppSelectionTrainingDependentSignals;
 - (id)reId;
-- (void)s;
+- (void)preferredLanguages;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSSuggestion *generatedSuggestion; // @synthesize generatedSuggestion=_generatedSuggestion;
-@property(nonatomic) _Bool hasGeneratedSuggestion; // @synthesize hasGeneratedSuggestion=_hasGeneratedSuggestion;
-@property(nonatomic) _Bool hasSuggestionChangeDataCaptureMetadata; // @synthesize hasSuggestionChangeDataCaptureMetadata=_hasSuggestionChangeDataCaptureMetadata;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PLUSSchemaPLUSChangeDataCaptureMetadata *suggestionChangeDataCaptureMetadata; // @synthesize suggestionChangeDataCaptureMetadata=_suggestionChangeDataCaptureMetadata;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
 
 @end

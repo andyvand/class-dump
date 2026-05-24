@@ -7,7 +7,6 @@
 @interface CGImageRefWithFormat
 {
     struct CGImage *_imageRef;
-    struct __CFString *_sourceImageFormatUTI;
 }
 
 - (struct __CFString *);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *imageRef; // @synthesize imageRef=_imageRef;
-@property(readonly, nonatomic) struct __CFString *sourceImageFormatUTI; // @synthesize sourceImageFormatUTI=_sourceImageFormatUTI;
 
 @end
 

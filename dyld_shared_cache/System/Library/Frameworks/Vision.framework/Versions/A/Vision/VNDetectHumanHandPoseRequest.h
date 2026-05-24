@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNDetectHumanHandPoseRequest : VNImageBasedRequest
 {
 }
@@ -16,8 +14,8 @@
 + (id);
 + (id);
 + (id);
-+ (Class);
-+ (const CDStruct_3a02d5a8 *);
++ (Class);
++ (const CDStruct_3a02d5a8 *)@;
 + (_Bool);
 - (id);
 - (id);
@@ -25,7 +23,7 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)hange history coalescing:(unsigned long long)arg1 Update + Update -> Update (%@);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,7 +33,6 @@
 
 // Remaining properties
 @property unsigned long long maximumHandCount;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

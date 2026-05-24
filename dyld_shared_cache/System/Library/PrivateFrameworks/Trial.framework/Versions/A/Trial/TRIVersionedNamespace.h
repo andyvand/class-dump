@@ -9,7 +9,6 @@
 @interface TRIVersionedNamespace
 {
     unsigned int _compatibilityVersion;
-    NSString *_name;
 }
 
 + (id);
@@ -31,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

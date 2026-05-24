@@ -12,19 +12,16 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)NEIKEv2RTT;
+- (unsigned long long)_TtP16NetworkExtension38NEExtensionBaseProviderHostXPCProtocol_;
 - (unsigned int);
-- (_Bool);
+- (_Bool)tlf;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)ceStatesWithDeviceID:(id)arg1 reply:(id)arg2 ]_block_invoke;
+- (unsigned long long);
+- (void)taRegID;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long element;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(readonly, nonatomic) unsigned int scope;
 @property(readonly, nonatomic) NSArray *valueKeys;
 
 @end

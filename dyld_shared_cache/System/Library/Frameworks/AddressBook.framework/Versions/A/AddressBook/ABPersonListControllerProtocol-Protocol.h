@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, NSArray;
+@class ABAccount;
 
 @protocol ABPersonListControllerProtocol
+- (void);
 
 // Remaining properties
 @property(retain) ABAccount *account;
-@property(retain, nonatomic) ABAddressBook *addressBook;
-@property(retain) ABGroup *displayedGroup;
-@property(readonly) NSArray *entries;
-@property(readonly) NSArray *personEntries;
-@property(readonly) _Bool shouldIncludeGroups;
 @end
 

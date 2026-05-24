@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISBasePlayerUIView, ISPlayerItem, ISWrappedAVPlayer, NSError, NSMutableSet, NSString, UIGestureRecognizer;
-@protocol ISPlayerViewDelegate;
+@class ISBasePlayerUIView;
 
 @interface ISPlayerView
 {
@@ -14,65 +13,41 @@
         _Bool interactingDidChange;
         _Bool gestureRecognizerDidChange;
     } _delegateRespondsTo;
-    struct {
-        _Bool playerItemLoadingTarget;
-        _Bool playerPlayerItem;
-        _Bool playerView;
-        _Bool playerMuted;
-        _Bool status;
-        _Bool readyForDisplay;
-        _Bool playbackState;
-    } _isValid;
-    _Bool _audioMuted;
-    _Bool _isReadyForDisplay;
-    _Bool _isInteracting;
-    _Bool _readyForDisplay;
-    long long _playbackState;
-    long long _status;
-    NSError *_error;
-    id <ISPlayerViewDelegate> _delegate;
-    ISBasePlayerUIView *__playerView;
-    ISWrappedAVPlayer *__videoPlayer;
-    ISPlayerItem *__playerItem;
-    UIGestureRecognizer *__gestureRecognizer;
-    NSMutableSet *__activeGestures;
-    unsigned long long _playbackStyle;
-    struct CGSize _dimensionsOfReservedVideoMemory;
 }
 
-+ (void);
++ (void)Frame;
+- (id)_isPreviewing;
+- (void)_footerHeight;
+- (void)_experimentationDelegate;
+- (void)_expectVideoPlayerViewController;
+- (id)_contentViewFrame;
+- (id)_activityProviders;
+- (void)_accessibilityTextRectsForSpeakThisStringRange: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityTextRangeFromNSRange: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityTextOperations;
+- (void)_accessibilitySpeakThisShouldScrollTextRects;
+- (void)_accessibilitySetRetainedValue:forKey: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityParentForFindingScrollParent;
+- (void)R,N,V_distance;
+- (void)ge=QQ},N,V_range;
+- (void)SRange=QQ},N,V_actualRange;
+- (id){CGSize=dd},R,N,V_dimensions;
+- (void){CGSize=dd}},N,V_contentViewFrame;
+- (void)t=dd}{CGSize=dd}},N,V_contentFrame;
+- (void)omponentViewFrame;
+- (void);
+- (void){CGPoint=dd}{CGSize=dd}},N,V_bounds;
+- (void)}{CGSize=dd}},N,V_backgroundViewFrame;
+- (void)absoluteContentViewFrame;
+- (id)erseTransformInRoot;
+- (void)ffset;
+- (struct CGSize)Td,R,N,V_delta;
+- (void)urrentRotation;
+- (void),N,V_contentWidth;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)ticlesTests,NewsAds,NewsAdsTests,NewsFormat,NewsFormatTests,NewsSubscription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsTag,NewsToday2,NewsTodayIntents,NewsEngagement,NewsEngagementTests,NewsEngagementExtension,NewsDiagnosticExtension,NewsScoringService,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksDiagnosticExtension,StocksWidget,StocksPersonalization,Weather,WeatherTests;
+- (_Bool)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24@0:8^{_CGLPixelFormatObject=}16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -80,44 +55,22 @@
 - (void);
 - (id);
 - (_Bool);
-- (long long);
-- (id);
+- (long long);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)16B32;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)description;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *_activeGestures; // @synthesize _activeGestures=__activeGestures;
-@property(retain, nonatomic, setter=_setGestureRecognizer:) UIGestureRecognizer *_gestureRecognizer; // @synthesize _gestureRecognizer=__gestureRecognizer;
-@property(retain, nonatomic, setter=_setPlayerItem:) ISPlayerItem *_playerItem; // @synthesize _playerItem=__playerItem;
 @property(retain, nonatomic, setter=_setPlayerView:) ISBasePlayerUIView *_playerView; // @synthesize _playerView=__playerView;
-@property(readonly, nonatomic) ISWrappedAVPlayer *_videoPlayer; // @synthesize _videoPlayer=__videoPlayer;
-@property(nonatomic) _Bool audioMuted; // @synthesize audioMuted=_audioMuted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ISPlayerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize dimensionsOfReservedVideoMemory; // @synthesize dimensionsOfReservedVideoMemory=_dimensionsOfReservedVideoMemory;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInteracting; // @synthesize isInteracting=_isInteracting;
-@property(readonly, nonatomic) _Bool isReadyForDisplay; // @synthesize isReadyForDisplay=_isReadyForDisplay;
-@property(nonatomic, setter=_setPlaybackState:) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) unsigned long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(nonatomic, setter=_setReadyForDisplay:) _Bool readyForDisplay; // @synthesize readyForDisplay=_readyForDisplay;
-@property(nonatomic, setter=_setStatus:) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

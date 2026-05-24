@@ -4,18 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService;
+@class IDSService, NSArray;
 
 @protocol IDSServiceDelegate
 
 @optional
+- (void)RB;
+- (void);
+- (void)Ȃ;
+- (void)#;
+- (void)n;
+- (void)ed to create SELF message templates for for ResolutionRequestFailed;
+- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (void)!Cùqð1Â0@ù
 × ;
-- (void)nsEnabled;
-- (void)dNotify:(IDSService *)arg1;
-- (void);
+- (void)notificationsEnabled;
+- (void)_setResident:(IDSService *)arg1 reachableOverIDS:(NSArray *)arg2 andNotify: /* Error: Ran out of types for this method. */;
 - (void)tier;
 - (void)%@ for reprovisioning;
 - (void)mateBulletinBuilderO7ContentP;

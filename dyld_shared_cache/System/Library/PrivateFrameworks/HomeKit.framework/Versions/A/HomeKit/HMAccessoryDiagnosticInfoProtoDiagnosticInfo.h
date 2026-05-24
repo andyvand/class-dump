@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo, HMAccessoryDiagnosticInfoProtoPrimaryResidentDiagnosticInfo, HMAccessoryDiagnosticInfoProtoSetupInfo;
-
 @interface HMAccessoryDiagnosticInfoProtoDiagnosticInfo
 {
     double _generationTime;
-    unsigned long long _version;
-    HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo *_appleMediaAccessoryDiagnosticInfo;
-    int _homeHubVersion;
-    HMAccessoryDiagnosticInfoProtoSetupInfo *_lastSetupInfo;
-    int _numHomes;
-    HMAccessoryDiagnosticInfoProtoPrimaryResidentDiagnosticInfo *_primaryResidentDiagnosticInfo;
-    struct {
-        unsigned int generationTime:1;
-        unsigned int version:1;
-        unsigned int homeHubVersion:1;
-        unsigned int numHomes:1;
-    } _has;
 }
 
 - (void);
@@ -43,7 +29,7 @@
 - (double);
 - (id);
 - (void);
-- (int);
+- (int);
 - (unsigned long long);
 - (id);
 - (void);
@@ -51,7 +37,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)causalgia;
 - (void);
 - (void);
 - (id);
@@ -60,20 +46,7 @@
 - (void)ating name via merge to %@;
 
 // Remaining properties
-@property(retain, nonatomic) HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo *appleMediaAccessoryDiagnosticInfo; // @synthesize appleMediaAccessoryDiagnosticInfo=_appleMediaAccessoryDiagnosticInfo;
-@property(nonatomic) double generationTime; // @synthesize generationTime=_generationTime;
-@property(readonly, nonatomic) _Bool hasAppleMediaAccessoryDiagnosticInfo;
-@property(nonatomic) _Bool hasGenerationTime;
-@property(nonatomic) _Bool hasHomeHubVersion;
-@property(readonly, nonatomic) _Bool hasLastSetupInfo;
-@property(nonatomic) _Bool hasNumHomes;
-@property(readonly, nonatomic) _Bool hasPrimaryResidentDiagnosticInfo;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) int homeHubVersion; // @synthesize homeHubVersion=_homeHubVersion;
-@property(retain, nonatomic) HMAccessoryDiagnosticInfoProtoSetupInfo *lastSetupInfo; // @synthesize lastSetupInfo=_lastSetupInfo;
-@property(nonatomic) int numHomes; // @synthesize numHomes=_numHomes;
-@property(retain, nonatomic) HMAccessoryDiagnosticInfoProtoPrimaryResidentDiagnosticInfo *primaryResidentDiagnosticInfo; // @synthesize primaryResidentDiagnosticInfo=_primaryResidentDiagnosticInfo;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

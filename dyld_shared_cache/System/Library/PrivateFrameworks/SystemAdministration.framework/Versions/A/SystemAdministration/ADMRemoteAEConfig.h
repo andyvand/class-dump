@@ -9,12 +9,12 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 @end
 

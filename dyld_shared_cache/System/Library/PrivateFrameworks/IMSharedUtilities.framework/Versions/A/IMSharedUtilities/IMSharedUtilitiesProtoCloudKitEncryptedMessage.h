@@ -4,39 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessage
 {
     long long _associatedMessageType;
-    unsigned long long _expireState;
-    unsigned long long _timeDelivered;
-    unsigned long long _timeExpressiveSentPlayed;
-    unsigned long long _timePlayed;
-    unsigned long long _timeRead;
-    NSString *_associatedMessageGuid;
-    unsigned int _associatedMessageRangeLength;
-    unsigned int _associatedMessageRangeLocation;
-    NSString *_baloonBundleId;
-    NSString *_expressiveSendId;
-    NSString *_messageBody;
-    NSData *_messageBodyData;
-    NSString *_messageSubject;
-    NSData *_messageSummaryInfo;
-    NSData *_padding;
-    NSData *_payloadData;
-    unsigned int _version;
-    struct {
-        unsigned int associatedMessageType:1;
-        unsigned int expireState:1;
-        unsigned int timeDelivered:1;
-        unsigned int timeExpressiveSentPlayed:1;
-        unsigned int timePlayed:1;
-        unsigned int timeRead:1;
-        unsigned int associatedMessageRangeLength:1;
-        unsigned int associatedMessageRangeLocation:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -55,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -65,11 +35,11 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)9IA;
+- (_Bool);;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,7 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
 - (unsigned int);
@@ -90,17 +60,17 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void),N,V_proactiveAssociatedAccountFetchPeriod;
+- (void)ipient cache at path:(id)arg1 %@;
+- (id)MapsReprocessing;
+- (void)requiresDeferredAuthorization;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -109,47 +79,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (id):biz:705c53d3-8cf3-11e7-a70c-c753b1bff6fa /* Error: Ran out of types for this method. */;
 - (void)junk-message-fus;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *associatedMessageGuid; // @synthesize associatedMessageGuid=_associatedMessageGuid;
-@property(nonatomic) unsigned int associatedMessageRangeLength; // @synthesize associatedMessageRangeLength=_associatedMessageRangeLength;
-@property(nonatomic) unsigned int associatedMessageRangeLocation; // @synthesize associatedMessageRangeLocation=_associatedMessageRangeLocation;
-@property(nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
-@property(retain, nonatomic) NSString *baloonBundleId; // @synthesize baloonBundleId=_baloonBundleId;
-@property(nonatomic) unsigned long long expireState; // @synthesize expireState=_expireState;
-@property(retain, nonatomic) NSString *expressiveSendId; // @synthesize expressiveSendId=_expressiveSendId;
-@property(readonly, nonatomic) _Bool hasAssociatedMessageGuid;
-@property(nonatomic) _Bool hasAssociatedMessageRangeLength;
-@property(nonatomic) _Bool hasAssociatedMessageRangeLocation;
-@property(nonatomic) _Bool hasAssociatedMessageType;
-@property(readonly, nonatomic) _Bool hasBaloonBundleId;
-@property(nonatomic) _Bool hasExpireState;
-@property(readonly, nonatomic) _Bool hasExpressiveSendId;
-@property(readonly, nonatomic) _Bool hasMessageBody;
-@property(readonly, nonatomic) _Bool hasMessageBodyData;
-@property(readonly, nonatomic) _Bool hasMessageSubject;
-@property(readonly, nonatomic) _Bool hasMessageSummaryInfo;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(readonly, nonatomic) _Bool hasPayloadData;
-@property(nonatomic) _Bool hasTimeDelivered;
-@property(nonatomic) _Bool hasTimeExpressiveSentPlayed;
-@property(nonatomic) _Bool hasTimePlayed;
-@property(nonatomic) _Bool hasTimeRead;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(retain, nonatomic) NSData *messageBodyData; // @synthesize messageBodyData=_messageBodyData;
-@property(retain, nonatomic) NSString *messageSubject; // @synthesize messageSubject=_messageSubject;
-@property(retain, nonatomic) NSData *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property(nonatomic) unsigned long long timeDelivered; // @synthesize timeDelivered=_timeDelivered;
-@property(nonatomic) unsigned long long timeExpressiveSentPlayed; // @synthesize timeExpressiveSentPlayed=_timeExpressiveSentPlayed;
-@property(nonatomic) unsigned long long timePlayed; // @synthesize timePlayed=_timePlayed;
-@property(nonatomic) unsigned long long timeRead; // @synthesize timeRead=_timeRead;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

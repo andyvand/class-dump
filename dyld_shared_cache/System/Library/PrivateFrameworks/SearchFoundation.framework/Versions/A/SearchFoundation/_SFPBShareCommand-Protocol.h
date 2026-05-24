@@ -7,10 +7,10 @@
 @class NSArray, NSData, _SFPBShareItem;
 
 @protocol _SFPBShareCommand
+- (NSArray *);
+- (NSData *)geConversionServiceClient;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBShareItem *shareItem;
-@property(copy, nonatomic) NSArray *shareItems;
 @end
 

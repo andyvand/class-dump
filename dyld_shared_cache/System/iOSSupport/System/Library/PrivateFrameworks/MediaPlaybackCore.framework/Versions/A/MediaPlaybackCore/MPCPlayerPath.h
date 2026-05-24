@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, MRPlayerPath, NSString;
-
 @interface MPCPlayerPath
 {
     int _pid;
-    _Bool _resolved;
-    NSString *_bundleID;
-    NSString *_playerID;
-    void *_mediaRemotePlayerPath;
-    MPAVRoute *_route;
-    NSString *_deviceUID;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void *);
 - (_Bool);
+- (_Bool)A;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)t(;
 - (id);
 - (id);
 - (id);
@@ -43,7 +35,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -53,36 +45,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void *);
 - (id);
-- (_Bool)ion:withOptions:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)sendPlaybackQueueWithResult:toDestination:withOptions:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)ðw¼yp}~¼ä;
 - (void)eSize:%{public}ldkB totalTime:%{public}.0fms conn:%{public}.0fms dns:%{public}.0fms cached:%{BOOL}u connReused:%{BOOL}u /* Error: Ran out of types for this method. */;
 - (id)'";
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(readonly, nonatomic, getter=isFullyResolved) _Bool fullyResolved;
-@property(readonly, nonatomic, getter=isInProcess) _Bool inProcess;
-@property(readonly, nonatomic) _Bool isCompanion;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
-@property(readonly, nonatomic, getter=isLocalDevice) _Bool localDevice;
-@property(readonly, nonatomic) void *mediaRemotePlayerPath; // @synthesize mediaRemotePlayerPath=_mediaRemotePlayerPath;
-@property(readonly, nonatomic) MRPlayerPath *mrPlayerPath;
-@property(readonly, nonatomic, getter=isNativeBooksPath) _Bool nativeBooksPath;
-@property(readonly, nonatomic, getter=isNativeMusicPath) _Bool nativeMusicPath;
-@property(readonly, nonatomic, getter=isNativePodcastsPath) _Bool nativePodcastsPath;
-@property(readonly, nonatomic) void *origin;
-@property(readonly, copy, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
-@property(readonly, copy, nonatomic) NSString *representedBundleDisplayName;
-@property(readonly, copy, nonatomic) NSString *representedBundleID;
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
 @property(readonly, nonatomic) long long resolvedPlaybackIntentDestination;
-@property(readonly, nonatomic) MPAVRoute *route; // @synthesize route=_route;
-@property(readonly, nonatomic, getter=isSystemMusicPath) _Bool systemMusicPath;
 
 @end
 

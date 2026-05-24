@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
+- (double)y>;
 - (id);
 - (id);
 - (id);

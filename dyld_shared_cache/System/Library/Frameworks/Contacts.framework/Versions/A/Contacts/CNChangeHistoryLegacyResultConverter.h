@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryEventFactory, CNContactStore, NSArray;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNChangeHistoryLegacyResultConverter
 {
     CNContactStore *_contactStore;
-    NSArray *_additionalContactKeyDescriptors;
-    CNChangeHistoryEventFactory *_factory;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,9 +20,7 @@ __attribute__((visibility("hidden")))
 - (id)8;
 
 // Remaining properties
-@property(readonly, copy) NSArray *additionalContactKeyDescriptors; // @synthesize additionalContactKeyDescriptors=_additionalContactKeyDescriptors;
 @property(readonly) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly) CNChangeHistoryEventFactory *factory; // @synthesize factory=_factory;
 
 @end
 

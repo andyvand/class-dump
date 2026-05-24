@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IOCAggregateBuildDescription
 {
     _Bool isManagedRoute;
-    unsigned char version;
-    unsigned int enabledDirections;
-    unsigned int sessionID;
-    NSArray *inputs;
-    NSArray *outputs;
-    NSString *mainDeviceUID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
+- (void)_unregisterForGeneralNotifications;
 - (unsigned char);
 - (id);
 - (void);
@@ -33,18 +27,12 @@
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int enabledDirections; // @synthesize enabledDirections;
 @property(retain, nonatomic) NSArray *inputs; // @synthesize inputs;
-@property(nonatomic) _Bool isManagedRoute; // @synthesize isManagedRoute;
-@property(retain, nonatomic) NSString *mainDeviceUID; // @synthesize mainDeviceUID;
-@property(retain, nonatomic) NSArray *outputs; // @synthesize outputs;
-@property(nonatomic) unsigned int sessionID; // @synthesize sessionID;
-@property(nonatomic) unsigned char version; // @synthesize version;
 
 @end
 

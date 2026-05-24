@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface _BlastDoorCKDeviceToDeviceShareInvitationToken
 {
     NSData *_sharingInvitationData;
-    NSURL *_shareURL;
-    NSString *_participantID;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
 @property(copy, nonatomic) NSData *sharingInvitationData; // @synthesize sharingInvitationData=_sharingInvitationData;
 
 @end

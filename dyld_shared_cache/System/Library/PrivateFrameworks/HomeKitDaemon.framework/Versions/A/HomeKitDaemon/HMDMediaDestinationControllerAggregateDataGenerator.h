@@ -5,30 +5,27 @@
 //
 
 @class NSUUID;
-@protocol HMDMediaDestinationControllerAggregateDataGeneratorDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerAggregateDataGenerator
 {
     NSUUID *_identifier;
-    id <HMDMediaDestinationControllerAggregateDataGeneratorDataSource> _dataSource;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)mpletionQueue:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)partialApplyStyleToTexture:at:subrect:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)$;
 - (void)BB765291;
 
 // Remaining properties
-@property __weak id <HMDMediaDestinationControllerAggregateDataGeneratorDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
 
 @end

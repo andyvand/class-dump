@@ -5,5 +5,6 @@
 //
 
 @protocol FigPWDKeyExchangeSenderServerHelper
+- (int);
 @end
 

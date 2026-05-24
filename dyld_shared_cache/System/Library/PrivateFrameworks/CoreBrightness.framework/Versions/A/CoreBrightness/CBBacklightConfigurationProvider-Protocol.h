@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary;
+
 @protocol CBBacklightConfigurationProvider
+- (NSArray *);
+- (NSDictionary *)u;
+- (NSDictionary *);
+- (NSDictionary *)K;
 @end
 

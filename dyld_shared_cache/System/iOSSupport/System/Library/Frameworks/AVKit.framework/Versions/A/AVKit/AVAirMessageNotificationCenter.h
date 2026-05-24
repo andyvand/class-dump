@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVBonjourService, AVPlayerItem, NSMutableSet, NSObject, NSString;
-@protocol AVAirMessageNotificationCenterDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVAirMessageNotificationCenter
 {
     _Bool _started;
-    id <AVAirMessageNotificationCenterDelegate> _delegate;
-    AVBonjourService *_mainService;
-    AVPlayerItem *_nowPlayingPlayerItem;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_activeChannels;
 }
 
 + (_Bool);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)K;
 - (void);
 - (void);
 - (void);
@@ -36,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (id);
@@ -45,18 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)"32;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeChannels; // @synthesize activeChannels=_activeChannels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVAirMessageNotificationCenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVBonjourService *mainService; // @synthesize mainService=_mainService;
-@property(retain, nonatomic) AVPlayerItem *nowPlayingPlayerItem; // @synthesize nowPlayingPlayerItem=_nowPlayingPlayerItem;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

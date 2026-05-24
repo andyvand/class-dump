@@ -12,13 +12,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -26,6 +24,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -38,11 +38,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t be an output;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ntity not found;
 
 // Remaining properties
 @property(readonly, copy) NSSet *unknownPayloadKeys; // @synthesize unknownPayloadKeys=_unknownPayloadKeys;

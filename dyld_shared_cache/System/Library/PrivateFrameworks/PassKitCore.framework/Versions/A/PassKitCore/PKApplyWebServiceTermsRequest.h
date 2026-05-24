@@ -6,21 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL, PKApplyWebServiceRequestAuthenticationContext, PKPaymentDeviceMetadata, PKPaymentInstallmentConfiguration;
+@class NSString;
 
 @interface PKApplyWebServiceTermsRequest : PKApplyWebServiceRequest
 {
     _Bool _termsAccepted;
-    NSString *_applicationIdentifier;
-    NSString *_applicationTermsIdentifier;
-    NSString *_offerTermsIdentifier;
-    NSString *_pathTermsIdentifier;
-    NSString *_pathIdentifier;
-    NSURL *_baseURL;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    PKPaymentInstallmentConfiguration *_installmentConfiguration;
-    NSString *_odiAssessment;
-    PKApplyWebServiceRequestAuthenticationContext *_authenticationContext;
 }
 
 + (_Bool);
@@ -37,32 +27,22 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (id)ype: /* Error: Ran out of types for this method. */;
-- (void)er;
+- (id)_typeOrderForType: /* Error: Ran out of types for this method. */;
+- (void)PaymentReminder;
 - (void);
 - (id)<Þ;
 - (void)r¹ÿHF	;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *applicationTermsIdentifier; // @synthesize applicationTermsIdentifier=_applicationTermsIdentifier;
-@property(retain, nonatomic) PKApplyWebServiceRequestAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(retain, nonatomic) PKPaymentInstallmentConfiguration *installmentConfiguration; // @synthesize installmentConfiguration=_installmentConfiguration;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(copy, nonatomic) NSString *offerTermsIdentifier; // @synthesize offerTermsIdentifier=_offerTermsIdentifier;
-@property(copy, nonatomic) NSString *pathIdentifier; // @synthesize pathIdentifier=_pathIdentifier;
-@property(copy, nonatomic) NSString *pathTermsIdentifier; // @synthesize pathTermsIdentifier=_pathTermsIdentifier;
-@property(nonatomic) _Bool termsAccepted; // @synthesize termsAccepted=_termsAccepted;
 
 @end
 

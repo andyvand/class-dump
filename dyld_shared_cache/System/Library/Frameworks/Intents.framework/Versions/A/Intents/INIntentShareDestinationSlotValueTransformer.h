@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)eString;
++ (long long)uppercaseString;
 - (id);
-- (id)elativeLevelSetting:(id)arg1;
+- (id)StringAsRelativeLevelSetting:(id)arg1;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMDHomeKitVersion, HMDHomeNFCReaderKey, HMDNaturalLightingContext, NSData, NSDate, NSDictionary, NSNumber, NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeModel : HMDBackingStoreModelObject
 {
@@ -19,69 +17,13 @@ __attribute__((visibility("hidden")))
 + (Class)× ;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)contacts:%@ /* Error: Ran out of types for this method. */;
+- (id)heckin dispatch group missing when checkin completed;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *chipFabricID; // @dynamic chipFabricID;
-@property(copy, nonatomic) NSNumber *chipFabricIndex; // @dynamic chipFabricIndex;
-@property(copy, nonatomic) NSData *chipIntermediateCertificate; // @dynamic chipIntermediateCertificate;
-@property(copy, nonatomic) NSDictionary *chipKeyValueStore; // @dynamic chipKeyValueStore;
-@property(copy, nonatomic) NSNumber *chipLastNodeID; // @dynamic chipLastNodeID;
-@property(copy, nonatomic) NSData *chipOperationalCertificate; // @dynamic chipOperationalCertificate;
-@property(copy, nonatomic) NSData *chipRootCertificate; // @dynamic chipRootCertificate;
-@property(retain, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *defaultRoomUUID; // @dynamic defaultRoomUUID;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *didOnboardEventLog; // @dynamic didOnboardEventLog;
-@property(copy, nonatomic) NSNumber *didOnboardLocationServices; // @dynamic didOnboardLocationServices;
-@property(retain, nonatomic) NSData *encodedNaturalLightingContext; // @dynamic encodedNaturalLightingContext;
-@property(copy, nonatomic) NSNumber *eventLogDuration; // @dynamic eventLogDuration;
-@property(copy, nonatomic) NSNumber *eventLogHomeSettingEnabled; // @dynamic eventLogHomeSettingEnabled;
-@property(retain, nonatomic) NSDate *firstHAPAccessoryAddedDate; // @dynamic firstHAPAccessoryAddedDate;
-@property(copy, nonatomic) NSNumber *hasAnyUserAcknowledgedCameraRecordingOnboarding; // @dynamic hasAnyUserAcknowledgedCameraRecordingOnboarding;
-@property(copy, nonatomic) NSNumber *hasOnboardedForAccessCode; // @dynamic hasOnboardedForAccessCode;
-@property(copy, nonatomic) NSNumber *hasOnboardedForWalletKey; // @dynamic hasOnboardedForWalletKey;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *hh2EncodedNfcReaderKey; // @dynamic hh2EncodedNfcReaderKey;
-@property(retain, nonatomic) NSData *homeLocationData; // @dynamic homeLocationData;
-@property(copy, nonatomic) NSNumber *isAllowedToEnableAdaptiveTemperatureAutomations; // @dynamic isAllowedToEnableAdaptiveTemperatureAutomations;
-@property(copy, nonatomic) NSNumber *locationServicesEnabled; // @dynamic locationServicesEnabled;
-@property(copy, nonatomic) NSData *matCredGRK; // @dynamic matCredGRK;
-@property(copy, nonatomic) NSNumber *matterControllerNodeID; // @dynamic matterControllerNodeID;
-@property(copy, nonatomic) NSNumber *matterFabricID; // @dynamic matterFabricID;
-@property(copy, nonatomic) NSNumber *multiUserEnabled; // @dynamic multiUserEnabled;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) HMDNaturalLightingContext *naturalLightingContext;
-@property(retain, nonatomic) NSNumber *networkProtectionMode; // @dynamic networkProtectionMode;
-@property(copy, nonatomic) HMDHomeNFCReaderKey *nfcReaderKey;
-@property(copy, nonatomic) NSNumber *numberOfCameras; // @dynamic numberOfCameras;
-@property(copy, nonatomic) NSNumber *owned; // @dynamic owned;
-@property(retain, nonatomic) NSString *ownerName; // @dynamic ownerName;
-@property(retain, nonatomic) NSData *ownerPublicKey; // @dynamic ownerPublicKey;
-@property(retain, nonatomic) NSString *ownerUUID; // @dynamic ownerUUID;
-@property(retain, nonatomic) NSString *ownerUserID; // @dynamic ownerUserID;
-@property(retain, nonatomic) NSNumber *presenceAuthorizationStatus; // @dynamic presenceAuthorizationStatus;
-@property(retain, nonatomic) NSNumber *presenceComputeStatus; // @dynamic presenceComputeStatus;
-@property(copy, nonatomic) NSData *primaryIPv4NetworkSignature; // @dynamic primaryIPv4NetworkSignature;
-@property(copy, nonatomic) NSData *primaryIPv6NetworkSignature; // @dynamic primaryIPv6NetworkSignature;
-@property(retain, nonatomic) NSString *primaryResidentUUID; // @dynamic primaryResidentUUID;
-@property(copy, nonatomic) NSNumber *primaryWiFiRequiresPassword; // @dynamic primaryWiFiRequiresPassword;
-@property(copy, nonatomic) NSString *primaryWiFiSSID; // @dynamic primaryWiFiSSID;
-@property(copy, nonatomic) NSNumber *residentSelectionVersion; // @dynamic residentSelectionVersion;
-@property(copy, nonatomic) NSNumber *residentSyncClientDidSync; // @dynamic residentSyncClientDidSync;
-@property(copy, nonatomic) HMDHomeKitVersion *sharedHomeSourceVersion; // @dynamic sharedHomeSourceVersion;
-@property(copy, nonatomic) NSNumber *siriPhraseOptions; // @dynamic siriPhraseOptions;
-@property(copy, nonatomic) NSNumber *soundCheckEnabled; // @dynamic soundCheckEnabled;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *threadOperationalDataset; // @dynamic threadOperationalDataset;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @dynamic timeZone;
 
 @end
 

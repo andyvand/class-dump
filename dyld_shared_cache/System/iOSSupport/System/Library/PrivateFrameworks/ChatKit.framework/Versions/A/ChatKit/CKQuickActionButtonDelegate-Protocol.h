@@ -5,5 +5,6 @@
 //
 
 @protocol CKQuickActionButtonDelegate
+- (void)isLocalAccount;
 @end
 

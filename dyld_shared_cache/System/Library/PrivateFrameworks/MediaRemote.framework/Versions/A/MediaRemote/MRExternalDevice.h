@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, MRExternalOutputContextDataSource, MRGroupSessionToken, MROrigin, MRSupportedProtocolMessages, NSArray, NSError, NSMutableDictionary, NSString;
+@class MRSupportedProtocolMessages, NSMutableDictionary;
 
 @interface MRExternalDevice
 {
     NSMutableDictionary *_discoveryOutputDevicesCallbacks;
-    NSMutableDictionary *_discoveryConfigurations;
-    NSMutableDictionary *_discoveryModes;
-    _Bool _wantsEndpointChangeNotifications;
-    _Bool _valid;
-    _Bool _usingSystemPairing;
-    unsigned int _connectionState;
-    NSArray *_personalOutputDevices;
-    long long _connectionRecoveryBehavior;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,50 +23,52 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)P7�07�87�@7� 7�(7�	7�
+7�7�;
+- (void);
+- (void);
+- (void)�H7�X7�P7�07�87�@7� 7�(7�	7�
+7�7�;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (id)s;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
+- (long long)g7;
 - (void);
 - (void);
 - (void);
@@ -86,47 +80,22 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)_resumeAvatarInUserView: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)stopObservingBluetoothInEarDetectionStateForObserverID:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)formanceClass;
+- (void)handoffSourcePerformanceClass;
 - (void)cks;
 - (_Bool)òÿ+;
 - (id),Ó;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(nonatomic) long long connectionRecoveryBehavior; // @synthesize connectionRecoveryBehavior=_connectionRecoveryBehavior;
-@property(readonly, nonatomic) unsigned int connectionState; // @synthesize connectionState=_connectionState;
-@property(readonly, nonatomic) MROrigin *customOrigin;
-@property(readonly, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly, nonatomic) MRExternalOutputContextDataSource *externalOutputContext;
-@property(readonly, nonatomic) MRGroupSessionToken *groupSessionToken;
-@property(readonly, nonatomic) NSString *hostName;
-@property(readonly, nonatomic) NSError *lastConnectionError;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired;
-@property(readonly, nonatomic) NSArray *personalOutputDevices; // @synthesize personalOutputDevices=_personalOutputDevices;
-@property(readonly, nonatomic) long long port;
-@property(copy, nonatomic) NSArray *subscribedPlayerPaths;
 @property(readonly, nonatomic) MRSupportedProtocolMessages *supportedMessages;
-@property(readonly, nonatomic) _Bool supportsExternalDiscovery;
-@property(readonly, nonatomic) _Bool supportsIdleDisconnection;
-@property(readonly, nonatomic) NSString *uid;
-@property(nonatomic, getter=isUsingSystemPairing) _Bool usingSystemPairing; // @synthesize usingSystemPairing=_usingSystemPairing;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
-@property(nonatomic) _Bool wantsEndpointChangeNotifications; // @synthesize wantsEndpointChangeNotifications=_wantsEndpointChangeNotifications;
-@property(nonatomic) _Bool wantsNowPlayingArtworkNotifications;
-@property(nonatomic) _Bool wantsNowPlayingNotifications;
-@property(nonatomic) _Bool wantsOutputDeviceNotifications;
-@property(nonatomic) _Bool wantsSystemEndpointNotifications;
-@property(nonatomic) _Bool wantsVolumeNotifications;
 
 @end
 

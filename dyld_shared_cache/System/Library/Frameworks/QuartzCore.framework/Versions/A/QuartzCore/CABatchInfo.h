@@ -7,12 +7,9 @@
 @interface CABatchInfo
 {
     unsigned long long _batch_name;
-    unsigned int _port;
-    struct SpinLock _lock;
-    _Bool _invalidated;
 }
 
-- (id);
+- (id)7tR;
 - (id);
 - (void);
 - (id);

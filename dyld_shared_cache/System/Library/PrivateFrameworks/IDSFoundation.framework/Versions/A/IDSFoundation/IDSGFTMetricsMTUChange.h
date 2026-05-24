@@ -6,15 +6,13 @@
 
 #import <IDSFoundation/IDSGFTMetricsReferencePoint.h>
 
-@class NSString;
-
 @interface IDSGFTMetricsMTUChange : IDSGFTMetricsReferencePoint
 {
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -23,16 +21,10 @@
 - (void);
 - (void);
 - (unsigned short);
-- (void);
+- (void)sleep mode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

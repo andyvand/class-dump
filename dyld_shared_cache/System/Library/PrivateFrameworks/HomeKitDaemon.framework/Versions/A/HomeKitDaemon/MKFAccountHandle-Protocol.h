@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, MKFAccountHandleDatabaseID, NSDate, NSNumber;
-@protocol MKFAccount;
+@class IDSURI, MKFAccountHandleDatabaseID, NSNumber;
 
 @protocol MKFAccountHandle
-- (NSNumber *)y;
+- (void);
+- (MKFAccountHandleDatabaseID *)T@;
+- (NSNumber *)firmwareUpdateApplyMaxDelay;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAccount> account;
-@property(readonly, copy, nonatomic) MKFAccountHandleDatabaseID *databaseID;
 @property(retain, nonatomic) IDSURI *idsURI;
-@property(copy, nonatomic) NSNumber *local;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

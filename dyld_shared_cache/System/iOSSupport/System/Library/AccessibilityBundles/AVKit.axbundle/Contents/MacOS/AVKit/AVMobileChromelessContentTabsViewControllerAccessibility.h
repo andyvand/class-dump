@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (void);
++ (void)SRange=QQ}16@0:(id)arg1 8;
+- (void);
 
 @end
 

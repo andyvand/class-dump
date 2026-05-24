@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface IMServiceReachabilityHandleResult
 {
     _Bool _reachable;
-    _Bool _supportsEncryption;
-    NSString *_handleID;
-    NSString *_service;
-    NSDictionary *_persistentMenuDictionary;
-    NSDictionary *_brandInfoDictionary;
-    NSData *_brandLogoData;
 }
 
 + (_Bool);

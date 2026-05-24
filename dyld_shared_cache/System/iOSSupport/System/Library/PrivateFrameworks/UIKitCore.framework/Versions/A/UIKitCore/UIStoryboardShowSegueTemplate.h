@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (id);
-- (void)xedOrStickyPositionLayers;
-- (id)arCustomizationDebugEnabled;
-- (void)tionItemC;
+- (id)_textureFromPixelBuffer:(id)arg1 forcedMetalPixelFormat:forcedWidthDivisior: /* Error: Ran out of types for this method. */;
+- (void)hasFixedOrStickyPositionLayers;
+- (id)BarCustomizationDebugEnabled;
+- (void)So16UINavigationItemC;
 - (void)Yä­;
 
 // Remaining properties

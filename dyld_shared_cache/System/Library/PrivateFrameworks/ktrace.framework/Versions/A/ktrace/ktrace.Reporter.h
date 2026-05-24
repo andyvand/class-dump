@@ -7,11 +7,6 @@
 @interface ktrace.Reporter
 {
     id output;
-    id errorOutput;
-    id creationDate;
-    id initialFormatter;
-    id updateFormatter;
-    id logger;
 }
 
 - (void);

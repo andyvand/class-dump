@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUObservatory
 {
     NSObject<OS_dispatch_queue> *_serializer;
-    NSMutableArray *_observations;
 }
 
 - (void);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void)d char, std::allocator<unsigned char>>="__begin_"*"__end_"*""{?="__cap_"*}} /* Error: Ran out of types for this method. */;

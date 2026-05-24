@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXAssetsDataSourceCountsController, PXAssetsDataSourceManager;
+@class PXAssetsDataSourceManager;
 
 __attribute__((visibility("hidden")))
 @interface CKPhotosGridFooterViewModel
 {
     PXAssetsDataSourceManager *_assetsDataSourceManager;
-    NSArray *_syndicationIdentifiers;
-    PXAssetsDataSourceCountsController *_assetsCountsController;
-    CDStruct_aa0b146f _detailedCounts;
-    long long _savedCount;
 }
 
-- (void);
-- (void);
+- (void)calculateDocumentController;
+- (void)_decomposedHighlightInfo;
 - (id);
-- (void);
-- (void);
+- (void)webview.enableEditor();
+- (void)view notes on this Mac can view its locked notes. Locked notes are still end-to-end encrypted.
+
+Set a login password to protect locked notes on this Mac.;
 - (void);
 - (void)ift:(id)arg1;
 - (void)ÄP´;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

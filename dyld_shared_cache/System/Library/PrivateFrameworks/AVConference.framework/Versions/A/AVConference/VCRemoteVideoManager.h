@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCRemoteVideoManager
 {
     NSMutableDictionary *_queuesForStreamTokenDict;
-    NSMutableDictionary *_stateCacheForStreamTokenDict;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_queue> *_xpcCallbackQueue;
 }
 
 + (id);
@@ -22,37 +18,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
+- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R	k;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

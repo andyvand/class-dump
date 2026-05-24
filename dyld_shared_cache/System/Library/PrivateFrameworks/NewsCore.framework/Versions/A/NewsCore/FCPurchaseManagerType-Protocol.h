@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol FCPurchaseFlowOverrideProviderType, FCPurchaseManagerDelegate;
 
 @protocol FCPurchaseManagerType
+- (void)sqrt;
+- (void)P;
+- (void)32@0:(NSString *)arg1 8@16q24;
+- (void);
+- (id <FCPurchaseFlowOverrideProviderType>)5;
+- (_Bool)ody()&&!e.mf_quoteLevelDelta();)t=!0,this.endContainer===e&&(this.startOffset||this.endOffset!==e.childNodes.length||(this.setStartBefore(e),this.setEndAfter(e),e=this.startContainer,t=!1))},Range.prototype.mf_firstNode=function(){let e;if(this.collapsed)return e;let t=this.startContainer,n=this.startOffset,i=!1;if(t instanceof Text)e=(i=n>0)?t.mf_traverseNextNodeStayingWithin():t;else{for(e=t.firstChild;n-- >0;)e=e.nextSibling;e||(e=t.mf_traverseNextSiblingStayingWithin())}return e&&!this.intersectsNode(e)&&(e=undefined),e},Range.prototype.mf_takeFocus=function(e){e===undefined&&(e=!0),e&&this.collapse(!0);let t=document.getSelection();t.removeAllRanges(),t.addRange(this)},Range.prototype.mf_lastNode=function(){let e;if(this.collapsed)return e;let t=this.endContainer,n=this.endOffset,i=!1;if(t instanceof Text)e=(i=n<t.length)?t.mf_traversePreviousNode():t;else{for(e=t.firstChild;--n>0;)e=e.nextSibling;e&&this.endOffset||(e=t.mf_traversePreviousNode())}return e&&!this.intersectsNode(e)&&(e=undefined),e};const IS_BLOCK_ELEMENT_NAME=function(e){const t=["HTML","BODY","BR","LI","OL","UL","TD","TH","HR","DD","DL","DT","PRE","BLOCKQUOTE","DIV","P","TR","H1","H2","H3","H4","H5","H6"];return e&&-1!==t.indexOf(e)},isBlockLevelNode=function(e){let t=!1;return t=!!IS_BLOCK_ELEMENT_NAME(e.nodeName)};Range.prototype.mf_getBlockBoundaryParentAndNextSibling=function(e){let t,n;if(e){let e=this.mf_firstNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t}}else{let e=this.mf_lastNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t.nextSibling}}let i,s,o;if(e?(i=this.startContainer,o=this.startOffset):(i=this.endContainer,o=this.endOffset),i instanceof Text)i=(s=i).parentNode;else for(s=i.firstChild;o-- >0;s=s.nextSibling);for(e&&(s=s?s.previousSibling:i.lastChild);!t&&i;){for(;!t&&s;)isBlockLevelNode(s)?(t=i,n=e||"BR"===s.nodeName.toUpperCase()?s.nextSibling:s):s=e?s.previousSibling:s.nextSibling;s||(isOrContainsBlockLevelNode(i)?(t=i,n=e?t.firstChild:undefined):(s=i,i=i.parentNode))}return{parent:t,nextSibling:n}};const isOrContainsBlockLevelNode=function(e){let t,n=!1;if(IS_BLOCK_ELEMENT_NAME(e.nodeName))n=!0;else for(t=e.firstChild;!n&&t;)n=isOrContainsBlockLevelNode(t),t=t.nextSibling;return n}; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <FCPurchaseManagerDelegate> delegate;
-@property(retain, nonatomic) id <FCPurchaseFlowOverrideProviderType> purchaseFlowOverrideProvider;
 @end
 

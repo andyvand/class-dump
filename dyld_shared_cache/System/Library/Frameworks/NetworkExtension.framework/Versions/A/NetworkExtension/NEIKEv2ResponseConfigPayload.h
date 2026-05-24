@@ -14,7 +14,7 @@
 }
 
 - (_Bool);
-- (void)artSystemExtensionMode;
+- (void)startSystemExtensionMode;
 
 @end
 

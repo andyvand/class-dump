@@ -6,40 +6,31 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INPauseWorkoutIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setParentDirectorySandboxWrapper:(long long)arg1;
++ (int)dictionaryWithContentsOfURL:(long long)arg1;
++ (long long)contentRect;
++ (_Bool)associateThumbnailsForDocumentAtURL:(long long)arg1 withDocumentAtURL:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
-- (long long);
+- (long long)*;
+- (id);
+- (id)anonymizedCopy;
+- (id);
+- (void)sequenceNumber;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)gAsPayloadCarAirCirculationModes: /* Error: Ran out of types for this method. */;
+- (long long)StringAsPayloadCarAirCirculationModes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

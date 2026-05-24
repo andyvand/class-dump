@@ -5,5 +5,6 @@
 //
 
 @protocol WBSKeychainCredentialNotificationMonitor
+- (void)scaleFromDrawingInCanvasView:(id)arg1 toPageControllerModelSpace: /* Error: Ran out of types for this method. */;
 @end
 

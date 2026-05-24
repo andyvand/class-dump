@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface PODServiceWeakClientProxy
 {
     NSXPCInterface *_clientInterface;
-    id _protocolHandler;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)setTestingOverride: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCInterface *clientInterface; // @synthesize clientInterface=_clientInterface;
-@property(readonly, nonatomic) __weak id protocolHandler; // @synthesize protocolHandler=_protocolHandler;
 
 @end
 

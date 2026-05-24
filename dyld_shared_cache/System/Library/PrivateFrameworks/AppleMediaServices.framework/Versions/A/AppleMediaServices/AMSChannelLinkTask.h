@@ -6,28 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSChannelLinkParams, AMSEngagement, AMSMetrics, AMSProcessInfo, AMSPromise, AMSURLRequestEncoder, AMSURLSession, NSDictionary, NSSet, NSString;
-@protocol AMSBagProtocol, AMSChannelLinkTaskDelegate;
+@class ACAccount;
 
 @interface AMSChannelLinkTask : AMSTask
 {
     _Bool _iCloudSignInPreferred;
-    ACAccount *_account;
-    NSDictionary *_additionalLinkingParameters;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    id <AMSChannelLinkTaskDelegate> _delegate;
-    AMSChannelLinkParams *_linkParams;
-    NSDictionary *_metricsOverlay;
-    NSString *_productCode;
-    NSSet *_supplementaryFields;
-    AMSEngagement *_engagementHandler;
-    NSString *_guid;
-    AMSMetrics *_metrics;
-    NSString *_msisdn;
-    AMSURLRequestEncoder *_requestEncoder;
-    AMSURLSession *_urlSession;
-    AMSPromise *_pacTokenPromise;
 }
 
 + (id);
@@ -39,41 +22,41 @@
 - (void);
 - (void);
 - (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)6(;
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
+- (void);
+- (id)MSharedHelperDeleteOrphanedStickerMMCSDownloadTokens Not deleting file %@ due to extension mismatch;
 - (id);
 - (void);
+- (id)longestCommonSubsequenceBetweenList:andList: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)P;
 - (id);
+- (id)P;
 - (void);
 - (void),C,N,V_protectionType;
 - (id)Q14ù¶®âv]aroÝÝ;
@@ -85,29 +68,6 @@
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *additionalLinkingParameters; // @synthesize additionalLinkingParameters=_additionalLinkingParameters;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSChannelLinkTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) AMSEngagement *engagementHandler; // @synthesize engagementHandler=_engagementHandler;
-@property(readonly) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property _Bool iCloudSignInPreferred; // @synthesize iCloudSignInPreferred=_iCloudSignInPreferred;
-@property(readonly) AMSChannelLinkParams *linkParams; // @synthesize linkParams=_linkParams;
-@property(readonly) AMSMetrics *metrics; // @synthesize metrics=_metrics;
-@property(copy) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property(readonly) NSString *msisdn; // @synthesize msisdn=_msisdn;
-@property(readonly) AMSPromise *pacTokenPromise; // @synthesize pacTokenPromise=_pacTokenPromise;
-@property(readonly) NSString *productCode; // @synthesize productCode=_productCode;
-@property(readonly) AMSURLRequestEncoder *requestEncoder; // @synthesize requestEncoder=_requestEncoder;
-@property(readonly) Class superclass;
-@property(readonly) NSSet *supplementaryFields; // @synthesize supplementaryFields=_supplementaryFields;
-@property(readonly) AMSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

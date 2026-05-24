@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ML3NameOrderAdditions)
-+ (id);
-- (CDStruct_912cb5d2);
++ (id)sterKeyElementBlock;
+- (CDStruct_912cb5d2)<OS_dispatch_queue>",&,N,V_queue;
 @end
 

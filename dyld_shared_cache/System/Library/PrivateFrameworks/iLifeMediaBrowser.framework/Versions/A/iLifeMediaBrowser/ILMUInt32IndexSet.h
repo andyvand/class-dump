@@ -9,8 +9,6 @@
 @interface ILMUInt32IndexSet
 {
     NSMutableIndexSet *mLowIndexSet;
-    NSMutableIndexSet *mMidIndexSet;
-    NSMutableIndexSet *mHighIndexSet;
 }
 
 + (id);

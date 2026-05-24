@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsTagRenderer
 {
     id imageApplier;
-    id styler;
-    id accessoryButtonRenderer;
-    id commandCenter;
 }
 
 @end

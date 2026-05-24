@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOTimezone
 {
     PBUnknownFields *_unknownFields;
-    NSString *_identifier;
 }
 
 - (id);
@@ -19,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)eMapUI";
-- (id)redAddress;
-- (id)tadata;
+- (id)hasStructuredAddress;
+- (id)GEOPBOfflineRequestMetadata;
 - (void)èÀrVQ@;
 
 @end

@@ -9,34 +9,29 @@
 @interface _MRVolumeMutedDidChangeMessageProtobuf
 {
     NSString *_outputDeviceUID;
-    _Bool _isMuted;
-    CDStruct_d5ba98b4 _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)usageMetadata;
+- (id)Z;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)@60@68@?76;
+- (_Bool)emitSignpostTranscodeStepForDestinationUTI: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)initWithEventClass:(struct _NSZone *)arg1 maxEvents: /* Error: Ran out of types for this method. */;
+- (id)i.view-service.did-disappear;
 - (_Bool)
 × ;
-- (void)ntroller:contentItemsDidUpdateWithContentItemChanges: /* Error: Ran out of types for this method. */;
+- (void)controller:contentItemsDidUpdateWithContentItemChanges: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsMuted;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

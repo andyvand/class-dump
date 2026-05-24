@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IASchemaIAVoiceTriggerEventSummary, NSData;
-
 @interface IASchemaIASiriMissEvaluationEnded : SISchemaInstrumentationMessage
 {
     _Bool _isSiriMiss;
-    IASchemaIAVoiceTriggerEventSummary *_voiceTriggerSummary;
-    struct {
-        unsigned int isSiriMiss:1;
-    } _has;
-    _Bool _hasVoiceTriggerSummary;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,7 +27,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)cacheMetaQueue;
 - (id)1Â0@ù
 × ;
 - (id)C,N,V_siriVoiceLanguage;
@@ -42,11 +35,7 @@
 - (void)¦Éÿ@¬Ìð#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSiriMiss;
-@property(nonatomic) _Bool hasVoiceTriggerSummary; // @synthesize hasVoiceTriggerSummary=_hasVoiceTriggerSummary;
 @property(nonatomic) _Bool isSiriMiss; // @synthesize isSiriMiss=_isSiriMiss;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IASchemaIAVoiceTriggerEventSummary *voiceTriggerSummary; // @synthesize voiceTriggerSummary=_voiceTriggerSummary;
 
 @end
 

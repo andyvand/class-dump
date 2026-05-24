@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PLLibraryServicesManager;
+@class PLLibraryServicesManager;
 
 @interface PHAssetCrashRecoverySupport
 {
@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (void);
-- (_Bool);
+- (void)}16@32@40;
+- (_Bool)7;
 - (id);
-- (void);
+- (void)deviceTypeIdentifier;
 - (_Bool);
 - (id);
 - (void);
@@ -27,13 +27,7 @@
 - (void)AttributeKey",&,N,V_photosAlbumIdentifiersKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

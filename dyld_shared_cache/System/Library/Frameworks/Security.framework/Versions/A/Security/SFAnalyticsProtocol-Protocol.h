@@ -8,5 +8,6 @@
 
 @protocol SFAnalyticsProtocol
 + (id <SFAnalyticsProtocol>)Û;
+- (void);
 @end
 

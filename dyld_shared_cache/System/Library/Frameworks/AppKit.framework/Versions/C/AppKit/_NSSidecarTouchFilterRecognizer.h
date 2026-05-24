@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _NSSidecarTouchFilterRecognizer
 {
     long long _state;
-    struct __CGEvent *_lastCGEvent;
 }
 
 - (struct __CGEvent *);
 - (void);
 - (void);
+- (void).25;
 - (void);
-- (void);
-- (long long);
+- (long long)ber"16;
 - (void)ÿÿ;
 
 // Remaining properties
-@property struct __CGEvent *lastCGEvent;
 @property long long state;
 
 @end

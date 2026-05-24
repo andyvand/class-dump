@@ -5,24 +5,21 @@
 //
 
 @class FCPersonalizationTreatment;
-@protocol FCReadonlyPersonalizationAggregateStore;
 
 @interface FCReadonlyPersonalizationAggregateStoreBasedUserVectorAggregateVectorProvider
 {
     FCPersonalizationTreatment *_personalizationTreatment;
-    id <FCReadonlyPersonalizationAggregateStore> _aggregateStore;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)C=;
 - (void)%@ (%@);
 
 // Remaining properties
-@property(retain, nonatomic) id <FCReadonlyPersonalizationAggregateStore> aggregateStore; // @synthesize aggregateStore=_aggregateStore;
 @property(retain, nonatomic) FCPersonalizationTreatment *personalizationTreatment; // @synthesize personalizationTreatment=_personalizationTreatment;
 
 @end

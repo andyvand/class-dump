@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)fe_unretained Class _Nonnull);
 - (int);
 
 @end

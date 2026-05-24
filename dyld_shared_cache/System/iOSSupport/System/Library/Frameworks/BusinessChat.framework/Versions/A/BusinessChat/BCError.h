@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface BCError
 {
     NSNumber *_code;
     NSString *_domain;
-    NSString *_message;
 }
 
 + (_Bool);
-- (id);
+- (id)mailComposeController:(id)arg1 didFinishWithResult:(id)arg2 error:(id)arg3;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void),V_destinationLocation;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *code; // @synthesize code=_code;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
 
 @end
 

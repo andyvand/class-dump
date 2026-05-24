@@ -8,5 +8,8 @@
 - (void);
 - (void)?;
 - (void)Ü¦@;
+
+@optional
+- (void)rt Security exception %{public}@ is not a valid CIDR notation.;
 @end
 

@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUBonjourBrowser, CUReachabilityMonitor, NSArray, NSDictionary, NSObject, NSString, SFSession;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CUBonjourBrowser;
 
 @interface SFDeviceOperationWiFiSetup
 {
     CUBonjourBrowser *_bonjourBrowser;
-    NSString *_bonjourTestID;
-    NSObject<OS_dispatch_source> *_bonjourTimer;
-    _Bool _invalidateCalled;
-    _Bool _reachabilityEnabled;
-    CUReachabilityMonitor *_reachabilityMonitor;
-    unsigned long long _startTicks;
-    unsigned long long _startBonjourTestTicks;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    _Bool _forceFailScanWiFi;
-    _Bool _forceFailJoinWiFi;
-    _Bool _skipReachability;
-    _Bool _skipLocalReachability;
-    int _bonjourTestState;
-    unsigned int _repairFlags;
-    unsigned int _setupFlags;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    long long _operationType;
-    double _metricBonjourTestSeconds;
-    double _metricTotalSeconds;
-    double _metricWiFiSetupSeconds;
-    SFSession *_sfSession;
-    unsigned long long _retryJoinsCount;
-    unsigned long long _retryScansCount;
-    NSDictionary *_preferredWiFiConfiguration;
-    NSArray *_wiFiRetryMetrics;
 }
 
 - (id);
@@ -57,9 +30,9 @@
 - (double);
 - (double);
 - (id);
-- (int);
+- (int);
 - (void);
-- (void);
+- (void)48;
 - (void);
 - (void);
 - (void);
@@ -68,7 +41,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -81,21 +54,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int bonjourTestState; // @synthesize bonjourTestState=_bonjourTestState;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic) double metricBonjourTestSeconds; // @synthesize metricBonjourTestSeconds=_metricBonjourTestSeconds;
-@property(readonly, nonatomic) double metricTotalSeconds; // @synthesize metricTotalSeconds=_metricTotalSeconds;
-@property(readonly, nonatomic) double metricWiFiSetupSeconds; // @synthesize metricWiFiSetupSeconds=_metricWiFiSetupSeconds;
-@property(nonatomic) long long operationType; // @synthesize operationType=_operationType;
-@property(nonatomic) NSDictionary *preferredWiFiConfiguration; // @synthesize preferredWiFiConfiguration=_preferredWiFiConfiguration;
-@property(nonatomic) unsigned int repairFlags; // @synthesize repairFlags=_repairFlags;
-@property(nonatomic) unsigned long long retryJoinsCount; // @synthesize retryJoinsCount=_retryJoinsCount;
-@property(nonatomic) unsigned long long retryScansCount; // @synthesize retryScansCount=_retryScansCount;
-@property(nonatomic) unsigned int setupFlags; // @synthesize setupFlags=_setupFlags;
-@property(retain, nonatomic) SFSession *sfSession; // @synthesize sfSession=_sfSession;
-@property(nonatomic) _Bool skipLocalReachability; // @synthesize skipLocalReachability=_skipLocalReachability;
-@property(nonatomic) _Bool skipReachability; // @synthesize skipReachability=_skipReachability;
-@property(nonatomic) NSArray *wiFiRetryMetrics; // @synthesize wiFiRetryMetrics=_wiFiRetryMetrics;
 
 @end
 

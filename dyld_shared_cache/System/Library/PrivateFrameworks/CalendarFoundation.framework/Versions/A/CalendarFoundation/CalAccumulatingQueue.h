@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CalAccumulatingQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _throttleBlock;
-    double _delay;
-    NSMutableSet *_tags;
-    NSMutableDictionary *_context;
-    _Bool _executionPending;
-    unsigned long long _pendingPopTime;
-    NSObject<OS_dispatch_source> *_pendingExecutionTimer;
 }
 
-- (id);
-- (id);
+- (id)setSupportsResponseComments:(id)arg1;
+- (id)s:(id)arg1;
+- (void);
+- (void)geocodeAddress:withTimeout:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)INFERRED_APP_ENTITY_TYPE_APP;
 - (void);
 - (id);
 - (void);

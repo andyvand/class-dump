@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id)IKeyboardUIService;
+- (id)UIKeyboardUIService;
 - (void)ÿßËàÂl;
 
 @end

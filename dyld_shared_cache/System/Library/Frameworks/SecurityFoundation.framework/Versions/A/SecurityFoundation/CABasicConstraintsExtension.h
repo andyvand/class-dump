@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CABasicConstraintsExtension
 {
     int _caBasicConstraintsPresent;
-    int _caIsCertAuthority;
-    int _caPathLengthConstraintPresent;
-    NSNumber *_caPathLength;
-    int _caCertAuthorityBasicConstraintsPresent;
-    int _caCertAuthorityIsCertAuthority;
-    int _caCertAuthorityPathLengthConstraintPresent;
-    int _caCertAuthorityPathLength;
-    int _caUserBasicConstraintsPresent;
-    int _caUserIsCertAuthority;
-    int _caUserPathLengthConstraintPresent;
-    int _caUserPathLength;
-    _Bool _caDoneCABasicConstraintsExts;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (int);
 - (id);
@@ -39,7 +25,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 @end
 

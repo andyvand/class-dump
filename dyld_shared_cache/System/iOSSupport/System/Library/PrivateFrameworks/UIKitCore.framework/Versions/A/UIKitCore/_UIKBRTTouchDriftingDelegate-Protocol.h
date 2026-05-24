@@ -9,7 +9,7 @@
 @protocol _UIKBRTTouchDriftingDelegate
 - (unsigned long long)ation on the drop animation container view that never began;
 - (void)Search controller:(_UIKBRTTouchDrifting *)arg1;
-- (NSSet *)nctionallyFullScren;
+- (NSSet *)IsFunctionallyFullScren;
 - (struct CGPoint);
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TSWPTextWrap
+- (double);
 @end
 

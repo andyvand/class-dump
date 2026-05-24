@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSPasteboardWriting;
+
 @protocol NSTableViewDataSource
+
+@optional
+- (void);
+- (id <NSPasteboardWriting>);
+- (long long)8B њL;
 @end
 

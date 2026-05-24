@@ -9,20 +9,18 @@
 @interface IKFSEvent
 {
     NSString *_path;
-    unsigned long long _eventType;
 }
 
-+ (id);
++ (id)@;
 - (id);
-- (id);
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (void)UI;
+- (void)!;
+- (id);
+- (void)updateScannerDeviceUI;
 
 // Remaining properties
-@property unsigned long long eventType; // @synthesize eventType=_eventType;
 @property(copy) NSString *path; // @synthesize path=_path;
 
 @end

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id){public,uuid_t}.16P] Sending snapshot received confirmation to the sender;
-- (void)DueToError;
+- (void)numUsersSharedBackingStoreNotRunningDueToError;
 
 // Remaining properties
 @property(readonly, copy) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;

@@ -4,43 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOSnapScoreSegment
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_attributes;
-    NSMutableArray *_categoryScores;
-    unsigned long long _geoId;
-    GEOLatLng *_pointOnLine;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _overallScore;
-    struct {
-        unsigned int has_geoId:1;
-        unsigned int has_overallScore:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributes:1;
-        unsigned int read_categoryScores:1;
-        unsigned int read_pointOnLine:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)stionsPoiRevelanceScore:(id)arg1;
++ (_Bool)setMapsSuggestionsPoiRevelanceScore:(id)arg1;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)__DATA_DIRTY;
 - (float);
-- (_Bool);
-- (_Bool);
+- (_Bool)attributesByName;
+- (_Bool)enabledAccounts;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -56,35 +38,27 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)_twoShotStartTime;
+- (void)igger should be %{public}@ with reason:%{public}@. Existing assertions (%{public}lu):%{public}@; times:%{public}@ vs %{public}f /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)moveToMapItem:wantsCloseUpView:orMuninMarker:withHeading:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id)te"@?@"<GEOTransitDepartureSequence>">40;
 - (void)hResultSectionCellType"b1"has_searchResultSectionType"b1"read_unknownFields"b1"read_resolvedItems"b1"read_sectionHeaderDisplayName"b1"read_sectionSubHeaderDisplayNameWithEnrichment"b1"read_sectionSubHeaderDisplayName"b1"read_styleAttributes"b1"wrote_anyField"b1};
-- (id)ustryCategory;
-- (id)tegories;
-- (id)ILTER;
+- (id)hasIndustryCategory;
+- (id)GEOPDMiniBrowseCategories;
+- (id)CANDIDATE_FILTER_REASON_TYPE_UNSATISFIED_TOP_RATED_FILTER;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributes;
-@property(retain, nonatomic) NSMutableArray *categoryScores;
-@property(nonatomic) unsigned long long geoId;
 @property(nonatomic) _Bool hasGeoId;
-@property(nonatomic) _Bool hasOverallScore;
-@property(readonly, nonatomic) _Bool hasPointOnLine;
-@property(nonatomic) float overallScore;
-@property(retain, nonatomic) GEOLatLng *pointOnLine;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

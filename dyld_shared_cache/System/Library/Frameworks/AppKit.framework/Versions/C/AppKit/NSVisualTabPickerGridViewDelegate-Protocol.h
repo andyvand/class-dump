@@ -5,5 +5,10 @@
 //
 
 @protocol NSVisualTabPickerGridViewDelegate
+
+@optional
+- (void)!;
+- (void)A;
+- (void);
 @end
 

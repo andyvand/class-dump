@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber;
-
 @interface PXStoryProducerResult
 {
     id _object;
-    unsigned long long _flags;
-    NSNumber *_fractionCompleted;
-    NSError *_error;
-    double _productionDuration;
 }
 
 + (id);
@@ -34,12 +28,7 @@
 - (void)YB´ÄXqÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSNumber *fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property(readonly, nonatomic) _Bool isDegraded;
 @property(readonly, nonatomic) id object; // @synthesize object=_object;
-@property(readonly, nonatomic) double productionDuration; // @synthesize productionDuration=_productionDuration;
 
 @end
 

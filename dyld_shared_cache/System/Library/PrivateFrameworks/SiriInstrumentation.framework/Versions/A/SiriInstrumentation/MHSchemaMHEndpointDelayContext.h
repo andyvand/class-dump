@@ -6,26 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHEndpointDelayContext : SISchemaInstrumentationMessage
 {
     unsigned long long _speakingStartInNs;
-    unsigned long long _speakingEndInNs;
-    unsigned long long _endpointDelayInNs;
-    unsigned long long _endpointModelDelayInNs;
-    unsigned long long _endpointDelayInNsV2;
-    struct {
-        unsigned int speakingStartInNs:1;
-        unsigned int speakingEndInNs:1;
-        unsigned int endpointDelayInNs:1;
-        unsigned int endpointModelDelayInNs:1;
-        unsigned int endpointDelayInNsV2:1;
-    } _has;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)*	;
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -46,11 +33,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)R#;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tory.MoIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -61,16 +48,6 @@
 - (id),N,V_executorError;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endpointDelayInNs; // @synthesize endpointDelayInNs=_endpointDelayInNs;
-@property(nonatomic) unsigned long long endpointDelayInNsV2; // @synthesize endpointDelayInNsV2=_endpointDelayInNsV2;
-@property(nonatomic) unsigned long long endpointModelDelayInNs; // @synthesize endpointModelDelayInNs=_endpointModelDelayInNs;
-@property(nonatomic) _Bool hasEndpointDelayInNs;
-@property(nonatomic) _Bool hasEndpointDelayInNsV2;
-@property(nonatomic) _Bool hasEndpointModelDelayInNs;
-@property(nonatomic) _Bool hasSpeakingEndInNs;
-@property(nonatomic) _Bool hasSpeakingStartInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long speakingEndInNs; // @synthesize speakingEndInNs=_speakingEndInNs;
 @property(nonatomic) unsigned long long speakingStartInNs; // @synthesize speakingStartInNs=_speakingStartInNs;
 
 @end

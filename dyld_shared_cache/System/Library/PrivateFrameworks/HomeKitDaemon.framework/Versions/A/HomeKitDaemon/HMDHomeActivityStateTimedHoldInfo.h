@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (id)bag update;
-- (void)ntrollers;
+- (void)autoConfigureNewTargetControllers;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

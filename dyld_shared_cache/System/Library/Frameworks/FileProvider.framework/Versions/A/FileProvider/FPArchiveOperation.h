@@ -6,37 +6,30 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, FPItemID, NSArray, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface FPArchiveOperation : FPActionOperation
 {
     NSArray *_items;
-    FPItemID *_placeholderID;
-    FPItem *_destinationFolder;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSOperationQueue *_operationQueue;
-    CDUnknownBlockType _archiveCompletionBlock;
-    unsigned long long _archiveFormat;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -45,7 +38,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType archiveCompletionBlock; // @synthesize archiveCompletionBlock=_archiveCompletionBlock;
-@property(nonatomic) unsigned long long archiveFormat; // @synthesize archiveFormat=_archiveFormat;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface AVDateRangeMetadataGroupInternal
 {
     NSDate *startDate;
-    NSDate *endDate;
-    NSArray *metadataItems;
-    NSString *classifyingLabel;
-    NSString *uniqueID;
-    NSString *cueingOptions;
-    NSDate *discoveryTimestamp;
-    NSDate *modificationTimestamp;
-    NSDictionary *extraFigProperties;
 }
 
 @end

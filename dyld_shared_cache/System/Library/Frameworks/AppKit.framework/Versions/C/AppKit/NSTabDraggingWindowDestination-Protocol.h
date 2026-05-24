@@ -9,6 +9,6 @@
 @protocol NSTabDraggingWindowDestination
 
 @optional
-- (id <NSTabDraggingDestination>)ewControllerTextAlignmentAndJustificationComponent;
+- (id <NSTabDraggingDestination>)_NSTextFormattingViewControllerTextAlignmentAndJustificationComponent;
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServiceMonitor, NSMutableSet;
+@class IDSServiceMonitor;
 
 @interface IDSServiceContainer
 {
     IDSServiceMonitor *_monitor;
-    NSMutableSet *_listeners;
 }
 
 - (void);
-- (id);
+- (id)UserSafetyIntervention;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -23,7 +22,6 @@
 - (id)ì4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *listeners; // @synthesize listeners=_listeners;
 @property(retain, nonatomic) IDSServiceMonitor *monitor; // @synthesize monitor=_monitor;
 
 @end

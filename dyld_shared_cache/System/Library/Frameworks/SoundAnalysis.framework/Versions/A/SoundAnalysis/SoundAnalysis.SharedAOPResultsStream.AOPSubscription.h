@@ -7,9 +7,6 @@
 @interface SoundAnalysis.SharedAOPResultsStream.AOPSubscription
 {
     id trackingID;
-    id analytics;
-    id connect;
-    id client;
 }
 
 @end

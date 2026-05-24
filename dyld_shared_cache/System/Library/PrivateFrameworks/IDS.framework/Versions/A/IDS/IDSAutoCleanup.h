@@ -7,10 +7,9 @@
 @interface IDSAutoCleanup
 {
     CDUnknownBlockType _cleanupBlock;
-    int _accessCount;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)0@ù

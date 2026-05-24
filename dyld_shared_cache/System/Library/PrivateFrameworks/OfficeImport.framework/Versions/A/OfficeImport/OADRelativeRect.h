@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface OADRelativeRect
 {
     float mLeft;
-    float mTop;
-    float mRight;
-    float mBottom;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__DATA;
 - (unsigned long long);
 - (float);
 - (void);

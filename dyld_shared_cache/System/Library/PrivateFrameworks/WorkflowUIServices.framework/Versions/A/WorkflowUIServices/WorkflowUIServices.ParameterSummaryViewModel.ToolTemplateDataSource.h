@@ -7,7 +7,6 @@
 @interface WorkflowUIServices.ParameterSummaryViewModel.ToolTemplateDataSource
 {
     id toolInvocation;
-    id sessionBackend;
 }
 
 @end

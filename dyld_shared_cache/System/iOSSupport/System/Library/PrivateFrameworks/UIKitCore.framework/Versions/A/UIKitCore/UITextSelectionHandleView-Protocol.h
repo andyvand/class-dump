@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath;
-
 @protocol UITextSelectionHandleView
+- (void)(;
+- (_Bool);
 - (unsigned long long)	
 HIJK;
 - (void)Collection view:(unsigned long long)arg1 %@ This will become an assert in a future version.;
 
 // Remaining properties
-@property(retain, nonatomic) UIBezierPath *customShape;
 @property(nonatomic) unsigned long long direction;
-@property(readonly, nonatomic, getter=isVertical) _Bool vertical;
 @end
 

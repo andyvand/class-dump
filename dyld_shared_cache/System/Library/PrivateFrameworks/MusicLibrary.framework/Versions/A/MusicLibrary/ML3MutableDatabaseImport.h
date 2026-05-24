@@ -6,51 +6,32 @@
 
 #import <MusicLibrary/ML3DatabaseImport.h>
 
-@class NSData, NSFileHandle, NSString;
+@class NSString;
 
 @interface ML3MutableDatabaseImport : ML3DatabaseImport
 {
 }
 
+- (void)_atomicPhotoLibraries;
+- (void)_asyncRefCountLock;
+- (void)originalImageEXIFOrientation:(id)arg1 renderedImageFilePath:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_assetUUIDByAssetIdWithAssetIdsStatement;
+- (void)_assetIdsForDateFilter;
+- (void)_assetIDsWithRequiredPersonsPresentWithAssetIDs:(id)arg1 minimumNumberOfSharedAssets:error: /* Error: Ran out of types for this method. */;
+- (void)DsByAssetID:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_assetIDsNeedingContainmentUpdates;
+- (void)_assetAdjustmentsFromCameraAdjustmentData:(_Bool)arg1 cameraMetadata:exportProperties:assetType:applySemanticEnhance:sourceURL: /* Error: Ran out of types for this method. */;
+- (void)_argumentsDictionaryFromXPCEvent:(unsigned int)arg1;
+- (void)editorialUpdate;
+- (void)F;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *albumArtistData; // @dynamic albumArtistData;
-@property(copy, nonatomic) NSData *albumData; // @dynamic albumData;
-@property(nonatomic) _Bool clientInitiatedReset; // @dynamic clientInitiatedReset;
-@property(retain, nonatomic) NSFileHandle *fileHandle; // @dynamic fileHandle;
-@property(nonatomic) unsigned int homeSharingBasePlaylistID; // @dynamic homeSharingBasePlaylistID;
-@property(nonatomic) _Bool isServerImport; // @dynamic isServerImport;
 @property(copy, nonatomic) NSString *libraryPath; // @dynamic libraryPath;
-@property(nonatomic) _Bool pairedDeviceCanProcessStandaloneCollections; // @dynamic pairedDeviceCanProcessStandaloneCollections;
-@property(nonatomic, getter=isPendingMatch) _Bool pendingMatch; // @dynamic pendingMatch;
-@property(copy, nonatomic) NSData *playlistData; // @dynamic playlistData;
-@property(nonatomic) _Bool playlistsAreLibraryOwnedContent; // @dynamic playlistsAreLibraryOwnedContent;
-@property(nonatomic) long long preferredVideoQuality; // @dynamic preferredVideoQuality;
-@property(nonatomic, getter=isResetSync) _Bool resetSync; // @dynamic resetSync;
-@property(nonatomic, getter=isSagaEnabled) _Bool sagaEnabled; // @dynamic sagaEnabled;
-@property(nonatomic) long long storeAccountID; // @dynamic storeAccountID;
-@property(nonatomic, getter=isSuspendable) _Bool suspendable; // @dynamic suspendable;
-@property(copy, nonatomic) NSString *syncAnchor; // @dynamic syncAnchor;
-@property(copy, nonatomic) NSString *syncLibraryID; // @dynamic syncLibraryID;
-@property(copy, nonatomic) NSData *trackData; // @dynamic trackData;
-@property(nonatomic) _Bool tracksAreLibraryOwnedContent; // @dynamic tracksAreLibraryOwnedContent;
 
 @end
 

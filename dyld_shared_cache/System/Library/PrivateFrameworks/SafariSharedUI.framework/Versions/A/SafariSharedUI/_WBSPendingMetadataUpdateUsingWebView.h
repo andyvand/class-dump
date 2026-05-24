@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, WKWebView;
+@class WKWebView;
 
 @interface _WBSPendingMetadataUpdateUsingWebView
 {
     WKWebView *_webView;
-    NSURL *_url;
 }
 
-- (id);
+- (id)@9;
 - (id);
 - (void)_cachedTranslationAvailableInCurrentRegion;
 - (id)pe.hasOwnProperty.call(t,SchemaDataExtractor.containsSchemaOrgKey)},extractSchemaValuesFromSchemaOrg:function(){let t=this.extractAllSchemaValuesFromMicroData(),e=this.extractFilteredSchemaValuesFromMicroData();return this.resultHasAddressOrTelephone(e)||(e=this.extractFilteredSchemaValuesFromJSONLD()),this.resultHasAddressOrTelephone(t)||(t=this.extractAllSchemaValuesFromJSONLD()),(this.resultHasAddressOrTelephone(e)||this.resultHasSchemaOrgInfo(e))&&(e.url=location.href),[e,t]}},"undefined"==typeof SchemaDataExtractorJS&&(SchemaDataExtractorJS=new SchemaDataExtractor),SchemaDataExtractorJS.extractSchemaValuesFromSchemaOrg(); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(readonly, nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end

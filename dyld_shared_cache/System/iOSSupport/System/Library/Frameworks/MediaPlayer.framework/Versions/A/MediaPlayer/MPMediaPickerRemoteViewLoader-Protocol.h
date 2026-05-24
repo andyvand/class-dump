@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaPickerController, UIViewController;
+@class MPMediaPickerController;
 
 @protocol MPMediaPickerRemoteViewLoader
+- (MPMediaPickerController *);
 
 // Remaining properties
 @property(nonatomic) __weak MPMediaPickerController *mediaPickerController;
-@property(readonly, nonatomic) UIViewController *remoteViewController;
 @end
 

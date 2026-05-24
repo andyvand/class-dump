@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackRequestParameters, GEORPProblem, NSString;
+@class GEORPFeedbackRequestParameters, NSString;
 
 @interface MKWalletRAPReport
 {
     GEORPFeedbackRequestParameters *_feedbackRequestParameters;
-    GEORPFeedbackRequestParameters *_requestParameters;
-    GEORPProblem *_problem;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)terval = %f, minInterval = %f
+;
+- (void)nged:(unsigned long long)arg1 Unregistering for %@ notification;
+- (id)dropped;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)handleDescriptorEvent:descriptorSelector:delegateSelector:delegateFlag: /* Error: Ran out of types for this method. */;
+- (_Bool)_statsPacketP50Max;
+- (id)My:%s  /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)Alignment: /* Error: Ran out of types for this method. */;
+- (void)setAlignment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *correlationId;
-@property(nonatomic) _Bool isAppleCard;
-@property(nonatomic) unsigned long long lookupTransactionType;
 @property(copy, nonatomic) NSString *merchantAdamId;
-@property(readonly, nonatomic) GEORPProblem *problem; // @synthesize problem=_problem;
-@property(copy, nonatomic) NSString *reportersComment;
-@property(readonly, nonatomic) GEORPFeedbackRequestParameters *requestParameters; // @synthesize requestParameters=_requestParameters;
 
 @end
 

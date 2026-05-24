@@ -7,17 +7,12 @@
 @interface AppKit.OrbitalColorView.CogOrbitLayer__priv_94CD9C654273D2530C10CAAB53C2FA54
 {
     id clockwiseCog;
-    id counterClockwiseCog;
-    id container;
-    id colors;
-    id period;
-    id relativeCogSpeed;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)aring;
+- (void)WindowSharing;
 - (void);
 
 @end

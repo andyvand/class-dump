@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface EFXPCAlarmScheduler
 {
     NSMapTable *_alarms;
-    NSMutableSet *_pendingEvents;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _test_schedulerObserver;
 }
 
-+ (id);
-- (CDUnknownBlockType);
-- (void);
++ (id)`;
+- (CDUnknownBlockType)prominentPlayButtonContainerView;
+- (void)h;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tSegmentDataTimestamp %d).;
 - (void);
 - (void);
 - (void);

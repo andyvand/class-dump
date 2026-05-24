@@ -7,12 +7,10 @@
 @interface ControlCenter.Preferences.KVOProxy__priv_4594EF6CB5B512FEE8A37227EC8D52EB
 {
     id __lock;
-    id subjects;
-    id userDefaults;
 }
 
 - (id);
-- (void);
+- (void)P;
 - (void);
 
 @end

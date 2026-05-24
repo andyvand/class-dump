@@ -9,21 +9,19 @@
 @interface PILongExposureRegistrationRequest
 {
     NSDictionary *_recipe;
-    CDStruct_996ac03c _cleanAperture;
 }
 
 - (id);
 - (long long);
 - (void);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e)|;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ExportFormat: /* Error: Ran out of types for this method. */;
+- (void)setImageExportFormat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDStruct_996ac03c cleanAperture; // @synthesize cleanAperture=_cleanAperture;
 @property(copy, nonatomic) NSDictionary *recipe; // @synthesize recipe=_recipe;
 
 @end

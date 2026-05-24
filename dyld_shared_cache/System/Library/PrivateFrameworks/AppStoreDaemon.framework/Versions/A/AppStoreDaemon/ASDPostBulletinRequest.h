@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)KECHAINBACKUP_COMPLEX_SECURITY_CODE_ERROR_LABEL;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDPostBulletinRequestOptions *options; // @dynamic options;

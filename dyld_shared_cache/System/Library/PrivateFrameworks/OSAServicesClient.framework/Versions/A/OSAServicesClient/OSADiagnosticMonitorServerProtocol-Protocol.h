@@ -5,5 +5,7 @@
 //
 
 @protocol OSADiagnosticMonitorServerProtocol
+- (void);
+- (void);
 @end
 

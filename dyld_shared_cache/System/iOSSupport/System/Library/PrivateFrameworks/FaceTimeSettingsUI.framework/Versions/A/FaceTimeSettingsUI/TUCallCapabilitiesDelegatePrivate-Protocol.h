@@ -5,5 +5,8 @@
 //
 
 @protocol TUCallCapabilitiesDelegatePrivate
+
+@optional
+- (void);
 @end
 

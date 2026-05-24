@@ -4,55 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, W5WiFiChannel;
+@class NSDictionary;
 
 @interface W5WiFiScanResult
 {
     _Bool _isIBSS;
-    _Bool _isPasspoint;
-    _Bool _isPersonalHotspot;
-    _Bool _isAppleSWAP;
-    _Bool _supportsWEPCipher;
-    _Bool _supportsTKIPCipher;
-    int _supportedPHYModes;
-    NSDictionary *_scanRecord;
-    NSData *_ssid;
-    NSString *_ssidString;
-    NSString *_bssid;
-    NSArray *_supportedSecurityTypes;
-    long long _rssi;
-    long long _noise;
-    NSString *_countryCode;
-    long long _beaconInterval;
-    NSString *_airPortBaseStationModelName;
-    W5WiFiChannel *_channel;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);e;
+- (void)initWithExperimentResolver:(id)arg1 metricsLogger: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)143489;
+- (_Bool)o start fetching on an LPMetadataProvider that has already started. LPMetadataProvider is a one-shot object.;
 - (id);
-- (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)obscuredArea;
 - (_Bool);
 - (long long);
 - (_Bool);
 - (long long);
 - (int);
 - (int);
-- (void);
-- (void);
+- (void);
+- (void)ification to reload the keychain. Error:(int)arg1 %@;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -64,13 +47,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)autoupdatingCurrentLocale;
+- (void)DictationIMMessageTracesSinceLastReport;
 - (id);
 - (void);
 - (long long);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -78,27 +61,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)Logger.framework/Versions/A/FeedbackLogger;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *airPortBaseStationModelName; // @synthesize airPortBaseStationModelName=_airPortBaseStationModelName;
-@property(nonatomic) long long beaconInterval; // @synthesize beaconInterval=_beaconInterval;
-@property(copy, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(copy, nonatomic) W5WiFiChannel *channel; // @synthesize channel=_channel;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) _Bool isAppleSWAP; // @synthesize isAppleSWAP=_isAppleSWAP;
-@property(nonatomic) _Bool isIBSS; // @synthesize isIBSS=_isIBSS;
-@property(nonatomic) _Bool isPasspoint; // @synthesize isPasspoint=_isPasspoint;
-@property(nonatomic) _Bool isPersonalHotspot; // @synthesize isPersonalHotspot=_isPersonalHotspot;
-@property(nonatomic) long long noise; // @synthesize noise=_noise;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
 @property(copy, nonatomic) NSDictionary *scanRecord; // @synthesize scanRecord=_scanRecord;
-@property(copy, nonatomic) NSData *ssid; // @synthesize ssid=_ssid;
-@property(copy, nonatomic) NSString *ssidString; // @synthesize ssidString=_ssidString;
-@property(nonatomic) int supportedPHYModes; // @synthesize supportedPHYModes=_supportedPHYModes;
-@property(copy, nonatomic) NSArray *supportedSecurityTypes; // @synthesize supportedSecurityTypes=_supportedSecurityTypes;
-@property(nonatomic) _Bool supportsTKIPCipher; // @synthesize supportsTKIPCipher=_supportsTKIPCipher;
-@property(nonatomic) _Bool supportsWEPCipher; // @synthesize supportsWEPCipher=_supportsWEPCipher;
 
 @end
 

@@ -80,7 +80,7 @@ struct BluetoothBroadcomSetEventMask {
 };
 
 struct BluetoothDeviceAddress {
-    unsigned char data[6];
+    unsigned char _field1[6];
 };
 
 struct BluetoothEventFilterCondition {
@@ -388,11 +388,6 @@ struct OpaquePrivOBEXSessionData {
     unsigned char _field5;
 };
 
-struct PDUQueueElement {
-    char *_field1;
-    struct PDUQueueElement *_field2;
-};
-
 struct ReportInfo {
     int _field1;
     int _field2;
@@ -413,8 +408,8 @@ struct SMPTETime {
 };
 
 struct UnsignedWide {
-    unsigned int lo;
-    unsigned int hi;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct _IOBluetoothRingBuffer {
@@ -423,19 +418,15 @@ struct _IOBluetoothRingBuffer {
     unsigned char _field3[1];
 };
 
-struct _IODataQueueEntry {
-    unsigned int _field1;
-    unsigned char _field2[4];
-};
-
-struct _IODataQueueMemory {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    struct _IODataQueueEntry _field4[1];
-};
-
 #pragma mark Typedef'd Structures
+
+typedef struct {
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    unsigned char _field5;
+} CDStruct_de0e5961;
 
 typedef struct {
     unsigned char _field1[22];

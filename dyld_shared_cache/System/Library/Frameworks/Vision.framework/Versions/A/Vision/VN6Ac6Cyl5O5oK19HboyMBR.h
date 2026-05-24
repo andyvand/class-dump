@@ -26,9 +26,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)placeholderWithName:(id)arg1 typeIdentifier:(id *)arg2 contentAccessDate:underParent:inProviderDomainID: /* Error: Ran out of types for this method. */;
+- (id)_desiredSizeToScale;
+- (unsigned long long);
 - (_Bool);
 - (void);
 

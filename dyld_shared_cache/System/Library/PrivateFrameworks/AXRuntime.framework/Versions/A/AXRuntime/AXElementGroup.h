@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXElement, NSArray, NSHashTable, NSString;
+@class NSArray;
 @protocol AXElementGroupGenerator;
 
 @interface AXElementGroup
 {
     NSArray *_elementStore;
-    _Bool _rootGroup;
-    id <AXElementGroupGenerator> _generator;
-    unsigned long long _groupTraits;
-    unsigned long long _userDefinedScanningBehaviorTraits;
-    NSHashTable *_groupObservers;
-    AXElementGroup *_parentGroup;
-    AXElement *_elementCommunity;
-    NSString *_label;
-    NSString *_identifier;
 }
 
 + (id);
@@ -51,7 +42,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,41 +53,42 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)-;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P@�XA�`B�hC�pD�$Em
+,Fm4Gm<Hm-;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
+- (void)Library/PrivateFrameworks/AppSSOUI.framework/Versions/A/AppSSOUI;
+- (unsigned long long)V_alpha;
+- (id);
+- (_Bool)parser:(id)arg1 didStartElementType: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (id);
 - (void);
@@ -109,29 +101,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsChangingExistingGroupingOfContents;
-@property(readonly, nonatomic) _Bool allowsVisualGroupingOfChildren;
-@property(readonly, nonatomic) _Bool canBeGroupedWithOtherGroupables;
-@property(readonly, nonatomic) _Bool canBeReplacedByChildren;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AXElement *elementCommunity; // @synthesize elementCommunity=_elementCommunity;
-@property(readonly, nonatomic) struct CGRect frame;
 @property(nonatomic) __weak id <AXElementGroupGenerator> generator; // @synthesize generator=_generator;
-@property(retain, nonatomic) NSHashTable *groupObservers; // @synthesize groupObservers=_groupObservers;
-@property(nonatomic) unsigned long long groupTraits; // @synthesize groupTraits=_groupTraits;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) unsigned long long numberOfElements;
-@property(nonatomic) AXElementGroup *parentGroup; // @synthesize parentGroup=_parentGroup;
-@property(nonatomic, getter=isRootGroup) _Bool rootGroup; // @synthesize rootGroup=_rootGroup;
-@property(readonly, nonatomic) _Bool shouldBeUngrouped;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long userDefinedScanningBehaviorTraits; // @synthesize userDefinedScanningBehaviorTraits=_userDefinedScanningBehaviorTraits;
 
 @end
 

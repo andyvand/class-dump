@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURLSession;
+@class NSURLSession;
 
 @interface CRKInternetDateProvider
 {
     NSURLSession *_session;
-    NSMutableDictionary *_completionHandlerTable;
 }
 
 - (void);
@@ -18,22 +17,14 @@
 - (id);
 - (void);
 - (void);
+- (id)PNOScanSSID5GDuration;
 - (id);
-- (id);
-- (void);
+- (void)enabledForDADataclass:(id)arg1;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *completionHandlerTable; // @synthesize completionHandlerTable=_completionHandlerTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface MAAutoAssetSetPolicy
 {
     _Bool _userInitiated;
-    _Bool _lockInhibitsEmergencyRemoval;
-    _Bool _supportingShortTermLocks;
-    _Bool _allowCheckDownloadOnBattery;
-    _Bool _allowCheckDownloadWhenBatteryLow;
-    _Bool _allowCheckDownloadWhenCPUHigh;
-    _Bool _allowCheckDownloadOverExpensive;
-    _Bool _allowCheckDownloadOverCellular;
-    _Bool _blockCheckDownload;
-    _Bool _blockCheckDownloadWhenRecentUserActivity;
-    _Bool _preferCheckDownloadOverWiFi;
-    _Bool _restrictCheckDownloadToNetwork;
-    NSDictionary *_additionalPolicyControl;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)PW;
 - (void);
 - (void);
 - (void);
@@ -35,7 +21,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,31 +31,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)matchTools;
 - (id);
 - (void);
+- (id);
+- (_Bool), While processing hint, %{sensitive}@, near location, %{sensitive}@, an error, %@ was observed, %@;
 - (void);
-- (_Bool)roups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (_Bool)_stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion: /* Error: Ran out of types for this method. */;
 - (void)atomicEntry:(_Bool)arg1 %{public}@ | errno:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalPolicyControl; // @synthesize additionalPolicyControl=_additionalPolicyControl;
-@property(nonatomic) _Bool allowCheckDownloadOnBattery; // @synthesize allowCheckDownloadOnBattery=_allowCheckDownloadOnBattery;
-@property(nonatomic) _Bool allowCheckDownloadOverCellular; // @synthesize allowCheckDownloadOverCellular=_allowCheckDownloadOverCellular;
-@property(nonatomic) _Bool allowCheckDownloadOverExpensive; // @synthesize allowCheckDownloadOverExpensive=_allowCheckDownloadOverExpensive;
-@property(nonatomic) _Bool allowCheckDownloadWhenBatteryLow; // @synthesize allowCheckDownloadWhenBatteryLow=_allowCheckDownloadWhenBatteryLow;
-@property(nonatomic) _Bool allowCheckDownloadWhenCPUHigh; // @synthesize allowCheckDownloadWhenCPUHigh=_allowCheckDownloadWhenCPUHigh;
-@property(nonatomic) _Bool blockCheckDownload; // @synthesize blockCheckDownload=_blockCheckDownload;
-@property(nonatomic) _Bool blockCheckDownloadWhenRecentUserActivity; // @synthesize blockCheckDownloadWhenRecentUserActivity=_blockCheckDownloadWhenRecentUserActivity;
-@property(nonatomic) _Bool lockInhibitsEmergencyRemoval; // @synthesize lockInhibitsEmergencyRemoval=_lockInhibitsEmergencyRemoval;
-@property(nonatomic) _Bool preferCheckDownloadOverWiFi; // @synthesize preferCheckDownloadOverWiFi=_preferCheckDownloadOverWiFi;
-@property(nonatomic) _Bool restrictCheckDownloadToNetwork; // @synthesize restrictCheckDownloadToNetwork=_restrictCheckDownloadToNetwork;
-@property(nonatomic) _Bool supportingShortTermLocks; // @synthesize supportingShortTermLocks=_supportingShortTermLocks;
 @property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end

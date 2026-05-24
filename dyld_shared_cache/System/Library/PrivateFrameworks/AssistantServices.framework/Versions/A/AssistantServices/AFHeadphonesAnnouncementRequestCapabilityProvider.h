@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFNotifyObserver, AFSettingsConnection, AFSiriAudioRoute, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class AFSiriAudioRoute;
 
 @interface AFHeadphonesAnnouncementRequestCapabilityProvider
 {
     _Bool _localVoiceAssetAvailable;
-    AFSettingsConnection *_settingsConnection;
-    AFNotifyObserver *_pairedInfoChangeObserver;
-    AFNotifyObserver *_forcedUpdateObserver;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    unsigned long long _lastKnownAvailableAnnouncementRequests;
-    unsigned long long _lastKnownEligibleAnnouncementRequests;
-    NSHashTable *_delegates;
-    AFSiriAudioRoute *_currentAnnouncementRoute;
 }
 
 + (id);
 + (id);
 + (long long);
 + (id);
+- (void)al %@, but it isn't deletable;
+- (void)ers since there is no baseURL;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -46,20 +36,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ActionAppId;
 
 // Remaining properties
 @property(retain, nonatomic) AFSiriAudioRoute *currentAnnouncementRoute; // @synthesize currentAnnouncementRoute=_currentAnnouncementRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

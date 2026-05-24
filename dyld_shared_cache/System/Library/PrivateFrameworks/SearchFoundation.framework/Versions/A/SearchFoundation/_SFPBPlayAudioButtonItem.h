@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAudioData, _SFPBMediaMetadata, _SFPBToggleButtonConfiguration;
+@class _SFPBMediaMetadata;
 
 @interface _SFPBPlayAudioButtonItem
 {
     _SFPBMediaMetadata *_mediaMetadata;
-    _SFPBToggleButtonConfiguration *_toggleButtonConfiguration;
-    _SFPBAudioData *_audioData;
-    unsigned long long _uniqueId;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)preferredAttributesForMemoryCreationFromAssetCollection:(id)arg1 proposedAttributes: /* Error: Ran out of types for this method. */;
+- (id)estion (%@) - most recent suggestion among the %lu suggestions matching NLP context;
 - (id);
 - (id);
 - (void)ù
@@ -35,18 +32,7 @@
 - (void)rtcutsItem"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAudioData *audioData; // @synthesize audioData=_audioData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration; // @synthesize toggleButtonConfiguration=_toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

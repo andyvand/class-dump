@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VCAudioUnitSpatialContext;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioUnitProperties
 {
     struct tagVCAudioFrameFormat _frameFormatMic;
-    struct tagVCAudioFrameFormat _frameFormatSpeaker;
-    unsigned int _audioUnitType;
-    _Bool _allowAudioRecording;
-    int _operatingMode;
-    unsigned int _vpOperatingMode;
-    _Bool _vpEnableSpatialChat;
-    int _deviceRole;
-    _Bool _isFarEndVersionInfoValid;
-    struct VoiceIOFarEndVersionInfo _farEndVersionInfo;
-    unsigned int _remoteCodecType;
-    double _remoteCodecSampleRate;
-    _Bool _enableDNNVAD;
-    unsigned int _audioSessionId;
-    VCAudioUnitSpatialContext *_spatialContext;
-    NSArray *_processIdentifiersForAudioTap;
-    long long _muteBehaviorForAudioTap;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
 - (id);
 - (int);
-- (long long);
+- (long long)R;
 - (_Bool);
 - (struct tagVCAudioFrameFormat *);
 - (struct tagVCAudioFrameFormat *);
@@ -63,23 +45,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAudioRecording; // @synthesize allowAudioRecording=_allowAudioRecording;
-@property(nonatomic) unsigned int audioSessionId; // @synthesize audioSessionId=_audioSessionId;
-@property(nonatomic) unsigned int audioUnitType; // @synthesize audioUnitType=_audioUnitType;
-@property(nonatomic) int deviceRole; // @synthesize deviceRole=_deviceRole;
-@property(nonatomic) _Bool enableDNNVAD; // @synthesize enableDNNVAD=_enableDNNVAD;
-@property(nonatomic) struct VoiceIOFarEndVersionInfo farEndVersionInfo;
 @property(readonly, nonatomic) struct tagVCAudioFrameFormat *frameFormatMic;
-@property(readonly, nonatomic) struct tagVCAudioFrameFormat *frameFormatSpeaker;
-@property(readonly, nonatomic) _Bool isFarEndVersionInfoValid; // @synthesize isFarEndVersionInfoValid=_isFarEndVersionInfoValid;
-@property(nonatomic) long long muteBehaviorForAudioTap; // @synthesize muteBehaviorForAudioTap=_muteBehaviorForAudioTap;
-@property(nonatomic) int operatingMode; // @synthesize operatingMode=_operatingMode;
-@property(copy, nonatomic) NSArray *processIdentifiersForAudioTap; // @synthesize processIdentifiersForAudioTap=_processIdentifiersForAudioTap;
-@property(nonatomic) double remoteCodecSampleRate; // @synthesize remoteCodecSampleRate=_remoteCodecSampleRate;
-@property(nonatomic) unsigned int remoteCodecType; // @synthesize remoteCodecType=_remoteCodecType;
-@property(retain, nonatomic) VCAudioUnitSpatialContext *spatialContext; // @synthesize spatialContext=_spatialContext;
-@property(nonatomic) _Bool vpEnableSpatialChat; // @synthesize vpEnableSpatialChat=_vpEnableSpatialChat;
-@property(nonatomic) unsigned int vpOperatingMode; // @synthesize vpOperatingMode=_vpOperatingMode;
 
 @end
 

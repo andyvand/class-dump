@@ -7,7 +7,6 @@
 @interface SWMediaSettings
 {
     _Bool _fullScreenEnabled;
-    unsigned long long _mediaTypesRequiringUserActionForPlayback;
 }
 
 - (id);
@@ -15,7 +14,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool fullScreenEnabled; // @synthesize fullScreenEnabled=_fullScreenEnabled;
 @property(readonly, nonatomic) unsigned long long mediaTypesRequiringUserActionForPlayback; // @synthesize mediaTypesRequiringUserActionForPlayback=_mediaTypesRequiringUserActionForPlayback;
 
 @end

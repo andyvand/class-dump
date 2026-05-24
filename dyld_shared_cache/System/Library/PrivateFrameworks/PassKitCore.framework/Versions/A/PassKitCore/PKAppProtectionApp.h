@@ -9,20 +9,16 @@
 @interface PKAppProtectionApp
 {
     _Bool _isAppAvailable;
-    NSString *_bundleIdentifier;
-    NSString *_localizedName;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)n/codesign;
 - (void)KeyIdentifier:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _Bool isAppAvailable; // @synthesize isAppAvailable=_isAppAvailable;
-@property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end
 

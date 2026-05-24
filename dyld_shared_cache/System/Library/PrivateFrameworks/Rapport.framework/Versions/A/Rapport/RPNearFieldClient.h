@@ -10,14 +10,6 @@
 @interface RPNearFieldClient
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _tapEventHandler;
-    CDUnknownBlockType _failedDiscovery;
-    CDUnknownBlockType _connectionEstablishedHandler;
-    NSXPCConnection *_xpcCnx;
 }
 
 - (id);
@@ -29,30 +21,24 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType)#;
 - (CDUnknownBlockType);
+- (void)n Choice[;
+- (id)0_66StringEvEFS8_RKS4_EEE;
+- (id);
+- (void)?;
 - (CDUnknownBlockType);
+- (void)-;
 - (void);
-- (id);
-- (id);
+- (id)Q;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)߭;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionEstablishedHandler; // @synthesize connectionEstablishedHandler=_connectionEstablishedHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType failedDiscovery; // @synthesize failedDiscovery=_failedDiscovery;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType tapEventHandler; // @synthesize tapEventHandler=_tapEventHandler;
 @property(readonly, nonatomic) NSXPCConnection *xpcCnx; // @synthesize xpcCnx=_xpcCnx;
 
 @end

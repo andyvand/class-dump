@@ -5,5 +5,8 @@
 //
 
 @protocol KCSharingGroupManagerSubscriberProtocol
+
+@optional
+- (void);
 @end
 

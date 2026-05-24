@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeActivityStateHomePresenceReceiver, NSDate, NSHashTable, NSString;
-@protocol HMDHomeActivityStateAggregatorManager, HMDHomeActivityStateManagerDataSource, HMDHomeActivityStateManagerStorage, HMDHomeUserActivityStatesDetails;
+@protocol HMDHomeUserActivityStatesDetails;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isActivityStateHoldActive;
-    _Bool _isCacheLoaded;
-    unsigned long long _activityState;
-    NSDate *_activityStateHoldEndDate;
-    NSDate *_transitionalStateEndDate;
-    NSHashTable *_observers;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    id <HMDHomeActivityStateManagerStorage> _storage;
-    id <HMDHomeActivityStateAggregatorManager> _homeActivityStateAggregatorManager;
-    HMDHomeActivityStateHomePresenceReceiver *_presenceReceiver;
 }
 
 + (id)s;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ersions/A/IconServices;
+- (id)ks/CoreImage.framework/Versions/A/CoreImage;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)6@"MSPSharedTripSharingIdentity"24;
+- (void)smsStrategyIdentifiers;
+- (void)simulatesClearingDiscardableDataAfterOperations;
+- (void)setSearchType:(id)arg1;
+- (void)historySettingsPath;
+- (id)_reportUserConfirmationOfSharingIdentity;
+- (void)ute (sender provided:(unsigned long long)arg1 %@);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -56,40 +45,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)_submitInactiveLayoutRequestWithOrientedLayout:completion: /* Error: Ran out of types for this method. */;
+- (id)er outputMatteImage];
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id)n is:%@, scheduling retry after %.03f seconds /* Error: Ran out of types for this method. */;
 - (id)e last frame, sending stop stream;
 - (void)erform Wi-Fi reconfiguration for unreachable accessory %@;
 - (id)ift in devices happened): /* Error: Ran out of types for this method. */;
 - (void);
-- (void)LE;
+- (void)BULLETIN_DISMISS_ACTION_TITLE;
 - (void)À;
 - (id)9@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activityState; // @synthesize activityState=_activityState;
-@property(copy, nonatomic) NSDate *activityStateHoldEndDate; // @synthesize activityStateHoldEndDate=_activityStateHoldEndDate;
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <HMDHomeActivityStateAggregatorManager> homeActivityStateAggregatorManager; // @synthesize homeActivityStateAggregatorManager=_homeActivityStateAggregatorManager;
-@property(nonatomic) _Bool isActivityStateHoldActive; // @synthesize isActivityStateHoldActive=_isActivityStateHoldActive;
-@property(nonatomic) _Bool isCacheLoaded; // @synthesize isCacheLoaded=_isCacheLoaded;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) HMDHomeActivityStateHomePresenceReceiver *presenceReceiver; // @synthesize presenceReceiver=_presenceReceiver;
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *transitionalStateEndDate; // @synthesize transitionalStateEndDate=_transitionalStateEndDate;
 @property(readonly, copy) id <HMDHomeUserActivityStatesDetails> userActivityStatesDetails;
 
 @end

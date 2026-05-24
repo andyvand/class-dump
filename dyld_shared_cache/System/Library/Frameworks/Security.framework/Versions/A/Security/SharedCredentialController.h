@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationController, ASAuthorizationPasswordProvider, ASPasswordCredential, NSError, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class ASAuthorizationPasswordProvider;
 
 __attribute__((visibility("hidden")))
 @interface SharedCredentialController
 {
     ASAuthorizationPasswordProvider *_provider;
-    ASAuthorizationController *_controller;
-    ASPasswordCredential *_passwordCredential;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSError *_error;
-    int _result;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (int);
 - (void)ìø´ôÄøÐT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

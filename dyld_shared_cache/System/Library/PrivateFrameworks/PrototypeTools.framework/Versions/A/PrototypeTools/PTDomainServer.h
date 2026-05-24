@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString, PTParameterRecords, PTParameterRecordsPersistenceManager;
+@class NSObject, PTParameterRecords;
 @protocol OS_dispatch_queue;
 
 @interface PTDomainServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_unregisteredClients;
-    NSMutableDictionary *_clientsByDomainID;
-    NSMutableDictionary *_domainInfoByID;
-    NSMutableDictionary *_testRecipeInfoByID;
-    NSMutableDictionary *_settingsArchivesByDomainID;
-    NSMutableSet *_loadedDomainIDs;
-    NSMutableDictionary *_localSettingsByClassName;
-    NSMutableSet *_dirtyDomainIDs;
-    _Bool _persistScheduled;
-    PTParameterRecordsPersistenceManager *_parameterRecordsPersistenceManager;
-    PTParameterRecords *_parameterRecordsOfTunedSettings;
 }
 
 - (id);
@@ -36,44 +25,35 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)$;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)@;
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)/CommerceKit.framework/CommerceKit;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *domainInfoByID;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PTParameterRecords *parameterRecordsOfTunedSettings; // @synthesize parameterRecordsOfTunedSettings=_parameterRecordsOfTunedSettings;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *testRecipeInfoByID;
 
 @end
 

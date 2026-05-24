@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @protocol SFNamedProtobufMessage
+- (NSData *)T9;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *protobufMessageData;
-@property(copy, nonatomic) NSString *protobufMessageName;
 @end
 

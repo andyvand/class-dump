@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, NSObject, PGManager, PHPhotoLibrary, PHUserFeedbackCalculator;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PHANotificationController
 {
     NSObject<OS_os_log> *_loggingConnection;
-    PHPhotoLibrary *_photoLibrary;
-    CPAnalytics *_analytics;
-    PGManager *_graphManager;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
 }
 
 - (_Bool);
@@ -26,8 +22,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void)orKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)arrayForKey: /* Error: Ran out of types for this method. */;
 
 @end
 

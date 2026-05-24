@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSURL;
 @protocol _SFCollaborationItemsRequestDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _SFCollaborationItemsRequest
 {
     _Bool _supportsMultipleCollaboration;
-    _Bool _isURLProviderSupported;
-    id <_SFCollaborationItemsRequestDelegate> _delegate;
-    NSArray *_activityItems;
-    CDUnknownBlockType _completionHandler;
-    NSURL *_managedFileURL;
-    NSMutableArray *_remainingActivityItems;
-    NSMutableArray *_collaborationItems;
 }
 
 - (_Bool);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -37,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -45,14 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)Ö³þÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;
-@property(retain, nonatomic) NSMutableArray *collaborationItems; // @synthesize collaborationItems=_collaborationItems;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(nonatomic) __weak id <_SFCollaborationItemsRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isURLProviderSupported; // @synthesize isURLProviderSupported=_isURLProviderSupported;
-@property(copy, nonatomic) NSURL *managedFileURL; // @synthesize managedFileURL=_managedFileURL;
-@property(retain, nonatomic) NSMutableArray *remainingActivityItems; // @synthesize remainingActivityItems=_remainingActivityItems;
-@property(nonatomic) _Bool supportsMultipleCollaboration; // @synthesize supportsMultipleCollaboration=_supportsMultipleCollaboration;
 
 @end
 

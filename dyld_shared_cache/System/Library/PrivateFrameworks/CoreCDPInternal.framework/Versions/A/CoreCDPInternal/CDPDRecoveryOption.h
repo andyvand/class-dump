@@ -9,26 +9,20 @@
 @interface CDPDRecoveryOption
 {
     NSString *_localizedRecoveryOption;
-    NSString *_telemetryRecoveryOption;
-    CDUnknownBlockType _recoveryHandler;
-    long long _recoveryOptionIndex;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (id)URLCompletionMatchBookmarkData;
+- (void)SHA256Hasher;
+- (void)R!;
+- (void)WBSFluidProgressControllerDelegate;
+- (void)StartPageLinkRecommendationContentItem;
+- (id)StartPageOnboardingCollectionViewItemDelegate;
+- (CDUnknownBlockType)ForYouRecommendationMediator;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedRecoveryOption; // @synthesize localizedRecoveryOption=_localizedRecoveryOption;
-@property(copy, nonatomic) CDUnknownBlockType recoveryHandler; // @synthesize recoveryHandler=_recoveryHandler;
-@property(nonatomic) long long recoveryOptionIndex; // @synthesize recoveryOptionIndex=_recoveryOptionIndex;
-@property(copy, nonatomic) NSString *telemetryRecoveryOption; // @synthesize telemetryRecoveryOption=_telemetryRecoveryOption;
 
 @end
 

@@ -4,60 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPGroupSessionStorage, NSMutableDictionary;
-@protocol MSPSharedTripStorageDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripStorageController
 {
     _Bool _initalisedStoredSessions;
-    id <MSPSharedTripStorageDelegate> _delegate;
-    MSPGroupSessionStorage *_senderSessionStorage;
-    NSMutableDictionary *_sharedTripGroupSessionInfo;
-    NSMutableDictionary *_receiverRules;
-    NSMutableDictionary *_senderRules;
 }
 
 + (void);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)?;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id)K;
+- (void)B;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)NSAccessibility8NSObjectP18FI_TTitleViewBadgeE3$_1;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)safari_userVisibleHostOrExtensionDisplayName;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MSPSharedTripStorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableDictionary *receiverRules; // @synthesize receiverRules=_receiverRules;
-@property(retain, nonatomic) NSMutableDictionary *senderRules; // @synthesize senderRules=_senderRules;
-@property(retain, nonatomic) MSPGroupSessionStorage *senderSessionStorage; // @synthesize senderSessionStorage=_senderSessionStorage;
 @property(retain, nonatomic) NSMutableDictionary *sharedTripGroupSessionInfo; // @synthesize sharedTripGroupSessionInfo=_sharedTripGroupSessionInfo;
 
 @end

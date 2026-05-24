@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreData, NSManagedObjectContext, NSMutableDictionary, NSString;
-@protocol HMDCoreDataCloudMirroringExportStatusMonitorDelegate;
+@class NSManagedObjectContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudMirroringExportStatusMonitor
 {
     _Bool _exportVerificationInProgress;
-    _Bool _additionalExportVerificationPending;
-    NSManagedObjectContext *_managedObjectContext;
-    id <HMDCoreDataCloudMirroringExportStatusMonitorDelegate> _delegate;
-    HMDCoreData *_coreData;
-    NSMutableDictionary *_objectIDToExportedToken;
 }
 
 + (id)Ltÿó ³B;
@@ -23,23 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(8;
 - (void)xecution - reporting results;
 - (void)ume;
 - (_Bool)\¥ÿÑÚ4c>;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCoreDataCloudMirroringExportStatusMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly) Class superclass;
 
 @end
 

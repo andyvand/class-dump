@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TITypingSession;
+@class TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TIAutocorrectionAccuracyAnalyzer
@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     TITypingSession *_currentSession;
 }
 
-- (id);
+- (id)!1;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ed;
 - (id);
 - (void);
 - (void)i°1Â0@ù
@@ -24,13 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) TITypingSession *currentSession; // @synthesize currentSession=_currentSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

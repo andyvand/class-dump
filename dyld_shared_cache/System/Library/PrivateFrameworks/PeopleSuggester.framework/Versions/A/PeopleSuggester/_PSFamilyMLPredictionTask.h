@@ -10,21 +10,19 @@
 @interface _PSFamilyMLPredictionTask
 {
     id <_DKKnowledgeQuerying><_DKKnowledgeSaving> _knowledgeStore;
-    NSString *_directory;
 }
 
+- (id)_counterfactualTriggeredNonTier1;
+- (void)_array;
 - (id);
+- (id)k!@9k;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)isiPhone;
 - (void);
 - (id)isted file corrupt, or does not exist. Using on-demand compute instead:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *directory; // @synthesize directory=_directory;
-@property(retain, nonatomic) id <_DKKnowledgeQuerying><_DKKnowledgeSaving> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
 
 @end
 

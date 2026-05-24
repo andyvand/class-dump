@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioProvider, CSAudioStreamHolding, CSVoiceTriggerSecondChanceContext, CSVoiceTriggerSecondPass, CSVoiceTriggerUserSelectedPhrase, NSString;
+@class NSString;
 
 @interface CSRemoraSecondPassRequest
 {
     _Bool _isSecondPassRunning;
-    _Bool _isCancelled;
-    float _goodnessScore;
-    NSString *_firstPassDeviceID;
-    CSVoiceTriggerSecondPass *_voiceTriggerSecondPass;
-    CSAudioStreamHolding *_audioStreamHolding;
-    CSAudioProvider *_audioProvider;
-    CSAsset *_currentAsset;
-    unsigned long long _timestamp;
-    double _firstPassTriggerEndTime;
-    CSVoiceTriggerSecondChanceContext *_secondChanceContext;
-    CSVoiceTriggerUserSelectedPhrase *_multiPhraseSelectedStatus;
 }
 
+- (void)N;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__objc_const;
 - (float);
 - (double);
 - (id);
@@ -34,42 +23,31 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)rray"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
+- (id)g property ;
 - (id);
 - (id);
+- (void)a;
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void)stTime;
-- (id)cordBufferWithHostTime:atHostTime:mhUUID: /* Error: Ran out of types for this method. */;
+- (_Bool)g3;
+- (void)firstPassFireHostTime;
+- (id)_speechControllerDidReceiveFirstAudioRecordBufferWithHostTime:atHostTime:mhUUID: /* Error: Ran out of types for this method. */;
 - (void)];
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
-@property(retain, nonatomic) CSAudioStreamHolding *audioStreamHolding; // @synthesize audioStreamHolding=_audioStreamHolding;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
 @property(retain, nonatomic) NSString *firstPassDeviceID; // @synthesize firstPassDeviceID=_firstPassDeviceID;
-@property(nonatomic) double firstPassTriggerEndTime; // @synthesize firstPassTriggerEndTime=_firstPassTriggerEndTime;
-@property(nonatomic) float goodnessScore; // @synthesize goodnessScore=_goodnessScore;
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
-@property(retain, nonatomic) CSVoiceTriggerUserSelectedPhrase *multiPhraseSelectedStatus; // @synthesize multiPhraseSelectedStatus=_multiPhraseSelectedStatus;
-@property(retain, nonatomic) CSVoiceTriggerSecondChanceContext *secondChanceContext; // @synthesize secondChanceContext=_secondChanceContext;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) CSVoiceTriggerSecondPass *voiceTriggerSecondPass; // @synthesize voiceTriggerSecondPass=_voiceTriggerSecondPass;
 
 @end
 

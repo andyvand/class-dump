@@ -8,9 +8,9 @@
 {
 }
 
-+ (void)rlayGradientEndColor;
++ (void)avatarViewEditOverlayGradientEndColor;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 @end

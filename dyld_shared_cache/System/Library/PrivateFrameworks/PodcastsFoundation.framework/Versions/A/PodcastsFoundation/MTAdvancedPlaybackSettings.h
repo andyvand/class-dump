@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface MTAdvancedPlaybackSettings
 {
 }
@@ -19,11 +17,7 @@
 - (_Bool)ut an AVURLAsset.;
 
 // Remaining properties
-@property(nonatomic) _Bool enhanceDialogueEnabled;
-@property(nonatomic) _Bool hasCustomSettings; // @dynamic hasCustomSettings;
-@property(nonatomic) double playbackRate; // @dynamic playbackRate;
 @property(nonatomic) int settingsAdjustedCount; // @dynamic settingsAdjustedCount;
-@property(retain, nonatomic) NSDate *tipLastShownDate; // @dynamic tipLastShownDate;
 
 @end
 

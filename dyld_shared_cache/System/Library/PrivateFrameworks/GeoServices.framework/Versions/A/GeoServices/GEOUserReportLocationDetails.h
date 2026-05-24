@@ -4,70 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOUserReportLocationDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocation *_currentUserLocation;
-    NSMutableArray *_deviceHistoricalLocations;
-    GEOLocation *_lastKnownRoadLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_currentUserLocation:1;
-        unsigned int read_deviceHistoricalLocations:1;
-        unsigned int read_lastKnownRoadLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (_Bool)setNotice:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)nameOrder;
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)removeRemoteP2PLogFilesOlderThanNDays:(id)arg1;
+- (void)%llu;
+- (id)audioProviderUUID:firstPassInfo:rtModelRequestOptions:completion:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dimmingViewBackgroundColorClear;
 - (_Bool);
 - (id);
 - (void);
 - (id)	'Ð!ÈAùº*Ð1Â0@ù
 × ;
-- (id)apItemIdentifier:coordinate: /* Error: Ran out of types for this method. */;
+- (id)initWithMapItemIdentifier:coordinate: /* Error: Ran out of types for this method. */;
 - (id)completeEntryServer",R,N,V_pdServerEntry;
 - (id)rinkBySize;
 - (void)Þ	ß?U«­Ð~@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocation *currentUserLocation;
-@property(retain, nonatomic) NSMutableArray *deviceHistoricalLocations;
 @property(readonly, nonatomic) _Bool hasCurrentUserLocation;
-@property(readonly, nonatomic) _Bool hasLastKnownRoadLocation;
-@property(retain, nonatomic) GEOLocation *lastKnownRoadLocation;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

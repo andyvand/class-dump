@@ -5,5 +5,8 @@
 //
 
 @protocol QLPreviewPanelDelegate
+
+@optional
+- (_Bool);
 @end
 

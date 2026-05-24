@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESProfileSliceResolutionRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)t :%{private}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)ȀR;
+- (unsigned long long)stResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool))ȸj@;
+- (_Bool)ror:(id)arg1 '%@';
 - (void);
 - (id);
 - (id);
-- (id)ght;
+- (id)_residualAdaptationWeight;
 - (id)ady;
-- (void)owntimeInSec;
+- (void)downtimeInSec;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

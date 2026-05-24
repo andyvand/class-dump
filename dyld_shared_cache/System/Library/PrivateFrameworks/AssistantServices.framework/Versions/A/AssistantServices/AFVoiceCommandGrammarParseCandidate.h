@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface AFVoiceCommandGrammarParseCandidate
 {
     _Bool _isComplete;
-    NSUUID *_voiceCommandUUID;
-    NSString *_commandId;
-    NSDictionary *_paramMatches;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)T*%@y_=;
 - (id);
 - (id);
 - (id);
@@ -26,13 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (void)onIsAllowed;
-- (_Bool)echEndHostTime;
+- (void)_dictationIsAllowed;
+- (_Bool)AFInterstitialConfiguration::speechEndHostTime /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *commandId; // @synthesize commandId=_commandId;
-@property(readonly, nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, copy, nonatomic) NSDictionary *paramMatches; // @synthesize paramMatches=_paramMatches;
 @property(readonly, copy, nonatomic) NSUUID *voiceCommandUUID; // @synthesize voiceCommandUUID=_voiceCommandUUID;
 
 @end

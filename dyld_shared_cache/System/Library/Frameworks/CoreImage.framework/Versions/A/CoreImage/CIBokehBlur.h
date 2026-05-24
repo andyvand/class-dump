@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSMutableArray, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIBokehBlur : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputRingAmount;
-    NSNumber *inputRingSize;
-    NSNumber *inputSoftness;
-    NSMutableArray *_recipe;
 }
 
 + (id);

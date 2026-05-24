@@ -5,5 +5,8 @@
 //
 
 @protocol OKMediaManagerDelegate
+
+@optional
+- (Class);
 @end
 

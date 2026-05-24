@@ -5,5 +5,6 @@
 //
 
 @protocol BWPreviewStitcherDelegate
+- (void);
 @end
 

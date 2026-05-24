@@ -15,18 +15,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (_Bool);
+- (_Bool)_collaborationMetadata;
 - (id);
 - (id);
 - (void)32@0:8@"NSString"16@?<v@?@"PPContactNameRecordChangeResult"@"NSError">24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
 @property(readonly, nonatomic) _Bool hasActiveTreatments;
 
 @end

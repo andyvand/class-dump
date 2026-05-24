@@ -9,11 +9,6 @@
 @interface RBSWrappedLSInfo
 {
     int _platform;
-    NSString *_bundleID;
-    NSString *_personaString;
-    NSString *_persistentJobLabel;
-    unsigned long long _bundleInode;
-    unsigned long long _execInode;
 }
 
 + (id);
@@ -23,16 +18,11 @@
 - (id);
 - (int);
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)ـh;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned long long bundleInode; // @synthesize bundleInode=_bundleInode;
-@property(readonly, nonatomic) unsigned long long execInode; // @synthesize execInode=_execInode;
-@property(readonly, copy, nonatomic) NSString *persistentJobLabel; // @synthesize persistentJobLabel=_persistentJobLabel;
-@property(readonly, copy, nonatomic) NSString *personaString; // @synthesize personaString=_personaString;
-@property(readonly, nonatomic) int platform; // @synthesize platform=_platform;
 
 @end
 

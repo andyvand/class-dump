@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSiriEndpointProfileMessageHandler, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDMessageRouter, OS_dispatch_queue;
+@class HMFMessageDispatcher, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfilesMessenger
 {
     NSUUID *_messageTargetUUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDMessageRouter> _messageRouter;
-    HMDSiriEndpointProfileMessageHandler *_messageHandler;
 }
 
 + (id)ÔgB;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)rageController"16@"NSDictionary"24;
+- (id)artworkSourceTypeAsString:(id)arg1;
 - (id);
 - (id);
 - (id)ublic}@Enabled as a resident device, adding ourselves as a resident to all homes;
-- (void)on;
-- (id)LLETIN_DOOR_ACTION_CLOSED;
+- (void)HMDResidentDeviceManagerRemoveResidentNotification;
+- (id)BULLETIN_DOOR_ACTION_CLOSED;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) HMDSiriEndpointProfileMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly) id <HMDMessageRouter> messageRouter; // @synthesize messageRouter=_messageRouter;
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

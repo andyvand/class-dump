@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)d}24N^{CGPoint=dd}40;
 - (id);
-- (void)tContentSizeCategoryDidChangeNotification;
-- (void)nuationPreview;
+- (void)_postContentSizeCategoryDidChangeNotification;
+- (void)_continuationPreview;
 - (void);
 - (void)llStyle];
 

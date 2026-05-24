@@ -6,17 +6,15 @@
 
 #import <UIKitCore/_UIImageLoader.h>
 
-@class NSItemProvider, NSProgress, NSString;
+@class NSItemProvider, NSProgress;
 
 __attribute__((visibility("hidden")))
 @interface _UINSItemProviderImageLoader : _UIImageLoader
 {
     NSItemProvider *_itemProvider;
-    NSString *_typeIdentifier;
-    NSProgress *__progress;
 }
 
-- (id);
+- (id)setStrugglingMessageIndicationSent:(id)arg1;
 - (void);
 - (_Bool);
 - (id);

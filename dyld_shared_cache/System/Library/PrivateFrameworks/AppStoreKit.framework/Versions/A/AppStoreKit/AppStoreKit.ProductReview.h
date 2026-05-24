@@ -9,8 +9,6 @@
 @interface AppStoreKit.ProductReview : AppStoreKit.ProductRatingsAndReviewsComponent
 {
     id source;
-    id clickSender;
-    id flowPreviewActionsConfiguration;
 }
 
 @end

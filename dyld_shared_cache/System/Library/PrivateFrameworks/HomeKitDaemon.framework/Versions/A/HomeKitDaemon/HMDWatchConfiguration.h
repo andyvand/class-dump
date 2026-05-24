@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDWatchConfiguration
 {
     NSString *_uniqueId;
-    NSDictionary *_metadataConfig;
-    NSDictionary *_homeConfig;
-    NSUUID *_primaryHome;
 }
 
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_requestedHandles;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)Payload %@;
-- (void)odecGroupTypeAMR;
+- (void)HMDAudioCodecGroupTypeAMR;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *homeConfig; // @synthesize homeConfig=_homeConfig;
-@property(retain, nonatomic) NSDictionary *metadataConfig; // @synthesize metadataConfig=_metadataConfig;
-@property(retain, nonatomic) NSUUID *primaryHome; // @synthesize primaryHome=_primaryHome;
 @property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

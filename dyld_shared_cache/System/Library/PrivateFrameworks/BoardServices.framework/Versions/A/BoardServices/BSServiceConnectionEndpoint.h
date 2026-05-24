@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSXPCServiceConnectionEndpoint, NSString;
+@class NSString;
 
 @interface BSServiceConnectionEndpoint
 {
     NSString *_service;
-    NSString *_instance;
-    BSXPCServiceConnectionEndpoint *_underlyingEndpoint;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,31 +29,21 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id),N,V_contactID;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void)ientProtocol> on <%p>;
 - (id);
 - (long long);
-- (void);
+- (void)?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *instance; // @synthesize instance=_instance;
 @property(readonly, nonatomic, getter=isNonLaunching) _Bool nonLaunching;
-@property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *targetDescription;
 
 @end
 

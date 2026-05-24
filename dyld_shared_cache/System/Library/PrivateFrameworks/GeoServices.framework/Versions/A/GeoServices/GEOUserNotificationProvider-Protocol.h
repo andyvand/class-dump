@@ -5,5 +5,6 @@
 //
 
 @protocol GEOUserNotificationProvider
+- (void);
 @end
 

@@ -11,8 +11,6 @@
 @interface TITypologyStatisticRankCandidatesAccepted : TITypologyStatisticCurrentAutocorrections
 {
     NSMutableDictionary *_histogram;
-    long long _lengthOfSelectedCandidates;
-    long long _lengthOfSelectedPredictions;
 }
 
 - (unsigned long long);
@@ -27,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)conversationIDMap;
+- (id)ring"8;
 - (id);
 - (void);
 - (void)®
@@ -43,8 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *histogram; // @synthesize histogram=_histogram;
-@property(readonly, nonatomic) long long lengthOfSelectedCandidates; // @synthesize lengthOfSelectedCandidates=_lengthOfSelectedCandidates;
-@property(readonly, nonatomic) long long lengthOfSelectedPredictions; // @synthesize lengthOfSelectedPredictions=_lengthOfSelectedPredictions;
 
 @end
 

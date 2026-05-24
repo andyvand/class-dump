@@ -11,9 +11,6 @@
 @interface PKStandaloneTransactionBannerHandleRequest : PKBannerHandleRequest
 {
     _Bool _walletForeground;
-    NSString *_passUniqueIdentifier;
-    NSString *_displayableName;
-    long long _transactionType;
 }
 
 + (id);
@@ -22,15 +19,12 @@
 - (_Bool);
 - (id);
 - (long long);
-- (id);
-- (void);
-- (void)dth;
+- (id)	;
+- (void)_wifiRecommendationScore;
+- (void)imageWidth;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayableName; // @synthesize displayableName=_displayableName;
 @property(readonly, copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(readonly, nonatomic) long long transactionType; // @synthesize transactionType=_transactionType;
-@property(readonly, nonatomic, getter=isWalletForeground) _Bool walletForeground; // @synthesize walletForeground=_walletForeground;
 
 @end
 

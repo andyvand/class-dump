@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UITutorialAnimatedView : UIView
 {
     CALayer *_packageLayer;
-    long long _appearance;
-    CAPackage *_package;
 }
 
 - (id);

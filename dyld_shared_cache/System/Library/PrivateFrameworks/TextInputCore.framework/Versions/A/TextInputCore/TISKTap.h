@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TIKeyboardLayout, TIKeyboardTouchEvent;
+@class NSMutableArray, TIKeyboardTouchEvent;
 
 __attribute__((visibility("hidden")))
 @interface TISKTap
 {
     TIKeyboardTouchEvent *_firstTouch;
-    TIKeyboardTouchEvent *_lastTouch;
-    NSMutableArray *_dragTouches;
-    long long _pathIndex;
-    TIKeyboardLayout *_layout;
 }
 
 - (double);
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (void);
+- (void)terminateConnectionAndNotify:(id)arg1;
+- (unsigned long long)displayCallPromptForContact:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)_handlePreferenceChanged: /* Error: Ran out of types for this method. */;
+- (id)ܫ;
+- (id)d text response %@ = %@;
+- (id)%d %d;
+- (double)aller ID;
+- (double)tening for cloud relay changes:(id)arg1 %d;
+- (void)\;
 - (long long);
-- (void);
+- (void)`;
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
@@ -40,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDownUpTap) _Bool downup;
 @property(retain, nonatomic) NSMutableArray *dragTouches; // @synthesize dragTouches=_dragTouches;
-@property(retain, nonatomic) TIKeyboardTouchEvent *firstTouch; // @synthesize firstTouch=_firstTouch;
-@property(retain, nonatomic) TIKeyboardTouchEvent *lastTouch; // @synthesize lastTouch=_lastTouch;
-@property(retain, nonatomic) TIKeyboardLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) unsigned long long numberOfDrags;
-@property(nonatomic) long long pathIndex; // @synthesize pathIndex=_pathIndex;
 
 @end
 

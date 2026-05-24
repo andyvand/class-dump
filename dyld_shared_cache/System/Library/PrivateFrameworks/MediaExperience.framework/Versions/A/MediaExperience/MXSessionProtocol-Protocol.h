@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol MXSessionProtocol
 
 @optional
-- (id)ntextUtilities_CopySystemAudioContextUUID;
+- (NSDictionary *)c(0i$i;
+- (int)s NULL;
+- (id);
+- (int);
+- (id)FigRoutingManagerContextUtilities_CopySystemAudioContextUUID;
 @end
 

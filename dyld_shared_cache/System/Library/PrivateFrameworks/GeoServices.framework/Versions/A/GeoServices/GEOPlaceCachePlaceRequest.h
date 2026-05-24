@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOPDPlace, NSString;
+@class GEOPDPlace;
 
 @interface GEOPlaceCachePlaceRequest : GEOXPCRequest
 {
     GEOPDPlace *_place;
 }
 
-+ (Class);
++ (Class)setMainItemIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void)b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)storicalEstimatedSeconds: /* Error: Ran out of types for this method. */;
-- (void)zed;
+- (id)setHistoricalEstimatedSeconds: /* Error: Ran out of types for this method. */;
+- (void)isPartiallyClientized;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOPDPlace *place; // @synthesize place=_place;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSimpleItemRichSearchResultCardSection
+- (_SFPBRFTextProperty *);
+- (_SFPBRFTextProperty *)GDisplayListEntry *, std::allocator<const CGDisplayListEntry *>>=^^{CGDisplayListEntry}^^{CGDisplayListEntry}{?=^^{CGDisplayListEntry}}}32@0:8^{CGDisplayList=}16^d24 /* Error: Ran out of types for this method. */;
+- (NSData *)canContributeToCloudSharedAlbum;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(copy, nonatomic) NSArray *text_5s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_7;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_8;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

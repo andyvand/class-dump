@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)assetCollectionsInUploadQueue;
 - (void);
 
 // Remaining properties

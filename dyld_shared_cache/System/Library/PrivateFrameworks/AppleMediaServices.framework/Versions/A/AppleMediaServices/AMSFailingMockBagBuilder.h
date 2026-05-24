@@ -6,17 +6,15 @@
 
 #import <AppleMediaServices/AMSMockBagBuilder.h>
 
-@class NSError;
-
 @interface AMSFailingMockBagBuilder : AMSMockBagBuilder
 {
     double _delay;
-    NSError *_error;
 }
 
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)٫
+;
 - (void);
 - (void)ãjº¥ãÊ²¥ã¸¥ãÚµ¥ã
 ¿¥ãª·¥ãz½¥ãj½¥ãº·¥ã¿¥ãÊµ¥ãJ½¥ã·¥ã:¿¥ãêµ¥ãúµ¥ã*¿¥ã·¥ãZ½¥ãÊ¹¥ã³¥ãº»¥ãj±¥ãz±¥ãª»¥ã
@@ -28,7 +26,6 @@
 
 // Remaining properties
 @property double delay; // @synthesize delay=_delay;
-@property(retain) NSError *error; // @synthesize error=_error;
 
 @end
 

@@ -6,27 +6,10 @@
 
 #import <UIKitMacHelper/UINSEventTranslator.h>
 
-@class UINSScrollState;
-
 __attribute__((visibility("hidden")))
 @interface UINSMouseEventTranslator : UINSEventTranslator
 {
     id _changeModeMonitor;
-    UINSScrollState *_scrollState;
-    struct __IOHIDEvent *_lastPressureEvent;
-    unsigned int _mouseContextId;
-    unsigned int _gestureContextId;
-    unsigned int _hoverContextId;
-    unsigned int _dragContextId;
-    _Bool _mouseIsInside;
-    _Bool _needMouseExitOnUp;
-    unsigned long long _lastButtonMask;
-    unsigned char _lastClickCount;
-    unsigned long long _lastModifiers;
-    struct CGPoint _lastSceneLoc;
-    _Bool _dragAndDropDragging;
-    unsigned long long _gesturePhase;
-    unsigned long long _lastSeenTouchSenderID;
 }
 
 - (_Bool);
@@ -35,18 +18,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)>Q7;
 - (struct __IOHIDEvent *);
 - (struct __IOHIDEvent *);
 - (struct __IOHIDEvent *);
-- (struct __IOHIDEvent *);
+- (struct __IOHIDEvent *)	J;
 - (void);
 - (void);
 - (void);
@@ -54,31 +37,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)managerWithDefaultsDomain:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@0:8r^v16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)splayShouldIncreaseContrast;
+- (void)accessibilityDisplayShouldIncreaseContrast;
 - (void)!;
 
 // Remaining properties

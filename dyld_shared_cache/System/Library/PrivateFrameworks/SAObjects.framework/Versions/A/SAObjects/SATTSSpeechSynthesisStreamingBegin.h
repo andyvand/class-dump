@@ -6,7 +6,7 @@
 
 #import <SAObjects/SATTSSpeechSynthesisStreaming.h>
 
-@class NSString, SATTSSpeechSynthesisResource, SATTSSpeechSynthesisVoice, SAUIAudioDescription;
+@class SAUIAudioDescription;
 
 @interface SATTSSpeechSynthesisStreamingBegin : SATTSSpeechSynthesisStreaming
 {
@@ -18,25 +18,20 @@
 - (id);
 - (id);
 - (void);
+- (void)%;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAudioDescription *decoderStreamDescription;
-@property(retain, nonatomic) SAUIAudioDescription *playerStreamDescription;
-@property(retain, nonatomic) SATTSSpeechSynthesisResource *speechSynthesisResource;
-@property(retain, nonatomic) SATTSSpeechSynthesisVoice *speechSynthesisVoice;
-@property(nonatomic) float streamingPlaybackBufferSize;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

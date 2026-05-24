@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
-@protocol HMMLogEventSubmitting;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentDiscoveryManagerDefaultDataSource
 {
     NSNotificationCenter *_notificationCenter;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)R=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

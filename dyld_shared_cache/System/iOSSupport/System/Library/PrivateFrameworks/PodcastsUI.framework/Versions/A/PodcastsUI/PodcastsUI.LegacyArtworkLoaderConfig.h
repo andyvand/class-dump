@@ -7,11 +7,6 @@
 @interface PodcastsUI.LegacyArtworkLoaderConfig
 {
     id template;
-    id size;
-    id format;
-    id crop;
-    id scale;
-    id retainAspectRatio;
 }
 
 @end

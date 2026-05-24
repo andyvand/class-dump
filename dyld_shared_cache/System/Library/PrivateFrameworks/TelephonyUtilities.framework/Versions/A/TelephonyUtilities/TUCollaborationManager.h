@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, TUConversation;
-@protocol OS_dispatch_queue, TUCollaborationManagerDelegate, TUCollaborationProvider, TUFeatureFlags;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUCollaborationManager
 {
     _Bool _isIpad;
-    id <TUCollaborationProvider> _collaborationProvider;
-    id <TUCollaborationManagerDelegate> _delegate;
-    NSMutableSet *_pendingHighlightIdentifiers;
-    NSMutableDictionary *_originatingParticipantByHighlightIdentifier;
-    NSMutableDictionary *_highlightsByIdentifier;
-    NSMutableDictionary *_conversationsByHighlightIdentifier;
-    id <TUFeatureFlags> _featureFlags;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_collaborationStateByIdentifier;
-    NSString *_pendingCollaborationToAdd;
-    TUConversation *_pendingConversationToAdd;
 }
 
 - (void);
@@ -29,25 +18,25 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (_Bool)kc;
+- (void);
+- (void);
+- (id)ka;
 - (id);
-- (id);
-- (id);
+- (id)aB;
 - (void);
 - (void);
 - (id);
@@ -55,32 +44,14 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id)nched: /* Error: Ran out of types for this method. */;
-- (void)enSharingSpringBoardEssoniteEnabled;
-- (id)yByScreenTimeForDialRequest: /* Error: Ran out of types for this method. */;
+- (id)DMFDeviceBuildVersionKey;
+- (id)setHasServerLaunched: /* Error: Ran out of types for this method. */;
+- (void)screenSharingSpringBoardEssoniteEnabled;
+- (id)isRestrictedExclusivelyByScreenTimeForDialRequest: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) id <TUCollaborationProvider> collaborationProvider; // @synthesize collaborationProvider=_collaborationProvider;
-@property(readonly, nonatomic) NSMutableDictionary *collaborationStateByIdentifier; // @synthesize collaborationStateByIdentifier=_collaborationStateByIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *conversationsByHighlightIdentifier; // @synthesize conversationsByHighlightIdentifier=_conversationsByHighlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUCollaborationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <TUFeatureFlags> featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *highlightsByIdentifier; // @synthesize highlightsByIdentifier=_highlightsByIdentifier;
-@property(readonly, nonatomic) _Bool isIpad; // @synthesize isIpad=_isIpad;
-@property(retain, nonatomic) NSMutableDictionary *originatingParticipantByHighlightIdentifier; // @synthesize originatingParticipantByHighlightIdentifier=_originatingParticipantByHighlightIdentifier;
-@property(retain, nonatomic) NSString *pendingCollaborationToAdd; // @synthesize pendingCollaborationToAdd=_pendingCollaborationToAdd;
-@property(retain, nonatomic) TUConversation *pendingConversationToAdd; // @synthesize pendingConversationToAdd=_pendingConversationToAdd;
-@property(retain, nonatomic) NSMutableSet *pendingHighlightIdentifiers; // @synthesize pendingHighlightIdentifiers=_pendingHighlightIdentifiers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAInheritanceContactController, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIInheritanceAccessKeyPDFGenerator
 {
     NSString *_ownerDisplayName;
-    NSString *_ownerFirstName;
-    NSString *_ownerEmailAddress;
-    NSString *_contactDisplayName;
-    AAInheritanceContactController *_contactController;
 }
 
 - (id);
@@ -21,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void);
+- (void)?k	;
 - (double);
-- (void);
-- (void);
-- (double);
+- (void);
+- (void)kI;
+- (double)kI;
 - (void);
 - (id);
 - (id);

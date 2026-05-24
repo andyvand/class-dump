@@ -7,7 +7,6 @@
 @interface PromotedContentUI.MetricsViewTracker
 {
     id viewsStorage;
-    id ancestorTracker;
 }
 
 @end

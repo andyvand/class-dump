@@ -7,27 +7,25 @@
 @interface AFBluetoothDeviceBooleanSettingResponse
 {
     long long _value;
-    long long _status;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)R,N,V_lastUpdated;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)UIFMMViewController";
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 @property(readonly, nonatomic) long long value; // @synthesize value=_value;
 
 @end

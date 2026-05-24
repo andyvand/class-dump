@@ -5,5 +5,10 @@
 //
 
 @protocol EMCollectionChangeObserver
+- (void)MatterDeviceSupport;
+
+@optional
+- (void);
+- (void);
 @end
 

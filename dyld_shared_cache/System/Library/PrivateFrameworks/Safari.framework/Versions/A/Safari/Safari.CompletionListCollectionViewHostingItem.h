@@ -7,13 +7,6 @@
 @interface Safari.CompletionListCollectionViewHostingItem
 {
     id delegate;
-    id metrics;
-    id shouldUseTrackingArea;
-    id hostingAccessibilityView;
-    id hostingBackingView;
-    id selectionView;
-    id trackingArea;
-    id hostingView;
 }
 
 - (void);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void)rtpage;
+- (void)startpage;
 - (void);
 - (_Bool)þ,;
 

@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReaderOutput, AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptor, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PFRWSampleBufferChannel
 {
     CDUnknownBlockType completionHandler;
-    NSObject<OS_dispatch_queue> *serializationQueue;
-    _Bool _useAdaptor;
-    _Bool _finished;
-    AVAssetWriterInput *_assetWriterInput;
-    AVAssetReaderOutput *_assetReaderOutput;
-    AVAssetWriterInputPixelBufferAdaptor *_adaptor;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lockcrypto_cert_from_pem_data;
 - (id);
 - (void);
 - (void);
 - (void)ageSource=}24;
 
 // Remaining properties
-@property(retain, nonatomic) AVAssetWriterInputPixelBufferAdaptor *adaptor; // @synthesize adaptor=_adaptor;
-@property(retain, nonatomic) AVAssetReaderOutput *assetReaderOutput; // @synthesize assetReaderOutput=_assetReaderOutput;
-@property(retain, nonatomic) AVAssetWriterInput *assetWriterInput; // @synthesize assetWriterInput=_assetWriterInput;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
 @property(nonatomic) _Bool useAdaptor; // @synthesize useAdaptor=_useAdaptor;
 
 @end

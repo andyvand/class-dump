@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSRequestQueue
 {
     struct atomic<unsigned int> _suspended;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    struct os_unfair_lock_s _workItemsLock;
-    CDUnknownBlockType _startBlock;
-    struct priority_queue<(anonymous namespace)::WorkItem, std::vector<(anonymous namespace)::WorkItem>, (anonymous namespace)::WorkItemComparator> _workItems;
-    _Bool _critical;
 }
 
 + (id);

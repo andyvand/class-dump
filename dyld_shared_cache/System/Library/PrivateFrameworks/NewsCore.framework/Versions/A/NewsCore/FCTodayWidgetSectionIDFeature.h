@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void)lickValue;
+- (void)existingSubscriptionRelatedBaselineClickValue;
 
 @end
 

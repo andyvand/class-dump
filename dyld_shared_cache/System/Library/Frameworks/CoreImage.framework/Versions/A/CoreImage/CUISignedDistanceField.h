@@ -6,25 +6,23 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUISignedDistanceField : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputMaxDistance;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)/;
 - (id)isss5L>_H]Tkªªªª©©©©}|y}Umgtssssssssuuruyyyyxxxxci_uOdYtcrmvvvvvttttaqj{l~xxxxmmmmkkkkmmkmvvvvlvt{ispuisrsuuuuvvvvuuuuxxxxwwszqtpuehsl}cyuxisn|]`Tlee[kwwtwl~}~{k{v~}    ©©©©¯¯¯¯¬¬¬¬ciaqFPAXNQEX`kkl}}}}rrrr>TN[\\\\qqqq}}}}gsrykmhx~~tyyyrrqruuuu     £¤¤~q|zdlfwnxx{ppppRPDR'<)J[e^iÁÁÁÁ¾¾¾¾vupvY_U_^^^^pppp}}n{rrrr`]QbQWJbdf^mMhaxt~Qroiyx    ££££s}xWslcldn6O?`ITE^dd[dQg`p|mvvxMVLeBXOaZ^W^/F8T6E6Wjidk||||~~~~q}hrqr]YO]@NAU^^^^ccccOYR^BRJYV]]]ffffllllUkhu    ~}}}}ltpteiar||{|¡¡¡¡­­­­¢¢¢¢m}wKbUmU_QgPf[n`tm{ark{wuow||||{{w{iupx||y|y|^xvuuuuaa[aIQGS8I;R6OB`~{wwwwhhhh]]\]W^\^ddddQa\debZeVe]mVibxw|r¡¡¡¡¢¢¢¢zzwzonhoanjriyy}nzzw~ttqt_qjtpwxttttkkkkqqqqzzzzbssxgkgniicixxxxZjdsGaXieqpq}}}}||||~~~~k{y_oisnkto{cdZl[^Rfrqkrr~|yyvyNf^pqniqxxxxp{zblgxN[QieeeeW^Z^?NAUHUI]`try~ewq~k}w}}}gmhplokp{{{{£¸¸¸¸»»»»ªbUum\pff}yz|||LbWl^_Seilelttttqqqq`e[knsms££££yyyyYcYg[[O[KSCW>R@`nyt§§§§ºººº´´´´    z{¡¡¡¡¢¢¢¢ssquc`Ycbbbbjjjjrrrrsxxx|;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputMaxDistance; // @synthesize inputMaxDistance;
 
 @end
 

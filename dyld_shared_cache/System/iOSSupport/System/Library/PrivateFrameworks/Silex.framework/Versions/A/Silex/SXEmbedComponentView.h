@@ -6,39 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class NSMutableSet, NSString, SWCrashRetryThrottler, SXEmbedResource, SXWebContentLoadEvent, SXWebProcessPoolCache, TFMultiDelegate, UIActivityIndicatorView, UILabel, WKNavigation, WKWebView, WKWebsiteDataStore;
-@protocol SWReachabilityProvider, SXAnalyticsReporting, SXComponentActionHandler, SXEmbedDataProvider, SXEmbedType, SXLayoutInvalidator, SXProxyAuthenticationHandler, SXSceneStateMonitor;
+@protocol SWReachabilityProvider;
 
 @interface SXEmbedComponentView : SXComponentView
 {
     _Bool _failedLoading;
-    _Bool _hasRegisteredScriptMessageHandlers;
-    _Bool _usingElementFullscreen;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXEmbedDataProvider> _embedDataProvider;
-    id <SXComponentActionHandler> _actionHandler;
-    id <SXLayoutInvalidator> _layoutInvalidator;
-    id <SXEmbedType> _embedConfiguration;
-    SXEmbedResource *_embedResource;
-    WKWebView *_webView;
-    SWCrashRetryThrottler *_webCrashRetryThrottler;
-    WKWebView *_webViewPresentingInFullscreen;
-    UILabel *_errorLabel;
-    NSString *_HTML;
-    NSString *_userScript;
-    NSMutableSet *_expectedMessages;
-    UIActivityIndicatorView *_activityIndicator;
-    WKNavigation *_initialNavigation;
-    TFMultiDelegate *_scriptMessageHandler;
-    WKWebsiteDataStore *_dataStore;
-    SXWebProcessPoolCache *_processPoolCache;
-    id <SXProxyAuthenticationHandler> _proxyAuthenticationHandler;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
-    id <SXAnalyticsReporting> _analyticsReporting;
-    SXWebContentLoadEvent *_loadEvent;
-    struct CGSize _currentlyLayoutingForSize;
-    struct CGSize _currentLayoutSize;
-    struct CGSize _currentViewportSize;
 }
 
 - (void);
@@ -51,7 +23,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -104,20 +76,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)9	;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)X_p;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -128,7 +100,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (void);
@@ -138,41 +110,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *HTML; // @synthesize HTML=_HTML;
-@property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
-@property(nonatomic) struct CGSize currentLayoutSize; // @synthesize currentLayoutSize=_currentLayoutSize;
-@property(nonatomic) struct CGSize currentViewportSize; // @synthesize currentViewportSize=_currentViewportSize;
-@property(nonatomic) struct CGSize currentlyLayoutingForSize; // @synthesize currentlyLayoutingForSize=_currentlyLayoutingForSize;
-@property(readonly, nonatomic) WKWebsiteDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <SXEmbedType> embedConfiguration; // @synthesize embedConfiguration=_embedConfiguration;
-@property(readonly, nonatomic) id <SXEmbedDataProvider> embedDataProvider; // @synthesize embedDataProvider=_embedDataProvider;
-@property(retain, nonatomic) SXEmbedResource *embedResource; // @synthesize embedResource=_embedResource;
-@property(retain, nonatomic) UILabel *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(retain, nonatomic) NSMutableSet *expectedMessages; // @synthesize expectedMessages=_expectedMessages;
-@property(nonatomic) _Bool failedLoading; // @synthesize failedLoading=_failedLoading;
-@property(nonatomic) _Bool hasRegisteredScriptMessageHandlers; // @synthesize hasRegisteredScriptMessageHandlers=_hasRegisteredScriptMessageHandlers;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WKNavigation *initialNavigation; // @synthesize initialNavigation=_initialNavigation;
-@property(readonly, nonatomic) id <SXLayoutInvalidator> layoutInvalidator; // @synthesize layoutInvalidator=_layoutInvalidator;
-@property(retain, nonatomic) SXWebContentLoadEvent *loadEvent; // @synthesize loadEvent=_loadEvent;
-@property(readonly, nonatomic) SXWebProcessPoolCache *processPoolCache; // @synthesize processPoolCache=_processPoolCache;
-@property(readonly, nonatomic) id <SXProxyAuthenticationHandler> proxyAuthenticationHandler; // @synthesize proxyAuthenticationHandler=_proxyAuthenticationHandler;
 @property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
-@property(readonly, nonatomic) TFMultiDelegate *scriptMessageHandler; // @synthesize scriptMessageHandler=_scriptMessageHandler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *userScript; // @synthesize userScript=_userScript;
-@property(nonatomic) _Bool usingElementFullscreen; // @synthesize usingElementFullscreen=_usingElementFullscreen;
-@property(retain, nonatomic) SWCrashRetryThrottler *webCrashRetryThrottler; // @synthesize webCrashRetryThrottler=_webCrashRetryThrottler;
-@property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
-@property(retain, nonatomic) WKWebView *webViewPresentingInFullscreen; // @synthesize webViewPresentingInFullscreen=_webViewPresentingInFullscreen;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEBitVector, NSData;
-
 @interface NEBloomFilter
 {
     unsigned int _numberOfItems;
-    unsigned int _numberOfBits;
-    unsigned int _numberOfHashes;
-    unsigned int _murmurSeed;
-    double _falsePositiveTolerance;
-    NSData *_tag;
-    NSData *_bitVectorBuffer;
-    NEBitVector *_bitVector;
 }
 
 + (char *);
@@ -44,17 +35,19 @@
 - (id);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool)																												
+
+
+
+
+
+
+
+;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *bitVectorBuffer; // @synthesize bitVectorBuffer=_bitVectorBuffer;
-@property(nonatomic) double falsePositiveTolerance; // @synthesize falsePositiveTolerance=_falsePositiveTolerance;
-@property(nonatomic) unsigned int murmurSeed; // @synthesize murmurSeed=_murmurSeed;
-@property(nonatomic) unsigned int numberOfBits; // @synthesize numberOfBits=_numberOfBits;
-@property(nonatomic) unsigned int numberOfHashes; // @synthesize numberOfHashes=_numberOfHashes;
 @property(nonatomic) unsigned int numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(retain, nonatomic) NSData *tag; // @synthesize tag=_tag;
 
 @end
 

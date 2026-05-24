@@ -8,9 +8,6 @@
 {
     id _$scope;
     id _calories;
-    id _primaryNutrients;
-    id _allNutrients;
-    id _$observationRegistrar;
 }
 
 @end

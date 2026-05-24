@@ -5,5 +5,6 @@
 //
 
 @protocol SIFeedbackListenerProtocol
+- (void);
 @end
 

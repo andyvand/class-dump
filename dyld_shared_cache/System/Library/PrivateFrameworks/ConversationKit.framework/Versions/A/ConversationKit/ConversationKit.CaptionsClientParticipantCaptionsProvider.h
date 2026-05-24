@@ -7,9 +7,6 @@
 @interface ConversationKit.CaptionsClientParticipantCaptionsProvider
 {
     id logger;
-    id participantCaptionsProviderDelegate;
-    id avcCaptionsClient;
-    id lowConfidenceThreshold;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPointerArray;
+@class NSPointerArray;
 
 @interface CNWeakArray
 {
@@ -16,14 +16,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)__TEXT;
 - (void);
 - (long long);
 - (void);
-- (unsigned long long)yCode;
+- (unsigned long long)currentCountryCode;
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
 @property(readonly) long long count;
 
 @end

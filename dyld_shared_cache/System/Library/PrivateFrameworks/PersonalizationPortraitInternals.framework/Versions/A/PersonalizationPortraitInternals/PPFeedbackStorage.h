@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPLocalConnectionsStore, PPLocalContactStore, PPLocalEventStore, PPLocalLocationStore, PPLocalNamedEntityStore, PPLocalQuickTypeBroker, PPLocalTopicStore, PPSQLDatabase, _PASLock;
+@class PPSQLDatabase;
 
 @interface PPFeedbackStorage
 {
     PPSQLDatabase *_db;
-    PPLocalNamedEntityStore *_namedEntityStoreOverride;
-    PPLocalTopicStore *_topicStoreOverride;
-    PPLocalLocationStore *_locationStoreOverride;
-    PPLocalQuickTypeBroker *_quickTypeBrokerOverride;
-    PPLocalContactStore *_contactStoreOverride;
-    PPLocalEventStore *_eventStoreOverride;
-    PPLocalConnectionsStore *_connectionsStoreOverride;
-    _PASLock *_lock;
 }
 
 + (id);
@@ -24,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)haHaTapback;
 - (_Bool);
 - (_Bool);
 - (void)1"rankingSecondsSinceReferenceDate"b1"score"b1"syndicationSecondsSinceReferenceDate"b1"topKScore"b1"highlightType"b1"rank"b1"fromMeEntitlementOverrideIsPresent"b1"isCollaboration"b1"isConversationAutoDonating"b1"isPrimary"b1"isTopKResult"b1};

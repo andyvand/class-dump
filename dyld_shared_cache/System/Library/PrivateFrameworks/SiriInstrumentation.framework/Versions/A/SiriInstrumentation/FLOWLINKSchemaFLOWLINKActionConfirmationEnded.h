@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionConfirmationEnded : SISchemaInstrumentationMessage
 {
     _Bool _isCorrectAction;
-    struct {
-        unsigned int isCorrectAction:1;
-    } _has;
 }
 
 - (void);
@@ -21,20 +16,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)removeObjectForKey:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)estampInNs"b1"endLogicalTimestampInNs"b1"failureReason"b1"errorCode"b1};
-- (id)SearchRequestStarted;
+- (id)STSchemaSTGlobalSearchRequestStarted;
 - (id)üÝ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCorrectAction;
 @property(nonatomic) _Bool isCorrectAction; // @synthesize isCorrectAction=_isCorrectAction;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

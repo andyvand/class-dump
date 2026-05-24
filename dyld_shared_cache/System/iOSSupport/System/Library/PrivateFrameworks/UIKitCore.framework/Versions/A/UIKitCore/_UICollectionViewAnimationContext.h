@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, UICollectionViewLayout;
+@class NSMutableDictionary;
 @protocol _UICollectionViewUpdateTranslating;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewAnimationContext
 {
     NSMutableDictionary *_appearingAttributesDict;
-    NSMutableDictionary *_disappearingAttributesDict;
-    NSArray *_updates;
-    UICollectionViewLayout *_layout;
-    id <_UICollectionViewUpdateTranslating> _dataSourceTranslator;
-    NSDictionary *_appearingAnimations;
-    NSDictionary *_disappearingAnimations;
-    NSDictionary *_animationsForOnScreenViews;
-    NSArray *_previouslyVisibleItemIndexPaths;
-    NSArray *_currentlyVisibleItemIndexPaths;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)setPayloadFilterExtensionPoints: /* Error: Ran out of types for this method. */;
+- (long long)_payloadDeferForceAtUserLoginMaxBypassAttempts;
 - (long long);
-- (long long);
 - (id);
-- (id);
+- (id)deletedSections;
 - (void);
 - (id);
 - (id);
@@ -52,10 +43,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)
 × ;
-- (id)tion;
-- (void);
-- (id)edConfigLight;
-- (id)entHiddenManagedByLayoutArrangementCount;
+- (id)numberOfEntriesRequiringFlushWithTransaction;
+- (void)impactOccurred;
+- (id)animatedConfigLight;
+- (id)_decrementHiddenManagedByLayoutArrangementCount;
 - (id)ÿÀøîÿÖúîÿ´ûîÿ;
 - (long long)ing>"8;
 - (long long)º¤þÿ¶þÿ²¤þÿRÌþÿ;
@@ -65,23 +56,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *animationsForOnScreenViews; // @synthesize animationsForOnScreenViews=_animationsForOnScreenViews;
-@property(retain, nonatomic) NSDictionary *appearingAnimations; // @synthesize appearingAnimations=_appearingAnimations;
-@property(copy, nonatomic) NSArray *appearingAttributes;
-@property(retain, nonatomic) NSArray *currentlyVisibleItemIndexPaths; // @synthesize currentlyVisibleItemIndexPaths=_currentlyVisibleItemIndexPaths;
 @property(readonly, nonatomic) id <_UICollectionViewUpdateTranslating> dataSourceTranslator; // @synthesize dataSourceTranslator=_dataSourceTranslator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *disappearingAnimations; // @synthesize disappearingAnimations=_disappearingAnimations;
-@property(copy, nonatomic) NSArray *disappearingAttributes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UICollectionViewLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) NSArray *previouslyVisibleItemIndexPaths; // @synthesize previouslyVisibleItemIndexPaths=_previouslyVisibleItemIndexPaths;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *updates; // @synthesize updates=_updates;
 
 @end
 

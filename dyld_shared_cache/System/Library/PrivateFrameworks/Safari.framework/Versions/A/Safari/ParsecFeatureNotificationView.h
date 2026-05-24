@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ConfigurableVibrancyTextView, NSArray, NSLayoutConstraint, NSView;
+@class NSArray, NSView;
 
 __attribute__((visibility("hidden")))
 @interface ParsecFeatureNotificationView
 {
     NSArray *_iconFilenames;
-    NSView *_iconContainer;
-    ConfigurableVibrancyTextView *_descriptionTextView;
-    NSLayoutConstraint *_descriptionTextViewHeightConstraint;
-    NSLayoutConstraint *_iconContainerBottomToDescriptionTextViewTopConstraint;
-    NSLayoutConstraint *_descriptionTextViewBottomConstraint;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (double);
 - (double);
@@ -35,12 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) ConfigurableVibrancyTextView *descriptionTextView; // @synthesize descriptionTextView=_descriptionTextView;
-@property(nonatomic) __weak NSLayoutConstraint *descriptionTextViewBottomConstraint; // @synthesize descriptionTextViewBottomConstraint=_descriptionTextViewBottomConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *descriptionTextViewHeightConstraint; // @synthesize descriptionTextViewHeightConstraint=_descriptionTextViewHeightConstraint;
 @property(nonatomic) __weak NSView *iconContainer; // @synthesize iconContainer=_iconContainer;
-@property(nonatomic) __weak NSLayoutConstraint *iconContainerBottomToDescriptionTextViewTopConstraint; // @synthesize iconContainerBottomToDescriptionTextViewTopConstraint=_iconContainerBottomToDescriptionTextViewTopConstraint;
-@property(copy, nonatomic) NSArray *iconFilenames; // @synthesize iconFilenames=_iconFilenames;
 
 @end
 

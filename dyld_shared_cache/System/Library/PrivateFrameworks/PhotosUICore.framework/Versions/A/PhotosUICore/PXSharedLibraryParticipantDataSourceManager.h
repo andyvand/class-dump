@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)matchDuration;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSharedLibraryParticipantDataSource *dataSource; // @dynamic dataSource;

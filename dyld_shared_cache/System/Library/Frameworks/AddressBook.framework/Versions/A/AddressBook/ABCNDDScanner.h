@@ -10,7 +10,6 @@
 @interface ABCNDDScanner
 {
     NSObject<OS_dispatch_queue> *_analysisQueue;
-    struct __DDScanner *_scanner;
 }
 
 - (id);

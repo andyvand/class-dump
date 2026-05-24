@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSService, NSCache, NSMutableArray, NSString;
+@class IDSService;
 
 @interface IMDRelayPushHandler
 {
     _Bool _registeredForPush;
-    _Bool _isListening;
-    IDSService *_relayService;
-    IDSService *_smsWatchService;
-    IDSAccount *_account;
-    NSMutableArray *_handlers;
-    NSCache *_guidToListenersCache;
 }
 
 + (id);
 + (id);
 + (id)tch, has more work to do, but is throttled;
-- (void);
+- (void)  ;
 - (void);
 - (void);
 - (void);
@@ -28,39 +22,39 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (id).;
+- (id)!h;
+- (void)!h;
+- (void)h;
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)-;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
+- (unsigned long long)!;
 - (unsigned long long);
-- (unsigned long long);
 - (void);
+- (id)  ;
+- (id) `;
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)!@!;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -70,25 +64,11 @@
 - (void)veIncomingMessage pushPayload:(_Bool)arg1 %@ ckNotification:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)tribute_AttachmentInfo"8@"BlastDoorFileTransferAttribute_AttachmentInfo"16;
 - (void);
-- (void)lManager;
+- (void)CallManager;
 - (void)üB;
 
 // Remaining properties
-@property(retain, nonatomic) IDSAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSCache *guidToListenersCache; // @synthesize guidToListenersCache=_guidToListenersCache;
-@property(retain, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isListening; // @synthesize isListening=_isListening;
-@property(nonatomic) _Bool registered;
-@property(nonatomic) _Bool registeredForPush; // @synthesize registeredForPush=_registeredForPush;
 @property(retain, nonatomic) IDSService *relayService; // @synthesize relayService=_relayService;
-@property(retain, nonatomic) IDSService *smsWatchService; // @synthesize smsWatchService=_smsWatchService;
-@property(readonly) Class superclass;
 
 @end
 

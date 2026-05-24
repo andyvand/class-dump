@@ -6,38 +6,32 @@
 
 #import <TSReading/TSPContainedObject.h>
 
-@class NSString, TSTTableHeaderStorageBucket;
+@class TSTTableHeaderStorageBucket;
 
 @interface TSTTableHeaderStorage : TSPContainedObject
 {
     TSTTableHeaderStorageBucket *mBuckets[1];
 }
 
-- (unsigned int);
-- (void);
-- (void);
+- (unsigned int)equest.m;
+- (void)ut of bounds:(unsigned int)arg1 %llu < %llu < %llu;
+- (void)timed out event=;
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
+- (void)]4};
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long)¡}Ð!¼CùÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

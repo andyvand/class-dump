@@ -7,11 +7,6 @@
 @interface HomeKitDaemon.HomeGraphIndexer
 {
     id $defaultActor;
-    id dataSource;
-    id notificationTask;
-    id notificationObservers;
-    id notificationContinuation;
-    id notificationStream;
 }
 
 @end

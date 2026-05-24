@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowingModule
 {
     id resolver;
-    id tracker;
-    id mastheadModelProvider;
 }
 
 @end

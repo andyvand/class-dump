@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface DECollectionProgress
 {
     double _percentComplete;
-    NSNumber *_estimatedTimeRemaining;
-    NSString *_statusString;
 }
 
 + (_Bool);
@@ -22,14 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)position_context_estimator_initial_probability_outdoor;
+- (void);
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
 @property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(retain, nonatomic) NSString *statusString; // @synthesize statusString=_statusString;
 
 @end
 

@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSString *printValue;
-@property(readonly) NSString *speakValue;
 
 @end
 

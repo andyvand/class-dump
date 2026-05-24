@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface LazyImageRep
 {
     CDUnknownBlockType _imageCreationBlock;
-    struct CGImage *_image;
 }
 
 - (id);

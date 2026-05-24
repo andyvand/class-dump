@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPopover, NSString, NSViewController;
-@protocol CNContactPickerDelegate, CNContactPickerViewController><CNContactPickerInternalSetup;
+@class NSArray;
 
 @interface CNContactPicker
 {
     _Bool _allowsNamePicking;
-    NSPopover *_popover;
-    NSViewController<CNContactPickerViewController><CNContactPickerInternalSetup> *_viewController;
-    NSArray *_displayedKeys;
-    id <CNContactPickerDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -38,24 +33,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)8;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ptions:%@ /* Error: Ran out of types for this method. */;
+- (void)clEvEUlP8os_log_syE_FvS5_yEEE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CNContactPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *displayedKeys; // @synthesize displayedKeys=_displayedKeys;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

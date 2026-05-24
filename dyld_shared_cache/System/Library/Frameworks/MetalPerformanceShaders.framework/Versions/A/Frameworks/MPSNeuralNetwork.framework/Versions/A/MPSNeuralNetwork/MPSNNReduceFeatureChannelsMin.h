@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id)adientIsFullyConnected;
+- (id)MPSCNNConvolutionGradientIsFullyConnected;
 
 @end
 

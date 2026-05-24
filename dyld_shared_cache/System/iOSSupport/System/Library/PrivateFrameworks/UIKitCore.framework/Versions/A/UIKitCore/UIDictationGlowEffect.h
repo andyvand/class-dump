@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUIGlowEffect, UIColor, UIView;
+@class UIColor, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIDictationGlowEffect
 {
     UIView *_glowEffectView;
-    TUIGlowEffect *_glowEffect;
-    _Bool _cachedDarkMode;
-    UIColor *_cachedTintColor;
-    UIColor *_tintColor;
-    double _blurRadius;
 }
 
 - (void);
+- (void)me change item with new group name:(id)arg1 %@;
 - (void);
-- (void);
-- (double);
+- (double)compositionSessionType;
 - (id),;
 - (void);
 - (void)ÙLh;

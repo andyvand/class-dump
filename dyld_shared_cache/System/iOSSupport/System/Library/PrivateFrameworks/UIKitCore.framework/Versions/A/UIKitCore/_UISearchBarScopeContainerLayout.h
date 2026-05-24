@@ -6,23 +6,12 @@
 
 #import <UIKitCore/_UISearchBarLayoutBase.h>
 
-@class UIView, _UISearchBarSearchContainerLayout;
 @protocol _UISearchBarContainerSublayoutDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchBarScopeContainerLayout : _UISearchBarLayoutBase
 {
     _Bool _collapsed;
-    _Bool _hasScopeBar;
-    id <_UISearchBarContainerSublayoutDelegate> _delegate;
-    _UISearchBarSearchContainerLayout *_neighboringSearchLayout;
-    UIView *_scopeBar;
-    unsigned long long _numberOfScopeTitles;
-    CDUnknownBlockType _hostedScopeBarHeightForBarMetrics;
-    CDUnknownBlockType _hostedScopeBarTopInsetForBarMetrics;
-    double _scopeBarOpacity;
-    struct CGRect _scopeBarLayoutFrame;
-    struct UIEdgeInsets _defaultScopeBarInsets;
 }
 
 - (double);
@@ -36,10 +25,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)a°!hCùñb1Â0@ù
 × ;
-- (void)sibilityValueChanged:(id)arg1;
-- (void)nCentroid;
-- (id)nnectionWithCompletionHandler:(struct _NSZone *)arg1;
-- (struct CGRect);
+- (void)accessibilityValueChanged:(id)arg1;
+- (void)_beginCentroid;
+- (id)__prepareForDisconnectionWithCompletionHandler:(struct _NSZone *)arg1;
+- (struct CGRect)_notifyVisibilityDidChangeRoot: /* Error: Ran out of types for this method. */;
 - (_Bool)for rendering the bitmap data corner.;
 - (void)ssed with an option not previously specified?;
 - (void)ntaining view:(unsigned long long)arg1 %@ at index path:%@
@@ -59,19 +48,7 @@ Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: 
 - (void)FÒ]_;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic) struct UIEdgeInsets containerSpecificInsets;
-@property(nonatomic) struct UIEdgeInsets defaultScopeBarInsets; // @synthesize defaultScopeBarInsets=_defaultScopeBarInsets;
 @property(nonatomic) __weak id <_UISearchBarContainerSublayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasScopeBar; // @synthesize hasScopeBar=_hasScopeBar;
-@property(copy, nonatomic) CDUnknownBlockType hostedScopeBarHeightForBarMetrics; // @synthesize hostedScopeBarHeightForBarMetrics=_hostedScopeBarHeightForBarMetrics;
-@property(copy, nonatomic) CDUnknownBlockType hostedScopeBarTopInsetForBarMetrics; // @synthesize hostedScopeBarTopInsetForBarMetrics=_hostedScopeBarTopInsetForBarMetrics;
-@property(readonly, nonatomic) double naturalContainerHeight;
-@property(retain, nonatomic) _UISearchBarSearchContainerLayout *neighboringSearchLayout; // @synthesize neighboringSearchLayout=_neighboringSearchLayout;
-@property(nonatomic) unsigned long long numberOfScopeTitles; // @synthesize numberOfScopeTitles=_numberOfScopeTitles;
-@property(retain, nonatomic) UIView *scopeBar; // @synthesize scopeBar=_scopeBar;
-@property(readonly, nonatomic) struct CGRect scopeBarLayoutFrame; // @synthesize scopeBarLayoutFrame=_scopeBarLayoutFrame;
-@property(readonly, nonatomic) double scopeBarOpacity; // @synthesize scopeBarOpacity=_scopeBarOpacity;
 
 @end
 

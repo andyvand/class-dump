@@ -9,7 +9,6 @@
 @interface BSIntegerSet
 {
     NSHashTable *_hashTable;
-    _Bool _hasZeroValue;
 }
 
 - (void);
@@ -24,8 +23,8 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)dded next symptom;
+- (void)h;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

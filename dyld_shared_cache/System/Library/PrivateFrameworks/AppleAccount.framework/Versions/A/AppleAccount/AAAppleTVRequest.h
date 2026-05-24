@@ -13,8 +13,8 @@
     ACAccount *_account;
 }
 
-- (id);
-- (void)edCustodians: /* Error: Ran out of types for this method. */;
+- (id)CPMLTrainer;
+- (void)fetchSuggestedCustodians: /* Error: Ran out of types for this method. */;
 
 @end
 

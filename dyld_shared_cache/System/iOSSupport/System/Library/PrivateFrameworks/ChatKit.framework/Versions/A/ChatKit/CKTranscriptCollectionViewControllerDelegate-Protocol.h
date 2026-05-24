@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessagePartChatItem, CKViewController, NSString;
+@protocol CKCoreTranscriptControllerProtocol;
+
 @protocol CKTranscriptCollectionViewControllerDelegate
+- (CKMessagePartChatItem *)x;
+- (void)avaScript error:(CKViewController<CKCoreTranscriptControllerProtocol> *)arg1 %@;
+
+@optional
+- (void);
+- (void);
+- (void)convertSketchAttachment:(CKViewController<CKCoreTranscriptControllerProtocol> *)arg1 toInlineDrawingAtRange:inNote: /* Error: Ran out of types for this method. */;
+- (NSString *)ID;
+- (struct CGRect)V_titleLabel;
+- (void)u;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UserNotifications/_UNNotificationCommunicationContext.h>
 
-@class NSArray, NSString, NSURL, _UNNotificationContact;
+@class NSString;
 
 @interface _UNMutableNotificationCommunicationContext : _UNNotificationCommunicationContext
 {
@@ -26,26 +26,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *associatedObjectUri; // @dynamic associatedObjectUri;
-@property(copy) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(getter=isBusinessCorrespondence) _Bool businessCorrespondence; // @dynamic businessCorrespondence;
-@property long long capabilities; // @dynamic capabilities;
-@property(copy) NSURL *contentURL; // @dynamic contentURL;
-@property(copy) NSString *displayName; // @dynamic displayName;
 @property(copy) NSString *identifier; // @dynamic identifier;
-@property(copy) NSString *imageName; // @dynamic imageName;
-@property _Bool mentionsCurrentUser; // @dynamic mentionsCurrentUser;
-@property _Bool notifyRecipientAnyway; // @dynamic notifyRecipientAnyway;
-@property unsigned long long recipientCount; // @dynamic recipientCount;
-@property(copy) NSArray *recipients; // @dynamic recipients;
-@property(getter=isReplyToCurrentUser) _Bool replyToCurrentUser; // @dynamic replyToCurrentUser;
-@property(copy) _UNNotificationContact *sender; // @dynamic sender;
-@property(getter=isSystemImage) _Bool systemImage; // @dynamic systemImage;
 
 @end
 

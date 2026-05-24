@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long)!ÄAù±1Â0@ù
 × ;
-- (id):(struct _NSZone *)arg1 hardwareVersion:error: /* Error: Ran out of types for this method. */;
+- (id)queryCompleteForAccessory:(struct _NSZone *)arg1 hardwareVersion:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long entitlements; // @synthesize entitlements=_entitlements;

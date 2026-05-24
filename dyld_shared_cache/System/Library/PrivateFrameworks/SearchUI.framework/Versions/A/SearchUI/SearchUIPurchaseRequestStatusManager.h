@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSSink, NSMutableDictionary, NSNotificationCenter;
+@class BPSSink;
 
 @interface SearchUIPurchaseRequestStatusManager
 {
     BPSSink *_biomeSink;
-    NSNotificationCenter *_notificationCenter;
-    NSMutableDictionary *_requestStatuses;
 }
 
 + (id);
@@ -25,13 +23,11 @@
 - (void);
 - (id);
 - (void);
-- (id)atingWithState:objects:count: /* Error: Ran out of types for this method. */;
-- (void)archUIUtilities;
+- (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (void)SearchUIUtilities;
 
 // Remaining properties
 @property(retain, nonatomic) BPSSink *biomeSink; // @synthesize biomeSink=_biomeSink;
-@property(retain, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSMutableDictionary *requestStatuses; // @synthesize requestStatuses=_requestStatuses;
 
 @end
 

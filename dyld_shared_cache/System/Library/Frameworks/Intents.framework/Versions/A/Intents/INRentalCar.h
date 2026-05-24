@@ -9,44 +9,29 @@
 @interface INRentalCar
 {
     NSString *_rentalCompanyName;
-    NSString *_type;
-    NSString *_make;
-    NSString *_model;
-    NSString *_rentalCarDescription;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)fetchSensorsActiveWithReply:(id)arg1;
+- (id);
+- (unsigned long long)_;
+- (id);
+- (_Bool)initWithScanResult:(id)arg1;
+- (void)ccessfully locked the asset entries = %@;
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)entsRange;
-- (void)rovideStatusOptionsCollectionForSearchForNotebookItems:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)dateComponentsRange;
+- (void)provideStatusOptionsCollectionForSearchForNotebookItems:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)òÿ¶ÿMC;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *make; // @synthesize make=_make;
-@property(readonly, copy) NSString *model; // @synthesize model=_model;
-@property(readonly, copy) NSString *rentalCarDescription; // @synthesize rentalCarDescription=_rentalCarDescription;
 @property(readonly, copy) NSString *rentalCompanyName; // @synthesize rentalCompanyName=_rentalCompanyName;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end
 

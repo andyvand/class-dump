@@ -4,37 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, NSURL;
+@class NSString;
 
 @interface SKFilesystem
 {
     _Bool _isEncrypted;
-    _Bool _defaultEffaceable;
-    _Bool _isCaseSensitive;
-    _Bool _isJournaled;
-    _Bool _shouldShow;
-    int _sortPriority;
-    NSString *_localizedName;
-    NSString *_type;
-    NSString *_majorType;
-    NSString *_dmPersonality;
-    unsigned long long _minimumSize;
-    NSString *_contentMask;
-    NSString *_localizedKey;
-    NSString *_unlocalizedName;
-    NSString *_unlocalizedEncryptedName;
-    NSString *_formatArgs;
-    NSURL *_formatExecutable;
-    NSString *_repairArgs;
-    NSURL *_repairExecutable;
-    NSString *_verificationArgs;
-    NSString *_liveVerificationArgs;
-    NSURL *_verificationExecutable;
-    NSString *_xmlOutputArg;
-    NSBundle *_bundle;
 }
 
 + (void);
++ (id)2;
++ (id)i(|	;
 + (id);
 + (id);
 + (id);
@@ -42,10 +21,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)T(;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -67,28 +44,28 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ate"I"minBitrate"I"initialBitrate"I"isTrafficBursty"B"isTrafficSpatial"B"featureFlags"I"configType"i}"mediaEvent"{?="mediaEventType"I"additionalFlushCount"I"transactionID"I"audioStallBitrate"I"audioErasure"f"isKeyFrame"B"isTransitionToFEC"B"videoStallTimeDelta"d"videoStallTimeTotal"d"refreshFrameTimestamp"I"refreshFramePayloadType"I"refreshFramePacketCount"I"idsParticipantID"Q}"nwConnection"{?="version"C"direction"C"interfaceType"C"notificationType"C"timestamp"Q"maxThroughputBps"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I"averageDelayMillisecond"I"averageThroughputBps"Q"rateTrendSuggestion"i"packetLossPerFrame"I"sequenceNumber"S""(?="wifi"{?="frequencyBand"C"intermittentState"C"estimatedIntermittentPeriod"S"singleOutagePeriod"S"btCoex"C"radioCoex"C"qualityScoreDelayRx"C"qualityScoreDelayTx"C"qualityScoreLossRx"C"qualityScoreLossTx"C"qualityScoreChannel"C"offChannelTimeRatio"f"detectedFrequentOffChannelActivity"B"wlanDutyCycle"S"wifiObservedTxBitrate"[6I]"maxRadioCoex"C"accumulatedOffChannelTime"q"maxSingleOutagePeriod"S"qualityScoreDelayRxAverage"f"qualityScoreDelayTxAverage"f"qualityScoreLossRxAverage"f"qualityScoreLossTxAverage"f"qualityScoreChannelAverage"f}"baseband"{?="radioAccessTechnology"C"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBLER"C"downlinkBLER"C"bandwidthLimitationIndication"C"cdrxState"C"cdrxCycle"S"estimatedOutagePeriod"S"outageState"C})}"videoLossFeedback"{tagVCStatisticsVideoLossFeedback="frameRTPTimestamp"I"packetsReceived"S"frameSize"C"packetsLost"C}"localRCEvent"{tagVCStatisticsLocalRCEvent="recentSendTime"d"recentFeedbackTime"d"bytesInFlight"I}"receiveTimeReport"{tagVCStatisticsReceiveTimeReport="reportTimestamp"I"packetSendTimestamp"I"packetReceiveTimestamp"I"packetLength"S"packetSeqNumber"S"probingSequenceID"I"isProbingSequence"B"owrd"d"bandwidthEstimation"I"sendBitrate"I"receiveBitrate"I}"addRemoveEndPoint"{tagVCStatisticsAddRemoveEndPoint="remoteSSRC"I"isAdd"B})};
 - (void);
 - (_Bool);
 - (id);
@@ -98,41 +75,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)i;;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)T<VhVxV;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain) NSString *contentMask; // @synthesize contentMask=_contentMask;
-@property _Bool defaultEffaceable; // @synthesize defaultEffaceable=_defaultEffaceable;
-@property(retain) NSString *dmPersonality; // @synthesize dmPersonality=_dmPersonality;
-@property(readonly) NSString *formatArgs; // @synthesize formatArgs=_formatArgs;
-@property(readonly) NSURL *formatExecutable; // @synthesize formatExecutable=_formatExecutable;
-@property _Bool isCaseSensitive; // @synthesize isCaseSensitive=_isCaseSensitive;
-@property _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(readonly) _Bool isExtension;
-@property _Bool isJournaled; // @synthesize isJournaled=_isJournaled;
-@property(readonly) NSString *liveVerificationArgs; // @synthesize liveVerificationArgs=_liveVerificationArgs;
-@property(retain) NSString *localizedKey; // @synthesize localizedKey=_localizedKey;
 @property(retain) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain) NSString *majorType; // @synthesize majorType=_majorType;
-@property unsigned long long minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(readonly) NSString *repairArgs; // @synthesize repairArgs=_repairArgs;
-@property(readonly) NSURL *repairExecutable; // @synthesize repairExecutable=_repairExecutable;
-@property _Bool shouldShow; // @synthesize shouldShow=_shouldShow;
-@property int sortPriority; // @synthesize sortPriority=_sortPriority;
-@property(retain) NSString *type; // @synthesize type=_type;
-@property(retain) NSString *unlocalizedEncryptedName; // @synthesize unlocalizedEncryptedName=_unlocalizedEncryptedName;
-@property(retain) NSString *unlocalizedName; // @synthesize unlocalizedName=_unlocalizedName;
-@property(readonly) NSString *verificationArgs; // @synthesize verificationArgs=_verificationArgs;
-@property(readonly) NSURL *verificationExecutable; // @synthesize verificationExecutable=_verificationExecutable;
-@property(readonly) NSString *xmlOutputArg; // @synthesize xmlOutputArg=_xmlOutputArg;
 
 @end
 

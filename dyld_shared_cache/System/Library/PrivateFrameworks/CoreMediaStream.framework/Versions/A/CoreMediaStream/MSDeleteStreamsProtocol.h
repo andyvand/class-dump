@@ -6,19 +6,17 @@
 
 #import <CoreMediaStream/MSStreamsProtocol.h>
 
-@class NSMutableArray;
 @protocol MSDeleteStreamsProtocolDelegate;
 
 @interface MSDeleteStreamsProtocol : MSStreamsProtocol
 {
     struct _MSDSPCContext _context;
-    NSMutableArray *_collectionsInFlight;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)obably logged out from iCloud).;
+- (void)le remote and remote snapshots are unsupported;
+- (void)ic}@Purging %lu expired metadata records for homes not yet migrated.;
+- (void)blic}@All stashed metadata for homes not yet migrated is expired - purging.;
 - (id);
 - (void);
 - (void);

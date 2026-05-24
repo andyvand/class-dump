@@ -12,8 +12,8 @@
 + (id);
 - (id);
 - (void);
-- (id);
-- (void)DatabaseConnectionInTransaction;
+- (id)3;
+- (void)_EDPersistenceDatabaseConnectionInTransaction;
 
 @end
 

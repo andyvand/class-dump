@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+@class HMDHomeActivityStateManager, NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol HMDHomeActivityStateObserver
+- (void)@"GEOStorageRouteRequestStorage"16@0:(HMDHomeActivityStateManager *)arg1 8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;

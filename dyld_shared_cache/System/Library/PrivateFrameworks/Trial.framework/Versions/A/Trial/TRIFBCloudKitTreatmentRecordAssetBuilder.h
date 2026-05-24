@@ -9,13 +9,12 @@
 @interface TRIFBCloudKitTreatmentRecordAssetBuilder
 {
     AFBBufferBuilder *_owner;
-    struct CloudKitTreatmentRecordAssetBuilder *_bldr;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ø;

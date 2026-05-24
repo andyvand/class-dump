@@ -9,13 +9,11 @@
 @interface NSSuggestionItemResponse
 {
     NSArray *_itemSections;
-    long long _phase;
-    long long _preferredHighlight;
 }
 
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (long long);
@@ -25,13 +23,11 @@
 - (_Bool);
 - (void)
 × ;
-- (id)EnterFullScreen;
-- (void)uma;
+- (id)_tabbedWindowsHandleEnterFullScreen;
+- (void)ContentLuma;
 
 // Remaining properties
 @property(copy) NSArray *itemSections; // @synthesize itemSections=_itemSections;
-@property long long phase; // @synthesize phase=_phase;
-@property long long preferredHighlight; // @synthesize preferredHighlight=_preferredHighlight;
 
 @end
 

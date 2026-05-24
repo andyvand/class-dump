@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
-@protocol AXUIFloatingViewPresenterDelegate;
+@class UIView;
 
 @interface AXUIFloatingViewPresenter
 {
     _Bool _withinSafeArea;
-    id <AXUIFloatingViewPresenterDelegate> _delegate;
-    UIView *_containingView;
-    unsigned long long _alignedEdge;
-    UIView *_floatingView;
-    NSArray *_edgeConstraints;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)Ig|;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)"o;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignedEdge; // @synthesize alignedEdge=_alignedEdge;
-@property(readonly, nonatomic) UIView *containingView; // @synthesize containingView=_containingView;
-@property(nonatomic) __weak id <AXUIFloatingViewPresenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *edgeConstraints; // @synthesize edgeConstraints=_edgeConstraints;
 @property(retain, nonatomic) UIView *floatingView; // @synthesize floatingView=_floatingView;
-@property(readonly, nonatomic) _Bool withinSafeArea; // @synthesize withinSafeArea=_withinSafeArea;
 
 @end
 

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURLRequest, NSURLResponse;
-
 __attribute__((visibility("hidden")))
 @interface AMSHTTPArchiveTransactionMetrics
 {
     _Bool _apsRelayAttempted;
-    _Bool _apsRelaySucceeded;
-    NSURLRequest *_request;
-    NSURLResponse *_response;
-    long long _resourceFetchType;
-    NSDate *_requestStartDate;
-    NSDate *_responseEndDate;
-    NSDate *_fetchStartDate;
 }
 
 + (_Bool);
@@ -26,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)IMAppleStoreHelper;
 - (_Bool);
-- (long long);
+- (long long)aemon.Network.Provider.Secondary.Open.Begin;
 - (id);
 - (void);
 - (_Bool);
@@ -40,13 +31,6 @@ AsAs4AsAs1As@lAs¶nAsÝhAsjAstAs¥vAs¡pAsrAs;lAsnAsýhAs9jAsJtAs�
 
 // Remaining properties
 @property(readonly) _Bool apsRelayAttempted; // @synthesize apsRelayAttempted=_apsRelayAttempted;
-@property(readonly) _Bool apsRelaySucceeded; // @synthesize apsRelaySucceeded=_apsRelaySucceeded;
-@property(readonly) NSDate *fetchStartDate; // @synthesize fetchStartDate=_fetchStartDate;
-@property(readonly) NSURLRequest *request; // @synthesize request=_request;
-@property(readonly) NSDate *requestStartDate; // @synthesize requestStartDate=_requestStartDate;
-@property(readonly) long long resourceFetchType; // @synthesize resourceFetchType=_resourceFetchType;
-@property(readonly) NSURLResponse *response; // @synthesize response=_response;
-@property(readonly) NSDate *responseEndDate; // @synthesize responseEndDate=_responseEndDate;
 
 @end
 

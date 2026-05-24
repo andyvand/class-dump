@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface CHSWidgetExtensionSet
 {
     void widgetExtensionContainers;
-    void allExtensions;
-    id equivalentBundleIdentifierResolver;
-    id iconResolver;
 }
 
 - (id);
@@ -27,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *allExtensions;
 @property(nonatomic, copy) NSArray *widgetExtensionContainers;
 
 @end

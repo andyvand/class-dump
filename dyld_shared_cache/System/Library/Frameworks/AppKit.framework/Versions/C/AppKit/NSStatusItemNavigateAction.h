@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSStatusItemNavigateAction
 {
     unsigned int _command;
-    unsigned int _options;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned int command; // @synthesize command=_command;
-@property unsigned int options; // @synthesize options=_options;
 
 @end
 

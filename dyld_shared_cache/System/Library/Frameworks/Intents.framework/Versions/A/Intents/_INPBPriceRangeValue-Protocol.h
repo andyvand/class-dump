@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDecimalNumberValue, _INPBValueMetadata;
+@class NSString, _INPBValueMetadata;
 
 @protocol _INPBPriceRangeValue
+- (_Bool)ns/C/Foundation;
+- (void)delegateQueue;
 - (_Bool)ed;
-- (void)eCarSignal:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)oCallBackOptionsCollectionForStartCall:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSignalsOptionsForActivateCarSignal:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideCallRecordToCallBackOptionsCollectionForStartCall:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly, nonatomic) _Bool hasMaximumPrice;
-@property(readonly, nonatomic) _Bool hasMinimumPrice;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBDecimalNumberValue *maximumPrice;
-@property(retain, nonatomic) _INPBDecimalNumberValue *minimumPrice;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

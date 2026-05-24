@@ -8,10 +8,6 @@
 {
     id _title;
     id _titleIcon;
-    id _subtitle;
-    id _thumbnail;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

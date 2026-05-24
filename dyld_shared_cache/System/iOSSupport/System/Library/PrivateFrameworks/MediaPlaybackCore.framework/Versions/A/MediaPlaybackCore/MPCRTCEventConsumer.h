@@ -4,77 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEvent, NSDictionary, NSObject, NSString;
-@protocol MPCPlaybackEngineEventStreamSubscription, MPCRTCEventConsumerTestingDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol MPCPlaybackEngineEventStreamSubscription, OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface MPCRTCEventConsumer
 {
     NSObject<OS_dispatch_group> *_rtcGroup;
-    NSObject<OS_dispatch_queue> *_rtcQueue;
-    MPCPlaybackEngineEvent *_cachedFirstItemAssetLoadEvent;
-    MPCPlaybackEngineEvent *_lastItemStartIncitingEvent;
-    MPCPlaybackEngineEvent *_pendingItemSummaryEvent;
-    NSDictionary *_pendingQOSMetricsPayload;
-    id <MPCRTCEventConsumerTestingDelegate> _testingDelegate;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
 + (id);
 + (id);
 + (unsigned int);
++ (id)6@0:(id)arg1 8;
++ (id)"16i24@"ACDAccountStore"28@"ACAccount"36;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@"ACAccount"16@"ACDAccountStore"24;
+- (void)@0:(id)arg1 8@16i24@28@36;
+- (void)"16;
+- (void)16;
+- (void)0:(id)arg1 8:(id)arg2 16;
+- (void)systemLibraryURL;
+- (void)shouldAutoEnableiCPLOnOSXWithError:(id)arg1;
+- (void)setUuid:(id)arg1;
+- (void)setCloudPhotoLibraryEnabled:(long long)arg1;
+- (id)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (id)cloudInternalClient;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)lt Image Playground library:(id)arg1 %@;
+- (id)eady for cloud photo library;
+- (id)CloudPhotoLibrary...;
+- (id)d if necessary by calling cloudInternalClient isReadyForCloudPhotoLibrary...;
+- (id)Disabling;
+- (id)_did_change;
+- (id)YES;
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)
+;
+- (void));
+- (id)__DATA;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void)}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <MPCRTCEventConsumerTestingDelegate> testingDelegate; // @synthesize testingDelegate=_testingDelegate;
 
 @end
 

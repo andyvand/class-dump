@@ -5,5 +5,6 @@
 //
 
 @protocol MLNearestNeighborsIndex
+- (_Bool);
 @end
 

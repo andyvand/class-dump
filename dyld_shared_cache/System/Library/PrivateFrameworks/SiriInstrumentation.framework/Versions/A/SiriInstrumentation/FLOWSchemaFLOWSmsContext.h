@@ -6,59 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWContact, FLOWSchemaFLOWLanguageConfidenceMatrix, FLOWSchemaFLOWMessageTapback, FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage, FLOWSchemaFLOWSmsAudioContext, FLOWSchemaFLOWSmsTextContext, FLOWSchemaFLOWTextMessageLength, NSArray, NSData;
-
 @interface FLOWSchemaFLOWSmsContext : SISchemaInstrumentationMessage
 {
     int _messageType;
-    _Bool _emojiUsed;
-    _Bool _keyboardUsed;
-    NSArray *_recipientTypes;
-    unsigned int _messageDurationMs;
-    FLOWSchemaFLOWTextMessageLength *_textMessageLength;
-    FLOWSchemaFLOWSmsTextContext *_textContext;
-    FLOWSchemaFLOWSmsAudioContext *_audioContext;
-    NSArray *_personTypes;
-    NSArray *_readMessageTypes;
-    NSArray *_isMultiLinguals;
-    NSArray *_isReadables;
-    NSArray *_isGroupMessages;
-    FLOWSchemaFLOWLanguageConfidenceMatrix *_languageConfidenceMatrix;
-    _Bool _isSenderShortCode;
-    _Bool _isLongMessage;
-    _Bool _isReply;
-    int _appendingActionReadMessagesCount;
-    NSArray *_isSenderShortCodeLists;
-    NSArray *_isLongMessageLists;
-    FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage *_richAttachmentIntelligenceFeatureUsage;
-    NSArray *_messageDurationsInSeconds;
-    int _userPersona;
-    _Bool _isSummarized;
-    int _summarySourceType;
-    FLOWSchemaFLOWContact *_contact;
-    FLOWSchemaFLOWMessageTapback *_tapback;
-    struct {
-        unsigned int messageType:1;
-        unsigned int emojiUsed:1;
-        unsigned int keyboardUsed:1;
-        unsigned int isSenderShortCode:1;
-        unsigned int isLongMessage:1;
-        unsigned int isReply:1;
-        unsigned int appendingActionReadMessagesCount:1;
-        unsigned int userPersona:1;
-        unsigned int isSummarized:1;
-        unsigned int summarySourceType:1;
-    } _has;
-    _Bool _hasMessageDurationMs;
-    _Bool _hasTextMessageLength;
-    _Bool _hasTextContext;
-    _Bool _hasAudioContext;
-    _Bool _hasLanguageConfidenceMatrix;
-    _Bool _hasRichAttachmentIntelligenceFeatureUsage;
-    _Bool _hasContact;
-    _Bool _hasTapback;
-    unsigned long long _whichMessagesize;
-    unsigned long long _whichMessagecontext;
 }
 
 - (unsigned long long);
@@ -82,6 +32,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,8 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,17 +56,17 @@
 - (id);
 - (unsigned long long);
 - (int);
-- (id);
+- (id);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)m;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)?׀;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -187,38 +137,38 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (unsigned long long)@9xB;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)zN;
+- (_Bool)rtTypes;
+- (id);
+- (void)si9kF3TCOFmUp;
+- (void);
+- (_Bool);
+- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)ABCardViewAddressingGrammarProperty;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void)ÁrÐ!´Gù±Þ1Â0@ù
@@ -230,54 +180,7 @@
 - (void)EË$;
 
 // Remaining properties
-@property(nonatomic) int appendingActionReadMessagesCount; // @synthesize appendingActionReadMessagesCount=_appendingActionReadMessagesCount;
-@property(retain, nonatomic) FLOWSchemaFLOWSmsAudioContext *audioContext; // @synthesize audioContext=_audioContext;
-@property(retain, nonatomic) FLOWSchemaFLOWContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool emojiUsed; // @synthesize emojiUsed=_emojiUsed;
-@property(nonatomic) _Bool hasAppendingActionReadMessagesCount;
-@property(nonatomic) _Bool hasAudioContext; // @synthesize hasAudioContext=_hasAudioContext;
-@property(nonatomic) _Bool hasContact; // @synthesize hasContact=_hasContact;
-@property(nonatomic) _Bool hasEmojiUsed;
-@property(nonatomic) _Bool hasIsLongMessage;
-@property(nonatomic) _Bool hasIsReply;
-@property(nonatomic) _Bool hasIsSenderShortCode;
-@property(nonatomic) _Bool hasIsSummarized;
-@property(nonatomic) _Bool hasKeyboardUsed;
-@property(nonatomic) _Bool hasLanguageConfidenceMatrix; // @synthesize hasLanguageConfidenceMatrix=_hasLanguageConfidenceMatrix;
-@property(nonatomic) _Bool hasMessageDurationMs; // @synthesize hasMessageDurationMs=_hasMessageDurationMs;
-@property(nonatomic) _Bool hasMessageType;
-@property(nonatomic) _Bool hasRichAttachmentIntelligenceFeatureUsage; // @synthesize hasRichAttachmentIntelligenceFeatureUsage=_hasRichAttachmentIntelligenceFeatureUsage;
-@property(nonatomic) _Bool hasSummarySourceType;
-@property(nonatomic) _Bool hasTapback; // @synthesize hasTapback=_hasTapback;
-@property(nonatomic) _Bool hasTextContext; // @synthesize hasTextContext=_hasTextContext;
-@property(nonatomic) _Bool hasTextMessageLength; // @synthesize hasTextMessageLength=_hasTextMessageLength;
-@property(nonatomic) _Bool hasUserPersona;
-@property(copy, nonatomic) NSArray *isGroupMessages; // @synthesize isGroupMessages=_isGroupMessages;
-@property(nonatomic) _Bool isLongMessage; // @synthesize isLongMessage=_isLongMessage;
-@property(copy, nonatomic) NSArray *isLongMessageLists; // @synthesize isLongMessageLists=_isLongMessageLists;
-@property(copy, nonatomic) NSArray *isMultiLinguals; // @synthesize isMultiLinguals=_isMultiLinguals;
-@property(copy, nonatomic) NSArray *isReadables; // @synthesize isReadables=_isReadables;
-@property(nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(nonatomic) _Bool isSenderShortCode; // @synthesize isSenderShortCode=_isSenderShortCode;
-@property(copy, nonatomic) NSArray *isSenderShortCodeLists; // @synthesize isSenderShortCodeLists=_isSenderShortCodeLists;
-@property(nonatomic) _Bool isSummarized; // @synthesize isSummarized=_isSummarized;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool keyboardUsed; // @synthesize keyboardUsed=_keyboardUsed;
-@property(retain, nonatomic) FLOWSchemaFLOWLanguageConfidenceMatrix *languageConfidenceMatrix; // @synthesize languageConfidenceMatrix=_languageConfidenceMatrix;
-@property(nonatomic) unsigned int messageDurationMs; // @synthesize messageDurationMs=_messageDurationMs;
-@property(copy, nonatomic) NSArray *messageDurationsInSeconds; // @synthesize messageDurationsInSeconds=_messageDurationsInSeconds;
 @property(nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(copy, nonatomic) NSArray *personTypes; // @synthesize personTypes=_personTypes;
-@property(copy, nonatomic) NSArray *readMessageTypes; // @synthesize readMessageTypes=_readMessageTypes;
-@property(copy, nonatomic) NSArray *recipientTypes; // @synthesize recipientTypes=_recipientTypes;
-@property(retain, nonatomic) FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage *richAttachmentIntelligenceFeatureUsage; // @synthesize richAttachmentIntelligenceFeatureUsage=_richAttachmentIntelligenceFeatureUsage;
-@property(nonatomic) int summarySourceType; // @synthesize summarySourceType=_summarySourceType;
-@property(retain, nonatomic) FLOWSchemaFLOWMessageTapback *tapback; // @synthesize tapback=_tapback;
-@property(retain, nonatomic) FLOWSchemaFLOWSmsTextContext *textContext; // @synthesize textContext=_textContext;
-@property(retain, nonatomic) FLOWSchemaFLOWTextMessageLength *textMessageLength; // @synthesize textMessageLength=_textMessageLength;
-@property(nonatomic) int userPersona; // @synthesize userPersona=_userPersona;
-@property(readonly, nonatomic) unsigned long long whichMessagecontext; // @synthesize whichMessagecontext=_whichMessagecontext;
-@property(readonly, nonatomic) unsigned long long whichMessagesize; // @synthesize whichMessagesize=_whichMessagesize;
 
 @end
 

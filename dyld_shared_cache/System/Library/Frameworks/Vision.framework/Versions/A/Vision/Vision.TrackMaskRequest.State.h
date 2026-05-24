@@ -7,8 +7,6 @@
 @interface Vision.TrackMaskRequest.State
 {
     id lastResult;
-    id lastAnalyzedTimeStamp;
-    id detectorState;
 }
 
 @end

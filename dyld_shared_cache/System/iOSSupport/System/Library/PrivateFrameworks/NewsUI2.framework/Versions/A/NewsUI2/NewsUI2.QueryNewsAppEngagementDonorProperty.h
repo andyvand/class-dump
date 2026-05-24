@@ -7,23 +7,6 @@
 @interface NewsUI2.QueryNewsAppEngagementDonorProperty
 {
     id id;
-    id configuration;
-    id bundleSubscriptionStatus;
-    id newsletterSubscription;
-    id notificationCategoriesAllowlist;
-    id authorizationStatus;
-    id firstAppLaunchDate;
-    id userSegmentsSetIDs;
-    id sportsOnboardingStatus;
-    id sportsOnboardingCompletedDate;
-    id lastFetchedSettings;
-    id lastFetchedLocationSharingStatus;
-    id locationSharingStatus;
-    id recipeImportVersion;
-    id userInfo;
-    id configurationManager;
-    id notificationService;
-    id locationDetectionManager;
 }
 
 - (void);

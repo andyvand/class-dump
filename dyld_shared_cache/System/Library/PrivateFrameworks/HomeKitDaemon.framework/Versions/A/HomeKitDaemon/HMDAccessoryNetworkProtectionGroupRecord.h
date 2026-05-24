@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryNetworkProtectionGroup;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkProtectionGroupRecord
 {
     _Bool _active;
-    _Bool _persisted;
-    HMDAccessoryNetworkProtectionGroup *_group;
 }
 
 + (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)rom auth service! Error:(id)arg1 %@;
+- (_Bool)!;
+- (void);
 - (_Bool);
 - (id)e to serialize request TLV:%@ /* Error: Ran out of types for this method. */;
 - (void)HB=;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly) HMDAccessoryNetworkProtectionGroup *group; // @synthesize group=_group;
-@property(nonatomic, getter=isPersisted) _Bool persisted; // @synthesize persisted=_persisted;
 
 @end
 

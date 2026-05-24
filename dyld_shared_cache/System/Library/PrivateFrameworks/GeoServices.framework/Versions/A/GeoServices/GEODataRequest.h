@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEODataRequestThrottlerToken, NSData, NSDictionary, NSString, NSURL;
-@protocol GEORequestCounterTicket;
+@class NSData, NSURL;
 
 @interface GEODataRequest
 {
     NSURL *_URL;
-    GEOApplicationAuditToken *_auditToken;
-    NSDictionary *_additionalHTTPHeaders;
-    NSData *_bodyData;
-    NSData *_cachedData;
-    id <GEORequestCounterTicket> _requestCounterTicket;
-    NSString *_backgroundSessionIdentifier;
-    GEODataRequestThrottlerToken *_throttleToken;
-    double _timeoutInterval;
-    CDStruct_d1a7ebee _kind;
-    unsigned long long _multipathServiceType;
-    unsigned long long _multipathAlternatePort;
-    unsigned long long _options;
-    _Bool _prefersDirectNetworking;
 }
 
 - (_Bool);
@@ -33,25 +19,25 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)setDisableRCSelection: /* Error: Ran out of types for this method. */;
+- (id)_handleSessionProvidingDelegateEndInterruption: /* Error: Ran out of types for this method. */;
+- (id)on = %@;
+- (_Bool)u, isVoiceOverSiriSoundsEnabled = %d;
+- (id)lableSecureCaptures];
 - (id);
 - (id);
-- (_Bool);
+- (id)o the next filter;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ticketForSearchAlongRouteWithCategory:(id)arg1 searchQuery:completionItem:originalWaypointRouteData:zilchData:sessionState:routeId:routeAttributes:maxResults:traits:searchSessionData: /* Error: Ran out of types for this method. */;
+- (void)h;
 - (id);
 - (id){?="has_transitId"b1"has_isHidden"b1"read_unknownFields"b1"read_artworks"b1"read_labels"b1"read_searchDisplayName"b1"read_stopLocationForTrip"b1"read_styleAttributesForTrip"b1"read_systemNames"b1"read_timezone"b1"read_transitName"b1"wrote_anyField"b1};
-- (_Bool)t: /* Error: Ran out of types for this method. */;
+- (_Bool)setEarliestArrivalOffset: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)led once per object;
 - (_Bool)à
 ;
-- (CDStruct_d1a7ebee)ð;
+- (CDStruct_026435ec)ð;
 - (id)roto"c
 LocalizationProto
 display_language (	
@@ -135,26 +121,7 @@ VenueField
 - (double)SÃ4=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSDictionary *additionalHTTPHeaders; // @synthesize additionalHTTPHeaders=_additionalHTTPHeaders;
-@property(readonly, nonatomic) _Bool allowTLSSessionTicketUse;
-@property(readonly, copy, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) NSString *backgroundSessionIdentifier; // @synthesize backgroundSessionIdentifier=_backgroundSessionIdentifier;
-@property(readonly, copy, nonatomic) NSData *bodyData; // @synthesize bodyData=_bodyData;
 @property(copy, nonatomic) NSData *cachedData; // @synthesize cachedData=_cachedData;
-@property(readonly, nonatomic) _Bool disallowCellularNetwork;
-@property(readonly, nonatomic) CDStruct_d1a7ebee kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) unsigned long long multipathAlternatePort; // @synthesize multipathAlternatePort=_multipathAlternatePort;
-@property(readonly, nonatomic) unsigned long long multipathServiceType; // @synthesize multipathServiceType=_multipathServiceType;
-@property(readonly, nonatomic) _Bool needsProxy;
-@property(readonly, nonatomic) _Bool prefersDirectNetworking; // @synthesize prefersDirectNetworking=_prefersDirectNetworking;
-@property(readonly, nonatomic) id <GEORequestCounterTicket> requestCounterTicket; // @synthesize requestCounterTicket=_requestCounterTicket;
-@property(readonly, nonatomic) _Bool requireInexpensiveNetwork;
-@property(readonly, nonatomic) _Bool requirePluggedIn;
-@property(readonly, nonatomic) _Bool requireUnconstrainedNetwork;
-@property(readonly, nonatomic) GEODataRequestThrottlerToken *throttleToken; // @synthesize throttleToken=_throttleToken;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(readonly, nonatomic) _Bool useHTTPPost;
 
 @end
 

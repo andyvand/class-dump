@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _MRTranscriptAlignmentProtobuf;
+@class _MRTranscriptAlignmentProtobuf;
 
 @interface MRTranscriptAlignment
 {
     _Bool _matchedBeginning;
-    _Bool _matchedEnd;
-    double _playerStartTime;
-    double _playerEndTime;
-    double _referenceStartTime;
-    double _referenceEndTime;
 }
 
 + (_Bool);
@@ -25,28 +20,21 @@
 - (void);
 - (double);
 - (double);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double)869;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)eenStartDate:endDate:withQueue:withCompletionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool matchedBeginning; // @synthesize matchedBeginning=_matchedBeginning;
-@property(nonatomic) _Bool matchedEnd; // @synthesize matchedEnd=_matchedEnd;
-@property(nonatomic) double playerEndTime; // @synthesize playerEndTime=_playerEndTime;
-@property(nonatomic) double playerStartTime; // @synthesize playerStartTime=_playerStartTime;
 @property(readonly, nonatomic) _MRTranscriptAlignmentProtobuf *protobuf;
-@property(nonatomic) double referenceEndTime; // @synthesize referenceEndTime=_referenceEndTime;
-@property(nonatomic) double referenceStartTime; // @synthesize referenceStartTime=_referenceStartTime;
 
 @end
 

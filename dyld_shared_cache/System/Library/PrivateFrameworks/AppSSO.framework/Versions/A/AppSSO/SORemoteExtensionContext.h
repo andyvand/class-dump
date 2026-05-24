@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationProviderExtensionLoginManager, NSMapTable, NSString, SOExtensionServiceConnection, SOExtensionViewService;
-@protocol ASAuthorizationProviderExtensionAuthorizationRequestHandler><ASAuthorizationProviderExtensionRegistrationHandler><POExtensionRegistrationProtocol, ASAuthorizationProviderExtensionAuthorizationRequestHandler><POExtensionRegistrationProtocol;
+@class SOExtensionServiceConnection;
 
 __attribute__((visibility("hidden")))
 @interface SORemoteExtensionContext
 {
     SOExtensionServiceConnection *_extensionServiceConnection;
-    id <ASAuthorizationProviderExtensionAuthorizationRequestHandler><POExtensionRegistrationProtocol> _extensionAuthorizationRequestHandler;
-    CDUnknownBlockType _finishAuthorizationCompletion;
-    NSMapTable *_requests;
-    SOExtensionViewService *_viewService;
-    ASAuthorizationProviderExtensionLoginManager *_extensionLoginManager;
-    CDUnknownBlockType _registrationCompletion;
-    CDUnknownBlockType _rotationCompletion;
-    CDUnknownBlockType _groupsCompletion;
-    CDUnknownBlockType _pictureCompletion;
 }
 
 + (id);
@@ -27,35 +17,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
 - (void);
 - (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (void)A,;
+- (CDUnknownBlockType)3;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,20 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) ASAuthorizationProviderExtensionLoginManager *extensionLoginManager; // @synthesize extensionLoginManager=_extensionLoginManager;
-@property(readonly, nonatomic) id <ASAuthorizationProviderExtensionAuthorizationRequestHandler><ASAuthorizationProviderExtensionRegistrationHandler><POExtensionRegistrationProtocol> extensionViewController;
-@property(copy) CDUnknownBlockType groupsCompletion; // @synthesize groupsCompletion=_groupsCompletion;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType pictureCompletion; // @synthesize pictureCompletion=_pictureCompletion;
 @property(copy) CDUnknownBlockType registrationCompletion; // @synthesize registrationCompletion=_registrationCompletion;
-@property(copy) CDUnknownBlockType rotationCompletion; // @synthesize rotationCompletion=_rotationCompletion;
-@property(readonly) Class superclass;
-@property __weak SOExtensionViewService *viewService; // @synthesize viewService=_viewService;
 
 @end
 

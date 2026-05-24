@@ -6,46 +6,16 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSDate, NSDecimalNumber, NSString, PKPeerPaymentQuoteCertificatesResponse, PKPeerPaymentRequestToken;
+@class NSString;
 
 @interface PKPeerPaymentQuoteRequest : PKPeerPaymentWebServiceRequest
 {
     _Bool _preserveCurrentBalance;
-    _Bool _hasUpdatedPaymentMethod;
-    _Bool _sendImmediately;
-    NSString *_orderIdentifier;
-    NSDecimalNumber *_amount;
-    NSString *_currency;
-    unsigned long long _externalFundingSource;
-    unsigned long long _destination;
-    unsigned long long _context;
-    unsigned long long _source;
-    PKPeerPaymentRequestToken *_requestToken;
-    NSString *_dpanIdentifier;
-    NSString *_fpanIdentifier;
-    long long _paymentNetwork;
-    unsigned long long _paymentMethodType;
-    NSString *_paymentMethodDescription;
-    NSString *_paymentMethodSuffix;
-    NSString *_recipientIdentifier;
-    NSString *_senderAddress;
-    unsigned long long _paymentMode;
-    unsigned long long _deviceTapFlow;
-    NSString *_recipientAddress;
-    unsigned long long _messagesContext;
-    NSString *_bankName;
-    NSString *_routingNumber;
-    NSString *_accountNumber;
-    PKPeerPaymentQuoteCertificatesResponse *_quoteCertificatesResponse;
-    NSString *_recurringPaymentIdentifier;
-    unsigned long long _frequency;
-    NSDate *_startDate;
-    NSDecimalNumber *_threshold;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -59,8 +29,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)*;
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -68,23 +38,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (unsigned long long)};
+- (id)*;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Q%;
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)h;
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -98,17 +68,17 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)P;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)key "Subtype" :%s /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)erRecommendedAction"b1"beforeAction"b1"studyType"b1"isAssociatedAtStudyEnd"b1};
+- (void)assocResponse;
+- (void)rttPrimaryDnsVI;
 - (id);
 - (void);
-- (void);
+- (void)';
 - (unsigned long long);
 - (void);
 - (void);
@@ -118,37 +88,7 @@
 - (unsigned long long)lÈ®;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *bankName; // @synthesize bankName=_bankName;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;
-@property(nonatomic) unsigned long long deviceTapFlow; // @synthesize deviceTapFlow=_deviceTapFlow;
-@property(copy, nonatomic, setter=setDPANIdentifier:) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(nonatomic) unsigned long long externalFundingSource; // @synthesize externalFundingSource=_externalFundingSource;
-@property(copy, nonatomic, setter=setFPANIdentifier:) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
-@property(nonatomic) _Bool hasUpdatedPaymentMethod; // @synthesize hasUpdatedPaymentMethod=_hasUpdatedPaymentMethod;
-@property(nonatomic) unsigned long long messagesContext; // @synthesize messagesContext=_messagesContext;
 @property(readonly, copy, nonatomic) NSString *orderIdentifier; // @synthesize orderIdentifier=_orderIdentifier;
-@property(retain, nonatomic) NSString *paymentMethodDescription; // @synthesize paymentMethodDescription=_paymentMethodDescription;
-@property(retain, nonatomic) NSString *paymentMethodSuffix; // @synthesize paymentMethodSuffix=_paymentMethodSuffix;
-@property(nonatomic) unsigned long long paymentMethodType; // @synthesize paymentMethodType=_paymentMethodType;
-@property(nonatomic) unsigned long long paymentMode; // @synthesize paymentMode=_paymentMode;
-@property(nonatomic) long long paymentNetwork; // @synthesize paymentNetwork=_paymentNetwork;
-@property(nonatomic) _Bool preserveCurrentBalance; // @synthesize preserveCurrentBalance=_preserveCurrentBalance;
-@property(retain, nonatomic) PKPeerPaymentQuoteCertificatesResponse *quoteCertificatesResponse; // @synthesize quoteCertificatesResponse=_quoteCertificatesResponse;
-@property(copy, nonatomic) NSString *recipientAddress; // @synthesize recipientAddress=_recipientAddress;
-@property(copy, nonatomic) NSString *recipientIdentifier; // @synthesize recipientIdentifier=_recipientIdentifier;
-@property(copy, nonatomic) NSString *recurringPaymentIdentifier; // @synthesize recurringPaymentIdentifier=_recurringPaymentIdentifier;
-@property(retain, nonatomic) PKPeerPaymentRequestToken *requestToken; // @synthesize requestToken=_requestToken;
-@property(copy, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(nonatomic) _Bool sendImmediately; // @synthesize sendImmediately=_sendImmediately;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSDecimalNumber *threshold; // @synthesize threshold=_threshold;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileDownloadTask
 {
     id remoteFile;
-    id totalBytes;
-    id numberOfAttempts;
-    id isCancelled;
-    id result;
-    id continuations;
-    id activeTask;
 }
 
 @end

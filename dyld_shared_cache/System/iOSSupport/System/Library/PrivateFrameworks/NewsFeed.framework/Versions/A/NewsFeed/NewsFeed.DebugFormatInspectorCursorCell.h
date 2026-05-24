@@ -7,19 +7,10 @@
 @interface NewsFeed.DebugFormatInspectorCursorCell
 {
     id cursor;
-    id frameLayer;
-    id frameLabel;
-    id widthSizingConstraintLabel;
-    id heightSizingConstraintLabel;
-    id filledAreaView;
-    id passLabel;
-    id resizingLabel;
-    id positionView;
-    id directionLayer;
 }
 
 - (id);
-- (void);
+- (void)ating dispatch channel:%s /* Error: Ran out of types for this method. */;
 - (id)pûÿ;
 - (void)¼ñÿ;
 

@@ -6,20 +6,12 @@
 
 #import <WiFiPolicy/WFLoggerBase.h>
 
-@class NSDateFormatter, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WFLoggerCircularBuffer : WFLoggerBase
 {
     char *_wiFiLoggingLogBufferRef;
-    long long _wiFiLoggingLogBufferIndex;
-    long long _wiFiLoggingLogBufferMaxSize;
-    unsigned int _dumpId;
-    NSDateFormatter *_tsFormatter;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
-- (void);
+- (void)intConvertableP;
 - (void);
 - (id);
 - (void);

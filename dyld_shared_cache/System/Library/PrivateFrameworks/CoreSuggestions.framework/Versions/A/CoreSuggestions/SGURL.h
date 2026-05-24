@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface SGURL
 {
     unsigned char _flags;
-    NSURL *_url;
-    NSString *_title;
-    NSString *_receivedFromHandle;
-    NSString *_bundleIdentifier;
-    NSString *_groupIdentifier;
-    NSString *_documentIdentifier;
-    NSString *_documentTitle;
-    NSDate *_documentDate;
-    double _documentTimeInterval;
-    NSDate *_receivedAt;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (double);
 - (id);
 - (id);
@@ -37,26 +27,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSDate *documentDate; // @synthesize documentDate=_documentDate;
-@property(readonly, nonatomic) NSString *documentIdentifier; // @synthesize documentIdentifier=_documentIdentifier;
-@property(readonly, nonatomic) double documentTimeInterval; // @synthesize documentTimeInterval=_documentTimeInterval;
-@property(readonly, nonatomic) NSString *documentTitle; // @synthesize documentTitle=_documentTitle;
-@property(readonly, nonatomic) unsigned char flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, nonatomic) NSDate *receivedAt; // @synthesize receivedAt=_receivedAt;
-@property(readonly, nonatomic) NSString *receivedFromHandle; // @synthesize receivedFromHandle=_receivedFromHandle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

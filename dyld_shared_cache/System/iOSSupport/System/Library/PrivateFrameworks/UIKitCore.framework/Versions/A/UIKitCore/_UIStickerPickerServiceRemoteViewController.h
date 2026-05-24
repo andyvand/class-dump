@@ -13,14 +13,14 @@
     id <_UIStickerPickerRemoteViewControllerDelegate> _delegate;
 }
 
-+ (id);
++ (id)6\B;
 + (id);
 + (id)ÜÝzþ*ÛÐ¸§l;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)__kIMPersonServiceNameKey;
 - (void);
 - (void);
 - (id);

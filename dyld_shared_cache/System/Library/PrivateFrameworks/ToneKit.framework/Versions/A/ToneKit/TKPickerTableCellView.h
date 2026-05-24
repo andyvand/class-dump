@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSLayoutConstraint, NSString, NSTextField, NSView;
+@class NSString, NSTextField;
 
 @interface TKPickerTableCellView
 {
     NSTextField *_textField;
-    NSTextField *_detailTextField;
-    NSView *_textContainerView;
-    NSImageView *_checkmarkView;
-    NSLayoutConstraint *_textContainerViewRightConstraint;
-    _Bool _showsCheckmark;
 }
 
 + (double);
@@ -26,13 +21,159 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
-- (void);
+- (id)ew;
+);
+
+CREATE TABLE navigation_event_types
+(
+    event_id        INTEGER NOT NULL PRIMARY KEY,
+    event_name      TEXT NOT NULL
+);
+
+CREATE TABLE annotated_user_behavior
+(
+    timestamp   NUMERIC NOT NULL,
+    event       INTEGER NOT NULL /* event corresponds to the MNTraceUserBehaviorEvent enum in MNTrace.h. Event types:(struct CGRect)arg1 Unknown = 0
+        Reroute = 1
+        OffRoute = 2
+    */
+);
+
+CREATE TABLE annotated_user_environments
+(
+    start_timestamp     NUMERIC NOT NULL,
+    end_timestamp       NUMERIC NOT NULL,
+    environment_type    INTEGER NOT NULL /* environment_type corresponds to the MNTraceUserEnvironmentType enum in MNTrace.h. Environment types:Unknown = 0
+        UrbanCanyon = 1
+        DeepUrbanCanyon = 2
+        TallTrees = 3
+        Tunnel = 4
+        Overpass = 5
+        Frontage = 6
+        Freeway = 7
+    */
+);
+
+CREATE TABLE navigation_updates
+(
+    timestamp                   NUMERIC,
+    type                        NUMERIC,
+    parameters                  BLOB                  -- NSDictionary specific to parameters based on type of event
+);
+
+-- Custom Route Creation
+
+CREATE TABLE custom_route_creation_actions (
+    request_timestamp       NUMERIC,
+    response_timestamp      NUMERIC,
+    request_data            BLOB,   -- GEODirectionsRequest
+    response_data           BLOB,   -- GEODirectionsResponse
+    response_error_data     BLOB,   -- NSError
+    anchor_points_data      BLOB,   -- NSArray of GEOComposedRouteAnchorPoint
+    action                  INTEGER -- MNRouteEditorAction in MNNavigationEnums.h
+);
+
+-- Views
+
+-- info
+
+CREATE VIEW info_view AS
+    SELECT
+        version,
+        original_version,
+        strftime('%H:%M:%S', time(recording_start_time, 'unixepoch', 'localtime')) AS recording_start_time,
+        strftime('%H:%M:%S', time(directions_start_time, 'unixepoch', 'localtime')) AS directions_start_time,
+        strftime('%H:%M:%S', time(navigation_start_time, 'unixepoch', 'localtime')) AS navigation_start_time,
+        strftime('%H:%M:%S', time(navigation_end_time, 'unixepoch', 'localtime')) AS navigation_end_time,
+        simulation
+    FROM
+        info;
+
+-- directions
+
+CREATE VIEW directions_view AS
+    SELECT
+        id,
+        PRINTF("%.3f", request_timestamp) AS request_time,
+        PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        LENGTH(waypoints_data) AS waypoints,
+        selected_route_index
+    FROM
+        directions;
+         
+-- eta_traffic_updates
+
+CREATE VIEW etau_view AS
+    SELECT
+        id,
+        PRINTF("%.3f", request_timestamp) AS request_time,
+        PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        destination_name AS destination
+    FROM
+        eta_traffic_updates;
+
+-- navigation_events
+
+CREATE VIEW navigation_events_view AS
+    SELECT
+        PRINTF("%.3f", relative_timestamp) AS relative_time,
+        PRINTF("%d", absolute_timestamp) AS absolute_time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS time,
+        last_location_id AS location,
+        event_name,
+        event_description
+    FROM
+        navigation_events INNER JOIN navigation_event_types ON navigation_events.event_id = navigation_event_types.event_id;
+
+-- ev_data
+
+CREATE VIEW ev_data_view as
+    SELECT
+        PRINTF("%.1f", relative_timestamp) AS time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS date,
+        PRINTF("%.0f%%", battery_percentage * 100) AS "battery%",
+        PRINTF("%.1f", current_range_m) AS "range (meters)",
+        PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
+        is_charging,
+        CASE WHEN length(vehicle_data) > 0 THEN identifier END as identifier
+    FROM
+        ev_data;
+
+-- custom_route_creation_actions
+
+CREATE VIEW route_creation_actions_view AS
+    SELECT
+        rowid AS 'Index',
+        PRINTF("%.3f", request_timestamp) AS 'Request Time',
+        PRINTF("%.3f", response_timestamp) AS 'Response Time',
+        LENGTH(request_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detailText;
-@property(nonatomic) _Bool showsCheckmark; // @synthesize showsCheckmark=_showsCheckmark;
 @property(copy, nonatomic) NSString *text;
 
 @end

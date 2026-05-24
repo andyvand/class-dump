@@ -6,16 +6,12 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class LPFetcherConfiguration, LPiTunesMediaLookupTask, NSString;
+@class LPFetcherConfiguration, NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesCuratorProfileURLFetcher : LPFetcher
 {
     LPFetcherConfiguration *_configuration;
-    CDUnknownBlockType _completionHandler;
-    NSString *_curatorID;
-    LPiTunesMediaLookupTask *_lookupTask;
-    _Bool _cancelled;
 }
 
 - (id);

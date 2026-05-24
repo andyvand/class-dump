@@ -6,24 +6,21 @@
 
 #import <Email/EMRepository.h>
 
-@class NSArray, NSMutableDictionary, NSString;
-@protocol EFCancelable, EFScheduler;
+@class NSArray;
 
 @interface EMAccountRepository : EMRepository
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_accounts;
-    id <EFScheduler> _recoveryHandlerScheduler;
-    id <EFCancelable> _cancelable;
 }
 
 + (id);
 + (id);
+- (id)HMDMatterAccessoryAdapter;
+- (void)Content;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -31,23 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allAccounts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *deliveryAccounts;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *receivingAccounts;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface USOSpanProperty
 {
     NSString *_key;
-    NSString *_valueString;
-    NSNumber *_valueInt;
-    NSNumber *_valueFloat;
 }
 
 + (_Bool);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSNumber *valueFloat; // @synthesize valueFloat=_valueFloat;
-@property(readonly, nonatomic) NSNumber *valueInt; // @synthesize valueInt=_valueInt;
-@property(readonly, nonatomic) NSString *valueString; // @synthesize valueString=_valueString;
 
 @end
 

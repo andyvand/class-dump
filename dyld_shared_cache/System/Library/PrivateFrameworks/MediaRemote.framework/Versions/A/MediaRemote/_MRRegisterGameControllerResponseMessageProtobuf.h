@@ -7,7 +7,6 @@
 @interface _MRRegisterGameControllerResponseMessageProtobuf
 {
     unsigned long long _controllerID;
-    CDStruct_669c4a63 _has;
 }
 
 - (void);
@@ -16,16 +15,15 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)quireRelinquishableAssertionWithContext:relinquishmentHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long controllerID; // @synthesize controllerID=_controllerID;
 @property(nonatomic) _Bool hasControllerID;
 
 @end

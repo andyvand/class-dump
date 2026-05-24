@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKeyboardSceneDelegate, UIResponder, UIView, UIViewController;
-
 __attribute__((visibility("hidden")))
 @interface _UITextServiceSession
 {
     long long _type;
-    UIViewController *_modalViewController;
-    UIView *_contextView;
-    UIResponder *_pinnedResponder;
-    UIKeyboardSceneDelegate *_keyboardSceneDelegate;
-    _Bool _dismissed;
-    CDUnknownBlockType _dismissedHandler;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)nt from a group chat with 2 or less participants %@;
++ (_Bool)pants:%@ /* Error: Ran out of types for this method. */;
++ (id)usiness chat message because it is not supported. (guid:(id)arg1 %@);
++ (id));
++ (_Bool)eived telemetry metrics for message guid:(id)arg1 %@, samplingUUID:%@ /* Error: Ran out of types for this method. */;
 + (long long);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -42,14 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)A];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType dismissedHandler; // @synthesize dismissedHandler=_dismissedHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

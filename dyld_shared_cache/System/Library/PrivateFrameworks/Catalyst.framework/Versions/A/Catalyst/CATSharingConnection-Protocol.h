@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATSharingDevice, NSError;
+@class CATSharingDevice;
 @protocol CATSharingConnectionDelegate;
 
 @protocol CATSharingConnection
+- (id <CATSharingConnectionDelegate>);
+- (CATSharingDevice *);
+- (_Bool)G;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClosed) _Bool closed;
-@property(readonly, nonatomic) NSError *closedError;
-@property(nonatomic) __weak id <CATSharingConnectionDelegate> delegate;
 @property(readonly, nonatomic) CATSharingDevice *remoteDevice;
 @end
 

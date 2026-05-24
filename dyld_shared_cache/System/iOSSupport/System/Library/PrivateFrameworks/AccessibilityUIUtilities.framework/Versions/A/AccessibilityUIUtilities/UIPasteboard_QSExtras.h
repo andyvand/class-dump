@@ -10,35 +10,35 @@
 {
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool);
++ (void)z;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)n;
 + (Class);
 + (id);
+- (_Bool){h|;
+- (id);
+- (id)z;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)S^;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)dd;
 - (id);
 - (id);
 - (void);

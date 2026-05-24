@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NEFilterVerdict
 {
     _Bool _shouldReport;
-    _Bool _needRules;
-    _Bool _drop;
-    _Bool _remediate;
-    _Bool _urlAppendString;
-    _Bool _pause;
-    NSString *_remediationURLMapKey;
-    NSString *_remediationButtonTextMapKey;
-    NSString *_urlAppendStringMapKey;
 }
 
-+ (_Bool);
++ (_Bool)setPeerIsConnected: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -27,19 +17,16 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)ngPredicate: /* Error: Ran out of types for this method. */;
+- (void)setFileHandle:matchingPredicate: /* Error: Ran out of types for this method. */;
 - (id)offset;
 - (_Bool);
 
 // Remaining properties
-@property _Bool drop; // @synthesize drop=_drop;
 @property(readonly) long long filterAction;
-@property _Bool needRules; // @synthesize needRules=_needRules;
-@property _Bool shouldReport; // @synthesize shouldReport=_shouldReport;
 
 @end
 

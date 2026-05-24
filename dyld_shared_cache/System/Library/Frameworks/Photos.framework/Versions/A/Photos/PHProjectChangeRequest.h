@@ -6,16 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSData, NSManagedObjectID, NSString, PHProject, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class NSString, PHProject;
 
 @interface PHProjectChangeRequest : PHChangeRequest
 {
     PHProject *_originalProject;
-    NSData *_previewImageData;
-    _Bool _didSetPreviewImage;
-    PHRelationshipChangeRequestHelper *_assetsHelper;
-    PHRelationshipChangeRequestHelper *_keyAssetHelper;
 }
 
 + (void);
@@ -28,34 +23,34 @@
 - (_Bool);
 - (void);
 - (void);
+- (void),;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)`;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SyncResponses;
 - (void);
 - (void);
 - (void);
@@ -67,29 +62,7 @@
 - (void)ionsScore;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *assetsHelper; // @synthesize assetsHelper=_assetsHelper;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *keyAssetHelper; // @synthesize keyAssetHelper=_keyAssetHelper;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(retain, nonatomic) NSString *projectDocumentType;
-@property(copy, nonatomic) NSData *projectExtensionData;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

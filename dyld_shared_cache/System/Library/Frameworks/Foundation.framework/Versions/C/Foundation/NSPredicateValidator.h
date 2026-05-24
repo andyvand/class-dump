@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSPredicate;
-@protocol NSPredicateValidating;
-
 @interface NSPredicateValidator
 {
     _Bool _validated;
-    id <NSPredicateValidating> _validator;
-    NSPredicate *_predicate;
-    NSError *_error;
 }
 
-- (void);
+- (void)#hK#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (void);
+- (id)__FONT_DATA;
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -35,10 +29,7 @@
 - (void)ÿCÿmé;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) _Bool validated; // @synthesize validated=_validated;
-@property(readonly, nonatomic) __weak id <NSPredicateValidating> validator; // @synthesize validator=_validator;
 
 @end
 

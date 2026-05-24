@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id)qH;
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)IMAPMailboxDelegate>";
 
 @end
 

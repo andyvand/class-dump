@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MSVSQLDatabaseAggregateFunctionDescriptor : _MSVSQLDatabaseFunctionDescriptor
 {
     CDUnknownBlockType _start;
-    CDUnknownBlockType _add;
-    CDUnknownBlockType _remove;
-    CDUnknownBlockType _value;
 }
 
 - (void);

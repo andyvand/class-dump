@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVMobileFluidSliderMarkView
 {
     CALayer *_markColorLayer;
-    UIColor *_markColor;
 }
 
 - (void);

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfileSettingsDerivedPropertiesModel
 {
 }
 
-+ (id);
-- (void);
++ (id)missingVersion;
+- (void)ation subtitle;
 - (long long);
-- (void);
-- (unsigned long long);
+- (void)ntext"16;
+- (unsigned long long)setIncludeHomeLocations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long currentAccessMode;
-@property(retain) NSDate *currentAccessModeChangeDate; // @dynamic currentAccessModeChangeDate;
-@property long long currentAccessModeChangeReason;
-@property(retain) NSNumber *currentAccessModeChangeReasonField; // @dynamic currentAccessModeChangeReasonField;
 @property(retain) NSNumber *currentAccessModeField; // @dynamic currentAccessModeField;
 
 @end

@@ -6,20 +6,18 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class AASigningSession, ACAccount, NSDictionary;
+@class ACAccount;
 
 @interface AALoginOrCreateDelegatesRequest : AARequest
 {
     ACAccount *_account;
-    NSDictionary *_parameters;
-    AASigningSession *_signingSession;
 }
 
 + (Class);
-- (id);
-- (id);
-- (void)layName;
-- (id)CIARY_DETAILS_SUBTITLE;
+- (id)%d;
+- (id);
+- (void)modelDisplayName;
+- (id)MY_BENEFICIARY_DETAILS_SUBTITLE;
 
 @end
 

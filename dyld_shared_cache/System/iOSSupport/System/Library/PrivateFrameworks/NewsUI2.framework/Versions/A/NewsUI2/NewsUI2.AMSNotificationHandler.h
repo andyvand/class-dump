@@ -7,8 +7,6 @@
 @interface NewsUI2.AMSNotificationHandler
 {
     id userInfo;
-    id notificationService;
-    id tracker;
 }
 
 @end

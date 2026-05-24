@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface MRIRRoute
 {
     _Bool _donateAsCandidate;
-    NSString *_routeIdentifier;
-    NSSet *_nodes;
 }
 
 + (id);
@@ -20,23 +18,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)howToUseIdentity;
+- (id);
+- (id)b;
 - (_Bool);
 - (void)ber",&,D,N,Sset_durationDetermineRecipe: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool donateAsCandidate; // @synthesize donateAsCandidate=_donateAsCandidate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *nodes; // @synthesize nodes=_nodes;
 @property(retain, nonatomic) NSString *routeIdentifier; // @synthesize routeIdentifier=_routeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

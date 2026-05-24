@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNeuralRecognizerConfiguration, CRPerformanceStatistics, NSUUID;
+@class CRPerformanceStatistics;
 
 @interface CRNeuralTextRecognizer
 {
     CRPerformanceStatistics *inferenceStats;
-    CRPerformanceStatistics *decodingStats;
-    _Bool unloadResourcesWhenNotInUse;
-    CRNeuralRecognizerConfiguration *configuration;
-    NSUUID *owner;
-    long long resourceUsers;
-    id featureProvider;
-    id model;
-    id textDecoder;
 }
 
 - (_Bool);
@@ -28,22 +20,17 @@
 - (id);
 - (void);
 - (void);
+- (void)anager";
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)rmalizedPolyline: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ˡ;
+- (void)setDenormalizedPolyline: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, retain) CRNeuralRecognizerConfiguration *configuration; // @synthesize configuration;
-@property(nonatomic, readonly) CRPerformanceStatistics *decodingStats; // @synthesize decodingStats;
 @property(nonatomic, readonly) CRPerformanceStatistics *inferenceStats; // @synthesize inferenceStats;
-@property(nonatomic, retain) NSUUID *owner; // @synthesize owner;
-@property(nonatomic) long long resourceUsers; // @synthesize resourceUsers;
-@property(nonatomic) _Bool unloadResourcesWhenNotInUse; // @synthesize unloadResourcesWhenNotInUse;
 
 @end
 

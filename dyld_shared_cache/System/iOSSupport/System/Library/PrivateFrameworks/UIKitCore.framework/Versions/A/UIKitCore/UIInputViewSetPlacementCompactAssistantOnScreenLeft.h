@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)st specify a test name and blocks to show and dismiss the keyboard for the keyboard show/hide test;
-- (id);
+- (id)sageRecordAccountLookupResult>"32@?0@"NSString"8@"NSString"16@"NSString"24;
 - (double);
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UISplitViewControllerAdaptiveSingleColumnLayout
 {
     id data;
-    id dataSource;
-    id delegate;
 }
 
-- (void);
-- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
-- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
-- (long long);
-- (long long);
-- (long long);
+- (void)er found for %@, setting attribution %@;
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)ant explicitly:(struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)arg1 %@;
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)l %@;
+- (long long)sage:(long long)arg1 %@ to device:%@, ID:%@ because of excludedCapability:%@ /* Error: Ran out of types for this method. */;
+- (long long)g chatbot message:(long long)arg1 %@ to device:%@, ID:%@ /* Error: Ran out of types for this method. */;
+- (long long)nd this message to ;
 - (struct CGRect);
 - (unsigned long long);
 - (struct UIEdgeInsets);
@@ -45,11 +41,11 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (void);
-- (id);
+- (void)forceAirPlayOutgoingRequestsPairingPassword;
+- (id)sharedLocalEndpointForRoutingContextWithUID: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
-- (struct CGSize)ttings;
+- (struct CGSize)_sizeRuleSettings;
 - (void)ëp_;
 - (_Bool);
 - (void)ô3l;
@@ -59,13 +55,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize contentSize;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long displayMode;
-@property(nonatomic, readonly) _Bool isCollapsed;
-@property(nonatomic, readonly) struct CGSize minimumSize;
-@property(nonatomic, readonly) struct CGSize preferredSize;
-@property(nonatomic, readonly) long long primaryEdge;
-@property(nonatomic, readonly) long long splitBehavior;
 
 @end
 

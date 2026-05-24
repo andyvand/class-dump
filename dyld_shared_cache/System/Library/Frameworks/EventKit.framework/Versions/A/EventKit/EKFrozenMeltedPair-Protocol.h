@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADGenerationStampedObjectID, EKObjectID, NSString;
-
 @protocol EKFrozenMeltedPair
+- (_Bool);
+- (_Bool)try] Unable to fetch required deviceUID after %lu retries;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CADGenerationStampedObjectID *CADObjectID;
 @property(readonly, nonatomic) _Bool isFrozen;
-@property(readonly, nonatomic) _Bool isPartialObject;
-@property(readonly, nonatomic) EKObjectID *objectID;
-@property(readonly, nonatomic) NSString *semanticIdentifier;
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
 @end
 

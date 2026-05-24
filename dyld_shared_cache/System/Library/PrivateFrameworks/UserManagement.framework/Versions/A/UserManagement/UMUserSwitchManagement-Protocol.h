@@ -5,5 +5,9 @@
 //
 
 @protocol UMUserSwitchManagement
+- (void)9I;
+- (void)@9?Y;
+- (void);
+- (void);
 @end
 

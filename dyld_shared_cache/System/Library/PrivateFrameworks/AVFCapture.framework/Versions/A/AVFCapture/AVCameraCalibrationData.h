@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationDataInternal, NSData;
+@class AVCameraCalibrationDataInternal;
 
 @interface AVCameraCalibrationData
 {
@@ -13,12 +13,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) struct extrinsicMatrix;
 @property(readonly, nonatomic) struct intrinsicMatrix;
-@property(readonly, nonatomic) struct CGSize intrinsicMatrixReferenceDimensions;
-@property(readonly, nonatomic) NSData *inverseLensDistortionLookupTable;
-@property(readonly, nonatomic) struct CGPoint lensDistortionCenter;
-@property(readonly, nonatomic) NSData *lensDistortionLookupTable;
-@property(readonly, nonatomic) float pixelSize;
 @end
 

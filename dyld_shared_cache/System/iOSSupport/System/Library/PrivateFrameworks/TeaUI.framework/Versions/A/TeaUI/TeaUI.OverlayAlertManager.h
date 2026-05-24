@@ -7,10 +7,6 @@
 @interface TeaUI.OverlayAlertManager
 {
     id renderer;
-    id layoutAttributesFactory;
-    id accessibilityAnnouncer;
-    id window;
-    id alertView;
 }
 
 @end

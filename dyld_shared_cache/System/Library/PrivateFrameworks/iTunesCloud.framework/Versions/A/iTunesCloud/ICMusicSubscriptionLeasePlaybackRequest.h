@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, NSString;
+@class NSString;
 
 @interface ICMusicSubscriptionLeasePlaybackRequest
 {
     _Bool _shouldPreventLeaseAcquisition;
-    _Bool _shouldRequireLeaseAcquisition;
-    _Bool _triggeredByLeasePrevention;
-    _Bool _followUp;
-    NSString *_assetSourceStorefrontID;
-    ICStoreRequestContext *_requestContext;
-    unsigned long long _storeCloudID;
-    long long _storePurchasedAdamID;
-    long long _storeSubscriptionAdamID;
-    NSString *_cloudUniversalLibraryID;
 }
 
 - (_Bool);
@@ -40,21 +31,12 @@
 - (id);
 - (id);
 - (id);
-- (void)CUserCredentialProvider;
+- (void)ICUserCredentialProvider;
 - (id)ÿ 
 ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetSourceStorefrontID; // @synthesize assetSourceStorefrontID=_assetSourceStorefrontID;
-@property(copy, nonatomic) NSString *cloudUniversalLibraryID; // @synthesize cloudUniversalLibraryID=_cloudUniversalLibraryID;
-@property(nonatomic, getter=isFollowUp) _Bool followUp; // @synthesize followUp=_followUp;
-@property(readonly, copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) _Bool shouldPreventLeaseAcquisition; // @synthesize shouldPreventLeaseAcquisition=_shouldPreventLeaseAcquisition;
-@property(nonatomic) _Bool shouldRequireLeaseAcquisition; // @synthesize shouldRequireLeaseAcquisition=_shouldRequireLeaseAcquisition;
-@property(nonatomic) unsigned long long storeCloudID; // @synthesize storeCloudID=_storeCloudID;
-@property(nonatomic) long long storePurchasedAdamID; // @synthesize storePurchasedAdamID=_storePurchasedAdamID;
-@property(nonatomic) long long storeSubscriptionAdamID; // @synthesize storeSubscriptionAdamID=_storeSubscriptionAdamID;
-@property(nonatomic, getter=isTriggeredByLeasePrevention) _Bool triggeredByLeasePrevention; // @synthesize triggeredByLeasePrevention=_triggeredByLeasePrevention;
 
 @end
 

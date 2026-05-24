@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, NSString;
+@class GEOPDRelatedSearchSuggestion;
 
 @interface GEORelatedSearchSuggestion
 {
     GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)updateContact:byAddingPhoneNumberWithConfiguration: /* Error: Ran out of types for this method. */;
+- (id)CNCDMessagingAddress;
 - (id);
 - (void)¯¶BA~;ÿ"P@;
 - (id)<Mf¼­ÎK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayString;
 @property(retain, nonatomic) GEOPDRelatedSearchSuggestion *relatedSearchSuggestion; // @synthesize relatedSearchSuggestion=_relatedSearchSuggestion;
-@property(readonly, nonatomic) NSString *searchBarDisplayToken;
 
 @end
 

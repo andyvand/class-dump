@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, PLPhotoLibraryBundle;
+@class PLPhotoLibraryBundle;
 
 @interface PHPhotoLibraryCloudStatusObserverRegistrar
 {
     PLPhotoLibraryBundle *_photoLibraryBundle;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_isCloudStatusHandlingAuthorized;
-    _Bool _lock_isCloudStatusHandlingActive;
-    NSHashTable *_lock_cloudStatusObservers;
-    CDUnknownBlockType _beginObservingCloudStatusBlock;
 }
 
 - (void);
@@ -25,13 +20,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)ded;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType beginObservingCloudStatusBlock; // @synthesize beginObservingCloudStatusBlock=_beginObservingCloudStatusBlock;
-@property(readonly) _Bool hasObservers;
 
 @end
 

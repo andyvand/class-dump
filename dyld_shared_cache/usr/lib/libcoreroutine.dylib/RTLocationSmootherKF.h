@@ -9,13 +9,10 @@
 @interface RTLocationSmootherKF
 {
     RTFixedSizeQueue *states;
-    double refLat;
-    double refLon;
-    double refAlt;
 }
 
 - (id);
-- (double);
+- (double)16;
 - (id);
 - (id);
 - (void)e not on an internal build.;

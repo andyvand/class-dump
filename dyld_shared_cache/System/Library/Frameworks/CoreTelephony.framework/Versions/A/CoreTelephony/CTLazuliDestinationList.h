@@ -11,14 +11,14 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)timeTaken;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LANTLMVerificationResult;
 - (id);
 - (void);
 - (void)&Ð!Fùª)Ð1Â0@ù

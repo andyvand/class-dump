@@ -5,5 +5,8 @@
 //
 
 @protocol UIPDFPageViewDelegate
+
+@optional
+- (void);
 @end
 

@@ -7,8 +7,10 @@
 @class NSString, SGRecordId;
 
 @protocol _SGSuggestionsServiceMetricsProtocol
-- (void)ackgroundAdaptiveDarkColor;
-- (void)ame:(SGRecordId *)arg1 unified:(NSString *)arg2 identifier:(NSString *)arg3 showName:isPreferredForName: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)TT;
+- (void)monogramBackgroundAdaptiveDarkColor;
+- (void)initWithFullName:(SGRecordId *)arg1 accountName:(NSString *)arg2 unified:(NSString *)arg3 identifier:showName:isPreferredForName: /* Error: Ran out of types for this method. */;
 - (void)P^;
 @end
 

@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NURAWNoiseReductionProperties
 {
     double _luminance;
-    double _color;
-    double _sharpness;
-    double _contrast;
-    double _detail;
 }
 
 - (void);
-- (double);
+- (double);
 - (id);
-- (void);
-- (void);
-- (double);
+- (void)setAssetsPurgeability:(double)arg1 forLanguages:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
+- (void);
 - (double);
+- (double);
 - (double)| Hits;
 - (void)0Ð;
 
 // Remaining properties
-@property double color; // @synthesize color=_color;
-@property double contrast; // @synthesize contrast=_contrast;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double detail; // @synthesize detail=_detail;
-@property(readonly) unsigned long long hash;
 @property double luminance; // @synthesize luminance=_luminance;
-@property double sharpness; // @synthesize sharpness=_sharpness;
-@property(readonly) Class superclass;
 
 @end
 

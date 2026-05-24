@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSIndexSet, _UIDiffableDataSourceState, _UIIdentifierDiffer;
+@class NSArray, _UIDiffableDataSourceState;
 
 __attribute__((visibility("hidden")))
 @interface _UIDiffableDataSourceDiffer
 {
     NSArray *_updates;
-    _UIDiffableDataSourceState *_beforeDataSourceState;
-    _UIDiffableDataSourceState *_afterDataSourceState;
-    _UIIdentifierDiffer *_itemIdentifierDiffer;
-    _UIIdentifierDiffer *_sectionIdentifierDiffer;
-    NSHashTable *_affectedSectionIdentifiers;
-    NSIndexSet *_deletedSections;
-    NSIndexSet *_insertedSections;
 }
 
 + (id);
@@ -24,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)plyLen is zero;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -46,22 +39,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)°!øCù±cð1Â0@ù
 × ;
-- (id)irectInteractions;
+- (id)supportsIndirectInteractions;
 - (id)view controller. Error:%@ /* Error: Ran out of types for this method. */;
 - (id)UIScrollDirection;
 - (void)¸²\;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *affectedSectionIdentifiers; // @synthesize affectedSectionIdentifiers=_affectedSectionIdentifiers;
-@property(retain, nonatomic) _UIDiffableDataSourceState *afterDataSourceState; // @synthesize afterDataSourceState=_afterDataSourceState;
 @property(retain, nonatomic) _UIDiffableDataSourceState *beforeDataSourceState; // @synthesize beforeDataSourceState=_beforeDataSourceState;
-@property(retain, nonatomic) NSIndexSet *deletedSections; // @synthesize deletedSections=_deletedSections;
-@property(readonly, nonatomic) _Bool hasDifferences;
-@property(retain, nonatomic) NSIndexSet *insertedSections; // @synthesize insertedSections=_insertedSections;
-@property(retain, nonatomic) _UIIdentifierDiffer *itemIdentifierDiffer; // @synthesize itemIdentifierDiffer=_itemIdentifierDiffer;
-@property(retain, nonatomic) _UIIdentifierDiffer *sectionIdentifierDiffer; // @synthesize sectionIdentifierDiffer=_sectionIdentifierDiffer;
-@property(readonly, nonatomic) _Bool snapshotsAreRelated;
-@property(retain, nonatomic) NSArray *updates; // @synthesize updates=_updates;
 
 @end
 

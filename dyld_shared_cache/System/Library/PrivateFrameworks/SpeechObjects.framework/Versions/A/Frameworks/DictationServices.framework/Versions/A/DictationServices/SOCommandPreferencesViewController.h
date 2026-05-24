@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSString, NSView, SOMicrophonePopUpButton, SOSRLanguagePopUpButton;
-
 @interface SOCommandPreferencesViewController
 {
     _Bool _awoken;
-    NSButton *_commandAndControlCheckbox;
-    SOSRLanguagePopUpButton *_dictationLanguagePopUpButton;
-    SOMicrophonePopUpButton *_microphonePopUpButton;
-    NSPopUpButton *_continuousOverlayPopUpButton;
-    NSButton *_dictationCommandsButton;
-    NSButton *_vocabularyButton;
-    NSButton *_playSoundUponRecognitionCheckbox;
-    NSButton *_showHintsCheckbox;
-    NSView *_constrainedWithSuperview;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,6 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -39,23 +35,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

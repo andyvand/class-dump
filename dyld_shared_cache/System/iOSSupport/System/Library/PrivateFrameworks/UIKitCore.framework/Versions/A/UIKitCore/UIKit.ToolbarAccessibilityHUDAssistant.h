@@ -7,11 +7,13 @@
 @interface UIKit.ToolbarAccessibilityHUDAssistant
 {
     id view;
-    id hudGestureManager;
-    id delegate;
 }
 
-- (void);
+- (void)and participants %@ that had no matching participants.
+
+Chats Found:%@
+
+Identifiers:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);

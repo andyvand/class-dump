@@ -5,5 +5,9 @@
 //
 
 @protocol MPCProcessAudioTapDelegate
+- (void)__text;
+
+@optional
+- (void)AccountCredential"48@0:8@"ACAccount"16@"ACDClient"24@"ACDAccountStore"32^@40 /* Error: Ran out of types for this method. */;
 @end
 

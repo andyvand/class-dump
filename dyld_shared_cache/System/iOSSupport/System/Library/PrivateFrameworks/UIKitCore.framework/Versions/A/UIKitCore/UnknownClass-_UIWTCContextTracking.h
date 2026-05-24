@@ -8,7 +8,7 @@
 
 @interface UnknownClass (_UIWTCContextTracking)
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setWritingToolsContextID:) NSUUID *_writingToolsContextID;

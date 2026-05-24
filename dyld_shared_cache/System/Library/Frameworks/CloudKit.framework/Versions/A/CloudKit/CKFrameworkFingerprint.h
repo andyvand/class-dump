@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 @interface CKFrameworkFingerprint
 {
     NSUUID *_uuid;
-    NSNumber *_version;
-    NSNumber *_cpuType;
-    NSNumber *_cpuSubtype;
 }
 
 + (_Bool);
@@ -20,22 +17,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)?;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (void)OverlayID;
+- (void)testResultOverlayID;
 - (void)Ü§;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *cpuSubtype; // @synthesize cpuSubtype=_cpuSubtype;
-@property(copy, nonatomic) NSNumber *cpuType; // @synthesize cpuType=_cpuType;
 @property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(copy, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

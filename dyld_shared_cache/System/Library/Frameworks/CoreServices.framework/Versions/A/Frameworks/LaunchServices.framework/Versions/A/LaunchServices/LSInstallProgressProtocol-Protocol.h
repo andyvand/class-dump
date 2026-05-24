@@ -5,5 +5,8 @@
 //
 
 @protocol LSInstallProgressProtocol
+- (void)?;
+- (void);
+- (void);
 @end
 

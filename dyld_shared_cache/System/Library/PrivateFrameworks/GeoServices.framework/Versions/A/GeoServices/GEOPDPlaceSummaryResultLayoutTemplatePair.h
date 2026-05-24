@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceSummaryLayoutTemplate, NSArray, NSMutableArray, PBDataReader;
+@class NSArray, PBDataReader;
 
 @interface GEOPDPlaceSummaryResultLayoutTemplatePair
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _placeTypes;
-    GEOPDPlaceSummaryLayoutTemplate *_layoutTemplate;
-    NSMutableArray *_mapsIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_placeTypes:1;
-        unsigned int read_layoutTemplate:1;
-        unsigned int read_mapsIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)tIncludeLaneGuidance:(id)arg1;
-- (void);
-- (void);
++ (Class)CNDefaultsDebugDescriptionObfuscation;
++ (_Bool)setIncludeLaneGuidance:(id)arg1;
+- (void)contacts.database-preflight;
+- (void)ABCDContactDateComponents;
 - (void);
 - (id);
 - (int *);
@@ -36,41 +24,35 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (int);
+- (int)";
+- (void)%;
 - (void);
-- (void);
-- (id);
+- (id)x;
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)x:(id)arg1;
+- (id)_scaleInputWithInRangeOutRange:minIn:maxIn:minOut:maxOut: /* Error: Ran out of types for this method. */;
+- (void)assertion;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)yb;
 - (_Bool);
 - (id);
 - (void);
 - (id):(struct _NSZone *)arg1 8@?<v@?@"NSArray"@"NSError">16q24@?<v@?B>32@"NSObject<OS_dispatch_queue>"40;
-- (id)e;
+- (id)_maneuverRoadName;
 - (id);
-- (id)h_home_result;
+- (id)maps_search_home_result;
 - (void)sJ_F@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *geoMapItemPlaceTypes;
-@property(readonly, nonatomic) _Bool hasLayoutTemplate;
-@property(retain, nonatomic) GEOPDPlaceSummaryLayoutTemplate *layoutTemplate;
 @property(readonly, nonatomic) NSArray *mapItemIdentifiers;
-@property(retain, nonatomic) NSMutableArray *mapsIds;
-@property(readonly, nonatomic) int *placeTypes;
-@property(readonly, nonatomic) unsigned long long placeTypesCount;
 
 @end
 

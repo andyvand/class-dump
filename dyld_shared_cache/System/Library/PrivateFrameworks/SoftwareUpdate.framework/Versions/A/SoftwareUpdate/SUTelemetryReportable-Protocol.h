@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSString *eventName;
-@property(readonly) long long telemetryServer;
 @end
 

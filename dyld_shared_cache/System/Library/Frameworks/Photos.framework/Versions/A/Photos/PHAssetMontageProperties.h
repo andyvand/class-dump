@@ -16,7 +16,7 @@
 + (id);
 + (id)d;
 - (id);
-- (void)MediaSubtypeReferences:inComparisonPredicate:options: /* Error: Ran out of types for this method. */;
+- (void)_transformMediaSubtypeReferences:inComparisonPredicate:options: /* Error: Ran out of types for this method. */;
 - (id),;
 
 // Remaining properties

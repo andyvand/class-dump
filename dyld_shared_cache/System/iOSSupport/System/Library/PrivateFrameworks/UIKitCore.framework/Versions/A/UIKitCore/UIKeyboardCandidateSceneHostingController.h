@@ -7,15 +7,13 @@
 @interface UIKeyboardCandidateSceneHostingController
 {
     id sceneHostingController;
-    id delegate;
-    id sceneConfigurationObservables;
 }
 
-- (void);
+- (void)BlastDoorBasicTextMessage;
 - (void);
 - (id);
-- (_Bool);
-- (id)teWithDuration:(id)arg1 delay:options:animations:start:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_transformSupplementaryLayoutAttributes: /* Error: Ran out of types for this method. */;
+- (id)_animateWithDuration:(id)arg1 delay:options:animations:start:completion: /* Error: Ran out of types for this method. */;
 - (void)hËl;
 
 @end

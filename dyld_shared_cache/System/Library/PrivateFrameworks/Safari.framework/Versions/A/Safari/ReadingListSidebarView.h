@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)fontSize;
 - (void);
 - (id);
 - (void);

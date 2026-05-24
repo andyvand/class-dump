@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCompanionRouteContext;
-
 @interface MKURLContext
 {
     _Bool _originatedFromWatch;
-    GEOCompanionRouteContext *_companionRouteContext;
 }
 
 - (_Bool);
 - (id);
-- (id);
-- (void)Distance:travelTime:transportType: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)routeETAWithDistance:travelTime:transportType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) GEOCompanionRouteContext *companionRouteContext; // @synthesize companionRouteContext=_companionRouteContext;
 @property(readonly, nonatomic) _Bool originatedFromWatch; // @synthesize originatedFromWatch=_originatedFromWatch;
 
 @end

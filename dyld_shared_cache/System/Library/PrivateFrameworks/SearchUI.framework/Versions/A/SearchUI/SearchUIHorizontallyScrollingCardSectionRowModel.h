@@ -11,23 +11,21 @@
 @interface SearchUIHorizontallyScrollingCardSectionRowModel : SearchUIRowModel
 {
     NSArray *_cardSectionRowModels;
-    long long _numberOfRows;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (id)nMs = ;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(retain) NSArray *cardSectionRowModels; // @synthesize cardSectionRowModels=_cardSectionRowModels;
-@property(readonly) long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
 
 @end
 

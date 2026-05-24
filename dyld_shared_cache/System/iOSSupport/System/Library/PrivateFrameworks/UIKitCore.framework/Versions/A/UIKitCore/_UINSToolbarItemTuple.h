@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSToolbarItem;
-@protocol _UINavigationBarNSToolbarItemIdentifying;
+@class NSToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface _UINSToolbarItemTuple
 {
     _Bool _isGroupItem;
-    NSToolbarItem *_primaryItem;
-    NSMutableArray *_secondaryRepresentations;
-    id <_UINavigationBarNSToolbarItemIdentifying> _lastUsedSource;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)ChatRepairController"16q24@"IMDChat"32;
+- (void)nvoking fallback logic.;
+- (id)emailAddressesAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void)¯t;
 
 // Remaining properties
-@property _Bool isGroupItem; // @synthesize isGroupItem=_isGroupItem;
-@property __weak id <_UINavigationBarNSToolbarItemIdentifying> lastUsedSource; // @synthesize lastUsedSource=_lastUsedSource;
 @property(retain) NSToolbarItem *primaryItem; // @synthesize primaryItem=_primaryItem;
-@property(retain) NSMutableArray *secondaryRepresentations; // @synthesize secondaryRepresentations=_secondaryRepresentations;
 
 @end
 

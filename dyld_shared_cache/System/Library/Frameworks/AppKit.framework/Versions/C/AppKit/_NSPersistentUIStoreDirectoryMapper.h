@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSPersistentUIStoreDirectoryMapper
 {
     id _savedApplicationStateDirectoryURL;
-    id _storageMappingURL;
-    id _identifiersToUUID;
-    id _ioQueue;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (id)e=%@, proxyURL=%@, request=%@, credentials=%@, handle=%p;
+- (id);
+- (void)count=%llu;
 - (id);
 - (void);
 

@@ -5,5 +5,9 @@
 //
 
 @protocol IMDLegacyMessageQueries
+- (void);
+- (void);
+- (void);
+- (void)entionItem",R,N,V_mentionItem;
 @end
 

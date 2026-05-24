@@ -7,6 +7,7 @@
 @protocol FCTranslationProvider;
 
 @protocol FCTranslationManager
+- (void)alized>;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCTranslationProvider> possiblyUnfetchedTranslationProvider;

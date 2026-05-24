@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriHomeAutomationRequestInfo, NSData, NSString;
+@class AFSiriHomeAutomationRequestInfo;
 
 @interface _AFSiriHomeAutomationRequestInfoMutation
 {
     AFSiriHomeAutomationRequestInfo *_baseModel;
-    NSData *_context;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasContext:1;
-    } _mutationFlags;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)rases;
+- (void)_previouslyRecognizedPhrases;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

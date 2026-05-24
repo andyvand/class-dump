@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString, NSTextCheckingResult;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRTypologyCorrection
 {
     NSString *_misspelling;
-    struct _NSRange _misspelledRange;
-    NSTextCheckingResult *_correctionResult;
-    NSMutableString *_logs;
-    double _openTime;
-    double _closeTime;
-    _Bool _isOpen;
 }
 
 + (id);

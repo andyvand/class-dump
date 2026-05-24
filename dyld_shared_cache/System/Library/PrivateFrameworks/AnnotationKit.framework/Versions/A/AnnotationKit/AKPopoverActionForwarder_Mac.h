@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString;
+@class NSResponder;
 
 @interface AKPopoverActionForwarder_Mac
 {
@@ -12,32 +12,25 @@
 }
 
 + (void);
-- (void);
+- (void)$;
 - (id);
 - (void);
+- (void)s nil;
+- (void)public}@Skipping video input because no assets contained a video track;
+- (void);
+- (void);
+- (void);
+- (void)interpFromEdges;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)idateAnnotationUndecided;
-- (_Bool)ingAnnotation:(id)arg1;
+- (_Bool)isPreviousCandidateAnnotationUndecided;
+- (_Bool)didBeginEditingAnnotation:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSResponder *firstResponderToUse; // @synthesize firstResponderToUse=_firstResponderToUse;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

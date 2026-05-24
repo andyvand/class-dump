@@ -5,5 +5,8 @@
 //
 
 @protocol BSXPCCoding
+
+@optional
+- (Class);
 @end
 

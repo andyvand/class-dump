@@ -9,10 +9,6 @@
 @interface NSLabelViewCell : NSActionCell
 {
     long long _selectedParts;
-    long long _hoveredPart;
-    unsigned long long _imagePosition;
-    _Bool _allowsMultipleSelection;
-    long long _focusedPart;
 }
 
 - (_Bool);
@@ -23,61 +19,74 @@
 - (long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long):vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (long long)L"24;
+- (long long)set_forceEnablePQTLS: /* Error: Ran out of types for this method. */;
+- (void)errorWithDomain:(struct CGRect)arg1 code:(id)arg2 userInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)0!;
+- (id);
+- (id);
+- (id);
+- (void)5;
+- (_Bool)p6;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)_ZN12SocketStream5writeEP15__CFWriteStreamPKhlP13CFStreamError;
+- (id)LoadOriginFinish;
+- (id)selNS_8WhatToDoE;
+- (id)ache23NSURLRequestCachePolicy_block_invoke_2;
+- (id);
+- (id)emStore - failure extract char string from CFStringRef:%@ /* Error: Ran out of types for this method. */;
+- (id)) is wrong.;
+- (void)Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (struct CGRect)l_cache_receiver_data WHERE entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (long long)d_ptr<__SecTrust>=^{__SecTrust}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
+- (id)__nsurlrequest_proto_prop_obj_22;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (struct CGRect)5;
+- (void);
+- (void);
+- (void);
 - (long long);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)!TEù±ß3ð1Â0@ù
 × ;
-- (id):(struct _NSZone *)arg1;
+- (id)_outlineCellBackgroundStyleForRow:(struct _NSZone *)arg1;
 - (void),[ýÿSÿÿ¼ýÿ;
 - (void)bButton] != NSNotFound;
 
 // Remaining properties
-@property _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property long long diskLabelValues; // @dynamic diskLabelValues;
-@property long long focusedPart; // @dynamic focusedPart;
-@property long long hoveredPart; // @synthesize hoveredPart=_hoveredPart;
-@property unsigned long long imagePosition; // @synthesize imagePosition=_imagePosition;
 @property(readonly) long long numParts; // @dynamic numParts;
 
 @end

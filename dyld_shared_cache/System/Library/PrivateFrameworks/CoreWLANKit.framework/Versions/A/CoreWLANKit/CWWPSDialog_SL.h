@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSButton, NSImageView, NSProgressIndicator, NSString, NSTextField;
+@class CWDisplayedScanResult;
 
 @interface CWWPSDialog_SL
 {
     CWDisplayedScanResult *_scanResult;
-    id _delegate;
-    NSString *_pin;
-    _Bool _joinInProgress;
-    NSTextField *windowTitleLabel;
-    NSTextField *windowDescriptionLabel;
-    NSButton *cancelButton;
-    NSTextField *pinLabel;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSButton *helpButton;
-    NSImageView *imageView;
 }
 
 + (id);
@@ -33,17 +21,15 @@
 - (id);
 - (void);
 - (id);
+- (void)l;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property id delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *pin; // @synthesize pin=_pin;
 @property(copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NWParameters;
-@protocol OS_dispatch_queue, OS_nw_path_evaluator;
+@class NSObject;
+@protocol OS_nw_path_evaluator;
 
 @interface NWCandidatePathMonitor
 {
     struct os_unfair_lock_s lock;
-    NSObject<OS_nw_path_evaluator> *_primaryEvaluator;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_remoteEndpoints;
-    NSMutableDictionary *_candidatePathEvaluators;
-    CDUnknownBlockType _updateHandler;
 }
 
 - (void);
@@ -22,20 +17,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (id)q;
+- (id)R;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ction Image;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)emporaryDirectory.E3rVWN/Sources/SpotlightCore/spotlight/framework/MDLabel.m;
 - (id);
 - (id)\;
 - (void)@;
@@ -43,14 +38,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *candidatePathEvaluators; // @synthesize candidatePathEvaluators=_candidatePathEvaluators;
-@property(readonly, nonatomic) NSArray *candidatePaths;
-@property(readonly, nonatomic) NSArray *interfaces;
-@property(readonly, nonatomic) NWParameters *parameters;
 @property(retain, nonatomic) NSObject<OS_nw_path_evaluator> *primaryEvaluator; // @synthesize primaryEvaluator=_primaryEvaluator;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSArray *remoteEndpoints; // @synthesize remoteEndpoints=_remoteEndpoints;
-@property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;
 
 @end
 

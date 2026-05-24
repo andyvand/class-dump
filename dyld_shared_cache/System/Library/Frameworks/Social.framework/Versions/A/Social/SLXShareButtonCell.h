@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)libswift_Builtin_float.dylib;
 
 @end
 

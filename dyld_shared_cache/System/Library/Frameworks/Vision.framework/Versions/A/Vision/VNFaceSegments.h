@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @interface VNFaceSegments
 {
     unsigned long long _requestRevision;
-    unsigned long long _outputBufferWidth;
-    unsigned long long _outputBufferHeight;
-    NSData *_outputBufferData;
-    unsigned long long _numberOfFaceSegments;
-    struct CGRect _boundingBox;
-    NSDictionary *_faceSegmentLabelToProbabilityMap;
-    vector_926a3350 _probabilityNormSums;
 }
 
 + (unsigned long long);
@@ -26,7 +17,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (id);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
@@ -35,10 +26,10 @@
 - (struct __CVBuffer *);
 - (void);
 - (struct __CVBuffer *);
-- (id);
-- (unsigned long long);
+- (id)currentConnection;
+- (unsigned long long)-;
 - (struct CGRect);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -46,13 +37,7 @@
 - (void)t output. Error = %s;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) NSDictionary *faceSegmentLabelToProbabilityMap; // @synthesize faceSegmentLabelToProbabilityMap=_faceSegmentLabelToProbabilityMap;
-@property(readonly, nonatomic) unsigned long long numberOfFaceSegments; // @synthesize numberOfFaceSegments=_numberOfFaceSegments;
-@property(readonly, nonatomic) NSData *outputBufferData; // @synthesize outputBufferData=_outputBufferData;
-@property(readonly, nonatomic) unsigned long long outputBufferHeight; // @synthesize outputBufferHeight=_outputBufferHeight;
 @property(readonly, nonatomic) unsigned long long outputBufferWidth; // @synthesize outputBufferWidth=_outputBufferWidth;
-@property(readonly, nonatomic) unsigned long long requestRevision; // @synthesize requestRevision=_requestRevision;
 
 @end
 

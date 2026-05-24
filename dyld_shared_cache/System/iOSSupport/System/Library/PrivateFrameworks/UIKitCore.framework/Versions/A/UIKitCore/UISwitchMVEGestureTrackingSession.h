@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIView;
-@protocol UISwitchMVEGestureTrackingSessionElement;
-
 __attribute__((visibility("hidden")))
 @interface UISwitchMVEGestureTrackingSession
 {
     _Bool _displayedOnValue;
-    _Bool _pendingDisplayedOnValue;
-    _Bool _lastCommitedOnValue;
-    UIView<UISwitchMVEGestureTrackingSessionElement> *_visualElement;
-    double _naturalLayoutDirection;
-    double _movementVectorForPanInitiatedChangeY;
-    double _movementVectorForPanInitiatedChangeTargetOnValue;
-    UIGestureRecognizer *_pendingDisplayedOnValueInitiatingGesture;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
-- (void);
-- (_Bool);
+- (void)__MPModelPropertyTVShowEpisodeCount__MAPPING_MISSING__;
+- (_Bool)_itemPropertyFilters;
 - (_Bool);
 - (_Bool);
 - (id)0@ù
 × ;
-- (_Bool)sualStyling;
-- (_Bool)dateProperties;
-- (void)BeGuessed: /* Error: Ran out of types for this method. */;
-- (void)anager;
-- (id)inalOrientation:handler:reason:disablingInterfaceAutorotation: /* Error: Ran out of types for this method. */;
-- (void)idChange:(_Bool)arg1;
-- (_Bool)ffset:minimumLayoutWidth:maximumLayoutWidth:tileClippedContent: /* Error: Ran out of types for this method. */;
-- (void)thOrSectionHeader: /* Error: Ran out of types for this method. */;
-- (void)sionWillBegin: /* Error: Ran out of types for this method. */;
-- (_Bool)s:(double)arg1;
-- (void)lay;
+- (_Bool)visualStyling;
+- (_Bool)setNeedsUpdateProperties;
+- (void)rectForHeaderInSection:heightCanBeGuessed: /* Error: Ran out of types for this method. */;
+- (void)originalLayoutManager;
+- (id)initWithOriginalOrientation:handler:reason:disablingInterfaceAutorotation: /* Error: Ran out of types for this method. */;
+- (void)handleKeyboardUIDidChange:(_Bool)arg1;
+- (_Bool)beginPrintModeForFrame:withSize:startOffset:minimumLayoutWidth:maximumLayoutWidth:tileClippedContent: /* Error: Ran out of types for this method. */;
+- (void)_nextIndexPathOrSectionHeader: /* Error: Ran out of types for this method. */;
+- (void)tableView:dragSessionWillBegin: /* Error: Ran out of types for this method. */;
+- (_Bool)doesOverrideMethod:(double)arg1 inBaseClass: /* Error: Ran out of types for this method. */;
+- (void)_UIFocusBehavior_CarPlay;
 - (double)xtInputActionsSource=%@;
 - (void);
 - (double);
@@ -49,14 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)°Ne;
 
 // Remaining properties
-@property(nonatomic) _Bool displayedOnValue; // @synthesize displayedOnValue=_displayedOnValue;
-@property(readonly, nonatomic) _Bool lastCommitedOnValue; // @synthesize lastCommitedOnValue=_lastCommitedOnValue;
-@property(readonly, nonatomic) double movementVectorForPanInitiatedChangeTargetOnValue; // @synthesize movementVectorForPanInitiatedChangeTargetOnValue=_movementVectorForPanInitiatedChangeTargetOnValue;
-@property(readonly, nonatomic) double movementVectorForPanInitiatedChangeY; // @synthesize movementVectorForPanInitiatedChangeY=_movementVectorForPanInitiatedChangeY;
 @property(readonly, nonatomic) double naturalLayoutDirection; // @synthesize naturalLayoutDirection=_naturalLayoutDirection;
-@property(readonly, nonatomic) _Bool pendingDisplayedOnValue; // @synthesize pendingDisplayedOnValue=_pendingDisplayedOnValue;
-@property(readonly, nonatomic) UIGestureRecognizer *pendingDisplayedOnValueInitiatingGesture; // @synthesize pendingDisplayedOnValueInitiatingGesture=_pendingDisplayedOnValueInitiatingGesture;
-@property(nonatomic) __weak UIView<UISwitchMVEGestureTrackingSessionElement> *visualElement; // @synthesize visualElement=_visualElement;
 
 @end
 

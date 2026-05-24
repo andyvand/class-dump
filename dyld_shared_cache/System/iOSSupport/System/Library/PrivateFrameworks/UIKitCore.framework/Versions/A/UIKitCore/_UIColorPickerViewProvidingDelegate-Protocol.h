@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, UIColor;
+
 @protocol _UIColorPickerViewProvidingDelegate
+- (void)defuseRelayReachabilityResponsePayload:error: /* Error: Ran out of types for this method. */;
+- (void)defuseNicknameCommand:(UIColor *)arg1 senderContext:(NSString *)arg2 error:(_Bool)arg3;
+- (void)defuseLiteTextMessage:error: /* Error: Ran out of types for this method. */;
+- (void)defuseLiteRelayTextMessage:error: /* Error: Ran out of types for this method. */;
+- (void)defuseCollaborationNoticePayload:resultHandler: /* Error: Ran out of types for this method. */;
 @end
 

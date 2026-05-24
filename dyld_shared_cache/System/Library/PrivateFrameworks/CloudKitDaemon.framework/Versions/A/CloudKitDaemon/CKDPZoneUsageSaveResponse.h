@@ -11,7 +11,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ively using APAT, but no longer supported across all substreams. Posting 'ActiveConfigurationDidBecomeInvalid'!;
 - (_Bool);
 - (_Bool);
 - (void);

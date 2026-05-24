@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface MenuTableView
 {
     _Bool _lastMousePositionWasOverList;
-    double _cellViewHorizontalInset;
 }
 
 - (void);
-- (double);
+- (double)`;
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)qA;
 - (_Bool);
 - (struct CGRect);
 - (void);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cellViewHorizontalInset; // @synthesize cellViewHorizontalInset=_cellViewHorizontalInset;
 @property __weak id <MenuTableViewDelegate> delegate; // @dynamic delegate;
 
 @end

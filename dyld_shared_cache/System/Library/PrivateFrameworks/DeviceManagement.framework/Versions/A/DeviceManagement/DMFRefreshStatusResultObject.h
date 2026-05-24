@@ -11,12 +11,12 @@
     NSNumber *_numberOfUpdates;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)addResults:sectionLabel:includeHeader: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *numberOfUpdates; // @synthesize numberOfUpdates=_numberOfUpdates;

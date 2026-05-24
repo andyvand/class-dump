@@ -9,10 +9,6 @@
 @interface BKMatchResultInfo
 {
     _Bool _unlocked;
-    _Bool _credentialAdded;
-    _Bool _resultIgnored;
-    BKIdentity *_identity;
-    long long _lockoutState;
 }
 
 - (void);
@@ -24,15 +20,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool credentialAdded; // @synthesize credentialAdded=_credentialAdded;
 @property(retain, nonatomic) BKIdentity *identity; // @synthesize identity=_identity;
-@property(nonatomic) long long lockoutState; // @synthesize lockoutState=_lockoutState;
-@property(readonly, nonatomic) _Bool resultIgnored; // @synthesize resultIgnored=_resultIgnored;
-@property(nonatomic) _Bool unlocked; // @synthesize unlocked=_unlocked;
 
 @end
 

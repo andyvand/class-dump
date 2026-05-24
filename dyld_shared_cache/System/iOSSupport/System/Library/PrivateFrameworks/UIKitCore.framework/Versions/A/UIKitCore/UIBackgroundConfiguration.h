@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage, UIShadowProperties, UIView, UIVisualEffect;
-@protocol _UIViewMaterial;
+@class UIView;
 
 @interface UIBackgroundConfiguration
 {
@@ -28,37 +27,13 @@
         unsigned int hasCustomizedMaskedCorners:1;
         unsigned int hasCustomizedMaterial:1;
     } _configurationFlags;
-    _Bool _contentViewIgnoresBackgroundInsets;
-    UIView *_customView;
-    double _cornerRadius;
-    unsigned long long _edgesAddingLayoutMarginsToBackgroundInsets;
-    UIColor *_backgroundColor;
-    CDUnknownBlockType _backgroundColorTransformer;
-    UIVisualEffect *_visualEffect;
-    NSString *_visualEffectGroupName;
-    UIImage *_image;
-    long long _imageContentMode;
-    UIColor *_strokeColor;
-    CDUnknownBlockType _strokeColorTransformer;
-    double _strokeWidth;
-    double _strokeOutset;
-    UIShadowProperties *_shadowProperties;
-    unsigned long long _maskedCorners;
-    unsigned long long _visualEffectblurClippingMode;
-    long long _defaultStyle;
-    long long _backgroundColorTransformerIdentifier;
-    long long _strokeColorTransformerIdentifier;
-    long long _strokeLocation;
-    UIView *_contentView;
-    id <_UIViewMaterial> _material;
-    struct NSDirectionalEdgeInsets _backgroundInsets;
 }
 
 + (id);
 + (id);
++ (id)CEMDeviceInformationCommand_StatusErrorResponses;
 + (id);
-+ (id);
-+ (id);
++ (id)yWhenBackgrounded-upload;
 + (id);
 + (id);
 + (id);
@@ -67,16 +42,16 @@
 + (id);
 + (id)0@ù
 × ;
-+ (id)itingUI;
-+ (id)WillBegin:(id)arg1;
-+ (id)ntainerViews;
++ (id)suppressesEditingUI;
++ (id)_tableView:(id)arg1 dragSessionWillBegin:(id)arg2;
++ (id)_releaseContainerViews;
 + (id)erViewInterMonthButtonSpacing;
 + (id)ckgroundConfigurator;
 + (id)imaryRecipientIdentifiers;
-+ (id);
++ (id)UIDeferredMenuElement;
 + (id)CalendarDateComponent.m;
 + (_Bool)). Value must be at least 0.0, or UITableViewAutomaticDimension.;
-+ (id)CommandHandlerBlock;
++ (id)MRMediaRemoteSetCommandHandlerBlock;
 + (id)apshotRequest"8;
 + (id);
 + (id)<ú`;
@@ -85,9 +60,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)statusContainerIdentifier;
+- (id)wingUndownloadedTV:withAllowShowingUndownloadedMovies: /* Error: Ran out of types for this method. */;
+- (void)ber",C,N,V_statusITunesStoreAccountIsActive;
 - (void);
 - (void);
 - (_Bool);
@@ -105,10 +80,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (id);
-- (void);
+- (id)_overlappedTransitionDuration;
+- (struct NSDirectionalEdgeInsets)__MPModelRelationshipTVEpisodeStoreAsset__MAPPING_MISSING__;
+- (id)__MPModelPropertyPodcastEpisodeShareURL__MAPPING_MISSING__;
+- (void)MPModelLibraryPlaylistEditPlaylistDataSource;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -147,15 +122,15 @@
 - (double)
 × ;
 - (void)52;
-- (double)tSearchFieldFont: /* Error: Ran out of types for this method. */;
-- (long long)etNeedsRevalidate;
-- (_Bool)dex;
-- (_Bool)ultSelectedAtomBackgroundColor;
-- (void)ModernAccessoriesLayout;
+- (double)setSearchFieldFont: /* Error: Ran out of types for this method. */;
+- (long long)setNeedsRevalidate;
+- (_Bool)displayEntryIndex;
+- (_Bool)defaultSelectedAtomBackgroundColor;
+- (void)_usesModernAccessoriesLayout;
 - (id)nator:(id)arg1;
-- (void)ns;
-- (void)ystemMinimumMargins:(id)arg1;
-- (void)e:(_Bool)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)_unregisterForScrollViewNotifications;
+- (void)_setLayoutMarginsGuideIgnoresSystemMinimumMargins:(id)arg1;
+- (void)_animateUsingFluidSpringWithType:(_Bool)arg1 animations:completion: /* Error: Ran out of types for this method. */;
 - (void)V_hasTextfields;
 - (_Bool)troller;
 - (void)LayoutConstraint",&,N,V_rightConstraint;
@@ -169,15 +144,15 @@
 - (_Bool)ht (%g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
 - (unsigned long long)ons:%@ /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)requests an unsupported idiom;
-- (void)nteractionTypeMore;
+- (void)UIKBKeyInteractionTypeMore;
 - (CDUnknownBlockType)f;
 - (void)ffect != nil;
 - (_Bool)and AppStore, please stop calling this method, it doesn't do anything and we would like to remove it. You have a radar about this (139002488 & 139002492).;
-- (double)ndaryFill;
+- (double)UIVibrancyEffectStyleSecondaryFill;
 - (id)8PausableP;
-- (id)x;
+- (id)SgXwz_Xx;
 - (id)u13é·;
-- (void)pperView;
+- (void)_UITabBarContainerWrapperView;
 - (CDUnknownBlockType);
 - (void);
 - (double);
@@ -211,68 +186,7 @@
 - (void)ÿ @ÖÈUo;
 
 // Remaining properties
-@property(nonatomic, setter=__setMaskedCorners:) unsigned long long __maskedCorners; // @synthesize __maskedCorners=_maskedCorners;
-@property(retain, nonatomic, setter=__setMaterial:) id <_UIViewMaterial> __material; // @synthesize __material=_material;
-@property(copy, nonatomic, setter=__setVisualEffectGroupName:) NSString *__visualEffectGroupName; // @synthesize __visualEffectGroupName=_visualEffectGroupName;
-@property(nonatomic, setter=__setVisualEffectblurClippingMode:) unsigned long long __visualEffectblurClippingMode; // @synthesize __visualEffectblurClippingMode=_visualEffectblurClippingMode;
-@property(retain, nonatomic, setter=_setBackgroundColor:) UIColor *_backgroundColor; // @synthesize _backgroundColor;
-@property(copy, nonatomic, setter=_setBackgroundColorTransformer:) CDUnknownBlockType _backgroundColorTransformer; // @synthesize _backgroundColorTransformer;
-@property(nonatomic, setter=_setBackgroundColorTransformerIdentifier:) long long _backgroundColorTransformerIdentifier; // @synthesize _backgroundColorTransformerIdentifier;
-@property(nonatomic, setter=_setBackgroundInsets:) struct NSDirectionalEdgeInsets _backgroundInsets; // @synthesize _backgroundInsets;
-@property(retain, nonatomic, setter=_setContentView:) UIView *_contentView; // @synthesize _contentView;
-@property(nonatomic, setter=_setContentViewIgnoresBackgroundInsets:) _Bool _contentViewIgnoresBackgroundInsets; // @synthesize _contentViewIgnoresBackgroundInsets;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
 @property(retain, nonatomic, setter=_setCustomView:) UIView *_customView; // @synthesize _customView;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setEdgesAddingLayoutMarginsToBackgroundInsets:) unsigned long long _edgesAddingLayoutMarginsToBackgroundInsets; // @synthesize _edgesAddingLayoutMarginsToBackgroundInsets;
-@property(readonly, nonatomic) _Bool _hasCustomizedBackgroundColor;
-@property(readonly, nonatomic) _Bool _hasCustomizedCornerRadius;
-@property(readonly, nonatomic) _Bool _hasCustomizedMaterial;
-@property(readonly, nonatomic) _Bool _hasCustomizedVisualEffect;
-@property(readonly, nonatomic) _Bool _hasCustomizedVisualEffectGroupName;
-@property(readonly, nonatomic) _Bool _hasCustomizedVisualEffectblurClippingMode;
-@property(retain, nonatomic, setter=_setImage:) UIImage *_image; // @synthesize _image;
-@property(nonatomic, setter=_setImageContentMode:) long long _imageContentMode; // @synthesize _imageContentMode;
-@property(nonatomic, setter=_setMaskedCorners:) unsigned long long _maskedCorners;
-@property(retain, nonatomic, setter=_setMaterial:) id <_UIViewMaterial> _material;
-@property(retain, nonatomic, setter=_setShadowProperties:) UIShadowProperties *_shadowProperties; // @synthesize _shadowProperties;
-@property(retain, nonatomic, setter=_setStrokeColor:) UIColor *_strokeColor; // @synthesize _strokeColor;
-@property(copy, nonatomic, setter=_setStrokeColorTransformer:) CDUnknownBlockType _strokeColorTransformer; // @synthesize _strokeColorTransformer;
-@property(nonatomic, setter=_setStrokeColorTransformerIdentifier:) long long _strokeColorTransformerIdentifier; // @synthesize _strokeColorTransformerIdentifier;
-@property(nonatomic, setter=_setStrokeOutset:) double _strokeOutset; // @synthesize _strokeOutset;
-@property(nonatomic, setter=_setStrokeWidth:) double _strokeWidth; // @synthesize _strokeWidth;
-@property(copy, nonatomic, setter=_setVisualEffect:) UIVisualEffect *_visualEffect; // @synthesize _visualEffect;
-@property(nonatomic, setter=_setVisualEffectAllowsTransparentBlurring:) _Bool _visualEffectAllowsTransparentBlurring;
-@property(copy, nonatomic, setter=_setVisualEffectGroupName:) NSString *_visualEffectGroupName;
-@property(nonatomic, setter=_setVisualEffectblurClippingMode:) unsigned long long _visualEffectblurClippingMode;
-@property(retain, nonatomic) UIColor *backgroundColor;
-@property(copy, nonatomic) CDUnknownBlockType backgroundColorTransformer;
-@property(nonatomic) struct NSDirectionalEdgeInsets backgroundInsets;
-@property(nonatomic) double cornerRadius;
-@property(retain, nonatomic) UIView *customView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgesAddingLayoutMarginsToBackgroundInsets;
-@property(readonly, nonatomic, getter=_hasBackgroundColor) _Bool hasBackgroundColor;
-@property(readonly, nonatomic, getter=_hasBackgroundFill) _Bool hasBackgroundFill;
-@property(readonly, nonatomic, getter=_hasContentView) _Bool hasContentView;
-@property(readonly, nonatomic, getter=_hasMaterial) _Bool hasMaterial;
-@property(readonly, nonatomic, getter=_hasStroke) _Bool hasStroke;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) long long imageContentMode;
-@property(readonly, nonatomic) _Bool isTintBackgroundColor;
-@property(readonly, nonatomic) UIShadowProperties *shadowProperties;
-@property(retain, nonatomic) UIColor *strokeColor;
-@property(copy, nonatomic) CDUnknownBlockType strokeColorTransformer;
-@property(nonatomic, getter=_strokeLocation, setter=_setStrokeLocation:) long long strokeLocation; // @synthesize strokeLocation=_strokeLocation;
-@property(nonatomic) double strokeOutset;
-@property(nonatomic) double strokeWidth;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) UIVisualEffect *visualEffect;
 
 @end
 

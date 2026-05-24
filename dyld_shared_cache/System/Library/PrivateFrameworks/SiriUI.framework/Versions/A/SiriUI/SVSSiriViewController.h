@@ -4,48 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFConversationStore, AFManagedStorageConnection, AFUISiriViewController, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSTimer, SAAceView, SAUISayIt, SRUIFAceCommandRecords, SRUIFAnalyticsSupplement, SiriSharedUIPhPicker, SiriUIRequestOptions, SiriUISiriLanguage;
-@protocol AFUISiriSession, OS_dispatch_source, SRUIFSpeechSynthesizing, SiriUIPresentation;
+@class AFConversationStore;
 
 __attribute__((visibility("hidden")))
 @interface SVSSiriViewController
 {
     _Bool _synthesisIsSpeaking;
-    _Bool _ttsSpokenForRequest;
-    NSString *_responseViewId;
-    unsigned long long _lockState;
-    NSMutableSet *_presentedConversationItemRevisionIdentifiers;
-    NSMutableDictionary *_synthesisPreparationDictionary;
-    NSMutableDictionary *_synthesisAnimationDictionary;
-    NSObject<OS_dispatch_source> *_connectionErrorDismissalTimer;
-    SAUISayIt *_repeatableAudioSayit;
-    SRUIFAnalyticsSupplement *_analyticsSupplement;
-    NSMutableDictionary *_modeForAceIdentifiers;
-    SiriSharedUIPhPicker *_phPicker;
-    _Bool __speechIdleTimerEnabled;
-    _Bool __idleTimerEnabled;
-    _Bool _acousticIdAllowed;
-    _Bool _waitingForStartRequest;
-    _Bool _requestActive;
-    id <AFUISiriSession> _session;
-    AFUISiriViewController *_host;
-    AFConversationStore *_conversationStore;
-    NSMutableArray *_conversations;
-    id <SiriUIPresentation> _presentation;
-    SiriUISiriLanguage *_language;
-    id <SRUIFSpeechSynthesizing> _speechSynthesis;
-    SRUIFAceCommandRecords *_aceCommandRecords;
-    NSMutableSet *_completedCommandAppPunchOutIds;
-    SiriUIRequestOptions *_requestOptions;
-    NSString *_currentAVRecordRoute;
-    unsigned long long _requestStartedCount;
-    long long _siriState;
-    NSTimer *__speechIdleTimer;
-    NSTimer *__idleTimer;
-    unsigned long long _wasSiriIdleAndQuiet;
-    AFManagedStorageConnection *_domainObjectStorageConnection;
-    NSMutableArray *_repeatablePhrases;
-    SAAceView *_viewToSpeakAfterClearScreenCommand;
 }
 
 + (id);
@@ -58,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -76,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,6 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -133,14 +98,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -165,10 +129,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -181,7 +145,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -201,7 +165,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)N;
 - (void);
 - (void);
 - (void);
@@ -223,9 +187,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (double);
@@ -238,7 +202,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -251,26 +215,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -282,7 +246,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -331,7 +295,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (void);
@@ -342,16 +306,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (double);
+- (void);
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void),V_timeRemainingLabel;
+- (id)1;
 - (id);
 - (void);
 - (void);
@@ -364,38 +328,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, setter=_setIdleTimer:) NSTimer *_idleTimer; // @synthesize _idleTimer=__idleTimer;
-@property(getter=_isIdleTimerEnabled, setter=_setIdleTimerEnabled:) _Bool _idleTimerEnabled; // @synthesize _idleTimerEnabled=__idleTimerEnabled;
-@property(retain, setter=_setSpeechIdleTimer:) NSTimer *_speechIdleTimer; // @synthesize _speechIdleTimer=__speechIdleTimer;
-@property(getter=_isSpeechIdleTimerEnabled, setter=_setSpeechIdleTimerEnabled:) _Bool _speechIdleTimerEnabled; // @synthesize _speechIdleTimerEnabled=__speechIdleTimerEnabled;
-@property(readonly, getter=_aceCommandRecords) SRUIFAceCommandRecords *aceCommandRecords; // @synthesize aceCommandRecords=_aceCommandRecords;
-@property(getter=_isAcousticIdAllowed, setter=_setAcousticIdAllowed:) _Bool acousticIdAllowed; // @synthesize acousticIdAllowed=_acousticIdAllowed;
-@property(retain, nonatomic, getter=_completedCommandAppPunchOutIds) NSMutableSet *completedCommandAppPunchOutIds; // @synthesize completedCommandAppPunchOutIds=_completedCommandAppPunchOutIds;
 @property(readonly, nonatomic, getter=_conversationStore) AFConversationStore *conversationStore; // @synthesize conversationStore=_conversationStore;
-@property(readonly, getter=_conversations) NSMutableArray *conversations; // @synthesize conversations=_conversations;
-@property(retain, getter=_currentAVRecordRoute, setter=_setCurrentAVRecordRoute:) NSString *currentAVRecordRoute; // @synthesize currentAVRecordRoute=_currentAVRecordRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=_domainObjectStorageConnection) AFManagedStorageConnection *domainObjectStorageConnection; // @synthesize domainObjectStorageConnection=_domainObjectStorageConnection;
-@property(readonly) unsigned long long hash;
-@property __weak AFUISiriViewController *host; // @synthesize host=_host;
-@property(readonly, nonatomic) _Bool isPresentingContent;
-@property(readonly, nonatomic, getter=_language) SiriUISiriLanguage *language; // @synthesize language=_language;
-@property(readonly, getter=_presentation) id <SiriUIPresentation> presentation; // @synthesize presentation=_presentation;
-@property(retain, getter=_repeatablePhrases, setter=_setRepeatablePhrases:) NSMutableArray *repeatablePhrases; // @synthesize repeatablePhrases=_repeatablePhrases;
-@property(getter=_isRequestActive, setter=_setRequestActive:) _Bool requestActive; // @synthesize requestActive=_requestActive;
-@property(retain, nonatomic, getter=_requestOptions, setter=_setRequestOptions:) SiriUIRequestOptions *requestOptions; // @synthesize requestOptions=_requestOptions;
-@property(getter=_requestStartedCount, setter=_setRequestStartedCount:) unsigned long long requestStartedCount; // @synthesize requestStartedCount=_requestStartedCount;
-@property(readonly, nonatomic, getter=_session) id <AFUISiriSession> session; // @synthesize session=_session;
-@property(getter=_siriState, setter=_setSiriState:) long long siriState; // @synthesize siriState=_siriState;
-@property(readonly, getter=_speechSynthesis) id <SRUIFSpeechSynthesizing> speechSynthesis; // @synthesize speechSynthesis=_speechSynthesis;
-@property(readonly) Class superclass;
-@property(retain, getter=_utteranceToSpeakAfterClearScreenCommand, setter=_setUtteranceToSpeakAfterClearScreenCommand:) SAAceView *viewToSpeakAfterClearScreenCommand; // @synthesize viewToSpeakAfterClearScreenCommand=_viewToSpeakAfterClearScreenCommand;
-@property(getter=_isWaitingForStartRequest, setter=_setWaitingForStartRequest:) _Bool waitingForStartRequest; // @synthesize waitingForStartRequest=_waitingForStartRequest;
-@property(getter=_wasSiriIdleAndQuiet, setter=_setWasSiriIdleAndQuiet:) unsigned long long wasSiriIdleAndQuiet; // @synthesize wasSiriIdleAndQuiet=_wasSiriIdleAndQuiet;
 
 @end
 

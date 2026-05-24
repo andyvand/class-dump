@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol INIntentResponseDescriptionExport
-- (_Bool)thCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool)provideRecipientsOptionsForSendMessage:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) Class dataClass;
-@property(readonly, nonatomic) Class facadeClass;
-@property(readonly, nonatomic) _Bool isPrivate;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSDictionary *slotsByName;
-@property(readonly, copy, nonatomic) NSString *type;
 @end
 

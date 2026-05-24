@@ -7,11 +7,10 @@
 @class NSData, NSString;
 
 @protocol FCAssetDataProvider
+- (_Bool)collectionView:sceneActivationConfigurationForItemAtIndexPath:point: /* Error: Ran out of types for this method. */;
 - (NSString *)t;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *filePath;
-@property(readonly, nonatomic) _Bool isRawFileConsumable;
 @end
 

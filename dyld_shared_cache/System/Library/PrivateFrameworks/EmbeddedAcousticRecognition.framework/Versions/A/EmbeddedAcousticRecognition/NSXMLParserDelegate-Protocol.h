@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSXMLParser;
+
 @protocol NSXMLParserDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)_intents_matchExtensionsForIntent:(NSXMLParser *)arg1 shouldIgnoreLaunchId:(NSError *)arg2 completion: /* Error: Ran out of types for this method. */;
 @end
 

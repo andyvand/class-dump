@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphDateNodeCollection, PGGraphFeatureNodeCollection;
+@class PGGraphDateNodeCollection;
 
 @interface PGGraphCalendarUnitNodeCollection : PGGraphNodeCollection
 {
@@ -14,23 +14,16 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned long long);
++ (id)f;
++ (unsigned long long)lquantize( ) step (argument #3) too large:must have at least one quantization level
+ /* Error: Ran out of types for this method. */;
 + (Class);
 + (id)ationsThruCrop"i"numberOfEliminationsThruNotSafeForDisplay"i"numberOfEliminationsThruKnownFRCFailure"i"numberOfEliminationsThruDeviceOwner"i}}"numberOfFRCEligibleWallpaperCandidates"i"numberOfFRCEligibleAssetCandidates"i};
 - (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphDateNodeCollection *dateNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)eceiveEvent: /* Error: Ran out of types for this method. */;
+- (void)secureTransport:didReceiveEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAPSecuritySessionEncryption *eventEncryption; // @synthesize eventEncryption=_eventEncryption;

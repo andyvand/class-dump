@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (int);
-- (void);
+- (_Bool)encodedShareData;
+- (int)isDeleted;
+- (void)reate an index element with non-attribute property;
 
 @end
 

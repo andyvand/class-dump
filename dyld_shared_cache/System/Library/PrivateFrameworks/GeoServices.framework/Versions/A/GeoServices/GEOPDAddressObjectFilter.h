@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAddressObjectFilter
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_libraryVersions;
-    _Bool _enableLocation;
-    struct {
-        unsigned int has_enableLocation:1;
-    } _flags;
 }
 
 - (id);

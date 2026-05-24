@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBQueryHealthSampleIntentResponse
 {
     struct _has;
-    NSArray *_resultValues;
 }
 
 + (Class);
@@ -21,25 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)seCodeFormatStringDictionary;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)INIntentResponseCodeFormatStringDictionary;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *resultValues; // @synthesize resultValues=_resultValues;
-@property(readonly, nonatomic) unsigned long long resultValuesCount;
-@property(readonly) Class superclass;
 
 @end
 

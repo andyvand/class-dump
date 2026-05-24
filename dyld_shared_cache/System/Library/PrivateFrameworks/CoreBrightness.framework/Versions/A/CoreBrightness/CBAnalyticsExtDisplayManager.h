@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBAnalyticsExtDisplayManager
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_reportTimer;
-    NSMutableDictionary *_timestamps;
-    NSMutableDictionary *samples;
-    _Bool _userActive;
 }
 
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
 - (void);
@@ -32,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool);
+- (void)P;
+- (id)#;
+- (id);
 
 @end
 

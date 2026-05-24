@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUIRowModel.h>
 
-@class NSString, SFSearchResult;
+@class NSString;
 
 @interface SearchUIScreenTimeResultsRowModel : SearchUIRowModel
 {
     NSString *_title;
-    SFSearchResult *_overrideIdentifyingResult;
 }
 
 - (void);
@@ -21,12 +20,11 @@
 - (id);
 - (Class);
 - (void);
-- (id);
+- (id)I;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFSearchResult *overrideIdentifyingResult; // @synthesize overrideIdentifyingResult=_overrideIdentifyingResult;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

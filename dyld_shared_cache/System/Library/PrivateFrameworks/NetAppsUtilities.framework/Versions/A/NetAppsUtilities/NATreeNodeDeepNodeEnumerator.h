@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NATreeNode, NSArray, NSMutableArray;
+@class NATreeNode, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NATreeNodeDeepNodeEnumerator
 {
     NSMutableArray *_enumeratorStack;
-    NATreeNode *_node;
 }
 
 - (id);
@@ -18,10 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allObjects;
 @property(readonly, copy, nonatomic) NATreeNode *node; // @synthesize node=_node;
 
 @end

@@ -7,11 +7,6 @@
 @interface Network._NWConnection.ContentContext
 {
     id _nw;
-    id identifier;
-    id expirationMilliseconds;
-    id relativePriority;
-    id antecedent;
-    id isFinal;
 }
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol NSCollectionViewElement
+
+@optional
+- (void)B;
+- (void)-;
 @end
 

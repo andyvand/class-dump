@@ -9,25 +9,21 @@
 @interface PKMacLinedPaperView
 {
     _Bool _darkMode;
-    PKLinedPaper *_linedPaper;
-    double _yOrigin;
 }
 
 + (void);
 - (void);
-- (void);
+- (void)GcGc@b!f;
 - (id);
 - (double);
-- (void);
-- (_Bool);
+- (void)_MPNowPlayingInfoPropertyCollectionInfo;
+- (_Bool)MPModelRelationshipGenericTVSeason;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool darkMode; // @synthesize darkMode=_darkMode;
 @property(retain, nonatomic) PKLinedPaper *linedPaper; // @synthesize linedPaper=_linedPaper;
-@property(nonatomic) double yOrigin; // @synthesize yOrigin=_yOrigin;
 
 @end
 

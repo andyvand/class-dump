@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSWidgetDescriptorsPredicate
 {
     long long remoteWidgetInclusions;
-    _Bool includeRelevanceBacked;
 }
 
 + (void);
@@ -23,18 +20,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)*;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) _Bool includeRelevanceBacked; // @synthesize includeRelevanceBacked;
-@property(nonatomic) _Bool includeRemote;
 @property(nonatomic) long long remoteWidgetInclusions; // @synthesize remoteWidgetInclusions;
 
 @end

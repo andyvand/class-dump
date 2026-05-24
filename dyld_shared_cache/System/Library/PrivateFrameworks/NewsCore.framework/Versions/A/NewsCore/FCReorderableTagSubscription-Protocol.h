@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *order;
-@property(readonly, copy, nonatomic) NSString *tagID;
 @end
 

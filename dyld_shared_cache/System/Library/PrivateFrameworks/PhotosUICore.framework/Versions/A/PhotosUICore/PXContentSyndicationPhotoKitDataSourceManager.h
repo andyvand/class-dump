@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXContentSyndicationDataSourceManager.h>
 
-@class NSString, PHPhotoLibrary, PXContentSyndicationPhotoKitDataSource;
-@protocol PXContentSyndicationAssetFetchResultProvider, PXContentSyndicationSocialLayerHighlightProvider, PXUIImageProvider;
+@class PHPhotoLibrary, PXContentSyndicationPhotoKitDataSource;
 
 @interface PXContentSyndicationPhotoKitDataSourceManager : PXContentSyndicationDataSourceManager
 {
     PHPhotoLibrary *_photoLibrary;
-    id <PXContentSyndicationAssetFetchResultProvider> _assetFetchResultProvider;
-    id <PXUIImageProvider> _imageProvider;
-    id <PXContentSyndicationSocialLayerHighlightProvider> _highlightProvider;
 }
 
 + (id);
@@ -33,13 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXContentSyndicationPhotoKitDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

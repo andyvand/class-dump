@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, STUIPolicyMessageInfo;
+@class STUIPolicyMessageInfo;
 
 @interface STRegulatoryWebContentFilterPolicy
 {
     _Bool _editable;
-    _Bool _forcedToLimitAdultWebsites;
-    _Bool _connectToFamilyBanner;
-    NSString *_connectToFamilyBannerDescription;
-    NSArray *_valueChangePrompts;
-    STUIPolicyMessageInfo *_footerInfo;
-    STUIPolicyMessageInfo *_guardianSignInReason;
 }
 
+- (id)GER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', cloud_is_shared INTEGER NOT NULL DEFAULT 0, cloud_author_display_name TEXT NOT NULL DEFAULT '', cloud_user_count INTEGER NOT NULL DEFAULT 0, cloud_global_play_count INTEGER NOT NULL DEFAULT 0, cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
+- (void)twork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void), series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void)(item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void)_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
+- (void)dified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
+- (id)TEGER NOT NULL DEFAULT 0, download_identifier TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, has_been_played INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (_Bool)vpp_org_name FROM item_store;
+- (id)s_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)entative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)rMacOS enumerateEntityChangesAfterSyncAnchor:(_Bool)arg1 maximumRevisionType:inUsersLibrary:itemBlock:collectionBlock:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool connectToFamilyBanner; // @synthesize connectToFamilyBanner=_connectToFamilyBanner;
-@property(copy) NSString *connectToFamilyBannerDescription; // @synthesize connectToFamilyBannerDescription=_connectToFamilyBannerDescription;
-@property _Bool editable; // @synthesize editable=_editable;
 @property(retain) STUIPolicyMessageInfo *footerInfo; // @synthesize footerInfo=_footerInfo;
-@property _Bool forcedToLimitAdultWebsites; // @synthesize forcedToLimitAdultWebsites=_forcedToLimitAdultWebsites;
-@property(retain) STUIPolicyMessageInfo *guardianSignInReason; // @synthesize guardianSignInReason=_guardianSignInReason;
-@property(copy) NSArray *valueChangePrompts; // @synthesize valueChangePrompts=_valueChangePrompts;
 
 @end
 

@@ -11,7 +11,7 @@
     PPTrialWrapper *_trialWrapper;
 }
 
-+ (id);
++ (id)kA;
 + (void);
 - (id);
 - (id);

@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString;
+@class NSDate;
 
 @interface _CDGenericInteractionRanker
 {
     _Bool _requireAllSeedContacts;
-    NSDate *_referenceDate;
-    NSArray *_seedContacts;
-    NSString *_referenceLocationUUID;
-    NSSet *_referenceKeywords;
-    NSSet *_allowedIdentifiers;
-    NSSet *_allowedPersonIds;
-    NSSet *_allowedPersonIdType;
-    NSString *_contactPrefix;
-    double _timeHalfLife;
-    double _timeOfDayHalfLife;
-    double _timeOfWeekHalfLife;
-    double _timeWeight;
-    double _timeOfDayWeight;
-    double _timeOfWeekWeight;
-    double _c;
-    double _sameWeekPeriodWeight;
-    double _diffWeekPeriodWeight;
-    double _outgoingWeight;
-    double _socialWeight;
-    double _locationWeight;
-    double _keywordWeight;
-    double _contactNameKeywordMatchWeight;
-    unsigned long long _rankAggregationMethod;
 }
 
 + (_Bool);
 - (double);
+- (double)T;
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
+- (void);
+- (void);
+- (void);
+- (void)y1;
+- (void)d;
+- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -48,14 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_5;
 - (void);
 - (void);
 - (void);
@@ -63,28 +40,28 @@
 - (void);
 - (void);
 - (id);
+- (double);
+- (_Bool)r0;
+- (id);
+- (id)|;
+- (id);
+- (double);
+- (unsigned long long)|;
+- (double);
+- (double)Sq;
+- (double);
+- (id)t;
 - (double);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (unsigned long long);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)S;
+- (id)O;
+- (id)K;
 - (double);
 - (_Bool);
 - (double);
 - (void);
-- (double);
-- (id);
+- (double)CPXLaunchServicesInterface;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -92,30 +69,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSSet *allowedIdentifiers; // @synthesize allowedIdentifiers=_allowedIdentifiers;
-@property(retain) NSSet *allowedPersonIdType; // @synthesize allowedPersonIdType=_allowedPersonIdType;
-@property(retain) NSSet *allowedPersonIds; // @synthesize allowedPersonIds=_allowedPersonIds;
-@property double c; // @synthesize c=_c;
-@property double contactNameKeywordMatchWeight; // @synthesize contactNameKeywordMatchWeight=_contactNameKeywordMatchWeight;
-@property(retain) NSString *contactPrefix; // @synthesize contactPrefix=_contactPrefix;
-@property double diffWeekPeriodWeight; // @synthesize diffWeekPeriodWeight=_diffWeekPeriodWeight;
-@property double keywordWeight; // @synthesize keywordWeight=_keywordWeight;
-@property double locationWeight; // @synthesize locationWeight=_locationWeight;
-@property double outgoingWeight; // @synthesize outgoingWeight=_outgoingWeight;
-@property(nonatomic) unsigned long long rankAggregationMethod; // @synthesize rankAggregationMethod=_rankAggregationMethod;
 @property(retain) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(retain) NSSet *referenceKeywords; // @synthesize referenceKeywords=_referenceKeywords;
-@property(retain) NSString *referenceLocationUUID; // @synthesize referenceLocationUUID=_referenceLocationUUID;
-@property _Bool requireAllSeedContacts; // @synthesize requireAllSeedContacts=_requireAllSeedContacts;
-@property double sameWeekPeriodWeight; // @synthesize sameWeekPeriodWeight=_sameWeekPeriodWeight;
-@property(retain) NSArray *seedContacts; // @synthesize seedContacts=_seedContacts;
-@property double socialWeight; // @synthesize socialWeight=_socialWeight;
-@property double timeHalfLife; // @synthesize timeHalfLife=_timeHalfLife;
-@property double timeOfDayHalfLife; // @synthesize timeOfDayHalfLife=_timeOfDayHalfLife;
-@property double timeOfDayWeight; // @synthesize timeOfDayWeight=_timeOfDayWeight;
-@property double timeOfWeekHalfLife; // @synthesize timeOfWeekHalfLife=_timeOfWeekHalfLife;
-@property double timeOfWeekWeight; // @synthesize timeOfWeekWeight=_timeOfWeekWeight;
-@property double timeWeight; // @synthesize timeWeight=_timeWeight;
 
 @end
 

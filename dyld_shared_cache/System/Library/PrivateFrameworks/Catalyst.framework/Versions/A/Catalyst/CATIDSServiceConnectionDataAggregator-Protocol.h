@@ -7,9 +7,9 @@
 @protocol CATIDSServiceConnectionDataAggregatorDelegate;
 
 @protocol CATIDSServiceConnectionDataAggregator
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) __weak id <CATIDSServiceConnectionDataAggregatorDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long receivedSequenceNumber;
 @end
 

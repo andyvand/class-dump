@@ -11,12 +11,10 @@
 @interface PKDrawingVersionedDocument : PKVersionedDocument
 {
     _Bool _loadNonInkingStrokes;
-    PKDrawingConcrete *_drawing;
-    Class _drawingClass;
 }
 
 + (unsigned int);
-+ (unsigned int);
++ (unsigned int)Za;
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,15 +25,13 @@
 - (Class);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)yOS local policy for %s;
+- (void)Sources/BootPolicy/dylib/dylib.c;
 - (void)![°!ÜEùQßð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawingConcrete *drawing; // @synthesize drawing=_drawing;
-@property(retain, nonatomic) Class drawingClass; // @synthesize drawingClass=_drawingClass;
-@property(nonatomic) _Bool loadNonInkingStrokes; // @synthesize loadNonInkingStrokes=_loadNonInkingStrokes;
 
 @end
 

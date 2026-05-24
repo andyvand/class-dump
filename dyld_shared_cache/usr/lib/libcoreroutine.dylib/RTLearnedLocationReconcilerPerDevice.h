@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTPersistenceManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTLearnedLocationReconcilerPerDevice
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTPersistenceManager *_persistenceManager;
 }
 
 + (id);
 - (void);
+- (void)ed Record:(id)arg1 %@;
+- (id)sterKey(CFDataRef, CFDataRef, const NSString *__strong, CFDataRef, CFErrorRef *);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)te;
+- (void)usageTimeCFAbsolute;
 - (void)ent object, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

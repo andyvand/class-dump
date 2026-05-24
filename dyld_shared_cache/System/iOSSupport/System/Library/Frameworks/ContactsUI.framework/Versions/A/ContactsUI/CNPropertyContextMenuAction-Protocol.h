@@ -5,5 +5,7 @@
 //
 
 @protocol CNPropertyContextMenuAction
+- (void);
+- (void)92;
 @end
 

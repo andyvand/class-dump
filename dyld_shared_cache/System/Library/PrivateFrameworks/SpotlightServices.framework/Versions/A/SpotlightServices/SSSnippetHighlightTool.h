@@ -11,13 +11,13 @@
     NSArray *_terms;
 }
 
-+ (_Bool);
++ (_Bool)linkWithDataRepresentationWithoutSubstitutingAttachments:(id)arg1;
 - (id);
 - (id);
-- (id);
+- (id)8@"WKWebView"16@"WKNavigationAction"24@"WKDownload"32;
 - (id);
 - (void);
-- (void)snippetQueryTerms: /* Error: Ran out of types for this method. */;
+- (void)initWithQuery:answer:snippetQueryTerms: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *terms; // @synthesize terms=_terms;

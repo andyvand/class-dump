@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDataCryptor, NSMutableArray, NSMutableDictionary, NSString, NSURL;
+@class ICDataCryptor;
 
 @interface ICDataPersister
 {
     unsigned long long _accumulatedDataSize;
-    ICDataCryptor *_dataCryptor;
-    NSURL *_cacheDirectoryURL;
-    NSString *_objectIdentifier;
-    NSMutableArray *_allURLs;
-    NSMutableDictionary *_identifierToDataDictionary;
 }
 
 + (id);
@@ -23,29 +18,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ght;
+- (void)__TEXT;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)arameters;
+- (id)4a
+;
 - (void)´²;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accumulatedDataSize; // @synthesize accumulatedDataSize=_accumulatedDataSize;
-@property(readonly, nonatomic) NSMutableArray *allURLs; // @synthesize allURLs=_allURLs;
-@property(readonly, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;
 @property(readonly, nonatomic) ICDataCryptor *dataCryptor; // @synthesize dataCryptor=_dataCryptor;
-@property(readonly, nonatomic) NSMutableDictionary *identifierToDataDictionary; // @synthesize identifierToDataDictionary=_identifierToDataDictionary;
-@property(readonly, nonatomic) NSString *objectIdentifier; // @synthesize objectIdentifier=_objectIdentifier;
 
 @end
 

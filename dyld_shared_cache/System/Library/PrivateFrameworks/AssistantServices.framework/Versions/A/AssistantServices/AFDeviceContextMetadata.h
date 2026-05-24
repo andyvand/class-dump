@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceContextHistoryConfiguration, NSArray, NSDate, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface AFDeviceContextMetadata
 {
     NSMutableDictionary *_backingStore;
-    NSString *_type;
-    NSDate *_deliveryDate;
-    NSDate *_expirationDate;
-    NSArray *_redactedKeyPaths;
-    AFDeviceContextHistoryConfiguration *_historyConfiguration;
 }
 
 + (_Bool);
@@ -28,17 +23,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)U;
+- (id)comeScreen.Declined;
 - (id);
 - (id);
 - (void)AudioRoute",&,N,V_currentAnnouncementRoute;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *deliveryDate; // @synthesize deliveryDate=_deliveryDate;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) AFDeviceContextHistoryConfiguration *historyConfiguration; // @synthesize historyConfiguration=_historyConfiguration;
-@property(readonly, nonatomic) NSArray *redactedKeyPaths; // @synthesize redactedKeyPaths=_redactedKeyPaths;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

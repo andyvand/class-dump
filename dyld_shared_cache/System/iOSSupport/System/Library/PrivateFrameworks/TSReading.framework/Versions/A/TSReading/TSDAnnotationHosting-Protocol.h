@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, TSDCommentStorage, TSKAnnotationAuthor;
-@protocol TSKModel;
+@class TSKAnnotationAuthor, TSKCommand;
 
 @protocol TSDAnnotationHosting
-- (TSKAnnotationAuthor *);
+
+@optional
+- (TSKCommand *)TimeType;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TSKAnnotationAuthor *author;
-@property(readonly, nonatomic) NSString *changeTrackingString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDate *date;
-@property(nonatomic) id <TSKModel> model;
-@property(copy, nonatomic) TSDCommentStorage *storage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDCommentStorage",?,C,N
-
 @end
 

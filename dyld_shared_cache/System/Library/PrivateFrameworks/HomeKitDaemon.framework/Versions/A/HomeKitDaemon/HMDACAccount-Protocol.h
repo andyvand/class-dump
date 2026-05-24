@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol HMDACAccount
+- (NSString *);
 - (NSString *)public}@No pending confirm device credential completion handler exists for staging request UUID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *aa_altDSID;
-@property(readonly) NSString *aa_personID;
 @property(readonly) NSString *username;
 @end
 

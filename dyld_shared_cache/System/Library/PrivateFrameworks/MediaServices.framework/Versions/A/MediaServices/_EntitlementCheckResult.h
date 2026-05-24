@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface _EntitlementCheckResult
 {
     _Bool _entitled;
-    NSError *_error;
-    NSString *_group;
-    NSString *_entitlement;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)int",&,V_calendarGadgetPreferredWidthConstraint;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)c;
 - (void);
 - (_Bool)Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isEntitled) _Bool entitled; // @synthesize entitled=_entitled;
-@property(copy, nonatomic) NSString *entitlement; // @synthesize entitlement=_entitlement;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSString *group; // @synthesize group=_group;
 
 @end
 

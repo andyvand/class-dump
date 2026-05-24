@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPathComputationOptions
 {
     PBUnknownFields *_unknownFields;
-    int _pathComputationMethod;
-    struct {
-        unsigned int has_pathComputationMethod:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)es"b1"read_geoParsingResult"b1"read_geoTypeMaps"b1"wrote_anyField"b1};
-- (id)SegmentWithStartingStepIndex:andStepInfos: /* Error: Ran out of types for this method. */;
+- (id)_stepCountForSegmentWithStartingStepIndex:andStepInfos: /* Error: Ran out of types for this method. */;
 - (id)ËlË<Ì;
 - (void);
 

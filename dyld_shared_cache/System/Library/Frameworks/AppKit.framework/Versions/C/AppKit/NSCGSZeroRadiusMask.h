@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)-svc clear;
 - (_Bool);
 - (unsigned int);
 - (struct CGPath *)ð;
-- (double)pandedOnOpen;
+- (double)_NSSavePanelForceExpandedOnOpen;
 
 @end
 

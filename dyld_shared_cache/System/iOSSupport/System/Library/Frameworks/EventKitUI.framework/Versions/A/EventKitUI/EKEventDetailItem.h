@@ -4,94 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventStore, EKUIRecurrenceAlertController, NSString, REMReminder, UIViewController;
-@protocol EKEditItemViewControllerProtocol, EKEventDetailItemDelegate, EKUINavigationDelegateProvider;
+@class EKEventStore;
+@protocol EKEventDetailItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailItem
 {
     EKEventStore *_store;
-    EKEvent *_event;
-    EKEvent *_lastEventUpdated;
-    REMReminder *_reminder;
-    UIViewController<EKEditItemViewControllerProtocol> *_viewController;
-    EKUIRecurrenceAlertController *_recurrenceAlertController;
-    _Bool _allowsEditing;
-    _Bool _shouldIndent;
-    int _cellPosition;
-    id <EKEventDetailItemDelegate> _delegate;
-    UIViewController<EKUINavigationDelegateProvider> *_viewControllerToPresentFrom;
 }
 
 - (_Bool);
-- (void);
+- (void);
+- (_Bool)x.%s;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)*s;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)s;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)s;
+- (void);
 - (void);
 - (id);
-- (int);
+- (void)s;
+- (void);
+- (id);
+- (int);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (unsigned long long)(;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)"9;
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (id)populateWithSlotTemplateToken:(struct CGRect)arg1 attachmentName:(unsigned long long)arg2;
+- (_Bool)_G;
 - (_Bool);
 - (void);
-- (void);
+- (void)te-execution;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (double)0@ù
 × ;
-- (void)lInviteesAndAddSection: /* Error: Ran out of types for this method. */;
+- (void)setAllInviteesAndAddSection: /* Error: Ran out of types for this method. */;
 - (void)arators;
 - (_Bool)ind conference room's preferred address.  Will not update location.  Conference room:(id)arg1 [%@];
 - (double)ØÃ_nµ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) int cellPosition; // @synthesize cellPosition=_cellPosition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKEventDetailItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool detailItemVisibilityChanged;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfSubItems;
-@property(readonly, nonatomic) _Bool requiresLayoutForSubitemCount;
-@property(nonatomic) _Bool shouldIndent; // @synthesize shouldIndent=_shouldIndent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
-@property(nonatomic) __weak UIViewController<EKUINavigationDelegateProvider> *viewControllerToPresentFrom; // @synthesize viewControllerToPresentFrom=_viewControllerToPresentFrom;
 
 @end
 

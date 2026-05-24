@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PBCodable;
-@protocol NSCopying;
+@class NSString;
 
 @interface IDSCloudMessagingLinkReEstablishedMetric
 {
     double _inactiveTime;
-    unsigned long long _linkType;
-    unsigned long long _priorLinkType;
 }
 
 - (unsigned long long);
@@ -24,20 +21,7 @@
 - (unsigned long long)hMTGãW´3;
 
 // Remaining properties
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly, nonatomic) PBCodable<NSCopying> *awdRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double inactiveTime; // @synthesize inactiveTime=_inactiveTime;
-@property(readonly, nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long priorLinkType; // @synthesize priorLinkType=_priorLinkType;
-@property(readonly) Class superclass;
 
 @end
 

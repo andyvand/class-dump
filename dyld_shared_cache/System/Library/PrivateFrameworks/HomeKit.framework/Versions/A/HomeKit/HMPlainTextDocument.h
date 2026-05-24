@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, _HMDocument;
+@class _HMDocument;
 
 @interface HMPlainTextDocument
 {
@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-+ (id)dorDataStore;
-- (id);
-- (id);
++ (id)VendorDataStore;
+- (id)j[;
+- (id)?;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)penetration;
 - (void);
 - (id);
 - (id);
@@ -29,9 +29,7 @@
 - (id)ûÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString;
 @property(readonly) _HMDocument *document; // @synthesize document=_document;
-@property(readonly, copy) NSString *stringValue;
 
 @end
 

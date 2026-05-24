@@ -6,26 +6,16 @@
 
 #import <NewsCore/FCFeedDescriptor.h>
 
-@class FCTagChannelPickerConfiguration, NSString;
 @protocol FCTagProviding;
 
 @interface FCSingleTagFeedDescriptor : FCFeedDescriptor
 {
     _Bool _feedIsSponsored;
-    id <FCTagProviding> _tag;
-    long long _feedType;
-    long long _feedSortMethod;
-    unsigned long long _feedFilterOptions;
-    long long _feedPersonalizationConfigurationSet;
-    unsigned long long _feedConfiguration;
-    NSString *_referringFeedItemIdentifier;
-    FCTagChannelPickerConfiguration *_channelPickerConfiguration;
-    id <FCTagProviding> _masterTag;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -39,30 +29,29 @@
 - (long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)/lib/swift/libswiftCoreAudio.dylib;
+- (id); mult = mult / (1.0 + abs(mult)); mult += 1.0; mult = clamp(mult, 1.0 - 0.5 * abs(pct), 1.0 + 1.0 * abs(pct)); s.rgb = s.rgb * mult; return premultiply(s); } kernel vec4 meaningBlur(sampler image, sampler blur) { vec4 im = sample(image, samplerCoord(image)) ; vec4 b = sample(blur, samplerCoord(blur)) ; vec4 result = im; float thresh = 0.1; float g1 = max(max(im.r, im.g), im.b); float g2 = dot(b.rgb, vec3(1.0/3.0)); float diff = max(g2-g1, -1.0); diff = smoothstep(0.1-thresh, 0.1+thresh, diff); result.rgb = mix(im.rgb, b.rgb, diff+0.5); return result; };
+- (long long)showsSectionFooterForSingleSection;
 - (id);
 - (id);
+- (_Bool)ure:(id)arg1;
 - (long long);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (id)geSize;
+- (id)_storageSize;
 - (void)er"8@"NSArray"16;
 - (void)re :(id)arg1 %@) Parent :%@ Children :%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)ÿ¼õýÿÐöýÿ;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) id <FCTagProviding> masterTag; // @synthesize masterTag=_masterTag;
 @property(copy, nonatomic) id <FCTagProviding> tag; // @synthesize tag=_tag;
 
 @end

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUserDefaults, UNUserNotificationCenter;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUINotificationManager
 {
     _Bool _immediateCharge;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_defaults;
-    UNUserNotificationCenter *_unCenter;
-    NSString *_lastScheduledFullChargeNotificationID;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -33,33 +28,33 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)JA;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_migrateBooksInformationIntoAccounts:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)e from performance metrics dictionary, will use %{public}@;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)updateStagingProgressForAccessoryID:requestedOffset:requestedLength: /* Error: Ran out of types for this method. */;
+- (_Bool)removeAccessory:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -69,19 +64,7 @@
 - (void)ons during interval:(id)arg1 %ld g/kWh.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool immediateCharge; // @synthesize immediateCharge=_immediateCharge;
-@property(retain, nonatomic) NSString *lastScheduledFullChargeNotificationID; // @synthesize lastScheduledFullChargeNotificationID=_lastScheduledFullChargeNotificationID;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UNUserNotificationCenter *unCenter; // @synthesize unCenter=_unCenter;
 
 @end
 

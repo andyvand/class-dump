@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDate;
+@class NTPBDate;
 
 @interface NTPBPrivateRecordSyncState
 {
     NTPBDate *_lastCleanDate;
-    NTPBDate *_lastDirtyDate;
-    NSString *_recordName;
-    NSString *_recordZoneName;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)che;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)llowingPartial] failed with error %@;
+- (_Bool)orkReachability:appActivityMonitor:desiredHeadlineFieldOptions:feedUsage:deviceIsiPad:backgroundTaskable:privateDataSyncAvailability:pptContext:options: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (void);
-- (id)ardInFollowing: /* Error: Ran out of types for this method. */;
-- (void)ount;
+- (id)setMinimumFollowCountToRemovePersonalizePlacardInFollowing: /* Error: Ran out of types for this method. */;
+- (void)abConfigsCount;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLastCleanDate;
-@property(readonly, nonatomic) _Bool hasLastDirtyDate;
 @property(readonly, nonatomic) _Bool hasRecordName;
-@property(readonly, nonatomic) _Bool hasRecordZoneName;
-@property(retain, nonatomic) NTPBDate *lastCleanDate; // @synthesize lastCleanDate=_lastCleanDate;
-@property(retain, nonatomic) NTPBDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;
-@property(retain, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
-@property(retain, nonatomic) NSString *recordZoneName; // @synthesize recordZoneName=_recordZoneName;
 
 @end
 

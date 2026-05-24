@@ -9,7 +9,6 @@
 @interface PXStoryValueAnimation : PXStoryAnimation
 {
     CDStruct_6f12f40c _curveInfo;
-    CDStruct_1b6d18a9 _duration;
 }
 
 - (void);
@@ -17,12 +16,11 @@
 - (id);
 - (CDStruct_6f12f40c);
 - (void);
-- (CDStruct_1b6d18a9);
-- (id);
-- (id);
+- (CDStruct_1b6d18a9)ion",R,N;
+- (id)5;
+- (id)0;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_6f12f40c curveInfo; // @synthesize curveInfo=_curveInfo;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
 
 @end

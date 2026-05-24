@@ -9,20 +9,16 @@
 @interface Safari.BookmarksSidebarTableCarouselView
 {
     void delegate;
-    id collectionView;
-    id $__lazy_storage_$_dataSource;
-    id metadataProvider;
-    id scrollView;
 }
 
-+ (double);
++ (double)@;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)F;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 

@@ -7,7 +7,6 @@
 @interface CryptoKit.SequenceDrbg
 {
     id randomBytesPtr;
-    id sequenceState;
 }
 
 @end

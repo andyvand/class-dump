@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface QSSelectionHighlightDetailedView
 {
     _Bool _sentenceHighlight;
-    UIColor *_underlineColor;
-    UIColor *_selectionColor;
-    struct CGRect _displayRect;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)\-o;
+- (id)`.)o;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect displayRect; // @synthesize displayRect=_displayRect;
-@property(retain, nonatomic) UIColor *selectionColor; // @synthesize selectionColor=_selectionColor;
-@property(nonatomic) _Bool sentenceHighlight; // @synthesize sentenceHighlight=_sentenceHighlight;
-@property(retain, nonatomic) UIColor *underlineColor; // @synthesize underlineColor=_underlineColor;
 
 @end
 

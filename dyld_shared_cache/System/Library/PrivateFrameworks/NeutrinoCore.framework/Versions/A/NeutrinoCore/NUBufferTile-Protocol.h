@@ -7,7 +7,7 @@
 @protocol NUBuffer;
 
 @protocol NUBufferTile
-- (id <NUBuffer>)ount: /* Error: Ran out of types for this method. */;
+- (id <NUBuffer>)initWithPattern:minCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUBuffer> buffer;

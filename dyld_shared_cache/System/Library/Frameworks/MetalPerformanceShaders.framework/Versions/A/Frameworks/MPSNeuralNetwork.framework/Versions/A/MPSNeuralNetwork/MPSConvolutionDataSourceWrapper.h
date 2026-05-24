@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNConvolutionDescriptor, MPSNNNeuronDescriptor, NSObject, NSString;
 @protocol MPSCNNConvolutionDataSource;
 
 @interface MPSConvolutionDataSourceWrapper
 {
     id <MPSCNNConvolutionDataSource> _dataSource;
-    MPSCNNConvolutionDescriptor *_convolution;
-    NSObject *_batchNorm;
-    MPSNNNeuronDescriptor *_neuron;
-    struct atomic<long> _loadCount;
 }
 
 + (id);
@@ -36,19 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool)CPU;
+- (void)__objc_methname;
+- (_Bool)MPSNNTrainingStyleUpdateDeviceCPU;
 - (void)ages should be an array of at least length 2.;
 - (struct NeuronInfo)l"K>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

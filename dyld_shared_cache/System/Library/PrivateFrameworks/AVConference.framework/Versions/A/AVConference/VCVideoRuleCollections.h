@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSSet;
+@class NSMutableArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoRuleCollections
 {
     NSMutableDictionary *_rules;
-    NSMutableArray *_supportedPayloads;
-    int _payload;
-    unsigned char _transportType;
-    unsigned char _encodingType;
 }
 
 + (id);
@@ -30,29 +26,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
+- (void)S;
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDecodeSupported;
-@property(readonly, nonatomic) _Bool isEncodeSupported;
-@property(retain) NSMutableDictionary *rules; // @synthesize rules=_rules;
 @property(retain) NSMutableArray *supportedPayloads; // @synthesize supportedPayloads=_supportedPayloads;
-@property(readonly, nonatomic) NSSet *supportedTransportTypes;
 
 @end
 

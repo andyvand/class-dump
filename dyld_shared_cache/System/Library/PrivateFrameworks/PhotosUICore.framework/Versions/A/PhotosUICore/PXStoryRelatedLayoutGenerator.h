@@ -9,14 +9,9 @@
 @interface PXStoryRelatedLayoutGenerator
 {
     _Bool _isPrepared;
-    struct CGSize _size;
-    struct NSEdgeInsets _scrollableOutsets;
-    _Bool _isContentScrolledIntoView;
-    long long _capacity;
-    struct CGRect *_itemFrames;
 }
 
-+ (long long);
++ (long long)9;
 + (_Bool);
 + (long long);
 - (struct NSEdgeInsets);
@@ -30,12 +25,10 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id)servation;
+- (id)insetsObservation;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isContentScrolledIntoView;
 @property(copy, nonatomic) PXStoryRelatedLayoutMetrics *metrics; // @dynamic metrics;
-@property(readonly, nonatomic) struct NSEdgeInsets scrollableOutsets;
 
 @end
 

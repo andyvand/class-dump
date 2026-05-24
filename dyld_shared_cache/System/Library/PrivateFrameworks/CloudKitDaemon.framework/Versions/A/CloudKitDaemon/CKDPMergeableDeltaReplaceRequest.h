@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableValueIdentifier, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPMergeableDeltaReplaceRequest
 {
     NSMutableArray *_deltaIdentifiers;
-    NSMutableArray *_deltas;
-    CKDPMergeableValueIdentifier *_identifier;
-    _Bool _containsNewData;
-    _Bool _ignoreMissingDeltas;
-    struct {
-        unsigned int containsNewData:1;
-        unsigned int ignoreMissingDeltas:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class)*,@�;
 + (id);
 - (void);
 - (void);
@@ -32,20 +24,20 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)mapLogEntryToHistory:(id)arg1 withIpeList:withNormalLogFlag: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)trolRef, APSEndpointStreamAudioHoseRef, int32_t *);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -55,18 +47,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class)ncryptedKey;
-- (void);
+- (Class)encryptedKey;
+- (void)FakeSDKVersion;
 
 // Remaining properties
-@property(nonatomic) _Bool containsNewData; // @synthesize containsNewData=_containsNewData;
-@property(retain, nonatomic) NSMutableArray *deltaIdentifiers; // @synthesize deltaIdentifiers=_deltaIdentifiers;
-@property(retain, nonatomic) NSMutableArray *deltas; // @synthesize deltas=_deltas;
-@property(nonatomic) _Bool hasContainsNewData;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIgnoreMissingDeltas;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool ignoreMissingDeltas; // @synthesize ignoreMissingDeltas=_ignoreMissingDeltas;
 
 @end
 

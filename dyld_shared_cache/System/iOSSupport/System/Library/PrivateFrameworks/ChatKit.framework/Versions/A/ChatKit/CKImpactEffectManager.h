@@ -4,72 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, CKAudioController, CKBalloonView, NSString, UIScrollView, UIWindow;
-@protocol CKSendAnimationBalloonProvider, CKSendAnimationManagerDelegate;
+@class UIWindow;
 
 @interface CKImpactEffectManager
 {
     _Bool _isAnimating;
-    _Bool _isDisabled;
-    id <CKSendAnimationManagerDelegate> sendAnimationManagerDelegate;
-    id <CKSendAnimationBalloonProvider> sendAnimationBalloonProvider;
-    id <CKSendAnimationManagerDelegate> _delegate;
-    NSString *_animatingIdentifier;
-    UIWindow *_expressiveSendAnimationWindow;
-    CKBalloonView *_expressiveSendAnimationBalloon;
-    CKBalloonView *_originalBalloonView;
-    UIScrollView *_expressiveSendScrollView;
-    CABackdropLayer *_expressiveSendAnimationBackdrop;
-    CKAudioController *_audioController;
-    NSString *_undoSendChatItemGUID;
 }
 
-+ (id);
-+ (id);
++ (id)uthenticated device password while not currently authenticating;
++ (id)ollaborationController saveShare:(id)arg1 forObject:accountID:container:qualityOfService:retryPrepHandler:completionHandler:] /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)forcesSecondaryAuthentication;
+- (void)addSubview:positioned:relativeTo: /* Error: Ran out of types for this method. */;
+- (void)addPreviewImageToMetadata: /* Error: Ran out of types for this method. */;
+- (void)erRecordIfNeeded;
+- (void)nabled;
+- (void)deleteDataFiles;
+- (void)ICTTTextEditGrouper",R,N,V_editGrouper;
+- (void)setLineSpacing:(id)arg1;
+- (void)ICMDatePickerDebugWindowController;
+- (void)ICThumbnailConfiguration;
+- (void)ICColorDummyClass;
+- (void)WKURLSchemeHandler;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)_sizeCategory;
+- (void)recentUpdatesGeneratedAt;
+- (void)pressedItem;
+- (id);
+- (void)So6ICNoteC;
 - (id);
 - (id);
+- (id)n;
+- (id)on.swift;
+- (void)without a row or column;
+- (void)NSTextView"8@"NSUUID"16q24;
+- (id)kICTTEditedMaskNotificationKey;
+- (void)airlineColors;
+- (void)aIcon];
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -77,31 +59,17 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)tableConfigurationWithRole: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)mutableConfigurationWithRole: /* Error: Ran out of types for this method. */;
 - (void)ô+;
 - (_Bool)0;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *animatingIdentifier; // @synthesize animatingIdentifier=_animatingIdentifier;
-@property(retain, nonatomic) CKAudioController *audioController; // @synthesize audioController=_audioController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSendAnimationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CABackdropLayer *expressiveSendAnimationBackdrop; // @synthesize expressiveSendAnimationBackdrop=_expressiveSendAnimationBackdrop;
-@property(retain, nonatomic) CKBalloonView *expressiveSendAnimationBalloon; // @synthesize expressiveSendAnimationBalloon=_expressiveSendAnimationBalloon;
 @property(retain, nonatomic) UIWindow *expressiveSendAnimationWindow; // @synthesize expressiveSendAnimationWindow=_expressiveSendAnimationWindow;
-@property(retain, nonatomic) UIScrollView *expressiveSendScrollView; // @synthesize expressiveSendScrollView=_expressiveSendScrollView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(nonatomic) _Bool isDisabled; // @synthesize isDisabled=_isDisabled;
-@property(retain, nonatomic) CKBalloonView *originalBalloonView; // @synthesize originalBalloonView=_originalBalloonView;
-@property(nonatomic) __weak id <CKSendAnimationBalloonProvider> sendAnimationBalloonProvider; // @synthesize sendAnimationBalloonProvider;
-@property(nonatomic) __weak id <CKSendAnimationManagerDelegate> sendAnimationManagerDelegate; // @synthesize sendAnimationManagerDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *undoSendChatItemGUID; // @synthesize undoSendChatItemGUID=_undoSendChatItemGUID;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray, NSString;
+@class MLModel, NSString;
 
 @interface CRMLModel
 {
     MLModel *model;
-    int _modelHeight;
-    int _modelWidth;
-    int _classCount;
-    const int *_codeMap;
-    NSArray *_modelShape;
-    long long _gpuBatchSize;
-    long long _cpuBatchSize;
 }
 
 - (void);
@@ -33,21 +26,14 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)kCellularPlanErrorIneligibleForTransferForNow;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) int classCount; // @synthesize classCount=_classCount;
-@property(readonly) const int *codeMap; // @synthesize codeMap=_codeMap;
-@property long long cpuBatchSize; // @synthesize cpuBatchSize=_cpuBatchSize;
-@property long long gpuBatchSize; // @synthesize gpuBatchSize=_gpuBatchSize;
-@property(readonly) int inputHeight;
-@property(readonly) int inputWidth;
 @property(readonly) NSString *modelName;
-@property(retain) NSArray *modelShape; // @synthesize modelShape=_modelShape;
 
 @end
 

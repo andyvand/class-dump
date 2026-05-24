@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaQuery, UIActivityIndicatorView, UINib;
-@protocol MPLocalPickerResponder;
+@class MPMediaQuery;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerSimpleQueryViewController
 {
     _Bool _mLoadingQuery;
-    MPMediaQuery *_mQuery;
-    MPMediaQuery *_mQueryToLoad;
-    UIActivityIndicatorView *_mLoadingSpinner;
-    id <MPLocalPickerResponder> _mPickerResponder;
 }
 
 + (id);
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -33,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)ԋ;
 - (long long);
 - (void);
 - (id);
@@ -41,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)ringID;
 
 // Remaining properties
-@property(readonly, nonatomic) Class cellClassToUse;
-@property(readonly, nonatomic) UINib *cellNibToUse;
-@property(nonatomic) _Bool mLoadingQuery; // @synthesize mLoadingQuery=_mLoadingQuery;
-@property(nonatomic) __weak UIActivityIndicatorView *mLoadingSpinner; // @synthesize mLoadingSpinner=_mLoadingSpinner;
-@property(nonatomic) __weak id <MPLocalPickerResponder> mPickerResponder; // @synthesize mPickerResponder=_mPickerResponder;
 @property(retain, nonatomic) MPMediaQuery *mQuery; // @synthesize mQuery=_mQuery;
-@property(retain, nonatomic) MPMediaQuery *mQueryToLoad; // @synthesize mQueryToLoad=_mQueryToLoad;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, NSMutableArray, NSString;
+@class CBCentralManager, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface GCControllerCBDelegate
 {
     NSMutableArray *_foundPeripherals;
-    NSMutableArray *_connectedPeripherals;
-    CBCentralManager *_centralManager;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)ecompilationE3$_0F17e5rt_error_code_tvEEE;
+- (void)110__function6__funcIZ48e5rt_e5_compiler_options_set_force_recompilationE3$_0F17e5rt_error_code_tvEEE;
 - (void);
 - (void);
 - (void);
@@ -32,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_groupLocationIDs;
 - (id);
 - (void);
 - (void);
@@ -41,14 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

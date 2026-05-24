@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDAppleMediaAccessoryDiagnosticInfoControllerDataSource;
-
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryDiagnosticInfoController
 {
     _Bool _isHH2Mode;
-    id <HMDAppleMediaAccessoryDiagnosticInfoControllerDataSource> _dataSource;
 }
 
 + (id);
@@ -18,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)personLinear;
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <HMDAppleMediaAccessoryDiagnosticInfoControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(readonly) _Bool isHH2Mode; // @synthesize isHH2Mode=_isHH2Mode;
 
 @end

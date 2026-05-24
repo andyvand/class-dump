@@ -6,14 +6,9 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSString;
-
 @interface DMFFetchDeclarationsRequest : DMFTaskRequest
 {
     _Bool _includeInternalState;
-    _Bool _includePayloadContents;
-    NSString *_organizationIdentifier;
-    NSArray *_payloadIdentifiers;
 }
 
 + (Class);
@@ -28,16 +23,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool includeInternalState; // @synthesize includeInternalState=_includeInternalState;
-@property(nonatomic) _Bool includePayloadContents; // @synthesize includePayloadContents=_includePayloadContents;
-@property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) NSArray *payloadIdentifiers; // @synthesize payloadIdentifiers=_payloadIdentifiers;
 
 @end
 

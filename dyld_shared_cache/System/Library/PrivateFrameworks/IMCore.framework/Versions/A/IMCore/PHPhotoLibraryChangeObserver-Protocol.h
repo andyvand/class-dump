@@ -5,5 +5,6 @@
 //
 
 @protocol PHPhotoLibraryChangeObserver
+- (void)h;
 @end
 

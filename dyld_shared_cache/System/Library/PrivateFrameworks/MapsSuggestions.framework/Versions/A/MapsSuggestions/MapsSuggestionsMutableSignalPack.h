@@ -18,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)rage;
+- (id)_oneFavoritesStorage;
 - (void)ô;
 
 @end

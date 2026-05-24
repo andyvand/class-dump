@@ -9,9 +9,6 @@
 @interface _ICNamedEntityRecord
 {
     _Bool _passesFilters;
-    NSString *_name;
-    unsigned long long _data;
-    double _timestamp;
 }
 
 - (id);
@@ -19,17 +16,14 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool passesFilters; // @synthesize passesFilters=_passesFilters;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

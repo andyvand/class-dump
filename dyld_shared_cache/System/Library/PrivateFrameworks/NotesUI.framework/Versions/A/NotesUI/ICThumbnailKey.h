@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface ICThumbnailKey
 {
     void accountId;
-    void objectId;
-    void thumbnailId;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,13 +31,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accountId;
-@property(nonatomic, readonly) NSURL *containerUrl;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSURL *descriptionUrl;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSURL *imageUrl;
-@property(nonatomic, readonly) NSString *objectId;
-@property(nonatomic, readonly) NSString *thumbnailId;
 
 @end
 

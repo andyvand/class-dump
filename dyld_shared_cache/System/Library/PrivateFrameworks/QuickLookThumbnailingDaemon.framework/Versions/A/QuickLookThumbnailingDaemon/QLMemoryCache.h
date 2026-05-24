@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSMutableDictionary, NSObject, _QLCacheThread;
-@protocol OS_os_transaction;
-
 @interface QLMemoryCache
 {
     _Bool _cacheEnabled;
-    NSMutableDictionary *_thumbnailData;
-    NSMutableArray *_thumbnailDataToSave;
-    unsigned long long _memoryUsed;
-    NSLock *_memoryLock;
-    NSObject<OS_os_transaction> *_pendingSavesTransaction;
-    _QLCacheThread *_cacheThread;
 }
 
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -29,7 +20,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -40,7 +31,6 @@
 - (void);
 
 // Remaining properties
-@property __weak _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;
 @property unsigned long long memoryUsed; // @synthesize memoryUsed=_memoryUsed;
 
 @end

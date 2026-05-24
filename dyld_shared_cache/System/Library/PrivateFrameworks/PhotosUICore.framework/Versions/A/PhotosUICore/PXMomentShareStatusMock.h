@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXMomentShareStatus.h>
 
-@class _PXMomentShareMockMomentShare;
 @protocol PXDisplayMomentShare;
 
 @interface PXMomentShareStatusMock : PXMomentShareStatus
 {
     id <PXDisplayMomentShare> _originalMomentShare;
-    _PXMomentShareMockMomentShare *_mockMomentShare;
 }
 
 + (_Bool);

@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface AACustodianDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)ۈ;
 - (id);
-- (id);
-- (id)ndler: /* Error: Ran out of types for this method. */;
-- (void)onents: /* Error: Ran out of types for this method. */;
+- (id)setupDelegateAccountsWithParameters:handler: /* Error: Ran out of types for this method. */;
+- (void)infoForComponents: /* Error: Ran out of types for this method. */;
 - (id)ùXHþXHXH]XHXHXHXH§XHÃXH XHUXHËXHÿXHéXH÷XHäXHTXH´XHZXH¦XHrXH8XHgXHXH6XHwXHHXHÂXH¯XH¾XHóXHXHXHXHXHlXHbXHdXH2XH®XHXH¬XHºXH XH@XHXHXHÜXHXHtXH­XHXHXHVXH!XHXH#XHXHNXH"XHîXH4XH-XHXHXH¹XHÕXHXH<XHkXHXHEXHXHXHXHÅXH½XHGXHØXH	XHXH«XHiXH;XH~XHXHêXH×XHaXH7XH{XH|XHXHDXHñXH»XHåXHXHÑXHXH&XHëXHXH·XHïXHÊXHÍXHÆXHXH.XHÎXH_XH/XHXHûXHnXHXHâXHBXH'XH²XHXHÇXH¥XHXHÉXHXHsXHÌXHoXHFXHXH(XHõXHýXH3XHìXHXHXHàXH°XH)XH9XHcXHPXHøXH*XHÀXH0XHÝXHÏXHeXHµXHXHXH³XHRXHÄXHXHfXHæXHÖXHXHXHãXH^XH¡XHúXH©XHXH¢XHXHXH=XHXH¸XHíXH,XHôXHèXHzXHÔXHvXHIXHCXH+XH¿XH¤XHMXH%XHXH£XH[XHQXHáXH5XHXHªXH:XHJXHXHLXH$XHòXHXHuXH¶XHçXHÈXHÐXHßXH}XHXXHáæ±
 
 4ê]ùnqÌìUñ,$øº¥*Ù^Î!ÑOÂp»ðLÂ`íë×éùõîØ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
-@property(readonly) Class superclass;
 
 @end
 

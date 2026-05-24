@@ -9,15 +9,9 @@
 @interface CUINamedTexture : CUINamedLookup
 {
     double _scale;
-    struct _cuintproperties {
-        unsigned int exifOrientation:4;
-        unsigned int isAlphaCropped:1;
-        unsigned int isOpaque:1;
-        unsigned int _reserved:26;
-    } _textureProperties;
 }
 
-- (id);
+- (id)(;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
@@ -28,10 +22,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) int exifOrientation;
-@property(readonly, nonatomic) _Bool isAlphaCropped;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 @property(readonly, nonatomic) struct CGSize size;
 
 @end

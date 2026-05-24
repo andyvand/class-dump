@@ -11,9 +11,6 @@
 @interface EMAccount : EMObject
 {
     _Bool _primaryiCloudAccount;
-    NSString *_name;
-    NSString *_username;
-    NSString *_hostname;
 }
 
 + (id);
@@ -23,17 +20,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)oken request (status %d);
 - (id);
 - (void)1Â0@ù
 × ;
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *hostname; // @synthesize hostname=_hostname;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, getter=isPrimaryiCloudAccount) _Bool primaryiCloudAccount; // @synthesize primaryiCloudAccount=_primaryiCloudAccount;
-@property(readonly, copy) NSString *username; // @synthesize username=_username;
 
 @end
 

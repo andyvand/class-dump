@@ -5,5 +5,6 @@
 //
 
 @protocol PLCloudFeedEntriesObserver
+- (void);
 @end
 

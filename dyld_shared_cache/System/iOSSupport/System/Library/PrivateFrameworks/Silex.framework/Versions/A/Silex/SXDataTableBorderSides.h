@@ -16,18 +16,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void)Value=dQ}32;
 
 // Remaining properties
-@property(readonly, nonatomic) SXDataTableBorder *bottom; // @dynamic bottom;
-@property(readonly, nonatomic) SXDataTableBorder *left; // @dynamic left;
-@property(readonly, nonatomic) SXDataTableBorder *right; // @dynamic right;
 @property(readonly, nonatomic) SXDataTableBorder *top; // @dynamic top;
-@property(retain, nonatomic) SXUnitConverter *unitConverter; // @synthesize unitConverter=_unitConverter;
 
 @end
 

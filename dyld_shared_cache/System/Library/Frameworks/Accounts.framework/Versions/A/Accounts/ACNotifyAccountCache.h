@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol ACNotifyReading;
+@class NSString;
 
 @interface ACNotifyAccountCache
 {
     struct os_unfair_lock_s _notifyAccountCacheLock;
-    NSArray *_cachedAccountIDs;
-    id <ACNotifyReading> _reader;
-    NSString *_key;
 }
 
 + (id);
@@ -22,20 +18,19 @@
 + (unsigned int);
 - (id);
 - (void);
-- (void);
+- (void)I2;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)7;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain) id <ACNotifyReading> reader; // @synthesize reader=_reader;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDTriggerModel.h>
 
-@class NSData, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDEventTriggerModel : HMDTriggerModel
 {
@@ -22,16 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *evaluationCondition; // @dynamic evaluationCondition;
-@property(retain, nonatomic) NSNumber *executeOnce; // @dynamic executeOnce;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *recurrences; // @dynamic recurrences;
-@property(readonly) Class superclass;
 
 @end
 

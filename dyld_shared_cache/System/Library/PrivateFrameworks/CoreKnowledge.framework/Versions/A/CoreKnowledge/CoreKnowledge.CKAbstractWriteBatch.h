@@ -7,10 +7,9 @@
 @interface CoreKnowledge.CKAbstractWriteBatch
 {
     id buffer;
-    id backingStore;
 }
 
-- (void);
+- (void)$3h3;
 
 @end
 

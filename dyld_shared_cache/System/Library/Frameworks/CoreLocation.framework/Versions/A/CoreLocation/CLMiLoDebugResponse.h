@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLMiLoExportDatabaseTableResult, NSError, NSUUID;
+@class CLMiLoExportDatabaseTableResult;
 
 @interface CLMiLoDebugResponse
 {
     CLMiLoExportDatabaseTableResult *_exportDatabaseTablesResult;
-    NSUUID *_requestIdentifier;
-    NSError *_error;
 }
 
 + (_Bool);
+- (id);
 - (id);
+- (id);
+- (void)n _isEmptyCond
+;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setEmulationVertexBuffers:(struct _NSZone *)arg1 offsets:withRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) CLMiLoExportDatabaseTableResult *exportDatabaseTablesResult; // @synthesize exportDatabaseTablesResult=_exportDatabaseTablesResult;
-@property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end
 

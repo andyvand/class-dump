@@ -6,8 +6,6 @@
 
 #import <BackBoardServices/BKSHIDKeyboardDeviceProperties.h>
 
-@class NSData, NSString;
-
 @interface BKSMutableHIDKeyboardDeviceProperties : BKSHIDKeyboardDeviceProperties
 {
 }
@@ -22,20 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)distributedOperation;
 
 // Remaining properties
-@property(nonatomic) _Bool capsLockKeyHasLanguageSwitchLabel; // @dynamic capsLockKeyHasLanguageSwitchLabel;
-@property(nonatomic) unsigned char countryCode; // @dynamic countryCode;
-@property(copy, nonatomic) NSString *exclusivityIdentifier; // @dynamic exclusivityIdentifier;
-@property(nonatomic) _Bool globeKeyLabelHasGlobeSymbol; // @dynamic globeKeyLabelHasGlobeSymbol;
-@property(copy, nonatomic) NSString *language; // @dynamic language;
-@property(copy, nonatomic) NSString *layout; // @dynamic layout;
-@property(copy, nonatomic) NSData *platformInputModeConfiguration; // @dynamic platformInputModeConfiguration;
 @property(nonatomic) unsigned long long senderID; // @dynamic senderID;
-@property(nonatomic) unsigned int standardType; // @dynamic standardType;
-@property(nonatomic) long long subinterfaceID; // @dynamic subinterfaceID;
-@property(copy, nonatomic) NSString *transport; // @dynamic transport;
 
 @end
 

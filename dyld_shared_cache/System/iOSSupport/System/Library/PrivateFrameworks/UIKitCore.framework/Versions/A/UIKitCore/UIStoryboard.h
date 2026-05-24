@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSMutableDictionary, NSString, UIStoryboardSegueTemplate;
+@class NSBundle, NSString;
 
 @interface UIStoryboard
 {
     NSBundle *bundle;
-    NSString *storyboardFileName;
-    NSDictionary *identifierToNibNameMap;
-    NSDictionary *identifierToExternalStoryboardReferenceMap;
-    NSString *designatedEntryPointIdentifier;
-    NSString *designatedMenuIdentifier;
-    NSMutableDictionary *identifierToUINibMap;
-    UIStoryboardSegueTemplate *___currentStoryboardSegueTemplate;
-    CDUnknownBlockType ___currentStoryboardSegueCreator;
-    id ___currentSender;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)initialAttachmentSyncController;
+- (void)dMessagePartTranslation;
 - (id);
 - (id);
 - (id);
+- (id)}};
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)No longer a cancellable scheduled message, invalidating chat's scheduled states.;
+- (id)ed.;
+- (id)Notified that all IMDChats are loaded.;
+- (id)AddedNotification %s;
+- (id)d:%@ /* Error: Ran out of types for this method. */;
+- (id)(%@) added to chat (%@) is not a known contact.;
+- (id)a known contact.;
 - (id);
 - (id);
 - (id);
@@ -52,16 +43,6 @@
 - (id)s = %@;
 
 // Remaining properties
-@property(nonatomic) id __currentSender; // @synthesize __currentSender=___currentSender;
-@property(nonatomic) CDUnknownBlockType __currentStoryboardSegueCreator; // @synthesize __currentStoryboardSegueCreator=___currentStoryboardSegueCreator;
-@property(nonatomic) UIStoryboardSegueTemplate *__currentStoryboardSegueTemplate; // @synthesize __currentStoryboardSegueTemplate=___currentStoryboardSegueTemplate;
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle;
-@property(readonly, nonatomic) NSString *designatedEntryPointIdentifier; // @synthesize designatedEntryPointIdentifier;
-@property(readonly, nonatomic) NSString *designatedMenuIdentifier; // @synthesize designatedMenuIdentifier;
-@property(readonly, nonatomic) NSDictionary *identifierToExternalStoryboardReferenceMap; // @synthesize identifierToExternalStoryboardReferenceMap;
-@property(readonly, nonatomic) NSDictionary *identifierToNibNameMap; // @synthesize identifierToNibNameMap;
-@property(readonly, nonatomic) NSMutableDictionary *identifierToUINibMap; // @synthesize identifierToUINibMap;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) NSString *storyboardFileName; // @synthesize storyboardFileName;
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CBDeviceReporting
-- (NSArray *);
-- (void)BConnectOptionGetLESynchronizationEvent;
+- (void);
+- (void (^)(CBDevice *))waitForStabilizationOfDomainWithID:completionHandler: /* Error: Ran out of types for this method. */;
+- (void (^)(CBDevice *))i40@0:8^{__DADisk=}16^B24^B32 /* Error: Ran out of types for this method. */;
+- (void)kCBConnectOptionGetLESynchronizationEvent;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler;
-@property(readonly, copy) NSArray *discoveredDevices;
 @end
 

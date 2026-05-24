@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCEConfirmationPromptContext : SISchemaInstrumentationMessage
 {
     NSString *_anonymizedEntityPresented;
-    int _resolution;
-    struct {
-        unsigned int resolution:1;
-    } _has;
-    _Bool _hasAnonymizedEntityPresented;
 }
 
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,21 +26,17 @@
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (void)ctationModelVersion:(int)arg1;
+- (void)setDictationModelVersion:(int)arg1;
 - (id)tatistics;
-- (id)ssionSession;
+- (id)MHSchemaMHSelfTriggerSuppressionSession;
 - (void)Á§;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anonymizedEntityPresented; // @synthesize anonymizedEntityPresented=_anonymizedEntityPresented;
-@property(nonatomic) _Bool hasAnonymizedEntityPresented; // @synthesize hasAnonymizedEntityPresented=_hasAnonymizedEntityPresented;
-@property(nonatomic) _Bool hasResolution;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resolution; // @synthesize resolution=_resolution;
 
 @end
 

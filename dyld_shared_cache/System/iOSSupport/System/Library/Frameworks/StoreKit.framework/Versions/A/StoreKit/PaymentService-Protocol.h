@@ -5,5 +5,6 @@
 //
 
 @protocol PaymentService
+- (void);
 @end
 

@@ -9,20 +9,18 @@
 @interface IMPluginDataSourceStagingContext
 {
     _Bool _isEmbeddedInTextView;
-    NSString *_transientIdentifier;
 }
 
-+ (id);
-- (void);
-- (_Bool);
-- (id);
++ (id)%s] %s:(id)arg1 %d %@(%p) Setting _maxAudioPacketSize=%u for multiway connection;
+- (void)o allocate stream configuration!;
+- (_Bool)Transport stream deactivated;
+- (id)r settings:(id)arg1 %dx%d@%dfps, %d Kbps, %d IDR/sec, %s;
 - (void);
 - (id);
 - (id);
 - (void)\;
 
 // Remaining properties
-@property(nonatomic) _Bool isEmbeddedInTextView; // @synthesize isEmbeddedInTextView=_isEmbeddedInTextView;
 @property(retain, nonatomic) NSString *transientIdentifier; // @synthesize transientIdentifier=_transientIdentifier;
 
 @end

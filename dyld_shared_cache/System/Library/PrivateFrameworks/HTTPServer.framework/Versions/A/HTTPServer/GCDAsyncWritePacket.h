@@ -9,10 +9,6 @@
 @interface GCDAsyncWritePacket
 {
     NSData *buffer;
-    unsigned long long bytesDone;
-    long long tag;
-    double timeout;
-    _Bool countBytesWritten;
 }
 
 - (id);

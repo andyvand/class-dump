@@ -6,27 +6,16 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSMutableArray, NSMutableDictionary;
-@protocol CKAcceptSharesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDAcceptSharesOperation : CKDDatabaseOperation
 {
     _Bool _canSynchronizeUserKeyRegistry;
-    CDUnknownBlockType _acceptCompletionBlock;
-    NSMutableDictionary *_clientProvidedMetadatasByURL;
-    NSMutableArray *_shareURLsToAccept;
-    NSMutableArray *_acceptedShareURLsToFetch;
-    NSMutableDictionary *_shareMetadatasToAcceptByURL;
-    unsigned long long _numShareAcceptAttempts;
-    NSMutableDictionary *_URLsWaitingKRSByServiceType;
-    NSMutableDictionary *_anonymousShareTuplesAcceptAttempted;
-    NSMutableArray *_anonymousShareTuplesAccepted;
 }
 
-+ (id);
++ (id)setRoamStatusSucceededCount:(unsigned long long)arg1;
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,8 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)#;
 - (id);
 - (_Bool);
 - (id);
@@ -43,8 +31,8 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void)h;
 - (void);
 - (id);
 - (void);
@@ -55,29 +43,18 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)pting to copy current transfer URL %@ to new URL %@;
 - (void)Error saving record %@ to server:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *URLsWaitingKRSByServiceType; // @synthesize URLsWaitingKRSByServiceType=_URLsWaitingKRSByServiceType;
-@property(copy, nonatomic) CDUnknownBlockType acceptCompletionBlock; // @synthesize acceptCompletionBlock=_acceptCompletionBlock;
-@property(retain, nonatomic) NSMutableArray *acceptedShareURLsToFetch; // @synthesize acceptedShareURLsToFetch=_acceptedShareURLsToFetch;
-@property(retain, nonatomic) NSMutableDictionary *anonymousShareTuplesAcceptAttempted; // @synthesize anonymousShareTuplesAcceptAttempted=_anonymousShareTuplesAcceptAttempted;
-@property(retain, nonatomic) NSMutableArray *anonymousShareTuplesAccepted; // @synthesize anonymousShareTuplesAccepted=_anonymousShareTuplesAccepted;
-@property(nonatomic) _Bool canSynchronizeUserKeyRegistry; // @synthesize canSynchronizeUserKeyRegistry=_canSynchronizeUserKeyRegistry;
-@property(retain, nonatomic) id <CKAcceptSharesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableDictionary *clientProvidedMetadatasByURL; // @synthesize clientProvidedMetadatasByURL=_clientProvidedMetadatasByURL;
-@property(nonatomic) unsigned long long numShareAcceptAttempts; // @synthesize numShareAcceptAttempts=_numShareAcceptAttempts;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadatasToAcceptByURL; // @synthesize shareMetadatasToAcceptByURL=_shareMetadatasToAcceptByURL;
-@property(retain, nonatomic) NSMutableArray *shareURLsToAccept; // @synthesize shareURLsToAccept=_shareURLsToAccept;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

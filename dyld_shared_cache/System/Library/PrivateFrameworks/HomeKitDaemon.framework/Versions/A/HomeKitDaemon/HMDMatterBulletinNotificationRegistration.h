@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 - (id);
+- (id)MSPCollectionItemStorage;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)CredAddReferenceAndLabel failed with %d. Principle:(id)arg1 %s. Label:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id)deoTierParameters:(struct _NSZone *)arg1 supportedVideoConfiguration:supportedVideoTiers:supportedRTPConfiguration:streamingCapabilities: /* Error: Ran out of types for this method. */;
+- (id)initWithSessionInfo:(struct _NSZone *)arg1 videoTierParameters:supportedVideoConfiguration:supportedVideoTiers:supportedRTPConfiguration:streamingCapabilities: /* Error: Ran out of types for this method. */;
 - (id)ed more than one result;
 - (void)egistration>"8;
 

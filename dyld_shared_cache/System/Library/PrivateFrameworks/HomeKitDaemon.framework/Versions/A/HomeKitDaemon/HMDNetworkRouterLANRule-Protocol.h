@@ -5,5 +5,6 @@
 //
 
 @protocol HMDNetworkRouterLANRule
+- (void)] Notification's subtitle when stopping at a charger;
 @end
 

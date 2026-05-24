@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INScanVisualCodeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)ilGenerationRequest";
++ (int)initWithItem:(long long)arg1 maximumSize:minimumSize:scale:options:generationData: /* Error: Ran out of types for this method. */;
++ (long long)initWithAdditionsPresentOnURL:(int)arg1 error:(int)arg2;
++ (_Bool)getCanGenerateThumbnailsForContentType:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool)c;
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)@;
 - (long long);
 - (id);
+- (id)leftThumbstickRight;
 - (id);
-- (id);
-- (void);
+- (void)ifi-network-sharing] XPC connection has a containing bundle record (bundleID=%{public}@, procName=%{public}@, codesignID=%{public}@, record=%{public}@);
 - (id);
 - (id);
 - (long long)dioSearchResults;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

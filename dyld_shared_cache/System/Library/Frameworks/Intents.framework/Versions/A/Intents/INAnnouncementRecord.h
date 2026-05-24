@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INHomeFilter, NSNumber, NSString;
+@class INHomeFilter;
 
 @interface INAnnouncementRecord
 {
     INHomeFilter *_originator;
-    NSString *_identifier;
-    NSNumber *_duration;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
+- (id)$;
+- (unsigned long long)4@32;
+- (_Bool)NetworkSignature;
+- (void)me:(id)arg1 interface:] /* Error: Ran out of types for this method. */;
+- (id)T;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)sentation;
-- (void)shold;
+- (id)_colorDictionaryRepresentation;
+- (void)cancellationFeeThreshold;
 - (id)¸'NV¡;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy) INHomeFilter *originator; // @synthesize originator=_originator;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,89 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECTagValueList, NSArray, NSData, NSNumber, NSString;
+@class ECTagValueList, NSString;
 
 @interface ECDKIMMessageHeader
 {
     ECTagValueList *_tagValueList;
-    NSString *_version;
-    unsigned long long _signingAlgorithm;
-    unsigned long long _hashingAlgorithm;
-    NSData *_signatureData;
-    NSString *_canonicalizedBodyHash;
-    unsigned long long _bodyCanonicalizationAlgorithm;
-    unsigned long long _headerCanonicalizationAlgorithm;
-    NSString *_signingDomainIdentifier;
-    NSArray *_signedHeaderFields;
-    NSString *_agentOrUserIdentifier;
-    NSNumber *_bodyLength;
-    NSArray *_queryMethods;
-    NSString *_selector;
-    double _signatureTimestamp;
-    double _signatureExpiration;
-    NSArray *_copiedHeaderFields;
-    NSString *_headerNameForCanonicalization;
-    NSString *_bodyForCanonicalization;
 }
 
+- (unsigned long long)gate completed but cancelled. Not dismissing.;
+- (id)view from its delegate, %@.;
+- (double)leted successfully.;
+- (id)ck=%i usesExternalPlaybackWhileExternalScreenIsActive=%i externalPlaybackType=%i isBeingDismissed=%i isReadyToConnect=%i isActive=%i;
+- (id)c}@:(id)arg1 EndEncountered;
+- (id)ption command;
+- (unsigned long long)nguage option command;
+- (id)serInteractionCount;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)#;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (double);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ple.xbs/TemporaryDirectory.ioLnpk/Sources/FindMyMacFramework/Sources/Common/utilities.c;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *agentOrUserIdentifier; // @synthesize agentOrUserIdentifier=_agentOrUserIdentifier;
-@property(readonly, nonatomic) unsigned long long bodyCanonicalizationAlgorithm; // @synthesize bodyCanonicalizationAlgorithm=_bodyCanonicalizationAlgorithm;
-@property(readonly, nonatomic) NSString *bodyForCanonicalization; // @synthesize bodyForCanonicalization=_bodyForCanonicalization;
-@property(readonly, nonatomic) NSNumber *bodyLength; // @synthesize bodyLength=_bodyLength;
-@property(readonly, copy, nonatomic) NSString *canonicalizedBodyHash; // @synthesize canonicalizedBodyHash=_canonicalizedBodyHash;
-@property(readonly, nonatomic) NSArray *copiedHeaderFields; // @synthesize copiedHeaderFields=_copiedHeaderFields;
-@property(readonly, nonatomic) unsigned long long hashingAlgorithm; // @synthesize hashingAlgorithm=_hashingAlgorithm;
-@property(readonly, nonatomic) unsigned long long headerCanonicalizationAlgorithm; // @synthesize headerCanonicalizationAlgorithm=_headerCanonicalizationAlgorithm;
-@property(readonly, nonatomic) NSString *headerNameForCanonicalization; // @synthesize headerNameForCanonicalization=_headerNameForCanonicalization;
-@property(readonly, copy, nonatomic) NSArray *queryMethods; // @synthesize queryMethods=_queryMethods;
-@property(readonly, nonatomic) NSString *selector; // @synthesize selector=_selector;
-@property(readonly, copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
-@property(readonly, nonatomic) double signatureExpiration; // @synthesize signatureExpiration=_signatureExpiration;
-@property(readonly, nonatomic) double signatureTimestamp; // @synthesize signatureTimestamp=_signatureTimestamp;
-@property(readonly, copy, nonatomic) NSArray *signedHeaderFields; // @synthesize signedHeaderFields=_signedHeaderFields;
-@property(readonly, nonatomic) unsigned long long signingAlgorithm; // @synthesize signingAlgorithm=_signingAlgorithm;
-@property(readonly, copy, nonatomic) NSString *signingDomainIdentifier; // @synthesize signingDomainIdentifier=_signingDomainIdentifier;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

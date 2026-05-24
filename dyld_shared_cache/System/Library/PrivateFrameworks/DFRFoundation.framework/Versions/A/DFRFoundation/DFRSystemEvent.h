@@ -10,15 +10,9 @@ __attribute__((visibility("hidden")))
 @interface DFRSystemEvent
 {
     NSString *_systemIdentifier;
-    long long _type;
-    double _timestamp;
-    unsigned long long _modifiers;
-    struct CGRect _screenRect;
-    long long _touchIndex;
-    struct CGPoint _touchPoint;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

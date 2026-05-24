@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAddressCorrectionAddress
 {
     PBDataReader *_reader;
-    NSString *_addressID;
-    GEOLocation *_addressLocation;
-    double _radiusInMeters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_radiusInMeters:1;
-        unsigned int read_addressID:1;
-        unsigned int read_addressLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tRevelanceScore:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setHasMapsSuggestionsContactRevelanceScore:(id)arg1;
+- (void)?=[8I]}16@"NSString"48@"NSArray"56^@64;
+- (void)coalescingWindow;
+- (void)cnFeatureFlagValue;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)?|�? ;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)hostTimeFromSampleCount:(double)arg1 anchorHostTime:anchorSampleCount:sampleRate: /* Error: Ran out of types for this method. */;
+- (void)_requestStartAudioStreamWithSource:(id)arg1 context:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -47,20 +35,15 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)geStringAtIndex:(struct _NSZone *)arg1;
+- (id)messageStringAtIndex:(struct _NSZone *)arg1;
 - (id)P!;
-- (id)a;
+- (id)CellPerfScoreIsShiftedInChina;
 - (double)à;
 - (id);
 - (void)òï7;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *addressID;
-@property(retain, nonatomic) GEOLocation *addressLocation;
-@property(readonly, nonatomic) _Bool hasAddressID;
 @property(readonly, nonatomic) _Bool hasAddressLocation;
-@property(nonatomic) _Bool hasRadiusInMeters;
-@property(nonatomic) double radiusInMeters;
 
 @end
 

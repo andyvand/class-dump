@@ -8,12 +8,6 @@
 {
     id _averageRatingText;
     id _outOfFiveText;
-    id _numberOfRatingsText;
-    id _ratingCounts;
-    id _numberOfRatings;
-    id _hasInsufficientRatings;
-    id _insufficientRatingsText;
-    id _$observationRegistrar;
 }
 
 @end

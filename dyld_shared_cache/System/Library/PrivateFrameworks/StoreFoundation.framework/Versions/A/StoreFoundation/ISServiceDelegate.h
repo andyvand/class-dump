@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSMutableArray, NSString;
+@class NSArray, NSLock;
 
 @interface ISServiceDelegate
 {
     NSLock *_clientsLock;
-    NSMutableArray *_clients;
-    NSString *_serviceName;
 }
 
 + (Class);
 + (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -25,13 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *clients; // @synthesize clients=_clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

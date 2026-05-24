@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIPhotoGrain
 {
     CIImage *_inputImage;
-    NSNumber *_inputLevel;
-    NSNumber *_inputAmount;
-    NSNumber *_inputPhase;
 }
 
 + (id);
@@ -24,13 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void)Rect: /* Error: Ran out of types for this method. */;
+- (void)setStabCropRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount=_inputAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputLevel; // @synthesize inputLevel=_inputLevel;
-@property(retain, nonatomic) NSNumber *inputPhase; // @synthesize inputPhase=_inputPhase;
 
 @end
 

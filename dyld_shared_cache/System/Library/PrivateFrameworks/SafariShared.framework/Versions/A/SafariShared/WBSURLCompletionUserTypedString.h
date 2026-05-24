@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WBSURLCompletionUserTypedString
 {
     NSString *_string;
-    const unsigned short *_unichars;
-    const char *_chars;
-    int _length;
-    _Bool _containsAnySpaces;
-    _Bool _ownsUnichars;
-    _Bool _ownsChars;
-    struct os_unfair_lock_s _lock;
-    struct atomic<bool> _stringOnlyContainsWhitespaces;
-    NSString *_searchQueryParameterString;
-    NSString *_stringWithoutWhitespace;
-    NSArray *_components;
-    WBSURLCompletionUserTypedString *_typedStringForURLMatching;
 }
 
 + (_Bool);
@@ -31,21 +19,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)currentToolMode;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *components; // @synthesize components=_components;
 @property(readonly, nonatomic) NSString *normalizedString; // @synthesize normalizedString=_string;
-@property(readonly, nonatomic) NSString *searchQueryParameterString; // @synthesize searchQueryParameterString=_searchQueryParameterString;
-@property(readonly, nonatomic) NSString *stringWithoutWhitespace; // @synthesize stringWithoutWhitespace=_stringWithoutWhitespace;
-@property(readonly, nonatomic) WBSURLCompletionUserTypedString *typedStringForURLMatching; // @synthesize typedStringForURLMatching=_typedStringForURLMatching;
 
 @end
 

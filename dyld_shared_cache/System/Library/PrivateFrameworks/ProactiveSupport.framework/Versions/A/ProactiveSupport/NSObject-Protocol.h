@@ -7,16 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (unsigned long long)_anyCalendarExistsInSameSourceOfType:withAllKnownCalendars:passingTest: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (unsigned long long)ashboard-widget;
+- (_Bool)LLL;
 - (struct _NSZone *)@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

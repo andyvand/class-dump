@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTSIMToolkitMenu
 {
     NSString *_title;
-    NSArray *_subTitles;
 }
 
-+ (_Bool);
++ (_Bool)ing an AVAssetReaderOutput.Provider;
 - (id);
 - (void);
+- (id)|;
 - (id);
-- (id);
-- (void);
+- (void)initWithLockState:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *subTitles; // @synthesize subTitles=_subTitles;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigDisplayConfiguration, FigScreenCaptureConfiguration;
 @protocol FigScreenCaptureFrameHandlerDelegate;
 
 @interface FigScreenCaptureController
 {
     id <FigScreenCaptureFrameHandlerDelegate> _delegateWeak;
-    int _mode;
-    FigScreenCaptureConfiguration *_screenCaptureConfiguration;
-    FigDisplayConfiguration *_displayConfiguration;
-    struct OpaqueFigVirtualDisplaySession *_session;
-    struct OpaqueFigSimpleMutex *_lock;
-    struct __CFDictionary *_options;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (id);
@@ -35,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)hs;
 - (struct OpaqueFigVirtualDisplaySession *);
 - (id);
 - (struct CGSize);
@@ -43,21 +36,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct OpaqueFigSimpleMutex *)ntrol command;
 - (void)R;bÔä½Zj3G.wÉ ù¼åÕ2k[v/Fø¡È'~N©ðÀí´Ýc:S
 ãºÓm4])p@§þÎx!Hö¯Æ²ëÛ<eUI yÇ®÷Úê³Td=Ò»â\5lAq(Ïÿ¦W>gÙ°éÄô­Jz#Ì¥üB+r_o6Ñá¸ý¤Ís*C7n^¹àÐf?Vè±Ø¬õÅ"{K¢ûË,uEh1Xæ¿Ö9`	P·îÞóªÃ}$MQa8ßï¶Â«òL%|Êú£Dt- /* Error: Ran out of types for this method. */;
-- (void)layPropertiesDict;
+- (void)displayPropertiesDict;
 
 // Remaining properties
-@property(nonatomic) __weak id <FigScreenCaptureFrameHandlerDelegate> delegate; // @synthesize delegate=_delegateWeak;
-@property(readonly, nonatomic) FigDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(nonatomic) struct OpaqueFigSimpleMutex *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 minIntervalBetweenFrames;
-@property(nonatomic) struct __CFDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) FigScreenCaptureConfiguration *screenCaptureConfiguration; // @synthesize screenCaptureConfiguration=_screenCaptureConfiguration;
 @property(nonatomic) struct OpaqueFigVirtualDisplaySession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

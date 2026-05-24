@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFKMemoryDescriptorManager;
-
 @interface AFKMemoryDescriptor
 {
     unsigned long long _cachedLength;
-    unsigned long long _capacity;
-    unsigned long long _regID;
-    unsigned long long _token;
-    AFKMemoryDescriptorManager *_manager;
-    char *_buffer;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (int);
 - (int);
 - (int);
@@ -33,18 +26,13 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)NSt3__120__shared_ptr_pointerIPN4siri12dialogengine17DialogStateServerENS_10shared_ptrINS2_15DialogStateBaseEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEEE;
 - (void);
 - (void);
 - (char *);
 
 // Remaining properties
-@property(readonly, nonatomic) char *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(nonatomic) unsigned long long length;
-@property(readonly, nonatomic) AFKMemoryDescriptorManager *manager; // @synthesize manager=_manager;
 @property(readonly, nonatomic) unsigned long long regID; // @synthesize regID=_regID;
-@property(readonly, nonatomic) unsigned long long token; // @synthesize token=_token;
 
 @end
 

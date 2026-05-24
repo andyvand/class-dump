@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSVector;
-
 @interface MPSMatrixCopyDescriptor
 {
     id *_sourceMatrices;
-    id *_destinationMatrices;
-    CDStruct_7523a67d *_cpuOffsetsVector;
-    MPSVector *_gpuOffsetsVector;
-    unsigned long long _gpuBufferOffset;
-    unsigned long long _allocCount;
-    unsigned long long _filledCount;
 }
 
 + (id);
 - (id *);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id *);
 - (CDStruct_7523a67d *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)E;
 - (id);
 - (id);
 - (void);

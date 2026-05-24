@@ -5,5 +5,8 @@
 //
 
 @protocol SLSWindowManagementBridgeDelegate
+
+@optional
+- (void);
 @end
 

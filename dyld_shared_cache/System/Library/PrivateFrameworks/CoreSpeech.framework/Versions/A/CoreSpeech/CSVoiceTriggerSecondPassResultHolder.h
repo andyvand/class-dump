@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CSVoiceTriggerSecondPassResultHolder
 {
     _Bool _isSecondChanceCandidate;
-    unsigned long long _result;
-    NSDictionary *_voiceTriggerEventInfo;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)d;
+- (unsigned long long)ift_Builtin_float.dylib;
 - (void)tEvent:withLinkID:withAvAudioSessionInterruptorName:withAVAudioSessionInterrupterType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSecondChanceCandidate; // @synthesize isSecondChanceCandidate=_isSecondChanceCandidate;
 @property(readonly, nonatomic) unsigned long long result; // @synthesize result=_result;
-@property(readonly, nonatomic) NSDictionary *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (void);
 + (_Bool);
 + (Class);
@@ -23,26 +23,26 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (id)f;
+- (id);
+- (id)O;
 - (_Bool);
+- (_Bool);
+- (void);
+- (long long)<;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (double);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (double);
-- (id);
-- (id);
-- (void);
-- (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)s8;
 - (id);
 - (void);
 - (int);

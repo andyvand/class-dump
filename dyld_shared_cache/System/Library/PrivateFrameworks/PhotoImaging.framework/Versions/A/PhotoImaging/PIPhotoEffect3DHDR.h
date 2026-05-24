@@ -11,7 +11,6 @@
 @interface PIPhotoEffect3DHDR : PIPhotoEffectHDR
 {
     float _inputThreshold;
-    CIImage *_inputDepthMap;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (void);
 - (float);
 - (id);
-- (void)wsForTrackIDs: /* Error: Ran out of types for this method. */;
+- (void)setSourceVideoTrackWindowsForTrackIDs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CIImage *inputDepthMap; // @synthesize inputDepthMap=_inputDepthMap;
-@property float inputThreshold; // @synthesize inputThreshold=_inputThreshold;
 
 @end
 

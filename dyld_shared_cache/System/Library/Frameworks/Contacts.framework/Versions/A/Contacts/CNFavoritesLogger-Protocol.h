@@ -5,5 +5,9 @@
 //
 
 @protocol CNFavoritesLogger
+- (void)_subscriptionsInUse;
+- (void)CTSubscriberAlgorithmEAPSIM;
+- (void)fetchAccountWideSettings:(void (^)(void (^)(void)))arg1 error: /* Error: Ran out of types for this method. */;
+- (void)createTempThumbnailURLForVersion:appropriateForURL:itemIdentifier:isFromData:error: /* Error: Ran out of types for this method. */;
 @end
 

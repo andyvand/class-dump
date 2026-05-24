@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface CHSRemoteDevice
 {
     NSString *_name;
-    NSUUID *_relationshipID;
-    NSString *_deviceID;
-    long long _currentSupportedVersion;
-    long long _minSupportedVersion;
-    _Bool _isPossibleSource;
-    long long _pairingState;
-    NSDate *_lastConnectionDate;
-    long long _deviceType;
 }
 
 + (_Bool);
@@ -40,15 +32,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentSupportedVersion; // @synthesize currentSupportedVersion=_currentSupportedVersion;
-@property(readonly, copy, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) _Bool isPossibleSource; // @synthesize isPossibleSource=_isPossibleSource;
-@property(readonly, copy, nonatomic) NSDate *lastConnectionDate; // @synthesize lastConnectionDate=_lastConnectionDate;
-@property(readonly, nonatomic) long long minSupportedVersion; // @synthesize minSupportedVersion=_minSupportedVersion;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long pairingState; // @synthesize pairingState=_pairingState;
-@property(readonly, copy, nonatomic) NSUUID *relationshipID; // @synthesize relationshipID=_relationshipID;
 
 @end
 

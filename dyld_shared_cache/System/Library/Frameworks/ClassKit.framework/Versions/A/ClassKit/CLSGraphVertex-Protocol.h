@@ -5,6 +5,7 @@
 //
 
 @protocol CLSGraphVertex
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id vertexID;

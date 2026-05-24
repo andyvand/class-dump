@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceSectionViewDelegate
+- (void);
 @end
 

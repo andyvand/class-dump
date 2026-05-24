@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSDictionary;
-
 @interface VideoDecompressor
 {
     _Bool _decompInProgress;
-    unsigned int _pixelFormat;
-    struct OpaqueVTDecompressionSession *_decompressionSession;
-    NSCondition *_condition;
-    struct __CVBuffer *_imageBuffer;
-    NSDictionary *_bufAttr;
-    struct VTDecompressionOutputCallbackRecord _callBackRecord;
 }
 
 - (void);
@@ -30,7 +22,7 @@
 - (struct OpaqueVTDecompressionSession *);
 - (void);
 - (struct __CVBuffer *);
-- (void);
+- (void);
 - (id);
 - (struct __CVBuffer *);
 - (void);
@@ -39,13 +31,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(retain) NSDictionary *bufAttr; // @synthesize bufAttr=_bufAttr;
-@property struct VTDecompressionOutputCallbackRecord callBackRecord; // @synthesize callBackRecord=_callBackRecord;
-@property(retain) NSCondition *condition; // @synthesize condition=_condition;
-@property _Bool decompInProgress; // @synthesize decompInProgress=_decompInProgress;
 @property(nonatomic) struct OpaqueVTDecompressionSession *decompressionSession; // @synthesize decompressionSession=_decompressionSession;
-@property struct __CVBuffer *imageBuffer; // @synthesize imageBuffer=_imageBuffer;
-@property unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

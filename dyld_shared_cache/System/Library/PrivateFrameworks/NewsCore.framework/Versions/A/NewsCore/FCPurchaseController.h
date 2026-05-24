@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCCloudContext, FCEntitlementService, FCKeyValueStore, FCPurchaseLookUpEntriesManager, NFLazy, NSDate, NSDictionary, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol FCEntitlementsOverrideProviderType, OS_dispatch_queue;
+@class NSSet, NSString;
 
 @interface FCPurchaseController
 {
     NSSet *_purchasesDiscoveredTagIDs;
-    NSMutableDictionary *_webAccessEntriesByTagID;
-    id <FCEntitlementsOverrideProviderType> _entitlementsOverrideProvider;
-    FCCloudContext *_cloudContext;
-    NFLazy *_session;
-    FCKeyValueStore *_localStore;
-    FCPurchaseLookUpEntriesManager *_purchaseLookupEntriesManager;
-    NSDictionary *_readOnlyPurchaseLookUpEntriesByTagID;
-    NSDate *_lastEntitlementCheckTime;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    FCAsyncSerialQueue *_entitlementQueue;
-    FCEntitlementService *_entitlementService;
 }
 
 - (_Bool);
@@ -38,54 +26,72 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id).w);
+vec2 z = min(scaleInv, 1.0);
+vec2  p0 = coord - 0.5 * scaleInv;
+ivec2 k0 = ivec2(p0);
+vec2  p1 = p0 + z;
+ivec2 k1 = k0 + 1;
+vec2 A = k1 - p0;
+vec2 B = clamp(p1, k1, validMax) - k1;
+vec2 a = clamp(A / (A + B), 0, 1);
+vec2 b = clamp((A + B) / z, 0, 1);
+int oY = int(k0.y + 1 <= validMax.y);
+int oX = int(k0.x + 1 <= validMax.x);
+vec4 t00 = texelFetch2DRect(sampler, ivec2(k0.x, k0.y));
+vec4 t01 = texelFetch2DRect(sampler, ivec2(k0.x, k0.y + oY));
+vec4 t10 = texelFetch2DRect(sampler, ivec2(k0.x + oX, k0.y));
+vec4 t11 = texelFetch2DRect(sampler, ivec2(k0.x + oX, k0.y + oY));
+vec4 t0 = mix(t01, t00, a.y);
+vec4 t1 = mix(t11, t10, a.y);
+vec4 t = mix(t1, t0, a.x);
+return t;
+}
+uniform sampler2DRect texture;
+uniform vec2 scaleInv;
+uniform vec4 textureValidRect;
+uniform vec4 debugColor;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 texCoord;
+void main()
+{
+vec4 texColor = linearSample2DRect(texture, texCoord, scaleInv, textureValidRect);
+texColor = texColor + debugColor;
+gl_FragColor = texColor * channelMask;
+}
+;
+- (id)RAWFilter;
+- (id)implementations;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)removeIndexPath:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)WiFiP2PXPCConnection;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void)OfTransactions:(id)arg1;
+- (id)ation.framework/Versions/C/Foundation;
+- (void);
+- (id)SString"16@"NSDictionary"24@32;
+- (void);
+- (_Bool);
+- (void)collapsedTransactionOfTransactions:(id)arg1;
 - (void)]_block_invoke_2;
-- (void)umNewsVersion;
+- (void)MinimumNewsVersion;
 - (void)ÕÐ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allPurchaseIDs;
-@property(readonly, nonatomic) NSSet *allPurchasedTagIDs;
-@property(readonly, nonatomic) NSSet *allTagIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @synthesize entitlementsOverrideProvider=_entitlementsOverrideProvider;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *lastSignedInItunesAccountName;
-@property(readonly, nonatomic) NSDictionary *purchaseLookUpEntriesByTagID;
-@property(readonly, copy, nonatomic) NSSet *purchasedTagIDs;
-@property(readonly, nonatomic) NSSet *purchasesDiscoveredTagIDs;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *webAccessEntriesByTagID;
 
 @end
 

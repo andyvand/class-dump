@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSingleServiceWarmupAttemptFailed : SISchemaInstrumentationMessage
 {
     int _serviceType;
-    unsigned int _retryNumber;
-    int _reason;
-    unsigned int _errorCode;
-    CDStruct_cd410d97 _has;
 }
 
 - (void);
@@ -32,16 +26,16 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)systemFailure;
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)"NSCell"24^{CGRect={CGPoint=dd}{CGSize=dd}}32@"NSTableColumn"40@48{CGPoint=dd}56;
+- (_Bool)ذ;
+- (_Bool)ܣ;
 - (void);
 - (id);
 - (id)árÐ!àFùÑÞ°1Â0@ù
 × ;
-- (_Bool)ext;
+- (_Bool)citedText;
 - (id)Event;
 - (id),V_assetRetrievalStatusChanged;
 - (void)ches.valueType.bundleId;
@@ -49,14 +43,6 @@
 - (unsigned int)sP;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasRetryNumber;
-@property(nonatomic) _Bool hasServiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned int retryNumber; // @synthesize retryNumber=_retryNumber;
 @property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
 
 @end

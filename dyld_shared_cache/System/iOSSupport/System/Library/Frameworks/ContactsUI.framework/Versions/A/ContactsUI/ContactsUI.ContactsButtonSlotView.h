@@ -7,15 +7,13 @@
 @interface ContactsUI.ContactsButtonSlotView
 {
     id internalSlotView;
-    id logger;
-    id slotMaker;
 }
 
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
-- (void);
+- (id)dispatch_mach_t;
+- (void)sion;
 - (void)otoPickerProviderItemDelegate>",W,N,V_delegate;
 
 // Remaining properties

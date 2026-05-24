@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWCinematicFramingSessionAnalyticsPayload
 {
     unsigned int _cinematicFramingMaxPeopleDetected;
-    NSString *_cinematicFramingROIHeatMap;
-    NSString *_clientApplicationID;
-    unsigned int _cinematicFramingControlMode;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)on.;
 - (id);
 - (id);
 - (id);
@@ -30,17 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int cinematicFramingControlMode; // @synthesize cinematicFramingControlMode=_cinematicFramingControlMode;
 @property(nonatomic) unsigned int cinematicFramingMaxPeopleDetected; // @synthesize cinematicFramingMaxPeopleDetected=_cinematicFramingMaxPeopleDetected;
-@property(copy, nonatomic) NSString *cinematicFramingROIHeatMap; // @synthesize cinematicFramingROIHeatMap=_cinematicFramingROIHeatMap;
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

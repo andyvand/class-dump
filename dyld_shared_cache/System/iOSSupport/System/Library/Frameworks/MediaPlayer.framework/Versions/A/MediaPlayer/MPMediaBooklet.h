@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPMediaBooklet
 {
     unsigned long long itemPersistentID;
-    NSString *name;
-    long long storeItemID;
-    NSString *redownloadParams;
-    long long fileSize;
 }
 
 - (void);
@@ -20,20 +14,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (long long);
+- (id);
+- (void);
+- (long long)buildRequiredOnlyWithDomains:withDomainAction: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)ring",R,C,N,V_copyrightText;
 - (long long)A;
 
 // Remaining properties
-@property(nonatomic) long long fileSize; // @synthesize fileSize;
 @property(nonatomic) unsigned long long itemPersistentID; // @synthesize itemPersistentID;
-@property(copy, nonatomic) NSString *name; // @synthesize name;
-@property(copy, nonatomic) NSString *redownloadParams; // @synthesize redownloadParams;
-@property(nonatomic) long long storeItemID; // @synthesize storeItemID;
 
 @end
 

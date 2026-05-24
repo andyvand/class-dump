@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaPNRSpeechRecognitionSourceContext : SISchemaInstrumentationMessage
 {
     int _speechRecognitionSource;
-    struct {
-        unsigned int speechRecognitionSource:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_asd_encodeJSONObject:forKey:error: /* Error: Ran out of types for this method. */;
+- (_Bool)NO_CARD_SELECTED;
+- (_Bool)sage_id);;
 - (id);
 - (id);
-- (id)xtSimilarityScore;
-- (id)ion;
+- (id)deleteContextSimilarityScore;
+- (id)_euclidModelVersion;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSpeechRecognitionSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int speechRecognitionSource; // @synthesize speechRecognitionSource=_speechRecognitionSource;
 
 @end

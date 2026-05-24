@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSTimer;
+@class NSMutableDictionary;
 
 @interface GCAnalytics
 {
     NSMutableDictionary *_controllersData;
-    NSString *_bundleID;
-    NSTimer *_eventPollTimer;
-    struct mach_timebase_info _timebaseInfo;
-    unsigned long long _lastHapticsEvent;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)xp;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +34,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (void);
@@ -48,13 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PKPayloadCopier;
-@protocol OS_dispatch_queue;
+@class PKPayloadCopier;
 
 @interface _PKSignedContainerCopyCancelHandler
 {
     PKPayloadCopier *_copier;
-    _Bool _isCancelled;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
 - (void);
@@ -21,13 +18,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

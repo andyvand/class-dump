@@ -4,57 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPPTRecord
 {
     _Bool _submitted;
-    NSString *_key;
-    NSString *_privateValue;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
-+ (id);
++ (id)@;
 + (_Bool);
 + (id)0@ù
 × ;
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)storage quota with expected usage %llu;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)%>;
+- (void)P;
+- (_Bool)@;
+- (void)collectDocumentationMetadataWithPolicy:(double)arg1 descriptor:downloadDocumentation:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)scheduleSubmission;
+- (void)b;
+- (void)isSolariumEnabled;
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(copy, nonatomic) NSString *privateValue; // @synthesize privateValue=_privateValue;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

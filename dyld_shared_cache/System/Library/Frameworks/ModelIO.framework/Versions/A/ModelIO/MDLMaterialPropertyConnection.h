@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLMaterialProperty, NSString;
+@class MDLMaterialProperty;
 
 @interface MDLMaterialPropertyConnection
 {
     MDLMaterialProperty *_input;
-    MDLMaterialProperty *_output;
-    NSString *_name;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak MDLMaterialProperty *input; // @synthesize input=_input;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) __weak MDLMaterialProperty *output; // @synthesize output=_output;
 
 @end

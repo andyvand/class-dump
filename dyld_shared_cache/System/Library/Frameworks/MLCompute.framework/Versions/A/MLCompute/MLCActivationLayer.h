@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ent._sourceColumns;;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MLCActivationDescriptor *descriptor; // @synthesize descriptor=_descriptor;

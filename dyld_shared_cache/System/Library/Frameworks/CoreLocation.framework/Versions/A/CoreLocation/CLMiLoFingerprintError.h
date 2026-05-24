@@ -14,7 +14,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)setEmulatorMaxVertexAmplificationCount:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long fingerprintErrorEnum; // @synthesize fingerprintErrorEnum=_fingerprintErrorEnum;

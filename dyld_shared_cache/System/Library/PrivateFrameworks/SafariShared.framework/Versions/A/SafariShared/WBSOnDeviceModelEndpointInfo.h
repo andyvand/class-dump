@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface WBSOnDeviceModelEndpointInfo
 {
     NSURL *_endpointURL;
-    unsigned long long _sizeInBytes;
-    NSString *_checksumString;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (void)H,ä;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *checksumString; // @synthesize checksumString=_checksumString;
 @property(readonly, copy, nonatomic) NSURL *endpointURL; // @synthesize endpointURL=_endpointURL;
-@property(readonly, nonatomic) unsigned long long sizeInBytes; // @synthesize sizeInBytes=_sizeInBytes;
 
 @end
 

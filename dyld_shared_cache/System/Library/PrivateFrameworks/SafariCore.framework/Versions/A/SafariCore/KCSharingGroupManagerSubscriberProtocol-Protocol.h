@@ -5,5 +5,8 @@
 //
 
 @protocol KCSharingGroupManagerSubscriberProtocol
+
+@optional
+- (void)akAdaptToCurrentHeadroom: /* Error: Ran out of types for this method. */;
 @end
 

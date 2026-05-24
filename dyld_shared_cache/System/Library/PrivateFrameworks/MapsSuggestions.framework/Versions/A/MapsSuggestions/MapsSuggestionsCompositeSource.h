@@ -6,18 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestionsSuppressor, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol MapsSuggestionsSourceDelegate, OS_dispatch_source;
+@class NSMutableSet;
 
 @interface MapsSuggestionsCompositeSource : MapsSuggestionsBaseSource
 {
     NSMutableSet *_sources;
-    NSMutableDictionary *_nextUpdateTimes;
-    struct Queue _queue;
-    NSObject<OS_dispatch_source> *_updateTimer;
-    MapsSuggestionsSuppressor *_suppressor;
-    NSMutableDictionary *_hasStarted;
-    _Bool _running;
 }
 
 + (_Bool);
@@ -25,43 +18,34 @@
 - (_Bool);
 - (double);
 - (unsigned long long);
-- (void);
+- (void)?;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (BOOL)@;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (BOOL);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (double);
-- (_Bool);
-- (void);
+- (void)initWithCollectionViewLayout:(id)arg1;
 - (void);
 - (id);
 - (void)36@44;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool running; // @synthesize running=_running;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

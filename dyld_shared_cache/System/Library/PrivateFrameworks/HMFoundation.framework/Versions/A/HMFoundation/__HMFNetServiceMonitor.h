@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
+- (id)_;
+- (void)bom_fatal_error_handler;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)moryObservance;
+- (id)HMFMemoryObservance;
 
 // Remaining properties
 @property(readonly) HMFNetService *service; // @synthesize service=_service;

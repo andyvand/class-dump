@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IPAAutoRegistry
 {
     NSObject<OS_dispatch_queue> *_serializer;
-    NSMutableDictionary *_entries;
 }
 
 + (void);
-+ (id);
-- (Class);
-- (void);
++ (id)ion;
+- (Class)AVCIImageFilteringResult;
+- (void)SubscriberDelegate;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)inputLock;
 
 @end
 

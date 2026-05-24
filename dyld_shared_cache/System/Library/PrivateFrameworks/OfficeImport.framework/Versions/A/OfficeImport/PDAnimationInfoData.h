@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADDrawable, PDBuild, PDSequentialTimeNode;
-
 __attribute__((visibility("hidden")))
 @interface PDAnimationInfoData
 {
     unsigned int mOrder;
-    PDBuild *mBuild;
-    PDSequentialTimeNode *mSequentialTimeNodeData;
-    OADDrawable *mDrawable;
 }
 
-- (id);
+- (id)RJ*
+;
 - (id);
 - (id);
 - (unsigned int);

@@ -6,25 +6,21 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class PKPeerPaymentRequestToken;
-
 @interface PKPeerPaymentRequestTokenResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _success;
-    PKPeerPaymentRequestToken *_requestToken;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)!;
+- (void)tency;
 - (id);
 - (_Bool)°r;
 - (void)'%@'; ;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPeerPaymentRequestToken *requestToken; // @synthesize requestToken=_requestToken;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

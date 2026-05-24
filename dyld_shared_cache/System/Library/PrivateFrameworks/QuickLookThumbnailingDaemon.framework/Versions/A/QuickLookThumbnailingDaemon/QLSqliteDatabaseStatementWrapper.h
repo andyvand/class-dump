@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface QLSqliteDatabaseStatementWrapper
 {
     struct sqlite3_stmt *_stmt;
-    NSMapTable *_inUseTable;
-    NSString *_key;
 }
 
 - (void);
@@ -21,13 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (struct sqlite3_stmt *);
+- (struct sqlite3_stmt *)kp;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isInUse) _Bool inUse;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) struct sqlite3_stmt *stmt; // @synthesize stmt=_stmt;
 
 @end
 

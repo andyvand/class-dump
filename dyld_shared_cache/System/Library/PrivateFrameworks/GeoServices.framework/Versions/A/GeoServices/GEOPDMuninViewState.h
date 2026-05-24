@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCameraFrame, GEOPDLocationInfo, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDMuninViewState
 {
     PBDataReader *_reader;
-    GEOPDCameraFrame *_cameraFrame;
-    GEOPDLocationInfo *_locationInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_cameraFrame:1;
-        unsigned int read_locationInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)okupParameters:(id)arg1;
++ (_Bool)setIdLookupParameters:(id)arg1;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id);
-- (void);
+- (id)ening:suppressStartAlert:supportsEchoCancellation:isVibrationEnabled:isVibrationSupported:isVoiceOverTouchEnabled: /* Error: Ran out of types for this method. */;
+- (void)terClass(void)_block_invoke;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)	;
+- (void)quired to correctly disable Report an Issue on certain configurations of iOS. Please add this entitlement to your binary and contact maps-client@group.apple.com for more information.;
 - (_Bool);
 - (id);
 - (void);
 - (id)_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32Q40;
-- (id)pe;
+- (id)_hapticsType;
 - (id) Øü;
-- (id)CEMENT_TYPE_UNKNOWN;
+- (id)ANNOUNCEMENT_TYPE_UNKNOWN;
 - (id);
 - (void)U¾g$BP@;
 - (void)ÀÊ¡EÆs@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDCameraFrame *cameraFrame;
 @property(readonly, nonatomic) _Bool hasCameraFrame;
-@property(readonly, nonatomic) _Bool hasLocationInfo;
-@property(retain, nonatomic) GEOPDLocationInfo *locationInfo;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSSet;
-
 @interface SignpostSupportPIDFilter
 {
     _Bool __wantsNotEqual;
-    NSSet *_pidSet;
 }
 
 - (id);
@@ -17,17 +14,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)#;
+- (unsigned long long)AMAuthInstallMonetStitchMav25EBootLoader;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _compoundPredicateType;
-@property(readonly, nonatomic) _Bool _wantsNotEqual; // @synthesize _wantsNotEqual=__wantsNotEqual;
-@property(readonly, nonatomic) NSSet *pidSet; // @synthesize pidSet=_pidSet;
-@property(readonly, nonatomic) NSPredicate *predicateEquivalent;
 
 @end
 

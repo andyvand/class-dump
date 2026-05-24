@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TIRevisionHistoryToken
 {
     _Bool _accepted;
-    unsigned int _usageLearningMask;
-    unsigned int _usageTrackingMask;
-    NSString *_tokenInputString;
-    unsigned long long _offset;
-    struct TITokenID _tokenID;
-    NSString *_tokenDictionaryString;
-    NSString *_userTyping;
-    NSString *_tokenLatinInputString;
 }
 
 - (id);
@@ -25,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)stopTranscribing:(unsigned int)arg1 targetPID:error: /* Error: Ran out of types for this method. */;
+- (void)simLessSubscriptionsDidChange;
+- (void)showsRTTNotificationsForContext:(id)arg1;
+- (void)shouldUseRTTForContext:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)eechRecognitionTask dictationConnection:speechRecordingDidFail:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -40,18 +32,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TITokenID)1Â0@ù
 × ;
-- (unsigned long long)haracterSet: /* Error: Ran out of types for this method. */;
+- (unsigned long long)formUnionWithCharacterSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isAccepted) _Bool accepted; // @synthesize accepted=_accepted;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(copy, nonatomic) NSString *tokenDictionaryString; // @synthesize tokenDictionaryString=_tokenDictionaryString;
-@property(nonatomic) struct TITokenID tokenID; // @synthesize tokenID=_tokenID;
 @property(copy, nonatomic) NSString *tokenInputString; // @synthesize tokenInputString=_tokenInputString;
-@property(copy, nonatomic) NSString *tokenLatinInputString; // @synthesize tokenLatinInputString=_tokenLatinInputString;
-@property(nonatomic) unsigned int usageLearningMask; // @synthesize usageLearningMask=_usageLearningMask;
-@property(nonatomic) unsigned int usageTrackingMask; // @synthesize usageTrackingMask=_usageTrackingMask;
-@property(copy, nonatomic) NSString *userTyping; // @synthesize userTyping=_userTyping;
 
 @end
 

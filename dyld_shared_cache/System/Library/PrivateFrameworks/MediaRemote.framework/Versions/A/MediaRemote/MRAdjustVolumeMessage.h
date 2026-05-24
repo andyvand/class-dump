@@ -6,22 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRRequestDetails, NSString;
-
 @interface MRAdjustVolumeMessage : MRProtocolMessage
 {
 }
 
 - (id);
 - (long long);
-- (id);
-- (unsigned long long);
+- (id)cancelPreviousPerformRequestsWithTarget:selector:object: /* Error: Ran out of types for this method. */;
+- (unsigned long long)MMetricsCollectorEventMediaTypeWatchfaceSent;
 - (id)%{public}@> Error loading data %{public}@.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long adjustment;
-@property(readonly, nonatomic) MRRequestDetails *details;
-@property(readonly, nonatomic) NSString *outputDeviceUID;
 
 @end
 

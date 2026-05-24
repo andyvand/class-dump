@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 @interface ACTimedExpirer
 {
     unsigned long long _invalidationInterval;
-    NSObject<OS_dispatch_source> *_invalidationTimer;
-    struct os_unfair_lock_s _invalidationTimerLock;
 }
 
 + (id);
 - (void);
-- (id);
-- (void);
+- (id)Hf;
+- (void)A;
 - (void);
 - (void);
 - (void);

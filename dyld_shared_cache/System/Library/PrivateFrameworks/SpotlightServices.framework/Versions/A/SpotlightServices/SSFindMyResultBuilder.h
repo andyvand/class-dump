@@ -11,8 +11,8 @@
 }
 
 + (id);
-- (id);
-- (id);
+- (id)setAttachmentsForUnarchiving: /* Error: Ran out of types for this method. */;
+- (id)setAllowsLoadingMediaWithAutoPlayDisabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

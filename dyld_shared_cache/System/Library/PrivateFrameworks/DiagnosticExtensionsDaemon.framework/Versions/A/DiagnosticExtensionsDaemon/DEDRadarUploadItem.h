@@ -6,16 +6,9 @@
 
 #import <DiagnosticExtensionsDaemon/DEDAttachmentItem.h>
 
-@class NSString, NSURL;
-
 @interface DEDRadarUploadItem : DEDAttachmentItem
 {
     _Bool _isUploaded;
-    unsigned long long _taskIdentifier;
-    long long _totalBytesSent;
-    long long _totalBytesExpectedToSend;
-    NSString *_radarAttachmentName;
-    NSURL *_radarURL;
 }
 
 - (long long);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (long long);
@@ -36,12 +29,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool isUploaded; // @synthesize isUploaded=_isUploaded;
-@property(retain, nonatomic) NSString *radarAttachmentName; // @synthesize radarAttachmentName=_radarAttachmentName;
-@property(retain, nonatomic) NSURL *radarURL; // @synthesize radarURL=_radarURL;
 @property(nonatomic) unsigned long long taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
-@property(nonatomic) long long totalBytesExpectedToSend; // @synthesize totalBytesExpectedToSend=_totalBytesExpectedToSend;
-@property(nonatomic) long long totalBytesSent; // @synthesize totalBytesSent=_totalBytesSent;
 
 @end
 

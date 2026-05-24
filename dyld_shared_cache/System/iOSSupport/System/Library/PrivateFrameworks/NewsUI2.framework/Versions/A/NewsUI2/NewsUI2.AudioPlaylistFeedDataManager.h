@@ -7,12 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedDataManager
 {
     id delegate;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id audioDataManager;
-    id playbackState;
-    id playlistStore;
-    id accessQueue;
 }
 
 @end

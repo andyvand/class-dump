@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IOSurfaceSharedEventListener
 {
     struct IONotificationPort *_notificationPort;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_familySupportsDepthBoundsTesting;
 
 @end
 

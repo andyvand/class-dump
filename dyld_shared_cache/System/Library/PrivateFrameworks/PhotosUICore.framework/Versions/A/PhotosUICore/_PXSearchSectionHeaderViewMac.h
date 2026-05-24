@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField, NSVisualEffectView, PXZoomablePhotosViewModel;
+@class NSTextField;
 
 @interface _PXSearchSectionHeaderViewMac
 {
     NSTextField *_contentLabel;
-    NSVisualEffectView *_effectView;
-    PXZoomablePhotosViewModel *_viewModel;
 }
 
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (struct CGSize);
@@ -22,23 +20,13 @@
 - (id);
 - (id)xit preview progress alert;
 - (id)ipping candidate device with unknown or ignored device family:<%@:%p, name:"%@", model:"%{public}@", swVersion:"%{public}@"> /* Error: Ran out of types for this method. */;
-- (void)ItemTypeCollections;
+- (void)PXNavigationListGroupItemTypeCollections;
 - (void)Fÿp;
 - (id)ÿl´÷þl´äÿ;
 - (id)@`ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSTextField *contentLabel; // @synthesize contentLabel=_contentLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
-@property(retain, nonatomic) PXZoomablePhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

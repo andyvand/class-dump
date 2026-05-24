@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputTargetContentInfo, CHTokenizedTextResult, NSArray, NSDate, NSString, PKDrawing;
+@class NSDate, PKDrawing;
 
 @interface PKTextInputDebugLogEntry
 {
     PKDrawing *_inputDrawing;
-    _Bool _inputContainsInProgressStroke;
-    NSDate *_entryDate;
-    NSArray *_recognitionLocaleIdentifiers;
-    NSArray *_inputTargets;
-    CHTextInputTargetContentInfo *_inputTargetContentInfo;
-    NSString *_inputTargetElementType;
-    CHTokenizedTextResult *_tokenizedTextResult;
-    NSString *_resultCommittedText;
-    NSString *_resultTopTranscription;
-    long long _resultCommittedTokenColumnCount;
-    NSString *_resultTypeDescription;
-    NSString *_resultCommitReason;
-    double _resultRecognitionDuration;
-    struct _NSRange _resultAffectedRange;
 }
 
 + (id);
@@ -62,7 +48,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ActivitySharingSample;
 - (id);
 - (void);
 - (id);
@@ -72,21 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(nonatomic) _Bool inputContainsInProgressStroke; // @synthesize inputContainsInProgressStroke=_inputContainsInProgressStroke;
-@property(retain, nonatomic) PKDrawing *inputDrawing; // @synthesize inputDrawing=_inputDrawing;
-@property(retain, nonatomic) CHTextInputTargetContentInfo *inputTargetContentInfo; // @synthesize inputTargetContentInfo=_inputTargetContentInfo;
-@property(copy, nonatomic) NSString *inputTargetElementType; // @synthesize inputTargetElementType=_inputTargetElementType;
-@property(copy, nonatomic) NSArray *inputTargets; // @synthesize inputTargets=_inputTargets;
-@property(copy, nonatomic) NSArray *recognitionLocaleIdentifiers; // @synthesize recognitionLocaleIdentifiers=_recognitionLocaleIdentifiers;
-@property(nonatomic) struct _NSRange resultAffectedRange; // @synthesize resultAffectedRange=_resultAffectedRange;
-@property(copy, nonatomic) NSString *resultCommitReason; // @synthesize resultCommitReason=_resultCommitReason;
-@property(copy, nonatomic) NSString *resultCommittedText; // @synthesize resultCommittedText=_resultCommittedText;
-@property(nonatomic) long long resultCommittedTokenColumnCount; // @synthesize resultCommittedTokenColumnCount=_resultCommittedTokenColumnCount;
-@property(nonatomic) double resultRecognitionDuration; // @synthesize resultRecognitionDuration=_resultRecognitionDuration;
-@property(copy, nonatomic) NSString *resultTopTranscription; // @synthesize resultTopTranscription=_resultTopTranscription;
-@property(readonly, nonatomic) long long resultType;
-@property(copy, nonatomic) NSString *resultTypeDescription; // @synthesize resultTypeDescription=_resultTypeDescription;
-@property(retain, nonatomic) CHTokenizedTextResult *tokenizedTextResult; // @synthesize tokenizedTextResult=_tokenizedTextResult;
 
 @end
 

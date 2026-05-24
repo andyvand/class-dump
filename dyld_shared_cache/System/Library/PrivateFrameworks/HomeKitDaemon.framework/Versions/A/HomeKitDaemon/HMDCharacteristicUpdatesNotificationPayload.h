@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMDCharacteristicUpdatesNotificationPayload
 {
     _Bool _hasEntitledClientOnlyChanges;
-    NSDictionary *_characteristicUpdatesForAllClients;
-    NSDictionary *_spiEntitledClientUpdates;
 }
 
+- (id)clearDiscardableDataFromAllContainers;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)e.HomeKit.daemon.accessory.setup.networkstate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *characteristicUpdatesForAllClients; // @synthesize characteristicUpdatesForAllClients=_characteristicUpdatesForAllClients;
-@property(readonly, copy, nonatomic) NSDictionary *characteristicUpdatesForEntitledClients;
-@property(readonly, nonatomic) _Bool hasEntitledClientOnlyChanges; // @synthesize hasEntitledClientOnlyChanges=_hasEntitledClientOnlyChanges;
 @property(readonly, copy, nonatomic) NSDictionary *spiEntitledClientUpdates; // @synthesize spiEntitledClientUpdates=_spiEntitledClientUpdates;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface ContinuousReadingListPageItem
@@ -17,19 +17,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)canArray;
 - (id);
 - (id)u change your mind.;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDefaultSiteIcon;
-@property(readonly, nonatomic) NSImage *icon;
-@property(readonly, nonatomic) NSString *itemDescription;
 @property(readonly, nonatomic) NSObject *representedReadingListItem;
-@property(readonly, nonatomic) NSImage *secondaryIcon;
-@property(readonly, nonatomic) NSAttributedString *title;
-@property(readonly, nonatomic) NSString *urlString;
 
 @end
 

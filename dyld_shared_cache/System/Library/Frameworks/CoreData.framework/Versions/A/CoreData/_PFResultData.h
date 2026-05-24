@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _PFResultData
 {
     int _cd_rc;
-    unsigned int _length;
-    id _parentObject;
 }
 
 + (Class)s a symbolic link;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)a;
 - (oneway void);
 - (id);
 - (unsigned long long);
 - (Class);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (_Bool);
 - (id);
@@ -29,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)w;
 - (id)eData:(struct _NSRange)arg1 error:---------------------------
  /* Error: Ran out of types for this method. */;
 - (void)ath or constant value) :(void *)arg1 %@;
 - (_Bool)hareAsset.externalBinaryData;
 - (_Bool)o get a currentQueryGeneration;
-- (void)O;
+- (void)NO;
 - (_Bool)~8;
 
 @end

@@ -6,21 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor, UITraitCollection, _UIShape, _UIShapeView;
+@class _UIShapeView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusHaloView : UIView
 {
     _Bool _geometryFrozen;
-    _UIShape *_shape;
-    long long _position;
-    double _thickness;
-    double _gapWidth;
-    _UIShapeView *_haloView;
-    _UIShapeView *_gapView;
-    _UIShapeView *_maskViewWhenInside;
-    UIColor *_gapColor;
-    UITraitCollection *_gapSourceTraitCollection;
 }
 
 + (_Bool);
@@ -31,53 +22,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)NSData"40@"NSString"48@"NSString"56@"NSString"64@"NSArray"72@"NSString"80@"NSString"88B96B100B104@"NSDictionary"108B116B120@"NSNumber"124@"NSDictionary"132@"NSDictionary"140@"NSArray"148@"NSDictionary"156@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
+- (id)registerGuid:forLocalURL: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:activeRemoteParticipantsChangedForConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)chatsWithHandle:onService: /* Error: Ran out of types for this method. */;
+- (id)hat: /* Error: Ran out of types for this method. */;
+- (id)chatRepairController:repairParticipantWithIdentifier:onService:onChat: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (id);
+- (id)G;
 - (void);
 - (double);
 - (double);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)¡!8Fù1cÐ1Â0@ù
 × ;
 - (long long)
 × ;
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void)closingBar:(struct CGRect)arg1;
-- (void)ngTransitionController;
-- (id)ptionForConstraintsAffectingAxis:(struct CGRect)arg1;
+- (void)lightweightFactoryForVisualStyle:renderingContext: /* Error: Ran out of types for this method. */;
+- (void)_setEnclosingBar:(struct CGRect)arg1;
+- (void)_handedOffTouchesToFloatingTransitionController;
+- (id)_debuggableDescriptionForConstraintsAffectingAxis:(struct CGRect)arg1;
 - (id)attenedGameControllerFocusMovement;
 - (id)er",R,W,N,V_tabBarController;
-- (void)eractionProgress;
+- (void)_UITouchForceInteractionProgress;
 - (void)because we're in live resize.;
 - (void)ent"8@"_UITitleContent"16;
 - (void)T®[;
 - (void)Ú¬k_;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *gapColor; // @synthesize gapColor=_gapColor;
-@property(retain, nonatomic) UITraitCollection *gapSourceTraitCollection; // @synthesize gapSourceTraitCollection=_gapSourceTraitCollection;
-@property(retain, nonatomic) _UIShapeView *gapView; // @synthesize gapView=_gapView;
-@property(nonatomic) double gapWidth; // @synthesize gapWidth=_gapWidth;
-@property(nonatomic) _Bool geometryFrozen; // @synthesize geometryFrozen=_geometryFrozen;
-@property(readonly, nonatomic) UIColor *haloColor;
 @property(retain, nonatomic) _UIShapeView *haloView; // @synthesize haloView=_haloView;
-@property(retain, nonatomic) _UIShapeView *maskViewWhenInside; // @synthesize maskViewWhenInside=_maskViewWhenInside;
-@property(nonatomic) long long position; // @synthesize position=_position;
-@property(copy, nonatomic) _UIShape *shape; // @synthesize shape=_shape;
-@property(nonatomic) double thickness; // @synthesize thickness=_thickness;
-@property(readonly, nonatomic) double totalConsumedSpace;
 
 @end
 

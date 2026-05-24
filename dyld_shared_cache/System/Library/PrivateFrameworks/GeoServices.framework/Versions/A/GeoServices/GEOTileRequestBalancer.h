@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOTileRequestBalancer
 {
     void *_requesters;
-    void *_randomIndexGenerator;
-    unsigned long long _maxRunningOperationsCount;
-    unsigned long long _stateCaptureHandle;
 }
 
 + (id);
@@ -24,28 +19,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)"NSArray",&,N,V_phrasesToSkipBoronDecisionMaking;
 - (void);
 - (void *);
-- (void);
+- (void)venueLevelID;
 - (void);
 - (void);
 - (void);
 - (void)d"y"d"z"d}"yaw"f"pitch"f"roll"f};
-- (void)ncludeNameForForwardGeocodingResults:(id)arg1;
-- (void)rLandmarkIcon;
+- (void)setHasIncludeNameForForwardGeocodingResults:(id)arg1;
+- (void)_hasSprLandmarkIcon;
 - (id)ta.rowid NOT IN (            SELECT data_pk                FROM subscription_data_refs    );;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

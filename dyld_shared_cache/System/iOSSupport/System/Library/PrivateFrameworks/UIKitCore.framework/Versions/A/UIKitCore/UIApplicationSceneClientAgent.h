@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)CEMPasscodeVerifyFirmwarePasswordCommand;
 - (void);
 - (id);
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavdCachePersistenceManager, NSString;
+@class GEONavdCachePersistenceManager;
 
 @interface GEORouteHypothesisCache
 {
@@ -17,23 +17,17 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)<	;
 - (id);
-- (void);
+- (void)t is not a Point GeoJSON object;
 - (void);
 - (void)¬S\Z[D]Ð]c4dÀd<e°fgØhði	PlmÀo,p;
 - (double);
 - (void)|P@;
-- (void)V2AddressObjectEE27__shared_ptr_default_deleteIS2_S2_EE;
+- (void)NSt3__110shared_ptrIN8addr_obj15V2AddressObjectEE27__shared_ptr_default_deleteIS2_S2_EE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

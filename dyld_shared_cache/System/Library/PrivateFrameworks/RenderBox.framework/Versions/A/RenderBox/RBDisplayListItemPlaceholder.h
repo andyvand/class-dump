@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface RBDisplayListItemPlaceholder
 {
     const void *_style;
-    // Error: parsing type: 'r^{Item=^^?^{Item}^{Style}^{ClipNode}^{Metadata}I b6b10}', name: _item
-    void *_list;
 }
 
 - (CDStruct_60067b7e);
@@ -21,16 +19,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (float);
-- (struct CGRect);
+- (struct CGRect)ta remaining to receive:%d /* Error: Ran out of types for this method. */;
 - (unsigned int)ì;
 
 // Remaining properties
-@property(nonatomic) float alpha;
-@property(nonatomic) int blendMode;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) unsigned int itemIdentifier;
-@property(readonly, nonatomic) CDStruct_60067b7e itemNamespace;
-@property(readonly, nonatomic) unsigned int styleIdentifier;
 @property(readonly, nonatomic) CDStruct_60067b7e styleNamespace;
 
 @end

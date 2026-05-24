@@ -9,9 +9,9 @@
     _Bool _restrictedToPortraitOrientation;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)convertLinkToAttachmentSystemImageName;
+- (void)virtualDestinationFolder;
+- (id)P;
 - (id);
 - (id);
 - (_Bool);

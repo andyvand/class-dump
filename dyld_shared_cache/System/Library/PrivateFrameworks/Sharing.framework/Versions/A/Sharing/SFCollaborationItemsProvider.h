@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, _SFCollaborationItemsRequest;
-@protocol SFCollaborationItemsProviderDelegate;
+@class NSArray;
 
 @interface SFCollaborationItemsProvider
 {
     _Bool _isURLProviderSupported;
-    _Bool _supportsMultipleCollaboration;
-    NSArray *_activityItems;
-    id <SFCollaborationItemsProviderDelegate> _delegate;
-    NSURL *_managedFileURL;
-    NSArray *_collaborationItems;
-    _SFCollaborationItemsRequest *_currentRequest;
 }
 
 - (_Bool);
@@ -23,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)h8	;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -42,27 +35,10 @@
 - (id);
 - (void);
 - (id);
-- (void)r;
+- (void)regular;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;
 @property(copy, nonatomic) NSArray *collaborationItems; // @synthesize collaborationItems=_collaborationItems;
-@property(retain, nonatomic) _SFCollaborationItemsRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFCollaborationItemsProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isURLProviderSupported; // @synthesize isURLProviderSupported=_isURLProviderSupported;
-@property(readonly, copy, nonatomic) NSURL *managedFileURL; // @synthesize managedFileURL=_managedFileURL;
-@property(readonly, nonatomic) _Bool multipleCollaborationItems;
-@property(readonly, copy, nonatomic) NSArray *placeholderActivityItems;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCollaboration;
-@property(readonly, nonatomic) _Bool supportsMultipleCollaboration; // @synthesize supportsMultipleCollaboration=_supportsMultipleCollaboration;
-@property(readonly, nonatomic) _Bool supportsSendCopy;
 
 @end
 

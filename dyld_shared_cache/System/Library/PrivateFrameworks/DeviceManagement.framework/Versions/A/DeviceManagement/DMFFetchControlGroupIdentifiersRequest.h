@@ -11,7 +11,6 @@
 @interface DMFFetchControlGroupIdentifiersRequest : DMFTaskRequest
 {
     _Bool _includeTemporary;
-    NSString *_leaderIdentifier;
 }
 
 + (Class);
@@ -20,12 +19,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)cG;
 - (void);
-- (void);
+- (void)W;
 
 // Remaining properties
-@property(nonatomic) _Bool includeTemporary; // @synthesize includeTemporary=_includeTemporary;
 @property(copy, nonatomic) NSString *leaderIdentifier; // @synthesize leaderIdentifier=_leaderIdentifier;
 
 @end

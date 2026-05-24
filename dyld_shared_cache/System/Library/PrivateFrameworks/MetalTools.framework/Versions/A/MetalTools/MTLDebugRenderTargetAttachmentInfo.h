@@ -10,18 +10,11 @@ __attribute__((visibility("hidden")))
 @interface MTLDebugRenderTargetAttachmentInfo
 {
     id <MTLTexture> _attachmentTexture;
-    id <MTLTexture> _baseResolveTexture;
-    id <MTLTexture> _baseTexture;
-    unsigned long long _renderTargetArrayLength;
-    unsigned long long _baseLevelOffset;
-    unsigned long long _resolveLevelOffset;
-    struct _NSRange _baseSliceRangeOffset;
-    struct _NSRange _resolveSliceRangeOffset;
 }
 
 - (struct _NSRange);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)qa;
 - (id);
 - (id);
 - (struct _NSRange);
@@ -30,17 +23,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)+ ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLTexture> attachmentTexture; // @synthesize attachmentTexture=_attachmentTexture;
-@property(readonly, nonatomic) unsigned long long baseLevelOffset; // @synthesize baseLevelOffset=_baseLevelOffset;
-@property(readonly, nonatomic) id <MTLTexture> baseResolveTexture; // @synthesize baseResolveTexture=_baseResolveTexture;
-@property(readonly, nonatomic) struct _NSRange baseSliceRangeOffset; // @synthesize baseSliceRangeOffset=_baseSliceRangeOffset;
-@property(readonly, nonatomic) id <MTLTexture> baseTexture; // @synthesize baseTexture=_baseTexture;
-@property(readonly, nonatomic) unsigned long long renderTargetArrayLength; // @synthesize renderTargetArrayLength=_renderTargetArrayLength;
-@property(readonly, nonatomic) unsigned long long resolveLevelOffset; // @synthesize resolveLevelOffset=_resolveLevelOffset;
-@property(readonly, nonatomic) struct _NSRange resolveSliceRangeOffset; // @synthesize resolveSliceRangeOffset=_resolveSliceRangeOffset;
 
 @end
 

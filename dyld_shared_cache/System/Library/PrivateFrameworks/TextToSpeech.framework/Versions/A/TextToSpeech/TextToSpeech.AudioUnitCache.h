@@ -7,8 +7,6 @@
 @interface TextToSpeech.AudioUnitCache
 {
     id executor;
-    id cacheEvictionTimeoutMs;
-    id _cache;
 }
 
 @end

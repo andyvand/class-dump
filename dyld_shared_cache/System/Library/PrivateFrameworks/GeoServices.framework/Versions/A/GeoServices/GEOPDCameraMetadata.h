@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDLensProjection, GEOPDOrientedPosition, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCameraMetadata
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _textureIds;
-    GEOPDLensProjection *_lensProjection;
-    GEOPDOrientedPosition *_position;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _cameraNumber;
-    int _imageHeight;
-    int _imageWidth;
-    struct {
-        unsigned int has_cameraNumber:1;
-        unsigned int has_imageHeight:1;
-        unsigned int has_imageWidth:1;
-        unsigned int read_textureIds:1;
-        unsigned int read_lensProjection:1;
-        unsigned int read_position:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@"NSMutableArray",&,N,V_injectionCompletionNotifyBlocks;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id)b1};
-- (id)dForAuditToken;
+- (id)_bundleIdForAuditToken;
 - (id)(}rÐ!´r¨"´Lr#´rt#´r$´Ü¤r%´¦r$%´,¨r8%´Èªr%´l­rÐ%´°r&´À³r&´L¹r'´è»rT'´½rh'´4Ær(´ÜÎrÐ(´Ðrä(´,×r|)´¬ÚrØ)´HÜrì)´Þr*´°âr*´çrè*´|ér4+´Dñrä+´ìòrø+´ør|,´4ûrÈ,´Dýr-´;
 - (void);
 

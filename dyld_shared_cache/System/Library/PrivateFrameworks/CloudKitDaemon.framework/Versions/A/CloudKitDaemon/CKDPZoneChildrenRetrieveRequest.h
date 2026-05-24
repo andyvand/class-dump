@@ -4,36 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier, NSData;
+@class NSData;
 
 @interface CKDPZoneChildrenRetrieveRequest
 {
     NSData *_continuationToken;
-    unsigned int _limit;
-    int _traversalType;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    CDStruct_276d9fd9 _has;
 }
 
 + (id);
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)h;
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)MBaseObjectRef, CFStringRef, CFTypeRef);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)onated_fulls
+    ),
+    undonated_updates AS (
+        SELECT *
+          FROM with_age
+         WHERE is_update AND NOT is_donated
+    ),
+    undonated_update_percentiles AS (
+        SELECT age, NTILE(20) OVER (ORDER BY ;
 - (void);
 - (void);
 - (id);
@@ -45,14 +49,7 @@
 - (id)iner:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
-@property(readonly, nonatomic) _Bool hasContinuationToken;
-@property(nonatomic) _Bool hasLimit;
-@property(nonatomic) _Bool hasTraversalType;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) unsigned int limit; // @synthesize limit=_limit;
-@property(nonatomic) int traversalType; // @synthesize traversalType=_traversalType;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

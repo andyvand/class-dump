@@ -12,24 +12,20 @@ __attribute__((visibility("hidden")))
 @interface _MPStoreLibraryPersonalizationAggregateLibraryAddedOperation : MPAsyncOperation
 {
     MPMediaLibraryView *_libraryView;
-    CDUnknownBlockType _responseHandler;
-    vector_ef673ceb _persistentIDs;
 }
 
 - (void);
-- (vector_ef673ceb);
-- (id);
-- (void);
+- (vector_cd3d9677);
+- (id);
+- (void)arrayCoerceExpr;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void)t;
+- (void)_descriptionText;
 
 // Remaining properties
 @property(nonatomic) MPMediaLibraryView *libraryView; // @synthesize libraryView=_libraryView;
-@property(nonatomic) vector_ef673ceb persistentIDs; // @synthesize persistentIDs=_persistentIDs;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

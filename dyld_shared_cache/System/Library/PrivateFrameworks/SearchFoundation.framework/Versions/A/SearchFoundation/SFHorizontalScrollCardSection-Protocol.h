@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFHorizontalScrollCardSection
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cardSections;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long numberOfRows;
 @property(copy, nonatomic) NSString *type;
 @end
 

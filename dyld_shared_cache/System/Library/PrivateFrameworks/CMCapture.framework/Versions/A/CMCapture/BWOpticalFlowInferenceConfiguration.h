@@ -6,22 +6,9 @@
 
 #import <CMCapture/BWInferenceConfiguration.h>
 
-@class NSString;
-
 @interface BWOpticalFlowInferenceConfiguration : BWInferenceConfiguration
 {
     CDStruct_79c71658 _inputDimensions;
-    CDStruct_79c71658 _outputDimensions;
-    CDStruct_79c71658 _forceIntermediateDimensions;
-    unsigned long long _concurrencyWidth;
-    int _inputRotationAngle;
-    _Bool _propagateColorInput;
-    _Bool _colorInputFlipHorizontal;
-    BOOL _colorInputCropMode;
-    NSString *_attachedMediaCropRectKey;
-    NSString *_attachedMediaKeyForPropagatedColorInput;
-    NSString *_attachedMediaKeyForColorInput;
-    NSString *_portType;
 }
 
 - (void);
@@ -38,27 +25,17 @@
 - (_Bool);
 - (BOOL);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (CDStruct_1ef3fb1f);
 - (void);
 - (void);
 - (CDStruct_1ef3fb1f);
 - (void);
-- (id)tIOSurfaceMemoryPoolID;
+- (id)kCIContextIOSurfaceMemoryPoolID;
 
 // Remaining properties
-@property(nonatomic) NSString *attachedMediaCropRectKey; // @synthesize attachedMediaCropRectKey=_attachedMediaCropRectKey;
-@property(nonatomic) NSString *attachedMediaKeyForColorInput; // @synthesize attachedMediaKeyForColorInput=_attachedMediaKeyForColorInput;
-@property(nonatomic) NSString *attachedMediaKeyForPropagatedColorInput; // @synthesize attachedMediaKeyForPropagatedColorInput=_attachedMediaKeyForPropagatedColorInput;
-@property(nonatomic) BOOL colorInputCropMode; // @synthesize colorInputCropMode=_colorInputCropMode;
-@property(nonatomic) _Bool colorInputFlipHorizontal; // @synthesize colorInputFlipHorizontal=_colorInputFlipHorizontal;
-@property(nonatomic) unsigned long long concurrencyWidth; // @synthesize concurrencyWidth=_concurrencyWidth;
-@property(nonatomic) CDStruct_1ef3fb1f forceIntermediateDimensions; // @synthesize forceIntermediateDimensions=_forceIntermediateDimensions;
 @property(nonatomic) CDStruct_1ef3fb1f inputDimensions; // @synthesize inputDimensions=_inputDimensions;
-@property(nonatomic) int inputRotationAngle; // @synthesize inputRotationAngle=_inputRotationAngle;
-@property(nonatomic) CDStruct_1ef3fb1f outputDimensions; // @synthesize outputDimensions=_outputDimensions;
-@property(nonatomic) NSString *portType; // @synthesize portType=_portType;
 
 @end
 

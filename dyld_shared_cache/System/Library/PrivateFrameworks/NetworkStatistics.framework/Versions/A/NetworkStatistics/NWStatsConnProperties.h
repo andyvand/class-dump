@@ -4,54 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NWStatsConnProperties
 {
     _Bool _isTracker;
-    _Bool _isNonAppInitiated;
-    _Bool _isSilent;
-    _Bool _hasNetAccess;
-    NSString *_domainName;
-    NSString *_domainOwner;
-    NSString *_domainTrackerContext;
-    NSString *_domainAttributedBundleId;
-    NSData *_remoteAddress;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned short);
+- (void)U3;
 - (void);
 - (_Bool);
+- (_Bool);
+- (id)7;
+- (id);
+- (id);
 - (void);
+- (id);
+- (id)TRIDisenrollRolloutGuardedData;
+- (unsigned short)etargeting;
+- (void)xtractionBoost:(id)arg1 seenMailMessageHeaders:seenEventMailMessageHeaders:walletDetectedEventMapping:isEventSearch: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
+- (void)@;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *domainAttributedBundleId; // @synthesize domainAttributedBundleId=_domainAttributedBundleId;
-@property(retain, nonatomic) NSString *domainName; // @synthesize domainName=_domainName;
-@property(retain, nonatomic) NSString *domainOwner; // @synthesize domainOwner=_domainOwner;
-@property(retain, nonatomic) NSString *domainTrackerContext; // @synthesize domainTrackerContext=_domainTrackerContext;
-@property(nonatomic) _Bool hasNetAccess; // @synthesize hasNetAccess=_hasNetAccess;
-@property(nonatomic) _Bool isNonAppInitiated; // @synthesize isNonAppInitiated=_isNonAppInitiated;
-@property(nonatomic) _Bool isSilent; // @synthesize isSilent=_isSilent;
 @property(nonatomic) _Bool isTracker; // @synthesize isTracker=_isTracker;
-@property(retain, nonatomic) NSData *remoteAddress; // @synthesize remoteAddress=_remoteAddress;
-@property(readonly, nonatomic) unsigned short remotePort;
 
 @end
 

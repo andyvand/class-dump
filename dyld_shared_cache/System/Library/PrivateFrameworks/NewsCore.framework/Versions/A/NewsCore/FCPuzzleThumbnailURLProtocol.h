@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetDownloadOperation, FCCKContentFetchOperation;
+@class FCCKContentFetchOperation;
 
 @interface FCPuzzleThumbnailURLProtocol
 {
     FCCKContentFetchOperation *_fetchOperation;
-    FCAssetDownloadOperation *_assetOperation;
 }
 
 + (void);
@@ -20,12 +19,12 @@
 + (void);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool);
++ (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -33,7 +32,6 @@
 - (void)eedConfiguration(FCAdditions) feedIDForBin:paid:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCAssetDownloadOperation *assetOperation; // @synthesize assetOperation=_assetOperation;
 @property(retain, nonatomic) FCCKContentFetchOperation *fetchOperation; // @synthesize fetchOperation=_fetchOperation;
 
 @end

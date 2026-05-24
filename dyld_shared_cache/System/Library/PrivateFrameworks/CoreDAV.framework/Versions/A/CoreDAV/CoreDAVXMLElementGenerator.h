@@ -4,81 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVItem, NSDictionary, NSMutableData, NSString, NSURL;
-
 @interface CoreDAVXMLElementGenerator
 {
     int _parsingState;
-    SEL _parentElementSetter;
-    CoreDAVItem *_element;
-    CoreDAVItem *_parentElement;
-    CoreDAVXMLElementGenerator *_parentGenerator;
-    NSMutableData *_characters;
-    NSMutableData *_cDATA;
-    CoreDAVXMLElementGenerator *_currentlyParsingSubItem;
-    NSDictionary *_cachedElementParseRules;
-    _Bool _checkedElementValidityIfRootElement;
-    _Bool _isUnrecognized;
-    NSURL *_baseURL;
 }
 
 - (void);
 - (_Bool);
 - (SEL);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (_Bool)pluginWithIdentifierIsInstalled: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)portalLayer;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)not in the garage.;
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)eType";
+- (void)EWSFindItemParentType;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) NSMutableData *cDATA; // @synthesize cDATA=_cDATA;
-@property(retain, nonatomic) NSDictionary *cachedElementParseRules; // @synthesize cachedElementParseRules=_cachedElementParseRules;
-@property(retain, nonatomic) NSMutableData *characters; // @synthesize characters=_characters;
-@property(nonatomic) _Bool checkedElementValidityIfRootElement; // @synthesize checkedElementValidityIfRootElement=_checkedElementValidityIfRootElement;
-@property(retain, nonatomic) CoreDAVXMLElementGenerator *currentlyParsingSubItem; // @synthesize currentlyParsingSubItem=_currentlyParsingSubItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CoreDAVItem *element; // @synthesize element=_element;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isUnrecognized; // @synthesize isUnrecognized=_isUnrecognized;
-@property(nonatomic) SEL parentElementSetter; // @synthesize parentElementSetter=_parentElementSetter;
-@property(nonatomic) __weak CoreDAVXMLElementGenerator *parentGenerator; // @synthesize parentGenerator=_parentGenerator;
-@property(nonatomic) int parsingState; // @synthesize parsingState=_parsingState;
-@property(readonly) Class superclass;
 
 @end
 

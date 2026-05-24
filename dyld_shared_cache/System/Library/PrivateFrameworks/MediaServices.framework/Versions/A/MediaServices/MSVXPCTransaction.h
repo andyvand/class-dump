@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol OS_os_transaction;
+@class NSString, NSUUID;
 
 @interface MSVXPCTransaction
 {
     NSUUID *_identifier;
-    NSObject<OS_os_transaction> *_transaction;
-    long long _transactionCount;
-    NSString *_name;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)self;
+- (_Bool){;
+- (void)";
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol SiriUISimpleNavigationControllerDelegate
+
+@optional
+- (void)?;
 @end
 

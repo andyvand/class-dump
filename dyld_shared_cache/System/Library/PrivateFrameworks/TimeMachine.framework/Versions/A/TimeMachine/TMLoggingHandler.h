@@ -9,7 +9,6 @@
 @interface TMLoggingHandler
 {
     TMLoggingFormatter *_formatter;
-    unsigned int _filterLevel;
 }
 
 + (id);
@@ -19,12 +18,11 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned int filterLevel; // @synthesize filterLevel=_filterLevel;
 @property(retain) TMLoggingFormatter *formatter; // @synthesize formatter=_formatter;
 
 @end

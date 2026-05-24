@@ -4,68 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKStructuredLocation, EKSuggestedEventInfo, NSArray, NSData, NSDate, NSString, NSTimeZone, NSURL;
+@class NSString;
 
 @interface EKAutocompleteSearchResult
 {
     struct CGColor *_calendarColor;
-    _Bool _allDay;
-    _Bool _approximateTime;
-    unsigned long long _source;
-    NSString *_title;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSTimeZone *_timeZone;
-    EKStructuredLocation *_structuredLocation;
-    EKStructuredLocation *_clientLocation;
-    NSArray *_alarms;
-    NSArray *_attendees;
-    NSURL *_URL;
-    NSString *_notes;
-    EKCalendar *_calendar;
-    double _travelTime;
-    EKStructuredLocation *_travelStartLocation;
-    EKSuggestedEventInfo *_suggestionInfo;
-    long long _privacyLevel;
-    long long _availability;
-    NSData *_localStructuredData;
-    NSString *_foundInBundleID;
-    NSString *_displayLocation;
-    NSString *_displayLocationWithoutPrediction;
-    NSArray *_pasteboardResults;
 }
 
-+ (id);
++ (id)DeviceUIDs;
+- (void);
 - (void);
+- (id);
+- (void)Not creating new player for origin because createNewPlayerCallback was not registered;
+- (void)public}@ responded to asset request with item %{public}@;
+- (void)entPropertiesDidChangeNotification.;
+- (void)sion:(id)arg1 %{public}@;
+- (void)roupCohesion;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)of CFDataRef. Please fix.;
+- (id)figDeviceID, %{public}@, allowed;
+- (id)n(MRExternalDevicePairingSession)] Opening Security Session in State = %ld usingSystemPairing = %s;
+- (id)rigin %@ at %@;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)c}@.;
+- (id)istantExternalDevice] Hosted external device connection for distant device %{public}@ deviceInfo did change to "%{public}@";
+- (id)ce %{public}@ initialized externalOutputContext:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)restoreClientState;
+- (id)h AVOD sourced from Discovery;
+- (_Bool)discoverDestinationEndpoint;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (long long);
 - (unsigned long long);
@@ -93,43 +69,15 @@
 - (void);
 - (void);
 - (void);
-- (id)ventStore:(unsigned long long)arg1;
+- (id)duplicateToEventStore:(unsigned long long)arg1;
 - (id)larmOffset;
-- (struct CGColor *)toryLocation;
+- (struct CGColor *)EKDirectoryLocation;
 - (void)accept timed event plural hour;
 - (void)Error"16;
 - (id);
 - (id)Âøÿ°[;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) NSArray *alarms; // @synthesize alarms=_alarms;
-@property(nonatomic) _Bool allDay; // @synthesize allDay=_allDay;
-@property(nonatomic) _Bool approximateTime; // @synthesize approximateTime=_approximateTime;
-@property(retain, nonatomic) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(nonatomic) long long availability; // @synthesize availability=_availability;
-@property(retain, nonatomic) EKCalendar *calendar; // @synthesize calendar=_calendar;
-@property(nonatomic) struct CGColor *calendarColor; // @synthesize calendarColor=_calendarColor;
-@property(retain, nonatomic) EKStructuredLocation *clientLocation; // @synthesize clientLocation=_clientLocation;
-@property(readonly, nonatomic) NSString *descriptionForDebugging;
-@property(retain, nonatomic) NSString *displayLocation; // @synthesize displayLocation=_displayLocation;
-@property(retain, nonatomic) NSString *displayLocationWithoutPrediction; // @synthesize displayLocationWithoutPrediction=_displayLocationWithoutPrediction;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSString *foundInBundleID; // @synthesize foundInBundleID=_foundInBundleID;
-@property(readonly, nonatomic) _Bool isReminder;
-@property(retain, nonatomic) NSData *localStructuredData; // @synthesize localStructuredData=_localStructuredData;
-@property(retain, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) NSArray *pasteboardResults; // @synthesize pasteboardResults=_pasteboardResults;
-@property(readonly) EKStructuredLocation *preferredLocation;
-@property(nonatomic) long long privacyLevel; // @synthesize privacyLevel=_privacyLevel;
-@property(readonly, nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) EKStructuredLocation *structuredLocation; // @synthesize structuredLocation=_structuredLocation;
-@property(retain, nonatomic) EKSuggestedEventInfo *suggestionInfo; // @synthesize suggestionInfo=_suggestionInfo;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) EKStructuredLocation *travelStartLocation; // @synthesize travelStartLocation=_travelStartLocation;
-@property(nonatomic) double travelTime; // @synthesize travelTime=_travelTime;
 @property(readonly, nonatomic) NSString *uniqueID;
 
 @end

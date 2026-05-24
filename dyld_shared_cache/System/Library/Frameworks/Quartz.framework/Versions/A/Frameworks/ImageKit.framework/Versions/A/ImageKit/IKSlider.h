@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIFilter, NSString;
-
 @interface IKSlider
 {
     id _delegate;
-    CIFilter *_filter;
-    NSString *_filterName;
-    NSString *_key;
-    double _defaultValue;
 }
 
 - (_Bool);
@@ -22,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)nl;
 - (id);
 - (void);
 - (id);
@@ -32,11 +26,7 @@
 - (void)|³øÿ~(4;
 
 // Remaining properties
-@property double defaultValue; // @synthesize defaultValue=_defaultValue;
 @property id delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) CIFilter *filter; // @synthesize filter=_filter;
-@property(copy) NSString *filterName; // @synthesize filterName=_filterName;
-@property(copy) NSString *key; // @synthesize key=_key;
 
 @end
 

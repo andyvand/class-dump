@@ -10,19 +10,15 @@
 @interface AFKeyValueObservingDeliveryOptions
 {
     _Bool _asynchronous;
-    unsigned int _qosClass;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)x;
 - (id);
 - (void)tring",R,C,N,V_successBody;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous; // @synthesize asynchronous=_asynchronous;
-@property(readonly, nonatomic) unsigned int qosClass; // @synthesize qosClass=_qosClass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

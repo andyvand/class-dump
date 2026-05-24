@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class)@0:8 /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9;
 - (id);
 
 @end

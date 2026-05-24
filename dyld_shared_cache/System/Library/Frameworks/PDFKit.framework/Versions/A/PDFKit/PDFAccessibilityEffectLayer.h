@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDFPage;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityEffectLayer
 {
     PDFPage *_page;
-    long long _displayBox;
-    struct CGPoint _displayBoxOffset;
-    NSMutableArray *_nodeTypeLayers;
 }
 
 - (void);
@@ -20,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)productColor;
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)drawAnnotationsWithBox:inContext:passingTest: /* Error: Ran out of types for this method. */;
 
 @end
 

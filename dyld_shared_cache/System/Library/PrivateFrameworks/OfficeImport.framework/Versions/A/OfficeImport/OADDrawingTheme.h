@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADColorContext, OADColorMap, OADColorScheme, OADFontScheme, OADStyleMatrix;
-@protocol OADColorPalette;
+@class OADStyleMatrix;
 
 __attribute__((visibility("hidden")))
 @interface OADDrawingTheme
 {
     OADStyleMatrix *mStyleMatrix;
-    OADFontScheme *mFontScheme;
-    OADColorContext *mColorContext;
 }
 
 - (id);
@@ -30,11 +27,6 @@ __attribute__((visibility("hidden")))
 - (id)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) OADColorContext *colorContext; // @synthesize colorContext=mColorContext;
-@property(readonly, nonatomic) OADColorMap *colorMap;
-@property(readonly, nonatomic) id <OADColorPalette> colorPalette;
-@property(readonly, nonatomic) OADColorScheme *colorScheme;
-@property(readonly, nonatomic) OADFontScheme *fontScheme; // @synthesize fontScheme=mFontScheme;
 @property(readonly, nonatomic) OADStyleMatrix *styleMatrix; // @synthesize styleMatrix=mStyleMatrix;
 
 @end

@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (id);
+- (_Bool)ernal/Library/BuildRoots/4~CNptugACN3W_4k-DtasoCXqs57ewYWDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/trie.cc;
+- (oneway void)-;
+- (id)convertToMAIDEnabled;
 - (struct _NSZone *);
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)G;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

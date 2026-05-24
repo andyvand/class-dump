@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSDictionary;
 
 @interface ICStorePlatformOfferAsset
 {
     NSDictionary *_responseDictionary;
 }
 
-- (double);
+- (double)setExecuting: /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
+- (double);
 - (id);
 - (long long);
 - (void)eMetrics",R,N,V_performanceMetrics;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) double previewDuration;
-@property(readonly, copy, nonatomic) NSURL *previewURL;
-@property(readonly, nonatomic) long long size;
 
 @end
 

@@ -11,13 +11,13 @@
     struct CGSize _fitSize;
 }
 
-- (double);
+- (double)ator;
 - (id);
 - (_Bool);
 - (struct CGSize);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)$D;
+- (unsigned long long)6;
 - (_Bool);
 - (void);
 

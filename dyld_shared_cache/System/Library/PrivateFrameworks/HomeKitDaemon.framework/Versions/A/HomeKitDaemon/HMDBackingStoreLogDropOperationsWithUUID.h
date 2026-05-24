@@ -12,23 +12,19 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogDropOperationsWithUUID : HMDBackingStoreOperation
 {
     NSUUID *_uuid;
-    long long _maskValue;
-    long long _compareValue;
 }
 
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void);
-- (long long);
+- (long long)v*;
 - (id)ious situation;
 - (void)risticResponse"8;
-- (void)ismatchDetector;
+- (void)NetworkMismatchDetector;
 
 // Remaining properties
-@property(nonatomic) long long compareValue; // @synthesize compareValue=_compareValue;
-@property(nonatomic) long long maskValue; // @synthesize maskValue=_maskValue;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

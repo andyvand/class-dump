@@ -19,10 +19,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (struct VtValue);
+- (struct VtValue)q+;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 
 @end
 

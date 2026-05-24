@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 @interface PKDateContainer
 {
     NSDate *_date;
-    NSTimeZone *_timeZone;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasSockDomainKey;
 - (void);
 - (id);
-- (id);
-- (void)tallmentBalance;
+- (id);
+- (void)installmentBalance;
 - (id)$2jë ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

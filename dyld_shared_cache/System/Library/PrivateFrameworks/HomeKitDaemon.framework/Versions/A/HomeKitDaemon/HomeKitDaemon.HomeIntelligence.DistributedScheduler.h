@@ -7,11 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.DistributedScheduler
 {
     id $defaultActor;
-    id scheduledItemsByUUID;
-    id home;
-    id eventStream;
-    id updateTask;
-    id lock;
 }
 
 @end

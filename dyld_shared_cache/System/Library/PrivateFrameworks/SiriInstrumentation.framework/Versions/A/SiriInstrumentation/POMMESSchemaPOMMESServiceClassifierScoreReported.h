@@ -6,43 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESServiceClassifierScoreReported : SISchemaInstrumentationMessage
 {
     double _score;
-    int _classifierLabel;
-    struct {
-        unsigned int score:1;
-        unsigned int classifierLabel:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
-- (void);
+- (void)48	;
 - (int);
 - (void);
 - (id);
+- (_Bool)decodeObjectOfClasses:forKey: /* Error: Ran out of types for this method. */;
+- (void)6;
+- (unsigned long long)7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJob_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (id);
 - (double)"SISchemaPNRSpeechRecognitionSourceContext";
-- (id)sdId;
+- (id)_sdId;
 - (id)Type;
-- (void)eFailed;
+- (void)ASRSchemaASRSampledAudioFileEnqueueFailed;
 
 // Remaining properties
-@property(nonatomic) int classifierLabel; // @synthesize classifierLabel=_classifierLabel;
-@property(nonatomic) _Bool hasClassifierLabel;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double score; // @synthesize score=_score;
 
 @end

@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKDistribution;
+@class NSDictionary, NSString;
 
 @interface PKProductArchiver
 {
     NSString *_productPath;
-    NSString *_baselineUnarchivedProduct;
-    CDUnknownBlockType _baselineNameMapper;
-    CDUnknownBlockType _writeActionHandler;
-    PKDistribution *_overrideDistribution;
-    _Bool _copyOwnershipFromOriginalBom;
-    NSDictionary *_options;
-    _Bool _disableBinaryPatches;
-    NSString *_archiverClientVersion;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (_Bool);
@@ -36,16 +28,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *archiverClientVersion; // @synthesize archiverClientVersion=_archiverClientVersion;
-@property(copy) NSString *baselineUnarchivedProduct; // @synthesize baselineUnarchivedProduct=_baselineUnarchivedProduct;
-@property _Bool copyOwnershipFromOriginalBom; // @synthesize copyOwnershipFromOriginalBom=_copyOwnershipFromOriginalBom;
-@property _Bool disableBinaryPatches; // @synthesize disableBinaryPatches=_disableBinaryPatches;
 @property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) PKDistribution *overrideDistribution; // @synthesize overrideDistribution=_overrideDistribution;
 
 @end
 

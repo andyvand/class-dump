@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDouble, _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @interface _INPBSetRadioStationIntent
 {
     struct {
         unsigned int radioType:1;
     } _has;
-    int _radioType;
-    _INPBString *_channel;
-    _INPBDouble *_frequency;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBInteger *_presetNumber;
-    _INPBString *_stationName;
 }
 
 + (_Bool);
@@ -24,53 +18,35 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (_Bool);
 - (void);
 - (_Bool);
 - (int);
+- (id)BLE IF NOT EXISTS %@ USING fts4(tokenize=ab_cf_tokenizer language="%@" collator="%@", %@);;
 - (id);
-- (id);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)etwork;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool)ces;
-- (void)ed;
-- (void)Attribute;
-- (int)tParameterMetadataDateStyle;
+- (void)INShareETAIntentResponseCodeFailureiMessageDisabled;
+- (void)unsupportedAttribute;
+- (int)INIntentParameterMetadataDateStyle;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *channel; // @synthesize channel=_channel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDouble *frequency; // @synthesize frequency=_frequency;
-@property(readonly, nonatomic) _Bool hasChannel;
-@property(readonly, nonatomic) _Bool hasFrequency;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPresetNumber;
-@property(nonatomic) _Bool hasRadioType;
-@property(readonly, nonatomic) _Bool hasStationName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBInteger *presetNumber; // @synthesize presetNumber=_presetNumber;
-@property(nonatomic) int radioType; // @synthesize radioType=_radioType;
-@property(retain, nonatomic) _INPBString *stationName; // @synthesize stationName=_stationName;
-@property(readonly) Class superclass;
 
 @end
 

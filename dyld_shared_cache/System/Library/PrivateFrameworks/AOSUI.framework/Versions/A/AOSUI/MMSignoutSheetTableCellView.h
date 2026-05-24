@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MMSignoutSheetTableCellView
 {
     NSButton *_checkbox;
-    NSButton *_optionsButton;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak NSButton *checkbox; // @synthesize checkbox=_checkbox;
-@property __weak NSButton *optionsButton; // @synthesize optionsButton=_optionsButton;
 
 @end
 

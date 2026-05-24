@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SPDelegatedLocationContext
 {
     _Bool _subscribe;
-    NSArray *_uuids;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
+- (id)i;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)/Messages;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool subscribe; // @synthesize subscribe=_subscribe;
-@property(copy, nonatomic) NSArray *uuids; // @synthesize uuids=_uuids;
 
 @end
 

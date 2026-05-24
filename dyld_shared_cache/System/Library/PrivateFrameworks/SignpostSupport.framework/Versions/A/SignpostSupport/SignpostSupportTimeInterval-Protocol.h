@@ -5,5 +5,6 @@
 //
 
 @protocol SignpostSupportTimeInterval
+- (unsigned long long);
 @end
 

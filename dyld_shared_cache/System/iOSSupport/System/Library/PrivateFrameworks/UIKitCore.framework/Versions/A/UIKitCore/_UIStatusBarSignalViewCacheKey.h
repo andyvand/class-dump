@@ -8,21 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _UIStatusBarSignalViewCacheKey
 {
     Class _classType;
-    struct CGSize _size;
-    struct CGRect _rect;
-    double _radius;
-    double _lineWidth;
-    struct CGSize _secondarySize;
-    struct CGRect _secondaryRect;
-    _Bool _alternate;
-    double _scale;
 }
 
 - (unsigned long long);
 - (_Bool)0;
-- (_Bool)extAlignment;
-- (id)hOverlap:(struct _NSZone *)arg1 partOne:partTwo: /* Error: Ran out of types for this method. */;
-- (id)esentationController;
+- (_Bool)headerTextAlignment;
+- (id)_animateAsTwoPartsWithOverlap:(struct _NSZone *)arg1 partOne:partTwo: /* Error: Ran out of types for this method. */;
+- (id)_UISearchCarPlayPresentationController;
 - (id)+à,´-;
 
 @end

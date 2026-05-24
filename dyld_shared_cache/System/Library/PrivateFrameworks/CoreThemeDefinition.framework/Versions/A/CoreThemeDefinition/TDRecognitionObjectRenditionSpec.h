@@ -12,28 +12,11 @@
 
 + (id);
 - (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
 
 // Remaining properties
 @property(nonatomic) float a11; // @dynamic a11;
-@property(nonatomic) float a12; // @dynamic a12;
-@property(nonatomic) float a13; // @dynamic a13;
-@property(nonatomic) float a14; // @dynamic a14;
-@property(nonatomic) float a21; // @dynamic a21;
-@property(nonatomic) float a22; // @dynamic a22;
-@property(nonatomic) float a23; // @dynamic a23;
-@property(nonatomic) float a24; // @dynamic a24;
-@property(nonatomic) float a31; // @dynamic a31;
-@property(nonatomic) float a32; // @dynamic a32;
-@property(nonatomic) float a33; // @dynamic a33;
-@property(nonatomic) float a34; // @dynamic a34;
-@property(nonatomic) float a41; // @dynamic a41;
-@property(nonatomic) float a42; // @dynamic a42;
-@property(nonatomic) float a43; // @dynamic a43;
-@property(nonatomic) float a44; // @dynamic a44;
-@property CDStruct_95fa7c00 referenceOriginTransform;
-@property(nonatomic) int version; // @dynamic version;
 
 @end
 

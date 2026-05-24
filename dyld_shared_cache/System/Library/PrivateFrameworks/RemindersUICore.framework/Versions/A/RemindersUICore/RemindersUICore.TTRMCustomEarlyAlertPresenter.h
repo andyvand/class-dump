@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMCustomEarlyAlertPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id router;
 }
 
 @end

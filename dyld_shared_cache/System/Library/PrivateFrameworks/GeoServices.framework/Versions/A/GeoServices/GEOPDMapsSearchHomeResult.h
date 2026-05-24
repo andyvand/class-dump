@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsSearchHomeResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsSearchHomeSections;
-    NSString *_naturalSearchSupportedLanguageCacheKey;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapsSearchHomeSections:1;
-        unsigned int read_naturalSearchSupportedLanguageCacheKey:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_asssetMetaUpdatedKey;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"has_isCarplayRequest"b1"has_isFlatCategoryListRequest"b1"has_isFromNoQueryState"b1"has_isWidgetRequest"b1"read_unknownFields"b1"read_engineTypes"b1"read_evChargingParameters"b1"read_inputCategorys"b1"read_searchOriginationInfo"b1"read_venueFilter"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)rceChangeActiveTileGroup:flushTileCache: /* Error: Ran out of types for this method. */;
+- (id)_forceChangeActiveTileGroup:flushTileCache: /* Error: Ran out of types for this method. */;
 - (id)°
 ;
 - (void)ëQ¸ÿ?áz®G ª@;

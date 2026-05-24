@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)¤å:6³ /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)fetchCompleteModelWithID:(struct _NSZone *)arg1;
 - (id)ould not determine type (key=%@) from stream data dictionary:%@ /* Error: Ran out of types for this method. */;
 - (id)reason:(id)arg1 %{public}@;
 - (void);

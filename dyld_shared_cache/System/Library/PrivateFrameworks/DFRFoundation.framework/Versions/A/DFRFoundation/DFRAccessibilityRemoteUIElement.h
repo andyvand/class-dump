@@ -7,10 +7,6 @@
 @interface DFRAccessibilityRemoteUIElement
 {
     int _processIdentifier;
-    id _accessibilityElement;
-    long long _uniqueIdentifier;
-    long long _placement;
-    struct CGRect _frame;
 }
 
 + (void);
@@ -22,15 +18,11 @@
 - (struct CGRect);
 - (long long);
 - (int);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties
 @property(readonly) id accessibilityElement; // @synthesize accessibilityElement=_accessibilityElement;
-@property(readonly) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) long long placement; // @synthesize placement=_placement;
-@property(readonly) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly) long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

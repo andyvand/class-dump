@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestManager, GEOTileRequest, NSObject, NSString, NSThread;
-@protocol GEOTileRequesterDelegate, OS_dispatch_queue;
+@class GEOResourceManifestManager, GEOTileRequest;
 
 @interface GEOTileRequester
 {
     GEOTileRequest *_tileRequest;
-    id <GEOTileRequesterDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _context;
-    NSThread *_thread;
-    NSString *_deviceCountry;
-    NSString *_deviceRegion;
 }
 
 + (_Bool);
 + (unsigned char)¤	;
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)p;
+- (void)sistentStore"16@?0@"NSURL"8;
+- (id);
+- (id);
+- (id);
+- (void)qH;
+- (id);
+- (CDUnion_20bcf645)_updateSpaceBetweenImageAndPopUp;
+- (id)predicateWithBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (CDUnion_20bcf645);
-- (id);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void)GQ@;
 - (void)`åÐ"Ûù@ÀÊ¡E ª@;
 
 // Remaining properties
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, nonatomic) __weak id <GEOTileRequesterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(retain, nonatomic) NSString *deviceCountry; // @synthesize deviceCountry=_deviceCountry;
-@property(retain, nonatomic) NSString *deviceRegion; // @synthesize deviceRegion=_deviceRegion;
 @property(readonly, nonatomic) GEOResourceManifestManager *resourceManifestManager;
-@property(readonly, nonatomic) GEOTileRequest *tileRequest; // @synthesize tileRequest=_tileRequest;
 
 @end
 

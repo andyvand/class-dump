@@ -7,7 +7,6 @@
 @interface PTRowAction
 {
     CDUnknownBlockType _handler;
-    _Bool _isEncodable;
 }
 
 + (id);
@@ -18,13 +17,12 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)FAC_label;
+- (void)0;
 - (CDUnknownBlockType);
-- (void);
+- (void)apple.familycontrols.contentfilter;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler;
 @property(nonatomic) _Bool isEncodable; // @synthesize isEncodable=_isEncodable;
 
 @end

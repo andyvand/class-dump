@@ -6,30 +6,17 @@
 
 #import <QuartzComposer/QCContext.h>
 
-@class NSMutableDictionary, QCEventManager, QCImageManager, QCStreamManager;
+@class QCImageManager;
 
 @interface QCGraphicsContext : QCContext
 {
     QCImageManager *_imageManager;
-    struct CGColorSpace *_colorspace;
-    int _quality;
-    int _cachingMode;
-    struct CGRect _fullFrame;
-    struct CGRect _cleanFrame;
-    struct CGRect _fullBounds;
-    struct CGRect _cleanBounds;
-    struct CGSize _pixelAspectRatio;
-    struct CGRect _cleanAperture;
-    NSMutableDictionary *_defaultOptions;
-    QCEventManager *_eventManager;
-    QCStreamManager *_streamManager;
-    void *_unused2[1];
 }
 
 + (Class);
 + (struct CGColorSpace *);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -38,7 +25,7 @@
 - (void);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (id);
@@ -51,23 +38,23 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)�H;
+- (void);
 - (int);
 - (id);
 - (void);
 - (id);
 - (void);
 - (struct CGColorSpace *);
-- (_Bool);
+- (_Bool)y path %@ - missing '[';
 - (struct CGRect);
 - (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

@@ -8,7 +8,6 @@
 {
     id network;
     id baseURL;
-    id activityIdentifier;
 }
 
 @end

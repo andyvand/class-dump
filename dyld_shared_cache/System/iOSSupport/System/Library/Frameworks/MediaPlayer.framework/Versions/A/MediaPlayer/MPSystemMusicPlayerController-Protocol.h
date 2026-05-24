@@ -5,5 +5,6 @@
 //
 
 @protocol MPSystemMusicPlayerController
+- (void);
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSArray, NSHashTable;
+@class NFUnfairLock;
 
 @interface FCThreadSafeHashTable
 {
     NFUnfairLock *_lock;
-    NSHashTable *_hashTable;
 }
 
 + (id);
@@ -17,14 +16,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)loghandle;
 - (void);
 - (void);
-- (unsigned long long)umberOfPresentations: /* Error: Ran out of types for this method. */;
-- (void)ineImpressionValue;
+- (unsigned long long)setIconBadgeMaxNumberOfPresentations: /* Error: Ran out of types for this method. */;
+- (void)subscribeBaselineImpressionValue;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allObjects;
 @property(readonly) unsigned long long count;
 
 @end

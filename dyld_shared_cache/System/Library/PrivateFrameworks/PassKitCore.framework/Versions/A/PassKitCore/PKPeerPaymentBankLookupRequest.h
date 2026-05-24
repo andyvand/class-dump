@@ -11,20 +11,18 @@
 @interface PKPeerPaymentBankLookupRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_countryCode;
-    NSString *_query;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (id);
 - (id)0:8@"PKPaymentWebService"16@?<v@?@"PKPaymentDeviceRegistrationData"@"NSError">24 /* Error: Ran out of types for this method. */;
-- (void)bufPaymentDeviceRequest;
+- (void)PKProtobufPaymentDeviceRequest;
 - (void):'%ld';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
 
 @end
 

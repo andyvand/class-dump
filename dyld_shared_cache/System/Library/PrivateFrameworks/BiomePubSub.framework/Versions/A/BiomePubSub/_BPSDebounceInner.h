@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSDebounceInner
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _getTimestamp;
-    id <BPSSubscriber> _downstream;
-    double _dueTime;
-    id _lastEvent;
-    NSDate *_lastArrivalTimestamp;
 }
 
 + (id);
@@ -24,28 +18,18 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)ent '%s' ignoring XPC_ERROR_TERMINATION_IMMINENT;
 - (id);
 - (void);
-- (id);
+- (id)updatePromise:withFilename:size:extensionID:status:success:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) double dueTime; // @synthesize dueTime=_dueTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastArrivalTimestamp; // @synthesize lastArrivalTimestamp=_lastArrivalTimestamp;
-@property(retain, nonatomic) id lastEvent; // @synthesize lastEvent=_lastEvent;
-@property(readonly) Class superclass;
 
 @end
 

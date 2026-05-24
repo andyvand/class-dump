@@ -11,17 +11,17 @@
     unsigned long long _compatibilities;
 }
 
-- (unsigned long long);
-- (int);
+- (unsigned long long);
+- (int)@9;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)";
 - (_Bool);
 - (unsigned long long);
 - (int);
 - (unsigned int);
 - (struct _cl_image_format);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);

@@ -9,50 +9,38 @@
 @interface GEORoutingSettingsCyclingPrefs
 {
     PBUnknownFields *_unknownFields;
-    _Bool _autoRecordWorkout;
-    _Bool _avoidBusyRoads;
-    _Bool _avoidHills;
-    _Bool _avoidStairs;
-    _Bool _eBike;
-    struct {
-        unsigned int has_autoRecordWorkout:1;
-        unsigned int has_avoidBusyRoads:1;
-        unsigned int has_avoidHills:1;
-        unsigned int has_avoidStairs:1;
-        unsigned int has_eBike:1;
-    } _flags;
 }
 
-+ (_Bool)ettingsTransportMode:(id)arg1;
++ (_Bool)setMapSettingsTransportMode:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)contact index;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)(!Țh;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)_pendingAudioSessionActivationReason;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ח;
 - (void);
 - (void);
 - (id)onse";
 - (void)b1"read_interestedPartys"b1"read_territoryTypes"b1"read_interestedPartyCountryCode"b1"read_name"b1"read_polygon"b1"wrote_anyField"b1};
 - (_Bool)@36;
 - (_Bool)adSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})32@36C44@48@56;
-- (id)rgingLevel;
-- (_Bool)eteSuggestionLists;
-- (id)CorrectionResult;
+- (id)hasChargingLevel;
+- (_Bool)autocompleteSuggestionLists;
+- (id)GEOAddressCorrectionResult;
 - (void);
-- (id)eSpokenAudioEnabled;
-- (void)S;
+- (id)pauseSpokenAudioEnabled;
+- (void)TIME_SINCE_MAP_VIEWPORT_CHANGED_SECONDS;
 - (_Bool)FROM subscription_data_refs    );;
 - (_Bool);
 - (void);
@@ -62,17 +50,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool autoRecordWorkout;
-@property(nonatomic) _Bool avoidBusyRoads;
-@property(nonatomic) _Bool avoidHills;
-@property(nonatomic) _Bool avoidStairs;
-@property(nonatomic) _Bool eBike;
-@property(nonatomic) _Bool hasAutoRecordWorkout;
-@property(nonatomic) _Bool hasAvoidBusyRoads;
-@property(nonatomic) _Bool hasAvoidHills;
 @property(nonatomic) _Bool hasAvoidStairs;
-@property(nonatomic) _Bool hasEBike;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

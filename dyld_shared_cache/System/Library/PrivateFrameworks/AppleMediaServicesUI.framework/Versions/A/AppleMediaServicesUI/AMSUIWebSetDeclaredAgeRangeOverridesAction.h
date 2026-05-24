@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)dler: /* Error: Ran out of types for this method. */;
+- (void)registerForUpdatesWithHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

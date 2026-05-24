@@ -9,19 +9,17 @@
 @interface PXStoryResizedTimeline : PXStoryTransformedTimeline
 {
     unsigned long long _options;
-    struct CGSize _targetSize;
 }
 
 - (struct CGRect);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mAudioPlaylist;
 - (struct CGSize);
 - (struct CGSize)@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end

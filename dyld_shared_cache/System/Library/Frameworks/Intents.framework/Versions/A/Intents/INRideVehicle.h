@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, INImage, NSString;
+@class CLLocation;
 
 @interface INRideVehicle
 {
     CLLocation *_location;
-    NSString *_registrationPlate;
-    NSString *_manufacturer;
-    NSString *_model;
-    INImage *_mapAnnotationImage;
 }
 
 + (_Bool);

@@ -11,13 +11,11 @@
 @interface SLSBridgedManagedDisplaySetRoleWindowOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _windowID;
-    NSString *_displayIdentifier;
-    unsigned long long _role;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)nerate primary keys;
+- (id)dices;
 - (id);
 - (id);
 - (unsigned int);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *displayIdentifier; // @synthesize displayIdentifier=_displayIdentifier;
-@property(readonly) unsigned long long role; // @synthesize role=_role;
-@property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end
 

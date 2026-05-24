@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPhotosPersonManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMPhotosPersonManager;
 
 @interface HMIExternalPersonDataSourceHomeKit
 {
     HMPhotosPersonManager *_photosPersonManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -32,15 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) HMPhotosPersonManager *photosPersonManager; // @synthesize photosPersonManager=_photosPersonManager;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -6,18 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface USOSchemaUSOGraphTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_linkedUsoNodeDatas;
-    NSArray *_linkedUsoEntityIdentifiers;
-    NSArray *_linkedUsoGraphNodeDatas;
-    _Bool _hasLinkId;
 }
 
-- (void);
+- (void)$O;
 - (void);
 - (void);
 - (id);
@@ -29,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,29 +35,24 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)"24@?<v@?@"NSString">32;
+- (void)8@16@24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)t";
+- (_Bool)showMobileDocumentsOptionsSheet: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_lastLinkedPerson;
+- (_Bool)ly_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
-- (id);
-- (id)teSpeechProfileUpdateContext;
-- (id)umTokens;
-- (void)VENT;
+- (id)};
+- (id)deleteSpeechProfileUpdateContext;
+- (id)_numTokens;
+- (void)INFERENCE_CLIENT_EVENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *linkedUsoEntityIdentifiers; // @synthesize linkedUsoEntityIdentifiers=_linkedUsoEntityIdentifiers;
-@property(copy, nonatomic) NSArray *linkedUsoGraphNodeDatas; // @synthesize linkedUsoGraphNodeDatas=_linkedUsoGraphNodeDatas;
-@property(copy, nonatomic) NSArray *linkedUsoNodeDatas; // @synthesize linkedUsoNodeDatas=_linkedUsoNodeDatas;
 
 @end
 

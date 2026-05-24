@@ -7,8 +7,6 @@
 @interface StoreKit.StoreKitPaymentDelegate
 {
     id $defaultActor;
-    id handler;
-    id uiAnchor;
 }
 
 - (void);

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface PPScoreInterpreterCoreMLModel
 {
     NSString *_coreMLModelPath;
-    MLModel *_coreMLModel;
-    NSString *_coreMLModelOutputName;
-    NSArray *_coreMLInputFeatures;
-    _Bool _hasOutputIndexedSubscript;
-    NSArray *_argumentsToEvaluate;
 }
 
 + (double);
-- (double);
+- (double)/;
 - (unsigned long long);
 - (void);
 - (void);
@@ -30,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *argumentsToEvaluate; // @synthesize argumentsToEvaluate=_argumentsToEvaluate;
-@property(readonly, nonatomic) _Bool hasOutputIndexedSubscript; // @synthesize hasOutputIndexedSubscript=_hasOutputIndexedSubscript;
-@property(readonly, nonatomic) unsigned long long numberOfFeatures;
 
 @end
 

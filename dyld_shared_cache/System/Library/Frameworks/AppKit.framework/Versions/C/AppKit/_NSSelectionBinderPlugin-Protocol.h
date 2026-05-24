@@ -5,5 +5,6 @@
 //
 
 @protocol _NSSelectionBinderPlugin
+- (unsigned long long);
 @end
 

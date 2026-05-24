@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString;
-@protocol CNUIUserActionCurator, CNUIUserActionDialRequestOpener, CNUIUserActionRecorder, CNUIUserActionURLOpener, CNUIUserActionUserActivityOpener;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TestCNUIUserActionContext
 {
     _Bool _actionExecutionWasAttemted;
-    NSString *_channelIdentifier;
 }
 
 - (void);
@@ -24,25 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)DefaultAppGroup;
+- (void)canDisplayDefaultAppGroup;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNUIUserActionCurator> actionCurator;
-@property(nonatomic) _Bool actionExecutionWasAttemted; // @synthesize actionExecutionWasAttemted=_actionExecutionWasAttemted;
-@property(readonly, nonatomic) id <CNUIUserActionRecorder> actionRecorder;
 @property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(copy, nonatomic) BSServiceConnectionEndpoint *connectionEndpoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNUIUserActionDialRequestOpener> dialRequestOpener;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOriginatingFromFavorites;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNUIUserActionURLOpener> urlOpener;
-@property(readonly, nonatomic) id <CNUIUserActionUserActivityOpener> userActivityOpener;
 
 @end
 

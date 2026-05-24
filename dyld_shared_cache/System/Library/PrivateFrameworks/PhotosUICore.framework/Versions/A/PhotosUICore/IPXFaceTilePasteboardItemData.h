@@ -13,7 +13,7 @@
     PHPerson *_person;
 }
 
-- (id);
+- (id)U;
 - (id)e] Cannot find asset for centerMedia %@;
 - (void);
 - (id)Þÿ;

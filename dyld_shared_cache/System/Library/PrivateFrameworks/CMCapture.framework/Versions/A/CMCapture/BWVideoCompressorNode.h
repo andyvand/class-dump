@@ -6,72 +6,17 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWLimitedGMErrorLogger, NSArray, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSDictionary;
 
 @interface BWVideoCompressorNode : BWNode
 {
     NSDictionary *_compressionSettings;
-    NSDictionary *_compressionSettingsPreparedFor;
-    _Bool _nextFrameEncodeAsKeyFrame;
-    _Bool _prioritizeEncodingSpeedOverQuality;
-    int _pipelineTraceID;
-    struct OpaqueVTCompressionSession *_compressionSession;
-    NSDictionary *_compressionSessionSupportedProperties;
-    _Bool _didPrepareToEncode;
-    _Bool _sourceIsHDResolution;
-    unsigned int _sourcePixelFormatType;
-    NSObject<OS_dispatch_queue> *_emitterQueue;
-    NSObject<OS_dispatch_queue> *_compressionSessionStateQueue;
-    NSObject<OS_dispatch_source> *_reapCompressionSessionTimer;
-    double _reapCompressionSessionTimerDurationInSeconds;
-    _Bool _compressionSessionReuseEnabled;
-    _Bool _compressionSessionCanBeReused;
-    _Bool _resetCodec;
-    _Bool _signalHDRSceneChange;
-    int _numberOfFramesDroppedBecauseTooManyCompressedBytesInFlight;
-    long long _inFlightCompressedBytesWarningThreshold;
-    _Bool _inFlightCompressedBytesOverWarningThreshold;
-    _Bool _encodedFirstVideoBuffer;
-    _Bool _emittedFirstVideoBuffer;
-    NSObject<OS_dispatch_queue> *_thermalAndPowerNotificationQueue;
-    double _bFrameEncodingAllowedAtHigherPressureTimeLimit;
-    double _bFrameEncodingAllowedAtHigherPressureStopTime;
-    int _nonBFrameAverageBitRate;
-    int _thermalPressureNotificationToken;
-    int _thermalPressureLevel;
-    int _powerPressureNotificationToken;
-    int _powerPressureLevel;
-    _Bool _bFrameEncodingRequested;
-    _Bool _bFrameEncodingAllowed;
-    _Bool _propagateStabilizedFacesToAVE;
-    _Bool _overCaptureEnabled;
-    _Bool _shouldAttachDebugSEI;
-    _Bool _shouldPassSerializedDepthImageBuffers;
-    _Bool _flushRequestReceived;
-    float _maxVideoFrameRate;
-    _Bool _attachThumbnailSourcePixelBuffer;
-    struct __CVBuffer *_thumbnailSourcePixelBuffer;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    _Bool _compressionDimensionsFromInputEnabled;
-    _Bool _compressionColorSpacePropertiesFromInputEnabled;
-    _Bool _stereoVideoCompressionEnabled;
-    NSArray *_stereoTaggedCollections;
-    NSString *_codecNameString;
-    struct __CFString *_alternateCompressionSettingsKey;
-    long long _maximumAllowedInFlightCompressedBytes;
-    _Bool _delayedCompressorCleanupEnabled;
-    NSArray *_smuggledSampleBufferAttachments;
-    CDStruct_1b6d18a9 _previousFrameOriginalPTS;
-    NSDictionary *_compressionPropertiesOverrides;
-    float _stereoVideoBaseline;
-    NSDictionary *_cameraInfoForPortType;
 }
 
 + (void)m.apple.camera;
 - (void);
-- (void);
-- (_Bool);
+- (void)uct;
+- (_Bool)GyYuUQqMLlwWdDFgEecahHKkjmsSAzZOvVXx;
 - (long long);
 - (void);
 - (void);
@@ -92,7 +37,7 @@
 - (int);
 - (id);
 - (void);
-- (_Bool)ts;
+- (_Bool)_pointCloudOutputs;
 - (id)<<< FigCaptureSession >>>> %s:Rotating photos and Exif metadata with %d degrees for camera sensor orientation compensation /* Error: Ran out of types for this method. */;
 - (void)lic}dÂº, encodingScheme:(long long)arg1 %{public}@;
 - (void)8Ðk;

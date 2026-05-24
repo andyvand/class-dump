@@ -6,28 +6,24 @@
 
 #import <DiagnosticExtensionsDaemon/DEDCloudKitBaseModel.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface DEDCloudKitAttachmentModel : DEDCloudKitBaseModel
 {
     NSURL *_url;
-    NSNumber *_fileSize;
-    NSString *_queueItem;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (id)keup;
 
 // Remaining properties
-@property(retain) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(retain) NSString *queueItem; // @synthesize queueItem=_queueItem;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

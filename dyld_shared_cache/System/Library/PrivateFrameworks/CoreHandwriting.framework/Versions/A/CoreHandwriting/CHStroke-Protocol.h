@@ -7,14 +7,9 @@
 @protocol CHStrokeIdentifier;
 
 @protocol CHStroke
-- (double)HDiffusionDrawingToPreprocessedInkStepE;
+- (double)N15CoreHandwriting9synthesis39CHDiffusionDrawingToPreprocessedInkStepE;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) double endTimestamp;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(readonly, nonatomic) double startTimestamp;
-@property(readonly, nonatomic) unsigned long long strokeAttributes;
 @property(readonly, nonatomic) id <CHStrokeIdentifier> strokeIdentifier;
 @end
 

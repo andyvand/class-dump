@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsEnableDisable
 {
     unsigned long long _timestamp;
-    int _enabled;
-    NSString *_sessionId;
-    CDStruct_93f1cf87 _has;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)V;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)v;
 - (id);
 - (void);
 - (id);
 - (int);
 - (void)1Â0@ù
 × ;
-- (_Bool);
-- (id)fTxBytes: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasWifiModelVersion: /* Error: Ran out of types for this method. */;
+- (id)setHasIfTxBytes: /* Error: Ran out of types for this method. */;
 - (_Bool)joinedByAutoHS;
 
 // Remaining properties
-@property(nonatomic) int enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasEnabled;
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

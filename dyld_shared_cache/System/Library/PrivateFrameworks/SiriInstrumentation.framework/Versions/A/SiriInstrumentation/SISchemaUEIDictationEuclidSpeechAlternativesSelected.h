@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationEuclidSpeechAlternativesSelected : SISchemaInstrumentationMessage
 {
     int _speechAlternativesType;
-    long long _alternativesIndexSelectedByUser;
-    struct {
-        unsigned int speechAlternativesType:1;
-        unsigned int alternativesIndexSelectedByUser:1;
-    } _has;
 }
 
 - (int);
@@ -30,19 +23,15 @@
 - (long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)beginMatchingExtensionsWithAttributes:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ngLastMessageDateAscending:(id)arg1 olderThan:limit:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)leteEntityAbsoluteCount7Day;
-- (id)sArray;
+- (id)deleteEntityAbsoluteCount7Day;
+- (id)_hasArray;
 
 // Remaining properties
-@property(nonatomic) long long alternativesIndexSelectedByUser; // @synthesize alternativesIndexSelectedByUser=_alternativesIndexSelectedByUser;
-@property(nonatomic) _Bool hasAlternativesIndexSelectedByUser;
-@property(nonatomic) _Bool hasSpeechAlternativesType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int speechAlternativesType; // @synthesize speechAlternativesType=_speechAlternativesType;
 
 @end

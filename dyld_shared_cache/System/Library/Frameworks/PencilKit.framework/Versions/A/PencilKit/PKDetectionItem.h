@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSColor, NSString, NSUUID, PKDetectionQueryItem, PKDrawing, PKRecognitionSessionManager;
+@class PKDetectionQueryItem;
 
 @interface PKDetectionItem
 {
     _Bool _validCachedUUID;
-    NSString *_identifier;
-    PKDrawing *_drawing;
-    NSBezierPath *_itemSpaceBaselinePath;
-    NSBezierPath *_itemSpaceBoundsPath;
-    NSBezierPath *_drawingSpaceBoundsPath;
-    PKDetectionQueryItem *_queryItem;
-    double __strokeWidth;
-    NSColor *_inkColor;
-    PKRecognitionSessionManager *_sessionManager;
-    NSUUID *_cachedUUID;
-    struct CGRect __frame;
-    struct CGRect _strokeBounds;
 }
 
 - (struct CGRect);
@@ -49,41 +37,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void).;
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
 - (id);
-- (double);
-- (id);
+- (double);
+- (id)7psyI_bQoJRDeIsMK6g/Library/Caches/com.apple.xbs/TemporaryDirectory.EO60Xj/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCClient.m;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSBezierPath *_baselinePath;
-@property(nonatomic) struct CGRect _frame; // @synthesize _frame=__frame;
-@property(nonatomic) double _strokeWidth; // @synthesize _strokeWidth=__strokeWidth;
-@property(retain, nonatomic) NSUUID *cachedUUID; // @synthesize cachedUUID=_cachedUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic) NSBezierPath *drawingSpaceBoundsPath; // @synthesize drawingSpaceBoundsPath=_drawingSpaceBoundsPath;
-@property(readonly, nonatomic) struct CGAffineTransform drawingToItemTransform;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSColor *inkColor; // @synthesize inkColor=_inkColor;
-@property(retain, nonatomic) NSBezierPath *itemSpaceBaselinePath; // @synthesize itemSpaceBaselinePath=_itemSpaceBaselinePath;
-@property(retain, nonatomic) NSBezierPath *itemSpaceBoundsPath; // @synthesize itemSpaceBoundsPath=_itemSpaceBoundsPath;
 @property(retain, nonatomic) PKDetectionQueryItem *queryItem; // @synthesize queryItem=_queryItem;
-@property(nonatomic) __weak PKRecognitionSessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;
-@property(nonatomic) struct CGRect strokeBounds; // @synthesize strokeBounds=_strokeBounds;
-@property(readonly, nonatomic) NSColor *strokeColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool validCachedUUID; // @synthesize validCachedUUID=_validCachedUUID;
 
 @end
 

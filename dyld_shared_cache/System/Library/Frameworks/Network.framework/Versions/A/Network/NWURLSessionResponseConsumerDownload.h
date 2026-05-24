@@ -4,49 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSURLResponse, NWURLError;
-@protocol OS_dispatch_io;
+@class NSURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionResponseConsumerDownload
 {
     _Bool _hasCompleted;
-    _Bool _isResuming;
-    _Bool _firstPrepareCalled;
-    _Bool _calledDidResumeAtOffset;
-    int _fd;
-    CDUnknownBlockType _completionHandler;
-    NSURLResponse *_currentResponse;
-    NSURL *_fileURL;
-    NSString *_tempFileName;
-    NSObject<OS_dispatch_io> *_io;
-    CDUnknownBlockType _pendingCompletionBlock;
-    NWURLError *_internalError;
-    long long _countOfBytesReceivedInternal;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id)cancel: /* Error: Ran out of types for this method. */;
+- (long long)A;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly) long long countOfBytesReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *downloadFileURL;
-@property(readonly) NWURLError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSURLResponse *response;
-@property(readonly) Class superclass;
 
 @end
 

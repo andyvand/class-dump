@@ -4,49 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCustomLandmark, GEOPDZoomInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVectorPoiDisplayDV
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDZoomInfo *_classZoomDriving;
-    GEOPDZoomInfo *_classZoomNavigation;
-    GEOPDZoomInfo *_classZoom;
-    GEOPDZoomInfo *_containmentZoom;
-    GEOPDCustomLandmark *_customLandmark;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _containmentClass;
-    unsigned int _poiClass;
-    int _treeDisplayType;
-    _Bool _inMiniPoiMarket;
-    struct {
-        unsigned int has_containmentClass:1;
-        unsigned int has_poiClass:1;
-        unsigned int has_treeDisplayType:1;
-        unsigned int has_inMiniPoiMarket:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_classZoomDriving:1;
-        unsigned int read_classZoomNavigation:1;
-        unsigned int read_classZoom:1;
-        unsigned int read_containmentZoom:1;
-        unsigned int read_customLandmark:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)meRateRange=fff}16;
+- (id)initWithRecordDeviceInfo:playbackRoute:playbackDeviceTypeList: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)48@56;
-- (id)owAdvisoryCard;
+- (id)_shouldAlwaysShowAdvisoryCard;
 - (id)_`La8b<mÀo|r$t¤vhw;
 - (void)0,¾J@;
 

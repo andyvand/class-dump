@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, HMHome, NSArray, NSString, NSUUID;
+@class HMHome;
 
 @interface HMAccessoryNetworkProtectionGroup
 {
     struct os_unfair_lock_s _lock;
-    HMHome *_home;
-    NSUUID *_uniqueIdentifier;
-    NSString *_manufacturer;
-    HMAccessoryCategory *_category;
-    long long _targetProtectionMode;
-    NSUUID *_uuid;
 }
 
 + (id);
@@ -25,48 +19,26 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)_inqGroupIdForCategory:(id)arg1 owningGroupId:contentString:normalizedString:identifier:rankingScore:insertIfNeeded:tokenOutput:shouldUpdateOwningGroupId:shouldUpdateRankingScore: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)_framesCapacity;
+- (id),%f)
+;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)h;
 - (void)f%%;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessories;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(retain) HMAccessoryCategory *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMHome *home; // @synthesize home=_home;
-@property(copy) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property long long targetProtectionMode; // @synthesize targetProtectionMode=_targetProtectionMode;
-@property(readonly) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -5,9 +5,9 @@
 //
 
 @protocol VCMediaRecorderProtocol
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int capabilities;
-@property(readonly, nonatomic) _Bool usesClientToken;
 @end
 

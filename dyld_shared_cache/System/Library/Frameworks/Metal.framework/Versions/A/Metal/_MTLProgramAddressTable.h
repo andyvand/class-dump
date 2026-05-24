@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface _MTLProgramAddressTable
 {
     NSArray *_binaryMappingsEncoderInternal;
-    NSArray *_binaryMappingsPerInvocation;
-    NSDictionary *_encoderInternalBinaries;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *binaryMappingsEncoderInternal; // @synthesize binaryMappingsEncoderInternal=_binaryMappingsEncoderInternal;
-@property(readonly) NSArray *binaryMappingsPerInvocation; // @synthesize binaryMappingsPerInvocation=_binaryMappingsPerInvocation;
-@property(readonly) NSDictionary *encoderInternalBinaries; // @synthesize encoderInternalBinaries=_encoderInternalBinaries;
 
 @end
 

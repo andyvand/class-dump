@@ -5,5 +5,8 @@
 //
 
 @protocol TSDKernelClockClient
+
+@optional
+- (void);
 @end
 

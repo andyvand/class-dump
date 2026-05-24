@@ -6,37 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried : SISchemaInstrumentationMessage
 {
     float _ttsVolume;
-    int _speakerDistance;
-    float _speakerSpeechLevel;
-    float _musicLoudnessLevel;
-    float _backgroundNoiseLevel;
-    int _backgroundNoiseActivityLevel;
-    _Bool _isMediaPlaybackOn;
-    int _invocationType;
-    _Bool _isPermanentOffsetEnabled;
-    float _permanentOffsetFactor;
-    struct {
-        unsigned int ttsVolume:1;
-        unsigned int speakerDistance:1;
-        unsigned int speakerSpeechLevel:1;
-        unsigned int musicLoudnessLevel:1;
-        unsigned int backgroundNoiseLevel:1;
-        unsigned int backgroundNoiseActivityLevel:1;
-        unsigned int isMediaPlaybackOn:1;
-        unsigned int invocationType:1;
-        unsigned int isPermanentOffsetEnabled:1;
-        unsigned int permanentOffsetFactor:1;
-    } _has;
 }
 
 - (float);
 - (float);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -47,8 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -59,7 +36,7 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,41 +58,21 @@
 - (int);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (float);
+- (float)?;
 - (id);
-- (void);
+- (void)33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_utctm.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ßÐ1Â0@ù
 × ;
-- (id)WaBoostWebPost:(id)arg1;
+- (id)setHasCirAlertKgWaBoostWebPost:(id)arg1;
 - (id)nContext",&,N,V_curareAppIntentSampleClassificationContext;
 
 // Remaining properties
-@property(nonatomic) int backgroundNoiseActivityLevel; // @synthesize backgroundNoiseActivityLevel=_backgroundNoiseActivityLevel;
-@property(nonatomic) float backgroundNoiseLevel; // @synthesize backgroundNoiseLevel=_backgroundNoiseLevel;
-@property(nonatomic) _Bool hasBackgroundNoiseActivityLevel;
-@property(nonatomic) _Bool hasBackgroundNoiseLevel;
-@property(nonatomic) _Bool hasInvocationType;
-@property(nonatomic) _Bool hasIsMediaPlaybackOn;
-@property(nonatomic) _Bool hasIsPermanentOffsetEnabled;
-@property(nonatomic) _Bool hasMusicLoudnessLevel;
-@property(nonatomic) _Bool hasPermanentOffsetFactor;
-@property(nonatomic) _Bool hasSpeakerDistance;
-@property(nonatomic) _Bool hasSpeakerSpeechLevel;
-@property(nonatomic) _Bool hasTtsVolume;
-@property(nonatomic) int invocationType; // @synthesize invocationType=_invocationType;
-@property(nonatomic) _Bool isMediaPlaybackOn; // @synthesize isMediaPlaybackOn=_isMediaPlaybackOn;
-@property(nonatomic) _Bool isPermanentOffsetEnabled; // @synthesize isPermanentOffsetEnabled=_isPermanentOffsetEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float musicLoudnessLevel; // @synthesize musicLoudnessLevel=_musicLoudnessLevel;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
-@property(nonatomic) int speakerDistance; // @synthesize speakerDistance=_speakerDistance;
-@property(nonatomic) float speakerSpeechLevel; // @synthesize speakerSpeechLevel=_speakerSpeechLevel;
 @property(nonatomic) float ttsVolume; // @synthesize ttsVolume=_ttsVolume;
 
 @end

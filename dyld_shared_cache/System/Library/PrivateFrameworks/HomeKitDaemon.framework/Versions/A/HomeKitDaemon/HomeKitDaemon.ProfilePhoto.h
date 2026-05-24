@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSValue;
+@class NSValue;
 
 @interface HomeKitDaemon.ProfilePhoto
 {
     NSValue *cropRect;
-    void photoData;
 }
 
+- (void)#;
 - (void);
-- (void);
-- (id);
+- (id)sk disk sampling tested no points, so falling back to point-in-mask test;
 - (id)Ïÿ;
 
 // Remaining properties
 @property(nonatomic, retain) NSValue *cropRect; // @synthesize cropRect;
-@property(nonatomic, copy) NSData *photoData;
 
 @end
 

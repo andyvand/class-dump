@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentContainer, NSString;
+@class NSPersistentContainer;
 
 @interface DRSCKConfigStore
 {
     _Bool _isReadOnly;
-    NSString *_workingDirectory;
-    NSPersistentContainer *_container;
-    NSManagedObjectContext *_context;
 }
 
+- (id)"16{_NSRange=QQ}24;
 - (id);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)rary.PBoardType.MediaGroupIdentifiersPlist;
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPersistentContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly, nonatomic) NSString *workingDirectory; // @synthesize workingDirectory=_workingDirectory;
 
 @end
 

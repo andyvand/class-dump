@@ -10,16 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSTableRowSwipeVelocityFilter : _NS1DVelocityFilter
 {
     long long _filterDepth;
-    double _lastDeltaInput;
-    _Bool _isBufferFull;
-    long long _bufferIndex;
-    double _deltaBuffer[3];
-    double _timeBuffer[3];
 }
 
 - (double);
 - (void);
-- (void);
+- (void)*ao;
 - (id);
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PXPPTLoadingLatencyMeter
 {
     CDStruct_4bbd3430 _lowQualityResults;
-    CDStruct_4bbd3430 _mediumQualityResults;
-    CDStruct_4bbd3430 _highQualityResults;
-    NSString *_outputType;
-    NSString *_measurementsUnit;
 }
 
-+ (void);
++ (void)l!ɚ_;
 + (void);
 + (id);
 - (void);
@@ -28,7 +24,6 @@
 - (void)â¼¬PEÿâ¼ÌPEÿâ¼èPEÿâ¼,QEÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *measurementsDictionaryRepresentation;
 @property(retain, nonatomic) NSString *measurementsUnit; // @synthesize measurementsUnit=_measurementsUnit;
 
 @end

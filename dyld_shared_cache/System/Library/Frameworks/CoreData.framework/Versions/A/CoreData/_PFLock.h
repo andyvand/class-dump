@@ -8,20 +8,14 @@ __attribute__((visibility("hidden")))
 @interface _PFLock
 {
     struct _opaque_pthread_mutex_t _lock;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_owner;
-    unsigned long long _count;
 }
 
 + (void)MetadataChangesWithContext:forStore:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (void)orResource:ofType: /* Error: Ran out of types for this method. */;
-- (void)uthor;
+- (void)pathForResource:ofType: /* Error: Ran out of types for this method. */;
+- (void)_author;
 
 @end
 

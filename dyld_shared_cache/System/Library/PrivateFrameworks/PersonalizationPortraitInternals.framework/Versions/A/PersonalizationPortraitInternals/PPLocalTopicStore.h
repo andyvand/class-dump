@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSError, NSObject, NSString, PPTopicBlocklist, PPTopicStorage, PPTrialWrapper, _PASLock;
-@protocol OS_dispatch_queue;
+@class PPTopicStorage, _PASLock;
 
 @interface PPLocalTopicStore
 {
     _PASLock *_lock;
-    NSCache *_modelCache;
-    PPTrialWrapper *_trialWrapper;
-    PPTopicBlocklist *_blocklist;
-    NSString *_cachePath;
-    NSObject<OS_dispatch_queue> *_cacheAsyncUpdateQueue;
-    NSObject<OS_dispatch_queue> *_cacheUpdateQueue;
-    struct atomic_flag _cacheUpdateEnqueued;
-    NSError *_cacheUpdateError;
-    PPTopicStorage *_storage;
 }
 
-+ (id);
++ (id)@;
 + (id);
 + (void);
 + (id);
-- (id);
-- (_Bool);
+- (id)refelemtype":(id)arg1 %u,;
+- (_Bool)Z;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)onUpdateAsidMetadata failed;
 - (void);
 - (id);
 - (double);
@@ -48,9 +38,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)";
+- (_Bool)__kIMChatRegistrySummaryDictionaryKey;
+- (id)`	;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -60,7 +50,7 @@
 - (_Bool);
 - (id);
 - (void)@"NSError">16;
-- (_Bool)sIdentifiers:(id)arg1 chosenContactIdentifier:(id)arg2 completion:(unsigned long long)arg3;
+- (_Bool)feedbackDisambiguationResultWithChoicesIdentifiers:(id)arg1 chosenContactIdentifier:(id)arg2 completion:(unsigned long long)arg3;
 - (_Bool)sUtils:(id *)arg1 unknown first-party source %{sensitive}@;
 - (id)nance:(id)arg1 registered task DecayedFeedbackCountsDecay;
 - (void)atabase:(id)arg1 unable to vacuum database:(CDUnknownBlockType)arg2 %@;

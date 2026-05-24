@@ -7,32 +7,28 @@
 @interface MPSImageCopyToMatrix
 {
     CDStruct_67e7699a _destinationMatrixOrigin;
-    unsigned long long _destinationMatrixBatchIndex;
-    unsigned long long _dataLayout;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k%;
 - (CDStruct_14f26992);
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)K);
+- (void)indexSearchableItems:(id)arg1 updatingDonationProgress:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)y.Þô®?
 pV@eÏ?Åk?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataLayout; // @synthesize dataLayout=_dataLayout;
-@property(nonatomic) unsigned long long destinationMatrixBatchIndex; // @synthesize destinationMatrixBatchIndex=_destinationMatrixBatchIndex;
 @property(nonatomic) CDStruct_14f26992 destinationMatrixOrigin; // @synthesize destinationMatrixOrigin=_destinationMatrixOrigin;
 
 @end

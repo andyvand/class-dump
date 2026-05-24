@@ -7,7 +7,6 @@
 @interface RTIServiceOptions
 {
     int _serviceDeviceClass;
-    unsigned long long _displayOptions;
 }
 
 + (id);
@@ -18,14 +17,15 @@
 - (void);
 - (int);
 - (unsigned long long);
-- (id);
+- (id) ;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)}
+)}
+)AH*}S-)=;
+- (id)4;
 
 // Remaining properties
-@property(nonatomic) unsigned long long displayOptions; // @synthesize displayOptions=_displayOptions;
 @property(nonatomic) int serviceDeviceClass; // @synthesize serviceDeviceClass=_serviceDeviceClass;
 
 @end

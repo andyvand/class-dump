@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol HMFTimerManagerTimerContext, OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface __HMDRequestedCapabilitiesContext
 {
     NSUUID *_transactionID;
-    NSDictionary *_requestedCapabilities;
-    NSString *_destinationAddress;
-    NSObject<OS_dispatch_queue> *_responseQueue;
-    CDUnknownBlockType _completionHandler;
-    NSMutableArray *_receivedResponses;
-    id <HMFTimerManagerTimerContext> _timerContext;
 }
 
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (id)ndRoomsRelationWithModelID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id)findRoomsRelationWithModelID: /* Error: Ran out of types for this method. */;
 - (id)guration contains an invalid version string:%@ /* Error: Ran out of types for this method. */;
 - (id)w:%@] _handleAddIssuerKeysToAccessoriesMessage:%@ /* Error: Ran out of types for this method. */;
 - (id)d camera disconnected:%@ /* Error: Ran out of types for this method. */;
@@ -31,12 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)Öûþ ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(readonly, nonatomic) NSMutableArray *receivedResponses; // @synthesize receivedResponses=_receivedResponses;
-@property(readonly, copy, nonatomic) NSDictionary *requestedCapabilities; // @synthesize requestedCapabilities=_requestedCapabilities;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
-@property(retain, nonatomic) id <HMFTimerManagerTimerContext> timerContext; // @synthesize timerContext=_timerContext;
 @property(readonly, nonatomic) NSUUID *transactionID; // @synthesize transactionID=_transactionID;
 
 @end

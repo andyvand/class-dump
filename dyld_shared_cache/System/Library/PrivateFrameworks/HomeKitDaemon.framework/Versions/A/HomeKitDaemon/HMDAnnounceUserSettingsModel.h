@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)deviceAttestionVersion;
 
 // Remaining properties
 @property(copy) NSNumber *announceNotificationModeForCurrentDevice; // @dynamic announceNotificationModeForCurrentDevice;

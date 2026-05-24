@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksController, NSArray, NSPopUpButton, NSStackView, NSString, NSTextField, SafariWebBookmark, SafariWebBookmarkList, WBTabGroup;
+@class NSPopUpButton, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkEditSheetController
 {
     NSPopUpButton *locationPopUp;
-    NSTextField *promptField;
-    NSTextField *titleField;
-    NSTextField *descriptionField;
-    BookmarksController *_bookmarksController;
-    _Bool _titleOnly;
-    _Bool _inModalDelegateCallback;
-    NSArray *_duplicateBookmarksForURL;
-    WBTabGroup *_tabGroup;
-    _Bool _restrictedToBookmarksBar;
-    SafariWebBookmark *_bookmark;
-    NSString *_suggestedTitle;
-    NSStackView *_stackView;
 }
 
 + (id);
 + (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
@@ -49,18 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SafariWebBookmark *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, nonatomic) SafariWebBookmarkList *bookmarkParent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isRestrictedToBookmarksBar) _Bool restrictedToBookmarksBar; // @synthesize restrictedToBookmarksBar=_restrictedToBookmarksBar;
 @property __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly, nonatomic) NSString *suggestedTitle; // @synthesize suggestedTitle=_suggestedTitle;
-@property(readonly) Class superclass;
 
 @end
 

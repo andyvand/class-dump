@@ -5,13 +5,10 @@
 //
 
 @class NSArray;
-@protocol _UISearchSuggestionControllerDelegate;
 
 @interface _UISearchSuggestionController
 {
     NSArray *_suggestions;
-    id <_UISearchSuggestionControllerDelegate> _delegate;
-    NSArray *_suggestionGroups;
 }
 
 - (id);
@@ -21,15 +18,13 @@
 × ;
 - (void)
 × ;
-- (id)etReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_setReuseIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)FullScreenIgnoredStartingWithVersion;
+- (id)UIRequiresFullScreenIgnoredStartingWithVersion;
 - (void)­13Hïlþ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <_UISearchSuggestionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *suggestionGroups; // @synthesize suggestionGroups=_suggestionGroups;
 @property(copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end

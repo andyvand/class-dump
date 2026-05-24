@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAlarm;
-
 @protocol INCreateAlarmIntentResponseExport
+- (void);
 - (long long)handleIntent:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INAlarm *createdAlarm;
-@property long long successCode;
 @end
 

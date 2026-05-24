@@ -8,7 +8,9 @@
 @protocol FCCoreConfiguration;
 
 @protocol FCCoreConfigurationManager
-- (void)tEndsPresentationSession:(OS_dispatch_queue *)arg1;
+- (id <FCCoreConfiguration>);
+- (void)ey;
+- (void)setEndsPresentationSession:(OS_dispatch_queue *)arg1;
 - (void)TB,R;
 
 // Remaining properties

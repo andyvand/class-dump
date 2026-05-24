@@ -6,18 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSMutableArray, TLKGridLayoutManager, TLKTableRow;
+@class NSMutableArray;
 
 @interface TLKGridRowView : TLKView
 {
     _Bool _needsSizingPass;
-    TLKGridLayoutManager *_manager;
-    TLKTableRow *_tableRow;
-    NSMutableArray *_labels;
-    NSMutableArray *_imageViews;
-    NSMutableArray *_currentListOfViews;
-    unsigned long long _indexOfFirstCenteredColumnForForcedCentering;
-    unsigned long long _indexOfFirstTrailingColumn;
 }
 
 + (void);
@@ -31,7 +24,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void) `;
 - (id);
 - (_Bool);
 - (id);
@@ -41,23 +34,16 @@
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)p;
 - (struct CGSize);
-- (id);
+- (id)age TEXT DEFAULT NULL;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *currentListOfViews; // @synthesize currentListOfViews=_currentListOfViews;
-@property(retain, nonatomic) NSMutableArray *imageViews; // @synthesize imageViews=_imageViews;
-@property(nonatomic) unsigned long long indexOfFirstCenteredColumnForForcedCentering; // @synthesize indexOfFirstCenteredColumnForForcedCentering=_indexOfFirstCenteredColumnForForcedCentering;
-@property(nonatomic) unsigned long long indexOfFirstTrailingColumn; // @synthesize indexOfFirstTrailingColumn=_indexOfFirstTrailingColumn;
 @property(retain, nonatomic) NSMutableArray *labels; // @synthesize labels=_labels;
-@property(retain, nonatomic) TLKGridLayoutManager *manager; // @synthesize manager=_manager;
-@property(nonatomic) _Bool needsSizingPass; // @synthesize needsSizingPass=_needsSizingPass;
-@property(retain, nonatomic) TLKTableRow *tableRow; // @synthesize tableRow=_tableRow;
 
 @end
 

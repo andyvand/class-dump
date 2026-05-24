@@ -6,16 +6,12 @@
 
 #import <CoreSpeech/CSFileAudioInjectionEngine.h>
 
-@class CSAudioInjectionDevice, CSFAudioConverter, NSObject, NSString, NSUUID;
-@protocol CSAudioInjectionEngineDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSFileAudioInjectionTvRemoteEngine : CSFileAudioInjectionEngine
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioInjectionEngineDelegate> _delegate;
-    NSUUID *_uuid;
-    CSAudioInjectionDevice *_connectedDevice;
-    CSFAudioConverter *_encoder;
 }
 
 - (_Bool);
@@ -35,31 +31,20 @@
 - (id);
 - (id);
 - (void);
+- (void)Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+- (id);
+- (void)initWithOriginatingRequestSpecifier:(id)arg1 rawSaliencyImage:originalImageSize:salientObjectBoundingBoxes: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)entSplitterState;
+- (void)currentSplitterState;
 - (_Bool)ntext:successfully:option:withEventUUID:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak CSAudioInjectionDevice *connectedDevice; // @synthesize connectedDevice=_connectedDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAudioInjectionEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CSFAudioConverter *encoder; // @synthesize encoder=_encoder;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

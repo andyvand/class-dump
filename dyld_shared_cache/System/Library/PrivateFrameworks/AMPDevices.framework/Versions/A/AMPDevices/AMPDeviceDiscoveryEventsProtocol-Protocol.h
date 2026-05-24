@@ -5,5 +5,6 @@
 //
 
 @protocol AMPDeviceDiscoveryEventsProtocol
+- (void);
 @end
 

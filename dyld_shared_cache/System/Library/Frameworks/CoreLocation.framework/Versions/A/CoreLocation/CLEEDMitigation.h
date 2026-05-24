@@ -7,12 +7,6 @@
 @interface CLEEDMitigation
 {
     _Bool _newStreamingAllowed;
-    _Bool _dropStreaming;
-    _Bool _newUploadAllowed;
-    long long _streamingFPS;
-    long long _streamingBitrate;
-    long long _uploadMigitation;
-    long long _source;
 }
 
 + (id);
@@ -20,7 +14,7 @@
 + (const char *)uest, failed to request a single shot prediction with empty response;
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (const char *);
 - (long long);
 - (long long);
@@ -28,31 +22,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)valid bits/pixel:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)_familySupportsIndirectWritableTextures;
 
 // Remaining properties
-@property(nonatomic) _Bool dropStreaming; // @synthesize dropStreaming=_dropStreaming;
 @property(nonatomic) _Bool newStreamingAllowed; // @synthesize newStreamingAllowed=_newStreamingAllowed;
-@property(nonatomic) _Bool newUploadAllowed; // @synthesize newUploadAllowed=_newUploadAllowed;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(nonatomic) long long streamingBitrate; // @synthesize streamingBitrate=_streamingBitrate;
-@property(nonatomic) long long streamingFPS; // @synthesize streamingFPS=_streamingFPS;
-@property(nonatomic) long long uploadMigitation; // @synthesize uploadMigitation=_uploadMigitation;
 
 @end
 

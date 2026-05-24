@@ -7,7 +7,6 @@
 @interface NewsUI2.SystemNotificationsURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

@@ -8,14 +8,10 @@ __attribute__((visibility("hidden")))
 @interface LPVisualMediaViewConfiguration
 {
     _Bool _disablePlayback;
-    _Bool _disablePlaybackControls;
-    _Bool _disableAutoPlay;
-    _Bool _allowsLoadingMediaWithAutoPlayDisabled;
-    double _fullScreenTransitionCornerRadius;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -27,11 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsLoadingMediaWithAutoPlayDisabled; // @synthesize allowsLoadingMediaWithAutoPlayDisabled=_allowsLoadingMediaWithAutoPlayDisabled;
-@property(nonatomic) _Bool disableAutoPlay; // @synthesize disableAutoPlay=_disableAutoPlay;
 @property(nonatomic) _Bool disablePlayback; // @synthesize disablePlayback=_disablePlayback;
-@property(nonatomic) _Bool disablePlaybackControls; // @synthesize disablePlaybackControls=_disablePlaybackControls;
-@property(nonatomic) double fullScreenTransitionCornerRadius; // @synthesize fullScreenTransitionCornerRadius=_fullScreenTransitionCornerRadius;
 
 @end
 

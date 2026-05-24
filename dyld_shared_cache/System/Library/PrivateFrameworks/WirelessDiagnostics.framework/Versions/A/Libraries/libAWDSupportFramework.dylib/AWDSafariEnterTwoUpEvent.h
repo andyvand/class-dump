@@ -7,21 +7,19 @@
 @interface AWDSafariEnterTwoUpEvent
 {
     unsigned long long _timestamp;
-    int _method;
-    CDStruct_64f0786c _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,13 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)b;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMethod;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int method; // @synthesize method=_method;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol AuthenticationHintsProvider
+- (void)able for CoreML networks.   |
+=================================================
+;
 @end
 

@@ -8,27 +8,22 @@ __attribute__((visibility("hidden")))
 @interface SLSEventAuthenticationMessageEventType
 {
     unsigned int _hidType;
-    unsigned int _cgType;
-    unsigned long long _cgSubType;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned long long);
-- (void);
-- (unsigned int);
+- (_Bool)lationship objects for %@ on %p:%@ /* Error: Ran out of types for this method. */;
+- (id)operation;
+- (id)JrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (unsigned int)migration from model with digest { %@ }%@;
+- (unsigned long long)amigrator:lightweight migration from model with digest { %@ }%@ /* Error: Ran out of types for this method. */;
+- (void)sql from sqlite_master where name = 'ZCHANGETRACK';
+- (unsigned int)y key table.;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cgSubType; // @synthesize cgSubType=_cgSubType;
-@property(readonly, nonatomic) unsigned int cgType; // @synthesize cgType=_cgType;
-@property(readonly, nonatomic) unsigned int hidType; // @synthesize hidType=_hidType;
 @property(readonly, nonatomic) _Bool isCGType; // @dynamic isCGType;
 
 @end

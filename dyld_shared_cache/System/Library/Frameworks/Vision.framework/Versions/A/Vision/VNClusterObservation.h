@@ -6,49 +6,37 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSSet;
+@class NSArray;
 
 @interface VNClusterObservation : VNObservation
 {
     NSArray *_clusters;
-    NSArray *_suggestionsForCluster;
-    NSData *_clusterState;
-    NSSet *_clusteredFaceIds;
-    NSArray *_groupedClusteredFaceIdsForCluster;
-    NSNumber *_distance;
-    NSDictionary *_distancesById;
 }
 
-+ (_Bool);
++ (_Bool)9;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)_latestFolderSelectedForImportIsMonitored;
+- (unsigned long long);
+- (id)ec;
 - (void);
-- (id);
+- (id)L;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *clusterState; // @synthesize clusterState=_clusterState;
-@property(retain, nonatomic) NSSet *clusteredFaceIds; // @synthesize clusteredFaceIds=_clusteredFaceIds;
 @property(retain, nonatomic) NSArray *clusters; // @synthesize clusters=_clusters;
-@property(retain, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) NSDictionary *distancesById; // @synthesize distancesById=_distancesById;
-@property(retain, nonatomic) NSArray *groupedClusteredFaceIdsForCluster; // @synthesize groupedClusteredFaceIdsForCluster=_groupedClusteredFaceIdsForCluster;
-@property(retain, nonatomic) NSArray *suggestionsForCluster; // @synthesize suggestionsForCluster=_suggestionsForCluster;
 
 @end
 

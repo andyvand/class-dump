@@ -12,25 +12,25 @@
 }
 
 - (struct _PASDBTransactionCompletion_);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)runTaskWithLaunchPath:(long long)arg1 arguments:(id)arg2 outputData:(id)arg3 launchHandler:didLaunch:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (_Bool);
 - (CDStruct_69d7cc99);
 - (id);
 - (_Bool);
-- (CDStruct_69d7cc99);
+- (CDStruct_69d7cc99)match expected prefix!;
+- (id);
+- (_Bool)Rotate90;
+- (_Bool);
+- (_Bool);
+- (_Bool)index %lu beyond bounds [0 .. %lu];
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)addTimestampPairWithMachAbsoluteTime:(id)arg1 machContinuousTime:(id)arg2;
 - (void)1!1Â0@ù
 × ;
 - (struct _PASDBTransactionCompletion_)rgetedTargetingRuleIndex,     artifact ) VALUES (     :(CDUnknownBlockType)arg1 rollout_id,     :deployment_id,     :ramp_id,     :status,     :active_fp_set_id,     :active_targeting_rule_index,     :targeted_fp_set_id,     :targeted_targeting_rule_index,     :artifact ); /* Error: Ran out of types for this method. */;

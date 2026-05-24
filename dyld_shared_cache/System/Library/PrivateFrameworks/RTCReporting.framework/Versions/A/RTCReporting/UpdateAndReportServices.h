@@ -7,20 +7,16 @@
 @interface UpdateAndReportServices
 {
     _Bool _update;
-    _Bool _report;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)F:(CDUnknownBlockType)arg1:ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) _Bool report; // @synthesize report=_report;
 @property(readonly) _Bool update; // @synthesize update=_update;
 
 @end

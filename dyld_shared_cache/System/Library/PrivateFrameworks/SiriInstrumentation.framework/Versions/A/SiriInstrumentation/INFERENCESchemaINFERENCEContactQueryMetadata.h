@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEContactQueryMetadata : SISchemaInstrumentationMessage
 {
     _Bool _hasName;
-    _Bool _hasRelationship;
-    _Bool _hasHandleLabel;
-    _Bool _hasHandleValue;
-    _Bool _hasMeReference;
-    _Bool _hasContactId;
-    _Bool _isEmergencyQuery;
-    struct {
-        unsigned int hasName:1;
-        unsigned int hasRelationship:1;
-        unsigned int hasHandleLabel:1;
-        unsigned int hasHandleValue:1;
-        unsigned int hasMeReference:1;
-        unsigned int hasContactId:1;
-        unsigned int isEmergencyQuery:1;
-    } _has;
 }
 
 - (void);
@@ -43,11 +26,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,7 +43,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)icaWebKitViewControllerSheetDidEnd:(_Bool)arg1 withData: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -72,24 +55,10 @@
 - (id)ñßð1Â0@ù
 × ;
 - (id)ntDaemonAudioRecordingMissedBufferDetected",&,N,V_assistantDaemonAudioRecordingMissedBufferDetected;
-- (id)ntSetupStarted;
+- (id)NLRouterSchemaNLRouterSubComponentSetupStarted;
 
 // Remaining properties
-@property(nonatomic) _Bool hasContactId; // @synthesize hasContactId=_hasContactId;
-@property(nonatomic) _Bool hasHandleLabel; // @synthesize hasHandleLabel=_hasHandleLabel;
-@property(nonatomic) _Bool hasHandleValue; // @synthesize hasHandleValue=_hasHandleValue;
-@property(nonatomic) _Bool hasHasContactId;
-@property(nonatomic) _Bool hasHasHandleLabel;
-@property(nonatomic) _Bool hasHasHandleValue;
-@property(nonatomic) _Bool hasHasMeReference;
-@property(nonatomic) _Bool hasHasName;
-@property(nonatomic) _Bool hasHasRelationship;
-@property(nonatomic) _Bool hasIsEmergencyQuery;
-@property(nonatomic) _Bool hasMeReference; // @synthesize hasMeReference=_hasMeReference;
 @property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasRelationship; // @synthesize hasRelationship=_hasRelationship;
-@property(nonatomic) _Bool isEmergencyQuery; // @synthesize isEmergencyQuery=_isEmergencyQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

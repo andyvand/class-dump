@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (id)eActivationInteraction;
+- (id)UIWindowSceneActivationInteraction;
 - (void)wLatency:%s /* Error: Ran out of types for this method. */;
 - (void)ô#ÿ}ÈÐÈl;
 

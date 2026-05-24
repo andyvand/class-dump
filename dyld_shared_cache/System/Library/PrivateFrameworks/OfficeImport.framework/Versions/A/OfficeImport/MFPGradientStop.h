@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface MFPGradientStop
 {
     OITSUColor *mColor;
-    float mPosition;
 }
 
 - (id);
 - (float);
-- (id);
+- (id)_;
 - (void)ÿ- ;
 
 @end

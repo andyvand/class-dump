@@ -9,19 +9,17 @@
 @interface MPSCNNUpsamplingBilinearGradientNode : MPSNNGradientFilterNode
 {
     double _scaleFactorX;
-    double _scaleFactorY;
 }
 
 + (id);
 - (double);
 - (double);
-- (void *);
+- (void *),;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double scaleFactorX; // @synthesize scaleFactorX=_scaleFactorX;
-@property(readonly, nonatomic) double scaleFactorY; // @synthesize scaleFactorY=_scaleFactorY;
 
 @end
 

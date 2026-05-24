@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOMapServiceTraits, GEORoutePreloader, GEOTransitSuggestedRoute, NSMutableDictionary, NSObject, NSString, _GEOTransitRoutePreloaderData;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class GEOTransitSuggestedRoute;
 
 @interface GEOTransitRoutePreloadStrategy
 {
     GEOTransitSuggestedRoute *_suggestedRoute;
-    _GEOTransitRoutePreloaderData *_reserved;
-    GEOMapServiceTraits *_traits;
-    double _endRoutePosition;
-    unsigned long long _indexOfLastStepWithPreparedBatch;
-    double _radialDistanceToImplicateTilesMeters;
-    long long _tilesRequested;
-    _Bool _shouldPreloadEntireRoute;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    GEORoutePreloader *_preloader;
-    GEOComposedRoute *_route;
-    NSObject<OS_dispatch_source> *_geodCrashTimer;
-    double _currentRoutePosition;
-    int _downloadState;
-    double _stepSizeInMeters;
-    _Bool _enabled;
-    NSMutableDictionary *_tileSetStyles;
 }
 
 - (void);
@@ -35,22 +18,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)te ABCDInfos;
+- (void)ABCDContactDateComponents;
+- (void)CNCDProviderMetadata;
 - (void);
 - (struct PolylineCoordinate);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,21 +42,13 @@
 - (void);
 - (void);
 - (void);
-- (void)on;
+- (void)wantsBrandIcon;
 - (id)led once per object;
 - (void)rces/GeoServices/libaddr_obj/cpp/AddrObjGoogle/protobuf/stubs/substitute.cc;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) __weak GEORoutePreloader *preloader; // @synthesize preloader=_preloader;
-@property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(readonly) Class superclass;
 
 @end
 

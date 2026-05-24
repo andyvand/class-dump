@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, MNActiveRouteInfo, MNLocation, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MNLocationSimulationData
 {
     _Bool _isChinaShifted;
-    _Bool _endAtFinalDestination;
-    long long _simulationType;
-    MNActiveRouteInfo *_routeInfo;
-    MNActiveRouteInfo *_initialRouteInfo;
-    MNLocation *_lastLocation;
-    CDStruct_3f2a7a20 _lastRouteCoordinate;
-    double _currentTime;
-    unsigned long long _currentLegIndex;
-    GEOApplicationAuditToken *_auditToken;
-    NSString *_requestingAppIdentifier;
-    double _speedOverride;
-    double _speedMultiplier;
-    double _minimumSpeed;
 }
 
 - (double);
+- (void)PlatformFocusResponderProvider;
+- (void)PlatformFocusViewProvider;
+- (void)0
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)1
+;
+- (void)}0Y701
+;
+- (void)PlatformFallbackMenuStyle;
+- (id)ics;
 - (double);
 - (CDStruct_3f2a7a20);
 - (_Bool);
@@ -50,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void)1Â0@ù
@@ -58,21 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(nonatomic) unsigned long long currentLegIndex; // @synthesize currentLegIndex=_currentLegIndex;
-@property(nonatomic) double currentTime; // @synthesize currentTime=_currentTime;
-@property(nonatomic) _Bool endAtFinalDestination; // @synthesize endAtFinalDestination=_endAtFinalDestination;
-@property(retain, nonatomic) MNActiveRouteInfo *initialRouteInfo; // @synthesize initialRouteInfo=_initialRouteInfo;
-@property(nonatomic) _Bool isChinaShifted; // @synthesize isChinaShifted=_isChinaShifted;
-@property(retain, nonatomic) MNLocation *lastLocation; // @synthesize lastLocation=_lastLocation;
-@property(nonatomic) CDStruct_3f2a7a20 lastRouteCoordinate; // @synthesize lastRouteCoordinate=_lastRouteCoordinate;
-@property(nonatomic) double minimumSpeed; // @synthesize minimumSpeed=_minimumSpeed;
-@property(retain, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
-@property(retain, nonatomic) MNActiveRouteInfo *routeInfo; // @synthesize routeInfo=_routeInfo;
-@property(readonly, nonatomic) GEOComposedRoute *routeToFollow;
 @property(nonatomic) long long simulationType; // @synthesize simulationType=_simulationType;
-@property(nonatomic) double speedMultiplier; // @synthesize speedMultiplier=_speedMultiplier;
-@property(nonatomic) double speedOverride; // @synthesize speedOverride=_speedOverride;
 
 @end
 

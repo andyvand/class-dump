@@ -6,13 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class NSArray;
-
 @interface MLCSplitLayer : MLCLayer
 {
     unsigned long long _dimension;
-    unsigned long long _splitCount;
-    NSArray *_splitSectionLengths;
 }
 
 + (_Bool);
@@ -23,18 +19,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (unsigned long long)gpuCommandBufferList=%@ };
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) unsigned long long splitCount; // @synthesize splitCount=_splitCount;
-@property(readonly, copy, nonatomic) NSArray *splitSectionLengths; // @synthesize splitSectionLengths=_splitSectionLengths;
 
 @end
 

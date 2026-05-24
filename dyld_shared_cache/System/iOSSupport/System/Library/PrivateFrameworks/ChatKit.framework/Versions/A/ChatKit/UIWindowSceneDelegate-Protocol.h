@@ -8,6 +8,9 @@
 
 @protocol UIWindowSceneDelegate
 
+@optional
+- (void)a;
+
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;
 // Preceding property had unknown attributes: ?

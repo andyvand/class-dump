@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)fetching share. %@;
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (void)16@24@32d40{UIEdgeInsets=dddd}48;

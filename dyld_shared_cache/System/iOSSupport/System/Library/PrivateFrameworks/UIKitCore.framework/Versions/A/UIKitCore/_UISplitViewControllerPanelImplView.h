@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UISplitViewControllerPanelImpl *_impl;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void)1]1Â0@ù
 × ;
 - (id);
 - (id)condaryCellularConfigured"b1"primaryServiceBadgeString"[100c]"secondaryServiceBadgeString"[100c]"quietModeImage"[256c]"quietModeName"[256c]};
-- (void)aitsAndPushTraitsToScreen:(struct CGRect)arg1 callParentWillTransitionToTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_updateSceneTraitsAndPushTraitsToScreen:(struct CGRect)arg1 callParentWillTransitionToTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)nerContainerView",&,N,V_containerView;
-- (void);
+- (void)setOrthogonalScrollingBehavior:(struct CGRect)arg1;
 - (void);
 
 // Remaining properties

@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ction_=B}16@?0@"NSError"8;
 
 @end
 

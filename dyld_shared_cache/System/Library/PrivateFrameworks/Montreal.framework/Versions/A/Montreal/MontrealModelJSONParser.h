@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MontrealNNModelNetwork, NSDictionary, NSString;
+@class NSString;
 
 @interface MontrealModelJSONParser
 {
     NSString *_jsonDir;
-    MontrealNNModelNetwork *_network;
-    NSDictionary *_infoDictionary;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
 @property(readonly) NSString *jsonDir; // @synthesize jsonDir=_jsonDir;
-@property(readonly) MontrealNNModelNetwork *network; // @synthesize network=_network;
 
 @end
 

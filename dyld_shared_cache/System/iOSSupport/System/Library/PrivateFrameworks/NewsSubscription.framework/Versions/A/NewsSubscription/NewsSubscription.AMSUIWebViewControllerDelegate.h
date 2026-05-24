@@ -7,13 +7,11 @@
 @interface NewsSubscription.AMSUIWebViewControllerDelegate
 {
     id entitlementsManager;
-    id performingAuthentication;
-    id completionHandlers;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)nal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDFrameImageCache.m;
+- (void)�;
 
 @end
 

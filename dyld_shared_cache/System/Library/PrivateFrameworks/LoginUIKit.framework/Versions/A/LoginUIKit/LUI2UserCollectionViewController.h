@@ -6,41 +6,15 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class AVTLockscreenCoordinator, LUI2CircleButtonView, LUI2CollectionView, LUI2UserView, NSArray, NSCollectionViewLayout, NSDate, NSLayoutConstraint, NSMutableDictionary, NSMutableSet, NSScrollView, NSString, NSTimer;
-@protocol LUI2UserCollectionViewControllerDelegate, LUI2UserLayoutProtocol, LUIUserProtocol;
+@class LUI2CollectionView;
+@protocol LUI2UserCollectionViewControllerDelegate;
 
 @interface LUI2UserCollectionViewController : LUI2ViewController
 {
     id <LUI2UserCollectionViewControllerDelegate> _delegate;
-    NSTimer *_peekabooTimer;
-    _Bool _singleUserLayoutOnly;
-    _Bool _delegateSupportsWillChangeLayoutFromTo;
-    _Bool _delegateSupportsDidChangeLayoutFromTo;
-    _Bool _delegateSupportsUserChanged;
-    _Bool _idle;
-    _Bool _paused;
-    _Bool _watchingForUserAttributeChanges;
-    id <LUIUserProtocol> _focusedUser;
-    NSArray *_users;
-    LUI2CollectionView *_collectionView;
-    LUI2CircleButtonView *_pageForwardButtonView;
-    NSLayoutConstraint *_pageForwardButtonYCenterConstraint;
-    LUI2CircleButtonView *_pageBackButtonView;
-    NSLayoutConstraint *_pageBackButtonYCenterConstraint;
-    double _collectionViewXOffset;
-    NSMutableSet *_trackedIdentifiers;
-    NSDate *_peekabooUpdateTime;
-    NSCollectionViewLayout<LUI2UserLayoutProtocol> *_peekabooLayout;
-    NSCollectionViewLayout<LUI2UserLayoutProtocol> *_singleUserLayout;
-    double _layoutChangeAllowedTime;
-    AVTLockscreenCoordinator *_avatarCoordinator;
-    double _nextAvatarPasswordEntryTime;
-    NSTimer *_avatarIdleTimer;
-    LUI2UserView *_userViewHitOnMouseDown;
-    NSMutableDictionary *_previousItems;
 }
 
-+ (id);
++ (id)RA;
 + (void);
 - (id);
 - (id);
@@ -70,7 +44,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!(L ;
 - (void);
 - (void);
 - (void);
@@ -81,15 +55,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (double);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -100,58 +74,58 @@
 - (double);
 - (void);
 - (double);
+- (id)�;
+- (id)J;
+- (void);
+- (void);
+- (_Bool);
+- (void)k`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)qA;
+- (void);
+- (void);
+- (void)W9_;
+- (void);
+- (void);
+- (_Bool);
+- (void)y));
+- (id);
+- (void)T;
+- (id);
+- (void)Ԣ;
+- (void)wJ;
+- (void);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)S.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id)?;
+- (id);
+- (id);
+- (void)k;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)companionSerialNumber;
 - (id);
 - (void);
 - (void);
@@ -164,60 +138,15 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void);
 - (_Bool)oller";
 - (void)8I16;
-- (void)licyIdentifier;
+- (void)_policyIdentifier;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(retain) AVTLockscreenCoordinator *avatarCoordinator; // @synthesize avatarCoordinator=_avatarCoordinator;
-@property(retain) NSTimer *avatarIdleTimer; // @synthesize avatarIdleTimer=_avatarIdleTimer;
 @property(retain) LUI2CollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property double collectionViewXOffset; // @synthesize collectionViewXOffset=_collectionViewXOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <LUI2UserCollectionViewControllerDelegate> delegate;
-@property _Bool delegateSupportsDidChangeLayoutFromTo; // @synthesize delegateSupportsDidChangeLayoutFromTo=_delegateSupportsDidChangeLayoutFromTo;
-@property _Bool delegateSupportsUserChanged; // @synthesize delegateSupportsUserChanged=_delegateSupportsUserChanged;
-@property _Bool delegateSupportsWillChangeLayoutFromTo; // @synthesize delegateSupportsWillChangeLayoutFromTo=_delegateSupportsWillChangeLayoutFromTo;
-@property(readonly, copy) NSString *description;
-@property(retain) id <LUIUserProtocol> focusedUser; // @synthesize focusedUser=_focusedUser;
-@property(readonly) unsigned long long hash;
-@property(getter=isIdle) _Bool idle; // @synthesize idle=_idle;
-@property(readonly) _Bool isFocusedOnUser;
-@property long long layout;
-@property double layoutChangeAllowedTime; // @synthesize layoutChangeAllowedTime=_layoutChangeAllowedTime;
-@property(readonly) NSCollectionViewLayout<LUI2UserLayoutProtocol> *multiUserLayout;
-@property double nextAvatarPasswordEntryTime; // @synthesize nextAvatarPasswordEntryTime=_nextAvatarPasswordEntryTime;
-@property(retain) LUI2CircleButtonView *pageBackButtonView; // @synthesize pageBackButtonView=_pageBackButtonView;
-@property(retain) NSLayoutConstraint *pageBackButtonYCenterConstraint; // @synthesize pageBackButtonYCenterConstraint=_pageBackButtonYCenterConstraint;
-@property(retain) LUI2CircleButtonView *pageForwardButtonView; // @synthesize pageForwardButtonView=_pageForwardButtonView;
-@property(retain) NSLayoutConstraint *pageForwardButtonYCenterConstraint; // @synthesize pageForwardButtonYCenterConstraint=_pageForwardButtonYCenterConstraint;
-@property _Bool paused; // @synthesize paused=_paused;
-@property(retain) NSCollectionViewLayout<LUI2UserLayoutProtocol> *peekabooLayout; // @synthesize peekabooLayout=_peekabooLayout;
-@property(retain) NSDate *peekabooUpdateTime; // @synthesize peekabooUpdateTime=_peekabooUpdateTime;
-@property(retain) NSMutableDictionary *previousItems; // @synthesize previousItems=_previousItems;
-@property(readonly) NSScrollView *scrollView;
-@property(retain) NSCollectionViewLayout<LUI2UserLayoutProtocol> *singleUserLayout; // @synthesize singleUserLayout=_singleUserLayout;
-@property _Bool singleUserLayoutOnly; // @synthesize singleUserLayoutOnly=_singleUserLayoutOnly;
-@property(readonly) Class superclass;
-@property(retain) NSMutableSet *trackedIdentifiers; // @synthesize trackedIdentifiers=_trackedIdentifiers;
-@property __weak LUI2UserView *userViewHitOnMouseDown; // @synthesize userViewHitOnMouseDown=_userViewHitOnMouseDown;
-@property(copy) NSArray *users; // @synthesize users=_users;
-@property(getter=isVisible) _Bool visible;
-@property _Bool watchingForUserAttributeChanges; // @synthesize watchingForUserAttributeChanges=_watchingForUserAttributeChanges;
 
 @end
 

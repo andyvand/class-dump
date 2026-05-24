@@ -17,15 +17,15 @@
 + (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)__TEXT;
 - (id);
-- (id);
+- (id)k ;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void)rties;
+- (void)writableSingleValueContactProperties;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)°ºq;
 - (id);
-- (void);
+- (void)MPModelPropertyPodcastEpisodeSubtitle;
 - (id);
 - (id)ut awaiting feedback UI still. Ignoring update.;
 - (_Bool);

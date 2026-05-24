@@ -6,15 +6,11 @@
 
 #import <IDS/IDSService.h>
 
-@class NSDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableSet, NSSet;
 
 @interface IDSFamilyService : IDSService
 {
     NSMutableSet *familyHandles;
-    NSString *listenerID;
-    NSSet *_familyMembers;
-    NSDictionary *_dsidToFamilyMember;
-    NSDictionary *_dsidToDeviceList;
 }
 
 - (void);
@@ -35,16 +31,7 @@
 - (_Bool)U;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *dsidToDeviceList; // @synthesize dsidToDeviceList=_dsidToDeviceList;
-@property(retain, nonatomic) NSDictionary *dsidToFamilyMember; // @synthesize dsidToFamilyMember=_dsidToFamilyMember;
 @property(retain, nonatomic) NSSet *familyMembers; // @synthesize familyMembers=_familyMembers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

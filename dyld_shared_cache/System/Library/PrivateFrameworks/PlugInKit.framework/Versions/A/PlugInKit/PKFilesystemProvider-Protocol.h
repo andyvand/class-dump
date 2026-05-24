@@ -7,6 +7,7 @@
 @protocol PKNSBundleProxy;
 
 @protocol PKFilesystemProvider
+- (id <PKNSBundleProxy>)G;
 
 // Remaining properties
 @property(readonly) id <PKNSBundleProxy> mainBundle;

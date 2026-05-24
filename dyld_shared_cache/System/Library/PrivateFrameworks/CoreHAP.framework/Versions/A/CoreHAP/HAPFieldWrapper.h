@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAPFieldWrapper
 {
     long long _tlvid;
-    NSString *_name;
 }
 
 - (long long);
@@ -20,7 +17,6 @@
 - (void)16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) long long tlvid; // @synthesize tlvid=_tlvid;
 
 @end

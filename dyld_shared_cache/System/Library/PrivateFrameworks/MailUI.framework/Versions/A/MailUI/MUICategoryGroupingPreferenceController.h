@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EFCancelable, MUICategoryGroupingPreferenceControllerDelegate;
-
 @interface MUICategoryGroupingPreferenceController
 {
     _Bool _shouldDisableGroupingInTransactions;
-    _Bool _shouldDisableGroupingInUpdates;
-    _Bool _shouldDisableGroupingInPromotions;
-    id <MUICategoryGroupingPreferenceControllerDelegate> _delegate;
-    id <EFCancelable> _shouldDisableGroupingInTransactionsUserDefaultsObserver;
-    id <EFCancelable> _shouldDisableGroupingInUpdatesUserDefaultsObserver;
-    id <EFCancelable> _shouldDisableGroupingInPromotionsUserDefaultsObserver;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9?;
 - (void);
 - (void);
 - (void);
@@ -34,16 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ReceiveResult: /* Error: Ran out of types for this method. */;
+- (void)observerDidReceiveResult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MUICategoryGroupingPreferenceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool shouldDisableGroupingInPromotions; // @synthesize shouldDisableGroupingInPromotions=_shouldDisableGroupingInPromotions;
-@property(retain, nonatomic) id <EFCancelable> shouldDisableGroupingInPromotionsUserDefaultsObserver; // @synthesize shouldDisableGroupingInPromotionsUserDefaultsObserver=_shouldDisableGroupingInPromotionsUserDefaultsObserver;
 @property(nonatomic) _Bool shouldDisableGroupingInTransactions; // @synthesize shouldDisableGroupingInTransactions=_shouldDisableGroupingInTransactions;
-@property(retain, nonatomic) id <EFCancelable> shouldDisableGroupingInTransactionsUserDefaultsObserver; // @synthesize shouldDisableGroupingInTransactionsUserDefaultsObserver=_shouldDisableGroupingInTransactionsUserDefaultsObserver;
-@property(nonatomic) _Bool shouldDisableGroupingInUpdates; // @synthesize shouldDisableGroupingInUpdates=_shouldDisableGroupingInUpdates;
-@property(retain, nonatomic) id <EFCancelable> shouldDisableGroupingInUpdatesUserDefaultsObserver; // @synthesize shouldDisableGroupingInUpdatesUserDefaultsObserver=_shouldDisableGroupingInUpdatesUserDefaultsObserver;
 
 @end
 

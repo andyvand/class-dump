@@ -7,7 +7,6 @@
 @interface NewsAds.InterstitialAdViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

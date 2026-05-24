@@ -7,18 +7,6 @@
 @interface SystemAdministrationInterface.AddAccountController
 {
     id _type;
-    id options;
-    id _name;
-    id _nameNote;
-    id _fullName;
-    id _fullNameNote;
-    id _password;
-    id _passwordNote;
-    id _verify;
-    id _verifyNote;
-    id _hint;
-    id $__lazy_storage_$_loginPrefs;
-    id $__lazy_storage_$_autoLoginName;
 }
 
 @end

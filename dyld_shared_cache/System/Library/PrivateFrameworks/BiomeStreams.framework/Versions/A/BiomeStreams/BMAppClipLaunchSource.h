@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, _CDClientContext, _DKKnowledgeStore;
+@class BMSource, _CDClientContext;
 
 @interface BMAppClipLaunchSource
 {
     BMSource *_storeSource;
-    _CDClientContext *_contextStore;
-    _DKKnowledgeStore *_knowledgeStore;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)eceived method=%d;
 - (id);
 - (void);
 - (id)h±;
 
 // Remaining properties
 @property(readonly, nonatomic) _CDClientContext *contextStore; // @synthesize contextStore=_contextStore;
-@property(readonly, nonatomic) _DKKnowledgeStore *knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
 
 @end
 

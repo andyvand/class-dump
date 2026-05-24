@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, UIImageView, UILabel;
+@class UILabel;
 
 @interface AVTStickerRecentsStickerCollectionViewCell
 {
     _Bool _showPrereleaseSticker;
-    UIImageView *_imageView;
-    NSString *_title;
-    NSUUID *_displaySessionUUID;
-    UILabel *_prereleaseLabel;
 }
 
 + (id);
@@ -22,10 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)raidFailSectors;
 - (void);
 - (void);
 - (id);
@@ -34,11 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
 @property(readonly, nonatomic) UILabel *prereleaseLabel; // @synthesize prereleaseLabel=_prereleaseLabel;
-@property(nonatomic) _Bool showPrereleaseSticker; // @synthesize showPrereleaseSticker=_showPrereleaseSticker;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

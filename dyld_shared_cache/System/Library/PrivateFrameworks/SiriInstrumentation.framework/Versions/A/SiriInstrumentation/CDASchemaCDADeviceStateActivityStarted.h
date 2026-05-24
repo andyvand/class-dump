@@ -6,44 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDADeviceStateActivityStarted : SISchemaInstrumentationMessage
 {
     int _state;
-    int _trigger;
-    struct {
-        unsigned int state:1;
-        unsigned int trigger:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)eFrameworks/AppleMediaServicesUI.framework/Contents/MacOS/AppleMediaServicesUI;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)chat c                           INNER JOIN                             chat_message_join j                           ON                             c.ROWID = j.chat_id                           WHERE                             j.message_id = message.ROWID                           ) WHERE message.ROWID = (select j.message_id FROM chat c INNER JOIN chat_message_join j ON c.rowid = j.chat_id WHERE c.room_name IS NOT NULL); ;
 - (_Bool);
-- (id);
+- (id);
 - (id)MClientEventMetadata";
-- (id)LPCDMReplayTaskContext;
+- (id)CLPInstSchemaCLPCDMReplayTaskContext;
 - (id)°Ä;
 - (int)·­8á';
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) int trigger; // @synthesize trigger=_trigger;
 
 @end
 

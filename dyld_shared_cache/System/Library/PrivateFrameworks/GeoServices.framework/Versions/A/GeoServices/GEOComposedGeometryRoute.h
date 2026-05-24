@@ -11,8 +11,8 @@
 }
 
 + (_Bool)'%{private}@';
-- (_Bool);
-- (id);
+- (_Bool)isUnlockedSinceBoot;
+- (id)_cn_eachCharacter:(CDStruct_39925896 *)arg1;
 - (id);
 - (void);
 

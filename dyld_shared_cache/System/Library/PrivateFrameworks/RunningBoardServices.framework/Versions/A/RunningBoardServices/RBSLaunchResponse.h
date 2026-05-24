@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, RBSAssertion, RBSProcessHandle;
+@class RBSProcessHandle;
 
 @interface RBSLaunchResponse
 {
     RBSProcessHandle *_process;
-    RBSAssertion *_assertion;
-    NSDictionary *_managedEndpointByLaunchIdentifier;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -26,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSDictionary *managedEndpointByLaunchIdentifier; // @synthesize managedEndpointByLaunchIdentifier=_managedEndpointByLaunchIdentifier;
 @property(retain, nonatomic) RBSProcessHandle *process; // @synthesize process=_process;
 
 @end

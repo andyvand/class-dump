@@ -6,46 +6,24 @@
 
 #import <WiFiPolicy/WiFiUsageSession.h>
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSString, WiFiSoftError;
+@class WiFiSoftError;
 
 @interface WiFiUsageLinkSession : WiFiUsageSession
 {
     _Bool _linkUp;
-    NSDate *_lastLinkTest;
-    NSDate *_lastFaultIndicationTime;
-    _Bool _didBecomePrimary;
-    NSString *_ssid;
-    NSString *_bssid;
-    unsigned long long _numLinkTestFailures;
-    _Bool _didHandleFaultEvent;
-    _Bool _foundSuccessfulLinkTest;
-    unsigned long long _numLinkRecoverySkips;
-    unsigned long long _periodicLinkTestInterval;
-    NSDate *_lastFaultEventHandled;
-    NSString *_lastFaultEventHandledReason;
-    unsigned long long _lastFaultEventHandledOptions;
-    int _band;
-    NSMutableDictionary *_linkTestResult;
-    unsigned long long _joinSeqNo;
-    NSMutableArray *_deferredFailureSessions;
-    unsigned long long _lastSubmittedSessionSeqNo;
-    _Bool _joinAttemptedBeforeLinkDown;
-    unsigned long long _faultCountOnBss;
-    WiFiSoftError *_joinFailSoftError;
-    WiFiSoftError *_faultEventSoftError;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)credentialStore;
+- (void)core_RecurringDateTimeRange_Autumn;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -55,11 +33,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)pPlayback_processPendingAudioVolumeChanges(void *);
 - (void);
 - (void)ñ¤°1Â0@ù
 × ;
@@ -68,7 +46,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) WiFiSoftError *faultEventSoftError; // @synthesize faultEventSoftError=_faultEventSoftError;
 @property(retain, nonatomic) WiFiSoftError *joinFailSoftError; // @synthesize joinFailSoftError=_joinFailSoftError;
 
 @end

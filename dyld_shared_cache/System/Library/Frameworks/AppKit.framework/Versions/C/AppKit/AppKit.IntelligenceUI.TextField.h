@@ -9,30 +9,26 @@
 @interface AppKit.IntelligenceUI.TextField : NSTextField
 {
     long long linesOfText;
-    id isSingleLineField;
-    id cachedIntrinsicContentSize;
-    id intelligenceDelegate;
 }
 
 + (void);
 + (_Bool);
 + (Class);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)rgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (id)@0:(id)arg1 8^{_CFHSTSPolicy=}16;
+- (_Bool)=}16;
+- (_Bool)st_ptr"*"dst_size"Q"src_ptr"*"src_size"Q"state"^v};
+- (void)fer daemon interrupted;
+- (long long)e;
+- (id)NULL;
+- (void)6wm;
 - (id);
 - (struct CGSize);
-- (id)onWithURL:(struct CGRect)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (void)p;
+- (id)_startRemoteRenameSessionWithURL:(struct CGRect)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (void)NSOverlayScrollerImp;
 - (void)·öôLE;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic) long long linesOfText; // @synthesize linesOfText;
 
 @end

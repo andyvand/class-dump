@@ -5,5 +5,6 @@
 //
 
 @protocol PKCancelable
+- (void)Id;
 @end
 

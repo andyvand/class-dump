@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserDefaults, _PASKVOHandler, _PASSqliteDatabase;
-@protocol TRIPaths, TRIStorageManagementProtocol;
+@class _PASSqliteDatabase;
+@protocol TRIPaths;
 
 @interface TRIAssetStoreDatabase
 {
     id <TRIPaths> _paths;
-    id <TRIStorageManagementProtocol> _storageManagement;
-    NSString *_databasePath;
-    _PASSqliteDatabase *_db;
-    NSUserDefaults *_defaults;
-    _PASKVOHandler *_kvoHandler;
-    _Atomic _Bool _isQueryPlanLoggingEnabled;
 }
 
 - (_Bool);
@@ -41,13 +35,6 @@
 - (_Bool)ûÿ¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _PASSqliteDatabase *underlyingDatabase;
 
 @end

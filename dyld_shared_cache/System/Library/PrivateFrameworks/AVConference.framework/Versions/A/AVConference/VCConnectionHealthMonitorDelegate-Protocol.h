@@ -5,5 +5,6 @@
 //
 
 @protocol VCConnectionHealthMonitorDelegate
+- (void);
 @end
 

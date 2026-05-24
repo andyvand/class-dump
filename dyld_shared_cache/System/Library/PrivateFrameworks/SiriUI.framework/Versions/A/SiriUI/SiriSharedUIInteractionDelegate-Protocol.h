@@ -5,5 +5,9 @@
 //
 
 @protocol SiriSharedUIInteractionDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

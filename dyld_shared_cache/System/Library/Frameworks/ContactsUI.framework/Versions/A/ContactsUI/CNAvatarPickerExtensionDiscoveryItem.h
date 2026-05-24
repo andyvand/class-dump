@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSRemoteViewController, NSUUID;
+@class NSExtension;
 
 @interface CNAvatarPickerExtensionDiscoveryItem
 {
     NSExtension *_extension;
-    NSRemoteViewController *_remoteViewController;
-    NSUUID *_requestIdentifier;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@[X\;
 - (id);
-- (id);
-- (void);
+- (id)cacheBoundaryStrategies;
+- (void)__objc_arraydata__DATA_CONST;
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end
 

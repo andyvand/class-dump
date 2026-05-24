@@ -16,13 +16,13 @@
 - (struct CGPoint);
 - (long long);
 - (double);
-- (id);
+- (id)k 	;
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id)RegSubscriptionRetryTimer;
 - (void);
 - (id);
 - (void)0@ù

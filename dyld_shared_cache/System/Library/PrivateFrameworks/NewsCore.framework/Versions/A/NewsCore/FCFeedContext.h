@@ -9,10 +9,6 @@
 @interface FCFeedContext
 {
     NSString *_sectionID;
-    NSString *_channelID;
-    NSString *_topicID;
-    NSString *_articleListID;
-    long long _flags;
 }
 
 + (id);
@@ -21,14 +17,14 @@
 + (id);
 + (id);
 + (id);
++ (id)(	;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@"NSObject<OS_dispatch_queue>",&,N,V_callbackQueue;
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -47,7 +43,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)te hx509 context;
 - (long long);
 - (void);
 - (_Bool);
@@ -58,16 +54,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *articleListID; // @synthesize articleListID=_articleListID;
-@property(copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) _Bool isEditorial;
-@property(readonly, nonatomic) _Bool isEditorialGems;
-@property(readonly, nonatomic) _Bool isHiddenFeed;
-@property(readonly, nonatomic) _Bool isPaidBundleFeed;
-@property(readonly, nonatomic) _Bool isTopStories;
 @property(copy, nonatomic) NSString *sectionID; // @synthesize sectionID=_sectionID;
-@property(copy, nonatomic) NSString *topicID; // @synthesize topicID=_topicID;
 
 @end
 

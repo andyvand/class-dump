@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNContactViewFooterView
 {
     UILabel *_label;
-    CNContact *_contact;
 }
 
 - (void);
-- (id);
+- (id)excludeGhostEpisodes;
 - (id);
 - (void);
 - (id);
 - (void)CNContactContentEditViewController"16;
-- (void)tionControllerDidAttemptToDismiss:(id)arg1;
-- (void)rBadgeStyleSettings;
+- (void)presentationControllerDidAttemptToDismiss:(id)arg1;
+- (void)_avatarBadgeStyleSettings;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 
 @end

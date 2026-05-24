@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKRule
 {
     NSString *_identifier;
-    NSPredicate *_predicate;
-    PKOSVersionRequirementRange *_osVersionRequirementRange;
-    NSString *_predicateFormat;
 }
 
-+ (_Bool);
++ (_Bool)__DATA_CONST;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)WithCompletion:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)_lowAvailWLANRxDurTrue;
+- (void);
+- (id)6;
+- (id);
+- (id)listUserNotificationReceiptsWithCompletion:(id)arg1;
 - (void)"8@"NSError"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRequirementRange; // @synthesize osVersionRequirementRange=_osVersionRequirementRange;
-@property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSString *predicateFormat; // @synthesize predicateFormat=_predicateFormat;
 
 @end
 

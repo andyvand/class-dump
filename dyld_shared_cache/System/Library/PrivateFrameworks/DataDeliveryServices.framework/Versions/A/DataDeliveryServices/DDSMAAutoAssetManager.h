@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAssetQueryResultCache, NSString;
-@protocol DDSMAAutoAssetManagerDataSource, DDSMAAutoAssetProvider;
+@protocol DDSMAAutoAssetProvider;
 
 @interface DDSMAAutoAssetManager
 {
     id <DDSMAAutoAssetProvider> _provider;
-    id <DDSMAAutoAssetManagerDataSource> _dataSource;
-    DDSAssetQueryResultCache *_assetQueryResultsCache;
 }
 
-+ (_Bool);
++ (_Bool)setHasClientFeatureTriggered:(id)arg1;
+- (void)setHasCoreFollowUpPosted:(id)arg1;
+- (void)setHasContextCollectorFetchContext:(id)arg1;
+- (void)setHasContactSuggestionHeartbeatReported:(id)arg1;
+- (id)setHasContactQueryMetadata:(id)arg1;
+- (id)setHasConfusionPair:(id)arg1;
+- (id)setHasConfirmationSnippetUserAction:(id)arg1;
+- (id)setHasConfirmationSnippet:(id)arg1;
+- (id)setHasConfirmationOutcome:(id)arg1;
+- (id)setHasComponentShown:(id)arg1;
+- (id);
+- (id)P;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) DDSAssetQueryResultCache *assetQueryResultsCache; // @synthesize assetQueryResultsCache=_assetQueryResultsCache;
-@property(readonly, nonatomic) id <DDSMAAutoAssetManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <DDSMAAutoAssetProvider> provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
 
 @end
 

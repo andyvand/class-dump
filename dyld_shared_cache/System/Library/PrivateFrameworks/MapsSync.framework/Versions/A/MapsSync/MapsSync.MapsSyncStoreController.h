@@ -9,15 +9,11 @@
 @interface MapsSync.MapsSyncStoreController
 {
     void storeSubscriptionTypes;
-    id _store;
-    id _delegate;
-    id _callbackQueue;
-    id _barrierQueue;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (void);

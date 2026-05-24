@@ -6,24 +6,24 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFExecuteMenuItemCommand : SFCommand
 {
     NSString *_applicationBundleIdentifier;
-    NSString *_menuItemIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setAlbumEntityProperties:(id)arg1 forAlbumPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)e in %{private}s, %{private}@:(id)arg1 %{private}lu.
+%{private}@;
+- (id){CGRect={CGPoint=dd}{CGSize=dd}}32d64d72q80;
+- (id)ProjectExtensions;
+- (id)PHQueryForAssetInAlbumKind_CinematicVideoAlbum_block_invoke_88;
 - (id);
 - (id);
 - (void);
@@ -31,20 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *menuItemIdentifier; // @synthesize menuItemIdentifier=_menuItemIdentifier;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol FPReachabilityObserver
+
+@optional
+- (void)M;
 @end
 

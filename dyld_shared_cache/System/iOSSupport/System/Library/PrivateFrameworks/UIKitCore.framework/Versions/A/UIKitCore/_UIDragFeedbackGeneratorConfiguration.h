@@ -6,43 +6,35 @@
 
 #import <UIKitCore/_UIFeedbackGeneratorUserInteractionDrivenConfiguration.h>
 
-@class NSString, _UIFeedback;
-@protocol _UIFeedbackContinuousPlayable, _UIFeedbackDiscretePlayable;
+@class _UIFeedback;
+@protocol _UIFeedbackContinuousPlayable;
 
 @interface _UIDragFeedbackGeneratorConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     _UIFeedback<_UIFeedbackContinuousPlayable> *_interactionProgressingFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_interactionUpdatedFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_targetUpdatedFeedback;
-    double _progressingFeedbackDelay;
-    NSString *_hidTargetUpdatedFeedbackPatternName;
 }
 
 + (id)m.translation.z;
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)Hide;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id)!Ð!ÈCù^ð1Â0@ù
 × ;
-- (id)tion: /* Error: Ran out of types for this method. */;
-- (_Bool)unctuationOptionsForLocale:(id)arg1;
-- (void);
+- (id)windowWillAnimateRotateNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)smartPunctuationOptionsForLocale:(id)arg1;
+- (void)setTestRTIOneness:(double)arg1;
 - (id)?,C,N,S_setBackgroundColorTransformer:(struct _NSZone *)arg1 ,V_backgroundColorTransformer;
-- (double)rtrait;
+- (double)UIKBRenderFactory10Key_Portrait;
 - (void)axWidth = %g;
 - (long long)w2;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *hidTargetUpdatedFeedbackPatternName; // @synthesize hidTargetUpdatedFeedbackPatternName=_hidTargetUpdatedFeedbackPatternName;
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackContinuousPlayable> *interactionProgressingFeedback; // @synthesize interactionProgressingFeedback=_interactionProgressingFeedback;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *interactionUpdatedFeedback; // @synthesize interactionUpdatedFeedback=_interactionUpdatedFeedback;
-@property(nonatomic) double progressingFeedbackDelay; // @synthesize progressingFeedbackDelay=_progressingFeedbackDelay;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *targetUpdatedFeedback; // @synthesize targetUpdatedFeedback=_targetUpdatedFeedback;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)CPGridButtonIdentifier;
 + (id);
 + (void);
 - (id);

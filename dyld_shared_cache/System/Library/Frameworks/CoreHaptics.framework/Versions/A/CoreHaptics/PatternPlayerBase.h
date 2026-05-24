@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHapticEngine, NSArray, NSString;
+@class CHHapticEngine;
 
 __attribute__((visibility("hidden")))
 @interface PatternPlayerBase
 {
     CHHapticEngine *_engine;
-    NSArray *_events;
-    NSString *_patternID;
-    double _patternDuration;
-    int _muteState;
-    unsigned char _previousAction;
 }
 
 - (id);
 - (_Bool);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property __weak CHHapticEngine *engine; // @synthesize engine=_engine;
-@property(readonly) double patternDuration; // @synthesize patternDuration=_patternDuration;
-@property(readonly) NSString *patternID; // @synthesize patternID=_patternID;
 
 @end
 

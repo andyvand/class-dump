@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETTaskDefinition, NSString, PMLEspressoTrainingVariables, PMLMetaTrainingVariables;
-@protocol ETDataProvider;
+@class NSString;
 
 @interface PMLEspressoTrainingPlan
 {
     NSString *_planId;
-    ETTaskDefinition *_taskDefinition;
-    PMLMetaTrainingVariables *_mtv;
-    PMLEspressoTrainingVariables *_etv;
-    id <ETDataProvider> _trainingPredictions;
-    id <ETDataProvider> _groundTruth;
 }
 
 + (unsigned long long);
@@ -26,26 +20,19 @@
 + (int);
 - (_Bool);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)trackCachedButNotRegisteredMMCSItems:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class MSVisitedLocation, NSDate;
-
 @interface MSVisit : MapsSync.MapsSyncObject
 {
     id _hidden;
-    id _startDate;
-    id _visitClassification;
-    id _location;
 }
 
 + (id);
@@ -39,9 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hidden;
-@property(nonatomic, retain) MSVisitedLocation *location;
-@property(nonatomic, copy) NSDate *startDate;
-@property(nonatomic) short visitClassification;
 
 @end
 

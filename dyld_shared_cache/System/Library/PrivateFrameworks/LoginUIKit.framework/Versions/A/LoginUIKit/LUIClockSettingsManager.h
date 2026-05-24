@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUIClockSettings, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface LUIClockSettingsManager
 {
@@ -17,11 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Q;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *clockSettings; // @synthesize clockSettings=_clockSettings;
-@property(readonly) LUIClockSettings *defaultClockSettings;
 
 @end
 

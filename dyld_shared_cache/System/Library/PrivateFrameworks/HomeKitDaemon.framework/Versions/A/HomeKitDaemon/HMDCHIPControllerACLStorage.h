@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerACLStorage
@@ -13,28 +13,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)e~ÿ°Ø;
-- (_Bool);
+- (_Bool)_messageStrategyDelegate;
+- (void)rceType;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)t;
 - (id);
 - (_Bool);
 - (id);
-- (id)ingsFromLocalModel:(struct _NSZone *)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)exportOwnerUserSettingsFromLocalModel:(struct _NSZone *)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)ID %@;
 - (void);
 - (id)¡;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSDictionary *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(readonly) Class superclass;
 
 @end
 

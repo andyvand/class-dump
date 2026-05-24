@@ -7,7 +7,6 @@
 @interface SoundAnalysis.ClassifierVariant.E5SoundClassifierModelHashableUncodableWrapper
 {
     id id;
-    id wrapped;
 }
 
 @end

@@ -10,7 +10,6 @@
 @interface CRKUserDefaultsObject
 {
     NSString *_key;
-    NSObject<CRKKeyObjectStoring> *_store;
 }
 
 - (void);
@@ -24,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) NSObject<CRKKeyObjectStoring> *store; // @synthesize store=_store;
-@property(copy) id value;
 
 @end
 

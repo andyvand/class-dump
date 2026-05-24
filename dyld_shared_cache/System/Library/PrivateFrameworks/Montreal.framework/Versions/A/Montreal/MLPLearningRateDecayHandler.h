@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MLPLearningRateDecayHandlerDelegate;
-
 @interface MLPLearningRateDecayHandler
 {
     _Bool _stairCase;
-    float _learningRate;
-    float _decayRate;
-    float _decayedLearningRate;
-    unsigned long long _decaySteps;
-    unsigned long long _globalSteps;
-    id <MLPLearningRateDecayHandlerDelegate> _delegate;
 }
 
 - (void);
@@ -27,18 +19,12 @@
 - (void);
 - (id);
 - (float);
-- (void);
+- (void)IATE; COMMIT;;
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly) float decayRate; // @synthesize decayRate=_decayRate;
-@property(readonly) unsigned long long decaySteps; // @synthesize decaySteps=_decaySteps;
-@property float decayedLearningRate; // @synthesize decayedLearningRate=_decayedLearningRate;
-@property __weak id <MLPLearningRateDecayHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property unsigned long long globalSteps; // @synthesize globalSteps=_globalSteps;
 @property(readonly) float learningRate; // @synthesize learningRate=_learningRate;
-@property(readonly) _Bool stairCase; // @synthesize stairCase=_stairCase;
 
 @end
 

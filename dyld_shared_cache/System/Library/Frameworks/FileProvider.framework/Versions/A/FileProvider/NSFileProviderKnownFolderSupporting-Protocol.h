@@ -5,5 +5,6 @@
 //
 
 @protocol NSFileProviderKnownFolderSupporting
+- (void);
 @end
 

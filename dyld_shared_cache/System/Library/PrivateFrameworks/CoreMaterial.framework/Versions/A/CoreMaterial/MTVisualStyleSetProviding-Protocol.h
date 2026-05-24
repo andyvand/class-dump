@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MTTinting><MTBlending><MTFiltering><MTUserInfoProviding;
+
 @protocol MTVisualStyleSetProviding
+- (id <MTTinting><MTBlending><MTFiltering><MTUserInfoProviding>)8J	;
 @end
 

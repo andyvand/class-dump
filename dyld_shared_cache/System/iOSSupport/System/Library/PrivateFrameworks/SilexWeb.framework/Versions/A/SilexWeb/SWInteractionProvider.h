@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SWInteraction, SWInteractionFactory, SWLogger;
+@protocol SWInteraction, SWInteractionFactory;
 
 @interface SWInteractionProvider
 {
     id <SWInteraction> _interaction;
-    CDUnknownBlockType _interactionBlock;
-    id <SWInteractionFactory> _interactionFactory;
-    id <SWLogger> _logger;
-    NSMutableArray *_blocks;
 }
 
 - (id);
@@ -25,21 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (id)ility;
+- (id)updateReachability;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *blocks; // @synthesize blocks=_blocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWInteraction> interaction; // @synthesize interaction=_interaction;
-@property(copy, nonatomic) CDUnknownBlockType interactionBlock; // @synthesize interactionBlock=_interactionBlock;
 @property(readonly, nonatomic) id <SWInteractionFactory> interactionFactory; // @synthesize interactionFactory=_interactionFactory;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

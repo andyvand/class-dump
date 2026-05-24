@@ -11,7 +11,7 @@
     long long _importedBy;
 }
 
-+ (id);
++ (id);
 + (id)xt;
 - (long long);
 - (id)+;

@@ -5,5 +5,8 @@
 //
 
 @protocol CTXPCServiceStewieInterface
+- (void);
+- (void);
+- (void);
 @end
 

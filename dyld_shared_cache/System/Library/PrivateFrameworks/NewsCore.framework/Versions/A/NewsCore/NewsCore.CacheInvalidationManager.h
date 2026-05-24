@@ -7,13 +7,11 @@
 @interface NewsCore.CacheInvalidationManager
 {
     id configProvider;
-    id remoteConfig;
-    id cacheInvalidators;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

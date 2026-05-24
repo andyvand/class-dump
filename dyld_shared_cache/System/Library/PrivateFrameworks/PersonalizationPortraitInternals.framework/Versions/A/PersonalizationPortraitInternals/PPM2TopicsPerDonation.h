@@ -9,10 +9,6 @@
 @interface PPM2TopicsPerDonation
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _donationSource;
-    NSString *_groupId;
-    CDStruct_e3b84e97 _has;
 }
 
 - (void);
@@ -20,24 +16,24 @@
 - (_Bool);
 - (id);
 - (int);
+- (int);
+- (_Bool);
+- (_Bool);
+- (id)!;
+- (void);
+- (void)P;
 - (int);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)v;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)_fetchBrandInfoForBrandWithURI:forType:simID: /* Error: Ran out of types for this method. */;
+- (void)for handle:(id)arg1 %@  initializing to Pending;
 - (int);
 - (id);
 - (id);
@@ -46,14 +42,7 @@
 - (void)elper:(int)arg1 metadata fix up has never occurred.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasGroupId;
 
 @end
 

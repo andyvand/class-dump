@@ -7,11 +7,10 @@
 @interface PAImageType
 {
     unsigned long long _quality;
-    unsigned long long _variant;
 }
 
 + (id);
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (id);
@@ -31,7 +30,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 - (unsigned long long);

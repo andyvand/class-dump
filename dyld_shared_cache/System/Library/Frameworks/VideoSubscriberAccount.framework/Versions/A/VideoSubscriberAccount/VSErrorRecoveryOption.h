@@ -9,8 +9,6 @@
 @interface VSErrorRecoveryOption
 {
     _Bool _destructive;
-    NSString *_localizedAlertButtonTitle;
-    CDUnknownBlockType _attemptHandler;
 }
 
 - (void);
@@ -18,12 +16,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)6;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType attemptHandler; // @synthesize attemptHandler=_attemptHandler;
-@property(nonatomic, getter=isDestructive) _Bool destructive; // @synthesize destructive=_destructive;
 @property(copy, nonatomic) NSString *localizedAlertButtonTitle; // @synthesize localizedAlertButtonTitle=_localizedAlertButtonTitle;
 
 @end

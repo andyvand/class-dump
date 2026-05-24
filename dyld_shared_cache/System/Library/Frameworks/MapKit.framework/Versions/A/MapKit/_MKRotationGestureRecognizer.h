@@ -8,27 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _MKRotationGestureRecognizer
 {
     id _target;
-    SEL _action;
-    _Bool _enabled;
-    long long _state;
-    struct CGPoint _location;
-    double _rotationInDegrees;
 }
 
 - (void);
 - (void);
-- (double);
+- (double)_colorGaborDescriptor;
 - (long long);
 - (id);
 - (struct CGPoint);
-- (void);
-- (_Bool);
-- (void)tShowSeeMoreButton: /* Error: Ran out of types for this method. */;
+- (void)ategoricalScale init], use -initWithDomain:(long long)arg1 instead;
+- (_Bool)5;
+- (void)setShowSeeMoreButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) double rotation;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

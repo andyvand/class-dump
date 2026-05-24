@@ -6,26 +6,23 @@
 
 #import <FinderKit/FI_TTableViewItem.h>
 
-@class CNContact, NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FIAirDropListViewItem : FI_TTableViewItem
 {
     double _percentComplete;
-    _Bool _isCancellable;
-    _Bool _isIndeterminateProgress;
-    struct TFENode _node;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (_Bool);
-- (void);
+- (void)ions/C/Foundation;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -36,17 +33,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)¸;
 - (double)E4$_30vJEEE;
-- (struct TFENode)TCustomNode12MakeInstanceI17TTagContainerNodeJEEENSt3__14pairI7TFENodePT_EEDpOT0_E19MakeInstanceEnabler;
+- (struct TFENode)ZN11TCustomNode12MakeInstanceI17TTagContainerNodeJEEENSt3__14pairI7TFENodePT_EEDpOT0_E19MakeInstanceEnabler;
 
 // Remaining properties
-@property(nonatomic, getter=isCancellable) _Bool cancellable; // @synthesize cancellable=_isCancellable;
-@property(readonly, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) NSImage *icon;
-@property(nonatomic, getter=isIndeterminateProgress) _Bool indeterminateProgress; // @synthesize indeterminateProgress=_isIndeterminateProgress;
-@property(readonly, nonatomic) NSString *machineName;
-@property(readonly, nonatomic) struct TFENode node; // @synthesize node=_node;
-@property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(readonly, nonatomic) NSString *personName;
 @property(nonatomic) NSString *stateText;
 
 @end

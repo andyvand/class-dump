@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorStickerAttachmentInfo, IMDiMessagePipelineResources, NSString;
+@class IMDiMessagePipelineResources;
 
 @interface IMRepositionStickerProcessingPipelineComponent
 {
     IMDiMessagePipelineResources *_pipelineResources;
-    BlastDoorStickerAttachmentInfo *_stickerAttachmentInfo;
-    NSString *_stickerEditedMessageGuid;
 }
 
-- (id);
+- (id)�*C9?;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)pq;
 - (void)ä;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDiMessagePipelineResources *pipelineResources; // @synthesize pipelineResources=_pipelineResources;
-@property(copy, nonatomic) BlastDoorStickerAttachmentInfo *stickerAttachmentInfo; // @synthesize stickerAttachmentInfo=_stickerAttachmentInfo;
-@property(copy, nonatomic) NSString *stickerEditedMessageGuid; // @synthesize stickerEditedMessageGuid=_stickerEditedMessageGuid;
 
 @end
 

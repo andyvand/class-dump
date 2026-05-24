@@ -9,18 +9,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)leDeviceCollection;
++ (_Bool)NRMutableDeviceCollection;
 + (id)g;
 - (id);
 - (unsigned long long);
 - (id);
 - (oneway void);
 - (Class);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id)viceDocumentBrowserViewControllerInterface>"8;
 - (_Bool)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (long long)D;

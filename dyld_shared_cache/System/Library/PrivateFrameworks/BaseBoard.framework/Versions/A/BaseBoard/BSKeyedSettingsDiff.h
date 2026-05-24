@@ -16,12 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 

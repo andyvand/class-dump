@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ainerForContainerSize:(id)arg1 layoutAxis:(id)arg2;
-- (void)lignment:(id)arg1;
-- (void)ixColorTintAlpha;
+- (void)layoutContainerForContainerSize:(id)arg1 layoutAxis:(id)arg2;
+- (void)_setTitleTextAlignment:(id)arg1;
+- (void)_colorMatrixColorTintAlpha;
 - (id);
 - (void)òÄþÿôÄþÿ;
 - (void);

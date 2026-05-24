@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface DMFPolicyMonitor
 {
     int _firstUnlockToken;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_firstUnlockQueue;
-    NSObject<OS_dispatch_queue> *_registrationCallbackQueue;
-    NSMutableDictionary *_notificationTokensByPolicyMonitorIdentifier;
-    NSMutableArray *_pendingRequests;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 + (_Bool);
 + (id);
 - (void);
-- (void);
+- (void)h2;
 - (id);
 - (void);
 - (id);
@@ -40,20 +34,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_avatarView;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *firstUnlockQueue; // @synthesize firstUnlockQueue=_firstUnlockQueue;
-@property(readonly, nonatomic) int firstUnlockToken; // @synthesize firstUnlockToken=_firstUnlockToken;
-@property(readonly, nonatomic) NSMutableDictionary *notificationTokensByPolicyMonitorIdentifier; // @synthesize notificationTokensByPolicyMonitorIdentifier=_notificationTokensByPolicyMonitorIdentifier;
-@property(readonly, nonatomic) NSMutableArray *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *registrationCallbackQueue; // @synthesize registrationCallbackQueue=_registrationCallbackQueue;
 @property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

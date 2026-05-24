@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CoreSpotlightPreferences
 {
     int _notifyToken;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    CDUnknownBlockType _notifyHandler;
-    CDUnknownBlockType _notify_handler;
-    NSString *_state_key;
-    const char *_notification_key;
 }
 
 - (id);
@@ -29,17 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (int);
-- (void);
+- (void)c|;
 
 // Remaining properties
-@property(nonatomic) const char *notification_key; // @synthesize notification_key=_notification_key;
-@property(copy, nonatomic) CDUnknownBlockType notifyHandler; // @synthesize notifyHandler=_notifyHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue; // @synthesize notifyQueue=_notifyQueue;
-@property(readonly, nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property(readonly, copy, nonatomic) CDUnknownBlockType notify_handler; // @synthesize notify_handler=_notify_handler;
-@property(retain, nonatomic) NSString *state_key; // @synthesize state_key=_state_key;
 
 @end
 

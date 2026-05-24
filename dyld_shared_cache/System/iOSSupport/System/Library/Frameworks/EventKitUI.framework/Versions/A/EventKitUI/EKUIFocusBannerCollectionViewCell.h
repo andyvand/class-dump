@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIButton, UIListContentView;
-@protocol EKUIFocusBannerCollectionViewCellDelegate;
+@class UIButton;
 
 @interface EKUIFocusBannerCollectionViewCell
 {
     UIButton *_focusFilterToggleButton;
-    UIButton *_axFocusFilterToggleButton;
-    UIListContentView *_axListContentView;
-    NSArray *_axConstraints;
-    _Bool _on;
-    id <EKUIFocusBannerCollectionViewCellDelegate> _delegate;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)s;
+- (id)s;
 - (void);
 - (_Bool);
-- (id);
+- (id)g change notification (current token:%s. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void)iguration:animator: /* Error: Ran out of types for this method. */;
-- (id)ndar: /* Error: Ran out of types for this method. */;
+- (void)*;
+- (void)tableView:willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (id)compareDateIgnoringTimeComponents:inCalendar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKUIFocusBannerCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool on; // @synthesize on=_on;
 
 @end

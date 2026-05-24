@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFSimpleItemRichCardSection, SFCommandReference;
+@class RFSimpleItemRichCardSection;
 
 @interface RFSummaryItemExpandableContent
 {
     struct {
         unsigned int simple_item_rich_card_section:1;
     } _has;
-    RFSimpleItemRichCardSection *_simple_item_rich_card_section;
-    SFCommandReference *_command_reference;
 }
 
 + (_Bool);
@@ -21,28 +19,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)mapRelationshipKey:(id)arg1 toModelClass:payloadTransform: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)textUnderstandingData;
+- (id)ants=%lu, messages=%@;
 - (id);
 - (id);
 - (void)able;
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *command_reference; // @synthesize command_reference=_command_reference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFSimpleItemRichCardSection *simple_item_rich_card_section; // @synthesize simple_item_rich_card_section=_simple_item_rich_card_section;
-@property(readonly) Class superclass;
 
 @end
 

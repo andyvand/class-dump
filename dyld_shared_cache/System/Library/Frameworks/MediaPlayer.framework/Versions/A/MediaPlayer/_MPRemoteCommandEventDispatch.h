@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommandEvent, MSVBlockGuard, NSDate;
-
 __attribute__((visibility("hidden")))
 @interface _MPRemoteCommandEventDispatch
 {
     CDUnknownBlockType _continuation;
-    MSVBlockGuard *_deliveryGuard;
-    MSVBlockGuard *_dispatchGuard;
-    struct os_unfair_lock_s _lock;
-    MPRemoteCommandEvent *_event;
-    NSDate *_deliveryDate;
-    NSDate *_dispatchDate;
-    NSDate *_timeoutDate;
-    NSDate *_responseDate;
-    long long _state;
 }
 
 - (void);
 - (void);
-- (id);
-- (void):section:afterItem:inSection:completion: /* Error: Ran out of types for this method. */;
+- (id)`B;
+- (void)addDataSource:section:afterItem:inSection:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol Swift._NSArrayCore
+- (long long);
 - (long long)z`}`~```À`;
 
 // Remaining properties

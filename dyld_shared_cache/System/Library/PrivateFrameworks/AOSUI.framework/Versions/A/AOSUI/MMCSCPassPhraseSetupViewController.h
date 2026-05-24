@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSSecureTextField, NSString, NSTextField, NSTouchBar, iCloudTouchBarController;
-@protocol MMCSCPassPhraseSetupViewControllerDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCPassPhraseSetupViewController
 {
     NSString *_initialPassPhrase;
-    NSString *_confirmedPassPhrase;
-    long long _currentState;
-    _Bool _showChangeView;
-    _Bool _showRandomView;
-    id <MMCSCPassPhraseSetupViewControllerDelegate> _delegate;
-    NSImageView *_passPhraseImageView;
-    NSTextField *_passPhraseTitle;
-    NSTextField *_passPhraseMessage;
-    NSSecureTextField *_passPhraseSecurityCodeTextField;
-    NSTextField *_passPhraseRandomCodeTextField;
-    NSTextField *_passPhraseRandomCodeLabel;
-    NSTextField *_passPhraseEntryLabel;
-    NSButton *_passPhraseHelpButton;
-    NSButton *_passPhraseCancelButton;
-    NSButton *_passPhraseAlternateButton;
-    NSButton *_passPhraseConfirmButton;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (_Bool);
@@ -53,9 +35,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)av;
 - (id);
-- (id);
-- (id);
+- (id)}q	3;
 - (_Bool);
 - (id);
 - (void);
@@ -72,46 +54,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)];
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)CDPCAReporter;
+- (void)tentientmentamentisamentotisseuìsseuísseutriuíssiuatiuóiócióacióabaescaiscaïscaadaidaudaïdaiaariairiaaraierairaadoraïraavaixaitzaíaaríaeríairíaïaiscïscadedidieredreaseieseasteisteiiiniesquieixiitziamemaremiremàremíremàsseméssemiguemïguemavemàvemávemirìemíemaríemiríemassimessimissimàssimèssiméssimíssimïmanabanarianaranieraniraníanaríaneríaniríanenienarienirienarenerenirenàrenïrenaseniesenassenessenissenéssenïssenesquenisquenïsquenavenixeneixenïxenïeninininsinisinassinessinissinïssinesquineixinaronieronaráneránirániïnadoidoandoiendoioixoeixoïxoitzoartzarereixeriradorasabasadasidasarasierasíasaríaseríasiríasidsesadesidesudesïdesatgesiesariesiriesaresiresadoresïresasesiesesassesessesissesïssesquesesquesïsquesavesixeseixesïxesïesabaisaraisieraisíaisaríaiseríaisiríaisaseisieseisasteisisteisinissisisisassisessisissisïssisesquiseixisitzisáisaréiseréisiréisamsadosidosamosábamosáramosiéramosíamosaríamoseríamosiríamosaremoseremosiremosásemosiésemosimosadorsasserassessatsitsentsàsaràsiràsaráserásirásésarésísiïsatitantentintutïtauerauieuineuareuireuàreuíreuasseuesseueresseuàsseuésseuigueuïgueuàveuáveuitzeuìeuirìeuíeuaríeuiríeuassiuissiuàssiuèssiuéssiuíssiuïuixeixïxitziàaràiràitzàaráeráiráirèaréeréiréíiïióicaeiïnoirsisosïsiteuiuiquitzàáéìíïóaeiou.·àáèéìíïòóúüA;
 - (id);
 - (void);
+- (id);
+- (void)pO;
 - (void);
 - (void);
-- (id)TIBLE_MULTIPLE_DEVICES_RUNON;
+- (id)ICLOUD_DRIVE_INCOMPATIBLE_MULTIPLE_DEVICES_RUNON;
 
 // Remaining properties
-@property(copy) NSString *confirmedPassPhrase; // @synthesize confirmedPassPhrase=_confirmedPassPhrase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCPassPhraseSetupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *initialPassPhrase; // @synthesize initialPassPhrase=_initialPassPhrase;
-@property(readonly) _Bool isSecurePassphrase; // @dynamic isSecurePassphrase;
-@property(readonly) NSString *passPhrase;
-@property __weak NSButton *passPhraseAlternateButton; // @synthesize passPhraseAlternateButton=_passPhraseAlternateButton;
-@property __weak NSButton *passPhraseCancelButton; // @synthesize passPhraseCancelButton=_passPhraseCancelButton;
-@property __weak NSButton *passPhraseConfirmButton; // @synthesize passPhraseConfirmButton=_passPhraseConfirmButton;
-@property __weak NSTextField *passPhraseEntryLabel; // @synthesize passPhraseEntryLabel=_passPhraseEntryLabel;
-@property __weak NSButton *passPhraseHelpButton; // @synthesize passPhraseHelpButton=_passPhraseHelpButton;
-@property __weak NSImageView *passPhraseImageView; // @synthesize passPhraseImageView=_passPhraseImageView;
-@property __weak NSTextField *passPhraseMessage; // @synthesize passPhraseMessage=_passPhraseMessage;
-@property __weak NSTextField *passPhraseRandomCodeLabel; // @synthesize passPhraseRandomCodeLabel=_passPhraseRandomCodeLabel;
-@property __weak NSTextField *passPhraseRandomCodeTextField; // @synthesize passPhraseRandomCodeTextField=_passPhraseRandomCodeTextField;
-@property __weak NSSecureTextField *passPhraseSecurityCodeTextField; // @synthesize passPhraseSecurityCodeTextField=_passPhraseSecurityCodeTextField;
-@property __weak NSTextField *passPhraseTitle; // @synthesize passPhraseTitle=_passPhraseTitle;
-@property _Bool showChangeView; // @synthesize showChangeView=_showChangeView;
-@property _Bool showRandomView; // @synthesize showRandomView=_showRandomView;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end
 

@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (id)ForImageSheetForWebView:(id)arg1;
-- (id)ce:timestamp: /* Error: Ran out of types for this method. */;
+- (id)superviewForImageSheetForWebView:(id)arg1;
+- (id)addPoint:force:timestamp: /* Error: Ran out of types for this method. */;
 - (void)tQÿS;
 
 // Remaining properties

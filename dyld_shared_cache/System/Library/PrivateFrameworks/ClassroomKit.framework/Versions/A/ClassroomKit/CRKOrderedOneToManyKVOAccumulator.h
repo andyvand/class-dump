@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKPointerSet, NSMapTable, NSMutableArray, NSObject, NSString;
-@protocol CRKOrderedOneToManyKVOAccumulatorDelegate;
+@class CRKPointerSet;
 
 @interface CRKOrderedOneToManyKVOAccumulator
 {
     CRKPointerSet *mInsertedObjects;
-    CRKPointerSet *mReplacementObjects;
-    NSMapTable *mIndexForDeletedObject;
-    NSMapTable *mOriginalIndexOfMovedObject;
-    NSMutableArray *mObservedShadow;
-    long long mInitialArrayCount;
-    id <CRKOrderedOneToManyKVOAccumulatorDelegate> _delegate;
-    NSString *_observedKeyPath;
-    NSObject *_observedObject;
 }
 
 - (void);
@@ -31,18 +22,15 @@
 - (void);
 - (void);
 - (id);
+- (void)8h;
+- (id);
+- (void)BuddyStateObserver:(id)arg1 Polling buddy status.;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)edIdentityPersistentId:commonNamePrefix: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithIdentityPersistentId:stagedIdentityPersistentId:commonNamePrefix: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CRKOrderedOneToManyKVOAccumulatorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) _Bool hasChanges;
-@property(copy, nonatomic) NSString *observedKeyPath; // @synthesize observedKeyPath=_observedKeyPath;
-@property(nonatomic) __weak NSObject *observedObject; // @synthesize observedObject=_observedObject;
 
 @end
 

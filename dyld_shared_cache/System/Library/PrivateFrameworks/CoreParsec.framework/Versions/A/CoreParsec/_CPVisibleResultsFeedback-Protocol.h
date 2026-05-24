@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _CPSearchResultForFeedback;
+@class NSArray;
 
 @protocol _CPVisibleResultsFeedback
+- (unsigned long long);
+- (NSArray *);
+- (int);
+- (void)isEqualToString: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (int)ackType:completion: /* Error: Ran out of types for this method. */;
+- (int)flushCustomFeedbackType:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _CPSearchResultForFeedback *goTakeoverResult;
-@property(nonatomic) int inputToResultShownMs;
-@property(nonatomic) _Bool isFilterBarShown;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *results;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
-@property(copy, nonatomic) NSArray *uniqueIdentifiersOfVisibleCardSections;
-@property(copy, nonatomic) NSArray *uniqueIdsOfVisibleButtons;
 @end
 

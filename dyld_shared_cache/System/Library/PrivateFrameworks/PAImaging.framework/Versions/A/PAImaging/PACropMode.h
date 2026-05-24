@@ -11,13 +11,11 @@
 @interface PACropMode : PAImageItemViewDefaultMode
 {
     PACropModeDrawingDelegate *_drawingDelegate;
-    CDUnknownBlockType __cropImageReadyHandler;
-    struct CATransform3D _inversePreviewTransform;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (struct CATransform3D);
@@ -29,16 +27,14 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)ousTokensBlockStoryGeneration;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType _cropImageReadyHandler; // @synthesize _cropImageReadyHandler=__cropImageReadyHandler;
 @property(retain) PACropModeDrawingDelegate *drawingDelegate; // @synthesize drawingDelegate=_drawingDelegate;
-@property struct CATransform3D inversePreviewTransform; // @synthesize inversePreviewTransform=_inversePreviewTransform;
 
 @end
 

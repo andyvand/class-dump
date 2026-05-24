@@ -5,5 +5,8 @@
 //
 
 @protocol VCConnectionManagerDelegate
+
+@optional
+- (void);
 @end
 

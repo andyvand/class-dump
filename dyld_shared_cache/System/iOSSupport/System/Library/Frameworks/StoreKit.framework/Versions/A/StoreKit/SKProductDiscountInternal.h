@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSLocale, NSString, SKProductSubscriptionPeriod;
+@class NSDecimalNumber;
 
 __attribute__((visibility("hidden")))
 @interface SKProductDiscountInternal
 {
     NSDecimalNumber *_price;
-    NSLocale *_priceLocale;
-    unsigned long long _paymentMode;
-    SKProductSubscriptionPeriod *_subscriptionPeriod;
-    unsigned long long _numberOfPeriods;
-    unsigned long long _type;
-    NSString *_identifier;
 }
 
 - (void);

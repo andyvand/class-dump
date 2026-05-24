@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheMaintenanceEnded : SISchemaInstrumentationMessage
 {
     unsigned int _numberOfEntriesUpdated;
-    unsigned int _totalCacheEntries;
-    unsigned int _timeSinceMaintenanceStartedInSeconds;
-    int _reason;
-    struct {
-        unsigned int numberOfEntriesUpdated:1;
-        unsigned int totalCacheEntries:1;
-        unsigned int timeSinceMaintenanceStartedInSeconds:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -37,31 +26,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
-- (_Bool);
+- (id)";
+- (int)chInfoEnabled:%d, fusionInfoEnabled:%d /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nchInfo"8@"NSError"16;
 - (_Bool);
-- (_Bool);
+- (_Bool)dCopyMessageForRowID [%lld];
 - (void);
 - (id);
 - (id);
-- (id)tionsAfter;
+- (id)_numberOfActionsAfter;
 - (id),N,V_hasSyncDataDownloadContext;
-- (void)AMBIENT;
+- (void)MHAUDIOSESSIONCATEGORY_SOLO_AMBIENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumberOfEntriesUpdated;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasTimeSinceMaintenanceStartedInSeconds;
-@property(nonatomic) _Bool hasTotalCacheEntries;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numberOfEntriesUpdated; // @synthesize numberOfEntriesUpdated=_numberOfEntriesUpdated;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned int timeSinceMaintenanceStartedInSeconds; // @synthesize timeSinceMaintenanceStartedInSeconds=_timeSinceMaintenanceStartedInSeconds;
-@property(nonatomic) unsigned int totalCacheEntries; // @synthesize totalCacheEntries=_totalCacheEntries;
 
 @end
 

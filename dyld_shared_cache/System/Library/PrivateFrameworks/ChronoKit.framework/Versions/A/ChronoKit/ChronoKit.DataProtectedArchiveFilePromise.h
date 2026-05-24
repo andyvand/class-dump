@@ -7,11 +7,6 @@
 @interface ChronoKit.DataProtectedArchiveFilePromise
 {
     id id;
-    id fileManager;
-    id destination;
-    id protectionLevel;
-    id intermediates;
-    id _needsCleanup;
 }
 
 @end

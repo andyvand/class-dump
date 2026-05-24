@@ -11,7 +11,7 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 struct passwd {

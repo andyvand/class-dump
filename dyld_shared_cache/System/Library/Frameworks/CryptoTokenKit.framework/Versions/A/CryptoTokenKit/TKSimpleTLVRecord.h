@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)GCSession _invalidate]_block_invoke;
 
 @end
 

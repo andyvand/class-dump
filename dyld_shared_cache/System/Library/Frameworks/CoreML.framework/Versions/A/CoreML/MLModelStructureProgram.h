@@ -18,7 +18,6 @@
 - (void)r type not recognized.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *functions; // @synthesize functions=_functions;
 @property(readonly, nonatomic) MLModelStructureProgramFunction *mainFunction;
 
 @end

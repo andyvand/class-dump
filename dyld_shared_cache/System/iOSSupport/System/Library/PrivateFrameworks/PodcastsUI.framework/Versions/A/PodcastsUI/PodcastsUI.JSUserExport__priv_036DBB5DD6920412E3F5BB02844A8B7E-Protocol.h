@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol PodcastsUI.JSUserExport__priv_036DBB5DD6920412E3F5BB02844A8B7E
+- (NSString *)`;
+- (NSString *);?׸X8?;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accountIdentifier;
-@property(nonatomic, readonly) NSString *dsid;
-@property(nonatomic, readonly) NSString *firstName;
-@property(nonatomic, readonly) NSString *lastName;
 @end
 

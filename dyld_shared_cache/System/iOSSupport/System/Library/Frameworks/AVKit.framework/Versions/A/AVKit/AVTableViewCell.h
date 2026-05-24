@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     id _representedObject;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)_unwrapEncryptedData:(id)arg1 usingKeyID:forPCS:withContextString: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 

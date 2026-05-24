@@ -6,25 +6,25 @@
 
 #import <PhotoImaging/PIParallaxStyle.h>
 
-@class NSString, PIParallaxStyleRecipe;
+@class NSString;
 
 @interface PIParallaxRecipeStyle : PIParallaxStyle
 {
     NSString *_identifier;
-    PIParallaxStyleRecipe *_recipe;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool)nning
+Progress:(id)arg1;
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setMaxAutoStraighten: /* Error: Ran out of types for this method. */;
 
 @end
 

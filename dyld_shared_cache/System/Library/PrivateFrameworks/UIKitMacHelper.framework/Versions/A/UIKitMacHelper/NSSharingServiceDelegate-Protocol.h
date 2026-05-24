@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSharingService, NSView;
+
 @protocol NSSharingServiceDelegate
+
+@optional
+- (NSView *)setCharge_duration_p_0_25_at_charge_start_secs_curr_dynamic_bin_4:(NSSharingService *)arg1;
 @end
 

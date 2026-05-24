@@ -11,7 +11,7 @@
     _PASLock *_currentClassifier;
 }
 
-+ (id);
++ (id)$;
 - (_Bool);
 - (id);
 - (unsigned long long);

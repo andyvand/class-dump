@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CopyStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _relation;
-    id _query;
-    id _attlist;
-    id _isFrom;
-    id _isProgram;
-    id _filename;
-    id _options;
-    id _whereClause;
 }
 
 @end

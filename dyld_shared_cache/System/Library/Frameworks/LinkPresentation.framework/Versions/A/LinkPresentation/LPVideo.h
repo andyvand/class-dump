@@ -6,20 +6,12 @@
 
 #import <LinkPresentation/LPVisualMedia.h>
 
-@class AVAsset, AVURLAsset, LPVideoProperties, NSItemProvider, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class AVAsset, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface LPVideo : LPVisualMedia
 {
     NSObject<OS_dispatch_queue> *_mediaLoadingQueue;
-    NSItemProvider *_itemProvider;
-    LPVideo *_videoLoadedFromItemProvider;
-    NSObject<OS_dispatch_group> *_itemProviderLoadGroup;
-    struct CGSize _intrinsicSize;
-    _Bool _startedFetchingIntrinsicSize;
-    AVURLAsset *_asset;
-    id _mediaServicesResetNotificationHandler;
-    NSURL *_streamingURL;
 }
 
 + (_Bool);
@@ -45,29 +37,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)et for service %@:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)fE;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *_asset;
-@property(readonly, retain, nonatomic) NSItemProvider *_itemProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAudio;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) LPVideoProperties *properties; // @dynamic properties;
-@property(readonly, retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSURL *youTubeURL;
 
 @end
 

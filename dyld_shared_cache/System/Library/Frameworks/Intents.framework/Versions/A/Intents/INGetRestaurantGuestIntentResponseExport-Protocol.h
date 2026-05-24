@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurantGuest, INRestaurantGuestDisplayPreferences;
+@class INRestaurantGuest;
 
 @protocol INGetRestaurantGuestIntentResponseExport
-- (long long)ibuteType;
+- (void)ght;
+- (long long)hasAttributeType;
 
 // Remaining properties
-@property(readonly) long long code;
 @property(copy) INRestaurantGuest *guest;
-@property(copy) INRestaurantGuestDisplayPreferences *guestDisplayPreferences;
 @end
 

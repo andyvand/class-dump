@@ -5,5 +5,9 @@
 //
 
 @protocol APWebProcessDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

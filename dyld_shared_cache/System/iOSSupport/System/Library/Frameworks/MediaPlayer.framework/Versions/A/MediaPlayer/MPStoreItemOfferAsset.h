@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface MPStoreItemOfferAsset
 {
     NSDictionary *_lookupDictionary;
 }
 
-- (double);
+- (double)_winagg;
 - (id);
-- (double);
+- (double);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (void)viorChangedObserver;
+- (void)_addToPlaylistBehaviorChangedObserver;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) NSString *flavor;
 @property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, nonatomic) double previewDuration;
-@property(readonly, copy, nonatomic) NSURL *previewURL;
-@property(readonly, nonatomic) long long size;
 
 @end
 

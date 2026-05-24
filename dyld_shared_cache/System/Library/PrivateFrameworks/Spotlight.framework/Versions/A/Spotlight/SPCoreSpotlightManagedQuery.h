@@ -6,15 +6,11 @@
 
 #import <Spotlight/SPCoreSpotlightQuery.h>
 
-@class NSError, NSSet;
+@class NSSet;
 
 @interface SPCoreSpotlightManagedQuery : SPCoreSpotlightQuery
 {
     NSSet *_startedQueries;
-    NSSet *_gatherEndedQueries;
-    NSSet *_completedQueries;
-    NSSet *_erroredQueries;
-    NSError *_mostRecentError;
 }
 
 + (id);

@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void)Appending expressive send style message part for message %@;
+- (_Bool)global setting:[%ld], chat setting:[%ld] /* Error: Ran out of types for this method. */;
+- (id)ted to companion;
 - (void);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (CDStruct_227bb23d);
-- (void);
+- (CDStruct_227bb23d)_baseNowPlayingInfo;
+- (void)MPMusicPlayerPlayParameters;
 - (id)Ç;
 - (void)@+ÿ;
 - (void)ü:ÿ7EÌ@*g /* Error: Ran out of types for this method. */;

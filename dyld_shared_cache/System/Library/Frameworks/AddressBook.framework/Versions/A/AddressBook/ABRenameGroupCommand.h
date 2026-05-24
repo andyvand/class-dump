@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSString;
+@class ABGroup;
 
 @interface ABRenameGroupCommand
 {
     ABGroup *_group;
-    NSString *_name;
 }
 
 - (id);

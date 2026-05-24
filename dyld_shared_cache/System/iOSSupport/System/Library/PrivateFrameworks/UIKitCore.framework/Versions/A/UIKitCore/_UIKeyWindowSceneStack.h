@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableOrderedSet, NSString, UIWindowScene;
+@class NSMapTable, UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyWindowSceneStack
 {
     NSMapTable *_recordsByWindowScene;
-    NSMutableOrderedSet *_orderedRecords;
-    UIWindowScene *_keyWindowSceneInStack;
-    struct {
-        unsigned int affectsApplicationKeyWindow:1;
-        unsigned int hasViewServiceEntitlement:1;
-    } _sceneStackFlags;
-    NSString *_name;
 }
 
-+ (void);
++ (void);
 - (void);
 - (id);
+- (void)C;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_prioritizeStartupOverQuality;
+- (id)albumAlbumArtistPersistentID;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -39,26 +32,16 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ô ;
 - (id)
 × ;
-- (void)aryViewControllerForExpandingPanelController:(_Bool)arg1;
-- (id)ft;
+- (void)primaryViewControllerForExpandingPanelController:(_Bool)arg1;
+- (id)_delayedLift;
 - (void)PreviewParameters",&,N,V_previewParameters;
 - (void)Name;
 - (id)MFEmojiCategoryTravelAndPlaces(void);
 - (unsigned long long)tsInPortrait;
-- (void)rSectionPlacement;
+- (void)N_UIBarSectionPlacement;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool affectsApplicationKeyWindow;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) UIWindowScene *keyWindowSceneInStack;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

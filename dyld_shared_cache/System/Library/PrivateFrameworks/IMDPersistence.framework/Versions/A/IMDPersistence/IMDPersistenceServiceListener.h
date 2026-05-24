@@ -9,9 +9,6 @@
 @interface IMDPersistenceServiceListener
 {
     id listener;
-    id anonymousListener;
-    id queue;
-    id state;
 }
 
 - (void);
@@ -20,9 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)yCatalogCertificate:%@
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ABCleanGroupHeaderEntryListCellView;
 - (void)IMDPersistence.IMDExportedMessageRecordBatch;
 
 // Remaining properties

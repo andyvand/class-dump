@@ -10,8 +10,8 @@
 }
 
 - (int);
-- (int);
-- (int);
+- (int)( ;
+- (int)( ;
 - (void);
 - (id);
 - (void);

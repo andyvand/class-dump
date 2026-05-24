@@ -10,17 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AudioBuffer {
-    unsigned int mNumberChannels;
-    unsigned int mDataByteSize;
-    void *mData;
-};
-
-struct AudioBufferList {
-    unsigned int mNumberBuffers;
-    struct AudioBuffer mBuffers[1];
-};
-
 struct AudioStreamBasicDescription {
     double _field1;
     unsigned int _field2;

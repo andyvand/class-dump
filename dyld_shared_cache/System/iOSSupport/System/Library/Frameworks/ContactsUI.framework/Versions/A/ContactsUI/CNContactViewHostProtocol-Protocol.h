@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactViewHostProtocol
+- (void);
 @end
 

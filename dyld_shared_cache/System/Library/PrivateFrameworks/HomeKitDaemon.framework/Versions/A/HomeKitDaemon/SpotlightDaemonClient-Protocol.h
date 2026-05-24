@@ -5,5 +5,8 @@
 //
 
 @protocol SpotlightDaemonClient
+
+@optional
+- (void);
 @end
 

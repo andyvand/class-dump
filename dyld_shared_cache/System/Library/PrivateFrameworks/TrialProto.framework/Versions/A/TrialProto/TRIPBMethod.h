@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIPBMethod : TRIPBMessage
 {
@@ -16,13 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSMutableArray *optionsArray; // @dynamic optionsArray;
-@property(readonly, nonatomic) unsigned long long optionsArray_Count; // @dynamic optionsArray_Count;
-@property(nonatomic) _Bool requestStreaming; // @dynamic requestStreaming;
-@property(copy, nonatomic) NSString *requestTypeURL; // @dynamic requestTypeURL;
-@property(nonatomic) _Bool responseStreaming; // @dynamic responseStreaming;
-@property(copy, nonatomic) NSString *responseTypeURL; // @dynamic responseTypeURL;
-@property(nonatomic) int syntax; // @dynamic syntax;
 
 @end
 

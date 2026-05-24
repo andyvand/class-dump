@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraRecordingSessionNotificationTriggerDelegate
+- (void)C;
 @end
 

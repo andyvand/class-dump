@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMAccessoryInfoDataProviderDataSource, HMAccessoryInfoDataProviderDelegate, HMELastEventStoreReadHandle, HMESubscriptionProviding;
+@protocol HMAccessoryInfoDataProviderDataSource, HMELastEventStoreReadHandle;
 
 @interface HMAccessoryInfoDataProvider
 {
     id <HMAccessoryInfoDataProviderDataSource> _dataSource;
-    id <HMAccessoryInfoDataProviderDelegate> _delegate;
-    id <HMELastEventStoreReadHandle> _eventStoreReadHandle;
-    id <HMESubscriptionProviding> _eventSubscriptionProvider;
 }
 
 + (id)letion:] /* Error: Ran out of types for this method. */;
@@ -31,27 +27,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id)A;
 - (id);
-- (id);
-- (void);
+- (void)egmentIndex;
 - (void);
 - (id);
 - (void);
 - (void)from setupCode:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <HMAccessoryInfoDataProviderDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMAccessoryInfoDataProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle; // @synthesize eventStoreReadHandle=_eventStoreReadHandle;
-@property(readonly) id <HMESubscriptionProviding> eventSubscriptionProvider; // @synthesize eventSubscriptionProvider=_eventSubscriptionProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,34 +6,22 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSMapTable, NSMutableSet, NSSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface UITouchesEvent : UIEvent
 {
     NSMutableSet *_allTouchesMutable;
-    NSSet *_allTouchesImmutableCached;
-    struct __CFDictionary *_keyedTouches;
-    struct __CFDictionary *_keyedTouchesByWindow;
-    struct __CFDictionary *_gestureRecognizersByWindow;
-    NSMapTable *_latentSystemGestureWindows;
-    struct __CFDictionary *_coalescedTouches;
-    struct __CFDictionary *_finalTouches;
-    _Bool _isCallingEventObservers;
-    NSMutableSet *_exclusiveTouchWindows;
-    _Bool _containsHIDPointerEvent;
-    unsigned long long _currentPointerEventSource;
-    long long _singleAllowableExternalTouchPathIndex;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id)@;
+- (long long)no privatekey;
 - (void);
 - (void);
-- (id);
+- (id)self;
 - (id);
 - (struct CGPoint);
 - (void);
@@ -43,15 +31,15 @@ __attribute__((visibility("hidden")))
 - (struct __CFDictionary *);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)`;
+- (id)(";
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)ð1Â0@ù
 × ;
@@ -73,11 +61,11 @@ __attribute__((visibility("hidden")))
 - (id)ndaryViewController"b1"delegateWantsSeparateSecondaryViewController"b1"delegateWantsPrimaryViewControllerForCollapse"b1"delegateWantsPrimaryViewControllerForExpanding"b1"collapsedState"b2"primaryHidingState"b2"primaryHidingStateForCurrentOrientation"b2"delegateWantsWillChangeToDisplayMode"b1"delegateWantsTargetDisplayModeForAction"b1"delegateCanModifyFirstResponderOnTraitCollectionTransition"b1"pendingPresentMasterViewController"b1"pendingUpdateTargetDisplayMode"b1"collapsingClockwise"b1"firstResponderChangedFromPostTransitionResponder"b1"firstResponderChangedFromPostTransitionResponderToNil"b1"inWillTransitionToSize"b1"hasTransitioningToInternalMode"b1"delegateImplementsPrivateIsPrimaryVisible"b1"delegateImplementsPrivateCollapseSecondaryViewControllerWhileSuspended"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
 - (void)NSIndexPath"16@"UIView"24;
 - (void)isHostedByNavigationBar"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"providesRestingMeasurementValues"b1"navigationBarWantsFlexibleInlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
-- (_Bool)ard;
-- (void);
-- (unsigned long long)Callback;
-- (void)d:(id)arg1;
-- (id)dsForceUpdate;
+- (_Bool)shouldFollowCurrentKeyboard;
+- (void)setDate:(id)arg1 animate:(id)arg2;
+- (unsigned long long)_transferQueue_hasSentBeganCallback;
+- (void)_setFrame:(id)arg1 forView:(long long)arg2 isOldFrameInvalid:(struct __IOHIDEvent *)arg3;
+- (id)_needsForceUpdate;
 - (id)ColorTransformerIdentifier:,V_colorTransformerIdentifier /* Error: Ran out of types for this method. */;
 - (id)imatesSectionFooterHeights;
 - (id)tConstraint",&,N,V_leadingQuickActionViewEdgeConstraint;
@@ -89,7 +77,7 @@ LwÌx;
 - (void);
 - (void)°YHa¸abPcücäe(f;
 - (id)jiCategoryObjects(void);
-- (double);
+- (double)labelColor;
 - (void)old search controller. Investigate if repro steps are available. Otherwise, ignore.;
 - (void)Aþÿ;
 - (id);
@@ -106,15 +94,6 @@ LwÌx;
 
 // Remaining properties
 @property(readonly, nonatomic) double _initialTouchTimestamp;
-@property(readonly, nonatomic, getter=_containsHIDPointerEvent) _Bool containsHIDPointerEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long singleAllowableExternalTouchPathIndex; // @synthesize singleAllowableExternalTouchPathIndex=_singleAllowableExternalTouchPathIndex;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _PHAWallpaperSuggestionCount
 {
     NSString *_personLocalIdentifer;
-    NSNumber *_count;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)˪c;
 - (id);
-- (void)VisionUnimplementedFunction;
+- (void)errorForPhotoVisionUnimplementedFunction;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *count; // @synthesize count=_count;
 @property(retain, nonatomic) NSString *personLocalIdentifer; // @synthesize personLocalIdentifer=_personLocalIdentifer;
 
 @end

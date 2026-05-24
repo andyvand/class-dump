@@ -9,10 +9,9 @@
 @interface TSTCellDictionary
 {
     TSUIntegerKeyDictionary *mDict;
-    struct _opaque_pthread_rwlock_t mDictRWLock;
 }
 
-- (void);
+- (void)waitingToPlayAtSpecifiedRate;
 - (id);
 - (void);
 - (id);

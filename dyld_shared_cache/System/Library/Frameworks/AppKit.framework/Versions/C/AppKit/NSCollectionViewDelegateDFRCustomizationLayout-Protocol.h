@@ -5,5 +5,7 @@
 //
 
 @protocol NSCollectionViewDelegateDFRCustomizationLayout
+- (long long)!;
+- (_Bool);
 @end
 

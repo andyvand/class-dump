@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SRSampling;
+
 @protocol SRSensorWriterProvider
+- (_Bool)@0:(id <SRSampling>)arg1 8@16@24@32@40B48;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBundleIdentifierEligible;
-@property(readonly, nonatomic) _Bool isMonitoring;
 @property(readonly, nonatomic) _Bool isValidSRSensorWriterPresent;
 @end
 

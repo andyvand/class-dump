@@ -6,12 +6,11 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class CLSServiceManager, PGGraphPersonNode;
+@class PGGraphPersonNode;
 
 @interface PGChildOutdoorMemoryTitleGenerator : PGTitleGenerator
 {
     PGGraphPersonNode *_personNode;
-    CLSServiceManager *_serviceManager;
 }
 
 - (id);

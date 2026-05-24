@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)rivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags;
 + (id);
 + (void);
 - (id);
@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (struct CGPoint);
 - (_Bool);

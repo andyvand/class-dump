@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCertifiedDeliveryContext, NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface IDSServerMessagingIncomingContext
 {
     _Bool _fromServerStorage;
-    IDSCertifiedDeliveryContext *_certifiedDeliveryContext;
-    NSString *_identifier;
-    NSNumber *_command;
-    NSDictionary *_additionalTopLevelFields;
 }
 
 + (_Bool);
@@ -28,15 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalTopLevelFields; // @synthesize additionalTopLevelFields=_additionalTopLevelFields;
-@property(retain, nonatomic) IDSCertifiedDeliveryContext *certifiedDeliveryContext; // @synthesize certifiedDeliveryContext=_certifiedDeliveryContext;
-@property(retain, nonatomic) NSNumber *command; // @synthesize command=_command;
-@property(nonatomic) _Bool fromServerStorage; // @synthesize fromServerStorage=_fromServerStorage;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

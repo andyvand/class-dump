@@ -9,18 +9,16 @@
 @interface LUI2ProgressBarWindowController
 {
     NSTimer *_fillTimer;
-    float _fillValue;
-    LUIProgressBar *_progressBar;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (float);
+- (float);
 - (id);
 - (void);
-- (void);
+- (void)scheduledTimerWithTimeInterval:repeats:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) LUIProgressBar *progressBar; // @synthesize progressBar=_progressBar;

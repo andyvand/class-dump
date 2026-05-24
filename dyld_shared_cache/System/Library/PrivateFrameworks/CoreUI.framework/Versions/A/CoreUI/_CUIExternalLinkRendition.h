@@ -6,13 +6,12 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _CUIExternalLinkRendition : CUIThemeRendition
 {
     NSString *_assetPackIdentifier;
-    NSMutableSet *_externalTags;
 }
 
 - (id);

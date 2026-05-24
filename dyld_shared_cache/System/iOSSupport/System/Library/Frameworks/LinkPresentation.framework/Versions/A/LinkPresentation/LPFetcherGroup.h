@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPFetcherConfiguration, NSMutableArray, NSString;
+@class LPFetcherConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherGroup
 {
     LPFetcherConfiguration *_configuration;
-    long long _responsePolicy;
-    CDUnknownBlockType _completionHandler;
-    NSMutableArray *_tasks;
-    _Bool _doneAddingFetchers;
-    _Bool _done;
-    _Bool _cancelled;
-    unsigned int _loggingID;
-    NSString *_description;
 }
 
-- (void);
+- (void)tapbackPickerSizingFont;
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned int);
+- (id)suggestedActionButtonMinWidth;
+- (void)stickerPositionVersion;
+- (void)stickerEffectViewForStickerChatItem: /* Error: Ran out of types for this method. */;
+- (void)startCompletePinningOnboardingAnimation;
+- (id)snapshotForGUID: /* Error: Ran out of types for this method. */;
+- (void)showConversationListWithAnimation:(id)arg1;
+- (void)essages:(id)arg1;
+- (unsigned int)relayReachabilityContext;
 - (void);
 - (void);
 - (void)qð1Â0@ù

@@ -8,24 +8,22 @@ __attribute__((visibility("hidden")))
 @interface CNUIAcceptedContactActionsMetricsEvent
 {
     _Bool _hasReported;
-    long long _actionType;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(nonatomic) _Bool hasReported; // @synthesize hasReported=_hasReported;
 
 @end
 

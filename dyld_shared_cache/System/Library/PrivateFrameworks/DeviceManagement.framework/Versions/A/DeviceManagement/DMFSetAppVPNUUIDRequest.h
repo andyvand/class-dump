@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:draggingSession:willBeginAtPoint:forItemsAtIndexes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *UUIDString; // @synthesize UUIDString=_UUIDString;

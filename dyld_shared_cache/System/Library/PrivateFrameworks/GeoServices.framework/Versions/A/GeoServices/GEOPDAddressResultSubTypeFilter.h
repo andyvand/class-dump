@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAddressResultSubTypeFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _excludeAddressSubTypeFilters;
-    CDStruct_95bda58d _includeAddressSubTypeFilters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_excludeAddressSubTypeFilters:1;
-        unsigned int read_includeAddressSubTypeFilters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)CSCoreSpeechDaemonStateMonitorDelegate;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

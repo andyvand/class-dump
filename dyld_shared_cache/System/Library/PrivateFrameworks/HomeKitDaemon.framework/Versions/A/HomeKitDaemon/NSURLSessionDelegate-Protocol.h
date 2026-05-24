@@ -9,6 +9,7 @@
 @protocol NSURLSessionDelegate
 
 @optional
+- (void);
 - (void)accessModeNotAtHome:(NSURLSession *)arg1 %@;
 @end
 

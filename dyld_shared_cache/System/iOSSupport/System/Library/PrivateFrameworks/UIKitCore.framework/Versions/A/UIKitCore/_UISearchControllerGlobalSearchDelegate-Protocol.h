@@ -5,5 +5,6 @@
 //
 
 @protocol _UISearchControllerGlobalSearchDelegate
+- (void)6@24B32;
 @end
 

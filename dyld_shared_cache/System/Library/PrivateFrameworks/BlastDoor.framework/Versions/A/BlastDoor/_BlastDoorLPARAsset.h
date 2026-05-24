@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, _BlastDoorLPARAssetProperties;
+@class NSData;
 
 @interface _BlastDoorLPARAsset
 {
     NSData *_data;
-    NSString *_MIMEType;
-    NSURL *_temporaryFileURL;
-    _BlastDoorLPARAssetProperties *_properties;
-    NSURL *_fileURL;
 }
 
 + (_Bool);
@@ -33,10 +29,7 @@
 - (id)0i;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) _BlastDoorLPARAssetProperties *properties; // @synthesize properties=_properties;
 
 @end
 

@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)ed-suppression-delay-ms;
 - (id);
 - (id);
 - (id);

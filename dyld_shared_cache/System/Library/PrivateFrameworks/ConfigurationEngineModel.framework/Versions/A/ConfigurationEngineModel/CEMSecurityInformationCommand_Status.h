@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(copy, nonatomic) CEMSecurityInformationCommand_StatusSecurityInfo *statusSecurityInfo; // @synthesize statusSecurityInfo=_statusSecurityInfo;

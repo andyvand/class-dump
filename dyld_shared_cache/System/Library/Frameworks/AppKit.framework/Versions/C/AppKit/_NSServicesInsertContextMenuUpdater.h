@@ -6,43 +6,34 @@
 
 #import <AppKit/_NSServicesContextMenuUpdater.h>
 
-@class NSMenu, NSMenuItem, NSString, NSTextInputContext;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface _NSServicesInsertContextMenuUpdater : _NSServicesContextMenuUpdater
 {
     NSMenuItem *_insertMenuItem;
-    NSMenu *_pluggedMenu;
-    _Bool _didReceiveEventFromCatalystElement;
-    _Bool _menuIsOpen;
-    NSTextInputContext *_textInputContext;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)e:%p
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void)ctionary"56@"NSString"64Q72@"NSUUID"80@?<v@?B>88;
+- (void)24@"NSString"32@"NSData"40@"NSDictionary"48@"NSDictionary"56@"NSString"64Q72@"NSUUID"80@?<v@?B>88;
+- (void)UUID"88Q96B104@?<v@?B>108;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)celing auth;
 - (void)le.;
 - (_Bool)ë³få_hlM;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

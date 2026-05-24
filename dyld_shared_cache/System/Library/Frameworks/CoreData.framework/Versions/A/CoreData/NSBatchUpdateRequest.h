@@ -6,20 +6,9 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSDictionary, NSEntityDescription, NSPredicate, NSString;
-
 @interface NSBatchUpdateRequest : NSPersistentStoreRequest
 {
     id _entity;
-    NSPredicate *_predicate;
-    struct _requestFlags {
-        unsigned int includesSubentities:1;
-        unsigned int resultType:2;
-        unsigned int entityIsName:1;
-        unsigned int secureOperation:1;
-        unsigned int _RESERVED:27;
-    } _flags;
-    NSDictionary *_columnsToUpdate;
 }
 
 + (id);
@@ -28,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -39,8 +28,8 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)entityId;
 - (_Bool)ø+	ð+;
 - (void)°¬;
 - (_Bool)re NSValueTransformer.  Please switch to using "%@" or a subclass of NSSecureUnarchiveFromDataTransformer instead.
@@ -49,20 +38,7 @@
 - (id)ELETE ON %@ FOR EACH ROW BEGIN %@%@ END;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSEntityDescription *entity; // @synthesize entity=_entity;
-@property(readonly, copy) NSString *entityName;
-@property(readonly) unsigned long long hash;
-@property _Bool includesSubentities;
-@property(retain) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(copy) NSDictionary *propertiesToUpdate; // @synthesize propertiesToUpdate=_columnsToUpdate;
-@property unsigned long long resultType;
 @property(nonatomic, getter=_secureOperation, setter=_setSecureOperation:) _Bool shouldPerformSecureOperation;
-@property(readonly) Class superclass;
 
 @end
 

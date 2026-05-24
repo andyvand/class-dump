@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSString, SFCardSection, SFSearchResult, SearchUICompletion, SearchUICompletionStringModel, SearchUIImageView, SearchUIMaskedLabelsStackView;
+@class SearchUIImageView;
 
 @interface SearchUICompletionStringView
 {
     _Bool _requireResultForCompletion;
-    _Bool _focusIsOnFirstResult;
-    SearchUICompletionStringModel *_searchFieldModel;
-    SFSearchResult *_result;
-    SearchUIImageView *_imageView;
-    SearchUIMaskedLabelsStackView *_labelsStackView;
-    SFCardSection *_cardSection;
-    SearchUICompletion *_completion;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,15 +32,15 @@
 - (id);
 - (void);
 - (id);
+- (void)MPLING_RATE];
+- (void)UM_NGRAM_LENGTH;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)e to be enabled.;
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (id);
@@ -57,25 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) SFCardSection *cardSection; // @synthesize cardSection=_cardSection;
-@property(retain) SearchUICompletion *completion; // @synthesize completion=_completion;
-@property(readonly) NSString *completionText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool focusIsOnFirstResult; // @synthesize focusIsOnFirstResult=_focusIsOnFirstResult;
-@property(retain, nonatomic) NSFont *fontForCompletionLabel;
-@property(readonly) _Bool hasContent;
-@property(readonly) unsigned long long hash;
 @property(retain) SearchUIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain) SearchUIMaskedLabelsStackView *labelsStackView; // @synthesize labelsStackView=_labelsStackView;
-@property(nonatomic) _Bool requireResultForCompletion; // @synthesize requireResultForCompletion=_requireResultForCompletion;
-@property(retain) SFSearchResult *result; // @synthesize result=_result;
-@property(retain, nonatomic) SearchUICompletionStringModel *searchFieldModel; // @synthesize searchFieldModel=_searchFieldModel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSColor *textColorForCompletionLabel;
 
 @end
 

@@ -6,40 +6,21 @@
 
 #import <MPSNDArray/MPSNDArrayBinarySecondaryGradientKernel.h>
 
-@class MPSExternalNDArrayBinaryGradient;
-
 @interface MPSNDArrayConvolution2DGradientWithWeights : MPSNDArrayBinarySecondaryGradientKernel
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _groups;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _channelMultiplier;
-    unsigned int _dataFormat;
-    unsigned int _srcDataFormat;
-    unsigned int _weightsFormat;
-    struct MPSNDArrayConvolutionOffsets _offsets;
-    MPSExternalNDArrayBinaryGradient *_plugin;
-    _Bool _forcePlugin;
-    void *_autoTuningParams;
-    _Bool _autoTuning;
 }
 
-+ (_Bool);
++ (_Bool)7;
 + (_Bool);
 + (_Bool);
 + (const struct MPSLibraryInfo *);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (struct MPSNDArrayConvolutionSizes);
 - (void);
-- (void);
+- (void)lP;
 - (void);
 - (struct MPSNDArrayConvolutionSizes);
 - (unsigned long long);
@@ -48,11 +29,12 @@
 - (id);
 - (struct MPSNDArrayConvolutionSizes);
 - (id);
-- (unsigned int);
+- (unsigned int)k
+;
 - (struct MPSNDArrayConvolutionOffsets);
-- (void);
-- (id);
-- (id);
+- (void)!;
+- (id)�(;
+- (id);
 - (void);
 - (unsigned long long)SDataTypeFloat16 or MPSDataTypeFloat32;
 - (unsigned long long);
@@ -61,16 +43,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes dilationRates;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
 @property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes kernelSizes;
-@property(nonatomic) struct MPSNDArrayConvolutionOffsets offsets;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes strideInPixels;
-@property(readonly, nonatomic) unsigned int weightsFormat; // @synthesize weightsFormat=_weightsFormat;
 
 @end
 

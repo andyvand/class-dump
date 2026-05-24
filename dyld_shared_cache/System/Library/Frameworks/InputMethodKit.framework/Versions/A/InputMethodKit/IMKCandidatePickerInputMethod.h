@@ -6,39 +6,30 @@
 
 #import <InputMethodKit/IMKAbstractInputMethod.h>
 
-@class IMKCandidateList, NSNumber, NSString;
+@class IMKCandidateList;
 
 @interface IMKCandidatePickerInputMethod : IMKAbstractInputMethod
 {
     IMKCandidateList *_candidateList;
-    NSNumber *_attachedTextDocumentWasShowingWithMarking;
 }
 
-+ (id);
-- (void);
++ (id)9;
+- (void)B;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)D9iE9	kA;
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)9;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *attachedTextDocumentWasShowingWithMarking; // @synthesize attachedTextDocumentWasShowingWithMarking=_attachedTextDocumentWasShowingWithMarking;
 @property(readonly, nonatomic) IMKCandidateList *candidateList; // @synthesize candidateList=_candidateList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

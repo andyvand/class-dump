@@ -9,8 +9,8 @@
     struct __CFDictionary *fields_;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -18,14 +18,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (void);
 - (void);
 - (void);

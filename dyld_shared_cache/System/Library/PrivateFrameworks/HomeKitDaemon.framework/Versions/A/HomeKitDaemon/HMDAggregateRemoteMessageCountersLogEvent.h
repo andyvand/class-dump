@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAggregateRemoteMessageCountersLogEvent
 {
     unsigned char _transportType;
-    unsigned char _direction;
-    NSString *_deviceType;
-    NSString *_messageName;
-    double _primaryResidentDuration;
-    NSNumber *_count;
 }
 
 + (id);
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id)R,N,V_loopTimeRange;
 - (id);
 - (unsigned char);
 - (id)racteristics:%@ /* Error: Ran out of types for this method. */;
@@ -31,33 +24,6 @@ __attribute__((visibility("hidden")))
 - (unsigned char)`¬>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy, nonatomic) NSNumber *count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) unsigned char direction; // @synthesize direction=_direction;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) double primaryResidentDuration; // @synthesize primaryResidentDuration=_primaryResidentDuration;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned char transportType; // @synthesize transportType=_transportType;
 
 @end

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents;
-@protocol REMDisplayDateUtilsDelegate;
-
 @interface REMDisplayDateUtils
 {
     _Bool _isCacheSet;
-    _Bool _hasAlarmDateComponents;
-    id <REMDisplayDateUtilsDelegate> _delegete;
-    NSDateComponents *_dueDateComponents;
-    NSDateComponents *_floatingDateComponents;
-    NSDateComponents *_nonFloatingDateComponents;
 }
 
 + (id);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -37,12 +29,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak id <REMDisplayDateUtilsDelegate> delegete; // @synthesize delegete=_delegete;
-@property(retain, nonatomic) NSDateComponents *dueDateComponents; // @synthesize dueDateComponents=_dueDateComponents;
-@property(retain, nonatomic) NSDateComponents *floatingDateComponents; // @synthesize floatingDateComponents=_floatingDateComponents;
-@property(nonatomic) _Bool hasAlarmDateComponents; // @synthesize hasAlarmDateComponents=_hasAlarmDateComponents;
 @property(nonatomic) _Bool isCacheSet; // @synthesize isCacheSet=_isCacheSet;
-@property(retain, nonatomic) NSDateComponents *nonFloatingDateComponents; // @synthesize nonFloatingDateComponents=_nonFloatingDateComponents;
 
 @end
 

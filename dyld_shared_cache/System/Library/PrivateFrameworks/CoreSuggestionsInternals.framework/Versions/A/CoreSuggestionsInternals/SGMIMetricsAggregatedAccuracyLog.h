@@ -7,55 +7,36 @@
 @interface SGMIMetricsAggregatedAccuracyLog
 {
     unsigned int _ignorablePredictedAsIgnorable;
-    unsigned int _ignorablePredictedAsNeutral;
-    unsigned int _ignorablePredictedAsSalient;
-    unsigned int _neutralPredictedAsIgnorable;
-    unsigned int _neutralPredictedAsNeutral;
-    unsigned int _neutralPredictedAsSalient;
-    unsigned int _salientPredictedAsIgnorable;
-    unsigned int _salientPredictedAsNeutral;
-    unsigned int _salientPredictedAsSalient;
-    struct {
-        unsigned int ignorablePredictedAsIgnorable:1;
-        unsigned int ignorablePredictedAsNeutral:1;
-        unsigned int ignorablePredictedAsSalient:1;
-        unsigned int neutralPredictedAsIgnorable:1;
-        unsigned int neutralPredictedAsNeutral:1;
-        unsigned int neutralPredictedAsSalient:1;
-        unsigned int salientPredictedAsIgnorable:1;
-        unsigned int salientPredictedAsNeutral:1;
-        unsigned int salientPredictedAsSalient:1;
-    } _has;
 }
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)RE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ftos.dylib;
+- (void)ib;
 - (unsigned int);
 - (unsigned int);
+- (unsigned int);
+- (unsigned int)_lp_stringForcingLeftToRightDirection;
+- (unsigned int)_lp_stringByTrimmingWhitespace;
+- (unsigned int)_lp_stringByDeletingUsernameAndPassword;
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,31 +49,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ncrypted.AllPlatforms;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIgnorablePredictedAsIgnorable;
-@property(nonatomic) _Bool hasIgnorablePredictedAsNeutral;
-@property(nonatomic) _Bool hasIgnorablePredictedAsSalient;
-@property(nonatomic) _Bool hasNeutralPredictedAsIgnorable;
-@property(nonatomic) _Bool hasNeutralPredictedAsNeutral;
-@property(nonatomic) _Bool hasNeutralPredictedAsSalient;
-@property(nonatomic) _Bool hasSalientPredictedAsIgnorable;
-@property(nonatomic) _Bool hasSalientPredictedAsNeutral;
 @property(nonatomic) _Bool hasSalientPredictedAsSalient;
-@property(nonatomic) unsigned int ignorablePredictedAsIgnorable; // @synthesize ignorablePredictedAsIgnorable=_ignorablePredictedAsIgnorable;
-@property(nonatomic) unsigned int ignorablePredictedAsNeutral; // @synthesize ignorablePredictedAsNeutral=_ignorablePredictedAsNeutral;
-@property(nonatomic) unsigned int ignorablePredictedAsSalient; // @synthesize ignorablePredictedAsSalient=_ignorablePredictedAsSalient;
-@property(nonatomic) unsigned int neutralPredictedAsIgnorable; // @synthesize neutralPredictedAsIgnorable=_neutralPredictedAsIgnorable;
-@property(nonatomic) unsigned int neutralPredictedAsNeutral; // @synthesize neutralPredictedAsNeutral=_neutralPredictedAsNeutral;
-@property(nonatomic) unsigned int neutralPredictedAsSalient; // @synthesize neutralPredictedAsSalient=_neutralPredictedAsSalient;
-@property(nonatomic) unsigned int salientPredictedAsIgnorable; // @synthesize salientPredictedAsIgnorable=_salientPredictedAsIgnorable;
-@property(nonatomic) unsigned int salientPredictedAsNeutral; // @synthesize salientPredictedAsNeutral=_salientPredictedAsNeutral;
-@property(nonatomic) unsigned int salientPredictedAsSalient; // @synthesize salientPredictedAsSalient=_salientPredictedAsSalient;
 
 @end
 

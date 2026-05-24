@@ -4,49 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMChangePasswordController, MMOutOfNetworkSheetController, MMSignoutSheetController, MMWebKitViewController, MM_Account, NSBox, NSButton, NSDictionary, NSError, NSImageView, NSMutableDictionary, NSObject, NSProgressIndicator, NSString, NSTextField, NSView, NSWindow, iCloudAccountDetailsController, iCloudAccountDetailsControllerNew, iCloudAccountDetailsWebTabView, iCloudAccountSubscriptionFeaturesController, iCloudPurchaseStorageController;
-@protocol OS_dispatch_semaphore, iCloudPrefDelegate;
+@class MMWebKitViewController, iCloudAccountDetailsController;
 
 @interface CastlePlugin
 {
     MMWebKitViewController *_webKitViewController;
-    MM_Account *_provisionalAccount;
-    NSDictionary *_authenticationResults;
-    NSMutableDictionary *_accountList;
-    NSString *_visibleAccountID;
-    NSWindow *_mainWindow;
-    NSString *_reAuthTitleFormat;
-    iCloudAccountDetailsController *_accountDetailsController;
-    iCloudAccountDetailsControllerNew *_accountDetailsControllerNew;
-    ADMChangePasswordController *mChangePasswordController;
-    iCloudAccountDetailsWebTabView *setupFamilyView;
-    iCloudAccountDetailsWebTabView *manageFamilyView;
-    iCloudAccountDetailsWebTabView *invitationsView;
-    iCloudAccountDetailsWebTabView *transferView;
-    _Bool _signInSucess;
-    NSObject<OS_dispatch_semaphore> *_signInTokenSemaphore;
-    NSError *_signinErrorToReturn;
-    int _notifyToken;
-    NSString *_appleID;
-    NSString *_pw;
-    id <iCloudPrefDelegate> _delegate;
-    NSView *_containerViewTopLevel;
-    NSView *_viewHolderTopLevel;
-    NSProgressIndicator *_signOutSpinner;
-    NSImageView *_appSelectionLogoImage;
-    NSTextField *_appSelectionAccountLabel;
-    NSTextField *_appSelectionUseWithLabel;
-    NSButton *_appSelectionAddAccountButton;
-    NSButton *_appSelectionCancelButton;
-    NSButton *_appSelectionGoBackButton;
-    NSView *_familySetupContainerViewTopLevel;
-    NSBox *_familySetupView;
-    NSTextField *_signingOutLabel;
-    NSView *_signOutView;
-    MMSignoutSheetController *_signoutSheetController;
-    MMOutOfNetworkSheetController *_outofNetworkheetController;
-    iCloudPurchaseStorageController *_purchaseStorageController;
-    iCloudAccountSubscriptionFeaturesController *_featuresModalController;
 }
 
 + (id);
@@ -75,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
@@ -109,18 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -128,6 +80,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)ЂR?
+k	3;
 - (void);
 - (void);
 - (void);
@@ -135,62 +98,64 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)
+?91	3;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)`@(`;
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)q(3;
+- (_Bool);
+- (void);
+- (void)J
+Kq(3;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)R_k*3;
+- (void);
+- (id);
+- (id);
+- (void)JJ_E	q*3;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool),;
 - (void);
 - (id);
 - (void);
@@ -198,7 +163,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -217,39 +182,6 @@
 
 // Remaining properties
 @property(retain) iCloudAccountDetailsController *accountDetailsController; // @synthesize accountDetailsController=_accountDetailsController;
-@property(retain) iCloudAccountDetailsControllerNew *accountDetailsControllerNew; // @synthesize accountDetailsControllerNew=_accountDetailsControllerNew;
-@property __weak NSTextField *appSelectionAccountLabel; // @synthesize appSelectionAccountLabel=_appSelectionAccountLabel;
-@property __weak NSButton *appSelectionAddAccountButton; // @synthesize appSelectionAddAccountButton=_appSelectionAddAccountButton;
-@property __weak NSButton *appSelectionCancelButton; // @synthesize appSelectionCancelButton=_appSelectionCancelButton;
-@property __weak NSButton *appSelectionGoBackButton; // @synthesize appSelectionGoBackButton=_appSelectionGoBackButton;
-@property __weak NSImageView *appSelectionLogoImage; // @synthesize appSelectionLogoImage=_appSelectionLogoImage;
-@property __weak NSTextField *appSelectionUseWithLabel; // @synthesize appSelectionUseWithLabel=_appSelectionUseWithLabel;
-@property(retain) NSString *appleID; // @synthesize appleID=_appleID;
-@property(retain) NSView *containerViewTopLevel; // @synthesize containerViewTopLevel=_containerViewTopLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <iCloudPrefDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSView *familySetupContainerViewTopLevel; // @synthesize familySetupContainerViewTopLevel=_familySetupContainerViewTopLevel;
-@property __weak NSBox *familySetupView; // @synthesize familySetupView=_familySetupView;
-@property(retain) iCloudAccountSubscriptionFeaturesController *featuresModalController; // @synthesize featuresModalController=_featuresModalController;
-@property(readonly) unsigned long long hash;
-@property(retain) MMOutOfNetworkSheetController *outofNetworkheetController; // @synthesize outofNetworkheetController=_outofNetworkheetController;
-@property(readonly) NSWindow *prefsWindow;
-@property(retain) iCloudPurchaseStorageController *purchaseStorageController; // @synthesize purchaseStorageController=_purchaseStorageController;
-@property(retain) NSString *pw; // @synthesize pw=_pw;
-@property _Bool signInSuccess; // @synthesize signInSuccess=_signInSucess;
-@property(retain) NSObject<OS_dispatch_semaphore> *signInTokenSemaphore; // @synthesize signInTokenSemaphore=_signInTokenSemaphore;
-@property __weak NSProgressIndicator *signOutSpinner; // @synthesize signOutSpinner=_signOutSpinner;
-@property(retain) NSView *signOutView; // @synthesize signOutView=_signOutView;
-@property(retain) NSError *signinErrorToReturn; // @synthesize signinErrorToReturn=_signinErrorToReturn;
-@property __weak NSTextField *signingOutLabel; // @synthesize signingOutLabel=_signingOutLabel;
-@property(retain) MMSignoutSheetController *signoutSheetController; // @synthesize signoutSheetController=_signoutSheetController;
-@property(readonly) Class superclass;
-@property(retain) NSView *viewHolderTopLevel; // @synthesize viewHolderTopLevel=_viewHolderTopLevel;
-@property(retain) NSString *visibleAccountID; // @synthesize visibleAccountID=_visibleAccountID;
 
 @end
 

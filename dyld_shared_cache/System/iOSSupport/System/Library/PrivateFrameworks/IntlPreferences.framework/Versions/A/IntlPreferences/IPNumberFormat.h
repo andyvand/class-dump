@@ -9,26 +9,22 @@
 @interface IPNumberFormat
 {
     NSString *_formattedNumber;
-    NSString *_decimalSeparator;
-    NSString *_groupingSeparator;
 }
 
 + (id);
-+ (id);
++ (id)age_id IN (SELECT ROWID from message);;
 + (void)forPreferences:(id)arg1 ];
+- (id)";
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)performGoBackInHistory: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *decimalSeparator; // @synthesize decimalSeparator=_decimalSeparator;
-@property(readonly, nonatomic) NSString *formattedNumber; // @synthesize formattedNumber=_formattedNumber;
-@property(readonly, nonatomic) NSString *groupingSeparator; // @synthesize groupingSeparator=_groupingSeparator;
 
 @end
 

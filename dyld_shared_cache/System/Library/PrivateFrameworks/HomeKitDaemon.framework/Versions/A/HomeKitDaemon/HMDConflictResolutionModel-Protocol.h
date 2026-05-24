@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol HMDConflictResolutionModel
+- (NSUUID *)ontact] Checking if %{private}@ is blocked;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *conflictResolutionToken;

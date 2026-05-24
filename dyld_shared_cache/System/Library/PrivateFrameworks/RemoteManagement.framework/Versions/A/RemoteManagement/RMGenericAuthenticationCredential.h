@@ -6,12 +6,11 @@
 
 #import <RemoteManagement/RMAuthenticationCredential.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RMGenericAuthenticationCredential : RMAuthenticationCredential
 {
     NSString *_authenticationScheme;
-    NSDictionary *_properties;
 }
 
 + (_Bool);
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)@"NSString"@"NSError">;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *authenticationScheme; // @synthesize authenticationScheme=_authenticationScheme;
-@property(readonly, copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

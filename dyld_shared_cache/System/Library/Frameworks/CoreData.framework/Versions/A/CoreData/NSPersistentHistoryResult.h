@@ -9,12 +9,11 @@
 @interface NSPersistentHistoryResult : NSPersistentStoreResult
 {
     id _aggregatedResult;
-    long long _resultType;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (long long);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) id result; // @synthesize result=_aggregatedResult;
-@property(readonly) long long resultType; // @synthesize resultType=_resultType;
 
 @end
 

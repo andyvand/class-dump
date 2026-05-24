@@ -7,7 +7,6 @@
 @interface NewsUI2.AlternateUniversalLinkURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

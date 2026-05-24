@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)trackMMSTranscodeWithReason:sourceFile:highQualityFile:lowQualityFile:sizeLimits:transcoded:lowQualityModeEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)t;
 

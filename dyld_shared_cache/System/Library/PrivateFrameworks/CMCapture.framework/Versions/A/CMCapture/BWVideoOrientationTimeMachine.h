@@ -9,14 +9,10 @@
 @interface BWVideoOrientationTimeMachine
 {
     NSMutableArray *_cache;
-    unsigned long long _capacity;
-    struct opaqueCMFormatDescription *_formatDescription;
-    unsigned int _metadataLocalID;
-    struct OpaqueFigSimpleMutex *_propertyMutex;
 }
 
 + (void)RegistrationProvider.m;
-- (void);
+- (void)XSpreadsheetDrawingNamespace;
 - (void);
 - (id);
 - (id);

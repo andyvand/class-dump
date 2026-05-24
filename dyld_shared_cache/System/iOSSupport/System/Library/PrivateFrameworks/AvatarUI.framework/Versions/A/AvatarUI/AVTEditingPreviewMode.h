@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTEditingPreviewModeOptions;
-
 @interface AVTEditingPreviewMode
 {
     unsigned long long _type;
-    AVTEditingPreviewModeOptions *_options;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
+- (id)N4siri12dialogengine14PatternSettingE;
 - (id);
-- (id);
-- (id);
+- (id)NumFailures;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTEditingPreviewModeOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

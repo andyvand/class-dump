@@ -15,11 +15,11 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void)LmBuildConfig type;
 - (id);
 - (id);
 - (_Bool);
-- (id)ryStopped;
+- (id)categoryStopped;
 
 // Remaining properties
 @property(retain, nonatomic) SASyncAnchor *current;

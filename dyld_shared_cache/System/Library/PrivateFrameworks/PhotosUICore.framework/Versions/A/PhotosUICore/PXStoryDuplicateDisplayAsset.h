@@ -10,33 +10,24 @@
 @interface PXStoryDuplicateDisplayAsset
 {
     NSString *_alternateUUID;
-    id <PXDisplayAsset> _displayAsset;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool)`A�;
 - (_Bool);
-- (_Bool);
-- (_Bool)perTrailLength;
+- (_Bool)_paperTrailLength;
 - (id)\;
 - (_Bool)ASAsset">8Q16^B24;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *alternateUUID; // @synthesize alternateUUID=_alternateUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <PXDisplayAsset> displayAsset; // @synthesize displayAsset=_displayAsset;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

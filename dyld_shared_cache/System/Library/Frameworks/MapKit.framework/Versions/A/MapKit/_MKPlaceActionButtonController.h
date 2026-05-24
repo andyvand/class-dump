@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _MKPlaceActionControlledButton;
 
 @interface _MKPlaceActionButtonController
 {
     _Bool _disabled;
-    int _analyticsAction;
-    NSString *_buttonTitle;
-    NSString *_buttonSubTitle;
-    CDUnknownBlockType _buttonSelectedBlock;
-    NSString *_symbolName;
-    id <_MKPlaceActionControlledButton> _delegate;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)⼵;
 - (id);
 - (id);
 - (void);
@@ -32,24 +25,11 @@
 - (id);
 - (void);
 - (id);
-- (void)tionDigits: /* Error: Ran out of types for this method. */;
+- (void)setMaximumFractionDigits: /* Error: Ran out of types for this method. */;
 - (_Bool)u_system_section;
 
 // Remaining properties
-@property(readonly, nonatomic) int analyticsAction; // @synthesize analyticsAction=_analyticsAction;
-@property(readonly, nonatomic) CDUnknownBlockType buttonSelectedBlock; // @synthesize buttonSelectedBlock=_buttonSelectedBlock;
-@property(readonly, nonatomic) NSString *buttonSubTitle; // @synthesize buttonSubTitle=_buttonSubTitle;
-@property(readonly, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_MKPlaceActionControlledButton> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

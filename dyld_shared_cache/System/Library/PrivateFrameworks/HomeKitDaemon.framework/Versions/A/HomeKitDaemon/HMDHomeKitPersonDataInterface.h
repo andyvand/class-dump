@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDActiveXPCClientConnectionsPeriodicTimer, HMFMessageDispatcher, HMIExternalPersonManager, HMIHomePersonManager, NSObject, NSString, NSUUID;
-@protocol HMDPersonDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeKitPersonDataInterface
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_UUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDActiveXPCClientConnectionsPeriodicTimer *_clientConnectionsTimer;
-    id <HMDPersonDataSource> _dataSource;
-    CDUnknownBlockType _fetchServerFactory;
 }
 
 + (id)B;
-- (void);
+- (void)stopSharingWithGroup:(CDUnknownBlockType)arg1 reason:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -31,6 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -40,19 +36,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)assign:input:to:error: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (void));
 - (id);
 - (id)0@ù
 × ;
@@ -62,31 +57,6 @@ __attribute__((visibility("hidden")))
 - (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) HMDActiveXPCClientConnectionsPeriodicTimer *clientConnectionsTimer; // @synthesize clientConnectionsTimer=_clientConnectionsTimer;
-@property __weak id <HMDPersonDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType fetchServerFactory; // @synthesize fetchServerFactory=_fetchServerFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMIHomePersonManager *homePersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIHomePersonManager",?,R
-
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) HMIExternalPersonManager *photosPersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIExternalPersonManager",?,R
-
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

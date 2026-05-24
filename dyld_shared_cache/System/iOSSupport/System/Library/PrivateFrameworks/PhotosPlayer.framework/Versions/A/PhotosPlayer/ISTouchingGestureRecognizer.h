@@ -7,13 +7,6 @@
 @interface ISTouchingGestureRecognizer
 {
     _Bool _requireSingleTouch;
-    double _minimumTouchDuration;
-    double _extraMinimumTouchDuration;
-    double _maximumTouchMovement;
-    double _distanceFromInitialPoint;
-    unsigned long long __touchCount;
-    unsigned long long __beginRequestID;
-    struct CGPoint __initialPointInView;
 }
 
 - (void);
@@ -23,17 +16,17 @@
 - (void);
 - (double);
 - (_Bool);
+- (void)6@;
+- (double)P;
 - (void);
-- (double);
+- (id)tem/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)interpolation;
 - (unsigned long long);
 - (void);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithMapsSyncConnector: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -41,21 +34,14 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setEntitlementsPromise:(id)arg1 error:(id)arg2;
+- (void)cancelCoordinatorsForAppsWithBundleIDs:(id)arg1 withReason:(id)arg2 client:error: /* Error: Ran out of types for this method. */;
+- (void)WithError:(id)arg1 ];
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setBeginRequestID:) unsigned long long _beginRequestID; // @synthesize _beginRequestID=__beginRequestID;
-@property(nonatomic, setter=_setInitialPointInView:) struct CGPoint _initialPointInView; // @synthesize _initialPointInView=__initialPointInView;
 @property(nonatomic, setter=_setTouchCount:) unsigned long long _touchCount; // @synthesize _touchCount=__touchCount;
-@property(readonly, nonatomic) double distanceFromInitialPoint; // @synthesize distanceFromInitialPoint=_distanceFromInitialPoint;
-@property(nonatomic) double extraMinimumTouchDuration; // @synthesize extraMinimumTouchDuration=_extraMinimumTouchDuration;
-@property(nonatomic) double maximumTouchMovement; // @synthesize maximumTouchMovement=_maximumTouchMovement;
-@property(nonatomic) double minimumTouchDuration; // @synthesize minimumTouchDuration=_minimumTouchDuration;
-@property(nonatomic) _Bool requireSingleTouch; // @synthesize requireSingleTouch=_requireSingleTouch;
 
 @end
 

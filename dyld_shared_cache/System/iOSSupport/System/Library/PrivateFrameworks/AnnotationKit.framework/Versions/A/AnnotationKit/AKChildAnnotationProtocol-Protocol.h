@@ -7,6 +7,8 @@
 @class AKAnnotation;
 
 @protocol AKChildAnnotationProtocol
+- (void)on/;
+- (AKAnnotation *)te an LPImage with nil MIME type.;
 
 // Remaining properties
 @property __weak AKAnnotation *parentAnnotation;

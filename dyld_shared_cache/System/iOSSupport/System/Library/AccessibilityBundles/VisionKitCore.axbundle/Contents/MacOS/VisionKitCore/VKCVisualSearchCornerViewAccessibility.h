@@ -17,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)apshotData;
 - (id);
 - (id);
 

@@ -14,7 +14,7 @@
 + (Class);
 - (void);
 - (_Bool);
-- (void);
+- (void)redential_id TEXT DEFAULT NULL;
 - (id);
 - (void);
 - (id);

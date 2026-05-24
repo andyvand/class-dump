@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOCUndoManager, NSArray, NSString;
+@class NSArray;
 
 @interface DOCSetTagsOperation
 {
     NSArray *_oldTagsLists;
-    NSArray *_updatedTagsLists;
-    DOCUndoManager *_undoManager;
 }
 
 - (id);
@@ -25,23 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_isFirstResponderInputAssistantEnabled;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionNameForUndoing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *oldTagsLists; // @synthesize oldTagsLists=_oldTagsLists;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) DOCUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property(readonly, nonatomic) NSArray *updatedTagsLists; // @synthesize updatedTagsLists=_updatedTagsLists;
 
 @end
 

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol AFAssertionCoordinatorDelegate, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface AFAssertionCoordinator
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <AFAssertionCoordinatorDelegate> _delegate;
-    _Atomic long long _numberOfAssertions;
-    NSMutableDictionary *_assertionsByUUID;
-    _Atomic long long _numberOfActiveAssertions;
-    NSMutableSet *_activeAssertionUUIDs;
-    NSString *_identifier;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)or could not be instantiated with paymentRequest:%p. /* Error: Ran out of types for this method. */;
+- (void)executionDate:'%@';  /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -28,26 +22,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)c;
+- (unsigned long long));
 - (id);
-- (void);
+- (void)sourceLocaleIdentifier;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)ng;
+- (void)AFAccessibilityStateMutating;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

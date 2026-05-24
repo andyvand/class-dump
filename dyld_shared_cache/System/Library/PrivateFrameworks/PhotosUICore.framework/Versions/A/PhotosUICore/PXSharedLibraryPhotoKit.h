@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL, PHFetchResult, PHLibraryScope, PHShareParticipant, PXSharedLibraryRule;
-@protocol PXSharedLibraryParticipant;
+@class PHLibraryScope, PHShareParticipant;
 
 @interface PXSharedLibraryPhotoKit
 {
     PHShareParticipant *_owner;
-    PHFetchResult *_participants;
-    PXSharedLibraryRule *_rule;
-    PHLibraryScope *_libraryScope;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (_Bool);
@@ -45,50 +41,28 @@
 - (CDStruct_aa0b146f);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)calculateHeightForWidth:layoutContext: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)2;
+- (id);
 - (id)Ñ7ð1Â0@ù
 × ;
-- (id)tifier:(struct _NSZone *)arg1;
-- (id)ject;
-- (_Bool)milarPhotosInGrid;
+- (id)setContextualVideoThumbnailIdentifier:(struct _NSZone *)arg1;
+- (id)PXSearchTokenRepresentedObject;
+- (_Bool)kPXFeedbackUserDislikedDetailViewReasonTooManySimilarPhotosInGrid;
 - (void)q´ì¨;
 - (id)Ê-â»d­;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cloudItemCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDeclined;
-@property(readonly, nonatomic) _Bool isExiting;
-@property(readonly, nonatomic) _Bool isInLocalMode;
-@property(readonly, nonatomic) _Bool isInPreview;
-@property(readonly, nonatomic) _Bool isOwned;
-@property(readonly, nonatomic) _Bool isPublished;
 @property(readonly, nonatomic) PHLibraryScope *libraryScope; // @synthesize libraryScope=_libraryScope;
-@property(readonly, copy, nonatomic) id <PXSharedLibraryParticipant> owner;
-@property(readonly, copy, nonatomic) NSArray *participants;
-@property(readonly, copy, nonatomic) PXSharedLibraryRule *rule;
-@property(readonly, copy, nonatomic) NSURL *shareURL;
-@property(readonly) Class superclass;
 
 @end
 

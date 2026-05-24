@@ -7,9 +7,9 @@
 @class _INPBContact;
 
 @protocol _INPBContactEventTrigger
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasTriggerContact;
 @property(retain, nonatomic) _INPBContact *triggerContact;
 @end
 

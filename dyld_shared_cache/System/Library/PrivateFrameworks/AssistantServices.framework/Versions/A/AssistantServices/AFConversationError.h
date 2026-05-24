@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)peerPaymentTransaction;
++ (id)#;
 - (id);
 - (id);
 - (id)v52@0:(long long)arg1 8q16B24q28@36@?44;

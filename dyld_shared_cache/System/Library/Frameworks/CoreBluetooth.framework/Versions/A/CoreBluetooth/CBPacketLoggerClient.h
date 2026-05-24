@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface CBPacketLoggerClient
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSObject<OS_xpc_object> *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _rawPacketHandler;
 }
 
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)@;
+- (CDUnknownBlockType);
+- (void)@;
+- (void);
+- (void);
 - (id);
 - (void);
+- (void)A;
+- (CDUnknownBlockType)t support that many disks on the same partition map;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)v40@0:8@16@24d32 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(copy, nonatomic) CDUnknownBlockType rawPacketHandler; // @synthesize rawPacketHandler=_rawPacketHandler;
 
 @end

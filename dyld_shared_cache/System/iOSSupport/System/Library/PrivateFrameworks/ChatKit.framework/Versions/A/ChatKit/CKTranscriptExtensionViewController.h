@@ -4,54 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDetailsNavigationController, NSExtension, NSString, NSUUID;
+@class CKDetailsNavigationController, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptExtensionViewController
 {
     NSUUID *_requestUUID;
-    NSExtension *_weakExtension;
-    CKDetailsNavigationController *_detailsNavigationController;
 }
 
 + (void)ð?ÿn;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)@0:8 /* Error: Ran out of types for this method. */;
+- (void)presentExportViewForAttachment:(id)arg1 window: /* Error: Ran out of types for this method. */;
+- (void)_trailingSpace;
+- (void)_onlyAcceptsCustomZooms;
+- (void)_okButton;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (void);
-- (id);
+- (id);
+- (void)C;
 - (void);
+- (void){;
 - (void);
+- (void)w;
+- (void)t;
+- (void)a;
 - (void);
+- (void)/;
+- (void)i;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)nil;
 - (void);
 - (id)nsfer with GUID %@;
 - (void)roposal for session:(id)arg1 %@, dragItem:%@, previewCenter:%@, targetBalloonIndex:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak CKDetailsNavigationController *detailsNavigationController; // @synthesize detailsNavigationController=_detailsNavigationController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSExtension *weakExtension; // @synthesize weakExtension=_weakExtension;
 
 @end
 

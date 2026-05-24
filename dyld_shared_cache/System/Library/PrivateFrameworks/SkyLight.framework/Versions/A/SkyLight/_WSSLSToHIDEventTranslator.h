@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _WSSLSToHIDEventTranslator
 {
     BKSHIDEventSenderDescriptor *_keyboardSenderDescriptor;
-    struct __IOHIDEvent *_keyboardDownEvent;
-    struct __IOHIDEvent *_keyboardUpEvent;
 }
 
-- (struct __IOHIDEvent *);
+- (struct __IOHIDEvent *)le to parse trigger predicate to an instance of NSPredicate.;
 - (void);
-- (id);
+- (id)%];
 - (void)à;
 
 @end

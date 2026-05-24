@@ -8,13 +8,13 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
++ (void)g"24;
++ (_Bool)4@32@40;
++ (void)writeToFile:options:error: /* Error: Ran out of types for this method. */;
++ (void)willPresentUIWithReply: /* Error: Ran out of types for this method. */;
++ (void)willBeginAccessPower;
++ (_Bool)voiceSearchHeaderFields;
++ (_Bool)voiceOverTouchEnabledPreferenceDidChange:(long long)arg1;
 
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBCoreSpotlightRankingSignals
 {
     _Bool _wasNominatedAsTopHit;
-    _Bool _isExactMatchOfLaunchString;
-    _Bool _wasEngagedInSpotlight;
-    _Bool _isSemanticMatch;
-    _Bool _isSyntacticMatch;
-    float _topicalityScore;
-    float _freshness;
-    float _engagementScore;
-    float _predictedLikelihoodOfEngagement;
-    float _sodiumL2Score;
-    int _resultQueryRecency;
-    float _pommesL2Score;
-    float _semanticScore;
-    float _syntacticScore;
-    int _embeddingStatus;
-    unsigned int _itemAgeInDays;
 }
 
 - (_Bool);
@@ -34,6 +17,7 @@
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -41,8 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -63,36 +46,13 @@
 - (_Bool);
 - (_Bool);
 - (float);
-- (id);
-- (id);
-- (id);
+- (id)isSubstandardRender;
+- (id)with intent %ld;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int embeddingStatus; // @synthesize embeddingStatus=_embeddingStatus;
-@property(nonatomic) float engagementScore; // @synthesize engagementScore=_engagementScore;
-@property(nonatomic) float freshness; // @synthesize freshness=_freshness;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isExactMatchOfLaunchString; // @synthesize isExactMatchOfLaunchString=_isExactMatchOfLaunchString;
-@property(nonatomic) _Bool isSemanticMatch; // @synthesize isSemanticMatch=_isSemanticMatch;
-@property(nonatomic) _Bool isSyntacticMatch; // @synthesize isSyntacticMatch=_isSyntacticMatch;
-@property(nonatomic) unsigned int itemAgeInDays; // @synthesize itemAgeInDays=_itemAgeInDays;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float pommesL2Score; // @synthesize pommesL2Score=_pommesL2Score;
-@property(nonatomic) float predictedLikelihoodOfEngagement; // @synthesize predictedLikelihoodOfEngagement=_predictedLikelihoodOfEngagement;
-@property(nonatomic) int resultQueryRecency; // @synthesize resultQueryRecency=_resultQueryRecency;
-@property(nonatomic) float semanticScore; // @synthesize semanticScore=_semanticScore;
-@property(nonatomic) float sodiumL2Score; // @synthesize sodiumL2Score=_sodiumL2Score;
-@property(readonly) Class superclass;
-@property(nonatomic) float syntacticScore; // @synthesize syntacticScore=_syntacticScore;
 @property(nonatomic) float topicalityScore; // @synthesize topicalityScore=_topicalityScore;
-@property(nonatomic) _Bool wasEngagedInSpotlight; // @synthesize wasEngagedInSpotlight=_wasEngagedInSpotlight;
-@property(nonatomic) _Bool wasNominatedAsTopHit; // @synthesize wasNominatedAsTopHit=_wasNominatedAsTopHit;
 
 @end
 

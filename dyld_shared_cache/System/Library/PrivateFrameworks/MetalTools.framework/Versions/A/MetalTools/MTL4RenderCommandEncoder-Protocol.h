@@ -5,9 +5,16 @@
 //
 
 @protocol MTL4RenderCommandEncoder
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)*;
+- (unsigned long long)c;
+- (void);
+- (void)?;
 
 // Remaining properties
-@property(readonly) unsigned long long tileHeight;
 @property(readonly) unsigned long long tileWidth;
 @end
 

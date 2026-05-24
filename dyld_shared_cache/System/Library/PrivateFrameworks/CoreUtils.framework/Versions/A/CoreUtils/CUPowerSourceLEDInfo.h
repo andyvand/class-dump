@@ -7,23 +7,21 @@
 @interface CUPowerSourceLEDInfo
 {
     int _LEDColor;
-    int _LEDState;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)presentProximityPairingUIWithVerificationCode:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_sequenceLengths;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int LEDColor; // @synthesize LEDColor=_LEDColor;
-@property(nonatomic) int LEDState; // @synthesize LEDState=_LEDState;
 
 @end
 

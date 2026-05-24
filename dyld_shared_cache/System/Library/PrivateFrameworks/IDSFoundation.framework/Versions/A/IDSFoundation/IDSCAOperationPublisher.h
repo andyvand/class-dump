@@ -7,7 +7,6 @@
 @interface IDSCAOperationPublisher
 {
     id prefix;
-    id reporter;
 }
 
 - (id);

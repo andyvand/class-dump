@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICPBDGSFinishDelegationRequest, ICPBDGSStartDelegationRequest;
+@class ICPBDGSFinishDelegationRequest;
 
 __attribute__((visibility("hidden")))
 @interface ICPBDGSRequest
 {
     ICPBDGSFinishDelegationRequest *_finishDelegationRequest;
-    ICPBDGSStartDelegationRequest *_startDelegationRequest;
-    unsigned int _uniqueID;
-    struct {
-        unsigned int uniqueID:1;
-    } _has;
 }
 
-- (id);
+- (id));
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void)autoPlayEnabled;
 
 @end

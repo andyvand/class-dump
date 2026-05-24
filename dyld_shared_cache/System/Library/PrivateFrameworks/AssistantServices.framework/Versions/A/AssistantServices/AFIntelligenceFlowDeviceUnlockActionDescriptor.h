@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFIntelligenceFlowDeviceUnlockActionDescriptor
 {
     long long _deviceUnlockStatus;
-    NSString *_responseId;
-    unsigned long long _behaviorOverrides;
 }
 
 + (_Bool);
@@ -22,20 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ve;
 - (void)ng",R,C,N,V_personaId;
 
 // Remaining properties
-@property(nonatomic) unsigned long long behaviorOverrides; // @synthesize behaviorOverrides=_behaviorOverrides;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long deviceUnlockStatus; // @synthesize deviceUnlockStatus=_deviceUnlockStatus;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *responseId; // @synthesize responseId=_responseId;
-@property(readonly) Class superclass;
 
 @end
 

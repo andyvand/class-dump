@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetImageGenerator, AVEditBehavior, AVEditBehaviorParameters, AVEditView, AVObservationController, AVPlayerController, AVPlayerViewController, AVZoomingBehavior, NSMutableArray, NSMutableDictionary, NSString, UIBarButtonItem, UIToolbar, UIView;
+@class AVEditBehavior;
 
 @interface AVEditBehaviorContext
 {
     _Bool _editing;
-    AVPlayerViewController *_playerViewController;
-    AVEditBehavior *_behavior;
-    AVEditBehaviorParameters *_parameters;
-    AVZoomingBehavior *_zoomingBehavior;
-    AVObservationController *_observationController;
-    AVEditView *_editView;
-    AVAssetImageGenerator *_imageGenerator;
-    AVPlayerController *_playerController;
-    id _playerTimeObserver;
-    UIView *_containerView;
-    UIToolbar *_toolbar;
-    UIBarButtonItem *_cancelButton;
-    UIBarButtonItem *_doneButton;
-    UIBarButtonItem *_flexibleSpaceItem;
-    UIBarButtonItem *_playButton;
-    UIBarButtonItem *_pauseButton;
-    NSMutableArray *_pendingImageRequests;
-    NSMutableDictionary *_requestedImageTimeToCMTimeMap;
-    unsigned long long _currentRotation;
-    struct CGAffineTransform _rotationTransform;
 }
 
 - (void);
@@ -37,14 +17,14 @@
 - (void);
 - (void);
 - (id);
+- (id)>;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -60,8 +40,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)EndpointStreamAudioAVC resuming... ;
+- (id)ssionRef, CFDictionaryRef);
 - (struct CGAffineTransform);
 - (void);
 - (void);
@@ -71,21 +51,21 @@
 - (id);
 - (void);
 - (void);
+- (void)uleList"24@"WKContentRuleList"32;
+- (id)Range=QQ}16;
+- (void);
+- (void)ities. Can't add identities for %@ to mutable identity set.;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)localZone:(id)arg1 willReindexTableForModel: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -94,39 +74,12 @@
 - (void)aÐ!Cù±[1Â0@ù
 × ;
 - (void)32@0:(id)arg1 8@"AVVideoFrameVisualAnalyzer"16@"NSError"24;
-- (void)ghtedAppearance:(id)arg1;
-- (id)udibleMediaSelectionMenu;
+- (void)setShowsHighlightedAppearance:(id)arg1;
+- (id)_audibleMediaSelectionMenu;
 - (void)ÂDÄLÆ@Ç;
 
 // Remaining properties
 @property(nonatomic) __weak AVEditBehavior *behavior; // @synthesize behavior=_behavior;
-@property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) unsigned long long currentRotation; // @synthesize currentRotation=_currentRotation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIBarButtonItem *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain, nonatomic) AVEditView *editView; // @synthesize editView=_editView;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(retain, nonatomic) UIBarButtonItem *flexibleSpaceItem; // @synthesize flexibleSpaceItem=_flexibleSpaceItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVAssetImageGenerator *imageGenerator; // @synthesize imageGenerator=_imageGenerator;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(readonly, copy, nonatomic) AVEditBehaviorParameters *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) UIBarButtonItem *pauseButton; // @synthesize pauseButton=_pauseButton;
-@property(readonly, nonatomic) NSMutableArray *pendingImageRequests; // @synthesize pendingImageRequests=_pendingImageRequests;
-@property(retain, nonatomic) UIBarButtonItem *playButton; // @synthesize playButton=_playButton;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(retain, nonatomic) id playerTimeObserver; // @synthesize playerTimeObserver=_playerTimeObserver;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly, nonatomic) NSMutableDictionary *requestedImageTimeToCMTimeMap; // @synthesize requestedImageTimeToCMTimeMap=_requestedImageTimeToCMTimeMap;
-@property(nonatomic) struct CGAffineTransform rotationTransform; // @synthesize rotationTransform=_rotationTransform;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIToolbar *toolbar; // @synthesize toolbar=_toolbar;
-@property(retain, nonatomic) AVZoomingBehavior *zoomingBehavior; // @synthesize zoomingBehavior=_zoomingBehavior;
 
 @end
 

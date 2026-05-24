@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WBSHistoryTag
 {
     long long _databaseID;
-    NSString *_title;
-    NSString *_identifier;
-    double _modificationTimestamp;
-    long long _level;
 }
 
 - (id);
 - (double);
-- (id);
+- (id)WMF;
 - (unsigned long long);
 - (_Bool);
 - (long long);
@@ -28,10 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) double modificationTimestamp; // @synthesize modificationTimestamp=_modificationTimestamp;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

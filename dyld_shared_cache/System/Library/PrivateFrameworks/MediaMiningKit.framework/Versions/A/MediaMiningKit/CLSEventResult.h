@@ -9,7 +9,6 @@
 @interface CLSEventResult
 {
     float _confidence;
-    CLSEvent *_event;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(retain, nonatomic) CLSEvent *event; // @synthesize event=_event;
 
 @end

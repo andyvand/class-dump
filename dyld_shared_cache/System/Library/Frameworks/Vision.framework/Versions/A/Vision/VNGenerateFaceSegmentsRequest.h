@@ -6,33 +6,22 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
-
 @interface VNGenerateFaceSegmentsRequest : VNImageBasedRequest
 {
 }
 
 + (Class);
 - (void);
-- (float);
+- (float);
 - (_Bool);
-- (id);
+- (id)d not be fetched:(unsigned long long)arg1 record identifier is nil;
 - (long long);
 - (_Bool);
 - (id);
 - (_Bool)E!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) float faceBoundingBoxExpansionRatio;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

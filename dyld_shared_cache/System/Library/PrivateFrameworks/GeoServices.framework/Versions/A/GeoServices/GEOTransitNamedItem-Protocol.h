@@ -5,9 +5,9 @@
 //
 
 @protocol GEOTransitNamedItem
+- (void)FN;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMuid;
-@property(nonatomic) unsigned long long muid;
 @end
 

@@ -17,12 +17,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)ESSORIES;
+- (id)UNLOCK_TO_USE_ACCESSORIES;
 
 // Remaining properties
 @property(retain) LUI2UserPeekabooTransitionLayout *transitionLayout; // @synthesize transitionLayout=_transitionLayout;

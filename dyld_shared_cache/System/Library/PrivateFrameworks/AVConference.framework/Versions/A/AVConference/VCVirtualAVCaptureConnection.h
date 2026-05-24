@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureOutput, NSArray;
+@class AVCaptureOutput;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureConnection
 {
     AVCaptureOutput *_output;
-    NSArray *_ports;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _active;
-    _Bool _videoRetainedBufferCountHintSupported;
-    int _videoRetainedBufferCountHint;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (_Bool);
@@ -31,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)sendText:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) int videoRetainedBufferCountHint; // @synthesize videoRetainedBufferCountHint=_videoRetainedBufferCountHint;
 @property(nonatomic, getter=isVideoRetainedBufferCountHintSupported) _Bool videoRetainedBufferCountHintSupported; // @synthesize videoRetainedBufferCountHintSupported=_videoRetainedBufferCountHintSupported;
 
 @end

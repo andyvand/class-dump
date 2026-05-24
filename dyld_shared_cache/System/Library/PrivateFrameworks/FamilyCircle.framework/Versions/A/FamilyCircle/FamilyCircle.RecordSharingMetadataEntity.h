@@ -14,8 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *cloudKitContainer; // @dynamic cloudKitContainer;
-@property(nonatomic, copy) NSString *recordZone; // @dynamic recordZone;
-@property(nonatomic) long long targetAudience; // @dynamic targetAudience;
 
 @end
 

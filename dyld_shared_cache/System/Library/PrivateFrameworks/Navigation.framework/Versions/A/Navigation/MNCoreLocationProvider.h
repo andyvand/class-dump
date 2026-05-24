@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, MNLocationProviderCLParameters, NSObject, NSString, geo_isolater;
-@protocol MNLocationProviderDelegate, OS_dispatch_queue;
+@class CLLocationManager;
 
 @interface MNCoreLocationProvider
 {
     CLLocationManager *_clLocationManager;
-    NSObject<OS_dispatch_queue> *_locationsQueue;
-    MNLocationProviderCLParameters *_clParameters;
-    id <MNLocationProviderDelegate> _delegate;
-    int _authorizationStatus;
-    long long _accuracyAuthorization;
-    geo_isolater *_authorizationIsolater;
-    NSString *_identifier;
 }
 
 - (void);
@@ -24,41 +16,41 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)tainerDetailLabel;
+- (void):(id)arg1 cannot open the given url. ;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void)q°1Â0@ù
 × ;
 - (void)NavigationServiceProxy>"16d24d32;
-- (void)ncement: /* Error: Ran out of types for this method. */;
-- (void)uest:response:error:anchorPoints:requestDate:responseDate: /* Error: Ran out of types for this method. */;
-- (id)tepIndex:(id)arg1 segmentIndex: /* Error: Ran out of types for this method. */;
+- (void)setNextAnnouncementStage:timeUntilNextAnnouncement: /* Error: Ran out of types for this method. */;
+- (void)recordRouteCreationAction:request:response:error:anchorPoints:requestDate:responseDate: /* Error: Ran out of types for this method. */;
+- (id)navigationSessionManager:(id)arg1 didUpdateDisplayedStepIndex:segmentIndex: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)vigationType;
+- (_Bool)desiredNavigationType;
 - (void)TB,R,N,V_isAutomaticReroute;
-- (void)igationDebug;
+- (void)NavigationDebug;
 - (void));
 - (void)%@;
 - (void)in};
 - (void)PreviewRoutes:withSelectedRouteIndex:] /* Error: Ran out of types for this method. */;
 - (id)ck_invoke;
 - (double);
-- (int)uestingAppIdentifier;
+- (int)_requestingAppIdentifier;
 - (void)ity_kwh        NUMERIC,
     consumption_arguments           TEXT,
     charging_arguments              TEXT,
@@ -229,21 +221,7 @@ CREATE VIEW route_creation_actions_view AS
 - (void)þæ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool coarseModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNLocationProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) int headingOrientation;
-@property(readonly, nonatomic) _Bool isAuthorized;
-@property(readonly, nonatomic) _Bool isTracePlayer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) unsigned long long traceVersion;
 
 @end
 

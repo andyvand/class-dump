@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, OITSUCustomFormatData;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface OITSUCustomFormat
 {
     NSString *_formatNameStem;
-    NSString *_formatNameTag;
-    NSString *_currencyCode;
-    _Bool _currencyCodeComputed;
-    int _formatType;
-    OITSUCustomFormatData *_defaultFormatData;
-    NSString *_formatName;
-    NSMutableArray *_conditionList;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (int);
@@ -46,14 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long conditionCount;
 @property(readonly, nonatomic) NSMutableArray *conditionList; // @synthesize conditionList=_conditionList;
-@property(readonly, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) OITSUCustomFormatData *defaultFormatData; // @synthesize defaultFormatData=_defaultFormatData;
-@property(readonly, nonatomic) NSString *formatName; // @synthesize formatName=_formatName;
-@property(readonly, nonatomic) NSString *formatNameStem;
-@property(readonly, nonatomic) NSString *formatNameTag;
-@property(readonly, nonatomic) int formatType; // @synthesize formatType=_formatType;
 
 @end
 

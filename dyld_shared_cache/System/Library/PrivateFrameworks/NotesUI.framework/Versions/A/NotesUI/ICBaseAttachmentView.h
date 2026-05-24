@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment, ICSearchResultRegexMatchFinder, ICTextAttachment, NSColor, NSImage;
+@class ICAttachment;
 
 @interface ICBaseAttachmentView
 {
     _Bool _selected;
-    ICAttachment *_attachment;
-    ICTextAttachment *_textAttachment;
-    double _foregroundAlpha;
-    NSColor *_highlightColor;
-    ICSearchResultRegexMatchFinder *_highlightPatternRegexFinder;
-    struct CGSize _attachmentContentSize;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachment *attachment; // @synthesize attachment=_attachment;
-@property(nonatomic) struct CGSize attachmentContentSize; // @synthesize attachmentContentSize=_attachmentContentSize;
-@property(nonatomic) double foregroundAlpha; // @synthesize foregroundAlpha=_foregroundAlpha;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *highlightPatternRegexFinder; // @synthesize highlightPatternRegexFinder=_highlightPatternRegexFinder;
-@property(readonly, nonatomic) NSImage *imageForPrinting;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) __weak ICTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
 @end
 

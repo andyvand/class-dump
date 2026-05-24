@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface _UITreeDataSourceSnapshotter
 {
     vector_45d001e1 _nodes;
-    long long _count;
-    NSMutableIndexSet *_expandedIndexes;
 }
 
 - (id);
@@ -35,31 +31,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange)40@"NSString"48@"NSString"56;
+- (struct _NSRange)abilityRequest"24@"NSData"32@"NSString"40@"NSString"48@"NSString"56;
+- (void)loadIsDownloadingPurgedAttachmentsForIDs:(long long)arg1 style:onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)loadChatWithGUID:queryID: /* Error: Ran out of types for this method. */;
+- (_Bool)isDisabled;
+- (void)_downloadAttachmentAssetsWithActivity:(long long)arg1 restoringAttachments:retryCount:numAttachmentsDownloaded:transfers:completion: /* Error: Ran out of types for this method. */;
+- (void)_doLoginIgnoringProxy:(struct _NSRange)arg1;
+- (void)_displayDatabaseFullAlert;
+- (long long),R,N;
+- (long long),V_signaturesToRequestIDs;
+- (struct _UIOutlineNode *)preview;
+- (struct _UIOutlineNode)eDictionary",&,N,V_mutableProperties;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (struct _UIOutlineNode *);
-- (struct _UIOutlineNode);
-- (_Bool);
-- (void);
-- (void);
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)Received validity response of %ld for validation token "%@" from senderHandleID "%@";
 - (id);
 - (_Bool);
 - (id);
@@ -67,10 +63,10 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (_Bool)sSearchingRegionsOfInterestContainer"b1"clipToSnapshotRect"b1"ignoresRootContainerClippingRect"b1};
-- (id)ight;
+- (id)_canIntrinsicHeightExceedContentHeight;
 - (void):(long long)arg1 ];
 - (long long)@?0@"NSString"8@"NSNumber"16^B24;
-- (void)o7NSArrayCSgSo6UIMenuCSgIeyByya_;
+- (void)yXlSgSo7NSArrayCSgSo6UIMenuCSgIeyByya_;
 - (id);
 
 // Remaining properties

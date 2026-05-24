@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskWork
 {
     const char *_static_description;
-    double _timeout;
-    double _timeoutTime;
-    NSError *_recvdError;
-    _Bool _hasBeenCalledBack;
-    _Bool _timerStarted;
 }
 
 - (id);

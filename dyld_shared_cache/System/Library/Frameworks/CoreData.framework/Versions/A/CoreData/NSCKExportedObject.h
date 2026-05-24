@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKExportOperation, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKExportedObject : NSManagedObject
@@ -20,13 +20,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long changeType;
 @property(retain, nonatomic) NSNumber *changeTypeNum; // @dynamic changeTypeNum;
-@property(retain, nonatomic) NSString *ckRecordName; // @dynamic ckRecordName;
-@property(retain, nonatomic) NSCKExportOperation *operation; // @dynamic operation;
-@property(nonatomic) unsigned long long type;
-@property(retain, nonatomic) NSNumber *typeNum; // @dynamic typeNum;
-@property(retain, nonatomic) NSString *zoneName; // @dynamic zoneName;
 
 @end
 

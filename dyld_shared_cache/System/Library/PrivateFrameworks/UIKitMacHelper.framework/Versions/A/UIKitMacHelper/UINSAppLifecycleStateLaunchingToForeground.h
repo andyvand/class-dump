@@ -10,27 +10,25 @@ __attribute__((visibility("hidden")))
 @interface UINSAppLifecycleStateLaunchingToForeground : UINSAppLifecycleState
 {
     _Bool _encounteredUIKitAppForegrounding;
-    _Bool _encounteredSceneStateRestorationCompletion;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool encounteredSceneStateRestorationCompletion; // @synthesize encounteredSceneStateRestorationCompletion=_encounteredSceneStateRestorationCompletion;
 @property(nonatomic) _Bool encounteredUIKitAppForegrounding; // @synthesize encounteredUIKitAppForegrounding=_encounteredUIKitAppForegrounding;
 
 @end

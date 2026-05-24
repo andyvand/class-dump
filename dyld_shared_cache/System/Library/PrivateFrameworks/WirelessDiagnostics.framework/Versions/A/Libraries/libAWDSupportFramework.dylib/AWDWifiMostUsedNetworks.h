@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AWDWifiMostUsedNetworks
 {
     double _timeUsed;
-    unsigned int _apOUI;
-    NSData *_apOui;
-    NSString *_bundleID;
-    int _networkScore;
-    unsigned int _networkScoreBitMap;
-    unsigned int _securityType;
-    unsigned int _switchToCount;
-    unsigned int _switchedAwayFromCount;
-    unsigned int _timeUsedMinutes;
-    struct {
-        unsigned int timeUsed:1;
-        unsigned int apOUI:1;
-        unsigned int networkScore:1;
-        unsigned int networkScoreBitMap:1;
-        unsigned int securityType:1;
-        unsigned int switchToCount:1;
-        unsigned int switchedAwayFromCount:1;
-        unsigned int timeUsedMinutes:1;
-    } _has;
 }
 
 - (double);
 - (unsigned int);
 - (unsigned int);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -40,13 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)a;
+- (unsigned int)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,7 +37,7 @@
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)I;
 - (void);
 - (id);
 - (id);
@@ -68,7 +47,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (unsigned int);
 - (int);
 - (_Bool);
@@ -76,30 +55,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int apOUI; // @synthesize apOUI=_apOUI;
-@property(retain, nonatomic) NSData *apOui; // @synthesize apOui=_apOui;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(nonatomic) _Bool hasApOUI;
-@property(readonly, nonatomic) _Bool hasApOui;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasNetworkScore;
-@property(nonatomic) _Bool hasNetworkScoreBitMap;
-@property(nonatomic) _Bool hasSecurityType;
-@property(nonatomic) _Bool hasSwitchToCount;
-@property(nonatomic) _Bool hasSwitchedAwayFromCount;
-@property(nonatomic) _Bool hasTimeUsed;
-@property(nonatomic) _Bool hasTimeUsedMinutes;
-@property(nonatomic) int networkScore; // @synthesize networkScore=_networkScore;
-@property(nonatomic) unsigned int networkScoreBitMap; // @synthesize networkScoreBitMap=_networkScoreBitMap;
-@property(nonatomic) unsigned int securityType; // @synthesize securityType=_securityType;
-@property(nonatomic) unsigned int switchToCount; // @synthesize switchToCount=_switchToCount;
-@property(nonatomic) unsigned int switchedAwayFromCount; // @synthesize switchedAwayFromCount=_switchedAwayFromCount;
-@property(nonatomic) double timeUsed; // @synthesize timeUsed=_timeUsed;
-@property(nonatomic) unsigned int timeUsedMinutes; // @synthesize timeUsedMinutes=_timeUsedMinutes;
 
 @end
 

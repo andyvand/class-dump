@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDoubleLinkedListNode, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSDoubleLinkedList
 {
     unsigned long long _count;
-    AMSDoubleLinkedListNode *_head;
-    AMSDoubleLinkedListNode *_tail;
-    NSString *_listIdentifier;
 }
 
 - (id);
 - (void);
+- (id)SMSHandshakeFailureReceivedSMSResponse;
 - (id);
 - (id);
+- (void)67;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)isabledReason;
+- (void)sionSendGameControllerEvent(MRExternalDeviceRef, MRGameControllerEvent, MRGameControllerID);
 - (id);
 - (id);
 - (void);
@@ -34,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)û¿µüúÕW¸ÞàÔ'ÈräìO»ÀA´[iÒCwæÊÆØ-ñvxNïp¡G&Íqf-|8cùzµ5ËµËÿB§tk>öÔ8L+­Îu©º7@àHìêRÄßXP"X6ÂÂüÝ$6Äô 3 ý=ôÁi²V}óùæ}I×Qúê´08«á'*ó%Áôk!mM,3.bÒ^T0^]r`x+G,°ÖóK($Äf9>Úg«NéZà:tàÆ·S}&Û:¹åDí¹C½Ù¾<Ù1_^÷Sã¢ª±	]­³öH3ªö+&/NzÑë[W /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *allNodes;
-@property(readonly) unsigned long long count; // @synthesize count=_count;
-@property(retain) AMSDoubleLinkedListNode *head; // @synthesize head=_head;
 @property(retain) NSString *listIdentifier; // @synthesize listIdentifier=_listIdentifier;
-@property(retain) AMSDoubleLinkedListNode *tail; // @synthesize tail=_tail;
 
 @end
 

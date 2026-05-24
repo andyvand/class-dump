@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIHighKey
 {
     CIImage *inputImage;
-    NSNumber *inputStrength;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)r;
+- (void)semanticStyleAdjustmentController;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength;
 
 @end
 

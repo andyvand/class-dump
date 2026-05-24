@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface SFPairedContactInfo
 {
     NSString *_identifier;
-    NSData *_imageData;
-    NSString *_deviceName;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSDate *_expiryDate;
 }
 
 + (_Bool);
@@ -29,12 +24,7 @@
 - (id)vices;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end
 

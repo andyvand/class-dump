@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWStillImageSemanticStyle
 {
     float _toneBias;
-    float _warmthBias;
 }
 
 - (void);
@@ -20,15 +17,7 @@ __attribute__((visibility("hidden")))
 - (float);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
-@property(nonatomic) float warmthBias; // @synthesize warmthBias=_warmthBias;
 
 @end
 

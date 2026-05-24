@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSPredicate, NSString, PTSettings;
-@protocol PTComponentObserver;
+@class NSHashTable, NSString;
 
 @interface PTModule
 {
     NSHashTable *_observers;
-    NSArray *_components;
-    id <PTComponentObserver> _componentObserver;
-    PTSettings *_settings;
-    NSArray *_allSections;
-    NSArray *_enabledSections;
-    NSPredicate *_appearancePredicate;
-    NSString *_childSettingsKeyPath;
-    NSString *_title;
 }
 
 + (id);
@@ -47,9 +38,9 @@
 - (void);
 - (id);
 - (id);
+- (id)F;
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
@@ -57,30 +48,17 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)algorithm = %@;
+- (void)warningRecorder:(id)arg1 error:progressHandler:]EUb_ENK3$_0clEP7CGImageEUlvE_ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (id);
 - (void);
-- (void);
+- (void)icyAttributePassword matches '.{4,}+';
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allSections; // @synthesize allSections=_allSections;
-@property(retain, nonatomic) NSPredicate *appearancePredicate; // @synthesize appearancePredicate=_appearancePredicate;
-@property(retain, nonatomic) NSString *childSettingsKeyPath; // @synthesize childSettingsKeyPath=_childSettingsKeyPath;
-@property(nonatomic) __weak id <PTComponentObserver> componentObserver; // @synthesize componentObserver=_componentObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *enabledSections; // @synthesize enabledSections=_enabledSections;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PTSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

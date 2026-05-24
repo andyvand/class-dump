@@ -9,11 +9,6 @@
 @interface SOFullScreenEffectPlayer
 {
     NSMutableArray *_effectViews;
-    NSView *_hostView;
-    NSView *_bottomView;
-    NSView *_topView;
-    NSView *_backgroundView;
-    struct CGRect _messageRect;
 }
 
 - (void);
@@ -29,25 +24,21 @@
 - (void);
 - (void);
 - (void);
+- (void)-;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T5;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) NSView *bottomView; // @synthesize bottomView=_bottomView;
-@property(retain, nonatomic) NSView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) struct CGRect messageRect; // @synthesize messageRect=_messageRect;
-@property(retain, nonatomic) NSView *topView; // @synthesize topView=_topView;
 
 @end
 

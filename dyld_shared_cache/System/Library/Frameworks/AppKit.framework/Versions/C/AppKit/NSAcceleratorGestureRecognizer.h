@@ -9,30 +9,27 @@
 @interface NSAcceleratorGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    long long _stage;
-    double _pressure;
 }
 
 - (void);
-- (void);
+- (void)opic;
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (void);
 - (struct CGPoint)1Â0@ù
 × ;
-- (void)equestsPreviewForTextAnimation:(id)arg1 ofRange:inContext:completion: /* Error: Ran out of types for this method. */;
-- (void)ByTextTransformations:(id)arg1;
+- (void)writingToolsCoordinator:(id)arg1 requestsPreviewForTextAnimation:ofRange:inContext:completion: /* Error: Ran out of types for this method. */;
+- (void)filterEntriesByTextTransformations:(id)arg1;
 - (double)p,ÈG;
 - (void)bí;
 - (void);
 
 // Remaining properties
-@property(readonly) double pressure; // @synthesize pressure=_pressure;
 @property(readonly) long long stage; // @synthesize stage=_stage;
 
 @end

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusDomainData
 {
     NSUUID *_idsIdentifier;
-    NSString *_idsDestination;
-    NSDate *_assertionTime;
-    NSDictionary *_dataByDomain;
 }
 
-- (id);
-- (id);
+- (id)ue;
+- (id)rvice] Leaving checkin group, connection interrupted;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)<;
 - (_Bool);
 - (id)
 × ;
 - (void)ismissedCameraRecordingOnboarding;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *assertionTime; // @synthesize assertionTime=_assertionTime;
-@property(readonly, nonatomic) NSDictionary *dataByDomain; // @synthesize dataByDomain=_dataByDomain;
-@property(readonly, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
 @property(readonly, nonatomic) NSUUID *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
 
 @end

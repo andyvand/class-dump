@@ -6,35 +6,16 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSBezierPath, NSString, NSView, NUIContainerBoxView, TLKImage, TLKImageView, TLKLabel, TLKMultilineText, TLKStackView, TLKTextButton, TLKTextView;
-@protocol TLKDescriptionViewDelegate;
+@class TLKImage, TLKStackView;
 
 @interface TLKDescriptionView : TLKView
 {
     TLKImage *_image;
-    TLKMultilineText *_text;
-    TLKMultilineText *_title;
-    NSString *_footnoteButtonText;
-    NSString *_trailingFootnoteButtonText;
-    NSString *_moreButtonText;
-    id <TLKDescriptionViewDelegate> _delegate;
-    TLKStackView *_stackView;
-    TLKLabel *_titleLabel;
-    TLKTextView *_detailsTextView;
-    TLKTextButton *_moreButton;
-    TLKImageView *_imageView;
-    NUIContainerBoxView *_imageAndDescriptionBoxView;
-    NSBezierPath *_imageViewExclusionPath;
-    NSBezierPath *_moreButtonExclusionPath;
-    TLKTextButton *_footnoteButton;
-    TLKTextButton *_trailingFootnoteButton;
-    TLKStackView *_footnoteButtonStackView;
-    NSView *_footnoteButtonStackDummyView;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (_Bool);
@@ -46,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,61 +46,36 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (struct NSEdgeInsets);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
+- (struct NSEdgeInsets);
+- (id);
+- (void)RE | Required disk space check failed, error:(id)arg1 %{public}@;
+- (id)powerByConnector;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)epresentation(assemblyIDData) failed;
+- (void)AMFDREncodeCertificateRequestAddSubject;
+- (void)CreateRSAPrivateKey -> %p;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)AudioSourceConfiguration;
+- (id);
+- (void);
+- (void);
+- (id)v4";
 - (id);
 - (void);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <TLKDescriptionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TLKTextView *detailsTextView; // @synthesize detailsTextView=_detailsTextView;
-@property(retain, nonatomic) TLKTextButton *footnoteButton; // @synthesize footnoteButton=_footnoteButton;
-@property(retain, nonatomic) NSView *footnoteButtonStackDummyView; // @synthesize footnoteButtonStackDummyView=_footnoteButtonStackDummyView;
-@property(retain, nonatomic) TLKStackView *footnoteButtonStackView; // @synthesize footnoteButtonStackView=_footnoteButtonStackView;
-@property(retain, nonatomic) NSString *footnoteButtonText; // @synthesize footnoteButtonText=_footnoteButtonText;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NUIContainerBoxView *imageAndDescriptionBoxView; // @synthesize imageAndDescriptionBoxView=_imageAndDescriptionBoxView;
-@property(retain, nonatomic) TLKImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSBezierPath *imageViewExclusionPath; // @synthesize imageViewExclusionPath=_imageViewExclusionPath;
-@property(retain, nonatomic) TLKTextButton *moreButton; // @synthesize moreButton=_moreButton;
-@property(retain, nonatomic) NSBezierPath *moreButtonExclusionPath; // @synthesize moreButtonExclusionPath=_moreButtonExclusionPath;
-@property(retain, nonatomic) NSString *moreButtonText; // @synthesize moreButtonText=_moreButtonText;
 @property(retain, nonatomic) TLKStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKMultilineText *text; // @synthesize text=_text;
-@property(retain, nonatomic) TLKMultilineText *title; // @synthesize title=_title;
-@property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) TLKTextButton *trailingFootnoteButton; // @synthesize trailingFootnoteButton=_trailingFootnoteButton;
-@property(retain, nonatomic) NSString *trailingFootnoteButtonText; // @synthesize trailingFootnoteButtonText=_trailingFootnoteButtonText;
 
 @end
 

@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NFCReaderSession;
+@protocol NFCMiFareTag, NFCReaderSession;
 
 @protocol NFCTag
+- (id <NFCMiFareTag>);
+- (id <NFCReaderSession>)JKJ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
 @property(readonly, nonatomic) __weak id <NFCReaderSession> session;
 @property(readonly, nonatomic) unsigned long long type;
 @end

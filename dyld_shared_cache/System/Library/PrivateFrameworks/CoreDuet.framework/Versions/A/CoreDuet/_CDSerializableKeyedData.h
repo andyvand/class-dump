@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _CDSerializableKeyedData
 {
     NSData *_encodedKey;
-    unsigned char _keyChecksum;
-    unsigned char _dataChecksum;
-    _Bool _dataChecksumNeedsUpdate;
-    NSString *_key;
-    NSData *_data;
 }
 
 + (id);
 + (id);
 + (unsigned char);
 + (id);
-- (unsigned long long);
+- (unsigned long long)?׀;
 - (_Bool);
 - (id);
 - (void);

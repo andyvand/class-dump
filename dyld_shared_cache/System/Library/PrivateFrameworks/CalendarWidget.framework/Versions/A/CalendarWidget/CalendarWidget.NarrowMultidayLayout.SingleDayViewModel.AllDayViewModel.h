@@ -7,12 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.AllDayViewModel
 {
     id id;
-    id events;
-    id collapsed;
-    id numEventsToShowIfNotCollapsed;
-    id individualHeight;
-    id spacingBetweenItems;
-    id xMoreHeight;
 }
 
 @end

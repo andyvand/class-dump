@@ -9,20 +9,16 @@
 @interface WFCoreDataChangeNotification
 {
     _Bool _invalidatedAllObjects;
-    int _processIdentifier;
-    NSSet *_updated;
-    NSSet *_inserted;
-    NSSet *_deleted;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,14 +31,7 @@
 - (_Bool)ntItemClass(void)_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *deleted; // @synthesize deleted=_deleted;
-@property(readonly, nonatomic) NSSet *deletedDescriptors;
-@property(readonly, nonatomic) NSSet *inserted; // @synthesize inserted=_inserted;
-@property(readonly, nonatomic) NSSet *insertedDescriptors;
-@property(readonly, nonatomic) _Bool invalidatedAllObjects; // @synthesize invalidatedAllObjects=_invalidatedAllObjects;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
 @property(readonly, nonatomic) NSSet *updated; // @synthesize updated=_updated;
-@property(readonly, nonatomic) NSSet *updatedDescriptors;
 
 @end
 

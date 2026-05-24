@@ -7,31 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiNWActivityScanActivity
 {
     unsigned int _assocCount;
-    unsigned int _assocDur;
-    unsigned int _otherCount;
-    unsigned int _otherDur;
-    unsigned int _pnoBSSIDCount;
-    unsigned int _pnoBSSIDDur;
-    unsigned int _pnoSSIDCount;
-    unsigned int _pnoSSIDDur;
-    unsigned int _roamCount;
-    unsigned int _roamDur;
-    unsigned int _userCount;
-    unsigned int _userDur;
-    struct {
-        unsigned int assocCount:1;
-        unsigned int assocDur:1;
-        unsigned int otherCount:1;
-        unsigned int otherDur:1;
-        unsigned int pnoBSSIDCount:1;
-        unsigned int pnoBSSIDDur:1;
-        unsigned int pnoSSIDCount:1;
-        unsigned int pnoSSIDDur:1;
-        unsigned int roamCount:1;
-        unsigned int roamDur:1;
-        unsigned int userCount:1;
-        unsigned int userDur:1;
-    } _has;
 }
 
 - (void);
@@ -41,20 +16,20 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)System.B.dylib;
+- (void)8;
+- (void)ork/Versions/A/QuartzCore;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)TopLevelGraphEncodingNode;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -62,10 +37,10 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
+- (_Bool)�{2;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)L;
+- (_Bool)�`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,46 +52,23 @@
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)T;
 - (unsigned int);
 - (_Bool);
-- (unsigned int);
-- (void);
-- (id);
+- (unsigned int)contactsChangedNotificationEmailAddressesChanged: /* Error: Ran out of types for this method. */;
+- (void)g",R,C,N,V_clusterIdentifier;
+- (id)-- Unexpected class for deserialized document for REMCRReminderIDList {document:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)e/CSI/CLMachThreadSupport.mm;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int assocCount; // @synthesize assocCount=_assocCount;
-@property(nonatomic) unsigned int assocDur; // @synthesize assocDur=_assocDur;
-@property(nonatomic) _Bool hasAssocCount;
-@property(nonatomic) _Bool hasAssocDur;
-@property(nonatomic) _Bool hasOtherCount;
-@property(nonatomic) _Bool hasOtherDur;
-@property(nonatomic) _Bool hasPnoBSSIDCount;
-@property(nonatomic) _Bool hasPnoBSSIDDur;
-@property(nonatomic) _Bool hasPnoSSIDCount;
-@property(nonatomic) _Bool hasPnoSSIDDur;
-@property(nonatomic) _Bool hasRoamCount;
-@property(nonatomic) _Bool hasRoamDur;
 @property(nonatomic) _Bool hasUserCount;
-@property(nonatomic) _Bool hasUserDur;
-@property(nonatomic) unsigned int otherCount; // @synthesize otherCount=_otherCount;
-@property(nonatomic) unsigned int otherDur; // @synthesize otherDur=_otherDur;
-@property(nonatomic) unsigned int pnoBSSIDCount; // @synthesize pnoBSSIDCount=_pnoBSSIDCount;
-@property(nonatomic) unsigned int pnoBSSIDDur; // @synthesize pnoBSSIDDur=_pnoBSSIDDur;
-@property(nonatomic) unsigned int pnoSSIDCount; // @synthesize pnoSSIDCount=_pnoSSIDCount;
-@property(nonatomic) unsigned int pnoSSIDDur; // @synthesize pnoSSIDDur=_pnoSSIDDur;
-@property(nonatomic) unsigned int roamCount; // @synthesize roamCount=_roamCount;
-@property(nonatomic) unsigned int roamDur; // @synthesize roamDur=_roamDur;
-@property(nonatomic) unsigned int userCount; // @synthesize userCount=_userCount;
-@property(nonatomic) unsigned int userDur; // @synthesize userDur=_userDur;
 
 @end
 

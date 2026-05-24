@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLEngineStore, CPLEngineSyncManager, CPLSyncSession, NSError, NSString;
+@class CPLEngineLibrary, CPLEngineSyncManager;
 
 @interface CPLSyncStep
 {
     CPLEngineSyncManager *_syncManager;
-    CPLSyncSession *_syncSession;
 }
 
-- (id);
-- (void);
+- (id)commute1Hr15MinWarningEntityRelevanceLargeGeoHashAndDayOfWeekFeatures;
+- (void)appEntityRelevanceUserFocusModeAndCoarseTimeOfDayFeatures;
 - (float);
 - (_Bool);
 - (void);
@@ -25,29 +24,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (void)±ð1Â0@ù
 × ;
-- (id)groundDownloadTaskForResource:bumpRetryCount:didDiscard:error: /* Error: Ran out of types for this method. */;
+- (id)reenqueueBackgroundDownloadTaskForResource:bumpRetryCount:didDiscard:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *descriptionForTasks;
 @property(readonly, nonatomic) CPLEngineLibrary *engineLibrary;
-@property(readonly, nonatomic) CPLEngineStore *engineStore;
-@property(readonly) _Bool hasTasks;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSError *lastError;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CPLEngineSyncManager *syncManager; // @synthesize syncManager=_syncManager;
-@property(readonly, nonatomic) CPLSyncSession *syncSession; // @synthesize syncSession=_syncSession;
 
 @end
 

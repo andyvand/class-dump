@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxProvider, NSMutableArray, NSMutableSet;
-@protocol EDPersistedMessage;
+@class EDMailboxProvider;
 
 @interface _EDMessageDuplicateInfo
 {
     EDMailboxProvider *_mailboxProvider;
-    id <EDPersistedMessage> _primaryPersistedMessage;
-    NSMutableSet *_mailboxes;
-    NSMutableArray *_flags;
-    NSMutableArray *_dates;
 }
 
 - (void);
@@ -22,15 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)attributesAsString: /* Error: Ran out of types for this method. */;
+- (void)teApProfile:(id)arg1 ];
 - (void)ted_at, NULL),
        (:account, 21, 0, 0, 0, :started_at, NULL),
        (:account, 22, 0, 0, 0, :started_at, NULL),
@@ -38,11 +33,7 @@
        (:account, 24, 0, 0, 0, :started_at, NULL) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dates; // @synthesize dates=_dates;
-@property(retain, nonatomic) NSMutableArray *flags; // @synthesize flags=_flags;
 @property(retain, nonatomic) EDMailboxProvider *mailboxProvider; // @synthesize mailboxProvider=_mailboxProvider;
-@property(retain, nonatomic) NSMutableSet *mailboxes; // @synthesize mailboxes=_mailboxes;
-@property(retain, nonatomic) id <EDPersistedMessage> primaryPersistedMessage; // @synthesize primaryPersistedMessage=_primaryPersistedMessage;
 
 @end
 

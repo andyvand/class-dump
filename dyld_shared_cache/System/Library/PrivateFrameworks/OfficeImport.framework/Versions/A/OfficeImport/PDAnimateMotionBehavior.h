@@ -6,26 +6,17 @@
 
 #import <OfficeImport/PDAnimateScaleBehavior.h>
 
-@class NSString, OITSUBezierPath;
+@class OITSUBezierPath;
 
 __attribute__((visibility("hidden")))
 @interface PDAnimateMotionBehavior : PDAnimateScaleBehavior
 {
     OITSUBezierPath *mPath;
-    _Bool mHasAngle;
-    double mAngle;
-    NSString *mPointsTypes;
-    _Bool mHasOriginType;
-    int mOriginType;
-    _Bool mHasRotationCenter;
-    struct CGPoint mRotationCenter;
-    _Bool mHasPathEditMode;
-    int mPathEditMode;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)?%;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -35,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (void);
@@ -43,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (id);
+- (id)`;
 - (void);
 
 @end

@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumEXIFCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumFocalLengthCondition : PXSmartAlbumEXIFCondition
 {
@@ -23,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *focalLengthValue;
 @property(readonly, nonatomic) NSArray *focalLengthValues;
-@property(retain, nonatomic) PXLabeledValue *secondFocalLengthValue;
 
 @end
 

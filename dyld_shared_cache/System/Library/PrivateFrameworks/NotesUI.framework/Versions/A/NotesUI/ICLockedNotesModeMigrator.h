@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectContext, NSObject;
+@class NSManagedObjectContext, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICLockedNotesModeMigrator
 {
     NSManagedObjectContext *_workerContext;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_authenticatedAt;
 }
 
 + (id);
@@ -29,20 +27,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)dText;
+- (id)bjects Table;
+- (void)_previouslyHadMarkedText;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *authenticatedAt; // @synthesize authenticatedAt=_authenticatedAt;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSManagedObjectContext *workerContext; // @synthesize workerContext=_workerContext;
 
 @end
 

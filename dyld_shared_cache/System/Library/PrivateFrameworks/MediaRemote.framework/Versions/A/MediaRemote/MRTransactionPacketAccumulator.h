@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MRTransactionPacketAccumulator
 {
     NSMutableOrderedSet *_packets;
-    unsigned long long _currentLength;
 }
 
 - (id);

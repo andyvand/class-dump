@@ -5,5 +5,6 @@
 //
 
 @protocol CHAutoStyling
+- (void);
 @end
 

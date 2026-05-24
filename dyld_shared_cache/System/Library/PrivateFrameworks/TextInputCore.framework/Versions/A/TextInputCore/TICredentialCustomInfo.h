@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TICredentialCustomInfo
 {
     NSDictionary *_customInfo;
-    NSUUID *_documentIdentifier;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)0@ù
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *customInfo; // @synthesize customInfo=_customInfo;
-@property(readonly, nonatomic) NSUUID *documentIdentifier; // @synthesize documentIdentifier=_documentIdentifier;
 
 @end
 

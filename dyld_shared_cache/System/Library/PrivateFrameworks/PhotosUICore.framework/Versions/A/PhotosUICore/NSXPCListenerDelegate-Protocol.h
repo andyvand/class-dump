@@ -7,6 +7,6 @@
 @protocol NSXPCListenerDelegate
 
 @optional
-- (_Bool)redPlayerVolume;
+- (_Bool)_updateDesiredPlayerVolume;
 @end
 

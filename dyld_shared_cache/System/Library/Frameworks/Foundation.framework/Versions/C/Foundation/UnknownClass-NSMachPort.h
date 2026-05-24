@@ -19,10 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (oneway void);
+- (unsigned long long);
+- (oneway void)I8;
 - (id);
-- (unsigned long long);
+- (unsigned long long)
+;
 - (void);
 - (id);
 - (id);

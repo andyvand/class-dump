@@ -7,18 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionValidator
 {
     id logger;
-    id storyPhotoLibraryContext;
-    id storyAssetsFetcher;
-    id safetyController;
-    id momentExpansionProcessor;
-    id maxAssetFetchCount;
-    id queryGenerator;
-    id quProcessor;
-    id momentBasedGroundingAndAssetsProvider;
-    id storyAssetManager;
-    id annotationProvider;
-    id personIsValidCache;
-    id $__lazy_storage_$_personOrPetUUIDsWithFeedback;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString;
+@class NSString;
 
 @interface PXGNamedImageViewConfiguration
 {
     NSString *_imageName;
-    long long _contentMode;
-    NSBundle *_bundle;
-    long long _floatingAxis;
 }
 
 - (long long);
@@ -19,32 +16,18 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)EndOfArticlePresentationOptions;
 - (unsigned long long);
 - (_Bool);
-- (long long);
-- (id)terestingPromotionScore;
-- (id)eSheetHeader;
+- (long long)differenceFailure;
+- (id)nonInterestingPromotionScore;
+- (id)_showSingleVideoDurationInShareSheetHeader;
 - (void);
 - (id)es...;
 - (void)dáýþµ\·¨áýþ½\·áýþ\·@áýþå\·Xáýþu\·Táýþu\·Dáýþ½\·Páýþõ\·háýþÅ\·Dáýþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long floatingAxis; // @synthesize floatingAxis=_floatingAxis;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

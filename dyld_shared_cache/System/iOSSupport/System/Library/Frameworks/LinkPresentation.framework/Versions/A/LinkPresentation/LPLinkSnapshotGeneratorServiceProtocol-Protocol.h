@@ -5,5 +5,6 @@
 //
 
 @protocol LPLinkSnapshotGeneratorServiceProtocol
+- (void)uncroppedSourceView;
 @end
 

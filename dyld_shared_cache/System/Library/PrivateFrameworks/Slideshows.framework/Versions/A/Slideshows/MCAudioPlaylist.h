@@ -6,30 +6,22 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCContainer, NSArray, NSMutableSet, NSSet;
+@class MCContainer, NSMutableSet;
 
 @interface MCAudioPlaylist : MCObject
 {
     NSMutableSet *mSongs;
-    NSArray *mCachedOrderedSongs;
-    float mVolume;
-    float mDuckLevel;
-    double mFadeInDuration;
-    double mFadeOutDuration;
-    double mDuckInDuration;
-    double mDuckOutDuration;
-    MCContainer *mContainer;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Q;
 - (id);
 - (id);
 - (id);
@@ -39,7 +31,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
+- (double){Q;
 - (id);
 - (id);
 - (void);
@@ -56,14 +48,6 @@
 
 // Remaining properties
 @property MCContainer *container; // @synthesize container=mContainer;
-@property(nonatomic) double duckInDuration; // @synthesize duckInDuration=mDuckInDuration;
-@property(nonatomic) float duckLevel; // @synthesize duckLevel=mDuckLevel;
-@property(nonatomic) double duckOutDuration; // @synthesize duckOutDuration=mDuckOutDuration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=mFadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=mFadeOutDuration;
-@property(readonly) NSArray *orderedSongs;
-@property(readonly) NSSet *songs;
-@property(nonatomic) float volume; // @synthesize volume=mVolume;
 
 @end
 

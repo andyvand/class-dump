@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ProcessingContextKitSearch;
 + (void);
-- (_Bool);
+- (_Bool)tPreference;
 - (id);
 
 @end

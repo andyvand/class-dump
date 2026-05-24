@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2Lock, NSMutableArray, NSMutableSet;
-@protocol HAP2CoAPIOThreadDelegate, HMFDateProvider;
-
 __attribute__((visibility("hidden")))
 @interface HAP2CoAPIOThread
 {
     int _wakeupPipeRead;
-    int _wakeupPipeWrite;
-    NSMutableArray *_queue;
-    NSMutableArray *_messageQueue;
-    NSMutableArray *_completedQueue;
-    NSMutableArray *_consumerInfo;
-    HAP2Lock *_lock;
-    id <HAP2CoAPIOThreadDelegate> _delegate;
-    id <HMFDateProvider> _dateProvider;
-    NSMutableSet *_pendingMessages;
-    NSMutableArray *_zombieSessions;
-    unsigned long long _pendingMessagesThreshold;
 }
 
 + (void)public}@Pair Setup completed with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (void);
@@ -39,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (struct coap_context_t *);
 - (void);
 - (void);
-- (void);
+- (void)ToRobots:Replies to robots feature disabled /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)reList: /* Error: Ran out of types for this method. */;
+- (void)setAccessorySignatureList: /* Error: Ran out of types for this method. */;
 
 @end
 

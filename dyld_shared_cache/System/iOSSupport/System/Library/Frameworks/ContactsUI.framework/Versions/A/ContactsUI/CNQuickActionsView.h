@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactActionsController, CNQuickAction, CNQuickActionsManager, NSArray, NSDictionary, NSString, UIAlertController, UICollectionView, UICollectionViewFlowLayout;
-@protocol CNQuickActionsViewDelegate;
+@class NSArray;
 
 @interface CNQuickActionsView
 {
     _Bool _sortsWithDuet;
-    _Bool _useDuetIfAvailable;
-    _Bool _showTitles;
-    _Bool _showBackgroundPlatters;
-    CNContact *_contact;
-    NSArray *_categories;
-    NSDictionary *_titleTextAttributes;
-    id <CNQuickActionsViewDelegate> _delegate;
-    NSArray *_actions;
-    UICollectionViewFlowLayout *_collectionLayout;
-    UICollectionView *_collectionView;
-    UIAlertController *_alertController;
-    CNContactActionsController *_actionsController;
-    CNQuickAction *_performingAction;
-    CNQuickActionsManager *_actionsManager;
-    struct CGSize _cachedContentSize;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
-+ (id)lowDrops;
++ (id)shouldAllowDrops;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -62,58 +46,34 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize),;
 - (double);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (id)__hash_node_base<std:(struct CGRect)arg1:__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)__NSFrozenSetM;
 - (id);
 - (void);
-- (long long);
-- (id);
+- (long long)_v;
+- (id)ges.archive;
 - (void);
 - (double)@ù
 × ;
 - (void)
 × ;
-- (void)sInteractionDomains;
+- (void)_suggestionsInteractionDomains;
 - (id)ectory.jVpasm/Sources/ContactsUI_iosmac/Framework/CNContactOrbActionsController.m;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) CNQuickActionsManager *actionsManager; // @synthesize actionsManager=_actionsManager;
-@property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(nonatomic) struct CGSize cachedContentSize; // @synthesize cachedContentSize=_cachedContentSize;
-@property(copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(retain, nonatomic) UICollectionViewFlowLayout *collectionLayout; // @synthesize collectionLayout=_collectionLayout;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNQuickActionsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interspace;
-@property(readonly, nonatomic) double maximumWidth;
-@property(retain, nonatomic) CNQuickAction *performingAction; // @synthesize performingAction=_performingAction;
-@property(nonatomic) _Bool showBackgroundPlatters; // @synthesize showBackgroundPlatters=_showBackgroundPlatters;
-@property(nonatomic) _Bool showTitles; // @synthesize showTitles=_showTitles;
-@property(nonatomic) _Bool sortsWithDuet; // @synthesize sortsWithDuet=_sortsWithDuet;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *titleTextAttributes; // @synthesize titleTextAttributes=_titleTextAttributes;
-@property(nonatomic) _Bool useDuetIfAvailable; // @synthesize useDuetIfAvailable=_useDuetIfAvailable;
 
 @end
 

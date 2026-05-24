@@ -13,13 +13,13 @@
 
 - (id);
 - (long long);
+- (id)qj;
 - (id);
 - (id);
-- (id);
-- (long long)Asset;
+- (long long)referenceAsset;
 - (id)¤·;
 - (long long),Rúþ) µ¨?ÿ;
-- (void)derView;
+- (void)PhotosDynamicHeaderView;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;

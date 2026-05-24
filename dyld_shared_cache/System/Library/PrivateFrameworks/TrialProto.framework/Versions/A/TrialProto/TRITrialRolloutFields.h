@@ -9,12 +9,6 @@
 @interface TRITrialRolloutFields
 {
     NSString *_clientFactorPackSetId;
-    NSString *_clientRampId;
-    NSString *_clientRolloutId;
-    int _clientTargetingRuleGroupOrdinal;
-    struct {
-        unsigned int clientTargetingRuleGroupOrdinal:1;
-    } _has;
 }
 
 - (void);
@@ -24,11 +18,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)mework/Contents/MacOS/CoreMedia;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t failed to return valid data or url with error:(id)arg1 %@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,14 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientFactorPackSetId; // @synthesize clientFactorPackSetId=_clientFactorPackSetId;
-@property(retain, nonatomic) NSString *clientRampId; // @synthesize clientRampId=_clientRampId;
-@property(retain, nonatomic) NSString *clientRolloutId; // @synthesize clientRolloutId=_clientRolloutId;
-@property(nonatomic) int clientTargetingRuleGroupOrdinal; // @synthesize clientTargetingRuleGroupOrdinal=_clientTargetingRuleGroupOrdinal;
-@property(readonly, nonatomic) _Bool hasClientFactorPackSetId;
-@property(readonly, nonatomic) _Bool hasClientRampId;
 @property(readonly, nonatomic) _Bool hasClientRolloutId;
-@property(nonatomic) _Bool hasClientTargetingRuleGroupOrdinal;
 
 @end
 

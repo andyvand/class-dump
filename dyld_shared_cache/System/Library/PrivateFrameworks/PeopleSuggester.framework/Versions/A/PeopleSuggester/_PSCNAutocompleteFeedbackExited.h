@@ -9,9 +9,9 @@
     long long _exitStatus;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool);
+- (id)_audioCreatedTimestampMs;
+- (id)O;
 - (void);
 - (long long);
 

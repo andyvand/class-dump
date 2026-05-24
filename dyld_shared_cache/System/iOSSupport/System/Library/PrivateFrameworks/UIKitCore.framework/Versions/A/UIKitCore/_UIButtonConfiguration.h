@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIBackgroundConfiguration, UIColor, UIImage, UIImageSymbolConfiguration, UITraitCollection;
+@class UIBackgroundConfiguration;
 
 @interface _UIButtonConfiguration
 {
     CDUnknownBlockType _baseAttributesTransformer;
-    UITraitCollection *_traitCollection;
-    long long _role;
-    _Bool _hasCustomizedImageTintColorTransformer;
-    _Bool _showsBusyIndicator;
-    UIBackgroundConfiguration *_background;
-    UIImage *_image;
-    UIColor *_imageTintColor;
-    CDUnknownBlockType _imageTintColorTransformer;
-    UIImageSymbolConfiguration *_preferredSymbolConfigurationForImage;
-    unsigned long long _imageEdge;
-    long long _buttonSize;
-    NSAttributedString *_attributedTitle;
-    CDUnknownBlockType _titleTextAttributesTransformer;
-    NSAttributedString *_attributedSubtitle;
-    CDUnknownBlockType _subtitleTextAttributesTransformer;
-    double _imageToTitlePadding;
-    long long _imageTintColorTransformerIdentifier;
-    long long _style;
-    long long _macIdiomStyle;
-    struct NSDirectionalEdgeInsets _backgroundToContentInsets;
 }
 
-+ (id);
++ (id)er devices, with current version:%lu /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool)utableTextSelectionRect"16;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (CDUnknownBlockType);
-- (unsigned long long);
+- (_Bool)Q40@48@56@?64;
+- (void)simulateOneTimeCodeArriving:(_Bool)arg1;
+- (void)processMentionForPersonIdentity:(double)arg1 highlightURL: /* Error: Ran out of types for this method. */;
+- (void)processMentionForPersonHandle:(CDUnknownBlockType)arg1;
+- (void)Block:(unsigned long long)arg1;
+- (void)omStorage:(struct NSDirectionalEdgeInsets)arg1 editedMessageGUID:editedMessagePartIndex:editType:editedMessagePartBody:editedMessagePartTranslation:editedMessagePartFileTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (double)IMMMSGroupTextOnlyMessagesSendAsMMSForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (long long)exitRecordDate;
+- (CDUnknownBlockType)IMDaemonCoreMessageReceivedTimingCollection;
+- (unsigned long long)_TtC12IMDaemonCore20ChatContactsProvider;
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (id)ier:%s typeIdentifier:%s options:%ld pendingKeys:%{public}ld /* Error: Ran out of types for this method. */;
+- (id)s:batch completed in %{public}.*fs — %{public}ld results for %{public}ld identifiers /* Error: Ran out of types for this method. */;
+- (void)is within grace period (%@). Not marking it as read.;
+- (long long)kInMessageProcessingPipelineComponent> Message is not a balloon plugin;
 - (CDUnknownBlockType);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (long long);
+- (long long);
+- (id)6;
+- (long long)server done A;
 - (double);
 - (long long);
 - (id);
@@ -75,13 +55,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (long long);
+- (id)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (long long)emOptions element had wrong type.;
 - (long long);
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)"MPRemoteCommandHandlerDialog";
 - (double);
 - (double);
 - (void);
@@ -92,7 +72,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)c;
 - (id);
 - (id)ù
 × ;
@@ -106,25 +86,25 @@
 × ;
 - (long long)ionEffect>"16@0:8 /* Error: Ran out of types for this method. */;
 - (void)geDirection"b1"didCancelLiftWithoutDragging"b1"shouldDelayCompetingGestureRecognizer"b1"canExcludeCompetingGestureRecognizer"b1"competingGestureRecognizerShouldDelayLift"b1"dataOwnerForSession"b1"dataOwnerForAddingToSession"b1"sessionSupportsSystemDrag"b1"customSpringAnimationBehaviorForCancellingItem"b1"sessionPropertiesForSession"b1"itemsForAddingToSessionAsync"b1"itemsForAddingToSession3D"b1"sessionForAddingItems3D"b1"dynamicallyUpdatesPrefersFullSizePreviews"b1"shouldBecomeDraggingSourceDelegate"b1"delayForLiftBeginningAtLocation"b1};
-- (_Bool)sDataSource:(id)arg1;
-- (id)nderID: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)sToolbarIntegration;
-- (void)tSize;
-- (long long)iewInfo;
-- (id)ementsInRect:cellsOnly:validateIfNeeded:includeIndelibleElements: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)dleKeyboardShortcutForKeyboardEvent:(id)arg1 allowsRepeat: /* Error: Ran out of types for this method. */;
+- (_Bool)setSearchResultsDataSource:(id)arg1;
+- (id)setDigitizerSenderID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)searchBarPlacementAllowsToolbarIntegration;
+- (void)pointSize;
+- (long long)_remoteAssistantViewInfo;
+- (id)_layoutAttributesForElementsInRect:cellsOnly:validateIfNeeded:includeIndelibleElements: /* Error: Ran out of types for this method. */;
+- (_Bool)_inputModeListTouchPhase;
+- (void)_handleKeyboardShortcutForKeyboardEvent:(id)arg1 allowsRepeat: /* Error: Ran out of types for this method. */;
 - (long long)Appearance:,V_alwaysUseManualScrollEdgeAppearance /* Error: Ran out of types for this method. */;
 - (id)IToolbarAppearance",C,N,V_compactAppearance;
 - (double)\¼¸¼;
 - (id)TW`X[;
 - (id)dy present.;
 - (id)itionalSerifs ;
-- (_Bool)eTextFormatting;
+- (_Bool)_UIFontPickerUIServiceActivityTypeTextFormatting;
 - (long long)ngaged(void);
-- (id)TypePaste;
+- (id)UIKBKeyDisplayTypePaste;
 - (long long)ing selection handle.;
-- (id)tton;
+- (id)Button;
 - (id)ing Damping Ratio;
 - (void);
 - (_Bool);
@@ -136,41 +116,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedSubtitle; // @synthesize attributedSubtitle=_attributedSubtitle;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic) UIBackgroundConfiguration *background; // @synthesize background=_background;
-@property(nonatomic) struct NSDirectionalEdgeInsets backgroundToContentInsets; // @synthesize backgroundToContentInsets=_backgroundToContentInsets;
-@property(nonatomic) long long buttonSize; // @synthesize buttonSize=_buttonSize;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets contentInsets;
-@property(readonly, nonatomic) long long cornerStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long imageEdge; // @synthesize imageEdge=_imageEdge;
-@property(readonly, nonatomic) double imagePadding;
-@property(readonly, nonatomic) unsigned long long imagePlacement;
-@property(retain, nonatomic) UIColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(copy, nonatomic) CDUnknownBlockType imageTintColorTransformer; // @synthesize imageTintColorTransformer=_imageTintColorTransformer;
-@property(nonatomic, setter=_setImageTintColorTransformerIdentifier:) long long imageTintColorTransformerIdentifier; // @synthesize imageTintColorTransformerIdentifier=_imageTintColorTransformerIdentifier;
-@property(nonatomic) double imageToTitlePadding; // @synthesize imageToTitlePadding=_imageToTitlePadding;
-@property(nonatomic) long long macIdiomStyle; // @synthesize macIdiomStyle=_macIdiomStyle;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfigurationForImage; // @synthesize preferredSymbolConfigurationForImage=_preferredSymbolConfigurationForImage;
-@property(readonly, nonatomic) _Bool showsActivityIndicator;
-@property(nonatomic) _Bool showsBusyIndicator; // @synthesize showsBusyIndicator=_showsBusyIndicator;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) long long subtitleLineBreakMode;
-@property(copy, nonatomic) CDUnknownBlockType subtitleTextAttributesTransformer; // @synthesize subtitleTextAttributesTransformer=_subtitleTextAttributesTransformer;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) long long titleAlignment;
-@property(readonly, nonatomic) long long titleLineBreakMode;
-@property(readonly, nonatomic) double titlePadding;
-@property(copy, nonatomic) CDUnknownBlockType titleTextAttributesTransformer; // @synthesize titleTextAttributesTransformer=_titleTextAttributesTransformer;
+@property(readonly, nonatomic) UIBackgroundConfiguration *background;
 
 @end
 

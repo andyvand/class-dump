@@ -11,7 +11,7 @@
 + (struct CGSize);
 + (struct NSEdgeInsets);
 + (double);
-- (id);
+- (id);
 
 @end
 

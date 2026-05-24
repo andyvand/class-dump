@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray;
+@class NSArray;
 
 @interface ABResolveDuplicateGroupsTask
 {
     NSArray *_duplicateGroups;
-    unsigned long long _strategy;
-    ABAddressBook *_addressBook;
 }
 
 - (id);
@@ -19,15 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
 @property(readonly, copy) NSArray *duplicateGroups; // @synthesize duplicateGroups=_duplicateGroups;
-@property(readonly) unsigned long long strategy; // @synthesize strategy=_strategy;
 
 @end
 

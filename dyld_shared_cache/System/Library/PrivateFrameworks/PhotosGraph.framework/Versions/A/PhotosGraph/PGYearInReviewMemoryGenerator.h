@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements;
-
 @interface PGYearInReviewMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    long long _year;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
@@ -21,15 +16,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)yEvents.framework/Versions/A/AccessibilityEvents;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (id)markupsToInclude;
+- (void)countByEnumeratingWithState:(id)arg1 objects:(CDUnknownBlockType)arg2 count: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_zoomFocusRectForZeroLengthIndexBasedRange:textElementController: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)QLInlinePreviewController;
 - (long long);
 - (void)MultiModal-V1.0_DEPRECATED;
 

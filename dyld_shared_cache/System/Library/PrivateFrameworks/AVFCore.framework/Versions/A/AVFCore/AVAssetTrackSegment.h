@@ -10,18 +10,17 @@
 }
 
 + (_Bool);
-- (CDStruct_82206317);
+- (CDStruct_82206317)|;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 @property(readonly, nonatomic) CDStruct_82206317 timeMapping; // @synthesize timeMapping=_timeMapping;
 
 @end

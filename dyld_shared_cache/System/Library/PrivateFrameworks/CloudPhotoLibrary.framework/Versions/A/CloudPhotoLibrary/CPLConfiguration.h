@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLConfigurationDictionary, CPLConfigurationFetcher, NSDate, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class CPLConfigurationDictionary;
 
 @interface CPLConfiguration
 {
     CPLConfigurationDictionary *_configurationDictionary;
-    NSURL *_configurationFileURL;
-    double _updateInterval;
-    CPLConfigurationFetcher *_configurationFetcher;
-    NSObject<OS_dispatch_queue> *_lock;
-    _Bool _disableConfigurationFetching;
-    _Bool _dedupeConfigurationDictionary;
-    NSURL *_configurationURL;
-    double _minUpdateInterval;
-    NSString *_updateIntervalKey;
-    CDUnknownBlockType _configurationDictionaryUniquifier;
 }
 
 - (id);
@@ -34,18 +23,17 @@
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (long long)Ð©Bù;
-- (id)à7@ùpÆ CÑRýÄàªkÆàªiÆý{M©ôOL©öWK©é#Jmÿÿ_Öó;
-- (void)0
-ÁÚ°ø¨üA;
-- (id)ó;
+- (long long);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id)Òè#@ù@ùë`;
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -58,26 +46,7 @@
 - (void)0ï Ò;
 
 // Remaining properties
-@property(readonly) _Bool allowsLocalConflictResolution;
 @property _Bool allowsLocalConflictResolutionWhenOverQuota;
-@property(readonly, nonatomic) NSURL *clientLibraryBaseURL;
-@property(readonly) CPLConfigurationDictionary *configurationDictionary;
-@property(copy, nonatomic) CDUnknownBlockType configurationDictionaryUniquifier; // @synthesize configurationDictionaryUniquifier=_configurationDictionaryUniquifier;
-@property(readonly, nonatomic) NSURL *configurationURL; // @synthesize configurationURL=_configurationURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isComputeStateTaskUploadEnabled;
-@property(readonly, nonatomic) NSDate *lastUpdateDate;
-@property(readonly) long long maximumComputeStatesToUploadPerBatch;
-@property(readonly, nonatomic) double minUpdateInterval; // @synthesize minUpdateInterval=_minUpdateInterval;
-@property(readonly, nonatomic) _Bool shouldCheckEPPCapability;
-@property(readonly, nonatomic) _Bool shouldDisableEPP;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *updateIntervalKey; // @synthesize updateIntervalKey=_updateIntervalKey;
 
 @end
 

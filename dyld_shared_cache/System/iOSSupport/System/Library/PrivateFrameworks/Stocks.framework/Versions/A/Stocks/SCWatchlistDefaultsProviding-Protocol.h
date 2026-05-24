@@ -5,5 +5,6 @@
 //
 
 @protocol SCWatchlistDefaultsProviding
+- (void)nm|;
 @end
 

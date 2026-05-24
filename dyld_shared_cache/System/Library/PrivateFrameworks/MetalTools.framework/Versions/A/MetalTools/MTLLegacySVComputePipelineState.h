@@ -6,23 +6,11 @@
 
 #import <MetalTools/MTLToolsComputePipelineState.h>
 
-@class MTLComputePipelineReflection, MTLLegacySVBuffer, MTLLegacySVImageData, NSArray, NSMutableArray;
+@class MTLLegacySVImageData, NSArray;
 
 @interface MTLLegacySVComputePipelineState : MTLToolsComputePipelineState
 {
     MTLLegacySVImageData *_kernelFunctionData;
-    MTLComputePipelineReflection *_internalReflection;
-    MTLComputePipelineReflection *_userReflection;
-    NSMutableArray *_binaryFunctionData;
-    unsigned long long _constantOffset;
-    unsigned int _threadgroupArgumentOffset;
-    unsigned int _activeThreadgroupMask;
-    MTLLegacySVBuffer *_indirectStateBuffer;
-    _Bool _supportsIndirectCommandBuffers;
-    long long _shaderValidation;
-    long long _shaderValidationState;
-    NSMutableArray *_retainedFunctions;
-    int _maxCallStackDepth;
 }
 
 - (id);
@@ -33,13 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)QI}S);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (int);
 - (id)æ;
@@ -48,16 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *binaryFunctionData; // @synthesize binaryFunctionData=_binaryFunctionData;
-@property(readonly, nonatomic) unsigned long long constantOffset;
-@property(readonly, nonatomic) MTLLegacySVBuffer *globalConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVBuffer *indirectStateBuffer;
-@property(readonly, nonatomic) MTLComputePipelineReflection *internalReflection;
-@property(readonly, nonatomic) MTLLegacySVImageData *kernelFunctionData;
-@property(readonly, nonatomic) int maxCallStackDepth; // @synthesize maxCallStackDepth=_maxCallStackDepth;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly, nonatomic) MTLComputePipelineReflection *userReflection;
 
 @end
 

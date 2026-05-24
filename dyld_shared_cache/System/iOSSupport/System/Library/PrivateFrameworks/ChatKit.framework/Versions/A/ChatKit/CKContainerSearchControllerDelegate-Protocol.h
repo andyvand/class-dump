@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKSearchViewController, NSArray, NSString, UISearchBar;
+
 @protocol CKContainerSearchControllerDelegate
+- (_Bool)f;
+- (void)parentIdentifier;
+- (void)parentAttachment;
+- (void)paragraphStyleNamed:(CKSearchViewController *)arg1;
+- (void)numberListsInAttributedString:(CKSearchViewController *)arg1 inRange: /* Error: Ran out of types for this method. */;
+- (void)notifyDocCamFrameworkAttachmentWasDeleted;
+- (NSArray *)notificationSerialQueue;
+- (CKConversation *)notesContainingHashtagWithStandarizedContent:(CKSearchViewController *)arg1 context:(NSString *)arg2;
+- (UISearchBar *)noteTitleForMentions:(CKSearchViewController *)arg1;
 @end
 

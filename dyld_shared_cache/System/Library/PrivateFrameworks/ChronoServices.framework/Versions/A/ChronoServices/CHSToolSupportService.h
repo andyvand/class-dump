@@ -14,6 +14,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)
+`+`j?;
 - (void);
 - (void);
 - (void);

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMontage, MCPlugParallel, MPAudioPlaylist, MPLayerInternal, NSMutableArray, NSMutableDictionary, NSString;
+@class MCPlugParallel, NSString;
 
 @interface MPLayer
 {
     MCPlugParallel *_plug;
-    NSMutableDictionary *_attributes;
-    NSMutableArray *_effectContainers;
-    NSMutableArray *_filters;
-    NSMutableDictionary *_animationPaths;
-    NSMutableDictionary *_actions;
-    MPAudioPlaylist *_audioPlaylist;
-    MCMontage *_montage;
-    id _parent;
-    MPLayerInternal *_internal;
-    _Bool _skipTimeCalculations;
 }
 
 + (id);
@@ -26,10 +16,10 @@
 + (_Bool);
 + (id);
 + (_Bool);
-- (double);
-- (double);
-- (void);
-- (void);
+- (double)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (double)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (void)_deliveryWindow;
+- (void)NSObject;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -38,24 +28,24 @@
 - (void);
 - (void);
 - (void);
+- (void)y window end date of %@;
+- (void);
+- (void)oups;
+- (void), bytes=%lu;
+- (void), identifier=%{public}@;
+- (void)arServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
+- (void)EnvelopesAsCreated:(id)arg1 ];
+- (void)igAnalyticsPayloadAssemblerConfigProvider fetchConfigWithCompletion:(id)arg1 ];
+- (id)DAnalyticsEnvelopeStoreEntry>"16;
+- (void)asons:(long long)arg1 ];
+- (void)leUploadOnSubmission;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ContentEnvironmentData;
 - (id);
 - (id);
 - (double);
@@ -68,7 +58,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (void);
@@ -81,7 +71,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (void);
 - (void);
 - (void);
@@ -99,37 +89,37 @@
 - (void);
 - (void);
 - (long long);
-- (double);
+- (double)?;
 - (void);
-- (id);
+- (id)#;
 - (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id);
-- (struct CGSize);
 - (double);
 - (double);
 - (void);
-- (struct CGPoint);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (double);
+- (void)t;
+- (id);
+- (double);
+- (void);
+- (id);
+- (struct CGSize)ks to be ;
+- (double)DefaultClientSideEngagementBoostFreeCohortCTRCap;
+- (double);
+- (void);
+- (struct CGPoint)tionTests,NewsAnalytics,NewsAnalyticsTests,NewsPersonalization,NewsPersonalizationTests,NewsTag,NewsToday2,NewsArticles,NewsArticlesTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksPersonalization,XavierCore,XavierCoreTests,XavierNews,XavierNewsTests;
+- (id)charIndexForSelectionFromPoint:isTail: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)slot item %s encountered. Please update this switch statement to handle the new case.;
 - (long long);
 - (id);
 - (void);
@@ -153,9 +143,6 @@
 - (void)T¦¾;
 
 // Remaining properties
-@property(nonatomic) long long audioPriority; // @dynamic audioPriority;
-@property(nonatomic) _Bool isAudioLayer; // @dynamic isAudioLayer;
-@property(copy, nonatomic) NSString *layerID; // @dynamic layerID;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

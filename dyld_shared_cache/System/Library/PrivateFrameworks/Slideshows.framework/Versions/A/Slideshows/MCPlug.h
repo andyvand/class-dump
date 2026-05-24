@@ -6,18 +6,11 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCContainer, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet;
+@class NSSet;
 
 @interface MCPlug : MCObject
 {
     unsigned int mFlags;
-    NSMutableSet *mAnimationPaths;
-    NSMutableDictionary *mActions;
-    MCContainer *mContainer;
-    double mPhaseInDuration;
-    double mLoopDuration;
-    double mPhaseOutDuration;
-    double mNumberOfLoops;
 }
 
 + (id);
@@ -54,7 +47,7 @@
 - (double);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -65,18 +58,7 @@
 - (void)üÿ!;
 
 // Remaining properties
-@property(readonly) NSDictionary *actions;
 @property(readonly) NSSet *animationPaths;
-@property(retain) MCContainer *container; // @synthesize container=mContainer;
-@property(readonly, nonatomic) unsigned long long countOfActions;
-@property(readonly) unsigned long long countOfAnimationPaths;
-@property(readonly, nonatomic) double fullDuration;
-@property(nonatomic) double loopDuration; // @synthesize loopDuration=mLoopDuration;
-@property(nonatomic) double numberOfLoops; // @synthesize numberOfLoops=mNumberOfLoops;
-@property(nonatomic) double phaseInDuration; // @synthesize phaseInDuration=mPhaseInDuration;
-@property(nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration=mPhaseOutDuration;
-@property(nonatomic) _Bool preactivatesWithParent;
-@property(nonatomic) _Bool startsPaused;
 
 @end
 

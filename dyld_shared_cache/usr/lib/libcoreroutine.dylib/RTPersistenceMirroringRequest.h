@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringRequest, NSDate, NSMutableArray, NSObject, NSUUID, RTPersistenceMirroringPolicy, RTPowerAssertion;
-@protocol OS_dispatch_queue, OS_os_transaction, RTPersistenceMirroringRequestDelegate;
+@class NSUUID;
 
 @interface RTPersistenceMirroringRequest
 {
     unsigned long long _sid;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSCloudKitMirroringRequest *_request;
-    id <RTPersistenceMirroringRequestDelegate> _delegate;
-    NSMutableArray *_completionHandlers;
-    NSUUID *_identifier;
-    NSDate *_startDate;
-    NSDate *_enqueueDate;
-    double _duration;
-    unsigned long long _attemptCount;
-    unsigned long long _maxRetryCount;
-    RTPersistenceMirroringPolicy *_mirroringPolicy;
-    NSObject<OS_os_transaction> *_mirroringTransaction;
-    RTPowerAssertion *_mirroringAssertion;
-    long long _requestType;
 }
 
 - (void);
@@ -36,22 +21,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)tyData=}24^{__CFDictionary=}32r^^{__CFDictionary}40@?48;
+- (id)setUseCachedAccountStatus: /* Error: Ran out of types for this method. */;
+- (void)tionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (void)er; this will not work;
+- (void)humor;
+- (void)"8@"PCSMTT"16@"NSError"24;
+- (void)FlagFailedToClearCliqueFromAccountOnClique;
+- (void)DifferentOniCDP;
+- (void)ate that ADP is enabled;
+- (id)CKKSOutOfBandFetch;
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)terResponse failed due to invalid _reliableUnicastServerMaterialToProtoMessageTransactionID!;
+- (double);
 - (void);
 - (id);
 - (void);
@@ -64,26 +49,13 @@
 - (id);
 - (void);
 - (id);
-- (void)ts;
+- (void)RTLearnedPlaceTypeInferencePlaceStats;
 - (void)on invalid,%{sensitive}.7lf,%{sensitive}.7lf,skipping predicate;
 - (void);
 - (long long)etadata;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attemptCount; // @synthesize attemptCount=_attemptCount;
-@property(readonly, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(nonatomic) __weak id <RTPersistenceMirroringRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSDate *enqueueDate; // @synthesize enqueueDate=_enqueueDate;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(retain, nonatomic) RTPowerAssertion *mirroringAssertion; // @synthesize mirroringAssertion=_mirroringAssertion;
-@property(retain, nonatomic) RTPersistenceMirroringPolicy *mirroringPolicy; // @synthesize mirroringPolicy=_mirroringPolicy;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *mirroringTransaction; // @synthesize mirroringTransaction=_mirroringTransaction;
-@property(readonly, nonatomic, getter=isReady) _Bool ready;
-@property(readonly, nonatomic) NSCloudKitMirroringRequest *request; // @synthesize request=_request;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

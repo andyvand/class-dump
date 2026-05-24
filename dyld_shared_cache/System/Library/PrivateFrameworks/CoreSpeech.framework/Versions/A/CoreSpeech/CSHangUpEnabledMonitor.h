@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSHangUpEnabledMonitor
 {
     int _notifyToken;
-    _Bool _isEnabled;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)on: /* Error: Ran out of types for this method. */;
++ (id)_notifyActivationEvent:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)foreRemovingLogFiles;
+- (void)daysBeforeRemovingLogFiles;
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     UIAlertController *_alertController;
 }
 
-- (void);
+- (void)_newDeviceDidSignIntoiMessageWithRetryCount:(id)arg1;
 - (id);
-- (id);
+- (id)7(;
 - (id);
 - (id);
 - (void)ÐÙ^;

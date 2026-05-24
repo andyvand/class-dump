@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIRemoteViewController;
+@class _UIRemoteViewController;
 
 @interface ChatKit.AppCardContainerViewController
 {
     id remoteViewController;
-    id popoverPresentationLocation;
-    id presentationDelegate;
-    id sendDelegate;
-    id touchTrackingGesture;
-    id didSendInitialPresentationStyleChangeNotification;
-    id initialPresentationStyle;
-    id shouldOverrideExceptionsOnDismissal;
-    id cachedCompactDetentHeight;
 }
 
-- (void);
-- (void);
+- (void)tracksWithMediaType:(_Bool)arg1;
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ingJunkFilter;
+- (void)_isApplyingJunkFilter;
 - (id)ÿÿ;
 - (void)yõ\AEy\yAEyAG_\AGtGG_6_\y@"]yAHyAEyAI_AgItGGG
 \yÜ\SgGGtGù\G_úÀAFyAgEy]yAGîÀG_AZyAGêÀGAZyAGçÀGAZyAGäÀGAZyAGáÀGAZyAGÞÀGAZyAGÛÀGtGAWGAFyAgZyAGÏÀGAWGAFyAgEyAZyAGÂÀG_A19_A19_A19_A19_A19_A19_tGAWG¦ÀtGG_Qo__Qo__U]y_N]y_7]yytß]yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_!]yAG7\GQo__­ ]yAAyABÂ]y¬ ]y ]yp]yACyAdFyAgEyAZyAG*ÀG_AZyAG&ÀGAZyAG#ÀGtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_t;
@@ -42,8 +34,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _UIRemoteViewController *_containedRemoteViewController;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) unsigned long long supportedInterfaceOrientations;
 
 @end
 

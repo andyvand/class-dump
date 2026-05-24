@@ -7,7 +7,6 @@
 @interface NewsUI2.ContentShortcutsTracker
 {
     id tracker;
-    id contentPrefetchManager;
 }
 
 @end

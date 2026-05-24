@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSDictionary, NSLayoutConstraint, NSMapTable, NSString, UIColor, UIFont, UILabel, UILayoutGuide, _UIDatePickerLinkedLabelStorage;
+@class _UIDatePickerLinkedLabelStorage;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerLinkedLabel : UIView
@@ -14,30 +14,20 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int needsStorageSync:1;
     } _flags;
-    UILabel *_renderingLabel;
-    struct CGSize _lastSize;
-    NSMapTable *_longestPossibleTitle;
-    NSMapTable *_longestPossibleWidth;
-    NSLayoutConstraint *_renderLabelXConstraint;
-    _UIDatePickerLinkedLabelStorage *_storage;
-    UILayoutGuide *_contentLayoutGuide;
-    NSArray *_titles;
-    NSArray *_possibleTitles;
-    NSDictionary *_overrideAttributes;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)g"32C40@"NSString"44;
+- (id)initWithBD:idsTrustedData: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (long long);
 - (void);
-- (id);
-- (void);
+- (void);
+- (long long)it as clean and moving on.;
+- (void)lay;
+- (id)ead message count by focus [%@] and/or by assistive access [%@].;
+- (void)ported while processing GUID (%@);
 - (void);
 - (void);
 - (void);
@@ -47,17 +37,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (void);
-- (void)resultsTitle;
-- (id)onePropertiesToTouch:(struct CGRect)arg1;
+- (void)_resultsTitle;
+- (id)_clonePropertiesToTouch:(struct CGRect)arg1;
 - (id)erView;
-- (void)vationCount;
-- (void)yout;
+- (void)activationCount;
+- (void)_UIContextMenuMediumCellLayout;
 - (void);
 - (struct CGSize)&;
 - (id)dy=%.03f, dt=%.03f, vx=%.03f, vy=%.03f, vs=%.03f;
 - (id);
 - (void);
-- (void)atusBarStyleOverrideScreenSharing;
+- (void)UIStatusBarStyleOverrideScreenSharing;
 - (void)troller if there's no document loaded.;
 - (_Bool)ase check the values returned by the delegate.;
 - (void)hForTraitCollection(UITraitCollection *__strong);
@@ -69,25 +59,7 @@ __attribute__((visibility("hidden")))
 - (void)Ê0!c;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory;
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(readonly, nonatomic) UILayoutGuide *contentLayoutGuide; // @synthesize contentLayoutGuide=_contentLayoutGuide;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFont *font;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double minimumScaleFactor;
-@property(retain, nonatomic) NSDictionary *overrideAttributes; // @synthesize overrideAttributes=_overrideAttributes;
-@property(retain, nonatomic) NSArray *possibleTitles; // @synthesize possibleTitles=_possibleTitles;
 @property(retain, nonatomic) _UIDatePickerLinkedLabelStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
-@property(nonatomic) _Bool textColorFollowsTintColor;
-@property(retain, nonatomic) NSArray *titles; // @synthesize titles=_titles;
 
 @end
 

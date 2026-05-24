@@ -6,19 +6,11 @@
 
 #import <IDSFoundation/IDSGlobalLink.h>
 
-@class NSArray, NSData, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface IDSGFTGL : IDSGlobalLink
 {
     NSArray *_remoteCandidatePairs;
-    NSMutableArray *_virtualCandidatePairs;
-    _Bool _allowE2E;
-    unsigned int _keyMaterialDataCounter;
-    NSData *_keyMaterialData;
-    CDUnknownBlockType _keyMaterialSentHandler;
-    NSMutableDictionary *_reliableUnicastServerMaterialToProtoMessageTransactionID;
-    double _lastP2PPacketReceivedTime;
-    double _lastQRPacketReceivedTime;
 }
 
 - (void);
@@ -47,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,7 +48,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
 - (id);
@@ -64,12 +56,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (void)name failed:%d /* Error: Ran out of types for this method. */;
 
 @end

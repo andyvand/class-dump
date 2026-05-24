@@ -7,16 +7,14 @@
 @interface IAMPresentationPolicy
 {
     long long _policyGroup;
-    double _minimumIntervalBetweenPresentations;
 }
 
 + (long long);
 - (double);
-- (long long);
-- (id);
+- (long long)enumerateFactorPacksForFactorPackSet:usingLegacyPaths:withBlock: /* Error: Ran out of types for this method. */;
+- (id)text_6;
 
 // Remaining properties
-@property(readonly, nonatomic) double minimumIntervalBetweenPresentations; // @synthesize minimumIntervalBetweenPresentations=_minimumIntervalBetweenPresentations;
 @property(readonly, nonatomic) long long policyGroup; // @synthesize policyGroup=_policyGroup;
 
 @end

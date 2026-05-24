@@ -11,29 +11,23 @@
 @interface PKAuxiliaryCapabilityRegisterResponse : PKAuxiliaryCapabilityWebServiceResponse
 {
     NSArray *_deviceSignatureCertificateChain;
-    NSArray *_deviceDecryptionCertificateChain;
-    NSArray *_serverDecryptionCertificateChain;
-    NSArray *_serverSignatureCertificateChain;
 }
 
 + (_Bool);
+- (void)yH;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)TransactionsNotification;
+- (void)PKPaymentDidReceiveSuccessfulTransactionsNotification;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *deviceDecryptionCertificateChain; // @synthesize deviceDecryptionCertificateChain=_deviceDecryptionCertificateChain;
 @property(retain, nonatomic) NSArray *deviceSignatureCertificateChain; // @synthesize deviceSignatureCertificateChain=_deviceSignatureCertificateChain;
-@property(retain, nonatomic) NSArray *serverDecryptionCertificateChain; // @synthesize serverDecryptionCertificateChain=_serverDecryptionCertificateChain;
-@property(retain, nonatomic) NSArray *serverSignatureCertificateChain; // @synthesize serverSignatureCertificateChain=_serverSignatureCertificateChain;
 
 @end
 

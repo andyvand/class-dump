@@ -7,8 +7,6 @@
 @interface NewsFeed.HeadlineViewRendererPipelineProcessor
 {
     id thumbnailImageCache;
-    id publisherLogoImageCache;
-    id rendererEnvironment;
 }
 
 @end

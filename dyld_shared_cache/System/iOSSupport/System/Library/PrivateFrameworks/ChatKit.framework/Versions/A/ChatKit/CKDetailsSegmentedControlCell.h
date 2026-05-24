@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UISegmentedControl;
+@class UISegmentedControl;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsSegmentedControlCell : CKDetailsCell
@@ -18,18 +18,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UISegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(readonly) Class superclass;
 
 @end
 

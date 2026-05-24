@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMApplicationData, HMHome, HMMutableArray, NSDate, NSDictionary, NSObject, NSSet, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface HMActionSet
 {
     struct os_unfair_lock_s _lock;
-    _Bool _executionInProgress;
-    NSUUID *_uniqueIdentifier;
-    NSString *_name;
-    HMHome *_home;
-    HMApplicationData *_applicationData;
-    NSDate *_lastExecutionDate;
-    NSString *_actionSetType;
-    _HMContext *_context;
-    NSUUID *_uuid;
-    HMMutableArray *_currentActions;
 }
 
 + (id);
@@ -27,7 +16,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -46,10 +35,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,23 +47,23 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)_generateLocationNextTokenSuggestionsByIndexCategoryForLocationCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void),V_acceptedCandidate;
+- (id)-		M	7		;
 - (void);
 - (id);
 - (id);
@@ -87,32 +76,7 @@
 - (_Bool)DQ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;
-@property(readonly, copy, nonatomic) NSSet *actions;
-@property(readonly, nonatomic) HMApplicationData *applicationData;
-@property(readonly, copy) NSUUID *applicationDataIdentifier;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) HMMutableArray *currentActions; // @synthesize currentActions=_currentActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExecuting) _Bool executing;
-@property(nonatomic) _Bool executionInProgress; // @synthesize executionInProgress=_executionInProgress;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSDate *lastExecutionDate; // @synthesize lastExecutionDate=_lastExecutionDate;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, copy) NSDictionary *shortcutsDictionaryRepresentation;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIView *_activeView;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)o main queue exitDate:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (void)eteContext;
+- (void)C;
 
 @end
 

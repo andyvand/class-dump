@@ -5,5 +5,8 @@
 //
 
 @protocol AXVAHUDDelegateInterface
+
+@optional
+- (void)I;
 @end
 

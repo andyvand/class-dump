@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapSubscriptionsFetchRequest : GEOXPCRequest
 {
     _Bool _fetchExpired;
-    NSArray *_identifiersFilter;
 }
 
-+ (Class);
-- (void);
++ (Class)bitmapImageRepForCachingDisplayInRect: /* Error: Ran out of types for this method. */;
+- (void)`";
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)ncelProviderRequest;
+- (_Bool)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)cancelProviderRequest;
 - (void)ìgÿø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fetchExpired; // @synthesize fetchExpired=_fetchExpired;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *identifiersFilter; // @synthesize identifiersFilter=_identifiersFilter;
-@property(readonly) Class superclass;
 
 @end
 

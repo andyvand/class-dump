@@ -7,11 +7,6 @@
 @interface SwiftUI.AppKitBridgedSceneCoordinator
 {
     id hosts;
-    id sceneUpdaters;
-    id windowsController;
-    id immersiveSpaceAuthority;
-    id menuBarExtrasController;
-    id dialogController;
 }
 
 @end

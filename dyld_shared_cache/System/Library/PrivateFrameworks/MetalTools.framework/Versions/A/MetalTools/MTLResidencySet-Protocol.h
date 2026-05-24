@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol MTLDevice;
 
 @protocol MTLResidencySet
+- (void);
+- (void)C;
+- (void)h;
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAllocations;
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationCount;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
 @end
 

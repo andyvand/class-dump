@@ -5,24 +5,22 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_dispatch_queue;
 
 @interface STYDiagnosticsCollector
 {
     NSObject<OS_dispatch_queue> *_serialUtilityQueue;
-    NSObject<OS_os_log> *_logger;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id)ect: /* Error: Ran out of types for this method. */;
+- (id)coordinatorShouldResume: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setWithObject: /* Error: Ran out of types for this method. */;
 - (void)÷«;
 
 // Remaining properties
-@property(retain) NSObject<OS_os_log> *logger; // @synthesize logger=_logger;
 @property(retain) NSObject<OS_dispatch_queue> *serialUtilityQueue; // @synthesize serialUtilityQueue=_serialUtilityQueue;
 
 @end

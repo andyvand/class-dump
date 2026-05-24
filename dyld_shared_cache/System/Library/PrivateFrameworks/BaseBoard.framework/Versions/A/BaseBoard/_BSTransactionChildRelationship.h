@@ -9,7 +9,6 @@
 @interface _BSTransactionChildRelationship
 {
     BSTransaction *_childTransaction;
-    unsigned long long _schedulingPolicy;
 }
 
 - (void);

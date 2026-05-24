@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface GCObservation
 {
     id _observer;
-    unsigned long long _options;
-    void *_context;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void *);
@@ -31,9 +29,7 @@ pÅ
 - (id)..withReply(%@);
 
 // Remaining properties
-@property(nonatomic) void *context; // @synthesize context=_context;
 @property(nonatomic) __weak id observer; // @synthesize observer=_observer;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

@@ -11,7 +11,7 @@
     CWWiFiClient *_wifiClient;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADAutoNumberBulletProperties : OADBulletProperties
 {
     int mSchemeType;
-    unsigned long long mStartIndex;
 }
 
 - (id);

@@ -6,42 +6,12 @@
 
 #import <AppKit/_NSFullScreenTransitionController.h>
 
-@class NSArray, NSMutableArray, NSScreen, NSWindow, NSWindowController, _NSFullScreenContentController, _NSFullScreenStorage, _NSFullScreenTransitionOverlayWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSExitFullScreenTransitionController : _NSFullScreenTransitionController
 {
     NSWindow *_window;
-    NSWindowController *_windowController;
-    _NSFullScreenContentController *_contentController;
-    NSArray *_customWindows;
-    _NSFullScreenStorage *_fullScreenStorage;
-    _Bool _calledOutDidExitFullScreen;
-    _Bool _didReenterDoAfterExitFullScreen;
-    _Bool _doInProcessAnimation;
-    double _duration;
-    _Bool _dockInitiated;
-    _Bool _exitForTabMove;
-    _Bool _lastTabShouldCleanUpSpace;
-    _Bool _exitForClose;
-    _Bool _skipCleaningUpSpaceOnClose;
-    _Bool _isPrincipalInSpace;
-    _Bool _reducedMotion;
-    unsigned long long _dockDestinationSpaceID;
-    struct CGRect _transitionedWindowBeforeSnapshotFrame;
-    NSMutableArray *_backgroundWindowIDs;
-    _NSFullScreenTransitionOverlayWindow *_overlayWindow;
-    unsigned long long _destinationSpaceID;
-    _Bool _beforeSnapshotIncludesWindowIDs;
-    id _beforeContents;
-    struct CGRect _beforeSnapshotFrame;
-    NSScreen *_screen;
-    _Bool _interrupted;
-    _Bool _notifiedWillExitFS;
-    _Bool _configuredForAfterFS;
-    _Bool _didPrepareToPerformExit;
-    _Bool _dockRepliedToExit;
-    _Bool _didDoAfterExitFullScreen;
 }
 
 + (_Bool);
@@ -55,18 +25,18 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)16;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)property != fdrDecode->assemblyID;
+- (void)blyID.length;
+- (void)%s:(_Bool)arg1 minor version not supported:0x%x /* Error: Ran out of types for this method. */;
+- (void)%lu;
 - (void);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -75,43 +45,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (struct CGImage *);
 - (struct CGImage *);
-- (id);
+- (id)(;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)registerForPostingNotificationsWithContext: /* Error: Ran out of types for this method. */;
+- (id)isCellular;
+- (void)_countOfBytesExpectedToSend;
+- (void)_childAssetDownloadSession;
+- (void)_cacheData;
+- (unsigned long long)rride;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)or %ld:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (void);
-- (void);
+- (void);
+- (void)silaSCAMnvliNSt3__120__shared_ptr_emplaceI7TNWNodeNS_9allocatorIS1_EEEE;
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool doInProcessAnimation; // @synthesize doInProcessAnimation=_doInProcessAnimation;
-@property(nonatomic) _Bool dockInitiated; // @synthesize dockInitiated=_dockInitiated;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool exitForClose; // @synthesize exitForClose=_exitForClose;
-@property(nonatomic) _Bool exitForTabMove; // @synthesize exitForTabMove=_exitForTabMove;
-@property(nonatomic) _Bool lastTabShouldCleanUpSpace; // @synthesize lastTabShouldCleanUpSpace=_lastTabShouldCleanUpSpace;
-@property(nonatomic) _Bool skipCleaningUpSpaceOnClose; // @synthesize skipCleaningUpSpaceOnClose=_skipCleaningUpSpaceOnClose;
 
 @end
 

@@ -13,7 +13,7 @@
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -22,18 +22,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)iesForCatalog: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)hasExportableArtworkPropertiesForCatalog: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

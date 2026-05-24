@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MLMultiArrayBufferLayout
 {
     struct unique_ptr<CoreML::MultiArrayBufferLayout, std::default_delete<CoreML::MultiArrayBufferLayout>> _bufferLayout;
@@ -14,8 +12,8 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/p2p/base/connection.cc;
+- (id)sl.org>;
 - (id);
 - (id);
 - (long long);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) NSArray *shape;
-@property(readonly, nonatomic) NSArray *strides;
 
 @end
 

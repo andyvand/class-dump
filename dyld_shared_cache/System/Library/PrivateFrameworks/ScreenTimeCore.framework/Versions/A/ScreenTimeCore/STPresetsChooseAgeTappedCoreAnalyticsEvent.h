@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STPresetsChooseAgeTappedCoreAnalyticsEvent
 {
     NSString *_sessionId;
 }
 
-+ (id);
++ (id)e;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 @property(readonly) NSString *sessionId; // @synthesize sessionId=_sessionId;
 
 @end

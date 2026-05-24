@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAppleMediaAccessory, NSArray;
+
 @protocol HMDMediaDestinationControllerDataSource
+- (HMDAppleMediaAccessory *);
+- (NSArray *)urred, but objects are not loaded (memory pressure?). Perform an initial load and postpone the access.;
 @end
 

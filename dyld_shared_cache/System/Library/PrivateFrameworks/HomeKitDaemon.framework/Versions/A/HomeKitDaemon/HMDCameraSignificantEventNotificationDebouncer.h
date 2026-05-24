@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventNotificationDebouncer
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lastDateNotifiedByPersonIdentifier;
-    HMFTimer *_cleanupTimer;
-    NSString *_logIdentifier;
-    double _distinctPersonDebounceTimeInterval;
 }
 
 + (id)däB;
-- (void);
+- (void)enumerateReceiverCapabilityConfigurations:(id)arg1 forState:(_Bool *)arg2 withBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (id);
+- (id)weekOfYearNodesForWeekOfYear:(id)arg1 inGraph: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)!tBùñð1Â0@ù
 × ;
 - (void)rned nil value;
-- (struct os_unfair_lock_s)eristicRangeEvent;
+- (struct os_unfair_lock_s)MKFCharacteristicRangeEvent;
 - (void);
 
 // Remaining properties
-@property(readonly) HMFTimer *cleanupTimer; // @synthesize cleanupTimer=_cleanupTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double distinctPersonDebounceTimeInterval; // @synthesize distinctPersonDebounceTimeInterval=_distinctPersonDebounceTimeInterval;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMutableDictionary *lastDateNotifiedByPersonIdentifier; // @synthesize lastDateNotifiedByPersonIdentifier=_lastDateNotifiedByPersonIdentifier;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

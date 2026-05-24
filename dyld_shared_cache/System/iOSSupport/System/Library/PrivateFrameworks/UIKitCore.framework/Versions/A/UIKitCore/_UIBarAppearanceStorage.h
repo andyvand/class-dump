@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-- (void);
+- (void)downloadStickerPackWithGUID:(id)arg1 isIncomingMessage:ignoreCache: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)gistry"16@"PKPushPayload"24@"NSString"32;
-- (id)pshotSession:(long long)arg1;
+- (id)_willBeginSnapshotSession:(long long)arg1;
 - (void)¨%¿;
 
 @end

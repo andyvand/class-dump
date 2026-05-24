@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary;
+@class NSCache;
 
 @interface WBSFaviconProviderPrivateCache
 {
     NSCache *_uuidToImageDataCache;
-    NSMutableDictionary *_pageURLStringToIconInfoDict;
-    NSMutableDictionary *_iconURLStringToIconInfoDict;
-    NSMutableDictionary *_urlStringToRejectedResourceIconInfoDict;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void)"CNContact",R,C,N;

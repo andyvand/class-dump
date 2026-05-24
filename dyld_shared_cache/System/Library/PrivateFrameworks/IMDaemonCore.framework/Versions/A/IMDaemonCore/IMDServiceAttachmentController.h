@@ -9,7 +9,6 @@
 @interface IMDServiceAttachmentController
 {
     IMDServiceSession *_session;
-    NSMutableSet *_pendingRemoteFileRequests;
 }
 
 - (void);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *pendingRemoteFileRequests; // @synthesize pendingRemoteFileRequests=_pendingRemoteFileRequests;
-@property(readonly, nonatomic) __weak IMDServiceSession *session; // @synthesize session=_session;
 
 @end
 

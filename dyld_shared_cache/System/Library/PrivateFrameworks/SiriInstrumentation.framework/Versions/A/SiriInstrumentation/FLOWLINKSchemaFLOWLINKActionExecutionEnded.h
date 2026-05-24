@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionExecutionEnded : SISchemaInstrumentationMessage
 {
     _Bool _hasOutputToPresent;
-    struct {
-        unsigned int hasOutputToPresent:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)idence"b1"rewriteType"b1};
-- (id)em;
+- (id)SUTSchemaTestSessionInfoItem;
 - (id)ÜÈÉ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasOutputToPresent;
 @property(nonatomic) _Bool hasOutputToPresent; // @synthesize hasOutputToPresent=_hasOutputToPresent;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

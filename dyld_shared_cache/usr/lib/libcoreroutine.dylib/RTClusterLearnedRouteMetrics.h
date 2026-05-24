@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, RTDefaultsManager, RTLearnedRouteCloudKitSyncStatisticsMetrics, RTLearnedRouteClusterStatisticsMetrics, RTLearnedRouteCompoundRouteMetrics, RTLearnedRouteMultiModalStatisticsMetrics, RTLearnedRouteSPIStatisticsMetrics;
+@class RTLearnedRouteClusterStatisticsMetrics;
 
 @interface RTClusterLearnedRouteMetrics
 {
     RTLearnedRouteClusterStatisticsMetrics *_clusterMetrics;
-    RTLearnedRouteSPIStatisticsMetrics *_spiStatMetrics;
-    RTLearnedRouteCloudKitSyncStatisticsMetrics *_cloudKitSyncMetrics;
-    RTLearnedRouteMultiModalStatisticsMetrics *_multiModalStatMetrics;
-    RTLearnedRouteCompoundRouteMetrics *_compoundRouteMetric;
-    NSMutableArray *_compoundRoutesArray;
-    NSMutableArray *_clusterStatisticsArray;
-    NSDate *_timeOfLastSPIQuery;
-    RTDefaultsManager *_defaultsManager;
 }
 
 + (id);
@@ -34,14 +26,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id)KeyEnvelopeCreate(PCSShareProtectionRef _Nonnull, CFDataRef _Nonnull, CFErrorRef * _Nullable);
+- (id)PCSKeyEnvelopeRef  _Nullable PCSKeyEnvelopeCreate(PCSShareProtectionRef _Nonnull, CFDataRef _Nonnull, CFErrorRef * _Nullable);
+- (id)ramework/Contents/MacOS/CloudKit;
+- (id)s repair;
+- (id)rd;
+- (void)=}8^{__CFError=}16;
+- (void)SecureBackupClientVersion;
 - (void);
 - (id);
 - (void);
@@ -49,15 +41,7 @@
 - (void)public}d,isSameLocation,%{public}d;
 
 // Remaining properties
-@property(retain, nonatomic) RTLearnedRouteCloudKitSyncStatisticsMetrics *cloudKitSyncMetrics; // @synthesize cloudKitSyncMetrics=_cloudKitSyncMetrics;
 @property(retain, nonatomic) RTLearnedRouteClusterStatisticsMetrics *clusterMetrics; // @synthesize clusterMetrics=_clusterMetrics;
-@property(retain, nonatomic) NSMutableArray *clusterStatisticsArray; // @synthesize clusterStatisticsArray=_clusterStatisticsArray;
-@property(retain, nonatomic) RTLearnedRouteCompoundRouteMetrics *compoundRouteMetric; // @synthesize compoundRouteMetric=_compoundRouteMetric;
-@property(retain, nonatomic) NSMutableArray *compoundRoutesArray; // @synthesize compoundRoutesArray=_compoundRoutesArray;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTLearnedRouteMultiModalStatisticsMetrics *multiModalStatMetrics; // @synthesize multiModalStatMetrics=_multiModalStatMetrics;
-@property(retain, nonatomic) RTLearnedRouteSPIStatisticsMetrics *spiStatMetrics; // @synthesize spiStatMetrics=_spiStatMetrics;
-@property(retain, nonatomic) NSDate *timeOfLastSPIQuery; // @synthesize timeOfLastSPIQuery=_timeOfLastSPIQuery;
 
 @end
 

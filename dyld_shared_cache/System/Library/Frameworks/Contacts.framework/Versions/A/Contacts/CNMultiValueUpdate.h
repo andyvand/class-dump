@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool _ignoreIdentifiers;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)úÿAThÍúÿ;

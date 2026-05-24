@@ -7,14 +7,13 @@
 @interface ContactsUICore.RadiantAvatarLayer
 {
     id avatarLayer;
-    id portalLayer;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)meout:error: /* Error: Ran out of types for this method. */;
+- (void),N,V_schedulerProvider;
+- (void)resultWithTimeout:error: /* Error: Ran out of types for this method. */;
 
 @end
 

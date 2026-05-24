@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
++ (void)e a CMBlockBuffer. Error=%d!;
 + (id)	
 ;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)4;
 

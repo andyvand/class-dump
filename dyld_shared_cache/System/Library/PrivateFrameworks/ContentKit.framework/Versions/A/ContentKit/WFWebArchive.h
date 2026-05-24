@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, WFWebResource;
+@class WFWebResource;
 
 @interface WFWebArchive
 {
     WFWebResource *_mainResource;
-    NSArray *_subresources;
-    NSArray *_subframeArchives;
 }
 
 + (_Bool);
@@ -18,20 +16,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)__objc_stubs;
 - (id);
 - (id);
 - (void);
-- (id)ent;
+- (id);
+- (id);
+- (void);
+- (id)TextPromptComponent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
 @property(readonly, nonatomic) WFWebResource *mainResource; // @synthesize mainResource=_mainResource;
-@property(readonly, nonatomic) NSArray *subframeArchives; // @synthesize subframeArchives=_subframeArchives;
-@property(readonly, nonatomic) NSArray *subresources; // @synthesize subresources=_subresources;
 
 @end
 

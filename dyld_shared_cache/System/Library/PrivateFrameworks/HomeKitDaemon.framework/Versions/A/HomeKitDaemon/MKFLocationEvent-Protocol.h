@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLRegion, MKFLocationEventDatabaseID;
+@class CLRegion;
 @protocol MKFHome, MKFUser;
 
 @protocol MKFLocationEvent
+- (void);
+- (void)tication with error %@;
 - (id <MKFHome>);
-- (id <MKFUser>)MDSleepConfigurationOperationStatus;
+- (id <MKFUser>)HMDSleepConfigurationOperationStatus;
 - (CLRegion *)@, numActions:%ld /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFLocationEventDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(retain, nonatomic) CLRegion *region;
-@property(retain, nonatomic) id <MKFUser> user;
 @end
 

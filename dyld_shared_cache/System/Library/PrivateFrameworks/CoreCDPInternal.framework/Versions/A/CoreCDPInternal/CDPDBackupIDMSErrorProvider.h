@@ -10,14 +10,14 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)StartPageContentViewController;
+- (id)SafariNotificationAgentDelegate;
+- (id)ReaderAppearanceViewControllerDelegate;
+- (void)ReaderViewControllerMessageReceiver;
+- (void)ReaderUIDelegate;
+- (id)ReaderTestArticleContentBeautifier;
+- (id)PrivacyReportPopoverViewController;
+- (id)CloudBookmarksMigrationBackupManager;
 
 @end
 

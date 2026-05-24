@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateNearbyTransit
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_groups;
-    unsigned int _pinnedLines;
-    struct {
-        unsigned int has_pinnedLines:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)lvedDirectionIntent:(id)arg1;
++ (_Bool)setHasSupportUnresolvedDirectionIntent:(id)arg1;
 - (void);
-- (unsigned int);
+- (unsigned int)c;
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ing"16^B24;
+- (void)observableWithBlock:(id)arg1;
+- (void)xplanation;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -36,8 +31,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)ortsWalkingSuggestionsAfterParking;
+- (void)basic_string;
+- (id)supportsWalkingSuggestionsAfterParking;
 - (id)rts;
 - (id)connection from navigation service:%@ (%@) /* Error: Ran out of types for this method. */;
 - (id);
@@ -46,10 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *groups;
 @property(nonatomic) _Bool hasPinnedLines;
-@property(nonatomic) unsigned int pinnedLines;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

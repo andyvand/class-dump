@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNResult, NSString;
-@protocol CNCDContactFetcherPredicateEvaluationContext, CNCDContainerScopedContactPredicate;
+@protocol CNCDContainerScopedContactPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _CNCDContactFetcherPredicateEvaluationContainerScopedStrategy
 {
     id <CNCDContainerScopedContactPredicate> _predicate;
-    id <CNCDContactFetcherPredicateEvaluationContext> _evaluationContext;
-    CNResult *_contacts;
 }
 
 - (void);
@@ -31,16 +28,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) CNResult *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <CNCDContactFetcherPredicateEvaluationContext> evaluationContext; // @synthesize evaluationContext=_evaluationContext;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <CNCDContainerScopedContactPredicate> predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
 
 @end
 

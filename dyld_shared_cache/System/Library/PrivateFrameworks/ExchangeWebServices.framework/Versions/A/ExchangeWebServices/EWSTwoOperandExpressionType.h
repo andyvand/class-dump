@@ -6,15 +6,14 @@
 
 #import <ExchangeWebServices/EWSSearchExpressionType.h>
 
-@class EWSBasePathToElementType, EWSFieldURIOrConstantType, NSString;
+@class EWSBasePathToElementType;
 
 @interface EWSTwoOperandExpressionType : EWSSearchExpressionType
 {
     EWSBasePathToElementType *_Path;
-    EWSFieldURIOrConstantType *_FieldURIOrConstant;
 }
 
-+ (id);
++ (id)CGGGGG;
 - (void);
 - (id);
 - (id);
@@ -23,15 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSFieldURIOrConstantType *FieldURIOrConstant; // @synthesize FieldURIOrConstant=_FieldURIOrConstant;
 @property(retain, nonatomic) EWSBasePathToElementType *Path; // @synthesize Path=_Path;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

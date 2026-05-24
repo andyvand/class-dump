@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice;
-@protocol HMDHomePresence, HMDUserPresence;
+@protocol HMDHomePresence;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePresenceUpdate
 {
     _Bool _update;
-    id <HMDHomePresence> _homePresence;
-    id <HMDUserPresence> _userPresence;
-    HMDDevice *_causingDevice;
 }
 
 - (id);
 - (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (_Bool);
 - (void)Info;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDevice *causingDevice; // @synthesize causingDevice=_causingDevice;
 @property(readonly, nonatomic) id <HMDHomePresence> homePresence; // @synthesize homePresence=_homePresence;
-@property(readonly, nonatomic, getter=isUpdate) _Bool update; // @synthesize update=_update;
-@property(readonly, nonatomic) id <HMDUserPresence> userPresence; // @synthesize userPresence=_userPresence;
 
 @end
 

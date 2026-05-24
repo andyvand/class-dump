@@ -7,7 +7,7 @@
 @class NSDictionary;
 
 @interface UnknownClass (AMSAccount)
-- (id);
+- (id)h q;
 
 // Remaining properties
 @property(readonly) NSDictionary *ams_accountFlags;

@@ -8,32 +8,9 @@
 {
     id _accountManager;
     id cachedSettingsValueManager;
-    id _thumperCallInfo;
-    id onSignOut;
-    id _presentPrivacyOnboarding;
-    id _presentAboutThumper;
-    id _stopTonePreview;
-    id allowAccountModification;
-    id _updateEmergencyAddressController;
-    id _presentEmergencyAddressView;
-    id telHandlerHelper;
-    id regionController;
-    id logger;
-    id featureFlags;
-    id _settings;
-    id _signOutButton;
-    id divider;
-    id _presentSafariURL;
-    id settingsType;
-    id _alert;
-    id _isOnCall;
-    id _cancellable;
-    id _defaults;
-    id app;
-    id _$observationRegistrar;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

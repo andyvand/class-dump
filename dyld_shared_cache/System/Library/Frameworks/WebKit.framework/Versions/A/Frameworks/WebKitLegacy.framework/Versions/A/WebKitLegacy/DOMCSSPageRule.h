@@ -6,19 +6,18 @@
 
 #import <WebKitLegacy/DOMCSSRule.h>
 
-@class DOMCSSStyleDeclaration, NSString;
+@class NSString;
 
 @interface DOMCSSPageRule : DOMCSSRule
 {
 }
 
-- (void);
+- (void)N;
 - (id);
-- (id);
+- (id)4;
 
 // Remaining properties
 @property(copy) NSString *selectorText;
-@property(readonly) DOMCSSStyleDeclaration *style;
 
 @end
 

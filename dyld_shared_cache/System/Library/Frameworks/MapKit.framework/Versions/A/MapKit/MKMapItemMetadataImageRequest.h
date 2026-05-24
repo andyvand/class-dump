@@ -11,7 +11,6 @@
 @interface MKMapItemMetadataImageRequest : MKMapItemMetadataRequest
 {
     GEOPhotoInfo *_info;
-    CDUnknownBlockType _imageHandler;
 }
 
 + (id);
@@ -22,11 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void):maxWidth: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:maxWidth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType imageHandler; // @synthesize imageHandler=_imageHandler;
-@property(retain, nonatomic) GEOPhotoInfo *info; // @synthesize info=_info;
 
 @end
 

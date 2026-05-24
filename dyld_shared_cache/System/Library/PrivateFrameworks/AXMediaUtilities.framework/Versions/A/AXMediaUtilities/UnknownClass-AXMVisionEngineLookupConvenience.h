@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMVisionFeature, NSArray;
+@class NSArray;
 
 @interface UnknownClass (AXMVisionEngineLookupConvenience)
 + (id);
@@ -12,7 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AXMVisionFeature *axm_featureWithHighestConfidence;
 @property(readonly, nonatomic) NSArray *axm_featuresSortedByConfidence;
 @end
 

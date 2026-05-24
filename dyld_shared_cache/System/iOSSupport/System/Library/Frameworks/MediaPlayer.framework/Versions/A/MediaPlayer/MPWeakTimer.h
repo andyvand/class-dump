@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)dLibraryUpdateInProgress;
+- (id);
+- (void)_cloudLibraryUpdateInProgress;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBExpandInlineCommand
+- (NSData *)stomAttributeKey",&,N,V_photosAlbumIdentifiersKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool placeHolderProperty;
 @end
 

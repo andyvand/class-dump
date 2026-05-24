@@ -7,7 +7,6 @@
 @interface MIDICIDiscoveryManager
 {
     unsigned int _mClient;
-    CDUnknownBlockType _mResponseBlock;
 }
 
 + (id);

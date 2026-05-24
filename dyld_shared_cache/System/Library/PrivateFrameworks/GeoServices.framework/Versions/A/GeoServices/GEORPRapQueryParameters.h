@@ -9,18 +9,13 @@
 @interface GEORPRapQueryParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_feedbackIds;
-    int _querySource;
-    struct {
-        unsigned int has_querySource:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ype:(id)arg1;
++ (Class);
++ (_Bool)setLinkType:(id)arg1;
 - (void);
-- (id);
-- (int);
+- (id)imageHash;
+- (int)imageDataURL;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -35,23 +30,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CSVoiceTriggerXPCServiceProxy:(id)arg1 bypassRaiseToSpeak: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)has_internalInstall"b1"has_internalTool"b1"has_isAdvancedMap"b1"has_isGlobeProjection"b1"has_replaceAccidentStringWithCrash"b1"has_routeOptionsSupported"b1"has_snapToClosestStopSupported"b1"has_supportEmissionsTagging"b1"has_supportsAdvancedMap"b1"has_supportsAreaEventsEnhancements"b1"has_supportsArrivalMapRegion"b1"has_supportsBannerQueuingDirections"b1"has_supportsBannerQueuing"b1"has_supportsCongestionZones"b1"has_supportsDefaultToNewRouteFlag"b1"has_supportsDisablingProgressBarFromBannerButtons"b1"has_supportsDodgeballCameraInput"b1"has_supportsElectricVehicleRoutes"b1"has_supportsEv2"b1"has_supportsEvRoutingPreconditioning"b1"has_supportsExtendedSpringfieldRegions"b1"has_supportsGenericCombinationsInstructionsForAllModes"b1"has_supportsGuidanceEventImportanceInfo"b1"has_supportsGuidanceEventPrivacyFilters"b1"has_supportsGuidanceEventsInlineShields"b1"has_supportsGuidanceEvents"b1"has_supportsInternalInfo"b1"has_supportsJunctionView"b1"has_supportsLicensePlateRestrictions"b1"has_supportsLongShieldStrings"b1"has_supportsNaturalGuidance"b1"has_supportsRoadComplexities"b1"has_supportsRouteCameraInputUpdates"b1"has_supportsRouteNameRanges"b1"has_supportsSilentRouteUpdates"b1"has_supportsSpeedTrapAnnouncements"b1"has_supportsTrafficCameras"b1"has_supportsUserIncidentReports"b1"has_supportsWalkingSuggestionsAfterParking"b1"has_supportsWaypointRoutes"b1"has_willSendEvDirectionsFeedback"b1"read_unknownFields"b1"read_supportedElevationModels"b1"read_supportedTransitFeatures"b1"read_supportsMultipointRoutings"b1"read_abAssignInfo"b1"read_advisoryClientCapabilities"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_artworkCapabilities"b1"read_deviceCountryCode"b1"read_deviceSku"b1"read_displayLanguages"b1"read_displayRegion"b1"read_formattedStringClientCapabilities"b1"read_hardwareModel"b1"read_hardwareClass"b1"read_localizationCapabilities"b1"read_osVersion"b1"read_requestTime"b1"read_userCurrentTimezone"b1"read_walkingSupportedFeatures"b1"wrote_anyField"b1};
-- (id)onfigKey;
+- (id)configKey;
 - (id)P;
 - (id)be called once per object;
 - (void)÷XúòO@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *feedbackIds;
-@property(nonatomic) _Bool hasQuerySource;
-@property(nonatomic) int querySource;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

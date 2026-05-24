@@ -6,31 +6,25 @@
 
 #import <AppKit/NSView.h>
 
-@class NSTextField;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugTDViewHierarchyOutlineCellView : NSView
 {
     id _node;
-    NSTextField *_textField;
-    NSTextField *_indicatorsField;
 }
 
+- (void)InterfaceMapInfo;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)';
 - (_Bool);
 - (id);
-- (id)ontentInsets;
+- (id)computed_contentExtendsPastContentInsets;
 - (void);
 - (void)ÍÒB;
 - (id)@¨F;
 
 // Remaining properties
-@property(retain, nonatomic) NSTextField *indicatorsField; // @synthesize indicatorsField=_indicatorsField;
 @property(nonatomic) __weak id node; // @synthesize node=_node;
-@property(retain, nonatomic) NSTextField *textField; // @synthesize textField=_textField;
 
 @end
 

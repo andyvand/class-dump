@@ -13,24 +13,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)successfullyDeletedLivePhotoComponents;
+- (void)postSyncStateToRTC:(SEL)arg1 category:reportDictionary: /* Error: Ran out of types for this method. */;
+- (void)abase may not be able to store message;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id))!;
+- (id)MPMusicPlayerControllerPlaybackStateDidChangeNotification;
 - (unsigned long long);
 - (id);
 - (void)ñ\Ð1Â0@ù
 × ;
 - (void)b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
 - (_Bool)"16;
-- (id)soryViewControllers;
+- (id)_accessoryViewControllers;
 - (void);
-- (unsigned long long)WeekdayOrdinal;
-- (void)nsformView;
+- (unsigned long long)NSCalendarUnitWeekdayOrdinal;
+- (void)_UIMagicMorphTransformView;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

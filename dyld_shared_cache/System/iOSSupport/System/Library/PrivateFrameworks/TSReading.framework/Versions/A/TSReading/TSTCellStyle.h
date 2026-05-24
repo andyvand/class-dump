@@ -16,12 +16,12 @@
 + (id);
 + (void);
 + (void);
++ (void);
 + (void);
++ (id);
 + (void);
 + (id);
-+ (void);
-+ (id);
-- (void);
+- (void)lPlaybackContextAfterReplacement);
 - (SEL);
 - (void);
 - (void)tYx/Sources/AlderShared/tables/TSTStrokeRunArray.mm;

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFCertAuthorityInvitation
 {
     _Bool _wasSigned;
-    NSString *_caName;
-    id _authenticator;
 }
 
 + (_Bool);
-+ (id);
++ (id)rK ;
 - (_Bool);
 - (_Bool);
 - (_Bool);

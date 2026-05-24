@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, SCNProgram;
+@class SCNProgram;
 
 @protocol SCNShadable
 
 @optional
-- (SCNProgram *);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *minimumLanguageVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,&,N
-
 @property(retain, nonatomic) SCNProgram *program;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"SCNProgram",?,&,N
-
-@property(copy, nonatomic) NSDictionary *shaderModifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
 
 @end
 

@@ -7,8 +7,6 @@
 @interface Network._NWListener
 {
     id lock;
-    id _nw;
-    id parameters;
 }
 
 @end

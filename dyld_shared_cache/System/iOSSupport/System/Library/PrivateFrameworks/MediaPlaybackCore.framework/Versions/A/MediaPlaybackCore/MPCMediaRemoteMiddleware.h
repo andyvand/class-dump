@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFuture, MPCMediaRemoteController, MPNowPlayingContentItem, MPSectionedCollection, NSArray, NSDictionary, NSIndexPath, NSString;
-@protocol MPCSupportedCommands;
-
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteMiddleware
 {
     _Bool _skippedMetadata;
-    NSArray *_invalidationObservers;
-    MPCFuture *_controllerFuture;
-    MPCMediaRemoteController *_controller;
-    MPSectionedCollection *_queueContentItems;
-    NSDictionary *_queueParticipants;
-    MPSectionedCollection *_queueModelObjects;
-    id <MPCSupportedCommands> _supportedCommands;
-    MPNowPlayingContentItem *_lastSectionContentItem;
-    NSIndexPath *_playingIndexPath;
-    NSString *_queueIdentifier;
-    NSDictionary *_queueProperties;
-    long long _playerState;
 }
 
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -42,62 +27,62 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)@32@0:8:16@24 /* Error: Ran out of types for this method. */;
+- (float)retainCount;
+- (_Bool)removeCredentialForAccount:(_Bool)arg1 clientID:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (_Bool)removeAccount:(_Bool)arg1 withCompletionHandler:(id)arg2;
+- (_Bool)performSelector:(_Bool)arg1 withObject:(id)arg2 withObject: /* Error: Ran out of types for this method. */;
+- (long long)performSelector:(long long)arg1 withObject:(id)arg2;
+- (long long)isMemberOfClass:(long long)arg1;
+- (double)isEqual:(double)arg1;
+- (long long)debugDescription;
+- (long long)canSaveAccount:(long long)arg1 inStore:(id)arg2;
+- (long long)autorelease;
+- (id)aida_alternateDSID;
+- (long long)accountTypeWithAccountTypeIdentifier:(long long)arg1;
+- (unsigned long long)account:(unsigned long long)arg1 willChangeWithType:(id)arg2 inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (unsigned long long)account:(unsigned long long)arg1 didPerformActionsForDataclasses:(unsigned long long)arg2;
+- (id)_supportedServiceIDs;
+- (float)_appleIDAuthenticationAccountsMatchingAppleAccount:(float)arg1 inStore:(id)arg2;
+- (float)_appleIDAuthenticationAccountsMatchingAppleAccount:(float)arg1 inStore:(id)arg2;
+- (long long)ing",R,C;
+- (id)canRemoveAccount:(id)arg1 inStore:(id)arg2 error:(id)arg3;
+- (_Bool);
 - (id);
-- (float);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
-- (double);
-- (long long);
-- (long long);
-- (long long);
+- (id)SError"12;
+- (_Bool)y removed AIDA account with username %@;
+- (_Bool)ounts...;
+- (_Bool)Cloud account deleted, so removing all related AIDA accounts...;
+- (id)@ service token;
+- (long long)n plugin running;
+- (CDStruct_ef20cf08);
 - (id);
+- (id);
+- (_Bool);
+- (long long);
 - (long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (long long);
+- (id)ication/AppleIDSSONotificationPlugin.bundle/Contents/MacOS/AppleIDSSONotificationPlugin;
+- (id)__objc_const;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (float);
-- (float);
-- (long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (CDStruct_8b36af64);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (long long);
+- (long long)ibobjc.A.dylib;
 - (id);
 - (id);
 - (float);
-- (id);
-- (double);
-- (_Bool);
-- (long long);
+- (id)unt set on AASetupAssistant Service;
+- (double)ameters calling completion handler with error %@;
+- (_Bool)pple.AAAccountNotificationPlugin.FMBackgroundQ;
+- (long long)ng"20@"AAResponse"28@"NSError"36;
 - (void);
 - (void);
 - (id);
@@ -107,33 +92,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)98;
 - (id)0@ù
 × ;
 - (id);
 - (void)vent [missing account identifier for delegated playback] - event:%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MPCMediaRemoteController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) MPCFuture *controllerFuture; // @synthesize controllerFuture=_controllerFuture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
-@property(retain, nonatomic) MPNowPlayingContentItem *lastSectionContentItem; // @synthesize lastSectionContentItem=_lastSectionContentItem;
-@property(nonatomic) long long playerState; // @synthesize playerState=_playerState;
-@property(copy, nonatomic) NSIndexPath *playingIndexPath; // @synthesize playingIndexPath=_playingIndexPath;
-@property(retain, nonatomic) MPSectionedCollection *queueContentItems; // @synthesize queueContentItems=_queueContentItems;
-@property(copy, nonatomic) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property(retain, nonatomic) MPSectionedCollection *queueModelObjects; // @synthesize queueModelObjects=_queueModelObjects;
-@property(retain, nonatomic) NSDictionary *queueParticipants; // @synthesize queueParticipants=_queueParticipants;
-@property(copy, nonatomic) NSDictionary *queueProperties; // @synthesize queueProperties=_queueProperties;
-@property(readonly, nonatomic) _Bool skippedMetadata; // @synthesize skippedMetadata=_skippedMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MPCSupportedCommands> supportedCommands; // @synthesize supportedCommands=_supportedCommands;
 
 @end
 

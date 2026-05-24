@@ -12,12 +12,12 @@
 }
 
 + (id);
-- (id);
-- (id);
+- (id)D@;
+- (id)0d;
 - (void);
-- (void);
+- (void)_bssDropLowMemoryCount;
 - (id);
-- (void);
+- (void)|C;
 - (void)archable_messages (message_id, message, transaction_id, reindex_type, message_body_indexed) VALUES (?, ?, 1, %ld, ?);
 - (id);
 

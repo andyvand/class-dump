@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ckTintColor;
-- (_Bool);
-- (id);
-- (struct _UITableConstantsBackgroundProperties);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (struct _UITableConstantsBackgroundProperties);
++ (id)_trackTintColor;
+- (_Bool)_sendTextAutoReplyToChat:withUrgentBreakthroughInstructions: /* Error: Ran out of types for this method. */;
+- (id)_messageReplayObjectWithService:account:incomingTopLevelMessage:fromID: /* Error: Ran out of types for this method. */;
+- (struct _UITableConstantsBackgroundProperties)te file response;
+- (double)coming dl push:(id)arg1 %@;
+- (double)ail.;
+- (struct UIEdgeInsets)ge;
+- (struct _UITableConstantsBackgroundProperties)l sync to CloudKit in-memory transfer:(long long)arg1 %@ newGUID:(id)arg2 %@;
 - (double);
 
 @end

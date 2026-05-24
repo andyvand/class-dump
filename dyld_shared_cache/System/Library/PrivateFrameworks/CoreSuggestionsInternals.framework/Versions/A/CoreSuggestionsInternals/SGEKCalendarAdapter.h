@@ -4,40 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGSqlEntityStore, _PASLazyResult;
+@class SGSqlEntityStore, _PASLazyResult;
 
 @interface SGEKCalendarAdapter
 {
     _PASLazyResult *_lazyEKStoreLock;
-    SGSqlEntityStore *_store;
 }
 
-+ (_Bool);
++ (_Bool)TQ,N,V_filteringOption;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)i;
+- (id)q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)t=dd}{CGSize=dd}}32@"NSTableColumn"40q48{CGPoint=dd}56;
+- (void)"40@0:(id)arg1 8@"NSTableView"16@"NSTableColumn"24q32;
+- (void)40@0:(id)arg1 8@16q24q32;
+- (_Bool)16@"<NSDraggingInfo>"24q32Q40;
+- (_Bool)6@"NSTextView"24@"NSArray"32{_NSRange=QQ}40^q56;
+- (_Bool)l"16@"NSTextView"24:(id)arg1 32;
+- (id)webView:(id)arg1 runJavaScriptConfirmPanelWithMessage:(id)arg2 initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)tokenRequestClass;
+- (void)tableView:(id)arg1 shouldTrackCell:(id)arg2 forTableColumn:(id)arg3 row:(_Bool)arg4;
+- (void)squareIcon;
 - (void);
 - (id);
 - (void);
@@ -45,14 +44,7 @@
 - (void)<ý3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak SGSqlEntityStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

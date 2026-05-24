@@ -7,12 +7,17 @@
 @class CKDatabaseOperationInfo;
 
 @protocol CKXPCContainerScopedDaemonSPI
+- (void)";
+- (void);
+- (void);
+- (void);
+- (void)q;
 - (void)
 × ;
 - (void)isEqualToData: /* Error: Ran out of types for this method. */;
 - (void)ineStateSerialization",R,C,N,V_stateSerialization;
-- (void);
-- (void)ct;
+- (void)_participantSelfRemovalBehavior;
+- (void)_object;
 - (void)	
 ;
 - (void)	
@@ -26,7 +31,7 @@
 - (void)ion %{public}@ zoneIDs=%@;
 - (void)sibly due to attempted mergeables use by system user;
 - (void)riptionID passed to %@:(void (^)(NSData *, NSError *))arg1 %@;
-- (void)dUserRecordID;
+- (void)lastModifiedUserRecordID;
 - (void)on both CKRecord and -[CKRecord encryptedValues];
 - (void)geableDelta"8;
 - (void);

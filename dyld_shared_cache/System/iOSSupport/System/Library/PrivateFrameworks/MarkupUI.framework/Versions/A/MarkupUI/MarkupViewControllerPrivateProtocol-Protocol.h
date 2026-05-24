@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUndoManager, PDFDocument, PDFView, UIScrollView, UIView;
-@protocol MarkupViewControllerDelegate;
+@class PDFDocument;
 
 @protocol MarkupViewControllerPrivateProtocol
++ (_Bool)/Key.swift;
+- (void);
+- (void)R;
+- (struct CGSize)9;
+- (void)P;
+- (PDFDocument *)@9?;
 
 // Remaining properties
-@property(readonly) struct CGSize adjustedSourceImageSize;
-@property(retain, nonatomic) NSUndoManager *akUndoManager;
-@property(nonatomic) _Bool allowsThumbnailViewPageReordering;
-@property(nonatomic) _Bool centersIgnoringContentInsets;
-@property(readonly, nonatomic) UIScrollView *contentViewScrollView;
-@property(nonatomic) unsigned long long currentPDFPageIndex;
-@property(nonatomic) __weak id <MarkupViewControllerDelegate> delegate;
 @property _Bool encryptPrivateMetadata;
-@property(nonatomic) _Bool fixedThumbnailView;
-@property(nonatomic) _Bool forcesPDFViewTopAlignment;
-@property(copy, nonatomic) NSString *hostProcessBundleIdentifier;
-@property(readonly, nonatomic) UIView *imageViewCombinedContentView;
-@property unsigned long long inkStyle;
-@property(readonly) __weak UIView *pageLabelView;
-@property(readonly) PDFDocument *pdfDocument;
-@property(readonly) PDFView *pdfView;
-@property(nonatomic, getter=isShapeDetectionEnabled) _Bool shapeDetectionEnabled;
-@property(nonatomic) _Bool showShareButtonInToolbar;
-@property(nonatomic) long long thumbnailViewStyle;
 @end
 

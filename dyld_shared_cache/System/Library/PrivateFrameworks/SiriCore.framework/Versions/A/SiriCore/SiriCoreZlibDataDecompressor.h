@@ -9,10 +9,9 @@
 @interface SiriCoreZlibDataDecompressor : SiriCoreDataDecompressor
 {
     struct z_stream_s _inflateStream;
-    unsigned char _inflateBuffer[8192];
 }
 
-- (id);
+- (id)ategorizationOnboardingPrimaryBadgeCount-v2;
 - (void);
 - (id);
 

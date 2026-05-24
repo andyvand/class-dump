@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDBusinessInfosModuleConfiguration
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _factoidItemIndexs;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)1};
-- (id)Collection:pointRange:stepIndex:transitLineColor:startDistance:andCoordinates:fromSteps:andSegments: /* Error: Ran out of types for this method. */;
+- (id)_buildPointSectionsInCollection:pointRange:stepIndex:transitLineColor:startDistance:andCoordinates:fromSteps:andSegments: /* Error: Ran out of types for this method. */;
 - (id)àf´f ´f´´Ü fÈ´ð¤fô´§f(´è¯f<´D´fP´,Ìfd´¼ßfÈ´TåfÜ´Xéfô´¬ëf´ öf$´Ø÷f8´ùfL´@g`´ô4g¸´X=gÌ´ÈEg ´´Jgx´à]g´ ag ´,fg´´|ggÈ´¼jgÜ´~gð´g´¬g´g8´gL´Ôg`´Ägt´`*h´0Bh´°Oh0´PhD´üVh`´\ht´h´Ôh´h°´thÄ´tÍhØ´4ih´Di|´i´`i°´.iÄ´ü3iØ´´5iì´@Vk;
 - (void)ðÍ«gÅá?uJ|=Á:¿M;qÁ±¿{:7¿L[ú[³3`?ÚeÒ¹µ?1¾UÄÖYZ?^'WíéLF? /* Error: Ran out of types for this method. */;
 

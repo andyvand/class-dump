@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNFuture;
 
 @interface ABForwardingFuture
@@ -17,29 +16,21 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)terations;
+- (id)_emailAddress;
+- (_Bool)A;
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void)!à@ù11*1Â0@ù
 × ;
 - (void)booLy7sY5cuP1RyCwoCeIBg/Library/Caches/com.apple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBook/ABRecordMover.m;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mShowcaseView;
 - (id);
 
 @end

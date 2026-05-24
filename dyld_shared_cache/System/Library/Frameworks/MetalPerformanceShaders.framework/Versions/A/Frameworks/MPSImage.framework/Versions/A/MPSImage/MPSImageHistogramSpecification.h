@@ -6,17 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@protocol MTLBuffer;
-
 @interface MPSImageHistogramSpecification : MPSUnaryImageKernel
 {
     unsigned long long histogramEntries;
-    _Bool histogramAlpha;
-    id minPixelValue;
-    id maxPixelValue;
-    _Bool optimized256BinsUseCase;
-    id <MTLBuffer> specificationBuffer;
-    _Bool encodeTransform;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithDeletes:(id)arg1;
 - (id);
 - (id);
 

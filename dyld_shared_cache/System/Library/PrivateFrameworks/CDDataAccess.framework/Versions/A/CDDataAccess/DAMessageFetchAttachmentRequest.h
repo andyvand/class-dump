@@ -9,21 +9,19 @@
 @interface DAMessageFetchAttachmentRequest
 {
     NSString *_messageID;
-    NSString *_attachmentName;
 }
 
 - (void);
-- (id);
+- (id)?ן;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)&;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attachmentName; // @synthesize attachmentName=_attachmentName;
 @property(copy, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
 
 @end

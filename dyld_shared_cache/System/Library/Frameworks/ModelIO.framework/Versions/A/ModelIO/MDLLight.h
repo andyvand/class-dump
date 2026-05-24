@@ -6,31 +6,25 @@
 
 #import <ModelIO/MDLObject.h>
 
-@class NSString;
-
 @interface MDLLight : MDLObject
 {
     struct RTLight *_light;
-    NSString *_colorSpace;
-    struct CGColorSpace *_cgColorSpace;
-    unsigned long long _lightType;
 }
 
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct RTLight *);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)IF NOT EXISTS ix_sessions_modelHandleId             ON sessions (modelHandleId ASC);
+- (unsigned long long)2^;
+- (void)ARSpeechRecognizer.setUserProfileData(userProfileData:) /* Error: Ran out of types for this method. */;
+- (id)cessory Information service contains an invalid Identify characteristic;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *colorSpace;
 @property(nonatomic) unsigned long long lightType; // @synthesize lightType=_lightType;
 
 @end

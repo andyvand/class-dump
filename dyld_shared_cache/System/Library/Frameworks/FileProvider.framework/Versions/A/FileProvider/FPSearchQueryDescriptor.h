@@ -12,29 +12,25 @@ __attribute__((visibility("hidden")))
 @interface FPSearchQueryDescriptor : FPSpotlightQueryDescriptor
 {
     _Bool _thirdPartySearchOnServer;
-    _Bool _avoidCoreSpotlightSearch;
-    NSString *_searchQueryString;
 }
 
+- (void)M;
 - (void);
-- (void);
-- (void);
+- (void)AM;
 - (id);
-- (id);
+- (id)M;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id). Expect spatial video configuration attached to the pixel buffers in composed tagged buffers to equal to that from the AVVideoComposition's spatialVideoConfigurations;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool avoidCoreSpotlightSearch; // @synthesize avoidCoreSpotlightSearch=_avoidCoreSpotlightSearch;
 @property(copy) NSString *searchQueryString; // @synthesize searchQueryString=_searchQueryString;
-@property(nonatomic, getter=isThirdPartySearchOnServer) _Bool thirdPartySearchOnServer; // @synthesize thirdPartySearchOnServer=_thirdPartySearchOnServer;
 
 @end
 

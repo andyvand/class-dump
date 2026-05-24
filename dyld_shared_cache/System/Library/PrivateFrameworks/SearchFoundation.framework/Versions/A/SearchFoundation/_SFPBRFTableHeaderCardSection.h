@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBRFTableHeaderCardSection
 {
     int _should_repeat_header_in_flow_layout;
-    int _vertical_alignment;
-    NSArray *_columns;
-    NSArray *_cells;
-    NSArray *_compact_cells;
 }
 
 - (int);
@@ -33,35 +29,23 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)teListeningEnabled=%{BOOL}u delegatedPrivateListeningEnabled=%{BOOL}u allowsExplicitContent=%{BOOL}u stationDictionary=%{public}@ contentDictionary=%{public}@;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)requestSharingSuggestionDebugInformationForAssetCollectionLocalIdentifier:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)nother group (%@);
+- (id)";
 - (id);
 - (void)mpleItemRichCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 - (id)ardSection",&,N,V_reference_footnote_card_section;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cells; // @synthesize cells=_cells;
 @property(copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(copy, nonatomic) NSArray *compact_cells; // @synthesize compact_cells=_compact_cells;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int should_repeat_header_in_flow_layout; // @synthesize should_repeat_header_in_flow_layout=_should_repeat_header_in_flow_layout;
-@property(readonly) Class superclass;
-@property(nonatomic) int vertical_alignment; // @synthesize vertical_alignment=_vertical_alignment;
 
 @end
 

@@ -4,46 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDEnrichmentInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_poiNames;
-    NSString *_showcaseId;
-    NSMutableArray *_showcaseImageUrls;
-    NSMutableArray *_showcaseTitles;
-    NSString *_sourceId;
-    NSString *_sourceName;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_poiNames:1;
-        unsigned int read_showcaseId:1;
-        unsigned int read_showcaseImageUrls:1;
-        unsigned int read_showcaseTitles:1;
-        unsigned int read_sourceId:1;
-        unsigned int read_sourceName:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)MutableArray",&,N,V_enabledStates;
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)pes"b1"read_entries"b1"read_name"b1"wrote_anyField"b1};
-- (id)Id;
+- (id)_currentId;
 - (id)½;
 - (void)k| ñíèãÝØÒÌ
 ýúö²Ä×éü!4GZm¨»Ïã÷4H]q°ÅÚð

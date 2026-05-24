@@ -13,8 +13,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setManufacturerName:(id)arg1;
+- (void)pActionRequest:(id)arg1 responseHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

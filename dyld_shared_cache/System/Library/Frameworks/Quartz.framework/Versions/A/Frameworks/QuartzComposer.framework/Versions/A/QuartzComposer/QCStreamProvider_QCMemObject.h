@@ -11,14 +11,12 @@
 @interface QCStreamProvider_QCMemObject : QCStreamProvider
 {
     QCMemObject *_provider;
-    unsigned int _isArray:1;
-    unsigned int _isTexture3D:1;
 }
 
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,7 +24,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (int);
+- (int)tessellationPartitionMode;
 - (unsigned long long);
 - (unsigned long long);
 - (id)¨)À);

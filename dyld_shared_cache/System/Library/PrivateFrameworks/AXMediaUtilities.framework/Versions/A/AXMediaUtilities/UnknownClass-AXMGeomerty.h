@@ -13,14 +13,10 @@
 - (struct CGSize);
 - (struct CGPoint);
 - (struct CGVector);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform AXMAffineTransformValue;
 @property(readonly, nonatomic) struct CGPoint AXMPointValue;
-@property(readonly, nonatomic) struct CGRect AXMRectValue;
-@property(readonly, nonatomic) struct CGSize AXMSizeValue;
-@property(readonly, nonatomic) struct CGVector AXMVectorValue;
 @end
 

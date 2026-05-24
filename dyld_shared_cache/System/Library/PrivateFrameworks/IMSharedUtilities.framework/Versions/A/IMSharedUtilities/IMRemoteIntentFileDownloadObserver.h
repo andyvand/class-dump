@@ -10,8 +10,8 @@
 }
 
 + (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)book.payment.continuity.received.payment-request.unlocked;
 - (void)Ú¡L;
 
 @end

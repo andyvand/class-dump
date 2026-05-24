@@ -6,15 +6,11 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSDate;
 
 @interface SSPodcastResultBuilder : SSResultBuilder
 {
     NSDate *_lastViewedDate;
-    NSString *_name;
-    NSString *_podcastDescription;
-    NSURL *_imageURL;
-    NSArray *_authors;
 }
 
 + (_Bool);
@@ -22,27 +18,23 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setShowsControls: /* Error: Ran out of types for this method. */;
+- (id)setShowOuterBorder: /* Error: Ran out of types for this method. */;
+- (id)setShadowOffset: /* Error: Ran out of types for this method. */;
+- (id)setRightView: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)˙;
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)asRetrievedResults;
+- (void)hasRetrievedResults;
 - (id)ifier=[%@] was soft demoted due to un-matched event type quEventType=%@ resultEventType=%@;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *authors; // @synthesize authors=_authors;
-@property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
 @property(retain, nonatomic) NSDate *lastViewedDate; // @synthesize lastViewedDate=_lastViewedDate;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *podcastDescription; // @synthesize podcastDescription=_podcastDescription;
 
 @end
 

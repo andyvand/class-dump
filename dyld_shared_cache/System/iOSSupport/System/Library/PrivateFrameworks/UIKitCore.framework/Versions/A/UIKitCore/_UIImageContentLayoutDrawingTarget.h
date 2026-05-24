@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
-
 __attribute__((visibility("hidden")))
 @interface _UIImageContentLayoutDrawingTarget
 {
@@ -13,40 +11,26 @@ __attribute__((visibility("hidden")))
     struct CGRect _bounds;
 }
 
-+ (id);
-- (id);
-- (long long);
++ (id)mes enabled, and we already have one in cloudkit. Broadcasting to my other devices.;
+- (id);
+- (long long)"NSNumber",C,N,V_payloadSafariAllowJavaScript;
 - (id);
 - (struct UIEdgeInsets)0@ù
 × ;
 - (_Bool)@ù
 × ;
 - (struct CGRect);
-- (long long)iguration;
-- (long long)essibilityTextualContextBlock;
-- (_Bool)sWithPersistentIdentifiers:skippingPersistenceDeletion: /* Error: Ran out of types for this method. */;
-- (double)on;
+- (long long)dragConfiguration;
+- (long long)accessibilityTextualContextBlock;
+- (_Bool)_discardSceneSessionsWithPersistentIdentifiers:skippingPersistenceDeletion: /* Error: Ran out of types for this method. */;
+- (double)ForceEnableDictation;
 - (id)rixWhite;
 - (_Bool);
 - (id);
 - (id)H^;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _hasContentGravity;
-@property(readonly, nonatomic) _Bool _layoutShouldFlipHorizontalOrientations;
-@property(readonly, nonatomic) _Bool _supportsContents;
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) long long contentMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double preferredContentScaleFactor; // @synthesize preferredContentScaleFactor=_preferredContentScaleFactor;
-@property(readonly, nonatomic) long long semanticContentAttribute;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 
 @end
 

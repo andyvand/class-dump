@@ -7,14 +7,12 @@
 @interface UIGradient
 {
     CDStruct_d83abbfb *_values;
-    double _height;
-    struct CGShading *_shader;
 }
 
-- (id);
+- (id)e storing;
+- (void);
 - (void);
-- (void);
-- (void)ceOrientationSettingsDiffAction;
+- (void)_UIWindowSceneDeviceOrientationSettingsDiffAction;
 
 @end
 

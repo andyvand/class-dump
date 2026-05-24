@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class CKDeviceToDeviceShareInvitationToken, MKFCKHome, MKFCKUser, NSArray, NSDate, NSSet, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKOutgoingInvitation : MKFCKHomeObject
@@ -14,32 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)getSnapshot:(id)arg1 data:(id)arg2 mergingCurrentState:(id)arg3 withState:mergeOptions:error: /* Error: Ran out of types for this method. */;
+- (_Bool)AfterInitialConnection:(id)arg1 instead;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessCode; // @dynamic accessCode;
-@property(retain, nonatomic) NSSet *allowedAccessories; // @dynamic allowedAccessories;
-@property(nonatomic) long long announceAccessLevel; // @dynamic announceAccessLevel;
-@property(nonatomic) long long cameraAccessLevel; // @dynamic cameraAccessLevel;
-@property(copy, nonatomic) NSUUID *conflictResolutionUUID; // @dynamic conflictResolutionUUID;
-@property(copy, nonatomic) NSDate *dateSent; // @dynamic dateSent;
-@property(copy, nonatomic) NSDate *expiryDate; // @dynamic expiryDate;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) NSArray *guestWeekDayScheduleRules; // @dynamic guestWeekDayScheduleRules;
-@property(retain, nonatomic) NSArray *guestYearDayScheduleRules; // @dynamic guestYearDayScheduleRules;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(nonatomic) long long invitationState; // @dynamic invitationState;
-@property(copy, nonatomic) NSString *inviteeUserID; // @dynamic inviteeUserID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(retain, nonatomic) MKFCKUser *pendingUser; // @dynamic pendingUser;
-@property(nonatomic) long long privilege; // @dynamic privilege;
-@property(nonatomic) _Bool remoteAccessAllowed; // @dynamic remoteAccessAllowed;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *shareToken; // @dynamic shareToken;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

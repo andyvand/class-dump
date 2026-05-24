@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _EARAlignmentState
 {
     long long _numberOfInsertions;
-    long long _numberOfDeletions;
-    long long _numberOfSubstitutions;
-    long long _totalCost;
 }
 
 - (long long);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long numberOfDeletions; // @synthesize numberOfDeletions=_numberOfDeletions;
 @property(nonatomic) long long numberOfInsertions; // @synthesize numberOfInsertions=_numberOfInsertions;
-@property(nonatomic) long long numberOfSubstitutions; // @synthesize numberOfSubstitutions=_numberOfSubstitutions;
-@property(nonatomic) long long totalCost; // @synthesize totalCost=_totalCost;
 
 @end
 

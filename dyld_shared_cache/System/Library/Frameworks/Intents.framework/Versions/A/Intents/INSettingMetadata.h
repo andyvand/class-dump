@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAppIdentifier, INSettingDevice, NSString;
+@class NSString;
 
 @interface INSettingMetadata
 {
     NSString *_settingId;
-    INSettingDevice *_targetDevice;
-    INAppIdentifier *_targetApp;
 }
 
 + (id);
@@ -18,29 +16,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setDpad:(id)arg1 x:y:timestamp:forceSkipDpadRotation: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setAskToShareStatus:(id)arg1 clientID:networkID: /* Error: Ran out of types for this method. */;
+- (void)ublic}s:(id)arg1 %u) Rapport activated  successfully ON [%@];
 - (id);
-- (id);
-- (id)tion;
-- (void)poralSetting:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)H;
+- (id)hasRentalCarDescription;
+- (void)provideActionOptionsForSetTemporalSetting:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *settingId; // @synthesize settingId=_settingId;
-@property(readonly) Class superclass;
-@property(readonly, copy) INAppIdentifier *targetApp; // @synthesize targetApp=_targetApp;
-@property(readonly, copy) INSettingDevice *targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

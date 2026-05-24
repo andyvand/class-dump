@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-@protocol CoreDAVAccountInfoProvider, CoreDAVTaskManager;
-
 @protocol CoreDAVSubmittable
+- (void);
 
 // Remaining properties
-@property(nonatomic) id <CoreDAVAccountInfoProvider> accountInfoProvider;
 @property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(readonly, nonatomic) NSError *error;
-@property(nonatomic) id <CoreDAVTaskManager> taskManager;
-@property(nonatomic) double timeoutInterval;
 @end
 

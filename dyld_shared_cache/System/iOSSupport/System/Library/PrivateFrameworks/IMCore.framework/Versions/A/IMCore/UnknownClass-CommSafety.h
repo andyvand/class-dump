@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CommSafety)
 - (id);
-- (long long);
+- (long long)^;
 
 // Remaining properties
 @property(nonatomic, readonly) long long commSafetySensitivityState;

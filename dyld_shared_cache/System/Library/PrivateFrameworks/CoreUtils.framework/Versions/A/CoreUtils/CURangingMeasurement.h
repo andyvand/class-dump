@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface CURangingMeasurement
 {
     unsigned int _flags;
-    double _distanceMeters;
-    double _distanceError;
-    NSError *_error;
-    double _horizontalAngle;
-    double _horizontalError;
-    NSString *_identifier;
-    double _verticalAngle;
-    double _verticalError;
-    double _ptsScore;
-    unsigned long long _timestampTicks;
 }
 
 + (_Bool);
@@ -31,36 +19,26 @@
 - (void);
 - (void);
 - (void);
+- (void));
 - (void);
-- (void);
-- (double);
+- (double)__unwind_info;
 - (double);
 - (double);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)presentSimpleProfileUpgradeWithContext:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)initWithBundleIdentifier:efficacy:name:withHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double distanceError; // @synthesize distanceError=_distanceError;
-@property(nonatomic) double distanceMeters; // @synthesize distanceMeters=_distanceMeters;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(nonatomic) double horizontalAngle; // @synthesize horizontalAngle=_horizontalAngle;
-@property(nonatomic) double horizontalError; // @synthesize horizontalError=_horizontalError;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double ptsScore; // @synthesize ptsScore=_ptsScore;
-@property(nonatomic) unsigned long long timestampTicks; // @synthesize timestampTicks=_timestampTicks;
-@property(nonatomic) double verticalAngle; // @synthesize verticalAngle=_verticalAngle;
-@property(nonatomic) double verticalError; // @synthesize verticalError=_verticalError;
 
 @end
 

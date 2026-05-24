@@ -6,52 +6,12 @@
 
 #import <AVConference/VCObject.h>
 
-@class ATSpatialStreamDescriptions, AVAudioDevice, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, VCAudioRelay, VCAudioRelayIO, VCAudioSessionMediaProperties, VCAudioUnitProperties, VCAudioUnitSpatialContext;
-@protocol OS_dispatch_queue;
+@class VCAudioSessionMediaProperties;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioManager : VCObject
 {
     struct tagHANDLE *_hAUIO;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned int _state;
-    VCAudioSessionMediaProperties *_currentAudioSessionMediaProperties;
-    VCAudioUnitProperties *_currentAudioUnitProperties;
-    NSDictionary *_vpOperatingModeToAudioSessionMediaFormatMapping;
-    NSMutableArray *_allClients;
-    NSMutableArray *_startingIOClients;
-    AVAudioDevice *_inputDevice;
-    AVAudioDevice *_outputDevice;
-    _Bool _isGKVoiceChat;
-    _Bool _isMicrophoneMuted;
-    _Bool _isMixingVoiceWithMediaEnabled;
-    _Bool _isInDaemon;
-    _Bool _isInputMeteringEnabled;
-    _Bool _isOutputMeteringEnabled;
-    _Bool _isSpeakerPhoneEnabled;
-    _Bool _isSuspended;
-    _Bool _followSystemInput;
-    _Bool _followSystemOutput;
-    struct _VCAudioIOControllerIOState _sinkData;
-    struct _VCAudioIOControllerIOState _sourceData;
-    int _interruptThreadState;
-    VCAudioRelay *_interruptThread;
-    VCAudioRelayIO *_interruptThreadClient;
-    _Bool _isInterrupting;
-    struct _opaque_pthread_mutex_t _interruptingMutex;
-    struct _opaque_pthread_mutex_t _inputDeviceMutex;
-    struct _opaque_pthread_mutex_t _outputDeviceMutex;
-    _Bool _spatialAudioDisabled;
-    void **_audioSession;
-    int _playbackMode;
-    _Bool _useOptimizedHandoversForTelephony;
-    NSMutableDictionary *_spatialContexts;
-    NSMutableDictionary *_audioSessionSinkMuted;
-    VCAudioUnitSpatialContext *_currentSpatialContext;
-    CDUnknownBlockType _mutedTalkerNotificationHandler;
-    NSArray *_stateStrings;
-    ATSpatialStreamDescriptions *_spatialStreamDescriptions;
-    _Bool _isMediaPlaybackOnExternalDevice;
 }
 
 + (void);
@@ -63,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
 - (void);
@@ -77,25 +37,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void)T_;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)_;
+- (_Bool);
+- (void);
+- (void)j;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (struct _VCAudioIOControllerIOState *);
 - (struct _VCAudioIOControllerIOState *);
 - (_Bool);
@@ -103,37 +63,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)h;
 - (void);
 - (void);
+- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (int);
+- (int);
 - (void);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (int);
-- (int);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
 - (int);
 - (id);
 - (id);
@@ -141,13 +101,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -195,33 +155,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)øú&;
 
 // Remaining properties
-@property(readonly, nonatomic) void **audioSession; // @synthesize audioSession=_audioSession;
 @property(retain, nonatomic) VCAudioSessionMediaProperties *currentAudioSessionMediaProperties; // @synthesize currentAudioSessionMediaProperties=_currentAudioSessionMediaProperties;
-@property(retain, nonatomic) VCAudioUnitProperties *currentAudioUnitProperties; // @synthesize currentAudioUnitProperties=_currentAudioUnitProperties;
-@property(retain) AVAudioDevice *currentInputDevice; // @synthesize currentInputDevice=_inputDevice;
-@property(retain) AVAudioDevice *currentOutputDevice; // @synthesize currentOutputDevice=_outputDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFollowSystemInputEnabled) _Bool followSystemInput; // @synthesize followSystemInput=_followSystemInput;
-@property(nonatomic, getter=isFollowSystemOutputEnabled) _Bool followSystemOutput; // @synthesize followSystemOutput=_followSystemOutput;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isGKVoiceChat; // @synthesize isGKVoiceChat=_isGKVoiceChat;
-@property(nonatomic) _Bool isInDaemon; // @synthesize isInDaemon=_isInDaemon;
-@property(nonatomic, getter=isMicrophoneMuted) _Bool microphoneMuted; // @synthesize microphoneMuted=_isMicrophoneMuted;
-@property(nonatomic, getter=isMixingVoiceWithMediaEnabled) _Bool mixingVoiceWithMediaEnabled; // @synthesize mixingVoiceWithMediaEnabled=_isMixingVoiceWithMediaEnabled;
-@property(readonly, nonatomic) NSDictionary *reportingStats;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) struct _VCAudioIOControllerIOState *sinkIO;
-@property(readonly, nonatomic) struct _VCAudioIOControllerIOState *sourceIO;
-@property(nonatomic, getter=isSpeakerPhoneEnabled) _Bool speakerPhoneEnabled; // @synthesize speakerPhoneEnabled=_isSpeakerPhoneEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsVoiceActivityDetection;
-@property(retain, nonatomic) NSDictionary *vpOperatingModeToAudioSessionMediaFormatMapping; // @synthesize vpOperatingModeToAudioSessionMediaFormatMapping=_vpOperatingModeToAudioSessionMediaFormatMapping;
 
 @end
 

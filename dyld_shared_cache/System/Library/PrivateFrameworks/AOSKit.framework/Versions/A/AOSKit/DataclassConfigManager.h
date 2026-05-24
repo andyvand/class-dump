@@ -9,14 +9,13 @@
 @interface DataclassConfigManager
 {
     NSMutableDictionary *_info;
-    long long _actionCount;
 }
 
 + (id);
-- (id);
+- (id)G;
 - (_Bool);
 - (void);
-- (id);
+- (id)J;
 - (void);
 
 @end

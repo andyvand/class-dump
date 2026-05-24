@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSSet;
 
 @interface UAPasteboardGeneration
 {
     unsigned long long _generation;
-    NSSet *_allTypes;
-    NSArray *_items;
-    NSMutableDictionary *_typePaths;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)r4*;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(copy) NSSet *allTypes; // @synthesize allTypes=_allTypes;
-@property(readonly) unsigned long long generation; // @synthesize generation=_generation;
-@property(copy) NSArray *items; // @synthesize items=_items;
-@property(retain) NSMutableDictionary *typePaths; // @synthesize typePaths=_typePaths;
 
 @end
 

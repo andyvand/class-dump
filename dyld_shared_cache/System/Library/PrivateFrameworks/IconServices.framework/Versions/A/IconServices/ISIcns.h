@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, NSURL;
-
 @interface ISIcns
 {
     unsigned int _type;
-    NSData *_data;
-    id _elements;
-    _Bool _dirty;
-    NSURL *_url;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16;
++ (id)2@0:8^{__DDScanQuery=}16@24 /* Error: Ran out of types for this method. */;
++ (id)rray}^{__CFArray}qqqq*@?db1b1CSC^{__CFLocale}iiC^{__CFArray}^{__CFArray}};
++ (id)setAuditToken:(unsigned int)arg1;
++ (id)script;
++ (id)scannerResultFromXML:(struct IconFamilyResource **)arg1 stringToScan: /* Error: Ran out of types for this method. */;
++ (id)scannerOptions;
++ (id)pushSourcesContent:forSource:signature: /* Error: Ran out of types for this method. */;
++ (id)processTokens:withEmbeddingData: /* Error: Ran out of types for this method. */;
++ (id)poundsForcePerSquareInch;
++ (_Bool)fluidOunces;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)1;
+- (_Bool)Z;
 - (_Bool);
-- (_Bool);
-- (id);
-- (unsigned int);
+- (id)__objc_methname;
+- (unsigned int);
 - (struct CGSize);
 - (void);
 - (_Bool);
@@ -51,64 +45,46 @@
 - (id);
 - (id);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)litersPer100Kilometers;
 - (void);
+- (id);
+- (unsigned int)Addr(ppd);
+- (id)SWFRForegroundCorrectionStrength;
+- (void));
+- (id)RelaxAverageBitRateTarget;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned int);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id):(id)arg1 ;
+- (void);
+- (id)Hm;
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool containsTemplateVariant;
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly) NSMutableDictionary *elements; // @synthesize elements=_elements;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *name; // @dynamic name;
-@property(retain) ISIcns *selectedVariant; // @dynamic selectedVariant;
-@property(readonly) Class superclass;
-@property(retain) ISIcns *templateVariant; // @dynamic templateVariant;
-@property unsigned int type; // @synthesize type=_type;
-@property(retain) NSURL *url; // @synthesize url=_url;
-@property(retain) NSDictionary *userInfo; // @dynamic userInfo;
 @property _Bool usesExternalCompositor;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?
 
-@property(readonly) NSArray *variants; // @dynamic variants;
 
 @end
 

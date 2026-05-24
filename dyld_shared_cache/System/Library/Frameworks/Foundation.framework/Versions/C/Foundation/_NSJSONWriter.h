@@ -10,23 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _NSJSONWriter
 {
     NSOutputStream *outputStream;
-    int kind;
-    char *dataBuffer;
-    unsigned long long dataBufferLen;
-    unsigned long long dataLen;
-    _Bool freeDataBuffer;
-    char *tempBuffer;
-    unsigned long long tempBufferLen;
-    long long totalDataWritten;
-    NSError *_failure;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)i;
+- (_Bool)*;
 - (long long)}1ð!ìBùÑy5Ð1Â0@ù
 × ;
 

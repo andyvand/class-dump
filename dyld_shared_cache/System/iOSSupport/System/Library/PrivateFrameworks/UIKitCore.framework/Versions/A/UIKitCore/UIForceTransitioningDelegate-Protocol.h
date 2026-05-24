@@ -7,6 +7,7 @@
 @class UIInteractionProgress;
 
 @protocol UIForceTransitioningDelegate
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIInteractionProgress *interactionProgressForPresentation;

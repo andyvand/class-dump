@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputQueryItem, NSString, PKTextInputElementContent, PKTextInputHandwritingShot, PKTextInputTargetState;
-@protocol PKTextInputResultCommandDelegate;
-
 @interface PKTextInputResultCommand
 {
     _Bool _resultedInTargetChange;
-    _Bool _hasPendingUncommittedChanges;
-    _Bool _destinationFrameForAnimationMightMove;
-    _Bool __applyIntermediateChange;
-    id <PKTextInputResultCommandDelegate> _delegate;
-    long long _commandState;
-    CHTextInputQueryItem *_queryItem;
-    PKTextInputHandwritingShot *_handwritingShot;
-    PKTextInputElementContent *_targetElementContent;
-    PKTextInputTargetState *_initialInputTargetState;
-    long long _immediateCommitType;
-    PKTextInputTargetState *_finalInputTargetState;
-    NSString *_committedText;
-    long long _committedTokenColumnCount;
-    NSString *_commitReason;
-    PKTextInputTargetState *__inProgressInputTargetState;
-    struct _NSRange _affectedRange;
 }
 
 + (id);
@@ -76,35 +57,19 @@
 - (id);
 - (void);
 - (void);
+- (id)ound on tapbackItem with guid:%s. Defaulting to blue /* Error: Ran out of types for this method. */;
+- (void)#;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (struct _NSRange);
 - (id);
 - (id);
 - (void);
-- (void)End;
+- (void)_insertSpaceAffordancePanDidEnd;
 
 // Remaining properties
-@property(nonatomic) _Bool _applyIntermediateChange; // @synthesize _applyIntermediateChange=__applyIntermediateChange;
-@property(retain, nonatomic) PKTextInputTargetState *_inProgressInputTargetState; // @synthesize _inProgressInputTargetState=__inProgressInputTargetState;
-@property(nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
 @property(nonatomic, setter=_setCommandState:) long long commandState; // @synthesize commandState=_commandState;
-@property(copy, nonatomic) NSString *commitReason; // @synthesize commitReason=_commitReason;
-@property(copy, nonatomic) NSString *committedText; // @synthesize committedText=_committedText;
-@property(nonatomic) long long committedTokenColumnCount; // @synthesize committedTokenColumnCount=_committedTokenColumnCount;
-@property(nonatomic) __weak id <PKTextInputResultCommandDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool destinationFrameForAnimationMightMove; // @synthesize destinationFrameForAnimationMightMove=_destinationFrameForAnimationMightMove;
-@property(copy, nonatomic) PKTextInputTargetState *finalInputTargetState; // @synthesize finalInputTargetState=_finalInputTargetState;
-@property(readonly, nonatomic) PKTextInputHandwritingShot *handwritingShot; // @synthesize handwritingShot=_handwritingShot;
-@property(nonatomic) _Bool hasPendingUncommittedChanges; // @synthesize hasPendingUncommittedChanges=_hasPendingUncommittedChanges;
-@property(readonly, nonatomic) long long immediateCommitType; // @synthesize immediateCommitType=_immediateCommitType;
-@property(copy, nonatomic) PKTextInputTargetState *initialInputTargetState; // @synthesize initialInputTargetState=_initialInputTargetState;
-@property(readonly, nonatomic) CHTextInputQueryItem *queryItem; // @synthesize queryItem=_queryItem;
-@property(nonatomic) _Bool resultedInTargetChange; // @synthesize resultedInTargetChange=_resultedInTargetChange;
-@property(readonly, nonatomic) PKTextInputElementContent *targetElementContent; // @synthesize targetElementContent=_targetElementContent;
 
 @end
 

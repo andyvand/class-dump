@@ -7,10 +7,6 @@
 @interface AppStoreKit.ProductPageLink
 {
     id text;
-    id clickAction;
-    id systemImageName;
-    id id;
-    id artwork;
 }
 
 @end

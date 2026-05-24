@@ -5,12 +5,10 @@
 //
 
 @class NSUUID;
-@protocol PKPersona;
 
 @protocol PKLaunchRequest
 
 // Remaining properties
-@property(readonly) id <PKPersona> launchPersona;
 @property(readonly, copy) NSUUID *uuid;
 @end
 

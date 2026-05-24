@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIWindow;
+@class UIWindow;
 @protocol AKAuthenticationUIProviderMacHelper;
 
 @interface AKAuthenticationUIProviderImp
 {
     id <AKAuthenticationUIProviderMacHelper> _authenticationUIHelper;
-    _Bool _makeSheetCritical;
-    UIWindow *_hostWindow;
-    UIImage *_displayImage;
 }
 
-- (void);
+- (void)a`ha@haN;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)ntDevice;
+- (void)6^;
+- (void)sions/A/RunningBoardServices;
+- (id)kCDPAnalyticsIsCurrentDevice;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
-@property(readonly) Class superclass;
 
 @end
 

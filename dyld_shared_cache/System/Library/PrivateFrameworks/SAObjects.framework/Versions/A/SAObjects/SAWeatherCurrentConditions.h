@@ -6,40 +6,40 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, SAWeatherBarometricPressure, SAWeatherCondition, SAWeatherWindSpeed;
+@class SAWeatherBarometricPressure;
 
 @interface SAWeatherCurrentConditions : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void)_;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)available for the current model.;
+- (id)<ShortlistLangPairs>;
 - (id);
 - (id);
 - (id);
@@ -49,36 +49,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)Dictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (id)Name;
+- (void)!;
+- (void)snippetTemplateWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)CarName;
 
 // Remaining properties
 @property(retain, nonatomic) SAWeatherBarometricPressure *barometricPressure;
-@property(retain, nonatomic) SAWeatherCondition *condition;
-@property(copy, nonatomic) NSNumber *dayOfWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *dewPoint;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *heatIndex;
-@property(copy, nonatomic) NSString *moonPhase;
-@property(copy, nonatomic) NSString *percentHumidity;
-@property(copy, nonatomic) NSNumber *percentOfMoonFaceVisible;
-@property(copy, nonatomic) NSString *sunrise;
-@property(copy, nonatomic) NSString *sunset;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *temperature;
-@property(copy, nonatomic) NSString *timeOfObservation;
-@property(copy, nonatomic) NSString *timeZone;
-@property(copy, nonatomic) NSString *totalDailyPrecipitation;
-@property(copy, nonatomic) NSNumber *uvIndex;
-@property(copy, nonatomic) NSString *visibility;
-@property(copy, nonatomic) NSString *windChill;
-@property(retain, nonatomic) SAWeatherWindSpeed *windSpeed;
 
 @end
 

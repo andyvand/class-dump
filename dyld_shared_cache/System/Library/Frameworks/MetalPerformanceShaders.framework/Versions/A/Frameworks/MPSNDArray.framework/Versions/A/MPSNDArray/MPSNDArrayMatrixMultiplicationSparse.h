@@ -9,12 +9,9 @@
 @interface MPSNDArrayMatrixMultiplicationSparse : MPSNDArrayMultiaryKernel
 {
     _Bool _denseSparse;
-    _Bool _transposeSparse;
-    _Bool _structuredSparse;
-    unsigned int _sparseFormat;
 }
 
-+ (unsigned long long);
++ (unsigned long long)T;
 + (const struct MPSLibraryInfo *);
 - (id);
 - (_Bool);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool denseSparse; // @synthesize denseSparse=_denseSparse;
-@property(nonatomic) unsigned int sparseFormat; // @synthesize sparseFormat=_sparseFormat;
-@property(nonatomic) _Bool structuredSparse; // @synthesize structuredSparse=_structuredSparse;
-@property(nonatomic) _Bool transposeSparse; // @synthesize transposeSparse=_transposeSparse;
 
 @end
 

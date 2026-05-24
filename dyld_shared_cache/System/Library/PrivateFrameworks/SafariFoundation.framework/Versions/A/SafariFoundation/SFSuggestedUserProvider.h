@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFSuggestedUserProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_suggestedEmails;
-    NSArray *_suggestedNonEmails;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

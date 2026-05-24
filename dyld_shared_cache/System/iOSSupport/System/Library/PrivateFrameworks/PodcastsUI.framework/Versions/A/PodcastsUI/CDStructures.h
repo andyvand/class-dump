@@ -39,10 +39,10 @@ struct Point3D {
 };
 
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
@@ -73,44 +73,31 @@ struct vector<MTMPU::Point3D, std::allocator<MTMPU::Point3D>> {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int delegateStateChanged:1;
-    unsigned int delegateErrorDidOccur:1;
-    unsigned int delegateMediaTypeAvailable:1;
-    unsigned int delegateDurationAvailable:1;
-    unsigned int delegateCallbackForTime:1;
-    unsigned int delegatePeriodicUpdate:1;
-    unsigned int delegateHasDidChangePlayerItem:1;
-    unsigned int delegateHasDidStopPlayerItem:1;
-    unsigned int delegateHasDidEndedPlayerItem:1;
-    unsigned int delegateLoadedDurationChanged:1;
-    unsigned int delegateChapterStarted:1;
-    unsigned int delegateCurrentManifestItemChanged:1;
-} CDStruct_d823ae3d;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_3a089407;
 
 typedef struct {
-    double ascender;
-    _Bool isAscenderInitialized;
-    double bodyLeading;
-    _Bool isBodyLeadingInitialized;
-    double capHeight;
-    _Bool isCapHeightInitialized;
-    double descender;
-    _Bool isDescenderInitialized;
-    double lineHeight;
-    _Bool isLineHeightInitialized;
-} CDStruct_1aa0583f;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
-
-typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 
 // Template types
 typedef struct vector<MTMPU::Point3D, std::allocator<MTMPU::Point3D>> {

@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPresentationContext, NSMutableArray, UIViewPropertyAnimator;
-@protocol AVTransitionDelegate, UIViewControllerContextTransitioningEx;
+@protocol UIViewControllerContextTransitioningEx;
 
 __attribute__((visibility("hidden")))
 @interface AVTransition
 {
     struct CGAffineTransform _destinationViewTransform;
-    AVPresentationContext *_presentationContext;
-    id <AVTransitionDelegate> _delegate;
-    id <UIViewControllerContextTransitioningEx> _transitionContext;
-    UIViewPropertyAnimator *_transitionAnimator;
-    UIViewPropertyAnimator *_clientAnimator;
-    NSMutableArray *_allAnimators;
 }
 
 - (void);
 - (double);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)a7M.;
 - (void);
 - (struct CGAffineTransform);
 - (void);
 - (struct CGRect);
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -48,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)bjectProxyWithErrorHandler error:%@ /* Error: Ran out of types for this method. */;
 - (void)!ìGù1[Ð1Â0@ù
 × ;
 - (void)&,N,V_contentView;
@@ -56,12 +49,6 @@ __attribute__((visibility("hidden")))
 - (void)s];
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *allAnimators; // @synthesize allAnimators=_allAnimators;
-@property(readonly, nonatomic) UIViewPropertyAnimator *clientAnimator; // @synthesize clientAnimator=_clientAnimator;
-@property(nonatomic) __weak id <AVTransitionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(readonly, nonatomic) UIViewPropertyAnimator *transitionAnimator; // @synthesize transitionAnimator=_transitionAnimator;
-@property(readonly, nonatomic) double transitionAnimatorProgress;
 @property(readonly, nonatomic) __weak id <UIViewControllerContextTransitioningEx> transitionContext; // @synthesize transitionContext=_transitionContext;
 
 @end

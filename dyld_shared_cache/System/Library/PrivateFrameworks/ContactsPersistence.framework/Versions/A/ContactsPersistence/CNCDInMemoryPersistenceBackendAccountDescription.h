@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface CNCDInMemoryPersistenceBackendAccountDescription
 {
     _Bool _writable;
-    NSString *_name;
-    long long _type;
 }
 
 - (id);
-- (id);
+- (id)XPCAutomaticErrorProxy started out with invalid object;
 - (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, getter=isWritable) _Bool writable; // @synthesize writable=_writable;
 
 @end
 

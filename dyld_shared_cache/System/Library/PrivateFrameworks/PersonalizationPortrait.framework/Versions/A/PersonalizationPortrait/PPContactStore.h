@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPClientFeedbackHelper, PPRecordMonitoringHelper;
+@class NSString, PPRecordMonitoringHelper;
 
 @interface PPContactStore
 {
     PPRecordMonitoringHelper *_monitoringHelper;
-    PPClientFeedbackHelper *_clientFeedbackHelper;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_availableSpace;
 - (void);
 - (id);
 - (void)Lüÿ(ça;

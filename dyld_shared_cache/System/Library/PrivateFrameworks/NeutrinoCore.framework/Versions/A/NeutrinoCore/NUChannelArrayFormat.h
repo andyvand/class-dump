@@ -26,7 +26,7 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (void)mat;
+- (void)videoMetadataFormat;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelFormat *itemFormat; // @synthesize itemFormat=_itemFormat;

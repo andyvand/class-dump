@@ -10,11 +10,11 @@
 
 + (_Bool);
 + (Class);
-+ (Class);
++ (Class)(;
 + (Class);
 + (long long)N,V_supportedChargingConnectors;
 - (id);
-- (id)AccountType:(id)arg1;
+- (id)StringAsAccountType:(id)arg1;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, PFStoryRecipeDisplayAssetNormalization;
+@class CIImage;
 
 @interface PIColorNormalizationFilter
 {
     CIImage *inputImage;
-    PFStoryRecipeDisplayAssetNormalization *inputNormalization;
 }
 
 + (_Bool);
@@ -23,12 +22,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)parityInput:disparityKeyframes:apertureKeyframes:debugMode:error: /* Error: Ran out of types for this method. */;
+- (void)portraitVideo:disparityInput:disparityKeyframes:apertureKeyframes:debugMode:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) PFStoryRecipeDisplayAssetNormalization *inputNormalization; // @synthesize inputNormalization;
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *outputNormalization;
 
 @end
 

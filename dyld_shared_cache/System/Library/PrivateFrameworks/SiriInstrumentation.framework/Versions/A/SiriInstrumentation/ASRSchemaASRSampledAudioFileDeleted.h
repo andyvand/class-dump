@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRSampledAudioFileDeleted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    _Bool _hasOriginalAsrId;
 }
 
 - (void);
@@ -26,14 +25,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)eakingContext;
+- (id)ueiUserSpeakingContext;
 - (id)PT,Ppà;
-- (id)ionAssistantIds;
+- (id)sessionAssistantIds;
 - (void)t3«ÿ­Ä­êÉ&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

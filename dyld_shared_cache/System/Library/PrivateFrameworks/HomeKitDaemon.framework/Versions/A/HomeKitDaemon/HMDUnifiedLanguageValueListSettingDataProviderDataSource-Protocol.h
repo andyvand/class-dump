@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol HMDUnifiedLanguageValueListSettingDataProviderDataSource
+- (NSArray *)istoryEntryStorage",&,N,V_searchRequest;
 @end
 

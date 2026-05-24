@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRKRenewAppleIDCredentialsRequest
 {
     _Bool _force;
-    NSString *_reason;
 }
 
 + (_Bool);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool force; // @synthesize force=_force;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

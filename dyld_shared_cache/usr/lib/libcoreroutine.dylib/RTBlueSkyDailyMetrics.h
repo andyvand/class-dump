@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface RTBlueSkyDailyMetrics
 {
     RTDefaultsManager *_defaultsManager;
-    NSMutableDictionary *_metrics;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)d request ignored;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)ut;
+- (id)RTDefaultsSMWatchdogCacheReleaseStateTimeout;
 - (void)ransition, tripSegmentVisitStatus[%ld], start/stop dates:%@, %@, Passthrough /* Error: Ran out of types for this method. */;
 - (id)efreshDate, %@, updatedLocationDate, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

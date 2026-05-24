@@ -6,42 +6,35 @@
 
 #import <AVFCore/AVCaptionRegion.h>
 
-@class AVCaptionLength, AVCaptionPosition, AVMutableCaptionRegionInternal;
+@class AVCaptionPosition, AVMutableCaptionRegionInternal;
 
 @interface AVMutableCaptionRegion : AVCaptionRegion
 {
     AVMutableCaptionRegionInternal *_mutableInternal;
 }
 
-- (long long);
+- (long long)isEqualToArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (struct AVCaptionSize);
+- (struct AVCaptionSize)DeviceUpdatedHandler;
 - (id);
 - (id);
 - (void);
 - (id);
-- (struct AVCaptionPoint);
-- (void);
+- (struct AVCaptionPoint)uuid;
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long displayAlignment;
-@property(copy, nonatomic) AVCaptionPosition *endPosition;
-@property(copy, nonatomic) AVCaptionLength *height;
-@property(nonatomic) struct AVCaptionPoint origin;
 @property(copy, nonatomic) AVCaptionPosition *position;
-@property(nonatomic) long long scroll;
-@property(nonatomic) struct AVCaptionSize size;
-@property(nonatomic) long long writingMode;
 
 @end
 

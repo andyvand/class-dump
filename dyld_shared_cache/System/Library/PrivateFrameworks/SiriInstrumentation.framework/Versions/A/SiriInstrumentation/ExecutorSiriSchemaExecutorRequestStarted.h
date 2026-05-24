@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorRequestStarted : SISchemaInstrumentationMessage
 {
     int _inputPayload;
-    struct {
-        unsigned int inputPayload:1;
-    } _has;
 }
 
 - (void);
@@ -21,20 +16,18 @@
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id)|;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)TT"b1"handShakeDuration"b1};
-- (id)text;
+- (id)SISchemaTapToEditInvocationContext;
 - (id)@Ä8);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInputPayload;
 @property(nonatomic) int inputPayload; // @synthesize inputPayload=_inputPayload;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

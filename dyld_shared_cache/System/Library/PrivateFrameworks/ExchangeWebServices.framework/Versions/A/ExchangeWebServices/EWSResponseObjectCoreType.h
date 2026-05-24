@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void))!;
 
 // Remaining properties
 @property(retain, nonatomic) EWSItemIdType *ReferenceItemId; // @synthesize ReferenceItemId=_ReferenceItemId;

@@ -8,22 +8,21 @@ __attribute__((visibility("hidden")))
 @interface WDRubyProperties
 {
     unsigned int mOriginal:1;
-    CDStruct_1cdbed2b *mOriginalProperties;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)nM9;
 - (void);
 - (int);
 - (unsigned short);
+- (_Bool)R(;
 - (_Bool);
 - (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,14 +34,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void)ericFormatterForNumberOfSignificantDigits:(int)arg1;
+- (void)_genericFormatterForNumberOfSignificantDigits:(int)arg1;
 
 // Remaining properties
 @property(nonatomic) int alignment;
-@property(nonatomic) unsigned short baseFontSize;
-@property(nonatomic) unsigned short distanceBetween;
-@property(nonatomic) unsigned short phoneticGuideFontSize;
-@property(nonatomic) int phoneticGuideLanguage;
 
 @end
 

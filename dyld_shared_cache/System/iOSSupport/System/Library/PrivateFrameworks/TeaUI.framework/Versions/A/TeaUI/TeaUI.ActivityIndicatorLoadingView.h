@@ -7,14 +7,11 @@
 @interface TeaUI.ActivityIndicatorLoadingView
 {
     id activityIndicatorView;
-    id label;
-    id keyboardInfo;
-    id overrideColor;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ShortcutSecure;
+- (id)setVideoComplete25ClickValue:(struct CGRect)arg1;
 - (void);
 
 @end

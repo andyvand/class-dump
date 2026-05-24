@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id)GT;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)hj�|n�a;
 - (id);
 - (id);
 - (void);

@@ -14,26 +14,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)}};
+- (double);
+- (double);
+- (double)p;
+- (double);
+- (double);
+- (double)};
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (struct CGPoint);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct);
+- (id)senders:%@ /* Error: Ran out of types for this method. */;
+- (id)d in time:%f /* Error: Ran out of types for this method. */;
+- (struct CGPoint)n't IMDIDS (%@), can't determine region -- falling through.;
+- (double)ering.;
+- (double)sage class]];
+- (struct UIEdgeInsets)erCommandPipelineParameter %p; GUID = %@; stickerEditedMessageGUID = %@; isFromStorage = %@; isLastFromStorage = %@; OUTPUT chat = %@;;
+- (struct UIEdgeInsets)ReplicationReceiveDelayInSeconds;
+- (double)IMDOffGridAvailabilityTracker;
+- (CDStruct_cccd6e1b)IMDCollaborationNoticeController init];
 - (id);
 - (double);
 - (double);
@@ -44,12 +44,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint)á	ð!°GùQfÐ1Â0@ù
 × ;
-- (struct CGPoint)ction;
-- (struct CGPoint)arginsRelativeArrangement;
-- (struct CGPoint)Collection: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldShowGestureKeyboardIntroduction;
+- (struct CGPoint)layoutMarginsRelativeArrangement;
+- (struct CGPoint)_refreshVisualProviderForTraitCollection: /* Error: Ran out of types for this method. */;
 - (double)stureRecognizer",&,N,V_actionSelectionGestureRecognizer;
 - (struct UIEdgeInsets);
-- (double)uttonConfigurationSubtitleLineBreakMode;
+- (double)UIButtonConfigurationSubtitleLineBreakMode;
 
 @end
 

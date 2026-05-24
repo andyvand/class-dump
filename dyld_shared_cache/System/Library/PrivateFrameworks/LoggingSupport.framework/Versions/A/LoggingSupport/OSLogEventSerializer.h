@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSPredicate, OSLogEventSource, OSLogEventStream, _OSLogEventSerializationMetadata;
-@protocol OS_dispatch_queue;
+@class OSLogEventSource, OSLogEventStream;
 
 @interface OSLogEventSerializer
 {
     OSLogEventStream *_stream;
-    unsigned long long _maxLogEventBatchSize;
-    unsigned long long _curBatchSize;
-    NSMutableArray *_curBatchDictionaries;
-    _OSLogEventSerializationMetadata *_metadata;
-    unsigned long long _serializedEventCount;
-    CDUnknownBlockType _argumentRedactionBlock;
-    NSMutableDictionary *_subsystemToCategories;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (void)addExtension:(unsigned long long)arg1 value: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)q;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)drawingUpdateAllPoints;
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)@:(id)arg1 %p> "%@";
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -55,18 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType argumentRedactionBlock; // @synthesize argumentRedactionBlock=_argumentRedactionBlock;
-@property(readonly, nonatomic) NSMutableArray *curBatchDictionaries; // @synthesize curBatchDictionaries=_curBatchDictionaries;
-@property(nonatomic) unsigned long long curBatchSize; // @synthesize curBatchSize=_curBatchSize;
-@property(copy, nonatomic) NSPredicate *filterPredicate;
-@property(nonatomic) unsigned long long flags;
-@property(nonatomic) unsigned long long maxLogEventBatchSize; // @synthesize maxLogEventBatchSize=_maxLogEventBatchSize;
-@property(readonly, nonatomic) _OSLogEventSerializationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) unsigned long long serializedEventCount; // @synthesize serializedEventCount=_serializedEventCount;
 @property(readonly, nonatomic) OSLogEventSource *source;
-@property(readonly, nonatomic) OSLogEventStream *stream; // @synthesize stream=_stream;
-@property(readonly, nonatomic) NSMutableDictionary *subsystemToCategories; // @synthesize subsystemToCategories=_subsystemToCategories;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *target;
 
 @end
 

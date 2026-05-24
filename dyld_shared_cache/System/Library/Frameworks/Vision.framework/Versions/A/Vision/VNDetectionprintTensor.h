@@ -26,7 +26,7 @@
 + (id)3;
 - (id);
 - (id);
-- (id);
+- (id)addCharactersInRange:(id)arg1;
 - (void);
 - (id);
 - (void)image descriptor;

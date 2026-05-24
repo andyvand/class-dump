@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAVAssetDownloadManager, FCArticleListRecordSource, FCArticleRecordSource, FCAudioConfigRecordSource, FCCKContentDatabase, FCChannelMembershipController, FCFeedDatabase, FCFeedPrewarmer, FCForYouConfigRecordSource, FCIssueListRecordSource, FCIssueRecordSource, FCNotificationItemListRecordSource, FCNotificationItemRecordSource, FCPurchaseLookupRecordSource, FCPuzzleRecordSource, FCPuzzleTypeRecordSource, FCRecipeListRecordSource, FCRecipeRecordSource, FCResourceRecordSource, FCTagListRecordSource, FCTagRecordSource, FCWidgetSectionConfigRecordSource, NSArray;
+@class FCAVAssetDownloadManager, FCArticleRecordSource, FCFeedDatabase, FCFeedPrewarmer, FCNotificationItemListRecordSource, FCPuzzleTypeRecordSource, NSArray;
 @protocol FCAVAssetCacheType, FCAVAssetFactoryType, FCAVAssetKeyCacheType, FCAssetKeyCacheType, FCAssetKeyManagerType;
 
 @protocol FCContentContextInternal
-- (FCFeedDatabase *)figurations;
+- (FCNotificationItemListRecordSource *)P;
+- (NSArray *);
+- (FCPuzzleTypeRecordSource *)ance.;
+- (FCFeedPrewarmer *)nformation;
+- (id <FCAssetKeyCacheType>)writeToFile:atomically: /* Error: Ran out of types for this method. */;
+- (FCFeedDatabase *)aggregateModificationConfigurations;
 - (id <FCAVAssetKeyCacheType>)ublic}@ notificationsUserID:%{public}@ storefrontID:%{public}@ /* Error: Ran out of types for this method. */;
 - (FCAVAssetDownloadManager *)UID for device identifier;
 - (id <FCAVAssetFactoryType>)on will stream %lu feed requests, leaving %lu for a subsequent pass due to request limit;
@@ -16,33 +21,6 @@
 - (id <FCAssetKeyManagerType>);
 
 // Remaining properties
-@property(readonly, nonatomic) FCArticleListRecordSource *articleListRecordSource;
 @property(readonly, nonatomic) FCArticleRecordSource *articleRecordSource;
-@property(readonly, nonatomic) id <FCAssetKeyCacheType> assetKeyCache;
-@property(readonly, nonatomic) id <FCAssetKeyManagerType> assetKeyManager;
-@property(readonly, nonatomic) FCAudioConfigRecordSource *audioConfigRecordSource;
-@property(readonly, nonatomic) id <FCAVAssetCacheType> avAssetCache;
-@property(readonly, nonatomic) FCAVAssetDownloadManager *avAssetDownloadManager;
-@property(readonly, nonatomic) id <FCAVAssetFactoryType> avAssetFactory;
-@property(readonly, nonatomic) id <FCAVAssetKeyCacheType> avAssetKeyCache;
-@property(readonly, nonatomic) FCChannelMembershipController *channelMembershipController;
-@property(readonly, nonatomic) FCCKContentDatabase *contentDatabase;
-@property(readonly) FCFeedDatabase *feedDatabase;
-@property(readonly, nonatomic) FCFeedPrewarmer *feedPrewarmer;
-@property(readonly, nonatomic) FCForYouConfigRecordSource *forYouConfigRecordSource;
-@property(readonly, nonatomic) FCIssueListRecordSource *issueListRecordSource;
-@property(readonly, nonatomic) FCIssueRecordSource *issueRecordSource;
-@property(readonly, nonatomic) FCNotificationItemListRecordSource *notificationItemListRecordSource;
-@property(readonly, nonatomic) FCNotificationItemRecordSource *notificationItemRecordSource;
-@property(readonly, nonatomic) FCPurchaseLookupRecordSource *purchaseLookupRecordSource;
-@property(readonly, nonatomic) FCPuzzleRecordSource *puzzleRecordSource;
-@property(readonly, nonatomic) FCPuzzleTypeRecordSource *puzzleTypeRecordSource;
-@property(readonly, nonatomic) FCRecipeListRecordSource *recipeListRecordSource;
-@property(readonly, nonatomic) FCRecipeRecordSource *recipeRecordSource;
-@property(readonly, nonatomic) NSArray *recordSources;
-@property(readonly, nonatomic) FCResourceRecordSource *resourceRecordSource;
-@property(readonly, nonatomic) FCTagListRecordSource *tagListRecordSource;
-@property(readonly, nonatomic) FCTagRecordSource *tagRecordSource;
-@property(readonly, nonatomic) FCWidgetSectionConfigRecordSource *widgetSectionConfigRecordSource;
 @end
 

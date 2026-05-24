@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFDigest, NSURL, NSUUID;
+@class NSURL;
 
 @interface HMSoftwareUpdateDocumentationMetadata
 {
     NSURL *_URL;
-    HMFDigest *_digest;
-    NSUUID *_metadataDigestUUID;
 }
 
 + (_Bool);
@@ -21,16 +19,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ethnological;
 - (void);
 - (id);
-- (void)ientRequestHandlerOptions;
-- (id);
+- (void)HMMMClientRequestHandlerOptions;
+- (id)kTriggerOwnedActionSetKey;
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) HMFDigest *digest; // @synthesize digest=_digest;
-@property(readonly, copy) NSUUID *metadataDigestUUID; // @synthesize metadataDigestUUID=_metadataDigestUUID;
 
 @end
 

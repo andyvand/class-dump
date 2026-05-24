@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFDeviceContextHistoryConfiguration
 {
     _Bool _keepsHistory;
-    unsigned long long _historyBufferSize;
 }
 
 + (id);
 + (_Bool);
+- (id)productTimeZone;
+- (unsigned long long)_;
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -26,20 +23,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)memberInfoData;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long historyBufferSize; // @synthesize historyBufferSize=_historyBufferSize;
 @property(readonly, nonatomic) _Bool keepsHistory; // @synthesize keepsHistory=_keepsHistory;
-@property(readonly) Class superclass;
 
 @end
 

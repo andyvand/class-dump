@@ -7,10 +7,9 @@
 @class NSData, _SFPBSportsItem;
 
 @protocol _SFPBUpdateSportsFollowingStatusCommand
+- (NSData *)entifier;
 
 // Remaining properties
-@property(nonatomic) _Bool follow;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsItem *sportsItem;
 @end
 

@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)_removeBannedURLStringsAndRecomputeTopSitesAfterDelay: /* Error: Ran out of types for this method. */;
+- (id)_removeBadDuplicateItemIdentifiersFromToolbarConfigurationWithIdentifier:(SEL)arg1;
+- (id)_removeBackgroundLoadFromUncommittedUniqueBackgroundLoads:(SEL)arg1;
+- (Class)_removeAddExtensionsView;
+- (unsigned long long)SDictionary"32^v40;
+- (unsigned long long);
+- (_Bool)gate>",W,V_delegate;
+- (_Bool)p;
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

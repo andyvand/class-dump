@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdActivityLogEvent
 {
     _Bool _activeDay;
-    unsigned long long _requestCount;
-    unsigned long long _activeDeviceCount;
-    unsigned long long _numReadSiri;
-    unsigned long long _numWriteSiri;
-    unsigned long long _numReadFirstPartyApp;
-    unsigned long long _numWriteFirstPartyApp;
-    unsigned long long _numReadThirdPartyApp;
-    unsigned long long _numWriteThirdPartyApp;
-    unsigned long long _numAccessoriesAdded;
-    unsigned long long _numScenesAdded;
-    unsigned long long _numTriggersAdded;
-    unsigned long long _numShortcutsAdded;
-    unsigned long long _numScenesUserRun;
-    unsigned long long _numShortcutsRun;
-    unsigned long long _numTriggersFired;
-    unsigned long long _cameraStreamStartSuccessCount;
-    unsigned long long _cameraStreamStartFailureCount;
-    unsigned long long _fetchCameraClipVideoSegmentAssetCount;
-    unsigned long long _activeDaysBitField;
-    long long _countOfDaysSinceLastActive;
-    long long _activeDaysPerMonthCount;
-    NSArray *_contributors;
 }
 
 + (id);
@@ -50,29 +28,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Service"16@"IDSAccount"24@"NSString"32@40;
+- (void)"IDSAccount"24@"NSString"32q40q48;
+- (void)ictionary"16@"NSString"24;
+- (void)40;
+- (void)ictionary"24@"NSString"32@"NSError"40;
+- (void)hIDQueryController"16@"NSDictionary"24@"NSString"32@"NSError"40;
+- (id)@0:8 /* Error: Ran out of types for this method. */;
+- (unsigned long long)MSPContainerCoalescingToken;
+- (unsigned long long)MSPContainerCoalescingToken;
+- (unsigned long long)MSPContainer;
+- (unsigned long long)MSPSharedTripFetchedCapabilityStatus;
+- (unsigned long long)MSPHistoryEntryStorage;
+- (unsigned long long);
+- (unsigned long long)IDSBatchIDQueryControllerDelegate;
+- (unsigned long long)MSPSharedTripIDSCapabilityFetchingQueue;
+- (unsigned long long)MSPHistoryEntrySearch;
+- (unsigned long long)MSPTransferableToImmutable;
+- (unsigned long long)MSPIdentifiable;
+- (unsigned long long);
+- (_Bool)rmEditWithStateTransformation:containerEdit:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (unsigned long long);
@@ -86,56 +64,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void)dedNotification;
+- (void)A;
+- (void)HMDAccessoryServiceAddedNotification;
 - (unsigned long long)l[?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(getter=isActiveDay) _Bool activeDay; // @synthesize activeDay=_activeDay;
-@property unsigned long long activeDaysBitField; // @synthesize activeDaysBitField=_activeDaysBitField;
-@property long long activeDaysPerMonthCount; // @synthesize activeDaysPerMonthCount=_activeDaysPerMonthCount;
-@property unsigned long long activeDeviceCount; // @synthesize activeDeviceCount=_activeDeviceCount;
-@property unsigned long long cameraStreamStartFailureCount; // @synthesize cameraStreamStartFailureCount=_cameraStreamStartFailureCount;
-@property unsigned long long cameraStreamStartSuccessCount; // @synthesize cameraStreamStartSuccessCount=_cameraStreamStartSuccessCount;
 @property(readonly, nonatomic) NSArray *contributors; // @synthesize contributors=_contributors;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property long long countOfDaysSinceLastActive; // @synthesize countOfDaysSinceLastActive=_countOfDaysSinceLastActive;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long fetchCameraClipVideoSegmentAssetCount; // @synthesize fetchCameraClipVideoSegmentAssetCount=_fetchCameraClipVideoSegmentAssetCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property unsigned long long numAccessoriesAdded; // @synthesize numAccessoriesAdded=_numAccessoriesAdded;
-@property unsigned long long numReadFirstPartyApp; // @synthesize numReadFirstPartyApp=_numReadFirstPartyApp;
-@property unsigned long long numReadSiri; // @synthesize numReadSiri=_numReadSiri;
-@property unsigned long long numReadThirdPartyApp; // @synthesize numReadThirdPartyApp=_numReadThirdPartyApp;
-@property unsigned long long numScenesAdded; // @synthesize numScenesAdded=_numScenesAdded;
-@property unsigned long long numScenesUserRun; // @synthesize numScenesUserRun=_numScenesUserRun;
-@property unsigned long long numShortcutsAdded; // @synthesize numShortcutsAdded=_numShortcutsAdded;
-@property unsigned long long numShortcutsRun; // @synthesize numShortcutsRun=_numShortcutsRun;
-@property unsigned long long numTriggersAdded; // @synthesize numTriggersAdded=_numTriggersAdded;
-@property unsigned long long numTriggersFired; // @synthesize numTriggersFired=_numTriggersFired;
-@property unsigned long long numWriteFirstPartyApp; // @synthesize numWriteFirstPartyApp=_numWriteFirstPartyApp;
-@property unsigned long long numWriteSiri; // @synthesize numWriteSiri=_numWriteSiri;
-@property unsigned long long numWriteThirdPartyApp; // @synthesize numWriteThirdPartyApp=_numWriteThirdPartyApp;
-@property unsigned long long requestCount; // @synthesize requestCount=_requestCount;
-@property(readonly) Class superclass;
 
 @end
 

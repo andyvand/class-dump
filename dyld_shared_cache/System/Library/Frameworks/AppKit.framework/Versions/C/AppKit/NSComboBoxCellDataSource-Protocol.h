@@ -5,5 +5,8 @@
 //
 
 @protocol NSComboBoxCellDataSource
+
+@optional
+- (long long)st property != fdrDecode->manifestUniqueID;
 @end
 

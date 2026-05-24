@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadGoodnessScoreOverrideState, AFMyriadPerceptualAudioHash;
-
 @interface AFMyriadContext
 {
     unsigned long long _timestamp;
-    AFMyriadPerceptualAudioHash *_perceptualAudioHash;
-    AFMyriadGoodnessScoreOverrideState *_overrideState;
-    long long _activationSource;
-    unsigned long long _activationExpirationTime;
 }
 
 + (id);
@@ -22,24 +16,20 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)erviceArchiver>",R,N;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long),;
+- (id)5;
 - (_Bool);
 - (void);
 - (id);
 - (void)FSpeechPackage",R,N,V_potentialCommandUtterance;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activationExpirationTime; // @synthesize activationExpirationTime=_activationExpirationTime;
-@property(readonly, nonatomic) long long activationSource; // @synthesize activationSource=_activationSource;
-@property(readonly, copy, nonatomic) AFMyriadGoodnessScoreOverrideState *overrideState; // @synthesize overrideState=_overrideState;
-@property(readonly, copy, nonatomic) AFMyriadPerceptualAudioHash *perceptualAudioHash; // @synthesize perceptualAudioHash=_perceptualAudioHash;
 @property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

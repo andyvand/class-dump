@@ -7,11 +7,6 @@
 @interface AppStoreKit.FlowAuthorityProvider
 {
     id _selectedTabId;
-    id _flowAuthority;
-    id _tabs;
-    id tabsInfoProvider;
-    id objectGraph;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,12 +7,11 @@
 @interface ConversationKit.RestrictedConversationChecker
 {
     id callFilterController;
-    id unrestrictedAddressesForConversation;
 }
 
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)s;
 - (void)¸£üÿ¤Jüÿ;
 
 @end

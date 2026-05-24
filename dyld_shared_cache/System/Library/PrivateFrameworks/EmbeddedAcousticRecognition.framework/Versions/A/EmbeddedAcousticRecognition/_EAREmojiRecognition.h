@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiLocaleData, EMFEmojiPreferencesClient, NSArray;
+@class EMFEmojiPreferencesClient;
 
 @interface _EAREmojiRecognition
 {
     EMFEmojiPreferencesClient *_preferences;
-    EMFEmojiLocaleData *_localeData;
-    NSArray *_frequentEmojis;
-    struct __EmojiLocaleDataWrapper *_cemlocaleRef;
-    _Bool _isEmojiPersonalizationUsed;
-    _Bool _isEmojiDisambiguationUsed;
-    _Bool _isLocaleRTL;
 }
 
 + (void)=;
@@ -27,18 +21,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id)Versions/A/CoreGraphics;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEmojiDisambiguationUsed; // @synthesize isEmojiDisambiguationUsed=_isEmojiDisambiguationUsed;
 @property(readonly, nonatomic) _Bool isEmojiPersonalizationUsed; // @synthesize isEmojiPersonalizationUsed=_isEmojiPersonalizationUsed;
-@property(readonly, nonatomic) _Bool isLocaleRTL; // @synthesize isLocaleRTL=_isLocaleRTL;
 
 @end
 

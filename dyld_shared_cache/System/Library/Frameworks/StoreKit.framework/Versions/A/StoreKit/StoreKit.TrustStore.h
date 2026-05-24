@@ -7,10 +7,6 @@
 @interface StoreKit.TrustStore
 {
     id $defaultActor;
-    id cache;
-    id inProgressTasks;
-    id lowMemoryTask;
-    id memoryPressure;
 }
 
 @end

@@ -7,7 +7,7 @@
 @interface UnknownClass (PKPath)
 - (void);
 - (struct CGVector);
-- (void);
+- (void)#;
 - (struct CGPoint);
 - (void);
 - (struct CGSize);

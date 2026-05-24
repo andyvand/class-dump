@@ -9,23 +9,17 @@
 @interface NSFileProviderSearch
 {
     NSString *_spotlightQueryString;
-    NSString *_scopedToItemIdentifier;
-    NSString *_searchContainerItemIdentifier;
-    NSFileProviderSearchQuery *_legacySearchQuery;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSFileProviderSearchQuery *legacySearchQuery;
-@property(readonly, copy, nonatomic) NSString *scopedToItemIdentifier; // @synthesize scopedToItemIdentifier=_scopedToItemIdentifier;
-@property(readonly, copy, nonatomic) NSString *searchContainerItemIdentifier; // @synthesize searchContainerItemIdentifier=_searchContainerItemIdentifier;
-@property(readonly, copy, nonatomic) NSString *spotlightQueryString; // @synthesize spotlightQueryString=_spotlightQueryString;
 
 @end
 

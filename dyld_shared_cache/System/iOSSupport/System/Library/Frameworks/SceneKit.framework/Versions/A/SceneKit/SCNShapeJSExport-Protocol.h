@@ -5,12 +5,12 @@
 //
 
 @protocol SCNShapeJSExport
+- (double);
+- (void)R;
+- (void)ift_Concurrency.dylib;
+- (id)hProvider;
 
 // Remaining properties
-@property(nonatomic) long long chamferMode;
-@property(copy, nonatomic) id chamferProfile;
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) double extrusionDepth;
 @property(copy, nonatomic) id path;
 @end
 

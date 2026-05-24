@@ -5,5 +5,8 @@
 //
 
 @protocol PrintdRPCProtocol
+- (void)~�i~�`";
+- (void)jl9;
+- (void);
 @end
 

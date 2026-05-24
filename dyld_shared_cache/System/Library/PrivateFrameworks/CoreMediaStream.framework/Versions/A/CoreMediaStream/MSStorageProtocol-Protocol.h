@@ -5,5 +5,7 @@
 //
 
 @protocol MSStorageProtocol
+- (void)packet relay with error %{public}@;
+- (void)recoverable framing issue. Closing socket.;
 @end
 

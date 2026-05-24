@@ -6,21 +6,18 @@
 
 #import <GameController/_GCDevicePhysicalInputBase.h>
 
-@class _GCDevicePhysicalInput, _GCDevicePhysicalInputChangedElementsEnumerator;
+@class _GCDevicePhysicalInput;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputTransaction : _GCDevicePhysicalInputBase
 {
     _GCDevicePhysicalInput *_physicalInput;
-    unsigned long long _lastEventHostTimestamp;
-    _GCDevicePhysicalInputChangedElementsEnumerator *_changedElements;
-    _Bool _updateContextsValid;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)H;
 - (_Bool)8@"NSSet"16;
 - (_Bool);
 

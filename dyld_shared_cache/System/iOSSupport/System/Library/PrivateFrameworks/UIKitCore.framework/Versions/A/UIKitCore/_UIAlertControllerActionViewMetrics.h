@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
     double _labelTextWidth;
 }
 
-- (void);
-- (void);
-- (double);
+- (void)count:(double)arg1 accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)existingChatForIDs:(double)arg1 account:displayName:originalGroupID:style: /* Error: Ran out of types for this method. */;
+- (double)_receiptVersion;
 - (double);
 
 // Remaining properties

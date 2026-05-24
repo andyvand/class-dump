@@ -5,12 +5,10 @@
 //
 
 @protocol _INPBNumericSettingValue
+- (void);
 - (int)irikit.intent.payments.SendPaymentIntentResponse;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUnit;
-@property(nonatomic) _Bool hasValue;
 @property(nonatomic) int unit;
-@property(nonatomic) double value;
 @end
 

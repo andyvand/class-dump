@@ -9,17 +9,16 @@
 @interface GEOLogMsgStateMapsPlaceIds
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_placeIdDetails;
 }
 
-+ (Class);
-+ (_Bool)HikeDisclaimer:(id)arg1;
++ (Class)/;
++ (_Bool)setHasSupportHikeDisclaimer:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)}64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48 /* Error: Ran out of types for this method. */;
+- (void)observableWithInitialState:(id)arg1 condition:nextState:resultSelector:scheduler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -29,9 +28,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)ceSummaryFormatTypesCount;
+- (_Bool)X';
+- (void)kRXLanguageObjectProperty_TextVariants;
+- (id)supportedPlaceSummaryFormatTypesCount;
 - (id)sNetworkReachable;
 - (id)id*)0);
 - (id);
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *placeIdDetails;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

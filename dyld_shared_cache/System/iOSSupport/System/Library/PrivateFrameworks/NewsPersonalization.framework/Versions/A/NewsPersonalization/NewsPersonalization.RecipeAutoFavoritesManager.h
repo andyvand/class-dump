@@ -7,8 +7,6 @@
 @interface NewsPersonalization.RecipeAutoFavoritesManager
 {
     id service;
-    id persistence;
-    id resourceManager;
 }
 
 - (void);

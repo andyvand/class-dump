@@ -7,15 +7,11 @@
 @class NSArray, NSString;
 
 @protocol IMPinContextProviding
+- (NSArray *);
 - (NSString *)q¯1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName;
 @property(readonly, nonatomic, getter=isGroupChat) _Bool groupChat;
-@property(readonly, copy, nonatomic) NSString *groupID;
-@property(readonly, copy, nonatomic) NSArray *participantHandles;
-@property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly, nonatomic, getter=isSMS) _Bool sms;
 @end
 

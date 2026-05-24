@@ -9,16 +9,16 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)t:%p %@ playlistRequestEvents:%@ mediaSegmentRequestEvents:%@ contentKeyRequestEvents:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)10Properties;
 - (id);
-- (void);
+- (void)6@0:(long long)arg1 8;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

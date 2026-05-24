@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, PKContactResolver, PKPaymentAuthorizationCoordinator, PKPaymentPass, PKPeerPaymentAccount, PKPeerPaymentControllerInternalState, PKPeerPaymentPerformResponse, PKPeerPaymentQuote, PKPeerPaymentRecipient, PKPeerPaymentRequestToken, PKPeerPaymentWebService;
-@protocol OS_dispatch_group, OS_dispatch_queue, PKPeerPaymentControllerDelegate;
+@class PKPeerPaymentControllerInternalState, PKPeerPaymentWebService;
 
 @interface PKPeerPaymentController
 {
     PKPeerPaymentControllerInternalState *_is;
-    PKPeerPaymentAccount *_account;
-    PKPaymentPass *_peerPaymentPass;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _contactResolverLock;
-    PKContactResolver *_contactResolver;
-    PKPaymentAuthorizationCoordinator *_quoteAuthorizationCoordinator;
-    NSObject<OS_dispatch_group> *_quoteAuthorizationGroup;
-    NSObject<OS_dispatch_queue> *_quoteAuthorizationCallbackQueue;
-    _Bool _quoteAuthorizationSuccess;
-    NSError *_quoteAuthorizationError;
-    _Bool _performOnAuthorization;
-    NSObject<OS_dispatch_group> *_performQuoteGroup;
-    NSObject<OS_dispatch_queue> *_performQuoteCallbackQueue;
-    _Bool _performQuoteSuccess;
-    NSError *_performQuoteError;
-    PKPeerPaymentWebService *_webService;
-    id <PKPeerPaymentControllerDelegate> _delegate;
 }
 
 + (unsigned long long);
-+ (void);
++ (void)@9;
 + (_Bool);
-+ (_Bool);
++ (_Bool)?	;
 + (id);
 + (id);
 + (void);
@@ -42,26 +24,26 @@
 + (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)T_q`;
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)*;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)>;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -90,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -99,7 +81,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -113,44 +95,24 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long)	;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)_	;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void)ation;
+- (void)Validation;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPeerPaymentAccount *account;
-@property(readonly, nonatomic) _Bool allowsPaymentRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPeerPaymentControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long messagesContext;
-@property(readonly, nonatomic) unsigned long long mode;
-@property(readonly, nonatomic) PKPaymentPass *peerPaymentPass;
-@property(readonly, nonatomic) PKPeerPaymentPerformResponse *performQuoteResponse;
-@property(readonly, nonatomic) PKPeerPaymentQuote *quote;
-@property(readonly, copy, nonatomic) PKPeerPaymentRecipient *recipient;
-@property(readonly, nonatomic) PKPeerPaymentRequestToken *requestToken;
-@property(readonly, copy, nonatomic) NSString *senderPhoneOrEmail;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsGroupMessage;
 @property(readonly, nonatomic) PKPeerPaymentWebService *webService; // @synthesize webService=_webService;
 
 @end

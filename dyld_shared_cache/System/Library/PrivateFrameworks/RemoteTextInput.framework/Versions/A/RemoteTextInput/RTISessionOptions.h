@@ -7,12 +7,9 @@
 @interface RTISessionOptions
 {
     _Bool _shouldResign;
-    _Bool _animated;
-    _Bool _enhancedWindowingModeEnabled;
-    long long _offscreenDirection;
 }
 
-+ (id);
++ (id)EWSBodyTypeTypeDefinition;
 + (id);
 + (_Bool);
 + (id);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic) _Bool enhancedWindowingModeEnabled; // @synthesize enhancedWindowingModeEnabled=_enhancedWindowingModeEnabled;
-@property(nonatomic) long long offscreenDirection; // @synthesize offscreenDirection=_offscreenDirection;
 @property(nonatomic) _Bool shouldResign; // @synthesize shouldResign=_shouldResign;
 
 @end

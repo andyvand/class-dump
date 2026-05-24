@@ -9,7 +9,6 @@
 @interface EDMessageActionProvider
 {
     NSString *_ID;
-    NSString *_name;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *ID; // @synthesize ID=_ID;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

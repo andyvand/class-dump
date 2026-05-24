@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)orkNotShareable;
 - (int)all is in progress, ignore;
 
 @end

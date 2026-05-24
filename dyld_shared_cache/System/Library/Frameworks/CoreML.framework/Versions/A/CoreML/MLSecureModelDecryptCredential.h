@@ -10,10 +10,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void)PositionAttr;
 - (long long);
 - (id);
-- (void);
+- (void)?E;
 
 // Remaining properties
 @property(nonatomic) long long cryptoKey; // @synthesize cryptoKey=_cryptoKey;

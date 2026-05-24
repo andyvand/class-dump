@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_speechProfileId;
-    _Bool _hasSpeechProfileId;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)Gender;
+- (id)voiceGender;
 - (id)(;
 - (id);
 - (void)<¬ÿ-$´Ñ¸&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSpeechProfileId; // @synthesize hasSpeechProfileId=_hasSpeechProfileId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *speechProfileId; // @synthesize speechProfileId=_speechProfileId;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWebView;
+@class UIWebView;
 
 __attribute__((visibility("hidden")))
 @interface UIWebViewWebViewDelegate
@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIWebView *uiWebView;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)"16@"NSString"24;
+- (id)@"NSString"24B32B36q40q48;
+- (id)2Q40@"NSString"48C56@"NSString"60;
 - (id);
 - (void);
 - (void);
@@ -48,13 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

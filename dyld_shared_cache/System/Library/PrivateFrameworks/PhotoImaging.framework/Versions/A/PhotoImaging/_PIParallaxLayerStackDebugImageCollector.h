@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray;
-@protocol NUImageBuffer;
+@class CIImage;
 
 @interface _PIParallaxLayerStackDebugImageCollector
 {
     CIImage *_debugInputImage;
-    CIImage *_debugMatteImage;
-    CIImage *_debugMatteCropImage;
-    CIImage *_debugLocalConfidenceImage;
-    CIImage *_debugConfidenceMapImage;
-    CIImage *_debugInfillImage;
-    CIImage *_debugLayoutImage;
-    NSArray *_debugIntermediateLayoutImages;
-    CIImage *_debugPreviewImage;
-    CIImage *_debugColorAnalysisImage;
-    id <NUImageBuffer> _debugInputBuffer;
-    id <NUImageBuffer> _debugMatteBuffer;
-    id <NUImageBuffer> _debugMatteCropBuffer;
-    id <NUImageBuffer> _debugLocalConfidenceBuffer;
-    id <NUImageBuffer> _debugConfidenceMapBuffer;
-    id <NUImageBuffer> _debugInfillBuffer;
-    id <NUImageBuffer> _debugLayoutBuffer;
-    NSArray *_debugIntermediateLayoutBuffers;
-    id <NUImageBuffer> _debugPreviewBuffer;
-    id <NUImageBuffer> _debugColorAnalysisBuffer;
-    id <NUImageBuffer> _flattenedBackgroundForDebugPreview;
-    id <NUImageBuffer> _flattenedForegroundForDebugPreview;
 }
 
 - (void);
@@ -49,12 +27,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -68,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -83,28 +61,7 @@
 - (void)UIdentifier";
 
 // Remaining properties
-@property(retain, nonatomic) id <NUImageBuffer> debugColorAnalysisBuffer; // @synthesize debugColorAnalysisBuffer=_debugColorAnalysisBuffer;
-@property(retain, nonatomic) CIImage *debugColorAnalysisImage; // @synthesize debugColorAnalysisImage=_debugColorAnalysisImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugConfidenceMapBuffer; // @synthesize debugConfidenceMapBuffer=_debugConfidenceMapBuffer;
-@property(retain, nonatomic) CIImage *debugConfidenceMapImage; // @synthesize debugConfidenceMapImage=_debugConfidenceMapImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugInfillBuffer; // @synthesize debugInfillBuffer=_debugInfillBuffer;
-@property(retain, nonatomic) CIImage *debugInfillImage; // @synthesize debugInfillImage=_debugInfillImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugInputBuffer; // @synthesize debugInputBuffer=_debugInputBuffer;
 @property(retain, nonatomic) CIImage *debugInputImage; // @synthesize debugInputImage=_debugInputImage;
-@property(retain, nonatomic) NSArray *debugIntermediateLayoutBuffers; // @synthesize debugIntermediateLayoutBuffers=_debugIntermediateLayoutBuffers;
-@property(retain, nonatomic) NSArray *debugIntermediateLayoutImages; // @synthesize debugIntermediateLayoutImages=_debugIntermediateLayoutImages;
-@property(retain, nonatomic) id <NUImageBuffer> debugLayoutBuffer; // @synthesize debugLayoutBuffer=_debugLayoutBuffer;
-@property(retain, nonatomic) CIImage *debugLayoutImage; // @synthesize debugLayoutImage=_debugLayoutImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugLocalConfidenceBuffer; // @synthesize debugLocalConfidenceBuffer=_debugLocalConfidenceBuffer;
-@property(retain, nonatomic) CIImage *debugLocalConfidenceImage; // @synthesize debugLocalConfidenceImage=_debugLocalConfidenceImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugMatteBuffer; // @synthesize debugMatteBuffer=_debugMatteBuffer;
-@property(retain, nonatomic) id <NUImageBuffer> debugMatteCropBuffer; // @synthesize debugMatteCropBuffer=_debugMatteCropBuffer;
-@property(retain, nonatomic) CIImage *debugMatteCropImage; // @synthesize debugMatteCropImage=_debugMatteCropImage;
-@property(retain, nonatomic) CIImage *debugMatteImage; // @synthesize debugMatteImage=_debugMatteImage;
-@property(retain, nonatomic) id <NUImageBuffer> debugPreviewBuffer; // @synthesize debugPreviewBuffer=_debugPreviewBuffer;
-@property(retain, nonatomic) CIImage *debugPreviewImage; // @synthesize debugPreviewImage=_debugPreviewImage;
-@property(retain, nonatomic) id <NUImageBuffer> flattenedBackgroundForDebugPreview; // @synthesize flattenedBackgroundForDebugPreview=_flattenedBackgroundForDebugPreview;
-@property(retain, nonatomic) id <NUImageBuffer> flattenedForegroundForDebugPreview; // @synthesize flattenedForegroundForDebugPreview=_flattenedForegroundForDebugPreview;
 
 @end
 

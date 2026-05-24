@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactOrbActionsController, NSArray, NSString, UIContextMenuInteraction, UIMenu;
+@class NSArray, UIMenu;
 
 @interface EKUIInviteeContextMenuData
 {
     NSArray *_calendarMenuStartItems;
-    NSArray *_calendarMenuEndItems;
-    UIContextMenuInteraction *_interaction;
-    CNContactOrbActionsController *_contactActionsController;
-    UIMenu *_menu;
 }
 
+- (id)&s;
+- (void);
+- (void);
+- (id)&s;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)tRectForBounds:limitedToNumberOfLines: /* Error: Ran out of types for this method. */;
-- (id)el: /* Error: Ran out of types for this method. */;
+- (void)textRectForBounds:limitedToNumberOfLines: /* Error: Ran out of types for this method. */;
+- (id)_removeConferenceAttendeeOnEvent:forRowModel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(readonly) Class superclass;
 
 @end
 

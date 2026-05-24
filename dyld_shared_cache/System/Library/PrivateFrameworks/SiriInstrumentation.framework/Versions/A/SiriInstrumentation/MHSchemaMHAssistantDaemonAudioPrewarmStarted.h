@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioPrewarmStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ller actionDownloadingRequestDownload:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)BITSTRING;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)lDurationInMs:(id)arg1;
+- (id)setHasLlmquOverallDurationInMs:(id)arg1;
 - (id)oiceTriggerEventInfo;
-- (_Bool)E_BASEBALL;
+- (_Bool)FLOWSPORTNAME_BASEBALL;
 - (_Bool)Çÿmø;
 - (void)Íÿê­/@(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

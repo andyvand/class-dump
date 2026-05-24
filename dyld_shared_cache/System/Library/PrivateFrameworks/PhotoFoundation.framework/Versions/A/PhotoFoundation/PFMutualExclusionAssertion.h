@@ -9,8 +9,8 @@
     _Bool _inCriticalSection;
 }
 
-- (void);
-- (void);
+- (void)P;
+- (void)k(;
 - (void);
 
 @end

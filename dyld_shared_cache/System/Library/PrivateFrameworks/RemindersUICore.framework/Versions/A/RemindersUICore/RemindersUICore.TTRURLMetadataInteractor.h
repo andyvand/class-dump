@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRURLMetadataInteractor
 {
     id mainOperationManager;
-    id savingManager;
 }
 
 @end

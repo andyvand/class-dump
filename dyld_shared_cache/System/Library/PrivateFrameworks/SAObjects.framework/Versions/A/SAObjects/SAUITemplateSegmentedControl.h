@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface SAUITemplateSegmentedControl : SAUITemplateBaseItem
 {
@@ -18,15 +18,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *backgroundColors;
-@property(copy, nonatomic) NSDictionary *textColors;
-@property(copy, nonatomic) NSArray *titles;
 
 @end
 

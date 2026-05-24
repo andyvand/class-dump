@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)mapTemplate;
 + (id);
 + (void);
 - (_Bool);

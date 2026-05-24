@@ -14,7 +14,7 @@
 + (const struct MPSLibraryInfo *);
 - (id);
 - (id);
-- (void);
+- (void)initWithDisplayName:(id)arg1 handles:handleIdentifier:photosPersonIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
 - (id);

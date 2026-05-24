@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXContentFilterState, PXPhotosViewModel;
-@protocol PXPhotosGridActionPerformerInformationProviderDelegate;
+@class PXPhotosViewModel;
 
 @interface PXPhotosGridActionPerformer
 {
     PXPhotosViewModel *_viewModel;
-    id <PXPhotosGridActionPerformerInformationProviderDelegate> _userInfoDelegate;
 }
 
 + (_Bool);
@@ -23,8 +21,6 @@
 - (id)aQÆ<;
 
 // Remaining properties
-@property(readonly, nonatomic) PXContentFilterState *currentContentFilterState;
-@property(nonatomic) __weak id <PXPhotosGridActionPerformerInformationProviderDelegate> userInfoDelegate; // @synthesize userInfoDelegate=_userInfoDelegate;
 @property(readonly, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

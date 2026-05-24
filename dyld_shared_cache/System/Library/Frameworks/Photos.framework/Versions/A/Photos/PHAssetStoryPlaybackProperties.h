@@ -11,8 +11,8 @@
     _Bool _hasPeopleSceneMidOrGreaterConfidence;
 }
 
-+ (id);
-+ (id)rtyEndDateComponents;
++ (id);
++ (id)PHSearchSuggestionPropertyEndDateComponents;
 - (_Bool);
 - (id);
 

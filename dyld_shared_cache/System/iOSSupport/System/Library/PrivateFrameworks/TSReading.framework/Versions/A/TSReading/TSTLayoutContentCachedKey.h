@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPParagraphStyle;
+@class NSString;
 
 @interface TSTLayoutContentCachedKey
 {
     NSString *mString;
-    double mWidth;
-    double mHeight;
-    TSWPParagraphStyle *mParagraphStyle;
-    _Bool mCellWraps;
-    int mValueType;
-    struct UIEdgeInsets mPaddingInsets;
-    unsigned int mVerticalAlignment;
-    int mWritingDirection;
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)vent.setRate - identifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (unsigned int);
 - (void);
@@ -31,21 +23,13 @@
 - (unsigned long long);
 - (int);
 - (id);
+- (double)5˿;
 - (double);
-- (double);
-- (_Bool);
+- (_Bool)ot remove nil observer;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cellWraps; // @synthesize cellWraps=mCellWraps;
-@property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) struct UIEdgeInsets paddingInsets; // @synthesize paddingInsets=mPaddingInsets;
-@property(readonly, nonatomic) TSWPParagraphStyle *paragraphStyle; // @synthesize paragraphStyle=mParagraphStyle;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=mString;
-@property(readonly, nonatomic) int valueType; // @synthesize valueType=mValueType;
-@property(readonly, nonatomic) unsigned int verticalAlignment; // @synthesize verticalAlignment=mVerticalAlignment;
-@property(readonly, nonatomic) double width; // @synthesize width=mWidth;
-@property(readonly, nonatomic) int writingDirection; // @synthesize writingDirection=mWritingDirection;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSData, NSString;
 
 @protocol MTL4CounterHeap
+- (NSData *);
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

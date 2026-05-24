@@ -5,5 +5,6 @@
 //
 
 @protocol GEODirectionsServiceFamiliarRouteProvider
+- (void);
 @end
 

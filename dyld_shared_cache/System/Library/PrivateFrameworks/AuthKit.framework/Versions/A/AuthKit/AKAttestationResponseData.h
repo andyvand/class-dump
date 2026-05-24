@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AKAttestationResponseData
 {
     long long _status;
-    NSDictionary *_headersFromServer;
 }
 
 + (_Bool);
-- (void);
+- (void)O;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *headersFromServer; // @synthesize headersFromServer=_headersFromServer;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

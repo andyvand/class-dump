@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RKClassification
 {
     int _sensitive;
-    NSString *_language;
-    unsigned long long _sentenceType;
-    unsigned long long _gender;
-    NSArray *_customResponses;
-    NSString *_taggedText;
-    NSArray *_sentenceEntities;
-    NSArray *_matchedRanges;
 }
 
 - (id);
@@ -30,22 +23,15 @@
 - (id);
 - (void);
 - (int);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *customResponses; // @synthesize customResponses=_customResponses;
-@property unsigned long long gender; // @synthesize gender=_gender;
 @property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSArray *matchedRanges; // @synthesize matchedRanges=_matchedRanges;
-@property(getter=isSensitive) int sensitive; // @synthesize sensitive=_sensitive;
-@property(retain) NSArray *sentenceEntities; // @synthesize sentenceEntities=_sentenceEntities;
-@property unsigned long long sentenceType; // @synthesize sentenceType=_sentenceType;
-@property(retain) NSString *taggedText; // @synthesize taggedText=_taggedText;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFOptionalBool;
+@class NSString;
 
 @interface _SFPBRFShowMoreOnTap
 {
     NSString *_affordanceLabel;
-    _SFPBRFOptionalBool *_shows_without_truncation;
 }
 
 - (id);
@@ -21,23 +20,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)relinquishPresentedItemToReader:(id)arg1;
+- (id)rator at path %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)"16;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceLabel; // @synthesize affordanceLabel=_affordanceLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFOptionalBool *shows_without_truncation; // @synthesize shows_without_truncation=_shows_without_truncation;
-@property(readonly) Class superclass;
 
 @end
 

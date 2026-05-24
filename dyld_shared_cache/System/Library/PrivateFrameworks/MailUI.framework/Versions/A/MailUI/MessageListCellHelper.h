@@ -4,44 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFCancelationToken, EFFuture, EMCategory, EMNSUserDefaultsBoolObserver, NSString, NSView;
-@protocol EMMessageListItem, MessageListCellHelperApplicationProxy, MessageListCellViewable;
+@class EMNSUserDefaultsBoolObserver;
 
 @interface MessageListCellHelper
 {
     _Bool _compact;
-    _Bool _disclosureEnabled;
-    _Bool _shouldAnnotateReplyOrForward;
-    _Bool _shouldDisplayUnreadAndVIP;
-    _Bool _outgoingMailbox;
-    _Bool _inbox;
-    _Bool _expanded;
-    _Bool _canShowReadLaterDate;
-    _Bool _visible;
-    _Bool _selected;
-    _Bool _highlighted;
-    _Bool _priority;
-    _Bool _searchResult;
-    _Bool _localMailboxSearchScope;
-    _Bool _hideFollowUp;
-    _Bool _shouldShowHighImpact;
-    id <MessageListCellHelperApplicationProxy> _applicationProxy;
-    NSView *_parentView;
-    NSView *_contentView;
-    NSView<MessageListCellViewable> *_cellView;
-    id <EMMessageListItem> _messageListItem;
-    long long _style;
-    EFFuture *_predictedMailbox;
-    long long _numberOfPreviewLines;
-    EMNSUserDefaultsBoolObserver *_automaticallySummarizeMessages;
-    EFCancelationToken *_updateSummaryCancelationToken;
 }
 
-- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,21 +23,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -79,67 +53,33 @@
 - (id);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)decodeIntegerForKey: /* Error: Ran out of types for this method. */;
+- (void)makeTextWritingDirectionLeftToRight:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)ht:ofIndex: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)et:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)RL;
-- (_Bool)sageListSearchSectionDataSource;
+- (void)difierKeyViewAboutToBeShown:(id)arg1;
+- (void)0%U;
+- (void)setHeight:ofIndex: /* Error: Ran out of types for this method. */;
+- (void)relatedWebView;
+- (_Bool)beginSheet:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)baseURL;
+- (_Bool)MUIMessageListSearchSectionDataSource;
 - (_Bool);
 - (void)Hüäÿ;
 - (id)tRects()).length&&(n=r[0]),n){var a=window.getComputedStyle(document.body),l=parseInt(a.marginTop,10)+parseInt(a.paddingTop,10),i=parseInt(a.marginRight,10)+parseInt(a.paddingRight,10),c=parseInt(a.marginBottom,10)+parseInt(a.paddingBottom,10),s=parseInt(a.marginLeft,10)+parseInt(a.paddingLeft,10),p={top:n.top-l,left:n.left-s,width:n.width+s+i,height:n.height+l+c};t.scrollToRect=p}}},MUIWebDocumentDisplayController.prototype.prepareContentForWebDocument=function(){this.contentState=MUIWebDocumentDisplayControllerContentState.inconsistent;for(var t=0;t<this.attachmentControllers.length;t++)this.attachmentControllers[t].prepareForWebDocument();var e=this.delegate;e&&e.prepareContentForWebDocument&&e.prepareContentForWebDocument(),this.contentState=MUIWebDocumentDisplayControllerContentState.webDocument},MUIWebDocumentDisplayController.prototype.prepareContentForDisplay=function(){this.contentState=MUIWebDocumentDisplayControllerContentState.inconsistent;for(var t=0;t<this.attachmentControllers.length;t++)this.attachmentControllers[t].prepareForDisplay();var e=this.delegate;e&&e.prepareContentForDisplay&&e.prepareContentForDisplay(),this.contentState=MUIWebDocumentDisplayControllerContentState.display},MUIWebDocumentDisplayController.prototype.selectedText=function(){var t="",e=document.getSelection();return e.rangeCount&&(t=e.getRangeAt(0).toString()),t},MUIWebDocumentDisplayController.prototype.hasStyleToInline=function(){var t=!1;if(document.getElementsByTagName("style").length&&(t=!0),!t)for(var e=document.getElementsByTagName("link"),n=0;n<e.length;n++)if("STYLESHEET"===e.item(n).getAttribute("rel").toUpperCase()){t=!0;break}return t},MUIWebDocumentDisplayController.prototype.registerAttachment=function(t,e,n,o,r,a,l,i,c,s){var p=MUIWebAttachmentController.registerAttachment(t,e,n,o,r,a,l,i,c,s);p.length&&(this.attachmentControllers=this.attachmentControllers.concat(p))},MUIWebDocumentDisplayController.prototype.deleteAttachment=function(t){this.attachmentControllerForContentID(t).deleteAttachment()},MUIWebDocumentDisplayController.prototype.setImageScale=function(t,e){this.attachmentControllerForContentID(t).setImageScale(e)},MUIWebDocumentDisplayController.prototype.attachmentControllerForContentID=function(t){for(var e=null,n=0;n<this.attachmentControllers.length;n++)if(this.attachmentControllers[n].contentID===t){e=this.attachmentControllers[n];break}return e},MUIWebDocumentDisplayController.prototype.showProgressForContentID=function(t,e,n){var o=this.attachmentControllerForContentID(t);o&&o.showProgress(e,n)},MUIWebDocumentDisplayController.prototype.handleDownloadErrorForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.handleDownloadError(e)},MUIWebDocumentDisplayController.prototype.startDownloadForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&(n.currentNode.setAttribute("subtitle",e),n.currentNode.setAttribute("progress",.01),n.currentNode.style.opacity=1)},MUIWebDocumentDisplayController.prototype.handleDownloadFinishedForContentID=function(t){var e=this.attachmentControllerForContentID(t);e&&e.downloadFinished()},MUIWebDocumentDisplayController.prototype.setDisplayStateForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.setDisplayState(e)},MUIWebDocumentDisplayController.prototype.convertToInlineImage=function(t){var e=this.attachmentControllerForContentID(t);e&&e.convertToInlineImage()},MUIWebDocumentDisplayController.prototype.selectedAttachmentControllerNodes=function(){var t=[],e=document.getSelection();if(e.rangeCount){var n=e.getRangeAt(0);this.attachmentControllers.forEach(function(e){n.isPointInRange(e.currentNode,0)&&t.push(e.currentNode)})}return t},MUIWebDocumentDisplayController.prototype.anchorYPosition=function(t){var e=document.getElementById(t);if(!e){var n=document.getElementsByName(t);n.length>0&&(e=n[0])}return e.getBoundingClientRect().top},MUIWebDocumentDisplayController.prototype.addLink=function(t){t&&t.length&&(t=encodeURI(t),document.execCommand("CreateLink",!1,t))},MUIWebDocumentDisplayController.prototype.removeLink=function(){document.execCommand("Unlink",!1,!1)};var MUIWebDocumentDisplayController_sharedInstance=new MUIWebDocumentDisplayController; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <MessageListCellHelperApplicationProxy> applicationProxy; // @synthesize applicationProxy=_applicationProxy;
 @property(retain, nonatomic) EMNSUserDefaultsBoolObserver *automaticallySummarizeMessages; // @synthesize automaticallySummarizeMessages=_automaticallySummarizeMessages;
-@property(nonatomic) _Bool canShowReadLaterDate; // @synthesize canShowReadLaterDate=_canShowReadLaterDate;
-@property(retain, nonatomic) EMCategory *category;
-@property(readonly, nonatomic) NSView<MessageListCellViewable> *cellView; // @synthesize cellView=_cellView;
-@property(nonatomic, getter=isCompact) _Bool compact; // @synthesize compact=_compact;
-@property(readonly, nonatomic) __weak NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disclosureEnabled; // @synthesize disclosureEnabled=_disclosureEnabled;
-@property(nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=shouldHideFollowUp) _Bool hideFollowUp; // @synthesize hideFollowUp=_hideFollowUp;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic, getter=isInbox) _Bool inbox; // @synthesize inbox=_inbox;
-@property(nonatomic, getter=isLocalMailboxSearchScope) _Bool localMailboxSearchScope; // @synthesize localMailboxSearchScope=_localMailboxSearchScope;
-@property(readonly, nonatomic) id <EMMessageListItem> messageListItem; // @synthesize messageListItem=_messageListItem;
-@property(nonatomic) long long numberOfPreviewLines; // @synthesize numberOfPreviewLines=_numberOfPreviewLines;
-@property(nonatomic, getter=isOutgoingMailbox) _Bool outgoingMailbox; // @synthesize outgoingMailbox=_outgoingMailbox;
-@property(readonly, nonatomic) __weak NSView *parentView; // @synthesize parentView=_parentView;
-@property(retain, nonatomic) EFFuture *predictedMailbox; // @synthesize predictedMailbox=_predictedMailbox;
-@property(nonatomic, getter=isPriority) _Bool priority; // @synthesize priority=_priority;
-@property(nonatomic, getter=isSearchResult) _Bool searchResult; // @synthesize searchResult=_searchResult;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool senderSpecificCell;
-@property(nonatomic) _Bool shouldAnnotateReplyOrForward; // @synthesize shouldAnnotateReplyOrForward=_shouldAnnotateReplyOrForward;
-@property(nonatomic) _Bool shouldDisplayUnreadAndVIP; // @synthesize shouldDisplayUnreadAndVIP=_shouldDisplayUnreadAndVIP;
-@property(nonatomic) _Bool shouldShowHighImpact; // @synthesize shouldShowHighImpact=_shouldShowHighImpact;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) EFCancelationToken *updateSummaryCancelationToken; // @synthesize updateSummaryCancelationToken=_updateSummaryCancelationToken;
-@property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

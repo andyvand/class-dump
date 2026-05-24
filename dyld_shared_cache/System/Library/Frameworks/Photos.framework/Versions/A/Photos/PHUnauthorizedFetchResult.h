@@ -6,25 +6,19 @@
 
 #import <Photos/PHFetchResult.h>
 
-@class NSArray, NSOrderedSet, NSString, PHFetchOptions;
-
 @interface PHUnauthorizedFetchResult : PHFetchResult
 {
     CDUnknownBlockType _fetchBlock;
-    PHFetchOptions *_options;
-    NSArray *_objects;
-    NSOrderedSet *_objectIDs;
-    NSString *_identifier;
 }
 
-- (id);
+- (id)!;
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id)setAlignmentController: /* Error: Ran out of types for this method. */;
+- (id)`;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
+- (id)yingAtIndex:%ld error=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,15 +26,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)d;
+- (id)initWithIOSurface:(id)arg1;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)me;
+- (void)_bestKeyFrameTime;
 - (id)import asset from contents of Photos assetbundle at path `%@`;
 - (_Bool)with live-rendered avasset;
 - (id)progress (curated assets):%f
@@ -48,10 +42,6 @@
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType fetchBlock; // @synthesize fetchBlock=_fetchBlock;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSOrderedSet *objectIDs; // @synthesize objectIDs=_objectIDs;
-@property(readonly) NSArray *objects; // @synthesize objects=_objects;
-@property(readonly, copy) PHFetchOptions *options; // @synthesize options=_options;
 
 @end
 

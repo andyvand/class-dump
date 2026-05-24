@@ -8,24 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactHeaderViewSizeAttributes
 {
     double _photoMinHeight;
-    double _photoMaxHeight;
-    double _photoMinTopMargin;
-    double _photoMaxTopMargin;
-    double _photoMinBottomMargin;
-    double _photoMinBottomMarginLowQuality;
-    double _photoMaxBottomMargin;
-    double _minNavbarTitleOffset;
-    double _maxNavbarTitleOffset;
-    double _headerBottomMargin;
-    double _posterMaxHeight;
-    double _photoMaxHeightPhoneLandscape;
-    double _photoMinBottomMarginPhoneLandscape;
-    double _photoMaxHeightPadCompact;
-    double _photoMinTopMarginPadCompact;
-    double _photoMinBottomMarginPadCompact;
-    double _photoMaxHeightLowQuality;
-    double __minHeight;
-    double __maxHeight;
 }
 
 + (id);
@@ -35,10 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)qi;
 + (id);
-+ (id);
-+ (id);
-+ (id)nder: /* Error: Ran out of types for this method. */;
++ (id)presentSafetyCheckFlowForSender: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,8 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
+- (double));
 - (double);
 - (double);
 - (double);
@@ -84,28 +66,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)_NSValidationNumberTooLargeError:andThrow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double _maxHeight; // @synthesize _maxHeight=__maxHeight;
 @property(nonatomic) double _minHeight; // @synthesize _minHeight=__minHeight;
-@property(nonatomic) double headerBottomMargin; // @synthesize headerBottomMargin=_headerBottomMargin;
-@property(nonatomic) double maxNavbarTitleOffset; // @synthesize maxNavbarTitleOffset=_maxNavbarTitleOffset;
-@property(nonatomic) double minNavbarTitleOffset; // @synthesize minNavbarTitleOffset=_minNavbarTitleOffset;
-@property(nonatomic) double photoMaxBottomMargin; // @synthesize photoMaxBottomMargin=_photoMaxBottomMargin;
-@property(nonatomic) double photoMaxHeight; // @synthesize photoMaxHeight=_photoMaxHeight;
-@property(nonatomic) double photoMaxHeightLowQuality; // @synthesize photoMaxHeightLowQuality=_photoMaxHeightLowQuality;
-@property(nonatomic) double photoMaxHeightPadCompact; // @synthesize photoMaxHeightPadCompact=_photoMaxHeightPadCompact;
-@property(nonatomic) double photoMaxHeightPhoneLandscape; // @synthesize photoMaxHeightPhoneLandscape=_photoMaxHeightPhoneLandscape;
-@property(nonatomic) double photoMaxTopMargin; // @synthesize photoMaxTopMargin=_photoMaxTopMargin;
-@property(nonatomic) double photoMinBottomMargin; // @synthesize photoMinBottomMargin=_photoMinBottomMargin;
-@property(nonatomic) double photoMinBottomMarginLowQuality; // @synthesize photoMinBottomMarginLowQuality=_photoMinBottomMarginLowQuality;
-@property(nonatomic) double photoMinBottomMarginPadCompact; // @synthesize photoMinBottomMarginPadCompact=_photoMinBottomMarginPadCompact;
-@property(nonatomic) double photoMinBottomMarginPhoneLandscape; // @synthesize photoMinBottomMarginPhoneLandscape=_photoMinBottomMarginPhoneLandscape;
-@property(nonatomic) double photoMinHeight; // @synthesize photoMinHeight=_photoMinHeight;
-@property(nonatomic) double photoMinTopMargin; // @synthesize photoMinTopMargin=_photoMinTopMargin;
-@property(nonatomic) double photoMinTopMarginPadCompact; // @synthesize photoMinTopMarginPadCompact=_photoMinTopMarginPadCompact;
-@property(nonatomic) double posterMaxHeight; // @synthesize posterMaxHeight=_posterMaxHeight;
 
 @end
 

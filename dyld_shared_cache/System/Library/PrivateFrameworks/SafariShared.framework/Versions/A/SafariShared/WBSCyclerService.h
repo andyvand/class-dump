@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, NSXPCListener, WBSCyclerTestRunner, WBSCyclerTestTargetProxyController;
-@protocol WBSCyclerTestSuite;
+@class NSString, NSXPCListener;
 
 @interface WBSCyclerService
 {
     NSXPCListener *_xpcListener;
-    WBSCyclerTestTargetProxyController *_testTargetProxyController;
-    Class _testSuiteClass;
-    id <WBSCyclerTestSuite> _testSuite;
-    WBSCyclerTestRunner *_testRunner;
-    NSDate *_lastTestStart;
-    NSDate *_lastTestEnd;
-    NSError *_lastError;
-    unsigned long long _maximumIterationCount;
-    NSString *_identifier;
 }
 
 - (void);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -44,14 +34,7 @@
 - (void),ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

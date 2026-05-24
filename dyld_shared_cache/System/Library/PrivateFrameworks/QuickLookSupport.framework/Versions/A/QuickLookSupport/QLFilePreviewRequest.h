@@ -9,7 +9,6 @@
 @interface QLFilePreviewRequest
 {
     NSURL *_fileURL;
-    UTType *_contentType;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain) UTType *contentType; // @synthesize contentType=_contentType;
-@property(readonly) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 
 @end
 

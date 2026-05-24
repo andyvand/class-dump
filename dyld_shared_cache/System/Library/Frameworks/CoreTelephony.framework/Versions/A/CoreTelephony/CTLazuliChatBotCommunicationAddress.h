@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotTelephoneInformation, CTLazuliChatBotURIEntryList;
+@class CTLazuliChatBotTelephoneInformation;
 
 @interface CTLazuliChatBotCommunicationAddress
 {
     CTLazuliChatBotTelephoneInformation *_telInformation;
-    CTLazuliChatBotURIEntryList *_uriList;
 }
 
-+ (_Bool);
++ (_Bool)me:%f /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliChatBotTelephoneInformation *telInformation; // @synthesize telInformation=_telInformation;
-@property(retain, nonatomic) CTLazuliChatBotURIEntryList *uriList; // @synthesize uriList=_uriList;
 
 @end
 

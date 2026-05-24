@@ -5,5 +5,10 @@
 //
 
 @protocol AppKit.TextShadowViewControllerDelegate__priv_05EA0EB8E781FFE22747790FC22932B1
+
+@optional
+- (void)write:(id)arg1 maxLength: /* Error: Ran out of types for this method. */;
+- (void)withLoaderAsync:(id)arg1;
+- (void)willRetryBackgroundDataTask:(id)arg1 withError:transactionMetrics: /* Error: Ran out of types for this method. */;
 @end
 

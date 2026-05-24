@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PFStoryAutoEditConfiguration, PXStoryMomentRecipeState;
+@class NSString;
 
 @interface PXStoryMomentRecipeProvider
 {
     NSString *_colorGradeCategory;
-    PFStoryAutoEditConfiguration *_configuration;
-    long long _songPace;
-    PXStoryMomentRecipeState *_state;
-    NSMutableDictionary *_clipDebugInfos;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_618113c1);
+- (CDStruct_4ae65f2e);
 - (id);
 - (long long);
 - (_Bool);

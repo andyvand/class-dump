@@ -7,25 +7,21 @@
 @interface AVCSessionABTestConfiguration
 {
     _Bool _oneToOneAuthenticationTagEnabled;
-    _Bool _gftTLEEnabled;
-    _Bool _p2pEncryptionEnabled;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (_Bool)R";
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Kc;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isGftTLEEnabled) _Bool gftTLEEnabled; // @synthesize gftTLEEnabled=_gftTLEEnabled;
 @property(nonatomic, getter=isOneToOneAuthenticationTagEnabled) _Bool oneToOneAuthenticationTagEnabled; // @synthesize oneToOneAuthenticationTagEnabled=_oneToOneAuthenticationTagEnabled;
-@property(nonatomic, getter=isP2PEncryptionEnabled) _Bool p2pEncryptionEnabled; // @synthesize p2pEncryptionEnabled=_p2pEncryptionEnabled;
 
 @end
 

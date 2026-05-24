@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface PPSocialHighlightStoreHandler
 {
     _Bool _successful;
-    NSError *_error;
-    CDUnknownBlockType _block;
-    NSObject<OS_dispatch_semaphore> *_sem;
 }
 
 - (void);

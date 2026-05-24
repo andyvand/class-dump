@@ -9,8 +9,6 @@
 @interface DMFReportingRequirements
 {
     _Bool _requireActiveConnection;
-    NSString *_reachableHostName;
-    double _updateCoalescenceInterval;
 }
 
 + (_Bool);
@@ -25,12 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)autocompleteFailureColor;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reachableHostName; // @synthesize reachableHostName=_reachableHostName;
-@property(nonatomic) _Bool requireActiveConnection; // @synthesize requireActiveConnection=_requireActiveConnection;
-@property(nonatomic) double updateCoalescenceInterval; // @synthesize updateCoalescenceInterval=_updateCoalescenceInterval;
 
 @end
 

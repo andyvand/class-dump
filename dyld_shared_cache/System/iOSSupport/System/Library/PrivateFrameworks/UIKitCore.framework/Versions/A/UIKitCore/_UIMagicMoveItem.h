@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     void portals;
 }
 
-- (void);
+- (void)te was reset to nil;
 - (id);
 - (id);
 - (id);

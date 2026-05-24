@@ -9,6 +9,7 @@
 @protocol CWEventDelegate
 
 @optional
-- (void)nLoadListener:(NSString *)arg1;
+- (void);
+- (void)setModelUnLoadListener:(NSString *)arg1;
 @end
 

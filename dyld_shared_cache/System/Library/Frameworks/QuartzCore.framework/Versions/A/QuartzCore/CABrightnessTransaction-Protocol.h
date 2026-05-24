@@ -5,7 +5,11 @@
 //
 
 @protocol CABrightnessTransaction
-- (void)or:(float)arg1;
+- (void);
+- (void)_constructedAssetDownloadParameters;
+- (void);
+- (_Bool)kCoreThemeColorWorkoutPink;
+- (void)_readFromArchiveData:(float)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (void)s) + 1.0;
   highp float y = 1.0 - x;
   highp vec4 xy = vec4(x, y, x, y);

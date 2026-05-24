@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol TSDGPUDataBufferSharedAccessors
-- (unsigned int)ts;
+- (_Bool)AVPlayerItemTimeJumpedReasonEndOfCoordinatedPlaybackSuspension;
+- (unsigned int)RulerUnits;
 
 // Remaining properties
-@property(nonatomic) unsigned int drawMode;
-@property(readonly) _Bool isDynamicallyBuffered;
-@property(readonly) NSArray *vertexAttributes;
 @property(readonly) unsigned long long vertexCount;
 @end
 

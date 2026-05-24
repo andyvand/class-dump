@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IDSQRProtoSessionParameters
 {
     unsigned long long _participantCapabilities;
-    unsigned long long _webParticipantCapabilities;
-    NSData *_qrAccessToken;
-    unsigned int _serviceId;
-    NSString *_softwareVersion;
-    struct {
-        unsigned int participantCapabilities:1;
-        unsigned int webParticipantCapabilities:1;
-        unsigned int serviceId:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -43,23 +32,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)IEventReadRemoteVersionInfoResults=SCSS}20;
+- (void)' failed:(id)arg1 %{error}
+;
 - (id);
 - (id);
 - (void)reateWithMode failed for encryption with (%d).;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParticipantCapabilities;
 @property(readonly, nonatomic) _Bool hasQrAccessToken;
-@property(nonatomic) _Bool hasServiceId;
-@property(readonly, nonatomic) _Bool hasSoftwareVersion;
-@property(nonatomic) _Bool hasWebParticipantCapabilities;
-@property(nonatomic) unsigned long long participantCapabilities; // @synthesize participantCapabilities=_participantCapabilities;
-@property(retain, nonatomic) NSData *qrAccessToken; // @synthesize qrAccessToken=_qrAccessToken;
-@property(nonatomic) unsigned int serviceId; // @synthesize serviceId=_serviceId;
-@property(retain, nonatomic) NSString *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
-@property(nonatomic) unsigned long long webParticipantCapabilities; // @synthesize webParticipantCapabilities=_webParticipantCapabilities;
 
 @end
 

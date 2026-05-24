@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface GEOCelestialRiseTransitSet
 {
     double _julianDay;
-    struct CAARiseTransitSetDetails _riseTransitSet;
-    NSDate *_rise;
-    NSDate *_transit;
-    NSDate *_set;
 }
 
-- (struct CAARiseTransitSetDetails);
+- (struct CAARiseTransitSetDetails)requestAccessWithError: /* Error: Ran out of types for this method. */;
+- (double)_cn_stringByDeletingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_rangeOfCommonPrefixWithString:options: /* Error: Ran out of types for this method. */;
+- (id)NSDataWritingOptionsFromCNDataWritingOptions:(double)arg1;
 - (double);
-- (_Bool);
-- (id);
-- (double);
-- (id);
+- (id)!*	;
 - (int);
-- (id);
-- (id);
+- (id)s;
+- (id)isMarkedLocation;
 - (id);
 - (void)¿;
 - (id);
 - (id)ýÿ?4,=;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTransitAboveHorizon;
-@property(readonly, nonatomic) double julianDay; // @synthesize julianDay=_julianDay;
-@property(readonly, nonatomic) NSDate *rise;
 @property(readonly, nonatomic) struct CAARiseTransitSetDetails riseTransitSet; // @synthesize riseTransitSet=_riseTransitSet;
-@property(readonly, nonatomic) NSDate *set;
-@property(readonly, nonatomic) NSDate *transit;
 
 @end
 

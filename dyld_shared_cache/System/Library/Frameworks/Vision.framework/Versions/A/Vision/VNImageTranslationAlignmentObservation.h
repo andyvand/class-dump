@@ -16,10 +16,10 @@
 - (id);
 - (void);
 - (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
+- (id)WithType:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
 - (void);

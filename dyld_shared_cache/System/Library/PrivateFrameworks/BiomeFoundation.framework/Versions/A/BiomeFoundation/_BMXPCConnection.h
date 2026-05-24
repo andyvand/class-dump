@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BMXPCTransport;
+@class NSString;
 
 @interface _BMXPCConnection
 {
     NSString *_serviceName;
-    _BMXPCTransport *_transport;
-    unsigned long long _flags;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

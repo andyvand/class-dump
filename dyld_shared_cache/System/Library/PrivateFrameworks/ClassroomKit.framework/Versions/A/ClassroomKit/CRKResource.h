@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface CRKResource
 {
     _Bool _zippedBundle;
-    NSURL *_hostedURL;
 }
 
 + (_Bool);
@@ -22,16 +21,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)8;
 - (void);
 - (id)completed. The session has been invalidated.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSURL *hostedURL; // @synthesize hostedURL=_hostedURL;
-@property(nonatomic, getter=isZippedBundle) _Bool zippedBundle; // @synthesize zippedBundle=_zippedBundle;
 
 @end
 

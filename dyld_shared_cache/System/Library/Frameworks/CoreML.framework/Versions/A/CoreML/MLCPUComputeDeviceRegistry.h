@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCPUComputeDevice, NSArray, NSString;
+@class MLCPUComputeDevice;
 
 __attribute__((visibility("hidden")))
 @interface MLCPUComputeDeviceRegistry
@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     MLCPUComputeDevice *_cpuDevice;
 }
 
-+ (id);
++ (id)minimumLinearTextureAlignmentForPixelFormat: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -20,14 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) MLCPUComputeDevice *cpuDevice; // @synthesize cpuDevice=_cpuDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *registeredComputeDevices;
-@property(readonly) Class superclass;
 
 @end
 

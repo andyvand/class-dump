@@ -5,5 +5,6 @@
 //
 
 @protocol ICTTModelAttributeComparable
+- (_Bool);
 @end
 

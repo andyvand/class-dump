@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface __NSCFSet : NSMutableSet
 {
     unsigned char _cfinfo[4];
-    unsigned int _rc;
-    unsigned int _bits[4];
-    void *_callbacks;
-    id *_values;
 }
 
 + (_Bool);
 + (id)i;
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id)K;
 - (Class);
 - (unsigned long long);
 - (unsigned long long);
@@ -30,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)?	;
 - (void)appendFormat: /* Error: Ran out of types for this method. */;
 - (void)C audio;
 - (void);

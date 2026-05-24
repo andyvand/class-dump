@@ -9,8 +9,6 @@
 @interface AppStoreKit.TabChangeAction : AppStoreKit.Action
 {
     id navigationTab;
-    id actions;
-    id popToRoot;
 }
 
 @end

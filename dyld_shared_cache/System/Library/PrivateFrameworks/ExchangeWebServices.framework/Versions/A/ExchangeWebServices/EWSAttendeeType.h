@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSEmailAddressType, NSDateComponents, NSString;
+@class EWSEmailAddressType;
 
 @interface EWSAttendeeType
 {
     EWSEmailAddressType *_Mailbox;
-    long long _ResponseType;
-    NSDateComponents *_LastResponseTime;
-    NSDateComponents *_ProposedStart;
-    NSDateComponents *_ProposedEnd;
 }
 
-+ (id);
++ (id)gG;
 - (void);
 - (void);
 - (void);
@@ -23,25 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *LastResponseTime; // @synthesize LastResponseTime=_LastResponseTime;
 @property(retain, nonatomic) EWSEmailAddressType *Mailbox; // @synthesize Mailbox=_Mailbox;
-@property(retain, nonatomic) NSDateComponents *ProposedEnd; // @synthesize ProposedEnd=_ProposedEnd;
-@property(retain, nonatomic) NSDateComponents *ProposedStart; // @synthesize ProposedStart=_ProposedStart;
-@property(nonatomic) long long ResponseType; // @synthesize ResponseType=_ResponseType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

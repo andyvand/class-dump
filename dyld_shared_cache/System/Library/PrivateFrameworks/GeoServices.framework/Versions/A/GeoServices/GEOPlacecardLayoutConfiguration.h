@@ -5,12 +5,10 @@
 //
 
 @class GEOModuleLayoutEntry, GEOPDPlacecardLayoutConfiguration;
-@protocol GEOModuleConfigurationProvider;
 
 @interface GEOPlacecardLayoutConfiguration
 {
     GEOPDPlacecardLayoutConfiguration *_placecardLayoutConfiguration;
-    id <GEOModuleConfigurationProvider> _moduleConfigProvider;
 }
 
 - (id);

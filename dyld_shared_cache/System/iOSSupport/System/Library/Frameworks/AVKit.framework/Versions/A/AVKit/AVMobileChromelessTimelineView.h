@@ -6,36 +6,17 @@
 
 #import <AVKit/AVView.h>
 
-@class AVLabel, AVMobileChromelessFluidSlider, AVMobileChromelessSlider, NSString, UIColor, UIFont, UIView;
-@protocol AVMobileChromelessTimelineViewDelegate, AVMobileControlsStyleFontsSheet;
+@class UIView;
+@protocol AVMobileChromelessTimelineViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessTimelineView : AVView
 {
     UIView *_labelShadowView;
-    struct CGRect _sliderShadowPathRect;
-    _Bool _overrideFluidSliderPreference;
-    _Bool _drawsShadow;
-    _Bool _labelsAutoadjustWithSliderEmphasis;
-    _Bool _emphasized;
-    _Bool _enabled;
-    unsigned long long _labelPosition;
-    NSString *_leadingTimeText;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    NSString *_trailingTimeText;
-    id <AVMobileChromelessTimelineViewDelegate> _delegate;
-    double _labelsExtendedDynamicRangeGain;
-    UIFont *_labelsFont;
-    UIColor *_labelsTextColor;
-    NSString *_labelsCompositingFilter;
-    AVMobileChromelessSlider *_slider;
-    double _sliderExtendedDynamicRangeGain;
-    AVLabel *_leadingLabel;
-    AVLabel *_trailingLabel;
 }
 
-- (id);
-- (void);
+- (id)handlersByAsset;
+- (void)lly by CloudKit;
 - (void);
 - (void);
 - (unsigned long long);
@@ -44,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (_Bool);
 - (void);
@@ -68,10 +49,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (void)LPAudioPlayerMediaPlayableAdaptor;
+- (double)<8;
 - (void);
-- (double);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -80,31 +61,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVMobileChromelessTimelineViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
-@property(nonatomic, getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) AVMobileChromelessFluidSlider *fluidSlider;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long labelPosition; // @synthesize labelPosition=_labelPosition;
-@property(nonatomic) _Bool labelsAutoadjustWithSliderEmphasis; // @synthesize labelsAutoadjustWithSliderEmphasis=_labelsAutoadjustWithSliderEmphasis;
-@property(retain, nonatomic) NSString *labelsCompositingFilter; // @synthesize labelsCompositingFilter=_labelsCompositingFilter;
-@property(nonatomic) double labelsExtendedDynamicRangeGain; // @synthesize labelsExtendedDynamicRangeGain=_labelsExtendedDynamicRangeGain;
-@property(retain, nonatomic) UIFont *labelsFont; // @synthesize labelsFont=_labelsFont;
-@property(retain, nonatomic) UIColor *labelsTextColor; // @synthesize labelsTextColor=_labelsTextColor;
-@property(readonly, nonatomic) AVLabel *leadingLabel; // @synthesize leadingLabel=_leadingLabel;
-@property(retain, nonatomic) NSString *leadingTimeText; // @synthesize leadingTimeText=_leadingTimeText;
-@property(readonly, nonatomic) AVMobileChromelessSlider *slider; // @synthesize slider=_slider;
-@property(nonatomic) double sliderExtendedDynamicRangeGain; // @synthesize sliderExtendedDynamicRangeGain=_sliderExtendedDynamicRangeGain;
-@property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVLabel *trailingLabel; // @synthesize trailingLabel=_trailingLabel;
-@property(retain, nonatomic) NSString *trailingTimeText; // @synthesize trailingTimeText=_trailingTimeText;
 
 @end
 

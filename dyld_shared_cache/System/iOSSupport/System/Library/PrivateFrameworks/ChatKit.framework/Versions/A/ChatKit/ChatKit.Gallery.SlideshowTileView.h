@@ -7,10 +7,6 @@
 @interface ChatKit.Gallery.SlideshowTileView
 {
     id images;
-    id configuration;
-    id visibleImageViews;
-    id currentImageIndex;
-    id badgeIconImageView;
 }
 
 - (id);

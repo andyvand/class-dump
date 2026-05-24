@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AVAssetTrackPlan
 {
     int _assemblyTrackID;
-    NSString *_mediaType;
-    NSArray *_segmentConfigurations;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (int);
+- (int)z;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly) int assemblyTrackID; // @synthesize assemblyTrackID=_assemblyTrackID;
-@property(readonly) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) NSArray *segmentConfigurations; // @synthesize segmentConfigurations=_segmentConfigurations;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSSet;
+
 @protocol NSPrintPanelAccessorizing
+- (NSArray *)y66yh6E28lG6AIdLLwEvSQ;
+
+@optional
+- (NSSet *)nvert type %d for %@;
 @end
 

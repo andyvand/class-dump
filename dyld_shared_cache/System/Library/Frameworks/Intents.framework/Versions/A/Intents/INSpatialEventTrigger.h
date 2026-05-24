@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSArray, NSString;
+@class CLPlacemark, NSArray;
 
 @interface INSpatialEventTrigger
 {
     CLPlacemark *_placemark;
-    long long _event;
-    NSArray *_suggestedValues;
-    long long _mobileSpace;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)T;
+- (long long)@;
 - (id);
+- (id)setQueue:(id)arg1;
+- (id);
+- (id);
+- (unsigned long long)	*hz;
 - (long long);
+- (_Bool)setColocatedScopeID:(id)arg1;
+- (void)immediately;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)Reservation;
-- (void)hTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)hasTrainReservation;
+- (void)provideDurationOptionsForSearchForTimers:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)Béÿ0O;
 - (id)­N¯Ã;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long mobileSpace; // @synthesize mobileSpace=_mobileSpace;
-@property(readonly, copy) CLPlacemark *placemark; // @synthesize placemark=_placemark;
 @property(readonly, copy) NSArray *suggestedValues; // @synthesize suggestedValues=_suggestedValues;
-@property(readonly) Class superclass;
 
 @end
 

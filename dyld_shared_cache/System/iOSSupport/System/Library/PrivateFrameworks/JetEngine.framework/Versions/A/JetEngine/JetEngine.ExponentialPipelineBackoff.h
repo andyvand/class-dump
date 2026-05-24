@@ -7,8 +7,6 @@
 @interface JetEngine.ExponentialPipelineBackoff
 {
     id baseWaitInterval;
-    id maxWaitInterval;
-    id attemptsMade;
 }
 
 @end

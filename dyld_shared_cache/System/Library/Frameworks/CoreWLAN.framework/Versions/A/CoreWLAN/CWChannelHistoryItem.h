@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface CWChannelHistoryItem
 {
     long long _channel;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
@@ -18,8 +15,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property long long channel; // @synthesize channel=_channel;
-@property(copy) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

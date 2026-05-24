@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
-- (void);
+- (void);
 - (void);
 
 @end

@@ -4,57 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountHandle, HMDAccountIdentifier, HMDDeviceHandle, HMDHomeKitVersion, NSArray, NSString;
+@class HMDDeviceHandle;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessageSenderContext
 {
     HMDDeviceHandle *_deviceHandle;
-    HMDDeviceHandle *_localDeviceHandle;
-    HMDAccountIdentifier *_accountIdentifier;
-    HMDAccountHandle *_accountHandle;
-    HMDHomeKitVersion *_deviceVersion;
-    NSString *_pairingIdentityIdentifier;
 }
 
 - (void);
 - (id);
+- (id)requestCapabilityLevelsForContacts: /* Error: Ran out of types for this method. */;
+- (id)quired info (transportType:(id)arg1 %@, ETAs:(id)arg2 %@, destination:(id)arg3 %@, %lu waypoints), optional (location:(id)arg4 %@);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)ateAccessoriesRelationOfTypeAirPlayAccessoryWithModelID:(struct _NSZone *)arg1 createdNew: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)materializeOrCreateAccessoriesRelationOfTypeAirPlayAccessoryWithModelID:(struct _NSZone *)arg1 createdNew: /* Error: Ran out of types for this method. */;
 - (id)ic}@Sending message with identifier %{public}@ to inform location event to resident;
 - (id)ublic}@Adding backup group data;
 - (id)serSettingsLogEvent;
-- (void)FCharacteristic;
+- (void)MKFCharacteristic;
 
 // Remaining properties
-@property(readonly, copy) HMDAccountHandle *accountHandle; // @synthesize accountHandle=_accountHandle;
-@property(readonly, copy) HMDAccountIdentifier *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) HMDDeviceHandle *deviceHandle; // @synthesize deviceHandle=_deviceHandle;
-@property(readonly, copy) HMDHomeKitVersion *deviceVersion; // @synthesize deviceVersion=_deviceVersion;
-@property(readonly) unsigned long long hash;
-@property(copy) HMDDeviceHandle *localDeviceHandle; // @synthesize localDeviceHandle=_localDeviceHandle;
-@property(readonly, copy) NSString *mergeID;
-@property(readonly, copy) NSString *pairingIdentityIdentifier; // @synthesize pairingIdentityIdentifier=_pairingIdentityIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

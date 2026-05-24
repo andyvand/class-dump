@@ -6,26 +6,15 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSPortalView, NSString, NSToolbarItem, NSToolbarPlatterView, _NSToolbarItemBadgeView;
+@class NSToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarItemGroupLayoutWrapper : NSView
 {
     NSToolbarItem *_item;
-    struct CGSize _minSize;
-    struct CGSize _maxSize;
-    struct CGSize _minViewSize;
-    struct CGSize _maxViewSize;
-    _Bool _requiresLeadingPadding;
-    _Bool _requiresTrailingPadding;
-    _Bool _isFirstItemInGlassGroup;
-    _Bool _isLastItemInGlassGroup;
-    NSToolbarPlatterView *_associatedPlatter;
-    NSPortalView *_portalView;
-    _NSToolbarItemBadgeView *_badgeView;
 }
 
-- (_Bool);
+- (_Bool)DeviceSupportsAbsoluteAltimeter;
 - (void);
 - (void);
 - (void);
@@ -33,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)r;
 - (long long);
 - (unsigned long long);
 - (_Bool);
@@ -42,35 +31,35 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)cache ignored for %s, path is set:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (double);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
+- (double);
 - (void);
 - (_Bool);
+- (void)currentDiskUsage;
+- (id)_countOfBytesReceived;
+- (struct CGSize)NSURLSessionTaskBackgroundHTTPAuthenticator;
+- (struct CGSize)d;
+- (double);
 - (void);
 - (void);
+- (struct CGSize)32;
+- (void)ocess;
+- (void)}8C328;
+- (_Bool)Redirection;
+- (void)_delegate_willSendRequestForEstablishedConnection;
+- (void)exhausted;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (void);
 - (void);
 - (id)$ø;
 - (void)SRegularExpression"8@?0;
-- (const struct __NSToolbarMetrics *)ingIndex;
+- (const struct __NSToolbarMetrics *)NSStopCompletingIndex;
 - (void)Enabled=;
 - (struct CGSize);
 - (id)È@;
@@ -78,26 +67,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)íÿ;
 
 // Remaining properties
-@property __weak NSToolbarPlatterView *associatedPlatter;
-@property(retain, nonatomic) _NSToolbarItemBadgeView *badgeView; // @synthesize badgeView=_badgeView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isFirstItemInGlassGroup) _Bool firstItemInGlassGroup;
-@property(readonly) struct CGRect glassBackedViewRectInSelf;
-@property(readonly) unsigned long long glassBehavior;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNavigational;
-@property(readonly) _Bool isVisible;
 @property(readonly) NSToolbarItem *item;
-@property(getter=isLastItemInGlassGroup) _Bool lastItemInGlassGroup;
-@property _Bool requiresLeadingPadding;
-@property _Bool requiresTrailingPadding;
-@property(readonly) NSArray *subitems;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsExplicitFrame;
 
 @end
 

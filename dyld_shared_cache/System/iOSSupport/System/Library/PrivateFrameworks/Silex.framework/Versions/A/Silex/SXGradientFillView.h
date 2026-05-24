@@ -6,17 +6,15 @@
 
 #import <Silex/SXFillView.h>
 
-@class SXClippingView, SXGradientView, SXLinearGradientFill;
+@class SXLinearGradientFill;
 
 @interface SXGradientFillView : SXFillView
 {
     SXLinearGradientFill *_gradientFill;
-    SXClippingView *_clippingView;
-    SXGradientView *_gradientView;
 }
 
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 - (struct CGRect)tIdentifier=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;
 @property(readonly, nonatomic) SXLinearGradientFill *gradientFill; // @synthesize gradientFill=_gradientFill;
-@property(readonly, nonatomic) SXGradientView *gradientView; // @synthesize gradientView=_gradientView;
 
 @end
 

@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackFieldOption, NSMutableArray, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPFeedbackSingleSelectField
 {
     PBDataReader *_reader;
-    NSMutableArray *_options;
-    GEORPFeedbackFieldOption *_selected;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_options:1;
-        unsigned int read_selected:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)elInfo:(id)arg1;
++ (Class)cks;
++ (_Bool)setLabelInfo:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -33,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)startingAlertBeepURL;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -42,17 +32,15 @@
 - (id);
 - (void);
 - (id)unknownFields"b1"read_displayString"b1"read_popularDisplayToken"b1"read_shortDisplayString"b1"read_styleAttributes"b1"read_subCategorys"b1"read_suggestionEntryMetadata"b1"wrote_anyField"b1};
-- (id)rdersQueryItemsForCountry:region: /* Error: Ran out of types for this method. */;
+- (id)buildDisputedBordersQueryItemsForCountry:region: /* Error: Ran out of types for this method. */;
 - (id)H;
-- (id)_HAS_DRIVEABLE_FORK_AT_END;
+- (id)ROAD_PROPERTY_HAS_DRIVEABLE_FORK_AT_END;
 - (void);
 - (void)°BAx@ÙTN@;
 - (id)v6;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSelected;
 @property(retain, nonatomic) NSMutableArray *options;
-@property(retain, nonatomic) GEORPFeedbackFieldOption *selected;
 
 @end
 

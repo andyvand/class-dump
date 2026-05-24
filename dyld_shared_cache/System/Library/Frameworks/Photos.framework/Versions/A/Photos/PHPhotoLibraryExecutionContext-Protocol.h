@@ -5,5 +5,6 @@
 //
 
 @protocol PHPhotoLibraryExecutionContext
+- (void)!(#  ;
 @end
 

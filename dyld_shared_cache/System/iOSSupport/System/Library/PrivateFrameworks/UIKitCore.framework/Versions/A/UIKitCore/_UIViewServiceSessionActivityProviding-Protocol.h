@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol _UIViewServiceSessionActivityProviding
+- (unsigned long long)newNicknameInfoToSend;
 - (NSUUID *);
 
 // Remaining properties

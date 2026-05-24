@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryDummyTimelineProducer, PXStoryTimelineProducerConfiguration;
+@class PXStoryDummyTimelineProducer;
 
 @interface PXStoryDummyTriggeredTimelineProducer
 {
     long long _numberOfIterations;
-    PXStoryDummyTimelineProducer *_timelineProducer;
-    long long _currentIteration;
-    PXStoryTimelineProducerConfiguration *_configuration;
-    CDUnknownBlockType _resultHandler;
 }
 
 - (id);
@@ -26,14 +22,10 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)ctionPerformer;
+- (void)PhotoKitClearRecentlySharedActionPerformer;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXStoryTimelineProducerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) long long currentIteration; // @synthesize currentIteration=_currentIteration;
-@property(readonly, nonatomic) long long numberOfIterations; // @synthesize numberOfIterations=_numberOfIterations;
-@property(copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 @property(readonly, nonatomic) PXStoryDummyTimelineProducer *timelineProducer; // @synthesize timelineProducer=_timelineProducer;
 
 @end

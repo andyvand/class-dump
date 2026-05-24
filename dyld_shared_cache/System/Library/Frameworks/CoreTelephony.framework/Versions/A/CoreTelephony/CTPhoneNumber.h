@@ -9,9 +9,6 @@
 @interface CTPhoneNumber
 {
     NSString *_digits;
-    NSString *_countryCode;
-    _Bool _isShortCode;
-    long long _slot;
 }
 
 + (id);
@@ -34,9 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSString *countryCode; // @synthesize countryCode=_countryCode;
 @property(readonly) NSString *digits; // @synthesize digits=_digits;
-@property _Bool isShortCode; // @synthesize isShortCode=_isShortCode;
 
 @end
 

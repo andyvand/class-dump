@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *deletedTimers;
-@property(readonly, nonatomic) unsigned long long deletedTimersCount;
 @end
 

@@ -8,13 +8,13 @@
 {
 }
 
-+ (void);
++ (void);
 + (void);
 + (id);
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)_uniqueIdentifierToObjectMapForObjects:(id)arg1 identifierBlock:(Class)arg2;
 + (void);
 + (id)Rejecting connection missing Suggestions entitlement; pid:%d, entitlementKey:%@ /* Error: Ran out of types for this method. */;
 

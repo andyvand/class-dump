@@ -7,10 +7,6 @@
 @interface BlastDoor.BlastDoorServer
 {
     id queue;
-    id connection;
-    id clients;
-    id requiresSynchronization;
-    id messageUnpackers;
 }
 
 @end

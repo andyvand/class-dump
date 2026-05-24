@@ -6,54 +6,29 @@
 
 #import <AVFCapture/AVCaptureVideoPreviewLayer.h>
 
-@class CALayer, NSArray, NSString;
-
 @interface AVSpatialOverCaptureVideoPreviewLayer : AVCaptureVideoPreviewLayer
 {
     struct os_unfair_lock_s _primaryCaptureRectLock;
-    struct CGPoint _primaryCaptureRectCenterPoint;
-    double _primaryCaptureRectAspectRatio;
-    double _primaryCaptureRectTrueVideoTransitionPercentComplete;
-    double _primaryCaptureRectSmartFramingTransitionPercentComplete;
-    NSString *_primaryCaptureRectSmartFramingTransitionTargetFieldOfView;
-    long long _primaryCaptureRectUniqueID;
-    _Bool _lastCamerasMountedInLandscapeOrientation;
-    _Bool _havePendingPrimaryCaptureRectChange;
-    struct CGRect _primaryCaptureRect;
-    struct CGRect _overCaptureRect;
-    struct CGSize _contentSize;
-    _Bool _primaryAndOverCaptureCompositingEnabled;
-    long long _overCaptureStatus;
-    _Bool _isPresentationLayer;
-    _Bool _automaticallyDimsOverCaptureRegion;
-    CALayer *_topDimmingOverlay;
-    CALayer *_bottomDimmingOverlay;
-    double _lastAspectCenterUpdateTime;
-    _Bool _semanticStyleRenderingSupported;
-    _Bool _semanticStyleRenderingEnabled;
-    NSArray *_semanticStyles;
-    NSArray *_semanticStylesRegions;
-    unsigned long long _maxSemanticStyles;
 }
 
 + (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)altimeSuggestionsTuple"8@?0;
+- (void)t;
 - (struct CGRect);
 - (long long);
 - (void);
 - (struct CGAffineTransform);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)24;
 - (void);
 - (id);
 - (struct CGPoint);
@@ -63,31 +38,24 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)odeERKNS2_2CFINS2_6SampleENS2_2cf6TraitsIS5_NS6_13PersonalitiesIS5_XtlNS2_12fixed_stringILm9EEEtlNS2_18basic_fixed_stringIcLm9ENS_11char_traitsIcEEEEtlA10_cLc77ELc82ELc67ELc83ELc97ELc109ELc112ELc108ELc101EEEEEJEEEEEEERKNS_8optionalINS_4spanIKNS2_5CFRefIPKNS4_INS2_6RegionENS7_ISO_NS8_ISO_XtlSA_tlSE_tlSF_Lc77ELc82ELc67ELc82ELc101ELc103ELc105ELc111ELc110EEEEEJEEEEEEEEELm18446744073709551615EEEEERNSL_INS2_5ErrorEEEENK3$_4clINS_8functionIFvRKNS3_4PassEEEENS_17basic_string_viewIcSD_EEiNS2_9symbology12ImplCategoryEmEEDaT_RKT0_T1_T2_T3_EUlvE_FvvEEE;
 - (_Bool);
 - (void);
 - (_Bool)0@ù
 × ;
 - (id)16@24I32B36;
-- (void)tCenterStageFramingMode:(struct OpaqueFigCaptureSession *)arg1;
+- (void)_setCenterStageFramingMode:(struct OpaqueFigCaptureSession *)arg1;
 - (void)pensationEnabled;
 - (long long)was released;
 - (id)terModules >>>> %s:Initialized device based module state for %{private}@ with Manual Framing support:%@, panning angle x:%f, y:%f, ZF:%f, MFDT:%ld, MFZC:%@ /* Error: Ran out of types for this method. */;
 - (double)rStageEnabled:%c for %{public}@ /* Error: Ran out of types for this method. */;
 - (void)>> %s:(_Bool)arg1 Modifying EXIF orientation from %d to %d, rotationDegrees %d imageMirrored %d;
 - (void)sociated with a session through a single AVCaptureDeviceInput;
-- (_Bool)equestIDKey;
-- (struct CGSize)urActive;
+- (_Bool)AVCaptureDeviceDynamicAspectRatioRequestIDKey;
+- (struct CGSize)backgroundBlurActive;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyDimsOverCaptureRegion;
-@property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) struct CGRect overCaptureRect; // @synthesize overCaptureRect=_overCaptureRect;
-@property(readonly, nonatomic) long long overCaptureStatus;
-@property(nonatomic, getter=isPrimaryAndOverCaptureCompositingEnabled) _Bool primaryAndOverCaptureCompositingEnabled;
-@property(readonly, nonatomic) struct CGRect primaryCaptureRect; // @synthesize primaryCaptureRect=_primaryCaptureRect;
-@property(readonly, nonatomic) double primaryCaptureRectAspectRatio;
 @property(readonly, nonatomic) struct CGPoint primaryCaptureRectCenterPoint;
 
 @end

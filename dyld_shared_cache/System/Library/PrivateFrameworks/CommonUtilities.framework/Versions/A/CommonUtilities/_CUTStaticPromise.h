@@ -11,11 +11,10 @@
 @interface _CUTStaticPromise : CUTPromise
 {
     CUTResult *_result;
-    _Bool _safe;
 }
 
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);

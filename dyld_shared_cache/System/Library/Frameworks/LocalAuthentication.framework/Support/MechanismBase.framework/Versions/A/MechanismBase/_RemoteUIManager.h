@@ -4,56 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACRemoteUIParams, NSDate, NSString, RemoteUIManagerConfig;
-@protocol LACRemoteUI, LACRemoteUIEndpointProvider;
+@class LACRemoteUIParams;
 
 @interface _RemoteUIManager
 {
     LACRemoteUIParams *_pendingRequest;
-    LACRemoteUIParams *_request;
-    id <LACRemoteUI> _dismissingUi;
-    CDUnknownBlockType _pendingShowUiReply;
-    CDUnknownBlockType _pendingUiActivationBlock;
-    _Bool _uiDismissedBeforeConnection;
-    _Bool _ignoreDeactivation;
-    int _showUiCounter;
-    int _dismissUiCounter;
-    RemoteUIManagerConfig *_config;
-    id <LACRemoteUIEndpointProvider> _endpointProvider;
-    NSDate *_latestAllowedUIExitTimestamp;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)requirement;
+- (void):(id)arg1 compute() - Layer uninitialized;
+- (void)eLayer:(long long)arg1:(id)arg2 initialize() - Zero size output;
+- (void)NGAUSSIANS;
+- (void)nly LOG type supported for weights (file %s);
+- (void)ChunkGaussianMixtureModelsHeader:(id)arg1:(id)arg2 readAscii()  - only LOG type supported for weights (file %s);
+- (void)ariances in GMIS (file %s);
+- (void)gure() - offset %d lies outside window %d;
+- (void)lled after sat_initialize();
+- (void)ze();
+- (void)only be called after initialize();
+- (id);
+- (void)ect:getsupervector() can only be called after initialize() /* Error: Ran out of types for this method. */;
+- (void)u
+best_end:%u
+best_score:%.3f
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id):timestamp: /* Error: Ran out of types for this method. */;
+- (id)appendCredentialHarvestingInfoWithSharedPrefs:stashState:toDict: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

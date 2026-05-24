@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowingTabGroupSidebarModel
 {
     id thumbnailSource;
-    id thumbnailDimWhenEditing;
-    id accessories;
 }
 
 @end

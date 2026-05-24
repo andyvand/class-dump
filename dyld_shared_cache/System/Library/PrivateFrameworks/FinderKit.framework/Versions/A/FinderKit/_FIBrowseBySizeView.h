@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FIBrowseBySizeGutsController, NSArray, NSURL;
+@class FIBrowseBySizeGutsController;
 @protocol _FIBrowseBySizeViewDelegate;
 
 @interface _FIBrowseBySizeView
 {
     id <_FIBrowseBySizeViewDelegate> _delegate;
-    FIBrowseBySizeGutsController *_controller;
 }
 
 + (void);
@@ -23,14 +22,14 @@
 - (id);
 - (void);
 - (id);
+- (id)initWithMessageListSelection:origin:actor:delegate:blockSender: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)`);
 - (_Bool);
 - (id);
 - (id);
@@ -41,11 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FIBrowseBySizeGutsController *controller; // @synthesize controller=_controller;
-@property id <_FIBrowseBySizeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSURL *directoryURL;
-@property(copy) NSArray *excludedURLs;
-@property(readonly) NSArray *selectedURLs;
-@property(readonly) unsigned long long trashSize;
 
 @end
 

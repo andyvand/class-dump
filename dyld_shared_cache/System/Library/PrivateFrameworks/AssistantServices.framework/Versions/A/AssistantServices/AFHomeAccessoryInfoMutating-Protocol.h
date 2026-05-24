@@ -5,5 +5,7 @@
 //
 
 @protocol AFHomeAccessoryInfoMutating
+- (void)urning nil setup assistant provisioning context.;
+- (void)";
 @end
 

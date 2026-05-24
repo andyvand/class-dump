@@ -8,19 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _NSClassAndClassInfo
 {
     Class _registryClass;
-    Class _objectClass;
-    unsigned long long _registryClassHash;
-    unsigned long long _objectClassHash;
-    unsigned long long _hash;
 }
 
-- (void);
+- (void)y 0x%llX - tag present;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)nForWindow:(struct _NSZone *)arg1;
+- (id)didEnterFullScreenForWindow:(struct _NSZone *)arg1;
 
 @end
 

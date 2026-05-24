@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKCurrencyAmount;
-
 @interface PKPhysicalCardPriceOption
 {
     unsigned long long _reason;
-    PKCurrencyAmount *_amount;
 }
 
 + (_Bool);
@@ -19,14 +16,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Failed"b1"sinceLastEnqueueHowManySuccess"b1"sinceLastSuccessHowManyFailed"b1"success"b1"successfulCompletionsAtLastCheck"b1};
+- (void)lbackSYNRst;
 - (void);
-- (void);
-- (id)nitWithRemoteURL:(id)arg1 scaleFactor: /* Error: Ran out of types for this method. */;
-- (void)lCardNumberIdentifier;
+- (id)initWithRemoteURL:(id)arg1 scaleFactor: /* Error: Ran out of types for this method. */;
+- (void)virtualCardNumberIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end

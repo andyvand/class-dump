@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSPredicate, NSSet;
-
 @interface _CDPredicateValidator
 {
     _Bool _validated;
-    NSPredicate *_predicate;
-    NSSet *_allowedKeys;
-    NSError *_error;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)initWithRequestParameters:remoteExtensionContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)initWithTitle:(id)arg1 price:currencyCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)4@32;
-- (_Bool)ionStatus;
+- (_Bool)keyPathForCellConnectionStatus;
 - (void);
 - (void)3\é;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedKeys; // @synthesize allowedKeys=_allowedKeys;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) _Bool validated; // @synthesize validated=_validated;
 
 @end

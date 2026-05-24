@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CBSoftwareUpdatePayloadInfo
 {
     unsigned char _softwareUpdateActionType;
-    NSData *_softwareUpdateDataBlob;
-    NSData *_softwareUpdateDataMask;
 }
 
 - (id);
@@ -20,14 +16,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)K;
+- (void)initWithIndexer:(id)arg1 index:spotlightDomainIdentifier:dropReason:delegate: /* Error: Ran out of types for this method. */;
+- (void)PLCLientLoggingConnectionQueue;
 
 // Remaining properties
 @property(nonatomic) unsigned char softwareUpdateActionType; // @synthesize softwareUpdateActionType=_softwareUpdateActionType;
-@property(copy, nonatomic) NSData *softwareUpdateDataBlob; // @synthesize softwareUpdateDataBlob=_softwareUpdateDataBlob;
-@property(copy, nonatomic) NSData *softwareUpdateDataMask; // @synthesize softwareUpdateDataMask=_softwareUpdateDataMask;
 
 @end
 

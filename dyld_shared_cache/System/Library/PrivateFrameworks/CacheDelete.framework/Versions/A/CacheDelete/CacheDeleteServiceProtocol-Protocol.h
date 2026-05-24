@@ -5,5 +5,8 @@
 //
 
 @protocol CacheDeleteServiceProtocol
+- (void);
+- (void);
+- (void);
 @end
 

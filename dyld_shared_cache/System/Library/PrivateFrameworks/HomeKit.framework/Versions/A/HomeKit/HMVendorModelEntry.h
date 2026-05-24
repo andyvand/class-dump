@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HMVendorModelEntry
 {
     NSString *_manufacturer;
-    NSString *_model;
-    NSString *_appBundleID;
-    NSString *_appStoreID;
-    NSString *_firmwareVersion;
-    NSString *_productData;
-    NSArray *_productDataAlternates;
 }
 
 + (id);
 + (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -27,43 +21,20 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)removed;
+- (id)dutiful;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)State;
+- (void)HMHomeWalletKeyDeviceState;
 - (id)edBackingStoreNotRunningDueToStopped:%@
             numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation:%@
 } /* Error: Ran out of types for this method. */;
-- (id)dyMS_HH2;
+- (id)siriReadyMS_HH2;
 
 // Remaining properties
-@property(readonly, copy) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(readonly, copy) NSString *appStoreID; // @synthesize appStoreID=_appStoreID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy) NSString *model; // @synthesize model=_model;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *productData; // @synthesize productData=_productData;
-@property(readonly, copy) NSArray *productDataAlternates; // @synthesize productDataAlternates=_productDataAlternates;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

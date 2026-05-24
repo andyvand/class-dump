@@ -7,7 +7,6 @@
 @interface ConversationKit.ScreenSharingControlStateManager__priv_437EB4956F8C313AB56D9B5E6A4F0C8C
 {
     id shareMenuButtonState;
-    id screenSharingAvailable;
 }
 
 @end

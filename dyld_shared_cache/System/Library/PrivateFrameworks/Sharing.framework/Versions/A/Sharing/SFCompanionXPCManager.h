@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFCompanionXPCManager
 {
     _Bool _invalid;
-    _Bool _interrupted;
-    int _listenerResumedToken;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_xpcSetupQueue;
-    NSMutableArray *_observers;
 }
 
 + (id);
@@ -40,28 +35,25 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)k;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ession][serverHandleIncomingData] totalResponsePacketLength:(CDUnknownBlockType)arg1 0x%x, responseCode:0x%x, responseDataLength:0x%x.
+ /* Error: Ran out of types for this method. */;
+- (void).
+;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void): /* Error: Ran out of types for this method. */;
 - (void)ert;
-- (_Bool)chSleepModeOn;
+- (_Bool)phoneAutoUnlockWatchSleepModeOn;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property _Bool interrupted; // @synthesize interrupted=_interrupted;
-@property(getter=isInvalid) _Bool invalid; // @synthesize invalid=_invalid;
-@property int listenerResumedToken; // @synthesize listenerResumedToken=_listenerResumedToken;
-@property(retain) NSMutableArray *observers; // @synthesize observers=_observers;
 @property(retain) NSObject<OS_dispatch_queue> *xpcSetupQueue; // @synthesize xpcSetupQueue=_xpcSetupQueue;
 
 @end

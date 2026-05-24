@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, FCCKPrivateDatabaseSchema, NSString;
+@class FCCKPrivateDatabaseSchema;
 
 @interface FCPrivateDataEncryptionMigrationHealthCheck
 {
     FCCKPrivateDatabaseSchema *_schema;
-    long long _toVersion;
-    CKContainer *_container;
-    CKContainer *_containerWithZoneWidePCS;
-    CKContainer *_secureContainer;
 }
 
 + (id);
@@ -36,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)"NSData"48;
 - (id)\²S;
 - (void)data but lookup result has no cursor;
 - (void)s in the database;
@@ -44,18 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) CKContainer *containerWithZoneWidePCS; // @synthesize containerWithZoneWidePCS=_containerWithZoneWidePCS;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FCCKPrivateDatabaseSchema *schema; // @synthesize schema=_schema;
-@property(retain, nonatomic) CKContainer *secureContainer; // @synthesize secureContainer=_secureContainer;
-@property(readonly) Class superclass;
-@property(nonatomic) long long toVersion; // @synthesize toVersion=_toVersion;
 
 @end
 

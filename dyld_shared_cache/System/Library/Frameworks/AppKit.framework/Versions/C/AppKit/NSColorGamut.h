@@ -12,23 +12,21 @@
 + (id);
 + (id);
 + (void)`®H;
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_propertyForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_initWithCFURLRequest:(id)arg1;
+- (id)_initWithCFURLProtectionSpace:(id)arg1;
+- (_Bool)released;
+- (_Bool)changed :(struct CGColor *)arg1 setting stream error to ENOTCONN;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (double)ChangeFrame:toFrame: /* Error: Ran out of types for this method. */;
-- (id)lightStyle:(struct _NSZone *)arg1 excludesBody:segmentType:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)windowWillChangeFrame:toFrame: /* Error: Ran out of types for this method. */;
+- (id)_highlightSegmentsForCharacterRange:(struct _NSZone *)arg1 highlightStyle:excludesBody:segmentType:usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool)¨;
 
 // Remaining properties
 @property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly, getter=isInfinite) _Bool infinite;
-@property(readonly) double volume;
 
 @end
 

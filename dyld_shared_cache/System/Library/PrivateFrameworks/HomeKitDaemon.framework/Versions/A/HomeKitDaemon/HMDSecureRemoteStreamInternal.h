@@ -4,42 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface HMDSecureRemoteStreamInternal
 {
     unsigned char _cipherReadKey[32];
-    unsigned char _cipherReadNonce[8];
-    unsigned char _cipherWriteKey[32];
-    unsigned char _cipherWriteNonce[8];
-    _Bool _commitResponded;
-    NSObject<OS_dispatch_source> *_idleTimer;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    CDUnknownBlockType _internalRequestHandler;
-    unsigned char _pairVerifyDone;
-    struct PairingSessionPrivate *_pairVerifySession;
-    NSMutableDictionary *_prepareRequests;
-    _Bool _prepareResponded;
-    NSString *_sessionID;
-    _Bool _started;
-    int _state;
-    NSMutableDictionary *_transactions;
-    NSMutableArray *_userTransactions;
-    CDUnknownBlockType _getLocalIdentityHandler;
-    CDUnknownBlockType _findPeerHandler;
-    CDUnknownBlockType _requestHandler;
-    CDUnknownBlockType _startedHandler;
-    CDUnknownBlockType _stoppedHandler;
-    CDUnknownBlockType _transportSendMessage;
-    long long _type;
-    NSObject<OS_dispatch_queue> *_userQueue;
-    unsigned long long _commitTimeoutNanos;
-    unsigned long long _clientIdleTimeoutNanos;
-    unsigned long long _serverIdleTimeoutNanos;
-    unsigned long long _sendInternalTimeoutNanos;
-    unsigned long long _sendUserTimeoutNanos;
 }
 
 + (id)
@@ -49,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (int);
+- (void);
+- (CDUnknownBlockType)setHasIconAttributeValue: /* Error: Ran out of types for this method. */;
+- (id)lastUpdated;
+- (CDUnknownBlockType)ShareETABlocklistMigration2022;
+- (int)\;
 - (void);
 - (int);
 - (void);
@@ -82,35 +50,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (CDUnknownBlockType);
+- (void)debugImageForColorAnalysis:(CDUnknownBlockType)arg1 inputImage:visibleFrame: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)event;
 - (void);
 - (id);
-- (void)kCredentialsForAccessoryWithIdentifier:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)pant;
+- (void)accessoryServerBrowser:getThreadNetworkCredentialsForAccessoryWithIdentifier:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_percentageOfUsersThatAreNotParticipant;
 - (void)nter type:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_userQueue;
-@property(copy) CDUnknownBlockType findPeerHandler; // @synthesize findPeerHandler=_findPeerHandler;
-@property(copy) CDUnknownBlockType getLocalIdentityHandler; // @synthesize getLocalIdentityHandler=_getLocalIdentityHandler;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType internalRequestHandler; // @synthesize internalRequestHandler=_internalRequestHandler;
-@property(copy) CDUnknownBlockType requestHandler; // @synthesize requestHandler=_requestHandler;
 @property(readonly) double requestTimeout;
-@property(copy) CDUnknownBlockType startedHandler; // @synthesize startedHandler=_startedHandler;
-@property(copy) CDUnknownBlockType stoppedHandler; // @synthesize stoppedHandler=_stoppedHandler;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType transportSendMessage; // @synthesize transportSendMessage=_transportSendMessage;
 
 @end
 

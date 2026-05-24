@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _LSBundleProvider, _LSLazyPropertyList, _LSStringsFileContent;
+@class _LSBundleProvider, _LSStringsFileContent;
 
 @interface _LSStringLocalizer
 {
     _LSStringsFileContent *_stringsContent;
-    _LSLazyPropertyList *_unlocalizedInfoPlistStrings;
-    NSArray *_bundleLocalizations;
-    NSArray *_bundleLocalizationsWithDefaultPrefLocs;
-    _LSBundleProvider *_bundleProvider;
 }
 
 + (_Bool);
 + (void);
 + (id);
++ (id);
++ (id);
++ (id)e;
 + (id);
 + (id);
 + (id);
++ (id):(id)arg1 ;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
 + (id);
-+ (void);
++ (void)9,;
 - (id);
 - (id);
 - (id);
@@ -45,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

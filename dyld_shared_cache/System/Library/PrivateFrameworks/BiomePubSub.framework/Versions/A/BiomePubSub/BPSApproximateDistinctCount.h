@@ -7,9 +7,6 @@
 @interface BPSApproximateDistinctCount
 {
     struct os_unfair_lock_s _lock;
-    struct hll_state *_hllState;
-    _Bool _countMapFull;
-    double _approximateDistinctCount;
 }
 
 + (_Bool);
@@ -21,14 +18,13 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)removePendingNotificationRequestsWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double approximateDistinctCount; // @synthesize approximateDistinctCount=_approximateDistinctCount;
-@property(nonatomic) _Bool countMapFull; // @synthesize countMapFull=_countMapFull;
 
 @end
 

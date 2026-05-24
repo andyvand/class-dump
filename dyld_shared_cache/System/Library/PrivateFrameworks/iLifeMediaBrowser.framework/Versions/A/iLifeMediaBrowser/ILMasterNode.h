@@ -11,7 +11,6 @@
 @interface ILMasterNode : ILObserverNode
 {
     NSString *path;
-    long long flags;
 }
 
 - (id);

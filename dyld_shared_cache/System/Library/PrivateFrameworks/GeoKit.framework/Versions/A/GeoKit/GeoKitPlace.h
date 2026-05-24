@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSNumber;
 
 @interface GeoKitPlace
 {
 }
 
-+ (id);
-+ (id);
-- (struct CGPoint);
-- (id);
-- (id);
-- (_Bool);
++ (id)}@;
++ (id)@] Retrying machine data proivsioning;
+- (struct CGPoint)verified account and can finish the authentication flow without needing to verify again.;
+- (id)public}@:[%{public}@] We already have a verified account and can finish the authentication flow without needing to verify again. /* Error: Ran out of types for this method. */;
+- (id)due to an error while fetching userId. error = %{public}@;
+- (_Bool)h type:(id)arg1 %ld account:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *embargo; // @dynamic embargo;
-@property(retain, nonatomic) NSNumber *geonameid; // @dynamic geonameid;
-@property(retain, nonatomic) NSNumber *latitude; // @dynamic latitude;
-@property(retain, nonatomic) NSSet *localizedNames; // @dynamic localizedNames;
 @property(retain, nonatomic) NSNumber *longitude; // @dynamic longitude;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSNumber *population; // @dynamic population;
 
 @end
 

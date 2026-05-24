@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection, SOHelperReceiver;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SOHelper
 {
     _Bool _isSuspended;
-    _Bool _defaultsInitalSyncComplete;
-    NSXPCConnection *_connection;
-    NSString *_name;
-    SOHelperReceiver *_receiver;
-    NSMutableArray *_blocksToRunOnConnection;
-    NSMutableArray *_blocksToRunOnFirstDefaultsSync;
-    NSMutableDictionary *_keyToBlocks;
-    NSObject<OS_dispatch_queue> *_helperDispatchQueue;
-    NSMutableDictionary *_controllerProperties;
-    NSMutableDictionary *_controllerDefaults;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)stringValue;
 - (void);
 - (void);
 - (void);
@@ -62,8 +51,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)initWithWorkPath:(_Bool)arg1 appIDHeader:dataClass:options: /* Error: Ran out of types for this method. */;
+- (void)_TtC12SiriOntology31UsoTaskBuilder_forward_ta_Email;
 - (void);
 - (void);
 - (id);
@@ -77,23 +66,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *blocksToRunOnConnection; // @synthesize blocksToRunOnConnection=_blocksToRunOnConnection;
-@property(retain) NSMutableArray *blocksToRunOnFirstDefaultsSync; // @synthesize blocksToRunOnFirstDefaultsSync=_blocksToRunOnFirstDefaultsSync;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSMutableDictionary *controllerDefaults; // @synthesize controllerDefaults=_controllerDefaults;
-@property(retain) NSMutableDictionary *controllerProperties; // @synthesize controllerProperties=_controllerProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool defaultsInitalSyncComplete; // @synthesize defaultsInitalSyncComplete=_defaultsInitalSyncComplete;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *helperDispatchQueue; // @synthesize helperDispatchQueue=_helperDispatchQueue;
-@property _Bool isSuspended; // @synthesize isSuspended=_isSuspended;
-@property(retain) NSMutableDictionary *keyToBlocks; // @synthesize keyToBlocks=_keyToBlocks;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) SOHelperReceiver *receiver; // @synthesize receiver=_receiver;
-@property(readonly) Class superclass;
 
 @end
 

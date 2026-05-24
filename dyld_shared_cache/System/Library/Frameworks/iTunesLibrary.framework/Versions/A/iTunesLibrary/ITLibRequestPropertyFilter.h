@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ITLibRequestPropertyFilter
 {
     NSArray *_keys;
-    NSString *_value;
-    long long _comparisonType;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)insertObject:(long long)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (void)ata:(id)arg1 '%@' format:%@> /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id):8@16B24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)/Accounts;
 
 // Remaining properties
-@property(nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;
 @property(retain, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObservation, NSObservationSource, NSString, UIGestureDelayedEventComponentDispatcher, UIGestureEnvironment, _UIForceLevelClassifier, _UITouchForceObservable;
-@protocol GFGestureNode, UIGestureRecognizerDelegate, _UIGestureRecognizerContainer;
-
 @interface UIGestureRecognizer
 {
     struct {
@@ -81,38 +78,6 @@
         unsigned int insideSetState:1;
         unsigned int subclassCanPrevent:1;
     } _gestureFlags;
-    NSMutableArray *_targets;
-    NSMutableArray *_delayedTouches;
-    NSMutableArray *_delayedPresses;
-    id <_UIGestureRecognizerContainer> _container;
-    double _lastTouchTimestamp;
-    double _firstEventTimestamp;
-    long long _state_DO_NOT_USE_DIRECTLY;
-    long long _allowedTouchTypes;
-    long long _initialTouchType;
-    NSMutableSet *_internalActiveTouches;
-    NSString *_name_DO_NOT_USE_DIRECTLY;
-    _UIForceLevelClassifier *_forceClassifier;
-    long long _requiredPreviewForceState;
-    _UITouchForceObservable *_touchForceObservable;
-    NSObservation *_touchForceObservableAndClassifierObservation;
-    NSMutableArray *_forceTargets;
-    unsigned long long _forcePressCount;
-    NSObservationSource *_beganObservable;
-    NSMutableSet *_failureRequirements;
-    NSMutableSet *_failureDependents;
-    NSMutableSet *_activeEvents;
-    unsigned long long _inputPrecision;
-    long long _buttonMask;
-    long long _modifierFlags;
-    unsigned long long _machTimeEnqueuedForReset;
-    _Bool _keepTouchesOnContinuation;
-    id <GFGestureNode> _node;
-    id _componentController;
-    id <UIGestureRecognizerDelegate> _delegate;
-    NSArray *_allowedPressTypes;
-    UIGestureEnvironment *_gestureEnvironment;
-    UIGestureDelayedEventComponentDispatcher *_delayedEventComponentDispatcher;
 }
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol WBSSandboxExtensionStore
+- (void);
 - (void)ferredIdentifier:(void (^)(void))arg1;
 @end
 

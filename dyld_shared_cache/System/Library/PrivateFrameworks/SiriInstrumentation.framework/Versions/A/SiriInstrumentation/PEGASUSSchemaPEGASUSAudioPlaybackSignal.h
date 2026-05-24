@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSAudioPlaybackSignal : SISchemaInstrumentationMessage
 {
     int _audioPlaybackQueueLocation;
-    float _audioPlaybackSpeed;
-    struct {
-        unsigned int audioPlaybackQueueLocation:1;
-        unsigned int audioPlaybackSpeed:1;
-    } _has;
 }
 
 - (void);
@@ -32,19 +25,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool).apple.messages.IMDPCommandDispatcher;
 - (id);
 - (id)0@ù
 × ;
-- (id)e;
-- (id)pportedUnicornMatchFlag: /* Error: Ran out of types for this method. */;
+- (id)_followUpAccessoryType;
+- (id)setIsSupportedUnicornMatchFlag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int audioPlaybackQueueLocation; // @synthesize audioPlaybackQueueLocation=_audioPlaybackQueueLocation;
-@property(nonatomic) float audioPlaybackSpeed; // @synthesize audioPlaybackSpeed=_audioPlaybackSpeed;
-@property(nonatomic) _Bool hasAudioPlaybackQueueLocation;
-@property(nonatomic) _Bool hasAudioPlaybackSpeed;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-
 @interface CKDProgressTracker
 {
     _Bool _hasCachedTotalBytes;
-    _Bool _hasCachedCompletedBytes;
-    double _lastItemPercentage;
-    unsigned long long _cachedTotalBytes;
-    unsigned long long _cachedCompletedBytes;
-    NSMapTable *_completedBytesByItems;
-    NSString *_trackingID;
 }
 
 + (unsigned long long);
@@ -30,10 +22,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (double);
-- (void);
+- (_Bool);
+- (void)dataForSearchableIndex:(id)arg1 itemIdentifier:typeIdentifier:options:error: /* Error: Ran out of types for this method. */;
+- (double)categoryRulesController:didReceiveSyncAllOverrideRules: /* Error: Ran out of types for this method. */;
+- (void)ction %lld has %lu total messages (%lu download, %lu copy, %lu delete);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -42,13 +34,7 @@
 - (void)è;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cachedCompletedBytes; // @synthesize cachedCompletedBytes=_cachedCompletedBytes;
-@property(nonatomic) unsigned long long cachedTotalBytes; // @synthesize cachedTotalBytes=_cachedTotalBytes;
-@property(retain, nonatomic) NSMapTable *completedBytesByItems; // @synthesize completedBytesByItems=_completedBytesByItems;
-@property(nonatomic) _Bool hasCachedCompletedBytes; // @synthesize hasCachedCompletedBytes=_hasCachedCompletedBytes;
 @property(nonatomic) _Bool hasCachedTotalBytes; // @synthesize hasCachedTotalBytes=_hasCachedTotalBytes;
-@property(nonatomic) double lastItemPercentage; // @synthesize lastItemPercentage=_lastItemPercentage;
-@property(retain, nonatomic) NSString *trackingID; // @synthesize trackingID=_trackingID;
 
 @end
 

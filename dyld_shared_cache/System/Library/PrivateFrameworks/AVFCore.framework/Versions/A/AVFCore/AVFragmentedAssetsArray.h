@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface AVFragmentedAssetsArray
 {
     unsigned long long _count;
-    unsigned long long _firstSequenceNumber;
-    NSMutableDictionary *_cachedFragments;
 }
 
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (unsigned long long);

@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CKUIImagePickerController
 {
     _Bool _wantsWindowedPresentation;
-    _Bool _preserveModalPresentationStyle;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)showWithDelayInWindow;
+- (void)setDivergedV1NeoMainKey:(_Bool)arg1;
+- (_Bool)encryptionStateChecker;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preserveModalPresentationStyle; // @synthesize preserveModalPresentationStyle=_preserveModalPresentationStyle;
-@property(nonatomic) _Bool shouldHidePresentingWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool wantsWindowedPresentation; // @synthesize wantsWindowedPresentation=_wantsWindowedPresentation;
 
 @end

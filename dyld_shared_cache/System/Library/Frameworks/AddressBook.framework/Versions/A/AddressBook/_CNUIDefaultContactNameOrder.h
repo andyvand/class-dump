@@ -6,12 +6,11 @@
 
 #import <AddressBook/CNUIContactNameOrder.h>
 
-@class ABUserDefaults, CNContact;
+@class ABUserDefaults;
 
 @interface _CNUIDefaultContactNameOrder : CNUIContactNameOrder
 {
     ABUserDefaults *_userDefaults;
-    CNContact *_contact;
 }
 
 - (id);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/lib/libobjc.A.dylib;
 - (void)qª°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) ABUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsFeed.DisposablePuzzleHistoryObserver__priv_890E25E2A3535B9D045F809794F0EAF8
 {
     id observer;
-    id keepAliveObject;
 }
 
 @end

@@ -4,51 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, NSArray, NSButton, NSString, NSTextField, NSTimer, NSUUID, SCDACoordinator, SSRVTUITrainingManager, SSRVoiceProfile, SUICIntelligentLightLayer, SUICOrbView, SiriUI.GMEnrollmentViewController, SiriUI.GMEnrollmentViewModel, SiriUICAPackageView, VTUIPagedLabel, VTUITickMarkView;
-@protocol VTUITrainingViewControllerDelegate;
+@class NSTextField;
 
 @interface VTUITrainingViewController
 {
     NSTextField *_statusLabel;
-    NSTextField *_preludeLabel;
-    NSButton *_endpointButton;
-    VTUITickMarkView *_tickMark;
-    SSRVTUITrainingManager *_trainingManager;
-    SSRVoiceProfile *_voiceProfile;
-    NSArray *_trainingPageInstructions;
-    unsigned long long _sessionId;
-    unsigned long long _retries;
-    _Bool _hasRetriedTraining;
-    long long _badMicRetryCount;
-    long long _AVVCRetryCount;
-    long long _timeoutRetryCount;
-    _Bool _hasCancelledTraining;
-    _Bool _waitingForSpeechNotification;
-    SCDACoordinator *_scdaCoordinator;
-    double _voiceOverCompletionTimeout;
-    _Bool _isTrainingWithRemoteDarwin;
-    SUICIntelligentLightLayer *_lightLayer;
-    SiriUICAPackageView *_burstView;
-    _Bool _hasCompletedTraining;
-    _Bool _systemIsEligibleForIntelligence;
-    _Bool _inBuddy;
-    NSString *_siriLanguageCode;
-    id <VTUITrainingViewControllerDelegate> _delegate;
-    long long _currentTrainingState;
-    NSArray *_remoteDarwinDeviceIdentifiersForTraining;
-    CDUnknownBlockType _voiceOverCompletionBlock;
-    NSTimer *_voiceOverCompletionTimer;
-    VTUIPagedLabel *_instructionPagedLabel;
-    NSUUID *_trainingAttemptUUID;
-    SUICOrbView *_orbView;
-    AVAudioPlayer *_audioPlayer;
-    SiriUI.GMEnrollmentViewController *_enrollmentViewController;
-    SiriUI.GMEnrollmentViewModel *_enrollmentViewModel;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)";
 - (void);
 - (_Bool);
 - (id);
@@ -100,9 +65,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)C;
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
@@ -121,41 +86,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)messageEntryViewDidDismissCustomizationPicker: /* Error: Ran out of types for this method. */;
+- (void)yStopSound;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) AVAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
 @property(nonatomic) long long currentTrainingState; // @synthesize currentTrainingState=_currentTrainingState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <VTUITrainingViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SiriUI.GMEnrollmentViewController *enrollmentViewController; // @synthesize enrollmentViewController=_enrollmentViewController;
-@property(retain, nonatomic) SiriUI.GMEnrollmentViewModel *enrollmentViewModel; // @synthesize enrollmentViewModel=_enrollmentViewModel;
-@property _Bool hasCompletedTraining; // @synthesize hasCompletedTraining=_hasCompletedTraining;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInBuddy) _Bool inBuddy; // @synthesize inBuddy=_inBuddy;
-@property(retain) VTUIPagedLabel *instructionPagedLabel; // @synthesize instructionPagedLabel=_instructionPagedLabel;
-@property(retain, nonatomic) SUICOrbView *orbView; // @synthesize orbView=_orbView;
-@property(copy, nonatomic) NSArray *remoteDarwinDeviceIdentifiersForTraining; // @synthesize remoteDarwinDeviceIdentifiersForTraining=_remoteDarwinDeviceIdentifiersForTraining;
-@property(copy, nonatomic) NSString *siriLanguageCode; // @synthesize siriLanguageCode=_siriLanguageCode;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool systemIsEligibleForIntelligence; // @synthesize systemIsEligibleForIntelligence=_systemIsEligibleForIntelligence;
-@property(retain, nonatomic) NSUUID *trainingAttemptUUID; // @synthesize trainingAttemptUUID=_trainingAttemptUUID;
-@property(copy) CDUnknownBlockType voiceOverCompletionBlock; // @synthesize voiceOverCompletionBlock=_voiceOverCompletionBlock;
-@property(retain) NSTimer *voiceOverCompletionTimer; // @synthesize voiceOverCompletionTimer=_voiceOverCompletionTimer;
 
 @end
 

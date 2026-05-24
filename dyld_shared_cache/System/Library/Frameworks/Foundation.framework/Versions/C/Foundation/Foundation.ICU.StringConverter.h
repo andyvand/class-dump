@@ -7,7 +7,6 @@
 @interface Foundation.ICU.StringConverter
 {
     id _converter;
-    id encoding;
 }
 
 @end

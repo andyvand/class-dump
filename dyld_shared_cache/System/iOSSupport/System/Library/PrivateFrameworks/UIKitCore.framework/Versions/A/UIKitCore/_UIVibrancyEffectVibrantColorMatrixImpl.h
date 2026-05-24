@@ -6,29 +6,22 @@
 
 #import <UIKitCore/_UIVibrancyEffectImpl.h>
 
-@class UIColor, _UIVibrantColorMatrixConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface _UIVibrancyEffectVibrantColorMatrixImpl : _UIVibrancyEffectImpl
 {
     long long _systemName;
-    _UIVibrantColorMatrixConfiguration *_lightConfiguration;
-    _UIVibrantColorMatrixConfiguration *_darkConfiguration;
-    UIColor *_reducedTransperancyColor;
-    UIColor *_tintColor;
-    _Bool _hasDarkVariant;
 }
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)chunkserver__get_chunk_keys_request__get_packed_size;
+- (unsigned long long);
 - (id);
 - (id)Ñ_Ð1Â0@ù
 × ;
 - (id);
 - (_Bool)nt"32@"NSDictionary"40@"<WebFormSubmissionListener>"48;
-- (void)er:(id)arg1;
+- (void)touchDragged:(id)arg1 withIdentifier: /* Error: Ran out of types for this method. */;
 - (void)ssHandler;
 - (_Bool)e version.;
 - (id)d notifications;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTranscriptBackgroundCommand, NSString;
+@class NSString;
 
 @interface BlastDoorTranscriptBackgroundStandaloneCommand
 {
@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)(F;
 - (id);
 - (void)h7E60?;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorTranscriptBackgroundCommand *command;
 @property(nonatomic, readonly) NSString *description;
 
 @end

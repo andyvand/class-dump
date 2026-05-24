@@ -7,14 +7,14 @@
 @class NSData, NSString;
 
 @protocol _SFPBSymbolImage
+- (void);
+- (void);
+- (int)primaryAppleAccountWithError: /* Error: Ran out of types for this method. */;
+- (int);
+- (NSData *)N,V_person;
+- (int);
 
 // Remaining properties
-@property(nonatomic) int backgroundColor;
-@property(nonatomic) int fillStyle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int primaryColor;
-@property(nonatomic) _Bool punchThroughBackground;
-@property(nonatomic) int secondaryColor;
 @property(copy, nonatomic) NSString *symbolName;
 @end
 

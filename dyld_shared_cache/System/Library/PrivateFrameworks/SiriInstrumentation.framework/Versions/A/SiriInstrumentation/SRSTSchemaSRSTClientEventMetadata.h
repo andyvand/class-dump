@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SRSTSchemaSRSTClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sessionId;
-    SISchemaUUID *_srstId;
-    _Bool _hasSessionId;
-    _Bool _hasSrstId;
 }
 
 - (id);
@@ -21,29 +18,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)!(i(;
+- (unsigned long long)removeAllHardwareOfferIDsWithReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardCollectionRowScope;
+- (_Bool)NSString *__strong);
 - (id);
 - (id);
-- (id)gNotification;
-- (id)yUsageMetadata;
+- (id)deleteIsLongNotification;
+- (id)_hasMemoryUsageMetadata;
 - (void)bcdÈd;
 - (void);
-- (_Bool)NREASON_FAIL_PROCESSING;
+- (_Bool)SRSTSTATETRANSITIONREASON_FAIL_PROCESSING;
 - (id)lmentUtteranceCompleted;
-- (void)reUpdate;
+- (void)timeInSecondsSinceSoftwareUpdate;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionId; // @synthesize hasSessionId=_hasSessionId;
-@property(nonatomic) _Bool hasSrstId; // @synthesize hasSrstId=_hasSrstId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) SISchemaUUID *srstId; // @synthesize srstId=_srstId;
 
 @end
 

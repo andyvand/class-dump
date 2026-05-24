@@ -9,24 +9,18 @@
 @interface CNPersistentStoreCoordinatorResult
 {
     _Bool _pristineDatabase;
-    _Bool _readOnly;
-    _Bool _didMigrate;
-    NSPersistentStoreCoordinator *_coordinator;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly) _Bool didMigrate; // @synthesize didMigrate=_didMigrate;
-@property(readonly, getter=isPristineDatabase) _Bool pristineDatabase; // @synthesize pristineDatabase=_pristineDatabase;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 
 @end
 

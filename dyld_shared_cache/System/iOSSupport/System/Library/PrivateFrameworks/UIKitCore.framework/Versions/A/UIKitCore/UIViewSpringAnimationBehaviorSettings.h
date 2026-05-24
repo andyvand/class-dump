@@ -4,55 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PTFrameRateRangeSettings;
-
 __attribute__((visibility("hidden")))
 @interface UIViewSpringAnimationBehaviorSettings
 {
     _Bool _smoothingAndProjectionEnabled;
-    long long _behaviorType;
-    NSString *_name;
-    double _deceleration;
-    double _dampingRatio;
-    double _response;
-    double _retargetImpulse;
-    double _trackingDampingRatio;
-    double _trackingResponse;
-    double _trackingRetargetImpulse;
-    double _dampingRatioSmoothing;
-    double _responseSmoothing;
-    double _trackingDampingRatioSmoothing;
-    double _trackingResponseSmoothing;
-    double _inertialTargetSmoothingRatio;
-    double _inertialProjectionDeceleration;
-    PTFrameRateRangeSettings *_preferredFrameRateRange;
 }
 
++ (id);
 + (id);
-+ (id);
+- (double)setResponseHandlers: /* Error: Ran out of types for this method. */;
+- (double)setResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (double)setResourceIntensive: /* Error: Ran out of types for this method. */;
+- (double)setRequestPersistentMenu: /* Error: Ran out of types for this method. */;
+- (double)setRequestIDToResultMap: /* Error: Ran out of types for this method. */;
+- (_Bool)purgedAttachmentsCountForChatsWithChatIdentifiers:services: /* Error: Ran out of types for this method. */;
+- (void)initWithSyndicationType:(double)arg1 messagePartRange:syndicationStartDate:syndicationStatus:assetDescriptor: /* Error: Ran out of types for this method. */;
+- (void)initWithSyncedSettingsManager:(double)arg1 spamFilterHelper: /* Error: Ran out of types for this method. */;
+- (void)initWithSyncedSettingsManager:(double)arg1 spamFilterHelper: /* Error: Ran out of types for this method. */;
+- (void)initWithSubscriptionValidationToken:(double)arg1 encryptionValidationToken: /* Error: Ran out of types for this method. */;
+- (void)initWithSubscriptionValidationToken:(double)arg1 encryptionValidationToken: /* Error: Ran out of types for this method. */;
+- (void)includesWallpaperData;
+- (void)fileTransferDownloadedSucceededWithLocalURL:(double)arg1;
+- (void)fileTransfer:(double)arg1 createdWithProperties: /* Error: Ran out of types for this method. */;
+- (void)callerIDShouldBeCheckedForRegistration:(double)arg1;
+- (void)_storeSpamCompletionBlock:forMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)_sizeLimitsForTransfer:(double)arg1 bigSize:smallSize: /* Error: Ran out of types for this method. */;
+- (double)_canSend;
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)p_;
 - (double);
 - (id);
 - (void);
@@ -62,8 +44,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)chunkserver__put_complete_at_edge_payload_trailer__get_packed_size;
+- (id)podShURL;
 - (struct CAFrameRateRange);
 - (id);
 - (unsigned long long);
@@ -72,10 +54,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!¨Cù±g1Â0@ù
 × ;
-- (_Bool)onTorque:(id)arg1;
-- (void)BarEffectivelyHidden;
-- (void)ingView;
-- (CDStruct_aa45ca86)ContentSize3D;
+- (_Bool)setFrictionTorque:(id)arg1;
+- (void)isTabBarEffectivelyHidden;
+- (void)_ringView;
+- (CDStruct_aa45ca86)_placeholderContentSize3D;
 - (id)_defaultRenderingMode;
 - (void)Controller;
 - (id)es;
@@ -88,29 +70,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long behaviorType; // @synthesize behaviorType=_behaviorType;
-@property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;
-@property(nonatomic) double dampingRatioSmoothing; // @synthesize dampingRatioSmoothing=_dampingRatioSmoothing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double deceleration; // @synthesize deceleration=_deceleration;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double inertialProjectionDeceleration; // @synthesize inertialProjectionDeceleration=_inertialProjectionDeceleration;
-@property(nonatomic) double inertialTargetSmoothingRatio; // @synthesize inertialTargetSmoothingRatio=_inertialTargetSmoothingRatio;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) PTFrameRateRangeSettings *preferredFrameRateRange; // @synthesize preferredFrameRateRange=_preferredFrameRateRange;
-@property(nonatomic) double response; // @synthesize response=_response;
-@property(nonatomic) double responseSmoothing; // @synthesize responseSmoothing=_responseSmoothing;
-@property(nonatomic) double retargetImpulse; // @synthesize retargetImpulse=_retargetImpulse;
-@property(nonatomic) _Bool smoothingAndProjectionEnabled; // @synthesize smoothingAndProjectionEnabled=_smoothingAndProjectionEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) double trackingDampingRatio; // @synthesize trackingDampingRatio=_trackingDampingRatio;
-@property(nonatomic) double trackingDampingRatioSmoothing; // @synthesize trackingDampingRatioSmoothing=_trackingDampingRatioSmoothing;
-@property(nonatomic) double trackingResponse; // @synthesize trackingResponse=_trackingResponse;
-@property(nonatomic) double trackingResponseSmoothing; // @synthesize trackingResponseSmoothing=_trackingResponseSmoothing;
-@property(nonatomic) double trackingRetargetImpulse; // @synthesize trackingRetargetImpulse=_trackingRetargetImpulse;
 
 @end
 

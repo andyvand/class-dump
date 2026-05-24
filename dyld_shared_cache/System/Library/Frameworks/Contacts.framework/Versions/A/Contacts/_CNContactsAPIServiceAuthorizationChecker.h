@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol CNTCC, OS_os_log;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface _CNContactsAPIServiceAuthorizationChecker
 {
     NSXPCConnection *_connection;
-    NSObject<OS_os_log> *_log;
-    id <CNTCC> _tccServices;
-    _Bool _hasCheckedAccessStatus;
-    long long _status;
-    _Bool _allowContactProvidersWithoutTCCApproval;
 }
 
 - (void);

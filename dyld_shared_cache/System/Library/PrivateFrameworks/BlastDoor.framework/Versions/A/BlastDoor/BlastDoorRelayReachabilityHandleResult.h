@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMBDBrandLogo, NSDictionary, NSString;
+@class NSString;
 
 @interface BlastDoorRelayReachabilityHandleResult
 {
@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Y!;
+- (id)=dd}}24@56@64;
+- (id)conversation. presentDeleteAndBlockAlert:%{bool}d, presentStopSharingLocationAlert:%{bool}d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -23,14 +23,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *brandInfo;
-@property(nonatomic, readonly) BlastDoorMBDBrandLogo *brandLogo;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *handleID;
-@property(nonatomic, readonly) _Bool isReachable;
-@property(nonatomic, readonly) NSDictionary *persistentMenu;
-@property(nonatomic, readonly) NSString *service;
-@property(nonatomic, readonly) _Bool supportsEncryption;
 
 @end
 

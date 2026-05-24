@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotMediaFingerprint, CTLazuliChatBotMediaUrl;
+@class CTLazuliChatBotMediaUrl;
 
 @interface CTLazuliChatBotMedia
 {
     CTLazuliChatBotMediaUrl *_mediaUrl;
-    CTLazuliChatBotMediaFingerprint *_fingerprint;
 }
 
-+ (_Bool);
++ (_Bool)@>;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)4M;
 - (void)× ;
 - (void)±ª)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotMediaFingerprint *fingerprint; // @synthesize fingerprint=_fingerprint;
 @property(retain, nonatomic) CTLazuliChatBotMediaUrl *mediaUrl; // @synthesize mediaUrl=_mediaUrl;
 
 @end

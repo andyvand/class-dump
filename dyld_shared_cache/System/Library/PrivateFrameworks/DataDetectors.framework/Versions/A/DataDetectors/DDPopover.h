@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDActionContext, NSString;
+@class DDActionContext;
 
 __attribute__((visibility("hidden")))
 @interface DDPopover
 {
     DDActionContext *_ddcontext;
-    _Bool _opened;
-    _Bool _detaching;
-    unsigned long long _ddEdge;
-    struct CGRect _ddRect;
 }
 
 - (void);
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -33,14 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long ddEdge; // @synthesize ddEdge=_ddEdge;
-@property(readonly) struct CGRect ddRect; // @synthesize ddRect=_ddRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

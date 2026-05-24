@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, AXKApplicationController, AXKElementController, AXKWorkspaceManager, NSArray, NSLock, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface AXKKeyboardFocusTracker
 {
     _Bool _started;
-    AXKApplicationController *__keyboardFocusedApplicationController;
-    AXKElementController *__keyboardFocusedElementController;
-    NSArray *__selectedElementControllers;
-    AXKApplicationController *__dockApplicationController;
-    AXKElementController *__dockProcessSwitcherListElementController;
-    AXKElementController *__launchPadGridElementController;
-    AXKApplicationController *__spotlightApplicationController;
-    AXKElementController *__sharedKeyboardFocusedElementController;
-    NSArray *__sharedKeyboardFocusedElementSelectedElementControllers;
-    AXFUIElement *__originalSharedElement;
-    NSMutableSet *__listenerWrappers;
-    NSLock *__propertyLock;
-    NSObject<OS_dispatch_queue> *__trackerQueue;
-    NSObject<OS_dispatch_queue> *__delegateQueue;
-    AXKWorkspaceManager *__workspaceManager;
 }
 
-+ (id);
++ (id)horizontalScroller;
 - (void);
 - (void);
 - (void);
@@ -40,45 +22,27 @@
 - (id);
 - (id);
 - (void);
+- (void)c	;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)qA;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -86,45 +50,41 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)2*%;
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)qA;
+- (void);
+- (void);
+- (id)T;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)eation of service connection:can cheaply read all basic information /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)setImageSymbolName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_delegateQueue; // @synthesize _delegateQueue=__delegateQueue;
-@property(retain, nonatomic, setter=_setDockApplicationController:) AXKApplicationController *_dockApplicationController; // @synthesize _dockApplicationController=__dockApplicationController;
-@property(retain, nonatomic, setter=_setDockProcessSwitcherListElementController:) AXKElementController *_dockProcessSwitcherListElementController; // @synthesize _dockProcessSwitcherListElementController=__dockProcessSwitcherListElementController;
-@property(retain, nonatomic, setter=_setKeyboardFocusedApplicationController:) AXKApplicationController *_keyboardFocusedApplicationController; // @synthesize _keyboardFocusedApplicationController=__keyboardFocusedApplicationController;
-@property(retain, nonatomic, setter=_setKeyboardFocusedElementController:) AXKElementController *_keyboardFocusedElementController; // @synthesize _keyboardFocusedElementController=__keyboardFocusedElementController;
-@property(retain, nonatomic, setter=_setLaunchPadGridElementController:) AXKElementController *_launchPadGridElementController; // @synthesize _launchPadGridElementController=__launchPadGridElementController;
-@property(readonly, nonatomic) NSMutableSet *_listenerWrappers; // @synthesize _listenerWrappers=__listenerWrappers;
-@property(retain, nonatomic) AXFUIElement *_originalSharedElement; // @synthesize _originalSharedElement=__originalSharedElement;
-@property(retain, nonatomic) NSLock *_propertyLock; // @synthesize _propertyLock=__propertyLock;
-@property(copy, nonatomic, setter=_setSelectedElementControllers:) NSArray *_selectedElementControllers; // @synthesize _selectedElementControllers=__selectedElementControllers;
-@property(retain, nonatomic, setter=_setSharedKeyboardFocusedElementController:) AXKElementController *_sharedKeyboardFocusedElementController; // @synthesize _sharedKeyboardFocusedElementController=__sharedKeyboardFocusedElementController;
-@property(copy, nonatomic, setter=_setSharedKeyboardFocusedElementSelectedElementControllers:) NSArray *_sharedKeyboardFocusedElementSelectedElementControllers; // @synthesize _sharedKeyboardFocusedElementSelectedElementControllers=__sharedKeyboardFocusedElementSelectedElementControllers;
-@property(retain, nonatomic, setter=_setSpotlightApplicationController:) AXKApplicationController *_spotlightApplicationController; // @synthesize _spotlightApplicationController=__spotlightApplicationController;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_trackerQueue; // @synthesize _trackerQueue=__trackerQueue;
-@property(retain, nonatomic) AXKWorkspaceManager *_workspaceManager; // @synthesize _workspaceManager=__workspaceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

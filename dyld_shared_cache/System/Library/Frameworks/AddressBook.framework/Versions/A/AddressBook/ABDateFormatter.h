@@ -9,7 +9,6 @@
 @interface ABDateFormatter
 {
     NSString *_fullDateFormatString;
-    NSString *_yearlessDateFormatString;
 }
 
 + (_Bool);
@@ -23,7 +22,7 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)mponents:(id)arg1;
+- (id)addConvertedBirthdayComponents:(id)arg1;
 
 @end
 

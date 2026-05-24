@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWNetwork, NSDate, NSDictionary;
+@class NSDate;
 
 @interface CWANQPElement
 {
     NSDate *_timestamp;
-    CWNetwork *_network;
-    unsigned long long _type;
-    NSDictionary *_anqpResult;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id),D;
 - (id);
 - (void);
 - (id);
@@ -28,18 +25,16 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)_;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)verify failed:%#m
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *anqpResult; // @synthesize anqpResult=_anqpResult;
-@property(copy, nonatomic) CWNetwork *network; // @synthesize network=_network;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

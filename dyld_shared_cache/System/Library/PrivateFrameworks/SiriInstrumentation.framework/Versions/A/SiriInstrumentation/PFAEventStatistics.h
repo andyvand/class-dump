@@ -6,23 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFAEventStatistics : SISchemaInstrumentationMessage
 {
     unsigned int _ordinal;
-    unsigned int _messageCount;
-    struct {
-        unsigned int ordinal:1;
-        unsigned int messageCount:1;
-    } _has;
 }
 
+- (void)(;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (unsigned int);
 - (void);
 - (void);
@@ -32,18 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h index %d;
 - (id);
 - (id)rð!\Gù±Ý°1Â0@ù
 × ;
-- (id)uageVariantName;
+- (id)_hasLanguageVariantName;
 - (id),N,V_hasActionIdentifier;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMessageCount;
-@property(nonatomic) _Bool hasOrdinal;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
 @property(nonatomic) unsigned int ordinal; // @synthesize ordinal=_ordinal;
 
 @end

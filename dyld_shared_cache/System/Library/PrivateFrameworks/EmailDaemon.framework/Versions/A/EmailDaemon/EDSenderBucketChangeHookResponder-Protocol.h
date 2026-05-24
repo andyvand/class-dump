@@ -5,5 +5,8 @@
 //
 
 @protocol EDSenderBucketChangeHookResponder
+
+@optional
+- (void);
 @end
 

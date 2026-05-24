@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)isWritingToolsAvailable;
 + (void);
-- (id);
+- (id)PKPassViewAccessibility;
 
 @end
 

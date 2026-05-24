@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRTextEditingAttributes, NSData;
+@class MRTextEditingAttributes;
 
 @interface MRKeyboardMessage : MRProtocolMessage
 {
@@ -17,14 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)movedMessagesWithGUIDsToRecentlyDeleted;
+- (unsigned long long);
 - (id);
-- (void)tion;
+- (void)resetConnection;
 
 // Remaining properties
-@property(readonly, nonatomic) MRTextEditingAttributes *attributes;
-@property(readonly, nonatomic) NSData *encryptedTextCyphertext;
 @property(readonly, nonatomic) unsigned long long state;
 
 @end

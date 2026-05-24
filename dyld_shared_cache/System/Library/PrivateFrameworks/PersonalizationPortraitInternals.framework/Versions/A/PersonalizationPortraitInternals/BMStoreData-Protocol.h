@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol BMStoreData
+
+@optional
++ (unsigned int)B;
+- (NSData *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int dataVersion;

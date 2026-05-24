@@ -9,16 +9,11 @@
 @interface TSTMergeRegionMapIterator
 {
     TSTMergeRegionMap *mMergeRegionMap;
-    struct __hash_map_iterator<std::__hash_iterator<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>> {
-        struct __hash_iterator<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*> {
-            void *__node_;
-        } __i_;
-    } mMergeRegionIterator;
 }
 
 - (id);
 - (_Bool);
-- (CDStruct_5f1f7aa9);
+- (CDStruct_f5d1269f);
 - (void);
 - (void);
 - (id);

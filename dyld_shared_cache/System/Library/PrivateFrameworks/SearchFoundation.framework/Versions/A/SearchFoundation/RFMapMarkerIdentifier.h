@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface RFMapMarkerIdentifier
 {
     struct {
         unsigned int isForCameraPositionOnly:1;
     } _has;
-    _Bool _isForCameraPositionOnly;
-    NSString *_muid;
-    NSString *_resultProviderID;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)e=dd}}16;
+- (id)isResolvableParticipant;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)sortedArrayUsingFunction:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)tes.faceCount;
 - (id);
 - (id);
 - (void)t",&,N,V_score;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForCameraPositionOnly; // @synthesize isForCameraPositionOnly=_isForCameraPositionOnly;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *muid; // @synthesize muid=_muid;
-@property(copy, nonatomic) NSString *resultProviderID; // @synthesize resultProviderID=_resultProviderID;
-@property(readonly) Class superclass;
 
 @end
 

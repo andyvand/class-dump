@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTokenizedMathResult, NSArray, NSNumber, NSSet, NSString, NSUUID, PKMathRecognitionItemAttributes, PKStroke, PKStrokeGroupItem;
+@class NSArray, PKStrokeGroupItem;
 
 @interface PKMathRecognitionItem
 {
     PKStrokeGroupItem *_strokeGroupItem;
-    PKStroke *_heroStroke;
-    NSArray *_scrubbableVariables;
-    NSString *_updatedExpression;
-    double _updateTimestamp;
-    _Bool _isGraphable;
-    NSArray *_graphableVariables;
-    NSArray *_availableTranscriptionPaths;
-    _Bool _shouldBeSolved;
-    _Bool _isEvaluationExpected;
-    _Bool _isVerticalExpression;
-    _Bool _shouldSolveMathFlagIsSet;
-    _Bool _disallowVariableScrubbing;
-    NSString *_expression;
-    NSUUID *_uuid;
-    double _sortIndex;
-    NSArray *_allTokens;
-    NSNumber *_stableIdentifier;
-    NSNumber *_changeIdentifier;
-    double _suggestedHeightForResult;
-    double _suggestedDistanceBetweenDigits;
-    PKMathRecognitionItemAttributes *_attributes;
-    struct CGRect _bounds;
 }
 
 - (id);
@@ -42,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -106,62 +84,17 @@
 - (void);
 - (double);
 - (id);
-- (struct CGRect);
+- (struct CGRect)P;
 - (id);
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (void)oubleTap;
+- (void)didDoubleTap;
 - (void)t1;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allTokens; // @synthesize allTokens=_allTokens;
-@property(readonly, nonatomic) NSArray *alternativesTokens;
-@property(copy, nonatomic) PKMathRecognitionItemAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) struct CGRect boundsForAnyEqualSign;
-@property(readonly, nonatomic) struct CGRect boundsForEqualSign;
-@property(readonly, nonatomic) struct CGRect boundsForTriggerStrokes;
-@property(readonly, nonatomic) struct CGRect boundsForVerticalExpressionLine;
-@property(retain, nonatomic) NSNumber *changeIdentifier; // @synthesize changeIdentifier=_changeIdentifier;
-@property(readonly, nonatomic) struct _NSRange characterRangeForTriggerSymbol;
-@property(readonly, nonatomic) _Bool disallowVariableScrubbing; // @synthesize disallowVariableScrubbing=_disallowVariableScrubbing;
-@property(readonly, nonatomic) NSString *expression; // @synthesize expression=_expression;
-@property(readonly, nonatomic) NSString *expressionToPresent;
-@property(readonly, nonatomic) NSArray *graphableVariables;
-@property(readonly, nonatomic) _Bool hasAnyErrors;
-@property(readonly, nonatomic) _Bool hasAnyErrorsOrAlternatives;
-@property(readonly, nonatomic) _Bool hasAnyTrignometry;
-@property(readonly, nonatomic) PKStroke *heroStroke;
-@property(readonly, nonatomic) _Bool isEvaluationExpected; // @synthesize isEvaluationExpected=_isEvaluationExpected;
-@property(readonly, nonatomic) _Bool isGraphable;
-@property(readonly, nonatomic) _Bool isGraphable2D;
-@property(readonly, nonatomic) _Bool isGraphable3D;
-@property(readonly, nonatomic) _Bool isLowConfidenceMath;
-@property(readonly, nonatomic) _Bool isRecentlyCreated;
-@property(readonly, nonatomic) _Bool isRecentlyModified;
-@property(readonly, nonatomic) _Bool isVerticalExpression; // @synthesize isVerticalExpression=_isVerticalExpression;
-@property(readonly, nonatomic) CHTokenizedMathResult *mathResult;
-@property(readonly, nonatomic) double mostRecentStrokeTimestamp;
-@property(readonly, nonatomic) NSString *originalExpression;
-@property(readonly, nonatomic) NSArray *scrubbableVariables;
-@property(readonly, nonatomic) _Bool shouldBeSolved; // @synthesize shouldBeSolved=_shouldBeSolved;
-@property(nonatomic) _Bool shouldSolveMathFlagIsSet; // @synthesize shouldSolveMathFlagIsSet=_shouldSolveMathFlagIsSet;
-@property(nonatomic) double sortIndex; // @synthesize sortIndex=_sortIndex;
-@property(retain, nonatomic) NSNumber *stableIdentifier; // @synthesize stableIdentifier=_stableIdentifier;
-@property(readonly, nonatomic) NSNumber *strokeGroupIdentifier;
-@property(readonly, nonatomic) NSSet *strokeUUIDs;
-@property(readonly, nonatomic) NSArray *strokes;
 @property(readonly, nonatomic) NSArray *strokesForEqualSign;
-@property(readonly, nonatomic) NSArray *strokesForIdentifier;
-@property(readonly, nonatomic) NSArray *strokesForVerticalExpressionLine;
-@property(nonatomic) double suggestedDistanceBetweenDigits; // @synthesize suggestedDistanceBetweenDigits=_suggestedDistanceBetweenDigits;
-@property(nonatomic) double suggestedHeightForResult; // @synthesize suggestedHeightForResult=_suggestedHeightForResult;
-@property(readonly, nonatomic) NSArray *symbolStrokes;
-@property(readonly, nonatomic) NSArray *tappableStrokes;
-@property(readonly, nonatomic) NSArray *triggerStrokes;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

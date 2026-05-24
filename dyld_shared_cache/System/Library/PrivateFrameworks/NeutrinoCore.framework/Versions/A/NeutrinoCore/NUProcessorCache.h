@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSObject, NSString, NUColorSpace, NUPixelFormat;
-@protocol MTLEvent, MTLTexture, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface NUProcessorCache
 {
     NSObject<OS_dispatch_queue> *_textureCacheQueue;
-    id <MTLTexture> _cachedTexture;
-    id <MTLEvent> _textureCachedEvent;
-    NSString *_label;
-    NUColorSpace *_colorSpace;
-    NUPixelFormat *_pixelFormat;
-    CIImage *_inputImage;
 }
 
 - (void);
@@ -31,14 +25,10 @@
 × ;
 - (void)
 × ;
-- (id)nDictionary: /* Error: Ran out of types for this method. */;
+- (id)coefficientTextureSizeForConfigurationDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) CIImage *outputImage;
-@property(retain, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBLocation, _INPBString;
+@class _INPBLocation;
 
 @protocol _INPBRetrieveParkingLocationIntentResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasParkingLocation;
-@property(readonly, nonatomic) _Bool hasParkingNote;
 @property(retain, nonatomic) _INPBLocation *parkingLocation;
-@property(retain, nonatomic) _INPBString *parkingNote;
 @end
 

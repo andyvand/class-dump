@@ -10,9 +10,9 @@
 }
 
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
-- (void);
+- (void)ڑ;
 - (void);
 - (id);
 

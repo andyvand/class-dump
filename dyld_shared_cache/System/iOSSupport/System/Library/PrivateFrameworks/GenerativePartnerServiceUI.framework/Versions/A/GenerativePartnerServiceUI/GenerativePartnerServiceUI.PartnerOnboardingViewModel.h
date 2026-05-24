@@ -8,13 +8,6 @@
 {
     id _selection;
     id _previouslyActiveProvider;
-    id _path;
-    id _showEnablementConfirmation;
-    id _enablementConfirmationConfiguration;
-    id _dismissAction;
-    id _showEnablementConfirmationIfNeededAction;
-    id retainedReferences;
-    id _$observationRegistrar;
 }
 
 @end

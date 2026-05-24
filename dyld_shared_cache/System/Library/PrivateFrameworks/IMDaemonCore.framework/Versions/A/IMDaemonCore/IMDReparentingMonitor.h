@@ -7,13 +7,11 @@
 @interface IMDReparentingMonitor
 {
     id queue;
-    id registrationQueue;
-    id state;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)c;
 - (void)Starting muted chat list rebuild with %ld identifiers;
 
 @end

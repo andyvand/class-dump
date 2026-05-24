@@ -6,38 +6,31 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPSharedObjectMetadata : LPSpecializationMetadata
 {
     _Bool _isCollaboration;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_information;
-    LPImage *_icon;
-    LPSpecializationMetadata *_specialization;
 }
 
 + (id);
 + (_Bool);
+- (id)U;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (void)@ FROM %@ WHERE %@ == :(id)arg1 message;
 - (void);
-- (void);
-- (id);
+- (id)PCS data from database;
 - (id);
 - (void);
 - (_Bool);
@@ -50,19 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *information; // @synthesize information=_information;
-@property(nonatomic) _Bool isCollaboration; // @synthesize isCollaboration=_isCollaboration;
-@property(retain, nonatomic) LPSpecializationMetadata *specialization; // @synthesize specialization=_specialization;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

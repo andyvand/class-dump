@@ -11,7 +11,7 @@
 
 + (unsigned long long);
 + (const char *);
-- (void);
+- (void)<CGImageMetadataTag 0x[0-9a-f]*> ;
 - (id);
 - (void *);
 - (_Bool)lic}lu;

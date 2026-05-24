@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface XCTElementSetCodableTransformer
 {
     _Bool _stopsOnFirstMatch;
-    NSString *_transformationDescription;
 }
 
 + (void);
@@ -21,29 +20,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (void);
-- (id);
+- (id)@@?;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *elementTypes;
-@property(readonly) unsigned long long hash;
-@property _Bool stopsOnFirstMatch; // @synthesize stopsOnFirstMatch=_stopsOnFirstMatch;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAttributeKeyPathAnalysis;
 @property(copy) NSString *transformationDescription; // @synthesize transformationDescription=_transformationDescription;
 
 @end

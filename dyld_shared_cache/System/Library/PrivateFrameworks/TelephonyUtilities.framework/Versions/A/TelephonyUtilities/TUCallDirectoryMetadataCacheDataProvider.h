@@ -9,25 +9,21 @@
 @interface TUCallDirectoryMetadataCacheDataProvider : TUMetadataCacheDataProvider
 {
     _Bool _cacheOnly;
-    CDUnknownBlockType _countryDialingCode;
-    CDUnknownBlockType _firstIdentificationEntriesForEnabledExtensions;
 }
 
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)C;
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)ghtEnabledDidChange: /* Error: Ran out of types for this method. */;
+- (void)provider:studioLightEnabledDidChange: /* Error: Ran out of types for this method. */;
 - (id)pK;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cacheOnly; // @synthesize cacheOnly=_cacheOnly;
 @property(copy, nonatomic) CDUnknownBlockType countryDialingCode; // @synthesize countryDialingCode=_countryDialingCode;
-@property(copy, nonatomic) CDUnknownBlockType firstIdentificationEntriesForEnabledExtensions; // @synthesize firstIdentificationEntriesForEnabledExtensions=_firstIdentificationEntriesForEnabledExtensions;
 
 @end
 

@@ -6,17 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIReductionFilter : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputExtent;
 }
 
 + (id);
-- (id);
+- (id)S?;
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)xxsx_ohtji`mlkbllrkuz}xhrixzzyz`vpzzvktoygkbqbnftIeZzq~z¦¦¦¦££££avs}dg_kllklavt}j§§§§©®®¨¨¨¨z{wlnhwbvtz{~~~[mju]idruuuuooooddbdP`Zgvvvv||||\mir\cYippkp~~~~dwtbxuq~}goksOd^ot|}}    ~WpjF]Pn@YLinlesvqqqqR`Xfajdmyyyywwwwxxxxfyw}g?`Sv?^Qsqyu}e~~}zzvz_lcw{zt{oYwspvs{Xjeoggbgjjjjuzzzv|{gxu_{zkqmsP_VippppxxxxVlhqR]Rd=TH]K^UdqqqqvvvvgmhpfnjnoooodjejL]RfO`UjTmfx¡¡¡¡£ ¢¦ ¤©¤¥Td\jOYObppppqqqqVaYb;OAW@J:Wlnin££££¯¯¯¯³³³³ªªªªUqkznnknE^SnUnizbvqp}z~zu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

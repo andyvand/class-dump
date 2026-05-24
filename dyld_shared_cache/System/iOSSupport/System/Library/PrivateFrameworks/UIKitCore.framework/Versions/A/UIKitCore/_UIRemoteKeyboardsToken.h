@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 + (id)webkit-line-break:after-white-space; /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)MPModelRelationshipMovieClips;
 - (id);
 - (void);
 - (_Bool)"16@0:(id)arg1 8;
-- (void);
+- (void)DarkerSystemColorsStatusDidChangeMessage;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sceneIdentityString; // @synthesize sceneIdentityString;

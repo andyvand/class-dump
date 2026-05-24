@@ -11,9 +11,9 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)6@20{?=dd}28f44;
 - (unsigned int);
-- (id);
+- (id)ot find process path for [%ld];
 
 // Remaining properties
 @property(readonly) unsigned int value; // @synthesize value=_value;

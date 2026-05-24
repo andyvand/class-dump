@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface MPPThreadKeyExclusiveAccessToken
 {
     unsigned long long _key;
-    id _owner;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
-- (id);
-- (id);
+- (double)ully loaded %lu list handles;
+- (id)ecurity level and updating mic switch eligible on imagent launch;
+- (id)atch display name of selected chat %@;
 - (id);
 - (id);
 - (id);

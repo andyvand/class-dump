@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIBarButtonItem, UINavigationItem, UIView, _UINavigationBarTitleView;
+@class UINavigationItem;
 
 @interface _UINavigationBarContents
 {
     UINavigationItem *_topItem;
-    UINavigationItem *_backItem;
-    NSArray *_viewsRepresentingBackButton;
-    UIView *_titleView;
-    _UINavigationBarTitleView *_augmentedTitleView;
-    UIView *_largeTitleView;
-    UIView *_promptView;
-    UIBarButtonItem *_backBarButtonItem;
-    UIBarButtonItem *_staticBarButtonItem;
-    NSArray *_cancelBarButtonItems;
-    NSArray *_otherBarButtonItems;
 }
 
 - (id);
@@ -29,35 +19,25 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)conversationManager:cameraMixedWithScreenDidChangeForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)t:(id)arg1 %@ didMarkAsRead :%@ while screentime not allowed for chatIdentifier:%@. returning early. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)|;
+- (id);
+- (void);
+- (id)ITLibMediaItemPropertyVideoEpisodeOrder;
 - (void);
 - (void)uInteraction"16@"UIContextMenuConfiguration"24@"<NSCopying>"32;
-- (id)preferredFocusEnvironments;
-- (id)nShouldBeginFromPreviewItemController:forPosition: /* Error: Ran out of types for this method. */;
-- (void)22CAPresentationModifierCG;
+- (id)_super_preferredFocusEnvironments;
+- (id)_interactionShouldBeginFromPreviewItemController:forPosition: /* Error: Ran out of types for this method. */;
+- (void)So22CAPresentationModifierCG;
 - (void)¤;
 - (id);
 - (id)Ðå\;
 
 // Remaining properties
-@property(retain, nonatomic) _UINavigationBarTitleView *augmentedTitleView; // @synthesize augmentedTitleView=_augmentedTitleView;
-@property(retain, nonatomic) UIBarButtonItem *backBarButtonItem; // @synthesize backBarButtonItem=_backBarButtonItem;
-@property(retain, nonatomic) UINavigationItem *backItem; // @synthesize backItem=_backItem;
-@property(copy, nonatomic) NSArray *cancelBarButtonItems; // @synthesize cancelBarButtonItems=_cancelBarButtonItems;
-@property(retain, nonatomic) UIView *largeTitleView; // @synthesize largeTitleView=_largeTitleView;
-@property(copy, nonatomic) NSArray *otherBarButtonItems; // @synthesize otherBarButtonItems=_otherBarButtonItems;
-@property(retain, nonatomic) UIView *promptView; // @synthesize promptView=_promptView;
-@property(retain, nonatomic) UIBarButtonItem *staticBarButtonItem; // @synthesize staticBarButtonItem=_staticBarButtonItem;
-@property(retain, nonatomic) UIView *titleView; // @synthesize titleView=_titleView;
 @property(retain, nonatomic) UINavigationItem *topItem; // @synthesize topItem=_topItem;
-@property(copy, nonatomic) NSArray *viewsRepresentingBackButton; // @synthesize viewsRepresentingBackButton=_viewsRepresentingBackButton;
 
 @end
 

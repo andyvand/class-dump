@@ -10,8 +10,6 @@
 @interface CKVocabularyAdminEventSimulator
 {
     NSObject<CKVAdminService> *_adminService;
-    double _timeout;
-    _Bool _simulationFinished;
 }
 
 - (id);

@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterPromptGenerationSignalsCaptured : SISchemaInstrumentationMessage
 {
     _Bool _isAppFocused;
-    _Bool _isMediaRichAppFocused;
-    _Bool _isMediaFocused;
-    _Bool _isMailAppFocused;
-    struct {
-        unsigned int isAppFocused:1;
-        unsigned int isMediaRichAppFocused:1;
-        unsigned int isMediaFocused:1;
-        unsigned int isMailAppFocused:1;
-    } _has;
 }
 
 - (void);
@@ -42,26 +31,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)D;
+- (void)DO_PK8PKEY;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id)asPlusSuggesterQueried;
-- (id)tivesViewed: /* Error: Ran out of types for this method. */;
+- (id)setDictationAlternativesViewed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAppFocused;
-@property(nonatomic) _Bool hasIsMailAppFocused;
-@property(nonatomic) _Bool hasIsMediaFocused;
-@property(nonatomic) _Bool hasIsMediaRichAppFocused;
 @property(nonatomic) _Bool isAppFocused; // @synthesize isAppFocused=_isAppFocused;
-@property(nonatomic) _Bool isMailAppFocused; // @synthesize isMailAppFocused=_isMailAppFocused;
-@property(nonatomic) _Bool isMediaFocused; // @synthesize isMediaFocused=_isMediaFocused;
-@property(nonatomic) _Bool isMediaRichAppFocused; // @synthesize isMediaRichAppFocused=_isMediaRichAppFocused;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

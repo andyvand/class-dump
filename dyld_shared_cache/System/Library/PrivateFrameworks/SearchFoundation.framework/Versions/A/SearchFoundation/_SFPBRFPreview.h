@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference;
+@class NSString;
 
 @interface _SFPBRFPreview
 {
     NSString *_text;
-    _SFPBCommandReference *_command_reference;
 }
 
 - (void);
@@ -19,24 +18,15 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)queryParticipantsWithEmails:(id)arg1 phoneNumbers:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)processing any partial results.;
 - (id);
 - (void);
 - (id);
 - (void)SFButtonItemAppearance";
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *command_reference; // @synthesize command_reference=_command_reference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

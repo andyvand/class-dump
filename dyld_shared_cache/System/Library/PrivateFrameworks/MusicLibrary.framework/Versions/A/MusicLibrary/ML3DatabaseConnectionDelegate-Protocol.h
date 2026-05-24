@@ -5,5 +5,16 @@
 //
 
 @protocol ML3DatabaseConnectionDelegate
+
+@optional
+- (void)efetchDateIntervalBeforeNow;
+- (void)e;
+- (void)gVersion;
+- (void)ceClusterSequenceNumber;
+- (void)V_inputOrientation;
+- (void)oudPhotosBytes;
+- (void);
+- (void)Version;
+- (void)q,R,N,V_cameraRollBackupBytes;
 @end
 

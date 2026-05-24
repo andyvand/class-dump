@@ -6,58 +6,46 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSTimer, TIHandwritingStrokes, UIDelayedAction, _UIDynamicCaretDot;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface _UIDynamicCaretInput : UIView
 {
     struct CGContext *_bitmapContext;
-    long long _fadeCount;
-    struct CGPoint _lastViewLoc;
-    struct CGRect _inkedAreaOfBitmapContext;
-    NSTimer *_fadeTimer;
-    TIHandwritingStrokes *_accumulatedStrokes;
-    UIDelayedAction *_committedAction;
-    _UIDynamicCaretDot *_dotView;
 }
 
 - (void);
+- (void)16@"IMDIndexingContext"24@?<v@?@"NSError">32;
+- (void)@80;
+- (void)@0:(id)arg1 8@16q24@32;
+- (void)systemProxySettingsFetcher:(id)arg1 retrievedHost:port:protocol: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchSubscriptionWithID:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)deviceOnWifi;
+- (_Bool)_setHasTriedToEnableMiCByDefault;
+- (id)_lastSentDowngradeRequestSinceLoadDate;
+- (void)_handleFileTransferBatchAccepted:(struct CGPoint)arg1;
+- (void)_deviceSupportsiMessageAutoReply;
+- (void)TranscriptBackgroundCommand",&,N;
+- (void);
+- (void)IMDChatStatusChangeContext;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (_Bool);
+- (id)X;
+- (void)failing local file url retrieval;
+- (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)llLayoutSubviewsWithObservationTracking;
-- (void)lRegistration;
+- (id)_containerViewWillLayoutSubviewsWithObservationTracking;
+- (void)UIPressesEventTerminalRegistration;
 - (void)unt == 1;
 - (void)0;
 - (void);
 - (void)ÓTîb;
 
 // Remaining properties
-@property(retain, nonatomic) TIHandwritingStrokes *accumulatedStrokes; // @synthesize accumulatedStrokes=_accumulatedStrokes;
-@property(retain, nonatomic) UIDelayedAction *committedAction; // @synthesize committedAction=_committedAction;
-@property(retain, nonatomic) _UIDynamicCaretDot *dotView; // @synthesize dotView=_dotView;
 @property(retain, nonatomic) NSTimer *fadeTimer; // @synthesize fadeTimer=_fadeTimer;
-@property(readonly, nonatomic) _Bool hasInk;
-@property(readonly, nonatomic) _Bool isInking;
 
 @end
 

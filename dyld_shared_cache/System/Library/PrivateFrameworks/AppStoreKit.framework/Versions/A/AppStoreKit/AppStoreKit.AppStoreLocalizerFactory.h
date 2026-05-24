@@ -7,10 +7,6 @@
 @interface AppStoreKit.AppStoreLocalizerFactory
 {
     id jetpackResourceBundle;
-    id defaultLanguageSource;
-    id objectGraph;
-    id cachedDefaultLocalizer;
-    id localizerCache;
 }
 
 @end

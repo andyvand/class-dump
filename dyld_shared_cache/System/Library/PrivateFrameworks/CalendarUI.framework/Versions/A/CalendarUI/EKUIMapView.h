@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSString, NSURL;
+@class NSURL;
 
 @interface EKUIMapView
 {
     _Bool _suggestedEvent;
-    NSURL *_mapHandleURL;
-    MKMapItem *_location;
-    MKMapItem *_startLocation;
-    NSString *_searchString;
-    NSString *_launchOptionsDirectionsMode;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -30,25 +25,13 @@
 - (void);
 - (id)Ôá5 °!P@ùÑÃ#Ð1Â0@ù
 × ;
-- (void)houldDisplayPreviewEventsAsTentative;
-- (id)gin;
+- (void)shouldDisplayPreviewEventsAsTentative;
+- (id)_rightDividerMargin;
 - (void);
 - (void)Ò^ÃF;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *launchOptionsDirectionsMode; // @synthesize launchOptionsDirectionsMode=_launchOptionsDirectionsMode;
-@property(retain) MKMapItem *location; // @synthesize location=_location;
 @property(retain) NSURL *mapHandleURL; // @synthesize mapHandleURL=_mapHandleURL;
-@property(copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain) MKMapItem *startLocation; // @synthesize startLocation=_startLocation;
-@property _Bool suggestedEvent; // @synthesize suggestedEvent=_suggestedEvent;
-@property(readonly) Class superclass;
 
 @end
 

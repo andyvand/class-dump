@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface JRSchemaJRInferenceFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)SUMacControllerProgressStatePreflighted;
 - (id);
 - (void);
-- (void);
+- (void)Y;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,15 +22,13 @@
 - (id)1Â0@ù
 × ;
 - (id)@"NSString",C,N,V_requestID;
-- (id)ryToolTipShown;
+- (id)SISchemaUEIDictationDiscoveryToolTipShown;
 - (_Bool)¿æ9|Ð>;
 - (_Bool);
 - (void)²ÿÊ®¬E (;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

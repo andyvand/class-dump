@@ -4,55 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MKDynamicTileOverlay
 {
     unsigned short _textureDimension;
-    unsigned int _providerID;
-    long long _minimumZ;
-    long long _maximumZ;
 }
 
-- (unsigned short);
+- (unsigned short)setOriginalStartDate: /* Error: Ran out of types for this method. */;
+- (void)_adaptivePermissionWorkQueue;
 - (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
+- (void)|u;
+- (long long)BLMReportEnergyDuet;
+- (long long)sequenceNumber;
 - (void);
 - (void);
 - (unsigned int);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_2f492f29);
 - (void);
-- (id);
+- (id)ion of ;
 - (_Bool);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)initWithTotalAudioRecorded:endpointBufferHostTime:featuresAtEndpoint:endpointerType:asrFeatureLatencyDistribution:additionalMetrics:trailingSilenceDurationAtEndpoint:requestId:osdFeatures:asrFeatures:isRequestTimeOut:assetConfigVersion:blkHepAudioOrigin:vtExtraAudioAtStartInMs:firstAudioSampleSensorTimestamp:isAnchorTimeBuffered:endpointHostTime:audioDeliveryHostTimeDelta:endpointerThreshold:endpointerScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isGeometryFlipped) _Bool geometryFlipped;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long maximumZ; // @synthesize maximumZ=_maximumZ;
-@property(nonatomic) long long minimumZ; // @synthesize minimumZ=_minimumZ;
 @property(readonly, nonatomic, getter=_providerID) unsigned int providerID; // @synthesize providerID=_providerID;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned short textureDimension; // @synthesize textureDimension=_textureDimension;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

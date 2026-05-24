@@ -6,31 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PEGASUSSchemaPEGASUSAlignmentOffset;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSCorrectionInfo : SISchemaInstrumentationMessage
 {
     NSString *_original;
-    NSString *_correction;
-    float _score;
-    NSString *_sourceAuxKey;
-    PEGASUSSchemaPEGASUSAlignmentOffset *_alignmentOffset;
-    CDStruct_4b1634df _has;
-    _Bool _hasOriginal;
-    _Bool _hasCorrection;
-    _Bool _hasSourceAuxKey;
-    _Bool _hasAlignmentOffset;
 }
 
 - (id);
-- (void);
+- (void)Q@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -39,7 +30,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)beginModalSheetWithParentWindow:(_Bool)arg1 title:message:defaultButtonTitle:alternateButtonTitle:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -49,29 +40,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)es provided. No rows will be returned.;
 - (id);
 - (id);
 - (id)
 × ;
 - (float);
-- (id)led;
-- (id)mCode: /* Error: Ran out of types for this method. */;
+- (id)_hasActionCanceled;
+- (id)setProgramCode: /* Error: Ran out of types for this method. */;
 - (void)¶è·¸¹¸º<»½ô½;
 - (void)interpretedStatementResults.outcome.parameterNotAllowed.value.value.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAlignmentOffset *alignmentOffset; // @synthesize alignmentOffset=_alignmentOffset;
-@property(copy, nonatomic) NSString *correction; // @synthesize correction=_correction;
-@property(nonatomic) _Bool hasAlignmentOffset; // @synthesize hasAlignmentOffset=_hasAlignmentOffset;
-@property(nonatomic) _Bool hasCorrection; // @synthesize hasCorrection=_hasCorrection;
-@property(nonatomic) _Bool hasOriginal; // @synthesize hasOriginal=_hasOriginal;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasSourceAuxKey; // @synthesize hasSourceAuxKey=_hasSourceAuxKey;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *original; // @synthesize original=_original;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *sourceAuxKey; // @synthesize sourceAuxKey=_sourceAuxKey;
 
 @end
 

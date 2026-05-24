@@ -11,15 +11,14 @@
 @interface NSBlockOperation : NSOperation
 {
     NSMutableArray *_executionBlocks;
-    CDUnknownBlockType _block;
 }
 
 + (id)d;
 - (void);
 - (id);
-- (id);
+- (id) ;
 - (void);
-- (id)DidWillStats;
+- (id)_NSKeyValueDidWillStats;
 - (void)à[\fDi;
 
 // Remaining properties

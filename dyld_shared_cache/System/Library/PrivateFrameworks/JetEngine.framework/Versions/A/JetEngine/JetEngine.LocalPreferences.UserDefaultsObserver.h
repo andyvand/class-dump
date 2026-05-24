@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)_updateAppEntityAnnotationState;
 - (void)¤GÆÿPi	¤GÆÿOi	¸GÆÿ}Oi	4HÆÿOi	DHÆÿOi	THÆÿOi	dHÆÿOi	tHÆÿOi	HÆÿOi	HÆÿOi	¤HÆÿOi	´HÆÿ]Oi	ÄHÆÿOi	ÔHÆÿOi	äHÆÿOi	ôHÆÿOi	IÆÿOi	IÆÿ5Oi	$IÆÿuNi	4IÆÿeNi	DIÆÿmNi	TIÆÿmNi	dIÆÿmNi	xIÆÿ}Ni	IÆÿ}Ni	IÆÿ}Ni	¬IÆÿ}Ni	ÀIÆÿNi	ÐIÆÿENi	ôIÆÿmNi	JÆÿuNi	JÆÿuNi	(JÆÿuNi	<JÆÿuNi	LJÆÿNi	JÆÿ½Mi	¼JÆÿ½Mi	ÌJÆÿÍMi	ÜJÆÿ;
 
 @end

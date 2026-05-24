@@ -8,14 +8,14 @@
 {
 }
 
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)TotalScheduledMimoLayers"b1"pActualLowBandwidth"b1"packetLifetimeVIBE"b1"packetLossRateVIBE"b1"phyRate"b1"pkgLifeTimeVO"b1"pktLifeTimeVO"b1"pktLossRateVO"b1"qbssLoad"b1"ratioDupeBytes"b1"ratioOOBBytes"b1"rrcState"b1"rxRetransmissionRate"b1"rxRetry"b1"tcpRTTAvg"b1"tcpRTTmin"b1"tcpRTTvar"b1"totalConfiguredBw"b1"totalConfiguredMimoLayers"b1"txRetransmissionRate"b1"txber"b1"videoStreamingStallTime"b1"weightedAveragePhyrateRx"b1"weightedAveragePhyrateTx"b1"weightedAverageRssi"b1"weightedAverageSnr"b1"wifChannelBW"b1"wifChannelType"b1"wifiCapability"b1"wifiModelConfidenceLevel"b1"wifiModelVersion"b1"wifiSinr"b1"wifichannel"b1"wifiguardinterval"b1"wifilowDataMode"b1"wifimcsindex"b1"wifinumberOfSpatialStreams"b1"wrmRecommendedRAT"b1"cellNsaEnabled"b1"isFR1"b1};
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

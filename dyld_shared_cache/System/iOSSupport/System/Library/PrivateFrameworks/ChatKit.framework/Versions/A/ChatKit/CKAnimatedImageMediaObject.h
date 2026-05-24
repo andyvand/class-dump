@@ -9,27 +9,26 @@
 @interface CKAnimatedImageMediaObject : CKImageMediaObject
 {
     _Bool _isReaction;
-    unsigned long long _stickerEffectType;
 }
 
-+ (double);
++ (double)t.size.height, drawRect.size.width / drawRect.size.height);
 + (Class);
 + (id);
-+ (_Bool)ediaObject: /* Error: Ran out of types for this method. */;
++ (_Bool)configureForEffectViewWithMediaObject: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)a;
+- (id)h;
+- (void)u;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)e;
+- (_Bool)le;
+- (id)enting locked notes migration prompt if needed… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)presentDivergedModeAlertForNote:(id)arg1 mode:(id)arg2 window:(_Bool)arg3 completionHandler:] /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)context %@;
 - (id);
 - (id);
 - (_Bool);
@@ -46,8 +45,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;
-@property(readonly, nonatomic) _Bool isReaction; // @synthesize isReaction=_isReaction;
-@property(nonatomic) unsigned long long stickerEffectType; // @synthesize stickerEffectType=_stickerEffectType;
 
 @end
 

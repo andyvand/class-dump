@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface QCSCN_ParameterReserved
 {
     NSString *_semantic;
-    NSDictionary *_options;
 }
 
 - (void);

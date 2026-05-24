@@ -13,10 +13,10 @@
     NSData *_xmlUIData;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)MDMSecIdentityRef;
+- (_Bool)nfo available - cache hit returns YES;
+- (id)gentPort bootstrap_look_up2 return = %d; port = %d;
+- (id)(;
 - (void)setStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -9,20 +9,19 @@
 @interface SPFileRadarSupport
 {
     NSString *_logForTTR;
-    NSString *_fvFilePath;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)@;
 - (void);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id)objectID provided is nil or has the wrong entity type %{public}@;
+- (void)Ѩ;
 
 @end
 

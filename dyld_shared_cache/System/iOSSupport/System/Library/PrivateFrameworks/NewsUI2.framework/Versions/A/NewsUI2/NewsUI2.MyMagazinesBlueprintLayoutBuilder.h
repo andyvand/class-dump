@@ -7,8 +7,6 @@
 @interface NewsUI2.MyMagazinesBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id sectionHeaderLayoutAttributesFactory;
-    id separatorLayoutAttributesFactory;
 }
 
 @end

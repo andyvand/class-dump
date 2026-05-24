@@ -5,5 +5,9 @@
 //
 
 @protocol CARenderValue
+
+@optional
+- (void *);
+- (void *)start;
 @end
 

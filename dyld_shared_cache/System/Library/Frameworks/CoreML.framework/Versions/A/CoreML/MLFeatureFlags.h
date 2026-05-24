@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface MLFeatureFlags
 {
     NSUserDefaults *_userDefaults;
-    NSMutableDictionary *_flags;
-    NSMutableDictionary *_overrideOriginalValues;
 }
 
 + (id);
@@ -21,16 +19,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (void);
-- (id);
+- (id),;
 - (id);
 - (id)ÄLÐ;
 - (void)logic error, encountered unsupported pixel format type.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSMutableDictionary *overrideOriginalValues; // @synthesize overrideOriginalValues=_overrideOriginalValues;
 @property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

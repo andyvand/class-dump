@@ -9,8 +9,6 @@
 @interface NewsUI2.ArticleMemoryTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (id)4aTÙ;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

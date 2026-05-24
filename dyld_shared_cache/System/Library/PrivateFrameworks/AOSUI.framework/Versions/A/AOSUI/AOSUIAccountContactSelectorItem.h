@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUICircularImageView, NSImageView, NSTextField;
+@class AOSUICircularImageView, NSTextField;
 
 @interface AOSUIAccountContactSelectorItem
 {
     AOSUICircularImageView *_contactImageView;
-    NSImageView *_checkmarkImageView;
-    NSTextField *_fullNameTextField;
-    NSTextField *_detailTextField;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)a<;
 - (id);
 - (void);
-- (void);
+- (void))3;
 - (void);
 - (void);
 - (id);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property __weak NSImageView *checkmarkImageView; // @synthesize checkmarkImageView=_checkmarkImageView;
-@property __weak AOSUICircularImageView *contactImageView; // @synthesize contactImageView=_contactImageView;
-@property __weak NSTextField *detailTextField; // @synthesize detailTextField=_detailTextField;
 @property __weak NSTextField *fullNameTextField; // @synthesize fullNameTextField=_fullNameTextField;
 
 @end

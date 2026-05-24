@@ -9,10 +9,6 @@
 @interface MediaPlaybackCore.InitialLoadingState : MediaPlaybackCore.State
 {
     id metadata;
-    id item;
-    id play;
-    id timeContinuity;
-    id supressed;
 }
 
 @end

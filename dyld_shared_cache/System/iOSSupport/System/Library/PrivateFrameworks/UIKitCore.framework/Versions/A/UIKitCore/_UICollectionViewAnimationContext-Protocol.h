@@ -7,13 +7,11 @@
 @class NSArray, UICollectionViewLayout;
 
 @protocol _UICollectionViewAnimationContext
-- (void)wsCancelButton:(NSArray *)arg1;
+- (NSArray *)__MPModelPropertyTVEpisodeLibraryAddedDate__MAPPING_MISSING__;
+- (void)setShowsCancelButton:(NSArray *)arg1;
 - (UICollectionViewLayout *)l modal view controller on target %@.;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *appearingAttributes;
-@property(copy, nonatomic) NSArray *disappearingAttributes;
 @property(readonly, nonatomic) UICollectionViewLayout *layout;
-@property(readonly, nonatomic) NSArray *updates;
 @end
 

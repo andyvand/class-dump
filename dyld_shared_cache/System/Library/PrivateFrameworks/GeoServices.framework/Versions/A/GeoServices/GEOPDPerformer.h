@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPerformer
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_itunesId;
-    NSString *_itunesUrl;
-    GEOLocalizedString *_name;
-    NSString *_performerId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_itunesId:1;
-        unsigned int read_itunesUrl:1;
-        unsigned int read_name:1;
-        unsigned int read_performerId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_fallbackAudioSessionReleaseProvider;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)~S~S;
 - (_Bool);
 - (id);
 - (id)dinate=If}}24@?40;
-- (id)ndleIdentifier;
+- (id)_iOSBundleIdentifier;
 - (id)Â$ÃÜÃ;
 - (void)\Âõ(8t@;
 

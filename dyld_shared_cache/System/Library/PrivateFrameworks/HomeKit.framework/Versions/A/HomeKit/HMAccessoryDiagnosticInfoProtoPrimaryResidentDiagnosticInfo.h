@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryInfoProtoWifiNetworkInfoEvent, HMRemoteEventRouterProtoServerDiagnosticInfo, NSMutableArray;
-
 @interface HMAccessoryDiagnosticInfoProtoPrimaryResidentDiagnosticInfo
 {
     long long _numAppleMediaAccessories;
-    long long _numResidents;
-    HMRemoteEventRouterProtoServerDiagnosticInfo *_eventRouterServerInfo;
-    NSMutableArray *_networkInfos;
-    NSMutableArray *_networkServiceInfos;
-    NSMutableArray *_networkVisibleDeviceInfos;
-    NSMutableArray *_proximityVisibleDeviceInfos;
-    NSMutableArray *_visibleAccessoriesInfos;
-    NSMutableArray *_visibleIDSDevices;
-    HMAccessoryInfoProtoWifiNetworkInfoEvent *_wifiInfo;
-    struct {
-        unsigned int numAppleMediaAccessories:1;
-        unsigned int numResidents:1;
-    } _has;
 }
 
 + (Class);
@@ -43,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (unsigned long long);
@@ -65,7 +50,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,29 +68,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)A;
+- (_Bool);
+- (_Bool)chooser;
 - (void);
 - (id);
 - (id);
 - (void)}@Updating media source display order modifiable via merge to %@;
 
 // Remaining properties
-@property(retain, nonatomic) HMRemoteEventRouterProtoServerDiagnosticInfo *eventRouterServerInfo; // @synthesize eventRouterServerInfo=_eventRouterServerInfo;
-@property(readonly, nonatomic) _Bool hasEventRouterServerInfo;
-@property(nonatomic) _Bool hasNumAppleMediaAccessories;
-@property(nonatomic) _Bool hasNumResidents;
 @property(readonly, nonatomic) _Bool hasWifiInfo;
-@property(retain, nonatomic) NSMutableArray *networkInfos; // @synthesize networkInfos=_networkInfos;
-@property(retain, nonatomic) NSMutableArray *networkServiceInfos; // @synthesize networkServiceInfos=_networkServiceInfos;
-@property(retain, nonatomic) NSMutableArray *networkVisibleDeviceInfos; // @synthesize networkVisibleDeviceInfos=_networkVisibleDeviceInfos;
-@property(nonatomic) long long numAppleMediaAccessories; // @synthesize numAppleMediaAccessories=_numAppleMediaAccessories;
-@property(nonatomic) long long numResidents; // @synthesize numResidents=_numResidents;
-@property(retain, nonatomic) NSMutableArray *proximityVisibleDeviceInfos; // @synthesize proximityVisibleDeviceInfos=_proximityVisibleDeviceInfos;
-@property(retain, nonatomic) NSMutableArray *visibleAccessoriesInfos; // @synthesize visibleAccessoriesInfos=_visibleAccessoriesInfos;
-@property(retain, nonatomic) NSMutableArray *visibleIDSDevices; // @synthesize visibleIDSDevices=_visibleIDSDevices;
-@property(retain, nonatomic) HMAccessoryInfoProtoWifiNetworkInfoEvent *wifiInfo; // @synthesize wifiInfo=_wifiInfo;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AXUtilsPrivate)
-+ (void);
++ (void)>;
 - (id);
 - (id);
 - (unsigned long long);
@@ -14,16 +14,16 @@
 - (double);
 - (id);
 - (struct _NSRange);
-- (long long);
+- (long long)R;
 - (int);
 - (float);
 - (double);
 - (id);
-- (struct CGSize);
+- (struct CGSize)#;
 - (struct CGRect);
 - (struct CGPoint);
 - (double);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (id);
@@ -38,7 +38,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -50,7 +50,7 @@
 - (id);
 - (_Bool);
 - (void *);
-- (id);
+- (id)';
 - (long long);
 
 // Remaining properties

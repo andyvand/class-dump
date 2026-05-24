@@ -5,6 +5,7 @@
 //
 
 @protocol _CSNamedDataReadWriteProtocol
+- (void);
 - (void)L_½_ÉaÂaÇaæaËa2b4bÎdÊdØdàdðdædìdñdâdídeeÙfÖfjjj¢jjÛj£j~jjj j\k®kÚklØoñoßoàoÛoäoëoïooìoáoéoÕoîoðoçqßqîqæqåqíqìqôqàq5rFrpsrs©t°t¦t¨tFvBvLvêv³wªw°w¬w;
 @end
 

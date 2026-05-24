@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGraphicsContext, NSPDFPanel, NSPrintInfo, NSPrintPanel, NSString, NSView;
-
 @interface NSPrintOperation
 {
 }
 
 + (id);
-+ (id);
++ (id)T;
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
++ (id):(id)arg1 Z3;
++ (id)Z-;
++ (id)6Xs;
 + (void);
 + (id)ä;
 
 // Remaining properties
-@property(retain) NSPDFPanel *PDFPanel;
-@property _Bool canSpawnSeparateThread;
-@property(readonly) NSGraphicsContext *context;
 @property(readonly, getter=isCopyingOperation) _Bool copyingOperation;
-@property(readonly) long long currentPage;
-@property(copy) NSString *jobTitle;
-@property long long pageOrder;
-@property(readonly) struct _NSRange pageRange;
-@property(readonly) long long preferredRenderingQuality;
-@property(copy) NSPrintInfo *printInfo;
-@property(retain) NSPrintPanel *printPanel;
-@property _Bool showsPrintPanel;
-@property _Bool showsProgressPanel;
-@property(readonly) NSView *view;
 
 @end
 

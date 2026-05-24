@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SUCoreConnectClientProxy, SUMacControllerAccessControlContext, SUMacControllerDescriptor, SUMacControllerOverrides, SUMacControllerProgressManager;
+@class NSString;
 
 @interface SUMacControllerClientRequest
 {
     NSString *_clientID;
-    NSString *_cookie;
-    NSString *_command;
-    SUCoreConnectClientProxy *_proxyObject;
-    SUMacControllerProgressManager *_progressManager;
-    CDUnknownBlockType _completion;
-    SUMacControllerDescriptor *_descriptor;
-    SUMacControllerOverrides *_overrides;
-    SUMacControllerAccessControlContext *_accessControlContext;
-    CDUnknownBlockType _scanCompletion;
-    CDUnknownBlockType _documentationCompletion;
-    CDUnknownBlockType _splatScanCompletion;
-    CDUnknownBlockType _sfrScanCompletion;
 }
 
 + (_Bool);
@@ -37,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -47,24 +35,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)on",V_pickerButtonCell;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUMacControllerAccessControlContext *accessControlContext; // @synthesize accessControlContext=_accessControlContext;
 @property(readonly, retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, retain, nonatomic) NSString *command; // @synthesize command=_command;
-@property(readonly, retain, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, retain, nonatomic) NSString *cookie; // @synthesize cookie=_cookie;
-@property(retain, nonatomic) SUMacControllerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, retain, nonatomic) CDUnknownBlockType documentationCompletion; // @synthesize documentationCompletion=_documentationCompletion;
-@property(readonly, retain, nonatomic) SUMacControllerOverrides *overrides; // @synthesize overrides=_overrides;
-@property(readonly, retain, nonatomic) SUMacControllerProgressManager *progressManager; // @synthesize progressManager=_progressManager;
-@property(readonly, retain, nonatomic) SUCoreConnectClientProxy *proxyObject; // @synthesize proxyObject=_proxyObject;
-@property(readonly, retain, nonatomic) CDUnknownBlockType scanCompletion; // @synthesize scanCompletion=_scanCompletion;
-@property(readonly, retain, nonatomic) CDUnknownBlockType sfrScanCompletion; // @synthesize sfrScanCompletion=_sfrScanCompletion;
-@property(readonly, retain, nonatomic) CDUnknownBlockType splatScanCompletion; // @synthesize splatScanCompletion=_splatScanCompletion;
 
 @end
 

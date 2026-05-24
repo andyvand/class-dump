@@ -5,5 +5,7 @@
 //
 
 @protocol CalUIDatePickerTouchBarDelegate
+- (void);
+- (_Bool)4;
 @end
 

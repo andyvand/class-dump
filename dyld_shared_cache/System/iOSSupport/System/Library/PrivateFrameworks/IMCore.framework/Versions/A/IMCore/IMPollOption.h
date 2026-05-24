@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface IMPollOption
 {
     void optionIdentifier;
-    void pollText;
-    NSAttributedString *attributedPollText;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *attributedPollText; // @synthesize attributedPollText;
 @property(nonatomic, readonly) NSString *optionIdentifier;
-@property(nonatomic, readonly) NSString *pollText;
 
 @end
 

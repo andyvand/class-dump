@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c}@. Error:(_Bool)arg1 %@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)irrational;
 - (id);
 - (id);
 

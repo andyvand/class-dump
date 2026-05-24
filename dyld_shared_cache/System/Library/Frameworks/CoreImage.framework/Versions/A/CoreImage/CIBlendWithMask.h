@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CIBlendWithMask : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBackgroundImage;
-    CIImage *inputMaskImage;
 }
 
 + (id);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)m}zy}p_xtRmd}££££¯¯¯¯®®®®vvvvoooojjjjbc^c;TKcL_ZhV\Vb,B5Q2B5KWWWW_eee\hfiggdgOd]noxu~£¢¢¢¢^hbp=UJdrrrr}}}}zzzzhtqys}}}}w}uuuupqkqefZrSoh}u|yttttt]pktpzwixw{Fc[rbojojjejE[OjzzzzzvvvvP`UeJZMgu{y}¨¨¨¨b{{qqmqjjijMaYimmkmhmercri¯¯¯¯¨¨¨¨xioh{`rn{nusycrov||||r}}~x|{jjjjPMBP/?1F?JAJTTPTO^[cvvvvZlkyNgcsxxxxg|~]pkxutnun~|Ztrcwxxxxx__X`5D6R^`\`vvvvmy{q|}}}}}t|{~k}z~BaWu?\Ppq|}~Tjcsvxtywwwwqqqqjg`j4REcOZObiifissssyyyyssss\^Ti@[PjqqqqornsTjdtzzzz~~~~ctu{wwwwxxxxzTf`pFaYjwwwwzqssssoldo[so|~|pytyr~ekin__[_(B4U,C5Xhhehrrrrpppppokq¡¡¡ayu_to~¡¡¡¡¦¦¦¦¥¥¥¥parm{[rnuyyyyWrn{wvszzzzz}}}}}}}}vvvvllglIb\jUkhqquuuooooV]TfS_WfiiiiV`XgE\SlyuewwyyyyqqqqiifiM^Tiqtoxxwwwwbbbb[ZM[WbWh}}}}WkewVbYlssss{{{{xxv{ysoy~~}~eyw~srmtelfn\jdp||||kqns^hbmxxxx~~~~_spx~~~~l}oooo]]Y]YYYY\\\\K\VakkkkrrrrqmjqUhdsyyy|zzvzQ\MjVdXq}|y}\ld~|}zaokpT_UeUc[jdtqzm~}uxu}||||ivtzPok|xtxu{wwuwRg_qllglmmmmooooeono_iejK]UdXd^mxZmjuTYNaFTGZL[Pbuusu;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBackgroundImage; // @synthesize inputBackgroundImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputMaskImage; // @synthesize inputMaskImage;
 
 @end
 

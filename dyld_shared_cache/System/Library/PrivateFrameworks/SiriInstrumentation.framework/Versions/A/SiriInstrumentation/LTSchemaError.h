@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    unsigned int _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
@@ -21,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)oxy navigationSessionManager:(id)arg1 displayManeuverAlertForAnnouncementStage:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)%;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,11 +37,7 @@
 - (void)";
 
 // Remaining properties
-@property(nonatomic) unsigned int code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

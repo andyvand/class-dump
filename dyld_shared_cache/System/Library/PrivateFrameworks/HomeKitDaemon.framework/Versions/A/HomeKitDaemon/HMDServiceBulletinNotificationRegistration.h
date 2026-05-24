@@ -6,29 +6,27 @@
 
 #import <HomeKitDaemon/HMDBulletinNotificationRegistration.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDServiceBulletinNotificationRegistration : HMDBulletinNotificationRegistration
 {
     NSUUID *_accessoryUUID;
-    NSNumber *_serviceInstanceID;
 }
 
 + (_Bool)ß;
 - (id);
 - (id);
-- (id);
+- (id)eturned from copypathfromserver %d;
 - (_Bool);
 - (void);
-- (id);
+- (id)modelUUID;
 - (id)oks like we are not monitoring any object changes. Not doing anything.;
 - (void)eAwayReport"8Q16^B24;
-- (id)teDetectorUpdateReason;
+- (id)HMDUserActivityStateDetectorUpdateReason;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy) NSNumber *serviceInstanceID; // @synthesize serviceInstanceID=_serviceInstanceID;
 
 @end
 

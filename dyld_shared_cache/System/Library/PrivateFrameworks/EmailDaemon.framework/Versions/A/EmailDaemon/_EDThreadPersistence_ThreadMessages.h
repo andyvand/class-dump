@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EMThread, EMThreadObjectID, NSArray, _EDThreadPersistence_SQLHelper;
+@class EMThread, _EDThreadPersistence_SQLHelper;
 
 @interface _EDThreadPersistence_ThreadMessages
 {
     EMThread *_thread;
-    EDMessagePersistence *_messagePersistence;
-    long long _threadScopeDatabaseID;
-    EMThreadObjectID *_threadObjectID;
-    NSArray *_wrappedMessages;
-    _EDThreadPersistence_SQLHelper *_sqlHelper;
 }
 
 - (long long);
@@ -27,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)!xAù±³Ð1Â0@ù
@@ -38,12 +33,7 @@
 VALUES (:uuid, :name,   :enabled); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
 @property(readonly, nonatomic) _EDThreadPersistence_SQLHelper *sqlHelper; // @synthesize sqlHelper=_sqlHelper;
-@property(readonly, nonatomic) EMThread *thread;
-@property(readonly, nonatomic) EMThreadObjectID *threadObjectID; // @synthesize threadObjectID=_threadObjectID;
-@property(readonly, nonatomic) long long threadScopeDatabaseID; // @synthesize threadScopeDatabaseID=_threadScopeDatabaseID;
-@property(readonly, nonatomic) NSArray *wrappedMessages; // @synthesize wrappedMessages=_wrappedMessages;
 
 @end
 

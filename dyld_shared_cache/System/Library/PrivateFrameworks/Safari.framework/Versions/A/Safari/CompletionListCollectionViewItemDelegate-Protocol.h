@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage;
 @protocol WBSParsecSearchSession;
 
 @protocol CompletionListCollectionViewItemDelegate
+- (NSImage *)a;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSParsecSearchSession> parsecSearchSession;

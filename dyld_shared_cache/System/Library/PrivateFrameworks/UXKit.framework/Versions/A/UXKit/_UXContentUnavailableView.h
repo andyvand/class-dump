@@ -6,26 +6,11 @@
 
 #import <UXKit/UXView.h>
 
-@class NSAttributedString, NSBox, NSButton, NSDictionary, NSImageView, NSMutableArray, NSProgressIndicator, NSString, NSTextField;
+@class NSBox;
 
 @interface _UXContentUnavailableView : UXView
 {
     _Bool _showProgress;
-    NSString *_symbolName;
-    NSString *_title;
-    NSString *_message;
-    NSAttributedString *_attributedMessage;
-    NSString *_buttonTitle;
-    NSButton *_actionButton;
-    CDUnknownBlockType _buttonAction;
-    unsigned long long _progressIndicatorStyle;
-    NSBox *_containerView;
-    NSImageView *_imageView;
-    NSTextField *_titleLabel;
-    NSTextField *_messageLabel;
-    NSMutableArray *_containerViewContraints;
-    NSProgressIndicator *_progressIndicator;
-    unsigned long long _vibrantOptions;
 }
 
 - (void);
@@ -41,30 +26,30 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)o;
 - (double);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (void)_currentSearch;
+- (id),V_disablePrintAction;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)creation dates for regular exports;
+- (CDUnknownBlockType)6^B24;
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)�;
+- (id)8;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -73,7 +58,31 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)te__ ((preserves_opacity)) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ) ; 
+			float alpha = s.a; 
+				//s.rgb = sqrt( max( s.argb, vec4(0.0)) ); 
+				//s = clamp( darken( s , -p, .6), 0.0, 1.0); 
+				s = darken( s , -p, .6) ; 
+					//s = s*s; 
+					s.a = alpha; 
+						return s; 
+} 
+
+//kernel 3 
+kernel vec4 rebalanceDarker2 (sampler src, float p) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ); 
+			//s = sqrt(s); 
+			//s =	clamp( darken2( s ,-p,.6), 0.0, 1.0 ); 
+			s	=	darken2( s , -p, .6) ; 
+				//s = s*s; 
+				return s; 
+} 
+;
 - (void);
 - (void);
 - (id);
@@ -81,23 +90,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(copy, nonatomic) NSAttributedString *attributedMessage; // @synthesize attributedMessage=_attributedMessage;
-@property(copy, nonatomic) CDUnknownBlockType buttonAction; // @synthesize buttonAction=_buttonAction;
-@property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
 @property(retain, nonatomic) NSBox *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSMutableArray *containerViewContraints; // @synthesize containerViewContraints=_containerViewContraints;
-@property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSTextField *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(readonly, nonatomic) NSDictionary *messageTextAttributes;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) unsigned long long progressIndicatorStyle; // @synthesize progressIndicatorStyle=_progressIndicatorStyle;
-@property(nonatomic) _Bool showProgress; // @synthesize showProgress=_showProgress;
-@property(copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) unsigned long long vibrantOptions; // @synthesize vibrantOptions=_vibrantOptions;
 
 @end
 

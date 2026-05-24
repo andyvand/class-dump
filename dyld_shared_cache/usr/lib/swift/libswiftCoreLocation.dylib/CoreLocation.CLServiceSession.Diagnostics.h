@@ -7,7 +7,6 @@
 @interface CoreLocation.CLServiceSession.Diagnostics
 {
     id stream;
-    id serviceSession;
 }
 
 @end

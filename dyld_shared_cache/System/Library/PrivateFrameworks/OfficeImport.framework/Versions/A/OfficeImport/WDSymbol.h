@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface WDSymbol : WDRunWithCharacterProperties
 {
     WDFont *mFont;
-    unsigned short mCharacter;
 }
 
 - (void);
-- (unsigned short);
+- (unsigned short)#;
 - (int);
 - (id);
 - (id);

@@ -12,7 +12,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)Item;
+- (void)UIFocusItem;
 
 // Remaining properties
 @property(nonatomic) _Bool needsSynchronousUpdate;

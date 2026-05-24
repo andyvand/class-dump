@@ -7,6 +7,7 @@
 @class REMObjectID;
 
 @protocol REMNullableObjectIDProviding
++ (REMObjectID *);
 - (REMObjectID *)3Ã;
 
 // Remaining properties

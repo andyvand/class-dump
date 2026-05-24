@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface ReadingListTableViewCellAccessibility
+#import <MobileSafariUI/__ReadingListTableViewCellAccessibility_super.h>
+
+@interface ReadingListTableViewCellAccessibility : __ReadingListTableViewCellAccessibility_super
 {
 }
 
-+ (Class);
++ (Class)CPGridButtonConversationKey;
 + (id);
 + (void);
 - (_Bool);

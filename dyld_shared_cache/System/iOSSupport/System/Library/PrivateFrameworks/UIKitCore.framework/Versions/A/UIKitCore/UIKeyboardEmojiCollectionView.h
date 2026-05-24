@@ -6,41 +6,34 @@
 
 #import <UIKitCore/UICollectionView.h>
 
-@class NSMutableArray, UIKeyboardEmojiCollectionViewCell, UIKeyboardEmojiGraphicsTraits, UIResponder;
+@class UIKeyboardEmojiGraphicsTraits;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiCollectionView : UICollectionView
 {
     UIKeyboardEmojiGraphicsTraits *_emojiGraphicsTraits;
-    UIKeyboardEmojiCollectionViewCell *_lastTouchedEmojiCell;
-    NSMutableArray *_gestureRecognizersToEnable;
-    _Bool _touchDidMove;
-    _Bool _isInSearchPopover;
-    UIResponder *_hitTestResponder;
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)et version, this should never happen;
+- (void)essage was translated from %s to %s.;
+- (_Bool)d;
+- (id)Kit;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)ersion %@ serverVersion %@;
+- (id)g does not allow us to sync. Our client version %d server client version %ld;
+- (void)tedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (id)IMDScreenTimeAskReponseHandler;
 - (double);
 - (void);
-- (void)orrow;
-- (void)ntentViewMarginType;
+- (void)_tomorrow;
+- (void)_contentViewMarginType;
 - (void)_allowedTouchTypes;
 - (id)hBarPlacementBarButtonItem is only supported in UIToolbar;
 - (void)<äËÿþ;
 - (void)h f;
 
 // Remaining properties
-@property(readonly) UIKeyboardEmojiGraphicsTraits *emojiGraphicsTraits; // @synthesize emojiGraphicsTraits=_emojiGraphicsTraits;
-@property(nonatomic) __weak UIResponder *hitTestResponder; // @synthesize hitTestResponder=_hitTestResponder;
 @property(nonatomic) _Bool isInSearchPopover; // @synthesize isInSearchPopover=_isInSearchPopover;
 
 @end

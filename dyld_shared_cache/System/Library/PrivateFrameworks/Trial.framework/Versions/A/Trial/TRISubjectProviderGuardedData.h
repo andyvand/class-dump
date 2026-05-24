@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, TRISubject;
+@class TRISubject;
 
 @interface TRISubjectProviderGuardedData
 {
     TRISubject *subject;
-    NSDate *nextRotationDate;
-    NSMutableDictionary *tempDeviceIds;
 }
 
 - (void);

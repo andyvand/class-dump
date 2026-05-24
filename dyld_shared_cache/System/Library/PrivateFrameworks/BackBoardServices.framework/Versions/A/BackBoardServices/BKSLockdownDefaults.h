@@ -9,7 +9,8 @@
 }
 
 - (void);
-- (id);
+- (id)y 0
+;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool tetheredDisplayPortMode; // @dynamic tetheredDisplayPortMode;

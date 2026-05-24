@@ -6,23 +6,14 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, FPItemID, FPProviderDomain, NSFileCoordinator, NSString, NSURL;
+@class FPItem;
 
 @interface FPUnarchiveOperation : FPActionOperation
 {
     FPItem *_item;
-    NSURL *_itemURL;
-    FPItemID *_placeholderID;
-    FPItem *_destinationFolder;
-    _Bool _hasStitchedUnarchivedItems;
-    NSFileCoordinator *_coordinator;
-    id _coordinationAccessToken;
-    FPProviderDomain *_providerDomain;
-    CDUnknownBlockType _passphraseRequestBlock;
-    CDUnknownBlockType _unarchiveCompletionBlock;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)M;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -42,15 +33,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType passphraseRequestBlock; // @synthesize passphraseRequestBlock=_passphraseRequestBlock;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType unarchiveCompletionBlock; // @synthesize unarchiveCompletionBlock=_unarchiveCompletionBlock;
 
 @end
 

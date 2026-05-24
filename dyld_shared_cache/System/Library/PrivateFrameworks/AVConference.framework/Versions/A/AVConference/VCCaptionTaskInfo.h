@@ -8,27 +8,20 @@ __attribute__((visibility("hidden")))
 @interface VCCaptionTaskInfo
 {
     id _task;
-    long long _token;
-    unsigned int _updateNumber;
-    unsigned int _utteranceNumber;
-    double _hostTime;
 }
 
 - (void);
+- (void);
+- (id);
+- (unsigned int)8;
+- (unsigned int);
+- (id);
 - (void);
 - (id);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (void);
-- (id);
-- (long long);
+- (long long)a;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id task; // @synthesize task=_task;
-@property(readonly) long long token; // @synthesize token=_token;
-@property unsigned int updateNumber; // @synthesize updateNumber=_updateNumber;
-@property unsigned int utteranceNumber; // @synthesize utteranceNumber=_utteranceNumber;
 
 @end
 

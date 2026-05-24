@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
 @protocol NADiffableItemGroup;
 
 @interface NAGroupDiffOperation
 {
     unsigned long long _type;
-    id <NADiffableItemGroup> _group;
-    NSNumber *_fromIndex;
-    NSNumber *_toIndex;
 }
 
 + (id);
@@ -31,18 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *fromIndex; // @synthesize fromIndex=_fromIndex;
 @property(readonly, nonatomic) id <NADiffableItemGroup> group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *operationDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSNumber *toIndex; // @synthesize toIndex=_toIndex;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

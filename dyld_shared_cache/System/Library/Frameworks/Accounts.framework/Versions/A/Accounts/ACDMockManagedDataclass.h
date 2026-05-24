@@ -6,29 +6,25 @@
 
 #import <Accounts/ACDManagedDataclass.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ACDMockManagedDataclass : ACDManagedDataclass
 {
     NSString *name;
-    NSSet *provisionedAccounts;
-    NSSet *syncableTypes;
-    NSSet *supportedTypes;
-    NSSet *enabledAccounts;
 }
 
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)__objc_data;
 
 @end
 

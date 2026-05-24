@@ -13,14 +13,9 @@ __attribute__((visibility("hidden")))
         int _field3;
         _Bool _field4;
     } *_zoomRequestBuffer;
-    unsigned int _zoomRequestBufferIndex;
-    unsigned int _maxZoomDelay;
-    unsigned int _currentZoomDelay;
-    int _currentZoomDirection;
-    int _operatingMode;
 }
 
-- (void);
+- (void)addAnnotationParaId:annotation: /* Error: Ran out of types for this method. */;
 
 @end
 

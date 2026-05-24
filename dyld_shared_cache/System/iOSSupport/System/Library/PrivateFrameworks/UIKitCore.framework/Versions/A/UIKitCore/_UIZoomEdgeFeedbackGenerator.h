@@ -9,31 +9,26 @@
 @interface _UIZoomEdgeFeedbackGenerator : _UIEdgeFeedbackGenerator
 {
     double _minimumZoomScale;
-    double _maximumZoomScale;
-    double _minimumTemporaryZoomScale;
-    double _maximumTemporaryZoomScale;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)w%P;
+- (void);
+- (id)P
+;
 - (double);
 - (void);
 - (double);
 - (void)1Â0@ù
 × ;
-- (double)tomatically;
-- (double)reRecognizer;
+- (double)shouldUpdateLayoutAutomatically;
+- (double)_uninstallBackGestureRecognizer;
 - (void)ibleCellsPassWithLayoutOffset:(double)arg1 cv == %p; layoutOffset == %@; preferredSizes == %@; dependentItems == %@;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double maximumTemporaryZoomScale; // @synthesize maximumTemporaryZoomScale=_maximumTemporaryZoomScale;
-@property(nonatomic) double maximumZoomScale; // @synthesize maximumZoomScale=_maximumZoomScale;
-@property(nonatomic) double minimumTemporaryZoomScale; // @synthesize minimumTemporaryZoomScale=_minimumTemporaryZoomScale;
 @property(nonatomic) double minimumZoomScale; // @synthesize minimumZoomScale=_minimumZoomScale;
 
 @end

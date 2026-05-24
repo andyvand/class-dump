@@ -7,7 +7,6 @@
 @interface CKBalloonEmphasisManager
 {
     id emphasizedChatItemGUIDs;
-    id emphasizedAssociatedChatItemGUIDs;
 }
 
 - (_Bool);

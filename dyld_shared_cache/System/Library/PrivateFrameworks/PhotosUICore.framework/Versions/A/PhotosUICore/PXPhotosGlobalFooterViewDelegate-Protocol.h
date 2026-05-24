@@ -5,5 +5,8 @@
 //
 
 @protocol PXPhotosGlobalFooterViewDelegate
+
+@optional
+- (void)@;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNRegulatoryLogger
+- (void)Root=%d;
 @end
 

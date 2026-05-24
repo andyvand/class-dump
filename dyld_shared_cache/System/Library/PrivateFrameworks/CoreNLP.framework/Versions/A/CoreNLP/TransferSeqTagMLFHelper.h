@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSDictionary *_trainingParameters;
 }
 
-- (id);
+- (id);
 - (void);
 - (float);
 - (void);
@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (float);
 - (void);
 - (struct __CFDictionary *);
@@ -41,7 +41,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+kc;
 - (id);
 - (void);
 

@@ -11,8 +11,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)"NSDictionary",R,N;
++ (id)_PSHeuristics;
 + (id);
 
 @end

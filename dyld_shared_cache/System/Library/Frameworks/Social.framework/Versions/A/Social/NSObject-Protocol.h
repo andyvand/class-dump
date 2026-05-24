@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)contacts;
+- (id)contactWithVCardData:error: /* Error: Ran out of types for this method. */;
+- (id)contactWithUserActivityUserInfo:(SEL)arg1 keysToFetch:(id)arg2;
+- (id)contactWithMatchingDictionary:(SEL)arg1 keysToFetch: /* Error: Ran out of types for this method. */;
+- (Class)contactWithDisplayName:emailOrPhoneNumber: /* Error: Ran out of types for this method. */;
+- (oneway void)P;
+- (id);
+- (_Bool)s[%{public}@]:(Class)arg1 Failed to create SSR controller with error %@;
+- (_Bool)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

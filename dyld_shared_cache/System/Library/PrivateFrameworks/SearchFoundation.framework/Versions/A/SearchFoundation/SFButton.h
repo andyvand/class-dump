@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage;
+@class SFImage;
 
 @interface SFButton
 {
     struct {
         unsigned int isSelected:1;
     } _has;
-    _Bool _isSelected;
-    SFImage *_image;
-    SFImage *_selectedImage;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)personalizedResponseForContentDescriptor:(id)arg1 requestedProperties: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)verboseSmartDescriptionShared;
+- (id)sSuggester is attempting to reject an asset %@ that is already added to shared zone;
 - (id);
 - (id);
 - (void)SFPBRowCardSection",&,N;
-- (_Bool)eterCommand;
+- (_Bool)fillToolAppEntityParameterCommand;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SFImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(readonly) Class superclass;
 
 @end
 

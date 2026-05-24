@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBWatchListItem
 {
     _Bool _isMediaContainer;
-    int _type;
-    NSString *_watchListIdentifier;
-    NSString *_seasonEpisodeTextFormat;
-    NSString *_continueInTextFormat;
-    NSString *_openButtonTitle;
-    NSString *_installButtonTitle;
-    NSString *_purchaseOfferTextFormat;
-    NSString *_inUpNextText;
-    NSString *_addToUpNextText;
-    NSString *_addedToUpNextText;
-    NSString *_watchLiveTextFormat;
 }
 
 - (id);
@@ -49,35 +38,16 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)setIncludeTorsoOnlyDetectionData:(id)arg1;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void)n"24@0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addToUpNextText; // @synthesize addToUpNextText=_addToUpNextText;
-@property(copy, nonatomic) NSString *addedToUpNextText; // @synthesize addedToUpNextText=_addedToUpNextText;
-@property(copy, nonatomic) NSString *continueInTextFormat; // @synthesize continueInTextFormat=_continueInTextFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *inUpNextText; // @synthesize inUpNextText=_inUpNextText;
-@property(copy, nonatomic) NSString *installButtonTitle; // @synthesize installButtonTitle=_installButtonTitle;
-@property(nonatomic) _Bool isMediaContainer; // @synthesize isMediaContainer=_isMediaContainer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *openButtonTitle; // @synthesize openButtonTitle=_openButtonTitle;
-@property(copy, nonatomic) NSString *purchaseOfferTextFormat; // @synthesize purchaseOfferTextFormat=_purchaseOfferTextFormat;
-@property(copy, nonatomic) NSString *seasonEpisodeTextFormat; // @synthesize seasonEpisodeTextFormat=_seasonEpisodeTextFormat;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 @property(copy, nonatomic) NSString *watchListIdentifier; // @synthesize watchListIdentifier=_watchListIdentifier;
-@property(copy, nonatomic) NSString *watchLiveTextFormat; // @synthesize watchLiveTextFormat=_watchLiveTextFormat;
 
 @end
 

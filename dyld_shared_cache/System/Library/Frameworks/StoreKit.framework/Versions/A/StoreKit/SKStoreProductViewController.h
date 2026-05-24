@@ -10,12 +10,11 @@
 @interface SKStoreProductViewController
 {
     SKUIStoreProductViewController *_productViewController;
-    id <SKStoreProductViewControllerDelegate> _delegate;
 }
 
-- (void);
+- (void)b1"delegateSupportsTouchView"Q"delegateSupportsDidPresentWithCanvasOffset"b1"delegateSupportsInvalidateTiles"b1"delegateSupportsHasVisibleStrokesChanged"b1"delegateSupportsInkForStroke"b1"delegateSupportsTransformForStroke"b1"delegateSupportsShouldDelayDrawingBeganWithTouch"b1"delegateSupportsShouldCombineStrokes"b1"delegateSupportsContentCoordinateSpace"b1"delegateSupportsShouldDiscardEndedStroke"b1"delegateSupportsCanvasViewWillBeginDrawingStartPoint"b1"delegateSupportsCanvasViewMaximumSupportedContentVersion"b1"delegateSupportsShouldDiscardTapStrokeAt"b1"delegateSupportsDrawingIsShared"b1"delegateSupportsScratchOutStrokes"b1};
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

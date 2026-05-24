@@ -15,12 +15,12 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)#;
 - (void);
 - (id);
-- (void)tifRingSize:kernelPipeTxRingSize:kernelPipeRxRingSize:execUUID: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)initWithName:delegate:enableWithChannelCount:netifRingSize:kernelPipeTxRingSize:kernelPipeRxRingSize:execUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NetworkExtension.NEHotspotEvaluationProviderHostExportedObject *exportedObject; // @synthesize exportedObject;

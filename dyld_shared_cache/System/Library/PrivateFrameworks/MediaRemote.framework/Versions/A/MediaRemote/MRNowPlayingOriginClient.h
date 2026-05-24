@@ -4,37 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRApplicationActivity, MRClient, MROrigin, NSArray, NSMutableArray, NSObject, NSString;
+@class MROrigin, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRNowPlayingOriginClient
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    _Bool _overrideApp;
-    NSString *_overrideAppBundleID;
-    unsigned int _routeDiscoveryMode;
-    NSMutableArray *_applicationPickedRoutes;
-    unsigned int _inputMode;
-    float _volume;
-    unsigned int _volumeCapabilities;
-    MRApplicationActivity *_activity;
-    NSString *_routingContextID;
-    CDUnknownBlockType _playbackQueueCallback;
-    CDUnknownBlockType _capabilitiesCallback;
-    CDUnknownBlockType _commandCallback;
-    CDUnknownBlockType _beginLyricsEventCallback;
-    CDUnknownBlockType _endLyricsEventCallback;
-    CDUnknownBlockType _playbackSessionCallback;
-    CDUnknownBlockType _playbackSessionMigrateBeginCallback;
-    CDUnknownBlockType _playbackSessionMigrateEndCallback;
-    CDUnknownBlockType _playbackSessionMigrateFinalizeCallback;
-    CDUnknownBlockType _playbackSessionMigratePostCallback;
-    CDUnknownBlockType _playbackSessionMigrateRequestCallback;
-    CDUnknownBlockType _clientMessageCallback;
-    NSMutableArray *_nowPlayingClients;
-    unsigned int _hardwareRemoteBehavior;
-    MRClient *_activeNowPlayingClient;
-    MROrigin *_origin;
 }
 
 - (void);
@@ -50,16 +25,16 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)serLayoutProtocol>";
 - (id);
-- (id);
+- (id)purgableFlagsForPath:error: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (_Bool);
@@ -71,58 +46,36 @@
 - (CDUnknownBlockType);
 - (float);
 - (void);
+- (id)s;
+- (void)AFAnnouncementContext:(CDUnknownBlockType)arg1:notificationType /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (CDUnknownBlockType)A;
+- (CDUnknownBlockType);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
+- (id);
 - (unsigned int);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned int);
-- (CDUnknownBlockType);
-- (void);
-- (void)DeviceID:(unsigned int)arg1 withBuffer:time:gain: /* Error: Ran out of types for this method. */;
+- (void)processVoiceInputAudioDataForDeviceID:(unsigned int)arg1 withBuffer:time:gain: /* Error: Ran out of types for this method. */;
 - (void)N,V_subtitleShort;
 - (void)ôì
 ÄÈ@;
 - (unsigned int)Type:%lu
 Message:%@
 > /* Error: Ran out of types for this method. */;
-- (void)uareAnimatedArtwork;
+- (void)kMRMediaRemoteNowPlayingInfoSquareAnimatedArtwork;
 - (void)ÿ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MRClient *activeNowPlayingClient; // @synthesize activeNowPlayingClient=_activeNowPlayingClient;
-@property(retain, nonatomic) MRApplicationActivity *activity;
-@property(copy, nonatomic) NSArray *applicationPickedRoutes;
-@property(copy, nonatomic) CDUnknownBlockType beginLyricsEventCallback;
-@property(copy, nonatomic) CDUnknownBlockType clientMessageCallback;
-@property(copy, nonatomic) CDUnknownBlockType commandCallback;
-@property(copy, nonatomic) CDUnknownBlockType endLyricsEventCallback;
-@property(nonatomic) unsigned int hardwareRemoteBehavior; // @synthesize hardwareRemoteBehavior=_hardwareRemoteBehavior;
-@property(nonatomic) unsigned int inputMode;
-@property(readonly, nonatomic) NSArray *nowPlayingClients;
 @property(readonly, nonatomic) MROrigin *origin; // @synthesize origin=_origin;
-@property(nonatomic, getter=isOverrideApp) _Bool overrideApp; // @synthesize overrideApp=_overrideApp;
-@property(copy, nonatomic) NSString *overrideAppBundleID;
-@property(copy, nonatomic) CDUnknownBlockType playbackQueueCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateBeginCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateEndCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateFinalizeCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigratePostCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateRequestCallback;
-@property(nonatomic) unsigned int routeDiscoveryMode;
-@property(nonatomic) float volume;
-@property(nonatomic) unsigned int volumeCapabilities;
 
 @end
 

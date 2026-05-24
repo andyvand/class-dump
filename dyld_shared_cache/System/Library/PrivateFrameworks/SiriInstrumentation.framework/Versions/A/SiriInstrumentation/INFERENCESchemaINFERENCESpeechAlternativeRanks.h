@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCESpeechAlternativeRanks : SISchemaInstrumentationMessage
 {
     _Bool _isError;
-    unsigned int _version;
-    unsigned int _givenNameRank;
-    unsigned int _middleNameRank;
-    unsigned int _familyNameRank;
-    unsigned int _fullNameRank;
-    struct {
-        unsigned int isError:1;
-        unsigned int version:1;
-        unsigned int givenNameRank:1;
-        unsigned int middleNameRank:1;
-        unsigned int familyNameRank:1;
-        unsigned int fullNameRank:1;
-    } _has;
 }
 
 - (void);
@@ -31,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R>;
 - (void);
 - (void);
 - (void);
@@ -65,22 +50,10 @@
 × ;
 - (_Bool)shotTriggerReason;
 - (id)C,N,V_properties;
-- (id)DIntelligenceFlowPlannerGrainSummary;
+- (id)PNRODSchemaPNRODIntelligenceFlowPlannerGrainSummary;
 
 // Remaining properties
-@property(nonatomic) unsigned int familyNameRank; // @synthesize familyNameRank=_familyNameRank;
-@property(nonatomic) unsigned int fullNameRank; // @synthesize fullNameRank=_fullNameRank;
-@property(nonatomic) unsigned int givenNameRank; // @synthesize givenNameRank=_givenNameRank;
-@property(nonatomic) _Bool hasFamilyNameRank;
-@property(nonatomic) _Bool hasFullNameRank;
-@property(nonatomic) _Bool hasGivenNameRank;
-@property(nonatomic) _Bool hasIsError;
-@property(nonatomic) _Bool hasMiddleNameRank;
-@property(nonatomic) _Bool hasVersion;
 @property(nonatomic) _Bool isError; // @synthesize isError=_isError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int middleNameRank; // @synthesize middleNameRank=_middleNameRank;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

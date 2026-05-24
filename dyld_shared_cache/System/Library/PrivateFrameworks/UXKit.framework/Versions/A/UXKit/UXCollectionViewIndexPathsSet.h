@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableIndexSet;
+@class NSMutableIndexSet;
 
 @interface UXCollectionViewIndexPathsSet
 {
     NSMutableIndexSet *_sectionIndexes;
-    NSMutableDictionary *_sectionToItemIndexesMap;
 }
 
 + (id);
@@ -17,13 +16,13 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -35,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)j;
 - (id);
 - (_Bool);
 - (id);

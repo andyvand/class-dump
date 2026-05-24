@@ -10,11 +10,11 @@
 {
 }
 
-- (BOOL);
+- (BOOL)modernCrossProcessChangeCoordinator;
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)table;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (Class);

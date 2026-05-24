@@ -4,44 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOSpokenGuidance
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_announcements;
-    NSMutableArray *_timeGaps;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _alignment;
-    unsigned int _endDesiredTime;
-    unsigned int _exclusiveSetIdentifier;
-    unsigned int _numChainedVariants;
-    unsigned int _priority;
-    unsigned int _repetitionInterval;
-    unsigned int _startDesiredTime;
-    _Bool _tapBeforeAnnouncement;
-    struct {
-        unsigned int has_alignment:1;
-        unsigned int has_endDesiredTime:1;
-        unsigned int has_exclusiveSetIdentifier:1;
-        unsigned int has_numChainedVariants:1;
-        unsigned int has_priority:1;
-        unsigned int has_repetitionInterval:1;
-        unsigned int has_startDesiredTime:1;
-        unsigned int has_tapBeforeAnnouncement:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_announcements:1;
-        unsigned int read_timeGaps:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)nSession:(id)arg1;
++ (_Bool)setMapsWidgetsInteractionSession:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -55,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -63,15 +35,15 @@
 - (void);
 - (unsigned int);
 - (unsigned int);
+- (_Bool)managedObjectContextWillSave: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithURL:options:pristineDatabase:readOnly:didMigrate: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchExistingContainers: /* Error: Ran out of types for this method. */;
+- (_Bool)cacheKeyForAllSources;
+- (_Bool)"NSArray",C,V_affectedSources;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)ainer:No container will be retuned; unexpected nil accountCollection %@ /* Error: Ran out of types for this method. */;
+- (unsigned int)for %{public}@:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -83,50 +55,32 @@
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
-- (void);
+- (void)acquireAudioSessionAssertionWithContext:(id)arg1 relinquishmentHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (void);
+- (void)&,N,V_darkImage;
 - (_Bool);
 - (id);
 - (void);
 - (id)2}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}40;
 - (id)hasLabelText;
-- (id)kDefaultsServerProxyDelegate;
+- (id)_GEONetworkDefaultsServerProxyDelegate;
 - (id)messageForIncidentType;
 - (void);
 - (void)àP@;
 - (unsigned int)(Î2;
 
 // Remaining properties
-@property(nonatomic) int alignment;
 @property(retain, nonatomic) NSMutableArray *announcements;
-@property(nonatomic) unsigned int endDesiredTime;
-@property(nonatomic) unsigned int exclusiveSetIdentifier;
-@property(nonatomic) _Bool hasAlignment;
-@property(nonatomic) _Bool hasEndDesiredTime;
-@property(nonatomic) _Bool hasExclusiveSetIdentifier;
-@property(nonatomic) _Bool hasNumChainedVariants;
-@property(nonatomic) _Bool hasPriority;
-@property(nonatomic) _Bool hasRepetitionInterval;
-@property(nonatomic) _Bool hasStartDesiredTime;
-@property(nonatomic) _Bool hasTapBeforeAnnouncement;
-@property(nonatomic) unsigned int numChainedVariants;
-@property(nonatomic) unsigned int priority;
-@property(nonatomic) unsigned int repetitionInterval;
-@property(nonatomic) unsigned int startDesiredTime;
-@property(nonatomic) _Bool tapBeforeAnnouncement;
-@property(retain, nonatomic) NSMutableArray *timeGaps;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

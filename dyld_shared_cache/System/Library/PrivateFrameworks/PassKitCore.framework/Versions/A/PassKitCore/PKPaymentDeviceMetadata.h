@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSNumber, NSString;
+@class NSString;
 
 @interface PKPaymentDeviceMetadata
 {
     NSString *_deviceName;
-    NSNumber *_primaryJSBLSequenceCounter;
-    NSString *_secureElementIdentifier;
-    NSString *_uniqueDeviceIdentifier;
-    NSNumber *_uniqueChipIdentifier;
-    NSString *_serialNumber;
-    NSString *_phoneNumber;
-    NSString *_signedPhoneNumber;
-    NSString *_signedPhoneNumberVersion;
-    CLLocation *_location;
 }
 
 + (_Bool)áW"ð!TCùqî%Ð1Â0@ù
 × ;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -38,35 +29,24 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)NSString",C,N,V_hostProcessBundleIdentifier;
+- (_Bool)setHasTxAMPDUDensity:(id)arg1;
+- (id)I,N,V_isUserDisabled;
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)ntries:forContactKey:labelsToProperties: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)M;
+- (id)_meCardEntries:forContactKey:labelsToProperties: /* Error: Ran out of types for this method. */;
 - (void)ture;
-- (id)erviceExportedInterface;
+- (id)PDPaymentServiceExportedInterface;
 - (id)¬ð(;
-- (void)on;
-- (void)_MESSAGE_AMBIGUOUS_CAR_KEY;
+- (void)requiresVerification;
+- (void)CONTINUITY_FAILED_TO_FIND_DEVICE_MESSAGE_AMBIGUOUS_CAR_KEY;
 - (void)à¡;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) __weak NSString *extensiveLatitude;
-@property(readonly, nonatomic) __weak NSString *extensiveLongitude;
-@property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSNumber *primaryJSBLSequenceCounter; // @synthesize primaryJSBLSequenceCounter=_primaryJSBLSequenceCounter;
-@property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSString *signedPhoneNumber; // @synthesize signedPhoneNumber=_signedPhoneNumber;
-@property(copy, nonatomic) NSString *signedPhoneNumberVersion; // @synthesize signedPhoneNumberVersion=_signedPhoneNumberVersion;
-@property(copy, nonatomic) NSNumber *uniqueChipIdentifier; // @synthesize uniqueChipIdentifier=_uniqueChipIdentifier;
-@property(copy, nonatomic) NSString *uniqueDeviceIdentifier; // @synthesize uniqueDeviceIdentifier=_uniqueDeviceIdentifier;
 
 @end
 

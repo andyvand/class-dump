@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)	};
+- (_Bool)%@;
+- (id)ia system from system payload:(unsigned int)arg1 %@;
 
 @end
 

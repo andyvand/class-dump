@@ -9,9 +9,6 @@
 @interface SwiftUI.UIKitTextEditorCoordinator__priv_A90AD0DD13E6C72FFE734B65FAFF6EFF : SwiftUI.UIKitTextEditorCoordinatorBase
 {
     id configuration;
-    id selectionStorage;
-    id textInputValidation;
-    id viewIsUpdating;
 }
 
 - (void);

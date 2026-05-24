@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface CKTapbackPickerCollectionViewLayout
 {
     id tapbackPickerLayoutDelegate;
-    id $__lazy_storage_$_dynamicAnimator;
-    id lastPanGestureRecognizerPositionInCollectionViewCoordinates;
 }
 
 - (id);
-- (id);
-- (_Bool)cent;
+- (id)";
+- (_Bool)rasterizationPercent;
 - (id);
 - (void)yACyAAyð}[{;
 - (id);

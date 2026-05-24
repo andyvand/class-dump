@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)shouldApplyBackground;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)aWithBytesNoCopy:length:freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)dataWithBytesNoCopy:length:freeWhenDone: /* Error: Ran out of types for this method. */;
 
 @end
 

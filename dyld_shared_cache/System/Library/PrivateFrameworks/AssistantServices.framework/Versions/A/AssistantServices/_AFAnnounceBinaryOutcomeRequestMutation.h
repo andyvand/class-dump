@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnnounceBinaryOutcomeRequest, NSString;
-@protocol AFAnnounceBinaryOutcomeUseCaseV2;
+@class AFAnnounceBinaryOutcomeRequest;
 
 @interface _AFAnnounceBinaryOutcomeRequestMutation
 {
     AFAnnounceBinaryOutcomeRequest *_base;
-    long long _useCase;
-    id <AFAnnounceBinaryOutcomeUseCaseV2> _useCaseV2;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasUseCase:1;
-        unsigned int hasUseCaseV2:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)SeatingInformation",R,N;
 - (_Bool);
-- (id)ntityClassification:(id)arg1;
-- (void)geWithOldValue:andNewValue: /* Error: Ran out of types for this method. */;
+- (id)setUserIdentityClassification:(id)arg1;
+- (void)_handleObservedChangeWithOldValue:andNewValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

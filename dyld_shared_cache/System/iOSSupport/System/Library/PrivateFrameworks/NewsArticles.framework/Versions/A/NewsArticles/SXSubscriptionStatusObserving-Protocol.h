@@ -5,5 +5,6 @@
 //
 
 @protocol SXSubscriptionStatusObserving
+- (void);
 @end
 

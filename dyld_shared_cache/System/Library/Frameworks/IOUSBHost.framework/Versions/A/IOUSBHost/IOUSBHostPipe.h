@@ -6,25 +6,22 @@
 
 #import <IOUSBHost/IOUSBHostIOSource.h>
 
-@class NSData, NSMutableSet;
+@class NSData;
 
 @interface IOUSBHostPipe : IOUSBHostIOSource
 {
     _Bool _streamsEnabled;
-    NSData *_originalDescriptorsCache;
-    NSData *_currentDescriptorsCache;
-    NSMutableSet *_invalidDescriptorCache;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool){h|;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,32 +32,26 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)m;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)02x;
+- (_Bool)ner %p>{refCount=%d,item=%p};
+- (_Bool)ClipThumbnailImageLength;
+- (id)ClipConstraint_set3_flag;
+- (id)ClipTimeZoneValue;
+- (_Bool)PlayListRecordTimeAndDate;
+- (_Bool)AVCHDDaylightSavingTimeFlag;
+- (_Bool)AVCHDRecordTimeAndDate;
+- (_Bool).TID;
 - (_Bool);
 - (double);
-- (const struct IOUSBHostIOSourceDescriptors *);
+- (const struct IOUSBHostIOSourceDescriptors *)_valueValidatator;
 - (void);
 
 // Remaining properties
-@property(retain) NSData *currentDescriptorsCache; // @synthesize currentDescriptorsCache=_currentDescriptorsCache;
-@property(readonly) const struct IOUSBHostIOSourceDescriptors *descriptors;
-@property(readonly) double idleTimeout;
-@property(retain) NSMutableSet *invalidDescriptorCache; // @synthesize invalidDescriptorCache=_invalidDescriptorCache;
-@property(readonly) const struct IOUSBHostIOSourceDescriptors *originalDescriptors;
 @property(retain) NSData *originalDescriptorsCache; // @synthesize originalDescriptorsCache=_originalDescriptorsCache;
-@property _Bool streamsEnabled; // @synthesize streamsEnabled=_streamsEnabled;
 
 @end
 

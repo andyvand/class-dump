@@ -6,32 +6,22 @@
 
 #import <NetworkStatistics/NWSProtocolSnapshot.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NWSTCPSnapshot : NWSProtocolSnapshot
 {
     NSString *_congestionAlgorithm;
-    NSString *_processName;
-    NSString *_uuid;
-    NSString *_euuid;
-    NSString *_fuuid;
-    NSString *_vuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    struct nstat_tcp_descriptor _descriptor;
-    unsigned int _provider;
-    unsigned long long _eventFlags;
 }
 
 - (unsigned int);
 - (double);
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id)TRIPreviousExperimentStateProviding;
 - (unsigned int);
 - (id);
 - (id);
@@ -45,26 +35,26 @@
 - (double);
 - (unsigned int);
 - (double);
-- (unsigned int);
+- (unsigned int)__swift5_reflstr__TEXT;
 - (unsigned int);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
-- (unsigned int);
+- (unsigned int)?;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_lock_numberOfStartTimeDefiningAssertionsForTargetProcessIdentity: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned int);
 - (id);
@@ -73,7 +63,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
@@ -90,28 +80,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *TCPState;
-@property(readonly) NSString *congestionAlgorithm;
-@property(readonly) _Bool connProbeFailed;
-@property(readonly) unsigned int connectAttempts;
-@property(readonly) unsigned int connectSuccesses;
-@property(readonly) _Bool flowIsLocal;
-@property(readonly) _Bool flowIsNonLocal;
-@property(readonly) _Bool probeActivated;
-@property(readonly) _Bool readProbeFailed;
-@property(readonly) double rttAverage;
 @property(readonly) double rttMinimum;
-@property(readonly) double rttVariation;
-@property(readonly) unsigned int rxDuplicateBytes;
-@property(readonly) unsigned int rxOutOfOrderBytes;
-@property(readonly) unsigned int sendBufferSize;
-@property(readonly) unsigned int sendBufferUsed;
-@property(readonly) unsigned int trafficManagementFlags;
-@property(readonly) unsigned int txCongestionWindow;
-@property(readonly) unsigned int txRetransmittedBytes;
-@property(readonly) unsigned int txUnacked;
-@property(readonly) unsigned int txWindow;
-@property(readonly) _Bool writeProbeFailed;
 
 @end
 

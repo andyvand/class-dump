@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
+- (void);
+- (void)SDFrame paintPath:(void (^)(id <FCNewsAppConfiguration>, NSError *))arg1 wantsInteriorStroke:inContext:useFastDrawing:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id <FCNewsAppConfiguration>)SGGG;
+
+@optional
+- (void)ppSupport,CookingSupportTests,CookingSupportExampleHostApp,CookingKitExampleApp,,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksDetailIntents,StocksKit,StocksKitTests,StocksKitService,StocksTests,StocksToday,StocksUI,StocksUITests,StocksWidget,StocksDiagnosticExtension,StocksSettingsIntents,StocksPersonalization,Weather,WeatherAppSupport,WeatherAppSupportTests,WeatherCharts,WeatherDemo,Kinsale,WeatherCore,WeatherCoreTests,WeatherKit,WeatherKitDemo,WeatherKitTests,WeatherMaps,WeatherMapsTests,WeatherUI,WeatherUITests,WeatherDaemon,WeatherDaemonTests,weatherd,WeatherSettings,WeatherSettingsIntentsExtension,WeatherWidget,WeatherWidgetExtension,WeatherIntents,WeatherAppIntents,WeatherUnitTests,KinsaleAnalytics,WeatherAnalytics,WeatherAnalyticsTests,KinsaleUI,WeatherUI,WeatherDiagnosticExtension,WeatherNotifications,WeatherDaemonMemoryTests,NanoWeather,NanoWeatherDiagnosticExtension,nanoweatherd,WeatherInternalExtras,WeatherFace,WeatherMenuBar,Urchin,,TeaBreeze,TeaBreezeTests,TeaBreezeInternalExtras,Breeze,TeaCharts,TeaChartsTests,TeaDB,TeaDBTests,TeaDemo,TeaFoundationTests,TeaSettings,TeaSettingsTests,TeaState,TeaStateCatalog,TeaStateTests,TeaStateInternalExtras,TeaSnappy,TeaSnappyTests,TeaTemplate,TeaTemplateTests,TeaUI,TeaUITests,SwiftUI,TeaBreezeInternalExtras,TeaStateTool,TeaBreezeCatalog;
+- (id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;
-@property(readonly, copy, nonatomic) NSString *feldsparID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> fetchedAppConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCNewsAppConfiguration>",?,R,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding> jsonEncodableAppConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>",?,R,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> possiblyUnfetchedAppConfiguration;
-@property(readonly, nonatomic) NSArray *segmentSetIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *treatmentIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @end
 

@@ -7,21 +7,6 @@
 @interface JetEngine.AppleServicesLocalizer
 {
     id language;
-    id strings;
-    id keys;
-    id nativeStrings;
-    id dateProvider;
-    id stateLock;
-    id preferences;
-    id defaultLookupStrategy;
-    id clientPreferences;
-    id liveUpdateService;
-    id pluralCategoryProvider;
-    id decimalNumberFormatters;
-    id percentageNumberFormatters;
-    id dateInContextFormatters;
-    id relativeDateFormatters;
-    id locale;
 }
 
 @end

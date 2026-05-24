@@ -7,9 +7,6 @@
 @interface AMSMescalFairplaySession
 {
     id mescalType;
-    id cachedCertificateProvider;
-    id certificateCacher;
-    id queue;
 }
 
 - (void);
@@ -17,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void)á}' Îõ 7Æ[B}ÁÇØÝ;
 
 @end

@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (double);
-- (id)hError: /* Error: Ran out of types for this method. */;
+- (id)auditTokenWithError: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSLegacyScrollerImp : NSScrollerImp
 {
     NSTrackingArea *contentViewTrackingArea;
-    double _uiStateTransitionProgress;
 }
 
 - (double);
@@ -20,20 +19,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void)�;
 - (double);
-- (_Bool);
-- (struct __CFDictionary *);
-- (struct CGRect);
+- (_Bool)shared_ptr<HTTPProtocol>="__ptr_"^{HTTPProtocol}"__cntrl_"^{__shared_weak_count}};
+- (struct __CFDictionary *)_onqueue_didSendBodyBytes:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (struct CGRect)eamFromOffset:callback:] /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)moveContainerView:(id)arg1;
+- (void)Clr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
+- (void)_removeContainerView:(id)arg1;
 
 @end
 

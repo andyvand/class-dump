@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void)trimScrubber:(id)arg1 didBeginInteractivelyEditingElement: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

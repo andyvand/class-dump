@@ -6,19 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Packet.h>
 
-@class NEIKEv2ConfigPayload, NSArray;
+@class NSArray;
 
 @interface NEIKEv2InformationalPacket : NEIKEv2Packet
 {
     NSArray *_deletes;
-    NEIKEv2ConfigPayload *_config;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)tUnassertHandler: /* Error: Ran out of types for this method. */;
+- (void)setUnassertHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

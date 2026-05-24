@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)rSisterInLaw>!$_;
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)supported. Legacy identifiers and guardian restrictions will unpredictable.;
+- (id);
 
 @end
 

@@ -4,6 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, SDDevice;
+
 @protocol SDBetaEnrollmentServiceInterface
+- (void)ficationRequest";
+- (void)2@60;
+- (void)estContext";
+- (void)ntext=QQQ}16@0:(void (^)(NSError *, SDMDMConfiguration *))arg1 8;
+- (void)}40{AFPowerContext=QQQ}64{AFPowerContext=QQQ}88;
+- (void)Q112;
+- (void)I;
+- (void)8;
+- (void)String"16@"NSDate"24@"NSDate"32@?<v@?BB>40;
+- (void)v40@0:(SDDevice *)arg1 8@"NSString"16@"NSString"24@"NSString"32;
+- (void)"<_DKKnowledgeQuerying>";
+- (void)tionUserContext";
+- (void)RelinquishableAssertion>"32@0:(NSString *)arg1 8@"AFAssertionContext"16@?<v@?@"AFAssertionContext"@"NSError">24;
+- (void)@"AFOutputVoiceDescriptor";
+- (void)"b1"hasChangeReason"b1"hasBuildVersion"b1"hasProductVersion"b1"hasSchemaVersion"b1"hasLogEventIdentifier"b1};
+- (void)8q16q24Q32;
+- (void)NSUUID"56@?<v@?B>64;
+- (void)6@"NSString"24@"NSArray"32@"NSArray"40@"NSString"48@"NSUUID"56@?<v@?B>64;
 @end
 

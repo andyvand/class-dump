@@ -6,23 +6,16 @@
 
 #import <MediaPlayer/MPMediaEntity.h>
 
-@class MPMediaItem, MPMediaQuery, NSArray;
-
 @interface MPMediaItemCollection : MPMediaEntity
 {
     unsigned long long _containedMediaTypes;
-    _Bool _initializedContainedMediaTypes;
-    NSArray *_items;
-    unsigned long long _itemsCount;
-    MPMediaQuery *_itemsQuery;
-    MPMediaItem *_representativeItem;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)insert;
++ (id);
++ (id)F;
 + (_Bool);
 - (void);
 - (void);
@@ -31,16 +24,16 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
+- (id)statistics;
+- (id)serializable;
+- (id)distinct;
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)w;
+- (id)ggregateAttachmentMessagePartChatItem"16@?0@"NSMutableArray"8;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)rceUrl:sender:domainIdentifier:batchIdentifier:calculatedFeatures:clientIdentifier:contentCreationDate:groupPhotoPathDigest:displayName:isPrimary:attributionIdentifier:rank:score:isConversationAutoDonating:originatingDeviceId:rankingDate:resolvedUrl:clientVariant: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -50,11 +43,7 @@
 - (void)meters",C,N,V_springCubicTimingParameters;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) long long groupingType;
-@property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) unsigned long long mediaTypes;
-@property(readonly, nonatomic) MPMediaItem *representativeItem;
 
 @end
 

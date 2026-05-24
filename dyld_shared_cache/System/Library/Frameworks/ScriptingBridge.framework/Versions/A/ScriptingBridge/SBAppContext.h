@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, SBAppLocator, SBApplication;
+@class SBApplication;
 
 @interface SBAppContext
 {
     SBApplication *_application;
-    NSMutableDictionary *_thunksForSelectors;
-    NSMutableDictionary *_thunksForSelectorsForClassCodes;
-    NSDictionary *_classNamesForCodes;
-    NSDictionary *_codesForPropertyNames;
-    NSDictionary *_codesForScriptingClassNames;
-    NSDictionary *_inheritanceCodesForClassCodes;
-    NSDictionary *_codesForClassNames;
-    NSDictionary *_propertyNamesForCodes;
-    NSDictionary *_scriptingClassNamesForCodes;
-    NSString *_name;
-    id _delegate;
-    SBAppLocator *_locator;
-    int _sendMode;
-    long long _timeout;
 }
 
 + (id);
@@ -57,17 +43,21 @@
 - (unsigned int);
 - (id);
 - (void);
+- (id)er0,TexCoord, 9.0);
+	gl_FragColor +=	texture2DLod(textureSampler0,TexCoord, 10.0);
+	gl_FragColor +=	texture2DLod(textureSampler0,TexCoord, 11.0);    
+    gl_FragColor /= 12.0;
+};
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (Class);
+- (Class)R#;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 

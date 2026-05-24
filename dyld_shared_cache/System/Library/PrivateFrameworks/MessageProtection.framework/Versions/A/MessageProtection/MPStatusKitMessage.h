@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MPStatusKitMessage
 {
     unsigned short _index;
-    NSData *_encryptedMessage;
-    NSData *_signature;
 }
 
 - (id);
-- (id);
+- (id)#;
 - (unsigned short);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *encryptedMessage; // @synthesize encryptedMessage=_encryptedMessage;
 @property(readonly, nonatomic) unsigned short index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

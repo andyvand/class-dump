@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVHapticClient;
-
 @interface AVHapticPlayerChannel
 {
     unsigned long long _chanID;
-    unsigned long long _behavior;
-    AVHapticClient *_client;
 }
 
 - (_Bool);
@@ -32,9 +28,6 @@
 
 // Remaining properties
 @property unsigned long long chanID; // @synthesize chanID=_chanID;
-@property __weak AVHapticClient *client; // @synthesize client=_client;
-@property unsigned long long eventBehavior;
-@property(readonly) _Bool invalidated;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol FBSWorkspaceDelegate
 
 @optional
-- (void)onGestureMode;
+- (void);
+- (void)navigationGestureMode;
 @end
 

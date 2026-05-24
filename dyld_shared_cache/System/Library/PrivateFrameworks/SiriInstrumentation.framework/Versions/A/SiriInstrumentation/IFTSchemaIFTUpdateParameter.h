@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTUpdateParameter : SISchemaInstrumentationMessage
 {
     NSString *_parameterId;
-    int _kind;
-    IFTSchemaIFTStatementId *_value;
-    long long _parameterIndex;
-    struct {
-        unsigned int kind:1;
-        unsigned int parameterIndex:1;
-    } _has;
-    _Bool _hasParameterId;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -37,11 +28,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)hb;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ticker = 1 AND filename LIKE ?;;
 - (_Bool);
 - (id);
 - (void);
@@ -49,22 +40,14 @@
 - (id)0@ù
 × ;
 - (void)setHasCatParameter:(_Bool)arg1;
-- (_Bool)ationContext;
+- (_Bool)_bluetoothCarInvocationContext;
 - (id)ExecutorSiriSchemaExecutorRequestEnded",&,N,V_ended;
-- (id)ivateCloudMetrics;
+- (id)GMSSchemaGMSPrivateCloudMetrics;
 - (int)`r;
 - (void)øqÕÿ@³;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKind;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(nonatomic) _Bool hasParameterIndex;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
 @property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
-@property(nonatomic) long long parameterIndex; // @synthesize parameterIndex=_parameterIndex;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *value; // @synthesize value=_value;
 
 @end
 

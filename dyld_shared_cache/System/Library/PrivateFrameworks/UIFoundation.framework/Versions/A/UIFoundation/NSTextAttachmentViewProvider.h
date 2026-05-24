@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutManager, NSTextAttachment, NSTextLayoutManager, NSView;
-@protocol NSTextLocation;
+@class NSTextAttachment, NSView;
 
 @interface NSTextAttachmentViewProvider
 {
     NSView *_view;
-    _Bool _tracksTextAttachmentViewBounds;
-    NSTextAttachment *_textAttachment;
-    NSTextLayoutManager *_textLayoutManager;
-    id <NSTextLocation> _location;
-    unsigned long long _characterIndex;
-    NSLayoutManager *_layoutManager;
 }
 
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)2;
+- (id)setTexture:(id)arg1;
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)_;
 - (struct CGRect);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)G;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)utAdditionalLayout:inTextContainer: /* Error: Ran out of types for this method. */;
-- (id)ntForTextStyle:variant: /* Error: Ran out of types for this method. */;
+- (id)glyphRangeForBoundingRectWithoutAdditionalLayout:inTextContainer: /* Error: Ran out of types for this method. */;
+- (id)_preferredFontForTextStyle:variant: /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly) unsigned long long characterIndex; // @synthesize characterIndex=_characterIndex;
-@property __weak NSLayoutManager *layoutManager; // @synthesize layoutManager=_layoutManager;
-@property(retain) id <NSTextLocation> location; // @synthesize location=_location;
 @property __weak NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
-@property __weak NSTextLayoutManager *textLayoutManager; // @synthesize textLayoutManager=_textLayoutManager;
-@property _Bool tracksTextAttachmentViewBounds; // @synthesize tracksTextAttachmentViewBounds=_tracksTextAttachmentViewBounds;
-@property(retain) NSView *view; // @dynamic view;
 
 @end
 

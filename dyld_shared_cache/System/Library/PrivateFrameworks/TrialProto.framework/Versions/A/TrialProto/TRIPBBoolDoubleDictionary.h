@@ -9,8 +9,6 @@
 @interface TRIPBBoolDoubleDictionary
 {
     TRIPBMessage *_autocreator;
-    double _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
@@ -30,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)Ҡ;
 - (void)MessageClass_;
 - (void)SiriMemory;
 

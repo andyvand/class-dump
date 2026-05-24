@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface IMDContactCacheScanner
 {
     _Bool _omitPlaceholders;
-    NSMutableDictionary *_validCachedContacts;
-    NSArray *_requiredKeyDescriptors;
-    NSMutableArray *_fetchBuckets;
 }
 
 - (id);
@@ -30,11 +27,7 @@
 - (void)ck_sync_state = 1 AND transfer_state = 5 AND hide_attachment=0 %@ ORDER BY total_bytes DESC LIMIT ? OFFSET ?;;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *fetchBuckets; // @synthesize fetchBuckets=_fetchBuckets;
-@property(nonatomic) _Bool omitPlaceholders; // @synthesize omitPlaceholders=_omitPlaceholders;
 @property(readonly, nonatomic) NSArray *requiredKeyDescriptors; // @synthesize requiredKeyDescriptors=_requiredKeyDescriptors;
-@property(readonly, nonatomic) _Bool requiresContactsFetch;
-@property(retain, nonatomic) NSMutableDictionary *validCachedContacts; // @synthesize validCachedContacts=_validCachedContacts;
 
 @end
 

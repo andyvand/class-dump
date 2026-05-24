@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class NSString;
 
 @interface REMDAAccountInfo
 {
     NSString *_accountID;
-    REMObjectID *_rem_accountObjectID;
-    NSString *_accountDescription;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)setEnableUpdates: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -24,16 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
 @property(retain, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) REMObjectID *rem_accountObjectID; // @synthesize rem_accountObjectID=_rem_accountObjectID;
-@property(readonly) Class superclass;
 
 @end
 

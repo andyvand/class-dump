@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRUrgentAlarmAuthorizationService
 {
     id alarmManager;
-    id userDefaults;
 }
 
 @end

@@ -7,14 +7,6 @@
 @interface NewsUI2.ChannelIssuesViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id featureAvailability;
-    id offlineAlertControllerFactory;
-    id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id blueprintHorizontalShimView;
 }
 
 - (void);

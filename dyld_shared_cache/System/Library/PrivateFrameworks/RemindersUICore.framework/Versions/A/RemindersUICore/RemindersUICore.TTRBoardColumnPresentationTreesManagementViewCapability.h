@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRBoardColumnPresentationTreesManagementViewCapability
 {
     id delegate;
-    id presentationTreesObserver;
-    id observableIntermediateCellViewModels;
-    id observableHeaderViewModel;
-    id dataSource;
 }
 
 @end

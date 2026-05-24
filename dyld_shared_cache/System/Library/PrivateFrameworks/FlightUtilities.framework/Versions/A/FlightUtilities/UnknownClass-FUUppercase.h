@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FUUppercase)
-- (id);
+- (id)bytesUsed called with a framestore with an unexpected datastoreVersion:(_Bool)arg1 %d;
 @end
 

@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSImage, NSString;
+@class NSDictionary;
 
 @interface EKUITextButton
 {
     NSDictionary *_textAttributes;
-    NSString *_text;
-    NSImage *_originalImage;
 }
 
 + (Class);
 - (void);
-- (void);
-- (double);
-- (id);
+- (void);
+- (double);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)h$;
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)SError"16;
 
 // Remaining properties
-@property(retain) NSImage *originalImage; // @synthesize originalImage=_originalImage;
-@property(retain) NSString *text; // @synthesize text=_text;
 @property(retain) NSDictionary *textAttributes; // @synthesize textAttributes=_textAttributes;
 
 @end

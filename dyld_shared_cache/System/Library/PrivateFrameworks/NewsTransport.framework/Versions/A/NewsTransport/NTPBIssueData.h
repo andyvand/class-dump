@@ -4,55 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBIssueData
 {
     NSString *_issueId;
-    int _issueType;
-    NSMutableArray *_topicIds;
-    _Bool _isBundlePaid;
-    CDStruct_e072d072 _has;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class)applyFocusedStyleWithCustomizedColorGradeKind: /* Error: Ran out of types for this method. */;
+- (unsigned long long)element:transitionToViewController:withTransitionType: /* Error: Ran out of types for this method. */;
+- (id)element:(unsigned long long)arg1 requestViewControllerDismissalAnimated: /* Error: Ran out of types for this method. */;
+- (void)curationKind;
+- (void)curatedLibraryAssetsDataSourceManager:(_Bool)arg1 willTransitionFromZoomLevel:toZoomLevel: /* Error: Ran out of types for this method. */;
+- (void)completeExitAssistantViewController:(_Bool)arg1 withExitRetentionPolicy: /* Error: Ran out of types for this method. */;
+- (id)audioSessionCategoryOptions;
+- (_Bool)addThumbnailRequest: /* Error: Ran out of types for this method. */;
+- (void)_useBootstrapMockDataSource;
+- (void)_updateProducerMonitors;
+- (id)_updateImageForFaceCropRequestID:image:contentsRect:forceUpdate:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateChildDataSourceManagers;
+- (int)_updateAsset:(id)arg1 withAnalysisResult:forVideoComplement: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (int);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)t=dd}{CGSize=dd}}^{__CFString}}8^B64;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)MinimumUpdateInterval: /* Error: Ran out of types for this method. */;
+- (void)setArticleListForegroundMinimumUpdateInterval: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsBundlePaid;
 @property(readonly, nonatomic) _Bool hasIssueId;
-@property(nonatomic) _Bool hasIssueType;
-@property(nonatomic) _Bool isBundlePaid; // @synthesize isBundlePaid=_isBundlePaid;
-@property(retain, nonatomic) NSString *issueId; // @synthesize issueId=_issueId;
-@property(nonatomic) int issueType; // @synthesize issueType=_issueType;
-@property(retain, nonatomic) NSMutableArray *topicIds; // @synthesize topicIds=_topicIds;
 
 @end
 

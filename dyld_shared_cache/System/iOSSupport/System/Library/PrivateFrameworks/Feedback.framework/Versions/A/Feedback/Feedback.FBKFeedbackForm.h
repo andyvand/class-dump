@@ -8,37 +8,10 @@
 {
     id identifier;
     id answers;
-    id authenticationMethod;
-    id attachments;
-    id attachmentDescriptors;
-    id _hideAttachmentButton;
-    id _disableAccountSwitching;
-    id _showInlineUserInfo;
-    id _showUserSwitcherLast;
-    id _alternateImagePreviewEnabled;
-    id _useInlineChoices;
-    id _maxInlineChoices;
-    id _onBoardingKitIdentifier;
-    id formResponses;
-    id autoGathersDiagnosticExtensions;
-    id allowsAttachmentDragAndDrop;
-    id localizedAttachmentLegalText;
-    id localizedAttributedLegalString;
-    id _enableTwoColumnCheckboxes;
-    id _largeTitleIcon;
-    id alwaysDeletesDrafts;
-    id launchedInBatchMode;
-    id _displayTitle;
-    id sandboxExtensionAttachments;
-    id formId;
-    id plugFormIds;
-    id environment;
-    id host;
-    id appToken;
 }
 
 + (_Bool);
-- (id);
+- (id)setUnknownMatterGuestUniqueID:(id)arg1;
 - (id);
 - (void);
 - (void);

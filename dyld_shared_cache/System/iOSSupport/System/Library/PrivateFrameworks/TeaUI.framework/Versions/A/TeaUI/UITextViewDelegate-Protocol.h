@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UITextViewDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (void)_virtualGarage;
+- (void)_venueFeatureType;
+- (void)_updateCompleteHandler;
+- (NSArray *)_undecoratedSubtitleWhenLocked;
 @end
 

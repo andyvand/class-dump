@@ -7,8 +7,6 @@
 @interface PowerUITTEPredResults
 {
     float _averagePower;
-    float _confidenceWidth;
-    long long _ttePreResultsStatus;
 }
 
 - (long long);
@@ -17,14 +15,12 @@
 - (void);
 - (void);
 - (float);
-- (float);
+- (float)updateHandler:].  /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) float averagePower; // @synthesize averagePower=_averagePower;
-@property(nonatomic) float confidenceWidth; // @synthesize confidenceWidth=_confidenceWidth;
-@property(nonatomic) long long ttePreResultsStatus; // @synthesize ttePreResultsStatus=_ttePreResultsStatus;
 
 @end
 

@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionStatus, ICUserIdentity, ICUserIdentityContext, NSArray, NSMutableArray, NSMutableDictionary, NSNumber;
+@class ICUserIdentity, ICUserIdentityContext;
 
 @interface ICMusicSubscriptionStatusMonitor
 {
     ICUserIdentityContext *_identityContext;
-    NSNumber *_DSID;
-    NSMutableDictionary *_observers;
-    NSMutableArray *_accessHandlers;
-    struct os_unfair_lock_s _lock;
-    NSArray *_notificationHandlers;
-    ICMusicSubscriptionStatus *_subscriptionStatus;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)B;
++ (id)controllerWillShowSignatureManagerView:(id)arg1;
 - (void);
-- (void);
+- (void)T;
+- (id)nent.float;
 - (id);
-- (id);
-- (void);
+- (void)#nn	!An;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)sampleCount+=1.0;
+                                                                    }
+                                                                    }
+;
 - (void);
-- (void);
-- (id);
+- (id)pN;
 - (void);
 - (id);
 - (void);
@@ -44,7 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ICUserIdentity *identity;
-@property(readonly, nonatomic) ICMusicSubscriptionStatus *subscriptionStatus;
 
 @end
 

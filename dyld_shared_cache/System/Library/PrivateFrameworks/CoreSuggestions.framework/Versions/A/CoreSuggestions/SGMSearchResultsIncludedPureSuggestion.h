@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

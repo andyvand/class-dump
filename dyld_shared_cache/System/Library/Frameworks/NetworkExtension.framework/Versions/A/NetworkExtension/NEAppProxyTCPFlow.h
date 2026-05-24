@@ -6,7 +6,7 @@
 
 #import <NetworkExtension/NEAppProxyFlow.h>
 
-@class NSObject, NWEndpoint;
+@class NSObject;
 @protocol OS_nw_endpoint;
 
 @interface NEAppProxyTCPFlow : NEAppProxyFlow
@@ -19,11 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ed to create value from userDefaultString {userDefaultString: /* Error: Ran out of types for this method. */;
+- (void)parameters;
 
 // Remaining properties
-@property(readonly) NWEndpoint *remoteEndpoint;
 @property(readonly) NSObject<OS_nw_endpoint> *remoteFlowEndpoint; // @synthesize remoteFlowEndpoint=_remoteFlowEndpoint;
 
 @end

@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSArray *_relationshipResults;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
-- (void);
+- (void)qa;
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (void)e;
 

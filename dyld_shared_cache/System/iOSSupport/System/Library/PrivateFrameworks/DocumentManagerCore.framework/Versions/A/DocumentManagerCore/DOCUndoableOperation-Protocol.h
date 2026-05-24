@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSObject, NSString;
+@protocol DOCUndoableOperation;
 
 @protocol DOCUndoableOperation
+- (NSObject<DOCUndoableOperation> *);
+
+@optional
+- (void)initWithBase32EncodedKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionNameForUndoing;

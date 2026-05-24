@@ -13,7 +13,7 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)nonMixableAudioPriority;
 - (void);
 - (void)0@ù
 × ;

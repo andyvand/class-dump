@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol RBDisplayListContents;
 
 @interface RBDisplayListInterpolator
 {
     struct refcounted_ptr<const RB::DisplayList::Interpolator::Object> _interp;
-    struct objc_ptr<id<_RBDisplayListContents>> _from;
-    struct objc_ptr<id<_RBDisplayListContents>> _to;
-    struct objc_ptr<NSDictionary *> _options;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (double);
-- (id);
+- (id):(id)arg1 ^!;
 - (id);
 - (id);
 - (struct CGRect);
@@ -30,17 +26,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)mailto:(struct _NSZone *)arg1;
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double activeDuration;
 @property(retain, nonatomic) id <RBDisplayListContents> from;
-@property(readonly, nonatomic, getter=isIdentity) _Bool identity;
-@property(readonly, nonatomic) _Bool onlyFades;
-@property(readonly, copy, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) id <RBDisplayListContents> to;
 
 @end
 

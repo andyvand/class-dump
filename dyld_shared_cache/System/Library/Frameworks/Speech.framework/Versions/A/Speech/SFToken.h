@@ -9,23 +9,17 @@
 @interface SFToken
 {
     NSString *_text;
-    double _confidence;
-    double _startTime;
-    double _duration;
 }
 
 - (id);
 - (double);
-- (double);
+- (double)on.dylib;
 - (id);
 - (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

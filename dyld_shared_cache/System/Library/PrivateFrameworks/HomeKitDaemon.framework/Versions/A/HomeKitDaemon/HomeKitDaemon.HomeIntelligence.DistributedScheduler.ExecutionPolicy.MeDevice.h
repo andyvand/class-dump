@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.DistributedScheduler.ExecutionPolicy.MeDevice
 {
     id notificationCenter;
-    id notificationTask;
 }
 
 @end

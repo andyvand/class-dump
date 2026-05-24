@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class GEOObserverHashTable;
 
 @interface MNNavdStateUpdater
 {
     GEOObserverHashTable *_innerObservers;
-    _Bool _hasObservers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)levanceServiceEvent"16;
+- (id)|;
+- (_Bool)_nrdDaemon;
 - (void)ntAlert"24B32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

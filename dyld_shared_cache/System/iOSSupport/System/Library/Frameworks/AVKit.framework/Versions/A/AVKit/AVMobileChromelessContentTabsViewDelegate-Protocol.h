@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileChromelessContentTabsViewDelegate
+
+@optional
+- (void)U;
 @end
 

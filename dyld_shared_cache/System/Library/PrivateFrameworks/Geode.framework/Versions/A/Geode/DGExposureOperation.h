@@ -6,21 +6,17 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface DGExposureOperation : DGOperation
 {
     _Bool _inputIsDefaults;
-    NSNumber *_inputBias;
-    NSNumber *_inputEV;
-    NSNumber *_inputRecoveryEV;
-    NSNumber *_inputBrightness;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -37,21 +33,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *inputBias;
-@property(copy, nonatomic) NSNumber *inputBrightness; // @synthesize inputBrightness=_inputBrightness;
 @property(copy, nonatomic) NSNumber *inputEV; // @synthesize inputEV=_inputEV;
-@property(copy, nonatomic) NSNumber *inputRecoveryEV; // @synthesize inputRecoveryEV=_inputRecoveryEV;
-@property(readonly) Class superclass;
 
 @end
 

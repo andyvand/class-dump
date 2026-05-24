@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NFNdefRecordInternal
 {
     unsigned char _firstOctet;
-    NSData *_identifier;
-    NSData *_type;
-    NSData *_payload;
 }
 
 + (id);
@@ -21,13 +16,13 @@
 + (id);
 + (id);
 + (id);
++ (_Bool)SUMacControllerOverridesInstalledSplatReleaseType;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id)kCFAccessoryPortPropertyFullDuplexIsSupported;
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (_Bool);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -35,43 +30,28 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)initWithContainerDescriptors:(id)arg1 metricsSpecification: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)DestroyStash];
 - (id);
 - (void);
 - (void);
 - (unsigned char);
 
 // Remaining properties
-@property(nonatomic) _Bool chunked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned char header;
-@property(retain, nonatomic) NSData *identifier;
-@property(nonatomic) _Bool messageBegin;
-@property(nonatomic) _Bool messageEnd;
-@property(retain, nonatomic) NSData *payload;
-@property(nonatomic) _Bool shortRecord;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *type;
-@property(nonatomic) unsigned char typeNameFormat;
 
 @end
 

@@ -6,32 +6,24 @@
 
 #import <AppKit/_NSBinderPlugin.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSActionBinderPlugin : _NSBinderPlugin
 {
     long long _actionIndex;
 }
 
-+ (_Bool);
++ (_Bool)set on TLD since it's an exact host match. Cookie = %@, TLD = %@;
+- (_Bool)equipment info dictionary;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)w;
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)r than length;
+- (void)():(id)arg1 Asked to create with a NULL response!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

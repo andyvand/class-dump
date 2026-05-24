@@ -7,14 +7,6 @@
 @interface ChatKit.GenerativePlaygroundSendMenuListItem
 {
     id $__lazy_storage_$_title;
-    id $__lazy_storage_$_lightModeImage;
-    id $__lazy_storage_$_darkModeImage;
-    id lightModeImageCompositingFilter;
-    id darkModeImageCompositingFilter;
-    id imageInsets;
-    id customIconLayer;
-    id isEnabled;
-    id $__lazy_storage_$_plugin;
 }
 
 @end

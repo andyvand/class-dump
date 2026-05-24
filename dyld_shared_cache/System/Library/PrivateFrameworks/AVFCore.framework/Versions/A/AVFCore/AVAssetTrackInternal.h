@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrackInspector, AVWeakReference;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetTrackInternal
 {
     AVWeakReference *weakReferenceToSelf;
-    AVAssetTrackInspector *trackInspector;
-    AVWeakReference *assetWeakReference;
-    AVWeakReference *figAssetTrackNotificationListenerWeakReference;
-    struct OpaqueFigAssetTrack *figAssetTrackNotificationSource;
 }
 
 @end

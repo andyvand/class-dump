@@ -6,14 +6,11 @@
 
 #import <LoginUIKit/LUIPopoverViewController.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableSet, NSTextField;
+@class NSArray, NSTextField;
 
 @interface LUIPasswordPolicyDetailsViewController : LUIPopoverViewController
 {
     NSArray *_policyDetails;
-    NSMutableSet *_policyViewControllers;
-    NSLayoutConstraint *_bottomConstraint;
-    NSTextField *_passwordMustTextField;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);

@@ -7,10 +7,6 @@
 @interface ConversationKit.ConversationLocalParticipantStateProvider
 {
     id localParticipantSubject;
-    id cameraEffectsStateSubject;
-    id mutedTalkingSubject;
-    id reactingStateSubject;
-    id stateManager;
 }
 
 @end

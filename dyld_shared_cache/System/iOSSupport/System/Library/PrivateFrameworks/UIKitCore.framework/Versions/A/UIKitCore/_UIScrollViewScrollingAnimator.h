@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSHashTable, UIScrollView, _UIScrollViewScrollingAnimatorState;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface _UIScrollViewScrollingAnimator
 {
     UIScrollView *_scrollView;
-    CADisplayLink *_displayLink;
-    _UIScrollViewScrollingAnimatorState *_currentScroll;
-    _Bool _isScrollingInteractively;
-    _Bool _isAdjustingScrollViewOffset;
-    struct CGPoint _velocity;
-    struct CGPoint _modelPosition;
-    struct CGPoint _idealPosition;
-    struct CGPoint _idealPositionForMinimumTravel;
-    NSHashTable *_trackedPressEvents;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)tring"16I24;
+- (void)replaceCustomAcknowledgmentsWithNewMessageAcknowledgment:associatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
+- (void)markMessageAsReadWithGUID:(unsigned long long)arg1 callerOrigin:(unsigned long long)arg2 reply: /* Error: Ran out of types for this method. */;
+- (void)_messagesPendingUpdateT2ToCloudKitWithLimit:attemptCount: /* Error: Ran out of types for this method. */;
+- (void)_makeAllAttachmentsClassC;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -40,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (_Bool);
 - (double);
+- (void)ext auto reply to chat:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)teOfSuccessfulTouch:(id)arg1;
+- (id)notifyDelegateOfSuccessfulTouch:(id)arg1;
 - (id)Roman-Switch-Key;
 - (void);
 

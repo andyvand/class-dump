@@ -15,8 +15,8 @@ struct EFAtomicObject {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct atomic_flag {
@@ -30,8 +30,8 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned char red;
-    unsigned char green;
-    unsigned char blue;
-} CDStruct_7ad7028e;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+} CDStruct_f4b747e6;
 

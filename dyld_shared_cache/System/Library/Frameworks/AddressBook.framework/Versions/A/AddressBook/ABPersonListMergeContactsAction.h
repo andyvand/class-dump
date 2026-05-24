@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABCommandExecutor, ABMergeAndLinkPeopleCommand, ABPersonListController, NSString;
+@class ABMergeAndLinkPeopleCommand;
 
 @interface ABPersonListMergeContactsAction
 {
     _Bool executionWasAuthorized;
-    ABMergeAndLinkPeopleCommand *_mergeAndLinkCommand;
-    ABCommandExecutor *_commandExecutor;
-    ABPersonListController *_personListController;
-    ABAddressBook *_addressBook;
 }
 
 - (_Bool);
@@ -29,19 +25,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, nonatomic) ABCommandExecutor *commandExecutor; // @synthesize commandExecutor=_commandExecutor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool executionWasAuthorized; // @synthesize executionWasAuthorized;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) ABMergeAndLinkPeopleCommand *mergeAndLinkCommand; // @synthesize mergeAndLinkCommand=_mergeAndLinkCommand;
-@property(readonly, nonatomic) __weak ABPersonListController *personListController; // @synthesize personListController=_personListController;
-@property(readonly, nonatomic) _Bool requiresAuthorizationBeforeExecution;
-@property(readonly) Class superclass;
 
 @end
 

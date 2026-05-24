@@ -8,10 +8,10 @@
 {
 }
 
-+ (struct mach_timebase_info *);
-+ (id);
++ (struct mach_timebase_info *);
++ (id){;
 + (double);
-+ (unsigned long long);
++ (unsigned long long)z;
 + (double);
 
 @end

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PDFDocument, PDFDocumentView, PDFKVOObserver, PDFTimer, PDFView;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFScrollViewPrivate
 {
     PDFView *pdfView;
-    PDFDocument *document;
-    PDFDocumentView *documentView;
-    double oldMagnification;
-    PDFTimer *boundsUpdateTimer;
-    struct CGRect oldBounds;
-    _Bool isZooming;
-    _Bool scheduledPageSync;
-    NSDate *pageSyncDate;
-    PDFKVOObserver *scaleFactorObserver;
-    _Bool forcesTopAlignment;
 }
 
 - (void);

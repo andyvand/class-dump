@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface CNInhibitingSchedulerDecorator
 {
     id <CNScheduler> _scheduler;
-    CDUnknownBlockType _inhibitorFactory;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (double);
 - (void);
+- (id)setAirdropHash2:(double)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)f;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CDUnknownBlockType inhibitorFactory; // @synthesize inhibitorFactory=_inhibitorFactory;
 @property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

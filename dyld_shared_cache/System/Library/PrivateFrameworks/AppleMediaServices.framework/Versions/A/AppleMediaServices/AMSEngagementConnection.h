@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSEngagementConnection
 {
     CDUnknownBlockType _errorHandler;
-    NSXPCConnection *_connection;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tem/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting;
 - (id)face>"16@?<v@?@"<AMSDeviceMessengerServiceInterface>"@"NSError">24;
 - (CDUnknownBlockType) lFk³©²;
 - (void)éM8AïM AéM¶AëMHAùM¤AçMýAùMAûM¢AùMßAÿMAùMÁAûM¾AéMkAçMøAéMgAëM£AéM±AïMYAéMAëMtALAçM"ALALAL;AL|ALªAL^A)LºA'LdA)LÝA+LÍA)L/A/LmA)L´A+L¸A9LëA'LpA9L®A;LA9LÐA?LuA9L¥A;L²A)LA'LÚA)LA+LeA)L¬A/LA)LA+LALA'LáALALåAL$ALvAL;
@@ -46,9 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

@@ -7,7 +7,11 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)Subsystems;
+- (void);
+- (void)@;
+- (void);
+- (void)security promise is not currently set.;
+- (void)_animationConfigForWhitelistedSubsystems;
 - (void)too much data for Task (%lu; %@). Dropping %lu bytes received and canceling the task.;
 @end
 

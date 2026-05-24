@@ -7,12 +7,6 @@
 @interface _ASPasswordManagerAccountsSelectionInfo
 {
     _Bool _hasAccountsWithVerificationCodes;
-    _Bool _hasSharedAccounts;
-    _Bool _hasOnlySharedAccounts;
-    unsigned long long _numberOfPasswords;
-    unsigned long long _numberOfPasskeys;
-    unsigned long long _numberOfSignInWithAppleAccounts;
-    unsigned long long _numberOfFileVaultRecoveryKeys;
 }
 
 - (long long);
@@ -31,19 +25,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAccountsWithVerificationCodes; // @synthesize hasAccountsWithVerificationCodes=_hasAccountsWithVerificationCodes;
-@property(readonly, nonatomic) _Bool hasOnlyFileVaultRecoveryKeys;
-@property(readonly, nonatomic) _Bool hasOnlyFileVaultRecoveryKeysAndSignInWithAppleAccounts;
-@property(readonly, nonatomic) _Bool hasOnlySharedAccounts; // @synthesize hasOnlySharedAccounts=_hasOnlySharedAccounts;
-@property(readonly, nonatomic) _Bool hasOnlySignInWithAppleAccounts;
-@property(readonly, nonatomic) _Bool hasSharedAccounts; // @synthesize hasSharedAccounts=_hasSharedAccounts;
-@property(readonly, nonatomic) _Bool isSelectedAccountSingleFileVaultRecoveryKey;
-@property(readonly, nonatomic) _Bool isSelectedAccountSingleSignInWithApple;
-@property(readonly, nonatomic) unsigned long long numberOfFileVaultRecoveryKeys; // @synthesize numberOfFileVaultRecoveryKeys=_numberOfFileVaultRecoveryKeys;
-@property(readonly, nonatomic) unsigned long long numberOfPasskeys; // @synthesize numberOfPasskeys=_numberOfPasskeys;
 @property(readonly, nonatomic) unsigned long long numberOfPasswords; // @synthesize numberOfPasswords=_numberOfPasswords;
-@property(readonly, nonatomic) unsigned long long numberOfSignInWithAppleAccounts; // @synthesize numberOfSignInWithAppleAccounts=_numberOfSignInWithAppleAccounts;
-@property(readonly, nonatomic) long long selectedCredentialTypes;
 
 @end
 

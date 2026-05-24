@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)runThread;
 
 @end
 

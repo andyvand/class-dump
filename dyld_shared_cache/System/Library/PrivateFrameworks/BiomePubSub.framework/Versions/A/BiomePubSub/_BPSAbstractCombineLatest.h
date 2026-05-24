@@ -6,23 +6,9 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class NSMutableArray;
-@protocol BPSSubscriber;
-
 @interface _BPSAbstractCombineLatest : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _recursion;
-    _Bool _finished;
-    _Bool _errored;
-    _Bool _cancelled;
-    unsigned long long _upstreamCount;
-    id <BPSSubscriber> _downstream;
-    NSMutableArray *_subscriptions;
-    NSMutableArray *_buffers;
-    long long _demand;
-    unsigned long long _finishCount;
 }
 
 - (id);
@@ -31,8 +17,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)A;
+- (void)r, boost:(unsigned long long)arg1:interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>, std::pair<const boost::container::basic_string<char, std::char_traits<char>, boost::interprocess::allocator<char, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>, pf::SceneGeographyNode>>>={offset_ptr<boost::unordered::detail::node<boost::interprocess::allocator<pf::SceneGeographyNode, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>, std::pair<const boost::container::basic_string<char, std::char_traits<char>, boost::interprocess::allocator<char, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>, pf::SceneGeographyNode>>, long, unsigned long, 0UL>=(offset_ptr_internal<unsigned long, 0UL>=Q(aligned_struct_wrapper<8UL, 1UL>={aligned_struct<8UL, 1UL>=[8C]}[8C]))}}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -43,7 +29,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)G curve over a 283 bit binary field;
 - (void);
 - (void);
 - (long long);
@@ -56,15 +42,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool errored; // @synthesize errored=_errored;
-@property(nonatomic) unsigned long long finishCount; // @synthesize finishCount=_finishCount;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) _Bool recursion; // @synthesize recursion=_recursion;
-@property(retain, nonatomic) NSMutableArray *subscriptions; // @synthesize subscriptions=_subscriptions;
 @property(nonatomic) unsigned long long upstreamCount; // @synthesize upstreamCount=_upstreamCount;
 
 @end

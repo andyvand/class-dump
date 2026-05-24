@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, SFSearchResult_SpotlightExtras, SSMixedRankingConfig;
+@class SSMixedRankingConfig;
 
 @interface SSMixedRankingBlender
 {
     _Bool _nlpMatch;
-    _Bool _hasCalculator;
-    _Bool _hasCCCD;
-    _Bool _hasDictionary;
-    _Bool _hasUserTypedURL;
-    _Bool _hasShortCutResult;
-    _Bool _hasServerTopHit;
-    _Bool _hasServerInstantAnswer;
-    int _intentFromQU;
-    SSMixedRankingConfig *_config;
-    SFSearchResult_SpotlightExtras *_bestLocalResult;
-    SFSearchResult_SpotlightExtras *_bestTextResult;
-    SFSearchResult_SpotlightExtras *_appPrefixMatch;
-    SFSearchResult_SpotlightExtras *_cccdResult;
-    SFSearchResult_SpotlightExtras *_dictionaryResult;
-    SFSearchResult_SpotlightExtras *_localPrefixMatch;
-    NSString *_serverTopDomain;
-    NSString *_serverCompletion;
-    NSMutableDictionary *_bundleStats;
-    unsigned long long _highTextMatchingResults;
-    unsigned long long _engagedResults;
-    unsigned long long _menuItems;
-    NSString *_nlpGroupName;
 }
 
 - (void);
@@ -52,35 +30,35 @@
 - (void);
 - (void);
 - (void);
+- (id)8q16;
+- (_Bool)Request"24;
+- (unsigned long long)userAgentForURL: /* Error: Ran out of types for this method. */;
+- (_Bool)useSafeAreaInsetWithPadding;
+- (_Bool)useOnGlassShareSheetAppearance;
+- (_Bool)unspecializedPresentationPropertiesForStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)unspecializedPresentationProperties;
+- (unsigned long long)showingDisclosureViewForComponentView: /* Error: Ran out of types for this method. */;
+- (id)set_usesInferredAppearanceWithOverriddenBackgroundColor: /* Error: Ran out of types for this method. */;
+- (id)setIgnoresInvertColors: /* Error: Ran out of types for this method. */;
+- (id)setForceMonospaceFonts: /* Error: Ran out of types for this method. */;
+- (id)setByAddingObjectsFromSet: /* Error: Ran out of types for this method. */;
+- (id)setAttributedString: /* Error: Ran out of types for this method. */;
+- (id)ffers: /* Error: Ran out of types for this method. */;
+- (_Bool)minimumCornerRadiusForComponentView: /* Error: Ran out of types for this method. */;
+- (_Bool)metadataWithDataRepresentationForLocalUseOnly: /* Error: Ran out of types for this method. */;
+- (id)menuItem:itemFrameForPoint: /* Error: Ran out of types for this method. */;
+- (void)loadValuesAsynchronouslyForKeys:(id)arg1 keysForCollectionKeys:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)linkHTMLTextGenerator:URLForResource:withMIMEType: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (void);
+- (_Bool)A;
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -88,34 +66,12 @@
 - (int);
 - (void);
 - (id);
-- (id):(id)arg1;
+- (id)normalizeTopicalityForResult:(id)arg1 queryContext: /* Error: Ran out of types for this method. */;
 - (void)ebugInfoEnabled:keyboardPrimaryLanguage:clientID: /* Error: Ran out of types for this method. */;
-- (void)fix;
+- (void)kMDItemOrganizations_n2_prefix;
 
 // Remaining properties
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *appPrefixMatch; // @synthesize appPrefixMatch=_appPrefixMatch;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *bestLocalResult; // @synthesize bestLocalResult=_bestLocalResult;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *bestTextResult; // @synthesize bestTextResult=_bestTextResult;
-@property(retain, nonatomic) NSMutableDictionary *bundleStats; // @synthesize bundleStats=_bundleStats;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *cccdResult; // @synthesize cccdResult=_cccdResult;
 @property(retain, nonatomic) SSMixedRankingConfig *config; // @synthesize config=_config;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *dictionaryResult; // @synthesize dictionaryResult=_dictionaryResult;
-@property(nonatomic) unsigned long long engagedResults; // @synthesize engagedResults=_engagedResults;
-@property(nonatomic) _Bool hasCCCD; // @synthesize hasCCCD=_hasCCCD;
-@property(nonatomic) _Bool hasCalculator; // @synthesize hasCalculator=_hasCalculator;
-@property(nonatomic) _Bool hasDictionary; // @synthesize hasDictionary=_hasDictionary;
-@property(nonatomic) _Bool hasServerInstantAnswer; // @synthesize hasServerInstantAnswer=_hasServerInstantAnswer;
-@property(nonatomic) _Bool hasServerTopHit; // @synthesize hasServerTopHit=_hasServerTopHit;
-@property(nonatomic) _Bool hasShortCutResult; // @synthesize hasShortCutResult=_hasShortCutResult;
-@property(nonatomic) _Bool hasUserTypedURL; // @synthesize hasUserTypedURL=_hasUserTypedURL;
-@property(nonatomic) unsigned long long highTextMatchingResults; // @synthesize highTextMatchingResults=_highTextMatchingResults;
-@property(nonatomic) int intentFromQU; // @synthesize intentFromQU=_intentFromQU;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *localPrefixMatch; // @synthesize localPrefixMatch=_localPrefixMatch;
-@property(nonatomic) unsigned long long menuItems; // @synthesize menuItems=_menuItems;
-@property(retain, nonatomic) NSString *nlpGroupName; // @synthesize nlpGroupName=_nlpGroupName;
-@property(nonatomic) _Bool nlpMatch; // @synthesize nlpMatch=_nlpMatch;
-@property(retain, nonatomic) NSString *serverCompletion; // @synthesize serverCompletion=_serverCompletion;
-@property(retain, nonatomic) NSString *serverTopDomain; // @synthesize serverTopDomain=_serverTopDomain;
 
 @end
 

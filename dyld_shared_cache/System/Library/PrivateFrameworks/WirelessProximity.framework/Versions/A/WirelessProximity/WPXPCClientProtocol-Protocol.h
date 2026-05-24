@@ -9,8 +9,12 @@
 @protocol WPXPCClientProtocol
 
 @optional
-- (void)ClientGATT:(NSUUID *)arg1;
+- (void)!;
+- (void);
+- (void)�;
+- (void)x;
+- (void)populateClientGATT:(NSUUID *)arg1;
 - (void)x;
-- (void)IPROX;
+- (void)WIPROX;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface long_durationOutput
 {
@@ -14,13 +12,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (double);
-- (id);
-- (id)_at_charge_start_soc_curr_dynamic_bin_1;
+- (double)#;
+- (id)	k;
+- (id)_drain_depth_var_at_charge_start_soc_curr_dynamic_bin_1;
 
 // Remaining properties
 @property(nonatomic) double duration_pred; // @synthesize duration_pred=_duration_pred;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

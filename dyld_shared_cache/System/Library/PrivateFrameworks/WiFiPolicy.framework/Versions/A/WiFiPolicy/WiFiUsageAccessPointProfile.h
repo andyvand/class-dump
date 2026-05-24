@@ -9,12 +9,10 @@
 @interface WiFiUsageAccessPointProfile
 {
     _Bool _hasColocatedMLOs;
-    NSString *_bssid;
-    NSString *_apProfile;
 }
 
 + (void);
-+ (id);
++ (id)Q;
 + (id);
 + (id);
 + (id);
@@ -25,7 +23,7 @@
 + (void);
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (_Bool);
 + (id);
@@ -37,11 +35,12 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)0;
 + (_Bool);
 + (void);
-+ (void);
-+ (id);
++ (void)eader
+;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -57,9 +56,7 @@
 - (id)ngAttempts;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apProfile; // @synthesize apProfile=_apProfile;
 @property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) _Bool hasColocatedMLOs; // @synthesize hasColocatedMLOs=_hasColocatedMLOs;
 
 @end
 

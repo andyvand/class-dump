@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMRemoteConnection, NSString;
-@protocol EFCancelable, EFScheduler;
+@class EFLocked;
 
 @interface EMDiagnosticInfoGatherer
 {
     struct os_unfair_lock_s _providerCancelableLock;
-    _Atomic _Bool _hasRegisteredAsDiagnosticProvider;
-    EFLocked *_providers;
-    EMRemoteConnection *_connection;
-    id <EFScheduler> _providerQueue;
-    id <EFCancelable> _providerCancelable;
 }
 
++ (id)HMDCoreDataStoreActivityEventType;
 + (id);
 + (id);
-+ (id);
+- (void);
+- (void);
+- (id)SwiftExtensions;
+- (id);
+- (void)&];
+- (id)HMMediaShuffleState;
+- (void);
+- (id);
+- (void)dmB;
+- (void).Ks`o@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)der;
+- (id)EFPropertyKey_sender;
 - (void)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <EFCancelable> providerCancelable; // @synthesize providerCancelable=_providerCancelable;
-@property(retain, nonatomic) id <EFScheduler> providerQueue; // @synthesize providerQueue=_providerQueue;
 @property(retain, nonatomic) EFLocked *providers; // @synthesize providers=_providers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SOSRSimpleLanguagePopUpButton
 {
     NSString *_previouslyChosenLocaleIdentifier;
-    NSArray *_supportedLocaleIdentifiers;
 }
 
 - (id);
@@ -19,15 +18,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) NSString *previouslyChosenLocaleIdentifier; // @synthesize previouslyChosenLocaleIdentifier=_previouslyChosenLocaleIdentifier;
-@property(retain) NSArray *supportedLocaleIdentifiers; // @synthesize supportedLocaleIdentifiers=_supportedLocaleIdentifiers;
 
 @end
 

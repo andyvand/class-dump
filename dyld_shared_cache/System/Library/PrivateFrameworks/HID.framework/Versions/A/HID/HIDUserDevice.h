@@ -7,13 +7,9 @@
 @interface HIDUserDevice
 {
     struct __IOHIDUserDevice *_device;
-    CDUnknownBlockType _getReportHandler;
-    CDUnknownBlockType _setReportHandler;
-    unsigned int _service;
-    CDUnknownBlockType _cancelHandler;
 }
 
-- (void);
+- (void)@9H);
 - (void);
 - (_Bool);
 - (_Bool);

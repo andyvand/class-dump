@@ -9,19 +9,15 @@
 @interface CKFileMetadata
 {
     NSNumber *_deviceID;
-    NSNumber *_fileID;
-    NSNumber *_generationID;
-    NSNumber *_modTimeInSeconds;
-    NSNumber *_fileSize;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -29,10 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, copy, nonatomic) NSNumber *fileID; // @synthesize fileID=_fileID;
-@property(readonly, copy, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(readonly, copy, nonatomic) NSNumber *generationID; // @synthesize generationID=_generationID;
-@property(readonly, copy, nonatomic) NSNumber *modTimeInSeconds; // @synthesize modTimeInSeconds=_modTimeInSeconds;
 
 @end
 

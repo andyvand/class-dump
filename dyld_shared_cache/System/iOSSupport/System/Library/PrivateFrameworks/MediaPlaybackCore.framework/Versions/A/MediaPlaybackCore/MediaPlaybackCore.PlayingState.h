@@ -9,12 +9,6 @@
 @interface MediaPlaybackCore.PlayingState : MediaPlaybackCore.TransportableState
 {
     id resumeOnEnter;
-    id isStalled;
-    id lastPlayingItemID;
-    id recentItemChangeEvent;
-    id playbackStopReason;
-    id playbackStopRecoveryTimer;
-    id playbackStopRecoveryDelay;
 }
 
 @end

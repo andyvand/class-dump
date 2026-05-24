@@ -9,30 +9,22 @@
 @interface IMNetworkMonitor
 {
     id queue;
-    id delegate;
-    id evaluator;
-    id state;
-    id host;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)~SH7;
 - (id);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)tcpSendTLRTO;
 - (id);
-- (id);
+- (id).discovery-request.proximity;
 - (_Bool);
 - (void);
 - (void)e;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool immediatelyReachable;
-@property(nonatomic, readonly) _Bool isCellular;
-@property(nonatomic, readonly) _Bool isReachableFromPath;
-@property(nonatomic, readonly) _Bool isUltraConstrained;
 @property(nonatomic, readonly) NSString *remoteHost;
 
 @end

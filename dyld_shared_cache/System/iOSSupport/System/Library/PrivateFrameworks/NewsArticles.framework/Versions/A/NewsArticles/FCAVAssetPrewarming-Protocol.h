@@ -5,5 +5,6 @@
 //
 
 @protocol FCAVAssetPrewarming
+- (void)8;
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAlertController, UITextField;
+@class UIAlertController;
 
 @interface EKUIDeclineCommentController
 {
     UIAlertController *_alertController;
-    UITextField *_alertTextField;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
-+ (id);
++ (id)(s;
+- (void);
+- (void))s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)mbolicColorName;
+- (void)symbolicColorName;
 
 @end
 

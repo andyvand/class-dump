@@ -6,27 +6,15 @@
 
 #import <UIFoundation/NSTextElement.h>
 
-@class NSAttributedString, NSDictionary, NSMapTable, NSMutableArray, NSTextRange;
+@class NSAttributedString, NSDictionary;
 
 @interface NSTextParagraph : NSTextElement
 {
     NSAttributedString *_attributedString;
-    struct _NSRange _range;
-    NSTextRange *_paragraphContentRange;
-    NSTextRange *_paragraphSeparatorRange;
-    long long _resolvedBaseDirection;
-    long long _fallbackBaseDirection;
-    const char *_bidiLevels;
-    NSMutableArray *_textLayoutFragments;
-    NSMapTable *_textElementLocationTable;
-    unsigned char _containsTextAttachments;
-    _Bool _isBeginningOfParagraph;
-    _Bool _isEndOfParagraph;
-    NSDictionary *_attributes;
 }
 
 + (id);
-- (id);
+- (id)kCUIVariantMenuBarMaterial;
 - (void);
 - (void);
 - (_Bool);
@@ -35,42 +23,37 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct _NSRange);
+- (id)+;
+- (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
-- (id);
+- (id);
+- (void)oe?0oi?0oi?0oo?0oo?0os?0os?0ot?0otC0o C0o%C0o-C0o.C0o/C0o3C0o4C0o5C0o6C0o7C0o8C0o9C0o=C0oAC0o_C0obC0odC0ofC0ogC0ohC0olC0omC0onC0opC0orC0ou*0o;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id)ll boringssl_session_disconnect a second time.;
+- (id);
+- (void);
+- (struct _NSRange)M;
+- (id);
+- (void);
+- (id);
+- (id);
+- (struct CGSize);
+- (id)=	;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void)/ð! @ùÑ3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSAttributedString *attributedString; // @dynamic attributedString;
 @property(copy) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property _Bool isBeginningOfParagraph; // @synthesize isBeginningOfParagraph=_isBeginningOfParagraph;
-@property _Bool isEndOfParagraph; // @synthesize isEndOfParagraph=_isEndOfParagraph;
-@property(readonly) NSTextRange *paragraphContentRange; // @dynamic paragraphContentRange;
-@property(readonly) NSTextRange *paragraphSeparatorRange; // @dynamic paragraphSeparatorRange;
 
 @end
 

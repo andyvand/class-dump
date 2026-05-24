@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSFont, NSString, PXAnimatedLabel;
+@class NSFont, PXAnimatedLabel;
 
 @interface PXAnimatedCountView
 {
     NSFont *_font;
-    NSString *_text;
-    PXAnimatedLabel *_currentLabel;
-    PXAnimatedLabel *_sizingLabel;
-    CAGradientLayer *_gradientLayer;
 }
 
 - (void);
@@ -42,10 +38,6 @@
 
 // Remaining properties
 @property(retain) PXAnimatedLabel *currentLabel; // @synthesize currentLabel=_currentLabel;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(retain) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(retain) PXAnimatedLabel *sizingLabel; // @synthesize sizingLabel=_sizingLabel;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

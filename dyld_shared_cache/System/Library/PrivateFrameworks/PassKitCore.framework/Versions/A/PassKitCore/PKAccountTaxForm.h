@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKAccountTaxForm
 {
     NSString *_identifier;
-    unsigned long long _type;
-    NSDate *_openingDate;
-    NSDate *_closingDate;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -21,24 +18,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)activityScanning;
 - (void);
 - (void);
 - (void);
 - (id)0@ù
 × ;
-- (id)emoteAssetItem:(id)arg1 withCloudStoreCoordinatorDelegate:shouldWriteData:completion: /* Error: Ran out of types for this method. */;
+- (id)_downloadRemoteAssetItem:(id)arg1 withCloudStoreCoordinatorDelegate:shouldWriteData:completion: /* Error: Ran out of types for this method. */;
 - (void)stMerchantSessionUpdate:requestAPIType has not been set /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *closingDate; // @synthesize closingDate=_closingDate;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *openingDate; // @synthesize openingDate=_openingDate;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

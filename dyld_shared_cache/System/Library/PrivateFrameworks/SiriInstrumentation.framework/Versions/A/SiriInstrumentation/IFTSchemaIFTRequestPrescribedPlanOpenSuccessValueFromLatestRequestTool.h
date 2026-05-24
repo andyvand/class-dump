@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestPrescribedPlanOpenSuccessValueFromLatestRequestTool : SISchemaInstrumentationMessage
 {
     long long _elementAtIndex;
-    CDStruct_2cf6a68d _has;
 }
 
 - (void);
@@ -24,16 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ersions/A/CoreSpotlight;
 - (id)0@ù
 × ;
 - (id)uterBridgeSubComponentFailed",&,N,V_failed;
-- (id)NVIntentReformationContext;
+- (id)CNVSchemaCNVIntentReformationContext;
 
 // Remaining properties
 @property(nonatomic) long long elementAtIndex; // @synthesize elementAtIndex=_elementAtIndex;
-@property(nonatomic) _Bool hasElementAtIndex;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

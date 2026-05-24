@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (Class)A;
+- (unsigned long long);
+- (_Bool)h;
+- (NSString *)*,;
+- (_Bool)d_ptr_arm64e_rebase=b43b8b11b1b1}{dyld_chained_ptr_arm64e_bind=b16b16b19b11b1b1}{dyld_chained_ptr_arm64e_bind24=b24b8b19b11b1b1}{dyld_chained_ptr_arm64e_auth_bind24=b24b8b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_segmented_rebase=b28b4b19b12b1}{dyld_chained_ptr_arm64e_auth_segmented_rebase=b28b4b16b1b2b12b1})(Generic64={dyld_chained_ptr_64_rebase=b36b8b7b12b1}{dyld_chained_ptr_64_bind=b24b8b19b12b1}){Kernel64=b30b2b16b1b2b12b1}(Cache64e={dyld_chained_ptr_arm64e_shared_cache_rebase=b34b8b10b11b1}{dyld_chained_ptr_arm64e_shared_cache_auth_rebase=b34b16b1b1b11b1})I(Generic32={dyld_chained_ptr_32_rebase=b26b5b1}{dyld_chained_ptr_32_bind=b20b6b5b1}){dyld_chained_ptr_32_cache_rebase=b30b2}{Firm32=b26b6})8^B16;
+- (id)4@0:8@"UIActivityViewController"16 /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)N,V_currentUserFetched;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)colorPresetWithName:category:colorIndex:variation: /* Error: Ran out of types for this method. */;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

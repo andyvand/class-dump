@@ -6,59 +6,24 @@
 
 #import <CMCapture/FigCaptureSinkPipeline.h>
 
-@class BWFaceTrackingNode, BWImageQueueSinkNode, BWInferenceNode, BWNodeOutput, BWPixelTransferNode, BWPocketDetectionNode, BWPreviewStabilizationNode, BWPreviewStitcherNode, BWPreviewTimeMachineSinkNode, BWSceneClassifierSinkNode, BWSmartCropNode, BWStreamingFilterNode, BWVideoPIPOverlayNode, FigCaptureSemanticStyle, NSArray, NSDictionary, NSObject, NSString;
-@protocol BWMRCSceneObserver, BWSemanticStyleSceneObserver, OS_dispatch_queue;
+@class BWPixelTransferNode;
+@protocol BWMRCSceneObserver;
 
 __attribute__((visibility("hidden")))
 @interface FigCapturePreviewSinkPipeline : FigCaptureSinkPipeline
 {
     BWPixelTransferNode *_scalerNode;
-    BWImageQueueSinkNode *_imageQueueSinkNode;
-    BWSceneClassifierSinkNode *_sceneClassifierSinkNode;
-    BWStreamingFilterNode *_filterNode;
-    BWPreviewTimeMachineSinkNode *_timeMachineSinkNode;
-    BWVideoPIPOverlayNode *_zoomPIPOverlayNode;
-    BWNodeOutput *_sceneClassifierPipelineUpstreamOutput;
-    BWInferenceNode *_personSegmentationAndDepthNode;
-    BWInferenceNode *_semanticStylePersonSegmentationNode;
-    BWInferenceNode *_portraitOnlyPersonSegmentationNode;
-    BWPreviewStabilizationNode *_previewStabilizationNode;
-    BWPocketDetectionNode *_pocketDetectionNode;
-    BWFaceTrackingNode *_faceTrackingNode;
-    BWPreviewStitcherNode *_previewStitcher;
-    BWSmartCropNode *_lowLatencyStabilizationNode;
-    BWNodeOutput *_sensitiveContentAnalyzerSinkOutput;
-    BWNodeOutput *_metadataSinkOutput;
-    BWNodeOutput *_videoThumbnailSinkOutput;
-    BWNodeOutput *_depthDataSinkOutput;
-    NSDictionary *_imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration;
-    struct FigCaptureVideoTransform _outputTransform;
-    struct FigCaptureVideoTransform _videoThumbnailSinkOutputTransform;
-    NSString *_sourceID;
-    int _sourceDeviceType;
-    _Bool _cinematicVideoEnabled;
-    _Bool _overCaptureEnabled;
-    _Bool _singleCameraOverCaptureEnabled;
-    double _videoStabilizationOverscan;
-    double _trueVideoTransitionPercentComplete;
-    long long _primaryCaptureRectUniqueID;
-    _Bool _applyPreviewShiftToMomentCapture;
-    _Bool _smartStyleRenderingEnabled;
-    int _previewRotationDegrees;
-    NSObject<OS_dispatch_queue> *_metalCompletionQueue;
-    NSObject<OS_dispatch_queue> *_metalSubmissionQueue;
-    _Bool _depthFilterRenderingEnabled;
 }
 
-+ (void)lFocus;
++ (void)ManualFocus;
 - (struct FigCaptureVideoTransform);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)1;
+- (void)>|!t;
 - (void);
 - (void);
 - (id);
@@ -66,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)mn;
 - (id);
 - (id);
 - (_Bool);
@@ -74,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (struct FigCaptureVideoTransform);
-- (void);
+- (struct FigCaptureVideoTransform);
+- (void)mTopBorderIndex;
 - (void);
 - (id);
 - (void);
@@ -89,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (void);
-- (void)ssingTest:(CDStruct_4c969caf)arg1;
+- (void)indexOfObjectPassingTest:(CDStruct_4c969caf)arg1;
 - (int)awbSpatialCCMMixingFactor;
 - (id)Session >>>> %s:%{public}@ Called /* Error: Ran out of types for this method. */;
 - (int)k;
@@ -99,39 +64,12 @@ __attribute__((visibility("hidden")))
 - (long long)ource == NULL;
 - (id)reSettingsWithSettings:userInitiatedRequestPTS:captureType:captureFlags:sceneFlags:frameStatisticsByPortType:metadata:] /* Error: Ran out of types for this method. */;
 - (double)ensorWidth, &sensorRawWidth ) && sensorRawWidth > 0;
-- (float)hingEventAtRate0;
+- (float)longestButtonMashingEventAtRate0;
 - (void)ixData != ((void *)0);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *depthDataSinkOutput; // @synthesize depthDataSinkOutput=_depthDataSinkOutput;
-@property(readonly, nonatomic) _Bool depthFilterRenderingEnabled; // @synthesize depthFilterRenderingEnabled=_depthFilterRenderingEnabled;
-@property(nonatomic) _Bool discardsImageQueueSampleData;
-@property _Bool displaysWidestCameraOnly;
-@property(readonly, nonatomic) BWStreamingFilterNode *filterNode; // @synthesize filterNode=_filterNode;
-@property(retain, nonatomic) NSArray *filters;
-@property(readonly, nonatomic) BWImageQueueSinkNode *imageQueueSinkNode; // @synthesize imageQueueSinkNode=_imageQueueSinkNode;
-@property(readonly, nonatomic) NSDictionary *imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration; // @synthesize imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration=_imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration;
-@property(readonly, nonatomic) BWNodeOutput *metadataSinkOutput; // @synthesize metadataSinkOutput=_metadataSinkOutput;
 @property(nonatomic) id <BWMRCSceneObserver> mrcSceneObserver;
-@property(readonly, nonatomic) struct FigCaptureVideoTransform outputTransform; // @synthesize outputTransform=_outputTransform;
-@property(nonatomic) float portraitLightingEffectStrength;
-@property(nonatomic) int previewRotationDegrees; // @synthesize previewRotationDegrees=_previewRotationDegrees;
-@property(readonly, nonatomic) BWPreviewStitcherNode *previewStitcherNode; // @synthesize previewStitcherNode=_previewStitcher;
-@property(readonly) double primaryCaptureRectAspectRatio;
-@property(readonly) struct CGPoint primaryCaptureRectCenter;
-@property(readonly) long long primaryCaptureRectUniqueID;
-@property(readonly, nonatomic) BWPixelTransferNode *scalerNode; // @synthesize scalerNode=_scalerNode;
-@property(nonatomic) _Bool sceneClassifierSuspended;
-@property(retain, nonatomic) FigCaptureSemanticStyle *semanticStyle;
-@property(nonatomic) id <BWSemanticStyleSceneObserver> semanticStyleSceneObserver;
-@property(readonly, nonatomic) BWNodeOutput *sensitiveContentAnalyzerSinkOutput; // @synthesize sensitiveContentAnalyzerSinkOutput=_sensitiveContentAnalyzerSinkOutput;
-@property(nonatomic) float simulatedAperture;
-@property(readonly, nonatomic) int sourceDeviceType; // @synthesize sourceDeviceType=_sourceDeviceType;
-@property(readonly, nonatomic) NSString *sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly, nonatomic) BWPreviewTimeMachineSinkNode *timeMachineSinkNode; // @synthesize timeMachineSinkNode=_timeMachineSinkNode;
-@property(readonly, nonatomic) BWNodeOutput *videoThumbnailSinkOutput; // @synthesize videoThumbnailSinkOutput=_videoThumbnailSinkOutput;
-@property(readonly, nonatomic) struct FigCaptureVideoTransform videoThumbnailSinkOutputTransform; // @synthesize videoThumbnailSinkOutputTransform=_videoThumbnailSinkOutputTransform;
 
 @end
 

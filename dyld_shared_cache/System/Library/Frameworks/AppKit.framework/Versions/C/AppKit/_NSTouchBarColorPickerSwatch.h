@@ -6,22 +6,21 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSColorDisplayView;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarColorPickerSwatch : NSView
 {
     NSView *_borderView;
-    NSColorDisplayView *_colorView;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (id);
+- (id)ze=dd}}16q48B56;
 - (void);
 - (id)olTips"b1"usesWindowsStyle"b1"dontShowSelectedAndPressedAppearance"b1"menuShouldBeUniquedAgainstMain"b1"style"b8"flatMinX"b1"flatMaxX"b1"segmentedSeparated"b1"animateNextLayout"b1};
 - (id)ÿÀ»üÿ*¬üÿ(áüÿ ­üÿ;

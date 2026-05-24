@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSOperationQueue;
+@class NSOperationQueue;
 
 @interface MPArtworkColorAnalysisUtility
 {
     struct os_unfair_lock_s _lock;
-    NSOperationQueue *_artworkColorAnalysisOperationQueue;
-    NSMapTable *_artworkColorAnalysisOperations;
-    long long _qualityOfService;
 }
 
 - (void);
@@ -23,13 +20,11 @@
 - (long long);
 - (id);
 - (id);
-- (void)View;
+- (void)_thumbImageView;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *artworkColorAnalysisOperationQueue; // @synthesize artworkColorAnalysisOperationQueue=_artworkColorAnalysisOperationQueue;
-@property(retain, nonatomic) NSMapTable *artworkColorAnalysisOperations; // @synthesize artworkColorAnalysisOperations=_artworkColorAnalysisOperations;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

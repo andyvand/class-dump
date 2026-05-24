@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandBuffer, MTLRenderCommandEncoder, MTLTexture;
+@protocol MTLCommandBuffer, MTLRenderCommandEncoder;
 
 @protocol _SCNSceneRendererMainPassCustomPostProcessHelper
+- (void);
+- (id <MTLRenderCommandEncoder>)mand;
+- (id <MTLCommandBuffer>)@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer;
-@property(readonly, nonatomic) id <MTLTexture> destinationTexture;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> renderCommandEncoder;
 @end
 

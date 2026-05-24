@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRDetectedLineRegion, CRNormalizedPolyline, CRNormalizedQuad, NSArray, NSString;
+@class CRNormalizedQuad;
 
 @interface CRRecognizedTextRegion
 {
     _Bool _isCurved;
-    _Bool _whitespaceInjected;
-    double _activationProbability;
-    double _confidence;
-    CRNormalizedPolyline *_polygon;
-    NSString *_locale;
-    NSArray *_subregions;
-    NSArray *_candidates;
-    CRDetectedLineRegion *_detectedLineRegion;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSString *_text;
-    unsigned long long _textRegionType;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
+- (void)C;
 - (void);
 - (_Bool);
 - (id);
@@ -36,19 +24,19 @@
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)_updatePopUpWindowBlockedUI;
+- (id)_updatePlaceholderTextValueAndVisibility;
+- (void)_updateItemsFromReadingListFolderAndForceRebuildUnreadItems:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_uninstallAlternativeWebViewFunctionBarProvider;
+- (id);
+- (id);
+- (id)T;
 - (id);
 - (void);
 - (id);
+- (id)PSUSAssetsDetermineSuccess;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
+- (double)!;
 - (void);
 - (void);
 - (void)::less<unsigned int>>, std::allocator<std::pair<const unsigned int, int>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
@@ -58,26 +46,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property double activationProbability; // @synthesize activationProbability=_activationProbability;
 @property(retain) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(retain) NSArray *candidates; // @synthesize candidates=_candidates;
-@property double confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CRDetectedLineRegion *detectedLineRegion; // @synthesize detectedLineRegion=_detectedLineRegion;
-@property(readonly) unsigned long long hash;
-@property _Bool isCurved; // @synthesize isCurved=_isCurved;
-@property unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(retain) NSString *locale; // @synthesize locale=_locale;
-@property(retain) CRNormalizedPolyline *polygon; // @synthesize polygon=_polygon;
-@property(retain) NSArray *subregions; // @synthesize subregions=_subregions;
-@property(readonly) Class superclass;
-@property(retain) NSString *text; // @synthesize text=_text;
-@property unsigned long long textRegionType; // @synthesize textRegionType=_textRegionType;
-@property _Bool whitespaceInjected; // @synthesize whitespaceInjected=_whitespaceInjected;
 
 @end
 

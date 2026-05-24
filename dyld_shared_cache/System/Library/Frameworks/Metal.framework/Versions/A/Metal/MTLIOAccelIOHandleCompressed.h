@@ -10,8 +10,9 @@
 {
 }
 
-- (id);
-- (void)fset:(id)arg1 bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
+- (id)h
+;
+- (void)newLinearTextureWithDescriptor:(id)arg1 offset:bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
 
 @end
 

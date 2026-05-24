@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAnimationSettings, NSString;
+@class BSAnimationSettings;
 
 @interface BSUIAnimationFactory
 {
     _Bool _allowsAdditiveAnimations;
-    BSAnimationSettings *_settings;
 }
 
 + (id);
@@ -26,15 +25,31 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)refinedTokensForSingleLineContextStrokes:(id)arg1 transcription:(unsigned long long)arg2 completion:(CDUnknownBlockType)arg3 shouldCancel: /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (void);
 + (id);
-+ (id);
++ (id)AND
+    (
+        SELECT COUNT(*) FROM chat_message_join cm
+        WHERE cm.chat_id = excluded.chat
+    ) > 0 )
+    OR
+    (
+       SELECT cm.message_id FROM chat_message_join cm
+       WHERE cm.chat_id = chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    ) < (
+       SELECT cm.message_id
+       FROM chat_message_join cm where cm.chat_id = excluded.chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    );;
 + (double);
 + (id);
 + (void);
@@ -46,29 +61,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)identifierFromQueryItems:(id)arg1 pathComponent: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (id);
-- (_Bool);
+- (double);
+- (id);
+- (_Bool)!;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAdditiveAnimations; // @synthesize allowsAdditiveAnimations=_allowsAdditiveAnimations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delay;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) BSAnimationSettings *effectiveSettings;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) BSAnimationSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPAVOutputDeviceDescription
 {
     long long _routeType;
-    long long _routeSubtype;
-    NSString *_uid;
-    NSString *_modelID;
 }
 
 - (long long);
+- (id)_groupClause;
+- (id)=;
+- (long long)_dndHandleForIMDHandle: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)e0390: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
-- (void)BSVideoURLMatchingSize: /* Error: Ran out of types for this method. */;
+- (id)utableArray",&,N,V_contentsViews;
+- (void)CRABSVideoURLMatchingSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
-@property(readonly, nonatomic) long long routeSubtype; // @synthesize routeSubtype=_routeSubtype;
 @property(readonly, nonatomic) long long routeType; // @synthesize routeType=_routeType;
-@property(readonly, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

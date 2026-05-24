@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface UIEventSessionTouchEvent
 {
     NSMutableDictionary *_touchStatus;
-    long long _touchType;
-    long long _trackpadFingerDownCount;
 }
 
-- (long long);
+- (long long);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)ication provided by %@ to %@, not a phone number %@;
+- (void)ose service supports group mutability. Setting all chats to joined.;
+- (id)MessagesCore/IMCore/IMDaemonCore/IMDMessageStore.m;
 - (_Bool);
 - (void);
 - (void)®«Í,}h;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *touchStatus; // @synthesize touchStatus=_touchStatus;
-@property long long touchType; // @synthesize touchType=_touchType;
-@property long long trackpadFingerDownCount; // @synthesize trackpadFingerDownCount=_trackpadFingerDownCount;
 
 @end
 

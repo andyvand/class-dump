@@ -5,5 +5,6 @@
 //
 
 @protocol MLModelSpecificationSaver
+- (void *)extractMTLGenericBVHHeaderKernel_1_4;
 @end
 

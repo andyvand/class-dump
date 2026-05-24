@@ -7,8 +7,6 @@
 @interface Safari.RWITargetDetailViewModel
 {
     id _target;
-    id _isApplicationExpanded;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface JetEngine.PageRenderMetricsPresenter
 {
     id settleTimeout;
-    id isAccessibilityEnabledFlag;
-    id state;
-    id onPost;
 }
 
 @end

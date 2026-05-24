@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)trying to coalesce mentions by parent attachment got %@, expected %@;
 + (_Bool);
 
 @end

@@ -7,7 +7,6 @@
 @interface ContactsUICore.MonogramCache
 {
     id fontCache;
-    id pathCache;
 }
 
 @end

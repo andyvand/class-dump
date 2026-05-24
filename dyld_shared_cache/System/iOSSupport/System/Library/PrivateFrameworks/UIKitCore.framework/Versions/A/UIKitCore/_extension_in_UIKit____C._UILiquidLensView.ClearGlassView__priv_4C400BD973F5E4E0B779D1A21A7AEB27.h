@@ -9,18 +9,13 @@
 @interface (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 : UIView
 {
     id style;
-    id liftedContentPortalView;
-    id innerShadowView;
-    id contentWrapper;
-    id animatesBackground;
-    id lifted;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)U;
 - (void);
-- (id)View;
+- (id)_UIScrollsToTopInitiatorView;
 - (void)ÀBlþÊAÑÈ¥l;
 
 // Remaining properties

@@ -17,18 +17,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void)ationY: /* Error: Ran out of types for this method. */;
+- (void)pixelBasedIntermediateWithOverlapStrategy:intermediate:translationY: /* Error: Ran out of types for this method. */;
 - (id)w < df0) { result = 1.8031*bw*bw*bw - 2.1972*bw*bw + 1.3823*bw; } else { float scale = 12.0 - df0; float x = (bw - df0) / scale; result = 1.8031*x*x*x - 2.1972*x*x + 1.3823*x; result = result * scale + df0; result -= 0.158305860; } bw = mix(bw, result,-phototone); return vec4(bw,bw,bw,imageHDR.a); };
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *entries; // @synthesize entries=_entries;
-@property(readonly, nonatomic) unsigned long long entryCount;
 
 @end
 

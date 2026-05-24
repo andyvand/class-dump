@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface PHPerformChangesInstrumentation
 {
     const char *_performChangesName;
-    unsigned long long _signpostId;
-    double _serviceWillValidateTimestamp;
-    double _serviceDidValidateTimestamp;
-    double _serviceWillExecuteTimestamp;
-    double _serviceIsExecutingTimestamp;
-    unsigned long long _transactionNumber;
-    NSUUID *_uuid;
-    long long _remainingRetryCount;
 }
 
 - (id);

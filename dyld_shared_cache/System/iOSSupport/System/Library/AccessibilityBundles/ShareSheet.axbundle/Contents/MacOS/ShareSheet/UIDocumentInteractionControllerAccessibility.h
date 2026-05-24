@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)e.arkit.worldTracking.forceDisableFrontCamera;
 + (void);
 - (_Bool);
 

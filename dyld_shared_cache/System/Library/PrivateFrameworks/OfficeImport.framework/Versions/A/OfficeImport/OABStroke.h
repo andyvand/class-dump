@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (int);
 + (int);
 + (int);
-+ (id);
++ (id);
 + (BOOL);
 + (id);
 + (unsigned char);

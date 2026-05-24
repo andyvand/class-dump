@@ -16,7 +16,7 @@
 + (_Bool);
 + (long long);
 + (id);
-+ (id)peDirectionRight;
++ (id)UISwipeDirectionRight;
 + (long long)£Êg;
 
 @end

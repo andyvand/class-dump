@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol PRSSessionController
+- (void);
+- (NSArray *)ts<Inspector::InspectorTargetAgent>] /* Error: Ran out of types for this method. */;
+- (double)ion required, maybe?);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationNameForUserAgent;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSArray *excludedDomainIdentifiers;
 @property(readonly, nonatomic) double sessionStartTime;
 @end
 

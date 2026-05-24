@@ -9,9 +9,6 @@
 @interface DAWaiterWrapper
 {
     id <DADataclassLockWatcher> _waiter;
-    long long _dataclasses;
-    CDUnknownBlockType _completionHandler;
-    int _waiterNum;
 }
 
 - (int);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) long long dataclasses; // @synthesize dataclasses=_dataclasses;
 @property(retain, nonatomic) id <DADataclassLockWatcher> waiter; // @synthesize waiter=_waiter;
-@property(readonly, nonatomic) int waiterNum; // @synthesize waiterNum=_waiterNum;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIFocusRegion;
 @protocol UIFocusItem;
 
 __attribute__((visibility("hidden")))
@@ -14,34 +13,26 @@ __attribute__((visibility("hidden")))
         unsigned int hasResolvedFocusedRegion:1;
         unsigned int useFallbackAncestorScroller:1;
     } _flags;
-    NSArray *_ancestorEnvironmentScrollableContainers;
-    long long _inheritedFocusMovementStyle;
-    _UIFocusRegion *_focusedRegion;
-    id <UIFocusItem> _item;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (void);
-- (long long);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)localizedDescription;
+- (long long)ensureSchedulingForBackgroundWorkRefreshingTaskReports:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)changeDetailsForObject: /* Error: Ran out of types for this method. */;
+- (struct CGRect)changeDetailsForFetchResult:(id)arg1;
+- (id)"IDSService",R,&,V_bizChatService;
+- (id)atches group photo file name. path:(id)arg1 %@;
+- (id)o apply edits, cannot find message matching GUID=%@;
+- (id)allowTVProviderModification;
 - (id);
 - (id);
 - (id)ingResizesWhenDetentDirectionIsDown;
 - (void)oàO;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *ancestorEnvironmentScrollableContainers; // @synthesize ancestorEnvironmentScrollableContainers=_ancestorEnvironmentScrollableContainers;
-@property(readonly, nonatomic) _UIFocusRegion *focusedRegion; // @synthesize focusedRegion=_focusedRegion;
-@property(readonly, nonatomic) long long inheritedFocusMovementStyle; // @synthesize inheritedFocusMovementStyle=_inheritedFocusMovementStyle;
 @property(readonly, nonatomic) __weak id <UIFocusItem> item; // @synthesize item=_item;
-@property(readonly, nonatomic) _Bool useFallbackAncestorScroller;
 
 @end
 

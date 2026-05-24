@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface _SFAnalyzerClientInfo
 {
     NSString *_clientID;
-    NSString *_source;
-    NSString *_applicationName;
-    NSString *_inputOrigin;
-    NSUUID *_asrID;
-    NSUUID *_requestID;
-    NSString *_dictationUIInteractionID;
 }
 
 + (_Bool);
@@ -29,16 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(readonly, copy, nonatomic) NSUUID *asrID; // @synthesize asrID=_asrID;
 @property(readonly, copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy, nonatomic) NSString *dictationUIInteractionID; // @synthesize dictationUIInteractionID=_dictationUIInteractionID;
-@property(readonly, copy, nonatomic) NSString *inputOrigin; // @synthesize inputOrigin=_inputOrigin;
-@property(readonly, copy, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
-@property(readonly, copy, nonatomic) NSString *source; // @synthesize source=_source;
 
 @end
 

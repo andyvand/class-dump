@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.Toggles.TranslateSectionMacLanguagePickerButton
 {
     id viewModel;
-    id pickingDirection;
-    id supportedLocales;
 }
 
 - (id);

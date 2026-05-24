@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOOriginalWaypointRoute, NSData;
+@class GEOOriginalWaypointRoute;
 
 @interface GEOResumeRouteHandle
 {
     _Bool _hasVisitedFirstStop;
-    GEOOriginalWaypointRoute *_routeGeometry;
-    NSData *_serverSessionState;
 }
 
-+ (id);
++ (id)CNAuthorizationContextTestDouble;
 + (_Bool)led;
 - (void);
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)URLWithString:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
@@ -31,9 +29,7 @@
 +AP@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVisitedFirstStop; // @synthesize hasVisitedFirstStop=_hasVisitedFirstStop;
 @property(retain, nonatomic) GEOOriginalWaypointRoute *routeGeometry; // @synthesize routeGeometry=_routeGeometry;
-@property(retain, nonatomic) NSData *serverSessionState; // @synthesize serverSessionState=_serverSessionState;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (void);
+- (void)^{__CFString}^v^{__CFDictionary}qCf}32@0:(double)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16^{__CFArray=}24;
 
 @end
 

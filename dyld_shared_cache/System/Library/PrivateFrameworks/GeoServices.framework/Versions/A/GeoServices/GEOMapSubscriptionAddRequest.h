@@ -6,35 +6,29 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOMapRegion, NSDate, NSString;
+@class NSString;
 
 @interface GEOMapSubscriptionAddRequest : GEOXPCRequest
 {
     NSString *_identifier;
-    unsigned long long _dataTypes;
-    unsigned long long _policy;
-    GEOMapRegion *_region;
-    NSString *_displayName;
-    NSDate *_expirationDate;
-    long long _updateInterval;
 }
 
-+ (Class);
++ (Class)authCodeFromRedirectURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)smartSiriVolumeRunPolicy;
+- (unsigned long long)";
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)newBufferWithData:type: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)itWithMerchantIndustryCode:(unsigned long long)arg1 mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
-- (void)ulateGeocentricDirectionForSunX:(id)arg1 Y:Z:date: /* Error: Ran out of types for this method. */;
+- (void)initWithMerchantIndustryCode:(unsigned long long)arg1 mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
+- (void)calculateGeocentricDirectionForSunX:(id)arg1 Y:Z:date: /* Error: Ran out of types for this method. */;
 - (id)
 ;
 - (id)´t;
@@ -43,20 +37,7 @@
 - (long long)<w;
 
 // Remaining properties
-@property(nonatomic) unsigned long long dataTypes; // @synthesize dataTypes=_dataTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long policy; // @synthesize policy=_policy;
-@property(retain, nonatomic) GEOMapRegion *region; // @synthesize region=_region;
-@property(readonly) Class superclass;
-@property(nonatomic) long long updateInterval; // @synthesize updateInterval=_updateInterval;
 
 @end
 

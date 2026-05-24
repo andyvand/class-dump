@@ -6,14 +6,12 @@
 
 #import <Foundation/NSString.h>
 
-@class NSAttributedString, NSDictionary;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFLocalizedAttributedString : NSString
 {
     NSAttributedString *_original;
-    NSString *_apparentString;
-    NSDictionary *_formatConfiguration;
 }
 
 + (id);
@@ -28,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (Class);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id)0@ù
 × ;
-- (_Bool)fSecond;
+- (_Bool)microsecondOfSecond;
 - (unsigned short)ource code off it NOW!;
 - (long long)¥%kÌ";
 - (const char *);

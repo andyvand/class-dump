@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, KTIDStaticKeyStoreEntry;
+@class CNContact;
 
 @interface CNUIStaticIdentity
 {
     CNContact *_contact;
-    KTIDStaticKeyStoreEntry *_storeEntry;
 }
 
 + (_Bool);
@@ -22,13 +21,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)dateByAddingDays:inCalendar: /* Error: Ran out of types for this method. */;
+- (id)C;
 - (void)Size=dd}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) KTIDStaticKeyStoreEntry *storeEntry; // @synthesize storeEntry=_storeEntry;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSLayoutRule, _NSLayoutRuleNodeParent;
+@protocol NSLayoutRule;
 
 @interface _NSLayoutRuleNode
 {
     id <NSLayoutRule> _representedRule;
-    id <_NSLayoutRuleNodeParent> _parentNode;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)MLLazyUnionFeatureProvider;
 - (id);
 
 // Remaining properties
-@property id <_NSLayoutRuleNodeParent> parentNode; // @synthesize parentNode=_parentNode;
 @property(copy) id <NSLayoutRule> representedRule; // @synthesize representedRule=_representedRule;
 
 @end

@@ -6,21 +6,18 @@
 
 #import <TextInputCore/TISKEvent.h>
 
-@class NSArray, NSString, TIKeyboardCandidate, TIKeyboardTouchEvent;
+@class TIKeyboardCandidate;
 
 __attribute__((visibility("hidden")))
 @interface TISKPathEvent : TISKEvent
 {
     TIKeyboardCandidate *_candidate;
-    NSString *_candidateString;
-    TIKeyboardTouchEvent *_pathTouchUp;
-    NSArray *_allTouches;
 }
 
-- (void);
-- (void);
-- (id);
-- (double);
+- (void)predicateForContactsMatchingPhoneNumber:(id)arg1;
+- (void)phoneNumbers;
+- (id), contextUUID mismatch:(id)arg1 [%@] [cls:(id)arg2 %@, expected:(id)arg3 %@];
+- (double)cessing %i calls from connect notification;
 - (_Bool);
 - (id);
 - (void)0@ù

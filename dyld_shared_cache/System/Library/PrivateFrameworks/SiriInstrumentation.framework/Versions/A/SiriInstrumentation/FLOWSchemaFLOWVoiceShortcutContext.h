@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWVoiceShortcutContext : SISchemaInstrumentationMessage
 {
@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)__gcc_except_tab__TEXT;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,7 +33,6 @@
 - (void)9¯.¥$;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *voiceShortcutActions; // @synthesize voiceShortcutActions=_voiceShortcutActions;
 
 @end

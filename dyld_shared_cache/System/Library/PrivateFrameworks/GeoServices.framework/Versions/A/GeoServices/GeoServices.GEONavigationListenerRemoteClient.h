@@ -9,35 +9,26 @@
 @interface GeoServices.GEONavigationListenerRemoteClient
 {
     _Bool hasEntitlement;
-    void interruptionHandler;
-    void invalidationHandler;
-    id _noCellCoverageAlertPrecedingTime;
-    id _wantsRoutes;
-    id _details;
-    id _connection;
-    id _upcomingUnavailableCellCoverageSections;
-    id _lastUnavailableCellCoverageUpdateTime;
-    id _unavailableCellCoverageUpdateInterval;
 }
 
 - (void);
 - (void);
 - (id);
+- (void)correspondingObjectForRelationshipFromObject:(_Bool)arg1;
+- (void);
+- (void);
+- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)d>;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tions:downloadedModels:preinstalledModels:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -45,7 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)enabled =		%d
+;
 - (void);
 - (void);
 - (void);
@@ -56,10 +48,10 @@
 - (void)ù
 × ;
 - (void)elected"b1"read_unknownFields"b1"read_displayName"b1"read_metadata"b1"wrote_anyField"b1};
-- (void)andler:(id)arg1;
-- (void)datedHandler:(CDStruct_c3b9c2ee)arg1;
+- (void)setSubmissionFinishedHandler:(id)arg1;
+- (void)setNavigationVoiceVolumeUpdatedHandler:(CDStruct_c3b9c2ee)arg1;
 - (void)setHasIsRecallMismatch:(CDStruct_c3b9c2ee)arg1;
-- (void)e;
+- (void)GEOLogMsgEventCuratedCollectionUsage;
 - (CDUnknownBlockType)ô_È`°ab¼b;
 - (_Bool),y;
 - (void)$3(³Ä&3D³/3X³Ø83l³|@3¬³A3¼³B3Ì³tB3Ü³dT3ì³ðW3	³üp30	³è3p	³3¼	³ 3Ð	³Ì£3ä	³H¨3ø	³Ð¬3
@@ -71,8 +63,8 @@
 ³Ää3´
 ³Ìî3Ä
 ³l4l³à4³¬4¤³4Ø³p#4ì³À$4;
-- (void)ount;
-- (void)amera;
+- (void)account;
+- (void)camera;
 - (void)$Ì;
 - (id)VMP4TilePK16GeoCodecsTileKeyRKNSt3__110shared_ptrINS0_10VectorTileEEEE3$_0;
 - (void);
@@ -80,9 +72,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *clientDescription;
-@property(nonatomic, readonly) _Bool hasEntitlement; // @synthesize hasEntitlement;
-@property(nonatomic, copy) CDUnknownBlockType interruptionHandler;
-@property(nonatomic, copy) CDUnknownBlockType invalidationHandler;
 
 @end
 

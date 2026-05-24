@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSURL;
+@class NSData;
 
 @interface PKAMPCardRegistrationResponse
 {
     NSData *_cardData;
-    NSURL *_brokerURL;
-    NSURL *_paymentServicesURL;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -25,15 +22,12 @@
 - (id);
 - (id);
 - (id);
+- (void)setBestRTTMsecs:(id)arg1;
 - (void);
-- (void);
-- (void)xG;
+- (void)SDyxxG;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *brokerURL; // @synthesize brokerURL=_brokerURL;
 @property(retain, nonatomic) NSData *cardData; // @synthesize cardData=_cardData;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSURL *paymentServicesURL; // @synthesize paymentServicesURL=_paymentServicesURL;
 
 @end
 

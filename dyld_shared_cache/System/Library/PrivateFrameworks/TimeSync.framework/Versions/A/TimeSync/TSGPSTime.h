@@ -13,11 +13,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!ɚ_;
 - (unsigned int);
 - (id);
-- (unsigned long long);
-- (double);
+- (unsigned long long)yj,;
+- (double);
 - (unsigned short);
 - (id);
 - (unsigned long long);
@@ -25,11 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int extendedWeek; // @dynamic extendedWeek;
-@property(readonly, nonatomic) unsigned long long nanoseconds; // @dynamic nanoseconds;
 @property(readonly, nonatomic) unsigned long long nanosecondsSinceEpoch; // @synthesize nanosecondsSinceEpoch=_nanosecondsSinceEpoch;
-@property(readonly, nonatomic) double seconds; // @dynamic seconds;
-@property(readonly, nonatomic) unsigned short week; // @dynamic week;
 
 @end
 

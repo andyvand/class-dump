@@ -13,7 +13,7 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(nonatomic) _Bool showsTraffic;
 
 @end
 

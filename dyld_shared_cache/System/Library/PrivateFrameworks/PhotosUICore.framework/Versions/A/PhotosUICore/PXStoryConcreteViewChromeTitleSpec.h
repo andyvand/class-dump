@@ -7,10 +7,6 @@
 @interface PXStoryConcreteViewChromeTitleSpec
 {
     _Bool _hidden;
-    long long _numberOfTitleLines;
-    long long _numberOfSubtitleLines;
-    long long _textAlignment;
-    struct NSEdgeInsets _margins;
 }
 
 - (long long);
@@ -22,11 +18,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) struct NSEdgeInsets margins; // @synthesize margins=_margins;
-@property(readonly, nonatomic) long long numberOfSubtitleLines; // @synthesize numberOfSubtitleLines=_numberOfSubtitleLines;
 @property(readonly, nonatomic) long long numberOfTitleLines; // @synthesize numberOfTitleLines=_numberOfTitleLines;
-@property(readonly, nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSWPRangeArray;
-
 @interface TSWPDeletionRangeMap
 {
     unsigned long long _subRangeStart;
-    TSWPRangeArray *_removedRanges;
 }
 
-- (struct _NSRange);
-- (unsigned long long);
-- (struct _NSRange);
+- (struct _NSRange)ment;
+- (unsigned long long)playbackRequestEnvironment;
+- (struct _NSRange);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Code;
 - (void);
 - (void);
 

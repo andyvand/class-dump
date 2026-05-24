@@ -9,35 +9,27 @@
 @interface NSDraggingItem
 {
     id _item;
-    id _localObject;
-    struct CGRect _frame;
-    NSArray *_components;
-    CDUnknownBlockType _componentsProvider;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)setCfConn:(id)arg1;
+- (id)setCanSuspendLocked:(id)arg1;
+- (CDUnknownBlockType)cancelTaskWithIdentifier:byProducingResumeData: /* Error: Ran out of types for this method. */;
+- (struct CGRect),V_taskDependencyDescription;
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (struct CGRect);
-- (id);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)@ù
 × ;
 
 // Remaining properties
-@property struct CGRect draggingFrame;
 @property(copy) NSArray *imageComponents;
-@property(copy) CDUnknownBlockType imageComponentsProvider; // @synthesize imageComponentsProvider=_componentsProvider;
-@property(readonly) id item; // @synthesize item=_item;
-@property(retain) id localObject; // @synthesize localObject=_localObject;
 
 @end
 

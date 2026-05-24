@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
-- (id)WithGlassSendAnimation;
+- (id)dragInteraction:(struct CGRect)arg1 sessionForAddingItems:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (id)compatibleWithGlassSendAnimation;
 - (void)HyAG×B\GY²GAJy;
-- (void)SMPickerPageIndicatorColor2;
+- (void)CKFSMPickerPageIndicatorColor2;
 
 @end
 

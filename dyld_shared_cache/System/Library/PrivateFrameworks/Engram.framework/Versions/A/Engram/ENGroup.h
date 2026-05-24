@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENGroupID, NSArray, NSData, NSSet, _ENGroupInfo;
-@protocol ENCypher;
+@class ENGroupID, _ENGroupInfo;
 
 @interface ENGroup
 {
     ENGroupID *_groupID;
-    id <ENCypher> _cypher;
-    _ENGroupInfo *_groupInfo;
 }
 
 + (id);
@@ -25,23 +22,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@z`8;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <ENCypher> cypher; // @synthesize cypher=_cypher;
-@property(readonly, nonatomic) NSSet *destinations;
-@property(readonly, nonatomic) ENGroupID *groupID; // @synthesize groupID=_groupID;
 @property(retain, nonatomic) _ENGroupInfo *groupInfo; // @synthesize groupInfo=_groupInfo;
-@property(readonly, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) NSData *sharedApplicationData;
 
 @end
 

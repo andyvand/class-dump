@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventParkedCar
 {
     PBUnknownFields *_unknownFields;
-    double _locationUncertainty;
-    GEOLatLng *_location;
-    double _timestamp;
-    struct {
-        unsigned int has_locationUncertainty:1;
-        unsigned int has_timestamp:1;
-    } _flags;
 }
 
-+ (_Bool)Reason:(id)arg1;
++ (_Bool)setHasStateExitReason:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -34,12 +27,12 @@
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (void);
 - (void);
 - (void)"b1"has_sectionType"b1"read_unknownFields"b1"read_carouselGuideIds"b1"read_guidesLocationEntrys"b1"read_name"b1"read_publisherIds"b1"wrote_anyField"b1};
-- (id)ncelReservation:(struct _NSZone *)arg1;
+- (id)setTappedCancelReservation:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (id);
@@ -51,12 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasLocationUncertainty;
-@property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) double locationUncertainty;
-@property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

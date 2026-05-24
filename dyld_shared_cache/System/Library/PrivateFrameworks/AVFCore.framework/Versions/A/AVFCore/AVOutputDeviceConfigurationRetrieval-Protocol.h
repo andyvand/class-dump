@@ -7,15 +7,12 @@
 @class NSArray, NSData, NSString;
 
 @protocol AVOutputDeviceConfigurationRetrieval
-- (_Bool)ze: /* Error: Ran out of types for this method. */;
+- (NSArray *)t}},R,N,Vdata;
+- (NSString *)z;
+- (NSData *)N6quasar10OVSFeatureE;
+- (_Bool)setMaxEntrySize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool automaticallyAllowsConnectionsFromPeersInHomeGroup;
-@property(readonly, nonatomic) NSString *deviceID;
 @property(readonly, nonatomic) NSString *deviceName;
-@property(readonly, nonatomic) NSString *devicePassword;
-@property(readonly, nonatomic) NSData *devicePublicKey;
-@property(readonly, nonatomic) _Bool onlyAllowsConnectionsFromPeersInHomeGroup;
-@property(readonly, nonatomic) NSArray *peersInHomeGroup;
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface _PSPhotoSuggestionsOutstandingRequestsGuardedData
 {
     _Bool _waitingForRequestIDForCurrentThread;
-    NSMutableDictionary *_outstandingRequests;
 }
 
 - (id);

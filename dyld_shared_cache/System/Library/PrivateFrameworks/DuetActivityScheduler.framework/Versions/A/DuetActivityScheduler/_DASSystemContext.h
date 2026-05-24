@@ -4,52 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_os_log, _CDLocalContext;
+@protocol _CDLocalContext;
 
 @interface _DASSystemContext
 {
     id <_CDLocalContext> _context;
-    NSObject<OS_os_log> *_dasSystemContextLog;
-    NSMutableArray *_registrations;
-    long long _networkPathStatus;
-    long long _inexpensiveNetworkPathStatus;
 }
 
-+ (_Bool);
++ (_Bool)X;
 + (id);
 + (id);
-+ (id);
++ (id)setExternalThumbnailGeneratorDataHash:(id)arg1;
 + (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)R~;
 - (void);
-- (void);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSObject<OS_os_log> *dasSystemContextLog; // @synthesize dasSystemContextLog=_dasSystemContextLog;
-@property(nonatomic) long long inexpensiveNetworkPathStatus; // @synthesize inexpensiveNetworkPathStatus=_inexpensiveNetworkPathStatus;
-@property(nonatomic) long long networkPathStatus; // @synthesize networkPathStatus=_networkPathStatus;
-@property(retain, nonatomic) NSMutableArray *registrations; // @synthesize registrations=_registrations;
 
 @end
 

@@ -4,46 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicUserState, ICTVUserState, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface ICMediaUserState
 {
     _Bool _isActive;
-    _Bool _defaultMediaUser;
-    _Bool _ageVerificationRequired;
-    _Bool _frozen;
-    NSString *_identifier;
-    NSString *_shortDebugName;
-    NSNumber *_dsid;
-    NSString *_alternateDSID;
-    NSString *_iCloudPersonID;
-    NSArray *_homeUserIDs;
-    NSString *_storefrontIdentifier;
-    NSString *_countryCode;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_username;
-    ICMusicUserState *_music;
-    ICTVUserState *_tv;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
+- (_Bool)ew"16@24;
+- (id)C3DShapeGeometryGetBoundingBox;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)editTextAnnotation:selectAllText: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)totalAccum += clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+                }
+                
+                shadow = totalAccum / float(largeKernelSize); // 1 / 32
+                
+                //debug
+                //color.r = 1.0;
+            }
+#endif
+            
+        }
+    }
+    
+#if USE_BLUR    
+    //blur mode
+    gl_FragColor = vec4(1.0 - shadow, 0.0,0.0, 1.0);//todo:write in depth texture
+#else
+    //apply shadow on color buffer
+    gl_FragColor = mix(color.rgba, vec4(shadowColor.rgb, 1.0), shadowColor.a * shadow);
+#endif
+}
+
+ /* Error: Ran out of types for this method. */;
+- (id)Failed creating texture border mask;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -53,18 +59,18 @@
 - (id);
 - (id);
 - (id);
+- (id)_handleCompensatingScaleFactor;
+- (id)tentType(%d) cannot be mapped to NSTextContentType;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)wfE_-QDzkBXiBSPbqdExFZr7l3wHywc/Library/Caches/com.apple.xbs/TemporaryDirectory.FaWNXq/Sources/BootPolicy/shared/image4.c;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)Q!Ð1Â0@ù
 × ;
-- (_Bool)s: /* Error: Ran out of types for this method. */;
-- (void)ntTasteRequestListener;
+- (_Bool)initWithClientInfo:options: /* Error: Ran out of types for this method. */;
+- (void)ICCloudContentTasteRequestListener;
 - (id)ocker Account;
 - (void)Ñ3õÉ,Ú\.\Zïö?îí6#'Â>fÌúý`OÖ+snÂûÛ82²9Ø,KjÕ©P=p/dLÐó\ÓO
 ìXIÅ>°¢¼ÐiªYäáo&yyômVuÄ1¬KwlkÕ¡2å ztòA´m@ØKDVþÏe:(id)arg1 TzA°lK£öIÙÈ Ý7ÑaÈhuÜN	ÙÞTMáRBEåý[ëøª×Ù5G@r ç`ÅÃòbµ¦1THík¸VÐ¾²?.GÂ<;
@@ -78,31 +84,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool ageVerificationRequired; // @synthesize ageVerificationRequired=_ageVerificationRequired;
-@property(copy, nonatomic) NSString *alternateDSID; // @synthesize alternateDSID=_alternateDSID;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=isDefaultMediaUser) _Bool defaultMediaUser; // @synthesize defaultMediaUser=_defaultMediaUser;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *digest;
-@property(copy, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *homeUserIDs; // @synthesize homeUserIDs=_homeUserIDs;
-@property(copy, nonatomic) NSString *iCloudPersonID; // @synthesize iCloudPersonID=_iCloudPersonID;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) ICMusicUserState *music; // @synthesize music=_music;
-@property(copy, nonatomic) NSString *shortDebugName; // @synthesize shortDebugName=_shortDebugName;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) ICTVUserState *tv; // @synthesize tv=_tv;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

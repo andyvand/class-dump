@@ -6,21 +6,19 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class PKAccountPaymentFundingSource, PKApplyVerificationPage;
+@class PKAccountPaymentFundingSource;
 
 @interface PKAccountWebServiceAddFundingSourceResponse : PKAccountWebServiceResponse
 {
     PKAccountPaymentFundingSource *_fundingSource;
-    PKApplyVerificationPage *_confirmationPage;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) PKApplyVerificationPage *confirmationPage; // @synthesize confirmationPage=_confirmationPage;
 @property(readonly, copy, nonatomic) PKAccountPaymentFundingSource *fundingSource; // @synthesize fundingSource=_fundingSource;
 
 @end

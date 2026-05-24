@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPerson;
+@class _SFPBPerson;
 
 @interface _SFPBPersonHeaderCardSection
 {
@@ -16,8 +16,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)predicateForIncludeMask:(id)arg1 useIndex: /* Error: Ran out of types for this method. */;
+- (id)erge persons with a nominal target identifier (%@) that does not match any of the persons being merged;
 - (id);
 - (id);
 - (id);
@@ -25,15 +25,7 @@
 - (void)ramPrefixMatchInRecipients"b1"countBigramPrefixMatchInRecipients"b1"countNgramPrefixMatchInRecipients"b1"countUnigramMatchInRecipientEmailAddresses"b1"countBigramMatchInRecipientEmailAddresses"b1"countNgramMatchInRecipientEmailAddresses"b1"countUnigramPrefixMatchInRecipientEmailAddresses"b1"countBigramPrefixMatchInRecipientEmailAddresses"b1"countNgramPrefixMatchInRecipientEmailAddresses"b1"countUnigramMatchInEmailAddresses"b1"countBigramMatchInEmailAddresses"b1"countNgramMatchInEmailAddresses"b1"countUnigramPrefixMatchInEmailAddresses"b1"countBigramPrefixMatchInEmailAddresses"b1"countNgramPrefixMatchInEmailAddresses"b1"countUnigramMatchInAttachmentTypes"b1"countBigramMatchInAttachmentTypes"b1"countNgramMatchInAttachmentTypes"b1"countUnigramPrefixMatchInAttachmentTypes"b1"countBigramPrefixMatchInAttachmentTypes"b1"countNgramPrefixMatchInAttachmentTypes"b1"countUnigramMatchInAttachmentNames"b1"countBigramMatchInAttachmentNames"b1"countNgramMatchInAttachmentNames"b1"countUnigramPrefixMatchInAttachmentNames"b1"countBigramPrefixMatchInAttachmentNames"b1"countNgramPrefixMatchInAttachmentNames"b1};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _SFCredentialIdentityTypeMatcher
 {
     _Bool _matchAllTypes;
-    long long _typeToMatch;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 - (long long);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool matchAllTypes; // @synthesize matchAllTypes=_matchAllTypes;
-@property(readonly, nonatomic) long long typeToMatch; // @synthesize typeToMatch=_typeToMatch;
 
 @end
 

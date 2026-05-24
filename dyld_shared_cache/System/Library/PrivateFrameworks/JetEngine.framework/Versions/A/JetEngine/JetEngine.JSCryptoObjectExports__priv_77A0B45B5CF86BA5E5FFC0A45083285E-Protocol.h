@@ -5,5 +5,6 @@
 //
 
 @protocol JetEngine.JSCryptoObjectExports__priv_77A0B45B5CF86BA5E5FFC0A45083285E
+- (_Bool);
 @end
 

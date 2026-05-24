@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 @protocol MPCQueueControllerSessionTypesInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerBehaviorMusicTransportableExtension
 {
     NSArray *_accounts;
-    NSArray *_allKnownSessionInfos;
-    NSDictionary *_sessionInfoMap;
-    id <MPCQueueControllerSessionTypesInvalidatable> _sessionTypesInvalidatable;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)ge for account:(id)arg1 %@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)g state [init] oldState=Unknown newState=Loading;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <MPCQueueControllerSessionTypesInvalidatable> sessionTypesInvalidatable; // @synthesize sessionTypesInvalidatable=_sessionTypesInvalidatable;
-@property(readonly) Class superclass;
 
 @end
 

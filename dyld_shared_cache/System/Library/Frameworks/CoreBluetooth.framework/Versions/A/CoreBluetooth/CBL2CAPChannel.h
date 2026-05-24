@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBManager, CBPeer, CBUUID, NSInputStream, NSMutableArray, NSOutputStream;
+@class CBUUID, NSMutableArray;
 
 @interface CBL2CAPChannel
 {
     NSMutableArray *incomingPackets;
-    CDUnknownBlockType pendingCompletionHandler;
-    unsigned short maxQueuePayloadSize;
-    _Bool _isIncoming;
-    _Bool _isPacketBased;
-    unsigned short _PSM;
-    unsigned short _cid;
-    unsigned short _outgoingMTU;
-    int _socketFD;
-    CBPeer *_peer;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    CBUUID *_serviceUUID;
-    CBManager *_manager;
 }
 
 - (void);
@@ -41,30 +28,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Ht;
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short PSM; // @synthesize PSM=_PSM;
-@property unsigned short cid; // @synthesize cid=_cid;
-@property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(nonatomic) _Bool isIncoming; // @synthesize isIncoming=_isIncoming;
-@property(nonatomic) _Bool isPacketBased; // @synthesize isPacketBased=_isPacketBased;
-@property(nonatomic) __weak CBManager *manager; // @synthesize manager=_manager;
-@property unsigned short outgoingMTU; // @synthesize outgoingMTU=_outgoingMTU;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) CBPeer *peer; // @synthesize peer=_peer;
 @property(retain, nonatomic) CBUUID *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
-@property(nonatomic) int socketFD; // @synthesize socketFD=_socketFD;
 
 @end
 

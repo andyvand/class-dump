@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFStaccatoActionTemplateParameterValue;
+@class NSString;
 
 @interface WFStaccatoActionTemplateParameter
 {
     NSString *_key;
-    NSString *_actionIdentifier;
-    NSString *_localizedLabel;
-    NSString *_localizedDescription;
-    WFStaccatoActionTemplateParameterValue *_defaultValue;
 }
 
-+ (_Bool);
++ (_Bool)__objc_data;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(retain, nonatomic) WFStaccatoActionTemplateParameterValue *defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
 
 @end
 

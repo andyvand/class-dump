@@ -6,49 +6,30 @@
 
 #import <AVFCore/AVAssetTrackInspector.h>
 
-@class AVDispatchOnce, AVWeakReference, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVFigAssetTrackInspector : AVAssetTrackInspector
 {
     struct OpaqueFigAsset *_figAsset;
-    struct OpaqueFigAssetTrack *_figAssetTrack;
-    AVDispatchOnce *_copyFigFormatReaderOnce;
-    struct OpaqueFigFormatReader *_figFormatReader;
-    AVDispatchOnce *_copyFigTrackReaderOnce;
-    struct OpaqueFigTrackReader *_figTrackReader;
-    AVDispatchOnce *_copySampleCursorServiceOnce;
-    struct OpaqueFigSampleCursorService *_figSampleCursorService;
-    _Bool _sampleCursorTimeAccuracyIsExact;
-    AVDispatchOnce *_createCaptionSearchServiceOnce;
-    struct OpaqueFigCaptionSearch *_captionSearchService;
-    struct OpaqueFigSimpleMutex *_loadingMutex;
-    NSObject<OS_dispatch_queue> *_completionHandlerQueue;
-    NSMutableArray *_loadingBatches;
-    unsigned int _mediaType;
-    AVWeakReference *_weakReferenceToAsset;
-    _Bool _prefersNominalDurations;
 }
 
 - (_Bool);
-- (long long);
-- (struct OpaqueFigCaptionSearch *);
+- (long long);
+- (struct OpaqueFigCaptionSearch *);
 - (void);
 - (CDStruct_e83c9415);
 - (id);
 - (struct OpaqueFigSimpleMutex *);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)H.;
 - (CDStruct_e83c9415);
 - (id);
 - (id);
-- (long long);
+- (long long)h;
 - (long long);
 - (struct OpaqueFigFormatReader *);
 - (int);
@@ -67,11 +48,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)donateContactToSharing: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (CDStruct_1b6d18a9);
 - (_Bool);
-- (long long);
+- (long long)alidated:(id)arg1 %s
+;
 - (float);
 - (id);
 - (_Bool);
@@ -86,8 +68,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (float);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)changes. Ignoring this property.;
+- (_Bool)At5;
 - (id);
 - (long long);
 - (struct __CFString *);
@@ -99,10 +81,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (float)oAvailableOfflineOptions: /* Error: Ran out of types for this method. */;
+- (float)setRestrictsAutomaticMediaSelectionToAvailableOfflineOptions: /* Error: Ran out of types for this method. */;
 - (id)kCoordinator.m %s:FigTimelineCoordinator trying to broadcast timeline state but coordination medium delegate is nil /* Error: Ran out of types for this method. */;
 - (_Bool)be an instance of NSNumber;
-- (struct CGSize)Streaming;
+- (struct CGSize)FairPlayStreaming;
 - (int)H ;
 
 @end

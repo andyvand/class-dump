@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UIColor;
-
 @interface PKToolPickerCustomItemConfiguration
 {
     _Bool _allowsColorSelection;
-    _Bool _supportsLassoToolEditingView;
-    NSString *_identifier;
-    NSString *_name;
-    CDUnknownBlockType _imageProvider;
-    CDUnknownBlockType _viewControllerProvider;
-    double _defaultWidth;
-    NSDictionary *_widthVariants;
-    UIColor *_defaultColor;
-    unsigned long long _toolAttributeControls;
 }
 
 - (id);
@@ -29,38 +18,28 @@
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)playerViewController:skipToPreviousChannel: /* Error: Ran out of types for this method. */;
+- (void)playerViewController:(CDUnknownBlockType)arg1 restoreUserInterfaceForFullScreenExitWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)_presentationFlags;
+- (CDUnknownBlockType)_mediaBrowserView;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)SnapshotGeneratorService:finished snapshotting /* Error: Ran out of types for this method. */;
 - (void)
 × ;
-- (void)tAnchorPoint: /* Error: Ran out of types for this method. */;
+- (void)setAnchorPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, setter=_setSupportsLassoBehaviors:) _Bool _supportsLassoBehaviors;
 @property(nonatomic, setter=_setSupportsLassoToolEditingView:) _Bool _supportsLassoToolEditingView; // @synthesize _supportsLassoToolEditingView;
-@property(nonatomic) _Bool allowsColorSelection; // @synthesize allowsColorSelection=_allowsColorSelection;
-@property(retain, nonatomic) UIColor *defaultColor; // @synthesize defaultColor=_defaultColor;
-@property(nonatomic) double defaultWidth; // @synthesize defaultWidth=_defaultWidth;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long toolAttributeControls; // @synthesize toolAttributeControls=_toolAttributeControls;
-@property(copy, nonatomic) CDUnknownBlockType viewControllerProvider; // @synthesize viewControllerProvider=_viewControllerProvider;
-@property(copy, nonatomic) NSDictionary *widthVariants; // @synthesize widthVariants=_widthVariants;
 
 @end
 

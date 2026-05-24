@@ -9,14 +9,6 @@
 @interface STMInfoAlert
 {
     _Bool _isActionButtonDestructive;
-    NSString *_recommendationIdentifier;
-    NSString *_storageItemIdentifier;
-    NSString *_title;
-    NSString *_message;
-    NSString *_actionButtonTitle;
-    NSString *_cancelButtonTitle;
-    NSString *_helpAnchor;
-    NSString *_helpBook;
 }
 
 + (_Bool);
@@ -27,13 +19,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)ardSection"16;
+- (id)CoverLowAltPct"b1"cloudCoverMidAltPct"b1"cloudCoverHighAltPct"b1};
 - (id);
 - (void);
 - (void);
@@ -43,15 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(copy) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(copy) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy) NSString *helpBook; // @synthesize helpBook=_helpBook;
-@property _Bool isActionButtonDestructive; // @synthesize isActionButtonDestructive=_isActionButtonDestructive;
-@property(copy) NSString *message; // @synthesize message=_message;
 @property(copy) NSString *recommendationIdentifier; // @synthesize recommendationIdentifier=_recommendationIdentifier;
-@property(copy) NSString *storageItemIdentifier; // @synthesize storageItemIdentifier=_storageItemIdentifier;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

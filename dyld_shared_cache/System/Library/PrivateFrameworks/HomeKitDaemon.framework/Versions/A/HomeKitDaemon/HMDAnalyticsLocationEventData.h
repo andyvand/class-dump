@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsLocationEventData
 {
     _Bool _notifyOnEntry;
-    _Bool _notifyOnExit;
 }
 
-- (void);
-- (void);
+- (void)_TtC13PhotoAnalysis25PromptSuggestionValidator;
+- (void)_TtC13PhotoAnalysis11TestService;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property _Bool notifyOnEntry; // @synthesize notifyOnEntry=_notifyOnEntry;
-@property _Bool notifyOnExit; // @synthesize notifyOnExit=_notifyOnExit;
 
 @end
 

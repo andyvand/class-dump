@@ -6,32 +6,24 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface GEOMAResourceFetchReply : GEOXPCReply
 {
     NSURL *_url;
-    NSData *_sandBoxToken;
 }
 
 - (void);
-- (id);
+- (id)h
+B�;
 - (_Bool);
-- (id);
+- (id)setNotificationPreferenceForClient:withObject:forKey: /* Error: Ran out of types for this method. */;
 - (void);
-- (id):set: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
+- (id)initWithRise:transit:set: /* Error: Ran out of types for this method. */;
+- (void)addClusteredRouteRideSelections:(id)arg1;
 - (void)¬Pÿ8n)3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *sandBoxToken; // @synthesize sandBoxToken=_sandBoxToken;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

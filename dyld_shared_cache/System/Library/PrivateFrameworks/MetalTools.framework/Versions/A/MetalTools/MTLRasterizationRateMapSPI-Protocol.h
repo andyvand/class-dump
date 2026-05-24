@@ -7,7 +7,6 @@
 @protocol MTLRasterizationRateMapSPI
 
 // Remaining properties
-@property(readonly, nonatomic) float minFactor;
 @property(readonly, nonatomic) unsigned long long mutability;
 @end
 

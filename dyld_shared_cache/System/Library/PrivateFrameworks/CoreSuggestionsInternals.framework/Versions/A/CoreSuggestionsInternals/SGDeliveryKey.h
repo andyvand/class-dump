@@ -9,18 +9,16 @@
 @interface SGDeliveryKey
 {
     NSString *_externalIdentifier;
-    unsigned long long _provider;
-    NSString *_trackingNumber;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id)tributionValue;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`b;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -28,16 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *trackingNumber; // @synthesize trackingNumber=_trackingNumber;
 
 @end
 

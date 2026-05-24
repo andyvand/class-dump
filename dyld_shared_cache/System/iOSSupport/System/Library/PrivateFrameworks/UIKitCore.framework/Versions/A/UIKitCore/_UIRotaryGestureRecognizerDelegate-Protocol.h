@@ -5,5 +5,8 @@
 //
 
 @protocol _UIRotaryGestureRecognizerDelegate
+
+@optional
+- (void);
 @end
 

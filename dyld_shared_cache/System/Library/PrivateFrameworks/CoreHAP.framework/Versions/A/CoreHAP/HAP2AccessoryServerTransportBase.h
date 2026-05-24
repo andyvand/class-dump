@@ -6,18 +6,12 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2AccessoryServerTransportBaseOperationClose, HAP2PropertyLock, HAP2SerializedOperationQueue, NSObject, NSString;
-@protocol HAP2AccessoryServerTransportCommon, OS_dispatch_queue;
+@class HAP2PropertyLock;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportBase : HAP2LoggingObject
 {
     unsigned long long _internalState;
-    HAP2AccessoryServerTransportBaseOperationClose *_queuedCloseOperation;
-    double _maxRequestTimeout;
-    HAP2PropertyLock *_propertyLock;
-    HAP2SerializedOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (id);
@@ -46,23 +40,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void)ePairingIdentityForDeviceID:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)secureTransport:needsRemotePairingIdentityForDeviceID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxRequestTimeout; // @synthesize maxRequestTimeout=_maxRequestTimeout;
-@property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransportCommon> underlyingTransport;
 
 @end
 

@@ -9,18 +9,6 @@
 @interface PromotedContent.MetricEventsTracker
 {
     id finalPromotedContent;
-    void placeholderPlacedTimestamp;
-    void replacedPlaceholderTimestamp;
-    id adRequestTimestamp;
-    void adResponseTimestamp;
-    void prerollAdRequestTimestamp;
-    void prerollAdResponseTimestamp;
-    id analyticsEventName;
-    id intervalKey;
-    id intervalTypeKey;
-    id networkTypeKey;
-    id placementTypeKey;
-    id failedKey;
 }
 
 - (void);
@@ -28,24 +16,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)AppSessionEndEventTranslator;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *adResponseTimestamp;
 @property(nonatomic, copy) NSDate *placeholderPlacedTimestamp;
-@property(nonatomic, copy) NSDate *prerollAdRequestTimestamp;
-@property(nonatomic, copy) NSDate *prerollAdResponseTimestamp;
-@property(nonatomic, copy) NSDate *replacedPlaceholderTimestamp;
 
 @end
 

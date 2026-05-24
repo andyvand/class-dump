@@ -4,47 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, NSDate, NSString;
-@protocol FCCardStyleProviding, FCHeadlineProviding;
+@protocol FCHeadlineProviding;
 
 @interface FCSpotlightOperationResult
 {
     id <FCHeadlineProviding> _headline;
-    NSString *_channelID;
-    NSString *_eyebrowTitle;
-    NSString *_titleText;
-    NSString *_subTitleText;
-    NSString *_ctaText;
-    FCColor *_titleColor;
-    NSDate *_publishDate;
-    id <FCCardStyleProviding> _spotlightItemStyle;
-    id <FCCardStyleProviding> _spotlightItemDarkStyle;
 }
 
 - (id);
 - (id);
+- (id)_didPrepareRenderForUpdate:isCurrent:client: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
+- (id)9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)onOperation;
+- (id)_onlineTransitionOperation;
 - (id);
 - (void)kedReason:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(readonly, copy, nonatomic) NSString *ctaText; // @synthesize ctaText=_ctaText;
-@property(readonly, copy, nonatomic) NSString *eyebrowTitle; // @synthesize eyebrowTitle=_eyebrowTitle;
 @property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(readonly, copy, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
-@property(readonly, copy, nonatomic) id <FCCardStyleProviding> spotlightItemDarkStyle; // @synthesize spotlightItemDarkStyle=_spotlightItemDarkStyle;
-@property(readonly, copy, nonatomic) id <FCCardStyleProviding> spotlightItemStyle; // @synthesize spotlightItemStyle=_spotlightItemStyle;
-@property(readonly, copy, nonatomic) NSString *subTitleText; // @synthesize subTitleText=_subTitleText;
-@property(readonly, copy, nonatomic) FCColor *titleColor; // @synthesize titleColor=_titleColor;
-@property(readonly, copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

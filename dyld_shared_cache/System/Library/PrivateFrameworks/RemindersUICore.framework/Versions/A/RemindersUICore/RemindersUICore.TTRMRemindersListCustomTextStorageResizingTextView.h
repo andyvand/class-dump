@@ -9,9 +9,6 @@
 @interface RemindersUICore.TTRMRemindersListCustomTextStorageResizingTextView : RemindersUICore.TTRMResizingTextView
 {
     id styleTypingAttributeState;
-    id supportsStyling;
-    id reminderTextStorage;
-    id tokenInteraction;
 }
 
 - (void);
@@ -28,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)-;
 - (void);
 - (id);
 - (void);

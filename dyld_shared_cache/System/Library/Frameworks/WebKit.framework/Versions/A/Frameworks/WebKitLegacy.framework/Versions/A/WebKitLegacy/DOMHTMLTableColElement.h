@@ -16,22 +16,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (int);
-- (id);
+- (void)e*(;
+- (id)-h;
 - (id);
 - (void);
+- (int)hasCustomDataType;
+- (id);
+- (id);
+- (void)$;
 
 // Remaining properties
 @property(copy) NSString *align;
-@property(copy) NSString *ch;
-@property(copy) NSString *chOff;
-@property int span;
-@property(copy) NSString *vAlign;
-@property(copy) NSString *width;
 
 @end
 

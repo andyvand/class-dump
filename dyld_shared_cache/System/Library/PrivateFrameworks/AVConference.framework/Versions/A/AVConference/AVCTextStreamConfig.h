@@ -7,35 +7,27 @@
 @interface AVCTextStreamConfig
 {
     long long _codecType;
-    unsigned long long _numRedundantPayloads;
-    unsigned long long _txRedPayloadType;
-    unsigned long long _rxRedPayloadType;
-    float _txIntervalMin;
 }
 
 + (long long);
 + (long long);
 - (unsigned long long);
 - (float);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void)c*;
 - (void);
-- (void);
-- (void);
+- (void)j;
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)(;
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long codecType; // @synthesize codecType=_codecType;
-@property(nonatomic) unsigned long long numRedundantPayloads; // @synthesize numRedundantPayloads=_numRedundantPayloads;
-@property(nonatomic) unsigned long long rxRedPayloadType; // @synthesize rxRedPayloadType=_rxRedPayloadType;
-@property(nonatomic) float txIntervalMin; // @synthesize txIntervalMin=_txIntervalMin;
-@property(nonatomic) unsigned long long txRedPayloadType; // @synthesize txRedPayloadType=_txRedPayloadType;
 
 @end
 

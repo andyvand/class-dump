@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (int)rdContainingCaretSelection;
+- (int)_wordContainingCaretSelection;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol IDSKeychainAdapter
+- (_Bool);
 - (_Bool)Length %lu context %p contextLength %lu key %@;
 @end
 

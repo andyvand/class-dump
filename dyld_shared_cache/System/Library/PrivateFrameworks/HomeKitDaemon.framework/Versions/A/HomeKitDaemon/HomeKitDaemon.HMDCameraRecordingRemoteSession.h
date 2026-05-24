@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingSessionTimelineManager, NSDictionary, NSUUID;
-@protocol HMDCameraFragmentHandlingDelegate;
+@class NSUUID;
 
 @interface HomeKitDaemon.HMDCameraRecordingRemoteSession
 {
     id workQueue;
-    id logIdentifier;
-    void identifier;
-    double configuredFragmentDuration;
-    void delegate;
-    HMDCameraRecordingSessionTimelineManager *timelineManager;
 }
 
 - (void);
@@ -31,11 +25,7 @@
 - (id)¨­Zÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) double configuredFragmentDuration; // @synthesize configuredFragmentDuration;
-@property(nonatomic) __weak id <HMDCameraFragmentHandlingDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) NSUUID *identifier;
-@property(nonatomic, readonly) NSDictionary *stateDump;
-@property(nonatomic, readonly) HMDCameraRecordingSessionTimelineManager *timelineManager; // @synthesize timelineManager;
 
 @end
 

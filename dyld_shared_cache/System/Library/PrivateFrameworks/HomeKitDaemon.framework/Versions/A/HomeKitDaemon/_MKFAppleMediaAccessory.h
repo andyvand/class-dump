@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFMediaAccessory.h>
 
-@class HMFPairingIdentity, HMFSoftwareVersion, MKFAppleMediaAccessoryDatabaseID, NSArray, NSData, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFAccessory, MKFApplicationData, MKFDevice, MKFHome, MKFResident, MKFRoom, MKFSoftwareUpdate;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFAppleMediaAccessory : _MKFMediaAccessory
@@ -28,86 +27,10 @@ __attribute__((visibility("hidden")))
 - (void)x«îþ ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessoryCapabilities; // @dynamic accessoryCapabilities;
-@property(copy, nonatomic) NSNumber *accessoryCategory;
-@property(readonly, retain, nonatomic) NSArray *actionMediaPlaybacks;
-@property(readonly, retain, nonatomic) NSArray *actionsAppleMediaAccessoryPower;
-@property(retain, nonatomic) NSSet *actionsAppleMediaAccessoryPower_; // @dynamic actionsAppleMediaAccessoryPower_;
-@property(readonly, retain, nonatomic) NSArray *allowedGuests;
-@property(readonly, retain, nonatomic) NSArray *analysisEventBulletinRegistrations;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(retain, nonatomic) NSArray *appliedFirewallWANRules;
-@property(readonly, retain, nonatomic) NSArray *cameraAccessModeBulletinRegistrations;
-@property(readonly, retain, nonatomic) NSArray *cameraReachabilityBulletinRegistrations;
-@property(readonly, retain, nonatomic) NSArray *cameraSignificantEventBulletinRegistrations;
-@property(copy, nonatomic) NSString *configuredName;
-@property(copy, nonatomic) NSNumber *currentNetworkProtectionMode;
-@property(readonly, copy, nonatomic) MKFAppleMediaAccessoryDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFDevice> device; // @dynamic device;
-@property(retain, nonatomic) NSData *deviceIRKData; // @dynamic deviceIRKData;
-@property(copy, nonatomic) NSString *displayableFirmwareVersion;
-@property(copy, nonatomic) NSString *firmwareVersion;
-@property(copy, nonatomic) NSUUID *groupIdentifier;
-@property(copy, nonatomic) NSString *groupName;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFAccessory> hostAccessory;
-@property(readonly, retain, nonatomic) NSArray *hostedAccessories;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *idsDestination; // @dynamic idsDestination;
-@property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(copy, nonatomic) NSNumber *initialCategoryIdentifier;
-@property(copy, nonatomic) NSString *initialManufacturer;
-@property(copy, nonatomic) NSString *initialModel;
-@property(copy, nonatomic) NSNumber *lastNetworkAccessViolationOccurrenceSince1970;
-@property(copy, nonatomic) NSNumber *lastNetworkAccessViolationResetSince1970;
-@property(copy, nonatomic) NSDate *lastPairingAuditTimeForRG;
-@property(copy, nonatomic) NSDate *lastSeenDate;
-@property(copy, nonatomic) NSNumber *lowBattery;
-@property(copy, nonatomic) NSString *macAddress; // @dynamic macAddress;
-@property(copy, nonatomic) NSString *manufacturer;
-@property(readonly, retain, nonatomic) NSArray *mediaPropertyNotificationRegistrations;
-@property(copy, nonatomic) NSString *model;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSNumber *networkClientIdentifier;
-@property(copy, nonatomic) NSNumber *networkClientLAN;
-@property(copy, nonatomic) NSString *networkClientProfileFingerprint;
-@property(copy, nonatomic) NSString *networkRouterUUID;
-@property(readonly, retain, nonatomic) NSArray *outgoingInvitations;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(copy, nonatomic) NSString *pendingConfigurationIdentifier;
-@property(copy, nonatomic) NSString *primaryProfileVersion;
-@property(copy, nonatomic) NSString *productData;
-@property(copy, nonatomic) NSString *providedName;
-@property(retain, nonatomic) id <MKFResident> resident; // @dynamic resident;
-@property(retain, nonatomic) id <MKFRoom> room;
-@property(copy, nonatomic) NSString *serialNumber;
-@property(retain, nonatomic) id <MKFSoftwareUpdate> softwareUpdate;
-@property(retain, nonatomic) HMFSoftwareVersion *softwareVersion; // @dynamic softwareVersion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *supportedStereoPairVersions; // @dynamic supportedStereoPairVersions;
-@property(copy, nonatomic) NSNumber *suspendCapable;
-@property(readonly, retain, nonatomic) NSArray *usersWithListeningHistoryEnabled;
-@property(readonly, retain, nonatomic) NSArray *usersWithMediaContentProfileEnabled;
-@property(readonly, retain, nonatomic) NSArray *usersWithPersonalRequestsEnabled;
-@property(copy, nonatomic) NSNumber *variant; // @dynamic variant;
-@property(copy, nonatomic) NSNumber *wiFiCredentialType;
-@property(retain, nonatomic) NSData *wiFiUniquePreSharedKey;
-@property(copy, nonatomic) NSString *wifiSSID; // @dynamic wifiSSID;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

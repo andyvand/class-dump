@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface CAStateElement
 {
     CALayer *_target;
-    CAStateElement *_source;
 }
 
-+ (void);
++ (void)#;
 + (_Bool);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (id);
-- (id);
+- (id)le;
 - (void);
 - (void);
 - (void);
@@ -36,8 +35,6 @@
 - (void)?="x"i}};
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyPath;
-@property(retain, nonatomic) CAStateElement *source; // @synthesize source=_source;
 @property(nonatomic) __weak CALayer *target; // @synthesize target=_target;
 
 @end

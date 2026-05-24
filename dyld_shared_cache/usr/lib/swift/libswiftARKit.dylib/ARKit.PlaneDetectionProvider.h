@@ -8,9 +8,6 @@
 {
     id _cPlaneDetectionProvider;
     id _cPlaneDetectionConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
-    id _cPlaneAlignment;
 }
 
 @end

@@ -7,26 +7,6 @@
 @interface NewsUI2.TagFeedTracker
 {
     id delegate;
-    id urlReferralData;
-    id tracker;
-    id sportsTracker;
-    id blueprintProvider;
-    id blueprintLayoutProvider;
-    id blueprintLayoutCollectionProvider;
-    id newsActivityManager;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id headlineExposureTracker;
-    id trackerConfiguration;
-    id tagService;
-    id puzzleHistoryService;
-    id feedDescriptor;
-    id articleViewingSession;
-    id recipeViewingSession;
-    id contentAvailabilityValidator;
-    id sectionPositionProvider;
-    id feedDismissingManager;
 }
 
 @end

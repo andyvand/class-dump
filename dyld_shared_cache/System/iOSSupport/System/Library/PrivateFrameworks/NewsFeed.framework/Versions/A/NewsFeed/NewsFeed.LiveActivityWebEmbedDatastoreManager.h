@@ -7,9 +7,6 @@
 @interface NewsFeed.LiveActivityWebEmbedDatastoreManager
 {
     id observers;
-    id liveActivityManager;
-    id updateQueue;
-    id store;
 }
 
 @end

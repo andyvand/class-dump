@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSMutableArray, NSString, STConversationContext, STLockoutViewController, UITextView, UIView;
+@class CKConversation;
 
 @interface CKBlackholeTranscriptViewController
 {
     _Bool _isShowingLockoutView;
-    CKConversation *_conversation;
-    NSMutableArray *_messages;
-    UITextView *_headerTextView;
-    STLockoutViewController *_lockoutViewController;
-    STConversationContext *_conversationContext;
-    UIView *_lockoutView;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)NoteHTMLEditorViewDelegate>",W,N,V_delegate;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (id){account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)come migration prompt… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)passphrase for account… {account:%@, hasDivergedKey:%@, hasHint:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (_Bool)ocked notes.;
+- (_Bool)e folder;
+- (id)CLockedNotesModeMigrator presentBackwardsCompatibilityAlertIfNeededForAccount:mode:window:confirmHandler:cancelHandler:] /* Error: Ran out of types for this method. */;
+- (id):%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -39,7 +33,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (double);
 - (double);
@@ -58,25 +52,12 @@
 - (id)Ñ°1Â0@ù
 × ;
 - (void);
-- (id)fig;
+- (id)config;
 - (void)ies:(_Bool)arg1 YES...] with error %@;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain, nonatomic) STConversationContext *conversationContext; // @synthesize conversationContext=_conversationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UITextView *headerTextView; // @synthesize headerTextView=_headerTextView;
-@property(nonatomic) _Bool isShowingLockoutView; // @synthesize isShowingLockoutView=_isShowingLockoutView;
-@property(retain, nonatomic) UIView *lockoutView; // @synthesize lockoutView=_lockoutView;
-@property(retain, nonatomic) STLockoutViewController *lockoutViewController; // @synthesize lockoutViewController=_lockoutViewController;
-@property(retain, nonatomic) NSMutableArray *messages; // @synthesize messages=_messages;
-@property(readonly) Class superclass;
 
 @end
 

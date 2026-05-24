@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol MTLDeviceSPI, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SafeEjectGPUSession
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <MTLDeviceSPI> _device;
-    unsigned long long _gpuid;
-    unsigned long long _registryID;
-    NSString *_name;
-    NSString *_enclosureName;
-    NSString *_location;
-    unsigned long long _enclosureRegistryID;
-    unsigned long long _locationNumber;
-    unsigned long long _maxTransferRate;
-    _Bool _removable;
-    _Bool _discrete;
-    _Bool _integrated;
-    NSMutableArray *_limboArray;
-    NSObject<OS_dispatch_queue> *_limboQueue;
-    _Bool _inLimbo;
-    _Bool _exportDictionary;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)T_;
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
-- (float);
+- (float)I;
 - (void);
 - (void);
 - (id);

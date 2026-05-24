@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MobileActivation)
-+ (id);
-- (id);
++ (id):(id)arg1;
+- (id);
 @end
 

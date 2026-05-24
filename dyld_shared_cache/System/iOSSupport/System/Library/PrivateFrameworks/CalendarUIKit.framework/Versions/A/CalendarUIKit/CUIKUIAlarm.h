@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAlarm;
-
 @interface CUIKUIAlarm
 {
     _Bool _isLeaveNowAlarm;
-    _Bool _isDefaultAlarm;
-    EKAlarm *_alarm;
 }
 
 - (id);
@@ -20,13 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (_Bool);
-- (void)ortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
+- (void)sortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EKAlarm *alarm; // @synthesize alarm=_alarm;
-@property(readonly, nonatomic) _Bool isDefaultAlarm; // @synthesize isDefaultAlarm=_isDefaultAlarm;
 @property(readonly, nonatomic) _Bool isLeaveNowAlarm; // @synthesize isLeaveNowAlarm=_isLeaveNowAlarm;
 
 @end

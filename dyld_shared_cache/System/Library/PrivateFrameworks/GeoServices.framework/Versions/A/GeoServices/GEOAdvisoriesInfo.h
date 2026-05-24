@@ -4,49 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoryNotice, GEOClickableAdvisory, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOAdvisoriesInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOClickableAdvisory *_clickableAdvisory;
-    GEOAdvisoryNotice *_evAdvisory;
-    NSMutableArray *_genericAdvisorys;
-    NSMutableArray *_incidentAdvisorys;
-    NSMutableArray *_noticeAdvisorys;
-    GEOAdvisoryNotice *_tollAdvisory;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_clickableAdvisory:1;
-        unsigned int read_evAdvisory:1;
-        unsigned int read_genericAdvisorys:1;
-        unsigned int read_incidentAdvisorys:1;
-        unsigned int read_noticeAdvisorys:1;
-        unsigned int read_tollAdvisory:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)Albania;
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool)dUsingLabel:(id)arg1;
++ (_Bool)setHasMatchedUsingLabel:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)objectForKey:(id)arg1;
+- (void)localizedStringForStatusCode:(id)arg1;
+- (void)indexOfObject:(id)arg1;
+- (unsigned long long)_value2;
+- (id),R;
+- (unsigned long long)sults;
+- (id)cts.reactive.combine-latest.results;
+- (id)@?0@"CNObservable"8;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -66,34 +46,25 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_setEndpointerOperationMode:(id)arg1 forceUpdate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)!<Aù1·*ð1Â0@ù
 × ;
-- (id)AttributesAtIndex:(struct _NSZone *)arg1;
+- (id)nameAttributesAtIndex:(struct _NSZone *)arg1;
 - (id)x_;
 - (id)amework/GeoAnalytics;
 - (id);
 - (void)2ä6;
 
 // Remaining properties
-@property(retain, nonatomic) GEOClickableAdvisory *clickableAdvisory;
-@property(retain, nonatomic) GEOAdvisoryNotice *evAdvisory;
-@property(retain, nonatomic) NSMutableArray *genericAdvisorys;
-@property(readonly, nonatomic) _Bool hasClickableAdvisory;
-@property(readonly, nonatomic) _Bool hasEvAdvisory;
-@property(readonly, nonatomic) _Bool hasTollAdvisory;
-@property(retain, nonatomic) NSMutableArray *incidentAdvisorys;
 @property(retain, nonatomic) NSMutableArray *noticeAdvisorys;
-@property(retain, nonatomic) GEOAdvisoryNotice *tollAdvisory;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

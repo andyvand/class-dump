@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface IXDataStoreClock
 {
     NSUUID *_guid;
-    unsigned long long _sequenceNumber;
 }
 
 + (id);
@@ -25,17 +24,14 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)ginAndDestination(CLLocationCoordinate2D, CLLocationCoordinate2D);
 - (void);
 - (id);
 - (void);
-- (void)tableDeviceNotEligibleError;
+- (void)kIXUserPresentableDeviceNotEligibleError;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) NSUUID *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) NSDictionary *notificationDictionary;
-@property(nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

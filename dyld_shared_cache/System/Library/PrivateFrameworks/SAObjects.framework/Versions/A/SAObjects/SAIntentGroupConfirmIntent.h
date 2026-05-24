@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SAIntentGroupProtobufMessage;
+@class SAIntentGroupProtobufMessage;
 
 @interface SAIntentGroupConfirmIntent : SABaseClientBoundCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAIntentGroupProtobufMessage *intent;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
 
 @end
 

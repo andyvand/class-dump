@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMThreadSafeBalloonPluginMap, NSDictionary, NSObject, NSSet, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMBalloonPluginManagerModel
 {
     _Bool _hasCompletedInitialization;
-    _Bool _hasDeferredInstalledAppsChangedNotification;
-    id _extensionMatchingContext;
-    id _highMemoryExtensionMatchingContext;
-    NSString *_pluginMetaDataFolder;
-    NSDictionary *_pluginIDToMetadataCache;
-    Class _richLinksDataSourceClass;
-    IMThreadSafeBalloonPluginMap *_pluginsMap;
-    NSSet *_pluginsToRemoveAfterExtensionsUpdate;
-    NSObject<OS_dispatch_queue> *_dataQueue;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)deSupported=%d;
+- (void)rgeFrameInWindow=%d, consecutiveLargeFrames=%d, isIDR=%d, lowBitrateWithRespectToTarget=%d, elapsedTime(s)=%.2f, currentTargetBitrate(Mbps)=%.2f, measuredBitrate(Mbps)=%.2f;
+- (void)FrameSize(Mbps)=%.f, bitrateAtCurrentFrameSize(Mbps)=%.f, bitrateTrendCoefficient(Mbps)=%.2f, largeFrameInWindow=%d, consecutiveLargeFrames=%d, isIDR=%d, lowBitrateWithRespectToTarget=%d, elapsedTime(s)=%.2f, currentTargetBitrate(Mbps)=%.2f, measuredBitrate(Mbps)=%.2f;
+- (void)te is NULL;
+- (void)from [oldOwrd=%f,oldBWE=%d,ssrc=0x%x] to [newOwrd=%f,newBWE=%d,ssrc=0x%x], worstLinkIndex=%d, arrivalTime=%f;
+- (void)t in carrier bundle or out of range, value=%d default value=%d;
+- (void)esent in carrier bundle, value=%d;
+- (Class)ported codec bandwidth:payload=%d, supportedBandwidths=%@, bitrate=%d /* Error: Ran out of types for this method. */;
+- (id)er [%s] %s:%d AudioReceiver=%p packetsReceivedForInterval=%d packetsExpectedForInterval=%d packetsLostForInterval=%d rtpPacketLossRate=%f /* Error: Ran out of types for this method. */;
+- (id)dType[%d];
+- (id)setting. AudioReceiver=%p JB=%p time=%f maxReceivedTimestamp=%u audioReceiver->lastReceivedTimestamp=%u;
+- (id)cted backwards TS Jump in stream, resetting. AudioReceiver=%p JB=%p time=%f maxReceivedTimestamp=%u audioReceiver->lastReceivedTimestamp=%u;
+- (id)rror=%@;
+- (_Bool)[%s] %s:%d SCSharingSession requires a valid UUID /* Error: Ran out of types for this method. */;
+- (_Bool)ioSinkProc=%p _sinkContext=%p;
 - (id);
 - (id);
 - (id);
@@ -44,15 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dataQueue; // @synthesize dataQueue=_dataQueue;
-@property(retain, nonatomic) id extensionMatchingContext; // @synthesize extensionMatchingContext=_extensionMatchingContext;
-@property(nonatomic) _Bool hasCompletedInitialization; // @synthesize hasCompletedInitialization=_hasCompletedInitialization;
-@property(nonatomic) _Bool hasDeferredInstalledAppsChangedNotification; // @synthesize hasDeferredInstalledAppsChangedNotification=_hasDeferredInstalledAppsChangedNotification;
-@property(retain, nonatomic) id highMemoryExtensionMatchingContext; // @synthesize highMemoryExtensionMatchingContext=_highMemoryExtensionMatchingContext;
-@property(retain, nonatomic) NSDictionary *pluginIDToMetadataCache; // @synthesize pluginIDToMetadataCache=_pluginIDToMetadataCache;
-@property(retain, nonatomic) NSString *pluginMetaDataFolder; // @synthesize pluginMetaDataFolder=_pluginMetaDataFolder;
-@property(readonly, nonatomic) IMThreadSafeBalloonPluginMap *pluginsMap; // @synthesize pluginsMap=_pluginsMap;
-@property(retain, nonatomic) NSSet *pluginsToRemoveAfterExtensionsUpdate; // @synthesize pluginsToRemoveAfterExtensionsUpdate=_pluginsToRemoveAfterExtensionsUpdate;
-@property(retain, nonatomic) Class richLinksDataSourceClass; // @synthesize richLinksDataSourceClass=_richLinksDataSourceClass;
 
 @end
 

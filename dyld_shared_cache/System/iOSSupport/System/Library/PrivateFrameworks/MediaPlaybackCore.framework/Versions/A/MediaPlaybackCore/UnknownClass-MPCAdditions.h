@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MPCAdditions)
-- (void);
+- (void)__AUTH_CONST;
 @end
 

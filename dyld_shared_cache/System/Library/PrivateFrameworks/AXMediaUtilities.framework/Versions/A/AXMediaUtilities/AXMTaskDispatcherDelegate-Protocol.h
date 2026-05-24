@@ -5,5 +5,6 @@
 //
 
 @protocol AXMTaskDispatcherDelegate
+- (void);
 @end
 

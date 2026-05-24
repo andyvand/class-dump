@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRApplicationConnectionMessageHeader, NSData, _MRApplicationConnectionMessageProtobuf;
+@class MRApplicationConnectionMessageHeader, NSData;
 
 @interface MRApplicationConnectionMessage
 {
     NSData *_underlyingMessage;
-    MRApplicationConnectionMessageHeader *_header;
 }
 
 + (_Bool);
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MRApplicationConnectionMessageHeader *header; // @synthesize header=_header;
-@property(readonly, nonatomic) _MRApplicationConnectionMessageProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
-@property(readonly, nonatomic) NSData *underlyingMessage; // @synthesize underlyingMessage=_underlyingMessage;
 
 @end
 

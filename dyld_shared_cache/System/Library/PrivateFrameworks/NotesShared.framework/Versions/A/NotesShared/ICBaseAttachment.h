@@ -6,42 +6,36 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICAccount, ICAttachment, ICNote, NSString;
+@class NSString;
 
 @interface ICBaseAttachment : ICCloudSyncingObject
 {
 }
 
 + (void);
++ (void)0@"NSError"8;
++ (id)%lu products, assets:%lu /* Error: Ran out of types for this method. */;
++ (id)%i.%i;
++ (id)dismiss;
++ (id)identifier;
++ (id)allowCloseOnLastNotification;
++ (id);
++ (id);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-- (void);
+- (void)arrayWithObject:(id)arg1;
 - (id);
 - (struct _NSRange);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)IDToUserIDEncrypted;
+- (_Bool)ReplicaIDToUserIDEncrypted;
 
 // Remaining properties
-@property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(retain, nonatomic) ICNote *note; // @dynamic note;
-@property(retain, nonatomic) ICAttachment *parentAttachment; // @dynamic parentAttachment;
-@property(readonly, nonatomic) struct _NSRange rangeInNote;
-@property(readonly, nonatomic) ICBaseAttachment *rootParentAttachment; // @dynamic rootParentAttachment;
 @property(copy, nonatomic) NSString *typeUTI; // @dynamic typeUTI;
-@property(readonly, nonatomic, getter=isUsed) _Bool used;
 
 @end
 

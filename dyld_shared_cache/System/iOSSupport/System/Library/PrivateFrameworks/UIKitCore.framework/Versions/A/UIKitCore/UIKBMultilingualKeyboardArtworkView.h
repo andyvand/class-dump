@@ -6,28 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImageView, UIKBTutorialConversationBubble;
+@class NSString, UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface UIKBMultilingualKeyboardArtworkView : UIView
 {
     NSString *_language1;
-    NSString *_language2;
-    UIImageView *_memoji1;
-    UIKBTutorialConversationBubble *_bubble1;
-    UIImageView *_memoji2;
-    UIKBTutorialConversationBubble *_bubble2;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)heduled message %@ with scheduleState %@;
+- (void)eduled message;
+- (void)ecause messageID:(id)arg1 %@, [[self service] supportsDatabase]:%@, service:%@ /* Error: Ran out of types for this method. */;
+- (void)essageReadForMessageID because messageID:(id)arg1 %@, [[self service] supportsDatabase]:%@, service:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)Sending Message via CT;
 - (void);
 - (id);
 - (id);
@@ -37,12 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)Àóf;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBTutorialConversationBubble *bubble1; // @synthesize bubble1=_bubble1;
-@property(retain, nonatomic) UIKBTutorialConversationBubble *bubble2; // @synthesize bubble2=_bubble2;
-@property(readonly, nonatomic) NSString *language1; // @synthesize language1=_language1;
-@property(readonly, nonatomic) NSString *language2; // @synthesize language2=_language2;
 @property(retain, nonatomic) UIImageView *memoji1; // @synthesize memoji1=_memoji1;
-@property(retain, nonatomic) UIImageView *memoji2; // @synthesize memoji2=_memoji2;
 
 @end
 

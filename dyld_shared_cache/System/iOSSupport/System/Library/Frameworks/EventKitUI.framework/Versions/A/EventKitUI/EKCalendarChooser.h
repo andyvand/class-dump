@@ -4,102 +4,81 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore, NSSet, UIViewController;
-@protocol EKCalendarChooserDelegate, EKCalendarChooserImpl, EKUIViewControllerNavigationDelegate;
+@class UIViewController;
+@protocol EKCalendarChooserImpl;
 
 @interface EKCalendarChooser
 {
     UIViewController<EKCalendarChooserImpl> *_impl;
-    EKEventStore *_eventStore;
 }
 
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)s;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)&s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id)&s;
+- (id)s;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)(s;
 - (int);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
-- (void);
+- (id)R%s;
+- (void)s;
 - (_Bool);
 - (_Bool);
+- (void)s;
+- (id);
+- (_Bool)])s;
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)({z;
+- (id)yz;
+- (void){;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)g",?,R,C;
 - (struct CGSize);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)siriLanguagesChanged;
 - (void);
 - (unsigned long long)
 × ;
-- (void):event: /* Error: Ran out of types for this method. */;
+- (void)isValidLocation:event: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allSelected;
-@property(nonatomic) _Bool allowsPullToRefresh;
-@property(nonatomic) long long chooserMode;
-@property(retain, nonatomic) NSSet *collapsedSectionIdentifiers;
-@property(nonatomic) __weak id <EKCalendarChooserDelegate> delegate;
-@property(nonatomic) _Bool disableCalendarEditing;
-@property(nonatomic) _Bool disableCalendarsUnselectedByFocus;
-@property(retain, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(nonatomic) int explanatoryTextMode;
-@property(nonatomic) _Bool hidesSuggestedEventCalendar;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(nonatomic) _Bool onlyShowUnmanagedAccounts;
-@property(retain, nonatomic) EKCalendar *selectedCalendar;
-@property(copy, nonatomic) NSSet *selectedCalendars;
-@property(readonly, nonatomic) long long selectionStyle;
-@property(nonatomic) _Bool showAccountStatus;
-@property(nonatomic) _Bool showDetailAccessories;
-@property(nonatomic) _Bool showsCancelButton;
-@property(nonatomic) _Bool showsCompletedRemindersSetting;
-@property(nonatomic) _Bool showsDeclinedEventsSetting;
-@property(nonatomic) _Bool showsDoneButton;
 
 @end
 

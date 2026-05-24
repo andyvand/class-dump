@@ -9,8 +9,6 @@
 @interface INAppIdentifier
 {
     NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSString *_appName;
 }
 
 + (id);
@@ -21,26 +19,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)C,N,V_productType;
+- (void)AcceptEAPTypes;
 - (id);
 - (id);
 - (id);
-- (id)nnectionValid;
-- (void)entParameterUnsupportedReasonFormatString;
+- (id)_connectionValid;
+- (void)INIntentParameterUnsupportedReasonFormatString;
 - (id)û;
 
 // Remaining properties
-@property(readonly, copy) NSString *appName; // @synthesize appName=_appName;
 @property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

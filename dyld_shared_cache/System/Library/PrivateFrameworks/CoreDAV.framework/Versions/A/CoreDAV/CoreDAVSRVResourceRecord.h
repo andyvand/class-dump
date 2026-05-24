@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CoreDAVSRVResourceRecord
 {
     NSString *_serviceString;
-    NSNumber *_port;
-    NSString *_target;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)alignLeadingView:toTrailingView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)EWSBasePathToElementType;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *port; // @synthesize port=_port;
 @property(retain, nonatomic) NSString *serviceString; // @synthesize serviceString=_serviceString;
-@property(retain, nonatomic) NSString *target; // @synthesize target=_target;
 
 @end
 

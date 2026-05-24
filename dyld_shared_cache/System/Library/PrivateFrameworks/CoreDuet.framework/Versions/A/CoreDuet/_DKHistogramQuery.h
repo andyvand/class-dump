@@ -6,29 +6,18 @@
 
 #import <CoreDuet/_DKQuery.h>
 
-@class NSArray, NSDateInterval, NSPredicate, NSString, _DKEventStream;
-
 @interface _DKHistogramQuery : _DKQuery
 {
     _Bool _includeLocalResults;
-    _Bool _includeRemoteResults;
-    _DKEventStream *_stream;
-    NSDateInterval *_interval;
-    CDUnknownBlockType _histogramHandler;
-    NSString *_customIdentifier;
-    unsigned long long _minimumOccurrencesForInclusion;
-    NSPredicate *_predicate;
-    NSArray *_valueKeyPaths;
-    long long _remoteHistogramLimit;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)m+;
 - (unsigned long long);
 - (id);
 - (id);
@@ -43,25 +32,17 @@
 - (void);
 - (id);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)@;
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void)á¶/°!Gùñ©3°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType histogramHandler; // @synthesize histogramHandler=_histogramHandler;
 @property(nonatomic) _Bool includeLocalResults; // @synthesize includeLocalResults=_includeLocalResults;
-@property(nonatomic) _Bool includeRemoteResults; // @synthesize includeRemoteResults=_includeRemoteResults;
-@property(readonly, nonatomic) NSDateInterval *interval;
-@property(nonatomic) unsigned long long minimumOccurrencesForInclusion; // @synthesize minimumOccurrencesForInclusion=_minimumOccurrencesForInclusion;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) long long remoteHistogramLimit; // @synthesize remoteHistogramLimit=_remoteHistogramLimit;
-@property(readonly, nonatomic) _DKEventStream *stream;
-@property(retain, nonatomic) NSArray *valueKeyPaths; // @synthesize valueKeyPaths=_valueKeyPaths;
 
 @end
 

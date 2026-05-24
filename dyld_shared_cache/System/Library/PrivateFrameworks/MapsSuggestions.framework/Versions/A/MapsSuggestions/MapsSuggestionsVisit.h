@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, RTLocation, RTPlaceInference;
+@class NSDate;
 
 @interface MapsSuggestionsVisit
 {
     NSDate *_date;
-    long long _type;
-    RTLocation *_location;
-    NSDate *_entry;
-    NSDate *_exit;
-    long long _confidence;
-    long long _source;
-    RTPlaceInference *_placeInference;
-    NSUUID *_identifier;
 }
 
 - (id);
@@ -33,23 +25,7 @@
 - (void)0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *entry; // @synthesize entry=_entry;
-@property(readonly, copy, nonatomic) NSDate *exit; // @synthesize exit=_exit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) RTLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) RTPlaceInference *placeInference; // @synthesize placeInference=_placeInference;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

@@ -11,7 +11,7 @@
     unsigned int _cgsWindowID;
 }
 
-- (id);
+- (id)_resumableUploadSupported;
 - (id);
 - (unsigned int);
 - (id);

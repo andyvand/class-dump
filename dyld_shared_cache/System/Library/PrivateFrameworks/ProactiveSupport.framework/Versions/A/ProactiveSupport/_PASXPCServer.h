@@ -13,8 +13,8 @@
 
 + (id);
 + (void);
-- (void);
-- (id);
+- (void)apply metered rollout as it doesn't fall under %d percent. Device is %d percent.;
+- (id)A2388;
 - (id);
 - (void);
 

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkGradientInfo, UIColor;
+@class UIColor;
 
 @interface MPArtworkImageAttachments
 {
     _Bool _hasTitle;
-    UIColor *_textColor;
-    MPArtworkGradientInfo *_gradient;
 }
 
 + (_Bool);
+- (id)svfopCurrentCatalog;
 - (id);
-- (id);
-- (id);
+- (id)=û14;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)setPayloadADUseWindowsUNCPathFlag: /* Error: Ran out of types for this method. */;
 - (void)roller>",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) MPArtworkGradientInfo *gradient; // @synthesize gradient=_gradient;
-@property(readonly, nonatomic) _Bool hasTitle; // @synthesize hasTitle=_hasTitle;
 @property(readonly, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBArchivedObject, _INPBDictionary;
+@class NSString;
 
 @interface _INPBRunVoiceCommandIntentResponse
 {
@@ -16,25 +16,10 @@
         unsigned int prefersExecutionOnCompanion:1;
         unsigned int toggleState:1;
     } _has;
-    _Bool _continueRunning;
-    _Bool _customResponsesDisabled;
-    _Bool _interstitialDisabled;
-    _Bool _prefersExecutionOnCompanion;
-    int _intentCategory;
-    int _toggleState;
-    NSString *_appBundleId;
-    NSString *_localizedAppName;
-    _INPBDictionary *_parameters;
-    NSString *_responseTemplate;
-    NSArray *_steps;
-    _INPBArchivedObject *_underlyingIntent;
-    _INPBArchivedObject *_underlyingIntentResponse;
-    NSString *_underlyingIntentTitle;
-    NSString *_verb;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)upplying entire byte range data of length %lu;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -78,69 +63,33 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)DIDNT_GET_A_CODE;
 - (id);
 - (int);
 - (_Bool);
 - (id);
-- (id);
+- (id)triggerPanicMedicInRecoveryWithPath:(id)arg1 withError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ng;
 - (unsigned long long);
-- (void);
+- (void)$$;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)Xx;
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (id);
 - (void);
 - (id);
-- (int)iginatingDeviceRapportMediaSystemId;
-- (void)e;
+- (int)_originatingDeviceRapportMediaSystemId;
+- (void)INIntentParameterPromptDialogType;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool continueRunning; // @synthesize continueRunning=_continueRunning;
-@property(nonatomic) _Bool customResponsesDisabled; // @synthesize customResponsesDisabled=_customResponsesDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAppBundleId;
-@property(nonatomic) _Bool hasContinueRunning;
-@property(nonatomic) _Bool hasCustomResponsesDisabled;
-@property(nonatomic) _Bool hasIntentCategory;
-@property(nonatomic) _Bool hasInterstitialDisabled;
-@property(readonly, nonatomic) _Bool hasLocalizedAppName;
-@property(readonly, nonatomic) _Bool hasParameters;
-@property(nonatomic) _Bool hasPrefersExecutionOnCompanion;
-@property(readonly, nonatomic) _Bool hasResponseTemplate;
-@property(nonatomic) _Bool hasToggleState;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntent;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntentResponse;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntentTitle;
-@property(readonly, nonatomic) _Bool hasVerb;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int intentCategory; // @synthesize intentCategory=_intentCategory;
-@property(nonatomic) _Bool interstitialDisabled; // @synthesize interstitialDisabled=_interstitialDisabled;
-@property(copy, nonatomic) NSString *localizedAppName; // @synthesize localizedAppName=_localizedAppName;
-@property(retain, nonatomic) _INPBDictionary *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) _Bool prefersExecutionOnCompanion; // @synthesize prefersExecutionOnCompanion=_prefersExecutionOnCompanion;
-@property(copy, nonatomic) NSString *responseTemplate; // @synthesize responseTemplate=_responseTemplate;
-@property(copy, nonatomic) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly, nonatomic) unsigned long long stepsCount;
-@property(readonly) Class superclass;
-@property(nonatomic) int toggleState; // @synthesize toggleState=_toggleState;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntent; // @synthesize underlyingIntent=_underlyingIntent;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntentResponse; // @synthesize underlyingIntentResponse=_underlyingIntentResponse;
-@property(copy, nonatomic) NSString *underlyingIntentTitle; // @synthesize underlyingIntentTitle=_underlyingIntentTitle;
-@property(copy, nonatomic) NSString *verb; // @synthesize verb=_verb;
 
 @end
 

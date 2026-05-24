@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABCollectionViewItemFactory, AKCardViewDataSource, CNContact, CNContactListCellView, CNContactPickerCardViewStyleProvider, CNContactStore, NSArray, NSString;
-@protocol CNContactListCellViewControllerDelegate;
+@class ABCollectionViewItemFactory, CNContactListCellView;
 
 @interface CNContactListCellViewController
 {
     ABCollectionViewItemFactory *_itemFactory;
-    AKCardViewDataSource *_dataSource;
-    AKCardViewDataSource *_suggestionDataSource;
-    CNContactStore *_contactStore;
-    ABAddressBook *_addressBook;
-    ABAddressBook *_suggestionAddressBook;
-    CNContactPickerCardViewStyleProvider *_styleProvider;
-    NSString *_contactIdentifier;
-    NSString *_linkIdentifier;
-    _Bool _expanded;
-    _Bool _canExpandCell;
-    _Bool _allowsNamePicking;
-    CNContactListCellView *_cellView;
-    id <CNContactListCellViewControllerDelegate> _delegate;
-    NSArray *_displayedKeys;
 }
 
 + (id);
@@ -31,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -40,55 +25,42 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)q;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)	;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (id)P;
+- (void);
+- (void);
+- (id)oardpredictions;
+- (id)AXMigratingUnKeyedEncoding;
+- (void)N3xpc10auto_replyEE3$_0FviNS_6vectorIhNS_9allocatorIhEEEEEEE;
+- (_Bool)ionTouchBar;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)TailView;
+- (_Bool)updateKeyViewLoopAndReturnTailView;
 - (void)Ã-êGAGGADy(êGSgGGÇöéGGGG_Qo__Qo__æéGGGAPG;
 
 // Remaining properties
-@property _Bool allowsNamePicking; // @synthesize allowsNamePicking=_allowsNamePicking;
-@property(nonatomic) _Bool canExpandCell; // @synthesize canExpandCell=_canExpandCell;
 @property __weak CNContactListCellView *cellView; // @synthesize cellView=_cellView;
-@property(readonly) CNContact *contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CNContactListCellViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *displayedKeys; // @synthesize displayedKeys=_displayedKeys;
-@property(nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

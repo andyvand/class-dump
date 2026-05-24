@@ -12,7 +12,7 @@
 - (void);
 - (id);
 - (id);
-- (void)onTransactionGeneration;
+- (void)_EDPersistenceDatabaseConnectionTransactionGeneration;
 
 @end
 

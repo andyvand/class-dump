@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBService, HAPAccessory, NSArray, NSNumber, NSString;
+@class CBService;
 
 @interface HAPService
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_characteristics;
-    NSString *_type;
-    NSNumber *_instanceID;
-    HAPAccessory *_accessory;
-    NSArray *_linkedServices;
-    unsigned long long _serviceProperties;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)_spatialVisibleFrame;
 - (void);
 - (void);
 - (void);
@@ -41,30 +35,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak HAPAccessory *accessory; // @synthesize accessory=_accessory;
 @property(retain, nonatomic, setter=setCBService:) CBService *cbService;
-@property(retain, nonatomic) NSArray *characteristics; // @synthesize characteristics=_characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *instanceID; // @synthesize instanceID=_instanceID;
-@property(retain, nonatomic) NSArray *linkedServices; // @synthesize linkedServices=_linkedServices;
-@property(nonatomic) unsigned long long serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

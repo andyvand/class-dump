@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class NSArray, _INPBDeviceDetail, _INPBIntentMetadata;
 
 @protocol _INPBFindDeviceAndPlaySoundIntent
-- (_Bool)es;
-- (void)NShowHomeIntentResponseCodeReady;
+- (_INPBDeviceDetail *);
+- (_INPBIntentMetadata *)KindOfClass:TMBackupProxy.class] /* Error: Ran out of types for this method. */;
+- (_Bool)allValues;
+- (void)INShowHomeIntentResponseCodeReady;
 - (void)îÀ¨;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) unsigned long long devicesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsStopRequest;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool isStopRequest;
 @end
 

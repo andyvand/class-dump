@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INRestaurant, NSString;
+@class INRestaurant;
 
 @interface INGetAvailableRestaurantReservationBookingDefaultsIntent : INIntent
 {
@@ -14,25 +14,18 @@
 }
 
 + (_Bool);
-+ (id)tadataDefaultValue;
++ (id)INIntentParameterMetadataDefaultValue;
+- (id);
+- (id)"<GCGameIntentServiceServerInterface>",R,N,V_gameIntentServiceServer;
+- (_Bool)__supportedChannelsWithCountryCode:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)43CD-B7AC-F1E9BFC58D55;
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)efaultCarNameForGetCarPowerLevelStatus: /* Error: Ran out of types for this method. */;
+- (void)defaultCarNameForGetCarPowerLevelStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) INRestaurant *restaurant; // @synthesize restaurant=_restaurant;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSSessionInviterDeviceVerifier
 {
     NSUUID *_sessionUUID;
-    HMDDevice *_expectedInviter;
 }
 
 + (id)wD;
@@ -24,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDevice *expectedInviter; // @synthesize expectedInviter=_expectedInviter;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) Class superclass;
 
 @end
 

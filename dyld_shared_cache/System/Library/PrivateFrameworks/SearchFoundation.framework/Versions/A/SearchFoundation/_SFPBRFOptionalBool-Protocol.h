@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBRFOptionalBool
+- (NSData *)_originalHeight;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool value;
 @end
 

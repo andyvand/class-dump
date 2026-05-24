@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ASAuthorizationController;
+
 @protocol ASAuthorizationControllerDelegate
+
+@optional
+- (void)ller activated;
+- (void)error:(ASAuthorizationController *)arg1 %s;
+- (void)oice:(ASAuthorizationController *)arg1 %@;
 @end
 

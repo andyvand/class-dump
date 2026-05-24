@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     id <UIKBFocusGuideDelegate> _keyboardDelegate;
 }
 
-- (void);
+- (void)es/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/d1_both.c;
 - (unsigned long long);
-- (id);
+- (id)A;
 - (id);
 - (void);
-- (id)wantsReapplicationOfAutoLayoutWithLayoutDirtyOnEntry:(id)arg1;
+- (id)_wantsReapplicationOfAutoLayoutWithLayoutDirtyOnEntry:(id)arg1;
 - (void)B,N,V_fadesOut;
 - (id)»33Ñþ;
 - (void)À7g;

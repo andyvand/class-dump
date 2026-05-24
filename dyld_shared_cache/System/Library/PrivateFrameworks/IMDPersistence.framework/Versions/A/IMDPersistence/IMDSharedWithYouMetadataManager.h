@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (Class);
 + (Class);
 + (id);

@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface ASRSchemaASRDictationVoiceCommandInfoTier1 : SISchemaInstrumentationMessage
 {
     NSString *_previousUtterance;
-    NSString *_commandUtterance;
-    NSString *_target;
-    NSString *_payload;
-    SISchemaUUID *_dictationVoiceCommandLinkId;
-    _Bool _hasPreviousUtterance;
-    _Bool _hasCommandUtterance;
-    _Bool _hasTarget;
-    _Bool _hasPayload;
-    _Bool _hasDictationVoiceCommandLinkId;
 }
 
 - (void);
@@ -31,7 +22,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,36 +32,26 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)pathWithComponents:(id)arg1;
+- (id)-R;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ctionClient:(id)arg1 Unable to establish XPC connection to DiagnosticExtension collection service;
 - (id);
-- (_Bool);
+- (_Bool)	?׸;
 - (void);
-- (void);
+- (void)set_prettyNameInternal:(_Bool)arg1;
 - (id);
-- (id)al: /* Error: Ran out of types for this method. */;
+- (id)setWasLocal: /* Error: Ran out of types for this method. */;
 - (id)x¶;
 - (id)ë2ÿ;
 - (void)@³;
 - (void)blÿ7J²k,;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commandUtterance; // @synthesize commandUtterance=_commandUtterance;
-@property(retain, nonatomic) SISchemaUUID *dictationVoiceCommandLinkId; // @synthesize dictationVoiceCommandLinkId=_dictationVoiceCommandLinkId;
-@property(nonatomic) _Bool hasCommandUtterance; // @synthesize hasCommandUtterance=_hasCommandUtterance;
-@property(nonatomic) _Bool hasDictationVoiceCommandLinkId; // @synthesize hasDictationVoiceCommandLinkId=_hasDictationVoiceCommandLinkId;
-@property(nonatomic) _Bool hasPayload; // @synthesize hasPayload=_hasPayload;
-@property(nonatomic) _Bool hasPreviousUtterance; // @synthesize hasPreviousUtterance=_hasPreviousUtterance;
-@property(nonatomic) _Bool hasTarget; // @synthesize hasTarget=_hasTarget;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *payload; // @synthesize payload=_payload;
 @property(copy, nonatomic) NSString *previousUtterance; // @synthesize previousUtterance=_previousUtterance;
-@property(copy, nonatomic) NSString *target; // @synthesize target=_target;
 
 @end
 

@@ -4,38 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioPayloadConfig
 {
     int _payload;
-    long long _codecType;
-    int _format;
-    unsigned int _blockSize;
-    unsigned int _codecSampleRate;
-    unsigned int _inputSampleRate;
-    unsigned int _codecSamplesPerFrame;
-    unsigned int _inputSamplesPerFrame;
-    unsigned int _internalBundleFactor;
-    unsigned int _bundleHeaderBytes;
-    NSArray *_supportedBitrates;
-    NSArray *_supportedBandwidths;
-    unsigned int _bitrate;
-    _Bool _forcingBitrate;
-    _Bool _useSBR;
-    _Bool _isDTXEnabled;
-    unsigned int _evsSIDPeriod;
-    unsigned short _evsChannelAwareOffset;
-    unsigned short _evsChannelAwareIndicator;
-    _Bool _evsHeaderFullOnly;
-    _Bool _payloadOctetAligned;
-    _Bool _isOpusInBandFecEnabled;
-    _Bool _opusRestrictedLowDelayEnabled;
-    int _evsCMRMode;
-    _Bool _isACC24FixedBitrateModeEnabled;
-    unsigned int _maxBundleFactor;
-    NSString *_description;
 }
 
 - (void);
@@ -57,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short);
 - (int);
 - (void);
 - (void);
@@ -66,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -75,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (long long);
+- (long long)!;
 - (void);
 - (id);
 - (unsigned int);
@@ -88,31 +60,7 @@ __attribute__((visibility("hidden")))
 - (id)çI';
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bitrate; // @synthesize bitrate=_bitrate;
-@property(readonly, nonatomic) unsigned int blockSize; // @synthesize blockSize=_blockSize;
-@property(readonly, nonatomic) unsigned int bundleHeaderBytes; // @synthesize bundleHeaderBytes=_bundleHeaderBytes;
-@property(readonly, nonatomic) unsigned int codecSampleRate; // @synthesize codecSampleRate=_codecSampleRate;
-@property(readonly, nonatomic) long long codecType; // @synthesize codecType=_codecType;
-@property(nonatomic) int evsCMRMode; // @synthesize evsCMRMode=_evsCMRMode;
-@property(readonly, nonatomic) unsigned short evsChannelAwareIndicator; // @synthesize evsChannelAwareIndicator=_evsChannelAwareIndicator;
-@property(readonly, nonatomic) unsigned short evsChannelAwareOffset; // @synthesize evsChannelAwareOffset=_evsChannelAwareOffset;
-@property(readonly, nonatomic) _Bool evsHeaderFullOnly; // @synthesize evsHeaderFullOnly=_evsHeaderFullOnly;
-@property(readonly, nonatomic) unsigned int evsSIDPeriod; // @synthesize evsSIDPeriod=_evsSIDPeriod;
-@property(readonly, nonatomic) unsigned int flags;
-@property(readonly, nonatomic) _Bool forcingBitrate; // @synthesize forcingBitrate=_forcingBitrate;
-@property(readonly, nonatomic) int format; // @synthesize format=_format;
-@property(readonly, nonatomic) unsigned int inputSampleRate; // @synthesize inputSampleRate=_inputSampleRate;
-@property(readonly, nonatomic) unsigned int internalBundleFactor; // @synthesize internalBundleFactor=_internalBundleFactor;
-@property(nonatomic) _Bool isACC24FixedBitrateModeEnabled; // @synthesize isACC24FixedBitrateModeEnabled=_isACC24FixedBitrateModeEnabled;
-@property(readonly, nonatomic) _Bool isDTXEnabled; // @synthesize isDTXEnabled=_isDTXEnabled;
-@property(readonly, nonatomic) _Bool isOpusInBandFecEnabled; // @synthesize isOpusInBandFecEnabled=_isOpusInBandFecEnabled;
-@property(readonly, nonatomic) unsigned int maxBundleFactor; // @synthesize maxBundleFactor=_maxBundleFactor;
-@property(readonly, nonatomic) _Bool opusRestrictedLowDelayEnabled; // @synthesize opusRestrictedLowDelayEnabled=_opusRestrictedLowDelayEnabled;
 @property(readonly, nonatomic) int payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) _Bool payloadOctetAligned; // @synthesize payloadOctetAligned=_payloadOctetAligned;
-@property(readonly, nonatomic) unsigned int samplesPerFrame; // @synthesize samplesPerFrame=_inputSamplesPerFrame;
-@property(readonly, nonatomic) NSArray *supportedBandwidths; // @synthesize supportedBandwidths=_supportedBandwidths;
-@property(readonly, nonatomic) NSArray *supportedBitrates; // @synthesize supportedBitrates=_supportedBitrates;
 
 @end
 

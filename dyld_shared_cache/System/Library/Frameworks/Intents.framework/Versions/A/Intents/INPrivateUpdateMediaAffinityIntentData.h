@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPrivateMediaIntentData, NSArray, NSData, NSString;
+@class INPrivateMediaIntentData;
 
 @interface INPrivateUpdateMediaAffinityIntentData
 {
     INPrivateMediaIntentData *_privateMediaIntentData;
-    NSArray *_internalSignals;
-    NSData *_pegasusMetaData;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)didChangeValueForKey:(id)arg1 withSetMutation:usingObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)includeAdjacent5GHzChannel;
+- (void)retry;
 - (id);
 - (id);
-- (id)ring:(unsigned long long)arg1;
-- (void)thCompletion: /* Error: Ran out of types for this method. */;
+- (id)confirmationValueAsString:(unsigned long long)arg1;
+- (void)provideTitleOptionsCollectionForCreateTaskList:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ØSÃÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, copy) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
 @property(copy) INPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

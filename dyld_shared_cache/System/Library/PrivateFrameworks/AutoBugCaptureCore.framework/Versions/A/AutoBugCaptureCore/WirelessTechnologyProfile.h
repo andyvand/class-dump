@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface WirelessTechnologyProfile
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _regulatoryDomainUpdateNotificationToken;
-    NSString *_regulatoryDomainCountry;
-    NSString *_homeCarrier;
-    CTXPCServiceSubscriptionContext *_dataContext;
 }
 
-+ (id);
++ (id)O(;
 + (id);
 + (id);
 + (id);
@@ -37,16 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) CTXPCServiceSubscriptionContext *dataContext; // @synthesize dataContext=_dataContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *homeCarrier; // @synthesize homeCarrier=_homeCarrier;
 @property(retain) NSString *regulatoryDomainCountry; // @synthesize regulatoryDomainCountry=_regulatoryDomainCountry;
-@property(readonly) Class superclass;
 
 @end
 

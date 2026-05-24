@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IMCoreSetupTimingAdditions)
-+ (id);
-+ (void);
++ (id)%d /AppleInternal/Library/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AUIO/AUIO.mm:%d:CFStringGetCString() failed! /* Error: Ran out of types for this method. */;
++ (void)%s] %s:%d %@(%p) Notify client with new caps %d, currentActiveRequestsCount %d /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingPolicyInstrumentation
 {
     id tracedInstrumentation;
-    id log;
 }
 
 - (_Bool);

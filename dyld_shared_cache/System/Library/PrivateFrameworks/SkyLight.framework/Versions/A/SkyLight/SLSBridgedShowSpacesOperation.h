@@ -14,10 +14,10 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)@) AND (%@) AND (NEW.%@ == OLD.%@);
+- (void)hile configuring migration functions in the SQLite database.;
+- (id)h:(id)arg1 %@;
+- (id);
 - (void);
 - (void);
 

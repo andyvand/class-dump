@@ -13,7 +13,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)managers;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *type;

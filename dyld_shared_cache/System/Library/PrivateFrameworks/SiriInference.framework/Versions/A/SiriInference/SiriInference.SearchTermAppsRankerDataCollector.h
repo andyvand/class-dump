@@ -7,8 +7,6 @@
 @interface SiriInference.SearchTermAppsRankerDataCollector
 {
     id pastResults;
-    id nowProvider;
-    id eventSelectionRecorders;
 }
 
 @end

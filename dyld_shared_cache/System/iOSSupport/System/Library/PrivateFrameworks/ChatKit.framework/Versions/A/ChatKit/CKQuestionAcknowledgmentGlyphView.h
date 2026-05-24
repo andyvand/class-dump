@@ -12,24 +12,22 @@ __attribute__((visibility("hidden")))
 @interface CKQuestionAcknowledgmentGlyphView : CKAcknowledgmentGlyphView
 {
     CKAcknowledgmentGlyphImageView *_glyph;
-    CKAcknowledgmentGlyphImageView *_dot;
 }
 
-- (struct CGPoint);
-- (void);
-- (long long);
+- (struct CGPoint)EyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGGGGAGG;
+- (void)attachment:(double)arg1 %@};
+- (long long)with Your Login Password;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (double)enerationCompleted;
+- (id)contentInset;
+- (double)promptGenerationCompleted;
 - (void);
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CKAcknowledgmentGlyphImageView *dot; // @synthesize dot=_dot;
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *glyph; // @synthesize glyph=_glyph;
 
 @end

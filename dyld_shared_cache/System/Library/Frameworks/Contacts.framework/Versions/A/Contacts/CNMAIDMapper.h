@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSDataStore, NSString;
+@class CLSDataStore;
 
 __attribute__((visibility("hidden")))
 @interface CNMAIDMapper
@@ -12,58 +12,34 @@ __attribute__((visibility("hidden")))
     CLSDataStore *_dataStore;
 }
 
-+ (id);
++ (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ml version="1.0" encoding="UTF-8"?>;
+- (id)y) No:Roaming /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id)ntact:subsetOfContact:forSingleValueProperty: /* Error: Ran out of types for this method. */;
-- (_Bool)ctIdentifiersForBundle:(id)arg1 withReply:(id *)arg2;
-- (id)ContactsFromMainStore:(id)arg1;
-- (id)StoresConcurrentlyWithError:(id)arg1 block:(id *)arg2;
+- (id)isContact:subsetOfContact:forSingleValueProperty: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchLimitedAccessContactIdentifiersForBundle:(id)arg1 withReply:(id *)arg2;
+- (id)applyPostFetchDecoratorsToContacts:(id)arg1 keysToFetch:(id *)arg2 unifyContactsFromMainStore: /* Error: Ran out of types for this method. */;
+- (id)_flatmapStoresConcurrentlyWithError:(id)arg1 block:(id *)arg2;
 - (id)equest",R,C,N,V_request;
 - (_Bool);
 - (id)ged duplicates;
-- (id)fier;
-- (id)iniFakeSubscription1Label;
+- (id)accountIdentifier;
+- (id)CNGeminiFakeSubscription1Label;
 - (id)Oõÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CLSDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *legacyTetheredSyncComputerAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *legacyTetheredSyncDeviceAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(readonly) _Bool shouldLogContactsAccess;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly) _Bool userMightHaveUnconfiguredPersistenceStack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

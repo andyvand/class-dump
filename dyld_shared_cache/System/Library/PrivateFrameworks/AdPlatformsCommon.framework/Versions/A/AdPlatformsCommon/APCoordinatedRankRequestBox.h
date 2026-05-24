@@ -6,14 +6,11 @@
 
 #import <AdPlatformsCommon/APCoordinatedRetryBox.h>
 
-@class APContext, NSArray;
+@class NSArray;
 
 @interface APCoordinatedRankRequestBox : APCoordinatedRetryBox
 {
     NSArray *_contentDatas;
-    APContext *_context;
-    unsigned long long _placement;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -24,10 +21,7 @@
 - (unsigned long long)TÉEÍFÈÐG|ÔHØlØ,ÙLÙÚ ÚÛLÛÜÀÝÞ´ÞüÞ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) NSArray *contentDatas; // @synthesize contentDatas=_contentDatas;
-@property(readonly, nonatomic) APContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) unsigned long long placement; // @synthesize placement=_placement;
 
 @end
 

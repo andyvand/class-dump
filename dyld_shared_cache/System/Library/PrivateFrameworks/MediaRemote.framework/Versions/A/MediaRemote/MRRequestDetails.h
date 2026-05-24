@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, _MRRequestDetailsProtobuf;
+@class NSData;
 
 @interface MRRequestDetails
 {
     _Bool _userInitiated;
-    _Bool _initiatorWasInferred;
-    unsigned int _qos;
-    NSString *_initiator;
-    NSString *_reason;
-    NSString *_requestID;
-    NSDate *_startDate;
-    NSString *_originatingBundleID;
-    NSString *_operationID;
-    NSString *_surface;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool)hhx�H7�X7�P7�07�87�@7� 7�(7�	7�
+7�7�;
 - (id);
 - (id);
 - (id);
@@ -34,15 +26,15 @@
 - (id);
 - (id);
 - (id);
+- (id)r:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)8;
+- (void)i;
 - (id);
 - (id);
 - (id);
@@ -58,19 +50,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *initiator; // @synthesize initiator=_initiator;
-@property(readonly, nonatomic) _Bool initiatorWasInferred; // @synthesize initiatorWasInferred=_initiatorWasInferred;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(readonly, nonatomic) NSString *originatingBundleID; // @synthesize originatingBundleID=_originatingBundleID;
-@property(readonly, nonatomic) _MRRequestDetailsProtobuf *protobuf;
-@property(readonly, nonatomic) unsigned int qos; // @synthesize qos=_qos;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) NSString *requestReasonID;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSString *surface; // @synthesize surface=_surface;
-@property(readonly, nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

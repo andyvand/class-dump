@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WBSRecentlyUsedAutoFillSet
 {
     NSArray *_fillMatches;
-    NSArray *_skipMatches;
-    NSString *_label;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)adataElement.getElementsByTagName('*');var numberOfMetadataElements = allMetadataElements.length;for (var i = 0; i < numberOfMetadataElements; ++i) {var element = allMetadataElements[i];element.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);}}var metadataHTML = '';if (metadataElement && metadataElement.innerText) {metadataElement.className = 'metadata';metadataHTML = metadataElement.outerHTML;}articleHTML = subheadHTML + metadataHTML + articleHTML;articleHTML;;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fillMatches; // @synthesize fillMatches=_fillMatches;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSArray *skipMatches; // @synthesize skipMatches=_skipMatches;
 
 @end
 

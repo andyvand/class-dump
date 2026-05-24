@@ -5,20 +5,20 @@
 //
 
 @interface UnknownClass (IconServicesAdditions)
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (unsigned long long);
++ (id)le.datadetectors.ddmlscanner.model;
++ (id)Number;
++ (id)eSpan.YearNumber;
++ (id)TimeSpan;
+- (unsigned long long)meBase=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16;
+- (id)processTokens:(unsigned long long)arg1 withEmbeddingData: /* Error: Ran out of types for this method. */;
+- (_Bool)$y;
+- (_Bool)j;
+- (_Bool)H;
+- (id)0/;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (id);
+- (id)Range=QQ}16^B32;
+- (long long)i;
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.DefaultTTLRecorder
 {
     id storage;
-    id memoryPressureSource;
 }
 
 @end

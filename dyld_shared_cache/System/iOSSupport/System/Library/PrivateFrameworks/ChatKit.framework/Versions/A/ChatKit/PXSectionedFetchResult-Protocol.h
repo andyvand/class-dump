@@ -8,14 +8,15 @@
 @protocol NSObject><NSCopying;
 
 @protocol PXSectionedFetchResult
-- (id <NSObject><NSCopying>)nfoDictionaryWithLayoutIntent:parentPreviewWidth:xScalar:yScalar:scale:rotation:initialFrameIndex:externalURI: /* Error: Ran out of types for this method. */;
+- (id <NSObject><NSCopying>)userInfoDictionaryWithLayoutIntent:parentPreviewWidth:xScalar:yScalar:scale:rotation:initialFrameIndex:externalURI: /* Error: Ran out of types for this method. */;
 - (id <NSObject><NSCopying>)ller>",&,N,V_pluginBubbleViewController;
-- (long long)tBackgroundActive;
+- (long long)_isTranscriptBackgroundActive;
 - (NSArray *);
+
+@optional
+- (_Bool)_defaultTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) id <NSObject><NSCopying> firstObject;
-@property(readonly, nonatomic) id <NSObject><NSCopying> lastObject;
 @end
 

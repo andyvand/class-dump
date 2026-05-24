@@ -11,10 +11,6 @@
 @interface MPSMatrixSolveLU : MPSMatrixBinaryKernel
 {
     _Bool _transpose;
-    unsigned long long _order;
-    unsigned long long _numberOfRightHandSides;
-    MPSMatrixSolveTriangular *_trsmL;
-    MPSMatrixSolveTriangular *_trsmU;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -27,16 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T0;
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfRightHandSides; // @synthesize numberOfRightHandSides=_numberOfRightHandSides;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
-@property(readonly, nonatomic) _Bool transpose; // @synthesize transpose=_transpose;
-@property(nonatomic) MPSMatrixSolveTriangular *trsmL; // @synthesize trsmL=_trsmL;
 @property(nonatomic) MPSMatrixSolveTriangular *trsmU; // @synthesize trsmU=_trsmU;
 
 @end

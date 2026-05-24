@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCListener;
+
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)er_create:(NSXPCListener *)arg1 the level index %lu is out of bounds. [0, %lu];
 @end
 

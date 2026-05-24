@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexPath, UITableView;
+@protocol UIDragSession;
+
 @protocol UITableViewDragSourceDelegate
+
+@optional
+- (NSArray *)ge:(UITableView *)arg1 didReplaceBlock:(id <UIDragSession>)arg2;
+- (NSArray *)ache:(UITableView *)arg1 calculateUnreadCount:(id <UIDragSession>)arg2 reindexMessage:(NSIndexPath *)arg3 isCloudImport:(struct CGPoint)arg4 isIncomingMessage:didReplaceBlock: /* Error: Ran out of types for this method. */;
+- (void)storeMessage:(UITableView *)arg1 forceReplace:(id <UIDragSession>)arg2 modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage:isCloudImport: /* Error: Ran out of types for this method. */;
+- (void)storeMessage:(UITableView *)arg1 forceReplace:(id <UIDragSession>)arg2 modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage: /* Error: Ran out of types for this method. */;
+- (long long);
 @end
 

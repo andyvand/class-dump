@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, UIImage;
+@class EKStructuredLocation;
 
 @interface EKStructuredLocationWithImage
 {
     EKStructuredLocation *_location;
-    UIImage *_image;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)tions: /* Error: Ran out of types for this method. */;
+- (void)shouldShowDetachAlertForEvent:options: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) EKStructuredLocation *location; // @synthesize location=_location;
 
 @end

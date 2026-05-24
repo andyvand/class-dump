@@ -4,53 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSHTTPURLResponse, NSNumber, NSString;
+@class NSDictionary, NSHTTPURLResponse;
 
 @interface AAResponse
 {
     NSDictionary *_responseDictionary;
-    NSHTTPURLResponse *_httpResponse;
-    NSError *_error;
-    long long _statusCode;
-    NSData *_data;
-    NSNumber *_maxAge;
-    NSString *_mediaType;
 }
 
+- (id)urned %d;
+- (void)returned %d;
+- (id)removeMemberRecord unable to remove user from _mcxlpadmin group (%ld:(id)arg1 %s);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)PTokenInKeychain;
+- (void);
+- (id);
+- (id)/;
+- (id);
+- (id);
+- (void)saveFMIPTokenInKeychain;
 - (id)FÑQ>g¶ Rç$µ;¬¹d3Ôuúg¨LC³±;àð*âFã~ÿ7ÌIÐä§¼4Wß
 ÓõTNéC³fH¶WÕ0;
 - (long long)/Ý¥g&í ª£Q"$K©(ÅG®M¿Ã1Ê|«IÄ|Ó½ÏJÚÀ=ÌEµ¬ïBä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(readonly, nonatomic) NSNumber *maxAge; // @synthesize maxAge=_maxAge;
-@property(readonly, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSString *protocolVersion;
-@property(readonly, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

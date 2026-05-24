@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSRegularExpression, _PASLazyPurgeableResult;
+@class NSDictionary, _PASLazyPurgeableResult;
 
 @interface SGMIConfig
 {
     _PASLazyPurgeableResult *_lazyDetectors;
-    float _bodyAnalysisSamplingFactor;
-    NSRegularExpression *_attachmentLinkDetectionRegex;
-    NSDictionary *_followUpWarningsParameters;
-    double _defaultTimeIntervalToStartWarningExposition;
-    double _defaultTimeIntervalForAWarning;
-    double _defaultTimeIntervalToEndWarningExposition;
 }
 
-+ (id);
++ (id)saveAccountWithoutVerification: /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
 - (id);
@@ -29,18 +23,12 @@
 - (float);
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (void)W;
 
 // Remaining properties
-@property(readonly, nonatomic) NSRegularExpression *attachmentLinkDetectionRegex; // @synthesize attachmentLinkDetectionRegex=_attachmentLinkDetectionRegex;
-@property(readonly, nonatomic) float bodyAnalysisSamplingFactor; // @synthesize bodyAnalysisSamplingFactor=_bodyAnalysisSamplingFactor;
-@property(readonly, nonatomic) double defaultTimeIntervalForAWarning; // @synthesize defaultTimeIntervalForAWarning=_defaultTimeIntervalForAWarning;
-@property(readonly, nonatomic) double defaultTimeIntervalToEndWarningExposition; // @synthesize defaultTimeIntervalToEndWarningExposition=_defaultTimeIntervalToEndWarningExposition;
-@property(readonly, nonatomic) double defaultTimeIntervalToStartWarningExposition; // @synthesize defaultTimeIntervalToStartWarningExposition=_defaultTimeIntervalToStartWarningExposition;
 @property(readonly, nonatomic) NSDictionary *detectors;
-@property(readonly, nonatomic) NSDictionary *followUpWarningsParameters; // @synthesize followUpWarningsParameters=_followUpWarningsParameters;
 
 @end
 

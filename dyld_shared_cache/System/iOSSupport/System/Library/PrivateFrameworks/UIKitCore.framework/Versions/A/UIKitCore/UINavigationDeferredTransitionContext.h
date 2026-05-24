@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)n:(id)arg1;
-- (id)onstraint;
+- (void)finishSplitTransition:(id)arg1;
+- (id)_inputViewBottomConstraint;
 - (void)dFixedOffsetObj;
 - (void)ÐöÿaPÑøe;
 

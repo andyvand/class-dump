@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSString, PXStoryChromeButton, PXStoryChromeButtonConfiguration, PXStoryPlayButtonConfiguration, PXStoryViewModel, PXUpdater;
+@class PXStoryPlayButtonConfiguration;
 
 @interface PXStoryPlayButton
 {
     PXStoryPlayButtonConfiguration *_userData;
-    PXUpdater *_updater;
-    PXStoryChromeButtonConfiguration *_buttonConfiguration;
-    PXStoryChromeButton *_button;
-    PXStoryPlayButtonConfiguration *_configuration;
-    PXStoryViewModel *_viewModel;
-    CAShapeLayer *_progressIndicator;
-    NSString *_axPlayLabel;
-    NSString *_axPauseLabel;
-    NSString *_axReplayLabel;
-    struct CGRect _clippingRect;
-    struct NSEdgeInsets _hitTestEdgeOutsets;
 }
 
 - (struct NSEdgeInsets);
 - (id);
 - (id);
-- (id);
+- (id)9);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)fullScreenCanvasController:numberOfViewsForShowable: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -53,37 +42,7 @@
 - (id){Oä¡: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *axPauseLabel; // @synthesize axPauseLabel=_axPauseLabel;
-@property(readonly, nonatomic) NSString *axPlayLabel; // @synthesize axPlayLabel=_axPlayLabel;
-@property(readonly, nonatomic) NSString *axReplayLabel; // @synthesize axReplayLabel=_axReplayLabel;
-@property(readonly, nonatomic) PXStoryChromeButton *button; // @synthesize button=_button;
-@property(readonly, nonatomic) PXStoryChromeButtonConfiguration *buttonConfiguration; // @synthesize buttonConfiguration=_buttonConfiguration;
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(retain, nonatomic) PXStoryPlayButtonConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct NSEdgeInsets hitTestEdgeOutsets; // @synthesize hitTestEdgeOutsets=_hitTestEdgeOutsets;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) CAShapeLayer *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(copy, nonatomic) PXStoryPlayButtonConfiguration *userData; // @synthesize userData=_userData;
-@property(retain, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

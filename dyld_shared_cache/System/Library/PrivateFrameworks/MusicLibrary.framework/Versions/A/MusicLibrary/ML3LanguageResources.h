@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ML3LanguageResources
 {
     NSDictionary *_sectionsInfo;
-    NSDictionary *_sortingDetails;
-    NSString *_canonicalLanguageIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id)InstallerClient finalizeStagedInstallForIdentifier:(id)arg1 returningResultInfo:completion:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)initWithConnection: /* Error: Ran out of types for this method. */;
 - (void)your media library database.
 
 This WILL erase your media library on this device.
@@ -27,9 +25,7 @@ This WILL erase your media library on this device.
 [This dialog is shown for internal users only, and will be dismissed in 30s with no selection.];
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *canonicalLanguageIdentifier; // @synthesize canonicalLanguageIdentifier=_canonicalLanguageIdentifier;
 @property(readonly, nonatomic) NSDictionary *sectionsInfo; // @synthesize sectionsInfo=_sectionsInfo;
-@property(readonly, nonatomic) NSDictionary *sortingDetails; // @synthesize sortingDetails=_sortingDetails;
 
 @end
 

@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserBookmarkImporter, BrowserCredentialImporter, BrowserHistoryImporter, NSArray, NSBundle, NSCountedSet, NSMutableSet, NSObject, NSString, NSURL, NSXPCConnection;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataImporterController
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    unsigned long long _dataTypesBeingImported;
-    unsigned long long _dataTypesThatSucceeded;
-    unsigned long long _dataTypesThatFailed;
-    _Bool _importHasBeenCanceled;
-    unsigned long long _numberOfResumptionAttempts;
-    NSBundle *_sourceBrowserBundle;
-    unsigned long long _numberOfBookmarksImported;
-    unsigned long long _numberOfCredentialsImported;
-    unsigned long long _extensionsFilesBeingImported;
-    NSMutableSet *_enabledExtensionsComposedIdentifiers;
-    NSCountedSet *_availableAppsWithExtensions;
-    NSMutableSet *_composedIdentifiersForLockupViewExtensions;
-    NSXPCConnection *_browserDataImporterServiceConnection;
-    BrowserBookmarkImporter *_bookmarkImporter;
-    BrowserHistoryImporter *_historyImporter;
-    BrowserCredentialImporter *_credentialImporter;
 }
 
-+ (id);
++ (id)fileURLWithPath: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -43,19 +27,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)7;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -77,11 +61,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
+- (id)G;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,25 +78,7 @@ __attribute__((visibility("hidden")))
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) BrowserBookmarkImporter *bookmarkImporter; // @synthesize bookmarkImporter=_bookmarkImporter;
-@property(readonly, nonatomic) NSArray *browserBundleURLs;
 @property(retain, nonatomic) NSXPCConnection *browserDataImporterServiceConnection; // @synthesize browserDataImporterServiceConnection=_browserDataImporterServiceConnection;
-@property(readonly, nonatomic) _Bool canImportFromChrome;
-@property(readonly, nonatomic) _Bool canImportFromFirefox;
-@property(readonly, nonatomic) _Bool canResumeInterruptedImport;
-@property(readonly, nonatomic) NSURL *chromeBundleURL;
-@property(retain, nonatomic) NSMutableSet *composedIdentifiersForLockupViewExtensions; // @synthesize composedIdentifiersForLockupViewExtensions=_composedIdentifiersForLockupViewExtensions;
-@property(retain, nonatomic) BrowserCredentialImporter *credentialImporter; // @synthesize credentialImporter=_credentialImporter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *firefoxBundleURLs;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) BrowserHistoryImporter *historyImporter; // @synthesize historyImporter=_historyImporter;
-@property(readonly, nonatomic) _Bool isImporting;
-@property(readonly) Class superclass;
 
 @end
 

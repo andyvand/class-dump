@@ -10,8 +10,8 @@
 }
 
 + (id);
-- (void);
-- (id);
+- (void)WDCharacterProperties",&,VmProperties;
+- (id)eturned nil;
 - (id);
 - (id);
 

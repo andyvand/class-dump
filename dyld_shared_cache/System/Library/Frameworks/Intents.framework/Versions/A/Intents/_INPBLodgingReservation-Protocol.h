@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDateTimeRange, _INPBInteger, _INPBLocation, _INPBReservation;
+@class _INPBLocation, _INPBReservation;
 
 @protocol _INPBLodgingReservation
+- (_INPBReservation *);
+- (_Bool)/;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLodgingBusinessLocation;
-@property(readonly, nonatomic) _Bool hasNumberOfAdults;
-@property(readonly, nonatomic) _Bool hasNumberOfChildren;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservationDuration;
 @property(retain, nonatomic) _INPBLocation *lodgingBusinessLocation;
-@property(retain, nonatomic) _INPBInteger *numberOfAdults;
-@property(retain, nonatomic) _INPBInteger *numberOfChildren;
-@property(retain, nonatomic) _INPBReservation *reservation;
-@property(retain, nonatomic) _INPBDateTimeRange *reservationDuration;
 @end
 

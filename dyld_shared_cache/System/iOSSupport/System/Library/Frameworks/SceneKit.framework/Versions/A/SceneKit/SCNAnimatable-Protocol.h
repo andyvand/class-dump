@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class CAAnimation, NSArray;
 
 @protocol SCNAnimatable
+- (void);
+- (void);
+- (NSArray *)textLayoutFragmentForLocation: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)textInputViewHitTestSlackHorizontal;
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

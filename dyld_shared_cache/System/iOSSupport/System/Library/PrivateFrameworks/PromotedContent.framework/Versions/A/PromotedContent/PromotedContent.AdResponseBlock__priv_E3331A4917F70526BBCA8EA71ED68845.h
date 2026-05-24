@@ -7,17 +7,14 @@
 @interface PromotedContent.AdResponseBlock__priv_E3331A4917F70526BBCA8EA71ED68845
 {
     id completion;
-    id requestIdentifier;
-    id context;
-    id completedResponses;
-    id responseLock;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)f
+;
+- (id)toolbarButtonWithTitle:target:action:isModal: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

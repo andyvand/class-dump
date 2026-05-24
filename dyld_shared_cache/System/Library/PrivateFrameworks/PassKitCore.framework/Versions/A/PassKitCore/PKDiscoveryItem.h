@@ -6,17 +6,9 @@
 
 #import <PassKitCore/PKDiscoveryObject.h>
 
-@class NSArray, NSData, NSURL;
-
 @interface PKDiscoveryItem : PKDiscoveryObject
 {
     _Bool _shouldBadge;
-    _Bool _entitledToForceLargeCard;
-    long long _type;
-    NSURL *_layoutBundleURL;
-    NSArray *_supportedLocalizations;
-    long long _priority;
-    NSData *_clientData;
 }
 
 + (id);
@@ -28,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,28 +29,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?	;
 - (id);
 - (id);
 - (void);
 - (long long);
+- (void)u;
+- (id)a;
 - (void);
-- (id);
-- (void);
-- (id)e;
+- (id)_requirementsResponse;
 - (void)its:'%@';  /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long)Ð3²ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *clientData; // @synthesize clientData=_clientData;
-@property(nonatomic) _Bool entitledToForceLargeCard; // @synthesize entitledToForceLargeCard=_entitledToForceLargeCard;
-@property(readonly, nonatomic) _Bool hasHitMaxLargeViewCount;
-@property(readonly, nonatomic) _Bool hasHitMaxViewCount;
-@property(copy, nonatomic) NSURL *layoutBundleURL; // @synthesize layoutBundleURL=_layoutBundleURL;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool shouldBadge; // @synthesize shouldBadge=_shouldBadge;
-@property(retain, nonatomic) NSArray *supportedLocalizations; // @synthesize supportedLocalizations=_supportedLocalizations;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

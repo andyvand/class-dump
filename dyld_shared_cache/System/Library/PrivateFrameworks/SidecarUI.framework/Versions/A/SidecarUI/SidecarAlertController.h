@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSWindow, SidecarRequest, SidecarRunLoopCondition, SidecarRunLoopSource;
+@class NSAlert;
 
 @interface SidecarAlertController
 {
     NSAlert *_alert;
-    SidecarRunLoopCondition *_condition;
-    SidecarRunLoopSource *_observer;
-    NSWindow *_parentWindow;
-    SidecarRequest *_request;
-    _Atomic _Bool _modal;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)akColorWithCIColor: /* Error: Ran out of types for this method. */;
+- (id)akBundle;
+- (_Bool)akAdaptToCurrentHeadroom: /* Error: Ran out of types for this method. */;
+- (void)affineTransformForExifOrientation:aboutCenter: /* Error: Ran out of types for this method. */;
+- (void)affineTransformFlatteningOriginalModelExif:withOriginalModelSize: /* Error: Ran out of types for this method. */;
+- (void)adornmentLayerForAnnotation: /* Error: Ran out of types for this method. */;
+- (void)addSubview:(long long)arg1 positioned:relativeTo: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)sult in a no-op media request;
 - (void);
 - (id);
 - (void);
@@ -37,7 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSAlert *alert;
-@property(readonly, nonatomic) SidecarRequest *request; // @synthesize request=_request;
 
 @end
 

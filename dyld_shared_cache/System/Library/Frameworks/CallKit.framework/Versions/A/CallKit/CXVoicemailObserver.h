@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol CXVoicemailObserverDataSource, CXVoicemailObserverDelegate, OS_dispatch_queue;
+@protocol CXVoicemailObserverDelegate;
 
 @interface CXVoicemailObserver
 {
     id <CXVoicemailObserverDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CXVoicemailObserverDataSource> _dataSource;
 }
 
 - (id);
@@ -25,24 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)keychainError;
 - (id);
-- (void);
+- (void)ception fetchOrCreateWithDictionaryRepresentation:(CDUnknownBlockType)arg1 inContext:error:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CXVoicemailObserverDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CXVoicemailObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *voicemails;
 
 @end
 

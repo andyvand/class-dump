@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_accessibilityLabelAttributionButton;
 
 @end
 

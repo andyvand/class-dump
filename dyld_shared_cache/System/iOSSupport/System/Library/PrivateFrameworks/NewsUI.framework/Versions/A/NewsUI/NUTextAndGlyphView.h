@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUTextAndGlyph, UIImageView, UILabel;
+@class NUTextAndGlyph;
 
 @interface NUTextAndGlyphView
 {
     NUTextAndGlyph *_textAndGlyph;
-    UILabel *_label;
-    UIImageView *_imageView;
-    unsigned long long _alignment;
 }
 
 - (void);
@@ -20,24 +17,14 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id)Ό;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)a;
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NUTextAndGlyph *textAndGlyph; // @synthesize textAndGlyph=_textAndGlyph;
 
 @end
 

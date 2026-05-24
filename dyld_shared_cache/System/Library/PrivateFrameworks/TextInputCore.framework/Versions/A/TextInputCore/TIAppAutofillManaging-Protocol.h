@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIKeyboardSecureCandidateRenderer;
+@class TIKeyboardSecureCandidateRenderTraits, TIKeyboardSecureCandidateRenderer;
 
 @protocol TIAppAutofillManaging
+- (void)contactIsTTYContact:(TIKeyboardSecureCandidateRenderTraits *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardSecureCandidateRenderer *secureCandidateRenderer;

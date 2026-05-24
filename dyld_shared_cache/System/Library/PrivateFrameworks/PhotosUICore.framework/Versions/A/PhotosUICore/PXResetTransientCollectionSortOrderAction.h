@@ -11,8 +11,6 @@
 @interface PXResetTransientCollectionSortOrderAction : PXPhotosAction
 {
     PHCollection *collection;
-    id undoOrderedMediaTypes;
-    id undoOrderedUtilityTypes;
 }
 
 + (_Bool);

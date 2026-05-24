@@ -7,8 +7,6 @@
 @interface TeaUI.PageSheetPresentationObserver
 {
     id viewController;
-    id isObserving;
-    id onChange;
 }
 
 - (void);

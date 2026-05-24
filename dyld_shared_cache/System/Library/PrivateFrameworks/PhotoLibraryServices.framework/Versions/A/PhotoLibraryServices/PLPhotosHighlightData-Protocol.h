@@ -6,25 +6,41 @@
 
 @protocol PLPhotosHighlightData
 + (id)ent detection types:%@ (%hd) - %@ (%hd) /* Error: Ran out of types for this method. */;
+- (byref);
+- (id);
+- (id);
+- (id)?;
+- (BOOL);
+- (id)=;
+- (id);
+- (id);
+- (id)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (id):2'DJ
+ /* Error: Ran out of types for this method. */;
+- (id)'9(J
+;
+- (id)s;
+- (BOOL),;
+- (id)PCPUDTL32;
+- (id)selectRowIndexes:byExtendingSelection: /* Error: Ran out of types for this method. */;
 - (id)BùqÈ1Â0@ù
 × ;
 - (id)¡V°!à@ùñÉ1Â0@ù
 × ;
-- (id)
+- (unsigned int :(null))
 × ;
 - (id)ÑÊÐ1Â0@ù
 × ;
 - (id)rategy"b8"version"b2"relation"b3};
 - (id)senderNames:forMultipleAsset:allMultipleAssetIsMine:isMixedType: /* Error: Ran out of types for this method. */;
-- (id)e:forRangeOfContiguousCommentsEntriesAroundDate: /* Error: Ran out of types for this method. */;
+- (id)_getEarliestDate:latestDate:forRangeOfContiguousCommentsEntriesAroundDate: /* Error: Ran out of types for this method. */;
 - (id)",C,N,V_sex;
-- (id)odelMigrationAction_DeleteAmbientSuggestions;
-- (id)n_DeleteAllSharedLibraryPLSuggestions;
+- (id)PLModelMigrationAction_DeleteAmbientSuggestions;
+- (id)PLModelMigrationAction_DeleteAllSharedLibraryPLSuggestions;
 - (id)H2 74>?¤?A;
-- (id);
 - (id)ete %{public}@ from SPL, error %@;
 - (id)Ignoring addedAsset notification for album %@ beause it's not interesting as per mstreamd dictionary.;
 - (id)rl are required;
-- (id)rithm bump;
+- (unsigned int :(null))rithm bump;
 @end
 

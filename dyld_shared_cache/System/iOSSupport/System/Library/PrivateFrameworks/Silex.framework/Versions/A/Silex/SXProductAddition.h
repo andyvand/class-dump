@@ -14,8 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *affiliateIdentifier; // @dynamic affiliateIdentifier;
-@property(readonly, nonatomic) NSString *campaignIdentifier; // @dynamic campaignIdentifier;
 @property(readonly, nonatomic) NSString *productIdentifier; // @dynamic productIdentifier;
 @end
 

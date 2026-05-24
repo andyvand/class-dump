@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)tions: /* Error: Ran out of types for this method. */;
+- (void)isFaceTimeVideoAvailableForAnyDestinationInDestinations: /* Error: Ran out of types for this method. */;
 
 @end
 

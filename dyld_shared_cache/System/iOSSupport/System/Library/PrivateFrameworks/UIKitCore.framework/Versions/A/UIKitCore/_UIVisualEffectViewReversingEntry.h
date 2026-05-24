@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)1Â0@ù
 × ;
 - (void);
-- (id)Layout:(id)arg1;
-- (void)r;
-- (_Bool)erInsetConcreteResolver;
-- (void)lor;
-- (id)ceApplication;
+- (id)setShowsCandidatesInLayout:(id)arg1;
+- (void)_terminationError;
+- (_Bool)_UISceneSafeAreaCornerInsetConcreteResolver;
+- (void)UIImageAnimationContentsMultiplyColor;
+- (id)sessionIsRestrictedToSourceApplication;
 - (void);
 
 @end

@@ -7,7 +7,6 @@
 @interface SPOwner.SwiftBootstrapManager
 {
     id $defaultActor;
-    id bootedContexts;
 }
 
 @end

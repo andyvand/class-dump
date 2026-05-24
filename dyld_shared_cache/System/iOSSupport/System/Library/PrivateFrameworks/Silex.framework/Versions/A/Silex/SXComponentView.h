@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXColumnLayout, SXFillView, SXUnitConverter, SXViewport, UIView;
-@protocol SXComponent, SXComponentHosting, SXComponentLayout, SXComponentState, SXComponentStyle, SXComponentStyleRenderer, SXComponentStyleRendererFactory, SXDOMObjectProviding, SXPresentationDelegate;
+@protocol SXComponentStyleRendererFactory;
 
 @interface SXComponentView
 {
     _Bool _hasRenderedContents;
-    _Bool _requiresThoroughFrameCalculations;
-    _Bool _isDraggable;
-    _Bool _animationsAndBehaviorsEnabled;
-    _Bool _highlighted;
-    _Bool _allowViewHierarchyRemoval;
-    _Bool _hasAnimation;
-    _Bool _hasBehaviors;
-    _Bool _hasRenderedComponentStyle;
-    CDStruct_12a35e6e _presentationChanges;
-    id <SXComponentLayout> _componentLayout;
-    id <SXComponent> _component;
-    id <SXComponentState> _state;
-    id <SXDOMObjectProviding> _DOMObjectProvider;
-    SXViewport *_viewport;
-    id <SXPresentationDelegate> _presentationDelegate;
-    long long _visibilityState;
-    long long _presentationState;
-    UIView *_contentView;
-    UIView *_backgroundView;
-    SXFillView *_fillView;
-    SXColumnLayout *_documentColumnLayout;
-    SXUnitConverter *_unitConverter;
-    UIView *_highlightView;
-    id <SXComponentStyleRendererFactory> _componentStyleRendererFactory;
-    id <SXComponentStyleRenderer> _componentStyleRenderer;
-    id <SXComponentStyle> _componentStyle;
-    id <SXComponentHosting> _componentHost;
-    unsigned long long _componentIndex;
-    struct CGRect _absoluteFrame;
-    struct UIEdgeInsets _componentLayoutMargins;
-    struct UIEdgeInsets _borderInsets;
-    struct CGRect _contentFrame;
-    struct CGRect _backgroundViewFrame;
-    struct CGRect _originalFrame;
-    struct CGRect _presentationFrame;
 }
 
 - (void);
@@ -63,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,7 +41,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (CDStruct_12a35e6e);
+- (CDStruct_2a4d9400);
 - (void);
 - (void);
 - (struct CGRect);
@@ -98,7 +62,7 @@
 - (struct UIEdgeInsets);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
+- (void)�(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -121,8 +85,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void);
 - (id);
 - (long long);
 - (id);
@@ -141,70 +105,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void)@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)Style:onParagraphStyle:forRange:resultingDropCapStyle:textResizer:fontFace: /* Error: Ran out of types for this method. */;
-- (void)XFullscreenCanvasViewControllerDelegate;
+- (_Bool)attributesForTextStyle:onParagraphStyle:forRange:resultingDropCapStyle:textResizer:fontFace: /* Error: Ran out of types for this method. */;
+- (void)SXFullscreenCanvasViewControllerDelegate;
 - (struct CGRect)larendon-Black;
 - (id)olver>"8;
 - (void)W%Â;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(nonatomic) struct CGRect absoluteFrame; // @synthesize absoluteFrame=_absoluteFrame;
-@property(nonatomic) _Bool allowViewHierarchyRemoval; // @synthesize allowViewHierarchyRemoval=_allowViewHierarchyRemoval;
-@property(nonatomic) _Bool animationsAndBehaviorsEnabled; // @synthesize animationsAndBehaviorsEnabled=_animationsAndBehaviorsEnabled;
-@property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) struct CGRect backgroundViewFrame; // @synthesize backgroundViewFrame=_backgroundViewFrame;
-@property(nonatomic) struct UIEdgeInsets borderInsets; // @synthesize borderInsets=_borderInsets;
-@property(readonly, nonatomic) id <SXComponent> component; // @synthesize component=_component;
-@property(nonatomic) __weak id <SXComponentHosting> componentHost; // @synthesize componentHost=_componentHost;
-@property(nonatomic) unsigned long long componentIndex; // @synthesize componentIndex=_componentIndex;
-@property(readonly, nonatomic) id <SXComponentLayout> componentLayout; // @synthesize componentLayout=_componentLayout;
-@property(nonatomic) struct UIEdgeInsets componentLayoutMargins; // @synthesize componentLayoutMargins=_componentLayoutMargins;
-@property(retain, nonatomic) id <SXComponentStyle> componentStyle; // @synthesize componentStyle=_componentStyle;
-@property(readonly, nonatomic) id <SXComponentStyleRenderer> componentStyleRenderer; // @synthesize componentStyleRenderer=_componentStyleRenderer;
 @property(readonly, nonatomic) id <SXComponentStyleRendererFactory> componentStyleRendererFactory; // @synthesize componentStyleRendererFactory=_componentStyleRendererFactory;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SXColumnLayout *documentColumnLayout; // @synthesize documentColumnLayout=_documentColumnLayout;
-@property(nonatomic) __weak SXFillView *fillView; // @synthesize fillView=_fillView;
-@property(nonatomic) _Bool hasAnimation; // @synthesize hasAnimation=_hasAnimation;
-@property(nonatomic) _Bool hasBehaviors; // @synthesize hasBehaviors=_hasBehaviors;
-@property(nonatomic) _Bool hasRenderedComponentStyle; // @synthesize hasRenderedComponentStyle=_hasRenderedComponentStyle;
-@property(readonly, nonatomic) _Bool hasRenderedContents; // @synthesize hasRenderedContents=_hasRenderedContents;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) struct CGRect interactionFrame;
-@property(readonly, nonatomic) _Bool isDraggable; // @synthesize isDraggable=_isDraggable;
-@property(readonly, nonatomic) _Bool isTransitionable;
-@property(nonatomic) struct CGRect originalFrame; // @synthesize originalFrame=_originalFrame;
-@property(nonatomic) CDStruct_12a35e6e presentationChanges; // @synthesize presentationChanges=_presentationChanges;
-@property(readonly, nonatomic) __weak id <SXPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(nonatomic) struct CGRect presentationFrame; // @synthesize presentationFrame=_presentationFrame;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
-@property(nonatomic) _Bool requiresThoroughFrameCalculations; // @synthesize requiresThoroughFrameCalculations=_requiresThoroughFrameCalculations;
-@property(retain, nonatomic) id <SXComponentState> state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect transitionContainerFrame;
-@property(readonly, nonatomic) UIView *transitionContainerView;
-@property(readonly, nonatomic) struct CGRect transitionContentFrame;
-@property(readonly, nonatomic) UIView *transitionContentView;
-@property(readonly, nonatomic) _Bool transitionViewIsVisible;
-@property(readonly, nonatomic) _Bool transitionViewShouldFadeInContent;
-@property(readonly, nonatomic) struct CGRect transitionVisibleFrame;
-@property(readonly, nonatomic) SXUnitConverter *unitConverter; // @synthesize unitConverter=_unitConverter;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
-@property(nonatomic) long long visibilityState; // @synthesize visibilityState=_visibilityState;
 
 @end
 

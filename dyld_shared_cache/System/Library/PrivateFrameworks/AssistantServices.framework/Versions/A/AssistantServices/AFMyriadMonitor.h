@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, AFNotifyObserver, AFQueue, AFWatchdogTimer, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface AFMyriadMonitor
 {
     long long _state;
-    AFInstanceContext *_instanceContext;
-    AFQueue *_completions;
-    AFNotifyObserver *_beginObserver;
-    AFNotifyObserver *_wonObserver;
-    AFNotifyObserver *_lostObserver;
-    AFNotifyObserver *_repostedWonObserver;
-    AFWatchdogTimer *_timer;
-    AFWatchdogTimer *_fetchRepostedMyriadDecisionTimer;
-    NSObject<OS_dispatch_queue> *_myriadMonitorQueue;
-    double _myriadEventMonitorTimeout;
-    _Bool _isRegisteredForMyriadEventNotification;
-    _Bool _ignoreMyriadEvents;
-    _Bool _isMonitoring;
-    _Bool _ignoreRepostMyriadNotification;
 }
 
 + (id);
@@ -46,7 +29,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ectedOffer:'%@';  /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -56,13 +39,7 @@
 - (void)ed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

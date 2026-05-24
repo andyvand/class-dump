@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 @protocol WBSStartPageSuggestionsProviderDelegate;
 
 @protocol WBSStartPageSuggestionsProvider
+- (id <WBSStartPageSuggestionsProviderDelegate>)yr�ub�v;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *providerSectionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(nonatomic) __weak id <WBSStartPageSuggestionsProviderDelegate> suggestionsProviderDelegate;
 @end
 

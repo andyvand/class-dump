@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WFWebViewLink
 {
     NSURL *_href;
-    struct CGRect _rect;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *href; // @synthesize href=_href;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end
 

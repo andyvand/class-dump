@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SWCrashRetryThrottler
 {
     _Bool _crashed;
-    unsigned long long retryPolicy;
 }
 
 - (void);
@@ -19,14 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool crashed; // @synthesize crashed=_crashed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long retryPolicy; // @synthesize retryPolicy;
-@property(readonly) Class superclass;
 
 @end
 

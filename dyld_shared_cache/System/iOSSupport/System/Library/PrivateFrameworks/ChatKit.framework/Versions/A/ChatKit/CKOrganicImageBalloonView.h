@@ -6,38 +6,34 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class CAShapeLayer, CKBalloonImageView, CKOrganicImageLayoutRecipe, ChatKit.CKBackdropMaterialVibrantOuterStrokeLayer, ChatKit.CKBalloonMaskLayer;
+@class CKBalloonImageView, CKOrganicImageLayoutRecipe;
 
 @interface CKOrganicImageBalloonView : CKImageBalloonView
 {
     CKOrganicImageLayoutRecipe *_layoutRecipe;
-    CKBalloonImageView *_imageView;
-    CAShapeLayer *_dashedBorder;
-    ChatKit.CKBackdropMaterialVibrantOuterStrokeLayer *_organicImageContentBorderLayer;
-    ChatKit.CKBalloonMaskLayer *_organicImageContentMaskLayer;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)initForSystemPaperPreviewWithNote:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)imageViewTopLayoutConstraint;
+- (struct CGSize)ic_attributedStringByHighlightingRegexFinderMatches:(struct CGSize)arg1 withHighlightColor:(struct UIEdgeInsets *)arg2 attributeName:(struct UIEdgeInsets *)arg3;
+- (void)accessibilityElements;
+- (void)accessibilityAttributedStringForRange:(id)arg1;
+- (void)_webView:(id)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_subtitleClickableTextView;
+- (void)_now;
+- (void)d,N,V_borderWidth;
 - (id);
 - (id);
-- (void);
+- (id)intervalStart;
 - (id);
+- (void).;
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)n;
+- (void)b;
+- (_Bool)or share %@;
+- (void)Resolver;
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (void);
@@ -49,15 +45,11 @@
 - (id)1Â0@ù
 × ;
 - (void)@96;
-- (void)ext:(id)arg1 containerView:popoverViewController: /* Error: Ran out of types for this method. */;
+- (void)animateDismissTransitionUsingContext:(id)arg1 containerView:popoverViewController: /* Error: Ran out of types for this method. */;
 - (void)è;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *dashedBorder; // @synthesize dashedBorder=_dashedBorder;
 @property(retain, nonatomic) CKBalloonImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) CKOrganicImageLayoutRecipe *layoutRecipe; // @synthesize layoutRecipe=_layoutRecipe;
-@property(retain, nonatomic) ChatKit.CKBackdropMaterialVibrantOuterStrokeLayer *organicImageContentBorderLayer; // @synthesize organicImageContentBorderLayer=_organicImageContentBorderLayer;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *organicImageContentMaskLayer; // @synthesize organicImageContentMaskLayer=_organicImageContentMaskLayer;
 
 @end
 

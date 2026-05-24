@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString;
+@class NSString;
 
 @interface TSUHTMLLog
 {
     NSString *_path;
-    NSString *_title;
-    NSString *_stylesheet;
-    NSString *_script;
-    NSFileHandle *_handle;
-    _Bool _logStarted;
-    unsigned long long _uniquifier;
-    unsigned long long _tableRow;
 }
 
 - (void);
@@ -33,15 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(copy, nonatomic) NSString *script; // @synthesize script=_script;
-@property(copy, nonatomic) NSString *stylesheet; // @synthesize stylesheet=_stylesheet;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

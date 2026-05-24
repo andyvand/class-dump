@@ -9,10 +9,9 @@
 @interface CLSBinaryItem : CLSActivityItem
 {
     _Bool _value;
-    long long _valueType;
 }
 
-+ (_Bool);
++ (_Bool)_canAddChildMembers;
 - (id);
 - (id);
 - (void);
@@ -22,11 +21,10 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_openCPMLDBOptions;
+- (id)Kl;
 
 // Remaining properties
-@property(nonatomic) _Bool value;
 @property(nonatomic) long long valueType; // @synthesize valueType=_valueType;
 
 @end

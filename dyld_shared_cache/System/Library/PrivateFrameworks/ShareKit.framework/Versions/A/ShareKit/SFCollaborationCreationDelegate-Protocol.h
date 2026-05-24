@@ -5,5 +5,9 @@
 //
 
 @protocol SFCollaborationCreationDelegate
+
+@optional
+- (void)e;
+- (void);
 @end
 

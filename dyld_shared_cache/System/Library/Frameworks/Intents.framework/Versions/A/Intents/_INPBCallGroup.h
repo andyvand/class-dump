@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBCallGroup
 {
     struct _has;
-    _INPBString *_groupId;
-    _INPBString *_groupName;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)ror">24;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)24;
+- (void)blic}s:(id)arg1 %u) SCNetworkConfiguration:CWFSCNetworkConfiguration/kSCEntNetIPv6:(%{public}@) /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)(;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (void)onDuration;
+- (void)reservationDuration;
 - (void)×ÿOKwÝ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *groupId; // @synthesize groupId=_groupId;
-@property(retain, nonatomic) _INPBString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasGroupId;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

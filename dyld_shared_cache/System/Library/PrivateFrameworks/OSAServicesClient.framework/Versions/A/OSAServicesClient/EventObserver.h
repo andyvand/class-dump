@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol OSADiagnosticEventObserver;
 
 @interface EventObserver
 {
     id <OSADiagnosticEventObserver> _observer;
-    NSSet *_bugTypes;
 }
 
 - (id);
@@ -21,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *bugTypes; // @synthesize bugTypes=_bugTypes;
 @property(readonly, nonatomic) __weak id <OSADiagnosticEventObserver> observer; // @synthesize observer=_observer;
 
 @end

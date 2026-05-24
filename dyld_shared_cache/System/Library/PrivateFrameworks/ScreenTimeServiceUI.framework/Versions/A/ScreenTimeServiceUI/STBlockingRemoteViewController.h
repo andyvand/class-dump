@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface STBlockingRemoteViewController
 {
 }
 
-+ (void);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-- (void);
++ (void)supportsDynamicStreamID;
++ (id)e configured:gnss_ray_tracing_min_occurrence_rate_of_most_common_sequence_ is invalid:%.1lf /* Error: Ran out of types for this method. */;
++ (void)alid magnitude, %.3lf. Clearing cached map vector information.;
++ (void)ld_to_trigger_not_turning_low_confidence_dps_:(id)arg1 %.3lf. Must be finite, non-negative, and greater than or equal to turn_state_detector_maximum_threshold_to_trigger_not_turning_high_confidence_dps_;
++ (id)_BPSAbstractZip;
+- (void)ccCountNonAPSender;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

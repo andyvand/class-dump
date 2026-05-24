@@ -12,14 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)ressModeSetUpBulletinForHome:(struct _NSZone *)arg1;
+- (id)insertWalletKeyExpressModeSetUpBulletinForHome:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property _Bool allowsAnonymousMessage; // @dynamic allowsAnonymousMessage;
-@property _Bool requiresAccountMessage; // @dynamic requiresAccountMessage;
 @property _Bool requiresSecureMessage; // @dynamic requiresSecureMessage;
-@property unsigned long long roles; // @dynamic roles;
-@property unsigned long long transportRestriction; // @dynamic transportRestriction;
 
 @end
 

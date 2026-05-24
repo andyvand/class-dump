@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewSetPlacement;
-
 @interface UIKBKeyplaneChangeContext
 {
     _Bool _sizeDidChange;
-    _Bool _splitWidthsChanged;
-    _Bool _selfSizingChanged;
-    _Bool _updateAssistantView;
-    _Bool _isSecureTextEntry;
-    _Bool _isDynamicLayout;
-    _Bool _updatePlacementOnly;
-    UIInputViewSetPlacement *_targetPlacement;
-    struct CGSize _size;
 }
 
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (_Bool);
@@ -41,18 +31,10 @@
 - (_Bool);
 - (void)I]Tg;
 - (void)¨Rÿ5¤Õ.i;
-- (_Bool)qm;
+- (_Bool)Pqm;
 
 // Remaining properties
-@property(nonatomic) _Bool isDynamicLayout; // @synthesize isDynamicLayout=_isDynamicLayout;
-@property(nonatomic) _Bool isSecureTextEntry; // @synthesize isSecureTextEntry=_isSecureTextEntry;
-@property(nonatomic) _Bool selfSizingChanged; // @synthesize selfSizingChanged=_selfSizingChanged;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) _Bool sizeDidChange; // @synthesize sizeDidChange=_sizeDidChange;
-@property(nonatomic) _Bool splitWidthsChanged; // @synthesize splitWidthsChanged=_splitWidthsChanged;
-@property(retain, nonatomic) UIInputViewSetPlacement *targetPlacement; // @synthesize targetPlacement=_targetPlacement;
-@property(nonatomic) _Bool updateAssistantView; // @synthesize updateAssistantView=_updateAssistantView;
-@property(nonatomic) _Bool updatePlacementOnly; // @synthesize updatePlacementOnly=_updatePlacementOnly;
 
 @end
 

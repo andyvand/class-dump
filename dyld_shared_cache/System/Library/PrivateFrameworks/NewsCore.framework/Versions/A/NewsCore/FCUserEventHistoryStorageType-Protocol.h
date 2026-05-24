@@ -7,17 +7,15 @@
 @class FCUserEventHistoryMetadata, NSArray, NSDate;
 
 @protocol FCUserEventHistoryStorageType
-- (NSArray *)calStorageManualIssueDownloadTTL;
+- (void);
+- (unsigned long long)+;
+- (FCUserEventHistoryMetadata *)T;
+- (NSDate *)C;
+- (_Bool);
+- (NSArray *)criticalStorageManualIssueDownloadTTL;
 - (NSArray *)q©jø¸;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *earliestSessionDate;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) FCUserEventHistoryMetadata *metadata;
-@property(readonly, nonatomic) NSArray *prunedSessionIDs;
-@property(readonly, nonatomic) unsigned long long prunedSessionSize;
 @property(readonly, nonatomic) NSArray *sessionIDs;
-@property(readonly, nonatomic) NSArray *sessions;
-@property(readonly, nonatomic) unsigned long long size;
 @end
 

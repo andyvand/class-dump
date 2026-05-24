@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBlurEffect, UIView;
+@class UIView;
 
 @interface AXUIPlatterContainerView
 {
     UIView *_contentView;
-    UIBlurEffect *_platterBlurEffect;
-    UIView *_platterView;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)|;
 - (double);
 - (void);
 - (_Bool);
@@ -25,13 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsScrolling;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) UIBlurEffect *platterBlurEffect; // @synthesize platterBlurEffect=_platterBlurEffect;
 @property(readonly, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(readonly, nonatomic) double platterWidth;
-@property(readonly, nonatomic) NSString *primaryTextStyle;
-@property(readonly, nonatomic) _Bool shouldMimicNotificationBannerTopOffset;
 
 @end
 

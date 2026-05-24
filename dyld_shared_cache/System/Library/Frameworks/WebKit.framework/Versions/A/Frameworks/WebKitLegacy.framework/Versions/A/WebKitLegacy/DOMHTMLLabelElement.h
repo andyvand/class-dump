@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLFormElement, NSString;
+@class DOMHTMLFormElement;
 
 @interface DOMHTMLLabelElement : DOMHTMLElement
 {
@@ -15,14 +15,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)isWebKit;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *accessKey;
 @property(readonly) DOMHTMLFormElement *form;
-@property(copy) NSString *htmlFor;
 
 @end
 

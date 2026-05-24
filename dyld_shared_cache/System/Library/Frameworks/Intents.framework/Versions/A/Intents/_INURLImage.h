@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _INURLImage : INImage
 {
     NSData *_sandboxExtensionData;
-    NSURL *_imageURL;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (_Bool);
@@ -34,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (id)!0@ù¾(°1Â0@ù
 × ;
 - (_Bool);
-- (void)ailure;
-- (id)searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)INChangeAlarmStatusIntentResponseCodeFailure;
+- (id)provideReferenceOptionsCollectionForResolveObjectReference:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;

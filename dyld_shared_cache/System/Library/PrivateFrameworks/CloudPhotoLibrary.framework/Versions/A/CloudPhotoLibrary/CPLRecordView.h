@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLPlaceholderRecord, CPLRecordChange, CPLScopedIdentifier, NSData;
+@class CPLScopedIdentifier;
 
 @interface CPLRecordView
 {
 }
 
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (Class);
+- (id);
 - (id);
-- (id)øçÿØ;
-- (id)2À_Ö#ÕÿÃÑöW©ôO©ý{©ýó;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CPLPlaceholderRecord *placeholderRecord;
-@property(readonly, nonatomic) NSData *recordChangeData;
 @property(readonly, nonatomic) CPLScopedIdentifier *scopedIdentifier;
-@property(readonly, nonatomic) NSData *sharingRecordChangeData;
-@property(readonly, nonatomic) CPLRecordChange *synthesizedRecord;
 
 @end
 

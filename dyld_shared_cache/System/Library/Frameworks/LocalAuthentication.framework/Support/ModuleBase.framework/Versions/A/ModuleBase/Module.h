@@ -9,7 +9,6 @@
 @interface Module
 {
     MechanismManager *_mechanismManager;
-    long long _type;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MechanismManager *mechanismManager; // @synthesize mechanismManager=_mechanismManager;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

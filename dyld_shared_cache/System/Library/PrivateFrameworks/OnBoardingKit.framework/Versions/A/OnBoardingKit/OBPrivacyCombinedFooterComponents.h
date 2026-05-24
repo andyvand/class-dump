@@ -9,11 +9,9 @@
 @interface OBPrivacyCombinedFooterComponents
 {
     NSString *_text;
-    NSString *_linkText;
-    NSString *_linkURLString;
 }
 
-+ (id);
++ (id)h;
 - (void);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *linkText; // @synthesize linkText=_linkText;
-@property(retain, nonatomic) NSString *linkURLString; // @synthesize linkURLString=_linkURLString;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

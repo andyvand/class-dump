@@ -4,41 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPZone, CKDPZoneEtagValidationInformation, NSString;
+@class CKDPZoneEtagValidationInformation;
 
 @interface CKDPZoneSaveRequest
 {
     CKDPZoneEtagValidationInformation *_destinationParentValidationEtag;
-    CKDPZone *_recordZone;
-    CKDPZoneEtagValidationInformation *_validationEtag;
-    NSString *_zoneProtectionInfoTag;
-    int _zoneSaveSemantics;
-    struct {
-        unsigned int zoneSaveSemantics:1;
-    } _has;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (int);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)ef, CFDictionaryRef, LogCategory *, void *);
+- (unsigned long long)ck to %@;
 - (id);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id)txCtrlFrmsPerSecond;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)ES
+    ( :item
+    , :started_at
+    , :reason
+    , :recorded
+    , NULL
+    ) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (int);
@@ -47,20 +46,11 @@
 - (id);
 - (id);
 - (void);
-- (Class)ror: /* Error: Ran out of types for this method. */;
+- (Class)noteSessionInvalidationError:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPZoneEtagValidationInformation *destinationParentValidationEtag; // @synthesize destinationParentValidationEtag=_destinationParentValidationEtag;
-@property(readonly, nonatomic) _Bool hasDestinationParentValidationEtag;
 @property(readonly, nonatomic) _Bool hasRecordZone;
-@property(readonly, nonatomic) _Bool hasValidationEtag;
-@property(readonly, nonatomic) _Bool hasZoneProtectionInfoTag;
-@property(nonatomic) _Bool hasZoneSaveSemantics;
-@property(retain, nonatomic) CKDPZone *recordZone; // @synthesize recordZone=_recordZone;
-@property(retain, nonatomic) CKDPZoneEtagValidationInformation *validationEtag; // @synthesize validationEtag=_validationEtag;
-@property(retain, nonatomic) NSString *zoneProtectionInfoTag; // @synthesize zoneProtectionInfoTag=_zoneProtectionInfoTag;
-@property(nonatomic) int zoneSaveSemantics; // @synthesize zoneSaveSemantics=_zoneSaveSemantics;
 
 @end
 

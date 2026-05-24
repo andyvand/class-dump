@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol _UIScrollPocketElement
+- (struct CGRect)_beginExitStateCleanupIfNeededWithActivity:(UIView *)arg1;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _requiresPocket;
 @property(readonly, nonatomic) long long _style;
-@property(readonly, nonatomic) struct UIEdgeInsets _visualInsets;
 @end
 

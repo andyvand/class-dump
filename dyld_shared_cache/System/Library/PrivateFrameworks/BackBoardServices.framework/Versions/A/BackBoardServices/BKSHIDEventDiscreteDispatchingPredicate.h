@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface BKSHIDEventDiscreteDispatchingPredicate
 {
     NSSet *_senderDescriptors;
-    NSSet *_descriptors;
-    NSSet *_fuzzyDescriptors;
 }
 
 + (_Bool);
-- (id);
+- (id)setSubmitDate:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)heString SET keyValue='%q' WHERE indexValue=%d;;
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,20 +26,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSSet *descriptors; // @synthesize descriptors=_descriptors;
-@property(readonly, copy, nonatomic) NSSet *displays; // @dynamic displays;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSSet *senderDescriptors; // @synthesize senderDescriptors=_senderDescriptors;
-@property(readonly) Class superclass;
 
 @end
 

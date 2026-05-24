@@ -6,14 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSString;
-@protocol FCContentContext;
-
 @interface FCAudioConfigurationOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSString *_resultConfigString;
 }
 
 - (CDUnknownBlockType);

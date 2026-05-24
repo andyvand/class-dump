@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (const void *);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)8@0:(id)arg1 8@16@24@32@40i48@?52@?60;
 + (id);
 - (_Bool);
 

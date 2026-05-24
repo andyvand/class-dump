@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFWiFiManager, NSArray, NSMapTable, NSNotificationCenter, NSObject, NSString;
-@protocol HMDCompanionLinkClient, HMDSharingDeviceDiscovery, HMDSymptomManagerDataSource, OS_dispatch_queue;
+@protocol HMDSharingDeviceDiscovery;
 
 __attribute__((visibility("hidden")))
 @interface HMDSymptomManager
 {
     struct os_unfair_lock_s _lock;
-    int _deviceProblemNotificationToken;
-    _Bool _supportsCurrentDeviceSymptoms;
-    _Bool _supportsRegisteringAccessories;
-    unsigned long long _currentDeviceProblemFlags;
-    id <HMDSharingDeviceDiscovery> _deviceDiscovery;
-    id <HMDCompanionLinkClient> _companionLinkClient;
-    HMFWiFiManager *_wifiManager;
-    NSNotificationCenter *_notificationCenter;
-    NSMapTable *_symptomContainerByRegisteredAccessory;
-    NSMapTable *_nearbySFDevices;
-    NSMapTable *_networkReachableRPCompanionLinkDevices;
-    unsigned long long _deviceDiscoveryFlags;
-    CDUnknownBlockType _sharingClientFactory;
-    id _discoveryAssertion;
-    NSMapTable *_accessoryNetworkDiagnosticSymptoms;
-    CDUnknownBlockType _shouldDisableWiFiPickerBasedOnOSEligibilityFactory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDSymptomManagerDataSource> _dataSource;
-    NSArray *_nearbyAccessoryUUIDsNotOnCurrentNetwork;
-    NSArray *_nearbyAccessoryUUIDsNotConnectToPrimaryResident;
-    NSArray *_nearbyAccessoryUUIDsReportingDiagnostic;
 }
 
 + (_Bool);
@@ -57,30 +35,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)amework/Versions/A/SwiftUI;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)40@"NSError"44;
+- (id)recordableMutableArray;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)ocalName:(id)arg1 %{public}@ [ %{private}@ ], localContactIdentifier:%{public}@ [ %{private}@ ]
+	arrived:%{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)'_;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)};
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)6F;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -89,7 +73,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -101,43 +85,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)tepmother;
 - (void);
-- (void);
-- (void)fierClasses;
+- (void)allowedSpecifierClasses;
 - (id)n sets for:(id)arg1 %@;
 - (id)&ySSSgG;
-- (void)_general_accessibility_interaction_holdDuration_enabled_readVersion;
+- (void)root_general_accessibility_interaction_holdDuration_enabled_readVersion;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMapTable *accessoryNetworkDiagnosticSymptoms; // @synthesize accessoryNetworkDiagnosticSymptoms=_accessoryNetworkDiagnosticSymptoms;
-@property(readonly, nonatomic) id <HMDCompanionLinkClient> companionLinkClient; // @synthesize companionLinkClient=_companionLinkClient;
-@property unsigned long long currentDeviceProblemFlags; // @synthesize currentDeviceProblemFlags=_currentDeviceProblemFlags;
-@property(readonly) unsigned long long currentDeviceRawProblemFlags;
-@property(readonly, nonatomic) __weak id <HMDSymptomManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <HMDSharingDeviceDiscovery> deviceDiscovery; // @synthesize deviceDiscovery=_deviceDiscovery;
-@property(nonatomic) unsigned long long deviceDiscoveryFlags; // @synthesize deviceDiscoveryFlags=_deviceDiscoveryFlags;
-@property(retain, nonatomic) id discoveryAssertion; // @synthesize discoveryAssertion=_discoveryAssertion;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *nearbyAccessoryUUIDsNotConnectToPrimaryResident; // @synthesize nearbyAccessoryUUIDsNotConnectToPrimaryResident=_nearbyAccessoryUUIDsNotConnectToPrimaryResident;
-@property(copy, nonatomic) NSArray *nearbyAccessoryUUIDsNotOnCurrentNetwork; // @synthesize nearbyAccessoryUUIDsNotOnCurrentNetwork=_nearbyAccessoryUUIDsNotOnCurrentNetwork;
-@property(copy, nonatomic) NSArray *nearbyAccessoryUUIDsReportingDiagnostic; // @synthesize nearbyAccessoryUUIDsReportingDiagnostic=_nearbyAccessoryUUIDsReportingDiagnostic;
-@property(readonly, nonatomic) NSMapTable *nearbySFDevices; // @synthesize nearbySFDevices=_nearbySFDevices;
-@property(readonly, nonatomic) NSMapTable *networkReachableRPCompanionLinkDevices; // @synthesize networkReachableRPCompanionLinkDevices=_networkReachableRPCompanionLinkDevices;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) CDUnknownBlockType sharingClientFactory; // @synthesize sharingClientFactory=_sharingClientFactory;
-@property(copy, nonatomic) CDUnknownBlockType shouldDisableWiFiPickerBasedOnOSEligibilityFactory; // @synthesize shouldDisableWiFiPickerBasedOnOSEligibilityFactory=_shouldDisableWiFiPickerBasedOnOSEligibilityFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCurrentDeviceSymptoms; // @synthesize supportsCurrentDeviceSymptoms=_supportsCurrentDeviceSymptoms;
-@property(nonatomic) _Bool supportsRegisteringAccessories; // @synthesize supportsRegisteringAccessories=_supportsRegisteringAccessories;
-@property(readonly, nonatomic) NSMapTable *symptomContainerByRegisteredAccessory; // @synthesize symptomContainerByRegisteredAccessory=_symptomContainerByRegisteredAccessory;
-@property(readonly, nonatomic) HMFWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoMigrationDataTimeSync
 {
     double _anchorTime;
-    double _anchorTimestamp;
-    double _duration;
-    NSString *_itemID;
-    float _rate;
-    _Bool _isLive;
-    struct {
-        unsigned int anchorTime:1;
-        unsigned int anchorTimestamp:1;
-        unsigned int duration:1;
-        unsigned int rate:1;
-        unsigned int isLive:1;
-    } _has;
 }
 
 - (id);

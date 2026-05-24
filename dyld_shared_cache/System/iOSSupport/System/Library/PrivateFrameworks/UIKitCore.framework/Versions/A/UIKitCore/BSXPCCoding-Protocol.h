@@ -5,8 +5,9 @@
 //
 
 @protocol BSXPCCoding
+- (id);
 
 @optional
-- (Class)etion_education_ui_enabled;
+- (Class)inline_text_completion_education_ui_enabled;
 @end
 

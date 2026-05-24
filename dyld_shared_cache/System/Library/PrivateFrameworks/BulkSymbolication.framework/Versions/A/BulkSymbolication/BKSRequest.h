@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface BKSRequest
 {
     _Bool _isTextExecOffset;
-    NSUUID *_symbolOwnerUUID;
-    NSNumber *_offset;
-    NSString *_segmentName;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,9 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTextExecOffset; // @synthesize isTextExecOffset=_isTextExecOffset;
-@property(readonly, nonatomic) NSNumber *offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSString *segmentName; // @synthesize segmentName=_segmentName;
 @property(readonly, nonatomic) NSUUID *symbolOwnerUUID; // @synthesize symbolOwnerUUID=_symbolOwnerUUID;
 
 @end

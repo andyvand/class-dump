@@ -9,9 +9,6 @@
 @protocol FMOwnerAccountIdentity
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *firstName;
-@property(readonly, copy, nonatomic) NSString *lastName;
 @property(readonly, copy, nonatomic) NSString *personId;
-@property(readonly, copy, nonatomic) NSString *username;
 @end
 

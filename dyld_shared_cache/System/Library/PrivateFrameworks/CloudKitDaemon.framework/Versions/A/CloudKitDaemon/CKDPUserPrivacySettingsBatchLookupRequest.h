@@ -12,14 +12,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)airplay.isPlayingAmbientAudioChanged;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)sZone: /* Error: Ran out of types for this method. */;
+- (Class)isSinglyWrappedRemindersZone: /* Error: Ran out of types for this method. */;
 
 @end
 

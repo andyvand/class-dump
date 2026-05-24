@@ -7,15 +7,11 @@
 @interface NewsFeed.DebugFormatDebuggerSourceMetricView
 {
     id metric;
-    id label;
-    id bubbleLayer;
-    id bubbleInsets;
-    id bubbleTipSize;
 }
 
 - (struct CGSize);
 - (id);
-- (void);
+- (void)toURL:addingAttributes:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void)lñðþÝC:h¤wþÝC:4Ü$ÿ /* Error: Ran out of types for this method. */;
 

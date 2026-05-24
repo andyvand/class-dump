@@ -6,30 +6,27 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAUIAppPunchOut;
+@class NSArray;
 
 @interface SAUSSection : SADomainObject
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
+- (void)h8;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cardResults;
-@property(copy, nonatomic) NSArray *genericResults;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
-@property(copy, nonatomic) NSString *sectionTitle;
 
 @end
 

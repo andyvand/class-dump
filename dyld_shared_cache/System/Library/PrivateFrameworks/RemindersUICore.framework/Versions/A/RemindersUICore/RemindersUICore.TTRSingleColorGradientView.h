@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRSingleColorGradientView
 {
     id color;
-    id hasGradient;
-    id wantsVibrancy;
-    id lighteningGradient;
-    id lightenBlendMode;
-    id darkeningGradient;
-    id darkenBlendMode;
 }
 
 - (id);
@@ -23,7 +17,6 @@
 - (void)lSource:fetch smartList tree {listID:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
 @property(nonatomic, readonly) _Bool flipped;
 
 @end

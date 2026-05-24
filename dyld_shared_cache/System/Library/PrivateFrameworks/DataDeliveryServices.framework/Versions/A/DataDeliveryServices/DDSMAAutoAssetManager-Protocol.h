@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DDSAssetQuery, DDSMAAutoAssetSelector, NSArray;
+
 @protocol DDSMAAutoAssetManager
+- (void)setHasDeviceSuccessCount:(DDSMAAutoAssetSelector *)arg1;
+- (void)setHasDefaultParameters:(DDSAssetQuery *)arg1;
+- (void)setHasDebugNetworkConnectionStatePreparationSnapshotCaptured:(DDSAssetQuery *)arg1;
+- (NSArray *)setHasCountOfAlternativesAvailable:(DDSAssetQuery *)arg1;
 @end
 

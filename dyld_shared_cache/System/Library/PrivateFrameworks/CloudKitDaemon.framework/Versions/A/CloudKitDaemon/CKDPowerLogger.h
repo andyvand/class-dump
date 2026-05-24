@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)im_randomTemporaryFileURLWithFileName: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 
 @end
 

@@ -9,17 +9,15 @@
 @interface PhotosUICore.PXPhotosCollectionTitleInfo
 {
     void title;
-    void subtitle;
 }
 
 - (id);
 - (id);
-- (id);
-- (id)ionDataSourceTypeMockAssetsEligible;
+- (id)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24r^{?=iBBBBB}32;
+- (id)PXContentSyndicationDataSourceTypeMockAssetsEligible;
 - (void)Q$: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *subtitle;
 @property(nonatomic, readonly) NSString *title;
 
 @end

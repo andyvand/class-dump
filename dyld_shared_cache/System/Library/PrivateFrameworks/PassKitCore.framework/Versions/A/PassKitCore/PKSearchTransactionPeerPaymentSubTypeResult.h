@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSearchTransactionPeerPaymentSubTypeResult
 {
     long long _subType;
 }
 
-+ (_Bool);
++ (_Bool)I;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)vided for users of Cold Fusion which uses the comment syntax:&lt;!--- ---&gt;  /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)_peerBitErrorRate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long subType; // @synthesize subType=_subType;
-@property(readonly) Class superclass;
 
 @end
 

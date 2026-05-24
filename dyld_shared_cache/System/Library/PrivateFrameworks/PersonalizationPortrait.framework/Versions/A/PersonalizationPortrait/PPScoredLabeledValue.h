@@ -9,14 +9,12 @@
 @interface PPScoredLabeledValue
 {
     unsigned char _flags;
-    PPLabeledValue *_labeledValue;
-    double _score;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)haBlending:(id)arg1;
+- (id)a;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -31,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char flags; // @synthesize flags=_flags;
 @property(readonly, nonatomic) PPLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

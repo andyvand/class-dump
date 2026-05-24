@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSColor, NSFont, NSUserInterfaceCompressionOptions;
+@class NSAppearance;
 
 @interface NSSegmentedControlBezelConfiguration
 {
     _Bool drawsBezel;
-    _Bool isEnabled;
-    _Bool isHighlighted;
-    _Bool inToolbar;
-    _Bool inTouchBar;
-    _Bool useSlidingStyle;
-    _Bool useTextStyle;
-    _Bool allowsRollover;
-    _Bool hasAnyRollover;
-    _Bool wantsGroupRollover;
-    _Bool animateChanges;
-    NSAppearance *appearance;
-    NSColor *selectedSegmentBezelColor;
-    NSUserInterfaceCompressionOptions *compressibleOptions;
-    NSFont *font;
-    long long segmentStyle;
-    long long segmentDistribution;
-    long long layoutDirection;
-    unsigned long long controlSize;
-    long long presentationState;
-    long long highlightedSegment;
-    long long _borderShape;
 }
 
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,8 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +32,7 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -61,16 +40,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void) ;
 - (id);
 - (unsigned long long);
 - (long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
-- (id)dFlipTableColumnsForRTL;
+- (id)_shouldFlipTableColumnsForRTL;
 - (id)H;
 - (void)¸Á
 ÿ;
@@ -82,28 +61,7 @@
 - (long long)E;
 
 // Remaining properties
-@property _Bool allowsRollover; // @synthesize allowsRollover;
-@property _Bool animateChanges; // @synthesize animateChanges;
 @property(retain) NSAppearance *appearance; // @synthesize appearance;
-@property long long borderShape; // @synthesize borderShape=_borderShape;
-@property(retain) NSUserInterfaceCompressionOptions *compressibleOptions; // @synthesize compressibleOptions;
-@property unsigned long long controlSize; // @synthesize controlSize;
-@property _Bool drawsBezel; // @synthesize drawsBezel;
-@property(retain) NSFont *font; // @synthesize font;
-@property _Bool hasAnyRollover; // @synthesize hasAnyRollover;
-@property long long highlightedSegment; // @synthesize highlightedSegment;
-@property _Bool inToolbar; // @synthesize inToolbar;
-@property _Bool inTouchBar; // @synthesize inTouchBar;
-@property _Bool isEnabled; // @synthesize isEnabled;
-@property _Bool isHighlighted; // @synthesize isHighlighted;
-@property long long layoutDirection; // @synthesize layoutDirection;
-@property long long presentationState; // @synthesize presentationState;
-@property long long segmentDistribution; // @synthesize segmentDistribution;
-@property long long segmentStyle; // @synthesize segmentStyle;
-@property(retain) NSColor *selectedSegmentBezelColor; // @synthesize selectedSegmentBezelColor;
-@property _Bool useSlidingStyle; // @synthesize useSlidingStyle;
-@property _Bool useTextStyle; // @synthesize useTextStyle;
-@property _Bool wantsGroupRollover; // @synthesize wantsGroupRollover;
 
 @end
 

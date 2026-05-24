@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSThreadSafeObject, NSArray;
+@class AMSThreadSafeObject;
 
 @interface AMSThreadSafeDictionary
 {
@@ -15,19 +15,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)isWatchBelltowerEnabled;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)kMRMediaRemoteOptionSenderID;
+- (id)�;
+- (void);
 - (void)Gá¬8h;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allValues;
 @property(retain) AMSThreadSafeObject *backingDictionary; // @synthesize backingDictionary=_backingDictionary;
 
 @end

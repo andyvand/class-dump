@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PMLSessionDescriptor, PMLTrainingStore;
-@protocol PMLMultiLabelClassifierModelProtocol, PMLMultiLabelEvaluationTrackerProtocol;
+@class PMLTrainingStore;
 
 @interface PMLMultiLabelRegressionEvaluationPlan
 {
     PMLTrainingStore *_store;
-    PMLSessionDescriptor *_sessionDescriptor;
-    unsigned long long _maxSessionsLimit;
-    unsigned long long _sessionsInBatch;
-    id <PMLMultiLabelClassifierModelProtocol> _multiLabelRegressionModel;
-    NSArray *_positiveLabels;
-    NSArray *_weightsArray;
-    _Bool _intercept;
-    NSArray *_evaluationPoints;
-    id <PMLMultiLabelEvaluationTrackerProtocol> _tracker;
-    unsigned long long _evaluationLevel;
-    NSString *_planId;
 }
 
 - (id);
@@ -30,40 +18,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)b;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long evaluationLevel; // @synthesize evaluationLevel=_evaluationLevel;
-@property(readonly, nonatomic) NSArray *evaluationPoints; // @synthesize evaluationPoints=_evaluationPoints;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool intercept; // @synthesize intercept=_intercept;
-@property(readonly, nonatomic) unsigned long long maxSessionsLimit; // @synthesize maxSessionsLimit=_maxSessionsLimit;
-@property(readonly, nonatomic) id <PMLMultiLabelClassifierModelProtocol> multiLabelRegressionModel; // @synthesize multiLabelRegressionModel=_multiLabelRegressionModel;
-@property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly, nonatomic) NSArray *positiveLabels; // @synthesize positiveLabels=_positiveLabels;
-@property(readonly, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
-@property(readonly, nonatomic) unsigned long long sessionsInBatch; // @synthesize sessionsInBatch=_sessionsInBatch;
 @property(readonly, nonatomic) PMLTrainingStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PMLMultiLabelEvaluationTrackerProtocol> tracker; // @synthesize tracker=_tracker;
-@property(readonly, nonatomic) NSArray *weightsArray; // @synthesize weightsArray=_weightsArray;
 
 @end
 

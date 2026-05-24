@@ -4,48 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEOLocalizationRegionsInfo, GEOObserverHashTable, GEOResourceManifestConfiguration, NSDictionary, NSMutableArray, NSObject, NSSet, NSString, geo_isolater;
-@protocol GEOResourceManifestServerProxy, OS_dispatch_source;
+@protocol GEOResourceManifestServerProxy;
 
 @interface GEOResourceManifestManager
 {
     id <GEOResourceManifestServerProxy> _serverProxy;
-    GEOObserverHashTable *_serverProxyObservers;
-    GEOActiveTileGroup *_activeTileGroup;
-    struct os_unfair_lock_s _activeTileGroupLock;
-    NSDictionary *_resourceNamesToPaths;
-    NSSet *_allResourceNames;
-    NSSet *_allRegionalResourceNames;
-    _Bool _needsToLoadTileGroupFromDisk;
-    NSMutableArray *_tileGroupObservers;
-    struct os_unfair_recursive_lock_s _tileGroupObserversLock;
-    struct os_unfair_lock_s _closedCountLock;
-    long long _closedCount;
-    _Bool _constantlyChangeTileGroup;
-    double _constantlyChangeTileGroupInterval;
-    GEOLocalizationRegionsInfo *_localizationRegionsInfo;
-    NSMutableArray *_networkActivityHandlers;
-    geo_isolater *_networkActivityHandlersIsolation;
-    struct os_unfair_lock_s _resourceNamesToPathsLock;
-    GEOResourceManifestConfiguration *_configuration;
-    NSObject<OS_dispatch_source> *_cachedResourceInfoPurgeTimer;
-    unsigned long long _stateCaptureHandle;
 }
 
-+ (void);
-+ (void);
++ (void)k;
++ (void)_hostTimeBuffer;
 + (id);
 + (id);
++ (void)<<<<<<<<<<<<<<<<<<<<r;
 + (void);
 + (void);
-+ (void);
-+ (id)tedAtIndex:(id)arg1;
++ (id)selectedAtIndex:(id)arg1;
 + (id)ì¿;
 + (id);
 - (void);
 - (int);
-- (void);
-- (unsigned int);
+- (void)%;
+- (unsigned int);
 - (oneway void);
 - (void);
 - (id);
@@ -63,45 +42,45 @@
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)_secondPassCheckerModelKeywordDetectionStartTime;
+- (id)CSSmartSiriVolumeRunPolicyHomePod;
+- (id);
+- (void)speechd_system crashed;
+- (void)ts :(id)arg1 %{public}@;
+- (unsigned int)succeeded ? %{public}@, error - %{public}@;
+- (void);
+- (void);
+- (void);
+- (id)i;
+- (void);
+- (id);
+- (_Bool)DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEDDDDDDDDDDDDDDDDDFGGGGGGGGGGGGGGGGGGGGGGGGGGHIr;
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned char);
+- (unsigned char)parser:(int)arg1 foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)ticketForSpatialPlaceLookupParameters:traits: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:(id)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (void)Id:(int)arg1 GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription: /* Error: Ran out of types for this method. */;
+- (void)or;
+- (id)serSessionEntity",R,N;
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool)i;
+- (void);
 - (_Bool)
 × ;
 - (void)¤BùÑ·*Ð1Â0@ù
 × ;
-- (void)tSegmentCoordinate:(unsigned int)arg1;
+- (void)distanceFromCoordinate:(unsigned int)arg1 outSegmentCoordinate:(long long)arg2;
 - (id)stopTo;
 - (id)ttlerToken",R,N,V_throttleToken;
-- (void)g_side;
+- (void)driving_side;
 - (void)é;
 - (void)®¸,P@;
 - (void)@¯´BAB@¾
@@ -113,17 +92,7 @@
 - (id)ÿöû9ªN4;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOActiveTileGroup *activeTileGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasActiveTileGroup;
-@property(readonly, nonatomic) _Bool hasLoadedActiveTileGroup;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <GEOResourceManifestServerProxy> serverProxy; // @synthesize serverProxy=_serverProxy;
-@property(readonly) Class superclass;
 
 @end
 

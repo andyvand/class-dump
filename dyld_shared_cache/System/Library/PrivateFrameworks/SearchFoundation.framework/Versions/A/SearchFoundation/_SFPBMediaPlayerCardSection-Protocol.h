@@ -7,21 +7,16 @@
 @class NSArray, NSData, NSString, _SFPBColor;
 
 @protocol _SFPBMediaPlayerCardSection
+- (NSArray *);
+- (_Bool)lastExpirationPruningDate;
+- (_Bool)isMinorAccountHolder;
+- (void);
+- (NSString *);
+- (NSData *)keyFaceWithVUObservationIDCount;
+- (_SFPBColor *);
 - (int)â;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *mediaItems;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

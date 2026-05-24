@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface PKProtobufPaymentDeviceRequest
 {
     NSString *_deviceName;
-    NSMutableArray *_knownManifestHashes;
-    unsigned int _protocolVersion;
-    _Bool _shouldAdvertise;
-    struct {
-        unsigned int protocolVersion:1;
-        unsigned int shouldAdvertise:1;
-    } _has;
 }
 
 + (Class);
 - (void);
-- (void);
+- (void)V;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,12 +24,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q;
 - (void);
-- (_Bool);
+- (_Bool)b;
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)ge"b1"mModeState"b1"newLinkState"b1"oldLinkState"b1"prevMModeState"b1"siriApp"b1"wifiProximity"b1"wifiRssi"b1};
 - (void);
 - (id);
 - (id);
@@ -45,18 +38,12 @@
 - (Class)found in recently seen devices. Triggering proximity detection;
 - (void)ptøÿÂeøÿ;
 - (unsigned int)urple113/v4/bb/b0/29/bbb0298c-c522-d1d4-dd5c-850e3ff6718c/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/258x258.png;
-- (void)_ACCOUNT_TYPE_ERROR_MESSAGE;
+- (void)ACCOUNT_SERVICE_INVALID_BANK_ACCOUNT_TYPE_ERROR_MESSAGE;
 - (void)ring payment request;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 @property(readonly, nonatomic) _Bool hasDeviceName;
-@property(nonatomic) _Bool hasProtocolVersion;
-@property(nonatomic) _Bool hasShouldAdvertise;
-@property(retain, nonatomic) NSMutableArray *knownManifestHashes; // @synthesize knownManifestHashes=_knownManifestHashes;
-@property(nonatomic) unsigned int protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(nonatomic) _Bool shouldAdvertise; // @synthesize shouldAdvertise=_shouldAdvertise;
 
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-@protocol _UILendableViewContainerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UILendableViewContainer
 {
     _Bool _loaned;
-    UIView *_view;
-    id <_UILendableViewContainerDelegate> _delegate;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)oreProviding>";
+- (void)L;
 - (id);
 - (id);
 - (void)!!ØCùÑcð1Â0@ù
@@ -28,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ0fÜj^;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UILendableViewContainerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic, getter=isLoaned) _Bool loaned; // @synthesize loaned=_loaned;
-@property(readonly, nonatomic) UIView *ownedView;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

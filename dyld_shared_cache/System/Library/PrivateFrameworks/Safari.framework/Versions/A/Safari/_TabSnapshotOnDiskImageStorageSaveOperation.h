@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _TabSnapshotOnDiskImageStorageSaveOperation
 {
     long long _fileOperationStatus;
-    long long _metadataOperationStatus;
-    NSString *_uniqueIdentifier;
 }
 
 - (void);
@@ -24,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property long long fileOperationStatus; // @synthesize fileOperationStatus=_fileOperationStatus;
-@property long long metadataOperationStatus; // @synthesize metadataOperationStatus=_metadataOperationStatus;
-@property(readonly, copy) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

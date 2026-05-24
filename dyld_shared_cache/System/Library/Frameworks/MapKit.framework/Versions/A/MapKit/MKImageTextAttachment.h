@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKImageAttachmentCell;
-
 @interface MKImageTextAttachment
 {
     double _verticalOffset;
-    MKImageAttachmentCell *_imageAttachmentCell;
-    double _maxHeight;
 }
 
 - (void);
 - (id);
 - (double);
 - (double);
-- (void);
-- (void)Handler: /* Error: Ran out of types for this method. */;
+- (void)_barcodeDescriptor;
+- (void)getMapItemsWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;
 @property(nonatomic) double verticalOffset; // @synthesize verticalOffset=_verticalOffset;
 
 @end

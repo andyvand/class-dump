@@ -11,11 +11,11 @@
     NSXPCConnection *_connection;
 }
 
-+ (id);
-- (void);
-- (_Bool);
++ (id)b;
+- (void)us, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT composer_pid, composer, sort_composer, grouping_key, cloud_status, representative_item_pid, artwork_cache_id, keep_local, keep_local_status FROM composer;
+- (_Bool)ear, keep_local, keep_local_status) SELECT album_pid, album, sort_album, album_artist_pid, representative_item_pid, artwork_cache_id, grouping_key, cloud_status, user_rating, all_compilations, feed_url, season_number, album_year, keep_local, keep_local_status FROM album;
 - (id);
-- (void);
+- (void)not running;
 - (id);
 - (id);
 - (void);

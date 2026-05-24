@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol BWDataBufferBackedFormat
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dataBufferAttributes;
 @property(readonly, nonatomic) unsigned long long dataBufferSize;
-@property(readonly, nonatomic) unsigned int dataFormat;
 @end
 

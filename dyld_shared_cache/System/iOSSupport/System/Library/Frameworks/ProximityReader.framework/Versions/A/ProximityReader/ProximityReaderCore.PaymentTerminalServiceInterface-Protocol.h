@@ -5,5 +5,6 @@
 //
 
 @protocol ProximityReaderCore.PaymentTerminalServiceInterface
+- (void);
 @end
 

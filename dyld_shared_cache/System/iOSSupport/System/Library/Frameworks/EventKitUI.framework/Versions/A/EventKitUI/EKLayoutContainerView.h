@@ -11,10 +11,10 @@
     id <EKLayoutContainerViewDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (void)belHeightConstraint: /* Error: Ran out of types for this method. */;
+- (void)error:(id)arg1 %@;
+- (void)setTopTimeLabelHeightConstraint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <EKLayoutContainerViewDelegate> delegate; // @synthesize delegate=_delegate;

@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (const void *);
-- (void);
-- (struct __IOSurface *);
+- (void)A;
+- (struct __IOSurface *)cks from:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 

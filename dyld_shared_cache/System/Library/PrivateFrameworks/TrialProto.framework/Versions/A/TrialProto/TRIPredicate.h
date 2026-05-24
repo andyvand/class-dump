@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, TRICovariate;
-
 @interface TRIPredicate : TRIPBMessage
 {
 }
@@ -15,12 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRICovariate *covariate; // @dynamic covariate;
-@property(nonatomic) _Bool hasOperation; // @dynamic hasOperation;
-@property(retain, nonatomic) NSMutableArray *operandArray; // @dynamic operandArray;
-@property(readonly, nonatomic) unsigned long long operandArray_Count; // @dynamic operandArray_Count;
-@property(nonatomic) int operation; // @dynamic operation;
-@property(nonatomic) int systemVariable; // @dynamic systemVariable;
 @property(readonly, nonatomic) int targetingKeyOneOfCase; // @dynamic targetingKeyOneOfCase;
 
 @end

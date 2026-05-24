@@ -6,13 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class DMFControlGroupIdentifier, NSArray, NSDate;
+@class DMFControlGroupIdentifier;
 
 @interface DMFJoinControlGroupRequest : DMFTaskRequest
 {
     DMFControlGroupIdentifier *_groupIdentifier;
-    NSArray *_leaderIdentifiers;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
@@ -24,12 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)bel;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) DMFControlGroupIdentifier *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSArray *leaderIdentifiers; // @synthesize leaderIdentifiers=_leaderIdentifiers;
 
 @end
 

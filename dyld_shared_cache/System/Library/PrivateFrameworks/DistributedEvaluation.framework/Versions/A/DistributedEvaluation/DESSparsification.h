@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (_Bool);
+- (id)y.typeIdentifier.custom.bundleId;
+- (_Bool)lowed.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 
 @end
 

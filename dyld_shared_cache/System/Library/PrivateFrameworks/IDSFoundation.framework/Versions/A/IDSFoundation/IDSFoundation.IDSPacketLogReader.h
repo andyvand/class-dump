@@ -7,12 +7,6 @@
 @interface IDSFoundation.IDSPacketLogReader
 {
     id fileHandle;
-    id inputFilter;
-    id sessionID;
-    id startTime;
-    id startTimeIntervalSinceReferenceDate;
-    id buffer;
-    id linkInfos;
 }
 
 @end

@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModelContainer;
-@protocol HMBLocalZoneDelegate;
-
 @interface HMBLocalZoneConfiguration
 {
     _Bool _readOnly;
-    _Bool _createIfNeeded;
-    HMBModelContainer *_modelContainer;
-    id <HMBLocalZoneDelegate> _delegate;
 }
 
 - (void);
 - (void);
+- (_Bool)lic}@" has entitlement to use openByID;
+- (id);
+- (id)B;
+- (id);
+- (void);
+- (id)%@;
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool createIfNeeded; // @synthesize createIfNeeded=_createIfNeeded;
-@property(nonatomic) __weak id <HMBLocalZoneDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) HMBModelContainer *modelContainer; // @synthesize modelContainer=_modelContainer;
 @property(nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
 
 @end

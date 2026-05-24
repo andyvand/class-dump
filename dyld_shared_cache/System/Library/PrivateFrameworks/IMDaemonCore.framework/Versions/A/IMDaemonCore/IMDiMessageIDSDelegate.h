@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, IMDAccountController, IMDAttachmentStore, IMDChatRegistry, IMDMessageFromStorageController, IMDMessageStore, IMDRecentsController, IMDiMessageIncomingMessageHandler, NSString;
+@class IDSService;
 
 @interface IMDiMessageIDSDelegate
 {
     _Bool _runningInAutomation;
-    IDSService *_idsService;
-    IDSService *_bizChatService;
-    IMDiMessageIncomingMessageHandler *_handler;
-    IMDMessageStore *_messageStore;
-    IMDAccountController *_accountController;
-    IMDMessageFromStorageController *_messageFromStorageController;
-    IMDChatRegistry *_chatRegistry;
-    IMDRecentsController *_recentsController;
-    IMDAttachmentStore *_attachmentStore;
 }
 
 + (void);
@@ -34,16 +25,16 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool));
 - (id);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (id);
@@ -51,23 +42,7 @@
 - (id)on-empty salt %@;
 
 // Remaining properties
-@property(readonly, retain) IMDAccountController *accountController; // @synthesize accountController=_accountController;
-@property(readonly, retain) IMDAttachmentStore *attachmentStore; // @synthesize attachmentStore=_attachmentStore;
-@property(readonly, retain) IDSService *bizChatService; // @synthesize bizChatService=_bizChatService;
-@property(readonly, retain) IMDChatRegistry *chatRegistry; // @synthesize chatRegistry=_chatRegistry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain) IMDiMessageIncomingMessageHandler *handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain) IDSService *idsService; // @synthesize idsService=_idsService;
-@property(readonly, retain) IMDMessageFromStorageController *messageFromStorageController; // @synthesize messageFromStorageController=_messageFromStorageController;
-@property(readonly, retain) IMDMessageStore *messageStore; // @synthesize messageStore=_messageStore;
-@property(readonly, retain) IMDRecentsController *recentsController; // @synthesize recentsController=_recentsController;
-@property _Bool runningInAutomation; // @synthesize runningInAutomation=_runningInAutomation;
-@property(readonly) Class superclass;
 
 @end
 

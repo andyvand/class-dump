@@ -13,7 +13,7 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void)cessResponse: /* Error: Ran out of types for this method. */;
+- (void)purchase:willProcessResponse: /* Error: Ran out of types for this method. */;
 
 @end
 

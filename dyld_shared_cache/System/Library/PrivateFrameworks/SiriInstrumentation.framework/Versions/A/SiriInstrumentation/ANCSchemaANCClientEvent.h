@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ANCSchemaANCClientEventMetadata, ANCSchemaANCNotificationReceived, ANCSchemaANCNotificationReceivedTier1, ANCSchemaANCUserResponseEvaluated, NSData, SISchemaInstrumentationMessage;
+@class ANCSchemaANCClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ANCSchemaANCClientEvent : SISchemaTopLevelUnionType
 {
     ANCSchemaANCClientEventMetadata *_eventMetadata;
-    ANCSchemaANCNotificationReceived *_notificationReceived;
-    ANCSchemaANCUserResponseEvaluated *_userResponseEvaluated;
-    ANCSchemaANCNotificationReceivedTier1 *_notificationReceivedTier1;
-    _Bool _hasEventMetadata;
-    _Bool _hasNotificationReceived;
-    _Bool _hasUserResponseEvaluated;
-    _Bool _hasNotificationReceivedTier1;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -36,15 +28,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)?	;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)ewBridge;
 - (id);
 - (id);
 - (int);
@@ -52,28 +44,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)ionInfo: /* Error: Ran out of types for this method. */;
-- (id)st;
-- (unsigned long long)nDiscoveryToolTipDisplayContext;
+- (_Bool);
+- (id);
+- (id)setTestSessionInfo: /* Error: Ran out of types for this method. */;
+- (id)deleteIsThirdPartyRequest;
+- (unsigned long long)SISchemaUEIDictationDiscoveryToolTipDisplayContext;
 - (id)¼ThUìUìV4WhYZ;
-- (id)eFrequency;
+- (id)mobileAssetDownloadErrorCodeFrequency;
 - (int)redMessages.siriEventTypeUnion.nlxClientEvent.cdmMatchingSpanEndedTier1.matchingSpans.internalSpanData.siriVocabularySpanData.priorOrdinality;
 - (void)KH';
 
 // Remaining properties
-@property(retain, nonatomic) ANCSchemaANCClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasNotificationReceived; // @synthesize hasNotificationReceived=_hasNotificationReceived;
-@property(nonatomic) _Bool hasNotificationReceivedTier1; // @synthesize hasNotificationReceivedTier1=_hasNotificationReceivedTier1;
-@property(nonatomic) _Bool hasUserResponseEvaluated; // @synthesize hasUserResponseEvaluated=_hasUserResponseEvaluated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ANCSchemaANCNotificationReceived *notificationReceived; // @synthesize notificationReceived=_notificationReceived;
-@property(retain, nonatomic) ANCSchemaANCNotificationReceivedTier1 *notificationReceivedTier1; // @synthesize notificationReceivedTier1=_notificationReceivedTier1;
-@property(retain, nonatomic) ANCSchemaANCUserResponseEvaluated *userResponseEvaluated; // @synthesize userResponseEvaluated=_userResponseEvaluated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

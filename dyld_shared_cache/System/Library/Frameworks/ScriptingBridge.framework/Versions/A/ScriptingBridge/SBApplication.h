@@ -6,8 +6,6 @@
 
 #import <ScriptingBridge/SBObject.h>
 
-@protocol SBApplicationDelegate;
-
 @interface SBApplication : SBObject
 {
 }
@@ -20,34 +18,107 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)Item"24@?<v@?B>32;
+- (id)pler, tc, vec2(+0.5, -1.5) ).rgb;
+    sum += tex2Doffset( colorSampler, tc, vec2(-1.5, -0.5) ).rgb;
+    sum += tex2Doffset( colorSampler, tc, vec2(-0.5, +1.5) ).rgb;
+    sum += tex2Doffset( colorSampler, tc, vec2(+1.5, +0.5) ).rgb;
+    return (4.0 * sum + unblur) / 17.;
+}
+
+vec4 InterpolateDof( vec3 unblur, vec3 small, vec3 med, vec3 large, float t )
+{  
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    vec4 weights = saturate( t * dofLerpScale + dofLerpBias );
+    weights.yz = min( weights.yz, 1. - weights.xy );
+    
+    
+    
+    
+    vec3 color = weights.x * unblur + weights.y * small + weights.z * med + weights.w * large;
+    return vec4(color, 1.);
+    
+    
+    
+    
+}
+
+#define DEBUG 0
+
+void main (void)
+{
+    vec3 unblur = texture2D( colorSampler, v_texCoord ).rgb;
+    vec3 small 	= GetSmallBlurSample(unblur, v_texCoord );
+    vec4 med 	= texture2D( smallBlurSampler, v_texCoord );
+    vec3 large 	= texture2D( largeBlurSampler, v_texCoord ).rgb;
+    float nearCoc = med.a;
+    float depth = texture2D( depthSampler, v_texCoord ).r;
+    
+    
+    float farCoc = saturate( - (CocScaleBias.x * depth + CocScaleBias.y) );
+
+    float coc;
+    
+    
+    
+    
+    {
+        
+        coc = max( nearCoc, farCoc  );
+    }
+    gl_FragColor = InterpolateDof( unblur, small, med.rgb, large.rgb, coc );
+
+#if DEBUG
+    if (v_texCoord.x < 0.15) {
+        gl_FragColor = vec4(unblur, 1.);
+    } else if (v_texCoord.x < 0.3) {
+        gl_FragColor = vec4(small, 1.);
+    } else if (v_texCoord.x < 0.45) {
+        gl_FragColor = med;
+    } else if (v_texCoord.x < 0.6) {
+        gl_FragColor = vec4(large, 1.);
+        
+    } else if (v_texCoord.x < 0.70) {
+        gl_FragColor = vec4(nearCoc, nearCoc, nearCoc, 1.);
+    } else if (v_texCoord.x < 0.8){
+        gl_FragColor = vec4(farCoc, farCoc, farCoc, 1.);
+    }
+#endif
+    
+}
+;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (Class);
-- (void);
+- (void)constraintGreaterThanOrEqualToConstant:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ft/libswiftsimd.dylib;
+- (id)s/ViewBridge.framework/Versions/A/ViewBridge;
 - (id);
 - (unsigned int);
 - (_Bool);
 - (id);
 - (long long);
-- (int);
+- (int);
 
 // Remaining properties
-@property(retain) id <SBApplicationDelegate> delegate;
-@property unsigned int launchFlags;
 @property(readonly, getter=isRunning) _Bool running;
-@property int sendMode;
-@property long long timeout;
 
 @end
 

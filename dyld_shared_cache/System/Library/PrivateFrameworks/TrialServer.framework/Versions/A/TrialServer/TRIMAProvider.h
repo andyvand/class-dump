@@ -11,17 +11,17 @@
     TRISQLiteMADatabase *_db;
 }
 
-+ (id);
++ (id)decodeRectForKey:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)attributesAtIndex:(id)arg1 longestEffectiveRange:(id)arg2 inRange:(id)arg3;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)a×ð!ðGù1!°1Â0@ù
 × ;
 

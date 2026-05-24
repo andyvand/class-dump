@@ -11,22 +11,13 @@
 @interface EWSItemIdType : EWSBaseItemIdType
 {
     NSString *_Id;
-    NSString *_ChangeKey;
 }
 
-+ (_Bool);
++ (_Bool)lockForConfiguration: /* Error: Ran out of types for this method. */;
 + (id);
 
 // Remaining properties
-@property(copy) NSString *ChangeKey; // @synthesize ChangeKey=_ChangeKey;
 @property(copy) NSString *Id; // @synthesize Id=_Id;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

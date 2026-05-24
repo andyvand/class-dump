@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _AXFMouseCursorGeneratorStyleInfo;
+@class NSMutableArray;
 
 @interface _AXFMouseCursorGenerator
 {
     _Bool __shouldSwapColors;
-    NSMutableArray *__layers;
-    _AXFMouseCursorGeneratorStyleInfo *__style;
-    struct CGPoint __baseHotspot;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (struct CGPoint);
 + (id);
@@ -32,19 +29,15 @@
 - (struct CGPoint);
 - (id);
 - (id);
-- (void);
+- (void)V_keychainKey;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void):,V_airplaneModeEnabled /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint _baseHotspot; // @synthesize _baseHotspot=__baseHotspot;
-@property(readonly, nonatomic) struct CGSize _baseSize;
 @property(retain, nonatomic) NSMutableArray *_layers; // @synthesize _layers=__layers;
-@property(nonatomic) _Bool _shouldSwapColors; // @synthesize _shouldSwapColors=__shouldSwapColors;
-@property(retain, nonatomic) _AXFMouseCursorGeneratorStyleInfo *_style; // @synthesize _style=__style;
 
 @end
 

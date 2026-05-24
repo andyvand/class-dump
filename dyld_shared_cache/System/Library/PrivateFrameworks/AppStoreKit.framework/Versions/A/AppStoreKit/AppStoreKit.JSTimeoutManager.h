@@ -7,12 +7,11 @@
 @interface AppStoreKit.JSTimeoutManager
 {
     id promiseQueue;
-    id activePromisesBox;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)o;
+- (id)o;
+- (id)!;
 - (void)3key_AY5valuet;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol PKBluetoothMonitorerDelegate
+- (void);
 @end
 

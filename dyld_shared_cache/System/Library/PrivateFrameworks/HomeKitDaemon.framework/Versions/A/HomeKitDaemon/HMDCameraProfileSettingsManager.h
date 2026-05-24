@@ -4,62 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraCapabilitiesResponse, HMDBulletinBoard, HMDCameraBulletinNotificationManager, HMDCameraProfileSettingsCoreDataAdapter, HMDCameraProfileSettingsDerivedPropertiesModel, HMDCameraProfileSettingsModel, HMDCameraProfileSettingsQuotaCoordinator, HMDCharacteristicsAvailabilityListener, HMDFeaturesDataSource, HMDHAPAccessory, HMFMessageDispatcher, NSNotificationCenter, NSNumber, NSObject, NSString, NSUUID, _HMCameraUserSettings;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfileSettingsManager
 {
     _Bool _hasStarted;
-    _Bool _needsInitialSettingsCharacteristicSynchronization;
-    NSUUID *_uniqueIdentifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_hapAccessory;
-    NSNotificationCenter *_notificationCenter;
-    HMDBulletinBoard *_bulletinBoard;
-    HMDCharacteristicsAvailabilityListener *_characteristicsAvailabilityListener;
-    HMDCameraProfileSettingsQuotaCoordinator *_quotaCoordinator;
-    NSString *_clientIdentifier;
-    HMDFeaturesDataSource *_featuresDataSource;
-    HMDCameraProfileSettingsCoreDataAdapter *_coreDataAdapter;
-    HMDCameraProfileSettingsModel *_previousSettingsModel;
-    HMDCameraProfileSettingsDerivedPropertiesModel *_previousDerivedPropertiesModel;
-    HMFMessageDispatcher *_msgDispatcher;
-    HAPCameraCapabilitiesResponse *_cameraCapabilities;
-    NSNumber *_anyUserAtHome;
 }
 
 + (id);
 + (id)ÍB;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)fetchCapabilityLevelForContact:(CDUnknownBlockType)arg1 timeout:(CDUnknownBlockType)arg2 queue:completion: /* Error: Ran out of types for this method. */;
+- (void)_didStartSharingWithContact:(CDUnknownBlockType)arg1 withCapabilityType:serviceName:error:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)_dataToSign;
+- (void)message without destinations after removing self;
+- (void)ccountID %@;
+- (void)ublic}@, closureReason:(_Bool)arg1 %{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (void)%lu blocked trip identifiers...;
+- (void)SharedTripCapabilityFetchingQueue;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -124,12 +113,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)uuidsOfRequiredAssetsForSharingFilter: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tFrame:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -140,12 +129,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (id)lient";
-- (id)rt;
-- (void)tivityBroadcaster;
+- (id)_hostIPStart;
+- (void)_activityBroadcaster;
 - (void)public}@Failed to unarchive home from uncompressed data:%@ /* Error: Ran out of types for this method. */;
 - (id)essful;
-- (unsigned long long)dSoftAP;
-- (void)eadWriteLogEvent;
+- (unsigned long long)JoinedSoftAP;
+- (void)TemperatureHumidityReadWriteLogEvent;
 - (id)h!A;
 - (id)A;
 - (_Bool)RtWA;
@@ -153,46 +142,6 @@ __attribute__((visibility("hidden")))
 - (id)Ô+B;
 
 // Remaining properties
-@property(copy, getter=isAnyUserAtHome) NSNumber *anyUserAtHome; // @synthesize anyUserAtHome=_anyUserAtHome;
-@property(readonly) HMDBulletinBoard *bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-@property(readonly) HMDCameraBulletinNotificationManager *cameraBulletinNotificationManager;
-@property(retain) HAPCameraCapabilitiesResponse *cameraCapabilities; // @synthesize cameraCapabilities=_cameraCapabilities;
-@property(readonly, getter=isCameraManuallyDisabled) _Bool cameraManuallyDisabled;
-@property(readonly) HMDCharacteristicsAvailabilityListener *characteristicsAvailabilityListener; // @synthesize characteristicsAvailabilityListener=_characteristicsAvailabilityListener;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly) HMDCameraProfileSettingsCoreDataAdapter *coreDataAdapter; // @synthesize coreDataAdapter=_coreDataAdapter;
-@property(readonly) _HMCameraUserSettings *currentSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) HMDCameraProfileSettingsModel *defaultSettingsModel;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,N
-
-@property(readonly) HMDCameraProfileSettingsDerivedPropertiesModel *derivedPropertiesModel;
-@property(readonly, copy) NSUUID *derivedPropertiesModelID;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDFeaturesDataSource *featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property _Bool needsInitialSettingsCharacteristicSynchronization; // @synthesize needsInitialSettingsCharacteristicSynchronization=_needsInitialSettingsCharacteristicSynchronization;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(copy) HMDCameraProfileSettingsDerivedPropertiesModel *previousDerivedPropertiesModel; // @synthesize previousDerivedPropertiesModel=_previousDerivedPropertiesModel;
-@property(copy) HMDCameraProfileSettingsModel *previousSettingsModel; // @synthesize previousSettingsModel=_previousSettingsModel;
-@property(readonly) HMDCameraProfileSettingsQuotaCoordinator *quotaCoordinator; // @synthesize quotaCoordinator=_quotaCoordinator;
-@property(readonly, getter=isRecordingEnabled) _Bool recordingEnabled;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long supportedFeatures;
-@property(readonly, copy) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol MLBatchProvider;
 
 __attribute__((visibility("hidden")))
 @interface MLIndexedBatchProvider
 {
     id <MLBatchProvider> _fullBatch;
-    NSArray *_indices;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(retain, nonatomic) id <MLBatchProvider> fullBatch; // @synthesize fullBatch=_fullBatch;
-@property(retain, nonatomic) NSArray *indices; // @synthesize indices=_indices;
 
 @end
 

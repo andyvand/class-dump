@@ -7,7 +7,6 @@
 @interface PassKitCore.ProvisioningCredentialsConfiguration.CarKeyInviteState
 {
     id sharedState;
-    id share;
 }
 
 @end

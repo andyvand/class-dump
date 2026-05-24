@@ -11,10 +11,6 @@
 @interface MPSNNPad : MPSCNNKernel
 {
     id <MTLBuffer> _aBuf;
-    unsigned long long _aBufFP32Len;
-    float _fillValue;
-    struct MPSImageCoordinate _paddingSizeBefore;
-    struct MPSImageCoordinate _paddingSizeAfter;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -30,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -38,8 +34,6 @@
 - (id)scriptor may not be nil;
 
 // Remaining properties
-@property(nonatomic) float fillValue; // @synthesize fillValue=_fillValue;
-@property(nonatomic) struct MPSImageCoordinate paddingSizeAfter; // @synthesize paddingSizeAfter=_paddingSizeAfter;
 @property(nonatomic) struct MPSImageCoordinate paddingSizeBefore; // @synthesize paddingSizeBefore=_paddingSizeBefore;
 
 @end

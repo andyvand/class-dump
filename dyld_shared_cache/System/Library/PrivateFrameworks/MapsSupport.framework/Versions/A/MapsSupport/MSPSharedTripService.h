@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDTimer, GEOObserverHashTable, MSPMapsPaths, MSPSharedTripContactController, MSPSharedTripSharingIdentity, NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface MSPSharedTripService
 {
     NSXPCConnection *_connection;
-    _Bool _connectionError;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    unsigned long long _connectionRetryCounter;
-    NSDate *_reconnectionBackoffUntilDate;
-    GEOObserverHashTable *_receivingObservers;
-    GEOObserverHashTable *_sendingObservers;
-    NSMutableArray *_receivedTrips;
-    MSPSharedTripContactController *_sharingContactController;
-    NSMutableDictionary *_subscriptionTokensByTripID;
-    NSString *_sharingGroupIdentifier;
-    struct os_unfair_lock_s _sharingIdentityLock;
-    unsigned long long _permissions;
-    MSPSharedTripSharingIdentity *_sharingIdentity;
-    NSObject<OS_dispatch_group> *_checkinDispatchGroup;
-    id _userDisabledDefaultListener;
-    id _serverDisabledDefaultListener;
-    MSPMapsPaths *_mapsPaths;
-    _Bool _confirmedMapsIsInstalled;
-    _Bool _networkReachable;
-    id _blockListMonitoringObserver;
-    GCDTimer *_blockListCoalescingTimer;
 }
 
 + (_Bool);
@@ -55,18 +33,18 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void)(!;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -83,40 +61,49 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)ewDataSource";
+- (void)ist:(id)arg1 forcePlace:(unsigned long long)arg2 applyNow:(CDUnknownBlockType)arg3;
 - (void);
+- (void)ĬP;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)SYReturnToSenderRequest;
+- (id);
+- (void)oller init:(id)arg1 frame:containerLayoutManager:]E4$_23FvP14NSNotificationEEE /* Error: Ran out of types for this method. */;
+- (void)0__function6__funcIZ55-[FI_TListView _setUpImmediateActionGestureRecognizers]E3$_8FbRK7TFENode7CGPointEEE;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)U;
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)L;
+- (void)orderedSetWithArray: /* Error: Ran out of types for this method. */;
+- (id)l, timestamp, width, height, has_generated_representations) VALUES (?, ?, ?, ?, ?, ?);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -131,31 +118,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)torage;
+- (void)routeRequestStorage;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAddReceivers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool entitledToReceiveTrips;
 @property(readonly, nonatomic) _Bool entitledToShareTrip;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *receivedTrips;
-@property(readonly, nonatomic) NSArray *receivers;
-@property(readonly, nonatomic) MSPSharedTripSharingIdentity *sharingIdentity;
-@property(readonly) Class superclass;
 
 @end
 

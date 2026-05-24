@@ -7,7 +7,6 @@
 @interface ContactsAutocomplete.HandleAvailability.LookupSpy
 {
     id wrapping;
-    id callsToStatus;
 }
 
 @end

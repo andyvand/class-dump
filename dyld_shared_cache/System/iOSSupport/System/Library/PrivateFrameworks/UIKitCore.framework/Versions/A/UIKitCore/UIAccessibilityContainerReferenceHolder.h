@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     id _referencedContainer;
 }
 
-- (void);
-- (id);
+- (void)r peer attachment completion for attachment:(id)arg1 %@;
+- (id)IncomingClientConnectionListening;
 - (void)XncþÂ;
 
 // Remaining properties

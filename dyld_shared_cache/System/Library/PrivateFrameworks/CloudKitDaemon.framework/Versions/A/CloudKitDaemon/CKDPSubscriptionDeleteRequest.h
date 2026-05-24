@@ -13,9 +13,10 @@
 
 + (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)severeGlitches=%s) to 1 per %d sec. Next in %llu sec
+;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -25,12 +26,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class)ue: /* Error: Ran out of types for this method. */;
+- (Class)initWithRecord:callbackQueue: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

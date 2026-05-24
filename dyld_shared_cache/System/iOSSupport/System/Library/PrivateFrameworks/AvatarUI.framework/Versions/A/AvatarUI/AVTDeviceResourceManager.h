@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol AVTUILogger, OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface AVTDeviceResourceManager
 {
     NSMutableArray *_consumers;
-    id <AVTUILogger> _logger;
-    NSObject<OS_dispatch_queue> *_stateLock;
 }
 
 - (void);
@@ -26,15 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *consumers; // @synthesize consumers=_consumers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
 
 @end
 

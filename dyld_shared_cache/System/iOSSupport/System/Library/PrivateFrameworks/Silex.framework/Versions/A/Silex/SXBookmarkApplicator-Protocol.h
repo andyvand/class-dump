@@ -5,6 +5,6 @@
 //
 
 @protocol SXBookmarkApplicator
-- (void)g_threshold_override_enabled;
+- (void)loose_layouting_threshold_override_enabled;
 @end
 

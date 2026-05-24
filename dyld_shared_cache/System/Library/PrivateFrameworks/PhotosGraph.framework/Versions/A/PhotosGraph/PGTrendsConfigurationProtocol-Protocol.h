@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol PGTrendsConfigurationProtocol
+- (NSString *)oardFocusElementInfo"32;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *featureLabel;
-@property(readonly, nonatomic) NSArray *validTrendTypes;
 @end
 

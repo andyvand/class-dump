@@ -6,17 +6,16 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class INInteraction, WFDialogButton;
+@class INInteraction;
 
 @interface WFHandleInteractionDialogRequest : WFDialogRequest
 {
     INInteraction *_interaction;
-    WFDialogButton *_doneButton;
 }
 
-+ (_Bool);
++ (_Bool)__swift5_assocty__TEXT;
 - (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFDialogButton *doneButton; // @synthesize doneButton=_doneButton;
 @property(readonly, copy, nonatomic) INInteraction *interaction; // @synthesize interaction=_interaction;
 
 @end

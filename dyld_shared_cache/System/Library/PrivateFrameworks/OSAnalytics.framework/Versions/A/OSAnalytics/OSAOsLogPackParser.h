@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface OSAOsLogPackParser
 {
     _Bool _formatStringIsSafe;
-    CDUnknownBlockType _pointerPointsToSafeMemory;
-    CDUnknownBlockType _modulePathForMemoryPointer;
-    CDUnknownBlockType _readCStringFromTarget;
-    NSString *_formatString;
-    NSString *_formatStringOriginatingModulePath;
-    unsigned long long _maxNumArguments;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void)lderPlatterView;
+- (void)eStandardSectionInsets;
+- (void)_shouldShowTabIndicator;
+- (void)rawBackgroundWithoutSelection;
+- (void)dDrawBackgroundColor;
+- (CDUnknownBlockType)InLeadingGroup;
+- (CDUnknownBlockType)_isInUpNext;
+- (CDUnknownBlockType)B,N,V_hasFocusableElements;
+- (id)k;
+- (id)",&,N,V_icon;
+- (_Bool)ction;
+- (id)"TLKStoreButton",&,N,V_viewButton;
+- (id)iew",&,N,V_innerContainer;
+- (id)erView",&,N,V_splitHeaderView;
+- (unsigned long long)iew;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *formatString; // @synthesize formatString=_formatString;
-@property _Bool formatStringIsSafe; // @synthesize formatStringIsSafe=_formatStringIsSafe;
-@property(copy) NSString *formatStringOriginatingModulePath; // @synthesize formatStringOriginatingModulePath=_formatStringOriginatingModulePath;
-@property(readonly, nonatomic) unsigned long long maxNumArguments; // @synthesize maxNumArguments=_maxNumArguments;
-@property(copy) CDUnknownBlockType modulePathForMemoryPointer; // @synthesize modulePathForMemoryPointer=_modulePathForMemoryPointer;
 @property(copy) CDUnknownBlockType pointerPointsToSafeMemory; // @synthesize pointerPointsToSafeMemory=_pointerPointsToSafeMemory;
-@property(copy) CDUnknownBlockType readCStringFromTarget; // @synthesize readCStringFromTarget=_readCStringFromTarget;
 
 @end
 

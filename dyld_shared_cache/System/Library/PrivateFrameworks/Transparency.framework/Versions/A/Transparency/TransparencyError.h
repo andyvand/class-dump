@@ -14,11 +14,11 @@
 + (id);
 + (id);
 + (id);
++ (id)"%@"] sorted and filtered %lu items. Final items count:(id)arg1 %lu;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

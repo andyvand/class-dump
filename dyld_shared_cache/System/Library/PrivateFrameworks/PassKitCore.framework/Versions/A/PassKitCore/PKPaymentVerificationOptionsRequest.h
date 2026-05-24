@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKSecureElementPass;
+@class NSString;
 
 @interface PKPaymentVerificationOptionsRequest : PKPaymentWebServiceRequest
 {
     NSString *_stepIdentifier;
-    PKSecureElementPass *_pass;
 }
 
 + (id);
@@ -19,11 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)ResponseKey;
+- (id);
+- (void)PKSharingForceEmptyVehicleManufacturerResponseKey;
 
 // Remaining properties
-@property(retain, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;
 @property(copy, nonatomic) NSString *stepIdentifier; // @synthesize stepIdentifier=_stepIdentifier;
 
 @end

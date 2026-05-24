@@ -8,10 +8,10 @@
 @protocol OS_dispatch_queue;
 
 @protocol CBPairable
+- (void)oder;
+- (NSObject<OS_dispatch_queue> *)P;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType pairingCompletedHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairingPromptHandler;
 @end
 

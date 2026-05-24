@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DSPGMLInputProvider, NSSet;
-@protocol MLFeatureProvider, SNMLModelObjCProtocol;
+@protocol SNMLModelObjCProtocol;
 
 @interface DSPGCoreMLInfo
 {
     id <SNMLModelObjCProtocol> _model;
-    NSSet *_feedbackConnections;
-    DSPGMLInputProvider *_inputProvider;
-    id <MLFeatureProvider> _outputProvider;
 }
 
 - (void),ùÿhùÿtùÿùÿùÿùÿ¼ùÿøùÿùÿ@ùÿdùÿ,ùÿPùÿtùÿùÿ¼ùÿàùÿùÿ@ùÿdùÿ°ùÿüùÿHùÿùÿÀùÿðùÿ ùÿhùÿùÿÈùÿøùÿ@ùÿpùÿ ùÿ ùÿDùÿhùÿ¤ùÿÈùÿìùÿùÿLùÿpùÿùÿ¸ùÿôùÿùÿTùÿxùÿ´ùÿ;

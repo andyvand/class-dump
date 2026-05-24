@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MTLMessageNotifier
 {
     MTLMessageFilter *_filter;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain) MTLMessageFilter *filter; // @synthesize filter=_filter;
-@property(readonly) CDUnknownBlockType handler; // @synthesize handler=_handler;
 
 @end
 

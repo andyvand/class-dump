@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSObject, PKInstallAnalyzer, PKInstallOperation, PKInstallRequest;
-@protocol OS_dispatch_queue, PKInstallOperationControllerDelegate><NSObject;
+@class NSError, PKInstallRequest;
 
 @interface PKInstallOperationController
 {
     PKInstallRequest *_request;
-    PKInstallAnalyzer *_analyzer;
-    NSMutableArray *_operations;
-    PKInstallOperation *_lastCancellableOp;
-    double _queuedTime;
-    double _dequeuedTime;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    _Bool _isRunning;
-    _Bool _isCancelled;
-    NSError *_error;
-    NSMutableDictionary *_trackingHistory;
-    id <PKInstallOperationControllerDelegate><NSObject> _delegate;
 }
 
 + (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)T ;
 - (int);
 - (id);
-- (void);
+- (void)w;
 - (id);
 - (id);
 - (void);
@@ -48,10 +36,9 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)__TEXT;
 
 // Remaining properties
-@property(readonly) __weak id <PKInstallOperationControllerDelegate><NSObject> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSError *error; // @synthesize error=_error;
 
 @end

@@ -6,19 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCFeedItemServiceCursor, FCPeopleAlsoReadConfiguration, NSArray, NSDate;
-@protocol FCContentContext, FCReadingHistoryType;
+@protocol FCContentContext;
 
 @interface FCPeopleAlsoReadArticlesOperation : FCOperation
 {
     CDUnknownBlockType _feedItemHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_networkEvents;
-    id <FCContentContext> _contentContext;
-    FCPeopleAlsoReadConfiguration *_configuration;
-    id <FCReadingHistoryType> _readingHistory;
-    FCFeedItemServiceCursor *_cursor;
-    NSDate *_referenceDate;
 }
 
 - (void);
@@ -44,24 +36,17 @@
 - (id);
 - (id)!Ð! Dùñ(	°1Â0@ù
 × ;
-- (void)_dictionaryOfSortedObjectsWithKeyBlock:(CDUnknownBlockType)arg1;
+- (void)fc_dictionaryOfSortedObjectsWithKeyBlock:(CDUnknownBlockType)arg1;
 - (void)ate:%@ /* Error: Ran out of types for this method. */;
 - (void)];
-- (void)nConfigurations;
+- (void)aggregateModificationConfigurations;
 - (id)data for Video Magazine Feed Paywall! Defaulting to Regular Magazine Feed Paywall type!;
 - (id)ü*¸ÿ0;
 - (_Bool)èúÔÿ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) FCPeopleAlsoReadConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(copy, nonatomic) FCFeedItemServiceCursor *cursor; // @synthesize cursor=_cursor;
-@property(copy, nonatomic) CDUnknownBlockType feedItemHandler; // @synthesize feedItemHandler=_feedItemHandler;
-@property(retain, nonatomic) NSArray *networkEvents; // @synthesize networkEvents=_networkEvents;
-@property(retain, nonatomic) id <FCReadingHistoryType> readingHistory; // @synthesize readingHistory=_readingHistory;
-@property(copy, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
 
 @end
 

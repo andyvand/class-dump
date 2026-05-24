@@ -7,19 +7,6 @@
 @interface ChronoKit.ChronoMetadataStore.MutableStore
 {
     id extensionStore;
-    id remoteExtensionsStore;
-    id configuredWidgetStore;
-    id hostStore;
-    id previewConfigurationStore;
-    id stateReplicatorDeviceMetadataStore;
-    id stateReplicatorRecordMetadataStore;
-    id stateReplicatorPairingRelationshipStore;
-    id reloadStateStore;
-    id remoteActivitySubscriptionStore;
-    id remoteActivityArchiveBudgetStore;
-    id pushSubscriptionStore;
-    id publicTokenStore;
-    id pushTokenStore;
 }
 
 @end

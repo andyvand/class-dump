@@ -9,13 +9,9 @@
 @interface GEORPFilter
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _placeMuid;
-    struct {
-        unsigned int has_placeMuid:1;
-    } _flags;
 }
 
-+ (_Bool)alPercent:(id)arg1;
++ (_Bool)setLastDetectedLocationTraversalPercent:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -23,9 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)';
+- (void)h
+;
+- (void)CSVoiceTriggerXPCClientDelegate;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -34,13 +31,11 @@
 - (id)1"read_routePlanningParameters"b1"wrote_anyField"b1};
 - (id)cancelKey:forClient: /* Error: Ran out of types for this method. */;
 - (id)ÈÄ;
-- (id)ctionInit;
+- (id)AddressCorrectionInit;
 - (void)âÌ¯æ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasPlaceMuid;
-@property(nonatomic) unsigned long long placeMuid;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

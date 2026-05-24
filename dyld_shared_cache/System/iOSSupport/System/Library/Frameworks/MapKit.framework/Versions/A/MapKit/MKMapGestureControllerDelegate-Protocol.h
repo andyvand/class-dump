@@ -5,5 +5,9 @@
 //
 
 @protocol MKMapGestureControllerDelegate
+- (_Bool);
+- (void);
+- (void)C;
+- (void)h;
 @end
 

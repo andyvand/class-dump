@@ -13,12 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)interactions;
 
 // Remaining properties
 @property(retain) NSUUID *assistantAccessControlModelUUID; // @dynamic assistantAccessControlModelUUID;
-@property(retain) NSUUID *mediaContentProfileAccessControlModelUUID; // @dynamic mediaContentProfileAccessControlModelUUID;
-@property(retain) NSUUID *userListeningHistoryUpdateControlModelUUID; // @dynamic userListeningHistoryUpdateControlModelUUID;
 
 @end
 

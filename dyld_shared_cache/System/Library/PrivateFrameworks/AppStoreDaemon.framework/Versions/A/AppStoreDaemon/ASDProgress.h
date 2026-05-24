@@ -9,27 +9,13 @@
 @interface ASDProgress
 {
     _Bool _reportRemotely;
-    _Bool _hasPostProcessing;
-    NSString *_bundleID;
-    long long _completedUnitCount;
-    long long _totalUnitCount;
-    long long _downloadCompletedUnitCount;
-    long long _downloadTotalUnitCount;
-    long long _installCompletedUnitCount;
-    long long _installTotalUnitCount;
-    long long _postProcessCompletedUnitCount;
-    long long _postProcessTotalUnitCount;
-    long long _essentialBackgroundAssetDownloadEstimate;
-    long long _phase;
-    long long _secondsRemaining;
-    double _throughput;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,36 +35,22 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ring the current client request when clearing state;
 - (id);
-- (id);
+- (id):(struct _NSZone *)arg1 ];
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)!;
 - (void)0:(long long)arg1 8@?<v@?@"<ASDAppStoreServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
 
 // Remaining properties
 @property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property long long completedUnitCount; // @synthesize completedUnitCount=_completedUnitCount;
-@property long long downloadCompletedUnitCount; // @synthesize downloadCompletedUnitCount=_downloadCompletedUnitCount;
-@property long long downloadTotalUnitCount; // @synthesize downloadTotalUnitCount=_downloadTotalUnitCount;
-@property long long essentialBackgroundAssetDownloadEstimate; // @synthesize essentialBackgroundAssetDownloadEstimate=_essentialBackgroundAssetDownloadEstimate;
-@property _Bool hasPostProcessing; // @synthesize hasPostProcessing=_hasPostProcessing;
-@property long long installCompletedUnitCount; // @synthesize installCompletedUnitCount=_installCompletedUnitCount;
-@property long long installTotalUnitCount; // @synthesize installTotalUnitCount=_installTotalUnitCount;
-@property long long phase; // @synthesize phase=_phase;
-@property long long postProcessCompletedUnitCount; // @synthesize postProcessCompletedUnitCount=_postProcessCompletedUnitCount;
-@property long long postProcessTotalUnitCount; // @synthesize postProcessTotalUnitCount=_postProcessTotalUnitCount;
-@property _Bool reportRemotely; // @synthesize reportRemotely=_reportRemotely;
-@property long long secondsRemaining; // @synthesize secondsRemaining=_secondsRemaining;
-@property double throughput; // @synthesize throughput=_throughput;
-@property long long totalUnitCount; // @synthesize totalUnitCount=_totalUnitCount;
 
 @end
 

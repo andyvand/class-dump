@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPTaskManager, NSSet, NSString;
+@class IMAPTaskManager, NSSet;
 
 @interface IMAPBodyFetchContext
 {
     NSSet *_messages;
-    IMAPTaskManager *_taskManager;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id), syncMode INTEGER, clientCanPullOnly BOOLEAN, clientCanPushOnly BOOLEAN, enabled BOOLEAN, clientWantsToPullTruth BOOLEAN, shouldRefilter BOOLEAN, PRIMARY KEY (clientId, entityName) );
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
 
 @end

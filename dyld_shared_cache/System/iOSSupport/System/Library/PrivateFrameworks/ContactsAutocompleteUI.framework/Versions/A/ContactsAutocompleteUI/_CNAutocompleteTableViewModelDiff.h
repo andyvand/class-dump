@@ -9,8 +9,6 @@
 @interface _CNAutocompleteTableViewModelDiff
 {
     NSIndexSet *_changedRows;
-    NSIndexSet *_deletedRows;
-    NSIndexSet *_insertedRows;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexSet *changedRows; // @synthesize changedRows=_changedRows;
-@property(retain, nonatomic) NSIndexSet *deletedRows; // @synthesize deletedRows=_deletedRows;
-@property(retain, nonatomic) NSIndexSet *insertedRows; // @synthesize insertedRows=_insertedRows;
 
 @end
 

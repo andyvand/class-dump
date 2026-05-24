@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)ntIsUIImage;
+- (id)_UIARACustomizationArgsHintIsUIImage;
 - (void);
 - (void);
 - (void);

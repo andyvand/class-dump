@@ -6,30 +6,28 @@
 
 #import <IDSFoundation/IDSDestination.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSDestinationPushToken : IDSDestination
 {
     NSString *_alias;
-    NSData *_pushToken;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)deviceNameUpdated:(id)arg1 devicesRemaining: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void)er School;
 - (id)connecting candidate pairs:%@ /* Error: Ran out of types for this method. */;
-- (id)sionSignallessParticipantAllocation;
+- (id)RealTimeGroupSessionSignallessParticipantAllocation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *alias; // @synthesize alias=_alias;
-@property(readonly, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 
 @end
 

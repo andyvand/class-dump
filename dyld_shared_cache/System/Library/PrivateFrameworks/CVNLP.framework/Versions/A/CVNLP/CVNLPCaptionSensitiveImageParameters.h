@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CVNLPCaptionSensitiveImageParameters
 {
     NSString *_visionIdentifier;
-    double _minConfidence;
-    NSArray *_blockingTokens;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *blockingTokens; // @synthesize blockingTokens=_blockingTokens;
-@property(readonly, nonatomic) double minConfidence; // @synthesize minConfidence=_minConfidence;
 @property(readonly, nonatomic) NSString *visionIdentifier; // @synthesize visionIdentifier=_visionIdentifier;
 
 @end

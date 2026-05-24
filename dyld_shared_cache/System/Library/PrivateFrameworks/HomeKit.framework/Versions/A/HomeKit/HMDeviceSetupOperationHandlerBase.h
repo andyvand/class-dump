@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDeviceSetupSession, NSString;
+@class HMDeviceSetupSession;
 
 @interface HMDeviceSetupOperationHandlerBase
 {
     HMDeviceSetupSession *_setupSession;
 }
 
-+ (id)stinationSupportedOptionsPayloadKey;
++ (id)HMMediaDestinationSupportedOptionsPayloadKey;
 - (void);
 - (id);
+- (void);
+- (id)et %{public}@ since we've chosen to install another one from the cloud:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)setRemoteParticipantHandles: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HMDeviceSetupSession *setupSession; // @synthesize setupSession=_setupSession;
-@property(readonly) Class superclass;
 
 @end
 

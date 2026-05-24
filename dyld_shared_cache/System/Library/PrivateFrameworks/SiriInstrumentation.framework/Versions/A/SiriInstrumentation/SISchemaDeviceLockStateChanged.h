@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaDeviceLockStateChanged : SISchemaInstrumentationMessage
 {
     _Bool _isDeviceLocked;
-    struct {
-        unsigned int isDeviceLocked:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ance;
+- (_Bool)EXCHANGE_CONDUIT_PATH;
+- (_Bool)e = ? WHERE ROWID = ? AND room_name is NULL;
 - (id);
 - (id);
 - (id)deleteAssetSizeOnDisk;
-- (id)nelScore;
+- (id)_channelScore;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDeviceLocked;
 @property(nonatomic) _Bool isDeviceLocked; // @synthesize isDeviceLocked=_isDeviceLocked;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

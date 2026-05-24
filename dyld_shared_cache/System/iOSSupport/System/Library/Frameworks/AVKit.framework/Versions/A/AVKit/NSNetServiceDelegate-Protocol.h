@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSNetService;
+
 @protocol NSNetServiceDelegate
+
+@optional
+- (void);
+- (void)takeActionOnURLRequest:(NSNetService *)arg1;
+- (void)takeActionOnOperation:(NSNetService *)arg1 proceedBlock: /* Error: Ran out of types for this method. */;
+- (void)tableGroupOptionsForContainerType:(NSNetService *)arg1;
+- (void)tableGroupInDatabase:(NSNetService *)arg1 withName:(NSDictionary *)arg2 options:error: /* Error: Ran out of types for this method. */;
+- (void)tableGroupInDatabase:(NSNetService *)arg1 withName:(NSDictionary *)arg2 error: /* Error: Ran out of types for this method. */;
 @end
 

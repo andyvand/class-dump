@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool useKeychain;
-@property(nonatomic) _Bool useSmartCard;
-@property(nonatomic) _Bool userSetKeychainChoice;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKAutoFillCardCredential.h>
 
-@class CNContact, NSDate, NSString;
+@class NSString;
 
 @interface PKMutableAutofillCardCredential : PKAutoFillCardCredential
 {
@@ -14,16 +14,12 @@
 
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CNContact *billingAddress; // @dynamic billingAddress;
 @property(copy, nonatomic) NSString *cardholderName; // @dynamic cardholderName;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(copy, nonatomic) NSString *primaryAccountNumber; // @dynamic primaryAccountNumber;
-@property(copy, nonatomic) NSString *securityCode; // @dynamic securityCode;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface QDSchemaQDEntityType : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    NSString *_nameOfTypedValue;
-    _Bool _hasBundleId;
-    _Bool _hasNameOfTypedValue;
 }
 
 - (void);
@@ -26,24 +23,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppClusterMapping_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)base) fetchCountOfRecordType:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)";
 - (id);
-- (id);
-- (void)askAbandonCountForEntityInUsingApp2Min;
-- (id)ctationPartialResultUpdated;
-- (_Bool)nfirmed;
+- (void)taskAbandonCountForEntityInUsingApp2Min;
+- (id)_ueiDictationPartialResultUpdated;
+- (_Bool)_hasConfirmed;
 - (id)TI,N,V_numRequestsRead;
 - (void)ionEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasNameOfTypedValue; // @synthesize hasNameOfTypedValue=_hasNameOfTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *nameOfTypedValue; // @synthesize nameOfTypedValue=_nameOfTypedValue;
 
 @end
 

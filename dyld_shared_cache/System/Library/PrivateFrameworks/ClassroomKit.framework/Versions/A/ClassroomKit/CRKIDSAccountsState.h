@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 @interface CRKIDSAccountsState
 {
     NSSet *_activeLoginIDs;
-    NSSet *_inactiveLoginIDs;
 }
 
 + (id);
@@ -17,16 +16,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)%;
+- (id)E;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *activeLoginIDs; // @synthesize activeLoginIDs=_activeLoginIDs;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, copy, nonatomic) NSSet *inactiveLoginIDs; // @synthesize inactiveLoginIDs=_inactiveLoginIDs;
 @property(readonly, nonatomic) unsigned long long summary;
 
 @end

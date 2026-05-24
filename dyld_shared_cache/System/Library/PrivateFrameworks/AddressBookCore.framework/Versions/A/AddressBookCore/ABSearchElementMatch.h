@@ -11,19 +11,10 @@
 @interface ABSearchElementMatch : ABSearchElement
 {
     NSString *_searchProperty;
-    long long _searchPropertyType;
-    id _searchValue;
-    long long _searchValueType;
-    NSString *_searchLabel;
-    NSString *_searchKey;
-    long long _testCase;
-    _Bool _searchPeople;
-    _Bool _diacriticInsensitive;
-    long long _comparison;
 }
 
-+ (_Bool);
-+ (void)entifier:inAddressBook:error: /* Error: Ran out of types for this method. */;
++ (_Bool)upIdentifiers:] /* Error: Ran out of types for this method. */;
++ (void)fetchContactWithIdentifier:inAddressBook:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -31,22 +22,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -64,7 +55,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,7 +64,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (_Bool);

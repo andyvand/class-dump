@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface RFRGBValue
 {
     NSNumber *_red;
-    NSNumber *_green;
-    NSNumber *_blue;
 }
 
 + (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)lastIndex;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)streamingIntentAllowsFallbackToDownload;
+- (id)tributes.originatingAssetIdentifier;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)J4;
 - (id);
 - (id);
 - (id);
 - (void)nfo;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *blue; // @synthesize blue=_blue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *green; // @synthesize green=_green;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSNumber *red; // @synthesize red=_red;
-@property(readonly) Class superclass;
 
 @end
 

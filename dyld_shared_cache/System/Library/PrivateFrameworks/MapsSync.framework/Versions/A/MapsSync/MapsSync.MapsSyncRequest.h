@@ -7,7 +7,6 @@
 @interface MapsSync.MapsSyncRequest
 {
     id _store;
-    id _type;
 }
 
 - (void);
@@ -16,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 @end
 

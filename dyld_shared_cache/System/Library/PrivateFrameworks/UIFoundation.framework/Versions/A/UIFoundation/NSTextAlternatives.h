@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NSTextAlternatives
 {
     NSString *_primaryString;
-    NSArray *_alternativeStrings;
-    id _internal;
-    _Bool _isLowConfidence;
 }
 
 - (void);
@@ -23,23 +20,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ear user adjustments;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id)#;
+- (id)�?;
 
 // Remaining properties
-@property(readonly, copy) NSArray *alternativeStrings;
 @property _Bool isLowConfidence; // @synthesize isLowConfidence=_isLowConfidence;
-@property(readonly, copy) NSString *primaryString;
 
 @end
 

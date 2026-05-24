@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface CPLDiffTracker
 {
     NSMutableSet *_differingProperties;
-    _Bool _shouldCompareAllProperties;
-    _Bool _objectsAreTotallyDifferent;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)4;
 - (_Bool);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *differingProperties; // @synthesize differingProperties=_differingProperties;
-@property(readonly, nonatomic) _Bool objectsAreTotallyDifferent; // @synthesize objectsAreTotallyDifferent=_objectsAreTotallyDifferent;
 @property(nonatomic) _Bool shouldCompareAllProperties; // @synthesize shouldCompareAllProperties=_shouldCompareAllProperties;
 
 @end

@@ -11,7 +11,7 @@
     CBAPEndpoint *_endpoint;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 

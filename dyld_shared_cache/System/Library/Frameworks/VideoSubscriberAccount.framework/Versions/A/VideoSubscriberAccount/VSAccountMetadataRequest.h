@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface VSAccountMetadataRequest
 {
     _Bool _includeAccountProviderIdentifier;
-    _Bool _includeAuthenticationExpirationDate;
-    _Bool _interruptionAllowed;
-    _Bool _forceAuthentication;
-    NSString *_channelIdentifier;
-    NSArray *_supportedAccountProviderIdentifiers;
-    NSArray *_featuredAccountProviderIdentifiers;
-    NSString *_verificationToken;
-    NSString *_localizedVideoTitle;
-    NSArray *_attributeNames;
-    NSArray *_supportedAuthenticationSchemes;
-    NSString *_accountProviderAuthenticationToken;
-    NSArray *_applicationAccountProviders;
 }
 
 + (_Bool);
@@ -34,45 +22,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Z;
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)e the shared %@ object.;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_initWithSource:(id)arg1 injectionTime:forMainFrameOnly:includeMatchPatternStrings:excludeMatchPatternStrings:associatedURL:contentWorld: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountProviderAuthenticationToken; // @synthesize accountProviderAuthenticationToken=_accountProviderAuthenticationToken;
-@property(copy, nonatomic) NSArray *applicationAccountProviders; // @synthesize applicationAccountProviders=_applicationAccountProviders;
-@property(copy, nonatomic) NSArray *attributeNames; // @synthesize attributeNames=_attributeNames;
 @property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(copy, nonatomic) NSArray *featuredAccountProviderIdentifiers; // @synthesize featuredAccountProviderIdentifiers=_featuredAccountProviderIdentifiers;
-@property(nonatomic) _Bool forceAuthentication; // @synthesize forceAuthentication=_forceAuthentication;
-@property(nonatomic) _Bool includeAccountProviderIdentifier; // @synthesize includeAccountProviderIdentifier=_includeAccountProviderIdentifier;
-@property(nonatomic) _Bool includeAuthenticationExpirationDate; // @synthesize includeAuthenticationExpirationDate=_includeAuthenticationExpirationDate;
-@property(nonatomic, getter=isInterruptionAllowed) _Bool interruptionAllowed; // @synthesize interruptionAllowed=_interruptionAllowed;
-@property(copy, nonatomic) NSString *localizedVideoTitle; // @synthesize localizedVideoTitle=_localizedVideoTitle;
-@property(copy, nonatomic) NSArray *supportedAccountProviderIdentifiers; // @synthesize supportedAccountProviderIdentifiers=_supportedAccountProviderIdentifiers;
-@property(copy, nonatomic) NSArray *supportedAuthenticationSchemes; // @synthesize supportedAuthenticationSchemes=_supportedAuthenticationSchemes;
-@property(copy, nonatomic) NSString *verificationToken; // @synthesize verificationToken=_verificationToken;
 
 @end
 

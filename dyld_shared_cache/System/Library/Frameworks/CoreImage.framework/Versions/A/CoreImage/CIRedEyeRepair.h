@@ -4,61 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface CIRedEyeRepair
 {
     _Bool ownLF;
-    CDStruct_79f2618e *lf;
-    int imageSourceType;
-    struct CGImageBlockSet *blockSet;
-    void *releaseMe;
-    struct __CFData *dataRef;
-    NSArray *faces;
-    int nRepairs;
-    int nextRepairTag;
-    CDStruct_8d997f87 repairs[32];
-    int lastRepairTag;
-    float lastRepairIOD;
-    CDStruct_6ca1d5c6 standardTemplate;
-    int iFaceIndex;
-    _Bool iLeft;
-    _Bool debugRedEye;
-    _Bool logRepairs;
-    int redEyeThresholdKind;
-    _Bool renderAlpha;
-    _Bool infillBackground;
-    _Bool renderSpecularShine;
-    float specularSize;
-    float specularSoftness;
-    _Bool pupilShadeAlignment;
-    _Bool autoPupilTonality;
-    _Bool forceLoValue;
-    int loValue;
-    CDStruct_c3faddef lastClickYBitmap;
-    CDStruct_c3faddef lastClickCbCrBitmap;
-    int lastClickBitmapMinX;
-    int lastClickBitmapMaxX;
-    int lastClickBitmapMinY;
-    int lastClickBitmapMaxY;
-    CDStruct_c3faddef lastClickYBitmaps[3];
-    CDStruct_c3faddef lastClickCbCrBitmaps[3];
-    CDStruct_5973fb4f lastClickBitmapRects[3];
-    CDStruct_c3faddef lastSearchYBitmap;
-    CDStruct_c3faddef lastSearchCbCrBitmap;
-    int lastSearchBitmapMinX;
-    int lastSearchBitmapMaxX;
-    int lastSearchBitmapMinY;
-    int lastSearchBitmapMaxY;
-    int nPolyPoints;
-    _Bool polyClosed;
-    struct CGPoint polyPoints[20];
-    CDStruct_12b04d25 polyLines[20];
-    _Bool polyPointConcave[20];
-    unsigned char CbCrDistanceTable[65536];
-    int nLinears;
-    int linearCoefficients[8][3];
 }
 
 + (float);
@@ -74,29 +23,29 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_8d997f87 *);
-- (void);
+- (CDStruct_6395b1db *);
+- (void)!;
 - (CDStruct_3edab2bb);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (int);
-- (void);
+- (void);
 - (int);
 - (int);
-- (_Bool);
-- (void);
+- (_Bool)Ro";
+- (void);;
 - (void);
 - (int);
 - (float);
@@ -106,10 +55,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,8 +67,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C9;
+- (_Bool)9h;
 - (_Bool);
 - (float);
 - (_Bool);
@@ -128,21 +77,21 @@ __attribute__((visibility("hidden")))
 - (int);
 - (struct CGImage *);
 - (float);
+- (_Bool);
+- (int);
+- (void)ޗ;
+- (void);
 - (_Bool);
 - (int);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (CDStruct_8d997f87 *);
+- (CDStruct_6395b1db *);
 - (int);
 - (void);
 - (int);
 - (void);
 - (void);
-- (int);
+- (int)standardTemplate;
 - (_Bool)oo||||{{{{\jctDdZwf|zdyu|~~~~r{{{||||­­­­££££zzzzsssskkkk^___YYPYSb[g¡££¦¦¦¦6TEgFQB\VaYcYbZkNbZsuuuullklooooppopVbWi>WHgvtkv¡¢¥¥­²²²®®®®Usjuo|a}    ªªªª££££}{zyu{VldySwuOhavM_Whiifiuuuus|||Mib}Qrlsyu~_kcrbi`t_©©©©®®®®ow}yr¡¤©©¯¯¯¯¢¢¢¢q|HdXtNbVruWuny®¯¯¯««««|vuqvmmmmmmmmtttt}}}}ssssppppyyyy}y}|Ymex¢¢¢g|zsslstttt|vztbtlmzxojbqV`VgO^Veggbgakhk;
-- (void)resholds;
+- (void)inputThresholds;
 - (id)le, vec3 kIn, vec3 kOut) {
   vec3 gainLog2 = ((maxv - minv) * _s_pow(gm.rgb, invGamma)) + minv;
   vec3 gainLin = exp2(scale * gainLog2);

@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)unkindly;
+- (_Bool),N,V_filteredOutReason;
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (_Bool)AÜ°!BùñXÐ1Â0@ù
 × ;
 

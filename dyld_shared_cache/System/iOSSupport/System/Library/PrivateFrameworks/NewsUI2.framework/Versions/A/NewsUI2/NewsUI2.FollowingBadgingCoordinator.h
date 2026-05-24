@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingBadgingCoordinator
 {
     id delegate;
-    id readingList;
-    id userInfo;
-    id sharedItemManager;
-    id readingHistory;
 }
 
 - (void);

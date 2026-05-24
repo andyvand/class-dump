@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NetscapeBookmarkFileReaderBookmarkList, Test_NetscapeBookmarkFileReaderBookmarkList;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NetscapeBookmarkFileReaderDelegateProxy
 {
     NSMutableArray *_stack;
-    NetscapeBookmarkFileReaderBookmarkList *_favoritesFolderList;
-    _Bool _parsingReadingList;
-    _Bool _underTest;
-    unsigned long long _successfullyImportedBookmarksCount;
-    Test_NetscapeBookmarkFileReaderBookmarkList *_test_readingList;
-    Test_NetscapeBookmarkFileReaderBookmarkList *_test_rootFolder;
 }
 
 - (id);
@@ -33,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long successfullyImportedBookmarksCount; // @synthesize successfullyImportedBookmarksCount=_successfullyImportedBookmarksCount;
-@property(readonly, nonatomic) _Bool test_parsingReadingList;
-@property(readonly, nonatomic) Test_NetscapeBookmarkFileReaderBookmarkList *test_readingList; // @synthesize test_readingList=_test_readingList;
-@property(readonly, nonatomic) Test_NetscapeBookmarkFileReaderBookmarkList *test_rootFolder; // @synthesize test_rootFolder=_test_rootFolder;
 
 @end
 

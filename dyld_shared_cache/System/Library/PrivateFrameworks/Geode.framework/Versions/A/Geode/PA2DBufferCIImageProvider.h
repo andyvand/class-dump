@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PA2DBufferCIImageProvider
 {
     PA2DBuffer *_buffer;
-    _Bool _endAccessOnDealloc;
 }
 
 - (id);

@@ -6,34 +6,28 @@
 
 #import <PassKitCore/PKApplicationMessageContent.h>
 
-@class NSString, PKApplicationMessageIcon;
+@class PKApplicationMessageIcon;
 
 @interface PKApplicationMessageContentDefault : PKApplicationMessageContent
 {
     _Bool _parseEmphasisInBody;
-    PKApplicationMessageIcon *_icon;
-    NSString *_title;
-    NSString *_body;
 }
 
-+ (id);
++ (id){;
 + (_Bool)X"ð!ìBùî%ð1Â0@ù
 × ;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)w`;
 - (id);
 - (id)`×
 Ù;
-- (void)ON_DECLINED_REASON_ACCOUNT_USER_SPEND_DISABLED;
+- (void)TRANSACTION_DECLINED_REASON_ACCOUNT_USER_SPEND_DISABLED;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *body; // @synthesize body=_body;
 @property(readonly, nonatomic) PKApplicationMessageIcon *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool parseEmphasisInBody; // @synthesize parseEmphasisInBody=_parseEmphasisInBody;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

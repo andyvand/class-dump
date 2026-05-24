@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EQKitLayoutNode;
 
 @interface EQKitMathMLNode
@@ -14,26 +13,19 @@
 
 - (long long);
 - (id);
-- (struct Schemata);
+- (struct Schemata)7;
 - (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)K;
+- (_Bool)R;
+- (_Bool)lT;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) id <EQKitLayoutNode> parent; // @synthesize parent=mParent;
-@property(readonly) Class superclass;
 
 @end
 

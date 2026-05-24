@@ -4,45 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCompanionDeviceInfo, NSDictionary, NSString;
+@class AFCompanionDeviceInfo;
 
 @interface _AFCompanionDeviceInfoMutation
 {
     AFCompanionDeviceInfo *_base;
-    NSString *_assistantID;
-    NSString *_speechID;
-    NSString *_idsIdentifier;
-    NSString *_productPrefix;
-    NSString *_aceHost;
-    NSDictionary *_syncMetadata;
-    _Bool _syncMetadataCapability;
-    _Bool _peerToPeerHandoffCapability;
-    _Bool _muxSupportCapability;
-    _Bool _meDevice;
-    NSString *_siriLanguage;
-    NSString *_companionName;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasAssistantID:1;
-        unsigned int hasSpeechID:1;
-        unsigned int hasIdsIdentifier:1;
-        unsigned int hasProductPrefix:1;
-        unsigned int hasAceHost:1;
-        unsigned int hasSyncMetadata:1;
-        unsigned int hasSyncMetadataCapability:1;
-        unsigned int hasPeerToPeerHandoffCapability:1;
-        unsigned int hasMuxSupportCapability:1;
-        unsigned int hasMeDevice:1;
-        unsigned int hasSiriLanguage:1;
-        unsigned int hasCompanionName:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -63,17 +36,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)lt:(id)arg1 usingSpeechModel: /* Error: Ran out of types for this method. */;
-- (void)eForSensitiveDomainPolicy;
+- (id)speechDidRecognizeTokens:(id)arg1 nluResult:usingSpeechModel: /* Error: Ran out of types for this method. */;
+- (void)_isRequestSensitiveForSensitiveDomainPolicy;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAEnvironmentServiceXPCClient, LAEnvironmentState, NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
+@class LAEnvironmentState;
 
 @interface LAEnvironment
 {
     LAEnvironmentState *_state;
-    NSHashTable *_observers;
-    LAEnvironmentServiceXPCClient *_xpcClient;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    int _notifyToken;
-    struct os_unfair_lock_s _stateLock;
 }
 
 + (id) ;

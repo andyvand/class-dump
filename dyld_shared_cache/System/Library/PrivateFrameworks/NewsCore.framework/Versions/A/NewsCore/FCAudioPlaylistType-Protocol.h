@@ -7,16 +7,18 @@
 @class NSArray, NSDate;
 
 @protocol FCAudioPlaylistType
+- (void)Yes;
+- (void);
+- (_Bool)dropAnimationIsComplete;
 - (NSDate *)Q)	1Â0@ù
 × ;
-- (void)tion;
-- (void)ache;
+- (void)headlineFetchOperation;
+- (void)_cache;
 - (void)gEnabled,V_syncingEnabled;
 - (NSArray *)ed vanity URL mapping %{public}@;
 - (NSDate *)tion due to failure to decode eventConditions from configuration %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSDate *modificationDate;
 @end
 

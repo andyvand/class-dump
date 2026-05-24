@@ -9,9 +9,6 @@
 @interface CRListItemMarker
 {
     NSString *_stringValue;
-    long long _type;
-    struct _NSRange _range;
-    struct _NSRange _itemizingComponentRange;
 }
 
 + (id);
@@ -38,15 +35,12 @@
 - (struct _NSRange);
 - (long long);
 - (void);
-- (id);
+- (id)y;
 - (void);
 - (void)v16@24@32@40^@48;
 
 // Remaining properties
-@property struct _NSRange itemizingComponentRange; // @synthesize itemizingComponentRange=_itemizingComponentRange;
-@property struct _NSRange range; // @synthesize range=_range;
 @property(retain) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property long long type; // @synthesize type=_type;
 
 @end
 

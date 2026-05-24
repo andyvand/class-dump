@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface FCArticleListEditorialMetadata
 {
     NSDate *_publishDate;
-    NSDictionary *_articleMetadata;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)ilities_XPCClientConnection prepareBaseSystemForMigrationMode:(id)arg1 ]_block_invoke;
 - (id)!Ð!8Cùñ(	°1Â0@ù
 × ;
 - (id)ibrary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedTransformationFilter.m;
-- (void)iAttributionArticleString;
+- (void)aiAttributionArticleString;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *articleMetadata; // @synthesize articleMetadata=_articleMetadata;
 @property(retain, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
 
 @end

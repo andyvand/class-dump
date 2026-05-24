@@ -6,32 +6,18 @@
 
 #import <coreroutine/SMContactMO.h>
 
-@class SMCacheMO, SMReceiverSessionStatusMO;
+@class SMCacheMO;
 
 @interface SMReceiverContactMO : SMContactMO
 {
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)}16@0:(id)arg1 8;
++ (id)path for [C%llu];
 
 // Remaining properties
-@property(nonatomic) long long firstDetailViewSessionState; // @dynamic firstDetailViewSessionState;
-@property(nonatomic) long long lastDetailViewSessionState; // @dynamic lastDetailViewSessionState;
-@property(nonatomic) long long maxLocationsInPhoneCacheTrace; // @dynamic maxLocationsInPhoneCacheTrace;
-@property(nonatomic) long long maxLocationsInWatchCacheTrace; // @dynamic maxLocationsInWatchCacheTrace;
-@property(nonatomic) long long maxPhoneCacheSize; // @dynamic maxPhoneCacheSize;
-@property(nonatomic) long long maxWatchCacheSize; // @dynamic maxWatchCacheSize;
-@property(nonatomic) long long numCacheDownloads; // @dynamic numCacheDownloads;
-@property(nonatomic) long long numSuccessfulCacheDownloads; // @dynamic numSuccessfulCacheDownloads;
 @property(retain, nonatomic) SMCacheMO *phoneCache; // @dynamic phoneCache;
-@property(nonatomic) long long phoneMaxWorkoutEvents; // @dynamic phoneMaxWorkoutEvents;
-@property(retain, nonatomic) SMReceiverSessionStatusMO *sessionStatus; // @dynamic sessionStatus;
-@property(nonatomic) double timeTillCacheRelease; // @dynamic timeTillCacheRelease;
-@property(nonatomic) double timeTillFirstSuccessfulCacheDownload; // @dynamic timeTillFirstSuccessfulCacheDownload;
-@property(retain, nonatomic) SMCacheMO *watchCache; // @dynamic watchCache;
-@property(nonatomic) long long watchMaxWorkoutEvents; // @dynamic watchMaxWorkoutEvents;
 
 @end
 

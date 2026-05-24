@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentHeroImageModel
 {
     NSURL *_url;
-    NSString *_imageSha;
 }
 
 - (id);
-- (id);
-- (id)er:(id)arg1 secureElementIdentifier:didUpdateRangingSuspensionReasons: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)credentialIdentifier:(id)arg1 paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons: /* Error: Ran out of types for this method. */;
 - (void)actionDate:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *imageSha; // @synthesize imageSha=_imageSha;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

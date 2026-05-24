@@ -7,14 +7,12 @@
 @interface AppStoreKit.PersonalizedMediaTokenService
 {
     id tokenService;
-    id accounts;
-    id queue;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

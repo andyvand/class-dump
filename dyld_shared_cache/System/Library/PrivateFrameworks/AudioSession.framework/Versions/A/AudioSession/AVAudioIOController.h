@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSArray, NSString;
-
 @interface AVAudioIOController
 {
     struct synchronized<std::weak_ptr<avas::client::IOController>, caulk::shared_ptr_mutex<avas::client::KVOMutex>, avas::client::unguarded_accessor<std::weak_ptr<avas::client::IOController>>> _guarded_impl;
 }
 
-- (_Bool);
-- (struct AudioPresentationTimeStamp);
-- (id);
-- (struct AVAudioTimeInterval);
-- (void);
-- (long long);
+- (_Bool)NEDNSSettings",C,V_settings;
+- (struct AudioPresentationTimeStamp)NEIKEv2InitiatorIdentifierPayload;
+- (id)NEIKEv2KeyExchangeHandlerMODP;
+- (struct AVAudioTimeInterval)NEFlowDivertFileHandle;
+- (void)NEExtensionTunnelProviderHostContext;
+- (long long)NEExtensionAppProxyProviderContext;
 - (_Bool);
 - (struct AVAudioIOPeriod);
-- (id);
+- (id)N*f;
 - (id);
 - (struct AudioTimeStamp);
 - (id);
 - (_Bool);
-- (double);
+- (double)tableView:objectValueForTableColumn:row: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct AVAudioIOPeriod IOPeriod;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct AVAudioTimeInterval dynamicLatency;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputStreams;
-@property(readonly, nonatomic) NSArray *outputStreams;
-@property(readonly, nonatomic) __weak AVAudioSession *owningSession;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 @property(readonly, nonatomic) double sampleRate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDynamicLatency;
 
 @end
 

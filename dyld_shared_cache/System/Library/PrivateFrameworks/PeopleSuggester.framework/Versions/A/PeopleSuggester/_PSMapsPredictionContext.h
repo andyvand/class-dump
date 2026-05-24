@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface _PSMapsPredictionContext
 {
     NSDate *_suggestionDate;
-    NSString *_bundleID;
-    NSString *_navigationStartLocationId;
-    NSString *_navigationEndLocationId;
-    NSArray *_seedContactIdentifiers;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
++ (_Bool)@;
+- (void)_hasArrivedServerPod;
+- (void)_hasApplicationsInForeground;
+- (id)_eventTransmittedRelativeToBootTimeTimestampNs;
+- (id)_eventStatistics;
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
-- (void);
+- (void)H@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *navigationEndLocationId; // @synthesize navigationEndLocationId=_navigationEndLocationId;
-@property(copy, nonatomic) NSString *navigationStartLocationId; // @synthesize navigationStartLocationId=_navigationStartLocationId;
-@property(copy, nonatomic) NSArray *seedContactIdentifiers; // @synthesize seedContactIdentifiers=_seedContactIdentifiers;
 @property(copy, nonatomic) NSDate *suggestionDate; // @synthesize suggestionDate=_suggestionDate;
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsUI2.FeedRecipeMarkedAsCookedCommandHandler
 {
     id recipeUserFeedDataRepository;
-    id commandCenter;
-    id recipeAccessProvider;
-    id featureAvailability;
-    id recipeUserDataManager;
 }
 
 - (id);

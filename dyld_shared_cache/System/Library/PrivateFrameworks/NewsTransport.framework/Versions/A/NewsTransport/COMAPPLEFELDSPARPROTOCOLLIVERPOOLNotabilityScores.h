@@ -11,13 +11,13 @@
     NSMutableArray *_tagScores;
 }
 
-+ (Class);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (Class)alwaysShowMe;
+- (unsigned long long)autoloopVideoTaskStatusDidChange: /* Error: Ran out of types for this method. */;
+- (id)autoloopVideoTaskStatusDidChange:(unsigned long long)arg1;
+- (id)autoloopVideoTaskProgressDidChange: /* Error: Ran out of types for this method. */;
+- (void)assetCollectionReferencesInDataSourceForZoomLevel:(id)arg1 withParentAssetCollectionReference: /* Error: Ran out of types for this method. */;
+- (void)_remainingProducers;
+- (void)_publishingMomentShare:(id)arg1 didCompleteWithShareURL:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (void)s;
+- (void)clearTrendingTopics;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *tagScores; // @synthesize tagScores=_tagScores;

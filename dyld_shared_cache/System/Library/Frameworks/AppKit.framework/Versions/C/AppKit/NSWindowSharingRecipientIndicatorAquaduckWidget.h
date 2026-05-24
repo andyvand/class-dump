@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSWindowSharingRecipientIndicatorAquaduckWidget : NSView
 {
     id style;
-    id $__lazy_storage_$_hostingView;
 }
 
 - (id);
 - (struct CGSize);
-- (id)showsSuppressionButton;
+- (id)_showsSuppressionButton;
 - (void),ÿ;
 - (id)òìE;
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKHIDEventDeliveryManagerServer, NSString;
+@class BKHIDEventDeliveryManagerServer;
 
 __attribute__((visibility("hidden")))
 @interface WSHIDEventDeliveryManagerServer
@@ -13,24 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)ta:(id)arg1 %@;
+- (id)ts for NSFetchRequest with NSDictionaryResultType and fetchBatchSize > 0 however propertiesToFetch includes sentinel value 'isDeleted' property:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) BKHIDEventDeliveryManagerServer *server;
-@property(readonly) Class superclass;
 
 @end
 

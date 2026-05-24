@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItemStateAppearance, _UIBarButtonItemData;
-@protocol _UIBarButtonItemAppearanceChangeObserver, _UIBarButtonItemDataFallback;
+@class _UIBarButtonItemData;
+@protocol _UIBarButtonItemAppearanceChangeObserver;
 
 @interface UIBarButtonItemAppearance
 {
     id <_UIBarButtonItemAppearanceChangeObserver> _changeObserver;
-    _UIBarButtonItemData *_data;
-    UIBarButtonItemStateAppearance *_states[4];
 }
 
 + (_Bool)iew:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)requiredThreadsPerThreadgroup;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)failed to produce remoteArtwork;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,11 +30,11 @@
 - (void);
 - (void)Ô ;
 - (id)atterView";
-- (_Bool)rd;
-- (void)geInsets;
-- (id)ation;
-- (void)n;
-- (id)resentationWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteBackward;
+- (void)_updateArrowEdgeInsets;
+- (id)_shouldDeleteAfterAnimation;
+- (void)_readyForSuspension;
+- (id)_imageByCreatingBitmapRepresentationWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)ostedUIView;
 - (id)¸¨ä0ð;
 - (id)reenUpdates:YES. /* Error: Ran out of types for this method. */;
@@ -49,13 +47,7 @@
 - (id)o;
 
 // Remaining properties
-@property(nonatomic, setter=_setChangeObserver:) __weak id <_UIBarButtonItemAppearanceChangeObserver> _changeObserver; // @synthesize _changeObserver;
 @property(readonly, nonatomic) _UIBarButtonItemData *_data; // @synthesize _data;
-@property(retain, nonatomic, setter=_setFallback:) id <_UIBarButtonItemDataFallback> _fallback;
-@property(readonly, nonatomic) UIBarButtonItemStateAppearance *disabled;
-@property(readonly, nonatomic) UIBarButtonItemStateAppearance *focused;
-@property(readonly, nonatomic) UIBarButtonItemStateAppearance *highlighted;
-@property(readonly, nonatomic) UIBarButtonItemStateAppearance *normal;
 
 @end
 

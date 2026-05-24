@@ -6,19 +6,10 @@
 
 #import <AppKit/NSScrollingBehavior.h>
 
-@class CADisplayLink, NSScrollView, NSScrollingAnimator, NSString, _NSScrollingPerfLogger;
-
 __attribute__((visibility("hidden")))
 @interface NSScrollingBehaviorSingleThreadedVBL : NSScrollingBehavior
 {
     id _theCakeIsALie;
-    NSScrollView *_scrollView;
-    id _mouseDownEventMonitor;
-    _NSScrollingPerfLogger *_perfLogger;
-    NSScrollingAnimator *_scrollingAnimator;
-    double _refTimestamp;
-    CADisplayLink *_displayLink;
-    _Bool _isInTracking;
 }
 
 - (double);
@@ -32,45 +23,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Rc;
 - (_Bool);
-- (void);
+- (void)c;
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)ress is INADDR_ANY;
+- (_Bool)s_str is NULL;
 - (double);
 - (id);
 - (struct CGSize);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)rror"24;
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
-- (struct CGPoint)sObserved;
+- (struct CGPoint)_frameIsObserved;
 - (void),®;
 
 // Remaining properties
-@property(readonly) struct CGAffineTransform affineTransformOfContent;
-@property(readonly) struct CGSize clippingSize;
-@property(readonly, getter=isContentOriginUpperLeft) _Bool contentOriginUpperLeft;
-@property(readonly, getter=isCursorWithinContent) _Bool cursorWithinContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double horizontalLineScroll;
-@property(readonly) double pointsPerPixel;
 @property(readonly) struct CGPoint scrollOffset;
-@property(readonly) struct CGRect scrollableFrame;
-@property(readonly) Class superclass;
-@property(readonly) double verticalLineScroll;
 
 @end
 

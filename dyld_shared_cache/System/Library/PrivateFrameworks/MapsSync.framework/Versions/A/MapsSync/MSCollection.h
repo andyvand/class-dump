@@ -6,17 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MSCollection : MapsSync.MapsSyncObject
 {
     id _collectionDescription;
-    id _image;
-    id _imageUrl;
-    id _placesCount;
-    id _positionIndex;
-    id _title;
-    id _places;
 }
 
 + (Class);
@@ -30,25 +24,20 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)";
 - (void);
 - (int);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)utput:(id)arg1 [%p];
+- (id)AudioDistortionDownlinkRtpTimeout;
+- (id)qa;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *collectionDescription;
-@property(nonatomic, copy) NSData *image;
-@property(nonatomic, copy) NSString *imageUrl;
-@property(nonatomic, readonly) int placesCount;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, copy) NSString *title;
 
 @end
 

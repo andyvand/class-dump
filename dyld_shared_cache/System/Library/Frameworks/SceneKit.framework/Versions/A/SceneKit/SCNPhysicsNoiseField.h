@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SCNPhysicsNoiseField : SCNPhysicsField
 {
     double _smoothness;
-    double _animationSpeed;
 }
 
 + (_Bool);
@@ -21,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (struct c3dPhysicsField *);
 - (double);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void)s has a count of %d;
 
 // Remaining properties
-@property(nonatomic) double animationSpeed;
 @property(nonatomic) double smoothness;
 
 @end

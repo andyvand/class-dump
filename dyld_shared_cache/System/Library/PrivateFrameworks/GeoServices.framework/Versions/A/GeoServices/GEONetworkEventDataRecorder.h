@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id)ureImpl>";
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ayload can not be both nil;
 
 @end
 

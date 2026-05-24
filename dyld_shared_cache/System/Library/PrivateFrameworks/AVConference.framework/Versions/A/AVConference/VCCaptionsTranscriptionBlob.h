@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCCaptionsTranscriptionBlob
 {
     NSMutableArray *_segments;
-    unsigned int _updateNumber;
-    unsigned int _utteranceNumber;
-    _Bool _isFinal;
-    _Bool _isLocal;
-    struct {
-        unsigned int isFinal:1;
-        unsigned int isLocal:1;
-    } _has;
 }
 
 + (Class);
@@ -37,28 +29,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)D;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id)að!DùäÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFinal;
-@property(nonatomic) _Bool hasIsLocal;
-@property(nonatomic) _Bool isFinal; // @synthesize isFinal=_isFinal;
-@property(nonatomic) _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(retain, nonatomic) NSMutableArray *segments; // @synthesize segments=_segments;
-@property(nonatomic) unsigned int updateNumber; // @synthesize updateNumber=_updateNumber;
 @property(nonatomic) unsigned int utteranceNumber; // @synthesize utteranceNumber=_utteranceNumber;
 
 @end

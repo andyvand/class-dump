@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, SMSystem_Daemon;
-@protocol OS_dispatch_queue;
+@class NSURL, SMSystem_Daemon;
 
 @interface SMPathsUserHomeSizer
 {
     NSURL *_cacheLocation;
-    SMSystem_Daemon *_system;
-    NSObject<OS_dispatch_queue> *_cacheQueue;
 }
 
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)RB;
 - (void);
 - (id);
 - (id);
@@ -30,8 +27,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSURL *cacheLocation; // @synthesize cacheLocation=_cacheLocation;
-@property(retain) NSObject<OS_dispatch_queue> *cacheQueue; // @synthesize cacheQueue=_cacheQueue;
 @property __weak SMSystem_Daemon *system; // @synthesize system=_system;
 
 @end

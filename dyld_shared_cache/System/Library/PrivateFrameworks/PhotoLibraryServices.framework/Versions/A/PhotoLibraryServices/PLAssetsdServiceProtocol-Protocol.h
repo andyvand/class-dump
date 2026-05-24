@@ -5,7 +5,8 @@
 //
 
 @protocol PLAssetsdServiceProtocol
-- (id)rDelete: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)thumbnailPathForThumbIdentifier:withPathManager:recipeID:forDelete: /* Error: Ran out of types for this method. */;
 - (id)ype to PLAssetSubtypePhotoIris for %@ assets;
 @end
 

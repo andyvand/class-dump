@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSNullContentStyle
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (struct CGImage *);
 - (id);
 - (int);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)LResponse}}24@0:(id)arg1 8^{_CFURLRequest=}16;
+- (void)LResponseInternal";
+- (void)rejectProtectionSpaceAndContinueWithChallenge:(id)arg1;
+- (id)localizedName;
+- (unsigned long long)initWithName:destinationFolder:propertyList: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)_reflectPredicate:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSColor *equivalentForegroundColorForTemplateImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) int outputBlendModeForTemplateContent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,31 +8,24 @@ __attribute__((visibility("hidden")))
 @interface EDPivotFieldItem
 {
     _Bool mChildItems;
-    _Bool mExpanded;
-    _Bool mCalculatedMember;
-    _Bool mMissed;
-    _Bool mHidden;
-    _Bool mDetailsHidden;
-    int mType;
-    unsigned long long mItemIndex;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)*	;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (id)xpected type of group device sampling!;
+- (void)H;
+- (_Bool)L;
 - (int);
 - (void);
 - (void);

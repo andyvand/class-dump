@@ -5,5 +5,6 @@
 //
 
 @protocol CADNotificationCountInterface
+- (void)ed sessions changed:(_Bool)arg1 %@;
 @end
 

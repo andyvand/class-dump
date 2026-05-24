@@ -9,23 +9,19 @@
 @interface AVMetadataEyeReliefStatusObject : AVMetadataObject
 {
     unsigned long long _eyeReliefStatus;
-    double _distance;
-    _Bool _hasDistance;
 }
 
 + (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)",&,N,V_serverConnection;
+- (id)sectionAtIndex:(id)arg1;
+- (unsigned long long)ist;
 - (id);
 - (double);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly) double distance;
 @property(readonly) unsigned long long eyeReliefStatus;
-@property(readonly) _Bool hasDistance;
 
 @end
 

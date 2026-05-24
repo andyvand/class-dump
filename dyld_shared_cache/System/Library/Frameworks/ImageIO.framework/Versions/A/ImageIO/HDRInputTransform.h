@@ -37,8 +37,6 @@ __attribute__((visibility("hidden")))
 - (CDStruct_a67525ea *);
 
 // Remaining properties
-@property(readonly, nonatomic) const CDStruct_3de8c11b *gainMap;
-@property(readonly, nonatomic) const CDStruct_33355993 *image;
 @property(readonly, nonatomic) CDStruct_a67525ea *storage;
 
 @end

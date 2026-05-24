@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRICKAssetMetadata;
-@protocol TRIAssetId;
+@class NSString;
 
 @interface TRIRequiredCloudKitAsset
 {
     _Bool _isInstalled;
-    _Bool _isOnDemand;
-    NSString *_factorName;
-    NSString<TRIAssetId> *_assetId;
-    TRICKAssetMetadata *_metadata;
 }
 
-+ (id);
-- (id);
++ (id)componentsWithURL:(id)arg1 resolvingAgainstBaseURL:(_Bool)arg2;
+- (id)policyWithCreationDate:(id)arg1 inTimeZone:(_Bool)arg2;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (id)copyNextSampleBuffer;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)endMarker;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)lysis";
+- (id)_frameLifetimeBlock;
+- (id)Requests;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString<TRIAssetId> *assetId; // @synthesize assetId=_assetId;
 @property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
-@property(readonly, nonatomic) _Bool isInstalled; // @synthesize isInstalled=_isInstalled;
-@property(readonly, nonatomic) _Bool isOnDemand; // @synthesize isOnDemand=_isOnDemand;
-@property(readonly, nonatomic) TRICKAssetMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

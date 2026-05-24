@@ -6,37 +6,20 @@
 
 #import <QuartzComposer/QCResource.h>
 
-@class NSDictionary, QCPixelFormat, QCResourcePool;
-
 @interface QCCGLContext : QCResource
 {
     QCCGLContext *_rootContext;
-    NSDictionary *_options;
-    struct _CGLContextObject *_cglContext;
-    struct _CGLPixelFormatObject *_cglPixelFormat;
-    unsigned long long _virtualScreenCount;
-    struct __CFDictionary *_ciContextCache;
-    struct __CFDictionary *_rootC3DContextCache;
-    void *_c3dContext;
-    QCResourcePool *_sharedPool;
-    unsigned long long _defaultSharedVirtualScreen;
-    unsigned long long _cachedVirtualScreen;
-    unsigned long long _flags;
-    QCPixelFormat *_renderPixelFormat;
-    id _nsglContext;
-    id _nsglPixelFormat;
-    void *_unused2[2];
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (void)raryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Core/C3DRotation.c;
 - (void);
-- (unsigned long long);
+- (unsigned long long)Z;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -49,7 +32,7 @@
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -58,7 +41,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -70,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (unsigned long long);
 - (int);
@@ -93,8 +76,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)DDeformerStack}f{?=}}8^{__C3DLightRuntimeData=If[4{?=[4]}]^v^{__C3DTextureSampler}^v^{__C3DTextureSampler}}16;
+- (void));
 - (void);
 - (void);
 - (void);

@@ -14,16 +14,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)';
 - (void);
+- (void)D;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)';
 - (id);
 - (void);
 - (id);
+- (void)*;
+- (id)enabledByDefault;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *mutablePaths; // @synthesize mutablePaths=_mutablePaths;

@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioUnitSpatialContext
 {
     unsigned int _audioSessionId;
-    unsigned int _maxChannelCountMic;
-    unsigned int _maxChannelCountSpeaker;
-    struct OpaqueCMBlockBuffer *_spatialMetadata;
 }
 
 - (void);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)K;
 - (id);
 - (unsigned int);
 - (struct OpaqueCMBlockBuffer *);
@@ -26,9 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned int audioSessionId; // @synthesize audioSessionId=_audioSessionId;
-@property(nonatomic) unsigned int maxChannelCountMic; // @synthesize maxChannelCountMic=_maxChannelCountMic;
-@property(nonatomic) unsigned int maxChannelCountSpeaker; // @synthesize maxChannelCountSpeaker=_maxChannelCountSpeaker;
-@property(nonatomic) struct OpaqueCMBlockBuffer *spatialMetadata;
 
 @end
 

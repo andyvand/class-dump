@@ -6,45 +6,35 @@
 
 #import <MailUI/MUISearchSuggestion.h>
 
-@class NSColor, NSDate, NSImage, NSString;
+@class NSColor, NSString;
 
 @interface MUISearchAtomSuggestion : MUISearchSuggestion
 {
     NSColor *_tintColor;
-    NSDate *_lastUsedTime;
 }
 
++ (id)?l;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long));
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)tionFocusedUIElement: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityApplicationFocusedUIElement: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *atomImage;
-@property(readonly, copy, nonatomic) NSString *atomTitle;
-@property(readonly, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSColor *focusedTintColor;
-@property(readonly, nonatomic) NSImage *image;
-@property(retain, nonatomic) NSDate *lastUsedTime; // @synthesize lastUsedTime=_lastUsedTime;
-@property(readonly, nonatomic) long long option;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
 @property(readonly, copy, nonatomic) NSString *title;
 
 @end

@@ -16,11 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void)DidAnimateFirstImpression: /* Error: Ran out of types for this method. */;
+- (void)setDidAnimateFirstImpression: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIAirplaneModeInquiryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isEnabled;
 
 @end
 

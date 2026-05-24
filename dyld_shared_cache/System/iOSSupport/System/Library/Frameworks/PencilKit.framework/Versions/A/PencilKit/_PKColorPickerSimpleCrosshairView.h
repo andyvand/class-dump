@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface _PKColorPickerSimpleCrosshairView
 {
     double _borderCornerRadius;
-    UIView *_shadowView;
-    UIView *_borderView;
 }
 
 - (void);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) double borderCornerRadius; // @synthesize borderCornerRadius=_borderCornerRadius;
-@property(retain, nonatomic) UIView *borderView; // @synthesize borderView=_borderView;
-@property(retain, nonatomic) UIView *shadowView; // @synthesize shadowView=_shadowView;
 
 @end
 

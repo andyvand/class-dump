@@ -10,10 +10,10 @@
 {
 }
 
+- (double)rivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary;
 - (double);
 - (double);
-- (double);
-- (double);
+- (double);
 
 @end
 

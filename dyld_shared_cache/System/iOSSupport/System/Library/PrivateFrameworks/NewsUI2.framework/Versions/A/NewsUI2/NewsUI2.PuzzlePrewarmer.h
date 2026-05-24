@@ -7,16 +7,11 @@
 @interface NewsUI2.PuzzlePrewarmer
 {
     id configurationManager;
-    id networkReachability;
-    id bundleSubscriptionManager;
-    id puzzleService;
-    id puzzleHistoryService;
-    id puzzleStatsService;
-    id featureAvailability;
 }
 
 - (id);
-- (void);
+- (void)`
+;
 - (void);
 
 @end

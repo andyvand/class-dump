@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface NAMarqueeView
 {
     _Bool _marqueeEnabled;
-    double _contentGap;
-    UIView *_animationReferenceView;
-    UIView *_viewForContentSize;
-    struct CGSize _contentSize;
-    struct UIEdgeInsets _fadeEdgeInsets;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,18 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (void)ndColor;
+- (void)backgroundColor;
 - (id)lueprintModifierFactoryType;
 - (struct CGSize)h6Òÿ ;
 
 // Remaining properties
-@property(nonatomic) __weak UIView *animationReferenceView; // @synthesize animationReferenceView=_animationReferenceView;
 @property(nonatomic) double contentGap; // @synthesize contentGap=_contentGap;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) UIView *contentView;
-@property(nonatomic) struct UIEdgeInsets fadeEdgeInsets; // @synthesize fadeEdgeInsets=_fadeEdgeInsets;
-@property(nonatomic, getter=isMarqueeEnabled) _Bool marqueeEnabled; // @synthesize marqueeEnabled=_marqueeEnabled;
-@property(retain, nonatomic) UIView *viewForContentSize; // @synthesize viewForContentSize=_viewForContentSize;
 
 @end
 

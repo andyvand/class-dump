@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, IMMessage, NSArray;
+@class NSArray;
 
 @interface IMMockChat
 {
     NSArray *_mockChatItems;
-    IMHandle *_incomingHandle;
-    IMHandle *_outgoingHandle;
-    IMMessage *_lastMockIMMessage;
-    NSArray *_extraParticipants;
-    unsigned long long _mockUnreadMessageCount;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)updateTitle;
+- (void)setPasteboardTypes:(id)arg1;
+- (void)setMasksToBounds:(unsigned long long)arg1;
+- (void)setMarkupModelData:(id)arg1;
+- (void)setHandwritingRecognitionDrawingQueue:(id)arg1;
+- (void)setAttachmentCell:(id)arg1;
+- (void)rootFolderListSectionIdentifiersForSection:(id)arg1;
+- (id)customPasteboardDataFromRange:persistenceHelper: /* Error: Ran out of types for this method. */;
+- (unsigned long long)boundingRectForAttributedString:fittingSize: /* Error: Ran out of types for this method. */;
+- (id)boundingRectForAttributedString:fittingSize: /* Error: Ran out of types for this method. */;
+- (id)_editable;
+- (id)&,N,V_workerContext;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)8GSgtGG%8G78G;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)t;
+- (id)or was malformed {identifier:(id)arg1 %@, URI:(unsigned long long)arg2 %s};
 - (unsigned long long);
 - (id);
 - (id);
@@ -49,12 +44,7 @@
 - (void)wser.RecentPlugin;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *extraParticipants; // @synthesize extraParticipants=_extraParticipants;
-@property(retain, nonatomic) IMHandle *incomingHandle; // @synthesize incomingHandle=_incomingHandle;
-@property(retain, nonatomic) IMMessage *lastMockIMMessage; // @synthesize lastMockIMMessage=_lastMockIMMessage;
 @property(retain, nonatomic) NSArray *mockChatItems; // @synthesize mockChatItems=_mockChatItems;
-@property(nonatomic) unsigned long long mockUnreadMessageCount; // @synthesize mockUnreadMessageCount=_mockUnreadMessageCount;
-@property(retain, nonatomic) IMHandle *outgoingHandle; // @synthesize outgoingHandle=_outgoingHandle;
 
 @end
 

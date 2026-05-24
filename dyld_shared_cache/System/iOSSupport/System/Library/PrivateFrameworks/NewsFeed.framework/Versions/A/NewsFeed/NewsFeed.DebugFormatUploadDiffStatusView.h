@@ -7,16 +7,11 @@
 @interface NewsFeed.DebugFormatUploadDiffStatusView
 {
     id onTargetTap;
-    id targetButton;
-    id maxWidth;
-    id statusLabel;
-    id editor;
-    id progressView;
 }
 
 - (struct CGSize);
 - (id);
-- (void);
+- (void)tLowWater:] /* Error: Ran out of types for this method. */;
 - (id)!8Aùñþð1Â0@ù
 × ;
 - (void);

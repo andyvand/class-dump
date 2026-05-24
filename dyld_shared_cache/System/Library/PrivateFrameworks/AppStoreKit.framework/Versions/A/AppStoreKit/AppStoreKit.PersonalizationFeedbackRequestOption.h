@@ -7,8 +7,6 @@
 @interface AppStoreKit.PersonalizationFeedbackRequestOption
 {
     id title;
-    id value;
-    id action;
 }
 
 @end

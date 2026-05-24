@@ -10,20 +10,11 @@ __attribute__((visibility("hidden")))
 @interface StartPageCollectionSectionTitleConfiguration
 {
     _Bool _canGoBack;
-    _Bool _usesCustomShowMore;
-    _Bool _canCollapseSection;
-    _Bool _isSectionCollapsed;
-    _Bool _showsProfileIcon;
-    NSString *_title;
-    NSString *_accessibilityLabel;
-    CDUnknownBlockType _popUpAction;
-    CDUnknownBlockType _trailingAccessoryViewProvider;
-    CDUnknownBlockType _secondaryTrailingAccessoryViewProvider;
 }
 
 + (id);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
@@ -52,23 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(readonly, nonatomic) _Bool canCollapseSection; // @synthesize canCollapseSection=_canCollapseSection;
-@property(readonly, nonatomic) _Bool canGoBack; // @synthesize canGoBack=_canGoBack;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSectionCollapsed; // @synthesize isSectionCollapsed=_isSectionCollapsed;
-@property(readonly, copy, nonatomic) CDUnknownBlockType popUpAction; // @synthesize popUpAction=_popUpAction;
-@property(readonly, copy, nonatomic) CDUnknownBlockType secondaryTrailingAccessoryViewProvider; // @synthesize secondaryTrailingAccessoryViewProvider=_secondaryTrailingAccessoryViewProvider;
-@property(readonly, nonatomic) _Bool showsProfileIcon; // @synthesize showsProfileIcon=_showsProfileIcon;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) CDUnknownBlockType trailingAccessoryViewProvider; // @synthesize trailingAccessoryViewProvider=_trailingAccessoryViewProvider;
-@property(readonly, nonatomic) _Bool usesCustomShowMore; // @synthesize usesCustomShowMore=_usesCustomShowMore;
 
 @end
 

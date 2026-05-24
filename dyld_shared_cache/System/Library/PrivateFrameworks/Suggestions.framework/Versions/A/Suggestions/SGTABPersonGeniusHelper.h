@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPerson, NSArray, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class ABAddressBook;
 
 __attribute__((visibility("hidden")))
 @interface SGTABPersonGeniusHelper
 {
     ABAddressBook *addressBook;
-    NSMutableDictionary *normalizedToResult;
-    NSMutableDictionary *nameToResult;
-    NSMutableDictionary *addressToResult;
-    NSMutableSet *moreThan3Recents;
-    NSMutableSet *lessThan3Recents;
-    NSString *meDisplayName;
-    ABPerson *meCard;
-    NSSet *attributeNames;
-    NSString *inputString;
-    _Bool coreRecentsAvailable;
-    _Bool inputStringIsAMail;
-    _Bool includeScreenames;
-    _Bool meCardAccountsFetched;
-    void *evaluator;
 }
 
 + (id);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int))k`!;
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -61,8 +47,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) ABAddressBook *addressBook; // @synthesize addressBook;
-@property(copy) NSArray *attributeNames;
 @property _Bool includeScreenames; // @synthesize includeScreenames;
 
 @end

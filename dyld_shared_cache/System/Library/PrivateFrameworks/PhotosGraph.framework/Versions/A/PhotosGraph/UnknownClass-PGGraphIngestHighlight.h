@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PHAssetCollection;
-
 @interface UnknownClass (PGGraphIngestHighlight)
 + (id);
 - (unsigned short);
@@ -16,7 +14,7 @@
 - (double);
 - (id);
 - (_Bool);
-- (double);
+- (double)isEqualToString:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -24,32 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection;
-@property(readonly, nonatomic) unsigned short category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(nonatomic) unsigned short enrichmentState;
-@property(readonly, nonatomic) NSArray *extendedCuratedAssets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUpToDate;
-@property(readonly, nonatomic) unsigned short kind;
-@property(readonly, nonatomic) NSDate *localEndDate;
-@property(readonly, nonatomic) NSDate *localStartDate;
-@property(readonly, nonatomic) unsigned short mixedSharingCompositionKeyAssetRelationship;
-@property(readonly, nonatomic) id modelObject;
-@property(readonly, nonatomic) unsigned long long numberOfAssetsInExtendedMixed;
-@property(readonly, nonatomic) unsigned long long numberOfAssetsInExtendedPrivate;
-@property(readonly, nonatomic) unsigned long long numberOfAssetsInExtendedShared;
-@property(readonly, nonatomic) double promotionScore;
-@property(readonly, nonatomic, getter=isRecent) _Bool recent;
-@property(readonly, nonatomic) unsigned short sharingComposition;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned short type;
-@property(readonly, nonatomic) NSString *uuid;
+@property(readonly, nonatomic) unsigned short type;
 @end
 

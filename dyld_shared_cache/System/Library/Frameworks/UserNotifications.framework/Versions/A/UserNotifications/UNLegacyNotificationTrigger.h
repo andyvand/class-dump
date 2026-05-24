@@ -6,16 +6,11 @@
 
 #import <UserNotifications/UNNotificationTrigger.h>
 
-@class NSCalendar, NSDate, NSTimeZone;
+@class NSDate;
 
 @interface UNLegacyNotificationTrigger : UNNotificationTrigger
 {
     int _remainingRepeatCount;
-    int _totalRepeatCount;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
-    NSCalendar *_repeatCalendar;
-    unsigned long long _repeatInterval;
 }
 
 + (id);
@@ -47,11 +42,6 @@
 
 // Remaining properties
 @property(copy) NSDate *date; // @synthesize date=_date;
-@property int remainingRepeatCount; // @synthesize remainingRepeatCount=_remainingRepeatCount;
-@property(copy) NSCalendar *repeatCalendar; // @synthesize repeatCalendar=_repeatCalendar;
-@property unsigned long long repeatInterval; // @synthesize repeatInterval=_repeatInterval;
-@property(copy) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property int totalRepeatCount; // @synthesize totalRepeatCount=_totalRepeatCount;
 
 @end
 

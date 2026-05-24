@@ -6,15 +6,12 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAPBLEPeripheralInfo, NSDictionary, NSNumber;
+@class HAPBLEPeripheralInfo;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerAccessoryCache : HAP2LoggingObject
 {
     HAPBLEPeripheralInfo *_peripheralInfo;
-    NSDictionary *_accessoryCache;
-    NSNumber *_sleepInterval;
-    NSNumber *_metadataVersion;
 }
 
 + (id);
@@ -26,20 +23,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)mework/Versions/Current/AOSAccounts;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)properties;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *accessoryCache; // @synthesize accessoryCache=_accessoryCache;
-@property(readonly, nonatomic) NSNumber *metadataVersion; // @synthesize metadataVersion=_metadataVersion;
 @property(retain, nonatomic) HAPBLEPeripheralInfo *peripheralInfo; // @synthesize peripheralInfo=_peripheralInfo;
-@property(retain, nonatomic) NSNumber *sleepInterval; // @synthesize sleepInterval=_sleepInterval;
 
 @end
 

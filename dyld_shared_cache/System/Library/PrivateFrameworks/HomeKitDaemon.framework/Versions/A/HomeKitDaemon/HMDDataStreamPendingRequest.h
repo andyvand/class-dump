@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamPendingRequest
 {
     NSNumber *_identifier;
-    NSString *_topic;
-    NSString *_protocol;
-    CDUnknownBlockType _callback;
-    NSDictionary *_payload;
 }
 
 - (id);
@@ -23,15 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)tðèðÐò;
 - (CDUnknownBlockType)ePod paired sensor UUID:%@ /* Error: Ran out of types for this method. */;
-- (void)icType;
+- (void)characteristicType;
 - (id)¤S}ÿ»	3?;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
 @property(readonly, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
-@property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

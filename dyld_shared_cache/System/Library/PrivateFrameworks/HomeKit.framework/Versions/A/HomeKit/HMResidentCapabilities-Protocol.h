@@ -5,55 +5,23 @@
 //
 
 @protocol HMResidentCapabilities
+- (_Bool);
+- (_Bool)B;
+- (_Bool)K;
+- (_Bool)*,',;
+- (_Bool)>0KM/;
+- (_Bool)incongitable;
+- (_Bool)	;
+- (_Bool);
+- (_Bool)P	;
+- (_Bool)imes];
 - (_Bool)!Aù±Yð1Â0@ù
 × ;
-- (_Bool)eCropsWithUUIDs:toPersonWithUUID:forSource:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)associateFaceCropsWithUUIDs:toPersonWithUUID:forSource:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)model entry response payload is invalid;
 - (_Bool)fi:%@, wifiRSSI:%@, securityType:%@, [eventrouter=> connected:%d date:%@, clients:%@] > /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isResidentCapable;
-@property(readonly, nonatomic) _Bool supportsAccessCodes;
-@property(readonly, nonatomic) _Bool supportsAnnounce;
-@property(readonly, nonatomic) _Bool supportsCHIP;
-@property(readonly, nonatomic) _Bool supportsCameraActivityZones;
-@property(readonly, nonatomic) _Bool supportsCameraPackageDetection;
-@property(readonly, nonatomic) _Bool supportsCameraRecording;
-@property(readonly, nonatomic) _Bool supportsCameraRecordingReachabilityNotifications;
-@property(readonly, nonatomic) _Bool supportsCameraSignificantEventNotifications;
-@property(readonly, nonatomic) _Bool supportsCustomMediaApplicationDestination;
-@property(readonly, nonatomic) _Bool supportsDedicatedStatusChannel;
-@property(readonly, nonatomic) _Bool supportsDistributedExecutionOnAppleMediaAccessories;
-@property(readonly, nonatomic) _Bool supportsDistributedExecutionOnPrimary;
-@property(readonly, nonatomic) _Bool supportsEventLog;
-@property(readonly, nonatomic) _Bool supportsFaceClassification;
-@property(readonly, nonatomic) _Bool supportsFirmwareUpdate;
-@property(readonly, nonatomic) _Bool supportsHEVC;
-@property(readonly, nonatomic) _Bool supportsHKSV3;
-@property(readonly, nonatomic) _Bool supportsHomeActivityState;
-@property(readonly, nonatomic) _Bool supportsHomeHub;
-@property(readonly, nonatomic) _Bool supportsLockNotificationContext;
-@property(readonly, nonatomic) _Bool supportsMatterOwnerCertFetch;
-@property(readonly, nonatomic) _Bool supportsMatterSharedAdminPairing;
-@property(readonly, nonatomic) _Bool supportsMatterTTU;
-@property(readonly, nonatomic) _Bool supportsMediaActions;
-@property(readonly, nonatomic) _Bool supportsNativeMatter;
-@property(readonly, nonatomic) _Bool supportsNativeMatterPlugin;
-@property(readonly, nonatomic) _Bool supportsNaturalLighting;
-@property(readonly, nonatomic) _Bool supportsResidentActionSetStateEvaluation;
-@property(readonly, nonatomic) _Bool supportsResidentFirmwareUpdate;
-@property(readonly, nonatomic) _Bool supportsResidentFirstAccessoryCommunication;
-@property(readonly, nonatomic) _Bool supportsResidentSelection;
-@property(readonly, nonatomic) _Bool supportsRestrictedGuest;
-@property(readonly, nonatomic) _Bool supportsRouterManagement;
-@property(readonly, nonatomic) _Bool supportsShortcutActions;
-@property(readonly, nonatomic) _Bool supportsSiriEndpointSetup;
-@property(readonly, nonatomic) _Bool supportsThreadBorderRouter;
-@property(readonly, nonatomic) _Bool supportsThreadNetworkCredentialSharing;
-@property(readonly, nonatomic) _Bool supportsUWB;
-@property(readonly, nonatomic) _Bool supportsUWBUnlock;
-@property(readonly, nonatomic) _Bool supportsUnifiedMediaNotifications;
-@property(readonly, nonatomic) _Bool supportsWakeOnLAN;
-@property(readonly, nonatomic) _Bool supportsWalletKey;
 @end
 

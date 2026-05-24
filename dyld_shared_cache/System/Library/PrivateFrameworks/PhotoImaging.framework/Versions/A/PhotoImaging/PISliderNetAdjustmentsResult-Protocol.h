@@ -7,9 +7,9 @@
 @class NSDictionary;
 
 @protocol PISliderNetAdjustmentsResult
+- (float);
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *adjustments;
-@property(readonly) float similarityScore;
 @end
 

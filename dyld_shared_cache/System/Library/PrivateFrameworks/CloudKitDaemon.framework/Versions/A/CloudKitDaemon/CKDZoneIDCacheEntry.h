@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CKDZoneIDCacheEntry
 {
     NSNumber *_rowID;
-    NSString *_zoneIDString;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)oken;
+- (void)ParentGroupContainsDiscoverableLeader;
+- (id)_accountServiceSignedToken;
 - (void)\GJÄJ$PtPQ8\^;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *rowID; // @synthesize rowID=_rowID;
-@property(retain, nonatomic) NSString *zoneIDString; // @synthesize zoneIDString=_zoneIDString;
 
 @end
 

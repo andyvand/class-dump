@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _NSWorkspaceVolumeStatusTracker
 {
     NSURL *_url;
-    NSString *_name;
 }
 
 - (void);

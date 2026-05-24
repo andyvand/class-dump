@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLLibraryManager, CPLPlatformObject, NSProgress, NSString;
+@class CPLPlatformObject;
 
 @interface CPLChangeSession
 {
     CPLPlatformObject *_platformObject;
-    NSProgress *_sessionProgress;
-    NSString *_sessionIdentifier;
-    CPLLibraryManager *_libraryManager;
-    unsigned long long _state;
 }
 
 + (id);
@@ -20,16 +16,16 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (void);
-- (void)ient.session;
-- (unsigned long long)%ÁÚh¦ðAð#©õ©ô;
-- (id)B©ôOA©öWÃ¨ÿ#ÕÐÊP;
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void)!´Gù1°1Â0@ù
@@ -37,18 +33,7 @@
 - (id)Should not use -init method but -initWithLibraryManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLLibraryManager *libraryManager; // @synthesize libraryManager=_libraryManager;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) NSProgress *sessionProgress; // @synthesize sessionProgress=_sessionProgress;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

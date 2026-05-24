@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIImageView, UITextField, UIView;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface CNSharingProfileOnboardingNameCell
 {
     long long _nameOrder;
-    UIImage *_avatarImage;
-    UITextField *_givenNameField;
-    UITextField *_familyNameField;
-    UIView *_fakeSeparator;
-    UIImageView *_avatarImageView;
 }
 
-+ (double);
++ (double)A;
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -40,18 +35,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)onsByActionTypeByContact;
+- (void)actionsByActionTypeByContact;
 - (id)Image:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *avatarImage; // @synthesize avatarImage=_avatarImage;
-@property(retain, nonatomic) UIImageView *avatarImageView; // @synthesize avatarImageView=_avatarImageView;
-@property(retain, nonatomic) UIView *fakeSeparator; // @synthesize fakeSeparator=_fakeSeparator;
-@property(copy, nonatomic) NSString *familyName;
-@property(retain, nonatomic) UITextField *familyNameField; // @synthesize familyNameField=_familyNameField;
-@property(copy, nonatomic) NSString *givenName;
 @property(retain, nonatomic) UITextField *givenNameField; // @synthesize givenNameField=_givenNameField;
-@property(nonatomic) long long nameOrder; // @synthesize nameOrder=_nameOrder;
 
 @end
 

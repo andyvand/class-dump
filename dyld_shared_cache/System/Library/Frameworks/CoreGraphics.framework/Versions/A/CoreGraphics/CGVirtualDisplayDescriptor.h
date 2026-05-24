@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary, NSString;
 
 @interface CGVirtualDisplayDescriptor
 {
     NSString *_name;
-    struct CGSize _sizeInMillimeters;
-    unsigned int _maxPixelsWide;
-    unsigned int _maxPixelsHigh;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _terminationHandler;
-    NSMutableDictionary *_displayInfo;
 }
 
 - (struct CGPoint);
@@ -36,17 +29,18 @@
 - (void);
 - (struct CGSize);
 - (id);
+- (void)__AUTH_CONST;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (unsigned int);
+- (unsigned int)J@9?
+k`;
 - (void);
 - (id);
-- (void)CreateDirectWithInternalCallbacks;
+- (void)CGDataProviderCreateDirectWithInternalCallbacks;
 - (unsigned int);
 - (void);
 - (void)C;
@@ -54,21 +48,7 @@
 - (void)z;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint bluePrimary;
 @property(readonly, nonatomic) NSDictionary *displayInfo;
-@property(nonatomic) struct CGPoint greenPrimary;
-@property(nonatomic) unsigned int maxPixelsHigh; // @synthesize maxPixelsHigh=_maxPixelsHigh;
-@property(nonatomic) unsigned int maxPixelsWide; // @synthesize maxPixelsWide=_maxPixelsWide;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int productID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) struct CGPoint redPrimary;
-@property(nonatomic) unsigned int serialNum;
-@property(nonatomic) unsigned int serialNumber;
-@property(nonatomic) struct CGSize sizeInMillimeters; // @synthesize sizeInMillimeters=_sizeInMillimeters;
-@property(copy, nonatomic) CDUnknownBlockType terminationHandler;
-@property(nonatomic) unsigned int vendorID;
-@property(nonatomic) struct CGPoint whitePoint;
 
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UITraitCollection, _UIRenderingEnvironmentAttributes;
+@class UITraitCollection, _UIRenderingEnvironmentAttributes;
 
 __attribute__((visibility("hidden")))
 @interface _UIRenderingEnvironmentSceneComponent
 {
     UITraitCollection *_traitOverrides;
-    UIScene *_scene;
-    _UIRenderingEnvironmentAttributes *_currentAttributes;
 }
 
 - (void);
+- (id)t
+;
 - (id);
-- (id);
-- (id)unt: /* Error: Ran out of types for this method. */;
+- (id)setInstanceCount: /* Error: Ran out of types for this method. */;
 - (id)CG;
 - (void);
 - (id)\\;
@@ -25,19 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)iÿ;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
 @property(readonly, nonatomic) _UIRenderingEnvironmentAttributes *currentAttributes; // @synthesize currentAttributes=_currentAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

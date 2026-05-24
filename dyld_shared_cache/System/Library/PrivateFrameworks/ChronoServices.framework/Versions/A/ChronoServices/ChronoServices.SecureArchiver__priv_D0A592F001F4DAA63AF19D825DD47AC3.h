@@ -7,7 +7,6 @@
 @interface ChronoServices.SecureArchiver__priv_D0A592F001F4DAA63AF19D825DD47AC3
 {
     id archiver;
-    id nextId;
 }
 
 @end

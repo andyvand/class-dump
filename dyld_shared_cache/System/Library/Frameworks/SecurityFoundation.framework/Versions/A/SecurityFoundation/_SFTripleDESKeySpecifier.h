@@ -13,7 +13,7 @@
 
 + (Class);
 - (long long);
-- (void);
+- (void)__TEXT;
 
 @end
 

@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface INCurrencyAmount
 {
     NSDecimalNumber *_amount;
-    NSString *_currencyCode;
 }
 
 + (_Bool);
+- (id)";
 - (id);
-- (id);
-- (id);
+- (id)CMotionXPCProxyServiceRemoteServerInterface>",R;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__getWiFiNetworkSharingNetworkList:(id)arg1;
+- (void)b0d9;
 - (id);
 - (id);
-- (id);
-- (id)ls;
+- (id)g;
+- (id)_payloadWorkoutSequenceLabels;
 - (_Bool)l.;
-- (void)indEvents:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRequestedEventAttributeOptionsCollectionForFindEvents:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)TÉÿ;
 
 // Remaining properties
-@property(readonly, copy) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, copy) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

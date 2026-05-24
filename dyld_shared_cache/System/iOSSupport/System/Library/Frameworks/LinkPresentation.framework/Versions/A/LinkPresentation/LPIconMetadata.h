@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPIconMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_accessibilityText;
 }
 
 + (_Bool);
-- (void);
+- (void)systemIsAnimatingApplicationLifecycleEvent;
 - (id);
 - (void);
 - (id);
 - (unsigned int);
-- (id);
-- (id);
-- (id);
+- (id){CGSize=dd}}24;
+- (id)displayNameAtPath:(id)arg1;
+- (id)nameComponents;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (void)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

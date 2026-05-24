@@ -9,14 +9,13 @@
 @interface AppKit._NSTextFormattingListStylesMiniComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : AppKit._NSTextFormattingBasePopUpButton__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id discDecimalOnly;
-    id listStylesMenuItems;
 }
 
-- (void);
+- (void)2kt;
 - (id);
 - (id);
 - (void);
-- (id)t;
+- (id)_start;
 - (void)nE;
 
 @end

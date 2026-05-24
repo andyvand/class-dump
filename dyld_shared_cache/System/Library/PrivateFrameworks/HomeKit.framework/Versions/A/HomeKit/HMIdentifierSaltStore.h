@@ -9,8 +9,6 @@
 @interface HMIdentifierSaltStore
 {
     struct os_unfair_lock_s _lock;
-    NSData *_identifierSalt;
-    NSData *_assistantIdentifierSalt;
 }
 
 + (id);
@@ -21,7 +19,6 @@
 - (void)@î¸ðpôõ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *assistantIdentifierSalt; // @synthesize assistantIdentifierSalt=_assistantIdentifierSalt;
 @property(retain, nonatomic) NSData *identifierSalt; // @synthesize identifierSalt=_identifierSalt;
 
 @end

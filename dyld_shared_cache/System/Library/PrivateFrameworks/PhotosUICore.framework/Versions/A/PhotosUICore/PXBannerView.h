@@ -5,13 +5,10 @@
 //
 
 @class PXBannerViewConfiguration;
-@protocol PXBannerViewDelegate;
 
 @interface PXBannerView
 {
     PXBannerViewConfiguration *_configuration;
-    id <PXBannerViewDelegate> _delegate;
-    struct NSEdgeInsets _padding;
 }
 
 - (id);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,8 +30,6 @@
 - (struct NSEdgeInsets)|¶=;
 
 // Remaining properties
-@property(copy, nonatomic) PXBannerViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak id <PXBannerViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) struct NSEdgeInsets padding; // @synthesize padding=_padding;
 
 @end

@@ -6,19 +6,17 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVLeafItem, NSDictionary, NSMutableSet, NSSet;
+@class CoreDAVLeafItem, NSDictionary;
 
 @interface CoreDAVBulkRequestsItem : CoreDAVItem
 {
     CoreDAVLeafItem *_maxResourcesItem;
-    CoreDAVLeafItem *_maxSizeItem;
-    NSMutableSet *_supportedItems;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)_responseImageForParticipantStatus:state: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (_Bool);
@@ -30,19 +28,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)>;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictRepresentation;
-@property(readonly, nonatomic) long long maxResources;
-@property(retain, nonatomic) CoreDAVLeafItem *maxResourcesItem; // @synthesize maxResourcesItem=_maxResourcesItem;
-@property(readonly, nonatomic) long long maxSize;
-@property(retain, nonatomic) CoreDAVLeafItem *maxSizeItem; // @synthesize maxSizeItem=_maxSizeItem;
-@property(readonly, nonatomic) NSSet *supportedItems; // @synthesize supportedItems=_supportedItems;
-@property(readonly, nonatomic) _Bool supportsDelete;
-@property(readonly, nonatomic) _Bool supportsInsert;
-@property(readonly, nonatomic) _Bool supportsUpdate;
 
 @end
 

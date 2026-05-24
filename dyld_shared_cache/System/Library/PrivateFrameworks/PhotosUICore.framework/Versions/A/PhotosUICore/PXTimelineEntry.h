@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PXTimelineCrop;
+@class NSDate;
 
 @interface PXTimelineEntry
 {
     unsigned long long _contentType;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSString *_title;
-    NSString *_subtitle;
-    unsigned long long _sourceType;
-    NSString *_sourceIdentifier;
-    NSString *_localIdentifier;
-    NSString *_assetLocalIdentifier;
-    NSURL *_deeplink;
-    PXTimelineCrop *_suggestedCrop;
-    NSString *_proactiveCriterion;
-    double _relevanceScore;
-    unsigned long long _rejectReason;
 }
 
 + (id);
@@ -32,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (id);
@@ -51,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -59,30 +46,17 @@
 - (id)!T@ùQ;°1Â0@ù
 × ;
 - (id);
-- (id)terType;
+- (id)_filterType;
 - (id)ÿÍûÿÍûÿx{ûÿ;
 - (id)library:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)e.m;
 - (void),;
-- (double)leOverlayController;
+- (double)PhotosDynamicTitleOverlayController;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetLocalIdentifier; // @synthesize assetLocalIdentifier=_assetLocalIdentifier;
-@property(readonly, nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) NSURL *deeplink; // @synthesize deeplink=_deeplink;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
-@property(retain, nonatomic) NSString *proactiveCriterion; // @synthesize proactiveCriterion=_proactiveCriterion;
-@property(nonatomic) unsigned long long rejectReason; // @synthesize rejectReason=_rejectReason;
-@property(readonly, nonatomic) double relevanceScore; // @synthesize relevanceScore=_relevanceScore;
-@property(readonly, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
 @property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) PXTimelineCrop *suggestedCrop; // @synthesize suggestedCrop=_suggestedCrop;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

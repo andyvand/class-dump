@@ -7,7 +7,6 @@
 @interface NewsSubscription.SIWAPurchaseConfigProvider
 {
     id configurationManager;
-    id featureAvailability;
 }
 
 @end

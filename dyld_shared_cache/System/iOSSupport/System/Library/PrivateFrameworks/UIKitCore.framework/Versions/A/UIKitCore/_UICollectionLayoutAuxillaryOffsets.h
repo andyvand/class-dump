@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutAuxillaryOffsets
@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)CFPropertyListCreateWithData;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)__MPModelRelationshipAlbumGenre__MAPPING_MISSING__;
+- (id)@ %@>;
 - (id);
 - (long long);
 - (void);
@@ -25,26 +25,19 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)0@ù
 × ;
-- (_Bool)Text:(id)arg1;
-- (void)artTime:(id)arg1 duration:curve: /* Error: Ran out of types for this method. */;
-- (void)hTextPasteCoordinator:(id)arg1;
-- (id)hScrollViewTransitionForController:(id)arg1;
+- (_Bool)setShowsText:(id)arg1;
+- (void)requestStyle:(id)arg1 animation:startTime:duration:curve: /* Error: Ran out of types for this method. */;
+- (void)initWithTextPasteCoordinator:(id)arg1;
+- (id)finishScrollViewTransitionForController:(id)arg1;
 - (id)View>",&,N;
-- (void)tions;
+- (void)Annotations;
 - (void)ÿl;
 - (void)Ôô;
 - (id)are IGNORING this invalidation since the area to layout in is 0.;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSSet *elementKinds;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
-
 @interface ASDAppMetricsEvent
 {
     _Bool _posted;
-    long long _eventSubtype;
-    NSNumber *_eventTime;
-    long long _eventType;
-    NSDictionary *_payload;
 }
 
 + (_Bool);
@@ -22,20 +16,16 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void)",C,V_pairedWatchModel;
 
 // Remaining properties
 @property long long eventSubtype; // @synthesize eventSubtype=_eventSubtype;
-@property(copy) NSNumber *eventTime; // @synthesize eventTime=_eventTime;
-@property long long eventType; // @synthesize eventType=_eventType;
-@property(copy) NSDictionary *payload; // @synthesize payload=_payload;
-@property(getter=isPosted) _Bool posted; // @synthesize posted=_posted;
 
 @end
 

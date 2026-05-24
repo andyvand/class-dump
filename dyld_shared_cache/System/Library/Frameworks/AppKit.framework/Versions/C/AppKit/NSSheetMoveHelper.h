@@ -6,33 +6,16 @@
 
 #import <AppKit/NSMoveHelper.h>
 
-@class NSArray, NSPointerArray, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSSheetMoveHelper : NSMoveHelper
 {
     NSWindow *_sheet;
-    NSWindow *_sheetParent;
-    NSWindow *_ultimateParent;
-    NSWindow *_effectiveParent;
-    _Bool _isHidden;
-    _Bool _detached;
-    _Bool _waitingToAttach;
-    long long _flavor;
-    long long _animationStyle;
-    NSArray *_cgsWindows;
-    struct CGRect _startFrame;
-    struct CGRect _frameDelta;
-    struct CGRect _sheetStartFrame;
-    struct CGRect _sheetDelta;
-    _Bool _windowHadKeyAppearance;
-    double _totalTime;
-    double _currentProgress;
-    NSPointerArray *_dimmedWindows;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -46,42 +29,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)es_count = %lu, extra_bytes = %lu, total memory size %lu fd %d);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)activityCanceled:(double)arg1;
+- (id)_needsCachedSubflowCounts;
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)mm;
+- (id)LSession-delegate;
 - (void);
 - (void);
 - (void);
+- (_Bool)@;
+- (void);
+- (void);
+- (void)B;
 - (_Bool)0@ù
 × ;
-- (_Bool)Range: /* Error: Ran out of types for this method. */;
+- (_Bool)fixFontAttributeInRange: /* Error: Ran out of types for this method. */;
 - (double);
-- (void)entView;
+- (void)AdaptiveContentView;
 - (id)'ùl;D;
 
 // Remaining properties
-@property(readonly, getter=isClosing) _Bool closing;
-@property(readonly, getter=isHidden) _Bool hidden;
-@property(readonly, getter=isOpening) _Bool opening;
-@property(readonly) __weak NSWindow *sheetParent;
-@property(readonly) __weak NSWindow *sheetParentForOrdering;
 @property(readonly) __weak NSWindow *sheetWindow;
-@property(readonly, getter=isWaitingToAttach) _Bool waitingToAttach;
 
 @end
 

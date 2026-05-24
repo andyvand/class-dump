@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)_allowOnlyPartitionedCookies;
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (unsigned long long);
+- (double);
+- (double)kCFHTTPServerAllowAnonymousServer;
+- (double)schedulingTier;
+- (unsigned long long)c;
 
 @end
 

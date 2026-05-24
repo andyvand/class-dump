@@ -4,14 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CDPDCircleDelegate, CDPDCircleProxy, CDPStateUIProviderInternal;
+@protocol CDPDCircleProxy, CDPStateUIProviderInternal;
 
 @protocol CDPDCircleControl
+- (void)JSGlobalContextRef;
+- (void)WebSearchSuggestionsFetcherController;
+- (void)WebArchiveGenerationControllerNavigationDelegate;
+- (void)WebAppUtilities;
+- (void)WebAppManifestExtractor;
+- (id)VisualTabPickerThumbnailViewMirrorView;
+- (long long)NSTextInputClient;
+- (int)UnifiedFieldBezelView;
+- (id <CDPDCircleProxy>)WBSFluidProgressControllerObserving;
+- (void)ToolbarDownloadsButtonProgressBar;
+- (void)TextFieldWithVibrancy;
+- (void)ResponsiveDesignPresetConfiguration;
 - (id <CDPStateUIProviderInternal>)LocalAuthentication.framework/LocalAuthentication;
 
+@optional
+- (void)_TtCC6Safari38CompletionListCollectionViewController17SectionHeaderView;
+
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleProxy> circleProxy;
-@property(readonly, nonatomic) __weak id <CDPDCircleDelegate> delegate;
 @property(readonly, nonatomic) id <CDPStateUIProviderInternal> uiProvider;
 @end
 

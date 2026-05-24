@@ -4,60 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamNOWRDLossEventRateControl
 {
     double _packetLossRate;
-    double _roundTripTime;
-    double _firstReceiveTime;
-    double _shortAverageLag;
-    double _longAverageLag;
-    double _owrd;
-    struct OWRDList OWRDList;
-    double _nowrd;
-    double _nowrdShort;
-    double _nowrdAcc;
-    unsigned int _firstSendTimestamp;
-    unsigned int _previousSendTimestamp;
-    unsigned int _previousTimestampDiff;
-    int _sendTimestampWrappedAround;
-    _Bool _lossEventBuffer[4];
-    int _lossEventBufferIndex;
-    double _lastLossEventTime;
-    double _rampUpFrozenTime;
-    double _rampUpFrozenDuration;
-    double _rampDownLossRateThreshold;
-    double _rampDownLossEventBitrateThreshold;
-    double _rampDownLossEventCountThreshold;
-    double _rampUpNoLossEventDurationRatio;
-    double _rampUpStatusRateLimitedThreshold;
-    double _nowrdRampDownThreshold;
-    double _nowrdRampUpThreshold;
-    double _nowrdAccRampDownThreshold;
-    double _nowrdAccRampUpThreshold;
-    unsigned int _rampUpStatus;
-    unsigned int _rampDownStatus;
-    int _state;
-    double _rateControlTime;
-    unsigned int _targetBitrate;
-    unsigned int _averageReceivedBitrate;
-    unsigned int _totalActualBitrate;
-    unsigned int _doRateControlCounter;
-    unsigned short _currentTierIndex;
-    unsigned short _prevOperatingTierIndex;
-    unsigned short _minTierIndex;
-    unsigned short _maxTierIndex;
-    double _rateControlInterval;
 }
 
 - (void);
 - (void);
 - (unsigned int);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (void);
@@ -68,34 +26,21 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
-- (id);
-- (int);
+- (id)*;
+- (int)2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}24^{?=IIII[9i][3I][9i]IIIIIIIIIIIIII{?=SSSS}[8{?=SSSSSSSs}]{?=SSSS}{?=SSS}{?=SSSSS}{?=SSSSS}[5{?=SSCSSSSSSSS[6C][6C]}]{?=SSCssssssss}[4{?=SSCSSCssssssss}]{?=SCCCC}{?=SS[256C]}{?=SCC}{?=SCCCCCC}SI}32^{__IOSurface=}40;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double nowrd; // @synthesize nowrd=_nowrd;
-@property(readonly, nonatomic) double nowrdAcc; // @synthesize nowrdAcc=_nowrdAcc;
-@property(readonly, nonatomic) double nowrdShort; // @synthesize nowrdShort=_nowrdShort;
-@property(readonly, nonatomic) double owrd; // @synthesize owrd=_owrd;
-@property(nonatomic) double rateControlInterval; // @synthesize rateControlInterval=_rateControlInterval;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end
 

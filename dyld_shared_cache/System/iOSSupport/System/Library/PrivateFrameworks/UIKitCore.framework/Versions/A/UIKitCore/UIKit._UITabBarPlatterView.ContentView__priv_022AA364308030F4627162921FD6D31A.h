@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)tatusBarNewUIStyleAttributes;
+- (id)UIStatusBarNewUIStyleAttributes;
 
 @end
 

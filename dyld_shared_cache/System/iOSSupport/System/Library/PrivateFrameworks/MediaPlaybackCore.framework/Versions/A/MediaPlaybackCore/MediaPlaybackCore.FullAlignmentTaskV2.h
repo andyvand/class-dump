@@ -7,11 +7,6 @@
 @interface MediaPlaybackCore.FullAlignmentTaskV2
 {
     id $defaultActor;
-    id transcriptProvider;
-    id elapsedTimeProvider;
-    id task;
-    id state;
-    id assetReaderOutput;
 }
 
 @end

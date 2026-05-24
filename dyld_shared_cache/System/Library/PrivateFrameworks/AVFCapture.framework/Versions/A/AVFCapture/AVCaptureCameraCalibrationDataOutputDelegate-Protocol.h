@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureCameraCalibrationDataOutput;
+
 @protocol AVCaptureCameraCalibrationDataOutputDelegate
+
+@optional
+- (void)msv_lazyFilter:(AVCaptureCameraCalibrationDataOutput *)arg1;
+- (void)ionary",&,N,V_infoDictionary;
 @end
 

@@ -10,7 +10,6 @@
 @interface PXSharedLibraryInvitationView
 {
     id <PXSharedLibrary> _invitation;
-    PXSharedLibraryStatusProvider *_statusProvider;
 }
 
 - (id);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXSharedLibrary> invitation; // @synthesize invitation=_invitation;
 @property(readonly, nonatomic) PXSharedLibraryStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
 
 @end

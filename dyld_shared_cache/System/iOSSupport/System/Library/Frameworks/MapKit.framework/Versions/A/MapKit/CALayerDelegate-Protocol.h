@@ -9,6 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
+- (void)fetching personal nickname;
 - (void)nagerProtocol>"16@"MKPlaceActionEnvironment"24;
 - (id <CAAction>)G;
 @end

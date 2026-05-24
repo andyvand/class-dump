@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGuidesLocationEntry, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDChildActionGuides
 {
     PBUnknownFields *_unknownFields;
-    GEOPDGuidesLocationEntry *_guidesLocationEntry;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)Parameters"b1"wrote_anyField"b1};
-- (id);
+- (id)_carHeadunitPixelHeight;
 - (id)X´ì$X´X4X´ÈDX´4TX´ dX´tX´xX´äX´P¤X´¼´X´(ÄX´ÔX´|äX´dôX´ÐY´<	Y´¨	$Y´
 4Y´ä
 DY´ÌTY´<dY´¬tY´Y´Y´ø¤Y´d´Y´ÔÄY´@ÔY´¬äY´ôY´Z´ðZ´\$Z´È4Z´4DZ´ TZ´dZ´xtZ´äZ´PZ´¼¤Z´(´Z´ÄZ´;

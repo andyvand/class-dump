@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutDynamicsConfiguration
 {
     NSMutableArray *_dirtyItems;
-    NSArray *_items;
-    NSMutableDictionary *_behaviorDict;
-    struct CGRect _previousVisibleBounds;
-    struct CGRect _currentVisibleBounds;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)shouldSendMeCard;
+- (void)processMessageForSending:(id)arg1 toChat:style:allowWatchdog:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)noteItemDone:(struct CGRect)arg1 batchContext: /* Error: Ran out of types for this method. */;
+- (void)loadFrequentRepliesForChatWithGUID:(id)arg1 chatIdentifiers:(id)arg2 style:services:limit:reply: /* Error: Ran out of types for this method. */;
+- (void)loadDeletedMessagesWithLimit:(id)arg1;
+- (struct CGRect)copyMessagesThatNeedToBeDeletedInCloudKitWithLimit: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)didSendMessage] Not notifying for suggested action response.;
+- (id)cation/%@/%@/%@;
 - (void);
 - (id);
 - (void)`^;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *behaviorDict; // @synthesize behaviorDict=_behaviorDict;
-@property(nonatomic) struct CGRect currentVisibleBounds; // @synthesize currentVisibleBounds=_currentVisibleBounds;
-@property(retain, nonatomic) NSArray *dynamicItems;
-@property(nonatomic) struct CGRect previousVisibleBounds; // @synthesize previousVisibleBounds=_previousVisibleBounds;
 
 @end
 

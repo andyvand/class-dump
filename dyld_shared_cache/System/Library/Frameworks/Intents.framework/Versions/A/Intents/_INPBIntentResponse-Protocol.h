@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentResponsePayloadFailure, _INPBIntentResponsePayloadSuccess, _INPBUserActivity;
+@class NSString, _INPBIntentResponsePayloadFailure;
 
 @protocol _INPBIntentResponse
-- (NSString *)adataAtIndex:(int)arg1;
-- (_Bool)N,V_tag;
 - (void);
+- (void);
+- (void)_beginAuthorizationWithServiceXPCEndpoint:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (int)h;
+- (NSString *)payloadStartCallRequestMetadataAtIndex:(int)arg1;
+- (_Bool)N,V_tag;
+- (void)setAlbumArtist:(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPayloadFailure;
-@property(readonly, nonatomic) _Bool hasPayloadSuccess;
-@property(nonatomic) _Bool hasRequiresAuthentication;
-@property(nonatomic) _Bool hasRequiresProtectedData;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserActivity;
 @property(retain, nonatomic) _INPBIntentResponsePayloadFailure *payloadFailure;
-@property(retain, nonatomic) _INPBIntentResponsePayloadSuccess *payloadSuccess;
-@property(nonatomic) _Bool requiresAuthentication;
-@property(nonatomic) _Bool requiresProtectedData;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _INPBUserActivity *userActivity;
 @end
 

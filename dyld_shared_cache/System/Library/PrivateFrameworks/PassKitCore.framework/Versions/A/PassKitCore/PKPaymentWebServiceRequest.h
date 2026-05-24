@@ -17,11 +17,11 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void)ation;
+- (void)contactFormatConfiguration;
 - (id);
 
 // Remaining properties

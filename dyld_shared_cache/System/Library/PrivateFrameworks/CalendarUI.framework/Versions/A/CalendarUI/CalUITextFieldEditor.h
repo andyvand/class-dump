@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CalUITextFieldEditorDelegate;
-
 @interface CalUITextFieldEditor
 {
     _Bool _shouldAllowVibrancy;
-    id <CalUITextFieldEditorDelegate> _calUITextFieldDelegate;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id))?%;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
-- (void);
+- (void)__objc_arraydata__DATA_CONST;
 - (void)ÿä0Ç;
 
 // Remaining properties
-@property __weak id <CalUITextFieldEditorDelegate> calUITextFieldDelegate; // @synthesize calUITextFieldDelegate=_calUITextFieldDelegate;
 @property _Bool shouldAllowVibrancy; // @synthesize shouldAllowVibrancy=_shouldAllowVibrancy;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface WiFiAwarePublishServiceSpecificInfo
 {
     NSData *_blob;
-    NSData *_txtRecordData;
-    NSString *_instanceName;
 }
 
 + (_Bool);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *blob; // @synthesize blob=_blob;
-@property(copy, nonatomic) NSString *instanceName; // @synthesize instanceName=_instanceName;
-@property(copy, nonatomic) NSData *txtRecordData; // @synthesize txtRecordData=_txtRecordData;
 
 @end
 

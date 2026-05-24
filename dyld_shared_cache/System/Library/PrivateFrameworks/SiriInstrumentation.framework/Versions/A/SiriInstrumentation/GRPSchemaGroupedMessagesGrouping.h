@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GRPSchemaGroupedMessagesGrouping : SISchemaTopLevelUnionType
 {
     SISchemaUUID *_clockIdentifier;
-    _Bool _hasClockIdentifier;
 }
 
 - (void);
@@ -19,24 +18,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
-- (id);
+- (id)(;
+- (int)_externalAccessoryDisconnected: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tonePickerContentView;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)m.apple.icloud.FMF.GridImageIO;
 - (id)"isAlwaysListenForHeySiriEnabled"b1"siriPauseTimeState"b1"isMteUploadEnabled"b1"isServerUserDataSyncEnabled"b1"locationAccessPermission"b1};
-- (id)sUnderlyingErrorCode;
-- (id)nces;
+- (id)hasUnderlyingErrorCode;
+- (id)clearUtterances;
 - (id)<8$:Ä:Ø<Ü= /* Error: Ran out of types for this method. */;
 - (void)RH$;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

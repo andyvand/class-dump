@@ -13,9 +13,9 @@
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (id);
@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
@@ -51,9 +51,9 @@
 - (id);
 - (void);
 - (id);
+- (id)unt:(id)arg1 %@;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)appendName:(id)arg1 u_int64_t:(id *)arg2;
 - (_Bool)1Â0@ù
 × ;
 - (id)strategy;

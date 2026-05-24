@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatModelFactory
 {
     id feedModelFactory;
-    id feedContextFactory;
 }
 
 @end

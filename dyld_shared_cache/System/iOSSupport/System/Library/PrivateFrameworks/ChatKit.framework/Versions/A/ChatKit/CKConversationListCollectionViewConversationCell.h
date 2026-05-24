@@ -6,60 +6,48 @@
 
 #import <ChatKit/CKConversationListEmbeddedCollectionViewCell.h>
 
-@class CKConversationListCellLayout, NSString, _CKCollectionViewTapGestureRecognizer;
 @protocol CKConversationListCollectionViewCellDelegate;
 
 @interface CKConversationListCollectionViewConversationCell : CKConversationListEmbeddedCollectionViewCell
 {
     id <CKConversationListCollectionViewCellDelegate> _delegate;
-    _CKCollectionViewTapGestureRecognizer *_avatarViewTapGestureRecognizer;
-    struct UIEdgeInsets _marginInsets;
 }
 
-+ (id);
++ (id);
 + (Class);
 + (Class);
 + (double);
 + (id);
-- (double);
+- (double)buttonIdentifiers;
+- (void)_webView:(id)arg1 decideDatabaseQuotaForSecurityOrigin:(_Bool)arg2 databaseName:displayName:currentQuota:currentOriginUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)edUsage:(id)arg1 decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)tIDs;
+- (_Bool)_TtCV7NotesUI14ActivityStream7Updater;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets)n;
+- (void)the maximum number of times;
+- (id)Create a Separate Password;
+- (void)s, and you won’t need to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _CKCollectionViewTapGestureRecognizer *avatarViewTapGestureRecognizer; // @synthesize avatarViewTapGestureRecognizer=_avatarViewTapGestureRecognizer;
-@property(retain, nonatomic) CKConversationListCellLayout *cellLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKConversationListCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
-@property(nonatomic) _Bool shouldHidePreviewSummary;
-@property(readonly) Class superclass;
 
 @end
 

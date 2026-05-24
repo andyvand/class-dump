@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPStaticAPFSVolume, NSString;
+@class NSString;
 
 @interface OSPVolume
 {
     _Bool _isAPFS;
-    _Bool _isAuthenticatedRootVolume;
-    NSString *_mountpoint;
-    NSString *_prebootMountpoint;
-    NSString *_volumeGroupUUID;
-    LPStaticAPFSVolume *_prebootVolume;
 }
 
 - (_Bool);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -30,20 +25,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)y == NO OR kind == %d;
+- (_Bool)rom ATRANSACTION;;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool isAPFS; // @synthesize isAPFS=_isAPFS;
-@property _Bool isAuthenticatedRootVolume; // @synthesize isAuthenticatedRootVolume=_isAuthenticatedRootVolume;
 @property(retain) NSString *mountpoint; // @synthesize mountpoint=_mountpoint;
-@property(retain) NSString *prebootMountpoint; // @synthesize prebootMountpoint=_prebootMountpoint;
-@property(retain) LPStaticAPFSVolume *prebootVolume; // @synthesize prebootVolume=_prebootVolume;
-@property(retain) NSString *volumeGroupUUID; // @synthesize volumeGroupUUID=_volumeGroupUUID;
 
 @end
 

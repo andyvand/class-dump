@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface BCInternalAuthenticationRequest
 {
     NSString *_businessIdentifier;
     NSString *_groupIdentifier;
-    NSString *_responseEncryptionKey;
-    NSArray *_retrieve;
-    NSDictionary *_labels;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)popoverPresentationControllerDidDismissPopover:(id)arg1;
+- (void)popoverPresentationController:(id)arg1 willRepositionPopoverToRect:inView: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)mappedData;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)@"CPTemplateApplicationScene",W,N,V_templateApplicationScene;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *businessIdentifier; // @synthesize businessIdentifier=_businessIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(retain, nonatomic) NSDictionary *labels; // @synthesize labels=_labels;
-@property(retain, nonatomic) NSString *responseEncryptionKey; // @synthesize responseEncryptionKey=_responseEncryptionKey;
-@property(retain, nonatomic) NSArray *retrieve; // @synthesize retrieve=_retrieve;
 
 @end
 

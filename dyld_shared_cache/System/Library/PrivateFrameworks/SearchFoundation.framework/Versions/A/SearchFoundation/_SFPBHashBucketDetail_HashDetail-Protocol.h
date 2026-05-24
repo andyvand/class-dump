@@ -7,13 +7,13 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBHashBucketDetail_HashDetail
+- (NSArray *)pdfView:willEndDisplayingOverlayView:forPage: /* Error: Ran out of types for this method. */;
+- (NSString *)containsPoint:onPage: /* Error: Ran out of types for this method. */;
+- (_Bool)_rotateActiveAnnotation;
+- (_Bool)_rootViewFrame;
+- (NSData *)chText;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *full_hash;
-@property(nonatomic) _Bool has_summary;
-@property(nonatomic) _Bool has_table_of_contents;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *matched_url_variant;
-@property(copy, nonatomic) NSArray *sba_entity_types;
 @end
 

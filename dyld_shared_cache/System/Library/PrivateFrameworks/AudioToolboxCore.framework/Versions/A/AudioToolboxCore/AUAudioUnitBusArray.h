@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUAudioUnit, NSMutableArray;
+@class NSMutableArray;
 
 @interface AUAudioUnitBusArray
 {
     NSMutableArray *_busses;
-    _Bool _countChangeable;
-    AUAudioUnit *_ownerAudioUnit;
-    long long _busType;
-    vector_74f50afa _observers;
 }
 
 - (void);
+- (void);
+- (id);
+- (id)!;
+- (void)oInputAccess:(id)arg1 bad client object when checking TCC!;
+- (_Bool)_wires_for_nodeEjE3$_0;
+- (id)4CoreEEEEEE;
+- (id);
+- (_Bool)xH;
 - (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (vector_74f50afa);
+- (vector_964029cf);
 - (unsigned long long);
 - (void)uce4raii2v16detail10ScopeGuardIZN4acv216AudioConverterV220convertComplexBufferEjPK15AudioBufferListPS6_E3$_0NS2_15S;
 - (id)not retain value in conversion type;
@@ -36,11 +32,7 @@
 - (unsigned long long)Ä ø;
 
 // Remaining properties
-@property(readonly) long long busType; // @synthesize busType=_busType;
-@property(readonly) unsigned long long count;
-@property(readonly, getter=isCountChangeable) _Bool countChangeable; // @synthesize countChangeable=_countChangeable;
-@property(nonatomic) vector_74f50afa observers; // @synthesize observers=_observers;
-@property(readonly) AUAudioUnit *ownerAudioUnit; // @synthesize ownerAudioUnit=_ownerAudioUnit;
+@property(nonatomic) vector_964029cf observers; // @synthesize observers=_observers;
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <Safari/LibraryItem.h>
 
-@class NSArray, NSMutableDictionary, NSString, WBTabGroup;
-@protocol LibraryItemTabGroupDelegate;
+@class NSString, WBTabGroup;
 
 __attribute__((visibility("hidden")))
 @interface LibraryItemTabGroup : LibraryItem
 {
     NSString *_windowUUID;
-    NSMutableDictionary *_tabToLibraryItemDictionary;
-    _Bool _isShorteningTitle;
-    _Bool _itemsChangedWhileShortening;
-    WBTabGroup *_tabGroup;
-    NSArray *_validTabsForPasteboard;
-    id <LibraryItemTabGroupDelegate> _delegate;
 }
 
 + (long long);
@@ -44,10 +37,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)L^z9Sbt;
 - (void);
 - (_Bool);
-- (id);
+- (id):8@16S24@28 /* Error: Ran out of types for this method. */;
 - (id)i;
 - (id)p;
 - (void)ü
@@ -55,16 +48,7 @@ __attribute__((visibility("hidden")))
 - (id)h;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <LibraryItemTabGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WBTabGroup *tabGroup; // @synthesize tabGroup=_tabGroup;
-@property(readonly, copy, nonatomic) NSArray *validTabsForPasteboard; // @synthesize validTabsForPasteboard=_validTabsForPasteboard;
 
 @end
 

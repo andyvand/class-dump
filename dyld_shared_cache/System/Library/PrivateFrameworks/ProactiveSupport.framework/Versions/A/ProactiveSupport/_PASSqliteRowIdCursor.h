@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)eEndpoint:] /* Error: Ran out of types for this method. */;
 + (const char *);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)%@  Org:%@  Name:%@  Scope:%s  Source:%d /* Error: Ran out of types for this method. */;
 
 @end
 

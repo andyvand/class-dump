@@ -9,16 +9,6 @@
 @interface VNImageAestheticsScoresObservation : VNObservation
 {
     _Bool _isUtility;
-    float _overallScore;
-    float _aestheticScore;
-    float _failureScore;
-    float _junkNegativeScore;
-    float _junkTragicFailureScore;
-    float _poorQualityScore;
-    float _nonMemorableScore;
-    float _screenShotScore;
-    float _receiptOrDocumentScore;
-    float _textDocumentScore;
 }
 
 + (id);
@@ -28,8 +18,8 @@
 - (float);
 - (float);
 - (float);
-- (float);
-- (float);
+- (float)?;
+- (float)B;
 - (float);
 - (_Bool);
 - (float);
@@ -37,21 +27,11 @@
 - (float);
 - (float);
 - (float);
-- (id);
-- (void);
+- (id)evaluationObjectsForAction:(id)arg1 sourceItems:destinationItem:domainUserInfo:sourceItemKeysAllowList:destinationItemKeysAllowList: /* Error: Ran out of types for this method. */;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) float aestheticScore; // @synthesize aestheticScore=_aestheticScore;
-@property(readonly, nonatomic) float failureScore; // @synthesize failureScore=_failureScore;
-@property(readonly, nonatomic) _Bool isUtility; // @synthesize isUtility=_isUtility;
-@property(readonly, nonatomic) float junkNegativeScore; // @synthesize junkNegativeScore=_junkNegativeScore;
-@property(readonly, nonatomic) float junkTragicFailureScore; // @synthesize junkTragicFailureScore=_junkTragicFailureScore;
-@property(readonly, nonatomic) float nonMemorableScore; // @synthesize nonMemorableScore=_nonMemorableScore;
-@property(readonly, nonatomic) float overallScore; // @synthesize overallScore=_overallScore;
-@property(readonly, nonatomic) float poorQualityScore; // @synthesize poorQualityScore=_poorQualityScore;
-@property(readonly, nonatomic) float receiptOrDocumentScore; // @synthesize receiptOrDocumentScore=_receiptOrDocumentScore;
-@property(readonly, nonatomic) float screenShotScore; // @synthesize screenShotScore=_screenShotScore;
-@property(readonly, nonatomic) float textDocumentScore; // @synthesize textDocumentScore=_textDocumentScore;
 
 @end
 

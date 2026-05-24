@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSString;
+@class AMSSQLiteConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteEntity
 {
     AMSSQLiteConnection *_connection;
-    long long _persistentID;
 }
 
 + (id);
@@ -32,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,15 +46,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool existsInDatabase;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly) Class superclass;
 
 @end
 

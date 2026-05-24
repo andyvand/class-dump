@@ -10,18 +10,15 @@ __attribute__((visibility("hidden")))
 @interface CFPDPurgeableBuffer : CFPDDataBuffer
 {
     struct __CFData *handle;
-    unsigned long long allocSize;
-    _Bool safe;
-    _Bool usedMalloc;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)MTLLegacySVCommandEncoder;
 - (void *);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)%{public}d;
 - (void);
 
 @end

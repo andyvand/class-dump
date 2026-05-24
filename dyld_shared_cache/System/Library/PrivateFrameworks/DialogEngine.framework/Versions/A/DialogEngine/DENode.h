@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DENode
 {
     shared_ptr_549d7737 _This;
@@ -26,7 +24,6 @@
 
 // Remaining properties
 @property shared_ptr_549d7737 This; // @synthesize This=_This;
-@property(retain) NSString *conditionName;
 
 @end
 

@@ -12,7 +12,7 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)y.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
 
 @end
 

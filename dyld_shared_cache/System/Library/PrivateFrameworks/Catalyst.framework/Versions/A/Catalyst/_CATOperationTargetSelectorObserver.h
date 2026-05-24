@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _CATOperationTargetSelectorObserver
 {
     id _target;
-    SEL _selector;
-    unsigned long long _events;
-    id _userInfo;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (void);
@@ -28,21 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (SEL);
-- (void);
+- (void));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long events; // @synthesize events=_events;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id target; // @synthesize target=_target;
-@property(readonly, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

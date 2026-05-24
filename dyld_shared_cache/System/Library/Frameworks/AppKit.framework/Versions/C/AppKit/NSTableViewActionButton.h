@@ -6,37 +6,23 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSColor, NSImage, NSImageView, NSString, NSTableViewRowAction, NSTextField, NSView;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewActionButton : NSControl
 {
     NSColor *_backgroundColor;
-    NSTableViewRowAction *_rowAction;
-    struct CGSize _requiredSize;
-    NSTextField *_label;
-    NSImageView *_imageView;
-    NSView *_imagePlatter;
-    _Bool _isHighlighted;
-    double _continuousAlignment;
-    unsigned long long _maskedCornersMask;
-    double _cornerRadius;
-    _Bool _hasPopped;
-    _Bool _configuredForSolarium;
-    _Bool _hasConsumed;
-    _Bool _leftToRightLayout;
-    double _maxGroupLabelHeight;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)r auth triggers while negotiating auth.;
++ (id)e expectedLength plus offset greater than length;
++ (_Bool)his file must be converted with BinHex 4.0);
 - (_Bool);
+- (void)?;
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (struct CGSize);
@@ -47,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)_parsedCookiesWithResponseHeaderFields:(double)arg1 forURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (struct CGRect);
-- (_Bool);
+- (double)registerForPropertyUpdates;
+- (struct CGRect)R REPLACE INTO cfurl_vary_state(request_key, vary_state) VALUES (';
+- (_Bool)cal _cfurlRequest:isCacheEquivalentTo:] /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void);
@@ -67,12 +53,12 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (void)SMenuItem"16Q24;
-- (id)on;
+- (id)rulerStateDescription;
 - (void)À°è ;
 - (id);
 - (id)cÔ;
-- (double)tFixedPtDeltaAxis2;
-- (id)eBezels;
+- (double)eventFixedPtDeltaAxis2;
+- (id)VibrantLightVisibleBezels;
 - (id)lready monitoring events;
 - (void)being dragged, selection=%@;
 - (void)_invoke_6;
@@ -81,15 +67,7 @@ __attribute__((visibility("hidden")))
 - (void)ÀïG;
 
 // Remaining properties
-@property(copy) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property double continuousAlignment; // @synthesize continuousAlignment=_continuousAlignment;
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_isHighlighted;
-@property(copy) NSImage *image;
-@property unsigned long long maskedCornersMask; // @synthesize maskedCornersMask=_maskedCornersMask;
-@property struct CGSize requiredSize; // @synthesize requiredSize=_requiredSize;
-@property(retain) NSTableViewRowAction *rowAction; // @synthesize rowAction=_rowAction;
-@property(copy) NSString *title;
 
 @end
 

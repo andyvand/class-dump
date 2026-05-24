@@ -11,11 +11,11 @@
 }
 
 + (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)fileTransferForGUID: /* Error: Ran out of types for this method. */;
+- (void)chatsWithGroupedHandles:(long long)arg1 displayName:style: /* Error: Ran out of types for this method. */;
+- (void)account:(unsigned long long)arg1 defaultsChanged: /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool)ationController:(id)arg1;
+- (_Bool)setAnnotationController:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long stringCompareOptions; // @synthesize stringCompareOptions=_stringCompareOptions;

@@ -7,10 +7,6 @@
 @interface NewsUI2.RecipeFilterFormSectionViewModel
 {
     id id;
-    id title;
-    id selectionBehavior;
-    id _items;
-    id _$observationRegistrar;
 }
 
 @end

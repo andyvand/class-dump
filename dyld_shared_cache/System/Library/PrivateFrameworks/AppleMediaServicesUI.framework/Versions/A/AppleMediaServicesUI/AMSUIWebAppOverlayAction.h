@@ -6,21 +6,14 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAppOverlayAction : AMSUIWebAction
 {
     _Bool _dismiss;
-    NSString *_appIdentifier;
-    NSString *_campaignToken;
-    NSString *_providerToken;
-    NSString *_customProductPageIdentifier;
-    NSString *_latestReleaseID;
 }
 
-- (void);
-- (void);
+- (void)Lexicon;
+- (void)ror"16;
 - (void);
 - (void);
 - (id);
@@ -31,17 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)";
 - (void);
 - (void)@0:8B16B20 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
-@property(retain, nonatomic) NSString *campaignToken; // @synthesize campaignToken=_campaignToken;
-@property(retain, nonatomic) NSString *customProductPageIdentifier; // @synthesize customProductPageIdentifier=_customProductPageIdentifier;
 @property _Bool dismiss; // @synthesize dismiss=_dismiss;
-@property(retain, nonatomic) NSString *latestReleaseID; // @synthesize latestReleaseID=_latestReleaseID;
-@property(retain, nonatomic) NSString *providerToken; // @synthesize providerToken=_providerToken;
 
 @end
 

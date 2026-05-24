@@ -7,13 +7,6 @@
 @interface MPSCNNLossDescriptor
 {
     unsigned int _lossType;
-    int _reductionType;
-    _Bool _reduceAcrossBatch;
-    float _weight;
-    float _labelSmoothing;
-    unsigned long long _numberOfClasses;
-    float _epsilon;
-    float _delta;
 }
 
 + (id);
@@ -28,7 +21,7 @@
 - (unsigned int);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)1 ;
 - (id);
 - (float);
 - (void);
@@ -38,14 +31,7 @@
 - (float)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
 @property(nonatomic) unsigned int lossType; // @synthesize lossType=_lossType;
-@property(nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

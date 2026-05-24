@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id)er"b1"has_type"b1"has_version"b1};
-- (id)tion;
+- (id)_projection;
 - (id)xpy°yL{D|}~;
 - (void);
 

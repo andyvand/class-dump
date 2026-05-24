@@ -5,5 +5,6 @@
 //
 
 @protocol UIKeyboardUIServiceProtocol
+- (void)h;
 @end
 

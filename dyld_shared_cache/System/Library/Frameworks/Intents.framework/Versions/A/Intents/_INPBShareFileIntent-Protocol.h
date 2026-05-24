@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class NSArray, _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBShareFileIntent
-- (_Bool)undleIdentifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
-- (NSArray *)ote:completion: /* Error: Ran out of types for this method. */;
++ (Class);
+- (void);
+- (_INPBString *)a;
+- (void)?;
+- (void)C;
+- (void)ata;
+- (_INPBIntentMetadata *)NSNumber",R,C,V_bytesFree;
+- (_Bool)initWithBundleIdentifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (NSArray *)handleAppendToNote:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entityNames;
-@property(readonly, nonatomic) unsigned long long entityNamesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasShareMode;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(nonatomic) int shareMode;
 @end
 

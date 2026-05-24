@@ -7,11 +7,12 @@
 @class NSData, _SFPBRFImageSource;
 
 @protocol _SFPBRFBadgedImage
-- (_SFPBRFImageSource *)ing;
+- (void)ertyAlbumDownloadedDate;
+- (void)assetNeedsVideoSensitivityProcessingForPickerSharing:(_SFPBRFImageSource *)arg1;
+- (NSData *)hoto;
+- (_SFPBRFImageSource *)buttonItemsAreTrailing;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFImageSource *badge;
 @property(retain, nonatomic) _SFPBRFImageSource *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

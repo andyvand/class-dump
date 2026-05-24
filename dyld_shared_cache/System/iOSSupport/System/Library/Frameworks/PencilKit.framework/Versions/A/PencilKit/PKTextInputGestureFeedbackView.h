@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKTextInputFeedbackController, UIView;
+@class NSArray;
 
 @interface PKTextInputGestureFeedbackView
 {
     _Bool __needsRefresh;
-    PKTextInputFeedbackController *_dataSourceController;
-    NSArray *__highlightViews;
-    UIView *__reserveSpaceView;
-    struct CGRect __reserveSpaceCaretRect;
 }
 
 - (void);
@@ -36,15 +32,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (void)gDataCollector;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_highlightViews; // @synthesize _highlightViews=__highlightViews;
-@property(nonatomic) _Bool _needsRefresh; // @synthesize _needsRefresh=__needsRefresh;
-@property(nonatomic) struct CGRect _reserveSpaceCaretRect; // @synthesize _reserveSpaceCaretRect=__reserveSpaceCaretRect;
-@property(retain, nonatomic) UIView *_reserveSpaceView; // @synthesize _reserveSpaceView=__reserveSpaceView;
-@property(nonatomic) __weak PKTextInputFeedbackController *dataSourceController; // @synthesize dataSourceController=_dataSourceController;
 
 @end
 

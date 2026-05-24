@@ -7,10 +7,9 @@
 @class NSArray;
 
 @protocol CUINamedLayerStackProtocol
+- (struct CGSize)@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *flattenedImage;
 @property(readonly, nonatomic) NSArray *layers;
-@property(readonly, nonatomic) struct CGSize size;
 @end
 

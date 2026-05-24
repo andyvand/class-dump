@@ -9,18 +9,16 @@
 @interface MLModelStructurePipeline
 {
     NSArray *_subModelNames;
-    NSArray *_subModels;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id)MTLCodeGenServiceBuildRequest;
+- (id)MTLCodeGenServiceDestroy;
 - (id);
 - (void)ayer %s.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *subModelNames; // @synthesize subModelNames=_subModelNames;
-@property(readonly, copy, nonatomic) NSArray *subModels; // @synthesize subModels=_subModels;
 
 @end
 

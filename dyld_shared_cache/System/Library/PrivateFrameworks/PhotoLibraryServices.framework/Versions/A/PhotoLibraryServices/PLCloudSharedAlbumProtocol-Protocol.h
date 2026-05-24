@@ -5,9 +5,21 @@
 //
 
 @protocol PLCloudSharedAlbumProtocol
+- (id);
+- (id);
+- (id)6;
+- (id);
+- (id)Setup cache for %@;
+- (id)ing ====;
+- (id)
+;
+- (id)(*J*J
+;
+- (id);
+- (id)J;
 - (id)1Êð1Â0@ù
 × ;
-- (id)ocationTypeForMoment:locationsOfInterest:frequentLocations: /* Error: Ran out of types for this method. */;
+- (id)locationTypeForMoment:locationsOfInterest:frequentLocations: /* Error: Ran out of types for this method. */;
 - (id)inned;
 @end
 

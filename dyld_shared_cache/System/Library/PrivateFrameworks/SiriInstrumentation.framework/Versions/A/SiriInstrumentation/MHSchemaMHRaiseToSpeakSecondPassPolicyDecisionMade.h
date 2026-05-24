@@ -6,22 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHRaiseToSpeakSecondPassPolicyDecisionMade : SISchemaInstrumentationMessage
 {
     _Bool _isSecondPassTriggered;
-    double _speakingProbability;
-    double _processedAudioDurationInMs;
-    _Bool _isReplayModeEnabled;
-    CDStruct_7fbaa352 _has;
 }
 
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,9 +30,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
-- (void);
+- (void)DSA_SIG_new;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,15 +43,7 @@
 - (id)ceMetrics",&,N,V_euclidServiceMetrics;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsReplayModeEnabled;
-@property(nonatomic) _Bool hasIsSecondPassTriggered;
-@property(nonatomic) _Bool hasProcessedAudioDurationInMs;
-@property(nonatomic) _Bool hasSpeakingProbability;
-@property(nonatomic) _Bool isReplayModeEnabled; // @synthesize isReplayModeEnabled=_isReplayModeEnabled;
 @property(nonatomic) _Bool isSecondPassTriggered; // @synthesize isSecondPassTriggered=_isSecondPassTriggered;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double processedAudioDurationInMs; // @synthesize processedAudioDurationInMs=_processedAudioDurationInMs;
-@property(nonatomic) double speakingProbability; // @synthesize speakingProbability=_speakingProbability;
 
 @end
 

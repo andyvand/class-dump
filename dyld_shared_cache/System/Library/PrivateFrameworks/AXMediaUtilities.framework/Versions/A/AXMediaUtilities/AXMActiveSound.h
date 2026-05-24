@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayerNode, AVAudioUnitTimePitch;
+@class AVAudioPlayerNode;
 
 @interface AXMActiveSound
 {
     AVAudioPlayerNode *_player;
-    AVAudioUnitTimePitch *_timePitch;
 }
 
-- (id);
+- (id)q[|;
+- (void)`{;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioPlayerNode *player; // @synthesize player=_player;
-@property(retain, nonatomic) AVAudioUnitTimePitch *timePitch; // @synthesize timePitch=_timePitch;
 
 @end
 

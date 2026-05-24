@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateLayoutTraits, IMKUIDelimiter, NSArray, NSMutableArray, NSMutableDictionary, NSSegmentedControl;
-@protocol IMKUICandidateSortingBarDelegate;
+@class NSMutableDictionary;
 
 @interface IMKUICandidateSortingBarView
 {
     long long _alignment;
-    id <IMKUICandidateSortingBarDelegate> _delegate;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    _Bool _needsToCalculateLayout;
-    unsigned long long _selectedIndex;
-    NSArray *_sortingModes;
-    NSMutableArray *_titles;
-    NSMutableDictionary *_titleToButtonMapping;
-    double _totalButtonWidth;
-    NSSegmentedControl *_segmentedControl;
-    IMKUIDelimiter *_delimiter;
 }
 
 - (double);
@@ -41,13 +30,13 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id)setUpdateButtonTitle: /* Error: Ran out of types for this method. */;
+- (void)_isHomePodcastLibrary;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (struct CGSize);
+- (unsigned long long)er starting probing.;
+- (struct CGSize):] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -60,18 +49,7 @@
 - (void);
 
 // Remaining properties
-@property long long alignment; // @synthesize alignment=_alignment;
-@property __weak id <IMKUICandidateSortingBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) IMKUIDelimiter *delimiter; // @synthesize delimiter=_delimiter;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) _Bool needsToCalculateLayout; // @synthesize needsToCalculateLayout=_needsToCalculateLayout;
-@property(retain, nonatomic) NSSegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(nonatomic) unsigned long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(retain, nonatomic) NSArray *sortingModes; // @synthesize sortingModes=_sortingModes;
-@property(readonly) NSArray *titleStrings;
 @property(retain, nonatomic) NSMutableDictionary *titleToButtonMapping; // @synthesize titleToButtonMapping=_titleToButtonMapping;
-@property(retain, nonatomic) NSMutableArray *titles; // @synthesize titles=_titles;
-@property(nonatomic) double totalButtonWidth; // @synthesize totalButtonWidth=_totalButtonWidth;
 
 @end
 

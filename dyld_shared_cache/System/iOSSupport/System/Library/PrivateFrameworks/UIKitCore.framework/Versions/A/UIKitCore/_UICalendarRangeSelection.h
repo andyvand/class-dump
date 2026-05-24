@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UICalendarSelection.h>
 
-@class NSDateComponents, _UICalendarDateRange;
+@class _UICalendarDateRange;
 @protocol _UICalendarRangeSelectionDelegate;
 
 @interface _UICalendarRangeSelection : UICalendarSelection
@@ -17,29 +17,26 @@
         unsigned int didEndSelection:1;
         unsigned int didSelectRange:1;
     } _delegateImplements;
-    NSDateComponents *_pendingStartDate;
-    _UICalendarDateRange *_dateRange;
-    id <_UICalendarRangeSelectionDelegate> _delegate;
 }
 
 - (void);
+- (_Bool)er";
+- (void)locationShareStatusChangeProtobufForCompressedData:(id)arg1;
+- (void)localizedStringWithFormat:(id)arg1;
+- (void)getOptInState:(_Bool)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (id)after contacts changed notification %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (id)1};
 - (id);
 - (id);
-- (id);
-- (id)ndsDidChange;
+- (id)_containerViewBoundsDidChange;
 - (void)µÿÁ´;
 
 // Remaining properties

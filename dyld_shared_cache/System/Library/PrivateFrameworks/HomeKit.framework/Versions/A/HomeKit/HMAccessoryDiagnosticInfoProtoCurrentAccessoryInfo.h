@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryInfoProtoPublicPairingIdentity, NSString;
+@class HMAccessoryInfoProtoPublicPairingIdentity;
 
 @interface HMAccessoryDiagnosticInfoProtoCurrentAccessoryInfo
 {
     HMAccessoryInfoProtoPublicPairingIdentity *_publicPairingIdentity;
-    NSString *_uuidString;
 }
 
 - (void);
@@ -19,21 +18,18 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)cartography;
 - (void);
 - (id);
-- (id);
-- (void)ate;
-- (id);
+- (id)!;
+- (void)_invitationState;
+- (id)removeServices: /* Error: Ran out of types for this method. */;
 - (void)uid:%@, accessory:%@, serviceType:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPublicPairingIdentity;
 @property(readonly, nonatomic) _Bool hasUuidString;
-@property(retain, nonatomic) HMAccessoryInfoProtoPublicPairingIdentity *publicPairingIdentity; // @synthesize publicPairingIdentity=_publicPairingIdentity;
-@property(retain, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

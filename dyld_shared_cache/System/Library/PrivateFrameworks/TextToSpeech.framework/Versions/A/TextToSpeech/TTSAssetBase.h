@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface TTSAssetBase
 {
     NSString *_bundleIdentifier;
-    NSNumber *_compatibilityVersion;
-    NSNumber *_contentVersion;
-    NSString *_masteredVersion;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)timeLastCheckedNetworkConditions;
+- (id)VCRateControlAlgorithmLowLatencyNOWRDPriv_UpdateInternalStatus;
 - (void);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSNumber *compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(copy, nonatomic) NSNumber *contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(copy, nonatomic) NSString *masteredVersion; // @synthesize masteredVersion=_masteredVersion;
 
 @end
 

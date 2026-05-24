@@ -4,62 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUILinkEditWindowController, MUIWKWebView, MUIWebDocument, MUIWebDocumentView, MUIWebDocumentViewGroup, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSPort, NSSet, NSSharingServicePicker, NSString, NSUUID;
-@protocol MSMailWebProcessAttachmentProxy, MUIWKWebViewWebProxyObject;
-
 @interface MUIWKWebViewController
 {
     _Bool _webInspectorEnabled;
-    MUIWebDocumentView *_webDocumentView;
-    NSMutableDictionary *_pendingJavascriptRequests;
-    NSMutableArray *_blocksToPerformAfterDidLoadMainFrame;
-    unsigned long long _webProcessCrashCount;
-    _Bool _ignoreKVOHTMLChanges;
-    MUIWebDocumentViewGroup *_viewGroup;
-    NSMapTable *_attachmentControllersByAttachment;
-    MUILinkEditWindowController *_linkEditController;
-    MUIWKWebView *_relatedWebView;
-    NSPort *_javaScriptPort;
-    id <MUIWKWebViewWebProxyObject> _webProxy;
-    NSPort *_selectionPort;
-    NSDictionary *_applicationDictionary;
-    NSMapTable *_sharingItems;
-    NSSharingServicePicker *_sharingServicePicker;
-    NSUUID *_cacheDisplayInRectToken;
-    NSSet *_allRemoteURLs;
-    NSMutableDictionary *_failedProxyURLs;
-    id <MSMailWebProcessAttachmentProxy> _pdfAttachmentProxy;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)`;
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q`;
 - (void);
 - (id);
 - (void);
@@ -78,27 +56,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -113,24 +91,24 @@
 - (void);
 - (id);
 - (void);
+- (void)(;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (struct CGRect);
 - (id);
@@ -139,41 +117,17 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)�;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ryGroupingPreferenceController: /* Error: Ran out of types for this method. */;
+- (void)setCategoryGroupingPreferenceController: /* Error: Ran out of types for this method. */;
 - (void)ing dictionary keys/values to CGRect, %@;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allRemoteURLs; // @synthesize allRemoteURLs=_allRemoteURLs;
-@property(retain, nonatomic) NSDictionary *applicationDictionary; // @synthesize applicationDictionary=_applicationDictionary;
-@property(retain, nonatomic) NSMapTable *attachmentControllersByAttachment; // @synthesize attachmentControllersByAttachment=_attachmentControllersByAttachment;
-@property(retain, nonatomic) NSUUID *cacheDisplayInRectToken; // @synthesize cacheDisplayInRectToken=_cacheDisplayInRectToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *failedProxyURLs; // @synthesize failedProxyURLs=_failedProxyURLs;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoreKVOHTMLChanges; // @synthesize ignoreKVOHTMLChanges=_ignoreKVOHTMLChanges;
-@property(readonly, nonatomic) NSPort *javaScriptPort; // @synthesize javaScriptPort=_javaScriptPort;
-@property(readonly, nonatomic) MUILinkEditWindowController *linkEditController; // @synthesize linkEditController=_linkEditController;
-@property(retain, nonatomic) id <MSMailWebProcessAttachmentProxy> pdfAttachmentProxy; // @synthesize pdfAttachmentProxy=_pdfAttachmentProxy;
-@property(nonatomic) __weak MUIWKWebView *relatedWebView; // @synthesize relatedWebView=_relatedWebView;
-@property(retain) MUIWebDocument *representedObject;
-@property(readonly, nonatomic) NSPort *selectionPort; // @synthesize selectionPort=_selectionPort;
-@property(retain, nonatomic) NSMapTable *sharingItems; // @synthesize sharingItems=_sharingItems;
-@property(retain, nonatomic) NSSharingServicePicker *sharingServicePicker; // @synthesize sharingServicePicker=_sharingServicePicker;
-@property(readonly) Class superclass;
-@property(retain) MUIWKWebView *view;
-@property(retain, nonatomic) MUIWebDocumentViewGroup *viewGroup; // @synthesize viewGroup=_viewGroup;
-@property(nonatomic) __weak MUIWebDocumentView *webDocumentView;
-@property(retain, nonatomic) id <MUIWKWebViewWebProxyObject> webProxy; // @synthesize webProxy=_webProxy;
 
 @end
 

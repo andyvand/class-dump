@@ -6,13 +6,9 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSArray, NSString;
-
 @interface DGRedEyeOperation : DGOperation
 {
     unsigned long long _inputActiveSpotIndex;
-    NSArray *_inputSpots;
-    double _inputSize;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 + (id);
 + (id);
 - (unsigned long long);
-- (id);
+- (id)R";
 - (void);
 - (void);
 - (void);
@@ -44,19 +40,12 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double inputSize; // @synthesize inputSize=_inputSize;
-@property(readonly) Class superclass;
 
 @end
 

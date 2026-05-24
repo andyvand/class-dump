@@ -6,25 +6,18 @@
 
 #import <PAImaging/PAItemView.h>
 
-@class NSObject, NSString, PADisplay, PFTimeIntervalCoalescer;
+@class NSObject;
 @protocol OS_dispatch_queue, PAImageDrawingDelegate;
 
 @interface PAImageItemView : PAItemView
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PADisplay *_display;
-    int _animationCount;
-    PFTimeIntervalCoalescer *_liveResizeRedrawCoalescer;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -35,6 +28,10 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -46,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -68,16 +65,7 @@
 - (void)¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PADisplay *displayDevice;
 @property(retain, nonatomic) id <PAImageDrawingDelegate> drawingDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAnimating;
-@property(readonly) Class superclass;
 
 @end
 

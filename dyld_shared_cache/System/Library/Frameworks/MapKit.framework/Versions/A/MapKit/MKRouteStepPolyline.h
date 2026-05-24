@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
-- (void)aceCardPhotosController:didSelectViewPhotoWithID:presentingViewController: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)didDetectHardEndpointAtTime:withMetrics:eventType: /* Error: Ran out of types for this method. */;
+- (void)placeCardPhotosController:didSelectViewPhotoWithID:presentingViewController: /* Error: Ran out of types for this method. */;
 
 @end
 

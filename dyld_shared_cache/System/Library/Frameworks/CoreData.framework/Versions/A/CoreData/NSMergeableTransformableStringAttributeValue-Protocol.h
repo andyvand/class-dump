@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSMergeableTransformableStringAttributeValue
+- (void);
 - (void)op index statement:(NSString *)arg1 %@;
 - (void)·ËI;
 @end

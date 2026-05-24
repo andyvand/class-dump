@@ -4,61 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TSKSelection;
+@class NSArray, NSSet, NSString, TSKSelection, UIViewController;
 
 @protocol TSDEditor
 
 @optional
+- (struct CGRect)?0@"MPCPlayerCommandStatus"8;
+- (UIViewController *)em at indexPath:%@ queueContentItems:%p queueContentItems.totalItemCount:%ld /* Error: Ran out of types for this method. */;
+- (void)"NSArray"8@"NSString"16@"NSString"24@"NSDictionary"32@"NSError"40;
+- (void)0@"MPNowPlayingContentItem"8;
+- (_Bool)mote artwork loading than when we requested %@ -> %@;
+- (double)rror"12@"MRSendCommandResultStatus"20;
+- (NSArray *)veSharedSession:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)d;
+- (NSString *)%@ != %@;
+- (struct CGRect)rControllerServer.m;
+- (double)xts.;
+- (_Bool)music.live-link-identity-json;
+- (_Bool)"NSError"16;
+- (_Bool)%@;
+- (void)sending device;
+- (void)isExternalPlaybackAllowed;
+- (NSSet *)GenericAVItemTimedMetadataRequest.m;
+- (NSSet *)rtist"8;
+- (NSSet *);
+- (NSSet *)SLW;
+- (NSSet *)tain asset for item identifiers:%@ /* Error: Ran out of types for this method. */;
+- (NSSet *)0 || hlsAsset != nil;
+- (NSSet *)metadata;
+- (NSSet *)?0@"MPServerObjectDatabaseAsset"8;
+- (void)kCore.MPCQueueControllerBehaviorMusicSharePlay;
+- (_Bool)CreateStation;
+- (NSArray *)WillChange: /* Error: Ran out of types for this method. */;
+- (NSString *)iaPlaybackCore/PodcastsUPP;
+- (void);
+- (NSSet *)StopMode;
+- (void)responsesContinuation;
 - (void)àâ'äåÔæ!Téë;
 - (void)hadow, the size is too large for the CIContext to render. Returning empty image instead;
 - (TSKSelection *)incrementLastObjectIdentifier:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingConnectionLineAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingEndpoints;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingOpacity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingReflection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingResize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShadow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShrinkTextToFit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingSmartShapeAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingStroke;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingTextInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
 @property(retain, nonatomic) TSKSelection *selection;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"TSKSelection",?,&,N

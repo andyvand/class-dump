@@ -11,17 +11,16 @@
     NSUUID *_uuid;
 }
 
-+ (void);
++ (void)u, %qu, %qu;
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)raight lines 1;
 - (id);
-- (void)ampleCoverageControl;
+- (void)supportsImageBlockSampleCoverageControl;
 
 // Remaining properties
 @property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

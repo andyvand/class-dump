@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSKeyValueObjectAndKeyPair
 {
     id _object;
-    unsigned long long _objectPointer;
-    Class _objectClass;
-    void *_context;
-    NSString *_key;
 }
 
 - (void);
-- (id);
+- (id)	?ן;
 - (unsigned long long);
 - (_Bool);
 - (id)1z51Â0@ù

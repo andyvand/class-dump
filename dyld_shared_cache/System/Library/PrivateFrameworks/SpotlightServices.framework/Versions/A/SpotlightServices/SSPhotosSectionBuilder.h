@@ -10,14 +10,14 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setPulsingLoadIndicatorMaximumOpacity: /* Error: Ran out of types for this method. */;
+- (id)setPublisherName: /* Error: Ran out of types for this method. */;
+- (id)setProgressIndicatorStyle:(id)arg1;
+- (id)setPreviewURL: /* Error: Ran out of types for this method. */;
+- (id)properties;
 
 @end
 

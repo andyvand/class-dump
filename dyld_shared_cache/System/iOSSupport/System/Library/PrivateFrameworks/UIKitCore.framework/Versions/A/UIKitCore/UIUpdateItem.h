@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewUpdateItem;
+@class UICollectionViewUpdateItem;
 
 __attribute__((visibility("hidden")))
 @interface UIUpdateItem
 {
     UICollectionViewUpdateItem *_collectionViewUpdateItem;
-    struct {
-        unsigned int isSectionOperation:1;
-        unsigned int headerFooterOnly:1;
-    } _updateItemFlags;
-    int _action;
-    NSIndexPath *_indexPath;
-    long long _animation;
 }
 
 - (long long);
@@ -33,20 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ctCornerRadii=dddd}16;
 - (id)setShowsClearButtonWhenEmpty: /* Error: Ran out of types for this method. */;
-- (void)ntedUserInterfaceStyleViewController;
-- (long long)Screen;
+- (void)_presentedUserInterfaceStyleViewController;
+- (long long)_percentFullScreen;
 - (id)spensionState;
-- (int)ePickerControllerCameraViewTransform;
+- (int)_UIImagePickerControllerCameraViewTransform;
 - (void)Ç0Ûä`;
 
 // Remaining properties
-@property(readonly, nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) long long animation; // @synthesize animation=_animation;
 @property(readonly, nonatomic) UICollectionViewUpdateItem *collectionViewUpdateItem;
-@property(nonatomic) _Bool headerFooterOnly;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool isDecomposedFromReload;
-@property(readonly, nonatomic) _Bool isSectionOperation;
 
 @end
 

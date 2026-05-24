@@ -9,20 +9,17 @@
 @interface SIRINLUNLContext
 {
     NSArray *_systemDialogActs;
-    NSArray *_activeTasks;
-    NSArray *_executedTasks;
-    NSArray *_salientEntities;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -31,9 +28,6 @@
 - (void)ory;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeTasks; // @synthesize activeTasks=_activeTasks;
-@property(retain, nonatomic) NSArray *executedTasks; // @synthesize executedTasks=_executedTasks;
-@property(retain, nonatomic) NSArray *salientEntities; // @synthesize salientEntities=_salientEntities;
 @property(retain, nonatomic) NSArray *systemDialogActs; // @synthesize systemDialogActs=_systemDialogActs;
 
 @end

@@ -4,36 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSDictionary, NSNumber, NSSharingCollaborationModeRestriction, NSString, SHKShareSheetHEICOptionsModel, SLCollaborationFooterViewModel, _SWCollaborationShareOptions;
+@class NSArray;
 
 @interface SHKShareSheetViewModel
 {
     _Bool _collaborationMode;
-    _Bool _shareOptionsAreReadOnly;
-    _Bool _peopleSuggestionsSupported;
-    _Bool _finishedLoadingShareOptions;
-    _Bool _finishedLoadingHeaderMetadata;
-    NSArray *_headerMetadata;
-    NSArray *_headerURLItems;
-    NSDictionary *_daemonSandboxExtensionsByFileURLPath;
-    NSDictionary *_uiSandboxExtensionsByFileURLPath;
-    unsigned long long _supportedCollaborationModes;
-    NSSharingCollaborationModeRestriction *_collaborationModeRestriction;
-    NSString *_collaborationModeTitle;
-    NSNumber *_collaborationType;
-    _SWCollaborationShareOptions *_shareOptions;
-    SHKShareSheetHEICOptionsModel *_options;
-    NSString *_hostProcessBundleID;
-    NSAppearance *_hostProcessAppearance;
-    NSArray *_transports;
-    NSArray *_collaborativeTransports;
-    NSArray *_actions;
-    NSArray *_collaborativeActions;
-    SLCollaborationFooterViewModel *_footerViewModel;
 }
 
 + (_Bool);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -41,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)mOmPmvB;
 - (void);
 - (void);
 - (void);
@@ -65,45 +44,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_backForwardItemToGeneratedAlphanumericPasswordMap;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic, getter=isCollaborationMode) _Bool collaborationMode; // @synthesize collaborationMode=_collaborationMode;
-@property(copy, nonatomic) NSSharingCollaborationModeRestriction *collaborationModeRestriction; // @synthesize collaborationModeRestriction=_collaborationModeRestriction;
-@property(copy, nonatomic) NSString *collaborationModeTitle; // @synthesize collaborationModeTitle=_collaborationModeTitle;
-@property(copy, nonatomic) NSNumber *collaborationType; // @synthesize collaborationType=_collaborationType;
-@property(copy, nonatomic) NSArray *collaborativeActions; // @synthesize collaborativeActions=_collaborativeActions;
-@property(copy, nonatomic) NSArray *collaborativeTransports; // @synthesize collaborativeTransports=_collaborativeTransports;
-@property(copy, nonatomic) NSDictionary *daemonSandboxExtensionsByFileURLPath; // @synthesize daemonSandboxExtensionsByFileURLPath=_daemonSandboxExtensionsByFileURLPath;
-@property(nonatomic) _Bool finishedLoadingHeaderMetadata; // @synthesize finishedLoadingHeaderMetadata=_finishedLoadingHeaderMetadata;
-@property(nonatomic) _Bool finishedLoadingShareOptions; // @synthesize finishedLoadingShareOptions=_finishedLoadingShareOptions;
-@property(retain, nonatomic) SLCollaborationFooterViewModel *footerViewModel; // @synthesize footerViewModel=_footerViewModel;
 @property(copy, nonatomic) NSArray *headerMetadata; // @synthesize headerMetadata=_headerMetadata;
-@property(copy, nonatomic) NSArray *headerURLItems; // @synthesize headerURLItems=_headerURLItems;
-@property(retain, nonatomic) NSAppearance *hostProcessAppearance; // @synthesize hostProcessAppearance=_hostProcessAppearance;
-@property(copy, nonatomic) NSString *hostProcessBundleID; // @synthesize hostProcessBundleID=_hostProcessBundleID;
-@property(retain, nonatomic) SHKShareSheetHEICOptionsModel *options; // @synthesize options=_options;
-@property(nonatomic, getter=isPeopleSuggestionsSupported) _Bool peopleSuggestionsSupported; // @synthesize peopleSuggestionsSupported=_peopleSuggestionsSupported;
-@property(retain, nonatomic) _SWCollaborationShareOptions *shareOptions; // @synthesize shareOptions=_shareOptions;
-@property(nonatomic) _Bool shareOptionsAreReadOnly; // @synthesize shareOptionsAreReadOnly=_shareOptionsAreReadOnly;
-@property(nonatomic) unsigned long long supportedCollaborationModes; // @synthesize supportedCollaborationModes=_supportedCollaborationModes;
-@property(copy, nonatomic) NSArray *transports; // @synthesize transports=_transports;
-@property(copy, nonatomic) NSDictionary *uiSandboxExtensionsByFileURLPath; // @synthesize uiSandboxExtensionsByFileURLPath=_uiSandboxExtensionsByFileURLPath;
 
 @end
 

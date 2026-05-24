@@ -4,47 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDSidecarBssSteering, AWDSidecarPeerTraffic, NSString;
-
 @interface AWDWiFiAwdlSidecarCoalesced
 {
     unsigned long long _remoteBgDuration;
-    unsigned long long _remoteFgDuration;
-    unsigned long long _selfBgDuration;
-    unsigned long long _selfFgDuration;
-    unsigned long long _timestamp;
-    unsigned int _pencilOffCount;
-    unsigned int _pencilOnCount;
-    unsigned int _remoteBgEntryCount;
-    int _remotePeerRssi24G;
-    int _remotePeerRssi5G;
-    AWDSidecarBssSteering *_remoteSidecarBssSteering;
-    AWDSidecarPeerTraffic *_remoteSidecarPeerTraffic;
-    unsigned int _selfBgEntryCount;
-    int _selfPeerRssi24G;
-    int _selfPeerRssi5G;
-    AWDSidecarBssSteering *_selfSidecarBssSteering;
-    AWDSidecarPeerTraffic *_selfSidecarPeerTraffic;
-    NSString *_sessionUUID;
-    _Bool _remotefIsSDB;
-    _Bool _selfIsSDB;
-    struct {
-        unsigned int remoteBgDuration:1;
-        unsigned int remoteFgDuration:1;
-        unsigned int selfBgDuration:1;
-        unsigned int selfFgDuration:1;
-        unsigned int timestamp:1;
-        unsigned int pencilOffCount:1;
-        unsigned int pencilOnCount:1;
-        unsigned int remoteBgEntryCount:1;
-        unsigned int remotePeerRssi24G:1;
-        unsigned int remotePeerRssi5G:1;
-        unsigned int selfBgEntryCount:1;
-        unsigned int selfPeerRssi24G:1;
-        unsigned int selfPeerRssi5G:1;
-        unsigned int remotefIsSDB:1;
-        unsigned int selfIsSDB:1;
-    } _has;
 }
 
 - (void);
@@ -61,6 +23,7 @@
 - (void);
 - (void);
 - (void);
+- (void)C$;
 - (void);
 - (void);
 - (void);
@@ -70,15 +33,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
@@ -93,9 +55,14 @@
 - (int);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (unsigned int);
+- (_Bool)qa;
+- (_Bool)1QJ`-J1;
+- (_Bool);
+- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -105,12 +72,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -130,50 +92,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)dot11RetryCount;
+- (void);
+- (id)kdot11RetryCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPencilOffCount;
-@property(nonatomic) _Bool hasPencilOnCount;
-@property(nonatomic) _Bool hasRemoteBgDuration;
-@property(nonatomic) _Bool hasRemoteBgEntryCount;
-@property(nonatomic) _Bool hasRemoteFgDuration;
-@property(nonatomic) _Bool hasRemotePeerRssi24G;
-@property(nonatomic) _Bool hasRemotePeerRssi5G;
-@property(readonly, nonatomic) _Bool hasRemoteSidecarBssSteering;
-@property(readonly, nonatomic) _Bool hasRemoteSidecarPeerTraffic;
-@property(nonatomic) _Bool hasRemotefIsSDB;
-@property(nonatomic) _Bool hasSelfBgDuration;
-@property(nonatomic) _Bool hasSelfBgEntryCount;
-@property(nonatomic) _Bool hasSelfFgDuration;
-@property(nonatomic) _Bool hasSelfIsSDB;
-@property(nonatomic) _Bool hasSelfPeerRssi24G;
-@property(nonatomic) _Bool hasSelfPeerRssi5G;
-@property(readonly, nonatomic) _Bool hasSelfSidecarBssSteering;
-@property(readonly, nonatomic) _Bool hasSelfSidecarPeerTraffic;
-@property(readonly, nonatomic) _Bool hasSessionUUID;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int pencilOffCount; // @synthesize pencilOffCount=_pencilOffCount;
-@property(nonatomic) unsigned int pencilOnCount; // @synthesize pencilOnCount=_pencilOnCount;
-@property(nonatomic) unsigned long long remoteBgDuration; // @synthesize remoteBgDuration=_remoteBgDuration;
-@property(nonatomic) unsigned int remoteBgEntryCount; // @synthesize remoteBgEntryCount=_remoteBgEntryCount;
-@property(nonatomic) unsigned long long remoteFgDuration; // @synthesize remoteFgDuration=_remoteFgDuration;
-@property(nonatomic) int remotePeerRssi24G; // @synthesize remotePeerRssi24G=_remotePeerRssi24G;
-@property(nonatomic) int remotePeerRssi5G; // @synthesize remotePeerRssi5G=_remotePeerRssi5G;
-@property(retain, nonatomic) AWDSidecarBssSteering *remoteSidecarBssSteering; // @synthesize remoteSidecarBssSteering=_remoteSidecarBssSteering;
-@property(retain, nonatomic) AWDSidecarPeerTraffic *remoteSidecarPeerTraffic; // @synthesize remoteSidecarPeerTraffic=_remoteSidecarPeerTraffic;
-@property(nonatomic) _Bool remotefIsSDB; // @synthesize remotefIsSDB=_remotefIsSDB;
-@property(nonatomic) unsigned long long selfBgDuration; // @synthesize selfBgDuration=_selfBgDuration;
-@property(nonatomic) unsigned int selfBgEntryCount; // @synthesize selfBgEntryCount=_selfBgEntryCount;
-@property(nonatomic) unsigned long long selfFgDuration; // @synthesize selfFgDuration=_selfFgDuration;
-@property(nonatomic) _Bool selfIsSDB; // @synthesize selfIsSDB=_selfIsSDB;
-@property(nonatomic) int selfPeerRssi24G; // @synthesize selfPeerRssi24G=_selfPeerRssi24G;
-@property(nonatomic) int selfPeerRssi5G; // @synthesize selfPeerRssi5G=_selfPeerRssi5G;
-@property(retain, nonatomic) AWDSidecarBssSteering *selfSidecarBssSteering; // @synthesize selfSidecarBssSteering=_selfSidecarBssSteering;
-@property(retain, nonatomic) AWDSidecarPeerTraffic *selfSidecarPeerTraffic; // @synthesize selfSidecarPeerTraffic=_selfSidecarPeerTraffic;
-@property(retain, nonatomic) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

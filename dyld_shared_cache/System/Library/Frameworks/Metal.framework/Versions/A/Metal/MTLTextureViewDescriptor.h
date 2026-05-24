@@ -7,7 +7,6 @@
 @interface MTLTextureViewDescriptor
 {
     struct MTLTextureViewDescriptorPrivate _private;
-    unsigned long long _resourceIndex;
 }
 
 + (id);
@@ -19,7 +18,16 @@
 - (void);
 - (struct _NSRange);
 - (struct _NSRange);
-- (void);
+- (void)(5.000000e-02, 0.5, 5.000000e-02, 1.0) :(unsigned long long)arg1 p;
+  p = (vi == 3.0) ? vec4(5.000000e-02, 2.000000e-01, 4.000000e-01, 1.0) :p;
+  p = (vi == 1.0) ? vec4(5.000000e-02, 5.000000e-02, 0.5, 1.0) :p;
+  p = (vi == 5.0) ? vec4(2.000000e-01, 5.000000e-02, 4.000000e-01, 1.0) :p;
+  p = (vi == 7.0) ? vec4(5.000000e-02, 0.1, 0.3, 1.0) :p;
+  p.rgb = (d.x < (hilo.x + 0.5)) ? (p.rgb * vec3(4.000000e-01)) :p.rgb;
+  p.rgb = (d.x >= (hilo.y + 0.5)) ? ((p.rgb * vec3(6.000000e-01)) + vec3(4.000000e-01)) :p.rgb;
+  return p;
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -28,26 +36,18 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)yH;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)S3_15audio_allocatorENS3_15memory_resourceEEEEEvRT_NS2_10option_setINS3_12region_usageEjEERKNS_8functionIFvSC_NS3_5blockEEEEEUlSC_mmE_FvSC_mmEEE;
 - (unsigned long long)Int4;
 - (CDStruct_a06f635e)llocated with MTLResourceStorageModeMemoryless on this device.;
-- (unsigned int)ernel;
+- (unsigned int)encodeMTLPrimitiveBVHKernel;
 - (unsigned long long)ÜØ;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange levelRange;
 @property(nonatomic) struct _NSRange levels;
-@property(nonatomic) unsigned long long pixelFormat;
-@property(nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
-@property(nonatomic) struct _NSRange sliceRange;
-@property(nonatomic) struct _NSRange slices;
-@property(nonatomic) CDStruct_a06f635e swizzle;
-@property(nonatomic) unsigned long long textureType;
-@property(nonatomic) long long writeAccessPattern;
 
 @end
 

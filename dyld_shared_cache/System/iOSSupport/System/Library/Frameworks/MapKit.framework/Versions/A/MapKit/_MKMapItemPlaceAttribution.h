@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)cale:sizeGroup:modifiers: /* Error: Ran out of types for this method. */;
+- (id)@9(;
+- (void)imageForName:contentScale:sizeGroup:modifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *checkInURLs;

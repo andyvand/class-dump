@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleSliderViewController : UINSGameModuleConfigViewController
 {
     NSTextField *_keyDecrease;
-    NSTextField *_keyIncrease;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak NSTextField *keyDecrease; // @synthesize keyDecrease=_keyDecrease;
-@property __weak NSTextField *keyIncrease; // @synthesize keyIncrease=_keyIncrease;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSDictionary;
+@class LAContext;
 
 @interface TKSEPKey
 {
@@ -35,30 +35,23 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (struct __SecAccessControl *);
 - (id);
 - (_Bool);
 - (id);
+- (id)RefreshRequest;
+- (id)16@24Q32@40@?48;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)key due to missing public key;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __SecAccessControl *accessControl;
-@property(readonly, nonatomic) NSDictionary *attributes;
 @property(retain, nonatomic) LAContext *authContext; // @synthesize authContext=_authContext;
-@property(readonly, nonatomic) id keySize;
-@property(readonly, nonatomic) id keyType;
-@property(readonly, nonatomic) id objectID;
-@property(readonly, nonatomic) _Bool systemKey;
-@property(readonly, nonatomic) _Bool systemSessionKey;
 
 @end
 

@@ -10,20 +10,18 @@
 @interface SGList
 {
     id <SGListDelegate> _delegate;
-    CDUnknownBlockType _comparator;
-    NSMutableArray *_array;
 }
 
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)<;
+- (void)_dataChanges;
+- (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)oundURL;
+- (void)pItemPhoto>",R,N,V_geoMapItemPhoto;
 - (_Bool);
 - (unsigned long long);
 - (CDUnknownBlockType);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *array; // @synthesize array=_array;
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(nonatomic) __weak id <SGListDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

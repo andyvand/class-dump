@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (long long);
 - (_Bool);
 - (CDStruct_95fa7c00);
@@ -31,10 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *availableJointNames;
-@property(readonly, copy) NSArray *availableJointsGroupNames; // @synthesize availableJointsGroupNames=_availableJointsGroupNames;
-@property(readonly, nonatomic) float bodyHeight;
-@property(readonly, nonatomic) CDStruct_95fa7c00 cameraOriginMatrix;
 @property(readonly) long long heightEstimation;
 
 @end

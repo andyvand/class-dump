@@ -6,18 +6,16 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolCSSRuleId, RWIProtocolCSSSourceRange;
-
 @interface RWIProtocolCSSGrouping : RWIProtocolJSONObject
 {
 }
 
 - (id);
-- (void);
+- (void){;
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -25,10 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolCSSSourceRange *range;
-@property(retain, nonatomic) RWIProtocolCSSRuleId *ruleId;
-@property(copy, nonatomic) NSString *sourceURL;
-@property(copy, nonatomic) NSString *text;
 @property(nonatomic) long long type;
 
 @end

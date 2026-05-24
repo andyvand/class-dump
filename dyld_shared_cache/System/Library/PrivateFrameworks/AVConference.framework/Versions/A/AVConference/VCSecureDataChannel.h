@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCTransport;
 @protocol VCSecureDataChannelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCSecureDataChannel
 {
     unsigned int _localCallID;
-    unsigned int _remoteCallID;
-    struct _tls_record_s *tlsRecord;
-    id _delegate;
-    VCTransport *_transport;
-    unsigned long long _maxUDPPayloadSize;
 }
 
-- (int);
-- (void);
+- (int);
+- (void);
 - (long long);
 - (unsigned long long);
 - (long long);
 - (id);
-- (int);
+- (int)kb;
 - (int);
 - (int);
 - (void);
@@ -33,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) id <VCSecureDataChannelDelegate> delegate;
-@property(readonly, nonatomic) long long maxEncryptedDataSize;
-@property(nonatomic) unsigned long long maxUDPPayloadSize; // @synthesize maxUDPPayloadSize=_maxUDPPayloadSize;
-@property(readonly, nonatomic) long long maxUnencryptedDataSize;
 
 @end
 

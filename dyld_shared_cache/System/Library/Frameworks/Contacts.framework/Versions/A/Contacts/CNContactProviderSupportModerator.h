@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNUnfairLock, NSObject;
-@protocol CNScheduler, OS_dispatch_semaphore;
+@class CNCache;
 
 @interface CNContactProviderSupportModerator
 {
     CNCache *_cache;
-    CNUnfairLock *_lock;
-    id <CNScheduler> _workQueue;
-    NSObject<OS_dispatch_semaphore> *_workSemaphore;
 }
 
 + (id);
 + (id);
-+ (id)fier: /* Error: Ran out of types for this method. */;
++ (id)requestToCreateRecentImage:forContactIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)messageBubbleInviteExpiredTitleSender;
 - (id);
 - (void)ngTimer"16;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *workSemaphore; // @synthesize workSemaphore=_workSemaphore;
 
 @end
 

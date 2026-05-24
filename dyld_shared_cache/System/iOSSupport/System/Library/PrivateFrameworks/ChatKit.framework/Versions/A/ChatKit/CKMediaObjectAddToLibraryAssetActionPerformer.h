@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)updateBlock;
 + (id);
 + (_Bool);
 + (_Bool);

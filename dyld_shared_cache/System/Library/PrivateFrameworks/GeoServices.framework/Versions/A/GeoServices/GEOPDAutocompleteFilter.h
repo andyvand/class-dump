@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAddressResultSubTypeFilter, GEOPDPoiIconCategoryFilter, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _placeTypeFilters;
-    CDStruct_95bda58d _requestedEntryTypes;
-    CDStruct_95bda58d _resultTypeFilters;
-    GEOPDAddressResultSubTypeFilter *_addressResultSubTypeFilter;
-    GEOPDPoiIconCategoryFilter *_poiIconCategoryFilter;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isStrictMapRegion;
-    struct {
-        unsigned int has_isStrictMapRegion:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_placeTypeFilters:1;
-        unsigned int read_requestedEntryTypes:1;
-        unsigned int read_resultTypeFilters:1;
-        unsigned int read_addressResultSubTypeFilter:1;
-        unsigned int read_poiIconCategoryFilter:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasWaypointStatus:(id)arg1;
++ (_Bool)setHasWaypointStatus:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -69,19 +49,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)CSOpportuneSpeakBehaviorMonitorDelegate;
+- (void)dioInjectionEngine setPluginBundleWithPath:(id)arg1 withOutError:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)apple.AppleLDAP.urls;
 - (id)decsConnectivityJunction}}16@24;
-- (id)veNames;
+- (id)_activeNames;
 - (id)â²ð,, â²1,ã²L<,4ä²l=,Pä²äA,¬ä²4D,Ìä²0K,å²M,0å² N,Lå²¨°,hå²·,å²º,¤å² Ã,¸å²ÔÚ,0æ²`Ý,dæ² æ,xæ²Hê,æ²ló, æ²Tô,°æ²Ðö,Àæ²-Ôæ²ì-ìæ²-;
 - (id)ISTINCT subscription_data_refs.subscription_pk, tiles.tileset, tiles.is_current    FROM subscription_data_refs INNER JOIN tiles ON tiles.data_pk = subscription_data_refs.data_pk    WHERE tiles.insert_timestamp < @tiles_insert_timestamp;;
 - (void) (2.google.protobuf.FileOptions9
@@ -186,19 +166,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAddressResultSubTypeFilter *addressResultSubTypeFilter;
-@property(readonly, nonatomic) _Bool hasAddressResultSubTypeFilter;
-@property(nonatomic) _Bool hasIsStrictMapRegion;
-@property(readonly, nonatomic) _Bool hasPoiIconCategoryFilter;
-@property(nonatomic) _Bool isStrictMapRegion;
-@property(readonly, nonatomic) int *placeTypeFilters;
-@property(readonly, nonatomic) unsigned long long placeTypeFiltersCount;
-@property(retain, nonatomic) GEOPDPoiIconCategoryFilter *poiIconCategoryFilter;
-@property(readonly, nonatomic) int *requestedEntryTypes;
 @property(readonly, nonatomic) unsigned long long requestedEntryTypesCount;
-@property(readonly, nonatomic) int *resultTypeFilters;
-@property(readonly, nonatomic) unsigned long long resultTypeFiltersCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

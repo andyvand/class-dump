@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)HAP2AccessoryServerTransportBase;
 - (_Bool);
 - (id);
 - (id);

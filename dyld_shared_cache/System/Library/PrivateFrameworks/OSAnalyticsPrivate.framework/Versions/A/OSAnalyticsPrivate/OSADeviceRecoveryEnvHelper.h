@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (_Bool);
-- (void);
+- (_Bool)sessionCorrelationUUID;
+- (void)-RootKeyDerivation-;
 - (void);
 
 @end

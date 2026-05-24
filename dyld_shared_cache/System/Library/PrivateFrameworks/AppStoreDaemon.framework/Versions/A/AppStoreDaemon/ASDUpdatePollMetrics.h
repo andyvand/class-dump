@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface ASDUpdatePollMetrics
 {
     NSDate *_pollTime;
-    NSString *_reason;
-    NSArray *_bundleIDs;
 }
 
 - (void);
@@ -18,16 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ؿ;
 - (id);
+- (void)F;
 - (void);
-- (void);
-- (id)dUsages:count: /* Error: Ran out of types for this method. */;
+- (id)setWeightedAppForgroundUsages:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
 @property(copy, nonatomic) NSDate *pollTime; // @synthesize pollTime=_pollTime;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

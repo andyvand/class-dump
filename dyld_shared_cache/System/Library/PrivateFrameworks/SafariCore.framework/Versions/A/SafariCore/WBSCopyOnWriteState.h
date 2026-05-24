@@ -7,7 +7,6 @@
 @interface WBSCopyOnWriteState
 {
     unsigned long long _count;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);

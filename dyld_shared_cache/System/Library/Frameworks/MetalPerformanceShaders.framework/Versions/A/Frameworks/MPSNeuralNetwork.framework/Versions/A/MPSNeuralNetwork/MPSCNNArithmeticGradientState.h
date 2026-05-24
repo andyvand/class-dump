@@ -9,9 +9,6 @@
 @interface MPSCNNArithmeticGradientState : MPSNNBinaryGradientState
 {
     unsigned long long _resourcePixelFormat;
-    CDStruct_da2e99ad _resourceSize;
-    unsigned long long _primaryFCStride;
-    unsigned long long _secondaryFCStride;
 }
 
 - (void);

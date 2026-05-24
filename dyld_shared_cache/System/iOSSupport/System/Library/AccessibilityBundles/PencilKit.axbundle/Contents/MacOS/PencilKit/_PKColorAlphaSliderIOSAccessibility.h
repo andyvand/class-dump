@@ -13,16 +13,16 @@
 + (Class);
 + (id);
 + (void);
-- (void);
+- (void)';
 - (double);
 - (void);
 - (struct CGPoint);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)<;
 - (void);
-- (void);
-- (id);
+- (id)_axScrollToAssetReference:inViewModel:forThreeFingerScroll: /* Error: Ran out of types for this method. */;
 
 @end
 

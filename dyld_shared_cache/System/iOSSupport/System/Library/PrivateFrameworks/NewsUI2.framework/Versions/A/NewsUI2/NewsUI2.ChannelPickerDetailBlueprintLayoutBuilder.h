@@ -7,12 +7,6 @@
 @interface NewsUI2.ChannelPickerDetailBlueprintLayoutBuilder
 {
     id channelTagLayoutAttributesFactory;
-    id channelCoinLayoutAttributesFactory;
-    id channelEngagementLayoutAttributesFactory;
-    id channelCategoryLayoutAttributesFactory;
-    id titleViewLayoutAttributesFactory;
-    id footerViewLayoutAttributesFactory;
-    id baseStyler;
 }
 
 @end

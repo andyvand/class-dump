@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface PPPBScoredItemWithFeatures
 {
     unsigned long long _topicId;
-    NSMutableArray *_features;
-    NSMutableArray *_feedbackItems;
-    NSString *_namedEntity;
-    NSString *_namedEntityWithFeedback;
-    float _score;
-    struct {
-        unsigned int topicId:1;
-        unsigned int score:1;
-    } _has;
 }
 
 + (Class);
@@ -30,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)0C4Namet_G;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)PG_QUERY__SET_OPERATION__SETOP_NONE;
 - (void);
 - (_Bool);
 - (id);
@@ -49,11 +38,12 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)!
+;
+- (id);
 - (id);
 - (unsigned long long);
-- (float);
+- (float);
 - (void);
 - (void);
 - (void)
@@ -61,16 +51,7 @@
 - (id)derstandingObserver:importEventBatch finished /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *features; // @synthesize features=_features;
-@property(retain, nonatomic) NSMutableArray *feedbackItems; // @synthesize feedbackItems=_feedbackItems;
-@property(readonly, nonatomic) _Bool hasNamedEntity;
-@property(readonly, nonatomic) _Bool hasNamedEntityWithFeedback;
-@property(nonatomic) _Bool hasScore;
 @property(nonatomic) _Bool hasTopicId;
-@property(retain, nonatomic) NSString *namedEntity; // @synthesize namedEntity=_namedEntity;
-@property(retain, nonatomic) NSString *namedEntityWithFeedback; // @synthesize namedEntityWithFeedback=_namedEntityWithFeedback;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) unsigned long long topicId; // @synthesize topicId=_topicId;
 
 @end
 

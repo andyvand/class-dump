@@ -6,12 +6,11 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class NFMutexLock, NSMutableDictionary, NSOrderedSet;
+@class NSMutableDictionary, NSOrderedSet;
 
 @interface FCShortcutList : FCPrivateDataController
 {
     NSMutableDictionary *_shortcutsByID;
-    NFMutexLock *_itemsLock;
 }
 
 + (_Bool);
@@ -20,9 +19,9 @@
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)ue:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)UICollectionViewDelegate;
 + (id);
 + (id);
 - (void);
@@ -32,7 +31,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)X;
 - (void);
 - (id);
 - (void);

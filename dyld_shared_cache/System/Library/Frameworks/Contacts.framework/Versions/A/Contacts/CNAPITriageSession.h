@@ -5,21 +5,15 @@
 //
 
 @class CNContactFetchRequest;
-@protocol CNAPITriageLogger, CNTimeProvider;
+@protocol CNAPITriageLogger;
 
 __attribute__((visibility("hidden")))
 @interface CNAPITriageSession
 {
     id <CNAPITriageLogger> _logger;
-    id <CNTimeProvider> _timeProvider;
-    double _timeSessionBegan;
-    double _timeSessionEnded;
-    double _clientCalloutTime;
-    _Bool _hasClientCalloutTime;
-    CNContactFetchRequest *_request;
 }
 
-- (void);
+- (void)nf;
 - (id);
 - (void);
 - (id);
@@ -28,17 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)the table of interest is %@, the original Path is %@ and the copy dest is %@;
 - (id);
 - (void);
-- (void)mariesFutureForContactsIdentifiers:matchInfos:contactStore:scheduler: /* Error: Ran out of types for this method. */;
+- (void)summariesFutureForContactsIdentifiers:matchInfos:contactStore:scheduler: /* Error: Ran out of types for this method. */;
 - (id)ÿÜ¿ÿÿÀÿÿ4ÀÿÿLÀÿÿdÀÿÿÀÿÿ¤ÀÿÿÈÀÿÿàÀÿÿHÁÿÿ`ÁÿÿxÁÿÿ ÁÿÿÄÁÿÿäÁÿÿÂÿÿÂÿÿ4ÂÿÿlÂÿÿ¤ÂÿÿÜÂÿÿüÂÿÿÃÿÿäÃÿÿüÃÿÿÄÿÿ<ÄÿÿTÄÿÿtÄÿÿ.Æÿÿ;
 - (id)<;
 
 // Remaining properties
-@property(readonly) id <CNAPITriageLogger> logger; // @synthesize logger=_logger;
 @property(readonly) CNContactFetchRequest *request; // @synthesize request=_request;
-@property(readonly) id <CNTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
 
 @end
 

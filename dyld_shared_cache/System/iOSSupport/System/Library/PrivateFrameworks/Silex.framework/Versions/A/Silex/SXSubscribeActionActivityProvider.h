@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXActionManager, SXSubscribeActionHandler, SXViewControllerPresenting;
+@protocol SXSubscribeActionHandler;
 
 @interface SXSubscribeActionActivityProvider
 {
     id <SXSubscribeActionHandler> _handler;
-    id <SXViewControllerPresenting> _viewControllerPresenting;
-    id <SXActionManager> _actionManager;
 }
 
 - (id);
@@ -23,16 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXSubscribeActionHandler> handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXViewControllerPresenting> viewControllerPresenting; // @synthesize viewControllerPresenting=_viewControllerPresenting;
 
 @end
 

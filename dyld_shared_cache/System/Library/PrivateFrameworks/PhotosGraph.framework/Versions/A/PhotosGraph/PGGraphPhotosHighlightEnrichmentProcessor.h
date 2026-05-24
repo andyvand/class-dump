@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGGraphPhotosHighlightEnrichmentProcessor
 {
     unsigned long long _highlightTailorOptions;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)m;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)y;
+- (id)C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long highlightTailorOptions; // @synthesize highlightTailorOptions=_highlightTailorOptions;
-@property(readonly, nonatomic) _Bool requiresValidGraph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

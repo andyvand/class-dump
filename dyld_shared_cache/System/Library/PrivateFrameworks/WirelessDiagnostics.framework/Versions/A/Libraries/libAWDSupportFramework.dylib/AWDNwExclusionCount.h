@@ -7,9 +7,6 @@
 @interface AWDNwExclusionCount
 {
     unsigned int _reasonCode;
-    int _rssi;
-    unsigned int _usageRank;
-    CDStruct_a6ae4abe _has;
 }
 
 - (void);
@@ -24,23 +21,18 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)h$;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (int);
-- (void)ID0s;
+- (void)_rxLatencyTID0s;
 
 // Remaining properties
 @property(nonatomic) _Bool hasReasonCode;
-@property(nonatomic) _Bool hasRssi;
-@property(nonatomic) _Bool hasUsageRank;
-@property(nonatomic) unsigned int reasonCode; // @synthesize reasonCode=_reasonCode;
-@property(nonatomic) int rssi; // @synthesize rssi=_rssi;
-@property(nonatomic) unsigned int usageRank; // @synthesize usageRank=_usageRank;
 
 @end
 

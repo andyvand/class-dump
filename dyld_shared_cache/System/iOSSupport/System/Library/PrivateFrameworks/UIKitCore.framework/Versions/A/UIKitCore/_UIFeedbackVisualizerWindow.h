@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSMapTable *_engineLayers;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)ary"36@"NSString"44@"NSString"52@"IMItem"60;
+- (id)_populateCKRecordWithIMMessageItemFields: /* Error: Ran out of types for this method. */;
+- (id)ts to getSmoothingHomographiesFromL1Results();
 - (_Bool)same index path (%@);
 - (void)FØj\;
 

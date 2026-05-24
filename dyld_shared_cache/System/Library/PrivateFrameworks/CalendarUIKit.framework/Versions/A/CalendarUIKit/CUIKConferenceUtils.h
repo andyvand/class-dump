@@ -8,22 +8,20 @@
 {
 }
 
-+ (id)ªáª³ùýâ;
-+ (id)©àªáªÆùýâ;
-+ (void)uð;
-+ (void)_ÖÈuð;
-+ (void) `è` aàÀ_Ö(J@òè_;
-+ (void)Â¨ÿ_Ö;
-+ (id);
-+ (id)âªñ	ªéò	?×´#Ñ ;
-+ (id)0ÁÚ"@ùéªñÚ°10@ù
-?×é;
-+ (unsigned long long)#Ù°ý¨£Ñ´#Ñ¸ÖµÛu©´V8·Ï7©Ð¹ð&Bù1ºÒ0
-ÁÚáª #Ñ";
-+ (id){B©ôOA©öWÃ¨ÿ_Öôª;
-+ (id);
++ (id);
 + (id);
 + (void);
++ (void);
++ (void);
++ (void);
++ (id);
++ (id);
++ (id);
++ (unsigned long long);
++ (id);
++ (id)rivatives;
++ (id)ord already exists on server with the proper derivatives;
++ (void)loadQueue"24@?0Q8@"CPLResourceTransferTaskOptions"16;
 + (id);
 + (id);
 

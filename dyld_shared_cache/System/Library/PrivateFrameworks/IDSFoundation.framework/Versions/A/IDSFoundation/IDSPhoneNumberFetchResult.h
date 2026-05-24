@@ -9,20 +9,18 @@
 @interface IDSPhoneNumberFetchResult
 {
     NSString *_telURI;
-    long long _fetchType;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)dentityContainer dataRepresentation missing legacyData};
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long fetchType; // @synthesize fetchType=_fetchType;
 @property(readonly, nonatomic) NSString *telURI; // @synthesize telURI=_telURI;
 
 @end

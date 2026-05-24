@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXApplicationIdentity;
-
 @interface IXDefaultAppMetadata
 {
     unsigned long long _appType;
-    unsigned long long _offloadAnswer;
-    IXApplicationIdentity *_identity;
 }
 
 + (_Bool);
@@ -23,14 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)MSg_Proactive_tray_drive;
+- (unsigned long long)@;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appType; // @synthesize appType=_appType;
-@property(readonly, nonatomic) IXApplicationIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) unsigned long long offloadAnswer; // @synthesize offloadAnswer=_offloadAnswer;
 
 @end
 

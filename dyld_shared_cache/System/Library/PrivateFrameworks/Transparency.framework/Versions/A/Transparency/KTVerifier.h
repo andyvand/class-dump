@@ -4,49 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, TransparencyApplication;
+@class NSString, TransparencyApplication;
 
 @interface KTVerifier
 {
     NSString *_applicationIdentifier;
-    NSXPCConnection *_connection;
-    TransparencyApplication *_application;
 }
 
 + (id);
-- (void);
+- (void)A;
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)runTaskUsingContext:(CDUnknownBlockType)arg1 withTaskQueue:systemCovariates:userCovariates:error: /* Error: Ran out of types for this method. */;
+- (void)g active deployments for rollout %{public}@:(CDUnknownBlockType)arg1 (%@, %d);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)estaurantEvent:(CDUnknownBlockType)arg1 com_apple_mobilemail_LLMQUIntentTicketShowEvent:other_bundle_LLMQUIntentFlightEvent:other_bundle_LLMQUIntentEvent:com_apple_MobileSMS_LLMQUIntentFlightEvent:com_apple_mobilemail_LLMQUIntentHotelEvent:com_apple_MobileSMS_LLMQUIntentPartyEvent:com_apple_MobileSMS_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentCarRentalEvent:com_apple_MobileSMS_LLMQUIntentConversation:com_apple_mobilecal_LLMQUIntentPartyEvent:com_apple_mobileslideshow_LLMQUIntentPhone:com_apple_MobileSMS_LLMQUIntentHotelEvent:com_apple_mobileslideshow_LLMQUIntentEvent:other_bundle_LLMQUIntentTicketTransportEvent:com_apple_MobileSMS_LLMQUIntentCarRentalEvent:com_apple_mobilecal_LLMQUIntentTicketTransportEvent:com_apple_mobilecal_LLMQUIntentCarRentalEvent:com_apple_mobilemail_LLMQUIntentConversation:com_apple_mobilemail_LLMQUIntentPartyEvent:com_apple_mobilecal_LLMQUIntentCalendar:com_apple_mobileslideshow_LLMQUIntentWallet:com_apple_mobileslideshow_LLMQUIntentPhoto:com_apple_MobileSMS_LLMQUIntentCalendar:com_apple_MobileSMS_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentPhoto:other_bundle_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentPhoto:other_bundle_LLMQUIntentWallet:other_bundle_LLMQUIntentPhoto:other_bundle_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentWallet:com_apple_mobilecal_LLMQUIntentPhoto:com_apple_mobilemail_LLMQUIntentSharedLink:com_apple_MobileSMS_LLMQUIntentSharedLink:com_apple_mobilemail_LLMQUIntentSafari:com_apple_mobilecal_LLMQUIntentSharedLink:error: /* Error: Ran out of types for this method. */;
+- (void)generateFeaturesWithFilterTypes:(CDUnknownBlockType)arg1 withSourcetypes:withGlobalDomain:withLikelihood:withEntityTypes:withtoolBoxKind: /* Error: Ran out of types for this method. */;
+- (void)queryLen;
+- (void)kMDItemDescription_QueryTermsNum_Min_Prefix;
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -55,25 +53,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)setUppercase:(id)arg1;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)resolveStateWithContext:(id)arg1;
+- (void)nt with no (or 0) band;
+- (void)__TEXT;
 - (void);
 
 // Remaining properties
 @property(retain) TransparencyApplication *application; // @synthesize application=_application;
-@property(readonly) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end
 

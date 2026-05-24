@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusUpdateThrottle
 {
     unsigned long long _nilUpdateCount;
-    double _lastUpdate;
-    double _currentTimeout;
-    _Bool _updateIsScheduled;
-    NSTimer *_updateTimer;
-    CDUnknownBlockType _updateHandler;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)_setSortIDOnIncomingMessage:(id)arg1 forChat: /* Error: Ran out of types for this method. */;
+- (void)later;
+- (void)analyticManateeZone;
 - (id);
 - (void);
 - (void)6@"NSString"24q32;

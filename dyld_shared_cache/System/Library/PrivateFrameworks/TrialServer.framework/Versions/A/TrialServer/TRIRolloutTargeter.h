@@ -5,22 +5,20 @@
 //
 
 @class TRIRolloutDatabase;
-@protocol TRISystemCovariateProviding, TRIUserCovariateProviding;
+@protocol TRISystemCovariateProviding;
 
 @interface TRIRolloutTargeter
 {
     TRIRolloutDatabase *_db;
-    id <TRISystemCovariateProviding> _systemCovariateProvider;
-    id <TRIUserCovariateProviding> _userCovariateProvider;
 }
 
-+ (id);
-+ (id);
++ (id)initWithImageSource:(id)arg1;
++ (id)bestCropRectV2ForAspectRatio:(id)arg1 withFocusRegion:(id)arg2 sourcePixelWidth:(id)arg3 sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore: /* Error: Ran out of types for this method. */;
+- (id)ries;
 - (id);
 - (id);
-- (id);
-- (CDStruct_6b48f683);
-- (id);
+- (CDStruct_6b48f683)ersion %02x.%02x;
+- (id);
 - (CDStruct_6b48f683);
 - (id);
 - (void)a×Ð!ÀBù!ð1Â0@ù
@@ -28,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <TRISystemCovariateProviding> systemCovariateProvider; // @synthesize systemCovariateProvider=_systemCovariateProvider;
-@property(readonly, nonatomic) id <TRIUserCovariateProviding> userCovariateProvider; // @synthesize userCovariateProvider=_userCovariateProvider;
 
 @end
 

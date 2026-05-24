@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliCustomMetaData, CTLazuliFileTransferDescriptor, CTLazuliGroupChatInformation;
+@class CTLazuliGroupChatInformation;
 
 @interface CTLazuliMessageGroupFileTransferPush
 {
     CTLazuliGroupChatInformation *_chatInformation;
-    CTLazuliFileTransferDescriptor *_descriptor;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)itchStartEvent:%p %@ fromVariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)T;
 - (_Bool);
-- (void);
+- (void)ckoutState;
 - (id);
 - (id);
 - (void)!Aùª)°1Â0@ù
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliGroupChatInformation *chatInformation; // @synthesize chatInformation=_chatInformation;
-@property(retain, nonatomic) CTLazuliFileTransferDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

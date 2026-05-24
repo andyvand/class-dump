@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUbiquitousKeyValueStore, SGNoCloudNSUbiquitousKeyValueStore, _PASLock;
+@class NSUbiquitousKeyValueStore, _PASLock;
 
 @interface SGSuggestHistory
 {
     _PASLock *_lock;
-    NSUbiquitousKeyValueStore *_backingKVStore;
-    SGNoCloudNSUbiquitousKeyValueStore *_noCloudFakeBackingKVStore;
-    NSString *_kvStoreIdentifier;
 }
 
 + (void);
-+ (void);
++ (void)pointOnInfoLayerForPointOnCard: /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -47,30 +44,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)qH;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -82,17 +59,37 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)__AUTH_CONST;
+- (id);
+- (id);
+- (id)__AUTH_CONST;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	;
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,13 +105,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)sourceType;
 - (void);
 - (id);
 - (void);
+- (id)Wd;
 - (id);
-- (id);
-- (void)ionInMinutes: /* Error: Ran out of types for this method. */;
+- (void)setHasPreviousInteractionOnConversationInMinutes: /* Error: Ran out of types for this method. */;
 - (void)R,V_featureNames;
 
 // Remaining properties

@@ -11,21 +11,19 @@ __attribute__((visibility("hidden")))
 {
     id <MTLTexture> _texture;
     unsigned long long _depthPlane;
-    CDStruct_3ead2808 _clearColor;
 }
 
 - (id);
 - (void);
 - (void);
-- (CDStruct_3ead2808);
+- (CDStruct_d2b197d1);
 - (unsigned long long);
 - (void);
 - (void);
 - (id)°;
 
 // Remaining properties
-@property(nonatomic) CDStruct_3ead2808 clearColor; // @synthesize clearColor=_clearColor;
-@property(nonatomic) unsigned long long depthPlane; // @synthesize depthPlane=_depthPlane;
+@property(nonatomic) CDStruct_d2b197d1 clearColor; // @synthesize clearColor=_clearColor;
 @property(retain, nonatomic) id <MTLTexture> texture; // @synthesize texture=_texture;
 
 @end

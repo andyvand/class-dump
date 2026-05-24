@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTMaterialLayer, NSDate;
+@class MTMaterialLayer;
 
 @interface MTPrunePromise
 {
     MTMaterialLayer *_materialLayer;
-    NSDate *_timeStamp;
-    _Bool _promiseFulfilled;
 }
 
 - (double);

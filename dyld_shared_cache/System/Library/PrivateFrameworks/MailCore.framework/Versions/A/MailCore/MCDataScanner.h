@@ -9,32 +9,29 @@
 @interface MCDataScanner
 {
     unsigned long long _scanLocation;
-    NSData *_data;
 }
 
 + (id);
+- (_Bool)3;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)4˟;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool isAtEnd;
-@property(nonatomic) unsigned long long scanLocation;
 
 @end
 

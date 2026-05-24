@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSettings, _BSActionResponder;
+@class _BSActionResponder;
 
 @interface BSAction
 {
     _BSActionResponder *_responder;
-    _Bool _isImplicitOriginator;
-    BSSettings *_info;
 }
 
 + (id);

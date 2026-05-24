@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Workflow)
 + (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 

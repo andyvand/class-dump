@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PBDataReader;
+@class NSArray, PBDataReader;
 
 @interface GEOPDPlaceSummaryDynamicContextServerOverride
 {
     PBDataReader *_reader;
-    NSMutableArray *_mapsIds;
-    NSMutableArray *_serverDynamicContexts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_mapsIds:1;
-        unsigned int read_serverDynamicContexts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)ImpressEvent:(id)arg1;
-- (void);
++ (Class)P9;
++ (Class)CNSuspendableSchedulerConditionDraining;
++ (_Bool)setImpressEvent:(id)arg1;
+- (void)_contactIdentifierSet;
 - (void);
 - (unsigned long long);
 - (id);
@@ -42,23 +32,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_isSecondPassRunning;
+- (void)ss[%{public}@]:(id)arg1 Finished prewarming Remora :%{public}@, error :%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^B24;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)_isLocationNearTransitNode: /* Error: Ran out of types for this method. */;
 - (id)8;
-- (id)rchSuggestion;
+- (id)defaultRelatedSearchSuggestion;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *mapItemIdentifiers;
-@property(retain, nonatomic) NSMutableArray *mapsIds;
-@property(retain, nonatomic) NSMutableArray *serverDynamicContexts;
 
 @end
 

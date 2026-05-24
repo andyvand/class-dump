@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ATCIOA2StreamFormat, IOKConnection, IOKService, NSArray;
+@class IOKService;
 
 @interface ATCIOA2Stream
 {
     IOKService *_service;
-    IOKConnection *_connection;
-    unsigned long long _index;
-    unsigned int _physicalID;
-    _Bool _input;
-    unsigned int _startingChannel;
-    ATCIOA2StreamFormat *_currentFormat;
-    NSArray *_availableFormats;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
+- (void)localeIdentifier;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *availableFormats; // @synthesize availableFormats=_availableFormats;
-@property(readonly, copy, nonatomic) ATCIOA2StreamFormat *currentFormat; // @synthesize currentFormat=_currentFormat;
 @property(readonly, nonatomic, getter=isInput) _Bool input; // @synthesize input=_input;
-@property(readonly, nonatomic) unsigned int startingChannel; // @synthesize startingChannel=_startingChannel;
 
 @end
 

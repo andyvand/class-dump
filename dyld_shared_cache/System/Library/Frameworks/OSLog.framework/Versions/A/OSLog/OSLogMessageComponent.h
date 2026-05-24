@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface OSLogMessageComponent
 {
     NSString *_formatSubstring;
-    NSString *_placeholder;
-    long long _argumentCategory;
-    NSData *_argumentDataValue;
-    double _argumentDoubleValue;
-    long long _argumentInt64Value;
-    NSNumber *_argumentNumberValue;
-    NSString *_argumentStringValue;
-    unsigned long long _argumentUInt64Value;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -39,19 +31,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long argumentCategory; // @synthesize argumentCategory=_argumentCategory;
-@property(copy, nonatomic) NSData *argumentDataValue; // @synthesize argumentDataValue=_argumentDataValue;
-@property(readonly, nonatomic) double argumentDoubleValue; // @synthesize argumentDoubleValue=_argumentDoubleValue;
-@property(readonly, nonatomic) long long argumentInt64Value; // @synthesize argumentInt64Value=_argumentInt64Value;
-@property(copy, nonatomic) NSNumber *argumentNumberValue; // @synthesize argumentNumberValue=_argumentNumberValue;
-@property(copy, nonatomic) NSString *argumentStringValue; // @synthesize argumentStringValue=_argumentStringValue;
-@property(readonly, nonatomic) unsigned long long argumentUInt64Value; // @synthesize argumentUInt64Value=_argumentUInt64Value;
 @property(copy, nonatomic) NSString *formatSubstring; // @synthesize formatSubstring=_formatSubstring;
-@property(copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
 
 @end
 

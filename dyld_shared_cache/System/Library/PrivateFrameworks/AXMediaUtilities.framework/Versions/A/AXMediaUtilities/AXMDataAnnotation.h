@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMDataPoint, NSString;
+@class AXMDataPoint;
 
 @interface AXMDataAnnotation
 {
     _Bool _playsHaptic;
-    _Bool _speakDuringPlayback;
-    AXMDataPoint *_location;
-    NSString *_label;
 }
 
+- (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setDefaultConstant:(id)arg1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) AXMDataPoint *location; // @synthesize location=_location;
-@property(nonatomic) _Bool playsHaptic; // @synthesize playsHaptic=_playsHaptic;
-@property(nonatomic) _Bool speakDuringPlayback; // @synthesize speakDuringPlayback=_speakDuringPlayback;
 
 @end
 

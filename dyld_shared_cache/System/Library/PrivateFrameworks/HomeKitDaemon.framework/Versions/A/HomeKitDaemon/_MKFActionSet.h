@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFActionSetDatabaseID, NSArray, NSDate, NSSet, NSString, NSUUID;
-@protocol MKFApplicationData, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFActionSet : _MKFModel
@@ -19,29 +18,29 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)GEOTransitArtworkSourceTypeNone;
+- (id)icon_fallback_shield;
+- (id)ric;
+- (id)arrival text message body;
+- (id)otification body, generic;
+- (id)ared Trip] arrival notification body;
+- (id)arrival notification subtitle;
 - (void);
 - (id);
 - (id);
@@ -49,35 +48,10 @@ __attribute__((visibility("hidden")))
 - (id)ssory pairings for home:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *actions;
-@property(retain, nonatomic) NSSet *actions_; // @dynamic actions_;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData; // @dynamic applicationData;
-@property(readonly, copy, nonatomic) MKFActionSetDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSDate *lastExecutionDate; // @dynamic lastExecutionDate;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(retain, nonatomic) NSSet *notificationRegistrations_; // @dynamic notificationRegistrations_;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *triggers;
-@property(retain, nonatomic) NSSet *triggers_; // @dynamic triggers_;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

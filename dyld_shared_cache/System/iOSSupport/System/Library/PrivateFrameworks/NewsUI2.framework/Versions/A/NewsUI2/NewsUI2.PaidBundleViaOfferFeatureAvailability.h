@@ -7,8 +7,6 @@
 @interface NewsUI2.PaidBundleViaOfferFeatureAvailability
 {
     id featureAvailability;
-    id bundleSubscriptionManager;
-    id offerManager;
 }
 
 @end

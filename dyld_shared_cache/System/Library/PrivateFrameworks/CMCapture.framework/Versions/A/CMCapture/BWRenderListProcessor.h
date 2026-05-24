@@ -5,15 +5,11 @@
 //
 
 @class BWPixelBufferPool, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface BWRenderListProcessor
 {
     NSObject<OS_dispatch_queue> *_configurationMutexQueue;
-    _Bool _configurationQueueAlwaysEmitsOriginalResult;
-    BWPixelBufferPool *_renderingPool;
-    NSObject<OS_dispatch_group> *_renderingGroup;
-    struct opaqueCMFormatDescription *_mostRecentFormatDescription;
 }
 
 + (id);
@@ -21,15 +17,15 @@
 - (void);
 - (id);
 - (void);
+- (void)OITSUPositiveZeroNumberFormatter;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)K
+;
 - (void);
 - (id)ôÿfxøÿxyûÿzþÿzÿÿ«zÿÿ»yÿÿÊxÿÿÚvÿÿètÿÿøqÿÿÿnÿÿÿjÿÿÿgÿÿÿeÿÿÿdÿÿÿdÿÿÿfÿÿÿhüÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysEmitsOriginalResult;
 @property(readonly, nonatomic) BWPixelBufferPool *renderingPool; // @synthesize renderingPool=_renderingPool;
 
 @end

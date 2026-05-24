@@ -10,10 +10,10 @@
 {
 }
 
+- (id)F;
 - (id);
 - (id);
-- (id);
-- (void)elections: /* Error: Ran out of types for this method. */;
+- (void)navigationListener:didUpdateRideSelections: /* Error: Ran out of types for this method. */;
 - (id)y, :(id)arg1 language, :algorithm, :initialScore, :decayRate,     :osBuild, :assetVersion, :sourceRowId, 0, :shouldSync, :sentimentScore, :occurrencesInSource) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÿªßÖ;

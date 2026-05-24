@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSResponder;
 @protocol _NSQuickActionAutovalidationHandler, _NSQuickActionItemSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionAutovalidationScheduler
 {
     id <_NSQuickActionAutovalidationHandler> _handler;
-    NSResponder<_NSQuickActionItemSource> *_responder;
-    NSEvent *_lastEventProcessedForValidation;
-    CDUnknownBlockType _hysteresisBlock;
-    _Bool _invalidationIsDeferrable;
-    _Bool _isObserving;
-    _Bool _isActive;
 }
 
-+ (id);
++ (id)_onqueue_preConnectionConfiguration:(id)arg1 parameters:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)enSN %@;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SetAppInMagnifyMode (%s);
 - (void);
 - (void);
 - (void)on State:%@ /* Error: Ran out of types for this method. */;

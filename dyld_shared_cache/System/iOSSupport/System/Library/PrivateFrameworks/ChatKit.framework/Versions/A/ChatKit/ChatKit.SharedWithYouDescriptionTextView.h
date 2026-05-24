@@ -7,10 +7,6 @@
 @interface ChatKit.SharedWithYouDescriptionTextView
 {
     id descriptionString;
-    id learnMoreString;
-    id footerTextColor;
-    id learnMoreColor;
-    id footerFont;
 }
 
 - (id);

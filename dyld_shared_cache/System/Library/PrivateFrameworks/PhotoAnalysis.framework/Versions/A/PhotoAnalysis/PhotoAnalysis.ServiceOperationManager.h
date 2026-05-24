@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.ServiceOperationManager
 {
     id $defaultActor;
-    id serviceIdentifier;
-    id taskScheduler;
-    id operationOrigin;
-    id operationByIdentifier;
-    id numberOfSubmittedOperations;
 }
 
 @end

@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setLastByteBuckets:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void)AWDCoreRoutineLMPResponseInstance;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)omponents:(id)arg1;
+- (void)_isSameYearInDateComponentsRange:(id)arg1 currentDateComponents: /* Error: Ran out of types for this method. */;
 - (void)g-address;
 
 // Remaining properties

@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEOImageServiceImage
 {
     PBDataReader *_reader;
-    NSData *_imageId;
-    NSData *_image;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_imageId:1;
-        unsigned int read_image:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tworkIndex:(id)arg1;
-- (_Bool);
-- (void);
++ (_Bool)setHasRouteLineArtworkIndex:(id)arg1;
+- (_Bool)respondsToSelector: /* Error: Ran out of types for this method. */;
+- (void)8.!@';
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)r=}16@0:(id)arg1 8;
+- (id)lDeviceProtocolInfo];
+- (void)C	;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -37,8 +27,8 @@
 - (id);
 - (id);
 - (void);
-- (id)tIsShifted:(struct _NSZone *)arg1;
-- (id)eStep;
+- (id)setIsShifted:(struct _NSZone *)arg1;
+- (id)GEOComposedRouteStep;
 - (id)rivate}@ will update %{private}@;
 - (id)<;
 - (void);
@@ -46,10 +36,7 @@
 - (_Bool)¼8j@;;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImage;
 @property(readonly, nonatomic) _Bool hasImageId;
-@property(retain, nonatomic) NSData *image;
-@property(retain, nonatomic) NSData *imageId;
 
 @end
 

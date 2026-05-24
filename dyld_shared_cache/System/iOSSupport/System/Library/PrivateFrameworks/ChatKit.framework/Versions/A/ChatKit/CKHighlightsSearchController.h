@@ -6,28 +6,26 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKHighlightsSearchController : CKMessageTypeSearchController
 {
 }
 
-+ (_Bool);
++ (_Bool)failedToCreateBuffer;
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
+- (void)hasSanitizedAndScreenedModernSourceObjects;
+- (_Bool)URLProtocolDidFinishLoading:(id)arg1;
+- (id);
+- (id);
+- (id)i;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)locked out — falling back to password if possible…;
+- (id)default_body_text_color;
+- (id)single opened note;
+- (id)m/guide/ipad/get-started-with-notes-ipadfeea407c/ipados;
 - (id);
 - (id);
 - (id);
@@ -38,13 +36,7 @@
 - (long long)CONVERSATION_LIST_FOCUS_FILTER_ACTION_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -17,7 +17,7 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id),l;
 
 @end
 

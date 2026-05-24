@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_axSetPositionInButtonsList: /* Error: Ran out of types for this method. */;
++ (void)%;
 - (void);
 - (_Bool);
 - (void);

@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol HMPersistentCache, OS_dispatch_queue;
+@protocol HMPersistentCache;
 
 @interface HMCacheManager
 {
     struct os_unfair_lock_s _lock;
-    id <HMPersistentCache> _persistentCache;
-    NSMapTable *_cacheMap;
-    NSMutableDictionary *_pendingWrites;
-    HMFTimer *_writeDebounceTimer;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
+- (id)I;
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)sions/A/RTCReporting;
 - (void)ÿÿ-;
 
 // Remaining properties
-@property(readonly) NSMapTable *cacheMap; // @synthesize cacheMap=_cacheMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableDictionary *pendingWrites; // @synthesize pendingWrites=_pendingWrites;
 @property(readonly) id <HMPersistentCache> persistentCache; // @synthesize persistentCache=_persistentCache;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly) HMFTimer *writeDebounceTimer; // @synthesize writeDebounceTimer=_writeDebounceTimer;
 
 @end
 

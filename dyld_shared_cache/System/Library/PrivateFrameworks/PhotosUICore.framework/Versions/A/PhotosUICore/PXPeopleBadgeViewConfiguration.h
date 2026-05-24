@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXPeopleBadgeViewDelegate;
-
 @interface PXPeopleBadgeViewConfiguration
 {
     long long _state;
-    double _displayScale;
-    id <PXPeopleBadgeViewDelegate> _badgeViewDelegate;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (double)<1Â0@ù
 × ;
-- (id)m;
-- (void)ItemListManagerSharedState;
+- (id)px_isHiddenSmartAlbum;
+- (void)PhotoKitItemListManagerSharedState;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <PXPeopleBadgeViewDelegate> badgeViewDelegate; // @synthesize badgeViewDelegate=_badgeViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

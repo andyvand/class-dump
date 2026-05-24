@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allValues;
-@property(readonly, nonatomic) unsigned long long count;
 
 @end
 

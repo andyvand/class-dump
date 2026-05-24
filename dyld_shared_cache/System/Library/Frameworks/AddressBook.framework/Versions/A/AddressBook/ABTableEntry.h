@@ -17,13 +17,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Ȅ;
 - (id);
 - (void)¡@!¬EùÑ©°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
 @property(readonly, copy) NSString *recordIdentifier;
 
 @end

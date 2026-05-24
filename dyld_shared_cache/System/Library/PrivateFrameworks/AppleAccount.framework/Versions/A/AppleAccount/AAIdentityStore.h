@@ -9,9 +9,9 @@
     id daemonConnection;
 }
 
-- (void);
+- (void)chainCopyDefault returned %d;
 - (id);
-- (void)pleIDHeadersForRequest: /* Error: Ran out of types for this method. */;
+- (void)appleIDHeadersForRequest: /* Error: Ran out of types for this method. */;
 
 @end
 

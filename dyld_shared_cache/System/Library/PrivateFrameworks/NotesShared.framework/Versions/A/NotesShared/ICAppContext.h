@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudContext, ICDeviceManagementRestrictionsManager, NSManagedObjectContext;
+@class ICCloudContext;
 
 @interface ICAppContext
 {
     ICCloudContext *_cloudContext;
-    NSManagedObjectContext *_viewContext;
-    ICDeviceManagementRestrictionsManager *_deviceManagementRestrictionsManager;
-    unsigned long long _contextOptions;
-    CDUnknownBlockType _backgroundContextCreator;
 }
 
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);
@@ -28,11 +24,7 @@
 - (id)=,<;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType backgroundContextCreator; // @synthesize backgroundContextCreator=_backgroundContextCreator;
-@property(readonly, nonatomic) ICCloudContext *cloudContext; // @synthesize cloudContext=_cloudContext;
 @property(nonatomic) unsigned long long contextOptions; // @synthesize contextOptions=_contextOptions;
-@property(readonly, nonatomic) ICDeviceManagementRestrictionsManager *deviceManagementRestrictionsManager; // @synthesize deviceManagementRestrictionsManager=_deviceManagementRestrictionsManager;
-@property(readonly, nonatomic) NSManagedObjectContext *viewContext; // @synthesize viewContext=_viewContext;
 
 @end
 

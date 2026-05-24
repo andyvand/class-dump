@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPMockRTAddress, PPMockRTLocation;
+@class NSString;
 
 @interface PPMockRTMapItem
 {
     NSString *_name;
-    PPMockRTAddress *_address;
-    PPMockRTLocation *_location;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)_;
+- (id)A;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PPMockRTAddress *address; // @synthesize address=_address;
-@property(retain, nonatomic) PPMockRTLocation *location; // @synthesize location=_location;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

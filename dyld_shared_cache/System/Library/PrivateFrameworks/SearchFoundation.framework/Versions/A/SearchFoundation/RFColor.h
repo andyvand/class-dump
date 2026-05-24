@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFOptionalFloat, RFRGBValue;
+@class RFRGBValue;
 
 @interface RFColor
 {
@@ -12,24 +12,21 @@
         unsigned int rgb_value:1;
         unsigned int name:1;
     } _has;
-    int _name;
-    RFRGBValue *_rgb_value;
-    RFOptionalFloat *_alpha;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)initWithiTunesCloudStoreHLSAssetInfo:(id)arg1;
 - (_Bool);
 - (void);
-- (int);
+- (int)_defaultProxyErrorHandlerWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)M;
+- (id)setVisualSearchData:(id)arg1 stickerConfidenceScore:algorithmVersion:adjustmentVersion: /* Error: Ran out of types for this method. */;
+- (id)Attributes.inferredTimeZoneOffset;
 - (id);
 - (id);
 - (id);
@@ -37,18 +34,7 @@
 - (void)_collectionStyleRow;
 
 // Remaining properties
-@property(retain, nonatomic) RFOptionalFloat *alpha; // @synthesize alpha=_alpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int name; // @synthesize name=_name;
 @property(retain, nonatomic) RFRGBValue *rgb_value; // @synthesize rgb_value=_rgb_value;
-@property(readonly) Class superclass;
 
 @end
 

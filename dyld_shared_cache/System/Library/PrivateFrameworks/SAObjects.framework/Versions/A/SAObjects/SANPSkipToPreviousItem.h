@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id)R_;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;

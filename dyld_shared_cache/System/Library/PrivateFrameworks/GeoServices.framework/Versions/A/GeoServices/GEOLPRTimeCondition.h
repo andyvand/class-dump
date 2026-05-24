@@ -9,55 +9,42 @@
 @interface GEOLPRTimeCondition
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _dayOfMonths;
-    CDStruct_95bda58d _dayOfWeeks;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_dayOfMonths:1;
-        unsigned int read_dayOfWeeks:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)reConnectStart:(id)arg1;
++ (_Bool)setHasSecureConnectStart:(id)arg1;
+- (void);
+- (void);
+- (id)blockBecameCompleted;
+- (int *)block;
+- (int)bespokeTemporaryDirectory;
+- (unsigned long long)backgroundSchedulerWithQualityOfService: /* Error: Ran out of types for this method. */;
+- (unsigned int *)backgroundSchedulerWithQualityOfService: /* Error: Ran out of types for this method. */;
+- (unsigned int)backgroundScheduler;
+- (void)rFormatter",R,N,V_numberFormatterWith4SigFigs;
+- (void);
+- (void)8;
+- (unsigned long long)timestamp;
+- (void)8;
+- (int)ʬ;
 - (void);
 - (void);
 - (id);
-- (int *);
-- (int);
-- (unsigned long long);
-- (unsigned int *);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id)ontroller should not be nil.;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)erAbBranchId:(struct _NSZone *)arg1;
+- (void);
+- (id)setMultilayerAbBranchId:(struct _NSZone *)arg1;
 - (id)N,V_advisoryItems;
 - (id)transit segments yet.;
 - (id)ä;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *dayOfMonths;
-@property(readonly, nonatomic) unsigned long long dayOfMonthsCount;
-@property(readonly, nonatomic) int *dayOfWeeks;
 @property(readonly, nonatomic) unsigned long long dayOfWeeksCount;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, SiriUIIntArray2D;
-@protocol EditScriptData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIEditScript
 {
     _Bool _orderAtomsAscending;
-    SiriUIIntArray2D *_distanceMatrix;
-    long long _currentOperation;
-    id <EditScriptData> _itemAData;
-    id <EditScriptData> _itemBData;
-    NSArray *_operationPrecedenceArray;
-    NSMutableArray *_script;
 }
 
 - (void);
@@ -35,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *operationPrecedenceArray; // @synthesize operationPrecedenceArray=_operationPrecedenceArray;
-@property(retain, nonatomic) NSMutableArray *script; // @synthesize script=_script;
 
 @end
 

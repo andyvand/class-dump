@@ -7,6 +7,8 @@
 @protocol APSConnectionDelegate
 
 @optional
+- (void);
+- (void)f;
 - (void)0@ù
 × ;
 - (void)!`@ùq1*1Â0@ù

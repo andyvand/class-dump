@@ -11,14 +11,11 @@
 @interface IMTranscriptPluginBreadcrumbChatItem : IMTranscriptChatItem
 {
     IMBalloonPluginDataSource *_dataSource;
-    NSString *_rawStatusText;
-    NSString *_statusText;
-    unsigned long long _optionFlags;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)amGroup=%@, sysaStreamGroup=%@, supportsDedicatedSystemAudioStream=%d;
+- (id)s:(id)arg1 %d %@(%p) messageReceived:(id)arg2 %@ notify client for sessionID '%d';
+- (void)l;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -26,24 +23,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)observeValueForKeyPath:(id)arg1 ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void)<Ì;
 
 // Remaining properties
-@property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) unsigned long long optionFlags; // @synthesize optionFlags=_optionFlags;
 @property(readonly, nonatomic) NSString *rawStatusText; // @synthesize rawStatusText=_rawStatusText;
-@property(readonly, nonatomic) NSString *statusText; // @synthesize statusText=_statusText;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSString *type;
 
 @end
 

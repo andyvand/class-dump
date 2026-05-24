@@ -9,17 +9,16 @@
 @interface MPFrameManager
 {
     NSMutableDictionary *mFrames;
-    NSMutableDictionary *mCategories;
 }
 
 + (void);
 + (void);
 + (id);
+- (id)_configProvider;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);

@@ -11,18 +11,17 @@
 @interface NEIKEv2AddressAttribute : NEIKEv2ConfigurationAttribute
 {
     NWAddressEndpoint *_address;
-    unsigned long long _customType;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)tifier untrustedProcessName accessLevel ;
 - (unsigned long long);
 - (id);
+- (id)requestNWConnectionWithDataBlob:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)epaliveDisabled: /* Error: Ran out of types for this method. */;
-- (id)workRules;
+- (void)setNatTraversalKeepaliveDisabled: /* Error: Ran out of types for this method. */;
+- (id)excludedNetworkRules;
 
 // Remaining properties
 @property(readonly) NWAddressEndpoint *address; // @synthesize address=_address;

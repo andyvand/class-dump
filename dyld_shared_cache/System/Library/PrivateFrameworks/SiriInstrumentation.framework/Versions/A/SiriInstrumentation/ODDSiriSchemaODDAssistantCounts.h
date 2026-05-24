@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDReliabilityCounts, ODDSiriSchemaODDTaskCounts, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDAssistantCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    ODDSiriSchemaODDTaskCounts *_taskCounts;
-    ODDSiriSchemaODDReliabilityCounts *_reliabilityCounts;
-    _Bool _hasTurnCounts;
-    _Bool _hasTaskCounts;
-    _Bool _hasReliabilityCounts;
 }
 
 - (id);
@@ -38,21 +33,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)
 × ;
 - (id)cepted;
 - (id)FLTaskEvaluation",&,N,V_taskEvaluation;
-- (void)ALIAS_FILE;
+- (void)JRPARAMETERSUBTYPE_ENTITY_IDENTIFIER_ALIAS_FILE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReliabilityCounts; // @synthesize hasReliabilityCounts=_hasReliabilityCounts;
-@property(nonatomic) _Bool hasTaskCounts; // @synthesize hasTaskCounts=_hasTaskCounts;
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDReliabilityCounts *reliabilityCounts; // @synthesize reliabilityCounts=_reliabilityCounts;
-@property(retain, nonatomic) ODDSiriSchemaODDTaskCounts *taskCounts; // @synthesize taskCounts=_taskCounts;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UnknownClass (InternationalSupportExtensions)
 + (id);
@@ -19,13 +19,13 @@
 + (_Bool);
 + (id);
 + (id);
++ (id)	;
++ (id);
++ (id)y(}	}S	;
++ (id)@yh;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)y)(}S	;
 + (id);
 + (id);
 + (id);
@@ -43,7 +43,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)K	=;
 + (id);
 + (id);
 + (id);
@@ -58,14 +58,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7	;
 - (id);
 - (id);
 - (_Bool)HEÌF;
 - (id)'E'*;
 
 // Remaining properties
-@property(readonly, copy) NSArray *availableNumberingSystems;
 @property(readonly, copy) NSString *numberingSystem;
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageController, AKPageModelController, CALayer, CAShapeLayer, NSMapTable;
+@class AKPageController;
 
 @interface AKLayerPresentationManager
 {
     _Bool _shouldPixelate;
-    _Bool _adornmentsHidden;
-    _Bool _isObservingModel;
-    AKPageController *_pageController;
-    CALayer *_rootLayer;
-    double _alignmentGuidePositionX;
-    double _alignmentGuidePositionY;
-    NSMapTable *_annotationsToAnnotationLayers;
-    NSMapTable *_annotationsToAdornmentLayers;
-    CALayer *_cropAnnotationLayer;
-    CALayer *_cropAdornmentLayer;
-    CAShapeLayer *_alignmentGuideXLayer;
-    CAShapeLayer *_alignmentGuideYLayer;
-    AKPageModelController *_pageModelController;
-    double _currentScaleFactor;
 }
 
 - (void);
@@ -33,13 +19,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -67,31 +53,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)_supportsSoftwareUpdateV2;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)beginFindStrings:withOptions: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void)thBlock: /* Error: Ran out of types for this method. */;
+- (void)5;
+- (void)blockOperationWithBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool adornmentsHidden; // @synthesize adornmentsHidden=_adornmentsHidden;
-@property(nonatomic) double alignmentGuidePositionX; // @synthesize alignmentGuidePositionX=_alignmentGuidePositionX;
-@property(nonatomic) double alignmentGuidePositionY; // @synthesize alignmentGuidePositionY=_alignmentGuidePositionY;
-@property(retain) CAShapeLayer *alignmentGuideXLayer; // @synthesize alignmentGuideXLayer=_alignmentGuideXLayer;
-@property(retain) CAShapeLayer *alignmentGuideYLayer; // @synthesize alignmentGuideYLayer=_alignmentGuideYLayer;
-@property(retain) NSMapTable *annotationsToAdornmentLayers; // @synthesize annotationsToAdornmentLayers=_annotationsToAdornmentLayers;
-@property(retain) NSMapTable *annotationsToAnnotationLayers; // @synthesize annotationsToAnnotationLayers=_annotationsToAnnotationLayers;
-@property(retain) CALayer *cropAdornmentLayer; // @synthesize cropAdornmentLayer=_cropAdornmentLayer;
-@property(retain) CALayer *cropAnnotationLayer; // @synthesize cropAnnotationLayer=_cropAnnotationLayer;
-@property double currentScaleFactor; // @synthesize currentScaleFactor=_currentScaleFactor;
-@property _Bool isObservingModel; // @synthesize isObservingModel=_isObservingModel;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(retain) AKPageModelController *pageModelController; // @synthesize pageModelController=_pageModelController;
-@property(retain) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
-@property(nonatomic) _Bool shouldPixelate; // @synthesize shouldPixelate=_shouldPixelate;
 
 @end
 

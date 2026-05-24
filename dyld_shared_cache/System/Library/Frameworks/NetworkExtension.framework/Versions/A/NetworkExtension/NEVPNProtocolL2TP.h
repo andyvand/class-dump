@@ -6,20 +6,12 @@
 
 #import <NetworkExtension/NEVPNProtocolPPP.h>
 
-@class NEIdentityKeychainItem, NEKeychainItem, NSArray, NSData, NSString;
-
 @interface NEVPNProtocolL2TP : NEVPNProtocolPPP
 {
     _Bool _machineIdentityDataImported;
-    long long _machineAuthenticationMethod;
-    NEKeychainItem *_sharedSecretKeychainItem;
-    NSString *_localIdentifier;
-    NSArray *_userPreferences;
-    NEIdentityKeychainItem *_machineIdentity;
-    NSData *_machineIdentityDataInternal;
 }
 
-+ (_Bool);
++ (_Bool)setUsedEngram: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -34,30 +26,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (long long);
 - (id);
 - (void);
 - (id);
 - (struct __SCNetworkInterface *);
+- (id)P;
 - (id);
-- (id);
-- (void);
+- (void)5;
 - (id);
 - (void);
 - (id);
 - (void)Q+,ð1Â0@ù
 × ;
-- (_Bool)CertificateData:(id)arg1;
+- (_Bool)setSystemCertificateData:(id)arg1;
 - (id)ar;
 
 // Remaining properties
-@property(copy) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
 @property long long machineAuthenticationMethod; // @synthesize machineAuthenticationMethod=_machineAuthenticationMethod;
-@property(copy) NSData *machineIdentityReference;
-@property(copy) NEKeychainItem *sharedSecretKeychainItem; // @synthesize sharedSecretKeychainItem=_sharedSecretKeychainItem;
-@property(copy) NSData *sharedSecretReference;
-@property(retain) NSArray *userPreferences; // @synthesize userPreferences=_userPreferences;
 
 @end
 

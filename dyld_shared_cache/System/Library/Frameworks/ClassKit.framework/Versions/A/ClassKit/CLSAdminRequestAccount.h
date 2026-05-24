@@ -6,43 +6,37 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSPerson, NSArray, NSString;
+@class NSString;
 
 @interface CLSAdminRequestAccount : CLSObject
 {
     NSString *_personID;
-    CLSPerson *_accountPersonInfo;
-    NSString *_requestedRoleID;
-    long long _requestedRoleType;
-    NSArray *_requestedLocationIDs;
-    NSString *_temporaryPassword;
-    NSString *_verificationCode;
-    NSArray *_conflictingPersonIDs;
-    long long _status;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)_backgroundSaveAccount:withDataclassEnablement:completion: /* Error: Ran out of types for this method. */;
+- (id)ies. Lowering priority to kANEProgramPriority2 0x%08X;
+- (id)ferent program!! programHandle:0x%llx, req->transactionID=0x%llx, reqCb->transactionID=0x%llx
+ /* Error: Ran out of types for this method. */;
+- (void)ANEServicesDeviceSessionHintRequest;
+- (void)ANEServicesDeviceProgramPrepare;
+- (void)Buf size = %ld;
+- (void)n what's available in the pool. Buf size = %ld;
+- (void)parameters;
+- (void)ure not found for index %d;
+- (void)uint32_t, IOSurfaceRef);
+- (void)ANEServicesDeviceUpdateParameters;
+- (long long)E_TerminateClientLoggingSession returned 0x%08x 
+;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
@@ -54,15 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CLSPerson *accountPersonInfo; // @synthesize accountPersonInfo=_accountPersonInfo;
-@property(copy, nonatomic) NSArray *conflictingPersonIDs; // @synthesize conflictingPersonIDs=_conflictingPersonIDs;
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(copy, nonatomic) NSArray *requestedLocationIDs; // @synthesize requestedLocationIDs=_requestedLocationIDs;
-@property(retain, nonatomic) NSString *requestedRoleID; // @synthesize requestedRoleID=_requestedRoleID;
-@property(nonatomic) long long requestedRoleType; // @synthesize requestedRoleType=_requestedRoleType;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *temporaryPassword; // @synthesize temporaryPassword=_temporaryPassword;
-@property(copy, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface SFTokenBucket
 {
     unsigned long long _bucketSize;
-    unsigned long long _tokensAvailable;
-    unsigned long long _tokenDurationTicks;
-    unsigned long long _lastRefreshTicks;
 }
 
 - (id);

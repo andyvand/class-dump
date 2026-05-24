@@ -9,7 +9,6 @@
 @interface SGMIStagedLogRecord
 {
     _Bool _isLogged;
-    SGMIMetricsMailIntelligenceForMessage *_log;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)è6;
 
 // Remaining properties
-@property(readonly) _Bool isLogged; // @synthesize isLogged=_isLogged;
 @property(readonly) SGMIMetricsMailIntelligenceForMessage *log; // @synthesize log=_log;
 
 @end

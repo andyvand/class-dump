@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaControls, MPRouteButton, NATouchInsetsButton;
-@protocol NANowPlayingBottomControlsDelegate;
+@class NATouchInsetsButton;
 
 @interface NANowPlayingBottomControls
 {
     NATouchInsetsButton *_playbackSpeedButton;
-    NATouchInsetsButton *_sizingPlaybackSpeedButton;
-    MPRouteButton *_routeButton;
-    MPMediaControls *_mediaControls;
-    id <NANowPlayingBottomControlsDelegate> _delegate;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (void);
@@ -36,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)g-type-channel-;
+- (id)moving %{public}@ emitter, identifier=%{public}@, reason=%{public}@;
 - (void);
 - (id);
 - (void);
@@ -45,16 +40,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (void);
-- (void)alDebug;
+- (void)visualDebug;
 
 // Remaining properties
-@property(nonatomic) __weak id <NANowPlayingBottomControlsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) MPMediaControls *mediaControls; // @synthesize mediaControls=_mediaControls;
 @property(retain, nonatomic) NATouchInsetsButton *playbackSpeedButton; // @synthesize playbackSpeedButton=_playbackSpeedButton;
-@property(retain, nonatomic) MPRouteButton *routeButton; // @synthesize routeButton=_routeButton;
-@property(retain, nonatomic) NATouchInsetsButton *sizingPlaybackSpeedButton; // @synthesize sizingPlaybackSpeedButton=_sizingPlaybackSpeedButton;
 
 @end
 

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraphBuilder;
-@protocol OS_os_log;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestFrequentLocationProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
-+ (unsigned long long);
++ (unsigned long long)SyncQueue;
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)setMenuBarOwningApplication:(id)arg1;
+- (id)dialogHasEverBeenDisplayed;
+- (void)describeContentOfWindow:(id)arg1;
 - (id);
 - (void);
 - (void)GGraphSceneNodeCollection"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

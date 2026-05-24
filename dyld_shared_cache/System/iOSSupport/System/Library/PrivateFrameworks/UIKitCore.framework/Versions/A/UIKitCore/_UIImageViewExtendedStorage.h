@@ -6,20 +6,12 @@
 
 #import <UIKitCore/_UIImageViewSimpleStorage.h>
 
-@class UIImageSymbolConfiguration, UILayoutGuide, _UIImageViewAnimationProperties, _UIImageViewImageLoadingProperties, _UIImageViewImageProperties, _UIImageViewUncommonProperties;
+@class _UIImageViewImageProperties;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewExtendedStorage : _UIImageViewSimpleStorage
 {
     _UIImageViewImageProperties *_highlightedImageProperties;
-    _UIImageViewAnimationProperties *_animationProperties;
-    _UIImageViewImageLoadingProperties *_imageLoadingProperties;
-    _UIImageViewUncommonProperties *_uncommonProperties;
-    _Bool highlighted;
-    _Bool masksTemplateImages;
-    _Bool adjustsImageSizeForAccessibilityContentSizeCategory;
-    UIImageSymbolConfiguration *preferredSymbolConfiguration;
-    UILayoutGuide *imageContentGuide;
 }
 
 + (id);
@@ -27,16 +19,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)buildRequiredOnlyWithLabel:(_Bool)arg1 withFileType: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)<;
 - (id);
 - (_Bool);
 - (void);
+- (void)1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)_clampImageSize:toMaxSupportedSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -51,27 +43,27 @@ __attribute__((visibility("hidden")))
 - (id)w"24@0:8@"UITextSelectionDisplayInteraction"16 /* Error: Ran out of types for this method. */;
 - (void)nu"24;
 - (id)wipeViewManipulator>"24@0:8@"UISwipeActionController"16 /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ackground;
-- (_Bool)omInputModes: /* Error: Ran out of types for this method. */;
-- (id)AdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (_Bool)ary;
+- (id)setNeedsUpdateOfHomeIndicatorAutoHidden;
+- (id)hasCustomBackground;
+- (_Bool)filteredInputModesForSiriLanguageFromInputModes: /* Error: Ran out of types for this method. */;
+- (id)backgroundPositionAdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
+- (void)_unobscuredSecureRange;
+- (_Bool)_isTTYDictionary;
 - (long long)overrideMinimumWidth;
 - (void)ntStoryboardSegueCreator;
-- (void)lor;
+- (void)_todayTextColor;
 - (void)eImageRepresentation;
-- (id)ionSceneDeactivationManager;
-- (void)dStorageP33_1C0F8C0D03AFC671C72C2F6A6CCF61F417StoredPayloadBase;
+- (id)UIApplicationSceneDeactivationManager;
+- (void)_TtCE5UIKitCSo48_UISceneConnectionOptionDefinitionPayloadStorageP33_1C0F8C0D03AFC671C72C2F6A6CCF61F417StoredPayloadBase;
 - (void);
 - (void)er your primary view controller has been initialized.;
 - (void)þQ;
-- (id)antOnScreenOnlyUserInfoKey;
+- (id)UIKeyboardAssistantOnScreenOnlyUserInfoKey;
 - (double)"8Q16^B24;
-- (id)LoggingEnabled;
-- (id)undGradientEnd;
+- (id)UIObservationTrackingLoggingEnabled;
+- (id)UIKBColorHandwritingTransparentBackgroundGradientEnd;
 - (void)fault title of a document user activity.;
-- (void)ollerShouldDismiss;
+- (void)UIKeyboardEmojiPopoverControllerShouldDismiss;
 - (void)´hþÿ^$ÿÿ%ÿÿ¢hþÿ%ÿÿ;
 - (void);
 - (_Bool)FloatingPad;

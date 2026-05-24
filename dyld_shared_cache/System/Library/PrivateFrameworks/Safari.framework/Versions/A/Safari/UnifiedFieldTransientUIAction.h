@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldTransientUIAction
 {
     _Bool _cancelled;
-    CDUnknownBlockType _show;
-    CDUnknownBlockType _hide;
-    double _duration;
-    NSString *_actionText;
-    CDUnknownBlockType _presentBaseAssistantIcon;
 }
 
 - (void);
@@ -28,15 +21,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
-- (void)tBottomBannerContainer:(_Bool)arg1;
+- (void)setBottomBannerContainer:(_Bool)arg1;
 - (void)|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionText; // @synthesize actionText=_actionText;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) CDUnknownBlockType hide; // @synthesize hide=_hide;
-@property(copy, nonatomic) CDUnknownBlockType presentBaseAssistantIcon; // @synthesize presentBaseAssistantIcon=_presentBaseAssistantIcon;
 @property(copy, nonatomic) CDUnknownBlockType show; // @synthesize show=_show;
 
 @end

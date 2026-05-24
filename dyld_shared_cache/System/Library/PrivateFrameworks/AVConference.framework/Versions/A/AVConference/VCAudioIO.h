@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, VCAudioIOControllerClient;
 @protocol VCAudioIOControllerControl;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioIO
 {
     id <VCAudioIOControllerControl> _audioIOController;
-    VCAudioIOControllerClient *_controllerClient;
-    id _delegate;
-    id _sourceDelegate;
-    id _sinkDelegate;
-    struct tagVCAudioFrameFormat _clientFormat;
-    struct tagVCAudioFrameFormat _controllerFormat;
-    _Bool _isMuted;
-    _Bool _isGKVoiceChat;
-    _Bool _isControllerAudioFormatValid;
-    _Bool _isControllerReset;
-    struct _opaque_pthread_mutex_t _stateMutex;
-    unsigned int _state;
-    CDUnknownBlockType _startCompletionBlock;
-    CDUnknownBlockType _stopCompletionBlock;
-    struct _VCAudioEndpointData _sourceData;
-    struct _VCAudioEndpointData _sinkData;
-    unsigned int _audioType;
 }
 
 + (void);
@@ -51,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)R";
 - (unsigned int);
 - (int);
 - (_Bool);
@@ -73,41 +55,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned int);
-- (unsigned char)nabled: /* Error: Ran out of types for this method. */;
-- (void)referredAsLocalCamera;
+- (unsigned int)b2Yuv = { {%d, %d, %d}, {%d, %d, %d}, {%d, %d, %d} }
+;
+- (unsigned char)setRemoteScreenEnabled: /* Error: Ran out of types for this method. */;
+- (void)setSystemPreferredAsLocalCamera;
 - (id)audio feature disabled;
 - (void)set;
 - (_Bool)fications]_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) const struct tagVCAudioFrameFormat *clientFormat;
 @property(readonly, nonatomic) const struct tagVCAudioFrameFormat *controllerFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned char direction;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInputMeteringEnabled) _Bool inputMeteringEnabled;
-@property(nonatomic) _Bool isGKVoiceChat; // @synthesize isGKVoiceChat=_isGKVoiceChat;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_isMuted;
-@property(readonly, nonatomic) int operatingMode;
-@property(nonatomic, getter=isOutputMeteringEnabled) _Bool outputMeteringEnabled;
-@property(readonly, nonatomic) unsigned int pullAudioSamplesCount;
-@property(readonly, nonatomic) NSDictionary *reportingStats;
-@property(nonatomic, getter=isSourceMuted) _Bool sourceMuted;
-@property(nonatomic) _Bool spatialAudioDisabled;
-@property(readonly, nonatomic) unsigned int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsVoiceActivityDetection;
 
 @end
 

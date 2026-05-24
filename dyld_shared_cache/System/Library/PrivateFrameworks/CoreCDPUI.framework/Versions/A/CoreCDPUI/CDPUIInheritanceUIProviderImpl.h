@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInheritanceAccessKey, CDPUIAccessCodeEntryTextField, NSString, NSText, NSWindow, OBTemplateContainerViewController, OBTemplateView;
+@class NSWindow;
 
 @interface CDPUIInheritanceUIProviderImpl
 {
     NSWindow *_keyWindow;
-    NSWindow *_accessKeyWindow;
-    OBTemplateContainerViewController *_containerView;
-    OBTemplateView *_templateView;
-    CDUnknownBlockType _completion;
-    AKInheritanceAccessKey *_accessKey;
-    CDPUIAccessCodeEntryTextField *_accessCodeTextView;
-    NSText *_errorTextView;
 }
 
 - (void);
@@ -25,45 +18,31 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)!;
+- (id);
+- (void)l *);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)RP;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)U;
 
 // Remaining properties
-@property(retain, nonatomic) CDPUIAccessCodeEntryTextField *accessCodeTextView; // @synthesize accessCodeTextView=_accessCodeTextView;
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey; // @synthesize accessKey=_accessKey;
-@property(nonatomic) __weak NSWindow *accessKeyWindow; // @synthesize accessKeyWindow=_accessKeyWindow;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) OBTemplateContainerViewController *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSText *errorTextView; // @synthesize errorTextView=_errorTextView;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSWindow *keyWindow; // @synthesize keyWindow=_keyWindow;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

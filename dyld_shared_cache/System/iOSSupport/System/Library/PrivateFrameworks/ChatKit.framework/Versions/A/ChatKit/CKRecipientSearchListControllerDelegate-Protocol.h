@@ -5,5 +5,9 @@
 //
 
 @protocol CKRecipientSearchListControllerDelegate
+- (void)progressWindowController;
+- (void)progressText;
+- (long long)progressLabel;
+- (void)progressIndicatorTrackerStartAnimation;
 @end
 

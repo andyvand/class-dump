@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSLocalGlobalPreferenceTransition
 {
     unsigned long long _overlaySpaceID;
-    NSArray *_overlays;
 }
 
 + (id);
-- (id);
+- (id):8^{__CFURLStorageSession=}16 /* Error: Ran out of types for this method. */;
+- (void)setBytesPerSecondLimit:forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void)ÁÝ<þ@;
 
 @end

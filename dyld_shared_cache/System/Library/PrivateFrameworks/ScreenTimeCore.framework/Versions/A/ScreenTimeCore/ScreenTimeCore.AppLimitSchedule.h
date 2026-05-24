@@ -9,24 +9,21 @@
 @interface ScreenTimeCore.AppLimitSchedule
 {
     ScreenTimeCore.Schedule *schedule;
-    double allowedTime;
 }
 
 + (void);
 + (_Bool);
-- (id);
-- (double);
+- (id)AULT 0;
+- (double)g_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, analysis_inhibit_flags INTEGER NOT NULL DEFAULT 0, audio_fingerprint INTEGER NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0, is_rental INTEGER NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, has_alternate_audio INTEGER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, is_hd INTEGER NOT NULL DEFAULT 0, season_number INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, subtitle_track_id INTEGER NOT NULL DEFAULT 0, episode_id TEXT NOT NULL DEFAULT '', network_name TEXT NOT NULL DEFAULT '', extended_content_rating TEXT NOT NULL DEFAULT '', movie_info TEXT NOT NULL DEFAULT '', bit_rate INTEGER NOT NULL DEFAULT 0, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, jalisco_token INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, format TEXT, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, has_video INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, has_chapter_data INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0;
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)delPropertyPodcastEpisodeItemType;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) double allowedTime; // @synthesize allowedTime;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) ScreenTimeCore.Schedule *schedule; // @synthesize schedule;
 
 @end

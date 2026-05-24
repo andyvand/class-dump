@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)#;
+- (void)ayoutConstraint",&,N,V_windowWidth;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) DMFBook *book; // @synthesize book=_book;

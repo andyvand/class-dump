@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegularExpression, NSString;
+@class NSRegularExpression;
 
 @interface PPRegexModel
 {
     NSRegularExpression *_regex;
-    NSString *_inputName;
-    NSString *_outputName;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)0@ù
 × ;

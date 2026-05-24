@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class __CFN_PathPolicyManager;
-
 __attribute__((visibility("hidden")))
 @interface __CFN_CoalescingDomainHolder
 {
     struct CoalescingDomain _coalescingDomain;
-    __CFN_PathPolicyManager *_pathPolicyManager;
 }
 
-- (void);
+- (void)daletpatah;
 - (id);
-- (id);
+- (id)Shape:{%4g,%4g,%4g,%4g}
+ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

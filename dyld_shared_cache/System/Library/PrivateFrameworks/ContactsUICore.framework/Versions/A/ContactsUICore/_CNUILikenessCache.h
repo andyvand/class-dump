@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNUnfairLock, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface _CNUILikenessCache
 {
     NSObject<OS_dispatch_source> *_memoryMonitoringSource;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    CNCache *_cache;
-    CNUnfairLock *_lock;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void));
+- (void)T7;
+- (void)k;
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -29,17 +26,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@"<CNPhotoLikenessEditorCameraViewDelegate>",R,W,N,V_delegate;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)CNAvatarCacheChangeListenerDelegate>";
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;
-@property(retain, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *memoryMonitoringSource; // @synthesize memoryMonitoringSource=_memoryMonitoringSource;
 
 @end

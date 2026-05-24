@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol SOLabeledElementsOverlayControllerProtocol
+- (NSArray *);
 
 // Remaining properties
-@property(readonly) _Bool isActive;
 @property(readonly) NSArray *labeledElements;
 @end
 

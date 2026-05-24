@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureDeviceInput;
+
 @protocol AVExternalSyncDeviceDeviceNotificationDelegate
+- (void)_createQuicConnection;
+- (void)_connectionStateDidChangeWithError:(unsigned int)arg1;
+- (void)_closeOnStop;
+- (void)_checkEntitlement:(unsigned int)arg1 inGroup:(unsigned int)arg2 shouldLogForMissingEntitlement: /* Error: Ran out of types for this method. */;
+- (void)_bundleID;
+- (void)_bindVariantArray:(AVCaptureDeviceInput *)arg1 length:(_Bool)arg2 toParameterNamed: /* Error: Ran out of types for this method. */;
+- (void)_bindCStringArray:(int)arg1 length:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (void)_bindCStringArray:(struct OpaqueCMClock *)arg1 length:toParameterAtIndex: /* Error: Ran out of types for this method. */;
+- (void)cancelled;
 @end
 

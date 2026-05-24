@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSEventObserver
 {
     unsigned long long _mask;
-    id _block;
 }
 
 - (id);

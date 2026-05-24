@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListValueHelperScope, NSString;
 @protocol CNContactPickerInternalResponseDelegate;
 
 @interface CNContactListSelectValueHelper
 {
     id <CNContactPickerInternalResponseDelegate> _delegate;
-    CNContactListValueHelperScope *_scope;
 }
 
 - (void);
@@ -19,13 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

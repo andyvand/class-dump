@@ -10,18 +10,18 @@ __attribute__((visibility("hidden")))
     long long _type;
 }
 
-+ (id);
++ (id)c;
 + (_Bool);´ÅÁ;
 - (id);
-- (id);
+- (id)i(8h;
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
 - (void);
-- (id)ntWithModelID:(struct _NSZone *)arg1;
+- (id)findEventsRelationOfTypeCharacteristicRangeEventWithModelID:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

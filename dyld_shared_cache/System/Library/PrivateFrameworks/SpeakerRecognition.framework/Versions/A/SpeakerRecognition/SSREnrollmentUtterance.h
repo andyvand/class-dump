@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface SSREnrollmentUtterance
 {
     _Bool _isExplicit;
-    NSURL *_enrollmentUtteranceUrl;
-    unsigned long long _triggerPhrase;
-    NSDate *_approximateGenerationDate;
-    NSString *_productVersion;
-    NSString *_productType;
 }
 
 - (void);
@@ -28,12 +23,7 @@
 - (id)numSamples:%lu numChannel:%lu sampleDepthInBytes:%lu sampleCount:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *approximateGenerationDate; // @synthesize approximateGenerationDate=_approximateGenerationDate;
 @property(readonly, nonatomic) NSURL *enrollmentUtteranceUrl; // @synthesize enrollmentUtteranceUrl=_enrollmentUtteranceUrl;
-@property(readonly, nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(readonly, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly, nonatomic) unsigned long long triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
 
 @end
 

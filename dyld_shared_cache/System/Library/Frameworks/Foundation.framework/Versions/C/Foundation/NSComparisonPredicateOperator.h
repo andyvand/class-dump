@@ -9,7 +9,6 @@
 @interface NSComparisonPredicateOperator : NSPredicateOperator
 {
     unsigned long long _variant;
-    unsigned long long _options;
 }
 
 + (_Bool):([0-9]*)|\*)? /* Error: Ran out of types for this method. */;

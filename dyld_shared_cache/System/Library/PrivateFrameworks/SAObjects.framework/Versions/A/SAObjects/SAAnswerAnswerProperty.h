@@ -16,24 +16,15 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)issing from output symbol table ";
 - (id);
-- (id);
-- (id);
+- (id)4;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
-@property(copy, nonatomic) NSString *valueAnnotation;
 
 @end
 

@@ -15,7 +15,6 @@
 + (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly, nonatomic) double angle; // @dynamic angle;
 @property(readonly, nonatomic) SXJSONArray *colorStops; // @dynamic colorStops;
 
 @end

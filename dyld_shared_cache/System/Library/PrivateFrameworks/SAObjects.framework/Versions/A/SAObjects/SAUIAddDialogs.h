@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSNumber, NSString, SAUIListenAfterSpeakingBehavior, SAUIRequestEndBehavior;
+@class NSArray;
 
 @interface SAUIAddDialogs : SABaseClientBoundCommand
 {
@@ -15,9 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *dialogs;
-@property(copy, nonatomic) NSNumber *listenAfterSpeaking;
-@property(retain, nonatomic) SAUIListenAfterSpeakingBehavior *listenAfterSpeakingBehavior;
-@property(retain, nonatomic) SAUIRequestEndBehavior *requestEndBehavior;
-@property(copy, nonatomic) NSString *responseMode;
 @end
 

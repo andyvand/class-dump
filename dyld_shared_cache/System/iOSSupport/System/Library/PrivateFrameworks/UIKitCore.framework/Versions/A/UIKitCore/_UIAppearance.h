@@ -4,57 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, _UIAppearanceCustomizableClassInfo;
+@class NSArray, _UIAppearanceCustomizableClassInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIAppearance
 {
     NSArray *_containerList;
-    NSMutableArray *_appearanceInvocations;
-    NSMapTable *_invocationSources;
-    _UIAppearanceCustomizableClassInfo *_customizableClassInfo;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 + (void);
-+ (void);
++ (void)importSubscriptionAlbumArtworkForPersistentID:(id)arg1 artworkVariantType:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
++ (id)C;
 + (id)1Â0@ù
 × ;
 + (void)!ÌGù]°1Â0@ù
 × ;
 + (void)nceAnimation";
 + (void)iew"16@"UIBarButtonItem"24;
-+ (id);
-+ (void)tionWithPoint:(id)arg1;
++ (id)leftViewRectForBounds:(id)arg1;
++ (void)commitSelectionWithPoint:(id)arg1;
 + (id)C,V_presentedItemURL;
 + (id);
 + (id)ðT;
 + (void)c file %@:(id)arg1 %@;
 + (id). state = %lu is interpreted as UIControlStateHighlighted.;
 + (void)SheetHostManagerProvider.;
-+ (id)ed;
++ (id)KeyboardCachingDisabled;
 + (void)?];
 + (id);
 + (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)turn receipt for success_code %d. sig:%s ref:%s len:%llu /* Error: Ran out of types for this method. */;
 - (id);
 - (id)1Â0@ù
 × ;
 - (void)!ÌAù_1Â0@ù
 × ;
 - (SEL)dIsValid"b1"_deliversUpdatesInTouchesMoved"b1"_isPredictedTouch"b1"_didDispatchAsEnded"b1"_isPointerTouch"b1};
-- (void)hEvent:(id)arg1 inContentView:(unsigned long long)arg2;
-- (void)Rotation;
-- (void)ionRangeView;
+- (void)touchesShouldBegin:(id)arg1 withEvent:(unsigned long long)arg2 inContentView: /* Error: Ran out of types for this method. */;
+- (void)rectOfInterestForRotation;
+- (void)_UITextSelectionRangeView;
 - (id)P.îÿFþÿ;
-- (_Bool)ContentView;
+- (_Bool)renamingContentView;
 - (void)ÿÿ;
 - (_Bool)¸ÿl;
 

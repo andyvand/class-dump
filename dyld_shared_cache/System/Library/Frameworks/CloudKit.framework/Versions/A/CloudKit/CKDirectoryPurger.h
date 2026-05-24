@@ -9,23 +9,19 @@
 @interface CKDirectoryPurger
 {
     CDUnknownBlockType _shouldSkipFileBlock;
-    CDUnknownBlockType _shouldRemoveFileBlock;
-    NSArray *_urls;
 }
 
-+ (void);
++ (void)!;
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)nCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)setPerSubscriptionCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType shouldRemoveFileBlock; // @synthesize shouldRemoveFileBlock=_shouldRemoveFileBlock;
-@property(copy, nonatomic) CDUnknownBlockType shouldSkipFileBlock; // @synthesize shouldSkipFileBlock=_shouldSkipFileBlock;
 @property(readonly, copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end

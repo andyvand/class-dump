@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSBatchIDQueryController, NSMenu, NSMutableDictionary, NSString, SOChatDisplayController;
+@class IDSBatchIDQueryController;
 
 @interface SOHandleMenuController
 {
     IDSBatchIDQueryController *_batchIDQueryController;
-    NSMutableDictionary *_iMessageIDSIDToMenuItemDictionary;
-    NSMutableDictionary *_smsIDSIDToMenuItemDictionary;
-    NSMutableDictionary *_knownIDSIDStatus;
-    _Bool _hideAlternateHandles;
-    _Bool _showingMenu;
-    _Bool _includeHandleAlternatives;
-    NSMenu *_menu;
-    CDUnknownBlockType _handleBlock;
-    SOChatDisplayController *_chatDisplayController;
 }
 
-+ (id);
++ (id)=n ha,7;
 - (_Bool);
 - (void);
 - (void);
@@ -43,10 +34,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ectionMethods;
 - (void);
 - (void);
 - (id);
@@ -57,19 +48,7 @@
 - (void);
 
 // Remaining properties
-@property __weak SOChatDisplayController *chatDisplayController; // @synthesize chatDisplayController=_chatDisplayController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType handleBlock; // @synthesize handleBlock=_handleBlock;
-@property(readonly) unsigned long long hash;
-@property _Bool hideAlternateHandles; // @synthesize hideAlternateHandles=_hideAlternateHandles;
-@property _Bool includeHandleAlternatives; // @synthesize includeHandleAlternatives=_includeHandleAlternatives;
-@property(retain) NSMenu *menu; // @synthesize menu=_menu;
 @property _Bool showingMenu; // @synthesize showingMenu=_showingMenu;
-@property(readonly) Class superclass;
 
 @end
 

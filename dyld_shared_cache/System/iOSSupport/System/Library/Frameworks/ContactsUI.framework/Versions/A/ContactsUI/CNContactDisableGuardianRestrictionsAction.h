@@ -6,13 +6,12 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContactStore, CNContainer;
+@class CNContainer;
 
 __attribute__((visibility("hidden")))
 @interface CNContactDisableGuardianRestrictionsAction : CNContactAction
 {
     CNContainer *_container;
-    CNContactStore *_contactStore;
 }
 
 - (id);
@@ -20,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id)thContactStore:contact:avatarProvider:nameProvider:sharingEnabled:selectedSharingAudience:showsWallpaperSuggestionsGalleryPicker:headerMode:presentedInOnboarding: /* Error: Ran out of types for this method. */;
+- (id)initWithContactStore:contact:avatarProvider:nameProvider:sharingEnabled:selectedSharingAudience:showsWallpaperSuggestionsGalleryPicker:headerMode:presentedInOnboarding: /* Error: Ran out of types for this method. */;
 - (void)nnel;
 - (id)$×#Ó;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(readonly, nonatomic) CNContainer *container; // @synthesize container=_container;
 
 @end

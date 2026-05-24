@@ -4,59 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol RedEyeInspector3;
 
 __attribute__((visibility("hidden")))
 @interface CIRedEyeRepair3
 {
     id <RedEyeInspector3> inspector;
-    CDStruct_c3faddef fullBitmap;
-    CDStruct_5973fb4f subRectangle;
-    CDStruct_7286a259 FC;
-    NSArray *faceArray;
-    CDStruct_c3faddef faceBitmap;
-    CDStruct_242bf05f S;
-    struct {
-        int width;
-        int height;
-        struct CGAffineTransform T;
-        struct CGAffineTransform Tp;
-        CDStruct_c3faddef O;
-        CDStruct_c3faddef OO;
-        _Bool computeEyePolygon;
-        CDStruct_c3faddef EP;
-        _Bool maskRender;
-        CDStruct_c3faddef D;
-        _Bool computeGradient;
-        CDStruct_c3faddef G;
-        CDStruct_c3faddef M;
-        _Bool computeShine;
-        CDStruct_c3faddef S;
-        CDStruct_c3faddef P;
-    } PB;
-    CDStruct_ea27cb70 G;
-    CDStruct_3882bc9d M;
-    CDStruct_fc6961d5 FS;
-    int printFaceArrayLevel;
-    struct CGRect ROIRect;
-    float avgLuminance;
-    float minLuminance;
-    float maxLuminance;
-    float skinval;
-    int ioffx;
-    int ioffy;
-    int erError;
-    NSMutableArray *repairs;
-    CDStruct_5973fb4f repairRect;
-    CDStruct_c3faddef repairMap;
-    NSMutableArray *failureCauses;
 }
 
 + (float);
 + (struct CGRect);
 + (struct CGRect);
-+ (CDStruct_242bf05f);
++ (CDStruct_b15faee2);
 + (void);
 + (void);
 + (int);
@@ -72,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (float);
-- (void);
+- (float)h;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,11 +41,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (int);
 - (int);
 - (CDStruct_a734b2e2);
-- (CDStruct_c3faddef *);
+- (CDStruct_3c792436 *);
 - (void);
 - (int);
 - (id);
@@ -97,12 +56,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (int);
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -115,47 +74,47 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (int);
-- (int);
+- (int);
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (struct CGAffineTransform);
 - (int);
-- (id);
+- (id)#;
 - (int);
 - (int);
 - (_Bool);
-- (void);
+- (void)@;
 - (int);
 - (_Bool);
-- (CDStruct_a734b2e2);
+- (CDStruct_a734b2e2)ޗ;
 - (struct CGPoint);
 - (struct CGPoint);
 - (int);
 - (_Bool);
 - (void);
 - (void);
-- (CDStruct_fc6961d5);
+- (CDStruct_cdff19b3);
 - (int);
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct CGPoint);
 - (id);
 - (id);
 - (id);
+- (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)_;
 - (int);
 - (void);
 - (void);
-- (int);
+- (int)6;
 - (int);
 - (struct CGPoint);
 - (CDStruct_a734b2e2);
@@ -171,7 +130,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (struct CGPoint);
-- (int);
+- (int)@;
 - (struct CGPoint);
 - (CDStruct_818bb265);
 - (void);

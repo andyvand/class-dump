@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceSuggestionResult, GEOPDPlaceSummaryLayoutMetadata, NSArray, NSMutableDictionary;
+@class GEOPDPlaceSuggestionResult, NSArray;
 
 @interface GEOPlaceSuggestionResult
 {
     GEOPDPlaceSuggestionResult *_placeSuggestionResult;
-    NSMutableDictionary *_mapsResults;
-    NSArray *_geoMapItems;
-    NSArray *_placeSuggestions;
 }
 
 - (id);
@@ -20,18 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (long long)stanceToDestination;
+- (long long)distanceToDestination;
 - (id);
 - (long long)hØ
 ;
 - (void)ª(^emÇK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPlaceItems;
-@property(readonly, nonatomic) long long layoutType;
 @property(readonly, nonatomic) NSArray *placeSuggestions; // @synthesize placeSuggestions=_placeSuggestions;
-@property(readonly, nonatomic) GEOPDPlaceSummaryLayoutMetadata *placeSummaryLayoutMetadata;
-@property(readonly, nonatomic) long long resultType;
 
 @end
 

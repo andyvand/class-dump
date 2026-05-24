@@ -5,5 +5,6 @@
 //
 
 @protocol FileTransferIconLoaderDelegate
+- (void)T;
 @end
 

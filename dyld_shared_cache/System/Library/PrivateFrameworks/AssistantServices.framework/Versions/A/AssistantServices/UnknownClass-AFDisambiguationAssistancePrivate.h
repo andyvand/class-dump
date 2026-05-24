@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDisambiguationInfo, NSData;
+@class NSData;
 
 @interface UnknownClass (AFDisambiguationAssistancePrivate)
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)џ-;
+- (id)Tk!;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *af_disambiguationIdentifier;
-@property(retain, nonatomic, setter=af_setDisambiguationInfo:) AFDisambiguationInfo *af_disambiguationInfo;
 @end
 

@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, TBDataSourceMediator, WiFi3BarsTileCacheObserver;
+@class TBDataSourceMediator;
 
 @interface WiFi3BarsTileFetcher
 {
     TBDataSourceMediator *_dataSourceMediator;
-    unsigned long long _lastFetchedKey;
-    WiFi3BarsTileCacheObserver *_tileCacheObserver;
-    NSXPCConnection *_connectionToService;
 }
 
-- (void);
-- (void);
+- (void)v;
+- (void)refreshAccessControlListForAlbumWithGUID:(id)arg1 info: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)9;
+- (void)%@;
 - (void)
 × ;
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connectionToService; // @synthesize connectionToService=_connectionToService;
 @property(retain, nonatomic) TBDataSourceMediator *dataSourceMediator; // @synthesize dataSourceMediator=_dataSourceMediator;
-@property(nonatomic) unsigned long long lastFetchedKey; // @synthesize lastFetchedKey=_lastFetchedKey;
-@property(retain, nonatomic) WiFi3BarsTileCacheObserver *tileCacheObserver; // @synthesize tileCacheObserver=_tileCacheObserver;
 
 @end
 

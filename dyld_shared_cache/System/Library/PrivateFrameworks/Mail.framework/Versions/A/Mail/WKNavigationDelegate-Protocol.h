@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKWebView;
+
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void)
+;
+- (void)@;
+- (void)#`;
+- (void);
+- (void)K;
+- (void)setContactsProviderHandler:(WKWebView *)arg1;
 @end
 

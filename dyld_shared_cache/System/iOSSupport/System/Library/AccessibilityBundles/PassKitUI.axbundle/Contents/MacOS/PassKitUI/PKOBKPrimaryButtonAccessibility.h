@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)esultItem.resultItem;
 + (void);
-- (_Bool);
+- (_Bool).dylib;
 - (id);
 - (unsigned long long);
 - (id);

@@ -11,9 +11,9 @@
     NSMutableArray *_materials;
 }
 
-+ (Class);
++ (Class);
 - (id);
-- (void);
+- (void)t;
 - (id);
 - (id);
 - (void);
@@ -21,11 +21,12 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)updateFromAttributeDict:(id)arg1;
+- (void)d/%3d, I/N/F %3d/%3d/%3d:(id)arg1 %s
+;
+- (id)@;
 - (id);
 - (void), adjustedQualityScore: /* Error: Ran out of types for this method. */;
 

@@ -11,26 +11,24 @@
 @interface ASDPassthroughProperty : ASDCustomProperty
 {
     ASDObject *_underlyingObject;
-    struct AudioObjectPropertyAddress _propertyAddress;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (id)[@�;
 - (id);
-- (id);
-- (id);
+- (id).;
 - (id);
 - (_Bool);
 - (unsigned int);
 - (struct AudioObjectPropertyAddress);
 - (void);
-- (id);
+- (id)ating a language change.  Going to exit to pick up new locale support;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct AudioObjectPropertyAddress propertyAddress; // @synthesize propertyAddress=_propertyAddress;
 @property(nonatomic) __weak ASDObject *underlyingObject; // @synthesize underlyingObject=_underlyingObject;
 
 @end

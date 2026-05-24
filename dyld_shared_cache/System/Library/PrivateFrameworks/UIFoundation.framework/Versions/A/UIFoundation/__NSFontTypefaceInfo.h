@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFontDescriptor, NSMapTable;
+@class NSFontDescriptor;
 
 @interface __NSFontTypefaceInfo
 {
     NSFontDescriptor *_normalizedFontDescriptor;
-    NSMapTable *_liveInstances[3];
-    struct __CFString *_postscriptName;
-    struct __CFString *_familyName;
-    struct CGSize *_verticalOriginDeltaCache;
-    unsigned long long _hash;
-    struct {
-        unsigned int _isSymbol:1;
-        unsigned int _isDingbats:1;
-        unsigned int _isDefaultFixedPitch:1;
-        unsigned int _needValidation:1;
-        unsigned int _hasVerticalMetrics:2;
-        unsigned int _isSystemFont:1;
-        unsigned int _reserved:25;
-    } _tiFlags;
 }
 
 + (id);
++ (id))x)	;
 + (id);
-+ (id);
-+ (void)stToLocation:visualDirection:matchLocation: /* Error: Ran out of types for this method. */;
++ (void)caretPositionClosestToLocation:visualDirection:matchLocation: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct __CTFont *);
 - (id);
@@ -41,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);

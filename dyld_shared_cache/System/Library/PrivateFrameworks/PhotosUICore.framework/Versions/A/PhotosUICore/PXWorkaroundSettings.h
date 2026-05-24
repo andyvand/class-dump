@@ -9,20 +9,10 @@
 @interface PXWorkaroundSettings : PXSettings
 {
     _Bool _shouldWorkAround53118165;
-    _Bool _shouldWorkAround92398340;
-    _Bool _shouldWorkAround102440195;
-    _Bool _shouldWorkAround104295292;
-    _Bool _shouldWorkAround128269285;
-    _Bool _shouldWorkAround133571598;
-    _Bool _shouldWorkAround139627593;
-    _Bool _shouldWorkAround148760530;
-    _Bool _shouldWorkAround152038050;
-    long long _workAround128798032;
-    double _workAround156719235Value;
 }
 
-+ (id);
-+ (id)e;
++ (id)ortException;
++ (id)PXSensitivityAnalysisType;
 - (double);
 - (long long);
 - (_Bool);
@@ -36,7 +26,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -46,21 +36,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)W,N,V_parentLayoutBlueprint;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldWorkAround102440195; // @synthesize shouldWorkAround102440195=_shouldWorkAround102440195;
-@property(nonatomic) _Bool shouldWorkAround104295292; // @synthesize shouldWorkAround104295292=_shouldWorkAround104295292;
-@property(nonatomic) _Bool shouldWorkAround128269285; // @synthesize shouldWorkAround128269285=_shouldWorkAround128269285;
-@property(nonatomic) _Bool shouldWorkAround133571598; // @synthesize shouldWorkAround133571598=_shouldWorkAround133571598;
-@property(nonatomic) _Bool shouldWorkAround139627593; // @synthesize shouldWorkAround139627593=_shouldWorkAround139627593;
-@property(nonatomic) _Bool shouldWorkAround148760530; // @synthesize shouldWorkAround148760530=_shouldWorkAround148760530;
-@property(nonatomic) _Bool shouldWorkAround152038050; // @synthesize shouldWorkAround152038050=_shouldWorkAround152038050;
 @property(nonatomic) _Bool shouldWorkAround53118165; // @synthesize shouldWorkAround53118165=_shouldWorkAround53118165;
-@property(nonatomic) _Bool shouldWorkAround92398340; // @synthesize shouldWorkAround92398340=_shouldWorkAround92398340;
-@property(nonatomic) long long workAround128798032; // @synthesize workAround128798032=_workAround128798032;
-@property(nonatomic) double workAround156719235Value; // @synthesize workAround156719235Value=_workAround156719235Value;
 
 @end
 

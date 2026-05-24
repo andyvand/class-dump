@@ -6,29 +6,27 @@
 
 #import <AvatarUI/AVTAttributeValueView.h>
 
-@class NSArray, UIView;
+@class UIView;
 
 @interface AVTColorWheelView : AVTAttributeValueView
 {
     UIView *_containerView;
-    NSArray *_circleViews;
 }
 
 + (id);
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (struct CGPoint);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
-- (void);
+- (void)uct;
 - (id)onsumerDelegate>"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *circleViews; // @synthesize circleViews=_circleViews;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
 
 @end

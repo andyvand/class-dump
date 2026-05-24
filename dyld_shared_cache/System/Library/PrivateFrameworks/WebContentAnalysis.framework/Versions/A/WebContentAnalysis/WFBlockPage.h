@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface WFBlockPage
 {
     NSURL *pageTemplateURL;
-    _Bool isWhitelistBlock;
-    _Bool isNetworkAccount;
-    NSString *userVisibleURLString;
-    NSString *formPostToURLString;
-    NSString *formRestrictedPageURLString;
-    NSString *formRestrictedPageTitle;
-    NSArray *allowedWebSites;
-    NSString *preferredLanguage;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -38,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -46,13 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *allowedWebSites; // @synthesize allowedWebSites;
-@property(retain) NSString *formPostToURLString; // @synthesize formPostToURLString;
-@property(retain) NSString *formRestrictedPageTitle; // @synthesize formRestrictedPageTitle;
-@property(retain) NSString *formRestrictedPageURLString; // @synthesize formRestrictedPageURLString;
-@property(readonly) _Bool isWhitelistBlock; // @synthesize isWhitelistBlock;
 @property(readonly) NSURL *pageTemplateURL; // @synthesize pageTemplateURL;
-@property(retain) NSString *userVisibleURLString; // @synthesize userVisibleURLString;
 
 @end
 

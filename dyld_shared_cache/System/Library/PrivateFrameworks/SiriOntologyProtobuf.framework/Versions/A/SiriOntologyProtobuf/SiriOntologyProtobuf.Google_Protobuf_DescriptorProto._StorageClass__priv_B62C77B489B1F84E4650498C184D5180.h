@@ -7,15 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_DescriptorProto._StorageClass__priv_B62C77B489B1F84E4650498C184D5180
 {
     id _name;
-    id _field;
-    id _extension;
-    id _nestedType;
-    id _enumType;
-    id _extensionRange;
-    id _oneofDecl;
-    id _options;
-    id _reservedRange;
-    id _reservedName;
 }
 
 @end

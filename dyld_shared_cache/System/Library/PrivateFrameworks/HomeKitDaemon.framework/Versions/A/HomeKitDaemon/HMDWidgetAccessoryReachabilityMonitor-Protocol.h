@@ -5,5 +5,6 @@
 //
 
 @protocol HMDWidgetAccessoryReachabilityMonitor
+- (void);
 @end
 

@@ -5,15 +5,10 @@
 //
 
 @class NSManagedObjectContext, NSNotificationCenter;
-@protocol CNCDManagedObjectContextSaveListenerDelegate;
 
 @interface CNCDManagedObjectContextSaveListener
 {
     NSManagedObjectContext *_context;
-    id <CNCDManagedObjectContextSaveListenerDelegate> _delegate;
-    NSNotificationCenter *_notificationCenter;
-    id _willSaveToken;
-    id _didSaveToken;
 }
 
 - (id);
@@ -25,17 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BackgroundProcessing_DASPoliciesBlockingCriteria_24_5;
 - (void);
 - (id);
-- (void)OrphanPropertiesForEntityNamed: /* Error: Ran out of types for this method. */;
+- (void)migrateOrphanPropertiesForEntityNamed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly) __weak id <CNCDManagedObjectContextSaveListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) id didSaveToken; // @synthesize didSaveToken=_didSaveToken;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) id willSaveToken; // @synthesize willSaveToken=_willSaveToken;
 
 @end
 

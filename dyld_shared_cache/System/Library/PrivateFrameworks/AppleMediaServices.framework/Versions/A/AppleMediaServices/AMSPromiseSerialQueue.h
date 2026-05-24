@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AMSPromiseSerialQueue
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_items;
-    _Bool _processing;
 }
 
 - (id);

@@ -10,27 +10,25 @@ __attribute__((visibility("hidden")))
 @interface AVScheduledFloatValueRamp : AVScheduledParameterRamp
 {
     float _startValue;
-    float _endValue;
 }
 
 + (id);
 + (float);
 + (float);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_recognizeEmojiInString:alternativesOut:persistEmoji: /* Error: Ran out of types for this method. */;
+- (id)})}}{basic_string<char, std:(CDStruct_1b6d18a9)arg1:char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)_EARLmLoader2;
+- (id);
 - (float);
 - (long long);
 - (id);
 - (float);
 - (float);
 - (id);
-- (id)amSession;
+- (id)_legacyStreamSession;
 
 // Remaining properties
-@property(readonly) float endFloatValue;
 @property(readonly) float startFloatValue;
 
 @end

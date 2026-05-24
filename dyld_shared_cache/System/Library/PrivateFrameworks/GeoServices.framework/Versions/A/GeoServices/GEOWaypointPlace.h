@@ -4,59 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapRegion, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWaypointPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_center;
-    GEOMapRegion *_mapRegion;
-    NSMutableArray *_roadAccessPoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_center:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_roadAccessPoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)sources:(id)arg1;
++ (Class),R,N,V_scheduler;
++ (_Bool)setOnscreenImageResources:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)setMonth: /* Error: Ran out of types for this method. */;
+- (void)actionsByProperty;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)setSecondChanceContext:(id)arg1;
+- (id).ma.new-asset-installed;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)MKLookAroundViewWillMoveToStorefront;
 - (_Bool);
 - (id);
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)unt;
+- (id)inlierSuccessIndicesCount;
 - (id)V_travelSections;
-- (void)OR_TYPE_NO_NETWORK;
+- (void)ERROR_TYPE_NO_NETWORK;
 - (id)25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8;
 - (void)nterpretedOption*	è"
 EnumOptions
@@ -81,12 +67,7 @@ deprecated! (:false_
 IDEMPOTENCY_UNKNOWN /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *center;
 @property(readonly, nonatomic) _Bool hasCenter;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(retain, nonatomic) NSMutableArray *roadAccessPoints;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

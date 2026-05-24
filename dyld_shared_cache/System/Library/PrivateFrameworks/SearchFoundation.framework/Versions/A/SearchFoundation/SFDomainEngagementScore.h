@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
-
 @interface SFDomainEngagementScore
 {
     struct {
         unsigned int domain:1;
     } _has;
-    int _domain;
-    NSNumber *_scoreConfidence;
-    NSNumber *_score;
-    NSNumber *_iFunScore;
 }
 
 + (_Bool);
@@ -24,13 +18,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)sdk_addItemWithSagaID:(id)arg1 toPlaylistWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
+- (_Bool)dentifier=%@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)texttone:(id)arg1 Hello;
 - (id);
-- (id);
+- (id)PHQueryForAssetInAlbumKind_ConversationAlbum_block_invoke_37;
 - (id);
 - (id);
 - (int);
@@ -39,19 +33,7 @@
 - (void)ance;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *iFunScore; // @synthesize iFunScore=_iFunScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(copy, nonatomic) NSNumber *scoreConfidence; // @synthesize scoreConfidence=_scoreConfidence;
-@property(readonly) Class superclass;
 
 @end
 

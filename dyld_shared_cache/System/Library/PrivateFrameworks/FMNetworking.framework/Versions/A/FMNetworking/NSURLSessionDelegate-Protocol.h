@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)a;
+- (void)MapsSuggestionsEntryTypeRecentHistory;
 @end
 

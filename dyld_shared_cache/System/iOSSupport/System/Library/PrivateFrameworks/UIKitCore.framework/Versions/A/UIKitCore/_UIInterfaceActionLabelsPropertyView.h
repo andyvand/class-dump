@@ -6,51 +6,36 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIInterfaceAction, UILabel;
+@class NSLayoutConstraint, UIInterfaceAction;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionLabelsPropertyView : UIView
 {
     NSLayoutConstraint *_leadingLabelLeadingConstraint;
-    NSLayoutConstraint *_leadingLabelVerticalPositionConstraint;
-    NSLayoutConstraint *_trailingLabelTrailingConstraint;
-    NSLayoutConstraint *_trailingLabelVerticalPositionConstraint;
-    NSLayoutConstraint *_interLabelSpacingConstraint;
-    UILabel *_classificationLabel;
-    UILabel *_titleLabel;
-    NSArray *_labelConstraints;
-    UIInterfaceAction *_action;
 }
 
+- (void)saveT2UpdatesOperationFactory:(id)arg1 token:(id)arg2 batchSize:recordNameToRowIDMap:activity: /* Error: Ran out of types for this method. */;
+- (void)vity:(id)arg1;
+- (void);
+- (void));
+- (id)d to present spam filtering debug UI with error:%@ /* Error: Ran out of types for this method. */;
+- (id)s not replicated.;
+- (void)%@;
+- (id)sociated with group chat %@ is a chat guid %@. This is never expected!;
+- (void)pts cannot be sent for messages not from self (%@), receipt was sent from (%@);
+- (void)QOI:%{BOOL}d wantsReceipt:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)rimaryViewControllerForExpandingSplitViewController:(id)arg1;
+- (id)primaryViewControllerForExpandingSplitViewController:(id)arg1;
 - (id)EdgeInsets=dddd},N,G_cropInsets,S_setCropInsets: /* Error: Ran out of types for this method. */;
 - (id)ÄÐèÿèÐèÿÑèÿ0ÑèÿHÑèÿÑèÿ¸ÑèÿÜÑèÿ`ÒèÿÒèÿÈÒèÿÖèÿPÖèÿhÖèÿÖèÿÀÖèÿôÖèÿ×èÿd×èÿ×èÿ¸×èÿ ÜèÿÜÜèÿàèÿ¤àèÿlãèÿäèÿääèÿ0åèÿHåèÿåèÿæèÿ@æèÿìæèÿ(çèÿLçèÿpçèÿ¼çèÿÈçèÿÌèèÿ0éèÿDêèÿêèÿíèÿ;
 - (void)%s;
 - (id)tations will soon be required.;
-- (id)ntrolAddGlass;
+- (id)UIControlAddGlass;
 - (void)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

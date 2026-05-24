@@ -13,7 +13,7 @@
     NSString *_sender;
 }
 
-- (id);
+- (id)d %@(%p) decryptMessageWithMKI:(id)arg1 message='%@' is too long (%d > %d);
 - (id);
 - (void)TÚ;
 

@@ -12,16 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _UISEBackProjectEdgesFailGestureFeature : _UISEGestureFeature
 {
     id <_UISEGestureFeatureSettings> _settings;
-    _Bool _hasDoneTest;
-    struct CGPoint _initialLocation;
-    double _initialTimestamp;
-    unsigned long long _touchedEdges;
 }
 
-- (id);
+- (id)__MPModelPropertyFileAssetTraits__MAPPING_MISSING__;
 - (void);
 - (unsigned long long) ;
-- (id);
+- (id)So25UISpringLoadedInteractionCSg;
 - (void)¿©;
 
 // Remaining properties

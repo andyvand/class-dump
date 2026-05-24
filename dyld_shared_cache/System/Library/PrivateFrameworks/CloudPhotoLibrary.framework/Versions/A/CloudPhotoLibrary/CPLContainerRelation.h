@@ -9,19 +9,17 @@
 @interface CPLContainerRelation
 {
     _Bool _keyAsset;
-    NSString *_containerIdentifier;
-    long long _position;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ntifier=%@ name=%@ likelihood=%f detectedEventTypes=%@ cardType=%@ linkType=%@;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (long long)ð£©à;
-- (_Bool)#ÕôO¾©ý{©ýC;
+- (long long)P;
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(nonatomic, getter=isKeyAsset) _Bool keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(nonatomic) long long position; // @synthesize position=_position;
 
 @end
 

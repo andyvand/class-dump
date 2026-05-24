@@ -6,23 +6,11 @@
 
 #import <TextInput/TIKeyboardCandidate.h>
 
-@class NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface TIKeyboardCandidateSingle : TIKeyboardCandidate
 {
     _Bool _extensionCandidate;
-    _Bool _continuousPathConversion;
-    _Bool _shouldAccept;
-    unsigned int _sourceMask;
-    NSString *_candidate;
-    NSString *_input;
-    NSString *_rawInput;
-    NSString *_applicationKey;
-    NSString *_applicationBundleId;
-    NSString *_altDSID;
-    NSUUID *_stickerIdentifier;
-    long long _cursorMovement;
-    unsigned long long _learningFlagsMask;
 }
 
 + (id);
@@ -30,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)�(;
 + (id);
 + (id);
 + (id);
@@ -41,8 +29,8 @@
 - (id);
 - (unsigned int);
 - (_Bool);
-- (void);
-- (void);
+- (void)#;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,13 +70,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)predicateExcludingEntryTypes: /* Error: Ran out of types for this method. */;
+- (id)i;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4˟;
 - (void);
 - (id);
 - (void)Í
@@ -97,22 +85,10 @@
 ¿
 ¤
 ;
-- (id)g;
+- (id)begging;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *applicationBundleId; // @synthesize applicationBundleId=_applicationBundleId;
-@property(copy, nonatomic) NSString *applicationKey; // @synthesize applicationKey=_applicationKey;
 @property(copy, nonatomic) NSString *candidate; // @synthesize candidate=_candidate;
-@property(nonatomic, getter=isContinuousPathConversion) _Bool continuousPathConversion; // @synthesize continuousPathConversion=_continuousPathConversion;
-@property(nonatomic) long long cursorMovement; // @synthesize cursorMovement=_cursorMovement;
-@property(nonatomic, getter=isExtensionCandidate) _Bool extensionCandidate; // @synthesize extensionCandidate=_extensionCandidate;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(copy, nonatomic) NSNumber *learningFlags;
-@property(nonatomic) unsigned long long learningFlagsMask; // @synthesize learningFlagsMask=_learningFlagsMask;
-@property(copy, nonatomic) NSString *rawInput; // @synthesize rawInput=_rawInput;
-@property(nonatomic, getter=shouldAccept) _Bool shouldAccept; // @synthesize shouldAccept=_shouldAccept;
-@property(copy, nonatomic) NSUUID *stickerIdentifier; // @synthesize stickerIdentifier=_stickerIdentifier;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface JetEngine.AMSInMemoryMetricsEventRecorder
 {
     id metrics;
-    id accountProvider;
-    id events;
-    id flushTimeInterval;
-    id maximumBatchSize;
-    id flushQueue;
 }
 
 @end

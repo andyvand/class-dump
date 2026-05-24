@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)$;
 + (void)¨ãG;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)o create a background AVAggregateAssetDownloadTask, as the URLAsset PropertyList could not be serialized.;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)DebugVerboseModeIndex;
 - (double);
 - (id);
 - (_Bool);

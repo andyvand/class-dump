@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface APFormatter
 {
     NSCharacterSet *_characterSet;
-    NSCharacterSet *_invertedCharacterSet;
-    unsigned long long _maxLength;
 }
 
 + (id);
@@ -19,6 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)JA;
 + (id);
 + (id);
 + (id);
@@ -26,32 +28,28 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)kB;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)`;
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)#;
 
 // Remaining properties
 @property unsigned long long maxLength; // @synthesize maxLength=_maxLength;

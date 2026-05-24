@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWSafariContext : SISchemaInstrumentationMessage
 {
     int _taskType;
-    CDStruct_91e2971b _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)addEntriesFromDictionary:(id)arg1;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)chemaPGOverridesMatchMetadata";
@@ -30,8 +27,6 @@
 - (int)+;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int taskType; // @synthesize taskType=_taskType;
 
 @end

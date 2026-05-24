@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSBlockKeyValueObservation
 {
     NSObject *_observed;
-    NSString *_keyPath;
-    CDUnknownBlockType _block;
-    _Bool _isObserving;
 }
 
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void)ty array];

@@ -5,5 +5,8 @@
 //
 
 @protocol PXImportSourcesManagerChangeObserver
+
+@optional
+- (void)C;
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)PaddingForOrientation: /* Error: Ran out of types for this method. */;
+- (id)_keyplanePaddingForOrientation: /* Error: Ran out of types for this method. */;
 - (void)Pù`;
 
 // Remaining properties

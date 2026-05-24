@@ -10,7 +10,7 @@
 
 + (void);
 + (void);
-- (id);
+- (id)up dispatchedUpdateActiveMediaStreamIDs:withTargetBitrate:mediaBitrates:rateChangeCounter:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

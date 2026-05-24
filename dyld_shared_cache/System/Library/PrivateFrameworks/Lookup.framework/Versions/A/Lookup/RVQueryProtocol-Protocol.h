@@ -9,9 +9,6 @@
 @protocol RVQueryProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long queryID;
 @property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSString *userAgent;
 @end
 

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (WFContentCollection)
 - (id);
-- (id);
+- (id);
 @end
 

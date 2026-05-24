@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitRegisteredClient : NSManagedObject
@@ -17,11 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(retain, nonatomic) NSString *containerIdentifier; // @dynamic containerIdentifier;
-@property(retain, nonatomic) NSString *fileProtectionType; // @dynamic fileProtectionType;
-@property(retain, nonatomic) NSSet *scheduledActivities; // @dynamic scheduledActivities;
-@property(retain, nonatomic) NSString *storeConfigurationName; // @dynamic storeConfigurationName;
-@property(retain, nonatomic) NSString *storePath; // @dynamic storePath;
 
 @end
 

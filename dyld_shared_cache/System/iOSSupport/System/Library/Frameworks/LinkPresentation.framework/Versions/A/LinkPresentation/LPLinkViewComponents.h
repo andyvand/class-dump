@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPBackgroundColorView, LPCaptionBarView, LPComponentView, LPContactsBadgeView, LPImageView, LPQuoteView, UITextHighlightView, UITextSearchingDimmingView;
+@class LPCaptionBarView;
 
 __attribute__((visibility("hidden")))
 @interface LPLinkViewComponents
 {
     LPCaptionBarView *_captionBar;
-    LPComponentView *_media;
-    LPBackgroundColorView *_mediaBackground;
-    LPCaptionBarView *_mediaTopCaptionBar;
-    LPCaptionBarView *_mediaBottomCaptionBar;
-    LPQuoteView *_quote;
-    LPImageView *_backgroundImage;
-    LPComponentView *_progressSpinner;
-    LPContactsBadgeView *_contactsBadge;
-    UITextSearchingDimmingView *_textSearchingDimmingView;
-    UITextHighlightView *_textHighlightView;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)thumbnailAtIndex:(id)arg1 fillToSize:maxCount: /* Error: Ran out of types for this method. */;
+- (void)thinkingDotContainerSize;
+- (void)themeColor;
+- (void)theRelativeStandaloneDateFormatter;
+- (void)textSelectionActionWithChatItem:(id)arg1;
+- (void)textReplyBalloonTailInsets;
+- (id)targetSize;
+- (id)targetFilterModeForOpeningConversationURL;
+- (id)swipeTargetBalloonCell;
+- (id)supportsRasterizationRateMapWithLayerCount: /* Error: Ran out of types for this method. */;
+- (void)supportsChatNameAndPhotoHeader;
+- (id)snapshotWithGUID:interfaceStyle:image:messageTintColor: /* Error: Ran out of types for this method. */;
+- (id)ipt was sized
+ %@;
+- (void)nDidChange | Completed all configuration updates in response to traitCollection change.;
 - (void);
 - (id);
 - (id);
@@ -49,17 +40,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImageView *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
 @property(retain, nonatomic) LPCaptionBarView *captionBar; // @synthesize captionBar=_captionBar;
-@property(retain, nonatomic) LPContactsBadgeView *contactsBadge; // @synthesize contactsBadge=_contactsBadge;
-@property(retain, nonatomic) LPComponentView *media; // @synthesize media=_media;
-@property(retain, nonatomic) LPBackgroundColorView *mediaBackground; // @synthesize mediaBackground=_mediaBackground;
-@property(retain, nonatomic) LPCaptionBarView *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(retain, nonatomic) LPCaptionBarView *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) LPComponentView *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(retain, nonatomic) LPQuoteView *quote; // @synthesize quote=_quote;
-@property(retain, nonatomic) UITextHighlightView *textHighlightView; // @synthesize textHighlightView=_textHighlightView;
-@property(retain, nonatomic) UITextSearchingDimmingView *textSearchingDimmingView; // @synthesize textSearchingDimmingView=_textSearchingDimmingView;
 
 @end
 

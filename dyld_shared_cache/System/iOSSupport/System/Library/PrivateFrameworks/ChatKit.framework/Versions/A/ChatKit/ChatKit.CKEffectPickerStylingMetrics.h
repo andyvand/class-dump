@@ -9,15 +9,13 @@
     double roundTrackPadding;
 }
 
-- (void);
-- (double);
-- (double);
-- (double);
-- (id);
+- (void)t;
+- (double)ext storage;
+- (double)able to toggle collapsed due to missing text storage;
+- (double)ncestors due to missing text storage;
+- (id);
 
 // Remaining properties
-@property(nonatomic, readonly) double roundTrackContainerViewCornerRadius;
-@property(nonatomic, readonly) double roundTrackContainerViewWidth;
 @property(nonatomic) double roundTrackPadding; // @synthesize roundTrackPadding;
 
 @end

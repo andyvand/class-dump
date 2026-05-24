@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKAccountReport.h>
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PKAccountStatementMetadataReport : PKAccountReport
 {
     NSString *_statementIdentifier;
-    NSDate *_openingDate;
-    NSDate *_closingDate;
-    NSArray *_items;
 }
 
 + (_Bool)0@ù
@@ -23,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ackTxPowerBackoffCount;
 - (void);
 - (id);
 - (id);
@@ -33,9 +30,6 @@
 - (void)RequestAuthorizedEvent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *closingDate; // @synthesize closingDate=_closingDate;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) NSDate *openingDate; // @synthesize openingDate=_openingDate;
 @property(readonly, copy, nonatomic) NSString *statementIdentifier; // @synthesize statementIdentifier=_statementIdentifier;
 
 @end

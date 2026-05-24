@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMApplicationControlDeclaration_UpdateSchedule : CEMPayloadBase
 {
     NSString *_payloadMode;
-    NSNumber *_payloadDuration;
-    NSString *_payloadStartTime;
-    NSString *_payloadEndTime;
 }
 
 + (id);
@@ -26,17 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadDuration; // @synthesize payloadDuration=_payloadDuration;
-@property(copy, nonatomic) NSString *payloadEndTime; // @synthesize payloadEndTime=_payloadEndTime;
 @property(copy, nonatomic) NSString *payloadMode; // @synthesize payloadMode=_payloadMode;
-@property(copy, nonatomic) NSString *payloadStartTime; // @synthesize payloadStartTime=_payloadStartTime;
 
 @end
 

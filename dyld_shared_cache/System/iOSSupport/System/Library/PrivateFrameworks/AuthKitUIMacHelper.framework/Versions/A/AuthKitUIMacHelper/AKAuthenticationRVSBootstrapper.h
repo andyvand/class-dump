@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteViewController, NSViewController;
+@class NSRemoteViewController;
 
 @interface AKAuthenticationRVSBootstrapper
 {
@@ -12,11 +12,11 @@
 }
 
 - (void);
+- (id)328@336@344@352q360@368@376@384@392q400q408q416@424@432q440q448@456;
+- (void)sharedResolver;
+- (void)_dataSourceLock;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly, nonatomic) NSViewController *viewController;
 
 @end
 

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPhoto, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOUser
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPhoto *_image;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_9fa62941 _flags;
 }
 
 - (id);
-- (void);
+- (void)k;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)
 × ;
-- (id)D:resultProviderID:coordinate: /* Error: Ran out of types for this method. */;
+- (id)initWithMUID:resultProviderID:coordinate: /* Error: Ran out of types for this method. */;
 - (id)nly",&,N;
 - (void)\@;
 

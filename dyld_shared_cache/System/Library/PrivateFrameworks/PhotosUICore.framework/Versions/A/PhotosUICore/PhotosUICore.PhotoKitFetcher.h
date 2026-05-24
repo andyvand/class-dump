@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotoKitFetcher
 {
     id photoLibrary;
-    id assetsFetcher;
-    id transientCollectionKeyAssetFetchLimit;
-    id peoplePetsHomeVisibilitySource;
 }
 
 @end

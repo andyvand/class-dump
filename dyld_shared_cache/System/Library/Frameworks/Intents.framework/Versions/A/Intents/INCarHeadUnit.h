@@ -9,7 +9,6 @@
 @interface INCarHeadUnit
 {
     NSString *_bluetoothIdentifier;
-    NSString *_iAP2Identifier;
 }
 
 + (id);
@@ -17,12 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_GCLogicalDeviceRegistry;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)s;
+- (void)P0/Sources/CoreWiFi/Framework/WiFi Network Sharing/CWFWiFiNetworkSharingManager.m;
+- (id)T;
 - (id);
 - (id)isplayableAppBundleId:(unsigned long long)arg1 extensionBundleId:uiExtensionBundleId:containingAppBundleURL: /* Error: Ran out of types for this method. */;
 - (void)SaveHealthSampleIntent;
@@ -30,14 +29,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *bluetoothIdentifier; // @synthesize bluetoothIdentifier=_bluetoothIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *iAP2Identifier; // @synthesize iAP2Identifier=_iAP2Identifier;
-@property(readonly) Class superclass;
 
 @end
 

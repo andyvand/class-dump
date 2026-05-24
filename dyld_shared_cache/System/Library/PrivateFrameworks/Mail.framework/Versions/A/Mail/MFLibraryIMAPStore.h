@@ -6,22 +6,11 @@
 
 #import <Mail/MFRemoteStore.h>
 
-@class EDMessageChangeManager, EDServerMessagePersistence, IMAPCommandPipeline, IMAPDownloadCache, IMAPMailbox, MFIMAPAccount, MFMailbox, NSArray, NSDate, NSMutableArray, NSString;
+@class IMAPMailbox;
 
 @interface MFLibraryIMAPStore : MFRemoteStore
 {
     IMAPMailbox *_IMAPMailbox;
-    IMAPDownloadCache *_downloadCache;
-    IMAPCommandPipeline *_fetchPipeline;
-    NSMutableArray *_recentlyDeletedMessageIDs;
-    id _uidNextLock;
-    unsigned long long _numberOfAppendsOutstanding;
-    id _appendCountLock;
-    _Bool _supportsModificationSequences;
-    _Bool _isOpenedByUser;
-    _Bool _supportsCustomPermanentFlags;
-    unsigned long long _totalCount;
-    NSString *_mailboxName;
 }
 
 + (id);
@@ -36,36 +25,36 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)HS@9;
+- (id);
+- (id);
+- (id)arser.dylib;
+- (id)setDigitalCredentialsEnabled: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)tput.swift;
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)submitTask:progressHandler:completionHander: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (unsigned int);
 - (_Bool);
@@ -75,13 +64,13 @@
 - (unsigned long long)0@ù
 × ;
 - (id)"24d32@"NSDate"40@"WebFrame"48;
-- (_Bool)tsToPersist: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ence: /* Error: Ran out of types for this method. */;
-- (id)ncel:(id)arg1;
-- (void)evelRecoveryMailbox;
-- (_Bool)agesEmpty;
+- (_Bool)setResultsToPersist: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setComputedHighestModificationSequence: /* Error: Ran out of types for this method. */;
+- (id)initWithFuture:(id)arg1 cancel: /* Error: Ran out of types for this method. */;
+- (void)_setupDefaultTopLevelRecoveryMailbox;
+- (_Bool)_queuedMessagesEmpty;
 - (id)cheIsExhaustive: /* Error: Ran out of types for this method. */;
-- (_Bool)sion;
+- (_Bool)_attachmentExtension;
 - (_Bool)Count;
 - (_Bool)	
 H;
@@ -97,7 +86,7 @@
 - (unsigned long long);
 - (void)üÿ(ýÿzâüÿ;
 - (id);
-- (id)_t;
+- (id)Si4size_t;
 - (id)gest;
 - (void)expired, but we still have to wait %f seconds.;
 - (id)-%{public}s]:Framing error:%@ /* Error: Ran out of types for this method. */;
@@ -106,8 +95,8 @@
 - (_Bool)%s while trying to store %s;
 - (void)account updated from %@ to %@;
 - (_Bool);
-- (void)cationMaxHitsNumber;
-- (unsigned long long)rningTitle;
+- (void)SpotlightUnreadCountUpdateNotificationMaxHitsNumber;
+- (unsigned long long)WarningTitle;
 - (void)L DEFAULT 0,
 change_identifier TEXT COLLATE BINARY,
 source INTEGER,
@@ -122,44 +111,7 @@ UNIQUE(url) ON CONFLICT ABORT);;
 - (_Bool)11KÑ)pk__¹£3!);
 
 // Remaining properties
-@property(readonly, nonatomic) MFIMAPAccount *account;
-@property(nonatomic) unsigned long long allegedHighestModificationSequence;
-@property(readonly, nonatomic) _Bool canCompact;
-@property(readonly, nonatomic) _Bool canSetMessageColors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) IMAPDownloadCache *downloadCache;
-@property(readonly, nonatomic) IMAPCommandPipeline *fetchPipeline;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAllMailMailbox;
-@property(readonly, nonatomic) _Bool isInbox;
-@property _Bool isOpenedByUser; // @synthesize isOpenedByUser=_isOpenedByUser;
-@property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) _Bool isTrash;
-@property(retain) NSDate *lastSyncDate;
-@property(readonly, nonatomic) MFMailbox *mailbox;
-@property(copy) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(readonly, nonatomic) unsigned int maximumUID;
-@property(readonly) EDMessageChangeManager *messageChangeManager;
-@property(readonly, copy, nonatomic) NSArray *messagesBeingRouted;
-@property(readonly, nonatomic) unsigned int permanentFlags;
-@property(readonly, nonatomic) unsigned long long serverMessageCount;
-@property(readonly) EDServerMessagePersistence *serverMessagePersistence;
-@property(readonly, copy, nonatomic) NSString *stateStringForDiagnostics;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsCustomPermanentFlags; // @synthesize supportsCustomPermanentFlags=_supportsCustomPermanentFlags;
-@property _Bool supportsModificationSequences; // @synthesize supportsModificationSequences=_supportsModificationSequences;
 @property unsigned long long totalCount; // @synthesize totalCount=_totalCount;
-@property(readonly, nonatomic) unsigned long long totalCountOfMessages;
-@property(nonatomic) unsigned int uidNext;
-@property(nonatomic) unsigned int uidValidity;
 
 @end
 

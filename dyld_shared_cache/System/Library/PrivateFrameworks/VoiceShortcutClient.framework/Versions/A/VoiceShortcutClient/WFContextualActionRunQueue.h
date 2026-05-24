@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface WFContextualActionRunQueue
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_runnerClients;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
+- (id)Dz;
+- (void)z;
+- (void)m;
 - (id);
 - (struct os_unfair_lock_s);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(readonly, nonatomic) NSMutableArray *runnerClients; // @synthesize runnerClients=_runnerClients;
 
 @end

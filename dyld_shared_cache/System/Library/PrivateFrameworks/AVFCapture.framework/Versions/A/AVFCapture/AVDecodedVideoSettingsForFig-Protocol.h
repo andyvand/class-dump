@@ -7,10 +7,10 @@
 @class NSDictionary, NSString;
 
 @protocol AVDecodedVideoSettingsForFig
+- (NSDictionary *)@;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *decompressionProperties;
-@property(readonly, nonatomic) NSString *fieldMode;
 @property(readonly, nonatomic) NSDictionary *pixelBufferAttributes;
 @end
 

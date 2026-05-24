@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDGmailLabelPersistence, EDPersistenceDatabase, NSString;
+@class EDPersistenceDatabase;
 
 @interface EDServerMessagePersistence
 {
     _Bool _supportsLabels;
-    _Bool _useNumericSearch;
-    EDPersistenceDatabase *_database;
-    EDGmailLabelPersistence *_gmailLabelPersistence;
-    long long _mailboxID;
 }
 
 + (id);
@@ -44,13 +40,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Buffer>",R,N,V_ringBuffer;
 - (long long);
 - (id);
 - (id);
@@ -58,22 +54,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EDGmailLabelPersistence *gmailLabelPersistence; // @synthesize gmailLabelPersistence=_gmailLabelPersistence;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(readonly, nonatomic) unsigned int maximumIMAPUID;
-@property(readonly, nonatomic) unsigned long long messageCount;
-@property(readonly, nonatomic) unsigned int minimumIMAPUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsLabels; // @synthesize supportsLabels=_supportsLabels;
-@property(readonly, nonatomic) unsigned long long undeletedMessageCount;
-@property(readonly, nonatomic) unsigned long long unreadMessageCount;
-@property(readonly, nonatomic) _Bool useNumericSearch; // @synthesize useNumericSearch=_useNumericSearch;
 
 @end
 

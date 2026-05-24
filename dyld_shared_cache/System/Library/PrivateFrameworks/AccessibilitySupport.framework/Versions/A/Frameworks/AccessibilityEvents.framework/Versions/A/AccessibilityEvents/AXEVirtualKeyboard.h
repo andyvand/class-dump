@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface AXEVirtualKeyboard
 {
     struct __CGEventSource *__eventSource;
-    unsigned int __eventTapLocation;
-    unsigned long long __cgEventFlags;
-    NSMutableSet *__downKeys;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (id);
 - (void);
@@ -34,8 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long _cgEventFlags; // @synthesize _cgEventFlags=__cgEventFlags;
-@property(retain, nonatomic) NSMutableSet *_downKeys; // @synthesize _downKeys=__downKeys;
 @property(nonatomic) unsigned int _eventTapLocation; // @synthesize _eventTapLocation=__eventTapLocation;
 
 @end

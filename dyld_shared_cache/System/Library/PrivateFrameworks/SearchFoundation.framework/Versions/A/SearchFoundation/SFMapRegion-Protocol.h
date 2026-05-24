@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @protocol SFMapRegion
 
 // Remaining properties
-@property(nonatomic) double altitudeInMeters;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double eastLng;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double northLat;
 @property(nonatomic) double southLat;
-@property(nonatomic) double westLng;
 @end
 

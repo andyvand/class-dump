@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)reoError;
 - (unsigned long long);
 - (_Bool);
 - (id);

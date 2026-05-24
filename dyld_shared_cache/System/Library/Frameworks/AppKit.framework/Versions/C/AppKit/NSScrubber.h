@@ -6,86 +6,23 @@
 
 #import <AppKit/NSView.h>
 
-@class CADisplayLink, NSButton, NSColor, NSPanGestureRecognizer, NSPressGestureRecognizer, NSScrollView, NSScrubberLayout, NSScrubberPendingChanges, NSScrubberSelectionStyle, NSString, NSTimer, _NSBoxCustomView;
-@protocol NSScrubberDataSource, NSScrubberDelegate;
+@class _NSBoxCustomView;
 
 @interface NSScrubber : NSView
 {
     _NSBoxCustomView *_dividerLeft;
-    _NSBoxCustomView *_dividerRight;
-    id _delegate;
-    id _dataSource;
-    id _tx;
-    NSScrollView *_scrollView;
-    NSView *_translationView;
-    NSPanGestureRecognizer *_scrubGestureRecognizer;
-    NSPanGestureRecognizer *_scrollGestureRecognizer;
-    NSPressGestureRecognizer *_pressGestureRecognizer;
-    _Bool _showsArrowButtons;
-    NSButton *_arrowLeft;
-    NSButton *_arrowRight;
-    NSView *_backgroundView;
-    NSColor *_backgroundColor;
-    long long _itemAlignment;
-    long long _mode;
-    CADisplayLink *_autoscrollLink;
-    struct CGPoint _autoscrollEffectivePoint;
-    double _autoscrollRatio;
-    double _autoscrollVelocity;
-    double _autoscrollBasis;
-    unsigned int _isInteracting:1;
-    unsigned int _isMovingSelection:1;
-    unsigned int _continuous:1;
-    unsigned int _ignoresTouches:1;
-    unsigned int _trackingChangedItem:1;
-    unsigned int _reservedFlags:27;
 }
 
 + (id);
 + (id);
++ (id)nnections;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ng for ioChannel, file:%@ /* Error: Ran out of types for this method. */;
++ (id)adFile:error %d opening for ioChannel, file:%@ /* Error: Ran out of types for this method. */;
++ (id)e when supplying credential %p for challenge %p %d:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(copy) NSColor *backgroundColor;
-@property(retain) NSView *backgroundView;
-@property(getter=isContinuous) _Bool continuous;
-@property __weak id <NSScrubberDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSScrubberDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool floatsSelectionViews;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long highlightedIndex;
-@property long long itemAlignment; // @synthesize itemAlignment=_itemAlignment;
-@property long long mode;
-@property(readonly) long long numberOfItems;
-@property(retain) NSScrubberPendingChanges *pendingChanges; // @synthesize pendingChanges=_tx;
-@property(retain) NSScrubberLayout *scrubberLayout;
-@property long long selectedIndex;
-@property(retain) NSScrubberSelectionStyle *selectionBackgroundStyle;
 @property long long selectionIndex;
-@property(retain) NSTimer *selectionLensPopTimer;
-@property(retain) NSScrubberSelectionStyle *selectionOverlayStyle;
-@property NSScrubberSelectionStyle *selectionStyle;
-@property _Bool showsAdditionalContentIndicators;
-@property _Bool showsArrowButtons;
-@property(readonly) Class superclass;
-@property long long tag;
 
 @end
 

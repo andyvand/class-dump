@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSColor;
+@class CAShapeLayer;
 
 @interface DottedLineView
 {
     CAShapeLayer *_shapeLayer;
-    NSColor *_color;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)x;
 
 @end
 

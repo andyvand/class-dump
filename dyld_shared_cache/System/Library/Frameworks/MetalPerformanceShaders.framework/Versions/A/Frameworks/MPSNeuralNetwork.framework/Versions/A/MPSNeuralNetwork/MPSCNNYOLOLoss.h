@@ -6,31 +6,11 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSCNNLoss, MPSImage, MPSMatrix, NSData, NSObject;
-@protocol OS_dispatch_semaphore;
+@class MPSCNNLoss;
 
 @interface MPSCNNYOLOLoss : MPSCNNKernel
 {
     MPSCNNLoss *_lossXY;
-    MPSCNNLoss *_lossWH;
-    MPSCNNLoss *_lossConfidence;
-    MPSCNNLoss *_lossClasses;
-    int _reductionType;
-    _Bool _reduceAcrossBatch;
-    _Bool _rescore;
-    float _scaleXY;
-    float _scaleWH;
-    float _scaleNoObject;
-    float _scaleObject;
-    float _scaleClass;
-    float _minIOUForObjectPresence;
-    float _maxIOUForObjectAbsence;
-    float _countOfPresentObjects;
-    NSObject<OS_dispatch_semaphore> *_encodingSemaphore;
-    NSData *_anchorBoxes;
-    unsigned long long _numberOfAnchorBoxes;
-    MPSMatrix *_reductionBuffer;
-    MPSImage *_firstLossTexture;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -54,17 +34,17 @@
 - (float);
 - (float);
 - (id);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (float);
 - (id);
 - (void);
 - (float);
+- (id);
+- (void);
+- (float);
 - (void);
 - (float);
 - (id);
@@ -73,25 +53,11 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)f32f32f32MatrixMultiplyVega_384_batch_TT;
 - (id);
-- (id)LSTMRecursionfloat00_11_2;
+- (id)MPSRNNLSTMRecursionfloat00_11_2;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *anchorBoxes; // @synthesize anchorBoxes=_anchorBoxes;
-@property(readonly, retain, nonatomic) MPSCNNLoss *lossClasses; // @synthesize lossClasses=_lossClasses;
-@property(readonly, retain, nonatomic) MPSCNNLoss *lossConfidence; // @synthesize lossConfidence=_lossConfidence;
-@property(readonly, retain, nonatomic) MPSCNNLoss *lossWH; // @synthesize lossWH=_lossWH;
-@property(readonly, retain, nonatomic) MPSCNNLoss *lossXY; // @synthesize lossXY=_lossXY;
-@property(nonatomic) float maxIOUForObjectAbsence; // @synthesize maxIOUForObjectAbsence=_maxIOUForObjectAbsence;
-@property(nonatomic) float minIOUForObjectPresence; // @synthesize minIOUForObjectPresence=_minIOUForObjectPresence;
-@property(nonatomic) unsigned long long numberOfAnchorBoxes; // @synthesize numberOfAnchorBoxes=_numberOfAnchorBoxes;
-@property(nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) float scaleClass; // @synthesize scaleClass=_scaleClass;
-@property(nonatomic) float scaleNoObject; // @synthesize scaleNoObject=_scaleNoObject;
-@property(nonatomic) float scaleObject; // @synthesize scaleObject=_scaleObject;
-@property(nonatomic) float scaleWH; // @synthesize scaleWH=_scaleWH;
 @property(nonatomic) float scaleXY; // @synthesize scaleXY=_scaleXY;
 
 @end

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSDate;
 
 @interface SFShareSheetSessionTestingDataDump
 {
     int _pid;
-    NSArray *_itemDescriptions;
-    NSArray *_installedExtensions;
-    NSDictionary *_systemAppsAvailable;
-    NSString *_testName;
-    NSString *_testSuiteName;
-    NSDate *_timestamp;
-    NSString *_applicationBundleID;
-    NSDictionary *_modeDataDumps;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -29,23 +21,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)%;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -58,26 +50,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)_;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id),&,V_delegates;
+- (id)CBCentralManagerDelegate;
 - (void)àþÿ.þÿtþÿvþÿ;
 - (id)vices for %@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *applicationBundleID; // @synthesize applicationBundleID=_applicationBundleID;
-@property(copy, nonatomic) NSArray *installedExtensions; // @synthesize installedExtensions=_installedExtensions;
-@property(readonly, copy, nonatomic) NSArray *itemDescriptions; // @synthesize itemDescriptions=_itemDescriptions;
-@property(copy, nonatomic) NSDictionary *modeDataDumps; // @synthesize modeDataDumps=_modeDataDumps;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(copy, nonatomic) NSDictionary *systemAppsAvailable; // @synthesize systemAppsAvailable=_systemAppsAvailable;
-@property(copy, nonatomic) NSString *testName; // @synthesize testName=_testName;
-@property(copy, nonatomic) NSString *testSuiteName; // @synthesize testSuiteName=_testSuiteName;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPFeedbackTileFeatureInfo
 {
     PBDataReader *_reader;
-    NSMutableArray *_featureHandles;
-    NSString *_featureName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_featureHandles:1;
-        unsigned int read_featureName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ths:(id)arg1;
-- (void);
++ (_Bool)setLaneWidths:(id)arg1;
+- (void)minusSet:(id)arg1;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -34,25 +24,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)T;
+- (id)supportTrialMitigationAssets;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_temporaryPreciseLocationAuthorizationPromptShown;
 - (_Bool);
 - (id);
 - (void);
 - (id)ectionSequenceNumber"b1"has_isSelected"b1"read_unknownFields"b1"read_displayName"b1"read_metadata"b1"read_styleAttributes"b1"wrote_anyField"b1};
-- (id)StaleUnusableDataList;
+- (id)cacheMissStaleUnusableDataList;
 - (id)TtäuÄx;
-- (id)_INVALID_REQUEST;
+- (id)EV_INVALID_REQUEST;
 - (void)HÂ¾DN@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *featureHandles;
-@property(retain, nonatomic) NSString *featureName;
-@property(readonly, nonatomic) _Bool hasFeatureName;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface DMFProvisioningProfile
 {
     NSString *_UUID;
-    NSString *_name;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
@@ -19,17 +17,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_suggestedResults;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

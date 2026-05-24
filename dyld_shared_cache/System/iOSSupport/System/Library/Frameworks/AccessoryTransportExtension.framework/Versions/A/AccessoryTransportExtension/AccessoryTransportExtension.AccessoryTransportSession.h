@@ -8,14 +8,6 @@
 {
     id accessory;
     id appPrivateToken;
-    id pushToken;
-    id transport;
-    id transportStateRestoreIdentifier;
-    id cancelled;
-    id _invalidated;
-    id cancellationHandler;
-    id eventHandler;
-    id sendMessageHandler;
 }
 
 @end

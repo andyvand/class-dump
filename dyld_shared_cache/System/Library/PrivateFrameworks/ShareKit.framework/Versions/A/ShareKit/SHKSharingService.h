@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSExtension, NSImage, NSRemoteViewController, NSSharingServiceDescription, NSString, NSUUID, NSWindow, SHKCollaborationContext, SHKHostExtensionContext, SHKRemoteWindowController, SHKShareSheetHEICOptionsModel, SHKUIServiceLatencyMetric;
-@protocol SHKSharingServiceDelegate;
+@class NSSharingServiceDescription;
 
 @interface SHKSharingService
 {
     NSSharingServiceDescription *_serviceDescription;
-    id <SHKSharingServiceDelegate> _delegate;
-    NSDictionary *_parameters;
-    NSString *_identifier;
-    NSString *_plugInIdentifier;
-    NSString *_title;
-    NSImage *_image;
-    NSImage *_alternateImage;
-    CDUnknownBlockType _block;
-    _Bool _enabled;
-    unsigned long long _mask;
-    _Bool _shouldDimSourceWindow;
-    _Bool _viewBased;
-    NSDictionary *_identifierToProvider;
-    SHKRemoteWindowController *_remoteWindowController;
-    NSRemoteViewController *_remoteViewController;
-    NSDictionary *_sandboxExtensions;
-    _Bool _isSymbolImageIdentifier;
-    _Bool _disableDragging;
-    _Bool _sourceWindowProvided;
-    _Bool _allowInactive;
-    unsigned int _remoteCID;
-    NSString *_subtitle;
-    id _customDelegate;
-    id _customInternalDelegate;
-    NSExtension *_extension;
-    SHKHostExtensionContext *_extensionContext;
-    NSString *_iconImageIdentifier;
-    CDUnknownBlockType _asyncBlock;
-    NSUUID *_uuid;
-    NSUUID *_shareSheetUUID;
-    NSArray *_sharedItems;
-    unsigned long long _finalSharedItemsCount;
-    CDUnknownBlockType _restoreWindowStateBlock;
-    CDUnknownBlockType _cancelExtensionKillTimer;
-    CDUnknownBlockType _cancelRestoreWindowStateTimer;
-    CDUnknownBlockType _cancelPotentialUnregisterTimer;
-    CDUnknownBlockType _serviceCompletedHandler;
-    NSWindow *_sourceWindow;
-    SHKCollaborationContext *_collaborationContext;
-    SHKShareSheetHEICOptionsModel *_heicOptions;
-    SHKUIServiceLatencyMetric *_uiServiceLatencyMetric;
 }
 
 @end

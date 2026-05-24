@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMSystemEnergySaverDeclaration_EnergySaverSchedule, CEMSystemEnergySaverDeclaration_PowerSettings, NSNumber, NSString;
+@class CEMSystemEnergySaverDeclaration_PowerSettings;
 
 @interface CEMSystemEnergySaverDeclaration : CEMConfigurationBase
 {
     CEMSystemEnergySaverDeclaration_PowerSettings *_payloadComappleEnergySaverdesktopACPower;
-    CEMSystemEnergySaverDeclaration_PowerSettings *_payloadComappleEnergySaverportableACPower;
-    CEMSystemEnergySaverDeclaration_PowerSettings *_payloadComappleEnergySaverportableBatteryPower;
-    CEMSystemEnergySaverDeclaration_EnergySaverSchedule *_payloadComappleEnergySaverdesktopSchedule;
-    NSNumber *_payloadSleepDisabled;
-    NSNumber *_payloadDestroyFVKeyOnStandby;
 }
 
 + (id);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -42,24 +37,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)l builds.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMSystemEnergySaverDeclaration_PowerSettings *payloadComappleEnergySaverdesktopACPower; // @synthesize payloadComappleEnergySaverdesktopACPower=_payloadComappleEnergySaverdesktopACPower;
-@property(copy, nonatomic) CEMSystemEnergySaverDeclaration_EnergySaverSchedule *payloadComappleEnergySaverdesktopSchedule; // @synthesize payloadComappleEnergySaverdesktopSchedule=_payloadComappleEnergySaverdesktopSchedule;
-@property(copy, nonatomic) CEMSystemEnergySaverDeclaration_PowerSettings *payloadComappleEnergySaverportableACPower; // @synthesize payloadComappleEnergySaverportableACPower=_payloadComappleEnergySaverportableACPower;
-@property(copy, nonatomic) CEMSystemEnergySaverDeclaration_PowerSettings *payloadComappleEnergySaverportableBatteryPower; // @synthesize payloadComappleEnergySaverportableBatteryPower=_payloadComappleEnergySaverportableBatteryPower;
-@property(copy, nonatomic) NSNumber *payloadDestroyFVKeyOnStandby; // @synthesize payloadDestroyFVKeyOnStandby=_payloadDestroyFVKeyOnStandby;
-@property(copy, nonatomic) NSNumber *payloadSleepDisabled; // @synthesize payloadSleepDisabled=_payloadSleepDisabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol NSSecureCoding;
+
 @protocol WKWebProcessPlugInFormDelegatePrivate
+
+@optional
+- (NSObject<NSSecureCoding> *);
+- (NSObject<NSSecureCoding> *);
 @end
 

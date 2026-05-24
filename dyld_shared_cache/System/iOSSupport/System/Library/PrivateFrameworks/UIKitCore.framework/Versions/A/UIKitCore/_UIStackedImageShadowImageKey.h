@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIStackedImageShadowImageKey
 {
     long long _shadowRadius;
-    long long _cornerRadius;
-    _Bool _isContinuousCorner;
-    long long _white;
-    long long _alpha;
 }
 
 + (id);

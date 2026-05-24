@@ -4,63 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPAlbum, MIPArtist, MIPGenre, MIPPlaybackInfo, NSString;
-
 @interface MIPSong
 {
     long long _geniusId;
-    MIPAlbum *_album;
-    MIPArtist *_artist;
-    int _audioFormat;
-    MIPArtist *_composer;
-    int _discNumber;
-    MIPGenre *_genre;
-    NSString *_hlsPlaylistURL;
-    NSString *_lyrics;
-    int _lyricsChecksum;
-    MIPPlaybackInfo *_playbackInfo;
-    int _trackNumber;
-    int _userRating;
-    _Bool _excludeFromShuffle;
-    _Bool _hasVideo;
-    struct {
-        unsigned int geniusId:1;
-        unsigned int audioFormat:1;
-        unsigned int discNumber:1;
-        unsigned int lyricsChecksum:1;
-        unsigned int trackNumber:1;
-        unsigned int userRating:1;
-        unsigned int excludeFromShuffle:1;
-        unsigned int hasVideo:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Td,N,V_fractionOfAllAssetsWithMediaAnalysisInSearchIndex;
+- (void)ds;
+- (void)ssetIds;
+- (void)lIndex;
+- (void),R,N,V_searchSuggestionLimit;
+- (void)R;
+- (void)Index;
+- (int)setFractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold: /* Error: Ran out of types for this method. */;
+- (id),V_fileURL;
+- (_Bool)NSURL",&,N,VvideoComplementURL;
+- (_Bool)isWipeCPLOnOpen;
+- (_Bool)T@"NSString",R,C,V_trustedCallerBundleID;
+- (_Bool)isRestoreFromBackupSourceiTunes;
+- (_Bool)ng",R,C,V_nodeDescription;
+- (_Bool)ng",R,C,N,V_sampleIdentifier;
+- (long long)"NSString",C,N,SsetUUID:,V_uuid /* Error: Ran out of types for this method. */;
+- (_Bool)e;
+- (void)updatePanoramosityWithMetadata:(_Bool)arg1;
+- (void)skipContextSave;
+- (_Bool)_pl_cancellationHandler;
+- (void)}@;
 - (void);
 - (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (int);
 - (void);
 - (id);
-- (void);
+- (void)_backspace;
 - (void);
 - (id);
 - (_Bool);
@@ -72,15 +46,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)internalAudioVolume;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)|;
 - (void);
 - (_Bool);
-- (id);
+- (id)setTargetContentIgnored:(struct _NSZone *)arg1;
 - (int);
 - (id);
 - (id);
@@ -100,36 +74,7 @@
 - (int) ;
 
 // Remaining properties
-@property(retain, nonatomic) MIPAlbum *album; // @synthesize album=_album;
-@property(retain, nonatomic) MIPArtist *artist; // @synthesize artist=_artist;
-@property(nonatomic) int audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(retain, nonatomic) MIPArtist *composer; // @synthesize composer=_composer;
-@property(nonatomic) int discNumber; // @synthesize discNumber=_discNumber;
-@property(nonatomic) _Bool excludeFromShuffle; // @synthesize excludeFromShuffle=_excludeFromShuffle;
-@property(nonatomic) long long geniusId; // @synthesize geniusId=_geniusId;
-@property(retain, nonatomic) MIPGenre *genre; // @synthesize genre=_genre;
 @property(readonly, nonatomic) _Bool hasAlbum;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(nonatomic) _Bool hasAudioFormat;
-@property(readonly, nonatomic) _Bool hasComposer;
-@property(nonatomic) _Bool hasDiscNumber;
-@property(nonatomic) _Bool hasExcludeFromShuffle;
-@property(nonatomic) _Bool hasGeniusId;
-@property(readonly, nonatomic) _Bool hasGenre;
-@property(nonatomic) _Bool hasHasVideo;
-@property(readonly, nonatomic) _Bool hasHlsPlaylistURL;
-@property(readonly, nonatomic) _Bool hasLyrics;
-@property(nonatomic) _Bool hasLyricsChecksum;
-@property(readonly, nonatomic) _Bool hasPlaybackInfo;
-@property(nonatomic) _Bool hasTrackNumber;
-@property(nonatomic) _Bool hasUserRating;
-@property(nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(retain, nonatomic) NSString *hlsPlaylistURL; // @synthesize hlsPlaylistURL=_hlsPlaylistURL;
-@property(retain, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(nonatomic) int lyricsChecksum; // @synthesize lyricsChecksum=_lyricsChecksum;
-@property(retain, nonatomic) MIPPlaybackInfo *playbackInfo; // @synthesize playbackInfo=_playbackInfo;
-@property(nonatomic) int trackNumber; // @synthesize trackNumber=_trackNumber;
-@property(nonatomic) int userRating; // @synthesize userRating=_userRating;
 
 @end
 

@@ -4,54 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDKeyboardDeviceProperties, NSData, NSString;
-
 @interface BKSHIDKeyboardDevice
 {
     struct os_unfair_lock_s _lock;
-    BKSHIDKeyboardDeviceProperties *_lock_properties;
 }
 
-+ (id);
++ (id)FOLLOWUP_BENEFICIARY_REMOVED_NOTIFICATION_TITLE;
 - (long long);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (void);
 - (void);
+- (id)?;
 - (id);
-- (id);
-- (id);
+- (id)sDataSet
+;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)&;
 - (unsigned char);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool capsLockKeyHasLanguageSwitchLabel; // @dynamic capsLockKeyHasLanguageSwitchLabel;
-@property(readonly, nonatomic) unsigned char countryCode; // @dynamic countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *exclusivityIdentifier; // @dynamic exclusivityIdentifier;
-@property(readonly, nonatomic) _Bool globeKeyLabelHasGlobeSymbol; // @dynamic globeKeyLabelHasGlobeSymbol;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *language; // @dynamic language;
-@property(readonly, copy, nonatomic) NSString *layout; // @dynamic layout;
-@property(readonly, copy, nonatomic) NSData *platformInputModeConfiguration; // @dynamic platformInputModeConfiguration;
-@property(readonly, nonatomic) unsigned long long senderID; // @dynamic senderID;
-@property(readonly, nonatomic) unsigned int standardType; // @dynamic standardType;
-@property(readonly, nonatomic) long long subinterfaceID; // @dynamic subinterfaceID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *transport; // @dynamic transport;
 
 @end
 

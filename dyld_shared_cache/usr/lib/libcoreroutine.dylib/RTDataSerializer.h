@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutputStream, NSString;
+@class NSString;
 
 @interface RTDataSerializer
 {
     NSString *_containerPath;
-    NSString *_outputPrefix;
-    NSOutputStream *_outputStream;
 }
 
 + (id);
@@ -20,12 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (id)key from keychain:(unsigned int)arg1 %@;
+- (void)card;
+- (_Bool)6@"NSDictionary"24@"NSError"32;
+- (unsigned int)fishEscrow;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,15 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *containerPath; // @synthesize containerPath=_containerPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *outputPrefix; // @synthesize outputPrefix=_outputPrefix;
-@property(retain, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly) Class superclass;
 
 @end
 

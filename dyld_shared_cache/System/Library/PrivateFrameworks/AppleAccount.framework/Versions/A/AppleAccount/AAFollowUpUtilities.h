@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)ateCert found more than 1 item when it should have been only 1;
++ (_Bool)xUsr_cloudconfigskipenroll result = %d;
 
 @end
 

@@ -5,34 +5,34 @@
 //
 
 @interface UnknownClass (MSErrorUtilities)
-+ (id);
-+ (id);
-+ (id);
++ (id)airing audit on this device for home:(id)arg1 %{public}@;
++ (id)periodic pairings auditing;
++ (id)work for user preferred network with GEO and BR check;
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
+- (void)am:(CDUnknownBlockType)arg1 no remote access device;
+- (void)pshot session with HMDCameraSnapshotRemoteRelayStream:(CDUnknownBlockType)arg1 no remote access device;
+- (_Bool)snapshot session with HMDCameraSnapshotRemoteRelayStream;
+- (id)ceiver:no remote access device /* Error: Ran out of types for this method. */;
+- (id)h HMDCameraSnapshotRemoteStreamReceiver:no remote access device /* Error: Ran out of types for this method. */;
+- (_Bool)Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:no remote access device /* Error: Ran out of types for this method. */;
+- (_Bool)l;
+- (_Bool):accessory reference is nil /* Error: Ran out of types for this method. */;
+- (_Bool)otRemoteStreamReceiver:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (_Bool)ion with HMDCameraSnapshotRemoteStreamReceiver:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (_Bool)Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (_Bool)c}@[%{public,uuid_t}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (id)Creating a snapshot session with HMDCameraSnapshotRemoteStreamReceiver;
+- (_Bool)ession with HMDCameraSnapshotRemoteStreamSender;
+- (id)lete siri history completed;
+- (_Bool)tory operation;
+- (_Bool)%@;
+- (_Bool)ublic}@No homes pending migration were expired, doing nothing.;
+- (_Bool)egion updates;
+- (_Bool)ly deregistered for vacation region updates;
+- (int)with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)for vacation region updates;
 - (id);
 @end
 

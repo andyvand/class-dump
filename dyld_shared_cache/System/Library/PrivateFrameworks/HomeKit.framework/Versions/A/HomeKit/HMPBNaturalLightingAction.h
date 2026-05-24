@@ -9,11 +9,6 @@
 @interface HMPBNaturalLightingAction
 {
     NSData *_lightProfileUUID;
-    NSData *_uuid;
-    _Bool _naturalLightingEnabled;
-    struct {
-        unsigned int naturalLightingEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -22,28 +17,23 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)u;
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)jovial;
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)ms:(id)arg1;
-- (_Bool)dress;
+- (void)symptomsHandler:(id)arg1 didUpdateSymptoms: /* Error: Ran out of types for this method. */;
+- (_Bool)hasNetworkGatewayMacAddress;
 - (void)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLightProfileUUID;
-@property(nonatomic) _Bool hasNaturalLightingEnabled;
 @property(readonly, nonatomic) _Bool hasUuid;
-@property(retain, nonatomic) NSData *lightProfileUUID; // @synthesize lightProfileUUID=_lightProfileUUID;
-@property(nonatomic) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
-@property(retain, nonatomic) NSData *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -9,32 +9,31 @@
 @interface EDDaemonInterfaceFactory
 {
     EDPersistence *_persistence;
-    EDCategorySubsystem *_categorySubsystem;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CRKPauseMediaRequest;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)P ;
 - (id);
-- (id);
-- (id);
+- (id)twork because endpoint doesn't support large artwork.
+;
 - (id);
 - (id);
 - (id);
 - (id)q³ð1Â0@ù
 × ;
-- (void)es;
+- (void)IndexableMessages;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) EDCategorySubsystem *categorySubsystem; // @synthesize categorySubsystem=_categorySubsystem;
-@property(readonly, nonatomic) EDPersistence *persistence; // @synthesize persistence=_persistence;
 
 @end
 

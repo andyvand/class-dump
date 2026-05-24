@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
-@protocol MTFeedCategory;
+@class NSString;
 
 @interface PodcastsFoundation.ServerCategory
 {
     void id;
-    void type;
-    id attributes;
-    id relationships;
 }
 
+- (id);
+- (id);
+- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ove mappings for entity names. Reason:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *artworkHeight;
-@property(nonatomic, readonly) NSString *artworkPrimaryColor;
-@property(nonatomic, readonly) NSString *artworkTemplateURL;
-@property(nonatomic, readonly) NSNumber *artworkWidth;
-@property(nonatomic, readonly) NSSet *children;
-@property(nonatomic, readonly) NSString *color;
-@property(nonatomic, readonly) NSString *id;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) id <MTFeedCategory> parent;
-@property(nonatomic, readonly) NSString *type;
-@property(nonatomic, readonly) NSString *url;
 
 @end
 

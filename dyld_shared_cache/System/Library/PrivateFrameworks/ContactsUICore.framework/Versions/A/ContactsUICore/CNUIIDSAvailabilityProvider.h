@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIDSHandleAvailabilityCache, NSArray, NSString;
-@protocol CNScheduler, CNUIIDSIDQueryControllerWrapper;
+@protocol CNUIIDSIDQueryControllerWrapper;
 
 @interface CNUIIDSAvailabilityProvider
 {
     id <CNUIIDSIDQueryControllerWrapper> _queryControllerWrapper;
-    CNUIDSHandleAvailabilityCache *_faceTimeRequests;
-    CNUIDSHandleAvailabilityCache *_iMessageRequests;
-    CNUIDSHandleAvailabilityCache *_expanseRequests;
-    NSArray *_requestFutures;
-    id <CNScheduler> _resourceLock;
 }
 
 + (id);
@@ -22,40 +16,28 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)userActivityRestorer:restoreViewGroupsWithActivity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNUIDSHandleAvailabilityCache *expanseRequests; // @synthesize expanseRequests=_expanseRequests;
-@property(retain, nonatomic) CNUIDSHandleAvailabilityCache *faceTimeRequests; // @synthesize faceTimeRequests=_faceTimeRequests;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNUIDSHandleAvailabilityCache *iMessageRequests; // @synthesize iMessageRequests=_iMessageRequests;
 @property(retain, nonatomic) id <CNUIIDSIDQueryControllerWrapper> queryControllerWrapper; // @synthesize queryControllerWrapper=_queryControllerWrapper;
-@property(retain, nonatomic) NSArray *requestFutures; // @synthesize requestFutures=_requestFutures;
-@property(retain, nonatomic) id <CNScheduler> resourceLock; // @synthesize resourceLock=_resourceLock;
-@property(readonly) Class superclass;
 
 @end
 

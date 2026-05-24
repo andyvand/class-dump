@@ -4,35 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBGammaContrastPreservationParams
 {
     NSObject<OS_os_log> *_logHandle;
-    float _rampUpDuration;
-    float _rampDownDuration;
-    float _rampUpLuxDeltaThreshold;
-    float _rampDownLuxDeltaThreshold;
-    float _aodRampDuration;
-    float _rampUpdateRate;
-    unsigned int _supported;
-    float _referenceWhiteBrightness;
-    float _referenceLux;
-    float _Lmin;
-    float _Lmax;
-    float _ambientFactor;
-    float _Bmin;
-    float _Bmax;
-    float _gammaMin;
-    float _gammaMax;
-    float _gcpFactorLow;
-    float _gcpFactorHigh;
-    float _ASb;
-    float _Kb;
-    float _Kl;
-    NSDictionary *_codingKeys;
 }
 
 + (id);
@@ -49,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (float);
-- (float);
-- (float);
+- (float): /* Error: Ran out of types for this method. */;
+- (float);
 - (float);
 - (float);
 - (float);
@@ -60,39 +38,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (unsigned int)ightnessFactorWithFade;
+- (unsigned int)DisplayBrightnessFactorWithFade;
 
 // Remaining properties
-@property(readonly) float ASb; // @synthesize ASb=_ASb;
-@property(readonly) float Bmax; // @synthesize Bmax=_Bmax;
-@property(readonly) float Bmin; // @synthesize Bmin=_Bmin;
-@property(readonly) float Kb; // @synthesize Kb=_Kb;
-@property(readonly) float Kl; // @synthesize Kl=_Kl;
-@property(readonly) float Lmax; // @synthesize Lmax=_Lmax;
-@property(readonly) float Lmin; // @synthesize Lmin=_Lmin;
-@property(readonly) float ambientFactor; // @synthesize ambientFactor=_ambientFactor;
-@property(readonly) float aodRampDuration; // @synthesize aodRampDuration=_aodRampDuration;
-@property(readonly) NSDictionary *codingKeys; // @synthesize codingKeys=_codingKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) float gammaMax; // @synthesize gammaMax=_gammaMax;
-@property(readonly) float gammaMin; // @synthesize gammaMin=_gammaMin;
-@property(readonly) float gcpFactorHigh; // @synthesize gcpFactorHigh=_gcpFactorHigh;
-@property(readonly) float gcpFactorLow; // @synthesize gcpFactorLow=_gcpFactorLow;
-@property(readonly) unsigned long long hash;
-@property(readonly) float luxActivationThreshold;
-@property(readonly) float nitsActivationThreshold;
-@property(readonly) float rampDownDuration; // @synthesize rampDownDuration=_rampDownDuration;
-@property(readonly) float rampDownLuxDeltaThreshold; // @synthesize rampDownLuxDeltaThreshold=_rampDownLuxDeltaThreshold;
-@property(readonly) float rampUpDuration; // @synthesize rampUpDuration=_rampUpDuration;
-@property(readonly) float rampUpLuxDeltaThreshold; // @synthesize rampUpLuxDeltaThreshold=_rampUpLuxDeltaThreshold;
-@property(readonly) float rampUpdateRate; // @synthesize rampUpdateRate=_rampUpdateRate;
-@property(readonly) float referenceLux; // @synthesize referenceLux=_referenceLux;
-@property(readonly) float referenceWhiteBrightness; // @synthesize referenceWhiteBrightness=_referenceWhiteBrightness;
-@property(readonly) Class superclass;
 @property(readonly) unsigned int supported; // @synthesize supported=_supported;
 
 @end

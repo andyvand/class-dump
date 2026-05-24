@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Monotonic)
 + (id);
-+ (id);
++ (id)(O;
 + (id);
 + (id);
 + (id);

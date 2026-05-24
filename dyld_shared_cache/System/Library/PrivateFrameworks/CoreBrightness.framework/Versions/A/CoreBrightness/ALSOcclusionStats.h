@@ -8,15 +8,12 @@ __attribute__((visibility("hidden")))
 @interface ALSOcclusionStats
 {
     long long _prox;
-    long long _touch;
-    long long _touchAndProx;
-    long long _none;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 
 @end
 

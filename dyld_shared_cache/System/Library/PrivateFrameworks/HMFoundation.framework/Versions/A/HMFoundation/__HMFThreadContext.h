@@ -6,27 +6,23 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSObject, NSThread;
-@protocol OS_voucher;
+@class NSThread;
 
 __attribute__((visibility("hidden")))
 @interface __HMFThreadContext : HMFObject
 {
     _Bool _shouldRestoreVoucher;
-    NSThread *_thread;
-    unsigned long long _count;
-    NSObject<OS_voucher> *_voucher;
 }
 
-+ (id);
++ (id)completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)>	$	A	5	?		M		>	(	;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)one sentence;
+- (id)\;
 - (id);
 - (void);
 - (unsigned long long);
@@ -34,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) _Bool shouldRestoreVoucher; // @synthesize shouldRestoreVoucher=_shouldRestoreVoucher;
 @property(readonly) NSThread *thread; // @synthesize thread=_thread;
-@property(retain, nonatomic) NSObject<OS_voucher> *voucher; // @synthesize voucher=_voucher;
 
 @end
 

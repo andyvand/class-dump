@@ -11,12 +11,12 @@
     float _weight;
 }
 
-- (void);
-- (id);
+- (void)0;
+- (id)	;
 - (id);
 - (float);
 - (void);
-- (id)tSerializeWeightsAndBiases;
+- (id)kMPSCNNConvolutionGradientSerializeWeightsAndBiases;
 
 // Remaining properties
 @property(nonatomic) float weight; // @synthesize weight=_weight;

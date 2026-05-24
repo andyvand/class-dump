@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (void)BandExtentBeyondMaximumOffset;
+- (void)__rubberBandExtentBeyondMaximumOffset;
 - (id){%lu, %lu} with text of length %lu. Animating? %@;
 - (void);
 

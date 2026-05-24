@@ -7,7 +7,6 @@
 @interface ContactsUI.ContactHeaderAppearance
 {
     id core;
-    id _$observationRegistrar;
 }
 
 @end

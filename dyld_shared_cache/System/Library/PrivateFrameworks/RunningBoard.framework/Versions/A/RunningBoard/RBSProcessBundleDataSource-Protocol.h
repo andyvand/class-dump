@@ -10,8 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundlePath;
-@property(readonly, copy, nonatomic) NSString *executablePath;
-@property(readonly, copy, nonatomic) NSString *extensionPointIdentifier;
 @end
 

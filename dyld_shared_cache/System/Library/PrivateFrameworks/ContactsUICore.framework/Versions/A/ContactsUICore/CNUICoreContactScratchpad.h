@@ -27,16 +27,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)	;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)dObservableForActionType: /* Error: Ran out of types for this method. */;
+- (void)targetsChangedObservableForActionType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allContacts;
 @property(readonly, nonatomic) NSSet *edits; // @synthesize edits=_edits;
-@property(readonly, nonatomic) NSSet *modifiedContacts;
 
 @end
 

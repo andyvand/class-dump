@@ -6,16 +6,11 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLParameterContainer;
 @protocol MLNearestNeighborsIndex;
 
 @interface MLLocalOutlierFactor : MLModel
 {
     id <MLNearestNeighborsIndex> _index;
-    unsigned long long _numberOfDimensions;
-    unsigned long long _numberOfNeighbors;
-    vector_926a3350 _cachedKDistances;
-    MLParameterContainer *_parameterContainer;
 }
 
 - (void);
@@ -25,9 +20,9 @@
 - (float);
 - (id);
 - (id);
+- (vector_7f81098b);
 - (vector_7f81098b);
-- (vector_7f81098b);
-- (double);
+- (double)L;
 - (id);
 - (id);
 - (id);

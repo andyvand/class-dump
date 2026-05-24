@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PLATFORMProvisionalConnectecedComponentIdentifier;
+@class NSArray;
 
 @interface PLATFORMProvisionalConnectedComponents : SISchemaInstrumentationMessage
 {
     NSArray *_componentIds;
-    PLATFORMProvisionalConnectecedComponentIdentifier *_representativeId;
-    _Bool _hasRepresentativeId;
 }
 
 - (void);
@@ -31,17 +29,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)r:(id)arg1 %@;
 - (id);
 - (id);
-- (id)iabilityCounts;
-- (void)versationQualityInferenceMetadata;
+- (id)_hasReliabilityCounts;
+- (void)conversationQualityInferenceMetadata;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *componentIds; // @synthesize componentIds=_componentIds;
-@property(nonatomic) _Bool hasRepresentativeId; // @synthesize hasRepresentativeId=_hasRepresentativeId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PLATFORMProvisionalConnectecedComponentIdentifier *representativeId; // @synthesize representativeId=_representativeId;
 
 @end
 

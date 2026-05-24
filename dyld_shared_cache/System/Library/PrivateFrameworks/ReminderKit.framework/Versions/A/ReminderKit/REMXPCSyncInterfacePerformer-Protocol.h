@@ -5,5 +5,6 @@
 //
 
 @protocol REMXPCSyncInterfacePerformer
+- (void);
 @end
 

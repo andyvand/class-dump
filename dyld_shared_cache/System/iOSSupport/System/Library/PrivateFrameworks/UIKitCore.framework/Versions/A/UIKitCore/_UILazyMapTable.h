@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface _UILazyMapTable
 {
     CDUnknownBlockType _mappingBlock;
-    NSMapTable *_keysToClientTables;
-    NSMapTable *_keysToValues;
-    NSMapTable *_valuesToKeys;
 }
 
 - (id);
@@ -21,13 +16,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)ùÑe1Â0@ù
 × ;
-- (id)nRequestedStyleFromStyle:(id)arg1;
+- (id)overriddenRequestedStyleFromStyle:(id)arg1;
 - (void)<;
 - (id)FF GG HH II JJ KK LL MM NN OO PP QQ RUV(WW X|X`¨`a¨ab¨bc¨cd de eff;
 - (void)that all CustomizationIdentifiers are globally unique.;
 - (id)internal inconsistency:initialSnapshot should not be nil when creating the update map /* Error: Ran out of types for this method. */;
-- (unsigned long long)aryTextColor;
-- (void)ontext;
+- (unsigned long long)systemUserInterfaceStyleDarkPrimaryTextColor;
+- (void)_TextureSharingContext;
 
 @end
 

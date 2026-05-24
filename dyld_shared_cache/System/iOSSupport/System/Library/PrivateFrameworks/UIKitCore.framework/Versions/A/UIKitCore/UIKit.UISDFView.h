@@ -9,21 +9,14 @@
 @interface UIKit.UISDFView : UIKit._UIMaterialDefinitionView
 {
     id filter;
-    id containerRegistry;
-    id gradientOvalization;
-    id mergeElements;
-    id applySmoothnessViaGaussianRadius;
-    id containerView;
-    id isUsingPortaledContainer;
-    id trackedElements;
 }
 
-+ (Class);
++ (Class)l;
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)UIStatusBarLiquidDetectionItemView;
 - (void)x¢l;
 
 @end

@@ -6,28 +6,17 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSKernelDAGObject, MPSNDArrayIdentity, MPSNDArrayMatrixMultiplication, MPSNDArrayStitchedReductionSoftmax;
+@class MPSKernelDAGObject;
 
 @interface MPSNDArrayScaledDotProductAttention : MPSNDArrayMultiaryKernel
 {
     MPSKernelDAGObject *_kernelDAGObject;
-    _Bool _createdFallbackKernels;
-    MPSNDArrayMatrixMultiplication *_QKTMatmulKernel;
-    MPSNDArrayStitchedReductionSoftmax *_softmaxKernel;
-    MPSNDArrayMatrixMultiplication *_finalMatmulKernel;
-    MPSNDArrayMatrixMultiplication *_softMaxMatMulKernel;
-    MPSNDArrayIdentity *_identity;
-    int _kernelType;
-    float _alpha;
-    int _layout;
-    int _maskType;
-    int _windowSize;
 }
 
 + (_Bool);
 + (_Bool);
 + (const struct MPSLibraryInfo *);
-- (id);
+- (id)6;
 - (void);
 - (int);
 - (int);
@@ -41,18 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)ov;
 - (int);
 - (void)Ð;
 - (id);
 - (int);
 
 // Remaining properties
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
 @property(readonly, nonatomic) int kernelType; // @synthesize kernelType=_kernelType;
-@property(nonatomic) int layout; // @synthesize layout=_layout;
-@property(nonatomic) int maskType; // @synthesize maskType=_maskType;
-@property(nonatomic) int windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

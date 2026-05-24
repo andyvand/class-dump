@@ -5,10 +5,11 @@
 //
 
 @protocol MKTransitItemIncidentView
+- (void);
+- (void) ;
 - (void)39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})},N,V_key;
 
 // Remaining properties
 @property(nonatomic) long long cellPosition;
-@property(nonatomic) _Bool padBottom;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIAutoScrollerItemBehavior
 {
@@ -16,17 +14,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (struct UIEdgeInsets)nt;
+- (struct UIEdgeInsets)_trailingLabelTrailingConstraint;
 - (void)w controller:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) struct UIEdgeInsets touchInsets; // @synthesize touchInsets=_touchInsets;
 
 @end

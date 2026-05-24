@@ -11,19 +11,18 @@
 + (_Bool);
 + (id)tes:(struct _NSZone *)arg1 %@;
 + (id);
-- (id *);
+- (id *)f;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)Z;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long)ATE TRIGGER IF NOT EXISTS %@_UPDATE_UNSET AFTER UPDATE OF %@ ON %@ FOR EACH ROW WHEN (OLD.%@ NOT NULL AND OLD.%@ NOT NULL AND (NEW.%@ IS NULL OR NEW.%@ IS NULL)%@);
 
 // Remaining properties
-@property(readonly, nonatomic) id *keys;
 @property(readonly, nonatomic) unsigned long long length;
 
 @end

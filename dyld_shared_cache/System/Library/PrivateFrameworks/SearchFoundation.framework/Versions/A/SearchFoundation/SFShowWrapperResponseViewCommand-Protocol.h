@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFCATModel;
+@class SFCATModel;
 
 @protocol SFShowWrapperResponseViewCommand
 
 // Remaining properties
 @property(retain, nonatomic) SFCATModel *catModel;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

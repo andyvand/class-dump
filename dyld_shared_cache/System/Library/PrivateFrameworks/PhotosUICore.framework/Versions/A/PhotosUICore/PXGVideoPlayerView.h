@@ -9,7 +9,6 @@
 @interface PXGVideoPlayerView
 {
     id <NSCopying> _userData;
-    struct CGRect _clippingRect;
 }
 
 - (void);
@@ -21,19 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) id <NSCopying> userData; // @synthesize userData=_userData;
 
 @end

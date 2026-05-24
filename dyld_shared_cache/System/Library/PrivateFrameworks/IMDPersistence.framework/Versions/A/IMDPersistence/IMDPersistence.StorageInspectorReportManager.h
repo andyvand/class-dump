@@ -7,7 +7,6 @@
 @interface IMDPersistence.StorageInspectorReportManager
 {
     id $__lazy_storage_$_reportDirectoryURL;
-    id report;
 }
 
 @end

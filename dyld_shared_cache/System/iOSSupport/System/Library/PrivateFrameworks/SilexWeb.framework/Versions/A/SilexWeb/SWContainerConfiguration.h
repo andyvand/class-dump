@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLocale, NSString, NSURL, SWFeedConfiguration, SWLayoutGuide;
-@protocol SWLocation;
+@class NSString;
 
 @interface SWContainerConfiguration
 {
     _Bool _supportsLiveActivities;
-    NSString *_storeFront;
-    NSLocale *_locale;
-    NSString *_contentEnvironment;
-    NSString *_contentSizeCategory;
-    SWLayoutGuide *_layoutGuide;
-    NSDictionary *_dataSources;
-    id <SWLocation> _location;
-    NSURL *_sourceURL;
-    NSURL *_activePictureInPictureURL;
-    SWFeedConfiguration *_feedConfiguration;
-    NSString *_identifier;
 }
 
 - (void);
@@ -28,42 +16,31 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)y/PrivateFrameworks/iTunesCloud.framework/iTunesCloud;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ableView"16@"NSIndexPath"24;
+- (void)tring",C,N,V_fontName;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id)h;
+- (id)clientSource;
 - (void);
 - (id);
 - (id);
 - (void)L ÿÿúWÅ»;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL=_activePictureInPictureURL;
-@property(copy, nonatomic) NSString *contentEnvironment; // @synthesize contentEnvironment=_contentEnvironment;
-@property(copy, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(copy, nonatomic) NSDictionary *dataSources; // @synthesize dataSources=_dataSources;
-@property(copy, nonatomic) SWFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) SWLayoutGuide *layoutGuide; // @synthesize layoutGuide=_layoutGuide;
-@property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) id <SWLocation> location; // @synthesize location=_location;
-@property(copy, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(copy, nonatomic) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(nonatomic) _Bool supportsLiveActivities; // @synthesize supportsLiveActivities=_supportsLiveActivities;
 
 @end
 

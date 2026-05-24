@@ -8,7 +8,6 @@
 {
     id extensionIdentity;
     id extensionBundleIdentifier;
-    id $__lazy_storage_$_viewController;
 }
 
 @end

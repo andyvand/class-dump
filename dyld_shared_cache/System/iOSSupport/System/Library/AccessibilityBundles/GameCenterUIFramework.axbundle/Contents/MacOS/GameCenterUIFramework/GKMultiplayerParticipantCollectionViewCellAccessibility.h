@@ -14,8 +14,8 @@
 + (id);
 + (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)7;
+- (id)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 
 @end
 

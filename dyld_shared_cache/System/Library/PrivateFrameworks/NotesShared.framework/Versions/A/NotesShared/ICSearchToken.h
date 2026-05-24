@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _CSSuggestionToken;
+@class _CSSuggestionToken;
 
 @interface ICSearchToken
 {
     _CSSuggestionToken *_csToken;
-    NSString *_title;
-    NSString *_subQueryString;
-    unsigned long long _suggestionType;
-    NSString *_iconImageName;
 }
 
 + (unsigned long long);
++ (id)__unwind_info;
 + (id);
-+ (id);
-- (id);
+- (id)record ref;
 - (void);
-- (id);
-- (id);
+- (id)getServerRec:(id)arg1;
+- (id)i:(id)arg1 //%2Fvar%2Frun%2Fldapi;
 - (id);
 - (void);
 - (unsigned long long);
@@ -35,14 +31,7 @@
 - (unsigned long long)leting CKAssets generated from creation of temporary record;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableScopes;
 @property(retain, nonatomic) _CSSuggestionToken *csToken; // @synthesize csToken=_csToken;
-@property(retain, nonatomic) NSString *iconImageName; // @synthesize iconImageName=_iconImageName;
-@property(readonly, nonatomic) NSString *scopeName;
-@property(readonly, nonatomic) unsigned long long selectedScopeIndex;
-@property(readonly, nonatomic) NSString *subQueryString; // @synthesize subQueryString=_subQueryString;
-@property(readonly, nonatomic) unsigned long long suggestionType; // @synthesize suggestionType=_suggestionType;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

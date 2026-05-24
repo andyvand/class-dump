@@ -5,13 +5,11 @@
 //
 
 @class AVTStickerGenerator;
-@protocol AVTAvatarRecord;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarStickerGeneratorProvider
 {
     AVTStickerGenerator *_generator;
-    id <AVTAvatarRecord> _avatarRecord;
 }
 
 - (void);
@@ -22,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)iewDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
 @property(retain, nonatomic) AVTStickerGenerator *generator; // @synthesize generator=_generator;
 
 @end

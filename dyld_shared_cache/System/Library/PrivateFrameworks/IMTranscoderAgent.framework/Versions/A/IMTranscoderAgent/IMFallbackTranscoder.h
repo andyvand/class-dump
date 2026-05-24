@@ -11,13 +11,13 @@
     IMFallbackTranscoder_AudioMessage *_audioTranscoder;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)metaData;
+- (void)ngRef, CFDictionaryRef);
+- (void)nCMTime(FigEndpointPlaybackSessionRef, CFDictionaryRef, CFDictionaryRef *);
+- (void)snapInUseCoarseEstimation;
+- (void)snapInInnerBoundary;
+- (id)_APKeyHolderCoreUtilsEncryptionContextDataStreamGetSeed;
+- (id)KeyHolderCoreUtilsCreate(CFAllocatorRef, APPairingClientRef, APSKeyHolderRef *);
 - (void);
 
 // Remaining properties

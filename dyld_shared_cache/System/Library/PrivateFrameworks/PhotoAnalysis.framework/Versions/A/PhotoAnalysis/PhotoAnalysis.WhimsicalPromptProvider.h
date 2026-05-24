@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.WhimsicalPromptProvider
 {
     id logger;
-    id templateCache;
-    id validator;
 }
 
 @end

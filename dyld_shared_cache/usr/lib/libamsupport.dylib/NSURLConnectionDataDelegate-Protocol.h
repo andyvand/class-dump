@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSInputStream;
+
 @protocol NSURLConnectionDataDelegate
+
+@optional
+- (NSInputStream *);
+- (void)s Chosen Asset %{public}@;
 @end
 

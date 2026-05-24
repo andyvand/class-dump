@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKInk, PKLinedPaper, PKTool, UIImage;
-@protocol UITextViewDrawingDelegate;
-
 @interface UnknownClass (UITextViewDrawing)
 - (void);
 - (void);
@@ -67,16 +64,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setCropDrawingAttachmentsWhenViewIsSmaller:) _Bool _cropDrawingAttachmentsWhenViewIsSmaller;
-@property(readonly, nonatomic) _Bool _isHandwritingToolSelected;
-@property(copy, nonatomic, setter=_setTool:) PKTool *_tool;
-@property(nonatomic) __weak id <UITextViewDrawingDelegate> drawingDelegate;
-@property(nonatomic, getter=isFingerDrawingEnabled) _Bool fingerDrawingEnabled;
-@property(copy, nonatomic) PKInk *ink;
-@property(copy, nonatomic) PKLinedPaper *linedPaper;
-@property(nonatomic, getter=isPaperEnabled) _Bool paperEnabled;
-@property(retain, nonatomic) UIImage *paperTexture;
-@property(nonatomic, getter=isRulerEnabled) _Bool rulerEnabled;
 @property(nonatomic, getter=isStylusDrawingEnabled) _Bool stylusDrawingEnabled;
 @end
 

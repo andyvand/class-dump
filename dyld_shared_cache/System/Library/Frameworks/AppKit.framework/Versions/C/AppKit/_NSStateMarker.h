@@ -6,28 +6,22 @@
 
 #import <AppKit/NSBindingSelectionMarker.h>
 
-@class NSColor, NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface _NSStateMarker : NSBindingSelectionMarker
 {
     short _type;
-    NSMapTable *_placeholderRegistry;
-    NSMapTable *_cachedPlaceholderRegistry;
-    NSColor *_textColor;
-    unsigned long long _placeholderBindingsMask;
 }
 
-- (void);
-- (void);
+- (void)le serial number:(id)arg1 %s;
+- (void)ifications for %@;
 - (id);
 - (unsigned long long);
-- (void);
-- (oneway void);
+- (void)@;
+- (oneway void)h;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id)ithmetic:(id)arg1;
+- (id)_setWrapsDateComponentArithmetic:(id)arg1;
 - (id);
 - (id)blic}@;
 - (short);

@@ -8,15 +8,9 @@ __attribute__((visibility("hidden")))
 @interface VCStatisticsHistory
 {
     struct VCStatisticsStatsHistoryElement _statsHistory[512];
-    int _statsHistorySize;
-    int _currentStatsHistoryIndex;
-    struct VCStatisticsStatsHistoryElement _lastStats;
-    unsigned char _currentLinkID;
-    double _lastHistoryNotEnoughLogTime;
-    struct VCStatisticsSendHistoryElement *_sendHistory;
 }
 
-- (void);
+- (void)F9h;
 - (void);
 
 @end

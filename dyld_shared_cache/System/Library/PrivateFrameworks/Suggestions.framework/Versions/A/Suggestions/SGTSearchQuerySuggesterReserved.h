@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SGTSpotlightCollector;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SGTSearchQuerySuggesterReserved
 {
     NSArray *attributeNames;
-    NSString *baseQuery;
-    unsigned long long queryID;
-    NSArray *searchScope;
-    NSArray *excludeSearchScope;
-    NSArray *includeSearchBundle;
-    NSArray *additionalAttributeNames;
-    NSArray *sortingAttributeNames;
-    NSMutableDictionary *shortNameToAttributes;
-    _Bool matchesFinderFilesOnly;
-    _Bool matchesSupportFiles;
-    _Bool canGenerateTopHits;
-    _Bool runWarmingQuery;
-    SGTSpotlightCollector *collector;
 }
 
-- (void);
+- (void)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 
 @end
 

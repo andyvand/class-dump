@@ -7,10 +7,6 @@
 @interface Network.OutputHarnessProtocol
 {
     id inputHandler;
-    id pendingOutputPackets;
-    id nextInputPacket;
-    id logString;
-    id maximumOutputSize;
 }
 
 @end

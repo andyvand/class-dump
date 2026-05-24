@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSDate, NSString;
 
 @interface DOCUserInterfaceState
 {
     NSString *_mostRecentlyVisitedEffectiveTabIdentifier;
-    NSData *_mostRecentlyVisitedBrowsedState_Recents;
-    NSData *_mostRecentlyVisitedBrowsedState_Shared;
-    NSData *_mostRecentlyVisitedBrowsedState_FullBrowser;
-    NSData *_lastUsedOpenSaveLocation;
-    NSNumber *_sizeSetting;
-    NSNumber *_sizeSliderValue;
-    NSDictionary *_sortingMode;
-    NSMutableDictionary *_groupingBehaviors;
-    NSMutableDictionary *_displayModes;
-    NSNumber *_userPrefersTiledSidebarHidden;
-    NSDate *_lastUpdatedDate;
-    NSNumber *_isInUIPDocumentLanding;
-    unsigned long long _configurationDefaultsVersion;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)c;
 - (void);
 - (void);
 - (void);
@@ -39,6 +24,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -47,36 +34,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)interleavedIndicesChannels;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long configurationDefaultsVersion; // @synthesize configurationDefaultsVersion=_configurationDefaultsVersion;
-@property(readonly, nonatomic) NSMutableDictionary *displayModes; // @synthesize displayModes=_displayModes;
-@property(readonly, nonatomic) NSMutableDictionary *groupingBehaviors; // @synthesize groupingBehaviors=_groupingBehaviors;
-@property(retain, nonatomic) NSNumber *isInUIPDocumentLanding; // @synthesize isInUIPDocumentLanding=_isInUIPDocumentLanding;
 @property(retain, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(retain, nonatomic) NSData *lastUsedOpenSaveLocation; // @synthesize lastUsedOpenSaveLocation=_lastUsedOpenSaveLocation;
-@property(retain, nonatomic) NSData *mostRecentlyVisitedBrowsedState_FullBrowser; // @synthesize mostRecentlyVisitedBrowsedState_FullBrowser=_mostRecentlyVisitedBrowsedState_FullBrowser;
-@property(retain, nonatomic) NSData *mostRecentlyVisitedBrowsedState_Recents; // @synthesize mostRecentlyVisitedBrowsedState_Recents=_mostRecentlyVisitedBrowsedState_Recents;
-@property(retain, nonatomic) NSData *mostRecentlyVisitedBrowsedState_Shared; // @synthesize mostRecentlyVisitedBrowsedState_Shared=_mostRecentlyVisitedBrowsedState_Shared;
-@property(retain, nonatomic) NSString *mostRecentlyVisitedEffectiveTabIdentifier; // @synthesize mostRecentlyVisitedEffectiveTabIdentifier=_mostRecentlyVisitedEffectiveTabIdentifier;
-@property(retain, nonatomic) NSNumber *sizeSetting; // @synthesize sizeSetting=_sizeSetting;
-@property(retain, nonatomic) NSNumber *sizeSliderValue; // @synthesize sizeSliderValue=_sizeSliderValue;
-@property(retain, nonatomic) NSDictionary *sortingMode; // @synthesize sortingMode=_sortingMode;
-@property(retain, nonatomic) NSNumber *userPrefersTiledSidebarHidden; // @synthesize userPrefersTiledSidebarHidden=_userPrefersTiledSidebarHidden;
 
 @end
 

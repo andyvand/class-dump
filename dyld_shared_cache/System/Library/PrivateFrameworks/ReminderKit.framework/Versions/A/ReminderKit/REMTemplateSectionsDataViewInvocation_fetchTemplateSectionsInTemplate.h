@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)NSt3__120__shared_ptr_pointerIPN4E5RT24ExecutionStreamOperationENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE;
 - (void);
 - (id);
 - (void)Ñr 1Â0@ù

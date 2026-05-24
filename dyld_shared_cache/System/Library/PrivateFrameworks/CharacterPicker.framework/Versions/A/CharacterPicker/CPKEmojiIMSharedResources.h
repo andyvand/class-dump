@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSImage, NSMutableArray, NSObject;
-@protocol OS_dispatch_semaphore;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface CPKEmojiIMSharedResources
 {
     _Bool _emojiViewOncePrepared;
-    _Bool _isDataReady;
-    _Bool _isRTLDirection;
-    NSBundle *_frameworkBundle;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSMutableArray *_suggested;
-    NSMutableArray *_displayingRecents;
-    NSMutableArray *_localRecents;
-    NSMutableArray *_categoryDataArray;
-    NSImage *_recentsImage;
-    NSMutableArray *_categoryImages;
 }
 
 + (id);
@@ -28,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-- (unsigned long long);
+- (unsigned long long)N;
 - (void);
 - (void);
-- (void);
+- (void)kl;
 - (void);
 - (void);
 - (void);
@@ -49,18 +38,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -73,18 +62,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSMutableArray *categoryDataArray; // @synthesize categoryDataArray=_categoryDataArray;
-@property(retain) NSMutableArray *categoryImages; // @synthesize categoryImages=_categoryImages;
-@property(retain) NSMutableArray *displayingRecents; // @synthesize displayingRecents=_displayingRecents;
-@property _Bool emojiViewOncePrepared; // @synthesize emojiViewOncePrepared=_emojiViewOncePrepared;
 @property(retain) NSBundle *frameworkBundle; // @synthesize frameworkBundle=_frameworkBundle;
-@property(readonly) _Bool hasSuggestedEmojis;
-@property _Bool isDataReady; // @synthesize isDataReady=_isDataReady;
-@property _Bool isRTLDirection; // @synthesize isRTLDirection=_isRTLDirection;
-@property(retain) NSMutableArray *localRecents; // @synthesize localRecents=_localRecents;
-@property(retain) NSImage *recentsImage; // @synthesize recentsImage=_recentsImage;
-@property NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(retain) NSMutableArray *suggested; // @synthesize suggested=_suggested;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol QCPlugInInputImageSource
+- (void)P;
+- (unsigned long long);
+- (struct CGColorSpace *);
+- (unsigned long long)ount}}16{shared_ptr<ML3DAAPImportItem>=^{ML3DAAPImportItem}^{__shared_weak_count}}32^q48;
 @end
 

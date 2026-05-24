@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSBusinessCacheUpdater, NSDictionary, NSString, PGGraphBuilder;
+@class NSDictionary, PGGraphBuilder;
 
 @interface PGGraphIngestPointsOfInterestProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    CLSBusinessCacheUpdater *_businessCacheUpdater;
-    NSDictionary *_momentNodesToResolvePOIByRegion;
-    NSDictionary *_momentNodesToResolvePOIAndEnrichByBusinessItemMuid;
 }
 
-+ (unsigned long long);
++ (unsigned long long)ng.%@;
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)set_previousValues:(id)arg1;
+- (id)__inputMarkingSessionStartPosition;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -29,15 +26,7 @@
 - (void)pFilteringContexts];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *momentNodesToResolvePOIAndEnrichByBusinessItemMuid; // @synthesize momentNodesToResolvePOIAndEnrichByBusinessItemMuid=_momentNodesToResolvePOIAndEnrichByBusinessItemMuid;
 @property(readonly, nonatomic) NSDictionary *momentNodesToResolvePOIByRegion; // @synthesize momentNodesToResolvePOIByRegion=_momentNodesToResolvePOIByRegion;
-@property(readonly) Class superclass;
 
 @end
 

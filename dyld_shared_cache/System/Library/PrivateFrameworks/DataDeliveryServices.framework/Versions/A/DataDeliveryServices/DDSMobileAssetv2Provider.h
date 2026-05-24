@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAssetQueryResultCache, NSMutableDictionary, NSString;
-@protocol DDSAssetProvidingDelegate, DDSMobileAssetv2ProviderDataSource;
+@class DDSAssetQueryResultCache;
 
 @interface DDSMobileAssetv2Provider
 {
     struct os_unfair_lock_s _lock;
-    id <DDSAssetProvidingDelegate> delegate;
-    DDSAssetQueryResultCache *_assetQueryResultsCache;
-    NSMutableDictionary *_downloadStateByAssetID;
-    NSMutableDictionary *_compatibilityVersionByAssetType;
-    id <DDSMobileAssetv2ProviderDataSource> _dataSource;
 }
 
 + (id);
-+ (id);
++ (id)`;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)w/;
+- (void)T;
 - (_Bool);
 - (id);
 - (id);
@@ -38,33 +32,22 @@
 - (id);
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)@24;
+- (id)able to update counter for authenticator data;
 - (void);
 - (id);
-- (id);
+- (id)N7morphun7grammar9synthesis40FiGrammarSynthesizer_CountLookupFunctionE;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)completenessThirdTimeInterval;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) DDSAssetQueryResultCache *assetQueryResultsCache; // @synthesize assetQueryResultsCache=_assetQueryResultsCache;
-@property(readonly, nonatomic) NSMutableDictionary *compatibilityVersionByAssetType; // @synthesize compatibilityVersionByAssetType=_compatibilityVersionByAssetType;
-@property(readonly, nonatomic) id <DDSMobileAssetv2ProviderDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <DDSAssetProvidingDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *downloadStateByAssetID; // @synthesize downloadStateByAssetID=_downloadStateByAssetID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

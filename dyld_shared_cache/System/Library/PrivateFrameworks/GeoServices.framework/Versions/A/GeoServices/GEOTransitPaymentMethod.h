@@ -9,28 +9,21 @@
 @interface GEOTransitPaymentMethod
 {
     GEOPBTransitPaymentMethod *_pbPaymentMethod;
-    int paymentMethodType;
-    int addValueNameType;
-    NSString *identifier;
-    unsigned long long muid;
 }
 
 - (int);
 - (id);
-- (int);
+- (int){public}@;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id)¡	'ð!LEùQº*°1Â0@ù
 × ;
-- (id)tGuid: /* Error: Ran out of types for this method. */;
+- (id)setRequestGuid: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int addValueNameType; // @synthesize addValueNameType;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(readonly, nonatomic) unsigned long long muid; // @synthesize muid;
-@property(readonly, nonatomic) int paymentMethodType; // @synthesize paymentMethodType;
 
 @end
 

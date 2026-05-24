@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSSharingServicePicker, NSURL, NSUndoManager;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSUndoManager *);
+- (void)CodingKeys;
+- (void)RegionDefaultsResult;
+- (void)MemberRegionInfo;
+- (NSArray *)FamilyCircle;
+- (NSSharingServicePicker *)InternalRegulatoryFeature;
+- (NSArray *)ClientMetadata;
+- (_Bool);
+- (void)AgeRangeDaemonServiceNewInfoCalculator;
+- (void)R;
+- (void);
+- (NSArray *)NSPersistentCloudKitContainerProtocol;
+- (NSURL *)CKShareParticipantProtocol;
+- (_Bool)__kCMFItemEmailUnformattedKey;
 @end
 

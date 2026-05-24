@@ -9,12 +9,11 @@
 @interface MFSearchableIndexQueryFactory_macOS
 {
     NSString *_emailContentType;
-    NSString *_attachmentFormatString;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)9h;
 + (id);
 + (id);
 + (id);
@@ -28,7 +27,6 @@
 - (void)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attachmentFormatString; // @synthesize attachmentFormatString=_attachmentFormatString;
 @property(readonly, nonatomic) NSString *emailContentType; // @synthesize emailContentType=_emailContentType;
 
 @end

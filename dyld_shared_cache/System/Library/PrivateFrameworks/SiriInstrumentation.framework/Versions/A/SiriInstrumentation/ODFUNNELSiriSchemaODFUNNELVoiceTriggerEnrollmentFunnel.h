@@ -6,16 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -26,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -34,16 +32,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)text;
+- (id)deleteExecutorPersonQueryCallContext;
 - (id);
 - (id)etTypes;
 - (void)PayloadCorrectionExperimentTier1;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

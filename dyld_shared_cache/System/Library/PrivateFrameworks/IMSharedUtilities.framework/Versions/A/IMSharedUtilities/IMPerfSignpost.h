@@ -12,10 +12,10 @@
 + (void);
 + (void);
 + (void);
++ (void)@;
 + (void);
 + (void);
-+ (void);
-- (id);
+- (id)ved.updated-payment-request;
 - (void)Ùÿ;
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty, RFVisualProperty, SFButtonItem;
+@class RFTextProperty;
 
 @protocol RFSummaryItemPlayerCardSection
+- (void);
+- (RFTextProperty *)_menuItemsForRVItem:onPage:atPagePoint: /* Error: Ran out of types for this method. */;
+- (void)PHResourceLocalAvailabilityRequestFullSizeVideoUTIKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFButtonItem *player;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFTextProperty *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

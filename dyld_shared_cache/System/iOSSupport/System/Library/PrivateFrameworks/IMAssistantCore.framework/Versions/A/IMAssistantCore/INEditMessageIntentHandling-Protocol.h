@@ -5,5 +5,8 @@
 //
 
 @protocol INEditMessageIntentHandling
+
+@optional
+- (void);
 @end
 

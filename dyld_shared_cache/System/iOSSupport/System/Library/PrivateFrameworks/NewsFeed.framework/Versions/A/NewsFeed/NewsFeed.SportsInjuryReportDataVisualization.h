@@ -7,13 +7,6 @@
 @interface NewsFeed.SportsInjuryReportDataVisualization
 {
     id identifier;
-    id umcCanonicalId;
-    id event;
-    id embedUrl;
-    id urlDataSources;
-    id roster;
-    id config;
-    id configuredEmbedUrl;
 }
 
 @end

@@ -6,38 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UILabel;
+@class UILabel;
 
 @interface _UIDragBadge : UIView
 {
     UILabel *_label;
-    UIImageView *_imageView;
-    long long _style;
-    long long _itemCount;
 }
 
 - (struct CGPoint);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)ualColumns:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void)
 × ;
-- (void)onModeManager:(id)arg1 didChangeToMode: /* Error: Ran out of types for this method. */;
-- (id)earchController;
-- (id);
+- (void)scenePresentationModeManager:(id)arg1 didChangeToMode: /* Error: Ran out of types for this method. */;
+- (id)_configureForObservingByTVSearchController;
+- (id)4;
 - (struct CGSize)hX;
 - (long long)wift;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *_imageView; // @synthesize _imageView;
 @property(readonly, nonatomic) UILabel *_label; // @synthesize _label;
-@property(readonly, nonatomic) struct CGPoint anchorPointForAlignment;
-@property(nonatomic) long long itemCount; // @synthesize itemCount=_itemCount;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatFrameNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id contentIdentifier;
-    id frame;
 }
 
 @end

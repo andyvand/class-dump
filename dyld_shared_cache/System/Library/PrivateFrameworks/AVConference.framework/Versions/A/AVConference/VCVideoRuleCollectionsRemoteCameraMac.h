@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsMacProtocol> _hardwareSettings;
 }
 
-+ (id);
++ (id)relayServer;
 - (id);
 - (_Bool);
 

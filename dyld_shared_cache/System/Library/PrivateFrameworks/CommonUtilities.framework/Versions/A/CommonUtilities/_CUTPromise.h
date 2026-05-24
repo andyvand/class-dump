@@ -6,35 +6,29 @@
 
 #import <CommonUtilities/CUTPromise.h>
 
-@class CUTResult, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _CUTPromise : CUTPromise
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    _Bool _done;
-    CUTResult *_result;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)a;
+- (void);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool done; // @synthesize done=_done;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CUTResult *result; // @synthesize result=_result;
 
 @end
 

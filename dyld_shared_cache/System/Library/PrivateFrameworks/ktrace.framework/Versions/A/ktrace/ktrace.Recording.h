@@ -7,23 +7,6 @@
 @interface ktrace.Recording
 {
     id planPath;
-    id plan;
-    id recording;
-    id inProcessFile;
-    id finishedFile;
-    id toolName;
-    id waitQueue;
-    id options;
-    id subclassBitmap;
-    id session;
-    id endReason;
-    id primaryEndReason;
-    id waitComplete;
-    id kernelDisableWaiter;
-    id endWaitGroup;
-    id reporter;
-    id kdebugPostprocessing;
-    id pendingExtension;
 }
 
 @end

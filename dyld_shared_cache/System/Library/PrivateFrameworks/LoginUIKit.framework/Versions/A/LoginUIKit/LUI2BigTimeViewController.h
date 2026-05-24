@@ -6,35 +6,26 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2VibrancyEffectView, LUIClockSettings, LoginUIKit.LUI2GlassTextView, NSDateFormatter, NSTextField, NSView;
-@protocol LUIClockTimerHandle;
+@class NSDateFormatter, NSTextField;
 
 @interface LUI2BigTimeViewController : LUI2ViewController
 {
     NSDateFormatter *_formatter;
-    LUI2VibrancyEffectView *_vibrancyView;
-    id <LUIClockTimerHandle> _clockTimer;
-    LUIClockSettings *_clockSettings;
-    NSView *_timeView;
-    id _target;
-    SEL _action;
-    NSTextField *_timeTextField;
-    LoginUIKit.LUI2GlassTextView *_glassTextView;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)h;
+- (id);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -47,12 +38,7 @@
 - (void)NSCollectionViewItem"24@"NSIndexPath"32;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(retain) LUIClockSettings *clockSettings; // @synthesize clockSettings=_clockSettings;
-@property(retain) LoginUIKit.LUI2GlassTextView *glassTextView; // @synthesize glassTextView=_glassTextView;
-@property id target; // @synthesize target=_target;
 @property(retain) NSTextField *timeTextField; // @synthesize timeTextField=_timeTextField;
-@property(retain) NSView *timeView; // @synthesize timeView=_timeView;
 
 @end
 

@@ -7,11 +7,9 @@
 @interface AXTrampoline
 {
     _Bool _warnAboutUnknownSelectors;
-    id _caller;
-    Class _targetClass;
 }
 
-+ (id);
++ (id)P;
 + (id);
 + (void);
 - (_Bool);
@@ -21,7 +19,7 @@
 - (CDUnknownFunctionPointerType);
 - (id);
 - (Class);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id caller; // @synthesize caller=_caller;
-@property(nonatomic) __weak Class targetClass; // @synthesize targetClass=_targetClass;
-@property(nonatomic) _Bool warnAboutUnknownSelectors; // @synthesize warnAboutUnknownSelectors=_warnAboutUnknownSelectors;
 
 @end
 

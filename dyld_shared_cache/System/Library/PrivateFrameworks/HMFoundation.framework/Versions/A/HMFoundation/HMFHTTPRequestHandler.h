@@ -11,9 +11,6 @@
 @interface HMFHTTPRequestHandler : HMFObject
 {
     NSPredicate *_methodPredicate;
-    NSPredicate *_URLPredicate;
-    CDUnknownBlockType _matchBlock;
-    CDUnknownBlockType _requestBlock;
 }
 
 + (_Bool);
@@ -22,17 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)kPhotoLibraryAlbumKind_RecoveredAlbum;
 - (id);
 - (void);
 - (CDUnknownBlockType)!lCù{ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSPredicate *URLPredicate; // @synthesize URLPredicate=_URLPredicate;
-@property(readonly, copy, nonatomic) CDUnknownBlockType matchBlock; // @synthesize matchBlock=_matchBlock;
 @property(readonly, copy, nonatomic) NSPredicate *methodPredicate; // @synthesize methodPredicate=_methodPredicate;
-@property(copy, nonatomic) CDUnknownBlockType requestBlock; // @synthesize requestBlock=_requestBlock;
 
 @end
 

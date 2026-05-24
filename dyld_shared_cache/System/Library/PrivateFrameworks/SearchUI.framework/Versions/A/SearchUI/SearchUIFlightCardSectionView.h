@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class FUFlightViewController, NSString, NUIContainerBoxView, SFFlightCardSection;
+@class FUFlightViewController, SFFlightCardSection;
 
 @interface SearchUIFlightCardSectionView : SearchUICardSectionView
 {
     FUFlightViewController *_flightViewController;
-    unsigned long long _lastSelectedLegIndex;
 }
 
 + (void);
@@ -31,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerBoxView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) FUFlightViewController *flightViewController; // @synthesize flightViewController=_flightViewController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long lastSelectedLegIndex; // @synthesize lastSelectedLegIndex=_lastSelectedLegIndex;
 @property(retain, nonatomic) SFFlightCardSection *section; // @dynamic section;
-@property(readonly) Class superclass;
 
 @end
 

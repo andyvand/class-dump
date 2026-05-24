@@ -6,33 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UIVisualEffectView;
-
 __attribute__((visibility("hidden")))
 @interface _UIDimmingKnockoutBackdropView : UIView
 {
     UIView *dimmingKnockoutView;
-    UIVisualEffectView *backdropView;
-    double _alpha;
-    double _currentCornerRadius;
-    double _cornerRadius;
-    long long _style;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)%ld;
+- (id)ntified as RichLink:(long long)arg1 %@;
+- (void)g chat participants for %@ to %@. This was triggered by a regression test.;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void)
 × ;
-- (void)eferenceLocationFromLatestUpdate;
+- (void)_sceneReferenceLocationFromLatestUpdate;
 - (void)entary view element kind:(_Bool)arg1 %@; index path:%@; supplementary view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
 - (double)EnableFeedbackExceptions;
 - (void)ButtonMaximumWidth=%f;
@@ -42,18 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *fillColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

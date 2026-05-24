@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UITableViewDeleteAnimationSupport
 {
     NSMutableArray *_cellsToDeleteAfterAnimation;
-    int _deleteCount;
-    unsigned int _enabledStateBeforeDeleteAnimation:1;
 }
 
 - (void)So17UITraitCollectionCIeyBa_;

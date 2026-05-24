@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CSASRFeatures
 {
     long long _wordCount;
-    long long _trailingSilenceDuration;
-    double _eosLikelihood;
-    NSArray *_pauseCounts;
-    double _silencePosterior;
-    long long _processedAudioDurationInMilliseconds;
-    double _acousticEndpointerScore;
-    NSString *_taskName;
 }
 
 + (id);
@@ -24,11 +15,11 @@
 - (long long);
 - (id);
 - (double);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -38,21 +29,14 @@
 - (double);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)updateMutableContact:(id)arg1 withWallpaperPropertiesFromContact: /* Error: Ran out of types for this method. */;
+- (id)@C;
 - (id);
 - (void);
-- (id);
-- (void)ntrollerDied: /* Error: Ran out of types for this method. */;
+- (id)1;
+- (void)_systemControllerDied: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double acousticEndpointerScore; // @synthesize acousticEndpointerScore=_acousticEndpointerScore;
-@property(nonatomic) double eosLikelihood; // @synthesize eosLikelihood=_eosLikelihood;
-@property(copy, nonatomic) NSArray *pauseCounts; // @synthesize pauseCounts=_pauseCounts;
-@property(nonatomic) long long processedAudioDurationInMilliseconds; // @synthesize processedAudioDurationInMilliseconds=_processedAudioDurationInMilliseconds;
-@property(nonatomic) double silencePosterior; // @synthesize silencePosterior=_silencePosterior;
-@property(copy, nonatomic) NSString *taskName; // @synthesize taskName=_taskName;
-@property(nonatomic) long long trailingSilenceDuration; // @synthesize trailingSilenceDuration=_trailingSilenceDuration;
 @property(nonatomic) long long wordCount; // @synthesize wordCount=_wordCount;
 
 @end

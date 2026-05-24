@@ -6,40 +6,29 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSCollectionView, NSOrderedSet, NSString, _NSQuickActionTouchBarItem;
+@class NSOrderedSet;
 @protocol _NSQuickActionTouchBarCollectionViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarCollectionViewController : NSViewController
 {
     NSOrderedSet *_orderedDataSources;
-    NSCollectionView *_collectionView;
-    _NSQuickActionTouchBarItem *_prototypeItem;
-    _Bool _collectionViewIsVisible;
-    id <_NSQuickActionTouchBarCollectionViewControllerDelegate> _delegate;
 }
 
-- (void);
+- (void):Nano) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (struct CGSize);
-- (void)orNode:outIndex: /* Error: Ran out of types for this method. */;
-- (long long)rentViewController:(id)arg1;
-- (void)estorationStorage;
+- (void)parentNodeForNode:outIndex: /* Error: Ran out of types for this method. */;
+- (long long)willMoveToParentViewController:(id)arg1;
+- (void)RestorationStorage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <_NSQuickActionTouchBarCollectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

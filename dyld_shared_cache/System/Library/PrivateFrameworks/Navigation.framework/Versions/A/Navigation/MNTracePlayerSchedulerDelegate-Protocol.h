@@ -5,5 +5,6 @@
 //
 
 @protocol MNTracePlayerSchedulerDelegate
+- (void);
 @end
 

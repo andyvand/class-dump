@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (double);
-- (id);
-- (id);
+- (id);
+- (double)usly caused imagent to crash, deleting all handled and pending nickname data to allow imagent to properly handle future nickname changes.;
+- (id)eep Message setting to Keep forever.  VersionID:%ld /* Error: Ran out of types for this method. */;
+- (id)__kIMDaemonWillShutdownNotification;
 - (id);
 - (id);
 - (id);

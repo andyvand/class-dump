@@ -4,55 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMIMDFREmojiCategoryListDocumentView, NSLayoutConstraint;
+@class EMIMDFREmojiCategoryListDocumentView;
 
 __attribute__((visibility("hidden")))
 @interface CPKEmojiIMEmojiListView
 {
     _Bool _categoryExpanded;
-    _Bool _dontPinningContent;
-    _Bool _adjustedLeadingForEdgeShadow;
-    _Bool _settingInitialState;
-    _Bool _categoryPullOutOverRun;
-    _Bool _categoryPullingOut;
-    NSLayoutConstraint *_listLeadingConstraint;
-    double _categoryPullOutLimitWidth;
-    EMIMDFREmojiCategoryListDocumentView *_savedCategoryDocument;
-    double _normalLeadingConstant;
-    double _categoryPullOutBasePos;
-    double _categoryPullOutCurrentPos;
-    struct CGRect _pinningStartVisibleRect;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)9i"A);Ki;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)?k;
 - (id);
-- (struct CGRect);
+- (struct CGRect)K(h
+;
+- (double)t;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (double);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
+- (double)/;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -63,19 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool adjustedLeadingForEdgeShadow; // @synthesize adjustedLeadingForEdgeShadow=_adjustedLeadingForEdgeShadow;
-@property _Bool categoryExpanded; // @synthesize categoryExpanded=_categoryExpanded;
-@property double categoryPullOutBasePos; // @synthesize categoryPullOutBasePos=_categoryPullOutBasePos;
-@property double categoryPullOutCurrentPos; // @synthesize categoryPullOutCurrentPos=_categoryPullOutCurrentPos;
-@property double categoryPullOutLimitWidth; // @synthesize categoryPullOutLimitWidth=_categoryPullOutLimitWidth;
-@property _Bool categoryPullOutOverRun; // @synthesize categoryPullOutOverRun=_categoryPullOutOverRun;
-@property _Bool categoryPullingOut; // @synthesize categoryPullingOut=_categoryPullingOut;
-@property _Bool dontPinningContent; // @synthesize dontPinningContent=_dontPinningContent;
-@property NSLayoutConstraint *listLeadingConstraint; // @synthesize listLeadingConstraint=_listLeadingConstraint;
-@property double normalLeadingConstant; // @synthesize normalLeadingConstant=_normalLeadingConstant;
-@property struct CGRect pinningStartVisibleRect; // @synthesize pinningStartVisibleRect=_pinningStartVisibleRect;
 @property(retain) EMIMDFREmojiCategoryListDocumentView *savedCategoryDocument; // @synthesize savedCategoryDocument=_savedCategoryDocument;
-@property _Bool settingInitialState; // @synthesize settingInitialState=_settingInitialState;
 
 @end
 

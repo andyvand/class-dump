@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDAbstractLayerReference.h>
 
-@class TDLayerStackRenditionSpec, TDNamedArtworkProduction;
+@class TDNamedArtworkProduction;
 
 @interface TDLayerReference : TDAbstractLayerReference
 {
@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDNamedArtworkProduction *reference; // @dynamic reference;
-@property(retain, nonatomic) TDLayerStackRenditionSpec *stack; // @dynamic stack;
 
 @end
 

@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface AVPlayerItemAudioTrackInfo
 {
     int trackID;
-    int channelCount;
 }
 
 + (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (_Bool);
 
 @end

@@ -11,12 +11,12 @@
     NSMutableDictionary *featureTransformersForFeatureExtractors;
 }
 
-- (void);
+- (void)firstAncestorWithinDistance:(id)arg1 matchingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)tiveScenes;
+- (void)positiveScenes;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *featureTransformersForFeatureExtractors; // @synthesize featureTransformersForFeatureExtractors;

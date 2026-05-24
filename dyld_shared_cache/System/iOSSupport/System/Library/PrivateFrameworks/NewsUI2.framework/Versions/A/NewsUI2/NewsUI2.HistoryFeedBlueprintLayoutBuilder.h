@@ -7,7 +7,6 @@
 @interface NewsUI2.HistoryFeedBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
 }
 
 @end

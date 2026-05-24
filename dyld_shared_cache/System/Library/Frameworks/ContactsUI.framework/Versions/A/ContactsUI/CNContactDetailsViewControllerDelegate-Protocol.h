@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ABCardViewDelegate;
+
 @protocol CNContactDetailsViewControllerDelegate
+- (id <ABCardViewDelegate>)reUI;
+
+@optional
+- (void)T);
 @end
 

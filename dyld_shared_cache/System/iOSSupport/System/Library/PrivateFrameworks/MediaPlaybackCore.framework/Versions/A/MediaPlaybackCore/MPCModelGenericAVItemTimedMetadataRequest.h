@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, MPCModelGenericAVItemTimedMetadataResponse, MPModelGenericObject, NSArray;
+@class MPCModelGenericAVItemTimedMetadataResponse;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemTimedMetadataRequest
 {
     MPCModelGenericAVItemTimedMetadataResponse *_previousResponse;
-    MPModelGenericObject *_genericObject;
-    ICStoreRequestContext *_storeRequestContext;
-    NSArray *_timedMetadataGroups;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
+- (id)untsDaemon;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)My Photo Stream for new account %@;
+- (id);
 - (id);
 - (id);
 - (void)lic}@ %{public}@ %2i %{public}@  â delegatedAccount:%{public}@; delegatedDeviceName:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPModelGenericObject *genericObject; // @synthesize genericObject=_genericObject;
 @property(retain, nonatomic) MPCModelGenericAVItemTimedMetadataResponse *previousResponse; // @synthesize previousResponse=_previousResponse;
-@property(readonly, copy, nonatomic) ICStoreRequestContext *storeRequestContext; // @synthesize storeRequestContext=_storeRequestContext;
-@property(readonly, copy, nonatomic) NSArray *timedMetadataGroups; // @synthesize timedMetadataGroups=_timedMetadataGroups;
 
 @end
 

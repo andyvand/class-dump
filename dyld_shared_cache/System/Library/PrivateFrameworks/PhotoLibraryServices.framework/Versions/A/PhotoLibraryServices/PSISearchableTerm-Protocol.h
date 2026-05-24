@@ -5,5 +5,6 @@
 //
 
 @protocol PSISearchableTerm
+- (id)l;
 @end
 

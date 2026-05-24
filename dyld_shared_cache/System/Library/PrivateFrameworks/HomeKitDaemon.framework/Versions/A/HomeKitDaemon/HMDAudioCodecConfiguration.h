@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAudioCodecGroup, HMDAudioCodecParameters, NSData;
+@class HMDAudioCodecGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDAudioCodecConfiguration
 {
     HMDAudioCodecGroup *_codecGroup;
-    HMDAudioCodecParameters *_audioCodecParameters;
 }
 
 + (_Bool)Üd:ø /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
 - (void);
@@ -25,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)èÆùþ5G~&8ÞèþUG~&Çùþ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDAudioCodecParameters *audioCodecParameters; // @synthesize audioCodecParameters=_audioCodecParameters;
 @property(readonly, copy, nonatomic) HMDAudioCodecGroup *codecGroup; // @synthesize codecGroup=_codecGroup;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

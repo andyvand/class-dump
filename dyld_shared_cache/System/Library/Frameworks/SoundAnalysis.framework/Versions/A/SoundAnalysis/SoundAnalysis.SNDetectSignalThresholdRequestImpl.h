@@ -7,9 +7,6 @@
 @interface SoundAnalysis.SNDetectSignalThresholdRequestImpl
 {
     id graphStorage;
-    id sampleRate;
-    id blockSize;
-    id magnitudeThreshold;
 }
 
 @end

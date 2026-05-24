@@ -13,16 +13,14 @@ __attribute__((visibility("hidden")))
 @interface UIKBViewBackedKeyView : UIKBKeyView
 {
     UIView<UIKBKeyViewContentView> *_contentView;
-    UIView *_touchForwardingView;
-    UIKBBackdropView *_backdropView;
 }
 
-- (void);
+- (void)So15NSManagedObjectC;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)hing from server;
+- (id)Relay:(id)arg1 going to write an empty dictionary to the kSMSDefaultsAllowedKey;
+- (id)supported editType=%ld;
 - (_Bool);
 - (void);
 - (id)1Â0@ù
@@ -40,8 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIKBBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) UIView<UIKBKeyViewContentView> *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) __weak UIView *touchForwardingView; // @synthesize touchForwardingView=_touchForwardingView;
 
 @end
 

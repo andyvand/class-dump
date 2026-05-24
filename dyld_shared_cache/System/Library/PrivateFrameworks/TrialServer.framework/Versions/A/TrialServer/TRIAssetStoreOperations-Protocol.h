@@ -5,5 +5,7 @@
 //
 
 @protocol TRIAssetStoreOperations
+- (_Bool);
+- (_Bool);
 @end
 

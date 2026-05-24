@@ -6,16 +6,9 @@
 
 #import <CalendarDraw/CalDrawOccurrence.h>
 
-@class NSString;
-
 @interface CalDrawMonthOccurrence : CalDrawOccurrence
 {
     _Bool _flatLeft;
-    _Bool _flatRight;
-    _Bool _drawDot;
-    NSString *_eventEndTime;
-    double _firstDayWidth;
-    struct CGSize _textSize;
 }
 
 + (void);
@@ -26,24 +19,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (struct CGSize);
-- (void);
+- (void)_WKWebExtensionWebNavigationURLPredicate;
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property _Bool drawDot; // @synthesize drawDot=_drawDot;
-@property(retain) NSString *eventEndTime; // @synthesize eventEndTime=_eventEndTime;
-@property double firstDayWidth; // @synthesize firstDayWidth=_firstDayWidth;
 @property _Bool flatLeft; // @synthesize flatLeft=_flatLeft;
-@property _Bool flatRight; // @synthesize flatRight=_flatRight;
-@property struct CGSize textSize; // @synthesize textSize=_textSize;
 
 @end
 

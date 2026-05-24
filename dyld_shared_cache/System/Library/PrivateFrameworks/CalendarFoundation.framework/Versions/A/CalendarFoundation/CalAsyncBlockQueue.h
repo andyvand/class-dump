@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
 @protocol CalAsyncBlockPerformer;
 
 @interface CalAsyncBlockQueue
 {
     id <CalAsyncBlockPerformer> _blockPerformer;
-    NSMutableSet *_pendingBlocks;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CalAsyncBlockPerformer> blockPerformer; // @synthesize blockPerformer=_blockPerformer;
-@property(readonly, nonatomic) NSMutableSet *pendingBlocks; // @synthesize pendingBlocks=_pendingBlocks;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SXCancel)
-- (void);
+- (void)?};
 @end
 

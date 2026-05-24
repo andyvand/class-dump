@@ -9,13 +9,9 @@
 @interface CPLSharedRemapFixUpTask
 {
     CPLScopedIdentifier *_sharedCloudScopedIdentifier;
-    CPLScopedIdentifier *_realCloudScopedIdentifier;
-    CPLScopedIdentifier *_privateCloudScopedIdentifier;
-    CPLScopedIdentifier *_proposedPrivateScopedIdentifier;
-    Class _recordClass;
 }
 
-- (id);
+- (id)visualIdentifier;
 - (id);
 - (id);
 - (id);
@@ -27,10 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLScopedIdentifier *privateCloudScopedIdentifier; // @synthesize privateCloudScopedIdentifier=_privateCloudScopedIdentifier;
-@property(readonly, nonatomic) CPLScopedIdentifier *proposedPrivateScopedIdentifier; // @synthesize proposedPrivateScopedIdentifier=_proposedPrivateScopedIdentifier;
-@property(readonly, nonatomic) CPLScopedIdentifier *realCloudScopedIdentifier; // @synthesize realCloudScopedIdentifier=_realCloudScopedIdentifier;
-@property(readonly, nonatomic) Class recordClass; // @synthesize recordClass=_recordClass;
 @property(readonly, nonatomic) CPLScopedIdentifier *sharedCloudScopedIdentifier; // @synthesize sharedCloudScopedIdentifier=_sharedCloudScopedIdentifier;
 
 @end

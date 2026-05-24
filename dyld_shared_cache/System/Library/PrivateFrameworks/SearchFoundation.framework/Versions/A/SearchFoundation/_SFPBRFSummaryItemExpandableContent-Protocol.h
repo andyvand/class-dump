@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCommandReference, _SFPBRFSimpleItemRichCardSection;
+@class NSData, _SFPBRFSimpleItemRichCardSection;
 
 @protocol _SFPBRFSummaryItemExpandableContent
+- (void);
+- (NSData *)N,V_focalLength;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *command_reference;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFSimpleItemRichCardSection *simple_item_rich_card_section;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

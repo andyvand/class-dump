@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SGTCategoryReserved;
+@class NSString, SGTCategoryReserved;
 
 @interface SGTCategory
 {
@@ -30,16 +30,11 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)Z;
+- (void)MUPDFContentViewController;
 
 // Remaining properties
-@property(readonly) NSArray *attributeNamesForRawSuggestion;
 @property(readonly) NSString *displayName;
-@property(readonly) unsigned long long position;
-@property _Bool proposesCompletion;
-@property _Bool showsImagesInMenu;
-@property _Bool uniquifiersDrawBelow;
 
 @end
 

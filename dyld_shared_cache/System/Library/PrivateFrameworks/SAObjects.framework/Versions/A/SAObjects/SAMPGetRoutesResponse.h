@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAMPGetRoutesResponse : SABaseCommand
 {
@@ -16,21 +16,12 @@
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)	?׀;
+- (id)a;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
 @property(copy, nonatomic) NSArray *speakers;
-@property(readonly) Class superclass;
 
 @end
 

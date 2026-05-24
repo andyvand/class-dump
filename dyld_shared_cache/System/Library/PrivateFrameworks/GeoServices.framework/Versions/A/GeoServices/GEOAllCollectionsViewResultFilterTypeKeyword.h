@@ -11,13 +11,12 @@
     GEOPDAllCollectionsViewResultFilterTypeKeyword *_filterKeywordIdentifier;
 }
 
-- (id);
-- (id);
+- (id)debugPipelineDescription;
+- (id)_CNCPPhoneNumberUtilitiesFacade;
 - (id);
 - (void)âÒ6;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPDAllCollectionsViewResultFilterTypeKeyword *keywordIdentifier;
 @property(readonly, nonatomic) GEORelatedSearchSuggestion *searchSuggestion;
 
 @end

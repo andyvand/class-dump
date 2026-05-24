@@ -6,36 +6,30 @@
 
 #import <MapKit/_MKUIViewControllerClickableRootView.h>
 
-@class MKImageView, MKViewWithHairline, NSImage, NSLayoutConstraint, NSView, _MKUILabel;
+@class MKViewWithHairline, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface _MKPlaceInlineMapContentView : _MKUIViewControllerClickableRootView
 {
     MKViewWithHairline *_hairlineView;
-    NSLayoutConstraint *_topToTitleConstraint;
-    NSLayoutConstraint *_titleToBottomConstraint;
-    NSView *_mapView;
-    MKImageView *_mapImageView;
-    _MKUILabel *_titleLabel;
 }
 
 - (_Bool);
 - (void);
-- (double);
+- (double)f=%@ to now;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (double);
 - (struct CGSize);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void)rchantRawCity: /* Error: Ran out of types for this method. */;
+- (id)due to remora connection;
+- (void)C;
+- (void)setMerchantRawCity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isBottomHairlineHidden) _Bool bottomHairlineHidden;
 @property(retain, nonatomic) NSImage *map;
 
 @end

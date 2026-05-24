@@ -5,5 +5,6 @@
 //
 
 @protocol AXMServiceInterface
+- (void)z;
 @end
 

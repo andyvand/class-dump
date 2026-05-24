@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface CNPropertyDescription
 {
     NSString *_key;
-    SEL _readSelector;
-    SEL _writeSelector;
-    CDUnknownBlockType _valueForKeyTransform;
-    _Bool _isNonnull;
 }
 
 + (id);
@@ -21,32 +17,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long coreDataBitMask;
-@property(readonly, retain, nonatomic) NSDictionary *coreDataBitMaskedValuesMap;
 @property(readonly, copy, nonatomic) NSString *coreDataKey;
-@property(readonly, copy, nonatomic) NSString *coreDataPredicateKeyPath;
-@property(readonly, retain, nonatomic) NSArray *coreDataPropertyKeysForPrefetching;
-@property(readonly, retain, nonatomic) NSArray *coreDataRelationshipKeyPathsForPrefetching;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *equivalentLabelSets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMultiValue;
-@property(readonly, nonatomic) _Bool isNonnull; // @synthesize isNonnull=_isNonnull;
-@property(readonly, nonatomic) _Bool isRelationship;
-@property(readonly, nonatomic) _Bool isSingleValue;
-@property(readonly, nonatomic) _Bool isWritable;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) id nilValue;
-@property(readonly, nonatomic) SEL readSelector; // @synthesize readSelector=_readSelector;
-@property(readonly, retain, nonatomic) NSDictionary *subCoreDataPredicatePropertiesByKey;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Class valueClass;
-@property(readonly, copy, nonatomic) CDUnknownBlockType valueForKeyTransform; // @synthesize valueForKeyTransform=_valueForKeyTransform;
-@property(readonly, nonatomic) SEL writeSelector; // @synthesize writeSelector=_writeSelector;
 
 @end
 

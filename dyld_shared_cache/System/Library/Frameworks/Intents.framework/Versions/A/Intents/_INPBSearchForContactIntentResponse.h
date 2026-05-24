@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForContactIntentResponse
 {
     struct _has;
-    NSArray *_matchedContacts;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -31,15 +30,7 @@
 - (void)Activity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *matchedContacts; // @synthesize matchedContacts=_matchedContacts;
-@property(readonly, nonatomic) unsigned long long matchedContactsCount;
-@property(readonly) Class superclass;
 
 @end
 

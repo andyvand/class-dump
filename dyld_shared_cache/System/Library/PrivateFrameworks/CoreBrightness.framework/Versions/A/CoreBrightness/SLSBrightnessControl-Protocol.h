@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-
 @protocol SLSBrightnessControl
+- (_Bool)A<;
+- (_Bool)5;
+- (_Bool);
+- (unsigned long long):%s
+ /* Error: Ran out of types for this method. */;
 - (float)y=%@ property=%@ (%s);
 - (_Bool)%x]:(CDStruct_6198f0de *)arg1 ALSRampLuxThreshold key=%@ property=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool brightnessAvailable;
-@property(readonly, copy, nonatomic) NSDictionary *brightnessCapabilities;
-@property(readonly, nonatomic) NSUUID *containerId;
 @property(readonly, nonatomic) int displayId;
-@property(readonly, nonatomic) unsigned int displayType;
-@property(readonly, nonatomic) float maximumLuminance;
-@property(readonly, nonatomic) CDStruct_b2fbf00d nativeWhitePoint;
-@property(readonly, getter=isOnline) _Bool online;
-@property(readonly, nonatomic) unsigned long long productId;
-@property(readonly, nonatomic) unsigned long long serialNumber;
-@property(readonly, nonatomic) NSUUID *uuid;
-@property(readonly, nonatomic) unsigned long long vendorId;
-@property(readonly, nonatomic) _Bool whitePointAvailable;
-@property(readonly, nonatomic) _Bool whitePointD50XYZ;
 @end
 

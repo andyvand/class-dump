@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
-@protocol FPAppRegistryDelegate, OS_dispatch_queue;
+@class NSMutableDictionary;
+@protocol FPAppRegistryDelegate;
 
 @interface FPAppRegistry
 {
     NSMutableDictionary *_appMetadataByBundleID;
-    NSMutableDictionary *_appMetadataByDisplayName;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    int _updateAppsNotification;
-    id <FPAppRegistryDelegate> _delegate;
 }
 
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (void);
 - (id);
@@ -45,7 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <FPAppRegistryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *listOfMonitoredApps;
 
 @end
 

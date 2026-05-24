@@ -7,11 +7,6 @@
 @interface FamilyCircleUI.ChecklistUserPreferences
 {
     id userPath;
-    id collapseKey;
-    id _dismissedItemIDs;
-    id _keyValueStore;
-    id _collapsed;
-    id _$observationRegistrar;
 }
 
 - (void);

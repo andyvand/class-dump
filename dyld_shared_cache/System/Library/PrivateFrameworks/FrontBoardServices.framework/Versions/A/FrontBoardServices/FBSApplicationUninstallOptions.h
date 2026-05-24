@@ -7,7 +7,6 @@
 @interface FBSApplicationUninstallOptions
 {
     _Bool _userInitiated;
-    _Bool _showsArchiveOption;
 }
 
 + (id)ceneClientAgent>";
@@ -17,7 +16,6 @@
 - (void)on;
 
 // Remaining properties
-@property(nonatomic) _Bool showsArchiveOption; // @synthesize showsArchiveOption=_showsArchiveOption;
 @property(nonatomic, getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end

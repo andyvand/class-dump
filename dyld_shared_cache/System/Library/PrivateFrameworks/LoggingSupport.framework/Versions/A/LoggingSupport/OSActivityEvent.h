@@ -4,57 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone, NSUUID;
-
 @interface OSActivityEvent
 {
     _Bool _persisted;
-    int _processID;
-    unsigned int _userID;
-    unsigned long long _processUniqueID;
-    NSUUID *_processImageUUID;
-    NSString *_processImagePath;
-    unsigned long long _eventType;
-    unsigned long long _parentActivityID;
-    unsigned long long _activityID;
-    unsigned long long _traceID;
-    unsigned long long _threadID;
-    unsigned long long _machTimestamp;
-    NSDate *_timestamp;
-    NSTimeZone *_timezone;
-    NSUUID *_senderImageUUID;
-    NSString *_senderImagePath;
-    NSString *_eventMessage;
-    struct timezone _tz;
-    NSString *_timezoneName;
-    struct timeval _timeGMT;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityID; // @synthesize activityID=_activityID;
-@property(copy, nonatomic) NSString *eventMessage; // @synthesize eventMessage=_eventMessage;
-@property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) unsigned long long machTimestamp; // @synthesize machTimestamp=_machTimestamp;
-@property(readonly, nonatomic) unsigned long long parentActivityID; // @synthesize parentActivityID=_parentActivityID;
-@property(readonly, nonatomic) _Bool persisted; // @synthesize persisted=_persisted;
-@property(readonly, copy, nonatomic) NSString *process;
-@property(readonly, nonatomic) int processID; // @synthesize processID=_processID;
-@property(readonly, copy, nonatomic) NSString *processImagePath; // @synthesize processImagePath=_processImagePath;
-@property(readonly, copy, nonatomic) NSUUID *processImageUUID; // @synthesize processImageUUID=_processImageUUID;
-@property(readonly, nonatomic) unsigned long long processUniqueID; // @synthesize processUniqueID=_processUniqueID;
-@property(readonly, copy, nonatomic) NSString *sender;
-@property(readonly, copy, nonatomic) NSString *senderImagePath; // @synthesize senderImagePath=_senderImagePath;
-@property(readonly, copy, nonatomic) NSUUID *senderImageUUID; // @synthesize senderImageUUID=_senderImageUUID;
-@property(readonly, nonatomic) unsigned long long threadID; // @synthesize threadID=_threadID;
 @property(readonly, nonatomic) struct timeval timeGMT; // @synthesize timeGMT=_timeGMT;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, copy, nonatomic) NSTimeZone *timezone; // @synthesize timezone=_timezone;
-@property(retain, nonatomic) NSString *timezoneName; // @synthesize timezoneName=_timezoneName;
-@property(readonly, nonatomic) unsigned long long traceID; // @synthesize traceID=_traceID;
-@property(readonly, nonatomic) struct timezone tz; // @synthesize tz=_tz;
-@property(readonly, nonatomic) unsigned int userID; // @synthesize userID=_userID;
 
 @end
 

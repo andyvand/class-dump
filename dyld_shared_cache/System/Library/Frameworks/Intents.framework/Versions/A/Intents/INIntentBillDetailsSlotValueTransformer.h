@@ -13,7 +13,7 @@
 + (Class);
 + (long long)tiveStrings;
 - (id);
-- (id)dUnitSlotValueTransformer;
+- (id)INIntentCarHeadUnitSlotValueTransformer;
 
 @end
 

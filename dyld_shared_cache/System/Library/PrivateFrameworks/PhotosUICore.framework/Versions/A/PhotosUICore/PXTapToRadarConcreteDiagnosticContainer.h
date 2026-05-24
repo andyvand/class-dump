@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface PXTapToRadarConcreteDiagnosticContainer
 {
     NSMutableDictionary *_dictionary;
-    NSMutableArray *_attachments;
-    NSMutableArray *_subproviders;
-    NSMutableArray *_collectionOperations;
-    NSString *_name;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
@@ -32,15 +28,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (void)íS²;
 - (id)þå¸Ôþþå¸Dþþå¸¼þþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) NSDictionary *dictionary;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *subproviders;
 
 @end
 

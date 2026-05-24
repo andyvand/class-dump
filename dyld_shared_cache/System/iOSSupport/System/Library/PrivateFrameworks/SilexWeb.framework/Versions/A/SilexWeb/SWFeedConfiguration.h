@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 @interface SWFeedConfiguration
 {
     NSSet *_selectors;
-    NSDictionary *_configuration;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)propertySetByRemovingProperties: /* Error: Ran out of types for this method. */;
+- (void)eventCounts;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
 @property(copy, nonatomic) NSSet *selectors; // @synthesize selectors=_selectors;
 
 @end

@@ -10,7 +10,6 @@
 @interface PAImageCacheEntrySharedValid
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _valid;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property _Bool valid; // @synthesize valid=_valid;
 
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _INPBScoredValue
+- (_Bool)mB;
+- (long long);
 - (void)@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasValue;
 @property(nonatomic) long long score;
-@property(copy, nonatomic) NSString *value;
 @end
 

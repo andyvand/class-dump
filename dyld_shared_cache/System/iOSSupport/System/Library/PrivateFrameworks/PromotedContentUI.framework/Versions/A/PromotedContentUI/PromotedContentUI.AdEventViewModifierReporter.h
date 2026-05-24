@@ -7,9 +7,6 @@
 @interface PromotedContentUI.AdEventViewModifierReporter
 {
     id helper;
-    id candidate;
-    id $__lazy_storage_$_frequencyHelper;
-    id adIdentifier;
 }
 
 @end

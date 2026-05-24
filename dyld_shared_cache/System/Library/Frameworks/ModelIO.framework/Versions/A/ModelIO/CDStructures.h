@@ -36,12 +36,6 @@ struct BidirectionalScatteringDistributionFunction {
 
 struct CGColor;
 
-struct Detail;
-
-struct MDLAABB {
-    id maxBounds__minBounds;
-};
-
 struct MDLAffineTransform {
     struct vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>> _keyedTranslation;
     struct vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>> _keyedRotation;
@@ -59,20 +53,12 @@ struct MDLAffineTransform {
 };
 
 struct MDLTextureData {
-    char *topLeftBytesForMip[16];
-    char *bottomLeftBytesForMip[16];
-    int channelCount;
-    unsigned long long dimensions__rowStride;
-    _Bool isCube;
+    char *_field1[16];
+    char *_field2[16];
+    int _field3;
+    unsigned long long _field4;
+    _Bool _field5;
 };
-
-struct MortonCode {
-    struct vector<unsigned long long, std::allocator<unsigned long long>> mortonkeyX;
-    struct vector<unsigned long long, std::allocator<unsigned long long>> mortonkeyY;
-    struct vector<unsigned long long, std::allocator<unsigned long long>> mortonkeyZ;
-};
-
-struct Octree;
 
 struct PhysicallyPlausibleDistribution {
     CDUnknownFunctionPointerType *_field1;
@@ -88,8 +74,8 @@ struct RTCamera {
     int _field6;
     float *_field7;
     id **_field8;
-    CDStruct_95fa7c00 _field9;
-    CDStruct_95fa7c00 _field10;
+    CDStruct_34f00414 _field9;
+    CDStruct_34f00414 _field10;
     struct RTRaySegment *_field11;
     float _field12;
     float _field13;
@@ -120,38 +106,7 @@ struct RTLight {
 
 struct RTRaySegment;
 
-struct RTRenderable;
-
 struct SCNOctree;
-
-struct SkyDescriptor {
-    float _field1;
-    float _field2;
-    float _field3;
-    float _field4;
-    float _field5;
-    float _field6;
-    float _field7;
-    float _field8;
-    float _field9;
-    float _field10;
-    float _field11;
-    float _field12;
-    float _field13;
-    float _field14;
-    float _field15;
-    float _field16;
-    float _field17;
-    float _field18;
-    struct Detail *_field19;
-    unsigned int _field20;
-    unsigned int _field21;
-    float _field22;
-    float _field23;
-    float _field24;
-    float _field25;
-    void *_field26;
-};
 
 struct TfPointerAndBits<const pxrInternal__aapl__pxrReserved__::VtValue::_TypeInfo> {
     struct _TypeInfo *_ptrAndBits;
@@ -207,18 +162,6 @@ struct mutex {
     } _field1;
 };
 
-struct unique_ptr<ModelIO::BidirectionalScatteringDistributionFunction, std::default_delete<ModelIO::BidirectionalScatteringDistributionFunction>> {
-    struct {
-        struct BidirectionalScatteringDistributionFunction *__ptr_;
-    } ;
-};
-
-struct unique_ptr<ModelIO::Octree, std::default_delete<ModelIO::Octree>> {
-    struct {
-        struct Octree *__ptr_;
-    } ;
-};
-
 struct unique_ptr<ModelIO::SCNOctree, std::default_delete<ModelIO::SCNOctree>> {
     struct {
         struct SCNOctree *__ptr_;
@@ -257,35 +200,11 @@ struct vector<(anonymous namespace)::TimeSampledVtValue, std::allocator<(anonymo
     } ;
 };
 
-struct vector<MDLLight *, std::allocator<MDLLight *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
-struct vector<ModelIO::RTRenderable *, std::allocator<ModelIO::RTRenderable *>> {
-    struct RTRenderable **__begin_;
-    struct RTRenderable **__end_;
-    struct {
-        struct RTRenderable **__cap_;
-    } ;
-};
-
 struct vector<__IOSurface *, std::allocator<__IOSurface *>> {
     struct __IOSurface **__begin_;
     struct __IOSurface **__end_;
     struct {
         struct __IOSurface **__cap_;
-    } ;
-};
-
-struct vector<bool, std::allocator<bool>> {
-    unsigned long long *__begin_;
-    unsigned long long __size_;
-    struct {
-        unsigned long long __cap_;
     } ;
 };
 
@@ -297,27 +216,11 @@ struct vector<int, std::allocator<int>> {
     } _field3;
 };
 
-struct vector<long, std::allocator<long>> {
-    long long *__begin_;
-    long long *__end_;
-    struct {
-        long long *__cap_;
-    } ;
-};
-
 struct vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>> {
     void *__begin_;
     void *__end_;
     struct {
         void *__cap_;
-    } ;
-};
-
-struct vector<unsigned long long, std::allocator<unsigned long long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    struct {
-        unsigned long long *__cap_;
     } ;
 };
 
@@ -331,14 +234,14 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
-
-// Ambiguous groups
-typedef struct {
     unsigned long long __size_;
 } CDStruct_a7186859;
 
+typedef struct {
+    id _field1[4];
+} CDStruct_34f00414;
+
+// Template types
 typedef struct vector<int, std::allocator<int>> {
     int *_field1;
     int *_field2;

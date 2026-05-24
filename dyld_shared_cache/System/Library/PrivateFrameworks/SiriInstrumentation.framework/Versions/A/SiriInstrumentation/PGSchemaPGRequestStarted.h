@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGRequestStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _hasLinkId;
 }
 
 - (void);
+- (void)k %@;
+- (void)erver:(_Bool)arg1 %@ (%@);
+- (id)access status has been fetched successfully.;
+- (_Bool)KECHAINRECOVERY_RESET_CONFIRMATION_TITLE;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
+- (unsigned long long)`;
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)%lld (%@) duplicate chats into winning chat %@;
+- (id)(;
 - (id)1Â0@ù
 × ;
-- (id)itionResult;
+- (id)_hasRecognitionResult;
 - (id)ectedAudioDevice;
-- (void)CKSTATE_PAUSED;
+- (void)MEDIAPLAYBACKSTATE_PAUSED;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

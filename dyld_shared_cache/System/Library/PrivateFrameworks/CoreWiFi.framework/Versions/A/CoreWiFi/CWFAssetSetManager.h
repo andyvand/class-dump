@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFAssetCreatorFromRoot, CWFAssetPowerTable, CWFAssetRootMonitor, MAAutoAsset, MAAutoAssetSelector, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CWFAssetSetManager
 {
     _Bool _interestExpressed;
-    _Bool _forTestingPeriodicCheckEnabled;
-    _Bool _forTestingPeriodicCheckForDownloadEnabled;
-    _Bool _periodicCheckForDownloadEnabled;
-    _Bool _assetRootToProcess;
-    int _notifyTokenVersionDownloaded;
-    int _notifyTokenVersionDiscovered;
-    CDUnknownBlockType eventHandler;
-    CWFAssetRootMonitor *_assetRootMonitor;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    CDUnknownBlockType _assetDownloadedHandler;
-    CDUnknownBlockType _assetDiscoveredHandler;
-    MAAutoAssetSelector *_currentLockedAutoAssetSelector;
-    MAAutoAsset *_currentLockedAutoAsset;
-    NSString *_assetSpecifier;
-    NSObject<OS_dispatch_source> *_periodicCheckA11Timer;
-    NSString *_apiMajorVersion;
-    NSObject<OS_dispatch_source> *_forTestingPeriodicCheckTimer;
-    long long _forTestingPeriodicityInSecs;
-    long long _forTestingPeriodicityForDownloadInSecs;
-    unsigned long long _periodicCheckForDownloadCounts;
-    NSString *_atomicInstanceTrackedForDownloaded;
-    CWFAssetPowerTable *_assetPowerTable;
-    CWFAssetCreatorFromRoot *_assetFromRoot;
-    unsigned long long _readinessRetryCount;
 }
 
 + (void);
@@ -42,15 +18,15 @@
 - (void);
 - (void);
 - (void);
+- (void)9h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)u;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -71,7 +47,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -79,7 +55,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -96,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -110,42 +86,11 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)I;
 - (void)l¢Ä¢;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apiMajorVersion; // @synthesize apiMajorVersion=_apiMajorVersion;
-@property(copy, nonatomic) CDUnknownBlockType assetDiscoveredHandler; // @synthesize assetDiscoveredHandler=_assetDiscoveredHandler;
-@property(copy, nonatomic) CDUnknownBlockType assetDownloadedHandler; // @synthesize assetDownloadedHandler=_assetDownloadedHandler;
-@property(retain, nonatomic) CWFAssetCreatorFromRoot *assetFromRoot; // @synthesize assetFromRoot=_assetFromRoot;
-@property(retain, nonatomic) CWFAssetPowerTable *assetPowerTable; // @synthesize assetPowerTable=_assetPowerTable;
-@property(retain, nonatomic) CWFAssetRootMonitor *assetRootMonitor; // @synthesize assetRootMonitor=_assetRootMonitor;
-@property(nonatomic) _Bool assetRootToProcess; // @synthesize assetRootToProcess=_assetRootToProcess;
-@property(retain, nonatomic) NSString *assetSpecifier; // @synthesize assetSpecifier=_assetSpecifier;
-@property(retain, nonatomic) NSString *atomicInstanceTrackedForDownloaded; // @synthesize atomicInstanceTrackedForDownloaded=_atomicInstanceTrackedForDownloaded;
-@property(retain, nonatomic) MAAutoAsset *currentLockedAutoAsset; // @synthesize currentLockedAutoAsset=_currentLockedAutoAsset;
-@property(retain, nonatomic) MAAutoAssetSelector *currentLockedAutoAssetSelector; // @synthesize currentLockedAutoAssetSelector=_currentLockedAutoAssetSelector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-@property(nonatomic) _Bool forTestingPeriodicCheckEnabled; // @synthesize forTestingPeriodicCheckEnabled=_forTestingPeriodicCheckEnabled;
-@property(nonatomic) _Bool forTestingPeriodicCheckForDownloadEnabled; // @synthesize forTestingPeriodicCheckForDownloadEnabled=_forTestingPeriodicCheckForDownloadEnabled;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *forTestingPeriodicCheckTimer; // @synthesize forTestingPeriodicCheckTimer=_forTestingPeriodicCheckTimer;
-@property(nonatomic) long long forTestingPeriodicityForDownloadInSecs; // @synthesize forTestingPeriodicityForDownloadInSecs=_forTestingPeriodicityForDownloadInSecs;
-@property(nonatomic) long long forTestingPeriodicityInSecs; // @synthesize forTestingPeriodicityInSecs=_forTestingPeriodicityInSecs;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interestExpressed; // @synthesize interestExpressed=_interestExpressed;
-@property(nonatomic) int notifyTokenVersionDiscovered; // @synthesize notifyTokenVersionDiscovered=_notifyTokenVersionDiscovered;
-@property(nonatomic) int notifyTokenVersionDownloaded; // @synthesize notifyTokenVersionDownloaded=_notifyTokenVersionDownloaded;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *periodicCheckA11Timer; // @synthesize periodicCheckA11Timer=_periodicCheckA11Timer;
-@property(nonatomic) unsigned long long periodicCheckForDownloadCounts; // @synthesize periodicCheckForDownloadCounts=_periodicCheckForDownloadCounts;
-@property(nonatomic) _Bool periodicCheckForDownloadEnabled; // @synthesize periodicCheckForDownloadEnabled=_periodicCheckForDownloadEnabled;
-@property(nonatomic) unsigned long long readinessRetryCount; // @synthesize readinessRetryCount=_readinessRetryCount;
-@property(readonly) Class superclass;
 
 @end
 

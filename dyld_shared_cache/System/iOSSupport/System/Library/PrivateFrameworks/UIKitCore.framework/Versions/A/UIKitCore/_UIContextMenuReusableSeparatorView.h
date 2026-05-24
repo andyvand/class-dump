@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIView *_separatorView;
 }
 
-- (id)e:(struct CGRect)arg1;
+- (id)_cellAccessoriesForConfigurations:(struct CGRect)arg1 isLeadingEdge: /* Error: Ran out of types for this method. */;
 - (void)¸YÌþ`í;
 
 @end

@@ -7,17 +7,11 @@
 @interface PodcastsFoundation.FairPlayKeyLoadingMock
 {
     id createSessionHandler;
-    id startKeyRequestHandler;
-    id renewKeyRequestHandler;
-    id renewKeyRequestsHandler;
-    id renewKeyHandler;
-    id stopKeyRequestAssetHandler;
-    id stopKeyRequestSessionHandler;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)(ka;
 - (void);
 - (void);
 - (void);

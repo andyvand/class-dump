@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TextEffectsUtilities)
-+ (void);
++ (void)A;
 + (id);
 - (_Bool);
 - (id);
@@ -13,16 +13,16 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7V7;
 - (id);
 - (id);
 - (_Bool);
@@ -32,7 +32,7 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);

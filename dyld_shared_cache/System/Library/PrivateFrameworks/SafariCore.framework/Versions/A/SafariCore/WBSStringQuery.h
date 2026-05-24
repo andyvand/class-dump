@@ -9,7 +9,6 @@
 @interface WBSStringQuery
 {
     NSString *_string;
-    long long _matchingType;
 }
 
 + (id);
@@ -21,8 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long matchingType; // @synthesize matchingType=_matchingType;
-@property(readonly, copy, nonatomic) NSString *matchingTypeDescriptionString;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

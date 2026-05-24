@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SGTRecentsSuggesterReserved
 {
     NSMutableArray *recentSuggestions;
-    NSMutableArray *recentSuggestionValues;
-    NSObject<OS_dispatch_queue> *queue;
-    long long searchID;
-    NSString *saveName;
-    long long maxRecents;
-    NSUserDefaults *defaults;
-    _Bool global;
-    _Bool isSaving;
 }
 
 - (void);
-- (void);
+- (void)_loadContent;
 
 @end
 

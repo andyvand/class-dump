@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @interface CKPopoverViewLayoutMetrics
 {
     unsigned long long _state;
-    id <UICoordinateSpace> _coordinateSpace;
-    struct CGRect _frame;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -23,8 +19,6 @@
 - (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

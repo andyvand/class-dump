@@ -6,33 +6,29 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface SSVoiceMemosResultBuilder : SSResultBuilder
 {
     NSDate *_creationDate;
-    NSNumber *_durationInSeconds;
-    NSString *_transcription;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (id);
+- (id)viewDidChangeEffectiveAppearance;
+- (id)unsignedIntValue;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rsistedTaskCapabilityModifier",&,D,N;
 - (void)kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON:kMDItemAuthorAddresses_QUPP_ARG_PERSON_SENDER: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSNumber *durationInSeconds; // @synthesize durationInSeconds=_durationInSeconds;
-@property(retain, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
 
 @end
 

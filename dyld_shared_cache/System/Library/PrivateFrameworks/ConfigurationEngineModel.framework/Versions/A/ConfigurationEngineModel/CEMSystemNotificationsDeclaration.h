@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface CEMSystemNotificationsDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadNotificationSettings;
-    NSNumber *_payloadAllowNotificationsModification;
 }
 
 + (id);
@@ -30,20 +29,12 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)ownloads.;
+- (id)hHdzo_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowNotificationsModification; // @synthesize payloadAllowNotificationsModification=_payloadAllowNotificationsModification;
 @property(copy, nonatomic) NSArray *payloadNotificationSettings; // @synthesize payloadNotificationSettings=_payloadNotificationSettings;
-@property(readonly) Class superclass;
 
 @end
 

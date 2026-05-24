@@ -9,46 +9,36 @@
 @interface _UICursorAccessory
 {
     _Bool _interactive;
-    _Bool _large;
-    NSString *_identifier;
-    NSString *_groupIdentifier;
-    double _preferredWidth;
-    unsigned long long _style;
 }
 
 + (_Bool)tedText:toCharacterRange:] /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)N,V_analyticRecordZoneID;
+- (id)limit:%d /* Error: Ran out of types for this method. */;
+- (id)d %@;
+- (id)ConnectionManager;
+- (id)e]_block_invoke;
 - (void);
-- (_Bool);
+- (_Bool)__kIMAccountLoginStatusChangedReasonKey;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)hb;
+- (unsigned long long)!;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 - (double)tField"16;
-- (_Bool)Color;
-- (void)ptions;
-- (void)onItemUpdatedAllowsInteractivePopWhenBackButtonHidden:(id)arg1;
-- (void)umn:(id)arg1;
+- (_Bool)shadowViewTintColor;
+- (void)reparentingOptions;
+- (void)navigationItemUpdatedAllowsInteractivePopWhenBackButtonHidden:(id)arg1;
+- (void)_showSecondColumn:(id)arg1;
 - (id)@;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isInteractive) _Bool interactive; // @synthesize interactive=_interactive;
-@property(nonatomic, getter=isLarge) _Bool large; // @synthesize large=_large;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

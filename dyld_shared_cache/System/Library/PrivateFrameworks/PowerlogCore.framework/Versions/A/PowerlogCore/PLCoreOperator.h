@@ -16,18 +16,18 @@
 + (void);
 - (id);
 - (void);
-- (void);
+- (void)>;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
-- (id);
+- (id)me for dsid %{private}@;
 - (void);
 - (void);
 - (void);
-- (void)uCores;
+- (void)numPcpuCores;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *operators; // @synthesize operators=_operators;

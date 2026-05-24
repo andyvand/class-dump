@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKUICandidateAccessibilityElement, NSArray, NSMutableArray, NSString;
-@protocol IMKUIScrubberViewDelegate;
+@class NSMutableArray;
 
 @interface IMKUIScrubberView
 {
     NSMutableArray *_accessibilityChildren;
-    _Bool _currentTouchInteractionInsideView;
-    id <IMKUIScrubberViewDelegate> _delegate;
-    struct CGRect _drawingFrame;
-    double _fontSize;
-    double _horizontalPosition;
-    double _minimumWidth;
-    _Bool _roundsLeftCorners;
-    _Bool _roundsRightCorners;
-    IMKCandidate *_selectedCandidate;
-    IMKUICandidateAccessibilityElement *_selectedCandidateAccessibilityElement;
-    _Bool _showsChevron;
-    long long _style;
-    NSArray *_UICandidates;
 }
 
 - (struct CGPoint);
@@ -30,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (void);
 - (void);
@@ -58,7 +44,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -69,41 +55,21 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)nseEnabled invalid type=%d;
 - (void);
 - (void);
 - (id);
-- (void)eSelectionDidChange:(id)arg1 committed: /* Error: Ran out of types for this method. */;
+- (void)onscreenCandidateSelectionDidChange:(id)arg1 committed: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *UICandidates; // @synthesize UICandidates=_UICandidates;
 @property(retain, nonatomic) NSMutableArray *accessibilityChildren; // @synthesize accessibilityChildren=_accessibilityChildren;
-@property(nonatomic) _Bool currentTouchInteractionInsideView; // @synthesize currentTouchInteractionInsideView=_currentTouchInteractionInsideView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKUIScrubberViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect drawingFrame; // @synthesize drawingFrame=_drawingFrame;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalPosition; // @synthesize horizontalPosition=_horizontalPosition;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(nonatomic) _Bool roundsLeftCorners; // @synthesize roundsLeftCorners=_roundsLeftCorners;
-@property(nonatomic) _Bool roundsRightCorners; // @synthesize roundsRightCorners=_roundsRightCorners;
-@property(retain, nonatomic) IMKCandidate *selectedCandidate; // @synthesize selectedCandidate=_selectedCandidate;
-@property(retain, nonatomic) IMKUICandidateAccessibilityElement *selectedCandidateAccessibilityElement; // @synthesize selectedCandidateAccessibilityElement=_selectedCandidateAccessibilityElement;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

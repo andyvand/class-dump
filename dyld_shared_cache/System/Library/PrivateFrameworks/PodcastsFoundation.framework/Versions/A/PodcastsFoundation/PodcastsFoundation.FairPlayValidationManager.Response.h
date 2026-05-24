@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.FairPlayValidationManager.Response
 {
     id renewedAdamIDs;
-    id failedAdamIDs;
-    id removedAdamIDs;
 }
 
 - (id);

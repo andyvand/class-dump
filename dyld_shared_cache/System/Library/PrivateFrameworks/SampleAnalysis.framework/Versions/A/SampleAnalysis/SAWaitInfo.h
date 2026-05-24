@@ -6,28 +6,24 @@
 
 #import <SampleAnalysis/SABlockingInfo.h>
 
-@class NSString;
-
 @interface SAWaitInfo : SABlockingInfo
 {
     unsigned short _type;
-    unsigned long long _owner;
-    unsigned long long _context;
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)accessibilityNotifyVoiceOverAnnouncementCompletion:(const void *)arg1;
+- (id)or:(const struct stackshot_thread_waitinfo_v2 *)arg1:TearDown /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (int);
+- (unsigned long long);
+- (int)Dx;
 - (id);
 - (unsigned long long);
 - (unsigned short);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)finishWithFuture: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -36,16 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long owner; // @synthesize owner=_owner;
-@property(readonly) Class superclass;
-@property(readonly) unsigned short type; // @synthesize type=_type;
 
 @end
 

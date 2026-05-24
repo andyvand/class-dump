@@ -9,7 +9,6 @@
 @protocol SSDisplayDetailsPrimitives
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType displayReconfiguredCallback;
 @property(readonly, nonatomic) NSArray *screensDetails;
 @end
 

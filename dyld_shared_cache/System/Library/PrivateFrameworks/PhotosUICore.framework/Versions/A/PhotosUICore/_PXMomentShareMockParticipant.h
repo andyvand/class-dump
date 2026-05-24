@@ -9,10 +9,6 @@
 @interface _PXMomentShareMockParticipant
 {
     NSString *emailAddressString;
-    NSString *phoneNumberString;
-    NSString *_localizedName;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 - (id);
@@ -21,24 +17,13 @@
 - (id);
 - (void)A'ð!ôBù;1Â0@ù
 × ;
-- (void)ets;
+- (void)logOneUpInTopAssets;
 - (id);
 - (id)entSelectionSnapshot init];
 - (void)];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *emailAddressString; // @synthesize emailAddressString;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 @property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSString *phoneNumberString; // @synthesize phoneNumberString;
-@property(readonly) Class superclass;
 
 @end
 

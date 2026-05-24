@@ -5,5 +5,6 @@
 //
 
 @protocol MKLocationManagerObserver
+- (_Bool);
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTPredictedLocationOfInterest;
+@class RTPredictedLocationOfInterest;
 
 @interface EKPredictedLocationOfInterest
 {
     long long _type;
-    NSString *_customLabel;
-    NSString *_mapItemName;
-    NSString *_addressCountryCode;
-    NSString *_addressThoroughfare;
-    NSString *_addressLocality;
-    RTPredictedLocationOfInterest *_rtPredictedLocationOfInterest;
 }
 
 - (id);
@@ -24,19 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_distributorType;
 - (void)
 × ;
-- (id)PropertyModificationLogging:allowDelegateSources: /* Error: Ran out of types for this method. */;
+- (id)initWithOptions:path:changeTrackingClientId:enablePropertyModificationLogging:allowDelegateSources: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *addressCountryCode; // @synthesize addressCountryCode=_addressCountryCode;
-@property(readonly, copy, nonatomic) NSString *addressLocality; // @synthesize addressLocality=_addressLocality;
-@property(readonly, copy, nonatomic) NSString *addressThoroughfare; // @synthesize addressThoroughfare=_addressThoroughfare;
-@property(readonly, copy, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(readonly, copy, nonatomic) NSString *mapItemName; // @synthesize mapItemName=_mapItemName;
 @property(readonly, nonatomic) RTPredictedLocationOfInterest *rtPredictedLocationOfInterest; // @synthesize rtPredictedLocationOfInterest=_rtPredictedLocationOfInterest;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

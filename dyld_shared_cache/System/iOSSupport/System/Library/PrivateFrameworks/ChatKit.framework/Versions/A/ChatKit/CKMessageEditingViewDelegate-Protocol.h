@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEditingView;
+
 @protocol CKMessageEditingViewDelegate
+- (void)convertFontSizeArrayToMultipliersFromArray:(CKMessageEditingView *)arg1;
+- (void)convertFont:(CKMessageEditingView *)arg1 toNotHaveTrait: /* Error: Ran out of types for this method. */;
+- (void)convertDrawingsInNoteIfNeeded:(CKMessageEditingView *)arg1;
+- (struct UIEdgeInsets)convertDrawingsInNote:inWindow:message:completion: /* Error: Ran out of types for this method. */;
+- (double)convertDispatchQueue;
+- (void)convertAttachmentToLinkSystemImageName;
+- (void)convertAttachmentToLink:(CKMessageEditingView *)arg1;
+- (void)control:(CKMessageEditingView *)arg1 textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (_Bool)control:isValidObject: /* Error: Ran out of types for this method. */;
+- (void)control:(CKMessageEditingView *)arg1 didFailToValidatePartialString:(struct _NSRange)arg2 errorDescription: /* Error: Ran out of types for this method. */;
+- (BOOL)containersByAccountID;
 @end
 

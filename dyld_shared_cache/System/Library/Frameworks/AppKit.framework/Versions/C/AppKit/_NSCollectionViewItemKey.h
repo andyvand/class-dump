@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSIndexPath;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewItemKey
 {
     NSIndexPath *_indexPath;
-    NSString *_identifier;
-    _Bool _isClone;
-    long long _type;
 }
 
-+ (id);
++ (id)u > %zu;
 + (id);
 + (id);
 + (id)Qá3ð1Â0@ù
 × ;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)r mismatch hash ids ;
+- (id)A;
 - (id);
 - (long long);
-- (id);
+- (id)Leading"b1"usesScreenFonts"b1"showsInvisibleCharacters"b1"showsControlCharacters"b1"defaultAttachmentScaling"b4"typesetterBehavior"b8"reserved"b20}};
 - (_Bool);
 - (_Bool);
-- (id)ext:(struct _NSZone *)arg1;
+- (id)drawTextParagraphAnchoredAttachment:(struct _NSZone *)arg1 bounds:context: /* Error: Ran out of types for this method. */;
 - (id)hlhðiÈjÀmÌno0p;
-- (void)ier;
+- (void)NSIdentifier;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool isClone; // @synthesize isClone=_isClone;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

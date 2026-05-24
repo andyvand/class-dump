@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDSMIMEAnalyticsCollector, NSString;
+@class EDMessagePersistence;
 
 @interface EDMailAnalyticsCollector
 {
     EDMessagePersistence *_messagePersistence;
-    EDSMIMEAnalyticsCollector *_smimeAnalyticsCollector;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)rchableIndex:dataNeedsToBeDonatedForMessages:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) EDSMIMEAnalyticsCollector *smimeAnalyticsCollector; // @synthesize smimeAnalyticsCollector=_smimeAnalyticsCollector;
-@property(readonly) Class superclass;
 
 @end
 

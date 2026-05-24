@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)7;
+- (id);
+- (id)I;
 - (void);
-- (id);
+- (id)setFunctionConstantSpecializationHash:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long suspendReasonEnum; // @synthesize suspendReasonEnum=_suspendReasonEnum;

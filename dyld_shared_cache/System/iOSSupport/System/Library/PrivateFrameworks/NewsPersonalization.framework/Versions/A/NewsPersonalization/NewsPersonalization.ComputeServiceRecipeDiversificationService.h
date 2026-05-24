@@ -7,8 +7,6 @@
 @interface NewsPersonalization.ComputeServiceRecipeDiversificationService
 {
     id bundleSubscriptionManager;
-    id computeService;
-    id featuresFactory;
 }
 
 @end

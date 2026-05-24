@@ -6,16 +6,14 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIImage, CUIShapeEffectPreset, NSDictionary;
+@class NSDictionary;
 
 @interface CUIThemeSchemaEffectRendition : CUIThemeRendition
 {
     NSDictionary *_cuiInfo;
-    CUIShapeEffectPreset *_effectPreset;
-    CUIImage *_referenceImage;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

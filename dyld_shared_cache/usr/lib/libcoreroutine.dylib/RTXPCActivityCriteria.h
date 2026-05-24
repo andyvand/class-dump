@@ -4,39 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber;
+@class NSMutableDictionary;
 
 @interface RTXPCActivityCriteria
 {
     _Bool _requireNetworkConnectivity;
-    _Bool _requireInexpensiveNetworkConnectivity;
-    _Bool _allowBattery;
-    _Bool _powerNap;
-    _Bool _requiresClassB;
-    _Bool _requiresClassA;
-    _Bool _cpuIntensive;
-    _Bool _userRequestedBackgroundTask;
-    _Bool _postInstall;
-    _Bool _requiresBuddyComplete;
-    double _interval;
-    double _delay;
-    double _gracePeriod;
-    unsigned long long _priority;
-    unsigned long long _networkTransferDirection;
-    unsigned long long _networkTransferUploadSize;
-    unsigned long long _networkTransferDownloadSize;
-    NSNumber *_requireBatteryLevel;
-    double _expectedDuration;
-    NSMutableDictionary *_additionalCriteria;
 }
 
-+ (const char *);
-+ (const char *);
++ (const char *)MigrateEnableWalrus;
++ (const char *)MigrateDropHSM;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -44,54 +25,36 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (id);
+- (id);
 - (id);
 - (double);
+- (_Bool);
+- (id);
+- (void);
+- (void)tabase:(_Bool)arg1 %s;
+- (void)ied delegate of USB keyboard connection
+;
+- (void);
 - (_Bool);
-- (double)tionsDidRelease;
+- (double)TS:senderToken:localURI:remoteURI:replayKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (double)?;
+- (_Bool);
+- (double)_backgroundProcessingAssertionsDidRelease;
 - (_Bool),%{sensitive}0.7f,%{sensitive}0.7f;
 - (void)o modify session;
 - (unsigned long long)e computation error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *additionalCriteria; // @synthesize additionalCriteria=_additionalCriteria;
-@property(readonly, nonatomic) _Bool allowBattery; // @synthesize allowBattery=_allowBattery;
-@property(nonatomic) _Bool cpuIntensive; // @synthesize cpuIntensive=_cpuIntensive;
-@property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) double expectedDuration; // @synthesize expectedDuration=_expectedDuration;
-@property(readonly, nonatomic) double gracePeriod; // @synthesize gracePeriod=_gracePeriod;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
-@property(readonly, nonatomic) unsigned long long networkTransferDirection; // @synthesize networkTransferDirection=_networkTransferDirection;
-@property(readonly, nonatomic) unsigned long long networkTransferDownloadSize; // @synthesize networkTransferDownloadSize=_networkTransferDownloadSize;
-@property(readonly, nonatomic) unsigned long long networkTransferUploadSize; // @synthesize networkTransferUploadSize=_networkTransferUploadSize;
-@property(nonatomic) _Bool postInstall; // @synthesize postInstall=_postInstall;
-@property(readonly, nonatomic) _Bool powerNap; // @synthesize powerNap=_powerNap;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSNumber *requireBatteryLevel; // @synthesize requireBatteryLevel=_requireBatteryLevel;
-@property(readonly, nonatomic) _Bool requireInexpensiveNetworkConnectivity; // @synthesize requireInexpensiveNetworkConnectivity=_requireInexpensiveNetworkConnectivity;
-@property(readonly, nonatomic) _Bool requireNetworkConnectivity; // @synthesize requireNetworkConnectivity=_requireNetworkConnectivity;
-@property(nonatomic) _Bool requiresBuddyComplete; // @synthesize requiresBuddyComplete=_requiresBuddyComplete;
-@property(readonly, nonatomic) _Bool requiresClassA; // @synthesize requiresClassA=_requiresClassA;
-@property(readonly, nonatomic) _Bool requiresClassB; // @synthesize requiresClassB=_requiresClassB;
-@property(nonatomic) _Bool userRequestedBackgroundTask; // @synthesize userRequestedBackgroundTask=_userRequestedBackgroundTask;
 
 @end
 

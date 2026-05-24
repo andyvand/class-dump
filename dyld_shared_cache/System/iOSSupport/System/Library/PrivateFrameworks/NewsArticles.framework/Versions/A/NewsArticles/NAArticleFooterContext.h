@@ -7,12 +7,10 @@
 @interface NAArticleFooterContext
 {
     id headline;
-    id viewingSessionID;
-    id articleGroupData;
 }
 
 - (id);
-- (void)lipView;
+- (void)clipView;
 
 @end
 

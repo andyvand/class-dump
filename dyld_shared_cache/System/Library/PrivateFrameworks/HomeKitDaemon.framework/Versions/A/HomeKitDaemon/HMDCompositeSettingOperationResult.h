@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSetting, HMDCompositeSettingMetadata, NSError, NSString;
+@class HMDCompositeSettingMetadata;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingOperationResult
 {
     HMDCompositeSettingMetadata *_metadata;
-    HMDCompositeSetting *_setting;
-    NSError *_error;
-    NSString *_keyPath;
 }
 
 + (id);
@@ -25,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)HomeKitDaemon/HomeStorage.swift;
 
 // Remaining properties
-@property(readonly, copy) NSError *error; // @synthesize error=_error;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(readonly) HMDCompositeSettingMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly) HMDCompositeSetting *setting; // @synthesize setting=_setting;
 
 @end
 

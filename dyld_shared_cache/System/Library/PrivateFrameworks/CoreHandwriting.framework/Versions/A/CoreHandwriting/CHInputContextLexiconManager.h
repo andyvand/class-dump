@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSSet, _KSTextReplacementClientStore;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CHInputContextLexiconManager
 {
     NSObject<OS_dispatch_queue> *_lexiconQueue;
-    CDUnknownBlockType _contactsObserverBlock;
-    CDUnknownBlockType _namedEntityObserverBlock;
-    long long _initialUpdateCount;
-    NSObject<OS_dispatch_queue> *_recognitionProcessingQueue;
-    NSMutableDictionary *_textReplacements;
-    _KSTextReplacementClientStore *_textReplacementStore;
-    ObjectRef_49a81d6f _vocabulary;
-    NSMutableArray *_addressBook;
-    struct ObjectRef<_LXLexicon *> _transientLexicon;
-    struct ObjectRef<_LXLexicon *> _transientPhraseLexicon;
-    struct ObjectRef<_LXLexicon *> _transientLexiconWithCustomEntries;
-    NSSet *_lastCustomLexiconEntries;
 }
 
 - (void *);
@@ -31,18 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Type=%ld/%ld;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *addressBookLexicon;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lexiconQueue;
-@property(readonly, copy, nonatomic) NSDictionary *textReplacements;
 @property(readonly, nonatomic) struct _LXLexicon *transientLexicon;
-@property(readonly, nonatomic) struct _LXLexicon *transientPhraseLexicon;
-@property(readonly, nonatomic) void *vocabulary;
 
 @end
 

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCInterface;
-@protocol OS_os_log;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PODServiceConfiguration
 {
     NSString *_serviceName;
-    NSXPCInterface *_serviceInterface;
-    NSXPCInterface *_clientInterface;
-    NSString *_errorDomain;
-    NSObject<OS_os_log> *_loggingCategory;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)setWithObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSXPCInterface *clientInterface; // @synthesize clientInterface=_clientInterface;
-@property(readonly) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly) NSObject<OS_os_log> *loggingCategory; // @synthesize loggingCategory=_loggingCategory;
-@property(readonly) NSXPCInterface *serviceInterface; // @synthesize serviceInterface=_serviceInterface;
 @property(readonly) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

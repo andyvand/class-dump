@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (float);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)48;
++ (id)loadAsynchronouslyWithCompletionHandler:(id)arg1;
++ (_Bool)leftIconProperties;
++ (void)componentView:playerForAudio: /* Error: Ran out of types for this method. */;
++ (id)collapsed;
++ (float)arKitButton;
++ (_Bool)_wp_urlByRemovingTrackingInformation;
++ (id)_transferIndicatorDirection;
++ (void)etionHandler:(id)arg1;
++ (id)_setFetchIsNotUserInitiated:(id)arg1;
++ (_Bool)_setEffectiveAppearanceTraits:(id)arg1;
++ (_Bool)_muteButtonHighlightedOpacity;
 + (_Bool);
 + (_Bool);
 + (_Bool);

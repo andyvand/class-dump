@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void)lter;
+- (void)subtractBlendModeFilter;
 
 @end
 

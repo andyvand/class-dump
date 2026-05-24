@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccount, BMCurrentDevice, BMPruningPolicy, NSString;
+@class NSString;
 
 @interface BMStoreConfig
 {
     NSString *_streamIdentifierForLogging;
-    NSString *_datastorePath;
-    unsigned long long _streamType;
-    _Bool _isManaged;
-    unsigned int _uid;
-    unsigned long long _segmentSize;
-    unsigned long long _protectionClass;
-    BMPruningPolicy *_pruningPolicy;
-    BMCurrentDevice *_currentDevice;
-    unsigned long long _configDatastoreVersion;
-    long long _storeLocationOption;
-    NSString *_remoteName;
-    BMAccount *_account;
-    unsigned long long _domain;
 }
 
 - (id);
@@ -33,8 +20,8 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned int);
+- (id);
+- (unsigned int)SGQuickResponsesDatabase;
 - (unsigned long long);
 - (long long);
 - (void);
@@ -48,7 +35,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)hasBundleID;
 - (id);
 - (void);
 - (id);
@@ -58,18 +45,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) BMAccount *account; // @synthesize account=_account;
 @property(readonly, nonatomic) unsigned long long configDatastoreVersion; // @synthesize configDatastoreVersion=_configDatastoreVersion;
-@property(readonly, nonatomic) BMCurrentDevice *currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, nonatomic) NSString *datastorePath;
-@property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool isManaged; // @synthesize isManaged=_isManaged;
-@property(readonly, nonatomic) unsigned long long protectionClass; // @synthesize protectionClass=_protectionClass;
-@property(retain, nonatomic) BMPruningPolicy *pruningPolicy; // @synthesize pruningPolicy=_pruningPolicy;
-@property(copy, nonatomic) NSString *remoteName; // @synthesize remoteName=_remoteName;
-@property(readonly, nonatomic) unsigned long long segmentSize; // @synthesize segmentSize=_segmentSize;
-@property(nonatomic) long long storeLocationOption; // @synthesize storeLocationOption=_storeLocationOption;
-@property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end
 

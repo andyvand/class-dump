@@ -6,29 +6,20 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFaceMaskApply : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputParameterImage;
-    CIVector *inputFacesCenterX;
-    CIVector *inputFacesCenterY;
-    CIVector *inputFacesChinX;
-    CIVector *inputFacesChinY;
-    CIVector *inputK0;
-    CIVector *inputK1;
-    CIVector *inputK2;
-    CIVector *inputK3;
-    NSNumber *inputK4;
-    NSDictionary *inputTuningParameters;
 }
 
 + (id)@ù
 × ;
 - (void);
 - (void);
+- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -36,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -50,22 +39,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id),@1JH]XdXjhqchdoP^WjI[Td[[V[LVMW____qqqqddbdMMFMEF5IPZNa¼¼¼¼ÇÇÇÇ°°°°izvOh_zgXlgwnwuyz|||hplvmqmqmmmmlkellwuxrxt~LcYuhup|gtq|lqnunnnnaa_a:K?SHJ>KAE8G7I<P\fffvvvvooooad]ellllcpirK[Lnawq££££¨¨¨¨gyy{ggggYYYYTTNTBSH]vvvvdqmsnnhnq|{££££¸¸¸¸ªªªªM`VgBTG]NaWf~~~~££££ |q}{}}}}d{z~y~}^sn|bqk}~s}}txwzyyyy{{{{`xwbb|xo    {zy{U]U^SSSSEUIWonio¢¢¢¢aunsxs~}|{}quqwzzxz_urx{Xpfr{t¡¡vvvvR^Ud@\Ti{{{{grqukmir~~~~yyyyTd\jXbYb`aWcjohs¢´´´´¼¼¼¼¡¡¡¡F`WsFF6TNM@NUTKUccbckkkkaaaaCF:MGG:GSSOSTebfttttotttXf\o_mext|IcVuReXpzzszt}n{~Yso^c\iNNBN#3"=*<0@HHHHKKDK<K@Vdiekgvu|qvvvvooloalftPsq|{{{{gqntBaZqalftszy||}ekfn6N?_JZO_cc[c@]Rjo~}{{kn}x]|{swwww`jfnPgancnirvyv{x £¦¦¨¨¨¨UrjDi_vyw{ppoprrrr~~~~wwwwbf`gHUK]@QEYBRHVOOCOAH8M@UH_p¥¥¥¥±±±±££¤¤i}UmbXumz}bvoxwoYtlzqEWGcTO;X^g\j¡¡¡8]Uqfhckmmmmgppqttttpppp_e_klpnr}}}}v{{{^mgqmmgmkrlvRlc|Qi`xiwt~ruuuu`]T`6I:Zqolqeqo| /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CIVector *inputFacesCenterX; // @synthesize inputFacesCenterX;
-@property(copy, nonatomic) CIVector *inputFacesCenterY; // @synthesize inputFacesCenterY;
-@property(copy, nonatomic) CIVector *inputFacesChinX; // @synthesize inputFacesChinX;
-@property(copy, nonatomic) CIVector *inputFacesChinY; // @synthesize inputFacesChinY;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) CIVector *inputK0; // @synthesize inputK0;
-@property(copy, nonatomic) CIVector *inputK1; // @synthesize inputK1;
-@property(copy, nonatomic) CIVector *inputK2; // @synthesize inputK2;
-@property(copy, nonatomic) CIVector *inputK3; // @synthesize inputK3;
-@property(copy, nonatomic) NSNumber *inputK4; // @synthesize inputK4;
-@property(retain, nonatomic) CIImage *inputParameterImage; // @synthesize inputParameterImage;
-@property(copy, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

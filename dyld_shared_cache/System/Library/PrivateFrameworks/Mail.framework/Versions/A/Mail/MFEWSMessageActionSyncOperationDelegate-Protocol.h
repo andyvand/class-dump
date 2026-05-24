@@ -5,5 +5,6 @@
 //
 
 @protocol MFEWSMessageActionSyncOperationDelegate
+- (void);
 @end
 

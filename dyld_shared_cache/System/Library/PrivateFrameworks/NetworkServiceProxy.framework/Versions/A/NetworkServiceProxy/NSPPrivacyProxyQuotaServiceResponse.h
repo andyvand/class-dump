@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPPrivacyProxyGetQuotaResponse;
-
 @interface NSPPrivacyProxyQuotaServiceResponse
 {
     int _requestType;
-    NSPPrivacyProxyGetQuotaResponse *_response;
-    CDStruct_7c66fec0 _has;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)E¹;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -31,14 +27,11 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)ATreeNode"8^B16;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestType;
 @property(readonly, nonatomic) _Bool hasResponse;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
-@property(retain, nonatomic) NSPPrivacyProxyGetQuotaResponse *response; // @synthesize response=_response;
 
 @end
 

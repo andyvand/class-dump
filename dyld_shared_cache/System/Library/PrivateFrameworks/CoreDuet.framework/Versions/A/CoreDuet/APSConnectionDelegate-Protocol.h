@@ -7,8 +7,10 @@
 @protocol APSConnectionDelegate
 
 @optional
-- (void)oLive;
-- (void)ShareSheetDeletionCandidate;
-- (void)eToggler;
+- (void)M;
+- (void)k!;
+- (void)timeToLive;
+- (void)_mailShareSheetDeletionCandidate;
+- (void)_cloudIsAvailableToggler;
 @end
 

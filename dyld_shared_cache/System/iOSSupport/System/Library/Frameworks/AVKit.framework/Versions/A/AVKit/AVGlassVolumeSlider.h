@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVLayoutItemAttributes, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVGlassVolumeSlider
 {
     _Bool _included;
-    _Bool _collapsed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _removed;
-    _Bool _animatingVolumeChange;
-    _Bool _hasChangedLocationAtLeastOnce;
-    _Bool _scrubsWhenTappedAnywhere;
-    AVLayoutItemAttributes *_layoutAttributes;
-    struct CGSize _extrinsicContentSize;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
+- (_Bool)M.;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool)supported for package manifests;
 - (long long);
 - (struct CGSize);
 - (struct CGSize);
@@ -41,13 +30,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)@0:(id)arg1 8#16@24;
+- (void)_recordRow;
 - (_Bool);
 - (void);
 - (void);
@@ -59,33 +48,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)
 × ;
-- (id)tBackgroundEffectView: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets):didAttachControlsViews: /* Error: Ran out of types for this method. */;
-- (void)ithTitle:(id)arg1 image:(id)arg2 identifier:handler: /* Error: Ran out of types for this method. */;
+- (id)setBackgroundEffectView: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)glassTransportControlsView:didAttachControlsViews: /* Error: Ran out of types for this method. */;
+- (void)actionWithTitle:(id)arg1 image:(id)arg2 identifier:handler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ionStyle;
+- (void)transitionStyle;
 - (_Bool)Ð!Ü!;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingVolumeChange) _Bool animatingVolumeChange; // @synthesize animatingVolumeChange=_animatingVolumeChange;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
 @property(nonatomic) _Bool hasChangedLocationAtLeastOnce; // @synthesize hasChangedLocationAtLeastOnce=_hasChangedLocationAtLeastOnce;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) _Bool scrubsWhenTappedAnywhere; // @synthesize scrubsWhenTappedAnywhere=_scrubsWhenTappedAnywhere;
-@property(readonly) Class superclass;
 
 @end
 

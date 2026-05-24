@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRange, _INPBIntentMetadata, _INPBWellnessUnitType;
+@class NSArray, _INPBIntentMetadata, _INPBWellnessUnitType;
 
 @protocol _INPBSaveHealthSampleIntent
-- (_Bool)a;
-- (_INPBWellnessUnitType *)ttingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
++ (Class)6;
+- (_Bool);
+- (void)/PrivateFrameworks/AppSSOCore.framework/AppSSOCore;
+- (NSArray *)(;
+- (_Bool)hasPrivateUpdateMediaAffinityIntentData;
+- (_INPBWellnessUnitType *)provideEnableAirConditionerOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasObjectType;
-@property(readonly, nonatomic) _Bool hasRecordDate;
-@property(readonly, nonatomic) _Bool hasUnit;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int objectType;
-@property(retain, nonatomic) _INPBDateTimeRange *recordDate;
-@property(copy, nonatomic) NSArray *sampleMetadatas;
-@property(readonly, nonatomic) unsigned long long sampleMetadatasCount;
-@property(retain, nonatomic) _INPBWellnessUnitType *unit;
-@property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

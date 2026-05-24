@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SiriCoreSQLiteColumnDescription
 {
     NSString *_name;
-    NSString *_type;
-    NSArray *_constraints;
 }
 
-+ (id);
-+ (id);
++ (id)BlockedSenderEnabled;
++ (id)ve proxy config is not privacy proxy;
 - (id);
 - (id);
 - (id);
@@ -24,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

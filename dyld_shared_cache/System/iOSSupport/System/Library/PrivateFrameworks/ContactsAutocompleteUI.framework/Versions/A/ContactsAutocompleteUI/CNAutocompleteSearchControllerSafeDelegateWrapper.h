@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNAutocompleteSearchControllerInternalDelegate;
 
 @interface CNAutocompleteSearchControllerSafeDelegateWrapper
@@ -34,18 +33,17 @@
         unsigned int didAddRecipientByResultsController:1;
         unsigned int didAddRecipientBySuggestionsController:1;
     } _delegateFlags;
-    id <CNAutocompleteSearchControllerInternalDelegate> _delegate;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -54,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
@@ -67,14 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNAutocompleteSearchControllerInternalDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

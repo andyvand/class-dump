@@ -15,11 +15,11 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)setAlternateImages: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);

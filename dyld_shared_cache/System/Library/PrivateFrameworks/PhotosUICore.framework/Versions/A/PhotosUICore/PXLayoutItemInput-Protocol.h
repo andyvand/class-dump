@@ -5,14 +5,10 @@
 //
 
 @protocol PXLayoutItemInput
-- (double)sExecution;
+- (double);
+- (double)_timerStopPlanResultsExecution;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect acceptableCropRect;
-@property(readonly, nonatomic) struct CGPoint positionOffset;
-@property(readonly, nonatomic) struct CGRect preferredCropRect;
 @property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) struct CGAffineTransform transform;
-@property(readonly, nonatomic) double weight;
 @end
 

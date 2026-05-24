@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOSharedNavRouteInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_82f37d05 _coordinates;
-    CDStruct_9f2792e4 _trafficColorOffsets;
-    CDStruct_9f2792e4 _trafficColors;
-    NSMutableArray *_chargingStations;
-    NSMutableArray *_routingPathLegs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _elevationModel;
-    struct {
-        unsigned int has_elevationModel:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_coordinates:1;
-        unsigned int read_trafficColorOffsets:1;
-        unsigned int read_trafficColors:1;
-        unsigned int read_chargingStations:1;
-        unsigned int read_routingPathLegs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)T@"<CNCancelable>",&,N,V_scheduledToken;
 + (Class);
-+ (Class);
-+ (_Bool)nment:(id)arg1;
++ (_Bool)setMapsEnvironment:(id)arg1;
 - (unsigned long long);
 - (unsigned int *);
 - (unsigned long long);
@@ -45,63 +25,53 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (id)>!$_;
+- (int)!$_;
+- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (int);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R/;
+- (void)originalRequest;
 - (id);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_siriStateClient;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)�;
 - (_Bool);
 - (id);
 - (void);
 - (id)GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16*24;
 - (double *)@36@?44;
-- (id)estParameters;
-- (id)OPDSearchQueryTransliteratorMetadata;
-- (id)p_status;
-- (double)lid_end_time;
+- (id)hasFeedbackRequestParameters;
+- (id)GEOPDSearchQueryTransliteratorMetadata;
+- (id)proxy_error_http_status;
+- (double)valid_end_time;
 - (void)Z½ÃíÐ¹P@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *chargingStations;
-@property(readonly, nonatomic) double *coordinates;
 @property(readonly, nonatomic) unsigned long long coordinatesCount;
-@property(nonatomic) int elevationModel;
-@property(nonatomic) _Bool hasElevationModel;
-@property(retain, nonatomic) NSMutableArray *routingPathLegs;
-@property(readonly, nonatomic) unsigned int *trafficColorOffsets;
-@property(readonly, nonatomic) unsigned long long trafficColorOffsetsCount;
-@property(readonly, nonatomic) unsigned int *trafficColors;
-@property(readonly, nonatomic) unsigned long long trafficColorsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

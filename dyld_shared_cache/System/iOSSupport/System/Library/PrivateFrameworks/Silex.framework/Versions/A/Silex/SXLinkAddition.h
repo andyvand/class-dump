@@ -6,7 +6,7 @@
 
 #import <Silex/SXAddition.h>
 
-@class NSURL, SXJSONDictionary;
+@class NSURL;
 
 @interface SXLinkAddition : SXAddition
 {
@@ -16,8 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @dynamic analytics;
-@property(readonly, nonatomic) _Bool openInBrowser; // @dynamic openInBrowser;
 
 @end
 

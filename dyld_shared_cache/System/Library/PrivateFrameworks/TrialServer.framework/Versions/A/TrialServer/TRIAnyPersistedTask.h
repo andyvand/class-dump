@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TRIAnyPersistedTask
 {
 }
@@ -13,9 +11,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSerialized; // @dynamic hasSerialized;
-@property(nonatomic) _Bool hasType; // @dynamic hasType;
-@property(copy, nonatomic) NSData *serialized; // @dynamic serialized;
 @property(nonatomic) int type; // @dynamic type;
 
 @end

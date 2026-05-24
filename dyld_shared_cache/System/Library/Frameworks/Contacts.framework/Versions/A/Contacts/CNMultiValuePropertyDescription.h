@@ -6,7 +6,7 @@
 
 #import <Contacts/CNPropertyDescription.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface CNMultiValuePropertyDescription : CNPropertyDescription
 {
@@ -14,28 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) long long coreDataBitMask;
-@property(readonly, retain, nonatomic) NSDictionary *coreDataBitMaskedValuesMap;
 @property(readonly, copy, nonatomic) NSString *coreDataKey;
-@property(readonly, copy, nonatomic) NSString *coreDataPredicateKeyPath;
-@property(readonly, retain, nonatomic) NSArray *coreDataPropertyKeysForPrefetching;
-@property(readonly, retain, nonatomic) NSArray *coreDataRelationshipKeyPathsForPrefetching;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDUnknownBlockType fromPlistTransform;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMultiValue;
-@property(readonly, nonatomic) _Bool isRelationship;
-@property(readonly, nonatomic) _Bool isSingleValue;
-@property(readonly, nonatomic) Class labeledValueClass;
-@property(readonly, nonatomic) NSArray *managedLabels;
-@property(readonly, nonatomic) CDUnknownBlockType plistTransform;
-@property(readonly, nonatomic) NSArray *standardLabels;
-@property(readonly, retain, nonatomic) NSDictionary *subCoreDataPredicatePropertiesByKey;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Class valueClass;
 @end
 

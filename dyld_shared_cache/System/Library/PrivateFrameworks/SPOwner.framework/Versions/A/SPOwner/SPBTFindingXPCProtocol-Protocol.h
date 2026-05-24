@@ -5,5 +5,7 @@
 //
 
 @protocol SPBTFindingXPCProtocol
+- (void);
+- (void)!;
 @end
 

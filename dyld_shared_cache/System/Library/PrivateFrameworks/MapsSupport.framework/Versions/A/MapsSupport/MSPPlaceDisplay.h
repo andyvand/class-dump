@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPPlaceDisplay
 {
     PBUnknownFields *_unknownFields;
-    GEOMapItemStorage *_placeMapItemStorage;
-    NSString *_supersededSearchIdentifier;
 }
 
-- (id);
-- (void);
+- (id)T;
+- (void)T;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -33,10 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaceMapItemStorage;
-@property(readonly, nonatomic) _Bool hasSupersededSearchIdentifier;
-@property(retain, nonatomic) GEOMapItemStorage *placeMapItemStorage; // @synthesize placeMapItemStorage=_placeMapItemStorage;
-@property(retain, nonatomic) NSString *supersededSearchIdentifier; // @synthesize supersededSearchIdentifier=_supersededSearchIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

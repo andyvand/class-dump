@@ -7,10 +7,6 @@
 @interface SearchUI.ExpandSectionHeaderAction
 {
     id _isExpanded;
-    id sectionModel;
-    id delegate;
-    id feedbackDelegate;
-    id _$observationRegistrar;
 }
 
 @end

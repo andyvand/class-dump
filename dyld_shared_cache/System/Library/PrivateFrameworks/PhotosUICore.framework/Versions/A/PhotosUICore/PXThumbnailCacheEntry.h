@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSManagedObjectID;
+@class NSManagedObjectID;
 
 @interface PXThumbnailCacheEntry
 {
     NSManagedObjectID *_objectID;
-    NSData *_data;
-    struct PHAssetResourceTableDataSpecification _dataSpec;
 }
 
 - (struct PHAssetResourceTableDataSpecification);
 - (id);
 - (id);
-- (id);
-- (void)ViewModelChanged;
+- (id)all;
+- (void)PXPhotosViewModelChanged;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) struct PHAssetResourceTableDataSpecification dataSpec; // @synthesize dataSpec=_dataSpec;
 @property(readonly, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
 
 @end

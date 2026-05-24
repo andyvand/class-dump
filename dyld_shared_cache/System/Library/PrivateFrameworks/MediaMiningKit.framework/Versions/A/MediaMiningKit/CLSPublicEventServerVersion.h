@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CLSPublicEventServerVersion
 {
     NSString *_versionString;
-    NSDate *_dateOfServerUpdate;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateOfServerUpdate; // @synthesize dateOfServerUpdate=_dateOfServerUpdate;
 @property(readonly, nonatomic) NSString *versionString; // @synthesize versionString=_versionString;
 
 @end

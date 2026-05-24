@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DDRange
 {
     WKDOMNode *_node;
-    long long _startOffset;
-    long long _endOffset;
 }
 
 + (id);
@@ -20,15 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long endOffset; // @synthesize endOffset=_endOffset;
 @property(retain, nonatomic) WKDOMNode *node; // @synthesize node=_node;
-@property(nonatomic) long long startOffset; // @synthesize startOffset=_startOffset;
 
 @end
 

@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBNumericSettingValue, _INPBSettingMetadata, _INPBTemporalEventTrigger;
-
 @interface _INPBSetNumericSettingIntent
 {
     struct {
         unsigned int action:1;
         unsigned int boundedValue:1;
     } _has;
-    int _action;
-    int _boundedValue;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBNumericSettingValue *_numericValue;
-    _INPBSettingMetadata *_settingMetadata;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ѭ;
 - (void);
 - (void);
 - (id);
@@ -36,21 +28,21 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void)telemetry:(_Bool)arg1 number1,name=Success}d  Error=%{public,signpost.telemetry:number2,name=Error}d  /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)tion;
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)1;
 - (void)Á%°! @ùÑ¾(°1Â0@ù
 × ;
 - (_Bool)etionOnDeallocation: /* Error: Ran out of types for this method. */;
@@ -58,24 +50,6 @@
 
 // Remaining properties
 @property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) int boundedValue; // @synthesize boundedValue=_boundedValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasBoundedValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNumericValue;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBNumericSettingValue *numericValue; // @synthesize numericValue=_numericValue;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
 
 @end
 

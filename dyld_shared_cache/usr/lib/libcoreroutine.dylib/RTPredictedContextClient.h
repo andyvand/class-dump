@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTPredictedContextOptions;
-
 @interface RTPredictedContextClient
 {
     _Bool _singleShot;
-    id _client;
-    NSString *_clientIdentity;
-    RTPredictedContextOptions *_options;
-    CDUnknownBlockType _handler;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)l message {encryptingIdentity:%{private}@, signingIdentity:%{private}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)d with null (payloadData.length >= sizeof(ikev2_payload_config_hdr_t));
 - (CDUnknownBlockType);
 - (void)public}@,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,isValid,%{public}d;
 - (id)Ë;
 
 // Remaining properties
 @property(retain, nonatomic) id client; // @synthesize client=_client;
-@property(copy, nonatomic) NSString *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) RTPredictedContextOptions *options; // @synthesize options=_options;
-@property(nonatomic) _Bool singleShot; // @synthesize singleShot=_singleShot;
 
 @end
 

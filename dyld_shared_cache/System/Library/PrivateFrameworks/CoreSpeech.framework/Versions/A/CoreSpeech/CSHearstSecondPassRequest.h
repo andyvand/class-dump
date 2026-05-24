@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioProvider, CSAudioStreamHolding, CSSpeechManager, CSVoiceTriggerSecondChanceContext, CSVoiceTriggerSecondPass, NSString;
+@class NSString;
 
 @interface CSHearstSecondPassRequest
 {
     _Bool _isSecondPassRunning;
-    float _remoteMicVADScore;
-    NSString *_firstPassDeviceID;
-    CSVoiceTriggerSecondPass *_voiceTriggerSecondPass;
-    CSAudioStreamHolding *_audioStreamHolding;
-    CSAudioProvider *_audioProvider;
-    CSSpeechManager *_speechManager;
-    CSVoiceTriggerSecondChanceContext *_secondChanceContext;
 }
 
 - (void);
@@ -36,23 +29,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)with:(id)arg1 boundIOPorts:):after function.outputs: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)n:options:context:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)deactivateForReason:options:context:completion: /* Error: Ran out of types for this method. */;
 - (id)_registerForFakeAssetRollNotification;
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
-@property(retain, nonatomic) CSAudioStreamHolding *audioStreamHolding; // @synthesize audioStreamHolding=_audioStreamHolding;
 @property(retain, nonatomic) NSString *firstPassDeviceID; // @synthesize firstPassDeviceID=_firstPassDeviceID;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
-@property(nonatomic) float remoteMicVADScore; // @synthesize remoteMicVADScore=_remoteMicVADScore;
-@property(retain, nonatomic) CSVoiceTriggerSecondChanceContext *secondChanceContext; // @synthesize secondChanceContext=_secondChanceContext;
-@property(retain, nonatomic) CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(retain, nonatomic) CSVoiceTriggerSecondPass *voiceTriggerSecondPass; // @synthesize voiceTriggerSecondPass=_voiceTriggerSecondPass;
 
 @end
 

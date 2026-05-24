@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorBandwidthConfiguration
 {
     unsigned char _arbiterMode;
-    int _connectionType;
-    unsigned int _maxBandwidth;
-    _Bool _isDefaultMode;
 }
 
 - (void);
@@ -23,12 +20,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (_Bool);
-- (void)ze;
+- (void)VCJitterBuffer_Finalize;
 
 // Remaining properties
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) _Bool isDefaultMode; // @synthesize isDefaultMode=_isDefaultMode;
-@property(nonatomic) unsigned int maxBandwidth; // @synthesize maxBandwidth=_maxBandwidth;
 @property(nonatomic) unsigned char mode; // @synthesize mode=_arbiterMode;
 
 @end

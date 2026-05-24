@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ExecutorSiriSchemaExecutorClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    SISchemaUUID *_executorId;
-    unsigned long long _spanId;
-    struct {
-        unsigned int spanId:1;
-    } _has;
-    _Bool _hasIfRequestId;
-    _Bool _hasExecutorId;
 }
 
 - (void);
@@ -35,26 +28,21 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)ed an XPC_ERROR_CONNECTION_INTERRUPTED error.
+;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id)audioChannel"b1};
-- (id)UIStarted;
+- (id)SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *executorId; // @synthesize executorId=_executorId;
-@property(nonatomic) _Bool hasExecutorId; // @synthesize hasExecutorId=_hasExecutorId;
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasSpanId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long spanId; // @synthesize spanId=_spanId;
 
 @end
 

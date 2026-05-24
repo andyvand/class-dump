@@ -9,25 +9,24 @@
 @interface MSVSonicAssertion
 {
     NSString *_name;
-    _Bool _needsInvalidation;
-    CDUnknownBlockType _invalidationHandler;
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)
+
+*;
++ (id)ince it seems to have lost its location.;
++ (_Bool)contactsCache;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)numberWithDouble: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)ge=QQ}40^q56;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

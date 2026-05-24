@@ -7,9 +7,6 @@
 @interface ContactsUICore.ContactLikenessStore.InMemoryCache
 {
     id logger;
-    id capacity;
-    id storage;
-    id evictionQueue;
 }
 
 @end

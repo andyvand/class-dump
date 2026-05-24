@@ -4,23 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
+@class NSObject, NSString;
 @protocol NSCopying;
 
 @interface _PXStoryExplicitChapter
 {
     NSObject<NSCopying> *_identifier;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    NSString *_firstAssetUUID;
-    NSSet *_assetUUIDs;
 }
 
 - (id);
 - (id);
-- (void);
-- (id)lidator: /* Error: Ran out of types for this method. */;
-- (id)12PhotosUICore28PXModelDeliveryProgressState;
+- (void)lareForeColorU; 
+		void main() 
+		{ 
+			lowp float a = SampleTexture2.r; 
+			gl_FragColor = uColor * vec4(mix(SampleTexture0.rgb, SampleTexture1.rgb, mixFactor), a); 
+		} 
+		;
+- (id)valueValidator: /* Error: Ran out of types for this method. */;
+- (id)_TtC12PhotosUICore28PXModelDeliveryProgressState;
 - (id)wêÿ;
 - (void)gLayout.m;
 - (id)n because the initial state is incomplete.;
@@ -28,12 +30,7 @@
 - (id)Ò¶ì!;ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *assetUUIDs; // @synthesize assetUUIDs=_assetUUIDs;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *firstAssetUUID; // @synthesize firstAssetUUID=_firstAssetUUID;
-@property(readonly, nonatomic) NSObject<NSCopying> *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle;
 
 @end
 

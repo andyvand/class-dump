@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
+- (long long)TLSMaximumVersion;
 - (id);
 - (_Bool);
 - (struct CGRect)oint=dd}{CGSize=dd}},N,V_trackBounds;
 - (id)ns:(struct CGRect)arg1 ,V_allowsMultipleSessions;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOrthoSection;
 @property(readonly, nonatomic) struct CGRect queryRect; // @synthesize queryRect=_queryRect;
-@property(readonly, nonatomic) long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
 
 @end
 

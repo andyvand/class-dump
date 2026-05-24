@@ -7,11 +7,10 @@
 @interface AFContextManager
 {
     struct __CFArray *_contextProviders;
-    int _notifyToken;
 }
 
 + (id);
-- (void);
+- (void)PEER_PAYMENT_MINIMUM_AMOUNT_NOT_MET_ERROR_TITLE;
 - (void);
 - (void);
 - (void);

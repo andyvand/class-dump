@@ -5,5 +5,9 @@
 //
 
 @protocol NFReaderSessionDelegate
+
+@optional
+- (void));
+- (void)};
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSString, NSURL;
+@class CKContainerID;
 
 @interface CKDDirectoryContext
 {
     CKContainerID *_containerID;
-    NSString *_dataSeparationHash;
-    NSString *_containerIdentifier;
-    NSURL *_containerDirectory;
-    NSURL *_containerCloudKitDirectory;
-    NSURL *_daemonCachesDirectory;
-    NSURL *_daemonDatabaseDirectory;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)tStreamRef, APSWrapperRef);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)icyNetworkActivityTracing _networkActivityTracingCancel]_block_invoke;
+- (id)_mergeTable:connection:journaledRows:newRows: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -39,18 +33,7 @@
 - (id)Æ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *containerCloudKitDirectory; // @synthesize containerCloudKitDirectory=_containerCloudKitDirectory;
-@property(readonly, nonatomic) NSURL *containerDirectory; // @synthesize containerDirectory=_containerDirectory;
 @property(readonly, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic) NSURL *daemonCachesDirectory; // @synthesize daemonCachesDirectory=_daemonCachesDirectory;
-@property(readonly, nonatomic) NSURL *daemonDatabaseDirectory; // @synthesize daemonDatabaseDirectory=_daemonDatabaseDirectory;
-@property(readonly, nonatomic) NSString *dataSeparationHash; // @synthesize dataSeparationHash=_dataSeparationHash;
-@property(readonly, nonatomic) NSURL *fileDownloadDirectory;
-@property(readonly, nonatomic) NSURL *frameworkCachesDirectory;
-@property(readonly, nonatomic) NSURL *mmcsWorkingDirectory;
-@property(readonly, nonatomic) NSURL *recordCacheDirectory;
-@property(readonly, nonatomic) NSURL *temporaryDirectory;
 
 @end
 

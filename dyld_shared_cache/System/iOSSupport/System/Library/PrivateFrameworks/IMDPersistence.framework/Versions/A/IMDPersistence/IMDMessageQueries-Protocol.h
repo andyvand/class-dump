@@ -5,5 +5,6 @@
 //
 
 @protocol IMDMessageQueries
+- (void);
 @end
 

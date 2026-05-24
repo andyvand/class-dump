@@ -7,14 +7,6 @@
 @interface PhotoAnalysis.SocialGroupsEvaluationTask
 {
     id incrementalKey;
-    id worker;
-    id graphManager;
-    id name;
-    id identifier;
-    id version;
-    id periodicity;
-    id priority;
-    id shouldRecordCompletion;
 }
 
 @end

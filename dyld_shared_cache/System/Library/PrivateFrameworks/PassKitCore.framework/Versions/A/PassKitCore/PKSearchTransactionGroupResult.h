@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentTransactionGroup;
+@class PKPaymentTransactionGroup;
 
 @interface PKSearchTransactionGroupResult
 {
     PKPaymentTransactionGroup *_group;
 }
 
-+ (_Bool);
++ (_Bool)__DATA;
 - (unsigned long long);
+- (id)H;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id)senSeatNumber;
-- (void)PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_TITLE;
+- (void)_passwordSharingMechanism;
+- (id)_shinkansenSeatNumber;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_TITLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) PKPaymentTransactionGroup *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

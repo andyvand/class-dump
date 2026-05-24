@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, NSArray;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDataOutputSynchronizerInternal
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    AVWeakReference *weakReference;
-    NSArray *dataOutputs;
-    struct OpaqueFigSimpleMutex *dataOutputsStorageMutex;
-    NSArray *dataOutputsStorage;
-    int leaderSynchronizedDataQueueMaxDepth;
-    _Bool synchronizingVideoAndDepth;
-    _Bool synchronizingVideoAndVisionData;
 }
 
 @end

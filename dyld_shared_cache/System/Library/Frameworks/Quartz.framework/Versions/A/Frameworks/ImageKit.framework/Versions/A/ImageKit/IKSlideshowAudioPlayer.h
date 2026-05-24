@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSound;
+@class NSMutableArray;
 
 @interface IKSlideshowAudioPlayer
 {
     NSMutableArray *_urls;
-    unsigned long long _currentIndex;
-    NSSound *_soundToPlay;
 }
 
 - (void);
 - (void);
+- (void)r: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)t;
 - (id);
 
 @end

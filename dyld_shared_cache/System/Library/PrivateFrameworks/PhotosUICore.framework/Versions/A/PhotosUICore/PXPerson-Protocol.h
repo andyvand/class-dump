@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol PXPerson
+- (NSString *);
+- (_Bool)ѩ#;
+- (NSString *);
 
 // Remaining properties
-@property(readonly) short detectionType;
-@property(readonly) _Bool isPersonModel;
-@property(readonly) _Bool isVerified;
-@property(readonly) NSString *name;
 @property(readonly) long long numberOfAssets;
-@property(readonly) _Bool px_isHuman;
-@property(readonly) _Bool px_isPet;
-@property(readonly) NSDate *px_keyPhotoDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R
-
-@property(readonly) NSString *px_localIdentifier;
-@property(readonly) NSString *px_localizedName;
-@property(readonly) NSString *px_longStyleLocalizedName;
 @end
 

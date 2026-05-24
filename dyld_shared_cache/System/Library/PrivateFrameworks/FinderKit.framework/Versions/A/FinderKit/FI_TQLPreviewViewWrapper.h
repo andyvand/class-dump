@@ -7,7 +7,6 @@
 #import <FinderKit/FI_TUpdateLayerView.h>
 
 @class QLPreviewView;
-@protocol QLPreviewViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TQLPreviewViewWrapper : FI_TUpdateLayerView
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property id <QLPreviewViewDelegate> delegate;
 @property(readonly, retain) QLPreviewView *qlPreviewView;
 
 @end

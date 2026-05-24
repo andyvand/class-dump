@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, PKCreditAccountIncomeDetails;
+@class CNContact;
 
 @interface PKCreditAccountUserInfo
 {
     CNContact *_primaryUser;
-    PKCreditAccountIncomeDetails *_incomeDetails;
 }
 
 + (_Bool)X"Ð!8Eùî%Ð1Â0@ù
@@ -21,11 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (id)ons;
-- (void)D_NAME;
+- (id)_processedForStations;
+- (void)NETWORK_NAME_JCB_CARD_NAME;
 
 // Remaining properties
-@property(retain, nonatomic) PKCreditAccountIncomeDetails *incomeDetails; // @synthesize incomeDetails=_incomeDetails;
 @property(copy, nonatomic) CNContact *primaryUser; // @synthesize primaryUser=_primaryUser;
 
 @end

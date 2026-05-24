@@ -9,20 +9,16 @@
 @interface FCEmbedProxyConfiguration
 {
     _Bool _usePrivateRelay;
-    NSString *_proxyHost;
-    NSString *_proxyAutoConfig;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)_shouldEnablePlaybackDuringAnimatedScroll;
 - (id);
 - (void)peRatingSecretIfNeeded];
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *proxyAutoConfig; // @synthesize proxyAutoConfig=_proxyAutoConfig;
 @property(readonly, nonatomic) NSString *proxyHost; // @synthesize proxyHost=_proxyHost;
-@property(readonly, nonatomic) _Bool usePrivateRelay; // @synthesize usePrivateRelay=_usePrivateRelay;
 
 @end
 

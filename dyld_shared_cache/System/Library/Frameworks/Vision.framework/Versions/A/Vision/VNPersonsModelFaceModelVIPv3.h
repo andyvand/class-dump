@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNPersonsModelFaceModelVIPv3 : VNPersonsModelFaceModel
 {
     NSMapTable *_serialNumberToPersonUniqueIdentifierMapTable;
-    shared_ptr_d8728072 _faceIDModel;
-    unsigned long long _faceprintRequestRevision;
 }
 
 + (id);
@@ -21,9 +19,27 @@ __attribute__((visibility("hidden")))
 + (shared_ptr_099ccdd3);
 + (_Bool);
 - (id);
+- (id)fp_invalidArgumentError:(id)arg1;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ng> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+<dict> 
+<key>AppleRAID-LevelName</key><string>LVG</string> 
+<key>AppleRAID-MemberType</key><array> 
+<string>AppleRAID-Members</string> 
+</array> 
+<key>AppleRAID-AutoRebuild</key><false/> 
+<key>AppleRAID-SetTimeout</key><integer size="32">0</integer> 
+<key>AppleRAID-ChunkSize</key><integer size="64">0x8000</integer> 
+<key>AppleRAID-CanAddMembers</key><true/> 
+<key>AppleRAID-CanAddSpares</key><false/> 
+<key>AppleRAID-SizesCanVary</key><true/> 
+<key>AppleRAID-RemovalAllowed</key><string>None</string> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+ </array> 
+;
 - (id);
 - (id);
 - (id);
@@ -34,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long)key in wisdom parameters %@;
-- (void)EstimatorType;
+- (void)VNFaceGeometryEstimatorType;
 
 @end
 

@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
+@class _INPBLocationValue;
 
 @protocol _INPBBusTrip
-- (void)onse;
+- (void);
+- (_Bool)imageNameFor1024ThumbnailData:metadataDictionary: /* Error: Ran out of types for this method. */;
+- (void)INSetMessageAttributeIntentResponse;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocationValue *arrivalBusStopLocation;
-@property(copy, nonatomic) NSString *arrivalPlatform;
-@property(copy, nonatomic) NSString *busName;
-@property(copy, nonatomic) NSString *busNumber;
-@property(retain, nonatomic) _INPBLocationValue *departureBusStopLocation;
-@property(copy, nonatomic) NSString *departurePlatform;
-@property(readonly, nonatomic) _Bool hasArrivalBusStopLocation;
-@property(readonly, nonatomic) _Bool hasArrivalPlatform;
-@property(readonly, nonatomic) _Bool hasBusName;
-@property(readonly, nonatomic) _Bool hasBusNumber;
-@property(readonly, nonatomic) _Bool hasDepartureBusStopLocation;
-@property(readonly, nonatomic) _Bool hasDeparturePlatform;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasTripDuration;
-@property(copy, nonatomic) NSString *provider;
-@property(retain, nonatomic) _INPBDateTimeRange *tripDuration;
 @end
 

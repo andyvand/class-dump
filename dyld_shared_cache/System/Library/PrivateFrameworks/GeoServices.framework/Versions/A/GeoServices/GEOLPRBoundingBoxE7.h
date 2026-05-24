@@ -4,66 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion;
-
 @interface GEOLPRBoundingBoxE7
 {
     int _eastLngE7;
-    int _northLatE7;
-    int _southLatE7;
-    int _westLngE7;
-    CDStruct_37b5bf71 _flags;
 }
 
-+ (_Bool)utOfOrderBytes:(id)arg1;
++ (_Bool)setHasRxOutOfOrderBytes:(id)arg1;
 - (int);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R#;
 - (void);
 - (void);
 - (void);
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (int);
+- (_Bool)6@24@32@?40;
+- (_Bool)requestAccessWithError: /* Error: Ran out of types for this method. */;
+- (int)cgfloatHash: /* Error: Ran out of types for this method. */;
+- (int)NFeatureFlags>",&,D;
+- (int)ntVerification>",&,D;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)H;
+- (void)v48@0:(id)arg1 8@"NSNumber"16@"NSNumber"24@"NSNumber"32@?<v@?B>40;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)stringByAppendingString: /* Error: Ran out of types for this method. */;
 - (CDStruct_c3b9c2ee);
 - (_Bool);
 - (void);
 - (id)setLocationShiftVersion:(struct _NSZone *)arg1;
-- (id)neDataBatchesResponse;
+- (id)GEOPBOfflineDataBatchesResponse;
 - (id)fusing to open database at %s with flags 0x%x due to current device lock status;
 - (id)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_c3b9c2ee center;
 @property(readonly, nonatomic) int centerLatE7;
-@property(readonly, nonatomic) int centerLngE7;
-@property(nonatomic) int eastLngE7;
-@property(nonatomic) _Bool hasEastLngE7;
-@property(nonatomic) _Bool hasNorthLatE7;
-@property(nonatomic) _Bool hasSouthLatE7;
-@property(nonatomic) _Bool hasWestLngE7;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) int northLatE7;
-@property(nonatomic) int southLatE7;
-@property(nonatomic) int westLngE7;
 
 @end
 

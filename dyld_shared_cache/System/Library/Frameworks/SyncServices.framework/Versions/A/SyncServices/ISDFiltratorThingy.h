@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDRecordIdMapper, ISDRecordStore, ISyncClient, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet;
-@protocol ISyncFiltering;
+@class ISyncClient;
 
 @interface ISDFiltratorThingy
 {
     ISyncClient *_client;
-    NSArray *_entities;
-    ISDRecordIdMapper *_mapper;
-    ISDRecordStore *_clientRecordStore;
-    ISDRecordStore *_truthRecordStore;
-    id <ISyncFiltering> _filter;
-    _Bool _skipMarkingAsProcessed;
-    NSMutableSet *_filteredOrRejectedIds;
-    NSMutableSet *_currentRecordIdsForFilter;
-    NSMutableDictionary *_recordIdsWithReferrersToRefilter;
-    NSMutableSet *_recordIdsForFilter;
-    NSMutableSet *_recordIdsToRejectOutOfHand;
-    NSMutableSet *_processedRecords;
-    NSMutableSet *_sourceIdsForFilter;
-    NSMutableDictionary *_referringRelationshipNames;
-    NSMutableDictionary *_requiredRelationshipNames;
-    NSMutableArray *_unappliedRecordIds;
-    NSMutableArray *_rejectedRecordIds;
-    NSMutableArray *_modifiedRecordIds;
-    NSMutableArray *_filteredRecordIds;
-    NSMutableArray *_filterRemovedRecordIds;
-    NSMutableArray *_filterReplacedRecordIds;
-    NSMutableArray *_clearDirtyRecordIds;
-    _Bool _isServerClientType;
 }
 
 - (void);

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ASDPromiseResult
 {
     NSError *_error;
-    id _value;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

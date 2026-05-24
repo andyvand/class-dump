@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableSet;
-@protocol UIFocusItem;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface NSFocusItemEnumerator
 {
     _Bool _done;
-    id <UIFocusItem> _groupingItem;
-    NSMapTable *_routes;
-    NSMutableSet *_visitedItems;
-    NSMutableArray *_history;
-    id <UIFocusItem> _head;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)DeviceCommunicationExceptionEnable;
+- (id)set_preventsSystemHTTPProxyAuthentication:(id)arg1;
+- (id)dataTaskWithRequest:originalRequest:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (_Bool);
 - (id)0@ù
 × ;
-- (id);
-- (id)roxy;
+- (id)_favoritesDidChange: /* Error: Ran out of types for this method. */;
+- (id)NSWindowFocusProxy;
 - (void)ø (ô´ÐÈìÐì(üè@ì¨	 ÌØ	`à¸
 ,Ôä
 Üø0è¬0ìXèÜì è¬ ;
@@ -38,11 +32,6 @@ __attribute__((visibility("hidden")))
 - (id)<dF;
 
 // Remaining properties
-@property(getter=isDone) _Bool done; // @synthesize done=_done;
-@property(readonly) id <UIFocusItem> groupingItem; // @synthesize groupingItem=_groupingItem;
-@property(retain) id <UIFocusItem> head; // @synthesize head=_head;
-@property(retain) NSMutableArray *history; // @synthesize history=_history;
-@property(readonly, copy) NSMapTable *routes; // @synthesize routes=_routes;
 @property(retain) NSMutableSet *visitedItems; // @synthesize visitedItems=_visitedItems;
 
 @end

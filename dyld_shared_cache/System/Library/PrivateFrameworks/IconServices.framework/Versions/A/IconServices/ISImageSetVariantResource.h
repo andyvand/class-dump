@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFImageBag, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISImageSetVariantResource
 {
     NSString *_variantName;
-    unsigned long long _flags;
-    NSMutableDictionary *_resourceImages;
-    IFImageBag *_imageBag;
 }
 
-+ (id);
++ (id)ueryFragment}qq^?^v}16;
 - (id);
-- (id);
-- (id);
+- (id)__data;
+- (id)__objc_protolist__DATA_CONST;
 - (struct CGImage *);
 - (id);
 - (void);
-- (id);
+- (id)HorizontalDisparityAdjustment;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(readonly) IFImageBag *imageBag; // @synthesize imageBag=_imageBag;
 @property(readonly) NSMutableDictionary *resourceImages; // @synthesize resourceImages=_resourceImages;
-@property(readonly) Class superclass;
-@property(readonly) NSString *variantName; // @synthesize variantName=_variantName;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
+- (void)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

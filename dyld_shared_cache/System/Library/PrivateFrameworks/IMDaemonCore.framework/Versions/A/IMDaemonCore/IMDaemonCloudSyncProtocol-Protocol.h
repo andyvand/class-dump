@@ -5,6 +5,16 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
+- (void)R7;
+- (void)`;
+- (void)4M藁;
+- (void);
+- (void);
+- (void);
+- (void)藁;
+- (void)(;
+- (void)middleIsCorrection;
+- (void)mainBundle;
 - (void)ad messages.;
 @end
 

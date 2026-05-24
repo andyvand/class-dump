@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (void);
++ (void)48@0:(id)arg1 8Q16q24@32@?40;
++ (id)tionFlags="isDirty"b1"hasCount"b1};
++ (id)gs="isDirty"b1"hasOutputDeviceName"b1"hasSourceDeviceName"b1};
++ (void)rain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2;
 
 @end
 

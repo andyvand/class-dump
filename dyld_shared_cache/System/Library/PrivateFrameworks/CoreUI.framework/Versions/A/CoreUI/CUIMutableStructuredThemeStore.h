@@ -6,21 +6,15 @@
 
 #import <CoreUI/CUIStructuredThemeStore.h>
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CUIMutableStructuredThemeStore : CUIStructuredThemeStore
 {
     NSString *_identifier;
-    NSMutableDictionary *_memoryStore;
-    NSMutableDictionary *_nameIdentifierStore;
-    int _maxNameIdentifier;
-    NSMutableDictionary *_appearanceNameIdentifierStore;
-    int _maxAppearanceNameIdentifier;
-    NSMutableDictionary *_renditionInfoStore;
 }
 
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (long long);
@@ -30,20 +24,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (struct _renditionkeytoken *);
-- (id);
-- (const struct _renditionkeytoken *);
+- (struct _renditionkeytoken *)setRecordAccessCompletionBlock:(id)arg1;
+- (id)LongLivedOpMaxRetryCount;
+- (const struct _renditionkeytoken *)backingVectorProtobuf;
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (const struct _renditionkeytoken *);
 - (const struct _renditionkeyfmt *);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)e receiver;
 - (void);
 - (id);
 - (id);

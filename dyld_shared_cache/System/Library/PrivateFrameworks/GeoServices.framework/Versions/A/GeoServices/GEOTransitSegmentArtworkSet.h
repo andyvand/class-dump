@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitSegmentArtworkSet
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _artworkIndexs;
-    NSMutableArray *_clusters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_artworkIndexs:1;
-        unsigned int read_clusters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setNavVoiceSettings:(id)arg1;
 + (Class)\;
 - (void);
 - (void);
+- (unsigned long long)abase;
+- (id)atabase,V_pristineDatabase;
+- (void)CNOpenDirectoryFacade;
+- (void)CNCDContactIndexMigrator;
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned int *);
+- (unsigned int *)SS_ypt;
 - (unsigned int);
-- (void);
-- (void);
+- (void):(id)arg1 %{public}@;
+- (void)ng with persistent Exchange store service proxy:(unsigned int)arg1 %{public}@;
 - (id);
 - (void);
 - (void);
@@ -44,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)pedTimeInNs:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -53,16 +41,13 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)try: /* Error: Ran out of types for this method. */;
-- (id)nchEvent;
+- (id)initWithAutocompleteBaseEntry: /* Error: Ran out of types for this method. */;
+- (id)_mapLaunchEvent;
 - (id)per object;
 - (void)¿3¢FQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *artworkIndexs;
 @property(readonly, nonatomic) unsigned long long artworkIndexsCount;
-@property(retain, nonatomic) NSMutableArray *clusters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

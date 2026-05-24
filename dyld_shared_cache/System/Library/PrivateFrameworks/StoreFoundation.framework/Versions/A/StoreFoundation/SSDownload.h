@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL, SSDownloadMetadata, SSDownloadStatus;
+@class NSArray;
 
 @interface SSDownload
 {
     _Bool _needsPreInstallValidation;
-    _Bool _installAfterLogout;
-    _Bool _didAutoUpdate;
-    _Bool _skipAssetDownloadIfNotAlreadyOnDisk;
-    _Bool _needsDisplayInDock;
-    _Bool _isInServerQueue;
-    NSArray *_assets;
-    SSDownloadMetadata *_metadata;
-    SSDownloadStatus *_status;
-    unsigned long long _downloadType;
-    NSNumber *_accountDSID;
-    NSString *_cancelURLString;
-    NSString *_installPath;
-    NSURL *_relaunchAppWithBundleURL;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)JA;
 - (id);
 - (void);
 - (void);
@@ -52,7 +39,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -66,28 +53,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)_viewDidDisappear;
+- (void)e;
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSNumber *accountDSID; // @synthesize accountDSID=_accountDSID;
 @property(copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(copy) NSString *cancelURLString; // @synthesize cancelURLString=_cancelURLString;
-@property(copy) NSString *customDownloadPath;
-@property _Bool didAutoUpdate; // @synthesize didAutoUpdate=_didAutoUpdate;
-@property unsigned long long downloadType; // @synthesize downloadType=_downloadType;
-@property _Bool installAfterLogout; // @synthesize installAfterLogout=_installAfterLogout;
-@property(copy) NSString *installPath; // @synthesize installPath=_installPath;
-@property _Bool isInServerQueue; // @synthesize isInServerQueue=_isInServerQueue;
-@property(copy, nonatomic) SSDownloadMetadata *metadata; // @synthesize metadata=_metadata;
-@property _Bool needsDisplayInDock; // @synthesize needsDisplayInDock=_needsDisplayInDock;
-@property(copy) NSURL *relaunchAppWithBundleURL; // @synthesize relaunchAppWithBundleURL=_relaunchAppWithBundleURL;
-@property _Bool skipAssetDownloadIfNotAlreadyOnDisk; // @synthesize skipAssetDownloadIfNotAlreadyOnDisk=_skipAssetDownloadIfNotAlreadyOnDisk;
-@property _Bool skipInstallPhase;
-@property(retain, nonatomic) SSDownloadStatus *status; // @synthesize status=_status;
 
 @end
 

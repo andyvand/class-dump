@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NADeallocationTracer, NSString;
-
 @interface NADeallocationSentinel
 {
     id _targetObject;
-    CDUnknownBlockType _finalizer;
-    NADeallocationTracer *_tracer;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
+- (id)_lock_hasStartTimeDefiningAssertionsForTargetProcessIdentity: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CDUnknownBlockType finalizer; // @synthesize finalizer=_finalizer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id targetObject; // @synthesize targetObject=_targetObject;
-@property(readonly, nonatomic) __weak NADeallocationTracer *tracer; // @synthesize tracer=_tracer;
 
 @end
 

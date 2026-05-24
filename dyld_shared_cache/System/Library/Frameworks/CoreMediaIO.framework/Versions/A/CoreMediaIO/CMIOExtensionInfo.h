@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionInfo
 {
     NSString *_description;
-    NSString *_redactedDescription;
-    NSObject<OS_xpc_object> *_endpoint;
-    NSString *_bundleID;
-    NSDictionary *_bundleInfo;
 }
 
-+ (id);
++ (id)R;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)PIReturnODPair;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSDictionary *bundleInfo; // @synthesize bundleInfo=_bundleInfo;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *endpoint; // @synthesize endpoint=_endpoint;
 
 @end

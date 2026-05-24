@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSArray, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDAssistantCommandHelper
 {
     _Bool _executingActionSet;
-    CDUnknownBlockType _responseHandler;
-    CDUnknownBlockType _mediaResponseHandler;
-    NSUUID *_messageId;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMFMessageDispatcher *_msgDispatcher;
-    NSUUID *_uuid;
-    NSMutableArray *_responses;
-    unsigned long long _numErrors;
-    NSArray *_requests;
-    NSArray *_mediaRequests;
-    NSMutableArray *_mediaResponses;
 }
 
 + (id)ÿ'ÛB;
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)T
+;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -54,50 +40,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
+- (id)putFrequencyLevel:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
 - (id)ã!4Bùñ1Â0@ù
 × ;
-- (void)Server:(CDUnknownBlockType)arg1;
+- (void)setIPTypeFromServer:(CDUnknownBlockType)arg1;
 - (id)FTimer",&,N,V_expectedApplyDurationTimer;
-- (id)yValuePair;
+- (id)MKFMatterLocalKeyValuePair;
 - (id)SupportedParameters:%@, cameraSupportedParameters:%@ /* Error: Ran out of types for this method. */;
 - (id)ng text notes;
-- (void)ral_accessibility_vision_speakingRateSection_speakingRate_readVersion;
+- (void)root_general_accessibility_vision_speakingRateSection_speakingRate_readVersion;
 - (void)¼¹;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool executingActionSet; // @synthesize executingActionSet=_executingActionSet;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSArray *mediaRequests; // @synthesize mediaRequests=_mediaRequests;
-@property(copy, nonatomic) CDUnknownBlockType mediaResponseHandler; // @synthesize mediaResponseHandler=_mediaResponseHandler;
-@property(retain, nonatomic) NSMutableArray *mediaResponses; // @synthesize mediaResponses=_mediaResponses;
-@property(retain, nonatomic) NSUUID *messageId; // @synthesize messageId=_messageId;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(nonatomic) unsigned long long numErrors; // @synthesize numErrors=_numErrors;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSArray *requests; // @synthesize requests=_requests;
 @property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain, nonatomic) NSMutableArray *responses; // @synthesize responses=_responses;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

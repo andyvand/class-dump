@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPXKeyEventSequenceTracker, CPXKeyboardEventDestinationGenerator, CPXNotificationCenter, CPXSpecialKeyEventProcessor, NSString, WSEventDeliveryManager;
-@protocol CPXProcessManaging;
+@class WSEventDeliveryManager;
 
 __attribute__((visibility("hidden")))
 @interface CPXKeyboardEventProcessor
 {
     WSEventDeliveryManager *_deliveryManager;
-    CPXSpecialKeyEventProcessor *_specialKeyEventProcessor;
-    id <CPXProcessManaging> _processManager;
-    CPXKeyboardEventDestinationGenerator *_destinationGenerator;
-    CPXNotificationCenter *_notificationCenter;
-    CPXKeyEventSequenceTracker *_keyDownTracker;
 }
 
-- (long long);
-- (id);
-- (id);
-- (void);
+- (long long)r occurred while configuring functions in the SQLite database.;
+- (id)failed;
+- (id)to open destination database;
+- (void)= NEW.Z_PK) WHERE Z_PK = NEW.Z_PK;;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

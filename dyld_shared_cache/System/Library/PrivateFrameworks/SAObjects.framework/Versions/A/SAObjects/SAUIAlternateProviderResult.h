@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber, NSString, SAUIImageResource;
+@class NSArray;
 
 @interface SAUIAlternateProviderResult : SADomainObject
 {
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSNumber *numberOfResults;
-@property(retain, nonatomic) SAUIImageResource *providerImage;
-@property(copy, nonatomic) NSString *providerName;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIFont;
+@class NSString;
 
 @interface StringDrawingInfo
 {
     NSString *_string;
-    UIColor *_color;
-    UIFont *_font;
-    struct CGSize _size;
 }
 
-+ (id);
++ (id);
 - (id);
 - (struct CGSize);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)invalid JSON object;
+- (void)_fingerCount;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

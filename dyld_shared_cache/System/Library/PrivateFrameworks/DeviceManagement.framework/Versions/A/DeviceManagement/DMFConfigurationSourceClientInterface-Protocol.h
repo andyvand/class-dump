@@ -5,5 +5,6 @@
 //
 
 @protocol DMFConfigurationSourceClientInterface
+- (void);
 @end
 

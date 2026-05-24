@@ -13,8 +13,8 @@
     NSString *_extensionName;
 }
 
-- (id);
-- (id);
+- (id)am=%@;
+- (id)k;
 - (void)D
 ;
 

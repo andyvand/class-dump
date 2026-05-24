@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)TrackpadHorizScroll;
 + (_Bool)%8;
 
 @end

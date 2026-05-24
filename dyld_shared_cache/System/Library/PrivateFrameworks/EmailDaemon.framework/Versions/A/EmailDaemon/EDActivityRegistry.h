@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDActivityPersistence, EDPersistenceHookRegistry, NSMutableSet, NSString;
+@class EDActivityPersistence, NSMutableSet;
 
 @interface EDActivityRegistry
 {
     NSMutableSet *_observers;
-    struct os_unfair_lock_s _lock;
-    EDActivityPersistence *_activityPersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
 }
 
 + (id)0@ù
@@ -29,14 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EDActivityPersistence *activityPersistence; // @synthesize activityPersistence=_activityPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly) Class superclass;
 
 @end
 

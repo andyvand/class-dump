@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UINSSystemAppearanceEncodedColor
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 - (void);
@@ -19,13 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)";
 - (double);
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) double blue; // @synthesize blue=_blue;
-@property(nonatomic) double green; // @synthesize green=_green;
 @property(nonatomic) double red; // @synthesize red=_red;
 
 @end

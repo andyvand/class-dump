@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHAGraphRebuildTask
 {
     unsigned long long _rebuildTaskMode;
@@ -17,11 +15,11 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -29,39 +27,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (int)ame;
+- (int)name;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
 @property(readonly, nonatomic) unsigned long long rebuildTaskMode; // @synthesize rebuildTaskMode=_rebuildTaskMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 
 @end
 

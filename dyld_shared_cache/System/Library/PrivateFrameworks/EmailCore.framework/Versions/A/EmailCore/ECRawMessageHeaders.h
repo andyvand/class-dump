@@ -4,20 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ECRawMessageHeaders
 {
     NSMutableDictionary *_headers;
-    NSMutableArray *_orderedHeaders;
 }
 
+- (id)be set once on an AVMobileChromelessControlsView.;
+- (id)ictureActive:(id)arg1 %d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (id)trollerBehaviorContext. This is fine, but probably means AVPlayerViewControllerBehaviorContext needs to be refactored;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)__objc_ivar;
 
 @end
 

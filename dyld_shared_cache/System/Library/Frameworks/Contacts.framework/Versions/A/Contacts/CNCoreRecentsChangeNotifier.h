@@ -7,13 +7,12 @@
 @interface CNCoreRecentsChangeNotifier
 {
     struct __CFString *_notification;
-    CDUnknownBlockType _notifyBlock;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)__unwind_info;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFString *notification; // @synthesize notification=_notification;
-@property(readonly, copy, nonatomic) CDUnknownBlockType notifyBlock; // @synthesize notifyBlock=_notifyBlock;
 
 @end
 

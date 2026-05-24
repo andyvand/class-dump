@@ -5,6 +5,7 @@
 //
 
 @protocol PLDiagnosticsAgent
+- (id);
 
 @optional
 - (id)@@¨)D,(1@12p6T;¼?AÔGüGÔH0K;

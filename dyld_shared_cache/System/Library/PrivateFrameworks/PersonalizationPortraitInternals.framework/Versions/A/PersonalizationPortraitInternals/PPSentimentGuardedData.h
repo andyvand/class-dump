@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASCFBurstTrie, _PASLazyPurgeableResult;
+@class _PASCFBurstTrie;
 
 @interface PPSentimentGuardedData
 {
     _PASCFBurstTrie *_tokenWeightTrie;
-    _PASLazyPurgeableResult *_tokenizer;
-    NSString *_abGroupIdentifier;
 }
 
 - (void)A¡°!ÈGù÷Ð1Â0@ù

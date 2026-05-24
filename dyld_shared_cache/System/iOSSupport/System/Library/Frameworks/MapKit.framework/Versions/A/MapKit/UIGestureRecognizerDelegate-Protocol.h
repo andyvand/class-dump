@@ -7,6 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)mespaces;
+- (_Bool)endowmentNamespaces;
 @end
 

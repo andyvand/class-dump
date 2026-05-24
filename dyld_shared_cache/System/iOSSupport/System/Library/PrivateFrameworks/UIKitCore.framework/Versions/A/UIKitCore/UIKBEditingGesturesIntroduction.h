@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_topPaddingConstraint;
 }
 
-+ (_Bool);
++ (_Bool)dating chat %@ for outgoing relay message.;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e priority property on chat with guid %s.;
 - (_Bool);
-- (double);
-- (id);
-- (void);
+- (double)cept chat command received fromID:%@,  /* Error: Ran out of types for this method. */;
+- (id)urgedAttachmentsForChat Request to download purged assets for chats %@ on services %@;
+- (void)sent;
 - (id);
 - (void)0@ù
 × ;

@@ -7,10 +7,6 @@
 @interface NewsUI2.FeedPerformanceCommandHandler
 {
     id sceneProvider;
-    id appConfigManager;
-    id networkBehaviorMonitor;
-    id pptContext;
-    id haveShownAlert;
 }
 
 @end

@@ -9,11 +9,10 @@
 @interface IOBluetoothNSObjCUserNotification : IOBluetoothNSUserNotification
 {
     id mObserver;
-    SEL mSelector;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 

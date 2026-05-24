@@ -15,9 +15,9 @@
 + (id);
 + (id);
 - (void);
+- (id)ch-left-context;
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *links;

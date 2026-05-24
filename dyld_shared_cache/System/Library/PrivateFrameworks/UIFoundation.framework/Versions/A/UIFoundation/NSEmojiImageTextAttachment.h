@@ -16,28 +16,26 @@
 + (void);
 + (id);
 + (_Bool);
-+ (id);
++ (id)*e;
 + (void);
-+ (void)TighteningForTruncation;
++ (void)allowsDefaultTighteningForTruncation;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)L;
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)Է;
+- (id)Pn;
+- (id)h)+D,;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)st std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (void);
+- (id)_DKLocationMetadataKey__altitude;
+- (void);
 
 // Remaining properties
-@property(readonly) NSAdaptiveImageGlyph *adaptiveImageGlyph; // @dynamic adaptiveImageGlyph;
 @property(copy) NSString *contentIdentifier; // @dynamic contentIdentifier;
-@property(copy) NSString *shortDescription; // @dynamic shortDescription;
 
 @end
 

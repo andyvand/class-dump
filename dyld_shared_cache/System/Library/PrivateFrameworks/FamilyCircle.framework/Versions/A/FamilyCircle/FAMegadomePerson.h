@@ -9,13 +9,10 @@
 @interface FAMegadomePerson
 {
     NSArray *_emails;
-    NSArray *_phoneNumbers;
-    NSArray *_names;
-    NSArray *_contactIdentifiers;
 }
 
-- (id);
-- (id);
+- (id)alarms;
+- (id)CENTERED;
 - (id);
 - (id);
 - (id);
@@ -23,10 +20,7 @@
 - (id)^D;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
 @property(readonly, nonatomic) NSArray *emails; // @synthesize emails=_emails;
-@property(readonly, nonatomic) NSArray *names; // @synthesize names=_names;
-@property(readonly, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
 
 @end
 

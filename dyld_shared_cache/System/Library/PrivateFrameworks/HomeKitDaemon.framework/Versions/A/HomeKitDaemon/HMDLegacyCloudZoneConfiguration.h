@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)snapshotForType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ttrManager:(struct _NSZone *)arg1;
-- (void)viousHomeUUIDKey;
+- (id)initWithPowerManager:(struct _NSZone *)arg1 timerProvider:ttrManager: /* Error: Ran out of types for this method. */;
+- (void)HMDPreviousHomeUUIDKey;
 
 // Remaining properties
 @property(copy) NSString *rootRecordName; // @synthesize rootRecordName=_rootRecordName;

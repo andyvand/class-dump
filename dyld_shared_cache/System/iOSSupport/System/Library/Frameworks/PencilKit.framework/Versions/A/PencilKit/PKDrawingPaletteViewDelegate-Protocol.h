@@ -5,5 +5,9 @@
 //
 
 @protocol PKDrawingPaletteViewDelegate
+
+@optional
+- (_Bool);
+- (void);
 @end
 

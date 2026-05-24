@@ -7,8 +7,6 @@
 @interface NewsAds.BannerAdViewRenderer
 {
     id styler;
-    id debugViewRenderer;
-    id commandCenter;
 }
 
 @end

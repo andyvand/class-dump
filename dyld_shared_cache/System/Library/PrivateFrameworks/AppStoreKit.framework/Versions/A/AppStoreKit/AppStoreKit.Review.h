@@ -7,18 +7,6 @@
 @interface AppStoreKit.Review
 {
     id title;
-    id date;
-    id dateText;
-    id badge;
-    id contents;
-    id rating;
-    id reviewerName;
-    id dateAuthorText;
-    id response;
-    id moreAction;
-    id flowPreviewActionsConfiguration;
-    id impressionMetrics;
-    id id;
 }
 
 @end

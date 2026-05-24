@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)0;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool)aitCollectionWithUserInterfaceLevel:(id)arg1;
+- (_Bool)traitCollectionWithUserInterfaceLevel:(id)arg1;
 - (void);
 
 // Remaining properties

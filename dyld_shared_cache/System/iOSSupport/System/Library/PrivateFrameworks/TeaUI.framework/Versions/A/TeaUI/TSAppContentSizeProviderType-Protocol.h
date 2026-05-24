@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol TSAppContentSizeProviderType
+- (NSString *)COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSWidgetEngagement;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *preferredContentSizeCategory;

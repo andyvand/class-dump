@@ -6,23 +6,18 @@
 
 #import <CommerceKit/CKServiceInterface.h>
 
-@class NSArray, NSMutableArray, NSNumber;
+@class NSMutableArray;
 
 @interface CKPurchaseController : CKServiceInterface
 {
     NSMutableArray *_purchases;
-    NSMutableArray *_rejectedPurchases;
-    NSArray *_adoptionEligibleItems;
-    NSNumber *_adoptionServerStatus;
-    NSNumber *_adoptionErrorNumber;
-    CDUnknownBlockType _dialogHandler;
 }
 
 + (id);
 + (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);

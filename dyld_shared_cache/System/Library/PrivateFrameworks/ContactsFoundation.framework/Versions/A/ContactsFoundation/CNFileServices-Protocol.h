@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol CNFileServices
+- (NSURL *);
+- (int)Coordinator",R,N,V_coordinator;
 @end
 

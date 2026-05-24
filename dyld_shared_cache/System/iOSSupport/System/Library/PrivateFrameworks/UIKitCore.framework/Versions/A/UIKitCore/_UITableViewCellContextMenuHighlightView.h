@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _isSourceList;
 }
 
-+ (id);
-- (void);
++ (id));
+- (void);
 - (_Bool);
 - (void);
 - (void)eView",&,N,V_haloView;

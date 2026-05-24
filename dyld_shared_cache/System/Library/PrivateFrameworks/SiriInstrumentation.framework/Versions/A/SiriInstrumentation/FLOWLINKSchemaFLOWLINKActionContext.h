@@ -6,24 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLinkActionCancelled, FLOWLINKSchemaFLOWLinkActionEnded, FLOWLINKSchemaFLOWLinkActionFailed, FLOWLINKSchemaFLOWLinkActionStarted, NSData;
+@class FLOWLINKSchemaFLOWLinkActionStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLinkActionStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLinkActionEnded *_ended;
-    FLOWLINKSchemaFLOWLinkActionFailed *_failed;
-    FLOWLINKSchemaFLOWLinkActionCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (void);
@@ -32,39 +24,30 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)hwtrace_live_recording_postprocess_options_deinit;
+- (void);
+- (void);
+- (void)Sheet initWithAccountID:(_Bool)arg1 title:message:defaultButtonTitle:cancelButtonTitle:alternateButtonTitle:icon:iconLabel:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setMaxLength_DestinationRoadName:(id)arg1;
+- (id)_setNDEFContainerSize:(id)arg1;
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)resetButtonStateAfterRightMouseUp;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Code"b1};
-- (void)eryCallContext:(id)arg1;
-- (id)ted;
+- (void)setExecutorSearchToolQueryCallContext:(id)arg1;
+- (id)STSchemaSTLLMQURequestStarted;
 - (id)´V;
 - (void)äêÿ¿;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLinkActionCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLinkActionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLinkActionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLinkActionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

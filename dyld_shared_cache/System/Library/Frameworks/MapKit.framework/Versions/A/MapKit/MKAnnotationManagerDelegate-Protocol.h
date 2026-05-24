@@ -5,5 +5,9 @@
 //
 
 @protocol MKAnnotationManagerDelegate
+
+@optional
+- (void);
+- (_Bool)<;
 @end
 

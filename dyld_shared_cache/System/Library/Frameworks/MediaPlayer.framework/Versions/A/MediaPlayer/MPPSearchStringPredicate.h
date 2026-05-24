@@ -4,39 +4,651 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MPPSearchStringPredicate
 {
     NSMutableArray *_properties;
-    NSString *_searchString;
 }
 
-- (_Bool);
+- (_Bool)<P$9j;
+- (id).diffuse = vec3(1.);
+#endif 
+    
+    
+    _output.color = illuminate(_surface, _lightingContribution);
+    
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * u_fogParameters.x + u_fogParameters.y, 0., u_fogColor.a), u_fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, u_fogColor.rgb * _output.color.a, fogFactor);
+#endif
+    
+#ifndef DIFFUSE_PREMULTIPLIED
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= u_transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+#ifdef USE_NODE_OPACITY
+    _output.color *= u_nodeOpacity;
+#endif
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671) + (_surface.transparent.g * 0.715160) + (_surface.transparent.b * 0.072169);
+    _output.color *= (vec4(1.) - _surface.transparent);
+#else 
+    _output.color *= _surface.transparent.a;
+#endif
+#else
+#ifdef USE_TRANSPARENCY 
+    _output.color *= u_transparency;
+#endif
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard;
+#endif
+    
+    gl_FragColor = _output.color;
+}
+;
+- (void)_DIFFUSE_INTENSITY
+    _surface.diffuse.rgb *= u_diffuseIntensity;
+#endif
+#elif defined(USE_DIFFUSE_COLOR)
+    _surface.diffuse = u_diffuseColor;
+#elif defined(USE_DIFFUSE)
+    _surface.diffuse = vec4(0.,0.,0.,1.);
+#endif
+#if defined(USE_DIFFUSE) && defined(USE_VERTEX_COLOR)
+    _surface.diffuse *= v_vertexColor;
+#endif
+    
+    
+#ifdef USE_SPECULAR_MAP
+    _surface.specular = texture2D(u_specularTexture, _surface.specularTexcoord);
+#ifdef USE_SPECULAR_INTENSITY
+    _surface.specular *= u_specularIntensity;
+#endif
+#elif defined(USE_SPECULAR_COLOR)
+    _surface.specular = u_specularColor;
+#elif defined(USE_SPECULAR)
+    _surface.specular = vec4(0.);
+#endif
+    
+    
+#ifdef USE_EMISSION_MAP
+    _surface.emission = texture2D(u_emissionTexture, _surface.emissionTexcoord);
+#ifdef USE_EMISSION_INTENSITY
+    _surface.emission *= u_emissionIntensity;
+#endif
+#elif defined(USE_EMISSION_COLOR)
+    _surface.emission = u_emissionColor;
+#elif defined(USE_EMISSION)
+    _surface.emission = vec4(0.);
+#endif
+    
+    
+#ifdef USE_MULTIPLY_MAP
+    _surface.multiply = texture2D(u_multiplyTexture, _surface.multiplyTexcoord);
+#ifdef USE_MULTIPLY_INTENSITY
+    _surface.multiply = mix(vec4(1.), _surface.multiply, u_multiplyIntensity);
+#endif
+#elif defined(USE_MULTIPLY_COLOR)
+    _surface.multiply = u_multiplyColor;
+#elif defined(USE_MULTIPLY)
+    _surface.multiply = vec4(1.);
+#endif
+    
+    
+#ifdef USE_TRANSPARENT_MAP
+    _surface.transparent = texture2D(u_transparentTexture, _surface.transparentTexcoord);
+#ifdef USE_TRANSPARENT_INTENSITY
+    _surface.transparent *= u_transparentIntensity;
+#endif
+#elif defined(USE_TRANSPARENT_COLOR)
+    _surface.transparent = u_transparentColor;
+#elif defined(USE_TRANSPARENT)
+    _surface.transparent = vec4(1.);
+#endif
+    
+    
+#if (defined USE_NORMAL) && (USE_NORMAL == 2)
+#ifdef USE_DOUBLE_SIDED
+    _surface.normal = normalize(v_normal.xyz) * u_orientationPreserved * ((float(gl_FrontFacing) * 2.0) - 1.0);
+#else
+    _surface.normal = normalize(v_normal.xyz);
+#endif
+#endif
+#if defined(USE_TANGENT) && (USE_TANGENT == 2)
+    _surface.tangent = v_tangent;
+#endif
+#if defined(USE_BITANGENT) && (USE_BITANGENT == 2)
+    _surface.bitangent = v_bitangent;
+#endif
+#if (defined USE_POSITION) && (USE_POSITION == 2)
+    _surface.position = v_position;
+#endif
+#if (defined USE_VIEW) && (USE_VIEW == 2)
+    _surface.view = normalize(-v_position);
+#endif
+#ifdef USE_NORMAL_MAP
+    mat3 ts2vs = mat3(_surface.tangent, _surface.bitangent, _surface.normal);
+    _surface._normalTS = texture2D(u_normalTexture, _surface.normalTexcoord).rgb * 2. - 1.;
+    
+#ifdef USE_NORMAL_INTENSITY
+    _surface._normalTS = mix(vec3(0., 0., 1.), _surface._normalTS, u_normalIntensity);
+#endif
+    
+    _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+#else
+    _surface._normalTS = vec3(0., 0., 0.);
+#endif
+    
+    
+#ifdef USE_REFLECTIVE_MAP
+    vec3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.0 * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.0)*(refl.z+1.0));
+    _surface.reflective = texture2D(u_reflectiveTexture,vec2(vec2(refl.x,-refl.y) / m) + 0.5) ;
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    vec3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = textureCube(u_reflectiveTexture, mat3(u_viewToCubeWorld) * refl); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = u_reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = vec4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = u_fresnel.x + u_fresnel.y * pow(1.0 - clamp(dot(_surface.view, _surface.normal), 0.0, 1.0), u_fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = u_materialShininess;
+#endif
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+    
+    
+    
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = u_ambientLightColor.rgb;
+#elif defined(USE_AMBIENT)
+    _lightingContribution.ambient = vec3(0.);
+#endif
+    
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+    _lightingContribution.diffuse = vec3(0.);
+#ifdef USE_MODULATE
+    _lightingContribution.modulate = vec3(1.);
+#endif
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = vec3(0.);
+#endif
+    
+    __DoLighting__
+    
+#else 
+    _lightingContribution.diffuse = v_diffuse;
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = v_specular;
+#endif
+#endif
+    
+    
+#ifdef AVOID_OVERLIGHTING
+    _lightingContribution.diffuse = clamp(_lightingContribution.diffuse, vec3(0.), vec3(1.));
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = clamp(_lightingContribution.specular, vec3(0.), vec3(1.));
+#endif 
+#endif 
+#else 
+    _lightingContribution.diffuse = vec3(1.);
+#endif 
+    
+    
+    _output.color = illuminate(_surface, _lightingContribution);
+    
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * u_fogParameters.x + u_fogParameters.y, 0., u_fogColor.a), u_fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, u_fogColor.rgb * _output.color.a, fogFactor);
+#endif
+    
+#ifndef DIFFUSE_PREMULTIPLIED
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= u_transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+#ifdef USE_NODE_OPACITY
+    _output.color *= u_nodeOpacity;
+#endif
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671) + (_surface.transparent.g * 0.715160) + (_surface.transparent.b * 0.072169);
+    _output.color *= (vec4(1.) - _surface.transparent);
+#else 
+    _output.color *= _surface.transparent.a;
+#endif
+#else
+#ifdef USE_TRANSPARENCY 
+    _output.color *= u_transparency;
+#endif
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard;
+#endif
+    
+    gl_FragColor = _output.color;
+}
+;
+- (unsigned long long)PARENT_COLOR)
+uniform vec4 u_transparentColor;
+#endif
+
+#ifdef USE_VERTEX_COLOR
+varying vec4 v_vertexColor;
+#endif
+#ifdef USE_NODE_OPACITY 
+uniform float u_nodeOpacity;
+#endif
+#ifdef USE_TRANSPARENCY 
+uniform float u_transparency;
+#endif
+#ifdef USE_DOUBLE_SIDED
+uniform float u_orientationPreserved;
+#endif
+#ifdef USE_TIME
+uniform float u_time;
+#endif
+
+#ifdef USE_FOG
+uniform vec4 u_fogColor;
+uniform vec3 u_fogParameters; 
+#endif
+
+float saturate(float x) {
+    return clamp(x, 0., 1.);
+}
+vec2 saturate(vec2 x) {
+    return clamp(x, vec2(0.), vec2(1.));
+}
+vec3 saturate(vec3 x) {
+    return clamp(x, vec3(0.), vec3(1.));
+}
+vec4 saturate(vec4 x) {
+    return clamp(x, vec4(0.), vec4(1.));
+}
+
+vec4 illuminate(SCNShaderSurface surface, SCNShaderLightingContribution lighting)
+{
+    vec4 color = vec4(0.,0.,0., surface.diffuse.a);
+    
+    vec3 D = lighting.diffuse;
+#ifdef USE_AMBIENT_LIGHTING
+#ifdef USE_AMBIENT_AS_AMBIENTOCCLUSION
+    D += lighting.ambient * surface.ambientOcclusion;
+#elif defined(LOCK_AMBIENT_WITH_DIFFUSE)
+    D += lighting.ambient;
+#endif
+#endif 
+#ifdef USE_EMISSION_AS_SELFILLUMINATION
+    D += surface.emission.rgb;
+#endif
+    
+    
+    
+    color.rgb = surface.diffuse.rgb * D;
+#if 1 
+#ifdef USE_SPECULAR
+    vec3 S = lighting.specular;
+#elif defined(USE_REFLECTIVE)
+    vec3 S = vec3(0.);
+#endif
+#ifdef USE_REFLECTIVE
+#ifdef USE_AMBIENT_AS_AMBIENTOCCLUSION
+    S += surface.reflective.rgb * surface.ambientOcclusion;
+#else
+    S += surface.reflective.rgb;
+#endif
+#endif
+#ifdef USE_SPECULAR
+    S *= surface.specular.rgb;
+#endif
+#if defined(USE_SPECULAR) || defined(USE_REFLECTIVE)
+    color.rgb += S;
+#endif
+#else
+#ifdef USE_SPECULAR
+    color.rgb += surface.specular.rgb * lighting.specular;
+#endif
+#ifdef USE_REFLECTIVE
+    color.rgb += surface.reflective.rgb * (lighting.diffuse + lighting.ambient);
+#endif
+#endif 
+#if defined(USE_AMBIENT) && !defined(USE_AMBIENT_AS_AMBIENTOCCLUSION)
+    color.rgb += surface.ambient.rgb * lighting.ambient;
+#endif
+#if defined(USE_EMISSION) && !defined(USE_EMISSION_AS_SELFILLUMINATION)
+    color.rgb += surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+    color.rgb *= surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+    color.rgb *= lighting.modulate;
+#endif
+    return color;
+}
+
+struct SCNOutput
+{
+    vec4 color;
+} _output;
+
+
+
+
+void main(void)
+{
+#ifdef USE_TEXCOORD
+    __DoTexcoord__
+#endif
+    
+    _surface.ambientOcclusion = 1.0;
+    
+    
+#ifdef USE_AMBIENT_MAP
+    _surface.ambient = texture2D(u_ambientTexture, _surface.ambientTexcoord);
+#ifdef USE_AMBIENT_INTENSITY
+#ifdef USE_AMBIENT_AS_AMBIENTOCCLUSION
+    _surface.ambientOcclusion = mix(1., _surface.ambient.r, u_ambientIntensity);
+#else
+    _surface.ambient *= u_ambientIntensity;
+#endif
+#endif
+#elif defined(USE_AMBIENT_COLOR)
+    _surface.ambient = u_ambientColor;
+#elif defined(USE_AMBIENT)
+    _surface.ambient = vec4(0.);
+#endif
+#if defined(USE_AMBIENT) && defined(USE_VERTEX_COLOR)
+    _surface.ambient *= v_vertexColor;
+#endif
+    
+    
+#ifdef USE_DIFFUSE_MAP
+    _surface.diffuse = texture2D(u_diffuseTexture, _surface.diffuseTexcoord);
+#ifdef USE_DIFFUSE_INTENSITY
+    _surface.diffuse.rgb *= u_diffuseIntensity;
+#endif
+#elif defined(USE_DIFFUSE_COLOR)
+    _surface.diffuse = u_diffuseColor;
+#elif defined(USE_DIFFUSE)
+    _surface.diffuse = vec4(0.,0.,0.,1.);
+#endif
+#if defined(USE_DIFFUSE) && defined(USE_VERTEX_COLOR)
+    _surface.diffuse *= v_vertexColor;
+#endif
+    
+    
+#ifdef USE_SPECULAR_MAP
+    _surface.specular = texture2D(u_specularTexture, _surface.specularTexcoord);
+#ifdef USE_SPECULAR_INTENSITY
+    _surface.specular *= u_specularIntensity;
+#endif
+#elif defined(USE_SPECULAR_COLOR)
+    _surface.specular = u_specularColor;
+#elif defined(USE_SPECULAR)
+    _surface.specular = vec4(0.);
+#endif
+    
+    
+#ifdef USE_EMISSION_MAP
+    _surface.emission = texture2D(u_emissionTexture, _surface.emissionTexcoord);
+#ifdef USE_EMISSION_INTENSITY
+    _surface.emission *= u_emissionIntensity;
+#endif
+#elif defined(USE_EMISSION_COLOR)
+    _surface.emission = u_emissionColor;
+#elif defined(USE_EMISSION)
+    _surface.emission = vec4(0.);
+#endif
+    
+    
+#ifdef USE_MULTIPLY_MAP
+    _surface.multiply = texture2D(u_multiplyTexture, _surface.multiplyTexcoord);
+#ifdef USE_MULTIPLY_INTENSITY
+    _surface.multiply = mix(vec4(1.), _surface.multiply, u_multiplyIntensity);
+#endif
+#elif defined(USE_MULTIPLY_COLOR)
+    _surface.multiply = u_multiplyColor;
+#elif defined(USE_MULTIPLY)
+    _surface.multiply = vec4(1.);
+#endif
+    
+    
+#ifdef USE_TRANSPARENT_MAP
+    _surface.transparent = texture2D(u_transparentTexture, _surface.transparentTexcoord);
+#ifdef USE_TRANSPARENT_INTENSITY
+    _surface.transparent *= u_transparentIntensity;
+#endif
+#elif defined(USE_TRANSPARENT_COLOR)
+    _surface.transparent = u_transparentColor;
+#elif defined(USE_TRANSPARENT)
+    _surface.transparent = vec4(1.);
+#endif
+    
+    
+#if (defined USE_NORMAL) && (USE_NORMAL == 2)
+#ifdef USE_DOUBLE_SIDED
+    _surface.normal = normalize(v_normal.xyz) * u_orientationPreserved * ((float(gl_FrontFacing) * 2.0) - 1.0);
+#else
+    _surface.normal = normalize(v_normal.xyz);
+#endif
+#endif
+#if defined(USE_TANGENT) && (USE_TANGENT == 2)
+    _surface.tangent = v_tangent;
+#endif
+#if defined(USE_BITANGENT) && (USE_BITANGENT == 2)
+    _surface.bitangent = v_bitangent;
+#endif
+#if (defined USE_POSITION) && (USE_POSITION == 2)
+    _surface.position = v_position;
+#endif
+#if (defined USE_VIEW) && (USE_VIEW == 2)
+    _surface.view = normalize(-v_position);
+#endif
+#ifdef USE_NORMAL_MAP
+    mat3 ts2vs = mat3(_surface.tangent, _surface.bitangent, _surface.normal);
+    _surface._normalTS = texture2D(u_normalTexture, _surface.normalTexcoord).rgb * 2. - 1.;
+    
+#ifdef USE_NORMAL_INTENSITY
+    _surface._normalTS = mix(vec3(0., 0., 1.), _surface._normalTS, u_normalIntensity);
+#endif
+    
+    _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+#else
+    _surface._normalTS = vec3(0., 0., 0.);
+#endif
+    
+    
+#ifdef USE_REFLECTIVE_MAP
+    vec3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.0 * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.0)*(refl.z+1.0));
+    _surface.reflective = texture2D(u_reflectiveTexture,vec2(vec2(refl.x,-refl.y) / m) + 0.5) ;
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    vec3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = textureCube(u_reflectiveTexture, mat3(u_viewToCubeWorld) * refl); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective.rgb *= u_reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = u_reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = vec4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = u_fresnel.x + u_fresnel.y * pow(1.0 - clamp(dot(_surface.view, _surface.normal), 0.0, 1.0), u_fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = u_materialShininess;
+#endif
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+    
+    
+    
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = u_ambientLightColor.rgb;
+#elif defined(USE_AMBIENT)
+    _lightingContribution.ambient = vec3(0.);
+#endif
+    
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+    _lightingContribution.diffuse = vec3(0.);
+#ifdef USE_MODULATE
+    _lightingContribution.modulate = vec3(1.);
+#endif
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = vec3(0.);
+#endif
+    
+    __DoLighting__
+    
+#else 
+    _lightingContribution.diffuse = v_diffuse;
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = v_specular;
+#endif
+#endif
+    
+    
+#ifdef AVOID_OVERLIGHTING
+    _lightingContribution.diffuse = clamp(_lightingContribution.diffuse, vec3(0.), vec3(1.));
+#ifdef USE_SPECULAR
+    _lightingContribution.specular = clamp(_lightingContribution.specular, vec3(0.), vec3(1.));
+#endif 
+#endif 
+#else 
+    _lightingContribution.diffuse = vec3(1.);
+#endif 
+    
+    
+    _output.color = illuminate(_surface, _lightingContribution);
+    
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * u_fogParameters.x + u_fogParameters.y, 0., u_fogColor.a), u_fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, u_fogColor.rgb * _output.color.a, fogFactor);
+#endif
+    
+#ifndef DIFFUSE_PREMULTIPLIED
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= u_transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+#ifdef USE_NODE_OPACITY
+    _output.color *= u_nodeOpacity;
+#endif
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671) + (_surface.transparent.g * 0.715160) + (_surface.transparent.b * 0.072169);
+    _output.color *= (vec4(1.) - _surface.transparent);
+#else 
+    _output.color *= _surface.transparent.a;
+#endif
+#else
+#ifdef USE_TRANSPARENCY 
+    _output.color *= u_transparency;
+#endif
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard;
+#endif
+    
+    gl_FragColor = _output.color;
+}
+;
+- (void);
+- (id);
+- (void)h;
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_isDragging;
 - (void);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)layingInfoPropertySupportsIsLiked;
-- (id)opertyPersonHasSocialPosts;
+- (void)_itemsForQueryCriteria: /* Error: Ran out of types for this method. */;
+- (void)_MPNowPlayingInfoPropertySupportsIsLiked;
+- (id)MPModelPropertyPersonHasSocialPosts;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSearchString;
-@property(retain, nonatomic) NSMutableArray *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

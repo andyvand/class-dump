@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterAccessControl
 {
     unsigned long long _allowedUserTypes;
-    unsigned long long _allowedDeviceTypes;
 }
 
 + (unsigned long long);
 + (unsigned long long);
++ (id);
 + (id);
-+ (id);
-- (id);
+- (id)"24;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long allowedDeviceTypes; // @synthesize allowedDeviceTypes=_allowedDeviceTypes;
 @property(readonly) unsigned long long allowedUserTypes; // @synthesize allowedUserTypes=_allowedUserTypes;
 
 @end

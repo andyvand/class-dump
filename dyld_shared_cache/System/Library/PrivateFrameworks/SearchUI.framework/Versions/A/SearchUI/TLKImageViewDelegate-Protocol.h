@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage;
+
 @protocol TLKImageViewDelegate
+- (void)String:(NSImage *)arg1;
+- (void)getInt64ForColumn: /* Error: Ran out of types for this method. */;
 @end
 

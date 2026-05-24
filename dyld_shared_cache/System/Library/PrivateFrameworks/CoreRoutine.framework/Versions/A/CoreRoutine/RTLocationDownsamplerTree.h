@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface RTLocationDownsamplerTree
 {
     RTLocationDownsamplerTree *_left;
-    RTLocationDownsamplerTree *_right;
-    NSArray *_locations;
-    double _maximumError;
-    unsigned long long _maximumErrorIndex;
 }
 
+- (void);;
+- (void)<;
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)<;
+- (unsigned long long)?;
 - (double);
 - (id);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)setEnabled:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Nucleus;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) RTLocationDownsamplerTree *left; // @synthesize left=_left;
-@property(retain, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(nonatomic) double maximumError; // @synthesize maximumError=_maximumError;
-@property(nonatomic) unsigned long long maximumErrorIndex; // @synthesize maximumErrorIndex=_maximumErrorIndex;
-@property(retain, nonatomic) RTLocationDownsamplerTree *right; // @synthesize right=_right;
 
 @end
 

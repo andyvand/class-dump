@@ -13,7 +13,6 @@ __attribute__((visibility("hidden")))
 @interface _RWIRelayClientXPCConnection : _RWIRelayClientConnection
 {
     int _remotePID;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 + (id);
@@ -25,11 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)input;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) int remotePID; // @synthesize remotePID=_remotePID;
 
 @end
 

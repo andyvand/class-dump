@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)transferFunctionIndex;
++ (id);
 
 @end
 

@@ -6,24 +6,21 @@
 
 #import <PassKitCore/PKFileDataAccessor.h>
 
-@class NSData;
-
 @interface PKSerializedDataAccessor : PKFileDataAccessor
 {
     struct os_unfair_lock_s _lock;
-    NSData *_archiveData;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)TW;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)nks:'%@';  /* Error: Ran out of types for this method. */;
-- (id);
+- (id)shelves;
 
 @end
 

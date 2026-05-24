@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)error so the DPID can be resolved later.;
 - (id);
-- (unsigned long long);
+- (unsigned long long)nterface %@;
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 
 // Remaining properties

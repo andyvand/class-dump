@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDAccessoryFirmwareUpdatePolicy.h>
 
-@class HMFTimer, NSString;
+@class HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateTimedAutomationPolicy : HMDAccessoryFirmwareUpdatePolicy
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)pool, current size:%lu /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)ÉÇ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMFTimer *reevaluateTimer; // @synthesize reevaluateTimer=_reevaluateTimer;
-@property(readonly) Class superclass;
 
 @end
 

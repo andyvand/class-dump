@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)wControllerPresentationDelegate;
+- (void)OneUpViewControllerPresentationDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetCollectionReference *assetCollectionReference; // @synthesize assetCollectionReference=_assetCollectionReference;

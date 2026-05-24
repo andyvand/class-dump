@@ -7,7 +7,7 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (void)DefaultTopInset:(UITraitCollection *)arg1 bottomInset: /* Error: Ran out of types for this method. */;
+- (void)getDefaultTopInset:(UITraitCollection *)arg1 bottomInset: /* Error: Ran out of types for this method. */;
 - (UITraitCollection *)@;
 
 // Remaining properties

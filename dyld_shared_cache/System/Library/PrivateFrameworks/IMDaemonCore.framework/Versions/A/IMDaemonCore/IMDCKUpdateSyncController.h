@@ -6,16 +6,12 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class IMDRecordZoneManager, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, SyncTokenStoreProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMDCKUpdateSyncController : IMDCKAbstractSyncController
 {
     _Bool _fetchedChatsDuringLastSync;
-    NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDRecordZoneManager *_recordZoneManager;
-    id <SyncTokenStoreProviding> _syncTokenStore;
-    NSMutableDictionary *_writeMsgIDToRowIDMap;
 }
 
 + (long long);
@@ -28,14 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id));
+- (id);
+- (id);
+- (_Bool)'h;
 - (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -43,15 +39,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -62,17 +58,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_TtC12BiomeStreams23BMPoirotSchematizerShim;
 - (void);
 - (void)SubCategory:filteringProcessingBlock:processDictCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(nonatomic) _Bool fetchedChatsDuringLastSync; // @synthesize fetchedChatsDuringLastSync=_fetchedChatsDuringLastSync;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) id <SyncTokenStoreProviding> syncTokenStore; // @synthesize syncTokenStore=_syncTokenStore;
-@property(retain, nonatomic) NSMutableDictionary *writeMsgIDToRowIDMap; // @synthesize writeMsgIDToRowIDMap=_writeMsgIDToRowIDMap;
 
 @end
 

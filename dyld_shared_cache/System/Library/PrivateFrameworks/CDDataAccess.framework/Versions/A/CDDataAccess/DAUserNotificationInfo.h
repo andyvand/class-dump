@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface DAUserNotificationInfo
 {
     NSString *_groupIdentifier;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
-- (id);
+- (id)ield cannot begin with a close element ';
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -23,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 
 @end
 

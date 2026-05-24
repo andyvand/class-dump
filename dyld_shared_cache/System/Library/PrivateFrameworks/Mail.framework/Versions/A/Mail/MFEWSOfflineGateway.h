@@ -6,29 +6,25 @@
 
 #import <Mail/MFEWSGateway.h>
 
-@class MFEWSConnection, MFEWSResponseOperation, NSMutableDictionary, NSOperationQueue, NSString;
+@class MFEWSConnection, NSMutableDictionary;
 
 @interface MFEWSOfflineGateway : MFEWSGateway
 {
     NSMutableDictionary *_offlineToRealEWSIdStrings;
-    id _offlineToRealEWSIdStringsLock;
-    NSOperationQueue *_requestResponseQueue;
-    MFEWSConnection *_offlineConnection;
-    MFEWSResponseOperation *_lastResponseDecoded;
 }
 
-+ (id);
++ (id)q;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,22 +34,13 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (id);
-- (id)erUnreadCount;
+- (void);
+- (id)_initWithLoadingConnection:(id)arg1 request:(id)arg2 response:delegate:proxy: /* Error: Ran out of types for this method. */;
+- (id)serverUnreadCount;
 - (void)/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) MFEWSResponseOperation *lastResponseDecoded; // @synthesize lastResponseDecoded=_lastResponseDecoded;
 @property(retain) MFEWSConnection *offlineConnection; // @synthesize offlineConnection=_offlineConnection;
-@property(retain, nonatomic) NSMutableDictionary *offlineToRealEWSIdStrings;
-@property(readonly) Class superclass;
 
 @end
 

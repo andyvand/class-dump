@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemBasicWebContentFilterDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadRestrictWeb;
-    NSNumber *_payloadUseContentFilter;
-    NSNumber *_payloadWhiteListEnabled;
-    NSArray *_payloadSiteWhiteList;
-    NSArray *_payloadFilterWhiteList;
-    NSArray *_payloadFilterBlackList;
 }
 
 + (id);
@@ -38,30 +33,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)fter %fs;
+- (id):%s /* Error: Ran out of types for this method. */;
+- (id)d:%s failed with reason:%s /* Error: Ran out of types for this method. */;
+- (id)r %ld attempts;
+- (id)lay sample at url %s;
+- (id)l %s failed;
+- (_Bool)mError;
+- (id)2yY�;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadFilterBlackList; // @synthesize payloadFilterBlackList=_payloadFilterBlackList;
-@property(copy, nonatomic) NSArray *payloadFilterWhiteList; // @synthesize payloadFilterWhiteList=_payloadFilterWhiteList;
 @property(copy, nonatomic) NSNumber *payloadRestrictWeb; // @synthesize payloadRestrictWeb=_payloadRestrictWeb;
-@property(copy, nonatomic) NSArray *payloadSiteWhiteList; // @synthesize payloadSiteWhiteList=_payloadSiteWhiteList;
-@property(copy, nonatomic) NSNumber *payloadUseContentFilter; // @synthesize payloadUseContentFilter=_payloadUseContentFilter;
-@property(copy, nonatomic) NSNumber *payloadWhiteListEnabled; // @synthesize payloadWhiteListEnabled=_payloadWhiteListEnabled;
-@property(readonly) Class superclass;
 
 @end
 

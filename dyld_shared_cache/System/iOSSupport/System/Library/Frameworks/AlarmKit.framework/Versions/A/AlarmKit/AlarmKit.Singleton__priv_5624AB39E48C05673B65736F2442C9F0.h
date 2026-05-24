@@ -8,11 +8,6 @@
 {
     id connection;
     id serverStartupToken;
-    id queue;
-    id calloutQueue;
-    id queue_stateObservers;
-    id queue_observedState;
-    id queue_isSubscribedToStateChanges;
 }
 
 - (void);

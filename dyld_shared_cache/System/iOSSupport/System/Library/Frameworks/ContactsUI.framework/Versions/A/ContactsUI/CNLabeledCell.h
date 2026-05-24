@@ -6,22 +6,18 @@
 
 #import <ContactsUI/CNContactCell.h>
 
-@class NSDictionary, NSString, UIImageView, UILabel, UIView;
+@class NSDictionary, UIView;
 @protocol ABText;
 
 __attribute__((visibility("hidden")))
 @interface CNLabeledCell : CNContactCell
 {
     NSDictionary *_labelTextAttributes;
-    NSDictionary *_valueTextAttributes;
-    _Bool _labelViewNeedsHuggingContent;
-    _Bool _valueViewNeedsHuggingContent;
-    UIImageView *_chevron;
 }
 
 + (_Bool);
++ (_Bool)qa;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,15 +25,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (_Bool);
 - (id);
@@ -45,33 +41,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)@9);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%K.%K == %@;
 - (id);
 - (id);
 - (id);
-- (void)contactEntity;
+- (void)_contactEntity;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(readonly, nonatomic) double chevronWidth;
-@property(readonly, nonatomic) NSString *labelString;
-@property(copy, nonatomic) NSDictionary *labelTextAttributes;
 @property(readonly, nonatomic) UIView<ABText> *labelView;
-@property(nonatomic) _Bool labelViewNeedsHuggingContent; // @synthesize labelViewNeedsHuggingContent=_labelViewNeedsHuggingContent;
-@property(readonly, nonatomic) UIView *rightMostView;
-@property(readonly, nonatomic) UILabel *standardLabelView;
-@property(readonly, nonatomic) UILabel *standardValueView;
-@property(readonly, nonatomic) NSString *valueString;
-@property(copy, nonatomic) NSDictionary *valueTextAttributes;
-@property(readonly, nonatomic) UIView<ABText> *valueView;
-@property(readonly, nonatomic) double valueViewBottomMargin;
-@property(nonatomic) _Bool valueViewNeedsHuggingContent; // @synthesize valueViewNeedsHuggingContent=_valueViewNeedsHuggingContent;
 
 @end
 

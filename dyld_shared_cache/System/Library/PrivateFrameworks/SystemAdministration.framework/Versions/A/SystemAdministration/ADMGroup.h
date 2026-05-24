@@ -6,18 +6,11 @@
 
 #import <SystemAdministration/ADMDSRecord.h>
 
-@class NSMutableArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface ADMGroup : ADMDSRecord
 {
     NSNumber *mGUIDNumber;
-    NSMutableArray *mUsers;
-    NSMutableArray *mUserGUIDs;
-    NSMutableArray *mNestedGUIDs;
-    _Bool mGUIDChecked;
-    _Bool mHasGUID;
-    NSString *mUUIDString;
-    NSString *mRealNameString;
 }
 
 + (long long);
@@ -39,7 +32,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)F;
 - (_Bool);
 - (_Bool);
 - (id);

@@ -11,8 +11,8 @@
 }
 
 + (void)Ða;
-- (id);
-- (_Bool);
+- (id)initWithSourceApplicationBundleIdentifier:(double)arg1;
+- (_Bool)loggedOut;
 - (_Bool);
 - (_Bool);
 

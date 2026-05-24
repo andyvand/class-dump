@@ -11,7 +11,6 @@
 @interface _TSF_TSDKextNotifier : _TSF_TSDIOKServiceMatcher
 {
     NSMutableArray *_matchNotificationsArray;
-    NSMutableArray *_terminateNotificationsArray;
 }
 
 - (void);

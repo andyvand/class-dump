@@ -6,14 +6,11 @@
 
 #import <NeutrinoCore/NUExportJob.h>
 
-@class NSData, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface NUImageExportJob : NUExportJob
 {
     NSData *_destinationData;
-    NSMutableDictionary *_auxImages;
-    NSObject<OS_dispatch_queue> *_auxImageQueue;
 }
 
 - (_Bool);
@@ -25,11 +22,11 @@
 - (id);
 - (id);
 - (struct CGImage *);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)ight"d}};
 

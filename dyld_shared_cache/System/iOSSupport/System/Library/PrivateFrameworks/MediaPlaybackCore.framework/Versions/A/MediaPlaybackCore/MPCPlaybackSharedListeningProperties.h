@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLink, NSString;
+@class NSString;
 
 @interface MPCPlaybackSharedListeningProperties
 {
     NSString *_sessionIdentifier;
-    NSString *_sessionKey;
-    ICLiveLink *_liveLink;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void) SHARED SESSION BEGIN       %{public}@;
 - (id)FeederIdentifierRegistry"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICLiveLink *liveLink; // @synthesize liveLink=_liveLink;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) NSString *sessionKey; // @synthesize sessionKey=_sessionKey;
-@property(readonly) Class superclass;
 
 @end
 

@@ -29,7 +29,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)h;
 + (_Bool);
 
 @end

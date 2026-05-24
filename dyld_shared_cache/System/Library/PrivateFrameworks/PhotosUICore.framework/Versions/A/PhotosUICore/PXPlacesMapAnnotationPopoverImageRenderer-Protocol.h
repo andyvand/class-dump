@@ -5,9 +5,9 @@
 //
 
 @protocol PXPlacesMapAnnotationPopoverImageRenderer
+- (unsigned long long)indexLessThanIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long imageOptions;
 @property(readonly) long long popoverImageType;
 @end
 

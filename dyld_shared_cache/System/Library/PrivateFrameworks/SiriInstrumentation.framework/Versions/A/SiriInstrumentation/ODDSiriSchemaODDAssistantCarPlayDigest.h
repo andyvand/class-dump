@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantCarPlayCounts, ODDSiriSchemaODDAssistantCarPlayDimensions;
+@class ODDSiriSchemaODDAssistantCarPlayDimensions;
 
 @interface ODDSiriSchemaODDAssistantCarPlayDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantCarPlayDimensions *_dimensions;
-    ODDSiriSchemaODDAssistantCarPlayCounts *_counts;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (void);
@@ -25,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)q;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -36,15 +33,11 @@
 × ;
 - (id)ctionDisambiguationsLastInfinity;
 - (id),N,V_sportsExecution;
-- (id)cription;
-- (void)ESSAGE;
+- (id)description;
+- (void)JRPARAMETERSUBTYPE_QUERY_EMAIL_MESSAGE;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantCarPlayCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantCarPlayDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface VNHomographyTrackerState
 {
     void *_analysisSession;
-    NSObject<OS_dispatch_semaphore> *_analysisSemaphore;
-    long long _analysisPreRollFramesRemaining;
-    struct os_unfair_lock_s _resultsLock;
-    struct vector<std::tuple<simd_float3x3, float>, std::allocator<std::tuple<simd_float3x3, float>>> _transformsAndConfidences;
 }
 
 - (void);
@@ -22,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)ologyCode128;
+- (void)VNBarcodeSymbologyCode128;
 
 @end
 

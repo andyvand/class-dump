@@ -9,28 +9,19 @@
 @interface ISDNameNumberProvider
 {
     ISDNameNumberMapping *_entityMapping;
-    ISDNameNumberMapping *_clientMapping;
-    _Bool _mapsInitialized;
-    _Bool _isValid;
-    _Bool _canCreate;
-    _Bool _canSave;
-    _Bool _irreplaceable;
-    _Bool _useRegardless;
-    id _basis;
-    _Bool _inRefresh;
 }
 
 + (_Bool);
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);

@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateResult, NSString;
+@class CalculateResult;
 
 @interface WBSCalculationResult
 {
     CalculateResult *_result;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)?B@"RVItem">32;
+- (id)0@0:8^{CGPath=}16d24@?32 /* Error: Ran out of types for this method. */;
+- (id)tion"32@40@"PKAttachmentView"48;
 - (id);
 - (_Bool);
 - (void)À¤;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCalculation) _Bool calculation;
-@property(readonly, nonatomic, getter=isCurrencyConversion) _Bool currencyConversion;
-@property(readonly, nonatomic) NSString *formattedEquation;
-@property(readonly, nonatomic) NSString *formattedExpression;
-@property(readonly, nonatomic) NSString *formattedResult;
-@property(readonly, nonatomic) NSString *sectionTitle;
 
 @end
 

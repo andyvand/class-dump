@@ -11,10 +11,10 @@
     id <ICCloudKitSyncerDelegate> _delegate;
 }
 
-- (void);
-- (void);
+- (void)standardOutput;
+- (void)standardError;
 - (id);
-- (void);
+- (void)P;
 - (void)¬ï,ðôÀõ ö;
 
 // Remaining properties

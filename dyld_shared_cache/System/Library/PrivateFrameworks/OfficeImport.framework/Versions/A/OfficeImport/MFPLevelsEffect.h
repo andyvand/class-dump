@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MFPLevelsEffect : MFPEffect
 {
     int mHighlight;
-    int mMidtone;
-    int mShadow;
 }
 
-+ (id);
++ (id);
 - (id);
 
 @end

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchBrandDensity
 {
     unsigned long long _count;
-    NSString *_geohash;
-    float _popularitySum;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_popularitySum:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)b1};
-- (id)les;
+- (id)_pickupRules;
 - (id)¨;
 - (void);
 

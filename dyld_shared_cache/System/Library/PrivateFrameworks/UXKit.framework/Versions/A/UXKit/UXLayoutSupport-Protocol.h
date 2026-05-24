@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSLayoutYAxisAnchor;
-
 @protocol UXLayoutSupport
+- (void);
 
 // Remaining properties
-@property(readonly) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly) NSLayoutDimension *heightAnchor;
 @property(nonatomic) double length;
-@property(readonly) NSLayoutYAxisAnchor *topAnchor;
 @end
 

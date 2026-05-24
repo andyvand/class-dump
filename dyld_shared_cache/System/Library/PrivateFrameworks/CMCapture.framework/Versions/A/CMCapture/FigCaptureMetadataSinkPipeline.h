@@ -6,26 +6,16 @@
 
 #import <CMCapture/FigCaptureRemoteQueueSinkPipeline.h>
 
-@class BWFaceDetectionNode, BWFunnelNode, BWMRCNode, BWMetadataDetectorGatingNode, BWNodeOutput, BWSceneClassifierSinkNode, NSString;
+@class BWMetadataDetectorGatingNode;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMetadataSinkPipeline : FigCaptureRemoteQueueSinkPipeline
 {
     BWMetadataDetectorGatingNode *_metadataGatingNode;
-    BWMRCNode *_mrcNode;
-    _Bool _mrcSuspended;
-    _Bool _mrcConnectionDisabled;
-    BWSceneClassifierSinkNode *_sceneClassifierSinkNode;
-    BWNodeOutput *_sceneClassifierPipelineUpstreamOutput;
-    BWNodeOutput *_smartCameraInferenceOutput;
-    BWFaceDetectionNode *_faceDetectionNode;
-    NSString *_sourceID;
-    int _sourceDeviceType;
-    BWFunnelNode *_metadataFunnelNode;
 }
 
-+ (void)reamID;
-- (void);
++ (void)CMIOStreamID;
+- (void)orIDOfFormattingChangeOverridden;
 
 @end
 

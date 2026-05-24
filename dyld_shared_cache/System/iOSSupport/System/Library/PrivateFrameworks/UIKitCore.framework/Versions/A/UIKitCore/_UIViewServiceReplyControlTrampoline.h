@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)AppearsKey;
+- (void)windowAppearsKey;
 
 @end
 

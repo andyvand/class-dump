@@ -6,13 +6,11 @@
 
 #import <BiomeFoundation/BMFileManager.h>
 
-@class BMFileHandle, NSString;
+@class NSString;
 
 @interface _BMDirectFileManager : BMFileManager
 {
     NSString *_directory;
-    struct os_unfair_lock_s _setUpLock;
-    BMFileHandle *_directoryHandle;
 }
 
 - (_Bool);

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCocoaMenuImpl, NSVisualEffectView;
+@class NSCocoaMenuImpl;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuSelectionRect
 {
     NSCocoaMenuImpl *_observer;
-    NSVisualEffectView *_backingView;
-    SEL _observerAction;
-    struct CGRect _frame;
-    struct CGRect _cachedFrame;
-    long long _pendingUpdateCount;
-    double _lastHiddenStateChange;
-    _Bool _cachedIsHidden;
-    _Bool _isHidden;
-    _Bool _shouldCommitChanges;
-    _Bool _isAnimationStateCached;
-    _Bool _cachedShouldAnimate;
-    _Bool _disableAnimations;
 }
 
 - (id);

@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOJunctionInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOManeuverData
 {
     PBUnknownFields *_unknownFields;
-    GEOJunctionInfo *_junctionInfo;
-    int _maneuverType;
-    struct {
-        unsigned int has_maneuverType:1;
-    } _flags;
 }
 
-+ (_Bool)portsInternalInfo:(id)arg1;
++ (_Bool)setHasSupportsInternalInfo:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)assertCurrentThreadIsOwner;
+- (_Bool)ata;
+- (int)SString",R,C,N,V_explanation;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)encodeInt64:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id)tileGroupAtIndex:(struct _NSZone *)arg1;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)StringAsMapSettingsVisitedPlaces: /* Error: Ran out of types for this method. */;
 - (id)xx¬ý;
 - (id)ø;
 - (void)r'3;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasJunctionInfo;
 @property(nonatomic) _Bool hasManeuverType;
-@property(retain, nonatomic) GEOJunctionInfo *junctionInfo;
-@property(nonatomic) int maneuverType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

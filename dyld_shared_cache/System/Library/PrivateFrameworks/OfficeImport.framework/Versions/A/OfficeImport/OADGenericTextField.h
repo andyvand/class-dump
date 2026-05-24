@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface OADGenericTextField : OADTextField
 {
     NSString *_guid;
-    NSString *_type;
 }
 
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (id)agramShapeHierarchyMapper.mm;
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

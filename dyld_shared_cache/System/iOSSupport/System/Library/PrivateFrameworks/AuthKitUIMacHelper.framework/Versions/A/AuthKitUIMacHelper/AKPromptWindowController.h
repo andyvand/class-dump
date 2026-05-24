@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 @interface AKPromptWindowController
 {
     _Bool _makeSheetCritical;
-    _Bool __currentlyActive;
-    NSWindow *_hostWindow;
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)IMDAttachmentRecord";
+- (void)36@0:(CDUnknownBlockType)arg1 8@16B24@28;
+- (_Bool)o^@48;
+- (void)setCloudKitRecordChangeTag:(CDUnknownBlockType)arg1;
+- (void)resumeReindexSchedulingWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)resultHandler;
+- (_Bool)repostNotificationsFromFirstUnlockWithContext: /* Error: Ran out of types for this method. */;
+- (void)predicateWithFormat: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool _currentlyActive; // @synthesize _currentlyActive=__currentlyActive;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
 
 @end
 

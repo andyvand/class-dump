@@ -7,7 +7,6 @@
 @interface (extension in Navigation):__C.MNCommuteRouteManager.CachedRouteSet__priv_99F1AC21CCCBC7D75393AC0CA2EE644A
 {
     id date;
-    id routeSetData;
 }
 
 @end

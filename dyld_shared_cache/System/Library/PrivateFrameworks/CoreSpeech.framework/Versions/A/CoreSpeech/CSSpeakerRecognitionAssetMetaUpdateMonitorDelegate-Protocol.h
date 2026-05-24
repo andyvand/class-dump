@@ -5,5 +5,6 @@
 //
 
 @protocol CSSpeakerRecognitionAssetMetaUpdateMonitorDelegate
+- (void)r 1 handle;
 @end
 

@@ -9,8 +9,6 @@
 @interface Vision.ImageAnalyzerMultiDetectorRecipient
 {
     VNRequestSpecifier *originatingRequestSpecifier;
-    id request;
-    id results;
 }
 
 - (void);

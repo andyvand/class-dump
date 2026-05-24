@@ -9,15 +9,15 @@
     double _cornerRadius;
 }
 
-+ (id);
++ (id)S%s;
 + (_Bool);
-- (void);
+- (void)X%s;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)zR;
 - (void);
 - (id);
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

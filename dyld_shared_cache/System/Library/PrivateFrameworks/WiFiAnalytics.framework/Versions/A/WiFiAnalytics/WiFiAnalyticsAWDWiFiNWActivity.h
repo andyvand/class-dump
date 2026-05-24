@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WiFiAnalyticsAWDLinkQualityMeasurements, WiFiAnalyticsAWDWiFiNWActivityAPInterfaceStats, WiFiAnalyticsAWDWiFiNWActivityAWDLInterfaceStats, WiFiAnalyticsAWDWiFiNWActivityControllerStats, WiFiAnalyticsAWDWiFiNWActivityIRInterfaceStats, WiFiAnalyticsAWDWiFiNWActivityNANInterfaceStats;
-
 @interface WiFiAnalyticsAWDWiFiNWActivity
 {
     unsigned long long _timestamp;
-    NSMutableArray *_activities;
-    WiFiAnalyticsAWDWiFiNWActivityAPInterfaceStats *_apIfStats;
-    NSString *_apProfile;
-    WiFiAnalyticsAWDWiFiNWActivityAWDLInterfaceStats *_awdlIfStats;
-    NSMutableArray *_btleConnections;
-    WiFiAnalyticsAWDWiFiNWActivityControllerStats *_controllerStats;
-    NSMutableArray *_interfaceStats;
-    WiFiAnalyticsAWDWiFiNWActivityIRInterfaceStats *_irIfStats;
-    WiFiAnalyticsAWDLinkQualityMeasurements *_linkQualSample;
-    WiFiAnalyticsAWDWiFiNWActivityNANInterfaceStats *_nanIfStats;
-    NSString *_oui;
-    NSMutableArray *_peerStats;
-    NSMutableArray *_scores;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -35,19 +19,19 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)X;
 - (unsigned long long);
 - (id);
 - (id);
@@ -67,62 +51,40 @@
 - (void);
 - (void);
 - (void);
+- (id)^;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)w/ options:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)flags;
+- (id)del:ERROR:Failed to fetch REMAssignment {objectIDs:%{public}@, error:%@}. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)	;
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)hh8;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)icsTracker}}};
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)JBLAccumulatedEventMetric_OverLimit;
+- (id);
+- (_Bool)E;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)erMinutes;
+- (id)_symptomsDnsTimeSincePreviousTriggerMinutes;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activities; // @synthesize activities=_activities;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityAPInterfaceStats *apIfStats; // @synthesize apIfStats=_apIfStats;
-@property(retain, nonatomic) NSString *apProfile; // @synthesize apProfile=_apProfile;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityAWDLInterfaceStats *awdlIfStats; // @synthesize awdlIfStats=_awdlIfStats;
-@property(retain, nonatomic) NSMutableArray *btleConnections; // @synthesize btleConnections=_btleConnections;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityControllerStats *controllerStats; // @synthesize controllerStats=_controllerStats;
-@property(readonly, nonatomic) _Bool hasApIfStats;
-@property(readonly, nonatomic) _Bool hasApProfile;
-@property(readonly, nonatomic) _Bool hasAwdlIfStats;
-@property(readonly, nonatomic) _Bool hasControllerStats;
-@property(readonly, nonatomic) _Bool hasIrIfStats;
-@property(readonly, nonatomic) _Bool hasLinkQualSample;
-@property(readonly, nonatomic) _Bool hasNanIfStats;
-@property(readonly, nonatomic) _Bool hasOui;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *interfaceStats; // @synthesize interfaceStats=_interfaceStats;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityIRInterfaceStats *irIfStats; // @synthesize irIfStats=_irIfStats;
-@property(retain, nonatomic) WiFiAnalyticsAWDLinkQualityMeasurements *linkQualSample; // @synthesize linkQualSample=_linkQualSample;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityNANInterfaceStats *nanIfStats; // @synthesize nanIfStats=_nanIfStats;
-@property(retain, nonatomic) NSString *oui; // @synthesize oui=_oui;
-@property(retain, nonatomic) NSMutableArray *peerStats; // @synthesize peerStats=_peerStats;
-@property(retain, nonatomic) NSMutableArray *scores; // @synthesize scores=_scores;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

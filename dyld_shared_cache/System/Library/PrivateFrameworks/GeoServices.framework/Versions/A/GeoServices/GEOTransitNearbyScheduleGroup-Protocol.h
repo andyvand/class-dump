@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol GEOTransitNearbyScheduleGroup
+- (_Bool);
+- (NSString *)requestFullAccessToRemindersWithCompletion: /* Error: Ran out of types for this method. */;
 - (long long)q¯U;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) long long groupType;
-@property(readonly, nonatomic) _Bool hasWalkingDetails;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) NSArray *lineCells;
-@property(readonly, nonatomic) unsigned long long maxWalkingDistance;
-@property(readonly, nonatomic) unsigned long long maxWalkingTime;
-@property(readonly, nonatomic) unsigned long long minWalkingDistance;
-@property(readonly, nonatomic) unsigned long long minWalkingTime;
-@property(readonly, nonatomic) NSString *pinnedDisplayName;
 @end
 

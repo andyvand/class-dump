@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIBoxOccurrenceContentView, CalUILabel, NSImageView, NSLayoutConstraint, NSStackView, NSString;
+@class CalUIBoxOccurrenceContentView, CalUILabel;
 
 @interface AllDayContentView
 {
     CalUILabel *_titleField;
-    NSImageView *_titleImage;
-    NSImageView *_repeatImage;
-    NSImageView *_attachmentImage;
-    NSImageView *_attendeeImage;
-    NSStackView *_titleStack;
-    NSLayoutConstraint *_leadingToTitleStack;
-    _Bool _shouldShowRepeat;
-    _Bool _shouldShowAttachment;
-    _Bool _shouldShowAttendee;
-    CalUIBoxOccurrenceContentView *_parentView;
 }
 
 - (void);
@@ -31,14 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak CalUIBoxOccurrenceContentView *parentView; // @synthesize parentView=_parentView;
-@property(readonly) Class superclass;
 
 @end
 

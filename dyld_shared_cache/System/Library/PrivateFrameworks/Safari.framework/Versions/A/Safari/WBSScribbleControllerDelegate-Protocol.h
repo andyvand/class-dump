@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSScribbleQuirksManager, WBSUserDefinedContentBlockerManager;
-
 @protocol WBSScribbleControllerDelegate
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPrivateBrowsing;
-@property(readonly, nonatomic) NSArray *normalBrowsingUserContentControllers;
-@property(readonly, nonatomic) WBSScribbleQuirksManager *scribbleQuirksManager;
-@property(readonly, nonatomic) WBSUserDefinedContentBlockerManager *userDefinedContentBlockerManager;
 @end
 

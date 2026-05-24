@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLSession, NWPathEvaluator, WFSettingsManager;
-
 @interface WFWeatherStoreServiceConfiguration
 {
     struct os_unfair_lock_s _serviceConnectivityEvaluationURLLock;
-    struct os_unfair_lock_s _serviceConnectivityEvaluatorLock;
-    NWPathEvaluator *_serviceConnectivityEvaluator;
-    NSURL *_serviceConnectivityEvaluationURL;
-    NSURLSession *_session;
-    NSURL *_cacheURL;
-    Class _cacheClass;
-    WFSettingsManager *_settingsManager;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -43,10 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)erPublisherTopicAggregates;
+- (id)oupsConfig;
 - (id);
-- (id);
-- (id);
+- (id)itle in edit columns view;
 - (void);
 - (void);
 - (_Bool);
@@ -57,24 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *apiVersion;
-@property(retain, nonatomic) Class cacheClass; // @synthesize cacheClass=_cacheClass;
-@property(copy, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isServiceAvailable;
-@property(readonly, nonatomic) _Bool isValid;
-@property(retain, nonatomic) NSURL *serviceConnectivityEvaluationURL; // @synthesize serviceConnectivityEvaluationURL=_serviceConnectivityEvaluationURL;
 @property(nonatomic) struct os_unfair_lock_s serviceConnectivityEvaluationURLLock; // @synthesize serviceConnectivityEvaluationURLLock=_serviceConnectivityEvaluationURLLock;
-@property(readonly, nonatomic) NWPathEvaluator *serviceConnectivityEvaluator; // @synthesize serviceConnectivityEvaluator=_serviceConnectivityEvaluator;
-@property(nonatomic) struct os_unfair_lock_s serviceConnectivityEvaluatorLock; // @synthesize serviceConnectivityEvaluatorLock=_serviceConnectivityEvaluatorLock;
-@property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) WFSettingsManager *settingsManager; // @synthesize settingsManager=_settingsManager;
-@property(readonly) Class superclass;
 
 @end
 

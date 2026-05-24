@@ -9,7 +9,6 @@
 @interface CHSRemoteDevicesBox
 {
     NSData *_archivedData;
-    NSArray *_devices;
 }
 
 + (_Bool);

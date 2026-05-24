@@ -6,27 +6,10 @@
 
 #import <UIKitCore/_UIGestureRecognizerDriver.h>
 
-@class _UIGestureRecognizerTransformAnalyzer;
-
 __attribute__((visibility("hidden")))
 @interface _UIPinchGestureRecognizerDriver : _UIGestureRecognizerDriver
 {
     double _initialTouchDistance;
-    double _initialScale;
-    double _lastEventTime;
-    double _velocity;
-    double _previousVelocity;
-    double _lastNonZeroTimestampDelta;
-    double _scaleThreshold;
-    struct CGAffineTransform _transform;
-    double _hysteresis;
-    _UIGestureRecognizerTransformAnalyzer *_transformAnalyzer;
-    struct {
-        unsigned int endsOnSingleTouch:1;
-        unsigned int receivedTwoTouches:1;
-    } _flags;
-    struct CGPoint _anchorPoint;
-    struct CGPoint _initialAnchorPoint;
 }
 
 - (void);
@@ -34,37 +17,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (struct CGPoint);
-- (_Bool);
+- (struct CGPoint)Set"16@"NSSet"24;
+- (_Bool)setCachedStewieSharingChat: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
-- (void);
+- (void)%@ from me:(double)arg1 %{BOOL}d;
+- (void)edit history limit. Server:%@ Default:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (struct CGAffineTransform);
-- (id);
+- (id)MPModelPropertyCuratorEditorNotes;
 - (double);
 - (double)
 × ;
-- (void)Range:(id)arg1 document:(id)arg2;
-- (void);
-- (void)iewsCanRemoveContentFromHierarchyWhenNotVisible:(id)arg1;
-- (void)fiersForSnapshot:(struct CGAffineTransform)arg1;
+- (void)rangeForTextRange:(id)arg1 document:(id)arg2;
+- (void)_uip_preferredSidebarMode;
+- (void)_enforceActionRepresentationViewsCanRemoveContentFromHierarchyWhenNotVisible:(id)arg1;
+- (void)selectedIdentifiersForSnapshot:(struct CGAffineTransform)arg1;
 - (void)Dr;
-- (struct CGPoint)ureGroupName;
+- (struct CGPoint)captureGroupName;
 - (void)|;
-- (void)tyleATVDark;
+- (void)UIBlurEffectStyleATVDark;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(nonatomic) _Bool endsOnSingleTouch;
-@property(nonatomic) double hysteresis; // @synthesize hysteresis=_hysteresis;
-@property(readonly, nonatomic) struct CGPoint initialAnchorPoint; // @synthesize initialAnchorPoint=_initialAnchorPoint;
 @property(nonatomic) double scale;
-@property(nonatomic) double scaleThreshold; // @synthesize scaleThreshold=_scaleThreshold;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(readonly, nonatomic) double velocity;
 
 @end
 

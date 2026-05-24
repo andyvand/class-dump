@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface TMThinningAlgorithm
 {
     _Bool _shouldKeepWeeklySnapshots;
-    NSDate *_now;
-    unsigned long long _numberOfHourlySnapshotsToKeep;
-    unsigned long long _numberOfDailySnapshotsToKeep;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)%җ ;
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -28,10 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSDate *now; // @synthesize now=_now;
-@property unsigned long long numberOfDailySnapshotsToKeep; // @synthesize numberOfDailySnapshotsToKeep=_numberOfDailySnapshotsToKeep;
 @property unsigned long long numberOfHourlySnapshotsToKeep; // @synthesize numberOfHourlySnapshotsToKeep=_numberOfHourlySnapshotsToKeep;
-@property _Bool shouldKeepWeeklySnapshots; // @synthesize shouldKeepWeeklySnapshots=_shouldKeepWeeklySnapshots;
 
 @end
 

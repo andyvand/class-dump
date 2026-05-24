@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol FBSApplicationDataStoreRepositoryClient, OS_dispatch_queue;
+@class NSArray;
 
 @interface FBSApplicationDataStoreClientFactory
 {
     unsigned long long _count;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <FBSApplicationDataStoreRepositoryClient> _sharedClient;
-    NSArray *_prefetchedKeys;
 }
 
-+ (_Bool);
++ (_Bool)	;
 + (id);
 - (id);
 - (id);

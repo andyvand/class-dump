@@ -5,5 +5,9 @@
 //
 
 @protocol PKSelectionInteractionDelegate
+
+@optional
+- (void);
+- (void)@;
 @end
 

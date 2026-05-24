@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSharedUserInviteLogEvent, HMFTimer, HMFWiFiManager, NSString;
-@protocol HMMLogEventSubmitting;
-
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteLogEventBuilder
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long eventCreatedTime;
-    _Bool submitted;
-    _Bool cancelled;
-    CDUnknownBlockType _currentUpTicksBlock;
-    HMDSharedUserInviteLogEvent *_logEvent;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    CDUnknownBlockType _submissionTimerFactory;
-    HMFWiFiManager *_wifiManager;
-    HMFTimer *_submissionTimer;
 }
 
 + (unsigned long long);
@@ -31,29 +19,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)atetime"b1"iconType"b1"lastUpdatedDatetime"b1"startDatetime"b1"blockingIncident"b1};
+- (id)_preventsAssertionsForDuplicateStorageIdentifiers;
 - (CDUnknownBlockType);
 - (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)styleTransferApplyNodeWithInput:thumbnail:target:settings: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
-- (void)ge: /* Error: Ran out of types for this method. */;
+- (void)networkAvailabilityDidChange: /* Error: Ran out of types for this method. */;
 - (void)blic}@ (%@), shouldn't run %@;
-- (void)Type6Transitions;
+- (void)HMDUserActivityStateType6Transitions;
 
 // Remaining properties
 @property(readonly) CDUnknownBlockType currentUpTicksBlock; // @synthesize currentUpTicksBlock=_currentUpTicksBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

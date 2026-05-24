@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface SIAnalytics
 {
     NSString *_heartbeatPath;
-    NSMutableDictionary *_heartbeatData;
-    struct os_unfair_lock_s _heartbeatLock;
-    NSDictionary *_indexesData;
-    struct os_unfair_lock_s _indexesLock;
-    unsigned long long _errorFlags;
-    CDUnknownBlockType _resourcesCallback;
-    _Bool _readHeartbeat;
-    _Bool _isCoreSpotlight;
-    _Bool _isHeartbeatIndex;
-    NSString *_parentDirectoryPath;
 }
 
 + (void);
@@ -32,12 +22,12 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)\]^_`abcdefghi[`eZ_di^ch]bg\af_beh[^adgZ]`cfi\Zah_f]d[bi`g^e\c;
 + (id);
 + (id);
 + (id)ß|ê	Ðì¬îlñÀóÈ÷è
 PT%äH;
-+ (void)eletedWithRelatedUniqueIdentifier;
++ (void)_MDItemDeletedWithRelatedUniqueIdentifier;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -77,8 +67,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCoreSpotlight; // @synthesize isCoreSpotlight=_isCoreSpotlight;
-@property(readonly, nonatomic) _Bool isHeartbeatIndex; // @synthesize isHeartbeatIndex=_isHeartbeatIndex;
 @property(readonly, nonatomic) NSString *parentDirectoryPath; // @synthesize parentDirectoryPath=_parentDirectoryPath;
 
 @end

@@ -9,15 +9,6 @@
 @interface RemindersUICore.TTRShowTaggedDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id store;
-    id countCompleted;
-    id showCompletedContextInstance;
-    id tipKitContextInstance;
-    id hashtagContextInstance;
-    id dataViewMonitor;
-    id dataModelAdhocRefreshInitiator;
-    id dataModelAdhocRefreshSubscription;
-    id lastSuccessfulFetchHasValidSelection;
 }
 
 @end

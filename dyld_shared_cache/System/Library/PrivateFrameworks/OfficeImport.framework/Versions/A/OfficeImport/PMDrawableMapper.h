@@ -6,19 +6,17 @@
 
 #import <OfficeImport/CMDrawableMapper.h>
 
-@class CMDrawingContext, OADShape;
+@class OADShape;
 
 __attribute__((visibility("hidden")))
 @interface PMDrawableMapper : CMDrawableMapper
 {
     OADShape *mShape;
-    CMDrawingContext *mDrawingContext;
-    _Bool mTopLevelMapper;
 }
 
 - (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -26,8 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#A9h
+;
+- (void)T;
 - (void);
 - (void);
 - (void);

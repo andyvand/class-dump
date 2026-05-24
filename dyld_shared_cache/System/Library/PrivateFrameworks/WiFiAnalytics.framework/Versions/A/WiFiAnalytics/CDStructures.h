@@ -20,32 +20,8 @@ typedef struct {
 } CDStruct_cc81f3fb;
 
 typedef struct {
-    unsigned long long *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_62a50c50;
-
-typedef struct {
     long long _field1;
     long long _field2;
     long long _field3;
 } CDStruct_2ec95fd7;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int enabled:1;
-    unsigned int peerCount:1;
-    unsigned int peersAdded:1;
-    unsigned int peersRemoved:1;
-} CDStruct_422e47ee;
-
-typedef struct {
-    unsigned int ts:1;
-    unsigned int duration:1;
-    unsigned int use:1;
-} CDStruct_92f5e503;
-
-typedef struct {
-    unsigned int timestamp:1;
-} CDStruct_b5306035;
 

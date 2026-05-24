@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CPLResourceIdentity
 {
     _Bool _available;
-    NSURL *_fileURL;
-    NSString *_fingerPrint;
-    NSString *_stableHash;
-    unsigned long long _fileSize;
-    NSString *_fileUTI;
-    struct CGSize _imageDimensions;
 }
 
 + (_Bool);
@@ -31,35 +25,29 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool)#ÕôO¾©ý{©ýC;
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (void)queueTasksLocked;
-- (id)n;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)S;
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (id);
+- (void)8;
+- (_Bool);
+- (void);
+- (void)_enqueueTasksLocked;
+- (id)requiredStateAtEndOfSyncSession;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic, getter=isAvailable) _Bool available; // @synthesize available=_available;
-@property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
 @property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSString *fileUTI; // @synthesize fileUTI=_fileUTI;
-@property(copy, nonatomic) NSString *fingerPrint; // @synthesize fingerPrint=_fingerPrint;
-@property(nonatomic) struct CGSize imageDimensions; // @synthesize imageDimensions=_imageDimensions;
-@property(copy, nonatomic) NSString *stableHash; // @synthesize stableHash=_stableHash;
 
 @end
 

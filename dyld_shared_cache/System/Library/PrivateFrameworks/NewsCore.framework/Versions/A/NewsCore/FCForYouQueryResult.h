@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface FCForYouQueryResult
 {
     NSArray *_channelDefaultSectionRequests;
-    NSArray *_channelOtherSectionsRequests;
-    NSArray *_topicRequests;
-    NSArray *_paidBundleRequests;
-    NSArray *_hiddenFeedRequests;
-    NSArray *_sidecarRequests;
-    NSDictionary *_feedContextByFeedID;
 }
 
 - (id);
@@ -22,23 +16,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)humbnailPerceptualHash;
+- (void)thumbnailPerceptualHash;
 - (id)ldRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedDescriptor.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allRequests;
 @property(readonly, copy, nonatomic) NSArray *channelDefaultSectionRequests; // @synthesize channelDefaultSectionRequests=_channelDefaultSectionRequests;
-@property(readonly, copy, nonatomic) NSArray *channelOtherSectionsRequests; // @synthesize channelOtherSectionsRequests=_channelOtherSectionsRequests;
-@property(readonly, copy, nonatomic) NSDictionary *feedContextByFeedID; // @synthesize feedContextByFeedID=_feedContextByFeedID;
-@property(readonly, copy, nonatomic) NSArray *hiddenFeedRequests; // @synthesize hiddenFeedRequests=_hiddenFeedRequests;
-@property(readonly, copy, nonatomic) NSArray *paidBundleRequests; // @synthesize paidBundleRequests=_paidBundleRequests;
-@property(readonly, copy, nonatomic) NSArray *sidecarRequests; // @synthesize sidecarRequests=_sidecarRequests;
-@property(readonly, copy, nonatomic) NSArray *topicRequests; // @synthesize topicRequests=_topicRequests;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, SUCoreDevice;
+@class NSString;
 
 @interface SUCoreDDMDeclaration
 {
     _Bool _enableNotifications;
-    NSString *_declarationKey;
-    NSDate *_enforcedInstallDate;
-    NSString *_versionString;
-    NSString *_buildVersionString;
-    NSString *_detailsURL;
-    NSString *_companyName;
-    NSDictionary *_additionalOptions;
-    SUCoreDevice *_device;
 }
 
 + (_Bool);
@@ -25,10 +17,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -39,14 +31,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)writeToURL:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (id)_isEmailThisPageMenuItemKeyEquivalent: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)prepareInterfaceForExtensionConfiguration;
 - (void);
 - (long long);
 - (id);
@@ -54,15 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSString *buildVersionString; // @synthesize buildVersionString=_buildVersionString;
-@property(retain, nonatomic) NSString *companyName; // @synthesize companyName=_companyName;
 @property(retain, nonatomic) NSString *declarationKey; // @synthesize declarationKey=_declarationKey;
-@property(retain, nonatomic) NSString *detailsURL; // @synthesize detailsURL=_detailsURL;
-@property(retain, nonatomic) SUCoreDevice *device; // @synthesize device=_device;
-@property(nonatomic) _Bool enableNotifications; // @synthesize enableNotifications=_enableNotifications;
-@property(retain, nonatomic) NSDate *enforcedInstallDate; // @synthesize enforcedInstallDate=_enforcedInstallDate;
-@property(retain, nonatomic) NSString *versionString; // @synthesize versionString=_versionString;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface MPSCNNDropoutNode : MPSNNFilterNode
 {
     float _keepProbability;
-    unsigned long long _seed;
-    CDStruct_da2e99ad _maskStride;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float keepProbability; // @synthesize keepProbability=_keepProbability;
-@property(readonly, nonatomic) CDStruct_14f26992 maskStrideInPixels; // @synthesize maskStrideInPixels=_maskStride;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

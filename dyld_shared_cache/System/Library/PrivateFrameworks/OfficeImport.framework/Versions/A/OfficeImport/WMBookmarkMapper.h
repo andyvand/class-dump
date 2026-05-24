@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface WMBookmarkMapper : CMMapper
 {
     NSString *mName;
-    int mBookmarkType;
 }
 
 - (void);

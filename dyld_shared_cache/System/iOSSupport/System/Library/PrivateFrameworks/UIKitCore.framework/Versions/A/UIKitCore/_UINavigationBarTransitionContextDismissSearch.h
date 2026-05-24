@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (void)ShouldBeginEditing: /* Error: Ran out of types for this method. */;
-- (void)missalWithReason:actions:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)reak in a future release. **;
+- (void)searchBarShouldBeginEditing: /* Error: Ran out of types for this method. */;
+- (void)_animateDismissalWithReason:actions:completion: /* Error: Ran out of types for this method. */;
 - (void)ionViewListCell-right-contentView-constraint;
-- (void)on;
+- (void)_UIMagicMorphAnimation;
 - (void);
 - (void);
 - (long long);

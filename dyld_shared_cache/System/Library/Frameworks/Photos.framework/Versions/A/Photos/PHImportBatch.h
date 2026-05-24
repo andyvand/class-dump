@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, PHImportTimerCollection;
-@protocol OS_dispatch_semaphore;
+@class NSDate, NSMutableArray;
 
 @interface PHImportBatch
 {
     NSDate *_start;
-    NSMutableArray *_records;
-    PHImportTimerCollection *_timers;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
-- (double);
+- (double);
+- (id)J!;
 - (id);
 - (id);
-- (id);
-- (void)moveKeywords: /* Error: Ran out of types for this method. */;
+- (void)removeKeywords: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
 @property(readonly, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(readonly, nonatomic) PHImportTimerCollection *timers; // @synthesize timers=_timers;
 
 @end
 

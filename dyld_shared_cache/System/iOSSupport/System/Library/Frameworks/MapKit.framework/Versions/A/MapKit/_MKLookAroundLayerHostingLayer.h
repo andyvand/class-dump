@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _MKLookAroundLayerHostingView *_hostView;
 }
 
-- (id)ntationControllerDidDismiss: /* Error: Ran out of types for this method. */;
-- (void)dexOfRowAt:(id)arg1;
-- (void)oreLocationUpdates;
+- (id)presentationControllerDidDismiss: /* Error: Ran out of types for this method. */;
+- (void)indexOfRowAt:(id)arg1;
+- (void)ignoreLocationUpdates;
 
 // Remaining properties
 @property(nonatomic) __weak _MKLookAroundLayerHostingView *hostView; // @synthesize hostView=_hostView;

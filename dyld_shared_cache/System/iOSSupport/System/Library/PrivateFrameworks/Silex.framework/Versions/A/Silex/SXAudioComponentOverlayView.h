@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIActivityIndicatorView, UIButton, UIImage;
+@class UIButton, UIImage;
 
 @interface SXAudioComponentOverlayView
 {
     UIButton *_playButton;
-    UIImage *_audioIndicatorImage;
-    UIActivityIndicatorView *_activityIndicator;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -24,9 +22,7 @@
 - (void)@0:8@16Q24@?32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
 @property(readonly, nonatomic) UIImage *audioIndicatorImage; // @synthesize audioIndicatorImage=_audioIndicatorImage;
-@property(readonly, nonatomic) UIButton *playButton; // @synthesize playButton=_playButton;
 
 @end
 

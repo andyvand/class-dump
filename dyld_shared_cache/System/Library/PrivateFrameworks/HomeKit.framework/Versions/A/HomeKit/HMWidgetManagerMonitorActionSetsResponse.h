@@ -9,7 +9,6 @@
 @interface HMWidgetManagerMonitorActionSetsResponse
 {
     NSDictionary *_isOnByActionSetUniqueIdentifier;
-    NSDictionary *_didExecutionFailByActionSetUniqueIdentifier;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)HMUserCloudShareInvitation;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *didExecutionFailByActionSetUniqueIdentifier; // @synthesize didExecutionFailByActionSetUniqueIdentifier=_didExecutionFailByActionSetUniqueIdentifier;
 @property(readonly, copy) NSDictionary *isOnByActionSetUniqueIdentifier; // @synthesize isOnByActionSetUniqueIdentifier=_isOnByActionSetUniqueIdentifier;
 
 @end

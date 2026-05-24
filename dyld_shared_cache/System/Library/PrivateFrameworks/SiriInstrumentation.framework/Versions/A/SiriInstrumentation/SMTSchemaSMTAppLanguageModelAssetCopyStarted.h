@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SMTSchemaSMTAppLanguageModelAssetCopyStarted : SISchemaInstrumentationMessage
 {
     int _locale;
-    NSString *_appBundleId;
-    NSString *_appAssetPath;
-    CDStruct_0129e3ec _has;
-    _Bool _hasAppBundleId;
-    _Bool _hasAppAssetPath;
 }
 
 - (void);
@@ -30,27 +23,21 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
+- (unsigned long long)phase;
+- (_Bool)ABAccountGroupEntries;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (int);
+- (_Bool)ateMonitor;
+- (int)got back %zu rows from XPC;
 - (id);
 - (id);
 - (void);
-- (id)sConstrained;
-- (id)ns;
-- (id);
-- (void)OCATIONSOURCE_UNKNOWN;
+- (id)deleteIsConstrained;
+- (id)clearContextualSpans;
+- (id)_hasInteractionPerformed;
+- (void)COMPONENTINVOCATIONSOURCE_UNKNOWN;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appAssetPath; // @synthesize appAssetPath=_appAssetPath;
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppAssetPath; // @synthesize hasAppAssetPath=_hasAppAssetPath;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locale; // @synthesize locale=_locale;
 
 @end

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, OADFill;
+@class OADFill;
 
 __attribute__((visibility("hidden")))
 @interface OADTableBackground
 {
     OADFill *mFill;
-    NSArray *mEffects;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (void)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

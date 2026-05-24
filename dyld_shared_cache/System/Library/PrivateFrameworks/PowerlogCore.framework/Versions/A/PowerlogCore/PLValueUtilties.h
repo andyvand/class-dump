@@ -11,7 +11,8 @@
 + (short);
 + (_Bool);
 + (long long);
-+ (id);
++ (id)F
+;
 + (_Bool);
 + (void);
 

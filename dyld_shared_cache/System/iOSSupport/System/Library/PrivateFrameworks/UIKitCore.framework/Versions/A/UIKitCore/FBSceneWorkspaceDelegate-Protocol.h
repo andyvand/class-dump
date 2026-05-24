@@ -7,8 +7,8 @@
 @protocol FBSceneWorkspaceDelegate
 
 @optional
-- (void)ive;
-- (void)fset;
+- (void)testArchive;
+- (void)navigationItemBaselineOffset;
 - (void)oard Camera;
 @end
 

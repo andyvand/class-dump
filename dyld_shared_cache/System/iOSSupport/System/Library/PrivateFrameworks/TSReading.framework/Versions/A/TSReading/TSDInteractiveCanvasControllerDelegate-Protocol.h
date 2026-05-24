@@ -4,66 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSKDocumentRoot;
+@class NSArray, TSKDocumentRoot;
 
 @protocol TSDInteractiveCanvasControllerDelegate
 
 @optional
-- (void)mentBeginEditing;
+- (Class);
+- (Class);
+- (_Bool);
+- (_Bool);
+- (_Bool)dJ;
+- (_Bool);
+- (_Bool)5;
+- (void)C;
+- (NSArray *);;
+- (void)TSKChangeCommentBeginEditing;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowEditMenuToAppear;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool allowTextEditingToBegin;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, retain, nonatomic) TSKDocumentRoot *documentRoot;
-@property(readonly, nonatomic) _Bool isCanvasInteractive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isPrintingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long selectableWordLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldClipToScrollViewBoundsInVisibleBounds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldPopKnobsOutsideEnclosingScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldResizeCanvasToScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowInstructionalText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowTextOverflowGlyphs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGSize sizeOfScrollViewEnclosingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSuppressed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
++ (Class)m�U;
 + (id);
-+ (void);
++ (void);
 - (void);
 - (void);
-- (void);
+- (void)lidated AXTwitterGlue successfully *************;
 
 @end
 

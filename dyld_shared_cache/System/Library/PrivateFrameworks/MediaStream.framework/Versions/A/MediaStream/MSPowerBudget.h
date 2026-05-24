@@ -4,71 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPBTimerContext, NSObject, NSString;
-@protocol MSPowerBudgetDelegate, OS_dispatch_queue;
-
 @interface MSPowerBudget
 {
     _Bool _workQueueIsFileTransferAllowed;
-    _Bool _workQueueIsExternalPowered;
-    _Bool _workQueueIsForeground;
-    id <MSPowerBudgetDelegate> _delegate;
-    double _maxActiveTimeAfterPush;
-    double _maxActiveTimeAfterLossOfForeground;
-    double _maxActiveTimeAfterGlobalResetSync;
-    NSString *_focusAlbumGUID;
-    NSString *_focusAssetCollectionGUID;
-    NSString *_personID;
-    MSPBTimerContext *_workQueuePushTimerContext;
-    MSPBTimerContext *_workQueuePostForegroundTimerContext;
-    MSPBTimerContext *_workQueueGlobalResetSyncTimerContext;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
+- (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)n string:(id)arg1 %{sensitive}@;
+- (_Bool).;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (double);
+- (double)j;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)t for entry count;
 - (double);
 - (id);
-- (double);
+- (double)97k@;
 - (void);
+- (void)startInstallingMandatoryUpdateEligibleUpdatesWithProduct: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
 - (void);
 - (double);
+- (_Bool)enrollOperation:finishedWithEnrollResult: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)led;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)enumerateOrderedItemsLastVisitedInSession:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)RedirectSourceVisitTime;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -79,23 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MSPowerBudgetDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isFileTransferAllowed) _Bool fileTransferAllowed;
-@property(retain, nonatomic) NSString *focusAlbumGUID; // @synthesize focusAlbumGUID=_focusAlbumGUID;
-@property(retain, nonatomic) NSString *focusAssetCollectionGUID; // @synthesize focusAssetCollectionGUID=_focusAssetCollectionGUID;
-@property(readonly, nonatomic, getter=hasForegroundFocus) _Bool foregroundFocus;
-@property(readonly, nonatomic) _Bool hasActiveTimers;
-@property(nonatomic) double maxActiveTimeAfterGlobalResetSync; // @synthesize maxActiveTimeAfterGlobalResetSync=_maxActiveTimeAfterGlobalResetSync;
-@property(nonatomic) double maxActiveTimeAfterLossOfForeground; // @synthesize maxActiveTimeAfterLossOfForeground=_maxActiveTimeAfterLossOfForeground;
-@property(nonatomic) double maxActiveTimeAfterPush; // @synthesize maxActiveTimeAfterPush=_maxActiveTimeAfterPush;
-@property(retain, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(retain, nonatomic) MSPBTimerContext *workQueueGlobalResetSyncTimerContext; // @synthesize workQueueGlobalResetSyncTimerContext=_workQueueGlobalResetSyncTimerContext;
-@property(nonatomic, setter=workQueueSetExternalPowered:) _Bool workQueueIsExternalPowered; // @synthesize workQueueIsExternalPowered=_workQueueIsExternalPowered;
 @property(nonatomic, setter=workQueueSetFileTransferAllowed:) _Bool workQueueIsFileTransferAllowed; // @synthesize workQueueIsFileTransferAllowed=_workQueueIsFileTransferAllowed;
-@property(nonatomic, setter=workQueueSetForeground:) _Bool workQueueIsForeground; // @synthesize workQueueIsForeground=_workQueueIsForeground;
-@property(retain, nonatomic) MSPBTimerContext *workQueuePostForegroundTimerContext; // @synthesize workQueuePostForegroundTimerContext=_workQueuePostForegroundTimerContext;
-@property(retain, nonatomic) MSPBTimerContext *workQueuePushTimerContext; // @synthesize workQueuePushTimerContext=_workQueuePushTimerContext;
 
 @end
 

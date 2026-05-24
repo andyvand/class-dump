@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface BMSQLColumnAccessSet
 {
     NSString *_table;
-    NSSet *_columns;
 }
 
 + (id);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)p;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *columns; // @synthesize columns=_columns;
 @property(readonly, copy, nonatomic) NSString *table; // @synthesize table=_table;
 
 @end

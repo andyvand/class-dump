@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @protocol APPCPromotableAppStoreSupplementalContext
+- (NSDictionary *);
+- (NSString *)i_removeCachedImageForCanvas: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *adamId;
-@property(nonatomic, readonly) NSDictionary *additionalClickCaps;
-@property(nonatomic, readonly) NSDictionary *additionalImpressionCaps;
-@property(nonatomic, readonly) NSDictionary *appMetadataFields;
-@property(nonatomic, readonly) NSDictionary *clickCap;
 @property(nonatomic, readonly) NSDictionary *impressionCap;
-@property(nonatomic, readonly) NSDate *requestTime;
-@property(nonatomic, readonly) NSString *storeFront;
-@property(nonatomic, readonly) NSString *storeFrontLocale;
 @end
 

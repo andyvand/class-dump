@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFReferenceRichCardSection
+- (_SFPBRFTextProperty *)@0:8^{CGPDFForm=}16q24^{CGContext=}32B40 /* Error: Ran out of types for this method. */;
+- (NSData *)dexSet",R,N;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

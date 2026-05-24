@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIColor;
+@class NSArray, NSMutableArray;
 
 @interface QSSelectionHighlightView
 {
     NSMutableArray *_viewCache;
-    _Bool _sentenceHighlight;
-    NSArray *_highlightSelectionRects;
-    UIColor *;
-    UIColor *_underlineColor;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)uh|;
+- (void)e|;
+- (void);
 - (_Bool);
+- (id)h|;
+- (void)h<{;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)^-o;
+- (id)`0)o;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *highlightSelectionRects; // @synthesize highlightSelectionRects=_highlightSelectionRects;
-@property(retain, nonatomic) UIColor *selectionColor; // @synthesize selectionColor=_selectionColor;
-@property(nonatomic) _Bool sentenceHighlight; // @synthesize sentenceHighlight=_sentenceHighlight;
-@property(retain, nonatomic) UIColor *underlineColor; // @synthesize underlineColor=_underlineColor;
 
 @end
 

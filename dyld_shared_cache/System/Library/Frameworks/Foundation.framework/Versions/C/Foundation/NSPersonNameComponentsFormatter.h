@@ -6,31 +6,13 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSLocale, NSString;
-
 @interface NSPersonNameComponentsFormatter : NSFormatter
 {
     id _private;
-    NSString *__preferredLocalizationForExplicitlySetLocale;
-    struct os_unfair_lock_s _lock;
 }
 
 
 // Remaining properties
-@property _Bool _forceFamilyNameFirst;
-@property _Bool _forceGivenNameFirst;
-@property _Bool _ignoresFallbacks;
-@property NSLocale *_locale;
-@property(readonly, copy) NSString *_preferredLocalizationForExplicitlySetLocale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSLocale *locale;
-@property(getter=isPhonetic) _Bool phonetic;
-@property long long style;
-@property(readonly) Class superclass;
 @end
 

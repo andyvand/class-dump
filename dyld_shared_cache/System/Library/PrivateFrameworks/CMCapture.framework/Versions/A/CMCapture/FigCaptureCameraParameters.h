@@ -9,25 +9,6 @@
 @interface FigCaptureCameraParameters
 {
     NSDictionary *_cameraParameters;
-    NSDictionary *_commonNRFParameters;
-    NSDictionary *_commonDistortionCorrectionParameters;
-    NSDictionary *_meteorParameters;
-    NSDictionary *_motionAttachmentsParameters;
-    NSDictionary *_videoStabilizationParameters;
-    NSDictionary *_previewStabilizationParameters;
-    NSDictionary *_stereoDisparityParameters;
-    NSDictionary *_depthProcessingParameters;
-    NSDictionary *_landmarksParameters;
-    NSDictionary *_commonMattingParameters;
-    NSDictionary *_learnedMattingParameters;
-    NSDictionary *_personSemanticsParameters;
-    NSDictionary *_coreImagePortraitFilterParameters;
-    NSDictionary *_commonVideoGreenGhostMitigationParameters;
-    NSDictionary *_commonDeepZoomParameters;
-    NSDictionary *_photoEncoderParameters;
-    NSDictionary *_portraitSceneMonitoringParametersByZoomFactor;
-    NSDictionary *_commonLensSmudgeDetectionParameters;
-    NSDictionary *_temporalNoiseReductionParameters;
 }
 
 + (int);
@@ -48,59 +29,59 @@
 - (int);
 - (CDStruct_1ef3fb1f);
 - (int);
-- (void);
+- (void)t",&,V_rootElement;
+- (int)Library/BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/compatibility/OfficeCommon/StructuredStorage/ObjcInterface/STRootStorage.m;
+- (id)textArchUpPour;
+- (int)hannel semaphore should not be initialized.;
+- (int);
+- (id);
+- (int);
+- (id)e;wҴ;
+- (id);
+- (_Bool);
+- (int);
+- (id)A;
+- (_Bool);
+- (CDStruct_b99bf284);
+- (id)";
+- (id);
+- (_Bool)_;
+- (id);
+- (CDStruct_1ef3fb1f);
 - (int);
 - (id);
 - (int);
 - (int);
 - (id);
 - (int);
+- (int)mentCKStore cloudEntriesFromLocalEntries:] /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool)enrichedTaggedCharacterRanges;
+- (id);
+- (int);
+- (id);
+- (int);
+- (id)C;
+- (int);
 - (id);
 - (_Bool);
 - (int);
-- (id);
-- (_Bool);
-- (CDStruct_08002bce);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (CDStruct_1ef3fb1f);
-- (int);
-- (id);
-- (int);
-- (int);
-- (id);
-- (int);
-- (int);
-- (id);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (int);
-- (id);
-- (int);
-- (id);
-- (_Bool);
+- (id)1;
+- (id);
 - (int);
 - (id);
 - (id);
-- (int);
+- (int)=i^v}16{CGAffineTransform=dddddd}32i80{?=ffff}84I100;
+- (_Bool)runningInBackground;
+- (CDStruct_1ef3fb1f)interpolatorWithFrom:to:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int);
-- (_Bool);
-- (CDStruct_1ef3fb1f);
-- (id);
+- (id)(A�);
 - (id);
 - (int);
-- (id);
-- (id);
-- (int);
-- (int)sity: /* Error: Ran out of types for this method. */;
-- (_Bool)mentCaptureMovieRecordingMasterEndTime;
+- (int)setCastIntensity: /* Error: Ran out of types for this method. */;
+- (_Bool)_momentCaptureMovieRecordingMasterEndTime;
 - (int)AytÿAysÿFysÿJytÿOytÿTytÿYzuÿ_zuÿd{vÿj{wÿn|xÿt}xÿy~yÿyÿ~xÿ}vÿ{sÿyqÿ¢wnÿªtkÿ³qhÿ¹oeÿ¿lcÿÃjaÿÄi_ÿDvÿDvÿDvÿDvÿDvÿDuÿDuÿDuÿEuÿGuÿLuÿQvÿVvÿ[wÿ_xÿdxÿjyÿozÿuzÿ{{ÿ{ÿzÿyÿvÿsÿ¥pÿ­mÿ¶|iÿ½zfÿÃxcÿÇvaÿÈt`ÿGwÿGwÿGwÿGwÿGwÿGwÿGwÿGwÿHvÿHvÿMwÿOyÿTyÿYzÿ_zÿe{ÿj{ÿp|ÿw|ÿ}}ÿ|ÿ{ÿ{ÿxÿ¡vÿ¨rÿ°oÿ¹kÿÀgÿÆdÿÊbÿÌ`ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿF|ÿF{ÿI{ÿN|ÿS|ÿX|ÿ_}ÿe}ÿk~ÿq~ÿx~ÿ~ÿ~ÿ}ÿ{ÿzÿ¥wÿ¬tÿ´pÿ¼lÿÃiÿÉfÿÎcÿÏaÿEÿEÿEÿFÿFÿFÿF~ÿF~ÿF~ÿG~ÿG~ÿL~ÿR~ÿW ÿ^¡ÿd¢ÿk£ÿr¤ÿy¤ÿ¥ÿ¦ÿ§~ÿ¨|ÿ ©yÿªªxÿ±§tÿ¸¥qÿÀ£mÿÇ¡jÿÍ gÿÑdÿÓbÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿG¨ÿG¨ÿG¨ÿG¨ÿJ¨ÿP©ÿVªÿ]«ÿd¬ÿk­ÿr®ÿz¯ÿ°ÿ±ÿ²ÿ³|ÿ¢´yÿ«µwÿµµuÿ¼³qÿÄ±mÿË¯jÿÑ®gÿÕ­eÿ×¬cÿF±ÿF±ÿF±ÿF±ÿF±ÿG±ÿG±ÿG±ÿG±ÿG±ÿH±ÿH±ÿN²ÿT³ÿ\´ÿcµÿj¶ÿr·ÿ{¹ÿºÿ»ÿ¼ÿ½}ÿ¤¾zÿ­¿vÿ·ÀtÿÁÁrÿÉ¿mÿÏ½jÿÕ¼gÿÙ»eÿÛ»cÿG¹ÿG¹ÿG¹ÿG¹ÿGºÿGºÿGºÿGºÿHºÿHºÿHºÿIºÿKºÿR¼ÿ[½ÿb¾ÿj¿ÿrÁÿ{ÂÿÃÿÄÿÆÿÇ~ÿ¦É{ÿ¯Êwÿ¹ËsÿÃÌqÿÍÍnÿÔÌkÿÚËhÿÝËeÿßËdÿGÀÿGÀÿGÀÿGÀÿGÀÿHÀÿHÀÿHÀÿHÀÿIÀÿIÀÿIÀÿJÁÿQÂÿYÃÿaÅÿjÆÿrÇÿ|ÉÿÊÿËÿÍÿÎÿ©Ð|ÿ²Òxÿ»ÓtÿÄÔpÿÏÖmÿ××kÿÝÖhÿàÖfÿâÖdÿHÅÿHÅÿHÅÿHÅÿHÅÿHÅÿIÅÿIÅÿIÅÿIÅÿJÅÿJÆÿJÆÿOÆÿXÈÿaÉÿiËÿrÌÿ|ÎÿÏÿÐÿÒÿ ÓÿªÕ}ÿ³×yÿ¼ÙtÿÆÛpÿÐÜmÿØÞjÿßßhÿâßfÿäßdÿIÈÿIÈÿIÈÿIÈÿIÈÿIÈÿIÉÿIÉÿJÉÿJÉÿJÉÿKÉÿKÉÿNÊÿWËÿ`ÌÿiÎÿrÏÿ|ÑÿÒÿÓÿÕÿ¡Öÿ«Ø}ÿ´Úyÿ½ÜtÿÆÞpÿÐàlÿÙâiÿßãgÿääfÿæädÿIËÿIËÿIËÿIËÿIËÿJËÿJËÿJËÿJËÿKËÿKËÿKËÿLËÿMËÿVÍÿ_ÎÿhÏÿqÑÿ|ÒÿÓÿÕÿÖÿ¡Øÿ«Ú}ÿ´Üyÿ½ÞtÿÆàpÿÐâkÿÙähÿßåfÿäæeÿæçcÿ;
 - (int)¾ôÿÿÉôÿÿÓôÿÿÝóÿÿèòÿÿññÿÿûîÿÿÿìÿÿÿëÿÿ;
 - (int)×Lÿ÷ØMÿÿÙPÿÿÚSÿÿÚRÿÿÚQÿ;
@@ -108,30 +89,7 @@
 - (id)SampleBufferIfNeeded:(id)arg1 decompressedStyledPixelBuffer:stillImageSettings:encodingScheme:processingFlags:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cameraParameters; // @synthesize cameraParameters=_cameraParameters;
-@property(readonly, nonatomic) NSDictionary *cameraTuningParameters;
-@property(readonly, nonatomic) NSDictionary *commonNRFParameters; // @synthesize commonNRFParameters=_commonNRFParameters;
-@property(readonly, nonatomic) NSDictionary *commonVideoGreenGhostMitigationParameters; // @synthesize commonVideoGreenGhostMitigationParameters=_commonVideoGreenGhostMitigationParameters;
-@property(readonly, nonatomic) int deepZoomVersion;
-@property(readonly, nonatomic) int deviceGeneration;
-@property(readonly, nonatomic) int distortionCorrectionVersion;
-@property(readonly, nonatomic) int gainMapVersion;
-@property(readonly, nonatomic) int lensSmudgeDetectionVersion;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f maxFocusPixelHorizontalPixelBufferDimensions;
 @property(readonly, nonatomic) int meteorHeadroomProcessingType;
-@property(readonly, nonatomic) NSDictionary *motionAttachmentsParameters; // @synthesize motionAttachmentsParameters=_motionAttachmentsParameters;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f nrfProcessingDimensionsForOptimizedLearnedFusionForSuperwide;
-@property(readonly, nonatomic) int nrfVersion;
-@property(readonly, nonatomic) NSDictionary *photoEncoderParameters; // @synthesize photoEncoderParameters=_photoEncoderParameters;
-@property(readonly, nonatomic) _Bool portraitTapToRefocusPrevented;
-@property(readonly, nonatomic) NSDictionary *previewStabilizationParameters; // @synthesize previewStabilizationParameters=_previewStabilizationParameters;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f softISPCropDimensionsForOptimizedLearnedFusionForSuperwide;
-@property(readonly, nonatomic) NSDictionary *stereoDisparityParameters;
-@property(readonly, nonatomic) NSDictionary *temporalNoiseReductionParameters; // @synthesize temporalNoiseReductionParameters=_temporalNoiseReductionParameters;
-@property(readonly, nonatomic) int videoGreenGhostBrightLightMitigationVersion;
-@property(readonly, nonatomic) int videoGreenGhostLowLightMitigationVersion;
-@property(readonly, nonatomic) NSDictionary *videoStabilizationParameters; // @synthesize videoStabilizationParameters=_videoStabilizationParameters;
-@property(readonly, nonatomic) NSDictionary *videoStabilizationSTFParameters;
 
 @end
 

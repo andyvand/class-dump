@@ -5,17 +5,11 @@
 //
 
 @class NSObject, NSString;
-@protocol NetDiagnosticsShimDelegate, OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface NetDiagnosticsShim
 {
     NSObject<OS_xpc_object> *_netDiagServiceConnection;
-    NSObject<OS_xpc_object> *_netDiagNotificationListener;
-    NSObject<OS_xpc_object> *_netDiagNotificationConnection;
-    NSObject<OS_dispatch_queue> *_netDiagConnQueue;
-    NSObject<OS_dispatch_queue> *_netDiagMsgQueue;
-    id <NetDiagnosticsShimDelegate> _delegate;
-    NSString *_taskName;
 }
 
 - (_Bool);
@@ -35,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <NetDiagnosticsShimDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSString *taskName; // @synthesize taskName=_taskName;
 
 @end

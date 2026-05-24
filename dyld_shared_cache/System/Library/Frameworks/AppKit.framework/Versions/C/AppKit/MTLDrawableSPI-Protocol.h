@@ -5,7 +5,8 @@
 //
 
 @protocol MTLDrawableSPI
-- (unsigned long long)ferredFrameRateRange;
+- (void)ɍ;
+- (unsigned long long)_preferredFrameRateRange;
 
 @optional
 - (void);

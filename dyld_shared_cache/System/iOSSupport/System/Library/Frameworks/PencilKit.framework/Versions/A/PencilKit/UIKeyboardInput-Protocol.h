@@ -7,6 +7,8 @@
 @protocol UIKeyboardInput
 
 @optional
+- (void);
+- (_Bool)PhotosSharedLibraryInvitationMetadata;
 - (_Bool)DrawingBeingCopiedToCanvas;
 @end
 

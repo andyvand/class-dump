@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSXPCConnection;
+@class NSArray;
 
 @interface IOBluetoothDeviceInquiryExpansion
 {
     NSArray *_searchUUIDs;
-    int searchType;
-    _Bool joinedToDaemon;
-    BOOL rssiThreshold;
-    _Bool supportsSecureCoding;
-    NSXPCConnection *xpcConnection;
 }
 
 + (_Bool);
@@ -27,18 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool joinedToDaemon; // @synthesize joinedToDaemon;
-@property BOOL rssiThreshold; // @synthesize rssiThreshold;
-@property int searchType; // @synthesize searchType;
 @property(copy) NSArray *searchUUIDs; // @synthesize searchUUIDs=_searchUUIDs;
-@property _Bool supportsSecureCoding; // @synthesize supportsSecureCoding;
-@property(retain) NSXPCConnection *xpcConnection; // @synthesize xpcConnection;
 
 @end
 

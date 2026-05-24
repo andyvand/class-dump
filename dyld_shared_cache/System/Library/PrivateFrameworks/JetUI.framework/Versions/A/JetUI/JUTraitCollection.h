@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface JUTraitCollection
 {
@@ -15,18 +15,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id){;
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)U{;
+- (id);
+- (_Bool),;
+- (id)_updateCellsIfNeededForWidth:(id)arg1;
 - (id);
 - (long long);
-- (id);
-- (unsigned long long);
+- (id)yle-timelimits;
+- (unsigned long long)floatingControlsView;
 - (_Bool);
 - (void);
 - (double);
@@ -37,12 +37,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) double displayScale;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) long long layoutDirection;
-@property(readonly, copy, nonatomic) NSString *preferredContentSizeCategory;
 @property(readonly, copy, nonatomic) NSDictionary *traitStorage; // @synthesize traitStorage=_traitStorage;
-@property(readonly, nonatomic) long long verticalSizeClass;
 
 @end
 

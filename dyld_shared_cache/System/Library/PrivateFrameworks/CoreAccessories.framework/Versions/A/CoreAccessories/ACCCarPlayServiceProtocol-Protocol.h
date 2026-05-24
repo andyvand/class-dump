@@ -5,5 +5,6 @@
 //
 
 @protocol ACCCarPlayServiceProtocol
+- (void);
 @end
 

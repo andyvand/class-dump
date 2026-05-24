@@ -5,5 +5,7 @@
 //
 
 @protocol NSFileActionsPopoverDelegate
+- (void)Data Instance.;
+- (void)smatch errors;
 @end
 

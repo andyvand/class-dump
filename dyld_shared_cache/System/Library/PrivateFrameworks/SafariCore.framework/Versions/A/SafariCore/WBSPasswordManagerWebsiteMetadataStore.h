@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface WBSPasswordManagerWebsiteMetadataStore
 {
     Class _metadataEntryClass;
-    NSString *_accessGroup;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _metadataEntryLock;
 }
 
 - (id);

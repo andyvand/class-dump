@@ -4,60 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBHIDEventManager, CBPreset, CBSystemContext, HIDManager, NSMutableDictionary, NSObject, NSString, NightModeControl, SLSBrightnessControlClient;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface BLControl
 {
     NSObject<OS_os_log> *_logHandle;
-    NightModeControl *_nightModeControl;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
-    NSObject<OS_dispatch_source> *_CDInitTimer;
-    _Bool _CDReady;
-    unsigned int _pmRootDomainService;
-    unsigned long long _userActiveNotificationHandle;
-    unsigned int _clamshellNotification;
-    struct IONotificationPort *_clamshellNotifyPort;
-    _Bool _clamshellClosed;
-    _Bool _ecoModeState;
-    int _ecoModeNotificationToken;
-    CDUnknownBlockType _ecoModeNotificationHandler;
-    NSMutableDictionary *_displayContainers;
-    NSMutableDictionary *_keyboardContainers;
-    HIDManager *_keyboardBacklightHIDManager;
-    _Bool _userActive;
-    NSMutableDictionary *_pilContainers;
-    struct IONotificationPort *_ioNotificationPortPIL;
-    unsigned int _ioNotificationObjectPIL;
-    unsigned int _ioServiceArrivalIteratorPIL;
-    SLSBrightnessControlClient *_SLSClient;
-    NSString *_currentUser;
-    long long _displayState;
-    unsigned char _displayPowerState;
-    CBHIDEventManager *_hidEventManager;
-    struct __SCDynamicStore *_SCDynamicStore;
-    CDStruct_e097db04 *_SCDynamicStoreContext;
-    unsigned long long _chargerState;
-    _Bool _nsPresetDisable;
-    CBPreset *_cachedInternalPreset;
-    CBSystemContext *_systemContext;
 }
 
 + (unsigned long long);
 + (long long);
+- (void)userActivityPayloadWasChanged:payloadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)substringWithRange: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (void)y';
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)1;
 - (_Bool);
 - (void);
 - (void);
@@ -65,21 +33,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@r;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)A;
+- (void)*;
+- (void)I;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (void);
 - (id);
 - (void);
@@ -90,11 +58,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (id);

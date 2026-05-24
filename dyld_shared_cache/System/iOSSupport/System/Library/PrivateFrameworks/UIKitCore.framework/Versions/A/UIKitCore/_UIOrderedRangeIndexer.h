@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIOrderedRangeIndexer
 {
@@ -15,20 +13,18 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (id);
 - (struct _NSRange);
-- (id);
+- (id)playlistPersistentID;
 - (id)0@ù
 × ;
-- (id)hInputMode:renderConfig:inputTraits:screenTraits:splitTraits: /* Error: Ran out of types for this method. */;
-- (long long)teAndApplySettingsForTransition;
+- (id)showKeyboardWithInputMode:renderConfig:inputTraits:screenTraits:splitTraits: /* Error: Ran out of types for this method. */;
+- (long long)computeAndApplySettingsForTransition;
 - (long long)ÈB<ChCèCXEF;
 - (struct _NSRange)ction %lu. The number of rows contained in an existing section after the update (%lu) must be equal to the number of rows contained in that section before the update (%lu), plus or minus the number of rows inserted or deleted from that section (%lu inserted, %lu deleted) and plus or minus the number of rows moved into or out of that section (%lu moved in, %lu moved out). Table view:(long long)arg1 %@;
 - (void)dexTitle:(struct _NSRange)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange containingRange;
 @property(readonly, nonatomic) long long numberOfRanges;
-@property(readonly, nonatomic) NSArray *orderedRanges;
 
 @end
 

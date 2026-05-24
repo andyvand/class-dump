@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBImage;
+@class _SFPBImage;
 
 @protocol _SFPBButton
-- (_Bool)ntBigramPrefixMatchInEmailAddresses: /* Error: Ran out of types for this method. */;
+- (void)bject:(_SFPBImage *)arg1 %@>;
+- (id)";
+- (_Bool)setCountBigramPrefixMatchInEmailAddresses: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) _Bool isSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBImage *selectedImage;
 @end
 

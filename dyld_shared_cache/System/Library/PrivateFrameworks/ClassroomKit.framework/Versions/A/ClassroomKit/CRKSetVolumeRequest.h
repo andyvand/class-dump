@@ -11,7 +11,7 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (void)T@"NSString",N,R;
 - (void);
 - (double);
 

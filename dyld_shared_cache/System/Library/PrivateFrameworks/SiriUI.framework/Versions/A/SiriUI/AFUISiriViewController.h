@@ -4,82 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFUIDelayedActionCommandCache, AFUISiriSession, NSNumber, NSObject, NSString, NSTrackingArea, SVSSiriViewController, SiriUIConfiguration, SiriUIRequestOptions, SiriUISiriView;
-@protocol AFUISiriViewControllerDataSource, AFUISiriViewControllerDelegate, OS_dispatch_queue;
+@class AFUISiriSession;
 
 @interface AFUISiriViewController
 {
     _Bool _active;
-    _Bool _remoteViewControllerDispatchQueueSuspended;
-    long long _vtEnabledCount;
-    long long _currentRequestSource;
-    CDUnknownBlockType _triggerUpdater;
-    AFUIDelayedActionCommandCache *_delayedActionCommandCache;
-    _Bool _siriSessionWantsToEnd;
-    SiriUIConfiguration *_configuration;
-    CDUnknownBlockType _unlockCompletion;
-    unsigned int _darkWakeAssertion;
-    long long _ncBreakOutState;
-    _Bool _isListening;
-    _Bool _visible;
-    _Bool _windowed;
-    _Bool _showingTalkModeUI;
-    _Bool _eyesFree;
-    _Bool _mapsGatekeeperEnabled;
-    _Bool _hasOrbBeenTapped;
-    _Bool _inHoldToTalkMode;
-    _Bool _isBeingPresented;
-    id <AFUISiriViewControllerDataSource> _dataSource;
-    id <AFUISiriViewControllerDelegate> _delegate;
-    AFUISiriSession *_session;
-    SVSSiriViewController *_svsViewController;
-    NSObject<OS_dispatch_queue> *_remoteViewControllerDispatchQueue;
-    SiriUIRequestOptions *_currentRequestOptions;
-    NSNumber *_recordingStartedTimeValue;
-    double _viewDidAppearTime;
-    NSTrackingArea *_trackingArea;
 }
 
-+ (id);
++ (id)_	;
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,6 +51,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)ŗ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -110,6 +81,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -118,10 +90,9 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)8,;
 - (void);
 - (void);
 - (void);
@@ -169,24 +140,24 @@
 - (id);
 - (long long);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)R;
 - (void);
 - (double);
 - (_Bool);
@@ -196,10 +167,10 @@
 - (void);
 - (void);
 - (void);
+- (void)4(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
@@ -216,15 +187,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (double);
 - (id);
@@ -232,9 +203,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)transcriptTraitCollection;
+- (void)"UIFont",&,N,V_preferredFont;
+- (void)!;
 - (id);
 - (void);
 - (void);
@@ -247,45 +218,18 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (_Bool)izableHeaderView;
+- (_Bool)SiriUISizableHeaderView;
 - (void)ÿÿ.;
 
 // Remaining properties
-@property(readonly, nonatomic) double contentHeight;
-@property(copy, nonatomic, getter=_currentRequestOptions, setter=_setCurrentRequestOptions:) SiriUIRequestOptions *currentRequestOptions; // @synthesize currentRequestOptions=_currentRequestOptions;
-@property(nonatomic) __weak id <AFUISiriViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AFUISiriViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEyesFree) _Bool eyesFree; // @synthesize eyesFree=_eyesFree;
-@property(readonly, nonatomic) _Bool hasOrbBeenTapped; // @synthesize hasOrbBeenTapped=_hasOrbBeenTapped;
-@property(readonly, nonatomic) _Bool hasScreenSnapshot;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_isInHoldToTalkMode, setter=_setInHoldToTalkMode:) _Bool inHoldToTalkMode; // @synthesize inHoldToTalkMode=_inHoldToTalkMode;
-@property _Bool isBeingPresented; // @synthesize isBeingPresented=_isBeingPresented;
-@property(readonly, nonatomic) _Bool isProcessingAcousticIdRequest;
-@property(nonatomic) _Bool mapsGatekeeperEnabled; // @synthesize mapsGatekeeperEnabled=_mapsGatekeeperEnabled;
-@property(retain, nonatomic, getter=_recordingStartedTimeValue, setter=_setRecordingStartedTimeValue:) NSNumber *recordingStartedTimeValue; // @synthesize recordingStartedTimeValue=_recordingStartedTimeValue;
-@property(readonly, nonatomic, getter=_remoteViewControllerDispatchQueue) NSObject<OS_dispatch_queue> *remoteViewControllerDispatchQueue; // @synthesize remoteViewControllerDispatchQueue=_remoteViewControllerDispatchQueue;
 @property(readonly, nonatomic, getter=_session) AFUISiriSession *session; // @synthesize session=_session;
-@property(nonatomic, getter=isShowingTalkModeUI) _Bool showingTalkModeUI; // @synthesize showingTalkModeUI=_showingTalkModeUI;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SVSSiriViewController *svsViewController; // @synthesize svsViewController=_svsViewController;
-@property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
-@property(retain) SiriUISiriView *view; // @dynamic view;
-@property(nonatomic, getter=_viewDidAppearTime, setter=_setViewDidAppearTime:) double viewDidAppearTime; // @synthesize viewDidAppearTime=_viewDidAppearTime;
-@property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
-@property(nonatomic, getter=isWindowed) _Bool windowed; // @synthesize windowed=_windowed;
 
 @end
 

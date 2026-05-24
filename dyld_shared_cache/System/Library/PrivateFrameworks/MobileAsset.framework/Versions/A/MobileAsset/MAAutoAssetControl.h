@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SUCoreConnectClient;
+@class NSString;
 
 @interface MAAutoAssetControl
 {
     NSString *_controlClientName;
-    NSString *_controlClientProcessName;
-    long long _controlClientProcessID;
-    SUCoreConnectClient *_connectionClient;
 }
 
 + (id);
@@ -44,7 +41,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -74,24 +71,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_supplementalMatchDomains;
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreConnectClient *connectionClient; // @synthesize connectionClient=_connectionClient;
 @property(readonly, retain, nonatomic) NSString *controlClientName; // @synthesize controlClientName=_controlClientName;
-@property(readonly, nonatomic) long long controlClientProcessID; // @synthesize controlClientProcessID=_controlClientProcessID;
-@property(readonly, retain, nonatomic) NSString *controlClientProcessName; // @synthesize controlClientProcessName=_controlClientProcessName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

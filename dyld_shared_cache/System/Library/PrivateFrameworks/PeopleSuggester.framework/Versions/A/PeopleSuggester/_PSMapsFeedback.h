@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _PSMapsFeedbackAction, _PSMapsPredictionContext;
-
 @interface _PSMapsFeedback
 {
     _Bool _dryRun;
-    _PSMapsFeedbackAction *_action;
-    _PSMapsPredictionContext *_context;
-    NSArray *_suggestions;
 }
 
-- (id);
-- (unsigned long long);
+- (id)_dictationAlternativesPresent;
+- (unsigned long long)_context;
+- (id)_classifiedSampleCount;
+- (void)_cacheStoringContext;
+- (id)_appContactFreqForMessagesUsingSiri;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _PSMapsFeedbackAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) _PSMapsPredictionContext *context; // @synthesize context=_context;
 @property(nonatomic) _Bool dryRun; // @synthesize dryRun=_dryRun;
-@property(readonly, nonatomic) unsigned long long indexOfEngagedSuggestion;
-@property(readonly, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

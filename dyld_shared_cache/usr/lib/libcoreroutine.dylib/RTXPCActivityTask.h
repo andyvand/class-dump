@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface RTXPCActivityTask
 {
     NSString *_identifier;
-    NSObject<OS_xpc_object> *_activity;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -22,8 +19,6 @@
 - (void)ith handler;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

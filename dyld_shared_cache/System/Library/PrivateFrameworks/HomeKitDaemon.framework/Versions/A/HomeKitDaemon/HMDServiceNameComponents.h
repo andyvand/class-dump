@@ -10,30 +10,24 @@ __attribute__((visibility("hidden")))
 @interface HMDServiceNameComponents
 {
     NSString *_rawServiceName;
-    NSString *_serviceName;
-    NSString *_roomName;
-    NSString *_format;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)SafariQuickLookPreview;
+- (id)contentsTimestamp;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id)nged to %@;
-- (void)rationError_INT;
+- (void)IDSRegistrationError_INT;
 - (void)æÿxÂm?;
 - (id)@e?;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *format; // @synthesize format=_format;
 @property(retain, nonatomic) NSString *rawServiceName; // @synthesize rawServiceName=_rawServiceName;
-@property(retain, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

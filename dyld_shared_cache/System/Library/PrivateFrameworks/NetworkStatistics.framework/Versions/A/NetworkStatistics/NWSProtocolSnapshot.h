@@ -6,46 +6,14 @@
 
 #import <NetworkStatistics/NWSSnapshot.h>
 
-@class NSData, NSDate, NSString;
+@class NSDate;
 
 @interface NWSProtocolSnapshot : NWSSnapshot
 {
     _Bool _interfaceUnknown;
-    _Bool _interfaceLoopback;
-    _Bool _interfaceCellular;
-    _Bool _interfaceCellularViaFallback;
-    _Bool _interfaceCellularViaPreferredFallback;
-    _Bool _interfaceWifi;
-    _Bool _interfaceWired;
-    _Bool _interfaceAWDL;
-    _Bool _interfaceExpensive;
-    _Bool _interfaceCompanionLink;
-    _Bool _countsIncludeHeaderOverhead;
-    unsigned int _interfaceIndex;
-    unsigned int _receiveBufferSize;
-    unsigned int _receiveBufferUsed;
-    unsigned int _trafficClass;
-    int _processID;
-    int _epid;
-    NSDate *_flowStartTimestamp;
-    double _flowDuration;
-    unsigned long long _flowStartContinuousTime;
-    unsigned long long _uniqueProcessID;
-    NSString *_processName;
-    unsigned long long _eupid;
-    NSString *_uuid;
-    NSString *_euuid;
-    NSString *_fuuid;
-    NSString *_vuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    unsigned long long _networkActivityMapStartTime;
-    unsigned long long _networkActivityMapPart1;
-    unsigned long long _networkActivityMapPart2;
-    unsigned long long _eventFlags;
 }
 
-+ (void);
++ (void)redColor;
 - (id);
 - (id);
 - (id);
@@ -62,23 +30,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)public}@ for %{public}@ since requestor is not the host;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)=dd}{CGSize=dd}}16;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)CardSection>"16;
 - (double);
 - (int)
 × ;
@@ -87,39 +55,7 @@
 - (_Bool)¬&ÿÿ;
 
 // Remaining properties
-@property(readonly) _Bool countsIncludeHeaderOverhead; // @synthesize countsIncludeHeaderOverhead=_countsIncludeHeaderOverhead;
-@property(readonly) int epid; // @synthesize epid=_epid;
-@property(readonly) unsigned long long eupid; // @synthesize eupid=_eupid;
-@property(readonly) NSString *euuid; // @synthesize euuid=_euuid;
-@property(readonly) unsigned long long eventFlags; // @synthesize eventFlags=_eventFlags;
-@property(readonly) double flowDuration; // @synthesize flowDuration=_flowDuration;
-@property(readonly) unsigned long long flowStartContinuousTime; // @synthesize flowStartContinuousTime=_flowStartContinuousTime;
 @property(readonly) NSDate *flowStartTimestamp; // @synthesize flowStartTimestamp=_flowStartTimestamp;
-@property(readonly) NSString *fuuid; // @synthesize fuuid=_fuuid;
-@property(readonly) _Bool interfaceAWDL; // @synthesize interfaceAWDL=_interfaceAWDL;
-@property(readonly) _Bool interfaceCellular; // @synthesize interfaceCellular=_interfaceCellular;
-@property(readonly) _Bool interfaceCellularViaFallback; // @synthesize interfaceCellularViaFallback=_interfaceCellularViaFallback;
-@property(readonly) _Bool interfaceCellularViaPreferredFallback; // @synthesize interfaceCellularViaPreferredFallback=_interfaceCellularViaPreferredFallback;
-@property(readonly) _Bool interfaceCompanionLink; // @synthesize interfaceCompanionLink=_interfaceCompanionLink;
-@property(readonly) _Bool interfaceExpensive; // @synthesize interfaceExpensive=_interfaceExpensive;
-@property(readonly) unsigned int interfaceIndex; // @synthesize interfaceIndex=_interfaceIndex;
-@property(readonly) _Bool interfaceLoopback; // @synthesize interfaceLoopback=_interfaceLoopback;
-@property(readonly) _Bool interfaceUnknown; // @synthesize interfaceUnknown=_interfaceUnknown;
-@property(readonly) _Bool interfaceWifi; // @synthesize interfaceWifi=_interfaceWifi;
-@property(readonly) _Bool interfaceWired; // @synthesize interfaceWired=_interfaceWired;
-@property(readonly) NSData *localAddress; // @synthesize localAddress=_localAddress;
-@property(readonly) unsigned long long networkActivityMapPart1; // @synthesize networkActivityMapPart1=_networkActivityMapPart1;
-@property(readonly) unsigned long long networkActivityMapPart2; // @synthesize networkActivityMapPart2=_networkActivityMapPart2;
-@property(readonly) unsigned long long networkActivityMapStartTime; // @synthesize networkActivityMapStartTime=_networkActivityMapStartTime;
-@property(readonly) int processID; // @synthesize processID=_processID;
-@property(readonly) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) unsigned int receiveBufferSize; // @synthesize receiveBufferSize=_receiveBufferSize;
-@property(readonly) unsigned int receiveBufferUsed; // @synthesize receiveBufferUsed=_receiveBufferUsed;
-@property(readonly) NSData *remoteAddress; // @synthesize remoteAddress=_remoteAddress;
-@property(readonly) unsigned int trafficClass; // @synthesize trafficClass=_trafficClass;
-@property(readonly) unsigned long long uniqueProcessID; // @synthesize uniqueProcessID=_uniqueProcessID;
-@property(readonly) NSString *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSString *vuuid; // @synthesize vuuid=_vuuid;
 
 @end
 

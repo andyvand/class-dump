@@ -9,10 +9,6 @@
 @interface RVQuery
 {
     NSString *_title;
-    NSString *_identifier;
-    NSString *_userAgent;
-    long long _queryID;
-    CDUnknownBlockType _queryProvider;
 }
 
 + (_Bool);
@@ -22,23 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long queryID; // @synthesize queryID=_queryID;
 @property(readonly, nonatomic) CDUnknownBlockType queryProvider; // @synthesize queryProvider=_queryProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

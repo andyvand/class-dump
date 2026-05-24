@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeFeedNavigationParticipant
 {
     id destination;
-    id photoLibrary;
 }
 
 @end

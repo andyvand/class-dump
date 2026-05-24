@@ -27,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) DelayedPopUpButtonCell *cell; // @dynamic cell;
-@property(retain, nonatomic) id <OneStepBookmarkingButtonController> controller; // @synthesize controller=_controller;
 
 @end
 

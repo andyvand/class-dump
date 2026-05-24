@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, _UIKeyWindowEvaluator;
+@class _UIKeyWindowEvaluator;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyWindowSceneObserver
 {
     _UIKeyWindowEvaluator *_keyWindowEvaluator;
-    struct {
-        unsigned int sceneIsObservable:1;
-    } _observerFlags;
-    UIScene *_scene;
 }
 
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)eboardItemAtIndex:(id)arg1 inTextField:(id)arg2;
+- (id)documentFragmentForPasteboardItemAtIndex:(id)arg1 inTextField:(id)arg2;
 - (void):(id)arg1 endingLayout:(long long)arg2 animationSetup:(unsigned long long)arg3 animationCompletion:enableCustomAnimations:customAnimationsType: /* Error: Ran out of types for this method. */;
 - (_Bool)_activeDropItem;
-- (void)yle:(id)arg1;
-- (id)vityItemsConfiguration;
+- (void)set_backgroundInteractionStyle:(id)arg1;
+- (id)ActivityItemsConfiguration;
 - (id)23YÒ;
-- (void)nfigurationDragState;
+- (void)NUICellConfigurationDragState;
 - (id)¼ÿ3ÜL^;
 - (void);
 - (id)Ta;
 - (void)´ªý;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

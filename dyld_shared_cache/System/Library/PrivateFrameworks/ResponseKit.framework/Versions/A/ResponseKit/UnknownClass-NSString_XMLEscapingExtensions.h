@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (NSString_XMLEscapingExtensions)
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(readonly) NSString *stringByEscapingXMLEntities;
-@property(readonly) NSString *stringByUnescapingXMLEntities;
 @end
 

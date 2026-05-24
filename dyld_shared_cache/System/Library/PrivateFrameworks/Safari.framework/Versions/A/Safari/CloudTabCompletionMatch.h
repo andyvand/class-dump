@@ -5,13 +5,11 @@
 //
 
 @class WBSCloudTab;
-@protocol WBSCloudTabProvider;
 
 __attribute__((visibility("hidden")))
 @interface CloudTabCompletionMatch
 {
     WBSCloudTab *_cloudTab;
-    id <WBSCloudTabProvider> _device;
 }
 
 - (id);
@@ -21,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)edBeaconsChangedBlock;
 - (id)HashMap<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>::KeyValuePairTraits, WTF::HashTraits<unsigned long long>>::validateKey(const ValueType &) [Key = unsigned long long, Value = WTF::KeyValuePair<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>>, HashFunctions = WTF::DefaultHash<unsigned long long>, Traits = WTF::HashMap<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<unsigned long long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WBSCloudTab *cloudTab; // @synthesize cloudTab=_cloudTab;
-@property(readonly, nonatomic) id <WBSCloudTabProvider> device; // @synthesize device=_device;
 
 @end
 

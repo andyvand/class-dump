@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersBrandProfileSearch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _highlightDiff;
-    CDStruct_f55cf389 _flags;
 }
 
 + (_Bool)setHasWifiCca:(id)arg1;
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)U;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -40,31 +31,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_turnIdentifier;
+- (void)CSP2P_VoiceProfileRelativeFilePath_Key;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)rSSL}d, flags:(id)arg1 %{AppleLDAPTypes:flags}d /* Error: Ran out of types for this method. */;
 - (id)s"b1"read_halls"b1"read_lines"b1"read_paymentMethods"b1"read_stations"b1"read_steps"b1"read_stops"b1"read_systems"b1"read_transitIncidentMessages"b1"read_transitIncidents"b1"read_walkings"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)enityItem;
+- (id)_amenityItem;
 - (id)äN³xACøN³HCCO³TZCÄO³T CØO³¦CìO³À§C;
 - (id)NULL,    UNIQUE(category)    ON CONFLICT REPLACE    );;
-- (void)ddrObjGoogle8protobuf11MessageLiteE;
+- (void)N13AddrObjGoogle8protobuf11MessageLiteE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

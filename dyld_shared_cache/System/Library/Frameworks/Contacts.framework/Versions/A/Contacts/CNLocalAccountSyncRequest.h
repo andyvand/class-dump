@@ -9,9 +9,6 @@
 @interface CNLocalAccountSyncRequest : CNAccountSyncRequest
 {
     _Bool _standby;
-    _Bool _resetStandby;
-    _Bool _clearify;
-    unsigned long long _retryCount;
 }
 
 + (id);
@@ -23,19 +20,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)lProxies(emergency)...;
+- (unsigned long long)`;
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long)s;
-- (void)ty;
+- (unsigned long long)CNInvalidRecords;
+- (void)ContactProperty;
 
 // Remaining properties
-@property _Bool clearify; // @synthesize clearify=_clearify;
-@property _Bool resetStandby; // @synthesize resetStandby=_resetStandby;
 @property unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property _Bool standby; // @synthesize standby=_standby;
 
 @end
 

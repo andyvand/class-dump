@@ -7,7 +7,6 @@
 @interface ConversationKit.PlatformDisplayLinkBase
 {
     id callbackWrapper;
-    id displayLink;
 }
 
 @end

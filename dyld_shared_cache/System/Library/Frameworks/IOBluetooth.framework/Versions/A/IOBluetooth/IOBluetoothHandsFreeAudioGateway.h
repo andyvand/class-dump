@@ -11,12 +11,11 @@
 @interface IOBluetoothHandsFreeAudioGateway : IOBluetoothHandsFree
 {
     _Bool _indicatorMode;
-    _Bool _indicatorEventReporting;
-    IOBluetoothHandsFreeAudioGatewayExpansion *_expansion;
 }
 
 + (id);
 + (id);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -26,8 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h8);
 - (void);
 - (void);
 - (void);
@@ -47,9 +45,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -57,7 +55,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (int);
 - (void);
@@ -66,8 +64,6 @@
 
 // Remaining properties
 @property(retain) IOBluetoothHandsFreeAudioGatewayExpansion *expansion; // @synthesize expansion=_expansion;
-@property _Bool indicatorEventReporting; // @synthesize indicatorEventReporting=_indicatorEventReporting;
-@property _Bool indicatorMode; // @synthesize indicatorMode=_indicatorMode;
 
 @end
 

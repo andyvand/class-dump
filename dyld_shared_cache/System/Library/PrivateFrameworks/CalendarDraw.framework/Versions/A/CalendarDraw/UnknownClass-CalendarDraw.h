@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CalendarDraw)
 + (id);
-- (id);
+- (id)ir;
 @end
 

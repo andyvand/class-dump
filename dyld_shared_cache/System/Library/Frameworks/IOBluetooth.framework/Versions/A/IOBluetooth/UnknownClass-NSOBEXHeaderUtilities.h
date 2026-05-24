@@ -6,7 +6,7 @@
 
 @interface UnknownClass (NSOBEXHeaderUtilities)
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (int);
@@ -21,11 +21,11 @@
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);

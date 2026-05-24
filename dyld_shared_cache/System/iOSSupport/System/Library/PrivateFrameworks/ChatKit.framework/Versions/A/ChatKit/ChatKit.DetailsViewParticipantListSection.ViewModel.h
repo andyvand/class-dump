@@ -9,10 +9,6 @@
 @interface ChatKit.DetailsViewParticipantListSection.ViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id _currentParticipantHandle;
-    id _isPresentingRemoveAlert;
-    id _isPresentingAddRecipientPopover;
-    id _isPresentingAddRecipientNavigationDestination;
-    id _$observationRegistrar;
 }
 
 @end

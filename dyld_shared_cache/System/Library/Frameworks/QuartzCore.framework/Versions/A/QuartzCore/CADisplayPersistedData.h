@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CADisplayPersistedData
 {
     NSString *_version;
-    NSMutableArray *_latencies;
-    NSMutableArray *_preferredModes;
 }
 
 + (id);
 + (_Bool);
-+ (id)rticleType;
++ (id)particleType;
 - (void);
 - (void);
 - (void);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (struct Mode);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -33,11 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *latencies; // @synthesize latencies=_latencies;
-@property(retain, nonatomic) NSMutableArray *preferredModes; // @synthesize preferredModes=_preferredModes;
 @property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

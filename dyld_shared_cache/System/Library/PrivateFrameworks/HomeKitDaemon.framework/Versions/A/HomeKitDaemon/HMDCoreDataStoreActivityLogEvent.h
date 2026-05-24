@@ -7,18 +7,17 @@
 @interface HMDCoreDataStoreActivityLogEvent
 {
     unsigned long long eventType;
-    unsigned long long storeType;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)8
+;
 - (unsigned long long)pshotLocalDelegate>"40@"<HMDCameraSnapshotRequestHandlerProtocol>"48;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long eventType; // @synthesize eventType;
-@property(nonatomic, readonly) unsigned long long storeType; // @synthesize storeType;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRShowFlaggedMonitorableDataView
 {
     id store;
-    id showCompleted;
-    id countCompleted;
-    id sortingStyle;
-    id remindersToPrefetchCount;
-    id fetchSubtasks;
 }
 
 @end

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)isSaveRequest:authorizedForSavingWithContext:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

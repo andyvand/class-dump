@@ -7,12 +7,11 @@
 @interface PhotosUICore.PhotosCollectionPreviewPlayerUIView
 {
     id player;
-    id sharedPlayerView;
 }
 
 - (id);
 - (void);
-- (id)oraryDirectoryURL;
+- (id)temporaryDirectoryURL;
 - (void)ÔØ;;
 
 @end

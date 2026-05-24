@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ECHeaderAuthenticationResultStatement
 {
     unsigned long long _hash;
-    NSString *_method;
-    NSString *_result;
-    NSString *_reason;
-    NSArray *_properties;
 }
 
+- (id)w.;
+- (id)n an AVMobileChromelessControlsView.;
+- (id)nator for detached full screen dismissal.;
+- (id)l (%@);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ger called with NULL message;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *method; // @synthesize method=_method;
-@property(readonly, copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSString *result; // @synthesize result=_result;
 
 @end
 

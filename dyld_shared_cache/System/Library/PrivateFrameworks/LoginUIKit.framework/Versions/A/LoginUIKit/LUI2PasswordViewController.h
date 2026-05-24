@@ -6,27 +6,12 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2SecureTextFieldViewController, LUI2TextFieldBackgroundView, NSControl, NSImageView, NSLayoutConstraint, NSObject, NSStackView, NSString, NSTextField, NSView, NSVisualEffectView;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface LUI2PasswordViewController : LUI2ViewController
 {
     _Bool _passwordFieldLocked;
-    LUI2TextFieldBackgroundView *_backgroundView;
-    LUI2SecureTextFieldViewController *_secureTextFieldViewController;
-    NSControl *_backButton;
-    NSControl *_helpButton;
-    NSControl *_loginButton;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSVisualEffectView *_backBackgroundView;
-    NSVisualEffectView *_helpBackgroundView;
-    NSVisualEffectView *_loginBackgroundView;
-    NSStackView *_stackView;
-    NSView *_leftSpacer;
-    NSView *_rightSpacer;
-    NSImageView *_lockedStateImageView;
-    NSTextField *_lockedStateLabel;
-    NSLayoutConstraint *_backgroundWidthConstraint;
 }
 
 - (id);
@@ -36,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (id);
@@ -52,10 +37,10 @@
 - (id);
 - (void);
 - (void);
+- (void)D@zA;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
@@ -78,29 +63,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSVisualEffectView *backBackgroundView; // @synthesize backBackgroundView=_backBackgroundView;
-@property(readonly) NSControl *backButton; // @synthesize backButton=_backButton;
-@property(retain) LUI2TextFieldBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property NSLayoutConstraint *backgroundWidthConstraint; // @synthesize backgroundWidthConstraint=_backgroundWidthConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSVisualEffectView *helpBackgroundView; // @synthesize helpBackgroundView=_helpBackgroundView;
-@property(readonly) NSControl *helpButton; // @synthesize helpButton=_helpButton;
-@property(retain) NSView *leftSpacer; // @synthesize leftSpacer=_leftSpacer;
-@property(retain) NSImageView *lockedStateImageView; // @synthesize lockedStateImageView=_lockedStateImageView;
-@property(retain) NSTextField *lockedStateLabel; // @synthesize lockedStateLabel=_lockedStateLabel;
-@property(retain) NSVisualEffectView *loginBackgroundView; // @synthesize loginBackgroundView=_loginBackgroundView;
-@property(readonly) NSControl *loginButton; // @synthesize loginButton=_loginButton;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property _Bool passwordFieldLocked; // @synthesize passwordFieldLocked=_passwordFieldLocked;
-@property(retain) NSView *rightSpacer; // @synthesize rightSpacer=_rightSpacer;
-@property(readonly) LUI2SecureTextFieldViewController *secureTextFieldViewController; // @synthesize secureTextFieldViewController=_secureTextFieldViewController;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 + (void);
 + (_Bool);
 + (id);
-- (id);
+- (id)pp.authorization.fail;
 
 @end
 

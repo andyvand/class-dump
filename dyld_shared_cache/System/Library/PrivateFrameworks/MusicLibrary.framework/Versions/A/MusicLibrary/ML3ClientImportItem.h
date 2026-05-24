@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPMediaItem, MIPMultiverseIdentifier, MIPPlaylist;
+@class MIPMediaItem, MIPMultiverseIdentifier;
 
 @interface ML3ClientImportItem
 {
     MIPMultiverseIdentifier *_multiverseIdentifier;
-    MIPMediaItem *_mediaItem;
-    MIPPlaylist *_playlistItem;
 }
 
-+ (_Bool);
++ (_Bool)v;
+- (id)CreateMode;
+- (id)setFocalLength:(id)arg1;
+- (id)setFingerPrint:(id)arg1;
+- (id), From:%{public}@, To:%{public}@)! /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void)e_item_pid FROM album WHERE album_pid NOT IN (SELECT entity_pid FROM artwork_token WHERE entity_type = %d) AND representative_item_pid IN (SELECT entity_pid FROM artwork_token WHERE entity_type = %d);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MIPMediaItem *mediaItem; // @synthesize mediaItem=_mediaItem;
-@property(readonly, copy, nonatomic) MIPMultiverseIdentifier *multiverseIdentifier; // @synthesize multiverseIdentifier=_multiverseIdentifier;
-@property(readonly, copy, nonatomic) MIPPlaylist *playlistItem; // @synthesize playlistItem=_playlistItem;
 
 @end
 

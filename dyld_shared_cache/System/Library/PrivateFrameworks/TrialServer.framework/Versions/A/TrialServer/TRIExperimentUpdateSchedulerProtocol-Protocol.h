@@ -5,5 +5,6 @@
 //
 
 @protocol TRIExperimentUpdateSchedulerProtocol
+- (void)videoData;
 @end
 

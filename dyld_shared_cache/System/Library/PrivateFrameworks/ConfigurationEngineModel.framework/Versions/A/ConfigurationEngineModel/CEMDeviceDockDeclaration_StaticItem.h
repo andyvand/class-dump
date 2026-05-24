@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMDeviceDockDeclaration_StaticItemTileData, NSString;
+@class CEMDeviceDockDeclaration_StaticItemTileData;
 
 @interface CEMDeviceDockDeclaration_StaticItem : CEMPayloadBase
 {
     CEMDeviceDockDeclaration_StaticItemTileData *_payloadTileData;
-    NSString *_payloadTileType;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CEMDeviceDockDeclaration_StaticItemTileData *payloadTileData; // @synthesize payloadTileData=_payloadTileData;
-@property(copy, nonatomic) NSString *payloadTileType; // @synthesize payloadTileType=_payloadTileType;
 
 @end
 

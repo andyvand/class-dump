@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol PodcastsUI.JSRecommendationsExport__priv_681D787FBB281DB3BE56D73CB3CCD20A
+- (JSValue *);
 @end
 

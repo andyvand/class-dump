@@ -6,36 +6,30 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSString;
-
 @interface VNPixelBufferObservation : VNObservation
 {
     struct __CVBuffer *_pixelBuffer;
-    NSString *_featureName;
-    struct CGRect _croppedBoundingBox;
 }
 
-+ (id);
-+ (_Bool);
++ (id)@9;
++ (_Bool)c;
 - (id);
 - (id);
 - (struct CGRect);
 - (struct __CVBuffer *);
-- (void);
-- (id);
+- (void)t;
+- (id)fp_isSyncAnchorExpiredError;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)cropRectStringFromCGRect: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct __CVBuffer *);
-- (void)WzBWsvType;
+- (void)VN4nFZhnOcBOiJmeVWzBWsvType;
 - (id)T¹U;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect croppedBoundingBox; // @synthesize croppedBoundingBox=_croppedBoundingBox;
-@property(readonly, copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
 
 @end
 

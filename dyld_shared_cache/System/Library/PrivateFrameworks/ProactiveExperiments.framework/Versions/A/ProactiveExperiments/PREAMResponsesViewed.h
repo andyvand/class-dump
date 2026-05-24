@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PREAMResponsesViewed
 {
     int _ageGroup;
-    NSString *_experimentId;
-    NSString *_hostProcess;
-    unsigned int _lastViewedIndex;
-    NSString *_treatmentId;
-    NSString *_treatmentModelName;
-    _Bool _isApricotDevice;
-    struct {
-        unsigned int ageGroup:1;
-        unsigned int lastViewedIndex:1;
-        unsigned int isApricotDevice:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -40,15 +27,15 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)%;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)"j0;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (int);
+- (void) ;
+- (int);
 - (id);
 - (_Bool);
 - (void);
@@ -57,23 +44,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) int ageGroup; // @synthesize ageGroup=_ageGroup;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasAgeGroup;
-@property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasHostProcess;
-@property(nonatomic) _Bool hasIsApricotDevice;
 @property(nonatomic) _Bool hasLastViewedIndex;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentModelName;
-@property(retain, nonatomic) NSString *hostProcess; // @synthesize hostProcess=_hostProcess;
-@property(nonatomic) _Bool isApricotDevice; // @synthesize isApricotDevice=_isApricotDevice;
-@property(nonatomic) unsigned int lastViewedIndex; // @synthesize lastViewedIndex=_lastViewedIndex;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentModelName; // @synthesize treatmentModelName=_treatmentModelName;
 
 @end
 

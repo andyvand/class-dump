@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface TRIMetric
 {
     double _doubleValue;
-    long long _integerValue;
-    NSString *_categoricalValue;
-    NSString *_name;
-    NSData *_userDefinedValue;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int integerValue:1;
-    } _has;
 }
 
 + (id);
@@ -24,8 +14,8 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (void);
+- (id);
+- (void)pshot"8;
 - (void);
 - (void);
 - (_Bool);
@@ -36,8 +26,8 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)_addObjectIDsAndUUIDs:(id)arg1 toMutableArray:coordinator: /* Error: Ran out of types for this method. */;
+- (_Bool)%{public}@;
 - (id);
 - (long long);
 - (_Bool);
@@ -47,22 +37,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *categoricalValue; // @synthesize categoricalValue=_categoricalValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly, nonatomic) _Bool hasCategoricalValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntegerValue;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasUserDefinedValue;
-@property(nonatomic) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *userDefinedValue; // @synthesize userDefinedValue=_userDefinedValue;
 
 @end
 

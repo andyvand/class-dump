@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSContactSuggesterQueryFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)lf miles [SPOKEN];
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)g messages to recoverable message table with deleteDate:(id)arg1 %@ for %lu chatGUIDs;
 - (void);
 - (id);
 - (id)
 × ;
-- (id)SessionConnectionHttpHeaderCreated;
+- (id)_hasSessionConnectionHttpHeaderCreated;
 - (id)hasDictationLocale;
-- (void)nentId;
+- (void)homeComponentId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

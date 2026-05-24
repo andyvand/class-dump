@@ -4,42 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateListDictionary, IMKCandidates, IMKServer, IMKUICandidateTouchBarItemController, IMKUICandidateWindowController, IMKUICandidateWindowPositionController, NSArray, NSDictionary, NSString, NSValue, NSView;
-@protocol IMKCandidatesDelegate, IMKCandidatesSimulatorDelegate;
-
 @interface IMKCandidatesPrivate
 {
     long long _alignment;
-    NSDictionary *_annotationAttributes;
-    NSDictionary *_attributes;
-    IMKUICandidateTouchBarItemController *_candidateTouchBarController;
-    IMKUICandidateWindowController *_candidateWindowController;
-    NSValue *_candidateWindowPosition;
-    NSArray *_candidates;
-    IMKCandidateListDictionary *_candidateListDictionary;
-    id <IMKCandidatesDelegate> _delegate;
-    _Bool _dismissesAutomatically;
-    IMKCandidate *_focusedCandidate;
-    double _fontSize;
-    NSView *_informationView;
-    struct __TISInputSource *_inputSource;
-    NSString *_noCandidatesMessage;
-    NSDictionary *_noCandidatesMessageAttributes;
-    unsigned long long _numberOfFixedSizeCandidates;
-    IMKCandidates *_parent;
-    IMKUICandidateWindowPositionController *_positionController;
-    _Bool _presentsAutomatically;
-    struct __TISInputSource *_selectionKeysKeyLayout;
-    NSArray *_sortingModes;
-    NSDictionary *_supplementalAttributes;
-    unsigned long long _panelType;
-    NSArray *_selectionKeys;
-    IMKServer *_server;
-    id <IMKCandidatesSimulatorDelegate> _simulatorDelegate;
-    NSDictionary *_titleAttributes;
-    _Bool _allowImplicitAnimations;
-    NSString *_language;
-    struct CGRect _cachedTextRect;
 }
 
 - (void);
@@ -58,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,11 +37,11 @@
 - (void);
 - (struct __TISInputSource *);
 - (id);
-- (id);
-- (_Bool);
+- (id)h;
+- (_Bool);
 - (struct CGSize);
 - (struct CGPoint);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -106,7 +73,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (struct __TISInputSource *);
 - (void);
 - (void);
@@ -116,17 +83,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)iceClassTypeMac;
 - (id);
 - (long long);
-- (void);
+- (void)c;
 - (id);
 - (_Bool);
 - (void);
@@ -138,42 +105,11 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)tyValue:(id)arg1;
+- (void)getApplicationPropertyValue:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool allowImplicitAnimations; // @synthesize allowImplicitAnimations=_allowImplicitAnimations;
-@property(retain, nonatomic) NSDictionary *annotationAttributes; // @synthesize annotationAttributes=_annotationAttributes;
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(nonatomic) struct CGRect cachedTextRect; // @synthesize cachedTextRect=_cachedTextRect;
-@property(retain, nonatomic) IMKCandidateListDictionary *candidateListDictionary; // @synthesize candidateListDictionary=_candidateListDictionary;
-@property(retain, nonatomic) IMKUICandidateTouchBarItemController *candidateTouchBarController; // @synthesize candidateTouchBarController=_candidateTouchBarController;
-@property(retain, nonatomic) IMKUICandidateWindowController *candidateWindowController; // @synthesize candidateWindowController=_candidateWindowController;
-@property(retain, nonatomic) NSValue *candidateWindowPosition; // @synthesize candidateWindowPosition=_candidateWindowPosition;
-@property(retain, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(nonatomic) id <IMKCandidatesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool dismissesAutomatically; // @synthesize dismissesAutomatically=_dismissesAutomatically;
-@property(retain, nonatomic) IMKCandidate *focusedCandidate;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) NSView *informationView; // @synthesize informationView=_informationView;
-@property(nonatomic) struct __TISInputSource *inputSource; // @synthesize inputSource=_inputSource;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(copy, nonatomic) NSString *noCandidatesMessage; // @synthesize noCandidatesMessage=_noCandidatesMessage;
-@property(retain, nonatomic) NSDictionary *noCandidatesMessageAttributes; // @synthesize noCandidatesMessageAttributes=_noCandidatesMessageAttributes;
-@property(nonatomic) unsigned long long numberOfFixedSizeCandidates; // @synthesize numberOfFixedSizeCandidates=_numberOfFixedSizeCandidates;
-@property(nonatomic) unsigned long long panelType; // @synthesize panelType=_panelType;
-@property(nonatomic) IMKCandidates *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) IMKUICandidateWindowPositionController *positionController; // @synthesize positionController=_positionController;
-@property(nonatomic) _Bool presentsAutomatically; // @synthesize presentsAutomatically=_presentsAutomatically;
-@property(retain, nonatomic) NSArray *selectionKeys; // @synthesize selectionKeys=_selectionKeys;
-@property(nonatomic) struct __TISInputSource *selectionKeysKeyLayout; // @synthesize selectionKeysKeyLayout=_selectionKeysKeyLayout;
-@property(retain, nonatomic) IMKServer *server; // @synthesize server=_server;
-@property(nonatomic) id <IMKCandidatesSimulatorDelegate> simulatorDelegate; // @synthesize simulatorDelegate=_simulatorDelegate;
-@property(retain, nonatomic) NSArray *sortingModes;
-@property(retain, nonatomic) NSDictionary *supplementalAttributes; // @synthesize supplementalAttributes=_supplementalAttributes;
-@property(nonatomic) struct CGRect textFrameForWindowPositioning;
-@property(retain, nonatomic) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
 
 @end
 

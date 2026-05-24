@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUNearbyDeviceHandle, TUNeighborhoodHandoffContext;
+@class NSUUID;
 
 @interface TUSplitSessionInfo
 {
     NSUUID *_conversationID;
-    TUNearbyDeviceHandle *_device;
-    TUNeighborhoodHandoffContext *_handoffContext;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id):(id)arg1;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)<;
+- (id)ize=dd}},V_dirtyRect;
 - (void)4@?32;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, nonatomic) TUNearbyDeviceHandle *device; // @synthesize device=_device;
-@property(readonly, nonatomic) TUNeighborhoodHandoffContext *handoffContext; // @synthesize handoffContext=_handoffContext;
 
 @end
 

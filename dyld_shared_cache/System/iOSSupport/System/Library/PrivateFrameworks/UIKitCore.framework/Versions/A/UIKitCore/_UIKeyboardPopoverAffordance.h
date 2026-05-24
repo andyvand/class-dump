@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _UIKeyboardPopoverAffordance : UIView
 {
     UIView *_dragArea;
-    UIView *_pillView;
-    _Bool _pressed;
 }
 
-- (id);
-- (void);
-- (id)aratorColor_UICollectionLayoutListAppearanceInsetGrouped;
+- (id)fetchLastSpotlightIndexDeleteReasonWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)homeManagerDidUpdateAssistantIdentifiers:(long long)arg1;
+- (id)_dynamicMultiselectSeparatorColor_UICollectionLayoutListAppearanceInsetGrouped;
 - (void)ÎsþMU43Ïsþ;
 
 // Remaining properties

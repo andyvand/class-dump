@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCoalescer, CKDContainer, NSMutableArray, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CKDContainer;
 
 @interface CKDPCSFetchAggregator
 {
     _Bool _skipQueuedFetchCycleDetection;
-    CKDContainer *_container;
-    NSObject<OS_dispatch_queue> *_opQueue;
-    NSOperationQueue *_queue;
-    NSMutableArray *_queuedFetches;
-    NSMutableArray *_runningFetches;
-    CKCoalescer *_fetchCoalescer;
-    NSObject<OS_dispatch_source> *_timerSource;
 }
 
 - (id);
@@ -27,14 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ated, but chain entry does not indicate a new sector to read.;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_delegate;
 - (void);
 - (void);
 - (void);
@@ -42,22 +34,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)atusForAccountID: /* Error: Ran out of types for this method. */;
-- (id)CSItemCommandWriter;
+- (id)for TranscodeFile for %@:%s /* Error: Ran out of types for this method. */;
+- (id)accountDataSecurityObserver:didUpdateManateeStatusForAccountID: /* Error: Ran out of types for this method. */;
+- (id)CKDMMCSItemCommandWriter;
 - (void)expect encrypted types while creating field value;
 - (void)etching server config;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak CKDContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) CKCoalescer *fetchCoalescer; // @synthesize fetchCoalescer=_fetchCoalescer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *opQueue; // @synthesize opQueue=_opQueue;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *queuedFetches; // @synthesize queuedFetches=_queuedFetches;
-@property(retain, nonatomic) NSMutableArray *runningFetches; // @synthesize runningFetches=_runningFetches;
-@property(nonatomic) _Bool skipQueuedFetchCycleDetection; // @synthesize skipQueuedFetchCycleDetection=_skipQueuedFetchCycleDetection;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timerSource; // @synthesize timerSource=_timerSource;
 
 @end
 

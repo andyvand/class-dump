@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEHelper, NSObject;
-@protocol OS_dispatch_queue;
+@class NEHelper;
 
 @interface NEHotspotConfigurationHelper
 {
     NEHelper *_helper;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (void)esses: /* Error: Ran out of types for this method. */;
+- (void)setLocalAddresses: /* Error: Ran out of types for this method. */;
 
 @end
 

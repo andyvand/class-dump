@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBDoubleList
 {
     struct _has;
-    _INPBCondition *_conditionType;
-    NSArray *_dataStrings;
 }
 
 + (Class);
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)C;
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long));
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)Current network ask-to-share eligible, but proxcard is already presented for matching clientID during authorization (clientID=%{public}@, metadata=%{public}@, authLevel=%lu, knownNetwork=%{public}@);
 - (void);
 - (id);
 - (id);
-- (void)eNumber;
+- (void)phoneNumber;
 - (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType; // @synthesize conditionType=_conditionType;
-@property(copy, nonatomic) NSArray *dataStrings; // @synthesize dataStrings=_dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasConditionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

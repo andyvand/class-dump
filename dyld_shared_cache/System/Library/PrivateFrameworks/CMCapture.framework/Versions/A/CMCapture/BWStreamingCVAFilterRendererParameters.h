@@ -4,53 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWColorLookupCache, CIFilter, NSData, NSString;
+@class BWColorLookupCache, CIFilter;
 
 @interface BWStreamingCVAFilterRendererParameters
 {
     CIFilter *_colorFilter;
-    BWColorLookupCache *_colorLookupCache;
-    NSData *_foregroundColorLookupTable;
-    NSData *_backgroundColorLookupTable;
-    _Bool _studioAndContourRenderingEnabled;
-    _Bool _stageRenderingEnabled;
-    float _interpolationFractionComplete;
-    long long _renderingStrategy;
 }
 
-+ (void)temPressure;
++ (void)SystemPressure;
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)EXDifferentialStyleTable;
 - (id);
 - (id);
-- (id);
+- (id)showUserNotificationWithTitle:message:cancelButtonTitle:otherButtonTitle:withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (short);
 - (id);
 - (float);
-- (void);
-- (id);
+- (void)ude <metal_stdlib>
+
+namespace RB {
+  struct Layer {
+    metal:(id)arg1:(id)arg2 texture2d<half> tex;
+    float2 info[5];
+    half4 sample(float2 p) const {
+      p = metal:(float)arg3:fma(p.x, info[0], metal::fma(p.y, info[1], info[2]));
+      p = metal::clamp(p, info[3], info[4]);
+      return tex.sample(metal::sampler(metal::filter::linear), p);
+    }
+  };
+}
+
+#line 0
+ /* Error: Ran out of types for this method. */;
+- (id)#d;
 - (int)tIndex %d, rec:(id)arg1 %d, prx:%d, umeta:%d proc:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backgroundColorLookupTable; // @synthesize backgroundColorLookupTable=_backgroundColorLookupTable;
-@property(retain, nonatomic) CIFilter *colorFilter; // @synthesize colorFilter=_colorFilter;
 @property(readonly, retain, nonatomic) BWColorLookupCache *colorLookupCache; // @synthesize colorLookupCache=_colorLookupCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *foregroundColorLookupTable; // @synthesize foregroundColorLookupTable=_foregroundColorLookupTable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float interpolationFractionComplete; // @synthesize interpolationFractionComplete=_interpolationFractionComplete;
-@property(readonly, nonatomic) long long renderingStrategy; // @synthesize renderingStrategy=_renderingStrategy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) short type;
 
 @end
 

@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void)isEqualToString:(id)arg1;
+- (void)isAppleVision;
 - (void);
 - (_Bool);
-- (id);
-- (void)ncreasedContrast: /* Error: Ran out of types for this method. */;
+- (id)0@"NSArray"8{_NSRange=QQ}16^B32;
+- (void)setIncreasedContrast: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isLocationShiftEnabled) _Bool locationShiftEnabled;

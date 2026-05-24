@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, VideoScaler;
-
 __attribute__((visibility("hidden")))
 @interface CannedRawVideoCapture
 {
     int _width;
-    int _height;
-    NSArray *_allResolutions;
-    int _allFrameCount;
-    double _allFrameRate;
-    NSDictionary *_currentResolution;
-    struct __sFILE *_currentInputFile;
-    struct __CVPixelBufferPool *_currentPixelBufferPool;
-    struct __CVPixelBufferPool *_rotatedPixelBufferPool;
-    VideoScaler *_videoScaler;
-    struct _opaque_pthread_mutex_t _inputMutex;
-    struct _opaque_pthread_mutex_t _attributeMutex;
-    _Bool _shouldScaleAndPad;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -36,31 +22,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (int);
-- (void);
+- (void);
 - (struct __CVBuffer *);
 - (int);
 - (void);
 - (int);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)nged;
+- (void)lementConfigurationAccessQueue;
 
 // Remaining properties
-@property(nonatomic) int allFrameCount; // @synthesize allFrameCount=_allFrameCount;
-@property(nonatomic) double allFrameRate; // @synthesize allFrameRate=_allFrameRate;
-@property(retain, nonatomic) NSArray *allResolutions; // @synthesize allResolutions=_allResolutions;
-@property(retain, nonatomic) NSDictionary *currentResolution; // @synthesize currentResolution=_currentResolution;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int height; // @synthesize height=_height;
-@property(readonly, nonatomic) _Bool shouldScaleAndPad; // @synthesize shouldScaleAndPad=_shouldScaleAndPad;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) VideoScaler *videoScaler; // @synthesize videoScaler=_videoScaler;
 @property(nonatomic) int width; // @synthesize width=_width;
 
 @end

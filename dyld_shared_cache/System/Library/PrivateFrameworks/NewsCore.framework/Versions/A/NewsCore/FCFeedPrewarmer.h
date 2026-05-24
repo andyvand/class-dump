@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableDictionary;
 @protocol FCContentContext;
 
 @interface FCFeedPrewarmer
 {
     id <FCContentContext> _contentContext;
-    FCThreadSafeMutableDictionary *_prewarmOperations;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)ier] Recopying (Partially Copied from Failed List):(id)arg1 %@;
 - (void)an pruning policy with an unknown type;
 - (id)§;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) FCThreadSafeMutableDictionary *prewarmOperations; // @synthesize prewarmOperations=_prewarmOperations;
 
 @end
 

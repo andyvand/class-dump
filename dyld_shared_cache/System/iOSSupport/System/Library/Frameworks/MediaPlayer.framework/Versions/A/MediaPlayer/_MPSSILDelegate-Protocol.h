@@ -5,5 +5,8 @@
 //
 
 @protocol _MPSSILDelegate
+
+@optional
+- (void);
 @end
 

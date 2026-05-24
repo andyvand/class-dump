@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingAudioCodecParameters
 {
     NSNumber *_audioChannelCount;
-    NSArray *_bitRateModes;
-    NSArray *_audioSampleRates;
-    NSNumber *_maxAudioBitRate;
 }
 
 + (_Bool)d;`×Á;
@@ -25,15 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)Àÿ ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *audioChannelCount; // @synthesize audioChannelCount=_audioChannelCount;
-@property(readonly, copy, nonatomic) NSArray *audioSampleRates; // @synthesize audioSampleRates=_audioSampleRates;
-@property(readonly, copy, nonatomic) NSArray *bitRateModes; // @synthesize bitRateModes=_bitRateModes;
-@property(readonly, copy, nonatomic) NSNumber *maxAudioBitRate; // @synthesize maxAudioBitRate=_maxAudioBitRate;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingAnalysisNode, HMDDevice, NSDate, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingLoadBalancerDecision
 {
     NSUUID *_cameraUUID;
-    long long _numberOfAvailableDevices;
-    long long _totalNumberOfJobSlots;
-    long long _remainingNumberOfJobSlots;
-    HMDCameraRecordingAnalysisNode *_analysisNode;
-    NSDate *_decisionDate;
-    HMDDevice *_deviceWithSessionToHandOff;
 }
 
-- (long long);
+- (long long)_shouldSyncMergeAfterCheckingOrCreatingMarkerFileAtPath: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (id);
@@ -29,18 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)out while getting list of pairings from the accessory :%@ /* Error: Ran out of types for this method. */;
 - (id)%{public}@Residents with reachable accessories are:%@ /* Error: Ran out of types for this method. */;
-- (void)GroupQuery;
+- (void)HomeGroupQuery;
 
 // Remaining properties
-@property(readonly) HMDCameraRecordingAnalysisNode *analysisNode; // @synthesize analysisNode=_analysisNode;
 @property(readonly, copy) NSUUID *cameraUUID; // @synthesize cameraUUID=_cameraUUID;
-@property(readonly, copy) NSDate *decisionDate; // @synthesize decisionDate=_decisionDate;
-@property(readonly, copy) NSUUID *deviceUUID;
-@property(readonly) HMDDevice *deviceWithSessionToHandOff; // @synthesize deviceWithSessionToHandOff=_deviceWithSessionToHandOff;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) long long numberOfAvailableDevices; // @synthesize numberOfAvailableDevices=_numberOfAvailableDevices;
-@property(readonly) long long remainingNumberOfJobSlots; // @synthesize remainingNumberOfJobSlots=_remainingNumberOfJobSlots;
-@property(readonly) long long totalNumberOfJobSlots; // @synthesize totalNumberOfJobSlots=_totalNumberOfJobSlots;
 
 @end
 

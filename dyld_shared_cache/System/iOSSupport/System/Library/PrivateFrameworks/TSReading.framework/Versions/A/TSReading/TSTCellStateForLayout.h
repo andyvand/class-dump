@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTCell, TSTLayoutContentCachedKey, TSWPColumn;
-
 @interface TSTCellStateForLayout
 {
     _Bool mCellPropsRowHeight;
-    _Bool mCellWraps;
-    _Bool mForDrawing;
-    _Bool mInDynamicLayout;
-    CDStruct_0441cfb5 mModelCellID;
-    unsigned int mVerticalAlignment;
-    int mLayoutCacheFlags;
-    TSTCell *mCell;
-    CDStruct_5f1f7aa9 mMergedRange;
-    TSWPColumn *mWPColumn;
-    id mCellContents;
-    TSTLayoutContentCachedKey *mKeyVal;
-    unsigned long long mPageNumber;
-    unsigned long long mPageCount;
-    struct CGSize mMinSize;
-    struct CGSize mMaxSize;
-    struct UIEdgeInsets mPaddingInsets;
 }
 
-- (id);
+- (id)laceholder;
+- (void)own/%lld;
+- (void)eate a shared intent from a Podcasts intent.;
+- (void)identifier:(int)arg1;
+- (void).delegateAccount.updateCredentials;
+- (void)son for remaining on placeholder item;
+- (void)ponseButtonAction;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ceIntentionalChange:(_Bool)arg1;
+- (void)hange - state:(id)arg1;
 - (struct UIEdgeInsets);
-- (CDStruct_0441cfb5);
-- (CDStruct_5f1f7aa9);
+- (CDStruct_bd4d8e6b);
+- (CDStruct_f5d1269f);
 - (int);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -59,31 +41,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)F;
 - (struct CGSize)ternal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/text/TSWPHyperlinkUIController.mm;
 - (void)SDImageProvider initWithImageData:(struct CGSize)arg1 ];
 - (unsigned long long)mentRoot uniqueDocumentCachePathForProposedPath:] /* Error: Ran out of types for this method. */;
 - (struct CGSize)ðÿYé[´²;
 
 // Remaining properties
-@property(copy, nonatomic) TSTCell *cell; // @synthesize cell=mCell;
-@property(retain, nonatomic) id cellContents; // @synthesize cellContents=mCellContents;
-@property(nonatomic) _Bool cellPropsRowHeight; // @synthesize cellPropsRowHeight=mCellPropsRowHeight;
-@property(nonatomic) _Bool cellWraps; // @synthesize cellWraps=mCellWraps;
-@property(nonatomic) _Bool forDrawing; // @synthesize forDrawing=mForDrawing;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(nonatomic) _Bool inDynamicLayout; // @synthesize inDynamicLayout=mInDynamicLayout;
-@property(retain, nonatomic) TSTLayoutContentCachedKey *keyVal; // @synthesize keyVal=mKeyVal;
-@property(nonatomic) int layoutCacheFlags; // @synthesize layoutCacheFlags=mLayoutCacheFlags;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=mMaxSize;
-@property(nonatomic) CDStruct_5f1f7aa9 mergedRange; // @synthesize mergedRange=mMergedRange;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=mMinSize;
-@property(nonatomic) CDStruct_0441cfb5 modelCellID; // @synthesize modelCellID=mModelCellID;
-@property(nonatomic) struct UIEdgeInsets paddingInsets; // @synthesize paddingInsets=mPaddingInsets;
-@property(nonatomic) unsigned long long pageCount; // @synthesize pageCount=mPageCount;
-@property(nonatomic) unsigned long long pageNumber; // @synthesize pageNumber=mPageNumber;
-@property(nonatomic) unsigned int verticalAlignment; // @synthesize verticalAlignment=mVerticalAlignment;
-@property(retain, nonatomic) TSWPColumn *wpColumn; // @synthesize wpColumn=mWPColumn;
+@property(nonatomic) CDStruct_bd4d8e6b modelCellID; // @synthesize modelCellID=mModelCellID;
 
 @end
 

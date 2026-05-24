@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBAlarmSearch, _INPBIntentMetadata;
+@class NSArray, _INPBAlarm, _INPBAlarmSearch, _INPBIntentMetadata;
 
 @protocol _INPBDeleteAlarmIntent
+- (_INPBAlarm *);
+- (_INPBIntentMetadata *)rary/Caches/*;
 - (_Bool)addPayloadIntegerList: /* Error: Ran out of types for this method. */;
-- (NSArray *)mpletion: /* Error: Ran out of types for this method. */;
+- (NSArray *)provideLabelOptionsCollectionForCreateTimer:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch;
-@property(copy, nonatomic) NSArray *alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

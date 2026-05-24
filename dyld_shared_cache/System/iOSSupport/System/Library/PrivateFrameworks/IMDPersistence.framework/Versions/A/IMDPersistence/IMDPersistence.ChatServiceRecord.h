@@ -7,9 +7,6 @@
 @interface IMDPersistence.ChatServiceRecord
 {
     id _service;
-    id _chat;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

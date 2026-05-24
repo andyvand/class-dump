@@ -11,11 +11,11 @@
     XQueryInternal *_internal;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)i;
 - (id);
 
 @end

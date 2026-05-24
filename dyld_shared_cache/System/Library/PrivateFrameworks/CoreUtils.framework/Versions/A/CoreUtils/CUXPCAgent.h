@@ -4,53 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCConnection, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface CUXPCAgent
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    NSMutableSet *_xpcCnxSet;
-    NSXPCListener *_xpcListener;
-    CDUnknownBlockType _connectionStartedHandler;
-    CDUnknownBlockType _connectionEndedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    NSXPCInterface *_exportedInterface;
-    id _exportedObject;
-    NSXPCInterface *_remoteObjectInterface;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)initWithPath:(CDUnknownBlockType)arg1 userQueryString:userQueryContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)cdp_isCDPErrorWithCode:(CDUnknownBlockType)arg1;
+- (void)owUpIdentifier:%{public}@, sponsorAltDSID:%{mask.hash}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)�#;
+- (id);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (CDUnknownBlockType)ANE_CreateUnitsToApplyGammaAndBeta;
 - (id);
 - (_Bool);
-- (id);
+- (id);
+- (void)c;
 - (void);
+- (_Bool)!;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)d;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -59,26 +41,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionEndedHandler; // @synthesize connectionEndedHandler=_connectionEndedHandler;
 @property(copy, nonatomic) CDUnknownBlockType connectionStartedHandler; // @synthesize connectionStartedHandler=_connectionStartedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
-@property(retain, nonatomic) NSXPCInterface *remoteObjectInterface; // @synthesize remoteObjectInterface=_remoteObjectInterface;
-@property(readonly) Class superclass;
 
 @end
 

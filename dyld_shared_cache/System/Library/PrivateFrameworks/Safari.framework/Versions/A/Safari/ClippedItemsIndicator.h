@@ -6,7 +6,6 @@
 
 #import <Safari/ChevronButton.h>
 
-@class NSString;
 @protocol ClippedItemsIndicatorDelegate;
 
 __attribute__((visibility("hidden")))
@@ -23,20 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)hotos extension message to PLMessagesSPI. Exception:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)4 ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ClippedItemsIndicatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

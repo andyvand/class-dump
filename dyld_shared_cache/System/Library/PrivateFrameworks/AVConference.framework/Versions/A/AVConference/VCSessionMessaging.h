@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionMessaging
 {
     NSMutableDictionary *topics;
-    id controlChannelWeak;
-    NSMutableDictionary *participants;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -27,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (void);
@@ -43,13 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

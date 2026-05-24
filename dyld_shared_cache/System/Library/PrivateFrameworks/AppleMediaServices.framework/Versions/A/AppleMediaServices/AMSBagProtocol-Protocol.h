@@ -7,21 +7,17 @@
 @class AMSBagValue, AMSProcessInfo, NSDate, NSString;
 
 @protocol AMSBagProtocol
+- (AMSBagValue *)__cfstring;
+- (AMSBagValue *)",&,N,V_clusterCompositions;
+- (NSDate *);
 - (_Bool)
 × ;
-- (AMSBagValue *)tTens:(NSString *)arg1;
+- (AMSBagValue *)_roundTransferBytesToNearestTens:(NSString *)arg1;
 
 @optional
 - (AMSProcessInfo *)(á«1áöx 7½[!q	¡sôÖbXd;
 
 // Remaining properties
-@property(readonly) NSDate *expirationDate;
 @property(readonly, getter=isExpired) _Bool expired;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @end
 

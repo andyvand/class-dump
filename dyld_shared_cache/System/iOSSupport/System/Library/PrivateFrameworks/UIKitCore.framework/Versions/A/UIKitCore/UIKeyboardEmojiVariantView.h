@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIKeyboardEmojiVariantDivider;
+@class UIKeyboardEmojiVariantDivider;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiVariantView : UIView
 {
     UIKeyboardEmojiVariantDivider *_divider;
-    NSMutableArray *_cells;
-    UIView *_touchForwardingView;
 }
 
 + (struct CGSize);
@@ -21,21 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)SgIeyByyyyyy_;
 - (void);
 - (_Bool);
-- (id)rtView;
+- (id)cancelAlertView;
 - (void)<f;
 - (id)hÝä_j;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIView *touchForwardingView; // @synthesize touchForwardingView=_touchForwardingView;
 
 @end

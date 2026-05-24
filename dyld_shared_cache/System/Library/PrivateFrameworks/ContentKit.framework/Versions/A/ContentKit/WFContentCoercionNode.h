@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet;
-
 @interface WFContentCoercionNode
 {
     id _itemOrItemClass;
-    WFContentCoercionNode *_parent;
 }
 
 + (id);
@@ -31,10 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *coercionPath;
 @property(readonly, nonatomic) id itemOrItemClass; // @synthesize itemOrItemClass=_itemOrItemClass;
-@property(readonly, nonatomic) NSOrderedSet *itemOrItemClassPath;
-@property(readonly, nonatomic) WFContentCoercionNode *parent; // @synthesize parent=_parent;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface HMWeeklyScheduleEntry
 {
     NSDateComponents *_start;
-    NSDateComponents *_end;
 }
 
 + (_Bool);
@@ -17,23 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)accompany;
 - (void);
 - (id);
 - (id);
 - (id)Ô ;
-- (void)MImmutableSettingsProtoStringSettingEvent;
+- (void)HMImmutableSettingsProtoStringSettingEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDateComponents *end; // @synthesize end=_end;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDateComponents *start; // @synthesize start=_start;
-@property(readonly) Class superclass;
 
 @end
 

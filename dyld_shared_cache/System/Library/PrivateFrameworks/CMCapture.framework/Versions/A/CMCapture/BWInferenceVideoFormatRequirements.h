@@ -6,18 +6,9 @@
 
 #import <CMCapture/BWVideoFormatRequirements.h>
 
-@protocol BWInferenceCropDescriptor;
-
 @interface BWInferenceVideoFormatRequirements : BWVideoFormatRequirements
 {
     _Bool _deviceOriented;
-    _Bool _landscapeOriented;
-    _Bool _applyHorizontalFlip;
-    long long _videoContentMode;
-    _Bool _includesInvalidContent;
-    id <BWInferenceCropDescriptor> _cropDescriptor;
-    CDUnknownBlockType _histogramRequest;
-    int _rotationDegrees;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (long long);
+- (long long)K;
 - (void);
 - (void);
 - (_Bool);
@@ -37,17 +28,10 @@
 - (id)ÁÓÿÇÔÿÎÔÿÔÔÿÚÕÿáÕÿèÕÿïÕÿöÖÿýÖÿÿÖÿÿ×ÿÿ×ÿÿ×ÿÿ×ÿÙ;
 - (void)ÿ;
 - (int)venting stop;
-- (void)adata;
+- (void)metadata;
 
 // Remaining properties
-@property(nonatomic) _Bool applyHorizontalFlip; // @synthesize applyHorizontalFlip=_applyHorizontalFlip;
-@property(retain, nonatomic) id <BWInferenceCropDescriptor> cropDescriptor; // @synthesize cropDescriptor=_cropDescriptor;
 @property(nonatomic) _Bool deviceOriented; // @synthesize deviceOriented=_deviceOriented;
-@property(copy, nonatomic) CDUnknownBlockType histogramRequest; // @synthesize histogramRequest=_histogramRequest;
-@property(nonatomic) _Bool includesInvalidContent; // @synthesize includesInvalidContent=_includesInvalidContent;
-@property(nonatomic) _Bool landscapeOriented; // @synthesize landscapeOriented=_landscapeOriented;
-@property(nonatomic) int rotationDegrees; // @synthesize rotationDegrees=_rotationDegrees;
-@property(nonatomic) long long videoContentMode; // @synthesize videoContentMode=_videoContentMode;
 
 @end
 

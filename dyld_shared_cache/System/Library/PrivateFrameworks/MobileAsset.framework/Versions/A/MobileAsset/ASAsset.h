@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface ASAsset
 {
     NSString *_assetType;
-    NSDictionary *_attributes;
-    NSString *_clientName;
-    NSString *_identifier;
-    CDUnknownBlockType _progressHandler;
-    MAAsset *_maAsset;
-    _Bool _userInitiatedDownload;
-    MAAsset *maAsset;
-    NSDictionary *_downloadOptions;
 }
 
 + (_Bool);
@@ -49,7 +41,7 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_getNextPredictedLocationsOfInterestFromLocation:startDate:timeInterval: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -64,18 +56,7 @@
 - (void)Ò;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) NSDictionary *attributes;
 @property(retain, nonatomic) NSString *clientName;
-@property(readonly, nonatomic) NSDictionary *downloadOptions; // @synthesize downloadOptions=_downloadOptions;
-@property(readonly, nonatomic) NSDictionary *fullAttributes;
-@property(nonatomic) long long garbageCollectionBehavior;
-@property(readonly, nonatomic) NSDate *installDate;
-@property(readonly, nonatomic) NSURL *localURL;
-@property(retain, nonatomic) MAAsset *maAsset; // @synthesize maAsset;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly, nonatomic) long long state;
-@property(nonatomic) _Bool userInitiatedDownload; // @synthesize userInitiatedDownload=_userInitiatedDownload;
 
 @end
 

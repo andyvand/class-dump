@@ -4,50 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PGGraphNode, PGGraphPersonNode;
-@protocol PGGraphLocationOrArea;
-
 @interface PGLocationSummarizedFeature
 {
     _Bool _isMandatoryForKeyAsset;
-    unsigned short _type;
-    unsigned short _subtype;
-    NSSet *_intervalsPresent;
-    unsigned long long _numberOfAssets;
-    PGGraphNode<PGGraphLocationOrArea> *_locationNode;
-    PGGraphPersonNode *_personNode;
-    NSString *_locationName;
 }
 
-+ (unsigned short);
++ (unsigned short)accessibilityFocusManager:(id)arg1 didUpdateFrontmostFocusedElement: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)initWithTextProvider:wordTokenzierUnit: /* Error: Ran out of types for this method. */;
+- (_Bool)applicationWithProcessSerialNumber:applicationIdentifier: /* Error: Ran out of types for this method. */;
+- (id)actionWithName:uiElement: /* Error: Ran out of types for this method. */;
+- (id)_readableContentOfElement:(unsigned short)arg1 topLevelElement:(id)arg2 visitedChildren:(unsigned long long)arg3 currentReadableContents:(_Bool)arg4 depth:(id)arg5;
+- (id)_readableContentForElement:(unsigned short)arg1 windowElement:(id)arg2 topLevelElement:(unsigned long long)arg3;
 - (id);
 - (unsigned long long);
 - (unsigned short);
-- (unsigned short)tNode:domain:properties: /* Error: Ran out of types for this method. */;
-- (void)textual;
+- (unsigned short)initWithLabel:sourceNode:targetNode:domain:properties: /* Error: Ran out of types for this method. */;
+- (void)PHSharingStreamContextual;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *intervalsPresent; // @synthesize intervalsPresent=_intervalsPresent;
-@property(readonly, nonatomic) _Bool isMandatoryForKeyAsset; // @synthesize isMandatoryForKeyAsset=_isMandatoryForKeyAsset;
-@property(readonly, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
-@property(readonly, nonatomic) PGGraphNode<PGGraphLocationOrArea> *locationNode; // @synthesize locationNode=_locationNode;
-@property(readonly, nonatomic) unsigned long long numberOfAssets; // @synthesize numberOfAssets=_numberOfAssets;
-@property(readonly, nonatomic) PGGraphPersonNode *personNode; // @synthesize personNode=_personNode;
 @property(readonly, nonatomic) unsigned short subtype; // @synthesize subtype=_subtype;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
 
 @end
 

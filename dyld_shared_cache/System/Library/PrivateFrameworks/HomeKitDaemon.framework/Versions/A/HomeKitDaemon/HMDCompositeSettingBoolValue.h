@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ntifier via resident for access code identifier:%@ accessoryUUID:%@ /* Error: Ran out of types for this method. */;
-- (id)ey;
+- (id)HMDStateEventCompletionKey;
 
 // Remaining properties
 @property(readonly) _Bool boolValue; // @synthesize boolValue=_boolValue;

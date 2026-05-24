@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptionRubyInternal
 {
     NSString *text;
-    long long position;
-    long long alignment;
 }
 
 @end

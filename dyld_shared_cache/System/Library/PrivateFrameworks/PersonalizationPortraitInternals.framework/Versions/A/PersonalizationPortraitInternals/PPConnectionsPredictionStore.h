@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PPConnectionsCalendarSource, PPConnectionsDuetSource, PPConnectionsFoundInAppsSource, PPConnectionsMetricsTracker, PPConnectionsNamedEntitySource, PPConnectionsParameters, PPConnectionsPasteboardSource;
-@protocol OS_dispatch_queue;
+@class PPConnectionsParameters;
 
 @interface PPConnectionsPredictionStore
 {
     PPConnectionsParameters *_parameters;
-    PPConnectionsPasteboardSource *_pasteboardSource;
-    PPConnectionsCalendarSource *_calendarSource;
-    PPConnectionsDuetSource *_duetSource;
-    PPConnectionsNamedEntitySource *_namedEntitySource;
-    PPConnectionsFoundInAppsSource *_fiaSource;
-    PPConnectionsMetricsTracker *_metricsTracker;
-    NSObject<OS_dispatch_queue> *_predictionQueue;
 }
 
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)D;
 - (id);
 - (void)edAt:isOutgoingDocument: /* Error: Ran out of types for this method. */;
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContact, _INPBCurrencyAmount, _INPBIntentMetadata, _INPBString;
+@class _INPBCurrencyAmount, _INPBIntentMetadata;
 
 @protocol _INPBRequestPaymentIntent
-- (_Bool)nableCooling;
+- (void)iveInput",R,N;
+- (_INPBIntentMetadata *)@;
+- (_Bool)hasEnableCooling;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmount *currencyAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(readonly, nonatomic) _Bool hasPayer;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBString *note;
-@property(retain, nonatomic) _INPBContact *payer;
 @end
 

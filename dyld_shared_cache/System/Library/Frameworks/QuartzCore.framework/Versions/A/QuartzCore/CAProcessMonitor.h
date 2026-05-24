@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, RBSProcessMonitor;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CAProcessMonitor
 {
     CDUnknownBlockType _callback;
-    RBSProcessMonitor *_processMonitor;
-    NSMutableSet *_processIdentifiers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

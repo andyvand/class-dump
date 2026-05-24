@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPersona;
 @protocol CKDOperationInfoDelegate;
 
 @interface CKDOperationInfoDelegateWrapper
 {
     id <CKDOperationInfoDelegate> _delegate;
-    CKPersona *_persona;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
-- (void)eResponse;
+- (void)userPrivacySettingsUpdateResponse;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKDOperationInfoDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CKPersona *persona; // @synthesize persona=_persona;
 
 @end
 

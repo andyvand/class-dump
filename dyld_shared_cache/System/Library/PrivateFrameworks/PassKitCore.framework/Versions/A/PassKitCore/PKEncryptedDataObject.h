@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKEncryptedDataObject
 {
     unsigned long long _version;
-    NSData *_ephemeralPublicKey;
-    NSData *_publicKeyHash;
-    NSData *_data;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
+- (id)d;
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)hasTotalMessages;
+- (void)wA;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) NSData *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface PKPaymentActivationResponse : PKPaymentWebServiceResponse
 {
     NSString *_stepIdentifier;
-    NSString *_previousStepIdentifier;
-    long long _verificationStatus;
-    NSDictionary *_requiredVerificationFieldData;
-    NSArray *_methodGroups;
-    NSURL *_passURL;
-    NSArray *_verificationChannels;
 }
 
 + (id);
@@ -28,19 +22,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ry:%@;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *methodGroups; // @synthesize methodGroups=_methodGroups;
-@property(readonly, copy, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(readonly, copy, nonatomic) NSString *previousStepIdentifier; // @synthesize previousStepIdentifier=_previousStepIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *requiredVerificationFieldData; // @synthesize requiredVerificationFieldData=_requiredVerificationFieldData;
-@property(readonly, copy, nonatomic) NSString *stepIdentifier; // @synthesize stepIdentifier=_stepIdentifier;
 @property(copy, nonatomic) NSArray *verificationChannels; // @synthesize verificationChannels=_verificationChannels;
-@property(nonatomic) long long verificationStatus; // @synthesize verificationStatus=_verificationStatus;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface _BKAggregatedAssetData
 {
     NSURL *_url;
-    NSData *_opf;
-    NSData *_iTunesMetadata;
-    NSData *_sinf;
-    NSString *_opfPath;
 }
 
 - (void);
@@ -33,10 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *iTunesMetadata; // @synthesize iTunesMetadata=_iTunesMetadata;
-@property(retain, nonatomic) NSData *opf; // @synthesize opf=_opf;
-@property(retain, nonatomic) NSString *opfPath; // @synthesize opfPath=_opfPath;
-@property(retain, nonatomic) NSData *sinf; // @synthesize sinf=_sinf;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

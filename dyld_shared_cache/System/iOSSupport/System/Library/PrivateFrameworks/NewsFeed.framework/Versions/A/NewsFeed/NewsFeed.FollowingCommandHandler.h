@@ -7,13 +7,10 @@
 @interface NewsFeed.FollowingCommandHandler
 {
     id subscriptionController;
-    id followingManager;
-    id commandCenter;
-    id featureAvailability;
 }
 
 - (void);
-- (id);
+- (id)P;
 - (void);
 
 @end

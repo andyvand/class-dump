@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISPasteVariant
 {
     unsigned int _secureName;
-    SEL _selector;
-    NSString *_actionIdentifier;
-    NSString *_glyph;
-    NSString *_keyInput;
-    long long _keyModifierFlags;
 }
 
++ (id)L;
 + (id);
-+ (id);
-+ (id);
++ (id)qK;
 + (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)raint;
 - (unsigned int);
 - (id);
 - (id);
@@ -31,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, nonatomic) NSString *glyph; // @synthesize glyph=_glyph;
-@property(readonly, nonatomic) NSString *keyInput; // @synthesize keyInput=_keyInput;
-@property(readonly, nonatomic) long long keyModifierFlags; // @synthesize keyModifierFlags=_keyModifierFlags;
 @property(readonly, nonatomic) unsigned int secureName; // @synthesize secureName=_secureName;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
 
 @end
 

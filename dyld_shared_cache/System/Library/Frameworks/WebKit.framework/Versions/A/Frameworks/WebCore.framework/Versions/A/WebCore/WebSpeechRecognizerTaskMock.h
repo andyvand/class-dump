@@ -10,16 +10,11 @@ __attribute__((visibility("hidden")))
 @interface WebSpeechRecognizerTaskMock : WebSpeechRecognizerTask
 {
     struct Markable<WTF::ObjectIdentifierGeneric<WebCore::SpeechRecognitionConnectionClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::SpeechRecognitionConnectionClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>> _identifier;
-    struct BlockPtr<void (const WebCore::SpeechRecognitionUpdate &)> _delegateCallback;
-    _Bool _doMultipleRecognitions;
-    _Bool _hasSentSpeechStart;
-    _Bool _hasSentSpeechEnd;
-    _Bool _completed;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)__objc_arraydata__DATA_CONST;
 - (id);
 - (void)M.hasilsdyharéïßÅ®	
 	

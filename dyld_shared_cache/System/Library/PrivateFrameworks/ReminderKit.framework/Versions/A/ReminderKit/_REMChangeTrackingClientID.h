@@ -9,30 +9,21 @@
 @interface _REMChangeTrackingClientID
 {
     NSString *_clientName;
-    NSString *_accountIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)nload complete;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)le stopping leeching low confidence visits, error, %@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

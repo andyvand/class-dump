@@ -5,5 +5,7 @@
 //
 
 @protocol CKModifyRecordsOperationCallbacks
+- (void);
+- (void));
 @end
 

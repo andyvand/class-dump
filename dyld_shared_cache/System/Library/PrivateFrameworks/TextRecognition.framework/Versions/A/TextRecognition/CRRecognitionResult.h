@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CRRecognitionResult
 {
     struct os_unfair_lock_s _mapUpdateLock;
-    NSMutableDictionary *_detectorRecognizerResultMap;
-    NSMutableArray *_detectedLineRegions;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -22,14 +20,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)DD;
 - (id);
 - (id);
 - (id);
 - (void)ned int, int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, int>>>="__tree_"{__tree<std::__value_type<unsigned int, int>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, int>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, int>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableArray *detectedLineRegions; // @synthesize detectedLineRegions=_detectedLineRegions;
 @property(retain) NSMutableDictionary *detectorRecognizerResultMap; // @synthesize detectorRecognizerResultMap=_detectorRecognizerResultMap;
 
 @end

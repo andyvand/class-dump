@@ -5,5 +5,8 @@
 //
 
 @protocol HMDFetchedSettingsDriverDelegate
+- (void)PReceiverETAControllerDelegate>",W,N,V_delegate;
+- (void)V_updatedObject;
+- (void)N;
 @end
 

@@ -4,58 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface TIUserModelDataStore
 {
     NSString *_path;
-    struct sqlite3 *_user_model_db;
-    _Bool _user_model_db_failed;
-    NSObject<OS_dispatch_queue> *_database_queue;
 }
 
 - (id);
 - (id);
 - (int);
 - (void);
+- (_Bool)pingWithCompletion: /* Error: Ran out of types for this method. */;
+- (int)evaluateWithObject:(struct sqlite3 *)arg1;
+- (id);
+- (id)G;
+- (id);
+- (int);
+- (id);
+- (id)_lazyMergePropertyMap;
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (int));
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (int);
+- (id);
+- (int);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)E;
+- (id);
+- (_Bool);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -66,23 +62,10 @@
 À
 ¸
 ;
-- (id)cuse;
+- (id)accuse;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *durableLastMigrationDate;
-@property(readonly) int durableVersion;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isValid;
-@property(readonly) NSDate *propertiesLastMigrationDate;
-@property(readonly) int propertiesVersion;
-@property(readonly) Class superclass;
-@property(readonly) NSDate *transientLastMigrationDate;
-@property(readonly) int transientVersion;
 
 @end
 

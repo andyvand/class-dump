@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXAssetsAction.h>
 
-@class NSDate, NSDictionary, NSTimeZone;
+@class NSDate;
 
 @interface PXChangeAssetDateAction : PXAssetsAction
 {
     NSDate *_changeDate;
-    double _dateOffset;
-    NSTimeZone *_timeZone;
-    NSDictionary *_originalDateByLocalIdentifier;
-    NSDictionary *_originalTimeZoneByLocalIdentifier;
 }
 
 - (void);
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *changeDate; // @synthesize changeDate=_changeDate;
-@property(readonly, nonatomic) double dateOffset; // @synthesize dateOffset=_dateOffset;
-@property(retain, nonatomic) NSDictionary *originalDateByLocalIdentifier; // @synthesize originalDateByLocalIdentifier=_originalDateByLocalIdentifier;
-@property(retain, nonatomic) NSDictionary *originalTimeZoneByLocalIdentifier; // @synthesize originalTimeZoneByLocalIdentifier=_originalTimeZoneByLocalIdentifier;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CDPStateUIProvider
+- (void)J;
+
+@optional
+- (void);
 @end
 

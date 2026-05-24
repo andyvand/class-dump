@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSData;
 
 @interface NWTLSParameters
 {
     NSData *_TLSSessionID;
-    NSSet *_SSLCipherSuites;
-    unsigned long long _minimumSSLProtocolVersion;
-    unsigned long long _maximumSSLProtocolVersion;
 }
 
-- (void);
+- (void)httppackage_appendCustomHeaderField;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)doll;
 - (void);
-- (void);
+- (void)ream;
 - (id);
 - (unsigned long long);
 - (void)Q+,ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy) NSSet *SSLCipherSuites; // @synthesize SSLCipherSuites=_SSLCipherSuites;
 @property(copy) NSData *TLSSessionID; // @synthesize TLSSessionID=_TLSSessionID;
-@property unsigned long long maximumSSLProtocolVersion; // @synthesize maximumSSLProtocolVersion=_maximumSSLProtocolVersion;
-@property unsigned long long minimumSSLProtocolVersion; // @synthesize minimumSSLProtocolVersion=_minimumSSLProtocolVersion;
 
 @end
 

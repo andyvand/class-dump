@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSClickGestureRecognizer, NSImageView, NSString;
+@class NSClickGestureRecognizer, NSImageView;
 
 @interface IKCameraCollectionViewItem
 {
     NSImageView *_imageView;
-    NSClickGestureRecognizer *_clickGestureRecognizer;
-    NSClickGestureRecognizer *_doubleClick;
-    CALayer *_selectedLayer;
-    CALayer *_downloadedLayer;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,38 +22,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)currentUserWithCompletion:(long long)arg1;
+- (_Bool)Settings.allLimitsEnabled;
+- (id)_֙;
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool)canArea;
+- (void);
+- (_Bool)_scanArea;
 
 // Remaining properties
 @property(retain, nonatomic) NSClickGestureRecognizer *clickGestureRecognizer; // @synthesize clickGestureRecognizer=_clickGestureRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSClickGestureRecognizer *doubleClick; // @synthesize doubleClick=_doubleClick;
-@property(retain, nonatomic) CALayer *downloadedLayer; // @synthesize downloadedLayer=_downloadedLayer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CALayer *selectedLayer; // @synthesize selectedLayer=_selectedLayer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,43 +7,6 @@
 @interface BlastDoor.CSDMProtoCall._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _uniqueProxyIdentifier;
-    id _protoStatus;
-    id _protoConferenced;
-    id _destinationID;
-    id _sourceIdentifier;
-    id _protoService;
-    id _protoWantsHoldMusic;
-    id _protoDisconnectedReason;
-    id _protoVoicemail;
-    id _callerNameFromNetwork;
-    id _protoTimeConnected;
-    id _protoOutgoing;
-    id _protoShouldSuppressRingtone;
-    id _protoNeedsManualInCallSounds;
-    id _protoSoundRegion;
-    id _protoEmergency;
-    id _protoHasSentInvitation;
-    id _handle;
-    id _protoSos;
-    id _protoProvider;
-    id _protoVideo;
-    id _protoUplinkMuted;
-    id _protoCallModel;
-    id _localSenderIdentityUuidstring;
-    id _remoteParticipantHandles;
-    id _localSenderIdentityAccountUuidstring;
-    id _protoTtytype;
-    id _protoSupportsTtywithVoice;
-    id _isoCountryCode;
-    id _protoOriginatingUitype;
-    id _protoFailureExpected;
-    id _protoSupportsEmergencyFallback;
-    id _groupUuidstring;
-    id _protoSupportsDtmfupdates;
-    id _conversationGroupUuidstring;
-    id _protoReceptionistCapable;
-    id _protoCallerIdblocked;
-    id _protoVerificationStatus;
 }
 
 @end

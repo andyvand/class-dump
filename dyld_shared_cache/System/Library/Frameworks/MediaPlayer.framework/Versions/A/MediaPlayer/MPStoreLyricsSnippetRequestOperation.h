@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface MPStoreLyricsSnippetRequestOperation : MPAsyncOperation
 {
     MPStoreLyricsSnippetURLComponents *_snippetURL;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void)teLock;
+- (void)_stateLock;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(retain, nonatomic) MPStoreLyricsSnippetURLComponents *snippetURL; // @synthesize snippetURL=_snippetURL;
 
 @end

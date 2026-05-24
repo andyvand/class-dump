@@ -8,13 +8,6 @@
 {
     id idContext;
     id preset;
-    id environment;
-    id position;
-    id defaultFormatter;
-    id measurements;
-    id valueID;
-    id valueType;
-    id value;
 }
 
 @end

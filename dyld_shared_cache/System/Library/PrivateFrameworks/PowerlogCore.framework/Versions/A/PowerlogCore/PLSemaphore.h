@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableSet, NSString;
+@class NSCondition;
 
 @interface PLSemaphore
 {
     double _timeout;
-    NSMutableSet *_interestedObjects;
-    NSMutableSet *_pendingDoneObjects;
-    NSString *_key;
-    NSCondition *_pendingObjectsLock;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)W;
 - (id);
 - (void);
 - (void);
@@ -37,12 +33,7 @@
 - (void)id;
 
 // Remaining properties
-@property(retain) NSMutableSet *interestedObjects; // @synthesize interestedObjects=_interestedObjects;
-@property(readonly) _Bool isActive;
-@property(retain) NSString *key; // @synthesize key=_key;
-@property(retain) NSMutableSet *pendingDoneObjects; // @synthesize pendingDoneObjects=_pendingDoneObjects;
 @property(retain) NSCondition *pendingObjectsLock; // @synthesize pendingObjectsLock=_pendingObjectsLock;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

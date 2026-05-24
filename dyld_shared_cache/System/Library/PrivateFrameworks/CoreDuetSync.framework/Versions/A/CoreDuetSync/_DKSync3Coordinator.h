@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
-@protocol OS_os_transaction, _DKSyncRemoteContextStorage;
+@class NSUUID;
 
 @interface _DKSync3Coordinator
 {
     unsigned long long _watchingDeviceTypes;
-    NSObject<OS_os_transaction> *_watchingDevicesTransaction;
-    id <_DKSyncRemoteContextStorage> _transportMDCSRapport;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)"16@"MSASAlbum"24@"NSDictionary"32@"NSError"40@"NSString"48;
+- (void)ERROR_MODEL_CANNOT_SET_MULTIPLECONTRIBUTORS;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -24,10 +21,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)service:account:incomingPendingMessageOfType:fromID:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)applePayments_PaymentAccountAttribute_PaymentsAttributeCashed;
 - (void);
 - (void);
 - (_Bool);
@@ -43,7 +40,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -51,7 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *deviceUUID;
-@property(retain, nonatomic) id <_DKSyncRemoteContextStorage> transportMDCSRapport; // @synthesize transportMDCSRapport=_transportMDCSRapport;
 
 @end
 

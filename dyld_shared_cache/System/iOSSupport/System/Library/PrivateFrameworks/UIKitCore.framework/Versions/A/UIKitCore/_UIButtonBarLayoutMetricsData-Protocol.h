@@ -9,13 +9,9 @@
 @protocol _UIButtonBarLayoutMetricsData
 - (NSLayoutDimension *)× ;
 - (_Bool)Point=dd}32{CGPoint=dd}48q64@72@80@?88@?96;
-- (_UIButtonBarLayoutMetrics *)terfaceActionRepresentation;
+- (_UIButtonBarLayoutMetrics *)__interfaceActionRepresentation;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsViewWrappers;
-@property(readonly, nonatomic) NSLayoutDimension *flexibleSpaceGuide;
-@property(readonly, nonatomic) NSLayoutDimension *groupSizeGuide;
-@property(readonly, nonatomic) NSLayoutDimension *minimumSpaceGuide;
 @property(readonly, nonatomic) NSLayoutDimension *verticalSizeGuide;
 @end
 

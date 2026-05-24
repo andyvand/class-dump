@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface WBSForYouTopic
 {
     NSString *_title;
-    NSString *_identifier;
-    NSArray *_associatedTopics;
-    NSDate *_relevancyDate;
-    unsigned long long _source;
 }
 
 - (void);
@@ -20,16 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)s;
+- (id)~;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *associatedTopics; // @synthesize associatedTopics=_associatedTopics;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDate *relevancyDate; // @synthesize relevancyDate=_relevancyDate;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

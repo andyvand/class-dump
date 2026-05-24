@@ -18,10 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) CDStruct_c0454aff appearanceIndexes;
-@property(nonatomic, readonly) _Bool canSelectAppearance;
 @property(nonatomic, readonly) long long kind;
-@property(nonatomic, readonly) _Bool usesLocationServices;
 
 @end
 

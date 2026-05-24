@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface _PASAsset2GuardedData
 {
     NSString *_defaultBundlePath;
-    unsigned long long _defaultBundleVersion;
-    unsigned long long _bestAvailableVersion;
-    unsigned long long _bestAssetVersionObserved;
-    MAAsset *_bestAvailableAsset;
-    _Bool _purgeObsoleteInstalledAssets;
-    NSMutableDictionary *_overrides;
 }
 
-- (void);
+- (void)setAction: /* Error: Ran out of types for this method. */;
 
 @end
 

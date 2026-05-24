@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDModuleLayoutEntry, NSArray, NSString;
-@protocol GEOModuleConfigurationProvider;
+@class GEOPDModuleLayoutEntry, NSString;
 
 @interface GEOModuleLayoutEntry
 {
     GEOPDModuleLayoutEntry *_moduleLayoutEntry;
-    id <GEOModuleConfigurationProvider> _moduleConfigProvider;
 }
 
-+ (id);
++ (id)Introductions;
 - (id);
 - (void);
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *debugName;
-@property(readonly, nonatomic) NSArray *modules;
-@property(readonly, nonatomic) int renderingMode;
 
 @end
 

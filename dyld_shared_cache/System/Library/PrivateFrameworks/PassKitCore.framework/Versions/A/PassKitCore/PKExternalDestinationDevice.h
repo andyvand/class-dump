@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKExternalDestinationDevice
 {
     NSString *_identifier;
-    NSString *_serialNumber;
-    NSString *_name;
-    long long _eligibilityStatus;
-    NSString *_osType;
-    NSString *_model;
-    NSURL *_imageURL2x;
-    NSURL *_imageURL3x;
 }
 
 + (_Bool)X"°!ÀFùî%°1Â0@ù
@@ -28,35 +21,27 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)W;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)macAddrChanged;
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)_signRequestData:(id)arg1 forRequest:webService:completion: /* Error: Ran out of types for this method. */;
 - (id)decryptionSchemeVersion;
 - (void);
 - (void)¨¢ð¥¬©`ªX­l®p¯¤³(´¤´ô´lµH¶·¹Àº;
 - (id)'%@'; ;
-- (void)sh;
+- (void)confirmationBlobHash;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceClass;
-@property(readonly, nonatomic) long long eligibilityStatus; // @synthesize eligibilityStatus=_eligibilityStatus;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSURL *imageURL2x; // @synthesize imageURL2x=_imageURL2x;
-@property(retain, nonatomic) NSURL *imageURL3x; // @synthesize imageURL3x=_imageURL3x;
-@property(retain, nonatomic) NSString *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *osType; // @synthesize osType=_osType;
-@property(retain, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

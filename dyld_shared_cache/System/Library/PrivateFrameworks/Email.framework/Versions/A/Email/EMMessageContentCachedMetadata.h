@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol EMMessageContentCachedMetadataDelegate;
-
 @interface EMMessageContentCachedMetadata
 {
     struct os_unfair_lock_s _lock;
-    _Bool _didLogCachedMetadataError;
-    id <EMMessageContentCachedMetadataDelegate> _delegate;
-    NSMutableDictionary *_localCache;
 }
 
 - (_Bool);
@@ -25,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool showRemoteImages;
-@property(nonatomic) _Bool skipMessageReformatting;
 
 @end
 

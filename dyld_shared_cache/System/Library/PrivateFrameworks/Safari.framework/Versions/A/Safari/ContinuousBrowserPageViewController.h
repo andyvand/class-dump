@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ContinuousPageView, NSString, TabContentViewController;
+@class TabContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface ContinuousBrowserPageViewController
 {
     TabContentViewController *_tabContentViewController;
-    id _currentItem;
-    double _topContentInset;
 }
 
 - (double);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -28,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -37,24 +35,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void)Ø;
 - (double),;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) ContinuousPageView *continuousPageView;
 @property(retain, nonatomic) id currentItem; // @synthesize currentItem=_currentItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak TabContentViewController *tabContentViewController; // @synthesize tabContentViewController=_tabContentViewController;
-@property(nonatomic) double topContentInset; // @synthesize topContentInset=_topContentInset;
 
 @end
 

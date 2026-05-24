@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)prototypingServerWantsEvent:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

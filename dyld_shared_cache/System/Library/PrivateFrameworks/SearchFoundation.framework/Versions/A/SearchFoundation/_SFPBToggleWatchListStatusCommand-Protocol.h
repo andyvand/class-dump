@@ -7,10 +7,10 @@
 @class NSData, _SFPBWatchListItem;
 
 @protocol _SFPBToggleWatchListStatusCommand
+- (_SFPBWatchListItem *);
+- (NSData *)iorSpec",R,N,V_behaviorSpec;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldAddToWatchList;
 @property(retain, nonatomic) _SFPBWatchListItem *watchListItem;
 @end
 

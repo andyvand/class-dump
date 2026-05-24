@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFVoiceAnalytics;
-
 @interface SFSpeechRecognitionMetadata
 {
     double _speakingRate;
-    double _averagePauseDuration;
-    double _speechStartTimestamp;
-    double _speechDuration;
-    SFVoiceAnalytics *_voiceAnalytics;
 }
 
 + (_Bool);
@@ -27,22 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double averagePauseDuration; // @synthesize averagePauseDuration=_averagePauseDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double speakingRate; // @synthesize speakingRate=_speakingRate;
-@property(readonly, nonatomic) double speechDuration; // @synthesize speechDuration=_speechDuration;
-@property(readonly, nonatomic) double speechStartTimestamp; // @synthesize speechStartTimestamp=_speechStartTimestamp;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SFVoiceAnalytics *voiceAnalytics; // @synthesize voiceAnalytics=_voiceAnalytics;
 
 @end
 

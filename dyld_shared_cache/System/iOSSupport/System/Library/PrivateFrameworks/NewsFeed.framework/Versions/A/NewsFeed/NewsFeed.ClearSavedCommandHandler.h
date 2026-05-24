@@ -7,13 +7,10 @@
 @interface NewsFeed.ClearSavedCommandHandler
 {
     id readingList;
-    id isiCloudPrivateDataSyncingEnabled;
-    id sceneProvider;
-    id commandCenter;
 }
 
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 

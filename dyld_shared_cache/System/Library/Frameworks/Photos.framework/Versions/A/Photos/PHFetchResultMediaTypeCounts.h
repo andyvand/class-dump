@@ -7,20 +7,16 @@
 @interface PHFetchResultMediaTypeCounts
 {
     unsigned long long _photosCount;
-    unsigned long long _videosCount;
-    unsigned long long _audiosCount;
 }
 
 + (id);
-- (id);
-- (unsigned long long);
+- (id)24i28;
+- (unsigned long long)MPModelPropertyArtistAlbumCount;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long audiosCount; // @synthesize audiosCount=_audiosCount;
 @property(readonly, nonatomic) unsigned long long photosCount; // @synthesize photosCount=_photosCount;
-@property(readonly, nonatomic) unsigned long long videosCount; // @synthesize videosCount=_videosCount;
 
 @end
 

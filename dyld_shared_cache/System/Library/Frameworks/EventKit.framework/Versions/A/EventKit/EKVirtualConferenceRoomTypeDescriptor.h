@@ -9,17 +9,15 @@
 @interface EKVirtualConferenceRoomTypeDescriptor
 {
     NSString *_title;
-    NSString *_identifier;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)rtl;
+- (id)(;
 - (void)12'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

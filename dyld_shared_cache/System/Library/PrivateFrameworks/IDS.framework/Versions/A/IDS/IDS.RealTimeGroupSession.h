@@ -7,12 +7,6 @@
 @interface IDS.RealTimeGroupSession
 {
     id idsGroupSession;
-    id internalDelegateWrapper;
-    id joinContinuations;
-    id leaveContinuations;
-    id groupID;
-    id state;
-    id actorProvider;
 }
 
 @end

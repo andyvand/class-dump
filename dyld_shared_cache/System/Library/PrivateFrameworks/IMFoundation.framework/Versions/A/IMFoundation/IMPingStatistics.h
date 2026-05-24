@@ -7,15 +7,6 @@
 @interface IMPingStatistics
 {
     double _sumRoundtripTimes;
-    int _numPacketsSuccessfullySent;
-    int _numPingsTransmitted;
-    int _numPingsReceived;
-    int _packetsSuccessfullySent;
-    double _medianRoundtripTime;
-    double _averageRoundtripTime;
-    double _minRoundtripTime;
-    double _maxRoundtripTime;
-    double _standardDeviationRoundtripTime;
 }
 
 - (double);
@@ -38,15 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double averageRoundtripTime; // @synthesize averageRoundtripTime=_averageRoundtripTime;
-@property(nonatomic, setter=_setMaxRoundtripTime:) double maxRoundtripTime; // @synthesize maxRoundtripTime=_maxRoundtripTime;
 @property(nonatomic, setter=_setMedianRoundtripTime:) double medianRoundtripTime; // @synthesize medianRoundtripTime=_medianRoundtripTime;
-@property(nonatomic, setter=_setMinRoundtripTime:) double minRoundtripTime; // @synthesize minRoundtripTime=_minRoundtripTime;
-@property(readonly, nonatomic) int numPingsReceived; // @synthesize numPingsReceived=_numPingsReceived;
-@property(readonly, nonatomic) int numPingsTransmitted; // @synthesize numPingsTransmitted=_numPingsTransmitted;
-@property(readonly, nonatomic) double packetLossRate;
-@property(readonly, nonatomic) int packetsSuccessfullySent; // @synthesize packetsSuccessfullySent=_packetsSuccessfullySent;
-@property(nonatomic, setter=_setStandardDeviationRoundtripTime:) double standardDeviationRoundtripTime; // @synthesize standardDeviationRoundtripTime=_standardDeviationRoundtripTime;
 
 @end
 

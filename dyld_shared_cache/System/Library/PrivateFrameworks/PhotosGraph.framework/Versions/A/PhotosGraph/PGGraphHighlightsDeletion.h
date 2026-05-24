@@ -13,11 +13,11 @@
     NSSet *_highlightUUIDs;
 }
 
+- (id)=4;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (void)ateIncompatible;
+- (void)numberOfAssetsWithSyndicationStateIncompatible;
 - (unsigned long long);
 
 // Remaining properties

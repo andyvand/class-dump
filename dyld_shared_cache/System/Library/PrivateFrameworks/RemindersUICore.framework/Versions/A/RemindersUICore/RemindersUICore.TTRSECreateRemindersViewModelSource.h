@@ -7,14 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersViewModelSource
 {
     id remindersListTree;
-    id suggestedRemindersState;
-    id delegate;
-    id displayMode;
-    id undoContextProvider;
-    id displayUpdater;
-    id cellEditModeState;
-    id $__lazy_storage_$_placeholderRemindersBatchCommitter;
-    id currentPresentationTreeTransaction;
 }
 
 @end

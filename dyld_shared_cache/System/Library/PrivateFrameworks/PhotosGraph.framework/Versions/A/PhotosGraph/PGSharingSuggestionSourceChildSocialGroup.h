@@ -10,10 +10,10 @@
 {
 }
 
-- (id);
+- (id)B;
 - (id);
 - (double);
-- (id)erformance;
+- (id)MusicForArtistPruneSourcesPerformance;
 
 @end
 

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgress, NSString;
+@class NSString;
 
 @interface NSApplicationExtensionSession
 {
 }
 
-- (id);
+- (id)ate:cannot initWithOriginalRequest with nil request /* Error: Ran out of types for this method. */;
 - (void);
 - (id)psForView was neither an array nor a single tool tip?;
 - (void)mouse location {%f, %f};
@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(readonly) NSString *extensionType;
-@property(readonly) NSArray *inputItems;
-@property(retain) NSProgress *progress;
 
 @end
 

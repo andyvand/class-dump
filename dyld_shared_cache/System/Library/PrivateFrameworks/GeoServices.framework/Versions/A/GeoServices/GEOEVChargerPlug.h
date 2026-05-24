@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlug, NSString;
+@class GEOPDPlug;
 
 @interface GEOEVChargerPlug
 {
     GEOPDPlug *_pdPlug;
 }
 
-+ (id);
++ (id)unrecognized CNTCCType;
 - (unsigned long long);
-- (int);
+- (int)__gcc_except_tab__TEXT;
 - (unsigned long long);
-- (id);
-- (id);
-- (int);
+- (id)_CNCacheFixedCapacityBoundingStrategy;
+- (id)_CNDataURLSessionTaskAdapter;
+- (int)_CNMainThreadScheduler;
 - (unsigned long long);
 - (id);
 - (void)Äï4;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long availableNumberOfChargers;
 @property(readonly, nonatomic) int connectorType;
-@property(readonly, nonatomic) NSString *connectorTypeDisplayText;
-@property(readonly, nonatomic) NSString *currentTypeDisplayText;
-@property(readonly, nonatomic) unsigned long long powerWatts;
-@property(readonly, nonatomic) int realtimeStatus;
-@property(readonly, nonatomic) unsigned long long totalNumberOfChargers;
 
 @end
 

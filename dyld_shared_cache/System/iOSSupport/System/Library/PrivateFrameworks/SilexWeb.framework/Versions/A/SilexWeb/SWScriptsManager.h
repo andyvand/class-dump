@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, WKWebView;
-@protocol SWLogger;
+@class WKWebView;
 
 @interface SWScriptsManager
 {
     _Bool _readyToExecuteScripts;
-    WKWebView *_webView;
-    id <SWLogger> _logger;
-    NSMutableArray *_queuedExecutableScripts;
-    NSMutableDictionary *_scripts;
 }
 
 - (void);
@@ -36,17 +31,6 @@
 - (id)hÕ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSMutableArray *queuedExecutableScripts; // @synthesize queuedExecutableScripts=_queuedExecutableScripts;
-@property(nonatomic) _Bool readyToExecuteScripts; // @synthesize readyToExecuteScripts=_readyToExecuteScripts;
-@property(readonly, nonatomic) NSMutableDictionary *scripts; // @synthesize scripts=_scripts;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

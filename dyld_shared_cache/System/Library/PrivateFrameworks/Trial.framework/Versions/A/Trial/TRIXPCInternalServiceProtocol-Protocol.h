@@ -5,5 +5,8 @@
 //
 
 @protocol TRIXPCInternalServiceProtocol
+- (void)safari_stringByNormalizingVersionString;
+- (void)ror"16;
+- (void);
 @end
 

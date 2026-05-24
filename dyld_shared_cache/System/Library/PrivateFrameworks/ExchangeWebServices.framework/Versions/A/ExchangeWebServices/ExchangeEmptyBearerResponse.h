@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface ExchangeEmptyBearerResponse
 {
     NSString *_authURI;
-    long long _statusCode;
-    NSError *_error;
 }
 
 + (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authURI; // @synthesize authURI=_authURI;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

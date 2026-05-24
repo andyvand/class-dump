@@ -9,8 +9,6 @@
 @interface CNUISetMultipleImagesCommand : CNUIUndoableCommand
 {
     _Bool _shouldSave;
-    CDUnknownBlockType _didExecuteBlock;
-    CNUIUndoableCommand *_aggregateCommand;
 }
 
 + (id);
@@ -18,20 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
+- (void)t;
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNUIUndoableCommand *aggregateCommand; // @synthesize aggregateCommand=_aggregateCommand;
-@property(copy, nonatomic) CDUnknownBlockType didExecuteBlock; // @synthesize didExecuteBlock=_didExecuteBlock;
 @property(nonatomic) _Bool shouldSave; // @synthesize shouldSave=_shouldSave;
 
 @end

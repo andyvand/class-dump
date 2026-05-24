@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceRingerSwitchObserver, AFSiriAudioRoute, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AFSiriAudioRoute, NSString;
 
 @interface AFSiriAudioRouteMonitor
 {
     NSString *_btAddress;
-    NSString *_routeName;
-    AFDeviceRingerSwitchObserver *_ringerSwitchObserver;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_delegates;
-    CDUnknownBlockType _pickedRoutesChangedBlock;
-    AFSiriAudioRoute *_currentAudioRoute;
 }
 
 + (id);
@@ -24,10 +17,10 @@
 - (void);
 - (id);
 - (void);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)passbook.cloudstore.pcs-error;
 - (void);
 - (id);
 - (void);
@@ -36,13 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AFSiriAudioRoute *currentAudioRoute; // @synthesize currentAudioRoute=_currentAudioRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

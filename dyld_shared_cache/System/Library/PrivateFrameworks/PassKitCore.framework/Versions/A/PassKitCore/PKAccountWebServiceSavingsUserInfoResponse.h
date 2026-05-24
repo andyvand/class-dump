@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)ier;
+- (void)fundingSourceIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PKSavingsAccountUserInfo *userInfo; // @synthesize userInfo=_userInfo;

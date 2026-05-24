@@ -11,8 +11,8 @@
 }
 
 + (_Bool)Attempted to dequeue a cell for a nil index path;
-- (id);
-- (long long)esture:(_Bool)arg1;
+- (id);
+- (long long)_handleGesture:(_Bool)arg1;
 - (id);
 - (long long)hõh;
 

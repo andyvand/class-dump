@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface PKIssuerBindingData
 {
     NSString *_sessionIdentifier;
-    NSData *_createdKeyHash;
-    NSData *_signedData;
-    NSURL *_callbackURL;
 }
 
 + (_Bool)î%1Â0@ù
 × ;
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
+- (void)setTcpECNRecvECE:(id)arg1;
+- (_Bool)setAutoFillInteractionType:(id)arg1;
+- (void)isCallUpgrade;
 - (id);
 - (void)contactMethod;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *callbackURL; // @synthesize callbackURL=_callbackURL;
-@property(copy, nonatomic) NSData *createdKeyHash; // @synthesize createdKeyHash=_createdKeyHash;
 @property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(copy, nonatomic) NSData *signedData; // @synthesize signedData=_signedData;
 
 @end
 

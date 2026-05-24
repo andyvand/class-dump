@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, QCBooleanPort, QCIndexPort, QCPatch, QCStructurePort;
+@class QCPatch;
 
 @interface QCSlideShowController
 {
     QCPatch *_patch;
-    QCBooleanPort *_signalPort;
-    QCStructurePort *_structurePort;
-    QCIndexPort *_countPort;
-    QCIndexPort *_swapPort;
-    id _source;
-    _Bool _hasNames;
-    NSMutableArray *_imageCache;
-    struct _NSRange _imageRange;
-    unsigned long long _imageSwap;
-    _Bool _updating;
-    unsigned long long _pendingLoads;
-    void *_unused[4];
 }
 
 - (id);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)user_version = 1450090;;
 - (void);
 
 @end

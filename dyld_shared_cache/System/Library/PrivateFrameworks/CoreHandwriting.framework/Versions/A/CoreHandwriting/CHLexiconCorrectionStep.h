@@ -6,30 +6,13 @@
 
 #import <CoreHandwriting/CHPostprocessingStep.h>
 
-@class CHSpellChecker, CHStringOVSChecker, NSCharacterSet, NSDictionary, NSLocale;
-
 @interface CHLexiconCorrectionStep : CHPostprocessingStep
 {
     _Bool _shouldAutoCapitalize;
-    _Bool _shouldAutoCorrect;
-    _Bool _shouldCreatePseudoTokens;
-    int _autoCapitalizationMode;
-    NSLocale *_locale;
-    ObjectRef_c4ceabc4 _customLexicon;
-    ObjectRef_c4ceabc4 _phraseLexicon;
-    ObjectRef_c4ceabc4 _customPhraseLexicon;
-    void *_lmVocabulary;
-    CHStringOVSChecker *_ovsStringChecker;
-    CHSpellChecker *_spellChecker;
-    NSDictionary *_textReplacements;
-    NSCharacterSet *_consumableStrokesCharSet;
-    NSCharacterSet *_fullWidthPunctuationThatExpectsUppercaseAfter;
-    NSCharacterSet *_punctuationThatExpectsUppercaseAfter;
-    ObjectRef_c4ceabc4 _staticLexicon;
 }
 
 + (id);
-- (ObjectRef_c4ceabc4);
+- (ObjectRef_ceed0876);
 - (void);
 - (id);
 - (id);
@@ -37,7 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) ObjectRef_c4ceabc4 staticLexicon; // @synthesize staticLexicon=_staticLexicon;
+@property(nonatomic) ObjectRef_ceed0876 staticLexicon; // @synthesize staticLexicon=_staticLexicon;
 
 @end
 

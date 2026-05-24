@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PHAssetResource, PHAssetResourceRequestOptions;
-@protocol PHAssetResourceRequestDelegate;
+@class NSDictionary, NSString, PHAssetResource;
 
 @protocol PHAssetResourceRequest
+- (int)KEY, %@ REAL, %@ INTEGER, %@ BLOB);;
+- (void)`";
+- (NSDictionary *)_init;
 - (_Bool)dicate"16;
 - (NSString *)"24;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetResource *assetResource;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler;
-@property(readonly, nonatomic) __weak id <PHAssetResourceRequestDelegate> delegate;
-@property(readonly, nonatomic) NSDictionary *info;
-@property(readonly, nonatomic) unsigned long long managerID;
-@property(readonly, nonatomic) PHAssetResourceRequestOptions *options;
-@property(readonly, nonatomic) int requestID;
-@property(copy, nonatomic) NSString *taskIdentifier;
 @end
 

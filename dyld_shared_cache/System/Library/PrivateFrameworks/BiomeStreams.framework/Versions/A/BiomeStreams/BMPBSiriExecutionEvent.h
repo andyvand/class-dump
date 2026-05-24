@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSiriExecutionEvent
 {
     double _absoluteTimestamp;
-    NSString *_appBundleId;
-    NSString *_intentName;
-    NSString *_interactionId;
-    NSString *_slotValue;
-    NSString *_statusReason;
-    NSString *_taskId;
-    int _taskStep;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int taskStep:1;
-    } _has;
 }
 
 - (id);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (void);
 - (int);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setCredentialsUUID:originator:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -62,22 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasAppBundleId;
-@property(readonly, nonatomic) _Bool hasIntentName;
-@property(readonly, nonatomic) _Bool hasInteractionId;
-@property(readonly, nonatomic) _Bool hasSlotValue;
-@property(readonly, nonatomic) _Bool hasStatusReason;
 @property(readonly, nonatomic) _Bool hasTaskId;
-@property(nonatomic) _Bool hasTaskStep;
-@property(retain, nonatomic) NSString *intentName; // @synthesize intentName=_intentName;
-@property(retain, nonatomic) NSString *interactionId; // @synthesize interactionId=_interactionId;
-@property(retain, nonatomic) NSString *slotValue; // @synthesize slotValue=_slotValue;
-@property(retain, nonatomic) NSString *statusReason; // @synthesize statusReason=_statusReason;
-@property(retain, nonatomic) NSString *taskId; // @synthesize taskId=_taskId;
-@property(nonatomic) int taskStep; // @synthesize taskStep=_taskStep;
 
 @end
 

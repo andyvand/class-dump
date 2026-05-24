@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)iftUniformTypeIdentifiers.dylib;
 
 @end
 

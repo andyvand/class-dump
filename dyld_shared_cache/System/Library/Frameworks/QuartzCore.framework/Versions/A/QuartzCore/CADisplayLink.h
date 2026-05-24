@@ -13,22 +13,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
-@property(readonly, nonatomic) long long actualFramesPerSecond;
 @property(readonly, nonatomic) CADisplay *display;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) long long frameInterval;
-@property(readonly, nonatomic) double heartbeatRate;
-@property unsigned int highFrameRateReason;
-@property double localEarlyWakeupOffset;
-@property(readonly, nonatomic) double maximumRefreshRate;
-@property(readonly, nonatomic) long long minimumFrameDuration;
-@property(nonatomic, getter=isPaused) _Bool paused;
-@property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
-@property(nonatomic) long long preferredFramesPerSecond;
-@property(nonatomic) long long priority;
-@property(readonly, nonatomic) double targetTimestamp;
-@property(readonly, nonatomic) double timestamp;
-@property(retain, nonatomic) id userInfo;
 @end
 

@@ -5,18 +5,16 @@
 //
 
 @class CHRecognitionSession;
-@protocol CHVisualizationDelegate;
 
 @interface CHVisualization
 {
     CHRecognitionSession *_recognitionSession;
-    id <CHVisualizationDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)O;
 - (long long);
 - (id);
 - (void);
@@ -25,10 +23,7 @@
 - (void)g;
 
 // Remaining properties
-@property(nonatomic) __weak id <CHVisualizationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) long long layeringPriority;
-@property(readonly, nonatomic) CHRecognitionSession *recognitionSession; // @synthesize recognitionSession=_recognitionSession;
-@property(readonly, nonatomic) _Bool wantsInputDrawings;
 
 @end
 

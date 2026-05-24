@@ -5,5 +5,8 @@
 //
 
 @protocol NFHardwareManagerCallbacks
+- (void)BCollectionViewItem"8;
+- (void)kABGroupsListChangedNotification;
+- (void)*;
 @end
 

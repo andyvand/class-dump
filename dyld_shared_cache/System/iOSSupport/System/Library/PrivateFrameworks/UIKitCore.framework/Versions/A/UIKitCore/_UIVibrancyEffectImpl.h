@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool)q32;
-- (void)Changed:(id)arg1;
+- (void)touchChanged:(id)arg1;
 - (void)refersWrapToSidesHandler;
 - (_Bool)upported.;
 - (id)ystemSoundActivation;

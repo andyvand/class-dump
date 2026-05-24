@@ -9,7 +9,7 @@
     id tokensByLinkUUID;
 }
 
-- (id);
+- (id)e;
 - (void)notification;
 
 @end

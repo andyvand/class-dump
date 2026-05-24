@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDMessageFilterChain
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_filters;
 }
 
 - (void);

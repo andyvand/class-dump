@@ -6,19 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTError, MTSchemaMTLocalePair, NSData, SISchemaUUID;
+@class MTSchemaMTError;
 
 @interface MTSchemaMTInvocationFailed : SISchemaInstrumentationMessage
 {
     MTSchemaMTError *_error;
-    SISchemaUUID *_qssSessionId;
-    MTSchemaMTLocalePair *_localePair;
-    _Bool _hasError;
-    _Bool _hasQssSessionId;
-    _Bool _hasLocalePair;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)1001_key.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -41,19 +36,13 @@
 - (id)
 × ;
 - (id)sCorrectionOutcome;
-- (id)fset;
-- (void)eason;
+- (id)deleteUTCOffset;
+- (void)IFTSchemaIFTParameterNotAllowedReason;
 - (void)J¶Þ";
 - (_Bool)¿;
 
 // Remaining properties
 @property(retain, nonatomic) MTSchemaMTError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(nonatomic) _Bool hasQssSessionId; // @synthesize hasQssSessionId=_hasQssSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
-@property(retain, nonatomic) SISchemaUUID *qssSessionId; // @synthesize qssSessionId=_qssSessionId;
 
 @end
 

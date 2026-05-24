@@ -7,13 +7,10 @@
 @interface IMCoreAutomationNotifications
 {
     long long _chatsWrittenCount;
-    long long _messagesWrittenCount;
-    long long _attachmentsWrittenCount;
-    long long _recoverableMessagesWrittenCount;
 }
 
 + (id)er. Error:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)i(M`;
 - (void);
 - (void);
 - (void);
@@ -22,7 +19,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
+- (void)`B;
 - (void);
 - (void);
 - (void);
@@ -31,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) long long attachmentsWrittenCount; // @synthesize attachmentsWrittenCount=_attachmentsWrittenCount;
 @property(readonly) long long chatsWrittenCount; // @synthesize chatsWrittenCount=_chatsWrittenCount;
-@property(readonly) long long messagesWrittenCount; // @synthesize messagesWrittenCount=_messagesWrittenCount;
-@property(readonly) long long recoverableMessagesWrittenCount; // @synthesize recoverableMessagesWrittenCount=_recoverableMessagesWrittenCount;
 
 @end
 

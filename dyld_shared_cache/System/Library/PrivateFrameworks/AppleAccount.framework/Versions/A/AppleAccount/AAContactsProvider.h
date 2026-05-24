@@ -11,22 +11,22 @@
     AAContactsManager *_contactsManager;
 }
 
+- (id)kipping.;
+- (void)iled for %s:(CDUnknownBlockType)arg1 %s;
+- (void)eFilesInFolder:(CDUnknownBlockType)arg1 Failed to fdopendir for %s:%s /* Error: Ran out of types for this method. */;
+- (void)nHomeDir() delete of "%s" == %s;
+- (void)) called = %d (%s);
+- (void);
+- (void)remove the file - no work to do;
+- (void)) given no lock file and told to not remove the file - no work to do;
+- (void)= %d;
+- (void)eDescriptor = %d, removeLockFile = %d;
+- (void)) = %ld (%s);
+- (void)d (%s);
+- (id)herefore no items will be imported.;
+- (void)Rights returned %d;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)ailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 
 @end
 

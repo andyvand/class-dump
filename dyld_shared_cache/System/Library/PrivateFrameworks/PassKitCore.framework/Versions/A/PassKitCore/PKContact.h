@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhoneNumber, CNPostalAddress, NSPersonNameComponents, NSString;
+@class NSPersonNameComponents, NSString;
 
 @interface PKContact
 {
     NSPersonNameComponents *_name;
-    CNPostalAddress *_postalAddress;
-    CNPhoneNumber *_phoneNumber;
-    NSString *_emailAddress;
-    NSString *_supplementarySubLocality;
 }
 
 + (long long);
@@ -27,11 +23,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)hasMinTxAirLatency;
+- (id)txCompletionSnapshotVO;
 - (void);
 - (id);
 - (id);
@@ -45,11 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactHandle;
-@property(retain, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) NSPersonNameComponents *name; // @synthesize name=_name;
-@property(retain, nonatomic) CNPhoneNumber *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(retain, nonatomic) NSString *supplementarySubLocality; // @synthesize supplementarySubLocality=_supplementarySubLocality;
 
 @end
 

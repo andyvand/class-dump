@@ -11,29 +11,25 @@
 @interface CKDMarkAssetBrokenURLRequest : CKDURLRequest
 {
     _Bool _writeRepairRecord;
-    CDUnknownBlockType _assetBrokenBlock;
-    CKUploadRequestMetadata *_metadata;
 }
 
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
-- (id);
+- (void)A;
+- (id)Lj1;
 - (void);
 - (id)ide of a specified circular area is not supported:%@ /* Error: Ran out of types for this method. */;
-- (void)lue;
-- (id)atePersonaType;
+- (void)numericValue;
+- (id)proximatePersonaType;
 - (id)fetching mergeable deltas in operation %@:(id)arg1 %@;
 - (void)ilities or share/zone usage to the server will be in %{public}@.;
-- (void);
+- (void)SaySSG;
 - (void)pWïÿ0Øþ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType assetBrokenBlock; // @synthesize assetBrokenBlock=_assetBrokenBlock;
 @property(copy, nonatomic) CKUploadRequestMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool writeRepairRecord; // @synthesize writeRepairRecord=_writeRepairRecord;
 
 @end
 

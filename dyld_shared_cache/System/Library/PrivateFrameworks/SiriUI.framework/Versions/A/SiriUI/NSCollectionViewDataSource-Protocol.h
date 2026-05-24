@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSView;
+@class NSCollectionView, NSCollectionViewItem, NSView;
 
 @protocol NSCollectionViewDataSource
+- (NSCollectionViewItem *)_hasDowntimeBlockedRecipients;
 
 @optional
 - (NSView *)tate:(NSCollectionView *)arg1 %@;

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptionRendererSceneInternal
 {
     CDStruct_e83c9415 _timeRange;
-    _Bool _hasActiveCaptions;
-    _Bool _needsPeriodicRefresh;
 }
 
 @end

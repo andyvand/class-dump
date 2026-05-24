@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface GEOPlaceDataProvider
 {
     _Bool _isLoading;
-    CDUnknownBlockType _finishedHandler;
-    CDUnknownBlockType _errorHandler;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)aving MOC after consolidating containters:(CDUnknownBlockType)arg1 %{public}@;
 - (void);
 - (void);
 - (void);
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)ñ4;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType finishedHandler; // @synthesize finishedHandler=_finishedHandler;
 @property(nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
 
 @end

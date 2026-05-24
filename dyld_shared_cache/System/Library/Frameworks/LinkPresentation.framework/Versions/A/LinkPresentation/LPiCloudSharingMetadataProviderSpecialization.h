@@ -6,17 +6,12 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class CKContainer, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiCloudSharingMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     NSString *_applicationFromURL;
-    NSString *_kindFromURL;
-    NSString *_titleFromURL;
-    CKContainer *_baseContainer;
-    CKContainer *_applicationContainer;
-    _Bool _canceled;
 }
 
 + (id);
@@ -28,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
+- (void)lowQuality;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 
 @end

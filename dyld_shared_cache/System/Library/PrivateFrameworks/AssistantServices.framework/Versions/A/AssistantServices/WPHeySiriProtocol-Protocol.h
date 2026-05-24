@@ -5,5 +5,11 @@
 //
 
 @protocol WPHeySiriProtocol
+- (void)_isForegroundApplication;
+
+@optional
+- (void)keyIdentifier;
+- (void);
+- (void)fullName;
 @end
 

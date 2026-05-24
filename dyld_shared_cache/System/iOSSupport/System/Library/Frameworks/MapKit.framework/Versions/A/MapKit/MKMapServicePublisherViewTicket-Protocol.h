@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServicePublisherViewTicket
+- (void);
+- (void)_chat:(void (^)(GEOPublisherViewResult *, NSArray *, GEOPublisherResult *, NSError *))arg1 sendSyndicationAction:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

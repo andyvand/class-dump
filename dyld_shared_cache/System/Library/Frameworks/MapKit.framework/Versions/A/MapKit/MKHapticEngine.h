@@ -10,7 +10,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id)VNRecognizeFoodAndDrinkRequestPrivateRevisionANSTModel;
 - (void);
 - (void);
 - (void);

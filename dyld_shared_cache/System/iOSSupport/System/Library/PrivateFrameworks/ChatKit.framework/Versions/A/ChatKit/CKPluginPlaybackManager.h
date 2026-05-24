@@ -5,22 +5,18 @@
 //
 
 @class NSMutableArray;
-@protocol CKPluginPlaybackManagerDelegate;
 
 @interface CKPluginPlaybackManager
 {
     unsigned long long _currentIndex;
-    _Bool _isPlayingBack;
-    id <CKPluginPlaybackManagerDelegate> _delegate;
-    NSMutableArray *__pluginItems;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)evived. Updating note title and snippet;
+- (void)pecting %@;
+- (void)dName];
+- (id)abled:%@, isKeychainAvailable:%@, hasKeychainItem:%@, hasCloudAccount:%@, hasDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -31,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setPluginItems:) NSMutableArray *_pluginItems; // @synthesize _pluginItems=__pluginItems;
-@property(nonatomic) __weak id <CKPluginPlaybackManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, setter=_setPlayingBack:) _Bool isPlayingBack; // @synthesize isPlayingBack=_isPlayingBack;
 
 @end
 

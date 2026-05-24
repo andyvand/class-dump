@@ -14,14 +14,14 @@
 }
 
 + (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy) NSDictionary *attributes; // @synthesize attributes=_attributes;

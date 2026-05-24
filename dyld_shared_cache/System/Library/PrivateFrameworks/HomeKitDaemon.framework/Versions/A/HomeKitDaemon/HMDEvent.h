@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventTrigger, HMDHome, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDEventDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDEvent
 {
     _Bool _endEvent;
-    HMDEventTrigger *_eventTrigger;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    id <HMDEventDelegate> _delegate;
-    HMDHome *_home;
-    NSUUID *_uuid;
-    NSString *_triggerType;
-    NSString *_logString;
-    unsigned long long _activationType;
 }
 
 + (_Bool)67ø89;;4<¸<ì<;
 + (id)ùB;
-- (void);
-- (void);
+- (void)_locationHint;
+- (void)_didStartSharingWithContact:(id)arg1 withCapabilityType:serviceName:error:queue:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -37,18 +28,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)ocationOfInterestVisit";
+- (void)usedLocationNodes;
 - (void);
 - (unsigned long long);
 - (void);
+- (id)renderViewContents;
+- (id)%f  height %f  viewScale %f;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)&;
+- (id)S;
 - (unsigned long long);
 - (id);
 - (void);
@@ -64,40 +55,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!Bù11Â0@ù
 × ;
-- (void)Request:options:responseHandler: /* Error: Ran out of types for this method. */;
+- (void)_serverHandleDecryptedRequest:options:responseHandler: /* Error: Ran out of types for this method. */;
 - (void)reason:(id)arg1 %@;
 - (id)for user [%@] from local zone:[%@] /* Error: Ran out of types for this method. */;
 - (id)iously posting reachable notification;
 - (void)%@;
-- (void)sAllowed;
-- (void)difier;
+- (void)isRemoteAccessAllowed;
+- (void)humidifierDehumidifier;
 - (void);
 - (id)äBòþã=PA;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activationType; // @synthesize activationType=_activationType;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic, getter=isConfigured) _Bool configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDEventDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEndEvent) _Bool endEvent; // @synthesize endEvent=_endEvent;
-@property(nonatomic) __weak HMDEventTrigger *eventTrigger; // @synthesize eventTrigger=_eventTrigger;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSString *logString; // @synthesize logString=_logString;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *triggerType; // @synthesize triggerType=_triggerType;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADColorScheme
 {
     NSString *mName;
-    NSMutableDictionary *mColors;
 }
 
-- (void);
+- (void)q;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)W%;
 - (_Bool);
-- (void)InsertingFormatGroupingSeparators:(id)arg1;
+- (void)tsu_stringByInsertingFormatGroupingSeparators:(id)arg1;
 - (void)l;
 
 // Remaining properties

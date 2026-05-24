@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SOKerberosPacData
 {
     _Bool _passwordNeverExpires;
-    NSDate *_passwordLastSet;
-    NSDate *_passwordCanChange;
-    NSDate *_passwordMustChange;
-    NSString *_homeDirectory;
-    NSString *_effectiveName;
-    NSString *_fullName;
 }
 
 - (void);
@@ -28,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)P;
+- (id)StreamingSkinSegmentationMaskSecondary;
 - (void);
 - (id);
 - (id);
@@ -37,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *effectiveName; // @synthesize effectiveName=_effectiveName;
-@property(retain) NSString *fullName; // @synthesize fullName=_fullName;
-@property(retain) NSString *homeDirectory; // @synthesize homeDirectory=_homeDirectory;
-@property(retain) NSDate *passwordCanChange; // @synthesize passwordCanChange=_passwordCanChange;
 @property(retain) NSDate *passwordLastSet; // @synthesize passwordLastSet=_passwordLastSet;
-@property(retain) NSDate *passwordMustChange; // @synthesize passwordMustChange=_passwordMustChange;
-@property _Bool passwordNeverExpires; // @synthesize passwordNeverExpires=_passwordNeverExpires;
 
 @end
 

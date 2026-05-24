@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKThumbnailBuilder;
-
 @interface IKThumbnailOperation
 {
     id _delegate;
-    SEL _didEndSelector;
-    _Bool _executing;
-    _Bool _finished;
-    _Bool _delegateNotified;
-    IKThumbnailBuilder *_thumbnail;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)N;
 
 @end
 

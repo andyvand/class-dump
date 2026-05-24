@@ -5,5 +5,6 @@
 //
 
 @protocol WKTouchActionGestureRecognizerDelegate
+- (_Bool)linkType;
 @end
 

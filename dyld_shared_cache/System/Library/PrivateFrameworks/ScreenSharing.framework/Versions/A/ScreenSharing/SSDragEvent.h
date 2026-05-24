@@ -6,15 +6,9 @@
 
 #import <ScreenSharing/SSInputEvent.h>
 
-@class NSString;
-@protocol SSDragDelegate;
-
 @interface SSDragEvent : SSInputEvent
 {
     _Bool _draggingFilePromisesFromServer;
-    int _dragType;
-    NSString *_dragPasteboardName;
-    id <SSDragDelegate> _dragDelegate;
 }
 
 + (id);
@@ -31,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property id <SSDragDelegate> dragDelegate; // @synthesize dragDelegate=_dragDelegate;
-@property(copy) NSString *dragPasteboardName; // @synthesize dragPasteboardName=_dragPasteboardName;
 @property int dragType; // @synthesize dragType=_dragType;
-@property _Bool draggingFilePromisesFromServer; // @synthesize draggingFilePromisesFromServer=_draggingFilePromisesFromServer;
 
 @end
 

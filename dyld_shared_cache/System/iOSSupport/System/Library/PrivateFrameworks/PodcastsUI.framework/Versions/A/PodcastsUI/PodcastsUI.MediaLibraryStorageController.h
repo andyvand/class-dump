@@ -7,18 +7,9 @@
 @interface PodcastsUI.MediaLibraryStorageController
 {
     id _storageCleanupObservers;
-    id _globalAutomaticDownloadLimit;
-    id activeObserver;
-    id globalDownloadLimitObserver;
-    id downloadedAssetsAsPercentageOfTotalSpace;
-    id totalConsumedSpace;
-    id _ignoredAssetsAsPercentageOfTotalSpace;
-    id _ignoredConsumedSpaceQuantity;
-    id _shouldDisplayStorageCleanupTip;
-    id _shouldDisplayStorageCleanupTipPublisher;
 }
 
-- (void);
+- (void)system_client IN (0, 1));
 - (id);
 - (void);
 

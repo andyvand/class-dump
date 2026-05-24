@@ -9,13 +9,6 @@
 @interface PPPostalAddress
 {
     NSString *_thoroughfare;
-    NSString *_subThoroughfare;
-    NSString *_locality;
-    NSString *_subLocality;
-    NSString *_administrativeArea;
-    NSString *_subAdministrativeArea;
-    NSString *_postalCode;
-    NSString *_country;
 }
 
 + (id);
@@ -27,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id)commandForErasingAllStrokesInDrawing:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!b;
 - (id);
 - (id);
 - (unsigned long long);
@@ -45,13 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(readonly, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, nonatomic) NSString *locality; // @synthesize locality=_locality;
-@property(readonly, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(readonly, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(readonly, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
-@property(readonly, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
 @property(readonly, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end

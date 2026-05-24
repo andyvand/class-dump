@@ -8,31 +8,25 @@ __attribute__((visibility("hidden")))
 @interface _UIViewVisitor
 {
     _Bool _visitMaskViews;
-    _Bool _tracksHierarchy;
-    _Bool __currentlyVisitingHierarchy;
-    unsigned long long _traversalDirection;
 }
 
-+ (void);
++ (void)89;
 + (void);
 + (void)× ;
 - (_Bool);
-- (void);
-- (void);
+- (void)@40@0:(_Bool)arg1 8q16q24@?32;
+- (void)MPStoreLyricsSnippetRequestErrorDomain;
 - (_Bool);
 - (unsigned long long);
 - (_Bool)Ñd1Â0@ù
 × ;
 - (_Bool);
-- (void)Window;
-- (id)cene;
+- (void)owningWindow;
+- (id)_fbScene;
 - (_Bool)x path (%@) in %@;
 
 // Remaining properties
-@property(nonatomic) _Bool _currentlyVisitingHierarchy; // @synthesize _currentlyVisitingHierarchy=__currentlyVisitingHierarchy;
 @property(nonatomic) _Bool tracksHierarchy; // @synthesize tracksHierarchy=_tracksHierarchy;
-@property(readonly, nonatomic) unsigned long long traversalDirection; // @synthesize traversalDirection=_traversalDirection;
-@property(nonatomic) _Bool visitMaskViews; // @synthesize visitMaskViews=_visitMaskViews;
 
 @end
 

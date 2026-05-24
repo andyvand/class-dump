@@ -11,7 +11,7 @@
 }
 
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)is being attempted but the Factory Debug entitlement was not requested. Please enable Factory Debug to fuse.;
 - (void);
 - (id);
 - (_Bool);

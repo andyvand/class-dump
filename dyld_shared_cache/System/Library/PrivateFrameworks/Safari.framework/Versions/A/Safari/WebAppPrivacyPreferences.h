@@ -6,17 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSButton, NSImageView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface WebAppPrivacyPreferences : PreferencesModule
 {
     NSImageView *_privacyImageView;
-    NSTextField *_privacyExplanationLabel;
-    NSButton *_openSettingsButton;
-    NSButton *_clearWebsiteDataButton;
-    NSTextField *_notificationsLabel;
-    NSButton *_openNotificationSettingsButton;
 }
 
 - (void);
@@ -43,11 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSButton *clearWebsiteDataButton; // @synthesize clearWebsiteDataButton=_clearWebsiteDataButton;
-@property __weak NSTextField *notificationsLabel; // @synthesize notificationsLabel=_notificationsLabel;
-@property __weak NSButton *openNotificationSettingsButton; // @synthesize openNotificationSettingsButton=_openNotificationSettingsButton;
-@property __weak NSButton *openSettingsButton; // @synthesize openSettingsButton=_openSettingsButton;
-@property __weak NSTextField *privacyExplanationLabel; // @synthesize privacyExplanationLabel=_privacyExplanationLabel;
 @property __weak NSImageView *privacyImageView; // @synthesize privacyImageView=_privacyImageView;
 
 @end

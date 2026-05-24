@@ -9,33 +9,21 @@
 @interface UIKit._UIZoomTransitionSpec
 {
     UIKit._UIZoomTransitionAnimationSpec *zoomIn;
-    UIKit._UIZoomTransitionAnimationSpec *zoomInShowcase;
-    UIKit._UIZoomTransitionAnimationSpec *zoomOut;
-    UIKit._UIZoomTransitionAnimationSpec *zoomOutInteractive;
-    UIKit._UIZoomTransitionAnimationSpec *cancelInteractive;
-    double recededBackgroundScaleDownPoints;
-    double recededBackgroundMinScale;
-    double dimmingOpacity;
-    double fallbackSourceViewWidth;
-    float platterShadowOpacity;
-    double platterShadowRadius;
-    double platterShadowXOffset;
-    double platterShadowYOffset;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)tate changed event:%@ /* Error: Ran out of types for this method. */;
+- (id)OL}d;
+- (void)current thread, -currentContext caller may not be within a client request handler;
+- (void)estContext available for current thread, -currentContext caller may not be within a client request handler;
+- (void)ntext;
+- (void)equestContext.currentContext;
 - (void);
 - (void);
+- (void)MessagesClientCapabilities;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__C;
 - (void);
 - (void);
 - (void);
@@ -46,30 +34,18 @@
 - (double);
 - (double);
 - (float);
-- (struct CGSize);
+- (struct CGSize)G,;
 - (double);
 - (double);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)ffset: /* Error: Ran out of types for this method. */;
+- (void)_setFrame:arrowOffset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)SÿÚm;
 
 // Remaining properties
-@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *cancelInteractive; // @synthesize cancelInteractive;
-@property(nonatomic) double dimmingOpacity; // @synthesize dimmingOpacity;
-@property(nonatomic) double fallbackSourceViewWidth; // @synthesize fallbackSourceViewWidth;
-@property(nonatomic) float platterShadowOpacity; // @synthesize platterShadowOpacity;
-@property(nonatomic) double platterShadowRadius; // @synthesize platterShadowRadius;
-@property(nonatomic) double platterShadowXOffset; // @synthesize platterShadowXOffset;
-@property(nonatomic) double platterShadowYOffset; // @synthesize platterShadowYOffset;
-@property(nonatomic) double recededBackgroundMinScale; // @synthesize recededBackgroundMinScale;
-@property(nonatomic) double recededBackgroundScaleDownPoints; // @synthesize recededBackgroundScaleDownPoints;
 @property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomIn; // @synthesize zoomIn;
-@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomInShowcase; // @synthesize zoomInShowcase;
-@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomOut; // @synthesize zoomOut;
-@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomOutInteractive; // @synthesize zoomOutInteractive;
 
 @end
 

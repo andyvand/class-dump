@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AKPlatformGeometryExtensions)
-- (struct CGPath *);
+- (struct CGPath *)gq;
 - (void);
 @end
 

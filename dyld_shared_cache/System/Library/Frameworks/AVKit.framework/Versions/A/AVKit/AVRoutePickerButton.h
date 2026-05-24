@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVRoutePickerButton
 {
     _Bool _togglesHighlight;
-    _Bool _routeListCurrentlyPresented;
 }
 
 - (_Bool);
@@ -16,12 +15,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)forFeature:(_Bool)arg1;
-- (void)hFrame:(id)arg1;
+- (void)setOutputDevice:(_Bool)arg1 forFeature: /* Error: Ran out of types for this method. */;
+- (void)initWithFrame:(id)arg1;
 - (void)ÿ|ì×;
 
 // Remaining properties
-@property(nonatomic) _Bool routeListCurrentlyPresented; // @synthesize routeListCurrentlyPresented=_routeListCurrentlyPresented;
 @property(nonatomic) _Bool togglesHighlight; // @synthesize togglesHighlight=_togglesHighlight;
 
 @end

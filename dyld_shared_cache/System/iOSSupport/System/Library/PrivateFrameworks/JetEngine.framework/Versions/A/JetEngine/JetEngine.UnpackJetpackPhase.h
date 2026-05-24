@@ -7,9 +7,6 @@
 @interface JetEngine.UnpackJetpackPhase
 {
     id keyURLs;
-    id artifactStoreURL;
-    id bundleOutputURL;
-    id verifySignature;
 }
 
 @end

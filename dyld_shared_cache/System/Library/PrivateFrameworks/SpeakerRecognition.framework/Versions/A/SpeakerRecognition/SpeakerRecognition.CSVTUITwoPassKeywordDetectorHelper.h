@@ -7,18 +7,6 @@
 @interface SpeakerRecognition.CSVTUITwoPassKeywordDetectorHelper
 {
     id keywordAnalyzer;
-    id phraseDetector;
-    id keywordThreshold;
-    id audioBuffer;
-    id extraSamplesAtStart;
-    id analyzerTrailingSamples;
-    id supportsMph;
-    id isFirstPassTriggered;
-    id firstPassResult;
-    id totalSamples;
-    id startSampleCount;
-    id audioFileWriter;
-    id audioFileWriterSecondPass;
 }
 
 - (id);
@@ -27,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tEE_;
 - (id);
 - (void);
 - (id);

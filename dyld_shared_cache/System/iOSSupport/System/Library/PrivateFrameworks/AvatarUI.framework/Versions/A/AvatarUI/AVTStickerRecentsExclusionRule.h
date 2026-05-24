@@ -9,7 +9,6 @@
 @interface AVTStickerRecentsExclusionRule
 {
     NSString *_avatarRecordIdentifier;
-    NSString *_stickerConfigurationIdentifier;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *avatarRecordIdentifier; // @synthesize avatarRecordIdentifier=_avatarRecordIdentifier;
-@property(retain, nonatomic) NSString *stickerConfigurationIdentifier; // @synthesize stickerConfigurationIdentifier=_stickerConfigurationIdentifier;
 
 @end
 

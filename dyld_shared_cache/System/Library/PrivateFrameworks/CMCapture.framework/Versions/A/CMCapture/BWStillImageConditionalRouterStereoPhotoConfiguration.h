@@ -18,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int mainImageOutputIndex;
-@property(readonly, nonatomic) unsigned int stereoPhotoOutoutIndex;
 
 @end
 

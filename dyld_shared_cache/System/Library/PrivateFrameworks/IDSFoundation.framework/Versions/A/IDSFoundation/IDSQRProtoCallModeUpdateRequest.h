@@ -18,8 +18,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)stopATCommandTimeout;
+- (void)3;
 - (id);
 - (id);
 - (void)etStats {

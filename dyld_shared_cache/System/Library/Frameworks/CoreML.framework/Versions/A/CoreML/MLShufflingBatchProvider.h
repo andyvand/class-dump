@@ -9,23 +9,20 @@
 @interface MLShufflingBatchProvider
 {
     struct vector<long, std::allocator<long>> indices;
-    struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> randomNumberGenerator;
-    id <MLBatchProvider> _batchProvider;
 }
 
-- (void);
+- (void)ClipDistanceAttr;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�";
 - (long long)!ÀGù±þ0Ð1Â0@ù
 × ;
 - (void)tep on (\w+) (\w+);
 
 // Remaining properties
 @property(retain) id <MLBatchProvider> batchProvider; // @synthesize batchProvider=_batchProvider;
-@property(readonly, nonatomic) long long count;
 
 @end
 

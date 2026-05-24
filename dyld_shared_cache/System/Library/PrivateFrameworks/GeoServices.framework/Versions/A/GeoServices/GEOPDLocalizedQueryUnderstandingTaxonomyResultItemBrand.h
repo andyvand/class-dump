@@ -4,65 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, GEOPDBusinessConnectAttributes, GEOPDMultiLocalizedString, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLocalizedQueryUnderstandingTaxonomyResultItemBrand
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_businessCardAltCategories;
-    NSMutableArray *_businessCardModernAlternateCategories;
-    NSString *_businessCardModernPrimaryCategory;
-    unsigned long long _businessCardPoiIconType;
-    NSString *_businessCardPrefCategory;
-    GEOPDBusinessConnectAttributes *_businessConnectAttributes;
-    NSMutableArray *_categorys;
-    NSString *_countryCode;
-    NSMutableArray *_modernPrimaryCategoryIcons;
-    GEOPDMultiLocalizedString *_modernPrimaryCategoryNames;
-    unsigned long long _muid;
-    NSMutableArray *_prefCategoryIcons;
-    GEOPDMultiLocalizedString *_prefCategoryNames;
-    GEOLocalizedString *_prefDisplayName;
-    NSString *_prefPhone;
-    NSString *_prefUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isUnclaimable;
-    struct {
-        unsigned int has_businessCardPoiIconType:1;
-        unsigned int has_muid:1;
-        unsigned int has_isUnclaimable:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_businessCardAltCategories:1;
-        unsigned int read_businessCardModernAlternateCategories:1;
-        unsigned int read_businessCardModernPrimaryCategory:1;
-        unsigned int read_businessCardPrefCategory:1;
-        unsigned int read_businessConnectAttributes:1;
-        unsigned int read_categorys:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_modernPrimaryCategoryIcons:1;
-        unsigned int read_modernPrimaryCategoryNames:1;
-        unsigned int read_prefCategoryIcons:1;
-        unsigned int read_prefCategoryNames:1;
-        unsigned int read_prefDisplayName:1;
-        unsigned int read_prefPhone:1;
-        unsigned int read_prefUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)Qa;
+- (id)_amountOfSpeechDetectedInMs;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)d_batchReverseGeocodingParameters"b1"read_batchSpatialLookupParameters"b1"read_brandLookupParameters"b1"read_browseCategorySuggestionParameters"b1"read_canonicalLocationSearchParameters"b1"read_categorySearchParameters"b1"read_childPlaceLookupByCategoryParameters"b1"read_collectionSuggestionParameters"b1"read_exploreGuidesLookupParameters"b1"read_extendedGeoLookupParameters"b1"read_externalTransitLookupParameters"b1"read_featureIdGeocodingParameters"b1"read_geocodingParameters"b1"read_groundViewLabelParameters"b1"read_guidesHomeParameters"b1"read_ipGeoLookupParameters"b1"read_locationDirectedSearchParameters"b1"read_mapsHomeParameters"b1"read_mapsIdentifierPlaceLookupParameters"b1"read_mapsSearchHomeParameters"b1"read_merchantLookupParameters"b1"read_nearbySearchParameters"b1"read_offlineRegionNameParameters"b1"read_placeCollectionLookupParameter"b1"read_placeDescriptorResolutionParameters"b1"read_placeLookupParameters"b1"read_placeQuestionnaireLookupParameters"b1"read_placeRefinementParameters"b1"read_placecardEnrichmentParameters"b1"read_poiAtAddressLookupParameters"b1"read_popularNearbySearchParameters"b1"read_publisherViewParameters"b1"read_queryUnderstandingParameters"b1"read_refreshIdLookUpParameters"b1"read_reverseGeocodingParameters"b1"read_searchCapabilitiesParameters"b1"read_searchFieldPlaceholderParameters"b1"read_searchParameters"b1"read_searchZeroKeywordCategorySuggestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)Item;
+- (id)_factoidItem;
 - (id)¨e¼fÌgÜhi¤j´k;
 - (void)òÒMbP@;
 

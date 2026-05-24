@@ -12,19 +12,16 @@
 - (struct AudioObjectPropertyAddress);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h;
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)IDSClientBringsUpCloudMessaging;
 - (id);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)NSt3__120__shared_ptr_pointerIPN3pci9transport4taskENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) struct AudioObjectPropertyAddress audioObjectPropertyAddress; // @synthesize audioObjectPropertyAddress=_audioObjectPropertyAddress;
-@property(readonly, nonatomic) unsigned int element;
-@property(readonly, nonatomic) unsigned int scope;
 @property(readonly, nonatomic) unsigned int selector;
 
 @end

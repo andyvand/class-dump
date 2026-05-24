@@ -6,17 +6,16 @@
 
 #import <Safari/PrivacyProxyStatusSection.h>
 
-@class NSButton, NSTrackingArea;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface PrivacyProxyUpsellSection : PrivacyProxyStatusSection
 {
     NSButton *_dismissButton;
-    NSTrackingArea *_trackingArea;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

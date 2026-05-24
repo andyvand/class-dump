@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)%-25.25s = ;
+- (void)_cleanupContentTypeOnResult:(id)arg1;
 - (void);
 - (void);
 - (void);

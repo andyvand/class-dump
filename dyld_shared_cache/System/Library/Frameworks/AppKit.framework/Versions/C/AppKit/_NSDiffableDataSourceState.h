@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet, NSString, NSUUID;
-@protocol _NSDataSourceSnapshotTranslating;
+@class NSUUID;
 
 @interface _NSDiffableDataSourceState
 {
     NSUUID *_generationID;
-    NSOrderedSet *_identifiers;
-    NSOrderedSet *_sections;
-    id <_NSDataSourceSnapshotTranslating> _dataSourceSnapshot;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)Â0@ù
 × ;
-- (long long)uchBars: /* Error: Ran out of types for this method. */;
-- (id)pointForMachName:(struct _NSZone *)arg1 service:instance: /* Error: Ran out of types for this method. */;
-- (id)yFirstContentSibling;
+- (long long)initWithTouchBars: /* Error: Ran out of types for this method. */;
+- (id)endpointForMachName:(struct _NSZone *)arg1 service:instance: /* Error: Ran out of types for this method. */;
+- (id)accessibilityFirstContentSibling;
 - (long long);
-- (id)ceDate;
-- (id)ionContextBeganGroup;
+- (id)DDResultCopyExtractedDateFromReferenceDate;
+- (id)NSAnimationContextBeganGroup;
 - (id)osting is enabled.;
 - (long long)cated in the Trash.;
 - (void)[self _menuItemCommandID]);
 - (long long)Reader;
 - (id)tUIKeyedUnarchiver decodeTopLevelObjectOfClass:forKey:error:] /* Error: Ran out of types for this method. */;
-- (long long)eservesSelection;
-- (id)rchKey;
-- (id)STextFieldDisableTransparentBackground;
+- (long long)preservesSelection;
+- (id)AXLinkSearchKey;
+- (id)NSTextFieldDisableTransparentBackground;
 - (id)f;
 - (long long)ÔShÈÿÿÿ;
 - (id);
@@ -43,21 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <_NSDataSourceSnapshotTranslating> dataSourceSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSUUID *generationID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOrderedSet *identifiers;
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
-@property(readonly, nonatomic) NSOrderedSet *sections;
-@property(readonly) Class superclass;
 
 @end
 

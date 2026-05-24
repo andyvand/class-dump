@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKCDPCodeServiceResponseAttestationResponseAttestation
 {
     NSData *_appQuote;
-    NSData *_aqeQuote;
-    NSString *_pckCertificate;
-    NSData *_routingToken;
 }
 
 - (void);
@@ -25,27 +22,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void)d;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)APAudioSourceSharedMemoryReader created.
+;
 - (_Bool);
-- (_Bool);
+- (_Bool)webViewWebContentProcessDidTerminate:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void)@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *appQuote; // @synthesize appQuote=_appQuote;
-@property(retain, nonatomic) NSData *aqeQuote; // @synthesize aqeQuote=_aqeQuote;
 @property(readonly, nonatomic) _Bool hasAppQuote;
-@property(readonly, nonatomic) _Bool hasAqeQuote;
-@property(readonly, nonatomic) _Bool hasPckCertificate;
-@property(readonly, nonatomic) _Bool hasRoutingToken;
-@property(retain, nonatomic) NSString *pckCertificate; // @synthesize pckCertificate=_pckCertificate;
-@property(retain, nonatomic) NSData *routingToken; // @synthesize routingToken=_routingToken;
 
 @end
 

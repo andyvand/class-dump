@@ -9,23 +9,18 @@
 @interface SCNCone : SCNGeometry
 {
     double _conetopRadius;
-    double _conebottomRadius;
-    double _coneheight;
-    long long _coneheightSegmentCount;
-    long long _coneradialSegmentCount;
-    long long _coneprimitiveType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)oneTimeCodeFieldLabels;
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)=;
+- (void)L;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)RB;
 - (id);
 - (long long);
 - (id);
@@ -38,20 +33,16 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)65;
+- (id)_attributedBody;
 - (id);
 - (double);
 - (void);
 - (id);
 - (void);
-- (id)Op:rotateX /* Error: Ran out of types for this method. */;
+- (id)xformOp:rotateX /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double bottomRadius;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double topRadius;
 
 @end

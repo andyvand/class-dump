@@ -12,12 +12,12 @@
 }
 
 - (id);
-- (void);
+- (void)valid input rowCount = %ld;
 - (unsigned long long);
 - (id);
-- (unsigned short)TextCell:(unsigned long long)arg1 pullsDown: /* Error: Ran out of types for this method. */;
+- (unsigned short)initTextCell:(unsigned long long)arg1 pullsDown: /* Error: Ran out of types for this method. */;
 - (void);
-- (const char *)wHoverEffectTraitsKey;
+- (const char *)IgnoreListRowHoverEffectTraitsKey;
 - (const unsigned short *)Ð©Äþ±Fa7Ô©Äþ;
 
 @end

@@ -7,16 +7,13 @@
 @interface AppletTranslationLibrary.ExpressMode
 {
     id modulesRequiringSlowPath;
-    id reservedTCIs;
-    id internalBuild;
-    id userDefaults;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)ces/Photos/workspaces/coremediastream/MSPerformanceLogger.m;
 - (void);
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol NSVisualTabPickerTileContainerDataSource
+- (unsigned long long)AMFDRDecodeParseDERLengthFromBuffer;
 @end
 

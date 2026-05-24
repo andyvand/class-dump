@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     _UISystemBackgroundView *_systemBackgroundView;
 }
 
-- (void);
-- (id)stViewAxisForTraitCollection:(struct CGRect)arg1;
+- (void)SNumber"40@"NSData"48@"NSString"56B64;
+- (id)_listViewAxisForTraitCollection:(struct CGRect)arg1;
 - (void)rC_GG;
 
 @end

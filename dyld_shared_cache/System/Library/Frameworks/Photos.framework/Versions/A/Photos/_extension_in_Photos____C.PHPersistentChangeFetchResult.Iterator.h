@@ -7,7 +7,6 @@
 @interface (extension in Photos):__C.PHPersistentChangeFetchResult.Iterator
 {
     id transactionIterator;
-    id fetchResult;
 }
 
 @end

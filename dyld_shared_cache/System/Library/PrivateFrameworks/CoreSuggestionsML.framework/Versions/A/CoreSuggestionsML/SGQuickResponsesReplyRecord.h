@@ -9,9 +9,6 @@
 @interface SGQuickResponsesReplyRecord
 {
     NSString *_langResponse;
-    double _displayed;
-    double _selected;
-    double _matched;
 }
 
 - (id);
@@ -19,13 +16,10 @@
 - (double);
 - (void);
 - (double);
-- (double)rColumnAlias: /* Error: Ran out of types for this method. */;
+- (double)getDoubleForColumnAlias: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double displayed; // @synthesize displayed=_displayed;
 @property(readonly, nonatomic) NSString *langResponse; // @synthesize langResponse=_langResponse;
-@property(readonly, nonatomic) double matched; // @synthesize matched=_matched;
-@property(readonly, nonatomic) double selected; // @synthesize selected=_selected;
 
 @end
 

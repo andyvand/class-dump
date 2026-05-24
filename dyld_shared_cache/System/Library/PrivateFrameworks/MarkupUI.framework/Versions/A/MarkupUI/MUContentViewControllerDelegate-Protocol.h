@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol MUContentViewControllerDelegate
+- (struct CGRect)(;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *originalImageDescription;

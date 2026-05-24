@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, _MRAudioFormatSettingsProtobuf;
-
 @interface _MRAudioBufferProtobuf
 {
     long long _maximumPacketSize;
-    long long _packetCapacity;
-    long long _packetCount;
-    NSData *_contents;
-    _MRAudioFormatSettingsProtobuf *_formatSettings;
-    NSMutableArray *_packetDescriptions;
-    struct {
-        unsigned int maximumPacketSize:1;
-        unsigned int packetCapacity:1;
-        unsigned int packetCount:1;
-    } _has;
 }
 
 + (Class);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (long long);
@@ -37,38 +25,28 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)6O;
+- (id)g;
 - (long long);
 - (void);
-- (void);
-- (long long);
+- (void)setActions:(long long)arg1;
+- (long long)second;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)userViewHitOnMouseDown;
+- (void)fetchOldestMessageDateForChatIdentifiers:(id)arg1 chatStyle:services:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)es getAnnounceNotificationsTemporarilyDisabledForApp:platform:completion:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Level;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) _MRAudioFormatSettingsProtobuf *formatSettings; // @synthesize formatSettings=_formatSettings;
-@property(readonly, nonatomic) _Bool hasContents;
 @property(readonly, nonatomic) _Bool hasFormatSettings;
-@property(nonatomic) _Bool hasMaximumPacketSize;
-@property(nonatomic) _Bool hasPacketCapacity;
-@property(nonatomic) _Bool hasPacketCount;
-@property(nonatomic) long long maximumPacketSize; // @synthesize maximumPacketSize=_maximumPacketSize;
-@property(nonatomic) long long packetCapacity; // @synthesize packetCapacity=_packetCapacity;
-@property(nonatomic) long long packetCount; // @synthesize packetCount=_packetCount;
-@property(retain, nonatomic) NSMutableArray *packetDescriptions; // @synthesize packetDescriptions=_packetDescriptions;
 
 @end
 

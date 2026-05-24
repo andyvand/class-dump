@@ -5,20 +5,24 @@
 //
 
 @class NSData;
+@protocol NFNdefRecord;
 
 @protocol NFNdefRecord
+- (unsigned char)==|>=) \s* (?# $3=relation)\[ (\w+) \] (?# $4=viewName2)\. (\w+) (?# $5=attribute2)\s* (?:([\+\-]) \s* (?:(\d+) | (\w+) ))? (?# $6=constantSign $7=constantValue $8=constantName)\s* (?:\@ (?:(\d+) | (\w+) ))? (?# $9=priorityValue $10=priorityName) /* Error: Ran out of types for this method. */;
+- (_Bool)eet displayed for HTTPS can't connect/continue anyway dialog.;
+- (void)NSErrorPeerCertificateChainKey;
+- (void)_datumValueTextColor;
+- (void)_datumValueFontSize;
+- (void)CNSocialProfile;
+- (_Bool)tCommand.m;
+- (_Bool)edValueOntoReadOnlyContactCommand.m;
+- (_Bool)__kIMPersonStatusKey;
+- (id)ng members:(id <NFNdefRecord>)arg1 %@ %@;
 - (void);
+- (NSData *)";
 - (unsigned char)r: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool chunked;
 @property(nonatomic) unsigned char header;
-@property(retain, nonatomic) NSData *identifier;
-@property(nonatomic) _Bool messageBegin;
-@property(nonatomic) _Bool messageEnd;
-@property(retain, nonatomic) NSData *payload;
-@property(nonatomic) _Bool shortRecord;
-@property(retain, nonatomic) NSData *type;
-@property(nonatomic) unsigned char typeNameFormat;
 @end
 

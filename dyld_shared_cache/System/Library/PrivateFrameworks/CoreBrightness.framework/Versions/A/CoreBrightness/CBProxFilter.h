@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CBProxFilter : CBFilter
 {
     float _proxReleaseTime;
-    _Bool _proxHasJustBeenRemoved;
-    float _proxTriggerDelay;
-    _Bool _triggered;
-    _Bool _isActive;
 }
 
 - (void);

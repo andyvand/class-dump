@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICInlineAttachment, NSColor;
+@class ICInlineAttachment;
 
 @interface ICInlineAttachmentUIModel
 {
     _Bool _selected;
-    ICInlineAttachment *_attachment;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -23,14 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (void)NotesNotesInSource;
+- (void)_mathNotesNotesInSource;
 - (_Bool)¸çÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak ICInlineAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, nonatomic) _Bool fadesColorDuringHighlight;
-@property(readonly, nonatomic) NSColor *labelColor;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

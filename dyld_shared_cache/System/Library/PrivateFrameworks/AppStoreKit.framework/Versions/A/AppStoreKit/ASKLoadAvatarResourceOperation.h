@@ -13,13 +13,13 @@
     NSString *_playerId;
 }
 
-+ (id);
++ (id)o;
 - (id);
+- (id);
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)ellularDataInquiryC;
+- (void)i;
+- (void)So22ASKCellularDataInquiryC;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *playerId; // @synthesize playerId=_playerId;

@@ -7,8 +7,6 @@
 @interface TSMTIEMaskError
 {
     double _observationInterval;
-    double _mask;
-    double _mtie;
 }
 
 - (void);
@@ -17,11 +15,9 @@
 - (double);
 - (id);
 - (double);
-- (void);
+- (void)D;
 
 // Remaining properties
-@property(nonatomic) double mask; // @synthesize mask=_mask;
-@property(nonatomic) double mtie; // @synthesize mtie=_mtie;
 @property(nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
 
 @end

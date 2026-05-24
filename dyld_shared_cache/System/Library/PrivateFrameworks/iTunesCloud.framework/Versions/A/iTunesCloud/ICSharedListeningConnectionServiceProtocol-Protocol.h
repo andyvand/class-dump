@@ -5,5 +5,8 @@
 //
 
 @protocol ICSharedListeningConnectionServiceProtocol
+- (void);
+- (void);
+- (void);
 @end
 

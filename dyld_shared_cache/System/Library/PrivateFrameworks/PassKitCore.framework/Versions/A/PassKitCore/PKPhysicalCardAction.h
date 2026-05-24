@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPostalAddress, NSString, PKPhysicalCardPriceOption;
-
 @interface PKPhysicalCardAction
 {
     unsigned long long _actionType;
-    NSString *_activationCode;
-    unsigned long long _reason;
-    NSString *_artworkIdentifier;
-    CNPostalAddress *_shippingAddress;
-    NSString *_nameOnCard;
-    PKPhysicalCardPriceOption *_priceOption;
 }
 
 + (_Bool);
@@ -34,8 +26,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)ndex0"b1"tvpmindex1"b1"txduty0"b1"txduty1"b1"txpowerbackoff0"b1"txpowerbackoff1"b1"voltage0"b1"voltage1"b1};
+- (void)onnections;
 - (void);
 - (id);
 - (void)ptedContainer"8;
@@ -43,12 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;
-@property(copy, nonatomic) NSString *activationCode; // @synthesize activationCode=_activationCode;
-@property(copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(copy, nonatomic) NSString *nameOnCard; // @synthesize nameOnCard=_nameOnCard;
-@property(retain, nonatomic) PKPhysicalCardPriceOption *priceOption; // @synthesize priceOption=_priceOption;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) CNPostalAddress *shippingAddress; // @synthesize shippingAddress=_shippingAddress;
 
 @end
 

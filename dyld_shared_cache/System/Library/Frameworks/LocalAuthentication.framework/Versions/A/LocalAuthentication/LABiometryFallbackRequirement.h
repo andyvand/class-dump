@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface LABiometryFallbackRequirement
 {
     long long _authType;
-    NSArray *_subrequirements;
 }
 
 + (id);

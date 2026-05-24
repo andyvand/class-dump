@@ -7,9 +7,9 @@
 @protocol NUAsset, NUAssetResourceID;
 
 @protocol NUAssetMedia
+- (id <NUAssetResourceID>);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NUAsset> asset;
-@property(readonly, nonatomic) id <NUAssetResourceID> resourceID;
 @end
 

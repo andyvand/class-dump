@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-@protocol SKPaymentQueueClientDelegate;
-
 @interface SKPaymentQueueClient
 {
     _Bool allowsBootstrapCellularData;
-    void bundleIdentifier;
-    void bundleVersion;
-    void delegate;
-    long long environmentType;
-    _Bool hidesConfirmationDialogs;
-    _Bool ignoresInAppPurchaseRestriction;
-    void productsRequestBundleIdentifier;
-    void receiptDirectoryPath;
-    _Bool requiresAuthenticationForPayment;
-    NSNumber *storeExternalVersion;
-    NSNumber *storeItemIdentifier;
-    void vendorIdentifier;
 }
 
 - (void);
@@ -31,7 +16,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)4
+@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,7 +28,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
@@ -57,18 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowsBootstrapCellularData; // @synthesize allowsBootstrapCellularData;
-@property(nonatomic, copy) NSString *bundleIdentifier;
-@property(nonatomic, copy) NSString *bundleVersion;
-@property(nonatomic) __weak id <SKPaymentQueueClientDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) long long environmentType; // @synthesize environmentType;
-@property(nonatomic) _Bool hidesConfirmationDialogs; // @synthesize hidesConfirmationDialogs;
-@property(nonatomic) _Bool ignoresInAppPurchaseRestriction; // @synthesize ignoresInAppPurchaseRestriction;
-@property(nonatomic, copy) NSString *productsRequestBundleIdentifier;
-@property(nonatomic, copy) NSString *receiptDirectoryPath;
-@property(nonatomic) _Bool requiresAuthenticationForPayment; // @synthesize requiresAuthenticationForPayment;
-@property(nonatomic, retain) NSNumber *storeExternalVersion; // @synthesize storeExternalVersion;
-@property(nonatomic, retain) NSNumber *storeItemIdentifier; // @synthesize storeItemIdentifier;
-@property(nonatomic, copy) NSString *vendorIdentifier;
 
 @end
 

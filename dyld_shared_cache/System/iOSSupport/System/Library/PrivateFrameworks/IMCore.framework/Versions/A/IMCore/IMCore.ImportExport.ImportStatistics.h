@@ -7,10 +7,6 @@
 @interface IMCore.ImportExport.ImportStatistics
 {
     id version;
-    id timer;
-    id batchCount;
-    id expectedCounts;
-    id importedCounts;
 }
 
 @end

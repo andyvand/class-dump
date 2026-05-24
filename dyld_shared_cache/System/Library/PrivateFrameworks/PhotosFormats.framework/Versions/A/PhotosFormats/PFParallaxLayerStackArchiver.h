@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (void):options:range: /* Error: Ran out of types for this method. */;
++ (void)numberOfMatchesInString:options:range: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface CNContactTargetActionWrapper
 {
     id _target;
-    SEL _action;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (SEL);
-- (void)DataSource;
+- (SEL);
+- (void)_actionsDataSource;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
 @property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

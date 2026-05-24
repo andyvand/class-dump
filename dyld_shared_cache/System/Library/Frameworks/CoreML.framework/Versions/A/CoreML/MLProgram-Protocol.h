@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MLProgram
+- (NSString *)onStructureCurveGeometryDescriptor which can have only one keyframe).;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *serializedMILText;

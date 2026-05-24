@@ -4,45 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKClient, NSMutableArray, NSMutableDictionary, NSString, NSXPCConnection;
+@class IMKClient;
 
 __attribute__((visibility("hidden")))
 @interface IMKInputSession
 {
     IMKClient *_client;
-    NSMutableDictionary *_supportedEvents;
-    int _eventStatus;
-    struct OpaqueTSMDocumentID *_tsmDocument;
-    long long _charactersEntered;
-    struct _NSRange _markedRange;
-    _Bool _supportsDocumentAccess;
-    long long _eventPending;
-    _Bool _commiting;
-    _Bool _sessionFinishedPreviously;
-    _Bool _allowRetryOnInvalidPortException;
-    _Bool didActivate;
-    _Bool activatePending;
-    _Bool deferredActivatePending;
-    _Bool deferredActivateHaveEventsQueued;
-    _Bool deferredActivateHaveInputSessionActionsQueued;
-    NSMutableArray *queuedInputSessionActions;
-    NSMutableArray *queuedDeferredEvents;
-    NSString *deferredActivateInputMode;
-    NSMutableDictionary *placeholdersCachedWeakRef;
-    NSMutableDictionary *_pendingEvents;
-    NSXPCConnection *inputMethodXPCConnection;
-    id touchBarViewController;
-    _Bool __allowRetryOnInvalidPortException;
-    _Bool _didActivate;
-    _Bool _activatePending;
-    _Bool _deferredActivatePending;
-    _Bool _deferredActivateHaveEventsQueued;
-    _Bool _deferredActivateHaveInputSessionActionsQueued;
-    NSString *_deferredActivateInputMode;
-    NSMutableArray *_queuedInputSessionActions;
-    NSMutableArray *_queuedDeferredEvents;
-    NSXPCConnection *_inputMethodXPCConnection;
-    id _touchBarViewController;
 }
 
 + (Class);
@@ -51,8 +18,8 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id)ridge;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)K;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -75,16 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool _allowRetryOnInvalidPortException; // @synthesize _allowRetryOnInvalidPortException=__allowRetryOnInvalidPortException;
-@property _Bool activatePending; // @synthesize activatePending=_activatePending;
-@property _Bool deferredActivateHaveEventsQueued; // @synthesize deferredActivateHaveEventsQueued=_deferredActivateHaveEventsQueued;
-@property _Bool deferredActivateHaveInputSessionActionsQueued; // @synthesize deferredActivateHaveInputSessionActionsQueued=_deferredActivateHaveInputSessionActionsQueued;
-@property(retain, nonatomic) NSString *deferredActivateInputMode; // @synthesize deferredActivateInputMode=_deferredActivateInputMode;
-@property _Bool deferredActivatePending; // @synthesize deferredActivatePending=_deferredActivatePending;
-@property _Bool didActivate; // @synthesize didActivate=_didActivate;
-@property(retain, nonatomic) NSXPCConnection *inputMethodXPCConnection; // @synthesize inputMethodXPCConnection=_inputMethodXPCConnection;
-@property(retain, nonatomic) NSMutableArray *queuedDeferredEvents; // @synthesize queuedDeferredEvents=_queuedDeferredEvents;
-@property(retain, nonatomic) NSMutableArray *queuedInputSessionActions; // @synthesize queuedInputSessionActions=_queuedInputSessionActions;
-@property(retain, nonatomic) id touchBarViewController; // @synthesize touchBarViewController=_touchBarViewController;
 
 @end
 

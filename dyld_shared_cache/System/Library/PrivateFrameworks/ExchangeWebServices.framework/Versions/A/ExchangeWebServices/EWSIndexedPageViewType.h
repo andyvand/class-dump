@@ -9,17 +9,15 @@
 @interface EWSIndexedPageViewType : EWSBasePagingType
 {
     long long _Offset;
-    long long _BasePoint;
 }
 
-+ (id);
++ (id)Hy7;
 - (long long);
 - (long long);
-- (void);
+- (void)??;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long BasePoint; // @synthesize BasePoint=_BasePoint;
 @property(nonatomic) long long Offset; // @synthesize Offset=_Offset;
 
 @end

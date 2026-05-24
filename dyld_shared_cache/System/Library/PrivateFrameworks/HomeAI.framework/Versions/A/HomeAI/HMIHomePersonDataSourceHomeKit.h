@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomePersonManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMHomePersonManager;
 
 @interface HMIHomePersonDataSourceHomeKit
 {
     HMHomePersonManager *_homePersonManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)y;
@@ -23,31 +21,23 @@
 - (void);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
+- (void)	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)QBbrBbI;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) HMHomePersonManager *homePersonManager; // @synthesize homePersonManager=_homePersonManager;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

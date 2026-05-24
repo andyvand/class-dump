@@ -6,57 +6,52 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UISelectionGrabberCustomPath, UISelectionGrabberDot, UITextRangeView;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface UISelectionGrabber : UIView
 {
     double m_screenScale;
-    UISelectionGrabberDot *m_dotView;
-    _Bool m_isDotted;
-    _Bool m_animating;
-    long long m_orientation;
-    UISelectionGrabberCustomPath *_customPath;
 }
 
 + (id);
-+ (Class);
++ (Class)_commentText;
+- (void)_markMessageAsSent: /* Error: Ran out of types for this method. */;
+- (void)_isFileTransferWithGUIDFromKnownSender: /* Error: Ran out of types for this method. */;
+- (void)_deleteOnDiskDataIfNeededForNickname:(long long)arg1 withNewNickname:(CDUnknownBlockType)arg2;
+- (void)x@;
+- (void)B;
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)l;
+- (_Bool)it state on %s. Aborting sync, downloading all attachments!;
+- (_Bool)aborting;
+- (_Bool)fetching salt record %@, aborting;
+- (_Bool)rting;
+- (_Bool)unk filtering:Successfully processed image through preview generator, saved to %s /* Error: Ran out of types for this method. */;
+- (_Bool)l file not found at %@;
+- (id)codeInfo:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)a problem archiving ignored list for key %@ error %@;
+- (id)response from Media-Analysis-Daemon with error %@;
+- (void)perRecordCompletionBlock encountered an error.  Will try this record again on next sync. %@;
 - (id);
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (void)setPayloadOrganization: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)X-Responding-Server;
+- (_Bool)_artworkCatalogBlock;
 - (_Bool)defaultIndentationLevel;
-- (void)ithParameters:animations:completion: /* Error: Ran out of types for this method. */;
-- (long long)ry;
+- (void)animateWithParameters:animations:completion: /* Error: Ran out of types for this method. */;
+- (long long)_recursiveUpdateContentOverlayInsetsFromParentIfNecessary;
 - (void)_exitIdleModeWithOptions:(struct CGRect)arg1;
 - (void)selineToBaseline;
 - (id)sscodeEntry;
 - (void)|´;
-- (void)ILaunchToFullScreenByDefaultOnMac;
+- (void)UILaunchToFullScreenByDefaultOnMac;
 - (void)tes from view:(long long)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)saction"8;
 - (id)ITraitCollectionCIeggg_;
@@ -68,11 +63,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool animating; // @synthesize animating=m_animating;
-@property(retain, nonatomic) UISelectionGrabberCustomPath *customPath; // @synthesize customPath=_customPath;
-@property(readonly, nonatomic) UITextRangeView *hostView;
-@property(nonatomic) _Bool isDotted; // @synthesize isDotted=m_isDotted;
-@property(nonatomic) long long orientation; // @synthesize orientation=m_orientation;
 @property(readonly, nonatomic) CAShapeLayer *shapeLayer;
 
 @end

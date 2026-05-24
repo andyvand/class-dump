@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface FCExperimentalPaywallConfiguration
 {
     _Bool _paywallExperimentationEnabled;
-    NSString *_paywallTagID;
-    NSArray *_paywallExperimentationTagIDs;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)l:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool paywallExperimentationEnabled; // @synthesize paywallExperimentationEnabled=_paywallExperimentationEnabled;
-@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs; // @synthesize paywallExperimentationTagIDs=_paywallExperimentationTagIDs;
-@property(readonly, nonatomic) NSString *paywallTagID; // @synthesize paywallTagID=_paywallTagID;
 
 @end
 

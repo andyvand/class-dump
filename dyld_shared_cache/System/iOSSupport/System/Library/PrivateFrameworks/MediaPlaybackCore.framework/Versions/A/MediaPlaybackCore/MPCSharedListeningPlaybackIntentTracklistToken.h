@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLinkIdentity, MPCPlaybackSharedListeningProperties, NSString;
+@class MPCPlaybackSharedListeningProperties;
 
 __attribute__((visibility("hidden")))
 @interface MPCSharedListeningPlaybackIntentTracklistToken
 {
     MPCPlaybackSharedListeningProperties *_sharedListeningProperties;
-    ICLiveLinkIdentity *_identity;
 }
 
-+ (id);
++ (id)treams already enabled for account %@;
 + (_Bool);
 - (id);
-- (void);
+- (void)countryCode;
 - (id);
 - (id);
 - (id);
@@ -26,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)em ID mismatch] item.contentItemID=%{public}@ - contentItemID=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) ICLiveLinkIdentity *identity; // @synthesize identity=_identity;
-@property(copy, nonatomic) MPCPlaybackSharedListeningProperties *sharedListeningProperties; // @synthesize sharedListeningProperties=_sharedListeningProperties;
-@property(readonly) Class superclass;
 
 @end
 

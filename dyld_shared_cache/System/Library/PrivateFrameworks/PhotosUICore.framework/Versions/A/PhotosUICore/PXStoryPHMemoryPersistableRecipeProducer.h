@@ -5,13 +5,11 @@
 //
 
 @class NSObject, PHMemory;
-@protocol OS_dispatch_queue, PXDisplayAsset;
+@protocol OS_dispatch_queue;
 
 @interface PXStoryPHMemoryPersistableRecipeProducer
 {
     PHMemory *_memory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <PXDisplayAsset> _keyAsset;
 }
 
 + (id);
@@ -24,8 +22,6 @@
 - (void)7T;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

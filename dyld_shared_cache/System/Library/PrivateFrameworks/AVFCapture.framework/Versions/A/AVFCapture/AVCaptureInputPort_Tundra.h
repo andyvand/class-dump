@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInputPortInternal_Tundra, AVCaptureInput_Tundra, NSString;
+@class AVCaptureInputPortInternal_Tundra, AVCaptureInput_Tundra;
 
 @interface AVCaptureInputPort_Tundra
 {
@@ -14,33 +14,27 @@
 + (id);
 + (void)cfetnsdm;
 - (void);
-- (id);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
+- (id)kSymptomDiagnosticErrorDisabled(void);
+- (void)ation-identifier;
+- (unsigned int)or width (%ud) parameter;
+- (void)er:(int)arg1:(unsigned int)arg2 GenerateColorMaps() - vImage error un-premultiplying image data. (%zd);
 - (void);
 - (void);
-- (id);
+- (void)allAuthorizationsForAccountTypeWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)6X;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *)rsion == validDeserializedVersion;
 - (long long);
-- (id);
-- (struct OpaqueCMClock *);
+- (id)DescriptorERK13vImage_BufferRKNS2_5CFRefIP19__CVPixelBufferPoolEERNS_8optionalINS2_5ErrorEEERKNSI_IyEEE3$_1FvyEEE;
+- (struct OpaqueCMClock *)EE;
 
 // Remaining properties
-@property(readonly, nonatomic) struct OpaqueCMClock *clock;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *formatDescription;
 @property(readonly, nonatomic) AVCaptureInput_Tundra *input;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(readonly, nonatomic) long long sourceDevicePosition;
-@property(readonly, nonatomic) NSString *sourceDeviceType;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SAAssistantLoaded : SABaseClientBoundCommand
 {
@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,10 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appleConnectSessionToken;
-@property(copy, nonatomic) NSString *dataAnchor;
-@property(copy, nonatomic) NSNumber *requestSync;
-@property(copy, nonatomic) NSArray *syncAnchors;
-@property(copy, nonatomic) NSString *version;
 
 @end
 

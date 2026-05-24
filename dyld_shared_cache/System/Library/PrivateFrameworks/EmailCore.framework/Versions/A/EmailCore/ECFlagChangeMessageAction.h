@@ -6,38 +6,24 @@
 
 #import <EmailCore/ECLocalMessageAction.h>
 
-@class ECLocalMessageActionID, ECMessageFlagChange, NSArray, NSSet, NSString, NSURL;
+@class NSSet;
 
 @interface ECFlagChangeMessageAction : ECLocalMessageAction
 {
     NSSet *_remoteIDs;
-    NSArray *_messages;
-    ECMessageFlagChange *_flagChange;
 }
 
-- (void);
+- (void)eoCall;
+- (void)not expect it. Discarding.;
+- (id)nor convertible to one;
+- (id)%@ layoutClass:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)CFString type, calling CFStringCreateCopy;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) ECMessageFlagChange *flagChange; // @synthesize flagChange=_flagChange;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *mailboxURL;
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(retain, nonatomic) ECLocalMessageActionID *persistentID;
 @property(copy, nonatomic) NSSet *remoteIDs; // @synthesize remoteIDs=_remoteIDs;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

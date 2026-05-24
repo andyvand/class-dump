@@ -7,12 +7,10 @@
 @class NSString;
 
 @protocol MediaOptionSource
+- (long long)@;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *avkit_displayName;
-@property(readonly, nonatomic) NSString *avkit_identifier;
-@property(readonly, nonatomic) _Bool avkit_isAvailable;
-@property(readonly, nonatomic) long long avkit_subtype;
-@property(readonly, nonatomic) long long avkit_type;
 @end
 

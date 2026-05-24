@@ -9,10 +9,6 @@
 @interface MPSImageScreenTelemetry : MPSUnaryImageKernel
 {
     unsigned long long _zoneWidth;
-    unsigned long long _zoneHeight;
-    unsigned long long _numberOfZonesInX;
-    unsigned long long _numberOfZonesInY;
-    CDStruct_1e3be3a8 _sourceRegion;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -30,15 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithName:(id)arg1 contactIdentifier:alternateNames:phoneNumbers:emailAddresses:allEmailAddresses:contactScope: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÿòÜÚ¥?;
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfZonesInX; // @synthesize numberOfZonesInX=_numberOfZonesInX;
-@property(nonatomic) unsigned long long numberOfZonesInY; // @synthesize numberOfZonesInY=_numberOfZonesInY;
-@property(nonatomic) CDStruct_1e3be3a8 sourceRegion; // @synthesize sourceRegion=_sourceRegion;
-@property(nonatomic) unsigned long long zoneHeight; // @synthesize zoneHeight=_zoneHeight;
 @property(nonatomic) unsigned long long zoneWidth; // @synthesize zoneWidth=_zoneWidth;
 
 @end

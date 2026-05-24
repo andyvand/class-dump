@@ -11,41 +11,30 @@
 @interface CKTranscriptSpeakerBalloonCell : CKTranscriptBalloonCell
 {
     _Bool _speakerEnabled;
-    _Bool _adjustSpeakerForAcknowledgment;
-    _Bool _shouldShowText;
-    _Bool _speakerEnabledBeforeManualHide;
-    _Bool _speakerIsManuallyHidden;
-    CKSpeakerButton *_speakerButton;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setSnippetAttachmentCount: /* Error: Ran out of types for this method. */;
+- (_Bool)setSixChannelBlendingEnabled: /* Error: Ran out of types for this method. */;
+- (id)setShowsEditorDebugTooltips: /* Error: Ran out of types for this method. */;
+- (_Bool)setDone:range:inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)predicateForObjectsWithIdentifiers:(_Bool)arg1;
+- (void)predicateForNotesMentionedInURL:(_Bool)arg1 action:queryItemName: /* Error: Ran out of types for this method. */;
+- (void)predicateForNotesInAccountWithIdentifier:(_Bool)arg1;
+- (void)predicateForMentionsInState:(_Bool)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (void)predicateForMentionsInState:(id)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (void)performWithTitle:(_Bool)arg1 contents:pinned:container:error: /* Error: Ran out of types for this method. */;
+- (void)ic_stringByReplacingCharactersInSet:(double)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)getHue:(_Bool)arg1 saturation:brightness:alpha: /* Error: Ran out of types for this method. */;
+- (void)displaySynapseAttachmentPreview;
+- (_Bool)ICDocumentMergeController;
+- (_Bool)c;
+- (_Bool)y;
+- (_Bool)TextStorage rowLocationForRowID:] /* Error: Ran out of types for this method. */;
 - (void)ô;
 - (void)NSString"16@?0@"NSString"8;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustSpeakerForAcknowledgment; // @synthesize adjustSpeakerForAcknowledgment=_adjustSpeakerForAcknowledgment;
-@property(nonatomic) _Bool shouldShowText; // @synthesize shouldShowText=_shouldShowText;
 @property(retain, nonatomic) CKSpeakerButton *speakerButton; // @synthesize speakerButton=_speakerButton;
-@property(nonatomic, getter=isSpeakerEnabled) _Bool speakerEnabled; // @synthesize speakerEnabled=_speakerEnabled;
-@property(nonatomic) _Bool speakerEnabledBeforeManualHide; // @synthesize speakerEnabledBeforeManualHide=_speakerEnabledBeforeManualHide;
-@property(nonatomic, getter=isSpeakerHidden) _Bool speakerHidden;
-@property(nonatomic) _Bool speakerIsManuallyHidden; // @synthesize speakerIsManuallyHidden=_speakerIsManuallyHidden;
 
 @end
 

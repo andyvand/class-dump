@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)ctProvider.TemplateApp.AAA;
 - (_Bool)§T¨	;
 - (id)ÿ;
 - (_Bool)ÿ;

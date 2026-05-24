@@ -9,6 +9,7 @@
 @protocol UIViewControllerTransitioningDelegate
 
 @optional
+- (id <UIViewControllerAnimatedTransitioning>);
 - (id <UIViewControllerAnimatedTransitioning>);
 @end
 

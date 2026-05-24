@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *smsGroupName;

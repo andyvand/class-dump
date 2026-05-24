@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, UIInputViewController, UIInputViewSet, UIRemoteInputViewInfo, UIView, UIViewController, UIWindow;
+@class UIInputViewSet, UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface UIRemoteInputViewHost
 {
     UIViewController *_inputRootViewController;
-    UIInputViewController *_inputViewController;
-    UIView *_inputView;
-    NSLayoutConstraint *_inputViewWidthConstraint;
-    NSLayoutConstraint *_inputViewHeightConstraint;
-    NSLayoutConstraint *_inputViewBottomConstraint;
-    UIViewController *_assistantViewController;
-    struct CGSize _previousInputViewSize;
-    _Bool _shouldShowDockView;
-    UIWindow *_inputViewWindow;
-    UIWindow *_assistantViewWindow;
-    UIInputViewSet *_inputViewSet;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)hasDataDetectedInformalPayment: /* Error: Ran out of types for this method. */;
+- (_Bool)bgstMessageProcessingController;
+- (_Bool)lastDoorBackgroundRequestInfo",&,N,V_request;
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct UIEdgeInsets);
+- (id)e guid %@, as device cannot handle SMS messages;
+- (struct UIEdgeInsets)chat:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,19 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)j;
 
 // Remaining properties
-@property(readonly, nonatomic) UIRemoteInputViewInfo *assistantViewInfo;
-@property(readonly, nonatomic) UIWindow *assistantViewWindow; // @synthesize assistantViewWindow=_assistantViewWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIRemoteInputViewInfo *inputViewInfo;
 @property(retain, nonatomic) UIInputViewSet *inputViewSet; // @synthesize inputViewSet=_inputViewSet;
-@property(readonly, nonatomic) UIWindow *inputViewWindow; // @synthesize inputViewWindow=_inputViewWindow;
-@property(nonatomic) _Bool shouldShowDockView; // @synthesize shouldShowDockView=_shouldShowDockView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,12 +5,10 @@
 //
 
 @class CKStoreClient;
-@protocol CKPushNotificationManagerDelegate;
 
 @interface CKPushNotificationManager
 {
     id _delegate;
-    CKStoreClient *_storeClient;
 }
 
 + (id);
@@ -26,10 +24,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,7 +37,6 @@
 - (void);
 
 // Remaining properties
-@property __weak id <CKPushNotificationManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

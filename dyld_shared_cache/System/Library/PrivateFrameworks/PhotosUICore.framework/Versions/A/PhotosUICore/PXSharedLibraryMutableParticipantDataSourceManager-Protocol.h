@@ -5,5 +5,6 @@
 //
 
 @protocol PXSharedLibraryMutableParticipantDataSourceManager
+- (void);
 @end
 

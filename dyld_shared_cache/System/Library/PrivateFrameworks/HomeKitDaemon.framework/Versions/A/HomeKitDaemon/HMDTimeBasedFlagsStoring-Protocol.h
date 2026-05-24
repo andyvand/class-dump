@@ -8,6 +8,6 @@
 
 @protocol HMDTimeBasedFlagsStoring
 - (NSDictionary *)s for persons because data is not available;
-- (NSDictionary *)lType_5_1;
+- (NSDictionary *)HMDCameraRecordingH264LevelType_5_1;
 @end
 

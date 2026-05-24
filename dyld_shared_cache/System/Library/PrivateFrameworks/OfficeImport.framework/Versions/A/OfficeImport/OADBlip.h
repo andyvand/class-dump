@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADSubBlip;
-
 __attribute__((visibility("hidden")))
 @interface OADBlip
 {
     unsigned int mReferenceCount;
-    OADSubBlip *mMainSubBlip;
-    OADSubBlip *mAltSubBlip;
 }
 
-+ (id);
-- (void);
++ (id)	;
+- (void)�;
 - (unsigned int *);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void)ô;

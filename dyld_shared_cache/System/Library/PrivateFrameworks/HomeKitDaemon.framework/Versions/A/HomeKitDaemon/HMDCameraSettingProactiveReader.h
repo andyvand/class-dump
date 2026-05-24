@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraStreamPreferences, HMDHAPAccessory, HMFMessage, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDCameraSettingProactiveReaderDelegate, HMMLogEventSubmitting, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSettingProactiveReader
 {
     NSString *_logIdentifier;
-    id <HMDCameraSettingProactiveReaderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_sessionUUID;
-    HMDHAPAccessory *_accessory;
-    NSSet *_streamControlMessageHandlers;
-    HMCameraStreamPreferences *_streamPreferences;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMFMessage *_pendingNegotiateMessage;
 }
 
 + (id);
 + (id)#ÂÿGT¤ØáB;
-- (id);
-- (id);
-- (void);
+- (id)_processedContentsForPersisterContents: /* Error: Ran out of types for this method. */;
+- (id)_preventAssertionsForDuplicateStorageIdentifiersInContainersCreatedPerfomingBlock: /* Error: Ran out of types for this method. */;
+- (void)g to share with contact %{private}@:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
@@ -47,21 +39,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraSettingProactiveReaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(retain) HMFMessage *pendingNegotiateMessage; // @synthesize pendingNegotiateMessage=_pendingNegotiateMessage;
-@property(readonly) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) NSSet *streamControlMessageHandlers; // @synthesize streamControlMessageHandlers=_streamControlMessageHandlers;
-@property(readonly) HMCameraStreamPreferences *streamPreferences; // @synthesize streamPreferences=_streamPreferences;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

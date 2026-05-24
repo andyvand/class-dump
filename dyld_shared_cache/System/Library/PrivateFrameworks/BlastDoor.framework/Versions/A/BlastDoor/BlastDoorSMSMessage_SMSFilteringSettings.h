@@ -12,15 +12,13 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)tManager"16;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *filterExtensionName;
-@property(nonatomic, readonly) unsigned long long smsFilterCapabilitiesOptions;
 
 @end
 

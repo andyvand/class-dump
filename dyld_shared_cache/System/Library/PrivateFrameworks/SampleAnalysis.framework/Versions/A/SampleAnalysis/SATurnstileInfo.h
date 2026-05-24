@@ -6,19 +6,14 @@
 
 #import <SampleAnalysis/SABlockingInfo.h>
 
-@class NSString;
-
 @interface SATurnstileInfo : SABlockingInfo
 {
     unsigned char _priority;
-    unsigned char _numHops;
-    unsigned long long _context;
-    unsigned long long _flags;
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)accessibilityMinValueAsNumber;
+- (id).3lf;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -26,28 +21,18 @@
 - (unsigned char);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ephemeralSessionConfiguration;
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)߸;
 - (unsigned char)f(*serializedExclaveCallstack);
 
 // Remaining properties
-@property(readonly) unsigned long long context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long flags; // @synthesize flags=_flags;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned char numHops; // @synthesize numHops=_numHops;
-@property(readonly) unsigned char priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
 
 @end
 

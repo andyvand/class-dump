@@ -7,25 +7,21 @@
 @interface AFLocationFetchRequest
 {
     double _desiredAccuracy;
-    unsigned long long _style;
-    double _timeout;
 }
 
 + (_Bool);
-- (void);
-- (unsigned long long);
+- (void)_beginMatchingCompletions;
+- (unsigned long long)integerValue;
 - (id);
 - (id);
 - (void);
 - (void);
 - (double);
-- (void)lGroup;
-- (double);
+- (void)controlGroup;
+- (double)RequestIdForMyriad;
 
 // Remaining properties
 @property(nonatomic) double desiredAccuracy; // @synthesize desiredAccuracy=_desiredAccuracy;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

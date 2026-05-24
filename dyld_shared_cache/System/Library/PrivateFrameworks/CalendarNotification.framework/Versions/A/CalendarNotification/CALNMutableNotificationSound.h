@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void)E;
+- (id)allowsPrivacyLevelModifications;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alertTopic; // @dynamic alertTopic;

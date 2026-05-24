@@ -5,5 +5,6 @@
 //
 
 @protocol MPShuffleableSectionedIdentifierListDataSource
+- (_Bool);
 @end
 

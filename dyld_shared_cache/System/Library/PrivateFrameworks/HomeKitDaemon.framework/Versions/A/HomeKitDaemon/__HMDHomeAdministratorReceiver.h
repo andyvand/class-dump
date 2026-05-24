@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeAdministratorHandler, NSObject, NSString, NSUUID;
-@protocol HMFMessageReceiver, OS_dispatch_queue;
+@protocol HMFMessageReceiver;
 
 __attribute__((visibility("hidden")))
 @interface __HMDHomeAdministratorReceiver
 {
     id <HMFMessageReceiver> _receiver;
-    HMDHomeAdministratorHandler *_handler;
 }
 
 + (id)ß¢Ì
@@ -24,25 +22,12 @@ B;
 - (id);
 - (id);
 - (id);
-- (id)LEAccessoryReachable: /* Error: Ran out of types for this method. */;
+- (id)setAnyBTLEAccessoryReachable: /* Error: Ran out of types for this method. */;
 - (id)meout for message %@(%@);
 - (void)d2 ON xact(root, xact_id, id);;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) __weak HMDHomeAdministratorHandler *handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(readonly) __weak id <HMFMessageReceiver> receiver; // @synthesize receiver=_receiver;
-@property(readonly) Class superclass;
 
 @end
 

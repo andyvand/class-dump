@@ -6,17 +6,12 @@
 
 #import <CoreData/NSStoreMapping.h>
 
-@class NSArray, NSDictionary, NSEntityDescription, NSString;
+@class NSEntityDescription;
 
 __attribute__((visibility("hidden")))
 @interface NSEntityStoreMapping : NSStoreMapping
 {
     NSEntityDescription *_entity;
-    NSDictionary *_propertyMappings;
-    NSArray *_primaryKeys;
-    _Bool _isSingleTableEntity;
-    NSString *_subentityColumn;
-    unsigned int _subentityID;
 }
 
 - (void);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id)nitForMessage:(id)arg1 store: /* Error: Ran out of types for this method. */;
+- (id)initForMessage:(id)arg1 store: /* Error: Ran out of types for this method. */;
 - (id)%@ UNIQUE;
 
 @end

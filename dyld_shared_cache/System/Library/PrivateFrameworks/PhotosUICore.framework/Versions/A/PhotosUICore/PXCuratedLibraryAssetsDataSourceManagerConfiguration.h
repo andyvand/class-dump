@@ -9,7 +9,6 @@
 @interface PXCuratedLibraryAssetsDataSourceManagerConfiguration
 {
     _Bool _enableDays;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (id)È=;
 
 // Remaining properties
-@property(nonatomic) _Bool enableDays; // @synthesize enableDays=_enableDays;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end

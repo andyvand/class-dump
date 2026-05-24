@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSString;
 
 @interface CMCaptureFrameReceiver
 {
     NSString *_endpointUniqueID;
-    CDUnknownBlockType _frameReceiverHandler;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _endpointPID;
-    int _endpointProxyPID;
-    NSData *_endpointAuditToken;
-    NSData *_endpointProxyAuditToken;
-    _Bool _connectionIsValid;
 }
 
 + (id);
-+ (void)xtPipelineOutput;
++ (void)nextPipelineOutput;
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)#;
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)T@"NSArray",R,V_shortMonthSymbols;
 
 // Remaining properties
-@property(readonly, copy) NSData *endpointAuditToken; // @synthesize endpointAuditToken=_endpointAuditToken;
-@property(readonly) int endpointPID; // @synthesize endpointPID=_endpointPID;
-@property(readonly, copy) NSData *endpointProxyAuditToken; // @synthesize endpointProxyAuditToken=_endpointProxyAuditToken;
-@property(readonly) int endpointProxyPID; // @synthesize endpointProxyPID=_endpointProxyPID;
 @property(readonly, copy) NSString *endpointUniqueID; // @synthesize endpointUniqueID=_endpointUniqueID;
 
 @end

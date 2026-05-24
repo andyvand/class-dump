@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreTelephonyClient, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CoreTelephonyClient;
 
 __attribute__((visibility("hidden")))
 @interface CoreTelephonyShim
 {
     CoreTelephonyClient *_coreTelephonyClient;
-    NSMutableSet *_delegates;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -22,22 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)%3;
+- (void)(;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?
+q;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,7 +15,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *expression;
-@property(readonly, nonatomic) struct _NSRange expressionRangeInTextStorage;
-@property(readonly, copy, nonatomic) NSString *localizedError;
 @end
 

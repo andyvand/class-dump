@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaErrorInfo : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
@@ -22,28 +19,24 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool));
 - (void);
-- (unsigned long long);
+- (unsigned long long)_artistName;
+- (_Bool)lid parameter not satisfying '%s';
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Su45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDSqlOperationCoreSDB.m;
 - (id);
 - (id);
 - (id)
 × ;
-- (id)dateIds;
-- (id)s;
+- (id)deleteCandidateIds;
+- (id)_correctAlignedUnfilteredPartialResultIndexLists;
 - (long long)d;
-- (void)PENDING_CANDIDATE;
-- (void)MENTAUTHENTICATIONREQUESTAUTHENTICATIONLEVEL_UNKNOWN;
+- (void)MHVOICETRIGGERSECONDPASSREJECTREASON_PENDING_CANDIDATE;
+- (void)IFTSYSTEMREQUIREMENTAUTHENTICATIONREQUESTAUTHENTICATIONLEVEL_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

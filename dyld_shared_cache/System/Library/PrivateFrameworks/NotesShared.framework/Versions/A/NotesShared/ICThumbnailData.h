@@ -9,14 +9,11 @@
 @interface ICThumbnailData
 {
     _Bool _showAsFileIcon;
-    _Bool _isMovie;
-    NSImage *_image;
-    unsigned long long _imageScaling;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)le.Kerberos.kpasswdd;
+- (void)ribute dictionary is NULL;
 - (id);
 - (void);
 - (unsigned long long);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long imageScaling; // @synthesize imageScaling=_imageScaling;
-@property(nonatomic) _Bool isMovie; // @synthesize isMovie=_isMovie;
-@property(nonatomic) _Bool showAsFileIcon; // @synthesize showAsFileIcon=_showAsFileIcon;
 
 @end
 

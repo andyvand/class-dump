@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPHomeKeychainFabricData
 {
     _Bool _signedOut;
-    NSUUID *_homeUUID;
-    NSString *_iCloudIdentifier;
 }
 
 + (id)îB;
-- (id);
+- (id)ng",&,N,V_fromID;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)jh8?k ;
 - (id)!äCù1ð1Â0@ù
 × ;
 - (void)LÿÿÕ~&lÿÿÕ~&pÿÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fabricDataItems; // @dynamic fabricDataItems;
 @property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) NSString *iCloudIdentifier; // @synthesize iCloudIdentifier=_iCloudIdentifier;
-@property(readonly) _Bool signedOut; // @synthesize signedOut=_signedOut;
 
 @end
 

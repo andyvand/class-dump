@@ -9,19 +9,17 @@
 @interface PGTitle
 {
     NSString *_stringValue;
-    long long _category;
 }
 
-+ (id);
++ (id)pathForSoundResource:(id)arg1;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (long long);
 - (id);
 - (void)7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/Memory Generators/CurrentMemoryGenerators/MeaningMemoryGenerators/PGMeaningfulEventMemoryGenerator.m;
 
 // Remaining properties
-@property(readonly, nonatomic) long long category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end

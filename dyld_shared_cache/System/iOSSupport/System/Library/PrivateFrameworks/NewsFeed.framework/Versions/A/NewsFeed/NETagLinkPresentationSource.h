@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NELinkMetadataSource;
+@class NELinkMetadataSource;
 
 @interface NETagLinkPresentationSource
 {
@@ -14,12 +14,11 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)P`ñþe3:ðwþe3:ÄË$ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
 @property(readonly, nonatomic) NELinkMetadataSource *linkMetadataSource; // @synthesize linkMetadataSource=_linkMetadataSource;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessagePartChatItem, NSLayoutConstraint, NSMenuItem, NSMutableArray, NSMutableSet, NSPopover, NSString, NSTableView;
+@class IMMessagePartChatItem;
 @protocol SOStickerViewerControllerDelegate;
 
 @interface SOStickerViewerController
 {
     id <SOStickerViewerControllerDelegate> _delegate;
-    IMMessagePartChatItem *_chatItem;
-    NSPopover *_popover;
-    NSMutableArray *_stickers;
-    NSMutableSet *_stickerTransferGUIDsToDelete;
-    NSTableView *_stickerTableView;
-    NSLayoutConstraint *_preferredScrollViewHeightConstraint;
-    NSMenuItem *_deleteStickersMenuItem;
 }
 
 - (id);
@@ -30,50 +23,36 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (double);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)@0:(id)arg1 8{?=qiIq}16f40d44@?52;
+- (_Bool)vitalityEaseDuration;
+- (id)videoWillPlayToEndInterval;
+- (id)videoPlayerForPlayer:(id)arg1;
+- (double)valueWithCMTime:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void)_providesExplicitSizeSnapshot;
+- (void)copyAllDSRecords:(id)arg1 fromSourceSystem:toSystem:andCommitChanges:andVerbose: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (id)#;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)itemAtURL:(id)arg1 didLoseVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)presentedSubitemAtURL:(id)arg1 didLoseVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SOStickerViewerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMenuItem *deleteStickersMenuItem; // @synthesize deleteStickersMenuItem=_deleteStickersMenuItem;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSPopover *popover; // @synthesize popover=_popover;
-@property(retain) NSLayoutConstraint *preferredScrollViewHeightConstraint; // @synthesize preferredScrollViewHeightConstraint=_preferredScrollViewHeightConstraint;
-@property(retain) NSTableView *stickerTableView; // @synthesize stickerTableView=_stickerTableView;
-@property(retain, nonatomic) NSMutableSet *stickerTransferGUIDsToDelete; // @synthesize stickerTransferGUIDsToDelete=_stickerTransferGUIDsToDelete;
-@property(retain, nonatomic) NSMutableArray *stickers; // @synthesize stickers=_stickers;
-@property(readonly) Class superclass;
 
 @end
 

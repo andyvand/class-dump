@@ -5,5 +5,9 @@
 //
 
 @protocol _CDInteractionDeleting
+- (unsigned long long)Pq;
+- (void)B;
+- (unsigned long long)u6;
+- (void)@;
 @end
 

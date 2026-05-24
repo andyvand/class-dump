@@ -9,34 +9,30 @@
 @interface IMOneTimeCodeAccelerator
 {
     CDUnknownBlockType _settingUpdateBlock;
-    id <IMDaemonMultiplexedConnectionManaging> _daemonConnection;
-    CDUnknownBlockType _updateBlock;
 }
 
-+ (id);
-+ (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id):@ AVCVirtualTTYDevice-dealloc /* Error: Ran out of types for this method. */;
++ (void)daptation=%d audioTxRedRate=%ukbps;
+- (CDUnknownBlockType)on=%f;
+- (void)erationWithStreamID:%d FIRType:%d /* Error: Ran out of types for this method. */;
+- (void)ipant dealloc %@;
+- (void)s] %s:(id)arg1 %d Negotiation blob requested with protocol version=%d;
+- (void)ing mediaNegotiatorVersion=%d;
+- (void)streamID=%@ does not exist;
+- (void)] isLocalInitiated:(id)arg1 %d isLocalSideOnly:%d message:%@, symptomID:%d, groupID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)E ALWAYS RULE ;
+- (void);
 - (void)ìQ;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDaemonMultiplexedConnectionManaging> daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property(copy, nonatomic) CDUnknownBlockType settingUpdateBlock; // @synthesize settingUpdateBlock=_settingUpdateBlock;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

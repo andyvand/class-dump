@@ -6,20 +6,20 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAIntentGroupSiriKitMetrics : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)B;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -32,20 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *intentTypeName;
-@property(copy, nonatomic) NSString *interactionId;
-@property(copy, nonatomic) NSString *metricsStateOrigin;
-@property(copy, nonatomic) NSString *resultCandidateId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *taskId;
-@property(copy, nonatomic) NSNumber *taskStepStartTime;
-@property(copy, nonatomic) NSString *turnId;
 
 @end
 

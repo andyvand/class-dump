@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVendorIDLink
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _reservationTypes;
-    NSString *_externalItemId;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_reservationTypes:1;
-        unsigned int read_externalItemId:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)TSection";
+- (id)initWithResult:voiceTriggerEventInfo:isSecondChanceCandidate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)elegate>";
-- (id)ldDisplayOnMap;
+- (id)_shouldDisplayOnMap;
 - (id)<ôD;
 - (void)ÙkîJ@;
 

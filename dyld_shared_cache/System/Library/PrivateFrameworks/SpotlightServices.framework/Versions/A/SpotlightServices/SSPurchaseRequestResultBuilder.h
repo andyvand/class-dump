@@ -6,27 +6,12 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString;
-
 @interface SSPurchaseRequestResultBuilder : SSResultBuilder
 {
     int _requestStatus;
-    double _starRating;
-    NSArray *_approvers;
-    NSDate *_requestDate;
-    NSDate *_respondDate;
-    NSString *_ageRating;
-    NSString *_appName;
-    NSString *_appPrice;
-    NSString *_appType;
-    NSString *_requesterContactIdentifier;
-    NSString *_requestIdentifier;
-    NSString *_requestStatusString;
-    NSString *_requesterName;
-    NSString *_thumbnailAppType;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -39,51 +24,38 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)setUserInterfaceLayoutDirection: /* Error: Ran out of types for this method. */;
+- (_Bool)setUseSpecializedProviders: /* Error: Ran out of types for this method. */;
+- (id)setUseSegmentedControl: /* Error: Ran out of types for this method. */;
+- (id)setSymbolConfiguration: /* Error: Ran out of types for this method. */;
+- (id)setSourceContextIcon: /* Error: Ran out of types for this method. */;
+- (id)setSourceApplication: /* Error: Ran out of types for this method. */;
+- (_Bool)setShouldApplyFallbackFontForTruncatedSingleLine: /* Error: Ran out of types for this method. */;
+- (id)setShouldApplyFallbackFontForTruncatedSingleLine: /* Error: Ran out of types for this method. */;
+- (id)setPulsingLoadIndicatorDuration: /* Error: Ran out of types for this method. */;
+- (id)setPresentationProperties: /* Error: Ran out of types for this method. */;
+- (void)setDecodingFailurePolicy:(id)arg1;
+- (id)scheduledTimerWithTimeInterval:(id)arg1 repeats:block: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)SOActionCellView;
+- (int);
 - (id);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
+- (id)P;
+- (void)c;
 - (void);
 - (void);
 - (id);
-- (void)ittingSet;
-- (id)te;
+- (double)tion:%d /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)hittingSet;
+- (id)kQPDate;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ageRating; // @synthesize ageRating=_ageRating;
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(retain, nonatomic) NSString *appPrice; // @synthesize appPrice=_appPrice;
-@property(retain, nonatomic) NSString *appType; // @synthesize appType=_appType;
-@property(retain, nonatomic) NSArray *approvers; // @synthesize approvers=_approvers;
-@property(retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 @property(nonatomic) int requestStatus; // @synthesize requestStatus=_requestStatus;
-@property(retain, nonatomic) NSString *requestStatusString; // @synthesize requestStatusString=_requestStatusString;
-@property(retain, nonatomic) NSString *requesterContactIdentifier; // @synthesize requesterContactIdentifier=_requesterContactIdentifier;
-@property(retain, nonatomic) NSString *requesterName; // @synthesize requesterName=_requesterName;
-@property(retain, nonatomic) NSDate *respondDate; // @synthesize respondDate=_respondDate;
-@property(nonatomic) double starRating; // @synthesize starRating=_starRating;
-@property(retain, nonatomic) NSString *thumbnailAppType; // @synthesize thumbnailAppType=_thumbnailAppType;
 
 @end
 

@@ -8,9 +8,9 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)not valid;
+- (id)s:(id)arg1 %d AudioReceiver[%p] Unregistered statisticsCollector[%p] with index=%d;
+- (id)veProbing failed:(id)arg1 Link probing not enabled;
 
 @end
 

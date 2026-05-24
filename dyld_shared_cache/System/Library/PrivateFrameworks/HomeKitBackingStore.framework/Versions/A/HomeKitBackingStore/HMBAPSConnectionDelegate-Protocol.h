@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class APSIncomingMessage;
+@protocol HMBAPSConnection;
+
 @protocol HMBAPSConnectionDelegate
+- (void)newTransformerInstanceForLanguage:(id <HMBAPSConnection>)arg1 mode:(APSIncomingMessage *)arg2 plistPath:vocabPath: /* Error: Ran out of types for this method. */;
 @end
 

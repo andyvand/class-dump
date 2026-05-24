@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationRequest, AKAuthorizationScopesUserSelection, AKCompanionKeyEnvelope, AKDevice, NSDictionary, NSString, NSUUID;
-
 @interface AKAuthorizationContext
 {
     _Bool _clientAuthenticatedExternallyWithPassword;
-    _Bool _isMDMInformationRequired;
-    _Bool _isAuthorizingForSharedSIWAAccount;
-    _Bool _shouldRequestToArmDeviceToAllowPCSKeyUpload;
-    NSUUID *_identifier;
-    NSString *_username;
-    NSString *_altDSID;
-    long long _serviceType;
-    unsigned long long _authenticationType;
-    unsigned long long _authenticationMode;
-    NSString *_proxiedAppName;
-    NSDictionary *_appProvidedData;
-    NSString *_appProvidedContext;
-    AKDevice *_proxiedDevice;
-    AKDevice *_companionDevice;
-    NSString *_externalAuthToken;
-    AKCompanionKeyEnvelope *_companionKeyEnvelope;
-    NSString *_sharedSIWAAccountShareToken;
-    NSString *_sharedSIWAAccountGroupID;
-    NSString *_teamID;
-    NSString *_clientID;
-    AKAuthorizationRequest *_request;
-    AKAuthorizationScopesUserSelection *_userSelection;
-    NSString *_realUserVerificationData;
 }
 
 + (_Bool);
@@ -44,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -61,9 +36,9 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (id);
@@ -71,13 +46,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)( ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ler=%p;
 - (id);
 - (id);
 - (id);
@@ -90,38 +65,7 @@
 Õ(ÄÕ(ÄÑÕ(Ä\Õ(ÄaÕ(ÄìÕ(ÄºÕ(Ä7Õ(ÄÆÕ(ÄKÕ(ÄÕ(ÄÕ(ÄHÕ(ÄÅÕ(ÄÕ(ÄÕ(ÄïÕ(ÄbÕ(Ä4Õ(Ä¹Õ(Ä¾Õ(Ä3Õ(ÄeÕ(ÄèÕ(ÄÕ(ÄÕ(ÄÂÕ(ÄOÕ(ÄÕ(ÄÕ(ÄLÕ(ÄÁÕ(Ä0Õ(Ä½Õ(ÄëÕ(ÄfÕ(Ä[Õ(ÄÖÕ(ÄÕ(ÄÕ(ÄüÕ(ÄqÕ(Ä'Õ(ÄªÕ(ÄrÕ(ÄÿÕ(Ä©Õ(Ä$Õ(ÄÕÕ(ÄXÕ(ÄÕ(ÄÕ(ÄMÕ(ÄÀÕ(ÄÕ(ÄÕ(ÄêÕ(ÄgÕ(Ä1Õ(Ä¼Õ(ÄdÕ(ÄéÕ(Ä¿Õ(Ä2Õ(ÄÃÕ(ÄNÕ(ÄÕ(ÄÕ(Ä¨Õ(Ä%Õ(ÄsÕ(ÄþÕ(ÄÕ(ÄÕ(ÄÔÕ(ÄYÕ(ÄÕ(ÄÕ(ÄZÕ(Ä×Õ(Ä&Õ(Ä«Õ(ÄýÕ(ÄpÕ(ÄwÕ(ÄúÕ(Ä¬Õ(Ä!Õ(ÄÐÕ(Ä]Õ(ÄÕ(ÄÕ(Ä^Õ(ÄÓÕ(ÄÕ(ÄÕ(ÄùÕ(ÄtÕ(Ä"Õ(Ä¯Õ(ÄÕ(ÄÕ(ÄIÕ(ÄÄÕ(Ä5Õ(Ä¸Õ(ÄîÕ(ÄcÕ(Ä»Õ(Ä6Õ(Ä`Õ(ÄíÕ(ÄÕ(ÄÕ(ÄÇÕ(ÄJÕ(ÄQÕ(ÄÜÕ(ÄÕ(ÄÕ(ÄöÕ(Ä{Õ(Ä-Õ(Ä Õ(ÄxÕ(ÄõÕ(Ä£Õ(Ä.Õ(ÄßÕ(ÄRÕ(ÄÕ(ÄÕ(Ä´Õ(Ä9Õ(ÄoÕ(ÄâÕ(ÄÕ(ÄÕ(ÄÈÕ(ÄEÕ(ÄÕ(ÄÕ(ÄFÕ(ÄËÕ(Ä:Õ(Ä·Õ(ÄáÕ(ÄlÕ(ÄkÕ(ÄæÕ(Ä°Õ(Ä=Õ(ÄÌÕ(ÄAÕ(ÄÕ(ÄÕ(ÄBÕ(ÄÏÕ(ÄÕ(ÄÕ(ÄåÕ(ÄhÕ(Ä>Õ(Ä³Õ(ÄÕ(ÄÕ(ÄUÕ(ÄØÕ(Ä)Õ(Ä¤Õ(ÄòÕ(ÄÕ(Ä§Õ(Ä*Õ(Ä|Õ(ÄñÕ(Ä /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool _clientAuthenticatedExternallyWithPassword; // @synthesize _clientAuthenticatedExternallyWithPassword;
-@property(copy, nonatomic) NSString *_externalAuthToken; // @synthesize _externalAuthToken;
 @property(readonly, nonatomic) _Bool _hasApplicationMetaData;
-@property(readonly, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
-@property(nonatomic) _Bool _isAuthorizingForSharedSIWAAccount; // @synthesize _isAuthorizingForSharedSIWAAccount;
-@property(copy, nonatomic, setter=_setProxiedAppName:) NSString *_proxiedAppName; // @synthesize _proxiedAppName;
-@property(copy, nonatomic) NSString *_sharedSIWAAccountGroupID; // @synthesize _sharedSIWAAccountGroupID;
-@property(copy, nonatomic) NSString *_sharedSIWAAccountShareToken; // @synthesize _sharedSIWAAccountShareToken;
-@property(nonatomic) _Bool _shouldRequestToArmDeviceToAllowPCSKeyUpload; // @synthesize _shouldRequestToArmDeviceToAllowPCSKeyUpload;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *appProvidedContext; // @synthesize appProvidedContext=_appProvidedContext;
-@property(copy, nonatomic) NSDictionary *appProvidedData; // @synthesize appProvidedData=_appProvidedData;
-@property(nonatomic) unsigned long long authenticationMode; // @synthesize authenticationMode=_authenticationMode;
-@property(nonatomic) unsigned long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) AKDevice *companionDevice; // @synthesize companionDevice=_companionDevice;
-@property(retain, nonatomic) AKCompanionKeyEnvelope *companionKeyEnvelope; // @synthesize companionKeyEnvelope=_companionKeyEnvelope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMDMInformationRequired; // @synthesize isMDMInformationRequired=_isMDMInformationRequired;
-@property(copy, nonatomic) AKDevice *proxiedDevice; // @synthesize proxiedDevice=_proxiedDevice;
-@property(copy, nonatomic) NSString *realUserVerificationData; // @synthesize realUserVerificationData=_realUserVerificationData;
-@property(readonly, copy, nonatomic) AKAuthorizationRequest *request; // @synthesize request=_request;
-@property(nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
-@property(retain, nonatomic) AKAuthorizationScopesUserSelection *userSelection; // @synthesize userSelection=_userSelection;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABCDLegacyFilesystemImageHelper
 {
     NSString *_imagesDirectory;
-    NSString *_contactIdentifier;
-    NSArray *_emailAddresses;
 }
 
 + (id);
@@ -35,8 +33,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
 @property(readonly) NSString *imagesDirectory; // @synthesize imagesDirectory=_imagesDirectory;
 
 @end

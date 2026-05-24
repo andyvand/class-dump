@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFTrigger.h>
 
-@class MKFEventTriggerDatabaseID, NSArray, NSData, NSDate, NSNumber, NSPredicate, NSSet, NSString, NSUUID;
-@protocol MKFHome, MKFUser;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _MKFEventTrigger : _MKFTrigger
@@ -18,35 +17,35 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)MSPDroppedPin;
+- (id)MSPSharedTripMessagesCapabilityFetchingQueue;
+- (id)MSPExtras;
+- (id)MSPSharedTripBlocklist;
+- (id)MSPTransitStorageIcon;
+- (id)MSPTransitStorageLineItem;
+- (id)GEOTransitIncident;
+- (id)GEOTransitShieldDataSource;
+- (id)GEOMethodNotAvailableException;
+- (id)dentifiers;
+- (id)com.apple.Maps.MSPContainerPreventAssertionsForDuplicateStorageIdentifiers;
+- (id)MSPDuplicateStorageIdentifiersObjects;
+- (id)MSPContainerUnavailableKeys;
+- (id)MSPMutableObjectContentDidUpdateNotification;
+- (id)alternate_artwork;
+- (id)line_color_string;
+- (id)^;
 - (id);
 - (void);
 - (id);
@@ -54,38 +53,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actionSets;
-@property(copy, nonatomic) NSNumber *active;
-@property(copy, nonatomic) NSNumber *autoDelete;
-@property(copy, nonatomic) NSString *configuredName;
-@property(readonly, copy, nonatomic) MKFEventTriggerDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSPredicate *evaluationCondition; // @dynamic evaluationCondition;
-@property(readonly, retain, nonatomic) NSArray *events;
-@property(retain, nonatomic) NSSet *events_; // @dynamic events_;
-@property(copy, nonatomic) NSNumber *executeOnce; // @dynamic executeOnce;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSDate *mostRecentFireDate;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) id <MKFUser> owner;
-@property(copy, nonatomic) NSNumber *recurrenceDays; // @dynamic recurrenceDays;
-@property(retain, nonatomic) NSData *recurrences; // @dynamic recurrences;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

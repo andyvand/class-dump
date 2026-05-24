@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSDarkWakePowerAssertionMac
 {
     unsigned int _assertionID;
-    NSString *_description;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)cachedEndpointerMetrics;
 
 @end
 

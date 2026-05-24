@@ -9,27 +9,25 @@
 @interface IDSQRProtoH3EndToEndChannelUnRegisterIndication
 {
     unsigned long long _txnId;
-    NSData *_e2eChannelUuid;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)writeOnTransportBlocking:(id)arg1 length:numberOfWrittenBytes: /* Error: Ran out of types for this method. */;
+- (void)SessionStart];
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *e2eChannelUuid; // @synthesize e2eChannelUuid=_e2eChannelUuid;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

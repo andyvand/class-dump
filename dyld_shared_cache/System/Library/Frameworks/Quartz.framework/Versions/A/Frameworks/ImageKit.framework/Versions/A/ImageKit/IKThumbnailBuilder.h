@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheDatabaseEntry, IKCacheManager, IKImageWrapper, NSDictionary, NSString, NSURL;
+@class IKCacheManager;
 
 @interface IKThumbnailBuilder
 {
     IKCacheManager *_cache;
-    NSString *_uid;
-    int _modelSize;
-    unsigned long long _version;
-    id _cell;
-    IKImageWrapper *_image;
-    IKImageWrapper *_thumbnail;
-    _Bool _modelIsOriginalImage;
-    _Bool _thumbnailAlreadyExistInCache;
-    _Bool _supportsConcurrent;
-    _Bool _completed;
-    _Bool _requiresQuicklook;
-    NSDictionary *_quicklookOptions;
-    NSURL *_quicklookURL;
-    double _thumbnailSize;
-    int _quality;
-    IKCacheDatabaseEntry *_cacheEntry;
 }
 
 + (id);
@@ -33,14 +17,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -52,7 +36,7 @@
 - (_Bool);
 - (id);
 - (int)Point=dd}16B32;
-- (double)ionary: /* Error: Ran out of types for this method. */;
+- (double)imageBrowser:addChildren:ofItem:toPasteboardDictionary: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,41 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODrivingWalkingInstruction, GEODrivingWalkingSpokenInstruction, GEOFormattedString, GEOGenericInstruction, GEOTransitListInstruction, GEOTransitSignInstruction, NSString, PBDataReader, PBUnknownFields;
-@protocol GEOServerFormattedString;
+@class PBDataReader;
 
 @interface GEOInstructionSet
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_countStopsText;
-    GEOFormattedString *_departureBar;
-    GEODrivingWalkingInstruction *_drivingWalkingListInstruction;
-    GEODrivingWalkingInstruction *_drivingWalkingSignInstruction;
-    GEODrivingWalkingSpokenInstruction *_drivingWalkingSpokenInstruction;
-    GEOGenericInstruction *_genericInstruction;
-    GEOTransitListInstruction *_transitListInstruction;
-    GEOTransitSignInstruction *_transitSignInstruction;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _departureBarStyle;
-    struct {
-        unsigned int has_departureBarStyle:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_countStopsText:1;
-        unsigned int read_departureBar:1;
-        unsigned int read_drivingWalkingListInstruction:1;
-        unsigned int read_drivingWalkingSignInstruction:1;
-        unsigned int read_drivingWalkingSpokenInstruction:1;
-        unsigned int read_genericInstruction:1;
-        unsigned int read_transitListInstruction:1;
-        unsigned int read_transitSignInstruction:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ndex:(id)arg1;
++ (_Bool)setHasRouteStepSubstepIndex:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -51,86 +24,55 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)roundNumber:usingSignificantDigits: /* Error: Ran out of types for this method. */;
+- (_Bool)profileConnection;
+- (_Bool)processInfo;
+- (_Bool)probabilityUtility;
+- (_Bool)observableWithResults: /* Error: Ran out of types for this method. */;
+- (_Bool)observableAtIndex:didReceiveResult:forObserver: /* Error: Ran out of types for this method. */;
+- (id)initWithBuilder: /* Error: Ran out of types for this method. */;
+- (id)dataWithContentsOfURL:sessionFactory: /* Error: Ran out of types for this method. */;
+- (id)applicationsAvailableForHandlingURLScheme: /* Error: Ran out of types for this method. */;
+- (id)applicationsAvailableForDefaultAppCategory:withReply: /* Error: Ran out of types for this method. */;
+- (id)_cn_shortDescription;
+- (int)_cn_setValue:forExtendedAttribute:url:error: /* Error: Ran out of types for this method. */;
+- (id)_cn_setValue:forExtendedAttribute:path:error: /* Error: Ran out of types for this method. */;
+- (long long)_cn_setObject:orPlaceholder:forKey: /* Error: Ran out of types for this method. */;
+- (id)_cn_setNonNilObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)URLWithDataRepresentation:relativeToURL: /* Error: Ran out of types for this method. */;
+- (id)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)te
+Country;
+- (int)NSMutableArray"16@?0@"<NSCopying>"8;
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (long long);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)16;
+- (id)outASBD:playbackStarted:userIntentOptions:completion:] /* Error: Ran out of types for this method. */;
+- (void)y;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)nfigParameters:(struct _NSZone *)arg1;
-- (id)StorageSetValueForKeyReply;
+- (id)setLayoutConfigParameters:(struct _NSZone *)arg1;
+- (id)GEOConfigStorageSetValueForKeyReply;
 - (id)d to create data object for quad key %{private}llu;
 - (id)À;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> countStopsFormattedString;
-@property(retain, nonatomic) GEOFormattedString *countStopsText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) GEOFormattedString *departureBar;
-@property(readonly, nonatomic) long long departureBarFormatStyle;
-@property(readonly, nonatomic) id <GEOServerFormattedString> departureBarFormattedString;
-@property(nonatomic) int departureBarStyle;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEODrivingWalkingInstruction *drivingWalkingListInstruction;
-@property(retain, nonatomic) GEODrivingWalkingInstruction *drivingWalkingSignInstruction;
-@property(retain, nonatomic) GEODrivingWalkingSpokenInstruction *drivingWalkingSpokenInstruction;
-@property(readonly, nonatomic) id <GEOServerFormattedString> expandableListFormattedString;
-@property(retain, nonatomic) GEOGenericInstruction *genericInstruction;
-@property(readonly, nonatomic) _Bool hasCountStopsText;
-@property(readonly, nonatomic) _Bool hasDepartureBar;
-@property(nonatomic) _Bool hasDepartureBarStyle;
-@property(readonly, nonatomic) _Bool hasDrivingWalkingListInstruction;
-@property(readonly, nonatomic) _Bool hasDrivingWalkingSignInstruction;
-@property(readonly, nonatomic) _Bool hasDrivingWalkingSpokenInstruction;
-@property(readonly, nonatomic) _Bool hasGenericInstruction;
-@property(readonly, nonatomic) _Bool hasTransitListInstruction;
-@property(readonly, nonatomic) _Bool hasTransitSignInstruction;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideTimeInstructionsIfCollapsed;
-@property(readonly, nonatomic) id <GEOServerFormattedString> primaryTimeFormattedString;
-@property(readonly, nonatomic) id <GEOServerFormattedString> secondaryTimeFormattedString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOTransitListInstruction *transitListInstruction;
-@property(retain, nonatomic) GEOTransitSignInstruction *transitSignInstruction;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

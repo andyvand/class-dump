@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTClippableImageStore, AVTSerialTaskScheduler, AVTStickerConfigurationProvider, AVTStickerGenerator, AVTStickerRecentsLayout, AVTStickerRecentsMigrator, AVTStickerRecentsOverlayView, AVTUIEnvironment, AVTUIStickerGeneratorPool, CALayer, NSArray, NSObject, NSString, UICollectionView, UICollectionViewFlowLayout;
-@protocol AVTAvatarRecord, AVTAvatarStoreInternal, AVTResourceCache, AVTStickerRecentsItem, AVTStickerRecentsViewControllerDelegate, NSObject, OS_dispatch_queue;
+@class AVTStickerRecentsMigrator;
 
 @interface AVTStickerRecentsViewController
 {
     _Bool _hasFetchedDefaultMemoji;
-    _Bool _showPrereleaseSticker;
-    id <AVTStickerRecentsViewControllerDelegate> _delegate;
-    AVTStickerRecentsMigrator *_stickerRecentsMigrator;
-    AVTStickerRecentsOverlayView *_overlayView;
-    id <NSObject> _avatarStoreChangeObserver;
-    id <AVTAvatarRecord> _defaultMemoji;
-    AVTClippableImageStore *_imageStore;
-    UICollectionViewFlowLayout *_collectionViewLayout;
-    UICollectionView *_collectionView;
-    id <AVTAvatarStoreInternal> _avatarStore;
-    AVTUIEnvironment *_environment;
-    id <AVTResourceCache> _cache;
-    AVTStickerGenerator *_stickerGenerator;
-    NSObject<OS_dispatch_queue> *_recentsWorkQueue;
-    NSObject<OS_dispatch_queue> *_renderingQueue;
-    NSObject<OS_dispatch_queue> *_encodingQueue;
-    AVTStickerConfigurationProvider *_configurationProvider;
-    AVTSerialTaskScheduler *_taskScheduler;
-    AVTUIStickerGeneratorPool *_generatorPool;
-    AVTStickerRecentsLayout *_stickerRecentsLayout;
-    id <AVTStickerRecentsItem> _buttonItem;
-    NSArray *_stickerItems;
-    NSArray *_displayItems;
-    CALayer *_edgeMaskLayer;
 }
 
 + (id);
@@ -80,7 +55,7 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -96,58 +71,28 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)for migration finishes.;
 - (void);
 - (id);
 - (void);
+- (id)pullMatchPolicyInfoData:replyBlock: /* Error: Ran out of types for this method. */;
+- (void)raction"16@"NSString"24@"NSString"32q40@?<v@?@"NSError">48;
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)g subscriber updates for personID:(id)arg1 %@ wasReset:(long long)arg2 %d
+Metadata:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)&,N,V_remoteContentCachePromise;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)vironment:(id)arg1;
+- (id)initWithThumbnailScheduler:(id)arg1 renderingScheduler:(id)arg2 environment: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(retain, nonatomic) id <NSObject> avatarStoreChangeObserver; // @synthesize avatarStoreChangeObserver=_avatarStoreChangeObserver;
-@property(retain, nonatomic) id <AVTStickerRecentsItem> buttonItem; // @synthesize buttonItem=_buttonItem;
-@property(readonly, nonatomic) id <AVTResourceCache> cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UICollectionViewFlowLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(retain, nonatomic) AVTStickerConfigurationProvider *configurationProvider; // @synthesize configurationProvider=_configurationProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <AVTAvatarRecord> defaultMemoji; // @synthesize defaultMemoji=_defaultMemoji;
-@property(nonatomic) __weak id <AVTStickerRecentsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *displayItems; // @synthesize displayItems=_displayItems;
-@property(retain, nonatomic) CALayer *edgeMaskLayer; // @synthesize edgeMaskLayer=_edgeMaskLayer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *encodingQueue; // @synthesize encodingQueue=_encodingQueue;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) AVTUIStickerGeneratorPool *generatorPool; // @synthesize generatorPool=_generatorPool;
-@property(nonatomic) _Bool hasFetchedDefaultMemoji; // @synthesize hasFetchedDefaultMemoji=_hasFetchedDefaultMemoji;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVTClippableImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(retain, nonatomic) AVTStickerRecentsOverlayView *overlayView; // @synthesize overlayView=_overlayView;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *recentsWorkQueue; // @synthesize recentsWorkQueue=_recentsWorkQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *renderingQueue; // @synthesize renderingQueue=_renderingQueue;
-@property(nonatomic) _Bool showPrereleaseSticker; // @synthesize showPrereleaseSticker=_showPrereleaseSticker;
-@property(readonly, nonatomic) AVTStickerGenerator *stickerGenerator; // @synthesize stickerGenerator=_stickerGenerator;
-@property(retain, nonatomic) NSArray *stickerItems; // @synthesize stickerItems=_stickerItems;
-@property(readonly, nonatomic) AVTStickerRecentsLayout *stickerRecentsLayout; // @synthesize stickerRecentsLayout=_stickerRecentsLayout;
 @property(retain, nonatomic) AVTStickerRecentsMigrator *stickerRecentsMigrator; // @synthesize stickerRecentsMigrator=_stickerRecentsMigrator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVTSerialTaskScheduler *taskScheduler; // @synthesize taskScheduler=_taskScheduler;
 
 @end
 

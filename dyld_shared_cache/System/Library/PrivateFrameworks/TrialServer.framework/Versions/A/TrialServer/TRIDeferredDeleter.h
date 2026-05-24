@@ -11,16 +11,16 @@
     NSString *_rootDir;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
++ (_Bool)algorithmProperties;
++ (_Bool)_timeZoneOffsetStringFromTimeZoneOffsetSeconds:(id)arg1;
+- (_Bool)newImageWithContentsOfURL:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)inputAssetDuration;
+- (_Bool)hevcLevel;
+- (id)deserializeParameter:(id)arg1 forKey:error: /* Error: Ran out of types for this method. */;
+- (id)currentEncodingBitRate;
+- (id)createDirectoryAtPath:(struct TRIFlockWitness_ *)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (_Bool)egory:(struct TRIFlockWitness_ *)arg1;
+- (id)configureOutputMetadataForAssetWriter:(id)arg1;
 - (void);
 
 @end

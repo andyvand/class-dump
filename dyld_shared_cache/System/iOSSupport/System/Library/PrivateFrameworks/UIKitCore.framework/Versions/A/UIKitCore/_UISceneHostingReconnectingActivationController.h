@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, _UISimpleTimedInhibitor;
-@protocol _UISceneHostingActivationHandle, _UISceneHostingReconnectingActivationControllerDelegate;
+@protocol _UISceneHostingActivationHandle;
 
 @interface _UISceneHostingReconnectingActivationController
 {
     id <_UISceneHostingActivationHandle> _activationHandle;
-    _UISimpleTimedInhibitor *_activationInhibitor;
-    UIScene *_parentScene;
-    unsigned long long _maxRetryCount;
-    double _retryTimeout;
-    id <_UISceneHostingReconnectingActivationControllerDelegate> _delegate;
 }
 
 - (void);
 - (double);
+- (void)ring"16Q24Q32Q40;
+- (void)32@0:(id)arg1 8@"IDSAccount"16@"NSArray"24;
+- (void)minThumbSizeWidth;
+- (void)historyQuery:(id)arg1 chatID:(id)arg2 services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
+- (void),N,V_chatId;
 - (void);
+- (id)led to call completion %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)_;
 - (void)0@ù
 × ;
 - (unsigned long long)ToTextPadding"b1"hasCustomizedTextToValuePadding"b1};
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISceneHostingReconnectingActivationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(nonatomic) double retryTimeout; // @synthesize retryTimeout=_retryTimeout;
-@property(readonly) Class superclass;
 
 @end
 

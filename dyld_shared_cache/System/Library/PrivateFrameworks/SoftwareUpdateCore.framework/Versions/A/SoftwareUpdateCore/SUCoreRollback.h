@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SUCorePersistedState, SUCoreRollbackDescriptor;
+@class NSObject, SUCoreRollbackDescriptor;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreRollback
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    SUCorePersistedState *_persistedState;
-    SUCoreRollbackDescriptor *_rollback;
 }
 
 + (_Bool);
@@ -20,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)WBSOfflineSearchSuggestionsModelUpdateManager";
+- (id)_makeToolbarItemForNewTab;
 - (id);
 - (void);
 - (id);
@@ -30,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) SUCoreRollbackDescriptor *eligibleRollback;
 @property(retain, nonatomic) SUCoreRollbackDescriptor *rollback; // @synthesize rollback=_rollback;
 
 @end

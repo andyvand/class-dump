@@ -12,9 +12,10 @@
 
 + (id);
 + (id);
+- (id)	?׀;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)r [%s] failed with errno %d (%s)
+;
 
 @end
 

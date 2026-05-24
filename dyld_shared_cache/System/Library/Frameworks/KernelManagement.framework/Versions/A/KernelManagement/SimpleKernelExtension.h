@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface SimpleKernelExtension
 {
     _Bool _loaded;
-    _Bool _kextIsSigned;
-    NSString *_bundleIdentifier;
-    NSString *_fileSystemPath;
-    NSString *_versionString;
-    NSDate *_lastModifiedDate;
-    NSString *_signingInfo;
-    NSString *_infoString;
-    unsigned long long _type;
-    NSString *_displayName;
-    NSArray *_architectures;
-    NSString *_loadAddress;
-    NSString *_usageDescription;
 }
 
 + (_Bool);
+- (id)also an output of a layer.;
+- (void)ssed as an external input and also an output of a layer.;
+- (void)blob %s. The blob is expressed as an external input and also an output of a layer.;
+- (void)ion mode for layer input/output blob %s. The blob is expressed as an external input and also an output of a layer.;
+- (void)blob:(id)arg1 %s;
+- (_Bool)v, ELEMENTWISE_OPERATION_DIV);
+- (id)E_OPERATION_DIV);
+- (id)binop(div_0, ELEMENTWISE_OPERATION_DIV);
+- (id)mean_0;
+- (id)VG && mean_1_p.axis_mode == REDUCE_AXIS_Y;
+- (void)an_1_p.mode == REDUCE_MODE_AVG && mean_1_p.axis_mode == REDUCE_AXIS_Y;
+- (void)puts().size() == 1;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)  ;
 - (id);
 - (_Bool);
 - (id);
@@ -47,7 +35,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)aida_analyticsEventWithEventName:(struct _NSZone *)arg1;
 - (void);
 - (id);
 - (void);
@@ -57,19 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *architectures; // @synthesize architectures=_architectures;
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *fileSystemPath; // @synthesize fileSystemPath=_fileSystemPath;
-@property(retain, nonatomic) NSString *infoString; // @synthesize infoString=_infoString;
-@property(nonatomic) _Bool kextIsSigned; // @synthesize kextIsSigned=_kextIsSigned;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(retain, nonatomic) NSString *loadAddress; // @synthesize loadAddress=_loadAddress;
-@property(nonatomic) _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) NSString *signingInfo; // @synthesize signingInfo=_signingInfo;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *usageDescription; // @synthesize usageDescription=_usageDescription;
-@property(retain, nonatomic) NSString *versionString; // @synthesize versionString=_versionString;
 
 @end
 

@@ -9,26 +9,17 @@
 @interface NewsUI2.PersonalizationScriptTestCase
 {
     id tagService;
-    id aggregateStoreProvider;
-    id $__lazy_storage_$_dataStore;
-    id commandCenter;
-    id tracker;
-    void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
 }
 
 - (id);
 - (double);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id)êÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

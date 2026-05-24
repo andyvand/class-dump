@@ -11,12 +11,6 @@
 @interface PKCarKeyCredentialRegistrationMetadata : PKCredentialRegistrationMetadata
 {
     NSString *_make;
-    NSString *_model;
-    long long _keyType;
-    NSString *_personalizedVehicleIdentifier;
-    NSString *_referralSource;
-    NSString *_vehicleKeyTechnology;
-    NSString *_deviceKeyTechnology;
 }
 
 - (id);
@@ -24,23 +18,17 @@
 - (void);
 - (void);
 - (void);
+- (id)q!;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (void)ion;
+- (void)transaction;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceKeyTechnology; // @synthesize deviceKeyTechnology=_deviceKeyTechnology;
-@property(readonly, nonatomic) long long keyType; // @synthesize keyType=_keyType;
 @property(readonly, nonatomic) NSString *make; // @synthesize make=_make;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSString *personalizedVehicleIdentifier; // @synthesize personalizedVehicleIdentifier=_personalizedVehicleIdentifier;
-@property(retain, nonatomic) NSString *referralSource; // @synthesize referralSource=_referralSource;
-@property(retain, nonatomic) NSString *vehicleKeyTechnology; // @synthesize vehicleKeyTechnology=_vehicleKeyTechnology;
 
 @end
 

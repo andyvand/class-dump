@@ -6,26 +6,24 @@
 
 #import <Safari/SearchableWKView.h>
 
-@class NSString, ReaderViewController, _WKRemoteObjectInterface;
 @protocol ReaderBundlePageMessageReceiver;
 
 __attribute__((visibility("hidden")))
 @interface ReaderWKView : SearchableWKView
 {
     id <ReaderBundlePageMessageReceiver> _readerBundlePageMessageReceiverProxy;
-    _WKRemoteObjectInterface *_readerControllerMessageReceiverInterface;
 }
 
-- (id);
+- (id)Ev9;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,24 +31,16 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Dictionary",&,N,V_senderInfo;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <ReaderBundlePageMessageReceiver> readerBundlePageMessageReceiver;
-@property(readonly, nonatomic) ReaderViewController *readerViewController;
-@property(readonly) Class superclass;
 
 @end
 

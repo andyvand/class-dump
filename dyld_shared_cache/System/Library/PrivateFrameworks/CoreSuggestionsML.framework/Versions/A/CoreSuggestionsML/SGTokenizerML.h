@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)arting cleanup;
++ (void)dispatching timer block;
 + (id);
 
 @end

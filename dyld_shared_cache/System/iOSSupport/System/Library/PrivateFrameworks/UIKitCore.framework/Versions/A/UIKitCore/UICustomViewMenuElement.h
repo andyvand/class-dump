@@ -6,39 +6,28 @@
 
 #import <UIKitCore/UIMenuElement.h>
 
-@class BKSHIDEventDeferringEnvironment, NSArray, NSAttributedString, NSString, UIImage, UISPasteVariant, UIView, _UIMenuLeafKeyboardShortcut;
-@protocol UIPopoverPresentationControllerSourceItem;
-
 @interface UICustomViewMenuElement : UIMenuElement
 {
     _Bool _forceCustomViewSupport;
-    unsigned long long attributes;
-    NSString *discoverabilityTitle;
-    long long state;
-    id _sender;
-    UIImage *_selectedImage;
-    UIMenuElement *_menuElementRepresentation;
-    CDUnknownBlockType _primaryActionHandler;
-    CDUnknownBlockType _viewProvider;
 }
 
 + (id);
+- (void)o we've deleted the path on disk and should not store the attachment;
+- (void)ng lastReadMessageTimeStamp from:(id)arg1 %@ to:%@ for chat:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)eatedDate:%@ lastScheduledMessageCreatedDate:%@ /* Error: Ran out of types for this method. */;
+- (id)4~CN4kugAG2sfPAn4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDaemonCore/IMDServiceSession_Chat.m;
+- (id);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setEnableThrottling: /* Error: Ran out of types for this method. */;
+- (void)_cloudLibraryUpdateInProgress;
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -54,15 +43,15 @@
 × ;
 - (id)°!ØCù±fð1Â0@ù
 × ;
-- (long long)Identifier: /* Error: Ran out of types for this method. */;
-- (unsigned long long)t: /* Error: Ran out of types for this method. */;
-- (void)cognizers:(id)arg1;
-- (id)LayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
-- (long long)paratorAttributes;
-- (void)velocityMagnitudeThreshold;
-- (id)rollerOverlapHeight;
-- (id)tateEqualToGroupViewState: /* Error: Ran out of types for this method. */;
-- (id)sterForLanguageChangedNotification;
+- (long long)setTypeIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setSeparatorEffect: /* Error: Ran out of types for this method. */;
+- (void)clearGestureRecognizers:(id)arg1;
+- (id)centerHorizontallyWhilePreservingLayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
+- (long long)_visualStyleOverrideSeparatorAttributes;
+- (void)_velocityMagnitudeThreshold;
+- (id)_textFormattingControllerOverlapHeight;
+- (id)_stateEqualToGroupViewState: /* Error: Ran out of types for this method. */;
+- (id)_registerForLanguageChangedNotification;
 - (void)¨¿À;
 - (void)e called from the main thread.;
 - (void)tifier.;
@@ -73,35 +62,6 @@
 - (id)NgÿLÌ;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier;
-@property(nonatomic, setter=_setEnumerationPriority:) long long _enumerationPriority;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *_eventDeferringEnvironment;
-@property(nonatomic, setter=_setForceCustomViewSupport:) _Bool _forceCustomViewSupport; // @synthesize _forceCustomViewSupport;
-@property(readonly, nonatomic) _UIMenuLeafKeyboardShortcut *_keyboardShortcut;
-@property(copy, nonatomic, setter=_setLeafAlternates:) NSArray *_leafAlternates;
-@property(readonly, nonatomic) UISPasteVariant *_pasteVariant;
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
-@property(nonatomic) unsigned long long attributes; // @synthesize attributes;
-@property(readonly, nonatomic) UIView *contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *discoverabilityTitle; // @synthesize discoverabilityTitle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIImage *image;
-@property(readonly, nonatomic) _Bool keepsMenuPresented;
-@property(retain, nonatomic) UIMenuElement *menuElementRepresentation; // @synthesize menuElementRepresentation=_menuElementRepresentation;
-@property(readonly, nonatomic) id <UIPopoverPresentationControllerSourceItem> presentationSourceItem;
-@property(copy, nonatomic) CDUnknownBlockType primaryActionHandler; // @synthesize primaryActionHandler=_primaryActionHandler;
-@property(nonatomic) long long repeatBehavior;
-@property(copy, nonatomic) UIImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(readonly, nonatomic) id sender; // @synthesize sender=_sender;
-@property(nonatomic) long long state; // @synthesize state;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 @property(copy, nonatomic) CDUnknownBlockType viewProvider; // @synthesize viewProvider=_viewProvider;
 
 @end

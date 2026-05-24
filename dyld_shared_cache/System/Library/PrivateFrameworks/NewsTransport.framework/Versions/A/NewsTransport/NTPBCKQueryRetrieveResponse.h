@@ -9,32 +9,29 @@
 @interface NTPBCKQueryRetrieveResponse
 {
     NSData *_continuationMarker;
-    NSMutableArray *_queryResults;
 }
 
 + (Class);
 - (_Bool);
 - (void);
 - (id);
+- (void)ed to encrypt nickname {error:(id)arg1 %@, nickname:%@, preKey:%@} /* Error: Ran out of types for this method. */;
+- (void)(a;
 - (void);
-- (void);
-- (void);
+- (unsigned long long)applyOutputInfo:fromBehavior:withTransitionOptions:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)newsTodayWidgetClickImpressionValue;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)istShow;
+- (void)hasReadingListShow;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
 @property(retain, nonatomic) NSMutableArray *queryResults; // @synthesize queryResults=_queryResults;
 
 @end

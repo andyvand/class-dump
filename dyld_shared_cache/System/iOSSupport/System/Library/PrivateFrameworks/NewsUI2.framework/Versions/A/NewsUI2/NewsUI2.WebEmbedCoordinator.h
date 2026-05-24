@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedCoordinator
 {
     id tracker;
-    id articleDataFactory;
 }
 
 @end

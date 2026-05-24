@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKAccountAssistanceProgramMessage
 {
     NSDecimalNumber *_pastDue;
-    NSDecimalNumber *_chargeOffPreventionAmount;
-    NSDecimalNumber *_currentBalance;
 }
 
 + (id);
@@ -26,22 +24,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_resultNetworkUnavailableCount;
 - (void);
 - (id);
-- (void)ssCG;
+- (void)SDySSSo19PKSecureElementPassCG;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *chargeOffPreventionAmount; // @synthesize chargeOffPreventionAmount=_chargeOffPreventionAmount;
-@property(retain, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDecimalNumber *pastDue; // @synthesize pastDue=_pastDue;
-@property(readonly) Class superclass;
 
 @end
 

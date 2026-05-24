@@ -7,13 +7,12 @@
 @class NSDate, NSError, NSUUID;
 
 @protocol HMDCameraRecordingSessionErrorResult
-- (NSUUID *);
+- (NSError *)@;
+- (NSDate *)EventKitDataSource;
+- (NSUUID *)HMDUserIdProtocol;
 - (_Bool)nation selection mode;
 
 // Remaining properties
-@property(readonly) NSError *error;
-@property(readonly, getter=isExpired) _Bool expired;
 @property(readonly) NSUUID *identifier;
-@property(readonly, copy) NSDate *timestamp;
 @end
 

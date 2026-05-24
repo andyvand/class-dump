@@ -7,15 +7,18 @@
 @class NSRegularExpression, UIFont;
 
 @protocol LPTextStyleable
+- (void)trimUnwantedAttributesFromAttributedString:(long long)arg1;
+- (void)ntDescription:(NSRegularExpression *)arg1;
+- (long long)transcriptNavigationBar:didTapToPerformContextAction: /* Error: Ran out of types for this method. */;
+- (double)transcriptCollectionViewController:balloonView:tappedForChatItem: /* Error: Ran out of types for this method. */;
+- (UIFont *)transcriptCollectionViewController:balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (NSRegularExpression *)transcriptCollectionViewController;
+- (long long)transcriptBackground:enumerateVisbleBalloonChatItemGUIDsInReverse:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)tailInsets;
+- (double)tableView:willEndContextMenuInteractionWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (double)account, personStatus %lu;
 
 // Remaining properties
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression;
-@property(readonly, nonatomic) UIFont *fallbackFont;
-@property(retain, nonatomic) UIFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFont",?,&,N
-
 @property(nonatomic) long long overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) UIFont *preferredFont;
 @end
 

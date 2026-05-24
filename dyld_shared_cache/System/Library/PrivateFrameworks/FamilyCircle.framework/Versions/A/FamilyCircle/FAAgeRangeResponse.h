@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
-
 @interface FAAgeRangeResponse
 {
     _Bool _isSharingNewInformation;
-    NSNumber *_lowerbound;
-    NSNumber *_upperbound;
-    long long _validationLevel;
-    long long _response;
-    NSArray *_parentalControlsInformation;
-    long long _verificationMethod;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (long long);
+- (long long)MapSnippetTemplate;
+- (id)SetPowerSavingMode;
+- (void)includeAllKnownAnchors;
+- (id)needsServerExecution;
+- (id)confirmationRequired;
+- (_Bool)LaunchAppWithUserActivity;
+- (_Bool)Headline;
+- (id)metricsStateOrigin;
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)h;
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSharingNewInformation; // @synthesize isSharingNewInformation=_isSharingNewInformation;
-@property(readonly, nonatomic) NSNumber *lowerbound; // @synthesize lowerbound=_lowerbound;
-@property(readonly, nonatomic) NSArray *parentalControlsInformation; // @synthesize parentalControlsInformation=_parentalControlsInformation;
-@property(readonly, nonatomic) long long response; // @synthesize response=_response;
-@property(readonly, nonatomic) NSNumber *upperbound; // @synthesize upperbound=_upperbound;
-@property(readonly, nonatomic) long long validationLevel; // @synthesize validationLevel=_validationLevel;
 @property(nonatomic) long long verificationMethod; // @synthesize verificationMethod=_verificationMethod;
 
 @end

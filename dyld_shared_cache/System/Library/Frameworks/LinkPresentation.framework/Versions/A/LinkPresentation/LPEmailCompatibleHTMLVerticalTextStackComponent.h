@@ -6,16 +6,15 @@
 
 #import <LinkPresentation/LPHTMLComponent.h>
 
-@class LPCaptionBarPresentationProperties, LPVerticalTextStackViewStyle;
+@class LPVerticalTextStackViewStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPEmailCompatibleHTMLVerticalTextStackComponent : LPHTMLComponent
 {
     LPVerticalTextStackViewStyle *_style;
-    LPCaptionBarPresentationProperties *_presentationProperties;
 }
 
-+ (id);
++ (id)܂;
 + (id);
 - (id);
 - (id);

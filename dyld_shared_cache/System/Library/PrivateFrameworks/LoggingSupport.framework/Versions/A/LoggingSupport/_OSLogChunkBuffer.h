@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _OSLogChunkBuffer
 {
     _Bool _allocated;
-    const char *_data;
-    unsigned long long _sz;
 }
 
 - (void);
@@ -19,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) const char *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_sz;
 
 @end
 

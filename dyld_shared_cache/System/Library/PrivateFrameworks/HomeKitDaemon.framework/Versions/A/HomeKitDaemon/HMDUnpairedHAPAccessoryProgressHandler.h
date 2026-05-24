@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMDUnpairedHAPAccessoryProgressHandler
 {
     NSUUID *_accessoryUUID;
-    CDUnknownBlockType _progressHandler;
 }
 
-- (id);
+- (id)_joinedFromAccountIdentifier;
 - (void);
-- (void)ON_SENSOR_SMOKE;
+- (void)BULLETIN_ACTION_SENSOR_SMOKE;
 - (id);
 - (CDUnknownBlockType);
 - (void)¿ÿßPT¡>;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

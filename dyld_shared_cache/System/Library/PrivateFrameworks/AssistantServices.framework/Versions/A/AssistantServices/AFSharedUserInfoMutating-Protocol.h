@@ -5,5 +5,7 @@
 //
 
 @protocol AFSharedUserInfoMutating
+- (void);
+- (void);
 @end
 

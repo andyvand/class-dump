@@ -5,5 +5,13 @@
 //
 
 @protocol IDSConnectionDelegate
+
+@optional
+- (void);
+- (void);
+- (void)rollItemReference;
+- (void)@;
+- (void)P;
+- (void)hB;
 @end
 

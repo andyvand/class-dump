@@ -6,16 +6,9 @@
 
 #import <UIKitCore/UILabel.h>
 
-@class NSString, NSTimer, UIAccessibilityHUDItem;
-
 @interface _UIStatusBarStringView : UILabel
 {
     _Bool _showsAlternateText;
-    long long _fontStyle;
-    NSString *_alternateText;
-    NSString *_originalText;
-    NSTimer *_alternateTextTimer;
-    struct UIEdgeInsets _alignmentRectInsets;
 }
 
 - (void);
@@ -28,53 +21,21 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (id)nobMaxXInset;
+- (id)_knobMaxXInset;
 - (_Bool)},N,V_unscaledLayoutMargins;
-- (void)xt;
-- (void)ReportFormatter;
+- (void)CGContext;
+- (void)_UIDebugReportFormatter;
 - (void)dLü`;
 - (void)th TextKit 2. Break on %{public}s to debug.;
 - (id)tion: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct UIEdgeInsets)roller;
+- (struct UIEdgeInsets)BackgroundSuppressionController;
 - (void)7H`;
 - (id);
 - (void)bí;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(copy, nonatomic) NSString *alternateText; // @synthesize alternateText=_alternateText;
-@property(readonly, nonatomic) NSTimer *alternateTextTimer; // @synthesize alternateTextTimer=_alternateTextTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long fontStyle; // @synthesize fontStyle=_fontStyle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *originalText; // @synthesize originalText=_originalText;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) _Bool showsAlternateText; // @synthesize showsAlternateText=_showsAlternateText;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

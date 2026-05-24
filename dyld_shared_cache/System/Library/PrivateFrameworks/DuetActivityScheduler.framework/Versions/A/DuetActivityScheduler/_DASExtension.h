@@ -4,52 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, _DASActivity, _DASExtensionRemoteContext;
-@protocol OS_os_log, OS_os_transaction, _DASExtensionRunner;
+@class _DASExtensionRemoteContext;
 
 @interface _DASExtension
 {
     _DASExtensionRemoteContext *_context;
-    id <_DASExtensionRunner> _runner;
-    _DASActivity *_activity;
-    NSObject<OS_os_transaction> *_transaction;
-    NSObject<OS_os_log> *_log;
-    NSDate *_startTime;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)q;
 - (void);
 - (id);
+- (id)h;
 - (void);
+- (id);
+- (void)`;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)7;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _DASActivity *activity; // @synthesize activity=_activity;
 @property(retain, nonatomic) _DASExtensionRemoteContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) id <_DASExtensionRunner> runner; // @synthesize runner=_runner;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CHDiffusionBasedSynthesizingText
+- (_Bool);
 @end
 

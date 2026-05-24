@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsDefaultsSettingsNode : UINSApplicationSettingsNode
 {
     NSString *_key;
-    id _defaultValue;
 }
 
 - (id);
@@ -20,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)PRAstBuilder;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

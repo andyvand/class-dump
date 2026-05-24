@@ -9,7 +9,6 @@
 @interface CalculateUnitCollection
 {
     NSArray *_locales;
-    NSArray *_categories;
 }
 
 + (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(retain, nonatomic) NSArray *locales; // @synthesize locales=_locales;
 
 @end
 

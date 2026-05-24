@@ -11,12 +11,12 @@
     NSArray *_tokens;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
++ (id)ompt asking the user if they want to allow a website to show a wallet order;
+- (id)idebar.;
+- (_Bool)8@"WBTabGroup"16;
+- (id)ou like to search the App Store for apps that can display RSS feeds?;
+- (id)ite;
+- (void)ompt asking whether the user wants to open an external app.;
 - (id);
 - (id);
 - (void);

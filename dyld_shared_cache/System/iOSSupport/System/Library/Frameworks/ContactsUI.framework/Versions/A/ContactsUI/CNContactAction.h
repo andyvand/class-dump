@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNMutableContact, NSString, UIColor;
 @protocol CNContactActionDelegate;
 
 @interface CNContactAction
 {
     _Bool _destructive;
-    _Bool _showBackgroundPlatter;
-    _Bool _wrapTitle;
-    _Bool _canPerformAction;
-    id <CNContactActionDelegate> _delegate;
-    CNContact *_contact;
-    NSString *_title;
-    id _target;
-    SEL _selector;
-    UIColor *_color;
-    UIColor *_glyphColor;
-    long long _transportType;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (id);
@@ -36,38 +24,26 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)initWithClient:entityNames: /* Error: Ran out of types for this method. */;
+- (void)6;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)MTManagedObjectContext;
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)I}S);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void)lAddressEditorView";
-- (SEL)htedLightColor;
+- (SEL)cellNameTextHighlightedLightColor;
 - (void)ectionEndpoint",C,N;
 - (long long)Ôú;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canPerformAction; // @synthesize canPerformAction=_canPerformAction;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(nonatomic) __weak id <CNContactActionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isDestructive) _Bool destructive; // @synthesize destructive=_destructive;
-@property(retain, nonatomic) UIColor *glyphColor; // @synthesize glyphColor=_glyphColor;
-@property(readonly, nonatomic) CNMutableContact *mutableContact;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(nonatomic) _Bool showBackgroundPlatter; // @synthesize showBackgroundPlatter=_showBackgroundPlatter;
-@property(readonly, nonatomic) id target; // @synthesize target=_target;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long transportType; // @synthesize transportType=_transportType;
-@property(nonatomic) _Bool wrapTitle; // @synthesize wrapTitle=_wrapTitle;
 
 @end
 

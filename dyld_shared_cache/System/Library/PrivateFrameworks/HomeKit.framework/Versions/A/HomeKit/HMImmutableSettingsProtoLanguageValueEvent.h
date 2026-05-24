@@ -9,9 +9,6 @@
 @interface HMImmutableSettingsProtoLanguageValueEvent
 {
     NSString *_inputLanguageCode;
-    NSString *_outputVoiceGenderCode;
-    NSString *_outputVoiceLanguageCode;
-    NSString *_voiceName;
 }
 
 - (void);
@@ -31,7 +28,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)literally;
 - (void);
 - (id);
 - (id);
@@ -39,13 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInputLanguageCode;
-@property(readonly, nonatomic) _Bool hasOutputVoiceGenderCode;
-@property(readonly, nonatomic) _Bool hasOutputVoiceLanguageCode;
-@property(readonly, nonatomic) _Bool hasVoiceName;
-@property(retain, nonatomic) NSString *inputLanguageCode; // @synthesize inputLanguageCode=_inputLanguageCode;
-@property(retain, nonatomic) NSString *outputVoiceGenderCode; // @synthesize outputVoiceGenderCode=_outputVoiceGenderCode;
-@property(retain, nonatomic) NSString *outputVoiceLanguageCode; // @synthesize outputVoiceLanguageCode=_outputVoiceLanguageCode;
-@property(retain, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

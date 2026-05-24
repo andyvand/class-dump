@@ -12,9 +12,9 @@
     NSObject<OS_dispatch_queue> *_clientQueue;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)handleCurrentDeviceUpdated:(id)arg1;
+- (void)8q16;
+- (void);
 - (id);
 - (void);
 

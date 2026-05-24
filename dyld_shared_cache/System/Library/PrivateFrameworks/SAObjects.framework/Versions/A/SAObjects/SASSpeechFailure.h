@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString;
-
 @interface SASSpeechFailure : SABaseClientBoundCommand
 {
 }
@@ -16,18 +14,16 @@
 + (id);
 - (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)mnWithDictionary:(long long)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)tabularDataColumnWithDictionary:(long long)arg1 context: /* Error: Ran out of types for this method. */;
 - (long long)ü ùÿâ¹Kõ?;
 
 // Remaining properties
 @property(nonatomic) long long errorCode;
-@property(nonatomic) int reason;
-@property(copy, nonatomic) NSString *reasonDescription;
 
 @end
 

@@ -9,23 +9,20 @@
 @interface _DASLimiterResponse
 {
     unsigned long long _decision;
-    NSString *_rationale;
-    NSString *_limiterName;
-    double _validityDuration;
 }
 
-+ (void);
++ (void)3K;
 + (_Bool);
-+ (id);
++ (id)R�ջr	;
 + (unsigned long long);
 + (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long decision; // @synthesize decision=_decision;
-@property(readonly, nonatomic) NSString *limiterName; // @synthesize limiterName=_limiterName;
 @property(retain, nonatomic) NSString *rationale; // @synthesize rationale=_rationale;
-@property(readonly, nonatomic) double validityDuration; // @synthesize validityDuration=_validityDuration;
 
 @end
 

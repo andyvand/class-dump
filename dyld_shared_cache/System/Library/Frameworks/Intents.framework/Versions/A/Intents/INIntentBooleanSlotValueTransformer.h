@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)(;
 + (Class);
 - (id);
-- (id)ReportIncidentIntent;
+- (id)_INPBReportIncidentIntent;
 
 @end
 

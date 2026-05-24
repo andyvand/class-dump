@@ -14,16 +14,16 @@
 
 + (id);
 + (id);
-+ (id)nce:appContainerName:audioDeviceType:audioRecordType:voiceTriggerEventInfo:otherCtxt:completion: /* Error: Ran out of types for this method. */;
++ (id)_notifyImplicitUtterance:appContainerName:audioDeviceType:audioRecordType:voiceTriggerEventInfo:otherCtxt:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setByAddingObjectsFromSet:(id)arg1;
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)didReceiveFirstBuffer;
 
 @end
 

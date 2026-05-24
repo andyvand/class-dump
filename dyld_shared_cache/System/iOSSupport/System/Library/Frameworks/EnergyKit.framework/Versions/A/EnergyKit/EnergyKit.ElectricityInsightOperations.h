@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id _streamManager;
-    id _initializationTask;
 }
 
 @end

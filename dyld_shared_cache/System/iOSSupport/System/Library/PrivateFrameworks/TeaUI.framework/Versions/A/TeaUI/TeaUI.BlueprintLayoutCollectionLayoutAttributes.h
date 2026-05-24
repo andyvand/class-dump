@@ -7,22 +7,9 @@
 @interface TeaUI.BlueprintLayoutCollectionLayoutAttributes
 {
     id pinTrait;
-    id rubberbandTrait;
-    id rubberbandEdge;
-    id model;
-    id source;
-    id layoutData;
-    id isEditing;
-    id isSelected;
-    id dedupIdentifier;
-    id originalFrame;
-    id previousFrame;
-    id resizingIdentifier;
-    id resizingGroupIdentifier;
-    id compositionalIndexPath;
 }
 
-- (id);
+- (id)updatePurchaseEntryToExpiredForTagIDs: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

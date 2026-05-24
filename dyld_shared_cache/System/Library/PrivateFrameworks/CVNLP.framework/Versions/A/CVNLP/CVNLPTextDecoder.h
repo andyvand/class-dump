@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void);;
 
 // Remaining properties
 @property(readonly, nonatomic) CVNLPLanguageResourceBundle *languageResourceBundle; // @synthesize languageResourceBundle=_languageResourceBundle;

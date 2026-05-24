@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface MPCSharedListeningEventParticipant
 {
     NSUUID *_sharedListeningIdentifier;
-    NSString *_externalIdentifier;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void)public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
 @property(readonly, copy, nonatomic) NSUUID *sharedListeningIdentifier; // @synthesize sharedListeningIdentifier=_sharedListeningIdentifier;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIAlertControlleriOSActionSheetCancelBackgroundView.h>
 
-@class NSString, UIButton;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface UIActionSheetiOSDismissActionView : _UIAlertControlleriOSActionSheetCancelBackgroundView
@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIButton *_dismissButton;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ing; existingMessage:%@ /* Error: Ran out of types for this method. */;
+- (void)s.iMessageReceivedPlayedReceipt;
+- (void)g enabled state to:(id)arg1 %@, with result:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (id);
@@ -28,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)h;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIButton *dismissButton; // @synthesize dismissButton=_dismissButton;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool usesShortCompactVerticalLayout; // @synthesize usesShortCompactVerticalLayout=_usesShortCompactVerticalLayout;
 
 @end
 

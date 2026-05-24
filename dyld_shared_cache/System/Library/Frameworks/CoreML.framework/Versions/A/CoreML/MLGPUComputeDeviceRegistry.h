@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMetalDeviceObserver, NSArray, NSMutableArray, NSMutableDictionary, NSString;
-@protocol NSObject;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MLGPUComputeDeviceRegistry
 {
     struct mutex _mutex;
-    NSMutableDictionary *_availableGPUDevices;
-    NSMutableArray *_pendingChanges;
-    MLMetalDeviceObserver *_metalDeviceObserver;
-    id <NSObject> _observationToken;
 }
 
 + (id);
-+ (id)lStructureWithError: /* Error: Ran out of types for this method. */;
++ (id)modelStructureWithError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,17 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableDictionary *availableGPUDevices; // @synthesize availableGPUDevices=_availableGPUDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MLMetalDeviceObserver *metalDeviceObserver; // @synthesize metalDeviceObserver=_metalDeviceObserver;
-@property(retain, nonatomic) id <NSObject> observationToken; // @synthesize observationToken=_observationToken;
-@property(readonly, copy, nonatomic) NSMutableArray *pendingChanges; // @synthesize pendingChanges=_pendingChanges;
-@property(readonly, copy, nonatomic) NSArray *registeredComputeDevices;
-@property(readonly) Class superclass;
 
 @end
 

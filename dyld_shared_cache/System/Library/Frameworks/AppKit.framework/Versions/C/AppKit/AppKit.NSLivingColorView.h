@@ -9,12 +9,10 @@
 @interface AppKit.NSLivingColorView : NSView
 {
     id isAnimating;
-    id staticLivingColorView;
-    id orbitalColorView;
 }
 
 - (id);
-- (id)tWithStyle:(struct CGRect)arg1 forceExactFitIfPossible:originalWidths: /* Error: Ran out of types for this method. */;
+- (id)_sizeTableColumnsToFitWithStyle:(struct CGRect)arg1 forceExactFitIfPossible:originalWidths: /* Error: Ran out of types for this method. */;
 - (void)ºóPBH;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommand;
+@class NSData, NSString;
 
 @protocol _SFPBImageReferenceData
+- (int);
+- (int);
+- (NSData *)_shouldExcludeSocialGroupWithVerifiedType:inSocialGroupContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attribution;
-@property(retain, nonatomic) _SFPBCommand *command;
-@property(nonatomic) int height;
 @property(copy, nonatomic) NSString *image_url;
-@property(nonatomic) _Bool is_prominent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int width;
 @end
 

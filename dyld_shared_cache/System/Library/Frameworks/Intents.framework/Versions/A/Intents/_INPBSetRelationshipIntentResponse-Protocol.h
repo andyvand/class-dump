@@ -9,7 +9,6 @@
 @protocol _INPBSetRelationshipIntentResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMeCard;
 @property(retain, nonatomic) _INPBContactCard *meCard;
 @end
 

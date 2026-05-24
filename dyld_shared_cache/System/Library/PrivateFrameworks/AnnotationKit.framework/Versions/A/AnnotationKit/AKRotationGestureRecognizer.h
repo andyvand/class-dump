@@ -11,8 +11,8 @@
     AKController *_annotationController;
 }
 
-- (void);
-- (id);
+- (void)from %@ to %@;
+- (id)@Failed to get accessory settings messenger with factory:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

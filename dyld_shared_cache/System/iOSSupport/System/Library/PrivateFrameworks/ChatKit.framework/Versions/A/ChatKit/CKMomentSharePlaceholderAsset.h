@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)T\;
 - (long long);
-- (Class);
-- (struct CGRect);
+- (Class)n;
+- (struct CGRect)hment %@ after finding it in an attributed string;
 - (id);
 - (struct CGSize);
 - (id);

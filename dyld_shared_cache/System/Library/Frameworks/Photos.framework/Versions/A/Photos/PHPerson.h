@@ -6,30 +6,9 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDictionary, NSString;
-
 @interface PHPerson : PHObject
 {
     _Bool _inPersonNamingModel;
-    short _detectionType;
-    unsigned short _questionType;
-    unsigned short _ageType;
-    unsigned short _genderType;
-    unsigned short _sexType;
-    short _keyFacePickSource;
-    NSString *_name;
-    NSString *_displayName;
-    long long _type;
-    unsigned long long _manualOrder;
-    double _mergeCandidateConfidence;
-    NSString *_personUri;
-    long long _faceCount;
-    NSDictionary *_contactMatchingDictionary;
-    long long _verifiedType;
-    long long _assetSortOrder;
-    double _isMeConfidence;
-    unsigned long long _persistedSuggestionForClient;
-    NSString *_mdID;
 }
 
 @end

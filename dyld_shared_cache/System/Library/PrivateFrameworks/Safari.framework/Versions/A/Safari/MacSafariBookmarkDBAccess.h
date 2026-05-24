@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MacSafariBookmarkDBAccess
 {
 }
@@ -17,8 +15,8 @@
 - (struct __CFString *);
 - (void);
 - (struct __CFData *);
-- (id);
-- (void);
+- (id)n;
+- (void);
 - (id);
 - (void);
 - (void *);
@@ -27,7 +25,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void *);
 - (struct __CFString *);
@@ -36,40 +34,40 @@
 - (void *);
 - (void);
 - (void);
-- (void);
+- (void)b#;
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)SPMonitorsWrapper;
+- (id);
+- (id)@;
 - (struct __CFData *);
 - (void);
 - (void);
-- (void);
+- (void)XPCConnection userInfo is of class %@;
 - (struct __CFString *);
 - (long long);
 - (void *)ùQ¦°1Â0@ù
 × ;
 - (void *)">40;
-- (int)nsionContext:(void *)arg1;
-- (void)tchesForContext:(void *)arg1;
-- (void)leSearchTheWebCommand:(struct __CFData *)arg1;
-- (struct __CFArray *)L:(void *)arg1 withMIMEType:(const void **)arg2;
-- (_Bool)View:(void *)arg1 completionHandler:(id)arg2;
-- (void *)abledAndTouchIDOnDevice;
+- (int)isPlayingAudioForWebExtensionContext:(void *)arg1;
+- (void)historyAndBookmarkMatchesForContext:(void *)arg1;
+- (void)handleSearchTheWebCommand:(struct __CFData *)arg1;
+- (struct __CFArray *)addPassFileDownloadURL:(void *)arg1 withMIMEType:(const void **)arg2;
+- (_Bool)_webCryptoMasterKeyForWebView:(void *)arg1 completionHandler:(id)arg2;
+- (void *)_isSafariAutoFillEnabledAndTouchIDOnDevice;
 - (void *)chField;
 - (_Bool)onContext;
 - (_Bool)°Ì;
-- (void)mpletionListCalculationResultData;
+- (void)CompletionListCalculationResultData;
 - (void);
 - (long long);
 - (_Bool);
@@ -78,13 +76,7 @@
 - (id)Ôó,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

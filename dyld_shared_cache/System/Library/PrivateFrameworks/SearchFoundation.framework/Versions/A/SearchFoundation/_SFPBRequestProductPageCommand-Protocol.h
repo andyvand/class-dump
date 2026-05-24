@@ -7,12 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBRequestProductPageCommand
+- (void);
+- (NSData *)accessibilityDescription;
 - (unsigned long long)eMaxLines;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *distributorBundleIdentifier;
-@property(nonatomic) unsigned long long itemIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long versionIdentifier;
 @end
 

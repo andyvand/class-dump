@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ISVitalitySettings;
-
 __attribute__((visibility("hidden")))
 @interface ISLivePhotoVitalityFilter
 {
     _Bool _isPerformingInputChanges;
-    _Bool __shouldUpdateOutput;
-    id <ISVitalitySettings> _settings;
-    long long _state;
-    CDUnknownBlockType _outputChangeHandler;
 }
 
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)_experimentIdentifier;
+- (void)_customRotorProvider;
+- (void)_columnRange;
+- (CDUnknownBlockType)_clusters;
+- (_Bool)_appearedState;
+- (void)_animationsAndBehaviorsEnabled;
+- (_Bool)ize=dd}},N,V_absoluteFrame;
+- (void)T{CGPoint=dd},N,V_firstBodyComponentThreshold;
+- (void)ctivationEligibility;
 - (id);
 - (id);
 - (void);
@@ -33,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setShouldUpdateOutput:) _Bool _shouldUpdateOutput; // @synthesize _shouldUpdateOutput=__shouldUpdateOutput;
 @property(nonatomic, setter=_setPerformingInputChanges:) _Bool isPerformingInputChanges; // @synthesize isPerformingInputChanges=_isPerformingInputChanges;
-@property(copy, nonatomic) CDUnknownBlockType outputChangeHandler; // @synthesize outputChangeHandler=_outputChangeHandler;
-@property(readonly, nonatomic) id <ISVitalitySettings> settings; // @synthesize settings=_settings;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

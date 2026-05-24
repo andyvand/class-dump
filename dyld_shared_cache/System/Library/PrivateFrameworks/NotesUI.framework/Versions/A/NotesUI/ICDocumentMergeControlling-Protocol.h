@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol ICDocumentMergeControlling;
 
 @protocol ICDocumentMergeControlling
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBlockingMerge;
 @property(nonatomic) __weak id <ICDocumentMergeControlling> parentController;
-@property(readonly, copy, nonatomic) NSSet *textViews;
 @end
 

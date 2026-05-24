@@ -7,13 +7,10 @@
 @interface NewsFeed.PuzzleStackAccessoryView
 {
     id identifier;
-    id height;
-    id containerView;
-    id stackViews;
 }
 
 - (id);
-- (void);
+- (void)th name:%@ /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (void);

@@ -13,12 +13,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGColor;
@@ -269,16 +269,9 @@ typedef struct {
 } CDStruct_1ec70fb1;
 
 typedef struct {
-    double _field1;
-    double _field2;
-} CDStruct_c3b9c2ee;
-
-typedef struct {
-    long long location;
-    long long length;
-} CDStruct_627e0f85;
-
-typedef struct CDStruct_183601bc;
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 
 typedef struct {
     double _field1;
@@ -299,25 +292,25 @@ typedef struct {
 } CDStruct_2e2afed4;
 
 typedef struct {
-    double fontStretch;
-    double fontWeight;
-    unsigned int flags;
-    struct CGRect fontBBox;
-    double italicAngle;
-    double ascent;
-    double descent;
-    double leading;
-    double capHeight;
-    double xHeight;
-    double stemV;
-    double stemH;
-    double avgWidth;
-    double maxWidth;
-    double missingWidth;
-    double spaceWidth;
-    double underlinePosition;
-    double underlineThickness;
-} CDStruct_05724ab2;
+    double _field1;
+    double _field2;
+    unsigned int _field3;
+    struct CGRect _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
+    double _field17;
+    double _field18;
+} CDStruct_ed2e34fe;
 
 // Template types
 typedef struct shared_ptr<TextLine> {

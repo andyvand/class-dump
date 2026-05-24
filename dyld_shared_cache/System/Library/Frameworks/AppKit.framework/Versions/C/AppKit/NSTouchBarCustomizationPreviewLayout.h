@@ -6,22 +6,18 @@
 
 #import <AppKit/NSCollectionViewLayout.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewLayout : NSCollectionViewLayout
 {
     struct CGRect _escapeKeyRect;
-    struct CGRect _closeButtonRect;
-    NSArray *_sectionLayouts;
 }
 
 + (Class)áê/Ð!àEùß3ð1Â0@ù
 × ;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)j;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -30,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)â3ð1Â0@ù
 × ;
-- (struct CGSize)nobservedSubsystems;
+- (struct CGSize)_destroyAllUnobservedSubsystems;
 - (_Bool)Ðä;
 - (id);
 - (void)tToEventTarget() returned %i.;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _INPBGetSettingIntentResponse
 {
     struct _has;
-    NSString *_errorDetail;
-    NSArray *_settingResponseDatas;
 }
 
 + (Class);
@@ -21,7 +19,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
@@ -29,23 +27,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)rror %{public}@;
 - (id);
 - (id);
-- (void)DisplayPriority;
+- (void)INIntentParameterDisplayPriority;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *settingResponseDatas; // @synthesize settingResponseDatas=_settingResponseDatas;
-@property(readonly, nonatomic) unsigned long long settingResponseDatasCount;
-@property(readonly) Class superclass;
 
 @end
 

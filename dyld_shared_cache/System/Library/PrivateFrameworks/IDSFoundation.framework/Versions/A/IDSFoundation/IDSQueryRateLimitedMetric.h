@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSQueryRateLimitedMetric
 {
     NSString *_topLevelService;
-    NSNumber *_queryCount;
-    NSNumber *_timeSinceStart;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Hqk;
+- (id)\;
 - (id);
 - (void)write source;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *queryCount; // @synthesize queryCount=_queryCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *timeSinceStart; // @synthesize timeSinceStart=_timeSinceStart;
 @property(readonly, nonatomic) NSString *topLevelService; // @synthesize topLevelService=_topLevelService;
 
 @end

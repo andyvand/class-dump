@@ -9,17 +9,15 @@
 @interface MRUniform : MUPoolObject
 {
     float m[16];
-    long long i;
-    long long length;
 }
 
 + (CDStruct_32b7e343 *);
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithFeatureId:(double)arg1 event:(double)arg2 registerProperties:(double)arg3;
+- (id)initWithEndpointConnection:(double)arg1;
+- (id)enableFlushingWithPolicy:(float [16])arg1;
+- (id)earlierDate:(float [16])arg1;
+- (id)defaultManager;
 - (id);
 - (id);
 

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)isDraggable;
 + (void);
 - (id);
 - (void);

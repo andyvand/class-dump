@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)reatePeripheralWithDOMHTMLSelectElement: /* Error: Ran out of types for this method. */;
-+ (id)nOnLayer: /* Error: Ran out of types for this method. */;
++ (id)createPeripheralWithDOMHTMLSelectElement: /* Error: Ran out of types for this method. */;
++ (id)animateHighlighterDelayedFadeInOnLayer: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

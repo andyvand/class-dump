@@ -6,52 +6,45 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSString, UIColor, UIImage, UIImpactFeedbackGenerator, UISwitchVisualElement;
+@class UIColor;
 
 @interface UISwitch : UIControl
 {
     _Bool _on;
-    _Bool _alwaysShowOnOffLabel;
-    NSString *_title;
-    UIColor *_onTintColor;
-    UIColor *_thumbTintColor;
-    UIImage *_onImage;
-    UIImage *_offImage;
-    long long _style;
-    long long _preferredStyle;
-    UIColor *_tintColor;
-    UISwitchVisualElement *_visualElement;
-    long long _switchStyle;
 }
 
 + (void);
 + (id)alEdgeInsets=dddd}24{NSDirectionalEdgeInsets=dddd}56{NSDirectionalEdgeInsets=dddd}88{NSDirectionalEdgeInsets=dddd}120{NSDirectionalEdgeInsets=dddd}152;
-+ (void)s;
-+ (_Bool)ildMenuWithBuilder:fromResponderChain:atLocation:inCoordinateSpace: /* Error: Ran out of types for this method. */;
++ (void)_suppressUpdateViewConstraints;
++ (_Bool)_buildMenuWithBuilder:fromResponderChain:atLocation:inCoordinateSpace: /* Error: Ran out of types for this method. */;
 + (id);
+- (void)conversationManager:(id)arg1 conversationUpdatedMessagesGroupName:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (long long)_isPairedDeviceInProxyMode;
+- (void)IMTranscriptBackgroundCommandPipelineParameter;
+- (_Bool);
+- (id)(;
+- (_Bool);
+- (unsigned long long)ngradeRoutingCheck:%@
+message:%@
+account:%@
+account.service:%@
+ /* Error: Ran out of types for this method. */;
+- (void)sleep:(id)arg1 %@;
+- (void)lloy.messagesquickswitch;
+- (_Bool)atedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (long long);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (long long);
 - (void);
 - (void);
@@ -59,9 +52,9 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (long long);
-- (id);
+- (id)setLabel:(id)arg1;
+- (long long)mediaPicker:didPickMediaItems: /* Error: Ran out of types for this method. */;
+- (id)s;
 - (void);
 - (id)qZÐ1Â0@ù
 × ;
@@ -69,22 +62,22 @@
 × ;
 - (void)=dd}48@0:(_Bool)arg1 8@16{CGPoint=dd}24@40;
 - (id)0:8@"NSString"16 /* Error: Ran out of types for this method. */;
-- (void)ups;
-- (void)fierDiffer:(id)arg1;
-- (void)te;
-- (_Bool)gAmount: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)orderedGroups;
+- (void)initWithBeforeDataSource:(id)arg1 afterDataSource:itemIdentifierDiffer: /* Error: Ran out of types for this method. */;
+- (void)heartbeatRate;
+- (_Bool)colorEffectLuminanceCurveMap:blendingAmount: /* Error: Ran out of types for this method. */;
+- (void)_badgeBackgroundColor;
 - (id)Attached:(struct CGRect)arg1;
-- (id)nizers;
+- (id)_updatingDropGestureRecognizers;
 - (void)p;
 - (void)°x;
 - (struct CGSize)debugging overlay enabled via -%s launch argument.;
 - (void)ôîÿ;
-- (id)angeNotification;
-- (id)ndGradientStart;
-- (void)_UITransitionOverlayViewCSgXw;
-- (id)SliderInteractionUpdateCSg;
-- (void)CellConfigurationDragState;
+- (id)UIApplicationBackgroundRefreshStatusDidChangeNotification;
+- (id)UIKBColorCandidateBarBackgroundGradientStart;
+- (void)So24_UITransitionOverlayViewCSgXw;
+- (id)So31_UIFluidSliderInteractionUpdateCSg;
+- (void)__UICellConfigurationDragState;
 - (id);
 - (_Bool)\^;
 - (void)O;
@@ -98,26 +91,7 @@
 - (void)ôÌaþ¨;
 
 // Remaining properties
-@property(nonatomic, getter=_alwaysShowOnOffLabel, setter=_setAlwaysShowsOnOffLabel:) _Bool alwaysShowOnOffLabel; // @synthesize alwaysShowOnOffLabel=_alwaysShowOnOffLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic, getter=_impactFeedbackGenerator, setter=_setImpactFeedbackGenerator:) UIImpactFeedbackGenerator *impactFeedbackGenerator;
-@property(retain, nonatomic) UIImage *offImage; // @synthesize offImage=_offImage;
-@property(nonatomic, getter=isOn) _Bool on; // @synthesize on=_on;
-@property(retain, nonatomic) UIImage *onImage; // @synthesize onImage=_onImage;
-@property(retain, nonatomic) UIColor *onTintColor; // @synthesize onTintColor=_onTintColor;
-@property(nonatomic) long long preferredStyle; // @synthesize preferredStyle=_preferredStyle;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) long long switchStyle; // @synthesize switchStyle=_switchStyle;
-@property(retain, nonatomic) UIColor *thumbTintColor; // @synthesize thumbTintColor=_thumbTintColor;
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UISwitchVisualElement *visualElement; // @synthesize visualElement=_visualElement;
 
 @end
 

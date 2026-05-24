@@ -7,11 +7,6 @@
 @interface HomeKitDaemon.BiomeEventManager
 {
     id actionSetStream;
-    id mediaAccessoryStream;
-    id hapAccessoryStream;
-    id notificationCenter;
-    id workQueue;
-    id prunerProvider;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)etadataData:(id)arg1;
+- (void)setPairedMetadataData:(id)arg1;
 - (void)@We are selected as the new preferred.;
 - (void)ÕMÿÍ÷°¤>;
 

@@ -6,82 +6,63 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSColorList, NSImage, NSTrackingArea;
-@protocol NSColorPickerMatrixViewDelegate;
+@class NSColor, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerMatrixView : NSView
 {
     NSImage *_image;
-    NSColorList *_colorList;
-    struct CGSize _swatchSize;
-    unsigned long long _numColumns;
-    unsigned long long _numRows;
-    unsigned long long _selectedIndex;
-    NSTrackingArea *_trackArea;
-    struct CGRect _trackingSwatchRect;
-    id <NSColorPickerMatrixViewDelegate> _delegate;
-    struct {
-        unsigned int _emptyEnabled:1;
-        unsigned int _hasEmptyColorCell:1;
-        unsigned int _reserved:30;
-    } _flags;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool);
++ (id)s:] /* Error: Ran out of types for this method. */;
 + (_Bool)Aí/Ð!´CùÑâ31Â0@ù
 × ;
-- (struct CGSize);
+- (struct CGSize)SessionFlowDivertTokenKey;
 - (void);
 - (void);
-- (void);
+- (void)__AUTH_CONST;
 - (void);
 - (struct CGRect);
-- (void);
+- (void)setAVAssetURL:(id)arg1;
+- (_Bool)_setCookies:forURL:mainDocumentURL:policyProperties: /* Error: Ran out of types for this method. */;
+- (void)5;
+- (id)t retry background data task with identifier %lu because there is no such task;
+- (unsigned long long)roundSession <%{public}@> cannot retry background data task with identifier %lu because there is no such task;
+- (id)retry background data task with identifier %lu;
 - (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (id)5;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)STube;
+- (_Bool)@;
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
+- (_Bool);
+- (struct CGSize);
 - (_Bool);
-- (struct CGSize);
-- (_Bool);
-- (id);
+- (id)h";
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)e:(unsigned long long)arg1;
-- (id)ginIgnoreChanges;
-- (void)tal;
-- (unsigned long long)tion;
+- (void)indicatorSizeForState:(unsigned long long)arg1;
+- (id)beginIgnoreChanges;
+- (void)_layoutMarginsGuideCornerAdaptationHorizontal;
+- (unsigned long long)MenuAccessibilityNotificationAction;
 - (struct NSEdgeInsets)k|ÿVq¤ÞD;
 - (unsigned long long)ÿôLI;
 - (void)ÿdÐx5J;
 
 // Remaining properties
 @property(readonly) NSColor *color; // @dynamic color;
-@property(retain) NSColorList *colorList; // @synthesize colorList=_colorList;
-@property id <NSColorPickerMatrixViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isEmptyColorEnabled) _Bool emptyColorEnabled; // @dynamic emptyColorEnabled;
-@property unsigned long long numberOfColumns;
-@property struct CGSize swatchSize;
 
 @end
 

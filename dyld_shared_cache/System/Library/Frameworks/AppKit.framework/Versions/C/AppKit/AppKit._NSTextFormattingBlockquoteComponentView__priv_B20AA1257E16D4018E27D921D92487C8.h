@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
+- (void)ionary"8;
 - (id);
-- (id)resentationClicked:(struct CGRect)arg1;
+- (id)_standardCommonMenuFormRepresentationClicked:(struct CGRect)arg1;
 
 @end
 

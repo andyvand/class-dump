@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol TPPublicKey;
+@class NSString;
 
 @interface TPPeerPermanentInfo
 {
     NSString *_machineID;
-    NSString *_modelID;
-    unsigned long long _epoch;
-    id <TPPublicKey> _signingPubKey;
-    id <TPPublicKey> _encryptionPubKey;
-    unsigned long long _creationTime;
-    NSData *_data;
-    NSData *_sig;
-    NSString *_peerID;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)SError">16;
++ (id)_TtC12SiriOntology32UsoTask_skipForward_common_Photo;
 + (id);
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,15 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long creationTime; // @synthesize creationTime=_creationTime;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) id <TPPublicKey> encryptionPubKey; // @synthesize encryptionPubKey=_encryptionPubKey;
-@property(readonly, nonatomic) unsigned long long epoch; // @synthesize epoch=_epoch;
 @property(readonly, nonatomic) NSString *machineID; // @synthesize machineID=_machineID;
-@property(readonly, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
-@property(readonly, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(readonly, nonatomic) NSData *sig; // @synthesize sig=_sig;
-@property(readonly, nonatomic) id <TPPublicKey> signingPubKey; // @synthesize signingPubKey=_signingPubKey;
 
 @end
 

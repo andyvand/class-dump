@@ -9,27 +9,21 @@
 @interface PKLiveRenderedShaderSet
 {
     NSString *_geometryEntryPointShader;
-    NSString *_surfaceEntryPointShader;
-    NSString *_lightingModelEntryPointShader;
-    NSString *_fragmentEntryPointShader;
 }
 
 + (_Bool)î%1Â0@ù
 × ;
 - (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ringPaymentFrequency;
+- (void)isQREnabled;
+- (void)recurringPaymentFrequency;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *fragmentEntryPointShader; // @synthesize fragmentEntryPointShader=_fragmentEntryPointShader;
 @property(readonly, copy, nonatomic) NSString *geometryEntryPointShader; // @synthesize geometryEntryPointShader=_geometryEntryPointShader;
-@property(readonly, copy, nonatomic) NSString *lightingModelEntryPointShader; // @synthesize lightingModelEntryPointShader=_lightingModelEntryPointShader;
-@property(readonly, copy, nonatomic) NSString *surfaceEntryPointShader; // @synthesize surfaceEntryPointShader=_surfaceEntryPointShader;
 
 @end
 

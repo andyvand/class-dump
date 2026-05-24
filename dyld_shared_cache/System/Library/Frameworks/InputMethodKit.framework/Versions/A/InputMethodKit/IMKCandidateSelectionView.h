@@ -6,15 +6,11 @@
 
 #import <InputMethodKit/IMKUIView.h>
 
-@class IMKUIWindowBasedCandidateController, NSArray, NSButton;
+@class NSArray;
 
 @interface IMKCandidateSelectionView : IMKUIView
 {
     NSArray *_buttons;
-    IMKUIWindowBasedCandidateController *_candidateController;
-    unsigned long long _selectedIndex;
-    NSArray *_sortingModes;
-    NSButton *_radarButton;
 }
 
 + (double);
@@ -25,18 +21,18 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)A;
+- (void);
+- (void)T;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ideoStallTimeTotal=%.2f;
 - (void);
 - (void);
 - (void);
@@ -44,10 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) IMKUIWindowBasedCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) NSButton *radarButton; // @synthesize radarButton=_radarButton;
-@property(nonatomic) unsigned long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(retain, nonatomic) NSArray *sortingModes; // @synthesize sortingModes=_sortingModes;
 
 @end
 

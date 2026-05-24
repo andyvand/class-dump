@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate;
-
 @interface LSEnumerator
 {
     CDUnknownBlockType _filter;
-    struct atomic<bool> _hasFiredErrorHandler;
-    CDUnknownBlockType _errorHandler;
 }
 
 + (id);
@@ -29,15 +25,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)yReplacingOccurrencesOfString:(CDUnknownBlockType)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)stringByReplacingOccurrencesOfString:(CDUnknownBlockType)arg1 withString: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)ä;;
 - (void)$;
 - (id)°;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType filter;
-@property(copy, nonatomic) NSPredicate *predicate;
 
 @end
 

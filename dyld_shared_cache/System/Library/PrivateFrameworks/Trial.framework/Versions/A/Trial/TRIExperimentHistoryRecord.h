@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface TRIExperimentHistoryRecord
 {
     unsigned char _eventType;
-    int _deploymentEnvironment;
-    int _deploymentId;
-    NSDate *_eventDate;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    NSString *_errorOrDeactivationReason;
-    NSArray *_namespaces;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)A;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -35,7 +28,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)@"_SFPBPhotosAlbumImage",&,N,V_photosAlbumImage;
 - (id);
 - (id);
 - (id);
@@ -48,14 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentEnvironment; // @synthesize deploymentEnvironment=_deploymentEnvironment;
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) NSString *errorOrDeactivationReason; // @synthesize errorOrDeactivationReason=_errorOrDeactivationReason;
 @property(readonly, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(readonly, nonatomic) unsigned char eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

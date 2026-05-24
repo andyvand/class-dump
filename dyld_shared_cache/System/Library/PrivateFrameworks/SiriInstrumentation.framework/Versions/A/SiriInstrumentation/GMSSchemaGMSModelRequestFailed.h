@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface GMSSchemaGMSModelRequestFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    unsigned int _gmsErrorCode;
-    int _openAIErrorCode;
-    NSString *_errorDomainString;
-    int _errorCode;
-    struct {
-        unsigned int errorDomain:1;
-        unsigned int gmsErrorCode:1;
-        unsigned int openAIErrorCode:1;
-        unsigned int errorCode:1;
-    } _has;
-    _Bool _hasErrorDomainString;
 }
 
 - (void);
@@ -46,9 +33,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)k;
+- (unsigned long long)setBoundsOrigin: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -61,17 +48,7 @@
 - (int)Xþ*;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(copy, nonatomic) NSString *errorDomainString; // @synthesize errorDomainString=_errorDomainString;
-@property(nonatomic) unsigned int gmsErrorCode; // @synthesize gmsErrorCode=_gmsErrorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasErrorDomainString; // @synthesize hasErrorDomainString=_hasErrorDomainString;
-@property(nonatomic) _Bool hasGmsErrorCode;
-@property(nonatomic) _Bool hasOpenAIErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int openAIErrorCode; // @synthesize openAIErrorCode=_openAIErrorCode;
 
 @end
 

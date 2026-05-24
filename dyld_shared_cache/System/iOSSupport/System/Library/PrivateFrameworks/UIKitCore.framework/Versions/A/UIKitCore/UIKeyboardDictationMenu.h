@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 + (id)¼Üþq;
 + (id)§ÿ`àìk;
 - (_Bool);
-- (void);
-- (void);
+- (void)error %@;
+- (void)DO NOT match up;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (id)Types;
+- (id)acceptableTypes;
 
 @end
 

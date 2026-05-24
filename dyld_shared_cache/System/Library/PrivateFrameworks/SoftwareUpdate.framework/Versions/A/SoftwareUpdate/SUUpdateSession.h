@@ -4,47 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SUUpdateSession
 {
     NSMutableDictionary *_updateStatusByKey;
-    NSMutableDictionary *_initiatedDownloads;
-    NSDictionary *_completeUpdatesByKey;
-    NSMutableSet *_backgroundKeys;
-    NSMutableDictionary *_initiatedInstalls;
-    NSMutableDictionary *_factoredInstallSizeByKey;
-    NSMutableDictionary *_downloadDoneBlocksByKey;
-    NSMutableDictionary *_completionSemaphoreByKey;
-    long long _foregroundTransactions;
-    long long _backgroundTransactions;
-    NSMutableDictionary *_assertionByTransactionID;
-    NSMutableDictionary *_transactionIDToProductKeys;
-    NSObject<OS_dispatch_queue> *_updateStatusQueue;
-    NSObject<OS_dispatch_queue> *_clientNotifyQueue;
-    NSObject<OS_dispatch_queue> *_transactionQueue;
-    _Bool _isPreparingForReboot;
-    _Bool _nowIsLater;
-    _Bool _pendingStageInstallCancelled;
-    CDUnknownBlockType _transactionCountDidChangeHandler;
-    CDUnknownBlockType _installStateDidChangeHandler;
-    CDUnknownBlockType _installedBundleURLsHandler;
 }
 
 + (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void)q;
 - (void);
 - (void);
+- (void)lr;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (void)f;
 - (void);
 - (void);
 - (void);
@@ -53,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)V6;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (long long);
@@ -71,10 +50,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (void)1h;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -83,11 +62,6 @@ __attribute__((visibility("hidden")))
 - (void)Ô ;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType installStateDidChangeHandler; // @synthesize installStateDidChangeHandler=_installStateDidChangeHandler;
-@property(copy) CDUnknownBlockType installedBundleURLsHandler; // @synthesize installedBundleURLsHandler=_installedBundleURLsHandler;
-@property _Bool isPreparingForReboot; // @synthesize isPreparingForReboot=_isPreparingForReboot;
-@property _Bool nowIsLater; // @synthesize nowIsLater=_nowIsLater;
-@property _Bool pendingStageInstallCancelled; // @synthesize pendingStageInstallCancelled=_pendingStageInstallCancelled;
 @property(copy) CDUnknownBlockType transactionCountDidChangeHandler; // @synthesize transactionCountDidChangeHandler=_transactionCountDidChangeHandler;
 
 @end

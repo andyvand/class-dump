@@ -6,30 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSHashTable, NSMutableArray, NSString, RTDefaultsManager, RTInvocationDispatcher, RTPlatform, RTXPCActivityManager, SMMessagingService, SMSafetyCacheStore;
-
 @interface SMReceiverService : RTService
 {
     _Bool _attemptedToLoadFromDisk;
-    long long _prevCKAccountStatus;
-    RTDefaultsManager *_defaultsManager;
-    RTPlatform *_platform;
-    SMMessagingService *_messagingService;
-    SMSafetyCacheStore *_safetyCacheStore;
-    unsigned long long _safetyCacheStoreAvailability;
-    NSHashTable *_observers;
-    NSMutableArray *_cacheManagerArray;
-    RTInvocationDispatcher *_dispatcher;
-    RTXPCActivityManager *_xpcActivityManager;
 }
 
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -41,7 +29,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -63,10 +51,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SError">24;
+- (void)numberIdentityMissing;
+- (void)mutableCopy;
+- (void)currentItemNegativeCache;
 - (id);
 - (void);
 - (void);
@@ -74,8 +62,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -85,24 +73,7 @@
 - (void)s status,%{public}d,startLoc,%{sensitive}@,endLoc,%{sensitive}@,numChunks,%{public}lu;
 
 // Remaining properties
-@property(nonatomic) _Bool attemptedToLoadFromDisk; // @synthesize attemptedToLoadFromDisk=_attemptedToLoadFromDisk;
-@property(retain, nonatomic) NSMutableArray *cacheManagerArray; // @synthesize cacheManagerArray=_cacheManagerArray;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SMMessagingService *messagingService; // @synthesize messagingService=_messagingService;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 @property(nonatomic) long long prevCKAccountStatus; // @synthesize prevCKAccountStatus=_prevCKAccountStatus;
-@property(readonly, nonatomic) SMSafetyCacheStore *safetyCacheStore; // @synthesize safetyCacheStore=_safetyCacheStore;
-@property(nonatomic) unsigned long long safetyCacheStoreAvailability; // @synthesize safetyCacheStoreAvailability=_safetyCacheStoreAvailability;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

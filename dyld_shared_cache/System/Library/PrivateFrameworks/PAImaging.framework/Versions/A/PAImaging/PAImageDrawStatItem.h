@@ -9,19 +9,17 @@
 @interface PAImageDrawStatItem
 {
     IPARegion *_region;
-    double _sharpness;
 }
 
-- (void);
+- (void)LemonadeEmptyAlbumsTitle;
 - (id);
 - (void);
 - (double);
 - (void);
-- (id)Synchronous:completion: /* Error: Ran out of types for this method. */;
+- (id)flushEditing:forceSynchronous:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) IPARegion *region; // @synthesize region=_region;
-@property(nonatomic) double sharpness; // @synthesize sharpness=_sharpness;
 
 @end
 

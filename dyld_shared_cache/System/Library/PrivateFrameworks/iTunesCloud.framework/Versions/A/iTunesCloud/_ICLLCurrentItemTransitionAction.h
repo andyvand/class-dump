@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLCurrentItemTransitionAction
 {
     NSString *_previousItemId;
-    NSString *_transitionItemId;
 }
 
 - (id);

@@ -11,25 +11,23 @@
 @interface IPDateFormat : IPFormat
 {
     NSString *_option;
-    NSString *_title;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)_wantsCustomMainPassPostProcessForRenderer: /* Error: Ran out of types for this method. */;
++ (id)_volatileBufferPools;
++ (_Bool)_vignettingPower;
++ (id)_viewpoints;
++ (id)_vertexWeightIndicesBuffer;
++ (id)_userAnimation;
 + (void);
-+ (double);
-- (id);
-- (id);
++ (double)C;
+- (id)cancelPreviousPerformRequestsWithTarget:selector:object: /* Error: Ran out of types for this method. */;
+- (id)averageGray;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *option; // @synthesize option=_option;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

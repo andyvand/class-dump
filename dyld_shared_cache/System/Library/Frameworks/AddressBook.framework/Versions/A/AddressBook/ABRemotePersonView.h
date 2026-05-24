@@ -10,14 +10,14 @@
 }
 
 - (id);
-- (void);
+- (void)R";
 - (id);
 - (_Bool);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)c;
 - (id);
 - (void);
 - (void);
@@ -26,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id objectToExport; // @synthesize objectToExport=_objectToExport;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

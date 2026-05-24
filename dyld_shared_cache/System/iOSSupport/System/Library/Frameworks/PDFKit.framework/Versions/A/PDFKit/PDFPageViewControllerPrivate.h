@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPage, PDFPageView, PDFRenderingProperties, PDFTextInputView, PDFView, UIImage, UIScrollView;
+@class PDFRenderingProperties;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageViewControllerPrivate
 {
     PDFRenderingProperties *renderingProperties;
-    PDFView *pdfView;
-    struct UIEdgeInsets pageMargins;
-    PDFPage *page;
-    UIScrollView *scrollView;
-    PDFTextInputView *pageViewContainerView;
-    PDFPageView *pageView;
-    double minScale;
-    double maxScale;
-    UIImage *backgroundImage;
-    int backgroundQuality;
 }
 
 - (void);

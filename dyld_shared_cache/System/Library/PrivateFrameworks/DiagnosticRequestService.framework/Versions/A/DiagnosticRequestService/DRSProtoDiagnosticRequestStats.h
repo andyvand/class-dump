@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoDiagnosticRequestStats
 {
     NSString *_build;
-    NSString *_issueCategory;
-    NSString *_issueDescription;
-    NSMutableArray *_outcomes;
-    NSString *_teamId;
 }
 
 + (Class);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)p;
 - (void);
 - (id);
 - (_Bool);
@@ -38,24 +34,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ILMediaObjectsProvider;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
 @property(readonly, nonatomic) _Bool hasBuild;
-@property(readonly, nonatomic) _Bool hasIssueCategory;
-@property(readonly, nonatomic) _Bool hasIssueDescription;
-@property(readonly, nonatomic) _Bool hasTeamId;
-@property(retain, nonatomic) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
-@property(retain, nonatomic) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
-@property(retain, nonatomic) NSMutableArray *outcomes; // @synthesize outcomes=_outcomes;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

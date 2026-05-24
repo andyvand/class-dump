@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, SXComponents, SXDOMAnalysis, SXMetadata;
-@protocol SXAutoPlacement, SXDocumentStyle;
+@class SXComponents;
 
 @interface SXDOM
 {
     SXComponents *_components;
-    NSDictionary *_componentLayouts;
-    NSDictionary *_componentStyles;
-    NSDictionary *_componentTextStyles;
-    NSDictionary *_textStyles;
-    NSDictionary *_resources;
-    id <SXAutoPlacement> _autoPlacement;
-    id <SXDocumentStyle> _documentStyle;
-    SXDOMAnalysis *_analysis;
-    SXMetadata *_metadata;
 }
 
 - (id);
@@ -39,16 +29,7 @@
 - (void)angierFlowInfo";
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SXDOMAnalysis *analysis; // @synthesize analysis=_analysis;
-@property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement; // @synthesize autoPlacement=_autoPlacement;
-@property(readonly, copy, nonatomic) NSDictionary *componentLayouts; // @synthesize componentLayouts=_componentLayouts;
-@property(readonly, copy, nonatomic) NSDictionary *componentStyles; // @synthesize componentStyles=_componentStyles;
-@property(readonly, copy, nonatomic) NSDictionary *componentTextStyles; // @synthesize componentTextStyles=_componentTextStyles;
 @property(readonly, copy, nonatomic) SXComponents *components; // @synthesize components=_components;
-@property(readonly, nonatomic) id <SXDocumentStyle> documentStyle; // @synthesize documentStyle=_documentStyle;
-@property(readonly, nonatomic) SXMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSDictionary *resources; // @synthesize resources=_resources;
-@property(readonly, copy, nonatomic) NSDictionary *textStyles; // @synthesize textStyles=_textStyles;
 
 @end
 

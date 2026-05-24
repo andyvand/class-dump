@@ -5,7 +5,7 @@
 //
 
 @protocol INCancelWorkoutIntentResponseExport
-- (long long)eChangeAlarmStatus:completion: /* Error: Ran out of types for this method. */;
+- (long long)handleChangeAlarmStatus:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

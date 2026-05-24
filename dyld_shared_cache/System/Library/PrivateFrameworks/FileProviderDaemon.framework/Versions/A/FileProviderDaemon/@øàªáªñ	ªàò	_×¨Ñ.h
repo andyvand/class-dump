@@ -8,17 +8,12 @@
 {
     id @ù
 ?×é;
-    long long `Aùwn@ùôªøÝþcJ@ùèª_øñªñÇåò0ÁÚCøàª;
 }
 
 
 // Remaining properties
 // Error: Property attributes should begin with the type ('T') attribute, property name: #ªî;ªñG@ù1
 // Property attributes: u:
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ùh²Cùhþùa?
-// Property attributes: @ù¢Ñ¨
-ÑPøàª¡Vøãª´Qøú
 
 @end
 

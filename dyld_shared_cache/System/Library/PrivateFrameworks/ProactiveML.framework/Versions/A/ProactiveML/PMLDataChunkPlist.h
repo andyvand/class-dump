@@ -9,13 +9,12 @@
 @interface PMLDataChunkPlist : PMLDataChunk
 {
     id _plist;
-    _Bool _parsed;
 }
 
 + (unsigned int);
 + (id);
 - (void);
-- (id);
+- (id)rBytesReceived:sendBufferBytes:sendBandwidth:synRetransmits:tfoSynDataAcked: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id plist;

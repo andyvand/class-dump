@@ -12,60 +12,63 @@
 }
 
 + (void)diudbolg;
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)eepParentheses;
+- (int)cal;
+- (id)N,V_group;
+- (_Bool)eue;
+- (_Bool)read:(id)arg1 maxLength: /* Error: Ran out of types for this method. */;
+- (_Bool)NSObject<OS_dispatch_queue>",&,N,V_queue;
+- (_Bool)dispatch_queue>",&,N,V_dispatchQueue;
+- (_Bool)radientColorStartPosition;
+- (_Bool)MSVXPCConnection;
 - (void);
 - (_Bool);
-- (id);
+- (id)treamp=%p, inflateOption=%d;
+- (void)ed:(id)arg1 %@;
+- (id)PEGDestination:imageDestination cannot be NULL /* Error: Ran out of types for this method. */;
+- (id)POINT @name;
+- (long long)TRANSACTION;
+- (void)empt to use invalidated transaction.;
+- (void)BEGIN TRANSACTION;
 - (void);
+- (_Bool)int32;
+- (id)ErrorDailyLimitExceeded(void);
+- (id)kSymptomDiagnosticErrorHourlyLimitExceeded;
+- (long long)dSubDecoder> * _Nonnull _MSVSegmentedCodingPackageDecoderForCoderType(NSString * _Nonnull __strong, NSData * _Nonnull __strong, NSError *__autoreleasing  _Nullable * _Nullable);
+- (_Bool)SString * _Nonnull __strong);
+- (long long)_MSVSegmentedCodingPackageEncoderForCoderType(NSString * _Nonnull __strong);
+- (id);
+- (unsigned int)/key>
+;
+- (int)yyyy-MM-dd'T'HH:(id)arg1 mm:ss'Z</date>
+' /* Error: Ran out of types for this method. */;
+- (int)y.;
+- (_Bool)strong)(NSError *__strong));
+- (id)ttm:(id)arg1 role;
+- (_Bool)identifier:(id)arg1 %@;
+- (_Bool)24@?0@"MSVLyricsLine"8@"MSVLyricsLine"16;
+- (id)t Timed;
+- (_Bool)%@
+;
+- (id)* %@ <%@> */ %@;
+- (CDStruct_1ef3fb1f)od_description=:(id)arg1 *}8B24B28;
+- (void)MediaPlaybackCore;
+- (void)/MediaLibraryCore.framework/MediaLibraryCore;
+- (void)%g} quality=%g format=JPEG -- %@>;
 - (id);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (_Bool);
-- (long long);
-- (id);
-- (unsigned int);
-- (int);
-- (int);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (CDStruct_79c71658);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)fetchObjectsForEntityNamed:withPredicate:sortDescriptor: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)i*(*C;
 - (struct CGRect);
 - (id);
-- (id)inalDeferredPhotoIdentifier:(id)arg1;
-- (id)dedForCenterStageToSessionConfiguration: /* Error: Ran out of types for this method. */;
+- (id)setOriginalDeferredPhotoIdentifier:(id)arg1;
+- (id)_addFakeOutputsIfNeededForCenterStageToSessionConfiguration: /* Error: Ran out of types for this method. */;
 - (id)¸©0«±±X²Ô²ì³Äµ@¶·¸¸
 Ø¹$º°º(¼Ü¼;
 - (void)nelLayoutTag_Stereo or ( kAudioChannelLayoutTag_HOA_ACN_SN3D | 4 ) but not both. Session:(id)arg1 %@, outputs:%@ /* Error: Ran out of types for this method. */;
@@ -73,8 +76,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *connections;
-@property(nonatomic, getter=isDeferredStartEnabled) _Bool deferredStartEnabled;
-@property(readonly, nonatomic, getter=isDeferredStartSupported) _Bool deferredStartSupported;
 
 @end
 

@@ -6,19 +6,13 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLModelConfiguration, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplM : NLModelImpl
 {
     const void *_mrlModel;
-    NLModelConfiguration *_configuration;
-    NSDictionary *_labelMap;
-    NSDictionary *_vocabularyMap;
-    unsigned long long _numberOfTrainingInstances;
 }
 
-- (id);
+- (id)byLanguage;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addPhotoLibraryUnavailabilityHandler:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_criticalUpdateAvailabilityNotificationTitle;
 - (void);
 
 @end

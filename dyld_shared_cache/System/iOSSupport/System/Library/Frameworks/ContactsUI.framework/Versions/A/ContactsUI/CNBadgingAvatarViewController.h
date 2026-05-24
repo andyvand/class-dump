@@ -4,69 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarAccessoryView, CNAvatarViewController, CNBadgingAvatarBadgeStyleSettings, CNBadgingAvatarView, NSArray, NSString, UIImage, UIView;
-@protocol CNUIObjectViewControllerDelegate;
+@class UIView;
 
 @interface CNBadgingAvatarViewController
 {
     _Bool _isMarkedForSyndication;
-    _Bool _isDoNotDisturb;
-    id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate;
-    UIImage *_badgeImage;
-    CNBadgingAvatarBadgeStyleSettings *_badgeStyleSettings;
-    UIView *_containerView;
-    CNBadgingAvatarView *_badgingAvatarView;
-    CNAvatarViewController *_avatarViewController;
-    CNAvatarAccessoryView *_mediaContextBadge;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void),;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)qA;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)gglePosterAnimation;
+- (id)togglePosterAnimation;
 - (void)led;
-- (void)iew;
-- (id)ontactsCount;
+- (void)actionImageView;
+- (id)HighContactsCount;
 
 // Remaining properties
-@property(retain, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) UIImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property(retain, nonatomic) CNBadgingAvatarBadgeStyleSettings *badgeStyleSettings; // @synthesize badgeStyleSettings=_badgeStyleSettings;
-@property(retain, nonatomic) CNBadgingAvatarView *badgingAvatarView; // @synthesize badgingAvatarView=_badgingAvatarView;
-@property(copy, nonatomic) NSArray *contacts;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDoNotDisturb; // @synthesize isDoNotDisturb=_isDoNotDisturb;
-@property(nonatomic) _Bool isMarkedForSyndication; // @synthesize isMarkedForSyndication=_isMarkedForSyndication;
-@property(retain, nonatomic) CNAvatarAccessoryView *mediaContextBadge; // @synthesize mediaContextBadge=_mediaContextBadge;
-@property(nonatomic) __weak id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate; // @synthesize objectViewControllerDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

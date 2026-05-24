@@ -6,13 +6,9 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSDictionary;
-
 @interface NSTransitInformationCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSDictionary *_components;
-    id _underlyingResult;
 }
 
 + (_Bool)be nil;

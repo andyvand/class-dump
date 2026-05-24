@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (double);
-- (id)ateCLIPIndex;
+- (id)CreateCLIPIndex;
 
 @end
 

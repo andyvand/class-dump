@@ -11,10 +11,10 @@
     NSDictionary *_featureValues;
 }
 
-+ (id);
++ (id)with guid %@ and personID %@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

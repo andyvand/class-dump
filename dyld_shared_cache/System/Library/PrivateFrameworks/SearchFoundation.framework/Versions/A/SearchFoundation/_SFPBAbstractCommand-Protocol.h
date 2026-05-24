@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCommandValue;
+@class _SFPBCommandValue;
 
 @protocol _SFPBAbstractCommand
+- (_SFPBCommandValue *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int type;
-@property(retain, nonatomic) _SFPBCommandValue *value;
 @end
 

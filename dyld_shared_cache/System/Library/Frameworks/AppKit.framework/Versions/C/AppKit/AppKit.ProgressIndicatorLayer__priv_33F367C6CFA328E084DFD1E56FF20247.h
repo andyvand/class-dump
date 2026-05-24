@@ -7,20 +7,6 @@
 @interface AppKit.ProgressIndicatorLayer__priv_33F367C6CFA328E084DFD1E56FF20247
 {
     id isIndeterminate;
-    id progressForCurrentAnimation;
-    id previousProgress;
-    id progress;
-    id track;
-    id pillBaseLayer;
-    id indeterminatePill;
-    id determinatePill;
-    id determinateAnimationKey;
-    id indeterminateAnimationKey;
-    id state;
-    id accentColor;
-    id indicatorAppearance;
-    id isRTL;
-    id initialSquashTransform;
 }
 
 - (id);

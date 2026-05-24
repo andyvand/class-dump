@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TColumnPreviewPropertyTaggingTokenFieldController : FI_TPropertyTaggingTokenFieldController
 {
     _Bool _userDisabled;
-    NSString *_previewOptionKey;
 }
 
 + (id);
@@ -21,15 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)NSRange=QQ}40;
 - (_Bool);
-- (_Bool)n:withRowType: /* Error: Ran out of types for this method. */;
+- (_Bool)ruleEditor:child:forCriterion:withRowType: /* Error: Ran out of types for this method. */;
 - (void)/;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *previewOptionKey; // @synthesize previewOptionKey=_previewOptionKey;
-@property(nonatomic, getter=isUserDisabled) _Bool userDisabled; // @synthesize userDisabled=_userDisabled;
 
 @end
 

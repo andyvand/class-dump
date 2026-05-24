@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, CNReputationStore, NSArray, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CNContact, CNContactStore;
 
 @interface CalContactsProvider
 {
     CNContact *_meContact;
-    CNContactStore *_store;
-    CNReputationStore *_reputationStore;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSObject<OS_dispatch_queue> *_contactStoreWorkQueue;
-    NSString *_testMeContactIdentifer;
-    NSMutableSet *_delegates;
-    NSArray *_unitTestEmails;
-    NSArray *_loadedMyEmailAddresses;
 }
 
 + (_Bool);
@@ -27,37 +18,37 @@
 + (_Bool);
 + (id);
 + (id);
-- (id);
+- (id)9	;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)*;
 - (_Bool);
 - (id);
 - (id);
+- (id)objectEnumerator;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)74;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)ile for some reason;
+- (void);
+- (id)__AUTH_CONST;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)p/;
+- (id)eated;
+- (id)size <= sizeof(uint32_t);
 - (void);
 - (void);
 - (void);
@@ -65,47 +56,39 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)erConstruction:(id)arg1;
-- (void)ng:(id)arg1;
+- (void)4;
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id)toggleWindowZoom;
+- (id)ter events for now;
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)R;
+- (id)setDescriptionUnderConstruction:(id)arg1;
+- (void)canBeConvertedToEncoding:(id)arg1;
+- (id)address;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *contactStoreWorkQueue; // @synthesize contactStoreWorkQueue=_contactStoreWorkQueue;
-@property(retain) NSMutableSet *delegates; // @synthesize delegates=_delegates;
-@property(retain) NSArray *loadedMyEmailAddresses; // @synthesize loadedMyEmailAddresses=_loadedMyEmailAddresses;
-@property(retain) CNContact *meContact;
-@property(retain) CNReputationStore *reputationStore; // @synthesize reputationStore=_reputationStore;
 @property(retain) CNContactStore *store; // @synthesize store=_store;
-@property(retain) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(retain) NSString *testMeContactIdentifer; // @synthesize testMeContactIdentifer=_testMeContactIdentifer;
-@property(retain) NSArray *unitTestEmails; // @synthesize unitTestEmails=_unitTestEmails;
 
 @end
 

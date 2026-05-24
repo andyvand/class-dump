@@ -6,34 +6,29 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSDateInterval, NSString;
+@class NSString;
 
 @interface BMAppLaunchEvent : BMEventBase
 {
     NSString *_launchReason;
-    unsigned long long _launchType;
-    NSString *_parentBundleID;
-    NSString *_extensionHostID;
-    NSString *_shortVersionString;
-    NSString *_exactVersionString;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
+- (id));
+- (id));
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (id);
+- (id)# ;
 - (unsigned int);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (void);
 - (void);
 - (id);
@@ -41,37 +36,19 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)N;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)eSQLParser19PgQuery_TargetEntryP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
-- (id)fied;
+- (id)_TtCV14BiomeSQLParser19PgQuery_TargetEntryP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
+- (id)args_unspecified;
 - (void);
 - (id){|}~ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®ÿÿÿÿ±²³´µÿÿ·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉ;
 - (id)Ïÿ;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @dynamic absoluteTimestamp;
-@property(copy, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @dynamic dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @dynamic duration;
-@property(copy, nonatomic) NSString *exactVersionString; // @synthesize exactVersionString=_exactVersionString;
-@property(copy, nonatomic) NSString *extensionHostID; // @synthesize extensionHostID=_extensionHostID;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(nonatomic) unsigned long long launchType; // @synthesize launchType=_launchType;
-@property(copy, nonatomic) NSString *parentBundleID; // @synthesize parentBundleID=_parentBundleID;
-@property(copy, nonatomic) NSString *shortVersionString; // @synthesize shortVersionString=_shortVersionString;
-@property(nonatomic, getter=isStarting) _Bool starting; // @dynamic starting;
-@property(readonly) Class superclass;
 
 @end
 

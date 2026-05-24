@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_event_publisher, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_event_publisher;
 
 __attribute__((visibility("hidden")))
 @interface GCXPCEventPublisher
 {
     _Bool _statefulEventPublisher;
-    _Bool _receivedInitialBarrier;
-    NSObject<OS_xpc_event_publisher> *_publisher;
-    NSString *_streamName;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_pendingSendEvents;
-    NSObject<OS_xpc_object> *_stateEvent;
-    NSMutableSet *_tokens;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)';
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)`J;
+- (void)ompleted with success:(_Bool)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -44,14 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *pendingSendEvents; // @synthesize pendingSendEvents=_pendingSendEvents;
 @property(retain, nonatomic) NSObject<OS_xpc_event_publisher> *publisher; // @synthesize publisher=_publisher;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool receivedInitialBarrier; // @synthesize receivedInitialBarrier=_receivedInitialBarrier;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *stateEvent; // @synthesize stateEvent=_stateEvent;
-@property(nonatomic, getter=isStatefulEventPublisher) _Bool statefulEventPublisher; // @synthesize statefulEventPublisher=_statefulEventPublisher;
-@property(retain, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
-@property(retain, nonatomic) NSMutableSet *tokens; // @synthesize tokens=_tokens;
 
 @end
 

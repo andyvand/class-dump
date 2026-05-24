@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, NSString;
+@class NSString;
 
 @interface CKDPDatabaseIdentifier
 {
     NSString *_containerName;
-    int _containerType;
-    CKDPIdentifier *_databaseOwnerId;
-    int _databaseType;
-    struct {
-        unsigned int containerType:1;
-        unsigned int databaseType:1;
-    } _has;
 }
 
 - (void);
@@ -24,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (int);
 - (void);
 - (void);
@@ -32,12 +25,12 @@
 - (int);
 - (int);
 - (_Bool);
-- (void);
+- (void)UsoTask_disableSetting_common_Note;
 - (void);
 - (id);
+- (void)dictionaryWithCapacity:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)passthroughAudioFormatDurationSecsArray;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,14 +41,7 @@
 - (void)share participants;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(nonatomic) int containerType; // @synthesize containerType=_containerType;
-@property(retain, nonatomic) CKDPIdentifier *databaseOwnerId; // @synthesize databaseOwnerId=_databaseOwnerId;
-@property(nonatomic) int databaseType; // @synthesize databaseType=_databaseType;
 @property(readonly, nonatomic) _Bool hasContainerName;
-@property(nonatomic) _Bool hasContainerType;
-@property(readonly, nonatomic) _Bool hasDatabaseOwnerId;
-@property(nonatomic) _Bool hasDatabaseType;
 
 @end
 

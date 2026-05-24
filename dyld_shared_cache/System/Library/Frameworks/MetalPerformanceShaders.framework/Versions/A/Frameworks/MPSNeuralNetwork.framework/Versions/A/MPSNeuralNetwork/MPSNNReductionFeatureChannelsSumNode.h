@@ -13,7 +13,7 @@
 
 - (void *);
 - (float);
-- (void);
+- (void)Vo;
 
 // Remaining properties
 @property(nonatomic) float weight; // @synthesize weight=_weight;

@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol EARPSRAudioProcessorDelegate, OS_dispatch_queue;
+@protocol EARPSRAudioProcessorDelegate;
 
 @interface EARPSRAudioProcessor
 {
     struct shared_ptr<quasar::PSRAudioProcessor> _audioProcessor;
-    struct SystemConfig _sysConfig;
-    unsigned long long _sampleRate;
-    NSString *_configRoot;
-    id <EARPSRAudioProcessorDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _batchSize;
 }
 
 + (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)ormTypeIdentifiers;
+- (id)ary/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)rkoutIntentResponse;
 - (id);
 - (void);
 - (id);
@@ -38,10 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) NSString *configRoot; // @synthesize configRoot=_configRoot;
 @property(nonatomic) __weak id <EARPSRAudioProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

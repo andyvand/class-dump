@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBeneficiaryManifest, AKInheritanceAccessKey, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface AKInheritanceContext
 {
     NSUUID *_identifier;
-    NSString *_altDSID;
-    NSString *_beneficiaryIdentifier;
-    NSString *_beneficiarySetupToken;
-    AKBeneficiaryManifest *_manifest;
-    AKInheritanceAccessKey *_accessKey;
 }
 
 + (_Bool);
@@ -21,34 +16,23 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (id)-
+!+ Aի~<!"",A@!;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)K;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)C;
 - (id)\¶ÞE;M? ,ÏTÝx;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey; // @synthesize accessKey=_accessKey;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(copy, nonatomic) NSString *beneficiaryIdentifier; // @synthesize beneficiaryIdentifier=_beneficiaryIdentifier;
-@property(copy, nonatomic) NSString *beneficiarySetupToken; // @synthesize beneficiarySetupToken=_beneficiarySetupToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKBeneficiaryManifest *manifest; // @synthesize manifest=_manifest;
-@property(readonly) Class superclass;
 
 @end
 

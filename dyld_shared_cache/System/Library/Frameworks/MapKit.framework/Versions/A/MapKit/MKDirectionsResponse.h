@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsResponse, MKMapItem, NSArray, NSString, NSURL;
+@class GEODirectionsResponse, NSURL;
 
 @interface MKDirectionsResponse
 {
     GEODirectionsResponse *_geoResponse;
-    MKMapItem *_source;
-    MKMapItem *_destination;
-    NSArray *_routes;
 }
 
 + (id);
+- (id).;
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)hDescriptor:size: /* Error: Ran out of types for this method. */;
+- (void)fontWithDescriptor:size: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) GEODirectionsResponse *_geoResponse;
-@property(readonly, retain, nonatomic) NSString *_incidentDescription;
 @property(readonly, retain, nonatomic) NSURL *_mapsURL;
-@property(readonly, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) NSArray *routes; // @synthesize routes=_routes;
-@property(readonly, nonatomic) MKMapItem *source; // @synthesize source=_source;
 
 @end
 

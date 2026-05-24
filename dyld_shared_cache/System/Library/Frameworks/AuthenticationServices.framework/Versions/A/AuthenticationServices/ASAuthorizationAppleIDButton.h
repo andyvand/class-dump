@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSString;
-
 @interface ASAuthorizationAppleIDButton
 {
     long long _type;
-    long long _style;
-    CAFilter *_highlightFilter;
-    double _cornerRadius;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)service unresponsive due to repeated timeouts;
 + (double);
 + (Class);
 - (long long);
@@ -26,10 +21,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)rmissionToRequestMirror[%s] %s;
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)folder;
 - (void);
 - (void);
 - (id);
@@ -41,18 +36,11 @@
 - (void);
 - (id)0@ù
 × ;
-- (void)rint;
+- (void)fingerprint;
 - (void)ÿ¬Àvª;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

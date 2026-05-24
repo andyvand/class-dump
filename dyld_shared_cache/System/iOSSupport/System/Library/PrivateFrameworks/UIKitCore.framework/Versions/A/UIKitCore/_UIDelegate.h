@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     id _attachedObject;
 }
 
-- (void);
-- (void);
+- (void)setupComplete;
+- (void)nClearNoticeRateLimiter",&,N,V_clearRateLimiter;
 - (id);
 - (void);
 

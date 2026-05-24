@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSpanMatcherEnded, NLXSchemaCDMSpanMatcherStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSpanMatcherContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaCDMSpanMatcherStarted *_startedOrChanged;
-    NLXSchemaCDMSpanMatcherEnded *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,18 +18,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)=;
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)genresForDomains:(id)arg1 withMediaKinds:withDeviceCapabilities:withReply: /* Error: Ran out of types for this method. */;
+- (void)AMPLibModelSongKind;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)es in a directory;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,13 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMSpanMatcherEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMSpanMatcherStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

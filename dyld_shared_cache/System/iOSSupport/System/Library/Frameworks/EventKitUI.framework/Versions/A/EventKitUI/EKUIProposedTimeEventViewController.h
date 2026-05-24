@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarEventInvitationNotificationAttendee, EKEvent, NSString, UIViewController;
-@protocol EKEditItemViewControllerDelegate, EKEventViewDelegate, EKUIProposedTimeEventViewControllerImpl, EKUIViewControllerNavigationDelegate, EKViewControllerRemoteUIDelegate;
+@class UIViewController;
+@protocol EKEventViewDelegate, EKUIProposedTimeEventViewControllerImpl;
 
 @interface EKUIProposedTimeEventViewController
 {
@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (void);
-- (struct CGSize);
+- (struct CGSize)NSObject;
 - (void);
-- (void);
+- (void)_saveZonesToContainer:allowRecoveryAttempt:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,41 +30,13 @@
 - (CDUnknownBlockType);
 - (unsigned long long)±n°1Â0@ù
 × ;
-- (void)ew:toColor: /* Error: Ran out of types for this method. */;
-- (void)sAttachmentChanges;
-- (void)generateStringForAllParticipants:(CDUnknownBlockType)arg1;
+- (void)viewTintColorDidChangeForView:toColor: /* Error: Ran out of types for this method. */;
+- (void)hasAttachmentChanges;
+- (void)_generateStringForAllParticipants:(CDUnknownBlockType)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKEventViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) EKEvent *event;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) EKCalendarEventInvitationNotificationAttendee *proposedTimeAttendee;
-@property(nonatomic) __weak id <EKViewControllerRemoteUIDelegate> remoteUIDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 
 @end
 

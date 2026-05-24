@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIKMacIconGenerator
 {
     _Bool _forceNoTextEffects;
 }
 
-+ (id)R";
-+ (void);
 + (id);
-- (struct CGImage *)2qÐÒ0ÁÚôªàªáªâªD;
++ (void);
++ (id)h&A�;
+- (struct CGImage *);
 - (struct CGImage *);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

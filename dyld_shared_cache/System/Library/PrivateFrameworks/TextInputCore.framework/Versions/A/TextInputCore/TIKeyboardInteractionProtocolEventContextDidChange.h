@@ -6,50 +6,31 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSString, TIDocumentState;
+@class TIDocumentState;
 
 @interface TIKeyboardInteractionProtocolEventContextDidChange : TIKeyboardInteractionProtocolBase
 {
     _Bool _wordDelete;
-    _Bool _cursorMoved;
-    _Bool _extendsPriorWord;
-    TIDocumentState *_documentState;
-    NSString *_word;
-    unsigned long long _selectionLocation;
-    struct _NSRange _inWordRange;
 }
 
 + (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (struct _NSRange);
+- (_Bool)setIgnoreTimeoutTemporarily: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ption",&,N,V_transcriber;
+- (id)axtty_delete_action;
+- (struct _NSRange)RTTTranscriptionPrefix;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id)SAModelExecution;
 - (id);
-- (id);
-- (void);
+- (void)r",&,N,V_birthdayDateComponentsFormatter;
 - (void)!0DùQið1Â0@ù
 × ;
 - (id)ager class for input mode:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cursorMoved; // @synthesize cursorMoved=_cursorMoved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(readonly, nonatomic) _Bool extendsPriorWord; // @synthesize extendsPriorWord=_extendsPriorWord;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct _NSRange inWordRange; // @synthesize inWordRange=_inWordRange;
-@property(readonly, nonatomic) unsigned long long selectionLocation; // @synthesize selectionLocation=_selectionLocation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *word; // @synthesize word=_word;
-@property(readonly, nonatomic) _Bool wordDelete; // @synthesize wordDelete=_wordDelete;
 
 @end
 

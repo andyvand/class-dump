@@ -6,28 +6,24 @@
 
 #import <MapKit/MKAnnotationView.h>
 
-@class MKImageView, NSColor;
+@class MKImageView;
 @protocol _MKPinAnnotationViewDelegate;
 
 @interface MKPinAnnotationView : MKAnnotationView
 {
     MKImageView *_shadowView;
-    NSColor *_pinTintColor;
-    id <_MKPinAnnotationViewDelegate> _delegate;
-    int _state;
-    _Bool _animatesDrop;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (struct CGPoint);
++ (id)found;
++ (struct CGPoint)ation;
 + (struct CGPoint);
 + (id);
 + (struct CGRect);
 + (struct CGSize);
-+ (struct CGPoint);
++ (struct CGPoint);
 + (Class);
 + (struct CGPoint);
 + (id);
@@ -45,52 +41,50 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)A;
+- (void);
+- (void);
+- (void);
+- (void)co;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)n.framework/Versions/A/CoreFoundation;
+- (void)b/libobjc.A.dylib;
+- (struct CGPoint)3.dylib;
 - (void);
 - (struct NSEdgeInsets);
 - (void);
 - (id);
+- (id)Arkansas;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)ZIP
+City Country;
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)setAOPVTTriggerLength: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)destruct;
+- (void)mapping interface to provider UUID:(unsigned long long)arg1 malformed response from nesessionmanager.;
 - (id)!(GùÑ*°1Â0@ù
 × ;
-- (void)Layer:activeARWalkingFeatureDidUpdate: /* Error: Ran out of types for this method. */;
+- (void)mapLayer:activeARWalkingFeatureDidUpdate: /* Error: Ran out of types for this method. */;
 - (_Bool)_clLocationManager;
 - (void)ü²;
-- (id)FinishRenderingRequiredData;
+- (id)mapViewDidFinishRenderingRequiredData;
 - (void)ô;
 
 // Remaining properties
 @property(nonatomic, setter=_setDelegate:) __weak id <_MKPinAnnotationViewDelegate> _delegate; // @synthesize _delegate;
-@property(nonatomic) _Bool animatesDrop;
-@property(nonatomic) unsigned long long pinColor;
-@property(retain) NSColor *pinTintColor;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRSystemPlaybackGenericTracklistQueueProtobuf
 {
     NSData *_collectionIdentifierSet;
-    NSString *_firstTrackIdentifier;
-    int _repeatMode;
-    int _shuffleMode;
-    NSString *_trackIdentifiers;
-    struct {
-        unsigned int repeatMode:1;
-        unsigned int shuffleMode:1;
-    } _has;
 }
 
 - (id);
@@ -47,21 +39,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)8;
 - (int);
-- (void)ilableEndpointsDidChange: /* Error: Ran out of types for this method. */;
+- (void)availableEndpointsDidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *collectionIdentifierSet; // @synthesize collectionIdentifierSet=_collectionIdentifierSet;
-@property(retain, nonatomic) NSString *firstTrackIdentifier; // @synthesize firstTrackIdentifier=_firstTrackIdentifier;
-@property(readonly, nonatomic) _Bool hasCollectionIdentifierSet;
 @property(readonly, nonatomic) _Bool hasFirstTrackIdentifier;
-@property(nonatomic) _Bool hasRepeatMode;
-@property(nonatomic) _Bool hasShuffleMode;
-@property(readonly, nonatomic) _Bool hasTrackIdentifiers;
-@property(nonatomic) int repeatMode; // @synthesize repeatMode=_repeatMode;
-@property(nonatomic) int shuffleMode; // @synthesize shuffleMode=_shuffleMode;
-@property(retain, nonatomic) NSString *trackIdentifiers; // @synthesize trackIdentifiers=_trackIdentifiers;
 
 @end
 

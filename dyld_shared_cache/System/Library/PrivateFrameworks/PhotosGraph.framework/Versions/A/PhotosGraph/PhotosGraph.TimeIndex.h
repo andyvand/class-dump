@@ -7,10 +7,6 @@
 @interface PhotosGraph.TimeIndex
 {
     id availableSubdomains;
-    id featureVectorByMomentUUID;
-    id featureVectorKey;
-    id timestampByMomentUUID;
-    id dataSamplerBySubdomain;
 }
 
 @end

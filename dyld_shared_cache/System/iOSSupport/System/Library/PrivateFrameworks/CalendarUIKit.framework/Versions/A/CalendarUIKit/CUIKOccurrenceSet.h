@@ -17,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)rkarounds;
 - (unsigned long long);
 - (unsigned long long);
 

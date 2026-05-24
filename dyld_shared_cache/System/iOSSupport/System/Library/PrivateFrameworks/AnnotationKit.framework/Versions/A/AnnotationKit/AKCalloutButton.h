@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCalloutBar;
-
 @interface AKCalloutButton
 {
     int _position;
-    AKCalloutBar *_bar;
 }
 
 - (void);
-- (id);
-- (int);
-- (id);
+- (id)	;
+- (int);
+- (id)P;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak AKCalloutBar *bar; // @synthesize bar=_bar;
 @property(nonatomic) int position; // @synthesize position=_position;
 
 @end

@@ -11,15 +11,26 @@
 + (id);
 + (id);
 + (id);
++ (id)pathForResource:ofType:inDirectory: /* Error: Ran out of types for this method. */;
++ (id)M-N.O/P;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)cu;
++ (id)7;
++ (id)s(%d);
++ (id)B|S;
++ (id)`;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)Dictionary",&,N,V_upperPriorityEventTypesIdentifiers;
++ (id)e;
++ (id)|;
 + (id);
 + (id);
 + (id);
@@ -29,8 +40,26 @@
 + (id);
 + (id);
 + (id);
++ (id)y;
++ (id)__objc_superrefs__DATA_CONST;
++ (id)__TEXT;
 + (id);
 + (id);
++ (id):scheme is bogus
+ /* Error: Ran out of types for this method. */;
++ (id)pread returned %lld (expected %lld)
+;
++ (id)C0-68B6B72699C7</key>
+	<string>DOS_FAT</string>
+</dict>
+</plist>
+;
++ (_Bool)m/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+</dict>
+</plist>
+;
 + (id);
 + (id);
 + (id);
@@ -39,16 +68,20 @@
 + (id);
 + (id);
 + (id);
++ (id)ateFrameworks/DiskImages.framework/Versions/A/DiskImages;
 + (id);
 + (id);
++ (id)ame mismatch;
 + (id);
 + (id);
++ (id)qa;
++ (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -56,6 +89,8 @@
 + (id);
 + (id);
 + (id);
++ (id)_initWithSenderDescriptors: /* Error: Ran out of types for this method. */;
++ (id)Eu;
 + (id);
 + (id);
 + (id);
@@ -64,9 +99,17 @@
 + (id);
 + (id);
 + (id);
++ (id)nParameters"16@"CWFRequestParameters"24@?<v@?@"NSError">32;
++ (id)requestAuthorizationForClientID:completion: /* Error: Ran out of types for this method. */;
++ (id),V_localSecondaryPreferredChannel;
++ (id)B,V_waitingForAuthorizationUI;
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)Pinger:Pinger has been stopped, no longer have connection /* Error: Ran out of types for this method. */;
++ (id)received broken backhaul state change event, notify_get_state() returned %lu;
++ (id)"NSError"8@16;
 + (id);
 + (id);
 + (id);
@@ -81,26 +124,32 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)*A;
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
@@ -112,6 +161,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -121,6 +171,18 @@
 + (id);
 + (id);
 + (id);
++ (id)"16;
++ (id)rmation"16@0:8 /* Error: Ran out of types for this method. */;
++ (id)0:8@"NSNumber"16 /* Error: Ran out of types for this method. */;
++ (id)_INPBAppNames"16@0:8 /* Error: Ran out of types for this method. */;
++ (id)payloadWellnessMetadataPairsCount;
++ (id)hasPodcastEpisodePodcastName;
++ (id)callTypesCount;
++ (id)audioSearchResultsType;
++ (id)NSString",C,N,V_companionApplicationIdentifier;
++ (id)leId;
++ (id)StringAsEvent: /* Error: Ran out of types for this method. */;
++ (id)umericSettingValue",C;
 + (id);
 + (id);
 + (id);
@@ -128,10 +190,12 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)9;
 + (id);
 + (id);
 + (id);
@@ -143,60 +207,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -264,9 +275,9 @@
 × ;
 + (id)!Dùññ(1Â0@ù
 × ;
-+ (id)ierKey;
++ (id)conversationIdentifierKey;
 + (id)exts;
-+ (id)iProfileID;
++ (id)safariProfileID;
 + (id);
 + (id)K;
 

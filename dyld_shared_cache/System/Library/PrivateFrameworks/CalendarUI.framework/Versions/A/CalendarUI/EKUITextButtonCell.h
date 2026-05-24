@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage;
+@class NSImage;
 
 @interface EKUITextButtonCell
 {
     NSImage *_originalImage;
-    NSAttributedString *_originalTitle;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)7;
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)V;
 - (void);
-- (void);
+- (void)NotificationsWithCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSImage *originalImage; // @synthesize originalImage=_originalImage;
-@property(retain) NSAttributedString *originalTitle; // @synthesize originalTitle=_originalTitle;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PXFeedViewActionPerformer
+- (_Bool);
 @end
 

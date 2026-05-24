@@ -5,5 +5,6 @@
 //
 
 @protocol WCPrivateXPCManagerDelegate
+- (void);
 @end
 

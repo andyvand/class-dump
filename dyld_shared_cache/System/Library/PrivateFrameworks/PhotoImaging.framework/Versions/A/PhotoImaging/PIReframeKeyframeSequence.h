@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (id);
 - (long long);
 - (unsigned long long);
-- (void)BackgroundBackfillLayer;
+- (void)spatialPhotoBackgroundBackfillLayer;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

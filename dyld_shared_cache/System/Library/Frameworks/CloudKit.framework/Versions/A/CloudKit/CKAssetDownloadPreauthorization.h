@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface CKAssetDownloadPreauthorization
 {
     NSString *_responseUUID;
-    NSDictionary *_contentResponseHeaders;
-    NSData *_contentResponseBody;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)newRenderPipelineStateWithTileDescriptor:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void),&;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *contentResponseBody; // @synthesize contentResponseBody=_contentResponseBody;
-@property(readonly, copy, nonatomic) NSDictionary *contentResponseHeaders; // @synthesize contentResponseHeaders=_contentResponseHeaders;
 @property(readonly, copy, nonatomic) NSString *responseUUID; // @synthesize responseUUID=_responseUUID;
 
 @end

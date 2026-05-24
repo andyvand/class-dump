@@ -6,35 +6,24 @@
 
 #import <IOGPU/IOGPUMTLEvent.h>
 
-@class IOGPUMetalDevice, NSString;
+@class IOGPUMetalDevice;
 @protocol MTLDevice;
 
 @interface _IOGPUMetalMTLEvent : IOGPUMTLEvent
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    unsigned long long _labelTraceID;
-    NSString *_label;
-    struct os_unfair_lock_s _labelLock;
 }
 
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ertyFindBaseTask.m;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) Class superclass;
 
 @end
 

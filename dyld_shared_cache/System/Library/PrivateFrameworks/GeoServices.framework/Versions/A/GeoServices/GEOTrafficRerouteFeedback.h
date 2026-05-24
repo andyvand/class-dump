@@ -4,51 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOTrafficRerouteFeedback
 {
     PBDataReader *_reader;
-    double _bannerDurationSeconds;
-    NSString *_displayedBannerId;
-    double _distanceToDestination;
-    NSData *_oldRouteID;
-    NSMutableArray *_oldRouteIncidents;
-    NSData *_reroutedRouteID;
-    NSData *_responseId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _actionType;
-    int _alertType;
-    unsigned int _oldRouteHistoricTravelTime;
-    unsigned int _oldRouteTravelTime;
-    int _rerouteType;
-    unsigned int _reroutedRouteHistoricTravelTime;
-    unsigned int _reroutedRouteTravelTime;
-    _Bool _backgrounded;
-    struct {
-        unsigned int has_bannerDurationSeconds:1;
-        unsigned int has_distanceToDestination:1;
-        unsigned int has_actionType:1;
-        unsigned int has_alertType:1;
-        unsigned int has_oldRouteHistoricTravelTime:1;
-        unsigned int has_oldRouteTravelTime:1;
-        unsigned int has_rerouteType:1;
-        unsigned int has_reroutedRouteHistoricTravelTime:1;
-        unsigned int has_reroutedRouteTravelTime:1;
-        unsigned int has_backgrounded:1;
-        unsigned int read_displayedBannerId:1;
-        unsigned int read_oldRouteID:1;
-        unsigned int read_oldRouteIncidents:1;
-        unsigned int read_reroutedRouteID:1;
-        unsigned int read_responseId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)MessageStrings:(id)arg1;
++ (Class);
++ (_Bool)setMessageStrings:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,27 +34,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
+- (id);
+- (unsigned int);
 - (id);
 - (int);
 - (unsigned int);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -86,18 +50,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)ze=dd}}16;
+- (_Bool)24@0:8@16 /* Error: Ran out of types for this method. */;
+- (_Bool)onScheduler_cachedResultForRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)numberWithInteger: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPersistence: /* Error: Ran out of types for this method. */;
+- (_Bool)inProcessRemover;
+- (double)decodeObjectOfClass:data:error: /* Error: Ran out of types for this method. */;
+- (id)iner;
 - (void);
-- (double);
-- (_Bool);
-- (id);
+- (double)ntactsPersistence.CNCDMeCardMacBuddyImporter;
+- (_Bool)LocalPhoneNumber;
+- (id)remoteLocation;
 - (void);
 - (void);
 - (id);
@@ -113,9 +77,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (int);
+- (id)(;
+- (void)initWithAttendingType:(id)arg1 detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs: /* Error: Ran out of types for this method. */;
+- (int)CSVoiceTriggerAPModeSuspendPolicyMac;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -124,43 +88,15 @@
 - (id);
 - (void);
 - (id)LocationInViewport"b1};
-- (void)etUserDidLaunchFindMy:(_Bool)arg1;
-- (id)escriptionArtwork;
+- (void)setUserDidLaunchFindMy:(_Bool)arg1;
+- (id)hasTrafficDescriptionArtwork;
 - (void)@"GEOPDIdentityMerchantInformation",&,N;
-- (id)Internal;
-- (id)ernal_info;
+- (id)GEOURLExtrasInternal;
+- (id)supports_internal_info;
 - (void)ÕÍÅßöXQ@;
 
 // Remaining properties
-@property(nonatomic) int actionType;
-@property(nonatomic) int alertType;
-@property(nonatomic) _Bool backgrounded;
-@property(nonatomic) double bannerDurationSeconds;
-@property(retain, nonatomic) NSString *displayedBannerId;
-@property(nonatomic) double distanceToDestination;
-@property(nonatomic) _Bool hasActionType;
-@property(nonatomic) _Bool hasAlertType;
-@property(nonatomic) _Bool hasBackgrounded;
-@property(nonatomic) _Bool hasBannerDurationSeconds;
-@property(readonly, nonatomic) _Bool hasDisplayedBannerId;
-@property(nonatomic) _Bool hasDistanceToDestination;
-@property(nonatomic) _Bool hasOldRouteHistoricTravelTime;
-@property(readonly, nonatomic) _Bool hasOldRouteID;
 @property(nonatomic) _Bool hasOldRouteTravelTime;
-@property(nonatomic) _Bool hasRerouteType;
-@property(nonatomic) _Bool hasReroutedRouteHistoricTravelTime;
-@property(readonly, nonatomic) _Bool hasReroutedRouteID;
-@property(nonatomic) _Bool hasReroutedRouteTravelTime;
-@property(readonly, nonatomic) _Bool hasResponseId;
-@property(nonatomic) unsigned int oldRouteHistoricTravelTime;
-@property(retain, nonatomic) NSData *oldRouteID;
-@property(retain, nonatomic) NSMutableArray *oldRouteIncidents;
-@property(nonatomic) unsigned int oldRouteTravelTime;
-@property(nonatomic) int rerouteType;
-@property(nonatomic) unsigned int reroutedRouteHistoricTravelTime;
-@property(retain, nonatomic) NSData *reroutedRouteID;
-@property(nonatomic) unsigned int reroutedRouteTravelTime;
-@property(retain, nonatomic) NSData *responseId;
 
 @end
 

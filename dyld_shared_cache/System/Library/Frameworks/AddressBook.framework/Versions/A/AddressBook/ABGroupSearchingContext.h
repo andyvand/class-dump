@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol ABContactSearching;
 
 @interface ABGroupSearchingContext
 {
     id <ABContactSearching> _searchNode;
-    NSString *_groupLabel;
-    _Bool _canCreateGroups;
 }
 
 - (id);
@@ -21,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool canCreateGroups; // @synthesize canCreateGroups=_canCreateGroups;
-@property(readonly, copy) NSString *groupLabel; // @synthesize groupLabel=_groupLabel;
 @property(readonly, retain) id <ABContactSearching> searchNode; // @synthesize searchNode=_searchNode;
 
 @end

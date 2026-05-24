@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInputViewSet, UIKBViewTreeSnapshotter, UIView, _UIViewControllerTransitionContext;
-@protocol UIInputViewAnimationHost, UIViewControllerContextTransitioning;
+@class _UIViewControllerTransitionContext;
+@protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewAnimationControllerViewControllerContext
 {
     _UIViewControllerTransitionContext *_context;
-    id <UIInputViewAnimationHost> _host;
-    UIView *_from;
-    UIView *_to;
-    struct CGRect _fromRect;
-    struct CGRect _toRect;
-    UIKBViewTreeSnapshotter *_kbSnapshotter;
-    UIInputViewSet *_preservedInputViewSet;
 }
 
 + (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
+- (id)completedPeriodicSyncSinceFirstFullSync;
+- (struct CGRect)eBackupStateChange;
+- (id)edCloudStorage.test.mobileBackupStateChange;
 - (struct CGRect);
 - (void);
-- (id)rectionalEdgeInsetsValue;
+- (id)directionalEdgeInsetsValue;
 - (void)@g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIView *fromKeyboard;
-@property(readonly, nonatomic) struct CGRect fromKeyboardFrame;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <UIViewControllerContextTransitioning> mainContext;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *toKeyboard;
-@property(readonly, nonatomic) struct CGRect toKeyboardFrame;
 
 @end
 

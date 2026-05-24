@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _UIVelocityIntegrator;
 @protocol _UIPlatterMenuPanningTransformerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIPlatterMenuPanningTransformer
 {
     id <_UIPlatterMenuPanningTransformerDelegate> _delegate;
-    double _minimumXVelocityForAxisLock;
-    unsigned long long _axisLock;
-    unsigned long long _overrideLockAxis;
-    double _lastAxisLockTime;
-    NSDate *_timeForLastDirectionalChange;
-    NSDate *_panBeginTime;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    struct CGPoint _transitionZonePosition;
-    struct CGSize _transitionZoneSize;
-    struct CGPoint _lastTouchPosition;
-    struct CGVector _lastOffset;
-    struct CGPoint _lastTransformedPoint;
-    struct CGPoint _panBeginTouchPosition;
-    struct CGPoint _lastDirectionChangeTouchPosition;
-    struct CGRect _transitionZoneRect;
 }
 
-+ (id);
-- (struct CGSize);
++ (id)id %@;
+- (struct CGSize);
 - (struct CGRect);
 - (struct CGPoint);
 - (double);
@@ -38,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)__TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ndation;
+- (void)oa;
 - (void);
 - (struct CGPoint);
 - (id);
@@ -57,41 +41,24 @@ __attribute__((visibility("hidden")))
 - (struct CGVector);
 - (struct CGPoint);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (id)0:(struct CGPoint)arg1 8@16@24@32@40@48B56@?60;
+- (void)repairDuplicateChatsIfNeeded;
+- (void)at:(struct CGPoint)arg1 completion:(struct CGPoint)arg2;
+- (void)relayDictionaryToPeers:(struct CGPoint)arg1 requiresUpload:(struct CGPoint)arg2 serviceName:requiredCapabilities:excludedCapabilities:excludesWatch:onlyWatch: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchMessageHistorySummaryForDateInterval:chatIdentifiers:chatStyle:services:reply: /* Error: Ran out of types for this method. */;
+- (void)response when validating tokens, attempting to fix by potentially re-inviting senderHandleID %@ fromHandleID %@;
+- (void)er:(double)arg1 %@;
 - (void);
 - (id);
 - (struct CGVector)c1Â0@ù
 × ;
 - (void);
-- (id)BarInit;
-- (void)y;
+- (id)_commonNavBarInit;
+- (void)Display;
 - (struct CGVector)ü\;
 
 // Remaining properties
-@property(nonatomic) unsigned long long axisLock; // @synthesize axisLock=_axisLock;
-@property(nonatomic) __weak id <_UIPlatterMenuPanningTransformerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double lastAxisLockTime; // @synthesize lastAxisLockTime=_lastAxisLockTime;
-@property(nonatomic) struct CGPoint lastDirectionChangeTouchPosition; // @synthesize lastDirectionChangeTouchPosition=_lastDirectionChangeTouchPosition;
-@property(nonatomic) struct CGVector lastOffset; // @synthesize lastOffset=_lastOffset;
-@property(nonatomic) struct CGPoint lastTouchPosition; // @synthesize lastTouchPosition=_lastTouchPosition;
-@property(nonatomic) struct CGPoint lastTransformedPoint; // @synthesize lastTransformedPoint=_lastTransformedPoint;
-@property(nonatomic) double minimumXVelocityForAxisLock; // @synthesize minimumXVelocityForAxisLock=_minimumXVelocityForAxisLock;
-@property(readonly, nonatomic) struct CGVector offset;
-@property(nonatomic) unsigned long long overrideLockAxis; // @synthesize overrideLockAxis=_overrideLockAxis;
-@property(retain, nonatomic) NSDate *panBeginTime; // @synthesize panBeginTime=_panBeginTime;
-@property(nonatomic) struct CGPoint panBeginTouchPosition; // @synthesize panBeginTouchPosition=_panBeginTouchPosition;
-@property(retain, nonatomic) NSDate *timeForLastDirectionalChange; // @synthesize timeForLastDirectionalChange=_timeForLastDirectionalChange;
 @property(nonatomic) struct CGPoint transitionZonePosition; // @synthesize transitionZonePosition=_transitionZonePosition;
-@property(nonatomic) struct CGRect transitionZoneRect; // @synthesize transitionZoneRect=_transitionZoneRect;
-@property(nonatomic) struct CGSize transitionZoneSize; // @synthesize transitionZoneSize=_transitionZoneSize;
-@property(readonly, nonatomic) struct CGVector velocity;
-@property(retain, nonatomic) _UIVelocityIntegrator *velocityIntegrator; // @synthesize velocityIntegrator=_velocityIntegrator;
 
 @end
 

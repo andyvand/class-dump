@@ -5,5 +5,11 @@
 //
 
 @protocol AKAuthorizationSubPaneConfirmButtonDelegate
+- (void);
+- (void);
+- (void)aq;
+
+@optional
+- (_Bool)SSAttributeDefinitions;
 @end
 

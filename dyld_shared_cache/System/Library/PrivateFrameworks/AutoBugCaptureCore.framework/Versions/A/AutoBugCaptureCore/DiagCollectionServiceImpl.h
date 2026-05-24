@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCAdministrator, DiagnosticExtensionController, NSObject, NSString;
+@class ABCAdministrator, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DiagCollectionServiceImpl
 {
     NSObject<OS_dispatch_queue> *queue;
-    DiagnosticExtensionController *deController;
-    ABCAdministrator *_administrator;
 }
 
 - (id);
-- (void);
+- (void)>;
 - (void);
 - (_Bool);
 - (id);
@@ -28,13 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak ABCAdministrator *administrator; // @synthesize administrator=_administrator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSRecursiveLock, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface SSCursorView
 {
     _Bool _cursorVisibility;
-    _Bool _observeMode;
-    CALayer *_cursorLayer;
-    struct CGImage *_cursorImage;
-    double _scaleFactor;
-    struct CGImage *_scaledCursorImage;
-    NSRecursiveLock *_cursorViewMutex;
-    struct CGPoint _cursorPosition;
-    struct CGPoint _cursorHotSpot;
 }
 
 - (void);
@@ -31,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct CGPoint);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -42,34 +34,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)providerURL;
 - (_Bool);
+- (void);
+- (id)`o;
 - (void);
-- (id);
-- (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (struct CGPoint)FCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/ScreenSharingFramework/Source/SSDevicesAndContacts.m;
 - (void)ateCursorImageUpdated:(struct CGPoint)arg1 ];
 
 // Remaining properties
-@property(nonatomic) struct CGPoint cursorHotSpot; // @synthesize cursorHotSpot=_cursorHotSpot;
-@property(nonatomic) struct CGImage *cursorImage; // @synthesize cursorImage=_cursorImage;
 @property(retain, nonatomic) CALayer *cursorLayer; // @synthesize cursorLayer=_cursorLayer;
-@property(nonatomic) struct CGPoint cursorPosition; // @synthesize cursorPosition=_cursorPosition;
-@property(retain, nonatomic) NSRecursiveLock *cursorViewMutex; // @synthesize cursorViewMutex=_cursorViewMutex;
-@property(nonatomic) _Bool cursorVisibility; // @synthesize cursorVisibility=_cursorVisibility;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool observeMode; // @synthesize observeMode=_observeMode;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) struct CGImage *scaledCursorImage; // @synthesize scaledCursorImage=_scaledCursorImage;
-@property(readonly) Class superclass;
 
 @end
 

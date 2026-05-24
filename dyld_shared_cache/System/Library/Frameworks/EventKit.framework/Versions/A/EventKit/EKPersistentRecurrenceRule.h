@@ -10,29 +10,29 @@
 {
 }
 
++ (Class)P;
 + (Class);
-+ (Class);
++ (id)G=;
++ (id)�*;
 + (id);
-+ (id);
-+ (id);
 - (void);
+- (void)4";
 - (void);
-- (void);
-- (void);
+- (void)35;
 - (void);
 - (int);
 - (long long);
-- (id);
-- (id);
+- (id)eClient] Not creating new player for origin because createNewPlayerCallback was not registered;
+- (id)[MRNowPlayingSessionServiceClient] Not creating new player for origin because createNewPlayerCallback was not registered;
 - (void);
-- (long long);
+- (long long)!;
 - (id);
-- (void);
+- (void)?	;
 - (int);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setCharge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8: /* Error: Ran out of types for this method. */;
+- (id)_charge_duration_mean_at_charge_start_secs_curr_dynamic_bin_8;
 - (void);
 - (id);
 - (void);

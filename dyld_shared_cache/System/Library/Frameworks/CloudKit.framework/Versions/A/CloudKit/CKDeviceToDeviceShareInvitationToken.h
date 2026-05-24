@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface CKDeviceToDeviceShareInvitationToken
 {
     NSData *_sharingInvitationData;
-    NSURL *_shareURL;
-    NSString *_participantID;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)setIndirectArgumentBufferDecodingData: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -30,8 +28,6 @@
 - (void)dS;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(readonly, copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
 @property(readonly, copy, nonatomic) NSData *sharingInvitationData; // @synthesize sharingInvitationData=_sharingInvitationData;
 
 @end

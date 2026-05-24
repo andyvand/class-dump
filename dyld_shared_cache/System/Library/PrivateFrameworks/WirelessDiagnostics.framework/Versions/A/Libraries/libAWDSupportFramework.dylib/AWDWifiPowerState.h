@@ -7,14 +7,9 @@
 @interface AWDWifiPowerState
 {
     unsigned long long _timestamp;
-    _Bool _powerState;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int powerState:1;
-    } _has;
 }
 
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
 - (void);
@@ -22,21 +17,18 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)6;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPowerState;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool powerState; // @synthesize powerState=_powerState;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

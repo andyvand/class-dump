@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSHashTable, NSObject, NSString, SGTQueryGeniusReserved;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface SGTQueryGenius
 {
     NSDictionary *shortNameToAttributes;
-    NSArray *allAttributeNames;
-    NSArray *scopeOrder;
-    NSHashTable *registeredSuggesters;
-    _Bool usesSimpleTokens;
-    NSObject<OS_dispatch_queue> *q;
-    SGTQueryGeniusReserved *_reserved;
 }
 
 + (id);
@@ -33,7 +26,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -53,45 +46,45 @@
 - (id);
 - (id);
 - (id);
+- (id)n;
+- (id);
+- (long long)=;
 - (id);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (id)7;
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (long long);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (id);
+- (void)(;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void)^;
 - (long long);
 - (id);
 - (long long);
@@ -100,14 +93,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_callBlockAfterWaitingForMouseUpIfNecessary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *allAttributeNames; // @synthesize allAttributeNames;
-@property(readonly) NSString *identifier;
-@property(readonly, nonatomic) _Bool offerDidYouMeanSuggestion;
-@property(retain, setter=_setOverrideDate:) NSDate *overrideDate;
-@property(copy) NSArray *scopeOrder; // @synthesize scopeOrder;
 @property(readonly) _Bool usesSimpleTokens; // @synthesize usesSimpleTokens;
 
 @end

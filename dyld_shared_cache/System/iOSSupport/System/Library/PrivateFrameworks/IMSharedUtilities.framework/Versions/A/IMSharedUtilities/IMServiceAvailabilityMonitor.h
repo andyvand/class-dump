@@ -7,8 +7,6 @@
 @interface IMServiceAvailabilityMonitor
 {
     id mmsEnabled;
-    id rcsEnabled;
-    id mmsToken;
 }
 
 - (_Bool);
@@ -18,8 +16,6 @@
 - (void)r guid:%s. Skipping search for previews. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isMMSEnabled;
-@property(nonatomic, readonly) _Bool isRCSEnabled;
 @property(nonatomic, readonly) _Bool isiMessageEnabled;
 
 @end

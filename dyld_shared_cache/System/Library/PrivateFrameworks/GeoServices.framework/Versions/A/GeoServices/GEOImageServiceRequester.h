@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, geo_isolater;
+@class geo_isolater;
 
 @interface GEOImageServiceRequester
 {
     geo_isolater *_isolater;
-    NSHashTable *_pendingRequests;
-    NSMapTable *_requestToIdentifier;
 }
 
 + (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)CNObservableScanScannerBlockObserver;
+- (id)SRemoraEndpointAnalyzer _emitEndpointDetectedEventWithEndpointTimeMs:endpointBufferHostTime:endpointerFeatures:endpointerDecisionLagInNs:extraDelayMs:endpointScore:asrFeaturesLatencies:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)6Ëþ;
 - (unsigned long long)-: /* Error: Ran out of types for this method. */;

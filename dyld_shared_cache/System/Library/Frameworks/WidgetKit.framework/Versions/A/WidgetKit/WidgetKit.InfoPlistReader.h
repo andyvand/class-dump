@@ -7,7 +7,6 @@
 @interface WidgetKit.InfoPlistReader
 {
     id configurationBackgroundColor;
-    id configurationAccentColor;
 }
 
 @end

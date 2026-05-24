@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_event_publisher;
+@class NSDictionary, NSObject;
+@protocol OS_xpc_event_publisher;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernMessagingXPCEventPublisher
 {
     NSDictionary *_launchOnDemandClientIdentifiersByMessageName;
-    NSObject<OS_xpc_event_publisher> *_xpcEventPublisher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_tokensByClientBundleID;
 }
 
 + (id).;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)verifyBlockedStatuses;
+- (id)fetchSharedTripsWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)cation %@;
+- (id)GEOMethodNotAvailableException;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)roller;
+- (void)AppleAccessoryPairingController;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *launchOnDemandClientIdentifiersByMessageName; // @synthesize launchOnDemandClientIdentifiersByMessageName=_launchOnDemandClientIdentifiersByMessageName;
-@property(retain, nonatomic) NSMutableDictionary *tokensByClientBundleID; // @synthesize tokensByClientBundleID=_tokensByClientBundleID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 @property(retain, nonatomic) NSObject<OS_xpc_event_publisher> *xpcEventPublisher; // @synthesize xpcEventPublisher=_xpcEventPublisher;
 
 @end

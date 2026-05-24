@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CBDynamicSlider
 {
     _Bool _autoBrightness;
-    _Bool _battery;
-    float _lux;
-    float _targetScaler;
-    float _scaler;
-    CDStruct_08e969a3 *_currentRange;
-    CDStruct_08e969a3 _range;
-    CDStruct_08e969a3 _rangeBattery;
 }
 
 + (float);
@@ -22,24 +15,20 @@ __attribute__((visibility("hidden")))
 - (float);
 - (_Bool);
 - (void);
+- (_Bool)G;
 - (_Bool);
-- (_Bool);
 - (float);
-- (CDStruct_08e969a3);
+- (CDStruct_7739a7cd);
 - (float);
-- (float);
+- (float);
 - (id);
 - (_Bool);
-- (CDStruct_08e969a3);
+- (CDStruct_7739a7cd)did8;
 - (id);
-- (CDStruct_08e969a3 *);
+- (CDStruct_7739a7cd *);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_08e969a3 *currentRange; // @synthesize currentRange=_currentRange;
-@property(readonly, nonatomic) CDStruct_08e969a3 range; // @synthesize range=_range;
-@property(readonly, nonatomic) CDStruct_08e969a3 rangeBattery; // @synthesize rangeBattery=_rangeBattery;
-@property(nonatomic) float scaler; // @synthesize scaler=_scaler;
-@property(readonly, nonatomic) float targetScaler; // @synthesize targetScaler=_targetScaler;
+@property(readonly, nonatomic) CDStruct_7739a7cd range; // @synthesize range=_range;
 
 @end
 

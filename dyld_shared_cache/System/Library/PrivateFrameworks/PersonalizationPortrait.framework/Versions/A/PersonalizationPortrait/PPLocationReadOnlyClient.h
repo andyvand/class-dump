@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPLocationReadOnlyClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
@@ -18,8 +17,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)ock_invoke;
 - (id);
 - (void);
 - (void)ait.TextUnderstanding;

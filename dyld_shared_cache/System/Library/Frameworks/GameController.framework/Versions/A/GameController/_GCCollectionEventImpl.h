@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCCollectionEventImpl
 {
     unsigned long long _timestamp;
-    NSMutableDictionary *_values;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
+- (void)@;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)p;
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)redactedBodyStringWithPropertyList:(struct _NSZone *)arg1;
 - (id);
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

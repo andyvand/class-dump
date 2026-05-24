@@ -7,15 +7,6 @@
 @interface RemindersUICore.TTRMCustomTimeZonePresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id router;
-    id initialTimeZone;
-    id firstMatchingCityName;
-    id firstMatchingCountryName;
-    id timeZoneDropDownMenuItems;
-    id initialSetupTask;
-    id fetchSearchResultsTask;
 }
 
 @end

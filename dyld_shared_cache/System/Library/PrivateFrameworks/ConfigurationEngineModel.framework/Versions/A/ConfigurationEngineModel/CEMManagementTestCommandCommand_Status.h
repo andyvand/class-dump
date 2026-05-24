@@ -16,12 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__TEXT;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ames_per_packet][:(id)arg1 LHbytesPerFrame][,channelsDI].
+Format for PCM is [-][BE|LE]{F|I|UI}{bitdepth}; else a 4-char format code (e.g. aac, alac).
+;
+- (void)signed int)ret;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusEcho; // @synthesize statusEcho=_statusEcho;

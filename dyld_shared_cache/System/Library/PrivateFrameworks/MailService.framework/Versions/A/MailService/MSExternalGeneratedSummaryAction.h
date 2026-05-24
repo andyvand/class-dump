@@ -6,26 +6,24 @@
 
 #import <MailService/MSExternalAction.h>
 
-@class EMGeneratedSummary, NSString;
+@class NSString;
 
 @interface MSExternalGeneratedSummaryAction : MSExternalAction
 {
     NSString *_searchableItemIdentifier;
-    EMGeneratedSummary *_generatedSummary;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id)j!k;
 - (id);
+- (id)setCdpKeyDisplayDescription:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)(%@);
 
 // Remaining properties
-@property(readonly) EMGeneratedSummary *generatedSummary; // @synthesize generatedSummary=_generatedSummary;
 @property(readonly) NSString *searchableItemIdentifier; // @synthesize searchableItemIdentifier=_searchableItemIdentifier;
 
 @end

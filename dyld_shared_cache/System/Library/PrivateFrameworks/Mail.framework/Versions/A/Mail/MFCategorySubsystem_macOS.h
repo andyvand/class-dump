@@ -9,25 +9,22 @@
 @interface MFCategorySubsystem_macOS
 {
     NSBackgroundActivityScheduler *_categoryMigrationScheduler;
-    NSBackgroundActivityScheduler *_authenticationMigrationScheduler;
-    NSBackgroundActivityScheduler *_businessGroupingScheduler;
 }
 
-- (void);
-- (void);
+- (void)l	
+J;
+- (void)%@q;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)(;
+- (void)#;
+- (void)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 - (void)îîÿ¼îîÿïîÿ¸ïîÿÜïîÿðîÿ<ðîÿðîÿ°ðîÿÔðîÿñîÿ¬öîÿ;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSBackgroundActivityScheduler *authenticationMigrationScheduler; // @synthesize authenticationMigrationScheduler=_authenticationMigrationScheduler;
-@property(retain, nonatomic) NSBackgroundActivityScheduler *businessGroupingScheduler; // @synthesize businessGroupingScheduler=_businessGroupingScheduler;
 @property(retain, nonatomic) NSBackgroundActivityScheduler *categoryMigrationScheduler; // @synthesize categoryMigrationScheduler=_categoryMigrationScheduler;
 
 @end

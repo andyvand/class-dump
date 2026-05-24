@@ -5,46 +5,41 @@
 //
 
 @class NSObject, _UIFeedbackCoreHapticsEngine;
-@protocol CHHapticPatternPlayer, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _UIFeedbackCoreHapticsPlayer
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    CDUnknownBlockType _invalidationBlock;
-    _UIFeedbackCoreHapticsEngine *_hapticEngine;
-    id <CHHapticPatternPlayer> _coreHapticsPlayer;
 }
 
+- (void)@16@24C32B36@40;
+- (void)@56@64@72Q80@88@96@?104@?112;
+- (id)_updateTransitionList:withHandles:forKey:broadcastUpdates: /* Error: Ran out of types for this method. */;
+- (id)request;
+- (void)nt from a group chat with 2 or less participants %@;
+- (id)th chat identifier, guid:(id)arg1 %@;
+- (id)pieces:(id)arg1 %@;
+- (id)unlock %@;
+- (id)gth **;
+- (id)h on internal queue;
+- (id)ndle unknown payload type (type:(id)arg1 %tu).;
+- (id)age;
+- (id)se;
+- (void)mber",C,N,V_payloadAllowedProtocolMask;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)albumKind;
 - (id)!(@ù±`°1Â0@ù
 × ;
 - (void);
 - (CDUnknownBlockType)@ù
 × ;
-- (_Bool)pplyHighlightTransform;
+- (_Bool)_applyHighlightTransform;
 - (void)ing CATransaction flush now.;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CHHapticPatternPlayer> coreHapticsPlayer; // @synthesize coreHapticsPlayer=_coreHapticsPlayer;
 @property(nonatomic) __weak _UIFeedbackCoreHapticsEngine *hapticEngine; // @synthesize hapticEngine=_hapticEngine;
-@property(copy, nonatomic) CDUnknownBlockType invalidationBlock; // @synthesize invalidationBlock=_invalidationBlock;
 
 @end
 

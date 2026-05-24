@@ -5,6 +5,7 @@
 //
 
 @protocol _UISceneWindowingControlClientSettings
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long preferredWindowingControlStyleType;

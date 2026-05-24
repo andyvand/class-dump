@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class CSUserAction, NSArray;
 
 @protocol SpotlightReceiver
 
 @optional
+- (void);
+- (void)id *> *>="__left_"^v}}""{?="__size_"Q}}};
+- (void)n:(CSUserAction *)arg1 //hlinksldjump;
 - (NSArray *)event from this device %{private}@;
 @end
 

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, WebView;
-
 __attribute__((visibility("hidden")))
 @interface WebTextTouchBarItemController
 {
     _Bool _textIsBold;
-    _Bool _textIsItalic;
-    _Bool _textIsUnderlined;
-    long long _currentTextAlignment;
-    struct RetainPtr<NSColor> _textColor;
-    struct RetainPtr<WebTextListTouchBarViewController> _textListTouchBarViewController;
-    WebView *_webView;
 }
 
 - (id);
@@ -29,22 +21,18 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (id)llectShareeActions:ERROR:The sharee tombstone has no object identifier, faking a uuid for it {list:%{public}@, shareeTombstone:%{public}@} /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)24;
 - (void)1Â0@ù
 × ;
-- (void)decreaseSelectionListLevel;
+- (void)_decreaseSelectionListLevel;
 
 // Remaining properties
-@property(nonatomic) long long currentTextAlignment; // @synthesize currentTextAlignment=_currentTextAlignment;
-@property(retain, nonatomic) NSColor *textColor;
 @property(nonatomic) _Bool textIsBold; // @synthesize textIsBold=_textIsBold;
-@property(nonatomic) _Bool textIsItalic; // @synthesize textIsItalic=_textIsItalic;
-@property(nonatomic) _Bool textIsUnderlined; // @synthesize textIsUnderlined=_textIsUnderlined;
 
 @end
 

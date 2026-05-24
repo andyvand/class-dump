@@ -16,10 +16,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)slators in code-stream attribute specifications may not exceed ;
 - (void);
 - (id)LFSMSession sessionWithOptions:(id)arg1 ];
-- (id)ssionState;
+- (id)SASetSessionState;
 
 // Remaining properties
 @property(retain) LFNotify *notify; // @synthesize notify=_notify;

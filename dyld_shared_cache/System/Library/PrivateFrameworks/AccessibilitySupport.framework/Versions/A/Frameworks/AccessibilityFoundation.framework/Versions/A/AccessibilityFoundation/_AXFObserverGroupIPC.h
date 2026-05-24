@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _AXFObserverGroupIPC
 {
     _Bool __registered;
-    struct __AXObserver *_observer;
-    long long _observerID;
-    NSString *__name;
-    AXFUIElement *__element;
-    AXFUIElement *__application;
-    NSMutableDictionary *__observers;
 }
 
 + (void);
@@ -36,28 +30,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct __AXUIElement *);
 - (id);
+- (id);
+- (void);
+- (long long)characterAtIndex: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)setZoomGridView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (long long);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)_localConnectionType;
 - (void);
 - (struct __AXObserver *)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AXFUIElement *_application; // @synthesize _application=__application;
-@property(retain, nonatomic) AXFUIElement *_element; // @synthesize _element=__element;
 @property(copy, nonatomic) NSString *_name; // @synthesize _name=__name;
-@property(retain, nonatomic) NSMutableDictionary *_observers; // @synthesize _observers=__observers;
-@property(nonatomic) _Bool _registered; // @synthesize _registered=__registered;
-@property(nonatomic) struct __AXObserver *observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) long long observerID; // @synthesize observerID=_observerID;
 
 @end
 

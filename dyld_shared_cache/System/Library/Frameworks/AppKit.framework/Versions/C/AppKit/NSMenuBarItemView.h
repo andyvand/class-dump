@@ -12,15 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSMenuBarItemView : NSMenuItemView
 {
     NSString *_appearance;
-    struct __CTLine *_cachedLine;
-    double _cachedLineWidth;
-    double _explicitWidth;
-    double _titleExtra;
-    _Bool _prefersMinJustification;
-    _Bool _prefersCondensedFont;
-    _Bool _prefersReducedFontSize;
-    _Bool _didTruncateLine;
-    _Bool _isAppleMenu;
 }
 
 + (_Bool)!í/ð!LCù±â31Â0@ù
@@ -39,16 +30,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)}}16@32;
+- (_Bool)_enableSPIDelegateCallbacks;
+- (struct CGRect)5;
 - (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGRect);
+- (void)on in addInputHandler;
+- (void)y %@ as type %lu - is there a specialization;
+- (_Bool)on count %d and size %llu;
+- (void)tpRequestAreCacheEquivalent():(_Bool)arg1 called with a NULL argument;
+- (id)oalescing state (%lu, %lu) %@;
+- (struct CGRect)extension for file %@, errno = %{errno}d;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -66,16 +57,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void)SMenuWindowManagerWindow";
-- (double)ze;
+- (double)preservesContentDuringLiveResize;
 - (void)od may only be called from within -menuNeedsUpdate:. /* Error: Ran out of types for this method. */;
 - (void)¡D@;
 
 // Remaining properties
-@property double explicitWidth;
-@property _Bool isMagicAppleMenu; // @synthesize isMagicAppleMenu=_isAppleMenu;
-@property _Bool prefersCondensedFont;
-@property _Bool prefersMinJustification;
-@property _Bool prefersReducedFontSize;
 @property double titleExtra;
 
 @end

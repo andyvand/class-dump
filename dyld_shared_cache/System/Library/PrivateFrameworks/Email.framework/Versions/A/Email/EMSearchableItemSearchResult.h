@@ -9,7 +9,6 @@
 @interface EMSearchableItemSearchResult
 {
     NSArray *_identifiers;
-    NSArray *_snippetData;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, copy, nonatomic) NSArray *snippetData; // @synthesize snippetData=_snippetData;
 
 @end
 

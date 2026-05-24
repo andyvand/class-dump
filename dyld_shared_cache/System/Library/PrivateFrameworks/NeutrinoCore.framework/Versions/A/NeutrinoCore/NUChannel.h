@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUChannelFormat;
+@class NSString;
 
 @interface NUChannel
 {
     NSString *_name;
-    NUChannelFormat *_format;
-    long long _index;
 }
 
 + (id);
++ (id)7 ;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)I;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,20 +36,16 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long)P";
 - (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void)sionOne;
+- (void)versionOne;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannel *elementSubchannel;
-@property(readonly, nonatomic) NUChannelFormat *format; // @synthesize format=_format;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long type;
 
 @end
 

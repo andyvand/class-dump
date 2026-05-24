@@ -6,39 +6,28 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSString;
-
 @interface PHAssetPhotosOneUpProperties : PHAssetPropertySet
 {
     _Bool _reverseLocationDataIsValid;
-    _Bool _shiftedLocationIsValid;
-    short _viewPresentation;
-    NSData *_reverseLocationData;
-    unsigned long long _variationSuggestionStates;
 }
 
-+ (id);
-+ (id)opeLocalIdentifier;
-- (id);
++ (id)WA�;
++ (id)libraryScopeLocalIdentifier;
+- (id)__objc_doubleobj__AUTH_CONST;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)hJmJb	;
 - (short);
 - (_Bool);
-- (id)oupsOverlappingMemberLocalIdentifiers:error: /* Error: Ran out of types for this method. */;
-- (id)ddImageResult: /* Error: Ran out of types for this method. */;
+- (id)socialGroupsOverlappingMemberLocalIdentifiers:error: /* Error: Ran out of types for this method. */;
+- (id)addImageResult: /* Error: Ran out of types for this method. */;
 - (void)rivate;
 - (id)è;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *addressString;
-@property(readonly, nonatomic) NSData *reverseLocationData; // @synthesize reverseLocationData=_reverseLocationData;
 @property(readonly, nonatomic) _Bool reverseLocationDataIsValid; // @synthesize reverseLocationDataIsValid=_reverseLocationDataIsValid;
-@property(readonly, nonatomic) _Bool shiftedLocationIsValid; // @synthesize shiftedLocationIsValid=_shiftedLocationIsValid;
-@property(readonly, nonatomic) unsigned long long variationSuggestionStates; // @synthesize variationSuggestionStates=_variationSuggestionStates;
-@property(readonly, nonatomic) short viewPresentation; // @synthesize viewPresentation=_viewPresentation;
 
 @end
 

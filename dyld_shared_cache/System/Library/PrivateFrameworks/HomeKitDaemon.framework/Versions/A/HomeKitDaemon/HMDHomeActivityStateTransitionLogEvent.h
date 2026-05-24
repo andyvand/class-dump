@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateTransitionLogEvent
 {
     unsigned long long _fromState;
-    unsigned long long _toState;
-    NSString *_transitionType;
-    long long _reason;
-    NSNumber *_automatedCount;
-    NSNumber *_automatedHoldEndCount;
-    NSNumber *_manualHoldEndCount;
-    NSNumber *_manualHoldStartCount;
-    NSNumber *_otherCount;
-    NSNumber *_fromStateDuration;
-    NSNumber *_supportsAdaptiveTemperatureAutomations;
 }
 
-- (id);
-- (id);
+- (id)FERRY;
+- (id)BICYCLE;
 - (id);
 - (id);
 - (id);
@@ -38,43 +26,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void)ediaStateRegistrationToken;
+- (void)HMDHomeClientMediaStateRegistrationToken;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSNumber *automatedCount; // @synthesize automatedCount=_automatedCount;
-@property(readonly, nonatomic) NSNumber *automatedHoldEndCount; // @synthesize automatedHoldEndCount=_automatedHoldEndCount;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long fromState; // @synthesize fromState=_fromState;
-@property(readonly, nonatomic) NSNumber *fromStateDuration; // @synthesize fromStateDuration=_fromStateDuration;
-@property(readonly, nonatomic) NSNumber *fromStateDurationInMinutes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSNumber *manualHoldEndCount; // @synthesize manualHoldEndCount=_manualHoldEndCount;
-@property(readonly, nonatomic) NSNumber *manualHoldStartCount; // @synthesize manualHoldStartCount=_manualHoldStartCount;
-@property(readonly, nonatomic) NSNumber *otherCount; // @synthesize otherCount=_otherCount;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *supportsAdaptiveTemperatureAutomations; // @synthesize supportsAdaptiveTemperatureAutomations=_supportsAdaptiveTemperatureAutomations;
-@property(readonly, nonatomic) unsigned long long toState; // @synthesize toState=_toState;
-@property(readonly, nonatomic) NSString *transitionType; // @synthesize transitionType=_transitionType;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTableView, SODictationCommandManager;
 @protocol SOCommandsWindowControllerDelegate;
 
 @interface SOCommandsWindowController
 {
     id <SOCommandsWindowControllerDelegate> _delegate;
-    _Bool _doNotSaveNextCloseAction;
-    SODictationCommandManager *_commandManager;
-    NSTableView *_commandsTableView;
 }
 
 + (id);
@@ -20,23 +16,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (double);
+- (id)reprocessedMeasurementsEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (_Bool)entEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (_Bool)iveObjectINS4_18AccelerometerEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (double)eprocessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_18AccelerometerEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (long long);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
-- (void);
+- (void)initWithDuration:(id)arg1 curve:animations: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

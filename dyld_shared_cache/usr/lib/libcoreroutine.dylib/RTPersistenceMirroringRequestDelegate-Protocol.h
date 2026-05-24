@@ -5,6 +5,8 @@
 //
 
 @protocol RTPersistenceMirroringRequestDelegate
+- (void)red, block %p.;
+- (_Bool)ت;
 
 @optional
 - (void)ce, error, %@;

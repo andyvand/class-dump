@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (unsigned long long)= decayed_times_used + 1,     first_seen = MIN($sent_at, first_seen),     last_seen = MAX($sent_at, last_seen) WHERE language = $language AND reply = $reply;
+- (_Bool);
 - (struct _NSZone *)owControllerDelegate>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

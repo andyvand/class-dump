@@ -7,28 +7,23 @@
 @interface CDPCombinedWalrusStatus
 {
     unsigned long long _octagonWalrusStatus;
-    unsigned long long _pcsWalrusStatus;
-    unsigned long long _escrowWalrusStatus;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)=;
+- (void);
+- (void)<;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)XX;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)kBaseAddress failed:(struct _NSZone *)arg1 %{public}d;
 
 // Remaining properties
-@property(nonatomic) unsigned long long escrowWalrusStatus; // @synthesize escrowWalrusStatus=_escrowWalrusStatus;
-@property(readonly, nonatomic) _Bool mismatchDetected;
 @property(nonatomic) unsigned long long octagonWalrusStatus; // @synthesize octagonWalrusStatus=_octagonWalrusStatus;
-@property(nonatomic) unsigned long long pcsWalrusStatus; // @synthesize pcsWalrusStatus=_pcsWalrusStatus;
 
 @end
 

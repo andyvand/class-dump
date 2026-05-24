@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSOutputStream, NSURL;
+@class NSURL;
 
 @interface IMMultiFrameImage
 {
     float _scale;
-    NSURL *_outputURL;
-    NSOutputStream *_outputStream;
-    NSMutableArray *_durations;
 }
 
 - (_Bool);
@@ -24,13 +21,10 @@
 - (float);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *durations; // @synthesize durations=_durations;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
 @property(readonly, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(readonly, nonatomic) float scale; // @synthesize scale=_scale;
 
 @end
 

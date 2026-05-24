@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDHeaderButtonsConfiguration
 {
     PBUnknownFields *_unknownFields;
-    _Bool _shouldSuppressDirectionsAction;
-    struct {
-        unsigned int has_shouldSuppressDirectionsAction:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)egionNameResult";
-- (id)enableMediaLink;
+- (id)_enableMediaLink;
 - (id)$UhU,WÄXHZ\à^<dÄfÜgôhÔiPj;
 - (void)s`T@;
 

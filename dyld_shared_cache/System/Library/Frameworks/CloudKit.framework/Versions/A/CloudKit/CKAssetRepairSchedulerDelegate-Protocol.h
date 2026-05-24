@@ -7,6 +7,7 @@
 @class CKAssetRepairScheduler;
 
 @protocol CKAssetRepairSchedulerDelegate
-- (void)orKeys:(CKAssetRepairScheduler *)arg1;
+- (void);
+- (void)CKFirstUrlForKeys:(CKAssetRepairScheduler *)arg1;
 @end
 

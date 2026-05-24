@@ -6,37 +6,28 @@
 
 #import <PDFKit/AXPDFNodeElement.h>
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface UICGPDFNodeAccessibilityElement : AXPDFNodeElement
 {
     struct CGPDFTaggedNode *_nodeRef;
     NSMutableArray *_cachedAXElements;
-    NSMutableArray *_cachedAXPDFLinks;
-    NSMutableArray *_cachedAXPDFOtherLinks;
-    NSMutableArray *_cachedAXPDFLinkNodes;
-    NSMutableArray *_cachedAXPDFTableCellNodes;
-    NSMutableArray *_cachedAXFigureChildrenNodesOfTableCellNode;
-    NSMutableArray *_cachedAXCaptionChildrenNodesOfFigureNode;
-    long long _listItemNumber;
-    NSString *_listStyle;
-    NSString *_altText;
 }
 
++ (_Bool)R	;
++ (id);
++ (id);
++ (id)x;
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,14 +37,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)4(;
 - (struct CGRect);
 - (id);
 - (id);
@@ -62,7 +53,7 @@
 - (id);
 - (unsigned int);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -77,44 +68,28 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (struct CGPDFTaggedNode *);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)S;
 - (long long);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)AGChartDisplay;
 - (unsigned long long);
 - (int);
-- (struct CGRect);
+- (struct CGRect)@;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altText; // @synthesize altText=_altText;
-@property(retain, nonatomic) NSMutableArray *cachedAXCaptionChildrenNodesOfFigureNode; // @synthesize cachedAXCaptionChildrenNodesOfFigureNode=_cachedAXCaptionChildrenNodesOfFigureNode;
 @property(retain, nonatomic) NSMutableArray *cachedAXElements; // @synthesize cachedAXElements=_cachedAXElements;
-@property(retain, nonatomic) NSMutableArray *cachedAXFigureChildrenNodesOfTableCellNode; // @synthesize cachedAXFigureChildrenNodesOfTableCellNode=_cachedAXFigureChildrenNodesOfTableCellNode;
-@property(retain, nonatomic) NSMutableArray *cachedAXPDFLinkNodes; // @synthesize cachedAXPDFLinkNodes=_cachedAXPDFLinkNodes;
 @property(retain, nonatomic) NSMutableArray *cachedAXPDFLinks; // @synthesize cachedAXPDFLinks=_cachedAXPDFLinks;
-@property(retain, nonatomic) NSMutableArray *cachedAXPDFOtherLinks; // @synthesize cachedAXPDFOtherLinks=_cachedAXPDFOtherLinks;
-@property(retain, nonatomic) NSMutableArray *cachedAXPDFTableCellNodes; // @synthesize cachedAXPDFTableCellNodes=_cachedAXPDFTableCellNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long listItemNumber; // @synthesize listItemNumber=_listItemNumber;
-@property(retain, nonatomic) NSString *listStyle; // @synthesize listStyle=_listStyle;
-@property(nonatomic) struct CGPDFTaggedNode *nodeRef; // @synthesize nodeRef=_nodeRef;
-@property(readonly) Class superclass;
 
 @end
 

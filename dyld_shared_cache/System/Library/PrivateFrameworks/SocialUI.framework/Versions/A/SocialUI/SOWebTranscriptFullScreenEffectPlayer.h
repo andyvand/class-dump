@@ -9,8 +9,6 @@
 @interface SOWebTranscriptFullScreenEffectPlayer : SOFullScreenEffectPlayer
 {
     _Bool _originalOpaque;
-    _Bool _originalDrawsBackground;
-    struct CGColor *_previousColor;
 }
 
 - (id)¬;

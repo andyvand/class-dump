@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface UXTabBarItemSegment
 {
     _Bool _enabled;
-    NSString *_title;
-    NSImage *_symbol;
 }
 
 - (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -28,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSImage *symbol; // @synthesize symbol=_symbol;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

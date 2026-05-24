@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)eAddress()=>%p IOSurfaceGetProtectionOptions()=>0x%llx;
 
 @end
 

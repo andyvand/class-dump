@@ -7,22 +7,9 @@
 @interface GEOListResultItem
 {
     unsigned long long _businessId;
-    long long _latency;
-    int _resultType;
-    int _tappedCount;
-    _Bool _eventuallyVisible;
-    _Bool _initiallyVisible;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_latency:1;
-        unsigned int has_resultType:1;
-        unsigned int has_tappedCount:1;
-        unsigned int has_eventuallyVisible:1;
-        unsigned int has_initiallyVisible:1;
-    } _flags;
 }
 
-+ (_Bool)SessionHasRotated:(id)arg1;
++ (_Bool)setHasSessionHasRotated:(id)arg1;
 - (int);
 - (void);
 - (void);
@@ -30,52 +17,41 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (_Bool)4@"NSHTTPURLResponse"32;
+- (_Bool)shouldAlwaysQueryAuthorizationStatusImpl;
+- (_Bool)lockFilePath;
+- (void)bject:(int)arg1 %{public}@;
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)gerMachTime;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)v32@0:(long long)arg1 8d16d24;
 - (_Bool);
-- (int);
+- (int)*;
 - (long long);
 - (void);
-- (id)erencesUpdate:(struct _NSZone *)arg1;
-- (unsigned long long)fiers;
-- (id)ength: /* Error: Ran out of types for this method. */;
+- (id)setPhotoAttributionPreferencesUpdate:(struct _NSZone *)arg1;
+- (unsigned long long)ownerIdentifiers;
+- (id)StringAsSignalStrength: /* Error: Ran out of types for this method. */;
 - (id)ale resource does not actually exist on-disk. Ignoring... (%{public}@);
-- (void)_PARTY_MAP_VIEW;
+- (void)SECOND_PARTY_MAP_VIEW;
 - (id);
 - (int)È;
 - (id)@#H¥M@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long businessId;
-@property(nonatomic) _Bool eventuallyVisible;
-@property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasEventuallyVisible;
-@property(nonatomic) _Bool hasInitiallyVisible;
-@property(nonatomic) _Bool hasLatency;
 @property(nonatomic) _Bool hasResultType;
-@property(nonatomic) _Bool hasTappedCount;
-@property(nonatomic) _Bool initiallyVisible;
-@property(nonatomic) long long latency;
-@property(nonatomic) int resultType;
-@property(nonatomic) int tappedCount;
 
 @end
 

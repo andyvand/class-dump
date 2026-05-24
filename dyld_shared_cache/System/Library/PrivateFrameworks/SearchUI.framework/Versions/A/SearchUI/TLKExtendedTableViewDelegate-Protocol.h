@@ -5,6 +5,12 @@
 //
 
 @protocol TLKExtendedTableViewDelegate
+- (_Bool)initWithTagSchemes:options: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)dominantLanguageTagFromText: /* Error: Ran out of types for this method. */;
+- (void)categoryModelsFromModels:(long long)arg1;
+- (void)_readerWriter;
 
 // Remaining properties
 @property(readonly) _Bool selectOnHover;

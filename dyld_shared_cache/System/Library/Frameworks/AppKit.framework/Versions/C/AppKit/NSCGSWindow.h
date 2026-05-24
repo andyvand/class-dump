@@ -4,185 +4,140 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, CAContext, CALayer, NSArray, NSCGSWindowBackingStore, NSCGSWindowCornerMask, NSCGSWindowWarp, NSDictionary, NSMapTable, NSPointerArray, _NSCGSWindowMovementChildren;
-
 __attribute__((visibility("hidden")))
 @interface NSCGSWindow
 {
     long long _creationFlags;
-    void *_deviceID;
-    unsigned int _windowID;
-    int _directRights;
-    int _allRights;
-    unsigned long long _markedPropertyMask;
-    unsigned long long _cachedFlags;
-    struct CGSRegionObject *_opaqueShape;
-    struct CGSRegionObject *_eventShape;
-    struct CGPath *_eventShapePath;
-    struct CGSRegionObject *_resizeEventShape;
-    NSCGSWindowCornerMask *_cornerMask;
-    NSDictionary *_shadowProperties;
-    struct CGPoint _origin;
-    struct CGSize _size;
-    double _scale;
-    double _opacity;
-    double _contentBlurRadius;
-    struct CGSRegionObject *_dragShape;
-    struct CGSRegionObject *_activationShape;
-    struct CGSRegionObject *_buttonShape;
-    struct CGSRegionObject *_commandModifierExclusionShape;
-    unsigned int _hasKeyAppearance:1;
-    unsigned int _hasMainAppearance:1;
-    unsigned int _useActiveShadow:1;
-    unsigned int _createsBackdropGroupNamespace:1;
-    unsigned int _validateSecurityOfSuperlayers:1;
-    unsigned int _usesAutomaticContentsFormat:1;
-    unsigned int _allowsFlattening:1;
-    NSMapTable *_transforms;
-    NSCGSWindowWarp *_warp;
-    _NSCGSWindowMovementChildren *_movementChildren;
-    NSCGSWindow *_relativeMoveParent;
-    struct CGSize _relativeMoveOffset;
-    struct CGSRegionObject *_mouseConfinementShape;
-    struct CGColor *_chameleonOverrideColor;
-    NSCGSWindowBackingStore *_backingStore;
-    unsigned int _backingStoreAttached:1;
-    unsigned long long _windowTags;
-    unsigned long long _tagsToSet;
-    unsigned long long _tagsToClear;
-    unsigned int _prefersCurrentSpace:1;
-    unsigned int _isAwaitingAsyncContext:1;
-    unsigned int _needsInitializeCornerRadius:1;
-    CAContext *_context;
-    CALayer *_rootLayer;
-    CABackdropLayer *_captureBackdropLayer;
-    CALayer *_backingStoreLayer;
-    CALayer *_contentLayer;
-    struct CGColorSpace *_layerContextColorSpace;
-    unsigned int _layerContextDepth;
-    unsigned int _originDisplayChangeSeed;
-    NSPointerArray *_pendingAsyncContextActions;
-    long long _lastFrameChangeSeed;
-    unsigned long long _lastFrameChangeTimestamp;
-    unsigned int _suspendChanges:1;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (void)ivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
 + (void);
-+ (void);
-+ (id);
-+ (void);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned int);
++ (id)ere for external fields;
++ (void)%d, egid:%d, pathInfo:%s /* Error: Ran out of types for this method. */;
++ (unsigned long long)pported in this SPI; you should use _CookieStorageCreateInMemory instead anyway.;
++ (unsigned long long)ton;
++ (unsigned int)with xpc activity configuration. If this is intended, please reach out to cfnetwork / duetactivityscheduler;
 + (_Bool);
 + (id);
 + (void);
 + (void);
++ (void)"8@"NSObject"16^B24;
++ (id)apple.CFNetwork.HTTPFallbackHost;
++ (struct CGRect)assetArtworkData;
++ (struct CGRect)basePriority;
++ (struct CGPoint)eader@%p> { domain:(struct CGPoint)arg1 %s, partition:%s, name:%s, path:%s, value:%s, session:%c, secure:%c, httponly? %c, expires:%@, created:%@, accessed:%@ } /* Error: Ran out of types for this method. */;
++ (struct CGPoint){__shared_weak_count}}24{?=qi}40;
++ (struct CGImage *)NSHost;
++ (struct CGImage *)Array"8i16i20;
++ (_Bool)@"NSObject<OS_dispatch_queue>"16;
++ (void)(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
 + (void);
-+ (id);
-+ (struct CGRect);
-+ (struct CGRect);
-+ (struct CGPoint);
-+ (struct CGPoint);
-+ (struct CGImage *);
-+ (struct CGImage *);
-+ (_Bool);
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (id)@;
++ (id)6yh;
 + (void);
 + (long long);
-+ (void)ation;
-- (int);
++ (void)customization;
+- (int)Failed to get the state of notification %s, token %d:%u /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSRegionObject *);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSRegionObject *)whitespaceAndNewlineCharacterSet;
+- (void)set_disableAPWakeOnIdleConnections:(id)arg1;
+- (void)set_authenticatorConfiguredViaTaskProperty: /* Error: Ran out of types for this method. */;
+- (_Bool)downloadCompletion;
+- (_Bool)_xCredStorageInitLock;
+- (id)_setProhibitPrivacyProxy: /* Error: Ran out of types for this method. */;
+- (void)_setDistinguishedNames: /* Error: Ran out of types for this method. */;
+- (void)_setDirectoryPath: /* Error: Ran out of types for this method. */;
+- (void)_setDelegate: /* Error: Ran out of types for this method. */;
+- (void)_setCookiesChangedHandler:(double)arg1 onQueue: /* Error: Ran out of types for this method. */;
+- (void)_setCookies:(id)arg1 forURL:mainDocumentURL:policyProperties: /* Error: Ran out of types for this method. */;
+- (void)_setConnectionIsCellular:(id)arg1;
+- (void)_setCollectsTimingData:(id)arg1;
+- (void)_setBlockTrackers:(id)arg1;
+- (void)_sendPendingCallbacksForSessionIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_sendCloseCode:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (void)_schemeWasUpgradedDueToDynamicHSTS;
+- (void)_scheduledOriginLoad;
+- (struct CGSRegionObject *)_readStream;
+- (void)_nscfBridgeURLCacheCopyResponseForRequest: /* Error: Ran out of types for this method. */;
+- (id)_failInsecureLoadWithHTTPSDNSRecord;
+- (void)_explicitlySetAllowsUCA;
+- (void)_enablesEarlyData;
+- (void)_enableSPIDelegateCallbacks;
+- (void)_disavow;
+- (void)_disablesUseOfProxySession;
+- (struct CGSRegionObject *)_daemon_currentTransactionMetrics;
+- (id)URLSession:dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLByAppendingPathExtension:(int)arg1;
+- (unsigned int)xpensive;
+- (struct CGColorSpace *)storeCachedResponse:forRequest: /* Error: Ran out of types for this method. */;
+- (unsigned long long)N_ConnectionMetrics",R;
+- (_Bool)String",C,V_CTDataConnectionServiceType;
+- (_Bool)_hasSZExtractor;
+- (_Bool)NSURLSessionStreamTask;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSRegionObject *);
-- (void);
+- (id)6;
+- (_Bool)t;
+- (_Bool);
+- (struct CGPath *)Agent %{public}@;
+- (struct CGSRegionObject *)led to query AuthBrokerAgent %{public}@;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSRegionObject *);
-- (id);
-- (void);
-- (unsigned int);
-- (struct CGColorSpace *);
+- (void)mpting fallback;
+- (struct CGSRegionObject *)ould not contain a body or a body stream, use `uploadTask(with:fromFile:)` or supply the body stream through the `urlSession(_:needNewBodyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
+- (void)ered write timeout event;
+- (_Bool)y advisory(%c);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (struct CGPath *);
-- (struct CGSRegionObject *);
-- (id);
-- (void);
-- (struct CGSRegionObject *);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)sponse:%@ /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (id);
-- (double);
+- (id);
+- (double)t;
 - (struct CGSRegionObject *);
 - (void);
 - (struct CGColor *);
@@ -192,27 +147,27 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)\;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)@;
 - (struct CGSRegionObject *);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)streamNamesToAlwaysSync;
+- (id)_DKIntentMetadataKey-shortcutAvailability;
 - (double);
 - (struct CGSize);
 - (unsigned int);
@@ -224,7 +179,7 @@ __attribute__((visibility("hidden")))
 - (void)¤ùàùðúPû;
 - (void);
 - (void),d;
-- (double);
+- (double)NSResponderSetNextResponderAllowsDeallocatingResponders;
 - (void)suppressionButton;
 - (void)ÿa^
 LpE;
@@ -233,48 +188,7 @@ __attribute__((visibility("hidden")))
 - (int)j½J;
 
 // Remaining properties
-@property(copy) struct CGSRegionObject *activationShape;
-@property _Bool allowsFlattening;
-@property(readonly) NSCGSWindowBackingStore *backingStore;
-@property(copy) struct CGSRegionObject *buttonShape;
-@property(copy) struct CGColor *chameleonOverrideColor;
-@property(copy) struct CGSRegionObject *commandModifierExclusionShape;
-@property double contentBlurRadius;
-@property(readonly) CAContext *contentContext;
-@property(retain) CALayer *contentLayer;
-@property(retain) NSCGSWindowCornerMask *cornerMask;
-@property(readonly) double cornerRadius;
-@property _Bool createsBackdropGroupNamespace;
-@property(readonly) _Bool directlyOwnsWindow;
-@property(copy) struct CGSRegionObject *dragShape;
-@property(copy) struct CGSRegionObject *eventShape;
-@property(copy) struct CGPath *eventShapePath;
-@property struct CGRect frame;
-@property _Bool hasBackingStore;
-@property _Bool hasKeyAppearance;
-@property _Bool hasMainAppearance;
-@property(readonly) unsigned long long lastFrameChangeTimestamp;
-@property(copy) struct CGColorSpace *layerContextColorSpace;
-@property unsigned int layerContextDepth;
 @property int level;
-@property(copy) struct CGSRegionObject *mouseConfinementShape;
-@property(copy) NSArray *movementChildren;
-@property double opacity;
-@property(copy) struct CGSRegionObject *opaqueShape;
-@property(readonly, getter=isOrderedIn) _Bool orderedIn;
-@property(readonly) _Bool ownsWindow;
-@property _Bool prefersCurrentSpace;
-@property(copy) struct CGSRegionObject *resizeEventShape;
-@property double scale;
-@property(copy) NSDictionary *shadowProperties;
-@property struct CGSize size;
-@property _Bool suspendChanges;
-@property unsigned long long tags;
-@property _Bool usesActiveShadow;
-@property _Bool usesAutomaticContentsFormat;
-@property _Bool validateSecurityOfSuperlayers;
-@property(readonly) unsigned int windowID;
-@property(readonly) int windowRights;
 
 @end
 

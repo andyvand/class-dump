@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSViewController;
+@class NSViewController;
 
 @interface AMSUIDelegateTokenTask
 {
@@ -13,14 +13,13 @@
 
 - (id);
 - (id);
+- (id)uld not run on syndication photo library;
 - (id);
 - (id);
-- (id);
-- (void)int: /* Error: Ran out of types for this method. */;
+- (void)setWallpaperTint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(retain) AMSProcessInfo *processInfo;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaActiveStatus : SISchemaInstrumentationMessage
 {
     NSArray *_audioDevicesActiveWithin24Hours;
-    _Bool _carPlayActiveWithin24Hours;
-    NSArray *_carBluetoothHeadUnitsActiveWithinLast24Hours;
-    struct {
-        unsigned int carPlayActiveWithin24Hours:1;
-    } _has;
 }
 
 - (void);
@@ -40,21 +35,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
-- (_Bool);
+- (_Bool)tionIdentifier:(id)arg1 shouldHideFromSyndication:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ntextId;
-- (id)ndidateId;
-- (void)_PQA;
+- (id)Buffer error:cvPixelBuffer may not be NULL
+ /* Error: Ran out of types for this method. */;
+- (id)contextId;
+- (id)_actionCandidateId;
+- (void)DEVICE_SENSITIVITY_STATE_PQA;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *audioDevicesActiveWithin24Hours; // @synthesize audioDevicesActiveWithin24Hours=_audioDevicesActiveWithin24Hours;
-@property(copy, nonatomic) NSArray *carBluetoothHeadUnitsActiveWithinLast24Hours; // @synthesize carBluetoothHeadUnitsActiveWithinLast24Hours=_carBluetoothHeadUnitsActiveWithinLast24Hours;
-@property(nonatomic) _Bool carPlayActiveWithin24Hours; // @synthesize carPlayActiveWithin24Hours=_carPlayActiveWithin24Hours;
-@property(nonatomic) _Bool hasCarPlayActiveWithin24Hours;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

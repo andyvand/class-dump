@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageLayer, IKKnobLayer;
+@class IKKnobLayer;
 
 @interface IKSelection
 {
     IKKnobLayer *_knobLayer;
-    IKComposer *_composer;
-    IKImageLayer *_imageLayer;
-    _Bool _selected;
-    _Bool _supportsUndo;
 }
 
 + (id);
-+ (id);
++ (id)C;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGImage *);
 - (void);
-- (id);
+- (id)_TtC14ScreenTimeCore16AppLimitSchedule;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);

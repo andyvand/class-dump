@@ -12,7 +12,7 @@
     id didStartAccessingSecurityScopeResource;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (long long);

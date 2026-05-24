@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VisionSignalGradingVisionGradeEvent;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface _CDVisionSignalGradingDataCollectionTask
 {
     NSObject<OS_xpc_object> *_activity;
-    NSString *_file;
-    VisionSignalGradingVisionGradeEvent *_event;
 }
 
+- (id)j;
+- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)PB�;
 - (void)
 × ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) VisionSignalGradingVisionGradeEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSString *file; // @synthesize file=_file;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface PencilKit.CanvasDataDetectorInteraction
 {
     id strokeProvider;
-    id dataDetectorHelper;
-    id helperDelegate;
-    id _wantsDataDetection;
-    id forceProofreadingDetectionDisabled;
-    id proofreadingSettingsObserver;
-    id shouldHideItems;
-    id drawingTransform;
-    id replaceStrokesClosure;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @protocol INSaveProfileInCarIntentExport
 
 // Remaining properties
-@property(copy) NSString *profileName;
 @property(copy) NSNumber *profileNumber;
 @end
 

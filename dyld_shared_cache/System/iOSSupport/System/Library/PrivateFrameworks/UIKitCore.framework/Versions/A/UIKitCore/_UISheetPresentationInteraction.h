@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPanGestureRecognizer, UIView;
-@protocol _UISheetPresentationInteractionDelegate;
+@class UIPanGestureRecognizer, UIView;
 
 @interface _UISheetPresentationInteraction
 {
     UIPanGestureRecognizer *__panGestureRecognizer;
-    id <_UISheetPresentationInteractionDelegate> __delegate;
-    UIView *_view;
 }
 
-- (void);
+- (void)_changeObservationQueue;
 - (id);
 - (void);
 - (void)¡
@@ -28,15 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setDelegate:) __weak id <_UISheetPresentationInteractionDelegate> _delegate; // @synthesize _delegate=__delegate;
-@property(retain, nonatomic, setter=_setPanGestureRecognizer:) UIPanGestureRecognizer *_panGestureRecognizer; // @synthesize _panGestureRecognizer=__panGestureRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

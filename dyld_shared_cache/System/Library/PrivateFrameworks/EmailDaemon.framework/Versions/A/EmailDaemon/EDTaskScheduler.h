@@ -5,54 +5,43 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 @interface EDTaskScheduler
 {
     _Bool _observeForNetworkReachability;
-    _Bool _isReachable;
-    _Bool _pendingWaitingForNetwork;
-    double _initialDelay;
-    double _maxBackOffInterval;
-    double _backoffMultiplier;
-    NSObject<OS_dispatch_source> *_timerSource;
-    NSObject<OS_dispatch_queue> *_executionQueue;
-    double _backOffInterval;
-    CDUnknownBlockType _task;
-    CDUnknownBlockType _canceledCallback;
-    CDUnknownBlockType _work;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)d;
 - (void);
 - (void);
 - (void);
+- (void)@"<CRKIDSPrimitives>";
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
+- (void)_TtC12SiriOntology29UsoEntityBuilder_common_Alarm;
+- (double)T;
+- (void)appleMessage_MessageAttribute_SmsAttributesShootingStarEffect;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (_Bool)!;
+- (void);
+- (CDUnknownBlockType);
+- (void)readVGFromVC:(CDUnknownBlockType)arg1 withStorageFile:(CDUnknownBlockType)arg2 withTyp:withSectorChain:withError: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (void);
 - (double);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)_lastPowerStateChangedTime;
+- (id)H	;
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (double);
-- (void);
+- (void)'t;
 - (double)rationToken:{%p} cancelled. Stopping EDMessageAuthenticationStateMigrator:<%p> /* Error: Ran out of types for this method. */;
 - (void)nterfaceClass(void)_block_invoke;
 - (void);
@@ -60,18 +49,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double backOffInterval; // @synthesize backOffInterval=_backOffInterval;
-@property(nonatomic) double backoffMultiplier; // @synthesize backoffMultiplier=_backoffMultiplier;
-@property(copy, nonatomic) CDUnknownBlockType canceledCallback; // @synthesize canceledCallback=_canceledCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *executionQueue; // @synthesize executionQueue=_executionQueue;
-@property(nonatomic) double initialDelay; // @synthesize initialDelay=_initialDelay;
-@property(nonatomic) _Bool isReachable; // @synthesize isReachable=_isReachable;
-@property(nonatomic) double maxBackOffInterval; // @synthesize maxBackOffInterval=_maxBackOffInterval;
-@property(nonatomic) _Bool observeForNetworkReachability; // @synthesize observeForNetworkReachability=_observeForNetworkReachability;
-@property(nonatomic) _Bool pendingWaitingForNetwork; // @synthesize pendingWaitingForNetwork=_pendingWaitingForNetwork;
-@property(copy, nonatomic) CDUnknownBlockType task; // @synthesize task=_task;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *timerSource; // @synthesize timerSource=_timerSource;
-@property(copy, nonatomic) CDUnknownBlockType work; // @synthesize work=_work;
 
 @end
 

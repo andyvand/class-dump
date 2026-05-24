@@ -12,7 +12,7 @@
 
 - (id);
 - (_Bool);
-- (id)on;
+- (id)_sizeStyleButton;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool flipped;

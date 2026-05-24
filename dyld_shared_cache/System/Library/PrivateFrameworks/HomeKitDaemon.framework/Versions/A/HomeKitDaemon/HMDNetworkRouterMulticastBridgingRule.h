@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDNetworkRouterIPAddress, HMDNetworkRouterLANIdentifierList, HMDNetworkRouterRuleDirection, NSString;
+@class HMDNetworkRouterRuleDirection;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterMulticastBridgingRule
 {
     HMDNetworkRouterRuleDirection *_direction;
-    HMDNetworkRouterLANIdentifierList *_lanIdentifierList;
-    HMDNetworkRouterIPAddress *_destinationIPAddress;
-    HAPTLVUnsignedNumberValue *_destinationPort;
 }
 
 + (id);
-+ (id);
++ (id)momentOfMemory;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)B;
+- (id)_finishWithType: /* Error: Ran out of types for this method. */;
+- (id)are not loaded (memory pressure?). Perform an initial load and postpone the access.;
 - (id);
 - (void);
 - (id);
@@ -30,23 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)anualExperiment;
+- (id)isManualExperiment;
 - (id);
 - (void)Unexpectedly handling notification for MOC save of updated home with some other UUID:(id)arg1 %@, expected:%@ /* Error: Ran out of types for this method. */;
 - (void)entRouterLastEventStoreCache-wal;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDNetworkRouterIPAddress *destinationIPAddress; // @synthesize destinationIPAddress=_destinationIPAddress;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *destinationPort; // @synthesize destinationPort=_destinationPort;
-@property(retain, nonatomic) HMDNetworkRouterRuleDirection *direction; // @synthesize direction=_direction;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterLANIdentifierList *lanIdentifierList; // @synthesize lanIdentifierList=_lanIdentifierList;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NSUUID, UITraitCollection, _UIAsyncInvocation, _UIRemoteViewControllerConnectionInfo, _UIRemoteViewControllerLegacyImpl, _UIRemoteViewService;
-@protocol OS_dispatch_queue, _UIViewServiceDeputyXPCInterface;
+@class _UIRemoteViewService;
 
 __attribute__((visibility("hidden")))
 @interface _UIRemoteViewControllerConnectionRequest
 {
     _UIRemoteViewService *_service;
-    CDUnknownBlockType _handler;
-    NSString *_viewServiceBundleIdentifier;
-    NSString *_viewControllerClassName;
-    NSUUID *_contextToken;
-    UITraitCollection *_traits;
-    _UIRemoteViewControllerLegacyImpl *_legacyImpl;
-    Class _remoteViewControllerClass;
-    id <_UIViewServiceDeputyXPCInterface> _serviceViewControllerDeputyInterface;
-    _UIAsyncInvocation *_cancelInvocationForCurrentOperation;
-    _UIRemoteViewControllerConnectionInfo *_connectionInfo;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isCancelledOrComplete;
-    NSError *_error;
-    _UIAsyncInvocation *_requestCancellationInvocation;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)IMDQuickSwitchControllerCommandInitiateQuickSwitch;
+- (void)tmpURL %@ finalURL %@ previewURL %@ maxWidth %f scale %f;
+- (void)for transfer %@;
+- (void)%@ and transfer %@;
+- (void)pp template image with BlastDoor copy for %@ and transfer %@;
+- (void)transfer %@;
+- (void)for transfer %@;
+- (void)n action:(CDUnknownBlockType)arg1 %@;
+- (void)explicit download of transfer with guid %@;
 - (id);
 - (void);
 - (void);

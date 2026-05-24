@@ -9,11 +9,6 @@
 @interface TPPBVoucher
 {
     NSString *_beneficiary;
-    int _reason;
-    NSString *_sponsor;
-    struct {
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
@@ -32,20 +27,16 @@
 - (int);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)ding commutePlanWithIdAndExpiry %@;
+- (id)%zu bytes)
+;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *beneficiary; // @synthesize beneficiary=_beneficiary;
-@property(readonly, nonatomic) _Bool hasBeneficiary;
 @property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) _Bool hasSponsor;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *sponsor; // @synthesize sponsor=_sponsor;
 
 @end
 

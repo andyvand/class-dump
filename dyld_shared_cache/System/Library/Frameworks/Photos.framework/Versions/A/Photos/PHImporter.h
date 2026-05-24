@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSProgress, NSString, PHImportOptions, PHImportResults, PHImportSource, PHPhotoLibrary, PLCacheDeleteClient;
-@protocol OS_dispatch_queue, PHImportServiceImporterDelegate;
+@class NSProgress;
+@protocol PHImportServiceImporterDelegate;
 
 @interface PHImporter
 {
     id <PHImportServiceImporterDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_importQueue;
-    unsigned char _importState;
-    NSMutableDictionary *_parentFolderMapping;
-    NSMutableArray *_downloadedRecords;
-    _Bool _isCanceled;
-    NSMutableDictionary *_folderByFolderPath;
-    NSMutableDictionary *_containerPathByLocalIdentifier;
-    NSMutableDictionary *_albumByAlbumPath;
-    NSMutableDictionary *_albumRequestsByAlbumId;
-    NSMutableDictionary *_folderRequestByFolderId;
-    unsigned long long _importBatchSize;
-    NSProgress *_progress;
-    PHImportOptions *_options;
-    PHImportResults *_results;
-    PHPhotoLibrary *_library;
-    NSString *_importSessionID;
-    NSMutableSet *_importedBurstUUIDs;
-    PHImportSource *_source;
-    PLCacheDeleteClient *_cacheDeleteClient;
 }
 
 + (id);
@@ -50,13 +30,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)NCn#na@nb`;
+- (void)nb`;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
@@ -74,26 +54,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void)hReply returned error:(id)arg1 %@;
+- (id)ockingEntry (extension_id, phone_number_id) VALUES %@;
+- (void);
 - (id);
 - (void);
-- (id)oDictionary:outInfoDictionary:forImageRequestFromAsset:applyLiveBlurIfSensitive: /* Error: Ran out of types for this method. */;
+- (id)protectImageManagerResult:outImage:infoDictionary:outInfoDictionary:forImageRequestFromAsset:applyLiveBlurIfSensitive: /* Error: Ran out of types for this method. */;
 - (void)HImportAsset",R,N;
 
 // Remaining properties
-@property(retain, nonatomic) PLCacheDeleteClient *cacheDeleteClient; // @synthesize cacheDeleteClient=_cacheDeleteClient;
-@property(retain, nonatomic) NSString *importSessionID; // @synthesize importSessionID=_importSessionID;
-@property(retain, nonatomic) NSMutableSet *importedBurstUUIDs; // @synthesize importedBurstUUIDs=_importedBurstUUIDs;
-@property(retain, nonatomic) PHPhotoLibrary *library; // @synthesize library=_library;
-@property(retain, nonatomic) PHImportOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) PHImportResults *results; // @synthesize results=_results;
-@property(retain, nonatomic) PHImportSource *source; // @synthesize source=_source;
 
 @end
 

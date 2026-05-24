@@ -6,20 +6,18 @@
 
 #import <CloudDocs/BRQueryItem.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _BRContainerItem : BRQueryItem
 {
     NSString *_containerID;
-    NSSet *_containerClientIDs;
-    NSString *_localizedName;
-    _Bool _isPristine;
-    NSString *_displayName;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
+- (id)?	;
+- (_Bool)*
+
+?;
 - (_Bool);
 - (id);
 - (id);

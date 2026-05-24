@@ -6,16 +6,9 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMPostSiriEngagementEventSignalDeltaEvent : BMEventBase
 {
     _Bool _hasDuration;
-    _Bool _hasSinceUIEnd;
-    _Bool _hasSinceUIStart;
-    double _duration;
-    double _sinceUIEnd;
-    double _sinceUIStart;
 }
 
 + (id);
@@ -37,20 +30,7 @@
 - (void)5;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic) _Bool hasDuration; // @synthesize hasDuration=_hasDuration;
-@property(nonatomic) _Bool hasSinceUIEnd; // @synthesize hasSinceUIEnd=_hasSinceUIEnd;
-@property(nonatomic) _Bool hasSinceUIStart; // @synthesize hasSinceUIStart=_hasSinceUIStart;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double sinceUIEnd; // @synthesize sinceUIEnd=_sinceUIEnd;
-@property(readonly, nonatomic) double sinceUIStart; // @synthesize sinceUIStart=_sinceUIStart;
-@property(readonly) Class superclass;
 
 @end
 

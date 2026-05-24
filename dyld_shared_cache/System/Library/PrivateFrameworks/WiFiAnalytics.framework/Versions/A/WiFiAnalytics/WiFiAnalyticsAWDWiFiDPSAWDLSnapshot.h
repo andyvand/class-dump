@@ -7,52 +7,36 @@
 @interface WiFiAnalyticsAWDWiFiDPSAWDLSnapshot
 {
     unsigned long long _ts;
-    unsigned int _duration;
-    unsigned int _sdb;
-    unsigned int _use;
-    struct {
-        unsigned int ts:1;
-        unsigned int duration:1;
-        unsigned int sdb:1;
-        unsigned int use:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (_Bool)P&;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)7d;
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)ror:%@} /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)	˟;
 - (void);
-- (id);
+- (id)kCLConnectionMessageCheckInNoMovementSubscription;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasSdb;
 @property(nonatomic) _Bool hasTs;
-@property(nonatomic) _Bool hasUse;
-@property(nonatomic) unsigned int sdb; // @synthesize sdb=_sdb;
-@property(nonatomic) unsigned long long ts; // @synthesize ts=_ts;
-@property(nonatomic) unsigned int use; // @synthesize use=_use;
 
 @end
 

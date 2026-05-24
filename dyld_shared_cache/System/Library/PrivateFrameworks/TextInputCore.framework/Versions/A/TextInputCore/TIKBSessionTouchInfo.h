@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface TIKBSessionTouchInfo
 {
     TIKeyboardTouchEvent *_touch;
-    unsigned long long _layoutId;
 }
 
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)__objc_selrefs;
+- (void)unarchivedObjectOfClasses:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (id)_shared_weak_count}}16;
 
 // Remaining properties
-@property(nonatomic) unsigned long long layoutId; // @synthesize layoutId=_layoutId;
 @property(retain, nonatomic) TIKeyboardTouchEvent *touch; // @synthesize touch=_touch;
 
 @end

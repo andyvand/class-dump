@@ -6,16 +6,13 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface __HMFActivityManager : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_activitiesByIdentifier;
 }
 
-- (id);
+- (id)Ϥr	k`;
 - (void);
 
 @end

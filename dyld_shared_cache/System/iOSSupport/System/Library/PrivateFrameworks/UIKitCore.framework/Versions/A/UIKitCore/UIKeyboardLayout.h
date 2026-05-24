@@ -6,104 +6,71 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSUUID, UIEvent, UIKBCadenceMonitor, UIKBScreenTraits, UIKBTextEditingTraits, UIKeyboardTaskQueue, UIKeyboardTypingStyleEstimator, UITextInputTraits, _UIKBRTFingerDetection, _UIKBRTRecognizer, _UIKBRTTouchDrifting, _UIKBRTTouchVelocities, _UIScreenEdgePanRecognizer;
-@protocol OS_dispatch_queue, UIKeyboardLayoutSizeDelegate;
+@class UITextInputTraits, _UIScreenEdgePanRecognizer;
 
 @interface UIKeyboardLayout : UIView
 {
     UITextInputTraits *_inputTraits;
-    UIKBScreenTraits *_screenTraits;
-    UIKBTextEditingTraits *_textEditingTraits;
-    NSMutableArray *_uncommittedTouchUUIDs;
-    NSUUID *_activeTouchUUID;
-    NSUUID *_shiftKeyTouchUUID;
-    unsigned long long _cursorLocation;
-    _Bool _disableInteraction;
-    UIKeyboardTaskQueue *_taskQueue;
-    UIKeyboardTypingStyleEstimator *_typingStyleEstimator;
-    UIEvent *_currentTouchDownEvent;
-    _Bool hideKeysUnderIndicator;
-    _Bool _ignoringKeyplaneChange;
-    _Bool _hasPreferredHeight;
-    _Bool _isExecutingDeferredTouchTasks;
-    _Bool _listeningForWillChange;
-    _Bool _listeningForDidChange;
-    double _preferredHeight;
-    _UIScreenEdgePanRecognizer *_screenEdgePanRecognizer;
-    CDUnknownBlockType _deferredTouchDownTask;
-    CDUnknownBlockType _deferredTouchMovedTask;
-    _UIKBRTRecognizer *_handRestRecognizer;
-    _UIKBRTFingerDetection *_fingerDetection;
-    UIKBCadenceMonitor *_cadenceMonitor;
-    _UIKBRTTouchVelocities *_touchVelocities;
-    double lastTouchUpTime;
-    id <UIKeyboardLayoutSizeDelegate> _sizeDelegate;
-    double _timestampOfLastTouchesEnded;
-    CDUnknownBlockType _deferredTaskForActiveTouch;
-    _UIKBRTTouchDrifting *_touchDrifting;
-    NSMutableDictionary *_deferredTouchTaskLists;
-    NSObject<OS_dispatch_queue> *_deferredTouchTaskListsQueue;
-    NSMutableSet *_touchIgnoredUUIDSet;
 }
 
 + (_Bool);
-+ (struct CGSize);
++ (struct CGSize)bleLibraryPersistentID:(id)arg1;
 + (Class)Collapse"b1"delegateDidExpand"b1"delegateTopColumnForCollapsingToProposedTopColumn"b1"delegateWillCollapseToProposedTopColumn"b1"delegateUnderscoreWillCollapseToProposedTopColumn"b1"delegateDisplayModeForExpandingToProposedDisplayMode"b1"delegateWillExpandToProposedDisplayMode"b1"delegateConstrainPrimaryColumnWidthForResizeWidth"b1"delegateConstrainSupplementaryColumnWidthForResizeWidth"b1"delegateWillBeginResizingColumn"b1"delegateDidEndResizingColumn"b1"delegateShowViewController"b1"delegateShowDetailViewController"b1"delegatePrimaryViewControllerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (void);
-- (void)dCount:(id)arg1;
-- (long long)groupFilter:itemStandInMap: /* Error: Ran out of types for this method. */;
-- (void)mClearButtons;
-- (id)nitWithDomain:(struct CGRect)arg1;
-- (void)SplitViewControllerView;
+- (void)CEMApplicationListActiveNSExtensionsCommand_StatusExtensionsItem;
+- (void)_ui_decodeVectorForKey:(id)arg1 returnedCount:(id)arg2;
+- (long long)_linearlySortedFocusItemsForItems:groupFilter:itemStandInMap: /* Error: Ran out of types for this method. */;
+- (void)_customClearButtons;
+- (id)initWithDomain:(struct CGRect)arg1;
+- (void)_prepareSplitViewControllerView;
 - (long long)reparingSwipeOccurrence was unexpectedly changed to a different occurrence;
 - (void)is not supported. This is an internal UIKit problem.;
 - (_Bool).fill;
-- (void)script_layouts_testfest;
+- (void)extra_multiscript_layouts_testfest;
 - (CDUnknownBlockType)ume;
 - (void)oncrete implementation of %@;
 - (id)ce:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)one;
+- (_Bool)_UIScreenEdgePanRecognizerTouchModifierNone;
 - (void)ative value!;
-- (void)entImage;
+- (void)ScalesLargeContentImage;
 - (void)pt-switcher-up;
 - (id).;
 - (void)ocus movement.;
 - (void)licable.;
 - (double)ting node. Outside of preferred subtree.;
 - (void)ironment.;
-- (void);
+- (void)FocusAnimationDefaultUnfocusingBackgroundFadeDurationPercentage;
 - (void)arameterIDAudioPitchControl(void);
 - (void)tType getCHHapticEventTypeAudioContinuous(void);
 - (void)B24;
-- (id)r;
-- (void)ite_data_block;
+- (id)UIWindowSceneDragRelationshipRecognizer;
+- (void)archive_write_data_block;
 - (_Bool)i_archive_entry_pathname(struct ui_archive_entry *);
 - (void)ot have a keyboard layer added to a host if we're not eligible for forwarding.;
 - (_Bool)ol.m;
 - (void)tured has never worked properly under ModernUI, replace your usage;
-- (_Bool)ionBundleChecks;
+- (_Bool)UISplitViewControllerSkipTargetActionBundleChecks;
 - (unsigned long long)count] == 3;
 - (void)@, and it is attached to %@.;
-- (void)leCollectionViewLayoutShouldInvalidateForInsets;
+- (void)EnableCollectionViewLayoutShouldInvalidateForInsets;
 - (id)kind %@ in section %ld when there are only %ld sections in the collection view;
 - (void)@;
 - (_Bool)This is a client error. Layout attributes:(id)arg1 %@
 View:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)th is nil. This is bad.;
 - (void)sting cell. Dequeued index path:(id)arg1 %@; Reconfigured index path:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)rientation;
+- (_Bool)IAPayloadKeyMissingKeyboardOrientation;
 - (id)= 0;
 - (id)taryEnrollmentIdentifier=%@>;
 - (void)t.numberOfSections;
 - (_Bool)tBarOrientation:] /* Error: Ran out of types for this method. */;
 - (void)a search controller are not supported. This is an internal UIKit bug.;
 - (_Bool)nHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (id)lUsrRmEmojis;
-- (struct CGPoint)numberOfLines;
+- (id)initialUsrRmEmojis;
+- (struct CGPoint)UILabelConfiguration_hasCustomized_numberOfLines;
 - (_Bool)ider override.;
-- (id)ghten;
-- (_Bool)lusDarker;
-- (void)e;
+- (id)ATVAdaptiveLighten;
+- (_Bool)UICompositingModePlusDarker;
+- (void)UIVibrancyEffectFilterType;
 - (struct CGSize)decelerationRate = %g; rubberBandCoefficient = %g; unconstrainedPoint = %@; initialTranslation = %@; translation = %@; velocity = %@; effectiveVelocity = %@; projectedPoint = %@; closestPoint = %@; constrainedPoint = %@; constrainedVelocity = %@>;
 - (void)n active animator (%@);
 - (void)?0@"<_UISceneConnectionOptionProviding>"8;
@@ -143,15 +110,15 @@ View:%@ /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)µ130önþµ13Dþ½13(õ¸þ;
 - (void)(;
 - (id);
-- (_Bool)dDataDidBecomeAvailableMessage;
+- (_Bool)ProtectedDataDidBecomeAvailableMessage;
 - (double);
 - (_Bool)Host;
-- (void)mProtectionDidChangeMessage;
-- (struct CGPoint)ey;
+- (void)SystemProtectionDidChangeMessage;
+- (struct CGPoint)ScrollPocketInteractionKey;
 - (void)ÔWÝ2;
 - (void);
 - (_Bool)|R0|.;
-- (void)s;
+- (void)UIKitSwitchCustomizations;
 - (void);
 - (void)Ä';
 - (_Bool);
@@ -301,47 +268,7 @@ View:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activeTouchUUID; // @synthesize activeTouchUUID=_activeTouchUUID;
-@property(retain, nonatomic) UIKBCadenceMonitor *cadenceMonitor; // @synthesize cadenceMonitor=_cadenceMonitor;
-@property(readonly, nonatomic) UIEvent *currentTouchDownEvent;
-@property(nonatomic) unsigned long long cursorLocation; // @synthesize cursorLocation=_cursorLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType deferredTaskForActiveTouch; // @synthesize deferredTaskForActiveTouch=_deferredTaskForActiveTouch;
-@property(copy, nonatomic) CDUnknownBlockType deferredTouchDownTask; // @synthesize deferredTouchDownTask=_deferredTouchDownTask;
-@property(copy, nonatomic) CDUnknownBlockType deferredTouchMovedTask; // @synthesize deferredTouchMovedTask=_deferredTouchMovedTask;
-@property(retain, nonatomic) NSMutableDictionary *deferredTouchTaskLists; // @synthesize deferredTouchTaskLists=_deferredTouchTaskLists;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *deferredTouchTaskListsQueue; // @synthesize deferredTouchTaskListsQueue=_deferredTouchTaskListsQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableInteraction; // @synthesize disableInteraction=_disableInteraction;
-@property(retain, nonatomic) _UIKBRTFingerDetection *fingerDetection; // @synthesize fingerDetection=_fingerDetection;
-@property(retain, nonatomic) _UIKBRTRecognizer *handRestRecognizer; // @synthesize handRestRecognizer=_handRestRecognizer;
-@property(readonly, nonatomic) _Bool hasPreferredHeight; // @synthesize hasPreferredHeight=_hasPreferredHeight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideKeysUnderIndicator; // @synthesize hideKeysUnderIndicator;
-@property(readonly, nonatomic) long long idiom;
-@property(nonatomic) _Bool ignoringKeyplaneChange; // @synthesize ignoringKeyplaneChange=_ignoringKeyplaneChange;
-@property(nonatomic) _Bool isExecutingDeferredTouchTasks; // @synthesize isExecutingDeferredTouchTasks=_isExecutingDeferredTouchTasks;
-@property(readonly, nonatomic) _Bool isFloating;
-@property(nonatomic) double lastTouchUpTime; // @synthesize lastTouchUpTime;
-@property(retain, nonatomic) NSString *layoutTag;
-@property(nonatomic) _Bool listeningForDidChange; // @synthesize listeningForDidChange=_listeningForDidChange;
-@property(nonatomic) _Bool listeningForWillChange; // @synthesize listeningForWillChange=_listeningForWillChange;
-@property(readonly, nonatomic) long long orientation;
-@property(nonatomic) double preferredHeight; // @synthesize preferredHeight=_preferredHeight;
 @property(retain, nonatomic) _UIScreenEdgePanRecognizer *screenEdgePanRecognizer; // @synthesize screenEdgePanRecognizer=_screenEdgePanRecognizer;
-@property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
-@property(retain, nonatomic) NSUUID *shiftKeyTouchUUID; // @synthesize shiftKeyTouchUUID=_shiftKeyTouchUUID;
-@property(nonatomic) __weak id <UIKeyboardLayoutSizeDelegate> sizeDelegate; // @synthesize sizeDelegate=_sizeDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIKeyboardTaskQueue *taskQueue;
-@property(readonly, nonatomic) double timestampOfLastTouchesEnded; // @synthesize timestampOfLastTouchesEnded=_timestampOfLastTouchesEnded;
-@property(retain, nonatomic) _UIKBRTTouchDrifting *touchDrifting; // @synthesize touchDrifting=_touchDrifting;
-@property(retain, nonatomic) NSMutableSet *touchIgnoredUUIDSet; // @synthesize touchIgnoredUUIDSet=_touchIgnoredUUIDSet;
-@property(retain, nonatomic) _UIKBRTTouchVelocities *touchVelocities; // @synthesize touchVelocities=_touchVelocities;
-@property(readonly, nonatomic) UIKeyboardTypingStyleEstimator *typingStyleEstimator;
 
 @end
 

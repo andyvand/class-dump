@@ -9,7 +9,6 @@
 @interface CIDualRedEyeRepairTuning
 {
     NSDictionary *repairTuning;
-    NSDictionary *sessionTuning;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *repairTuning; // @synthesize repairTuning;
-@property(retain, nonatomic) NSDictionary *sessionTuning; // @synthesize sessionTuning;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSString, SUOSUShimController;
+@class SUOSUShimController;
 
 @interface SUOSUClient
 {
     CDUnknownBlockType progressCompletion;
-    SUOSUShimController *_controller;
-    unsigned long long _clientType;
-    NSString *_marketingNameString;
-    NSString *_systemVersionString;
-    NSString *_buildVersionString;
 }
 
 - (id);
@@ -42,7 +37,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -60,7 +55,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -81,39 +76,10 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)processes;
 
 // Remaining properties
-@property(retain) NSString *buildVersionString; // @synthesize buildVersionString=_buildVersionString;
-@property(readonly) NSString *catalogURL;
-@property unsigned long long clientType; // @synthesize clientType=_clientType;
 @property(retain) SUOSUShimController *controller; // @synthesize controller=_controller;
-@property(readonly) NSImage *currentSystemImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) _Bool deferralEnabled;
-@property(readonly) _Bool deferredUpdatesExist;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyDownloadUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyDownloadUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceManaged;
-@property _Bool isAutomaticallyInstallMacOSUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallMacOSUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceManaged;
-@property(readonly) NSDate *latestSuccessfulScanDate;
-@property(retain) NSString *marketingNameString; // @synthesize marketingNameString=_marketingNameString;
-@property(readonly) NSString *pallasAudience;
-@property(copy) CDUnknownBlockType progressCompletion; // @synthesize progressCompletion;
-@property(readonly) _Bool shouldShowCatalogSelector;
-@property(readonly) Class superclass;
-@property(retain) NSString *systemVersionString; // @synthesize systemVersionString=_systemVersionString;
 
 @end
 

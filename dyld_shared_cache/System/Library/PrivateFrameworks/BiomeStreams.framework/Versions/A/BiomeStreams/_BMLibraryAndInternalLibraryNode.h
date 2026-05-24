@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
-+ (id)_DoStmt;
-+ (id)iomeStreams;
++ (id)�#;
++ (id)PgQuery_DoStmt;
++ (id)BiomeStreams;
 + (id)t;
 + (id);
 

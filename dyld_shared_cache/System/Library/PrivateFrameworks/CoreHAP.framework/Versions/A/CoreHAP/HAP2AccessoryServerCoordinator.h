@@ -6,26 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, HAP2SerializedOperationQueue, NSMutableDictionary, NSOperationQueue, NSString;
-@protocol HAP2AccessoryServerBrowserPrivate, HAP2AccessoryServerControllerFactory, HAP2AccessoryServerCoordinatorDelegate, HAP2AccessoryServerDiscovery, HAP2AccessoryServerEncodingFactory, HAP2AccessoryServerPairingFactory, HAP2AccessoryServerSecureTransportFactory, HAP2AccessoryServerTransportFactory;
+@protocol HAP2AccessoryServerBrowserPrivate;
 
 @interface HAP2AccessoryServerCoordinator : HAP2LoggingObject
 {
     _Bool _discovering;
-    _Bool _startDiscoveringPending;
-    _Bool _stopDiscoveringPending;
-    id <HAP2AccessoryServerCoordinatorDelegate> _delegate;
-    NSMutableDictionary *_discoveredAccessoryServers;
-    id <HAP2AccessoryServerBrowserPrivate> _browser;
-    id <HAP2AccessoryServerDiscovery> _discovery;
-    id <HAP2AccessoryServerPairingFactory> _pairingFactory;
-    id <HAP2AccessoryServerTransportFactory> _transportFactory;
-    id <HAP2AccessoryServerSecureTransportFactory> _secureTransportFactory;
-    id <HAP2AccessoryServerEncodingFactory> _encodingFactory;
-    id <HAP2AccessoryServerControllerFactory> _controllerFactory;
-    HAP2SerializedOperationQueue *_operationQueue;
-    NSOperationQueue *_localOperationQueue;
-    HAP2PropertyLock *_propertyLock;
 }
 
 - (id);
@@ -50,13 +35,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)eturned non-success status %d, defaulting to compatible;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -65,35 +50,15 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)P;
+- (void):(id)arg1 8@"NSURLSession"16@"NSError"24;
+- (void)e...
+;
 - (id);
-- (void)Reset;
+- (void)recommendBrowserReset;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HAP2AccessoryServerBrowserPrivate> browser; // @synthesize browser=_browser;
-@property(readonly, nonatomic) id <HAP2AccessoryServerControllerFactory> controllerFactory; // @synthesize controllerFactory=_controllerFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *discoveredAccessoryServers; // @synthesize discoveredAccessoryServers=_discoveredAccessoryServers;
-@property(nonatomic, getter=isDiscovering) _Bool discovering; // @synthesize discovering=_discovering;
-@property(readonly, nonatomic) id <HAP2AccessoryServerDiscovery> discovery; // @synthesize discovery=_discovery;
-@property(readonly, nonatomic) id <HAP2AccessoryServerEncodingFactory> encodingFactory; // @synthesize encodingFactory=_encodingFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOperationQueue *localOperationQueue; // @synthesize localOperationQueue=_localOperationQueue;
-@property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) id <HAP2AccessoryServerPairingFactory> pairingFactory; // @synthesize pairingFactory=_pairingFactory;
-@property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly, nonatomic) id <HAP2AccessoryServerSecureTransportFactory> secureTransportFactory; // @synthesize secureTransportFactory=_secureTransportFactory;
-@property(nonatomic, getter=isStartDiscoveringPending) _Bool startDiscoveringPending; // @synthesize startDiscoveringPending=_startDiscoveringPending;
-@property(nonatomic, getter=isStopDiscoveringPending) _Bool stopDiscoveringPending; // @synthesize stopDiscoveringPending=_stopDiscoveringPending;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransportFactory> transportFactory; // @synthesize transportFactory=_transportFactory;
 
 @end
 

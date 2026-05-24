@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface SPTrackingAvoidanceResult
 {
     NSUUID *_identifier;
-    long long _type;
-    NSArray *_policies;
 }
 
 + (_Bool);
@@ -24,15 +22,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)t-messages-mini-tip;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *policies; // @synthesize policies=_policies;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

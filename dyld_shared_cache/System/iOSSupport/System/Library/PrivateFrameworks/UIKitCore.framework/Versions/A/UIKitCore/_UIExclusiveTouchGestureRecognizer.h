@@ -12,27 +12,22 @@ __attribute__((visibility("hidden")))
 @interface _UIExclusiveTouchGestureRecognizer : UIGestureRecognizer
 {
     _Bool _achievedMaximumAbsoluteAccumulatedMovement;
-    struct CGPoint _maximumAbsoluteAccumulatedMovement;
-    struct CGPoint _accumulatedMovement;
 }
 
 - (void);
 - (_Bool);
 - (id);
+- (struct CGPoint)lbumBuilder";
 - (struct CGPoint);
-- (struct CGPoint);
-- (void)TitleWithExcessiveHeightChanged;
-- (void)eedsBackgroundAndContentViewUpdate;
-- (void)DidEnd;
-- (void)canShowSelectionCommands;
-- (_Bool)HighlightingEffectsSetting;
+- (void)isObservingDidEncounterFirstTitleWithExcessiveHeightChanged;
+- (void)_setNeedsBackgroundAndContentViewUpdate;
+- (void)_fileRenameDidEnd;
+- (void)_canShowSelectionCommands;
+- (_Bool)_appSpecificReduceHighlightingEffectsSetting;
 - (void)AAyAeCyAB§.3GGGABG;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint accumulatedMovement; // @synthesize accumulatedMovement=_accumulatedMovement;
-@property(readonly, nonatomic) _Bool achievedMaximumAbsoluteAccumulatedMovement; // @synthesize achievedMaximumAbsoluteAccumulatedMovement=_achievedMaximumAbsoluteAccumulatedMovement;
 @property(nonatomic) __weak id <_UIExclusiveTouchGestureRecognizerDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) struct CGPoint maximumAbsoluteAccumulatedMovement; // @synthesize maximumAbsoluteAccumulatedMovement=_maximumAbsoluteAccumulatedMovement;
 
 @end
 

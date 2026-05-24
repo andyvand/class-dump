@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSString;
+@class INImage;
 
 @interface UnknownClass (INKeyImageProducing)
 - (void);
@@ -16,20 +16,13 @@
 - (id);
 - (void);
 - (void);
-- (id)thHandle:(unsigned long long)arg1 displayName:image:rating:phoneNumber: /* Error: Ran out of types for this method. */;
+- (id)initWithHandle:(unsigned long long)arg1 displayName:image:rating:phoneNumber: /* Error: Ran out of types for this method. */;
 - (long long)NPBLocalTime",&,N,V_time;
-- (_Bool)alingContactValue;
+- (_Bool)_INPBDialingContactValue;
 - (id)É;
 - (id)ÙN/;
 
 // Remaining properties
 @property(readonly) INImage *_keyImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

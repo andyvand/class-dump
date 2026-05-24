@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPSize, NSColor;
-
 __attribute__((visibility("hidden")))
 @interface LPShadowStyle
 {
     double _radius;
-    double _opacity;
-    NSColor *_color;
-    LPSize *_offset;
 }
 
 + (id);
@@ -25,14 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id)CNPostalAddress",C,N,V_addressComponents;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) LPSize *offset; // @synthesize offset=_offset;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 @property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end

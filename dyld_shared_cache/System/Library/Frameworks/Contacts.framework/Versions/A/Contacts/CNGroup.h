@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface CNGroup
 {
     NSString *_identifier;
-    NSString *_name;
-    int _iOSLegacyIdentifier;
-    CNGroup *_snapshot;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSString *_externalIdentifier;
-    NSData *_externalRepresentation;
-    NSString *_externalModificationTag;
-    NSString *_externalUUID;
 }
 
++ (id);
++ (id);
++ (id)E;
 + (id);
 + (id);
 + (id);
@@ -27,14 +21,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id)l;
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -42,17 +33,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Logger *****;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)?;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ement key 'Is Extended' is not allowed;
 - (id);
 - (void)0@ù
 × ;

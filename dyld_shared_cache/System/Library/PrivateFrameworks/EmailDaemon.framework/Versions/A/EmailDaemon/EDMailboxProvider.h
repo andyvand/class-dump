@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSObject, NSSet, NSString;
-@protocol EDAccountsProvider, EDMailboxProviderDelegate, EFScheduler, OS_dispatch_queue;
+@protocol EDAccountsProvider;
 
 @interface EDMailboxProvider
 {
     _Atomic int _deferringInvalidationCount;
-    _Bool _needsToInvalidate;
-    id <EDMailboxProviderDelegate> delegate;
-    id <EDAccountsProvider> _accountsProvider;
-    NSMapTable *_legacyMailboxToMailboxMap;
-    NSMapTable *_objectIDToLegacyMailboxMap;
-    NSArray *_allMailboxCache;
-    NSObject<OS_dispatch_queue> *_mailboxCacheQueue;
-    id <EFScheduler> _observerScheduler;
 }
 
 - (void);
@@ -35,8 +26,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -56,7 +47,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)vent E1 %d;
 - (void);
 - (id);
 - (void);
@@ -64,20 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(retain) NSArray *allMailboxCache; // @synthesize allMailboxCache=_allMailboxCache;
-@property(readonly, nonatomic) NSSet *allMailboxObjectIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EDMailboxProviderDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMapTable *legacyMailboxToMailboxMap; // @synthesize legacyMailboxToMailboxMap=_legacyMailboxToMailboxMap;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *mailboxCacheQueue; // @synthesize mailboxCacheQueue=_mailboxCacheQueue;
-@property(retain) NSMapTable *objectIDToLegacyMailboxMap; // @synthesize objectIDToLegacyMailboxMap=_objectIDToLegacyMailboxMap;
-@property(retain, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(readonly) Class superclass;
 
 @end
 

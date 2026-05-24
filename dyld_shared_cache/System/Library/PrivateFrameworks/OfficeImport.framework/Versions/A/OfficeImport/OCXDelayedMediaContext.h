@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, OCPPackage;
+@class OCPPackage;
 
 __attribute__((visibility("hidden")))
 @interface OCXDelayedMediaContext
 {
     OCPPackage *mPackage;
-    NSURL *mTargetLocation;
 }
 
 - (_Bool);
@@ -21,13 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface _SNVGGishFeatureEmbeddingCustomModel
 {
     id modelDescription;
-    id model;
 }
 
 - (id);

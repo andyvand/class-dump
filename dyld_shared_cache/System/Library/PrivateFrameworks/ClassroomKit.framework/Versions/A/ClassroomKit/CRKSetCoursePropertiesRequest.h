@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSArray, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKSetCoursePropertiesRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_courseName;
-    NSString *_courseDescription;
-    NSArray *_anchorCertificates;
 }
 
 + (_Bool);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)eAppName;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *anchorCertificates; // @synthesize anchorCertificates=_anchorCertificates;
-@property(copy, nonatomic) NSString *courseDescription; // @synthesize courseDescription=_courseDescription;
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(copy, nonatomic) NSString *courseName; // @synthesize courseName=_courseName;
 
 @end
 

@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPCompanionLinkClient;
+@class NSObject;
 @protocol OS_dispatch_queue, WFTrafficEngDelegate;
 
 @interface WFTrafficEngManager
 {
     NSObject<OS_dispatch_queue> *_traffic_engr_queue;
-    RPCompanionLinkClient *_discoveryClient;
-    _Bool _configured;
-    id <WFTrafficEngDelegate> _trafficEngDelegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_TtC12SiriOntology41UsoTaskBuilder_summarise_ta_SearchResults;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)!;
 - (void)wn - WiFiPreferredOverCell:%d, CellularDataUsable:%d, WRMScore:%lu, WRMScoreConfidence:%lu, TimeSinceLastUpdate:%lu /* Error: Ran out of types for this method. */;

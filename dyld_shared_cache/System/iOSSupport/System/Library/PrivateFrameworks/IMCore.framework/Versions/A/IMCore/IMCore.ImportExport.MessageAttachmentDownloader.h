@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.MessageAttachmentDownloader
 {
     id downloadableAttachmentBatchIterator;
-    id message;
-    id attachment;
 }
 
 @end

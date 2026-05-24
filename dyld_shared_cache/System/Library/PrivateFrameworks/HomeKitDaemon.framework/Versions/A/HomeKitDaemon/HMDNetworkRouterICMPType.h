@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDNetworkRouterIPProtocolVersion, NSString;
+@class HMDNetworkRouterIPProtocolVersion;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterICMPType
 {
     HMDNetworkRouterIPProtocolVersion *_protocol;
-    HAPTLVUnsignedNumberValue *_typeValue;
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)momentNodesWithHighConfidenceAssets;
+- (id);
 - (void);
+- (id)unknown or incompatible transport type:(id)arg1 %@;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)d:(struct _NSZone *)arg1;
-- (void)EDED_TITLE;
+- (id)isHomedVersionSupported:(struct _NSZone *)arg1;
+- (void)OS_UPGRADE_NEEDED_TITLE;
 - (id)xÂ;
 - (void)Íj&(æþ½j&`æþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDNetworkRouterIPProtocolVersion *protocol; // @synthesize protocol=_protocol;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *typeValue; // @synthesize typeValue=_typeValue;
 
 @end
 

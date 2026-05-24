@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSWindow, PKPass, PKPassViewerViewController;
+@class PKPass;
 
 @interface PKLiftOffController
 {
     PKPass *_pass;
-    PKPassViewerViewController *_viewController;
-    NSWindow *_flyingWindow;
-    NSView *_flyingPassView;
-    NSWindow *_shadowWindow;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

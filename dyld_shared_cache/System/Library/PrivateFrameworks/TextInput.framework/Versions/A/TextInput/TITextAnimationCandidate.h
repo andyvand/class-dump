@@ -21,11 +21,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)ʞ;
+- (id)Types:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)¾
 ;

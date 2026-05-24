@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (id);
+- (id)C;
+- (id);
 - (id);
 
 // Remaining properties

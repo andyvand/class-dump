@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTPersistentTimer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _interval;
-    NSDate *_fireDate;
-    NSString *_serviceIdentifier;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)MigrateDropHSM;
 - (id);
-- (double);
-- (void);
-- (void);
+- (double)_scheduleRetryConnectionIfNeeded:baseConnection:kind:retryIndex:retryBlock: /* Error: Ran out of types for this method. */;
+- (void)ag signature failed to verify {secAlgorithm:%@, error:%@} /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,15 +27,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id)Options;
+- (id)serverOptions;
 - (void)blic}@, %{public}@, normalizing non-high-intention POI confidence from %f to %f, map item, %{sensitive}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
 
 @end
 

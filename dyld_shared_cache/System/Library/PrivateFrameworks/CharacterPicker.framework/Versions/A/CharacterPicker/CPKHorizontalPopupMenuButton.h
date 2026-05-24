@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CPKHorizontalPopupMenuView;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CPKHorizontalPopupMenuButton
 {
     CALayer *_highlightLayer;
-    _Bool _determinate;
-    double _contentSize;
-    CPKHorizontalPopupMenuView *_parentView;
 }
 
 - (_Bool);
@@ -28,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (double)V_contentType;
 
 // Remaining properties
-@property double contentSize; // @synthesize contentSize=_contentSize;
 @property _Bool determinate; // @synthesize determinate=_determinate;
-@property CPKHorizontalPopupMenuView *parentView; // @synthesize parentView=_parentView;
 
 @end
 

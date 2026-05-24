@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface StockDataSource
 {
     long long _identifier;
-    NSString *_name;
-    NSString *_sourceDescription;
 }
 
 - (id);
 - (id);
+- (id)`Y=m;
 - (id);
-- (id);
-- (id);
+- (id)SArray"@"NSError">;
 - (void);
-- (void);
+- (void)Timestamp;
 - (long long);
-- (id);
+- (id)removedFrequency;
 - (void);
-- (void);
+- (void)stringByAppendingPathExtension: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *localizedSourceDescription;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *sourceDescription; // @synthesize sourceDescription=_sourceDescription;
 
 @end
 

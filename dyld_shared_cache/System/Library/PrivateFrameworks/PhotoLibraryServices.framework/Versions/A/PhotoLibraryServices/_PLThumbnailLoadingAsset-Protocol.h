@@ -5,12 +5,13 @@
 //
 
 @protocol _PLThumbnailLoadingAsset
-- (id)sortDescriptors:limit:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)commentsMatchingPredicate:sortDescriptors:limit:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id)on since we are currently not accepting notification for collection share %@.;
 
 @optional
+- (id)9;
 - (id)1Â0@ù
 × ;
-- (id)etColumnError: /* Error: Ran out of types for this method. */;
+- (id)_isUnknownAssetColumnError: /* Error: Ran out of types for this method. */;
 @end
 

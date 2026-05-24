@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleTypeURLHandler
 {
     id patterns;
-    id navigator;
-    id feedViewContextFactory;
 }
 
 @end

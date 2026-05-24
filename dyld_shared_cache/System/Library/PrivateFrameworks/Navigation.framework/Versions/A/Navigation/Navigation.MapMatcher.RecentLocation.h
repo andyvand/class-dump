@@ -7,27 +7,6 @@
 @interface Navigation.MapMatcher.RecentLocation
 {
     id location;
-    id rawLocation;
-    id deadReckonLocation;
-    id horizontalAccuracy;
-    id verticalAccuracy;
-    id course;
-    id courseAccuracy;
-    id speed;
-    id speedAccuracy;
-    id timestamp;
-    id floor;
-    id sourceInformation;
-    id type;
-    id rawHorizontalAccuracy;
-    id rawVerticalAccuracy;
-    id rawCourse;
-    id rawCourseAccuracy;
-    id isInterpolated;
-    id classicRouteMatch;
-    id connectedRouteMatch;
-    id road;
-    id preferConnectedRouteMatch;
 }
 
 @end

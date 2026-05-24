@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterSubComponentTriggeredHeuristicRuleTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_triggeredHeuristicRule;
-    _Bool _hasLinkId;
-    _Bool _hasTriggeredHeuristicRule;
 }
 
 - (id);
@@ -25,10 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool);
+- (id)D;
+- (id)P;
+- (void)nal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs12/p12_add.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -39,11 +36,7 @@
 - (void)yç9<>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTriggeredHeuristicRule; // @synthesize hasTriggeredHeuristicRule=_hasTriggeredHeuristicRule;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *triggeredHeuristicRule; // @synthesize triggeredHeuristicRule=_triggeredHeuristicRule;
 
 @end
 

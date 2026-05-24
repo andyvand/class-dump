@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AVCMNotificationDispatcher
 {
     struct opaqueCMNotificationCenter *_cmNotificationCenter;
-    NSObject<OS_dispatch_queue> *_listenerObjectsQueue;
-    NSMutableDictionary *_observersForListenerKeys;
 }
 
 + (id);
 + (void)el layout tags for a given format.;
 - (struct opaqueCMNotificationCenter *);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lot answered session %{public}@ (protocol=0x%04lx, counter=%ld);
 
 // Remaining properties
 @property(readonly, nonatomic) struct opaqueCMNotificationCenter *CMNotificationCenter;

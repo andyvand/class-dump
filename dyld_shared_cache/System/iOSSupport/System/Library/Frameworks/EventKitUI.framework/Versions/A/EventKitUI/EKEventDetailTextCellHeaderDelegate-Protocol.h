@@ -5,5 +5,6 @@
 //
 
 @protocol EKEventDetailTextCellHeaderDelegate
+- (void).%s;
 @end
 

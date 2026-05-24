@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBCATModel
+- (void)*;
+- (void)R";
+- (NSData *)X;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
 @property(copy, nonatomic) NSString *catIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *params;
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, CAMetalLayer, PKDisplayLink;
+@class CABackdropLayer, PKDisplayLink;
 
 @interface PKMetalView
 {
     CABackdropLayer *_backdropLayer;
-    CAMetalLayer *_metalLayer;
-    CAMetalLayer *_metalMultiplyLayer;
-    _Bool _isFixedPixelSize;
-    _Bool _doubleBuffered;
-    _Bool _sixChannelBlending;
-    _Bool _useLuminanceColorFilter;
-    _Bool _wantsExtendedDynamicRangeContent;
-    PKDisplayLink *_displayLink;
-    unsigned long long _pixelFormat;
-    struct CGSize _fixedPixelSize;
 }
 
 + (struct CGImage *);
@@ -36,38 +26,26 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void):(_Bool)arg1 8@16;
+- (id)So12NSDictionaryCIeyBy_;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long)okePoint=d{CGPoint=dd}ddddddddd}384@0:8{?=(?={CGPoint=dd}{CGPoint=dd})dddddddBqddBdqq}16{_PKStrokePoint=d{CGPoint=dd}ddddddddd}152{?=(?={CGPoint=dd}{CGPoint=dd})dddddddBqddBdqq}248 /* Error: Ran out of types for this method. */;
-- (void)kes;
+- (void)_allStrokes;
 - (_Bool);
 - (struct CGSize)ÿÿ&;
 - (id)Y¦äJ;
 
 // Remaining properties
 @property(nonatomic) __weak PKDisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(nonatomic) _Bool doubleBuffered; // @synthesize doubleBuffered=_doubleBuffered;
-@property(readonly, nonatomic) struct CGSize drawableSize;
-@property(readonly, nonatomic) struct CGSize fixedPixelSize; // @synthesize fixedPixelSize=_fixedPixelSize;
-@property(readonly, nonatomic) _Bool isDrawableAvailable;
-@property(readonly, nonatomic) _Bool isFixedPixelSize; // @synthesize isFixedPixelSize=_isFixedPixelSize;
-@property(readonly, nonatomic) CAMetalLayer *metalLayer;
-@property(readonly, nonatomic) CAMetalLayer *metalMultiplyLayer;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) _Bool presentsWithTransaction;
-@property(nonatomic) _Bool sixChannelBlending; // @synthesize sixChannelBlending=_sixChannelBlending;
-@property(nonatomic) _Bool useLuminanceColorFilter; // @synthesize useLuminanceColorFilter=_useLuminanceColorFilter;
-@property(nonatomic) _Bool wantsExtendedDynamicRangeContent; // @synthesize wantsExtendedDynamicRangeContent=_wantsExtendedDynamicRangeContent;
 
 @end
 

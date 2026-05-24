@@ -5,5 +5,9 @@
 //
 
 @protocol TSTLayoutDynamicContentProtocol
+- (_Bool);
+
+@optional
+- (_Bool)DisableOutroItemRetain;
 @end
 

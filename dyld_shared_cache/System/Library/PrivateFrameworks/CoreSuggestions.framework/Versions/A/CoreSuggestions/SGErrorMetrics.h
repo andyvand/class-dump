@@ -12,7 +12,7 @@
 }
 
 + (void);
-+ (id);
++ (id)initWithSuiteName: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

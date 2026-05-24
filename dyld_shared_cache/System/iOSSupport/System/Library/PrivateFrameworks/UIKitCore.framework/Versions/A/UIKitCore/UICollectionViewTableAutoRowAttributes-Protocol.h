@@ -5,9 +5,14 @@
 //
 
 @protocol UICollectionViewTableAutoRowAttributes
+- (int)payloadADMapGGIDAttribute;
+- (void)D;
+- (void);
+- (void)initWithIdentifier:(_Bool)arg1 itemsQuery:grouping: /* Error: Ran out of types for this method. */;
+- (void)ing mapping for MPModelPropertyPlaylistTracksTiledArtwork;
 - (_Bool)! @ùq^°1Â0@ù
 × ;
-- (void)s;
+- (void)_hasExceededMaximumNumberOfTouches;
 - (_Bool)N,S_setClassifierShouldRespectSystemGestureTouchFiltering: /* Error: Ran out of types for this method. */;
 - (void)È[;
 - (void);
@@ -17,15 +22,6 @@
 - (struct UIEdgeInsets)<;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets backgroundInset;
-@property(nonatomic) double defaultLeadingCellMarginWidth;
-@property(nonatomic) double defaultTrailingCellMarginWidth;
-@property(nonatomic) _Bool drawsSeparatorAtBottomOfSection;
-@property(nonatomic) _Bool drawsSeparatorAtTopOfSection;
-@property(nonatomic) long long indentationLevel;
-@property(nonatomic) double indexBarExtentFromEdge;
-@property(nonatomic) _Bool insetsContentViewsToSafeArea;
-@property(nonatomic) _Bool layoutMarginsFollowReadableWidth;
 @property(nonatomic) int sectionLocation;
 @end
 

@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);

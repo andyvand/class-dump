@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @protocol INSetRadioStationIntentExport
+- (void)
+J	;
+- (void)IEEE80211NetworkInterfacesNames;
 - (void)ðd¬°$¨¨
 ´;
-- (long long)FromEnergyValue;
+- (long long)INIntentSlotValueTransformFromEnergyValue;
 - (NSNumber *);
 
 // Remaining properties
-@property(copy) NSString *channel;
-@property(copy) NSNumber *frequency;
-@property(copy) NSNumber *presetNumber;
 @property long long radioType;
-@property(copy) NSString *stationName;
 @end
 

@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)chgF;
 - (void);
 - (_Bool);
 

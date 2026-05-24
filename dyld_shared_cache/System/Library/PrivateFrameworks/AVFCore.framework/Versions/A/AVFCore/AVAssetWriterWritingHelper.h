@@ -6,63 +6,49 @@
 
 #import <AVFCore/AVAssetWriterHelper.h>
 
-@class AVAssetWriterFigAssetWriterNotificationHandler, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterWritingHelper : AVAssetWriterHelper
 {
     struct OpaqueFigAssetWriter *_figAssetWriter;
-    _Bool _figAssetWriterIsRemote;
-    NSObject<OS_dispatch_queue> *_figAssetWriterAccessQueue;
-    _Bool _startSessionCalled;
-    AVAssetWriterFigAssetWriterNotificationHandler *_notificationHandler;
-    void *_figAssetWriterCallbackContextToken;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)y;
 - (_Bool);
 - (struct OpaqueFigAssetWriter *);
 - (void);
 - (_Bool);
-- (void);
+- (void)eJ;
 - (id);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)setOptionPhysicalButtonTitle:(long long)arg1;
 - (long long);
 - (id);
 - (void)!Gùñ)°1Â0@ù
 × ;
-- (void)yerInstruction: /* Error: Ran out of types for this method. */;
-- (id)nterval:queue:block: /* Error: Ran out of types for this method. */;
-- (void)ticationChallenge: /* Error: Ran out of types for this method. */;
-- (id)rackGroup;
+- (void)videoCompositionLayerInstructionWithLayerInstruction: /* Error: Ran out of types for this method. */;
+- (id)initWithTimebase:interval:queue:block: /* Error: Ran out of types for this method. */;
+- (void)cancelAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (id)AVAssetTrackGroup;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

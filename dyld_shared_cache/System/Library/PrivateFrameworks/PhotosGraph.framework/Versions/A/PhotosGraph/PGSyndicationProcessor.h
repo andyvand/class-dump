@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationSession, CLSSimilarStacker, PGManagerWorkingContext, PHPhotoLibrary;
+@class PGManagerWorkingContext;
 
 @interface PGSyndicationProcessor
 {
     PGManagerWorkingContext *_workingContext;
-    CLSSimilarStacker *_similarStacker;
-    PHPhotoLibrary *_syndicationLibrary;
-    CLSCurationSession *_curationSession;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)nextNavigableResult;
+- (id)_isEventAllowedToActivate;
+- (void);
 - (id);
 - (_Bool);
-- (void)mentCountFeature;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)exclusiveMomentCountFeature;
 
 @end
 

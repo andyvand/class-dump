@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SABaseClientBoundCommand : SABaseCommand
 {
@@ -23,24 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)W;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *appId;
-@property(copy, nonatomic) NSArray *callbacks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *metricsContext;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *usefulnessScore;
 
 @end
 

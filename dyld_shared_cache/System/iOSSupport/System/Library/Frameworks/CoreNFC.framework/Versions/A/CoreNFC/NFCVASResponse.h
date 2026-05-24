@@ -10,7 +10,6 @@
 {
     long long _status;
     NSData *_vasData;
-    NSData *_mobileToken;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSData *mobileToken; // @synthesize mobileToken=_mobileToken;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
 @property(readonly, retain, nonatomic) NSData *vasData; // @synthesize vasData=_vasData;
 

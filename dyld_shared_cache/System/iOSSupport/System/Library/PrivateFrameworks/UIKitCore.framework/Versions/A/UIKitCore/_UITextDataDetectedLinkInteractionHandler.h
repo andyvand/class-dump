@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)setLastAddressedSIMID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (struct CGRect)tLargeTitleTwoLineMode: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setLargeTitleTwoLineMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;

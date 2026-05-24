@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkWakeOnDeviceConnectionStateChangeEvent
 {
     NSString *_eMACAddressAsString;
-    long long _connectionState;
 }
 
 - (id);
-- (id);
+- (id)viceIdentity.framework/DeviceIdentity;
 - (long long);
 - (void)= %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long connectionState; // @synthesize connectionState=_connectionState;
 @property(readonly, nonatomic) NSString *eMACAddressAsString; // @synthesize eMACAddressAsString=_eMACAddressAsString;
 
 @end

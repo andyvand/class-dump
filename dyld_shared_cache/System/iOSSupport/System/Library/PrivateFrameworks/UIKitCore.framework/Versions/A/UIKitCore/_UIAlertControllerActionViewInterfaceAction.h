@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIInterfaceAction.h>
 
-@class NSString, UIAlertAction, _UIAlertControllerActionView;
+@class UIAlertAction, _UIAlertControllerActionView;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerActionViewInterfaceAction : UIInterfaceAction
@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)4;
+- (id)completionBlock;
+- (id)p;
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (long long)Message account logged in using email.;
+- (void)handledNicknamesStore;
 - (void);
 - (void);
 - (void);
@@ -38,15 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAlertControllerActionView *alertControllerActionView; // @dynamic alertControllerActionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIAlertAction *underlyingAlertAction; // @synthesize underlyingAlertAction=_underlyingAlertAction;
-@property(readonly, nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

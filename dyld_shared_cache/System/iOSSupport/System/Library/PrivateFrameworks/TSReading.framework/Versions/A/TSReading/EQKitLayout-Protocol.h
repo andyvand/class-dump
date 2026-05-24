@@ -5,6 +5,10 @@
 //
 
 @protocol EQKitLayout
+- (double)nnot create a remote queue for destination:%ld /* Error: Ran out of types for this method. */;
+- (void)ertPlaybackContext-<%@:(struct CGContext *)arg1 %p>;
+- (double);
+- (struct CGRect);
 - (double)ispatcher sharedLowPriorityDispatcher];
 @end
 

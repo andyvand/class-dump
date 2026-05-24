@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseConnection, EFSQLPreparedStatement;
+@class EFSQLPreparedStatement;
 
 @interface MFMessageWritePreparedStatements
 {
     EFSQLPreparedStatement *_fetchMessageStatement;
-    EFSQLPreparedStatement *_fetchSubjectStatement;
-    EFSQLPreparedStatement *_fetchMessageIDHeaderStatement;
-    EFSQLPreparedStatement *_fetchMessageGlobalIDStatement;
-    EFSQLPreparedStatement *_fetchSenderAndSubjectStatement;
-    EFSQLPreparedStatement *_insertSubjectStatement;
-    EFSQLPreparedStatement *_insertMessageGlobalIDStatement;
-    EFSQLPreparedStatement *_insertThreadStatement;
-    EFSQLPreparedStatement *_insertAttachmentsStatement;
-    EFSQLPreparedStatement *_insertRecipientsStatement;
-    EFSQLPreparedStatement *_insertAddressesStatement;
-    EFSQLPreparedStatement *_insertEventStatement;
-    EFSQLPreparedStatement *_insertConversationStatement;
-    EFSQLPreparedStatement *_fetchRecipientStatement;
-    EFSQLPreparedStatement *_fetchAddressStatement;
-    EFSQLPreparedStatement *_copyRecipientStatement;
-    EFSQLPreparedStatement *_copyThreadStatement;
-    EFSQLPreparedStatement *_copyAttachmentStatement;
-    EFSQLPreparedStatement *_copyEventStatement;
-    EFSQLPreparedStatement *_deleteThreadStatement;
-    EFSQLPreparedStatement *_deleteAttachmentStatement;
-    EFSQLPreparedStatement *_deleteRecipientStatement;
-    EFSQLPreparedStatement *_deleteAddressesStatement;
-    EFSQLPreparedStatement *_deleteSubjectsStatement;
-    EFSQLPreparedStatement *_deleteMessageGlobalIDStatement;
-    EFSQLPreparedStatement *_deleteMessageSummaryStatement;
-    EDPersistenceDatabaseConnection *_connection;
 }
 
 - (id);
@@ -43,11 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)R*;
 - (id);
 - (id);
 - (id);
@@ -58,43 +33,17 @@
 - (id);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) EDPersistenceDatabaseConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) EFSQLPreparedStatement *copyAttachmentStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *copyEventStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *copyRecipientStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *copyThreadStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteAddressesStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteAttachmentStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteMessageGlobalIDStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteMessageSummaryStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteRecipientStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteSubjectsStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *deleteThreadStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *fetchAddressStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *fetchMessageGlobalIDStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *fetchMessageStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *fetchRecipientStatement;
 @property(readonly, nonatomic) EFSQLPreparedStatement *fetchSenderSubjectGlobalIDSummaryStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *fetchSubjectStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertAddressesStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertAttachmentsStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertConversationStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertEventStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertMessageGlobalIDStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertRecipientsStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertReferenceStatement;
-@property(readonly, nonatomic) EFSQLPreparedStatement *insertSubjectStatement;
 
 @end
 

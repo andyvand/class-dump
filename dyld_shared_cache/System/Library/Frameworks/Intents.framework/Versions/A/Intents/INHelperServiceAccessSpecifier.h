@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface INHelperServiceAccessSpecifier
 {
     unsigned long long _accessLevel;
-    NSString *_associatedAppBundleIdentifier;
-    NSData *_associatedAuditToken;
 }
 
++ (id)contentModificationDate;
++ (id)conformsToProtocol:(id)arg1;
++ (id)colorSpace;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)adataDefaultValue;
++ (id)__INCodableBooleanAttributeMetadataDefaultValue;
 + (void);
 - (id);
 - (id);
@@ -25,12 +21,10 @@
 - (unsigned long long);
 - (id)
 × ;
-- (void)etClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTemperatureOptionsCollectionForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(readonly, copy, nonatomic) NSString *associatedAppBundleIdentifier; // @synthesize associatedAppBundleIdentifier=_associatedAppBundleIdentifier;
-@property(readonly, copy, nonatomic) NSData *associatedAuditToken; // @synthesize associatedAuditToken=_associatedAuditToken;
 
 @end
 

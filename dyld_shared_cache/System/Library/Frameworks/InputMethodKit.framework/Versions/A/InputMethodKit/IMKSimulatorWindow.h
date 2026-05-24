@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputController, NSTextView, NSViewController, NSWindow;
-@protocol IMKSimulatorDelegate><NSObject, IMKTextInput><NSObject;
+@protocol IMKTextInput><NSObject;
 
 @interface IMKSimulatorWindow
 {
     id <IMKTextInput><NSObject> _client;
-    IMKInputController *_inputController;
-    _Bool _isPressAndHold;
-    id <IMKSimulatorDelegate><NSObject> _simulatorDelegate;
-    NSWindow *_touchBarViewChildWindow;
-    NSViewController *_touchBarViewController;
-    struct __CFMessagePort *_simulatorMessagePort;
-    struct __CFRunLoopSource *_simulatorMessageRunLoopSource;
 }
 
 - (void);
+- (id)/;
+- (void);
+- (void);
+- (_Bool)h;
 - (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)g:mode=%d headerSize=%lu usingCellular=%d isUseCaseWatchContinuity=%d defaultMaxCap=%lu alwaysOnAudioRedundancyEnabled=%d cellularAllowRedLowBitratesEnabled=%d wifiAllowRedLowBitratesEnabled=%d supportedPacketsPerBundle=(%@) supportedRedNumPayloads=(%@) } /* Error: Ran out of types for this method. */;
+- (void)d setupHEVCRules];
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <IMKTextInput><NSObject> client; // @synthesize client=_client;
-@property(retain, nonatomic) IMKInputController *inputController; // @synthesize inputController=_inputController;
 @property(readonly, nonatomic) _Bool isPressAndHold;
-@property(retain, nonatomic) id <IMKSimulatorDelegate><NSObject> simulatorDelegate; // @synthesize simulatorDelegate=_simulatorDelegate;
-@property(readonly, nonatomic) NSTextView *textView;
-@property(retain, nonatomic) NSViewController *touchBarViewController; // @synthesize touchBarViewController=_touchBarViewController;
 
 @end
 

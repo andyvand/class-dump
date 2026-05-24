@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAddressWithComponents
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_additionalComponents;
-    NSMutableArray *_formattedAddressComponents;
-    NSMutableArray *_formattedAddressLines;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_additionalComponents:1;
-        unsigned int read_formattedAddressComponents:1;
-        unsigned int read_formattedAddressLines:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)CSAlarmMonitor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

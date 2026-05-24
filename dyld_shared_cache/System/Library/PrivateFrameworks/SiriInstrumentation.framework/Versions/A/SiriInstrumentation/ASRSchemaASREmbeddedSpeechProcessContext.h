@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASREmbeddedSpeechProcessStarted, NSData;
+@class ASRSchemaASREmbeddedSpeechProcessStarted;
 
 @interface ASRSchemaASREmbeddedSpeechProcessContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASREmbeddedSpeechProcessStarted *_startedOrChanged;
-    _Bool _hasStartedOrChanged;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -20,24 +18,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void){CGSize=dd}}32@64;
+- (id)sendEphemerisPointDataGpsWeek:(id)arg1 gpsTOW:latitude:longitude:accuracy: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ates;
+- (id)shadowCandidates;
 - (id)T²²;
 - (id)Äâöÿê2ÿ;
 - (void)Ô¨ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASREmbeddedSpeechProcessStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

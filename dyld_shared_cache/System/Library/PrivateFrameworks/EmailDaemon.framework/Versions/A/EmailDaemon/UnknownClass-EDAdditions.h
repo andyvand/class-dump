@@ -6,6 +6,6 @@
 
 @interface UnknownClass (EDAdditions)
 + (id);
-- (id);
+- (id);
 @end
 

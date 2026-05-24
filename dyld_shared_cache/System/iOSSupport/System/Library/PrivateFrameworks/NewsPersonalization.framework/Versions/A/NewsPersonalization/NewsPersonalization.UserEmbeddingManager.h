@@ -7,10 +7,6 @@
 @interface NewsPersonalization.UserEmbeddingManager
 {
     id path;
-    id $__lazy_storage_$_classifier;
-    id unfairLock;
-    id loadedUserEmbedding;
-    id humanReadableParametersPath;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface AWDProactiveModelFittingSparseFloatVector
 {
     CDStruct_62a50c50 _indices;
-    CDStruct_fae3dc92 _values;
-    unsigned long long _length;
-    struct {
-        unsigned int length:1;
-    } _has;
 }
 
 + (id);
@@ -26,9 +21,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)tearDownResourcesAndReleaseTheZoneLocks: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ity:handlersByRecordID:sendMergeableDeltas: /* Error: Ran out of types for this method. */;
+- (unsigned long long)se error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,21 +31,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (float *);
+- (float *)+;
 - (id);
-- (void);
+- (void)ion %llx:(_Bool)arg1 faild to read buffer:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (float)tch:(unsigned long long)arg1 probThreshold:evaluationLevel:reportScale:summableMetricsOnly: /* Error: Ran out of types for this method. */;
 - (unsigned long long *)WHEN name = 'SelfIdentification' THEN name                   WHEN name = 'STSQP' AND version = '1.2' THEN name                   ELSE NULL               END,               sd_version = CASE                   WHEN version = '1.1' THEN 'TW=12&NG=3&FV=1.1'                   WHEN version = 'TW=12&NG=3&FV=1.1' THEN version                   WHEN version = '1.2' THEN version                   ELSE NULL               END;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLength;
-@property(readonly, nonatomic) unsigned long long *indices;
 @property(readonly, nonatomic) unsigned long long indicesCount;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) float *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

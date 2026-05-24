@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet;
-@protocol OS_dispatch_mach, OS_dispatch_queue, OS_dispatch_source;
-
 @interface AFKEndpointInterface
 {
     unsigned int _service;
-    unsigned int _connect;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct IONotificationPort *_asyncPort;
-    NSObject<OS_dispatch_source> *_source;
-    unsigned int _state;
-    NSMutableDictionary *_properties;
-    CDUnknownBlockType _responseHandler;
-    CDUnknownBlockType _reportHandler;
-    CDUnknownBlockType _commandHandlerWithReturn;
-    CDUnknownBlockType _commandHandler;
-    CDUnknownBlockType _descriptorHandler;
-    CDUnknownBlockType _eventHandler;
-    struct _IODataQueueMemory *_dataQueue;
-    unsigned long long _dataQueueSize;
-    unsigned int _dataQueuePort;
-    NSObject<OS_dispatch_mach> *_dataQueueMachChannel;
-    NSSet *_descriptorManagers;
-    id me;
-    unsigned long long _regID;
 }
 
 + (id);
@@ -57,14 +35,14 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

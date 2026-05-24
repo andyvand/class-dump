@@ -12,7 +12,7 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)NSViewRepresentableP;
 - (void);
 - (id);
 - (struct CGSize);

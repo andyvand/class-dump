@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (_Bool);
++ (id)___UIContentViewLabelConfigurationAccessibility_super;
++ (void)AXSwipeIslandIdentifier;
+- (_Bool)oth;
 - (unsigned long long);
 - (id);
 

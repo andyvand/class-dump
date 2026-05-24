@@ -9,35 +9,23 @@
 @interface MRMotion
 {
     NSString *_key;
-    double _startValue;
-    double _value;
-    double _startTime;
-    double _duration;
-    double _easeIn;
-    double _easeOut;
 }
 
-- (id);
-- (double);
+- (id)statusCode;
+- (double)envelopeSubmissionDate;
 - (double);
 - (double);
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)PM;
 - (double);
 - (void);
 - (id);
 - (double);
 
 // Remaining properties
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) double easeIn; // @synthesize easeIn=_easeIn;
-@property(readonly) double easeOut; // @synthesize easeOut=_easeOut;
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) double startValue; // @synthesize startValue=_startValue;
-@property(readonly) double value; // @synthesize value=_value;
 
 @end
 

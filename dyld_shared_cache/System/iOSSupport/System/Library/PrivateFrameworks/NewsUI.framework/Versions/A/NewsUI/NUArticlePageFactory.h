@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NUArticleActivityFactory, NUArticleFactory, NUArticleHostViewControllerFactory;
+@protocol NUArticleFactory;
 
 @interface NUArticlePageFactory
 {
     id <NUArticleFactory> _articleFactory;
-    id <NUArticleHostViewControllerFactory> _articleHostViewControllerFactory;
-    id <NUArticleActivityFactory> _articleActivityFactory;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUArticleActivityFactory> articleActivityFactory; // @synthesize articleActivityFactory=_articleActivityFactory;
 @property(readonly, nonatomic) id <NUArticleFactory> articleFactory; // @synthesize articleFactory=_articleFactory;
-@property(readonly, nonatomic) id <NUArticleHostViewControllerFactory> articleHostViewControllerFactory; // @synthesize articleHostViewControllerFactory=_articleHostViewControllerFactory;
 
 @end
 

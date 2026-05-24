@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface FI_TListNameSubtitleTextField : FI_TListTextField
 {
     NSLayoutConstraint *_minWidthConstraint;
-    _Bool _shouldCalcMinWidthFromStrs;
 }
 
 - (void);
-- (_Bool);
+- (_Bool));
 - (void);
 - (void);
 - (void);

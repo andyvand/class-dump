@@ -5,5 +5,8 @@
 //
 
 @protocol UIStatusBarStateObserver
+
+@optional
+- (void)nextEntries;
 @end
 

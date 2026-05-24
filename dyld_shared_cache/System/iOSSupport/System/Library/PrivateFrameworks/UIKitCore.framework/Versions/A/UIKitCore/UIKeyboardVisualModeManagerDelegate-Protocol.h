@@ -7,11 +7,13 @@
 @class UIKeyboardVisualModeManager;
 
 @protocol UIKeyboardVisualModeManagerDelegate
-- (_Bool)er: /* Error: Ran out of types for this method. */;
-- (_Bool)rsorAccessory;
-- (void)onForTouchUp:(UIKeyboardVisualModeManager *)arg1 withActions:(int)arg2 timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
-- (_Bool)es;
-- (_Bool)ons;
+- (_Bool);
+- (void)erObserver.m;
+- (_Bool)setInputViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)dismissCursorAccessory;
+- (void)completeSendStringActionForTouchUp:(UIKeyboardVisualModeManager *)arg1 withActions:(int)arg2 timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)_typingDelaySamples;
+- (_Bool)_activeAssertions;
 - (_Bool)nt;
 @end
 

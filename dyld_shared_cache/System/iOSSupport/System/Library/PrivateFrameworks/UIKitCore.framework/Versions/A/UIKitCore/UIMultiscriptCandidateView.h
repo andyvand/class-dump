@@ -6,23 +6,20 @@
 
 #import <UIKitCore/UIStackView.h>
 
-@class UIAction, UIAlternativeCandidatesButton, UIButton;
+@class UIAction, UIButton;
 
 __attribute__((visibility("hidden")))
 @interface UIMultiscriptCandidateView : UIStackView
 {
     UIAction *_alternativeCandidateAction;
-    UIButton *_leadingButton;
-    UIButton *_trailingButton;
-    UIAlternativeCandidatesButton *_alternativeCandidatesButton;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (_Bool)batchOfRecordIDsToDelete for DeletedChatStore.;
+- (void)t file to already exist. Clearing it.;
+- (id)rescan;
+- (id)gent.cache-delete;
 - (void);
 - (void);
 - (id);
@@ -31,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIAction *alternativeCandidateAction; // @synthesize alternativeCandidateAction=_alternativeCandidateAction;
-@property(retain, nonatomic) UIAlternativeCandidatesButton *alternativeCandidatesButton; // @synthesize alternativeCandidatesButton=_alternativeCandidatesButton;
 @property(retain, nonatomic) UIButton *leadingButton; // @synthesize leadingButton=_leadingButton;
-@property(retain, nonatomic) UIButton *trailingButton; // @synthesize trailingButton=_trailingButton;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CATResettableTimer, CATTimer;
+
 @protocol CATTimerSource
+- (id <CATResettableTimer>)9;
+- (id <CATTimer>);
 @end
 

@@ -5,11 +5,12 @@
 //
 
 @protocol MTLTextureLayout
+- (void);
+
+@optional
+- (void);
 
 // Remaining properties
-@property(readonly) unsigned long long alignment;
-@property(readonly) CDStruct_14f26992 copyGranularity;
 @property(readonly) unsigned long long size;
-@property(readonly) CDStruct_492b6082 watermark;
 @end
 

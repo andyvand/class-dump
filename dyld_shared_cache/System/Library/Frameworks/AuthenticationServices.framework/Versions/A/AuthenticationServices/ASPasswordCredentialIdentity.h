@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSString, SFExternalCredentialIdentityStoreIdentifier;
+@class ASCredentialServiceIdentifier, SFExternalCredentialIdentityStoreIdentifier;
 
 @interface ASPasswordCredentialIdentity
 {
     SFExternalCredentialIdentityStoreIdentifier *_credentialIdentityStoreIdentifier;
-    ASCredentialServiceIdentifier *_serviceIdentifier;
-    NSString *_user;
-    NSString *_recordIdentifier;
-    long long _rank;
 }
 
 + (id);
@@ -22,30 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setCachedPrivacyReportDataOnStartPage:forProfileWithIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (long long);
 - (void);
-- (id)xportFlowWithWindow:daemonEndpoint:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)presentExportFlowWithWindow:daemonEndpoint:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SFExternalCredentialIdentityStoreIdentifier *credentialIdentityStoreIdentifier; // @synthesize credentialIdentityStoreIdentifier=_credentialIdentityStoreIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 @property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end
 

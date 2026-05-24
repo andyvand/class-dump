@@ -9,7 +9,7 @@
     int _fileDescriptor;
 }
 
-- (void);
+- (void)B;
 - (void);
 - (id)est suite name, but is not a valid test suite (does not implement the appropriate protocol);
 

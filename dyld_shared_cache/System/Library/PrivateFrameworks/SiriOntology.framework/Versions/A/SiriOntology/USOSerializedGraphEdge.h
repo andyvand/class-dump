@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface USOSerializedGraphEdge
 {
     int _usoElementId;
-    unsigned int _enumeration;
-    unsigned long long _fromVertex;
-    unsigned long long _toVertex;
-    NSString *_edgeLabel;
 }
 
 + (_Bool);
@@ -32,10 +26,6 @@
 - (void)logy.UsoTaskBuilder_noVerb_common_UserPossession;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *edgeLabel; // @synthesize edgeLabel=_edgeLabel;
-@property unsigned int enumeration; // @synthesize enumeration=_enumeration;
-@property unsigned long long fromVertex; // @synthesize fromVertex=_fromVertex;
-@property unsigned long long toVertex; // @synthesize toVertex=_toVertex;
 @property int usoElementId; // @synthesize usoElementId=_usoElementId;
 
 @end

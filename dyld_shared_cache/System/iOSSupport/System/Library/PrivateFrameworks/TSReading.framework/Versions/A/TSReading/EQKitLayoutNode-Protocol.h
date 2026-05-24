@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EQKitLayoutNode;
+@protocol EQKitLayoutNode, EQKitLayoutNode><EQKitOperator;
 
 @protocol EQKitLayoutNode
+- (id <EQKitLayoutNode><EQKitOperator>)AudioSessionOnMac;
+- (struct Schemata)between finishing AV and queue;
+- (_Bool)led fetching optimistic lease for all accounts;
+- (int), items require subscription.;
+- (_Bool)IMAVPlayerPlaybackSpeedUserDefaultKey;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <EQKitLayoutNode> parent;

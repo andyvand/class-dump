@@ -7,25 +7,6 @@
 @interface SGCustomResponsesParameters
 {
     _Bool _isCustomResponsesEnabled;
-    _Bool _allowProfanity;
-    _Bool _useNonNegativeClassesOnly;
-    unsigned long long _filterBatchSize;
-    double _minimumTimeIntervalSecs;
-    unsigned long long _minimumDistinctRecipients;
-    unsigned long long _minimumReplyOccurences;
-    double _timeDecayFactor;
-    double _countExponent;
-    double _distanceThreshold;
-    double _minDecayedCountForPruning;
-    double _minDecayedCountForPrediction;
-    unsigned long long _maxStoredMessages;
-    unsigned long long _maxStoredCustomResponses;
-    unsigned long long _maxRowsInPerRecipientTable;
-    unsigned long long _knowledgeStoreQueryLimit;
-    unsigned long long _maxReplyLength;
-    double _maxReplyGapSecs;
-    double _usageSpreadExponent;
-    unsigned long long _compatibilityVersion;
 }
 
 - (_Bool);
@@ -35,7 +16,7 @@
 - (unsigned long long);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -44,33 +25,14 @@
 - (_Bool);
 - (double);
 - (double);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)ctionTypet;
+- (double);
+- (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowProfanity; // @synthesize allowProfanity=_allowProfanity;
-@property(readonly, nonatomic) unsigned long long compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(readonly, nonatomic) double countExponent; // @synthesize countExponent=_countExponent;
-@property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;
-@property(readonly, nonatomic) unsigned long long filterBatchSize; // @synthesize filterBatchSize=_filterBatchSize;
 @property(readonly, nonatomic) _Bool isCustomResponsesEnabled; // @synthesize isCustomResponsesEnabled=_isCustomResponsesEnabled;
-@property(readonly, nonatomic) unsigned long long knowledgeStoreQueryLimit; // @synthesize knowledgeStoreQueryLimit=_knowledgeStoreQueryLimit;
-@property(readonly, nonatomic) double maxReplyGapSecs; // @synthesize maxReplyGapSecs=_maxReplyGapSecs;
-@property(readonly, nonatomic) unsigned long long maxReplyLength; // @synthesize maxReplyLength=_maxReplyLength;
-@property(readonly, nonatomic) unsigned long long maxRowsInPerRecipientTable; // @synthesize maxRowsInPerRecipientTable=_maxRowsInPerRecipientTable;
-@property(readonly, nonatomic) unsigned long long maxStoredCustomResponses; // @synthesize maxStoredCustomResponses=_maxStoredCustomResponses;
-@property(readonly, nonatomic) unsigned long long maxStoredMessages; // @synthesize maxStoredMessages=_maxStoredMessages;
-@property(readonly, nonatomic) double minDecayedCountForPrediction; // @synthesize minDecayedCountForPrediction=_minDecayedCountForPrediction;
-@property(readonly, nonatomic) double minDecayedCountForPruning; // @synthesize minDecayedCountForPruning=_minDecayedCountForPruning;
-@property(readonly, nonatomic) unsigned long long minimumDistinctRecipients; // @synthesize minimumDistinctRecipients=_minimumDistinctRecipients;
-@property(readonly, nonatomic) unsigned long long minimumReplyOccurences; // @synthesize minimumReplyOccurences=_minimumReplyOccurences;
-@property(readonly, nonatomic) double minimumTimeIntervalSecs; // @synthesize minimumTimeIntervalSecs=_minimumTimeIntervalSecs;
-@property(readonly, nonatomic) double timeDecayFactor; // @synthesize timeDecayFactor=_timeDecayFactor;
-@property(readonly, nonatomic) double usageSpreadExponent; // @synthesize usageSpreadExponent=_usageSpreadExponent;
-@property(readonly, nonatomic) _Bool useNonNegativeClassesOnly; // @synthesize useNonNegativeClassesOnly=_useNonNegativeClassesOnly;
 
 @end
 

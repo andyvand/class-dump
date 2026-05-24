@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDialogRequest, AMSMetricsEvent, NSDictionary, NSMutableDictionary, NSString, NSURL, NSURLRequest;
-
 @interface AMSDialogAction
 {
     _Bool _inferLinkDestination;
-    _Bool _requiresDelegate;
-    _Bool _shouldRetry;
-    NSDictionary *_clickstreamMetricsEvent;
-    NSURL *_deepLink;
-    NSString *_identifier;
-    NSString *_kind;
-    AMSMetricsEvent *_metricsEvent;
-    NSURLRequest *_request;
-    long long _style;
-    AMSDialogRequest *_dialogRequest;
-    NSString *_title;
-    NSURL *_iconURL;
-    NSDictionary *_parameters;
-    NSMutableDictionary *_userInfo;
-    NSString *_accessibilityIdentifier;
 }
 
 + (id);
@@ -34,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -48,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,27 +48,27 @@
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)rH;
 - (id);
 - (long long);
 - (id);
 - (id);
+- (id)used_storage_in_icloud;
+- (void);
+- (_Bool)@;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)`C;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
@@ -97,35 +80,7 @@
 ]ê;
 
 // Remaining properties
-@property(copy) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(setter=ams_setURLType:) long long ams_URLType;
-@property(setter=ams_setActionType:) long long ams_actionType;
-@property(retain, setter=ams_setButtonDictionary:) NSDictionary *ams_buttonDictionary;
-@property(retain, setter=ams_setBuyParams:) NSString *ams_buyParams;
 @property(setter=ams_setCommerceUIURL:) _Bool ams_commerceUIURL;
-@property(retain, setter=ams_setExpandableInfoDictionary:) NSDictionary *ams_expandableInfoDictionary;
-@property(retain, setter=ams_setFormData:) NSDictionary *ams_formData;
-@property(retain, setter=ams_setMetricsDictionary:) NSDictionary *ams_metricsDictionary;
-@property(retain, setter=ams_setRawURL:) NSURL *ams_rawURL;
-@property(setter=ams_setResolvedInterruption:) _Bool ams_resolvedInterruption;
-@property(setter=ams_setShouldRetry:) _Bool ams_shouldRetry;
-@property(retain, setter=ams_setSubtarget:) NSString *ams_subtarget;
-@property(setter=ams_setTidContinue:) _Bool ams_tidContinue;
-@property(copy) NSDictionary *clickstreamMetricsEvent; // @synthesize clickstreamMetricsEvent=_clickstreamMetricsEvent;
-@property(copy) NSURL *deepLink; // @synthesize deepLink=_deepLink;
-@property(copy) AMSDialogRequest *dialogRequest; // @synthesize dialogRequest=_dialogRequest;
-@property(copy) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool inferLinkDestination; // @synthesize inferLinkDestination=_inferLinkDestination;
-@property(retain) NSString *kind; // @synthesize kind=_kind;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy) NSURLRequest *request; // @synthesize request=_request;
-@property _Bool requiresDelegate; // @synthesize requiresDelegate=_requiresDelegate;
-@property _Bool shouldRetry; // @synthesize shouldRetry=_shouldRetry;
-@property long long style; // @synthesize style=_style;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(retain) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

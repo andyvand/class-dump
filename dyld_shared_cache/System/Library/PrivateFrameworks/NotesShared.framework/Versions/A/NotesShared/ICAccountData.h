@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class CKRecord, CKRecordID, ICAccount, ICTTMergeableWallClockValue, NSData, NSManagedObjectID, NSString;
+@class CKRecordID;
 
 @interface ICAccountData : ICCloudSyncingObject
 {
@@ -17,57 +17,26 @@
 + (id);
 + (id);
 + (id);
+- (void)setComment:(id)arg1;
+- (void)serverExistsInLocale:(CDUnknownBlockType)arg1 withIPAddr: /* Error: Ran out of types for this method. */;
+- (void)groupRec;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)ock;
+- (id)ackage:%@ for error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)remaining);
+- (_Bool)st path component:(id)arg1 %@;
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(copy, nonatomic) NSData *cryptoPassphraseVerifier; // @dynamic cryptoPassphraseVerifier;
-@property(readonly, nonatomic) long long databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPresentableContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInICloudAccount;
-@property(readonly, nonatomic) _Bool isValidObject;
-@property(nonatomic) short lockedNotesMode; // @dynamic lockedNotesMode;
-@property(readonly, copy, nonatomic) NSString *loggingDescription;
-@property(readonly, copy, nonatomic) ICTTMergeableWallClockValue *mergeableCryptoPassphraseVerifier;
-@property(retain, nonatomic) NSData *mergeableData; // @dynamic mergeableData;
-@property(readonly, nonatomic) _Bool needsToBeDeletedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBeFetchedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBePushedToCloud;
-@property(readonly, nonatomic) _Bool needsToSaveUserSpecificRecord;
-@property(readonly, nonatomic) unsigned long long numberOfCommonRecordAssets;
-@property(readonly, nonatomic) unsigned long long numberOfUserSpecificRecordAssets;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(readonly, copy, nonatomic) CKRecordID *recordID;
-@property(readonly, copy, nonatomic) NSString *recordType;
-@property(readonly, nonatomic) _Bool shouldAlwaysDownloadAssets;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsV1Neo; // @dynamic supportsV1Neo;
-@property(readonly, copy, nonatomic) CKRecordID *userSpecificRecordID;
-@property(readonly, copy, nonatomic) NSString *userSpecificRecordType;
-@property(readonly, retain, nonatomic) CKRecord *userSpecificServerRecord;
-@property(readonly, nonatomic) _Bool wantsUserSpecificRecord;
 
 @end
 

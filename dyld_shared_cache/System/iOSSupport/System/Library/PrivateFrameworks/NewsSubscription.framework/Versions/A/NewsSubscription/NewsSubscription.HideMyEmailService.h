@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailService
 {
     id endpointConnection;
-    id configManager;
 }
 
 @end

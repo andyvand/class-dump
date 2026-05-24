@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)ptions:(id)arg1 forType:(id)arg2 ];
++ (id)tentType"8Q16;
++ (id)actions.text.translate;
 
 @end
 

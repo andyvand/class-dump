@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     NSSwitch *_macSwitch;
 }
 
-+ (struct CGSize)or:previous:completionHandler: /* Error: Ran out of types for this method. */;
-+ (struct UIEdgeInsets)Type;
-- (void);
++ (struct CGSize)updatedTargetedPreviewGeometryFor:previous:completionHandler: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets)_documentType;
+- (void)nvalidated;
 - (void);
 - (_Bool)!CùÑ[1Â0@ù
 × ;

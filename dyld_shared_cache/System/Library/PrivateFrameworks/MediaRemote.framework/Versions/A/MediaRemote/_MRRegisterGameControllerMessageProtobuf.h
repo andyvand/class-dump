@@ -19,15 +19,14 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Q;
 - (void);
 - (id);
-- (id);
-- (void)CapabilitiesCompletions;
+- (id), numberOfAssertions = %llu/%llu};
+- (void)_volumeCapabilitiesCompletions;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasProperties;
-@property(retain, nonatomic) _MRGameControllerPropertiesProtobuf *properties; // @synthesize properties=_properties;
 
 @end
 

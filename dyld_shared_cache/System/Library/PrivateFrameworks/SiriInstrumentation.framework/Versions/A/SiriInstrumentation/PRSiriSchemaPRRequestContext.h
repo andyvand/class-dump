@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PRSiriSchemaPRRequestEnded, PRSiriSchemaPRRequestFailed, PRSiriSchemaPRRequestStarted, SISchemaUUID;
+@class PRSiriSchemaPRRequestStarted;
 
 @interface PRSiriSchemaPRRequestContext : SISchemaInstrumentationMessage
 {
     PRSiriSchemaPRRequestStarted *_startedOrChanged;
-    PRSiriSchemaPRRequestEnded *_ended;
-    PRSiriSchemaPRRequestFailed *_failed;
-    SISchemaUUID *_planEventId;
-    unsigned int _actionStatementId;
-    CDStruct_4f0074d0 _has;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasPlanEventId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,35 +35,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)memstream to print current system config:(id)arg1 %{errnod}d;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ed at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPersonalizationStore_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)SXPCConnection;
 - (id);
 - (id);
-- (id)alPower;
+- (id)_signalPower;
 - (id)B,N,V_isSoundAnalysisEnabled;
-- (void)ual;
+- (void)isPayloadMultilingual;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(retain, nonatomic) PRSiriSchemaPRRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PRSiriSchemaPRRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasPlanEventId; // @synthesize hasPlanEventId=_hasPlanEventId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *planEventId; // @synthesize planEventId=_planEventId;
 @property(retain, nonatomic) PRSiriSchemaPRRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

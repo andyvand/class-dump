@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)inProcessPreparationTaskWithRequest:(id)arg1;
 - (void);
 
 @end

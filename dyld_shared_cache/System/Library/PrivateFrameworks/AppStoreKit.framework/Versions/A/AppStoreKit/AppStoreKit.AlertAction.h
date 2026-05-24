@@ -9,14 +9,6 @@
 @interface AppStoreKit.AlertAction : AppStoreKit.Action
 {
     id style;
-    id message;
-    id isCancelable;
-    id cancelTitle;
-    id cancelAction;
-    id destructiveActionIndex;
-    id toastDuration;
-    id buttonActions;
-    id imageName;
 }
 
 @end

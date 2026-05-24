@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)rvedProcessStatesDidChange:(CDStruct_70511ce9 *)arg1 completion:(id *)arg2;
+- (unsigned long long)async_observedProcessStatesDidChange:(CDStruct_70511ce9 *)arg1 completion:(id *)arg2;
 @end
 

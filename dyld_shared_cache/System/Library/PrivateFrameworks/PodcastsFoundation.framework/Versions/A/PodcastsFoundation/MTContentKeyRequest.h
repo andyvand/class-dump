@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface MTContentKeyRequest
 {
     void keyIdentifier;
-    void adamId;
-    NSNumber *secureInvalidationDsid;
-    void requestData;
-    id requestType;
-    id offlineRequest;
-    id requestDate;
-    id requestID;
 }
 
+- (id)RU;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)tsFoundation30MediaRequestControllerProtocolP;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *adamId;
 @property(nonatomic, readonly) NSString *keyIdentifier;
-@property(nonatomic, copy) NSData *requestData;
-@property(nonatomic, readonly) NSNumber *secureInvalidationDsid; // @synthesize secureInvalidationDsid;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerStyler
 {
     id colorPaletteProvider;
-    id featureAvailability;
 }
 
 @end

@@ -12,8 +12,8 @@
 
 - (id);
 - (double);
-- (void);
-- (int)letion;
+- (void);
+- (int)shouldRecordCompletion;
 
 @end
 

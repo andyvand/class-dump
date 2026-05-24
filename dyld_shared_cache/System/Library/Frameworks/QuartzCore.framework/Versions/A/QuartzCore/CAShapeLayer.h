@@ -6,25 +6,12 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSArray, NSString;
-
 @interface CAShapeLayer : CALayer
 {
 }
 
 
 // Remaining properties
-@property struct CGColor *fillColor;
-@property(copy) NSString *fillRule;
-@property(copy) NSString *lineCap;
-@property(copy) NSArray *lineDashPattern;
-@property double lineDashPhase;
-@property(copy) NSString *lineJoin;
-@property double lineWidth;
-@property double miterLimit;
 @property struct CGPath *path;
-@property struct CGColor *strokeColor;
-@property double strokeEnd;
-@property double strokeStart;
 @end
 

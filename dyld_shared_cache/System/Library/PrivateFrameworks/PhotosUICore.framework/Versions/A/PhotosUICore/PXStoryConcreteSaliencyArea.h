@@ -7,7 +7,6 @@
 @interface PXStoryConcreteSaliencyArea
 {
     float _confidence;
-    struct CGRect _contentsRect;
 }
 
 - (id);
@@ -16,7 +15,6 @@
 - (float)H$;
 
 // Remaining properties
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
 
 @end

@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface BSCopyingCacheSet
 {
     NSMutableSet *_mutable;
-    NSSet *_immutable;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)E;
 - (void);
-- (unsigned long long);
+- (unsigned long long)ion error:%s
+ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

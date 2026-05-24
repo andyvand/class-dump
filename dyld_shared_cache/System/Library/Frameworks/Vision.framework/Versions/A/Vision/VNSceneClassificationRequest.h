@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, VNClassificationCustomHierarchy, VNSceneObservation;
+@class VNSceneObservation;
 
 @interface VNSceneClassificationRequest : VNImageBasedRequest
 {
@@ -25,8 +25,8 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)cate missing data:(unsigned long long)arg1 .cohorts;
+- (void)CNLinkedContactsIdentifiersPboardType;
 - (void);
 - (long long);
 - (_Bool);
@@ -34,10 +34,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) VNClassificationCustomHierarchy *customHierarchy;
-@property(nonatomic) unsigned long long maximumHierarchicalObservations;
-@property(nonatomic) unsigned long long maximumLeafObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(readonly, retain, nonatomic) VNSceneObservation *sceneObservation;
 
 @end

@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)nce: /* Error: Ran out of types for this method. */;
+- (id)R(;
+- (id)(;
+- (unsigned long long)";
+- (_Bool)$;
+- (struct _NSZone *)initWithFireDate:tolerance: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

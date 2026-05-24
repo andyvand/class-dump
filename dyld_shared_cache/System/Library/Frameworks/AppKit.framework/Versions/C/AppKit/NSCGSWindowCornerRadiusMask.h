@@ -10,16 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSCGSWindowCornerRadiusMask : NSCGSWindowCornerMask
 {
     double _cornerRadius;
-    _Bool _clipsWindowContents;
-    _Bool _definesShadowShape;
-    struct CGImage *_cachedImage;
-    double _cachedImageScale;
-    unsigned int _maskedCorners;
 }
 
-- (id);
+- (id);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)or alt_services;
 - (_Bool);
 - (void);
 - (unsigned int);

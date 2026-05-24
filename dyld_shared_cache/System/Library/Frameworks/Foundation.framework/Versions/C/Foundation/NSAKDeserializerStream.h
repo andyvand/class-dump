@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface NSAKDeserializerStream
 {
     const void *memory;
-    const char *current;
-    unsigned long long left;
-    unsigned long long max;
-    _Bool freeWhenDone;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);

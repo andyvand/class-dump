@@ -5,18 +5,15 @@
 //
 
 @class RWIDriverConfiguration;
-@protocol RWIDriverInterfaceDelegate;
 
 @interface RWIDriverInterface
 {
     RWIDriverConfiguration *_configuration;
-    long long _state;
-    id <RWIDriverInterfaceDelegate> _delegate;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (void);
 - (long long);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) RWIDriverConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak id <RWIDriverInterfaceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isRunning;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

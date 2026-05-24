@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSView;
+
 @protocol NSCollectionViewDataSourcePrivate
+
+@optional
+- (NSView *)erated from snapshot;
 @end
 

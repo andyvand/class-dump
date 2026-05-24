@@ -7,8 +7,9 @@
 @protocol FBSceneComponent
 
 @optional
+- (void)ayParams.versionHash;
 - (void)°!Fù^Ð1Â0@ù
 × ;
-- (void);
+- (void)_extensionAuxiliaryHostProtocol;
 @end
 

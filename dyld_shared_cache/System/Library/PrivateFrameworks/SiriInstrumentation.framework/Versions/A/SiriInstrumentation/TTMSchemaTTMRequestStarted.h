@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface TTMSchemaTTMRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)hoseSBAR_audioHoseSendAudio;
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)row;
+- (_Bool)d_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID IN (SELECT message_id FROM chat_message_join WHERE message_id < ?) AND item_type = 0 ORDER BY ROWID DESC LIMIT ?;
 - (id);
 - (id);
-- (id)d;
-- (id)d;
-- (_Bool)OURCE_APP_SHORTCUTS;
-- (_Bool)TEXT;
-- (void)aFLOWLINKClientEvent;
+- (id)deleteRawEventId;
+- (id)_isPunctuationUsed;
+- (_Bool)SUGAUTOCOMPLETESUGGESTIONSOURCE_APP_SHORTCUTS;
+- (_Bool)FLOWSTATUSREASON_RELATIONSHIP_FOUND_FROM_CONTEXT;
+- (void)FLOWLINKSchemaFLOWLINKClientEvent;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

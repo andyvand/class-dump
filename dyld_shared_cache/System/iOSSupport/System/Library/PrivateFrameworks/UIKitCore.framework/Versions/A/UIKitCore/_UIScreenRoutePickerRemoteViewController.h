@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UIRemoteViewController.h>
 
-@class NSExtension, NSString, _UIScreenRoutePickerViewController;
-@protocol NSCopying><NSObject;
+@class _UIScreenRoutePickerViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIScreenRoutePickerRemoteViewController : _UIRemoteViewController
 {
     _UIScreenRoutePickerViewController *_publicController;
-    NSExtension *_extension;
-    id <NSCopying><NSObject> _extensionRequestIdentifier;
 }
 
 + (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@88B96;
 - (void);
 - (void);
 - (void);
@@ -32,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)d¹þ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(copy, nonatomic) id <NSCopying><NSObject> extensionRequestIdentifier; // @synthesize extensionRequestIdentifier=_extensionRequestIdentifier;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak _UIScreenRoutePickerViewController *publicController; // @synthesize publicController=_publicController;
-@property(readonly) Class superclass;
 
 @end
 

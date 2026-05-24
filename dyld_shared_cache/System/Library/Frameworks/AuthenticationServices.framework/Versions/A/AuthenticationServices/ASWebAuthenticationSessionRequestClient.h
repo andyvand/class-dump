@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer, NSXPCConnection, NSXPCListener;
-@protocol ASWebAuthenticationSessionRequestServing, OS_dispatch_queue, _ASWebAuthenticationSessionRequestHandling;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ASWebAuthenticationSessionRequestClient
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSXPCListener *_requestListener;
-    NSXPCConnection *_serverConnection;
-    id <ASWebAuthenticationSessionRequestServing> _requestServer;
-    id <_ASWebAuthenticationSessionRequestHandling> _requestHandler;
-    _Bool _isEstablishingConnection;
-    NSTimer *_isEstablishingConnectionTimer;
 }
 
 - (void);
@@ -25,13 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

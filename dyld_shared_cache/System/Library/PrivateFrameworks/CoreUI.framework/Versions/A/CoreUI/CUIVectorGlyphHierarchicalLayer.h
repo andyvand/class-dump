@@ -12,12 +12,12 @@
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (struct CGImage *);
 - (struct CGImage *);
 - (void);
-- (id);
+- (id)orHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long hierarchyLevel; // @synthesize hierarchyLevel=_hierarchyLevel;

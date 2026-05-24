@@ -5,5 +5,9 @@
 //
 
 @protocol MDSearchQueryDelegate
+- (void);
+
+@optional
+- (void){;
 @end
 

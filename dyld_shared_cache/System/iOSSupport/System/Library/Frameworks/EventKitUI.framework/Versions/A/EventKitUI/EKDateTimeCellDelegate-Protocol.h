@@ -5,5 +5,7 @@
 //
 
 @protocol EKDateTimeCellDelegate
+- (void)&s;
+- (void);
 @end
 

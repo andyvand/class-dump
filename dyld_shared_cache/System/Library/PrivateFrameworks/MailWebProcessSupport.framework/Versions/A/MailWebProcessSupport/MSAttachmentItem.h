@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UTType;
+@class NSString;
 
 @interface MSAttachmentItem
 {
     NSString *_contentID;
-    UTType *_uttype;
-    NSData *_data;
-    NSString *_additionalMarkup;
 }
 
-+ (_Bool);
++ (_Bool)KI;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)MapsSuggestionsSignalTypeCurrentDayOfWeek;
+- (void),;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *additionalMarkup; // @synthesize additionalMarkup=_additionalMarkup;
 @property(readonly, copy, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) UTType *uttype; // @synthesize uttype=_uttype;
 
 @end
 

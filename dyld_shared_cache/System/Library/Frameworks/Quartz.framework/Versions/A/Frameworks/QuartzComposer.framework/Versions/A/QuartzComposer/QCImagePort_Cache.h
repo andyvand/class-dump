@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAffineTransform, QCArray, QCImage, QCImageTextureBuffer, QCPatch;
+@class QCImage;
 
 @interface QCImagePort_Cache
 {
     QCImage *_image;
-    QCImageTextureBuffer *_texture;
-    QCArray *_cachedTextures;
-    CDStruct_bdcb2b0d _textureProviderMD5;
-    struct CGRect _textureBounds;
-    NSAffineTransform *_textureTransformation;
-    CDStruct_d5a466fe _savedState;
-    QCPatch *_patch;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)
+;
 - (void);
 - (id);
 - (void);

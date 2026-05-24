@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudLegacyModelObject : HMDBackingStoreModelObject
@@ -16,8 +16,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data1; // @dynamic data1;
-@property(retain, nonatomic) NSData *data2; // @dynamic data2;
 @property(retain, nonatomic) NSNumber *legacyRecordType; // @dynamic legacyRecordType;
 
 @end

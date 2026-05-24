@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WiFiUsageNetworkIPv6Details
 {
     _Bool _isValid;
-    NSArray *_ipv6Addresses;
 }
 
 - (void);
@@ -17,12 +14,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void)!fð!XEùÑ¤ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *ipv6Addresses; // @synthesize ipv6Addresses=_ipv6Addresses;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end

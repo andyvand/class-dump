@@ -6,9 +6,9 @@
 
 @interface UnknownClass (PK_CGPath)
 + (struct CGPath *);
-+ (id);
++ (id);
 - (struct CGPath *);
-- (void);
+- (void)ataTask"8@"AVAssetResourceLoadingRequest"16^B24;
 - (void);
 @end
 

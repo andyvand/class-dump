@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32DoubleDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -17,11 +16,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -30,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)ngsLanguageCode;
-- (void)lueInferenceCarCommandsSmartAppSelection;
+- (void)_userSettingsLanguageCode;
+- (void)SiriValueInferenceCarCommandsSmartAppSelection;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

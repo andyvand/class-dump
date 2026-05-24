@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _GCDevicePhysicalInputBase;
 @protocol _GCDevicePhysicalInputViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputView
 {
     id <_GCDevicePhysicalInputViewDataSource> _dataSource;
-    _Bool _isPartOfPhysicalInput;
-    _Bool _isSnapshot;
-    _Atomic _Bool _isObserved;
 }
 
 + (id);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -35,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)q;
+- (id);
 - (oneway void);
 - (id);
 - (id);
@@ -46,14 +42,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) _GCDevicePhysicalInputBase *implementation;
-@property(readonly) Class superclass;
 
 @end
 

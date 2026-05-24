@@ -6,40 +6,27 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class EWSDuration, EWSEmailAddress, EWSReplyBodyType, MFEWSSetUserOofSettingsResponseOperation;
-
 @interface MFEWSSetUserOofSettingsRequestOperation : MFEWSRequestOperation
 {
     long long _oofState;
-    EWSReplyBodyType *_internalReply;
-    EWSReplyBodyType *_externalReply;
-    EWSDuration *_duration;
-    EWSEmailAddress *_emailAddress;
-    long long _externalAudienceType;
 }
 
-- (void);
+- (void)Q?;
+- (id);
+- (id)5x;
+- (id)y;
 - (id);
 - (id);
+- (id)7;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (long long)q`;
 - (long long);
-- (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EWSDuration *duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) EWSEmailAddress *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, nonatomic) long long externalAudienceType; // @synthesize externalAudienceType=_externalAudienceType;
-@property(readonly, nonatomic) EWSReplyBodyType *externalReply; // @synthesize externalReply=_externalReply;
-@property(readonly, nonatomic) EWSReplyBodyType *internalReply; // @synthesize internalReply=_internalReply;
 @property(readonly, nonatomic) long long oofState; // @synthesize oofState=_oofState;
-@property(retain, nonatomic) MFEWSSetUserOofSettingsResponseOperation *responseOperation;
 
 @end
 

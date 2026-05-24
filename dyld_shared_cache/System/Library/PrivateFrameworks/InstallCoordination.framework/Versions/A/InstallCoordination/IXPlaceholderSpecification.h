@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXPlaceholder, NSString;
-@protocol MILocationProtocol;
+@class NSString;
 
 @interface IXPlaceholderSpecification
 {
     NSString *_localizedBundleName;
-    NSString *_bundleID;
-    unsigned long long _placeholderType;
-    unsigned long long _client;
-    id <MILocationProtocol> _location;
-    NSString *_bundleDirectoryName;
-    unsigned long long _installType;
-    IXPlaceholder *_parentPlaceholder;
 }
 
 - (void);
@@ -34,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleDirectoryName; // @synthesize bundleDirectoryName=_bundleDirectoryName;
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned long long client; // @synthesize client=_client;
-@property(nonatomic) unsigned long long installType; // @synthesize installType=_installType;
 @property(readonly, copy, nonatomic) NSString *localizedBundleName; // @synthesize localizedBundleName=_localizedBundleName;
-@property(readonly, copy, nonatomic) id <MILocationProtocol> location; // @synthesize location=_location;
-@property(nonatomic) __weak IXPlaceholder *parentPlaceholder; // @synthesize parentPlaceholder=_parentPlaceholder;
-@property(readonly, nonatomic) unsigned long long placeholderType; // @synthesize placeholderType=_placeholderType;
 
 @end
 

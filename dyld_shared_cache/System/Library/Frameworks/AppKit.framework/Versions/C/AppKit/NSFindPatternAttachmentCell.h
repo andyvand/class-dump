@@ -6,8 +6,7 @@
 
 #import <AppKit/NSTextAttachmentCell.h>
 
-@class NSColor, NSFindPattern, NSTextField, NSView;
-@protocol NSFindPatternField;
+@class NSFindPattern;
 
 __attribute__((visibility("hidden")))
 @interface NSFindPatternAttachmentCell : NSTextAttachmentCell
@@ -16,30 +15,23 @@ __attribute__((visibility("hidden")))
         unsigned int _selected:1;
         unsigned int _reserved:31;
     } _tacFlags;
-    NSFindPattern *_findPattern;
-    NSTextField<NSFindPatternField> *_field;
-    NSColor *_NSFindPatternColor;
-    NSColor *_NSFindPatternSelectedColor;
-    NSColor *_NSFindPatternRolloverColor;
-    NSView *_view;
-    int cachedGroupID;
 }
 
-- (id);
+- (id)_֠;
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long)portConnection>=^{TransportConnection}^{__shared_weak_count}}24@40@?48;
+- (id)observeValueForKeyPath:(id)arg1 ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (id)_preventsIdleSystemSleep;
+- (struct CGRect)_cf_resp_data;
+- (void)_cachedSocketStreamProperties;
+- (void)_cachedResponseDataArray;
+- (void)_bytesPerSecondLimitValue;
+- (void)_bytesAsData;
+- (void)_allowedProtocolTypes;
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)?;
 - (struct CGRect);
 - (struct CGPoint);
 - (void);
@@ -51,13 +43,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)tomAuxillaryViews;
+- (void)h;
+- (id)_heightOfBottomAuxillaryViews;
 - (id)"C;
 - (id)°ÿu0AD;
 
 // Remaining properties
-@property NSTextField<NSFindPatternField> *field; // @synthesize field=_field;
 @property(retain) NSFindPattern *findPattern; // @synthesize findPattern=_findPattern;
 
 @end

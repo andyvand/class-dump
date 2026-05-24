@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)gRPCQuery:date:bundleIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (void),¬;
 
 // Remaining properties

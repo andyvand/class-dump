@@ -11,7 +11,7 @@
     _Bool _expectsResponse;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (id);
 - (void);
 - (_Bool);

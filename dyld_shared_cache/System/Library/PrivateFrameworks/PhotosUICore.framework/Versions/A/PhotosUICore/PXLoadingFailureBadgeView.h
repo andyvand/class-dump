@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSImage, UXImageView;
+@class UXImageView;
 
 @interface PXLoadingFailureBadgeView
 {
     UXImageView *_imageView;
-    NSError *_error;
-    long long _sizeClass;
-    NSImage *_image;
 }
 
 + (struct CGSize);
@@ -29,14 +26,11 @@
 - (id);
 - (void);
 - (id)Collection>"16;
-- (id)orClipWithIdentifier:hintIndex:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)modifyOptionsForClipWithIdentifier:hintIndex:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)à*:ÿØ¶Ø /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) UXImageView *imageView; // @synthesize imageView=_imageView;
 @property(nonatomic) long long sizeClass; // @synthesize sizeClass=_sizeClass;
 
 @end

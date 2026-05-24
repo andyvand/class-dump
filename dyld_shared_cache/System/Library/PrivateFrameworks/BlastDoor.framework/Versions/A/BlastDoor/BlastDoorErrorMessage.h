@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSString;
+@class NSString;
 
 @interface BlastDoorErrorMessage
 {
@@ -13,16 +13,13 @@
 
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)Aid:Failed to get enrolled, result:%d /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tifier;
+- (id)audioRouteUniqueIdentifier;
 - (void)f;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *additionalInfo;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) unsigned short type;
 
 @end
 

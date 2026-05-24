@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 @interface IAExtensionManager
 {
     NSMutableDictionary *_plugins;
-    NSMutableArray *_pluginIDs;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *pluginIDs;
 @property(readonly) NSDictionary *plugins;
 
 @end

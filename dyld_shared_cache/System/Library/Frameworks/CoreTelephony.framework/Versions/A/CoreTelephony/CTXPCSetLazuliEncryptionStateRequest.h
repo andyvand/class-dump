@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id);
-- (id);
+- (id)sBeenIngested(__unsafe_unretained Class _Nonnull);
 - (int);
 
 // Remaining properties

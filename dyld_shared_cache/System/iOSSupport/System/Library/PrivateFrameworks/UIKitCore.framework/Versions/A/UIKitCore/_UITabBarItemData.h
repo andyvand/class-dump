@@ -6,33 +6,15 @@
 
 #import <UIKitCore/_UIBarAppearanceData.h>
 
-@class NSDictionary, UIColor, UIImageSymbolConfiguration;
+@class UIImageSymbolConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarItemData : _UIBarAppearanceData
 {
     long long _style;
-    NSDictionary *_titleTextAttributes[5];
-    NSDictionary *_badgeTextAttributes[5];
-    UIColor *_iconColor[5];
-    UIColor *_badgeBackgroundColor[5];
-    struct UIOffset _titlePositionAdjustment[5];
-    struct UIOffset _badgePositionAdjustment[5];
-    struct UIOffset _badgeTitlePositionAdjustment[5];
-    struct {
-        unsigned int hasUserTitleFont:1;
-        unsigned int hasUserTitleColor:1;
-        unsigned int hasUserTitlePosition:1;
-        unsigned int hasUserIconColor:1;
-        unsigned int hasUserBadgePosition:1;
-        unsigned int hasUserBadgeBackgroundColor:1;
-        unsigned int hasUserBadgeTitleFont:1;
-        unsigned int hasUserBadgeTitleColor:1;
-        unsigned int hasUserBadgeTitlePosition:1;
-    } _stateFlags[5];
 }
 
-+ (id);
++ (id)WSP_ONLY;
 + (id);
 - (void);
 - (void);
@@ -42,34 +24,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct UIOffset);
+- (void)*;
 - (void);
+- (void);
+- (id)setKeyProfile:(long long)arg1;
+- (struct UIOffset)atabaseStorage={ .options={%d}, .occurrenceCount=%d } };
+- (void)queuedNowPlayingInfo;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (struct UIOffset);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)ð!XGùQ[Ð1Â0@ù
 × ;
 - (id)ù±[°1Â0@ù
 × ;
 - (void)× ;
-- (id)tionToDefaultHeight;
-- (id)ginDragWithTouches:(long long)arg1 itemUpdater:(id)arg2;
-- (struct UIOffset)ion;
+- (id)limitInternalLayoutAndInteractionToDefaultHeight;
+- (id)_beginDragWithTouches:(long long)arg1 itemUpdater:(id)arg2;
+- (struct UIOffset)UIRegion;
 - (id)cc;
 - (long long)aceholder trait (%@) is not supported;
 - (_Bool);
 - (void)iew controller with an unexpected presentation controller:(id)arg1 %@;
 - (void)ath:/System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI /* Error: Ran out of types for this method. */;
 - (void);
-- (void)pdate;
+- (void)ObjectUpdate;
 - (id);
 
 // Remaining properties

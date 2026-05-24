@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateFormatter, NSString;
+@class NSDateFormatter;
 
 @interface CWFPowerTableElectionTelemetry
 {
     NSDateFormatter *_dateFormatter;
-    NSDate *_handoffAvailableDate;
-    NSString *_handoffWiFiAssetVersionInfo;
-    NSString *_handoffBTAssetVersionInfo;
-    NSString *_initialAssetFilename;
-    NSString *_initialAssetVersionInfoVersion;
-    NSDate *_initialAssetVersionInfoDate;
-    unsigned char _readinessReply;
-    NSDate *_readinessReplyDeliveredDate;
-    NSDate *_electionStartNotificationDate;
-    unsigned char _voteResult;
-    NSDate *_voteDeliveredDate;
-    NSString *_finalAssetVersionInfoVersion;
-    NSDate *_finalAssetVersionInfoDate;
-    unsigned char _wifiInitiatedPTUpdate;
-    unsigned char _btInitiatedPTUpdate;
-    NSString *_finalResultString;
 }
 
 + (id);
@@ -35,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)Queue;
 

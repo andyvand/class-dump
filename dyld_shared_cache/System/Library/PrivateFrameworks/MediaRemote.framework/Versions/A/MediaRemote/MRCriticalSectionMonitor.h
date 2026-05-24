@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol MRCriticalSectionMonitorDelegate, OS_dispatch_queue;
+@protocol MRCriticalSectionMonitorDelegate;
 
 @interface MRCriticalSectionMonitor
 {
     _Bool _observing;
-    _Bool _critical;
-    id <MRCriticalSectionMonitorDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)imageForUserFromJPEGData:avatarType: /* Error: Ran out of types for this method. */;
+- (void)t of an incoming message with URL:%@ from handle:%@, isFromMe %@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)s;
 - (_Bool);
-- (void);
+- (void)taskmaster:didReceivePunchoutOutcome: /* Error: Ran out of types for this method. */;
 - (void)pleteBlock;
 - (void)<äÿ;
 - (id)¸;
 
 // Remaining properties
-@property(nonatomic, getter=isCritical) _Bool critical; // @synthesize critical=_critical;
 @property(nonatomic) __weak id <MRCriticalSectionMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(nonatomic, getter=isObserving) _Bool observing; // @synthesize observing=_observing;
 
 @end
 

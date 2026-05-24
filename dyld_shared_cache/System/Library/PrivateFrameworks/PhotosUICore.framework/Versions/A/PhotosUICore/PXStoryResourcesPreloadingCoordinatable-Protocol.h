@@ -8,7 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCompleted;
-@property(readonly, nonatomic) unsigned long long isCompletedChangeDescriptor;
-@property(nonatomic) _Bool isPreloadingEnabled;
 @end
 

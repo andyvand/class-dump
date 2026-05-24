@@ -11,23 +11,23 @@
     NSMutableArray *_pairs;
 }
 
-+ (Class);
++ (Class)SBUserNotificationAllowMenuButtonDismissal;
+- (id)cardPlacement;
+- (void)sourceDeviceType;
+- (void)8@"PKExpressPassConfiguration"16;
+- (unsigned long long)eadCard;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)atus;
+- (id)tanding.nl.overrides;
+- (void)_handlerReturnStatus;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *pairs; // @synthesize pairs=_pairs;

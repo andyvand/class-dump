@@ -26,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UISApplicationInitializationContext *applicationInitializationContext;
-@property(readonly, nonatomic) _Bool isFrontBoard;
-@property(readonly, nonatomic) _Bool usesLocalInitializationContext;
 
 @end
 

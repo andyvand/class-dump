@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (id);
-- (void)L4ComputeCommandEncoderGGDSPI;
+- (void)MTL4ComputeCommandEncoderGGDSPI;
 
 @end
 

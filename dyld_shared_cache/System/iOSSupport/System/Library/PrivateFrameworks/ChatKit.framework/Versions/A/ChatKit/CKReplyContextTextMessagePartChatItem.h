@@ -11,13 +11,13 @@
 }
 
 - (id);
-- (id);
+- (id)K;
 - (_Bool);
-- (id);
-- (long long);
-- (Class);
+- (id)t;
+- (long long)t;
+- (Class)n;
 - (BOOL);
-- (BOOL);
+- (BOOL)ot retrieve recent preview thumbnail — falling back to default preview thumbnail;
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);

@@ -7,12 +7,11 @@
 @interface DSLog
 {
     struct __asl_object_s *asl;
-    int logfd;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);

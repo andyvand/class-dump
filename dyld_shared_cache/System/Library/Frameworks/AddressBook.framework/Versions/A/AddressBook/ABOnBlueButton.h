@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABOnBlueButton
 {
     id _privateTarget;
-    SEL _privateAction;
-    _Bool _roundPlatterStyle;
-    NSString *_tintedImageCacheKey;
-    SEL _rightClickAction;
 }
 
 - (id);
@@ -41,11 +35,7 @@
 × ;
 
 // Remaining properties
-@property SEL privateAction; // @synthesize privateAction=_privateAction;
 @property __weak id privateTarget; // @synthesize privateTarget=_privateTarget;
-@property(nonatomic) SEL rightClickAction; // @synthesize rightClickAction=_rightClickAction;
-@property(nonatomic, getter=isRoundPlatterStyle) _Bool roundPlatterStyle; // @synthesize roundPlatterStyle=_roundPlatterStyle;
-@property(retain, nonatomic) NSString *tintedImageCacheKey; // @synthesize tintedImageCacheKey=_tintedImageCacheKey;
 
 @end
 

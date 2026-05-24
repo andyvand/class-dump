@@ -6,32 +6,25 @@
 
 #import <UIKitCore/UIBarAppearance.h>
 
-@class NSDictionary, NSString, UIBarButtonItemAppearance, UIImage, _UINavTitleAppearanceData, _UINavigationBarVisualProvider;
+@class _UINavTitleAppearanceData, _UINavigationBarVisualProvider;
 
 @interface UINavigationBarAppearance : UIBarAppearance
 {
     _UINavTitleAppearanceData *_barTitleData;
-    UIBarButtonItemAppearance *_buttonAppearance;
-    UIBarButtonItemAppearance *_prominentButtonAppearance;
-    UIBarButtonItemAppearance *_backButtonAppearance;
-    _UINavigationBarVisualProvider *_visualProvider;
-    long long __backgroundVisibility;
-    double __backgroundVisibilityOnScrollDistance;
-    NSDictionary *__subtitleTextAttributes;
 }
 
-- (id);
-- (void);
+- (id)@;
+- (void);
 - (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)handleVolumeDownButton;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool)Fù1\Ð1Â0@ù
 × ;
@@ -42,10 +35,10 @@
 - (void)qe1Â0@ù
 × ;
 - (id)reDragsToken>";
-- (double)CustomTransitionWithDuration: /* Error: Ran out of types for this method. */;
-- (void)thing;
-- (id)ustingFontForTypesettingLanguage:adjustingFontForTypesettingLanguageAwareLineHeightRatio:checkingForDifferences: /* Error: Ran out of types for this method. */;
-- (void)a;
+- (double)transitionView:startCustomTransitionWithDuration: /* Error: Ran out of types for this method. */;
+- (void)dampingRatioSmoothing;
+- (id)_setContent:adjustingFontForAccessibilityTraits:adjustingFontForTypesettingLanguage:adjustingFontForTypesettingLanguageAwareLineHeightRatio:checkingForDifferences: /* Error: Ran out of types for this method. */;
+- (void)_previewIndicatorAnimationTargetAlpha;
 - (void)	
 ;
 - (id)H;
@@ -81,28 +74,6 @@
 - (id)l;
 
 // Remaining properties
-@property(nonatomic) long long _backgroundVisibility; // @synthesize _backgroundVisibility=__backgroundVisibility;
-@property(nonatomic) double _backgroundVisibilityOnScrollDistance; // @synthesize _backgroundVisibilityOnScrollDistance=__backgroundVisibilityOnScrollDistance;
-@property(copy, nonatomic, setter=_setSubtitleTextAttributes:) NSDictionary *_subtitleTextAttributes; // @synthesize _subtitleTextAttributes=__subtitleTextAttributes;
-@property(nonatomic, setter=_setTitleControlHidden:) _Bool _titleControlHidden;
-@property(copy, nonatomic) UIBarButtonItemAppearance *backButtonAppearance; // @synthesize backButtonAppearance=_backButtonAppearance;
-@property(readonly, nonatomic) UIImage *backIndicatorImage;
-@property(readonly, nonatomic) UIImage *backIndicatorTransitionMaskImage;
-@property(copy, nonatomic) UIBarButtonItemAppearance *buttonAppearance; // @synthesize buttonAppearance=_buttonAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) UIBarButtonItemAppearance *doneButtonAppearance;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *largeSubtitleTextAttributes;
-@property(copy, nonatomic) NSDictionary *largeTitleTextAttributes;
-@property(copy, nonatomic) UIBarButtonItemAppearance *prominentButtonAppearance; // @synthesize prominentButtonAppearance=_prominentButtonAppearance;
-@property(copy, nonatomic) NSDictionary *subtitleTextAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) struct UIOffset titlePositionAdjustment;
-@property(copy, nonatomic) NSDictionary *titleTextAttributes;
 @property(readonly, nonatomic) _UINavigationBarVisualProvider *visualProvider; // @synthesize visualProvider=_visualProvider;
 
 @end

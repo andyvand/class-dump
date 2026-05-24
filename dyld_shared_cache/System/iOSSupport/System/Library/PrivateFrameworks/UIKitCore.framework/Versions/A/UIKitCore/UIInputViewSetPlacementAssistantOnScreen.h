@@ -6,27 +6,25 @@
 
 #import <UIKitCore/UIInputViewSetPlacement.h>
 
-@class NSArray, UIInputViewSetPlacementAccessoryOnScreen;
+@class UIInputViewSetPlacementAccessoryOnScreen;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewSetPlacementAssistantOnScreen : UIInputViewSetPlacement
 {
     UIInputViewSetPlacementAccessoryOnScreen *_cachedSecondaryPlacement;
-    NSArray *_subPlacements;
-    _Bool isInteractive;
 }
 
 + (id);
 + (id)à=;
 + (_Bool)ng up the keyboard - assuming the keyboard has already been shown on screen;
+- (id),;
 - (id);
-- (id);
-- (double);
-- (struct UIEdgeInsets);
-- (unsigned long long);
+- (double)nd token data, saving to sms.db {key:(id)arg1 %@};
+- (struct UIEdgeInsets)count %@ aliases has changes;
+- (unsigned long long)eduleState;
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)t8;
 - (_Bool);
 - (_Bool);
 - (_Bool);

@@ -9,14 +9,6 @@
 @interface PXTilingControllerDebugInfo
 {
     NSArray *_preheatRects;
-    NSArray *_pagedItems;
-    NSArray *_preheatedItems;
-    NSArray *_activeItems;
-    struct CGRect _visibleRect;
-    struct CGRect _activeRect;
-    struct CGRect _pagedRect;
-    struct CGRect _cachedRect;
-    struct CGRect _contentBounds;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -42,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeItems; // @synthesize activeItems=_activeItems;
 @property(nonatomic) struct CGRect activeRect; // @synthesize activeRect=_activeRect;
-@property(nonatomic) struct CGRect cachedRect; // @synthesize cachedRect=_cachedRect;
-@property(nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;
-@property(retain, nonatomic) NSArray *pagedItems; // @synthesize pagedItems=_pagedItems;
-@property(nonatomic) struct CGRect pagedRect; // @synthesize pagedRect=_pagedRect;
-@property(retain, nonatomic) NSArray *preheatRects; // @synthesize preheatRects=_preheatRects;
-@property(retain, nonatomic) NSArray *preheatedItems; // @synthesize preheatedItems=_preheatedItems;
-@property(nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
 
 @end
 

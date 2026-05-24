@@ -13,7 +13,7 @@
     NSArray *_suggestedPersonLocalIdentifiers;
 }
 
-- (id);
+- (id)setShouldDescribeEmptyElementWithRoleDescription:(id)arg1;
 - (id);
 - (void)ead;
 

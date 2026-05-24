@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TSTTableInfo;
-@protocol TSKAnnotation;
+@class TSTTableInfo;
 
 @interface TSTSearchReference
 {
     TSTTableInfo *_tableInfo;
-    CDStruct_0441cfb5 _cellID;
-    struct _NSRange _range;
-    _Bool _autohideHighlight;
-    _Bool _pulseHighlight;
-    NSArray *_findHighlights;
-    id <TSKAnnotation> annotation;
-    struct CGPoint searchReferencePoint;
 }
 
 + (id);
-- (id);
+- (id)nt does not match item account;
+- (void)avTimeItemToCurrent;
+- (void)IndexResponseCount;
+- (void)ater HomePod);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (id);
-- (id);
-- (_Bool);
+- (void)ifier:(_Bool)arg1;
+- (id)n item asset load after configuration;
+- (struct CGPoint)et configuration;
+- (id)n for AssetLoad timeout for ;
+- (id)on for ;
+- (_Bool)oll done: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (_Bool);
 - (id);
 - (void);
@@ -42,25 +34,14 @@
 - (void);
 - (_Bool);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)PaymentDiscount;
 - (void);
 - (id);
 - (id);
 - (id)À;
 
 // Remaining properties
-@property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;
-@property(nonatomic) _Bool autohideHighlight; // @synthesize autohideHighlight=_autohideHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *findHighlights; // @synthesize findHighlights=_findHighlights;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool pulseHighlight; // @synthesize pulseHighlight=_pulseHighlight;
 @property(nonatomic) struct CGPoint searchReferencePoint; // @synthesize searchReferencePoint;
-@property(readonly) Class superclass;
 
 @end
 

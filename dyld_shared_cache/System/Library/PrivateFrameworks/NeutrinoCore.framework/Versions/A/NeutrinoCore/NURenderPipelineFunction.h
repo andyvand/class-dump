@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NURenderPipelineFunction
 {
     NSString *_name;
-    NSArray *_parameters;
 }
 
 + (id);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end
 

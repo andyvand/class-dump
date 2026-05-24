@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimer;
-@protocol BSUIDateLabelDelegate;
+@class NSDate;
 
 @interface BSUIDefaultDateLabel
 {
     NSDate *_timeZoneRelativeEndDate;
-    NSDate *_effectiveAllDayStartDate;
-    NSDate *_effectiveAllDayLastValidDate;
-    NSDate *_effectiveAllDayEndDate;
-    _Bool _effectiveAllDay;
-    _Bool _isCoalescingUpdates;
-    _Bool _needsUpdateFromCoalesce;
-    NSTimer *_updateTimer;
-    _Bool _allDay;
-    _Bool _isTimestamp;
-    id <BSUIDateLabelDelegate> _delegate;
-    long long _labelType;
-    NSDate *_timeZoneRelativeStartDate;
 }
 
 - (void);
@@ -38,31 +25,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)L;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void)__objc_methtype;
 
 // Remaining properties
-@property(nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BSUIDateLabelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isTimestamp; // @synthesize isTimestamp=_isTimestamp;
-@property(nonatomic) long long labelType; // @synthesize labelType=_labelType;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDate *timeZoneRelativeStartDate; // @synthesize timeZoneRelativeStartDate=_timeZoneRelativeStartDate;
 
 @end

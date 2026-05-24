@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (void *);
 - (void);

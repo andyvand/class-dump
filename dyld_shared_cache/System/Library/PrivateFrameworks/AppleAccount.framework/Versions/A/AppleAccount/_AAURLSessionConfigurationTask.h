@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAURLSession, NSString, NSURLRequest;
-@protocol AAURLSessionTaskProtocol;
+@class AAURLSession;
 
 @interface _AAURLSessionConfigurationTask
 {
     CDUnknownBlockType _completion;
-    struct os_unfair_lock_s _unfairLock;
-    struct {
-        unsigned int isCanceled:1;
-        unsigned int isFetchingConfiguration:1;
-    } _flags;
-    id <AAURLSessionTaskProtocol> _configurationTask;
-    id <AAURLSessionTaskProtocol> _sessionTask;
-    AAURLSession *_session;
-    NSURLRequest *_originalRequest;
 }
 
+- (id)cation.PlugInKit.management;
+- (void)d error %ld;
+- (void)dsAttrTypeStandard:(id)arg1 UserShell;
+- (void)dsAuthMethodStandard:(id)arg1 dsAuthGetPolicy;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id)runProceedableActivities:(struct _NSZone *)arg1;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)pletion: /* Error: Ran out of types for this method. */;
+- (void)signOutFlowController:performWalrusValidationForAccount:completion: /* Error: Ran out of types for this method. */;
 - (id)V_familyFeatureSecondaryDescriptions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURLRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
 @property(readonly, nonatomic) AAURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

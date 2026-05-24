@@ -9,7 +9,6 @@
 @interface PPPBLabeledString
 {
     NSString *_label;
-    NSString *_value;
 }
 
 - (void);
@@ -28,13 +27,10 @@
 - (void);
 - (void)!pDù1÷1Â0@ù
 × ;
-- (_Bool)horoughfare:subThoroughfare:locality:subLocality:administrativeArea:postalCode:category: /* Error: Ran out of types for this method. */;
+- (_Bool)locationFromThoroughfare:subThoroughfare:locality:subLocality:administrativeArea:postalCode:category: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNTabSegmentedControl, NSString;
+@class CNTabSegmentedControl;
 
 @interface CNContactTabSwitcherViewController
 {
     _Bool _inEditMode;
-    CNContact *_contact;
-    CNTabSegmentedControl *_segmentedControl;
-    unsigned long long _state;
-    double _cachedHeight;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	k;
 - (void);
 - (double);
 - (double);
@@ -31,8 +27,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)q;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -43,19 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cachedHeight; // @synthesize cachedHeight=_cachedHeight;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inEditMode; // @synthesize inEditMode=_inEditMode;
 @property(retain, nonatomic) CNTabSegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tabState;
 
 @end
 

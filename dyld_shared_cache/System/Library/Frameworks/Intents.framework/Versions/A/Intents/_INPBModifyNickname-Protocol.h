@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBString;
-
 @protocol _INPBModifyNickname
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRemoval;
-@property(readonly, nonatomic) _Bool hasTargetNickname;
 @property(nonatomic) _Bool isRemoval;
-@property(retain, nonatomic) _INPBString *targetNickname;
 @end
 

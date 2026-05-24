@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface PowerUICECGridDataForecastEntry
 {
     NSDate *_forecastDate;
-    NSNumber *_forecastValue;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSPromise"16@?0@"AMSMarketingItem"8;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *forecastDate; // @synthesize forecastDate=_forecastDate;
-@property(retain, nonatomic) NSNumber *forecastValue; // @synthesize forecastValue=_forecastValue;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface PhotosUICore.AssetsSectionButton.Configuration
 {
     id title;
-    id numberOfLines;
-    id action;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)fetchState;
 - (void);
 
 @end

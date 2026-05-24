@@ -9,44 +9,24 @@
 @interface STUserData
 {
     _Bool _isParent;
-    _Bool _isRemote;
-    _Bool _hasPasscode;
-    _Bool _screenTimeEnabled;
-    _Bool _syncingEnabled;
-    _Bool _checkForUnsafePhotos;
-    _Bool _isCommunicationSafetyNotificationEnabled;
-    _Bool _isCommunicationSafetyAnalyticsEnabled;
-    NSString *_identifier;
-    NSString *_givenName;
-    NSString *_familyMemberType;
 }
 
+- (id)EFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)escription_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
 - (id);
 - (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)MPStoreItemLibraryImportLookupElement;
 - (_Bool);
 - (id);
-- (void);
+- (void)`";
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool checkForUnsafePhotos; // @synthesize checkForUnsafePhotos=_checkForUnsafePhotos;
-@property(readonly, nonatomic) NSString *familyMemberType; // @synthesize familyMemberType=_familyMemberType;
-@property(readonly, copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) _Bool hasPasscode; // @synthesize hasPasscode=_hasPasscode;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCommunicationSafetyAnalyticsEnabled; // @synthesize isCommunicationSafetyAnalyticsEnabled=_isCommunicationSafetyAnalyticsEnabled;
-@property(readonly, nonatomic) _Bool isCommunicationSafetyNotificationEnabled; // @synthesize isCommunicationSafetyNotificationEnabled=_isCommunicationSafetyNotificationEnabled;
-@property(readonly, nonatomic) _Bool isParent; // @synthesize isParent=_isParent;
-@property(readonly, nonatomic) _Bool isRemote; // @synthesize isRemote=_isRemote;
-@property(readonly, nonatomic) _Bool screenTimeEnabled; // @synthesize screenTimeEnabled=_screenTimeEnabled;
-@property(readonly, nonatomic) _Bool syncingEnabled; // @synthesize syncingEnabled=_syncingEnabled;
 
 @end
 

@@ -7,43 +7,6 @@
 @interface CallHistory.CallHistorySchemaV35.CallRecord
 {
     id _address;
-    id _answered;
-    id _autoAnsweredReason;
-    id _blockedByExtension;
-    id _call_category;
-    id _callDirectoryIdentityType;
-    id _calltype;
-    id _conversationID;
-    id _date;
-    id _disconnected_cause;
-    id _duration;
-    id _face_time_data;
-    id _filtered_out_reason;
-    id _handle_type;
-    id _hasMessage;
-    id _identityExtension;
-    id _imageURL;
-    id _iso_country_code;
-    id _junkConfidence;
-    id _junkIdentificationCategory;
-    id _localParticipantUUID;
-    id _location;
-    id _name;
-    id _number_availability;
-    id _originated;
-    id _outgoingLocalParticipantUUID;
-    id _participantGroupUUID;
-    id _read;
-    id _screenSharingType;
-    id _service_provider;
-    id _unique_id;
-    id _usedEmergencyVideoStreaming;
-    id _verificationStatus;
-    id _wasEmergencyCall;
-    id _emergencyMediaItems;
-    id _remoteParticipantHandles;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

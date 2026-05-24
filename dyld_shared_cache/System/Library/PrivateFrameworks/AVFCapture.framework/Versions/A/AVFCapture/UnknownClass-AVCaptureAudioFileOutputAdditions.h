@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AVCaptureAudioFileOutputAdditions)
-- (void);
-- (void);
-- (void);
+- (void)decodedObjectOfClass:(id)arg1 fromPackage:userInfo:error: /* Error: Ran out of types for this method. */;
+- (void)MSVSystemDialogResponse;
+- (void)MSVSQLDatabase;
 @end
 

@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
-- (id)portsRaytracingFromRender;
+- (id)supportsRaytracingFromRender;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;

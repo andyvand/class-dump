@@ -11,10 +11,10 @@
     NSString *_label;
 }
 
-- (void);
+- (void)!X;
 - (id);
 - (id);
-- (void)ith:(id)arg1;
+- (void)bitwiseAnd:(id)arg1 with: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;

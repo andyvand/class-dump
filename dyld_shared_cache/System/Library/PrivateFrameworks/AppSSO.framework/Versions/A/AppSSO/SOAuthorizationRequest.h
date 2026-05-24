@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError, NSString, NSURL, POLoginManager, SOAuthorizationCredential, SOAuthorizationRequestParameters, SORemoteExtensionContext;
+@class SOAuthorizationRequestParameters;
 
 @interface SOAuthorizationRequest
 {
     SOAuthorizationRequestParameters *_requestParameters;
-    SORemoteExtensionContext *_remoteExtensionContext;
-    _Bool _authorizationCanceled;
-    int _secKeyProxiesConnectedClients;
-    POLoginManager *_loginManager;
-    SOAuthorizationCredential *_canceledAuthorizationCredential;
-    NSError *_canceledAuthorizationError;
-    NSArray *_secKeyProxies;
 }
 
 - (void);
@@ -23,12 +16,12 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
+- (int);
+- (id)B;
 - (void);
-- (int);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -38,15 +31,15 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)|;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)qc;
 - (id);
 - (void);
 - (void);
@@ -54,7 +47,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)a",&,N,V_playMetadata;
 - (void);
 - (id);
 - (id);
@@ -64,10 +57,10 @@
 - (void);
 - (id);
 - (void);
+- (id)y"16@"NSArray"24@?<v@?B@"NSError">32;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ServiceInfo"16;
+- (void),N,V_leftTrigger;
 - (void);
 - (void);
 - (void);
@@ -78,28 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *auditTokenData;
 @property(nonatomic, getter=isAuthorizationCanceled) _Bool authorizationCanceled; // @synthesize authorizationCanceled=_authorizationCanceled;
-@property(retain, nonatomic) NSDictionary *authorizationOptions;
-@property(retain, nonatomic) NSString *callerBundleIdentifier;
-@property(nonatomic, getter=isCallerManaged) _Bool callerManaged;
-@property(retain, nonatomic) NSString *callerTeamIdentifier;
-@property(retain, nonatomic) SOAuthorizationCredential *canceledAuthorizationCredential; // @synthesize canceledAuthorizationCredential=_canceledAuthorizationCredential;
-@property(retain, nonatomic) NSError *canceledAuthorizationError; // @synthesize canceledAuthorizationError=_canceledAuthorizationError;
-@property(nonatomic, getter=isCFNetworkInterception, setter=setCFNetworkInterception:) _Bool cfNetworkInterception;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool enableUserInteraction;
-@property(retain, nonatomic) NSDictionary *extensionData;
-@property(retain, nonatomic) NSData *httpBody;
-@property(retain, nonatomic) NSDictionary *httpHeaders;
-@property(readonly, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *impersonationBundleIdentifier;
-@property(retain, nonatomic) NSString *localizedCallerDisplayName;
-@property(readonly, nonatomic) POLoginManager *loginManager; // @synthesize loginManager=_loginManager;
-@property(retain, nonatomic) NSString *realm;
-@property(retain, nonatomic) NSString *requestedOperation;
-@property(retain, nonatomic) NSArray *secKeyProxies; // @synthesize secKeyProxies=_secKeyProxies;
-@property(nonatomic) int secKeyProxiesConnectedClients; // @synthesize secKeyProxiesConnectedClients=_secKeyProxiesConnectedClients;
-@property(retain, nonatomic) NSURL *url;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol HomeKitDaemon.HMDMTRDevice
+- (void)heckin identity and permissions;
+- (void)(;
 @end
 

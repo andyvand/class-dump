@@ -5,5 +5,6 @@
 //
 
 @protocol MKFAccessoryPublicExtensions
+- (_Bool);
 @end
 

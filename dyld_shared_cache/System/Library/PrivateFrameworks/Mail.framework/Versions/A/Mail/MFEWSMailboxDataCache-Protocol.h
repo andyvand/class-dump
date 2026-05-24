@@ -5,5 +5,6 @@
 //
 
 @protocol MFEWSMailboxDataCache
+- (void);
 @end
 

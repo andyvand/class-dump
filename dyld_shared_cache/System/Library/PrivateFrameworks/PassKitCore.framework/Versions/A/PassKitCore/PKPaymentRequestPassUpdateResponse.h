@@ -11,16 +11,14 @@
 @interface PKPaymentRequestPassUpdateResponse : PKPaymentWebServiceResponse
 {
     NSString *_passURL;
-    unsigned long long _appletState;
 }
 
-- (unsigned long long);
+- (unsigned long long)9;
 - (id);
 - (id);
 - (void)book.peerpayment.pay.use-keys;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long appletState; // @synthesize appletState=_appletState;
 @property(readonly, copy, nonatomic) NSString *passURL; // @synthesize passURL=_passURL;
 
 @end

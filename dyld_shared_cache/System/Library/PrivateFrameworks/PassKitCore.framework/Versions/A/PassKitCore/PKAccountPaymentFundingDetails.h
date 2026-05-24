@@ -9,22 +9,21 @@
 @interface PKAccountPaymentFundingDetails
 {
     NSData *_encryptedData;
-    NSData *_publicKeyHash;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
 - (id);
 - (id);
+- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)_tcpECNIntFallbackSYNRst;
 - (void);
 - (id)SetOut:(id)arg1;
-- (void)e;
+- (void)recurringPaymentStartDate;
 
 @end
 

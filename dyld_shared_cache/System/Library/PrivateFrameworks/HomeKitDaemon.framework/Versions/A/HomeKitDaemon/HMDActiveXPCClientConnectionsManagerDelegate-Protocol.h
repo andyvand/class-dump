@@ -5,5 +5,7 @@
 //
 
 @protocol HMDActiveXPCClientConnectionsManagerDelegate
+- (void)yes;
+- (void)RIDESHARING_TRIP;
 @end
 

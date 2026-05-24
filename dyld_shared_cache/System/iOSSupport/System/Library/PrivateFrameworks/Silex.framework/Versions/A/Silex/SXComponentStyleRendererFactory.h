@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXViewport;
-@protocol SXGradientFactory, SXImageFillViewFactory, SXRepeatableImageFillViewFactory, SXVideoFillViewFactory;
+@protocol SXImageFillViewFactory;
 
 @interface SXComponentStyleRendererFactory
 {
     id <SXImageFillViewFactory> _imageFillViewFactory;
-    id <SXVideoFillViewFactory> _videoFillViewFactory;
-    id <SXGradientFactory> _gradientFactory;
-    id <SXRepeatableImageFillViewFactory> _repeatableImageFillViewFactory;
-    SXViewport *_viewport;
 }
 
 - (id);
@@ -26,18 +21,7 @@
 - (void)esentationDelegateProvider>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXGradientFactory> gradientFactory; // @synthesize gradientFactory=_gradientFactory;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXImageFillViewFactory> imageFillViewFactory; // @synthesize imageFillViewFactory=_imageFillViewFactory;
-@property(readonly, nonatomic) id <SXRepeatableImageFillViewFactory> repeatableImageFillViewFactory; // @synthesize repeatableImageFillViewFactory=_repeatableImageFillViewFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXVideoFillViewFactory> videoFillViewFactory; // @synthesize videoFillViewFactory=_videoFillViewFactory;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

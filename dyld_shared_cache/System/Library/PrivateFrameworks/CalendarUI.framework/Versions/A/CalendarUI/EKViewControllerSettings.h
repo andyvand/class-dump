@@ -7,33 +7,6 @@
 @interface EKViewControllerSettings
 {
     _Bool _canResizeWindow;
-    _Bool _useWideSpacing;
-    _Bool _showCalendarPopUp;
-    _Bool _showEventSuggestions;
-    _Bool _showRecurrenceNavigation;
-    _Bool _isReadOnly;
-    _Bool _miniInspector;
-    _Bool _showLinksAsText;
-    _Bool _hideButtons;
-    _Bool _hideEventSuggestions;
-    _Bool _disableAttachments;
-    _Bool _allowsCustomPickers;
-    _Bool _delayDatePickerBecomingKey;
-    _Bool _isSpotlightExtension;
-    _Bool _useAlternateFont;
-    double _topMargin;
-    double _bottomMargin;
-    double _leftMargin;
-    double _rightMargin;
-    double _titleFontSize;
-    double _contentFontSize;
-    double _expandedContentFontSize;
-    double _labelFontSize;
-    double _smallLabelFontSize;
-    double _editingTitleFontSize;
-    double _subgadgetTitleFontSize;
-    double _leftDividerMargin;
-    double _rightDividerMargin;
 }
 
 - (_Bool);
@@ -41,17 +14,17 @@
 - (double);
 - (double);
 - (double);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (void)9!;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,10 +49,10 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (void);
@@ -89,40 +62,13 @@
 - (double);
 - (double);
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (double);
 - (double);
 
 // Remaining properties
-@property _Bool allowsCustomPickers; // @synthesize allowsCustomPickers=_allowsCustomPickers;
-@property double bottomMargin; // @synthesize bottomMargin=_bottomMargin;
 @property _Bool canResizeWindow; // @synthesize canResizeWindow=_canResizeWindow;
-@property double contentFontSize; // @synthesize contentFontSize=_contentFontSize;
-@property _Bool delayDatePickerBecomingKey; // @synthesize delayDatePickerBecomingKey=_delayDatePickerBecomingKey;
-@property _Bool disableAttachments; // @synthesize disableAttachments=_disableAttachments;
-@property double editingTitleFontSize; // @synthesize editingTitleFontSize=_editingTitleFontSize;
-@property double expandedContentFontSize; // @synthesize expandedContentFontSize=_expandedContentFontSize;
-@property _Bool hideButtons; // @synthesize hideButtons=_hideButtons;
-@property _Bool hideEventSuggestions; // @synthesize hideEventSuggestions=_hideEventSuggestions;
-@property _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property _Bool isSpotlightExtension; // @synthesize isSpotlightExtension=_isSpotlightExtension;
-@property double labelFontSize; // @synthesize labelFontSize=_labelFontSize;
-@property double leftDividerMargin; // @synthesize leftDividerMargin=_leftDividerMargin;
-@property double leftMargin; // @synthesize leftMargin=_leftMargin;
-@property _Bool miniInspector; // @synthesize miniInspector=_miniInspector;
-@property double rightDividerMargin; // @synthesize rightDividerMargin=_rightDividerMargin;
-@property double rightMargin; // @synthesize rightMargin=_rightMargin;
-@property _Bool showCalendarPopUp; // @synthesize showCalendarPopUp=_showCalendarPopUp;
-@property _Bool showEventSuggestions; // @synthesize showEventSuggestions=_showEventSuggestions;
-@property _Bool showLinksAsText; // @synthesize showLinksAsText=_showLinksAsText;
-@property _Bool showRecurrenceNavigation; // @synthesize showRecurrenceNavigation=_showRecurrenceNavigation;
-@property double smallLabelFontSize; // @synthesize smallLabelFontSize=_smallLabelFontSize;
-@property double subgadgetTitleFontSize; // @synthesize subgadgetTitleFontSize=_subgadgetTitleFontSize;
-@property double titleFontSize; // @synthesize titleFontSize=_titleFontSize;
-@property double topMargin; // @synthesize topMargin=_topMargin;
-@property _Bool useAlternateFont; // @synthesize useAlternateFont=_useAlternateFont;
-@property _Bool useWideSpacing; // @synthesize useWideSpacing=_useWideSpacing;
 
 @end
 

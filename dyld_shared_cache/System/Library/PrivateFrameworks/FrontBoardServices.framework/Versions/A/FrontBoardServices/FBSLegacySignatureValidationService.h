@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSApplicationInfo, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class FBSApplicationInfo;
 
 @interface FBSLegacySignatureValidationService
 {
     FBSApplicationInfo *_appInfo;
-    _Bool _hasUniversalProvisioningProfile;
-    _Bool _hasFreeDeveloperProvisioningProfile;
-    _Bool _isManaged;
-    NSArray *_provisioningProfiles;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
@@ -25,13 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

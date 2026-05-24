@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)on from model with digest { %@ }%@;
+- (id)e name = 'ZCHANGETRACKHISTORY';
 - (id);
 - (id);
 - (unsigned int);

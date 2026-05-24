@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PKAccountStatementMetadata
 {
     _Bool _hasBeenProcessed;
-    NSString *_accountIdentifier;
-    unsigned long long _accountType;
-    NSString *_statementIdentifier;
-    NSDate *_openingDate;
-    NSDate *_closingDate;
-    NSDate *_lastReportDate;
-    long long _reportCount;
-    NSArray *_items;
 }
 
 + (_Bool)X"ð!Aùî%ð1Â0@ù
@@ -33,17 +25,18 @@
 - (id);
 - (void);
 - (void);
+- (void)O;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)4;
+- (unsigned long long)	j!);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)_wifilowDataMode;
 - (void);
-- (id);
+- (id)@7	
+(7	H7	87	`7	p7	;
 - (id);
 - (id);
 - (void)",C,N,V_localizedSubtitleOverride;
@@ -53,14 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) unsigned long long accountType; // @synthesize accountType=_accountType;
-@property(copy, nonatomic) NSDate *closingDate; // @synthesize closingDate=_closingDate;
-@property(nonatomic) _Bool hasBeenProcessed; // @synthesize hasBeenProcessed=_hasBeenProcessed;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSDate *lastReportDate; // @synthesize lastReportDate=_lastReportDate;
-@property(copy, nonatomic) NSDate *openingDate; // @synthesize openingDate=_openingDate;
-@property(nonatomic) long long reportCount; // @synthesize reportCount=_reportCount;
-@property(copy, nonatomic) NSString *statementIdentifier; // @synthesize statementIdentifier=_statementIdentifier;
 
 @end
 

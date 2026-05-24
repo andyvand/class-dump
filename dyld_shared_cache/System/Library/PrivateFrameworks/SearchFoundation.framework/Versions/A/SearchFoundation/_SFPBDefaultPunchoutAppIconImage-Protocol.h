@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPunchout;
+@class NSData, _SFPBPunchout;
 
 @protocol _SFPBDefaultPunchoutAppIconImage
+- (_SFPBPunchout *)@a;
+- (NSData *)_PHValidation;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(copy, nonatomic) NSString *fileProviderIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPunchout *punchout;
 @end
 

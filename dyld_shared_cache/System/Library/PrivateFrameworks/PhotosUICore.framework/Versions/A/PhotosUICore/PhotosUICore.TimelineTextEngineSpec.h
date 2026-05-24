@@ -7,12 +7,6 @@
 @interface PhotosUICore.TimelineTextEngineSpec
 {
     id _maxCharactersPerRow;
-    id _maxCellsPerRow;
-    id _rowPeriod;
-    id _yOffset;
-    id _axMaxCellsPerRow;
-    id _axRowPeriod;
-    id _$observationRegistrar;
 }
 
 @end

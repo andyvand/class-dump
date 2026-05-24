@@ -9,27 +9,21 @@
 @interface INImageProxyInjectionOperation
 {
     _Bool _isFinished;
-    _Bool _isExecuting;
-    id <INImageProxyInjecting> _injector;
-    CDUnknownBlockType _imageProxyRequestBlock;
-    CDUnknownBlockType _copyReturnBlock;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)ection",R,N,V_peer;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (_Bool);
-- (void)onsForSetSeatSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableMassageOptionsForSetSeatSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool).÷;
 - (_Bool)iè;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType copyReturnBlock; // @synthesize copyReturnBlock=_copyReturnBlock;
-@property(copy, nonatomic) CDUnknownBlockType imageProxyRequestBlock; // @synthesize imageProxyRequestBlock=_imageProxyRequestBlock;
 @property(retain, nonatomic) id <INImageProxyInjecting> injector; // @synthesize injector=_injector;
 
 @end

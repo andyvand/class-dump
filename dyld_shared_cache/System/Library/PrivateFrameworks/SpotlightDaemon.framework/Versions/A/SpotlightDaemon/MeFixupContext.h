@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSDictionary;
 
 @interface MeFixupContext
 {
     int _debug;
-    NSDictionary *_meCardDict;
-    NSString *_meCardPath;
-    NSMutableDictionary *_nameQueryDict;
-    NSMutableArray *_queries;
-    NSString *_nameQueryFilePath;
-    NSString *_queryFilePath;
-    NSString *_dataclass;
 }
 
+- (void)handleFetchIsCloudStorageEnabledMessage:(id)arg1;
+- (void)handleFetchHomeAccessCodesMessage:(id)arg1;
+- (void)handleFetchHeroFrameDataRepresentationMessage:(id)arg1;
+- (void)handleFetchFaceprintsMessage:(id)arg1;
+- (void)handleFetchFaceprintsMessage:(id)arg1;
+- (id)handleExecutionCompletionWithResponsePayload:error: /* Error: Ran out of types for this method. */;
+- (id)handleDoorLockAlarmEvent:forAccessory:flow: /* Error: Ran out of types for this method. */;
+- (id)handleDonateNowNotification: /* Error: Ran out of types for this method. */;
+- (id)handleDisplayableFirmwareVersionUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (id)handleDisplayableFirmwareVersionUpdatedNotification: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)*********e;
 - (id);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataclass; // @synthesize dataclass=_dataclass;
-@property(nonatomic) int debug; // @synthesize debug=_debug;
 @property(retain, nonatomic) NSDictionary *meCardDict; // @synthesize meCardDict=_meCardDict;
-@property(retain, nonatomic) NSString *meCardPath; // @synthesize meCardPath=_meCardPath;
-@property(retain, nonatomic) NSMutableDictionary *nameQueryDict; // @synthesize nameQueryDict=_nameQueryDict;
-@property(retain, nonatomic) NSString *nameQueryFilePath; // @synthesize nameQueryFilePath=_nameQueryFilePath;
-@property(retain, nonatomic) NSMutableArray *queries; // @synthesize queries=_queries;
-@property(retain, nonatomic) NSString *queryFilePath; // @synthesize queryFilePath=_queryFilePath;
 
 @end
 

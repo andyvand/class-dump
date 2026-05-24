@@ -5,5 +5,7 @@
 //
 
 @protocol UAPasteboardClientProtocol
+- (void)˭;
+- (void)#;
 @end
 

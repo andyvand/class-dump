@@ -5,5 +5,9 @@
 //
 
 @protocol EKEventViewRemoteInterface
+- (void);
+- (void)+s;
+- (void)s;
+- (void)X%s;
 @end
 

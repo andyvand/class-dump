@@ -4,45 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKUploadRequestConfiguration, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSURL;
-@protocol CKAssetRepairSchedulerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary, NSURL;
 
 @interface CKAssetRepairScheduler
 {
     NSMutableDictionary *_remainingAssetsToRequestCallbacks;
-    NSMutableDictionary *_assetCache;
-    NSMutableSet *_confirmedMissingAssets;
-    NSMutableSet *_assetsBeingRequested;
-    NSMutableSet *_assetsBeingUploaded;
-    NSURL *_temporaryAssetDirectory;
-    id <CKAssetRepairSchedulerDelegate> _delegate;
-    CKContainer *_container;
-    CKUploadRequestConfiguration *_repairContainerOverrides;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSOperationQueue *_requestOperationQueue;
-    NSOperationQueue *_uploadOperationQueue;
-    NSObject<OS_dispatch_source> *_uploadPendingRequestTimer;
-    NSObject<OS_dispatch_source> *_uploadSuspensionTimer;
-    NSMutableDictionary *_retryCountForAssets;
-    double _requestTimeout;
-    long long _repairBatchCountLimit;
-    long long _cacheCountLimit;
-    double _defaultSuspensionTime;
-    long long _repairRetryCount;
 }
 
-+ (id);
++ (id);
 + (long long);
-+ (unsigned long long);
++ (unsigned long long);
 - (long long);
 - (double);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void){?=QQQ}{?=QQQ}}16^{?={?=QQQ}{?=QQQ}}24{?=QQQ}32Q56;
 - (void);
 - (id);
 - (_Bool);
@@ -60,15 +39,9 @@
 - (void)1G1Ð1Â0@ù
 × ;
 - (void)d;
-- (void)ribution_iAD;
+- (void)CKSQLiteContainerAttribution_iAD;
 
 // Remaining properties
-@property(nonatomic) long long cacheCountLimit; // @synthesize cacheCountLimit=_cacheCountLimit;
-@property(nonatomic) double defaultSuspensionTime; // @synthesize defaultSuspensionTime=_defaultSuspensionTime;
-@property __weak id <CKAssetRepairSchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long repairBatchCountLimit; // @synthesize repairBatchCountLimit=_repairBatchCountLimit;
-@property(nonatomic) long long repairRetryCount; // @synthesize repairRetryCount=_repairRetryCount;
-@property(nonatomic) double requestTimeout; // @synthesize requestTimeout=_requestTimeout;
 @property(readonly, copy) NSURL *temporaryAssetDirectory; // @synthesize temporaryAssetDirectory=_temporaryAssetDirectory;
 
 @end

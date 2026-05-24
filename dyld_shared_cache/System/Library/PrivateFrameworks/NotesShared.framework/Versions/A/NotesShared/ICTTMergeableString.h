@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRTTCompatibleDocument, ICTTVectorMultiTimestamp, NSHashTable, NSMutableAttributedString, NSObject, NSString, NSUUID;
-@protocol ICTTMergeableStringDelegate;
+@class ICCRTTCompatibleDocument;
 
 @interface ICTTMergeableString
 {
     struct vector<TopoSubstring *, std::allocator<TopoSubstring *>> _startNodes;
-    struct vector<TopoSubstring *, std::allocator<TopoSubstring *>> _endNodes;
-    struct vector<TopoSubstring *, std::allocator<TopoSubstring *>> _orderedSubstrings;
-    unsigned int _unserializedClock;
-    unsigned long long _editCount;
-    _Bool _cacheInvalid;
-    CDUnknownBlockType _updateRangeBlock;
-    _Bool _hasLocalChanges;
-    NSUUID *_replicaUUID;
-    ICTTVectorMultiTimestamp *_timestamp;
-    NSObject<ICTTMergeableStringDelegate> *_delegate;
-    NSHashTable *_objectsNeedingUpdatedRanges;
-    NSMutableAttributedString *_attributedString;
-    unsigned long long _replicaTextClock;
-    unsigned long long _replicaStyleClock;
 }
 
 + (id);
-- (long long);
+- (long long)e uri for the default realm;
+- (id)closeFile;
+- (id)appendString:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)xception %@, %@:(const void *)arg1 command '%@';
+- (id)ithName:(const void *)arg1 andLogFilePath:(id)arg2 ];
 - (void);
-- (id);
+- (id)ess:(const void *)arg1 %0.2f (%llu of %llu bytes);
 - (void);
 - (void);
 - (void);
@@ -66,7 +51,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void *);
@@ -90,7 +75,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (void);
 - (id);
@@ -99,23 +84,23 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)F;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)Th;
+- (void)_shouldFilterOutForPhotoBoothPlugin: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool)ecode payload:0x%llx! /* Error: Ran out of types for this method. */;
+- (id)AMFDRDecodeParseDERLengthFromBuffer;
+- (void)chmentInsertionController",W,N,V_insertionController;
+- (id)v;
+- (void)ICNoteSectionTypeSearchSuggestions;
 - (id);
 - (void);
 - (void);
@@ -127,22 +112,7 @@
 - (void)Xµ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ICTTMergeableStringDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak ICCRTTCompatibleDocument *document;
-@property(nonatomic) _Bool hasLocalChanges; // @synthesize hasLocalChanges=_hasLocalChanges;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSHashTable *objectsNeedingUpdatedRanges; // @synthesize objectsNeedingUpdatedRanges=_objectsNeedingUpdatedRanges;
-@property(readonly, nonatomic) unsigned long long replicaStyleClock; // @synthesize replicaStyleClock=_replicaStyleClock;
-@property(readonly, nonatomic) unsigned long long replicaTextClock; // @synthesize replicaTextClock=_replicaTextClock;
-@property(retain, nonatomic) NSUUID *replicaUUID; // @synthesize replicaUUID=_replicaUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) ICTTVectorMultiTimestamp *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

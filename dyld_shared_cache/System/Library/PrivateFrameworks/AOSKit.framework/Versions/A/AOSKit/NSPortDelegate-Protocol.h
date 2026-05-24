@@ -5,5 +5,8 @@
 //
 
 @protocol NSPortDelegate
+
+@optional
+- (void)assistantDeviceBirthday;
 @end
 

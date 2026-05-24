@@ -11,16 +11,12 @@
 @interface AXVStyledMenuView : AXVView
 {
     NSArray *_menuItems;
-    double _menuItemSpacing;
-    long long _displayStyle;
-    AXVStyledMenuTargetView *__targetView;
-    struct CGSize _menuItemSize;
-    struct CGPoint _menuTargetOrigin;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)	k
+;
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
@@ -30,20 +26,15 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXVStyledMenuTargetView *_targetView; // @synthesize _targetView=__targetView;
-@property(nonatomic) long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(nonatomic) struct CGSize menuItemSize; // @synthesize menuItemSize=_menuItemSize;
-@property(nonatomic) double menuItemSpacing; // @synthesize menuItemSpacing=_menuItemSpacing;
-@property(retain, nonatomic) NSArray *menuItems; // @synthesize menuItems=_menuItems;
-@property(nonatomic) struct CGPoint menuTargetOrigin; // @synthesize menuTargetOrigin=_menuTargetOrigin;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CKComposeSubscriptionSelectorButtonDelegate
+
+@optional
+- (void)f;
 @end
 

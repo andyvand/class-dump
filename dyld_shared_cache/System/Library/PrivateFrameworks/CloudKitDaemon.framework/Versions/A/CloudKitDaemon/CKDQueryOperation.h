@@ -6,27 +6,11 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDRecordFetchAggregator, CKQuery, CKQueryCursor, CKRecordZoneID, NSDictionary, NSMutableArray, NSObject, NSSet, NSString;
-@protocol CKQueryOperationCallbacks><CKDOperationCallbackProxy, OS_dispatch_group, OS_dispatch_queue;
+@class NSSet;
 
 @interface CKDQueryOperation : CKDDatabaseOperation
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _fetchAllResults;
-    _Bool _hasCalledQueryCursorUpdatedBlock;
-    CKQuery *_query;
-    CKQueryCursor *_cursor;
-    unsigned long long _resultsLimit;
-    CKQueryCursor *_resultsCursor;
-    CDUnknownBlockType _recordFetchCompletionBlock;
-    CDUnknownBlockType _queryCursorUpdatedBlock;
-    NSSet *_desiredKeySet;
-    CKRecordZoneID *_zoneID;
-    CKDRecordFetchAggregator *_recordFetcher;
-    NSObject<OS_dispatch_group> *_fetchRecordsGroup;
-    unsigned long long _numRequestsSent;
-    NSMutableArray *_requestInfos;
-    NSDictionary *_assetTransferOptionsByKey;
 }
 
 - (void);
@@ -36,9 +20,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)setApplicationStateChangedCount: /* Error: Ran out of types for this method. */;
+- (id)_driverAvailabilityLifespan;
+- (void)bleArray",&,N,V_aggregator;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -46,23 +30,23 @@
 - (void);
 - (void);
 - (void);
+- (void)};
+- (void);
+- (_Bool)_messageListMessages;
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tem/Library/Frameworks/Contacts.framework/Versions/A/Contacts;
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)%;
 - (id)±Úð1Â0@ù
 × ;
 - (_Bool);
@@ -73,32 +57,7 @@
 - (void)t you asked for;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByKey; // @synthesize assetTransferOptionsByKey=_assetTransferOptionsByKey;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue;
-@property(retain, nonatomic) id <CKQueryOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, nonatomic) CKQueryCursor *cursor; // @synthesize cursor=_cursor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSSet *desiredKeySet; // @synthesize desiredKeySet=_desiredKeySet;
-@property(nonatomic) _Bool fetchAllResults; // @synthesize fetchAllResults=_fetchAllResults;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchRecordsGroup; // @synthesize fetchRecordsGroup=_fetchRecordsGroup;
-@property(nonatomic) _Bool hasCalledQueryCursorUpdatedBlock; // @synthesize hasCalledQueryCursorUpdatedBlock=_hasCalledQueryCursorUpdatedBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numRequestsSent; // @synthesize numRequestsSent=_numRequestsSent;
-@property(readonly, nonatomic) NSString *pipeliningDescription;
-@property(readonly, nonatomic) CKQuery *query; // @synthesize query=_query;
-@property(copy, nonatomic) CDUnknownBlockType queryCursorUpdatedBlock; // @synthesize queryCursorUpdatedBlock=_queryCursorUpdatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchCompletionBlock; // @synthesize recordFetchCompletionBlock=_recordFetchCompletionBlock;
-@property(retain, nonatomic) CKDRecordFetchAggregator *recordFetcher; // @synthesize recordFetcher=_recordFetcher;
-@property(retain, nonatomic) NSMutableArray *requestInfos; // @synthesize requestInfos=_requestInfos;
-@property(retain, nonatomic) CKQueryCursor *resultsCursor; // @synthesize resultsCursor=_resultsCursor;
-@property(readonly, nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

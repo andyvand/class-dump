@@ -10,29 +10,23 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationCursorManager
 {
     id _eventTracker;
-    _Bool _cursorIsInTouchBar;
-    struct CGPoint _touchBarCursorPosition;
-    id <NSTouchBarCustomizationCursorManagerDelegate> _delegate;
-    long long _trackCount;
-    int _displayID;
 }
 
 + (void);
 + (void);
-- (_Bool);
-- (void);
+- (_Bool)Image4CryptoHashMethod;
+- (void)QxXC/ng;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)}@ HTTP load canceled, %lld/%lld bytes (error code:(struct CGPoint)arg1 %ld [%ld:(_Bool)arg2 %d]);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)drawCorrectionMarkerOfType:(id)arg1 font:origin:width:originalWidth:cgContext: /* Error: Ran out of types for this method. */;
 - (void)event of class %lx, ID %x;
 
 // Remaining properties
-@property(readonly) _Bool cursorIsInTouchBar; // @synthesize cursorIsInTouchBar=_cursorIsInTouchBar;
 @property __weak id <NSTouchBarCustomizationCursorManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

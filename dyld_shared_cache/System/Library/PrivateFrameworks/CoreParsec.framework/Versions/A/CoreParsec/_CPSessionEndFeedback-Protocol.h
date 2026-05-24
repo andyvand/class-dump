@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPSessionEndFeedback
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

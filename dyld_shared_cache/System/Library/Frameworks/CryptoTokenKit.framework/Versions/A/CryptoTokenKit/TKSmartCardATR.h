@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray;
+@class NSData, NSMutableArray;
 
 @interface TKSmartCardATR
 {
     NSMutableArray *_interfaces;
-    NSData *_bytes;
-    NSData *_historicalBytes;
 }
 
 - (id);
@@ -21,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)K;
+- (id)_HandleDSYMBundle_locked;
+- (void)nd;
+- (id)A{;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *bytes; // @synthesize bytes=_bytes;
-@property(readonly, nonatomic) NSData *historicalBytes; // @synthesize historicalBytes=_historicalBytes;
-@property(readonly, nonatomic) NSArray *historicalRecords;
-@property(readonly, nonatomic) NSArray *protocols;
 
 @end
 

@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSProcessWatchdogPolicy, NSString;
-@protocol FBSProcess, FBSProcessInternal;
+@class NSString;
 
 @interface FBSProcessWatchdog
 {
     NSString *_name;
-    id <FBSProcessInternal> _process;
-    FBSProcessWatchdogPolicy *_policy;
-    _Bool _active;
-    _Bool _invalidated;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
 - (id);
+- (void)hZ;
+- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)IS;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)clientCoordinationPhoneCallWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) FBSProcessWatchdogPolicy *policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) __weak id <FBSProcess> process; // @synthesize process=_process;
-@property(readonly) Class superclass;
 
 @end
 

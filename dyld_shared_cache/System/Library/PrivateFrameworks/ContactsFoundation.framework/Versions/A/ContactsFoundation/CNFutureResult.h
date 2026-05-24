@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CNFutureResult
 {
     id _result;
-    NSError *_error;
 }
 
 - (id);
@@ -19,10 +16,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)g;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) id result; // @synthesize result=_result;
 
 @end

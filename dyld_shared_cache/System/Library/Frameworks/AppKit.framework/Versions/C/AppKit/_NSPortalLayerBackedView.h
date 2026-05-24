@@ -6,13 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSPortalLayerBackedView : NSView
 {
     NSView *_sourceView;
-    unsigned int _hidesSourceLayer;
 }
 
 + (_Bool)qâ31Â0@ù
@@ -24,19 +21,11 @@ __attribute__((visibility("hidden")))
 - (void)@ù
 × ;
 - (id)ProgressIndicator"16@0:(struct CGRect)arg1 8;
-- (void)temTree;
+- (void)keyPathsForValuesAffectingItemTree;
 - (_Bool)ÿ4Ð|;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool hidesSourceLayer;
-@property(retain) NSView *sourceView;
-@property(readonly) Class superclass;
 
 @end
 

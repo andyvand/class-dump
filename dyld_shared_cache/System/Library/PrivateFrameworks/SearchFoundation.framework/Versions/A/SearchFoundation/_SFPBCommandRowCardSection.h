@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBCommandRowCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBImage *_image;
-    _SFPBImage *_toggledImage;
-    _SFPBRichText *_title;
-    _SFPBRichText *_toggledTitle;
-    _SFPBRichText *_subtitle;
 }
 
 - (id);
@@ -29,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_;
+- (id)%;
 - (unsigned long long);
 - (id);
 - (void);
@@ -57,39 +44,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)isIncludedInCloudFeeds;
+- (id)library perform to make resource available for asset:%{public}@ %{public}@, resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)setExecuteToolCommand: /* Error: Ran out of types for this method. */;
 - (int)%~´;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(retain, nonatomic) _SFPBImage *toggledImage; // @synthesize toggledImage=_toggledImage;
-@property(retain, nonatomic) _SFPBRichText *toggledTitle; // @synthesize toggledTitle=_toggledTitle;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

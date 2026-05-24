@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSInputStream, NSMutableArray, NSSet, NSURL;
 @protocol NSXMLParserDelegate;
 
 @interface NSXMLParser
 {
     id _delegate;
-    NSInputStream *xmlParserStream;
-    struct _xmlSAXHandler *_saxHandler;
-    struct _xmlParserCtxt *_parserContext;
-    unsigned long long _parserFlags;
-    NSError *_error;
-    NSMutableArray *_namespaces;
-    struct __CFDictionary *_slowStringMap;
-    _Bool _delegateAborted;
-    _Bool _haveDetectedEncoding;
-    NSData *_bomChunk;
-    unsigned long long _chunkSize;
-    NSSet *_allowedEntityURLs;
-    NSURL *_url;
-    unsigned long long _externalEntityResolvingPolicy;
-    _Bool _shouldStopXMLParser;
 }
 
 + (void);
 + (id);
-- (void);
+- (void)0;
 - (void);
 - (struct _xmlParserInput *);
 - (void);
@@ -38,18 +22,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CTLineHeightToNSParagraphStyleBaselineIntervalConverter;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)et slice duration if graph is already configured.;
+- (id)x measurement system;
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -57,7 +41,7 @@
 - (void);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)xr;
 - (id);
 - (_Bool)?"?"?"?"?"?"?"@"A"B"B"C"C"C"D"E"E"F"G"H"H"H"I"I"J"J"K"L"L"L"M"N"N"N"N"O"P"P"Q"Q"Q"R"R"S"T"T"T"T"U"U"U"V"W"W"X"X"X"X"X"Y"Y"Z"["["\"]"^"_"_"`"`"`"`"`"a"b"b"b"c"d"d"e"e"e"e"f"f"f"g"h"h"h"h"i"j"k"k"k"k"k"l"l"m"n"n"n"n"o"o"p"q"r"s"t"t"t"t"t"u"u"v"w"x"y"y"y"z"{"{"{"|"}"}"}"~"~"~"~"~"~"~""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" "¡"¡"¡"¡"¢"£"¤"¤"¥"¥"¥"¥"¥"¥"¥"¥"¦"§"§"¨"¨"¨"©"©"ª"ª"ª"ª"ª"«"«"«"«"«"«"«"«"¬"­"­"­"­"®"¯"¯"°"°"°"±"²"³"³"´"µ"µ"µ"µ"¶"¶"¶"·"¸"¹"º"º"º"»"¼"¼"¼"¼"½"½"¾"¾"¾"¾"¾"¿"À"À"À"À"À"Á"Â"Ã"Ä"Å"Æ"Ç"È"È"É"É"Ê"Ë"Ì"Í"Î"Î"Î"Ï"Ð"Ñ"Ò"Ó"Ô"Ô"Õ"Õ"Ö"Ö"Ö"×"Ø"Ù"Ù"Ù"Ú"Û"Û"Ü"Ü"Ý"Þ"Þ"ß"ß"à"à"à"à"á"á"â"ã"ã"ä"å"æ"ç"ç"ç"ç"è"é"ê"ë"ì"í"î"î"ï"ï"ï"ï"ð"ñ"ò"ó"ó"ô"õ"õ"õ"ö"ö"ö"÷"ø"ù"ù"ú"ú"ú"ú"û"ü"ý"þ"ÿ"ÿ"ÿ";
 - (_Bool)èéêëëëëìììíîîïððñòòòòóôõõõõö÷øøøøùùùúûüýýþþÿ;
@@ -67,13 +51,7 @@
 - (_Bool)/k´hÿ­û/k´hÿû/kdhÿû/kXhÿ­û/kÜìeÿû/kPíeÿ½û/kÌíeÿUû/k;
 
 // Remaining properties
-@property(copy) NSSet *allowedExternalEntityURLs;
 @property id <NSXMLParserDelegate> delegate;
-@property unsigned long long externalEntityResolvingPolicy;
-@property(readonly, copy) NSError *parserError;
-@property _Bool shouldProcessNamespaces;
-@property _Bool shouldReportNamespacePrefixes;
-@property _Bool shouldResolveExternalEntities;
 
 @end
 

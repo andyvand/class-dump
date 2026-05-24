@@ -25,12 +25,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) int horizontalDisparityAdjustment;
-@property(nonatomic) int horizontalFieldOfView;
 @property(nonatomic) long long kind;
-@property(nonatomic) int stereoCameraBaseline;
-@property(nonatomic) double width;
 
 @end
 

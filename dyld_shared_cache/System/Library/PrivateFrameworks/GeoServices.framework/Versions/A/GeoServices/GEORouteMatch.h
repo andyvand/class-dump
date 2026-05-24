@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOComposedRouteLeg, GEOComposedRouteSegment, GEOComposedRouteStep, GEOComposedTransitStationRouteStep, GEOComposedTransitTripRouteStep, GEOMapFeatureRoad, GEOMatchedPathSegment, GEONavigationMatchInfo, NSArray, NSDate, NSUUID;
+@class GEOComposedRoute;
 
 @interface GEORouteMatch
 {
     GEOComposedRoute *_route;
-    CDStruct_071ac149 _locationCoordinate;
-    struct PolylineCoordinate _routeCoordinate;
-    unsigned long long _stepIndex;
-    NSArray *_candidateSteps;
-    double _matchedCourse;
-    double _distanceFromRoute;
-    double _modifiedHorizontalAccuracy;
-    double _modifiedCourseAccuracy;
-    unsigned long long _consecutiveProgressionsOffRoute;
-    double _distanceTraveledOffRoute;
-    _Bool _isGoodMatch;
-    _Bool _shouldProjectLocationAlongRoute;
-    GEOMatchedPathSegment *_pathSegment;
-    double _roadWidth;
-    GEORouteMatch *_projectedFrom;
-    NSDate *_timestamp;
-    unsigned long long _transitID;
-    _Bool _isTunnelProjection;
-    GEONavigationMatchInfo *_detailedMatchInfo;
-    NSUUID *_routeID;
 }
 
 + (_Bool)ions responses and ETAU responses is not supported yet.;
@@ -49,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)__gcc_except_tab__TEXT;
 - (_Bool);
 - (id);
 - (id);
@@ -60,14 +40,14 @@
 - (CDStruct_39925896);
 - (CDStruct_c3b9c2ee);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)SFileManager";
+- (_Bool)4@0:8@"CNCDDatabasePreparationRequest"16 /* Error: Ran out of types for this method. */;
+- (_Bool)est"16^@24;
+- (_Bool)r">24;
+- (id)setEnabledPersistentAccountsObservable:(id)arg1;
+- (id)gregorianYearFromDate:(id)arg1;
 - (double);
-- (double);
+- (double);
 - (id);
 - (_Bool);
 - (void);
@@ -81,54 +61,23 @@
 - (id);
 - (double);
 - (unsigned long long);
+- (id)ic}u;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ViewController";
 - (_Bool);
 - (void);
-- (id);
+- (id)_s=^v{?=^{ldap_operation_s}^^{ldap_operation_s}}@?^{ldap_connection_s}q^{voucher_s}i^{__CFString}^?I}8^{__CFDictionary=}16i24;
 - (void);
 - (id)onDataFilter";
 - (void)¢;
-- (id)er;
+- (id)address_object_filter;
 - (void)(\;
 - (void)»BAHÂ¾P@;
 - (id)Âõ(\Wn@;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *candidateSteps; // @synthesize candidateSteps=_candidateSteps;
-@property(nonatomic) unsigned long long consecutiveProgressionsOffRoute; // @synthesize consecutiveProgressionsOffRoute=_consecutiveProgressionsOffRoute;
-@property(retain, nonatomic) GEONavigationMatchInfo *detailedMatchInfo; // @synthesize detailedMatchInfo=_detailedMatchInfo;
-@property(nonatomic) double distanceFromRoute; // @synthesize distanceFromRoute=_distanceFromRoute;
-@property(nonatomic) double distanceTraveledOffRoute; // @synthesize distanceTraveledOffRoute=_distanceTraveledOffRoute;
-@property(nonatomic) _Bool isGoodMatch; // @synthesize isGoodMatch=_isGoodMatch;
-@property(readonly, nonatomic) _Bool isOnParkingLotRoad;
-@property(nonatomic) _Bool isTunnelProjection; // @synthesize isTunnelProjection=_isTunnelProjection;
-@property(readonly, nonatomic) GEOComposedRouteLeg *leg;
-@property(readonly, nonatomic) unsigned long long legIndex;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee locationCoordinate;
-@property(nonatomic) CDStruct_39925896 locationCoordinate3D; // @synthesize locationCoordinate3D=_locationCoordinate;
-@property(nonatomic) double matchedCourse; // @synthesize matchedCourse=_matchedCourse;
-@property(nonatomic) double modifiedCourseAccuracy; // @synthesize modifiedCourseAccuracy=_modifiedCourseAccuracy;
-@property(nonatomic) double modifiedHorizontalAccuracy; // @synthesize modifiedHorizontalAccuracy=_modifiedHorizontalAccuracy;
-@property(retain, nonatomic) GEOMatchedPathSegment *pathSegment; // @synthesize pathSegment=_pathSegment;
-@property(retain, nonatomic) GEORouteMatch *projectedFrom; // @synthesize projectedFrom=_projectedFrom;
-@property(readonly, nonatomic) GEOMapFeatureRoad *road;
-@property(nonatomic) double roadWidth; // @synthesize roadWidth=_roadWidth;
 @property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(nonatomic) struct PolylineCoordinate routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
-@property(readonly, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
-@property(readonly, nonatomic) _Bool routeMatchedToEnd;
-@property(readonly, nonatomic) GEOComposedRouteSegment *segment;
-@property(readonly, nonatomic) unsigned long long segmentIndex;
-@property(nonatomic) _Bool shouldProjectLocationAlongRoute; // @synthesize shouldProjectLocationAlongRoute=_shouldProjectLocationAlongRoute;
-@property(readonly, nonatomic) GEOComposedRouteStep *step;
-@property(nonatomic) unsigned long long stepIndex; // @synthesize stepIndex=_stepIndex;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long transitID; // @synthesize transitID=_transitID;
-@property(readonly, nonatomic) GEOComposedTransitStationRouteStep *transitStationStep;
-@property(readonly, nonatomic) GEOComposedTransitTripRouteStep *transitTripStep;
 
 @end
 

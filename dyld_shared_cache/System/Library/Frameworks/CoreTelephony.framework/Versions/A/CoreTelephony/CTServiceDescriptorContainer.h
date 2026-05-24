@@ -11,14 +11,14 @@
     NSArray *_descriptors;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)output to an instance of AVAssetReader (using -addOutput:) and calling -startReading on that asset reader /* Error: Ran out of types for this method. */;
+- (id)x;
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)installerRecoveryCredentialWithPassword:(id)arg1;
 - (id);
-- (id);
+- (id)n >>>> %s:%p set report group success:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;

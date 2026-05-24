@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NSStackLayoutRule
 {
     NSArray *_stackedRects;
-    double _spacing;
-    long long _orientation;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)F;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)w;
+- (void)MLNeuralNetworkParameters;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,18 +27,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly) double spacing; // @synthesize spacing=_spacing;
 @property(readonly, copy) NSArray *stackedRects; // @synthesize stackedRects=_stackedRects;
-@property(readonly) Class superclass;
 
 @end
 

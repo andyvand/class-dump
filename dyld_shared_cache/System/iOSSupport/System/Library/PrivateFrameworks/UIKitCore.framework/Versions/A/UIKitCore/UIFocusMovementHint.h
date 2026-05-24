@@ -7,29 +7,21 @@
 @interface UIFocusMovementHint
 {
     double _translationAmount;
-    double _rotationAmount;
-    struct CGVector _movementDirection;
 }
 
 - (double);
-- (void);
-- (void);
-- (double);
-- (struct CGVector);
+- (void)@ error %@;
+- (void)participant;
+- (double)data;
+- (struct CGVector));
+- (struct CATransform3D)turn off the firewall.;
+- (id)FTCommandIDEditMessage;
 - (struct CATransform3D);
-- (id);
-- (struct CATransform3D);
-- (struct CGVector);
+- (struct CGVector)DHE-RSA-AES256-SHA256;
 - (struct CGVector);
 - (id)HI;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CATransform3D interactionTransform;
-@property(readonly, nonatomic) struct CGVector movementDirection; // @synthesize movementDirection=_movementDirection;
-@property(readonly, nonatomic) struct CATransform3D perspectiveTransform;
-@property(readonly, nonatomic) struct CGVector rotation;
-@property(nonatomic) double rotationAmount; // @synthesize rotationAmount=_rotationAmount;
-@property(readonly, nonatomic) struct CGVector translation;
 @property(nonatomic) double translationAmount; // @synthesize translationAmount=_translationAmount;
 
 @end

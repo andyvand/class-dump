@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CRRecentContactsLibraryAccess;
 
 @interface CRRecentContactsDomainSupportedAccess
 {
     id <CRRecentContactsLibraryAccess> _supportedDomainAccess;
-    id <CRRecentContactsLibraryAccess> _unsupportedDomainAccess;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,25 +25,16 @@
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void)`;
 - (int);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) int daemonProcessIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) id <CRRecentContactsLibraryAccess> supportedDomainAccess; // @synthesize supportedDomainAccess=_supportedDomainAccess;
-@property(readonly) id <CRRecentContactsLibraryAccess> unsupportedDomainAccess; // @synthesize unsupportedDomainAccess=_unsupportedDomainAccess;
 
 @end
 

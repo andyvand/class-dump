@@ -6,12 +6,9 @@
 
 #import <MapsSync/MSHistoryItem.h>
 
-@class NSData;
-
 @interface MSHistoryTransitItem : MSHistoryItem
 {
     id _muid;
-    id _transitLineStorage;
 }
 
 + (Class);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long muid;
-@property(nonatomic, copy) NSData *transitLineStorage;
 
 @end
 

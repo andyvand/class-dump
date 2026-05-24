@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)24{CGPoint=dd}32Q48;
 
 @end
 

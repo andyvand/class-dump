@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TUPhoneNumber
 {
     struct __CFPhoneNumber *_phoneNumberRef;
@@ -21,21 +19,16 @@
 - (id);
 - (id);
 - (struct __CFPhoneNumber *);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)/;
 
 // Remaining properties
-@property(readonly) NSString *countryCode; // @dynamic countryCode;
-@property(readonly) NSString *digits; // @dynamic digits;
-@property(readonly) NSString *formattedInternationalRepresentation; // @dynamic formattedInternationalRepresentation;
-@property(readonly) NSString *formattedRepresentation; // @dynamic formattedRepresentation;
 @property struct __CFPhoneNumber *phoneNumberRef; // @synthesize phoneNumberRef=_phoneNumberRef;
-@property(readonly) NSString *unformattedInternationalRepresentation; // @dynamic unformattedInternationalRepresentation;
 
 @end
 

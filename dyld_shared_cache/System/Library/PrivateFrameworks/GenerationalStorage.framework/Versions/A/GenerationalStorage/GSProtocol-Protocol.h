@@ -5,5 +5,9 @@
 //
 
 @protocol GSProtocol
+- (void);
+- (void)?kJ;
+- (void)`;
+- (void)k;
 @end
 

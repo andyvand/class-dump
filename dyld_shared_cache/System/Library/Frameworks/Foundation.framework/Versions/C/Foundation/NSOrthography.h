@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NSOrthography
 {
@@ -18,26 +18,25 @@
 + (void);
 + (id);
 - (unsigned int);
+- (id)hB;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)I+;
+- (id)CFRef<const __CFSet *>="fRef"{atomic<const __CFSet *>="__a_"{__cxx_atomic_impl<const __CFSet *, std::__cxx_atomic_base_impl<const __CFSet *>>="__a_value"A^{__CFSet}}}} /* Error: Ran out of types for this method. */;
 - (Class);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)Z;
 - (id)0:(struct _NSZone *)arg1 8i16;
 
 // Remaining properties
 @property(readonly, copy) NSString *dominantScript;
-@property(readonly, copy) NSDictionary *languageMap;
 
 @end
 

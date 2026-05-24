@@ -4,53 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPBOfflineDataBatchesRequest
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _layers;
-    unsigned long long _clientVersionModifier;
-    GEOMapRegion *_region;
-    NSMutableArray *_supportedLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_8c8ef0a2 _flags;
 }
 
 + (Class);
-+ (_Bool)tionEventTarget:(id)arg1;
++ (_Bool)setHasUserActionEventTarget:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id)@"NSString"24q32;
+- (int)setUpstreamToken:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)e=%llu, triggerStartSampleId=%llu};
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (id)*>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std:(struct _NSZone *)arg1:__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id)yClientized;
 - (id)d)Ð;
@@ -65,13 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)§S7;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clientVersionModifier;
-@property(nonatomic) _Bool hasClientVersionModifier;
 @property(readonly, nonatomic) _Bool hasRegion;
-@property(readonly, nonatomic) int *layers;
-@property(readonly, nonatomic) unsigned long long layersCount;
-@property(retain, nonatomic) GEOMapRegion *region;
-@property(retain, nonatomic) NSMutableArray *supportedLanguages;
 
 @end
 

@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNDialog, NSString, NSUUID, WFDialogAttribution, WFWorkflowRunViewSource;
+@class WFDialogAttribution;
 
 @interface WFDialogRequest
 {
     _Bool _isLastAction;
-    _Bool _requiresRunningShortcut;
-    _Bool _destructive;
-    WFDialogAttribution *_attribution;
-    NSString *_prompt;
-    WFWorkflowRunViewSource *_runViewSource;
-    LNDialog *_linkDialog;
-    NSUUID *_toolInvocationIdentifier;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)__TEXT;
+- (id);
 - (_Bool);
+- (void)tz;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool)&{;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id){;
+- (_Bool)z;
+- (void)Zz;
+- (id)r;
 - (void);
 - (id);
 - (id);
@@ -45,16 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WFDialogAttribution *attribution; // @synthesize attribution=_attribution;
-@property(readonly, nonatomic) _Bool destructive; // @synthesize destructive=_destructive;
-@property(readonly, nonatomic) _Bool hasMultilineTextEntry;
-@property(nonatomic) _Bool isLastAction; // @synthesize isLastAction=_isLastAction;
-@property(retain, nonatomic) LNDialog *linkDialog; // @synthesize linkDialog=_linkDialog;
-@property(readonly, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
-@property(readonly, nonatomic) NSString *promptForDisplay;
-@property(nonatomic) _Bool requiresRunningShortcut; // @synthesize requiresRunningShortcut=_requiresRunningShortcut;
-@property(copy, nonatomic) WFWorkflowRunViewSource *runViewSource; // @synthesize runViewSource=_runViewSource;
-@property(readonly, nonatomic) _Bool shouldCenterPrompt;
-@property(retain, nonatomic) NSUUID *toolInvocationIdentifier; // @synthesize toolInvocationIdentifier=_toolInvocationIdentifier;
 
 @end
 

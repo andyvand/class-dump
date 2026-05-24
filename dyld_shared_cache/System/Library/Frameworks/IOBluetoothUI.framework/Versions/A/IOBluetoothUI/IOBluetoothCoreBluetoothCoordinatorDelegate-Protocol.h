@@ -5,5 +5,8 @@
 //
 
 @protocol IOBluetoothCoreBluetoothCoordinatorDelegate
+
+@optional
+- (void);
 @end
 

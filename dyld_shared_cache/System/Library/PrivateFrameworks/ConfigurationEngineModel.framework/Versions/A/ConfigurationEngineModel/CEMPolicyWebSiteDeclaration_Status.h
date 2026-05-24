@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)es(voiceIdLower COLLATE NOCASE);
 
 @end
 

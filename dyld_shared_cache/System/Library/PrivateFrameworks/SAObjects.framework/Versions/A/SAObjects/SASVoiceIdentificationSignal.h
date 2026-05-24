@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString;
-
 @interface SASVoiceIdentificationSignal : SABaseClientBoundCommand
 {
 }
@@ -15,8 +13,8 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)E;
+- (void)dG;
 - (id);
 - (id);
 - (_Bool);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool recordUserAudio;
-@property(copy, nonatomic) NSString *resultCandidateId;
-@property(copy, nonatomic) NSString *selectedSharedUserId;
 
 @end
 

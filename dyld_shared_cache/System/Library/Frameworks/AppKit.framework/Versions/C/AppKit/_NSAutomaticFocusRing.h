@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
++ (void)Response"32@?<v@?B@"NSDictionary"@"NSURLRequest">40;
++ (void)set_allowsExpensiveNetworkAccess:(_Bool)arg1;
++ (void)tionURL:assetTitle:assetArtworkData:options:assetOptions:identifier:uniqueIdentifier:taskKind:enableSPIDelegateCallbacks:reply: /* Error: Ran out of types for this method. */;
++ (_Bool)don't have an error;
 + (void);
 + (id);
 + (id);
++ (void)ibrary/PrivateFrameworks/StreamingZip.framework/Versions/A/StreamingZip;
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id)nBehavior;
++ (id)lastAppliedCollectionBehavior;
 + (void)øG;
 
 @end

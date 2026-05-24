@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioSuggestionsStore
 {
     id suggestionsService;
-    id headlineService;
-    id cloudContext;
-    id lazyPersistentStore;
-    id storeQueue;
-    id refreshDeduper;
 }
 
 @end

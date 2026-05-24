@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SATimestampAndCount
 {
     SATimestamp *_timestamp;
-    unsigned long long _count;
 }
 
 - (void);

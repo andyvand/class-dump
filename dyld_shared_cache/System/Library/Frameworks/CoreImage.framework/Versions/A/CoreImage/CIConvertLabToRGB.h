@@ -6,17 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIConvertLabToRGB : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputNormalize;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputNormalize; // @synthesize inputNormalize;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatAlertManager
 {
     id viewController;
-    id alertPresentation;
-    id queue;
 }
 
 @end

@@ -9,14 +9,6 @@
 @interface PKFeatureApplicationOfferDetailsInfo
 {
     NSString *_title;
-    NSString *_body;
-    NSString *_primaryActionTitle;
-    NSString *_primaryActionIdentifier;
-    NSString *_secondaryActionTitle;
-    NSString *_secondaryActionIdentifier;
-    NSString *_disclosureTitle;
-    NSString *_heroImageURL;
-    unsigned long long _layout;
 }
 
 + (_Bool)0@ù
@@ -25,36 +17,28 @@
 - (void);
 - (void);
 - (void);
+- (void)qA;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)H;
+- (void)groupContext:(id)arg1 cacheGroup:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void)groupMessageFeatureDescriptor;
+- (id)_suggestedAmountIsRequiredCategory:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)scriptor;
-- (id)ory:(id)arg1;
-- (id);
-- (unsigned long long)ge;
-- (void)ScreenSettingDidChangeNotification;
+- (unsigned long long)networkLogoImage;
+- (void)PKPassLockScreenSettingDidChangeNotification;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(copy, nonatomic) NSString *disclosureTitle; // @synthesize disclosureTitle=_disclosureTitle;
-@property(copy, nonatomic) NSString *heroImageURL; // @synthesize heroImageURL=_heroImageURL;
-@property(nonatomic) unsigned long long layout; // @synthesize layout=_layout;
-@property(copy, nonatomic) NSString *primaryActionIdentifier; // @synthesize primaryActionIdentifier=_primaryActionIdentifier;
-@property(copy, nonatomic) NSString *primaryActionTitle; // @synthesize primaryActionTitle=_primaryActionTitle;
-@property(copy, nonatomic) NSString *secondaryActionIdentifier; // @synthesize secondaryActionIdentifier=_secondaryActionIdentifier;
-@property(copy, nonatomic) NSString *secondaryActionTitle; // @synthesize secondaryActionTitle=_secondaryActionTitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

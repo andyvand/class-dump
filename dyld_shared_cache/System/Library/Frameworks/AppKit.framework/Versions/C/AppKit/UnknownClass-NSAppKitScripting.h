@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSAppKitScripting)
-- (void);
+- (void)6-K;
 @end
 

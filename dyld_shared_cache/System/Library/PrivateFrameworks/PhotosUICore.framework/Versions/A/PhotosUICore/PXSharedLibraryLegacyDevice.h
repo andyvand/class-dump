@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PXSharedLibraryLegacyDevice
 {
     _Bool _upgradeable;
-    NSString *_name;
-    NSData *_iconData;
-    long long _operatingSystem;
 }
 
 - (_Bool);
@@ -25,11 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(readonly, nonatomic) NSString *instructions;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long operatingSystem; // @synthesize operatingSystem=_operatingSystem;
-@property(readonly, nonatomic) _Bool upgradeable; // @synthesize upgradeable=_upgradeable;
 
 @end
 

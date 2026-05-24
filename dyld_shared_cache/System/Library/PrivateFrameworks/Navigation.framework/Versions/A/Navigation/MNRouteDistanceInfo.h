@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface MNRouteDistanceInfo
 {
     unsigned long long _legIndex;
-    NSUUID *_routeID;
-    double _distanceRemainingToEndOfLeg;
-    double _distanceRemainingToEndOfRoute;
 }
 
 + (_Bool);
@@ -21,14 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool),?,R,C;
+- (void)SecurityCodeTextField;
 - (void)að!°CùQð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) double distanceRemainingToEndOfLeg; // @synthesize distanceRemainingToEndOfLeg=_distanceRemainingToEndOfLeg;
-@property(readonly, nonatomic) double distanceRemainingToEndOfRoute; // @synthesize distanceRemainingToEndOfRoute=_distanceRemainingToEndOfRoute;
 
 @end
 

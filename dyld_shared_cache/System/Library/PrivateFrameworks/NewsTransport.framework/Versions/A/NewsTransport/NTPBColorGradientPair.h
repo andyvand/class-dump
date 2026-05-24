@@ -9,11 +9,10 @@
 @interface NTPBColorGradientPair
 {
     NTPBColorGradient *_dark;
-    NTPBColorGradient *_light;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)_updatePendingTransitionModelWithSegmentTransitionInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)_spriteIndexesForItems:inLayout: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -29,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NTPBColorGradient *dark; // @synthesize dark=_dark;
-@property(readonly, nonatomic) _Bool hasDark;
 @property(readonly, nonatomic) _Bool hasLight;
-@property(retain, nonatomic) NTPBColorGradient *light; // @synthesize light=_light;
 
 @end
 

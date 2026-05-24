@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)estEnvironment;
 - (id);
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol XPCServiceConnectionDelegate
+- (void)n refinable ? %d. Applying %@ behavior.;
 @end
 

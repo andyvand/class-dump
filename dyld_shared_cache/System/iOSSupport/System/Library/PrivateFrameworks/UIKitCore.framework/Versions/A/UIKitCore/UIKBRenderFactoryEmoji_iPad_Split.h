@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
+- (id)(%@), transfer not found on disk;
+- (struct CGPoint)Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (double)p [GUID:%@ Style:%c State:%d Participants:%@  Room Name:%@  Display Name:%@  Identifier:%@  Unread count:%d  Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)requestedDowngradeExpirationDate;
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (id);
-- (double)es:error: /* Error: Ran out of types for this method. */;
+- (double)isApplicationAvailableToOpenURL:includePrivateURLSchemes:error: /* Error: Ran out of types for this method. */;
 - (long long);
 
 @end

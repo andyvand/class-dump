@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMLinkTextField, NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSSecureTextField, NSString, NSTextField, NSTouchBar, iCloudTouchBarController;
-@protocol MMCSCPassPhraseRecoveryViewControllerDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCPassPhraseRecoveryViewController
 {
     _Bool _needsVerification;
-    _Bool _showRandomView;
-    NSString *_passPhrase;
-    id <MMCSCPassPhraseRecoveryViewControllerDelegate> _delegate;
-    NSImageView *_passPhraseImageView;
-    NSTextField *_passPhraseTitle;
-    MMLinkTextField *_passPhraseMessageTextField;
-    MMLinkTextField *_passPhraseAlternateMessageTextField;
-    NSSecureTextField *_passPhraseSecurityCodeTextField;
-    NSTextField *_passPhraseRandomCodeTextField;
-    NSButton *_passPhraseHelpButton;
-    NSButton *_passPhraseConfirmButton;
-    NSButton *_passPhraseCancelButton;
-    NSProgressIndicator *_passPhraseProgressIndicator;
-    NSLayoutConstraint *_showErrorConstraint;
-    NSLayoutConstraint *_hideErrorConstraint;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
@@ -47,27 +30,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)(b;
+- (id);
+- (id);
+- (id)k	3;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (_Bool)c;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)CDPPiggybackingPayloadProvider;
+- (void)writeSelectionToPasteboard:(id)arg1 types: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -80,31 +63,7 @@ __attribute__((visibility("hidden")))
 - (id)GlobalActivity]_block_invoke;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCPassPhraseRecoveryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSLayoutConstraint *hideErrorConstraint; // @synthesize hideErrorConstraint=_hideErrorConstraint;
-@property _Bool needsVerification; // @synthesize needsVerification=_needsVerification;
 @property(copy) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
-@property __weak MMLinkTextField *passPhraseAlternateMessageTextField; // @synthesize passPhraseAlternateMessageTextField=_passPhraseAlternateMessageTextField;
-@property __weak NSButton *passPhraseCancelButton; // @synthesize passPhraseCancelButton=_passPhraseCancelButton;
-@property __weak NSButton *passPhraseConfirmButton; // @synthesize passPhraseConfirmButton=_passPhraseConfirmButton;
-@property __weak NSButton *passPhraseHelpButton; // @synthesize passPhraseHelpButton=_passPhraseHelpButton;
-@property __weak NSImageView *passPhraseImageView; // @synthesize passPhraseImageView=_passPhraseImageView;
-@property __weak MMLinkTextField *passPhraseMessageTextField; // @synthesize passPhraseMessageTextField=_passPhraseMessageTextField;
-@property __weak NSProgressIndicator *passPhraseProgressIndicator; // @synthesize passPhraseProgressIndicator=_passPhraseProgressIndicator;
-@property __weak NSTextField *passPhraseRandomCodeTextField; // @synthesize passPhraseRandomCodeTextField=_passPhraseRandomCodeTextField;
-@property __weak NSSecureTextField *passPhraseSecurityCodeTextField; // @synthesize passPhraseSecurityCodeTextField=_passPhraseSecurityCodeTextField;
-@property __weak NSTextField *passPhraseTitle; // @synthesize passPhraseTitle=_passPhraseTitle;
-@property __weak NSLayoutConstraint *showErrorConstraint; // @synthesize showErrorConstraint=_showErrorConstraint;
-@property _Bool showRandomView; // @synthesize showRandomView=_showRandomView;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end
 

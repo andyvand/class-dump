@@ -6,8 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-@protocol SXAdvertisementPlacementType, SXSuggestedArticlesPlacementType;
+@protocol SXAdvertisementPlacementType;
 
 @interface SXAutoPlacement : SXJSONObject
 {
@@ -18,14 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisementPlacementType> advertisement; // @dynamic advertisement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXSuggestedArticlesPlacementType> suggestedArticles; // @dynamic suggestedArticles;
-@property(readonly) Class superclass;
 
 @end
 

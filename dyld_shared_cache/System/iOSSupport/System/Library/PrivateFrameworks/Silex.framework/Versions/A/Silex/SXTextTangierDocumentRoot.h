@@ -9,20 +9,18 @@
 @interface SXTextTangierDocumentRoot
 {
     UIViewController *_viewController;
-    TSSStylesheet *_aStylesheet;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TSSStylesheet *aStylesheet; // @synthesize aStylesheet=_aStylesheet;
-@property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

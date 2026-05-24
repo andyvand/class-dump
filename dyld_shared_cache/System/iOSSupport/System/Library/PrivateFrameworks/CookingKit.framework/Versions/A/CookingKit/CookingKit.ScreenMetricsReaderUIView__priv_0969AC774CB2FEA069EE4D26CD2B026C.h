@@ -7,10 +7,11 @@
 @interface CookingKit.ScreenMetricsReaderUIView__priv_0969AC774CB2FEA069EE4D26CD2B026C
 {
     id _screenMetrics;
+    id;
 }
 
-- (id);
-- (id);
+- (id)Hg;
+- (id)%;
 - (void);
 - (void)ÿ	$öÿ;
 

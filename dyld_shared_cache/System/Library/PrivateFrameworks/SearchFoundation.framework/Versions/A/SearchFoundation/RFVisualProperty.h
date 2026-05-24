@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface RFVisualProperty
 {
     CDStruct_1d796774 _has;
-    _Bool _is_safe_for_logging;
-    NSArray *_visual_elements;
 }
 
 + (_Bool);
@@ -19,27 +17,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)nextTrackCommand;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)6;
 - (void);
-- (id);
-- (id);
+- (id)untrashAllSpatialOverCaptureResources;
+- (id)utilityCollectionHandwriting;
 - (id);
 - (id);
 - (void)SFPBRFSummaryItemButtonCardSection",&,N,V_rfSummaryItemButtonCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is_safe_for_logging; // @synthesize is_safe_for_logging=_is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *visual_elements; // @synthesize visual_elements=_visual_elements;
 
 @end

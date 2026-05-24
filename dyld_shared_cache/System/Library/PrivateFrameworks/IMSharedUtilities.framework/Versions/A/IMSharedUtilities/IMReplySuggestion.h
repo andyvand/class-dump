@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessage, NSDictionary, NSString;
-
 @interface IMReplySuggestion
 {
     _Bool _isSending;
-    long long _type;
-    long long _version;
-    NSString *_text;
-    NSString *_stringRepresentation;
-    NSDictionary *_metadata;
-    MSMessage *_providedMessage;
-    NSString *_attribution;
 }
 
 - (void);
@@ -25,9 +16,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)O;
+- (id)hasNumActiveChains;
+- (void)_tcpECNIntOnOOBPer;
 - (id);
 - (long long);
 - (id);
@@ -38,15 +29,7 @@
 - (void)?ÿÿ\?ÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attribution; // @synthesize attribution=_attribution;
-@property(readonly, nonatomic) _Bool canBeTranslated;
-@property(nonatomic) _Bool isSending; // @synthesize isSending=_isSending;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) MSMessage *providedMessage; // @synthesize providedMessage=_providedMessage;
-@property(copy, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

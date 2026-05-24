@@ -6,41 +6,32 @@
 
 #import <UIKitCore/UITextSelectionRect.h>
 
-@class UIColor, UITextRange;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UITextUnderlineRect : UITextSelectionRect
 {
     UIColor *_underlineColor;
-    long long _underlineType;
-    UITextRange *_associatedTextRange;
-    struct CGRect _rect;
-    struct CGAffineTransform _transform;
 }
 
-+ (id);
-- (void);
++ (id)der %@;
+- (void);
 - (struct CGRect);
-- (id);
+- (id)y"16@"NSArray"24;
 - (long long);
-- (id);
+- (id)};
 - (void);
 - (void);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)_serviceConnection;
 - (id);
-- (struct CGRect)dedStyleCornerRadius: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setRoundedStyleCornerRadius: /* Error: Ran out of types for this method. */;
 - (void)ppression;
 - (void)turned a nil host container;
 - (void)X­¾7G;
 
 // Remaining properties
-@property(retain, nonatomic) UITextRange *associatedTextRange; // @synthesize associatedTextRange=_associatedTextRange;
-@property(readonly, nonatomic) struct CGRect fullRect;
 @property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(retain, nonatomic) UIColor *underlineColor; // @synthesize underlineColor=_underlineColor;
-@property(nonatomic) long long underlineType; // @synthesize underlineType=_underlineType;
 
 @end
 

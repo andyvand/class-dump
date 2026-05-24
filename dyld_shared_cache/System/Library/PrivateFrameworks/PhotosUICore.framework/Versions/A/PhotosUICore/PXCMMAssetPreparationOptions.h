@@ -7,8 +7,6 @@
 @interface PXCMMAssetPreparationOptions
 {
     _Bool _publishAsOriginal;
-    _Bool _publishLivePhotoAsStill;
-    _Bool _removeLocationData;
 }
 
 - (void);
@@ -17,12 +15,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool publishAsOriginal; // @synthesize publishAsOriginal=_publishAsOriginal;
-@property(nonatomic) _Bool publishLivePhotoAsStill; // @synthesize publishLivePhotoAsStill=_publishLivePhotoAsStill;
-@property(nonatomic) _Bool removeLocationData; // @synthesize removeLocationData=_removeLocationData;
 
 @end
 

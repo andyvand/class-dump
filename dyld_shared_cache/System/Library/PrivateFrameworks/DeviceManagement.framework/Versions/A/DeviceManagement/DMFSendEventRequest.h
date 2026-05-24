@@ -6,36 +6,30 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface DMFSendEventRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSString *_inReplyTo;
-    NSString *_eventType;
-    NSDictionary *_details;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
-- (void);
++ (_Bool);
++ (id);
+- (void)eam async iterable;
+- (id)roved performance;
 - (id);
 - (id);
-- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)autocompleteUsesFaceTimeColor;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *details; // @synthesize details=_details;
-@property(copy, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSString *inReplyTo; // @synthesize inReplyTo=_inReplyTo;
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
 
 @end

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTimeFormatter, NSArray, NSMenu, NSMenuItem, NSMutableArray;
+@class NSArray, NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface AVChapterMenuController
 {
     NSArray *_chapters;
-    NSMutableArray *_chaptersMenuItems;
-    long long _selectedIndex;
-    CDUnknownBlockType _selectionHandler;
-    AVTimeFormatter *_startTimeFormatter;
-    NSMenu *_menu;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)@;
+- (void)8;
 - (void);
 - (id)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain) NSMenu *menu; // @synthesize menu=_menu;
-@property(readonly) NSMenuItem *selectedMenuItem;
 
 @end
 

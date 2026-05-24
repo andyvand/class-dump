@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeGroupQueryItem, NSArray;
+@class CHStrokeGroupQueryItem;
 
 @interface PKStrokeGroupItem
 {
     CHStrokeGroupQueryItem *_strokeGroupItem;
-    NSArray *_strokes;
-    long long _contentType;
-    struct CGRect _bounds;
 }
 
 - (void);
@@ -21,15 +18,12 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (long long)eHeightConstraint;
+- (long long)layoutGuideHeightConstraint;
 - (void);
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) long long contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) CHStrokeGroupQueryItem *strokeGroupItem; // @synthesize strokeGroupItem=_strokeGroupItem;
-@property(copy, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end
 

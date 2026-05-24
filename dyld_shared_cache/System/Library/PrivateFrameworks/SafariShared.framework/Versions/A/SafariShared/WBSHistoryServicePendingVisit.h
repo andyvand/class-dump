@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSHistoryVisitIdentifier;
+@class WBSHistoryVisitIdentifier;
 
 @interface WBSHistoryServicePendingVisit
 {
     _Bool _wasHTTPNonGet;
-    _Bool _loadSuccessful;
-    WBSHistoryVisitIdentifier *_visitIdentifier;
-    unsigned long long _operation;
-    WBSHistoryVisitIdentifier *_sourceVisitIdentifier;
-    WBSHistoryVisitIdentifier *_destinationVisitIdentifier;
-    NSString *_title;
-    long long _origin;
-    unsigned long long _attributes;
-    long long _statusCode;
-    unsigned long long _visitCount;
 }
 
 - (_Bool);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -53,20 +43,7 @@
 - (void)Çr|;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) WBSHistoryVisitIdentifier *destinationVisitIdentifier; // @synthesize destinationVisitIdentifier=_destinationVisitIdentifier;
-@property(nonatomic) _Bool loadSuccessful; // @synthesize loadSuccessful=_loadSuccessful;
-@property(nonatomic) unsigned long long operation; // @synthesize operation=_operation;
-@property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) unsigned long long score;
-@property(retain, nonatomic) WBSHistoryVisitIdentifier *sourceVisitIdentifier; // @synthesize sourceVisitIdentifier=_sourceVisitIdentifier;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSString *urlString;
-@property(nonatomic) unsigned long long visitCount; // @synthesize visitCount=_visitCount;
 @property(readonly, nonatomic) WBSHistoryVisitIdentifier *visitIdentifier; // @synthesize visitIdentifier=_visitIdentifier;
-@property(readonly, nonatomic) double visitTime;
-@property(nonatomic) _Bool wasHTTPNonGet; // @synthesize wasHTTPNonGet=_wasHTTPNonGet;
 
 @end
 

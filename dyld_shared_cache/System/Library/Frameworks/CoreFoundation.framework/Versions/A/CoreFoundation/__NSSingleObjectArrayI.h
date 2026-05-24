@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id)*o;
 - (void);
 - (id);
-- (void);
+- (void)must be zero.;
 - (id);
 - (id);
 - (id)tionMember"16@"NSUUID"24;
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)device;
 - (unsigned long long);
 - (_Bool);
-- (id)ration;
+- (id)_LTTextStreamingConfiguration;
 - (unsigned long long)é2;
 
 @end

@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSetAudioSessionActiveContext, AFSpeechRequestOptions, NSString;
+@class AFSetAudioSessionActiveContext;
 
 @interface _AFSetAudioSessionActiveContextMutation
 {
     AFSetAudioSessionActiveContext *_base;
-    unsigned long long _options;
-    long long _reason;
-    AFSpeechRequestOptions *_speechRequestOptions;
-    long long _playbackType;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasOptions:1;
-        unsigned int hasReason:1;
-        unsigned int hasSpeechRequestOptions:1;
-        unsigned int hasPlaybackType:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void)%@y=;
 - (id);
-- (long long);
+- (long long)*%@y_=;
 - (long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id)thRange:(id)arg1;
-- (void)pickedRoutesChangedBlock;
+- (id)subarrayWithRange:(id)arg1;
+- (void)_pickedRoutesChangedBlock;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

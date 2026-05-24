@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UIKBKeyView, UIKeyboardLayoutStar, UIView;
+@class UIKeyboardLayoutStar;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureKeyboardIntroduction
 {
     UIKeyboardLayoutStar *m_layout;
-    UIView *m_view;
-    UIKBKeyView *m_firstKeyView;
-    UIKBKeyView *m_secondKeyView;
-    CDUnknownBlockType m_completionBlock;
-    double m_start;
-    NSTimer *m_gestureKeyboardInfoTimer;
-    struct CGPoint m_initPoint;
-    _Bool m_isInTransition;
-    _Bool m_hasPeeked;
-    unsigned long long m_insertedTextLength;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void) ;
+- (void)@, context %p %@;
+- (void)@?0B8q12@"NSError"20;
+- (id)dded:(id)arg1 %@
+;
 - (void);
 - (_Bool);
 - (void)ÌIa;

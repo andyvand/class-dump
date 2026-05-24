@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKFlightSubscription
 {
     _Bool _isActive;
-    NSString *_flightIdentifier;
-    NSString *_channelIdentifier;
 }
 
 + (_Bool);
@@ -23,15 +19,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)reasonsAsString:(id)arg1;
 - (void);
 - (id);
-- (void)EventProcessing;
+- (void)PKAccountServicingEventProcessing;
 - (void)iäÔ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(retain, nonatomic) NSString *flightIdentifier; // @synthesize flightIdentifier=_flightIdentifier;
 @property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 
 @end

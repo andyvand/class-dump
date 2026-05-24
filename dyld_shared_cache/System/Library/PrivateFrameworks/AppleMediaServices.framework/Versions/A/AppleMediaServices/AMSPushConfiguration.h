@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 @protocol AMSPushHandlerDelegate;
 
 @interface AMSPushConfiguration
 {
     NSString *_engagementPushTopic;
-    NSString *_userNotificationExtensionId;
-    NSSet *_enabledActionTypes;
-    id <AMSPushHandlerDelegate> _delegate;
 }
 
 - (void);
-- (id);
+- (id)][50C][50C]C}16;
+- (id)stringByReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
+- (void)getTRINamespaceClass(void)_block_invoke;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)O;
 - (void)ÿÿÿÿ(;
 - (void)áå>O
 ÈêåÒÈ[[gq_RÀ·ëø¶)#X©¬¢±Ç£i§^AæG»±ûá${þí/	UôÎ·´©×Äý17kuáÑcwG 1Úó_½×sAmA´7o^	^ãb7L#×º'(SFð·Nõü}rÐ[Ô[MsNÞ¨LR;
 
 // Remaining properties
 @property __weak id <AMSPushHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSSet *enabledActionTypes; // @synthesize enabledActionTypes=_enabledActionTypes;
-@property(retain) NSString *engagementPushTopic; // @synthesize engagementPushTopic=_engagementPushTopic;
-@property(retain) NSString *userNotificationExtensionId; // @synthesize userNotificationExtensionId=_userNotificationExtensionId;
 
 @end
 

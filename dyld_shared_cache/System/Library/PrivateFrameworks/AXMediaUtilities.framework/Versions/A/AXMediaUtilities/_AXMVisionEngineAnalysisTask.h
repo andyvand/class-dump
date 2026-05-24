@@ -6,13 +6,11 @@
 
 #import <AXMediaUtilities/AXMTask.h>
 
-@class AXMSourceNode, AXMVisionPipelineContext, NSUUID;
+@class NSUUID;
 
 @interface _AXMVisionEngineAnalysisTask : AXMTask
 {
     NSUUID *_identifier;
-    AXMVisionPipelineContext *_context;
-    AXMSourceNode *_source;
 }
 
 + (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AXMVisionPipelineContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) AXMSourceNode *source; // @synthesize source=_source;
 
 @end
 

@@ -6,54 +6,41 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface FLSchemaFLTaskEvaluationNode : SISchemaInstrumentationMessage
 {
     int _evaluator;
-    int _result;
-    NSArray *_sources;
-    struct {
-        unsigned int evaluator:1;
-        unsigned int result:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)me.p7z;
+- (void)P;
+- (unsigned long long)nItem:,V_parentSectionItem /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
-- (void);
+- (void)rsions/A/CoreData;
 - (_Bool);
 - (id);
 - (id)abel"b1};
-- (_Bool)mplateIdsAtIndex: /* Error: Ran out of types for this method. */;
-- (void)eDictationVoiceCommandLinkId;
+- (_Bool)matchedTemplateIdsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)deleteDictationVoiceCommandLinkId;
 - (id)erated",&,N,V_userPromptSelectedInfoGenerated;
 - (id)háÄäî;
-- (int)leIdentifier;
+- (int)bundleIdentifier;
 - (void)eUnion.nlxClientEvent.marrsContextualSpanMatcherEndedTier1;
 - (void)$;
 
 // Remaining properties
 @property(nonatomic) int evaluator; // @synthesize evaluator=_evaluator;
-@property(nonatomic) _Bool hasEvaluator;
-@property(nonatomic) _Bool hasResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int result; // @synthesize result=_result;
-@property(copy, nonatomic) NSArray *sources; // @synthesize sources=_sources;
 
 @end
 

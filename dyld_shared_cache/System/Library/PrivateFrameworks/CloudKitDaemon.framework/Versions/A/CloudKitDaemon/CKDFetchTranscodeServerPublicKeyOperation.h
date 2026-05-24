@@ -6,18 +6,15 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKPublicKey, NSString, NSURL;
+@class CKPublicKey;
 
 @interface CKDFetchTranscodeServerPublicKeyOperation : CKDOperation
 {
     CKPublicKey *_transcodeServerPublicKey;
-    NSString *_transcodeServerHostname;
-    NSURL *_transcodeServerPublicKeyURL;
-    long long _type;
 }
 
 + (struct __SecPolicy *);
-+ (id);
++ (id)setRxFifo0OvflOverDecodingErrors:(unsigned long long)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,20 +23,16 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (_Bool);
-- (id);
+- (long long)J;
+- (_Bool);
+- (id)EMPersistenceStatisticsKey;
 - (void);
 - (void);
 - (id);
-- (void)ulateMissingSigningIdentityForZoneUsage;
+- (void)SimulateMissingSigningIdentityForZoneUsage;
 
 // Remaining properties
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(readonly, nonatomic) NSString *transcodeServerHostname; // @synthesize transcodeServerHostname=_transcodeServerHostname;
-@property(retain) CKPublicKey *transcodeServerPublicKey; // @synthesize transcodeServerPublicKey=_transcodeServerPublicKey;
-@property(retain, nonatomic) NSURL *transcodeServerPublicKeyURL; // @synthesize transcodeServerPublicKeyURL=_transcodeServerPublicKeyURL;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

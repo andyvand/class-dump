@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSString;
+@class NSString;
 
 @interface CRKASMCredentialManifestEntry
 {
     NSString *_userIdentifier;
-    NSDateInterval *_validityInterval;
-    NSString *_fingerprint;
 }
 
 + (id);
@@ -26,11 +24,7 @@
 - (id)creenObservationPermissionModificationAllowed:%@             departments:%@             groups:%@             users:%@             deviceGroups:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *fingerprint; // @synthesize fingerprint=_fingerprint;
-@property(readonly, nonatomic, getter=isFullyPopulated) _Bool fullyPopulated;
-@property(readonly, copy, nonatomic) NSString *stringValue;
 @property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(readonly, nonatomic) NSDateInterval *validityInterval; // @synthesize validityInterval=_validityInterval;
 
 @end
 

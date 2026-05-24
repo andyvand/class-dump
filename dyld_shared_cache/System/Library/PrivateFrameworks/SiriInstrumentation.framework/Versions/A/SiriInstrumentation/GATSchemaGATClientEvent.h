@@ -6,35 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class GATSchemaGATClientEventMetadata, GATSchemaGATConfirmationSnippetUserActionEvent, GATSchemaGATCreateSessionContext, GATSchemaGATGenerativeRequestContext, GATSchemaGATImageResizingContext, GATSchemaGATLoadScreenContentContext, GATSchemaGATModelAgentCaptured, GATSchemaGATNotForMeResponseReturned, GATSchemaGATPresentConfirmationSnippetEvent, GATSchemaGATRegisterMediaContext, GATSchemaGATRequestContext, GATSchemaGATRichFormatResponseMetadataCaptured, NSData, SISchemaInstrumentationMessage;
+@class GATSchemaGATClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface GATSchemaGATClientEvent : SISchemaTopLevelUnionType
 {
     GATSchemaGATClientEventMetadata *_eventMetadata;
-    GATSchemaGATRequestContext *_requestContext;
-    GATSchemaGATLoadScreenContentContext *_loadScreenContentContext;
-    GATSchemaGATCreateSessionContext *_createSessionContext;
-    GATSchemaGATGenerativeRequestContext *_generativeRequestContext;
-    GATSchemaGATImageResizingContext *_imageResizingContext;
-    GATSchemaGATRegisterMediaContext *_registerMediaContext;
-    GATSchemaGATPresentConfirmationSnippetEvent *_confirmationSnippet;
-    GATSchemaGATConfirmationSnippetUserActionEvent *_confirmationSnippetUserAction;
-    GATSchemaGATNotForMeResponseReturned *_notForMeResponseReturned;
-    GATSchemaGATModelAgentCaptured *_modelAgentCaptured;
-    GATSchemaGATRichFormatResponseMetadataCaptured *_responseMetadataCaptured;
-    _Bool _hasEventMetadata;
-    _Bool _hasRequestContext;
-    _Bool _hasLoadScreenContentContext;
-    _Bool _hasCreateSessionContext;
-    _Bool _hasGenerativeRequestContext;
-    _Bool _hasImageResizingContext;
-    _Bool _hasRegisterMediaContext;
-    _Bool _hasConfirmationSnippet;
-    _Bool _hasConfirmationSnippetUserAction;
-    _Bool _hasNotForMeResponseReturned;
-    _Bool _hasModelAgentCaptured;
-    _Bool _hasResponseMetadataCaptured;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -54,26 +30,26 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)[;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -85,7 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -100,52 +76,27 @@
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int)ss:%@ Bool:%u
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ClassicRingtoneIndex;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tPartyApp"b1};
-- (id)ror;
+- (id)hasSessionCoordinatorError;
 - (unsigned long long)ateReadySnapshotCaptured",&,N,V_debugNetworkConnectionStateReadySnapshotCaptured;
 - (id)gIndependentSignals;
 - (id);
-- (int)CONTENT_INTENT;
+- (int)GATAPPINTENTNAME_GENERATE_RICH_CONTENT_INTENT;
 - (void).;
 - (void)e$;
 - (id)½Ò+;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATPresentConfirmationSnippetEvent *confirmationSnippet; // @synthesize confirmationSnippet=_confirmationSnippet;
-@property(retain, nonatomic) GATSchemaGATConfirmationSnippetUserActionEvent *confirmationSnippetUserAction; // @synthesize confirmationSnippetUserAction=_confirmationSnippetUserAction;
-@property(retain, nonatomic) GATSchemaGATCreateSessionContext *createSessionContext; // @synthesize createSessionContext=_createSessionContext;
-@property(retain, nonatomic) GATSchemaGATClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) GATSchemaGATGenerativeRequestContext *generativeRequestContext; // @synthesize generativeRequestContext=_generativeRequestContext;
-@property(nonatomic) _Bool hasConfirmationSnippet; // @synthesize hasConfirmationSnippet=_hasConfirmationSnippet;
-@property(nonatomic) _Bool hasConfirmationSnippetUserAction; // @synthesize hasConfirmationSnippetUserAction=_hasConfirmationSnippetUserAction;
-@property(nonatomic) _Bool hasCreateSessionContext; // @synthesize hasCreateSessionContext=_hasCreateSessionContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasGenerativeRequestContext; // @synthesize hasGenerativeRequestContext=_hasGenerativeRequestContext;
-@property(nonatomic) _Bool hasImageResizingContext; // @synthesize hasImageResizingContext=_hasImageResizingContext;
-@property(nonatomic) _Bool hasLoadScreenContentContext; // @synthesize hasLoadScreenContentContext=_hasLoadScreenContentContext;
-@property(nonatomic) _Bool hasModelAgentCaptured; // @synthesize hasModelAgentCaptured=_hasModelAgentCaptured;
-@property(nonatomic) _Bool hasNotForMeResponseReturned; // @synthesize hasNotForMeResponseReturned=_hasNotForMeResponseReturned;
-@property(nonatomic) _Bool hasRegisterMediaContext; // @synthesize hasRegisterMediaContext=_hasRegisterMediaContext;
-@property(nonatomic) _Bool hasRequestContext; // @synthesize hasRequestContext=_hasRequestContext;
-@property(nonatomic) _Bool hasResponseMetadataCaptured; // @synthesize hasResponseMetadataCaptured=_hasResponseMetadataCaptured;
-@property(retain, nonatomic) GATSchemaGATImageResizingContext *imageResizingContext; // @synthesize imageResizingContext=_imageResizingContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) GATSchemaGATLoadScreenContentContext *loadScreenContentContext; // @synthesize loadScreenContentContext=_loadScreenContentContext;
-@property(retain, nonatomic) GATSchemaGATModelAgentCaptured *modelAgentCaptured; // @synthesize modelAgentCaptured=_modelAgentCaptured;
-@property(retain, nonatomic) GATSchemaGATNotForMeResponseReturned *notForMeResponseReturned; // @synthesize notForMeResponseReturned=_notForMeResponseReturned;
-@property(retain, nonatomic) GATSchemaGATRegisterMediaContext *registerMediaContext; // @synthesize registerMediaContext=_registerMediaContext;
-@property(retain, nonatomic) GATSchemaGATRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(retain, nonatomic) GATSchemaGATRichFormatResponseMetadataCaptured *responseMetadataCaptured; // @synthesize responseMetadataCaptured=_responseMetadataCaptured;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

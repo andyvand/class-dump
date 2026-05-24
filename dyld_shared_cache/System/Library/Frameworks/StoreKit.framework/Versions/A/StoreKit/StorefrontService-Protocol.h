@@ -5,5 +5,6 @@
 //
 
 @protocol StorefrontService
+- (void)R;
 @end
 

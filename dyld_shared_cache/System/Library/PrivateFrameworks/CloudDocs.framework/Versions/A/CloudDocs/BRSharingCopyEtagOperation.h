@@ -11,11 +11,10 @@
 @interface BRSharingCopyEtagOperation : BROperation
 {
     NSURL *_fileURL;
-    CDUnknownBlockType _sharingEtagCompletionBlock;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

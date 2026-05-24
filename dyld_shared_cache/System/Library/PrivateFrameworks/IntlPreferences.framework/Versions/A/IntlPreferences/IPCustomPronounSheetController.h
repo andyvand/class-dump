@@ -4,47 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPPronounValidator, NSArray, NSButton, NSPopUpButton, NSStackView, NSString, NSTextField, NSView;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface IPCustomPronounSheetController
 {
     NSButton *_okButton;
-    NSStackView *_mainStackView;
-    NSPopUpButton *_languageMenuButton;
-    NSView *_languageMenuContainer;
-    NSView *_languageMenuSpacer;
-    IPPronounValidator *_pronounValidator;
-    NSArray *_pronounInfos;
-    NSTextField *_unsupportedLanguageLabel;
-    NSString *_currentLanguage;
 }
 
-+ (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
++ (id)port;
+- (void)convertPosition:toNode: /* Error: Ran out of types for this method. */;
+- (id)control:textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (id)control:didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)ntext:(id)arg1;
+- (void)coneWithHeight:(id)arg1 topRadius:bottomRadius:options: /* Error: Ran out of types for this method. */;
+- (void)ts:(id)arg1 constantsHash: /* Error: Ran out of types for this method. */;
+- (void)commandBufferDidCompleteWithError:(id)arg1;
+- (void)comboBox:(id)arg1 objectValueForItemAtIndex: /* Error: Ran out of types for this method. */;
+- (void)colorWithRed:(id)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)colorFringeIntensity;
+- (id)characterSetWithCharactersInString: /* Error: Ran out of types for this method. */;
+- (id)channelTargetCounts;
+- (id)bodyWithType:shape: /* Error: Ran out of types for this method. */;
+- (id)blueComponent;
+- (id)bloomIterationSpread;
+- (void)bindTo:(id)arg1 withKeyPath:valueTransformerName: /* Error: Ran out of types for this method. */;
+- (void)avoidOccluderConstraint:shouldAvoidOccluder:forNode: /* Error: Ran out of types for this method. */;
+- (void)avoidOccluderConstraint:didAvoidOccluder:forNode: /* Error: Ran out of types for this method. */;
+- (void)avoidOccluderConstraint;
+- (void)assetWithSCNNode: /* Error: Ran out of types for this method. */;
+- (void)arrayLength;
+- (_Bool)alternateTitle;
+- (void)_widthSegmentCount;
+- (id)_whitePoint;
 - (void);
 - (id);
 - (void);
@@ -53,15 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentLanguage; // @synthesize currentLanguage=_currentLanguage;
-@property __weak NSPopUpButton *languageMenuButton; // @synthesize languageMenuButton=_languageMenuButton;
-@property __weak NSView *languageMenuContainer; // @synthesize languageMenuContainer=_languageMenuContainer;
-@property __weak NSView *languageMenuSpacer; // @synthesize languageMenuSpacer=_languageMenuSpacer;
-@property __weak NSStackView *mainStackView; // @synthesize mainStackView=_mainStackView;
 @property __weak NSButton *okButton; // @synthesize okButton=_okButton;
-@property(retain, nonatomic) NSArray *pronounInfos; // @synthesize pronounInfos=_pronounInfos;
-@property(retain, nonatomic) IPPronounValidator *pronounValidator; // @synthesize pronounValidator=_pronounValidator;
-@property(retain, nonatomic) NSTextField *unsupportedLanguageLabel; // @synthesize unsupportedLanguageLabel=_unsupportedLanguageLabel;
 
 @end
 

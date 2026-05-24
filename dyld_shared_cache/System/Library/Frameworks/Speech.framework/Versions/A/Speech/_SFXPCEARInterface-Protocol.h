@@ -5,5 +5,7 @@
 //
 
 @protocol _SFXPCEARInterface
+- (oneway void);
+- (oneway void);
 @end
 

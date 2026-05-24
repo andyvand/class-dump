@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSScene, NSHashTable, NSString;
+@class FBSScene, NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneKeyboardProxyLayerForwardingHostingScene
@@ -18,21 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool)ricsData>";
-- (void)ization:(id)arg1;
+- (void)visualElementForTraitCollection:(id)arg1 usingImageCustomization: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)VisibleFrame(NSArray<_UICollectionLayoutFramesQueryResult *> *const __strong _Nonnull, CGRect, CGRect, BOOL)_block_invoke_2;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FBSScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

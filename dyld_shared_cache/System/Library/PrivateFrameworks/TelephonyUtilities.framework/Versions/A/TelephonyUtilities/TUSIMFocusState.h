@@ -9,9 +9,6 @@
 @interface TUSIMFocusState
 {
     void identifier;
-    void name;
-    void phNumber;
-    _Bool focusAllowCalls;
 }
 
 + (_Bool);
@@ -23,13 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void)mePromptURL;
+- (void)isFaceTimePromptURL;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool focusAllowCalls; // @synthesize focusAllowCalls;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *phNumber;
 
 @end
 

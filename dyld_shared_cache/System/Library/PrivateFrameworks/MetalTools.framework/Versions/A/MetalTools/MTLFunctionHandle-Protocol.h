@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLDevice;
-
 @protocol MTLFunctionHandle
 - (unsigned long long)eSlice:toTensor:destinationSlice:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(readonly) unsigned long long functionType;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) NSString *name;
 @end
 

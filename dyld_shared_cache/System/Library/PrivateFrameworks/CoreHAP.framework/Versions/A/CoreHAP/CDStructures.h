@@ -13,25 +13,25 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct BTStatus {
-    unsigned long long leRemote;
-    unsigned long long leAcc;
-    unsigned long long btKB;
-    unsigned long long a2dp;
-    unsigned long long btGC;
-    unsigned long long eAcc;
-    unsigned long long hk;
-    unsigned long long lowEnergyConnections;
-    unsigned long long nonHIDConnections;
-    unsigned long long connectedHIDDevices;
-    unsigned long long oneSniffAttemptDevices;
-    unsigned long long twoSniffAttemptDevices;
-    unsigned long long sco;
-    unsigned long long wiap;
-    unsigned long long remote;
-    unsigned long long connectedDevices;
-    _Bool isScanning;
-    _Bool isDiscoverable;
-    _Bool isConnectable;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
+    unsigned long long _field10;
+    unsigned long long _field11;
+    unsigned long long _field12;
+    unsigned long long _field13;
+    unsigned long long _field14;
+    unsigned long long _field15;
+    unsigned long long _field16;
+    _Bool _field17;
+    _Bool _field18;
+    _Bool _field19;
 };
 
 struct HTTPMessagePrivate {
@@ -149,8 +149,6 @@ struct coap_address_t {
 
 struct coap_async_state_t;
 
-struct coap_attr_t;
-
 struct coap_context_t {
     unsigned short _field1[6];
     struct coap_resource_t *_field2;
@@ -207,21 +205,7 @@ struct coap_pdu_t {
 
 struct coap_queue_t;
 
-struct coap_resource_t {
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :1;
-    CDUnknownFunctionPointerType _field1[7];
-    struct UT_hash_handle _field2;
-    struct coap_attr_t *_field3;
-    struct coap_subscription_t *_field4;
-    struct coap_str_const_t *_field5;
-    int _field6;
-    unsigned int _field7;
-    void *_field8;
-};
+struct coap_resource_t;
 
 struct coap_session_t {
     unsigned char _field1;
@@ -269,10 +253,6 @@ struct coap_socket_t {
     struct coap_session_t *_field3;
     struct coap_endpoint_t *_field4;
 };
-
-struct coap_str_const_t;
-
-struct coap_subscription_t;
 
 struct in6_addr {
     union {

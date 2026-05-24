@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id).framework/CoreSpotlight;
 - (void);
 - (void);
 - (void);

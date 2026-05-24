@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)d: /* Error: Ran out of types for this method. */;
-- (void)sal;
+- (void)setAccessoryIdentifiers:animated: /* Error: Ran out of types for this method. */;
+- (void)UITextDropProposal;
 
 // Remaining properties
 @property(nonatomic) _Bool useLowerIntensity; // @synthesize useLowerIntensity=_useLowerIntensity;

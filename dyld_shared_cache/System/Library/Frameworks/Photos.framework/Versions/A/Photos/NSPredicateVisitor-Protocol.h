@@ -6,7 +6,7 @@
 
 @protocol NSPredicateVisitor
 - (void)opp. request, kick off request for best image;
-- (void)sCount;
+- (void)cachedPhotosCount;
 - (void)Øîq°;
 @end
 

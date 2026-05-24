@@ -4,39 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountDirectory, NSArray, NSNumber, NSString, NSURL;
-@protocol ABAccountConfiguration, ABAccountConfigurationInternal, ABAccountCustomizationPolicy, ABAccountSearchPolicy;
+@class NSString;
 
 @interface ABAccount
 {
     NSString *_identifier;
-    NSURL *_baseURL;
-    NSURL *_persistentStoreURL;
-    ABAccount *_parentAccount;
-    NSArray *_childAccounts;
-    NSNumber *_dsid;
-    NSString *_altDSID;
-    id _futureSource;
-    id _customizationPolicy;
-    id _config;
-    id _searchPolicy;
-    Class _sourceClass;
-    _Bool _invalid;
-    NSString *_name;
-    NSString *_allContactsLabel;
-    NSString *_directoryLabel;
-    long long _sortOrder;
-    _Bool _isMainAccount;
-    _Bool _isChildDelegateAccount;
-    _Bool _groupsCanRemoveMembers;
-    _Bool _canBecomeDefaultAccount;
-    _Bool _canReimportFromMetadata;
-    _Bool _showAllContactsIfOnlyOneGroup;
-    _Bool _supportsDistributionLists;
-    _Bool _usesSyncServices;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType) ;
 + (id);
 + (id);
 + (CDUnknownBlockType);
@@ -44,7 +19,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -59,25 +34,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id)S	;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -85,7 +60,7 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)C;
 - (int);
 - (void);
 - (_Bool);
@@ -100,27 +75,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)y;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
+- (_Bool)i>28;
+- (id)VolumeRoleClearAll;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id));
 - (_Bool);
 - (id);
 - (long long);
@@ -130,45 +105,10 @@
 - (void);
 - (void);
 - (id);
-- (id)Indexing;
+- (id)stringForIndexing;
 
 // Remaining properties
-@property(copy) NSString *allContactsLabel; // @synthesize allContactsLabel=_allContactsLabel;
-@property(readonly) _Bool allowsDistributionLists;
-@property(readonly, copy) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property _Bool canBecomeDefaultAccount; // @synthesize canBecomeDefaultAccount=_canBecomeDefaultAccount;
-@property _Bool canReimportFromMetadata; // @synthesize canReimportFromMetadata=_canReimportFromMetadata;
-@property(copy) NSArray *childAccounts; // @synthesize childAccounts=_childAccounts;
-@property(readonly, retain) id <ABAccountConfiguration> config;
-@property(readonly, retain) id <ABAccountCustomizationPolicy> customizationPolicy; // @synthesize customizationPolicy=_customizationPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) ABAccountDirectory *directory;
-@property(copy) NSString *directoryLabel; // @synthesize directoryLabel=_directoryLabel;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSURL *imagesFolderURL;
-@property(readonly, getter=isInitialSyncComplete) _Bool initialSyncComplete;
-@property(readonly, retain, nonatomic) id <ABAccountConfigurationInternal> internalConfig;
 @property(readonly, getter=isInvalid) _Bool invalid;
-@property(readonly) _Bool isChildDelegateAccount; // @synthesize isChildDelegateAccount=_isChildDelegateAccount;
-@property(readonly) _Bool isCoreRecentsAccount;
-@property(readonly) _Bool isMainAccount; // @synthesize isMainAccount=_isMainAccount;
-@property(readonly) _Bool isPersistentAccount;
-@property(readonly) _Bool isSearchable;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly) ABAccount *parentAccount; // @synthesize parentAccount=_parentAccount;
-@property(readonly, copy) NSURL *persistentStoreURL;
-@property(readonly, retain) id <ABAccountSearchPolicy> searchPolicy; // @synthesize searchPolicy=_searchPolicy;
-@property _Bool showAllContactsIfOnlyOneGroup; // @synthesize showAllContactsIfOnlyOneGroup=_showAllContactsIfOnlyOneGroup;
-@property(readonly) long long sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(readonly) Class sourceClass; // @synthesize sourceClass=_sourceClass;
-@property(readonly) Class superclass;
-@property _Bool supportsDistributionLists; // @synthesize supportsDistributionLists=_supportsDistributionLists;
-@property _Bool usesSyncServices; // @synthesize usesSyncServices=_usesSyncServices;
 
 @end
 

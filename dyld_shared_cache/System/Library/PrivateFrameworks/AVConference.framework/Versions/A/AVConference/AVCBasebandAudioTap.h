@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCAudioPowerSpectrumMeter, NSObject, NSString;
+@class NSObject;
 @protocol AVCBasebandAudioTapDelegate, OS_dispatch_queue;
 
 @interface AVCBasebandAudioTap
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    AVCAudioPowerSpectrumMeter *_powerSpectrumMeter;
-    id _weakDelegate;
 }
 
 + (_Bool);
@@ -30,14 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVCBasebandAudioTapDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

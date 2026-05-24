@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)UIApplicationSceneSettings;
 + (void);
 - (id);
-- (_Bool);
+- (_Bool)Version;
 - (unsigned long long);
 - (id);
 

@@ -5,33 +5,28 @@
 //
 
 @class NSURL;
-@protocol CNCDIOSLegacyIdentifierRegistration;
 
 @interface CNCDDatabasePreparationRequest
 {
     _Bool _readOnly;
-    NSURL *_url;
-    id <CNCDIOSLegacyIdentifierRegistration> _registrar;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) id <CNCDIOSLegacyIdentifierRegistration> registrar; // @synthesize registrar=_registrar;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

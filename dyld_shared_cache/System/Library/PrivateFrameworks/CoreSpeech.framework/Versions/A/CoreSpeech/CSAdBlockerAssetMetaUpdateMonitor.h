@@ -9,7 +9,7 @@
     int _notifyToken;
 }
 
-+ (id)listenPollingTimer;
++ (id)_listenPollingTimer;
 - (id);
 - (void);
 - (void);

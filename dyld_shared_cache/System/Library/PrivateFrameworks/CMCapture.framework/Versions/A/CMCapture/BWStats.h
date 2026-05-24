@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BWStats
 {
     double _multiplier;
-    NSString *_unitDesignator;
-    long long _numberOfSamples;
-    double _min;
-    double _max;
-    double _sumX;
-    double _sumXX;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)OABShapeManager;
+- (void);
 - (id);
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long)0@ù
 × ;
 - (id)Kÿ¦Hÿ¯Dÿ¶@ÿ¾;ÿÆ}7ÿÏz1ÿÕx-ÿÚv*ÿÜv)ÿÜu)ÿ%Sÿ%Sÿ%Sÿ%Rÿ%Rÿ%Rÿ%Rÿ%Qÿ'Qÿ3Qÿ=PÿFPÿOPÿWPÿaOÿiOÿrOÿ{NÿNÿMÿMÿ Jÿ¨Fÿ°Bÿ¸>ÿÀ:ÿÈ6ÿÐ1ÿÖ-ÿÛ)ÿÝ(ÿÝ(ÿ$¢Pÿ$¢Pÿ$¢Pÿ$¢Pÿ$¢Pÿ$¢Oÿ$¡Oÿ$¡Oÿ$¡Nÿ. Nÿ8 MÿB MÿK MÿT Lÿ^ Lÿf Lÿo Kÿx Kÿ Jÿ Iÿ¡Iÿ¡¡Iÿ©Eÿ²@ÿº<ÿÁ8ÿÉ4ÿÒ/ÿØ+ÿÝ(ÿß&ÿÞ&ÿ"ªMÿ"ªMÿ"ªMÿ"ªMÿ"ªMÿ"©Lÿ"©Lÿ"©Lÿ"©Kÿ(¨Kÿ3¨Jÿ>¨JÿG¨IÿP¨Iÿ[¨Hÿc¨Hÿm¨Gÿv¨Gÿ¨Fÿ©Eÿ©Eÿ©DÿªªDÿ³¦?ÿ»¤:ÿÃ¡6ÿË1ÿÔ,ÿÚ(ÿß%ÿá$ÿá$ÿ ²Jÿ ²Jÿ ²Jÿ ²Jÿ ²Jÿ ²Iÿ ²Iÿ ±Hÿ ±Hÿ ±Gÿ-±Gÿ8±FÿB±FÿL±EÿW±Dÿ`±Dÿi±Cÿs±Bÿ~²Aÿ²@ÿ³?ÿ³?ÿ¨´>ÿµ´=ÿ½±8ÿÅ¯3ÿÍ­.ÿÖ«)ÿÜ©%ÿá¨"ÿã¨ ÿã¨ ÿºGÿºGÿ¹Gÿ¹Gÿ¹Gÿ¹Fÿ¹Fÿ¹Fÿ¹Eÿ¹Eÿ(¹Dÿ4¹Cÿ>¹CÿH¹BÿS¹Aÿ]¹@ÿf¹?ÿpº>ÿ{º=ÿ»<ÿ»;ÿ¼:ÿ¦¼9ÿ³½8ÿ¾½7ÿÇ»1ÿÏ¹,ÿØ·&ÿÞ¶!ÿãµÿæµÿæµÿÁEÿÁEÿÁEÿÁEÿÁDÿÀDÿÀDÿÀCÿÀCÿÀBÿ"ÀAÿ/ÀAÿ;À@ÿEÁ?ÿPÁ>ÿZÁ=ÿdÁ<ÿnÂ;ÿyÃ9ÿÃ8ÿÄ6ÿÄ5ÿ¤Å3ÿ±Æ2ÿ½Ç1ÿÈÇ/ÿÐÅ*ÿÙÄ#ÿàÃÿåÂÿèÂÿèÂÿÇCÿÇCÿÇCÿÇCÿÇBÿÇBÿÇBÿÇAÿÇAÿÇ@ÿÇ?ÿ,Ç>ÿ7È=ÿBÈ<ÿNÈ;ÿXÉ:ÿaÉ9ÿkÊ7ÿwÊ6ÿË4ÿÌ2ÿÍ1ÿ¢Î/ÿ°Ï-ÿ»Ï+ÿÇÐ*ÿÑÑ(ÿÛÏ!ÿâÏÿçÎÿêÎÿêÎÿÏBÿÏBÿÏBÿÏBÿÏAÿÏAÿÏ@ÿÏ@ÿÏ?ÿÏ?ÿÏ>ÿ)Ï=ÿ5Ï<ÿ@Ð:ÿKÐ9ÿVÑ8ÿ`Ñ6ÿjÒ5ÿuÓ3ÿÔ1ÿÕ/ÿÕ-ÿ¡Ö+ÿ®Ø(ÿºÙ&ÿÆÚ$ÿÑÛ"ÿÜÛ ÿãÛÿéÛÿìÛÿìÛÿÔBÿÔBÿÔBÿÔAÿÔAÿÔAÿÔ@ÿÔ@ÿÔ?ÿÕ>ÿÕ=ÿ)Õ<ÿ5Õ;ÿ?Ö:ÿKÖ8ÿU×7ÿ_Ø5ÿiØ3ÿtÙ1ÿÚ/ÿÛ-ÿÜ+ÿ Ý)ÿ®ß&ÿºà#ÿÅá!ÿÐâÿÜãÿääÿêäÿíäÿîäÿÙCÿÙCÿÙCÿÙCÿÙBÿÙBÿÙAÿÙAÿÙ@ÿÙ?ÿÚ>ÿ+Ú=ÿ6Ú<ÿ@Û:ÿKÛ9ÿUÜ7ÿ_Ý6ÿiÝ4ÿuÞ2ÿß/ÿà-ÿâ+ÿ ã(ÿ®ä%ÿ¹æ#ÿÅç ÿÐèÿÜêÿåëÿëëÿîìÿïìÿÝFÿÝFÿÝEÿÝEÿÝEÿÝDÿÝDÿÝCÿÝCÿÝBÿ$ÝAÿ/Þ?ÿ9Þ>ÿCÞ=ÿNß;ÿWà9ÿaà8ÿjá6ÿvâ4ÿã1ÿä/ÿå-ÿ¡æ*ÿ®è'ÿºé%ÿÅë"ÿÐì ÿÜíÿåïÿëïÿïðÿððÿßJÿßJÿßJÿßJÿßJÿßIÿßIÿßHÿßGÿ%àFÿ.àEÿ7àDÿ@àCÿHáAÿRá?ÿ[â>ÿdâ<ÿnã:ÿxä8ÿå6ÿæ4ÿç2ÿ¢è/ÿ¯é,ÿºë*ÿÆì(ÿÑí&ÿÜï$ÿåð"ÿëð!ÿïñ!ÿðñ!ÿ /* Error: Ran out of types for this method. */;
@@ -37,13 +29,7 @@
 - (_Bool)^Áÿÿ_Àÿÿ_¿ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double average;
-@property(readonly, nonatomic) double max;
-@property(readonly, nonatomic) double min;
 @property(nonatomic) double multiplier; // @synthesize multiplier=_multiplier;
-@property(readonly, nonatomic) long long numberOfSamples; // @synthesize numberOfSamples=_numberOfSamples;
-@property(readonly, nonatomic) double standardDeviation;
-@property(copy, nonatomic) NSString *unitDesignator; // @synthesize unitDesignator=_unitDesignator;
 
 @end
 

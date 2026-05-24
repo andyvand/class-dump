@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (void);
-- (id)ofile;
+- (id)CNSocialProfile;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

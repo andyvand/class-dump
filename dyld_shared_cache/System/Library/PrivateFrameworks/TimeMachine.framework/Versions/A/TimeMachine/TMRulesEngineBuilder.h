@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TMRulesEngineBOM;
-
 @interface TMRulesEngineBuilder
 {
     CDUnknownBlockType _cancelBlock;
-    TMRulesEngineBOM *_bom;
 }
 
-- (id);
+- (id)%;
 - (id);
 - (void);
 - (void);

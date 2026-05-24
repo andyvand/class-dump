@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationEuclidAlternativesEvent : SISchemaInstrumentationMessage
 {
     int _eventType;
-    long long _alternativesIndexSelectedByUser;
-    struct {
-        unsigned int eventType:1;
-        unsigned int alternativesIndexSelectedByUser:1;
-    } _has;
 }
 
 - (void);
@@ -26,24 +19,20 @@
 - (long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)authIfNeeded;
 - (_Bool);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)onRanges:(id)arg1 isSyndicatable:verbose:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)entUtteranceCount;
-- (id)rtcutFirstRunConfirmationContext;
-- (void)ution;
+- (id)deleteEnrollmentUtteranceCount;
+- (id)_hasAppShortcutFirstRunConfirmationContext;
+- (void)isHandOffExecution;
 
 // Remaining properties
-@property(nonatomic) long long alternativesIndexSelectedByUser; // @synthesize alternativesIndexSelectedByUser=_alternativesIndexSelectedByUser;
 @property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasAlternativesIndexSelectedByUser;
-@property(nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

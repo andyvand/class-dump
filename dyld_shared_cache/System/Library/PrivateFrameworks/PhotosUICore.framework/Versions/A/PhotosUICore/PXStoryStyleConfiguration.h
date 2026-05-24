@@ -5,15 +5,10 @@
 //
 
 @class NSString;
-@protocol PXStoryAutoEditDecisionList, PXStorySongResource;
 
 @interface PXStoryStyleConfiguration
 {
     _Bool _isCustomized;
-    NSString *_originalColorGradeCategory;
-    long long _customColorGradeKind;
-    id <PXStorySongResource> _songResource;
-    id <PXStoryAutoEditDecisionList> _autoEditDecisionList;
 }
 
 - (id);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,12 +27,7 @@
 - (void)üßxÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList; // @synthesize autoEditDecisionList=_autoEditDecisionList;
-@property(readonly, nonatomic) long long customColorGradeKind; // @synthesize customColorGradeKind=_customColorGradeKind;
-@property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCustomized; // @synthesize isCustomized=_isCustomized;
 @property(readonly, nonatomic) NSString *originalColorGradeCategory; // @synthesize originalColorGradeCategory=_originalColorGradeCategory;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource; // @synthesize songResource=_songResource;
 
 @end
 

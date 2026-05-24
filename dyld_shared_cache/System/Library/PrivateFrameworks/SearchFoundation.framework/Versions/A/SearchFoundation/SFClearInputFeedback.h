@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)redownloadParameters;
+- (id)le.Safari.StartPage.RemovedFrequentlyVisitedSite;
+- (void)TLAlertTopicIncomingCallAppNotification;
 - (void);
 - (unsigned long long)2;
 

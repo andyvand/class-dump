@@ -6,21 +6,11 @@
 
 #import <AVKit/AVVolumeControlView.h>
 
-@class AVDesktopButton, AVScrollSliderView, AVVolumeControlSliderStyleSheet, NSArray, NSColor, NSLayoutAnchor, NSSlider;
+@class AVScrollSliderView;
 
 @interface AVVolumeControlSlider : AVVolumeControlView
 {
     _Bool _viewHasBeenSetup;
-    NSSlider *_volumeSlider;
-    AVVolumeControlSliderStyleSheet *_styleSheet;
-    NSLayoutAnchor *_baselineAnchor;
-    NSArray *_volumeButtonConstraints;
-    NSArray *_volumeSliderConstraints;
-    NSArray *_volumeControlsContainerViewConstraints;
-    _Bool _prefersLeadingSlider;
-    NSColor *_volumeButtonTintColor;
-    AVScrollSliderView *_volumeControlsContainerView;
-    AVDesktopButton *_volumeButton;
 }
 
 + (id);
@@ -41,24 +31,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)setLoginCredentialPolicyManager:(id)arg1;
+- (_Bool)le_client;
+- (id)<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryItem *>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)policyAttributeLastAuthenticationTime;
+- (void)o add new reminder to parent reminder in a list because reminderObjectID.entityName was not REMCDReminder {reminderObjectID:(double)arg1 %@};
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool prefersLeadingSlider; // @synthesize prefersLeadingSlider=_prefersLeadingSlider;
-@property(readonly, nonatomic) AVDesktopButton *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(nonatomic) NSColor *volumeButtonTintColor; // @synthesize volumeButtonTintColor=_volumeButtonTintColor;
 @property(readonly, nonatomic) AVScrollSliderView *volumeControlsContainerView; // @synthesize volumeControlsContainerView=_volumeControlsContainerView;
-@property(readonly, nonatomic) NSSlider *volumeSlider; // @synthesize volumeSlider=_volumeSlider;
 
 @end
 

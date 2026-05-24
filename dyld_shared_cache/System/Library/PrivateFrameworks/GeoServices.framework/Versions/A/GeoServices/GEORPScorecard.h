@@ -4,63 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPScorecard
 {
     PBDataReader *_reader;
-    NSMutableArray *_categoryRatings;
-    NSString *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _recommended;
-    struct {
-        unsigned int has_recommended:1;
-        unsigned int read_categoryRatings:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)SavingsSeconds:(id)arg1;
++ (Class);
++ (_Bool)setLiveRouteSavingsSeconds:(id)arg1;
 - (void);
-- (void);
-- (_Bool);
+- (void)"16;
+- (_Bool)initialize;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)?<v@?@"NSError">32;
+- (void)SSVCASignalToSigmoidNoiseSteepness;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (id)Field"b1};
-- (id)lPoints;
-- (void)ons;
+- (id)controlPoints;
+- (void)_keyOptions;
 - (id);
-- (_Bool)dStairs;
-- (id)IRECTION;
+- (_Bool)SupportsAvoidStairs;
+- (id)ALTER_SINGLE_DIRECTION;
 - (void)ÓÝu6äýO@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *categoryRatings;
-@property(nonatomic) _Bool hasRecommended;
 @property(readonly, nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool recommended;
-@property(retain, nonatomic) NSString *version;
 
 @end
 

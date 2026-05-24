@@ -7,16 +7,6 @@
 @protocol àò	?×¨£Ñ
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: jv¸³þÿ5ø7è?@ù@ù	
-// Property attributes: 	@øªÑ@PøªC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: (ø
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: :÷Øâ
-// Property attributes: @ù
-?×é
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: @
 // Property attributes: âªhùñªìò	?×
 

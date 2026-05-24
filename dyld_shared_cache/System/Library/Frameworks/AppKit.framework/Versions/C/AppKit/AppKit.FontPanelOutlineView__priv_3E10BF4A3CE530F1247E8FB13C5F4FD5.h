@@ -10,12 +10,12 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)setIsTopLevelNavigation:(id)arg1;
+- (_Bool)> failed to create a background NSURLSessionDownloadTask, as remote session is unavailable;
 - (_Bool);
 - (id);
-- (void);
-- (id)acentDividerAtIndex:(struct CGRect)arg1;
+- (void);
+- (id)_splitView:(struct CGRect)arg1 shouldHaveGlassAdjacentDividerAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

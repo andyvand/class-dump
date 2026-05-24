@@ -11,7 +11,7 @@
     NSSet *_identifiersOfRequiredItems;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

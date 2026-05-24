@@ -6,24 +6,19 @@
 
 #import <CloudKitDaemon/CKLStreamObserver.h>
 
-@class CKDTrafficLogParser, NSMutableDictionary, NSObject, NSPredicate;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSPredicate;
 
 @interface CKLStreamTrafficObserver : CKLStreamObserver
 {
     NSPredicate *_logMessageFilter;
-    CDUnknownBlockType _requestParsedBlock;
-    NSMutableDictionary *_requestDictionary;
-    NSObject<OS_dispatch_queue> *_printQueue;
-    CKDTrafficLogParser *_parser;
 }
 
 - (void);
-- (void);
+- (void)<);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -32,15 +27,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)able>",&,N,V_updateOldestThreadsCancelationToken;
 - (void)Ðíî¼î;
 
 // Remaining properties
-@property(copy, nonatomic) NSPredicate *logMessageFilter; // @synthesize logMessageFilter=_logMessageFilter;
-@property(retain) CKDTrafficLogParser *parser; // @synthesize parser=_parser;
-@property(retain) NSObject<OS_dispatch_queue> *printQueue; // @synthesize printQueue=_printQueue;
 @property(retain) NSMutableDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;
-@property(copy, nonatomic) CDUnknownBlockType requestParsedBlock; // @synthesize requestParsedBlock=_requestParsedBlock;
 
 @end
 

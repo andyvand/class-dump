@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIStoreMetadata, NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface ASDAppReviewAppMetadata
 {
     _Bool _beta;
-    _Bool _hasMessagesExtension;
-    _Bool _launchProhibited;
-    NSURL *_artworkURL;
-    NSDictionary *_backgroundAssetMetadata;
-    NSString *_bundleDirectoryName;
-    NSString *_bundleID;
-    NSNumber *_chunkSize;
-    NSArray *_clearHashes;
-    NSArray *_cryptHashes;
-    NSNumber *_externalVersionIdentifier;
-    long long _hashType;
-    NSNumber *_initialODRSize;
-    NSNumber *_itemID;
-    NSString *_itemName;
-    NSURL *_messagesArtworkURL;
-    NSData *_onDemandResourceManifest;
-    NSData *_packageDPInfo;
-    long long _packageFormat;
-    NSData *_packageSINF;
-    NSNumber *_packageSize;
-    NSURL *_packageURL;
-    long long _softwarePlatform;
-    MIStoreMetadata *_storeMetadata;
-    NSString *_variantID;
-    NSString *_vendorName;
-    NSString *_volumeID;
 }
 
 + (_Bool);
@@ -45,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,16 +43,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (id);
 - (id);
@@ -86,8 +60,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)errorString;
+- (id)TransitDepartureFrequency_minutes_format;
 - (long long);
 - (void);
 - (id);
@@ -100,40 +74,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(copy, nonatomic) NSDictionary *backgroundAssetMetadata; // @synthesize backgroundAssetMetadata=_backgroundAssetMetadata;
-@property(nonatomic, getter=isBeta) _Bool beta; // @synthesize beta=_beta;
-@property(copy, nonatomic) NSString *bundleDirectoryName; // @synthesize bundleDirectoryName=_bundleDirectoryName;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSNumber *chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(copy, nonatomic) NSArray *clearHashes; // @synthesize clearHashes=_clearHashes;
-@property(copy, nonatomic) NSArray *cryptHashes; // @synthesize cryptHashes=_cryptHashes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *externalVersionIdentifier; // @synthesize externalVersionIdentifier=_externalVersionIdentifier;
-@property(nonatomic) _Bool hasMessagesExtension; // @synthesize hasMessagesExtension=_hasMessagesExtension;
-@property(readonly) unsigned long long hash;
-@property long long hashType; // @synthesize hashType=_hashType;
-@property(copy, nonatomic) NSNumber *initialODRSize; // @synthesize initialODRSize=_initialODRSize;
-@property(copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *itemName; // @synthesize itemName=_itemName;
-@property(nonatomic, getter=isLaunchProhibited) _Bool launchProhibited; // @synthesize launchProhibited=_launchProhibited;
-@property(copy, nonatomic) NSURL *messagesArtworkURL; // @synthesize messagesArtworkURL=_messagesArtworkURL;
-@property(readonly) long long metadataType;
-@property(copy, nonatomic) NSData *onDemandResourceManifest; // @synthesize onDemandResourceManifest=_onDemandResourceManifest;
-@property(copy, nonatomic) NSData *packageDPInfo; // @synthesize packageDPInfo=_packageDPInfo;
-@property long long packageFormat; // @synthesize packageFormat=_packageFormat;
-@property(copy, nonatomic) NSData *packageSINF; // @synthesize packageSINF=_packageSINF;
-@property(copy, nonatomic) NSNumber *packageSize; // @synthesize packageSize=_packageSize;
-@property(copy, nonatomic) NSURL *packageURL; // @synthesize packageURL=_packageURL;
-@property long long softwarePlatform; // @synthesize softwarePlatform=_softwarePlatform;
-@property(copy, nonatomic) MIStoreMetadata *storeMetadata; // @synthesize storeMetadata=_storeMetadata;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *variantID; // @synthesize variantID=_variantID;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
-@property(copy, nonatomic) NSString *volumeID; // @synthesize volumeID=_volumeID;
 
 @end
 

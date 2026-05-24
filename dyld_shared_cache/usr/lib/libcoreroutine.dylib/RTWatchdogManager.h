@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, RTDefaultsManager, RTHangsMetrics, RTLifeCycleManager, RTPlatform, RTTimer, RTTimerManager;
-@protocol OS_dispatch_queue;
+@class RTTimer;
 
 @interface RTWatchdogManager
 {
     RTTimer *_watchdogHeartbeatTimer;
-    RTTimerManager *_timerManager;
-    RTLifeCycleManager *_lifecycleManager;
-    NSMutableArray *_records;
-    RTHangsMetrics *_metrics;
-    RTDefaultsManager *_defaultsManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTPlatform *_platform;
-    double _fireInterval;
-    double _timeout;
 }
 
 - (void);
@@ -28,28 +18,28 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)@32;
-- (void)ransformation;
-- (void)seParameters;
+- (void)allowsReverseTransformation;
+- (void)RTMapItemProviderBaseParameters;
 - (double);
 - (id)ionWithContext:] /* Error: Ran out of types for this method. */;
 - (void)initWithIdentifier:(CDUnknownBlockType)arg1 type:typeSource:mapItem:customLabel:creationDate:expirationDate:] /* Error: Ran out of types for this method. */;
@@ -58,15 +48,6 @@
 - (void)ve}@, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) double fireInterval; // @synthesize fireInterval=_fireInterval;
-@property(retain, nonatomic) RTLifeCycleManager *lifecycleManager; // @synthesize lifecycleManager=_lifecycleManager;
-@property(retain, nonatomic) RTHangsMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
 @property(retain, nonatomic) RTTimer *watchdogHeartbeatTimer; // @synthesize watchdogHeartbeatTimer=_watchdogHeartbeatTimer;
 
 @end

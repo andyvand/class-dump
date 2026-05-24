@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TUCall;
+@class NSString;
 
 @interface RTTConversation
 {
     NSString *_callIdentifier;
-    NSMutableArray *_utterances;
-    TUCall *_call;
 }
 
 + (id);
@@ -39,19 +37,17 @@
 - (id);
 - (void);
 - (id);
+- (id)N5raven30RavenEstimatorActiveObjectBaseINS_37RavenConvergenceEstimatorActiveObjectEEE;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)press %@) (attPath %@);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)it_with_path error:%{public}s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) TUCall *call; // @synthesize call=_call;
 @property(retain, nonatomic) NSString *callIdentifier; // @synthesize callIdentifier=_callIdentifier;
-@property(retain, nonatomic) NSMutableArray *utterances; // @synthesize utterances=_utterances;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyBindingManager, NSMutableArray, NSMutableString, NSSortedArray;
+@class NSKeyBindingManager;
 
 __attribute__((visibility("hidden")))
 @interface _NSKeyBindingStateActual
 {
     NSKeyBindingManager *_currentInstance;
-    NSSortedArray *_currentAtomArray;
-    NSMutableString *_toInsert;
-    long long _stateFlag;
-    long long _repeatCount;
-    NSMutableArray *_atomList;
 }
 
 @end

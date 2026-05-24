@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-@protocol TXRBuffer, TXRDataSourceProvider;
+@protocol TXRBuffer;
 
 @interface TXRImage
 {
     id <TXRBuffer> _buffer;
-    unsigned long long _offset;
-    unsigned long long _bytesPerImage;
-    unsigned long long _bytesPerRow;
-    NSError *_error;
-    long long _face;
-    unsigned long long _element;
-    unsigned long long _level;
-    id <TXRDataSourceProvider> _dataSourceProvider;
 }
 
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)R( @ya;
 - (unsigned long long);
 - (id);
 - (id);
@@ -32,10 +23,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) id <TXRBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly) unsigned long long bytesPerImage;
-@property(readonly) unsigned long long bytesPerRow;
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(readonly) unsigned long long offset; // @synthesize offset=_offset;
 
 @end

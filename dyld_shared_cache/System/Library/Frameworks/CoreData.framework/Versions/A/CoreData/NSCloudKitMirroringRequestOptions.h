@@ -9,13 +9,12 @@
 @interface NSCloudKitMirroringRequestOptions
 {
     CKOperationConfiguration *_operationConfiguration;
-    NSArray *_vouchers;
 }
 
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -28,9 +27,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCellularAccess;
-@property(retain, nonatomic) CKOperationConfiguration *operationConfiguration; // @synthesize operationConfiguration=_operationConfiguration;
-@property(nonatomic) long long qualityOfService;
 @property(retain, nonatomic) NSArray *vouchers; // @synthesize vouchers=_vouchers;
 
 @end

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSXPCConnection
 {
     _Bool _machService;
-    _Bool _listener;
-    _Bool _nonLaunching;
-    _Bool _privateDaemon;
-    _Bool _previouslyInitialized;
-    unsigned int _user;
-    NSString *_uuid;
-    NSString *_serviceName;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
@@ -52,9 +43,9 @@
 + (_Bool);
 + (id);
 + (void);
++ (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -70,7 +61,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -86,27 +77,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)#;
 - (unsigned int)!	+Ð! Fù1Ñ.ð1Â0@ù
 × ;
 - (void);
-- (void)Height;
+- (void)pageHeight;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) _Bool listener; // @synthesize listener=_listener;
-@property(readonly, nonatomic) _Bool machService; // @synthesize machService=_machService;
-@property(nonatomic) _Bool nonLaunching; // @synthesize nonLaunching=_nonLaunching;
-@property _Bool previouslyInitialized; // @synthesize previouslyInitialized=_previouslyInitialized;
-@property(nonatomic) _Bool privateDaemon; // @synthesize privateDaemon=_privateDaemon;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) unsigned int user; // @synthesize user=_user;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

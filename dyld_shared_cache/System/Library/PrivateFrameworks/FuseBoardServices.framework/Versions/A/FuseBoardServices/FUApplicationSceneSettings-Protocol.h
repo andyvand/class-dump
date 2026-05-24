@@ -5,10 +5,9 @@
 //
 
 @protocol FUApplicationSceneSettings
+- (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int fu_hostingContextID;
-@property(readonly, nonatomic) _Bool fu_keepsContextsInBackground;
-@property(readonly, nonatomic) _Bool fu_requiresFullScreen;
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSImageView, NSShadow, NSView;
+@class NSBox;
 
 __attribute__((visibility("hidden")))
 @interface TabsLayoutPreviewButton
 {
     NSBox *_selectionHighlightView;
-    NSView *_shadowView;
-    NSView *_imageContainerView;
-    NSImageView *_wallpaperView;
-    NSImageView *_windowPreviewView;
-    NSImageView *_trafficLightsView;
-    NSShadow *_shadow;
-    long long _previewKind;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -9,7 +9,7 @@
     long long type;
 }
 
-- (id);
+- (id)rity.restricted-mode;
 - (long long);
 - (long long);
 - (_Bool);
@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

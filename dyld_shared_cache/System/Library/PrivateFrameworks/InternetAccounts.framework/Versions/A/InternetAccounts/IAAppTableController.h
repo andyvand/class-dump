@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccount, NSArray, NSDictionary, NSMutableArray, NSScrollView, NSTableView;
-@protocol IAAppTableControllerDelegateProtocol;
+@class IAAccount;
 
 @interface IAAppTableController
 {
     IAAccount *_account;
-    NSMutableArray *_apps;
-    NSMutableArray *_pairedServices;
-    id _delegate;
-    _Bool _spinOnSelection;
-    _Bool _enabled;
-    NSArray *_topLevelObjects2;
-    NSScrollView *_scrollView;
-    NSTableView *_appTable;
-    NSDictionary *_pluginProperties;
 }
 
 - (void);
@@ -36,27 +26,27 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (void);
+- (_Bool)@;
+- (id);
+- (id);
+- (id);
+- (long long)q@;
+- (void);
+- (id);
+- (id)i;
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -64,10 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IAAccount *account; // @synthesize account=_account;
-@property(retain) NSMutableArray *apps; // @synthesize apps=_apps;
-@property(retain) id <IAAppTableControllerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *pairedServices; // @synthesize pairedServices=_pairedServices;
-@property _Bool spinOnSelection; // @synthesize spinOnSelection=_spinOnSelection;
 
 @end
 

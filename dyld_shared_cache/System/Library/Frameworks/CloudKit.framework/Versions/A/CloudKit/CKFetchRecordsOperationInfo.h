@@ -6,36 +6,18 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSDictionary, NSSet;
+@class NSArray;
 
 @interface CKFetchRecordsOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _isFetchCurrentUserOperation;
-    _Bool _fetchingAssetsForRereference;
-    _Bool _shouldFetchAssetContent;
-    _Bool _shouldFetchAssetContentInMemory;
-    _Bool _shouldRequestEncryptedAssetOwnerIdentifier;
-    _Bool _dropInMemoryAssetContentASAP;
-    _Bool _shouldFetchMergeableValues;
-    _Bool _shouldCloneFileInAssetCache;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    NSDictionary *_recordIDsToETags;
-    NSDictionary *_recordIDsToVersionETags;
-    NSDictionary *_desiredPackageFileIndices;
-    CDUnknownBlockType _cloneContextReturnBlock;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSSet *_assetFieldNamesToPublishURLs;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
-    NSDictionary *_webSharingIdentityDataByRecordID;
 }
 
 + (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)subModels;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -46,55 +28,37 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void):(id)arg1 8@16i24;
+- (unsigned long long)ByMeRecursiveCount;
+- (void);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void)}40;
-- (id)gicalSortWithError: /* Error: Ran out of types for this method. */;
-- (_Bool):userInfo:format: /* Error: Ran out of types for this method. */;
+- (id)recordZonesByTopologicalSortWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)errorWithDomain:code:userInfo:format: /* Error: Ran out of types for this method. */;
 - (void)À;
 - (void)ÿ!;
 - (id)d more than one database row in %@;
 - (void)Çÿÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(retain, nonatomic) NSSet *assetFieldNamesToPublishURLs; // @synthesize assetFieldNamesToPublishURLs=_assetFieldNamesToPublishURLs;
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(copy, nonatomic) CDUnknownBlockType cloneContextReturnBlock; // @synthesize cloneContextReturnBlock=_cloneContextReturnBlock;
-@property(retain, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(retain, nonatomic) NSDictionary *desiredPackageFileIndices; // @synthesize desiredPackageFileIndices=_desiredPackageFileIndices;
-@property(nonatomic) _Bool dropInMemoryAssetContentASAP; // @synthesize dropInMemoryAssetContentASAP=_dropInMemoryAssetContentASAP;
-@property(nonatomic) _Bool fetchingAssetsForRereference; // @synthesize fetchingAssetsForRereference=_fetchingAssetsForRereference;
-@property(nonatomic) _Bool isFetchCurrentUserOperation; // @synthesize isFetchCurrentUserOperation=_isFetchCurrentUserOperation;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(retain, nonatomic) NSDictionary *recordIDsToETags; // @synthesize recordIDsToETags=_recordIDsToETags;
-@property(retain, nonatomic) NSDictionary *recordIDsToVersionETags; // @synthesize recordIDsToVersionETags=_recordIDsToVersionETags;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(nonatomic) _Bool shouldFetchMergeableValues; // @synthesize shouldFetchMergeableValues=_shouldFetchMergeableValues;
-@property(nonatomic) _Bool shouldRequestEncryptedAssetOwnerIdentifier; // @synthesize shouldRequestEncryptedAssetOwnerIdentifier=_shouldRequestEncryptedAssetOwnerIdentifier;
-@property(retain, nonatomic) NSDictionary *webSharingIdentityDataByRecordID; // @synthesize webSharingIdentityDataByRecordID=_webSharingIdentityDataByRecordID;
 
 @end
 

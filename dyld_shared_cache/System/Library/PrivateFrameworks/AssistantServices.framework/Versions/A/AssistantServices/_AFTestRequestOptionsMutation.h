@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFTestRequestOptions, NSNumber, NSString;
+@class AFTestRequestOptions;
 
 @interface _AFTestRequestOptionsMutation
 {
     AFTestRequestOptions *_base;
-    long long _requestPath;
-    NSString *_inputOrigin;
-    NSNumber *_isEyesFree;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasRequestPath:1;
-        unsigned int hasInputOrigin:1;
-        unsigned int hasIsEyesFree:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -27,17 +18,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)phonyRequestCompleted;
-- (void)ecognitionOverrides;
+- (id)telephonyRequestCompleted;
+- (void)_recognitionOverrides;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

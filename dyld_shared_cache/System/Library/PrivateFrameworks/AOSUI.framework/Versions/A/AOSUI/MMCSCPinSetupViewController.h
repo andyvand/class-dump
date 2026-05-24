@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMPinFieldView, NSButton, NSImageView, NSLayoutConstraint, NSString, NSTextField, NSTouchBar, NSView, iCloudTouchBarController;
-@protocol MMCSCPinSetupViewControllerDelegate;
+@class MMPinFieldView;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCPinSetupViewController
 {
     MMPinFieldView *_pinViewPinFieldView;
-    NSString *_initialPassPhrase;
-    NSString *_passPhrase;
-    long long _currentState;
-    _Bool _usingNumericPassphrase;
-    int _numericPassphraseLength;
-    id <MMCSCPinSetupViewControllerDelegate> _delegate;
-    NSImageView *_pinViewImageView;
-    NSTextField *_pinViewTitle;
-    NSTextField *_pinViewMessage;
-    NSView *_pinViewPinFieldPlaceholder;
-    NSLayoutConstraint *_pinViewPinFieldWidthConstraint;
-    NSTextField *_pinViewEnterLabelText;
-    NSButton *_pinViewHelpButton;
-    NSButton *_pinViewCancelButton;
-    NSButton *_pinViewAdvancedButton;
-    NSButton *_pinViewConfirmButton;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (_Bool);
@@ -49,18 +31,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
+- (id)i;
 - (id);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)3;
+- (void)곆R?
+k)3;
 - (void);
 - (void);
 - (void);
@@ -68,43 +51,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)CDPCAADPOnRowSelectReporter;
+- (void)uirìeuíeuaríeuiríeuassiuissiuàssiuèssiuéssiuíssiuïuixeixïxitziàaràiràitzàaráeráiráirèaréeréiréíiïióicaeiïnoirsisosïsiteuiuiquitzàáéìíïóaeiou.·àáèéìíïòóúüA;
+- (id)_	;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void)
 × ;
-- (id)SIGNOUT_STOP_TITLE;
+- (id)iCLOUDDRIVE_SIGNOUT_STOP_TITLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCPinSetupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *initialPassPhrase; // @synthesize initialPassPhrase=_initialPassPhrase;
-@property int numericPassphraseLength; // @synthesize numericPassphraseLength=_numericPassphraseLength;
-@property(copy) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
-@property __weak NSButton *pinViewAdvancedButton; // @synthesize pinViewAdvancedButton=_pinViewAdvancedButton;
-@property __weak NSButton *pinViewCancelButton; // @synthesize pinViewCancelButton=_pinViewCancelButton;
-@property __weak NSButton *pinViewConfirmButton; // @synthesize pinViewConfirmButton=_pinViewConfirmButton;
-@property __weak NSTextField *pinViewEnterLabelText; // @synthesize pinViewEnterLabelText=_pinViewEnterLabelText;
-@property __weak NSButton *pinViewHelpButton; // @synthesize pinViewHelpButton=_pinViewHelpButton;
-@property __weak NSImageView *pinViewImageView; // @synthesize pinViewImageView=_pinViewImageView;
-@property __weak NSTextField *pinViewMessage; // @synthesize pinViewMessage=_pinViewMessage;
-@property __weak NSView *pinViewPinFieldPlaceholder; // @synthesize pinViewPinFieldPlaceholder=_pinViewPinFieldPlaceholder;
 @property(retain) MMPinFieldView *pinViewPinFieldView; // @synthesize pinViewPinFieldView=_pinViewPinFieldView;
-@property __weak NSLayoutConstraint *pinViewPinFieldWidthConstraint; // @synthesize pinViewPinFieldWidthConstraint=_pinViewPinFieldWidthConstraint;
-@property __weak NSTextField *pinViewTitle; // @synthesize pinViewTitle=_pinViewTitle;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
-@property _Bool usingNumericPassphrase; // @synthesize usingNumericPassphrase=_usingNumericPassphrase;
 
 @end
 

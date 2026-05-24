@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSArray, NSString;
 
 @interface SOTranscriptArchive
 {
     NSString *_accountName;
-    NSArray *_participants;
-    NSNumber *_chatStyle;
-    NSString *_roomName;
-    NSDictionary *_metaData;
-    NSArray *_placeholders;
 }
 
 + (void);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)<l;
 - (id);
 - (id);
 - (id);
@@ -33,15 +28,7 @@
 - (id)E;
 
 // Remaining properties
-@property(readonly, copy) NSString *accountName; // @synthesize accountName=_accountName;
-@property(readonly, copy) NSNumber *chatStyle; // @synthesize chatStyle=_chatStyle;
-@property(readonly) NSDate *dateCreated;
-@property(readonly) NSDate *dateModified;
-@property(readonly, copy) NSArray *messages;
-@property(readonly) NSDictionary *metaData; // @synthesize metaData=_metaData;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
 @property(readonly) NSArray *placeholders; // @synthesize placeholders=_placeholders;
-@property(readonly, copy) NSString *roomName; // @synthesize roomName=_roomName;
 
 @end
 

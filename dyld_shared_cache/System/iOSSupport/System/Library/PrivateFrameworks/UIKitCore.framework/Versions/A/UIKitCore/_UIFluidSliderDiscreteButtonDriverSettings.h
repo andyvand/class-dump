@@ -6,50 +6,34 @@
 
 #import <UIKitCore/_UIFluidSliderDriverSettings.h>
 
-@class _UISpringAnimationPrototypeSettings;
-
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderDiscreteButtonDriverSettings : _UIFluidSliderDriverSettings
 {
     double _repeatDelay;
-    double _repeatCadence;
-    double _minimumPressDuration;
-    double _verticalVolumeDownScale;
-    double _verticalVolumeUpScale;
-    double _horizontalVolumeDownScale;
-    double _horizontalVolumeUpScale;
-    _UISpringAnimationPrototypeSettings *_settle;
 }
 
 + (id);
-- (double);
-- (double);
+- (double)_provideAudioOnDeviceUID:channels: /* Error: Ran out of types for this method. */;
+- (double)_performControlDidChange;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
+- (double)totalChangeCount;
+- (double)toggleiCloudBackupsIfNeeded: /* Error: Ran out of types for this method. */;
+- (double)compressedProtobufDataForParticipantChangeItem;
+- (double)compressedProtobufDataForParticipantChangeItem;
+- (void);
 - (id)Ô ;
-- (void);
-- (void)sPrintCommand;
+- (void)searchInfo;
+- (void)UIApplicationSupportsPrintCommand;
 - (double)rientation with the application, and [%@ shouldAutorotate] is returning YES;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double horizontalVolumeDownScale; // @synthesize horizontalVolumeDownScale=_horizontalVolumeDownScale;
-@property(nonatomic) double horizontalVolumeUpScale; // @synthesize horizontalVolumeUpScale=_horizontalVolumeUpScale;
-@property(nonatomic) double minimumPressDuration; // @synthesize minimumPressDuration=_minimumPressDuration;
-@property(nonatomic) double repeatCadence; // @synthesize repeatCadence=_repeatCadence;
 @property(nonatomic) double repeatDelay; // @synthesize repeatDelay=_repeatDelay;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *settle; // @synthesize settle=_settle;
-@property(nonatomic) double verticalVolumeDownScale; // @synthesize verticalVolumeDownScale=_verticalVolumeDownScale;
-@property(nonatomic) double verticalVolumeUpScale; // @synthesize verticalVolumeUpScale=_verticalVolumeUpScale;
 
 @end
 

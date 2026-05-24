@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id)qh;
 - (id);
-- (id);
-- (id);
+- (id)age is acknowledged.;
 - (id);
 
 // Remaining properties

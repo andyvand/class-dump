@@ -6,15 +6,12 @@
 
 #import <ScreenReader/_BaseClientPortListener.h>
 
-@class NSObject, NSString;
-@protocol ScreenReaderRemoteControlReceiver;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ControlClientPortListener : _BaseClientPortListener
 {
     NSString *_remoteId;
-    NSString *_remoteName;
-    NSObject<ScreenReaderRemoteControlReceiver> *_receiver;
 }
 
 - (void);
@@ -23,15 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ANEServicesSessionHintRequest;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<ScreenReaderRemoteControlReceiver> *receiver; // @synthesize receiver=_receiver;
 @property(retain, nonatomic) NSString *remoteId; // @synthesize remoteId=_remoteId;
-@property(retain, nonatomic) NSString *remoteName; // @synthesize remoteName=_remoteName;
 
 @end
 

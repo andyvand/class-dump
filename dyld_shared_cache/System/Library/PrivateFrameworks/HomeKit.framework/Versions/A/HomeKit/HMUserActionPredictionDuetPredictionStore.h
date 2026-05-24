@@ -11,7 +11,7 @@
     NSMutableArray *_predictions;
 }
 
-+ (Class);
++ (Class)TimeAbove95PercRange2;
 - (unsigned long long);
 - (id);
 - (void);
@@ -22,11 +22,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)parade;
 - (void);
 - (id);
 - (id);
-- (void)sage;
+- (void)HMXPCEventRouterProtoEventsMessage;
 - (id);
 
 // Remaining properties

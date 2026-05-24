@@ -7,18 +7,6 @@
 @interface AWDProactiveModelFittingQuantizedSparseMatrix
 {
     CDStruct_9f2792e4 _columnIndices;
-    CDStruct_9f2792e4 _rowIndices;
-    CDStruct_9f2792e4 _values;
-    float _bucketSize;
-    unsigned int _columnLength;
-    float _minValue;
-    unsigned int _rowLength;
-    struct {
-        unsigned int bucketSize:1;
-        unsigned int columnLength:1;
-        unsigned int minValue:1;
-        unsigned int rowLength:1;
-    } _has;
 }
 
 + (id);
@@ -28,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ǽ;
 - (void);
 - (unsigned int);
 - (unsigned int *);
@@ -50,11 +38,11 @@
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)supplementalZoneInfos;
+- (unsigned long long)nifest for package %@;
 - (void);
 - (void);
 - (unsigned long long);
@@ -66,23 +54,10 @@
 - (unsigned int *);
 - (id);
 - (id);
-- (float)thStore:tracker:sessionDescriptor:arguments: /* Error: Ran out of types for this method. */;
+- (float)planWithStore:tracker:sessionDescriptor:arguments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float bucketSize; // @synthesize bucketSize=_bucketSize;
-@property(readonly, nonatomic) unsigned int *columnIndices;
 @property(readonly, nonatomic) unsigned long long columnIndicesCount;
-@property(nonatomic) unsigned int columnLength; // @synthesize columnLength=_columnLength;
-@property(nonatomic) _Bool hasBucketSize;
-@property(nonatomic) _Bool hasColumnLength;
-@property(nonatomic) _Bool hasMinValue;
-@property(nonatomic) _Bool hasRowLength;
-@property(nonatomic) float minValue; // @synthesize minValue=_minValue;
-@property(readonly, nonatomic) unsigned int *rowIndices;
-@property(readonly, nonatomic) unsigned long long rowIndicesCount;
-@property(nonatomic) unsigned int rowLength; // @synthesize rowLength=_rowLength;
-@property(readonly, nonatomic) unsigned int *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

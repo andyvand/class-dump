@@ -6,47 +6,30 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, RTBatteryManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationStore, RTLocationManager, RTMapItem, RTMapServiceManager, RTNavigationManager, RTPlaceInferenceQueryStore, RTPointOfInterestSampler, RTScenarioTriggerManager, RTTimer, RTTimerManager, RTVisitManager;
+@class RTBatteryManager;
 
 @interface RTPointOfInterestMetricsManager : RTService
 {
     _Bool _samplingPointOfInterest;
-    int _currentSignalEnvironmentType;
-    RTBatteryManager *_batteryManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTNavigationManager *_navigationManager;
-    RTPlaceInferenceQueryStore *_placeInferenceQueryStore;
-    RTPointOfInterestSampler *_pointOfInterestSampler;
-    RTScenarioTriggerManager *_scenarioTriggerManager;
-    RTTimerManager *_timerManager;
-    RTVisitManager *_visitManager;
-    NSMutableArray *_locationDenyList;
-    unsigned long long _settledState;
-    RTTimer *_samplingTimer;
-    RTMapItem *_navigationDestination;
 }
 
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)�:(id)arg1 ;
 - (id);
 - (id);
-- (unsigned long long);
-- (int);
-- (id);
+- (unsigned long long)__objc_imageinfo__DATA_CONST;
+- (int)setServiceContexts: /* Error: Ran out of types for this method. */;
+- (id)arrayWithCapacity:(id *)arg1;
 - (void);
 - (_Bool);
-- (void);
+- (void)MigrateiCDP;
 - (id);
 - (void);
 - (void);
@@ -60,7 +43,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id))A;
 - (id);
 - (id);
 - (id);
@@ -68,7 +51,7 @@
 - (id);
 - (void)Ó;
 - (id);
-- (id)rtTypeTransit;
+- (id)SMDirectionsTransportTypeTransit;
 - (void)eDisplay, %@, used %.2f seconds ago. exceeds max time interval since used threshold, %.2f;
 - (void)sitive}@. another HistoryEntryRoute is already being predicted to the same destination, %@;
 - (void)tions;
@@ -80,23 +63,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTBatteryManager *batteryManager; // @synthesize batteryManager=_batteryManager;
-@property(nonatomic) int currentSignalEnvironmentType; // @synthesize currentSignalEnvironmentType=_currentSignalEnvironmentType;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) NSMutableArray *locationDenyList; // @synthesize locationDenyList=_locationDenyList;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMapItem *navigationDestination; // @synthesize navigationDestination=_navigationDestination;
-@property(readonly, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(readonly, nonatomic) RTPlaceInferenceQueryStore *placeInferenceQueryStore; // @synthesize placeInferenceQueryStore=_placeInferenceQueryStore;
-@property(readonly, nonatomic) RTPointOfInterestSampler *pointOfInterestSampler; // @synthesize pointOfInterestSampler=_pointOfInterestSampler;
-@property(nonatomic) _Bool samplingPointOfInterest; // @synthesize samplingPointOfInterest=_samplingPointOfInterest;
-@property(retain, nonatomic) RTTimer *samplingTimer; // @synthesize samplingTimer=_samplingTimer;
-@property(readonly, nonatomic) RTScenarioTriggerManager *scenarioTriggerManager; // @synthesize scenarioTriggerManager=_scenarioTriggerManager;
-@property(nonatomic) unsigned long long settledState; // @synthesize settledState=_settledState;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSAccelerationStructureGroup, NSDictionary;
-@protocol MTLComputePipelineState;
+@class MPSAccelerationStructureGroup;
 
 @interface MPSAccelerationStructure
 {
     MPSAccelerationStructureGroup *_group;
-    NSDictionary *_privateOptions;
-    id <MTLComputePipelineState> _boundingBoxCopyPipeline;
-    unsigned long long _status;
-    unsigned long long _usage;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -37,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -46,17 +41,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)cted cannot have a parent layer=%@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _MPSAxisAlignedBoundingBox boundingBox;
 @property(readonly, nonatomic) MPSAccelerationStructureGroup *group;
-@property(readonly, nonatomic) unsigned long long status;
-@property(nonatomic) unsigned long long usage;
 
 @end
 

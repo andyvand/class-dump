@@ -9,7 +9,6 @@
 @interface BMResourceDescriptor
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (id);
@@ -21,13 +20,13 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id);
 - (id);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

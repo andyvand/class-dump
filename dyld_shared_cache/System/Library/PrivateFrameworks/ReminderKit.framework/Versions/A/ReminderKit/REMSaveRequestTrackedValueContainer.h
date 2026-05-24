@@ -9,11 +9,10 @@
 @interface REMSaveRequestTrackedValueContainer
 {
     id <REMSaveRequestTrackedValue> _weakValue;
-    id <REMSaveRequestTrackedValue> _template;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <REMSaveRequestTrackedValue> template; // @synthesize template=_template;
 @property(nonatomic) __weak id <REMSaveRequestTrackedValue> weakValue; // @synthesize weakValue=_weakValue;
 
 @end

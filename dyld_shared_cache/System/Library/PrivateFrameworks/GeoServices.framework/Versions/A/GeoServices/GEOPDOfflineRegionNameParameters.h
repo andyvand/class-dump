@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDOfflineRegionNameParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_region;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)鷟;
 - (_Bool);
 - (id)6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24Q32q40Q48;
-- (id)LoadedTilesNearCoordinate:radius:zoomLevel:tileStyle:tileSize:tileScale: /* Error: Ran out of types for this method. */;
+- (id)_hasLoadedTilesNearCoordinate:radius:zoomLevel:tileStyle:tileSize:tileScale: /* Error: Ran out of types for this method. */;
 - (id)`eÔf(hi;
 - (void)ëQ¸@q=
 ×£T@;

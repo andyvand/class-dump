@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSDictionary;
+@class CIContext;
 
 @interface GIFBuilder
 {
     CIContext *_ciCtx;
-    NSDictionary *_frameProperties;
-    struct CGImageDestination *_imgDest;
-    double _maxRes;
 }
 
 + (id);
@@ -20,20 +17,17 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)Q;
 - (id);
 - (struct CGImageDestination *);
-- (id);
+- (id)kI;
 - (_Bool);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain) CIContext *ciCtx; // @synthesize ciCtx=_ciCtx;
-@property(retain) NSDictionary *frameProperties; // @synthesize frameProperties=_frameProperties;
-@property struct CGImageDestination *imgDest; // @synthesize imgDest=_imgDest;
-@property double maxRes; // @synthesize maxRes=_maxRes;
 
 @end
 

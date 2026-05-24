@@ -9,14 +9,6 @@
 @interface SGM2SelfIdModelScore
 {
     NSString *_key;
-    int _model;
-    int _supervision;
-    _Bool _result;
-    struct {
-        unsigned int model:1;
-        unsigned int supervision:1;
-        unsigned int result:1;
-    } _has;
 }
 
 - (id);
@@ -24,10 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ԃ;
 - (int);
 - (void);
-- (int);
+- (int)CGSize=dd}}32@40q48{CGPoint=dd}56;
 - (_Bool);
 - (void);
 - (id);
@@ -35,29 +27,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mPieOfPieType;
 - (_Bool);
 - (void);
 - (id);
 - (int);
 - (id);
 - (_Bool);
-- (void);
+- (void)9;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)rationError:(id)arg1;
+- (void)shouldRecreateZoneForRecordError:(id)arg1 operationError: /* Error: Ran out of types for this method. */;
 - (void)¨yz;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasModel;
-@property(nonatomic) _Bool hasResult;
-@property(nonatomic) _Bool hasSupervision;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int model; // @synthesize model=_model;
-@property(nonatomic) _Bool result; // @synthesize result=_result;
-@property(nonatomic) int supervision; // @synthesize supervision=_supervision;
 
 @end
 

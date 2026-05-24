@@ -6,7 +6,7 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSString, TSWPStorage;
+@class TSWPStorage;
 
 @interface TSWPAttachment : TSPObject
 {
@@ -15,13 +15,13 @@
 
 + (unsigned int);
 + (id)5;
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)MPTRACE_PLAYBACK_PLAYBACKSTART;
+- (void)MPTRACE_PLAYBACK_STREAM_RANDRY;
+- (void)e;
+- (id)RMO;
+- (_Bool)UpdateItems;
+- (void)noAbsolute, @monoContinuous, @monoTimebaseNS, @userNS, @threadPriority, @payload);
+- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -32,31 +32,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)limitedDiversifyReverseChronological;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (id)SWPCharIndexAndAffinity}"__end_"^{_TSWPCharIndexAndAffinity}""{?="__cap_"^{_TSWPCharIndexAndAffinity}}};
 - (_Bool)m.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDStroke.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long enabledKnobMask;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAnchored;
-@property(readonly, nonatomic) _Bool isAttachedToBodyText;
-@property(readonly, nonatomic) _Bool isDrawable;
-@property(readonly, nonatomic) _Bool isPartitioned;
-@property(readonly, nonatomic) _Bool isSearchable;
 @property(nonatomic) TSWPStorage *parentStorage; // @synthesize parentStorage=_parentStorage;
-@property(readonly, nonatomic) Class positionerClass;
-@property(readonly, nonatomic) _Bool specifiesEnabledKnobMask;
-@property(readonly) Class superclass;
 
 @end
 

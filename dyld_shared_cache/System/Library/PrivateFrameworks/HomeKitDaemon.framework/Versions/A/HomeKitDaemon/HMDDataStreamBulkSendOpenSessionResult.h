@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol HMDDataStreamBulkSendSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamBulkSendOpenSessionResult
 {
     id <HMDDataStreamBulkSendSession> _session;
-    NSDictionary *_payload;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)on %{public}@;
 - (void)r ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
 @property(readonly, nonatomic) id <HMDDataStreamBulkSendSession> session; // @synthesize session=_session;
 
 @end

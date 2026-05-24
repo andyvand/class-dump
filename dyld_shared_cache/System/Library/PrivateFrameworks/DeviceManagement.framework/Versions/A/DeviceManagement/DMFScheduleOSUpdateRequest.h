@@ -6,23 +6,18 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSString;
-
 @interface DMFScheduleOSUpdateRequest : DMFTaskRequest
 {
     _Bool _useDelay;
-    unsigned long long _action;
-    NSString *_productKey;
-    NSString *_productVersion;
 }
 
 + (_Bool);
-+ (Class);
-+ (id);
++ (Class);
++ (id)bjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF:(unsigned long long)arg1:Ref<WebCore::RTCDataChannelRemoteSource>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)`;
 - (_Bool);
 - (void);
 - (void);
@@ -35,13 +30,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)autocompleteFetchToken;
 
 // Remaining properties
 @property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *productKey; // @synthesize productKey=_productKey;
-@property(copy, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(nonatomic) _Bool useDelay; // @synthesize useDelay=_useDelay;
 
 @end
 

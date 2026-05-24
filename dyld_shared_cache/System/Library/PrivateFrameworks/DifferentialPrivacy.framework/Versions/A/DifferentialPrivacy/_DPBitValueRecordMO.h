@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DPBitValueRecordMO
 {
 }
@@ -14,11 +12,6 @@
 
 // Remaining properties
 @property(nonatomic) short clearBitValue; // @dynamic clearBitValue;
-@property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSString *key; // @dynamic key;
-@property(copy, nonatomic) NSString *privateBitValueStr; // @dynamic privateBitValueStr;
-@property(nonatomic) long long reportVersion; // @dynamic reportVersion;
-@property(nonatomic) _Bool submitted; // @dynamic submitted;
 
 @end
 

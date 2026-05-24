@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
 @interface UIProgressViewMacVisualElement : UIView
 {
     NSProgressIndicator *_wrappedProgressIndicator;
-    UIView *_hostView;
-    UIProgressView *progressControlView;
 }
 
-+ (_Bool);
++ (_Bool)Registering bundle:%@ /* Error: Ran out of types for this method. */;
 + (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize)7;
 + (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)uf;
 - (void);
 - (void)ñað1Â0@ù
 × ;

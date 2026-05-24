@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface WBSRemoteHistorySession
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_items;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)IKSFEffectDescriptionParameterMaxValueKey;
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,13 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id).apple.com/v2/assets;
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, getter=isCurrentSession) _Bool currentSession;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

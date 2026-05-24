@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioSessionSetActiveEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)r this client);
 - (id);
 - (void);
-- (void);
+- (void)79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/p5_pbev2.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,14 +22,12 @@
 - (id);
 - (id)leted",&,N,V_ended;
 - (id);
-- (_Bool)RYCODE_NZ;
+- (_Bool)ISOCOUNTRYCODE_NZ;
 - (_Bool)ÃÇÿ;
 - (void)§®z-(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

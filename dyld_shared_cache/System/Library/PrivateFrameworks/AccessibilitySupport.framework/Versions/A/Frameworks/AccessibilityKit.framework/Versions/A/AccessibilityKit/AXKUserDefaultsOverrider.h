@@ -9,7 +9,6 @@
 @interface AXKUserDefaultsOverrider
 {
     NSMutableDictionary *_overrides;
-    NSMutableDictionary *__previousValues;
 }
 
 + (id);
@@ -19,16 +18,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)y;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)set_detailsTextField: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_previousValues; // @synthesize _previousValues=__previousValues;
-@property(readonly, nonatomic) NSMutableDictionary *overrides; // @synthesize overrides=_overrides;
 
 @end
 

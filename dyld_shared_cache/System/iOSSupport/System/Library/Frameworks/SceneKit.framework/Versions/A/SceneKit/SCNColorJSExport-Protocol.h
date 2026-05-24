@@ -66,9 +66,6 @@
 } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double a;
-@property(readonly, nonatomic) double b;
-@property(readonly, nonatomic) double g;
 @property(readonly, nonatomic) double r;
 @end
 

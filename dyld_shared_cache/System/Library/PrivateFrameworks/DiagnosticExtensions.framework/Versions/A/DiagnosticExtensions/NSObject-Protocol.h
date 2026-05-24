@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)_blockOrUnblockSendersForAddresses:block:blockedAddressDatabaseIDs:connection:addressesToUpdate: /* Error: Ran out of types for this method. */;
+- (id)n:(SEL)arg1;
+- (id)estoration:(SEL)arg1 isResetAllManualCategorization:(id)arg2;
+- (id)_biomeRecategorizationTypeFromType:(SEL)arg1 isHighImpactFlagChange:isModelCategoryRestoration:isResetAllManualCategorization: /* Error: Ran out of types for this method. */;
+- (Class)_biomeFedStatsCategoryValueFrom: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)qiIq}{?=qiIq}{?=qiIq}}24@0:8q16 /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)Data;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

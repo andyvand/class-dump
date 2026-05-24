@@ -4,57 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPPunchoutForFeedback;
-
 @interface _CPMapsCardSectionEngagementFeedback
 {
     int _triggerEvent;
-    int _actionCardType;
-    int _feedbackType;
-    unsigned long long _timestamp;
-    _CPPunchoutForFeedback *_destination;
-    NSString *_cardSectionId;
-    NSString *_resultId;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)park:(id)arg1:variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, mpark::variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, mpark::variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, mpark::variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, mpark::variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)WebKit:(int)arg1:DownloadProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)Target> *WTF::downcast(Source *) [Target = API::ContentRuleList, Source = API::Object] /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void)ext:(int)arg1;
+- (void)setWatchListContinuationText:(int)arg1;
 - (int)PSearchResultForFeedback",&,N,V_goTakeoverResult;
 
 // Remaining properties
-@property(nonatomic) int actionCardType; // @synthesize actionCardType=_actionCardType;
-@property(copy, nonatomic) NSString *cardSectionId; // @synthesize cardSectionId=_cardSectionId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _CPPunchoutForFeedback *destination; // @synthesize destination=_destination;
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *resultId; // @synthesize resultId=_resultId;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

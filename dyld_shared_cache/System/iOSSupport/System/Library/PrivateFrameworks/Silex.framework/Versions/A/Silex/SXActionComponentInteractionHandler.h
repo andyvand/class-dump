@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXAction, SXActionManager, SXActionSerializer, SXAnalyticsReportingProvider;
+@protocol SXAction;
 
 @interface SXActionComponentInteractionHandler
 {
     id <SXAction> _action;
-    id <SXActionManager> _actionManager;
-    id <SXActionSerializer> _actionSerializer;
-    id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
 }
 
 - (id);
@@ -30,16 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAction> action; // @synthesize action=_action;
-@property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;
-@property(readonly, nonatomic) id <SXActionSerializer> actionSerializer; // @synthesize actionSerializer=_actionSerializer;
-@property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

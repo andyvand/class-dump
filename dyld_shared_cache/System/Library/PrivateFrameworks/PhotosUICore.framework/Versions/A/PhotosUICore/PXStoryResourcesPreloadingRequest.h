@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStorySongResource, PXStoryTimeline;
-
 @interface PXStoryResourcesPreloadingRequest
 {
     _Bool _shouldIgnoreStartingSegmentIdentifier;
-    _Bool _isCancelled;
-    id <PXStoryTimeline> _timeline;
-    unsigned long long _timelineAttributes;
-    long long _startingSegmentIdentifier;
-    id <PXStorySongResource> _songResource;
 }
 
 - (unsigned long long);
@@ -29,11 +22,6 @@
 
 // Remaining properties
 @property _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) _Bool shouldIgnoreStartingSegmentIdentifier; // @synthesize shouldIgnoreStartingSegmentIdentifier=_shouldIgnoreStartingSegmentIdentifier;
-@property(retain, nonatomic) id <PXStorySongResource> songResource; // @synthesize songResource=_songResource;
-@property(readonly, nonatomic) long long startingSegmentIdentifier; // @synthesize startingSegmentIdentifier=_startingSegmentIdentifier;
-@property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
-@property(readonly, nonatomic) unsigned long long timelineAttributes; // @synthesize timelineAttributes=_timelineAttributes;
 
 @end
 

@@ -4,57 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSObject, NSString, PPContactDiskCacheManager, PPMeCardCacheManager, PPSQLDatabase;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, SGSuggestionsServiceContactsProtocol;
+@class CNContactStore;
 
 @interface PPContactStorage
 {
     CNContactStore *_contactsStore;
-    NSObject<OS_dispatch_semaphore> *_concurrentContactQueryThrottleSem;
-    NSObject<OS_dispatch_queue> *_concurrentContactQueryQueue;
-    PPContactDiskCacheManager *_contactCacheManager;
-    PPMeCardCacheManager *_meCardCacheManager;
-    id <SGSuggestionsServiceContactsProtocol> _foundInAppsService;
-    CDUnknownBlockType _foundInAppsHarvestStoreGetter;
-    NSString *_path;
-    PPSQLDatabase *_db;
-    _Bool _chineseBirthdayFound;
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)y;
+- (id)=;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)tory.lwsgJi/Sources/TimeSync/clocksyncd/IOKit/TSDClockManager.mm;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ge must be sent because it is an SOS message.;
 - (id);
 - (void);
+- (id);
+- (CDUnknownBlockType)IDs:(id)arg1 %@;
+- (CDUnknownBlockType);
+- (id)";
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void)!;
 - (id)ù÷ð1Â0@ù
 × ;
-- (void)stThrottle: /* Error: Ran out of types for this method. */;
+- (void)waitForBlockWithRequestThrottle: /* Error: Ran out of types for this method. */;
 
 @end
 

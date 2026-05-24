@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKParticipant, NSMutableArray, UILayoutGuide, UIView;
+@class EKParticipant, NSMutableArray;
 
 @interface EKAttendeeCommentsTableViewCell
 {
     NSMutableArray *_constraints;
-    UILayoutGuide *_textCenteringGuide;
-    UIView *_avatarView;
-    UIView *_titleView;
-    UIView *_commentView;
-    UIView *_timeView;
-    EKParticipant *_participant;
 }
 
+- (id);
 - (id);
-- (id);
-- (void);
-- (void)dInsidePopover;
+- (void);
+- (void)isPresentedInsidePopover;
 
 // Remaining properties
 @property(readonly, nonatomic) EKParticipant *participant; // @synthesize participant=_participant;

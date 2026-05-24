@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TUNearbyDeviceHandleCapabilities;
-
 @interface TUNearbyDeviceHandle
 {
     struct os_unfair_lock_s _accessorLock;
-    NSDictionary *_knownIdentifiersByHandleType;
-    NSString *_name;
-    long long _deviceModel;
-    TUNearbyDeviceHandleCapabilities *_capabilities;
 }
 
-+ (_Bool);
++ (_Bool)t;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (id);
 - (id);
 - (id);
@@ -32,20 +26,15 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
+- (id)8@"NSURLSession"16@"NSError"24;
 - (id);
-- (id);
-- (id);
-- (void)CurrentPlatform;
+- (void)supportsCurrentPlatform;
 - (long long)%@ isFaceTimeServiceAvailable:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, nonatomic) TUNearbyDeviceHandleCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) long long deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly, nonatomic) NSDictionary *knownIdentifiersByHandleType; // @synthesize knownIdentifiersByHandleType=_knownIdentifiersByHandleType;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDictionary *plistRepresentation;
 
 @end
 

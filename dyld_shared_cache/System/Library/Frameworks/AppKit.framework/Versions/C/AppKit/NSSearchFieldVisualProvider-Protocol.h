@@ -5,5 +5,6 @@
 //
 
 @protocol NSSearchFieldVisualProvider
+- (struct CGRect);
 @end
 

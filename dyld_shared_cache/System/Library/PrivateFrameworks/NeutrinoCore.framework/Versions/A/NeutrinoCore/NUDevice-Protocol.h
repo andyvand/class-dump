@@ -5,16 +5,13 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
+@protocol NURenderer;
 
 @protocol NUDevice
+- (_Bool);
+- (id <NURenderer>);
 
 // Remaining properties
-@property(readonly, nonatomic) long long defaultSampleMode;
-@property(readonly, nonatomic) unsigned long long family;
-@property(readonly, nonatomic) _Bool hasMetalSupport;
-@property(readonly, nonatomic) id <MTLDevice> metalDevice;
-@property(readonly, nonatomic) NSString *model;
 @property(readonly, nonatomic) NSString *name;
 @end
 

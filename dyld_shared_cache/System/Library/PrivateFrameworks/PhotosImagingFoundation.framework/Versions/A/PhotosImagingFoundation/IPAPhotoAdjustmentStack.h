@@ -6,17 +6,13 @@
 
 #import <PhotosImagingFoundation/IPAAdjustmentStack.h>
 
-@class IPAPhotoAdjustmentPipeline;
-
 @interface IPAPhotoAdjustmentStack : IPAAdjustmentStack
 {
     long long _orientation;
-    IPAPhotoAdjustmentPipeline *_pipeline;
-    struct PFIntSize_st _inputSize;
 }
 
 - (id);
-- (id);
+- (id)AVSpatialVideoConfiguration;
 - (void);
 - (id);
 - (void);
@@ -24,13 +20,11 @@
 - (struct PFIntSize_st);
 - (long long);
 - (id);
-- (void);
-- (void);
+- (void)}!;
+- (void)setGatingPassTrimResult_lastIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct PFIntSize_st inputSize; // @synthesize inputSize=_inputSize;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) IPAPhotoAdjustmentPipeline *pipeline; // @synthesize pipeline=_pipeline;
 
 @end
 

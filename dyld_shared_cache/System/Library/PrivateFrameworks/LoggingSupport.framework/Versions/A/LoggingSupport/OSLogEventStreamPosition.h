@@ -7,21 +7,17 @@
 @interface OSLogEventStreamPosition
 {
     unsigned char _source[16];
-    unsigned char _uuid[16];
-    unsigned long long _ct;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (const char *);
+- (const char *)lement=i^{CGPoint}}8;
 - (const char *);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) const char *UUID;
-@property(readonly) unsigned long long continuousTime;
 @property(readonly) const char *sourceUUID;
 
 @end

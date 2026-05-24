@@ -6,37 +6,24 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSMetricsEvent, NSDictionary, NSMutableArray, NSString;
-
 @interface AMSCardAuthorizationTask : AMSTask
 {
     _Bool _didBiometricsLockout;
-    _Bool _didCancelHomeButton;
-    long long _confirmationStyle;
-    NSString *_countryCode;
-    NSString *_currencyCode;
-    AMSMetricsEvent *_metricsEvent;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSDictionary *_paymentSession;
-    NSString *_presentationSceneBundleIdentifier;
-    NSString *_presentationSceneIdentifier;
-    NSMutableArray *_userActions;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -49,25 +36,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)WDMA;
 - (id)0@ù
 × ;
 - (void);
 - (void)îÀH8÷0Í²&¹Ó/êhÏíB<:ÍóÙ«d¯7'P²1Xtoòâ¬Ì½=2~µ¸s©k9-·®5,±LÉ?ÉSñÚË[µîik#ªÒâ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long confirmationStyle; // @synthesize confirmationStyle=_confirmationStyle;
-@property(retain) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property _Bool didBiometricsLockout; // @synthesize didBiometricsLockout=_didBiometricsLockout;
-@property _Bool didCancelHomeButton; // @synthesize didCancelHomeButton=_didCancelHomeButton;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(retain) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(retain) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly) NSDictionary *paymentSession; // @synthesize paymentSession=_paymentSession;
-@property(retain) NSString *presentationSceneBundleIdentifier; // @synthesize presentationSceneBundleIdentifier=_presentationSceneBundleIdentifier;
-@property(retain) NSString *presentationSceneIdentifier; // @synthesize presentationSceneIdentifier=_presentationSceneIdentifier;
-@property(retain) NSMutableArray *userActions; // @synthesize userActions=_userActions;
 
 @end
 

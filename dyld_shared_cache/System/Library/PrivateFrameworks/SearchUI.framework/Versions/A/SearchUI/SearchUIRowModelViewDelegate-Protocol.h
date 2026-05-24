@@ -5,5 +5,8 @@
 //
 
 @protocol SearchUIRowModelViewDelegate
+
+@optional
+- (_Bool)%s;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (PIDByName)
-+ (id);
++ (id);
 @end
 

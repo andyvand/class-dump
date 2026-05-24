@@ -5,5 +5,8 @@
 //
 
 @protocol SPBeaconSharingProtocol
+- (void);
+- (void);
+- (void);
 @end
 

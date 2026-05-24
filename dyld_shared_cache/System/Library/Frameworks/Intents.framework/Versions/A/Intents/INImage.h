@@ -9,9 +9,6 @@
 @interface INImage
 {
     NSString *_identifier;
-    long long __renderingMode;
-    CDStruct_8caa76fc _imageSize;
-    CDStruct_8caa76fc _preferredScaledSize;
 }
 
 @end

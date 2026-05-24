@@ -9,12 +9,10 @@
 @interface BMComputePublisherStorage
 {
     BMFileManager *_fileManager;
-    _Bool _isClient;
-    unsigned long long _domain;
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -23,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,12 +38,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)5;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool isClient; // @synthesize isClient=_isClient;
 
 @end
 

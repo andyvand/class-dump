@@ -6,19 +6,11 @@
 
 #import <Foundation/NSClassDescription.h>
 
-@class NSArray, NSDictionary, NSObject, NSString;
+@class NSString;
 
 @interface NSScriptClassDescription : NSClassDescription
 {
     NSString *_suiteName;
-    NSString *_objcClassName;
-    unsigned int _appleEventCode;
-    NSObject *_superclassNameOrDescription;
-    NSArray *_attributeDescriptions;
-    NSArray *_toOneRelationshipDescriptions;
-    NSArray *_toManyRelationshipDescriptions;
-    NSDictionary *_commandMethodSelectorsByName;
-    id _moreVars;
 }
 
 + (id);
@@ -35,10 +27,10 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned int);
@@ -52,7 +44,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,7 +66,7 @@
 - (id);
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,12 +82,7 @@
 - (id)+9;
 
 // Remaining properties
-@property(readonly) unsigned int appleEventCode;
-@property(readonly, copy) NSString *className;
-@property(readonly, copy) NSString *defaultSubcontainerAttributeKey;
-@property(readonly, copy) NSString *implementationClassName;
 @property(readonly, copy) NSString *suiteName;
-@property(readonly, retain) NSScriptClassDescription *superclassDescription;
 
 @end
 

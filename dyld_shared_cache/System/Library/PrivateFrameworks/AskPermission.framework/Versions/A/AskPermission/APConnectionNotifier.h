@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol ConnectionProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface APConnectionNotifier
 {
     NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSXPCConnection *_underlyingRemoteConnection;
 }
 
 + (id);
@@ -26,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly) id <ConnectionProtocol> remoteObjectProxy;
-@property(retain) NSXPCConnection *underlyingRemoteConnection; // @synthesize underlyingRemoteConnection=_underlyingRemoteConnection;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSTimer, UIMenu, UITextContextMenuInteraction, UITextInteractionAssistant, UIView, UIWindow;
+@class NSTimer, UITextInteractionAssistant;
 
 __attribute__((visibility("hidden")))
 @interface _UITextInteractionEditMenuAssistant
 {
     NSTimer *_delayedEditMenuTimer;
-    NSNumber *_interactionAssistantViewRespondsShouldShowEditMenu;
-    _Bool _wasShowingEditMenuBeforeScroll;
-    UITextInteractionAssistant *_interactionAssistant;
-    UITextContextMenuInteraction *_menuInteraction;
-    NSArray *_replacements;
-    UIMenu *_overrideMenu;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)!;
+- (id)r=}16;
+- (id)unarchivedDictionaryWithKeysOfClass:objectsOfClass:fromData:error: /* Error: Ran out of types for this method. */;
+- (id)messageHistorySummaryForDateInterval:chatIdentifiers:chatStyle:services: /* Error: Ran out of types for this method. */;
+- (id)_recordNameToMessageItemMap;
+- (id)_recordManager;
+- (void)ages;
+- (void)dDuringStorageNoQOI;
+- (id)tionFactory",&,N,V_CKOperationFactory;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)`;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -42,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void)tivationPredicate;
 - (id);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)__MPModelPropertySongVolumeNormalization__MAPPING_MISSING__;
 - (id);
 - (_Bool);
 - (id);
@@ -58,9 +52,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (void)1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)tEngine:(double)arg1;
+- (void)_lfld_addVariableChangeRecordForVariable:(double)arg1 inLayoutEngine: /* Error: Ran out of types for this method. */;
 - (void)Timer;
-- (void)cterInsertionRate;
+- (void)streamingCharacterInsertionRate;
 - (void);
 - (void)g:(_Bool)arg1 identifier path results in 0 identifiers in array. Passed in path:%@, object %@ /* Error: Ran out of types for this method. */;
 - (void)etrieve auxillary item from result.;
@@ -69,20 +63,7 @@ __attribute__((visibility("hidden")))
 - (id)É;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _editMenuDismissedByActionSelection;
-@property(readonly, nonatomic) _Bool _editMenuDismissedRecently;
-@property(readonly, nonatomic) _Bool _editMenuIsVisible;
-@property(readonly, nonatomic) _Bool _editMenuIsVisibleOrDismissedRecently;
-@property(readonly, nonatomic) _Bool _editMenuPrefersPresentationInView;
-@property(readonly, nonatomic) UIWindow *_editMenuSourceWindow;
-@property(readonly, nonatomic) struct CGRect _editMenuTargetRect;
-@property(readonly, nonatomic) _Bool _hasTextReplacements;
-@property(readonly, nonatomic) NSArray *_preferredLayoutRectsForEditMenu;
-@property(readonly, nonatomic) UIView *_selectionView;
 @property(readonly, nonatomic) __weak UITextInteractionAssistant *interactionAssistant; // @synthesize interactionAssistant=_interactionAssistant;
-@property(retain, nonatomic) UITextContextMenuInteraction *menuInteraction; // @synthesize menuInteraction=_menuInteraction;
-@property(readonly, nonatomic) UIMenu *overrideMenu; // @synthesize overrideMenu=_overrideMenu;
-@property(readonly, nonatomic) NSArray *replacements; // @synthesize replacements=_replacements;
 
 @end
 

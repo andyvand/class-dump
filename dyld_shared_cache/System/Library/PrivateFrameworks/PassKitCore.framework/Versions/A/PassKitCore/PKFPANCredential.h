@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSDate, NSString, PKAutoFillCardCredential, PKFPANCardDescriptor;
+@class NSString;
 
 @interface PKFPANCredential : PKPaymentCredential
 {
     NSString *_cardholderName;
-    NSString *_cardNumber;
-    NSDate *_expirationDate;
-    NSString *_securityCode;
-    PKFPANCardDescriptor *_descriptor;
-    PKAutoFillCardCredential *_credential;
 }
 
 + (_Bool)X"°!äFùî%°1Â0@ù
@@ -23,34 +18,28 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)kB;
+- (id)7
+;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)*%;
+- (id)hasChannelBandwidth;
 - (void);
 - (long long);
 - (id)
 × ;
-- (id)rollmentInfoProvider;
+- (id)PKTrustedDeviceEnrollmentInfoProvider;
 - (void)aryAccountIdentifier:'%@';  /* Error: Ran out of types for this method. */;
-- (id)otnote;
+- (id)footnote;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canCheckEligibility;
-@property(readonly, copy, nonatomic) NSString *cardNumber; // @synthesize cardNumber=_cardNumber;
 @property(readonly, copy, nonatomic) NSString *cardholderName; // @synthesize cardholderName=_cardholderName;
-@property(readonly, copy, nonatomic) PKAutoFillCardCredential *credential; // @synthesize credential=_credential;
-@property(readonly, copy, nonatomic) PKFPANCardDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, copy, nonatomic) NSString *expiration; // @dynamic expiration;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *securityCode; // @synthesize securityCode=_securityCode;
 
 @end
 

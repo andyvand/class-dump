@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol _INPBTextNoteContent
-- (_Bool)tIdentifier;
+- (_Bool)_startAnnouncementIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasText;
 @property(copy, nonatomic) NSString *text;
 @end
 

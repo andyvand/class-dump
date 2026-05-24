@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString, NSURL;
+@class NSNumber, NSString;
 
 @interface PPSocialHighlight
 {
     NSString *_identifier;
-    NSURL *_resourceURL;
-    NSDate *_timestamp;
-    NSArray *_attributionIdentifiers;
-    NSDictionary *_supplementaryData;
-    NSNumber *_score;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)copyIntoTile:(id)arg1 tileFramebuffer:tileTransform:waitUntilCompleted: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id));
+- (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributionIdentifiers; // @synthesize attributionIdentifiers=_attributionIdentifiers;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
 @property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSDictionary *supplementaryData; // @synthesize supplementaryData=_supplementaryData;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

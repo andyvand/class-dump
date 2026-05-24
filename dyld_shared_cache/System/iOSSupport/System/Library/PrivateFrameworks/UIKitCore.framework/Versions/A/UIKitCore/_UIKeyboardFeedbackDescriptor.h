@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardFeedbackDescriptor
 {
     float _hapticIntensity;
-    float _hapticSharpness;
-    float _audioVolume;
-    NSString *_audioFile;
 }
 
 + (id);
 - (void);
 - (void);
-- (float);
-- (float);
+- (float)ileURLs(forBundleID:protectionClass:itemIdentifiers:typeIdentifier:options:completionHandler:) /* Error: Ran out of types for this method. */;
+- (float)iceURIsFromIMessageList:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *audioFile; // @synthesize audioFile=_audioFile;
-@property(nonatomic) float audioVolume; // @synthesize audioVolume=_audioVolume;
 @property(nonatomic) float hapticIntensity; // @synthesize hapticIntensity=_hapticIntensity;
-@property(nonatomic) float hapticSharpness; // @synthesize hapticSharpness=_hapticSharpness;
 
 @end
 

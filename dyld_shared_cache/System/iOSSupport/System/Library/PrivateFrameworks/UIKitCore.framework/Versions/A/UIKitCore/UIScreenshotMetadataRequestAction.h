@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)nding recoverable messages to delete from CloudKit;
 - (long long);
 
 @end

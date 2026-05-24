@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSEventDeferringChainIdentity, BKSHIDEventDeferringEnvironment, BKSHIDEventDisplay;
+@class BKSEventDeferringChainIdentity;
 
 @interface BKSHIDEventDeliveryChainObserver
 {
     BKSEventDeferringChainIdentity *_chainIdentity;
-    BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringEnvironment *_deferringEnvironment;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)N_TABLE.%@-sub.a)*(MAIN_TABLE.%@-sub.a)) as var from MAIN_TABLE, (SELECT AVG(%@) AS a FROM MAIN_TABLE) AS sub;;
+- (id))A;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BKSEventDeferringChainIdentity *chainIdentity;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringEnvironment *deferringEnvironment; // @synthesize deferringEnvironment=_deferringEnvironment;
-@property(readonly, copy, nonatomic) BKSHIDEventDisplay *display; // @synthesize display=_display;
 
 @end
 

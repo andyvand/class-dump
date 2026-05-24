@@ -9,7 +9,6 @@
 @interface WiFiAwareFastDiscoveryConfiguration
 {
     unsigned char _peerBandInformation;
-    NSNumber *_instantCommunicationChannel;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *instantCommunicationChannel; // @synthesize instantCommunicationChannel=_instantCommunicationChannel;
-@property(nonatomic) unsigned char peerBandInformation; // @synthesize peerBandInformation=_peerBandInformation;
 
 @end
 

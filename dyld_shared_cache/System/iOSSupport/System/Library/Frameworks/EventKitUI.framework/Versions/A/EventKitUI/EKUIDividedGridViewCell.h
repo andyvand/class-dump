@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIDividedGridViewController, NSLayoutConstraint, UIColor, UILabel;
+@class EKUIDividedGridViewController, UIColor;
 
 @interface EKUIDividedGridViewCell
 {
     UIColor *_bgColor;
-    _Bool _selected;
-    UILabel *_label;
-    EKUIDividedGridViewController *_viewController;
-    NSLayoutConstraint *_widthConstraint;
 }
 
-- (id);
+- (id){;
 - (void);
 - (id);
 - (id);
+- (id)RM`;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void)AdÐ!à@ùqn1Â0@ù
 × ;
-- (void)sTitleForURL:incomplete: /* Error: Ran out of types for this method. */;
+- (void)synchronousTitleForURL:incomplete: /* Error: Ran out of types for this method. */;
 - (_Bool)ew controller;
 
 // Remaining properties
-@property(retain) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 @property __weak EKUIDividedGridViewController *viewController; // @synthesize viewController=_viewController;
-@property __weak NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

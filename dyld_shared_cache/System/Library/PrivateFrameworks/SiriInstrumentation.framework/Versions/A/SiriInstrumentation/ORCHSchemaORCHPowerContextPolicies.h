@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHPowerContextPolicies : SISchemaInstrumentationMessage
 {
     int _asrAssistantPolicy;
-    int _asrDictationPolicy;
-    int _ttsPolicy;
-    struct {
-        unsigned int asrAssistantPolicy:1;
-        unsigned int asrDictationPolicy:1;
-        unsigned int ttsPolicy:1;
-    } _has;
 }
 
 - (void);
@@ -25,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -42,17 +33,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id)nabilityIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_currentSpeed;
+- (id)setHasExplainabilityIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int asrAssistantPolicy; // @synthesize asrAssistantPolicy=_asrAssistantPolicy;
-@property(nonatomic) int asrDictationPolicy; // @synthesize asrDictationPolicy=_asrDictationPolicy;
-@property(nonatomic) _Bool hasAsrAssistantPolicy;
-@property(nonatomic) _Bool hasAsrDictationPolicy;
-@property(nonatomic) _Bool hasTtsPolicy;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int ttsPolicy; // @synthesize ttsPolicy=_ttsPolicy;
 
 @end
 

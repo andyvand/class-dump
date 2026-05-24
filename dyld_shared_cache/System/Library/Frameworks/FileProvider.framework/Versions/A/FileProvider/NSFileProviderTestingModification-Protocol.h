@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDomainVersion, NSFileProviderItemVersion, NSString;
+@class NSFileProviderDomainVersion, NSFileProviderItemVersion;
 @protocol NSFileProviderItem;
 
 @protocol NSFileProviderTestingModification
+- (NSFileProviderItemVersion *)"M;
+- (id <NSFileProviderItem>);
+- (NSFileProviderDomainVersion *)azuli session due to INVITE error for message send trx ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long changedFields;
-@property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic) id <NSFileProviderItem> sourceItem;
-@property(readonly, nonatomic) NSFileProviderItemVersion *targetItemBaseVersion;
-@property(readonly, nonatomic) NSString *targetItemIdentifier;
 @property(readonly, nonatomic) unsigned long long targetSide;
 @end
 

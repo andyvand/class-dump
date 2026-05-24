@@ -7,12 +7,6 @@
 @interface PhotosGraph.PhotoKitInputStream
 {
     id $defaultActor;
-    id graphIdentifier;
-    id tokenStore;
-    id stopped;
-    id photoLibrary;
-    id currentLibraryToken;
-    id delegate;
 }
 
 @end

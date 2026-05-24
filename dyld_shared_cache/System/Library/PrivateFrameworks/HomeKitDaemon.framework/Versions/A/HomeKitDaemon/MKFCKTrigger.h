@@ -6,30 +6,17 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKHome, NSDate, NSSet, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface MKFCKTrigger : MKFCKHomeObject
 {
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)hasCollectionDescription;
+- (_Bool)em block list updates;
 
 // Remaining properties
 @property(nonatomic) _Bool autoDelete; // @dynamic autoDelete;
-@property(copy, nonatomic) NSString *configuredName; // @dynamic configuredName;
-@property(nonatomic) _Bool enabled; // @dynamic enabled;
-@property(nonatomic) _Bool executeOnce; // @dynamic executeOnce;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *scenes; // @dynamic scenes;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

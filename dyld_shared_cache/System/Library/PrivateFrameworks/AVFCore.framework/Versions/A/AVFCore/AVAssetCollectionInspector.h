@@ -14,19 +14,18 @@ __attribute__((visibility("hidden")))
     struct OpaqueFigAssetCollection *_figCollection;
 }
 
-- (id);
+- (id)0;4<;
 - (struct OpaqueFigAsset *);
 - (struct OpaqueFigAsset *);
 - (id);
-- (void);
+- (void)y;
 - (unsigned long long);
-- (void);
+- (void)u;
 - (void *);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetCount;
 @property(readonly, nonatomic) NSString *type;
 
 @end

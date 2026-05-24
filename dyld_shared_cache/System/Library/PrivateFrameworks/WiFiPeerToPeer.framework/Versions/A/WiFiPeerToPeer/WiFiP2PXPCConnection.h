@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source, WiFiP2PXPCConnectionDelegate;
+@protocol WiFiP2PXPCConnectionDelegate;
 
 @interface WiFiP2PXPCConnection
 {
     unsigned long long _endpointType;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _retryTimeout;
-    NSXPCConnection *_connection;
-    id _remoteObject;
-    int _notifyToken;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    NSMutableArray *_queuedRequests;
-    id <WiFiP2PXPCConnectionDelegate> _delegate;
 }
 
 + (_Bool);
@@ -38,17 +29,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)setOffsetContrast:(CDUnknownBlockType)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsCorrectedMapItemProvider.m;
 - (void);
 
 // Remaining properties

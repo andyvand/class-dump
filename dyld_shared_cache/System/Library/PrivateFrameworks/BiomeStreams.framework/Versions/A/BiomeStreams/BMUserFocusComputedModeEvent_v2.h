@@ -10,7 +10,7 @@
 {
 }
 
-- (id)replica_identity_stmt__pack;
+- (id)pg_query__replica_identity_stmt__pack;
 
 @end
 

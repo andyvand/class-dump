@@ -7,15 +7,6 @@
 @interface NewsFeed.PuzzleGameCenterService
 {
     id $defaultActor;
-    id appConfigurationManager;
-    id featureAvailability;
-    id sceneProvider;
-    id puzzleService;
-    id puzzleHistoryService;
-    id networkReachability;
-    id _lastAuthenticationResult;
-    id listeners;
-    id pendingScores;
 }
 
 - (void);

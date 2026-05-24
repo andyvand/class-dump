@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CUMessageSession, NSString;
+@class CUMessageSession;
 
 @interface CDPTTSUChannel
 {
     _Bool _approverBackupRecordsExist;
-    unsigned long long _approveriCloudKeychainState;
-    _Bool _sentInitialResponse;
-    CDPContext *_cdpContext;
-    NSString *_telemetryFlowIDFromRequester;
-    CUMessageSession *_sharingSession;
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (id)_TtC6Safari35CompletionListPegasusSuggestionData;
+- (void)_TtC6Safari32CompletionListCollectionViewItem;
+- (void)_TtCC6Safari38CompletionListCollectionViewController14CollectionView;
+- (void)_TtC6Safari24CompletionListActionData;
+- (void)VisualTabPickerThumbnailViewInnerView;
+- (unsigned long long)TabDialogViewController;
+- (_Bool)TabDialogSecureTextField;
+- (void)ReadingListSidebarViewControllerBase;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CUMessageSession *sharingSession; // @synthesize sharingSession=_sharingSession;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *telemetryFlowIDFromRequester; // @synthesize telemetryFlowIDFromRequester=_telemetryFlowIDFromRequester;
 
 @end
 

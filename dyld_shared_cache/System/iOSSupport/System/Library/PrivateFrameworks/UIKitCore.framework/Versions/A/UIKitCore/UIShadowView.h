@@ -16,7 +16,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)alhost:(struct CGRect)arg1 5555;
 - (id)VhidePrediction;
 - (void);
 

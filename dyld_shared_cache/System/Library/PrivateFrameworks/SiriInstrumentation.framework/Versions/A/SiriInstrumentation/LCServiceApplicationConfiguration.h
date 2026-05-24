@@ -6,19 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LCServiceLoggingParameters, NSArray, NSData, NSString;
+@class NSString;
 
 @interface LCServiceApplicationConfiguration : SISchemaInstrumentationMessage
 {
     NSString *_bundleIdentifier;
-    LCServiceLoggingParameters *_applicationParameters;
-    NSArray *_categories;
-    NSArray *_blacklistedCategories;
-    _Bool _hasBundleIdentifier;
-    _Bool _hasApplicationParameters;
 }
 
-- (void);
+- (void)׀;
 - (void);
 - (void);
 - (void);
@@ -33,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)%{public}@;
 - (id);
 - (id);
 - (_Bool);
@@ -44,25 +39,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ON m.rowid = ma.message_id WHERE (m.service == 'iMessage' OR m.service == 'SMS') AND a.ck_sync_state == 0 AND m.balloon_bundle_id == 'com.apple.messages.chatbot' ORDER BY a.ROWID LIMIT ? ;
 - (_Bool);
 - (void);
 - (id);
 - (id)sð!Fù±ß°1Â0@ù
 × ;
 - (id)tsReported",&,N,V_dictationDeviceDigestReported;
-- (id)UGResolutionStepContext;
-- (void)TSOURCE_ROOT;
+- (id)SUGSchemaSUGResolutionStepContext;
+- (void)UAFASSETSOURCE_ROOT;
 - (void)P ßÿ;
 
 // Remaining properties
-@property(retain, nonatomic) LCServiceLoggingParameters *applicationParameters; // @synthesize applicationParameters=_applicationParameters;
-@property(copy, nonatomic) NSArray *blacklistedCategories; // @synthesize blacklistedCategories=_blacklistedCategories;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(nonatomic) _Bool hasApplicationParameters; // @synthesize hasApplicationParameters=_hasApplicationParameters;
-@property(nonatomic) _Bool hasBundleIdentifier; // @synthesize hasBundleIdentifier=_hasBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

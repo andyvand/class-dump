@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)showPasswordPromptForWebView:(id)arg1 formType:username:host:hasCredentialForCurrentHost:existingCredentialMatchesForCurrentHost:otherSubdomainCredentialMatches:haveExistingCredentialWithSameUsernameAndDifferentPassword:allowNeverForThisWebsiteButton:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

@@ -7,8 +7,6 @@
 @interface PHAssetCreationMetadataCopyOptions
 {
     _Bool _shouldCopyTitleDescriptionAndKeywords;
-    _Bool _shouldCopySpatialOverCaptureResources;
-    _Bool _shouldCopyLocationData;
 }
 
 + (id);
@@ -18,19 +16,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Tk;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)t;
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)iresInCallSounds;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldCopyLocationData; // @synthesize shouldCopyLocationData=_shouldCopyLocationData;
-@property(nonatomic) _Bool shouldCopySpatialOverCaptureResources; // @synthesize shouldCopySpatialOverCaptureResources=_shouldCopySpatialOverCaptureResources;
 @property(nonatomic) _Bool shouldCopyTitleDescriptionAndKeywords; // @synthesize shouldCopyTitleDescriptionAndKeywords=_shouldCopyTitleDescriptionAndKeywords;
 
 @end

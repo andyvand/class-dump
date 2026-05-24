@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailRouter
 {
     id viewController;
-    id presentingViewController;
 }
 
 @end
